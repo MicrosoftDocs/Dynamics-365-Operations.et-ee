@@ -1,0 +1,59 @@
+---
+title: Tasakaalustuse konfigureerimine
+description: "Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles artiklis kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 14601
+ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
+ms.openlocfilehash: 6927ed98c82f174a18d3d8821fbdb302801835c4
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="configure-settlement"></a>Tasakaalustuse konfigureerimine
+
+Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles artiklis kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks. 
+
+Järgmisi mõjutada, kuidas arveldused töödeldakse Microsoft Dynamics 365 toiminguteks. Tasakaalustus on arve makse või kreeditarvega tasakaalustamise protsess. Need parameetrid asuvad ala **Tasakaalustus** lehtedel **Müügireskontro parameetrid** ja **Ostureskontro parameetrid**.
+
+-   **Automaatne tasakaalustus** – määrake see suvand valikule **Jah**, kui kanne tuleks tasakaalustada teiste avatud kannetega automaatselt kande sisestamisel. Kui see suvand on seatud valikule **Ei**, saavad kasutajad kandeid käsitsi tasakaalustada maksete sisestamisel või hiljem, kasutades lehte **Kannete tasakaalustamine**.
+-   **Skonto haldamine** – võite määrata kuidas on [skonto käitlemisel, kui arve on ülemakstud](cash-discount-handling-overpayments.md). Täitmisel, skonto vähendada, seda saab ravida on võrdne või see võib jääda hankija või kliendi kontolt.
+    -   **Määramata** – skonto summat vähendatakse ülemakse summa võrra. Seda kasutatakse alati, olenemata sellest, kas ülemakse summa on suurem või väiksem kui summa, mis on sisestatud väljale **Suurim üle- või alamakse**.
+    -   **Kindel** – ülemakse summa sisestatakse kas skonto erinevuse pearaamatukontole või jäetakse saldona kliendi või hankija kontole. Kindel käitumine oleneb sellest, kas ülemakse summa on 0,00 ja väljale **Suurim üle- või alamakse** sisestatud summa vahel või kas ülemakse summa on suurem kui summa väljal **Suurim üle- või alamakse**.
+-   **Suurim sendierinevus** – sisestage tasakaalustatud kannete suurim lubatud sendierinevus. Kui sendierinevus on võrdne sellel väljal määratud sendierinevusega või sellest väiksem, sisestatakse erinevus lehel **Automaatsete kannete kontod** määratud sendierinevuse pearaamatukontole.
+-   **Suurim üle- või alamakse** – sisestage üle- ja alamakse puhul aktsepteeritav summa. Üle- või alamaksetelt maksu arvutamiseks klõpsake lehel **Pearaamatu parameetrid** suvandit **Käibemaks** ja seejärel valige suvand **Üle- või alamaksete käibemaks**.
+    -   Kui üle- või alamakse tulemuseks on sendierinevus, mis on väljal **Suurim sendierinevus** määratletud erinevusest väiksem, sisestatakse sendierinevuse summa sendierinevuse kontole.
+    -   Kui üle- või alamakse tulemuseks on sendierinevus, mis on väljal **Suurim sendierinevus** määratletud erinevusest suurem, sisestatakse sendierinevuse summa erinevuse kontole, mis on sisestustüübi **Kliendi skonto** või **Hankija skonto** puhul valitud lehel **Automaatsete kannete kontod**.
+-   **Arvuta skontod osamaksete jaoks** – määrake see suvand valikule **Jah**, et lubada osamaksete skontode automaatne arvutamine.
+    -   Selle suvandi mõju oleneb välja **Kasuta skontot** väärtusest lehel **Kannete tasakaalustamine**. Kui see suvand on seatud valikule **Jah**, võetakse allahindlus, kui välja **Kasuta skontot** väärtuseks on seatud **Tavaline**. Kui välja **Kasuta skontot** väärtuseks on seatud **Alati**, võetakse skonto alati, olenemata selle välja seadistusest. Kui välja **Kasuta skontot** väärtuseks on seatud **Mitte kunagi**, ei võeta skontot mitte kunagi, olenemata selle välja seadistusest.
+    -   Kui see suvand on seatud valikule **Jah** ja kasutaja muudab välja **Tasakaalustatav summa** väärtust lehel **Kannete tasakaalustamine** , arvutatakse allahindlus automaatselt ja kuvatakse vaikekirjena väljal **Skonto summa võtmiseks**.
+    -   Kui see suvand on seatud valikule **Ei** ja kasutaja muudab välja **Tasakaalustatav summa** väärtust lehel **Kannete tasakaalustamine**, on vaikekirjeks väljal **Skonto summa võtmiseks** **0** (null).
+-   **Arvuta skontod kreeditarvete jaoks** – määrake see suvand valikule **Jah** kreeditarvete skonto automaatseks arvutamiseks. Müügireskontros on kreeditarve kanne negatiivne kanne, millel on väärtus väljal **Arve** lehel **Vabas vormis arve** või tagastus lehel **Müügitellimus**.
+    -   Selle suvandi mõju oleneb välja **Kasuta skontot** väärtusest lehel **Kannete tasakaalustamine**. Kui see suvand on seatud **Jah**, allahindlus võetakse kui ka *** kasutamine skonto *** on välja **normaalne**. Kui selle *** kasutamist skonto *** väärtuseks on **alati**, skonto võetakse alati, sõltumata selle välja. Kui on *** kasutamine skonto *** väärtuseks on **ära**, skonto kunagi võtta, sõltumata selle välja.
+    -   Kui see suvand on määratud valikule **Jah** ja kreeditarve on märgitud lehel **Kannete tasakaalustamine**, arvutatakse allahindlus automaatselt ja kuvatakse vaikekirjena väljal **Skonto summa võtmiseks**.
+    -   Kui see suvand on määratud valikule **Ei** ja kreeditarve on märgitud lehele **Kannete tasakaalustamine**, on vaikekirjeks väljal **Skonto summa võtmiseks** **0** (null).
+-   **Allahindluse vastaskontod (ainult ostureskontro)** – määratlege vaikimisi skonto pearaamatukonto, mida tuleks kasutada skontode raamatupidamiskirje puhul.
+    -   **Kasuta hankija allahindluste jaoks põhikontot** – skonto sisestatakse põhikontole, mis on määratletud lehel **Skonto seadistus**.
+    -   **Kontod arve real** – skonto sisestatakse algse arve pearaamatukontodele.
+-   **Märgi read vabas vormis arvetel ja viivisearvetel (ainult osturestkontro)** – määrake see suvand valikule **Jah** nupu **Märgi arve read** lubamiseks lehtedel **Kliendimaksete sisestamine**, **Makse töölehekanne** ja **Kannete tasakaalustamine**. See nupp võimaldab kasutajatel märkida tasakaalustuse üksikuid ridu.
+-   **Tasakaalustuse prioritiseerimine (ainult ostureskontro)** – määrake see suvand valikule **Jah** nupu **Märgi prioriteedi alusel** lubamiseks lehtedel **Kliendimaksete sisestamine** ja **Kannete tasakaalustamine**. Selle nupu abil etteantud lahendamise järjekorra määramiseks tehingute kasutaja.  Pärast tehingu lahendamise tellimuse rakendamist, tellimuse ja makse jaotus muuta enne postitamist.
+-   **Kasuta prioriteeti automaatne arvelduste** – seadke selle suvandi väärtuseks **Jah** abil määratletud järjestust tehingutega seotud arveldamine toimub automaatselt. See väli on saadaval ainult juhul, kui on **esikohale lahendamise** ja **automaatne tasakaalustus** on seatud **Jah**.
+
+
+

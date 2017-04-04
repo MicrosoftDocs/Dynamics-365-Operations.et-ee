@@ -1,0 +1,56 @@
+---
+title: Mittevastavuse juhtimine
+description: "Selles artiklis kirjeldatakse põhiseadistust, mis on mittevastavuste kasutamiseks nõutav. Täiendav seadistus on nõutav, kui soovite kasutada kvaliteettellimusi."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 28951
+ms.assetid: a62d4ba8-eebc-4b14-b587-630be7298522
+ms.search.region: Global
+ms.author: perlynne
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
+ms.openlocfilehash: 6f25e2930ff265df1f938cdf56e8a0f4993617af
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="nonconformance-management"></a>Mittevastavuse juhtimine
+
+Selles artiklis kirjeldatakse põhiseadistust, mis on mittevastavuste kasutamiseks nõutav. Täiendav seadistus on nõutav, kui soovite kasutada kvaliteettellimusi. 
+
+Mittevastavuse haldamise võimaldamiseks tehke järgmist.
+
+1.  Määratlege mittevastavustega seotud varude ja laohalduse parameetrid.
+    -   Määrake suvandi **Kasuta kvaliteedijuhtimist** sätteks **Jah**.
+    -   Sisestage väljale **Tunnimäär** tunnitasu kohalikus valuutas. Tunnimäära kasutatakse mittevastavusega seotud toimingute kulude arvutamiseks. Tunnimäär ja arvutatud kulud annavad viiteteavet mittevastavuse kohta. Need ei mõjuta teisi funktsioone.
+    -   Kasutamine ning **juhtimine** tabeldusklahviga ning **seadistus** lehe printimiseks dokumendi tüübi määratlemiseks. Saate printida aruande mittevastavuse, mittevastavused sildi või paranduste aruandena. Saate määrata mitu kirjet erinevate dokumenditüüpide printimiseks aruandele või sise- või välismärkuste printimiseks. Kasulik võib olla kasutada lehte **Dokumendi tüüp**, et määrata mittevastavustele ja parandustele kordumatu dokumenditüüp. Näiteks soovite sisestada märkusi mittevastavuse kohta mittevastavuste kordumatu dokumenditüübi abil. Sellisel juhul tuvastage kordumatu dokumenditüüp aruandevalikutes.
+    -   Lubage mittevastavuse ja paranduse viidete numbriseeriad.
+
+2.  Lubage kasutajapoolne mittevastavuste kinnitamine. Kasutage välja **Nimi** lehel **Kasutajad** töötaja määramiseks igale kasutajale, kes peab mittevastavuse kinnitama. Süsteem kasutab mittevastavuse ajaloo jälgimiseks töötajaid, kes mittevastavuse olekut muudavad. Kasutajad ei saa mittevastavust kinnitada, kui neile pole töötaja ID-d määratud.
+3.  Määratlege mittevastavustele määratavad probleemitüübid. Kasutage lehte **Probleemi tüübid** mitmesugustes mittevastavuse tüüpides ilmnevate kvaliteediprobleemide klassifikatsiooni määratlemiseks. Saate seadistada järgmisi mittevastavuse tüüpe: **Sisemine**, **Klient**, **Hankija**, **Teenuse päring**, **Tootmine** ja **Kaastoote tootmine**. Kasutage lehte **Mittevastavuse tüübid**, et lubada probleemi tüübi kasutamine ühes või enamas mittevastavuse tüübis. Näiteks veakoodiga seotud probleemitüüp võib rakenduda kõigile mittevastavuse tüüpidele, samas kui kliendikaebustega seotud probleemitüüp võib rakenduda ainult mittevastavuse tüüpidele **Klient** ja **Teenuse päring**.
+4.  Määrake vahelao tsoonid vigase materjali kasutamise kohta juhiste pakkumiseks. Kasutage lehte **Vahelao tsoonid** tsoonide määratlemiseks, mida saab mittevastavusele määrata. Prinditud mittevastavuse silt kuvab määratud vahelao tsooni ja kasutamisteabe juhiste pakkumiseks vigaste materjalide käsitsemise kohta. Tsoonid võivad vastata lao asukohtadele või operatsiooniressurssidele.
+5.  Määratlege parandustele määratavad diagnostika tüübid. Kasutage lehte **Diagnostika tüübid** diagnostiliste toimingute klassifikatsiooni määratlemiseks. Parandus määratleb, mis tüüpi diagnostilist tegevust tuleks kinnitatud mittevastavuse korral kasutada ja kes peaks seda tegema. Samuti määratleb see nõutava lõpetamise kuupäeva ja plaanitud lõpetamise kuupäeva.
+6.  Määratlege mittevastavustele määratavad seotud toimingud. Kasutage lehte **Toimingud** töö klassifikatsiooni määratlemiseks, mida saab teha kinnitatud mittevastavuse puhul. Kui määrate mittevastavusele seotud toimingu, saate pakkuda üksikasjalikku teavet, nagu teavet toimingu tegemiseks nõutava seotud materjali, töötundide ja lisakulude kohta. Seda teavet kasutatakse toimingu eeldatava omahinna arvutamiseks. Üksikasjalikku teavet ja eeldatavat omahinda kasutatakse viitena. Kvaliteediga seotud toimingud erinevad toimingutest, mida saab määrata tootmisprotsessile.
+
+
+<a name="see-also"></a>Vt ka
+--------
+
+[Luua ja töödelda mitte vastavuse (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+
+[Quality management processes](quality-management-processes.md)
+
+[Luua eeldused-vastavuse haldamine (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+

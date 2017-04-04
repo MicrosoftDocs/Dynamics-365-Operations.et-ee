@@ -1,0 +1,127 @@
+---
+title: ELi kandesertifikaadid
+description: Artikkel annab teavet Euroopa Liidu (EL) kirjesertide kohta.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: CustEntryCertificateJour_W, CustParameters, CustTable, SalesTable
+audience: Application User
+ms.reviewer: annbe
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 11464
+ms.assetid: e2240f55-cc9a-4ba4-ad50-2d919bca3b7f
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: mrolecki
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
+ms.openlocfilehash: a951b1f0159ef61704fb772d81ab6a9bc1c80589
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="eu-entry-certificates"></a>EL-i kandesertifikaadid
+
+Artikkel annab teavet Euroopa Liidu (EL) kirjesertide kohta.
+
+Euroopa Liidu (ELi) kandesertifikaat võimaldab teha järgmisi toiminguid.
+
+-   Looge ja väljastage EL-i kandesertifikaat koos saatelehe või kliendiarvega kaupade või teenuste ELi riikidesse/regioonidesse tarnimiseks.
+-   Võtke vastu EL-i kandesertifikaate, mille on allkirjastanud EL-i klient.
+-   Laadige üles allkirjastatud EL-i kandesertifikaat, mille saite kliendilt või kolmandalt osapoolelt, kes vastutab kaupade kliendile tarnimise eest.
+-   Seostage üleslaaditud EL-i kandesertifikaat kliendiarvega.
+-   Värskendage üleslaaditud EL-i kandesertifikaadi olekut.
+
+## <a name="prerequisites"></a>Eeltingimused 
+Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse loomiseks täidetud.
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kategooria</th>
+<th>Eeltingimus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Riik/regioon</td>
+<td>Juriidilise isiku peamine aadress peab olema ELi liikmesriigis.</td>
+</tr>
+<tr class="even">
+<td>Seotud seadistustoimingud</td>
+<td><ul>
+<li>Tehke lehel <strong>Müügireskontro parameetrid</strong> valikud <strong>Luba kandesertifikaadi haldamine</strong> ja <strong>Luba kandesertifikaadi väljastamine</strong>.</li>
+<li>Tehke lehe <strong>Kliendid</strong> kiirkaardil <strong>Arve ja tarne</strong> valik <strong>Kandesertifikaat on nõutav</strong>, näitamiseks, et ELi kandesertifikaat on kliendi puhul nõutav. Märkige valik <strong>Väljasta kandesertifikaat</strong>, et väljastada kliendile juriidilise isiku ELi kandesertifikaat.</li>
+<li>Valige lehelt <strong>Müügireskontro parameetrid</strong> valiku <strong>Kandesertifikaat</strong> viitele numbriseeria kood.</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Seotud kanded</td>
+<td><ul>
+<li>Looge kliendikonto.</li>
+<li>Looge müügitellimus.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>ELi kandesertifikaadi loomine, registreerimine ja üleslaadimine
+EL-i kandesertifikaadi saab luua automaatselt või käsitsi. ELi sisenemise sertifikaadi luuakse ja trükitud automaatselt konteerimisel saatelehe või arve kliendi abil on **pakkimine saatelehe sisestamine** lehele või **sisestamise arve** lehel. Käsitsi loomiseks või ELi sisenemise sertifikaadi kliendi arve uuesti printida, kasutage selle **tööleht** lehel. Lisaks saate sisestada kolmanda osapoole väljastatud EL-i kandesertifikaadi üksikasjad lehele **Kandesertifikaadi tööleht**.
+
+### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>ELi kandesertifikaadi loomine automaatselt või käsitsi
+
+Saate luua ELi kandesertifikaadi automaatselt, kasutades saatelehte lehel **Kõik müügitellimused** või arvet lehel **Müügitellimus**. ELi kandesertifikaadi käsitsi loomiseks võite kasutada arvet lehel **Arve tööleht**. Kuid enne ELi kandesertifikaadi käsitsi loomist tuleb arve sertifikaadi olekut muuta.
+
+### <a name="registering-an-eu-entry-certificate"></a>ELi kandesertifikaadi registreerimine
+
+Kui registreerimine on vajalik, saate registreerida kolmanda osapoole väljastatud EL-i kandesertifikaadi lehel** Kandesertifikaadi tööleht**.
+
+### <a name="uploading-a-received-eu-entry-certificate"></a>Vastuvõetud ELi kandesertifikaadi üleslaadimine
+
+Kasutage ELi kliendi allkirjaga vastuvõetud ELi kandesertifikaadi üleslaadimiseks lehte **Manused**. Pärast sertifikaadi üleslaadimist saate seostada selle arvega, et tõendada kaupade tarnimist. See tõend on vajalik, kui peate väljastama arve, mis ei sisalda käibemaksu (KM), ja seda kasutatakse ka auditeerimise ajal.
+
+### <a name="optional-updating-the-certification-status-and-printing-status-of-an-invoice"></a>Valikuline: arve sertifikaadi oleku ja printimisoleku uuendamine
+
+Saate uuendada kliendiarve kandesertifikaadi olekut ja printimisolekut, kasutades lehte **Arve tööleht**.
+
+## <a name="technical-information-for-system-administrators"></a>See teave on mõeldud süsteemi administraatoritele.
+Kui teil pole juurdepääsu lehtedele, mida kasutatakse selle ülesande täitmiseks, pöörduge oma süsteemiadministraatori poole ja edastage järgmises tabelis antud andmed.
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kategooria</th>
+<th>Eeltingimus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Turberollid ja kohustused</td>
+<td>Kaupade või teenuste jaoks EL-i kandesertifikaatide häälestamiseks ja loomiseks peate kuuluma turberolli, mis hõlmab järgmisi kohustusi.
+<ul>
+<li><strong>Müügireskontro ametnik</strong> (CustInvoiceAccountsReceivableClerk)</li>
+<li><strong>Klienditeeninduse esindaja</strong> (TradeCustomerServiceRepresentative)</li>
+<li><strong>Müügiametnik</strong> (TradeSalesClerk)</li>
+<li><strong>Lähetusametnik</strong> (InventShippingClerk)</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+
+
+

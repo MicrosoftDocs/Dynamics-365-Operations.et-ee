@@ -1,0 +1,148 @@
+---
+title: Ostureskontro konfigureerimine
+description: "Selles artiklis kirjeldatakse lehti, mida kasutatakse Microsoft Dynamics AX-is mooduli Ostureskontro põhi- ja valikuliste funktsioonide seadistamiseks. Kirjeldatakse ka seadistamistoiminguid, mis tuleb teha enne mooduli Ostureskontro seadistamist."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 24671
+ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
+ms.search.region: Global
+ms.author: mfalkner
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 926ee087a0e0c4743f29315b1d82c7d37e95be28
+ms.openlocfilehash: b06623a0eb754654f41c50b92af67dc94a069663
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="configure-accounts-payable"></a>Ostureskontro konfigureerimine
+
+Selles artiklis kirjeldatakse lehti, mida kasutatakse Microsoft Dynamics AX-is mooduli Ostureskontro põhi- ja valikuliste funktsioonide seadistamiseks. Kirjeldatakse ka seadistamistoiminguid, mis tuleb teha enne mooduli Ostureskontro seadistamist.
+
+<a name="prerequisites-for-accounts-payable-setup"></a>Ostureskontro seadistamise eeltingimused
+----------------------------------------
+
+Enne ostureskontro seadistamist tuleb teha järgmine seadistus.
+
+-   Pearaamatus.
+    -   Kui kavatsete kasutada maksetöölehti, seadistage maksetöölehed.
+    -   Kui te kavatsete käivitada vahetuskursi korrektsioone, seadistage valuutakoodid lehel Valuutad, seadistage vahetuskursi tüübid lehel Vahetuskursi tüübid ja valuutavahetuskursid lehel Valuutavahetuskursid.
+-   Seadistage moodulis Sularaha- ja pangahaldus makseviiside korral kasutatavad pangakontod.
+
+## <a name="setup-pages-for-accounts-payable"></a>Setup leheküljed ostureskontrole
+
+Kasutage järgmisi lehti iga juriidilise isiku jaoks ostureskontro põhifunktsioonide seadistamiseks. Lehed on loetletud soovitatavas seadistamise järjekorras. Seadistamisprotsessi hõlbustamiseks saate luua malle esimeste loodud kirjete põhjal. Mallis sisestatakse tavaliselt paljudele väljadele väärtused, mis kajastavad funktsioone, mida organisatsioon soovib teatud tüüpi hankija korral kasutada.
+1.  Lehel Maksetingimused saate määratleda müügitellimustele, ostutellimustele, klientidele ja hankijatele määratud maksetingimused, mis määravad kindlaks arve tähtajad.
+2.  Lehel Makseviisid – hankijad saate luua ja hallata andmeid selle kohta, kuidas organisatsioon oma hankijatele maksab.
+3.  Lehel Hankijagrupid saate luua ja hallata hankijagruppe, millel on olulised ühised parameetrid sisestamise, tasakaalustuse ja maksmise, aruandluse ja prognoosimise jaoks.
+4.  Lehel Hankija sisestusreeglid saate määratleda, kuidas hankijakanded pearaamatusse sisestatakse.
+5.  Lehel Ostureskontro parameetrid saate seadistada vaikesätted, mida rakendada, kui täpsemat sätet ei ole määratletud, erinevate funktsioonide parameetrid ja erinevad ostureskontro numbriseeriad.
+6.  Lehel Vormi seadistus saate määratleda erinevate dokumentide vormingu, mis on seotud hankijaga ja mida organisatsioon kasutab, et jälgida hankijatelt saadud sissetulekuid ja sisestada hankijate maksevoo põhjusi.
+7.  Lehel Hankijad saate luua ja hallata hankijakontosid ja samuti maksuasutusi, millele teie organisatsioon käibearuandeid esitab.
+
+## <a name="optional-setup-pages-for-accounts-payable"></a>Valikuline salvestamine lehti maksmata arvete
+Lisaks põhifunktsioonidele on moodulil Ostureskontro muid funktsioone, mida saab seadistada.
+
+Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.
+
+**Policies**
+-   Lehel Hankija arvepoliitika saate seadistada hankija arvepoliitikaid.
+
+**Invoice matching**
+
+-   Lehel Arvesummade lubatud kõikumised saate seadistada arvesummade lubatud kõikumisi.
+-   Lehel Vastavusse viimise poliitika saate seadistada kahesuunalisi ja kolmesuunalisi vastavusse viimise poliitikaid.
+-   Lehel Hinnakõikumised saate seadistada ühikuhindade lubatud kõikumisi.
+-   Lehel Kauba hinnakõikumisgrupid saate seadistada kauba hinnakõikumisgruppe.
+-   Lehel Hankija hinnakõikumisgrupid saate seadistada hankija hinnakõikumisgruppe.
+-   Lehel Tasude kõikumised saate seadistada tasude lubatud kõikumisi.
+
+**Workflow**
+
+-   Lehel Ostureskontro töövood saate seadistada töövookonfiguratsioone töölehtede kinnituste ja ostutaotluste jaoks.
+
+**Reasons**
+
+-   Lehel Hankija põhjused saate seadistada põhjusekoode.
+
+**Charges**
+
+-   Lehel Tasukoodid saate seadistada ostutellimustel kasutatavaid tasukoode.
+-   Lehel hankija makse grupi saate luua ja hallata hankijatele gruppe.
+-   Lehel Kauba tasugrupid  saate luua ja hallata kaupade tasugruppe.
+-   Lehel Automaatsed kulud saate määratleda tellimustele automaatselt määratavad tasud.
+
+**Supplementary items**
+
+-   Lehel Lisakaubagrupid – hankija saate luua ja hallata hankijate lisakaubagruppe.
+-   Lehel Lisakaubagrupid – varud saate luua ja hallata kaupade lisakaubagruppe.
+
+**Distribution**
+
+-   Lehel Tarnetingimused saate luua ja hallata kauba müüjalt ostjale tarnimise tingimusi.
+-   Lehel Tarneviisid saate luua ja hallata transpordiviise, mida kasutatakse tellimuse transportimisel müüjalt ostjale.
+-   Lehel Sihtkoha koodid saate luua ja hallata sihtkohtade koode ja kirjeldusi.
+
+**Forms**
+
+-   Lehel Vormi märkused saate luua mitmesugustel lehtedel kuvatavat standardteksti.
+-   Lehel Vormi sortimisparameetrid saate seadistada ostutellimuste, saabunud kaupade loendi, saatelehtede ja arvete sortimisjärjestuse.
+-   Lehel Prindihalduse seadistus saate seadistada prindihalduse teabe lehtede originaalidele ja koopiatele.
+
+**Payments**
+
+-   Lehel Skontod saate seadistada ja hallata skontode saamise tingimusi. Skonto koodid on seotud hankijatega ja neid rakendatakse ostutellimuste korral.
+-   Lehel Maksegraafikud saate seadistada maksegraafikuid, mida kasutatakse hankijatele osamaksete tegemiseks.
+-   Lehel Maksepäevad  saate määratleda tähtaegade arvutamiseks kasutatavad maksepäevad ja täpsustada maksepäevaks konkreetse nädalapäeva või kuu.
+-   Lehel Maksetasu saate luua ja hallata hankijatega seotud maksetasusid.
+-   Lehel Maksejuhis saate luua ja hallata maksejuhiseid.
+
+**Statistics**
+
+-   Lehel Aegumisperioodi määratlused saate seadistada kasutaja määratletud intervalle, mida kasutatakse hankijakontode tähtajalise jaotuse analüüsimiseks.
+-   Lehel Tegevusala saate luua tegevusala koode, mis hankijatele määratakse.
+
+**Maksu 1099**
+
+-   Kohta ning **1099 väljad** lehekülg, kontrollida ja uuendada miinimumsummad, peavad aru et sisemine tulu teenuse (IRS), Viimane IRS vajaduste järgi.
+
+## <a name="optional-setup-for-other-modules"></a>**Valikuline salvestamine teistes moodulites**
+**Organization administration**
+
+-   Lehel numbriseeriad saate seadistada arvenumbritele numbriseeriate grupid.
+-   Saate seadistada järgmistel lehtedel aadressiteabe.
+    -   Aadressi häälestamine
+    -   NAF-koodid
+    -   Impordi sihtnumbrid
+
+**General ledger**
+
+-   Lehel Finantsdimensioonid saate seadistada finantsdimensioone.
+-   Järgmistel lehtedel saate seadistada maksuteavet.
+    -   Käibemaksukoodid
+    -   Käibemaksugrupid
+    -   Kauba käibemaksugrupid
+    -   Kontogrupp
+    -   Käibemaksuvabastuse koodid
+    -   Käibemaksu jurisdiktsioonid
+    -   Käibemaksuhaldurid
+    -   Käibemaksu tasakaalustusperioodid
+
+**Cash and bank management**
+
+-   Lehel Makse eesmärgi koodid saate seadistada keskpangamakse eesmärgikoodi.
+
+
+
+

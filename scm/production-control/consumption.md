@@ -1,0 +1,82 @@
+---
+title: Arvutab materjalikulu
+description: See artikkel annab teavet mitmesuguste valikute kohta, mis on seotud materjalikulu arvutamisega.
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
+audience: Application User
+ms.reviewer: annbe
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 53401
+ms.assetid: 9cff88e4-0425-4707-9178-3c2cb10df7c2
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: johanho
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 2225707329c67a30d9234bef5282d49834ea042a
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="calculate-material-consumption"></a>Arvutab materjalikulu
+
+See artikkel annab teavet mitmesuguste valikute kohta, mis on seotud materjalikulu arvutamisega. 
+
+Lehe **Kooslus** kiirkaardil **Rea üksikasjad** vahekaartidel **Seadistus** ja **Etapiviisiline tarbimine** on saadaval järgmised materjalitarbimise arvutamisega seotud suvandid.
+
+## <a name="variable-and-constant-consumption"></a>Muutuv ja konstantne tarbimine
+Aastal ning **on** välja, saate valida, kas teatud või muutuv kogus arvutatakse tarbimine. Valige **pidev** kui fikseeritud kogus või maht on vaja, sõltumata kogusest toodetud. Valige suvand **Muutuv**, mis on vaikesäte, kui materjali nõutav kogus valmiskaupades on toodetavate valmiskaupade arvuga proportsionaalne.
+
+## <a name="calculating-consumption-from-a-formula"></a>Tarbimise arvutamine valemi põhjal
+Väljal **Valem** saate seadistada erinevaid valemeid materjalitarbimise arvutamiseks. Kui kasutate vaikeväärtust, **Standardne**, ei arvutata tarbimist valemi põhjal. Väljadega **Kõrgus**, **Laius**, **Sügavus**, **Tihedus** ja **Konstant** toimivad järgmised valemid.
+
+-   Kõrgus \*pidevalt
+-   Kõrgus \*laius \*pidevalt
+-   Kõrgus \*laius \*sügavus \*pidevalt
+-   (Kõrgus \*laius \*sügavus / tihedus) \*Pidev
+
+## <a name="rounding-up-and-multiples"></a>Ümardamine ja kordsed
+Väljad **Ümardamine** ja **Kordsed** võimaldavad ümardada materjalitarbimise väärtust. Näiteks saate ümardada väärtuse materjali käsitlemisühiku järgi, milles toormaterjali tootmisse komplekteeritakse. Väljal **Ümardamine** on saadaval järgmised valikud: **Kogus**, **Mõõt** ja **Tarbimine**.
+
+### <a name="quantity"></a>Kogus
+
+Kui valite ümardamismehhanismiks suvandi **Kogus**, peab kogus olema määratud koguse kordne. Näiteks, kui nõutavad on täisarvud, valige väljal **Kordsed** väärtus **1**. Arvud ümardatakse seejärel koguseni, mis jaguvad on 1.
+
+### <a name="measurement"></a>Mõõtmine
+
+Tavaliselt valite ümardamismehhanismiks suvandi **Mõõt**, kui toormaterjalil on kindlad mõõtmed. Näiteks on valmistoote jaoks nõutav 2-meetrine metalltoru ja metalltorusid hoiundatakse 4,5-meetri pikkustena. Sellisel juhul saab ümardusmehhanismiga **Mõõt** arvutada, kui palju metalltorusid on vaja kindla arvu valmistoodete tootmiseks. Näiteks, et **valem** väärtuseks on **kõrgus \*pidev**. On **kõrgus** on välja **2** näitamiseks valmis hea vajalik toru pikkus. Välja **Kordne** väärtuseks on seatud **4,5**, mis näitab, et toru komplekteeritakse pikkustes 4,5 meetrit. Arvutuskäik on järgmine.
+
+1.  10 ühiku valmiskauba jaoks vajalike kordühikute arv: 10 ÷ 2 = 5 tk
+2.  Kogutarbimine: 4.5 × 5 = 22,5 meetrit metalltoru
+
+Eeldatakse, et 0,5-meetrine toruosa kantakse iga viie tarrbitud toru kohta maha.
+
+### <a name="consumption"></a>Tarbimine
+
+Tavaliselt valite ümardamismehhanismi suvandiks** Tarbimine**, kui toormaterjali komplekteeritakse toote kindla materjali käsitlemisühiku täielikes kogustes. Näiteks kasutatakse ühe valmistoote tootmiseks 2 liitrit värvi ja värvi komplekteeritakse 25-liitristes tünnides. Selles näites saab ümardamismehhanismiga **Tarbimine** ümardada tarbimise täisarvu, 25-liitristes tünnideni. Värvi, mis on vajalik, kui 180 lõpetatud kauba ühikut, tuleb esitada arvutusmeetodid järgnevalt:
+
+1.  Vajalik värv, v.a praak: 180 × 2 = 360 liitrit
+2.  Tünnide arv: 360 ÷ 25 = 14,4, ümardatuna 15
+3.  Vajalik värv, k.a praak: 15 × 25 = 375 liitrit
+
+## <a name="step-consumption"></a>Sammu tarbimine
+Etapiviisilist tarbimist kasutatakse koguseintervalliga konstantse tarbimise arvutamiseks. Kui valite vahekaardi **Seadistus** väljal **Valem** suvandi **Etapiviisiline tarbimine**, saate lisada teavet etappide kohta vahekaardil **Etapiviisiline tarbimine**. Fikseeritud tarbitud koguse saab seadistada toodetud koguse intervalliga. Näiteks seadistatakse etapiviisiline tarbimine nii, nagu kirjeldatud allolevas tabelis.
+
+| Seeriatest | Kogus |
+|-------------|----------|
+| 0,00        | 10,0000  |
+| 100,00      | 20.0000  |
+| 200,00      | 40.0000  |
+
+Koosluse kogus on 1 ja tootmiskogus 110. Tarbimise valem on Lähteseeria (kogus) = tarbimine. Kuna tootmiskogus on 110, jääb see vahemikku „Alates 100 seeriast”. Seega on kogus 20.
+
+

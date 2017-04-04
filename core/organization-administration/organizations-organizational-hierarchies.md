@@ -1,0 +1,62 @@
+---
+title: Organisatsioonid ja organisatsiooni hierarhiad
+description: "Organisatsiooni on grupp inimesi, kes töötavad koos äriprotsessi või eesmärgi saavutamiseks. Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate organisatsioonide vahelisi seoseid."
+author: sericks007
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 17291
+ms.assetid: 76b7ca45-93d4-45cc-b191-66ee63afa1fd
+ms.search.region: Global
+ms.author: sericks
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
+ms.openlocfilehash: 5dc866e2d366138d2fd9d0f9c41cb66892051f3c
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="organizations-and-organizational-hierarchies"></a>Organisatsioonid ja organisatsiooni hierarhiad
+
+Organisatsiooni on grupp inimesi, kes töötavad koos äriprotsessi või eesmärgi saavutamiseks. Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate organisatsioonide vahelisi seoseid.
+
+<a name="organizations"></a>Organisatsioonid
+-------------
+
+Microsoft Dynamics 365 toiminguteks, saate määratleda järgmist tüüpi sisemine organisatsioonid: juriidilised isikud tegutsevad üksused ja meeskonnad.
+
+Kõik siseorganisatsioonid on **osapoole** üksuse tüübid. Seetõttu kasutavad need organisatsioonid aadressi- ja kontaktteave talletamiseks aadressiraamatut. Osapool, mis saab olla kas isik või organisatsioon, võib kuuluda ühte või mitmesse aadressiraamatusse.
+### <a name="legal-entities"></a>Juriidilised isikud
+
+Juriidiline isik on registreeritud või õigusliku struktuuriga organisatsioon. Juriidilised isikud võivad sõlmida juriidilisi lepinguid ja on kohustatud koostama oma tegevuse kohta aruandeid. Ettevõte on juriidiline isik. Selles versioonis Microsoft Dynamics 365 toiminguteks, ettevõtted on saate luua ainult selline juriidiline isik ja iga juriidiline isik on seotud ka ettevõtte ID. See seos on olemas, kuna mõni programmi funktsioonivaldkond kasutab oma andmemudelis ettevõtte ID-d või atribuuti DateAreaId. Neis funktsioonivaldkondades kasutatakse ettevõtteid andmeturbe piirina. Kasutajad pääsevad juurde ainult selle ettevõtte andmetele, millesse nad parasjagu sisse on loginud.
+
+### <a name="operating-units"></a>Tootmisüksused
+
+Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks. Inimestel tootmisüksuses on kohustus maksimeerida nappide ressursside kasutamist, täiustada protsesse ja vastutada nende toimivuse eest. Microsoft Dynamics 365 operatsioonide üksused tüübid kulukeskuste, äriüksused, väärtus ojad, osakondade ja jaemüügikanalid. Järgmine tabel annab lisateavet iga tüüpi tootmisüksuse kohta.
+| Tootmisüksuse tüüp | Kirjeldus                                                                                                                                    | Eesmärk                                                                                                                                 |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Kulukeskus         | Tootmisüksus, mille juhid vastutavad eelarveliste ja tegelike kulude eest.                                                      | Kasutatakse juriidilisi isikuid hõlmavate äriprotsesside haldamiseks ja tegevusjuhtimiseks.                                         |
+| Äriüksus       | Poolautonoomne tootmisüksus, mis on loodud strateegilise ärieesmärkide saavutamiseks.                                                        | Kasutatakse finantsaruandluseks, mis põhineb tööstusvaldkondadel või tootmissuundadel, mida organisatsioon juriidilistest isikutest sõltumatult pakub. |
+| Väärtuse voog        | Tootmisüksus, mis kontrollib ühte või mitut tootmisvoogu.                                                                                  | Tavaliselt kasutatakse kulusäästlikus tootmises toote või teenuse tarbijani viimiseks vajalike tegevuste ja voogude juhtimiseks.  |
+| Osakond          | Tootmisüksus, mis kujutab kindlat ülesannet (nt müük või raamatupidamine) täitva organisatsiooni kategooriat või funktsionaalset osa. | Kasutatakse funktsioonivaldkondade aruandluseks. Osakond võib vastutada kasumi ja kahjumi eest ning koosneda kulukeskuste grupist.   |
+| Jaemüügikanal      | Tootmisüksus, mis kujutab traditsioonilist kauplust, võrgupoodi või võrguturuplatsi.                                          | Kasutatakse ühe või mitme kaupluse haldamiseks ja tegevusjuhtimiseks juriidiliste isikute piires või vahel.                                  |
+
+### <a name="teams"></a>Meeskonnad
+
+Töörühm on organisatsioon, mille liikmed jagavad ühist vastutust, huvi või eesmärki. Töörühmi ei saa kasutada organisatsiooni hierarhiates.
+Organisatsiooni hierarhiad
+--------------------------
+
+Organisatsiooni hierarhiate seadistamine võimaldab teil oma äri vaadata ja selle aruandlust teha erinevatest aspektidest. Näiteks saate seadistada juriidiliste isikute hierarhia maksu-, õigus- või seadusliku aruandluse jaoks. Saate seadistada tootmisüksustel põhineva hierarhia finantsteabe aruandluseks, mis ei ole õiguslikult vajalik, kuid mida kasutatakse sisejuhtimiseks. Näiteks saate luua ostuhierarhia ostupoliitikate, -reeglite ja äriprotsesside juhtimiseks. Iga hierarhia on määratud Microsoft Dynamics 365 tegevuse eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada. Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul alistada. Organisatsioonide ja hierarhiate loomine nõuab hoolikat planeerimist. Lisateavet kohta vt teemast [Organisatsiooni hierarhia planeerimine](plan-organizational-hierarchy.md).
+
+
+
+

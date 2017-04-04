@@ -1,0 +1,70 @@
+---
+title: "Põhivara kande Valikud"
+description: "Selles artiklis kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: AssetTable, PurchCreateOrder
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 23061
+ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
+ms.search.region: Global
+ms.author: saraschi
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: b41901d573e977a89fcd1a7c1ebf7185e162c654
+ms.openlocfilehash: 16e501f5f49f75b643685059a093d5c538e1f55d
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="fixed-asset-transaction-options"></a>Põhivara kande Valikud
+
+Selles artiklis kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise.
+
+Põhivarad on võimalik integreerida ostureskontroga, müügireskontroga, hanke ja pearaamatuga. Samuti saate kaupu laohalduses põhivaradesse üle viia, kui soovite neid kaupu ettevõttesiseselt kasutada.
+
+## <a name="accounts-payable"></a>Ostureskontro
+Saate sisestada põhivarakanded lehele Töölehe kanne. Selle lehe saab avada lehelt Arve tööleht. Saate avada lehe Töölehe kanne ka lehelt Arve kinnitamise tööleht. Tehke väljal Vastaskonto tüüp valik Põhivara. Seejärel valige väljalt Vastaskonto põhivara number. Sisestage vahekaardil Põhivarad väärtused väljadele Kande tüüp ja Raamat.
+
+## <a name="accounts-receivable"></a>Müügireskontro
+Põhivara saate sisestada vabas vormis arve lehel.  Vabas vormis arve lehel arve read ruudustiku, joone üksuse valimine Klõpsake kiirkaarti Rea üksikasjad. Sisestage likvideerimiskandele põhivara number ja raamat. Vabas vormis arvete puhul on põhivarakande tüübiks alati Likvideerimine – müük.
+
+## <a name="procurement-and-sourcing"></a>Hanked
+Saate sisestada põhivarakanded lehele Ostutellimus. Sisestage ostutellimuse loomiseks vajalik teave ja klõpsake seejärel nuppu OK. Klõpsake lehel Ostutellimus kiirkaarti Rea üksikasjad. Seejärel sisestage vahekaardile Põhivara teave põhivara kohta. 
+
+Olemasolevale põhivarale soetuskande sisestamiseks määrake põhivara number, raamat ja kande tüüp. Põhivara ei saa sisestada, kui osa sellest teabest on puudu. Uuele põhivarale soetuskande sisestamiseks tehke valik Uus põhivara? ja valige siis põhivaragrupp uuele põhivarale määramiseks. Ükski põhivara väli ei ole rea jaoks saadaval, kui kaup on laomudeligrupis, mis kasutab standardkulu laomudelit. Suvandid, mis on määratud lehel Põhivara parameetrid, määravad selle, kas saate ostumoodulitest soetuskandeid sisestada. 
+
+Kui põhivara soetamiseks kasutatakse ostutellimust või töölehte Põhivara varud, mõjutab see laoväärtust.
+
+## <a name="general-ledger"></a>Pearaamat
+Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate põhivarade puhul töölehti kasutada põhivarakannete sisestamiseks.
+
+## <a name="options-for-entering-fixed-asset-transaction-types"></a>Põhivara kandetüüpide sisestamise suvandid
+
+
+| Kande tüüp                    | Moodul                   | Suvandid                                   |
+|-------------------------------------|--------------------------|-------------------------------------------|
+| Soetamine, Soetamise korrigeerimine | Põhivarad             | Põhivara, Põhivara varud   |
+|                                     | Pearaamat           | Päevaraamat                           |
+|                                     | Ostureskontro         | Arve tööleht, Arve kinnitamise tööleht |
+|                                     | Hanked | Ostutellimus                            |
+| Kulum                        | Põhivarad             | Põhivarad                              |
+|                                     | Pearaamat           | Päevaraamat                           |
+| Likvideerimine                            | Põhivarad             | Põhivarad                              |
+| ** **                               | Pearaamat           | Päevaraamat                           |
+| ** **                               | Müügireskontro      | Vabas vormis arve                         |
+
+
+
+Lisateabe saamiseks vaadake [fikseeritud varade integratsiooni](fixed-asset-integration.md).
+
+

@@ -1,0 +1,49 @@
+---
+title: Hankija veebiportaali kasutaja turvalisus
+description: "See artikkel selgitab, kuidas seadistada hankija portaali kasutavate väliste hankijate turvet. See teave kehtib ainult veebruar 2016 &amp;Dynamics AX mai 2016 versioonid."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: SysUserManagement
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 30231
+ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
+ms.openlocfilehash: 3a5c6a256f8330ba238ea3c0c25f14b10a9a58e6
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="vendor-portal-user-security"></a>Hankija veebiportaali kasutaja turvalisus
+
+See artikkel selgitab, kuidas seadistada hankija portaali kasutavate väliste hankijate turvet. See teave kehtib ainult veebruar 2016 &amp;Dynamics AX mai 2016 versioonid.
+
+Hankija portaali funktsionaalsus on asendatud laiendatud hankija koostööfunktsioonide Dynamics 365 toiminguid versiooni 1611. Hankija koostöö turvalisuse seadistamise kohta lisateabe saamiseks vt [määrata hankija koostöö ja](set-up-maintain-vendor-collaboration.md). Hankija portaal näitab välishankijatele piiratud koguses teavet ostutellimuste (OT-d) kohta. On oluline, et seadistate õigesti Microsoft Dynamics AX-i hankija portaali kasutajaõigused, nii et hankijatel ei ole soovimatut juurdepääsu teie Dynamics AX-i installi lisateabele. **Oluline.** Erinevalt teistest kasutajatest ei peaks välishankijatel olema rolli **SystemUser**. Roll **SystemUser** annab juurdepääsu privileegide kogumile, mis ei ole väliskasutajatele sobivad.
+
+## <a name="setting-up-a-vendor-portal-user"></a>Hankija portaali kasutaja seadistamine
+Enne kui loote kasutajakonto kellelegi, kes kasutab hankija portaali, peate seadistama hankija, et lubada hankija portaali koostöö. Kasutage välja **Ostutellimuse koostöö** lehe **Hankijad** vahekaardil **Üldine**. Välishankijatel, kes kasutavad hankija portaali, peab olema järgmine seaditus.
+
+-   Microsoft Azure Active Directory (AAD) rakenduse kasutajakonto peab olema hankijale registreeritud Dynamics AX-i lehel **Kasutajad**.
+-   Hankijal peab olema turberoll **(Välis)hankija**, mitte roll **SystemUser**. **Märkus.** Roll **SystemUser** antakse automaatselt, kui loote Dynamics AX-is uue kasutajakonto. Seega peate selle rolli eemaldama ja kinnitama hoiatusteate, mille saate.
+-   Hankija-kasutajale ei tohiks anda luba lisada täiendavaid välju ostutellimuse tabelitest oma ostutellimuse vaatesse. Määrake vahekaardil **Isikupärastamine**, vahekaardil **Kasutajad** kasutaja suvand **Üksikasjalik isikupärastamine on lubatud** olekusse **Ei**.
+-   Kasutajakonto peab olema seostatud registreeritud kontaktisikuga. Valige kontaktisik lehe **Kasutajad** väljal **Nimi**. Valitud isikul peab olema asjakohase hankija jaoks olema roll **Kontakt**.
+
+Kui sama isik taotleb mitme hankijakonto juurdepääsu hankija portaalile (võib-olla erinevatele juriidilistele isikutele), tuleb selle isiku iga kasutajakonto seostada sama registreeritud kontaktisikuga. Roll **(Välis)hankija** hõlmab kõiki põhilisi võimalusi, mis on nõutavad hankija portaalis saadaolevate funktsioonide kasutamiseks. See seadistus aitab tagada, et kasutajaliides, mida väliskasutaja näeb, keskendub ainult ettenähtud stsenaariumile.
+
+<a name="see-also"></a>Vt ka
+--------
+
+[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+
+
