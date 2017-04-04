@@ -41,14 +41,14 @@ Toote soovitused on lubatud POS järgmistel juhtudel. Need on saadaval pilve POS
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  Kohta ning **tehingu** leht:
+2.  Kohta ning **tehingu** leht:
 
 -   Soovitus mootor teeb kaupu ostukorvi sisu kogu nimekirja.
 -   Kui poes siduda lisab kliendile tehingu, soovitus Mootor annab isiklikke soovitusi kasutades kliendi tehingute ajalugu ja üksuste korvi.
 
 **Märkus** Kuva soovitused on **tehingu** lehel vahendaja peab värskendama ekraani paigutuse Dynamics 365 toiminguteks. Selle **soovitused** kontrolli tuleb loobuda edasi ning **tehingu** lehel. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  Kohta ning **kliendi andmed** leht:
+3.  Kohta ning **kliendi andmed** leht:
     -   Soovitus Mootor soovitab kasutaja ID ja kliendi lemmikute loendi üksusi.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
