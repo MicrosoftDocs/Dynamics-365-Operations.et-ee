@@ -48,10 +48,10 @@ Töötüübid abil saate grupeerida sarnaste töökohtade kategooriatesse. Töö
 ## <a name="job-functions"></a>Tööfunktsioonid
 Tööd ristmikel kirjeldada kõrgetasemelise funktsioonikategooria ja kõrgetasemelisi kohustusi käsitleda. Ametikohustuste täitmiseks ei ole vajalik. Ametikohustuste täitmiseks koos töö liike, saate filtreerida hüvitiste plaanide kindlatele projektidele. On seostada ametikohustuste täitmiseks ja töö hüvitiste plaanide seadmisega abikõlblikkuse reeglid on **abikõlblikkuse eeskirjad** lehel. Seejärel saate manustada tasemete komplekti hüvitiste plaan, töö liik ja tööülesannetest, teie poolt määratletud läbi abikõlblikkuse eeskiri kombinatsiooni suhtes. (Need funktsioonid kehtivad kindlaksmääratud hüvitiste plaanide ja muutuva hüvitiste plaanide.) Aga kui kavatsete ametikohustuste täitmiseks abikõlblikkuse eeskirjad hüvitise juhtimise seadistamisel, peaksite seadistama ametikohustuste täitmiseks enne tööd. Järgmises tabelis on mõned näited ametikohustuste täitmiseks.
 
-| Töö           | Tööfunktsioon      |
-|---------------|-------------------|
-| Müügijuht | Keskastme juht |
-| Raamatupidaja    | Spetsialistid     |
+| Töö           | Tööfunktsioon         |
+|---------------|----------------------|
+| Müügijuht | Keskastme juht    |
+| Raamatupidaja    | Spetsialistid        |
 
 Ametikohustuste täitmiseks säilitada abil on **tööfunktsioonide** lehel. Kohta ning **tööfunktsioonide** lehekülg, sisestage tunnuskood ja töö funktsiooni lühikirjeldus.
 

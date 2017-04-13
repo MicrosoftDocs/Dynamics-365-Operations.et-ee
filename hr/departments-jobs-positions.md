@@ -56,10 +56,6 @@ Töö on tööd tegeva isiku jaoks nõutavate ülesannete ja vastutuste kogum. A
 Saate luua tööülesandeid, mis kirjeldavad selle töö ametikohal tegutseva töötaja põhiülesandeid. Sama tööülesande saab lisada mitmele tööle ja nende tööde ametikohad pärivad need tööülesanded. Tööülesannete näited on toodud järgmises tabelis.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Töö</th>
