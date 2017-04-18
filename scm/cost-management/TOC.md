@@ -1,0 +1,43 @@
+# Power BI sisu pakendi
+## [Kulude juhtimise sisu pakendi](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Eelnevalt kindlaksmääratud kulude
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [Planeeritud kulud maksavad versiooni abil simuleerida kulude muutus](simulate-cost-changes-costing-version-planned-costs.md)
+# Varude kuluarvutus
+## [Reguleerida vaba lao omahind](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [FIFO füüsilise väärtuse ja märkimisega](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [Objekti laoväärtus](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [LIFO kuupäev füüsilise väärtuse ja märgistusega](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [Füüsiliste ja update](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [Kaalutud keskmine füüsilise väärtuse ja märgistusega](weighted-average-physical-value-marking.md)
+# Tootmise omahinna arvutamine
+## [Koosluse tööna](bom-calculation-groups.md)
+## [Mitmes allikas tootmise dispersiooni](common-sources-of-production-variances.md)
+## [Kasutatud tootmismarsruudi kulukategooria](cost-categories-used-production-routings.md)
+## [Tootmise ja projekti juhtimise arvestuseks kasutatakse kulukategooria](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [Loodud toode, mis toodetakse või hangitakse](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# Standardomahind
+## [Standardkulu kalkulatsioonid](information-used-bom-calculations-standard-costs.md)
+## [Standardkulu värskenduste haldamine](manage-standard-cost-updates.md)
+## [Standardkulu muutmise eelduseks](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [Uuenda Standardmaksumus tootmise keskkonnas](update-standard-costs-manufacturing-environment.md)
+## [Uuenda Standardmaksumus uue kauba](update-standard-costs-new-manufactured-item.md)
+## [Uuenda Standardmaksumus-tootmine keskkonnas](update-standard-costs-non-manufacturing-environment.md)
+
+

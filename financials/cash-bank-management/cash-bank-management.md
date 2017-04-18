@@ -3,7 +3,7 @@ title: Sularaha- ja pangahalduse avaleht
 description: Saate kasutada sularaha- ja pangahalduse moodulit juriidilise isiku pangakontode ja finantsvahendite haldamiseks, mis on pangakontodega seotud.
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,9 +18,9 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: eb3104ebebf0e94d91eb5b4df82900dccb5c75ea
-ms.lasthandoff: 03/31/2017
+ms.sourcegitcommit: 9f5bb7113b6d063835c1a18f30f0a4bedf448667
+ms.openlocfilehash: 60a1c9d6b32c71bf921def1d4066841d9074d0cf
+ms.lasthandoff: 04/12/2017
 
 
 ---
@@ -52,7 +52,7 @@ Need vahendid hõlmavad deposiitkviitungeid, tšekke, käskveksleid ja võlatäh
 -   [Vendor payments for a partial amount](../accounts-payable/vendor-payments-partial-amount.md)
 -   [Ettemaksu arved ja ettemaksed ülevaade](../accounts-payable/prepayments-invoices-vs-prepayments.md)
 -   [Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 -   [Scenario: Settle a partial vendor payment that has discounts on vendor credit notes](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 -   [Scenario: Settle a partial vendor payment that has multiple discount periods](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
 -   [Scenario: Take a discount that is more than the calculated discount for a vendor payment](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
