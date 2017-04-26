@@ -55,3 +55,5 @@ Näiteks saate lugeda viimaseid postitusi:
 ## <a name="elearning-courses"></a>e-õppe kursused
 Lisateavet Microsoft Dynamics 365 operatsioonide koolitus, vt <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics õppe portaal</a>. (nõuab tootekomplekti konto) 
 
+
+

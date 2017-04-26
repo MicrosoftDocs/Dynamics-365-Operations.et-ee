@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Sularaha- ja pangahalduse avaleht
 
+[!include[banner](../includes/banner.md)]
+
+
 Saate kasutada sularaha- ja pangahalduse moodulit juriidilise isiku pangakontode ja finantsvahendite haldamiseks, mis on pangakontodega seotud. 
 
 Need vahendid hõlmavad deposiitkviitungeid, tšekke, käskveksleid ja võlatähti. Samuti saate pangaväljavõtted vastavusse viia ja pangaandmed standardaruannetele printida.
@@ -69,4 +72,6 @@ Need vahendid hõlmavad deposiitkviitungeid, tšekke, käskveksleid ja võlatäh
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Stsenaarium: Kasutada ühe kliendi makse mitme arve, mis ulatuvad üle mitme allahindluse perioodide elama](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 
