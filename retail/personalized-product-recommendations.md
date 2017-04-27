@@ -1,6 +1,6 @@
 ---
-title: "Isikupärastatud ülevaade soovitused"
-description: "Dynamics 365 toiminguteks, toote soovitused kuvamiseks Müügikoht (POS) seadme võimet. Soovitused on üksused, mida klient võib olla huvitatud oma ostuajalugu, oma lemmikute loendi üksuste ja teiste klientide internetist ostetud kaupade ja Telliskivi-ja mördi kauplustes. Jaemüüjad suurte kataloogide, soovitused aidata klient toote avastus. Autor tutvustab tooteid, mis on suunatud kliendi huve ja osta harjumusi, toote soovitused aitavad jaemüüjad up-sell ja ristsaastumise müüa ja tõstavad klientide hoidmine. Dynamics 365 toiminguteks, toote soovitused on powered by kognitiivse teenuste ja Microsoft Azure&quot;i masinõppe."
+title: "Isikupärastatud tootesoovituste ülevaade"
+description: "Microsoft Dynamics 365 for Operationsis saab tootesoovitused kuvada kassa (POS) seadmes. Soovitused on kaubad, millest klient võib oma ostuajaloo, oma sooviloendi kaupade ja teiste klientide võrgu- ja füüsilistest poodidest ostetud kaupade põhjal huvituda. Suurte kataloogidega jaemüüjate puhul aitavad soovitused kliendil tooteid avastada. Näidates tooteid, mis on suunatud kliendi huvidele ja ostuharjumustele, võivad tootesoovitused aidata jaemüüjatel lisamüüki ning ristmüüki teha ja klienti hoida. Microsoft Dynamics 365 for Operationsis töötavad tootesoovitused kognitiivsete teenuste ja Microsoft Azure’i masinõppe toel."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,59 +25,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Isikupärastatud ülevaade soovitused
+# <a name="personalized-product-recommendations-overview"></a>Isikupärastatud tootesoovituste ülevaade
 
-Dynamics 365 toiminguteks, toote soovitused kuvamiseks Müügikoht (POS) seadme võimet. Soovitused on üksused, mida klient võib olla huvitatud oma ostuajalugu, oma lemmikute loendi üksuste ja teiste klientide internetist ostetud kaupade ja Telliskivi-ja mördi kauplustes. Jaemüüjad suurte kataloogide, soovitused aidata klient toote avastus. Autor tutvustab tooteid, mis on suunatud kliendi huve ja osta harjumusi, toote soovitused aitavad jaemüüjad up-sell ja ristsaastumise müüa ja tõstavad klientide hoidmine. Dynamics 365 toiminguteks, toote soovitused on powered by kognitiivse teenuste ja Microsoft Azure'i masinõppe.
+[!include[banner](includes/banner.md)]
+
+
+Microsoft Dynamics 365 for Operationsis saab tootesoovitused kuvada kassa (POS) seadmes. Soovitused on kaubad, millest klient võib oma ostuajaloo, oma sooviloendi kaupade ja teiste klientide võrgu- ja füüsilistest poodidest ostetud kaupade põhjal huvituda. Suurte kataloogidega jaemüüjate puhul aitavad soovitused kliendil tooteid avastada. Näidates tooteid, mis on suunatud kliendi huvidele ja ostuharjumustele, võivad tootesoovitused aidata jaemüüjatel lisamüüki ning ristmüüki teha ja klienti hoida. Microsoft Dynamics 365 for Operationsis töötavad tootesoovitused kognitiivsete teenuste ja Microsoft Azure’i masinõppe toel.
 
 <a name="scenarios"></a>Stsenaariumid
 ---------
 
-Toote soovitused on lubatud POS järgmistel juhtudel. Need on saadaval pilve POS ja kaasaegne POS (MPOS).
+Tootesoovitused on aktiivsed järgmiste kassastsenaariumide puhul. Need on saadaval pilvekassas või Modern POS-is (MPOS).
 
-1.  Kohta ning **toote üksikasjad** leht:
+1.  Lehel **Toote üksikasjad** toimub järgmine.
 
--   Kui poodi seostada külastust on **toote üksikasjad** lehele, kui lehekülgi vaadates varasemaid tehinguid üle erinevaid kanaleid, soovitus Mootor soovitab täiendavaid esemeid võivad kokku osta.
--   Kui poes siduda lisab kliendile tehingu ja seejärel külastab ka **toote üksikasjad** lehel soovitus Mootor pakub isikupärastatud soovitused, kasutades kliendi tehingute ajalugu.
+-   Kui poemüüja läheb varasemate kannete vaatamise käigus erinevate kanalite lõikes lehele **Toote üksikasjad**, soovitab soovituste mootor täiendavaid kaupu, mida tõenäoliselt koos ostetakse.
+-   Kui poemüüja lisab kandele kliendi ja läheb siis lehele **Toote üksikasjad**, edastab soovituste mootor kliendi kannete ajaloo põhjal isikupärastatud soovitusi.
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-2.  Kohta ning **tehingu** leht:
+2.  Lehel **Kanne** toimub järgmine.
 
--   Soovitus mootor teeb kaupu ostukorvi sisu kogu nimekirja.
--   Kui poes siduda lisab kliendile tehingu, soovitus Mootor annab isiklikke soovitusi kasutades kliendi tehingute ajalugu ja üksuste korvi.
+-   Soovituste mootor soovitab kaupu kogu ostukorvis oleva kaupade loendi alusel.
+-   Kui poemüüja lisab kandele kliendi, edastab soovituste mootor kliendi kannete ajaloo ja ostukorvis olevate kaupade põhjal isiklikke soovitusi.
 
-**Märkus** Kuva soovitused on **tehingu** lehel vahendaja peab värskendama ekraani paigutuse Dynamics 365 toiminguteks. Selle **soovitused** kontrolli tuleb loobuda edasi ning **tehingu** lehel. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+**Märkus** Soovituste kuvamiseks lehel **Kanne** peab jaemüüja muutma Dynamics 365 for Operationsis ekraani paigutust. Juhtelement **Soovitused** tuleb paigutada lehele **Kanne**. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3.  Kohta ning **kliendi andmed** leht:
-    -   Soovitus Mootor soovitab kasutaja ID ja kliendi lemmikute loendi üksusi.
+3.  Lehel **Kliendi üksikasjad** toimub järgmine.
+    -   Soovituste mootor soovitab kaupu kasutaja ID ja kliendi sooviloendis olevate kaupade alusel.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Dynamics 365 POS soovitusi toimingute konfigureerimine
-Toote soovitusi seadistamiseks peate tegema järgmist.
+## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Microsoft Dynamics 365 for Operationsi konfigureerimine kassasoovituste lubamiseks
+Tootesoovituste seadistamiseks tuleb teha järgmist.
 
-1.  Veenduge, et olete valinud õige **juriidilise isiku**.
-2.  Liikuge **üksus poe**, valige **jaemüük**, ja seejärel klõpsake **värskendada**. ** ** see kasutada Näidisandmetes (või andmete) toimiv andmebaas ja teisaldage see olem poest.
-3.  Valikuline: Display soovitusi tehingu ekraanil, minge ** paigutus, **valida teie paigutus, käivitada selle **ekraani paigutuse disainer**,** ** ja siis tilk on ** soovitused kontrolli ** vajaduse korral.
-4.  Mine **hulgi parameetrid**, valige **masinõpet**, valige ** Jah ** alusel **soovitused POS lubade kasutada programmi**.
-5.  Vt soovitused POS, käivitage globaalne konfiguratsiooni töö **1110**. POS ekraani paigutuse disainer tehtud muudatuste kajastamiseks kanali konfiguratsiooni töö käivitamiseks **1070**.
+1.  Veenduge, et oleks valitud õige **juriidiline isik**.
+2.  Minge jaotisse **Üksuse kauplus**, valige **Jaemüük** ja klõpsake siis nuppu **Värskenda**.** **Sellisel juhul kasutatakse demoandmeid (või teie andmeid) teie tegevuse andmebaasis ja viiakse need üksuse kaupluse alla.
+3.  Valikuline: soovituste kuvamiseks kande ekraanil minge jaotisse **Ekraanipaigutus, **valige ekraanipaigutus, käivitage **Ekraanipaigutuse kujundaja**** **ja paigutage siis **soovituste juhtelement **vajalikku kohta.
+4.  Avage **Jaemüügi parameetrid**, valige **Masinõpe** ja valige **Jah **jaotisest **Luba kassasoovitused**.
+5.  Soovituste nägemiseks kassal käivitage globaalne konfigureerimistöö **1110**. Kassa ekraanipaigutuse kujundajas tehtud muudatuste kajastamiseks käivitage kanali konfigureerimistöö **1070**.
 
-## <a name="how-does-it-work"></a>[]()Kuidas see toimib?
-Kui värskendate ning **üksus poe** üksus, toimuvad järgmised toimingud.
+## <a name="how-does-it-work"></a>[]()Kuidas see käib?
+Valiku **Üksuse kauplus** värskendamisel toimuvad järgmised tegevused.
 
--   Kognitiivse teenuste nõutud vormingusse kaevandatud Dynamics 365 toimingute toimiv andmebaas ja ettevõte poodi saata.
--   Andmeid kasutatakse Azure andmed tehase (ADF) puhastada andmeid, kasutades taru skripte ADF-i tegevuse raames. Puhastatud andmete talletamise bloobimälu.
--   Bloobimälu andmeid kasutavad kognitiivse services API treenida soovitus mudel.
+-   Kognitiivsete teenuste nõutavas vormingus andmed ekstraktitakse Microsoft Dynamics 365 for Operationsi tegevuse andmebaasist ja saadetakse üksuse kauplusse.
+-   Azure Data Factory (ADF) kasutab neid andmeid andmete puhastamiseks Hive’i skriptide abil ADF-tegevuste käigus. Puhastatud andmed salvestatakse bloobimällu.
+-   Bloobimälust võetud andmeid kasutab kognitiivsete teenuste API soovitusmudeli väljaõpetamiseks.
 
-Kui lülitate **lubade kasutada soovitused programmi** ja konfiguratsiooni tööde, järgmisi toiminguid.
+Kui lülitate valiku **Luba soovitused** sisse ja käivitate konfigureerimistööd, siis toimuvad järgmised tegevused.
 
--   Mudel mandaadi ID API korjatud ja on salvestatud toimingute toimiv andmebaas Dynamics 365, AOS Web.config, samuti jaemüügi server.
--   Mudel mandaati ja ID tehakse kättesaadavaks CRT, et nõuab toote soovitused pilve POS ja MPOS ühendusega režiimis saab olla au.
+-   API võtab mudeli identimisteabe ja ID ning salvestab need Dynamics 365 for Operationsi tegevuse andmebaasi, AOS-i web.config-faili ja samuti jaemüügiserverisse.
+-   CRT-le tehakse kättesaadavaks mudeli identimisteave ja ID, et saaks arvestada pilvekassa ja MPOS-i tootesoovituste kutseid veebirežiimis.
 
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Lisada soovitusi kontrolli tehingu lehele POS seade](add-recommendations-control-pos-screen.md)
+[Soovituste juhtelemendi lisamine kassaaparaadi kannetelehele](add-recommendations-control-pos-screen.md)
+
+
 
 

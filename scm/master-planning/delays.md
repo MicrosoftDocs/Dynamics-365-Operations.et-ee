@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Hilinemised
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet hilinenud kuupäevade kohta koondplaneerimises. Hilinenud kuupäev on realistlik kande vastuvõtmise tähtaeg, kui varaseim koondplaneerimise arvutatud täitmise kuupäev on nõutavast kuupäevast hilisem.
 
 Koondplaneerimine saab arvutada varaseima kande täitmise kuupäeva täitmisaegade, materjali saadavuse, võimsuse saadavuse ja erinevate plaanimisparameetrite põhjal. 
@@ -41,11 +44,13 @@ Saate konfigureerida laovarude grupi viivituste arvutamise viisi. Seejärel saat
 
 Lehel **Koondplaneerimise parameetrid** saate seadistada viivituste arvutamise algusaja. Kui tellimus täidetakse pärast seda aega, lisatakse tellimuse viivituskuupäevale ühepäevane viivitus. 
 
-**Märkus:** varasemas versioonis olid arvutatud viivitusi tuntud *sellel väljal kuvatakse*, hilinenud kuupäev oli tuntud selle *tähtajakuupäeva*, ja hilinenud tehingu kandis *seotuse tulevikus komplekt*.
+**Märkus.** Varasemates versioonides kutsuti arvutatud viivitusi nimetusega *tähtajateated*, hilinenud kuupäeva nimetusega *tähtajakuupäev* ja hilinenud kandele viidati nimetusega *tulevane kanne*.
 
 <a name="see-also"></a>Vt ka
 --------
 
 [Laovarude sätted](coverage-settings.md)
+
+
 
 

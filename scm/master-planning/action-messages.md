@@ -1,5 +1,5 @@
 ---
-title: dokumentideta
+title: dokumenteerimata
 description: "Tegevussoovitus on süsteemi loodud soovitus olemasoleva plaanitud või kinnitatud tellimuse muutmiseks."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="undocumented"></a>dokumentideta
+# <a name="undocumented"></a>dokumenteerimata
 
 Tegevussoovitus on süsteemi loodud soovitus olemasoleva plaanitud või kinnitatud tellimuse muutmiseks.
 

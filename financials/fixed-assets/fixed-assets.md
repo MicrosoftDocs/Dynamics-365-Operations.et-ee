@@ -1,6 +1,6 @@
 ---
 title: "Põhivarade kodulehekülg"
-description: "Põhivarad on väärtesemeid, näiteks ehitiste, sõidukite, maa ja seadmed, mis kuuluvad üksikisik või organisatsioon."
+description: "Põhivarad on väärtuskaubad, nt ehitised, sõiduvahendid, maa ja seadmed, mis kuuluvad üksikisikule või organisatsioonile."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Põhivarade kodulehekülg
 
-Põhivarad on väärtesemeid, näiteks ehitiste, sõidukite, maa ja seadmed, mis kuuluvad üksikisik või organisatsioon.
+[!include[banner](../includes/banner.md)]
+
+
+Põhivarad on väärtuskaubad, nt ehitised, sõiduvahendid, maa ja seadmed, mis kuuluvad üksikisikule või organisatsioonile. 
 
 Põhivarade jaoks saate seadistada ja sisestada soetusteavet ja seejärel hallata neid kulumiarvestuse ja kulumisumma määramiseks kapitaliseerimisläve seadistamiseks. Saate arvutada põhivarade korrigeerimisi ja neid ka likvideerida. Pearaamatu kasutamisel koos põhivaradega saate kuvada kõikide põhivarade väärtuse. Põhivarade käsitsemise viis peab vastama nii rahvusvahelistele raamatupidamisstandarditele kui ka iga riigi/regiooni maksuseadusandlusele. Nõuded võivad sisaldada põhivarade soetamis- ja likvideerimiskannete, kulumiarvestuse, kasuliku eluea ning juurde- ja allahindluse reegleid. Põhivarade funktsioon sisaldab paljusid neist standarditest ja reeglitest.
+
+
 
 
 

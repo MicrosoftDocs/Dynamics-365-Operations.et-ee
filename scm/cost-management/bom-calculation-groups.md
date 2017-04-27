@@ -1,5 +1,5 @@
 ---
-title: "Koosluse arvutustes rühmad"
+title: Koosluse arvutusgrupid
 description: "Selles artiklis antakse teavet koosluste arvutusgruppide ja nende seadistamise kohta. Koosluse arvutuse käivitamiseks tuleb seadistada arvutusgrupid ja määrata need eraldi üksustele või määrata vaike-arvutusgrupp. Arvutusgrupi arvutussätteid kasutatakse siis koosluse arvutamise ajal lehel Koosluse arvutamine vaikeväärtustena."
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-groups"></a>Koosluse arvutustes rühmad
+# <a name="bom-calculations-groups"></a>Koosluse arvutusgrupid
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis antakse teavet koosluste arvutusgruppide ja nende seadistamise kohta. Koosluse arvutuse käivitamiseks tuleb seadistada arvutusgrupid ja määrata need eraldi üksustele või määrata vaike-arvutusgrupp. Arvutusgrupi arvutussätteid kasutatakse siis koosluse arvutamise ajal lehel Koosluse arvutamine vaikeväärtustena. 
 
-Lehel **Varude ja laohalduse parameetrid** on vajalik vaike-arvutusgrupp või lehel **Väljastatud toote üksikasjad** on vajalik tootepõhine arvutusgrupp. Süsteem esmalt otsib arvutamise seadistus on **välja toote üksikasjad** lehel. Kui see ei leia grupi seal, tundub et **varude ja lao parameetrid** lehel. Kui süsteem ei leia grupi, saab kasutaja tõrketeate arvutamise käigus. Arvutusgrupp sisaldab omahinna mudeli ja müügihinna mudeli poliitikaid ning hoiatuste kontroll-loendit. Arvutusgrupi arvutussätteid kasutatakse koosluse arvutamise ajal lehel **Koosluse arvutamine** vaikeväärtustena.
+Lehel **Varude ja laohalduse parameetrid** on vajalik vaike-arvutusgrupp või lehel **Väljastatud toote üksikasjad** on vajalik tootepõhine arvutusgrupp. Süsteem otsib kõigepealt lehel **Väljastatud toote üksikasjad** seadistatud arvutusgruppi. Kui ta sealt arvutusgruppi ei leia, otsib ta seda lehelt **Varude ja laohalduse parameetrid**. Kui süsteem arvutusgruppi ei leia, saab kasutaja arvutamise käigus tõrketeate. Arvutusgrupp sisaldab omahinna mudeli ja müügihinna mudeli poliitikaid ning hoiatuste kontroll-loendit. Arvutusgrupi arvutussätteid kasutatakse koosluse arvutamise ajal lehel **Koosluse arvutamine** vaikeväärtustena.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>Koosluse arvutusgruppide eesmärgid
 Koosluse arvutusgrupp võidakse kaupadele määrata mitmel põhjusel.
@@ -72,7 +75,7 @@ Kiirkaardil **Hoiatused** saate teha valikud igasuguste hoiatusteadete kohta, mi
 Vaikeseadistus varude ja laohaldusmooduli parameetrites
 --------------------------------------------------------------
 
-Kuna arvutusgrupid on arvutuste tegemiseks nõutavad, tuleb laohalduse parameetrite moodulis seadistada vaike-arvutusgrupp. See seadistus võimaldab ettevõtetel kasutada kõigi kaupade puhul standardset kulugrupi ja kasumi seadistust. Siis, kui konkreetsel kaubal on arvutamise erinõuded, saab kasutaja määrata sellele kaubale teise arvutusgrupi. Tavaliselt saate määrata arvutusgruppe kooslusekaupade asemel koosluse koostiskaupadele. Kuid kui kuvatakse hoiatusteated, saab arvutusgruppe rakendada. Kaupadele määratud arvutusgrupp alistab laohalduse parameetrites seadistatud vaikeväärtuse. Saate seadistada vaikimisi parameeter kell **kulude juhtimise**&gt;**varude arvestuse poliitika seadistamine**&gt;**parameetrid**&gt;**varude arvestus**&gt;**grupi**. Vaikekonfiguratsioonigrupi seadistamisega saate konfigureerida ka hoiatamistingimusi, mis kasutajatele koosluse arvutusprotsessi ajal teateid kuvavad, kui valitud komponendid võiksid põhjustada arvutusvigu.
+Kuna arvutusgrupid on arvutuste tegemiseks nõutavad, tuleb laohalduse parameetrite moodulis seadistada vaike-arvutusgrupp. See seadistus võimaldab ettevõtetel kasutada kõigi kaupade puhul standardset kulugrupi ja kasumi seadistust. Siis, kui konkreetsel kaubal on arvutamise erinõuded, saab kasutaja määrata sellele kaubale teise arvutusgrupi. Tavaliselt saate määrata arvutusgruppe kooslusekaupade asemel koosluse koostiskaupadele. Kuid kui kuvatakse hoiatusteated, saab arvutusgruppe rakendada. Kaupadele määratud arvutusgrupp alistab laohalduse parameetrites seadistatud vaikeväärtuse. Vaikeparameetri saate seadistada asukohas **Kuluhaldus** &gt; **Laoarvestuse poliitikate seadistus** &gt; **Parameetrid** &gt; **Laoarvestus** &gt; **Arvutusgrupp**. Vaikekonfiguratsioonigrupi seadistamisega saate konfigureerida ka hoiatamistingimusi, mis kasutajatele koosluse arvutusprotsessi ajal teateid kuvavad, kui valitud komponendid võiksid põhjustada arvutusvigu.
 Hoiatusteadete vaatamine lehel Lõpetatud
 ------------------------------------------
 
@@ -85,5 +88,7 @@ Koosluse arvutus loob hoiatusteated. Saate vaadata valitud kauba hoiatusi. Näit
 -   Tuvastage hoiatus, kui kaubal on koosluse real väiksem kasumiprotsent, kui soovite.
 
 Saate määratleda mitu koosluse arvutusgruppi, olenevalt hoiatusteadete variatsioonide vajadustest. Näiteks üks koosluse kalkulatsioonigrupp, millel on hoiatustingimused aktiivse koosluse, komponendikoguse 0 (null) ja komponendi kulu 0 (null) kohta, võib olla piisav. Koosluse arvutuse alustamisel saate koosluse arvutusgrupiga seotud hoiatustingimusi alistada. Saate hoiatustingimusi ka lisada või eemaldada. Näiteks kui praegune olukord ei hõlma marsruudi andmeid, võite aktiivse marsruudi hoiatustingimuse eemaldada. **Märkus.** Moodulis Kellaaeg ja kohalolek on leht **Arvutusgrupid**, kuid sellel lehel pole koosluse arvutusgruppidega mingit seost. Moodulis Kellaaeg ja kohalolek saab töötajaid määrata arvutusgruppidesse, mis kajastavad sama ülevaataja või juhiga seotud töötajate grupeerimist. Töötajate registreerimiste arvutusi saab ülevaataja või juht teha kas automaatselt või käsitsi.
+
+
 
 

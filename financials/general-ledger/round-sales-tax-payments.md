@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>Käibemaksu maksed ja ümardamisreeglid
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel selgitab, kuidas toimib ümardamisreegli seadistus moodulis Käibemaksuhaldurid ja kuidas ümardada käibemaksusaldot töö Käibemaksu tasakaalustamine ja sisestamine käigus.
 
-Käibemaksu kohta tuleb perioodiliselt maksuametile aruandeid esitada ja see tasuda. Seda teha käivitades settle ja post lehel käibemaks käibemaksu protsessi. Jooksul käibemaksu tasakaalustatakse käibemaksu kontod ja käibemaksu saldo konteeritakse käibemaksu arvelduskontole. Käibemaksusaldo, mis sisestatakse käibemaksu tasakaalustuskontole, saab maksuameti nõude järgi ümardada, seadistades lehel Käibemaks ümardamisreegli. 
+Käibemaksu kohta tuleb perioodiliselt maksuametile aruandeid esitada ja see tasuda. Seda saab teha, käivitades tasakaalustamise ja sisestades käibemaksuprotsessi lehel Käibemaks. Perioodi käibemaks tasakaalustatakse käibemaksukontodega ja käibemaksusaldo sisestatakse käibemaksu tasakaalustuskontole. Käibemaksusaldo, mis sisestatakse käibemaksu tasakaalustuskontole, saab maksuameti nõude järgi ümardada, seadistades lehel Käibemaks ümardamisreegli. 
 
 Ümardamise erinevus sisestatakse käibemaksu ümardamise kontole, mis on valitud pearaamatus väljal Automaatsete kannete kontod.
 
@@ -42,10 +45,10 @@ Perioodi kogu käibemaksu krediidisaldo on –98 765,43. Juriidiline isik kogus 
 
 Juriidiline isik soovib kasutada ümardamismeetodit, mis ümardab saldo lähima täisarvuni (1,00). Käibemaksu arvestamise eest vastutav kasutaja peab tegema järgmist.
 
-1.  Klõpsake maksu &gt;kaudsete maksude &gt;käibemaksu &gt;maksuhaldur
+1.  Klõpsake valikuid Maks &gt; Kaudsed maksud &gt; Käibemaks &gt; Käibemaksuhaldurid
 2.  Valige kiirkaardi Üldine väljalt Ümardamise vorm suvand Tavaline.
 3.  Sisestage väljale Ümardus väärtus 1,00.
-4.  Kui saabub aeg tasuda maksuametile käibemaks, avage leht Käibemaksu tasakaalustamine ja sisestamine. (Klõpsake maksu &gt;deklaratsioonid &gt;käibemaksu &gt;lahendada ja pärast käibemaksu.)
+4.  Kui saabub aeg tasuda maksuametile käibemaks, avage leht Käibemaksu tasakaalustamine ja sisestamine. (Klõpsake valikuid Maks &gt; Deklaratsioonid &gt; Käibemaks &gt; Käibemaksu tasakaalustamine ja sisestamine.)
 5.  Käibemaksu tasakaalustamise kontol ümardatakse maksukohustuse summa 98 765,43 summale 98 765.
 
 Järgmine tabel näitab, kuidas ümardatakse summat 98 765,43, kasutades iga ümardusmeetodit, mis on saadaval lehe Käibemaksuhaldurid väljal Ümardamise vorm.
@@ -61,6 +64,8 @@ Järgmine tabel näitab, kuidas ümardatakse summat 98 765,43, kasutades iga üm
 > [!NOTE]                                                                                  
 > Kui valite suvandi Oma eelis, toimub ümardamine alati juriidilise isiku kasuks. 
 
-Lisateabe saamiseks vaadake [käibemaksu ülevaade](indirect-taxes-overview.md). 
+Lisateavet leiate jaotisest [Käibemaksu ülevaade](indirect-taxes-overview.md). 
+
+
 
 

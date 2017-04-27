@@ -1,6 +1,6 @@
 ---
 title: Kooslused ja valemid
-description: "Selles artiklis antakse arved kooslusi ja valemid, mis on toodete ja toote variantide keskosas. Komplektide ja valemite määrata vajalikud materjalid või konkreetse toote koostisained. Valemid määrata ka kaas- ja kõrvalsaadused, mis on saadud tootmise kontekstis."
+description: "See artikkel annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa. Kooslused ja valemid määravad kindla toote jaoks nõutavad materjalid või koostisosad. Valemid määravad ka kindla tootmise kontekstis vastuvõetavad kaastooted ja kõrvalsaadused."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Kooslused ja valemid
 
-Selles artiklis antakse arved kooslusi ja valemid, mis on toodete ja toote variantide keskosas. Komplektide ja valemite määrata vajalikud materjalid või konkreetse toote koostisained. Valemid määrata ka kaas- ja kõrvalsaadused, mis on saadud tootmise kontekstis. 
+[!include[banner](../includes/banner.md)]
+
+
+See artikkel annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa. Kooslused ja valemid määravad kindla toote jaoks nõutavad materjalid või koostisosad. Valemid määravad ka kindla tootmise kontekstis vastuvõetavad kaastooted ja kõrvalsaadused. 
 
 <a name="bills-of-materials"></a>Kooslused
 ------------------
@@ -38,7 +41,7 @@ Kooslus (BOM) määratleb komponendid, mida on toote tootmiseks vaja. Komponendi
 
 Kui kooslus on kombineeritud protsessi või tootmisvooga, mis kirjeldab toote koostamiseks vajalikke toiminguid ja ressursse, moodustab see aluse toote eeldatava omahinna arvutamiseks.  
 
-Komplekt on eraldi isikud, mida on kirjeldatud järgmised andmed:
+Kooslus on üksik üksus, mida kirjeldatakse järgmise teabega.
 
 -   Koosluse ID
 -   Koosluse nimi
@@ -49,7 +52,7 @@ Komplekt on eraldi isikud, mida on kirjeldatud järgmised andmed:
 
 ### <a name="formulas-co-products-and-by-products"></a>Valemid, kaastooted ja kõrvalsaadused
 
-Valemid on koosluse alamtüüp, mida kasutatakse tavaliselt tootmisprotsessis. Lisaks komponentidele ja koostisosadele kirjeldab valem kaastooteid ja kõrvalsaadusi. Tegelik versioon, kaas- ja kõrvalsaaduste valemi määratlus nõuab valemi versioon. Valemi määratletakse tavaliselt ühe konkreetse lõpptoote (valem või planeerimise üksuse) määratletud formula versioonis.
+Valemid on koosluse alamtüüp, mida kasutatakse tavaliselt tootmisprotsessis. Lisaks komponentidele ja koostisosadele kirjeldab valem kaastooteid ja kõrvalsaadusi. Tegelikus versioonis nõuab kaastoodete ja kõrvalsaaduste määratlus valemiversiooni. Valem määratletakse tavaliselt ühe konkreetse valmis toote kohta (valemi- või plaanimiskaup), mis on valemiversioonis määratletud.
 
 ### <a name="boms-in-the-product-lifecycle"></a>Kooslused toote elutsüklis
 
@@ -61,7 +64,7 @@ Toote elutsüklis võidakse luua mitmesugustel põhjustel palju kooslusetüüpe.
 -   **Tootmiskooslus** – see on tegelik kooslus, mida kasutatakse konkreetse tootmise jaoks. Tootmiskooslus peab võtma arvesse tegelikke ressursse, mida toote valmistamiseks kasutatakse. Tootmistellimuse, partiitellimuse või kanbani loomisel ahendatakse mitu koosluste taset, mida kajastavad fiktiivsed kooslused, ühele tasemele ja jaotatakse tellimuse toimingute vahel.
 -   **Kuluarvestuse kooslus** – seda kooslust kasutatakse toote eeldatava omahinna arvutamiseks. Näiteks saab kuluarvestuse kooslust kasutada siis, kui kasutatakse standardkulu või arvutatakse antud toote eeldatav plaanitud omahind. Kuluarvestuse kooslused võivad viidata konkreetsele materjalide ja ressursside segule, mida eeldatavasti kasutatakse. Seetõttu saab kuluarvestuse kooslust kasutada eeldatava omahinna näidisväärtuse loomiseks perioodi kohta ja selleks, et aidata vältida hälbeid aja jooksul.
 
-Koosluse tüüpi, mida juba kasutatakse rakendamist sõltub rakendamist, ja ka äriprotsesside ja nõuete kohta. Lihtsates rakendustes saab plaanimise kooslust, tootmise kooslust ja kuluarvestuse kooslust modelleerida ühe kooslusena. Keskkondades, kus tehnilist lahendust sageli muudetakse ja kus on palju alternatiivseid protsesse, on tõenäoliselt vaja suuremat kooslusetüüpide kogumit.
+Juurutuses tegelikult kasutatavad koosluste tüübid olenevad rakendusest ning ka äristsenaariumidest ja nõuetest. Lihtsates rakendustes saab plaanimise kooslust, tootmise kooslust ja kuluarvestuse kooslust modelleerida ühe kooslusena. Keskkondades, kus tehnilist lahendust sageli muudetakse ja kus on palju alternatiivseid protsesse, on tõenäoliselt vaja suuremat kooslusetüüpide kogumit.
 
 ### <a name="approval-of-boms-and-formulas"></a>Koosluste ja valemite kinnitamine
 
@@ -78,7 +81,7 @@ Enne, kui koosluse versiooni plaanimises või tootmisprotsessis kasutada saab, t
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Vaikekoosluse või valemiversiooni aktiveerimine
 
-Kindla koosluse või valemi määramiseks koosluse vaikeversiooniks või valemiversiooniks, mida kasutatakse koondplaneerimises või tootmistellimuste loomiseks, tuleb versioon aktiveerida. Kui versioon on aktiveeritud, kontrollitud unikaalsuse antud piirangud (näiteks ajavahemik, saidi või kogus) versioon. Kuvatakse tõrketeade, kui proovite aktiveerida konfliktide versioon versiooni mis on juba aktiivne. Siis tuleb konflikti põhjustav versioon inaktiveerida või muuta versiooni piiranguid (tavaliselt perioodi), et vältida mitmetähenduslikku aktiveerimist.
+Kindla koosluse või valemi määramiseks koosluse vaikeversiooniks või valemiversiooniks, mida kasutatakse koondplaneerimises või tootmistellimuste loomiseks, tuleb versioon aktiveerida. Kui versioon aktiveeritakse, kontrollitakse versiooni kordumatust antud piirangute (nt periood, laoala või kogus) suhtes. Saate tõrketeate, kui versioon, mida püüate aktiveerida, satub konflikti juba aktiivse versiooniga. Siis tuleb konflikti põhjustav versioon inaktiveerida või muuta versiooni piiranguid (tavaliselt perioodi), et vältida mitmetähenduslikku aktiveerimist.
 
 ### <a name="product-change-with-case-management"></a>Toote muutmine juhtumihaldusega
 
@@ -114,5 +117,7 @@ Valige rea tüüp** Kinnistatud tarne**, kui soovite luua alamtootmist, koosluse
 Valige rea tüüp **Hankija**, kui tootmisprotsess kasutab allhankijat ja kui soovite allhankija jaoks alamtootmise või ostutellimuse automaatselt luua.  
 
 **Märkus alltöövõtu toimingute kohta koosluses:** teenus või töö, mida teeb allhankija, tuleb luua teenuseüksusena, mida varudes jälgitakse. Teenuseüksus tuleb siduda põhikaubaga koosluse reana. Protsess peab sisaldama allhankija operatsiooniressursile määratud operatsiooni.
+
+
 
 

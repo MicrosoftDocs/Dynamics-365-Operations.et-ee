@@ -1,6 +1,6 @@
 ---
-title: "Hübriid klienditellimuste"
-description: "Hübriid kliendi tellimusel on ühe tellimuse, mis sisaldab tooteid, mis võivad kanda poest välja Kliendi ning tooteid, mis on kiirenenud või saata hiljem."
+title: "Hübriid-klienditellimused"
+description: "Hübriid-klienditellimus on üksik tellimus, mis sisaldab tooteid, mille klient saab kauplusest kaasa võtta, ja tooteid, mis hiljem peale võetakse või välja saadetakse."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,20 +25,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="hybrid-customer-orders"></a>Hübriid klienditellimuste
+# <a name="hybrid-customer-orders"></a>Hübriid-klienditellimused
 
-Hübriid kliendi tellimusel on ühe tellimuse, mis sisaldab tooteid, mis võivad kanda poest välja Kliendi ning tooteid, mis on kiirenenud või saata hiljem.
+[!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 toiminguteks - jaemüük, saate valida kas teostada kõik toodete või valitud tooted kliendi tellimuse täita. Märgitud ridade nagu teha automaatselt arve tellimus on loodud toode samamoodi see on sama küsimuses on tuleb korjata üles pärast seda, kui tellimus loodi. Tasumisele kuuluv summa Hybrid määratakse tellimuste lisamine tagatisraha protsendimäära kohta valida ja laeva toote read ridade teostada täies ulatuses. Hübriid kaustade, vaheldumisi redigeerimisrežiim kliendi tellimuse ja cash and carry režiim järgmiselt:
 
--   Kui kõik ostukorvis tooteid on **tarne teostamiseks**, käsitletakse tellimus Cash and Carry tehinguna.
--   Kui Ostukorv on tühi või osaliselt read on seatud ühe **valida** või **laeva üleandmise**, tellimus vaadatakse kliendi tellimuse kanne.
+Hübriid-klienditellimus on üksik tellimus, mis sisaldab tooteid, mille klient saab kauplusest kaasa võtta, ja tooteid, mis hiljem peale võetakse või välja saadetakse.
 
-Kui ka ostukorvi valitud ja **valida valitud**, **laeva valitud**, või **teha valitud** on valitud, ainult konkreetse ostukorvi rea on seatud selle kohaletoimetamise viis. Sel juhul peale voolu töö jätkub nagu tavaliselt. Siiski kui **valida valitud**, **valitud laeva**, või **teha valitud** ilma ostukorvi rida on valitud, uus leht avaneb, kus on loetletud kõik ostukorvi read valitud. Selles aknas saate valida mitu rida korraga kehtestamise kohaletoimetamise viis. Selle meetodi kasutamisel ridade valimiseks alistab eelmise saatmisviis, reale määratud.
+Microsoft Dynamics 365 for Operationsi jaemüügimoodulist saate valida kas kõigi toodete tarnimise või kliendi tellimuse valitud toodete tarnimise. Tarnimiseks märgitud tooteridade eest esitatakse arve pärast tellimuse loomist automaatselt, sama toimub ka tellimuse puhul, mis võetakse peale pärast tellimuse loomist. Hübriidtellimuste eest tasumisele kuuluv summa määratakse, lisades deposiidiprotsendi komplekteeritavate ja lähetatavate toodete ridadele koos tarneridade täieliku summaga. Hübriid-tellimuste puhul vahetab süsteem kliendi tellimuse režiimi ja sularaharežiimi järgmiselt.
+
+-   Kui kõigi ostukorvis olevate toodete puhul on tarneviisiks määratud **Sularahatarne**, siis käsitletakse kannet sularahakandena.
+-   Kui mõnele ostukorvi reale on määratud **Komplekteeri** või **läheta tarne**, siis käsitletakse tellimust kliendi tellimuse kandena.
+
+Kui on valitud ostukorvi rida ja **Komplekteeri valitud**, **Saada valitud** või **Tarni valitud**, siis määratakse selle tarneviisiga ainult konkreetne ostukorvi rida. Sellisel juhul jätkub toimingu allavoolu voog tavalisel viisil. Kuid kui on valitud **Komplekteeri valitud**, **Saada valitud** või **Tarni valitud** ja ostukorvi rida ei valita, siis avaneb uus leht, millel on loetletud kõik ostukorvi read. Sellel ekraanil saate valida korraga mitu rida tarneviisi määramiseks. Kui kasutate ridade valimiseks seda meetodit, siis tühistatakse mis tahes reale eelnevalt määratud tarneviis.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Kliendi tellimuste ülevaade](customer-orders-overview.md)
+[Klienditellimuste ülevaade](customer-orders-overview.md)
+
+
 
 

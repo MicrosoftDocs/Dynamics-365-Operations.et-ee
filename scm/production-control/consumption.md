@@ -1,5 +1,5 @@
 ---
-title: Arvutab materjalikulu
+title: Materjalikulu arvutamine
 description: See artikkel annab teavet mitmesuguste valikute kohta, mis on seotud materjalikulu arvutamisega.
 author: YuyuScheller
 manager: AnnBe
@@ -27,22 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculate-material-consumption"></a>Arvutab materjalikulu
+# <a name="calculate-material-consumption"></a>Materjalikulu arvutamine
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel annab teavet mitmesuguste valikute kohta, mis on seotud materjalikulu arvutamisega. 
 
 Lehe **Kooslus** kiirkaardil **Rea üksikasjad** vahekaartidel **Seadistus** ja **Etapiviisiline tarbimine** on saadaval järgmised materjalitarbimise arvutamisega seotud suvandid.
 
 ## <a name="variable-and-constant-consumption"></a>Muutuv ja konstantne tarbimine
-Aastal ning **on** välja, saate valida, kas teatud või muutuv kogus arvutatakse tarbimine. Valige **pidev** kui fikseeritud kogus või maht on vaja, sõltumata kogusest toodetud. Valige suvand **Muutuv**, mis on vaikesäte, kui materjali nõutav kogus valmiskaupades on toodetavate valmiskaupade arvuga proportsionaalne.
+Väljal **Tarbimine on** saate valida, kas tarbimine tuleks arvutada konstantse koguse või muutuva kogusena. Valige suvand **Konstantne**, kui tootmiseks on nõutav fikseeritud kogus või maht, olenemata toodetavast kogusest. Valige suvand **Muutuv**, mis on vaikesäte, kui materjali nõutav kogus valmiskaupades on toodetavate valmiskaupade arvuga proportsionaalne.
 
 ## <a name="calculating-consumption-from-a-formula"></a>Tarbimise arvutamine valemi põhjal
 Väljal **Valem** saate seadistada erinevaid valemeid materjalitarbimise arvutamiseks. Kui kasutate vaikeväärtust, **Standardne**, ei arvutata tarbimist valemi põhjal. Väljadega **Kõrgus**, **Laius**, **Sügavus**, **Tihedus** ja **Konstant** toimivad järgmised valemid.
 
--   Kõrgus \*pidevalt
--   Kõrgus \*laius \*pidevalt
--   Kõrgus \*laius \*sügavus \*pidevalt
--   (Kõrgus \*laius \*sügavus / tihedus) \*Pidev
+-   Kõrgus \* Konstant
+-   Kõrgus \* Laius \* Konstant
+-   Kõrgus \* Laius \* Sügavus \* Konstant
+-   (Kõrgus \* Laius \* Sügavus / Tihedus) \* Konstant
 
 ## <a name="rounding-up-and-multiples"></a>Ümardamine ja kordsed
 Väljad **Ümardamine** ja **Kordsed** võimaldavad ümardada materjalitarbimise väärtust. Näiteks saate ümardada väärtuse materjali käsitlemisühiku järgi, milles toormaterjali tootmisse komplekteeritakse. Väljal **Ümardamine** on saadaval järgmised valikud: **Kogus**, **Mõõt** ja **Tarbimine**.
@@ -53,7 +56,7 @@ Kui valite ümardamismehhanismiks suvandi **Kogus**, peab kogus olema määratud
 
 ### <a name="measurement"></a>Mõõtmine
 
-Tavaliselt valite ümardamismehhanismiks suvandi **Mõõt**, kui toormaterjalil on kindlad mõõtmed. Näiteks on valmistoote jaoks nõutav 2-meetrine metalltoru ja metalltorusid hoiundatakse 4,5-meetri pikkustena. Sellisel juhul saab ümardusmehhanismiga **Mõõt** arvutada, kui palju metalltorusid on vaja kindla arvu valmistoodete tootmiseks. Näiteks, et **valem** väärtuseks on **kõrgus \*pidev**. On **kõrgus** on välja **2** näitamiseks valmis hea vajalik toru pikkus. Välja **Kordne** väärtuseks on seatud **4,5**, mis näitab, et toru komplekteeritakse pikkustes 4,5 meetrit. Arvutuskäik on järgmine.
+Tavaliselt valite ümardamismehhanismiks suvandi **Mõõt**, kui toormaterjalil on kindlad mõõtmed. Näiteks on valmistoote jaoks nõutav 2-meetrine metalltoru ja metalltorusid hoiundatakse 4,5-meetri pikkustena. Sellisel juhul saab ümardusmehhanismiga **Mõõt** arvutada, kui palju metalltorusid on vaja kindla arvu valmistoodete tootmiseks. Selles näites on välja **Valem** väärtuseks seatud **Kõrgus \* Konstant**. Välja **Kõrgus** väärtuseks on seatud **2**, mis näitab valmiskauba jaoks vajaliku toru pikkust. Välja **Kordne** väärtuseks on seatud **4,5**, mis näitab, et toru komplekteeritakse pikkustes 4,5 meetrit. Arvutuskäik on järgmine.
 
 1.  10 ühiku valmiskauba jaoks vajalike kordühikute arv: 10 ÷ 2 = 5 tk
 2.  Kogutarbimine: 4.5 × 5 = 22,5 meetrit metalltoru
@@ -78,5 +81,7 @@ Etapiviisilist tarbimist kasutatakse koguseintervalliga konstantse tarbimise arv
 | 200,00      | 40.0000  |
 
 Koosluse kogus on 1 ja tootmiskogus 110. Tarbimise valem on Lähteseeria (kogus) = tarbimine. Kuna tootmiskogus on 110, jääb see vahemikku „Alates 100 seeriast”. Seega on kogus 20.
+
+
 
 

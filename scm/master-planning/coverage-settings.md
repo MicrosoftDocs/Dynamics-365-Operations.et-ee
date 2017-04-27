@@ -29,13 +29,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coverage-settings"></a>Laovarude sätted
 
+[!include[banner](../includes/banner.md)]
+
+
 Koondplaneerimine kasutab laovarude sätteid, et arvutada kaubavajadusi. 
 
 saate määratleda laovarude sätteid mitmel viisil:
 
--   Määrake laovarude grupi laovarude sätted. Saate luua laovarude grupi, mis sisaldab kõigi laovarude grupiga lingitud toodete sätteid. Klõpsake **kapten planeerimine &gt;Setup &gt;kate &gt;laovarude gruppide** laovarude grupi loomiseks. Saate linkida tootega laovarude grupi. Kui link on tegevuskoha-, lao- või tootedimensiooni kohane, kasutage lehel **Kauba laovarud** välja **Laovarude grupp**. Kui link on üldine olenemata tootedimensioonidest kasutage lehe **Toote üksikasjad** kiirkaardi **Plaan** lehte **Laovarude grupp**. Kui te ei lingi laovarude gruppi tootega, kasutab koondplaneerimine suvandit **Üldine laovarude grupp**, mis on määratud lehel **Koondplaneerimise parameetrid** vaikesättena.
+-   Määrake laovarude grupi laovarude sätted. Saate luua laovarude grupi, mis sisaldab kõigi laovarude grupiga lingitud toodete sätteid. Klõpsake laovarude grupi loomiseks valikuid **Koondplaneerimine &gt; Seadistus &gt; Laovarud &gt; Laovarude grupid**. Saate linkida tootega laovarude grupi. Kui link on tegevuskoha-, lao- või tootedimensiooni kohane, kasutage lehel **Kauba laovarud** välja **Laovarude grupp**. Kui link on üldine olenemata tootedimensioonidest kasutage lehe **Toote üksikasjad** kiirkaardi **Plaan** lehte **Laovarude grupp**. Kui te ei lingi laovarude gruppi tootega, kasutab koondplaneerimine suvandit **Üldine laovarude grupp**, mis on määratud lehel **Koondplaneerimise parameetrid** vaikesättena.
 
--   Määrake toote laovarude sätted. Saate luua laovarude sätted kindlale tootele. Klõpsake **toote teabekorraldus &gt;toodete &gt;vabastatud toodete**. Valige toote kohta ning **Updatehagi paani**, on **planeerida** vahekaardil, on **laovarude grupi**, klõpsake **kauba laovarud** avamiseks ning **kauba laovarud** lehekülg. Kui toode on laovarude grupiga juba lingitud, saate laovarude grupi sätted tühistada, kasutades välja **Tühista**. Laovarude sätted lehel** Kauba laovarud** alistavad lehel **Laovarude grupp** olevad sätted.
+-   Määrake toote laovarude sätted. Saate luua laovarude sätted kindlale tootele. Klõpsake suvandeid **Tooteteabe haldus &gt; Tooted &gt; Väljastatud tooted**. Valige toode ja klõpsake **toimingupaanil** vahekaardi **Plaan** jaotises **Laovarude grupp** valikut **Kauba laovarud**, et avada leht **Kauba laovarud**. Kui toode on laovarude grupiga juba lingitud, saate laovarude grupi sätted tühistada, kasutades välja **Tühista**. Laovarude sätted lehel** Kauba laovarud** alistavad lehel **Laovarude grupp** olevad sätted.
 
 <!-- -->
 
@@ -43,13 +46,15 @@ saate määratleda laovarude sätteid mitmel viisil:
 
 <!-- -->
 
--   Määrake dimensioonigrupi kaubavarude sätted. Klõpsake **toote teabekorraldus &gt;ühise &gt;vabastatud toodete**. Kohta on ** välja üksikasju toodete ** lehekülg edasi on **üldise** vahekaardil, on **halduse** nuppu ning **ladustamise dimensioonigrupp** link. Valige lehel **Laoala dimensioonigrupp** väli **Laovarude planeerimine dimensiooni järgi**, et luua laovarude sätted laoala dimensioonigrupi dimensiooni jaoks. Kõik toote mõõtmed, näiteks konfiguratsioon, värv, suurus, stiil, peab olema ka **laovarude planeerimine dimensioonide kaupa** välja valitud.
+-   Määrake dimensioonigrupi kaubavarude sätted. Klõpsake valikuid **Tooteteabe haldus &gt; Üldine &gt; Väljastatud tooted**. Klõpsake lehe **Väljastatud toote üksikasjad** vahekaardil **Üldine** grupis **Administreerimine** linki **Laoala dimensioonigrupp**. Valige lehel **Laoala dimensioonigrupp** väli **Laovarude planeerimine dimensiooni järgi**, et luua laovarude sätted laoala dimensioonigrupi dimensiooni jaoks. Kõigi tootedimensioonide, nagu konfiguratsioon, värv, suurus, stiil, puhul peab olema väli **Laovarude planeerimine dimensiooni järgi** valitud.
 
 
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Master plans](master-plans.md)
+[Koondplaanid](master-plans.md)
+
+
 
 

@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="info-codes"></a>Teabekoodid
 
+[!include[banner](includes/banner.md)]
+
+
 See artikkel annab ülevaate teabekoodidest, teabekoodide gruppidest ja nende kasutamisest.
 
 Teabekoodid võimaldavad teil hõivata andmeid kassaregistris. Saate teabekoodidega esitada kassapidajale viipasid teabe sisestamiseks mitmesuguste kassatoimingute, näiteks kaupade müümise ja tagastamise või klientide valimise ajal. Kassapidajad saavad valida sisendi loendist või sisestada selle koodi, numbri, kuupäeva või tekstina. Saate määrata teabekoodid poe eelmääratletud toimingutele, jaekaupadele, makseviisidele, klientidele või kindlatele kassategevustele. Teabekoodidega saate teha järgmist.
@@ -38,7 +41,7 @@ Teabekoodid võimaldavad teil hõivata andmeid kassaregistris. Saate teabekoodid
 -   Esitage müügioperatsioonita kassasahtli avanud kassapidajale viip, mis võimaldab väärtuse sisestada või alamkoodide loendist valida.
 
 ## <a name="info-codes-group-in-retail-and-commerce"></a>Teabekoodid moodulis Jaemüük ja kaubandus
-Dynamics 365 toiminguteks - jaemüük, saate luua info koodide rühmadest. Teabekoodide grupid lisavad paindlikkust, võimaldades teil määratleda vähem teabekoode ja kasutada neid mitmekülgsemalt. Teabekoodide gruppe saate kasutada järgmiselt.
+Dynamics 365 for Operationsi moodulis Jaemüük saate luua teabekoodidde gruppe. Teabekoodide grupid lisavad paindlikkust, võimaldades teil määratleda vähem teabekoode ja kasutada neid mitmekülgsemalt. Teabekoodide gruppe saate kasutada järgmiselt.
 -   Määratlege vähem teabekoode ja kasutage neid hõlpsasti uuesti. Teabekoodigruppides olevatel teabekoodidel ei ole eelmääratletud sõltuvusi teiste teabekoodidega. Võite lisada sama teabekoodi mitmesse teabekoodigruppi ja seejärel esitada prioriteetide abil samu teabekoode järjekorras, mis on mis tahes olukorras loogiline.
 -   Saate linkida teabekoodid muude teabekoodide või teabekoodigruppidega, et koguda teavet toote või kande kohta, ilma et peaksite määratlema iga stsenaariumi puhul eraldi teabekoodi või lingitud teabekoodi.
 
@@ -47,6 +50,8 @@ Dynamics 365 toiminguteks - jaemüük, saate luua info koodide rühmadest. Teabe
 
  
 -
+
+
 
 
 

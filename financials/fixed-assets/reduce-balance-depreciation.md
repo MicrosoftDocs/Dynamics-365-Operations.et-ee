@@ -1,9 +1,9 @@
 ---
-title: "Vähendada saldoga kulum"
+title: "Väheneva jääkväärtuse kuluarvestusmeetod"
 description: "Selles artiklis antakse ülevaade väheneva kulumiarvestusmeetodi kohta."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reduce-balance-depreciation"></a>Vähendada saldoga kulum
+# <a name="reduce-balance-depreciation"></a>Väheneva jääkväärtuse kuluarvestusmeetod
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis antakse ülevaade väheneva kulumiarvestusmeetodi kohta.
 
@@ -57,7 +60,7 @@ Näiteks suvandi Kord aastas valimisel sisestatakse aasta kulum ainult üks kord
 
 ### <a name="fiscal"></a>Fiskaalne
 
-Kui valite väljal Kulumiarvestusaasta suvandi Rahandusaasta, kasutatakse lineaarset kulumimeetodit. See arvutatakse rahandusaasta põhjal, mis seadistatakse lehel Rahanduskalendrid lehel Pearaamat valitud rahanduskalendri puhul. Näiteks hakkab kulumiarvestuse majandusaasta on 1. juuli läbi 30. juuni, 1. juuli. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Iga rahandusperioodi kulumit korrigeeritakse. Järgmise rahandusaasta pikkus põhineb rahandusperioodidel, mille seadistate lehel Rahanduskalendrid uue rahandusaasta loomisel.
+Kui valite väljal Kulumiarvestusaasta suvandi Rahandusaasta, kasutatakse lineaarset kulumimeetodit. See arvutatakse rahandusaasta põhjal, mis seadistatakse lehel Rahanduskalendrid lehel Pearaamat valitud rahanduskalendri puhul. Näiteks rahandusaasta puhul 1. juulist kuni 30. juunini algab kulumiarvestus 1. juulil. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Iga rahandusperioodi kulumit korrigeeritakse. Järgmise rahandusaasta pikkus põhineb rahandusperioodidel, mille seadistate lehel Rahanduskalendrid uue rahandusaasta loomisel.
 
 
 Rahandusaasta valimisel on väljal Perioodi sagedus saadaval järgmised suvandid.
@@ -73,12 +76,14 @@ Kasutades väheneva saldo meetodit, arvutatakse 30 protsenti kulumialusest (raam
 
 | Periood | Aasta kulumisumma arvutamine | Raamatupidamislik jääkväärtus aasta lõpus |
 |--------|-------------------------------------------|---------------------------------------|
-| aasta 1 | (11,000 - 1,000) \* 30% = 3,000           | (11 000 – 1000) – 3000 = 7000      |
-| aasta 2 | (7,000 - 1,000) \* 30% = 1,800            | (7000 – 1800) = 5200                |
-| aasta 3 | (5,200 - 1,000) \* 30% = 1,260            | (5200 – 1260) = 3940               |
+| aasta 1 | (11 000 – 1 000) \* 30% = 3000           | (11 000 – 1000) – 3000 = 7000      |
+| aasta 2 | (7000 – 1000) \* 30% = 1800            | (7000 – 1800) = 5200                |
+| aasta 3 | (5200 – 1000) \* 30% = 1260            | (5200 – 1260) = 3940               |
 
  
 -
+
+
 
 
 

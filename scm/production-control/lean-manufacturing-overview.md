@@ -1,5 +1,5 @@
 ---
-title: "Lean tootmine ülevaade"
+title: "Lean manufacturingi ülevaade"
 description: "See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Lean tootmine ülevaade
+# <a name="lean-manufacturing-overview"></a>Lean manufacturingi ülevaade
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Microsoft Dynamics AX.
 
@@ -49,7 +52,7 @@ Lean manufacturingi aluse loomiseks modelleerige tootmis- ja logistikaprotsessid
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a> Kanbanide kasutamine nõudluse nõuete tähistamiseks
 Tõmbesüsteem toodab kaupu ainult siis, kui kaupu on vaja. Selline süsteem lühendab tarneaegu ja vähendab liigseid varusid. Saate kasutada kanbane tootmisvoogudel põhinevate nõuete plaanimiseks, jälgimiseks ja töötlemiseks. Kanban-raamistiku loomiseks saate luua kanban-reegleid, mis määratlevad, millal kanbanid luuakse ja kuidas nõudeid täidetakse. Saate luua kahte tüüpi kanban-reegleid. Tootmisreeglid loovad protsessi kanban-tööd ja tagastamise kanban-reeglid loovad üleviimise kanban-tööd. Saate seadistada järgmised täiendamisstrateegiad.
--   **Fikseeritud kogusega** kanban-reeglid on seotud fikseeritud arvu materjali käsitlemisühikuid, mis tähendab, et aktiivsete kanbanide arv on konstantne. Kõik tooted on Kanban tarbitakse ja ühikute töötlemine tühjendatakse käsitsi, luuakse uus kanban sama tüüpi. Kindel kanban reeglite loomisel, saate arvutada optimaalne kanban kogused ja toodete kogused, mida kasutatakse. Arvutamisel võetakse arvesse prognoosi, tegelikku nõudlust avatud tellimustest, kaupade täiendamiseks vajalikku aega ja varasemaid nõudlusi.
+-   **Fikseeritud kogusega** kanban-reeglid on seotud fikseeritud arvu materjali käsitlemisühikuid, mis tähendab, et aktiivsete kanbanide arv on konstantne. Alati, kui tarbitakse kõik Kanbani tooted ja materjali käsitlemisühikud käsitsi tühjendatakse, luuakse uus sama tüüpi kanban. Kui loote fikseeritud kogusega kanbani reeglid, saate arvutada optimaalsed kanbani kogused ja tootekogused, mida kasutatakse. Arvutamisel võetakse arvesse prognoosi, tegelikku nõudlust avatud tellimustest, kaupade täiendamiseks vajalikku aega ja varasemaid nõudlusi.
 -   **Plaanitud** kanban-reeglid täiendavad koondplaneerimisega arvutatud nõudeid. Koondplaneerimine loob plaanitud kanbanid, mille saab kanbanideks kinnitada.
 -   **Sündmuse** kanban-reeglid täiendavad nõudeid, mis pärinevad müügitellimuse ridadelt, tootmise koosluse ridadelt, kanbani ridadelt või minimaalsetest varude sätetest. Sündmuse kanbanide loomisel seotakse need lähtetingimustega.
 
@@ -76,6 +79,8 @@ Kanban-tööd on täielikult integreeritud praeguste laokannete protsessidega Mi
 Lisaks toetab lean manufacturing alltöövõtu tegevustega viidatud teenuste ostu- ja arveldusprotsesse.
 -   Saate määrata alltöövõtu tegevustele ostulepingu ridu ja teenuseid.
 -   Saate koostada perioodilisi ostutellimusi ja vastuvõtukinnitusi teenuste ostmise ja arveldamise toetamiseks.
+
+
 
 
 

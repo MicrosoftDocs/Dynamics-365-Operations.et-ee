@@ -1,6 +1,6 @@
 ---
-title: Kasutage Exceli lisandmoodul
-description: "Selles artiklis käsitletakse avage olemi andmeid Microsoft Excelis, ja seejärel vaadata, värskendada ja andmeid redigeerida kasutades lisandmoodul Microsoft Dynamics Office Excel. Olemi andmete avamiseks alustamiseks kas Exceli või Microsoft Dynamics 365 toiminguteks."
+title: Exceli lisandmooduli kasutamine
+description: "See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis, ja seejärel vaadata, värskendada ja redigeerida andmeid, kasutades Microsoft Dynamics Office’i Excelile mõeldud lisandmoodulit. Üksuse andmete avamiseks saate käivitada Exceli või rakenduse Microsoft Dynamics 365 for Operations kaudu."
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,69 +24,69 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-the-excel-add-in"></a>Kasutage Exceli lisandmoodul
+# <a name="use-the-excel-add-in"></a>Exceli lisandmooduli kasutamine
 
-Selles artiklis käsitletakse avage olemi andmeid Microsoft Excelis, ja seejärel vaadata, värskendada ja andmeid redigeerida kasutades lisandmoodul Microsoft Dynamics Office Excel. Olemi andmete avamiseks alustamiseks kas Exceli või Microsoft Dynamics 365 toiminguteks.
+See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis, ja seejärel vaadata, värskendada ja redigeerida andmeid, kasutades Microsoft Dynamics Office’i Excelile mõeldud lisandmoodulit. Üksuse andmete avamiseks saate käivitada Exceli või rakenduse Microsoft Dynamics 365 for Operations kaudu.
 
-Microsoft Exceli avamisel olemi andmeid, saate kiiresti ja lihtsalt vaadata ja redigeerida andmeid Exceli lisandmoodul Microsoft Dynamics Office. Nõuab see lisandmoodul Microsoft Excel 2016. **Märkus:** kui Microsoft Azure Active Directory (Azure AD) Üürnik on konfigureeritud kasutama Active Directory Federation Services (AD FS), peate veenduma, et mai 2016 värskendus on rakendatud, et Exceli lisandmoodul võib õigesti teie sisselogimise.
+Üksuse andmete avamisel Microsoft Excelis saate kiiresti ja hõlpsasti vaadata ja redigeerida andmeid, kasutades Microsoft Dynamics Office’i Exceli jaoks mõeldud lisandmoodulit. See lisandmoodul nõuab rakendust Microsoft Excel 2016. **Märkus.** Kui teie Microsoft Azure Active Directory (Azure AD) rentnik konfigureeritakse kasutama teenust Active Directory Federation Services (AD FS), peate veenduma, et 2016. aasta mai värskendus on rakendatud nii, et Exceli lisandmoodul saab teid korrektselt sisse logida.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Avatud üksuse andmed Exceli käivitamisel Dynamics 365 toiminguteks
-1.  Klõpsake lehel Microsoft Dynamics 365 operatsioonide **avatud Microsoft Office'i**. Kui lehe root andmeallikas (tabel) on sama juur andmeallikas isikud, vaikimisi **Excelis avatud** Valikud luuakse lehe. **Excelis avatud** Valikud leiate sagedamini kasutatavad lehed, nagu **hankijate** ja **kõik kliendid**.
-2.  Klõpsake selle **Excelis avada** valik ja avage töövihik, mis luuakse. See töövihik on siduv informatsioon ettevõte, oma keskkonda viit ja viit Exceli lisandmoodul.
-3.  Klõpsake Excelis **redigeerimise lubamine** et Exceli lisandmoodulit käivitada. Exceli lisandmoodul jookseb Exceli akna paremal paanil.
-4.  Kui teil on Exceli lisandmoodul esimest korda, klõpsake **usaldada selle Add-in**.
-5.  Kui teil palutakse sisse logida, klõpsake **Logi sisse**, ja seejärel logige kasutades samu mandaate, mida kasutasite sisselogimiseks Dynamics 365 toiminguteks. Exceli lisandmoodul kasutab eelmise sisselogimise kontekstis Internet Explorerist ja automaatselt sisse, kui saab. Seetõttu kontrollida kasutajanime paremas nurgas Exceli lisandmoodul.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Avage üksuse andmed Excelis rakenduse Dynamics 365 for Operations käivitamisel
+1.  Rakenduse Microsoft Dynamics 365 for Operations lehel klõpsake nuppu **Ava Microsoft Office’is**. Kui lehe juurandmete allikas (tabel) on sama kui mis tahes üksuste juurandmeallikas, luuakse lehe jaoks vaikesuvandid **Ava Excelis**. Suvandid **Ava Excelis** on leitavad sagedasti kasutatavatel lehtedel, nagu **Kõik hankijad** ja **Kõik kliendid**.
+2.  Klõpsake suvandit **Ava Excelis** ja avage loodav töövihik. Sellel töövihikul on üksuse jaoks sidumisteave, osuti teie keskkonnale ja osuti Exceli lisandmoodulile.
+3.  Excelis klõpsake nuppu **Redigeerimise lubamine**, et lubada Exceli lisandmooduli käivitamine. Exceli lisandmoodul töötab Exceli akna paremal küljel olevas paanis.
+4.  Kui käivitate Exceli lisandmooduli esimest korda, klõpsake nuppu **Usalda seda lisandmoodulit**.
+5.  Kui teil palutakse sisse logida, klõpsake nuppu **Logi sisse** ja seejärel logige sisse, kasutades samu mandaate, mida kasutasite rakendusse Dynamics 365 for Operations sisselogimisel. Exceli lisandmoodul kasutab varasemat Internet Exploreri sisselogimise konteksti ja logib teid võimaluse korral automaatselt sisse. Seetõttu kinnitage kasutajanimi Exceli lisandmooduli paremal ülanurgas.
 
-Exceli lisandmoodul loeb automaatselt valitud olemi andmeid. Pange tähele, et andmed töövihiku kuni Exceli lisandmoodul loeb seda.
+Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et töövihikus ei ole andmeid, kuni Exceli lisandmoodul loeb need sisse.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Avatud üksuse andmete Excelis Exceli käivitamisel
-1.  Exceli kohta on **lisada** vahekaardil, on **lisandmoodulid** nuppu **poe** Office'i poe avamiseks.
-2.  Office Store, otsige märksõna "Dynamics" ja klõpsake **lisa** kõrval on **Microsoft Dynamics Office Add-in** (Exceli lisandmoodul).
-3.  Kui teil on Exceli lisandmoodul esimest korda, klõpsake **usaldada selle Add-in** et Exceli lisandmoodulit käivitada. Exceli lisandmoodul jookseb Exceli akna paremal paanil.
-4.  Klõpsake **lisa info** avamiseks ning **Valikud** paani.
-5.  Kopeerida oma eesmärgi Dynamics 365 toimingute astme brauseri URL, kleepige see on **serveri URL** välja ja seejärel kustutage kõik pärast hosti nimi (näiteks kustutada **/? VTMS = usmf & mi = CustTableListPage**). Tulemuseks URL peaks olema lihtsalt hosti nimi (näiteks **https://xxx.dynamics.com**).
-6.  Klõpsake **OK**, ja seejärel klõpsake **Jah** muutuse kinnitamiseks. Exceli lisada taaskäivitub ja laadib metaandmed. Selle **projekti** nupp on nüüd saadaval. Kui Exceli lisandmoodul on saanud **laadida apletid** nupp, te ilmselt ei ole sisse loginud kasutaja õige. Lisateabe saamiseks vt "koormus apletid nuppu kuvatakse" selle teema jaotisest "Tõrkeotsing".
-7.  Klõpsake **projekti**. Exceli lisandmoodul toob olemi metaandmeid.
-8.  Klõpsake **lisa tabelis**. Kuvatakse loend üksustest. Üksused on loetletud "- nimesildi" formaadis.
-9.  Valige üksus loendist, näiteks **klient - hotelli**, ja seejärel klõpsake **järgmise**.
-10. Lisada väli selle **saadaolevad väljad** nimekirja on **valitud väljad**, klõpsake välja ja seejärel soovitud **lisa**. Teise võimalusena topeltklõpsake välja.
-11. Kui olete lisanud soovitud väljad on **valitud väljad**, veenduge, et kursor asub õigesse kohta töölehel (nt lahter A1) ja seejärel soovitud **teha**. Klõpsake **teha** et väljumiseks.
-12. Klõpsake **värskendada** andmete tõmmata.
+## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Üksuse andmete avamine Exceli kaudu käivitamisel
+1.  Klõpsake Excelis vahekaardil **Lisa** grupis **Lisandmoodulid** nuppu **Ladu**, et avada Office Store.
+2.  Office Store’is otsige märksõna „Dynamics” ja klõpsake nuppu **Lisa**, mis asub valiku **Microsoft Dynamicsi Office’i lisandmoodul** (Exceli lisandmoodul) kõrval.
+3.  Kui käivitate Exceli lisandmooduli esimest korda, klõpsake nuppu **Usalda seda lisandmoodulit**, et lubada Exceli lisandmooduli käivitamine. Exceli lisandmoodul töötab Exceli akna paremal küljel olevas paanis.
+4.  Klõpsake nuppu **Serveriteabe lisamine**, et avada paan **Suvandid**.
+5.  Kopeerige brauseri URL rakenduse Dynamics 365 for Operations sihteksemplari, kleepige see väljale **Serveri URL** ja seejärel kustutage kõik hostinime järelt (näiteks kustutage **/?cmp=usmf&mi=CustTableListPage**). Tuleneval URL-il peab olema ainult hostinimi (näiteks **https://xxx.dynamics.com**).
+6.  Klõpsake **OK** ja seejärel klõpsake muudatuse kinnitamiseks nuppu **Jah**. Exceli lisandmoodul taaskäivitab ja laadib metaandmed. Nupp **Kujundus** on nüüd saadaval. Kui Exceli lisandmoodulil on nupp **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Lisateabe saamiseks vaadake selle teema jaotises „Tõrkeotsing” olevat nuppu „Kuvatakse nupp Aplettide laadimine”.
+7.  Klõpsake valikut **Kujundus**. Exceli lisandmoodul toob üksuse metaandmed.
+8.  Klõpsake nuppu **Lisa tabel**. Ilmub olemite loend. Olemid on esitatud vormingus „Nimi – silt”.
+9.  Valige loendis üksus, nagu **Kliendid – kliendid** ja klõpsake seejärel nuppu **Edasi**.
+10. Välja lisamiseks loendist **Saadaolevad väljad** loendisse **Valitud väljad** klõpsake välja ja seejärel nuppu **Lisa**. Teise võimalusena topeltklõpsake välja.
+11. Pärast soovitud väljade loendisse **Valitud väljad** lisamist veenduge, et kursor on töölehel õiges kohas (nt lahter A1) ja klõpsake seejärel nuppu **Valmis**. Kujundajast väljumiseks klõpsake seejärel nuppu **Valmis**.
+12. Andmekogumi sissetõmbamiseks klõpsake nuppu **Värskenda**.
 
-## <a name="view-and-update-entity-data-in-excel"></a>Saate vaadata ja värskendada üksuse andmete kasutamine Excelis
-Kui Exceli lisandmoodul loeb töövihikusse olemi andmeid, saate värskendada andmeid igal ajal klõpsates **värskendada** ja Exceli lisandmoodul.
+## <a name="view-and-update-entity-data-in-excel"></a>Üksuse andmete vaatamine ja värskendamine Excelis
+Pärast seda, kui Exceli lisandmoodul loeb üksuse andmed töövihikusse, saate värskendada andmeid igal ajal, klõpsates Exceli lisandmoodulis nuppu **Värskenda**.
 
 ## <a name="edit-entity-data-in-excel"></a>Üksuse andmete redigeerimine Excelis
-Saate muuta olemi andmeid nõuavad ja avaldate selle siis klõpsake veel kord käsul **avalda** ja Exceli lisandmoodul. Kirje redigeerimiseks valige lahter töölehel ja seejärel muutke lahtri väärtuse. Uue kirje lisamiseks järgige neid samme:
+Saate muuta üksuse andmeid vastavalt vajadusele ja avaldada selle seejärel tagasi, klõpsates Exceli lisandmoodulis nuppu **Avalda**. Kirje redigeerimiseks valige töölehel lahter ja muutke seejärel lahtri väärtust. Uue kirje lisamiseks järgige üht järgmist juhist.
 
--   Klõpsake töölehel, ja seejärel klõpsake **uus** ja Exceli lisandmoodul.
--   Klõpsake viimase töölehe rida ja vajutage tabeldusklahvi, kuni kursor selle rea viimases veerus kokku ja luuakse uus rida.
--   Klõpsake all töölehe rida ja sisestage andmed lahtrisse hakata. Kui te fookuse välja see lahter, tööleht laieneb, et kaasata uue rea.
+-   Klõpsake töölehel mis tahes kohas ja klõpsake seejärel Exceli lisandmoodulis nuppu **Uus**.
+-   Klõpsake töölehe viimses reas ja vajutage seejärel klahvi Tab, kuni kursor liigub selle rea viimasest veerust välja ja luuakse uus rida.
+-   Klõpsake koheselt töölehe all olevat rida ja alustage andmete sisestamist lahtris. Kui liigutate fookuse sellest lahtrist välja, laieneb tööleht uue rea kaasamiseks.
 
-Kirje kustutamiseks järgige neid samme:
+Kirje kustutamiseks järgige üht nendest juhistest.
 
--   Paremklõpsake rea number kõrval töölehe rida kustutada ja seejärel klõpsake **kustutada**.
--   Töölehe rea kustutamiseks paremklõpsake ja seejärel klõpsake **kustutada**&gt;**tabeli ridade**.
+-   Paremklõpsake kustutatava töölehe rea kõrval olevat rea numbrit ja klõpsake seejärel nuppu **Kustuta**.
+-   Paremklõpsake kustutatava töölehe rea kõrval olevat rea numbrit ja klõpsake seejärel nuppu **Kustuta** &gt; **Tabeliread**.
 
 ## <a name="add-or-remove-columns"></a>Lisa või eemalda veerge
-Saate kohandada veerud, mis lisatakse automaatselt töölehe projekteerija.
+Saate kasutada kujundajat, et reguleerida veerge, mis lisatakse automaatselt töölehele.
 
-1.  Andmete allika autori lisandmooduli Exceli käivitamiseks klõpsake selle **Valikud** nuppu (käik sümbol) ja seejärel klõpsake selle **disain lubade kasutada programmi** ruut.
-2.  Klõpsake **projekti** ja Exceli lisandmoodul. Kõik andmeallikad on loetletud.
-3.  Kõrval andmeallikas, klõpsake selle **muuta** nuppu (pliiats sümbol).
-4.  Kohandada nimekirja ning **valitud väljad** nimekirja kui vaja:
-    -   Lisada väli selle **saadaolevad väljad** nimekirja on **valitud väljad**, klõpsake välja ja seejärel soovitud **lisa**. Teise võimalusena topeltklõpsake välja.
-    -   Väli, eemaldada selle **valitud väljad**, klõpsake välja ja seejärel soovitud **eemaldamine**. Teise võimalusena topeltklõpsake välja.
-    -   Väljade järjestuse muutmiseks klõpsake välja selle **valitud väljad** ja seejärel soovitud **üles** või **ette**.
+1.  Käivitage Exceli lisandmooduli andmeallika kujundaja, klõpsates nuppu **Suvandid** (hammasratta sümbol) ja märkides seejärel ruudu **Luba kujundamine**.
+2.  Klõpsake Exceli lisandmoodulis nuppu **Kujundus**. Kõik andmeallikad on nimetatud.
+3.  Andmeallika kõrval klõpsake nuppu **Redigeeri** (pliiatsi sümbol).
+4.  Reguleerige loendis **Valitud väljad** olevat loendit vastavalt vajadusele.
+    -   Välja lisamiseks loendist **Saadaolevad väljad** loendisse **Valitud väljad** klõpsake välja ja seejärel nuppu **Lisa**. Teise võimalusena topeltklõpsake välja.
+    -   Välja loendist **Valitud väljad** eemaldamiseks klõpsake välja ja seejärel klõpsake nuppu **Eemalda**. Teise võimalusena topeltklõpsake välja.
+    -   Väljade järjestuse muutmiseks klõpsake loendis **Valitud väljad** olevat välja ja seejärel klõpsake nuppu **Üles** või **Alla**.
 
-5.  Muudatused rakenduvad andmeallikas klõpsates **Update**. Klõpsake **teha** et väljumiseks. Kui lisasite (veerus), klõpsake **värskendada** tõmmata andmed uuendatud kogumik.
+5.  Rakendage oma muudatused andmeallikale, klõpsates nuppu **Värskenda**. Kujundajast väljumiseks klõpsake seejärel nuppu **Valmis**. Kui lisasite välja (veerg), klõpsake nuppu **Värskenda**, et tõmmata sisse värskendatud andmekogum.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Troubleshooting
-Seal on mõned probleemid, mida saab lahendada mõne lihtsa sammuga.
+## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Tõrkeotsing
+On mõned probleemid, mida saab lahendada mõne lihtsa juhise kaudu.
 
--   **Koormus apletid nuppu kuvatakse.** Kui Exceli lisandmoodul on saanud **laadida apletid** nuppu pärast sisselogimine, te ilmselt ei ole sisse loginud kasutaja õige. Selle probleemi lahendamiseks veenduge, et õige kasutajanime kuvatakse paremas nurgas Exceli lisandmoodul. Kui vale kasutajanime, klõpsake seda, logige välja ja seejärel logige uuesti sisse.
--   **Kuvatakse teade "Keelatud".** "Keelatud" sõnumi Exceli lisandmoodul metaandmete laadimine saamisel kontole, mis on sisse logitud, et Exceli lisandmoodul pole õigust kasutada suunatud teenuseid, näiteks või andmebaasi. Selle probleemi lahendamiseks veenduge, et õige kasutajanime kuvatakse paremas nurgas Exceli lisandmoodul. Kui vale kasutajanime, klõpsake seda, logige välja ja seejärel logige uuesti sisse.
--   **Tühi veebileht kuvatakse Exceli üle.** Kui tühi veebileht avaneb sisselogimise ajal, konto nõuab AD FS, kuid töötab lisandmooduli Exceli versiooni ei ole piisavalt tehtud, laadida sisselogimise dialoogiboksi. Probleemi lahendamiseks värskendage kasutate Exceli versiooni. Oled ettevõte, mis on edasilükkunud kanalil Exceli versiooni värskendamiseks kasutada ka [Office'i juurutamise tööriist](https://technet.microsoft.com/library/jj219422.aspx) et [praeguse kanali edasilükkunud kanal liikuda](https://technet.microsoft.com/library/mt455210.aspx).
+-   **Kuvatakse nupp Aplettide laadimine.** Kui Exceli lisandmoodulil on pärast sisselogimist nupp **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Selle probleemi lahendamiseks veenduge, et Exceli paremas ülanurgas ilmub õige kasutaja. Kui ilmub vale kasutajanimi, klõpsake seda, logige välja ja logige tagasi sisse.
+-   **Saate sõnumi „Keelatud”.** Kui saate ajal, mil Exceli lisandmoodul laadib metaandmeid, sõnumi „Keelatud”, siis ei ole kontol, mis on Exceli lisandmoodulisse sisse logitud, õigust kasutada sihtteenust, -eksemplari või -andmebaasi. Selle probleemi lahendamiseks veenduge, et Exceli paremas ülanurgas ilmub õige kasutaja. Kui ilmub vale kasutajanimi, klõpsake seda, logige välja ja logige tagasi sisse.
+-   **Exceli kohal kuvatakse tühi veebileht.** Kui tühi veebileht avaneb sisselogimisprotsessi käigus, nõuab konto AD FS-i, kuid lisandmoodulit sisaldav Exceli versioon pole sisselogimise dialoogiboksi laadimiseks piisavalt hiljutine. Selle probleemi lahendamiseks värskendage kasutatavat Exceli versiooni. Exceli versiooni värskendamiseks, kui olete viitkanalis asuvas ettevõttes, kasutage tööriista [Office’i juurutustööriist](https://technet.microsoft.com/library/jj219422.aspx), et [liikuda edasilükatud kanalist praegusesse kanalisse](https://technet.microsoft.com/library/mt455210.aspx).
 
 
 

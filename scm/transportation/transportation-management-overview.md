@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-overview"></a>Transpordihalduse ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles teemas antakse ülevaade transpordihalduse funktsioonidest rakenduses Microsoft Dynamics 365 for Operations.
 
 Moodul Transpordihaldus võimaldab hallata ettevõtte transporti ning tuvastada ka hankijat ja marsruudilahendusi nii sissetulevate kui ka väljaminevate tellimuste puhul. Näiteks saate tuvastada kiireima marsruudi või soodsaima transpordihinna. Järgmine tabel kirjeldab peamisi stsenaariume transpordihalduse kasutamiseks rakenduses Microsoft Dynamics 365 for Operations.
@@ -67,19 +70,21 @@ Moodul Transpordihaldus võimaldab hallata ettevõtte transporti ning tuvastada 
 ## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Transpordi plaanimine rakenduses Dynamics 365 for Operations
 Transpordihalduse moodulis võib transpordi plaanimine põhineda tellimustel või saadetistel, mis nende tellimuste põhjal luuakse. Saadetised on alati mingil ajahetkel olemas, kuid neid pole transpordi plaanimiseks vaja. Üleviimistellimused kuuluvad väljamineva transpordi stsenaariumi ja neid saab plaanida koos müügitellimustega. 
 
-![Koormus joonis](./media/Load-drawing1-1024x477.jpg)
+![Koorma joonis](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Sissetulev transport
-Kui tellite hankijalt, kaubad tuleb tarnida lao, võiksite korraldada kaupade transpordi ise. Saate planeerida transpordi ja sissetuleva koormuse saamist Dynamics 365 toiminguteks. Järgmisel joonisel on näidatud äriprotsessi voog sissetuleva koorma transpordi planeerimiseks. 
+Kui tellite hankijalt tellimuse kaubad ja kaubad tuleb lattu tarnida, peate soovi korral ise kaupade transpordi korraldama. Saate kasutada rakendust Dynamics 365 for Operations, et transporti ja sissetuleva koorma laekumist plaanida. Järgmisel joonisel on näidatud äriprotsessi voog sissetuleva koorma transpordi planeerimiseks. 
 
 ![Äriprotsessi voog sissetulevate koormate transportimiseks](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Väljaminev transport
 Saate planeerida ja töödelda väljaminevat koormat konkreetsete kaupade saatmiseks ettevõtte laost kliendile. Saate kasutada rakendust Dynamics 365 for Operations väljamineva koorma transportimise ja vedamise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog väljaminevate koormate planeerimiseks ja töötlemiseks. 
 
-![Planeerimine ja töötlemise väljaminev](./media/Planningandprocessingoutboundloads.jpg)
+![Väljaminevate koormate plaanimine ja töötlemine](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Koorma koostamine
 Dynamics 365 for Operations pakub koorma koostamise strateegiat, mille nimi on Mahupõhine koorma koostamise strateegia. See strateegia võimaldab kasutada koorma mallil kõrguse ja kaalu kohta määratud maksimumväärtusi või alistada sätted, sisestades uusi väärtusi. Selle strateegia kasutamiseks valige see väljalt **Koorma koostamise strateegia** kiirkaardil **Seadistus** lehel **Koorma koostamise töölaud**. Lisaks saate lisada oma koorma koostamise strateegiaid, luues rakendusobjektide puul (AOT) uue klassi.
+
+
 
 

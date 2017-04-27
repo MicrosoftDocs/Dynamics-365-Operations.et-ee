@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Arvestus- või aruandlusvaluutade teisendamine
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Ettevõttel, mis peab muutma oma arvestusvaluutat või aruandlusvaluutat, on kaks võimalust. Esimene võimalus on luua uus ettevõte ja alustada otsast peale. Teine võimalus on käivitada arvestus-- ja aruandlusvaluuta teisenduse protsess. See on väga pikaajalisne protsess, mis muudab süsteemis iga kannet. Enne protsessi käitamist on nõutav ka mõningane seadistus.
@@ -72,6 +75,8 @@ Pärast valuutateisendust peate kõik vastavusse viimise aruanded uuesti looma, 
 -   Kui pearaamatu arvestusvaluuta teisendus põhjustab ümarduserinevusi, ei sisestata neid erinevusi kande abil kohas, kus ümarduserinevus ilmnes. Selle asemel sisestatakse erinevused kande abil, mis sisestati teisendussisestuste jaoks. Need ümarduserinevused kuvatakse kõigis teisendusjärgsetes kande- ja kuupäevakontrolliga aruannetes. See käitumine on õige ja seda võib eirata.
 -   Kui kliendi ja hankija vastavusseviimise aruannetel kuvatakse kogu rea erinevussumma ja erinevussummat enne teisendust ei olnud, tuleb see erinevussumma sisestada. Konto on koondkonto klientide ja hankijate jaoks. Vastaskonto on pearaamatukonto teisenduse kulu või teisenduse tulu jaoks.
 
-Kui kõik pearaamatu kandetöölehed on kustutatud, saate pearaamatukanded töölehele paigutada. Klõpsake **PR**&gt;**perioodiline**&gt;**töölehtede**&gt;**töölehele paigutamise**. Pärast valuutateisenduse, saab välisvaluuta summad ümber hinnata, kui ümberhindamine on nõutav. Saate välisvaluuta summad ümber hinnata, valides ümberhindamise jaotises välja **Meetod** suvandiks **Standardne**.
+Kui kõik pearaamatu kandetöölehed on kustutatud, saate pearaamatukanded töölehele paigutada. Klõpsake valikuid **Pearaamat** &gt; **Perioodiline** &gt; **Töölehed** &gt; **Töölehele paigutamine**. Pärast valuutateisenduse, saab välisvaluuta summad ümber hinnata, kui ümberhindamine on nõutav. Saate välisvaluuta summad ümber hinnata, valides ümberhindamise jaotises välja **Meetod** suvandiks **Standardne**.
+
+
 
 

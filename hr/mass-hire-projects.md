@@ -46,7 +46,7 @@ Valige lehel **Hulgivärbamisprojektid** projekt „SuvePraktikandid” ja seej�
 
 Pärast üliõpilaste valimist praktikakohtadele saate iga tudengi kohta sisestada jaotises **Ametikoha üksikasjad** teabe, millisele ametikohale te nad palkasite. Kui olete kõik ametikoha üksikasjad sisestanud, valige lehel Hulgivärbamisprojektid ametikoht ja seejärel klõpsake valikut **Palka**. Igale ametikohale luuakse ametikoha ning töötaja kirje, mis määratakse õigele ametikohale iga palgatava inimese jaoks.
 
-## <a name="masshire-project-statuses"></a>Masshire projekti staatused
+## <a name="masshire-project-statuses"></a>Hulgivärbamisprojekti olekud
 Hulgivärbamisprojekti olek võib olla järgmine.
 -   Loodud
 -   Avatud

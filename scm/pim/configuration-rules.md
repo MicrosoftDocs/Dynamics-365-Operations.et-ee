@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configuration-rules"></a>Konfiguratsioonireeglid
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse üldteavet konfiguratsioonireeglite kohta. Konfiguratsioonireeglid määratlevad koosluse kaupade vahelised seosed toodete puhul, mis kasutavad dimensioonipõhist konfiguratsioonitehnoloogiat.
 
 Konfiguratsioonireeglid on saadaval dimensioonipõhiste konfiguratsioonimudelite määratlemisel. Konfiguratsioonireegleid kasutatakse koosluses kindlate kaubakombinatsioonide jõustamiseks või keelamiseks. Kui kooslus on loodud ja nende vastavatele konfiguratsioonigruppidele on asjakohased kaubad määratud, saab määratleda ühe või mitu konfiguratsioonireeglit. Kui kaks elementi kuuluvad kokku, kasutatakse kaasamise tagamiseks tehtemärki **Vali**. Kui kaks kauba on teineteist välistavad, kasutatakse välistuse tagamiseks operaatorit **Tühista valik**.  
@@ -42,5 +45,7 @@ Olemasolevad konfiguratsioonid jäävad konfiguratsioonireeglite hilisemal muutm
 --------
 
 [Dimensioonipõhine tootekonfiguratsioon](dimension-based-product-configuration.md)
+
+
 
 

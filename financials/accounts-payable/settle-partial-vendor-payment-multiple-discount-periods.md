@@ -1,5 +1,5 @@
 ---
-title: Lahendada osalise hankijamakse, millel on mitu soodustust perioodide
+title: Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine
 description: "See artikkel käsitleb stsenaariumi, kus mitut skontot pakkuvale hankijale tehakse mitu osalist makset."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Lahendada osalise hankijamakse, millel on mitu soodustust perioodide
+# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel käsitleb stsenaariumi, kus mitut skontot pakkuvale hankijale tehakse mitu osalist makset. 
 
 Hankija 3054 pakub Fabrikamile 2-protsendist skontot, kui arve tasutakse viie päeva jooksul ja 1-protsendist skontot, kui arve tasutakse 14 päeva jooksul.
 
 ## <a name="invoice"></a>Arve
-28. juuni aprill loob arve hankija 3054 1000.00 dollarit. April saab vaadata seda kannet lehel **Hankija kanded**.
+28. juunil loob April hankijale 3054 arve summas 1000,00. April saab vaadata seda kannet lehel **Hankija kanded**.
 
 | Kanne   | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo   | Valuuta |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -48,7 +51,7 @@ Selle arve jaoks on saadaval järgmised skonto kuupäevad ja summad.
 | 25.07.2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="payment-on-july-2"></a>Makse 2. juulil
-2. juuli aprill tahab maksta 300,00 see faktuurarve. Ta loob riigikassaga, kasutades selle **maksežurnaali** maksmata arvete lehekülg. Ta lisab rea hankijale 3054 ja sisestab maksesumma **300,00**. Seejärel avab April lehe **Kannete tasakaalustamine**, et ta saaks märkida arve tasakaalustamiseks. Ta värskendab välja **Tasakaalustatav summa** väärtusele **300,00** ja näeb, et välja **Arvestatav skonto summa** väärtus on nüüd **6,12**. Kuna see makse on tehtud esimesel allahindlusperioodil, arvestatakse 2-protsendist allahindlust.
+2. juulil soovib April tasuda arve suhtes 300,00. Ta loob ühekordse makse, kasutades ostureskontro lehte **Maksetööleht**. Ta lisab rea hankijale 3054 ja sisestab maksesumma **300,00**. Seejärel avab April lehe **Kannete tasakaalustamine**, et ta saaks märkida arve tasakaalustamiseks. Ta värskendab välja **Tasakaalustatav summa** väärtusele **300,00** ja näeb, et välja **Arvestatav skonto summa** väärtus on nüüd **6,12**. Kuna see makse on tehtud esimesel allahindlusperioodil, arvestatakse 2-protsendist allahindlust.
 
 | Märge | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -134,6 +137,8 @@ Lehel **Hankija kanded** näeb April, et uus saldo on 200,00.
 | APP‑10061  | 12.07.2015 |         | 495,00                               |                                       | 0,00    | USA dollar      |
 | DISC‑10061 | 12.07.2015 |         | 5,00                                 |                                       | 0,00    | USA dollar      |
 | APP‑10062  | 7/20/2015 |         | 200,00                               |                                       | 0,00    | USA dollar      |
+
+
 
 
 

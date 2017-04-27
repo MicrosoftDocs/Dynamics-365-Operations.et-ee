@@ -1,6 +1,6 @@
 ---
-title: "Uue või ajakohastatud ülesandeks juhendid (August 2016)"
-description: "Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid vabastamisele Microsoftile (August 2016 - kõikides keeltes) APQC ühendatud Raamatukogu Microsoft Dynamics AX. Ühtegi uut teeki Alustamine ei antud välja."
+title: "Uued või värskendatud tegevusjuhised (august 2016)"
+description: "Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (august 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-august-2016"></a>Uue või ajakohastatud ülesandeks juhendid (August 2016)
+# <a name="new-or-updated-task-guides-august-2016"></a>Uued või värskendatud tegevusjuhised (august 2016)
 
-Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid vabastamisele Microsoftile (August 2016 - kõikides keeltes) APQC ühendatud Raamatukogu Microsoft Dynamics AX. Ühtegi uut teeki Alustamine ei antud välja.
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Ülesande juhised (August 2016 - kõikides keeltes) APQC ühendatud Raamatukogu Microsoft Dynamics AX
+
+Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (august 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Tegevusjuhised (august 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegist
 ---------------------------------------------------------------------------------------------------
 
-(August 2016 - kõikides keeltes) APQC ühendatud Raamatukogu sisaldab ülesandeks juhendid, mis on mõeldud kasutamiseks koos Microsoft Dynamics AX platvormi värskendus 2 (August 2016), Dynamics AX abi võib 2016 taotluse ajakohastada ning Microsoft Dynamics AX veebruar 2016 vabastada. Need plaadid kohta lisateabe saamiseks vaadake [mis on uued või muudetud](whats-new-changed.md). Selles teegis on lokaliseeritud versioonide ülesandeks juhendid. Ühenduse abi süsteem ülesande juhend Raamatukogu loomise kohta lisateabe saamiseks vt [abiga alustada](help-overview.md).
+(August 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft AX-i platvormi värskenduse 2 (august 2016), Dynamics AX-i mai 2016 rakenduse värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljalaske spikrina. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
 
 ### <a name="data-access"></a>Juurdepääs andmetele
 
@@ -97,10 +100,12 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 <a name="see-also"></a>Vt ka
 --------
 
-[Uue ülesande juhendid (veebruar 2016)](new-task-guides-available-february-2016.md)
+[Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
 
-[Uue või ajakohastatud ülesandeks juhendid (mai 2016)](new-updated-task-guides-available-may-2016.md)
+[Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Uue või ajakohastatud ülesandeks juhendid (November 2016)](new-task-guides-november-2016.md)
+[Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)
+
+
 
 

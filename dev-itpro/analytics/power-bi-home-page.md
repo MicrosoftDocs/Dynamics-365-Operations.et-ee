@@ -1,6 +1,6 @@
 ---
-title: "Power BI kodulehekülg"
-description: "Käesolevas peatükis on kirjeldatud vahendid, mis aitavad teil kasutada Power BI Dynamics 365 toiminguteks."
+title: Power BI avaleht
+description: Leht loetleb ressursid, mis aitavad teil kasutada Power BI-d Dynamics 365 for Operationsiga.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,51 +24,56 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="power-bi-home-page"></a>Power BI kodulehekülg
+# <a name="power-bi-home-page"></a>Power BI avaleht
 
-Käesolevas peatükis on kirjeldatud vahendid, mis aitavad teil kasutada Power BI Dynamics 365 toiminguteks.
+[!include[banner](../includes/banner.md)]
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>Power BI sisu Dynamics 365 toiminguteks
+
+Leht loetleb ressursid, mis aitavad teil kasutada Power BI-d Dynamics 365 for Operationsiga.
+
+<a name="power-bi-content-for-dynamics-365-for-operations"></a>Dynamics 365 for Operationsi Power BI sisu
 ------------------------------------------------
 
-| **Feature area**                  | **Power BI sisu**                          | **Kust leida Power BI sisu**                                                                                                                                                                                         | **Lisateave**                                                                                                                                                               |
+| **Funktsiooniala**                  | **Power BI sisu**                          | **Kust Power BI sisu leida**                                                                                                                                                                                         | **Lisateave**                                                                                                                                                               |
 |-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Finantshaldus              | Tulemuslikkuse                         | Microsoft Dynamics elutsükli teenused (LCS) (sama sisu pack toetab Dynamics 365 toimingute versioon 1611.) PowerBI.com (sama sisu pack toetab Microsoft Dynamics 365 toimingute 7.0 ja 7.0.1.) | [Majandusliku tulemuslikkuse Power BI sisu](financial-performance-power-bi-content-pack.md)                                               |
-|                                   | Krediidi-ja kogud             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Inimkapitali juhtimine          | Värbamine aruanded                            | LCS                                                                                                                                                                                                                            | [Recruiting Power BI content](recruiting-analysis-power-bi-content-pack.md)                                                       |
-|                                   | Töötajate pädevus ja aruanded | LCS                                                                                                                                                                                                                            | [Töötajate pädevus ja arengu Power BI sisu](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
-|                                   | Organisatsiooni koolitus teated               | LCS                                                                                                                                                                                                                            | [Organisatsiooni koolitus Power BI sisu](organizational-training-analysis-power-bi-content-pack.md)                             |
-|                                   | Tööjõu meetrika                             | LCS                                                                                                                                                                                                                            | [Tööjõu meetrika Power BI sisu](workforce-analysis-power-bi-content-pack.md)                                                 |
-|                                   | Hüvitist ja hüvitiste aruanded             | LCS                                                                                                                                                                                                                            | [Hüvitist ja hüvitiste Power BI](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
-| Projektihaldus ja -arvestus | Tava manager                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Jaemüük ja kaubandus               | Jaemüügi kanali täitmine                    | PowerBI.com                                                                                                                                                                                                                    | [Jaemüügi kanali tulemuslikkuse Power BI sisu](retail-channel-performance-dashboard-power-bi-data.md)                 |
-| Hankeahela haldamine           | Kuluhaldus                               | PowerBI.com                                                                                                                                                                                                                    |  [Kulude juhtimise Power BI sisu](cost-management-content-pack.md)                                                          |
-|                                   | Müügi ja tasuvuse jõudlus           | LCS                                                                                                                                                                                                                            | [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)          |
-|                                   | Ostu veeta analüüs                       | LCS                                                                                                                                                                                                                            | [Purchase spend analysis Power BI content](purchase-content-pack-for-power-bi.md)                                                 |
-|                                   | Kuluarvestuse analüüs                      | LCS                                                                                                                                                                                                                            | [Kuluarvestuse analüüs Power BI sisu](cost-accounting-analysis-content-pack.md)                                         |
-|                                   | Lao tulemuslikkuse                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-|                                   | Tootmise tulemuslikkuse                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Finantshaldus              | Finantstulemused                         | Microsoft Dynamics Lifecycle Services (LCS) (See sisupaketi versioon toetab rakenduse Microsoft Dynamics 365 for Operations versiooni 1611.) PowerBI.com (See sisupaketi versioon toetab rakenduse Microsoft Dynamics 365 for Operations versioone 7.0 ja 7.0.1.) | [Finantstulemuste Power BI sisu](financial-performance-power-bi-content-pack.md)                                               |
+|                                   | Krediidihaldus ja võlanõuded             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Inimkapitali juhtimine          | Värbamisaruanded                            | LCS                                                                                                                                                                                                                            | [Värbamise Power BI sisu](recruiting-analysis-power-bi-content-pack.md)                                                       |
+|                                   | Töötaja pädevuste ja arengu aruanded | LCS                                                                                                                                                                                                                            | [Töötaja pädevusi ja arengut puudutav Power BI sisu](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
+|                                   | Organisatsiooni koolitusaruanded               | LCS                                                                                                                                                                                                                            | [Organisatsiooni koolituse Power BI sisu](organizational-training-analysis-power-bi-content-pack.md)                             |
+|                                   | Tööjõu mõõdikud                             | LCS                                                                                                                                                                                                                            | [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)                                                 |
+|                                   | Hüvituse ja soodustuste aruanded             | LCS                                                                                                                                                                                                                            | [Hüvituse ja soodustuste Power BI sisu](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
+| Projektihaldus ja -arvestus | Harjutushaldur                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Jaemüük ja kaubandus               | Jaemüügikanali jõudlus                    | PowerBI.com                                                                                                                                                                                                                    | [Jaemüügikanali näitajate Power BI sisu](retail-channel-performance-dashboard-power-bi-data.md)                 |
+| Hankeahela haldamine           | Kuluhaldus                               | PowerBI.com                                                                                                                                                                                                                    |  [Kuluhalduse Power BI sisu](cost-management-content-pack.md)                                                          |
+|                                   | Müügi ja tulususe alased tulemused           | LCS                                                                                                                                                                                                                            | [Müügi ja tulususe tulemuste Power BI sisu](sales-profitability-performance-content-pack.md)          |
+|                                   | Ostukulutuste analüüs                       | LCS                                                                                                                                                                                                                            | [Ostukulutuste analüüsi Power BI sisu](purchase-content-pack-for-power-bi.md)                                                 |
+|                                   | Kuluarvestuse analüüs                      | LCS                                                                                                                                                                                                                            | [Kuluarvestuse analüüsi Power BI sisu](cost-accounting-analysis-content-pack.md)                                         |
+|                                   | Lao jõudlus                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+|                                   | Tootmise jõudlus                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
 
-## <a name="access-power-bi-content-from-lcs"></a>Juurdepääs Power BI sisu LCS
-Power BI sisu alla laadida ja ühendada oma asutuse andmete kohta leiate teemast [Power BI sisu LCS Microsofti ja oma partnerite](power-bi-content-microsoft-partners.md).
+## <a name="access-power-bi-content-from-lcs"></a>Juurdepääs Power BI sisule LCS-ist
+Lisateavet Power BI sisu allalaadimise ja selle ühendamise kohta organisatsiooni andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
 
-## <a name="access-power-bi-content-from-powerbicom"></a>Power BI sisu: PowerBI.com
-1.  Logi [PowerBI.com](https://www.powerbi.com/).
-2.  Klõpsake **andmeid**.
-3.  Aastal ning **teenuste** klõpsake loendiboksis **saada**.
-4.  Valige sisu pack, ja seejärel klõpsake **saada**.
-5.  Sisestage oma Dynamics 365 tegevuse keskkond. URL peab olema formaadis **https://&lt;YourAOSTenant&gt;. cloudax.dynamics.com**. Click **Next**.
-6.  Valige **oAuth2** nagu autentimismeetodit, ja seejärel klõpsake **Logi sisse**.
-7.  Kui teilt küsitakse, sisestage Microsoft Office 365 konto, millel on õigus pääseda oma Dynamics 365 tegevuse keskkond.
-8.  Kui olete sisse loginud, import protsess algab automaatselt. Kui importimine on lõpule viidud, kuvatakse navigeerimispaanil aruanded, mis on kaasatud sisu pack. Valige aruande imporditud andmete vaatamiseks.
+## <a name="access-power-bi-content-from-powerbicom"></a>Juurdepääs Power BI sisule lehelt PowerBI.com
+1.  Sisselogimine lehele [PowerBI.com](https://www.powerbi.com/).
+2.  Klõpsake nuppu **Too andmed**.
+3.  Klõpsake väljal **Teenused** käsku **Too**.
+4.  Valige soovitud sisupakett ja klõpsake seejärel käsku **Too**.
+5.  Sisestage oma Dynamics 365 for Operationsi keskkonna URL. URL peab olema vormingus **https://&lt;YourAOSTenant&gt;.cloudax.dynamics.com**. Klõpsake nuppu **Edasi**.
+6.  Valige autentimisviisiks **oAuth2** ja klõpsake siis nuppu **Logi sisse**.
+7.  Kui seda küsitakse, sisestage Microsoft Office 365 konto, millel on õigus teie Dynamics 365 for Operationsi keskkonda pääseda.
+8.  Pärast sisselogimist algab importimisprotsess automaatselt. Kui importimine on valmis, kuvatakse sisupaketis sisalduvad aruanded navigeerimispaanil. Valige aruanne oma imporditud andmete vaatamiseks.
 
-## <a name="learn-more-about-the-power-bi-integration"></a>Lugege lisateavet Power BI integratsioon
--   [Power BI integration](power-bi-integration.md)
--   [Power BI Integratsioon üksus poes ülevaade](power-bi-integration-entity-store.md)
--   [Autor ja levitada Power BI aruanded üksuse pood](author-distribute-power-bi-reports.md)
--   [Kinnita Power BI aruanded tööruumidesse](pin-power-bi-reports.md)
--   [Power BI sisu LCS Microsoft ja oma partneritelt](power-bi-content-microsoft-partners.md)
+## <a name="learn-more-about-the-power-bi-integration"></a>Lisateave Power BI integreerimise kohta
+-   [Power BI integreerimine](power-bi-integration.md)
+-   [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
+-   [Power BI aruannete koostamine ja levitamine üksuse kaupluse abil](author-distribute-power-bi-reports.md)
+-   [Power BI aruannete kinnitamine tööruumide juurde](pin-power-bi-reports.md)
+-   [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md)
 -   [Kasutage elektroonilise aruandluse konfiguratsiooni, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
 
 
 

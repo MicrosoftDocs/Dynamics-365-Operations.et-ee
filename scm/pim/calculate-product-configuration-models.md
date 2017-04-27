@@ -1,6 +1,6 @@
 ---
-title: Arvutused konfiguratsiooni tootemudelite FAQ
-description: Selles artiklis kirjeldatakse konfiguratsiooni tootemudelite arvutused ja selgitatakse, kuidas kasutada arvutused koos piiranguid.
+title: Toote konfiguratsioonimudelite arvutuste KKK
+description: Selles artiklis kirjeldatakse tootekonfiguratsiooni mudelite arvutusi ja selgitatakse arvutuste kasutamist koos piirangutega.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculations-for-product-configuration-models-faq"></a>Arvutused konfiguratsiooni tootemudelite FAQ
+# <a name="calculations-for-product-configuration-models-faq"></a>Toote konfiguratsioonimudelite arvutuste KKK
 
-Selles artiklis kirjeldatakse konfiguratsiooni tootemudelite arvutused ja selgitatakse, kuidas kasutada arvutused koos piiranguid.
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis kirjeldatakse tootekonfiguratsiooni mudelite arvutusi ja selgitatakse arvutuste kasutamist koos piirangutega.
 
 Arvutusi saab kasutada aritmeetiliste või loogiliste operatsioonide puhul. Need täiendavad avaldise piiranguid toote konfiguratsioonimudelites. Saate määratleda arvutused lehel **Piirangupõhise toote konfiguratsioonimudeli üksikasjad** ja luua seejärel arvutuste jaoks avaldisi avaldiseredaktoris. Lisateabe saamiseks vt jaotist Arvutuste loomine.
 
@@ -45,9 +48,9 @@ Sihtatribuut on atribuut, mis võtab avaldises vastu arvutuse tulemuse.
 
 Järgmises valemis on sihtatribuut laudlina mõõt.  
 
-**Mõiste:** kui\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
+**Avaldis:** If\[decimalAttribute1 &lt;= decimalAttribute2, tõene, väär\]  
 
-**DecimalAttribute1** on tabelis pikkus ja **decimalAttribute2** on pikk laudlina. Avaldis tagastab väärtuse **Tõene** sihtatribuudile, kui **decimalAttribute2** on suurem kui **decimalAttribute1** või sellega võrdne. Muidu tagastab avaldis väärtuse **Väär**. Seega on laudlina mõõt aktsepteeritav, kui laudlina pikkus on laua pikkusega sama või ületab laua pikkuse.
+**DecimalAttribute1** on tabeli pikkus ja **decimalAttribute2** on laudlina pikkus. Avaldis tagastab väärtuse **Tõene** sihtatribuudile, kui **decimalAttribute2** on suurem kui **decimalAttribute1** või sellega võrdne. Muidu tagastab avaldis väärtuse **Väär**. Seega on laudlina mõõt aktsepteeritav, kui laudlina pikkus on laua pikkusega sama või ületab laua pikkuse.
 
 ## <a name="what-attribute-types-can-be-set-to-target-attributes"></a>Milliseid atribuudi tüüpe saab sihtatribuutideks määrata?
 Kõiki toote konfiguraatori puhul toetatud atribuuditüüpe saab määrata sihtatribuutideks, välja arvatud ilma fikseeritud loendita tekst.
@@ -57,11 +60,11 @@ Ei, sihtatribuudi väärtus ei saa sisendatribuutide väärtusi piirata, sest ar
 
 ### <a name="example"></a>Näide
 
-Järgmine avaldis eesmärgi arvutamiseks on toitejuhe ja sisendi väärtus on värv:  
+Järgmises avaldises on arvutuse sihtväärtus toitejuhtme pikkus ja sisendväärtus on värv.  
 
-**Mõiste:**\[kui värvi == "Roheline", 1.5, 1.0\]  
+**Avaldis:** \[If Color == "Roheline", 1,5, 1,0\]  
 
-Kauba konfigureerimisel väärtuseks Toitejuhtme pikkus **1,5** kui te **roheline** värvi atribuudi väärtus. Kui määrate mõne muu värvi, määratakse pikkuseks **1**. Kuid kuna arvutused on ühesuunalised, ei määra arvutus värviatribuudi väärtuseks **Roheline**, kui määrate pikkuseks **1,5**.
+Kauba konfigureerimisel määratakse toitejuhtme pikkuseks **1,5**, kui määrate värviatribuudiks **Roheline**. Kui määrate mõne muu värvi, määratakse pikkuseks **1**. Kuid kuna arvutused on ühesuunalised, ei määra arvutus värviatribuudi väärtuseks **Roheline**, kui määrate pikkuseks **1,5**.
 
 ## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>Mis juhtub, kui arvutusel on täisarvu tüüpi sihtatribuut, kuid arvutus loob kümnendarvu?
 Kui sihtatribuut on täisarvu tüüpi, kuid arvutus loob kümnendarvu, tagastatakse ainult arvutuse täisarvuline osa. Kümnendosa eemaldatakse ja tulemust ei ümardata. Näiteks arvu 12,70 tulemusena kuvatakse 12.
@@ -72,16 +75,16 @@ Arvutused toimuvad, kui on esitatud kõigi sisendatribuutide väärtus.
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Kas saan sihtatribuudile arvutatud väärtuse üle kirjutada?
 Saate sihtatribuudile arvutatud väärtuse üle kirjutada, kui sihtatribuut pole määratud peidetuks või kirjutuskaitstuks.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Kuidas määrata target atribuudi peidetuks või kirjutuskaitstud?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Kuidas määrata sihtatribuut peidetuks või kirjutuskaitstuks?
 Atribuudi määramiseks peidetuks või kirjutuskaitstuks tehke järgmist.
 
-1.  Klõpsake **toote teabekorraldus**&gt;**levinud**&gt;**toote konfiguratsiooni mudelid**.
+1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Toote konfiguratsioonimudelid**.
 2.  Valige toote konfiguratsioonimudel ja klõpsake seejärel tegevuspaanil suvandit **Redigeeri**.
 3.  Valige lehel **Piirangupõhise toote konfiguratsioonimudeli üksikasjad** sihtatribuudina kasutatav atribuut.
 4.  Valige kiirkaardil **Atribuudid** suvand **Peidetud** või **Kirjutuskaitstud**.
 
 ## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a>Kas arvutus saab minu määratud väärtused üle kirjutada?
-Nr Toote konfigureerimisel määratud väärtused on väärtused, mida kasutatakse. Arvutus, mis toimub, kui muudetakse arvutuse sisendväärtusi, ei saa konkreetse atribuudi kohta esitatud väärtusi üle kirjutada.
+Nr Kasutatakse toote konfigureerimisel määratud väärtusi. Arvutus, mis toimub, kui muudetakse arvutuse sisendväärtusi, ei saa konkreetse atribuudi kohta esitatud väärtusi üle kirjutada.
 
 ## <a name="what-happens-if-i-remove-an-input-value-in-a-calculation"></a>Mis juhtub, kui eemaldan arvutusest sisendväärtuse?
 Sisendväärtuse eemaldamisel arvutusest eemaldatakse ka sihtatribuudi väärtus.
@@ -93,13 +96,15 @@ See teade kuvatakse, kui arvutuses on viga või kui ühes või mitmes piirangus 
 -   Kahe järgmise elemendi vahel on konflikt:
     -   väärtused, mis on atribuudi puhul saadaval ja piiranguga piiratud;
     -   arvutusega loodud väärtus.
--   Arvutusega saadud väärtused on väljaspool atribuudi domeeni. Näiteks on täisarv vahemikus \[1..10\] mis arvutatakse 0.
+-   Arvutusega saadud väärtused on väljaspool atribuudi domeeni. Näiteks on täisarv vahemikus \[1.. 10\], mis on arvutatud nulliks.
 
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Miks saan tõrketeate, kuigi minu tootemudeli kinnitamine õnnestus?
 Arvutusi ei kaasata kinnitamisse. Vigade leidmiseks arvutustes peab konfiguratsioonimudelit testima. Toote konfiguratsioonimudeli testimiseks järgige neid juhiseid.
 
-1.  Klõpsake **toote teabekorraldus**&gt;**levinud**&gt;**toote konfiguratsiooni mudelid**.
+1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Toote konfiguratsioonimudelid**.
 2.  Valige toote konfiguratsioonimudel ja klõpsake seejärel tegevuspaanil grupis **Käita** suvandit **Katse**.
+
+
 
 
 

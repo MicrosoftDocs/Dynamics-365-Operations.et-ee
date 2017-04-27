@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-posting-profiles"></a>Kliendi sisestusreeglid
 
+[!include[banner](../includes/banner.md)]
+
+
 Kliendi sisestusreeglid kontrollivad kliendikannete sisestamist pearaamatusse.
 
 <a name="customer-posting-profiles"></a>Kliendi sisestusreeglid
 -------------------------
 
-Kliendi sisestusreeglid võimaldavad määrata pearaamatukontosid ja dokumendisätteid kõigile klientidele, kliendigrupile või üksikule kliendile. Neid sätteid kasutatakse müügitellimuste, vabas vormis arvete, maksete, märgukirjade ja viivisearvete loomisel. Mõne kande puhul saate valida sisestusreegli, mis erineb ja on olulisem sellel lehel kannete jaoks seadistatud sisestusreeglitest. 
+Kliendi sisestusreeglid võimaldavad määrata pearaamatukontosid ja dokumendisätteid kõigile klientidele, kliendigrupile või üksikule kliendile. Neid sätteid kasutatakse müügitellimuste, vabas vormis arvete, sularahamaksete, märgukirjade ja viivisearvete loomisel. Mõne kande puhul saate valida sisestusreegli, mis erineb ja on olulisem sellel lehel kannete jaoks seadistatud sisestusreeglitest. 
 
 Vaike-sisestusreeglid määratletakse kiirkaardil Pearaamat ja käibemaks lehel Müügireskontro parameetrid. Vaike-sisestusreeglid lisatakse siis automaatselt uute dokumentide päisesse, kus saate vahetada need vajaduse korral teistsuguste sisestusreeglite vastu.
 
@@ -126,7 +129,7 @@ Kui soovite, et kõigil kliendi kannetel oleksid samad sisestusreeglid, seadista
 
 ### 
 
-### <a name="table-restrictions"></a>**Table restrictions**
+### <a name="table-restrictions"></a>**Tabelipiirangud**
 
 Valitud sisestusreeglitega kanded määravad, kas kanded tasakaalustatakse automaatselt, kas arvutatakse intress ja väljastatakse märgukirjad. Saate valida ka konto, mida kasutatakse, kui valitud sisestusreeglitega kanded on suletud.
 
@@ -138,6 +141,8 @@ Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 | **Huvi**          | Tehke see valik, kui neid sisestusreegleid kasutavate kliendikontode puhul tuleks arvestada intressi. Kui see valik on eemaldatud, siis nende klientide puhul intressi ei arvutata.                                           |
 | **Märgukiri** | Tehke see valik, kui neid sisestusreegleid kasutavate kliendikontode puhul tuleks koostada märgukirjad. Kui see valik on eemaldatud, siis nende klientide puhul märgukirju ei koostata.                                                 |
 | **Sulge**             | Valige sisestusreeglid, millele üle minna, kui nende sisestusreeglitega kanded suletakse. Kanne loetakse suletuks, kui see on täielikult tasakaalustatud.                                                                           |
+
+
 
 
 

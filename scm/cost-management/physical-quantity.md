@@ -1,5 +1,5 @@
 ---
-title: "Objekti laoväärtused"
+title: "Varuobjekti väärtused"
 description: "Selles artiklis antakse teavet lao objekti väärtuste arvutamise kohta."
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Objekti laoväärtused
+# <a name="inventory-object-values"></a>Varuobjekti väärtused
 
 Selles artiklis antakse teavet lao objekti väärtuste arvutamise kohta. 
 
-Uus funktsioon nimega ** füüsiline kogus ** saab näha erinimekiri objekti väärtused. Kuluobjekt tähistab üksuse taset, kus laoarvestus toimub. Lisateavet kuluobjektide kohta leiate jaotisest [Kuluobjektid](cost-object.md). Erinimekiri objekti vaatamiseks klõpsake **füüsiline kogus** kohta on **kulu objekti** lehel. Siin on objekti varude väärtuse arvutamine: varude objekti. Väärtus = kulu objekti. Keskmine ühikuhind × varude objekti. Kogus järgmine näide näitab, kuidas objekti varude ja kulu objekti väärtuse arvutamine. Kaubale A registreeritakse kaks toote sissetuleku sündmust:
+Uus funktsioon nimega **füüsiline kogus **võimaldab näha konkreetse varuobjekti väärtusi. Kuluobjekt tähistab üksuse taset, kus laoarvestus toimub. Lisateavet kuluobjektide kohta leiate jaotisest [Kuluobjektid](cost-object.md). Konkreetse varuobjekti väärtuste vaatamiseks klõpsake lehel **Kuluobjekt** valikut **Füüsiline kogus**. Varuobjekti väärtus arvutatakse nii: varuobjekti väärtus = kuluobjekti keskmine ühiku maksumus × varuobjekti kogus. Järgmine näide illustreerib, kuidas varuobjekti ja kuluobjekti väärtused arvutatakse. Kaubale A registreeritakse kaks toote sissetuleku sündmust:
 
--   Toote tarne 1: kogus = 100 tk., summa = $1,000.00, saidi = 1, lao = 11, partii nr. = B1
--   Toote sissetulek 2: kogus = 50 tk., summa = $800.00, saidi = 1, lao = 11, partii nr. = B2
+-   Toote sissetulek 1: kogus = 100 tk, summa = 1000.00 $, koht = 1, ladu = 11, partii nr = B1
+-   Toote sissetulek 2: kogus = 50 tk, summa = 800.00 $, koht = 1, ladu = 11, partii nr = B2
 
 Järgmises tabelis on kuluobjekti arvutuse tulemus. Tulemust saab vaadata lehel **Kuluobjekt**.
 
@@ -130,10 +130,10 @@ Järgmises tabelis on varuobjekti arvutuse tulemus. Tulemust saab vaadata, klõp
 <a name="see-also"></a>Vt ka
 --------
 
-[Cost objects](cost-object.md)
+[Kuluobjektid](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Kulukirjed](cost-entries.md)
 
-[Uute ja muudetud Microsoft Dynamics AX-i](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Mida on Microsoft Dynamics AX-is uut ja mis on muutunud?](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

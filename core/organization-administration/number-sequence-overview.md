@@ -1,6 +1,6 @@
 ---
 title: "Numbriseeriate ülevaade"
-description: "Numbriseeriad Microsoft Dynamics 365 toiminguteks kasutatakse loetav, ainulaadne identifikaatorite tehingu andmed, mis nõuavad tunnuste ja põhiandmed. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse <em>viiteks</em>."
+description: "Rakenduse Microsoft Dynamics 365 for Operations numbriseeriate alusel luuakse loetavaid kordumatuid ID-sid koondandmete kirjetele ja kandekirjetele, mille puhul on ID nõutav. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse <em>viiteks</em>."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="number-sequence-overview"></a>Numbriseeriate ülevaade
 
-Numbriseeriad Microsoft Dynamics 365 toiminguteks kasutatakse loetav, ainulaadne identifikaatorite tehingu andmed, mis nõuavad tunnuste ja põhiandmed. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse <em>viiteks</em>.
+[!include[banner](../includes/banner.md)]
 
-Uute kirjete viite loomiseks Microsoft Dynamics 365 toiminguteks, tuleb seadistada numbriseeria ja viitega seostuva. Soovitame numbriseeriate häälestamiseks kasutada lehti jaotises **Organisatsiooni haldus**. Kui moodulipõhised sätted on nõutavad, saate mooduli parameetrite lehega määrata mooduli viidete numbriseeriad. Näiteks jaotises **Müügireskontro** ja **Ostureskontro** saate häälestada numbriseeriate grupid, et eraldada numbriseeriad konkreetsetele klientidele või hankijatele. Kui häälestate numbriseeria, tuleb teil määrata ulatus, mis määratleb, milline organisatsioon numbriseeriat kasutab. Ulatus võib olla **Jagatud**, **Ettevõte**, **Juriidiline isik** või **Tootmisüksus**. Ulatused **Juriidiline isik** ja **Ettevõte** saab kombineerida atribuudiga **Rahanduskalendri periood** veelgi täpsemate numbriseeriate loomiseks. Numbriseeria vorming koosneb segmentidest. Numbriseeriad, mille ulatus ei ole **Jagatud**, võivad sisaldada ulatusele vastavaid segmente. Näiteks numbriseeria, mille ulatus on **Juriidiline isik**, võib sisaldada juriidilise isiku segmenti. Kui kaasate numbriseeria vormingus ulatuse segmendi, saate kirje numbri alusel määrata konkreetse kirje ulatuse. Peale ulatustele vastavate segmentide võivad numbriseeriate vormingud sisaldada segmente tüübiga **Konstantne** ja **Tähe- ja numbrimärkidest koosnevad segmendid**. Segment **Konstantne** sisaldab tähtede, numbrite või sümbolite muutumatut kogumit. **Tähe- ja numbrimärkidest** koosnev segment sisaldab tähtede või numbrite kogumit, mis suureneb iga kord, kui numbrit kasutatakse. Kasutage arvu märk (\#) juurdekasv numbrid ja ampersandiga (&) esindama juurdekasv tähed. Näiteks vorming \#\#\#\#\#\_2017 loob jada 00001\_2017, 00002\_2017 ja nii edasi.
+
+Rakenduse Microsoft Dynamics 365 for Operations numbriseeriate alusel luuakse loetavaid kordumatuid ID-sid koondandmete kirjetele ja kandekirjetele, mille puhul on ID nõutav. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse <em>viiteks</em>.
+
+Enne rakenduses Microsoft Dynamics 365 for Operations viitele uute kirjete loomist tuleb häälestada numbriseeria ja see viitega seostada. Soovitame numbriseeriate häälestamiseks kasutada lehti jaotises **Organisatsiooni haldus**. Kui moodulipõhised sätted on nõutavad, saate mooduli parameetrite lehega määrata mooduli viidete numbriseeriad. Näiteks jaotises **Müügireskontro** ja **Ostureskontro** saate häälestada numbriseeriate grupid, et eraldada numbriseeriad konkreetsetele klientidele või hankijatele. Kui häälestate numbriseeria, tuleb teil määrata ulatus, mis määratleb, milline organisatsioon numbriseeriat kasutab. Ulatus võib olla **Jagatud**, **Ettevõte**, **Juriidiline isik** või **Tootmisüksus**. Ulatused **Juriidiline isik** ja **Ettevõte** saab kombineerida atribuudiga **Rahanduskalendri periood** veelgi täpsemate numbriseeriate loomiseks. Numbriseeria vorming koosneb segmentidest. Numbriseeriad, mille ulatus ei ole **Jagatud**, võivad sisaldada ulatusele vastavaid segmente. Näiteks numbriseeria, mille ulatus on **Juriidiline isik**, võib sisaldada juriidilise isiku segmenti. Kui kaasate numbriseeria vormingus ulatuse segmendi, saate kirje numbri alusel määrata konkreetse kirje ulatuse. Peale ulatustele vastavate segmentide võivad numbriseeriate vormingud sisaldada segmente tüübiga **Konstantne** ja **Tähe- ja numbrimärkidest koosnevad segmendid**. Segment **Konstantne** sisaldab tähtede, numbrite või sümbolite muutumatut kogumit. **Tähe- ja numbrimärkidest** koosnev segment sisaldab tähtede või numbrite kogumit, mis suureneb iga kord, kui numbrit kasutatakse. Kasvavate numbrite tähistamiseks kasutage numbriosundit (\#), kasvavate tähtede jaoks ampersandi. Näiteks vorming \#\#\#\#\#\_2017 loob seeria 00001\_2017, 00002\_2017 jne.
 Numbriseeriate näidised
 ------------------------
 
@@ -73,6 +76,8 @@ Numbriseeriad võivad olla pidevad ja mittepidevad. Pidev numbriseeria ei jäta 
 ### <a name="automatic-cleanup-of-number-sequences"></a>Numbriseeriate automaatne puhastamine
 
 Toitekatkestuse, rakenduse tõrke või muu ootamatu vea puhul ei saa süsteem pidevate numbriseeriate numbreid automaatselt taaskasutada. Kaotsiläinud numbrite taastamiseks saate puhastamisprotsessi käsitsi või automaatselt käitada. Puhastamisprotsessi plaanimisel võtke kindlasti arvesse serveri koormust. Soovitame puhastamist teha pakett-tööna tipptundidevälisel ajal.
+
+
 
 
 

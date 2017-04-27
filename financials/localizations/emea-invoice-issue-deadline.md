@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-issue-deadline"></a>Arve väljastamise tähtaeg
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse, kuidas seadistada parameetreid kliendiarvete ja hankijaarvete väljastamistähtaegade arvutamiseks Euroopa Liidus (ELis).
 
 Euroopa Liidu (EL) direktiiv 45/2010 ja muud direktiivid nõuavad, et ELi-siseste saadetiste eest tuleb esitada arve enne tarnele järgneva kuu viieteistkümnendat kuupäeva. Samas võivad igal ELi riigil olla kodumaiste tarnete puhul erinevad arve esitamise tähtajad. Arve väljastamise tähtaja funktsiooni abil saate sobitada kuupäevavahemiku riigi/regiooni tüübiga. Seejärel arvutatakse kõigi konkreetset tüüpi riiki/regiooni saadetavate või sealt lähetatavate saadetiste arve väljastamise tähtaeg, kasutades määratud kuupäevavahemikus määratud reegleid. Lisaks on võimalik saada kõik konkreetse arve väljastamise tähtajaga saatelehed, filtreerida perioodiliste müügiarvete esitamisel arve väljastamise tähtaja alusel ja kontrollida müügiarve väljastamise kuupäeva arve sisestamise ajal. Saate seadistada kuupäevavahemiku koodi ja seejärel saate seadistada arve väljastamise kuupäeva arvutusreegli, määrates kuupäevavahemiku koodi riigi/regiooni tüübile. Arvutusreeglit kasutatakse arvete väljastamise tähtaja arvutamiseks järgmiste kannete puhul.
@@ -42,7 +45,7 @@ Järgmises tabelis on eeltingimused, mis peavad olema täidetud, enne kui arve v
 | Kategooria            | Eeltingimus                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Riik/regioon      | Juriidilise isiku peamine aadress peab olema ELi liikmesriigis.                                                                                                                                                                                                                                                                                                                    |
-| Seostuvad seadistustoimingud | Seadistage lehel **Kuupäevavahemikud** kuupäevavahemik, mida kasutatakse arve väljastamise tähtaja arvutamisel. (Klõpsake **kasutatava**&gt;**Pearaamatu seadistamine**&gt;**tänaseks järel**.) Kohta ning **väliskaubanduse parameetrid** lehele, luua väliskaubanduse atribuudid mõnes riigis või piirkonnas. (Klõpsake **maksu**&gt;**install**&gt;**väliskaubanduse**&gt;**väliskaubanduse parameetrid**.) |
+| Seostuvad seadistustoimingud | Seadistage lehel **Kuupäevavahemikud** kuupäevavahemik, mida kasutatakse arve väljastamise tähtaja arvutamisel. (Klõpsake valikuid **Pearaamat** &gt; **Pearaamatu seadistus** &gt; **Kuupäevaintervallid**.) Lehel **Väliskaubanduse parameetrid** saate seadistada väliskaubanduse parameetrid erinevate riikide/regioonide kohta. (Klõpsake valikuid **Maks** &gt; **Seadistus** &gt; **Väliskaubandus** &gt; **Väliskaubanduse parameetrid**.) |
 
 ## <a name="invoice-issue-due-date-calculation-rule"></a>Arve väljastamise tähtaja arvutusreegel
 Lehel **Arve väljastamise tähtaja arvutuse seadistamine** saate seadistada arve väljastamise tähtaja arvutusreegli, määrates riigi/regiooni tüübile kuupäevavahemiku koodi.
@@ -51,7 +54,7 @@ Lehel **Arve väljastamise tähtaja arvutuse seadistamine** saate seadistada arv
 Saate seadistada kuupäeva juhtelemendi parameetrid, mis aitab tagada, et kliendiarved ja kreeditarved kliendi kannete puhul luuakse määratud perioodil pärast tarnet. Leiate need parameetrid alalt **Arve kuupäevade juhtelement** lehel **Müügireskontro parameetrid**.
 
 ## <a name="example"></a>Näide
-Saate seadistada Microsoft Dynamics 365 operatsioonide arvutamiseks arve väljastamisest otse kuupäevad-Siseste lähetuste tarne toimetatakse järgneva kuu viieteistkümnendat, luua kuupäeva intervalli koodi ja arvutamise reeglit on järgmised sätted.
+Rakenduse Microsoft Dynamics 365 for Operationsi seadistamiseks nii, et arve väljastamise tähtaegade arvutamine toimuks ELi-siseste saadetiste puhul tarnele järgneva kuu viieteistkümnendal kuupäeval, looge kuupäevavahemiku kood ja arvutusreegel järgmiste sätetega.
 
 ### <a name="date-interval-code"></a>Kuupäevaintervalli kood
 
@@ -75,8 +78,8 @@ Saate seadistada Microsoft Dynamics 365 operatsioonide arvutamiseks arve väljas
 ## <a name="next-steps"></a>Järgmised sammud
 Pärast seda, kui olete lõpetanud parameetrite seadistamise arve väljastustähtaegade arvutamiseks, saate luua ja sisestada järgmisi kandeid arvete väljastustähtaegade automaatseks arvutamiseks ja uuendamiseks.
 
--   **Müügitellimused** – kui loote müügitellimuse ja sisestate saatelehe, arvutatakse arve väljastustähtaeg ja see uuendatakse saatelehel. Tähtaeg arvutatakse kuupäevaintervalli, mis on seotud selle riigi määratud müügitellimuse tarneaadress. Pärast selle saatelehe sisestamist saate kontrollida arve väljastamisest tähtajaga on **arve väljastamise tähtaeg** sisse-välja ning **saatelehe tööleht** lehekülg. (Klõpsake **müügi- ja**&gt;**Müügitellimus**&gt;**tellida saatmine**&gt;**saatelehe**.) Saate vaadata kõigi saatelehtede, ei ole arvel ja arve väljastamisest õigeaegselt edasi ning **saatelehtede arveldamata** lehel. (Klõpsake **müügi- ja**&gt;**Müügitellimus**&gt;**tellida saatmine**&gt;**saatelehtede arveldamata**.)
--   **Ostutellimused** – kui loote ostutellimuse ja sisestate toote sissetuleku, arvutatakse arve väljastustähtaeg ja see uuendatakse toote sissetulekul. Tähtaeg arvutatakse kuupäevavahemiku alusel, mis on seotud hankija peamise aadressi riigiga/regiooniga. Pärast toote sissetuleku sisestamist saate kontrollida arve väljastamise tähtaega lehe **Toote sissetuleku tööleht** väljal **Arve väljastamise tähtaeg**. (Klõpsake **hanke ja mis hangivad**&gt;**ostutellimuste**&gt;**kes kauba vastu**&gt;**toote sissetulek**.) Kuvatakse toote kõik laekumised, mis ei ole arveldatud ja arve väljastamisest õigeaegselt edasi ning **toote sissetulekute arveldamata** lehel. (Klõpsake **hanke ja mis hangivad**&gt;**ostutellimuste**&gt;**kes kauba vastu**&gt;**toote sissetulekute arveldamata**.)
+-   **Müügitellimused** – kui loote müügitellimuse ja sisestate saatelehe, arvutatakse arve väljastustähtaeg ja see uuendatakse saatelehel. Tähtaeg arvutatakse kuupäevavahemiku alusel, mis on seotud müügitellimuses määratud tarneaadressi riigi/regiooniga. Pärast saatelehe sisestamist saate kontrollida arve väljastamise tähtaega lehe **Saatelehe tööleht** väljal **Arve väljastamise tähtaeg**. (Klõpsake valikuid **Müük ja turundus** &gt; **Müügitellimus** &gt; **Tellimuse tarne** &gt; **Saateleht**). Kõiki saatelehti, mille kohta pole arvet esitatud, ja nende arve väljastamise tähtaegu saate vaadata lehel **Arveldamata saatelehed**. (Klõpsake valikuid **Müük ja turundus** &gt; **Müügitellimus** &gt; **Tellimuse tarne** &gt; **Arveldamata saatelehed**.)
+-   **Ostutellimused** – kui loote ostutellimuse ja sisestate toote sissetuleku, arvutatakse arve väljastustähtaeg ja see uuendatakse toote sissetulekul. Tähtaeg arvutatakse kuupäevavahemiku alusel, mis on seotud hankija peamise aadressi riigiga/regiooniga. Pärast toote sissetuleku sisestamist saate kontrollida arve väljastamise tähtaega lehe **Toote sissetuleku tööleht** väljal **Arve väljastamise tähtaeg**. (Klõpsake valikuid **Hange** &gt; **Ostutellimused** &gt; **Toodete vastuvõtmine** &gt; **Toote sissetulek**). Kõiki saatelehti, mille kohta pole arvet esitatud, ja nende arve väljastamise tähtaegu saate vaadata lehel **Arveldamata toote sissetulekud**. (Klõpsake valikuid **Hanked** &gt; **Ostutellimused** &gt; **Toodete vastuvõtmine** &gt; **Arveldamata toote sissetulekud**.)
 
 ## <a name="technical-information-for-system-administrators"></a>See teave on mõeldud süsteemi administraatoritele.
 Kui teil pole juurdepääsu lehtedele, mida selles artiklis nimetatud ülesannete täitmiseks kasutatakse, pöörduge oma süsteemiadministraatori poole ja edastage järgmises tabelis antud andmed.
@@ -95,7 +98,7 @@ Kui teil pole juurdepääsu lehtedele, mida selles artiklis nimetatud ülesannet
 <tbody>
 <tr class="odd">
 <td>Konfiguratsioonivõtmed</td>
-<td>Klõpsake <strong>süsteemi halduse</strong>&gt;<strong>install</strong>&gt;<strong>Licensing</strong>&gt;<strong>litsents konfiguratsiooni</strong>. Klõpsake konfiguratsioonivõtit <strong>Pearaamat</strong>.</td>
+<td>Klõpsake valikuid <strong>Süsteemihaldus</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Litsentsimine</strong> &gt; <strong>Litsentsi konfigureerimine</strong>. Klõpsake konfiguratsioonivõtit <strong>Pearaamat</strong>.</td>
 </tr>
 <tr class="even">
 <td>Turberollid ja kohustused</td>
@@ -116,6 +119,8 @@ Kui teil pole juurdepääsu lehtedele, mida selles artiklis nimetatud ülesannet
 </tr>
 </tbody>
 </table>
+
+
 
 
 

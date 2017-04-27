@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Kasuliku eluea lineaarne kulum
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade kulumiarvestusmeetodist Lineaarne kasulik eluiga.
 
 Kui seadistate põhivara kulumireegli ja valite lehe Kulumireeglid väljal Meetod suvandi Tööeapõhine lineaarne, arvutatakse varad, millele on määratud see kulumiprofiil, vara kogu tööea põhjal. Tavaliselt on sel juhul kõigi kulumiperioodide kulumisumma ühesuurune. 
@@ -57,7 +60,7 @@ Näiteks suvandi Kord aastas valimisel sisestatakse aasta kulum ainult üks kord
 
 Kui valite väljal Kulumiarvestusaasta suvandi Rahandusaasta, kasutatakse lineaarset tööea kulumit. See arvutatakse raamatu jaoks määratud rahanduskalendriga või lehel Pearaamat valitud rahanduskalendriga määratletud rahandusaasta põhjal. Rahanduskalendrid seadistatakse lehel Rahanduskalendrid.
 
-Näiteks hakkab kulumiarvestuse majandusaasta on 1. juuli läbi 30. juuni, 1. juuli. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Iga rahandusperioodi kulumit korrigeeritakse automaatselt. Järgmise rahandusaasta pikkus põhineb rahandusperioodidel, mille seadistate vormil Rahanduskalendrid uue rahandusaasta loomisel. 
+Näiteks rahandusaasta puhul 1. juulist kuni 30. juunini algab kulumiarvestus 1. juulil. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Iga rahandusperioodi kulumit korrigeeritakse automaatselt. Järgmise rahandusaasta pikkus põhineb rahandusperioodidel, mille seadistate vormil Rahanduskalendrid uue rahandusaasta loomisel. 
 
 Rahandusaasta valimisel on väljal Perioodi sagedus saadaval järgmised suvandid.
 -   Kord aastas sisestatakse rahandusaasta kohta arvutatud kulumi kogusumma ühe summana rahandusaasta viimasel päeval.
@@ -98,9 +101,11 @@ Soetuse korrigeerimise tööiga on sama mis põhivaral ning algab põhivara soet
 | aasta 3 | 14 000 / 5 = 2800                        | 10 200 – 2800 = 7400                |
 | aasta 4 | 14 000 / 5 = 2800                        | 7400 – 2800 = 4600                 |
 | aasta 5 | 14 000 / 5 = 2800                        | 4600 – 2800 = 1800                 |
-| aasta 6 | Ülejäänud 800\*                           | 1800 – 800 = 1000                   |
+| aasta 6 | Jääksumma 800*\*                           | 1800 – 800 = 1000                   |
 
-\*Kuna summa on väiksem kui kulumisumma, võetakse ainult ülejäänud summa miinus jääkväärtus.
+\*Kuna jääksumma on kulumisummast väiksem, võetakse arvesse ainult jääksumma ilma jääkväärtuseta.
+
+
 
 
 

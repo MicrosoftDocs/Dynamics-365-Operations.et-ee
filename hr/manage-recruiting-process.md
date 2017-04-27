@@ -28,28 +28,31 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-a-recruiting-process"></a>Värbamisprotsessi haldus
 
-Selles teemas on mõiste, mille värbajate saate jälgida värbamise protsessi etappe, sealhulgas avatud positsioonide ja värvata tööle kandidaate, taotleja ja taotluse jälitusteave, intervjueerimine ja valides ühe või teise kandidaadi organisatsiooni avatud kohtade täitmiseks.
+[!include[banner](includes/banner.md)]
+
+
+See teema kirjeldab võimalusi, kuidas värbajad saavad jälgida värbamise etappe, sh vabade ametikohtade reklaamimiseks ja kandidaatide värbamiseks, kandidaadi ja avalduse teabe jälgimiseks, kandidaatide intervjueerimiseks ja vaba ametikoha täitmiseks ühe või mitme kandidaadi väljavalimiseks tehtud pingutusi.
 
 <a name="overview"></a>Ülevaade
 --------
 
-Värbamisprojektid aitavad organiseerida juriidilise isiku vabade ametikohtade täitmise etappe. Taotleja on isik, kes taotleb oma ettevõtte töö.  Taotlus taotleja väljendab huvi firma töötab ja võib olla seotud värbamisprojekti, et väljendada huvi konkreetse avamine.  Sama hageja võib mitu taotlust sama juriidilise isiku või ettevõtetevaheliselt on teie organisatsioonis.
+Värbamisprojektid aitavad organiseerida juriidilise isiku vabade ametikohtade täitmise etappe. Kandidaat on isik, kes taotleb töökohta teie ettevõttesse.  Avaldus näitab kandidaadi huvi ettevõttes töötamise vastu ja võib olla seotud kindla värbamisprojekti töökoha suhtes huvi üles näitamisega.  Üks kandidaat võib esitada mitu avaldust samale juriidilisele isikule või mitmele ettevõttele teie organisatsiooni sees.
 
 <a name="recruitment-projects"></a>Värbamisprojektid
 --------------------
 
-Värbamisprojektide lubada värbajate alal saavutatud edusamme ühe või mitme täitmata lahtrite täitmine.  Värbamisprojekt seotud osakond ja tööd, mille üks või mitu positsioonid on avatud. Värbamisprojektide kaudu saab vabade ametikohtade osas muuhulgas jälgida järgmist teavet:
+Värbamisprojektid lubavad värbajatel jälgida ühe või mitme vaba ametikoha täitmist.  Värbamisprojekt tuvastab osakonna ja töö, kus üks või rohkem vabu ametikohti on. Värbamisprojektide kaudu saab vabade ametikohtade osas muuhulgas jälgida järgmist teavet:
 -   vabade ametikohtade täpne arv;
 -   värbamisjuhi või teise vastutava isiku kontakt, kellega ametikoha asjus suhelda;
 -   tellimuse kinnitamise kuupäev;
 -   avalduse tähtaeg;
 -   eeldatav alguskuupäev.
 
-Värbamisprojekt sisaldab **töötaja iseteeninduses** vaba ametikohta reklaamivat **töökuulutust**. Töötajatele vaba töökoha kohta teabe kuvamiseks peab värbamisprojektil olema **töökuulutus**, väljal** Kuva töötaja iseteeninduses** valitud Jah, **Avalduse tähtaeg** seatud tulevasele kuupäevale ning värbamisprojekti **Projekti olek** Alustatud. Järgmises tabelis on võimalik värbamine projekti olekuid ja nende kirjeldused.
+Värbamisprojekt sisaldab **töötaja iseteeninduses** vaba ametikohta reklaamivat **töökuulutust**. Töötajatele vaba töökoha kohta teabe kuvamiseks peab värbamisprojektil olema **töökuulutus**, väljal** Kuva töötaja iseteeninduses** valitud Jah, **Avalduse tähtaeg** seatud tulevasele kuupäevale ning värbamisprojekti **Projekti olek** Alustatud. Järgmises tabelis loetletakse värbamisprojekti võimalikud olekud ja nende kirjeldus.
 
-| **Status**    | **Indicates that…**                                                                  |
+| **Olek**    | **Näitab, et …**                                                                  |
 |-----------|------------------------------------------------------------------------------------------|
-| Plaanitud | Valmistatakse värbamisel jõupingutusi.  Värbamine ei ole veel alanud projektile. |
+| Plaanitud | Värbamist valmistatakse ette.  Sellele projektile ei ole värbamine veel alanud. |
 | Alustatud   | Selle projekti vabadele töökohtadele võetakse nüüd avaldusi vastu.                    |
 | Lõpetatud  | Kõik selle projekti vabad töökohad on täidetud.                                          |
 | Tühistatud  | Selle projekti värbamine tühistati.                                           |
@@ -59,7 +62,7 @@ Värbajad saavad salvestada ka vaba töökoha reklaamimiseks väljaspool organis
 <a name="applicants"></a>Kandidaadid
 ----------
 
-Taotleja on isik, kes taotleb oma ettevõtte tööd.  Juriidilised isikud ühiselt taotlejate annab teile suur bassein ande sissetulekukontot organisatsiooni. Saate säilitada kandidaatide pädevusi, soovitusi, erivajaduse taotlusi ja isikuandmeid. Kandidaadi kirje loomisel luuakse selle kandidaadi isiku kirje globaalses aadressiraamatus. Kandidaatide kohta saate globaalses aadressiraamatus olevat järgmist teavet lehekülje **Kandidaat** abil värskendada:
+Kandidaat on isik, kes taotleb töökohta teie ettevõttesse.  Kandidaatide jagamine kõigi teie organisatsiooni kuuluvate juriidiliste isikute vahel annab teile hulga talente, kelle hulgast sobivat otsida. Saate säilitada kandidaatide pädevusi, soovitusi, erivajaduse taotlusi ja isikuandmeid. Kandidaadi kirje loomisel luuakse selle kandidaadi isiku kirje globaalses aadressiraamatus. Kandidaatide kohta saate globaalses aadressiraamatus olevat järgmist teavet lehekülje **Kandidaat** abil värskendada:
 -   Aadressiteave
 -   Kontaktteave
 -   tuvastamisteave,
@@ -67,7 +70,7 @@ Taotleja on isik, kes taotleb oma ettevõtte tööd.  Juriidilised isikud ühise
 -   Isikuandmed
 
 ## <a name="applications"></a>Rakendused
-Saadud kandideerimisavalduste teabe saate salvestada leheküljel **Avaldus**. Taotlus on oma sooviavaldusele avamine organisatsiooni töösse.  Taotluse loomiseks taotleja peab olemas olema taotleja või isik oma süsteemi.
+Saadud kandideerimisavalduste teabe saate salvestada leheküljel **Avaldus**. Avaldus näitab kandidaadi huvi teie organisatsioonis töötamise vastu.  Avalduse loomiseks peab kandidaat süsteemis juba kandidaadi või inimesena olemas olema.
 Kandidaatide veebi kaudu esitatud avaldused on kas kindlast töökuulutusest lähtuvad soovitud avaldused või soovimatud avaldused. Soovitud avaldused seostatakse automaatselt värbamisprojektiga, kuhu töökuulutus loodud oli. Soovimatud avaldused seostatakse värbamisprojektiga, mis on määratud lehekülje **Inimressursside parameetrid** alal **Värbamine**.
 ### <a name="application-status"></a>Avalduse olek
 
@@ -84,7 +87,7 @@ Avalduse olek näitab, millises faasis avaldus värbamisprotsessis on. Järgmise
 
 ### <a name="correspondence-actions"></a>Vastamistegevused
 
-**Avalduse** vastamistegevus määrab, millist dokumendi- või meilimalli avalduse esitanud kandidaadiga suhtlemiseks kasutatakse. Saate seostada **avalduste järjehoidjad** koos teie taotluse väärtuste kasutamiseks vastamistegevuste, taotleja ja intervjuu värbamise projekti Internetis teie suhtlus teiste taotlejate.  **Rakenduse meilisõnumimallid** saab luua vastamistegevuste kiiresti saata e-kirju, kes on taotluse ja teatud koht ja kirjavahetus meetmete kombinatsiooni. Näiteks võib kõigi rakenduste kinnitusmeil saata on **staatus**, Vastuvõtuaeg ja on **kirjavahetus tegevus**, Vastuvõtuaeg.  Pärast meili saatmist on teil võimalus automaatse uuendamise taotluste olekut.
+**Avalduse** vastamistegevus määrab, millist dokumendi- või meilimalli avalduse esitanud kandidaadiga suhtlemiseks kasutatakse. Vastamistegevustega saate seostada **avalduse järjehoidjad**, mis lubavad kasutada kandidaatidega suhtlemisel väärtusi lehekülgedelt Avaldus, Kandidaat, Töövestlus ja Värbamisprojekt.  Teatud avalduse oleku ja vastamistegevuse kombinatsiooniga kandidaatidele saab kiiresti meili saata, kui loote **avalduse meilimallid**. Näiteks võite saata kinnitusmeili kõigile kanditaatidele, kelle **Olek** on Saadud ja **Vastamistegevus** Saadud.  Meili saatmise järel on teil võimalik automaatselt avalduste olekut värskendada.
 
 ## <a name="application-routing"></a>Avalduse marsruutimine
 
@@ -92,7 +95,7 @@ Kui avalduse peab läbi vaatama mitu töötajat, siis saate protsessi haldamisek
 
 ## <a name="interviews"></a>Vestlused
 
-**Kandidaatidega** kavandamiseks selle **rakenduste** lehel.  Kasutamine on **saada koosoleku teavet** nuppu ja intervjueerija ning kalendri faili vestluse ajakava teabe saatmiseks.
+**Töövestlusi kandidaatidega** saab plaanida lehel **Avaldused**.  Kandidaadile ja intervjueerijale planeeritud töövestluse kalendrifaili saatmiseks kasutage nuppu **Koosolekuteabe saatmine**.
 
 ## <a name="skill-mapping"></a>Oskuste kaardistamine
 
@@ -100,7 +103,9 @@ Vabale töökohale sobiva kandidaadi tuvastamiseks saate kasutada vorme**Oskuste
 
 ## <a name="hiring-applicants"></a>Kandidaatide palkamine
 
-Kandidaadi palkamiseks kasutage lehekülge **Avaldused**. Kandidaadi palkamisel muudetakse avalduse kirje olekuks **Tööle võetud** ja kandidaadi isikukirje globaalses aadressiraamatus seostatakse uue töötaja kirjega. Globaalses aadressiraamatus uue töötaja kirjes tehtud muudatused kuvatakse ka kandidaadi kirjes. See aitab vähendada andmete sisestamise, kui uus töötaja kunagi oma ettevõttes erinevaid töökohta.  Olemasoleva töötaja palgata uut asukohta, klõpsake **asend muutub** ja selle **taotluse staatuse** rippmenüüst algatada edastusprotsessi.
+Kandidaadi palkamiseks kasutage lehekülge **Avaldused**. Kandidaadi palkamisel muudetakse avalduse kirje olekuks **Tööle võetud** ja kandidaadi isikukirje globaalses aadressiraamatus seostatakse uue töötaja kirjega. Globaalses aadressiraamatus uue töötaja kirjes tehtud muudatused kuvatakse ka kandidaadi kirjes. See aitab vähendada andmete sisestamiseks kuluvat aega, kui uus töötaja tulevikus ettevõttesiseselt teisele töökohale kandideerib.  Olemasoleva töötaja uuele ametikohale palkamiseks avage lehekülg **Avalduse olek** ja klõpsake üleviimisprotsessi käivitamiseks valikut **Ametikoha muutmine**.
+
+
 
 
 

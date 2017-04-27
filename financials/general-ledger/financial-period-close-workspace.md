@@ -28,44 +28,47 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="financial-period-close-workspace"></a>Finantsperioodi sulgemise tööruum
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade finantsperioodi sulgemise tööruumist ja sellega seotud konfiguratsioonist.
 
 Finantsperioodi sulgemise tööruum
 
-Selle **majandusperioodi lähedal** tööruum võimaldab jälgida ettevõtete, piirkondade ja inimeste rahaline sulgemise protsessi. Sõltuvalt teie arvates on **majandusperioodi lähedal** tööruumi, näete kas kõik ülesanded ja staatused sulgemise ajakava või teile määratud ülesanded. 
+Tööruum **Finantsperioodi sulgemine** võimaldab teil jälgida oma rahalise sulgemise protsessi ettevõtete, alade ja inimeste alusel. Olenevalt teie vaatest selle tööruumi **Finantsperioodi sulgemine** kohta, näete kas kõiki sulgemise graafiku ülesandeid ja olekuid või ainult teile määratud ülesandeid. 
 
-Esmalt valige sulgemise ajakava tööruumi ülaservas. Kõik andmed, mis on näidatud tööruumi filtreeritakse seejärel valitud sulgemise ajakava.
+Esmalt peate valima tööruumi ülaosas oleva sulgemise graafiku. Kõik tööruumis ilmuvad andmed filtritakse seejärel valitud sulgemise graafiku järgi.
 
 ### <a name="summary-tiles"></a>Kokkuvõttepaanid
 
-Paanid **Kokkuvõte** annavad ülevaate protsessist ja näidikud aitavad teil sulgemise protsessi jälgida. Näete ülesandeid, mis on viimase tähtaja, ülejäänud ülesannete täna, ülesanded, mille tähtaeg on täna, kuid blokeerib sõltuvuste tõttu ja kõik ülejäänud toimingud protsessi. See teave on kõik ettevõtted, mis sisalduvad valitud sulgemise ajakava.
+Paanid **Kokkuvõte** annavad ülevaate protsessist ja näidikud aitavad teil sulgemise protsessi jälgida. Näete tähtaja ületanud ülesandeid, tänase puhul järelejäänud ülesandeid, tänase tähtajaga, kuid sõltuvuste tõttu blokeeritud ülesandeid ja kõiki protsessi ülejäänud ülesandeid. See teave puudutab kõiki valitud sulgemise graafikusse kaasatud ettevõtteid.
 
 ### <a name="tasks-and-status-section"></a>Ülesannete ja oleku jaotis
 
-Aastal ning **ülesannete ja staatuse** jagu, üldine seisund sulgemise ajakava on jaotatud mitmeti: staatus, staatuse lõikes, ja seisund, vastutava isiku. Saate vaadata olekut, sest kõik ülesanded sulgemise ajastamine, lihtsalt ülesanded, mille tähtaeg on täna, või ülesandeid, mis on ületanud muutes filtri kaart nimekirja ülaosas. Võite valida ka firma filtri oleku vaatamiseks konkreetse ettevõtte. Iga vahekaardi olek annab jaotatuna lõppu protsendile ja ülesandeid, mis jäävad. Klõpsake kaarti või **andmete** tegevuse üksikasjaliku tööülesannete loendi filtreerimiseks valitud kaardi. 
+Jaotises **Ülesanded ja olek** jaotub üldise sulgemisgraafiku olek mitmel viisil: olek ettevõtte järgi, olek piirkonna järgi ja olek vastutava isiku järgi. Saate vaadata olekut sulgemise graafiku kõigi ülesannete, ainult tänase tähtajaga ülesannete või tähtaja ületanud ülesannete puhul, muutes kaardi loendi ülaosas oleva filtri. Konkreetse ettevõtte oleku vaatamiseks saate valida ka ettevõtte filtri. Iga oleku vahekaart annab jaotuse nii lõpetatud ülesannete protsendi kui ka järelejäävate ülesannete arvu järgi. Ülesannete üksikasjaliku loendi filtrimiseks valitud kaardi järgi klõpsake kaarti või tegevust **Kuva üksikasjad**. 
 
-Viimase sakk on üksikasjaliku tööülesannete loendi. See nimekiri näitab täielikku tööülesandeloendis ja saate filtreerida nii, et see näitaks ainult ülesandeid, mis teid huvitab. Saate filtreerida mitmel viisil tööülesandeloendis. Näiteks saate filtreerida tööülesande tähtaeg, äriühingu ja seotud aladel. Samuti saate kuvada või peita lõpuleviidud tööülesandeid võib tööülesannete loendi. 
+Viimane vahekaart on ülesannete üksikasjalikuks loendiks. See loend kuvab täieliku ülesannete loendi ja seda saab filtrida nii, et see kuvaks ainult ülesanded, millest olete huvitatud. Saate loendit filtrida mitmel viisil. Näiteks saate filtrida ülesande tähtaja, seotud ettevõtte ja seotud ala järgi. Saate valida ka lõpetatud ülesannete kuvamise või peitmise ülesannete loendis. 
 
 Ülesannete puhul kasutatakse kahte järgmist näidikut.
 
--   Hüüumärk ikoon näitab, et ülesanne on ületanud. Ülesandeid, mis on ületanud, tähtaeg on ka punasega.
--   Tabaluku ikoonil näitab, et ülesanne sõltub muid ülesandeid, mis ei ole veel lõpule. Ülesanne, mis blokeerib sõltuvuste ei saa märkida lõpuleviiduks. Saate ülesande sõltuvuste abil on **sõltuvuse määra** tegevus.
+-   Hüüumärgi ikoon näitab, et ülesanne on tähtaja ületanud. Tähtaja ületanud ülesannete puhul on tähtaeg ka punasega esile tõstetud.
+-   Tabaluku ikoon näitab, et ülesanne sõltub teistest ülesannetest, mis pole veel lõpetatud. Sõltuvustega blokeeritud ülesannet ei saa lõpetatuks märkida. Saate ülesande sõltuvusi seadistada, kasutades tegevust **Sea sõltuvus**.
 
-Toimingu nimi on Microsoft Dynamics 365 toimingute lehele või muu veebilehe hüperlingi, kui kasutaja peab käima töödega valmis. Saate määrata selle hüperlingi abil on **tööülesande link** välja kui redigeerida või luua tööülesande. 
+Ülesande nimi on hüperlink Microsoft Dynamics 365 for Operationsi lehele või muule veebilehele, kuhu kasutaja peab töö lõpuleviimiseks minema. Saate selle hüperlingi seada, kasutades ülesande redigeerimisel või loomisel välja **Ülesande link**. 
 
-Saate manustada faile, märkmeid, pilte ja URL-ide ülesande abil on **manuseid** tegevus. Näiteks saate viidata töölehe koodi, mida kasutatakse osa, kommentaare kohta teatud töö või ülesande prinditud aruanne faili. Ikoon kuvatakse ka **manuse** kui manuse ülesande veerg. 
+Saate lisada ülesandele faile, märkuseid, pilte ja URL-e, kasutades tegevust **Manused**. Näiteks saate viidata selle ülesande osana kasutatavatele töölehe numbritele, lisada kindla ülesande kohta kommentaare või manustada ülesande puhul prinditud aruande faili. Ikoon kuvatakse manuse olemasolul ülesande veerus **Manus**. 
 
-Selle **ülesande lõpule** võimalus tuleb käsitsi valida pärast selle tööülesande lõpuleviimist. Kui tööülesanne on märgitud lõpuleviiduks, kui **täita kuupäev** väli uuendatakse automaatselt praegune kuupäev ja kellaaeg. Sõltuvus näitajad ka uuendatakse vastavalt vajadusele.
+Suvand **Ülesanne on lõpetatud** tuleb pärast ülesande lõpetamist käsitsi valida. Kui ülesanne on lõpetatuks märgitud, värskendatakse väli **Lõpetamise kuupäev** automaatselt praegusele kuupäevale ja kellaajale. Vajaduse korral värskendatakse ka sõltuvuse näitajaid.
 
 ## <a name="all-financial-period-close-tasks-list-page"></a>Kõigi finantsperioodi sulgemisülesannete loendi leht
-Kuvatakse kõik praeguse ja eelmise perioodi tihedas ülesanded: selle **kõik perioodi sulgeda ülesannete** loendi lehel. Selle loendi lehel on kõige otstarbekam kasutada ajaloolise analüüsi oma sulgumist, sest see sisaldab teavet regulaar tähtaeg, tegeliku lõpetamise kuupäev ja täitnud ülesande. Saate eksportida lihtsalt selle nimekirja leheküljel Microsoft Excel aruandluse ja kontrollimise eesmärgil.
+Saate vaadata kõiki praeguse ja eelmise perioodi sulgemise ülesandeid loendilehelt **Kõik finantsperioodi sulgemisülesanded**. Seda loendilehte on kõige parem kasutada sulgemisprotsessi ajaloo analüüsimiseks, kuna see sisaldab teavet plaanitud tähtaja, tegeliku lõpetamise kuupäeva ja ülesande lõpetanud isiku kohta. Selle loendilehe teavet saate aruandluseks ja auditeerimiseks eksportida hõlpsalt Microsoft Excelisse.
 
 ## <a name="financial-period-close-configuration-page"></a>Finantsperioodi sulgemiskonfiguratsiooni leht
-Enne kasutamist on **majandusperioodi lähedal** tööruumi, tuleb konfigureerida protsess Microsoft Dynamics 365 operatsioonide abil on **rahalise perioodi tihedas konfiguratsiooni** lehel. (Klõpsake **PR**&gt;**perioodi sulgeda**&gt;**rahalise perioodi tihedas konfiguratsiooni**.)
+Enne kui saate tööruumi **Finantsperioodi sulgemine** kasutada, peate protsessi rakenduses Microsoft Dynamics 365 for Operations konfigureerima, kasutades lehte **Finantsperioodi sulgemiskonfiguratsioon**. (Klõpsake valikuid **Pearaamat** &gt; **Perioodi sulgemine** &gt; **Finantsperioodi sulgemiskonfiguratsioon**.)
 
 ### <a name="resources"></a>Ressursid
 
-Kohta ning **ressursside** jaotises saate määratleda inimesed, kes on sulgemise protsessidega seotud. Esmalt tuleb siin määrata töötaja, kes vastutab ülesande sulgemise. Määrake töötaja tööruumi ülevaate ka. Valikud on järgmised:
+Vahekaardil **Ressursid** saate määratleda sulgemisprotsessidesse kaasatud inimesed. Iga sulgemisülesande eest vastutav töötaja tuleb esmalt siin määrata. Peate määrama ka töötaja tööruumi vaate. Valikud on järgmised:
 
 -   **Ainult määratud ülesanded** – kasutaja näeb ainult talle määratud ülesandeid.
 -   **Kõik ülesanded ja olek** – kasutaja näeb kõiki sulgemisülesandeid ja üldise protsessi olekut.
@@ -78,30 +81,32 @@ Kasutate ülesande alasid sulgemisülesannete grupeerimiseks teie organisatsioon
 
 ### <a name="calendars"></a>Kalendrid
 
-Luua ja redigeerida rahalise sulgemise kalendreid kasutades menüüd fail.  See on, kus määratletakse sulgemisel tööpäeva ja kasutab sulgemise toimingute ajastamiseks.  Loo uus kalender ning märkida ülesanne planeerimisel kasutatakse tööpäeva.  See on parim kalendri loomiseks pika aja jooksul, näiteks aasta või mitu aastat, kuna seda saate pärast loomist redigeerida.  Pärast kalendri loomist klõpsake nuppu Muuda värskendada kindla päeva, nagu pühad.  Ülesannete sulgemine planeeritakse päeva Millal juhtelement väärtuseks on seatud avatud.  Kui ülesannete sulgemine ei tohiks ajakava kindlal päeval, sel päeval peaks olema seatud suletud kontrollväärtust.
+Saate luua ja redigeerida finantsilise sulgemise kalendreid, kasutades vahekaarti Kalendrid.  Sellel määratlete sulgemisprotsesside tööpäevad ja seda kasutatakse sulgemisülesannete plaanimisel.  Saate luua uue kalendri ja näidata ülesannete plaanimiseks kasutatavad tööpäevad.  Kalender on mõistlik luua pikaks ajaks, näiteks aastaks või mitmeks aastaks, kuna seda saab pärast loomist redigeerida.  Pärast kalendri loomist klõpsake kalendri kindlate päevade, nt pühade, värskendamiseks nuppu Redigeeri.  Sulgemisülesanded plaanitakse päevadele, mil valiku Kontroll väärtuseks on seatud Avatud.  Kui sulgemisülesandeid ei tohiks kindlale päevale plaanida, peaks selle päeva puhul valiku Kontroll väärtuseks olema seatud Suletud.
 
 ### <a name="templates"></a>Mallid
 
-Rahaline tihedas malli abil saate määratleda kõik ülesanded, mis on osa sulgemise protsess. Sulgemise ülesandeks on korduva tööle asumiseks täita iga sulgemise käigus määratud isik. Malli, suhteline tähtaeg tuleb määratleda iga tegumi sulgemine. Suhteline tähtaeg on päevi enne või pärast kindlaksmääratud perioodi lõpu kuupäev, millal ülesande tähtaeg iga perioodi. Tähtaja kellaaeg määratakse samuti kõikidele. Tähtaja kellaaeg on seatud ajavöönd raames abil ja teisendatakse iga kasutaja jaoks. 
+Finantsilise sulgemise malli abil saate määratleda kõik sulgemisprotsessi kuuluvad ülesanded. Sulgemisülesanne on korduv tööpanus, mis on määratud isikule lõpetamiseks iga sulgemisprotsessi osana. Mallis tuleb iga sulgemisülesande puhul määratleda suhteline tähtaeg. Suhteline tähtaeg on päevade arv enne või pärast määratletud perioodi lõppkuupäeva, millal on igal perioodil ülesande tähtaeg. Igale ülesandele määratakse ka tähtaja kellaaeg. Tähtaja kellaaeg seatakse teie ajavööndis ja teisendatakse iga kasutaja ajatsooni puhul. 
 
-Ülesande malli saate määrata ühele või enamale äriühingule, kui selle ülesande täitmisel kohaldatakse. Kui teise isiku määratakse selle tööle asumiseks iga äriühingu lõpetamiseks, te võite leida selle kasulik luua mitu ülesannet sama tööle asumiseks. Looge iga ettevõtte puhul üks ülesanne. 
+Saate määrata mallis oleva ülesande ühele või mitmele ettevõttele, kus ülesanne kehtib. Kui selle tööpanust on igas ettevõttes lõpetama määratud eri isik, võib osutuda kasulikuks sama tööpanuse puhul mitme ülesande loomine. Looge iga ettevõtte puhul üks ülesanne. 
 
-Selle **tööülesande link** menüükäsk on seotud ülesande tööle asumiseks ja saab minna otse seostatud lehekülg tööruumi link ülesanne. Näiteks sulgemise toimingu käivitada valuuta ümberhindamise protsessi maksmata arvete liidetav ühendamiseks seotud **välisvaluuta ümberhindluse** lehel Microsoft Dynamics 365 toiminguteks. Saate siduda ka välise URL-iga. 
+Menüüelement **Ülesande link** on seostatud ülesande tööpanusega ja seda saab kasutada tööruumis ülesande lingilt otse seotud lehele liikumiseks. Näiteks saab valuuta ümberarvutamise protsessi käivitava sulgemisülesande ostureskontro puhul siduda seostatud lehega **Välisvaluuta ümberarvutamine** rakenduses Microsoft Dynamics 365 for Operations. Saate siduda ka välise URL-iga. 
 
-> [! Vihje] kui soovite linkida mõne kindla juhtimise Reporter aruande rahalise perioodi tihedas ülesanne, saate aruande URL. Aruande URL avamiseks avage aruanne Aruandekujundaja ja seejärel klõpsake **faili**&gt;**aruannet** aruande avamiseks veebibrauseris. Seejärel saate brauseri aadressiribalt URL-i kopeerida ja kleepida selle väljale **Ülesande link** **URL**. 
+> [!Vihje] Kui soovite siduda kindla halduse aruandja aruande finantsperioodi sulgemisülesandega, saate kasutada aruande URL-i. Aruande URL-i juurde pääsemiseks avage aruandekujundaja ja klõpsake seejärel aruande avamiseks veebibrauseris suvandit **Fail** &gt; **Kuva aruanne**. Seejärel saate brauseri aadressiribalt URL-i kopeerida ja kleepida selle väljale **Ülesande link** **URL**. 
 
-Malli saate määratleda ülesande sõltuvused. Kui tööülesanne on loodud sõltub üks või rohkem, ei saa see ülesanne tähistatud kui lõpetatud enne kõik sõltuvused on täidetud. 
+Saate määratleda malli ülesande sõltuvusi. Kui ülesanne on seadistatud sõltuma ühest või mitmest ülesandest, ei saa seda ülesannet lõpetatuks märkida, kuni kõik sõltuvused on lõpule viidud. 
 
-Saate luua mitu rahalise tihedas malle. Seejärel saate erinevate jälgida sulgemise protsesside perioodi erinevate nagu kuu lõppu või aasta lõpus, või ettevõtted, mis kasutavad erinevaid sulgemise protsesside jälgimiseks. Üks mall on loodud, saate kopeerida uus mall ja teha vajalikud muudatused. Määrake ainult üks Mall iga sulgemise ajakava.
+Saate luua mitu finantsilise sulgemise malli. Seejärel saate kasutada eri malle sulgemisprotsesside jälgimiseks eri periooditüüpide puhul, nagu kuu või aasta lõpp, või erinevaid sulgemisprotsesse kasutavate ettevõtete jälgimiseks. Pärast ühe malli loomist saate selle kopeerida uude malli ja teha vajalikud muudatused. Saate igale sulgemise graafikule määrata ainult ühe malli.
 
 ### <a name="closing-schedules"></a>Sulgemisgraafikud
 
-Sulgemise ajakava saate rahalise tihedas malli määrata kindlaks rahalise ajavahemikuks, mis tuleb sulgeda. Ülesannete mallist seejärel luuakse automaatselt kindlaksmääratud ajal ja uue sulgemise ajakava lisatakse tööruumi. Kui loote uue sulgemise ajakava, ning **järgneval päeval** välja abil kindlaks tegelikust tähtajast sulgemistegevusi, suhteline tähtaeg vastavalt kuupäevad kuupäev, millal määratakse rahaline tihedas malli. 
+Saate kasutada sulgemise graafikut finantsilise sulgemise malli määramiseks kindlale finantsperioodile, mis tuleb sulgeda. Ülesanded luuakse mallist seejärel automaatselt määratud perioodi puhul ja uus sulgemise graafik lisatakse tööruumi. Uue sulgemise graafiku loomisel kasutatakse välja **Perioodi lõppkuupäev** sulgemisülesannete tegelike tähtaegade määramiseks finantsilise sulgemise mallis määratud suhtelise tähtaja põhjal. 
 
-Määrata sobiv sulgemise ajakava tähistamiseks kasutatakse ülesanne sõiduplaani tööpäeva kalender. Kui te ei määratle täpse ajakava, tööülesande tähtaega kuupäevad on kasutada kogu päeva nädalas. 
+Määrake sulgemise graafiku puhul sobiv kalender, näitamaks ülesande plaanimisel kasutatavaid tööpäevi. Kui te konkreetset kalendrit ei määratle, kasutavad ülesande tähtaja kuupäevad kõiki nädalapäevi. 
 
-Samuti tuleb määratleda ettevõtteid, mis ühendatakse sulgemise ajakava. Kui malli omistatud mitmele ettevõttele, luuakse iga ettevõtte on sulgemise ajakava ja määratud malli ülesanne eri ülesanded. 
+Peate määratlema ka ettevõtted, mis sulgemise graafikuga seostatakse. Kui malli ülesanded on määratud mitmele ettevõttele, luuakse iga sulgemise graafikus oleva ettevõtte puhul eraldi ülesanded ja määratakse malli ülesandele. 
 
-Pärast sulgemise ajakava on valmis, valige selle **suletud** valida see. Tööülesande ajalugu on siiski saadaval ka **kõik perioodi sulgeda ülesannete** loendi lehel, kuid sulgemise ajakava eemaldatakse tööruumist. Pärast sulgemise ajakava märgitud **suletud**, ei saa ülesandeid lisada, redigeerida ülesannete või toimingute eemaldamiseks.
+Pärast sulgemise graafiku lõpetamist valige selle puhul suvand **Suletud**. Ülesande ajalugu on endiselt saadaval loendilehel **Kõik finantsperioodi sulgemisülesanded**, kuid sulgemise graafik eemaldatakse tööruumist. Pärast sulgemise graafiku märkimist valikule **Suletud** ei saa te sellele ülesandeid lisada, ülesandeid redigeerida ega ülesandeid sellelt eemaldada.
+
+
 
 

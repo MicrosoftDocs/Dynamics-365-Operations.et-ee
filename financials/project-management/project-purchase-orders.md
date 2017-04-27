@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Projekti ostutellimused
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel kirjeldab erinevaid meetodeid, mille abil saate luua projekti ostutellimusi. Kasutatav meetod sõltub ostutellimuse eesmärgist ja sellest, millal ostetud kaupu tarbitakse ja nende eest projektile kulud arvestatakse.
 
-Microsoft Dynamics 365 toiminguteks, saate projekti ostutellimusi luua mitu meetodit. Kasutatav meetod sõltub ostutellimuse eesmärgist, sellest, millal ostetud kaupu tarbitakse ja millal ostetud kaupade eest projektile kulud arvestatakse.
+Microsoft Dynamics 365 for Operationsis saate kasutada projekti ostutellimuste loomiseks mitut meetodit. Kasutatav meetod sõltub ostutellimuse eesmärgist, sellest, millal ostetud kaupu tarbitakse ja millal ostetud kaupade eest projektile kulud arvestatakse.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Ostutellimuse loomise meetodid
 
@@ -72,5 +75,7 @@ Saate projekti haldamise ja raamatupidamise ostutellimuse loomiseks kasutada üh
 
 > [!NOTE] 
 > Hankijaarve või saatelehe uuendamisel palutakse teil uuendada ka kaubavajaduse saateleht.
+
+
 
 

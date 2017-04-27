@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Valuuta ümberarvutamine konsolideeritavas ettevõttes
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Kui konsolodeerite andmeid ühelt arveldusvaluutalt teisele, peate siiski käivitama valuuta ümberarvestamise, kui vahetuskurssides on muutusi, et teie konto saldo arvestataks õigesti ümber. Kasutage algsel andmete konsolideerimisel vahekaarti **Valuuta teisendamine**, et valida algsed vahetuskursid ümberarvestamiseks konsolideerimisprotsessi käigus. Pärast uue vahetuskursi sisestamist (näiteks järgmisel kuul) peate konto saldo ümber arvutama. Realiseerimata kasumeid või kahjumeid värskendatakse vastavalt uue vahetuskursi ja kuupäeva alusel. Järgnev näide illustreerib raamatupidamiskandeid, mis luuakse protsessi ajal.
@@ -33,7 +36,7 @@ Kui konsolodeerite andmeid ühelt arveldusvaluutalt teisele, peate siiski käivi
 ## <a name="company-setup"></a>Ettevõtte seadistus
 -   **Lähte-/töötav ettevõte (USMF)** – USA dollareid (USD) kasutatakse arvestus- ja aruandlusvaluutana.
 -   **Konsolideeritud ettevõte (CON)** – eurosid (EUR) kasutatakse arvestus- ja aruandlusvaluutana.
-    -   ** Realiseeritud tulu ** – pearaamatukonto 801500
+    -   **Realiseeritud kasum** – pearaamatukonto 801500
     -   **Realiseeritud kahjum** – pearaamatukonto 801600
     -   **Realiseerimata kasum** – pearaamatukonto 801600
     -   **Realiseerimata kahjum** – pearaamatukonto 801400
@@ -82,6 +85,8 @@ Näete aruandlusvaluuta summade puhul lisakandeid.
 | 130100         |  eurot      | –500,00 | Algne summa –500 × 1                          |
 | 801400         |  eurot      | 250     | 500 – 333,33 = 166,67 166,67 + 83,33 = 250           |
 | 801600         |  eurot      | –250    | –500 – (–333,33) = –166,67 –166,67 + (–83,33) = –250 |
+
+
 
 
 

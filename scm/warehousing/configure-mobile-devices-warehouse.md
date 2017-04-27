@@ -1,5 +1,5 @@
 ---
-title: "Saate seadistada lao töö mobiilseadmete"
+title: "Mobiilsete seadmete seadistamine laotöö jaoks"
 description: "Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Saate seadistada lao töö mobiilseadmete
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
 Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 
@@ -35,7 +35,7 @@ Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laot�
 -   Looge töö, mis tehakse läbi teise protsessi. Näiteks võib ostutellimuse jaoks kaupa vastuvõtmine luua teisele töötajale paigutamistöö.
 -   Mõne muu protsessiga (olemasoleva tööga) loodud töö tegemine, nt paigutamistöö, mis loodi ostutellimuse jaoks kauba vastuvõtmisel.
 
-Menüükäsu tegevus või päringu loomiseks on **režiimis** välja **kaudsete**. Loetelu **tegevusala kood** Valikud ja seejärel muutub kättesaadavaks, nii et valige uurimise või menüükäsk on tegevus. Lao töö loomiseks menüü-üksuse loomiseks on **režiimis** välja **tööle**. Loetelu **töö loomise protsessi** Valikud siis saadakse. Olemasoleva laotöö töötlemise jaoks menüüelemendi loomiseks valige välja **Režiim** sätteks **Töö** ja seejärel suvandi **Kasuta olemasolevat tööd** sätteks **Jah**. **Märkus:** täiendavate väljade saaks käsud, sõltuvalt teie valitud menüü üksus ja kas menüüst kasutatakse olemasolevat tööd teha. Saamiseks täiendavad kohapealsed Valikud, jaotisest "lisamenüü kauba Valikud" selles artiklis.
+Tegevuse või päringu jaoks menüüelemendi loomiseks valige välja **Režiim** sätteks **Kaudne**. Seejärel muutub kättesaadavaks loend **Tegevuskoodide suvandid** nii et saate valida selle päringu või tegevuse tüübi, mille jaoks on menüüelement mõeldud. Laotöö jaoks menüüelemendi loomiseks valige välja **Režiim** sätteks **Töö**. Seejärel muutub kättesaadavaks loend **Töö loomise protsess**. Olemasoleva laotöö töötlemise jaoks menüüelemendi loomiseks valige välja **Režiim** sätteks **Töö** ja seejärel suvandi **Kasuta olemasolevat tööd** sätteks **Jah**. **Märkus.** Olenevalt menüüelemendi jaoks valitud režiimist ja sellest, kas menüüelementi kasutatakse olemasoleva töö tegemiseks, võivad menüüelementide puhul olla kasutatavad ka lisaväljad. Teavet lisaväljade valikute kohta vaadake selles artiklis allpool olevast teemast „Menüüelementide lisavalikud”.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Menüüelemendi konfigureerimine tegevuste ja päringute jaoks
 Kui menüüelemendi välja **Režiim** sätteks on valitud **Kaudne**, saate luua menüüelemendi tegema üldist tegevust või päringut, mis ei loo tööd. Niisugused tegevused on näiteks litsentsiplaadi siltide uuesti printimine ja päringute esitamine asukoha kaupade kohta. Järgmises tabelis on toodud saadaolevad suvandid.
@@ -190,7 +190,7 @@ Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast sed
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Menüüelementide konfigureerimine olemasoleva töö töötlemiseks
-Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada menüüelemente juba loodud töö töötlemiseks. Määrake välja **Režiim** sätteks **Töö** ja valige suvand **Kasuta olemasolevat tööd**. Mõne lisasuvandi muutuma saadaval ka **üldise** vahekaart. Saate kontrollida juurdepääsu menüükäsule määramine ühte või mitmesse klassi töö kohta on **töö klassi** FastTab. Tööklassid määratlevad töö, mida menüüelement saab töödelda. Tööklassi saab kasutada ka kindlatele kasutajarollidele juurdepääsu andmiseks või erinevat tüüpi operatsioonide eraldi töötlemiseks. Järgmises tabelis on kirjeldatud saadaolevaid suvandeid.
+Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada menüüelemente juba loodud töö töötlemiseks. Määrake välja **Režiim** sätteks **Töö** ja valige suvand **Kasuta olemasolevat tööd**. Seejärel muutuvad vahekaardil **Üldine** kättesaadavaks lisavalikud. Saate juhtida juurdepääsu menüüelementidele, määrates kiirkaardil **Tööklass** ühe või enam tööklasse. Tööklassid määratlevad töö, mida menüüelement saab töödelda. Tööklassi saab kasutada ka kindlatele kasutajarollidele juurdepääsu andmiseks või erinevat tüüpi operatsioonide eraldi töötlemiseks. Järgmises tabelis on kirjeldatud saadaolevaid suvandeid.
 
 <table>
 
@@ -210,7 +210,7 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 </tr>
 <tr class="even">
 <td>Süsteemi suunatud</td>
-<td>Microsoft Dynamics 365 toiminguid kontrollib tööks, mis on seotud töötaja ja selleks, et töötaja teeb tööd. Kui valite selle suvandi, saate klõpsata <strong>süsteem suunatud töö</strong> Updatehagi paani avamiseks ning <strong>süsteem suunatud sortimise</strong> lehele, kus saate määratleda sortimiskriteeriumid tööks. Sortimiskriteeriumi kontrolli selleks, et töötaja teeb tööd. Saate lisada kriteeriume nii palju kui vaja.</td>
+<td>Microsoft Dynamics 365 for Operations juhib töötajale määratud töö tüüpi ja järjekorda. Selle suvandi valimisel saate klõpsata toimingupaanil valikut <strong>Süsteemi suunatud töö</strong>, et avada leht <strong>Süsteemi suunatud sortimisjärjestus</strong>, kus saate seadistada töö sortimiskriteeriumid. Sortimiskriteeriumid määravad järjestuse, milles töötaja teeb tööd. Saate lisada nii palju kriteeriume kui vaja.</td>
 </tr>
 <tr class="odd">
 <td>Kasutaja suunatud</td>
@@ -230,7 +230,7 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 </tr>
 <tr class="even">
 <td>Kinnitatud kasutaja suunatud</td>
-<td>Töötaja valib tehtava töö, kui töö seostatakse suurema üksusega, nt koorma või saadetisega. Töötaja määrab selleks, et kaubad on nopitud. Selle valiku valimisel on kohustuslikud järgmised väljad.
+<td>Töötaja valib tehtava töö, kui töö seostatakse suurema üksusega, nt koorma või saadetisega. Töötaja määrab kaupade komplekteerimise järjekorra. Selle valiku valimisel on kohustuslikud järgmised väljad.
 <ul>
 <li><strong>Kinnitatud kasutaja suunatud väli</strong> – valige väli, mida töötaja skannib töö rühmitamiseks.</li>
 <li><strong>Kinnitatud kasutaja suunatud silt</strong> – sisestage tekst töötaja juhendamiseks, mida skannida, kui komplekteerimistöö on rühmitanud süsteem.</li>
@@ -271,7 +271,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="even">
 <td>Ankurdamine</td>
-<td>Valige see suvand, et töötajad saaksid määrata asukoha, mis tühistab soovitatud vahe- või laadimiskoha. Kõik ülejäänud paigutustööd suunatakse uude asukohta. See suvand on kasulik näiteks siis, kui töötaja tahab panna doki 1 vaheasukohas kaubad tellimusse 1, aga ei saa seda teha, sest eelmine koorem pole asukohast lahkunud. Asemel ootab Dock 1 lavastus asukoht on kättesaadavad, saab töötaja otsustada kasutada lavastus asukoht Dock 2. Sel juhul töötaja alistab lavastus vastavast asukohast. Töötellimuse ülejäänud kaupade paigutusasukoht värskendatakse doki 2 vaheasukohale. Selle suvandi valimisel peate määrama välja <strong>Ankurdaja</strong>.</td>
+<td>Valige see suvand, et töötajad saaksid määrata asukoha, mis tühistab soovitatud vahe- või laadimiskoha. Kõik ülejäänud paigutustööd suunatakse uude asukohta. See suvand on kasulik näiteks siis, kui töötaja tahab panna doki 1 vaheasukohas kaubad tellimusse 1, aga ei saa seda teha, sest eelmine koorem pole asukohast lahkunud. Selle asemel et oodata, kuni vaheasukoha dokk 1 vabaneb, on töötajal võimalik kasutada doki 2 vaheasukohta. Sellisel juhul tühistab töötaja soovitatud vaheasukoha. Töötellimuse ülejäänud kaupade paigutusasukoht värskendatakse doki 2 vaheasukohale. Selle suvandi valimisel peate määrama välja <strong>Ankurdaja</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Ankurdaja</td>
@@ -380,7 +380,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Töömalli kood</td>
-<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks, ostutellimuse kauba saamisel ladustamise töö tekivad töö mall. Kui te ei vali töö malli, määrab Microsoft Dynamics 365 operatsioonide malli, päringu alusel. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
+<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli ei vali, määrab Microsoft Dynamics 365 for Operations malli päringukriteeriumite põhjal. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinn
 
 [Lao mobiilse seadme kuvasätted](change-warehouse-mobile-device-displays.md)
 
-[Saate seadistada mobiiltelefoni menüükäsu täitmiseks töö tüüp Ostutellimus (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Seadistada mobiiltelefoni menüü-üksuse registreerimiseks vastuvõetud kaupade (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Mobiilse seadme menüüelemendi seadistamine saabunud kaupade registreerimiseks (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

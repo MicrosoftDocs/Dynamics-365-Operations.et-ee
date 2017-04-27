@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-overview"></a>Hangete ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel annab ülevaate hankemooduli funktsioonidest.
 
 Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kuni toote hankimiseni, kviitungi, arveldamise ja hankijatega makse töötlemiseni. Hanke protsesse saab konfigureerida kindlatele ärivajadustele, määratledes ostupoliitikad ja töövood.
@@ -37,14 +40,14 @@ Suvandit *Kulutuse piirmäärad *saab kasutada taotluse kulutuste piiramiseks ja
   
 Hankeosakond tuvastab nõutavate toodete ja teenuste tarnijad ning see võib hõlmata seda, et mitmele potentsiaalsele tarnijale saaadetakse *pakkumiskutse*. Taotletud toote spetsifikatsioone saab ühiskasutada ja potentsiaalsed hankijad saavad neid vaadata, et näha, kas nad saavad neile vastava toote hankida. Hankijad tagastavad oma pakkumised, mille hankeosakond siis üle vaatab, enne kui valitakse tarnija, kellelt nad soovivad hankida.  
 
-Ostutellimused sisaldavad võimalust saata välja *ostupäring *hankijale alternatiivina põhjalikumale pakkumikutsele. Ostupäringut saab kasutada selliste tingimuste loomiseks nagu hinnad, allahindlused ja tellimuse tarnekuupäev. Kui hankija on seadistatud kasutama selle **hankija** portaal, * * ostu uurimise funktsioon on keelatud. Selle asemel ühiskasutatakse tellimust portaalis** Hankija** ja kui saadetakse *kinnituse taotlus*, saab hankija tellimuse otse kinnitada.  
+Ostutellimused sisaldavad võimalust saata välja *ostupäring *hankijale alternatiivina põhjalikumale pakkumikutsele. Ostupäringut saab kasutada selliste tingimuste loomiseks nagu hinnad, allahindlused ja tellimuse tarnekuupäev. Kui hankijad on seadistatud kasutama portaali **Hankija**, siis on* * ostupäringu funktsioon keelatud. Selle asemel ühiskasutatakse tellimust portaalis** Hankija** ja kui saadetakse *kinnituse taotlus*, saab hankija tellimuse otse kinnitada.  
 
 *Hankija katalooge *saab kasutada kogumaks teavet tootesortimendi kohta, mida hankijad tarnida saavad. Hankijad saavad avaldada oma kataloogi, et oleks lihtsam kataloogi ajakohasena hoida. Võimalik n manustada tootele * kinnitatud hankijate loend* ja see aitab juhtida hankija valikut, kui uued ostutellimused avatakse, ning vältida soovimatute hankijate kasutamist.
 
 ## <a name="procurement"></a>Hange
 *Ostutellimusi *saab luua mitmel eri moel, k.a järgmiselt.
 
--   Koondplaneerimise, kelle puhul on kindlaks nõude tulemusena, mis nõuab ostu. See protsess loob plaanitud ostutellimuste ja kui need on vabastatud, luuakse ostutellimused.
+-   Koondplaneerimise tulemusena, mis on tuvastanud ostu taotleva nõude. See protsess loob plaanitud ostutellimused ja kui need vabastatakse, luuakse ostutellimused.
 -   Ostutaotluste töötlemise kaudu, mis lõppeb hankega.
 -   Ostulepingute töötlemise kaudu, kus ostutellimused luuakse lepingutest vabastattud tellimustena. Seda kasutatakse tavaliselt siis, kui ostulepinguid kasutatakse raamtellimuste tähistamiseks.
 -   Käsitsi, kui loodud ostutellimus ei põhine muul dokumendil.
@@ -53,7 +56,7 @@ Ostutellimused, mis on konfigureeritud *ostu kinnitustöövooga*, vajavad enne k
 
 Ostutellimused *kinnitatakse* näitamaks, et hankijaga on loodud leping. Ostutellimus edeneb seejärel järk-järgult läbi erinevate olekute, kuni arveldatakse või tühistatakse lõpuks.  
 
-Ostutellimuse loomisel paljud väljad on asustatud väärtused vaikimisi hankija on salvestatud teavet selle **müüjad** lehel. See tähendab, et peate täitma ostutellimusel piiratud koguses välju, ehkki teil on võimalus vaikeväärtused alistada.
+Ostutellimuse loomisel on paljud väljad eelnevalt täidetud väärtustega, mis on lehel **Hankijad** salvestatud vaiketeave hankija kohta. See tähendab, et peate täitma ostutellimusel piiratud koguses välju, ehkki teil on võimalus vaikeväärtused alistada.
 
 ### <a name="prices-and-discounts"></a>Hinnad ja allahindlused
 
@@ -86,5 +89,7 @@ Arveldatud ostutellimused salvestavad ostureskontros kohustuse hankija kontole, 
 
 ## <a name="vendor-performance"></a>Hankija jõudlus
 Ostmise jõudlust ja ülevaatust toetatakse *hanke ja ostureskontro aruannete* kaudu, mis hõlmavad kulutuse analüüsi ja hankija jõudluse analüüsi.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Organisatsioonide ja organisatsiooni hierarhia (kaubanduse essentials)
-description: "Commerce essentials on kolme tüüpi sisemine organisatsioonidele, mis aitab organisatsiooni äriprotsessi teha või saavutada eesmärk määratletavad."
+title: "Organisatsioonid ja organisatsiooni hierarhiad (Commerce’i põhitõed)"
+description: "Commerce’i põhitõdedes on kolme tüüpi siseorganisatsioonid, mida saate määratleda, et aidata organisatsioonil äriprotsessi läbi viia või eesmärki saavutada."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organisatsioonide ja organisatsiooni hierarhia (kaubanduse essentials)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organisatsioonid ja organisatsiooni hierarhiad (Commerce’i põhitõed)
 
-Commerce essentials on kolme tüüpi sisemine organisatsioonidele, mis aitab organisatsiooni äriprotsessi teha või saavutada eesmärk määratletavad. 
+[!include[banner](includes/banner.md)]
+
+
+Commerce’i põhitõdedes on kolme tüüpi siseorganisatsioonid, mida saate määratleda, et aidata organisatsioonil äriprotsessi läbi viia või eesmärki saavutada. 
 
 Organisatsioon on inimeste grupp, kes töötavad koos äriprotsessi teostamiseks või eesmärgi saavutamiseks. Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate äriüksuste vahelisi seoseid.
 
@@ -47,7 +50,7 @@ Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja t�
 | Jaemüügikanal          | Traditsioonilist kauplust tähistav tootmisüksus.                             | Kasutage ühe või mitme poe haldamiseks ja kontrollimiseks juriidiliste isikute piires või vahel.                                                               |
 
 ## <a name="organizational-hierarchies"></a>Organisatsiooni hierarhiad
-Commerce’i põhitõdedes määratakse igale hierarhiale eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada. Näiteks saab osta ja müüa tooteid kauplusesse jaemüügi hierarhia. Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul tühistada.
+Commerce’i põhitõdedes määratakse igale hierarhiale eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada. Näiteks saab jaemüügi hierarhiat kasutada jaekaupluses toodete ostmiseks ja müümiseks. Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul tühistada.
 ### <a name="best-practices-for-setting-up-an-organization-in-a-hierarchy"></a>Organisatsiooni hierarhia seadistamise head tavad
 
 Arvestage organisatsiooni hierarhia juurutamisel järgmisi parimaid praktikaid.
@@ -68,6 +71,8 @@ Järgmine tabel kirjeldab Commerce’i põhitõdede stsenaariume, kus saab kasut
 | Jaemüügi täiendamise haldus                                                    | Saate rühmitada kauplused, täiendades varusid täiendamise reeglite alusel.                                                                                                                                                                                                                                          | Jaemüügi täiendamine |
 | Kaupluste andmete aruandlus                                                         | Rühmitage kauplused aruandluse jaoks.                                                                                                                                                                                                                                                                                | Kaupluse aruanded     |
 | Varude sisestamine, väljavõtete arvutamine või sisestamine kaupluste grupi kohta | Saate luua kaupluste grupi, mille saab pakett-tööle määrata. Kui määratlete pakett-töö varude sisestamiseks, väljavõtete arvutamiseks või sisestamiseks, saate määrata, millise hierarhia puhul see töö kehtib. Kaupluste lisamisel hierarhiasse või sealt eemaldamisel pole pakett-tööd vaja muuta. | Retail POS-i sisestamine   |
+
+
 
 
 

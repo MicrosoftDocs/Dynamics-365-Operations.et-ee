@@ -1,6 +1,6 @@
 ---
 title: "SEPA kreeditiülekande ülevaade"
-description: "Selles artiklis kirjeldatakse ISO 20022 kreeditkorraldusega, mis sisaldavad ühtse euromaksete piirkonna (SEPA) krediidi- ja muud elektroonilised maksed hankijatele. SEPA kreeditkorralduse on teatud tüüpi makse eurodes ühe ettevõtte või individuaalsete teisele äriühingule või üksikute. On samuti kirjeldatakse, kuidas luua ja edastada krediidi ülekanne makse faili."
+description: "See artikkel annab üldist teavet ISO 20022 krediidiedastuste kohta, mis hõlmab ühtse euromaksete piirkonna (SEPA) kreeditiülekandeid ja mis tahes muid hankijatele mõeldud elektroonilisi makseid. SEPA kreeditiülekanne on ühe ettevõtte või isiku spetsiifiline makse tüüp eurodes teisele ettevõttele või isikule. Teema selgitab ka, kuidas kreeditiülekande maksefaili seadistada ja edastada."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sepa-credit-transfer-overview"></a>SEPA kreeditiülekande ülevaade
 
-Selles artiklis kirjeldatakse ISO 20022 kreeditkorraldusega, mis sisaldavad ühtse euromaksete piirkonna (SEPA) krediidi- ja muud elektroonilised maksed hankijatele. SEPA kreeditkorralduse on teatud tüüpi makse eurodes ühe ettevõtte või individuaalsete teisele äriühingule või üksikute. On samuti kirjeldatakse, kuidas luua ja edastada krediidi ülekanne makse faili.
+See artikkel annab üldist teavet ISO 20022 krediidiedastuste kohta, mis hõlmab ühtse euromaksete piirkonna (SEPA) kreeditiülekandeid ja mis tahes muid hankijatele mõeldud elektroonilisi makseid. SEPA kreeditiülekanne on ühe ettevõtte või isiku spetsiifiline makse tüüp eurodes teisele ettevõttele või isikule. Teema selgitab ka, kuidas kreeditiülekande maksefaili seadistada ja edastada.
 
-## <a name="what-is-a-credit-transfer-message"></a>Mis on krediidi ülekande sõnum?
-Krediidi ülekande sõnum on taotleda rahalisi vahendeid ise võlausaldajale saadab algatav pool (firma nimi). Sõnumeid on palju riigi-/ regioonikohaste ja konkreetse panga rakendusi, tehtud. Mõned neist kasutatakse ühe riigi, ja mõned on järjest standarditele. Üks hästi tõestatud ülemaailmne standard on ISO 20022 ja selle algatamise sõnumeid sh tehtud. Järgmine joonis kujutab suhete ja valitud krediidi sõnumite edastamise katte. 
-![Laenu võtnud emaslooma](./media/credit-transfer.jpg) krediidi sõnumite edastamise\[/caption\] 
+## <a name="what-is-a-credit-transfer-message"></a>Mis on kreeditiülekande sõnum?
+Kreeditiülekande sõnum on taotlus, mille algatav osapool (teie ettevõte) saadab fondide liigutamiseks oma enda kontolt kreeditorile. On palju kreeditiülekande sõnumite riigi-/piirkonna- ja pangaspetsiifilisi rakendusi. Mõnda neist kasutatakse ühe riigi/piirkonna piires ja mõned muutuvad standarditeks. Üks hästi loodud globaalne standard on ISO 20022 ja selle algatamise sõnumid, nagu kreeditiülekanne. Järgmine joonis näitab valitud kreeditiülekande sõnumite seoseid ja hõlmavust. 
+![Kreeditiülekanne](./media/credit-transfer.jpg) Kreeditiülekande sõnumid\[/pealdis\] 
 
-## <a name="what-are-iso-20022-and-sepa-payments"></a>Millised on ISO 20022, SEPA makseid?
-Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Siseriiklikud maksed ja välismaksed on. Ühtse euromaksete piirkonna kuuluvad 28 liikmesriikide ning Euroopa Liidu (EL), ja ka Islandi, Liechtensteini, Norra, Šveits, Monaco, ja San Marino. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema. Euroopa Komisjon määras SEPA maksetele juriidilise aluse makseteenuste direktiiviga (PSD). Euroopa Maksenõukogu (EPC) toetab SEPA-d läbi järgmiste tegevuste.
+## <a name="what-are-iso-20022-and-sepa-payments"></a>Mis on ISO 20022 ja SEPA-maksed?
+Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklikel maksetel ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema. Euroopa Komisjon määras SEPA maksetele juriidilise aluse makseteenuste direktiiviga (PSD). Euroopa Maksenõukogu (EPC) toetab SEPA-d läbi järgmiste tegevuste.
 
 -   See määrab SEPA elektrooniliste maksete standardid, kasutades ISO-20022 universaalse finantsvaldkonna sõnumiskeemi XML-vormingut.
 -   See kehtestab euromaksete käsitsemise reeglid ja juhised.
@@ -46,24 +46,24 @@ EPC, mis koosneb Euroopa pankadest, arendab SEPA maksevahendite kaubandus- ja te
 -   Kaardid
 
 ## <a name="what-is-a-sepa-credit-transfer"></a>Mis on SEPA kreeditülekanne?
-SEPA kreeditülekanne on ühe ettevõtte või isiku makse teisele ettevõttele või isikule. Maksed peavad olema eurodes ja sisaldama mõlema osapoole puhul rahvusvahelist pangakonto numbrit (IBAN) ja panga koodi (BIC). (BIC on ka ülemaailmse pankadevahelise finantsinfo ühingu \[SWIFT\] koodi.) Lisaks peab tehingu kulude jaotuse vahelist suhtlust. Pooltevahelised kreeditülekanded peavad kasutama XML-faile, mis vastavad ISO 20022 maksete töötlemise standarditele ja XML-vormingule, nagu EPC on täpsustanud.
+SEPA kreeditülekanne on ühe ettevõtte või isiku makse teisele ettevõttele või isikule. Maksed peavad olema eurodes ja sisaldama mõlema osapoole puhul rahvusvahelist pangakonto numbrit (IBAN) ja panga koodi (BIC). (BIC on tuntud ka kui Society for Worldwide Interbank Financial Telecommunication \[SWIFT\] kood.) Täiendavalt tuleb kandekulusid jagada mitme osapoole vahel. Pooltevahelised kreeditülekanded peavad kasutama XML-faile, mis vastavad ISO 20022 maksete töötlemise standarditele ja XML-vormingule, nagu EPC on täpsustanud.
 
-## <a name="how-is-a-credit-transfer-implemented"></a>Kuidas rakendatakse kreeditkorralduse?
-Krediidi ülekanne makse vormi Euroopa riikides rakendatakse elektroonilise aruandluse (ER) ja tasumise funktsionaalsust meetodeid kasutades Dynamics 365 toiminguteks. Mõned krediidi ülekande formaadid, mida kasutatakse muudes piirkondades kasutada pärand makse raames. Hulgas paljud muud formaadid on kaksteist ISO 20022 krediidi ülekande failivormingud on saadaval. Need ekspordi vormingud vastavad SEPA ISO 20022 XML standardile. Neid kasutatakse muudes makseülekannete riigis kasutatakse ja SEPA krediidi Transfer kava reeglistik mis Patendikonventsiooni vabastab versioon 8.2 määratletud euromakseid loomiseks. Enne, kui te saaksite tehtud, pöörduge panga poole ja saada tarkvara, mis on vajalikud e-panganduse faile üles laadida. Kasutate tarkvara XML faile, mis sisaldavad maksekorraldusi panka.
+## <a name="how-is-a-credit-transfer-implemented"></a>Kuidas kreeditülekannet rakendatakse?
+Euroopa riikide puhul kasutatakse kreeditiülekande maksevormingu rakendamiseks elektroonilist aruandlust (ER) ja rakenduse Dynamics 365 for Operations maksefunktsioonide meetodeid. Mõned teistes piirkondades kasutatavad kreeditiülekande vormingud kasutavad endiselt pärandmakseraamistikku. Paljude muude vormingute hulgas on saadaval kaksteist ISO 20022 kreeditiülekande failivormingut. Need ekspordivormingud vastavad SEPA ISO 20022 XML-standardile. Neid kasutatakse mitteeuroste makseülekannete loomiseks riikidele/piirkondadele, kus neid kasutatakse, ja euromaksete loomiseks, nagu on määratud EPC väljastatava trükise SEPA Credit Transfer Scheme Rulebook versioonis 8.2. Enne kreeditiülekannete rakendamist peate pöörduma oma panga poole, et saada tarkvara, mida elektrooniliste pangafailide üleslaadimiseks vaja on. Seda tarkvara kasutatakse maksetellimusi sisaldavate XML-failide edastamiseks panka.
 
-## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Mis krediidi ülekande praegu formaate Dynamics 365 toimingute puhul?
-Tuleks alati avage jagatud varade kogu Microsoft Dynamics elutsükli teenused (LCS) ning vaadata kõige uuemad saadaval vara tüüpi failide **GER konfiguratsiooni**. Järgmine lõik: "Mida ma pean luua?", antakse link teema, kus selgitatakse, kuidas luua LCS hoidla vaadata saadaolevaid konfiguratsioone ja importida valitud konfiguratsioonid.
+## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Milliseid kreeditiülekande vorminguid rakendus Dynamics 365 for Operations praegu toetab?
+Saate alati minna Microsoft Dynamicsi elutsükli teenustes (LCS) olevasse ühiste varade teeki ja vaadata kõige ajakohasemat loendit saadaolevatest failidest, millel on vara tüüp **GER-i konfiguratsioon**. Järgmine jaotis „Mida pean seadistamiseks tegema?” annab lingi teemale, mis selgitab, kuidas luua LCS-hoidlat, et saadaolevaid konfiguratsioone üle vaadata ja valitud konfiguratsioone importida.
 
 ## <a name="what-do-i-have-to-set-up"></a>Mida pean seadistamiseks tegema?
--   Enne loomist tehtud faile, peab vähemalt üks aktiivne krediidi ülekande konfiguratsiooni importida ER koosseisud. Lisateabe saamiseks vaadake [lae elektrooniline aruandlus koosseisud elutsükli teenuste](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
--   Kontodele makstavad makseviisid konfigureerimisel valida on **üldise elektroonilise aruandluse** ruut ja valige sobiv krediidi ülekande formaadis (näiteks **ISO 20022 kreeditkorralduse (AT)**) kui ekspordi vormi konfiguratsioon.
--   Peate seadistama ka juriidilise isiku ja pangakonto teavet Dynamics 365 toiminguteks.
--   Pangakonto numbrit, IBAN-ID ja mõnikord SWIFT koodid (innovaatikakeskust) või muud ID-d on vaja selleks, et luua sobiv tehtud maksed. Seetõttu peate seadistama need hankija pangakonto ja selle pangakonto organisatsioon, mis taotleb üleandmise eest.
--   Lisateavet võidakse nõuda näiteks käibemaks (VAT) numbrid lepinguosalistele, mis on nimetatud üleandmise krediidi sõnumis. See teave tuleb seadistada hankijatele ja juriidilisel isikul seda.
--   Mõned kontod maksta makseviisid enamasti ISO 20022 – vastavalt makseviisid võib nõuda täiendavaid seadistus **makse vormi koodikogumite**, nagu **teenuse liik** = **SLEV**. Neid koode kasutatakse täiendavaid sildistamine maksetehingute makse töötlemise ajal. Vaikimisi väärtused makse koodi, nagu **kategooria eesmärk**, **tasuta kuller**, **kohaliku vahend** ja **teenindamise tasemel** saab määrata kahes kohas. Esiteks on **kontode maksta makse töölehe päis** ja teine on **moodustab makstavate maksete meetodid**. Pärast makse töölehe ridade loomist, makse kood väärtustele, makse töölehe päise on töölehe reale üle viia, kui ei ole seatud, makseviisid väärtusi kasutatakse.
+-   Enne kui saate kreeditiülekande faile luua, tuleb teie elektroonilise aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne kreeditiülekande konfiguratsioon. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Kui konfigureerite ostureskontro makseviise, märkige ruut **Üldine elektrooniline aruandlus** ja valige ekspordivormingu konfiguratsioonina sobiv kreeditülekande vorming (näiteks **ISO 20022 kreeditiülekanne (AT)**).
+-   Samuti tuleb seadistada rakenduse Dynamics 365 for Operations juriidilise isiku ja pangakonto andmed.
+-   Kehtivate kreeditiülekande maksete loomiseks on vaja pangakonto numbreid, IBAN-sid ja mõnikord SWIFT-koode (BIC-id). Seega tuleb need seadistada nii hankija pangakonto kui ka ülekannet taotleva organisatsiooni pangakonto jaoks.
+-   Vaja võib olla täiendavat teavet, nagu käibemaksunumbrid osapooltele, kellele viidatakse kreeditiülekande sõnumis. See teave tuleb seadistada hankijatele ja juriidilisele isikule selle taotlemisel.
+-   Mõned ostureskontro makseviisid (peamiselt ISO 20022-põhised makseviisid) võivad nõuda valiku **Maksevormingu koodikomplektid** jaoks täiendavat seadistust, nagu **Teenuse tüüp** = **SLEV**. Neid koode kasutatakse maksetöötluse käigus maksekannete täiendavaks sildistamiseks. Maksekoodide vaikeväärtuseid, nagu **Kategooria eesmärk**, **Tasu maksja**, **Kohalik vahend** ja **Teenustase**, saab määrata kahes kohas. Esimene koht on **Ostureskontro maksetöölehe päis** ja teine **Ostureskontro makseviisid**. Maksetöölehe ridade loomisel edastatakse maksetöölehe päisel olevad maksekoodi väärtused töölehe reale; kui neid pole määratud, kasutatakse makseviiside väärtuseid.
 
-## <a name="what-parameters-are-available-for-generating-credit-transfer-payments"></a>Milliseid parameetreid on saadaval tekitama krediidi vähendamisest?
-Konkreetsete parameetrite sõltub krediidi ülekande formaadis. Järgmises tabelis on parameetrid, mis on saadaval ISO 20022 krediidi ülekanne makse faili Saksamaa loomisel hankija maksežurnaali. Kohta saadaolevate suvandite ning **taustal** jaotises käivitada makse kogumitena.
+## <a name="what-parameters-are-available-for-generating-credit-transfer-payments"></a>Millised parameetrid on kreeditülekannete maksete loomiseks saadaval?
+Spetsiifiliste parameetrite loend sõltub kreeditiülekande vormingust. Järgmises tabelis on näidatud parameetrid, mis on hankija maksetöölehel Saksamaa jaoks ISO 20022 kreeditiülekande maksefaili loomisel saadaval. Kasutades vahekaardi **Käivita taustal** valikuid, saate luua makse pakettrežiimis.
 
 <table>
 <colgroup>
@@ -89,17 +89,17 @@ Konkreetsete parameetrite sõltub krediidi ülekande formaadis. Järgmises tabel
 <td>Vorming</td>
 <td>Valige rahaülekande teabe vorming, olenevalt teie riigi/regiooni või panga nõudmistest.
 <ul>
-<li><strong>Strd</strong> – selle valiku, kasutada struktureeritud formaat, kui üks makserida tasakaalustatakse ühe arve. See suvand pole saadaval, Prantsusmaa, Saksamaa ja Hollandi riigi-/ regioonikohaste ekspordi formaadid.</li>
-<li><strong>Ustrd</strong> – selle valiku abil saate kasutada struktureerimata vormingut, kus makse tasakaalustatakse mitme arvega. Tasakaalustatud arvete numbrid liidetakse ja kasutatakse rahaülekande teabena. Vastavalt ISO 20022 suunised, struktureerimata rahaülekande teave on kuni 140 tähemärki.</li>
+<li><strong>Struktureeritud</strong> – selle valiku abil saate kasutada struktureeritud vormingut, kus üks makserida tasakaalustatakse ühe arvega. See valik ei ole saadaval Prantsusmaa, Saksamaa või Hollandi riigi-/ regioonipõhiste ekspordivormingute puhul.</li>
+<li><strong>Ustrd</strong> – selle valiku abil saate kasutada struktureerimata vormingut, kus makse tasakaalustatakse mitme arvega. Tasakaalustatud arvete numbrid liidetakse ja kasutatakse rahaülekande teabena. ISO 20022 juhiste kohaselt on struktureerimata rahaülekande teave piiratud 140 märgiga.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Arvete arv</td>
-<td>Sisestage tegevuse selle ning <strong>maksesoovituse</strong> aruande printida.</td>
+<td>Sisestage arvete arv, millelt aruanne <strong>Maksesoovitus</strong> prinditakse.</td>
 </tr>
 <tr class="odd">
 <td>Järjekorranumber</td>
-<td>Sisestage faili tähistav järjekorranumber. Järjekorranumber kuvatakse selle <strong>käivad Märkus</strong> aruande.</td>
+<td>Sisestage faili tähistav järjekorranumber. Järjekorranumber kuvatakse aruandes <strong>Osalemismärkus</strong>.</td>
 </tr>
 <tr class="even">
 <td>Prindi osalemismärkus</td>
@@ -117,9 +117,9 @@ Konkreetsete parameetrite sõltub krediidi ülekande formaadis. Järgmises tabel
 </table>
 
 ## <a name="what-are-ibans-and-bics"></a>Mis on IBANid ja BICd?
-Rahvusvaheline pangakonto Number (IBAN) ja panga tunnuskoodi (BIC) abil määratakse kindlaks iga konto paljudes riikides/piirkondades üle terve maailma. Nendeks on 34 SEPA riigis. Sisestage BIC on selle **SWIFT kood** välja ja IBAN ja selle **IBAN** välja. Võlausaldaja pangakonto ja kliendi pangakonto asuvad need väljad on **rentnikult isikut tõendavat** FastTab kohta on **pangakonto** vahekaardil on **pangakontode** lehel. SEPA maksete BIC kasutamist enam ei kohaldata.
+Rahvusvahelist pangakonto numbrit (IBAN) ja panga identifikaatorkoodi (BIC) kasutatakse kõigi kontode tuvastamiseks paljudes riikides/piirkondades üle maailma. Need hõlmavad 34 SEPA riiki/piirkonda. Sisestage BIC väljale **SWIFT-kood** ja IBAN väljale **IBAN**. Nii kreeditori kui ka kliendi pangakonto puhul asuvad need väljad lehe **Pangakontod** vahekaardi **Pangakonto** kiirkaardil **Täiendav identifitseerimine**. BIC kasutamist SEPA maksete puhul enam ei jõustata.
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Kuidas maksefail panka edastada?
-Maksete loomisel makse fail on loodud ja teil palutakse Salvesta brauseris saadaval kõikjale. Järgmine samm on XML faili saatmiseks panka. See protsess erineb pankade lõikes. Järgige oma panga juhiseid failide edastamiseks panka töötlemiseks.
+Maksete loomisel luuakse maksefail ja teil palutakse salvestada see veebibrauserist mõnda olemasolevasse asukohta. Järgmine etapp on XML-faili panka saatmine. See protsess erineb pankade lõikes. Järgige oma panga juhiseid failide edastamiseks panka töötlemiseks.
 
 

@@ -1,6 +1,6 @@
 ---
-title: Muudetud summad Kuva aruanded ja dokumendid
-description: "See teema pakub teavet värskendada summad Kuva aruanded ja muud dokumendid Eesti, Läti, Leedu, Poola, Tšehhi, Ungari ja Venemaa."
+title: "Aruannetel ja dokumentidel summade kuvamisviisi värskendamine"
+description: "Selles teemas antakse teavet aruannetel ja muudel dokumentidel summade kuvamisviisi värskendamiseks Eesti, Leedu, Poola, Tšehhi Vabariigi, Ungaris ja Venemaa puhul."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,32 +24,37 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Muudetud summad Kuva aruanded ja dokumendid
+# <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
 
-See teema pakub teavet värskendada summad Kuva aruanded ja muud dokumendid Eesti, Läti, Leedu, Poola, Tšehhi, Ungari ja Venemaa.
+[!include[banner](../includes/banner.md)]
 
-Aastal Eesti, Läti, Leedu, Poola, Tšehhi, Ungari ja Venemaa juriidiliste, seadistage täisnimi ja lühikesed sõnad rahaühikud ja allüksustes. Neid nimesid saab muuta, kuidas summad esitatakse dokumendid ja aruanded. Näiteks: summa **LTL 100.20** võib kuvada **100 litti 20 Centas**.
 
-## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Täis- ja rahaühikud ja allüksustes nimede seadistamine
-Täis- ja nimed rahaühikud ja allüksused keele seadistamiseks täitke järgmised juhised:
+Selles teemas antakse teavet aruannetel ja muudel dokumentidel summade kuvamisviisi värskendamiseks Eesti, Leedu, Poola, Tšehhi Vabariigi, Ungaris ja Venemaa puhul.
 
-1.  Avatud on **valuutade** lehel.
+Juriidiliste isikute puhul Eestis, Lätis, Leedus, Poolas, Tšehhi Vabariigis, Ungaris ja Venemaal saate seadistada valuutaühikute ning allühikute jaoks täielikud ja lühinimed. Neid nimesid saab kasutada dokumentidel ja aruannetes summade kuvamisviisi määramiseks. Näiteks kuvatakse summa **LTL 100,20** arvetes või aruannetes kui **100 Litas 20 Centas**.
+
+## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Valuutaühikute ja allühikute täielike ning lühinimede seadistamine
+Valuutaühikute ja allühikute täielike ning lühinimede seadistamiseks valitud keele puhul tehke järgmist.
+
+1.  Avage leht **Valuutad**.
 2.  Valige valuuta.
-3.  Kohta ning tegevus paanil klõpsake **käänamine**.
-4.  Täisnimi ja lühinimi keele lisamiseks klõpsake **uus** ja täitke järgmised väljad.
+3.  Klõpsake toimingupaanil valikut **Käänamine**.
+4.  Keele jaoks täieliku ja lühinime lisamiseks klõpsake valikut **Uus** ja täitke järgmised väljad.
     |                                                           |                                                                                                                                                                                                                    |
     |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | **Field**                                                 | **Description**                                                                                                                                                                                                    |
-    | **Language**                                              | Valige praeguse teksti keel.                                                                                                                                                                          |
-    | **Ainsuse nimetav (ühikut väljagrupi nimi)**       | Sisestage valuuta ainsuse vormi. Näiteks litt ainsuse vorm on litt.                                                                                                                         |
-    | **Mitmuse nimetav (ühikut väljagrupi nimi)**         | Sisestage valuuta mitmuses. Näiteks sisestage Litai. **Märkus**: selle **ainsuse omastavas** ja **mitmuse omastav** väljad on saadaval jaotises keeles on **keele** välja. |
-    | **Ainsuse nimetavas välja (osad väljagrupi nimi)** | Sisestage valuuta ribosoomi ainsuse vormi.                                                                                                                                                            |
-    | **Mitmuse nimetav (osad väljagrupi nimi)**         | Sisestage valuuta ribosoomi mitmuses.                                                                                                                                                              |
-    | **(Lühend väljagrupp) ühikute kiirnimi**       | Sisestage tuvastamiseks valuuta ISO kood. Näiteks littide tuvastamiseks sisestage LTL.                                                                                                                             |
-    | **Otsetee nimi osad (lühend väljagrupp)**      | Sisestage valuuta allüksuse nimetus. Näiteks sisestage Centas.                                                                                                                                         |
-    | **Conjunction 'and' between units and parts**             | Saate printida sidesõna "ja" rahaühikute ja üksuse osade vahel. Näiteks arvete ja aruannete, LTL 100.20 summa kuvatakse 100 litti ja 20 Centas.                      |
+    | **Väli**                                                 | **Kirjeldus**                                                                                                                                                                                                    |
+    | **Keel**                                              | Valige praeguse teksti keel.                                                                                                                                                                          |
+    | **Ainsuse nimetav (ühikunimede väljagrupp)**       | Sisestage valuuta ainsusevorm. Näiteks on sõna Litas ainsuse nimetav vorm Litas.                                                                                                                         |
+    | **Mitmuse nimetav (ühikunimede väljagrupp)**         | Sisestage valuuta mitmusevorm. Näiteks sisestage Litai. **Märkus**. Väljad **Ainsuse omastav** ja **Mitmuse omastav** on saadaval olenevalt väljal **Keel** valitud keelest. |
+    | **Ainsuse nimetav (allühiku nimede väljagruppi)** | Sisestage valuuta allühiku ainsusevorm.                                                                                                                                                            |
+    | **Mitmuse nimetav (allühiku nimede väljagrupp)**         | Sisestage valuuta allühiku mitmusevorm.                                                                                                                                                              |
+    | **Ühikute lühinimi (Lühinime väljagrupp)**       | Sisestage valuutat tuvastav ISO-kood. Näiteks littide tuvastamiseks sisestage LTL.                                                                                                                             |
+    | **Ühikute lühinimi (Lühinime väljagrupp)**      | Sisestage valuuta allühiku üldnimetus. Näiteks sisestage Centas.                                                                                                                                         |
+    | **Sidesõna „ja” ühikute ja allühikute vahel**             | Märkige ruut , et printida ühikute ja allühikute vahel sidesõna „ja”. Näiteks kuvatakse summa LTL 100,20 arvetel või aruannetes kui „100 Litas and 20 Centas”.                      |
 
-5.  Click **Save**.
+5.  Klõpsake käsku **Salvesta**.
+
+
 
 
 

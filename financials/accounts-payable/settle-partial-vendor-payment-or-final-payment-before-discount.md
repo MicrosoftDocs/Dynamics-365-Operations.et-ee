@@ -1,5 +1,5 @@
 ---
-title: "Lahendada osalise hankija makse ja lõppmakse täielikult enne allahindlust"
+title: "Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva."
 description: "Selles artiklis käsitletakse stsenaariumi, kus osalised maksed tehakse hankija arvele ja võetakse skonto."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Lahendada osalise hankija makse ja lõppmakse täielikult enne allahindlust
+# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva.
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis käsitletakse stsenaariumi, kus osalised maksed tehakse hankija arvele ja võetakse skonto.
 
-Fabrikami ostab kauba hankija 3064. Hankija annab Fabrikami 1 protsenti allahindlust, kui arve on tasutud 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Hankija lubab Fabrikamil kasutada skontosid ka osaliste maksete korral. Lahendamise parameetrid asuvad ka **Ostureskontro parameetrid** lehel. April sisestab 25. juunil arve hankijale 3064 summas 1000,00.
+Fabrikam ostab kaupu hankijalt 3064. Hankija annab Fabrikamile 1 protsenti skontot, kui arve tasutakse 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Hankija lubab Fabrikamil kasutada skontosid ka osaliste maksete korral. Tasakaalustamise parameetrid asuvad lehel **Ostureskontro parameetrid**. April sisestab 25. juunil arve hankijale 3064 summas 1000,00.
 
 ## <a name="vendor-invoice-on-june-25"></a>Hankija arve 25. juunil
-25. juuni aprill siseneb ja postitusi 1000.00 dollarit hankija 3064 kohta arve. April saab vaadata seda kannet lehel **Hankija kanded**.
+25. juunil sisestab April hankijale 3064 arve summas 1000,00. April saab vaadata seda kannet lehel **Hankija kanded**.
 
 | Kanne   | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo   | Valuuta |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -63,7 +66,7 @@ Skonto summa vaatamiseks klõpsab April vahekaarti **Skonto**.
 | 25.07.2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Osaline makse 1. juulil, kasutades lehte Kannete tasakaalustamine
-April saab luua sellele maksele maksetöölehe, avades jaotises Ostureskontro lehe **Maksetööleht**. Ta uue töölehe loomiseks ja sisestab rea hankija 3064. Ta avab selle **paralleelkäibe** lehekülg, nii et ta saate märkida arve tasakaalustamiseks. April märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **–500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **–10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **–5,05**. Seetõttu tasakaalustab April arve summas –505,05.
+April saab luua sellele maksele maksetöölehe, avades jaotises Ostureskontro lehe **Maksetööleht**. Ta loob uue töölehe ja sisestab hankijale 3064 rea. Ta avab seejärel lehe **Kannete tasakaalustamine**, et ta saaks arve tasakaalustamiseks märgistada. April märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **–500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **–10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **–5,05**. Seetõttu tasakaalustab April arve summas –505,05.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -95,7 +98,7 @@ Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaal
 | Võetud skonto          | 0,00      |
 | Skonto summa võtmiseks | –5,00     |
 
-April sulgeb lehe **Kannete tasakaalustamine**. Töölehel luuakse makserida summas 495,00 ja April sisestab töölehe. Aprillis saab vaadata hankijakannete kohta ning **hankijakannete** lehel. Ta näeb, et arve on tasakaalus-500.00. Samuti näeb ta makset summas 495,00 ja skontot summas 5,00.
+April sulgeb lehe **Kannete tasakaalustamine**. Töölehel luuakse makserida summas 495,00 ja April sisestab töölehe. April saab hankija kandeid lehel **Hankija kanded** üle vaadata. Ta näeb, et arve saldo on –500,00. Samuti näeb ta makset summas 495,00 ja skontot summas 5,00.
 
 | Kanne    | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo | Valuuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -136,6 +139,8 @@ April sisestab maksetöölehe ja vaatab üle hankija kanded lehel **Hankija kand
 | DISC‑10010 | Skonto    | 01.07.2015  |         | 5,00                                 |                                       | 0,00    | USA dollar      |
 | APP‑10011  | Makse          | 08.07.2015  |         | 495,00                               |                                       | 0,00    | USA dollar      |
 | DISC‑10011 | Skonto    | 08.07.2015  |         | 5,00                                 |                                       | 0,00    | USA dollar      |
+
+
 
 
 

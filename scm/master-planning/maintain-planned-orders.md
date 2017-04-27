@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Plaanitud tellimuste haldamine
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel pakub teavet plaanitud tellimuste haldamise kohta. See kirjeldab, kuidas plaanitud tellimuste olekut värskendada, neid kinnitada ja filtreerida plaanitud tellimusi, millel on sama olek, nagu valitud plaanitud tellimusel.
 
 Saate planeeritud tellimusi hallata tööruumis **Koondplaneerimine**, loendis **Plaanitud tellimus** või loendites **Plaanitud tootmistellimused**, **Plaanitud ostutellimused** ja **Plaanitud üleviimised**. Saate edenemist jälgida välja **Olek** abil. Kasutatakse järgmisi väärtusi.
@@ -48,6 +51,8 @@ Kui plaanitud tellimus on kinnitatud, teisaldatakse see asjakohase mooduli telli
 <a name="see-also"></a>Vt ka
 --------
 
-[Master plans](master-plans.md)
+[Koondplaanid](master-plans.md)
+
+
 
 

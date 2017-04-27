@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Rahanduskalendrid, rahandusaastad ja -perioodid
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis käsitletakse rahanduskalendreid, rahandusaastaid ja -perioode ning seda, kuidas neid kasutada juriidiliste isikute, põhivara ja eelarvestamise puhul.
 
 Rahanduskalendrid annavad organisatsiooni finantstegevusele raamistiku. Iga rahanduskalender sisaldab ühte või mitut rahandusaastat ja iga rahandusaasta sisaldab mitut perioodi. Rahanduskalender võib põhineda kalendriaastal 1. jaanuarist 31. detsembrini või teie valitud kuupäevadel. Näiteks mõnes organisatsioonis valitakse rahanduskalender, mis algab 1. juulil ja lõpeb järgneva aasta 30. juunil. 
@@ -39,7 +42,7 @@ Saate luua ja kustutada rahanduskalendreid, rahandusaastaid ja -perioode lehel R
 
 Sulgemisperioodi kasutatakse pearaamatukannete eraldamiseks, mis luuakse, kui majandusaasta on suletud. Kui sulgemiskanded on ühes rahandusperioodis, on lihtsam luua finantsaruandeid, mis sisaldavad või jätavad välja eri liiki sulgemiskandeid. Kui rahandusaasta on jaotatud 12 rahandusperioodiks, on sulgemise periood tavaliselt 13. periood. Siiski saab luua sulgemisperioodi igast perioodist, mille olek on Avatud. 
 
-Sulgemisperioodi loomisel saate valida perioodi, mille olek on Avatud ja millel on kuupäevad, mida soovite kasutada. Uus sulgemisperiood kopeerib algus- ja lõppkuupäevad olemasolevast perioodist. Esialgne periood on jätkuvalt olemas. Näiteks valite perioodi 12, mis on majandusaasta viimane periood ja mis on kuupäevad 1 August August 31 kaudu. Sisestage nimi lõpetamise perioodi, nagu Sule. Pärast uue sulgemisperioodi loomist on teil nüüd esialgne periood ja sulgemisperiood. Mõlemal on kuupäevad, mis algavad 1. augustil ja lõpevad 31. augustil.
+Sulgemisperioodi loomisel saate valida perioodi, mille olek on Avatud ja millel on kuupäevad, mida soovite kasutada. Uus sulgemisperiood kopeerib algus- ja lõppkuupäevad olemasolevast perioodist. Esialgne periood on jätkuvalt olemas. Näiteks valite perioodi 12, mis on majandusaasta viimane periood, ja mille kuupäevad on 1. august kuni 31. august. Sisestate sulgemisperioodi nime, näiteks Sulgemine. Pärast uue sulgemisperioodi loomist on teil nüüd esialgne periood ja sulgemisperiood. Mõlemal on kuupäevad, mis algavad 1. augustil ja lõpevad 31. augustil.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Rahanduskalendrite valimine pearaamatute, põhivarade ja eelarvetsüklite jaoks
 Rahanduskalendreid kasutatakse põhivara kulumi, finantskannete ja eelarvetsüklite puhul. Rahanduskalendri loomisel saate kasutada seda mitmeks otstarbeks. Saate valida rahanduskalendri väärtusmudelile või kulumiraamatule, muutes selle põhivarakalendriks. Saate valida rahanduskalendri pearaamatule, muutes selle pearaamatukalendriks. Ning saate valida rahanduskalendri eelarvetsüklile, muutes selle eelarvekalendriks. Saate kasutada sama rahanduskalendrit kõigis nendes olukordades.
@@ -58,6 +61,8 @@ Eelarvetsüklid on ajavahemik, mille jooksul eelarvet kasutatakse. Eelarvetsükl
 
 ## <a name="maintain-periods-for-your-organization"></a>Organisatsiooni perioodide haldamine
 Võite kasutada lehte Pearaamatukalender oma organisatsiooni rahanduskalendri, rahandusaastate ja perioodide üksikasjade vaatamiseks. Samuti saate perioodide olekut muuta ja valida, millised kasutajad saavad perioodidele raamatupidamiskandeid sisestada. Näiteks uue perioodi alguses võite soovida, et mõni kasutajagrupp lõpetaks finantskannete sisestamise eelnevasse perioodi, samas kui teised grupid töötavad ainult uues perioodis.
+
+
 
 
 

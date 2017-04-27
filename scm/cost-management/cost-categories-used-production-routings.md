@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Tootmisprotsessis kasutatud kulukategooriad
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel annab teavet protsesse kasutavate tootmiskeskkondade puhul kehtivate kulukategooriate kohta.
 
 Kulukategooriad rakenduvad protsessi kasutatavatele tootmiskeskkondadele. Need määratakse operatsiooniressurssidele ja protsessi toimingutele tunnikulude ja kulu osade segmentimise eesmärkidel toodetud kauba kalkuleeritud kuludes. Kulukategooriatele määratud kulugrupid liigitavad toodetavad kulu osad operatsiooniressursside ja tegevuse tüübi (nt häälestus ja käitusaeg) alusel. Kulugrupi määramise spetsiifilisus pakub protsessiteabel põhinevat tootmise üldkulude kalkuleerimist. 
@@ -51,5 +54,7 @@ Kulukategooria kulukirje võib olla laoalapõhine või ettevõtteülene. Kulukir
 Protsessi toiming pärib tavaliselt kulukategooriad, mis on operatsiooniressursile või koondtoimingutele määratud. Tootmistellimuse loomisel kajastavad tootmisprotsessi protsessi toimingud valitud protsessi versiooni. Te saate tootmisprotsessi toimingutele määratud kulukategooriad tühistada. 
 
 Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. Sellisel juhul on tootmise ja projekti jaoks vaja kulukategooriat. Projektiga seostuv lisateave peab olema määratletud, kui kulukategooria on projektides kasutamiseks lipuga märgitud.
+
+
 
 

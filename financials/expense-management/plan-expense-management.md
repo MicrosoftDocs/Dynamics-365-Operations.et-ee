@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Kuluhalduse konfigureerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics AX-is kuluhaldust konfigureerite. Kuluhalduse alal saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jm kohta. 
 
 Kuna paljud otsused, mida kuluhalduse konfiguratsiooni plaanimisel langetate, põhinevad organisatsiooni hierarhial ja finantsstruktuuril, tuleb juhinduda nende valdkondade plaanimisdokumentidest.
@@ -133,6 +136,8 @@ Saate luua kuluaruande poliitikaid, et teie organisatsioon saaks säästa aega j
 -   Millal poliitika aegub?
 -   Mis see poliitikareegel on?
 -   Mis on selle poliitikareegli tulemus?
+
+
 
 
 

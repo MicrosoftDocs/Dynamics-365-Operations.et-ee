@@ -1,5 +1,5 @@
 ---
-title: "Kõnekeskuse makseviisid"
+title: "Makseviisid kõnekeskuses"
 description: "Selles teemas käsitletakse erinevaid makseviise, mida saate jaemüügi ja kaubanduse mooduli kõnekeskuses kasutada."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Kõnekeskuse makseviisid
+# <a name="payment-methods-in-a-call-center"></a>Makseviisid kõnekeskuses
+
+[!include[banner](includes/banner.md)]
+
 
 Selles teemas käsitletakse erinevaid makseviise, mida saate jaemüügi ja kaubanduse mooduli kõnekeskuses kasutada.
 
@@ -43,6 +46,8 @@ Kui edastate krediitkaardimakse lehelt **Müügitellimus** ja saate sõnumi, mis
 
 -   Tšeki ootelolekud võimaldavad finantsosakonna töötajatel töödelda ootele pandud tellimusi, kuna makseviisina kasutati tšekki ja tšeki ooteloleku lävesumma ületati. Ooteloleku saab käsitsi vabastada või see aegub automaatselt konfigureeritud perioodi lõpus.
 -   Saate seadistada läved, mille ületamisel tuleb tšekkide ja krediitkaartide kaudu väljastatud tagasimakseid käsitsi kinnitada. Kõik lävisummat ületavad tagasimaksed lisatakse kinnitusjärjekorda. Pärast tagasimakse kinnitamist saab müügi tagastustellimust arveldada.
+
+
 
 
 

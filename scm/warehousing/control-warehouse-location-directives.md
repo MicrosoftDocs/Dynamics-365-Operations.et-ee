@@ -1,5 +1,5 @@
 ---
-title: "Lao töö töö malle ja asukoht direktiivide abil"
+title: "Laotöö juhtimine töömallide ja asukohadirektiividega"
 description: "Selles artiklis kirjeldatakse, kuidas kasutada töömalle ja asukoha korraldust määramaks, kuidas ja kus laos tööd tehakse."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Lao töö töö malle ja asukoht direktiivide abil
+# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Laotöö juhtimine töömallide ja asukohadirektiividega
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse, kuidas kasutada töömalle ja asukoha korraldust määramaks, kuidas ja kus laos tööd tehakse.
 
@@ -40,7 +43,7 @@ Töö päise määratluses olevaid sätteid saab kasutada selleks, et määrata,
 
 Tööread näitavad füüsilisi ülesandeid, mis on töö jätkamiseks nõutavad. Näiteks väljamineva laoprotsessi jaoks võib olla töörida kaupade komplekteerimise kohta laos ja teine rida nende kaupade panemise kohta koondusalale. Seal võib olla täiendav rida kaupade komplekteerimise kohta koondusalalt ja teine rida kaupade laadimisest autosse osana laadimisprotsessist. Saate määrata töömallide ridadele *korralduse koodi *. Korralduse kood lingitakse asukohakorraldusega ja see aitab seega tagada, et laotööd töödeldakse laos õiges kohas. 
 
-Saate seadistada päringu, et juhtida, millal konkreetset töömalli kasutatakse. Näiteks saate määrata piirangu, nii et kindlat malli saab kasutada ainult kindlas laos töötamisel. Teise võimalusena võib teil olla mitu malli, mida kasutatakse töö loomiseks väljamineva müügitellimuse töötlemisel olenevalt müügi allikast. Süsteem kasutab selle **järjekorranumber** välja tegema malle hindamise järjekorra määramiseks. Seetõttu väga konkreetse päringu mallina konkreetse töö olemasolul sa peaksid talle madal järjekorranumber. Seda päringut hinnatakse siis muudest, üldisematest päringutest enne. 
+Saate seadistada päringu, et juhtida, millal konkreetset töömalli kasutatakse. Näiteks saate määrata piirangu, nii et kindlat malli saab kasutada ainult kindlas laos töötamisel. Teise võimalusena võib teil olla mitu malli, mida kasutatakse töö loomiseks väljamineva müügitellimuse töötlemisel olenevalt müügi allikast. Süsteem kasutab välja **Seerianumber** saadaolevate töömallide hindamise järjekorra määramiseks. Seega kui teil on väga konkreetne päring kindla töömalli kohta, andke sellele väike järjekorranumber. Seda päringut hinnatakse siis muudest, üldisematest päringutest enne. 
 
 Tööprotsessi lõpetamiseks või peatamiseks saate kasutada töörea sätet **Peata töö**. Sellisel juhul ei pea tööd tegev töötaja läbima järgmist töörea etappi. Järgmise etapi juurde liikumiseks peab see või mõni teine töötaja uuesti töö valima. Samuti saate erldada ülesanded tööüksuses, kasutades töömalliridadel erinevat *tööklassi ID-d*.
 
@@ -53,12 +56,14 @@ Töömallide puhul saate seadistada päringu, et määrata, millal kindlat asuko
 
 Asukohakorralduse read seavad asukoha leidmise reeglite rakendusele lisapiiranguid. Saate määrata minimaalse ja maksimaalse koguse, millele korraldus vastama peab, ja saate määrata, et korraldus on kindlale laoühikule. Näiteks kui mõõtühikuks on kaubaalused, saab määratud asukohta maha panna ainult kaubaalustel kaupu. Samuti saate määrata, kas kogust saab mitme asukoha vahel jagada. Nagu asukohakorralduse päisel, on ka asukohakorralduse real seerianumber, mis määrab ridade hindamise järjekorra. 
 
-Asukohakorraldustel on veel üks üksikasjade tase: *asukohakorralduse toimingud*. Saate määratleda igale reale mitu asukoha korralduse tegevust. Veelkord, kasutatakse kogumi number meetmete hindamise järjekorra määramiseks. Sellel tasemel saate seadistada päringu määratleda kuidas leida asukoht laos. Saate kasutada ka eelmääratletud sätteid **Strateegia **, et leida optimaalne asukoht.
+Asukohakorraldustel on veel üks üksikasjade tase: *asukohakorralduse toimingud*. Saate määratleda igale reale mitu asukoha korralduse tegevust. Järjekorranumbrit kasutatakse selleks, et määrata tegevuste järjekord. Sellel tasemel saate seadistada päringu määratlemaks, kuidas leida laos parim asukoht. Saate kasutada ka eelmääratletud sätteid **Strateegia **, et leida optimaalne asukoht.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Asukoha korralduste kasutamise näide
 
 Selle näite puhul kaalume ostutellimuse protsessi, kus asukoha korraldus peab leidma laos äsja vastuvõtudokis ragistreeritud laokaupade jaoks vaba ruumi. Esiteks püüame leida vaba ruumi laos, konsolideerides olemasoleva vaba kaubavaruga. Kui konsolideerimine ei ole võimalik, soovime leida tühja asukoha. 
 
 Selle stsenaariumi jaoks peame määratlema kaks asukoha korralduse tegevust. Esimene tegevus järjekorras peab kasutama strateegiat **Konsolideeri** ja teine strateegiat **Tühi asukoht sissetuleva tööta**. Kui me ei määratle kolmandat tegevust ületäitmise stsenaariumi käsitlemiseks, on võimalikud kaks tulemust, kui laos ei ole enam ruumi: töö saab luua isegi kui asukohti ei määratleta või töö loomise protsess võib nurjuda. Tulemuse määrab lehe **Asukoha korralduse tõrked** seadistus, kus saate otsustada, kas valida suvand **Peata töö asukoha korralduse tõrke korral** igale töö tellimuse tüübile.
+
+
 
 

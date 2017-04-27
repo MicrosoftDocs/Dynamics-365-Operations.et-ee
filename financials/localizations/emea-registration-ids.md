@@ -1,6 +1,6 @@
 ---
 title: Registreerimise ID-d
-description: See teema pakub teavet ja kasutamise registreerimise ID-d.
+description: See teema annab teavet registreerimise ID-de seadistamise ja kasutamise kohta.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,78 +27,83 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="registration-ids"></a>Registreerimise ID-d
 
-See teema pakub teavet ja kasutamise registreerimise ID-d.
+[!include[banner](../includes/banner.md)]
 
-Paljud riigid ja piirkonnad on erinevad ja nõuetega, numbrite või ID-d. See teema annab ülevaate seadete ja toetatud registreerimise tüüpide isikuandmete isikutele erinevates Euroopa riikides/piirkondades. Kõikides riikides/regioonides on toetada erinevaid riigi funktsioone, mis on seotud erinevate liidumaade poolt numbrite puhul. Numbrite näiteks, isikukood (SSN), maksu ID-kood (TIN) ja Euroopa maksukohustuslased (EL KMKR). See funktsioon pakub ühtset raamistikku kõikide riikide kõikides piirkondades, võttes arvesse riigi nõudeid Euroopa riikides. Järgmistes punktides kirjeldatakse üldise teabevahetust, mida kasutatakse loomiseks ja töötlemise registreerimise ID-d.
 
-## <a name="registration-type-creation"></a>Registreerimise tüübi loomine
-Enne registreerimise ID sisestamist peate seadistama registreerimise tüüpide registreerimisnumbrid, mis kumbki lepinguosaline on erinevat tüüpi. Mine **organisatsiooni haldamine**&gt;**globaalse**&gt;**registreerimise tüüpide**&gt;**registreerimise tüüpide** luua ja hallata hankijate, klientide, töötajate ja juriidiliste isikute eri riigis registreerimise tüüpide lehte.
+See teema annab teavet registreerimise ID-de seadistamise ja kasutamise kohta.
+
+Paljudes riikides ja regioonides on erinevad määrused ja nõuded maksu registreerimisnumbrite ehk ID-de salvestamiseks. See teema annab ülevaate nõutud sätetest ja toetatud registreerimistüüpide töötlemisest erinevates Euroopa riikides/piirkondadeds asuvate osapoolte puhul. Kõigis riikides/regioonides kehtivad oma nõuded mitmesuguste erinevate ametiasutuste registreerimisnumbritega seotud riigikohaste funktsioonide toetamiseks. Registreerimisnumbrid on näiteks isikukood (SSN), maksu ID-kood (TIN) ja Euroopa käibemaksukood (EL-i KMKR). See funktsioon pakub ühtset raamisitikku kõigi piirkondade kõigile riikidele, võttes arvesse mõne Euroopa riigi riigikohaseid nõudeid. Järgmised jaotised kirjeldavad üldist teabevoogu, mida kasutatakse registreerimise ID-de seadistamiseks ja töötlemiseks.
+
+## <a name="registration-type-creation"></a>Registreerimistüübi loomine
+Enne registreerimise ID sisestamist peate seadistama erinevat tüüpi registreerimisnumbrite jaoks registreerimistüübid, mis igale osapoolele kehtivad. Erinevates riikides/regioonides asuvate hankijate, klientide, töötajate ja juriidiliste isikute jaoks registreerimistüüpide loomiseks ning haldamiseks minge lehele **Organisatsiooni haldus** &gt; **Globaalne aadressiraamat** &gt; **Registreerimistüübid** &gt; **Registreerimistüübid**.
 
 |Väli                 |Kirjeldus      |
 |------------------------------|----------------------------|                                                                           
-| Nimi                | Registreerimise tüübi nimi. |                                                                           
-| Kirjeldus         | Registreerimise tüübi kirjeldus. |
-| Riik/regioon      | Riigi/regiooni kordumatu kood.|
-| Maksuhaldur       | Maksuhaldur, mis on seotud registreerimise tüüp.|
-| Kitsendatud       | Selline piirang rakendab maksu registreerimine liigile: ükski isik, organisatsioon.|
-| Vorming              | Registreerimise tüübi kinnitamise vormi.|
-| Saab uuendada      | Määratletakse kui registreerimistüübi registreerimisnumber saab uuendada pärast seda, kui see on sisestatud.|
-| Kordumatu              | Määratleb registreerimistüübi registreerimisnumber on unikaalne. |
-| Riigi puhul esmane | Kui pool on seotud üks või rohkem aadresse eelkõige riigi ja registreerimise ID kehtib kõik need aadressid, peavad määrama ühe aadressi riigi primaarseks. Primaarseks saab registreeruda ainult üks nimi. Määratletakse kui registreerimisnumber kantakse ainult puhul esmase aadressi riigi. |
+| Nimi                | Registreerimistüübi nimi. |                                                                           
+| Kirjeldus         | Registreerimistüübi kirjeldus. |
+| Riik/regioon      | Riigi/regiooni kordumatu identifikaator.|
+| Maksuhaldur       | Registreerimistüübiga seostatud maksuamet.|
+| Kitsendatud       | Maksu registreerimistüübile kohalduva piirangu laad: Pole, Isik, Organisatsioon.|
+| Vorming              | Registreerimistüübi kinnitusvorming.|
+| Saab uuendada      | Määratleb, kas registreerimistüübi registreerimisnumbrit saab pärast sisestamist värskendada.|
+| Kordumatu              | Määratleb, kas registreerimistüübi registreerimisnumber on kordumatu. |
+| Riigi puhul esmane | Kui mõni osapool on seostatud kindlas riigis ühe või mitme aadressiga ja registreerimise ID kehtib kõigi nende aadresside puhul, peate määrama ühe neist aadressidest selle riigi puhul peamise aadressina. Peamisena saab registreerida ainult ühe ID. Määratleb, kas registreerimisnumbri saab sisestada ainult riigi primaarse aadressi puhul. |
 
-## <a name="assign-a-registration-type-to-a-registration-category"></a>Registreerimise tüübi määrata registreerimise kategooria
-Registreerimine on riigi registreerimise ID heaks kasutades eelkõige riigi maksu-, tolli- ja muudel eesmärkidel. Selle kategooria määratletakse kinnitusreeglite eriti registreerimise ID (sealhulgas kontrolljärk jne) ja kaasatuse registreerimise erinevaid aruandeid. Lehel **organisatsiooni haldamine**&gt;**globaalse**&gt;**registreerimise tüüpide**&gt;**registreerimine kategooriate** toetatud registreerimise kategooria konkreetses riigis registreerimise tüübi määramiseks.
+## <a name="assign-a-registration-type-to-a-registration-category"></a>Määrake registreerimistüüp registreerimiskategooriale
+Registreerimiskategooria on riigi/regiooni registreerimise identifikaator, mis on heaks kiidetud kasutamiseks kindlas riigis/regioonis maksu-, tolli- ja muul otstarbel. See kategooria määratleb kõnealuse registreerimise ID kinnitusreeglid (nt kontrollnmbrid jne) ja registreerimise ID kaasamise erinevates aruannetes. Kindla riigi registreerimistüübi määramiseks toetatud registreerimiskategooriasse kasutage lehte **Organisatsiooni haldus** &gt; **Globaalne aadressiraamat** &gt; **Registreerimistüübid** &gt; **Registreerimiskategooriad**.
 
 | Väli            | Kirjeldus|
 |-----------------------|----------------|
-| Registreerimise tüüp     | Registreerimise tüüp eelkõige riigi.|
-| Kitsendatud         | Selline piirang kehtib maksu registreerimise tüüp: ükski isik, organisatsioon.|
-| Registreerimiskategooria | Unikaalne registreerimise kood heaks, kasutades. Täielik tugi programmis AX7.1 on kategooriate alla. |
+| Registreerimise tüüp     | Registreerimistüüp kõnealuses riigis/regioonis.|
+| Kitsendatud         | Maksu registreerimistüübile kohaldub piirangu laad: Pole, Isik, Organisatsioon.|
+| Registreerimiskategooria | Riigis kasutamiseks heakskiidetud kordumatu registreerimise identifikaator. Täieliku loendi AX7.1 kategooraites toetatud ID-dest leiate altpoolt. |
 
-## <a name="enter-registration-ids-for-global-address-book-records"></a>Sisestage registreerimise ID-d globaalse aadressiloendi raamatu tarbeks
-Globaalse aadressiraamatu (GAB) Microsoft Dynamics 365 operatsioonide sisaldab konsolideeritud aadressiteavet klientide, hankijate, kontaktid, ärisuhete ja juriidilised isikud. Lisateabe saamiseks vaadake teemat [globaalse aadressiloendi raamatust ülevaate](/dynamics365/operations/organization-administration/overview-global-address-book). Pool kirjed salvestatakse globaalse võib sisaldada ühe või mitme aadressi kirje. Neid aadresse kasutatakse erinevatel eesmärkidel, näiteks arvete või tarnimise jaoks. Saate seadistada aadressi teave klientide, hankijate, töötajate ja juriidiliste isikute registreerimise ID-d. Osapool (juriidiline isik, hankija, klient, töötaja) salvestada soovite sisestada registri-ID ja seejärel klõpsake nuppu Otsi **registreerimise ID-d** vormidel seotud isik, juriidiline isik, hankija, klient, töötaja avamiseks ning **aadresside haldamine** lehel. Kohta ning **maksu registreerimine** vahekaardil, klõpsake **lisa**, ja sisestage järgmine teave registreerimise ID-d.
+## <a name="enter-registration-ids-for-global-address-book-records"></a>Sisestage registreerimise ID-d globaalse aadressiraamatu kirjete puhul
+Rakenduse Microsoft Dynamics 365 for Operations globaalne aadressiraamat (GAB) sisaldab konsolideeritud aadressiteavet klientide, hankijate, kontaktide, ärisuhete ja juriidiliste isikute kohta. Lisateavet vt teemast [Globaalse aadressiraamatu ülevaade](/dynamics365/operations/organization-administration/overview-global-address-book). Osapoole kirjed, mis on salvestatud globaalsesse aadressiraamatusse, võivad sisaldada üht või mitut aadressikirjet. Neid aadresse kasutatakse erinevatel eesmärkidel, näiteks arvete või tarnimise jaoks. Saate määrata aadressiteabe jaoks registreerimise ID-d klientidele, hankijatele, töötajatele ja juriidilistele isikutele. Leidke osapoole (juriidiline isik, hankija, klient, töötaja) kirje, mille jaoks soovite registreerimise ID-d sisestada, ja klõpsake osapoole, juriidilise isiku, hankija, kliendi või töötajaga seotud vormidel valikut **Registreerimise ID-d**, et avada leht **Aadresside haldamine**. Klõpsake vahekaardil **Maksu registreerimine** nuppu **Lisa** ja sisestage registreerimise ID kohta järgmine teave.
 
 |Väli                |Kirjeldus                                                |
 |---------------------|-----------------------------------------------------------|
-| Registreerimise tüüp   | Registreerimise tüüp valitud riigi/regiooni.     |
-| Registreerimiskood | Partei registreerimise ID-d.                                |
-| Kirjeldus         | Kirjeldus registreerimisnumber.               |
-| Lõik             | Lisateavet registreerimisnumber. |
-| Väljaandev asutus      | Registreerimisnumber väljastanud asutus.        |
-| Väljastamise kuupäev         | Väljaantud kuupäeva registreerimisnumbri.              |
-| Jõustunud           | Jõustumiskuupäev registreerimisnumber.           |
-| Aegumine          | Registreerimisnumber aegumiskuupäeva.          |
+| Registreerimise tüüp   | Registreerimistüüp valitud riigis/regioonis.     |
+| Registreerimiskood | Osapoole registreerimise ID.                                |
+| Kirjeldus         | Registreerimisnumbri kirjeldus.               |
+| Lõik             | Lisateave registreerimisnumbri kohta. |
+| Väljaandev asutus      | Registreerimisnumbri väljastanud asutus.        |
+| Väljastamise kuupäev         | Registreerimisnumbri väljastamiskuupäev.              |
+| Jõustunud           | Registreerimisnumbri kehtivuskuupäev.           |
+| Aegumine          | Registreerimisnumbri aegumiskuupäev.          |
 
 > [!NOTE]
-> Käibemaksukohuslase kood õigussubjekt, hankija, klient saab valida registreerimine maksu ID-d km ID seotud ja poole kanda.
+> Juriidilise isiku, hankija või kliendi maksukohuslase koodi saab valida KMKR-iga seotud registreerimise ID-de seast ja osapoole jaoks sisestada.
 
-## <a name="search-for-records-by-registration-id"></a>Otsi kirjeid registreerimise ID järgi
-Otsi Partei kirjed registreerimise ID on saadaval vormidel seotud isik, juriidiline isik, hankija, klient ja töötaja. Klõpsake **registreerimise ID otsingut** avamiseks ning **registreerimise ID otsingu kriteeriumid** lehel. Saate määrata otsingukriteeriumid ja klõpsake **leida**. Süsteem kuvab valitud kirjed alates globaalse ja seotud osapoole kirje kohta.
+## <a name="search-for-records-by-registration-id"></a>Kirjete otsing registreerimise ID alusel
+Osapoolte kirjete otsimine registreerimise ID alusel on võimalik osapoole, juriidilise isiku, hankija, kliendi ja töötajaga seotud vormidel. Klõpsake valikut **Registreerimise ID otsing**, et avada leht **Registreerimise ID otsingukriteeriumid**. Määrake otsingukriteeriumid ja klõpsake nuppu **Leia**. Süsteem kuvab valitud kirjed globaalsest aadressiraamatust ja seostatud tüüpi osapoole kirjed.
 
-## <a name="supported-registration-categories"></a>Toetatud registreerimise kategooriad
-Järgmises tabelis on loetletud toetatud registreerimise tüüpide Dynamics 365 toiminguteks. Kui olete tuttav Microsoft Dynamics AX 2012 väljad registreerimise ID-d, see tabel ka kaardid nende väljade Dynamics 365 toimingute registreerimise puhul.
+## <a name="supported-registration-categories"></a>Toetatud registreerimiskategooriad
+Järgmises tabelis on toodud Dynamics 365 for Operationsis toetatud registreerimistüübid. Kui olete Microsoft Dynamics AX 2012 registreerimise ID väljadega tuttav, leiate sellest tabelist ka nende väljade vasted Dynamics 365 for Operationsi registreerimiskategooriatele.
 
-| Toimingute registreerimine kategooria Dynamics 365         |Riik/regioon  | Dynamics AX 2012 mõiste/välja|
+| Dynamics 365 for Operationsi registreerimiskategooria         |Riik/regioon  | Dynamics AX 2012 mõiste/väli|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| KM-i ID                                                        | Kõikides riikides Euroopa Liidu (EL)|  Maksukohuslase kood (seadusandlikud tüüp AX2012 R3 maksu-ID)|
-| Ettevõtte ID (COID)                                          | Belgia Tšehhi Eesti Ungari Läti Leedu Poola Šveits | Ettevõtte number (EnterpriseNumber) registreerimisnumber (RegNum\_W) registreerimisnumber (RegNum\_W) registreerimisnumber (RegNum\_W) registreerimisnumber (RegNum\_W) ettevõtte kood (EnterpriseCode) registreerimisnumber (RegNum\_W) UID (seadusandlikud tüüp UID AX2012 R3) |
-| Haru ID                                                     | Belgia            | Pangakontori numbri (BranchNumber)|
-| Spisová značka (registreerimisnumber, väljaandev asutus, lõik) | Tšehhi Vabariik     | Vahetükk number (CommercialRegisterInsetNumber) hoitakse kaubanduslikul registreerida äriregistri (CommercialRegisterSection) (CommercialRegister) sektsioon|
-| Tollikliendi ID                                           | Soome | Tolli kliendinumber (CustomsCustomerNumber\_ühendus)|
-| INN                                                           | Venemaa Föderatsioon| INN (seadusandlikud tüüp INN AX2012 R3)|
-| RRC                                                           | Venemaa Föderatsioon| RRC (seadusandlikud tüüp RRC AX2012 R3)|
-| KATEGOORIAD OKDP                                                          | Venemaa Föderatsioon| Kategooriad OKDP (seadusandlik tüüp kategooriad OKDP AX2012 R3)|
-| OKPO                                                          | Venemaa Föderatsioon| OKPO (seadusandlikud tüüp OKPO AX2012 R3)|
-| RCOAD                                                         | Venemaa Föderatsioon| RCOAD (seadusandlik tüüp RCOAD AX2012 R3)|
-| OGRN                                                          | Venemaa Föderatsioon| OGRN (seadusandlik tüüp OGRN AX2012 R3) |
-| SNILS                                                         | Venemaa Föderatsioon| SNILS (seadusandlik tüüp SNILS AX2012 R3)|
-| CIFTS                                                         | Venemaa Föderatsioon| CIFTS (seadusandlik tüüp CIFTS AX2012 R3)|
+| KM-i ID                                                        | Kõik Euroopa Liidu (EL) riigid|  Maksukohuslase kood (seadusjärgset tüüpi TAX ID rakenduses AX2012 R3)|
+| Ettevõtte ID (COID)                                          | Belgia, Tšehhi Vabariik, Eesti, Ungari, Läti, Leedu, Poola, Šveits | Ettevõtte number (EnterpriseNumber) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Ettevõtet kood (EnterpriseCode) Registreerimisnumber (RegNum\_W) UID (Seadusjärgset tüüpi UID rakenduses AX2012 R3) |
+| Haru ID                                                     | Belgia            | Filiaali kood (BranchNumber)|
+| Spisová značka (registreerimisnumber, väljaandev asutus, sektsioon) | Tšehhi Vabariik     | Sisestatud number (CommercialRegisterInsetNumber) Säilitatud äriregistris (CommercialRegister) Äriregistri sektsioon (CommercialRegisterSection)|
+| Tollikliendi ID                                           | Soome | Tollikliendi number (CustomsCustomerNumber\_FI)|
+| INN                                                           | Venemaa Föderatsioon| INN (seadusjärgset tüüpi INN rakenduses AX2012 R3)|
+| RRC                                                           | Venemaa Föderatsioon| RRC (seadusjärgset tüüpi RRC rakenduses AX2012 R3)|
+| OKDP                                                          | Venemaa Föderatsioon| OKDP (seadusjärgset tüüpi OKDP rakenduses AX2012 R3)|
+| OKPO                                                          | Venemaa Föderatsioon| OKPO (seadusjärgset tüüpi OKPO rakenduses AX2012 R3)|
+| RCOAD                                                         | Venemaa Föderatsioon| RCOAD (seadusjärgset tüüpi RCOAD rakenduses AX2012 R3)|
+| OGRN                                                          | Venemaa Föderatsioon| OGRN (seadusjärgset tüüpi OGRN rakenduses AX2012 R3) |
+| SNILS                                                         | Venemaa Föderatsioon| SNILS (seadusjärgset tüüpi SNILS rakenduses AX2012 R3)|
+| CIFTS                                                         | Venemaa Föderatsioon| CIFTS (seadusjärgset tüüpi CIFTS rakenduses AX2012 R3)|
 
-Rohkem infot registreerimise ID-d töötlemiseks, sealhulgas nõutavad eeldused, vt järgmine ülesanne salvestisi KMKR elutsükli teenused (LCS):
+Lisateavet registreerimise ID-de töötlemise kohta, sealhulgas nõutavad eeltingimused, leiate järgmistest elutsükliteenuste (LCS) KMKR-i tegevuste salvestistest.
 
 -   KM ID seadistamine
--   Müüja KMKR registreerimine
+-   Hankija KMKR-i registreerimine
 -    Osapoole otsing KM ID abil
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis tutvustatakse eelarve plaanimist ja see sisaldab teavet, mis aitab teil eelarve plaanimise konfigureerida ning selle protsesse seadistada.
 
 <a name="overview-of-budget-planning"></a>Eelarve plaanimise ülevaade
@@ -34,7 +37,7 @@ Selles artiklis tutvustatakse eelarve plaanimist ja see sisaldab teavet, mis ait
 
 Plaanite eelarvet organisatsiooni juurutatavate eelarvete ettevalmistamisel. Organisatsioon saab eelarve plaanimise konfigureerida ja seejärel seadistada eelarve plaanimise protsessid, et need vastaksid eelarve ettevalmistamise poliitikatele, protseduuridele ja nõuetele. 
 
-Kui sa mõistad mõistete ja terminoloogiaga, mida kasutatakse Microsoft Dynamics 365, oleks lihtsam eelarve planeerimise organisatsioonis rakendada.
+Kui mõistate Microsoft Dynamics 365 for Operationsis kasutatavaid mõisteid ja terminoloogiat, on teil lihtsam oma organisatsioonis eelarve plaanimist rakendada.
 
 ### <a name="key-terms"></a>Põhimõisted
 
@@ -44,7 +47,7 @@ Kui sa mõistad mõistete ja terminoloogiaga, mida kasutatakse Microsoft Dynamic
 -   **Eelarve plaanimise etapid** – eelarve plaanimise etapid määratlevad etapid, mida eelarveplaan jõustumisest kuni lõpliku kinnitamiseni järgib. Eelarve planeerimise etapid korraldatakse eelarve planeerimise töövoogudes.
 -   **Eelarve plaanimise töövood** – eelarve plaanimise töövood koosnevad eelarve plaanimise etappidest ja määravad need. Eelarve plaanimise töövood on seotud eelarvestuse töövoogudega. Eelarvestuse töövood on automatiseeritud ja käsitsi protsessid, mis liigutavad eelarveplaane läbi eelarve plaanimise etappide.
 
-[![Eelarve planeerimise terminoloogia](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Eelarve plaanimise terminoloogia](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="common-tasks"></a>Üldised ülesanded
 
@@ -55,7 +58,7 @@ Eelarve plaanimise abil saate täita järgmisi ülesandeid.
 -   Eelarveplaanide automaatne saatmine koos töölehtede, põhjendusdokumentide ja muude manustega ülevaatamiseks ja kinnitamiseks.
 -   Mitme eelarveplaani konsolideerimine organisatsiooni madalamalt tasemelt ühte pea-eelarveplaani organisatsiooni kõrgemal tasemel. Saate ka välja arendada üksiku eelarveplaani organisatsiooni kõrgemal tasemel eraldada eelarve organisatsiooni madalamatele tasemetele.
 
-Eelarve planeerimine on integreeritud teiste Microsoft Dynamics 365 toimingute moodulid. Seetõttu saab teavet tuua eelmistest eelarvetest, tegelikest kuludest, põhivaradest ja inimressurssidest. Kuna eelarve plaanimine on integreeritud ka Microsoft Excelisse ja Microsoft Wordi, saate neid programme kasutada eelarve plaanimise andmetega töötamiseks. Näiteks saab eelarvehaldur eksportida mõne osakonna eelarvetaotluse eelarveplaani stsenaariumist Exceli töölehele. Andmeid saab analüüsida, värskendada ja kanda diagrammina töölehele ning seejärel avaldada tagasi eelarveplaani ridadele.
+Eelarve plaanimine on integreeritud teiste Microsoft Dynamics 365 for Operationsi moodulitega. Seetõttu saab teavet tuua eelmistest eelarvetest, tegelikest kuludest, põhivaradest ja inimressurssidest. Kuna eelarve plaanimine on integreeritud ka Microsoft Excelisse ja Microsoft Wordi, saate neid programme kasutada eelarve plaanimise andmetega töötamiseks. Näiteks saab eelarvehaldur eksportida mõne osakonna eelarvetaotluse eelarveplaani stsenaariumist Exceli töölehele. Andmeid saab analüüsida, värskendada ja kanda diagrammina töölehele ning seejärel avaldada tagasi eelarveplaani ridadele.
 
 ## <a name="configuring-budget-planning"></a>Eelarve planeerimise konfigureerimine
 Leht **Eelarve plaanimise konfiguratsioon** sisaldab enamikku sätteid, mida vajate eelarve plaanimise seadistamiseks. Järgmistes jaotistes kirjeldatakse mõnd põhitegurit, millega peaksite eelarve plaanimise konfigureerimisel arvestama. Pärast konfiguratsiooni lõpetamist saate eelarve plaanimise protsessid seadistada.
@@ -64,11 +67,11 @@ Leht **Eelarve plaanimise konfiguratsioon** sisaldab enamikku sätteid, mida vaj
 
 Valikuline, kuid soovitatav esimene etapp on skeemi loomine, mis näitab teie organisatsiooni protseduuri eelarve koostamiseks. Saate selle skeemi loomiseks kasutada mis tahes meetodit. Järgmisel joonisel on toodud üldine näide, kus organisatsiooni eri tasemete puhul luuakse eraldi eelarve plaanimise töövood. Etapid on määratletud igas töövoos ja konkreetsed stsenaariumid on määratud eelarveandmete hoidmiseks igale etapile. Ülesandeid täidetakse andmete teisaldamiseks ühest etapist järgmisse. Näiteks saate summad eraldada või liita eri kontodele, kinnitustele või muudele ülevaatustele. Selles näites viitab kursiivkirjas tekst stsenaariumile, mis pole etapi käigus muudetav või andmetele, mis on ajaloolised või etapis varem kinnitatud ja mida ei tohiks seega muuta. 
 
-[![Eelarve planeerimise üldine skeem](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Eelarve plaanimise üldine skeem](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
-Järgmises näites firma peakorteri hinnangul esialgse ravi eelarvesummade ning suunab need müügi suhtes. Müügiosakonnad hindavad ja esitavad seejärel oma prognoosi uuesti peakorteritele, kus eelarve haldur prognoosi koondab ja seda kohandab. Lõpuks saadab eelarve haldur kohandatud eelarvesummad CFO-le ülevaatamiseks, lõplikuks korrigeerimiseks ja kinnitamiseks. 
+Järgmises näites hindab ettevõtte peakontor algse eelarve lähtesummasid ja jaotab need müügiosakondade vahel. Müügiosakonnad hindavad ja esitavad seejärel oma prognoosi uuesti peakorteritele, kus eelarve haldur prognoosi koondab ja seda kohandab. Lõpuks saadab eelarve haldur kohandatud eelarvesummad CFO-le ülevaatamiseks, lõplikuks korrigeerimiseks ja kinnitamiseks. 
 
-[![Eelarve planeerimise skeemi näide](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Eelarve plaanimise skeemi näide](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ###  <a name="organization-hierarchy-for-budget-planning"></a>Organisatsiooni hierarhia eelarve plaanimiseks
 
@@ -84,17 +87,17 @@ Eelarve plaanimine saab kasutajaõiguste määramiseks jälgida ühte kahest tur
 
 Eelarve plaanimise töövooge kasutatakse koos eelarvestuse töövoogudega eelarveplaanide loomise ja aredamise haldamiseks.
 
-Eelarve planeerimise töövoog koosneb järjestatud etappidest, mille eelarveplaan läbib. Iga eelarve plaanimise töövoog on seotud eelarvestuse töövooga. Eelarvestamise töövood on üks töövoo tüüpi, mida kasutatakse Microsoft Dynamics 365 kogu tegevust. Eelarvestuse töövoog suunab eelarveplaani koos töölehtede, põhjenduste ja manustega organisatsioonile ülevaatamiseks ja kinnitamiseks. 
+Eelarve planeerimise töövoog koosneb järjestatud etappidest, mille eelarveplaan läbib. Iga eelarve plaanimise töövoog on seotud eelarvestuse töövooga. Eelarvestuse töövood on töövoo tüüp, mida kasutatakse kogu Microsoft Dynamics 365 for Operationsis. Eelarvestuse töövoog suunab eelarveplaani koos töölehtede, põhjenduste ja manustega organisatsioonile ülevaatamiseks ja kinnitamiseks. 
 
 Saate luua eelarve plaanimise töövoo jaotises **Töövooetapid** lehel **Eelarve plaanimise konfiguratsioon**. Seal saate valida etapid ja kasutatava eelarvestamise töövoo ja konfigureerida täiendavad sätted. 
 
 Hea tava on luua eelarve plaanimise töövoog eelarvestamise hierarhia igal tasandil. Seejärel määrake eelarvestamise töövoog, mis sisaldab eelarve plaanimise töövoo etappidele vastavaid elemente. Selles artiklis varem kuvatud näidisskeemis luuakse üks eelarve plaanimise töövoog müügiosakondade puhul ja teine peakorterite puhul. Eelarvestuse töövoog teisaldab eelarveplaane etappide kaudu. 
 
-Saate luua eelarvestamise töövoo eelarve plaanimise puhul lehel **Eelarvestuse töövood**. Protsess sarnaneb teiste töövoogude loomiseks Microsoft Dynamics 365 operatsioonide protsessi. Järgmisel joonisel on toodud peakorteri töövoo näide. 
+Saate luua eelarvestamise töövoo eelarve plaanimise puhul lehel **Eelarvestuse töövood**. Protsess sarnaneb Microsoft Dynamics 365 for Operationsis muude töövoogude loomise protsessiga. Järgmisel joonisel on toodud peakorteri töövoo näide. 
 
-[![Eelarvestamise töövoo eelarve planeerimine](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Eelarvestuse töövoog eelarve plaanimiseks](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
-Töövoog sisaldab elemente müügi osakondade ja koondada oma esildised, läbi eelarve juht, Finantsdirektor heakskiidu ja etapi üleminekud Freinet. 
+Töövoog sisaldab elemente müügiosakondadele eraldamiseks ja nende esitamiste koondamiseks, eelarvehalduri ülevaatust, CFO heakskiitu ja etapi üleminekuid iga etapi vahel. 
 
 Saate määrata eelarvestamise töövoo igale eelarve plaanimise töövoole jaotises **Töövooetapid** lehel **Eelarve plaanimise konfiguratsioon**.
 
@@ -112,8 +115,8 @@ Eelarve plaanimisel saate eraldada eelarveplaani ridade summad või kogused ühe
 
 Eraldamisgraafikud eraldavad automaatselt töövoo töötlemise ajal eelarveplaani read. Saate eraldada, kasutades loendi **Eraldamismeetod** mis tahes järgmist meetodit.
 
--   **Eralda perioodide lõikes** – saate kasutada perioodi eraldamisvõtit eelarveplaani ridade eraldamiseks algsest eelarveplaani stsenaariumist sihtstsenaariumi perioodide lõikes. **Märkus:** enne kogu perioodidel, peate seadistama Perioodi eraldamisvõtmed kohta on *** perioodi kategooriad *** lehekülg.
--   **Eralda dimensioonidele** – eelarveplaani read eraldatakse algsest eelarveplaani stsenaariumist sihtstsenaariumi finantsdimensioonide lõikes. **Märkus:** enne mõõtmed, peate seadistama eelarve eraldamise tingimuste kohta ning *** eelarve jaotuse tingimused *** lehte.
+-   **Eralda perioodide lõikes** – saate kasutada perioodi eraldamisvõtit eelarveplaani ridade eraldamiseks algsest eelarveplaani stsenaariumist sihtstsenaariumi perioodide lõikes. **Märkus.** Enne perioodide lõikes eraldamist peate seadistama perioodi eraldusvõtmed lehel ****Perioodi eraldamise kategooriad****.
+-   **Eralda dimensioonidele** – eelarveplaani read eraldatakse algsest eelarveplaani stsenaariumist sihtstsenaariumi finantsdimensioonide lõikes. **Märkus.** Enne dimensioonidele eraldamist peate seadistama eelarve eraldustingimused lehel ****Eelarve eraldustingimused****.
 -   **Koonda** – eelarveplaani read koondatakse seostatud eelarveplaanide algsest eelarveplaani stsenaariumist eelarve emaplaani sihtstsenaariumisse.
 -   **Jaota** – eelarveplaani read jaotatakse eelarve emaplaani algse eelarveplaani stsenaariumist seostatud eelarveplaanide sihtstsenaariumisse.
 -   **Kasuta pearaamatu eraldamisreegleid** – eelarveplaani read jaotatakse algse eelarveplaani stsenaariumist sihtstsenaariumisse valitud pearaamatu eraldamisreegli põhjal.
@@ -123,15 +126,15 @@ Eraldamisgraafikud eraldavad automaatselt töövoo töötlemise ajal eelarveplaa
 
 Etapi eraldamisi kasutatakse töövoo töötlemise ajal eelarveplaani ridade automaatseks eraldamiseks. Etapi eraldamiste kasutamisel saab sihtstsenaariumi eelarveplaani ridu luua ja muuta ilma eelarveplaani ettevalmistaja või ülevaataja sekkumiseta.
 
-Etapi eraldamise seadistamisel seostage eelarve planeerimise töövoog ja etapp eraldamisgraafikuga. Töövoo eelarveprogrammi tuleb seostada eelarve koostamise töövoog, mis kasutab ka *** eelarve planeerimise etapp jaotamise *** automatiseeritud töövooülesande. Kui töövoog jõuab määratud etappi, toimub eraldamine automaatselt. Seda automatiseeritud ülesannet saab kasutada uues stsenaariumis eelarveplaani ridade loomiseks. 
+Etapi eraldamise seadistamisel seostage eelarve planeerimise töövoog ja etapp eraldamisgraafikuga. Eelarve plaanimise töövoog tuleb seostada eelarvestuse töövooga, mis kasutab automatiseeritud töövoo ülesannet ****Eelarve plaanimise etapi eraldamine****. Kui töövoog jõuab määratud etappi, toimub eraldamine automaatselt. Seda automatiseeritud ülesannet saab kasutada uues stsenaariumis eelarveplaani ridade loomiseks. 
 
 Selles artiklis varem kuvatud näidisskeemis tehakse eraldamine eelarveplaani summade ja peakorterite alusetapi stsenaariumide üleviimiseks teise eelarveplaani ja stsenaariumidesse müügiosakonna hinnangu etapis. Järgmisel joonisel kuvatakse näidisskeemi asjakohane jaotis.
 
-[![Etapi saastekvootide eraldamise](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Etapi eraldamine](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
-Lisaks skeemi näide mitmest tehakse eelarve ja stsenaariumid müügiosakonnaga esitatavad etapp vanema kava HQ värskenduskomplekti etapis. Järgmisel joonisel kuvatakse näidisskeemi asjakohane jaotis.
+Peale selle tehakse näidisskeemis koondamine müügiosakonna edastatud etapi eelarveplaanidest ja stsenaariumidest peakontori ümberarvestuse etapi emaplaani. Järgmisel joonisel kuvatakse näidisskeemi asjakohane jaotis.
 
-[![Aggregation](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Liitmine](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Prioriteedid
 
@@ -149,9 +152,9 @@ Lisaks eelarvesummade veergudele saate määratleda veerud projekti, pakutava pr
 
 Näidisskeemi puhul võite soovida luua veerge PY müügi, lepingute ja prognoosi stsenaariumide puhul (järgmisel joonisel on kujutatud skeemi asjakohane jaotis). Seejärel saate jaotada ühe või kõik neist stsenaariumidest eraldi veergudesse rahandusaasta kvartalite kaupa nii, et müügiosakonna juhataja saab iga perioodi eelarvesummad täpselt sisestada.
 
-[![Columns](./media/columns.png)](./media/columns.png) 
+[![Veerud](./media/columns.png)](./media/columns.png) 
 
-Samuti määrate, kas iga paigutus element (veerg) saab redigeerida ja kas on esitatud kõik vastava paigutuse jaoks loodud mallid. Näidisskeemi puhul on hinnangu etapi puhul kasutatud paigutuses eelarve veerud redigeeritavad, samas kui PY müügi ja lepingute veerud on kirjutuskaitstud.
+Saate ka määrata iga paigutuselemendi (veeru) redigeeritavuse ja selle, kas veerg on saadaval igas selle paigutuse puhul loodud töölehe mallis. Näidisskeemi puhul on hinnangu etapi puhul kasutatud paigutuses eelarve veerud redigeeritavad, samas kui PY müügi ja lepingute veerud on kirjutuskaitstud.
 
 ### <a name="templates"></a>Mallid
 
@@ -160,7 +163,7 @@ Jaotises **Paigutused** lehel **Eelarve plaanimise konfiguratsioon** saate ka lu
 Saate malli luua, seda vaadata või üles laadida iga paigutuse puhul. Malli loomisel paigutus lukustatakse ja seda ei saa redigeerida. See lukustamine aitab tagada, et malli vorming ühtib eelarveplaani paigutusega ja sisaldab samu andmeid. Pärast malli loomist saab seda vaadata ja redigeerida. Näiteks saate malli diagramme lisada või selle ilmet täiendavalt kohandada.
 
 > [!NOTE] 
-> Mall salvestatakse asukohta, mis kasutaja on juurdepääsu, nii, et see saab üles laadida paigutuse pärast redigeerimise lõpuleviimist. Nii kasutatakse malli paigutust kasutavates eelarveplaanides.
+> Mall tuleks salvestada asukohta, kuhu kasutajal on juurdepääs, nii et selle saaks pärast redigeerimise lõpetamist paigutusse üles laadida. Nii kasutatakse malli paigutust kasutavates eelarveplaanides.
 
 ### <a name="descriptions"></a>Kirjeldused
 
@@ -184,6 +187,8 @@ Menüüs **Tegevused** saate luua ka uue protsessi, kopeerides olemasoleva prots
 
 Teine kasulik käsk menüüs **Tegevused** on **Kuva eelarve protsessi olekut**. See käsk kuvab graafiliselt protsessi eelarveplaanid koos asjakohaste andmetega, nagu plaani töövoo olek, kokkuvõtted summa ja ühiku järgi ja ühe klõpsuga navigeerimine eelarveplaanidele.
 
-[![Budget planning process status](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Eelarve plaanimise protsessi olek](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
 
 

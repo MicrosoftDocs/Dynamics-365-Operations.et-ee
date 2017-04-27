@@ -1,6 +1,6 @@
 ---
-title: "Töölehe ridade ja Exceli dokumente"
-description: "See teema selgitab, kuidas sisestada ja avaldada üldist Microsoft Exceli töölehtede read. See sisaldab teavet erinevate Mallid, mille abil saab, sõltuvalt tehingute sisestamise."
+title: "Tööleheridade ja dokumentide avaldamine Excelist"
+description: "See teema selgitab, kuidas sisestada ja avaldada päevaraamatute ridasid Microsoft Excelist. See sisaldab ka teavet mitmesuguste mallide kohta, mida sisestatava kande tüübist olenevalt kasutada saate."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,28 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="publish-journal-lines-and-documents-from-excel"></a>Töölehe ridade ja Exceli dokumente
+# <a name="publish-journal-lines-and-documents-from-excel"></a>Tööleheridade ja dokumentide avaldamine Excelist
 
-See teema selgitab, kuidas sisestada ja avaldada üldist Microsoft Exceli töölehtede read. See sisaldab teavet erinevate Mallid, mille abil saab, sõltuvalt tehingute sisestamise.
+See teema selgitab, kuidas sisestada ja avaldada päevaraamatute ridasid Microsoft Excelist. See sisaldab ka teavet mitmesuguste mallide kohta, mida sisestatava kande tüübist olenevalt kasutada saate.
 
-Kasutajad saavad sisestada ja avaldada finants Microsoft Exceli töölehtede read. Pärast seda, kui kasutaja loob žurnaali, mille **ridade Excelis avada** nuppu kuvatakse saadaolevaid malle. Malle on teatud olukordades, mitte aga iga liigi kombinatsioon toetab ajakirja toetada. Järgmine tabel näitab saadaolevaid malle ja need toetavad kontotüüpide.
+Kasutajad saavad sisestada ja avaldada finantstöölehtede ridu Microsoft Excelist. Pärast töölehe loomist kuvab nupp **Ava read Excelis** saadaolevad mallid. Mallid on mõeldud konkreetsete stsenaariumide toetamiseks, kuid töölehel ei toetata iga kontotüübi kombinatsiooni. Järgmises tabelis on näidatud saadaolevad mallid ja kontotüübid, mida need toetavad.
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Template**             | **Toetatud tüübid**                                                                                             | **Kuidas on võimalik saada Mall**                                                          |
-| Pearaamatu töölehe read     | Konto: Pearaamatu, kliendi, hankija, panga korvata konto: pearaamatu, kliendi, hankija, panga IC on toetatud.       | Päevaraamat                                                                         |
-| Arveregister         | Konto: Hankija vastaskonto: pearaamatu IC ei toetata.                                                    | AP arve register                                                                     |
-| Arve tööleht          | Ettevõtted: Hankija vastaskonto: pearaamatu IC on toetatud.                                                      | AP arve tööleht                                                                      |
+| **Mall**             | **Toetatud kontotüübid**                                                                                             | **Mallile juurdepääsemise viis**                                                          |
+| Pearaamatu töölehe read     | Toetatakse järgmisi. Konto: Pearaamat, Klient, Hankija, Pank Vastaskonto: Pearaamat, Klient, Hankija, Kontsernisisene pank.       | Päevaraamat                                                                         |
+| Arveregister         | Ei toetata järgmisi. Konto: Hankija Vastaskonto: Kontsernisisene pearaamat.                                                    | AP-arveregister                                                                     |
+| Arve tööleht          | Toetatakse järgmisi. Kontod: Hankija Vastaskonto: Kontsernisisene pearaamat.                                                      | AP arve tööleht                                                                      |
 | Hankija arve           |                                                                                                                         | Hankija arve                                                                          |
-| Kliendiarvete tööleht | : Konto kliendi nihe: pearaamatu IC on toetatud.                                                     | Päevaraamat                                                                         |
-| Vabas vormis arve        |                                                                                                                         | Kohta ning **vabas vormis arve** klõpsake valikul **Excelis avatud** (Microsoft Office ikoon). |
-| Põhivarade tööleht     | Vara pearaamatu, panga, kliendi või hankija. IC ei toetata.                                               | Põhivara tööleht                                                                     |
-| Hankija maksetööleht   | Konto: Hankija vastaskonto: pearaamatu, panga IC on toetatud.                                                 | Hankija maksetööleht                                                                  |
-| Kliendimaksete tööleht | : Konto kliendi nihe: pearaamatu, panga IC on toetatud.                                               | Kliendimaksete tööleht                                                                |
-| Projektikulu tööleht  | Konto: Projekti, pearaamatu, kliendi, hankija vastaskonto kontole: projekti, pearaamatu, kliendi, hankija IC on toetatud. | Peažurnaali kulu (all projektihaldus ja raamatupidamine)                       |
+| Kliendiarvete tööleht | Toetatakse järgmisi. Konto: Kliendi Vastaskonto: Kontsernisisene pearaamat.                                                     | Päevaraamat                                                                         |
+| Vabas vormis arve        |                                                                                                                         | Klõpsake lehel **Vabas vormis arve** valikut **Ava Excelis** (Microsoft Office’i ikoon). |
+| Põhivarade tööleht     | Pearaamatu, panga, kliendi või hankija vara. Kontsernisisest ei toetata.                                               | Põhivara tööleht                                                                     |
+| Hankija maksetööleht   | Toetatakse järgmisi. Konto: Hankija Vastaskonto: Pearaamat, Kontsernisisene pank.                                                 | Hankija maksetööleht                                                                  |
+| Kliendimaksete tööleht | Toetatakse järgmisi. Konto: Kliendi Vastaskonto: Pearaamat, Kontsernisisene pank.                                               | Kliendimaksete tööleht                                                                |
+| Projektikulu tööleht  | Toetatakse järgmisi. Konto: Projekt, Pearaamat, Klient, Hankija Vastaskonto: Projekt, Pearaamat, Klient, Hankija, Kontsernisisene. | Päevaraamatu kulu (jaotises Projektihaldus ja raamatupidamine).                       |
 
-Ridade avaldamisel andmed on kinnitatud tagada nende vastavus seatud rahalist töölehtedel eeskirju. Pärast seda, kui avaldatakse read, kasutajad saavad redigeerida või sisestada kandeid Microsoft Dynamics 365 toiminguteks. 
+Kui read on avaldatud, siis neid kontrollitakse, veendumaks, et need vastavad finantstöölehtedel seadistatud reeglitele. Pärast ridade avaldamist saavad kasutajad redigeerida või sisestada kandeid Microsoft Dynamics 365 for Operationsist. 
 
-Lisamiseks mallile finantsdimensioonide nõutakse täiendavaid muudatusi. Lisateabe saamiseks vaadake [mõõtmed lisamine Microsoft Exceli malli](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Kui ettevõte on lisatud dimensioonid, on saadaval Excel disainer ja saab lisada malli.
+Finantsdimensioonide lisamiseks mallile on vajalikud täiendavad muudatused. Lisateavet leiate jaotisest [Dimensioonide lisamine Microsoft Exceli mallile](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Pärast seda, kui üksusele on dimensioonid lisatud, on need Exceli kujundajas saadaval ja neid saab mallile lisada.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Standard kulude kalkulatsioonid
+title: Standardsete kuludega koosluse kalkulatsioonid
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>Standard kulude kalkulatsioonid
+# <a name="bom-calculations-with-standard-costs"></a>Standardsete kuludega koosluse kalkulatsioonid
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -78,6 +81,8 @@ Standardkulu koosluse kalkulatsioonis kasutatav kulu versiooni teave hõlmab:
 -   Kuluversiooni sisu peab sisaldama kulusid ? sisu peab sisaldama kulusid. Valikuliselt võib see sisaldada ka müügihindasid soovitatud müügihindade kalkuleerimiseks toodetud kaupadele.
 
 Mitmed teabeallikaid saab määrata koosluse kalkulatsiooni algatamisel. See sisaldab laoala, kalkulatsiooni kuupäeva ja kuluversiooni.
+
+
 
 
 

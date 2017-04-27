@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Kulumiarvutuste ümardatav summa
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel käsitleb kulumi ümardamise välja raamatu seadistamise lehtedel.
 
-Kulumi ümardamine summad on esitatud iga raamat. Kulumi ümardamine summad kasutatakse tulevase kulumi ja väärtuse põhivara põhivara kulumireegli, samuti kulumisoovitusi. Sisestage väikseim raamatu puhul lubatud kulumisumma. 
+Kulumi ümardamise summad seadistatakse igale raamatule. Kulumi ümardamise summasid kasutatakse põhivara kulumireeglites, kus näidatakse edaspidist kulumit ja põhivara väärtust, samuti kulumisoovitustes. Sisestage väikseim raamatu puhul lubatud kulumisumma. 
 
 Olenemata ümardamise seadistusest ei ümardata viimase kulumiperioodi kulumisummat. Viimase kulumiperioodi lõpus peab põhivara väärtus olema 0 (null) või mahakandmismaksumus, kui mahakandmismaksumust kasutatakse.
 
@@ -43,6 +46,8 @@ Kulum ilma ümardamiseta arvutatakse kui 2444,44. Nagu tabelist näha, varieeruv
 | Ümardamine 1,00   | 2444,00            |
 | Ümardamine 10,00  | 2440,00            |
 | Ümardamine 100,00 | 2400,00            |
+
+
 
 
 

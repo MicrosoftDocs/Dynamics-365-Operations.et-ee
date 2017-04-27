@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="position-forecasting"></a>Ametikoha prognoosimine
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Töötajatega seotud kulud moodustavad tihti suure osa organisatsiooni kuludest. Ametikoha prognoosimine võimaldab teil neid kulusid planeerida ja kaasata need eelaarvete planeerimisse.
 
 ## <a name="position-forecasting-in-budget-planning"></a>Ametikoha prognoosimine eelarve planeerimisel
 
-[![Graafilised top](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Graafiku ülaosa](./media/graphic-top.png)](./media/graphic-top.png) 
 
-Seisukoha prognoosimise kasutab kolme koostisosa täpsed eelarve summad positsiooni kulud. Need summad saab siis tuua eelarveplaani eelarve arvutamiseks. 
+Ametikoha prognoosimine kasutab kolme põhikomponenti, et anda ametikoha kulude kohta täpsed eelarvesummad. Need summad saab siis tuua eelarveplaani eelarve arvutamiseks. 
 
 Esmane komponent on **prognoositav ametikoht**, mis esindab kõiki ühe ametikohaga seotud kuluandmeid. Saate luua prognoositavast ametikohast mitu versiooni, määrates igale versioonile erinva eelarveplaani stsenaariumi. Mitu versiooni võimaldavad eelarve koostamisele iteratiivselt läheneda ja teil võimalikke stsenaariume võrrelda. Igal prognoositaval ametikohal on inimressurssides vastav positsioon.
 
@@ -47,7 +50,7 @@ Esmane komponent on **prognoositav ametikoht**, mis esindab kõiki ühe ametikoh
 
 [![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
-Tüüpiline protsess asukoha planeerimiseks, loote setup komponendid (eelarve kulude ja hüvitist). Seejärel luuakse olemasolevate ametikohtade alusel prognoositavad ametikohad. Seejärel saate korrigeerida. Näiteks saate ametikohti lisada või lõpetada, muuta tasumäärasid ja soodustusi ning lisada palgatõuse. Saate luua prognoositavast ametikohast mitu versiooni, et lihtsustada erinevate eelarve koostamise stsenaariumide võrdlemist. Seejärel saate lisada prognoositavad ametikohad eelarveplaanidesse ja tuua sisse prognoostavate ametikohtade kulud eelarveplaani ridadena.
+Tavapärase ametikoha prognoosimise protsessis loote esmalt häälestuskomponendid (eelarve kuluelemendid ja hüvitusgrupid). Seejärel luuakse olemasolevate ametikohtade alusel prognoositavad ametikohad. Seejärel saate korrigeerida. Näiteks saate ametikohti lisada või lõpetada, muuta tasumäärasid ja soodustusi ning lisada palgatõuse. Saate luua prognoositavast ametikohast mitu versiooni, et lihtsustada erinevate eelarve koostamise stsenaariumide võrdlemist. Seejärel saate lisada prognoositavad ametikohad eelarveplaanidesse ja tuua sisse prognoostavate ametikohtade kulud eelarveplaani ridadena.
 
 Eelarveplaanide läbivaatusel saate luua täiendavaid prognoositava ametikoha versioone. Uued versioonid on paranduste aluseks.
 
@@ -64,9 +67,9 @@ Eelarve kuluelemendi kulu summa arvutamine kasutab jõustumiskuupäevi, et võim
 
 Kui kuluelement põhineb protsendil, peate määrama eelarve kuluelemendid, mida kasutatakse arvutuse alusena.
 
-**Example** 
+**Näide** 
 
-Jodi on organisatsioon pakub on koolituse toetus töötaja alus maksma 5%. Jodi soovib luua selle kulu kohta eelarve kuluelementi. Ta loob uue eelarve kuluelemendi ja määrab eelarve kulu tüübiks **Soodustus**.
+Jodi organisatsioon pakub koolitushüvitist, mis on 5% töötaja põhipalgast. Jodi soovib luua selle kulu kohta eelarve kuluelementi. Ta loob uue eelarve kuluelemendi ja määrab eelarve kulu tüübiks **Soodustus**.
 
 Jodi ei soovi, et haldurid soodustuse summat muudaksid. Seetõttu valib ta suvandi **Ära luba kulu muuta** väljal **Prognoositava ametikoha alistamine**. Organisatsioon soovib, et seda kulu määrataks iga kuu kohta võrdselt. Seetõttu valib Jodi suvandi **Kord kvartalis** väljal **Eraldamismeetod**. 
 
@@ -82,7 +85,7 @@ Hüvitusgruppide põhifunktsioon on prognoositavale ametikohale eelarve kuluelem
 
 Hüvitusgrupid võivad määrata prognoositava ametikoha tulumäärad. Seadistate grupi prognoositava ametikoha tulu arvutamisel kasutama kas tunni- või aastapalgapõhisust. Vahekaardil **Hüvitusmäära tabelid** määrab tasumäärade hüvitusruudustik määatud taseme ja häälestuse alusel tulud, mis lisatakse prognoositavale ametikohale. Ruudustikud võivad põhineda inimressurssides olemasolevatel hüvitusruudustikel. Teise võimalusena saate luua eelarve planeerimiseks uued hüvitusruudustikud. 
 
-Hüvitusmäära tabelites olevad kehtivuskuupäevad ja aegumiskuupäevad võimaldavad teil muuta tasumäärasid mis tahes kuupäeval. See funktsioon on kasulik, kui keset eelarvetsüklit on kaubandusüksus kokku leppinud üldises tõusus. Sel juhul muuta olemasoleva tabeli lõppemise päeva enne muutunud hinda ja lisada uue määra tabeli, mis algab uus. Kui loote uue määra tabeli, kui valite **luua uue hüvitise ruudustiku olemasoleva võrgu**, valige Määra sihttabelisse inimressursse. Loodud määratabelis võimaldab suvand **Massmuudatus** rakendada kõikidele ruudustikus olevatele määradele protsendi või kindla summa võrra tõusu või langust. 
+Hüvitusmäära tabelites olevad kehtivuskuupäevad ja aegumiskuupäevad võimaldavad teil muuta tasumäärasid mis tahes kuupäeval. See funktsioon on kasulik, kui keset eelarvetsüklit on kaubandusüksus kokku leppinud üldises tõusus. Sellisel juhul muudate olemasoleva tabeli aegumiskuupäeva määra muutmisele eelnenud kuupäevaks ja lisate uue määratabeli, mis algab uuel kuupäeval. Kui valite uue määratabeli loomisel suvandi **Loo uus hüvitusruudustik olemasolevast ruudustikust**, saate valida inimressurssidest olemasoleva määratabeli. Loodud määratabelis võimaldab suvand **Massmuudatus** rakendada kõikidele ruudustikus olevatele määradele protsendi või kindla summa võrra tõusu või langust. 
 
 Hüvitusgrupi välju **Tõusu graafik** ja **Tõusu kuupäev** kasutatakse, kui peate looma tasu tõusu, sest ametikohad lähevad ühelt etapilt järgmisele. Iga-aastane tasu tõus on tavapärane stsenaarium. Tõusu graafik määrab, kas etapi tõusuks kasutatakse ametikoha aastapäeva või üht ühist kuupäeva. Tõusu graafik rakendub kõikidele hüvitusgrupi prognoositavatele ametikohtadele. 
 
@@ -93,7 +96,7 @@ Hüvitusgrupis valitud tulu kuluelementi kasutatakse grupi prognoositavate ameti
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Olemasolevatele ametikohtadele prognoositavate ametikohtade loomine
 
-Kõige täpsem eelarve kavandamise, saate luua eelarve positsioonide üksikasjad abil Microsoft Dynamics 365 positsioonide puhul olenemata sellest, kas asukoht on praegu täidetud või täitmata. 
+Kõige täpsema eelarve planeerimise jaoks saate luua prognoositavaid ametikohti, kasutades üksikasju olemasolevatest ametikohtadest Microsoft Dynamics 365 for Operationsis, olenemata sellest, kas ametikoht on praegu täidetud või mitte. 
 
 Funktsioon **Lisa olemasolevad ametikohad** kuvab kõik organisatsiooni ametikohad. Seadistades kuupäeva** Seisuga**, saate muuta ametikohtade loendit, nii et see sisaldab ametikohti, mis olid olemas kuupäeval minevikus või enamasti tulevikus (näiteks järgmise eelarvetsükli algus). Valige eelarve plaanimise protsess ja eelarveplaani stsenaarium, valige loendist ametikohad ja klõpsake siis nuppu **OK**, et luua valitud ametikohtadele prognoositavad ametikohad. Arvestage sellega, et saate luua igale eelarve plaanimise protsessi ja eelarveplaani stsenaariumis olemasolevale ametikohale ainult ühe prognoositava ametikoha. Sellegipoolest saate luua lisaversioone, määrates erinevaid eelarveplaani stsenaariume. 
 
@@ -103,11 +106,11 @@ Kui eelarve kuluelement on valitud, on põhipalga aastane summa määratud progn
 
 Kui suvand **Määra hüvitusgrupp** on seatud olekusse **Jah**, kui ametikohale määratud töötajal on etapipõhine põhipalgaplaan, mis on seotud hüvitusgrupiga (nagu varem kirjeldatud), määratakse töötaja tase ja etapp prognoositavale ametikohale koos hüvitusgrupiga. Hüvitusgrupi tulude eelarve kuluelement lisatakse prognoositavale ametikohale ning kasutatakse taseme tasumäära ja hüvitusgrupi etappi. 
 
-Suvandi **Määra hüvitusgrupp** säte alistab sätte **Eelarve kuluelemendi määramine**. Samal ajal saab kaks. 
+Suvandi **Määra hüvitusgrupp** säte alistab sätte **Eelarve kuluelemendi määramine**. Kahte sätet saab kasutada korraga. 
 
 [![graphic4](./media/graphic4.png)](./media/graphic4.png) 
 
-Teine võimalus on määrata allakirjutamise kuupäevast. Määratud töötaja valitud kuupäev (kohandatud alguskuupäev, töötaja alguskuupäev, töösuhte alguskuupäev või staaži kuupäev) määratakse prognoositava ametikoha tähtpäeva kuupäevaks ja seda kasutatakse teabe saamiseks ja palgatõusu loomisel.
+Teine võimalus on määrata tähtpäeva kuupäev. Määratud töötaja valitud kuupäev (kohandatud alguskuupäev, töötaja alguskuupäev, töösuhte alguskuupäev või staaži kuupäev) määratakse prognoositava ametikoha tähtpäeva kuupäevaks ja seda kasutatakse teabe saamiseks ja palgatõusu loomisel.
 
 ### <a name="creating-new-forecast-positions"></a>Uute prognoositavate ametikohtade loomine
 
@@ -138,9 +141,9 @@ Näiteks eelarve kuluelemendi rida alates 1. jaanuarist 2017 kuni 30. juunini 20
 
 Eelarve kuluelemendi read tuleb uuesti arvutada, kui prognoositava ametikoha puhul muudetakse FTE väärtust. Read tuleb uuesti arvutada ka siis, kui muudetakse aktiveerimis- või lõpetamiskuupäevi. Muudatused nendes kuupäevades võivad põhjustada värskendusi eelarve kululemendi algus- ja lõppkuupäevades, mis peavad jääma prognoositava ametikoha kuupäevavahemikku. Kui ümberarvutamine on nõutav, muutub kättesaadavalks nupp **Arvuta uuesti** ja kuvatakse teade Vajab arvutamist. Ümerarvutamine on nõutav ka siis, kui lisate või eemaldate eelarve kuluelemendi.
 
-**Example** 
+**Näide** 
 
-Organisatsioon kaalub kaks võimalust vähendada raamatupidaja seisukoha. Üks võimalus on lõpetada amerikoht mingiks osaks aastast. Teine võimalus on muuta ametikoht kogu aastaks osalise tööajaga ametikohaks. Brad lõi põhistseanaariumis olemasolevale raamatupidaja ametikohale prognoositava ametikoha. Ta kopeerib selle põhilise prognoositava ametikoha stsenaariumisse A, määrab lõpetamise kuupäevaks 31. mai ja arvutab uuesti. Seejärel kopeerib Brad põhilise prognoositava ametikoha stsenaaiumisse B, muudab FTE väärtuseks **0,50** ja arvutab siis uuesti. Bradil on nüüd kolm versiooni, millest igaühel on kulude kogusummad, mis on tema võimalustega joondatud.
+Organisatsioon kaalub raamatupidaja ametikoha kulude vähendamiseks kahte võimalust. Üks võimalus on lõpetada amerikoht mingiks osaks aastast. Teine võimalus on muuta ametikoht kogu aastaks osalise tööajaga ametikohaks. Brad lõi põhistseanaariumis olemasolevale raamatupidaja ametikohale prognoositava ametikoha. Ta kopeerib selle põhilise prognoositava ametikoha stsenaariumisse A, määrab lõpetamise kuupäevaks 31. mai ja arvutab uuesti. Seejärel kopeerib Brad põhilise prognoositava ametikoha stsenaaiumisse B, muudab FTE väärtuseks **0,50** ja arvutab siis uuesti. Bradil on nüüd kolm versiooni, millest igaühel on kulude kogusummad, mis on tema võimalustega joondatud.
 
 #### <a name="assigning-a-compensation-group"></a>Hüvitusgrupi määramine
 
@@ -160,9 +163,9 @@ Kui klõpsate suvandit **Loo tõusud** teist korda, käitatakse protsessi uuesti
 
 Prognoositavate ametikohtade värskendused võivad tulla ka muudelt aladelt, nagu eelarve kuluelemendi ja hüvitusgrupi häälestamise lehed. Prognoositavaid ametikohti saab muuta ka hulgivärskendamise protsessi kasutades. 
 
-Kohta on kaks valikut on **eelarve kulude element** häälestamise leht: **lisada positsioone** ja **Uuenda positsioone**. Suvand **Ametikohtadesse lisamine** lisab eelarve kuluelemendi valitud prognoositavatele ametikohtadele. Kui prognoositavale ametikohale on juba element määratud, jäetakse see prognoositav ametikoht vahele. Suvand **Ametikohtade värskendamine** rakendab praegused väärtused (põhikonto, protsent, aastane summa jne) valitud prognoositavatele ametikohtadele. 
+Seadistuslehel **Eelarve kuluelement** on saadaval kaks valikut: **Ametikohtadesse lisamine** ja **Ametikohtade värskendamine**. Suvand **Ametikohtadesse lisamine** lisab eelarve kuluelemendi valitud prognoositavatele ametikohtadele. Kui prognoositavale ametikohale on juba element määratud, jäetakse see prognoositav ametikoht vahele. Suvand **Ametikohtade värskendamine** rakendab praegused väärtused (põhikonto, protsent, aastane summa jne) valitud prognoositavatele ametikohtadele. 
 
-Igal protsessil on sarnane leht, kus saate valida prognoositavaid ametikohti. Leht **Ametikohtadesse lisamine** näitab kõiki prognoositavaid ametikohti, mis on valimiseks saadaval ja leht **Ametikohtade värskendamine** näitab ainult neid prognoositavaid ametikohti, millele juba on määratud eelarve kuluelement. (Seetõttu, et **Uuenda positsioone** lehe kaudu saate teada, mis Ilmaennustus positsioonid on juba lisatud kuluelement.) Teisaldate prognoositav positsioone ülemise võre ka need update madalama elektrivõrguga. 
+Igal protsessil on sarnane leht, kus saate valida prognoositavaid ametikohti. Leht **Ametikohtadesse lisamine** näitab kõiki prognoositavaid ametikohti, mis on valimiseks saadaval ja leht **Ametikohtade värskendamine** näitab ainult neid prognoositavaid ametikohti, millele juba on määratud eelarve kuluelement. (Seega annab leht **Ametikohtade värskendamine** teile võimaluse teada saada, millistele prognoositavatele ametikohtadele on juba lisatud kuluelement.) Prognoositavate ametikohtade värskendamisse kaasamiseks liigutage need ülemiselt ruudustikult alumisele ruudustikule. 
 
 Arvestage sellega, et funktsioon **Muuda kuupäevi** vahekaardil **Kulu arvutamine** muudab kohe eelarve kuluelemendi algus- ja lõppkuupäevi prognoositaval ametikohal. Valikuvõimalusi ei ole. 
 
@@ -176,7 +179,7 @@ Valides prognoositava ametikoha ja klõpsates siis suvandit **Hulgivärskendamin
 
 [![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
-Luua ja muuta eelarve positsioonide eesmärk lisamiseks eelarvekavasid, et eelarve kavad sisaldama kõige täpsem eelarve summad. Prognoositavate ametikohtade lisamiseks eelarveplaanidesse on kaks järgmist viisi. Saate kasutada eelarveplaanis kas loomise protsessi või valikuprotsessi.
+Prognoositavate ametikohtade loomise ja muutmise eesmärk on lisada need eelarveplaanidele, nii et eelarveplaanid kaasaksid kõige täpsemaid eelarvesummasid. Prognoositavate ametikohtade lisamiseks eelarveplaanidesse on kaks järgmist viisi. Saate kasutada eelarveplaanis kas loomise protsessi või valikuprotsessi.
 
 ### <a name="generating-a-budget-plan-from-forecast-positions"></a>Eelarveplaani loomine prognoositavatest ametikohtadest
 
@@ -215,5 +218,7 @@ Nii loomis- kui ka valimisprotsessi puhul määrab eelarve kuluelemendi rea algu
 Eelarveplaani read näitavad eelarvesummade allikat (prognoositava ametikoha number), kuid need ei ole seotud. Seega ei kuvata muudatusi prognoositavas ametikohas eelarveplaani real ja muudatusi eelarveplaani ral kuvatakse prognoositaval ametikohas. Kui muudate prognoositavat ametikohta ja soovite värskenduste kaasamist eelarveplaani, peate prognoositava ametikoha uuesti pöaani tooma. Kuid pidage meeles, et see protsess eemaldab kõik read, kuhu see prognoositav ametikoht määratud on. Seega eemaldatakse kõik nendes ridades tehtud muudatused. 
 
 Nägemaks, millistesse eelarveplaanidesse prognoositav ametikoht kaasatud on, saate luua aruande **Prognoositavad ametikohad eelarveplaani järgi**. Teise võimalusena saate avada prognoositava ametikoha puhul plaanide vaaramiseks kiirinfo **Seostatud eelarveplaanid**.
+
+
 
 

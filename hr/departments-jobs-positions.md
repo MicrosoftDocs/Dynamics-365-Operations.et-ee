@@ -1,5 +1,5 @@
 ---
-title: "Korraldada oma tööjõudu kasutades osakonnad-, töö- ja ametikohtadele"
+title: "Tööjõu korraldamine osakondade, tööde ja ametikohtade abil"
 description: "Osakonnad, tööd ja ametikohad on organisatsiooni elemendid, mida hallatakse inimressurssides. Selles teemas kirjeldatakse nende elementide sisulist teavet."
 author: rschloma
 manager: AnnBe
@@ -26,22 +26,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Korraldada oma tööjõudu kasutades osakonnad-, töö- ja ametikohtadele
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Tööjõu korraldamine osakondade, tööde ja ametikohtade abil
+
+[!include[banner](includes/banner.md)]
+
 
 Osakonnad, tööd ja ametikohad on organisatsiooni elemendid, mida hallatakse inimressurssides. Selles teemas kirjeldatakse nende elementide sisulist teavet. 
 
 Järgmise näite abil selgitatakse selles teemas kirjeldatud põhimõtteid.
 
-|**Osakond**|**Position**|**Job**|
+|**Osakond**|**Ametikoht**|**Töö**|
 |---|---|---|
 |**Müük**|Müügijuht (Ida)|Müügijuht|
 |**Müük**|Müügijuht (Lääs)|Müügijuht|
 |**Müük**|Müügijuht (Kesk)|Müügijuht|
-|**Accounting**|Raamatupidaja|Pearaamatupidaja|
-|**Accounting**|Raamatupidamine A|Raamatupidaja|
-|**Human resources**|Personalijuht (Ida)|Personalijuht|
-|**Human resources**|Personalijuht (Lääs)|Personalijuht|
-|**Human resources**|Personalijuht (Kesk)|Personalijuht|
+|**Raamatupidamine**|Raamatupidaja|Pearaamatupidaja|
+|**Raamatupidamine**|Raamatupidamine A|Raamatupidaja|
+|**Inimressursid**|Personalijuht (Ida)|Personalijuht|
+|**Inimressursid**|Personalijuht (Lääs)|Personalijuht|
+|**Inimressursid**|Personalijuht (Kesk)|Personalijuht|
 
  
  <a name="departments"></a>Osakonnad
@@ -79,7 +82,7 @@ Saate luua tööülesandeid, mis kirjeldavad selle töö ametikohal tegutseva t�
 
 ### <a name="job-functions"></a>Tööfunktsioonid
 
-Tööfunktsioonid on nagu tööülesanded. Tööfunktsioon kirjeldab üht või mitut tööle määratud ülesannet, kohustust või vastutust. Ametikohustuste täitmiseks saab määratud projektidele ja kasutada ja abikõlblikkuse eeskirjad hüvitiste plaanide elluviimist. Ametikohustuste täitmiseks näited on loetletud järgmises tabelis.
+Tööfunktsioonid on nagu tööülesanded. Tööfunktsioon kirjeldab üht või mitut tööle määratud ülesannet, kohustust või vastutust. Tööfunktsioone saab määrata töödele ning kasutada hüvitusplaanide sobivusreeglite rakendamiseks. Tööfunktsioonide näited on toodud järgmises tabelis.
 
 | Töö           | Tööfunktsioon                                                |
 |---------------|-------------------------------------------------------------|
@@ -101,7 +104,7 @@ Vastutusalade abil saate näidata, milliste töörollide, protsesside ja toodete
 <a name="positions"></a>Ametikohad
 ----------
 
-Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoht on töökoha üksik eksemplar. Näiteks seisukohta, "Müügijuht (Ida)," on vaid üks seisukohti, mis on seotud tööga, "Müügijuht." Departemangu kohta on olemas ja on määratud töötajatele.
+Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoht on töökoha üksik eksemplar. Näiteks on ametikoht „müügijuht (Ida)” vaid üks tööga „müügijuht” seostatud ametikohti. Ametikohad on osakonnas ja need määratakse töötajatele.
 ### <a name="position-creation-and-maintenance"></a>Ametikoha loomine ja haldamine
 
 -   Saate vaadata ametikohaga seotud süsteemimuudatusi hõlpsasti juurdepääsetaval loendilehel.
@@ -161,6 +164,8 @@ Mõne kirje puhul saate määrata kirje tulevased muudatused. Järgmine teave on
 </table>
 
 Saate muuta eelmises tabelis nimetatud ametikoha- ja töö-teavet ning määrata kuupäeva, millal ametikoha või töö muudatused peavad jõustuma. Näiteks saab ametikoha määrata ainult ühele töötajale, kuid Sanjay Patel, kes on määratud ametikohale Raamatupidaja A, lahkub kahe nädala pärast. Sanjay Pateli lahkumisel asendab teda Joe Healy. Kuigi Sanjay on veel oma ametikohale määratud, saate määrata Joe Healy samale ametikohale, nii et määramine jõustub alles pärast Sanjay viimast tööpäeva.
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>Töövoo atribuutide konfigureerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 See teema selgitab, kuidas konfigureerida töövoo mitmesuguseid atribuute.
 
 Avage töövoo töövoo atribuutide töövoo konfigureerimiseks. Klõpsake töövoo redaktori lõuendit ja seejärel suvandit **Atribuudid**, et avada leht **Atribuudid**. Seejärel saate järgmiste protseduuride abil konfigureerida töövoo mitmesuguseid atribuute.
@@ -147,10 +150,10 @@ Kui dokument esitatakse töötlemiseks, luuakse töövooeksemplar. Saate saata k
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Konkreetse Dynamics 365 toimingud kasutajatele</td>
+    <td>Kindlad Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Klõpsake vahekaardil <strong>Adressaat</strong> suvandit <strong>Kasutaja</strong>.</li>
-    <li>Kohta ning <strong>kasutaja</strong> jaotises on <strong>saadaval kasutajate</strong> loetelu hõlmab kõiki Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Vahekaardi <strong>Kasutaja</strong> loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Töövoos tehtud muudatuste kohta kommentaaride sisestamiseks tehke järgmist.
 2.  Sisestage kommentaarid väljale **Sisestage kommentaarid töövoo kohta**.
 3.  Vaadake kommentaarid üle. Pärast kommentaaride lisamist ei saa neid muuta.
 4.  Klõpsake käsku **Lisa**, et lisada kommentaar jaotisesse **Kommentaaride ajalugu**.
+
+
 
 
 

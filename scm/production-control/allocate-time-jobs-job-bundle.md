@@ -1,5 +1,5 @@
 ---
-title: "Eralda aeg projektidele Tööde kogumisse kuuluvatel"
+title: "Tööde kogumisse kuuluvatele töödele aja eraldamine"
 description: "Töid saate kogumisse siduda valikus Tootmise käivitamine. Seejärel saate alustada lehelt Tööde loend üheaegselt mitut tööd."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Eralda aeg projektidele Tööde kogumisse kuuluvatel
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Tööde kogumisse kuuluvatele töödele aja eraldamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Töid saate kogumisse siduda valikus Tootmise käivitamine. Seejärel saate alustada lehelt Tööde loend üheaegselt mitut tööd.
 
@@ -107,5 +110,7 @@ Arvestage, et neid kolme tööd sooritab töötaja, kelle tunnitasu on 12,00 USA
 | 3. töö | (3,33 / 5) x 12,00 USA dollarit                 | 8,00 USA dollarit                | 5 tundi        | 40,00 USA dollarit         |
 
 Korrigeeritud kulu tunni kohta ja töö aeg sisestatakse tootmise töölehele. **Märkus.** Kui valite lehekülje **Tootmistellimuse vaikesätted** vahekaardil **Üldine** suvandi **Kulukategooria** kantakse töö tegemiseks kulunud tegelik aeg tootmise töölehele, kus kulu määratakse kindla töö kulukategooriale.
+
+
 
 

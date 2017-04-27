@@ -1,6 +1,6 @@
 ---
 title: "Süsteemi määratletud ja kasutaja määratletud tabelipiirangud"
-description: "Selles artiklis kirjeldatakse kahte tüüpi komponentide konfiguratsiooni tootemudeli - siia ja süsteemi määratletud tabel piiranguid. Tabelipiirangud kajastavad lubatud atribuudikombinatsioonide matriitse, kus iga rida määratleb ühe võimalike atribuudiväärtuste kogumi."
+description: "See artikkel selgitab kahte toote konfiguratsioonimudeli komponentide tabelipiirangu tüüpi: kasutaja määratletud ja süsteemi määratletud. Tabelipiirangud kajastavad lubatud atribuudikombinatsioonide matriitse, kus iga rida määratleb ühe võimalike atribuudiväärtuste kogumi."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Süsteemi määratletud ja kasutaja määratletud tabelipiirangud
 
-Selles artiklis kirjeldatakse kahte tüüpi komponentide konfiguratsiooni tootemudeli - siia ja süsteemi määratletud tabel piiranguid. Tabelipiirangud kajastavad lubatud atribuudikombinatsioonide matriitse, kus iga rida määratleb ühe võimalike atribuudiväärtuste kogumi.
+[!include[banner](../includes/banner.md)]
+
+
+See artikkel selgitab kahte toote konfiguratsioonimudeli komponentide tabelipiirangu tüüpi: kasutaja määratletud ja süsteemi määratletud. Tabelipiirangud kajastavad lubatud atribuudikombinatsioonide matriitse, kus iga rida määratleb ühe võimalike atribuudiväärtuste kogumi.
 
 Tabelipiirangud tähistavad toote konfiguratsioonimudelisse kuuluvate komponentide puhul lubatud atribuudikombinatsioonide maatrikseid. Tabeli iga rida määratleb ühe võimalike atribuudiväärtuste komplekti. Saate toote konfiguratsioonimudelis deklareerida kaht tüüpi piiranguid.
 
@@ -57,11 +60,13 @@ Süsteemi määratletud tabelipiirang loob tabeli atribuuditüübi ja välja vah
 
 Süsteemi määratletud tabelipiirangu loomisel saate valida tabeli, soovi korral määratleda kasutatava päringu ja seejärel seostada atribuuditüübid valitud tabeli väljadega. Väljade tüübid peavad ühtima atribuuditüüpide tüüpidega.  
 
-Enne tabeli kitsendus konfiguratsiooni tootemudeli mõju, peavad kajastuma tabeli kitsendus piirangu ühe mudeli komponendi. Tegevus toimub uue piirangu loomine, valige tabel piirangutüübi ja valige piirangu määratlus kasutada. Viimaks tuleb kõik tabelipiirangu väljad vastendada toote konfiguratsioonimudeli atribuutidega.
+Enne kui tabeli piirang saab toote konfiguratsioonimudelis jõustuda, tuleb tabeli piirang kaasata ühte mudeli kompondi piirangusse kaasata. Protseduur on uue piirangu loomiseks, tabeli piirangu tüübi valimiseks ja seejärel kasutatava tabeli piirangu määratluse valimiseks. Viimaks tuleb kõik tabelipiirangu väljad vastendada toote konfiguratsioonimudeli atribuutidega.
 
 <a name="see-also"></a>Vt ka
 --------
 
 [Tootekonfiguratsiooni mudelite põhimõisted](product-configuration-models.md)
+
+
 
 

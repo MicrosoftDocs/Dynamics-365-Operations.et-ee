@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Konsolideeritud partiitellimused
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse konsolideeritud partiitellimuste mõistet.
 
 Toodetud hulgikaup on emaüksus ja pakitud kaup on tütarüksus. Hulgikauba ja pakitud kauba seost väljendab hulgikauba teisendamine. See hulgikauba teisendamine on määratletud hulgikaubas endas.  
@@ -41,6 +44,8 @@ Konsolideeritud partiitellimus võib sisaldada järgmiste tellimuste mis tahes k
 -   Mitu hulgitellimust ja mitu pakitud tellimust
 -   Mitu hulgitellimust ja üks pakitud tellimust
 -   Ainult pakitud tellimused
+
+
 
 
 

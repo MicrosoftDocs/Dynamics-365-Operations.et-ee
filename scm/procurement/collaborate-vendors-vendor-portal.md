@@ -1,6 +1,6 @@
 ---
-title: "Koostööd Hankijad hankija portaali abil"
-description: "See teema kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali ostutellimuse kinnitamise protsessi käigus väliste hankijatega koostöö tegemiseks. See teave kehtib ainult veebruar 2016 &amp;Dynamics AX mai 2016 versioonid."
+title: "Hankijatega koostöö tegemine Hankija portaali kasutades"
+description: "See teema kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali ostutellimuse kinnitamise protsessi käigus väliste hankijatega koostöö tegemiseks. See teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Koostööd Hankijad hankija portaali abil
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Hankijatega koostöö tegemine Hankija portaali kasutades
 
-See teema kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali ostutellimuse kinnitamise protsessi käigus väliste hankijatega koostöö tegemiseks. See teave kehtib ainult veebruar 2016 &amp;Dynamics AX mai 2016 versioonid.
+[!include[banner](../includes/banner.md)]
 
-Selles teemas sisalduv teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul. Hankija portaali funktsionaalsus on asendatud laiendatud hankija koostööfunktsioonide Dynamics 365 toiminguid versiooni 1611. Uue hankija koostööfunktsioonide kohta lisateabe saamiseks vaadake [kasutades töötada välistarnijate hankija koostöö](vendor-collaboration-work-external-vendors.md).  
+
+See teema kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali ostutellimuse kinnitamise protsessi käigus väliste hankijatega koostöö tegemiseks. See teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul.
+
+Selles teemas sisalduv teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul. Hankija portaali funktsionaalsus on Dynamics 365 for Operationsi versioonis 1611 asendatud hankija koostöö laiendatud funktsionaalsusega. Lisateavet hankija koostöö turvalisuse seadistamise kohta vt teemast [Hankija koostöö kasutamine väliste hankijatega koostöö tegemiseks](vendor-collaboration-work-external-vendors.md).  
 
 Hankija portaal on mõeldud hankijatele, kellel puudub ostutellimuse (PO) teabe vahetamiseks Microsoft Dynamics AX-iga elektrooniliste andmete vahetus (EDI). Portaal võimaldab ostuagentidel saata hankijale ostutellimuse ja saada siis kinnitava või tagasilükkava vastuse otse Dynamics AX-is.  
 
@@ -66,9 +69,9 @@ Järgmises tabelis on näide oleku ja versiooni muudatuste kohta, mida ostutelli
 | Saadate ostutellimuse uue versiooni hankija portaali. | Uus versioon registreeritakse hankija portaalis ja olekuks määratakse **Välisel ülevaatamisel**. |
 | Hankija kinnitab ostutellimuse uue versiooni.           | Olekuks määratakse **Kinnitatud**.                                                                |
 
-PO versioonides, mis on saadetud hankija ja hankija vastuste vaatamiseks klõpsake **töölehtede**&gt;**kinnitus taotlused** : PO.  
+Hankijale saadetud ostutellimuse versioonide ja hankija vastuste nägemiseks klõpsake ostutellimuses valikuid **Töölehed** &gt; **Kinnituse taotlused**.  
 
-Hankijale vastuse saamiseks saadetud tellimused, mille olek on **Välisel ülevaatamisel**, ilmuvad kas loendis **Ostutellimused on saadetud hankija portaali, oodatakse vastust** või **Ostutellimused on saadetud hankija portaali, vastus nõuab tegevust**. Kui muudate hankijale saadetud tellimust, nii et olekuks määratakse uuesti **Kinnitatud**, ei kuvata tellimust enam nendes loendites. On varem toimunud hankija tellimuse vastuseks vaatamiseks klõpsake **töölehtede**&gt;**taotlused kinnitust**.  
+Hankijale vastuse saamiseks saadetud tellimused, mille olek on **Välisel ülevaatamisel**, ilmuvad kas loendis **Ostutellimused on saadetud hankija portaali, oodatakse vastust** või **Ostutellimused on saadetud hankija portaali, vastus nõuab tegevust**. Kui muudate hankijale saadetud tellimust, nii et olekuks määratakse uuesti **Kinnitatud**, ei kuvata tellimust enam nendes loendites. Selleks et näha, kas hankija on tellimuse kohta varem vastuse saatnud, klõpsake valikuid **Töölehed** &gt; **Kinnituse taotlused**.  
 
 Hankijad ei pea ostutellimust hankija portaalis kinnitama. Nad võivad saata ka meilisõnumi või teatama ostutellimuse vastuvõtmisest muude kanalite kaudu. Seejärel saate tellimuse Dynamics AX-is käsitsi kinnitada. Sellisel juhul saate hoiatuse, et tellimus on kinnitatud, kuigi hankijalt puudub vastus. Seejärel kuvatakse ostutellimus hankija portaali kinnitusajaloos avatud kinnitatud tellimusena, millel puuduvad vastused. Lisaks pole hankijal enam võimalust ostutellimuse kinnitamiseks ega tagasilükkamiseks.  
 
@@ -97,5 +100,7 @@ Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimuss
 [Hankija koostöö kasutajate turbe konfigureerimine](configure-security-vendor-portal-users.md)
 
 [Hankija koostöö arve tööruum](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+
+
 
 

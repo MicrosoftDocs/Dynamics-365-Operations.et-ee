@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Pangakonto täpsema vastavusseviimise ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse täpsema panga vastavusseviimise protsessi voogu. Täpsema panga vastavusseviimise funktsiooni abil saate importida pangaväljavõtteid, mida saab automaatselt pangakannetes vastavusse viia.
 
 Pangakonto täpsema vastavusseviimise funktsioon võimaldab teil pangaväljavõtted importida. Imporditud pangaväljavõtte saab seejärel automaatselt pangakannetest vastavusse viia. Järgmiselt on toodud pangakonto täpsema vastavusseviimise voo etapid.
@@ -38,13 +41,15 @@ Pangakonto täpsema vastavusseviimise funktsioon võimaldab teil pangaväljavõt
     -   Funktsiooni saab laiendada mis tahes vormingusse.
 
 2.  Pangakonto täpsema vastavusseviimise puhul kasutatava numbriseeria seadistamine ja pangakonto vastavusseviimise vastendusreeglite määratlemine.
-    -   Reeglina leppimise sobitamine on kogum alusel filtreerida panga väljavõtte read ja Microsoft Dynamics 365 operatsioonid panga ridu kooskõlastusprotsessi ajal. Sõltuvalt ettevõtte äritegevuse saate seadistada mitu vastavat reeglit automatiseerida ja optimeerida oma kooskõlastusprotsessi.
+    -   Vastavusseviimise vastendusreegel on komplekt kriteeriume, mida kasutatakse pangaväljavõtte ja Microsoft Dynamics 365 for Operationsi pangakande ridade filtrimiseks vastavusseviimise protsessi ajal. Olenevalt oma äritavast saate vastavusseviimise protsessi automatiseerimiseks ja optimeerimiseks seadistada rohkem kui ühe vastendusreegli.
 
-3.  Panga väljavõtteid Dynamics 365 toimingute pangatehingute vastavusse viia.
+3.  Pangaväljavõtete vastavusseviimine Microsoft Dynamics 365 for Operationsi pangakannetega.
     -   Vastavusseviimise töölehtede automaatne võrdlemine ja loomine.
-    -   Pangaväljavõtete vaatamine ja Dynamics 365 toimingute pangatehingute kõrvuti.
-    -   Automaatselt postitada Dynamics 365 toimingute pangatehingute kui nad ilmuvad pangaväljavõte, kuid ei kuvata Dynamics 365 toiminguteks.
+    -   Pangaväljavõtete ja Microsoft Dynamics 365 for Operationsi pangakannete kuvamine kõrvuti.
+    -   Microsoft Dynamics 365 for Operationsi pangakannete automaatne sisestamine, kui need kuvatakse pangaväljavõttel, kuid ei kuvata Dynamics 365 for Operationsis.
     -   Vastavusseviimiseks väljavõtte loomine.
+
+
 
 
 

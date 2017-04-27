@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Töövoo tegevused
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse toiminguid, mida iga osaleja saab töövoo kinnitusprotsessis teha.
 
-Töövoog võib hõlmata mitut inimeste gruppi: algataja, ülesandes osalejad, otsustajad ja kinnitajad. Näiteks järgmises kuluaruande töövoos on Sam algataja, järjekorra liikmed on ülesandes osalejad, John on otsustaja ning Frank, Sue ja Ann on kinnitajad.   [![Töövoo\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) järgnevalt selgitatakse töövoo tegevusi, mida iga saate teha.
+Töövoog võib hõlmata mitut inimeste gruppi: algataja, ülesandes osalejad, otsustajad ja kinnitajad. Näiteks järgmises kuluaruande töövoos on Sam algataja, järjekorra liikmed on ülesandes osalejad, John on otsustaja ning Frank, Sue ja Ann on kinnitajad.   [![Töövoo\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) Järgmistes jaotistes kirjeldatakse töövoo toiminguid, mida iga grupp saab teha.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Toimingud, mida algataja saab teha
 Algataja alustab töövoo eksemplari, edastades dokumendi töötlemiseks. Näiteks Sam peab oma kuluaruande esitamiseks klõpsama nuppu **Edasta** lehel **Kuluaruanne**.
@@ -63,7 +66,7 @@ Aeg-ajalt võib tööüksuste järjekorra liige ülesande vastu võtta, kuid see
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Toimingud, mida otsustaja saab teha
 Tavaliselt määratakse dokument otsustajale seetõttu, et selles on küsimus, millele otsustaja peab vastama. Küsimuse vastus on tavaliselt **Jah** või **Ei** või **Tõene** või **Väär**. Kui otsustaja valikut ei tee, võib ta otsustamise delegeerida.
 
-### <a name="choice-1-or-choice-2"></a>\[Valik 1\] või \[valik 2\]
+### <a name="choice-1-or-choice-2"></a>\[Valik 1\] või \[Valik 2\]
 
 Otsustaja peab dokumendiga seotud küsimusele vastama. Küsimuse vastus on tavaliselt **Jah** või **Ei** või **Tõene** või **Väär**. Otsustaja valitud vastus määrab dokumendi töötlemiseks kasutatava töövooharu. Näiteks Sami kuluaruanne on määratud Johnile. John peab otsustama, kas dokumendi teave nõuab Sami juhile helistamist. Kui John leiab, et kõne on vajalik, määratakse kuluaruanne Arethale, kes peab siis Sami juhile helistama. Kui John otsustab, et kõne pole vajalik, määratakse kuluaruanne Frankile kinnitamiseks.
 
@@ -89,5 +92,7 @@ Kui kinnitaja delegeerib dokumendi, määratakse dokument kinnitamiseks teisele 
 ### <a name="request-change"></a>Taotle muudatust
 
 Kui kinnitaja taotleb dokumendi muutmist, saadetakse dokument tagasi algatajale. Näiteks Sam on esitanud kuluaruande väärtuses USD 12 000 ja see dokument on määratud Suele. Kui Sue soovib muutmist, saadetakse kuluaruanne tagasi Samile. Sam saab kuluaruande uuesti esitada. Ta võib teha esmalt soovitud muudatused või edastada uuesti kuluaruande algse versiooni. Kui Sam taasesitab kuluaruande, saadetakse see Frankile kinnitamiseks, sest Frank on selle kinnitamisprotsessi esimene kinnitaja.
+
+
 
 

@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Tuletatud raamatud
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade tuletatud raamatu funktsioonist.
 
-Tuletatud raamatute eesmärk korrapäraste ajavahemike jaoks planeeritud põhivara kannete sisestamise lihtsustamiseks.  Valides ühe raamatu esmane raamat. Tavaliselt on see raamat, mida kasutatakse kulumi arvutamiseks. Seejärel saate sellega siduda muud raamatud, mis on seadistatud esmase raamatuga sama intervalliga kandeid sisestama. Maksukulumi raamatud seadistatakse sageli tuletatud raamatutena. 
+Tuletatud raamatuid kasutatakse kindla intervalliga plaanitud põhivara raamatu kannete sisestamise lihtsustamiseks.  Saate valida ühe raamatu esmaseks raamatuks. Tavaliselt on see raamat, mida kasutatakse kulumi arvutamiseks. Seejärel saate sellega siduda muud raamatud, mis on seadistatud esmase raamatuga sama intervalliga kandeid sisestama. Maksukulumi raamatud seadistatakse sageli tuletatud raamatutena. 
 
 Kõige tavalisemad tuletatud raamatutesse sisestamiseks seadistatud kanded on soetamised, soetuse korrigeerimised ja likvideerimised. 
 
@@ -42,6 +45,8 @@ Kande sisestamisel luuakse soetuskanne ning sisestatakse varasse 123 raamatu B p
 > [!NOTE]                                                                                                                               
 > Raamatud, mis on seadistatud kannete sisestamiseks esmaste raamatute intervallidest erinevate intervallidega, tuleb põhivaraga siduda eraldi, mitte tuletatud raamatutena.  
 
-Lisateabe saamiseks vaadake [sisestamine tuletatud raamatud](post-derived-value-models.md).
+Lisateavet vt teemast [Sisestamine tuletatud raamatute kaudu](post-derived-value-models.md).
+
+
 
 

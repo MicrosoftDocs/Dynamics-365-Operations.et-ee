@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Käibemaksuarvutusmeetodid valimine väljal Päritolu
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel selgitab käibemaksukoodide lehe välja Päritolu valikuid ja seda, kuidas käibemaks arvutatakse, tuginedes tehtud käibemaksukoodi valikule.
 
 Iga lehel Käibemaksukoodid loodud käibemaksukoodi puhul peate valima arvutamismeetodi, mida rakendatakse väljal Päritolu olevale käibemaksu baassummale.
@@ -124,5 +127,7 @@ Dokumendi/töölehe suvandi Summad sisaldavad käibemaksu sätteks on valitud Ei
 [Käibemaksumäärade määramine väljade Marginaali alus ja Arvutusmeetod põhjal](marginal-base-field.md)
 
 [Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

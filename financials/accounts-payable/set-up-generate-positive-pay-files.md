@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Positiivse makse failide seadistamine ja loomine
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel selgitab, kuidas positiivset makset seadistada ja positiivse makse faile luua. 
 
 Positiivse makse seadistamine pangale edastatava elektroonilise tšekkide loendi loomiseks. Tšeki esitamisel pangale võrdleb pank seda tšekkide loendiga. Kui tšekk vastab loendis olevale tšekile, maksab pank selle välja. Kui tšekk ei vasta ühelegi loendis olevale tšekile, võtab pank selle ülevaatamiseks enda kätte.
 
 ## <a name="security-for-positive-pay-files"></a>Positiivse makse failide turve
-Positiivse makse failides võib olla tundliku loomuga teavet maksesaajate ja tšekisummade kohta. Seetõttu kasutage kindlasti vajalikke turvameetmeid alates failide loomise hetkest kuni nende panka saabumiseni. Positiivse makse failid laaditakse alla teie veebibrauseri määratud asukohta. Kuna positiivne tasu failid võivad sisaldada tundlikku teavet, on oluline, et ainult volitatud kasutajatel on juurdepääs luua ja vaadata seda teavet Microsoft Dynamics 365 operatsioonide. Järgmise tabelis abil saate määratleda vajalikke õigusi.
+Positiivse makse failides võib olla tundliku loomuga teavet maksesaajate ja tšekisummade kohta. Seetõttu kasutage kindlasti vajalikke turvameetmeid alates failide loomise hetkest kuni nende panka saabumiseni. Positiivse makse failid laaditakse alla teie veebibrauseri määratud asukohta. Kuna positiivsed maksefailid saavad sisaldada tundlikku teavet, on oluline, et ainult volitatud kasutajatel on rakenduses Microsoft Dynamics 365 for Operations juurdepääs selle teabe loomiseks ja vaatamiseks. Järgmise tabelis abil saate määratleda vajalikke õigusi.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Kui positiivses maksefailis loetletud tšekid on tasutud, saate pangast kinnitus
 
 ## <a name="recall-a-positive-pay-file"></a>Positiivse makse faili tagasikutsumine
 Kui peate positiivse makse faili muutma, saate selle tagasi kutsuda. Valige lehelt **Positiivse maksefaili kokkuvõte** positiivne maksefail, mille olek on **Loodud**, ja valige siis toiming **Võta tagasi**. Igas positiivse makse failis oleva tšeki puhul lähtestatakse väli, mis näitab, kas see tšekk on olnud positiivse makse faili lisatud. Siis saate luua uue positiivse maksefaili, mis sisaldab tagasi võetud tšekki.
+
+
 
 

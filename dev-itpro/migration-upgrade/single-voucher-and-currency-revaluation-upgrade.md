@@ -1,6 +1,6 @@
 ---
-title: "Ühe kande- ja valuuta ümberhindluse uuendada Microsoft Dynamics 365 toiminguid versiooni 1611"
-description: "Mõned organisatsioonid sisestage töölehed, mis sisaldavad ühe kande, mis on rohkem kui üks klient või hankija, ja nad käivitada ka Müügireskontro või maksta välisvaluuta ümberhindluse protsessi käigus. Selles teemas kirjeldatakse samme, et need organisatsioonid eemale need versiooniks Microsoft Dynamics 365 toiminguid versiooni 1611."
+title: "Ühe kande ja valuuta ümberhindamise uuendamine rakenduse Microsoft Dynamics 365 for Operations versioonile 1611"
+description: "Mõned organisatsioonid sisestavad töölehti, mis sisaldavad ühte kannet, millel on rohkem kui üks klient või hankija ning nad käivitavad ka müügi- ja ostureskontro välisvaluuta ümberarvutamise protsessi. See teema kirjeldab juhiseid, mida need organisatsioonid peaksid rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 uuendamisel järgima."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-28 16 - 04 - 17
@@ -24,15 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Ühe kande- ja valuuta ümberhindluse uuendada Microsoft Dynamics 365 toiminguid versiooni 1611
+# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Ühe kande ja valuuta ümberhindamise uuendamine rakenduse Microsoft Dynamics 365 for Operations versioonile 1611
 
-Mõned organisatsioonid sisestage töölehed, mis sisaldavad ühe kande, mis on rohkem kui üks klient või hankija, ja nad käivitada ka Müügireskontro või maksta välisvaluuta ümberhindluse protsessi käigus. Selles teemas kirjeldatakse samme, et need organisatsioonid eemale need versiooniks Microsoft Dynamics 365 toiminguid versiooni 1611.
+Mõned organisatsioonid sisestavad töölehti, mis sisaldavad ühte kannet, millel on rohkem kui üks klient või hankija ning nad käivitavad ka müügi- ja ostureskontro välisvaluuta ümberarvutamise protsessi. See teema kirjeldab juhiseid, mida need organisatsioonid peaksid rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 uuendamisel järgima.
 
-Tehke uuendamisel Microsoft Dynamics 365 toiminguid versiooni 1611.
+Järgige neid juhiseid, kui uuendate rakenduse Microsoft Dynamics 365 for Operations versiooni 1611.
 
-1.  Enne üleminekut Dynamics 365 toiminguteks, Müügireskontro ja Ostureskontro välisvaluuta ümberhindluse protsesside käivitamiseks Määrata selle **meetod** välja **arve kuupäev**. On luua ümberhindluse kanne, mis tühistab viimase välisvaluuta ümberhindluse. Seetõttu hinnatakse avatud kannete arvestus eurodes.
-2.  Versiooniks Dynamics 365 toiminguid versiooni 1611.
-3.  Ostjatelt laekumata arved ja kontod maksta välisvaluuta ümberhindluse protsesside uuesti käivitada. Seekord, seadke selle **meetod** välja **Standard**. Uue ümberhindluse kanne luuakse praeguse vahetuskursi põhjal. Selle kande andmed realiseerimata kasumi/kahjumi ja õige koondkontole.
+1.  Enne rakendusele Dynamics 365 for Operations uuendamist käivitage müügi- ja ostureskontrole välisvaluuta ümberhindamise protsessid. Seadke välja **Meetod** väärtuseks **Arve kuupäev**. Luuakse ümberhindamiskanne, mis tühistab viimase välisvaluuta ümberhindamise. Seetõttu hinnatakse avatud kandeid nende algses arvestusvaluutas.
+2.  Uuendage Dynamics 365 for Operationsi versioonile 1611.
+3.  Käivitage müügi- ja ostureskontro välisvaluuta ümberarvutamise protsessid uuesti. Seekord seadke välja **Meetod** väärtuseks **Standard**. Luuakse uus ümberhindamise kanne, mis põhineb praegustel valuutakurssidel. See kanne salvestab realiseerimata kasumi/kahjumi ja õige koondpearaamatukonto.
 
 
 

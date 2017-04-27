@@ -1,6 +1,6 @@
 ---
-title: "Projekti kulude tekkepõhisele ostutarnete"
-description: "See teema kirjeldab, kuidas kogunenud kulud sissetulekuid saab jälgida rakenduses Microsoft Dynamics 365 operatsioonide ostust."
+title: Projektikulu juurdekasv ostu sissetulekute korral
+description: "Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab Microsoft Dynamics 365 for Operationsis jälgida."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Projekti kulude tekkepõhisele ostutarnete
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Projektikulu juurdekasv ostu sissetulekute korral
 
-See teema kirjeldab, kuidas kogunenud kulud sissetulekuid saab jälgida rakenduses Microsoft Dynamics 365 operatsioonide ostust. 
+[!include[banner](../includes/banner.md)]
 
-Projekti arvete sageli saabuda pärast kauba ja teenuseid osutatakse, millel võib olla oluline mõju projekti tulemuslikkuse võtmenäitajate (KPI). See oluline et oleks võimalik jälgida nende tehingute finantsvaldkonda, projektide aruanded.
 
-Järgmistel näide illustreerib seda. 
+Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab Microsoft Dynamics 365 for Operationsis jälgida. 
 
-Contoso konsulteerimist on alanud uus pilve juurutamise projekti. Ostutellimus luuakse projekti arvuti osta. Arvuti maksab $1500 ja paigaldamise teenused maksab $150. Hankija on tarnitud ja paigaldatud arvuti, kuid arve ei ole veel jõudnud, Contoso konsulteerimist. Projektijuht tahaks näha projekti kulude tekkepõhisele $1650 enne, kui arve on esitatud. See kulu tuleks kajastada ka ettevõtte kuu lõpus finantsaruannetes. 
+Projekti arved saabuvad sageli kaupade ja teenuste üleandmisest hiljem, millel võib olla märkimisväärne mõju projekti juhtimismõõdikutele (KPI-dele). Nende kannete jälgimise võimalus nii finants- kui ka projektiaruannetes on oluline.
 
-Tekkepõhine kulu peab rahalise taseme ja projektide finantsaruandluse registreerida. Dynamics 365 toiminguteks, finantsilise uuendamisega toote sissetulek saab jälgida kauba ja hangete kategooria. 
+Seda illustreerib järgmine näidisstsenaarium. 
 
-Üksuste kohta on **Ostureskontro parameetrid** avamiseks valige selle **konteerida pearaamatusse toote tarnet** võimalus.
+Contoso Consulting on käivitanud uue pilvejuurutusprojekti. Luuakse ostutellimus projekti jaoks arvuti ostmiseks. Arvuti hind on 1500 $ ja paigaldusteenuste hind 150 $. Hankija on arvuti kohale toonud ja paigaldanud, kuid arve pole veel ettevõttesse Contoso Consulting jõudnud. Projektijuht soovib näha projekti maksumuse koondsummat 1650 $ enne arve kohaletoimetamist. See kulu peaks kajastuma ka ettevõtte kuu lõpu finantsaruannetes. 
+
+Koondkulu tuleb kajastada nii finantstaseme kui ka projekti taseme aruandluses. Dynamics 365 for Operationsis saab toote sissetuleku finantsuuendus jälgida kauba ja hanke kategooriates. 
+
+Tehke kaupadele lehel **Ostureskontro parameetrid** valik **Sisesta toote sissetulek pearaamatusse**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
-Hanke kategooriate kohta ning **kategooria poliitika reegel** avamiseks valige **ostmine** poliitika ja valige seejärel **Accrue ostu kulu saamisel** hangete kaupa.
+Hankekategooriate puhul tehke lehel **Kategooria poliitikareegel** valik **Ostmise** poliitikad ja valige siis iga hankekategooria kohta **Kogunev ostukulu vastuvõtmisel**.
 [![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
-Selle **osta kulude un arveldatud** ja **ostu tekkepõhise** moodustab **kont** kanded, mis on seotud toote tarne konteerimisel kasutatakse.
+Toote sissetulekuga seotud kannete sisestamisel kasutatakse kontosid **Arvele kandmata ostukulud** ja **Ostu viitvõlg** jaotises **Sisestamise seadistus**.
 [![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
 
-Kasutades sama stsenaarium, vaatame, kuidas postitad toote sissetulek mõjutab pearaamatu ja projektiteavet. 
+Kasutades sama stsenaariumi, vaatame, kuidas toote sissetuleku sisestamine mõjutab pearaamatu ja projekti andmeid. 
 
-**1. samm:** Loo ja kinnitada projekti salvestada arvuti jaoks $150 $1500 ja paigaldusteenused ostmisel uue ostutellimuse.
+**1. etapp:** looge ja kinnitage uus projekti ostutellimus, mis kajastab arvuti ostu 1500 $ eest ja paigaldusteenuste ostu 150 $ eest.
 [![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
-Kui ostutellimus on kinnitatud, luuakse tehingute kooskõlastatud kulu projekti. 
+Kui ostutellimus on kinnitatud, luuakse projektile kooskõlastatud kulu kanded. 
 [![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
-> Kooskõlastatud kulu kanded on selle **kande päritolu** väärtuseks **ostutellimuse**. Loomine ja kinnitades ostutellimus luua projekti kannetega. 
+> Kooskõlastatud kulu kannete väljal **Kande päritolu** on määratud väärtus **Ostutellimus**. Ostutellimuse koostamine ja kinnitamine ei loo projektile kandeid. 
 
-**2. samm:** kaupade ja teenuste toimetata ja toote sissetulek on registreeritud. 
+**2. etapp:** kaubad ja teenused jõuavad kohale ja registreeritakse toote sissetulek. 
 
-Toote tarne konteerimise luua ja pärast kande pearaamatusse. Kanne debiteerida ostmise kulud, un arveldatud konto ja ostu viitvõla kontot. 
+Toote sissetuleku sisestamisel luuakse kanne ja see sisestatakse pearaamatusse. Kanne debiteerib ostukulu, arveldamata kulu ja krediteerib ostu juurdekasvukontot. 
 [![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
-> Toote tarne konteerimise kasutab sisestusseadistuse hanke kategooriate ja toodete ja mitte projekti kategooriate sisestamise seadistust. Viisil arvesse mõjuhinnangu ostu viitvõlad, peab see seadistus ühtlustada. 
+> Toote sissetuleku sisestamisel kasutatakse hankekategooriate ja toodete sisestamise seadistust ning mitte projektikategooriate sisestamise seadistust. Ostu viitvõlgade õigeks kajastamiseks tuleb seda seadistust kohandada. 
 
-Saab hanke kategooriad projektikategooriate kaart on **hanke kategooria** lehel.
+Hankekategooriat saab lehel **Hankekategooria** projektikategooriatega vastendada.
 [![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
-**3. samm:** eelnõu hankija arve loomiseks. 
+**3. etapp:** hankija arve mustandi koostamine. 
 
-Dynamics 365 toiminguteks, postitad toote sissetulek ei mõjuta projektiteavet. Lahendusena võid luua eelnõu hankijaarve vahetult pärast postitamist ostutarne. Mine ning **ostutellimuse** leht &gt;**arve vahekaardi**&gt;**Loo**&gt;**arve**. See loob ootel arve dokumendi, mis värskendab projektiteavet. 
+Dynamics 365 for Operationsis ei mõjuta toote sissetuleku sisestamine projekti andmeid. Lahendusena võite koostada hankija arve mustandi otse pärast ostukviitungi sisestamist. Minge lehele **Ostutellimus** &gt; **Vahekaart Arve** &gt; **Loo** &gt; **Arve**. Nii koostatakse ootel arvedokument, mis muudab projekti andmeid. 
 
-Loomise eelnõu hankijaarve loovad pooleli projekti kandeid. 
+Hankija arve mustandi loomisel luuakse ootel projektikanded. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
-Aastal ning **kooskõlastatud kulud** leht, sammus 1 loodud kirjed suletakse ja luuakse uusi kirjeid kulu kohustuse pärit ootel hankija arve kajastamiseks. Selle **kande päritolu** välja jaoks kooskõlastatud kulu seatakse **hankija arve**.
+Lehel **Kooskõlastatud kulu** suletakse 1. etapis loodud kirjed ja luuakse uued kirjed, mis kajastavad ootel hankija arvest pärinevat kulu kooskõlastust. Kooskõlastatud kulu väljale **Kande päritolu** määratakse väärtus **Hankija arve**.
 [![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
-Hankija arve jäävad ootele, kuni tegeliku hankija arve saabub.
+Hankija arve jääb ootel olekusse, kuni saabub tegelik hankija arve.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="standard-cost-conversion-overview"></a>Standardkulu teisendamise ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel annab protsessiülevaate, mis aitab teil standardkulu teisendust seadistada ja käitada. Nimetatud toimingud on mõeldud tegemiseks pärast standardkulu teisenduse eeltingimuste täitmist. 
 
 Kasutage lehte **Standardkulude teisendused**, et teisendada valitud kaubapartii laomudel tegeliku kulu mudeli asemel standardkulu mudeliks. Teisendusprotsess hõlmab eeltingimusena lao sulgemist, üleminekuperioodi jooksul mitme sammu tegemist (mis on määratud ülemineku algus- ja lõppkuupäevaga) ning seejärel teisendamist ja sellega seotud lao sulgemist.
@@ -36,12 +39,12 @@ Kasutage lehte **Standardkulude teisendused**, et teisendada valitud kaubapartii
 -   Teisendamise sammud üleminekuperioodi jooksul – kasutage lehte **Standardkulu teisendused**, et luua teisenduskirje, mis sisaldab ka uue kuluarvestuse versiooni kasutaja määratud identifikaatorit. Tuvastate kaubad, mis nõuavad teisendust, ja sisestate siis kauba ootel standardkulud uude kuluversiooni. Kontrollite valitud kaupu, et tuvastada probleemid, mis võivad teisendamist takistada, lahendate probleemid ja kontrollite siis veel kord. Kui kaubad on kontrollimise edukalt läbinud, määrate teisenduskirje olekuks **Valmis**. Plaanitud teisendamiskuupäeval sooritate teisenduse ja lisate soovi korral lao sulgemise. Kauba laoliikumised üleminekuperioodil sisestatakse ja hinnatakse vana laomudeli alusel. Seejärel, pärast edukat teisendamist, hinnatakse laoliikumised ümber standardkuluks.
 -   Lao sulgemine enne teisendamist – lao sulgemise saab kaasata teisendamise osana planeeritud teisendamise kuupäeval või saab selle sooritada eraldi sammuna enne teisendamist.
 
-Kui teisendusprotsess on edukalt lõpule viidud, põhineb iga kauba laomudel standardkulul ja kauba standardkuul on lubatud. Järgnevad laokanded hinnatakse kauba standardkulu alusel. Lisaks teisendab süsteem kauba sissetulekute ja väljaminekute füüsilised laokanded standardkuluks teisendamise kuupäeva põhjal. Süsteem teisendab ka kauba finantsilise vaba kaubavaru standardkuluks ja sisestab väärtuse erinevuse laovarude ümberhindamisena. Kõik kanded, mis toimuvad pärast teisendamist, hinnatakse kauba standardkulu alusel. Ei saa sisestada tõstmist tagasiulatuvalt tehinguid enne tulemus, sest inventuuri lähedal peab toimuma ühe päeva enne kuupäeva teisendamine. Tulemus saab ainult juhul, kui lao sulgemine oli üks päev varem. Seda lao sulgemist ei saa tühistada.
+Kui teisendusprotsess on edukalt lõpule viidud, põhineb iga kauba laomudel standardkulul ja kauba standardkuul on lubatud. Järgnevad laokanded hinnatakse kauba standardkulu alusel. Lisaks teisendab süsteem kauba sissetulekute ja väljaminekute füüsilised laokanded standardkuluks teisendamise kuupäeva põhjal. Süsteem teisendab ka kauba finantsilise vaba kaubavaru standardkuluks ja sisestab väärtuse erinevuse laovarude ümberhindamisena. Kõik kanded, mis toimuvad pärast teisendamist, hinnatakse kauba standardkulu alusel. Te ei saa enne teisenduse kuupäeva sisestada tagasiulatuvaid kandeid, kuna varude sulgemist tuleb teha üks päev enne teisenduse kuupäeva. Teisendust saab teha ainult siis, kui varude sulgemine tehti üks päev varem. Seda lao sulgemist ei saa tühistada.
 
-## <a name="1-define-a-standard-cost-conversion-record-and-the-associated-costing-version"></a>1. Määrake standardkulu muutmise protokolli ja seotud maksavad versioon
+## <a name="1-define-a-standard-cost-conversion-record-and-the-associated-costing-version"></a>1. Määratlege standardse kulu teisenduskirje ja sellega seotud kuluversioon
 Kasutage teisenduskirje loomiseks lehte **Standardkulu teisendused**. Uue teisenduskirje saab luua ainult juhul kui olemasolevad teisenduskirjed on lõpetatud. Planeeritud ülekandeperioodi kestus määratletakse ülekande alguskuupäeva ja planeeritud konversioonikuupäevaga. Plaanitud üleminekuperiood võib kesta vaid ühe päeva. Plaanitud üleminekuperiood aitab tagada, et teisendusprotsessil on piisavalt aega kõigi etappide läbimiseks. Lao sulgemine peab olema tehtud üks päev enne ülemineku alguskuupäeva, et tasakaalustused oleksid lõpetatud enne teisendusprotsessi alustamist. Veendumaks, et ülemineku alguskuupäev ja lao sulgemise kuupäev on õigesti järjestatud, saate muuta ülekande alguskuupäeva nii, et seal oleks kuupäev, mis oleks üks päev hilisem kui olemasolev lao sulgemine, või sulgeda lao. Teisenduskirjet sisestades sisestate uuele kuluversioonile ka kasutaja määratletud identifikaatori, mis sisaldab teisendatud kaupade standardkulusid. Kuluarvestuse versioon luuakse teisenduskirje salvestamisel automaatselt.
 
-## <a name="2-review-and-change-the-new-costing-version-for-the-conversion-record"></a>2. tutvuda ja muuta maksavad uuem kirje muutmise
+## <a name="2-review-and-change-the-new-costing-version-for-the-conversion-record"></a>2. Teisenduskirje uue kuluversiooni ülevaatamine ja muutmine
 Uus kuluarvutuse versioon on määratud teisenduskirjele, nagu näitab kuluarvestuse tüüp **Teisendus**. Vastav kuluversioon sarnaneb standardsete kulude kuluversioonile ja sisaldab teisenduskirjega seotud kaupade kulukirjeid. Teisenduskirje kuluarvutuse versioonil on järgmised sätted, mis tuleks üle vaadata ja mida tuleks mitmesugustel vahekaartidel vajaduse järgi muuta.
 
 -   **Kuluarvutuse tüüp:** selle välja säte peab olema **Standardkulu**.
@@ -57,25 +60,25 @@ Uus kuluarvutuse versioon on määratud teisenduskirjele, nagu näitab kuluarves
 
 Kauba kuluteavet sellele määratud kuluarvutuse versioonis saab hallata ainult lehelt **Standardkulu teisendused**. Teisenduse ajal ei saa kuluarvutuse versiooni kulude arvutamiseks kasutada lehte **Kuluarvutuse versiooni seadistus** või **Kuluarvutuse versiooni hooldus**. Kuid saate kasutada neid lehti kuluarvutuse versiooni haldamiseks pärast teisendusprotsessi lõpuleviimist.
 
-## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Nimetage kaubad muuta standardkulu
+## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Tuvastage kaubad, mis teisendatakse standardseks kuluks.
 Tuvastage lehel** Standardkulu teisendused** eraldi üksused, mis tuleks standardkuluks teisendada. Lehel **Lisa üksusi standardkulu teisendusele** saate lisada mitu üksust. Üldjuhul peaksite lisama kõik toodetud kaubad ühte teisenduskirjesse, mis aitab tagada kulude õige arvutamise.
 
-## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Sisestage või arvutada ootel standardkulu ümber iga kauba kohta
+## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Sisestage või arvutage iga kauba puhul ootel standardsed kulud, mida teisendatakse.
 Kasutage lehte **Kauba hind**, et sisestada ootel standardkulud vastava kuluversiooni raames ostetud kaupade ja üleviidavate kaupade jaoks. Kulukirjed on laoalapõhised ja kauba ootel kulud tuleb sisestada iga laoala puhul. Kasutage lehte **Kauba hind**, et arvutada ootel standardkulud toodetavate kaupade jaoks. Toodetava kauba ootel kulud tuleb arvutada iga tootmiskoha jaoks, kui laoalaks pole üleviimisala. Sel juhul tuleb ootel kulud käsitsi sisestada. Mõnel kaubal võivad olla värvi, suuruse või konfiguratsiooni tootedimensioonid. Lehel **Standardkulu teisendused** näitab märkeruut **Kasuta omahinda variantide alusel** iga tootedimensioonide kombinatsiooni standardkulu. Kui see märkeruut on tühjendatud, tuleb kauba jaoks sisestada ainult ootel kulu.
 
-## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. kontrolli ja muudetakse kaupade seotud probleemide lahendamine
+## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Kontrollige ja lahendage teisendatavate kaupade puhul kõik probleemid.
 Aruande ** Standardkulude teisendamise kontrollimine** abil saate tuvastada probleeme teisendatavate kaupadega. Kui kaubal pole ühtegi probleemi, määratakse selle olekuks teisenduskirjes **Kontrollitud**. Kui kaubal on probleeme, tuleb probleemid lahendada ja käivitada siis aruande uuesti, kuni kauba olekuks määratakse **Kontrollitud**. Kui te kaubaga seotud probleeme õigeaegselt lahendada ei suuda, saate kauba valikuliselt teisenduskirjest kustutada ja teisendada kauba hiljem.
 
-## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. tulemus kirje oleku muutmist olekuks valmis
+## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Muutke teisenduskirje olek väärtusele Valmis
 Kui teisenduskirje olekuks määratakse **Valmis**, teeb süsteem lõpliku kontrollimise enne standardkulu teisendamist. Olekuks määratakse **Valmis** ainult juhul, kui täidetud on järgmised tingimused.
 
 -   Iga teisenduskirje üksuse olek on **Kontrollitud**.
 -   Lao sulgemine tehti kuupäeval, mis on üks päev enne ülemineku alguskuupäeva. Veendumaks, et ülemineku alguskuupäev ja lao sulgemise kuupäev on õigesti järjestatud, saate muuta ülekande alguskuupäeva nii, et seal oleks kuupäev, mis oleks üks päev hilisem kui olemasolev lao sulgemine, või sulgeda lao.
 
-## <a name="7-back-up-the-database-before-conversion"></a>7. enne teisendust andmebaasist varukoopia
+## <a name="7-back-up-the-database-before-conversion"></a>7. Varundage andmebaas enne teisendamist
 Varukoopia võimaldab andmebaasi taastada, kui teisendamise käigus peaksid ilmnema tõrked.
 
-## <a name="8-perform-the-conversion-when-the-conversion-record-has-a-ready-status"></a>8. konverteerimiseks kui tulemus kirje on valmis olek
+## <a name="8-perform-the-conversion-when-the-conversion-record-has-a-ready-status"></a>8. Tehke teisendamine, kui teisenduskirjel on olek Valmis.
 Teisendusprotsessi puhul on vaja, et lao sulgemine oleks tehtud kuupäeval, mis on üks päev enne plaanitud teisendamise kuupäeva. See nõue aitab tagada, et tagasiulatuvaid kandeid ei saa üleminekuperioodil sisestada. Kui lao sulgemist pole veel tehtud, küsitakse teilt, kas soovite seda teisendusprotsessi käigus teha. Teisendusprotsess käsitleb korraga ühte kaupa. See alustab tootestruktuuri madalaimatest üksustest, tuginedes kauba madala taseme koodile. Kui üksus on edukalt teisendatud, määratakse selle olekuks teisenduskirjes **Teisendatud**. Kui teisendusprotsess katkestatakse, on kõigil kaupadel, mida pole edukalt teisendatud, olek **Kontrollitud**. Teisendusprotsessi edukal lõpetamisel on järgmine mõju.
 
 -   Teisenduskirje olekuks määratakse oleku **Valmis** asemel **Lõpetatud** ja iga valitud üksuse olekuks määratakse oleku **Kontrollitud** asemel **Teisendatud**.
@@ -83,7 +86,7 @@ Teisendusprotsessi puhul on vaja, et lao sulgemine oleks tehtud kuupäeval, mis 
 -   Teisendatud kaupade standardkulud on vastava kuluversiooni raames lubatud.
 -   Kuluarvutuse versiooni kuluarvutuse tüübiks on määratud tüübi **Teisendus** asemel **Standardkulu** ja kuluarvutuse versioon sarnaneb nüüd teistele standardkulude arvestuse versioonile.
 
-## <a name="9-validate-and-reconcile-the-inventory-values-for-the-converted-items"></a>9. kinnitada ja ühitada teisendatud kaupade laoväärtused
+## <a name="9-validate-and-reconcile-the-inventory-values-for-the-converted-items"></a>9. Kontrollige ja viige vastavusse laovarude väärtused teisendatud kaupade puhul.
 Aruanne **Hälbe analüüsi väljavõte** võimaldab analüüsida ümberhindluse hälvet ja aruanne **Laoväärtus** võimaldab vaadata laoväärtust konkreetsel kuupäeval.
 
 -   Analüüsige ümberhindluse hälbed. Kasutage aruannet **Hälbe analüüsi väljavõte**, et vaadata lao ümberhindluse hälbeid teisendatud kaupade puhul. Samuti saate kasutada lehte **Standardkulu kanded**, et vaadata lao ümberhindluse kandeid teisendatud laovarudega kaupade puhul.
@@ -96,6 +99,8 @@ Aruanne **Hälbe analüüsi väljavõte** võimaldab analüüsida ümberhindluse
 <a name="see-also"></a>Vt ka
 --------
 
-[Prerequisites for a standard cost conversion](prerequisites-standard-cost-conversion.md)
+[Standardkulu teisendamise eeltingimused](prerequisites-standard-cost-conversion.md)
+
+
 
 

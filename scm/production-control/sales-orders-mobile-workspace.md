@@ -1,6 +1,6 @@
 ---
-title: "Müügitellimuste mobiilne tööruum Microsoft Dynamics 365 toimingute App"
-description: "Müügitellimuste mobiilne tööruumi, saate ajakohasuse müügitellimustele kõikjal ja igal ajal."
+title: "Müügitellimuste mobiilne tööruum rakendusele Microsoft Dynamics 365 for Operations"
+description: "Müügitellimuste mobiilse tööruumiga saate end oma müügitellimustega kõikjal ja alati kursis hoida."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,93 +25,93 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Müügitellimuste mobiilne tööruum Microsoft Dynamics 365 toimingute App
+# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Müügitellimuste mobiilne tööruum rakendusele Microsoft Dynamics 365 for Operations
 
-Müügitellimuste mobiilne tööruumi, saate ajakohasuse müügitellimustele kõikjal ja igal ajal. 
+Müügitellimuste mobiilse tööruumiga saate end oma müügitellimustega kõikjal ja alati kursis hoida. 
 
 <a name="prerequisites"></a>Eeltingimused
 -------------
 
 | Eeltingimus                                                         | Kirjeldus                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lugeda Microsoft Dynamics 365 toimingute mobiilne platvorm | [Dynamics 365 toimingute mobiilne platvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 toiminguteks                                          | Kindlasti kasutamisel keskkond, mis on Microsoft Dynamics 365 toiminguid versiooni 1611 ning Microsoft Dynamics toimingute platvormi update 3 (November 2016). |
-| Käigultparanduse KB 3215650                                                    | Installige käigultparandus et tööruumid, mis on esitatud Microsoft Dynamics 365 toiminguteks.                                                                       |
-| Mobiilne seade, mis on toimingute App installitud Dynamics 365 | Lae toimingute rakenduse Dynamics 365 mobiilne app-store.                                                                                                      |
+| Lugege teavet Microsoft Dynamics 365 for Operationsi mobiiliplatvormi kohta | [Dynamics 365 for Operationsi mobiilne platvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Veenduge, et kasutaksite keskkonda, millesse on installitud Microsoft Dynamics 365 for Operationsi versioon 1611 ja Microsoft Dynamics for Operationsi platvormivärskendus 3 (november 2016). |
+| Kiirparandus KB 3215650                                                    | Installige kiirparandus, et lubada rakenduses Microsoft Dynamics 365 for Operations sisestatud tööruumid.                                                                       |
+| Mobiilne seade, kuhu on installitud rakendus Dynamics 365 for Operations | Laadige mobiilirakenduste poest alla rakendus Dynamics 365 for Operations.                                                                                                      |
 
 ## <a name="overview"></a>Ülevaade
-Mobiilne tööruumi kasutab operatsioonide rakenduse Dynamics 365 ja võimaldab vaadata üksikasjalikku teavet iga müügitellimuse, nt olek, klientide ja tellimuse saaja kontaktandmed. Mobiilne tööruumi annab vahetu ülevaate müügitellimuste. Saab klient, müügitellimused või kõik müügitellimused või vaadata teavet kindla müügitellimuse. Mobiilne tööruumi pakub kahte vaadet aitavad korralduste andmisel põhjalikult analüüsida.
+see mobiilne tööruum pääseb juurde Dynamics 365 for Operationsi rakendusele ja võimaldab teil vaadata iga müügitellimuse kohta üksikasjalikke andmeid nagu tellimuse olek, kliendi kontaktandmed ja tellimuse vastuvõtja andmed. Mobiilne tööruum annab müügitellimustest kiirülevaate. Saate vaadata müügitellimusi klientide kaupa või vaadata kõiki müügitellimusi või vaadata konkreetse müügitellimuse andmeid. Mobiilne tööruum pakub kahte vaadet, mis aitavad teil müügitellimusi põhjalikult analüüsida.
 
-### <a name="view-all-sales-orders"></a>Kõik müügitellimused
+### <a name="view-all-sales-orders"></a>Kõigi müügitellimuste kuvamine
 
-See vaade loetletakse kõik müügitellimused.
+Selles vaates loetletakse kõik müügitellimused.
 
--   Vaatamiseks müügitellimusi valimiseks kasutage ühte järgmistest.
-    -   Müügitellimuste otsing
-    -   Otsida kliendi konto
-    -   Otsida kliendi nime järgi
-    -   Oleku järgi otsida
-    -   Otsinguvahendid vabastamise olek
-    -   Otsida loomise kuupäev ja kellaaeg
+-   Mõne järgmise filtri abil saate valida müügitellimused, mida vaadata soovite.
+    -   Otsing müügitellimuse alusel
+    -   Otsing kliendikonto järgi
+    -   Otsing kliendi nime järgi
+    -   Otsing oleku järgi
+    -   Otsing väljastamisoleku järgi
+    -   Otsing loomise kuupäeva ja kellaaja järgi
 
 <!-- -->
 
--   Valige müügitellimuste, kuvatakse kindlate tellimuste üksikasjad. Täpsemalt saab vaadata:
-    -   Kliendi nime ja teavet
-    -   Müügitellimuse kuupäevad, nagu nõutav lähetuskuupäev ja kinnitatud lähetuskuupäev
-    -   Tellimuse võtja kontaktandmed
+-   Pärast müügitellimuste valimist saate konkreetsete tellimuste andmeid vaadata. Täpsemalt saate vaadata järgmist.
+    -   Kliendi nimi ja aadressiandmed
+    -   Erinevad müügitellimuse kuupäevad, nt soovitud lähetuskuupäev ja kinnitatud lähetuskuupäev
+    -   Tellimuse vastuvõtja kontaktandmed
     -   Kliendi kontaktandmed
     -   Tellimuse read
-    -   Saadetised, mis näitavad, kuidas ja millal müügitellimuse lähetatud
+    -   Saadetised, mis näitavad, kuidas ja millal müügitellimus on teele pandud
 
-### <a name="view-orders-for-a-customer-"></a>Vaata tellimusi kliendi ** **
+### <a name="view-orders-for-a-customer-"></a>Kuva kliendi tellimused** **
 
-See vaade loetletakse müügitellimused kliendi kohta.
+Selles vaates on loetletud müügitellimused kliendi kohta.
 
--   Kasutage ühte järgmistest kliendi vaatamiseks.
-    -   Otsing nime järgi
-    -   Otsida konto
+-   Mõne järgmise filtri abil saate vaadata kliendi tellimusi.
+    -   Otsing nime alusel
+    -   Otsing konto alusel
 
 <!-- -->
 
--   Pärast kliendi valimist saab vaadata:
-    -   Kliendi nimi ja rühm
+-   Pärast kliendi valimist saate vaadata järgmist.
+    -   Kliendi nimi ja grupp
     -   Kliendi kontaktandmed
-    -   Kliendi müügitellimuste ja müügitellimuste üksikasju:
-        -   Kliendi nime ja teavet
-        -   Müügitellimuse kuupäevad
-        -   Tellimuse võtja kontaktandmed
+    -   Kliendi müügitellimused ja müügitellimuste andmed:
+        -   Kliendi nimi ja aadressiandmed
+        -   Erinevad müügitellimuse kuupäevad
+        -   Tellimuse vastuvõtja kontaktandmed
         -   Kliendi kontaktandmed
         -   Tellimuse read
-        -   Saadetised, mis näitavad, kuidas ja millal müügitellimuste lähetatud
+        -   Saadetised, mis näitavad, kuidas ja millal müügitellimused on teele pandud
 
 ## <a name="get-started"></a>Alusta
-Järgmiste juhiste abil mobiilsideseadmes kasutama müügitellimuste mobiilne tööruumi.
+Mobiilses seadmes müügitellimuste mobiilse tööruumi kasutamise alustamiseks tehke järgmist.
 
-1.  Mobiilirakenduse poes, alla laadida ja installida Microsoft Dynamics 365 toimingute app.
-2.  Käivitada rakendus oma seadmes.
-3.  Sisestage oma Dynamics 365 URL.
-4.  Sisestage ettevõtte sisse logima. Sisestage **USMF**.
-5.  Esimene kord, kui logite sisse, küsitakse kasutajanime ja parooli teie Microsofti Dynamics 365 operatsioonide tarbeks. Sisestage oma kasutajanimi ja parool. Pärast sisselogimist, näed saadaval tööruumid firmale.
+1.  Laadige mobiilirakenduste poest alla rakendus Microsoft Dynamics 365 for Operations ja installige see.
+2.  Käivitage rakendus oma seadmes.
+3.  Sisestage Dynamics 365 URL.
+4.  Sisestage ettevõte, millesse soovite sisse logida. Näiteks sisestage **USMF**.
+5.  Esmakordsel sisselogimisel palutakse teil sisestada oma Microsoft Dynamics 365 for Operationsi konto kasutajanimi ja parool. Sisestage oma identimisteave. Pärast sisselogimist näete oma ettevõtte jaoks saadaolevaid tööruume.
 
-Saate vaadata oma mobiilirakendus tööruumid, peab esmalt avaldama soovitud tööruumid toimingute rakenduse Dynamics 365.
+Tööruumide vaatamiseks mobiilirakenduses peate soovitud tööruumid esmalt avaldama rakenduses Microsoft Dynamics 365 for Operations.
 
-1.  Käivitage Dynamics 365 toiminguteks.
-2.  Mine **süsteemi halduse**&gt;**install**&gt;**süsteemi parameetrid**.
-3.  Valige **Halda mobiilirakendus**.
-4.  Valige tööruumis avaldada mobiilsel platvormil.
-5.  Valige **avaldada tööruumi**.
-6.  Värskendage seadme avaldatud tööruumid.
+1.  Käivitage Dynamics 365 for Operations.
+2.  Minge jaotisse **Süsteemihaldus** &gt; **Seadistus** &gt; **Süsteemi parameetrid**.
+3.  Valige suvand **Mobiilirakenduse haldamine**.
+4.  Valige tööruum mobiiliplatvormile avaldamiseks.
+5.  Valige käsk **Avalda tööruum**.
+6.  Värskendage seadet, et näha avaldatud tööruume.
 
-## <a name="view-information-about-sales-orders-for-a-customer"></a>Saate vaadata teavet müügitellimuste, kliendi
-1.  Mobiilsideseadmes, valige selle **müügitellimused** tööruumi.
-2.  Valige **Vaata tellimused kliendi**.
-3.  Kasutamise ** konto ** või ** kliendi nimi ** teavet leida soovitud kliendi.
+## <a name="view-information-about-sales-orders-for-a-customer"></a>Kliendi müügitellimuste kohta teabe kuvamine
+1.  Valige oma mobiilses seadmes tööruum **Müügitellimused**.
+2.  Valige **Kuva kliendi tellimused**.
+3.  Kasutage teavet **Konto **või **Kliendi nimi **soovitud kliendi leidmiseks.
 4.  Valige klient.
-5.  Valige **kontaktandmed** või **müügitellimused**.
-6.  Kui **müügitellimused** on valitud, kliendi müügitellimuste loend kuvatakse.
+5.  Valige **Kontaktandmed** või **Müügitellimused**.
+6.  Kui on valitud **Müügitellimused**, kuvatakse kliendi müügitellimused.
 7.  Valige **Müügitellimus**.
-8.  Siin saate vaadata teavet müügitellimuse ridade, lähetuste, klientide ja tellimuse saaja kontaktandmed.
+8.  Siin saate vaadata teavet müügitellimuse ridade ja saadetiste kohta, kliendi kontaktandmeid ja tellimuse vastuvõtja kontaktandmeid.
 
 
 

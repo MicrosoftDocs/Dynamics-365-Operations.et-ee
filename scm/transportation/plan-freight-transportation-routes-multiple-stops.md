@@ -1,5 +1,5 @@
 ---
-title: Koosta kauba veo marsruut mitu peatuste
+title: Mitme peatusega veose transpordimarsruutide plaanimine
 description: Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel Microsoft Dynamics AX-is.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Koosta kauba veo marsruut mitu peatuste
+# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Mitme peatusega veose transpordimarsruutide plaanimine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel Microsoft Dynamics AX-is.
 
@@ -48,5 +51,7 @@ Plaanitud marsruut on eelmääratud marsruudiplaan, millel on tarnekuupäevade g
 
 ## <a name="load-building-workbench"></a>Koorma koostamise töölaud
 Koorma koostamise töölaud kasutab koorma soovitamiseks müügitellimuste ja plaanitud marsruutide kliendiaadresse ja tarnekuupäevi. Vaikimisi sisestatakse marsruudi väärtused töölauale. Kuid võite valida alguskuupäeva, mis on marsruudi alguskuupäevast varasem. Koorma soovitamisel kontrollitakse kõigi avatud müügitellimuste tarneaadressi ja tarnekuupäeva. Kui tarneaadressi sihtnumber vastab marsruudiplaani keskuse sihtnumbrile ja kui tarnekuupäev on kriteeriumides valitud vahemikus, soovitatakse koormale müügitellimust. Arvestatakse ka koormamalli mahtu. Korraga pakutakse ainult ühte koormat. Kui teil on müügitellimus, mida ei arvestata, võib olla vaja kasutada teist koormamalli (nt suurema veoki või konteineri koormamalli) või plaanida täiendav tarne.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Ostureskontro kodulehekülg"
-description: "Selles teemas antakse ülevaade Ostureskontro."
+description: "Teema annab ülevaate ostureskontrost."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Ostureskontro kodulehekülg
 
-Selles teemas antakse ülevaade Ostureskontro.
+[!include[banner](../includes/banner.md)]
 
-Saate sisestada hankija arveid käsitsi või võtta neid vastu elektrooniliselt andmeüksuse kaudu. Pärast seda, kui arved on sisestatud või vastu, saate vaadata ja kinnitada arved arve kinnitamise töölehe abil või **hankija arve** lehel. Ülevaatusprotsessi automatiseerimiseks saate kasutada arvete võrdlemist, hankija arvepoliitikaid ja töövoogu, et teatud kriteeriumitele vastavad arved kinnitataks automaatselt ning ülejäänud arved märgistataks lipuga, et autoriseeritud kasutaja need üle vaataks.
+
+Teema annab ülevaate ostureskontrost. 
+
+Saate sisestada hankija arveid käsitsi või võtta neid vastu elektrooniliselt andmeüksuse kaudu. Kui arved on sisestatud või vastu võetud, saate neid üle vaadata ja kinnitada, kasutades arve kinnitamise töölehte või lehte **Hankija arve**. Ülevaatusprotsessi automatiseerimiseks saate kasutada arvete võrdlemist, hankija arvepoliitikaid ja töövoogu, et teatud kriteeriumitele vastavad arved kinnitataks automaatselt ning ülejäänud arved märgistataks lipuga, et autoriseeritud kasutaja need üle vaataks.
+
+
 
 

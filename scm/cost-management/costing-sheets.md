@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Kuluarvutustabelid
 
+[!include[banner](../includes/banner.md)]
+
+
 Kuluarvutustabeli seadistus täidab kahte eesmärki. Esimese sihina määrate müüdud kaupade maksumuse teabe kuvamise vormingu toodetud kauba või tootmistellimuse kohta. Vormindatud kuva nimetatakse kuluarvutustabeliks. Teise sihina määrate kaudse kulu arvutamise alused. Kuluarvutustabeli seadistus põhineb kulugrupi teabekuvamise funktsioonil ja kaudse kulu arvutamise valemitel. Selles artiklis on kirjeldatud kuluarvutustabeli seadistuse kahte eesmärki. 
 
 Kuluarvutustabel on vormindatud kuva teabest toodetud kaupade või tootmistellimuse jaoks müüdud kaupade kulu kohta. Kuluarvutustabeli seadistamisel saate määratleda teabe vormingu ja ka kaudsete kulude arvutamise aluse. Kuluarvutustabeli seadistus põhineb kulugrupi teabe kuvamise funktsioonil ja kaudse kulu arvutamiseks kasutatavatel valemitel. Siin leiate kuluarvutustabeli seadistamise kahe eesmärgi kohta lisateavet.
@@ -43,6 +46,8 @@ Kaks blokeerivat kuluversiooni poliitikat määravad, kas ootel kulusid saab sä
 Kui olete määratlenud kuluarvutustabeli vormingu ja kaudsete kulude arvutuse, peate läbima eraldi etapi teabe valideerimiseks ja salvestamiseks. Kuluarvutustabel tähistab ettevõtteülest vormingut tuletusreegli teabe kooskõlastatud kuvamiseks. 
 
 Kuluarvutustabel kuvatakse lehe **Kauba kulu arvutamine** osana. Kuluarvutustabeli saab kuvada toodetud kauba arvutatud kulukirje kohta lehel **Kauba hind** või tellimusekohase arvutamise kirje kohta lehel **Koosluse arvutuse tulemused**. Samuti saab selle kuvada tootmistellimuse puhul lehe **Hinnakalkulatsioon** osana.
+
+
 
 
 

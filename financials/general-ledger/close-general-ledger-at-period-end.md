@@ -1,6 +1,6 @@
 ---
 title: "Pearaamatu sulgemine perioodi lõpus"
-description: "Selles teemas on ülesanded, mida täidetakse tavaliselt pearaamatu perioodi sulgemise täites."
+description: "Selles teemas kirjeldatakse ülesandeid, mida tehakse tavaliselt pearaamatu puhul perioodi sulgemisel."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Pearaamatu sulgemine perioodi lõpus
 
-Selles teemas on ülesanded, mida täidetakse tavaliselt pearaamatu perioodi sulgemise täites. 
+[!include[banner](../includes/banner.md)]
 
-Pearaamatus võite sulgemistoiminguid teha perioodi või aasta puhul. Sulgemisprotsessid valmistavad süsteemi uueks perioodiks ette. Uut aastat ette valmistada süsteemi, peate käivitama aasta lõpuks Sule protsess. Iga organisatsioon on erinevate tootmismenetluste ja samme, mida see teeb perioodi lõpuni. Siin on mõned sammudest periood lõpeb:
+
+Selles teemas kirjeldatakse ülesandeid, mida tehakse tavaliselt pearaamatu puhul perioodi sulgemisel. 
+
+Pearaamatus võite sulgemistoiminguid teha perioodi või aasta puhul. Sulgemisprotsessid valmistavad süsteemi uueks perioodiks ette. Süsteemi uueks aastaks ettevalmistamiseks tuleb käivitada aastalõpu sulgemise protsess. Igal organisatsioonil on eri protsessid ja etapid, mida perioodi lõpus tehakse. Järgmiselt on toodud mõni valikuline etapp perioodi lõppude puhul.
 
 -   Lõpetage kõik ülesanded kõigis teistes moodulites, nagu Müügireskontro, Ostureskontro ja Varud.
 -   Veenduge, et kõik töölehed on sisestatud.
@@ -39,9 +42,11 @@ Pearaamatus võite sulgemistoiminguid teha perioodi või aasta puhul. Sulgemispr
 -   Paigutage kanded töölehele ja vaadake aruannet **Pearaamatu tööleht**.
 -   Konsolideerige, kasutades konsolideeritud ettevõtet või finantsaruandlust.
 -   Looge finantsaruandlust kasutades perioodi lõpu finantsaruanded.
--   Seadke pearaamatu perioodid suvandile **Ootel**, nii et sisestamist enam ei toimu. Saate paremaks kontrolliks piirata perioodi ka konkreetsele kasutajagrupile, kuni perioodi lõpu tegevused toimuvad. See ei ole mõistlik kehtestada kuni **jäädavalt suletud**, sest ei saa uuesti avada suletud perioodi.
+-   Seadke pearaamatu perioodid suvandile **Ootel**, nii et sisestamist enam ei toimu. Saate paremaks kontrolliks piirata perioodi ka konkreetsele kasutajagrupile, kuni perioodi lõpu tegevused toimuvad. Perioode pole soovitatav seada olekusse **Jäädavalt suletud**, kuna suletud perioodi ei saa uuesti avada.
 
-Rahaline perioodi tihedas tööruumi saab korraldada ja jälgida perioodi lõpu protsesside nõutavate ülesannete täitmiseks. Viitavad selle [rahalise perioodi tihedas tööruumi](financial-period-close-workspace.md) ja [aasta lõpus lähedal](Year-end-close.md) rohkem teavet teemadest. 
+Finantsperioodi sulgemise tööruumi abil saab korraldada ja jälgida erinevate perioodi lõpu protsesside puhul nõutavaid ülesandeid. Vt lisateavet teemadest [Finantsperioodi sulgemise tööruum](financial-period-close-workspace.md) ja [Aastalõpu sulgemine](Year-end-close.md). 
+
+
 
 
 

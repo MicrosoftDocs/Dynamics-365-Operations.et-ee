@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Tööajaarvestuse registreerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See artikkel kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks. 
 
 <a name="registrations"></a>Registreerimised
@@ -62,7 +65,7 @@ Pärast seadistamist saavad töötajad sisestada erinevat tüüpi registreerimis
 -   Kaudsed tootmisega mitteseotud tegevused, millega töötaja võib tööpäeva jooksul tegeleda. Need tegevused on näiteks koosolekud või töökoha koristamine.
 -   Ületunnitöö, mille saab registreerida kas lisatundide, paindaja või ületunnitööna.
 
-## <a name="adding-clockout-registrations"></a>Clockout registreerimiste lisamine
+## <a name="adding-clockout-registrations"></a>Väljaregistreerimiste lisamine
 Kui töötaja unustab tööpäeva lõpul välja registreeruda, saab puuduva registreerimise lisada pakett-töö käitamisega. Süsteemi võrdleb sisseregistreerimise ja väljaregistreerimise aega töötaja seostatud profiiliga ning sisestab puuduva väljaregistreerimisaja automaatselt, et ühitada see profiili lõppajaga. Nii sisse- kui ka väljaregistreerimised on väga olulised järgnevaks arvutuseks ja ajaliste registreerimiste kinnitamiseks, enne kui need saab palgaarvestusse üle kanda.
 
 ## <a name="calculating-registrations"></a>Registreerimiste arvutamine
@@ -113,6 +116,8 @@ Töötajaid, kelle tööülesanded ei nõua kohest tagasisidet, näiteks tootmis
 -   ajatarbimine.
 -   Projekti tasud
 -   Projekti kaubad
+
+
 
 
 

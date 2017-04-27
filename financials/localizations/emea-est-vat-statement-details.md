@@ -1,6 +1,6 @@
 ---
-title: "Käibemaksu väljavõtte üksikasjad Eesti"
-description: See teema selgitab kuidas km aruande juriidiliste isikutele Eestis.
+title: "KM-aruande üksikasjad Eesti puhul"
+description: "See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,77 +25,82 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-statement-details-for-estonia"></a>Käibemaksu väljavõtte üksikasjad Eesti
+# <a name="vat-statement-details-for-estonia"></a>KM-aruande üksikasjad Eesti puhul
 
-See teema selgitab kuidas km aruande juriidiliste isikutele Eestis.
+[!include[banner](../includes/banner.md)]
 
-See teema sisaldab riigi-/ regioonikohaste teavet seadistuse juures käibemaks (VAT) juriidiliste isikutele Eestis ainult. KM aruannete seadistuse kohta lisateabe saamiseks vaadake [km aruandlus](emea-vat-reporting.md).
+
+See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.
+
+See teema sisaldab riigi-/piirkonnakohast teavet käibemaksu (KM) aruande seadistamise kohta ainult Eestis asuvate juriidiliste isikute puhul. Lisateavet käibemaksuaruannete seadistamise kohta vt teemast [Käibemaksuaruanne](emea-vat-reporting.md).
 
 ## <a name="set-up-sales-tax-authorities"></a>Maksuhaldurite seadistamine
-Ja õige vormingu korral maksuhaldur käibemaksu deklaratsiooni loomiseks peate seadistama aruande paigutuse käibemaksuhalduritele. Kohta ning **maksuhaldur** lehekülg, mis on **aruande paigutus** valige **Eesti aruande paigutus**. Valige sama maksuhalduri kasutatakse käibemaksukoode käibemaksu tasakaalustusperioodi.
+Käibemaksuaruande loomist asjakohase maksuasutuse jaoks sobivas vormingus peate seadistama käibemaksuasutuste jaoks aruande paigutuse. Tehke lehel **Käibemaksuasutused** väljal **Aruande paigutus** valik **Eesti aruande paigutus**. Valige käibemaksu tasakaalustamisperioodi kohta sama käibemaksuasutus, mida kasutatakse käibemaksukoodide puhul.
 
 ## <a name="set-up-sales-tax-reporting-codes"></a>Saate häälestada käibemaksuaruandluse koode.
-Siin on näide, mis näitab Käibemaksuaruandluse koodide genereerimiseks käibemaksudeklaratsioonide kasutamist.
+Järgmises näites selgitatakse käibemaksuaruande koodide kasutamist käibemaksuaruannete loomiseks.
 
-| Käibemaksu aruandluskood | Kirjeldus                                                                                                                                                                                                                                   | Rida on km tagasi (KMD) |
+| Käibemaksu aruandluskood | Kirjeldus                                                                                                                                                                                                                                   | Käibemaksutagastuse rida (KMD) |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
-| 1                        | Toimingud ja tehingud, mida maksustatakse 20% määraga                                                                                                                                                                         | 1                            |
-| 11                       | Omatarve kaupu või teenuseid, mis maksustatakse 20%                                                                                                                                                                               | 1,1                          |
-| 2                        | Toiminguid ja tehinguid, mis maksustatakse 9% määraga                                                                                                                                                                          | 2                            |
-| 21                       | Omatarve kaupu või teenuseid, mis maksustatakse 9%                                                                                                                                                                                | 2,1                          |
-| 3                        | Toiminguid ja tehinguid, mis maksustatakse määraga 0%, mis on hinna sees                                                                                                                                                               | 3                            |
-| 31                       | Kaubad ja teenused, mis osutatakse teise liikmesriigi riigi/maksukohustuslane on piiratud vastutusega, kaasa arvatud maksukohustuslase kokku ühendusesisese käibe                                                                         | 3.1                          |
-| 311                      | Kauba ühendusesisese käibe                                                                                                                                                                                                               | 3.1.1                        |
-| 32                       | Kaupade, kaasa arvatud                                                                                                                                                                                                                    | 3.2                          |
-| 321                      | Müük reisijatele, mis hõlmab käibemaksu tagastamine                                                                                                                                                                                            | 3.2.1                        |
-| 5                        | Kokku summa, millest lahutatakse vastavalt seadusele, hinna sees on                                                                                                                                                            | 5                            |
-| 51                       | Käibemaksu, mis on tasutud või ka tasumisele import                                                                                                                                                                                                         | 5.1                          |
-| 52                       | Käibemaksu, mis on tasutud või ka tasumisele põhivarade soetamine                                                                                                                                                                                | 5.2                          |
-| 6                        | Kogu territooriumil, mis on saadud teises liikmesriigis, kaasa arvatud maksukohustuslase                                                                                                           | 6                            |
-| 61                       | Kaupade ühendusesisene soetamine                                                                                                                                                                                                         | 6.1                          |
-| 7                        | Muud kaubad ja teenused, mida maksustatakse käibemaksuga, kaasa arvatud soetamine                                                                                                                                                                    | 7                            |
-| 71                       | Kinnisasja ja metallijäätmete mis maksustatakse erikorra käibemaksu kehtestamist kinnisasja, metallijäätmete ja Väärismetallid (Vata §41) poolt                                                                    | 7.1                          |
-| 8                        | Pakkumine, mida ei maksustata                                                                                                                                                                                                                | 8                            |
-| 9                        | Esitama kauba, mis on maksustada kinnisasja käibemaksu kehtestada erikord, metallist jäätmete ja Väärismetallid (käibemaksu seaduse §1 41) ja näidatakse paigaldatava või kokkupandava koguda kaupade maksustatav väärtus | 9                            |
-| 1010                     | Korrigeerimine (+)                                                                                                                                                                                                                               | 10                           |
-| 1011                     | Täpsustused (-)                                                                                                                                                                                                                               | 11                           |
+| 1                        | Lepped ja kanded, millele kehtib 20-protsendine maksumäär                                                                                                                                                                         | 1                            |
+| 11                       | 20 protsendiga maksustavate kaupade või teenuste isevarustamine                                                                                                                                                                               | 1,1                          |
+| 2                        | Lepped ja kanded, millele kehtib 9-protsendine maksumäär                                                                                                                                                                          | 2                            |
+| 21                       | 9 protsendiga maksustavate kaupade või teenuste isevarustamine                                                                                                                                                                                | 2,1                          |
+| 3                        | Lepped ja kanded, millele kehtib 0-protsendine maksumäär. k.a                                                                                                                                                               | 3                            |
+| 31                       | Kaupade ja teenuste täielik sisetarne teise liikmesriigi maksukohuslasele / piiratud vastutusega maksukohustuslasele, k.a                                                                         | 3.1                          |
+| 311                      | Kaupade sisetarne                                                                                                                                                                                                               | 3.1.1                        |
+| 32                       | Kaupade eksport, k.a                                                                                                                                                                                                                    | 3.2                          |
+| 321                      | Müük reisijatele, mis hõlmab käibemaksu tagastamist                                                                                                                                                                                            | 3.2.1                        |
+| 5                        | Sisendkäibemaksu kogusumma, millele kohaldub mahaarvamine vastavalt seadusele, k.a                                                                                                                                                            | 5                            |
+| 51                       | Importimisel tasutud või tasutav käibemaks                                                                                                                                                                                                         | 5.1                          |
+| 52                       | Põhivara soetamisel tasutud või tasutav käibemaks                                                                                                                                                                                | 5.2                          |
+| 6                        | Kaupade ja teenuste täielik sisesoetus teise liikmesriigi maksukohuslaselt, k.a                                                                                                           | 6                            |
+| 61                       | Kaupade sisesoetus                                                                                                                                                                                                         | 6.1                          |
+| 7                        | Muude kaupade ja teenuste soetus, millele kohaldub käibemaks, k.a                                                                                                                                                                    | 7                            |
+| 71                       | Kinnisvara ja metallijäätmete soetus, mis on käibemaksuga maksustatavad kinnisvara, metallijäätmete ja väärismetallide erikorra alusel (Käibemaksuseaduse §41).                                                                    | 7.1                          |
+| 8                        | Maksuvabastusega tarne                                                                                                                                                                                                                | 8                            |
+| 9                        | Kaupade tarne, mis on käibemaksuga maksustatavad kinnisvara, metallijäätmete ja väärismetallide erikorralduste alusel (Käibemaksuseaduse §41 1). | 9                            |
+| 1010                     | Korrigeerimised (+)                                                                                                                                                                                                                               | 10                           |
+| 1011                     | Korrigeerimised (–)                                                                                                                                                                                                                               | 11                           |
 
-## <a name="set-up-vat-declaration-tax-codes"></a>Käibemaksu deklaratsiooni käibemaksukoodide seadistamine
-Käibemaksu deklaratsiooni maksu koode kasutatakse käibemaksukoodide vastendamiseks väärtused, mis on vajalikud avalduses (20, 9, 20erikord, või 9erikord). Peale iga maksukoodi saate määrata valikuline müük ja kommentaar ostutähiseid (01, 02 või 03 vastas ja 11 või 12 ostmiseks). Luua käibemaksu deklaratsiooni maksu koodi kohta ning **käibemaksu deklaratsiooni maksu koodi** lehekülg, määrata järgmised väljad.
+## <a name="set-up-vat-declaration-tax-codes"></a>Käibemaksudeklaratsiooni maksukoodide seadistamine
+Käibemaksudeklaratsiooni maksukoode kasutatakse käibemaksukoodide vastendamiseks deklaratsioonis nõutavate väärtustega (20, 9, 20erikord või 9erikord). Peale selle saate iga maksukoodi puhul määrata valikulised müügi- ja ostu seletuskoodid (01, 02 või 03 müügi puhul, 11 või 12 ostu puhul). Käibemaksudeklaratsiooni maksukoodide seadistamiseks määrake lehel **Käibemaksudeklaratsiooni maksukood** järgmised väljad.
 
 | Väli                    | Kirjeldus                                                                                   |
 |--------------------------|-----------------------------------------------------------------------------------------------|
-| Käibemaksukood           | Saate valida käibemaksukoodi, mida kasutatakse müügi- ja ostuarvetelt.                        |
-| Käibemaksudeklaratsiooni maksukood | Sisestage kood, mis ilmub deklaratsiooni.                                           |
-| Erikood             | Kommentaar sisestage, mis ilmuvad müüki ja osta deklaratsiooni lisad. |
+| Käibemaksukood           | Märkige käibemaksukood, mida kasutatakse müügi- või ostuarvete puhul.                        |
+| Käibemaksudeklaratsiooni maksukood | Sisestage deklaratsioonil kuvatav kood.                                           |
+| Erikood             | Sisestage seletuskood, mis kuvatakse deklaratsiooni müügi- ja ostulisades. |
 
-## <a name="configure-the-electronic-reporting-model-and-format-for-the-report"></a>Konfigureerida e mudel ja aruande vormi kohta
-Läbivaatamiseks või muutmiseks käibemaksu aruanne konfigureerimise kohta nende **aruandluse koosseisud** avamiseks valige **käibemaksu deklaratsiooni mudel**. Seda mudelit kasutatakse Austria, Tšehhi Vabariigi, Eesti, Soome, Läti ja Leedu ning kokku maksuandmete, mis on vajalik käibemaksu deklaratsiooni. Klõpsake **disainer** üle vaadata või muuta mudeli. Läbivaatamiseks või muutmiseks käibemaksu aruande vormi kohta on **aruandluse koosseisude** avamiseks valige **käibemaksu deklaratsiooni mudel**, ja seejärel klõpsake **disainer**.
+## <a name="configure-the-electronic-reporting-model-and-format-for-the-report"></a>Elektroonilise aruandlusmudeli ja aruande vormingu konfigureerimine
+Käibemaksuaruande konfiguratsiooni vaatamiseks või muutmiseks tehke lehel **Aruandluse konfiguratsioonid** valik **Käibemaksudeklaratsiooni mudel**. Sama mudelit kasutatakse Austria, Tšehhi Vabariigi, Eesti, Soome, Läti ja Leedu puhul ning koondmaksuandmete puhul, mis on käibemaksudeklaratsiooni jaoks nõutavad. Mudeli ülevaatamiseks või muutmiseks klõpsake valikut **Kujundaja**. Käibemaksuaruande vormingu vaatamiseks või muutmiseks tehke lehel **Aruandluse konfiguratsioonid** valik **Käibemaksudeklaratsiooni mudel** ja seejärel klõpsake valikut **Kujundaja**.
 
-## <a name="generate-a-vat-statement"></a>KM aruande loomine
-Käibemaksuaruande perioodi, Settle ja post käibemaksu lõpus arvutab protsessi avaldus summade määratlemisel Käibemaksuaruandluse koodid, mille lõite.
+## <a name="generate-a-vat-statement"></a>Käibemaksuaruande loomine
+Käibemaksu aruandlusperioodi lõpus arvutab käibemaksu tasakaalustamise ja sisestamise protsess aruande reasummad teie loodud käibemaksu aruandluskoodide määratlemiseks.
 
--   Kui ettevõte kasutama km-registri kuupäeva asemel selle kuupäeva, on **kuupäev käibemaksukohustuslaste registrisse** sisse-välja ning **pearaamatu parameetrite** lehel tuleb valida.
--   **Eesti aruande paigutus** tuleb valida vastavalt konfigureeritud tasakaalustusperioodi maksuhalduri aruande paigutust.
--   Kui on **tingimuslik käibemaks** ruudu kohta on **pearaamatu parameetrite** lehekülg, Eesti käibemaksu deklaratsiooni toetada kassapõhist raamatupidamisarvestust ja müügi ja ostu lisades tuleb täita.
+-   Kui ettevõte peab kasutama käibemaksukande kuupäeva asemel käibemaksuregistri kuupäeva, peab väli **Käibemaksuregistri kuupäev** lehel **Pearaamatu parameetrid** olema valitud.
+-   Tasakaalustamisperioodi jaoks konfigureeritud käibemaksuasutuse aruande paigutusena peab olema valitud **Eesti aruandepaigutus**.
+-   Kui lehel **Pearaamatu parameetrid** on valitud väli **Tingimuslik käibemaks**, toetab Eesti käibemaksudeklaratsioon sularahaarvestuse skeemi ning müügi- ja ostulisad peavad olema täidetud.
 
-Luua käibemaksu XML-faili, et **käibemaksu maksete** lehekülg, valige üks või mitu kanded ja seejärel klõpsake **käibemaksu eksportida XML-faili**. **Märkused.**
+Käibemaksu XML-faili loomiseks valige lehel **Käibemaksu maksed** üks või mitu kannet ja klõpsake valikut **Ekspordi käibemaksu XML-fail**. **Märkused.**
 
--   Valige mitu käibemaksu tasumise rida nõutud tähtajaks.
--   Kui valitud ridade esines rohkem kui ühe perioodi, kuvatakse tõrketeade.
+-   Saate iga nõutud perioodi kohta valida rohkem kui ühe käibemaksu makserea.
+-   Kui valitud read esinevad rohkem kui ühes tasakaalustamisperioodis, saate tõrketeate.
 
-Seadke järgmised väljad.
+Seejärel määrake järgmised väljad.
 
 | Väli                                          | Kirjeldus                                                                                                                         |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Vormingu vastendamine                                 | Määrake nimi ja eksporditud XML faili.                                                                                 |
-| Nimi                                           | Saate määrata töötaja, kes loob deklaratsiooni.                                                                                   |
-| Deklaratsiooni perioodi tüüp                        | Valige järgmise deklaratsiooni tüüp: **normaalne** või **pankroti**.                                                        |
-| Arve lävi                              | Määrake minimaalne kogu netosumma arvete kliendi või hankija puhul on aruandlusperioodi jooksul mis sisaldama lisades. |
-| Deklaratsiooni (ja selle **eksportida** väli)    | Seadke selle suvandi väärtuseks **Jah** eksportimise deklaratsiooni keha.                                                                          |
-| Müügi lisa (ja selle **eksportida** väli)    | Seadke selle suvandi väärtuseks **Jah** eksportida ja lisas müük.                                                  |
-| Ostu lisa (ja selle **eksportida** väli) | Seadke selle suvandi väärtuseks **Jah** eksportida ja lisas ostu.                                               |
+| Vormingu vastendamine                                 | Määrake eksporditud XML-faili nimi ja tee.                                                                                 |
+| Nimi                                           | Määrake töötaja, kes loob deklaratsiooni.                                                                                   |
+| Deklaratsiooni perioodi tüüp                        | Valige üks järgmistest deklaratsioonitüüpidest: **Tavaline** või **Pankrot**.                                                        |
+| Arve lävi                              | Määrake lisadesse kaasatav arvete minimaalne kogu netosumma kliendi või hankija kohta aruandlusperioodil. |
+| Deklaratsioon (väljagrupis **Eksport**)    | Deklaratsiooni kehateksti eksportimiseks määrake selle valiku sätteks **Jah**.                                                                          |
+| Müügilisa (väljagrupis **Eksport**)    | Arvete ja kreeditarvete eksportimiseks müügilisasse määrake selle valiku sätteks **Jah**.                                                  |
+| Ostulisa (väljagrupis **Eksport**) | Arvete ja kreeditarvete eksportimiseks ostulisasse määrake selle valiku sätteks **Jah**.                                               |
 
-**Märkus:** väärtusi ning **perioodi** väli luuakse automaatselt, vastavalt võimaluste kohta ning **Käibemaksu tasakaalustusperioodid** lehel. Seadistatud käibemaksu tasakaalustusperioode, minge selle **Käibemaksu tasakaalustusperioodid** lehel.
+**Märkus.** Väljade väärtused väljagrupis **Periood** sisestatakse automaatselt lehel **Käibemaksu tasakaalustusperioodid** tehtud valikute põhjal. Käibemaksu tasakaalustusperioodid saate seadistada lehel **Käibemaksu tasakaalustamisperioodid**.
+
+
 
 

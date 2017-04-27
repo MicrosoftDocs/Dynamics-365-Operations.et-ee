@@ -1,6 +1,6 @@
 ---
-title: "Põhivara võõrandamise Eestis ja Leedus"
-description: "See teema pakub teavet kreeditarvete Postitaja kasutajatele juriidiliste isikute kandideerima vabas vormis arve põhivara hävitamiseks."
+title: "Põhivarade likvideerimine Eesti ja Leedu puhul"
+description: "See teema pakub teavet Eestis ja Leedus asuvate juriidiliste isikute kasutajate puhul vabas vormis arvete sisestatud põhivarade likvideerimise kreeditarvete kohta."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 2017-01-11 14 - 59 - 00
@@ -25,18 +25,18 @@ ms.lasthandoff: 03/30/2017
 
 ---
 
-# <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Põhivara võõrandamise Eestis ja Leedus
+# <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Põhivarade likvideerimine Eesti ja Leedu puhul
 
-See teema pakub teavet kreeditarvete Postitaja kasutajatele juriidiliste isikute kandideerima vabas vormis arve põhivara hävitamiseks.
+See teema pakub teavet Eestis ja Leedus asuvate juriidiliste isikute kasutajate puhul vabas vormis arvete sisestatud põhivarade likvideerimise kreeditarvete kohta.
 
-Põhivara müüakse funktsiooni kõrvaldamise kaudu vabas vormis arve, põhivara žurnaali või peažurnaali pearaamatus. Lisateabe saamiseks vaadake [põhivara likvideerimine konteerimiseks](fixed-assets/fixed-asset-disposal-posting-accounts.md). Põhivara võõrandamise kreeditarve funktsiooni abil kasutajate juriidilistele isikutele Eestis ja Lätis luua krediteerimismärgukirjaga vabas vormis arve põhivara müügiga ja siis pärast seda. Kummuta vabas vormis arve põhivara müügiks loodud kreeditarve loomiseks tehke järgmist:
+Põhivarasid saab müüa likvideerimisfunktsiooni abil vabas vormis arve, põhivara töölehe või päevaraamatu kaudu pearaamatus. Lisateavet vt teemast [Põhivara likvideerimise sisestuskontod](fixed-assets/fixed-asset-disposal-posting-accounts.md). Põhivarade likvideerimise kreeditarve funktsioon võimaldab Eestis ja Leedus asuvate juriidiliste isikute kasutajatel luua koos põhivara müügiga kreeditarve vabas vormis arve jaoks ja selle siis sisestada. Kreeditarve loomiseks. et tühistada vabas vormis arve, mis loodi põhivara müügi alusel, tehke järgmist.
 
-1.  Klõpsake **laekumata arved**&gt;**arvete**&gt;**kõik vabas vormis arved**.
-2.  Vabas vormis arve, loote kreeditarve jaoks valimine
-3.  Updatehagi paani ja selle **tühistada** grupis on **arve** vahekaardil, klõpsake **Loo kreeditarve**. **Märkus:** luues kreeditarve, lisage iga kanderea vaba teksti arvelt.
-4.  Valige selle **luua korrigeeriv** ruut pöördumise liini ja korrigeeriva rea lisamiseks algse vabas vormis arve ridadele kande kreeditarve.
-5.  Kreeditarve konteerida.
+1.  Klõpsake valikuid **Müügireskontro** &gt; **Arved** &gt; **Kõik vabas vormis arved**.
+2.  Valige vabas vormis arve, mille jaoks loote kreeditarvet.
+3.  Klõpsake toimingupaanil vahekaardi **Arve** grupis **Tühista** valikut **Loo kreeditarve**. **Märkus.** Kui loote kreeditarve, peate kaasama vabas vormis arve kõik kanderead.
+4.  Märkige ruut **Loo parandusread**, et lisada kreeditarvele tühistamisrida ja parandusrida vabas vormis arve iga kanderea kohta.
+5.  Sisestage kreeditarve.
 
-Selle kreeditarve konteerimisel loodud kanded põhivara kõrvaldamise tühistatakse. Oleku põhivara jääb **müüdud**. Ikka muutmiseks põhivara olekut käsitsi, kui vaja.
+Põhivara likvideerimise kanded, mis loodi kreeditarve sisestamisel, tühistatakse. Põhivara olekuks jääb **Müüdud**. Vajaduse korral saate siiski põhivara olekut käsitsi muuta.
 
 

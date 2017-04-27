@@ -1,6 +1,6 @@
 ---
-title: "Eelarve planeerimise põhjendus dokumentide"
-description: "Põhjendus dokumentide saadakse jutustav taotleda eelarve selgitada koondeelarve vajalikkust."
+title: "Eelarve plaanimise põhjendusdokumendid"
+description: "Põhjendusdokumendid pakuvad eelarvetaotlejatele teatud eelarve vajalikkust põhjendavaid selgitusi."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,47 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-planning-justification-documents"></a>Eelarve planeerimise põhjendus dokumentide
+# <a name="budget-planning-justification-documents"></a>Eelarve plaanimise põhjendusdokumendid
 
-Põhjendus dokumentide saadakse jutustav taotleda eelarve selgitada koondeelarve vajalikkust. 
+[!include[banner](../includes/banner.md)]
 
-Eelarve kava malli eelarve manager Microsoft Wordis loodud ja määratud praegune eelarve planeerimise protsessi. Eelarve omanikud siis avage Mall ja on andmed täidetakse automaatselt Wordi vastavalt nende eelarve taotluse. Seejärel saate nad lisada täiendava teksti või andmete salvestamine ja oma isikupärastatud põhjendus dokumendi seotud nende eelarve plaan enne.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Saate seadistada Microsoft Dynamics Office Add-in Microsoft Wordi
+Põhjendusdokumendid pakuvad eelarvetaotlejatele teatud eelarve vajalikkust põhjendavaid selgitusi. 
 
-1.  Uue Microsoft Wordi dokumendi avamiseks.
-2.  Klõpsake **lisada** lint ja klõpsake **poe**.
-3.  Otsi Microsoft Dynamics Office'i lisandmoodul ja klõpsake **lisa**.
-4.  Parempoolsel paanil klõpsake Wordis **lisa info**.
+Eelarvehaldur loob Microsoft Wordis eelarveplaani malli ja määrab selle praegusse eelarve plaanimise protsessi. Seejärel saavad eelarve omanikud malli avada ja andmed Wordis automaatselt sisestada oma eelarvetaotluse põhjal. Pärast seda on võimalik lisada täiendavat teksti või andmeid ning seejärel isikupärastatud põhjendusdokument salvestada ja manustada eelarveplaanile.
+
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Microsoft Dynamics Office’i lisandmooduli seadistamine Microsoft Wordi jaoks
+
+1.  Avage uus Microsoft Wordi dokument.
+2.  Klõpsake lindil valikut **Sisesta** ja siis valikut **Pood**.
+3.  Otsige Microsoft Dynamics Office’i lisandmoodulit ja klõpsake nuppu **Lisa**.
+4.  Klõpsake Wordi paremal paanil valikut **Lisa serveriteave**.
 5.  Tippige või kleepige serveri URL ja klõpsake **OK**.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>Määratleda põhjenduse malli Microsoft Wordis
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Põhjendusmalli määratlemine Microsoft Wordis
 
-1.  Klõpsake **projekti** in Microsoft Dynamics Office'i lisandmooduli pärast.
-2.  Päises olevat teavet, kasutada selle **väljade** nuppu.
-3.  Valige olemi andmete allikas BudgetPlanJustification ja klõpsake **järgmise**. **Märkus:** see ettevõte kohustatud dokumentidega põhjendus. Teiste üksuste kasutamist aga üleslaadimise tagasi Microsoft Dynamics 365 operatsioonide nurjub, kui selle olemi ei sisaldu.
-4.  Lisada BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ja DocumentNumber siltide ja väärtuste Wordi dokumendis. **Märkus:** abil saate kohandatud sildid, mitte standardsilte, kui vaja.
-5.  Klõpsake **teha** lõpetamiseks päisesse.
-6.  Klõpsake rea tasandil detail kava eelarvesummad, **lisa tabelis**.
-7.  Uuesti, valige olemi andmete allikas BudgetPlanJustification ja klõpsake **järgmise**.
-8.  Lisage väljad, EffectiveDate, ScenarioName, AccountDisplayValue ja AccountingCurrencyExpenseAmount. **Märkus:** kommentaarid on saadaval lisa jooksul üksikutele eelarveridadele kava, kui need saab lisada tabelis siin.
-9.  Lisada täiendavaid juhiseid anda lõppkasutajale ja teha vajalikud vormingu või juuksuris dokumendile.
-10. Dokumendi salvestamiseks oma arvutisse ja sulgege see enne jätkamist.
+1.  Klõpsake Microsoft Dynamics Office’i lisandmoodulis pärast sisselogimist nuppu **Kujundus**.
+2.  Päiseteabe jaoks kasutage nuppu **Lisa välju**.
+3.  Valige atribuudi BudgetPlanJustification üksuse andmeallikas ja klõpsake nuppu **Edasi**. **Märkus.** See üksus on nõutav kõigi põhjendusdokumentide puhul. Muid üksusi võib kasutada, kuid uuesti üleslaadimine rakendusse Microsoft Dynamics 365 for Operations nurjub, kui see olem pole kaasatud.
+4.  Lisage Wordi dokumenti atribuutide BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ja DocumentNumber sildid ning väärtused. **Märkus.** Vajaduse korral saate standardsiltide asemel kasutada oma kohandatud silte.
+5.  Päisejaotisega lõpetamiseks klõpsake nuppu **Valmis**.
+6.  Eelarveplaani summade reatasemel üksikasjade saamiseks klõpsake valikut **Lisa tabel**.
+7.  Valige jälle atribuudi BudgetPlanJustification üksuse andmeallikas ja klõpsake nuppu **Edasi**.
+8.  Lisage väljad atribuutide EffectiveDate, ScenarioName, AccountDisplayValue ja AccountingCurrencyExpenseAmount jaoks. **Märkus.** Kui üksikutele eelarveplaani ridadele lisamiseks on kommentaarid saadaval, saab need siin tabelisse lisada.
+9.  Lisage muud lõppkasutajale pakutavad lisajuhised ning tehke dokumendile vajalikud vormindus- ja laadimuudatused.
+10. Enne jätkamist salvestage dokument kohalikku arvutisse ja sulgege fail.
 
-##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Saate seadistada eelarve planeerimise protsessi põhjenduse malli
+##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Eelarve plaanimise protsessi seadistamine põhjendusmalli kasutamiseks
 
-1.  Minge Microsoft Dynamics 365 toiminguteks, **eelarve koostamise**&gt;**install**&gt;**eelarve planeerimise**&gt;**põhjendus dokumendimallid**.
-2.  Klõpsake **uus** ja liikuge äsja loodud Microsoft Wordi dokumenti.
-3.  Sisestage malli kuvatav nimi ja kirjeldus. Click **OK**.
-4.  Mine **eelarve koostamise**&gt;**install**&gt;**eelarve****planeerimine**&gt;**eelarve planeerimise protsessi**.
-5.  Valige protsess, kus põhjenduse malli võib kasutada, ja klõpsake **muuta**.
-6.  Aastal ning **põhjendus dokumendimalli** välja, valige asjakohane mall ja salvestage.
+1.  Minge Microsoft Dynamics 365 for Operationsis jaotisse **Eelarvestus** &gt; **Seadistus** &gt; **Eelarve plaanimine** &gt; **Põhjendusdokumendi mallid**.
+2.  Klõpsake nuppu **Uus** ja sirvige vastloodud Microsoft Wordi dokumendini.
+3.  Sisestage malli kuvatav nimi ja kirjeldus. Klõpsake **OK**.
+4.  Minge jaotisse **Eelarvestus** &gt; **Seadistus** &gt; **Eelarve** **plaanimine** &gt; **Eelarve plaanimise protsess**.
+5.  Valige protsess, kus malli tuleb kasutada, ja klõpsake nuppu **Redigeeri**.
+6.  Valige väljal **Põhjendusdokumendi mall** sobiv mall ja salvestage.
 
-##### <a name="edit-and-save-personalized-justification-documents"></a>Redigeerige ja salvestage isikupärastatud põhjendus dokumentide
+##### <a name="edit-and-save-personalized-justification-documents"></a>Isikupärastatud põhjendusdokumentide redigeerimine ja salvestamine
 
-1.  Dynamics 365 toiminguteks, luua uus eelarve või avada olemasoleva eelarve plaani.
-2.  Aastal ning **põhjendus** vaikimisi, valige **luua uus põhjendus**.
-3.  Kui andmed on täidetud, valige laadida isikustatud dokument: selle **põhjendus** vaikimisi.
+1.  Looge Dynamics 365 for Operationsis uus eelarveplaan või avage olemasolev.
+2.  Valige ripploendist **Põhjendus** suvand **Uue põhjenduse loomine**.
+3.  Pärast üksikasjade sisestamist valige rippmenüüst **Põhjendus** isikupärastatud dokumendi üleslaadimine.
+
+
 
 
 

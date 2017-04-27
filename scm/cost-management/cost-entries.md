@@ -40,7 +40,7 @@ Registreeritakse üleviimistöölehe sündmus. Sündmus edastab ühe kauba A üh
 
 ### <a name="example-2-cost-entries-are-created"></a>Näide 2: luuakse kulukirjed
 
-Registreeritakse üleviimistöölehe sündmus. Sündmuse üle ühe üleviimiseks kauba A saidilt 1 ala 2. Saidi varude dimensiooni peetakse eseme maksumus. Seetõttu loob sündmus kaks laokannet ja kaks kulukirjet.
+Registreeritakse üleviimistöölehe sündmus. Sündmus edastab ühe kauba A ühiku laoalalt 1 laoalale 2. Laoala varude dimensioon arvestatakse kuluobjekti osaks. Seetõttu loob sündmus kaks laokannet ja kaks kulukirjet.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>Näide 3: luuakse üks kulukirje
 
@@ -59,11 +59,11 @@ Uus leht **Kulukirjed** võimaldab vaadata ja juhtida koguste ja kulude registre
 | 00002   | 20-01-2015 | Ostutellimus | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 31-01-2015 | Korrigeerimine     | 100001 | 0000101 |               |               |          | 15,00   |
 
-Lehel **Kulukirjed** saab filtreerida dokumendi ID ja dokumendi kuupäeva alusel. **Märkus:** soetusmaksumuse kanded on saadaval ainult [maksab objektide](cost-object.md) või vabastatud toodete.
+Lehel **Kulukirjed** saab filtreerida dokumendi ID ja dokumendi kuupäeva alusel. **Märkus.** Kulukirjed on saadaval ainult [kuluobjektide](cost-object.md) või väljastatud toodete puhul.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Cost objects](cost-object.md)
+[Kuluobjektid](cost-object.md)
 
 

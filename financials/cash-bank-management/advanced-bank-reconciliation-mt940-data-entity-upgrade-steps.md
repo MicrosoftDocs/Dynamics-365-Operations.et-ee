@@ -1,5 +1,5 @@
 ---
-title: "Pangakonto sobitamise MT940 Import – Advanced komposiit olemi uuendada"
+title: "Täpsem panga vastavusseviimise MT940 import – liitandmeüksuse täiendamise etapid"
 description: "Järjekorranumber tuleb lisada pangaväljavõtte impordiüksusele, et toetada MT940 vormingut."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Pangakonto sobitamise MT940 Import – Advanced komposiit olemi uuendada
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Täpsem panga vastavusseviimise MT940 import – liitandmeüksuse täiendamise etapid
+
+[!include[banner](../includes/banner.md)]
+
 
 Järjekorranumber tuleb lisada pangaväljavõtte impordiüksusele, et toetada MT940 vormingut. 
 
 Kasutage järgmiseid etappe, et lisada pangaväljavõtte impordiüksus MT940 vormingu toetamiseks.
 
 1.  Kompileerige ja sünkroonige järgmine:
-    -   Üksuse töö alustamiseks\\BankStatementImportEntity
-    -   Ettevõte\\BankStatementBalanceEntity
-    -   Ettevõte\\BankStatementDocumentEntity
-    -   Ettevõte\\BankStatementEntity
-    -   Ettevõte\\BankStatementLineEntity
+    -   Liitüksus\\BankStatementImportEntity
+    -   Üksus\\BankStatementBalanceEntity
+    -   Üksus\\BankStatementDocumentEntity
+    -   Üksus\\BankStatementEntity
+    -   Üksus\\BankStatementLineEntity
     -   Tabelid\\BankStatementStaging
 
-2.  Andmete haldamine\\andmete projekte.
+2.  Andmehaldus\\andmeprojektid.
     1.  MT940 importimisprojekti(de) laadimine
         1.  Muutke XSLT-d.
             -   Klõpsake suvandit **Kuva kaart**.
@@ -58,6 +61,8 @@ Kasutage järgmiseid etappe, et lisada pangaväljavõtte impordiüksus MT940 vor
                 -   Kontrollige, kas **SequenceNumber** on vastendatud valikult Allikas valikule Ajastamine.
 
 3.  Importige uus väljavõte.
+
+
 
 
 

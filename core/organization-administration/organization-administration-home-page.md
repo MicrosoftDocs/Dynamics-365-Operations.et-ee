@@ -1,6 +1,6 @@
 ---
 title: "Organisatsioonihalduse kodulehekülg"
-description: See teema viitab ressursside, mis aitavad teil kasutada Microsoft Dynamics 365 operatsioonide organisatsiooni.
+description: Teema viitab ressurssidele, mis aitavad teil Microsoft Dynamics 365 for Operationsi oma organisatsioonis kasutada.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>Organisatsioonihalduse kodulehekülg
 
-See teema viitab ressursside, mis aitavad teil kasutada Microsoft Dynamics 365 operatsioonide organisatsiooni.
+[!include[banner](../includes/banner.md)]
+
+
+Teema viitab ressurssidele, mis aitavad teil Microsoft Dynamics 365 for Operationsi oma organisatsioonis kasutada.
 
 <a name="number-sequences"></a>Numbriseeriad
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [Viisardi abil saate seadistada numbriseeriate](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (ülesande juhend)
--   [Eraldi seadistama](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (ülesande juhend)
+-   [Numbriseeriate ülevaade](number-sequence-overview.md)
+-   [Numbriseeriate seadistamine viisardit kasutades](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (tegevusjuhis)
+-   [Eraldi numbriseeriate seadistamine](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (tegevusjuhis)
 
 ## <a name="address-books"></a>Aadressiraamatud
--   [Address books](qa-address-books.md)
--   [Ülevaade: Globaalse aadressiraamatu](overview-global-address-book.md)
--   [Planeerimise konfiguratsiooni globaalse ja täiendavad aadressiraamat](plan-configuration-global-address-book-additional-address-books.md)
+-   [Aadressiraamatud](qa-address-books.md)
+-   [Ülevaade: globaalne aadressiraamat](overview-global-address-book.md)
+-   [Globaalse aadressiraamatu ja täiendavate aadressiraamatute konfigureerimise plaanimine](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>Töövoog
--   [Overview of the workflow system](overview-workflow-system.md)
+-   [Töövoo süsteemi ülevaade](overview-workflow-system.md)
 -   [Töövoo süsteemi arhitektuur](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
+-   [Töövoo elemendid](workflow-elements.md)
+-   [Töövoo tegevused](workflow-actions.md)
 -   [Töövoo loomine](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
+-   [Töövoo atribuutide konfigureerimine](configure-workflow-properties.md)
 -   [Käsitsi ülesande konfigureerimine](configure-manual-task-workflow.md)
 -   [Automatiseeritud ülesande konfigureerimine](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [Kinnitusprotsessi konfigureerimine](configure-approval-process-workflow.md)
 -   [Kinnitussammude konfigureerimine](configure-approval-step-workflow.md)
 -   [Käsitsi otsuse konfigureerimine](configure-manual-decision-workflow.md)
 -   [Tingimusliku otsuse konfigureerimine](configure-conditional-decision-workflow.md)
 -   [Paralleeltegevuse konfigureerimine](configure-parallel-activity-workflow.md)
 -   [Paralleelharu konfigureerimine](configure-parallel-branch-workflow.md)
--   [Seadistada rea-üksuse töövoo element](configure-line-item-workflow.md)
+-   [Reakauba töövoo elemendi konfigureerimine](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>Juhtumihaldus
--   [Planeerimine: Kohtuasi seadistamine](plan-case-management.md)
--   [Juhtumikorraldamise näited](cases.md)
+-   [Plaanimine: juhtumi häälestus](plan-case-management.md)
+-   [Juhtumihalduse näited](cases.md)
 
-## <a name="electronic-signatures"></a>Elektrooniliste allkirjade
--   [Electronic signature overview](electronic-signature-overview.md)
--   [Luua elektrooniliste allkirjade](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (ülesande juhend)
+## <a name="electronic-signatures"></a>Digitaalallkirjad
+-   [Digitaalallkirja ülevaade](electronic-signature-overview.md)
+-   [Digitaalallkirjade seadistamine](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (tegevusjuhis)
 
 ## <a name="organizations"></a>Organisatsioonid
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   [Mis kaalutlustel luua](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (ülesande juhend)
--   [Luua organisatsiooni hierarhia](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (ülesande juhend)
--   [Luua juriidilise isiku](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (ülesande juhend)
+-   [Organisatsioonid ja organisatsiooni hierarhiad](organizations-organizational-hierarchies.md)
+-   [Organisatsiooni hierarhia plaanimine](plan-organizational-hierarchy.md)
+-   [Tootmisüksuse loomine](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (tegevusjuhis)
+-   [Organisatsiooni hierarhia loomine](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (tegevusjuhis)
+-   [Juriidilise isiku loomine](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (tegevusjuhis)
 
-## <a name="general-administration"></a>Üldhaldus
--   [Muuta banner või logo](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (ülesande juhend)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+## <a name="general-administration"></a>Üldine haldus
+-   [Ribareklaami või logo muutmine](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (tegevusjuhis)
+-   [Kuupäeva/aja andmed ja ajavööndid](date-time-zones.md)
+-   [Kirjemallid](record-templates.md)
+
+
 
 
 

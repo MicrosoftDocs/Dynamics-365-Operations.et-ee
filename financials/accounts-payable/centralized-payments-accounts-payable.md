@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Ostureskontro tsentraliseeritud maksed
 
+[!include[banner](../includes/banner.md)]
+
+
 Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse, Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
 
 Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse, Peale selle säästab organisatsioon aega, kuna makseprotsess on sujuv.
@@ -66,14 +69,14 @@ Fabrikam Eastil on avatud arve hankija kontole 100, Fourth Coffee. Fabrikam mä�
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                           | Deebetsumma | Kreeditsumma |
 |-----------------------------------|--------------|---------------|
 | Võlg Ida Fabrikamilt (Fabrikam) | 600,00       |               |
 | Ostureskontro (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                          | Deebetsumma | Kreeditsumma |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Arvel on 20,00 sula
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                           | Deebetsumma | Kreeditsumma |
 |-----------------------------------|--------------|---------------|
 | Võlg Ida Fabrikamilt (Fabrikam) | 580,00       |               |
 | Ostureskontro (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                          | Deebetsumma | Kreeditsumma |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Fabrikam määrab j
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                           | Deebetsumma            | Kreeditsumma           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Fabrikam määrab j
 | Realiseeritud kahjum (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Võlg Ida Fabrikamilt (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                          | Deebetsumma            | Kreeditsumma           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Arvel on saadaval s
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                           | Deebetsumma            | Kreeditsumma           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Arvel on saadaval s
 | Realiseeritud kahjum (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Võlg Ida Fabrikamilt (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                          | Deebetsumma            | Kreeditsumma           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Arvel on saadaval s
 | Skonto (Ida Fabrikam)    |                         | 11,28 EUR / 13,61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Näide 5: hankija kreeditarve esmase maksega
-Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse tasakaalustatakse Fabrikam Westi hankijale 3004 avatud arvega ja avatud kreeditarvega Fabrikam Easti hankijale 100. Makse on märgitud esmase maksena on **paralleelkäibe** lehel.
+Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse tasakaalustatakse Fabrikam Westi hankijale 3004 avatud arvega ja avatud kreeditarvega Fabrikam Easti hankijale 100. Makse valitakse esmase maksena avatud lehel **Kannete tasakaalustamine**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Arve sisestatakse Lääne Fabrikami tarnijale 3004
 
@@ -224,7 +227,7 @@ Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikami makse tasakaalustatakse Lääne Fabrikami arvega ja Ida Fabrikami kreeditarvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                           | Deebetsumma | Kreeditsumma |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse
 | Võlg Lääne Fabrikamilt (Fabrikam) | 100,00       |               |
 | Ostureskontro (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                           | Deebetsumma | Kreeditsumma |
 |-----------------------------------|--------------|---------------|
 | Võlg Fabrikamilt (Ida Fabrikam) | 25,00        |               |
 | Ostureskontro (Ida Fabrikam)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Lääne Fabrikami sisestus**
 
 | Konto                          | Deebetsumma | Kreeditsumma |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse
 | Võlg Fabrikamile (Lääne Fabrikam)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Näide 6: hankija kreeditarve esmase makseta
-Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse tasakaalustatakse Fabrikam Westi hankijale 3004 avatud arvega ja avatud kreeditarvega Fabrikam Easti hankijale 100. Makse ei ole märgitud esmase maksena on **paralleelkäibe** lehel.
+Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse tasakaalustatakse Fabrikam Westi hankijale 3004 avatud arvega ja avatud kreeditarvega Fabrikam Easti hankijale 100. Makset ei valita esmase maksena avatud lehel **Kannete tasakaalustamine**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Arve sisestatakse Lääne Fabrikami tarnijale 3004
 
@@ -273,21 +276,21 @@ Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikami makse tasakaalustatakse Lääne Fabrikami arvega ja Ida Fabrikami kreeditarvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                           | Deebetsumma | Kreeditsumma |
 |-----------------------------------|--------------|---------------|
 | Võlg Lääne Fabrikamilt (Fabrikam) | 75,00        |               |
 | Ostureskontro (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                                | Deebetsumma | Kreeditsumma |
 |----------------------------------------|--------------|---------------|
 | Võlg Fabrikam Westilt (Fabrikam East) | 25,00        |               |
 | Ostureskontro (Ida Fabrikam)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Lääne Fabrikami sisestus**
 
 | Konto                              | Deebetsumma | Kreeditsumma |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse
 | Võlg Fabrikamile (Lääne Fabrikam)      |              | 75,00         |
 | Ostureskontro (Lääne Fabrikam)     | 25,00        |               |
 | Võlg Fabrikam Eastilt (Fabrikam West) |              | 25,00         |
+
+
 
 
 

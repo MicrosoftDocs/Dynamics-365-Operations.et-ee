@@ -1,5 +1,5 @@
 ---
-title: "Tasakaalustatud töölehtede interunit raamatupidamiseks"
+title: "Tasakaalustatud töölehed sisekäibe jaoks"
 description: "See artikkel näitab, kuidas töölehte automaatselt tasakaalustatakse, kui lehel Pearaamat valitakse tasakaalustav finantsdimensioon."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Tasakaalustatud töölehtede interunit raamatupidamiseks
+# <a name="balanced-journals-for-interunit-accounting"></a>Tasakaalustatud töölehed sisekäibe jaoks
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel näitab, kuidas töölehte automaatselt tasakaalustatakse, kui lehel Pearaamat valitakse tasakaalustav finantsdimensioon. 
 
@@ -34,9 +37,9 @@ Kui kontokirjed ei tasakaalust finantsdimensiooni väärtuste tasandil, luuakse 
 
 |                      |           |
 |----------------------|-----------|
-| 6100 – MSP-OU\_256 | 100.00 DR |
-| 6100 – NY-OU\_249  | 100.00 DR |
-| 2100 – MSP-OU\_256 | 200.00 CR |
+| 6100 – MSP – OU\_256 | 100.00 DR |
+| 6100 – NY – OU\_249  | 100.00 DR |
+| 2100 – MSP – OU\_256 | 200.00 CR |
 
 Sellisel juhul määratakse järgmised saldod.
 
@@ -47,8 +50,10 @@ Seega luuakse järgmised raamatupidamiskirjed automaatselt, et tasakaalustada t�
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Interunit deebet) – MSP-OU\_256 | 100.00 DR |
-| (Interunit Credit) – NY-OU\_249 | 100.00 CR |
+| (Üksustevaheline deebet) – MSP – OU\_256 | 100.00 DR |
+| (Üksustevaheline kreedit) – NY – OU\_249 | 100.00 CR |
+
+
 
 
 

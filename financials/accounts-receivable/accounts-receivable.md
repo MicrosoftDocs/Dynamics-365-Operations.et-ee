@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Müügireskontro kodulehekülg
 
-Kasutage müügireskontrot kliendiarvete ja sissetulevate maksete jälgimiseks.
+[!include[banner](../includes/banner.md)]
+
+
+Kasutage müügireskontrot kliendiarvete ja sissetulevate maksete jälgimiseks. 
 
 Saate luua kliendiarveid müügitellimuste või saatelehtede alusel. Samuti saate sisestada vabas vormis arveid, mis ei ole müügitellimustega seotud. Saate makseid mitmesuguste makseviiside abil vastu võtta. Nende hulka kuuluvad käskvekslid, sularaha, tšekid, krediitkaardid ja elektroonilised maksed. Kui teie organisatsioon hõlmab mitut juriidilist isikut, saate kasutada tsentraliseeritud makseid maksete salvestamiseks ühe juriidilise isiku juurde teiste juriidiliste isikute nimel.
+
+
 
 
 

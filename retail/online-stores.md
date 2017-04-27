@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="online-store-overview"></a>võrgupoe ülevaade
+
+[!include[banner](includes/banner.md)]
+
 
 See artikkel käsitleb võrgu jaepoode ja seda, kuidas neid Microsoft Dynamics 365 for Operationsis seadistada.
 
@@ -50,5 +53,7 @@ Enne võrgupoe loomist peate määrama jaemüügikanali navigeerimishierarhia, m
 
 ## <a name="organization-hierarchies"></a>Organisatsiooni hierarhiad
 Organisatsioonihierarhiaid kasutatakse jaemüügikanalite struktureerimiseks. Organisatsiooni hierarhia kajastab ettevõttesse kuuluvate organisatsioonide vahelisi seoseid. Võrgupoodide seadistamisel saate neid organisatsiooni hierarhiasse lisada. Poed jagavad seejärel sortimentide, täiendamise ja aruandluse jaoks kasutatavaid andmeid. Organisatsiooni hierarhia loomisel peate määrama sellele eesmärgi. Eesmärk näitab, kuidas hierarhiat ettevõtte struktuuris kasutatakse. Saate poe toimingute jaoks luua ühe organisatsiooni hierarhia ja kasutada seda sortimentide, täiendamise ja aruannete jaoks. Teise võimalusena saate iga eesmärgi jaoks luua eraldi organisatsiooni hierarhia. Samuti saate luua mitu sama eesmärgiga hierarhiat ja määrata igale neist eraldi kanali. Kui kavatsete avaldada võrgupoes jaemüügi tootekataloogid, peaksite võrgupoe lisama vähemalt sortimendi organisatsioonihierarhiasse. Kataloogis olevad tooted on valitud võrgupoele määratud sortimentidest. Kataloogi avaldamisel võrdleb avaldamisprotsess võrgupoele määratud sortimendi ja kataloogi kaasatud toodete kehtivuskuupäevi, et kindlaks teha, milliseid tooteid võrgupoes kättesaadavaks muuta.
+
+
 
 

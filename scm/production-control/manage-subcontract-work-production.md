@@ -1,6 +1,6 @@
 ---
-title: "Hallata allhanketööde tootmises"
-description: "See teema selgitab, kuidas allhangete, juhitakse Microsoft Dynamics 365 toiminguteks. See tähendab, ta selgitab, kuidas tootmistegevusi, mis on eraldatud ressurss haldab hankija."
+title: "Allhanketöö haldamine tootmises"
+description: "Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,77 +26,82 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="manage-subcontracting-work-in-production"></a>Hallata allhanketööde tootmises
+# <a name="manage-subcontracting-work-in-production"></a>Allhanketöö haldamine tootmises
 
-See teema selgitab, kuidas allhangete, juhitakse Microsoft Dynamics 365 toiminguteks. See tähendab, ta selgitab, kuidas tootmistegevusi, mis on eraldatud ressurss haldab hankija.
+[!include[banner](../includes/banner.md)]
 
-Aastal [tootmisprotsesside](production-process-overview.md), tööd saab teha vahendeid, mis kuuluvad või mida haldab müüjad. Tavaliselt hankija ressursse kasutatakse taseme perioodilise liigse nõudluse, mis ületab ettevõtte tootmisvõimsust omavahendid. Samuti võib hankija pakkuda konkreetseid [ressursi võimalusi](resource-capabilities.md)või ressursse ka.  
 
-Sõltuvalt hankija ressursse, mida kasutatakse tootmisprotsessis, on [tee](routes-operations.md) on tihti logistilise lisanõudeid, sest materjal ja pooltooted tuleb vedada esmalt hankija saidi. Seejärel tuleb transportida alltöövõtu tehte tulem, kas asukohta, mis on määratud järgmise operatsiooni või valmistoodang lattu.  
+Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 
-Allhange tegevuse või tegevuste kasutamisel need mõjutavad kõiki etappe tegevuste määratlemisel arvesse toiminguid, mis on vajalikud tootmise, maksavad, prognoosimine, kavandamine ja planeerimine, materjalide, pooltoodete ja valmistoodangu logistika juhtimist. Lõpuks neid vahendeid vaja oma protsesse ja kulude kontrolli.  
+[Tootmisprotsessides](production-process-overview.md) võivad tööd teha ressursid, mille omanikud on või mida haldavad hankijad. Tavaliselt kasutatakse hankija ressursse perioodilise liigse nõudluse tasakaalustamiseks, kui see ületab ettevõtte oma ressursside mahtu. Hankija võib suuta pakkuda ka konkreetseid [ressursivõimalusi](resource-capabilities.md)või ressursse madalama hinnaga.  
 
-Sisemisi ressursse, on tavaliselt fikseeritud kulumäär eraldatavast jooksul. Seevastu alltöövõtu ressursside maksumus põhineb teenistuses ostuhind. Teenust määratletakse kui teise toote ja saab sõita hankimise ja osta protsesside alltöövõtu operatsioon.  
+Olenevalt tootmisprotsessis kasutatavatest hankija ressurssidest on [protsessil](routes-operations.md) sageli täiendavad logistilised nõuded, kuna materjal ja pooltooted tuleb esmalt hankija tegevuskohta transportida. Seejärel tuleb allhanketöö tulemus transportida järgmise toimingu jaoks mõeldud asukohta või valmistoodete lattu.  
 
-Praegu ei ole selge mõiste pooltoodete Microsoft Dynamics 365 toiminguteks. Tootmistellimuse, mis nõuab mitme toimingu käigus, et muutuda valmis hea tooraine, sisestatakse lõpetatud kauba taas inventari ainult viimane. Pooltöödeldud tooted, millel on eelmiste operatsioonide kajastatakse lõpetamata toodangu (WIP), kuid nad ei ole sisestatud või jälgida laoseisu. Kuigi te võite tükeldada liinidel ja kooslusi (kooslused) mootorrongid väiksem, selline lähenemine toodete kooslusi ja protsesse, mida tuleb hallata hulk suureneb.  
+Kui kasutatakse allhankeoperatsioone või -tegevusi, siis mõjutavad need kõiki tegevuste etappe, alates tootmises vajalike operatsioonide määratlemisest, kuluarvestusest, prognoosimisest, plaanimisest ja ajakava koostamisest kuni materjali, pooltoodete ja valmistoodete logistika haldamiseni. Lõpuks nõuavad need ressursid oma raamatupidamis- ja kulujuhtimisprotsesse.  
 
-On kaks meetodid modelleerimine alltöövõtu töö tootmiseks. Need meetodid erinevad nii, et allhange protsessi saab modelleerida, nii, et pool on esindatud protsessi, ja nii, et kulude juhtimine.
+Sisemiste ressursside puhul eraldatakse teatud perioodiks tavaliselt kindel kulumäär. Seevastu allhankeressursside maksumus põhineb seotud teenuse ostuhinnal. Teenus määratletakse teise tootena ja seda kasutatakse antud allhangitud operatsiooni hanke- ning ostuprotsesside juhtimiseks.  
 
--   Protsessi operatsioonide tootmistellimuste või partii tellimuste allhanke korras
-    -   Toote teenus peab olema varustatud toote ja peab olema osa komplektist.
-    -   See meetod toetab esimene, esimene FIFO või standardkulu.
-    -   Pooltöödeldud tooted esitatakse toote teenuse protsessi.
-    -   Kulude jälgimine eraldab olulist kulude alltöövõtu tööga seotud kulud.
--   Allhanke korras tootmine andmevoo tegevused lean tootmise voolu
-    -   Teenus on teenus laos toodet, ja see ei ole osa komplektist.
-    -   See meetod kasutab ostulepingud lepingute.
-    -   See meetod kasutab tagasivool maksumus.
-    -   See meetod võimaldab koondatud ja asünkroonse. (Sisendid ja väljundid ei sõltu hankeprotsessi.)
-    -   Kontroll kulude üle eraldab alltöövõtu tööde tsoonis oma kulude jaotus.
+Praegu ei ole Microsoft Dynamics 365 for Operationsis sõnaselget pooltoodete mõistet. Tootmistellimuse puhul, mis nõuab tooraine valmiskaubaks muutmiseks mitut operatsiooni, sisestatakse valmistoode varudesse tagasi alles viimases toimingus. Varasemate operatsioonide käigus saadud pooltooted registreeritakse poolelioleva tööna (WIP), kuid neid ei sisestata ega jälgita varudes. Kuigi võite protsessid ja kooslused mitmeks väiksemaks üksuseks jagada, suurendab see lähenemine hallatavate toodete, koosluste ja protsesside arvu.  
 
-## <a name="subcontracting-of-route-operations"></a>Allhanke korras liin
-Protsessi operatsioonide tootmiseks või partii tellimuste allhanke korras kasutamiseks tuleb määratleda teenuse toode, mida kasutatakse teenuse hankimiseks teatavat tüüpi on **teenuse** tüüp. Lisaks peab olema kauba tootemudeli grupi, mis on selle **varustatud toote** valikuvõimalus vastavalt **varude poliitika** seatud **Jah**. See valik määrab, kas toode moodustab varuna toote kättesaamisel (**varustatud toode** = **Jah**), või kas toote vahe tulu ja kulu konto (**varustatud toode** = **nr**). Kuigi selline käitumine võib tunduda vastuoluline, on asjaolu, et ainult tooteid, mis on selle poliitika loob laokanded, mida saab kasutada kulude kontrolli arvutab plaanitud ja tegelik kulu kui tootmistellimus on lõpetatud.  
+Allhanketöö modelleerimiseks tootmisoperatsioonide jaoks on kaks meetodit. Need meetodid erinevad selle poolest, kuidas allhankeprotsessi saab modelleerida, kuidas pooltooteid protsessis kajastatakse ja kuidas toimub kuluhaldus.
 
-Pidada planeerimise ja kulude arvutamisel, tuleb lisada teenuse kooslusega. Koosluse Real peab olema ka **hankija** tüüp ja kontrollitakse teenuse eraldatakse protsessi operatsioonile. Protsessi operatsioon peab olema maksavad ressurssi ja ressursi nõue, mis osutab ressurss on **hankija** tüüp, mis ühendub vastava hankijakonto operatsiooni ja teenistuses.  
+-   Protsessioperatsioonide allhange tootmistellimuste või partiitellimuste puhul
+    -   Teenusetoode peab olema ladustatud toode ja kuuluma kooslusse.
+    -   See meetod toetab elavjärjekorra (FIFO) või standardkulu meetodit.
+    -   Pooltooted kajastatakse protsessis teenusetootena.
+    -   Kulude juhtimine eraldab allhanketööga seotud kulud materjalikuludesse.
+-   Tootmisvoo tegevuste allhange säästlikus tootmisvoos
+    -   See teenus on mitteladustatud teenusetoode ega kuulu koosluse hulka.
+    -   See meetod kasutab ostulepinguid ja teeninduslepinguid.
+    -   See meetod kasutab omahinna tagasiarvestust.
+    -   See meetod võimaldab koondatud ja asünkroonset hanget. (Materjalivoog ei sõltu hankeprotsessist.)
+    -   Kulude juhtimine eraldab allhanketöö eraldi kulujaotuse plokki.
 
-Selle konfiguratsiooni kasutamisel luuakse ostutellimuse teenistuses tootepõhine tootmistellimuse hinnangu. Ostutellimuse teenuse kasutatakse Ankru ning allhangete. Alltöövõtu töö saab hallata selle **allhankeleping töö** loendi lehel tootmisohje. Alltöövõtu töö saab laeva tooraine ning Kokkuvõttes on hankija tegevuse ettevalmistamisel. Seda kasutatakse ka saada lõpptoote alltöövõtu operatsiooni kauba saabumist, kui teenuse toodet kasutatakse tuvastamiseks pooltoote saabumist. Ostutellimuse rea saabumisel tootmise operatsioon uuendatakse lõpuleviiduks.  
+## <a name="subcontracting-of-route-operations"></a>Protsessioperatsioonide allhange
+Partiitellimuste tootmise protsessioperatsioonide jaoks allhanke kasutamiseks tuleb teenusetoode, mida teenuse ostmiseks kasutatakse, määratleda tootena, mille tüüp on **Teenus**. Lisaks peab sellel olema kauba mudeligrupp, mille valiku **Ladustatav toode** väärtuseks jaotises **Varude poliitika** on määratud **Jah**. See valik määratleb, kas toodet käsitletakse toote sissetulekul varudena (**Ladustatav toode** = **Jah**) või toode kantakse kasumi ja kahjumi kontol kuludesse (**Ladustatud toode** = **Ei**). Kuigi see käitumine võib paista vastuoluline, põhineb see asjaolul, et ainult selle poliitikaga tooted tekitavad laokandeid, mida saab kasutada kulude juhtimises plaanitud kulu arvutamiseks ja tegeliku kulu määramiseks, kui tootmistellimus lõpetatakse.  
 
-Tootmistellimus on palju tegevust ja iga toimingu võib eraldada erineva hankija. Seetõttu võivad otsast-otsani tootmistellimuse käivitada mitu ostutellimused.
+Plaanimises ja kuluarvutuses arvestamiseks tuleb teenus kooslusse lisada. Koosluse rea tüüp peab olema **Hankija** ja see tuleb määrata protsessioperatsioonile, millele teenus on määratud. Sellel protsessioperatsioonil peab olema kuluarvutuse ressurss ja ressursitingimus, mis osutavad ressursile tüübiga **Hankija**, mis ühendab operatsiooni ja seotud teenuse vastava hankija kontoga.  
 
-## <a name="subcontracting-of-production-flow-activities"></a>Allhanke korras tootmine andmevoo tegevused
-Selle [kulusäästlik töötamine](lean-manufacturing-overview.md)lahendus-mudelite ning allhanketööde teenus, mis on seotud tegevuse kohta on [tootmisprotsesside](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (ülesande juhend teema). Seega seda tüüpi allhanked on ka edaspidi [baasil allhankeid.](activity-based-subcontracting.md) Eriline kulu tüüp, **vahetut välistõlgete tellimist**, on kehtestatud, ja allhange teenused ei kuulu komplekti valmistoodet. Kulusäästlik töötamine kasutamisel kõik tegevused on määratletud kanbans, mis võib olla seotud ühe või mitme tootmistegevuse voolu. Siiani, selle selgituse kõlab nagu tootmistellimuste selgitus. Siiski tuleks tootmistellimuste lõppema alati valmis toode, saate luua kanbans varustamiseks pooltoode. Teil pole uue toote ja kooslusetasemel.  
+Selle konfiguratsiooni kasutamisel koostatakse seotud teenusetootele ostutellimus, mis põhineb tootmistellimuse prognoosil. Teenuse tootmistellimust kasutatakse allhangitud toimingute ankruna. Allhanketööd saab hallata loendilehe **Allhanketöö** kaudu tootmise juhtimises. Allhanketööd kasutatakse tooraine ja lõpuks pooltoote lähetamiseks hankijale operatsiooniks valmistumisel. Samuti kasutatakse seda allhangitud operatsiooniga tekitatud toote vastuvõtmiseks kauba saabumisel, kus teenusetoodet kasutatakse pooltoote saabumise tuvastamiseks. Ostutellimuse rea vastuvõtmisel märgitakse tootmisoperatsioon lõpetatuks.  
 
-Kuna kanban eeskirjad võib olla väga dünaamiline, võib mudel erinevad variandid sama toote eest linna tootmise voolu. Kui kasutate lahja allhanked, sisendite ja rahaline voog rangelt lahus. Kõik sisendid ja väljundid on esindatud kanban tegevust. Tellimuste teenus toodete ja teenuste tarne sisestuste automatiseerida, vastavalt tootmise voolu kanban tööde oleku. Kanban töö käivitamist ja valmis isegi enne, et ostutellimused loodud. Allhange dokumentide (ostu- ja ostutarne teenuse) saab liita perioodidele ja teenuseid. Seega säilib ostudokumentidel ja ridade arv väike, isegi kui tarnijad pakuvad allhankelepinguid teenuste üheosaline voolus väga korduvaid tegevuses.
+Tootmistellimusel võib olla mitu operatsiooni ja iga operatsiooni saab määrata erinevale hankijale. Seega võib terve tootmistellimus käivitada mitu ostutellimust.
 
-### <a name="modeling-subcontracting-in-a-production-flow"></a>Allhanke tootmise voolu modelleerimine
+## <a name="subcontracting-of-production-flow-activities"></a>Tootmisvoo tegevuste allhange
+[Lean manufacturingi](lean-manufacturing-overview.md)lahendus modelleerib allhanketööd teenusena, mis on seotud [tootmisvoo](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) tegevusega (tegevuse juhise teema). Seetõttu nimetatakse seda tüüpi allhanget ka [tegevusepõhiseks allhankeks.](activity-based-subcontracting.md) Kasutusele on võetud kulugrupi eritüüp **Otse sisseostmine** ja allhanketeenused ei ole enam valmis kauba koosluse osa. Lean manufacturingi kasutamisel määratletakse kõik tegevused kanbanidega, mille saab seostada vähemalt ühe tootmisvoo tegevusega. Siiamaani kõlab see selgitud täpselt nagu tootmistellimuste selgitus. Kuid kui tootmistellimused peavad alati lõppema valmis tootega, siis kanbane saab luua pooltoote tarnimiseks. Uut toodet ja koosluse taset pole vaja tekitada.  
 
-Linnas on [lean tootmise voolu](lean-manufacturing-modeling-lean-organization.md), protsessi tegevuse võib määratleda kui alltöövõtu töö lahtrile (ressursirühma) on ühe müüja ressursside eraldamisel. Kui töö raku allhankeleping, seotud protsess tegevus peab olema seotud aktiivseid hooldusleppe rea, mis sisaldab hooldusüksuse ja teenuse hind. Hooldusleppe tegevuse määratleb toote kogus kanban töö ja saadud teenuse koguse arvutamisel suhe. Saate valida, kas teenuse kogus arvutatakse vastavalt arv töökohti, hea toote kogus, mis on esitatud tööde või toote koguse (kogus kokku ka praagitud tooted).  
+Kuna kanbani reeglid võivad olla väga dünaamilised, saate modelleerida sama toote jaoks tootmisvoos erinevaid tarnevariante. Säästliku allhanke kasutamisel on materjalivoog ja finantsvoog rangelt eraldatud. Kogu materjalivoog kajastatakse kanban-tegevustega. Teenusetoodete ostutellimused ja nende teenuste kviitungite sisestamised saab automatiseerida, tuginedes kanban-tööde olekule tootmisvoos. Kanban-töid saab alustada ja lõpetada isegi enne ostutellimuste loomist. Allhankedokumendid (ostutellimus ja teenuse ostukviitung) saab koondada perioodi ja teenuse järgi. Seega saab ostudokumentide ja ridade arvu väiksena hoida, isegi rohkete korduvate operatsioonide puhul, kui hankijad osutavad allhanketeenuseid üheosalises voos.
 
-Edastamine võib määratleda ka kui allhankelepinguid. See määratlus ilmneb kaudselt nende tegevusele vastutaja saatmiskulud valimisel. Kui valite **saatja** või **vastuvõtja**, kui vastav allikas või eesmärgi ladu on hankija hallatavas ladu, tegevust käsitletakse allhankelepinguid. Kui valite **vedaja**, tegevus on alati allhankelepinguid. Peatuda alltöövõtu protsessidega seotud tegevuste, alltöövõtu üleandmise tegevus peab olema ühendatud teenindusega enne tootmise voolu aktiveerimist.
+### <a name="modeling-subcontracting-in-a-production-flow"></a>Allhanke modelleerimine tootmisvoos
+
+[Säästlikus tootmisvoos](lean-manufacturing-modeling-lean-organization.md) saab protsessitegevuse määratleda allhankena, kui see on määratud ühe hankija ressursiga töörakule (ressursigrupile). Tööraku allhanke puhul peavad seotud protsessitegevused olema seotud aktiivse ostulepingu reaga, mis sisaldab teenuseüksust ja teenuse hinda. Tegevuse teenuseleping määratleb ka arvutussuhte kanban-töö toote koguse ja saadud teenuse koguse vahel. Saate valida, kas teenuse kogus arvutatakse tööde arvu, tööde puhul registreeritud nõuetele vastavate toodete koguse või toodete üldkoguse põhjal (see üldkogus sisaldab praaktooteid).  
+
+Ülekandetegevusi saab samuti allhankena määratleda. Selline määratlemine toimub iseenesest, kui valite ülekandetegevusest saatmise eest vastutava osapoole. Kui valite **Saatja** või **Vastuvõtja**, siis kui vastav lähte- või sihtladu on hankija hallatav ladu, käsitletakse tegevust allhankena. Kui valite **Vedaja**, on tegevus alati allhange. Nagu allhankeprotsessi tegevused, peab ka allhangitud ülekandetegevus olema seotud teenuselepinguga, enne kui tootmisvoo saab aktiveerida.
 
 ### <a name="backflush-costing"></a>Omahinna tagasiarvestus
 
-Täielikult integreeritud kuluarvestuse alltöövõtu tööde maksumus kulusäästlik töötamine lahendus (Kuluarvestus tagasivool). Teenuse ostu tellimuse tarne konteerimisel või arvete ilmnemisel, teenuse maksumus on eraldatud tootmise voolu. Tagasivool omahinna arvutamiseks, arvutatakse dispersioon allhankelepinguid teenuste hüvitamise arvutamisel saadud toodete kogused tarnituna ja arveldatuna teenistuses allhange plokk.
+Allhanketöö kuluarvestus on täielikult integreeritud lean manufacturingi kululahendusse (omahinna tagasiarvestus). Kui sisestatakse teenuse ostutellimuse sissetulek või kui toimub arveldamine, siis määratakse teenuse kulu tootmisvoole. Omahinna tagasiarvestuseks arvutatakse allhangitud teenuste hälve, tasakaalustades vastuvõetud toodete standardkulu allhankeploki tegelike vastu võetud ja arveldatud teenusekogustega.
 
-## <a name="material-supply-for-subcontracted-operations"></a>Materjali tarnimiseks allhangete
-Pooltoodete ja sellega seotud materjalid tuleb viia asukohta, kus töö füüsiliselt toimub. Allhangete ja tegevuste kasutamisel see on sageli seotud transpordi hankija opereeritud saidi. Materjali alltöövõtu operatsioonile koosluses jaotades kinnitad, et materjal peab lavastatud ressursirühmadele jaotatud ressursi sisendi asukohta. Koondplaneerimise või lahja täiendamise seejärel valmistab materjali kohale.  
+## <a name="material-supply-for-subcontracted-operations"></a>Materjali tarnimine allhankeoperatsioonide jaoks
+Pooltooted ja muud seotud materjalid tuleb edastada kohta, kus töö füüsiliselt tehakse. Kui kasutate allhangitud operatsioone ja toiminguid, on see üleviimine sageli seotud täiendava transpordiga hankija tegevuskohta. Koosluses oleva materjali eraldamisega allhankeoperatsioonile kinnitate, et materjal tuleb koondada määratud ressursi ressursirühma sisendasukohta. Seejärel eraldab koondplaanimine või säästlik täiendamine materjali sellesse asukohta.  
 
-Mudel nimekiri, mis asub hankija kaudu, on hea tava määrata hankija hallatavas lao tööstuses. Uue loomine ja määramine ning hankija poolt lihtsalt määratleda hankija hallatavas ladu. Et materjali dokumenteerimiseks tuleb viia hankija enne operatsiooni tuleks teha, tuleks määrata hankija hallatavas ressursi hoidvale ressursirühma sisendi lattu lao.  
+Hankija tegevuskohas asuvate varude modelleerimiseks on valdkonna parim tava määratleda hankija hallatav ladu. Hankija hallatava lao saab hõlpsasti määratleda, luues uue lao ja määrates hankija konto. Dokumenteerimiseks, et materjal tuleb enne operatsiooni tegemist hankijale edastada, tuleb määrata hankija hallatav ladu ressurssi sisaldava ressursigrupi sisendlaoks.  
 
-Laos materjali täiendamiseks kasutage mitmeid strateegiaid.
+Materjali lisamiseks sellesse lattu võite kasutada mitut strateegiat.
 
 -   Üleviimistellimused
 -   Töölehtede ülekandmine
--   Tagasivõtmine kanbans
--   Otseostmine hankija kohta
+-   Kanbani väljaminek
+-   Otsene ost hankija asukohta
 
-Pooltöödeldud tooted on erand sellest reeglist. Kanda pooltoodete, oled piiratud suvanditest:
+Pooltoote on selle reegli erand. Pooltoodete üleviimiseks on ainult järgmised võimalused.
 
--   Tootmise ja partii tellimused, pooltoodete ainult ülekandmist loogiliselt: komplekteerimislehe töölehe abil on **allhankeleping töö** loendi lehel. Selle töölehe loob saatelehe dokumendi, mida saab kanda pool ja tooraine hankijale.
--   Jaoks tootmise voolude allhangete, fikseeritakse üleandmise pooltoodete tühistamise või tootmise kanbans müüja asukohas võtta vastu. Mudel on otseselt tegevusele, saab lõpetada tootmise kanban täiendava üleandmist tegevusega.
+-   Tootmise ja partiitellimuste puhul saab pooltooteid viia üle ainult loogiliselt, kasutades loendilehe **Allhanketöö** töölehte Komplekteerimisleht. See tööleht koostab tarneteate dokumendi, mida saab kasutada pooltoodete ja tooraine edastamiseks hankijale.
+-   Allhankeoperatsioonide puhul tootmisvoogudes dokumenteeritakse pooltoodete üleviimine tootmise kanbanide väljavõtmise kviitungiga hankija tegevuskohas. Otsese üleviimistegevuse modelleerimiseks võite lõpetada tootmise kanbani täiendava üleviimistegevusega.
 
-**Märkus:** ühe tootmistellimuse tootmisprotsessi ei saa ületada mitmes kohas. See reegel kehtib ka alltöövõtu töö. Seega, laod mida esitab hankija hallatavas materjali asukohad tuleb määratleda sisemisi ressursse, mida kasutatakse protsessi samal territooriumil. Kuigi tootmise voolab võib läbida saite, nad ei saa transport pooltoodete ühest töökohast teise, sest selle toimimine eeldab kulu seoses muutus.  
+**Märkus.** Ühe tootmistellimuse tootmisprotsess ei või hõlmata mitut laoala. See reegel kehtib ka allhanketöö puhul. Seetõttu tuleb hankija hallatava materjali asukohti kajastavad laod määratleda samal laoalal, kus asuvad selles protsessis kasutatavad sisemised ressursid. Kuigi tootmisvood võivad hõlmata mitut laoala, ei saa need pooltooteid ühelt laoalalt teisele transportida, kuna see toiming viitab kulukonteksti muutumisele.  
 
-Toodang lattu ja alltöövõtu ressursirühmi asukoht otse tavaliselt eraldatud lao ja asukoha operatsiooni protsessi või tootmise voolu järgmiseks. See seadistus aitab vähendada aruandlus, mis ilmneb töö või number täiendava üleandmist toiminguid, mis tuleb modelleerida.
+Tavaliselt on väljundladu ja allhanke ressursigrupi asukoht määratud otse protsessi või tootmisvoo operatsiooni järgmisse etappi. Selline seadistus aitab vähendada tööde registreerimist või täiendavate üleviimisoperatsioonide arvu, mida tuleb modelleerida.
+
+
 
 

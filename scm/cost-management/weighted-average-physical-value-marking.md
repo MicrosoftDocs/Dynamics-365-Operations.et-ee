@@ -32,10 +32,10 @@ ms.lasthandoff: 03/29/2017
 
 
 Kui käitate laoseisu sulgemist, tasakaalustatakse kõik sissetulekud virtuaalse väljaminekuga, mis hoiab kogu vastuvõetud kogust ja väärtust. Sel virtuaalsel väljaminekul on vastav virtuaalne sissetulek, millest väljaminekud tasakaalustatakse. Sel viisil on kõigil väljaminekutel sama keskmine kulu. Virtuaalset väljaminekut ja sissetulekut võib vaadata kui virtuaalset ülekannet nimega „kaalutud keskmise lao sulgemise ülekanne”.
-Ainult ühe kviitungi olemasolul saab kõik väljastused selle kaudu tasakaalustada ja virtuaalset ülekannet ei looda. Kaalutud keskmist kasutades saate märkida laokanded nii, et konkreetse kauba sissetulek tasakaalustatakse konkreetse väljaminekuga, selmet kasutada kaalutud keskmise reeglit. Soovitame igakuist lao sulgemist, kui kasutate kaalutud keskmise lao mudelit. Kaalutud keskmine varude kuluarvestusviisi arvutatakse järgmise valemi abil:
+Ainult ühe kviitungi olemasolul saab kõik väljastused selle kaudu tasakaalustada ja virtuaalset ülekannet ei looda. Kaalutud keskmist kasutades saate märkida laokanded nii, et konkreetse kauba sissetulek tasakaalustatakse konkreetse väljaminekuga, selmet kasutada kaalutud keskmise reeglit. Soovitame igakuist lao sulgemist, kui kasutate kaalutud keskmise lao mudelit. Kaalutud keskmise lao kulumeetod järgmise valemiga:
 -   Kaalutud keskmine = (Q1\*P1 + Q2\*P2 + Qn\*Pn) / (Q1 + Q2 + Qn)
 
-Laokanded, jättes välja varude väljaminekud. See hõlmab müügitellimusi, varude töölehti ja tootmistellimusi, mis toimuvad sisestuskuupäeva eeldatava omahinnaga. Seda eeldatavat omahinda nimetatakse ka käitatud keskmine. Varude lähedal ajal analüüsib laokannete eelmise ja praeguse süsteemi ning mis järgmistest sulgemine põhimõtetest tuleks lubada kasutada.
+Laokanded, jättes välja varude väljaminekud. See hõlmab müügitellimusi, varude töölehti ja tootmistellimusi, mis toimuvad sisestuskuupäeva eeldatava omahinnaga. Seda eeldatavat omahinda nimetatakse ka käitatud keskmine. Lao sulgemise ajal analüüsib süsteem laokandeid eelmistel ja praegustel perioodidel ning määrab, millist järgnevaist sulgemispõhimõtetest tuleb kasutada.
 -   Otsene tasakaalustus
 -   Summeeritud tasakaalustus
 
@@ -47,11 +47,11 @@ Tasakaalustused on lao sulgemissisestused, mis korrigeerivad väljaminekud sulge
 -   Kaalutud keskmine märkega
 
 ## <a name="weighted-average-direct-settlement-without-include-physical-value"></a>Kaalutud keskmise otsene tasakaalustus valikuta Kaasa füüsiline väärtus
-Vahetult põhimõte on sama, kasutatakse kaalutud keskmise varasemas versioonis. Süsteem tasakaalustab otseselt sissetulekute ja väljastuste vahel. Süsteem kasutab seda vahetult põhimõtet teatud olukordades:
+Otsene tasakaalustamise põhimõte on sama, mida kasutatakse varasemates versioonides kaalutud keskmise arvutamiseks. Süsteem tasakaalustab otseselt sissetulekute ja väljastuste vahel. Süsteem kasutab seda otsest tasakaalustamise põhimõtet teatud konkreetsetes olukordades.
 -   Perioodi on sisestatud üks sissetulek ja üks või mitu väljaminekut
 -   Perioodi on sisestatud ainult väljaminekud ja varud sisaldavad vabu kaupu eelmisest sulgemisest
 
-Järgmistes lõikudes kirjeldatud stsenaariumis on sisestatud finantsiliselt värskendatud sissetulek ja väljaminek. Varude lähedal, ajal süsteem tasakaalustab tarne otse vastu väljaandmise ja küsimuses on vaja omahinda ei korrigeerita. Järgmised kanded on kujutatud joonisel.
+Järgmistes lõikudes kirjeldatud stsenaariumis on sisestatud finantsiliselt värskendatud sissetulek ja väljaminek. Lao sulgemise ajal tasakaalustab süsteem sissetuleku otse väljaminekutega ja mis tahes omahinna korrigeerimist pole väljaminekul vaja. Järgmised kanded on kujutatud joonisel.
 -   1a. Lao füüsiline sissetulek värskendatud koguse 5 eest hinnaga 10,00 USD-d tk
 -   1b. Lao finantsiline sissetulek värskendatud koguse 5 eest hinnaga 10,00 USD-d tk
 -   2a. Lao füüsiline väljaminek värskendatud koguse 2 eest hinnaga 10,00 USD-d tk
@@ -62,16 +62,16 @@ Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasut
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
 -   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Üle (või alla) iga vertikaalse noole laokande väärtus on määratud vormingusQuantity@Unitprice.
+-   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
 -   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
 -   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
 -   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+-   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
 -   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Kaalutud keskmise summeeritud tasakaalustamine valikuta Kaasa füüsiline väärtus
-Kaalutud keskmine kasutab kõik laekumised jooksul tuvastataval summeeritakse nimetatakse kaalutud keskmine lao sulgemise kande tasakaalustuspõhimõte. Kõik perioodi sissetulekud tasakaalustatakse äsja loodud laoülekande kande väljaminekuga. Kõik perioodi kaubad tasakaalustatakse äsja loodud laoülekande kande sissetulekuga. Kui vaba kaubavaru on pärast lao sulgemist plussis, summeeritakse vaba kaubavaru ja laoväärtus uuel laoülekande kandel (sissetulek). Kui vaba kaubavaru on pärast lao sulgemist miinuses, siis on vaba kaubavaru ja laoväärtus üksikute, veel lõplikult tasakaalustamata kaupade summa. Allnäidatud stsenaariumis on mitmed finantsiliselt värskendatud sissetulekud ja üks väljaminek sisestatud. Varude lähedal, ajal näidatakse süsteemi luua ja kuvatav varude üleandmist kannete sisestamiseks ja kuvatav varude üleandmise probleem kanne perioodi laekumised settida. Kõik perioodiks sisestatud väljaminekud tasakaalustatakse summeeritud laoülekande sissetulekukandega. Kaalutud keskmiseks on arvutatud 15,00 USD-d. Väljaminek sisestati algselt eeldatava omahinnaga 14,67 USA dollarit. Seetõttu luuakse ja sisestatakse väljaminekul negatiivne korrigeerimine 0,33 USA dollarit. Lao sulgemiskuupäevast on vaba kaubavaru 3 tk väärtusega 45,00 USD-d. Järgmisi kandeid illustreeritakse alloleval pildil:
+Kaalutud keskmine kasutab tasakaalustamise põhimõtet, et kõik sulgemisperioodi jäävad sissetulekud koondatakse kandesse, mida nimetatakse kaalutud keskmise lao sulgemisse. Kõik perioodi sissetulekud tasakaalustatakse äsja loodud laoülekande kande väljaminekuga. Kõik perioodi kaubad tasakaalustatakse äsja loodud laoülekande kande sissetulekuga. Kui vaba kaubavaru on pärast lao sulgemist plussis, summeeritakse vaba kaubavaru ja laoväärtus uuel laoülekande kandel (sissetulek). Kui vaba kaubavaru on pärast lao sulgemist miinuses, siis on vaba kaubavaru ja laoväärtus üksikute, veel lõplikult tasakaalustamata kaupade summa. Allnäidatud stsenaariumis on mitmed finantsiliselt värskendatud sissetulekud ja üks väljaminek sisestatud. Lao sulgemise jooksul loob ja sisestab süsteem summeeritud laoülekande kande tasakaalustamaks kõik perioodi sissetulekud summeeritud laoülekande väljaminekukandes. Kõik perioodiks sisestatud väljaminekud tasakaalustatakse summeeritud laoülekande sissetulekukandega. Kaalutud keskmiseks on arvutatud 15,00 USD-d. Väljaminek sisestati algselt eeldatava omahinnaga 14,67 USA dollarit. Seetõttu luuakse ja sisestatakse väljaminekul negatiivne korrigeerimine 0,33 USA dollarit. Lao sulgemiskuupäevast on vaba kaubavaru 3 tk väärtusega 45,00 USD-d. Järgmisi kandeid illustreeritakse alloleval pildil:
 -   1a. Lao füüsiline sissetulek värskendatud kogusele 2 hinnaga 11,00 USD tükk.
 -   1b. Lao finantsiline sissetulek värskendatud kogusele 2 hinnaga 14,00 USD tükk.
 -   2a. Lao füüsiline sissetulek värskendatud kogusele 1 hinnaga 12,00 USD tükk.
@@ -88,39 +88,39 @@ Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasut
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
 -   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Üle (või alla) iga vertikaalse noole laokande väärtus on määratud vormingusQuantity@Unitprice.
+-   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
 -   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
 -   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
 -   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+-   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
 -   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
 -   Punased nooled illustreerivad sissetulekukandeid, mis tasakaalustatakse süsteemi loodud väljaminekukannete suhtes.
 -   Roheline nool tähistab süsteemi loodud sissetulekukande vastaskannet mille suhtes algselt sisestatud väljaminekukanne on tasakaalustatud
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Kaalutud keskmise otsene tasakaalustamine valikuga Kaasa füüsiline väärtus
-Parameeter kaasa füüsiline väärtus töötab erinevalt kaalutud keskmise laoseisu mudeli kui toote varasemates versioonides. Saate märkida kauba puhul ruudu Kaasa füüsiline väärtus vormil Kauba mudeligrupp. Siis süsteem kasutab füüsiliselt uuendatud sissetulekute arvutamisel eeldatavat omahinda või Keskmine. Väljaminekud sisestatakse perioodi vältel hinnangulise omahinna alusel. Lao sulgemise ajal võetakse kaalutud keskmise arvutamisel arvesse ainult finantsiliselt värskendatud sissetulekud. Kui kasutate kaalutud keskmise lao mudelit, soovitame igakuist lao sulgemist. Selles kaalutud keskmise otsese tasakaalustamise näites on kauba mudeligrupp märgitud füüsilist väärtust kaasama. Järgmisi kandeid illustreeritakse alloleval pildil:
+Parameeter Kaasa füüsiline väärtus töötab parameeter kaalutud keskmise laomudeliga toote eelmistest versioonidest erinevalt. Saate märkida kauba puhul ruudu Kaasa füüsiline väärtus vormil Kauba mudeligrupp. Seejärel kasutab süsteem eeldatava kulu hinna või keskmise arvutamisel füüsiliselt värskendatud sissetulekuid. Väljaminekud sisestatakse perioodi vältel hinnangulise omahinna alusel. Lao sulgemise ajal võetakse kaalutud keskmise arvutamisel arvesse ainult finantsiliselt värskendatud sissetulekud. Kui kasutate kaalutud keskmise lao mudelit, soovitame igakuist lao sulgemist. Selles kaalutud keskmise otsese tasakaalustamise näites on kauba mudeligrupp märgitud füüsilist väärtust kaasama. Järgmisi kandeid illustreeritakse alloleval pildil:
 -   1a. Lao füüsiline sissetulek värskendatud kogusele 1 hinnaga 11,00 USD tükk.
 -   1b. Lao finantsiline sissetulek värskendatud kogusele 1 hinnaga 10,00 USD tükk.
 -   2a. Lao füüsiline sissetulek värskendatud kogusele 1 hinnaga 15,00 USD tükk.
 -   3a. Lao füüsiline väljaminek värskendatud koguse 1 eest hinnaga 12,50 USD-d tk (jooksev keskmine omahind, kuna füüsilise sissetuleku väärtus on arvestatud).
 -   3b. Lao finantsiline väljaminek värskendatud koguse 1 eest hinnaga 12,50 USD-d tk (jooksev keskmine omahind, kuna füüsilise sissetuleku väärtus on arvestatud).
--   4. Teostatakse lao sulgemine. Varude lähedal, ajal Stornosaldo süsteemi kõik laokanded, ainult füüsiliselt uuendatud. Selle asemel rakendatakse otsese tasakaalustamise põhimõtet, sest olemas on ainult üks finantsiline sissetulek. 2,50 USD suurune korrektuur sisestatakse laokandesse, mis on finantsiliselt välja antud lao sulgemiskuupäevast. Pärast lao sulgemist on vaba kaubavaru koguseks 1 jooksva keskmise hinnaga 15,00 USD-d.
+-   4. Teostatakse lao sulgemine. Lao sulgemise jooksul ignoreerib süsteem kõiki laokandeid, mida on ainult füüsiliselt värskendatud. Selle asemel rakendatakse otsese tasakaalustamise põhimõtet, sest olemas on ainult üks finantsiline sissetulek. 2,50 USD suurune korrektuur sisestatakse laokandesse, mis on finantsiliselt välja antud lao sulgemiskuupäevast. Pärast lao sulgemist on vaba kaubavaru koguseks 1 jooksva keskmise hinnaga 15,00 USD-d.
 
 Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasutamise mõjuga ja otsese tasakaalustuse põhimõttega valikuga Kaasa füüsiline väärtus. ![Kaalutud keskmise otsene tasakaalustus valikuga Kaasa füüsiline väärtus](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) Diagrammi võti
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
 -   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Üle (või alla) iga vertikaalse noole laokande väärtus on määratud vormingusQuantity@Unitprice.
+-   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
 -   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
 -   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
 -   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+-   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
 -   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Kaalutud keskmise summeeritud tasakaalustamine valikuga Kaasa füüsiline väärtus
-Kaasa füüsiline väärtus parameeter töötab erinevalt kaalutud keskmise kui varasemad versioonid. Saate märkida kauba puhul ruudu Kaasa füüsiline väärtus lehel Kauba mudeligrupp. Siis süsteem kasutab füüsiliselt uuendatud sissetulekute eeldatavat omahinda või keskmise arvutamisel. Väljaminekud sisestatakse sellel perioodi jooksul eeldataval omahinnal põhinedes. Lao sulgemise jooksul arvestatakse kaalutud keskmise arvutamisel ainult finantsiliselt värskendatud sissetulekuid. Kui kasutate kaalutud keskmise lao mudelit, soovitame igakuist lao sulgemist. Selles kaalutud keskmise summeeritud tasakaalustamise näites on laomudel märgitud füüsilist väärtust kaasama. Järgmisi kandeid illustreeritakse alloleval pildil:
+Parameeter Kaasa füüsiline väärtus töötab varasemates versioonides kaalutud keskmisega teistmoodi. Saate märkida kauba puhul ruudu Kaasa füüsiline väärtus lehel Kauba mudeligrupp. Seejärel kasutab süsteem eeldatava kulu hinna või keskmise arvutamisel füüsiliselt värskendatud sissetulekuid. Väljaminekud sisestatakse sellel perioodi jooksul eeldataval omahinnal põhinedes. Lao sulgemise jooksul arvestatakse kaalutud keskmise arvutamisel ainult finantsiliselt värskendatud sissetulekuid. Kui kasutate kaalutud keskmise lao mudelit, soovitame igakuist lao sulgemist. Selles kaalutud keskmise summeeritud tasakaalustamise näites on laomudel märgitud füüsilist väärtust kaasama. Järgmisi kandeid illustreeritakse alloleval pildil:
 -   1a. Lao füüsiline sissetulek värskendatud kogusele 2 hinnaga 11,00 USD tükk.
 -   1b. Lao finantsiline sissetulek värskendatud kogusele 2 hinnaga 14,00 USD tükk.
 -   2. Lao füüsiline sissetulek värskendatud kogusele 1 hinnaga 10,00 USD tükk.
@@ -130,7 +130,7 @@ Kaasa füüsiline väärtus parameeter töötab erinevalt kaalutud keskmise kui 
 -   4b. Lao finantsiline väljaminek värskendatud koguse 1 eest hinnaga 13,50 USD-d tk (jooksev keskmine omahind, kuna füüsilise sissetuleku väärtus on arvestatud).
 -   5a. Lao füüsiline sissetulek värskendatud kogusele 1 hinnaga 14,00 USD tükk.
 -   5b. Lao finantsiline sissetulek värskendatud koguse 1 eest hinnaga 16,00 USD-d tk.
--   6. Teostatakse lao sulgemine. Varude lähedal, ajal Stornosaldo süsteemi kõik on ainult füüsiliselt uuendatud laokandeid. Rakendatakse summeeritud tasakaalustamise põhimõtet, sest olemas on ainult üks finantsiline sissetulek. 1,50 USD suurune korrektuur sisestatakse laokandesse, mis on finantsiliselt välja antud lao sulgemiskuupäevast. Pärast lao sulgemist on vaba kaubavaru koguseks 3 jooksva keskmise hinnaga 15,00 USD-d.
+-   6. Teostatakse lao sulgemine. Lao sulgemise jooksul ignoreerib süsteem kõiki laokandeid, mis on ainult füüsiliselt värskendatud. Rakendatakse summeeritud tasakaalustamise põhimõtet, sest olemas on ainult üks finantsiline sissetulek. 1,50 USD suurune korrektuur sisestatakse laokandesse, mis on finantsiliselt välja antud lao sulgemiskuupäevast. Pärast lao sulgemist on vaba kaubavaru koguseks 3 jooksva keskmise hinnaga 15,00 USD-d.
 -   7a. "Kaalutud keskmise lao sulgemise kande" finantsiline väljaminek luuakse kõigi lao finantsiliste sissetulekute tasakaalustuste summeerimiseks.
 -   7b. "Kaalutud keskmise lao sulgemise kande" finantsiline sissetulek luuakse 5a tasakaalustamiseks.
 
@@ -138,7 +138,7 @@ Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasut
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
 -   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Üle (või alla) iga vertikaalse noole laokande väärtus on määratud vormingusQuantity@Unitprice.
+-   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
 -   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
 -   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
 -   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
@@ -149,7 +149,7 @@ Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasut
 -   Roheline nool tähistab süsteemi loodud sissetulekukande vastaskannet mille suhtes algselt sisestatud väljaminekukanne on tasakaalustatud
 
 ## <a name="weighted-average-with-marking"></a>Kaalutud keskmine märkega
-Märgistus on protsess, mille abil saab linkida või märkida, et sissetulekukande kande. Märkimine võib toimuda nii enne kui pärast kande sisestamist. Saate kasutada märkimist, kui soovite teada laoseisu täpset hinda kande sisestamise või lao sulgemise ajal. Näiteks võttis teie klienditeenindus oluliselt kliendilt vastu kiirtellimuse. Kuna tegemist on kiirtellimusega, peate maksma kauba eest rohkem, et täita kliendi nõuet. Peate olema kindel, et selle müügitellimuse arve puhul kajastuks selle laokauba maksumus varus või tuletusreeglis (COGS). Ostutellimuse sisestamisel saadakse laoseis maksumusega 120,00 USD. Näiteks märgitakse müügitellimuse dokument ostutellimusele enne saatelehe või arve sisestamist. Sel juhul on COGS kauba praeguse jooksva keskmise asemel 120,00 USA dollarit. Kui müügitellimuse saateleht või arve sisestatakse enne märkimist, sisestatakse COGS jooksva keskmise omahinna juurde. Enne lao sulgemist saab neid kahte kannet veel üksteisele märkida. Sissetulekukanne märgitakse väljastuskandele. Seejärel valitud kauba kauba tootemudeli grupi hindamismeetodit võtmata ja süsteem tasakaalustab omavahel need kanded. Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Saate seda teha müügitellimuse realt lehel Müügitellimuse üksikasjad. Avatud sissetulekukandeid saab vaadata lehel Märkimine. Saate pärast kande sisestamist märkida väljaminekukande sissetulekule. Saate väljaminekukande märkida või vastendada varude korrigeerimistöölehel sisestatud laokauba avatud sissetulekukandega. Järgmisi kandeid illustreeritakse alloleval pildil:
+Märkimine on protsess, mis võimaldab teil väljaminekukande siduda või märkida sissetulekukandega. Märkimine võib toimuda nii enne kui pärast kande sisestamist. Saate kasutada märkimist, kui soovite teada laoseisu täpset hinda kande sisestamise või lao sulgemise ajal. Näiteks võttis teie klienditeenindus oluliselt kliendilt vastu kiirtellimuse. Kuna tegemist on kiirtellimusega, peate maksma kauba eest rohkem, et täita kliendi nõuet. Peate olema kindel, et selle müügitellimuse arve puhul kajastuks selle laokauba maksumus varus või tuletusreeglis (COGS). Ostutellimuse sisestamisel saadakse laoseis maksumusega 120,00 USD. Näiteks märgitakse müügitellimuse dokument ostutellimusele enne saatelehe või arve sisestamist. Sel juhul on COGS kauba praeguse jooksva keskmise asemel 120,00 USA dollarit. Kui müügitellimuse saateleht või arve sisestatakse enne märkimist, sisestatakse COGS jooksva keskmise omahinna juurde. Enne lao sulgemist saab neid kahte kannet veel üksteisele märkida. Sissetulekukanne märgitakse väljastuskandele. Seejärel eiratakse kauba mudeligrupile valitud hindamismeetodit ja süsteem tasakaalustab nende kanded üksteisega. Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Saate seda teha müügitellimuse realt lehel Müügitellimuse üksikasjad. Avatud sissetulekukandeid saab vaadata lehel Märkimine. Saate pärast kande sisestamist märkida väljaminekukande sissetulekule. Saate väljaminekukande märkida või vastendada varude korrigeerimistöölehel sisestatud laokauba avatud sissetulekukandega. Järgmisi kandeid illustreeritakse alloleval pildil:
 -   1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
 -   1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
 -   2a. Lao füüsiline sissetulek kogusele 1 hinnaga 20,00 USD tükk.
@@ -166,11 +166,11 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
 -   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Üle (või alla) iga vertikaalse noole laokande väärtus on määratud vormingusQuantity@Unitprice.
+-   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
 -   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
 -   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
 -   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+-   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
 -   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
 

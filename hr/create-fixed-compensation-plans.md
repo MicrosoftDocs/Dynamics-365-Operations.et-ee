@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-fixed-compensation-plans"></a>Põhipalgaplaanide loomine
 
-Põhipalk on töötaja regulaarne brutopalk või tasu. See teema kirjeldab komponente, mida tuleb seadistada enne kindlaksmääratud hüvitiste plaan luua ja registreeruda töötajad.
+[!include[banner](includes/banner.md)]
 
-Põhipalga summad saab töötajatele arvutada tegurite põhjal nagu jõudlus, regioon ja eelarve suurenemine. Microsoft Dynamics 365 toiminguteks toetab samm, klassi ja bänd hüvitise liigid.
+
+Põhipalk on töötaja regulaarne brutopalk või tasu. See teema kirjeldab komponente, mis peavad olema seadistatud, enne kui saate luua põhipalga plaani ja töötajaid registreerida.
+
+Põhipalga summad saab töötajatele arvutada tegurite põhjal nagu jõudlus, regioon ja eelarve suurenemine. Microsoft Dynamics 365 for Operations toetab etapi, klassi ja astmiku palgatüüpe.
 
 ## <a name="fixed-compensation-components"></a>Põhipalga osad
 ### <a name="compensation-levels"></a>Palgatasemed
 
-Kasutage **hüvitise** tuleb hüvitiste erinevaid töid, tagamiseks töötajatele, kes hoida nende tööde eest korraliku. Kohta ning **hüvitise** lehe, saate seadistada hüvitise taset, mis on iga samm, klassi ja bänd kava. Kasutage nuppe **Üles** ja **Alla** tasemete õigesse järjekorda paigutamiseks nende tüübi alusel. Töö palgatasemete seadistamisega aitate tagada, et kõigile töötajatele, kes sellel ametikohal töötavad, makstakse ühe taseme järgi.
+Saate kasutada **palgatasemeid** mitmesuguste tööde palga määramiseks, et aidata tagada neid töid tegevate töötajate õiglane tasustamine. Lehel **Palgatasemed** saate seadistada palgatasemed, mis on iga etapi-, klassi- ja astmikuplaani puhul vajalikud. Kasutage nuppe **Üles** ja **Alla** tasemete õigesse järjekorda paigutamiseks nende tüübi alusel. Töö palgatasemete seadistamisega aitate tagada, et kõigile töötajatele, kes sellel ametikohal töötavad, makstakse ühe taseme järgi.
 
 ### <a name="reference-points"></a>Viitepunktid
 
-**Viitepunktid** on ruudustiku veerud, mis määratlevad iga taseme palgavahemikud. Palgatase on ruudustiku rida. Tüüpilise tegevuskava, mille klassi tüüp on vähemalt, on keskmine ja maksimaalne. Loote tugikeskused ning **viide punkti seadistuse** lehel.
+**Viitepunktid** on ruudustiku veerud, mis määratlevad iga taseme palgavahemikud. Palgatase on ruudustiku rida. Tüüpilised klassitüüpi plaani viitepunktid on miinimum, keskpunkt ja maksimum. Viitepunktid saate luua lehel **Viitepunktide seadistused**.
 
 ### <a name="compensation-grids"></a>Tasuruudustikud
 
@@ -56,11 +59,11 @@ Põhipalga plaani koostamisel saab kombineerida kõik seadistatud komponendid. P
 
 Säte **Vahemikust väljajäämise tolerants** võimaldab määrata, kui rangelt soovite veenduda, et tasusummad on miinimum- ja maksimumsummade vahel. Tolerantsitase **Jäik** nõuab, et tasu oleks antud tasemele määratletud vahemikus. Tolerantsitase **Paindlik** annab märku, kui tasusumma on vahemikust väljas, kuid lubab jätkata. Kui määrate tolerantsiks **Pole**, saate sisestada töötajale igasuguse tasusumma, ilma et saaksite hoiatusi või veateateid. 
 
-Selle **rendi eeskiri** seadmine võimaldab teil määrata, kas kõik töötajad peavad saama sama kasvu, olenemata kuupäevast, mil nad olid palgatud (**rendi eeskiri** = **ükski**), või kas töötaja peaks saama protsendi alusel, kui kaua nad töötasid ajal vastavalt (**rendi eeskiri** = **%**). 
+Säte **Palkamise reegel** võimaldab määrata, kas kõik töötajad peaksid saama ühesugust palgatõusu, olenemata nende palkamise kuupäevast (**Palkamise reegel** = **Pole**) või peaksid töötajad saama tasuprotsenti selle põhjal, kui kaua nad tsükli vältel palgatud olid (**Palkamise reegel** = **Protsent**). 
 
 **Vahemiku kasutuse maatriks** on abiks, kui soovite vähendada aega, mis on töötajate puhul vajalik selleks, et nad jõuaksid oma vahemiku keskpunkti, või pikendada aega, mis on vajalik selleks, et nad jõuaksid vahemiku maksimaalsesse viitepunkti. Näiteks soovite anda töötajatele, kes on oma vahemiku alumise 25 protsendi sees, 110 protsenti nende sihtpreemiast, kuid töötajatele, kes on oma vahemiku ülemise 25 protsendi sees, ainult 80 protsenti nende sihtpreemiast, et nad ei jõuaks nii kiiresti maksimumini. 
 
-Pärast põhipalgaplaani põhialuste määratlemist saate seadistada plaani tasustruktuuri. Klõpsake **loodud hüvitist**. Avaneb dialoog liugurit, mis pakub kolme võimalust:
+Pärast põhipalgaplaani põhialuste määratlemist saate seadistada plaani tasustruktuuri. Klõpsake valikut **Tasu seadistamine**. Avaneb liugdialoog, mis annab teile kolm valikut.
 
 -   Saate luua uue tasuruudustiku, valides viitepunkti seadistuse ja andes ruudustikule nime.
 -   Saate luua uue tasuruudustiku, tehes koopia olemasolevast ruudustikust, mida saate lähtepunktina kasutada.
@@ -71,7 +74,7 @@ Kui olete valiku teinud, avaneb leht **Tasustruktuur** ja saate teha uues või o
 ## <a name="fixed-compensation-enrollment"></a>Põhipalga registreerimine
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Määratlege, kellele plaan kohaldub
 
-Esimene samm töötajate registreerimisel põhipalgaplaani on määratleda, kellele plaanis määratletud tasu kohaldub. Enne kohaldamise määratlemist ei saa plaani ühelegi töötajale määrata. Abikõlblikkuse seadistamiseks avada selle **abikõlblikkuse eeskirjad** lehel. Siin, luua uus abikõlblikkuse eeskiri hüvitiste plaan ja määratleda kriteeriumid, mida töötaja peab vastama kava. Saate piirata sobivust osakonna, ametiühingu, palgapiirkonna (asukoha), töö, tööfunktsiooni, töö tüübi või palgatasemega. Töötajaid saab registreerida tasuplaani ainult juhul, kui nad vastavad kõikidele sobivusreeglis seadistatud tingimustele. 
+Esimene samm töötajate registreerimisel põhipalgaplaani on määratleda, kellele plaanis määratletud tasu kohaldub. Enne kohaldamise määratlemist ei saa plaani ühelegi töötajale määrata. Kohaldumise seadistamiseks avage leht **Sobivusreeglid**. Siin saate luua oma tasuplaanile uue sobivusreegli ja määratleda kriteeriumid, millele töötaja peab vastama, et plaan talle kohalduks. Saate piirata sobivust osakonna, ametiühingu, palgapiirkonna (asukoha), töö, tööfunktsiooni, töö tüübi või palgatasemega. Töötajaid saab registreerida tasuplaani ainult juhul, kui nad vastavad kõikidele sobivusreeglis seadistatud tingimustele. 
 
 **Märkus.** Sobivuse reegleid kasutatakse nii põhipalga kui ka ergutussüsteemi plaanide kohaldamisel. 
 
@@ -83,7 +86,7 @@ Sobivusreegel arvestab kirjete Töö, Ametikoht ja Töötaja konkreetsete välja
     -   Vahekaardil **Tasu** väli **Tase**
 -   Lehel **Ametikohad** arvestab sobivusreegel välju **Osakond** ja **Hüvituspiirkond**.
 
-Abikõlblikkuse reeglina leiab ka ametiühingud, mis on seotud töötaja (kohta ning **töötajate** lehekülg, edasi on **töötaja** vahekaardil, klõpsake **isikuandmeid**&gt;**ametiühingud**).
+Sobivusreegel arvestab ka töötajaga seotud ametiühingut (klõpsake lehel **Töötajad** vahekaardil **Töötaja** valikuid **Isikuandmed** &gt; **Ametiühingud**).
 
 ### <a name="define-fixed-compensation-actions"></a>Põhipalga tegevuste määratlemine
 
@@ -93,7 +96,7 @@ Näiteks kui töötajale on seadistatud põhipalk, saab kasutada ainult toimingu
 
 ### <a name="enroll-the-employee"></a>Töötaja registreerimine
 
-Nüüd saate määrata põhipalga plaani juurde töötaja. Avage leht **Töötajad** ja valige tasuplaani registreerimiseks töötaja. Kohta ning tegevus paanil klõpsake **hüvitist**&gt;**fikseeritud kava**. Nüüd saate luua uue kindlaksmääratud töötasu tegevuse töötaja. 
+Nüüd saate määrata põhipalga plaani juurde töötaja. Avage leht **Töötajad** ja valige tasuplaani registreerimiseks töötaja. Klõpsake toimingupaanil valikuid **Tasu** &gt; **Fikseeritud plaan**. Nüüd saate luua sellele töötajale uue põhipalgategevuse. 
 
 **Märkus.** Tasuplaani väljal on kuvatud ainult need plaanid, mis töötajale iga plaani puhul seadistatud sobivusreeglite põhjal kohalduvad. Kui plaanile pole ühtegi sobivusreeglit seadistatud, ei kohaldu see plaan ühelegi töötajale. 
 
@@ -103,5 +106,7 @@ Süsteem kontrollib, kas klassi või astmiku tüüpi tasuplaani puhul on määra
 --------
 
 [Hüvitusplaanid](compensation-plans.md)
+
+
 
 

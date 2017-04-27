@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Nõudluse prognoosi arvutamisel võõrväärtuste eemaldamine kandeandmete ajaloost
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse, kuidas välistada võõrväärtusi ajaloolistest andmetest, mida kasutatakse nõudluse prognoosi arvutamiseks. Võõrväärtuste välistamisega saate parandada prognoosi täpsust.
 
-Saate välistada võõrväärtuste prognoosi täpsuse parandamiseks. See on valikuline ülesanne. Siin on protsessi ülevaade.
+Prognoosi täpsuse suurendamiseks saab võõrväärtused välistada. See on valikuline ülesanne. Siin on protsessi ülevaade.
 
-1.  Klõpsake **kapten planeerimine**&gt;**Setup**&gt;**nõudluse prognoosimise**&gt;**tulemus eemaldamine** avamiseks ning **tulemus eemaldamine** lehele, kus saate päringu saate valida kanded välja jätta.
+1.  Klõpsake valikuid **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoosimine** &gt; **Võõrväärtuse eemaldamine** lehe **Võõrväärtuse eemaldamine** avamiseks, kus saate välistatavate kannete valimiseks päringut kasutada.
 2.  Valige ettevõte, millele päring kehtib, ja sisestage seejärel nimi ja kirjeldus. Väljale **Päringu kuupäev** lisatakse automaatselt praegune kuupäev.
 3.  Märkige ruut **Aktiivne** päringu kaudu leitud kannete välistamiseks ajaloolistest andmetest. See säte jõustub alusprognoosi loomisel.
 4.  Lehel **Võõrväärtuse eemaldamise päring** saate lisada, eemaldada ja valida kriteeriume, mis määravad, millised kanded välistatakse alusprognoosi arvutamisel. Valige näiteks kindel kaup või tellimuse kanne, mida välistada.
@@ -43,8 +46,10 @@ Saate välistada võõrväärtuste prognoosi täpsuse parandamiseks. See on vali
 <a name="see-also"></a>Vt ka
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Sissejuhatus nõudluse prognoosimisse](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Prognoosi täpsuse jälgimine](monitor-forecast-accuracy.md)
+
+
 
 

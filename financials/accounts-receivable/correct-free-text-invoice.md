@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Vabas vormis arve parandamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse, kuidas parandada sisestatud vabas vormis arvet ja väljastada see uuesti parandatud arvena.
 
-Vabas vormis arve, mis on juba postitatud lahendamiseks avage konteeritud vabas vormis arve. Kohta ning **arve** avamiseks valige **tühistada**, ja seejärel valige **arve õigete**. Valige põhjuse kood, lisage kommentaarid ja valige uue parandatud arve kuupäev. Saate parandatud arvet muuta ja selle sisestada. 
+Juba sisestatud vabas vormis arve parandamiseks avage sisestatud vabas vormis arve. Valige lehel **Arve** suvand **Tühista** ja seejärel **Arve parandamine**. Valige põhjuse kood, lisage kommentaarid ja valige uue parandatud arve kuupäev. Saate parandatud arvet muuta ja selle sisestada. 
 
 Parandatud arve sisestamisel koostatakse tühistamisarve krediidisummale, mis võrdub algse arve summaga. Seetõttu on algse arve ja arve tühistamise kombineeritud saldo 0 (null). Tühistamisarve tasakaalustatakse algse arve suhtes. 
 
@@ -43,9 +46,11 @@ Pärast parandatud arve sisestamist, on teil kolm arvet.
 Tühistamis- ja parandamisarveid saab tuvastada kahel moel.
 
 -   Lehel **Kõik vabas vormis arved** on veerg **Parandus**, kus näete, millised arved on tühistamis- ja parandusarved.
--   Vabas vormis arve päises kuvatakse olek **Cancelling arve "\[arve number\]'** või **parandatud arve '\[arve number\]'**.
+-   Vabas vormis arve päises on näha olek **Tühistusarve \[arve number\]** või **Parandusarve \[arve number\]**.
 
 > [!NOTE]
-> See funktsioon on saadaval ainult juhul, kui on **tasuta teksti arve parandus** konfiguratsioonivõti.
+> See funktsioon on saadaval ainult juhul, kui on valitud konfiguratsioonivõti **Vabas vormis arve parandamine**.
+
+
 
 

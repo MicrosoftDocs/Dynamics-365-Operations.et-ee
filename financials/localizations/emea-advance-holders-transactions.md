@@ -1,6 +1,6 @@
 ---
 title: Avansisaaja kanded
-description: "Juhised töötamiseks avansisaaja kanded Microsoft Dynamics 365 toiminguteks."
+description: "Lugege, kuidas töötada avansisaajate kannetega Microsoft Dynamics 365 for Operationsis."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,36 +27,41 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advance-holder-transactions"></a>Avansisaaja kanded
 
-Juhised töötamiseks avansisaaja kanded Microsoft Dynamics 365 toiminguteks.
+[!include[banner](../includes/banner.md)]
 
-Tehinguid nimetatud töötajatele, kes on eelnevalt omanike konteerimist eelnevalt omaniku kontot kasutades. Töötaja ID, mis määratakse iga Avansisaajate saab jälgida kõiki avansisaaja kanded. See number tuuakse kui avansisaaja kanded on kasutatav kontonumber on **Peažurnaalide** ja **ette avansisaaja kanded** lehti.
 
-## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Luua ja sisestada ostutellimuse omaniku kohtumise üksikasjad
-Üldine ostutellimuste kohta lisateavet [osta tellimuse ülevaade](/manufacturing/procurement/purchase-order-overview). Kui hankija arve loodud ja sisestatud kohtumise üksikasjad omanik, konteeritakse ettemaksu omaniku nõuded töötaja bilansikontoga hankija saldo konto asemel. Omaniku kohtumise üksikasjad ostutellimuse lisamiseks toimige järgmiselt.
+Lugege, kuidas töötada avansisaajate kannetega Microsoft Dynamics 365 for Operationsis.
 
--   Aastal ning **tegemise tingimused** välja ning **hind ja allahindlus**, maksetingimust märkige jaotises. <!---For more information about **Terms of payment**, see [Define vendor payment terms](http://ax.help.dynamics.com/en/wiki/define-vendor-payment-terms/).-->Valige maksetähtaeg, mis on selle **avansisaajalt** valitud suvand on **tegemise tingimused** lehekülg. Avansisaajate maksetingimused häälestamise kohta lisateabe saamiseks vt [omanikele ette](emea-advance-holders.md).
--   Linnas on **Avansisaajate** välja jäetud ning **hinna ja allahindluse** FastTab, valige ostutellimuse Avansisaajate.
+Avansisaajast töötajate kandeid saab sisestada avansisaaja kontode abil. Igale avansisaajale määratud töötaja ID alusel saab jälgida kõiki avansisaajate kandeid. See number tuuakse avansisaaja kannete jaoks kontonumbrina lehtedel **Päevaraamatud** ja **Avansisaajate kanded**.
 
-Ostutellimuse sisestamisel loob kaks hankijakannete vastupidine summad ja eelnevalt omanik vastab ühele. Ilma omaniku kohtumise üksikasjad, luuakse ainult üks tarnija.
+## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Ostutellimuse loomine ja sisestamine avansisaaja andmetega
+Täpsemat teavet ostutellimuste kohta vt teemast [Ostutellimuse ülevaade](/manufacturing/procurement/purchase-order-overview). Hankija arve loomisel ja sisestamisel avansisaaja andmetega sisestatakse avansisaaja saldod töövõtja saldokontole, mitte hankija saldokontole. Ostutellimusele avansisaaja andmete lisamiseks tehke järgmist.
 
-## <a name="settle-advance-holder-balances-via-a-bank"></a>Tasuda eelneva omaniku nõuded panga vahendusel
-Kui teil tasakaalustada eelnevalt omaniku nõuded panga vahendusel, luuakse päevikukannete eelnevalt omanik saldode sulgemiseks peažurnaali. Saate seadistada töölehtede ja panga kood on **ette alused** jaotises selle **Ostureskontro parameetrid** lehel. Lisateabe saamiseks vaadake [omanikele ette](emea-advance-holders.md). Panga vahendusel on Avansisaaja saldo sulgemiseks Avage **arved**&gt;**ette alused**&gt;**omanikele ette**. Klõpsake selle **tasakaalu** Updatehagi paani ja seejärel valikut **Sule panga kaudu**. Järgmine teave on **Sule panga kaudu** lehel.
+-   Valige jaotises **Hind ja allahindlus** väljal **Maksetingimused** maksetingimus. <!---For more information about **Terms of payment**, see [Define vendor payment terms](http://ax.help.dynamics.com/en/wiki/define-vendor-payment-terms/).--> Valige maksetingimus, millel on lehel **Maksetingimused** valitud suvand **Avansisaajalt**. Lisateavet avansisaajate maksetingimuste seadistamise kohta vt teemast [Avansisaajad](emea-advance-holders.md).
+-   Valige kiirkaardi **Hind ja allahindlus** väljal **Avansisaaja** ostutellimuse avansisaaja.
+
+Ostutellimuse sisestusprotsess loob kaks hankija kannet vastandsummadega ja ühe avansisaaja kande. Ilma avansisaaja andmetega luuakse ainult üks hankija kanne.
+
+## <a name="settle-advance-holder-balances-via-a-bank"></a>Avansisaaja saldode tasakaalustamine panga kaudu
+Avansisaaja saldode tasakaalustamisel panga kaudu luuakse päevaraamatus töölehe sisestused avansisaaja saldode sulgemiseks. Saate seadistada töölehe ja panga koodi lehe **Ostureskontro parameetrid** jaotises **Avansisaajad**. Lisateavet vt teemast [Avansisaajad](emea-advance-holders.md). Avansisaaja saldo sulgemiseks panga kaudu avage **Ostureskontro** &gt; **Avansisaajad** &gt; **Avansisaajad**. Klõpsake toimingupaanil nuppu **Saldo** ja seejärel nuppu **Panga kaudu sulgemine**. Sisestage lehel **Panga kaudu sulgemine** järgmine teave.
 
 | Väli                    | Kirjeldus |
 |------------------------------|-------------------|
-| **Date of payment**          | Saate sisestada kuupäeva, mil makse tuleb konteerida.|
-| **Saadetav summa** | Sisestage saldo summa samal ajal sulgemist. Summa, mis on märgitud selle **summa** välja ning **tasakaalu** Vaikimisi kuvatakse vorm. |
-| **Automatic**                | Valige selle **automaatne** ruut Loo ja töölehe sisestamine seadistatud kohta ning **Ostureskontro parameetrid** lehel.|
+| **Maksekuupäev**          | Sisestage makse sisestamiseks nõutav kuupäev.|
+| **Ülekantav summa** | Sisestage sulgemisel saldo summa. Vormi **Saldo** väljal **Summa** näidatud summa kuvatakse vaikimisi. |
+| **Automaatne**                | Märkige ruut **Automaatne**, et luua ja sisestada lehel **Ostureskontro parameetrid** eelseadistatud tööleht.|
 
-## <a name="settle-advance-holder-balances-via-cash"></a>Tasuda eelneva omaniku nõuded Kassa kaudu
-Kui eelnev omanik saldod Kassa kaudu lahendada, luuakse päevikukannete eelnevalt omanik saldode sulgemiseks saatelehe tööleht. Saate seadistada töölehtede ja raha kood on **ette alused** tabeldusklahviga ning **Ostureskontro parameetrid** lehel. Lisateabe saamiseks vaadake [omanikele ette](emea-advance-holders.md). Kassa kaudu on Avansisaaja saldo sulgemiseks Avage **arved**&gt;**ette alused**&gt;**omanikele ette**. Klõpsake selle **tasakaalu** Updatehagi paani ja seejärel valikut **Sule Kassa kaudu**. Järgmine teave on **Sule Kassa kaudu** lehel.
+## <a name="settle-advance-holder-balances-via-cash"></a>Avansisaaja saldode tasakaalustamine kassa kaudu
+Avansisaaja saldode tasakaalustamisel kassa kaudu luuakse saatelehe töölehel sisestused avansisaaja saldode sulgemiseks. Saate seadistada töölehe ja kassa koodi lehe **Ostureskontro parameetrid** vahekaardil **Avansisaajad**. Lisateavet vt teemast [Avansisaajad](emea-advance-holders.md). Avansisaaja saldo sulgemiseks kassa kaudu avage **Ostureskontro** &gt; **Avansisaajad** &gt; **Avansisaajad**. Klõpsake toimingupaanil nuppu **Saldo** ja seejärel nuppu **Kassa kaudu sulgemine**. Sisestage lehel **Kassa kaudu sulgemine** järgmine teave.
 
 | Väli                    | Kirjeldus
 |------------------------------|-----------------|
-| **Date of payment**          | Saate sisestada kuupäeva, mil makse tuleb konteerida.|
-| **Saadetav summa** | Sisestage saldo summa samal ajal sulgemist. Summa, mis on märgitud selle **summa** välja ning **tasakaalu** Vaikimisi kuvatakse vorm. |
-| **Automatic**                | Valige selle **automaatne** ruut saate luua ja sisestada automaatselt žurnaali mis on tehases seadistatud kohta on **Ostureskontro parameetrid** lehel.     |
+| **Maksekuupäev**          | Sisestage makse sisestamiseks nõutav kuupäev.|
+| **Ülekantav summa** | Sisestage sulgemisel saldo summa. Vormi **Saldo** väljal **Summa** näidatud summa kuvatakse vaikimisi. |
+| **Automaatne**                | Märkige ruut **Automaatne**, et luua ja sisestada lehel **Ostureskontro parameetrid** eelseadistatud tööleht automaatselt.     |
 
-Pärast slip töölehe töödeldakse, kui summa on **summa kantakse** välja oli negatiivne, on väljaminekuorder on loodud eelnevalt omaniku suletud saldode puhul. Kui summa on **summa kantakse** välja oli positiivne, tagasi libisemine on loodud.
+Kui summa väljal **Ülekantav summa** on negatiivne. luuakse pärast saatelehe töölehe töötlemist avansisaajale väljaminekuorder, kui saldod on suletud. Kui summa väljal **Ülekantav summa** on positiivne, luuakse korvamisorder.
+
+
 
 

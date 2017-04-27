@@ -1,5 +1,5 @@
 ---
-title: "Kaarti erinevate kulude element dimensiooni liikmed mõõteliikmete ühised"
+title: "Erinevate kuluelemendi dimensiooni liikmete vastendamine dimensiooni liikmete ühisele kogumile"
 description: "Erinevate kuluelemendi dimensiooni liikmete vastendamisega kuluelemendi dimensiooni liikmete ühisele kogumile ühendate andmed analüüsi otstarbel ühisesse vormingusse."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Kaarti erinevate kulude element dimensiooni liikmed mõõteliikmete ühised
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Erinevate kuluelemendi dimensiooni liikmete vastendamine dimensiooni liikmete ühisele kogumile
 
 Erinevate kuluelemendi dimensiooni liikmete vastendamisega kuluelemendi dimensiooni liikmete ühisele kogumile ühendate andmed analüüsi otstarbel ühisesse vormingusse.
 
@@ -38,10 +38,10 @@ Järgmine näide näitab teile, kuidas teie kulukontrollerina saate luua kuluarv
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Imporditud kuluelemendi dimensiooni liikmed USA kontoplaanilt | Imporditud kuluelemendi dimensiooni liikmed Prantsuse kontoplaanilt | USA ja Prantsuse kuluelemendi dimensiooni liikmete vastendamine ühisele kogumile |
 | 5001: Müük                                                           | 5001: Müük ja turundus                                               | 5000: Müük ja turundus                                             |
-| 5030: Reklaam                                                     | 6390: varude ostu\*                                                    | 7000: Puhastuskulud                                                 |
+| 5030: Reklaam                                                     | 6390: Lao ost\*                                                    | 7000: Puhastuskulud                                                 |
 | 7001: Puhastuskulud                                               | 7001: Reisikulu                                                      | 7001: Reisikulud                                                   |
 
-\*Varude ostu Prantsuse kulude element dimensiooni liige pole vastendatud.
+\*Lao ostu Prantsuse kuluelemendi dimensiooni liiget ei vastendata.
 
 ## <a name="currency-conversion"></a>Valuutateisendus
 Erinevaid kasutatavaid kontoplaane saab seadistada kasutama erinevaid valuutasid. Sellisel juhul määrake kindlasti valuutateisendus, et kuluandmeid töödeldaks õiget valuutat kasutades, nagu on määratletud kuluarvestuse pearaamatus, kus kasutatakse kuluelemendi dimensiooni liikmeid. Kui eeltoodud näites kasutatakse kuluarvestuse pearaamatus USA dollareid, peate looma valuutateisenduse USA dollarist eurodele (EUR), et töödelda kandeid vastendatud kuluelemendi dimensiooni liikmete jaoks.

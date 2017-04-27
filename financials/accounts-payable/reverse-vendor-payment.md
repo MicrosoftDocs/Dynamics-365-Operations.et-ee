@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Hankija makse storneerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel kirjeldab makse tagasipööramise, kustutamise, tühistamise ja tagasilükkamise erinevusi. Lisaks selgitab see kahte hankija tšeki tagasipööramise meetodit. 
 
-Mõnikord tuleb hankija makse pärast sisestamist storneerida. Storneerimine erineb makse kustutamisest, tühistamisest või tagasilükkamisest. Makse saate kustutada ainult siis, kui selle olek on **Loodud**. See olek näitab, et makse on loodud, kuid pole veel genereeritud. Alati see piirang kehtib sõltumata makse. Pärast seda, kui need on koostatud, kuid enne konteerimist saate sisestamata tšekkide tühistamine. Kui loodud makse teostamist nagu igakuise elektroonilise ülekande (EFT), saate makse tagasi enne sisestamist. Makse keeldumiseks muutke selle **makse olek** väärtus. Makse, mis on tühistatud või tagasi lükatud tuleb taastada pärast selle **makse olek** väärtus muutub tagasi **pole**. 
+Mõnikord tuleb hankija makse pärast sisestamist storneerida. Storneerimine erineb makse kustutamisest, tühistamisest või tagasilükkamisest. Makse saate kustutada ainult siis, kui selle olek on **Loodud**. See olek näitab, et makse on loodud, kuid pole veel genereeritud. See piirang kehtib alati olenemata makseviisist. Saate sisestamata tšekid pärast nende loomist, kuid enne sisestamist tühistada. Kui loodud makse on tehtud elektroonilise ülekandena, saate makse enne sisestamist tagasi lükata. Makse tagasilükkamiseks muutke valiku **Makse olek** väärtust Tühistatud või tagasi lükatud makset ei saa uuesti luua, kui suvandi **Makse olek väärtus** on muudetud tagasi sättele **Puudub**. 
 
-Pärast seda, kui makse on sisestatud, kasutatakse pöördumise. Maksed, mis tehakse elektrooniliselt ei saa tühistada pärast konteerimist. Selle asemel tuleb luua uus kanne saada vastutus tagasi hankija kontole makse summa. On kaks meetodit, kuidas postitatud kontrolli. Esimese meetodi puhul sisestatakse storno kohe pärast lehel **Tšekk** suvandi **Makse storneerimine** klõpsamist. Teise meetodi puhul saadetakse storno pärast lehel **Tšekk** suvandi **Makse storneerimine** klõpsamist tšeki storneerimise töölehele jaotises Sularaha- ja pangahaldus, kus läbivaataja saab storneerimise sisestada või tagasi lükata. 
+Kui makse on sisestatud, kasutatakse storneerimist. Elektrooniliselt tehtud makseid ei saa pärast sisestamist storneerida. Selle asemel tuleb luua uus kanne makse summale, et viia kohustus hankija kontole tagasi. Sisestatud tšekkide storneerimiseks on kaks meetodit. Esimese meetodi puhul sisestatakse storno kohe pärast lehel **Tšekk** suvandi **Makse storneerimine** klõpsamist. Teise meetodi puhul saadetakse storno pärast lehel **Tšekk** suvandi **Makse storneerimine** klõpsamist tšeki storneerimise töölehele jaotises Sularaha- ja pangahaldus, kus läbivaataja saab storneerimise sisestada või tagasi lükata. 
 
 Oma organisatsioonis kasutatavat meetodit vaadake lehelt **Sularaha- ja pangahalduse parameetrid**. Kui suvandi **Kasuta maksete storneerimiseks läbivaatusprotsessi** sätteks on valitud **Jah**, saadetakse stornod läbivaatuseks tšeki storneerimise töölehele. Järgmine tabel kirjeldab tšeki tühistamise meetodite erinevust.
 
@@ -57,7 +60,7 @@ Kui olete kasutaja, kes peab storneerimised läbi vaatama, saate töölehe kinni
 -   Storneerimise tagasilükkamiseks kustutage tšeki storneerimise tööleht.
 
 > [!NOTE]
-> Kui kustutate töölehe, tühistamised eemaldatakse süsteemist, kuid jääb algne sisse ning **kontrollida** lehel. Tšeki olek ei ole enam **Tühistamise ootel**.
+> Töölehe kustutamisel eemaldatakse storno süsteemist, kuid algne tšekk jääb lehele **Tšekk** alles. Tšeki olek ei ole enam **Tühistamise ootel**.
 
 ## <a name="results-of-posting-a-reversal"></a>Tagasivõtmise sisestamise tulemused
 Kui sisestate tšeki storneerimise, toimuvad järgmised sündmused.
@@ -78,6 +81,8 @@ Kui storneeritud tšekk väljastati kliendi tagasimakseks, toimuvad ka järgmise
 
 -   Kanne sisestatakse makse tühistamise kliendikontole ja tasakaalustus algse makse ja dokumendi vahel, millele makse algselt tasakaalustati, tühistatakse (luuakse negatiivne makse).
 -   Makse tagasivõtmist rakendatakse algsele maksele. Algse kliendimakse välja **Viimane tasakaalustuskanne** lehel **Kliendi kanded** värskendatakse, et kajastada storneeritud kande kandenumbrit.
+
+
 
 
 

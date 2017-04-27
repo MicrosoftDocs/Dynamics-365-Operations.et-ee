@@ -1,6 +1,6 @@
 ---
-title: "Lao töölehe aruanded"
-description: "Seadistatav lao aruanded vastavalt elektroonilisel kasutamisel peate luua seos kindla aruande ja tüüp."
+title: "Varude töölehe aruanded"
+description: "Kui kasutate elektroonilisel aruandlusel põhinevaid konfigureeritavaid varude aruandeid, siis peate seadistama seose konkreetse aruande ja töölehe tüübi vahel."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-journal-reports"></a>Lao töölehe aruanded
+# <a name="inventory-journal-reports"></a>Varude töölehe aruanded
 
-Seadistatav lao aruanded vastavalt elektroonilisel kasutamisel peate luua seos kindla aruande ja tüüp.
+[!include[banner](../includes/banner.md)]
 
-Luua kindla aruande seos tüüp, edasi on **varude töölehenimede** lehele (**varud**&gt;**Setup**&gt;**nimed**&gt;**varude**), sisestage aruande nimi. **Märkus:** toetatud konfiguratsioonid seadistamiseks lae nõutav elektrooniliste andmete esitamise koosseisud. Lisateabe saamiseks vaadake [lae elektrooniline aruandlus koosseisud elutsükli teenuste](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Lao aruanded koos toetatud konfiguratsioonid Euroopas on loetletud järgmises tabelis.
+
+Kui kasutate elektroonilisel aruandlusel põhinevaid konfigureeritavaid varude aruandeid, siis peate seadistama seose konkreetse aruande ja töölehe tüübi vahel.
+
+Konkreetse aruande ja töölehe tüübi vahelise seose seadistamiseks sisestage lehel **Varude töölehe nimed** (**Varude haldus** &gt; **Seadistus** &gt; **Töölehtede nimed** &gt; **Varud**) aruandele nimi. **Märkus:** toetatud konfiguratsioonide seadistamiseks laadige alla vajalikud elektroonilise aruandluse konfiguratsioonid. Lisateavet leiate jaotisest [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Näited Euroopas toetatud konfiguratsioonidega laoaruannete kohta on loetletud järgmises tabelis.
 |                    |                                     |                  |                                         |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
-| **Country**        | **Aruande kirjeldus**              | **Journal type** | **Kujul vastenduse nimi**                 |
-| Leedu, Ungari | Inventuuri aruande aruande          | Inventuur         | Inventuuriaruanne (HU, LT)            |
+| **Riik**        | **Aruande kirjeldus**              | **Töölehe tüüp** | **Vormingu vastenduse nimi**                 |
+| Leedu, Ungari | Inventuuriväljavõtte aruanne          | Inventuur         | Inventuuriväljavõte (HU, LT)            |
 | Läti, Poola     | Varude ümberklassifitseerimise dokument | Ülekanne         | InventoryReclassificationDocument\_PLLV |
 | Eesti            | Varude ümberklassifitseerimise dokument | Ülekanne         | InventoryReclassificationDocument\_EE   |
 | Poola             | Sisemine PW/RW                      | Liikumine         | InventJournalLinesDocPL                 |
 | Läti             |  Varude liikumise dokument         | Liikumine         | Liikumine\_LV                            |
-| Läti             | Varude allahindluse dokumendi       | Korrigeerimine       | InventJournalLines\_LV                  |
+| Läti             | Varude allahindluse dokument       | Korrigeerimine       | InventJournalLines\_LV                  |
 | Läti             | Ülekande tarneteade              | Ülekanne         | InternalTransferDeliveryNote\_LV        |
-| Läti             | Lugedes dokumenti aruanne            | Inventuur         | CountedDocument\_LV                     |
-| Läti             | Inventuuri aruanne                | Inventuur         | Inventuuri loend                           |
+| Läti             | Inventuuridokumendi aruanne            | Inventuur         | CountedDocument\_LV                     |
+| Läti             | Inventuuri loendi aruanne                | Inventuur         | Inventuuri loend                           |
+
+
 
 
 

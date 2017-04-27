@@ -1,6 +1,6 @@
 ---
 title: "Hilisema kuupäevaga dateeritud tšekid"
-description: "Selles artiklis kirjeldatakse postdated kontrolli Microsoft Dynamics 365 operatsioonide toetamine. Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil. Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada."
+description: "Selles artiklis antakse teavet hilisema kuupäevaga tšekkide toe kohta Microsoft Dynamics 365 for Operationsis. Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil. Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="postdated-checks"></a>Hilisema kuupäevaga dateeritud tšekid
 
-Selles artiklis kirjeldatakse postdated kontrolli Microsoft Dynamics 365 operatsioonide toetamine. Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil. Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 toiminguteks toetab täielikult tsükli postdated kontroll Müügireskontro ja Ostureskontro, nagu on näidatud järgmises tabelis.
+
+Selles artiklis antakse teavet hilisema kuupäevaga tšekkide toe kohta Microsoft Dynamics 365 for Operationsis. Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil. Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada.
+
+Microsoft Dynamics 365 for Operations toetab hilisema kuupäevaga dateeritud tšekkide täielikku haldustsüklit nii müügireskontros kui ka ostureskontros, nagu on näidatud järgmises tabelis.
 <table>
 <colgroup>
 <col width="50%" />
@@ -48,14 +51,14 @@ Microsoft Dynamics 365 toiminguteks toetab täielikult tsükli postdated kontrol
 </tr>
 <tr class="even">
 <td>Registreeri ja postita hankija hilisema kuupäevaga tšekk</td>
-<td>Registreerige hankijale väljastatava hilisema kuupäevaga tšeki üksikasjad. Makse konteerimisel hankija vastutuse on tunnustatud, kuid pangakonto ei ole veel laenu. Selle asemel kasutatakse selleks kliiringukontot.</td>
+<td>Registreerige hankijale väljastatava hilisema kuupäevaga tšeki üksikasjad. Kui makse on sisestatud, siis tuvastatakse hankija kohustus, kuid pangakonto ei ole veel krediteeritud. Selle asemel kasutatakse selleks kliiringukontot.</td>
 </tr>
 <tr class="odd">
 <td>Kliendi hilisema kuupäevaga tšeki registreerimine ja postitamine</td>
-<td>Regitreerige kliendilt saadud hilisema kuupäevaga tšeki üksikasjad. Makse sisestamisel Müügireskontro kliendile on krediiti, kuid pangakonto ei ole veel debiteerida. Selle asemel kasutatakse selleks kliiringukontot.</td>
+<td>Regitreerige kliendilt saadud hilisema kuupäevaga tšeki üksikasjad. Kui makse on sisestatud, siis on kliendi nõue krediteeritud, kuid pangakontot ei ole veel debiteeritud. Selle asemel kasutatakse selleks kliiringukontot.</td>
 </tr>
 <tr class="even">
-<td>Registreerida ja sisestada kliendi või hankija asendamine postdated sisse</td>
+<td>Registreerige ja postitage kliendi või hankija hilisema kuupäevaga asendustšekk.</td>
 <td>
 Kui teie algne tšekk hankijale või kliendilt on kadunud või kahjustatud, siis saate hankijale väljastada hilise kuupäevaga dateeritud asendustšeki. Tšeki üksikasjade registreerimisel lisage viide esialgsele tšekile ja näidake, et uus tšekk on originaali asendaja. Asendustšeki saate ka sisestada.</td>
 </tr>
@@ -69,17 +72,19 @@ Kui teie algne tšekk hankijale või kliendilt on kadunud või kahjustatud, siis
 </tr>
 <tr class="odd">
 <td>Hankija hilisema kuupäevaga tšeki tühistamine</td>
-<td>Saate konteeritud postdated sisse sellistes olukordades:-kontrolli tagastatakse panga poolt.
--Kontrolli rakendatakse vale arve.
--Sularahamakse tehakse kontrolli.
+<td>Sisestatud hilisema kuupäevaga tšeki saate tühistada järgmistes olukordades. - Pank tagastab tšeki.
+- Tšekk on rakendatud valele arvele.
+- Tšeki põhjal tehakse sularahamakse.
 </td>
 </tr>
 <tr class="even">
-<td>Postdated sisse maksete peatamist</td>
-<td>Saate peatada hankijale väljastatud hilisema kuupäevaga dateeritud tšeki põhjustel, nagu ebapiisavad vahendid, muudatused hankijaga sõlmitud lepingu tingimustes, hankija tarnitud defektsed kaubad või kaupade tagastamine hankijale. Võimalik maksete peatamist kontrollidele, mis ei ole tühi.</td>
+<td>Hilisema kuupäevaga tšeki makse peatamine</td>
+<td>Saate peatada hankijale väljastatud hilisema kuupäevaga dateeritud tšeki põhjustel, nagu ebapiisavad vahendid, muudatused hankijaga sõlmitud lepingu tingimustes, hankija tarnitud defektsed kaubad või kaupade tagastamine hankijale. Makse saate peatada ainult tasaarvestamata tšekkide puhul.</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Hankija kontode
+title: Hankijakontode seadistamine
 description: "See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-vendor-accounts"></a>Hankija kontode
+# <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
+
+[!include[banner](../includes/banner.md)]
+
 
 See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto.
 
@@ -40,7 +43,7 @@ Hankijakonto loomisel sisestate teabe hankija kohta. Seda teavet kasutatakse and
 -   Seadistage hankija maksu-, tarne-, arve- ja makseteave. Vaikimisi kopeeritakse need sätteid uutesse dokumentidesse, mida loote hankija jaoks.
 -   Seadistage vaikimisi finantsdimensioonid, mida kasutatakse hankijaga kannete automaatseks sisestamiseks finantsaruannetesse.
 
-Hankijakontode loomise protsessi kiirendamiseks saate luua mallid. Luua malli, et **hankija** lehel ning tegevus paanil klõpsake **Valikud**&gt;**salvestada info**. Seejärel klõpsake valikut **Ettevõttekontode mall**. Ettevõttekontode malle jagatakse teiste kasutajatega.  
+Hankijakontode loomise protsessi kiirendamiseks saate luua mallid. Malli loomiseks klõpsake lehe **Hankija** tegumiribal valikuid **Suvandid** &gt; **Kirje teave**. Seejärel klõpsake valikut **Ettevõttekontode mall**. Ettevõttekontode malle jagatakse teiste kasutajatega.  
 
 Samuti saate luua kasutaja malli endale kasutamiseks. Te ei saa kustutada muude kirjetega (nt kontaktid või tooted) seotud hankijat.
 
@@ -56,7 +59,7 @@ Iga hankija puhul saate määratleda mitu aadressi, millest igaüht kasutatakse 
 ## <a name="vendor-contacts"></a>Hankija kontaktid
 Saate talletada hankija kontaktid. Neid kontakte saab seejärel kasutada dokumentidel, nagu ostutellimused või pakkumiskutsed (RFQ-d).  
 
-Lisada kontaktid hankija, selle **hankijate** lehekülg edasi ning **hankija** vahekaardil, on **loodud** nuppu **kontaktid**&gt;**kontaktide lisamine**.  
+Hankija kontaktide lisamiseks klõpsake lehe **Kõik hankijad** vahekaardi **Grupis** grupis **Seadistus** klõpsake valikuid **Kontaktid** &gt; **Lisa kontaktid**.  
 
 Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksikasjad ühelt isikult, kes juba on registreeritud Microsoft Dynamics 365 for Operationsis, ja redigeerida teavet vastavalt nõudmisele.  
 
@@ -64,7 +67,7 @@ Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksika
 
 Te ei saa kustutada kontaktiisiku kirjet, kui kontaktidel on dokumendis viidatud. Selle asemel saate kontakti inaktiveerida.  
 
-Hankija kontaktide lisamiseks oma isiklikud kontaktid rakenduses Microsoft Office 365. Siiski peate esmalt seadistama Dynamics 365 operatsioonide ja Office 365 sünkroonimise Microsoft Exchange serveriga ja Microsoft Outlooki seadistuse viisard.
+Rakenduses Microsoft Office 365 saate isiklikele kontaktidele hankija kontakte lisada. Peate esmalt Microsoft Exchange Serveri sünkroonimise ja Microsoft Outlooki seadistuse viisardis seadistama sünkroonimise rakenduste Dynamics 365 for Operations ja Office 365 vahel.
 
 ## <a name="vendors-in-different-legal-entities"></a>Hankijad erinevates juriidilistes isikutes
 Kui hankija on registreeritud teie organisatsioonis ainult ühele juriidilisele isikule ja teised juriidilised isikud peavad registreerima sama hankija, saate kasutada lehte **Lisa hankija teise juriidilisse isikusse**, et konfigureerida hankija tegema äri teise juriidilise isikuga. Peate valima hankija grupi, valuuta ja hoidma hankija olekut valitud juriidilises isikus.  
@@ -101,5 +104,7 @@ Kui peate tegema makseid hankija pangakontole, saate sisestada teabe hankija pan
 Saate määrata vaikekontod, mis ilmuvad automaatselt hankija arve töölehtedel määratud hankija puhul. See funktsioon võib olla kasulik, kui maksate tavaliselt aja jooksul samade hankijate sama tüüpi kaupade või teenuste eest. Kui määrate vaikekonto, saate kiirelt ja tõhusalt arve töölehele töölehe sisestused sisestada. Teie määratud vaikekontosid ei kasutata ostutellimuste ega hankijaarvete puhul, mis on sisestatud lehele **Hankija arve**.  
 
 Valite vaikekontod lehel **Kontode vaikeseadistus**, mille saate avada hankija kirje vahekaardilt **Arve**. Siin valitud kontod ilmuvad hankija konto filtreeritud kontode loendis töölehe kirje sisestamisel. Saate seadistada ühe konto vaikekontona.
+
+
 
 

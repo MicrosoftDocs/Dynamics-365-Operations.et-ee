@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Projektilepingud
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel kirjeldab projektilepinguid ja toob näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamisallikatele luua, ning näitab, kuidas hallata Microsoft Dynamics 365 for Operationsis lepinguid ja arveprojekti kliente.
 
 Projektilepingu jaoks loodav projekti tüüp määratleb meetodi, mida kasutatakse projekti klientidele arvete esitamiseks. Projekti lepingut ja seotud projekti saab muuta, kuid projekti tüüpi ei saa muuta. 
@@ -80,7 +83,7 @@ Järgmises tabelis pakutakse stsenaariume rahastamise mitmele rahastamise allika
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>Stsenaarium</strong></td>
 <td><strong>Rahastamise allikas </strong></td>
 <td><strong>Eraldise % </strong></td>
 <td><strong>Eraldise prioriteet </strong></td>
@@ -192,7 +195,7 @@ Järgmises tabelis käsitletakse seda stsenaariumi täpsemalt.
 <tbody>
 <tr class="odd">
 <td><strong>Fookus </strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Üksikasjad</strong></td>
 </tr>
 <tr class="even">
 <td>Rahastamisreeglid</td>
@@ -220,17 +223,17 @@ Järgmises tabelis käsitletakse seda stsenaariumi täpsemalt.
 </tr>
 <tr class="odd">
 <td>Kanne 2</td>
-<td><strong>Tehingu summa:</strong> 5,000.00<strong>rahastamine:</strong> tehingu makstakse kõik kolm reeglite järgi. <strong>Artikkel 1</strong><ph id="t1">
-</ph><ul>
+<td><strong>Kande summa:</strong> 5000.00<strong>Rahastamine:</strong> Kande eest makstakse kõigi kolme reegli alusel.<strong>Reegel 1</strong>
+<ul>
 <li>Rahastamise allikas 2: 450.00</li>
 <li>Rahastamise allikas 3: 450.00</li>
-</ul><bpt id="t2">
-< tugev ></bpt> Reegel 2</strong><ph id="t3">
-</ph><ul>
+</ul>
+<strong>Reegel 2</strong>
+<ul>
 <li>Rahastamise allikas 3: 250.00 (= 750.00 – 50.00 – 450.00)</li>
-</ul><bpt id="t4">
-< tugev ></bpt> Reegel 3</strong><ph id="t5">
-</ph><ul>
+</ul>
+<strong>Reegel 3</strong>
+<ul>
 <li>Rahastamise allikas 1: 3850.00 (= 5000.00 – 450.00 – 450.00 – 250.00)</li>
 </ul></td>
 </tr>
@@ -339,5 +342,7 @@ Projektilepingu seadistamisel lepite kokku, et esitate kliendile arveid igakuise
 -   Koostate projekti vältel kliendile iga kalendrikuu lõpus arve.
 
 Esimese kuu jooksul registreerivad konsultandid projektile kokku 800 tundi. Projekti kontoritarvete kulu on 2000. Seega koostate kuu lõpus arve summas 122 000, mis sisaldab 800 tundi hinnaga 150 tunni kohta pluss 2000 kontoritarvete eest.
+
+
 
 

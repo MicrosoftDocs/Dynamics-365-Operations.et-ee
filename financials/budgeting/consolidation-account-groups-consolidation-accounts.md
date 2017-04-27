@@ -1,6 +1,6 @@
 ---
-title: "Konsolideerimisgrupi konto ja täiendavad Konsolid"
-description: "Selle teema konsolideerimisgrupi konto ja täiendavad Konsolid teave ja selgitab, kuidas neid kasutatakse Microsoft Dynamics 365 toiminguteks."
+title: "Konsolideerimiskontode grupid ja täiendavad konsolideerimiskontod"
+description: "See teema annab teavet konsolideerimiskontode gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist Microsoft Dynamics 365 for Operationsis."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,27 +24,32 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolideerimisgrupi konto ja täiendavad Konsolid
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolideerimiskontode grupid ja täiendavad konsolideerimiskontod
 
-Selle teema konsolideerimisgrupi konto ja täiendavad Konsolid teave ja selgitab, kuidas neid kasutatakse Microsoft Dynamics 365 toiminguteks.
+[!include[banner](../includes/banner.md)]
+
+
+See teema annab teavet konsolideerimiskontode gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist Microsoft Dynamics 365 for Operationsis.
 
 <a name="consolidation-account-groups"></a>Konsolideerimiskontode grupid
 ----------------------------
 
-Konsolideerimisgrupi konto abil saate luua soovitud andmete konsolideerimiseks kontod. Enamasti on konto konsolideerimisgrupi moodustab valitsuse volitatud kontoplaani või kaardid kontode grupp, mille peakontor. Leiad konsolideerimise gruppide lõikes on **Setup** ala on **konsolideerimiste** moodul. Kui lisate uue rühma, sisestamisel ainuidentifikaatori kontogrupi ja nimi.
+Konsolideerimiskontode grupid võimaldavad luua gruppe kontodest, mida soovite kasutada andmete konsolideerimiseks. Enamasti kujutab konsolideerimiskontode grupp riiklikul tasandil kontoplaani või vastendab kontod grupiga, mille on määratlenud ettevõtte peakontorid. Konsolideerimiskontode grupid leiate mooduli **Konsolideerimised** alast **Häälestus**. Uue kontogrupi lisamisel sisestage selle jaoks kordumatu identifikaator ja nimi.
 
 ## <a name="additional-consolidation-accounts"></a>Täiendavad konsolideerimiskontod
-Täiendav Konsolid abil saate määrata konto olemasoleva kontoplaani konto konsolideerimisgruppi. Saate määrata konsolideerimise konto väärtus ja nimi. 
+Täiendavad konsolideerimiskontod võimaldavad määrata konto olemasolevast kontoplaanist konsolideerimiskontode gruppi. Seejärel saate määrata konsolideerimiskonto väärtuse ja nime. 
 
-Võite leida täiendavat Konsolid on **Setup** ala on **konsolideerimiste** moodul. Konsolideerimise uue konto loomisel määrake järgmised andmed:
+Täiendavad konsolideerimiskontod leiate mooduli **Konsolideerimised** alast **Häälestus**. Uue konsolideerimiskonto loomisel peate määrama järgmise teabe.
 
--   **Peamine konto** – väli on otsingut, mida kõik peamised kontod, Kontoplaan valitud lehe põhjal. Kui valite konto nimi sisestatakse automaatselt ning **Main konto nimi** välja.
--   **Konsolideerimisgrupi konto** – selle välja abil saate määrata selle, kuhu konto. Kui konsolideerimisel kahel viisil, peate lisama kõik neli konsolideerimise kontorühmade sama kontoga.
--   **Koondkontol** – sisestage konsolideerimise konto väärtus. See väärtus ei pea olema kontoplaanis konto. See võib olla suvaline väärtus, mida vajate.
--   **Konsolideerimise konto nimi** -sisestage nimi, nagu soovite seda kuvada päringuid ja aruandeid.
--   **SAT tase** – seda välja kasutatakse väljavõtted Mehhiko maksuametile teatada. 
+-   **Põhikonto** – see väli on otsinguväli, millel kuvatakse kõik lehel valitud kontoplaanil põhinevad põhikontod. Konto valimisel sisestatakse selle nimi automaatselt väljale **Põhikonto nimi**.
+-   **Konsolideerimiskontode grupp** – selle väljaga saate valida grupi, millesse konto määrata. Kahel erineval viisil konsolideerimisel peate lisama sama konto kõigisse nelja konsolideerimiskontode gruppi.
+-   **Konsolideerimiskonto** – sisestage konsolideerimiskonto väärtus. See väärtus ei pea olema konto kontoplaanilt. See võib olla mis tahes teie nõutud väärtus.
+-   **Konsolideerimiskonto nimi** – sisestage konto nimi kujul, nagu soovite seda kuvada päringutes ja aruannetes.
+-   **SAT tase** – seda välja kasutatakse Mehhiko maksuasutustele kontoväljavõtete esitamiseks. 
 
-Kui olete oma konto konsolideerimisgrupi ja täiendavad Konsolid loomise lõpetanud, saate valida kontserni Konsolideeri online protsessi.
+Kui olete konsolideerimiskontode gruppide ja täiendavate konsolideerimiskontode loomise lõpule viinud, saate valida grupi jaotises Võrgus konsolideerimise protsess.
+
+
 
 
 

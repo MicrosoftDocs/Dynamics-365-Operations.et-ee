@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Allesjäänud eluea lineaarne kulum
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade kulumiarvestusmeetodist Allesjäänud lineaarne eluiga.
 
 Kui seadistate põhivara kulumireegli ja valite lehe **Kulumireeglid** väljal **Meetod** suvandi **Allesjäänud lineaarne eluiga**, siis põhineb kulumireeglile määratud põhivarade tarbimiskulum põhivara järelejäänud tööeal. Tavaliselt on sel juhul kõigi kulumiperioodide kulumisumma ühesuurune. Allesjäänud eluea lineaarne kulumi seadistamiseks peate valima ka suvandid lehe **Kulumireeglid** väljadel **Kulumiaasta** ja **Perioodi sagedus**. Väljal **Perioodi sagedus** olevad valikud erinevad olenevalt väljal **Kulumiarvestusaasta** valitud väärtusest.
@@ -36,7 +39,7 @@ Saate teha valiku **Kalendriaasta** või **Rahandusaasta** väljalt **Kulumiarve
 
 ### <a name="calendar"></a>Kalender
 
-Kui valite **kalender** ja on ***Kulumiaasta*** välja, aastas, 1. jaanuar läbi 31. detsembril ei kuulu, isegi siis, kui teie poolt määratletud Fiskaalkalendri erinevalt. Valik **Kalendriaasta** värskendab kulumiarvestuse alust iga aasta 1. jaanuaril. Kulumiarvestuse alus on tavaliselt raamatupidamislik jääkväärtus miinus jääkväärtus. Selle teema edasistes näidetes on kulumiarvestuse alus arvutuste veeru esimese avaldise esimene liige. Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
+Kui valite suvandi **Kalender** väljal ***Kulumiaasta***, arvestatakse aastana perioodi 1. jaanuarist kuni 31. detsembrini, isegi kui olete rahanduskalendri teisiti määratlenud. Valik **Kalendriaasta** värskendab kulumiarvestuse alust iga aasta 1. jaanuaril. Kulumiarvestuse alus on tavaliselt raamatupidamislik jääkväärtus miinus jääkväärtus. Selle teema edasistes näidetes on kulumiarvestuse alus arvutuste veeru esimese avaldise esimene liige. Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
 
 -   **Kord aastas** sisestab summa 31. detsembril.
 -   **Kord kuus** sisestab igakuise summa iga kalendrikuu lõpus.
@@ -48,7 +51,7 @@ Näiteks suvandi **Kord aastas** valimisel sisestatakse aasta kulum ainult üks 
 
 ### <a name="fiscal"></a>Fiskaalne
 
-Kuiv alite väljal **Kulumiarvestusaasta** suvandi **Rahandusaasta**, kasutatakse allesjäänud eluea lineaarset kulumit. Kulum arvutatakse järelejäänud rahandusaastate alusel. Näiteks 1 juuli 2015 kuni 30. juuni 2016 aasta kulumiarvestuse algab 1. juuli. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Iga rahandusperioodi kulumit korrigeeritakse. Järgmise rahandusaasta pikkuse määravad rahandusperioodid, mis on seadistatud lehel **Rahanduskalendrid**. Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
+Kuiv alite väljal **Kulumiarvestusaasta** suvandi **Rahandusaasta**, kasutatakse allesjäänud eluea lineaarset kulumit. Kulum arvutatakse järelejäänud rahandusaastate alusel. Näiteks finantsaastal 1. juulist 2015 kuni 30. juunini 2016 käivitub kulumiarvestus 1. juulil. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Iga rahandusperioodi kulumit korrigeeritakse. Järgmise rahandusaasta pikkuse määravad rahandusperioodid, mis on seadistatud lehel **Rahanduskalendrid**. Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
 
 -   **Kord aastas** sisestab rahandusaasta puhul arvutatud kulumi kogusumma ühe summana rahandusaasta viimasel päeval.
 -   **Rahandusperiood **arvutab rahandusaasta kulumi kogusumma. See summa kogutakse siis rahandusperioodidesse, mis on määratletud lehel **Rahaduskalendrid** raamatu jaoks määratud rahanduskalendri jaoks.
@@ -73,6 +76,8 @@ Kulumisumma on igal aastal sama: (soetusmaksumus – jääkväärtus) ÷ kasulik
 | aasta 3 | (7000 – 1000) ÷ 3 = 2000                   | 5 000                                 |
 | aasta 4 | (5000 – 1000) ÷ 2 = 2000                   | 3 000                                 |
 | aasta 5 | (3000 – 1000) ÷ 1 = 2000                   | 1000                                 |
+
+
 
 
 

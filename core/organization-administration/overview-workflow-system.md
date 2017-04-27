@@ -1,6 +1,6 @@
 ---
 title: "Töövoo süsteemi ülevaade"
-description: "Selles artiklis kirjeldatakse Microsoft Dynamics 365 operatsioonide töövoosüsteemi."
+description: "Artikkel kirjeldab Microsoft Dynamics 365 for Operationsi töövoo süsteemi."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-system-overview"></a>Töövoo süsteemi ülevaade
 
-Selles artiklis kirjeldatakse Microsoft Dynamics 365 operatsioonide töövoosüsteemi.
+[!include[banner](../includes/banner.md)]
+
+
+Artikkel kirjeldab Microsoft Dynamics 365 for Operationsi töövoo süsteemi.
 
 <a name="what-is-workflow"></a>Mis on töövoog?
 -----------------
@@ -34,7 +37,7 @@ Selles artiklis kirjeldatakse Microsoft Dynamics 365 operatsioonide töövoosüs
 Mõiste *töövoo* saab määratleda kahel viisil: süsteemi ja äriprotsessi.
 ### <a name="workflow-is-a-system"></a>Töövoog on süsteem
 
-Töövoog on süsteem, mis on installitud Dynamics 365 operatsioonide ja kohta rakendusobjekti serveri (AOS), mis töötab. Töövoo süsteemil on funktsioone, millega saate luua eraldi töövooge või äriprotsesse.
+Töövoog on koos Dynamics 365 for Operationsiga installitud süsteem, mis töötab rakendusobjekti serveril (AOS-il). Töövoo süsteemil on funktsioone, millega saate luua eraldi töövooge või äriprotsesse.
 
 ### <a name="workflow-is-a-business-process"></a>Töövoog on äriprotsess
 
@@ -46,6 +49,7 @@ Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
 -   **Järjepidevad protsessid** – töövoo süsteem lubab teil määratleda, kuidas kindlaid dokumente, näiteks ostutaotlused ja kuluaruanded, töödeldakse. Töövoo süsteemi abil tagate, et dokumente töödeldakse ja kinnitatakse ühtemoodi ja efektiivselt.
 -   **Protsessi nähtavus** – töövoo süsteem lubab teil jälgida kindlate töövoo eksemplaride olekut ja ajalugu. See aitab teil määratleda, kas töövoos tuleks muudatusi tõhususe parandamiseks.
 -   **Koondatud tööde loend** – kasutajad saavad vaadata koondatud tööde loendit, et näha neile määratud töövoo ülesandeid ja kinnitusi.
+
 
 
 

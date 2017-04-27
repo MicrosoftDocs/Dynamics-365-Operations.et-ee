@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Ostutaotluse ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel võivad olla.
 
 Olenevalt organisatsiooni seadistusest, saate luua organisatsiooni kasutatavatele toodetele ostutaotlusi. Ostutaotlus on sisedokument, mis annab ostuosakonnale volituse kaupu või teenuseid osta.  
@@ -48,7 +51,7 @@ Ostutaotluse töövooprotsessi saate konfigureerida selliselt, et ostutaotlus li
 
 Järgmine diagramm näitab ostutaotlusele ja ostutaotluse reale määratud olekut töövooprotsessis liikumisel.  
 
-[![Nõudelehe ostupäise ja rea olek](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Ostutaotluse päise ja rea olekud](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Ostutaotluse päise ja rea olekute seosed
 
@@ -77,7 +80,7 @@ Ostutaotluse üldise oleku määrab ostutaotluse ridade olek. Seepärast tuleb k
 <td>Kui töövoog on konfigureeritud ostutaotluse ridu eraldi ülevaatajatele saatma, võib igal real olla olek <strong>Ülevaatusel</strong> või <strong>Tagasilükatud</strong>. Ostutaotluse olekut värskendatakse, kui kõigi ostutellimuse ridade ülevaatuse protsess on lõpetatud ja ostutaotlusse ei jää ühtki ülevaatusetappi.
 <ul>
 <li><strong>Ülevaatusel</strong> – ostutaotluse read on esitatud ülevaatuseks. Kuni kõik ostutaotluse read ei ole üle vaadatud, jääb rea, mille töövooprotsess on lõpule viidud, olekuks endiselt <strong>Ülevaatusel</strong>.</li>
-<li><strong>Tagasi lükata</strong> – ostu Nõudelehe rida on tagasi lükatud. Ostu nõudelehe read, mis on tagasi lükatud saab muuta ja uuesti esitada.</li>
+<li><strong>Tagasi lükatud</strong> – ostutaotluse rida on tagasi lükatud. Tagasilükatud ostutaotluse ridu saab muuta ja uuesti esitada.</li>
 </ul>
 Tagasilükatud ostutaotluse rea uuesti esitamisel algab kõigi ülevaatusel olevate ostutaotluse ridade ülevaatuse protsess algusest. <strong>Märkus.</strong> Tühistada on võimalik ka juba esitatud ostutaotlust. Ostutaotluse tühistamisel tühistatakse ka kõik teised ostutaotluse read. Tühistatud ostutaotluse ridu saab kustutada.</td>
 </tr>
@@ -133,7 +136,7 @@ Tagasilükatud ostutaotluse rea uuesti esitamisel algab kõigi ülevaatusel olev
 Saate jaotada ostutaotlusesse lisatud toote kulu mitme finantskonto vahel. Kui teie organisatsioon kasutab dimensioone (nt kulukeskused ja osakonnad), saate jaotada toote kulu finantskontode dimensioonideks.
 
 ## <a name="requisition-purposes"></a>Taotluse eesmärgid
-Taotluse eesmärgid teevad taotluses nõutu täitmisprotsessi paindlikumaks. Taotluse loomisel saate sellele määrata ühe kahest eesmärgist: tarbimine või täiendamine. Nõudelehe eesmärk ja oma organisatsiooni seadistamisel saate ostutellimuse üleviimiskorralduse tootmistellimuse või kanban vastama nõudelehe nõudluse.  
+Taotluse eesmärgid teevad taotluses nõutu täitmisprotsessi paindlikumaks. Taotluse loomisel saate sellele määrata ühe kahest eesmärgist: tarbimine või täiendamine. Olenevalt taotluse eesmärgist ja organisatsiooni seadistusest luuakse taotluse nõudluse täitmiseks kas ostutellimus, üleviimistellimus, tootmistellimuse või kanban.  
 
 Organisatsiooni jaoks loodava taotluse jaoks saadaolevaid eesmärke saate juhtida hankepoliitikates.
 
@@ -152,7 +155,7 @@ Täiendamise eesmärgiga ostutaotluste kasutamiseks peate koondplaneerimise sead
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Ostutaotlused ja pakkumiskutsed
 Mõnel juhul tuleb ostutaotluses nõutud toodete hankija ja hinna tuvastamiseks käivitada pakkumiskutse protsess. Pakkumiskutse saab luua, kui ostutaotlus on ülevaatusel. Kui võtate pakkumise vastu, kantakse taotlusele üle teave hankija, hinna jms kohta.  
 
-Paned ootele ostutellimuse valides on **ootel** ruut selle **ostu nõudelehe üksikasjad** lehel. Ostu nõudelehe käsitlemine edasi alles siis, kui eemaldate hold tühjendage ruut.  
+Ostutaotluse saate ootele panna, valides leheküljel **Ostutaotluse üksikasjad** ruudu **Ootel**. Ostutaotluse töötlemist jätkatakse ainult siis, kui tühjendate ruudu märgistuse.  
 
 **Märkus.** E-hankes ostutaotlusele loodud pakkumiskutse võib lubada hankijatel alternatiivseid ridu lisada. Sellisel juhul kajastab ostutaotlus kinnitatud alternatiive.
 
@@ -178,7 +181,7 @@ Ostutaotluse ridu, mis ei ole konsolideerimise jaoks sobilikud või mida ei vali
 
 Nõutud kaupade konsolideerimise protsess algab siis, kui ostutaotlus on töövoos kinnitatud ja eelarve reserveeringud ja eelpandiõigused on kirjendatud, juhul kui teie organisatsioonis on konfigureeritud eelarve juhtimine. Järgmine diagramm näitab nõutud kaupade konsolideerimise protsessi voogu.  
 
-[![Äriprotsessi voog nõudluse konsolideerimiseks](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Nõutud kaupade konsolideerimise protsessivoog](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Kinnitatud ostutaotluse ridade konsolideerimiseks tehke järgmist.
 
@@ -192,8 +195,10 @@ Kinnitatud ostutaotluse ridade konsolideerimiseks tehke järgmist.
 <a name="see-also"></a>Vt ka
 --------
 
-[Luua nõudelehe tarbimiseks (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Tarbimistaotluse loomine (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Ostutaotluse töövoog](purchase-requisitions-workflow.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Lähtesta finants aruandluse andmete mart pärast andmebaasi taastamine"
-description: "Selles teemas kirjeldatakse lähtestamine finants aruandluse andmete mart pärast taastamist Microsoft Dynamics 365 operatsioonide andmebaasi."
+title: "Finantsaruandluse andmevaka lähtestamine pärast andmebaasi taastamist"
+description: "Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Operationsi andmebaasi taastamist."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-08 16 - 20 - 13
@@ -24,86 +24,86 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Lähtesta finants aruandluse andmete mart pärast andmebaasi taastamine
+# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Finantsaruandluse andmevaka lähtestamine pärast andmebaasi taastamist
 
-Selles teemas kirjeldatakse lähtestamine finants aruandluse andmete mart pärast taastamist Microsoft Dynamics 365 operatsioonide andmebaasi. 
+Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Operationsi andmebaasi taastamist. 
 
-On mitu põhjust, kui peate oma Dynamics 365 operatsioonide andmebaasi varukoopia põhjal taastada või kopeerida andmebaasi teise keskkonda. Sel juhul peate järgima asjakohaseid meetmeid selle tagamiseks, et raamatupidamise aruandluse andmete mart õigesti kasutab taastatud Dynamics 365 operatsioonide andmebaasi. Küsimuste finants aruandluse andmete mart lähtestamise põhjus väljaspool Dynamics 365 operatsioonide andmebaasi taastamise kohta, vaadake selle [lähtestamine juhtimise Reporter andmete mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) lisateabe saamiseks. Pange tähele, et samme selles protsessis on toetatud Dynamics 365 operatsiooni mai 2016 pressiteade (App ehitada 7.0.1265.23014 ja finants aruandluse build 7.0.10000.4) ja uuematesse versioonidesse. Kui teil on mõni varasem versioon Dynamics 365 toiminguteks, võtke ühendust meie klienditoega abi.
+On mitu stsenaariumi, mille korral võib olla vaja Dynamics 365 for Operationsi andmebaas varukoopiast taastada või kopeerida andmebaas teisest keskkonnast. Kui nii juhtub, siis tuleb teha sobivad toimingud tagamiseks, et finantsaruandluse andmevakk kasutaks taastatud Microsoft Dynamics 365 for Operationsi andmebaasi õigesti. Kui teil on küsimusi finantsaruandluse andmevaka lähtestamise kohta muul põhjusel peale Dynamics 365 for Operationsi andmebaasi taastamise, siis vaadake lisateavet jaotisest [Management Reporteri andmevaka lähtestamine](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Pange tähele, et selle protsessi etappe toetatakse Dynamics 365 for Operationsi 2016. aasta mai väljaandes (rakenduse järgus 7.0.1265.23014 ja finantsaruandluse järgus 7.0.10000.4) ja uuemates väljaannetes. Kui teil on Dynamics 365 for Operationsi varasem väljaanne, siis pöörduge abi saamiseks meie tugiteenuse töörühma poole.
 
-## <a name="export-report-definitions"></a>Ekspordi aruanded
-Esiteks eksportida aruande kujunduse asub Aruandekujundaja, tehes järgmist:
+## <a name="export-report-definitions"></a>Aruande definitsioonide eksportimine
+Kõigepealt eksportige aruandekoosturis paiknevad aruandekujundused, tehes järgmist.
 
-1.  Aruandekujundaja, minge **ettevõtte**&gt;**koosteüksuse sõprade**.
-2.  Valige koosteüksuse eksportida, ja klõpsake **eksportida**. **Märkus:** Dynamics 365 toiminguteks, on toetatud ainult üks koosteüksuse rühma, **vaikimisi**.
-3.  Valige aruande definitsioonid eksportida:
+1.  Minge aruandekoosturis jaotisse **Ettevõte** &gt; **Koosteüksuste grupid**.
+2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. **Märkus.** Dynamics 365 for Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
+3.  Valige eksportimiseks aruande definitsioonid.
     -   Kõikide aruande definitsioonide ja seotud koosteüksuste eksportimiseks klõpsake suvandit **Vali kõik**.
-    -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite eksportimiseks klõpsake vastavat vahekaarti ja valige eksporditavad üksused. Vahekaardil mitme üksuse valimiseks vajutage ja hoidke all klahvi Ctrl. Aruandeid eksportida valimisel valitakse seotud read, veerud, puud ja Dimensioonikogumid.
+    -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite eksportimiseks klõpsake vastavat vahekaarti ja valige eksporditavad üksused. Vahekaardil mitme üksuse valimiseks vajutage ja hoidke all klahvi Ctrl. Eksporditavate aruannete valimisel valitakse seotud read, veerud, puud ja dimensioonikogumid.
 
-4.  Klõpsake **eksportida**.
-5.  Sisestage faili nimi ja valige turvalises kohas, kuhu soovite salvestada eksporditud aruande mõisted.
-6.  Click **Save**.
+4.  Klõpsake nuppu **Ekspordi**.
+5.  Sisestage faili nimi ja valige turvaline asukoht, kuhu soovite eksporditud aruande definitsioonid salvestada.
+6.  Klõpsake käsku **Salvesta**.
 
-Faili saab kopeerida ega üles laadida turvalisse, võimaldades importida teises keskkonnas muul ajal. Teave Microsoft Azure storage konto kasutamise kohta leiate [AzCopy käsurea Utility andmete edastamiseks](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Märkus:** Microsoft ei paku ladustamise konto Dynamics 365 osana toimingud kokkuleppe. Peate osta ladustamise konto või kasutage ladustamise konto eraldi Azure'i tellimus. **Tähtis:** käitumist juhtida D Azure'i virtuaalarvutite kohta teadma. Eksporditud koosteüksuse pakuvad siin püsivalt hoida. Ajutine draivi kohta lisateabe saamiseks vt [mõista ajutisele draivile Windows Azure'i virtuaalarvutite kohta](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Faili saab kopeerida või laadida üles turvalisse asukohta, et selle saaks muul ajal teistsugusesse keskkonda importida. Teavet Microsoft Azure’i salvestuskonto kohta leiate jaotisest [Andmeedastus käsurea utiliidiga AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Märkus.** Microsoft ei paku Dynamics 365 for Operationsi lepingu raames salvestuskontot. Peate ostma salvestuskonto või kasutama eraldi Azure’i tellimuse salvestuskontot. **Oluline!** Olge kursis Azure’i virtuaalarvutite D-ketta käitumisega. Ärge hoidke sellel pidevalt eksporditud koosteüksuste gruppe. Lisateavet ajutiste ketaste kohta leiate jaotisest [Ajutine ketas Windows Azure’i virtuaalarvutites](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
-## <a name="stop-services"></a>Peatamine
-Kaugtöölaua abil saate ühendada kõik arvutid keskkonnas ja peatada Windows services services.msc abil:
+## <a name="stop-services"></a>Teenuste peatamine
+Kasutage kaugarvutit ühenduse loomiseks kõigi arvutitega keskkonnas ja peatage faili services.msc abil järgmised Windowsi teenused:
 
--   Veebis avaldamine (numbril kõikidele arvutitele)
--   Microsoft Dynamics 365 toimingute partii haldusteenus (linna-ja erasektori arvutitele ainult)
--   Protsessi haldusteenus Reporter 2012 (arvutites BI ainult)
+-   ülemaailmse veebi avaldamisteenus (kõigil AOS-i arvutitel)
+-   Microsoft Dynamics 365 for Operationsi pakett-tööde halduse teenus (ainult mitteprivaatsetel AOS-i arvutitel)
+-   Management Reporter 2012 protsessiteenus (ainult BI-arvutitel)
 
-Need teenused on avatud ühendusi Dynamics 365 operatsioonide andmebaasi.
+Nendel teenustel on avatud ühendus Microsoft Dynamics 365 for Operationsi andmebaasiga.
 
 ## <a name="reset"></a>Lähtesta
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Leidke Viimane DataUpgrade.zip pakett
+#### <a name="locate-the-latest-dataupgradezip-package"></a>Otsige üles uusim pakett DataUpgrade.zip
 
-Leidke Viimane DataUpgrade.zip pakett kasutades leida juhiseid [lae DataUpgrade.zip skripti](..\migration-upgrade\upgrade-data-to-latest-update.md). Juhised selgitavad, kuidas andmete uuendamise pakett keskkonna jaoks õige versiooni leidmiseks.
+Otsige üles uusim pakett DataUpgrade.zip, kasutades juhiseid jaotises [Skripti DataUpgrade.zip allalaadimine](..\migration-upgrade\upgrade-data-to-latest-update.md). Juhistes selgitatakse, kuidas leida oma keskkonna jaoks õige andmete versioonitäienduse pakett.
 
-#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Käivitada operatsioonide andmebaasi vastu Dynamics 365 skriptid
+#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Käivitage skriptid Dynamics 365 for Operationsi andmebaasi suhtes
 
-Järgmine skripte vastuolus Dynamics 365 operatsioonide andmebaasi (ole vastu finants aruandluse andmebaasi).
+Käivitage järgmised skriptid Dynamics 365 for Operationsi andmebaasi suhtes (mitte finantsaruandluse andmebaasi suhtes).
 
--   DataUpgrade.zip\\AosService\\skripte\\ConfigureAxReportingIntegration.sql
--   DataUpgrade.zip\\AosService\\skripte\\GrantAzViewChangeTracking.sql
+-   DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
+-   DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
 
-Need skriptid tagada, et kasutajad, rollid ja muutuste jälituse seaded on õiged.
+Need skriptid tagavad õiged kasutajad, rollid ja muudatuste jälgimise sätted.
 
-#### <a name="execute-powershell-command-to-reset-database"></a>PowerShelli käsu taastada andmebaasi
+#### <a name="execute-powershell-command-to-reset-database"></a>Käivitage andmebaasi lähtestamiseks PowerShelli käsk
 
-Käivitada järgmine käsk otse AOS-i arvuti lähtestamiseks integratsiooni Dynamics 365 operatsioonide ja aruandlus:
+Käivitage järgmine käsk otse AOS-i arvutil, et lähtestada Dynamics 365 for Operationsi ja finantsaruandluse integratsioon.
 
-1.  Avage Windows PowerShelli administraatorina.
-2.  Execute: F:
-3.  Täita: F: cd\\MRApplicationService\\MRInstallDirectory
-4.  Käivita: Import-moodul. \\Server\\MRDeploy\\MRDeploy.psd1
-5.  Käivita: Reset-DatamartIntegration-põhjus muud - ReasonDetail "&lt;minu põhjus lähtestamine&gt;"
-    -   Küsitakse "Y", et siseneda.
+1.  Avage Windows PowerShell administraatorina.
+2.  Käivitage: F:
+3.  Käivitage: cd F:\\MRApplicationService\\MRInstallDirectory
+4.  Käivitage: Import-Module .\\Server\\MRDeploy\\MRDeploy.psd1
+5.  Käivitage: Reset-DatamartIntegration -Reason OTHER -ReasonDetail „&lt;minu lähtestamise põhjus&gt;”
+    -   Teil palutakse sisestada kinnitamiseks „Y”.
 
-Parameetrite selgitus:
+Parameetrite selgitus.
 
--   -Sobivad väärtused põhjus on: hooldus, BADDATA, teised.
--   -ReasonDetail parameeter on vabas vormis.
--   Põhjus ja reasonDetail fikseeritakse telemeetria/keskkonna monitooring.
+-   Parameetri -Reason sobivad väärtused on SERVICING, BADDATA, OTHER.
+-   Parameeter -ReasonDetail on vaba tekst.
+-   Parameetrid reason ja reasonDetail salvestatakse jaotisse telemeetria / keskkonna jälgimine.
 
-## <a name="start-services"></a>Teenuste käivitamiseks
-Kasutage services.msc varem protsessiteave teenuste taaskäivitamine:
+## <a name="start-services"></a>Teenuste käivitamine
+Taaskäivitage faili services.msc abil eelnevalt peatatud teenused.
 
--   Veebis avaldamine (numbril kõikidele arvutitele)
--   Microsoft Dynamics 365 toimingute partii haldusteenus (linna-ja erasektori arvutitele ainult)
--   Protsessi haldusteenus Reporter 2012 (arvutites BI ainult)
+-   ülemaailmse veebi avaldamisteenus (kõigil AOS-i arvutitel)
+-   Microsoft Dynamics 365 for Operationsi pakett-tööde halduse teenus (ainult mitteprivaatsetel AOS-i arvutitel)
+-   Management Reporter 2012 protsessiteenus (ainult BI-arvutitel)
 
-## <a name="import-report-definitions"></a>Importida aruanded
-Importida mustreid aruande Report Designer loodud ajal ekspordi faili abil:
+## <a name="import-report-definitions"></a>Aruande definitsioonide importimine
+Importige aruande kujundused aruandekoosturist, kasutades eksportimise ajal loodud faili.
 
-1.  Aruandekujundaja, minge **ettevõtte**&gt;**koosteüksuse sõprade**.
-2.  Valige koosteüksuse eksportida, ja klõpsake **eksportida**. **Märkus:** Dynamics 365 toiminguteks, on toetatud ainult üks koosteüksuse rühma, **vaikimisi**.
-3.  Valige selle **vaikimisi** plokk ja klõpsa **impordi**.
-4.  Valige väljale märge mõisteid sisaldav fail ja klõpsake **avatud**.
+1.  Minge aruandekoosturis jaotisse **Ettevõte** &gt; **Koosteüksuste grupid**.
+2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. **Märkus.** Dynamics 365 for Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
+3.  Valige koosteüksus **Vaikeväärtus** ja klõpsake nuppu **Impordi**.
+4.  Valige eksporditud aruande definitsioone sisaldav fail ja klõpsake nuppu **Ava**.
 5.  Valige dialoogiboksist Import imporditavad aruande definitsioonid.
     -   Kõikide aruande definitsioonide ja seotud koosteüksuste importimiseks klõpsake valikut **Vali kõik**.
     -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite importimiseks valige imporditavad aruanded, read, veerud, puud või dimensioonikogumid.
 
-6.  Click **Import**.
+6.  Klõpsake nuppu **Impordi**.
 
 
 

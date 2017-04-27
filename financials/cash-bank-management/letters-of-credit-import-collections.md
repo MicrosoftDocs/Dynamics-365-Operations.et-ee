@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Akreditiivid ja impordi sissenõudmised
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse üldist teavet akreditiivide ja impordi sissenõuete kohta. Mõlemat tüüpi pangadokumente kasutatakse sageli kaupade ostmiseks ja müügiks välisriikides.
 
 <a name="letters-of-credit"></a>Akreditiivid
 -----------------
 
-Akreditiivi kasutatakse rahvusvahelistes tehingutes ja aitavad tagada, et tasuvad. Akreditiivi on kokkulepe, et pank, kus pank nõustub, et ta maksab ostja nimel ostja ja müüja vahelise lepingu tingimused on täidetud. Akreditiivi nimetatakse ka akreditiivi (DC).
+Akreditiive kasutatakse rahvusvaheliste kannete puhul ja need aitavad tagada, et maksete tegemise. Akreditiiv on panga väljastatud lepe, millega pank nõustub ostja nimel makse tagama, tingimusel, et müüja ja ostja vahel sõlmitud leppe tingimused on täidetud. Akreditiivi nimetatakse ka dokumendikrediidiks (DC).
 
 Impordiakreditiivi puhul on juriidiline isik ostja või akreditiivi taotleja. Ekspordiakreditiivi puhul on juriidiline isik müüja või akreditiivi kasusaaja. Akreditiivi on kaasatud järgmised osapooled.
 
@@ -50,5 +53,7 @@ Akreditiiv võib olla kas **tühistatav** või **mittetühistatav**. Akreditiiv 
 Impordi sissenõue on panga ja eksportija (müüja) vaheline lepe, millega pank nõustub saadetise dokumendid rahvusvahelisele importijale (ostja) tarnima. Pangalt eeldatakse saadetise dokumentide tarnimist saadetavate kaupade makse saamisel sularahas või makse allkirjastatud kinnituse laekumisel. 
 
 Impordi sissenõue aitab tagada, et müüjale tasutakse, kui ostja saadetise dokumendid imporditud kaupade tarnimiseks vastu võtab.
+
+
 
 

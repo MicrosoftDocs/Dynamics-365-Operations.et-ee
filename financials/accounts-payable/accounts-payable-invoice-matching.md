@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Ostureskontro arvete vastavusse viimine
 
+[!include[banner](../includes/banner.md)]
+
+
 Ostureskontro arvete võrdlemine on hankija arve, ostutellimuse ja toote sissetuleku teabe vastavusse viimise protsess.
 
 Dokumentide vastavusseviimisel nimetatakse nende dokumentide erinevusi vastavusseviimise lahknevusteks. Vastavusseviimise lahknevusi võrreldakse määratud hälvetega. Kui vastavusseviimise lahknevus ületab lubatud kõikumisprotsendi või summa, kuvatakse vastavusseviimise hälbe ikoonid lehel Hankija arve ja lehel Arve ajalugu ja vastavusseviimise üksikasjad. 
@@ -48,9 +51,9 @@ Saate kasutada järgmist tüüpi ostureskontro arvete vastavusseviimist.
 
 Kahesuunaline ja kolmesuunaline vastavusseviimine viivad hinnateabe alati vastavusse ühiku hinna alusel. Saate konfigureerida neid vastavusse viimise poliitikaid ka nii, et hinnateave viiakse vastavusse koondhinna alusel.
 -   Ühiku netohinna vastavusseviimine – kahesuunalise või kolmesuunalise vastavusseviimise puhul viiakse iga arverea ühiku netohind vastavusse ostutellimuse ühiku netohinnaga. Ühiku netohind määratakse järgmise valemiga: rea netosumma / rea kogus
--   Koondhindade vastavusseviimine – kahesuunalise või kolmesuunalise vastavusseviimise puhul viiakse iga arverea netosumma (koondhinda) vastavusse ostutellimuse netosummaga. Neto kogus määratakse järgmise valemi abil: (ühiku hind \*Line kogus) + tellimuserea lisakulud - rida allahindlusi
+-   Koondhindade vastavusseviimine – kahesuunalise või kolmesuunalise vastavusseviimise puhul viiakse iga arverea netosumma (koondhinda) vastavusse ostutellimuse netosummaga. Netosumma määratakse järgmise valemiga: (ühiku hind \* rea kogus) + rea tasud – rea allahindlused
 
-Tavaliselt toimuvad arvete vastavusseviimise arvutused automaatselt, kui redigeerite hankija arveid lehel Hankija arve. Teise võimalusena saab arveid võrrelda vajaduse korral. Arve sobitamine nõudmisel juhitakse juriidilise isiku puhul selle Värskenda automaatselt arve päise olek, et raamatupidamisaruannete lehekülg Ostureskontro parameetrid vahekaardil arve kinnitamine. Arve sobitamine saab teha ka arve läbivaatamise käigus. Arvete vastavusseviimise tulemusi saab vaadata ka lehel Hankija arve ja seotud arve vastavusseviimise lehtedel.
+Tavaliselt toimuvad arvete vastavusseviimise arvutused automaatselt, kui redigeerite hankija arveid lehel Hankija arve. Teise võimalusena saab arveid võrrelda vajaduse korral. Arvete vastavusseviimist vajaduse korral juhitakse juriidilise isiku puhul vahekaardi Arve kinnitamine lehel Ostureskontro parameetrid jaotises Arve päise oleku automaatne värskendamine. Arveid saab viia vastavusse ka arve ülevaatamise protsessi käigus. Arvete vastavusseviimise tulemusi saab vaadata ka lehel Hankija arve ja seotud arve vastavusseviimise lehtedel.
 
 ## <a name="invoice-totals-matching"></a> Arvesummade vastavusseviimine
 Arve koondsummade vastavusseviimist saab kasutada tagamiseks, et arve koondsummad ei erineks eeldatavatest summadest rohkem kui lubatud hälbe võrra. Arve koondsummade vastavusseviimise üksikasjade lehel võrreldakse kuut koondsummat, nagu on näidatud järgmises tabelis. Kui arve koondsummade vastavusseviimise lubatud hälve on 20%, käsitletakse vastavusseviimise lahknevusena kogu allahindluse summa hälbeprotsenti 100%.
@@ -165,7 +168,7 @@ Samu reasummasid võrreldakse vastavusseviimise üksikasjade lehel sarnaselt kah
 Kolmesuunalist vastavusseviimist juhitakse juriidilise isiku puhul väljaga Rea vastavusseviimise poliitika lehel Ostureskontro parameetrid. Olenevalt valikust väljal Luba vastavusseviimise poliitika alistamine saate valida kolmesuunalise vastavusseviimise konkreetse hankija, kauba või kauba ja hankija kombinatsiooni puhul lehel Vastavusse viimise poliitika ja konkreetsel ostutellimusel lehel Ostutellimus.
 
 ## <a name="charges-matching"></a> Tasude võrdlemine
-Tasude vastavusseviimist saab kasutada tagamiseks, et tasud ei erineks eeldatavatest summadest rohkem kui lubatud hälbeprotsendi võrra. Iga seotud arve ja ostu tellimuse koodi kogusummad on võrreldes Võrdle maksude väärtused - arve: lehekülg, nagu on näidatud järgmises tabelis. Kui tasukoodi lubatud hälve on 25%, käsitletakse vastavusseviimise lahknevusena litsentsitasude koodi hälbeprotsenti 99 999 999 999,99%.
+Tasude vastavusseviimist saab kasutada tagamiseks, et tasud ei erineks eeldatavatest summadest rohkem kui lubatud hälbeprotsendi võrra. Iga arvele ja ostutellimusele rakendatava tasukoodi koondsummasid võrreldakse lehel Tasude väärtuste võrdlemine – arve:, nagu on näidatud järgmises tabelis. Kui tasukoodi lubatud hälve on 25%, käsitletakse vastavusseviimise lahknevusena litsentsitasude koodi hälbeprotsenti 99 999 999 999,99%.
 
 > [!NOTE] 
 > Hälbeprotsent 99 999 999 999,99% tähendab, et ostutellimusel põhinev eeldatav summa on null ja arve tegelik summa on positiivne väärtus. 
@@ -188,7 +191,9 @@ Hankijaarved põhinevad ostutellimuste asemel tihti tegelikke saadetisi kajastav
 -   Sisestage arve summad, mida ei kaasatud algsesse ostutellimusse, nii et arve teave kattuks arvega, mille hankijalt saite. Saate võrrelda ostutellimuste tasusid arvete tasudega. Vajaduse korral saate tasud arvetele lisada ja määrata need arve ridadele.
 -   Vaadake ja kinnitage hinna võrdluslahknevusi arve ühiku netohinna ja ostutellimuse ühiku netohinna vahel. Võite seadistada hinnakõikumisprotsendid juriidilistele isikutele, hankijatele ja kaupadele. Kui hankija arve rea hind pole vastuvõetava hinnakõikumise piires, võite arve salvestada, kuni see on sisestamiseks kinnitatud või kuni saate hankijalt paranduse.
 
-Lisateabe saamiseks vaadake [kolm-viis sobitamine poliitika](three-way-matching-policies.md).
+Lisateavet leiate teemast [Kolmesuunalised vastavusse viimise poliitikad](three-way-matching-policies.md).
+
+
 
 
 

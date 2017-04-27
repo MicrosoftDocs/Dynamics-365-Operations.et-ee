@@ -1,6 +1,6 @@
 ---
 title: "Süsteeminõuded"
-description: "Käesolevas peatükis on kirjeldatud praegune versioon Microsoft Dynamics 365 operatsioonide süsteeminõuded."
+description: "Teema esitab süsteeminõuete loendi Microsoft Dynamics 365 for Operationsi praeguse versiooni kohta."
 author: sericks007
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,102 +26,102 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-requirements"></a>Süsteeminõuded
 
-Käesolevas peatükis on kirjeldatud praegune versioon Microsoft Dynamics 365 operatsioonide süsteeminõuded.
+Teema esitab süsteeminõuete loendi Microsoft Dynamics 365 for Operationsi praeguse versiooni kohta.
 
 <a name="supported-web-browsers"></a>Toetatud veebibrauserid
 ----------------------
 
-Microsoft Dynamics 365 toimingute veebirakenduse jaoks saab käitada järgmine veebibrausereid, mis töötavad määratud operatsioonisüsteemides:
+Microsoft Dynamics 365 for Operationsi veebirakendus võib töötada kõigis järgmistes veebibrauserites, mis töötavad nimetatud operatsioonisüsteemis.
 
--   Microsoft Edge (Viimane üldkasutatavate versioon) operatsioonisüsteemis Windows 10
+-   Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s
 -   Internet Explorer 11 operatsioonisüsteemides Windows 10, Windows 8.1 või Windows 7
--   Google Chrome (Viimane üldkasutatavate versioon) Windows 10, Windows 8.1, Windows 8, Windows 7 või Google Nexus 10 tahvelarvuti
--   Apple Safari (uusim üldkasutatavate versioon) Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) või 10.12 (Sierra) või Apple iPad
+-   Google Chrome (viimane avalikult saadaolev versioon) operatsioonisüsteemides Windows 10, Windows 8.1, Windows 8, Windows 7 või tahvelarvuti Google Nexus 10
+-   Apple Safari (viimane avalikult väljastatud versioon) operatsioonisüsteemides Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) või 10.12 (Sierra) või Apple iPad
 
 Iga veebibrauseri uusima versiooni leidmiseks minge tarkvaratootja veebisaidile. **Märkused.**
 
--   Pilte, mis genereeritakse tööülesanne Recorder ja lisada neid Microsoft Wordi dokumente, peab teil olema installitud Chrome'i laiendus. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
--   ClickOnce'i rakendus käivitatakse töövoo redaktor. Ainult Microsoft Edge ja Internet Explorer (kohta Microsoft Windowsi toetatud versiooni) toetada ClickOnce'i rakendusi. Töövoo redaktor ClickOnce'i rakendus nõuab 64-bitine ühilduv operatsioonisüsteem.
--   ClickOnce'i rakendus käivitatakse Aruandekujundaja finantsaruandluseks. Selleks on vaja ühilduvat operatsioonisüsteemi 64-bitine. Chrome kasutamisel installige ClickOnce'i pikendamine et alla aruande disainer klient. Kui kasutate Chrome'i inkognito režiimis, veenduge, et ClickOnce'i laiendamine on lubatud ka inkognito režiimi.
+-   Tegevuse salvestajas loodud piltide jäädvustamiseks ja nende Microsoft Wordi dokumentidesse lisamiseks peab teil olema installitud Chrome’i laiendus. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
+-   Töövooredaktor käivitatakse ClickOnce’i rakendusena. Ainult Microsoft Edge ja Internet Explorer (Microsoft Windowsi toetatud versioonis) toetavad ClickOnce’i rakendusi. Töövooredaktori ClickOnce rakendus nõuab ühilduvat 64-bitist operatsioonisüsteemi.
+-   Finantsaruandluse jaoks mõeldud aruandekujundaja käivitatakse ClickOnce’i rakendusena. See nõuab ühilduvat 64-bitist operatsioonisüsteemi. Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce. Kui kasutate Chrome’i inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks samuti aktiveeritud.
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Retail Cloud POS-i toetatud veebibrauserid
 
-Jaemüügi pilve POS Dynamics 365 operatsioonide saab käivitada mis tahes järgmine veebibrausereid, mis töötavad määratud operatsioonisüsteemides:
+Dynamics 365 for Operationsi Retail Cloud POS-i saab käitada kõigis järgmistes veebibrauserites, mis töötavad nimetatud operatsioonisüsteemides.
 
--   Microsoft Edge (Viimane üldkasutatavate versioon) operatsioonisüsteemis Windows 10
+-   Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s
 -   Internet Explorer 11 operatsioonisüsteemides Windows 10, Windows 8.1 või Windows 7
--   Chrome (Viimane üldkasutatavate versioon) Windows 10, Windows 8.1 või Windows 7
+-   Chrome (kõige värskem saadaolev versioon) operatsioonisüsteemis Windows 10, Windows 8.1 või Windows 7
 
-## <a name="network-requirements"></a>Nõuded võrgule
--   Dynamics 365 toiminguteks on projekteeritud võrkude latentsus vähem kui 150 millisekundit (ms). See on latency brauseri klientrakenduses Microsoft Azure andmete keskus, mis korraldab Dynamics 365 toiminguteks. Soovitame testida võrgu latency kell <http://www.azurespeed.com>.
--   Dynamics 365 operatsioonide ribalaius nõuded sõltuvad oma stsenaarium. Kõige tüüpilisem stsenaariumid nõuavad ribalaius üle 50 kilobaiti sekundis (KBps). Stsenaariume, mis on konstrueerimisel nõudeid, tööruumide või stsenaariume, mis on seotud ulatusliku kohandamine, nagu soovitatakse rohkem ribalaiust.
+## <a name="network-requirements"></a>Võrgunõuded
+-   Dynamics 365 for Operations on mõeldud võrkudele, mille latentsus on vähem kui 150 millisekundit (ms). See on latentsus brauserikliendist Microsoft Azure’i andmekeskusesse, mis majutab rakendust Dynamics 365 for Operations. Soovitame teilt testida võrgulatentsust veebiaadressil <http://www.azurespeed.com>.
+-   Rakenduse Dynamics 365 for Operations ribalaiuse nõuded sõltuvad stsenaariumist. Kõige tüüpilisemad stsenaariumid nõuavad ribalaiust rohkem kui 50 kilobaiti sekundis (KB/s). Stsenaariumide puhul, millel on kõrged kasuliku koormuse nõuded (nt tööruumid või stsenaariumid, mis hõlmavad ulatuslikku kohandamist), on soovitatav kasutada rohkem ribalaiust.
 
-Üldjuhul Dynamics 365 toiminguteks on optimeeritud Internet. Edasi-tagasi brauseri kliendi Azure'i andmekeskuse arv on väga väike ja kogu kandevõime on tihendatud. **Hoiatus:** ei Arvuta ribalaius nõuetele kliendi asukohast kasutajate arv korrutatakse minimaalse ribalaiuse nõudeid. Samaaegne kasutamine konkreetses asukohas on väga raske arvutada. Klientidele, kes on mures ribalaius nõuetele, kasutada preview versiooni Dynamics 365 toiminguteks.
+Üldiselt on Dynamics 365 for Operations Interneti jaoks optimeeritud. Pendellevi hulk brauserikliendist Azure’i andmekeskusesse on väga väike ja kogu kasulik koormus on tihendatud. **Hoiatus.** Ärge arvutage ribalaiuse nõudeid kliendi asukohast, korrutades kasutajate arvu minimaalsete ribalaiuse nõuetega. Antud asukoha samaaegset kasutust on väga keeruline arvutada. Ribalaiuse nõuete pärast muret tundvate klientide puhul kasutage rakenduse Dynamics 365 for Operations eelvaateversiooni.
 
-## <a name="net-framework-requirements"></a>.NET raamistiku nõuetele
-Dynamics 365 operatsioonide nõuab .NET Frameworki versiooni 4.6.2 kõik klõpsake-kord rakendusi, nagu dokumendi marsruutimise agent. Paigaldamise juhised leiate [.NET Frameworki installimist](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
+## <a name="net-framework-requirements"></a>.NET Frameworki nõuded
+Dynamics 365 for Operations nõuab .NET Frameworki versiooni 4.6.2 kõikide ühe korra klõpsatavate rakenduste puhul (nt dokumendi marsruudivaliku agent). Installimisjuhiste puhul vaadake teemat [.NET Frameworki installimine](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
 
-## <a name="supported-microsoft-office-applications"></a>Toetatud Microsoft Office'i rakendused
--   Käivitage Microsoft Excel ja lisandmoodulid, peab teil olema Microsoft Office 2016 for Windows või Mac installitud. Lisateavet versiooni nõuetele, vt [Office integratsiooni tõrkeotsing](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
--   Eksport Excelisse või eksport Wordi funktsiooni loodavate dokumentide vaatamiseks peab olema Microsoft Office 2007 või hiljem paigaldatud.
+## <a name="supported-microsoft-office-applications"></a>Toetatud Microsoft Office’i rakendused
+-   Microsoft Exceli ja Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Funktsiooniga Ekspordi Excelisse või Ekspordi Wordi loodud dokumentide vaatamiseks peab teil olema installitud Microsoft Office 2007 või uuem versioon.
 
-## <a name="retail-modern-pos-requirements"></a>Jaemüügi kaasaegne POS nõuetele
+## <a name="retail-modern-pos-requirements"></a>Retail Modern POS-i nõuded
 ### <a name="supported-operating-systems"></a>Toetatud operatsioonisüsteemid
 
--   Jaemüügi kaasaegne POS on 32-bitise programmi, kuid see töötab nii x86 kui x64 arhitektuuride.
--   Jaemüügi kaasaegne POS toetatakse ainult Windows 10 Pro, ettevõte, ettevõtte pikk mõiste teeninduse haru (LTSB) versioon.
+-   Retail Modern POS on 32-bitine rakendus, kuid see võib töötada nii x86- kui ka x64-põhistes arhitektuurides.
+-   Retail Modern POS on toetatud ainult operatsioonisüsteemi Windows 10 Pro, Enterprise ja Enterprise Long Term Servicing Branch (LTSB) versioonides.
 
 ### <a name="minimum-system-requirements"></a>Minimaalsed süsteeminõuded
 
--   Minimaalne toetatud resolutsioon on 1280 × 1024.
--   Jaemüügi kaasaegne POS kohta käitavas arvutis peab vastama järgmistele nõuetele:
-    -   See peab olema, vähemalt, dual-core protsessor, mis töötab vähemalt 2-gigahertsine (GHz).
-    -   See peab olema, vähemalt 3 gigabaiti (GB) muutmälu.
-    -   See peab olema internetiühendus.
+-   Minimaalne toetatud eraldusvõime on 1280 × 1024.
+-   Retail Modern POS-i käitav arvuti peab vastama nendele nõuetele.
+    -   Sellel peab olema minimaalselt kahetuumaline protsessor, mis töötab vähem kui 2 gigahertsiga (GHz).
+    -   Sellel peab olema minimaalselt 3 gigabaiti (GB) RAM-i.
+    -   Sellel peab olema Interneti-juurdepääs.
 
-## <a name="retail-hardware-station-requirements"></a>Jaemüügi riistvara station
+## <a name="retail-hardware-station-requirements"></a>Jaemüügi riistvarajaama nõuded
 ### <a name="supported-operating-systems"></a>Toetatud operatsioonisüsteemid
 
--   Jaemüügi riistvara on 32-bitise programmi, kuid see töötab nii x86 kui x64 arhitektuuride.
--   Jaemüügi riistvara station toetatakse järgmisi süsteeme:
-    -   Windows 7 Professional, Enterprise ja Ultimate Editioni **Märkus:** Windows 7 toetab ainult siis, kui Internet Explorer 11 installimist käsitsi süsteemi.
-    -   Windows 8.1 Update 1 Professional, Enterprise või Embedded väljaannete
-    -   Windows 10 Pro, Enterprise ja Enterprise LTSB väljaanded
+-   Jaemüügi riistvarajaam on 32-bitine rakendus, kuid see võib töötada nii x86- kui ka 64-põhistes arhitektuurides.
+-   Jaemüügi riistvarajaama toetatakse järgmistes operatsioonisüsteemides:
+    -   Windows 7 Professionali, Enterprise’i ja Ultimate’i versioonides **Märkus.** Operatsioonisüsteemi Windows 7 toetatakse ainult siis, kui Internet Explorer 11 on süsteemi käsitsi installitud.
+    -   Windows 8.1 Update 1 Professionali, Enterprise’i ja manustatud versioonid
+    -   Windows 10 Pro, Enterprise’i ja Enterprise LTSB versioonid
 
 ### <a name="minimum-system-requirements"></a>Minimaalsed süsteeminõuded
 
-Arvuti peab vastama kõigile süsteeminõuetele installides ja kasutades järgmist:
+Arvuti peab vastama kõigile järgmiste üksuste installimist ja kasutamist puudutavatele süsteeminõuetele.
 
 -   Interneti teabeteenuste haldamine (IIS)
--   Muu riistvara
+-   Muu osapoole riistvara
 
-## <a name="retail-store-scale-unit-requirements"></a>Jaemüügi poe skaala ühik nõuetele
+## <a name="retail-store-scale-unit-requirements"></a>Jaekaupluse skaala üksuse nõuded
 ### <a name="supported-operating-systems"></a>Toetatud operatsioonisüsteemid
 
--   Kauplusesse skaala ühik on 32-bitise programmi, kuid see töötab nii x86 kui x64 arhitektuuride.
--   Kauplusesse skaala ühik toetatakse järgmisi süsteeme:
-    -   Windows 7 Professional, Enterprise ja Ultimate Editioni
-    -   Windows 8.1 Update 1 Professional, Enterprise või Embedded väljaannete
-    -   Windows 10 Pro, Enterprise ja Enterprise LTSB väljaanded
+-   Jaekaupluse skaala üksus on 32-bitine rakendus, kuid see võib töötada nii x86- kui ka 64-põhistes arhitektuurides.
+-   Jaekaupluse skaala üksust toetatakse järgmistes operatsioonisüsteemides:
+    -   Windows 7 Professionali, Enterprise’i ja Ultimate’i versioonides
+    -   Windows 8.1 Update 1 Professionali, Enterprise’i ja manustatud versioonid
+    -   Windows 10 Pro, Enterprise’i ja Enterprise LTSB versioonid
 
 ### <a name="minimum-system-requirements"></a>Minimaalsed süsteeminõuded
 
--   4 GB RAM
--   1.6 GHz peak CPU kiirus tuuma kohta (kaks tuuma on minimaalne).
--   Vähemalt 10 GB vaba ruumi (kanali andmebaasi võib nõuda palju ruumi).
+-   4 GB RAM-i
+-   1,6 GHz CPU tippkiirus tuuma kohta (kaks tuuma minimaalselt.)
+-   Vähemalt 10 GB vaba ruumi (kanali andmebaas võib nõuda suurel hulgal ruumi)
 
-### <a name="recommended-system-requirements"></a>Soovituslik süsteeminõuded
+### <a name="recommended-system-requirements"></a>Soovitatavad süsteeminõuded
 
--   6 GB RAM
--   2.4 GHz i7 (või samaväärne) piigi CPU kiirus (soovitatavalt neli protsessorituuma.) tuuma kohta
--   Vähemalt 10 GB vaba ruumi (kanali andmebaasi võib nõuda palju ruumi).
+-   6 GB RAM-i
+-   2,4 GHz i7 (või ekvivalent) CPU tippkiirus tuuma kohta (neli tuuma on soovitatavad).
+-   Vähemalt 10 GB vaba ruumi (kanali andmebaas võib nõuda suurel hulgal ruumi)
 
-## <a name="requirements-for-development-on-local-vms"></a>Nõuete väljatöötamiseks kohaliku VMs
-Teavet nõuete väljatöötamine kohaliku virtuaalarvuti (VM), vt [töötab kohapeal VM](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+## <a name="requirements-for-development-on-local-vms"></a>Arenduse nõuded kohalikes VM-ides
+Kohalikes virtuaalmasinates (VM-id) arenduse nõuete kohta lisateabe saamiseks vaadake teemat [Asutusesiseselt töötav virtuaalmasin](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Saada tutvumiskoopia Dynamics 365 toiminguteks](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Rakenduse Dynamics 365 for Operations hindamiskoopia hankimine](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
 
 

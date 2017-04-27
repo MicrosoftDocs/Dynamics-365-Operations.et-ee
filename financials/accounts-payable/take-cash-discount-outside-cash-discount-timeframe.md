@@ -1,5 +1,5 @@
 ---
-title: "Võtta väljaspool skonto skonto"
+title: "Skonto võtmine väljaspool skonto perioodi"
 description: "See artikkel pakub kaht stsenaariumi, mis näitavad, kuidas skontot saab arvestada, isegi kui makse on tehtud väljaspool skontoperioodi."
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Võtta väljaspool skonto skonto
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Skonto võtmine väljaspool skonto perioodi
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel pakub kaht stsenaariumi, mis näitavad, kuidas skontot saab arvestada, isegi kui makse on tehtud väljaspool skontoperioodi.
 
-28. juuni aprill loob 2,000.00 3052 hankija arve. Arve on 1 protsenti allahindlust, kui arve on tasutud 14 päeva jooksul.
+28. juunil loob April arve hankijale 3052 summas 2000,00. Arvel on skonto 1 protsent, kui arve tasutakse 14 päeva jooksul.
 
 ## <a name="use-cash-discount-option--always"></a>Suvand Kasuta skontot = Alati
 April loob makse 1. juulil, mis on pärast skonto kuupäeva. April avab tasakaalustatavate arvete vaatamiseks lehekülje **Kannete tasakaalustamine**. 
 
-April märgib arve maksmiseks. Skontot ei võeta, kuna makse toimub pärast skonto kuupäeva. Siiski on Hankija skonto niikuinii võtta aprillis heakskiidu andnud. Seega aprillis muudab väärtust ning **Kasuta skontot** välja **alati**.
+April märgib arve maksmiseks. Skontot ei võeta, kuna makse toimub pärast skonto kuupäeva. Siiski on andnud hankija Aprilile nõusoleku vaatamata sellele skontot võtta. Seega muudab April väljal **Kasuta skontot** väärtuseks **Alati**.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Skonto kuupäev | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaal
 | Kasuta skontot            | Tavaline    |
 | Võetud skonto          | 0,00      |
 | Skonto summa võtmiseks | ‑5,05     |
+
+
 
 
 

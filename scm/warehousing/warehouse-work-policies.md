@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Lao tööpoliitikad
 
+[!include[banner](../includes/banner.md)]
+
+
 Uut laotöö poliitikat tutvustatakse rakenduses Microsoft Dynamics AX 7.0.1 (mai 2016 värskendus). See tööpoliitika kontrollib, kas laotöö luuakse tootmises laoprotsesside jaoks.
 
-See tööpoliitika kontrollib, kas laotöö luuakse tootmises laoprotsesside jaoks. Saate seadistada tööpoliitika, kasutades **töötellimuse tüüpide**, **lao asukoha** ja **toote** kombinatsiooni. Näiteks valmis toote L0101 on teatatud väljund asukohta 001. Valmis hea tarbitakse hiljem teise tootmistellimuse väljundi asukohas 001. Sel juhul saate seadistada töö poliitika loomist kui teatad toote L0101 lõpetamine väljundi asukoht 001 töös valmistoodangu ladustamise vältimiseks. Tööpoliitika on individuaalne üksus, mida saab kirjeldada järgmise teabe kaudu.
+See tööpoliitika kontrollib, kas laotöö luuakse tootmises laoprotsesside jaoks. Saate seadistada tööpoliitika, kasutades **töötellimuse tüüpide**, **lao asukoha** ja **toote** kombinatsiooni. Näiteks toode L0101 teatatakse väljundasukohas 001 lõpetatuks. Lõpetatud kaupa tarbitakse hiljem teises tootmistellimuses väljastuskohaga 001. Sellisel juhul saate seadistada tööpoliitika, et takistada lõpetatud kaupade kõrvalepaneku jaoks töö loomist, kui teatate toote L0101 väljastuskohas 001 lõpetatuks. Tööpoliitika on individuaalne üksus, mida saab kirjeldada järgmise teabe kaudu.
 
 -   **Tööpoliitika nimi **(tööpoliitika kordumatu identifikaator)
 -   **Töötellimuse tüübid **ja** Töö loomise meetod**
@@ -55,7 +58,7 @@ Saate valida toote, millele tööpoliitika rakendub. Saate rakendada tööpoliit
 ## <a name="example"></a>Näide
 Järgmises näites on kaks tootmistellimust: PRD-001 ja PRD-00*2*. Tootmistellimusel PRD-001 on toiming nimega **Assembler**, kus toode SC1 on teatatud lõpetatuks asukohale O1. Tootmistellimusel PRD-002 on toiming nimega **Värvimine** ja tarbib toodet SC1 asukohast O1. Tootmistellimus PRD-002 tarbib ka toormaterjali RM1 asukohast O1. RM1-d hoitakse laoasukohas BULK-001 ja komplekteeritakse asukohale O1 laotööga toormaterjali komplekteerimiseks. Komplekteerimistöö luuakse tootmise PRD-002 väljastamisel. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Lao tööpoliitikad](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Kui plaanite selle stsenaariumi jaoks konfigureerida lao tööpoliitika, peaksite arvestama järgmist teavet.
 
@@ -66,12 +69,12 @@ Siin on näide tööpoliitikast, mida saate nende kaalutluste põhjal seadistada
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Nr koristama 01'                    |-Valmis hea koristama<br>                           |
-|                                         |**Locations**<br>                                      |
-|                                         |-O1   |                                               |
-|                                         |**Products** <br>                                      |
-|                                         |-SC1                                                  |
+|**Tööpoliitika nimi**<br>                 |**Töökäsu tüübid**<br>                               |
+| Kõrvalepanekuta 01     `                    |- Lõpetatud kaupade kõrvalepanek<br>                           |
+|                                         |**Asukohad**<br>                                      |
+|                                         |- O1   |                                               |
+|                                         |**Tooted** <br>                                      |
+|                                         |- SC1                                                  |
 
 Järgmised protseduurid annavad etapiviisilise juhise, kuidas seadistada selle stsenaarium jaoks laotöö poliitikat. Samuti on kirjeldatud näidisseadistust, mis näitab, kuidas teatada tootmistellimus lõpetatuks asukohale, mis pole litsentsiplaadiga kontrollitav.
 
@@ -244,5 +247,7 @@ ETAPID (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

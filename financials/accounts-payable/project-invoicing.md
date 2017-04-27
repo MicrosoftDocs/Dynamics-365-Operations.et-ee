@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Projekti eest arve esitamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade aja- ja materjalikulu ning fikseeritud hinnaga projektide arveldamise kohta. See sisaldab teavet arvesoovituste (esialgsed arved), arvekontrolli, ettemaksuarvelduse, hankija arvete ja kreeditarvete kohta.
 
 Projekti tüüp määratleb, millise arveldusprotseduuri rakendatakse. Arvet saab esitada ainult kahe välise projektitüübi eest: Aeg ja materjal ning Fikseeritud hind. Aja- ja materjalikulu projektid ning fikseeritud hinnaga projektid on alati seotud projektilepinguga.
@@ -103,7 +106,7 @@ Näiteks saate seadistada järgmist tüüpi maksegraafiku.
 Kui vahetähtaja maksed on arve esitamiseks valmis, kasutage ettemaksesummade arveldusprotseduuri.
 
 ## <a name="vendor-invoicing"></a>Hankija arve koostamine
-Kui tellite hankijalt kauba ja määrate selle kauba projektile, määrab reaatribuut, mille selle kauba ostutellimuse reale valite, kas ostetud kauba eest esitatakse kliendile arve. Kui te rea vaikeatribuudid, need kuvatakse ostutellimuse rea kauba (Line üksikasjad &gt;projekti &gt;rea atribuut). On kaks võimalust rea atribuuti muuta.
+Kui tellite hankijalt kauba ja määrate selle kauba projektile, määrab reaatribuut, mille selle kauba ostutellimuse reale valite, kas ostetud kauba eest esitatakse kliendile arve. Kui seadistate rea vaikeatribuudid, kuvatakse need kaubale ostutellimuse real (Rea üksikasjad &gt; Projekt &gt; Rea atribuut). On kaks võimalust rea atribuuti muuta.
 
 -   Projekti kliendile kauba eest arve esitamine: määrake kauba reaatribuudiks arveldatav väärtus ostutellimusel ja esitage siis kliendile arve, kasutades õiget projekti arveldusmeetodit.
 -   Projekti kliendile kauba eest arve mitte-esitamine: ärge valige selle kauba ostutellimuse real reaatribuuti **Arveldatav**. Siis saate ostutellimuse eest arve esitada ja rohkem pole midagi vaja teha.
@@ -118,5 +121,7 @@ Sama dokument võib sisaldada krediteerimiseks, krediitkanneteks valitud kandeid
 Arveldatud summa krediteerimiseks tuleb kõigepealt valida arveldatud summa krediteerimiseks ja koostada siis kreeditarve. Kreeditarve koostatakse sama protseduuri abil, mida kasutate kliendiarve koostamisel. 
 
 Saate koostada negatiivse summaga arve, mis klassifitseeritakse kreeditarveks. Kreeditarve loomiseks ja printimiseks tuleb valida kliendiarvele sisestatud kanded ning seejärel kandeid muuta. Kui juriidilise isiku peamine aadress pole Saksamaal, on arve pealkiri Korrigeeriv arve.
+
+
 
 

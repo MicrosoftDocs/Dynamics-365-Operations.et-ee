@@ -1,5 +1,5 @@
 ---
-title: "Konfigureerida töövoos paralleelselt filiaal"
+title: "Töövoos paralleelharu konfigureerimine"
 description: "Paralleelharu konfigureerimiseks viige töövooredaktoris lõpule järgmised protseduurid."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-branch-in-a-workflow"></a>Konfigureerida töövoos paralleelselt filiaal
+# <a name="configure-a-parallel-branch-in-a-workflow"></a>Töövoos paralleelharu konfigureerimine
+
+[!include[banner](../includes/banner.md)]
+
 
 Paralleelharu konfigureerimiseks viige töövooredaktoris lõpule järgmised protseduurid.
 
@@ -32,7 +35,7 @@ Paralleelharu on peamiselt töövoog, mida käitatakse ematöövoo kontekstis.
 
 ## <a name="name-a-branch"></a>Haru nimetamine
 Sisestage paralleelharule nimi järgmisi juhiseid järgides.
-1.  Paralleelselt filiaal paremklõpsake ja seejärel klõpsake **atribuudid**. Selle **atribuudid** kuvatakse vorm.
+1.  Paremklõpsake paralleelharu ja seejärel klõpsake valikut **Atribuudid**. Kuvatakse vorm **Atribuudid**.
 2.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
 3.  Väljale **Nimi** sisestage paralleelharu kordumatu nimi.
 4.  Klõpsake valikut **Sule**.
@@ -40,7 +43,7 @@ Sisestage paralleelharule nimi järgmisi juhiseid järgides.
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>Haru elementide kujundamine ja konfigureerimine
 Järgige neid juhiseid, et kujundada ja konfigureerida paralleelharu elemendid.
 1.  Topeltklõpsake paralleelharu.
-2.  Lohistage töövoo elemendid lõuendile ja konfigureerige seejärel elemendid, nii nagu teeksite seda mis tahes muu töövoo loomiseks. Lisateabe saamiseks vaadake teemat loomine töövoo.
+2.  Lohistage töövoo elemendid lõuendile ja konfigureerige seejärel elemendid, nii nagu teeksite seda mis tahes muu töövoo loomiseks. Lisateavet vt teemast Töövoo loomine.
 
 
 
@@ -48,5 +51,7 @@ Järgige neid juhiseid, et kujundada ja konfigureerida paralleelharu elemendid.
 --------
 
 [Töövoo loomine](create-workflow.md)
+
+
 
 

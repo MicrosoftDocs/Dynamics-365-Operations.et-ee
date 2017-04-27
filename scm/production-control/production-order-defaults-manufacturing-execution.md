@@ -1,5 +1,5 @@
 ---
-title: "Tootmise järjestuse vaikesätete täitmise valmistamisel"
+title: "Tootmistellimuse vaikesätted tootmise käivitamisel"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Tootmise järjestuse vaikesätete täitmise valmistamisel
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Tootmistellimuse vaikesätted tootmise käivitamisel
+
+[!include[banner](../includes/banner.md)]
 
 
 
-Kaaluge hoolikalt seadistused kohta ning **tootmise järjestuse vaikesätete** lehekülg enne töötajate algust teha registreerimiste kohta. Kui teie ettevõte kasutab funktsiooni mitmes kohas, võite seadistada tootmistellimuste iga ala jaoks eri vaikesätted. Tellimuse vaikesätete integreerimise tootmise juhtimisega saate seadistada järgmistel vahekaartidel leheküljel **Tootmistellimuse vaikesätted**.
+
+Enne kui töötajatele anda võimalus teha tootmistööde registreeringuid, peaksite hoolikalt läbi mõtlema kõik sätted leheküljel **Tootmistellimuse vaikesätted**. Kui teie ettevõte kasutab mitme laoala funktsiooni, võite igale laoalale erinevad tootmistellimuse vaikesätted seadistada. Tellimuse vaikesätete integreerimise tootmise juhtimisega saate seadistada järgmistel vahekaartidel leheküljel **Tootmistellimuse vaikesätted**.
 
 -   **Üldine** – tellimuse tootmistööde üldised vaikesätted tootmise käivitamisel.
 -   **Alustamine** – tellimuse tootmistööde või toimingute alustamisel kasutatavad vaikesätted.
@@ -68,6 +71,8 @@ Materjali tarbimist tootmistellimuse lõpetamise kinnitamisel saab juhtida vahek
 -   **Automaatse tarbimise põhimõte** – tootmistellimuse lõpetamise kinnitamisel määratakse tarbitavate materjalide kogused tootmise koosluse ridade automaatse tarbimise põhimõtete järgi. Kasutatakse ainult neid koosluse ridu, mille automaatse tarbimise põhimõtteks on seatud **Valmis**.
 -   **Alati** – materjale, mille kogused on proportsionaalsed lõpetamise kinnitamise kogusega, tarbitakse alati.
 -   **Mitte kunagi** – materjalide koguseid ei tarbita kunagi.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Pangakonto täpsema vastavusseviimise ülevaade"
-description: "Täiustatud pangakonto sobitamise saate importida elektroonilise pangakonto väljavõtted ja automaatselt viia vastavusse Microsofti Dynamics 365 toiminguteks.  See artikkel selgitab vastavusseviimise seadistusprotsesse."
+description: "Pangakonto täpsema vastavusseviimise abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Operationsis automaatselt pangakannetega vastavusse viia.  See artikkel selgitab vastavusseviimise seadistusprotsesse."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,34 +26,39 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Pangakonto täpsema vastavusseviimise ülevaade
 
-Täiustatud pangakonto sobitamise saate importida elektroonilise pangakonto väljavõtted ja automaatselt viia vastavusse Microsofti Dynamics 365 toiminguteks.  See artikkel selgitab vastavusseviimise seadistusprotsesse.  
+[!include[banner](../includes/banner.md)]
 
-On tuleb seadistada enne funktsiooni Täpsem panga vastavusseviimise tükkide arvuga. Panga väljavõtte impordi häälestamise kohta lisateabe saamiseks vt [seadistada panga väljavõtte import protsess](set-up-advanced-bank-reconciliation-import-process.md).  Nõuetele moodustatud lõpetamine, on toodud allpool.
+
+Pangakonto täpsema vastavusseviimise abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Operationsis automaatselt pangakannetega vastavusse viia.  See artikkel selgitab vastavusseviimise seadistusprotsesse.  
+
+Enne pangakonto täpsema vastavusseviimise funktsiooni kasutamist tuleb seadistada mitmed parameetrid. Lisateavet pangaväljavõtte importimise seadistamise kohta vt teemast [Pangaväljavõtte impordiprotsessi seadistamine](set-up-advanced-bank-reconciliation-import-process.md).  Vastavusseviimise protsessi seadistamise nõudeid on üksikasjalikult kirjeldatud allpool.
 
 ## <a name="transaction-codes"></a>Kandekoodid
-Kosmosesse lennutamise saate kasutada pangakonto sobitamise Kokkulangevuse alased eeskirjad.  Kosmosesse lennutamise aitab ainult sama tüüpi tehingute Dynamics 365 operatsioonide ja pangakonto väljavõtte.  Selleks, et seda tüüpi sobitamine, peate esmalt määratleda pangatehingute Dynamics 365 toiminguteks kasutada tüübid, siis nende puhul vastendada kasutada teie panga poolt tehingu koodiga.  Kandetüübid Dynamics 365 toimingute pangatehingute määratletud ning **panga kandetüübi** lehel.  See on ka määratleda põhikontole, et kasutada selle tehingu tüübiga seotud postitusi. 
+Kandekoode saab kasutada osana pangakonto vastavusseviimise vastendusreeglitest.  Kandekoodid aitavad vastendada Dynamics 365 for Operationsi ja teie pangaväljavõtte vahel sama tüüpi kanded.  Seda tüüpi vastendamiseks peate esmalt määratlema Dynamics 365 for Operationsist tehtavate pangakannete jaoks kasutatavad kandetüübid ja seejärel vastendama need tüübid teie panga kasutatavate väljavõtte kandekoodidega.  Dynamics 365 for Operationsi pangakannete kandekoodid määratletakse lehel **Pankakande tüüp**.  See on ka koht, kus saate määratleda kõnealuse kandetüübiga seostatud sisestuste jaoks kasutatava meilikonto. 
 
-Kui oma Dynamics 365 toimingute Pank tehingu koodid on määratletud, siis vastendada need elektroonilise pangakonto väljavõtted kasutatavaid kandekoode.  Kaardistamise protsess on tehtud kasutades on **tehingu vastendamine** lehel.  Iga pangakonto puhul täidetakse eraldi tehingu vastendamine.
+Kui teie Dynamics 365 for Operationsi pangakandekoodid on määratletud, vastendage need oma elektroonilistel pangaväljavõtetel kasutatavate kandekoodidega.  Vastendamine toimub lehel **Kandekoodide vastendamine**.  Kandekoodide vastendamine tuleb teha iga pangakonto puhul eraldi.
 
 ## <a name="matching-rules-and-matching-rule-sets"></a>Vastendusreeglid ja vastendusreeglite kogumid
-Leevendamiste abil saate määratleda kriteeriumid operatsioonide pangatehingute Dynamics 365 ja pangaväljavõtte tehingute automaatne viimine.  Seati leevendamiste tehakse **Kokkulangevuse alased eeskirjad vastavusse viimine** lehel.  Lisateabe saamiseks vaadake [loodud pangakonto sobitamise Kokkulangevuse alased eeskirjad](set-up-bank-reconciliation-matching-rules.md). 
+Vastendusreeglid võimaldavad määratleda Dynamics 365 for Operationsi pangakannete ja pangaväljavõtte kannete vahelisel automaatse vastavusseviimise kriteeriumid.  Vastendusreeglid saate määratleda lehel **Vastavusseviimise vastendusreeglid**.  Lisateavet vt teemast [Panga vastavusseviimise vastendusreeglite seadistamine](set-up-bank-reconciliation-matching-rules.md). 
 
-Vastavaid reegel sätestab kasutatakse vastavaid eeskirju, mis käivitatakse järjest Panga vastavusseviimine protsessi ajal rühma.  Vastavaid reegel sätestab on konfigureeritud selle **sobitamine reeglistiku leppimise** lehel.
+Vastendusreeglistikuga määratletakse vastendusreeglite grupp, mis käivitatakse järjest pangakonto vastavusseviimise protsessi käigus.  Vastendusreeglistiku saate konfigureerida lehel **Vastavusseviimise vastendusreeglistikud**.
 
 ## <a name="cash-and-bank-management-parameters"></a>Sularaha- ja pangahalduse parameetrid
-Mitmeid parameetreid on iseloomulikud arenenud Panga vastavusseviimine protsessi kohta on **raha ja pangakontod parameetrid** lehel.  Selle **Näita väljavõtte rea summa deebet/kreedit** muudetakse summade kohta ning **panga väljavõtte** lehel.  Kui see suvand on valitud, näidatakse eraldi deebet ja krediidi veergudena panga väljavõtte kannete kogusummat.  Kui pole valitud, kuvatakse panga väljavõtte kannete summade summa veergude puhul sobiv märk. 
+Lehel **Sularaha- ja pangahalduse parameetrid** leiate mitmed pangakonto täpsema vastavusseviimise protsessile kohased parameetrid.  Valik **Kuva väljavõtterea summa deebetis/kreeditis** muudab summade vaadet lehel **Pangaväljavõte**.  Selle valiku korral kuvatakse pangaväljavõtte kandesummad eraldi deebeti- ja kreeditiveergudes.  Kui seda suvandit ei valita, kuvatakse pangaväljavõtte kandesummad üksiku summa veerus koos vastava märgiga. 
 
-Lehel parameetrid seada valideerimise suvandid alistada eeskirjad vastavusse seatud Valikud.  Näiteks ei saa käsitsi või automaatselt vastavad dokumendid ületada seatud parameetrite lehe kuupäeva.  Ka, kui võimalus **kontrollida tehingu tüüp kaardistamine** on valitud, peab tehinguliikide jaotatud operatsioonide pangakande Dynamics 365 ja pangaväljavõtte tehingu selleks kandeid käsitsi või automaatselt sobitada. 
+Parameetrite lehel määratud kontrollimisvalikud alistavad vastendusreeglites määratud valikud.  Näiteks ei saa te käsitsi ega automaatselt vastendada dokumente, mis jäävad parameetrite lehel määratud kuupäevavahemikust väljapoole.  Samuti, kui on tehtud valik **Kontrolli kandetüübi vastendust**, tuleb kandetüübid Dynamics 365 for Operationsi pangakannete ja pangaväljavõtte kannete vahel vastendada, et kandeid saaks käsitsi või automaatselt vastendada. 
 
-Samuti peate konfigureerima vajalikud Numbriseeriad selle **raha ja pangakontod parameetrid** lehel.  Kohta ning **Numbriseeriad** vahekaardil, määratud numbriseeria koodid laadida **ID, aruande-ID, sobitamine ID ja panga vastavusseviimise** viited.
+Peale selle peate konfigureerima lehel **Sularaha- ja pangahalduse parameetrid** vajalikud numbriseeriad.  Määrake vahekaardil **Numbriseeriad** numbriseeriate koodid **Allalaadimise ID, Väljavõtte ID, Vastavusseviimise ID ja Pangakonto vastavusseviimise** viidetele.
 
 ## <a name="bank-account-reconciliation-options"></a>Pangakonto vastavusseviimise valikud
-Peate esmalt lubama täiustatud pangakonto sobitamise jaoks.  Täiendavad suvandid on saadaval ka **pangakontole** lehekülg kui arenenud panga vastavusseviimise funktsioon on lubatud. 
+Esmalt peate lubama pangakonto täpsema vastavusseviimise pangakonto puhul.  Lehel **Pangakonto** on saadaval mitu lisavalikut, kui funktsioon Pangakonto täpsem vastavusseviimine on lubatud. 
 
-**Kasutamise pangaväljavõtted kui elektrooniliste maksete ülehelistamine** funktsionaalsust ühendab panga vastavusseviimise funktsioonid elektrooniliste maksete staatused.  Kui see on lubatud, pangadokument luuakse automaatselt elektroonilise makse olek on seatud **saadetud**.  Lisaks elektrooniline staatus ajakohastada **saadetud** et **saadud** pärast makse sobib vastavusse viidud ja sisestatud. 
+Funktsioon **Kasuta pangaväljavõtteid elektroonilise makse kinnitusena** integreerib pangakonto vastavusseviimise funktsiooni elektrooniliste maksete olekutega.  Kui see on lubatud, luuakse pangadokument automaatselt, kui elektroonilise makse olek on **Saadetud**.  Peale selle värskendatakse elektroonilise makse olek väärtuselt **Saadetud** väärtusele **Vastu võetud**, kui makse on vastendatud, vastavusse viidud ja sisestatud. 
 
-Selle **pangakonto nimi avaldused** väli on nimi, mida kasutatakse pangakonto kohta elektroonilise pangakonto väljavõtted.  Seda nime kasutatakse, milliseid kandeid importida pangakonto väljavõttelt, mis võivad sisaldada teavet mitut pangakontot määramisel. 
+Väli **Pangakonto nimi väljavõtetel** on nimi, mida kasutatakse teie elektroonilistel pangaväljavõtetel pangakonto kohta.  Seda nime kasutatakse määramisel, milliseid kandeid importida pangakonto puhul väljavõttest, milles võivad olla mitme pangakonto andmed. 
 
-Võimalus **pärast importimist sobitamine** näidatakse automaatselt kinnitada pangaväljavõtte, luua uus pangakonto sobitamise ja töölehe ja käivitage vaikimisi vastavuses olevad reeglistiku.  See funktsioon automatiseerib protsessi kuni kandeid, mis tuleb käsitsi kokku sobitada.  Pangakonto seade Vaikimisi importimisel.
+Valik **Vii vastavusse pärast importimist** kontrollib automaatselt pangaväljavõtet, loob uue pangakonto vastavusseviimise ja töölehe ning käivitab vaike-vastendamisreeglistiku.  See funktsioon automatiseerib protsessi kuni punktini, kus tehingud tuleb käsitsi vastendada.  Säte pangakontol muutub importimisel vaikesätteks.
+
+
 
 

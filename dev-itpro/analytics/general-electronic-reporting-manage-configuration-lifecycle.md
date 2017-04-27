@@ -1,6 +1,6 @@
 ---
 title: "Elektroonilise aruandluse konfiguratsiooni elutsükli haldamine"
-description: "See teema käsitleb elektroonilise aruandluse (ER) koosseisudesse toimingute lahendus Microsoft Dynamics 365 elutsükli haldamist."
+description: "Selles teemas kirjeldatakse, kuidas hallata Microsoft Dynamics 365 for Operationsi lahenduse elektroonilise aruandluse (ER) konfiguratsioonide elutsüklit."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,18 +27,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Elektroonilise aruandluse konfiguratsiooni elutsükli haldamine
 
-See teema käsitleb elektroonilise aruandluse (ER) koosseisudesse toimingute lahendus Microsoft Dynamics 365 elutsükli haldamist.
+[!include[banner](../includes/banner.md)]
+
+
+Selles teemas kirjeldatakse, kuidas hallata Microsoft Dynamics 365 for Operationsi lahenduse elektroonilise aruandluse (ER) konfiguratsioonide elutsüklit.
 
 <a name="overview"></a>Ülevaade
 --------
 
-Elektrooniline aruandlus (ER) on mootor seadusega kehtestatud ja riigipõhiste elektrooniliste dokumentide toetamiseks Microsoft Dynamics 365 for Operationsis. Üldjuhul eeldab ER võimalust teha üksiku elektroonilise dokumendi puhul järgmisi toiminguid. Üksikasjalikumat, Vaata [elektroonilise aruandluse ülevaade](general-electronic-reporting.md).
+Elektrooniline aruandlus (ER) on mootor seadusega kehtestatud ja riigipõhiste elektrooniliste dokumentide toetamiseks Microsoft Dynamics 365 for Operationsis. Üldjuhul eeldab ER võimalust teha üksiku elektroonilise dokumendi puhul järgmisi toiminguid. Lisateavet leiate jaotisest [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md).
 
 -   Elektroonilise dokumendi malli kujundamine.
     -   Tuvastage nõutavad andmeallikad, mida saab dokumendis esitada:
-        -   Aluseks Dynamics 365 operatsioonide andmeid nt andmetabelid, andmete üksuste ja klassid.
-        -   Protsessipõhised omadused, näiteks täitmise kuupäeva, kellaaja ja ajavööndi.
-        -   Kasutaja parameetrid, määratud lõppkasutaja käitusajal.
+        -   Dynamics 365 for Operationsi alusandmed, nt andmetabelid, andmeüksused ja klassid;
+        -   protsessipõhised atribuudid, nt käivitamise kuupäev ja kellaaeg ning ajatsoon;
+        -   kasutaja sisendparameetrid, mille määrab lõppkasutaja käitamisel.
     -   Määratlege vajalikud dokumendielemendid ja nende topoloogia lõppdokumendi vormingu määramiseks.
     -   Konfigureerige soovitud andmevoog valitud andmeallikatest määratletud dokumendielementidele (andmeallika sidumiste kaudu dokumendivormingu komponentidega) ja määrake protsessi juhtimisloogika.
 -   Tehke mall kättesaadavaks, et seda saaks teistes Dynamics 365 for Operationsi eksemplarides kasutada.
@@ -49,19 +52,19 @@ Elektrooniline aruandlus (ER) on mootor seadusega kehtestatud ja riigipõhiste e
     -   Tooge mall LCS-ist praegusesse Dynamics 365 for Operationsi eksemplari ER-i konfiguratsioonina.
     -   Kujundage ER-i konfiguratsioonist kohandatud versioon ja säilitage viide selle alusversioonile.
 -   Integreerige mall konkreetse äriprotsessiga, nii et see oleks Dynamics 365 for Operationsis saadaval.
-    -   Konfigureerige sätted nii, et Dynamics 365 for Operations hakkaks kasutama ER-i konfiguratsiooni, viidates sellele konfiguratsioonile protsessiga seotud parameetris. Näiteks vaadake ER konfiguratsiooni konkreetse kontode maksta makse meetod, et tekitada elektrooniline sõnum arvete töötlemiseks.
+    -   Konfigureerige sätted nii, et Dynamics 365 for Operations hakkaks kasutama ER-i konfiguratsiooni, viidates sellele konfiguratsioonile protsessiga seotud parameetris. Näiteks viidake ER-i konfiguratsioonile konkreetses ostureskontro makseviisis, et luua arvete töötlemiseks elektrooniline maksesõnum.
 -   Kasutage malli kindlas äriprotsessis.
-    -   ER konfiguratsiooni sõidetud konkreetse äriprotsessi. Näiteks elektroonilise makse sõnumi töötlemise arvete maksmise viis, mis viitab ER konfiguratsiooni loomiseks valitud.
+    -   Käivitage ER-i konfiguratsioon konkreetses äriprotsessis. Näiteks elektroonilise maksesõnumi loomiseks arvete töötlemiseks, kui on valitud ER-i konfiguratsioonile viitav makseviis.
 
 ## <a name="concepts"></a>Mõisted
-Järgmisi rolle ja nendega seotud tegevus on seotud ER konfiguratsiooni elutsükli.
+ER-i konfiguratsiooni elutsükliga on seotud järgmised rollid ja seotud tegevused.
 
 | Roll                                       | Tegevused                                                      | Kirjeldus                                                                                                                                                                                                                  |
 |--------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Elektroonilise aruandluse funktsionaalne konsultant | Looge ja hallake ER-i komponente (mudeleid ja vorminguid).           | Ärimees, kes projekteerib ER Domeen – andmete mudelid, tööstusdisainilahendused vaja malle elektrooniliste dokumentide ja seob neid vastavalt.                                                                           |
-| Elektroonilise aruandluse arendaja             | Looge ja hallake andmemudeli vastendusi.                          | Dynamics 365 toimingute spetsialist, kes valib vajalikud Dynamics 365 toimingute andmeallikaid ja seondub ER Domeen – andmete mudelid.                                                                 |
-| Raamatupidaja                      | Konfigureerige ER-i parasiitidele viitavaid protsessiga seotud sätteid. | Näiteks on **raamatupidamise juhendaja** rolli, mis võimaldab luua elektrooniline sõnum arvete töötlemiseks kasutada teatud kontode maksta makseviisi ER konfiguratsiooni seaded. |
-| Ostureskontro maksuametnik            | Kasutage ER-i parasiite kindlas äriprotsessis.                | Näiteks on **kontodele makstavad maksed sekretär** rolli, mis võimaldab elektrooniliste maksete sõnumite töötlemine arvete puhul genereeritakse põhineb konkreetse makseviisi jaoks seadistatud ER vormi.           |
+| Elektroonilise aruandluse funktsionaalne konsultant | Looge ja hallake ER-i komponente (mudeleid ja vorminguid).           | Äriinimene, kes ER-i domeenipõhised andmemudelid kujundab, kujundab vajalikud elektrooniliste dokumentide mallid ja seob need vastavalt.                                                                           |
+| Elektroonilise aruandluse arendaja             | Looge ja hallake andmemudeli vastendusi.                          | Dynamics 365 for Operationsi spetsialist, kes valib vajalikud Dynamics 365 for Operationsi andmeallikad ja seob need ER-i domeenipõhiste andmemudelitega.                                                                 |
+| Raamatupidaja                      | Konfigureerige ER-i parasiitidele viitavaid protsessiga seotud sätteid. | Näiteks roll **Raamatupidaja**, mis võimaldab ER-i konfiguratsiooni sätete kasutamist konkreetses ostureskontro makseviisis arvete töötlemiseks vajaliku elektroonilise maksesõnumi koostamiseks. |
+| Ostureskontro maksuametnik            | Kasutage ER-i parasiite kindlas äriprotsessis.                | Näiteks roll **Ostureskontro maksuametnik**, mis võimaldab elektrooniliste maksesõnumite koostamist arvete töötlemiseks, tuginedes konkreetse makseviisi jaoks konfigureeritud ER-i vormingule.           |
 
 ## <a name="er-configuration-development-lifecycle"></a>ER-i konfiguratsiooni arenduse elutsükkel
 Järgmistel ER-iga seotud põhjustel soovitame kujundada ER-i konfiguratsioonid arenduskeskkonnas eraldi Dynamics 365 for Operationsi eksemplarina.
@@ -69,11 +72,13 @@ Järgmistel ER-iga seotud põhjustel soovitame kujundada ER-i konfiguratsioonid 
 -   Kasutajad rollis **Elektroonilise aruandluse arendaja** või rollis **Elektroonilise aruandluse funktsionaalne konsultant** saavad konfiguratsioone redigeerida ja neid testimise eesmärgil käitada. See stsenaarium võib põhjustada klasside ja tabelite meetodite kasutamise, mis võivad kahjustada äriandmeid ning Dynamics 365 for Operationsi eksemplari toimimist.
 -   Klasside ja tabelite meetodite kasutamine ER-i konfiguratsioonide ER-i andmeallikatena ei ole piiratud Dynamics 365 for Operationsi sisestuspunktide ja logitud ettevõtte sisuga. Seega pääsevad äriliselt tundlike andmete juurde kasutajad rolliga **Elektroonilise aruandluse arendaja** või **Elektroonilise aruandluse funktsionaalne konsultant**.
 
-ER konfiguratsioonid, mis on loodud arenduskeskkonnas saate üles laadida et keskkond konfiguratsiooni hindamiseks (õige protsessi integreerimine, tulemuste ja tulemuslikkuse õigsust) ja kvaliteedi tagamise rolli juhitud juurdepääsuõigused õigsuse ja ülesannete jaotus. Selleks saab kasutada funktsioone, mis võimaldavad ER konfiguratsiooni vahetus. Lõpuks tõestatud ER konfiguratsioone saab üles laadida LCS, kus nad saavad jagada tellijatele, ega tootmiskeskkonda sisekasutuseks, nagu näidatud järgmisel joonisel. ![ER konfiguratsiooni elutsükli](./media/ger-configuration-lifecycle.png)
+Arenduskeskkonnas kujundatud ER-i konfiguratsioone saab üles laadida testkeskkonda, et hinnata konfiguratsiooni (õige protsessi integreerimine, tulemuste õigsus ja jõudlus) ja kvaliteedi tagamiseks, nt rolli juhitud juurdepääsuõiguste õigsus ja kohustuste jagamine. Selleks saab kasutada funktsioone, mis lubavad ER-i konfiguratsiooni vahetamise. Lõpuks saab tõestatud ER-i konfiguratsioonid üles laadida kas LCS-i, kus neid saab teenuse tellijatega jagada, või tootmiskeskkonda ettevõttesiseseks kasutamiseks, nt nii, nagu on näidatud järgmisel joonisel. ![ER-i konfiguratsiooni elutsükkel](./media/ger-configuration-lifecycle.png)
 
 <a name="see-also"></a>Vt ka
 --------
 
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+
+
 
 

@@ -86,5 +86,5 @@ Lahenduseks on suvand **Finantsaruandlus**. Organisatsiooni hierarhiad, milles o
 Kasutades ühest eksemplarist eksportimiseks suvandit **Ekspordi ettevõtte saldod** ja kasutades seejärel teisel eksemplaril suvandit **Konsolideeri impordiga**, saate andmed konsolideerida.
 
 
-Lisateabe saamiseks vaadake [valuuta revalution konsolideerimise firma](\finanicials\general-ledger\currency-revaluation-consolidation-company).
+Lisateavet vt teemast [Valuuta ümberarvutamine konsolideeritavas ettevõttes](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

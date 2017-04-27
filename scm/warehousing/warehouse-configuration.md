@@ -52,13 +52,13 @@ Laopaigutuse lubamise protsessi raames tuleb määratleda laotsoonide grupid ja 
 -   **Asukohatüübid** – laoasukohtade füüsiline või loogiline grupeering. Näiteks saate luua asukohatüüp ajastamise kõigi asukohtade jaoks. Lehe **Laohalduse parameetrid** kohustuslikud sätted juhivad vaheasukoha tüüpide ja lõppsihtkoha määratlemise protsessi.
 -   **Asukohad** – asukohateabe madalaim tase. Asukohti kasutatakse jälgimiseks, kus vaba kaubavaru laos ladustatakse ja komplekteeritakse.
 
-Laopaigutuse määratlemiseks loodavaid üksusi kasutatakse töömallidel seadistatavates päringutes lao töötellimuste juhtimiseks. Seetõttu arvestage tsoonide, asukohatüüpide jne määratlemisel, kuidas lao erinevaid alasid erinevate protsesside jaoks kasutatakse. Lisaks arvestage selliseid tegureid nagu konkreetse ala füüsilised omadused. Näiteks võib olla kohtades, kus saab kasutada ainult teatud tüüpi tõstuki. Või kui ettevõttel on tootmise ja valmistoodangu sama rahastus, võite luua ühte lattu Dynamics 365 operatsioonide kuid eraldada kaks tsooni gruppide kaks toimingut. Anna oma üksuste kirjeldavaid nimesid, nii et see on kerge kindlaks teha malli päringute kasutamisel.
+Laopaigutuse määratlemiseks loodavaid üksusi kasutatakse töömallidel seadistatavates päringutes lao töötellimuste juhtimiseks. Seetõttu arvestage tsoonide, asukohatüüpide jne määratlemisel, kuidas lao erinevaid alasid erinevate protsesside jaoks kasutatakse. Lisaks arvestage selliseid tegureid nagu konkreetse ala füüsilised omadused. Näiteks võib olla alasid, kus saate kasutada ainult teatud tüüpi kahveltõstukit. Või kui teie ettevõttel on samas rajatises nii tootmis- kui ka lõpetatud tooted, võite soovi korral luua rakenduses Dynamics 365 for Operations ühe lao, kuid seejärel eraldada need kaks toimingut, luues kaks tsoonigruppi. Andke oma üksustele kirjeldavad nimed, et neid oleks lihtne tuvastada, kui kasutate neid mallpäringutes.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Asukoha ladustamispiirangud, asukohaprofiilid ja fikseeritud komplekteerimiskohad
 
 Peate arvestama lao füüsilist paigutust nii ladustamismahu (asukoha ladustamispiirangute ja asukohaprofiilide) määratlemiseks kui ka optimaalsete laoprotsesside saavutamiseks. 
 
-Asukoht loomkoormuse piiranguid aidata tagada, et töö ei ole loodud taotleda nimestikku panna asukohas, mis pole läbi varude füüsilist mahtu. Näiteks kui teatud kohtades laos mahub ainult üks kaubaaluse kohta asukohta, asukoht Sukk piire saab lubada. Selle ** kogus ** väärtuse saab määrata **1**, ja ** üksuse ** väärtuse saab määrata **PL** kindlas asukohas profiili grupis. 
+Asukoha ladustamispiirangud aitavad tagada, et tööd ei looda taotlemaks varude asetamist asukohta, millel pole varude vedamiseks sobivat füüsilist jõudlust. Kui mõned asukohad laos saavad hoida ainult üht kaubaalust asukoha kohta, saab asukoha ladustamispiirangud lubada. Valiku **Kogus** saab spetsiifilise asukohaprofiili grupeerimises seada väärtusele **1** ja valiku **Unit ** väärtusele **PL**. 
 
 Kui asukoha mahupiirangute juhtimiseks on vaja keerukamaid arvutusi, võib kasutada asukohaprofiili sätteid. Sel juhul arvestatakse mahu arvutustes kaalu ja mahtu. 
 
@@ -66,7 +66,7 @@ Optimaalsete lähetustoimingute saavutamiseks tuleks hinnata, kas kasutada fikse
 
 ### <a name="location-setup-wizard"></a>Asukoha häälestuse viisard
 
-Saate kiiresti luua asukohad laos, et ** asukoha seadistust ** viisard. Selle protsessi käigus saate hõlpsasti asukohanimede vormingut hallata.
+Laos kiireks asukohtade loomiseks võite kasutada viisardit **Asukoha seadistus**. Selle protsessi käigus saate hõlpsasti asukohanimede vormingut hallata.
 
 ## <a name="warehouse-processes"></a>Laoprotsessid
 Lao konfiguratsiooni osana on oluline lubada laoprotsessid vastavalt ettevõtte vajadustele. Kõige olulisemad komponendid, mis tuleb seadistada, on voomallid, töömallid, töökaustad ja asukohakorraldused.
@@ -75,7 +75,7 @@ Lao konfiguratsiooni osana on oluline lubada laoprotsessid vastavalt ettevõtte 
 
 Voomallid aitavad lubada väljaminevat lattu väljastamise protsessi. Kui tellimuse read on väljastatud (kas otse lähtedokumentidest, pakett-töö protsesside või juba loodud koormate kaudu), kasutatakse voomalli funktsiooni. 
 
-Saate luua kolme tüüpi laine Mallid: **Shipping**, **tootmistellimuse**, ja **Kanban**. Parameetrite abil saate määratleda, kui kaugele süsteem peaks automaatselt minema väljaminev töö töötlemisel. Voomall valitakse voomallide seeria ja mallis määratud kriteeriumide alusel. Kui mall on seeria ülaosas, kontrollitakse kõigepealt selle malli kriteeriume. Kui kriteeriumid saab täita, töödeldakse voomall. Vastasel korral kontrollitakse järgmise malli kriteeriume jne. Seetõttu on soovitatav panna kõige konkreetsemate kriteeriumidega mall voomallide seeria loendi etteotsa, et seda töödeldaks esimesena. Näiteks soovite töödelda täna kogu konkreetse vedaja tööd ja viivitada ajutiselt teiste vedajate töötlemisega. Sel juhul tuleks sellele vedajale tööd valiv voomall paigutada seerias teistest mallidest kõrgemale. Vastasel korral võidakse muude vedajate töö töödelda enne, kui selle vedaja tööga lõpule jõutakse. 
+Saate luua kolme tüüpi lainemallid: **Lähetamine**, **Tootmistellimus** ja **Kanban**. Parameetreid kasutatakse määratlemiseks, kui kaugele peaks süsteem automaatselt väljamineva töö töötlemisel minema. Voomall valitakse voomallide seeria ja mallis määratud kriteeriumide alusel. Kui mall on seeria ülaosas, kontrollitakse kõigepealt selle malli kriteeriume. Kui kriteeriumid saab täita, töödeldakse voomall. Vastasel korral kontrollitakse järgmise malli kriteeriume jne. Seetõttu on soovitatav panna kõige konkreetsemate kriteeriumidega mall voomallide seeria loendi etteotsa, et seda töödeldaks esimesena. Näiteks soovite töödelda täna kogu konkreetse vedaja tööd ja viivitada ajutiselt teiste vedajate töötlemisega. Sel juhul tuleks sellele vedajale tööd valiv voomall paigutada seerias teistest mallidest kõrgemale. Vastasel korral võidakse muude vedajate töö töödelda enne, kui selle vedaja tööga lõpule jõutakse. 
 
 Peate määrama voo töötlemise meetodid igas voomallis. Saadaolevad meetodid on erinevad, olenevalt voomalli tüübist.
 
@@ -107,6 +107,6 @@ Iga asukohakorralduse reaga seotud toimingute hõlpsamaks ja kiriemaks määratl
 <a name="see-also"></a>Vt ka
 --------
 
-[Seadistada asukohad laos WMS-toega (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Asukohtade konfigureerimine WMS-loaga laos (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
 
 

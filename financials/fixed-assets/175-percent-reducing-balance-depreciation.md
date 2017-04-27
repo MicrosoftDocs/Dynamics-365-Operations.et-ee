@@ -54,9 +54,9 @@ Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus*
 
 ### <a name="fiscal"></a>Fiskaalne
 
-Kui valite väljal **Kulumiaasta** suvandi **Rahandusaasta**, arvutatakse 175% väheneva jääkväärtuse kulumist rahanduskalendri rahandusaasta alusel, mis on määratud raamatule, või rahanduskalendri alusel, mis on valitud lehel **Pearaamat**. Rahanduskalendrid seadistatakse lehel **Rahanduskalendrid**. Lisateabe saamiseks vaadake [finantskalendrid, majandusaastate, ja.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Kui valite väljal **Kulumiaasta** suvandi **Rahandusaasta**, arvutatakse 175% väheneva jääkväärtuse kulumist rahanduskalendri rahandusaasta alusel, mis on määratud raamatule, või rahanduskalendri alusel, mis on valitud lehel **Pearaamat**. Rahanduskalendrid seadistatakse lehel **Rahanduskalendrid**. Lisateavet leiate teemast [Rahanduskalendrid, rahandusaastad ja -perioodid.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
-Näiteks hakkab kulumiarvestuse majandusaasta 1. juuli läbi 30. juuni, 1. juuli. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Kulumit korrigeeritakse iga perioodi puhul automaatselt ja järgmise rahandusaasta pikkuse määrab perioodide seadistus lehel **Rahanduskalendrid**. 
+Näiteks rahandusaasta puhul 1. juulist kuni 30. juunini algab kulumiarvestus 1. juulil. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Kulumit korrigeeritakse iga perioodi puhul automaatselt ja järgmise rahandusaasta pikkuse määrab perioodide seadistus lehel **Rahanduskalendrid**. 
 
 Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
 
@@ -81,6 +81,6 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 | aasta 3 | 4225 × 35% = 1478.75                        | 5225 – 1478.75 = 3746.25 | 4225 – 1478.75 = 2746.25           |
 
 > [!NOTE] 
-> Tavaliselt, kui summa, mis arvutatakse 175% väheneva saldoga kulumi arvestamise meetod abil saab väiksema summa, mis arvutatakse lineaarse meetodi kasutamisel on ümberkujundamise meetodi ülejäänud eluks.
+> Tavaliselt kui 175% väheneva saldo kulumiarvestusmeetodiga arvutatud summa on väiksem kui lineaarse meetodiga arvutades tulemuseks olev summa, teisendatakse järelejäänud eluiga lineaarse meetodi järgi.
 
 

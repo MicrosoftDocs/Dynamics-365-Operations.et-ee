@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-entry-deadlines"></a>Tellimuse sisestamise tähtajad
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel käsitleb tellimuse sisestamise tähtaegu. Tellimuse sisestamise tähtaeg on katkestusaeg, mis määratleb, kas kliendi tellimust käsitletakse (ja täidetakse) nii, nagu see oleks saadud jooksval päeval või järgmisel päeval.
 
 Paljudes ettevõtetes käsitletakse ainult enne teatud kellaaega vastu võetud müügitellimusi nii, nagu need oleksid vastu võetud sellel päeval. Pärast seda kellaaega vastu võetud tellimusi käsitletakse nii, nagu need oleksid vastu võetud järgmisel tööpäeval. Sellist tellimuste tähtaega nimetatakse tellimuse sisestamise tähtajaks.  
 
-Tellimuse sisestamise tähtaegu kasutatakse sisendina tellimuse täitmisel. Nii aitavad need teil hallata klientide ootusi tellimuste tarnete kohta. Näiteks näevad kliendid, et kui esitavad teile tellimuse enne teatud kellaaega, kohustute neile kaubad tarnima samal päeval. Siiski selle tähtaja puudumisel hättasattunud saadetise ainult järgmisel arvelduspäeval. Määrake tellimuse kanne tähtajad vastavalt lao võimeid ja laevandus lennuettevõtja sõiduplaanide.  
+Tellimuse sisestamise tähtaegu kasutatakse sisendina tellimuse täitmisel. Nii aitavad need teil hallata klientide ootusi tellimuste tarnete kohta. Näiteks näevad kliendid, et kui esitavad teile tellimuse enne teatud kellaaega, kohustute neile kaubad tarnima samal päeval. Kui nad aga selle tähtaja ületavad, võivad nad eeldada saadetist alles järgmisel tööpäeval. Määrake tellimuse sisestamise tähtajad oma laovõimsuste ja kättetoimetaja graafikute järgi.  
 
 Lehel **Tellimuse sisestamise tähtajad** saate määrata tellimuse sisestamise kellaajad kõigi nädalapäevade kohta. Pärast määratud kellaaegu vastu võetud tellimusi käsitletakse nii, nagu need oleksid vastu võetud järgmisel päeval. Vaikimisi on seadistatud aeg 23.59 (s.o üks minut enne vastava päeva keskööd). Saate muuta vaikimisi aegu nii, et need ühtiksid tegelike lähetus- või vastuvõtutähtaegadega.  
 
@@ -43,7 +46,7 @@ Kui teie ettevõte koosneb mitmest tegevuskohast, saate seadistada tellimuse sis
 Lehel **Aktiveeri tellimuse sisestamise tähtajakombinatsioonid** määratlege tegevuskohtade kombinatsioonid ja lubatud tellimuse sisestamise tähtajagrupid.
 
 ## <a name="example-order-entry-deadline"></a>Näide. Tellimuse sisestamise tähtaeg
-Tellimuse sisestamise tähtaeg teisipäeviti on kell 16.00. Konkreetsel teisipäeval kell 17.00 proovite määrata lähetuskuupäevana tänase kuupäeva. (Pange tähele, et ei ole aega seda näiteks.) Kui on **Tarnekuupäeva kontrolli** ruut on märgitud, kuvatakse hoiatus, mis teatab, et kuupäev ei sobi. Hoiatus kuvatakse lehel **Saadaolevad lähetus- ja vastuvõtukuupäevad**, kus saate valida uued kuupäevad.
+Tellimuse sisestamise tähtaeg teisipäeviti on kell 16.00. Konkreetsel teisipäeval kell 17.00 proovite määrata lähetuskuupäevana tänase kuupäeva. (Võtke arvesse, et selles näites pole täitmisaega.) Kui ruut **Tarnekuupäeva kontrolli** on märgitud, kuvatakse hoiatus, et kuupäev on kehtetu. Hoiatus kuvatakse lehel **Saadaolevad lähetus- ja vastuvõtukuupäevad**, kus saate valida uued kuupäevad.
 
 ## <a name="example-different-order-entry-deadlines-per-site"></a>Näide. Erinevad tellimuse sisestamise tähtajad tegevuskohtade puhul
 Teie ettevõte koosneb kahest saidist. Tegevuskohad paiknevad erinevates ajavööndites, nagu on näidatud järgmises tabelis.
@@ -55,7 +58,7 @@ Teie ettevõte koosneb kahest saidist. Tegevuskohad paiknevad erinevates ajavö�
 
 Tegevuskohtadele A ja B on määratletud järgmised tellimuse sisestamise tähtajad.
 
-| Nädalapäev             | Re: mõista kandmise tähtajad (PST) | B: tellida kandmise tähtajad (EST) |
+| Nädalapäev             | A: tellimuse sisestamise tähtajad (Lääneranniku aeg) | B: tellimuse sisestamise tähtajad (Idaranniku aeg) |
 |-----------------------------|--------------------------------|--------------------------------|
 | Esmaspäev                      | 13.00                          | 14.00                          |
 | teisipäev                     | 13.00                          | 14.00                          |
@@ -67,7 +70,7 @@ Teie olete tellimuste töötleja Utah’s, kus ajavööndiks on mäestikupiirkon
 
 Järgmine tabel näitab, kuidas on tellimuse sisestamise tähtajad tegevuskohtadele A ja B teisendatud mäestikupiirkonna ajale.
 
-| Saidi A: PST         | Saidi A: MST        | Saidi B: EST           | Saidi B: MST        |
+| Laoala A: lääneranniku aeg         | Laoala A: mäestikupiirkonna aeg        | Laoala B: idaranniku aeg           | Laoala B: mäesikupiirkonna aeg        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13.00               | 14.00              | 14.00                 | 12.00              |
 
@@ -95,7 +98,7 @@ Teie olete tellimuste töötleja Utah’s, kus ajavööndiks on mäestikupiirkon
 
 Järgmine tabel näitab, kuidas on tellimuse sisestamise tähtajad tegevuskohtadele A ja B teisendatud mäestikupiirkonna ajale.
 
-| Saidi A: PST         | Saidi A: MST        | Saidi B: EST           | Saidi B: MST        |
+| Laoala A: lääneranniku aeg         | Laoala A: mäestikupiirkonna aeg        | Laoala B: idaranniku aeg           | Laoala B: mäestikupiirkonna aeg        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13.00               | 14.00              | 13.00                 | 11.00              |
 
@@ -104,6 +107,8 @@ Järgmine tabel näitab, kuidas on tellimuse sisestamise tähtajad tegevuskohtad
 <a name="see-also"></a>Vt ka
 --------
 
-[Delivery schedules](delivery-schedules.md)
+[Tarnegraafikud](delivery-schedules.md)
+
+
 
 

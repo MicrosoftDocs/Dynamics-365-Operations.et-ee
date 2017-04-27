@@ -1,5 +1,5 @@
 ---
-title: Mittevastavuse juhtimine
+title: Mittevastavuste haldamine
 description: "Selles artiklis kirjeldatakse põhiseadistust, mis on mittevastavuste kasutamiseks nõutav. Täiendav seadistus on nõutav, kui soovite kasutada kvaliteettellimusi."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nonconformance-management"></a>Mittevastavuse juhtimine
+# <a name="nonconformance-management"></a>Mittevastavuste haldamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse põhiseadistust, mis on mittevastavuste kasutamiseks nõutav. Täiendav seadistus on nõutav, kui soovite kasutada kvaliteettellimusi. 
 
@@ -34,7 +37,7 @@ Mittevastavuse haldamise võimaldamiseks tehke järgmist.
 1.  Määratlege mittevastavustega seotud varude ja laohalduse parameetrid.
     -   Määrake suvandi **Kasuta kvaliteedijuhtimist** sätteks **Jah**.
     -   Sisestage väljale **Tunnimäär** tunnitasu kohalikus valuutas. Tunnimäära kasutatakse mittevastavusega seotud toimingute kulude arvutamiseks. Tunnimäär ja arvutatud kulud annavad viiteteavet mittevastavuse kohta. Need ei mõjuta teisi funktsioone.
-    -   Kasutamine ning **juhtimine** tabeldusklahviga ning **seadistus** lehe printimiseks dokumendi tüübi määratlemiseks. Saate printida aruande mittevastavuse, mittevastavused sildi või paranduste aruandena. Saate määrata mitu kirjet erinevate dokumenditüüpide printimiseks aruandele või sise- või välismärkuste printimiseks. Kasulik võib olla kasutada lehte **Dokumendi tüüp**, et määrata mittevastavustele ja parandustele kordumatu dokumenditüüp. Näiteks soovite sisestada märkusi mittevastavuse kohta mittevastavuste kordumatu dokumenditüübi abil. Sellisel juhul tuvastage kordumatu dokumenditüüp aruandevalikutes.
+    -   Kasutage prinditava dokumendi tüübi määratlemiseks vahekaarti **Kvaliteedijuhtimine** lehel **Aruande seadistus**. Saate printida mittevastavuse aruannet, mittevastavuse märgist või parandusaruannet. Saate määrata mitu kirjet erinevate dokumenditüüpide printimiseks aruandele või sise- või välismärkuste printimiseks. Kasulik võib olla kasutada lehte **Dokumendi tüüp**, et määrata mittevastavustele ja parandustele kordumatu dokumenditüüp. Näiteks soovite sisestada märkusi mittevastavuse kohta mittevastavuste kordumatu dokumenditüübi abil. Sellisel juhul tuvastage kordumatu dokumenditüüp aruandevalikutes.
     -   Lubage mittevastavuse ja paranduse viidete numbriseeriad.
 
 2.  Lubage kasutajapoolne mittevastavuste kinnitamine. Kasutage välja **Nimi** lehel **Kasutajad** töötaja määramiseks igale kasutajale, kes peab mittevastavuse kinnitama. Süsteem kasutab mittevastavuse ajaloo jälgimiseks töötajaid, kes mittevastavuse olekut muudavad. Kasutajad ei saa mittevastavust kinnitada, kui neile pole töötaja ID-d määratud.
@@ -47,10 +50,12 @@ Mittevastavuse haldamise võimaldamiseks tehke järgmist.
 <a name="see-also"></a>Vt ka
 --------
 
-[Luua ja töödelda mitte vastavuse (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Mittevastavuse loomine ja töötlemine (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 
-[Luua eeldused-vastavuse haldamine (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Eeltingimuste seadistamine mittevastavuse halduseks (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

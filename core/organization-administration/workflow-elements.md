@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-elements"></a>Töövoo elemendid
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse mitmesuguseid elemente, millest töövoog koosneb.
 
 Töövoog koosneb elementidest. Järgmised jaotised kirjeldavad iga elemenditüüpi.
@@ -55,14 +58,14 @@ Töövoog koosneb elementidest. Järgmised jaotised kirjeldavad iga elemenditü�
 -   Taotlege dokumendi muutmist.
 -   Määrake dokument teisele kasutajale kinnitamiseks.
 
-## <a name="lineitem-workflow-elements"></a>Lineitem töövoo elemendid
-Töövoo saab luua kas dokumentide või dokumendi reakaupade töötlemiseks. Näiteks olete loonud kinnitustöövoo ajatabelite jaoks. (Me suunab selle töövoo selle *dokumendi töövoo*.) Saate lisada ka *reaüksuse töövoo* elemendi dokumendi töövoo. Rea kauba elemendi käitamisel esitatakse dokumendi iga reakaup töötlemiseks. Võite lasta kõiki rea kaupu töödelda sama rea kauba töövooga või lasta iga reakaupa töödelda eraldi rea kauba töövooga. Oletagem, et töötaja on esitanud ajatabeli, mis sarnaneb järgmisel joonisel toodule. ![Töövoog rea kaupadega](./media/workflow_lineitemworkflow.gif) Selles stsenaariumis võite luua järgmised rea kauba töövood.
+## <a name="lineitem-workflow-elements"></a>Lineitemi töövoo elemendid
+Töövoo saab luua kas dokumentide või dokumendi reakaupade töötlemiseks. Näiteks olete loonud kinnitustöövoo ajatabelite jaoks. (Viitame sellele töövoole kui *dokumenditöövoole*.) Saate sellele dokumendi töövoo elemendile lisada *rea kauba töövoo*. Rea kauba elemendi käitamisel esitatakse dokumendi iga reakaup töötlemiseks. Võite lasta kõiki rea kaupu töödelda sama rea kauba töövooga või lasta iga reakaupa töödelda eraldi rea kauba töövooga. Oletagem, et töötaja on esitanud ajatabeli, mis sarnaneb järgmisel joonisel toodule. ![Töövoog rea kaupadega](./media/workflow_lineitemworkflow.gif) Selles stsenaariumis võite luua järgmised rea kauba töövood.
 
 -   **Rea kauba töövoog 1** – seda töövoogu kasutatakse rea kaupade töötlemiseks, kui projekti ID on 1111.
 -   **Rea kauba töövoog 2** – seda töövoogu kasutatakse rea kaupade töötlemiseks, kui projekti ID on 2222.
 -   **Rea kauba töövoog 3** – seda töövoogu kasutatakse rea kaupade töötlemiseks, kui projekti ID on 3333.
 
-## <a name="flowcontrol-elements"></a>Flowcontrol elemendid
+## <a name="flowcontrol-elements"></a>Voo juhtelemendid
 Järgmised elemendid võimaldavad teil kujundada töövood, mis on alternatiivsed harud või samal ajal töötavad harud.
 
 ### <a name="manual-decision"></a>Käsitsi otsus
@@ -80,5 +83,7 @@ Järgmised elemendid võimaldavad teil kujundada töövood, mis on alternatiivse
 ### <a name="subworkflow"></a>Alamtöövoog
 
 *Alamtöövoog* on teise töövoo kontekstis käitatav töövoog.
+
+
 
 

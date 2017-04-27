@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama. 
 
 Kauba jälgimise funktsioon on saadaval lehel **Kauba jälgimine**. Järgmised jaotised kirjeldavad, kuidas kauba jälgimist saab kasutada ja millised on valikud ning piirangud.
@@ -97,7 +100,7 @@ Jälgimise tulemused kuvatakse lehe **Kauba jälgimine** kiirkaardi **Üksikasja
 Jälgimise üksikasjades teabe koguse vähendamiseks sisaldab üksikasju ainult kauba või toormaterjali esimese eksemplari sõlm. Kui valitud sõlm üksikasju ei sisalda, saate vaadata üksikasju sisaldavat sõlme, klõpsates suvandit **Mine jälgitavale reale**. Sõlme juurde saate seejärel naasta, klõpsates suvandit **Mine tagasi**.
 
 ## <a name="can-i-view-only-a-particular-type-of-document-for-example-can-i-view-only-production-orders-customers-or-vendors"></a>Kas saan vaadata ainult kindlat tüüpi dokumenti? Näiteks kas saan vaadata ainult tootmistellimusi, kliente või hankijaid?
-Jah, jälgimise üksikasjadest saate avada loendilehed, mis sisaldavad ainult teatud tüüpi dokumenti või kannet. Pääsete nende lehtede juurde tegumiriba menüü-üksusest **Jälgimine** gruppides **Kaup**, **Müük**, **Ost**, **Tootmine** ja **Kvaliteet**. Näiteks jälgi üksikasjad hankijate loendi kuvamiseks klõpsake **jälgimise**&gt;**ostmine**&gt;**müüjad**. Loendilehed võtavad kokku jälgimise üksikasjade dokumendid või kanded. Loendilehtedel **Ootel kanded**, **Ootel tellimused** ja **Saatmata müügitellimused** kuvatakse ka muu jälgimise üksikasjadesse kaasamata teave. Lisaks kuvavad need alati käesoleva kuupäeva tulemused, isegi kui kuupäevavahemik on määratud. Järgmises tabelis kirjeldatakse täiendavaid üksikasju, mida need lehed sisaldada võivad.
+Jah, jälgimise üksikasjadest saate avada loendilehed, mis sisaldavad ainult teatud tüüpi dokumenti või kannet. Pääsete nende lehtede juurde tegumiriba menüü-üksusest **Jälgimine** gruppides **Kaup**, **Müük**, **Ost**, **Tootmine** ja **Kvaliteet**. Näiteks jälgimise üksikasjades hankijate loendi vaatamiseks klõpsake valikuid **Jälgimine** &gt; **Ost** &gt; **Hankijad**. Loendilehed võtavad kokku jälgimise üksikasjade dokumendid või kanded. Loendilehtedel **Ootel kanded**, **Ootel tellimused** ja **Saatmata müügitellimused** kuvatakse ka muu jälgimise üksikasjadesse kaasamata teave. Lisaks kuvavad need alati käesoleva kuupäeva tulemused, isegi kui kuupäevavahemik on määratud. Järgmises tabelis kirjeldatakse täiendavaid üksikasju, mida need lehed sisaldada võivad.
 
 | Loendid                    | Kirjeldus                                                                                                                                                                                                                                                                                                                   |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -125,7 +128,7 @@ Kui olete jälgimise käivitanud, saate kasutada nupu **Jälgi sõlmest** valiku
 Kui soovite kasutada valikut **Uus tagasiulatuvalt** või **Uus edasiulatuvalt**, tuleb kasutada funktsiooni **Ava uues aknas**, et uus jälgimine kuvataks uues aknas.
 
 ## <a name="can-i-save-the-trace-details"></a>Kas saan jälgimise üksikasjad salvestada?
-Saate salvestada teavet selle **üksikasjad** XML-failina klõpsake vahekaarti **eksportida** allpool on *** tegevuse jälgimise *** Updatehagi paani. Lisaks jälgimise üksikasjadele sisaldab XML-fail ka jälgimise kriteeriume, emasõlme ja laos olevat kogust. Jälgimise üksikasjade salvestamise võimalus on kasulik näiteks juhul, kui soovite manustada teavet kvaliteettellimusele või muule vastavusdokumentatsioonile. Saate määrata faili salvestamiskoha. Faili kohe vaatamiseks märkige ruut **Kuva dokument**. **Märkus:** fail salvestatakse alati, isegi siis, kui soovite seda ainult vaadata. Vaikimisi avaneb XML-fail brauseriaknas. Kuid võite faili paremklõpsata, valida **Ava programmiga** ja valida seejärel sisu kuvamiseks kasutatav programm.
+Saate salvestada vahekaardil **Üksikasjad** oleva teabe XML-failina, klõpsates tegumiribal tegevuse ****Jälgimine**** all olevat käsku **Ekspordi**. Lisaks jälgimise üksikasjadele sisaldab XML-fail ka jälgimise kriteeriume, emasõlme ja laos olevat kogust. Jälgimise üksikasjade salvestamise võimalus on kasulik näiteks juhul, kui soovite manustada teavet kvaliteettellimusele või muule vastavusdokumentatsioonile. Saate määrata faili salvestamiskoha. Faili kohe vaatamiseks märkige ruut **Kuva dokument**. **Märkus:** fail salvestatakse alati, isegi siis, kui soovite seda ainult vaadata. Vaikimisi avaneb XML-fail brauseriaknas. Kuid võite faili paremklõpsata, valida **Ava programmiga** ja valida seejärel sisu kuvamiseks kasutatav programm.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Kas saan arvutada konkreetse kauba või koostisosa saldo?
 Saate eksportida teabe kokkuvõttelehtedelt Microsoft Excelisse. Avage vastav leht, klõpsake ikooni **Ava Microsoft Office’is** ja valige siis **Ekspordi Microsoft Excelisse**. See funktsioon on eriti kasulik, kui soovite arvutada kauba või koostisosa hulgisaldo lehelt **Kannete kokkuvõte**. Lehel **Kannete kokkuvõte** saate soovi korral filtreerida kaupu või koostisosi ja partiid ning seejärel eksportida teabe Excelisse. Excelis saate näiteks laos oleva koguse müüdud kogusest ja tootmises kasutatud kogusest eraldada.
@@ -136,7 +139,9 @@ Jälgimise üksikasjad sisaldavad teavet kaupa või toormaterjali hõlmavate kva
 ## <a name="are-there-any-reporting-capabilities-that-are-related-to-item-tracing"></a>Kas kauba jälgimisega on seotud mõni aruandlusvõimalus?
 Saate luua aruande **Klientidele saadetud**, et tuvastada tarnitud kauba või toormaterjali kogus ja kliendid, kellele kaup tarniti. Vastavusega seotud päringu puhul saate koostada aruande kõikide klientide kohta. Klienditeenindusega seotud päringu puhul saate koostada aruande valitud kliendi kohta. Kui toode oli valmiskauba tootmisel kasutatud toormaterjal, lisatakse ka valmiskaup. **Märkus:** kui kasutate funktsioone müügitellimuste kustutamiseks või arhiveerimiseks, sisaldavad aruande tulemused ka kõiki kustutatud või arhiveeritud müügitellimusi.
 
-## <a name="can-i-trace-coproducts-and-byproducts"></a>Ma jälgida coproducts ja kõrvalsaadused?
+## <a name="can-i-trace-coproducts-and-byproducts"></a>Kas ma saan jälgida kaastooteid ja kõrvalsaaduseid?
 Saate jälgida kaastooteid, kuid te ei saa jälgida kõrvalsaadusi, sest tavaliselt ei ole kõrvalsaadustele määratud jälgimisdimensioone. Kaupa jälgides lisatakse jälgimise üksikasjadele kõik seotud kaastooted. Kaastoodet sisaldava sõlme üksikasjadesse on lisatud sõna „kaastoode”. Saate vaadata ka kaastoote üksikasju, valides jälgimise üksikasjades sõlme ja klõpsates siis kiirkaarti **Tootmine**.
+
+
 
 

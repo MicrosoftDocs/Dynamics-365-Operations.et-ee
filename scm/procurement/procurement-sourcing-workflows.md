@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-workflows"></a>Hangete töövood
 
+[!include[banner](../includes/banner.md)]
+
+
 Mõned organisatsioonid nõuavad, et ostutaotlused ja ostutellimused kinnitaks muu kasutaja kui see, kes kande sisestas. Kinnitamisprotsessi seadistamiseks saate luua töövoo.
 
 Töövoog esindab äriprotsessi. Töövoog määrab, kuidas dokument voogab läbi süsteemi, näidates, kes peab seda töötlema ja kinnitama. Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
 -   **Järjepidevad protsessid** — töövoo süsteem lubab teil määratleda kinnitusprotsessi kindlatele dokumentidele nagu näiteks ostutaotlused ja kuluaruanded. Töövoo süsteemi abil tagate, et dokumente töödeldakse ja kinnitatakse järjekindlal ja tõhusal viisil.
 -   **Protsessi nähtavus** — töövoo süsteem lubab teil jälgida kindla töövoo eksemplari olekut ja ajalugu. See aitab teil määratleda, kas töövoos tuleks muudatusi tõhususe parandamiseks.
--   **Tsentraliseeritud tööde nimekiri**— kasutajad saate vaadata, tsentraliseeritud töö töövooülesanded ja kinnituste osalevad kõik töövood kogu neile määratud. See on töö kaubad lehel saadaval.
+-   **Tööde koondloend** – kasutajad saavad vaadata tööde koondloendit, et näha neile määratud töövoo ülesandeid ja kinnitusi kõigis töövoogudes, milles nad osalevad. See on saadaval lehel Tööüksused.
 
 ## <a name="the-types-of-workflows-that-you-can-create"></a> Loodavate töövoogude tüübid
 Jaotises Hanked on saadaval järgmised töövootüübid.
@@ -46,7 +49,7 @@ Jaotises Hanked on saadaval järgmised töövootüübid.
 | Ostutellimuse rea töövoog     | Saate luua ülevaatuse ja kinnitamise töövoogusid ostutellimuse ridade jaoks. |
 
 ## <a name="creating-a-workflow"></a>Töövoo loomine
-Töövoo loomiseks Mine hangete ja mis hangivad &gt;Setup &gt;hankimise ja töövoogude hankimisel ja luua uue töövoo valides töövoo loomiseks.  
+Töövoo loomiseks minge jaotisse Hanked &gt; Seadistus &gt; Hangete töövood ja looge uus töövoog, valides loodava töövoo tüübi.  
 
 Töövoo lõuendil saate lohistada töövoo elemendid kujundajasse ja linkida need voogu. Töövoo elemendid peavad olema konfigureeritud. Kinnitus- ja ülesandetöövoo elementide puhul saate konfigureerida, milline osaleja peaks tegutsema.
 Osalejate tüübid
@@ -69,6 +72,8 @@ Saate määrata kinnitamisetapi järgmistele osalejate gruppidele.
 
 [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Ostutaotluse töövoog](purchase-requisitions-workflow.md)
+
+
 
 

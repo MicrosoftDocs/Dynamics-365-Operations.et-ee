@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-accounts-receivable"></a>Müügireskontro sulgemine
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Järgmises tabelis loetletakse lehed, mis toetavad müügireskontro sulgemise äriprotsessi.
 
 > [!NOTE] 
-> Avada mõnda lehekülge tabelis, peate sisestama teabe või parameetri sätete määramiseks.
+> Mõne lehe tabelis avamiseks peate määrama teabe või parameetri sätted.
 
-**Business protsessi osa ülesanne**                   
+**Äriprotsessi komponendi ülesanne**                   
 
 Sulgege pearaamatu perioodid
 
@@ -43,21 +46,23 @@ Sulgege pearaamatu perioodid
 |Müügitellimuse kinnitamine                   | Uuendage müügitellimusi.                                                                       |
 |Välisvaluuta ümberarvutamine          | Looge kanded, mis uuendavad avatud kliendikannete väärtust välisvaluutades.                                                                                                                         |
 | Tööleht                              | Sisestage arved, maksed ja võlatähed.                                             |
-| Töölehe kanne                      | -   **Payment journal** – Generate, process, and post payments.
+| Töölehe kanne                      | -   **Maksete tööleht** – saate makseid luua, töödelda ja sisestada.
                                          -   **Draw bill of exchange journal** – Post bills of exchange.
                                          -   **Protest bill of exchange journal** – Post protested bills of exchange.
                                          -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
                                          -   **Remittance journal** – Post remittances.
                                          -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Saatelehe sisestamine pakkimine | Saatelehtede müügitellimuste jaoks.                                                     | | Sisesta vabas vormis arve | Vabas vormis arvete sisestamine.                                                                   | | Arve sisestamist | Müügitellimuste arvete sisestamine.                                                            | | Komplekteerimisloendi sisestamine | Müügitellimuste komplekteerimislehtede uuendamine.                                                      |
+| Saatelehe sisestamine                 | saate värskendada müügitellimuste saatelehti.                                                     | | Vabas vormis arve sisestamine               | saate sisestada vabas vormis arveid.                                                                   | | Arve sisestamine                      | saate sisestada müügitellimuste arveid.                                                            | | Komplekteerimislehe sisestamine                 |müügitellimuste komplekteerimislehtede värskendamine                                                      |
 
-**Business protsessi osa ülesanne**   
+**Äriprotsessi komponendi ülesanne**   
 
 ELi käibearuande koostamine ja edastamine
 
 | Lehe nimi                            | Kasutus                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |EL käibearuanne                         | Euroopa Liidu (EL) käibemaksuaruanne maksuametile käibemaksudeklaratsiooni jaoks.                                                                                                                           |
+
+
 
 
 

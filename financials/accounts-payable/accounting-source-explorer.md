@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-source-explorer"></a>Arveldusallika uurija
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet arveldusallika uurija kohta, mida saate kasutada pearaamatu raamatupidamiskannete taga oleva allikateabe üksikasjalikuks analüüsiks.
 
-Arvestusallika uurija on uus leht, millel kuvatakse allika teave. Kasutage raamatupidamise allikas explorer kas nii iseseisva vahendina või analüüsida üksikasju taga PR raamatupidamise kanded. Näiteks saate raamatupidamise allikas explorer saada üksikasjalikum allikateabe tasakaal rada tasakaalus või tehingukande kande. Seejärel võite kasutada funktsiooni Ekspordi Microsoft Excelisse teabe edasiseks tükeldamiseks ja jagamiseks Microsoft Excelis (nt liigendtabelis või liigendtabeli aruandes).
+Arvestusallika uurija on uus leht, millel kuvatakse allika teave. Arvestusallika uurijat saab kasutada eraldiseisva tööriistana või pearaamatu arvestuskirjete taga olevate üksikasjade analüüsimiseks. Näiteks võite kasutada arvestusallika uurijat selleks, et saada kõige üksikasjalikumat allika teavet saldo kohta jaotises Jälje saldo või tehingukande puhul. Seejärel võite kasutada funktsiooni Ekspordi Microsoft Excelisse teabe edasiseks tükeldamiseks ja jagamiseks Microsoft Excelis (nt liigendtabelis või liigendtabeli aruandes).
 
 Arvestusallika uurija kuvab alati sama koondsumma pearaamatukonto kohta, mida näitab pearaamat (nt proovibilansis). Sarnaselt proovibilansile saate kuvada segmendid eraldi veergudes. Valige lihtsalt sobiv finantsdimensioonide kogum. 
 
 Parameetrite abil saate määratleda analüüsi kuupäevavahemiku. See funktsioon sarnaneb samuti proovibilansi funktsioonile.
 
-Kõik dokumendid, mis kasutavad allikas dokumendi raames, raamatupidamise allikas explorer näitab lisateabe saamiseks vastavalt raamatupidamise distributsioonid ja vajadusel projekti raamatupidamine väljamakseid. See teave sisaldab rahasumma tüüp projekti tegevus, kategooriat ja rea atribuut. Siin on mõned näited analüüsimise kohta, mida saab teha.
+Kõigi dokumentide puhul, mis kasutavad lähtedokumendi raamistikku, näitab arvestusallika uurija lisateavet arvestuse jaotuste ja kohaldatavusel ka projekti arvestuse jaotuste alusel. See teave hõlmab rahasumma tüüpi, projekti, tegevust, kategooriat ja rea atribuute. Siin on mõned näited analüüsimise kohta, mida saab teha.
 
 -   Ostutellimuste ja hankija arvete vahelised erinevused, kuna iga erinevus kajastatakse rahasumma tüübiga (nt hinnavahe).
 -   Arveldatavad tunnid võrreldes arveldamatute tundide ja kuludega projekti, äriüksuse ja põhikonto kohta.
@@ -46,5 +49,7 @@ Lähtedokumentide puhul, mis kasutavad lähtedokumendi viite ID-de kontseptsioon
 -   Allahindlused hankija, toote, osakonna kohta
 
 Nende dokumentide puhul saate minna arvestusallika uurijast ka tegeliku lähtedokumendi juurde.
+
+
 
 

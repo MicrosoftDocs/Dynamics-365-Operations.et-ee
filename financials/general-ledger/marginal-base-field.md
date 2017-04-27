@@ -1,5 +1,5 @@
 ---
-title: "Käibemaksumäärad marginaali alus ja arvutusmeetodid"
+title: "Käibemaksumäärad väljade Marginaali alus ja Arvutusmeetod põhjal"
 description: "Selles artiklis selgitatakse, kuidas väljade Marginaali alus ja Arvutamismeetod väärtused määravad müügi- ja ostukannete maksumäära(d)."
 author: twheeloc
 manager: AnnBe
@@ -26,13 +26,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Käibemaksumäärad marginaali alus ja arvutusmeetodid
+# <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Käibemaksumäärad väljade Marginaali alus ja Arvutusmeetod põhjal
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis selgitatakse, kuidas väljade Marginaali alus ja Arvutamismeetod väärtused määravad müügi- ja ostukannete maksumäära(d).
 
 Lehe Käibemaksukoodid kiirkaardil Arvutus olev väli Marginaali alus määrab, millist summat kasutatakse sobiva(te) maksumäära(de) valimiseks lehel Käibemaksukoodi väärtused olevate määrade hulgast. Väljal Marginaali alus olev summa tüüp koos meetodiga väljal Arvutusmeetod määrab kandele õige(te) maksumäära(de) leidmise loogika. 
 
-Erinevad väärtuste kombinatsioonid nendel väljadel annavad tulemuseks väga erinevad käibemaksu kalkulatsioonid, nagu näha järgmistes näidetes. Näidetes kasutatakse samu maksu intervallväärtusi, mis on seadistatud iga maksukoodi jaoks lehel Käibemaksukoodide väärtused. Selle lehe avamiseks klõpsake käibemaksukoodi &gt;väärtused käibemaksu koodide lehel.
+Erinevad väärtuste kombinatsioonid nendel väljadel annavad tulemuseks väga erinevad käibemaksu kalkulatsioonid, nagu näha järgmistes näidetes. Näidetes kasutatakse samu maksu intervallväärtusi, mis on seadistatud iga maksukoodi jaoks lehel Käibemaksukoodide väärtused. Selle lehe avamiseks klõpsake lehel Käibemaksukoodid valikuid Käibemaksukood &gt; Väärtused.
 
 > [!Important]                                                                                                                  
 > Kui Marginaali alus või mõni käibemaksukood põhineb reasummadel või ühikutel, tuleb lehel Pearaamatu parameetrid määrata välja Arvutusmeetod väärtuseks Rida. |
@@ -55,7 +58,7 @@ Käibemaksumäärad seadistatakse järgmiste intervallidega.
 
 Marginaali alus: **Netosumma rea kohta** 
 
-Arvutamise meetod: **intervalli** 
+Arvutamismeetod: **Intervall** 
 
 Ostate 8 lampi, mis maksavad 25.00 eurot tükk. 
 
@@ -63,21 +66,21 @@ Arve rea netosumma on 200.00 eurot.
 
 Käibemaks arvutatakse järgmiselt: 
 
-Kokku käibemaks = 50 x 30% + 20% x 50 + 100 x 10% = 15 + 10 + 10 = 35,00 
+Käibemaksu kogusumma = 50 × 30% + 50 × 20% + 100 × 10% = 15 + 10 + 10 = 35.00. 
 
-Arve kogusumma = 200,00 + 35,00 = 235.00 
+Arve kogusumma = 200.00 + 35.00 = 235.00. 
 
-**Variation** 
+**Kõikumine** 
 
-Kui arve on igal real kaks rida koos neli punkti, iga rea netosumma on 100.00 ja käibemaks arvutatakse järgmiselt: 
+Kui arvel on kaks rida, millest igal real on neli kaupa, on iga rea netosumma 100.00 ja käibemaks arvutatakse järgmiselt. 
 
-Käibemaksu rida 1 = 50 x 30% + 50 x 20% = 15 + 10 = 25,00 
+Käibemaksu rida 1 = 50 × 30% + 50 × 20% = 15 + 10 = 25.00 
 
-Käibemaksu rida 2 = 50 x 30% + 50 x 20% = 15 + 10 = 25,00 
+Käibemaksu rida 2 = 50 × 30% + 50 × 20% = 15 + 10 = 25.00. 
 
-Kokku käibemaks = 25,00 + 25,00 = 50,00 
+Käibemaks kokku = 25.00 + 25.00 = 50.00 
 
-Arve kogusumma = 200,00 + 50.00 = 250,00
+Arve kogusumma = 200.00 + 50.00 = 250.00
 
 ## <a name="net-amount-per-unit"></a> Netosumma ühiku kohta
 Tehke see valik käibemaksumäärade määramiseks iga ühiku väärtuse alusel, jättes muud maksud välja. Kui on valitud ühikupõhine marginaali alus, tuleb käibemaksukoodile määrata ka ühik.
@@ -92,9 +95,9 @@ Käibemaksumäärad seadistatakse järgmiste intervallidega.
 | 50 – 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Marginaali alus: **netosumma ühiku kohta** 
+Marginaali alus: **Netosumma ühiku kohta** 
 
-Arvutamise meetod: **kogu summa** 
+Arvutamismeetod = **terve summa** 
 
 Ostate 8 lampi, mis maksavad 25.00 eurot tükk. 
 
@@ -116,9 +119,9 @@ Käibemaksumäärad seadistatakse järgmiste intervallidega.
 | 50 – 100          | 20%      |
 | 100 -0 (&gt; 100) | 10%      |
 
-Marginaali alus: **sisaldab arve saldo** 
+Marginaali alus: **arve saldo netosumma** 
 
-Arvutamise meetod: **intervalli** müügiarve on 2 rida 4 laternatega iga ridade 25,00 iga. Arve saldo netosumma on 4 x 25.00 + 4 x 25.00 = 200.00. Käibemaks arvutatakse järgmiselt: käibemaksu koondsumma = 50 x 0.30 + 50 x 0.20 + 100 x 0.10 = 15 + 10 + 10 = 35.00 Arve koondsumma = 200.00 + 35.00 = 235.00
+Arvutamismeetod: **intervall** Müügiarvel on 2 rida, millest igal real on 4 lampi hinnaga 25.00. Arve saldo netosumma on 4 x 25.00 + 4 x 25.00 = 200.00. Käibemaks arvutatakse järgmiselt: käibemaksu koondsumma = 50 x 0.30 + 50 x 0.20 + 100 x 0.10 = 15 + 10 + 10 = 35.00 Arve koondsumma = 200.00 + 35.00 = 235.00
 
 ## <a name="gross-amount-per-line"></a> Brutosumma rea kohta
 
@@ -137,11 +140,11 @@ Käibemaksumäärad seadistatakse järgmiste intervallidega.
 | 50 – 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Marginaali alus: **brutosumma rea kohta** Arvutusmeetod: **intervall** Lisaks on veel üks maksukood, millega arvutatakse erilõiv 5.00 iga lambi kohta. Lõiv lisatakse netosummale enne käibemaksu arvutamist. Ostate 8 lampi, mis maksavad 25.00 eurot tükk. Arve rea netosumma on 200.00 eurot. Arverea brutosumma on 8 x 25.00 + 8 x 5.00 = 240.00 eurot. Maks arvutatakse järgmiselt: kokku käibemaks = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 20 + 14 = 39.00 kokku tollimaksu = 5,00 x 8 = 40,00 arve kogusumma = 200,00 + 39,00 + 40.00 = 279.00
+Marginaali alus: **brutosumma rea kohta** Arvutusmeetod: **intervall** Lisaks on veel üks maksukood, millega arvutatakse erilõiv 5.00 iga lambi kohta. Lõiv lisatakse netosummale enne käibemaksu arvutamist. Ostate 8 lampi, mis maksavad 25.00 eurot tükk. Arve rea netosumma on 200.00 eurot. Arverea brutosumma on 8 x 25.00 + 8 x 5.00 = 240.00 eurot. Käibemaks arvutatakse järgmiselt: käibemaksu koondsumma = 50 x 0.30 + 50 x 0.20 + 140 x 0.10 = 15 + 20 + 14 = 39.00 Lõiv kokku = 5.00 x 8 = 40.00 Arve summa kokku = 200.00 + 39.00 + 40.00 = 279.00
 
-**Variation** 
+**Kõikumine** 
 
-Kui arve loomiseks kasutatakse 4 üksustega igal real 2 arve rida, arve rea kohta netosumma on 100.00. Brutosumma (sh lõiv 4 x 5.00) arve rea kohta oleks 120.00 ja käibemaks luuakse järgmiselt 1 = 50 x 0.30 + 50 x 0.20 + 20 x 0.10 = 15 + 10 + 2 = 27.00 Käibemaksuarve rida 2 = 50 x 0.30 + 50 x 0.20 + 20 x 0.10 = 15 + 10 + 2 = 27.00 Käibemaks kokku = 27.00 + 27.00 = 54.00 Lõiv kokku = 5.00 x 8 = 40.00 Arve summa kokku = 200.00 + 54.00 + 40.00 = 294.00
+Kui arve koostatakse 2 arvereaga, millest igal real on 4 kaupa, on netosumma arve rea kohta 100.00. Brutosumma (sh lõiv 4 x 5.00) arve rea kohta oleks 120.00 ja käibemaks luuakse järgmiselt 1 = 50 x 0.30 + 50 x 0.20 + 20 x 0.10 = 15 + 10 + 2 = 27.00 Käibemaksuarve rida 2 = 50 x 0.30 + 50 x 0.20 + 20 x 0.10 = 15 + 10 + 2 = 27.00 Käibemaks kokku = 27.00 + 27.00 = 54.00 Lõiv kokku = 5.00 x 8 = 40.00 Arve summa kokku = 200.00 + 54.00 + 40.00 = 294.00
 
 ## <a name="gross-amount-per-unit"></a> Brutosumma ühiku kohta
 
@@ -166,7 +169,7 @@ Marginaali alus: **ühiku brutosumma** Iga lambi kohta kehtib erilõiv 5.00. Lõ
 
 Tehke see valik käibemaksumäärade arvutamiseks arve koondväärtuse alusel, kaasates kõik muud maksud.
 > [!NOTE]
-> Käibemaksugrupis, võib olla ainult ühe käibemaksukoodi see valik marginaalne baasi valdkonnas
+> Käibemaksugrupis saab teil selle valiku puhul olla ainult üks käibemaksukood väljal Marginaali alus
 
 ### <a name="example"></a>Näide
 
@@ -178,9 +181,11 @@ Käibemaksumäärad seadistatakse järgmiste intervallidega.
 | 50 – 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Marginaali alus: **arve kokku, sh muud käibemaksusummad** arvutamise meetod: **intervalli**   
-On erilise tollimaksuna 5.00 iga laterna kohta. Lõiv lisatakse netosummale enne käibemaksu arvutamist. Ostate 8 lampi, mis maksavad 25.00 eurot tükk. Arve netosumma on 200.00 eurot. Arve brutosumma on 200.00 + (8 x 5.00) = 240.00. Käibemaks arvutatakse järgmiselt: käibemaksu koondsumma = 50 x 0.30 + 50 x 0.20 + 140 x 0.10 = 15 + 10 + 14 = 39.00 Lõiv kokku = 5.00 x 8 = 40.00 Arve summa kokku = 200.00 + 39.00 + 40.00 = 279.00
+Marginaali alus: **arve koondsumma, sh muud käibemaksusummad** Arvutusmeetod: **intervall**   
+Iga lambi kohta kehtib erilõiv 5.00. Lõiv lisatakse netosummale enne käibemaksu arvutamist. Ostate 8 lampi, mis maksavad 25.00 eurot tükk. Arve netosumma on 200.00 eurot. Arve brutosumma on 200.00 + (8 x 5.00) = 240.00. Käibemaks arvutatakse järgmiselt: käibemaksu koondsumma = 50 x 0.30 + 50 x 0.20 + 140 x 0.10 = 15 + 10 + 14 = 39.00 Lõiv kokku = 5.00 x 8 = 40.00 Arve summa kokku = 200.00 + 39.00 + 40.00 = 279.00
 
-Lisateabe saamiseks vaadake [kogu summa ja intervalli Arvutussuvandid käibemaksukoodi](whole-amount-interval-options-sales-tax-codes.md) ja [käibemaksu arvutamise meetodid välja päritolu](sales-tax-calculation-methods-origin-field.md).
+Lisateavet leiate jaotisest [Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul](whole-amount-interval-options-sales-tax-codes.md) [Käibemaksu arvutusmeetodid väljal Päritolu](sales-tax-calculation-methods-origin-field.md).
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Transpordihalduse mootorid
 
+[!include[banner](../includes/banner.md)]
+
+
 Transpordihalduse mootorid määratlevad loogika, mida kasutatakse transpordihindade loomiseks ja töötlemiseks moodulis Transpordihaldus. 
 
 Transpordihalduse mootor arvutab toimingud nagu vedaja transpordihind. Mootorisüsteem võimaldab muuta käitusajal arvutusstrateegiaid, tuginedes Microsoft Dynamics 365 for Operationsi andmetele. Transpordihalduse mootor sarnaneb konkreetse vedaja lepinguga seotud lisandmoodulile.
@@ -58,7 +61,7 @@ Et transpordihalduse mootor teatud viisil toimiks, on vaja seadistada lähtestam
 Enamasti võite lähtestamise andmete konfigureerimiseks klõpsata nuppu **Parameetrid** transpordihalduse mootori seadistusvormidel. **Läbisõidumootorile viitava määramootori konfigureerimise näide.** Järgmises näites on toodud seadistus, mis on .NET-mootori tüübil Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine põhineva määramootori puhul nõutav ja mis viitab läbisõidumootorile.
 | Parameeter             | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | .NET-tüüp, mis tõlgendab hinna aluse määrangu andmeid konkreetse skeemi puhul. Süntaks parameetri väärtus koosneb kahest segmentide eraldada, vertikaalne riba ()|). Esimene segment sisaldab assembleri nime, mis määratleb määraja tüübi. Teine segment määratleb määraja tüübi täisnime. See hõlmab tüübi nimeruumi. |
+| *RateBaseAssigner*    | .NET-tüüp, mis tõlgendab hinna aluse määrangu andmeid konkreetse skeemi puhul. Parameetri väärtuse süntaks koosneb kahest segmendist, mis on piiritletud vertikaalribaga (|). Esimene segment sisaldab assembleri nime, mis määratleb määraja tüübi. Teine segment määratleb määraja tüübi täisnime. See hõlmab tüübi nimeruumi. |
 | *MileageEngineCode*   | Läbisõidumootori kood, mis tähistab läbisõidumootori kirjet Microsoft Dynamics 365 for Operationsi andmebaasis.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Üldise mootori kood, mis tähistab jaotamise mootorit Microsoft Dynamics 365 for Operationsi andmebaasis.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ Transpordihalduse mootorite metaandmed konfigureeritakse erinevate mootori tüü
 | **Transiidiaja mootor** ja **läbisõidumootor** | Toob metaandmed otse läbisõidu mootori konfiguratsiooni seadistamise vormilt.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Määramootori metaandmete näide.** Transpordihalduse mootor nõuab päritoluaadressi, sihtosariigi ja -riigi/-piirkonna ning saadetise lähte- ja sihtpunkti märkimist. Nende nõuete järgi näeksid metaandmed välja nagu järgmises tabelis olevad andmed. Tabel sisaldab ka teavet sisendandmete nõutava tüübi kohta.
--   Määratleda kohta **transpordi juhtimise**&gt;**Setup** kohta on **hinda Põhitüüp** lehel.
+-   Määratlege see teave valikus **Transpordihaldus** &gt; **Seadistus** lehel **Hinna aluse tüüp**.
 
 | Järjestus | Nimi                          | Välja tüüp | Andmetüüp | Otsingu tüüp    | Kohustuslik |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ Transpordihalduse mootorite metaandmed konfigureeritakse erinevate mootori tüü
 | 3        | Sihtkoha alguse sihtnumber | Määramine | String    | Sihtnumber    | Valitud  |
 | 4        | Sihtkoha lõpu sihtnumber   | Määramine | String    | Sihtnumber    | Valitud  |
 | 5        | Sihtriik           | Määramine | String    | Riik/regioon |           |
+
+
 
 
 

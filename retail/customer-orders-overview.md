@@ -1,6 +1,6 @@
 ---
-title: "Kliendi tellimuste ülevaade"
-description: "See teema pakub teavet klientide tellimused ja jaemüük kaasaegne POS (MPOS). Klienditellimuste on ka eritellimused. Teema sisaldab arutelu seotud parameetrid ja tehingu."
+title: "Klienditellimuste ülevaade"
+description: "See teema annab teavet klienditellimuste kohta uudses jaemüügikassas (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -25,75 +25,80 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="customer-orders-overview"></a>Kliendi tellimuste ülevaade
+# <a name="customer-orders-overview"></a>Klienditellimuste ülevaade
 
-See teema pakub teavet klientide tellimused ja jaemüük kaasaegne POS (MPOS). Klienditellimuste on ka eritellimused. Teema sisaldab arutelu seotud parameetrid ja tehingu.
+[!include[banner](includes/banner.md)]
 
-Omni channel retail maailmas, paljud jaemüüjad pakkuda võimalust kliendi tellimuste või eritellimuste eri toote ja täitmise nõuetele. Siin on mõned tüüpilised stsenaariumid:
 
--   Klient soovib tooted tarnitakse eraldi kindlal kuupäeval.
--   Klient tahab valida tooteid poest või erinevat poodi või asukoha, kui klient ostab neid tooteid.
--   Klient soovib keegi teine valida tooteid, mida klient osta.
+See teema annab teavet klienditellimuste kohta uudses jaemüügikassas (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
 
-Jaemüüjad kasutada klienditellimuste vähendada käibe mis varude katkestused võib muidu põhjustada, kuna kauba saab kätte või eri aeg või koht kätte.
+Mitmekanalilises jaemüügimaailmas pakuvad paljud jaemüüjad mitmesuguste toote- ja täitmisnõuete täitmiseks klienditellimuste ehk eritellimuste võimalust. Tüüpilised stsenaariumid on näiteks järgmised.
 
-## <a name="set-up-customer-orders"></a>Saate seadistada klientide tellimused
-Siin on mõned parameetrid saab määrata selle **hulgi parameetrid** määratleda, kuidas klientide tellimused täidetakse lehekülg:
+-   Klient soovib tooted kohale toimetada kindlal kuupäeval kindlale aadressile.
+-   Klient soovib tooted kätte saada teisest poest või asukohast kui see, kust ta tooted ostis.
+-   Klient soovib, et tema ostetud tooted saab kätte keegi teine.
 
--   **Vaikimisi tagatisraha protsent** – määrata summa, mida klient peab tasuma tagatisraha enne tellimuse saab kinnitada. Vaikimisi hoiuse summa arvutatakse protsendina tellimuste väärtusest. Sõltuvalt privileegid, pruugi poest saate alistada summa abil **hoiuste alistada**.
--   **Tühistamise tasu protsent** -tasu rakendatakse, kui kliendi tellimus tühistatakse, kui selle maksu suuruse.
--   **Tühistamise kulukoodi** -kui tasu rakendatakse kui kliendi tellimus on tühistatud, et tasu kajastub maksu koodi müügitellimuse Microsoft Dynamics AX-i. Kasutage seda parameetrit tühistamise lisakulude kood.
--   **Shipping kulukoodi** – jaemüüjatele saab tasuta shipping kauba kliendile tasuline. Selle saatmine maksu summa kajastub maksu koodi müügitellimuse Dynamics AX-i. Selle parameetri abil saate vastendada shipping kulukoodi saatmiskulud kliendi tellimusel.
--   **Tagastab laevaliini kulud** – saate määrata, kas veokulud, mis on seotud kliendi tellimuse eest.
--   **Maksimaalne summa ilma** -kui shipping tasu tagastatakse maksimaalse suuruse shipping tasu toetuste üle tagastuskorraldused. Kui nimetatud summa ületatakse, manager alistamine on vajalik jätkata toetuse. Järgmistel juhtudel mahutamiseks laevandus tagasi saada võivad ületada algselt makstud summa:
-    -   Tasu rakendatakse tasandil müügitellimuse päise ja kui mõned kogus tootesari tagastatakse, suurimat toetust saatmiskulud, lubatud toodete ja koguse kindlaks sobib kõikide jaeklientidele.
-    -   Veokulud tekivad iga juhu puhul saatmine. Kui klient tagastab toodete mitu korda ja vahendaja poliitikaga määratakse, et vahendaja kannab kulud tagasi shipping tasude, tagasi shipping eest tuleb rohkem kui tegelik laevaliini kulud.
+Jaemüüjad kasutavad klienditellimusi ka kaotatud müügi minimeerimiseks, mida laoseisak võib põhjustada, kuna kauba saab tarnida või kätte saada teisel ajal või teises kohas.
 
-## <a name="transaction-flow-for-customer-orders"></a>Tehingu voolu klientide tellimused
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Jaemüügi kaasaegne POS kliendi loomine
+## <a name="set-up-customer-orders"></a>Klienditellimuste seadistamine
+Lehel **Jaemüügi parameetrid** saate määrata muu hulgas järgmisi parameetreid klienditellimuste täitmisviisi määratlemiseks.
+
+-   **Deposiidi vaikeprotsent** – saate määrata summa, mille klient peab enne tellimuse kinnitamist deposiidina tasuma. Deposiidi vaikesumma arvutatakse protsendina tellimuse väärtusest. Olenevalt õigustest võib poemüüja summa alistada, kasutades valikut **Deposiidi alistamine**.
+-   **Tühistamistasu protsent** – saate määrata klienditellimuse tühistamisel rakendatava tasu summa.
+-   **Tühistamistasu kood** – kui klienditellimuse tühistamisel rakendatakse tasu, kajastub see Microsoft Dynamics AX-is müügitellimusel tasukoodi all. Kasutage seda parameetrit tühistamistasu koodi määratlemiseks.
+-   **Saatekulude kood** – jaemüüjad saavad määrata lisatasu kauba saatmiseks kliendile. Saatekulude summa kajastub Dynamics AX-is müügitellimusel tasukoodi all. Kasutage seda parameetrit saatekulude koodi vastendamiseks klienditellimuse saatekuludega.
+-   **Saatekulude tagasimakse** – saate määrata, kas klienditellimusega seostatud saatekulud on tagasi makstavad.
+-   **Maksimaalne kinnitamata summa** – saate määrata saatekulude tagasimakse maksimaalse summa tagastustellimustele, kui saatekulud on tagasi makstavad. Selle summa ületamisel peab tagasimakse jätkamiseks tegema haldur alistamistoimingu. Järgmiste stsenaariumide võimaldamiseks võib saatekulude tagasimakse ületada algselt makstud summat.
+    -   Tasud rakendatakse müügitellimuse päise tasemel ja tooterea osalise koguse tagastamisel ei saa toodete ja koguse puhul lubatud saatekulude maksimaalset tagasimakset määrata viisil, mis toimiks kõigi jaeklientide puhul.
+    -   Saatekulud lisatakse igale saatmisele. Kui klient tagastab tooteid mitu korda ja jaemüüja poliitika määrab, et jaemüüja kannab saatekulude tagastamiskulu, on tagastatavad saatekulud suuremad kui tegelikud saatekulud.
+
+## <a name="transaction-flow-for-customer-orders"></a>Klienditellimuste kannetevoog
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Klienditellimuse loomine uudses jaemüügikassas
 
 1.  Lisage kandesse klient.
 2.  Lisage tooted ostukorvi.
-3.  Klõpsake **luua kliendi**, ja seejärel valige tellimuse tüüp. Tellimuse tüüp võib olla kas **kliendi tellimuse** või **tsitaat**.
-4.  Klõpsake **valitud laeva** või **laeva kõik** laeva tooted aadressile kliendikonto, määrata nõutud lähetuskuupäev ja määrake laevaliini kulud.
-5.  Klõpsake **kiirenemist valitud** või **Pick-up kõik** valida tooteid, mis on kiirenenud praeguse poest või teisest poest kindlal kuupäeval.
-6.  Kogu hoiusumma, kui nõutakse ettemaksu.
+3.  Klõpsake valikut **Loo klienditellimus** ja seejärel valige tellimuse tüüp. Tellimuse tüüp võib olla kas **Klienditellimus** või **Pakkumine**.
+4.  Klõpsake valikut **Saada valitud** või **Saada kõik**, et saata tooted kliendi kontol olevale aadressile ning määrake nõutud saatmiskuupäev ja saatekulud.
+5.  Klõpsake valikut **Komplekteeri valitud** või **Komplekteeri kõik**, et valida tooted, mis komplekteeritakse praegusest poest või teisest poest kindlal kuupäeval.
+6.  Koguge deposiidisumma, kui deposiit on nõutav.
 
-### <a name="edit-an-existing-customer-order"></a>Muuta olemasoleva kliendi tellimuse
+### <a name="edit-an-existing-customer-order"></a>Olemasoleva klienditellimuse redigeerimine
 
-1.  Kodulehekülg, klõpsake **leida tellimuse**.
-2.  Leidke ja valige muudetav tellimus. Klõpsake lehe allosas on **muuta**.
+1.  Klõpsake avalehel valikut **Leia tellimus**.
+2.  Otsige üles ja valige redigeeritav tellimus. Klõpsake lehe alaservas valikut **Redigeeri**.
 
-### <a name="pick-up-an-order"></a>Tõstma tellimuse
+### <a name="pick-up-an-order"></a>Tellimuse komplekteerimine
 
-1.  Kodulehekülg, klõpsake **leida tellimuse**.
-2.  Valige tellimus kiirenemist. Klõpsake lehe allosas **komplekteerimise ja pakkimisega**.
-3.  Klõpsake **valida**.
+1.  Klõpsake avalehel valikut **Leia tellimus**.
+2.  Valige komplekteeritav tellimus. Klõpsake lehe alaservas valikut **Komplekteerimine ja pakkimine**.
+3.  Klõpsake valikut **Komplekteeri**
 
-### <a name="cancel-an-order"></a>Tellimusest loobuda
+### <a name="cancel-an-order"></a>Tellimuse tühistamine
 
-1.  Kodulehekülg, klõpsake **leida tellimuse**.
-2.  Valige tellimus tühistada. Klõpsake lehe allosas **tühistada**.
+1.  Klõpsake avalehel valikut **Leia tellimus**.
+2.  Valige tühistatav tellimus. Klõpsake lehe alaservas valikut **Tühista**.
 
 #### <a name="create-a-return-order"></a>Tagastustellimuse loomine
 
-1.  Kodulehekülg, klõpsake **leida tellimuse**.
-2.  Valige tellimus, tagasi, valige arve tellimuse ja valige kauba tagasi tootesari.
-3.  Klõpsake lehe allosas on **tagastuskorraldusel**.
+1.  Klõpsake avalehel valikut **Leia tellimus**.
+2.  Valige tagastatav tellimus, valige tellimuse arve ja seejärel valige tagastatava kauba tooterida.
+3.  Klõpsake lehe alaservas valikut **Tagasta tellimus**.
 
-## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Asünkroonne tehingu voolu klientide tellimused
-Klienditellimuste loomist Müügikoht (POS) kliendi punktist režiimis sünkroonse või asünkroonse režiimi.
+## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Klienditellimuste asünkroonne kannetevoog
+Klienditellimus saab luua kassa klientrakendusest kas sünkroonses režiimis või asünkroonses režiimis.
 
-### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Lubade kasutada klienditellimuste asünkroonse režiimi luua programmi
+### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Klienditellimuste asünkroonses režiimis loomise lubamine
 
-1.  Dynamics AX-is klõpsake **hulgi- ja kaubanduse**&gt;**kanali seaded**&gt;**POS seadistus**&gt;**POS profiili**&gt;**funktsioonid profiilid**.
-2.  Kohta ning **üldise** FastTab, seada selle **luua kliendi selleks asünkroonse režiimi** võimalus **Jah**.
+1.  Klõpsake Dynamics AX-is valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiil** &gt; **Funktsiooniprofiilid**.
+2.  Määrake kiirkaardil **Üldine** valiku **Klienditellimuse loomine asünkroonses režiimis** sätteks **Jah**.
 
-Kui on **luua kliendi selleks asünkroonse režiimi** määrangu **Jah**, klientide tellimused luuakse alati asünkroonse režiimi, isegi kui jaemüük tehingu (RTS) on saadaval. Kui valid selle võimaluse, **nr**, klientide tellimused luuakse alati sünkroonne režiimis RTS abil. Klienditellimuste loomisel asünkroonse režiimi tõmbas ja tõmmake V/12(p) Jobs Dynamics AX-i lisada. Vastava müügitellimuste on loodud Dynamics AX-i kui **sünkroonida tellimuste** käivitatakse kas käsitsi või partii töötlemiseks.
+Kui valiku **Klienditellimuse loomine asünkroonses režiimis** sätteks on valitud **Jah**, luuakse klienditellimused alati asünkroonses režiimis, isegi kui Retail Transaction Service (RTS) on saadaval. Kui määrate valiku sätteks **Ei**, luuakse klienditellimused alati sünkroonses režiimis, kasutades RTS-i. Kui klienditellimused luuakse asünkroonses režiimis, tõmmatakse ja sisestatakse need Dynamics AX-i tõmbamise (P) töödena. Vastavad müügitellimused luuakse Dynamics AX-is, kui käsk **Sünkrooni tellimused** käivitatakse käsitsi või pakktöötluse kaudu.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Hübriid klienditellimuste](hybrid-customer-orders.md)
+[Hübriid-klienditellimused](hybrid-customer-orders.md)
+
+
 
 

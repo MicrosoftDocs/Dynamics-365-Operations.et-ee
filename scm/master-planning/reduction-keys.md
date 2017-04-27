@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Planeerimise koefitsiendid
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel sisaldab näiteid planeerimise koefitsiendi seadistamise kohta. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>1. näide. Prognoosi vähendamise põhimõte Protsent – planeerimise koefitsient
@@ -58,7 +61,7 @@ Kui käivitate eelplaneerimise 1. jaanuaril, tabitakse nõudluse prognoosi nõud
 | aprill                | 750                       |
 | Mai kuni detsember | 1000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Näide 2: Tehingute koefitsendi Ilmaennustus vähendamise põhimõte
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>2. näide. Prognoosi vähendamise põhimõte Kanded – planeerimise koefitsient
 See näide selgitab, kuidas vähendavad planeerimise koefitsiendiga määratletud perioodide ajal tehtavad tegelikud tellimused nõudluse prognoosi nõudeid.
 
 -   Valige lehel **Koondplaanid** väljal **Vähenduspõhimõte** suvand **Kanded – planeerimise koefitsient**.
@@ -82,7 +85,7 @@ Kui kasutate sama nõudluse prognoosi (1000 tk kuus), kantakse koondplaani üle 
 | aprill                | 881                       |
 | Mai kuni detsember | 1000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Näide 3: Tehingute dünaamiline perioodi eelarve vähendamise põhimõte
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3. näide. Prognoosi vähendamise põhimõte Kanded – dünaamiline periood
 Enamasti on süsteemid seadistatud nii, et kanded vähendavad nõudluse prognoosi teatud prognoosiperioodide (nädalad, kuud jne) jooksul. Need perioodid on määratletud planeerimise koefitsiendis. Siiski võib ka kahe nõudluse perioodi rea vaheline aeg *tähendada* perioodi.
 
 1.  Looge nõudluse prognoos järgmiste kuupäevade ja koguste kohta.
@@ -129,6 +132,8 @@ Siin on toodud vähenduse **Kanded – dünaamiline periood** kokkuvõte.
 <a name="see-also"></a>Vt ka
 --------
 
-[Master plans](master-plans.md)
+[Koondplaanid](master-plans.md)
+
+
 
 

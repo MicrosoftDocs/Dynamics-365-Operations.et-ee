@@ -1,5 +1,5 @@
 ---
-title: "Tükeldatud perioodid perioodilistele töölehtedele"
+title: "Tükeldatud perioodid perioodilistes töölehtedes"
 description: "Perioodilisi töölehti nimetatakse mõnikord korduvtöölehtedeks, kuna suurus, tekst ja muu teave kordub iga kord, kui tööleht sisestatakse. Töölehe loomisel saate määrata perioodi kordumise intervalli, näiteks päeva või kuu. Saate määrata ka perioodide arvu, millal tööleht postitatakse."
 author: ShylaThompson
 manager: AnnBe
@@ -24,24 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="split-periods-in-periodic-journals"></a>Tükeldatud perioodid perioodilistele töölehtedele
+# <a name="split-periods-in-periodic-journals"></a>Tükeldatud perioodid perioodilistes töölehtedes
+
+[!include[banner](../includes/banner.md)]
+
 
 Perioodilisi töölehti nimetatakse mõnikord korduvtöölehtedeks, kuna suurus, tekst ja muu teave kordub iga kord, kui tööleht sisestatakse. Töölehe loomisel saate määrata perioodi kordumise intervalli, näiteks päeva või kuu. Saate määrata ka perioodide arvu, millal tööleht postitatakse.
 
-Korduvalt toodavate ja sisestavate ridade, kasutage selle **perioodilistele töölehtedele** lehel. Tšehhi Vabariik, Eesti, Ungari, Läti, Leedu, Poola ja Venemaa, juriidiliste isikute puhul on **perioodilistele töölehtedele** lehel on pikendatud split perioodide funktsionaalsuse. <!---For more information, see [Create and process a periodic journal](http://ax.help.dynamics.com/en/wiki/create-and-process-a-periodic-journal/).-->
+Kanderidade korduvaks toomiseks ja sisestamiseks saate kasutada lehte **Perioodilised töölehed**. Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Lätis, Leedus, Poolas ja Venemaal on lehte **Perioodilised töölehed** laiendatud perioodide tükeldamise funktsiooniga. <!---For more information, see [Create and process a periodic journal](http://ax.help.dynamics.com/en/wiki/create-and-process-a-periodic-journal/).-->
 
-### <a name="example-split-for-periods-in-periodic-journals"></a>Näide: Tükelda perioodideks perioodilistele töölehtedele
+### <a name="example-split-for-periods-in-periodic-journals"></a>Näide: perioodide tükeldamine perioodilistes töölehtedes
 
-Kindlustusselts pakub organisatsiooni allahindlust prepaying kindlustuspoliisi aastaringselt. Makse postitatakse põhivara kontole, näiteks ettemakstud kindlustuse kontole. Seejärel amortiseerite kindlustuse aastase kuumaksu, luues perioodilise töölehe, mis sisaldab ettemakstud kindlustuse konto krediiti ja kindlustuse kulukonto deebetit. Sel juhul saate split perioodide funktsionaalsuse. Klõpsake selle **Tükelda perioodideks** Updatehagi paani nuppu ning **perioodilise töölehe****read** lehekülg ning määrake järgmised väljad.
+Kindlustusfirma pakub teie organisatsioonile allahindlust terve aasta kindlustuspoliisi ettemaksule. Makse postitatakse põhivara kontole, näiteks ettemakstud kindlustuse kontole. Seejärel amortiseerite kindlustuse aastase kuumaksu, luues perioodilise töölehe, mis sisaldab ettemakstud kindlustuse konto krediiti ja kindlustuse kulukonto deebetit. Sellisel juhul saate kasutada perioodideks tükeldamise funktsiooni. Klõpsake toimingupaani lehel **Perioodilise töölehe** **read** nuppu **Tükelda perioodideks** ja täitke järgmised väljad.
 
 |                       |                                                                                                                                                                                                             |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Field**             | **Description**                                                                                                                                                                                             |
-| **Start date**        | Saate valida perioodilise töölehe esimese rea.                                                                                                                                                        |
-| **Number of periods** | Sisestage üle, et jaotada töölehe rea perioodide arv. See väärtus määratleb, mitu uut kannet luuakse. Kande summa jagatakse ühtlaselt uute kannetega. |
-| **Unit**              | Valige mõõtühik perioodi.                                                                                                                                                                  |
-| **Perioodi intervall**   | Kindlaks sisestamise vaheline aeg.                                                                                                                                                              |
+| **Väli**             | **Kirjeldus**                                                                                                                                                                                             |
+| **Alguskuupäev**        | Valige esimese perioodilise töölehe rea kuupäev.                                                                                                                                                        |
+| **Perioodide arv** | Sisestage perioodide arv, millega töölehe ridade arv jagada. See väärtus määratleb, mitu uut kannet luuakse. Kande summa jagatakse ühtlaselt uute kannetega. |
+| **Ühik**              | Valige perioodile mõõtühik.                                                                                                                                                                  |
+| **Perioodi intervall**   | Määrake sisestusperioodide vaheline intervall.                                                                                                                                                              |
 
-Näiteks luua sisestusi kord kvartalis, sisestage **4** ja on **perioodide arv** valige **kuu** on on **üksus** ja sisestage **3** ja on **perioodiintervalli** välja. Süsteem genereerib neli tööleheread, iga neljandiku töölehe rea summa, mille te sisestasite, 3 kuu tagant. Sarnane funktsioon on ka rakenduse peažurnaali. Pearaamatu ridadele vaatamisel valige **perioodi töölehe**&gt;**Salvesta tööleht**.
+Näiteks kvartalipõhiste sisestuste loomiseks sisestage väljale **Perioodide arv** väärtus **4**, valige väljal **Ühik** säte **Kuud** ja sisestage väljale **Perioodi intervall** väärtus **3**. Süsteem loob neli töölehe rida, iga rida on üks neljandik sisestatud töölehe rea summast iga 3 kuu järel. Sarnane funktsioon on saadaval ka päevaraamatu kohta. Päevaraamatu ridade vaatamisel valige **Perioodi tööraamat** &gt; **Salvesta tööraamat**.
+
+
 
 

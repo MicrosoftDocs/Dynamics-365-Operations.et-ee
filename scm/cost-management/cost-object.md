@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>Kuluobjektid
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet kuluobjektide kohta ja selgitatakse, kuidas kulusid ja koguseid akumuleeritakse. Kuluobjekt on üksus, mille jaoks kulusid ja koguseid akumuleeritakse. Kuluobjekt võib olla toode või tootevariant, näiteks laadi või värvi variandid.  
 
 <a name="cost-objects"></a>Kuluobjektid
@@ -65,19 +68,21 @@ Järgmine tabel näitab, milline on kuluobjekt ja milline on varuobjekt.
     -   Sisestatud kogus
 -   Väli **Keskmine ühikukulu** on arvutatud väli. Väärtuse arvutamiseks jagatakse väärtus **Väärtus** väärtusega **Kogus**.
 
-**Märkus:** on * kaasa füüsiline väärtus ** parameeter ei mõjuta eelmise arvutused.
+**Märkus.** Parameetril **Kaasa füüsiline väärtus** pole eelnevatele arvutustele mingit mõju.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Tootedimensioonigrupp](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Laoala dimensiooni grupp](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Jälgimisdimensioonigrupp](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Mis on uued või muudetud Microsoft Dynamics AX-i](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Mida on Microsoft Dynamics AX-is uut või mis on muutunud?](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[Kulukirjed](cost-entries.md)
+
+
 
 

@@ -55,16 +55,16 @@ Uus keskmise hinna käitamine kajastab finantsiliselt värskendatud kannete kesk
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
 -   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Üle (või alla) iga vertikaalse noole laokande väärtus on määratud vormingusQuantity@Unitprice.
+-   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
 -   Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
 -   Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
 -   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
+-   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
 -   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
 ## <a name="fifo-with-the-include-physical-value-option"></a>FIFO valikuga Füüsilise väärtuse kaasamine
-Kui on **kaasa füüsiline väärtus** märkige ruut kauba kohta on **kauba tootemudeli grupi** lehekülg, süsteem kasutab nii füüsiliste ja sissetulekukanded töötab keskmise omahinna arvutamiseks. Kohaldatavusel korrigeerib süsteem ka füüsiliselt värskendatud väljastuskandeid. Märkeruudu **Kaasa füüsiline väärtus** tühjendamisel teeb lao sulgemine koos FIFO laomudeliga tasakaalustusi ainult finantsiliselt värskendatud kannetega. Alloleval joonisel on kuvatud järgmised kanded.
+Kui märkeruut **Kaasa füüsiline väärtus** on kauba puhul lehel **Kauba mudeligrupp** valitud, kasutab süsteem jooksva keskmise omahinna arvutamiseks nii füüsilisi kui ka finantsilisi sissetuleku kandeid. Kohaldatavusel korrigeerib süsteem ka füüsiliselt värskendatud väljastuskandeid. Märkeruudu **Kaasa füüsiline väärtus** tühjendamisel teeb lao sulgemine koos FIFO laomudeliga tasakaalustusi ainult finantsiliselt värskendatud kannetega. Alloleval joonisel on kuvatud järgmised kanded.
 
 -   1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
 -   1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
@@ -83,16 +83,16 @@ Kanne 5b tasakaalustatakse sissetulekukandele 1b. Seda väljamineku kannet korri
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
 -   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Üle (või alla) iga vertikaalse noole laokande väärtus on määratud vormingusQuantity@Unitprice.
+-   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
 -   Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
 -   Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
 -   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
+-   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
 -   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
 ## <a name="fifo-with-marking"></a>FIFO märkimisega
-Märgistus on protsess, mille abil saab linkida või märkida, et sissetulekukande kande. Märkimine võib toimuda nii enne kui pärast kande sisestamist. Saate kasutada märkimist, kui soovite teada laoseisu täpset hinda kande sisestamise või lao sulgemise ajal. Näiteks võttis teie klienditeenindusosakond oluliselt kliendilt vastu kiirtellimuse. Kuna tegemist on kiirtellimusega, peate kliendi nõude täitmiseks maksma kauba eest rohkem. Peate veenduma, et selle müügitellimuse arve puhul kajastuks selle laokauba maksumus varus või tuletusreeglis (COGS). Ostutellimuse sisestamisel saadakse laoseis maksumusega 120,00 USD. Kui see müügitellimuse dokument märgitakse ostutellimusele enne saatelehe või arve sisestamist, kasutatakse laokauba kulu (COGS) 120,00 USA dollarit, mitte kauba praegust jooksvat keskmist kulu. Kui müügitellimuse saateleht või arve sisestatakse enne märkimist, sisestatakse COGS jooksva keskmise omahinna juurde. Enne lao sulgemist saab neid kahte kannet veel üksteisele märkida. Kui sissetulekukande vastab kande, hindamismeetodit, mis on määratletud kauba tootemudeli grupi vastavat ning süsteem lahendab need tehingud omavahel. Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Seda saate teha müügitellimuse realt lehel **Müügitellimuse üksikasjad**. Avatud sissetulekukandeid saate vaadata lehel **Märkimine**. Samuti saate pärast kande sisestamist märkida väljastuskande sissetulekule. Väljaminekukande saate märkida või vastendada varude korrigeerimistöölehel sisestatud laokauba avatud sissetulekukandega. Alloleval joonisel on kuvatud järgmised kanded.
+Märkimine on protsess, mis võimaldab teil väljaminekukande siduda või märkida sissetulekukandega. Märkimine võib toimuda nii enne kui pärast kande sisestamist. Saate kasutada märkimist, kui soovite teada laoseisu täpset hinda kande sisestamise või lao sulgemise ajal. Näiteks võttis teie klienditeenindusosakond oluliselt kliendilt vastu kiirtellimuse. Kuna tegemist on kiirtellimusega, peate kliendi nõude täitmiseks maksma kauba eest rohkem. Peate veenduma, et selle müügitellimuse arve puhul kajastuks selle laokauba maksumus varus või tuletusreeglis (COGS). Ostutellimuse sisestamisel saadakse laoseis maksumusega 120,00 USD. Kui see müügitellimuse dokument märgitakse ostutellimusele enne saatelehe või arve sisestamist, kasutatakse laokauba kulu (COGS) 120,00 USA dollarit, mitte kauba praegust jooksvat keskmist kulu. Kui müügitellimuse saateleht või arve sisestatakse enne märkimist, sisestatakse COGS jooksva keskmise omahinna juurde. Enne lao sulgemist saab neid kahte kannet veel üksteisele märkida. Kui sissetulekukanne ühtib väljaminekukandega, eiratakse kaubamudeli grupis määratletud hinna määramise meetodit ja süsteem tasakaalustab need kanded üksteisega. Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Seda saate teha müügitellimuse realt lehel **Müügitellimuse üksikasjad**. Avatud sissetulekukandeid saate vaadata lehel **Märkimine**. Samuti saate pärast kande sisestamist märkida väljastuskande sissetulekule. Väljaminekukande saate märkida või vastendada varude korrigeerimistöölehel sisestatud laokauba avatud sissetulekukandega. Alloleval joonisel on kuvatud järgmised kanded.
 
 -   1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
 -   1b. Lao finantsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.
@@ -111,11 +111,11 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
 -   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Üle (või alla) iga vertikaalse noole laokande väärtus on määratud vormingusQuantity@Unitprice.
+-   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
 -   Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
 -   Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
 -   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
+-   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
 -   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 

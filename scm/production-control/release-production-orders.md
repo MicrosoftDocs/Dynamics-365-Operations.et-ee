@@ -1,5 +1,5 @@
 ---
-title: Tootmistellimuste vabastamise
+title: "Tootmistellimuste väljastamine"
 description: "Väljastatud tootmistellimus on tellimus, millele on antud tootmiseks luba. Mõistet „väljastatud” kasutatakse tootmistellimuse töötsükli sellise oleku kirjeldamiseks, kus tootmistellimus on saadaval saadaval tootmistöödel ja laoprotsessides täitmiseks."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="release-production-orders"></a>Tootmistellimuste vabastamise
+# <a name="release-production-orders"></a>Tootmistellimuste väljastamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Väljastatud tootmistellimus on tellimus, millele on antud tootmiseks luba. Mõistet „väljastatud” kasutatakse tootmistellimuse töötsükli sellise oleku kirjeldamiseks, kus tootmistellimus on saadaval saadaval tootmistöödel ja laoprotsessides täitmiseks. 
 
@@ -42,7 +45,7 @@ Olek **Väljastatud** on üks olek tootmistellimuse tsüklis. Tootmistellimused,
 -   Füüsiliselt reserveeritud materjalide puhul luuakse laotöö materjalide komplekteerimiseks tootmistellimuse jaoks.
 
 ## <a name="releasing-jobs-to-the-shop-floor"></a>Tööde väljastamine tööde juhtimisse
-Kui tootmistellimus on väljastatud, on tellimusega seotud tootmistööd nähtaval ja registreerimiseks valmis. Ettevõtjad saaksid töö registreerimised, näiteks Start, Stop ja lõpetamist, kas on **töö Maksekaartide terminali** lehele või **töö kaart seadme** lehel. Registreeritud aeg ja kogus kantakse automaatselt registreerimine lehekülgi tootmise töölehtede abil tarbitud aeg ja kogus.
+Kui tootmistellimus on väljastatud, on tellimusega seotud tootmistööd nähtaval ja registreerimiseks valmis. Operaatorid saavad teha tööde registreerimisi, nagu Käivita, Peata ja Lõpetamine, kas lehel **Töökaardi terminal** või **Töökaardi seade**. Registreeritud aeg ja kogus kantakse registreerimislehtedelt automaatselt üle tootmise töölehtedele, et jälgida tarbitud aega ja kogust.
 
 ## <a name="route-cards"></a>Protsessi kaardid
 Protsessikaart annab ülevaate teabest, mis on pärit protsessi ja operatsiooni seadistustest ning operatsiooni ja töö planeerimise meetoditest.
@@ -54,11 +57,13 @@ Protsessitöö loetleb kõik operatsiooni tööd üksikasjalikult ning hõlmab s
 Töökaart loetleb konkreetse operatsiooni üksiktööde numbrid. Igal lehel kuvatakse üks töö. Töökaardile kaasatud tööd ja nende nende prognoositavad ajad on pärit protsessi ja operatsiooni seadistusteabest. Töökaardilt saate avada lehe **Tootmise töölehe read**, **töökaart **. Operatsiooniressursse käitavad inimesed saavad tootmisprotsessi kohta tagasisidet anda. On olemas väljad, kuhu saate sisestada tarbimisstatistika ja teabe, nt tõrgete koguse.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Laotöö materjali komplekteerimiseks.
-Töö toormaterjalide komplekteerimiseks luuakse väljastamise ajal. Tööd luuakse ainult koguse ja füüsiliselt reserveeriti tootmistellimuse enne tellimuse. Järgnevalt on vaja luua lao töö tooraine noppimiseks:
+Töö toormaterjalide komplekteerimiseks luuakse väljastamise ajal. Töö luuakse ainult enne tellimuse väljastamist tootmistellimuse jaoks füüsiliselt reserveeritud materjalide koguse kohta. Toormaterjalide komplekteerimise jaoks laotöö loomiseks on nõutav järgmine seadistus.
 
 -   Asukohakorraldus toormaterjalide komplekteerimiseks, mis määratleb, millisesse lao asukohta tuleb materjalid komplekteerida
 -   Voomall toormaterjalide kohta, kus on konfigureeritud laotöö käivitamise poliitikad
 -   Tootmise sisendasukoht, mis määratleb, kuhu materjalid pannakse
+
+
 
 
 

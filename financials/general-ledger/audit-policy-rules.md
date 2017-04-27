@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-rules"></a>Auditipoliitika reeglid
 
+[!include[banner](../includes/banner.md)]
+
+
 Auditipoliitikaga saate hinnata kuluaruandeid, hankija arveid ja ostutellimusi, et kontrollida, kas need vastavad loodud poliitikareeglitele. Kõik auditi poliitikaga seotud reeglid käitatakse pakett-režiimis vastavalt teie määratud graafikule.  Iga poliitikareegel on poliitikareegli tüübi eksemplar. Iga poliitikareegli tüübi puhul saab korraga aktiivne olla vaid üks reegel. 
 
 <a name="queries-and-query-types"></a>Päringud ja päringu tüübid
@@ -97,5 +100,7 @@ Kõigil kindla auditipoliitika poliitikareeglitel on samad partiiparameetrid ja 
 --------
 
 [Auditipoliitika rikkumised ja juhtumid](audit-policy-violations-cases.md)
+
+
 
 

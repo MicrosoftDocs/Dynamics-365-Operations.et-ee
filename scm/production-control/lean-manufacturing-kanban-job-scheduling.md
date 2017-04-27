@@ -1,5 +1,5 @@
 ---
-title: "Kanban tööde planeerimisega kulusäästlik töötamine"
+title: "Kanban-töö plaanimine lean manufacturingi jaoks"
 description: "Selles artiklis antakse teavet visuaalse kontrolli kohta kanban-tööde ajastamisel ja kanban-tööde ajastamise erinevate viiside kohta."
 author: YuyuScheller
 manager: AnnBe
@@ -26,14 +26,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban tööde planeerimisega kulusäästlik töötamine
+# <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban-töö plaanimine lean manufacturingi jaoks
 
 Selles artiklis antakse teavet visuaalse kontrolli kohta kanban-tööde ajastamisel ja kanban-tööde ajastamise erinevate viiside kohta.  
 
 Leht **Kanban-töö planeerimine** pakub visuaalset kontrolli lean manufacturingi töörakkude graafikute üle. See annab ülevaate kõikidest kanban-töödest ja pakub mitmeid filtreerimisvõimalusi. Sellelt lehelt saate liikuda kõikidele muudele lehtedele, mis on seotud kanbani konfiguratsiooni ja käivitamisega.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Kanban-tööde automaatne planeerimine
-Planeerimise saab käivitada automaatselt kui on **automaatne planeerimine kogus** parameeter kanban reegli. Kui seate **automaatne planeerimine kogus** et **1**, iga kanban töö on planeeritud kohe see loomise. Tulemuseks on tõmbasmiste järjekorras täidetud operatsioonide seeria. Kui määrate parameetrile **Automaatse plaanimise kogus** väärtuse, mis on suurem kui 1, rühmitatakse kanban-tööd enne plaanimist. See idee võimaldab kanbani suurusi vähendada allapoole tegelikke majanduslikke partiisuurusi. Näiteks on kindla kauba (või kauba tootepere) majandusliku suurusega 30. Kasutada toote kogust, 30, kanbans loomise asemel saate konfigureerida kanban reegel, et tal toote kogusest 10 ja on ** automaatne planeerimine kogus ** väärtus **3**. Ehkki automaatne plaanimine ajastab kanban-tööd tööraku jaoks ainult siis, kui olemas on kolm plaanimata tööd, on plaanijale ja tööde järelevaatajale täiesti nähtav, et kaks plaanimata tööd võivad täitmist oodata. Plaanija või tööde juhataja saab siis viia need kaks tööd tootmisse, plaanides need käsitsi või luues täiendavaid kanbane.
+Plaanimise saab käivitada automaatselt, kui määrate kanban-reeglile parameetri **Automaatse plaanimise kogus**. Kui määrate parameetri **Automaatse plaanimise kogus** väärtuseks **1**, plaanitakse iga kanban-töö kohe selle loomisel. Tulemuseks on tõmbasmiste järjekorras täidetud operatsioonide seeria. Kui määrate parameetrile **Automaatse plaanimise kogus** väärtuse, mis on suurem kui 1, rühmitatakse kanban-tööd enne plaanimist. See idee võimaldab kanbani suurusi vähendada allapoole tegelikke majanduslikke partiisuurusi. Näiteks on kindla kauba (või kaubapere) tasuv partii suurus 30. Näiteks on kindla kauba (või kaubapere) tasuv partii suurus 30. Selle asemel, et luua kanbane, mis kasutavad toote kogust, 30, saate konfigureerida kanban-reegli, mille toote kogus on 10 ja parameetri **Automaatse plaanimise kogus **väärtus on **3**. Ehkki automaatne plaanimine ajastab kanban-tööd tööraku jaoks ainult siis, kui olemas on kolm plaanimata tööd, on plaanijale ja tööde järelevaatajale täiesti nähtav, et kaks plaanimata tööd võivad täitmist oodata. Plaanija või tööde juhataja saab siis viia need kaks tööd tootmisse, plaanides need käsitsi või luues täiendavaid kanbane.
 
 ## <a name="manual-scheduling"></a>Käsitsi plaanimine
 Käsitsi plaanimiseks võttis Microsoft Dynamics AX 2012 kasutusele kanbani plaanimise tahvli. Käsitsi plaanimise saab ühendada automaatse plaanimisega. Kanbani plaanimistahvel võimaldab teil töid plaanida ja plaanidest eemaldada, järjestada neid või teisaldada neid perioodist perioodi. Kanban-reeglil põhinevaid töid, mille puhul parameetri **Automaatne plaanimine** väärtus on suurem kui **0**, saab käsitsi plaanidest eemaldada. Kuid neid töid plaanitakse uuesti, kui ilmneb järgmine automaatne plaanimine (st kui luuakse uus kanban). Käsitsi plaanimiseks on saadaval järgmised suvandid.
@@ -44,10 +44,10 @@ Käsitsi plaanimiseks võttis Microsoft Dynamics AX 2012 kasutusele kanbani plaa
 -   **Edasi** teisaldab valitud ajastatud tööd edasi perioodi järjestusse.
 -   **Eelmine periood** teisaldab valitud ajastatud tööd eelmise perioodi algusesse või lõppu.
 -   **Järgmine periood** teisaldab valitud ajastatud tööd järgmise perioodi algusesse või lõppu.
--   **Plaan**&gt;**tagasi töö olek** saate unschedule plaanitud projekti.
+-   **Plaan** &gt; **Töö oleku taastamine** võimaldab plaanitud töö graafikust eemaldada.
 
 ## <a name="lean-scheduling-groups"></a>Säästliku plaanimise grupid
-Iga värv esindab säästliku plaanimise gruppi. Säästliku plaanimise gruppe saab vabalt määratleda üldiste gruppidena või ühele töörakule kuuluvate gruppidena. Kaupu ja dimensioone saab vabalt graafiku gruppidele määrata. Näiteks rakus Värvimine võib graafiku grupp esindada toote värvi. Töö puhul, mis põhineb kindlatel tööriistanõuetel, võidakse kaupu rühmitada tööriista nõude alusel, ja pakendamise töörakk võib rühmitada kaupu pakendamismalli järgi. Säästliku graafiku gruppide jaoks värvide kasutamine on valikuline, kuid soovitatav. See parandab nähtavust plaani olek. Näiteks on väga lihtne näha, milliseid värve toodetakse millise päevaga ning võite öelda lühidalt, kuidas see töö saab optimeerida.
+Iga värv esindab säästliku plaanimise gruppi. Säästliku plaanimise gruppe saab vabalt määratleda üldiste gruppidena või ühele töörakule kuuluvate gruppidena. Kaupu ja dimensioone saab vabalt graafiku gruppidele määrata. Näiteks rakus Värvimine võib graafiku grupp esindada toote värvi. Töö puhul, mis põhineb kindlatel tööriistanõuetel, võidakse kaupu rühmitada tööriista nõude alusel, ja pakendamise töörakk võib rühmitada kaupu pakendamismalli järgi. Säästliku graafiku gruppide jaoks värvide kasutamine on valikuline, kuid soovitatav. See parandab plaani oleku nähtavust. Näiteks on väga lihtne näha, millised värvid millisel päeval loodud on, ja saate hea ülevaate, kuidas seda tööd optimeerida saab.
 
 ## <a name="work-cell-capacity-and-period-capacity"></a>Tööraku võimsus ja perioodi võimsus
 Säästliku tööraku võimsus on alati samaaegne võimsus. Teisisõnu saab töörakus olla samaaegselt mitu aktiivset tööd. Võimsust saab jälgida kahes režiimis: läbilaskevõime ja tunnid.

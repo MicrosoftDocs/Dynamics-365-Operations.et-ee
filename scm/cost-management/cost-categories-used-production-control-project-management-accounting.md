@@ -28,14 +28,19 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Kulukategooriad, mida kasutatakse moodulites Tootmise juhtimine ja Projektihalduse raamatupidamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. See artikkel annab teavet kulukategooriate kohta, mis tuleb määratleda tootmise ja projekti puhul nende tootmistöö tüüpide jaoks.
 
-Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. Sellisel juhul on tootmise ja projekti jaoks vaja kulukategooriat. Kui kulu on kasutatakse tootmise ja projektide, tuleb määratleda projektiga seotud lisateave. Näiteks projektidega seotud tunnikulud võivad erineda tootmisega seotud tunnikuludest. Lehte **Kulukategooriad** saab kasutada tootmise juhtimises ja projektihalduse raamatupidamises kasutatava kulukategooria määratlemiseks. **Märkus:** kuluarvestusel on leht **Projekti kategooriad**, kuid sellel lehel puudub seos selles teemas kirjeldatud funktsioonidega. Kulukategooria kasutamisel projektides on lehel **Kulukategooriad** täiendavad vahekaardid, mis kuvavad täiendava projektiga seotud teabe. See teave hõlmab kategooriagruppi, rea atribuuti ja pearaamatukontosid, mis on määratud kulukategooriale.
+Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. Sellisel juhul on tootmise ja projekti jaoks vaja kulukategooriat. Kui tootmises ja projektides kasutatakse kulukategooriat, tuleb määratleda täiendav projektiga seotud teave. Näiteks projektidega seotud tunnikulud võivad erineda tootmisega seotud tunnikuludest. Lehte **Kulukategooriad** saab kasutada tootmise juhtimises ja projektihalduse raamatupidamises kasutatava kulukategooria määratlemiseks. **Märkus:** kuluarvestusel on leht **Projekti kategooriad**, kuid sellel lehel puudub seos selles teemas kirjeldatud funktsioonidega. Kulukategooria kasutamisel projektides on lehel **Kulukategooriad** täiendavad vahekaardid, mis kuvavad täiendava projektiga seotud teabe. See teave hõlmab kategooriagruppi, rea atribuuti ja pearaamatukontosid, mis on määratud kulukategooriale.
 
 -   Kulukategooria peab olema määratud kategooriagrupile, mis toetab kandetüüpi **Tunnid**.
 -   Rea atribuut näitab vaiketeavet selle kohta, kuidas teavitatud aeg on projektile arveldatav.
 -   Tavaliselt määratletakse kulude ja müügiga seotud pearaamatukontod kulukategooriale määratud kategooriagrupi jaoks. Kuid konkreetsed kontod saab määratleda eraldi kulukategooria puhul.
 
 Täiendavad nupud lehel **Kulukategooriad** pakuvad juurdepääsu projektiga seotud teabele valitud kulukategooria kohta. Näiteks saate vaadata projektiga seotud kandeid, määrata töötajaid või projekte, määratleda tunnikulusid ja müügihindu ja vaadata aruandeid.
+
+
 
 

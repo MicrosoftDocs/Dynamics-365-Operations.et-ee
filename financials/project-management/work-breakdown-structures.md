@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>Tööjaotuse struktuurid
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Tööjaotuse struktuuris Tööjaotuse struktuur (WBS) on projekti puhul tehtava töö kirjeldus. See on ülesannete hierarhia, mis kajastab projekti töörühma arusaama töö koosseisust ja iga osa või ülesande ulatusest, maksumusest ja kestusest. WBS-il on kolm suurt eesmärki.
@@ -39,17 +42,17 @@ WBS-i üksikasjalikkuse tase sõltub prognoosides vajalikust täpsuse tasemest j
 
 Vastukaaluks on meedia ja reklaami, tarkvara ja IT-taristu valdkondade projektid pigem ainulaadsed ja produktiivsus sõltub ülesande läbiviija kogemusest ja kompetentsusest. Seetõttu kasutatakse nendes valdkondades WBS-i projekti ulatuse hindamiseks, mitte projekti üksikasjaliku edenemise jälgimiseks. 
 
-WBS-i koostamine on intensiivne protsess, mida tehakse tavaliselt kaua ja mis nõuab koostööd ning teavet väga mitmesugustelt inimestelt. Teema käsitleb kasutamist WBS täiustused Microsoft Dynamics 365 toiminguteks teie nõuetele hinnangud ja jälgimine.
+WBS-i koostamine on intensiivne protsess, mida tehakse tavaliselt kaua ja mis nõuab koostööd ning teavet väga mitmesugustelt inimestelt. See teema kirjeldab, kuidas saate kasutada WBS-i täiustusi rakenduses Microsoft Dynamics 365 for Operations teie hinnangutele ja jälgimise nõuetele vastamiseks.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS-i loomise eeltingimused
 WBS-i loomiseks tuleb koostada tööplaan ja prognoosida töö maksumust.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>Tööplaani loomise eeltingimused
 
-Täis plaanimisfunktsioonide WBS funktsioonide kasutamiseks tehke järgnevalt:
+WBS-i funktsioonide täielike plaanimisvõimaluste kasutamiseks tehke järgmine seadistus.
 
 1.  Seadistage vaikekalender ja projekti kalender.
-    1.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**Setup**&gt;**planeerimine**. Määrake vaikekalender väljal **Töö vaikekalender**. See on iga uue loodava projekti töö vaikekalender.
+    1.  Klõpsake nuppe **Projektihaldus ja -arvestus** &gt; **Seadistus** &gt; **Planeerimine**. Määrake vaikekalender väljal **Töö vaikekalender**. See on iga uue loodava projekti töö vaikekalender.
     2.  Saate konkreetse projekti vaikekalendrit muuta. Klõpsake projekti üksikasjade lehte ja seejärel uuendage kiirkaardil **Projekti töörühm ja plaanimine** välja **Plaanimiskalender**, valides teise kalendri.
 
 2.  Saate seadistada standardsed tööpäevad ja tööaja. Projekti töökalendriks määratavat kalendrit kasutatakse WBS-is järgmise teabe määratlemiseks.
@@ -57,13 +60,13 @@ Täis plaanimisfunktsioonide WBS funktsioonide kasutamiseks tehke järgnevalt:
 -   Tööpäevad ja puhkepäevad
 -   Päeva töötundide arv
 
-Tööpäeva ja tööaja kalendri või uue kalendri loomiseks klõpsake **organisatsiooni haldamine**&gt;**levinud**&gt;**kalendrid**.
+Kalendri tööpäevade ja töötundide seadistamiseks või uue kalendri loomiseks klõpsake valikuid **Organisatsiooni haldus** &gt; **Üldine** &gt; **Kalendrid**.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Töö kulude hindamise eeltingimused
 
 WBS-i kulude prognoosimise võimaluste täielikuks kasutamiseks tuleb seadistada kulud ja müügihinnad töötajatele, töö kategooriatele, kuludele ja tasudele ning kaupadele.
 
--   Seadistamiseks on ja labor, kulude ja tasu kategooriaid, klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**Setup**&gt;**eest**.
+-   Tööjõu, kulu ja tasu kategooriatele kulude ja müügihinna seadistamiseks klõpsake valikuid **Projektihaldus ja -arvestus** &gt; **Seadistus** &gt; **Hinnad**.
 -   Kaupade maksumuse ja müügihinna seadistamiseks kasutage iga kauba lehte **Kaubanduslepped **mooduli Tooteteabe haldus loendilehel **Väljastatud tooted**.
 
 ## <a name="creating-a-wbs"></a>WBS-i loomine
@@ -73,11 +76,11 @@ WBS-i loomine hõlmab kolme tegevust.
 2.  **Töögraafik** – saate hinnata aega, mis on vajalik ülesande lõpuleviimiseks, määrata ülesande sõltuvused ja valida ülesande algus- ning lõpukuupäevad.
 3.  **Kulu kalkuleerimine** – saate hinnata iga ülesande kulusid.
 
-Järgnevalt arutada, kuidas WBS võimed aitavad kõikide kõnealuste tegevusvaldkondadega.
+Järgmistes jaotistes kirjeldatakse, kuidas WBS-i võimalused saavad aidata iga sellist tegevust.
 
 ### <a name="work-decomposition"></a>Töö eraldamine
 
-Tööjaotus või töö eraldamine on tavaliselt WBS-i loomise protsessi esimene etapp. WBS funktsioon toetab järgmisi põhilisi konstrueerib töö jaotus või laguneda. 
+Tööjaotus või töö eraldamine on tavaliselt WBS-i loomise protsessi esimene etapp. WBS-i funktsioon toetab järgmisi tööjaotuse struktuuri või eraldamise põhikonstruktsioone. 
 
 **Projekti juurülesanne** Projekti juurülesanne on projekti ülataseme kokkuvõttev ülesanne. Kõik teised projekti ülesanded luuakse selle alla. Juurülesande nimeks määratakse alati projekti nimi. Panus, kuupäevad ja juursõlme kestus võtavad juurülesande all kokku ülesannete väärtused. Juursõlme atribuute ei saa muuta ning seda ei saa kustutada.
 
@@ -94,7 +97,7 @@ Praegu ei saa WBS-i nummerdamist kohandada.
 **Ülesande taandamine** Ülesande taandamisel saab sellest sellele eelneva ülesande alamülesanne. Uue alamülesande WBS-i number arvutatakse selle uue põhiüksuse WBS-numbri põhjal automaatselt ümber. Põhiülesanne on nüüd kokkuvõttev või konteinerülesanne ja seetõttu saab sellest koostisülesannete kokkuvõte. 
 
 > [!NOTE] 
-> Kui ülesanne, mis oli leaf sõlme enne operatsiooni taandes ettenähtud ülesannete taandamiseks vastloodud kokkuvõtvale kaotab oma kuupäevad, vaeva ja mitmeid vahendeid. Nüüd kasutab see oma uute koostisülesannete väärtusi. 
+> Kui taandate ülesandeid ülesande all, mis oli enne taandamistoimingut lehe sõlm, kaotab loodud kokkuvõttev ülesanne oma kuupäevad, panuse ja ressursside arvu. Nüüd kasutab see oma uute koostisülesannete väärtusi. 
 
 **Ülesande eendamine** Kui ülesande eendate, pole see enam oma põhiüksuse koostisülesanne. Ülesande WBS-i number arvutatakse automaatselt ümber, et kajastada ülesande uut taset hierarhias. Ülesande eelmise põhiülesande panus, kulu ja kuupäevad arvutatakse ümber, jättes selle ülesande välja. 
 
@@ -102,10 +105,10 @@ Praegu ei saa WBS-i nummerdamist kohandada.
 
 ### <a name="schedule-estimation"></a>Graafiku prognoosimine
 
-Graafiku prognoosimine on tavaliselt WBS-i loomise teine etapp. Graafikut on kõige parem prognoosida pärast ülesannete loomist. Selle **töö liigendamise struktuuriga** lehekülg Microsoft Dynamics 365, sest kilp on operatsiooni. Ülemine paan on mõeldud graafiku prognoosimiseks ja alumisel paanil on vahekaart **Eeldatavad kulud ja tulud**, mida saate kasutada kulude prognoosimiseks. 
+Graafiku prognoosimine on tavaliselt WBS-i loomise teine etapp. Graafikut on kõige parem prognoosida pärast ülesannete loomist. Lehel **Tööjaotuse struktuur** rakenduses Microsoft Dynamics 365 for Operation on kaks jaotist. Ülemine paan on mõeldud graafiku prognoosimiseks ja alumisel paanil on vahekaart **Eeldatavad kulud ja tulud**, mida saate kasutada kulude prognoosimiseks. 
 **Ülesande sõltuvused** WBS-is saab luua ülesannete vahel eelkäija seose. Kui määrate ülesandele eelkäijatest ülesanded, saab ülesanne alata alles siis, kui kõik eelkäijatest ülesanded on lõpetatud. Ülesande plaanitavaks alguskuupäevaks määratakse automaatselt kõigi selle eelkäijate hiliseim kuupäev. 
 
-**Tööülesande Microsoft Dynamics 365 operatsioonide planeerimise** leaf sõlme ülesannete planeerimise määravad järgmised tegurid:
+**Ülesannete plaanimine rakenduses Microsoft Dynamics 365 for Operations** Järgmised tegurid määravad lehe sõlme ülesannete ajastamise.
 
 -   Eelkäijad
 -   Panus
@@ -114,27 +117,27 @@ Graafiku prognoosimine on tavaliselt WBS-i loomise teine etapp. Graafikut on kõ
 
 Ilma eelkäijateta lehe sõlmülesande alguskuupäevaks määratakse automaatselt projekti plaanimise alguskuupäev. Lehe sõlmülesande kestus arvutatakse alati algus- ja lõppkuupäevade vaheliste tööpäevade arvuna. 
 
-Planeerimise eeskirjad *** kui planeerimise abi on sisse lülitatud, rakenduvad järgmised reeglid ülesanne sõiduplaani leaf sõlme ülesanded:
+****Plaanimisreeglid**** Kui automaatne plaanimisabi on sisse lülitatud, kehtivad lehe sõlmülesannete plaanimisel järgmised reeglid.
 
 -   Ülesande algus- ja lõppkuupäevad peavad olema projekti planeerimise kalendrile vastavad tööpäevad.
 -   Eelkäijatega ülesande alguskuupäevaks määratakse automaatselt selle eelkäijate hiliseim lõppkuupäev.
 -   Ülesande panus arvutatakse automaatselt järgmisel viisil.
 
-Arv inimesi × × kestus tundides projekti kalender standard tööpäev. 
+Inimeste arv × kestus × tundide arv standardsel tööpäeval projektikalendris. 
 
-Mõnikord võite soovida neist reeglitest kõrvale kalduda. Automaatselt liituda Microsoft Dynamics 365 toimingu käigus automaatselt kehtestada või parandada omadused, leaf sõlme ülesannete vältimiseks välja lülitada. Kui sisestate ülesandele teavet, mis põhjustab mõne plaanimisreegli rikkumise, kuvatakse selle ülesande puhul plaanimisvea ikoon. Kui te ei soovi, et plaanimisvigu kuvatakse, klõpsake funktsiooni väljalülitamiseks valikut **Plaanimisvead on kuvatud**. 
+Mõnikord võite soovida neist reeglitest kõrvale kalduda. Saate automaatse ajastamise välja lülitada, et takistada rakendusel Microsoft Dynamics 365 for Operations mis tahes lehe sõlmülesannete atribuute automaatselt määrata või korrigeerida. Kui sisestate ülesandele teavet, mis põhjustab mõne plaanimisreegli rikkumise, kuvatakse selle ülesande puhul plaanimisvea ikoon. Kui te ei soovi, et plaanimisvigu kuvatakse, klõpsake funktsiooni väljalülitamiseks valikut **Plaanimisvead on kuvatud**. 
 
 > [!NOTE] 
-> Väärtuste kokkuvõte või konteineri ülesande jätkata koostisosade ülesandeid, olenemata sellest, kas abi sõiduplaani lülitatakse sisse või välja väärtuste summa arvutatakse. 
+> Kokkuvõtva või konteinerülesande väärtusi arvutatakse jätkuvalt koostisülesannete väärtuste summana, olenemata sellest, kas automaatne plaanimisabi on sisse või välja lülitatud. 
 
 **Plaanimisvigade parandamine** Kui automaatne plaanimisabi on sisse lülitatud, siis plaanimisvigu tõenäoliselt ei esine. Kuid kui lülitate automaatse plaanimisabilise välja ja siis hiljem uuesti sisse, võidakse WBS-is kuvada plaanimisvea ikoonid. 
 
 **Plaanimisvigade parandamine ülesannete kaupa** Kui teete plaanimisvea ikoonil konkreetse ülesande puhul topeltklõpsu, kuvab dialoogiboks kõik selle ülesande plaanimisvead. Saate valida, milliseid plaanimisvigu selle ülesande puhul parandada. 
 
-**Kõik planeerimise vigu** Microsoft Dynamics 365 operatsioonide parandada kõik sõiduplaani WBS, Updatehagi paani, klõpsake **määrata kõik sõiduplaani kõrvalekalded**. 
+**Kõigi plaanimisvigade parandamine** Kui soovite, et rakendus Microsoft Dynamics 365 for Operations parandaks kõik WBS-i ajastamistõrked, klõpsake tegumisribal nuppu **Paranda kõik plaanimislahknevused**. 
 
 > [!NOTE] 
-> See funktsioon võib põhjustada WBS oluliselt muuta. Vead parandatakse järgmises järjestuses.
+> See funktsioon võib põhjustada WBS-ile olulisi muudatusi. Vead parandatakse järgmises järjestuses.
 
 1.  Kõigi ülesannete hinnangulist panust muudetakse nii, et see oleks võrdne projekti kalendris määratud mahuga.
 2.  Ülesande alguskuupäeva muudetakse nii, et ülesanne algab pärast selle eelkäijatest ülesannete lõpetamist.
@@ -145,7 +148,7 @@ Mõnikord võite soovida neist reeglitest kõrvale kalduda. Automaatselt liituda
 Nagu selles dokumendis eespool mainiti, tuleb iga lehe sõlmülesande kuluprognoos sisestada vahekaardil **Eeldatavad kulud ja tulud** lehe **Tööjaotuse struktuur** alumisel paanil. 
 
 > [!NOTE] 
-> Saate muuta ülesande kokkuvõte või konteineri hinnangut. Kokkuvõtva ülesande kuluprognoos võrdub selle lehe sõlmülesannete kuluprognoosi summaga. Iga ülesande eeldatav kogukulu arvutatakse eeldatavate kulude summana järgmiste kandetüüpide puhul.
+> Kokkuvõtva või konteinerülesande kuluprognoosi ei saa muuta. Kokkuvõtva ülesande kuluprognoos võrdub selle lehe sõlmülesannete kuluprognoosi summaga. Iga ülesande eeldatav kogukulu arvutatakse eeldatavate kulude summana järgmiste kandetüüpide puhul.
 
 -   Tööjõud
 -   Kaup või materjal
@@ -161,12 +164,12 @@ Iga toimingu tööjõukulu, materjalikulu ja muude kulude prognoosimisel tuleb m
 
 **Kulude ja materjali maksumuse prognoosimine** Vahekaardil **Eeldatavad kulud ja tulu** saate prognoosida ka ülesande kulusid ja materjali maksumust, kui prognoosid on vajalikud. 
 
-Kulu ja müügihind iga töö või kulu projekti rea aluseks hinnakujunduse laudades iga kategooria jaoks määratletud seadistus **projektijuhtimine raamatupidamis- ja**&gt;**Setup**&gt;**hinnakujundus**. Kaupade puhul lisatakse nende maksumus ja müügihind vaikimisi kaubalt või kaubanduslepetest mooduli Tooteteabe haldus loendilehel **Väljastatud tooted**.
+Iga tööjõu või kuluprognoosi rea kulu ja müügihind põhinevad seadistusel, mis on jaotises **Projektihaldus ja -arvestus** &gt; **Seadistus** &gt; **Hinnakujundus** olevates hinnatabelites igale kategooriale määratletud. Kaupade puhul lisatakse nende maksumus ja müügihind vaikimisi kaubalt või kaubanduslepetest mooduli Tooteteabe haldus loendilehel **Väljastatud tooted**.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Edenemise jälgimine WBS-is
 Mõnes valdkonnas jälgitakse projekti edenemist WBS-i suhtes väga detailsel tasemel, samas kui teistes jälgitakse edenemist WBS-i kõrgemal tasemel. See jaotis kirjeldab, kuidas WBS-i jälgimist projekti nõuete jaoks kasutada saab. 
 
-Microsoft Dynamics 365 toiminguteks on kolm vaadet projekti WBS: planeerimine vaade, vaeva jälgimise Vaata ja kulude jälgimine vaade.
+Rakendusel Microsoft Dynamics 365 for Operations on projekti WBS-i jaoks kolm vaadet: plaanimisvaade, panuse jälgimise kuva ja kulude jälgimine.
 
 ### <a name="planning-view"></a>Plaanimiskuva
 
@@ -177,7 +180,7 @@ Plaanimiskuva näitab graafiku ja kulu teabe plaanitud või alusprognoosi. Kuigi
 Panuse jälgimise kuval näidatakse ülesannete edenemise jälgimist WBS-is. See võrdleb ülesande kogunenud tegeliku panuse tunde plaanitud panuse tundidega. Panuse jälgimise kuva väärtused pärinevad järgmistest valemitest.
 
 -   Edenemise protsent = tegelik panus tänaseni ÷ ülesande plaanitud panus
--   Ülejäänud jõupingutusi (ka hinnangu--täitke \[jne\]) = planeeritud jõupingutusi-tegelik jõupingutusi seni
+-   Järelejäänud panus (teisisõnu prognoos lõpetamiseni \[ETC\]) = plaanitud panus – tegelik panus tänaseni
 -   Prognoos lõpetamisel (EAC) = järelejäänud panus + tegelik panus tänaseni
 -   Kavandatud panuse hälve = kavandatud panus – EAC
 
@@ -188,7 +191,7 @@ Panuse jälgimise kuval on ülesande panuse hälbe eeldus, mis põhineb sellel, 
 
 **Projektijuhi uus hinnang panuse kohta** Mõnikord on projektijuhil või muul isikul, kes projekti edenemist jälgib, vaja ülesande algseid prognoose parandada. Ülesanne võib liikuda mitmesugustel põhjustel kiiremini või aeglasemalt, kui algselt eeldatud. Näiteks võib ulatus väheneda või töötajatel olla algselt plaanitust vähem kogemusi. Eeldused on projektijuhi hinnang prognoosidele, tuginedes projekti praegusele olekule. Üldjuhul ei tohiks alusnumbreid muuta, kuna projekti alus kujutab endast projekti graafiku ja kuluprognoosi avaldatud dokumenti, millega kõik projekti sidusrühmad on nõustunud. 
 
-On kaks võimalust, et projektijuhid võib muuta püügikoormuse ülesandeid:
+On kaks viisi, kuidas projektihaldurid saavad muuta ülesannetel olevat panust.
 
 -   Järelejäänud panuse muutmine, mis on määratud automaatselt ülesande järelejäänud panust muutma.
 -   Edenemise protsendi muutmine, mis on määratud automaatselt ülesande tegelikku edenemist muutma.
@@ -222,7 +225,7 @@ Kulu jälgimise kuval on ülesande kulu hälbe eeldus, mis põhineb sellel, kas 
 **Projektijuhi uus hinnang kulu kohta** Projektijuhid peavad kasutama CTC-d ülesande algse kuluprognoosi parandamiseks. Projektijuht saab CTC väärtust muuta, määrates selleks kulu, mis on ülesande lõpuleviimiseks vajalik. CTC väärtuse muutmisel arvutatakse ülesande CTC, EAC ja tarbitud kulu protsent ning ülesande eeldatav kulu hälve ümber. Kokkuvõtvate ülesannete EAC, ETC ja tarbitud kulu protsent arvutatakse samuti ümber ja nende eeldatavat kulu hälvet muudetakse. 
 
 > [!NOTE] 
-> WBS ülesande jõupingutusi jälgimise vaates ülesande CTC, Kaaludes jõupingutusi muuta kulude osakaal tarbitud ja prognoositud maksumuse erinevus kõik arvutatakse kulu jälgimise vaade. Kuid kulu parandused ei mõjuta väärtusi panuse jälgimise kuval, kuna kulu kandetüübi alusel (tööjõud, materjal või kulu) ega projektikategooria alusel ei parandata. 
+> Kui parandate WBS-i ülesande panust panuse jälgimise kuval, arvutatakse ülesande CTC, EAC, tarbitud kulu protsent ja eeldatav kulu hälve kulu jälgimise kuval ümber. Kuid kulu parandused ei mõjuta väärtusi panuse jälgimise kuval, kuna kulu kandetüübi alusel (tööjõud, materjal või kulu) ega projektikategooria alusel ei parandata. 
 
 **Kulude eelduse parandamine kokkuvõtvate ülesannete puhul** Saate parandada kokkuvõtvate ülesannete kulusid ja arvutused toimuvad automaatselt järgmises järjekorras.
 
@@ -236,24 +239,24 @@ WBS-i jälgimise ja haldamise taseme määramiseks klõpsake kulu jälgimise kuv
 
 ### <a name="earned-value-management"></a>Plaanitud väärtuse haldamine
 
-Teenitud väärtuse meetodit (EVM) abil saate jälgida projekti edenemist. Saate vaadata teenitud väärtuse mõõdikuid projektijuhi rollikeskuses. Teenitud väärtuse diagrammi komponent kuvab teenitud väärtuse ja tegeliku kulu ajafaasi väärtused. Teenitud väärtus tänase kuupäeva seisuga kuvatakse punktina. Teenitud väärtuse ajafaasi andmed pole praegu saadaval. 
+Saate kasutada teenitud väärtuse meetodit (EVM) projekti edenemise jälgimiseks. Saate vaadata teenitud väärtuse mõõdikuid projektijuhi rollikeskuses. Teenitud väärtuse diagrammi komponent kuvab teenitud väärtuse ja tegeliku kulu ajafaasi väärtused. Teenitud väärtus tänase kuupäeva seisuga kuvatakse punktina. Teenitud väärtuse ajafaasi andmed pole praegu saadaval. 
 
 Teenitud väärtuse ajafaasi diagramm kuvatakse nädalate või kuude kaupa. Selles jaotises kirjeldatakse EVM-i kolme alustala: plaanitud väärtus, teenitud väärtus ja tegelik kulu. 
 
 **Plaanitud väärtus** EVM-i teooria väidab, et graafiku plaanitud väärtus kajastab määra, mille ulatuses projekti töörühm plaanis projekti puhul väärtust teenida. 
 
-Microsoft Dynamics 365 operatsioonide kasutab teenida reegel kui joonestab plaanitud väärtus 0:100. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
+Rakendus Microsoft Dynamics 365 for Operations kasutab plaanitud väärtuse plaanimisel 0:100 teenimisreeglit. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
 
 Moodulis Projektihaldus ja raamatupidamine sisestatakse lehe sõlmede lõppkuupäev ja plaanitud kulu. Kui plaanitud väärtuse graafik kuvatakse nädalakaupa, summeeritakse plaanitud väärtus nädalakaupa kõigi lehe sõlmülesannete puhul projekti vältel. 
 
 **Teenitud väärtus** EVM-i teooria väidab, et graafiku teenitud väärtus kajastab määra, mille ulatuses projekti töörühm tegelikult väärtust teenib. 
 
-Microsoft Dynamics 365 operatsioonide kasutab teenida reegel, kui tema krunti senine väärtus 0:100. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
+Rakendus Microsoft Dynamics 365 for Operations kasutab teenitud väärtuse plaanimisel 0:100 teenimisreeglit. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
 
 Teenitud väärtuse arvutamisel arvestatakse iga ülesande edenemise protsenti. 0:100 teenimise reegli alusel arvestatakse teenitud väärtuse arvutuses ainult antud perioodi lõpetatud ülesandeid selle perioodi lõpu seisuga. Projekti teenitud väärtus arvutatakse kõigi selle graafiku loomisel lõpetatud ülesannete kohta. 
 
 > [!NOTE] 
-> Praegu pole WBS jälgimise süsteemi andmete struktuurid säilitada ajaloolise arenguga protsendid iga ülesande. Seetõttu saab teenitud väärtuse kohta esitada andmeid ainult kuubi töötlemise aja seisuga. Töödelge kuupi regulaarselt rollikeskuses kuvatavate teenitud väärtuse andmete uuendamiseks. 
+> Praegu pole WBS-i jälgimise süsteemis andmestruktuure iga ülesande varasemate edenemisprotsentide talletamiseks. Seetõttu saab teenitud väärtuse kohta esitada andmeid ainult kuubi töötlemise aja seisuga. Töödelge kuupi regulaarselt rollikeskuses kuvatavate teenitud väärtuse andmete uuendamiseks. 
 
 **Tegelik kulu** EVM-i teooria väidab, et tegeliku kulu graafik kajastab projektis raha kulutamise määra. 
 
@@ -273,8 +276,8 @@ Kui perioodi tegelik kulu on suurem kui teenitud väärtus, kulutati rohkem raha
 
 Kui perioodi tegelik kulu on väiksem kui teenitud väärtus, teeniti rohkem raha, kui kulutati. Seetõttu on projekt alla eelarve.
 
-## <a name="wbs-templates"></a>WBS-i mallid
-WBS malle funktsiooni abil saate luua taotlusvormidele projektidele. Kui projektides, mida teie ettevõte pakun, on palju korratavat tööd, tuleks kaaluda WBS-i malli loomist. 
+## <a name="wbs-templates"></a>WBS mallid
+Saate kasutada WBS-i mallide funktsiooni, et projektide jaoks standardseid malle luua. Kui projektides, mida teie ettevõte pakun, on palju korratavat tööd, tuleks kaaluda WBS-i malli loomist. 
 
 Saate luua WBS-i malli olemasoleva projekti WBS-ist, et selle projekti plaanimise käigus kogutus teadmisi ja parimaid praktikaid saaks tulevikus sarnaste projektide puhul uuesti kasutada. Siiski ei pruugi mõnikord olla otstarbekas kogu WBS-i mallina salvestada. Seetõttu saate luua malle ka projekti WBS-i osadest.
 
@@ -313,5 +316,7 @@ Panus = ressursside arv × kestus × standardse tööpäeva tundide arv
 Saate parandada kõik plaanimisvead üheaegselt, klõpsates valikut **Paranda kõik plaanimisvead**. 
 
 Teine võimalus plaanimisvigade parandamiseks on parandada need eraldi, klõpsates iga ülesande puhul hoiatusikooni.
+
+
 
 

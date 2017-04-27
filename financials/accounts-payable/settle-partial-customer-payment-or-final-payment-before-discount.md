@@ -1,5 +1,5 @@
 ---
-title: "Lahendada osalise kliendi makse ja lõppmakse täielikult enne allahindlust"
+title: "Kliendi osalise makse ja lõpliku makse tasakaalustamine enne skonto kuupäeva"
 description: "See artikkel pakub stsenaariume näitamiseks, kuidas kirjendada kliendi osalisi makseid ja võtta skonto perioodil skontosid."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Lahendada osalise kliendi makse ja lõppmakse täielikult enne allahindlust
+# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Kliendi osalise makse ja lõpliku makse tasakaalustamine enne skonto kuupäeva
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel pakub stsenaariume näitamiseks, kuidas kirjendada kliendi osalisi makseid ja võtta skonto perioodil skontosid.
 
-Fabrikami müüb kauba kliendile 4028. Fabrikami pakub 1 protsenti allahindlust, kui arve on tasutud 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Lahendamise parameetrid asuvad ka **Müügireskontro parameetrid** lehel.
+Fabrikam müüb kaupu kliendile 4028. Fabrikam pakub skontot 1%, kui arve tasutakse 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Tasakaalustamise parameetrid asuvad lehel **Müügireskontro parameetrid**.
 
 ## <a name="customer-invoice"></a>Kliendiarve
-25. juuni Arnie siseneb ja postitusi arve kliendi 4028 1000.00 dollarit. Arnie saab vaadata seda kannet lehel** Kliendi kanded**.
+25. juunil sisestab Arnie kliendile 4028 arve summas 1000,00. Arnie saab vaadata seda kannet lehel** Kliendi kanded**.
 
 | Kanne   | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo  | Valuuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -63,14 +66,14 @@ Skonto summa vaatamiseks klõpsab Arnie vahekaarti **Skonto**.
 | 25.07.2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Osalise makse tegemine kasutades lehekülge Kliendimaksete sisestamine
-Kliendi 4028 saadab makse 500,00 1. juuli. Makse sisestamiseks klõpsake Arnie ei **read**. Selle asemel salvestab ta makse, luues uue maksetöölehe ja avades seejärel lehekülje **Kliendimaksete sisestamine**. Ta sisestab makseteabe ja märgib sisestatud arve. Kui Arnie sisestab summaks **500,00**, sisestab ta sama summa, **500,00**, ruudustiku väljal **Makstav summa**. Kuna Fabrikam võimaldab osaliste maksete jaoks skontot, näeb ta, et arvesse võetakse ka osalist skontot summas 5,05. Seda skontot arvutatakse järgmiselt: 500,00 ÷ 0,99 × 0,01 = 5,05. (Summa 500,00 jagatakse selles arvutuses 0,99-ga, kuna skonto on 1 protsent. Seetõttu tasub klient 99% arvest. Seejärel korrutatakse tulemus skonto protsendiga, mis on 1% ehk 0,01. Klient võtab 10.00 täis allahindlus, summa, mis tuleb lahendada korral 990.00.) Allahindluse teavet kuvatakse allosas on **sisestage kliendi maksed** lehel.
+Klient 4028 saadab makse 500,00 1. juulil. Selle makse sisestamiseks ei klõpsa Arnie nuppu **Read**. Selle asemel salvestab ta makse, luues uue maksetöölehe ja avades seejärel lehekülje **Kliendimaksete sisestamine**. Ta sisestab makseteabe ja märgib sisestatud arve. Kui Arnie sisestab summaks **500,00**, sisestab ta sama summa, **500,00**, ruudustiku väljal **Makstav summa**. Kuna Fabrikam võimaldab osaliste maksete jaoks skontot, näeb ta, et arvesse võetakse ka osalist skontot summas 5,05. Seda skontot arvutatakse järgmiselt: 500,00 ÷ 0,99 × 0,01 = 5,05. (Summa 500,00 jagatakse selles arvutuses 0,99-ga, kuna skonto on 1 protsent. Seetõttu tasub klient 99% arvest. Seejärel korrutatakse tulemus skonto protsendiga, mis on 1% ehk 0,01. Kui klient võtab täieliku allahindluse 10,00, peab tasakaalustatav summa olema 990,00. Allahindluse teave kuvatakse lehe **Sisesta kliendimaksed** lehe allservas olevas ruudustikus.
 
 | Skonto summa võtmiseks | Võetud skonto | Makstav summa |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Osalise makse tegemine töölehe ridu kasutades
-Arve sisestamiseks saab Arnie maksetöölehe lehekülje **Kliendimaksete sisestamine** asemel kasutada valikut **Read**. Kuvatakse maksežurnaali, kus Arnie saate sisestada ridu kliendi 4028. Seejärel avab Arnie lehe **Kannete tasakaalustamine**, et ta saaks märkida arve tasakaalustamiseks. Arnie märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **5,05**. Seetõttu tasakaalustab Arnie arve summas 505,05.
+Arve sisestamiseks saab Arnie maksetöölehe lehekülje **Kliendimaksete sisestamine** asemel kasutada valikut **Read**. Kuvatakse maksetööleht, kuhu Arnie saab sisestada rea kliendile 4028. Seejärel avab Arnie lehe **Kannete tasakaalustamine**, et ta saaks märkida arve tasakaalustamiseks. Arnie märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **5,05**. Seetõttu tasakaalustab Arnie arve summas 505,05.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -143,6 +146,8 @@ Arnie sisestab töölehe ja vaatab üle kliendi kanded leheküljel **Kliendikand
 | DISC‑10010 | Skonto    | 01.07.2015  |         |                                      | 5,00                                  | 0,00    | USA dollar      |
 | ARP‑10011  | Makse          | 08.07.2015  |         |                                      | 495,00                                | 0,00    | USA dollar      |
 | DISC‑10011 | Skonto    | 08.07.2015  |         |                                      | 5,00                                  | 0,00    | USA dollar      |
+
+
 
 
 

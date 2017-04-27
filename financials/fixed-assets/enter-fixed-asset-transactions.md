@@ -1,5 +1,5 @@
 ---
-title: "Põhivara kande Valikud"
+title: "Põhivarakannete valikud"
 description: "Selles artiklis kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-asset-transaction-options"></a>Põhivara kande Valikud
+# <a name="fixed-asset-transaction-options"></a>Põhivarakannete valikud
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise.
 
@@ -36,7 +39,7 @@ Põhivarad on võimalik integreerida ostureskontroga, müügireskontroga, hanke 
 Saate sisestada põhivarakanded lehele Töölehe kanne. Selle lehe saab avada lehelt Arve tööleht. Saate avada lehe Töölehe kanne ka lehelt Arve kinnitamise tööleht. Tehke väljal Vastaskonto tüüp valik Põhivara. Seejärel valige väljalt Vastaskonto põhivara number. Sisestage vahekaardil Põhivarad väärtused väljadele Kande tüüp ja Raamat.
 
 ## <a name="accounts-receivable"></a>Müügireskontro
-Põhivara saate sisestada vabas vormis arve lehel.  Vabas vormis arve lehel arve read ruudustiku, joone üksuse valimine Klõpsake kiirkaarti Rea üksikasjad. Sisestage likvideerimiskandele põhivara number ja raamat. Vabas vormis arvete puhul on põhivarakande tüübiks alati Likvideerimine – müük.
+Saate sisestada põhivarakanded lehele Vabas vormis arve.  Valige vabas vormis arve lehe ruudustikus Arve read reaüksus. Klõpsake kiirkaarti Rea üksikasjad. Sisestage likvideerimiskandele põhivara number ja raamat. Vabas vormis arvete puhul on põhivarakande tüübiks alati Likvideerimine – müük.
 
 ## <a name="procurement-and-sourcing"></a>Hanked
 Saate sisestada põhivarakanded lehele Ostutellimus. Sisestage ostutellimuse loomiseks vajalik teave ja klõpsake seejärel nuppu OK. Klõpsake lehel Ostutellimus kiirkaarti Rea üksikasjad. Seejärel sisestage vahekaardile Põhivara teave põhivara kohta. 
@@ -65,6 +68,8 @@ Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate p
 
 
 
-Lisateabe saamiseks vaadake [fikseeritud varade integratsiooni](fixed-asset-integration.md).
+Lisateavet leiate jaotisest [Põhivarade integreerimine](fixed-asset-integration.md).
+
+
 
 

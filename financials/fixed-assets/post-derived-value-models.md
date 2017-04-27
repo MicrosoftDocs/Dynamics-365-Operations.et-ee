@@ -1,5 +1,5 @@
 ---
-title: Posti saadud raamatud
+title: Sisestamine tuletatud raamatute kaudu
 description: Selles artiklis kirjeldatakse tuletatud raamatute kasutamist.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Posti saadud raamatud
+# <a name="post-with-derived-books"></a>Sisestamine tuletatud raamatute kaudu
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse tuletatud raamatute kasutamist.
 
@@ -49,11 +52,13 @@ Järgmine teave kirjeldab, kuidas seadistada tuletatud raamatu funktsiooni abil 
 
 Seejärel saab raamatud kindlate põhivaradega siduda. 
 
-Raamatu VM 1 põhivara soetamise sisestamisel siis sisestatakse see mitte ainult VM 1-le, vaid ka tuletatud raamat VM 2. Mõlemad raamatud põhivara olek uuendatakse olekuks avatud.
+Raamatuga VM 1 põhivara soetamise sisestamisel sisestatakse see mitte ainult raamatusse VM 1, vaid ka tuletatud raamatusse VM 2. Mõlema põhivara raamatu olekuks muutub Avatud.
 
 > [!NOTE]                                                                                                         
 > Kui te tuletatud raamatuid ei kasuta, tuleb teil soetamine sisestada nii raamatu VM 1 kui raamatu VM 2 kohta.
 
-Lisateabe saamiseks vaadake [saadud raamatud](derived-books.md)
+Lisateavet vt teemast [Tuletatud raamatud](derived-books.md)
+
+
 
 

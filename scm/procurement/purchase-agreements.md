@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Ostulepingud
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi. 
 
 Ostutellimused võivad kehtida konkreetsele tootekogusele, konkreetsele toote valuutasummale või konkreetsele toodete valuutasummale hankekategoorias. Ostulepingu hinnad ja allahindlused tühistavad mis tahes olemasolevates kaubanduslepetes määratud hinnad ja allahindlused.  
@@ -70,7 +73,7 @@ Alal **Leping** on näidatud koondkogus või koondsumma, mille puhul müügilepi
 Pääsete juurde ostutellimuse ridadele ja arveridadele, mis panustavad täitmise kalkulatsiooni, valides ridadel või ostulepingu päises tegevuse **Seotud teave**.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Ostulepingute kinnitused ja versiooniajalugu
-Kui kinnitate ostulepingu, salvestatakse ostulepingu praegune versioon ajalootabelisse. Kui muudate ostulepingut, saate selle uuesti kinnitada, et salvestada ajalukku ostulepingu teine versioon. Kui te ei kinnita ostulepingu, ikka kasutamist POs loomiseks. Kuid ajalugu teave müügileping ei ole salvestatud. Saate kõiki lepingu versioone eelvaadata või printida. Seejärel saate parandusi kinnituse saamiseks oma hankijaga jagada.
+Kui kinnitate ostulepingu, salvestatakse ostulepingu praegune versioon ajalootabelisse. Kui muudate ostulepingut, saate selle uuesti kinnitada, et salvestada ajalukku ostulepingu teine versioon. Kui te ostulepingut ei kinnita, saate seda siiski ostutellimuste koostamiseks kasutada. Kuid ostulepingu ajaloo teavet ei salvestata. Saate kõiki lepingu versioone eelvaadata või printida. Seejärel saate parandusi kinnituse saamiseks oma hankijaga jagada.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Ostulepingute kasutamine tellimisprotsessis
 Ostutellimuse koostamisel saate sellele ostulepingu rakendada. Lepingu tingimustest pärinev teave (nt maksetingimused, tarnetingimused ja tarneaadress) kopeeritakse siis ostutellimuse päisesse. Kui ostutellimus sisaldab vähemalt ühte rida ostulepingus määratud toodete ja kategooriate kohta, kasutatakse nende ridade puhul ostulepingu hindu ja allahindlusi. Tellimuse real olev summa või kogus panustab ostulepingu kohustuse täitmisse. Sama ostutellimus võib sisaldada mõlemat rida, mis ei ole seotud ostulepinguga ja ridadega, millel on ostulepingu kohustus.  
@@ -91,8 +94,10 @@ Saate kopeerida finantsdimensioonid dokumentide päistesse või ostutellimuse ü
 <a name="see-also"></a>Vt ka
 --------
 
-[Luua ostu-müügileping (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Ostulepingu loomine (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Ostu väljalaskeorderi loomine: ostu-müügileping (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Ostu väljalaskeorderi loomine ostulepingust (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Aruande koosluste lõpetatuna"
-description: "Selles artiklis kirjeldatakse koosluste lõpetatuna."
+title: "Koosluse lõpetatuks kinnitamine"
+description: "See artikkel käsitleb koosluste lõpetatuks märkimist."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-boms-as-finished"></a>Aruande koosluste lõpetatuna
+# <a name="report-boms-as-finished"></a>Koosluse lõpetatuks kinnitamine
 
-Selles artiklis kirjeldatakse koosluste lõpetatuna.
+[!include[banner](../includes/banner.md)]
 
-Lehti **Kinnita lõpetamine** ja **Max lõpetatuna kinnitatud** kasutatakse materjalikoosluste lõpetatuna kinnitamiseks. Põhimõtteliselt on koosluse lõpetamise kinnitamise protsess sama, mis tootmistellimuse lõpetamise kinnitamise protsess. Seda protsessi saab kasutada näiteks lihtsates komplekteerimisprotsessides, kus keerukamaid tootmistellimuste võimalusi pole vaja. Lehel **Kinnita lõpetamine** saate kinnitada partiina mitme koosluse lõpetamise. Selle **Max. kui lõpetatud aruanne** lehele saate ainult ühe koosluse lõpetatuna korraga. Selle **lõpetatuna** lehekülg on saadaval moodulis Laohaldus menüü-üksus ja mõlemad lehed on kättesaadavad, kui menüü üksuste kohta on **vabastatud toodete** lehel.
+
+See artikkel käsitleb koosluste lõpetatuks märkimist.
+
+Lehti **Kinnita lõpetamine** ja **Max lõpetatuna kinnitatud** kasutatakse materjalikoosluste lõpetatuna kinnitamiseks. Põhimõtteliselt on koosluse lõpetamise kinnitamise protsess sama, mis tootmistellimuse lõpetamise kinnitamise protsess. Seda protsessi saab kasutada näiteks lihtsates komplekteerimisprotsessides, kus keerukamaid tootmistellimuste võimalusi pole vaja. Lehel **Kinnita lõpetamine** saate kinnitada partiina mitme koosluse lõpetamise. Lehel **Max lõpetatuna kinnitatud** saate kinnitada korraga ainult ühe koosluse lõpetamise. Leht **Kinnita lõpetamine** on saadaval jaotise Laohaldus menüüelemendis ja mõlemad lehed on saadaval menüüelementidena lehel **Väljastatud tooted**.
 
 ## <a name="report-as-finished-page"></a>Leht Kinnita lõpetamine
 Kui avate väljastatud toote juures lehe **Kinnita lõpetamine**, soovitab leht, et kinnitaksite standardvaru vaikekoguse lõpetamise. Vaikimisi kuvatakse aktiivne koosluse versioon, kuid saate koosluse versiooni muuta, kui on muid kinnitatud versioone. Sellel lehel saate ka kustutada kirjeid ja luua uusi kirjeid toodetele, mille lõpetamine on vaja kinnitada. Päringu kasutamiseks toodete valimisel klõpsake menüüelementi **Vali**. Saate valitud toodete lõpetamise käsitsi kinnitada, klõpsates **OK**. Teine võimalus on seadistada pakktöötluse protsess. Kui lõpetamise kinnitamise protsess on kinnitatud, genereerib süsteem koosluse töölehe, kus töödeldakse varudesse sisestamist. See tööleht koosneb ühest valmis toote reaüksusest ja reaüksusest iga koosluse rea kohta. Saate juhtida, kas tööleht sisestatakse automaatselt või jäetakse täiendavaks kohandamiseks lahti.
 
-## <a name="max-report-as-finished-page"></a>Maks. Aruandes leheküljest
+## <a name="max-report-as-finished-page"></a>Maks. leht Kinnita lõpetamine
 Lehel **Max lõpetatuna kinnitatud** tähistab iga koosluse rida toote tükkide arvu, mille lõpetamist saab kinnitada. See arvutus põhineb iga materjalirea füüsilisel vabal kaubavarul. Järgmises näites tarbib üks ühik kaupa numbriga FG kaks ühikut toormaterjali RM10 ja ühe ühiku toormaterjali RM20. Kuna laos on ainult 10 ühikut RM10, on maksimaalne FG kogus, mille saab lõpetatuks kinnitada, viis ühikut. Väärtus kuvatakse väljal **Max lõpetatuna kinnitatud**.
 
 | Tase | Kaubakood | Kogus | Laoseis | Maks. Teata lõpetamisest |
@@ -68,7 +71,7 @@ Järgmistes tabelites on näidatud, kuidas väli **Koosnevus** mõjutab koosluse
 | 0     | FG          | 3        |
 | 1     | KOMP        | –3       |
 
-Nagu eelmises tabelis, vaid kaubakoodi COMP peetakse maha töölehel. Kirje number RM, mis COMP kuulub, ei ole plahvatas žurnaali reale ja COMP kahesugust vaba ei ole arvesse. **Koosnevus: alati**
+Nagu eelmine tabel näitas, käsitletakse töölehel mahaarvatuna ainult kaubakoodi KOMP. Kaubakood RM, mis on koodi KOMP osa, ei jaotata töölehe reale ja kahte laos olevat koodi KOMP ühikut ei arvestata. **Koosnevus: alati**
 
 | Tase | Kaubakood | Kogus |
 |-------|-------------|----------|
@@ -84,5 +87,7 @@ Sellisel juhul jagatakse kaubakood KOMP toormaterjaliks kaubakoodiga RM. Kahte l
 | 1     | RM          | –1       |
 
 Sellisel juhul arvestatakse kaubakoodi KOMP kahte laoühikut. Kuid kuna kaubakoodi FG on vaja kolm ühikut, on vaja ka ühte ühikut kaubakoodiga RM, et teha veel üks ühik kaupa KOMP.
+
+
 
 

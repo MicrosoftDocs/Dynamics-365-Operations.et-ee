@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Täiendamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse.
 
 Selles artiklis kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse. See teave ei kehti moodulis Varude haldus oleva ladustamislahenduse puhul. Saadaval on kolm täiendamise strateegiat.
@@ -67,6 +70,8 @@ Koorma nõudluse tõttu täiendamine summeerib nõudluse mitme koorma järele ja
 | Asukoha profiilid       | Asukohtade loomiseks on vajalikud asukohaprofiilid.                                                                                                                                                                                       |
 | Asukoha korraldus     | Asukohakorraldusi on vaja selleks, et juhtida töö asukohtadesse, kus täiendamine on vajalik, ja asukohtadesse, kust varusid hangitakse.                                                                                     |
 | Töömallid          | Töömallid tüübiga **Täiendamine** on vajalikud täiendamistöö loomiseks, et varud saaks soovitud asukohtadesse viia.                                                                                           |
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Krediitkaardi seadistamine, autoriseerimine ja hõivamine
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel annab ülevaate krediitkaardi autoriseerimisest Microsoft Dynamics AX-is. See sisaldab teavet makseteenuse seadistamise, krediitkaardi lisamise kohta müügitellimusele ja loa tühistamise kohta.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Krediitkaardi makseteenuse seadistamine
@@ -55,7 +58,7 @@ Saate nõuda kaardi kontrollnumbrit, millele mõnikord on viidatud ka kui kaardi
 
 ### <a name="address-verification"></a>Aadressi tõendamine
 
-Aadressi tõendamise teave saadetakse alati maksepakkujale. Saate otsustada, kui palju teavet on vaja tehingu heaks. Kindlasti küsige oma teenusepakkujalt määrata, kas ta aktsepteerib seda teavet. Siin on aadressi tõendamise võimalused.
+Aadressi tõendamise teave saadetakse alati maksepakkujale. Saate määrata kande aktseptimiseks nõutava teabe hulga. Kindlasti kontrollige oma pakkujalt, kas ta aktseptib seda teavet. Siin on aadressi tõendamise võimalused.
 -   **Luba kanne alati** – kanne aktseptitakse aadressi tõendamise tulemustest olenemata.
 -   **Kontoomanik** – kandel olevat kaardiomaniku nime võrreldakse krediitkaardi ettevõtte teabega.
 -   **Arveldusaadress** – kaardiomaniku nime ja arveldusaadressi kandel võrreldakse krediitkaardi ettevõtte teabega.
@@ -68,10 +71,12 @@ Igale toetatud krediitkaardile saate määrata andmete toe taseme. Tase kontroll
 -   **3. tase** – üle kantakse 2. taseme ja lisaks tellimuse rea teave.
 
 ## <a name="partial-payments"></a>Osalised maksed
-Kui lähetate tellimuse osa, osalise tellimuse summa on pildistatud ja luba, mis oli kogu tellimuse summa on suletud. Uut luba esitatakse seejärel ülejäänud summa mis pole lähetatud.
+Kui lähetate tellimuse osaliselt, hõivatakse osaline summa ja kogu tellimuse summale tehtud autoriseerimine suletakse. Seejärel tehakse järelejäänud lähetamata tellimuse summale uus autoriseerimine.
 
 ## <a name="voiding-an-authorization"></a>Autoriseerimise tühistamine 
 Krediitkaardi autoriseerimise tühistamiseks saate muuta makseviisi teise meetodi vastu, millel ei ole tüüpi Krediitkaart.
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil
 
+[!include[banner](../includes/banner.md)]
+
+
 Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid rakenduses Microsoft Dynamics 365 for Operations automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektroonilise pangaväljavõtte importimine
@@ -74,7 +77,7 @@ Pangaväljavõtte kannete vastendamiseks või vastavusse viimiseks on kolm võim
 -   Kannete vastendamine tühistava pangaväljavõtte kandega.
 -   Märkige kanded väärtusega **Uus**, et neid saaks hiljem rakenduses Dynamics 365 for Operations pangakannetena sisestada.
 
-Käsitsi kattu tehingutega, valige tehingute ning **panga pangaväljavõtte tehingute** grid, valige vastavate tehingute ning **toimingute tehingu** võrku ja seejärel klõpsake **vasta**. Valitud vastendamata kanded viiakse ülemistesse ruutudesse ja vastendatud kanded alumistesse ruutudesse. Lisaks värskendatakse vastendatud ja vastendamata koondsummasid. Kande vastavused võivad olla üks-ühele, mitu ühele ja mitu mitmele. Vastavused peavad järgima reegleid lubatud kuupäevaerinevuste ja kandetüübi vastendamise kohta. Need reeglid on määratud lehel **Sularaha- ja pangahalduse parameetrid**.
+Kannete käsitsi vastendamiseks valige kanded ruudustikus **Pangaväljavõtte kanded**, valige ruudustikus **Operationsi pangakanded** vastavad kanded ja klõpsake siis käsku **Vastenda**. Valitud vastendamata kanded viiakse ülemistesse ruutudesse ja vastendatud kanded alumistesse ruutudesse. Lisaks värskendatakse vastendatud ja vastendamata koondsummasid. Kande vastavused võivad olla üks-ühele, mitu ühele ja mitu mitmele. Vastavused peavad järgima reegleid lubatud kuupäevaerinevuste ja kandetüübi vastendamise kohta. Need reeglid on määratud lehel **Sularaha- ja pangahalduse parameetrid**.
 
 Vastavusseviimises võib ilmneda sendierinevusi. Saate vastendada üksiku pangaväljavõtte kande üksiku Operationsi pangakandega, millel on sendierinevusi, kui sendierinevused jäävad pangakonto väljal **Lubatud sendierinevus** määratud lubatud hälbe piiridesse. Summa kuvatakse vastendatud Operationsi pangakande väljal **Parandussumma**. Kui panga vastavusseviimine märgitakse vastavusseviiduks, sisestatakse parandused automaatselt, kasutades põhikontot, mis on määratletud seostatud pangakande tüübis. Parandusi ei toetata dokumendi tüüpide **Tšekk** ja **Deposiit** puhul. 
 
@@ -90,5 +93,7 @@ Pärast kõigi väljavõtte ridade töötlemist tuleb märkida tööleht Panga v
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Vastendusega seotud uute kannete sisestamine
 Pangaväljavõtte kanded, mis märkisite vastavusseviimise töölehel väärtusega **Uus**, sisestatakse lehele **Pangaväljavõte**. Valige lehelt **Pangaväljavõte** väljavõtte üksikasjade vaatamiseks väljavõtte ID. Menüüs **Raamatupidamine** saate kasutada valikuid **Jaotuste kuvamine** ja **Raamatupidamise kuvamine** uute kannete ja seotud pearaamatukannete üksikasjade vaatamiseks. Tehke valik **Sisesta** väärtusega **Uus** märgitud pangaväljavõtte ridade sisestamiseks pearaamatusse. Pange tähele, et sisestamine saab toimuda vaid üks kord pangaväljavõtte kohta.
+
+
 
 

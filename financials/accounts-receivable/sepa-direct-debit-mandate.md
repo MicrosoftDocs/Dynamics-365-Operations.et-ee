@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>SEPA otsedeebeti loa häälestamine
 
+[!include[banner](../includes/banner.md)]
 
 
-Ühtse euromaksete piirkonna (Single Euro Payment Area, SEPA) otsekorraldus võimaldab kreeditoril võtta vahendeid kliendi pangakontolt eeldusel, et klient on andnud kreeditorile allkirjastatud loa. Kliendi allkirjastatud luba volitab kreeditori makset koguma ja annab kliendi pangale juhise see välja maksta. See teema on korraldatud näidata SEPA otsekorralduse volituste loomise protsessi.
+
+
+Ühtse euromaksete piirkonna (Single Euro Payment Area, SEPA) otsekorraldus võimaldab kreeditoril võtta vahendeid kliendi pangakontolt eeldusel, et klient on andnud kreeditorile allkirjastatud loa. Kliendi allkirjastatud luba volitab kreeditori makset koguma ja annab kliendi pangale juhise see välja maksta. See teema on korraldatud nii, et näidata SEPA otsedeebeti mandaatide seadistamise protsessi.
 
 ## <a name="prerequisites"></a>Eeltingimused
 Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse loomiseks täidetud.
@@ -37,15 +40,17 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Riik/regioon | Juriidilise isiku peamine aadress peab olema järgmistes riikides/regioonides: Austria, Belgia, Saksamaa, Hispaania, Prantsusmaa, Itaalia või Holland. |
 
-1. Otsekorralduse volituste numbriseeria seadistatud iga direct debit mandaadi peab olema kordumatu number. Looge lehel **Numbriseeriad** otsekorralduse lubade numbriseeria. Selle identifikaatoriga määrate numbriseeria otsekorralduse lubade süsteemile lehel **Müügireskontro parameetrid**.
+1. Seadistage otsedeebeti lubade jaoks numbriseeria. Igal otsedeebeti loal peab olema unikaalne number. Looge lehel **Numbriseeriad** otsekorralduse lubade numbriseeria. Selle identifikaatoriga määrate numbriseeria otsekorralduse lubade süsteemile lehel **Müügireskontro parameetrid**.
 
-2. Seadista Müügireskontro parameetrid otsekorralduse volituste kasutamise eest ning **Müügireskontro parameetrid** lehe otsekorralduse volituste parameetrite seadistamiseks. Saate seadistada parameetreid, edasi on **otse** sakk, muuta väärtused, kui vaja. Siis on **Numbriseeriad** vahekaardil, muudetud on **otsene deebet mandaadi ID** numbriseeriaga, mille seadistasite varem välja.
+2. Müügireskontro parameetrite seadistamine otsedeebeti mandaatidele Kasutage lehte **Müügireskontro parameetrid**, et otsedeebeti lubade jaoks parameetreid seadistada. Parameetrite seadistamiseks muutke vahekaardil **Otsedeebet** muutke vaikeparameetreid vastavalt vajadusele. Seejärel vahekaardil **Numbriseeriad** värskendage välja **Otsedeebeti loa ID** varasemalt seadistatud numbriseeriaga.
 
-3. Koostatud maksevahendina, otsekorralduse mandaatide te peate seadistama otsekorralduse volituste maksmise meetod. Selle makseviisiga saate teha päringuid arvete kohta, mille jaoks loote otsekorralduse makseid. Seadistage lehel **Makseviisid** makseviis. Otsekorralduse lubadele makseviisi seadistamiseks tuleb järgida makseviisi puhul neid lisajuhiseid.
+3. Otsedeebeti lubade makseviisi seadistamine Peate otsedeebeti lubade jaoks maksemeetodi seadistama. Selle makseviisiga saate teha päringuid arvete kohta, mille jaoks loote otsekorralduse makseid. Seadistage lehel **Makseviisid** makseviis. Otsekorralduse lubadele makseviisi seadistamiseks tuleb järgida makseviisi puhul neid lisajuhiseid.
 
 -   Tehke väljal **Makse tüüp** valik **Elektrooniline makse**.
--   Valikuline: Kui iga teie klientidel on mitu mandaatide, mis on **perioodi** valige **arve**. Iga arve kohta luuakse tasuma eraldi ja iga makse kasutab volitusi, mis on määratud arve.
+-   Valikuline: kui ootate, et igal kliendil on mitu luba, valige väljal **Periood** suvand **Arve**. Sel juhul luuakse iga arve kohta eraldi makse ja iga makse kasutab arve jaoks määratud luba.
 -   Valige **Nõua luba** maksete loomiseks otsekorralduse lubadega. Valik **Nõua luba** on saadaval ainult juhul, kui teete valiku **Elektrooniline makse** väljal **Makse tüüp**.
 
-Vt ka [otsekorralduse ülevaade](sepa-direct-debit-overview.md) 
+Vaadake ka teemat [Otsekorralduse ülevaade](sepa-direct-debit-overview.md) 
+
+
 

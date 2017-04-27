@@ -1,6 +1,6 @@
 ---
-title: "Hiljuti lisatud ülesande Recorder redigeerimise funktsioonid"
-description: "Kui ülesande Salvesti abil saate luua ülesandeks juhendid, saate muuta failide rohkem tõhusalt kasutades kirjeldas see wiki."
+title: Hiljuti lisatud redigeerimisfunktsioonid tegevuse salvestajas
+description: "Kui kasutate tegevuse salvestajat tegevusjuhiste loomiseks, saate redigeerida faile tõhusamalt, kasutades selles vikis kirjeldatud funktsioone."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,58 +25,58 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Hiljuti lisatud ülesande Recorder redigeerimise funktsioonid
+# <a name="recently-added-editing-features-in-task-recorder"></a>Hiljuti lisatud redigeerimisfunktsioonid tegevuse salvestajas
 
-Kui ülesande Salvesti abil saate luua ülesandeks juhendid, saate muuta failide rohkem tõhusalt kasutades kirjeldas see wiki.
+Kui kasutate tegevuse salvestajat tegevusjuhiste loomiseks, saate redigeerida faile tõhusamalt, kasutades selles vikis kirjeldatud funktsioone.
 
-Need funktsioonid on saadaval ka **seaded &gt;ülesanne salvesti &gt;Redigeeri salvestamise** menüü.
+Need funktsioonid on saadaval menüüs **Sätted &gt; Tegevuse salvestaja &gt; Salvestise redigeerimine**.
 
--   Lisada järgmiselt, ilma uuesti lindistamise kogu faili.
--   Uuestilindistamise kogu faili liikuda sub tööülesande juhiseid.
--   Ahenda väljad registreerimise nimi ja kirjeldus.
+-   Etappide lisamine kogu faili uuesti salvestamata.
+-   Etappide teisaldamine alamülesande all kogu faili uuesti salvestamata.
+-   Salvestise nime ja kirjelduse väljade ahendamine.
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Lisada järgmiselt, ilma kogu faili rerecording
-Nüüd saate samm kõikjal ülesande juhises taasesitamisel või Uuestilindistamise kogu faili.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Etappide lisamine kogu faili uuesti salvestamata
+Nüüd saab lisada tegevusjuhises kõikjale etapi, ilma kogu faili taasesitamata või uuesti salvestamata.
 
-1.  Valige samm, mille soovite lisada uue sammu. Veenduge, et samm on esile tõstetud.
+1.  Valige etapp, mille järele soovite uue etapi lisada. Veenduge, et etapp oleks esile tõstetud.
 
-Et ülesanne salvesti lisamiseks samm, peab olema õige akent lahti. Õige lehekülg on leht, millel ilmneb uue sammu. Ülesanne recorder on mehhanism, mis määrab, mida aktiivse lehe on, ja näidatakse funktsiooni keelamiseks, kui õige lehe pole avatud. 
+Selleks, et tegevuse salvestaja etapi lisaks, peab olema lahti õige leht. Õige leht on leht, millel uus etapp toimub. Tegevuse salvestajal on mehhanism, mis määrab aktiivse lehe ja keelab funktsiooni, kui lahti pole õige leht. 
 
-[![TG1](./media/tg1.png)](./media/tg1.png) 
+[![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Kui olete õige lehe **lisa samm** saadakse.
+Kui olete õigel lehel, muutub valik **Sisesta etapp** kättesaadavaks.
 
-[![TG2](./media/tg2-231x300.png)](./media/tg2.png)
+[![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Klõpsake **lisa samm**.
+2. Klõpsake nuppu **Sisesta etapp**.
 
-Kui klõpsate **lisa samm**, ülesanne salvesti lülitub rekord. Et UI nüüd salvestab ega lisatud kohapeal samme.
+Nupu **Sisesta etapp** klõpsamisel lülitub tegevuse salvestaja salvestusrežiimi. Nüüd salvestatakse ja lisatakse etappidena mis tahes kasutajaliideses tehtud toiming.
 
-3. Klõpsake **Peata**.
+3. Klõpsake käsku **Peata**.
 
-Korrake protsessi, arvu samme lisama või teisaldama sinna nii palju sub-ülesanded vastavalt vajadusele (vt allpool sub-ülesanded).
+Saate protsessi korrata, lisades või teisaldades vajaliku hulga etappe (vt alamülesandeid altpoolt).
 
-4. Kui lõpetate redigeerimise ülesanne juhend, klõpsake **teinud toimetamine**, üks võimalusi salvestamist või avaldamist ülesande juhend.
+4. Kui olete tegevusjuhise redigeerimise lõpetanud, klõpsake nuppu **Muutmine on lõpetatud** ja tehke siis üks valik tegevusjuhise salvestamiseks või avaldamiseks.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Liikuda alamtoimingu meetmeid kogu faili rerecording
-Liigutada saab all tööülesande juhiseid taasesitamisel või Uuestilindistamise kogu faili. Saate teisaldada ka sub ülesanne samm või end sub ülesanne samm kui grupeerimiseks kehtiv grupierandi samme.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Etappide teisaldamine alamülesande all kogu faili uuesti salvestamata
+Etappe saab alamülesande all teisaldada, kogu faili taasesitamata või uuesti salvestamata. Samuti võite teisaldada alamülesande etapi või lõpu alamülesande etapi, kui soovite olemasoleva etapiploki grupeerida.
 
-1.  Valige samm või sub ülesanne samm, mida soovite teisaldada. Veenduge, et samm esile.
-2.  Selle kolmikpunkt, klõpsake käsku **liikuda samm pärast**.
+1.  Valige etapp või alamülesande etapp, mida soovite teisaldada. Veenduge, et etapp oleks esile tõstetud.
+2.  Klõpsake ellipsit ja seejärel valikut **Teisalda etapp pärast**.
 
-[![TG3](./media/tg3.png)](./media/tg3.png)
+[![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Valige samm või sub ülesanne samm, mida soovite liikuda samm või sub ülesanne samm pärast. Ülesanne salvesti liigub samm.
+3. Valige etapp või alamülesande etapp, mille järele soovite etapi või alamülesande etapi teisaldada. Tegevuse salvestaja teisaldab etapi.
 
-4. End sub ülesanne samm teisaldada, valige see, klõpsake selle kolmikpunkt, klõpsake **liikuda samm pärast**, ja seejärel valige samm, mille järel soovite end sub ülesanne samm olema.
+4. Lõpu alamülesande etapi teisaldamiseks valige see, klõpsake ellipsit, klõpsake valikut **Teisalda etapp pärast** ja seejärel valige etapp, mille järele soovite lõpu alamülesande etapi paigutada.
 
-Kui soovite ülesande juhend sub ülesande raames olla esimene samm, luua all ülesanne samm teises järgus ja seejärel liikuge esimene samm selle suunas. Saate lisada või teisaldada nii palju samme või sub-ülesanded vastavalt vajadusele.
+Kui soovite, et tegevusjuhise esimene etapp oleks alamülesande sees, siis looge alamülesande etapp teise etapina ja teisaldage siis esimene etapp selle sisse. Lisada või teisaldada saab nii palju etappe või alamülesandeid, kui vaja.
 
-5. Kui lõpetate redigeerimise ülesanne juhend, klõpsake **teinud toimetamine**, üks võimalusi salvestamist või avaldamist ülesande juhend.
+5. Kui olete tegevusjuhise redigeerimise lõpetanud, klõpsake nuppu **Muutmine on lõpetatud** ja tehke siis üks valik tegevusjuhise salvestamiseks või avaldamiseks.
 
-## <a name="collapse-recording-name-and-description"></a>Ahenda salvestuse nimi ja kirjeldus
-Saate laiendada või ahendada ning **salvestamine nime** ja **salvestamise kirjeldus** väljad. Kui need väljad on ahendatud, järgmist paani redigeerimise ülesanne Recorder nähtavad. 
+## <a name="collapse-recording-name-and-description"></a>Salvestise nime ja kirjelduse ahendamine
+Välju **Salvestise nimi** ja **Salvestise kirjeldus** saab laiendada ja ahendada. Kui need väljad ahendada, on tegevuse salvestaja redigeerimispaanil näha rohkem etappe. 
 
 [![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
@@ -85,6 +85,6 @@ Saate laiendada või ahendada ning **salvestamine nime** ja **salvestamise kirje
 
 [Dokumentide või koolituse loomine tegevuse salvestiste abil](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Ülesanne salvesti kiiret ülevaadet](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Tegevuse salvestaja kiirviide](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

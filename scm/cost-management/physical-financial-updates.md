@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="physical-and-financial-updates"></a>Füüsilised ja finantsilised värskendamised
 
+[!include[banner](../includes/banner.md)]
+
+
 Käesolev teema annab ülevaate selle kohta, millised kande tüübid suurendavad või vähendavad laokoguseid. 
 
-Laokannete saab füüsiliselt uuendatud ja rahaliselt värskendada Microsoft Dynamics 365 toiminguteks. Mõnd tüüpi füüsilised ja finantsilised kanded suurendavad varude koguseid ja mõned teised tüübid vähendavad koguseid.
+Laokandeid saab füüsiliselt värskendada ja finantsiliselt värskendada Microsoft Dynamics 365 for Operationsis. Mõnd tüüpi füüsilised ja finantsilised kanded suurendavad varude koguseid ja mõned teised tüübid vähendavad koguseid.
 
 ## <a name="physical-increases"></a>Füüsiline suurendamine
 Kui füüsiline kanne on sisestatud, on kande kirje olek **Vastu võetud**. Järgmisi kandeid peetakse füüsilisteks tõusudeks:
@@ -49,10 +52,10 @@ Kui finantsilise sissetuleku kanne on sisestatud, on kogust suurendava kande kir
 -   Positiivse koguse laotöölehed, nt liikumine, kasum ja kaotus, inventuur, kooslus ja üleviimine
 
 ## <a name="transactions-that-increase-quantity"></a>Kanded, mis suurendavad kogust
-Kogust suurendavad kanded sisestatakse jooksva keskmise omahinnaga. Dynamics 365 operatsioonide arvutab maksumus iga kõnealuste tehingute iga laodimensiooni, millega jälgitakse rahaliselt põhineva töötab keskmine omahind. Lisateavet jooksva keskmise omahinna kohta vt jaotisest [Jooksev keskmine omahind](running-average-cost-price.md).
+Kogust suurendavad kanded sisestatakse jooksva keskmise omahinnaga. Dynamics 365 for Operations arvutab jooksva keskmise omahinna, mis põhineb iga finantsiliselt jälgitava varude dimensiooni iga kande kulul. Lisateavet jooksva keskmise omahinna kohta vt jaotisest [Jooksev keskmine omahind](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Kanded, mis vähendavad kogust
-Dynamics 365 operatsioonide kasutab arvutatud töötab keskmise omahinna kanne, mille kogus väheneb konteerimisel, sõltumata varude mudel, mis on seotud nimestikku. Kogust vähendav kanne ei tohi enne sisestamist teise kande juurde märgitud olla. Kui tegelik vaba laoseis muutub negatiivseks, Dynamics 365 operatsioonide kasutab määratletud kauba varude maksumuse ning **kauba** lehel. **Märkus.** Kui mitme asukoha funktsioon on lubatud, on see kulu asukohale lehel **Tellimuse vaikesätted** määratud varude kulu.
+Dynamics 365 for Operations kasutab arvutatud keskmist jooksvat omahinda, kui sisestatakse kanne, mis vähendab kogust, sõltumata sellest, milline varude mudel on selle laovaruga seostatud. Kogust vähendav kanne ei tohi enne sisestamist teise kande juurde märgitud olla. Kui füüsiline vaba kaubavaru muutub negatiivseks, kasutab Dynamics 365 for Operations kaubale lehel **Kaup** määratud laokulu. **Märkus.** Kui mitme asukoha funktsioon on lubatud, on see kulu asukohale lehel **Tellimuse vaikesätted** määratud varude kulu.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Füüsilised väljaminekud vs rahalised väljaminekud
 Kui füüsilise väljamineku kanne on sisestatud, on kande kirje olek **Maha arvatud**. Järgmisi kandeid peetakse füüsilisteks väljaminekuteks:
@@ -69,5 +72,7 @@ Kui finantsiline kanne on sisestatud, on kande kirje olek **Müüdud**. Järgmis
 -   Negatiivse koguse laotöölehed, nt liikumine, kasum ja kaotus, inventuur, kooslus ja üleviimine
 
 Kogust vähendavad kanded sisestatakse jooksva keskmise omahinnaga. Seega on vajalik laosulgemisprotseduur väljaminekukannete tasakaalustamiseks sissetulekukannetega igale kaubale määratud laomudeli alusel.
+
+
 
 

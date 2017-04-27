@@ -1,5 +1,5 @@
 ---
-title: Pakkematerjalid ja -tasud
+title: Pakkematerjalid ja tasud
 description: "Pakkematerjalitasud makstakse jäätmekäitlusfirmale kindlate perioodide kaupa. Iga materjali eest, millest pakkimisühik koosneb, tuleb maksta summa kaaluühiku kohta. Pakkematerjalitasud arvutatakse ja esitatakse, kuid ühtegi pearaamatukannet ei sisestata, sest need tasud ei ole riigile makstavad maksud."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="packing-materials-and-fees"></a>Pakkematerjalid ja -tasud
+# <a name="packing-materials-and-fees"></a>Pakkematerjalid ja tasud
+
+[!include[banner](../includes/banner.md)]
+
 
 Pakkematerjalitasud makstakse jäätmekäitlusfirmale kindlate perioodide kaupa. Iga materjali eest, millest pakkimisühik koosneb, tuleb maksta summa kaaluühiku kohta. Pakkematerjalitasud arvutatakse ja esitatakse, kuid ühtegi pearaamatukannet ei sisestata, sest need tasud ei ole riigile makstavad maksud.
 
@@ -52,7 +55,7 @@ Müügitellimuse rea loomisel kontrollib süsteem, kas kaubale on määratud pak
 ## <a name="packing-units-on-purchase-order-lines"></a>Pakkimisühikud ostutellimuse ridadel
 Süsteem ei loo ostutellimuse rea pakkematerjali kandeid. Arveldatud ostutellimuse ridade kanded luuakse käsitsi lehel **Pakkematerjali kanded**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Packagingmaterialfee kliendi litsentsinumbrite seadistamine
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Kliendi pakkematerjali tasude litsentsinumbri seadistamine
 Kui kliendid maksavad pakkematerjali tasud, määrake klientide pakkematerjali tasu litsentsinumber lehel **Kliendid**. Kui kliendile on määratud litsentsinumber, arvutatakse pakkematerjali tasud müügitellimuste arveldamisel automaatselt. Pärast arve esitamist tühjendatakse märkeruut **Arvuta tasu** lehel **Pakkematerjali kanded**, kuna teil pole vaja aruannet arvutada ja printida. Saate valida pakkematerjali kaalu printimise arvele ja teavitada kliente, et nemad maksavad tasud. 
 
 Kui teie ettevõte maksab pakkematerjali tasusid, siis ärge kliendi litsentsinumbreid määrake. Pärast arveldamist märgitakse ruut **Arvuta tasu** lehel **Pakkematerjali kanded**. See näitab, et tasud arvutatakse aruande loomisel. Saate printida arvele kaalud ja näidata, et teie ettevõte maksab tasud.
@@ -60,6 +63,8 @@ Kui teie ettevõte maksab pakkematerjali tasusid, siis ärge kliendi litsentsinu
 ## <a name="print-packaging-material-weights-on-invoices"></a>Pakkematerjali kaalu printimine arvetele
 Saate printida arvele ka pakkematerjali kaalu ja näidata, kes maksab arvel näidatud pakkematerjali tasud. Kaalud summeeritakse pakkimiskoodi järgi.
  
+
+
 
 
 

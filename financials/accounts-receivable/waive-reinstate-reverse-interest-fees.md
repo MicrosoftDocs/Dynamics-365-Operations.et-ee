@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Intressimäärade nõudest loobumine, selle ennistamine või tühistamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse, kuidas loobuda, ennistada ja tagasi pöörata intressi ja tasude kulusid.
 
 Võite kasutada nuppe loendilehe **Kõik kliendid** vahekaardil **Kogu**, et tasude nõudest loobuda, neid tühistada või ennistada.
@@ -43,7 +46,7 @@ Kõik need tegevused muudavad viivisearvet. Viivisearve on äridokument, mis tea
 | Tühistage täielikud viivisearved. või Tühistage valitud intressikanded, mis on osa viivisearvetest. **Märkus.** Te ei saa tühistada tasu. Siiski saate tühistada kogu viivisearve, mis sisaldab tasu. | Tasusid ei nõuta enam kliendilt sisse. Intressi ümberarvutamisel tekib tasude nõue siiski uuesti. | Protsess on sama, nagu viivisearvetest või valitud intressikannetest loobumise protsess. Kliendi jaoks luuakse kreeditarve või korrigeerimisarve. Kreeditarvet kasutatakse viivisearve automaatseks tasakaalustamiseks. Eraldi protsessi abil saate ümber arvutada intressi ja luua uue viivisearve.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> Samuti saate eraldi protsess võlad maha. See protsess märgib tasakaalustamiseks kõik kliendi kanded, selle asemel, et loobuda üksnes nendest tasudest, mis on viivisearvete osad.
+> Lootusetute võlgade mahakandmiseks saate kasutada ka eraldi protsessi. See protsess märgib tasakaalustamiseks kõik kliendi kanded, selle asemel, et loobuda üksnes nendest tasudest, mis on viivisearvete osad.
 
 ## <a name="adjust-interest-for-invoices"></a>Arvete intressi korrigeerimine
 Lisaks viivisearvete korrigeerimisele saate arvetelt intressitasusid eemaldada, kasutades ühte järgmistest toimingutest. Mõlemad protsessid korrigeerivad ka seotud viivisearveid.
@@ -89,5 +92,7 @@ Saate intressikanded tühistada, kasutades nuppu **Kande intress** lehe **Klient
 Saate vaadata viivisearvetes tehtud korrigeerimiste üksikasjalikku ajalugu, näiteks korrigeerimise sisestanud kasutajat, korrigeerimise tüüpi, summat ja sisestamise aega. Näiteks võite vaadata viivisearvele sisestatud eelmisi korrigeerimisi enne uue viivisearve loomist. 
 
 Saate intressikanded tühistada, kasutades nuppu **Ajalugu **lehe **Klient** vahekaardil **Kogu**.
+
+
 
 

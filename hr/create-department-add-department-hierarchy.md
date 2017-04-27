@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Osakonna loomine ja selle seostamine osakonnahierarhiaga
 
+[!include[banner](includes/banner.md)]
+
+
 Osakond on tootmisüksus, mis esindab organisatsiooni kategooriat või funktsionaalset ala. Osakond vastutab organisatsiooni kindla valdkonna eest, nagu müük, raamatupidamine või inimressursid. Saate osakondi kasutada funktsionaalsete alade aruannete koostamiseks. Osakonnad võivad vastutada kasumi ja kahjumi eest.
 
-Osakond võib sisaldada kulukeskuste gruppi. Ametikohti saab määrata osakondadele. Osakonna loomiseks klõpsake **töötajate**&gt;**osakondade**&gt;**osakonna**. Järgmises tabelis kirjeldatakse saadaolevate väljade.
+Osakond võib sisaldada kulukeskuste gruppi. Ametikohti saab määrata osakondadele. Osakonna loomiseks klõpsake valikuid **Inimressursid** &gt; **Osakonnad** &gt; **Osakonnad**. Järgmises tabelis on kirjeldatud saadaolevaid välju.
 
 | Väli               | Kirjeldus                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,12 +49,14 @@ Osakond võib sisaldada kulukeskuste gruppi. Ametikohti saab määrata osakondad
 
 Osakonna lisamiseks osakonnahierarhiasse toimige järgmiselt.
 
-1.  Klõpsake **töötajate**&gt;**osakondade**&gt;**osakonna hierarhia**.
+1.  Klõpsake valikuid **Inimressursid** &gt; **Osakonnad** &gt; **Osakonnahierarhia**.
 2.  Klõpsake suvandit **Redigeeri** ja valige seejärel organisatsioon, mille alla peaks osakond kuuluma.
 3.  Klõpsake suvandit **Sisesta** ja valige loendist suvand **Osakond**.
 4.  Valige ilmuvast osakondade loendist hierarhiasse lisatav osakond.
-5.  Salvestage muudatused. Kuvatakse teade, et kavand hierarhia loomist.
-6.  Kui olete valmis, klõpsake **avalda** hierarhia kujundaja. Sisestage jõustumise kuupäev, mis näitab, millal tuleks avaldada hierarhia. Näiteks uue osakonna lisamiseks järgmise kalendriaasta alguses määrake jõustumiskuupäevaks uue kalendriaasta 1. jaanuar. Muudatused hierarhias jüustuvad sel kuupäeval.
+5.  Salvestage muudatused. Saate teate, et loodud on hierarhia mustandversioon.
+6.  Kui olete lõpetanud, klõpsake hierarhiakujundajas valikut **Avalda**. Saate sisestada jõustumiskuupäeva, mis näitab, millal hierarhia avaldada. Näiteks uue osakonna lisamiseks järgmise kalendriaasta alguses määrake jõustumiskuupäevaks uue kalendriaasta 1. jaanuar. Muudatused hierarhias jüustuvad sel kuupäeval.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Majandusliku tulemuslikkuse Power BI sisu
-description: "Selles teemas kirjeldatakse Microsoft Dynamics 365 tegevuse tulemuslikkuse sisu pakendi Microsoft Power BI. See kirjeldab armatuurlaua ja aruanded, mis on kaasatud sisu pack ja andmemudel ja üksuste, ehitada sisu pakendi kasutatud teavet."
+title: Finantstulemuste Power BI sisu
+description: "See teema kirjeldab Microsoft Power BI-le mõeldud Microsoft Dynamics 365 for Operationsi finantstulemuste sisupaketti. See kirjeldab ka sisupaketis sisalduvaid armatuurlauda ja aruandeid ja annab teavet andmemudeli ja üksuste kohta, mida sisupaketi loomiseks kasutati."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,23 +24,26 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Majandusliku tulemuslikkuse Power BI sisu
+# <a name="financial-performance-power-bi-content"></a>Finantstulemuste Power BI sisu
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 tegevuse tulemuslikkuse sisu pakendi Microsoft Power BI. See kirjeldab armatuurlaua ja aruanded, mis on kaasatud sisu pack ja andmemudel ja üksuste, ehitada sisu pakendi kasutatud teavet.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Juurdepääsu sisu pakendi
+
+See teema kirjeldab Microsoft Power BI-le mõeldud Microsoft Dynamics 365 for Operationsi finantstulemuste sisupaketti. See kirjeldab ka sisupaketis sisalduvaid armatuurlauda ja aruandeid ja annab teavet andmemudeli ja üksuste kohta, mida sisupaketi loomiseks kasutati.
+
+<a name="accessing-the-content-pack"></a>Juurdepääs sisupaketile
 --------------------------
 
-Kaks versiooni tulemuslikkuse sisu pack on saadaval. Üks versioon on saadaval alates Microsoft Dynamics elutsükli teenused (LCS) ja teine on saadaval PowerBI.com.
+Saadaval on kaks finantstulemuste sisupaketi versiooni. Üks versioon on saadaval teenuste Microsoft Dynamics Lifecycle Services (LCS) kaudu ja teine PowerBI.com-ist.
 
--   **Versioon on saadaval LCS:** The tulemuslikkuse sisu pack, mis on saadud LCS toetab Microsoft Dynamics 365 toiminguid versiooni 1611. Sisu pack leiad jagatud varade kogu lcs. Lae sisu pakendi ja ühendada oma Microsoft Dynamics 365 toimingute andmete kohta lisateabe saamiseks vt [Power BI sisu LCS Microsofti ja oma partnerite](power-bi-content-microsoft-partners.md).
--   **Versioon on saadaval: PowerBI.com:** The tulemuslikkuse sisu pack, mis on saadud PowerBI.com toetab Microsoft Dynamics AX-i versiooni 7.0 kui 7.0.1. Kuidas ühendada ja laadida oma Dynamics 365 toimingute andmete kohta lisateabe saamiseks vaadake [juurdepääsu Power BI sisu: PowerBI.com](power-bi-home-page.md).
+-   **LCS-ist saadaolev versioon.** LCS-ist saadaolev finantstulemuste sisupakett toetab rakenduse Microsoft Dynamics 365 for Operations versiooni 1611. Sisupaketi leiate LCS-i ühiste vahendite teegist. Lisateavet sisupaketi allalaadimise ja selle ühendamise kohta Microsoft Dynamics 365 for Operationsi andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
+-   **Power.BI.com-ist saadaolev versioon.** Power.BI.com-ist saadaolev finantstulemuste sisupakett toetab rakenduse Microsoft Dynamics AX versioone 7.0 ja 7.0.1. Lisateavet lahenduse Dynamics 365 for Operations andmete ühendamise ja laadimise kohta vt jaotisest [Juurdepääs Power BI sisule saidilt PowerBI.com](power-bi-home-page.md).
 
-## <a name="main-account-setup"></a>Peamine konto seadistamine
-Sest organisatsioonide kohustuste ja tulude summad kuvada aruannetes positiivsete summadena, tema asjaomase Dynamics 365 operatsioonide seadistamine on oluline. Nende peamine kontode esitatud positiivsete summadena, peamine konto tüüp peab olema seatud **kohustuste** või **tulu**. Kontotüübi kasutamisel tagasikäigu märgid ja positiivseks summade kaudu Microsoft Power BI.
+## <a name="main-account-setup"></a>Põhikonto seadistus
+Kuna organisatsioonid soovivad kuvada kohustused ja tulusummad aruannetel positiivsete summadena, on põhikontode seadistus rakenduses Dynamics 365 for Operations oluline. Selleks, et need põhikontod kuvataks positiivsete summadena, peab põhikonto tüübiks olema määratud **Kohustus** või **Tulu**. Kui kasutatakse neid kontotüüpe, pööratakse aruande koostamisel Microsoft Power BI kaudu märgid ümber ja näidatakse summasid positiivsena.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Armatuurlaua ja aruanded, mis on kaasatud sisu pack
-Pärast sisupaketi ühendamist Dynamics 365 for Operationsi andmetega näitavad armatuurlaud ja aruanded teie finantsandmeid. Kui te pole varem Power BI enne, saab õppida rohkem sellest on [juhindub õppe lehekülg Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Armatuurlaud sisaldab aluseks olevatel aruannetel põhinevate andmete kokkuvõtlikke paane. Iga paan sisaldab kõigi organisatsiooni ettevõtete jooksva aasta kohta kokkuvõtlikku teavet. Siin on mõned kaardid:
+## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad töölaud ja aruanded
+Pärast sisupaketi ühendamist Dynamics 365 for Operationsi andmetega näitavad armatuurlaud ja aruanded teie finantsandmeid. Kui te pole Power BI-d varem kasutanud, saate selle kohta lisateavet lehelt [Power BI juhendatud õpe](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Armatuurlaud sisaldab aluseks olevatel aruannetel põhinevate andmete kokkuvõtlikke paane. Iga paan sisaldab kõigi organisatsiooni ettevõtete jooksva aasta kohta kokkuvõtlikku teavet. Siin on mõned neist paanidest.
 
 -   Sularaha
 -   Kogu tulu sellel aastal
@@ -56,13 +59,13 @@ Pärast sisupaketi ühendamist Dynamics 365 for Operationsi andmetega näitavad 
 -   Kasumi määr sellel aastal
 -   Tegelikud vs eelarvelised kulud – kõik ettevõtted
 
-Iga plaat on tagatud täiendava lühiaruande. Need aruanded sisaldavad nii teavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
+Iga paan on varustatud toetava aruandega. Need aruanded sisaldavad nii teavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
 
 | Aruanne                      | Teave, mida aruanne sisaldab                                                                                                                                                                                                                                                                                                          |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sularaha analüüs               | Juriidilise isiku, kvartali sularaha, kokku raha ja raha kontolt raha **Märkus:** selle **raha kvartali alusel** aruanne ei sisalda algusest kaalud kogumahus korda. See kuvatakse uusi kandeid, mis sisestatakse iga kvartali kogusumma.                                                                                |
+| Sularaha analüüs               | Sularaha juriidilise isiku järgi, sularaha kvartali järgi, kogu sularaha ja sularaha konto järgi **Märkus:** aruanne **Sularaha kvartali järgi** ei sisalda esimese kvartali koondsummas algsaldosid. Sellel on näha igas kvartalis sisestatud uute kannete koondsumma.                                                                                |
 | Lühiajalise kohustuse kattekordaja analüüs      | Lühiajalise kohustuse kattekordaja juriidilise isiku järgi, lühiajalise kohustuse kattekordaja kvartali järgi ning käibevara ja lühiajaliste kohustuste saldod.                                                                                                                                                                                                                              |
-| Likviidsuskordaja analüüs        | Maksevõime kordaja juriidilise isiku poolt, likviidsuskordaja kvartali ja raha, saldosid moodustab müügi- ja praegused kohustused                                                                                                                                                                                                                      |
+| Likviidsuskordaja analüüs        | Likviidsuskordaja juriidilise isiku järgi, likviidsuskordaja kvartali järgi ja sularaha, müügireskontro ja lühiajaliste kohustuste saldod                                                                                                                                                                                                                      |
 | Tuletusreegli analüüs | Tuletusreegel (COGS) juriidilise isiku järgi, COGS sellel aastal ja eelmisel aastal kvartali järgi, COGS müügile juriidilise isiku järgi, kogu COGS ja COGS müügiprotsendile                                                                                                                                                                                   |
 | Käibekapitali analüüs    | Käibekapital juriidilise isiku järgi, käibekapital kvartali järgi, käibevara, lühiajalised kohustused ja kogu käibekapital                                                                                                                                                                                                                   |
 | Vara ja võla analüüs     | Tagastus kogumaksumuselt ja võlgnevus varadele kokku juriidilise isiku järgi, võlgnevus varadele kokku ja tagastus kogumaksumuselt kvartalis praeguse kuupäevani, varad ja kohustused.                                                                                                                                                                                     |
@@ -71,17 +74,17 @@ Iga plaat on tagatud täiendava lühiaruande. Need aruanded sisaldavad nii teave
 | Tulude analüüs           | Tegelikud ja eelarvelised tulud enne intressi ja makse (EBIT) juriidilise isiku järgi, EBIT sellel aastal ja eelmise aastal, kulud tulu suhtes protsent ning tegelikud ja eelarvelised kulud tulu suhtes                                                                                                                                                          |
 | Tulu analüüs            | Kogutulu, tegelik ja eelarveline kogutulu juriidilise isiku järgi, kogutulu sellel ja eelmisel aastal, tulueelarve hälve juriidilise isiku järgi ning kogutulu sellel ja eelmisel perioodil                                                                                                                                                 |
 | Kuluanalüüs            | Kogukulud, tegelikud eelarveliste kogukulude suhtes juriidilise isiku järgi, tegelik ja eelarveline kogukulu kvartali järgi, kogukulud konto kategooria järgi ning tegevuskulude suhe                                                                                                                                                                 |
-| Arveldatud tulu analüüs     | Kokku, kokku laekumata arved juriidilise isiku poolt, debitoorne võlgnevus kvartali alusel ja saldod kontode debitoorse **Märkus:** aruanded ei sisalda, algab saadaolevad pearaamatu kontode algsaldod. Nad näitavad uusi kandeid, mis on sisestatud kontodele saadaolevad kokku. |
+| Arveldatud tulu analüüs     | Kogu müügireskontro, kogu müügireskontro juriidilise isiku järgi, kogu müügireskontro kvartali järgi ja müügireskontro kontode saldod **Märkus:** aruanded ei sisalda müügireskontro pearaamatukontode algsaldosid. Need näitavad müügireskontrosse sisestatud uute kannete koondsummat. |
 
 Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinnitada armatuurlauale. Power BI-s filtreerimise ja kinnitamise kohta lisateabe saamiseks vaadake teemat [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Andmed, mida asustab armatuurlaua ja aruanded tulemuslikkuse sisu Pack on Dynamics 365 toimingute andmed. Sisu pack aluseks olid järgmised üksused: **koondab andmed üksused**
+Andmed, millega armatuurlaud ja aruanded finantstulemuste sisupaketis täidetakse, on Dynamics 365 for Operationsi andmed. Sisupaketi alusena kasutati järgmiseid üksuseid: **Koondandmete üksused**
 
--   **GeneralLedgerActivities** – selle olemi koondab pearaamatu saldod, konto järgi.
--   **BudgetActivities** – selle olemi koondab eelarvesaldod konto järgi.
+-   **GeneralLedgerActivities** – see üksus koondab pearaamatu saldod konto kategooria järgi.
+-   **BudgetActivities** – see üksus koondab eelarvesaldod konto kategooria järgi.
 
-**Data entities**
+**Andmeüksused**
 
 -   FiscalCalendars
 -   MainAccounts
@@ -89,7 +92,7 @@ Andmed, mida asustab armatuurlaua ja aruanded tulemuslikkuse sisu Pack on Dynami
 -   Pearaamatud
 -   ChartofAccounts
 
-Need üksused olid saab luua arvutatud mõõtmeid andmemudel. Arvutatud mõõtmeid, kasutatakse tulemuslikkuse võtmenäitajate (KPI) ja aruanded, mida kasutatakse sisu Pack. Vaikimisi toob sisupakett sisse viimase kolme aasta ja ühe tulevase aasta andmed. Aruannetesse ja armatuurlauale lisaarvutuste kaasamiseks saate muuta [Microsoft Exceli töövihikut](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). See töövihik on vaikimisi andmemudel, mida kasutati sisupaketi loomiseks. Kui olete lõpetanud muudatuste tegemise, saate luua organisatsioonilise sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
+Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Arvutatud mõõtusid kasutatakse sisupaketis kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Vaikimisi toob sisupakett sisse viimase kolme aasta ja ühe tulevase aasta andmed. Aruannetesse ja armatuurlauale lisaarvutuste kaasamiseks saate muuta [Microsoft Exceli töövihikut](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). See töövihik on vaikimisi andmemudel, mida kasutati sisupaketi loomiseks. Kui olete lõpetanud muudatuste tegemise, saate luua organisatsioonilise sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
 
 ## <a name="additional-resources"></a>Lisaressursid
 Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
@@ -98,6 +101,8 @@ Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomise
 -   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI paanide lisamine tööruumidele](configure-power-bi-integration.md)
+
+
 
 
 

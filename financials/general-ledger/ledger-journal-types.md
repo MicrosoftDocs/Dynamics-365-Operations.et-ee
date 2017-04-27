@@ -1,6 +1,6 @@
 ---
 title: "Pearaamatu töölehe tüübid"
-description: "Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Töölehe nimed lehe abil saate seadistada töölehti, mida saab kasutada kogu Microsoft Dynamics 365 toiminguteks."
+description: "Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage töölehe nimede lehte Microsoft Dynamics 365 for Operationsis kasutatavate töölehtede seadistamiseks."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>Pearaamatu töölehe tüübid
 
-Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Töölehe nimed lehe abil saate seadistada töölehti, mida saab kasutada kogu Microsoft Dynamics 365 toiminguteks.
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage töölehe nimede lehte Microsoft Dynamics 365 for Operationsis kasutatavate töölehtede seadistamiseks.
 
 | Töölehe tüüp                      | Eesmärk                                                                                                                                                                                                                                                                                                                                                     | Sisestage kanded sellel lehel                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -55,11 +58,13 @@ Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede
 | Hankija pangaülekanne            | Looge võlatähe ülekandefail, mida saab saata teie organisatsiooni panka.                                                                                                                                                                                                                                                                      | Rahaülekande tööleht                                             |
 | Maksed hankijale               | Looge hankija väljaminekukanne.                                                                                                                                                                                                                                                                                                                    | Maksetööleht                                                |
 | Hankija koostatud võlatäht       | Koostage hankija võlatäht makseviisina. Selle töölehe tüübi kasutamiseks kustutage suvand **Koostamise töölehe automaatne loomine ja sisestamine arvete sisestamisel** lehel **Makseviisid – hankijad**.                                                                                                                                          | Koosta võlatähe tööleht                                   |
-| Hankija arve bassein ilma sisestamine | Looge hankija arve kanded, mida ei ole veel ajutisele saabumiskontole sisestatud.                                                                                                                                                                                                                                                             | Hankija arve kaust ilma sisestamise üksikasjadeta                  |
+| Hankija arvete kaust, v.a sisestamine | Looge hankija arve kanded, mida ei ole veel ajutisele saabumiskontole sisestatud.                                                                                                                                                                                                                                                             | Hankija arve kaust ilma sisestamise üksikasjadeta                  |
 | Hankija arvete kaust               | Looge hankija arve kausta kanded.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Hankijaarvete kirjendamine          | Sisestage hankija arved, mis on töölehel.                                                                                                                                                                                                                                                                                                                 | Arve tööleht                                                |
 | Hankija uuesti koostatud võlatäht     | Koostage uuesti võlatäht, mille teie organisatsiooni pank on eelnevalt tasunud.                                                                                                                                                                                                                                                                      | Koosta võlatähe tööleht uuesti                                 |
 | Hankija tasakaalustatud võlatäht     | Looge hankija tasakaalustatud võlatähe kanded.                                                                                                                                                                                                                                                                                                          | Tasakaalusta võlatähe tööleht                                 |
+
+
 
 
 

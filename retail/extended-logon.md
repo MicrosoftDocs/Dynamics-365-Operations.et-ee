@@ -1,5 +1,5 @@
 ---
-title: Laiendatud sisselogimise funktsiooni seadistamise pilve POS ja MPOS
+title: "Pilve kassasse ja MPOS‑i laiendatud sisselogimise funktsiooni seadistamine"
 description: "See viki käsitleb võimalusi laiendatud sisselogimise seadistamiseks Cloud POS-is ja Retail Modern POS-is (MPOS)."
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Laiendatud sisselogimise funktsiooni seadistamise pilve POS ja MPOS
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Pilve kassasse ja MPOS‑i laiendatud sisselogimise funktsiooni seadistamine
 
 See viki käsitleb võimalusi laiendatud sisselogimise seadistamiseks Cloud POS-is ja Retail Modern POS-is (MPOS).
 
 <a name="setting-up-extended-logon"></a>Laiendatud sisselogimise seadistamine
 =========================
 
-Leiad setup vöötkoodi maskid kell **hulgi- ja kaubanduse**&gt;**kanali seaded**&gt;**POS seadistus**&gt;**POS profiilid**&gt;**funktsioonid profiilid**. Kiirkaart **Funktsioonid** sisaldab järgmisi laiendatud sisselogimisega seotud suvandeid.
+Vöötkoodi maskide seadistuse leiate järgmist teed pidi: **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa profiilid** &gt; **Funktsiooniprofiilid**. Kiirkaart **Funktsioonid** sisaldab järgmisi laiendatud sisselogimisega seotud suvandeid.
 
 ### <a name="staff-bar-code-logon"></a>Personali vöötkoodi sisselogimine
 
@@ -53,7 +53,7 @@ Kui suvand **Personali kaardiga sisselogimisel on nõutav parool** on lubatud, v
 <a name="assigning-an-extended-logon"></a>Laiendatud sisselogimise määramine
 ===========================
 
-Vaikimisi saavad töötajatele laiendatud sisselogimist määrata ainult juhid. Laiendatud sisselogimise määramiseks minge **laiendatud sisselogimise** Pos. Seejärel sisestada oma kasutaja ID väljale Otsing töötaja otsing. Valige töötaja ja klõpsake seejärel nuppu **Määra**. Järgmisel leheküljel tehke töötajale laiendatud sisselogimise määramiseks kaaarditõmme või ‑skann. Kui kaarditõmme või ‑skann on edukalt loetud, ilmub nupp **OK**. Töötajale laiendatud sisselogimise salvestamiseks klõpsake nuppu **OK**.
+Vaikimisi saavad töötajatele laiendatud sisselogimist määrata ainult juhid. Laiendatud sisselogimise määramiseks avage kassas valik **Laiendatud sisselogimine**. Seejärel otsige töötajat, sisestades otsinguväljale tema operaatori ID. Valige töötaja ja klõpsake seejärel nuppu **Määra**. Järgmisel leheküljel tehke töötajale laiendatud sisselogimise määramiseks kaaarditõmme või ‑skann. Kui kaarditõmme või ‑skann on edukalt loetud, ilmub nupp **OK**. Töötajale laiendatud sisselogimise salvestamiseks klõpsake nuppu **OK**.
 
 <a name="deleting-an-extended-logon"></a>Laiendatud sisselogimise kustutamine
 ==========================

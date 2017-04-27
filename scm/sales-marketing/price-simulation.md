@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Hinnasimulatsioon
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet pakkumiste hinnasimulatsiooni kohta. Hinnasimulatsiooni abil saate hinnata mahaarvamiste mõju tulevasele müügihinale pakkumise protsessi ajal, enne kui määrate kindla hinna.
 
 Pakkumise hinnasimulatsioon näitab uut koondsummat, mis põhineb uuel soovituslikul hinnal. Hinnasimulatsioon võib kuvada ka olemasoleva pakkumise konkreetse rea uue summa. Saate sisestada hinnasimulatsiooni ja selle hiljem rakendada. Teise võimalusena võite kasutada esialgset pakkumist ilma hinnasimulatsioonita ja teha veel muudatusi, kui koos kliendiga müügiprotsessis edasi liigute.  
@@ -50,7 +53,7 @@ Et tagada allahindluste ja hindade õige arvestamine, olge allahindlusega pakkum
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Allahindluste tüübid kaubanduslepetes
 
-Kaubanduslepingute Microsoft Dynamics 365 meetmeteks võib olla nelja tüüpi allahindlusi. Neid allahindlusi saab kasutada erinevate kaupade, klientide või hinnagruppide puhul ning neid saab piirata kuupäevaga. Valearvestuste vältimiseks peab hinnasimulatsioonide tegemisel kaubandusleppeid arvestama. Siin on nelja tüüpi allahindlused kaubanduslepetes.
+Microsoft Dynamics 365 for Operationsi kaubanduslepetel võib olla nelja tüüpi hinna allahindlusi. Neid allahindlusi saab kasutada erinevate kaupade, klientide või hinnagruppide puhul ning neid saab piirata kuupäevaga. Valearvestuste vältimiseks peab hinnasimulatsioonide tegemisel kaubandusleppeid arvestama. Siin on nelja tüüpi allahindlused kaubanduslepetes.
 
 -   **Müügihind** – kaupadele saab määrata eraldi müügihinnad. Pakkumise ridade loomisel otsib programm õiget kauba müügihinda ja kannab selle pakkumise ridadele. Seetõttu ei mõjuta sellise allahindlusega kaubanduslepe hinnasimulatsiooni. Pakkumise real kasutatav müügihind kajastab kaubanduslepet.
 -   **Rea allahindlus** – kaupadele määratakse spetsiaalsed allahindlused, olenevalt tellitud kogusest. Rea summasid vähendatakse harilikult rea allahindluse võrra enne hinnasimulatsiooni tegemist. Seetõttu mõjutab sellise allahindlusega kaubanduslepe hinnasimulatsiooni.
@@ -141,5 +144,7 @@ Käivitate hinnasimulatsiooni ja rakendate 10-protsendise lõppallahindluse BR-1
 | Uus summaarne osamaksu määr                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93%   |
 
 Hinnasimulatsioon mõjutab ainult rida, millele see on rakendatud, ja vähendab selle rea koondsummat.
+
+
 
 

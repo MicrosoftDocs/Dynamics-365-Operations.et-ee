@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Mittetootmiskeskkonna standardkulude värskendamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse juhiseid mittetootmiskeskkonna standardkulude värskendamise kohta.
 
 Järgmised juhised eeldavad, et kasutate kaheversioonilist lähenemist standardkulu värskendamiseks. Selles lähenemises sisaldab üks kuluarvutuse versioon standardkulusid, mis määratleti algselt külmutatud perioodiks, ja teine kuluarvutuse versioon sisaldab astmelisi värskendusi. Iga värskendus sisestatakse teise kuluarvutuse versiooni kuuluva kulukirjena ja lubatakse lõpuks. Teine võimalus on üheversiooniline lähenemine, mis kasutab algselt määratletud standardkulude kogumit. Kaheversiooniline lähenemine nõuab teise kuluarvutuse versiooni määratlemist. Siin on juhised selle kuluarvutuse versiooni määratlemiseks.
@@ -46,6 +49,8 @@ Uute kaupade standardsete kulude parandamiseks, korrigeerimiseks või värskenda
 4.  Kasutage lehte **Kuluarvutuse versiooni hooldus** blokeerimislipu muutmiseks, et lubada teises kuluarvutuse versioonis sisalduvate ootel kulukirjete aktiveerimine.
 5.  Kasutage lehte **Hindade aktiveerimine** (mille saab avada lehelt **Kuluarvutuse versiooni hooldus**) kõigi teises kuluarvutuse versioonis sisalduvate ootel kauba kulukirjete aktiveerimiseks. Ootel kulukirjeid saab aktiveerida ka eraldi kaupade kohta, klõpsates nuppu **Ootel hinna aktiveerimine** lehel **Kauba hind**.
 6.  Täiendava andmete hoolduse vältimiseks kasutage lehte **Kuluarvutuse versiooni seadistus** blokeerimislippude muutmiseks, et lubada teises kuluarvutuse versioonis sisalduvate ootel kulukirjete aktiveerimine. Blokeerimispoliitikad takistavad uute ootel kulude sisestamist ja ootel kulude aktiveerimist.
+
+
 
 
 

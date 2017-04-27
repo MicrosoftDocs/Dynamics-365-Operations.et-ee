@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Auditipoliitika rikkumised ja juhtumid
 
+[!include[banner](../includes/banner.md)]
+
+
 Artiklis selgitatakse, kuidas auditi poliitikareeglite rikkumistest auditijuhtumeid luuakse. See sisaldab ka teavet erinevate viiside kohta, kuidas auditireeglite kasutavad dokumendi valimise kuupäevavahemikku.
 
 <a name="how-audit-cases-are-generated"></a>Auditijuhtumite loomine
@@ -39,10 +42,10 @@ Auditipoliitikaid käitatakse pakktöötlusrežiimis. Auditipoliitika käitamise
 
 Iga poliitika reegel hindab dokumentide kogumit. Poliitika reegel valib dokumendid, mis on dokumendi valiku kuupäevavahemikus ja mis ühtivad määratud kriteeriumidega. Näiteks võib üks poliitika reegel valida kuluaruanded, milles on menüüd, mis ületavad 50,00. Teine poliitika reegel võib valida hankija arved, mis tuleb tasuda kindlale hankijale. Iga kogumis valitud dokumendi puhul luuakse rikkumine. See rikkumine on kirje selle kohta, et konkreetne dokument, nt arve 12345, ei ole poliitika reegliga kooskõlas. 
 
-Mitme auditi rikkumise kirjed on grupeeritud kokku ja seostatakse auditijuhtumitega. Vaikimisi grupeeritakse iga auditipoliitika juhtumid auditipoliitika reegli järgi. Soovi korral saate valida muud grupeerimiskriteeriumid, kasutades lehte **Juhtumite grupeerimise kriteeriumid**. Näiteks saate rühmitada kulu päised projekti ID ja hankija arve makselehed kontode kaupa. Sel juhul jaotatakse kõik kulud päise rikkumisi, mis on sama projekti ID samas asjas ja kõik sama hankija hankija arved on paigutatud samas asjas. 
+Mitme auditi rikkumise kirjed on grupeeritud kokku ja seostatakse auditijuhtumitega. Vaikimisi grupeeritakse iga auditipoliitika juhtumid auditipoliitika reegli järgi. Soovi korral saate valida muud grupeerimiskriteeriumid, kasutades lehte **Juhtumite grupeerimise kriteeriumid**. Näiteks saate grupeerida kulupäiseid projekti ID ja hankija arveid hankija konto järgi. Sel juhul grupeeritakse kõik sama projekti ID-ga kulu päise rikkumised samasse juhtumisse ja samasse juhtumisse grupeeritakse ka kõik sama hankija kontoga hankija arved. 
 
 > [!NOTE]
-> Auditi poliitika eeskirjad, mis põhinevad on **dubleerida** Päringutüüp, rikkumised ei ole grupeeritud juhendi või kriteeriume, mis on ära toodud selle **juhtum grupeerimiskriteeriumid** lehel. Selle asemel grupeeritakse need auditipoliitika reeglisse integreeritud kriteeriumide alusel. Näiteks kui poliitika reegel hindab kuluaruandeid sama summa, kaupmehe ID ja kuupäeva dubleeritud kulude puhul, on kõik kulud, millel on neil väljadel samad väärtused, üks juhtum. Kõik kulud, millel on erinevad väärtused, on eraldi juhtum.
+> Auditipoliitika reeglite puhul, mis põhinevad päringu tüübil **Duplikaat**, ei grupeerita rikkumisi poliitika reegli või kriteeriumide järgi, mis on määratud lehel **Juhtumite grupeerimise kriteeriumid**. Selle asemel grupeeritakse need auditipoliitika reeglisse integreeritud kriteeriumide alusel. Näiteks kui poliitika reegel hindab kuluaruandeid sama summa, kaupmehe ID ja kuupäeva dubleeritud kulude puhul, on kõik kulud, millel on neil väljadel samad väärtused, üks juhtum. Kõik kulud, millel on erinevad väärtused, on eraldi juhtum.
 
 Pärast auditi juhtumite loomist käsitsetakse neid juhtumihalduse tüüpiliste protsesside abil.
 
@@ -56,6 +59,8 @@ Järgmiselt on toodud muud moodused, mil auditi poliitika dokumendi valiku kuup�
 -   Poliitika reeglite puhul, mis põhinevad päringu tüübil **loendiotsing**, hindab poliitika dokumente jälgitavate üksuste osas, mis jõustuvad dokumendi valiku kuupäevavahemiku viimasel päeval.
 
 
-Lisateabe saamiseks vaadake [auditi üldeeskirjad](audit-policy-rules.md)
+Lisateavet vt teemast [Auditipoliitika reeglid](audit-policy-rules.md)
+
+
 
 

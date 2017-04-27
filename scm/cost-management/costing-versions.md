@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Kuluversioonid
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet kuluversioonide, nende haldamise ja nendesse kaastavate andmetüüpide kohta. Kuluversiooni peaeesmärk hõlmab kaupade, kulukategooriate kulukirjeid ja kaudsete kuluarvutuste arvutusvalemeid.
 
 Kuluversioon saab pakkuda üht või mitut eesmärki, olenevalt kuluversioonis olevatest andmetest. Kuluversiooni peaeesmärk hõlmab kaupade, kulukategooriate kulukirjeid ja kaudsete kuluarvutuste arvutusvalemeid. Kuluversioon võib sisaldada standardsete kulukirjete kogumit või planeeritud kulukirjete kogumit, mis põhinevad kuluversioonile määratud kulutüübil.
@@ -63,5 +66,7 @@ Ostuhinna andmete lubamise peamine eesmärk on koostiskaupade ostuhinna kirjete 
 Ostuhinna sisu lubamiseks tuleb esmalt määratleda koosluse arvutusgrupp, mis sisaldab kauba ostuhinna omahinna mudelit, ja määrata see koosluse arvutusgrupp ostetud kaupadele. Seejärel saate kasutada koosluse kalkulatsioonigrupi omahinna mudelit, kui teete koosluse arvutusi, milles kasutatakse plaanitud kulusid toodetud kaupade müügihinna arvutamiseks. 
 
 Viiteteabena kasutatakse ka kaupade ostuhinna kirjeid. Kauba ostuhinna kirje oleku muutmisega olekust **Ootel** olekusse **Aktiivne** saate uuendada kauba baasostuhinda. Kuid baasostuhind pole laoalapõhine ja seda saab käsitsi alistada. Kauba baasostuhinda kasutatakse ostutellimustes vaikeostuhinnana.
+
+
 
 

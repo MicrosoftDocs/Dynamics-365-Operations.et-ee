@@ -1,5 +1,5 @@
 ---
-title: "Lahendada osalise hankija makse hinnaalandi kuupäeva enne lõpliku makse hinnaalandi kuupäeva pärast"
+title: "Hankija osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva"
 description: "Selles artiklis läbitakse stsenaarium, kus tehakse mitu osalist makset, mõned skontoperioodil ja teised väljaspool skontoperioodi."
 author: twheeloc
 manager: AnnBe
@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Lahendada osalise hankija makse hinnaalandi kuupäeva enne lõpliku makse hinnaalandi kuupäeva pärast
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Hankija osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis läbitakse stsenaarium, kus tehakse mitu osalist makset, mõned skontoperioodil ja teised väljaspool skontoperioodi.
 
-Fabrikami ostab kauba hankija 3057. Fabrikami saab 1 protsenti allahindlust, kui arve on tasutud 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Hankija lubab Fabrikamil kasutada skontosid ka osaliste maksete korral. Lahendamise parameetrid asuvad ka **Ostureskontro parameetrid** lehel.
+Fabrikam ostab kaubad hankijalt 3057. Fabrikam saab 1 protsenti skontot, kui arve tasutakse 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Hankija lubab Fabrikamil kasutada skontosid ka osaliste maksete korral. Tasakaalustamise parameetrid asuvad lehel **Ostureskontro parameetrid**.
 
 ## <a name="invoice-on-june-25"></a>Arve 25. juunil
-25. juuni aprill siseneb ja postitusi 1000.00 dollarit 3057 hankija arve. April saab vaadata seda kannet lehel **Hankija kanded**.
+25. juunil sisestab April hankijale 3057 arve summas 1000,00. April saab vaadata seda kannet lehel **Hankija kanded**.
 
 | Kanne   | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo   | Valuuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10020 | Arve          | 25.06.2015 | 10020   |                                      | 1 000,00                              | –1000.00 | USA dollar      |
 
 ## <a name="partial-payment-on-july-2"></a>Osaline makse 2. juulil
-2. juulil soovib April tasakaalustada sellest arvest 300.00. Makse puhul on õigus arvestada allahindlust, kuna Fabrikam arvestab osalistelt maksetelt allahindlust. Seetõttu maksab April 297.00 ja arvestab allahindlust 3.00. Ta loob maksežurnaali ja sisestab rea hankija 3057. Ta avab selle **paralleelkäibe** lehekülg, nii et ta saate märkida arve tasakaalustamiseks.
+2. juulil soovib April tasakaalustada sellest arvest 300.00. Makse puhul on õigus arvestada allahindlust, kuna Fabrikam arvestab osalistelt maksetelt allahindlust. Seetõttu maksab April 297.00 ja arvestab allahindlust 3.00. Ta loob maksetöölehe ja sisestab hankijale 3057 rea. Ta avab seejärel lehe **Kannete tasakaalustamine**, et ta saaks arve tasakaalustamiseks märgistada.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -91,7 +94,7 @@ Seejärel sisestab April makse. Kui ta avab lehe **Hankija kanded**, näeb ta, e
 | APP‑10021  | Makse          | 15.07.2015 |         | 700.00                               |                                       | 0,00    | USA dollar      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Ülejäänud makse 15. juulil, kasuta skontot = alati
-Kui hankija võimaldab võtta soodustust ka siis, kui ta maksab pärast allahindluse kuupäeva aprill, ta saate väärtust muuta ning **Kasuta skontot** välja **alati**. Selle **osalise makse skonto arvutamiseks** säte on ülimuslikud ja allahindluse võetakse. Maksesummaks on 693.00 ja allahindluseks on järelejäänud 7.00.
+Kui hankija laseb Aprilil võtta soodustust isegi siis, kui April tasub pärast skonto kuupäeva, saab ta muuta välja **Kasuta skontot** väärtuseks **Alati**. Säte **Arvuta skontod osaliste maksete jaoks** kirjutatakse üle ja tehakse allahindlus. Maksesummaks on 693.00 ja allahindluseks on järelejäänud 7.00.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -116,6 +119,8 @@ Seejärel sisestab April makse. Kui ta avab lehe **Hankija kanded**, näeb ta, e
 | DISC‑10020 | Skonto    | 01.07.2015  |         | 3,00                                 |                                       | 0,00    | USA dollar      |
 | APP‑10021  | Makse          | 15.07.2015 |         | 693.00                               |                                       | 0,00    | USA dollar      |
 | DISC‑10021 | Skonto    | 15.07.2015 |         | 7,00                                 |                                       | 0,00    | USA dollar      |
+
+
 
 
 

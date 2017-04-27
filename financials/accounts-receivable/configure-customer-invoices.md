@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
+[!include[banner](../includes/banner.md)]
 
 
-**Müügitellimuse kliendiarve** on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab. Sellist tüüpi müügiarve luuakse müügitellimuse põhjal, mis sisaldab tellimuse ridu ja kaubakoode. Kauba koodid täpsustatakse ja sisestatakse pearaamatusse. Subledger päevikukannete pole saadaval kliendi arve müügitellimuse. 
+
+
+**Müügitellimuse kliendiarve** on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab. Sellist tüüpi müügiarve luuakse müügitellimuse põhjal, mis sisaldab tellimuse ridu ja kaubakoode. Kauba koodid täpsustatakse ja sisestatakse pearaamatusse. Alammooduli töölehe kirjed pole müügitellimuse kliendiarve puhul saadaval. 
 
 **Vabas vormis arve** pole müügitellimusega seotud. See sisaldab tellimuse ridu, mille hulka kuuluvad pearaamatukontod, vaba tekstina sisestatud kirjeldused ja müügihind, mille sisestate. Seda tüüpi arvele ei saa kaubakoodi sisestada. Peate sisestama vastava käibemaksuteabe. Müügi põhikonto on näidatud igal arve real, mille saate jaotada mitmele pearaamatukontole, klõpsates valikut **Summade jaotamine** lehel **Vabas vormis arve**. Lisaks sisestatakse kliendi saldo vabas vormis arve puhul kasutatavatest sisestusreeglitest koondkontole.
 
@@ -55,7 +58,7 @@ Müügitellimuste olekut saab vaadata loendilehel **Kõik müügitellimused**.
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Müügitellimuste või saatelehtede konsolideerimine sisestamiseks
 Kasutage seda protsessi, kui vähemalt üks müügitellimus on arveldamiseks valmis ja soovite need ühele arvele konsolideerida. 
 
-Saate valida mitu arvet loendilehelt **Müügitellimus** ja kasutage siis nende konsolideerimiseks valikut **Loo arved**. Kohta ning **arve sisestamist** lehel saate muuta selle **koondtellimus** säte kokkuvõtlikult järjekorranumber (kus on mitme saatelehe sortimisjärjestuse ühe müügitellimuse) või maksja järgi (kui on mitu müügitellimust ühtse arve konto). Kasutamine ning **korraldamine** nuppu konsolideerida müügitellimuste ühtse arve vastavalt selle **koondtellimus** seaded.
+Saate valida mitu arvet loendilehelt **Müügitellimus** ja kasutage siis nende konsolideerimiseks valikut **Loo arved**. Lehel **Arve sisestamine** saate muuta valiku **Koondtellimus** sätet, et summeerida tellimuse numbri alusel (kui ühe müügitellimuse kohta on mitu saatelehte) või arvekonto alusel (kui ühe arvekonto kohta on mitu müügitellimust). Kasutage nuppu **Korrasta** müügitellimuste konsolideerimiseks ühele arvele valiku **Koondtellimus** sätete põhjal.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Sisestamiskäitumist muutvad lisasätted
 Järgmised väljad muudavad sisestamisprotsessi käitumist.
@@ -150,6 +153,8 @@ Järgmised väljad muudavad sisestamisprotsessi käitumist.
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "POS riistvara välisseadmete"
+title: "Kassa riistvara välisseadmed"
 description: "Tänapäevane jaemüügikassa (POS) ja pilve kassa saavad kasutada laial hulgal kassa riistvara lisaseadmeid, millel on mitu liidest juurutamissuvandit, et saavutada jaemüüja erinevad äristsenaariumid."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>POS riistvara välisseadmete
+# <a name="pos-hardware-peripherals"></a>Kassa riistvara välisseadmed
+
+[!include[banner](includes/banner.md)]
+
 
 Tänapäevane jaemüügikassa (POS) ja pilve kassa saavad kasutada laial hulgal kassa riistvara lisaseadmeid, millel on mitu liidest juurutamissuvandit, et saavutada jaemüüja erinevad äristsenaariumid. 
 
@@ -63,6 +66,8 @@ Järgmine loend hõlmab seadmemudeleid, igas klassis, mida Microsoft on sisemise
 
 -   Vöötkood – Honeywell 1900, HP LS2208
 -   MSR – Magtek PN - 21073075
+
+
 
 
 

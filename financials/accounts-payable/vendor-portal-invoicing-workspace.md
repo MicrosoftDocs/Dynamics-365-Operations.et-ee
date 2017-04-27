@@ -43,11 +43,11 @@ Paanid **Kokkuvõte** annavad valitud hankija arvetest ülevaate. Saate vaadata 
 Paani klõpsamine avab lehest **Arvete loend** filtreeritud vaate.
 ### <a name="tabular-lists"></a>Tabelloendid
 
-Jaotises **Tabelloendid **on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid. Mustandi olekus saab arve edastada töövoosse või kustutada. Viimase tabeli loetelu on võimalus leida arved. Saate filtreerida otsida, võimaldada kiiremini otsida.
+Jaotises **Tabelloendid **on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid. Mustandi olekus saab arve edastada töövoosse või kustutada. Viimane tabelloend on võimalus arvete leidmiseks. Saate otsides filtreerida, et võimaldada kiiremaid otsinguid.
 Kõikide hankijaarvete loendileht
 -----------------------------
 
-Saate vaadata kõiki konteeritud ja konteerimata hankijaarvete kohta ning **koostöö hankijaarvete** loendi lehel. Saate selle loendi lehel arvete makse oleku vaatamiseks. Makseolekud hõlmavad olekuid Sisestamata, Tasumata, Osaliselt makstud ja Täielikult tasutud.
+Saate vaadata kõiki sisestatud ja sisestamata hankijaarveid loendilehel **Hankija koostöö arved**. Arvete makseoleku vaatamiseks saate kasutada seda loendilehte. Makseolekud hõlmavad olekuid Sisestamata, Tasumata, Osaliselt makstud ja Täielikult tasutud.
 Uue arve loomine ostutellimusest
 --------------------------------------------
 
@@ -55,6 +55,6 @@ Saate luua uue hankijaarve, valides tegevuse **Uus** tööruumis **Hankija koost
 
 
 
-Lisateabe saamiseks vaadake [koostööd Hankijad hankija portaali abil](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Lisateabe saamiseks vaadake teemat [Hankijatega koostöö tegemine hankija portaali kasutades](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
 
 

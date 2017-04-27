@@ -1,6 +1,6 @@
 ---
-title: "BI &amp;aruandluse kodulehekülg"
-description: "Käesolevas peatükis on kirjeldatud BI &amp;aruandluse ressursse, mis on saadaval Microsoft Dynamics 365 toiminguteks."
+title: "BI ja aruandluse kodulehekülg"
+description: Selles teemas on toodud Microsoft Dynamics 365 for Operationsis saadaolevate BI ja aruandluse ressursside loend.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI &amp;aruandluse kodulehekülg
+# <a name="bi-amp-reporting-home-page"></a>BI ja aruandluse kodulehekülg
 
-Käesolevas peatükis on kirjeldatud BI &amp;aruandluse ressursse, mis on saadaval Microsoft Dynamics 365 toiminguteks.
+[!include[banner](../includes/banner.md)]
+
+
+Selles teemas on toodud Microsoft Dynamics 365 for Operationsis saadaolevate BI ja aruandluse ressursside loend. 
 
 <a name="working-with-aggregate-data"></a>Koondandmetega töötamine
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Analüütika](analytics.md)
 -   [asendavad SSAS-i kuubid](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Modelleerimine ja kasutamine koondandmed](model-aggregate-data.md)
--   [Siirdamine on täiendatud Dynamics AX 2012 R3 müügi kuubis üksus poodi](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [Koondandmete modelleerimine ja kasutamine](model-aggregate-data.md)
+-   [Täiendatud Dynamics AX 2012 R3 müügikuubi migreerimine üksuse poodi](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Self teenust, aruandlus
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Iseteeninduse aruandlus
+-   [Power BI integreerimine](power-bi-integration.md)
 -   [Power BI integreerimise konfigureerimine tööruumidele](configure-power-bi-integration.md)
 -   [Microsoft Dynamics 365 for Operationsi andmete abil Power BI aruande loomine](create-powerbi-report-data.md)
--   [Luua mõne Power BI ja armatuurlaud](create-powerbi-report-dashboard.md)
--   [Jaemüügi kanali tulemuslikkuse Power BI sisu](retail-channel-performance-dashboard-power-bi-data.md)
--   [Majandusliku tulemuslikkuse Power BI sisu](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [Power BI aruande ja armatuurlaua loomine](create-powerbi-report-dashboard.md)
+-   [Jaemüügikanali näitajate Power BI sisu](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Finantstulemuste Power BI sisu](financial-performance-power-bi-content-pack.md)
+-   [Müügi ja tulususe tulemuste Power BI sisu](sales-profitability-performance-content-pack.md)
 -   [Kasutage elektroonilise aruandluse konfiguratsiooni, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Dynamics 365 for Operationsi kliendis manustatud analüütiliste kogemuste loomine
@@ -95,6 +98,8 @@ Käesolevas peatükis on kirjeldatud BI &amp;aruandluse ressursse, mis on saadav
 -   [Elektrooniline aruandlus. Dokumendihalduse failide kasutamine vormingu väljundites (5. osa: vormingu muutmine ja käitamine)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Elektrooniliste dokumentide loomine maksete jaoks, kasutades vormingu konfiguratsiooni](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (tegevusjuhis)
+
+
 
 
 

@@ -45,7 +45,7 @@ Readefinitsioon on aruande komponent (koosteüksus), mis määrab finantsaruande
 Readefinitsioon võib sisaldada kuni 20 000 finantsdimensiooni rida ja võib sisaldada järgmist teavet.
 
 -   Kirjeldav tekst, mis lisab aruandele tähenduse, luues jaotise päiseid, ridu ja tühikuid, nt **Sularaha** või **Kogutulu**
--   Finantsandmed, mis võib sisaldada linke dimensiooniväärtused operatsioonide 365 Microsoft Dynamics **Märkus:** saate seadistada readefinitsiooni pull andmeid finantsdimensioonide süsteemi iga kord, kui aruanne luuakse.
+-   Lingid finantsandmetele, mis võivad hõlmata dimensiooniväärtusi Microsoft Dynamics 365 for Operationsis. **Märkus.** Saate seadistada readefinitsiooni andmete tõmbamiseks finantsdimensioonide süsteemist iga kord, kui aruanne luuakse.
 -   Ridade kogusummad ja valemid, mis põhinevad lingitud finantsandmetel
 
 Üldjuhul sisaldab iga readefinitsioon üht järgmist tüüpi teavet.
@@ -64,7 +64,7 @@ Dimensioon on andmete ja väärtuste ühisosa. Aruandekoosturis saab andmeid ja 
 
 | Suvand                | Kirjeldus                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dimensioon             | Muster, mis tuvastab readefinitsiooni lisatava dimensiooni. See mudel sisaldab ühe ja-märgi (&) või märk (\#) iga positsiooni mõõtmed. Üldiselt kasutatakse kõiki ampersande põhikonto dimensiooni ja kõiki numbrimärke muude dimensioonide puhul. |
+| Dimensioon             | Muster, mis tuvastab readefinitsiooni lisatava dimensiooni. See muster sisaldab ühte ampersandi (&) või numbrimärki (\#) iga koha puhul dimensioonides. Üldiselt kasutatakse kõiki ampersande põhikonto dimensiooni ja kõiki numbrimärke muude dimensioonide puhul. |
 | Dimensioonivahemiku algus | Esimene selle dimensiooni puhul readefinitsiooni lisatav väärtus.                                                                                                                                                                                                                 |
 | Dimensioonivahemiku lõpp   | Viimane selle dimensiooni puhul readefinitsiooni lisatav väärtus.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Readefinitsiooni dimensioonide lisamiseks tehke järgmist.
 1.  Klõpsake aruandekoosturis valikut **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
 2.  Klõpsake menüüs **Redigeeri** suvandit **Sisesta read dimensioonidest**.
 3.  Valige dialoogiboksist **Ridade lisamine dimensioonidest **real **Dimensioonid** readefinitsiooni teisaldatava dimensiooni lahter ja seejärel klõpsake valikut **Kõik &&&**.
-4.  Readefinitsiooni piiramiseks dimensiooniväärtuste kindlasse vahemikku sisestage alguse dimensiooniväärtus lahtrisse** Dimensioonivahemiku algus **ja seejärel sisestage lõpu dimensiooniväärtus lahtrisse **Dimensioonivahemiku lõpp**. Kõikide valitud dimensiooni väärtuste kaasamiseks jätke need lahtrid tühjaks. **Märkus:** metamärke (\* või?) dimensioonis vahemikke võib tagastada kõik tulemused et sa tahad, sõltuvalt sellest, kuidas ERP andmebaas kogub andmeid.
+4.  Readefinitsiooni piiramiseks dimensiooniväärtuste kindlasse vahemikku sisestage alguse dimensiooniväärtus lahtrisse** Dimensioonivahemiku algus **ja seejärel sisestage lõpu dimensiooniväärtus lahtrisse **Dimensioonivahemiku lõpp**. Kõikide valitud dimensiooni väärtuste kaasamiseks jätke need lahtrid tühjaks. **Märkus.** Metamärgid (\* või ?) dimensioonivahemikes ei pruugi tagastada kõiki soovitud tulemusi, olenevalt sellest, kuidas ERP andmebaas andmeid kogub.
 5.  Määrake väljal **Algrea kood** readefinitsiooni lisatava esimese dimensiooniväärtuse reakood.
-6.  Määrake väljal **Iga rea juurdekasv** järjestikuste reakoodide vahe. Näiteks, kui esimese rea kood on 100 ja juurdekasvu on 30, esimene uusi ridu on koodide, 100, 130, 160, 190 ja 220. Kasutada juurdekasvu väärtust, mis pakub piisavalt ruumi uue vormi ja valem ridade lisamiseks.
+6.  Määrake väljal **Iga rea juurdekasv** järjestikuste reakoodide vahe. Näiteks kui esimene reakood on 100 ja juurdekasvu väärtus on 30, on esimeste uute ridade koodideks 100, 130, 160, 190 ja 220. Kasutage juurdekasvu väärtust, mis annab piisavalt ruumi uute vormingu ja valemi ridade lisamiseks.
 7.  Klõpsake nupul **OK**. Readefinitsiooni lisatakse iga valitud dimensiooniväärtuse kohta üks rida.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a> Readefinitsiooni ümardamise korrigeerimine
@@ -146,7 +146,7 @@ Readefinitsioonis määratud vorming alistab veeru- ja aruande definitsioonis m�
 
 1.  Avage aruande kujundajas muudetav readefinitsioon.
 2.  Valige vormindatavad lahtrid. Mitme lahtri valimiseks hoidke lahtri valimisel all klahvi Ctrl.
-3.  Vormingu rakendamiseks klõpsake tööriistariba nuppu. Näiteks rea taandamiseks valige rida ja seejärel klõpsake **Suurenda taanet**![Suurenda taanet](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Suurenda taanet") tööriistariba.
+3.  Vormingu rakendamiseks klõpsake tööriistariba nuppu. Näiteks rea taandamiseks valige rida ja seejärel klõpsake tööriistariba ikooni **Suurenda taanet** ![Suurenda taanet](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Suurenda taanet").
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Veergude korrigeerimine aruannete kujundamisel
 
@@ -173,6 +173,6 @@ Nende veergude vaatamise lihtsustamiseks, mille kallal readefinitsioonis tööta
 <a name="see-also"></a>Vt ka
 --------
 
-[Finantsaruandluse Microsoft Dynamics 365 toiminguteks](financial-reporting-intro.md)
+[Microsoft Dynamics 365 for Operationsi finantsaruandlus](financial-reporting-intro.md)
 
 

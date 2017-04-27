@@ -1,5 +1,5 @@
 ---
-title: "Lahendada osalise kliendi makse hinnaalandi kuupäeva enne lõpliku makse hinnaalandi kuupäeva pärast"
+title: "Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva"
 description: "See artikkel käsitleb klientidele esitatavate arvete ja maksete tasakaalustamise mõju. Stsenaarium keskendub mõjule alammoodulis, mitte pearaamatus."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Lahendada osalise kliendi makse hinnaalandi kuupäeva enne lõpliku makse hinnaalandi kuupäeva pärast
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel käsitleb klientidele esitatavate arvete ja maksete tasakaalustamise mõju. Stsenaarium keskendub mõjule alammoodulis, mitte pearaamatus.
 
-Fabrikami müüb kauba kliendile 4027. Fabrikami pakub 1 protsenti allahindlust, kui arve on tasutud 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Lahendamise parameetrid asuvad ka **Müügireskontro parameetrid** lehel.
+Fabrikam müüb kaupu kliendile 4027. Fabrikam pakub skontot 1%, kui arve tasutakse 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Tasakaalustamise parameetrid asuvad lehel **Müügireskontro parameetrid**.
 
 ## <a name="invoice"></a>Arve
-25. juuni Arnie siseneb ja postitusi arve kliendi 4027 1000.00 dollarit. Arnie saate vaadata selle arve kasutades on **tehingute** nuppu ning **hotelli** lehel.
+25. juunil sisestab Arnie kliendile 4027 arve summas 1000,00. Arnie saab selle arve vaatamiseks kasutada nuppu **Kanded** lehel **Kliendid**.
 
 | Kanne   | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo  | Valuuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ Fabrikami müüb kauba kliendile 4027. Fabrikami pakub 1 protsenti allahindlust,
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Valitud | Tavaline            | FTI‑10020 | 4027    | 25.06.2015 | 25.07.2015 | 10020   | 1 000,00                             | USA dollar      | 297.00           |
 
-Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas. Kui te ei muuda suvandi **Tasakaalustatav summa** väärtuseks 297,00, erinevad suvandi **Skonto summa** kuvatavad väärtused. Siiski 3,00 käsitatakse skonto kui makse on sisestatud, sest lahendamist reguleerib automaatselt selle ** summa lahendada ** väärtus sinu jaoks.
+Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas. Kui te ei muuda suvandi **Tasakaalustatav summa** väärtuseks 297,00, erinevad suvandi **Skonto summa** kuvatavad väärtused. Siiski arvestatakse makse sisestamisel skontona 3,00, kuna tasakaalustamine korrigeerib suvandi Tasakaalustatav summa väärtust automaatselt teie eest.
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,6 +108,8 @@ Arnie muudab välja **Kasuta skontot** väärtuseks uuesti **Tavaline**, kuna ta
 | ARP‑10020  |                  | 01.07.2015  |         |                                      | 297.00                                | 0,00    | USA dollar      |
 | DISC‑10020 |                  | 01.07.2015  |         |                                      | 3,00                                  | 0,00    | USA dollar      |
 | ARP‑10021  |                  | 7/11/2015 |         |                                      | 700.00                                | 0,00    | USA dollar      |
+
+
 
 
 

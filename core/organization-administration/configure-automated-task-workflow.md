@@ -1,5 +1,5 @@
 ---
-title: "Konfigureerida automaat-tegumi töövoos"
+title: "Töövoos automaatse ülesande konfigureerimine"
 description: "See teema selgitab, kuidas konfigureerida automatiseeritud ülesande atribuute."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Konfigureerida automaat-tegumi töövoos
+# <a name="configure-an-automated-task-in-a-workflow"></a>Töövoos automaatse ülesande konfigureerimine
+
+[!include[banner](../includes/banner.md)]
+
 
 See teema selgitab, kuidas konfigureerida automatiseeritud ülesande atribuute.
 
@@ -92,16 +95,18 @@ Saate saate inimestele teatisi, kui automatiseeritud ülesannet käitatakse või
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Teatud Microsoft Dynamics 365 toimingud kasutajatele</td>
+    <td>Kindlad Microsoft Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>On <strong>saadaval kasutajate</strong> loend sisaldab kõiki Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Korrake 3.–7. toimingut iga sündmuse puhul, mille 2. etapis valisite.
+
+
 
 
 

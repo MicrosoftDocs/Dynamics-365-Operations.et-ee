@@ -1,6 +1,6 @@
 ---
 title: Pearaamatukonto saldod
-description: "Selles artiklis kirjeldatakse pearaamatu konto saldosid - proovibilanss loendilehe ja finantsaruanded kuvamiseks kahte võimalust. Arutletakse ka dimensioonikomplekti saldo värskendamise üle."
+description: "Selles artiklis selgitatakse pearaamatu konto saldode vaatamise kaht viisi: proovibilansi loendileht ja finantsaruanded. Arutletakse ka dimensioonikomplekti saldo värskendamise üle."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Pearaamatukonto saldod
 
-Selles artiklis kirjeldatakse pearaamatu konto saldosid - proovibilanss loendilehe ja finantsaruanded kuvamiseks kahte võimalust. Arutletakse ka dimensioonikomplekti saldo värskendamise üle.
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis selgitatakse pearaamatu konto saldode vaatamise kaht viisi: proovibilansi loendileht ja finantsaruanded. Arutletakse ka dimensioonikomplekti saldo värskendamise üle.
 
 Pearaamatusaldode vaatamiseks on kasutajatel mitmesuguseid võimalusi. Kõige levinumad võimalused on järgmised.
 
@@ -46,6 +49,8 @@ Kui kasutaja parameetreid muudab, värskendatakse saldosid. Kasutaja võib valid
 
 Kasutajad saavad saldodesse süvitsi minna, et vaadata kandeid, millest saldo koosneb.    
 
-Lisateabe saamiseks vaadake [Vaata finantsaruanded](view-financial-reports.md).
+Lisateavet leiate jaotisest [Finantsaruannete vaatamine](view-financial-reports.md).
+
+
 
 

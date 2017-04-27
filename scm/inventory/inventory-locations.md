@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Lao asukohad
 
+[!include[banner](../includes/banner.md)]
+
+
 Lao asukohti kasutatakse üldise ladustamisega (WMS I) määramiseks, kus kaubad on WMS I laos ladustatud ja kust need seal komplekteeritakse.
 
 See teema kehtib mooduli Varude haldus funktsioonide puhul. See ei kehti mooduli Laohaldus funktsioonidele.
@@ -64,6 +67,8 @@ Asukohad saab kopeerida ühest laost teise ja asukohti luua viisardi abil. Enne 
 <a name="see-also"></a>Vt ka
 --------
 
-[Luua uue lao paigutuse (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Uue laopaigutuse loomine (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

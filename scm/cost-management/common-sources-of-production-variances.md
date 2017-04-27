@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Tootmishälvete üldpõhjused
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse erinevaid igat tüüpi tootmishälvete tavalisemaid põhjuseid. 
 
 Siin on mõned tavalised **saatepartii suuruse** hälvete põhjused.
@@ -57,6 +60,8 @@ Siin on mõned tavalised **tootmise asendamise** hälvete põhjused.
 -   Lisage tootmise protsessile operatsioon käsitsi ja kinnitage see tarbituna.
 -   Valige tootmistellimust luues erinev koosluse versioon, kus koosluse versioon erineb standardses kulukalkulatsioonis kasutatavast.
 -   Valige tootmistellimust luues erinev protsessi versioon, kus protsessi versioon erineb standardses kulukalkulatsioonis kasutatavast.
+
+
 
 
 

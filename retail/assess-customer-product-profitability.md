@@ -1,6 +1,6 @@
 ---
 title: Kliendi ja toote tulususe hindamine
-description: "Selles artiklis selgitatakse kasutamist mälus ja reaalajas analytics pääseda, uurida ja saada ülevaade tarbija ja toote kasumlikkuse teie Microsoft Dynamics 365 toimingute andmed."
+description: "See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ja toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Operationsi andmetest."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Kliendi ja toote tulususe hindamine
 
-Selles artiklis selgitatakse kasutamist mälus ja reaalajas analytics pääseda, uurida ja saada ülevaade tarbija ja toote kasumlikkuse teie Microsoft Dynamics 365 toimingute andmed. 
+[!include[banner](includes/banner.md)]
 
-Dynamics 365 operatsioonide osana tutvumiseks kasutajate tasuvuse top klientidele (10-100) erinevatel tasanditel organisatsiooni hierarhia, vastavalt ühele järgmistest kriteeriumidest:
+
+See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ja toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Operationsi andmetest. 
+
+Microsoft Dynamics 365 for Operationsi osana saavad kasutajad analüüsida parimate klientide (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe alljärgneva kriteeriumi põhjal:
 
 -   Müügisumma
 -   Kogus
@@ -38,8 +41,8 @@ Dynamics 365 operatsioonide osana tutvumiseks kasutajate tasuvuse top klientidel
 
 Selle hinnangu jaoks saate kasutada **parimate klientide** valmisaruandeid, mille saate avada ühtest järgmistest asukohtadest:
 
--   **Retail store juhtimine** tööruumi Dynamics 365 operatsioonide &gt;**hulgi- ja kaubanduse**&gt;**kanalite**&gt;**Retail store juhtimine**&gt;**aruanded**&gt;**hotelli aruanne**
--   **Päringute ja aruannete** jagu Dynamics 365 operatsioonide &gt;**hulgi- ja kaubanduse**&gt;**päringute ja aruannete**&gt;**müügi aruanded**&gt;**hotelli aruanne**
+-   Dynamics 365 for Operationsi tööruum **Jaekaupluse haldus** &gt; **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Parimate klientide aruanne**
+-   Dynamics 365 for Operationsi jaotis **Päringud ja aruanded** &gt; **Jaemüük ja kaubandus** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Parimate klientide aruanne**
 
 Samuti saavad kasutajad analüüsida peamiste toodete (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe alljärgneva kriteeriumi põhjal:
 
@@ -50,8 +53,10 @@ Samuti saavad kasutajad analüüsida peamiste toodete (10–100) tulusust organi
 
 Selle hinnangu jaoks saate kasutada **peamiste toodete** valmisaruandeid, mille saate avada ühest järgmistest asukohtadest:
 
--   **Retail store juhtimine** tööruumi Dynamics 365 operatsioonide &gt;**hulgi- ja kaubanduse**&gt;**kanalite**&gt;**Retail store juhtimine**&gt;**aruanded**&gt;**toodete aruanne**
--   **Kategooria ja toote** tööruumi Dynamics 365 operatsioonide &gt;**hulgi- ja kaubanduse**&gt;**toodete ja kategooriate**&gt;**Retail store juhtimine**&gt;**aruanded**&gt;**toodete aruanne**
--   **Päringute ja aruannete** jagu Dynamics 365 operatsioonide &gt;**hulgi- ja kaubanduse**&gt;**päringute ja aruannete**&gt;**müügi aruanded**&gt;**toodete aruanne**
+-   Dynamics 365 for Operationsi tööruum **Jaekaupluse haldus** &gt; **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Parimate toodete aruanne**
+-   Dynamics 365 for Operationsi tööruum **Kategooria- ja tootehaldus** &gt; **Jaemüük ja kaubandus** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Parimate toodete aruanne**
+-   Dynamics 365 for Operationsi jaotis **Päringud ja aruanded** &gt; **Jaemüük ja kaubandus** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Parimate toodete aruanne**
+
+
 
 

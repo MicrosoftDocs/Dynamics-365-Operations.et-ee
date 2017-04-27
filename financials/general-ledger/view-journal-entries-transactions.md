@@ -46,12 +46,12 @@ Lisaks finantsaruannetele saate pearaamatu kannete vaatamiseks kasutada järgmis
 
 -   **Dimensiooniaruanne** – selles aruandes kuvatakse kanded päeva ja konto järgi ja olemas on suvandid kannete kuvamiseks dimensiooni ja perioodi järgi.
 -   **Pearaamatukannete loend** – selles aruandes kuvatakse konto kannete kanded, raamatupidamise ja aruandlusvaluutad.
--   **Saate printida töölehe** – aruandes kuvatakse sisestatud töölehe tulemus. Saate töölehe partiinumber või žurnaali liik aruannet või täiendavate väljade.
+-   **Prindi tööleht** – see aruanne näitab sisestatud töölehe tulemust. Saate käivitada aruande töölehe partiinumbri või töölehe tüübi alusel või lisada täiendavaid faile.
 -   **Sisestatud kanded töölehe järgi** – selles aruandes kuvatakse töölehele sisestatud kanded kande järgi grupeerituna.
 -   **Kandeloend kuupäeva järgi** – selles aruandes kuvatakse kõik kanded kuupäeva järgi koos töölehe koodi, kande ja pearaamatukontoga. See kuvab ka kande kanded, raamatupidamise ja aruandlusvaluutad.
 -   **Kande päritolu** – selles aruandes kuvatakse konto töölehe ja kande, raamatupidamise ja aruandlusvaluuta järgi. See kuvab ka tasakaalustamisel kasutatud töölehe iga rea.
 
 
-Lisateabe saamiseks vaadake [PR konto saldod](general-ledger-account-balances.md), [raamatupidamise allikas explorer](\financials\accounts-payable\accounting-source-explorer) ja [aruandlus](financial-reporting-getting-started.md)
+Lisateabe saamiseks vaadake teemasid [Pearaamatukonto saldod](general-ledger-account-balances.md), [Arvestusallika uurija](\financials\accounts-payable\accounting-source-explorer) ja [Finantsaruandlus](financial-reporting-getting-started.md)
 
 

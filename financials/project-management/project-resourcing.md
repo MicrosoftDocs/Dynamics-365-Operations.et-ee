@@ -1,6 +1,6 @@
 ---
 title: Projekti ressursieraldus
-description: See teema pakub teavet projekti korralikke.
+description: Selles teemas antakse teavet projekti ressursieralduse kohta.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,59 +27,62 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-resourcing"></a>Projekti ressursieraldus
 
-See teema pakub teavet projekti korralikke.
+[!include[banner](../includes/banner.md)]
 
-Üks projektijuhid ja ressursihalduri ajal projekti kavandamise etapis on ressursside jaotus, kus nad tuleb kindlaks määrata ja projekti kallal õige ressursi reserveerimist. Microsoft Dynamics 365 toiminguteks, efektiivne võimalusi projektide sul määratleda rollid, mille käsitletakse ajutine ressursse, mida saab reserveerida konkreetse töövõtuga kaasnevaid või osa on kaasamine. Sedalaadi ressursieraldus võimaldab projektijuhtidel ja ressursihalduritel teha järgmisi toiminguid.
+
+Selles teemas antakse teavet projekti ressursieralduse kohta.
+
+Üks väljakutse projektijuhtide ja ressursihaldurite jaoks projekti plaanimisetapis on ressursside eraldamine, mille käigus nad peavad projektiga töötamiseks õige ressursi välja selgitama ja reserveerima. Microsoft Dynamics 365 for Operationsis saab projektide ressursieralduse võimaluste abil määratleda rolle, mida käsitletakse ajutiste ressurssidena, mille saab reserveerida konkreetsele tegevusele või tegevuse osale. Sedalaadi ressursieraldus võimaldab projektijuhtidel ja ressursihalduritel teha järgmisi toiminguid.
 
 -   Määratleda ressursside sobitamise hõlbustamiseks rolli, millel on vajalikud kompetentsid.
--   Kasutage rollid esialgne tegevus ajakava, mis põhineb reserveeritud vahendeid.
+-   Kasutada rolle reserveeritud ressurssidel põhineva algse tegevuse ajakava määratlemiseks.
 -   Prognoosida kulusid ja määratleda algse eelarve, tuginedes projekti määratud rollidele ja ressurssidele.
--   Kasutada rollide kohta ressursi nõutakse iga tegevuse hindamiseks.
+-   Kasutada rolle iga tegevuse puhul vajalike ressursireserveeringute prognoosimiseks.
 -   Hinnata kogu projekti töötsükli jaoks vajalike ressursside arvu.
 -   Koostada projekti tööjaotuse struktuuri (WBS) esialgse ressursimäärangu abil.
 
 [![Projekti elutsükkel](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg) 
 
-Kui projekti planeerimise tulu, kavandatud ressursid võib asendada rahalisi ressursse. Projektijuht saate tagasi minna ja värskendada resourcing broneerimine ükskõik millisel projekti etappi.
+Projekti plaanimise jätkumisel saab plaanitud ressursid asendada komplekteeritud ressurssidega. Projektijuht saab minna ka tagasi ja värskendada ressursieralduse reserveerimisi igas projekti etapis.
 
 ## <a name="set-up-project-resources"></a>Projekti ressursside seadistamine
-Peate seadistama kalendri ja seostama selle töötajaga. Kalendrit saab ajastada projekt ja projekti ressursse, mis on reserveeritud tööaja. Kalendri seadistamisel saavad projektijuhid ressursside optimeerimise käigus ressursse ühtlustada. Kalendrigraafiku alusel saab ressurssidele piiranguid seada. Seadistage kalendri kohta ning **kalendrid** lehel. 
+Peate seadistama kalendri ja seostama selle töötajaga. Kalendrit kasutatakse projekti ja sellele reserveeritud ressursside tööaja plaanimiseks. Kalendri seadistamisel saavad projektijuhid ressursside optimeerimise käigus ressursse ühtlustada. Kalendrigraafiku alusel saab ressurssidele piiranguid seada. Kalendri saab seadistada lehel **Kalendrid**. 
 
-Töötaja projekti ressursina seadistamisel saate valida mille seadistate ressursside ettevõttes töötajate või valige töötajate teistest ettevõtetest oma organisatsioonis. Need on Kontserni ressursse. Järgmised protseduurid selgitavad, kuidas luua töötaja ettevõtte projekti ressursina ja IC projekti ressursside seadistamise.
+Töötaja seadistamisel projekti ressursina saate valida töötajate hulgast, kes töötavad ettevõttes, millele ressursse seadistate, või teie organisatsiooni teiste ettevõtete töötajate hulgast. Need on kontsernisisesed ressursid. Järgmistes protseduurides selgitatakse, kuidas seadistada töötajat ettevõttes projektiressursina ja kuidas seadistada kontsernisisest projektiressurssi.
 
 ### <a name="set-up-a-worker-as-a-project-resource"></a>Töötaja seadistamine projekti ressursina
 
-1.  Kohta ning **töötajate** lehekülg, mis on **töötajate** nimekirja, valige lisatava projekti ressursina töötaja ja avage töötaja kirje.
-2.  Kohta ning tegevus paanil klõpsake **projekti**&gt;**Setup**&gt;**projekti seadistus**.
-3.  Valige ja seejärel sulgege leht.
+1.  Valige lehel **Töötajad** loendist **Töötajad** töötaja, kelle projekti ressursina lisate, ja avage töötaja kirje..
+2.  Klõpsake tegumiribal valikuid **Projekt** &gt; **Seadistus** &gt; **Projekti seadistus**.
+3.  Valige kalender ja sulgege siis leht.
 
 Saate määrata eelmäärangu tüübina ressursile ka vaikeprojekte. Eelmääranguid saab kasutada, kui ressursihaldur või projektijuht teab ette, milliste projektidega ressurss töötama hakkab. Eelmäärangud võivad põhineda ka projekti sponsori või kliendi soovil. Projekti eelmääramiseks valige lehelt **Projektide määramine** vahekaardil **Projektid** loendis **Järelejäänud projektid** sobiv projekt.
 
-### <a name="set-up-an-intercompany-resource"></a>Saate seadistada IC ressurss
+### <a name="set-up-an-intercompany-resource"></a>Kontsernisisese ressursi seadistamine
 
-Kontsernisisese ressursina töötaja seadistamisel peate täitma setup laenuandja äriühingu ja laenusaaja äriühingu. 
+Töötaja seadistamisel kontsernisisese ressursina peate tegema seadistuse välja laenavas ettevõttes ja laenuks võtvas ettevõttes. 
 
-**Aastal laenuandja äriühing:**
+**Välja laenavas ettevõttes tehke järgmist.**
 
-1.  Dynamics 365 toiminguteks, veenduge, et laenuandja äriühing on valitud ja seejärel sooritage eeltoodule protseduur "Luua projekti ressursina töötaja."
-2.  Mine ** PR *&gt; ** kont **&gt;**kontserni raamatupidamise**. Click **New**.
-3.  Aastal ning ** juriidiline isik ID ** number laenuandja äriühing,. Täitke ülejäänud väljad vastavalt vajadusele ja klõpsake **salvestamine**.
-4.  Minna ning ** projektijuhtimine ja raamatupidamine *&gt; ** seadistamine **&gt;**eest ** &gt;**siirdehinna**.** **
-5.  Kohta ning ** korrigeerimistelt ** kujul, klõpsake **uus**, ja on ** laenamine juriidilise ** number õige firma,.
-6.  Kui soovite ainult laenu laenusaaja äriühingu ressurss, mida olete loonud käesoleva alguses ning **ressurss** number, loodud ressursi nimi. Kui soovite kättesaadavaks kõik ressursid ettevõttes laenusaajale äriühingule, jätke selle ** ressursi ** väli tühi.
-7.  Mine ** projektijuhtimine ja raamatupidamine **&gt; ** seadistamine **&gt;**projektijuhtimine ja kuluarvestuse parameetrid**, ja selle ** kontsernisisese ** tab, määrata selle ** kontsernisisese Ressursiplaanimine ja ajatabelite ** välja **Jah**.
+1.  Kontrollige Dynamics 365 for Operationsis, kas välja laenav ettevõte on valitud, ja läbige siis eespool kirjeldatud protseduur „Töötaja seadistamine projekti ressursina”.
+2.  Avage **Pearaamat **&gt; **Sisestamise seadistus **&gt; **Kontserni raamatupidamine**. Klõpsake **Uus**.
+3.  Valige väljalt **Juriidilise isiku ID **välja laenav ettevõte. Täitke vajalikul viisil ülejäänud väljad ja klõpsake siis käsku **Salvesta**.
+4.  Avage **Projektihaldus ja raamatupidamine **&gt; **Seadistus **&gt; **Hinnad ** &gt; **Ülekande hind**.** **
+5.  Klõpsake vormil **Ülekande hind **valikut **Uus** ja valige väljalt **Laenuks võttev juriidiline isik **vastav ettevõte.
+6.  Kui soovite laenata laenuks võtvale ettevõttele ainult selle ressursi, mille jaotise alguses väljal **Ressurss** lõite, siis valige loodud ressursi nimi. Kui soovite teha laenuks võtvale ettevõttele kättesaadavaks kõik ettevõtte ressursid, siis jätke väli **Ressurss **tühjaks.
+7.  Avage **Projektihaldus ja raamatupidamine **&gt; **Seadistus **&gt; **Projektihalduse ja raamatupidamise parameetrid** ja määrake vahekaardil **Kontsernisisene **välja **Luba kontsernisisene ressursside plaanimine ja ajatabelid **väärtuseks **Jah**.
 
-**Laenusaaja äriühingu:**
+**Laenuks võtvas ettevõttes tehke järgmist.**
 
-1.  Mine **projektijuhtimine raamatupidamis- ja**&gt;**projekti vahendite**&gt;**loendi**.
-2.  Otsingu filtrit, sisestage eelmise korra kontrollimaks, et nimi sisaldub Ressursiloendis laenusaaja äriühingu laenuandja äriühing loodud ressursi nimi.
+1.  Avage **Projektihaldus ja raamatupidamine** &gt; **Projekti ressursid** &gt; **Ressursside loend**.
+2.  Sisestage otsingufiltrisse eelmises protseduuris välja laenava ettevõtte jaoks loodud ressursi nimi, et kontrollida, kas see nimi sisaldub laenuks võtva ettevõtte ressursiloendis.
 
 ## <a name="manage-resource-competencies"></a>Ressursi kompetentside haldamine
-Ressursi kompetentsid on oluline osa ressursside haldamine. Kompetentse saab kasutada alusena ressursside määratlemiseks, kellel on õige oskuste, hariduse, tunnistuste ja projektikogemuse tasakaal. See teave tuleb igale ressursile määrata ja regulaarselt värskendada. Nii saate maksimeerida võimalusi, kui projekti ressursimääramise käigus konkreetsed ressursikompetentsid vastendatakse. [![Oskusi, kinnitamine, haridus ja projekti kogemust](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
+Ressursi kompetentsid on ressursihalduse oluline osa. Kompetentse saab kasutada alusena ressursside määratlemiseks, kellel on õige oskuste, hariduse, tunnistuste ja projektikogemuse tasakaal. See teave tuleb igale ressursile määrata ja regulaarselt värskendada. Nii saate maksimeerida võimalusi, kui projekti ressursimääramise käigus konkreetsed ressursikompetentsid vastendatakse. [![Oskuste, tunnistuste, hariduse ja projektikogemuse näited](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
 
 Järgmistes protseduurides selgitatakse ressursi mõningate pädevuste seadistamist. 
 
-Töötaja kompetentside seadistamiseks kasutatakse loendilehte **Töötajad** moodulis Inimressursid või loendilehte **Ressursid** moodulis Projektihaldus ja raamatupidamine. Järgmiste protseduuride puhul on **töötajate** kasutatakse loendilehe inimkapitali.
+Töötaja kompetentside seadistamiseks kasutatakse loendilehte **Töötajad** moodulis Inimressursid või loendilehte **Ressursid** moodulis Projektihaldus ja raamatupidamine. Järgmiste protseduuride puhul kasutatakse loendilehte **Töötajad** moodulis Inimressursid.
 
 ### <a name="set-up-competencies-certificates"></a>Kompetentside seadistamine: tunnistused
 
@@ -101,40 +104,40 @@ Töötaja kompetentside seadistamiseks kasutatakse loendilehte **Töötajad** mo
 7.  Klõpsake nuppu **Salvesta** ja sulgege seejärel leht.
 
 ## <a name="create-a-new-project"></a>Loo uus projekt
-1.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**tööruumide**&gt;**projektijuhtimine**.
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Tööruumid** &gt; **Projektihaldus**.
 2.  Klõpsake valikut **Uus projekt** ja sisestage seejärel järgmised väärtused.
-    -   **Projekti tüüp** - aja- ja materjalikulu
-    -   **Projekti nimi** -XYZ uuendada faas 2
-    -   **Projektigrupi** -TM\_WIP
-    -   **Projekti lepingu** -00000002
+    -   **Projekti tüüp** – aeg ja materjal
+    -   **Projekti nimi** – XYZ täiendusfaas 2
+    -   **Projektigrupp** – TM\_WIP
+    -   **Projektilepingu ID** – 00000002
 3.  Klõpsake valikut **Loo projekt**.
 
 ### <a name="assign-a-resource-to-a-project"></a>Ressursi määramine projektile
 
-1.  Klõpsake **töötajate**&gt;**töötajate**&gt;**töötajate**.
+1.  Klõpsake valikuid **Inimressursid** &gt; **Töötajad** &gt; **Töötajad**.
 2.  Valige loendist **Töötajad** selle töötaja kirje, kelle jaoks eelnevalt kompetentsid seadistasite, ja avage töötaja kirje.
 3.  Klõpsake tegumiriba vahekaardil **Projekt** grupis **Seadistus** valikut **Projektide määramine**.
 4.  Klõpsake lehel **Ressursi kinnitamise projekti määrangud** vahekaarti **Projektid**.
-5.  Aastal ning **lisada projekti valitud projektide**, filter projekti, XYZ uuendada faas 2
+5.  Filtreerige jaotises **Lisa projekt valitud projektidele** projekti XYZ täiendusfaas 2
 6.  Valige paanilt **Järelejäänud projektid** projekt ja klõpsake siis noolt selle lisamiseks paanile **Valitud projektid**.
 7.  Sulgege leht.
 
-Vajaduse korral saate ka ressursile kategooriaid määrata. Kategooria tüüp on kulu või tulu. Selle määrab teie organisatsioon. Kui Ressursi nr omistatud kategooriad, Dynamics 365 operatsioonide otsida tund hindade, kulude ja tulude vaikekategooria.
+Vajaduse korral saate ka ressursile kategooriaid määrata. Kategooria tüüp on kulu või tulu. Selle määrab teie organisatsioon. Kui ressursile pole määratud ühtegi kategooriat, otsib Dynamics 365 for Operations üles kulu ja tulu tunnihindade vaikekategooria.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Projekti ressursi ja rolli omaduste seadistamine
 
-Projektijuht saab kasutada projekti ressursieralduse funktsiooni projekti jaoks vajalike rollide loomiseks. Ülesanded saab kui kinnitatud ressursse on veel teadmata, kui ressursside broneerimist. Rollid ajutiselt reserveerimist kui kavandatud ressursid, et jätkata projekti kavandamise etappe. 
+Projektijuht saab kasutada projekti ressursieralduse funktsiooni projekti jaoks vajalike rollide loomiseks. Rolle saab kasutada siis, kui kinnitatud ressursid on ressursside reserveerimise ajal veel teadmata. Rolle saab reserveerida ajutiselt plaanitud ressurssidena, et saaksite projekti plaanimise etappe jätkata. 
 
-[![Näiteks on osa](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Rolli näide](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Stsenaarium:** Contoso palgati täitma aja ja materjali projekti, millel on kinnitatud projekti põhikiri. Noorem-projektijuht täidab veel projekti ulatust. Ressursihaldur on praegu kindlakstegemisel, mis uue projekti kallal, reserveeritakse varud. Üks projekti sponsor taotletud projekti kriitiline olemus on vanem projektijuht. Ressursihaldur peab omandama uut ressurssi ja määratlema rolli süsteemis juhul junior projektijuht tuleb ressursi teave projekti planeerimise ajal. 
+**Stsenaarium:** Contoso palgati täitma aja ja materjali projekti, millel on kinnitatud projekti põhikiri. Noorem-projektijuht täidab veel projekti ulatust. Ressursihaldur tuvastab praegu konkreetseid ressursse, mis uue projektiga töötamiseks reserveeritakse. Üks rollidest, mida projekti sponsor projekti olulise iseloomu tõttu soovis, on vanem-projektijuht. Ressursihaldur peab uue ressursi hankima ja määratlema rolli süsteemis, juhul kui noorem-projektijuht vajab projekti plaanimise käigus teavet ressursi kohta. 
 
-Järgmised juhised kirjeldavad, kuidas ressursihaldur seadistage Senior project manager roll ja ressursi omaduste seostamine. Hiljem saab rolli kasutada vajalikele ressursi kompetentsidele vastavate olemasolevate ressursside otsimiseks.
+Järgmised juhised näitavad, kuidas ressursihaldur saab vanem-projektijuhi rolli seadistada ja seostada sellega ressursi omadused. Hiljem saab rolli kasutada vajalikele ressursi kompetentsidele vastavate olemasolevate ressursside otsimiseks.
 
-1.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**Setup**&gt;**ressursid**&gt;**Setup rollid**.
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Seadistus** &gt; **Ressursid** &gt; **Rollide seadistamine**.
 2.  Klõpsake valikut **Uus** ja sisestage seejärel järgmised väärtused.
-    -   **Rolli ID** -vanemprojektijuht
-    -   **Kirjeldus** -vanemprojektijuht
+    -   **Rolli ID** – vanem-projektijuht
+    -   **Kirjeldus** – vanem-projektijuht
 3.  Klõpsake käsku **Loo**.
 4.  Valige roll **Vanem-projektijuht** ja klõpsake siis valikut **Omaduste konfigureerimine**.
 5.  Valige väljalt **Omaduse tüüp** väärtus **Oskus**.
@@ -145,67 +148,67 @@ Järgmised juhised kirjeldavad, kuidas ressursihaldur seadistage Senior project 
 
 ### <a name="assign-a-project-resource-to-a-project"></a>Projekti ressursi määramine projektile
 
-1.  Klõpsake **projektijuhtimine ja raamatupidamine**&gt;**ühine**&gt;**projektide**&gt;**kõik projektid**, ja avada selle **XYZ uuendada faas 2** projekti.
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Üldine** &gt; **Projektid** &gt; **Kõik projektid** ja avage projekt **XYZ täiendusfaas 2**.
 2.  Klõpsake vahekaardil **Projektimeeskond ja plaanimine** käsku **Lisa**.
 3.  Valige väljalt **Roll** väärtus **Meeskonnaliige**.
 4.  Klõpsake valikut **Kalendrist reserveerimine**.
 5.  Klõpsake lehel **Ressursi saadavus** valikut **Kuva sätted**.
 6.  Sisestage lehele **Kuvasätete kohandamine** järgmised väärtused.
-    -   **Vormingu kuupäev range vaatan** - päev
-    -   **Kuva kättesaadavus kirjeldused** - Jah
-    -   **Kuva võimsus jääb** - Jah
+    -   **Kuupäevavahemiku kuva jaoks vormindamine** – päev
+    -   **Kuva saadavuse kirjeldused** – jah
+    -   **Kuva järelejääv võimsus** – jah
 7.  Valige ressursiloendist ressurss.
-8.  Klõpsake **raamat**&gt;**maht täis**.
+8.  Klõpsake valikuid **Fikseeritud reserveerimine** &gt; **Kogujõudlus**.
 9.  Sulgege leht.
 
 ### <a name="assign-a-resource-to-a-default-role"></a>Vaikerollile ressursi määramine
 
-Aidata projekti või ressursi juhtide, saab puurida alla täiendavaid ressursse, mida saab reserveerida projekti. Saate seostada vaikerolli olemasoleva ressursiga või äsja omandatud ressursiga. Näiteks, kui Daniel oli palgatud, tal oli kogemusi ja oskusi äri analüütik rolli. Ressursihaldur määrata seda rolli nagu Daniel's vaikerolli. Seetõttu ressursihaldur on Daniel äri analüütikud, kes on valmis teha projektide parki. 
+Projekti- või ressursihaldurite abistamiseks võite minna veel rohkem süvitsi ressurssides, mida projektile reserveerida saab. Saate seostada vaikerolli olemasoleva ressursiga või äsja omandatud ressursiga. Näiteks kui Daniel palgati, olid tal kogemuse ja oskused ärianalüütiku rolli täitmiseks. Ressursihaldur määras selle rolli Danieli vaikerolliks. Seetõttu lisas ressursihaldur Danieli projektidega töötavate analüütikute kausta. 
 
-Ressursside broneerimine projektijuhid saate filtreerida ning roll olemasolevate vahendite töötada projekte. Nad saavad kasutada neid andmeid ühe kriteeriumina, kui nad teevad ressursside täitmisel mitmel kriteeriumil põhinevaid analüüse. Samuti saavad nad lisada filtrile muid ressursiomadusi, et otsida antud projekti jaoks konkreetsete oskuste, hariduse ja kogemustega ressursse. 
+Ressursi reserveerimise ajal saavad projektijuhid filtreerida rolli ressursse, mis on projektidega töötamiseks saadaval. Nad saavad kasutada neid andmeid ühe kriteeriumina, kui nad teevad ressursside täitmisel mitmel kriteeriumil põhinevaid analüüse. Samuti saavad nad lisada filtrile muid ressursiomadusi, et otsida antud projekti jaoks konkreetsete oskuste, hariduse ja kogemustega ressursse. 
 
-**Stsenaarium:** heaks on alanud ja Senior project manager roll oli planeeritud ressursina reserveeritud ajal projekti kavandamise etapis. Ressursihaldur on nüüd hankinud ressursi vanem-projektijuhi rolli täitmiseks.
+**Stsenaarium:** kinnitatud projekt on alanud ja vanem-projektijuhi roll reserveeriti plaanitud ressursina projekti plaanimisetapi käigus. Ressursihaldur on nüüd hankinud ressursi vanem-projektijuhi rolli täitmiseks.
 
-1.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**projekti vahendite**&gt;**loendi**.
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Projekti ressursid** &gt; **Ressursside loend**.
 2.  Valige loendist **Ressurss** väärtus **Daniel Goldschmidt**.
-3.  Klõpsake **projekti ressursi**&gt;**Säilita**&gt;**ressursi roll**.
+3.  Klõpsake valikuid **Projekti ressurss** &gt; **Halda** &gt; **Ressursiroll**.
 4.  Klõpsake valikut **Uus** ja sisestage seejärel järgmised väärtused.
-    -   **Tõhus** - (tänane kuupäev)
-    -   **Kehtib kuni** - kunagi
-    -   **Rolli** -vanemprojektijuht
+    -   **Jõustub** – (praegune kuupäev)
+    -   **Aegub** – mitte kunagi
+    -   **Roll** – vanem-projektijuht
 5.  Klõpsake nuppu **Salvesta** ja sulgege seejärel leht.
 6.  Lisage vahekaardile **Kompetentsid** oskus **ProjectMgmt** ja tunnistus **PMP**.
 
 ## <a name="set-up-role-based-pricing"></a>Rollipõhise hinnakujunduse seadistamine
 Rollidele saab seadistada kõik kulud, müügi- ja sisehinnad.
 
-1.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**install**&gt;**eest**&gt;**müügi hind (tund)**.
-2.  Click **New**.
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Seadistus** &gt; **Hinnad** &gt; **Müügihind (tund)**.
+2.  Klõpsake **Uus**.
 3.  Sisestage jõustumiskuupäev.
 4.  Valige roll veerust **Roll**.
 5.  Sisestage veergu **Hinnakujundus** valitud ressursi rolli hind.
 
-## <a name="form-a-project-team"></a>Moodustavad projektimeeskonna
-Rollid, mis on eelnevalt seadistatud projekti kasutamiseks peab projektijuhi rollid seostada projekti. Projekti jaoks saab määrata erinevaid rolle ja Dynamics 365 operatsioonide automaatselt märgistab need rollid broneerimine vältimiseks. Näiteks kui projektijuht nõuab kolme tarkvara inseneride, kolme tarkvara insener rolli, mis on tarkvara insener 1, tarkvara insener 2 ja tarkvara insener 3 oma siltide luuakse automaatselt. Kui rollile olid eelnevalt määratud rolli omadused, rakendatakse need ressursi otsingute käigus filtrina. Otsingu täiendavaks täpsustamiseks saab omadusi lisada. 
+## <a name="form-a-project-team"></a>Projektimeeskonna koostamine
+Projektis eelnevalt seadistatud rollide kasutamiseks peab projektijuht need rollid projektiga seostama. Projektile saab määrata mitu rolli ja segaduse vältimiseks märgistab Dynamics 365 for Operations need rollid reserveerimise ajal automaatselt. Näiteks kui projektijuht vajab kolme tarkvarainseneri, luuakse automaatselt kolm tarkvarainseneri rolli, mille sildid on tarkvarainsener 1, tarkvarainsener 2 ja tarkvarainsener 3. Kui rollile olid eelnevalt määratud rolli omadused, rakendatakse need ressursi otsingute käigus filtrina. Otsingu täiendavaks täpsustamiseks saab omadusi lisada. 
 
 Kuvasätteid saab samuti kohandada, et anda parem vaade ressursi saadavuse kohta. On olemas valikud saadavuse kuvamiseks tunnis, päevas, nädalas, kuus, kvartalis ja aastas. On olemas ka valik näidata ressursside olemasolevat ja järelejäänud mahtu. Sellest valikust on kasu aja juhtimisel, kui hindate tegevuste jaoks saadaolevat aega või ressursi kättesaadavust. 
 
-Projektijuht saate valida lehe osa ja siis, kui on olemas ressurss, mis sobib nõude, valige rolli ressurssi reserveerida. Pange tähele, et ressursse ei pea olema sel hetkel reserveeritud ajal kogu. A WBS loomisel saate asendada rahalisi vahendeid projekti rollid. Kui rollid on asendatud WBS rahalisi ressursse, ressursi seadistus uuendab projektimeeskond loetelu ja ajastamine. 
+Projektijuht võib valida lehelt rolli ja siis, kui on olemas vajadusele vastav kättesaadav ressurss, valida ressursi reserveerimise rolli täitmiseks. Pange tähele, et ressursse pole plaanimise etapi selles osas vaja reserveerida. WBS-i loomisel saate asendada rollid projekti komplekteeritud ressurssidega. Kui rollid asendatakse WBS-is komplekteeritud ressurssidega, värskendab ressursi seadistus automaatselt projektimeeskonna loendit ja plaanimist. 
 
-[![Projekti meeskond nimekirja, mis sisaldab nii rollid kui reaalsete võimalustega](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projekti töörühma loend, mis sisaldab nii rolle kui ka tegelikke ressursse](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektijuhil on mitmesuguseid võimalusi projektile ressursi reserveerimiseks, nt **Järelejäänud võimsus**, **Täisvõimsus**, **Võimsuse protsent** ja **Tundide määramine**. Neid reserveerimisvalikuid saab ressursi määrangute muutumisel igal ajal tühistada. Toetatakse kahte reserveerimise tüüpi:
 
--   **Raamat** – ressursside reserveerimiseks heaks ning heaks tööd määratud ajaks kaasamine.
--   **Pehme raamat** – ressursside broneerimine pidi vaikselt tööd määratud ajaks kaasamine.
+-   **Fikseeritud reserveerimine** – ressursi reserveerimine kinnitati töötamiseks tegevusega määratud perioodil.
+-   **Esialgne reserveerimine** – ressurss reserveeriti esialgselt töötamiseks tegevusega määratud perioodil.
 
 Järgmine protseduur selgitab, kuidas projektimeeskonda koostada.
 
 ### <a name="create-a-project-team"></a>Projektimeeskonna koostamine
 
 1.  Valige loendilehelt **Kõik projektid** projekt ja klõpsake siis käsku **Redigeeri**.
-2.  Kohta ning **projekti meeskond ja planeerimise** vahekaardil, et **lõppkuupäev** sisestage alguskuupäev pluss üks kuu. Näiteks kui ajakava alguskuupäev on 24 juuni 2017 (24/06/2017), sisestage **24/07/2017**.
-3.  Click **Add**.
+2.  Sisestage vahekaardile **Projektimeeskond ja plaanimine** väljal **Graafiku lõppkuupäev** graafiku alguskuupäev pluss üks kuu. Näiteks kui graafiku alguskuupäev on 24. juuni 2017 (24/06/2017), sisestage **24/07/2017**.
+3.  Klõpsake käsku **Lisa**.
 4.  Valige paanilt **Projektile rollide lisamine** väljal **Roll **väärtus **Vanem-projektijuht**.
 5.  Klõpsake valikut **Vajalikud kompetentsid**.
 6.  Lehel **Omaduste valimine** on vaikimisi valitud omadused, mille eelnevalt vanem-projektijuhi rollile määrasite. Klõpsake nupul **OK**.
@@ -221,25 +224,25 @@ Ressursi sünkroonimise protsessid aitavad tagada, et kalendri ja aluskalendri t
 
 ### <a name="calendar-synchronizationmediaprojectresourcing04-1024x471jpg"></a>![Kalendri sünkroonimine](./media/projectresourcing04-1024x471.jpg)
 
-**Synchronize resource capacity roll-ups**
+**Ressursi võimsuse kokkuvõtete sünkroonimine**
 
-Sünkroonimisprotsess on mõeldud kogu ressursikalendri teabe sünkroonimiseks. See teave sisaldab peamist kalendriteavet kõigi muudatuste kohta projekti ressursikalendri võimsuse tabelis. Uute vahendite lisamisel projekti sünkroonimise aitab uuendatud kalendri teabe kättesaadavuse tagamiseks. See sünkroonimine võib toimuda igal ajal. 
+Sünkroonimisprotsess on mõeldud kogu ressursikalendri teabe sünkroonimiseks. See teave sisaldab peamist kalendriteavet kõigi muudatuste kohta projekti ressursikalendri võimsuse tabelis. Kui projektile lisatakse uusi ressursse, aitab sünkroonimine tagada, et värskendatud kalendriteave oleks saadaval. See sünkroonimine võib toimuda igal ajal. 
 
 Soovitame kasutada partiid. Need valikud on võimsuse reserveerimiste sünkroonimisel saadaval.
 
--   Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**perioodiline**&gt;**maht sünkroonimise**&gt;**sünkroonida ressursside võimsuse Reklaamstendid**.
+-   Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Perioodiline** &gt; **Võimsuse sünkroonimine** &gt; **Ressursside võimsuse kokkuvõtete sünkroonimine**.
 
 | Suvand | Kirjeldus                                                                                                                                                                                          |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jah    | sünkroonitakse kõik ressursi andmed kalendri ja peamise kalendri teabega ning asendatakse kogu teabe projekti ressursi võimsuse kalendris.                                                  |
 | Ei     | sünkroonitakse ressursi andmed, tuginedes kuupäevavahemiku koodile ja määratud algus- ning lõppkuupäevale. See valik ei eemalda olemasolevaid andmeid ja värskendab ainult äsja lisatud ressursside teavet. |
 
-[![Sünkroonimine](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Sünkroonimisprotsess](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 ## <a name="set-up-roles-on-wbs-templates"></a>Rollide seadistamine WBS-i mallidel
-Projektijuhid saavad seadistada WBS-i malle, mida saab rakendada uutele projektidele WBS-i loomisel. Projektijuhid lisada rollid malli loomisel. Järgmise toimingu abil saate määrata rolli WBS template.* * **
+Projektijuhid saavad seadistada WBS-i malle, mida saab rakendada uutele projektidele WBS-i loomisel. Projektijuhid saavad malli loomisel rolle lisada. Kasutage järgmist protseduuri rolli määramiseks WBS-i mallile.** **
 
-1.  Klõpsake **projektijuhtimine ja raamatupidamine**&gt;**Setup**&gt;**projekti**&gt;**töö jaotus struktuuri malle**.
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Seadistus** &gt; **Projektid** &gt; **Tööjaotuse struktuuri mallid**.
 2.  Klõpsake valitud WBS-i malli valikut **Üksikasjad**.
 3.  Valige loendist toiming ja seejärel valige väljalt **Roll** ülesandele määramiseks roll.
 
@@ -273,7 +276,7 @@ WBS-i on lisatud valikuid, et ressursieralduse funktsiooni paremini kasutada.
 </tr>
 <tr class="even">
 <td>Meeskonna automaatne loomine</td>
-<td>Saate lisada automaatselt plaanitud ressursse, kasutades toiminguga seostatud rolle. Dynamics 365 operatsioonide automaatselt välja planeeritud vahendeid kasutades mitme kriteeriumiga otsuste analüüs, mis põhineb rollid. Pärast toimingutele WBS-is rollide ja panuse (tunnid) määramist ja struktuuri vabastamist klõpsake valikut <strong>Meeskonna automaatne loomine</strong>. Vajalik arv plaanitud ressursse lisatakse WBS-i ja vahekaardile <strong>Projekti ja meeskonna plaanimine</strong>.</td>
+<td>Saate lisada automaatselt plaanitud ressursse, kasutades toiminguga seostatud rolle. Dynamics 365 for Operations soovitab automaatselt plaanitud ressursse, kasutades mitmel kriteeriumil põhinevat otsustamise analüüsi, mis põhineb rollidel. Pärast toimingutele WBS-is rollide ja panuse (tunnid) määramist ja struktuuri vabastamist klõpsake valikut <strong>Meeskonna automaatne loomine</strong>. Vajalik arv plaanitud ressursse lisatakse WBS-i ja vahekaardile <strong>Projekti ja meeskonna plaanimine</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Ressurss (ripploend)</td>
@@ -281,15 +284,15 @@ WBS-i on lisatud valikuid, et ressursieralduse funktsiooni paremini kasutada.
 <ul>
 <li><strong>Kinnita</strong> – ülesandele määratud ressursi muudatuste kinnitamine.</li>
 <li><strong>Tühista</strong> – ülesandele määratud ressursi muudatuste tühistamine.</li>
-<li><strong>Määrata automaatselt</strong> – selle suvandi valimine on saadaval personaliga ressurss koos valitud ülesandega kattuv roll.</li>
+<li><strong>Määra automaatselt</strong> – valitakse olemasolev komplekteeritud ressurss valitud toimingule vastava rolliga.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-1.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**projekti**&gt;**kõik projektid**.
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Projektid** &gt; **Kõik projektid**.
 2.  Valige loendist projekt **XYZ täiendusfaas 2**.
-3.  Klõpsake **kava**&gt;**tegevuse**&gt;**töö liigendamise struktuuriga**.
+3.  Klõpsake valikuid **Plaan** &gt; **Tegevused** &gt; **Tööjaotuse struktuur**.
 4.  Klõpsake valikuid **Uus** järgmiste esimese taseme tegevuste lisamiseks WBS-i.
     -   Algatamine
     -   Planeerimine
@@ -297,7 +300,7 @@ WBS-i on lisatud valikuid, et ressursieralduse funktsiooni paremini kasutada.
     -   Seire ja juhtimine
     -   Sule
 
-5.  Määra kuupäevad ja vaeva (tundi), nagu näidatud järgmisel pildil. [![Kuupäevad ja vaeva](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+5.  Määrake kuupäevad ja panus (tunnid) nii, nagu järgmisel ekraanipildil näidatud.[![Kuupäevade ja panuse seadistamine](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 6.  Valige ülesande rida **Algatamine** ja seejärel tehke väljal **Roll** valik **Vanem-projektijuht**.
 7.  Klõpsake valikut **Avalda**.
 8.  Samal real, väljal **Ressurss** valige **Daniel Goldschmidt**.
@@ -308,49 +311,51 @@ WBS-i on lisatud valikuid, et ressursieralduse funktsiooni paremini kasutada.
 13. Veenduge, et väljal **Ressurss** oleks väärtus **Ärianalüütik 1**.
 14. Ressursi **Ärianalüütik 1** puhul avage otsing ja klõpsake valikut **Ressursi määramise vormi käivitamine**.
 15. Valige ülesande jaoks töötaja.
-16. Klõpsake **pehme määra**&gt;**maht täis**.
+16. Klõpsake valikuid **Esialgne määramine** &gt; **Täisvõimsus**.
 17. Klõpsake nuppu **Salvesta** ja sulgege leht. 
 
 > [!NOTE] 
-> Te ei saa hoiatuse, millele määratud ressurss on nüüd 2, sest ressursside jääb 1.
+> Te ei saa hoiatust, et määratud ressurss on nüüd 2, kuna ressursside arvuks jääb 1.
 18. Kinnitage lehel **Tööjaotuse struktuur **WBS-is ressursi määrang ja klõpsake siis käsku **Salvesta**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Ressursi täitmine plaanitud ressursside puhul
 Projektijuht saab plaanida projekti jaoks vajalikke ressursirolle. Ressursihaldur näeb neid plaanitud ressursse taotlustena lehel **Ressursi täitmine** ja saab määrata tegelikke ressursse.
 
-1.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**projekti**&gt;**kõik projektid**.
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Projektid** &gt; **Kõik projektid**.
 2.  Valige loendist projekt **XYZ täiendusfaas 2**.
 3.  Klõpsake valikut **Projekt**.
 4.  Klõpsake valikut **Redigeeri**.
-5.  Kohta ning **projekti meeskonna ja planeerimise** jaotises ** ** klõpsake **lisa**.
+5.  Klõpsake vahekaardil **Projektimeeskond ja plaanimine**** **käsku **Lisa**.
 6.  Valige dialoogiboksist **Lisa rollid** roll **Tarkvaraarendaja**.
 7.  Klõpsake käsku **Loo**.
 8.  Sulgege projekti leht.
-9.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**projekti vahendite**&gt;**ressursi täitmine**.
+9.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Projekti ressursid** &gt; **Ressursi täitmine**.
 10. Valige **Tarkvaraarendaja 1** projektile **XYZ täiendusprojekti faas 2**.
 11. Valige töötaja ja klõpsake seejärel nuppu **Määra**.
 12. Veenduge, et rida **Tarkvaraarendaja 1** oleks projekti **XYZ täiendusprojekti faas 2** puhul eemaldatud.
 13. Vahekaardil **Projektimeeskond ja plaanimine** projekti **XYZ täiendusfaas 2** puhul veenduge, et töötaja, kelle 11. toimingus valisite, on lisatud kui **Tarkvaraarendaja**.
 
-## <a name="requests-for-project-resources"></a>Projekti taotlusi
-Projekti ressursside planeerimise funktsioon toetab ainult ressursihalduri jaotada rahalisi vahendeid kohustusi või projektid. Selle funktsiooni lubamiseks järgmistes või veenduge, et nad on lõpetanud.
+## <a name="requests-for-project-resources"></a>Projekti ressursside taotlused
+Projekti ressursi plaanimise funktsioon toetab ressursihaldureid ainult komplekteeritud ressursside jagamisel tegevustele või projektidele. Selle funktsiooni lubamiseks tehke järgmised toimingud või veenduge, et need oleksid tehtud.
 
 -   Häälestage numbriseeriad.
--   Saate seadistada projektide juhtimise ja raamatupidamise töövood.
--   Võimaldavad ressursi taotluse töövoo.
+-   Seadistage projektihalduse ja raamatupidamise töövood.
+-   Lubage ressursi taotluse töövoog.
 
-Kui on tõendatud või täitmist eespool nimetatud ülesannetele, saate täita järgmisi ülesandeid vastavalt vajadusele.
+Kui olete eespool nimetatud toiminguid kontrollinud või need ära teinud, saate teha vajaduse korral järgmisi toiminguid.
 
--   Pehme broneeriti personaliga ressurss ressursi määramise loomine
--   Jälgida ressursi taotlusi.
--   Ressursi taotlusi täita.
--   Taotleda rahalisi ressursse WBS.
--   Raamat taotluseta personaliga ressurss projekti ressursse.
+-   Luua esialgselt reserveeritud komplekteeritud ressursist ressursitaotlust.
+-   Jälgida ressursitaotlusi.
+-   Täita ressursitaotlusi.
+-   Taotleda WBS-ilt komplekteeritud ressurssi.
+-   Reserveerida projektile ressursse ilma komplekteeritud ressursi taotluseta.
 
-## <a name="monitor-project-teams"></a>Monitor projektimeeskonnad
-1.  Klõpsake **projektijuhtimine raamatupidamis- ja**&gt;**projekti**&gt;**kõik projektid**.
+## <a name="monitor-project-teams"></a>Jälgida projektimeeskondi
+1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Projektid** &gt; **Kõik projektid**.
 2.  Klõpsake projektide loendis linki **Projekti ID** projekti **XYZ täiendusfaas 2** puhul.
 3.  Veenduge, et kiirkaardil **Projektimeeskond ja plaanimine** loetletud projektiressursid on õiged.
+
+
 
 
 

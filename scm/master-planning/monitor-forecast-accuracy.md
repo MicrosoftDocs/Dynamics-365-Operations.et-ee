@@ -1,6 +1,6 @@
 ---
-title: "Monitor prognoosi täpsust"
-description: "Selles artiklis kirjeldatakse prognoosi täpsust, et Microsoft Dynamics 365 operatsioonide arvutab ja selgitab, kuidas kuvatakse väärtused täpsuse tüüpi."
+title: "Prognoosi täpsuse jälgimine"
+description: "Selles artiklis kirjeldatakse, millist tüüpi prognoosi täpsust Microsoft Dynamics 365 for Operations arvutab ning selgitatakse, kuidas täpsuse väärtusi vaadata."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="monitor-forecast-accuracy"></a>Monitor prognoosi täpsust
+# <a name="monitor-forecast-accuracy"></a>Prognoosi täpsuse jälgimine
 
-Selles artiklis kirjeldatakse prognoosi täpsust, et Microsoft Dynamics 365 operatsioonide arvutab ja selgitab, kuidas kuvatakse väärtused täpsuse tüüpi.
+[!include[banner](../includes/banner.md)]
 
-Dynamics 365 operatsioonide arvutab prognoosi täpsust järgmisi:
+
+Selles artiklis kirjeldatakse, millist tüüpi prognoosi täpsust Microsoft Dynamics 365 for Operations arvutab ning selgitatakse, kuidas täpsuse väärtusi vaadata.
+
+Dynamics 365 for Operations arvutab järgmised prognoosi täpsuse tüübid.
 
 -   Ajalooline prognoosi täpsus, kus võrreldakse koondplaneerimises kasutatavat prognoosi ajaloolise nõudlusega. Ajaloolise prognoosi täpsuse väärtuste (nii absoluutsete väärtuste kui ka väärtuste protsendi) vaatamiseks klõpsake lehel **Nõudluse prognoosi üksikasjad** nuppu **Kuva täpsus**.
 -   Prognooside loomisel kasutatud prognoosimudeli eeldatav täpsus. Saate vaadata täpsusprotsenti lehe **Nõudluse prognoosi üksikasjad** jaotisest **Mudeli üksikasjad – MAPE**. 
 
-**Märkus:** Dynamics 365 toimingute nõudluse prognoosimise Microsoft Azure'i masinõppe teenuse kasutamisel sisemudeli täpsus arvutus põhineb testi andmete hulka. Määrata testi andmete hulka, määra ning **TEST\_seatud\_suurus\_%** parameeter on **nõudluse prognoosimise parameetrid** lehekülg. Näiteks kui seate väärtuseks **20**, kasutatakse sisemise mudeli täpsuse arvutamiseks viimast 20% ajaloolistest andmetest.
+**Märkus.** Kui kasutate Dynamics 365 for Operationsi nõudluse prognoosimise Microsoft Azure’i masinõppe teenust, põhineb sisemise mudeli täpsuse arvutus testandmete kogumil. Testandmete kogumi suuruse määramiseks seadke lehel **Nõudluse prognoosimise parameetrid** parameeter **TEST\_SET\_SIZE\_PERCENT**. Näiteks kui seate väärtuseks **20**, kasutatakse sisemise mudeli täpsuse arvutamiseks viimast 20% ajaloolistest andmetest.
 
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Nõudluse prognoosi arvutamisel võõrväärtuste eemaldamine kandeandmete ajaloost](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

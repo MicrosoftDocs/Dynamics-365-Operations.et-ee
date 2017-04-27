@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet Euroopa Liidu (EL-i) käibearuande aruandluse kohta.
 
 <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
@@ -64,11 +67,11 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 <tbody>
 <tr class="odd">
 <td><strong>Seadistus:</strong> juriidiline isik</td>
-<td>Juriidilise isiku peamine aadress peab olema ELi liikmesriigis. Kohta ning <strong>juriidiliste isikute</strong> leht (klõpsake <strong>organisatsiooni haldamine</strong>&gt;<strong>organisatsioonide</strong>&gt;<strong>juriidiliste isikute</strong>), valige juriidiline isik. Kiirkaardil <strong>Aadressid</strong> looge aadress, valige riik/regioon ja muud aadressi osad ning märkige aadressi olekuks <strong>Esmane</strong>. Kiirkaardi <strong>Maksu registreerimine</strong> väljal <strong>Maksu registreerimisnumber</strong> määrake oma ettevõtte maksu registreerimisnumber.</td>
+<td>Juriidilise isiku peamine aadress peab olema ELi liikmesriigis. Valige juriidiline isik lehel <strong>Juriidilised isikud</strong> (klõpsake valikuid <strong>Organisatsiooni haldus</strong> &gt; <strong>Organisatsioonid</strong> &gt; <strong>Juriidilised isikud</strong>). Kiirkaardil <strong>Aadressid</strong> looge aadress, valige riik/regioon ja muud aadressi osad ning märkige aadressi olekuks <strong>Esmane</strong>. Kiirkaardi <strong>Maksu registreerimine</strong> väljal <strong>Maksu registreerimisnumber</strong> määrake oma ettevõtte maksu registreerimisnumber.</td>
 </tr>
 <tr class="even">
 <td><strong>Seadistus:</strong> maksuvabastuse ID parameetrid</td>
-<td>Loodud maksukohuslase kood parameetrid on <strong>riigi parameetrid</strong> leht (klõpsake <strong>maksu</strong>&gt;<strong>Setup</strong>&gt;<strong>käibemaksu</strong>&gt;<strong>riigi parameetrid</strong>). Looge igale riigile/regioonile, kus teil on vastaspooli, lehele kirje ja lisage järgmine teave.
+<td>Seadistage maksuvabastuse ID parameetrid lehel <strong>Riigi/regiooni parameetrid</strong> (klõpsake valikuid <strong>Maks</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Käibemaks</strong> &gt; <strong>Riigi/regiooni parameetrid</strong>). Looge igale riigile/regioonile, kus teil on vastaspooli, lehele kirje ja lisage järgmine teave.
 <ul>
 <li><strong>Riik/regioon</strong> – valige riik/regioon, mis seostatakse maksuvabastuse ID-ga.</li>
 <li><strong>Käibemaks</strong> – sisestage valitud riigi/regiooni maksuvabastuse ID-number (s.o maksukohuslase koodi eesliide).</li>
@@ -77,7 +80,7 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 </tr>
 <tr class="odd">
 <td><strong>Seadistus: </strong>maksukohuslase koodid</td>
-<td>Luua Maksukohuslase koode oma vastaspoolte puhul on <strong>Maksukohuslase koodid</strong> leht (klõpsake <strong>maksu</strong>&gt;<strong>Setup</strong>&gt;<strong>käibemaksu</strong>&gt;<strong>Maksukohuslase koodid</strong>). Looge iga maksukohuslase koodi kohta lehel kirje ja lisage järgmine teave.
+<td>Looge vastaspooltele maksukohuslase koodid lehel <strong>Maksukohuslase koodid</strong> (klõpsake valikuid <strong>Maks</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Käibemaks</strong> &gt; <strong>Maksukohuslase koodid</strong>). Looge iga maksukohuslase koodi kohta lehel kirje ja lisage järgmine teave.
 <ul>
 <li><strong>Riik/regioon </strong>– valige vastaspoole maksu registreerimise riik/regioon.</li>
 <li><strong>Maksukohuslase kood</strong> – sisestage vastaspoole maksukohuslase kood.</li>
@@ -86,11 +89,11 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 </tr>
 <tr class="even">
 <td><strong>Seadistus: </strong>vastaspoolte maksu registreerimine</td>
-<td>Loodud registreerimist maksuteavet oma vastaspoolte kas on <strong>kõigile klientidele</strong> lehe (klõpsake <strong>müügi- ja</strong>&gt;<strong>hotelli</strong>&gt;<strong>kõigile klientidele</strong>, valige kliendi kirje ja klõpsake <strong>Valikud</strong>&gt;<strong>vaate muutmine</strong>&gt;<strong>üksikasjade vaade</strong>) või <strong>hankijate</strong> lehe (klõpsake <strong>hangete ja mis hangivad</strong>&gt;<strong>müüjad</strong>&gt;<strong>müüjad</strong>, valige hankija kirje ja klõpsake <strong>Valikud</strong>&gt;<strong>vaate muutmine</strong>&gt;<strong>üksikasjade vaade</strong>). Valige kiirkaardi <strong>Arve ja tarne</strong> väljal <strong>Maksukohuslase kood</strong> maksu registreerimise number.</td>
+<td>Seadistage vastaspoolte maksu registreerimise teave kas lehel <strong>Kõik kliendid</strong> (klõpsake valikuid <strong>Müük ja turundus</strong> &gt; <strong>Kliendid</strong> &gt; <strong>Kõik kliendid</strong>, valige kliendi kirje ja klõpsake siis valikuid <strong>Suvandid</strong> &gt; <strong>Muuda vaadet</strong> &gt; <strong>Üksikasjade vaade</strong>) või lehte <strong>Hankijad</strong> (klõpsake valikuid <strong>Hanked</strong> &gt; <strong>Hankijad</strong> &gt; <strong>Hankijad</strong>, valige hankija kirje ja klõpsake siis valikuid <strong>Suvandid</strong> &gt; <strong>Muuda vaadet</strong> &gt; <strong>Üksikasjade vaade</strong>). Valige kiirkaardi <strong>Arve ja tarne</strong> väljal <strong>Maksukohuslase kood</strong> maksu registreerimise number.</td>
 </tr>
 <tr class="odd">
 <td><strong>Seadistus: </strong>käibemaks</td>
-<td>Seadistada maksu koodid kaasata selle <strong>EL müüginimekirja</strong> raport on <strong>käibemaksukoodide</strong> leht (klõpsake <strong>maksu</strong>&gt;<strong>kaudsete maksude</strong>&gt;<strong>käibemaksu</strong>&gt;<strong>käibemaksukoodide</strong>). Tühjendage kiirkaardil <strong>Aruande seadistus</strong> iga aruandesse kaasatava käibemaksukoodi puhul märkeruut <strong>Välistatud</strong>. Saate seadistada käibemaksu parameetrid üksuste kohta on <strong>kauba käibemaksugruppide</strong> leht (klõpsake <strong>maksu</strong>&gt;<strong>kaudsete maksude</strong>&gt;<strong>käibemaksu</strong>&gt;<strong>kauba käibemaksugruppide</strong>). Valige iga kauba käibemaksugrupi puhul väärtus väljal <strong>Aruandluse tüüp</strong>. Valitud väärtus määrab ESL-i summaveeru, kuhu lisatakse rea summa.
+<td>Seadistage <strong>EL-i käibearuandesse</strong> kaasatavad maksukoodid lehel <strong>Käibemaksukoodid</strong> (klõpsake valikuid <strong>Maks</strong> &gt; <strong>Kaudsed maksud</strong> &gt; <strong>Käibemaks</strong> &gt; <strong>Käibemaksukoodid</strong>). Tühjendage kiirkaardil <strong>Aruande seadistus</strong> iga aruandesse kaasatava käibemaksukoodi puhul märkeruut <strong>Välistatud</strong>. Seadistage kaupade käibemaksu parameetrid lehel <strong>Kauba käibemaksugrupid</strong> (klõpsake valikuid <strong>Maks</strong> &gt; <strong>Kaudsed maksud</strong> &gt; <strong>Käibemaks</strong> &gt; <strong>Kauba käibemaksugrupid</strong>). Valige iga kauba käibemaksugrupi puhul väärtus väljal <strong>Aruandluse tüüp</strong>. Valitud väärtus määrab ESL-i summaveeru, kuhu lisatakse rea summa.
 <ul>
 <li><strong>Tühi</strong> – rea summa lisatakse veergu <strong>Määramata väärtus</strong>.</li>
 <li><strong>Kaup</strong> – rea summa lisatakse veergu <strong>Kauba väärtus</strong>.</li>
@@ -104,7 +107,7 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 </tr>
 <tr class="odd">
 <td><strong>Seadistus: </strong>üldised parameetrid</td>
-<td>Saate seadistada parameetrid aruandmine ESL on <strong>väliskaubanduse parameetrid</strong> leht (klõpsake <strong>maksu</strong>&gt;<strong>Setup</strong>&gt;<strong>väliskaubanduse</strong>&gt;<strong>väliskaubanduse parameetrid</strong>). Määrake järgmised parameetrid.
+<td>Seadistage ESL-i aruandluse parameetrid lehel <strong>Väliskaubanduse parameetrid</strong> (klõpsake valikuid <strong>Maks</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Väliskaubandus</strong> &gt; <strong>Väliskaubanduse parameetrid</strong>). Määrake järgmised parameetrid.
 <ul>
 <li>Vahekaart <strong>EL-i käibearuanne</strong>.
 <ul>
@@ -147,7 +150,7 @@ Järgmist tüüpi kandeid saab nimetada EL-i sisesteks kaubanduskanneteks.
 -   Projektiarved
 -   Hankijaarved
 
-Kannet peetakse EL-i siseseks kaubanduskandeks, kui kande tarneaadress on EL-i liikmesriigis. Selliste riikide/regioonidep kohta peab olema kirje lehe **Väliskaubanduse parameetrid**  vahekaardil **Riigi/regiooni parameetrid** ja suvandi **Riigi/regiooni tüüp** väärtus peab olema **EL**. EL-i sisesed kaubanduskanded on väljal **Loendi kood** märgitud. Seda välja kasutades saate eraldada ka üldised EL-i sisesed kaubanduskanded triangulatsioonkaubanduse kannetest. Saate koguda teavet ühendusesiseste kaubandustehingute ning **EL müüginimekirja** leht (klõpsake **maksu**&gt;**deklaratsioonid**&gt;**väliskaubanduse**&gt;**EL müüginimekirja**) abil ning **üle** funktsiooni. Selle funktsiooni abil saate kaasata kanded, millel on mitmeid erinevaid aruandluse tüüpe (s.o kaubad või teenused) vastavalt kauba käibemaksugruppidele, mis on kanderidadel määratud. Samuti saate rakendada muid filtreid, et määratleda kaasatavaid kandeid. Funktsioon **Ülekanne** loob lehel **EL-i käibearuanne** kirje igale kaasatud EL-i sisesele kaubanduskandele ja määrab vastaspoole kontonumbri, riigi/regiooni, maksukohuslase koodi, arve numbri ja kuupäeva ning ridade kogusumma aruandluse tüübi kohta. See kopeerib kandest ka väärtuse **Loendi kood**. Saate käsitsi muuta kande loendi koodi lehel **EL-i käibearuanne**. Funktsioon **Ülekanne** loob kirjed, kui väärtus **Aruandluse olek** on olekus **Kaasatud**. Saate kinnitada teabe, mida kogutakse lehel **EL-i käibearuanne**, kasutades funktsiooni **Kinnitamine**.
+Kannet peetakse EL-i siseseks kaubanduskandeks, kui kande tarneaadress on EL-i liikmesriigis. Selliste riikide/regioonidep kohta peab olema kirje lehe **Väliskaubanduse parameetrid**  vahekaardil **Riigi/regiooni parameetrid** ja suvandi **Riigi/regiooni tüüp** väärtus peab olema **EL**. EL-i sisesed kaubanduskanded on väljal **Loendi kood** märgitud. Seda välja kasutades saate eraldada ka üldised EL-i sisesed kaubanduskanded triangulatsioonkaubanduse kannetest. Saate koguda teavet EL-i siseste kaubanduskannete kohta lehel **EL-i käibearuanne** (klõpsake valikuid **Maks** &gt; **Deklaratsioonid** &gt; **Väliskaubandus** &gt; **EL-i käibearuanne**), kasutades funktsiooni **Ülekanne**. Selle funktsiooni abil saate kaasata kanded, millel on mitmeid erinevaid aruandluse tüüpe (s.o kaubad või teenused) vastavalt kauba käibemaksugruppidele, mis on kanderidadel määratud. Samuti saate rakendada muid filtreid, et määratleda kaasatavaid kandeid. Funktsioon **Ülekanne** loob lehel **EL-i käibearuanne** kirje igale kaasatud EL-i sisesele kaubanduskandele ja määrab vastaspoole kontonumbri, riigi/regiooni, maksukohuslase koodi, arve numbri ja kuupäeva ning ridade kogusumma aruandluse tüübi kohta. See kopeerib kandest ka väärtuse **Loendi kood**. Saate käsitsi muuta kande loendi koodi lehel **EL-i käibearuanne**. Funktsioon **Ülekanne** loob kirjed, kui väärtus **Aruandluse olek** on olekus **Kaasatud**. Saate kinnitada teabe, mida kogutakse lehel **EL-i käibearuanne**, kasutades funktsiooni **Kinnitamine**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>EL-i käibearuande loomine
 
@@ -156,5 +159,7 @@ Saate luua aruande **EL-i käibearuanne**, kasutades funktsiooni **Aruandlus **l
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>EL-i käibearuande aruandlusperioodi sulgemine
 
 Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksuametnikud on **EL-i käibearuande** kinnitanud), saate märkida ESL-i kirjed, mis on perioodil aruandesse kaasatud, seadistades väärtuse **Aruandluse olek** olekuks **Suletud**. Kasutage selle oleku määramiseks funktsiooni **Märgi suletuks **lehel **EL-i käibearuanne**. Kui ennistate perioodi lõpetamise, saate märkida ESL-i kirjed, seadistades suvandi **Aruandluse olek** väärtuseks **Kaasatud**. Need kirjed saab siis uuesti **EL-i käibearuandesse** lisada. Selle oleku seadistamiseks kasutage funktsiooni **Märgi** **kaasatuks **lehel **EL-i käibearuanne**.
+
+
 
 

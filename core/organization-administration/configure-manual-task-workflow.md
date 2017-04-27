@@ -1,5 +1,5 @@
 ---
-title: "Konfigureerida käsitsi ülesande töövoo"
+title: "Töövoos käsitsi ülesande konfigureerimine"
 description: "See teema selgitab, kuidas konfigureerida käsitsi ülesande atribuute."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Konfigureerida käsitsi ülesande töövoo
+# <a name="configure-a-manual-task-in-a-workflow"></a>Töövoos käsitsi ülesande konfigureerimine
+
+[!include[banner](../includes/banner.md)]
+
 
 See teema selgitab, kuidas konfigureerida käsitsi ülesande atribuute.
 
@@ -124,10 +127,10 @@ Järgige neid etappe, et valida, kellele käsitsi ülesanne määratakse.
     </tr>
     <tr class="even">
     <td>Kasutaja</td>
-    <td>Teatud Microsoft Dynamics 365 toimingud kasutajatele</td>
+    <td>Kindlad Microsoft Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>On <strong>saadaval kasutajate</strong> loend sisaldab kõiki Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele ülesanne määrata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele ülesanne määrata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -145,8 +148,8 @@ Järgige neid etappe, et valida, kellele käsitsi ülesanne määratakse.
     <li>Valige loendis <strong>Järjekorra tüüp</strong> suvand <strong>Tinglike tööüksuste järjekord</strong>.</li>
     <li>Loendis <strong>Järjekorra nimi</strong> valige suvand <strong>Tinglik järjekord</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Märkus:</strong> seda võimalust kasutatakse ainult mõned töövoogude, nagu.</td>
+    </ol>
+    <strong>Märkus.</strong> Seda suvandit kasutatakse ainult mõningate töövoogude puhul, nagu juhtumihaldus.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Kui kasutaja ei vii käsitsi ülesannet määratud aja jooksul lõpule, on üles
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Konkreetse Dynamics 365 toimingud kasutajatele</td>
+    <td>Kindlad Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>On <strong>saadaval kasutajate</strong> loend sisaldab kõiki Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele ülesanne eskaleerida, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele ülesanne eskaleerida, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Kui kasutaja ei vii käsitsi ülesannet määratud aja jooksul lõpule, on üles
 6.  Kui kasutajad eskaleerimisteel ei täida ülesannet määratud aja jooksul, teeb süsteem ülesandega tegevuse. Süsteemi tegevuse määramiseks valige rida **Tegevus** ja seejärel valige tegevus vahekaardi **Lõpptegevus**.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Määrake, millal süsteem ülesandega automaatselt toimingu teeb
-Saate konfigureerida süsteemi, nii et see teeks käsitsi ülesandega toimingu, kui teatud tingimused on täidetud. Näiteks peab ülesande nõuete kohaselt kuluaruannete osakonna liige üle vaatama sissetulekud, mis saadetakse koos kuluaruandega. Vastavalt ettevõtte poliitikale, tuleb selleks teha kui kuluaruande kogusumma ületab USD 100. Sel puhul saab seadistada süsteemi, et automaatselt märkida tööülesannet kui **valmis** kui kogusumma on alla 100. Järgige neid toiminguid, et määrata, millal süsteem käsitsi ülesande puhul tegevuse teeb.
+Saate konfigureerida süsteemi, nii et see teeks käsitsi ülesandega toimingu, kui teatud tingimused on täidetud. Näiteks peab ülesande nõuete kohaselt kuluaruannete osakonna liige üle vaatama sissetulekud, mis saadetakse koos kuluaruandega. Ettevõtte poliitika kohaselt tuleb ülesanne täita juhul, kui kuluaruande kogusumma on suurem kui 100 USA dollarit. Sel juhul saate konfigureerida süsteemi nii, et ülesande olekuks määratakse automaatselt **Lõpule viidud**, kui summa on väiksem kui 100. Järgige neid toiminguid, et määrata, millal süsteem käsitsi ülesande puhul tegevuse teeb.
 
 1.  Klõpsake vasakpoolsel paanil suvandit **Automaatsed tegevused**.
 2.  Märkige ruut **Luba automaatsed tegevused**.
@@ -308,10 +311,10 @@ Võite saata inimestele teatisi käsitsi ülesande delegeerimisel, eskaleerimise
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Konkreetse Dynamics 365 toimingud kasutajatele</td>
+    <td>Kindlad Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>On <strong>saadaval kasutajate</strong> loend sisaldab kõiki Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Kui käsitsi ülesanne tuleb teatud ajaks lõpule viia, tehke järgmist. **Märk
 1.  Klõpsake vasakpoolsel paanil suvandit **Täpsemad sätted**.
 2.  Märkige ruut **Määra töövoo elemendi jaoks ajalimiit**.
 3.  Määrake väljal **Kestus**, mis ajaks peab ülesanne olema lõpule viidud. Tehke üks järgmistest valikutest:
-    -   **Tundi** – sisestage tundide, et ülesanne tuleb täita. Seejärel valige kalender, mida teie organisatsioon kasutab, ja sisestage organisatsiooni töönädala kohta teave.
-    -   **Päeva** – sisestage päevade, et ülesanne tuleb täita. Seejärel valige kalender, mida teie organisatsioon kasutab, ja sisestage organisatsiooni töönädala kohta teave.
+    -   **Tunnid** – sisestage tundide arv, mille jooksul tuleb ülesanne lõpule viia. Seejärel valige kalender, mida teie organisatsioon kasutab, ja sisestage organisatsiooni töönädala kohta teave.
+    -   **Päevad** – sisestage päevade arv, mille jooksul tuleb ülesanne lõpule viia. Seejärel valige kalender, mida teie organisatsioon kasutab, ja sisestage organisatsiooni töönädala kohta teave.
     -   **Nädalad** – sisestage nädalate arv, mille jooksul tuleb ülesanne lõpule viia.
     -   **Kuud** – valige päev ja nädal, mil kasutaja peab ülesande lõpule viima. Näiteks soovite võib-olla, et ülesanne oleks täidetud kuu kolmanda nädala reedeks.
     -   **Aastad** – valige päev, nädal ja kuu, mil kasutaja peab ülesande lõpule viima. Näiteks soovite võib-olla, et ülesanne oleks täidetud detsembri kolmanda nädala reedeks.
@@ -343,6 +346,8 @@ Kui kasutajale määratakse käsitsi ülesanne, tuleb kasutajal teha sellega teg
 5.  Märkige ruut **Delegeeri**, kui soovite anda kasutajale õiguse delegeerida ülesanne teisele kasutajale.
 6.  Märkige ruut **Määra ümber**, kui soovite anda kasutajale õiguse määrata ülesanne ümber teisele kasutajale tööüksuste järjekorras.
 7.  Märkige ruut **Vabasta**, kui soovite anda kasutajale õiguse määrata ülesanne ümber teisele kasutajale tööüksuste järjekorras. Muu kasutaja saab ülesande täita.
+
+
 
 
 

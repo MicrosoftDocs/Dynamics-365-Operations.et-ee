@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Tühistustega kulumiefektid
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis käsitletakse põhivara kande ennitamise võimalikke mõjusid. 
 
 Põhivarakandeid, ja põhivaraga seotud kandeid saab tühistada. Samuti saab tühistada pöördkandeid. 
@@ -90,6 +93,8 @@ Kulumit on vähendatud 16,95 võrra (983,62 - 966,67).
 <a name="see-also"></a>Vt ka
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Põhivara kulum](fixed-asset-depreciation.md)
+
+
 
 

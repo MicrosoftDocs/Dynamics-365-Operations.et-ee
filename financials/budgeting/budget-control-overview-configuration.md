@@ -1,6 +1,6 @@
 ---
-title: "Kontrolli ülevaade"
-description: See artikkel tutvustab eelarve kontrolli ja teave konfigureerimine eelarve kontrolli Microsoft Dynamics 365 toiminguteks, nii et saate hallata rahalisi vahendeid.
+title: "Eelarve juhtimise ülevaade"
+description: Selles artiklis tutvustatakse eelarve juhtimist ja antakse teavet Microsoft Dynamics 365 for Operationsis eelarve juhtimise konfigureerimise kohta, et saaksite hallata rahalisi vahendeid.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,16 +24,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-control-overview"></a>Kontrolli ülevaade
+# <a name="budget-control-overview"></a>Eelarve juhtimise ülevaade
 
-See artikkel tutvustab eelarve kontrolli ja teave konfigureerimine eelarve kontrolli Microsoft Dynamics 365 toiminguteks, nii et saate hallata rahalisi vahendeid.
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis tutvustatakse eelarve juhtimist ja antakse teavet Microsoft Dynamics 365 for Operationsis eelarve juhtimise konfigureerimise kohta, et saaksite hallata rahalisi vahendeid.
 
 <a name="overview"></a>Ülevaade
 --------
 
-Eelarve kontrolli Microsoft Dynamics 365 toiminguteks toetab ettevõtte rahaliste vahendite kaudu kontoplaani, töövooge, kasutajagrupid, algdokumendid, töölehed, seadistatav arvutamisel kasutada olevad vahendid, tsüklid ja künnised. Rakendatud juhtimisega saab organisatsioon plaanida, mõõta, hallata ja prognoosida oma rahalisi vahendeid kogu rahandusaasta jooksul. 
+Eelarve juhtimine Microsoft Dynamics 365 for Operationsis toetab organisatsiooni rahaliste vahendite kaudu kontoplaani, töövoogude, kasutajagruppide, lähtedokumentide ja töölehtede, saadaolevate fondide konfigureeritava arvutuse, eelarvetsüklite ning lävede haldamist. Rakendatud juhtimisega saab organisatsioon plaanida, mõõta, hallata ja prognoosida oma rahalisi vahendeid kogu rahandusaasta jooksul. 
 
-Pärast eelarvete heakskiitmist Dynamics 365 toiminguteks, saate luua eelarvekanded registris registreerida organisatsiooni eelarve kulude eelarve. Teise võimalusena saate luua või importimise registri muu programmi eelarve funktsiooni kasutamise asemel. 
+Pärast eelarvete heakskiitmist Dynamics 365 for Operationsis saate kasutada eelarveplaane, et luua eelarve registrikandeid organisatsiooni kulude eelarve salvestamiseks. Teise võimalusena saate luua või importida eelarve registrikandeid kolmanda osapoole programmist, selle asemel, et kasutada eelarve planeerimise funktsiooni. 
 
 Kulusid saab salvestada põhikontode ja finantsdimensioonide abil. Saate konfigureerida kogukulude juhtimist vastavalt organisatsiooni poliitikatele ja nõuetele, grupeerides finantsdimensioonide ja põhikontode kombinatsioone. 
 
@@ -41,22 +44,22 @@ Järgmisel skeemil näidatakse eelarve juhtimist tüüpilise eelarvetsükli etap
 
 [![BudgetingCycle](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
 
-Saate konfigureerida eelarve juhtimine vastavalt mitmed tegurid:
+Saate konfigureerida eelarve juhtimist erinevate tegurite alusel.
 
 -   **Finantsdimensioonid** – milliseid finantsdimensioone tuleb kasutada eelarve ja tegelike summade aruandluseks ning milliseid finantsdimensioone on vaja eelarve juhtimiseks? Kas konkreetsed dimensioonikombinatsioonid või põhikontod vajavad erilist tähelepanu? Näiteks kas eelarve jälgimine tegelike summadega on kulukeskuse ja programmiga nõutav? Kas reisikulud vajavad erilist tähelepanu?
 -   **Aeg** – millist ajavahemikku (rahandusperiood, rahandusperiood kuupäevani jne) kasutatakse saadaolevate eelarvefondide hindamiseks?
--   **Alusdokumentidest** – millised algdokumendid tuleb hinnata eelarve kontrolli üle? Kas dokumente hinnatakse iga rea või dokumendi eest?
+-   **Lähtedokumendid** – milliseid lähtedokumente tuleb hinnata eelarve juhtimise puhul? Kas dokumente tuleks hinnata rea või dokumendi kohta?
 -   **Saadaolevate vahendite arvutus** – kas dokumentidega, nagu ostutaotlused (eelpandiõigused) ja ostutellimused (pandiõigused), tuleb saadaolevate vahendite arvutamisel arvestada? Kas mustandi olekus dokumente tuleb arvutamisel arvestada?
 -   **Tühistamise luba** – kellel on õigus saadaolevat eelarvet ületada?
 
-Eelarve kontrolli täielikult integreeritud Dynamics 365 toiminguteks. Seetõttu saate hinnata saadaolevat eelarvet nii plaanitud kui ka tegelike ostude puhul. Saadaval on eelarve päringud ja aruanded. Seega saavad kasutajad eelarvet hinnata ja teha kõiki nõutavaid korrigeerimisi kogu eelarvetsükli jooksul eelarverevisjonide või ülekannete kujul. Eelarve haldur saab eelarve ja tegelikud kulud ka Microsoft Excelisse eksportida, et vajaduse korral paremini analüüsida ja prognoosida.
+Eelarve juhtimine on Dynamics 365 for Operationsiga täielikult integreeritud. Seetõttu saate hinnata saadaolevat eelarvet nii plaanitud kui ka tegelike ostude puhul. Saadaval on eelarve päringud ja aruanded. Seega saavad kasutajad eelarvet hinnata ja teha kõiki nõutavaid korrigeerimisi kogu eelarvetsükli jooksul eelarverevisjonide või ülekannete kujul. Eelarve haldur saab eelarve ja tegelikud kulud ka Microsoft Excelisse eksportida, et vajaduse korral paremini analüüsida ja prognoosida.
 
 ## <a name="configuring-budget-control"></a>Eelarve juhtimise konfigureerimine
 ### <a name="budget-cycle-time-span"></a>Eelarvetsükli periood
 
 Pärast põhilise eelarvestamise konfigureerimist saate määratleda eelarvestamise ja eelarve juhtimise aja või algus- ja lõpp-perioodid lehel **Eelarvetsükli periood**. Eelarvetsüklid vastavad sageli rahanduskalendritele, kuid võivad ulatuda rahandusaastateni.
 
-Järgmised sammud Configuration lõpetamise suvaliselt vahekaardilt ning **eelarve kontrolli konfiguratsiooni** lehel.
+Järgmised konfigureerimise etapid viiakse lõpule lehe **Eelarve juhtimise konfiguratsioon** vahekaartidel.
 
 ### <a name="define-parameters"></a>Parameetrite määratlemine
 
@@ -77,7 +80,7 @@ Vahekaardil **Eelarve ületamise load** saate määrata kasutajagrupid. Samuti s
 Vahekaardil **Saadaolevad eelarvefondid** saate määratleda saadaolevate eelarvefondide arvutamiseks kasutatava valemi. Olenevalt sellest, kui konservatiivselt organisatsioon oma rahalisi vahendeid haldab või olenevalt eeskirjadest või valdkonna nõuetest võidakse arvutamisse kaasata mustand või sisestamata dokumendid. 
 
 > [!NOTE] 
-> Arvutamisel muutmisel ajal eelarve tsükkel ei muudatused mõjutavad kõiki dokumente, mis varem vastu eelarve kontrolle ja mis konteeriti või lõpetatud.
+> Kui arvutust muudetakse eelarvetsükli ajal, siis muudatused ei mõjuta varem eelarve juhtimise kontrolli läbinud, sisestatud ega lõpetatud dokumente.
 
 ### <a name="documents-and-journals"></a>Dokumendid ja töölehed
 
@@ -96,7 +99,7 @@ Vahekaardil **Eelarvemudelite määramine** saate määrata eelarvemudelid eelar
 Vahekaardil **Eelarve juhtimise reeglite määratlemine** peate looma konkreetsed reeglid eelarve juhtimisel lubatud finantsdimensioonide alusel. Näiteks kui fookus on osakonna kulul või kulude vahemikul, saab neid kulusid määratleda ja hinnata sellel vahekaardil olevate sätetega. Iga eelarve juhtimise reegli puhul saab määratleda eri lävesid. 
 
 > [!Important]
-> Eelarve kontrolli lubatakse jaoks peamine konto on **tulude ja kulude**, **kulu**, **tulude, bilansi, kohustuste ja omakapitali** või **vara** tüüp. Kui see vahekaart sisaldab reeglit, millel on tühi kriteerium, lubatakse eelarve juhtimine **kõikide **finantsdimensioonide puhul, mis hülmavad seda tüüpi põhikontosid. Seetõttu looge kindlasti eelarve juhtimise reeglid, mis määratlevad ainult finantsdimensiooni kombinatsioonide vahemikud, kus eelarve juhtimise sisselülitamine on oluline.  
+> Eelarve juhtimine lubatakse põhukonto tüüpide **Kasum ja kahjum**, **Kulu**, **Tulu, Bilanss, Kohustused, Omakapital** või **Vara** puhul. Kui see vahekaart sisaldab reeglit, millel on tühi kriteerium, lubatakse eelarve juhtimine **kõikide **finantsdimensioonide puhul, mis hülmavad seda tüüpi põhikontosid. Seetõttu looge kindlasti eelarve juhtimise reeglid, mis määratlevad ainult finantsdimensiooni kombinatsioonide vahemikud, kus eelarve juhtimise sisselülitamine on oluline.  
 
 ### <a name="select-main-accounts"></a>Põhikontode valimine
 
@@ -114,15 +117,17 @@ Kui eelarvejuhtimise hoiatusteateid tuleb mõne kasutajagrupi puhul tõkestada, 
 
 Pärast seda, kui eelarve juhtimine on konfigureeritud, saate selle sisse lülitada ja aktiveerida vahekaardil **Eelarve juhtimise aktiveerimine**. Seejärel jõustub mustandversioon.
 > [!Important]
-> Pärast seda, kui eelarve kontroll on sisse lülitatud ja aktiivne ja kanded on konteeritud, see peaks olema v├ñlja l├╝litatud aasta keskel. Kui eelarve juhtimine on välja lülitatud, siis tegevusi eelave juhtimise eesmärkidel ei salvestata ja eelarvet enam ei kontrollita. Seetõttu ei pruugi juba sisestatud dokumendid õigesti kajastada eelave juhtimisega seotud päringutes ja aruanntes olevaid vabastatavaid summasid või saldosid. See hõlmab eelarve juhtimise statistikat allavoolu kohta või dokumentide ja töölehtede korrigeerimist. 
+> Kui eelarve juhtimine on sisse lülitatud ja aktiivne ning kanded on sisestatud, ei tohi seda aasta keskel välja lülitada. Kui eelarve juhtimine on välja lülitatud, siis tegevusi eelave juhtimise eesmärkidel ei salvestata ja eelarvet enam ei kontrollita. Seetõttu ei pruugi juba sisestatud dokumendid õigesti kajastada eelave juhtimisega seotud päringutes ja aruanntes olevaid vabastatavaid summasid või saldosid. See hõlmab eelarve juhtimise statistikat allavoolu kohta või dokumentide ja töölehtede korrigeerimist. 
 
 Pange tähele ka seda, et enne eelarve juhtimise sisselülitamist sisestatud kandeid, sh eelarveregistri kandeid, eelarve juhtimises ei arvestata. Seetõttu tasub eelarve juhtimine sisse lülitada ainult uue eelarvetsükli alguses. Veenduge, et eelarve juhtimise puhul eelarve algsaldosid sisaldavate eelarve registrikannete eelarvesaldosid värskendataks ainult siis, kui eelarve juhtimine on sisse lülitatud. Mis tahes avatud dokumenti (nt ostutellimust) kontrollitakse saadaolevate eelarvevahendite osas ja see saab eelarve juhtimise puhul eelarve reservatsiooni, kui kasutaja käivitab dokumendis käsitsi eelarve juhtimise kontrolli.
 
 ## <a name="using-budget-control"></a>Eelarve juhtimise kasutamine
 Kui eelarve juhtimine on sisse lülitatud, saavad kasutajad eelarve juhtimise osas konfigureeritud dokumentides ja töölehtedes hoiatus- ja tõrketeateid. Pidage meeles, et saate konfigureerida eelarve juhtimist nii, et kasutajaid hoiatatakse, kui nad ületavad eelarvefonde, kuid saavad siiski kande kinnitada või sisestada. Kasutajad saavad vaadata nurjunud eelarve kontrollide üksikasju lehel **Eelarve juhtimise tõrked ja hoiatused**.   
 
-Sellel lehel saate kasutajate üldiseks ning **eelarve kontrollistatistika periooditi** lehel Vaata eelarve võimalustele üksikasju ja broneerimine valitud eelarve kontrolli Dimensiooniväärt. Kasutajad saavad süveneda ka lehele **Eelarve juhtimise statistika**, et vaadata kõikide eelarve juhtimisel kasutatavate finantsdimensioonide kombinatsioonide eelarve saadavalolekut. 
+Sellelt lehelt saavad kasutajad minna süvitsi lehele **Eelarve juhtimise statistika perioodide kaupa**, et vaadata eelarve saadavaloleku üksikasju ja valitud eelarve juhtimise dimensiooni kombinatsiooni reserveerimisi. Kasutajad saavad süveneda ka lehele **Eelarve juhtimise statistika**, et vaadata kõikide eelarve juhtimisel kasutatavate finantsdimensioonide kombinatsioonide eelarve saadavalolekut. 
 
 Kui eelarve juhtimine on ostutellimuste puhul sisse lülitatud, saab eelarvehaldur kasutada tööruumi **Pearaamatu eelarved ja prognoosid**, et vaadata üle kõikide kinnitamata ostutellimuste järjestus, millel on eelarve kontrollimise hoiatused ja tõrked. Kui eelarve halduril on eelarve ületamise load konfigureeritud, saab ta ostutellimuse kinnitada otse tööruumis.    
+
+
 
 

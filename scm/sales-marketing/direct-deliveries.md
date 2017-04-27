@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Otsetarned
 
+[!include[banner](../includes/banner.md)]
+
+
 Artikkel sisaldab teavet otsetarnete kohta. Otsetarned on tarned, mis saadetakse hankijalt otse teie kliendile.
 
 Otsetarned säästavad tarneaega ja vähendavad varude hoidmisega seotud kulusid, kuna te ei hoia tooteid enne kliendile tarnimist oma laos.  
@@ -49,5 +52,7 @@ Kui proovite kustutada müügitellimuse rida tarnetüübiga **Otsetarne**, ütle
 
 ## <a name="warehouse"></a>Ladu
 Kui loote otsetellimuse, ei saabu kaup, mida müüte, kunagi füüsiliselt teie lattu. Teil tuleb siiski müügitellimuse real ladu määrata. Samamoodi võivad kauba mudeligrupis olla määratud komplekteerimisnõuded. Kui müügitellimus on otsetarne, eiratakse neid nõudeid, kuna kaup ei saabu füüsiliselt kunagi teie lattu.
+
+
 
 

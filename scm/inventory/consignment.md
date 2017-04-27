@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consignment"></a>Saadetis
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles teemas selgitatakse, kuidas kasutada sissetuleva veose laoprotsesse.
 
-Veose varud on varud, mis kuuluvad hankijale, kuid mida hoitakse teie tegevuskohas. Kui olete valmis tarbima või kasutama varusid, võtate varude omandiõiguse üle. Selles teemas kirjeldatakse füüsiliselt vastuvõtmise hankija olevate varude vaba loomata pearaamatukannete, kohta kus on müüja omandis füüsiliselt reserveerida tootmisprotsessi käivitamine. Ja kuidas muuta tooraine omandiõiguse et protsessi tarbimise osana tootmine tellimuste töötlemine. On ka teavet selle kohta, kuidas hankijad saavad jälgida nende varude tarbimist, kasutades hankija koostöö liidest. Sissetuleva veose protsesside lubamise ja konfigureerimise kohta lisateabe saamiseks vaadake [Saadetise seadistamine](set-up-consignment.md).
+Veose varud on varud, mis kuuluvad hankijale, kuid mida hoitakse teie tegevuskohas. Kui olete valmis tarbima või kasutama varusid, võtate varude omandiõiguse üle. See hõlmab teavet selle kohta, kuidas füüsiliselt vastu võtta hankijale kuuluvaid varusid laos ilma pearaamatu kannete loomiseta, kuidas käivitada tootmisprotsessi, kus hankijale kuuluvaid varusid saab füüsiliselt reserveerida, ning kuidas muuta toormaterjali omandiõigust, et töödelda tarbimist osana tootmistellimuse töötlemisest. On ka teavet selle kohta, kuidas hankijad saavad jälgida nende varude tarbimist, kasutades hankija koostöö liidest. Sissetuleva veose protsesside lubamise ja konfigureerimise kohta lisateabe saamiseks vaadake [Saadetise seadistamine](set-up-consignment.md).
 
 ## <a name="overview-of-the-consignment-process"></a>Veose töötlemise ülevaade
 Selles näidisstsenaariumis on ettevõtte USMF-l veose leping hankijaga US-104 toormaterjali M9211CI jaoks.
@@ -57,9 +60,9 @@ USMF teeb täiendavad perioodilised protsessid.
 Hankija, US-104, saab jälgida värskendusi, kasutades lehte **Veose vaba kaubavaru**.
 
 ## <a name="consignment-replenishment-orders"></a>Veose täiendustellimused
-Veose täiendustellimus on dokument, mida kasutatakse, et nõuda ja jälgida toodete varude koguseid, mida hankija soovib tarnida teatud kuupäevaintervalli siseselt, luues tellitud varude kanded. Tavaliselt põhineb see konkreetsete toodete prognoosil ja tegelikul nõudlusel. Varud, mis võetakse vastu veose täiendustellimuse suhtes, jääb hankija omandusse. Ainult füüsilise sissetuleku värskendusega seotud toodete omandus kirjendatakse ja seetõttu ei esine pearaamatu kande värskendusi. Dimensiooni **Omanik** kasutatakse, et eraldada teavet selle kohta, millised varud kuuluvad hankijale ja millised vastuvõtvale juriidilisele isikule. Saadetise täiendamise ridade on ka **avatud tellimus** seni, kuni read täiskogus ei saanud või tühistatud seisundi. Kui täiskoguse on laekunud või tühistatud, olek on muutunud **valminud**. Veose täiendamistellimusega seotud füüsilisi vabu varusid saab kirjendada, kasutades registreerimisprotsessi, aga ka toote sissetuleku värskendamisprotsessi. Registreerimist saab teha osana kauba saabumisprotsessist või tellimusridu käsitsi värskendades. Toote sissetuleku värskendamisprotsessi kasutamisel tehakse kirje toote sissetuleku töölehele, mida saab kasutada kaupade hankijale sissetuleku kinnitamiseks. 
+Veose täiendustellimus on dokument, mida kasutatakse, et nõuda ja jälgida toodete varude koguseid, mida hankija soovib tarnida teatud kuupäevaintervalli siseselt, luues tellitud varude kanded. Tavaliselt põhineb see konkreetsete toodete prognoosil ja tegelikul nõudlusel. Varud, mis võetakse vastu veose täiendustellimuse suhtes, jääb hankija omandusse. Ainult füüsilise sissetuleku värskendusega seotud toodete omandus kirjendatakse ja seetõttu ei esine pearaamatu kande värskendusi. Dimensiooni **Omanik** kasutatakse, et eraldada teavet selle kohta, millised varud kuuluvad hankijale ja millised vastuvõtvale juriidilisele isikule. Veose täiendamistellimuse ridadel on olek **Avatud tellimus** seni, kuni ridade täielikku kogust pole vastu võetud või tühistatud. Kui täielik kogus on vastu võetud või tühistatud, muudetakse olekuks **Tühistatud**. Veose täiendamistellimusega seotud füüsilisi vabu varusid saab kirjendada, kasutades registreerimisprotsessi, aga ka toote sissetuleku värskendamisprotsessi. Registreerimist saab teha osana kauba saabumisprotsessist või tellimusridu käsitsi värskendades. Toote sissetuleku värskendamisprotsessi kasutamisel tehakse kirje toote sissetuleku töölehele, mida saab kasutada kaupade hankijale sissetuleku kinnitamiseks. 
 
-[![partii-täiendustellimuse](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![veose-täiendustellimus](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Varude omandiõiguse muutmise tööleht
 Varude omaniku muutmise protsess hankijalt vastuvõtvale juriidilisele isikule tehakse varude omandiõiguse muutmise töölehe kasutamisega. Ühtegi eeldatavat laokannet ei looda töölehele. Ainsad loodavad laokanded on need, mis on seotud sisestatud töölehega. Millal tööleht sisestatakse?
@@ -69,14 +72,16 @@ Varude omaniku muutmise protsess hankijalt vastuvõtvale juriidilisele isikule t
 
 Pärast seda, kui tellimus on loodud, ei ole võimalik värsendada kogust veose ostutellimuse ridadel. 
 
-[![varude omandiõigus-muutmispäevik](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![varude-omandiõiguse-muutmise-tööleht](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
-## <a name="vendor-collaboration-in-consignment-processes"></a>Hankija koostöö veoseprotsessides
+## <a name="vendor-collaboration-in-consignment-processes"></a>Hankija koostöö veose protsessides
 Hankija koostööliidesel on kolm sissetuleva veose protsessiga seotud lehte.
 
--   **Ostutellimuste****tarbivad saadetise varude** -näitab üksikasjalikku osta seotud omandi muutusega partii protsessi teabe.
+-   **Ostutellimused,** **mis tarbivad veose varusid** – näitab üksikasjalikku ostutellimuse teavet, mis on seotud omandiõiguse vahetusega veose protsessist.
 -   **Veose varudest saadud tooted** – näitab teavet kaupade ja kogemuste kohta, mille toote sissetulekuid värskendatakse omandiõiguse muutmisprotsessi käigus.
 -   **Veose vaba kaubavaru** – näitab teavet selliste veose kaupade kohta, mille tarnimist nad ootavad ja selliste, mis on juba kliendi tegevuskohas füüsiliselt saadaval.
+
+
 
 
 

@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>Töövoo loomine
 
+[!include[banner](../includes/banner.md)]
+
+
 See teema selgitab, kuidas töövoogu luua.
 
 <a name="open-the-workflow-editor"></a>Avage töövoo redaktor
 ------------------------
 
-Toimingute moodulit, milles te töötate Microsoft Dynamics 365 määrab töövoog, mida saate luua tüüpi. Läbige need etapid töövoo tüübi valimiseks, et luua ja avada töövoo redaktor.
+Microsoft Dynamics 365 for Operationsi moodul, milles töötate, määrab töövootüübid, mida saate luua. Läbige need etapid töövoo tüübi valimiseks, et luua ja avada töövoo redaktor.
 
 1.  Avage moodul, mille jaoks soovite luua uue töövoo. Näiteks ostutaotluste jaoks töövoo loomiseks klõpsake valikut **Hanked**.
-2.  Klõpsake **Setup**&gt;**\[mooduli nimi\] töövoogude**.
+2.  Klõpsake valikuid **Seadistus** &gt; **Mooduli \[mooduli nimi\] töövood**.
 3.  Ilmuva loendilehe tegumiribal klõpsake valikut **Uus**.
 4.  Lehel **Töövoo loomine** valige loomiseks töövoo tüüp ja klõpsake seejärel valikut **Töövoo loomine**. Ilmub töövooredaktor. Nüüd saate kasutada töövoo kujundamiseks järgmiseid protseduure.
 
@@ -75,6 +78,8 @@ Kui olete valmis töövoo salvestama ja aktiveerima, järgige neid juhiseid.
 3.  Kui kõik tõrked ja hoiatused on lahendatud, ilmub leht **Aktiveeri töövoog**. Tehke üks järgmistest valikutest:
     -   Töövoo selle versiooni aktiveerimiseks klõpsake valikut **Aktiveeri uus versioon**. Kui töövoog on aktiivne, saavad kasutajad esitada töötlemiseks dokumente.
     -   Kui te ei soovi seda versiooni aktiveerida, klõpsake valikut **Ära aktiveeri uut versiooni**. Saate töövoo hiljem aktiveerida.
+
+
 
 
 

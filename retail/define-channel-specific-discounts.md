@@ -34,14 +34,14 @@ Jaemüüjad määravad tihti erinevates kanalites erinevad allahindlused. Selles
 <a name="channel-specific-discounts"></a>Kanalipõhised allahindlused
 --------------------------
 
-Jaemüüjad pakuvad tihti erinevaid allahindlusi erinevates kanalites. See on mai aadress kohaliku turu tingimustele või konkureerivate jaemüüjate teha.
+Jaemüüjad pakuvad sageli erinevates kanalites erinevaid allahindlusi. Seda saab teha kohalike turutingimuste arvestamiseks või konkureerivate jaemüüjatega toime tulemiseks.
 
-Hulgi- ja kaubanduse Microsoft Dynamics 365 operatsioonide kasutab Hooldushinnarühmad kanali konkreetse allahindlusi. Hinnagruppe saab määrata vähemalt ühele järgmisele üksusele: kanalid, kataloogid, alluvused ja püsikliendiprogrammid. See artikkel käsitleb kanaleid, kuid samad mõisted kehtivad kataloogi allahindlustele, alluvuste allahindlustele ja püsikliendiallahindlustele.
+Jaemüük ja kaubandus rakenduses Microsoft Dynamics 365 for Operations kasutab kanalipõhiste allahindluste määratlemiseks hinnagruppe. Hinnagruppe saab määrata vähemalt ühele järgmisele üksusele: kanalid, kataloogid, alluvused ja püsikliendiprogrammid. See artikkel käsitleb kanaleid, kuid samad mõisted kehtivad kataloogi allahindlustele, alluvuste allahindlustele ja püsikliendiallahindlustele.
 
 ## <a name="price-groups"></a>Hinnagrupid
-\[caption id = "manuse\_256084" viia = "alignnone" width = "640"\][![hind sõprade](./media/price-groups-1024x608.png)](./media/price-groups.png) hind rühma lingid jaemüük\[/caption\]
+\[caption id="attachment\_256084" align="alignnone" width="640"\][![Hinnagrupid](./media/price-groups-1024x608.png)](./media/price-groups.png) Hinnagruppide link moodulile Jaemüük\[/caption\]
 
-Joonis illustreerib seost üksused, mida võib tehingu (kanal, kataloog, liitumine, klient, kliendikaart) ja erinevate hinnaalandite liikide, mida saab konfigureerida. Kõik tehingud toimuvad kanalisse, nii, et kanal on tagatud lõppes tehingu. Ülejäänud üksused on valikulised. Igal koondandmete lehel on link seotud hinnagruppide lehele, kus saate vaadata ja lisada vajalikke hinnagruppe. Hinnagrupp kasutatakse nelja tüüpi üksuste seotud allahindlused, tariifide ja kaubanduskokkulepete. Me soovitame, et teil planeerida oma strateegia näidatakse nime oma hind sõprade hoida neid korraldatud. Üks võimalus oleks kasutada tähe või numbri eesliide või sufiks eristada erinevaid. Näiteks 1-xxxxx hind kanalipaketi ja 2-xxxxx kataloogi hind gruppidele. Neli päringulehte keskenduvad igale jaemüügiüksusele, millega on seotud allahindlused.
+Ülalolev joonis illustreerib seost kande võimalike üksuste vahel (kanal, kataloog, alluvus, klient, püsikliendikaart) ja mitmesuguseid allahindluse tüüpe, mida saab konfigureerida. Kõik kanded tehakse kanalis, seega on kanal kindlasti kandel olemas. Ülejäänud üksused on valikulised. Igal koondandmete lehel on link seotud hinnagruppide lehele, kus saate vaadata ja lisada vajalikke hinnagruppe. Hinnagruppi kasutatakse nelja tüüpi üksuste seostamiseks allahindluste, hinna korrigeerimiste ja kaubanduslepetega. Soovitame plaanida strateegia, kuidas hinnagruppe nimetada, et neid korras hoida. Üks võimalus on kasutada ees või järel tähte või numbrit, et erinevaid tüüpe eristada. Näiteks 1-xxxxx kanali hinnagruppide puhul ja 2-xxxxx kataloogi hinnagruppide puhul. Neli päringulehte keskenduvad igale jaemüügiüksusele, millega on seotud allahindlused.
 
 -   **Jaemüügikanali hinnagrupid **– sellel lehel on loend kanalitest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
 -   **Kataloogi hinnagrupid **– sellel lehel on loend kataloogidest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
@@ -62,6 +62,6 @@ Järgmine näide illustreerib kanali allahindluse seadistamiseks vajalikke toimi
 <a name="see-also"></a>Vt ka
 --------
 
-[Price adjustments and discounts](price-adjustments-discounts.md)
+[Hinnakorrigeerimised ja allahindlused](price-adjustments-discounts.md)
 
 

@@ -1,6 +1,6 @@
 ---
 title: Kiirklahvid
-description: "Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu Microsoft Dynamics 365 toiminguteks."
+description: "Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Microsoft Dynamics 365 for Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
-Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu Microsoft Dynamics 365 toiminguteks. 
+[!include[banner](../includes/banner.md)]
+
+
+Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Microsoft Dynamics 365 for Operations. 
 
 **Märkus.** Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
 
@@ -40,7 +43,7 @@ Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu Microsoft Dynamics 
 | Menüüs järgmisele/eelmisele suvandile liikumine            | Allanool/ülesnool            |
 | Toimingupaani vahekaardi või menüü sulgemine          | Esc-klahv                              |
 | Paremklõpsu simuleerimine                            | Shift + F10                        |
-| Avage Dynamics 365 toimingute kontekstimenüü | Ctrl + F10                         |
+| Dynamics 365 for Operationsi kontekstimenüü avamine | Ctrl + F10                         |
 | Vormil/dialoogis vaikenupu käivitamine       | Alt + sisestusklahv (Enter)                        |
 | Nupu või paani klõpsamine                            | Sisestusklahv (Enter) või tühik                   |
 | Inventuuripaani teabe värskendamine         | Alt + ülesnool                     |
@@ -64,7 +67,7 @@ Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu Microsoft Dynamics 
 | Kiirinfopaani avamine (või fookuse nihutamine kiirinfopaanile, kui see on juba avatud) | Ctrl + F2                                   |
 | Kiirinfopaani sulgemine (fookusega kiirinfopaanil)                         | Esc-klahv                                       |
 | Järgmisele/eelmisele kiirinfole liikumine (fookusega kiirinfopaanil)              | Alt + Shift + allanool / Alt + Shift + ülesnool |
-| Liikumine on &lt;n&gt;th FactBox (keskendudes FactBox paanil)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Liigutage &lt;n&gt;. kiirinfosse (fookusega kiirinfopaanile)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Kiirinfo laiendamine (fookusega kiirinfo päisel)                             | Tühik või sisestusklahv (Enter)                            |
 | Praeguse kiirinfo ahendamine                                                    | Alt + 0                                     |
 
@@ -111,8 +114,8 @@ Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu Microsoft Dynamics 
 | Järgmisele/eelmisele väljale liikumine                     | tabeldusklahv / Shift + tabeldusklahv                              |
 | Järgmisele/eelmisele vahekaardile liikumine                       | Alt + Shift + paremnool / Alt + Shift + vasaknool |
 | Järgmisele/eelmisele kiirkaardile liikumine                   | Alt + Shift + allanool / Alt + Shift + ülesnool    |
-| Liikumine on &lt;n&gt;th FastTab                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Liikumine on &lt;n&gt;th vahekaart                         | Alt + Shift +&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Liigutamine &lt;n&gt;. kiirkaardile                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
+| Liigutamine &lt;n&gt;. vahekaardile                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Kiirkaardi laiendamine (fookusega kiirkaardi päisel) | Tühik või sisestusklahv (Enter)                               |
 | Praeguse kiirkaardi ahendamine                        | Alt + 0                                        |
 | Ruudustikuvaatele lülitumine                                 | Ctrl + Shift + G                                 |
@@ -152,7 +155,7 @@ Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu Microsoft Dynamics 
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogi avamine           | Alt + allanool                |
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogi sulgemine          | Esc-klahv                           |
 | Fookuse nihutamine otsingule (kui otsing on juba avatud) | Alt + allanool                |
-| Avage juhtelemendi täiustatud eelvaade                        | Alt + ülesnool                  |
+| Juhtelemendi täiustatud eelvaate avamine                        | Alt + ülesnool                  |
 | Praegusel väljal teksti valimine                           | Ctrl + A                        |
 | Tekstialale sisenemine / tekstialalt väljumine HTML-redaktori juhtelementides        | Alt + allanool / Alt + ülesnool |
 
@@ -174,18 +177,18 @@ Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu Microsoft Dynamics 
 | Armatuurlaua avamine                                                       | Alt + Shift + Home  |
 | Navigeerimisriba avamine                                                  | Alt + Shift + F1    |
 | Navigeerimispaani avamine                                                 | Alt + F1          |
-| Lemmik/un-favorite vormi (keskendudes navigeerimispaanil vormi) | SHIFT + F         |
+| Vormi lemmiku märkimine / lemmikute loendist eemaldamine (kui fookus on navigeerimispaanil olevas vormis) | Shift+F         |
 | Ettevõtte valija avamine                                                  | Ctrl + Shift + O    |
 | Navigeerimisotsingu avamine                                                   | Ctrl + / või Alt + G |
-| Avage paan spikker                                                        | CTRL +?          |
-| Avage selle trace parser                                                     | Alt + Shift + T     |
+| Spikripaani avamine                                                        | Ctrl+?          |
+| Trace Parseri avamine                                                     | Alt+Shift+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Segmenditud kirje kiirklahvid
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Toiming**                                                                                                          | **Vajutamine**                        |
 | Rippmenüü loendi avamine (kui ripploend on suletud)                                                             | Alt + allanool                   |
 | Fookuse nihutamine ripploendis praeguse segmendi sisestusväljale (kui ripploend on juba avatud) | Alt + allanool                   |
 | Ripploendi sulgemine                                                                                                | Alt + ülesnool                     |
@@ -199,5 +202,7 @@ Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu Microsoft Dynamics 
 | Otsingu algusse/lõppu liikumine                                                                                    | Home / End                       |
 
  
+
+
 
 

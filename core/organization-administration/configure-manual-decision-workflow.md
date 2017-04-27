@@ -1,5 +1,5 @@
 ---
-title: "Konfigureerida käsitsi otsuse töövoos"
+title: "Töövoos käsitsi otsuse konfigureerimine"
 description: "See teema selgitab, kuidas konfigureerida käsitsi otsuse atribuute."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Konfigureerida käsitsi otsuse töövoos
+# <a name="configure-a-manual-decision-in-a-workflow"></a>Töövoos käsitsi otsuse konfigureerimine
+
+[!include[banner](../includes/banner.md)]
+
 
 See teema selgitab, kuidas konfigureerida käsitsi otsuse atribuute.
 
@@ -95,8 +98,8 @@ Saate saata inimestele teatisi, kui otsus langetatakse, delegeeritakse või eska
 
 1.  Vasakul paanil klõpsake suvandit **Teatised**.
 2.  Märkige ruut sündmuste kõrval, mille puhul saadetakse teatis.
-    -   **\[Valik 1\]** – määratud kasutajale on valitud **\[valik 1\]**.
-    -   **\[Valik 2\]** – määratud kasutajale on valitud **\[valik 2\]**.
+    -   **\[1. valik\]** – määratud kasutaja on valinud suvandi **\[1. valik\]**.
+    -   **\[2. valik\]** – määratud kasutaja on valinud suvandi **\[2. valik\]**.
     -   **Delegeerimine** – määratud kasutaja määras otsuse muule kasutajale.
     -   **Eskaleerimine** – määratud kasutaja ei teinud otsust määratud aja jooksul.
 
@@ -148,10 +151,10 @@ Saate saata inimestele teatisi, kui otsus langetatakse, delegeeritakse või eska
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Teatud Microsoft Dynamics 365 toimingud kasutajatele</td>
+    <td>Kindlad Microsoft Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>On <strong>saadaval kasutajate</strong> loend sisaldab kõiki Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Järgige neid etappe, et valida, kellele käsitsi otsus määratakse.
     </tr>
     <tr class="even">
     <td>Kasutaja</td>
-    <td>Konkreetse Dynamics 365 toimingud kasutajatele</td>
+    <td>Kindlad Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>On <strong>saadaval kasutajate</strong> loend sisaldab kõiki Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele otsus määrata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele otsus määrata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -234,8 +237,8 @@ Järgige neid etappe, et valida, kellele käsitsi otsus määratakse.
     <li>Valige loendis <strong>Järjekorra tüüp</strong> suvand <strong>Tinglike tööüksuste järjekord</strong>.</li>
     <li>Loendis <strong>Järjekorra nimi</strong> valige suvand <strong>Tinglik järjekord</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Märkus:</strong> seda võimalust kasutatakse ainult mõned töövoogude, nagu.</td>
+    </ol>
+    <strong>Märkus.</strong> Seda suvandit kasutatakse ainult mõningate töövoogude puhul, nagu juhtumihaldus.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Kui kasutaja ei tee otsust määratud aja jooksul, on otsuse tähtaeg ületatud.
     |----------|----------------------------|
     | 1        | Määra isikule: Donna           |
     | 2        | Määra isikule: Erin            |
-    | 3        | Vahetult: \[valik 1\] |
+    | 3        | Lõplik tegevus: \[1. valik\] |
 
-    Sellise näite korral määrab süsteem hilinenud otsuse Donnale. Kui Donna ei tee otsust selleks ettenähtud aja jooksul, määrab süsteem otsuse Erinile. Erin ei tee otsust määratud aja jooksul, kui süsteem valib **\[valik 1\]** mis otsuse.
+    Sellise näite korral määrab süsteem hilinenud otsuse Donnale. Kui Donna ei tee otsust selleks ettenähtud aja jooksul, määrab süsteem otsuse Erinile. Kui Erin ei tee otsust selleks ettenähtud aja jooksul, valib süsteem otsuseks suvandi **\[1. valik\]**.
 3.  Laiendustee kasutajale lisamiseks klõpsake valikut **Laienduse lisamine**. Valige järgmises tabelis üks valikutest ja seejärel järgige selle valiku täiendavaid etappe, enne kui jätkate 4. etapiga.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Kui kasutaja ei tee otsust määratud aja jooksul, on otsuse tähtaeg ületatud.
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Konkreetse Dynamics 365 toimingud kasutajatele</td>
+    <td>Kindlad Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>On <strong>saadaval kasutajate</strong> loend sisaldab kõiki Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele otsust eskaleerida, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele otsust eskaleerida, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Kui otsus tuleb teha teatud ajaks, tehke järgmist. **Märkus.** Selle protseduu
     -   **Aastad** – valige päev, nädal ja kuu, mis ajaks kasutaja peab otsuse tegema. Näiteks soovite võib-olla, et otsus oleks tehtud detsembri kolmanda nädala reedeks.
 
 4.  Ajalimiidi ületamisel langetab otsuse süsteem. Loendist **Tegevus** valige suvand, mille süsteem peaks valima.
+
+
 
 
 

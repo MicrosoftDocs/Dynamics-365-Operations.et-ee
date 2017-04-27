@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Tootmise seadistusnõuded
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis on teave seadistusnõuete kohta, mida peate teadma enne tootmise juhtimisega töötamist. 
 
-Tootmise sisekontroll on integreeritud funktsioonid teistes moodulites. See vastastikune ühenduvus võimaldab teil muuta tootmistellimusi ja tagada, et need uueneksid automaatselt kõikides muudes süsteemi seotud protsessides ja arvutustes. Järgmised seadistusprotsessid on loetletud nende tegemise järjekorras.
+Tootmise juhtimine on integreeritud teiste moodulite funktsioonidega. See vastastikune ühenduvus võimaldab teil muuta tootmistellimusi ja tagada, et need uueneksid automaatselt kõikides muudes süsteemi seotud protsessides ja arvutustes. Järgmised seadistusprotsessid on loetletud nende tegemise järjekorras.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Nõutav alusjoone seadistus muudes moodulites
 Muudes moodulites olev teave tuleb seadistada enne, kui saate tootmise juhtimisega töötada. Seadistus hõlmab järgmisi ülesandeid.
@@ -52,7 +55,7 @@ Enne tootmise juhtimise kasutamist avage organisatsiooni haldus ning looge ja m�
 4.  **Ressursid** – seadistage operatsiooniressursid, et määrata mitmesugused ressursid, mida kasutatakse tootmisprotsessi lõpetamiseks ja võimsuse planeerimiseks.
 
 ## <a name="required-production-parameters-setup"></a>Nõutav tootmise parameetrite seadistus
-**Tootmise parameetrid** – põhilised tootmise parameetrite seadistamine saate määratleda, kuidas süsteem käsitleb ja töötleb tootmistellimusi. Määratlege, kuidas tootmistellimusi luuakse, hinnatakse, plaanitakse ja tarbitakse. Samuti saate valida, millist tagasisidet soovite ja kuidas kuluarvestust tehakse.
+**Tootmise juhtimise parameetrid** – seadistage põhilised tootmise parameetrid määratlemiseks, kuidas süsteem tootmistellimusi käsitleb ja töötleb. Määratlege, kuidas tootmistellimusi luuakse, hinnatakse, plaanitakse ja tarbitakse. Samuti saate valida, millist tagasisidet soovite ja kuidas kuluarvestust tehakse.
 
 ## <a name="required-journal-name-identification"></a>Töölehe nime nõutav identifitseerimine
 **Tootmistöölehtede nimed** – määrake tootmistöölehtede nimed, mida kasutatakse kannete kirjendamiseks ja sisestamiseks.
@@ -76,6 +79,8 @@ Kui töötate protsessidega, tuleb määratleda iga tootmisprotsessi jaoks seadi
 1.  **Tootmisgrupid** – seadistage tootmisgrupid seoste loomiseks tootmistellimuse ja pearaamatukonto vahel. Pearaamatukontosid kasutatakse tellimuste sisestamiseks või grupeerimiseks aruandluse jaoks.
 2.  **Tootmiskaustad** – looge tootmiskaustad tootmistellimuste grupeerimiseks, et saaksite töödelda kiireid tootmistellimusi või kustutada ja sisestada tellimuste gruppe.
 3.  **Atribuudid** – määratlege atribuudid eriatribuutide loomiseks, mille saate määrata oma ressurssidele tootmiste järjekorra juhtimiseks. Need atribuudid ühendatakse tööajamalliga.
+
+
 
 
 

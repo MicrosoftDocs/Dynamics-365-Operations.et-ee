@@ -1,5 +1,5 @@
 ---
-title: "Täpsemad filtreerimise ja päringu süntaks"
+title: "Täpsem filtreerimis- ja päringusüntaks"
 description: "See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate dialoogiboksis Täpsem filter / sortimine tehtemärki „vastab”."
 author: jasongre
 manager: AnnBe
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-filtering-and-query-syntax"></a>Täpsemad filtreerimise ja päringu süntaks
+# <a name="advanced-filtering-and-query-syntax"></a>Täpsem filtreerimis- ja päringusüntaks
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate dialoogiboksis Täpsem filter / sortimine tehtemärki „vastab”.
 
-<a name="advanced-query-syntax"></a>Täpsema päringu süntaks
+<a name="advanced-query-syntax"></a>Täpsem päringusüntaks
 ---------------------
 
 <table>
@@ -52,79 +55,79 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td><em>väärtus</em></td>
 <td>Võrdub sisestatud väärtusega</td>
 <td>Tippige väärtus, mille soovite leida.</td>
-<td><strong>Smith</strong> leiab &quot;Smith&quot;.</td>
+<td><strong>Sepp</strong> leiab väärtuse &quot;Sepp&quot;.</td>
 </tr>
 <tr class="even">
-<td>! <em>väärtust</em> (hüüumärk)</td>
+<td>!<em>väärtus</em> (hüüumärk)</td>
 <td>Ei võrdu sisestatud väärtusega</td>
 <td>Tippige hüüumärk ja seejärel väärtus, mille soovite välistada.</td>
-<td><strong>! Smith</strong> leiab kõik väärtused, välja arvatud &quot;Smith&quot;.</td>
+<td><strong>!Sepp</strong> leiab kõik väärtused, välja arvatud &quot;Sepp&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>algväärtus</em>..<em>lõppväärtus</em> (topeltpunkt)</td>
 <td>Kahe teineteisest topeltpunktiga eraldatud sisestatud väärtuse vahel</td>
 <td>Tippige algväärtus, seejärel kaks punkti ja siis lõppväärtus.</td>
-<td><strong>1..10</strong> leiab kõik väärtused vahemikus 1 – 10. Siiski stringi väljal, <strong>A.. C</strong> leiab kõik väärtused, mis algavad &quot;A&quot; ja &quot;B&quot;, ja väärtused, mis on täpselt võrdne &quot;C&quot;. Näiteks see päring ei leia &quot;Ca&quot;. Leida kõik väärtused &quot;A*&quot; läbi &quot;C*&quot;, tüüp <strong>A.. D</strong>.</td>
+<td><strong>1..10</strong> leiab kõik väärtused vahemikus 1 kuni 10. Kuid näiteks stringiväljal leiab <strong>A..C</strong> kõik tähtedega &quot;A&quot; ja &quot;B&quot; algavad väärtused ning väärtused, mis võrduvad täpselt tähega &quot;C&quot; (näiteks väärtust &quot;Ca&quot; ei leita). Selleks et leida kõiki väärtusi vahemikus &quot;A*&quot; kuni &quot;C*&quot;, tippige <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>väärtus</em> (topeltpunkt)</td>
 <td>Sisestatud väärtusest väiksem või sellega võrdne</td>
 <td>Tippige kaks punkti ja seejärel väärtus.</td>
-<td><strong>.. 1000</strong> arv on väiksem või võrdne 1000, nagu leiab &quot;100&quot;, &quot;999.95&quot;, ja &quot;1000&quot;.</td>
+<td><strong>..1000</strong> leiab iga tuhandest väiksema või sellega võrdse arvu, näiteks &quot;100&quot;, &quot;999,95&quot; ja &quot;1000&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>väärtus</em>.. (topeltpunkt)</td>
 <td>Sisestatud väärtusest suurem või sellega võrdne</td>
 <td>Tippige väärtus ja seejärel kaks punkti.</td>
-<td><strong>1000..</strong> Number, mis on vähemalt 1000, nagu leiab &quot;1000&quot;, &quot;1,000.01&quot;, ja &quot;1 000 000&quot;.</td>
+<td><strong>1000..</strong> leiab iga tuhandest suurema või sellega võrdse arvu, näiteks &quot;1000&quot;, &quot;1000,01&quot; ja &quot;1 000 000&quot;.</td>
 </tr>
 <tr class="even">
-<td>&gt;<em>väärtus</em> (märk suurem kui)</td>
+<td>&gt;<em>väärtus</em> (märk „suurem kui”)</td>
 <td>Sisestatud väärtusest suurem</td>
-<td>Tippige märk suurem kui (<strong>&gt;</strong>) ja seejärel väärtust.</td>
-<td><strong>&gt;1000</strong> leiab number, mis on suurem kui 1000, näiteks &quot;1000.01&quot;, &quot;20000&quot;, ja &quot;1 000 000&quot;.</td>
+<td>Tippige märk „suurem kui” (<strong>&gt;</strong>) ja seejärel väärtus.</td>
+<td><strong>&gt;1000</strong> leiab iga tuhandest suurema arvu, näiteks &quot;1000,01&quot;, &quot;20 000&quot; ja &quot;1 000 000&quot;.</td>
 </tr>
 <tr class="odd">
-<td>&lt;<em>väärtus</em> (vähem kui)</td>
+<td>&lt;<em>väärtus</em> (märk „väiksem kui”)</td>
 <td>Sisestatud väärtusest väiksem</td>
-<td>Tippige vähem kui märk (<strong>&lt;</strong>) ja seejärel väärtust.</td>
-<td><strong>&lt;1000</strong> leiab number, mis on vähem kui 1000, näiteks &quot;999,99&quot;, &quot;1&quot;, ja &quot;-200&quot;.</td>
+<td>Tippige märk „väiksem kui” (<strong>&lt;</strong>) ja seejärel väärtus.</td>
+<td><strong>&lt;1000</strong> leiab iga tuhandest väiksema arvu, näiteks &quot;999,99&quot;, &quot;1&quot; ja &quot;–200&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>väärtus</em>* (tärn)</td>
 <td>Sisestatud väärtusega algav</td>
-<td>Tippige lähteväärtus ja tärniga (<strong>*</strong>).</td>
-<td><strong>S *</strong> leiab mis tahes stringi, mis algab &quot;S&quot;, nagu &quot;Stockholmi&quot;, &quot;Sydney&quot;, ja &quot;San Francisco&quot;.</td>
+<td>Tippige lähteväärtus ja selle järele tärn (<strong>*</strong>).</td>
+<td><strong>S*</strong> leiab iga S-tähega algava stringi, näiteks &quot;S&quot;, nagu &quot;Stockholm&quot;, &quot;Sindi&quot; ja &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>value</em> (asterisk)</td>
+<td>*<em>väärtus</em> (tärn)</td>
 <td>Sisestatud väärtusega lõppev</td>
 <td>Tippige tärn ja selle järele lõppväärtus.</td>
-<td><strong>* Ida</strong> leiab mis tahes string, mis lõpeb &quot;Ida&quot;, nagu &quot;puhub&quot; ja &quot;Kagu&quot;.</td>
+<td><strong>*vere</strong> leiab iga &quot;vere&quot;-lõpulise stringi, näiteks &quot;Adavere&quot; ja &quot;Pandivere&quot;.</td>
 </tr>
 <tr class="even">
 <td>*<em>väärtus</em>* (tärn)</td>
 <td>Sisaldab sisestatud väärtust</td>
 <td>Tippige tärn, otsitav väärtus ja selle järele veel üks tärn.</td>
-<td><strong>*th*</strong> leiab mis tahes string, mis sisaldab &quot;th&quot;, nagu &quot;puhub&quot; ja &quot;Kagu&quot;.</td>
+<td><strong>*rn*</strong> leiab iga stringi, milles sisaldub täheühend &quot;rn&quot;, näiteks &quot;Pärnu&quot; ja &quot;Kernu&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (küsimärk)</td>
 <td>Ühte või mitut tundmatut märki sisaldav</td>
 <td>Tippige väärtuses tundmatu märgi asemele küsimärk.</td>
-<td><strong>SM? th</strong> leiab &quot;Smith&quot; ja &quot;Smyth&quot;.</td>
+<td><strong>Ma?i</strong> leiab nii &quot;Mari&quot; kui ka &quot;Mati&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>väärtus</em>,<em>väärtus</em> (koma)</td>
 <td>Vastendab sobivad väärtused komadega eraldatult</td>
 <td>Tippige kõik kriteeriumid, eraldades need komadega.</td>
-<td><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;. <strong>10, 20, 30 ja 100</strong> leiab täpselt &quot;10, 20, 30 ja 100&quot;.</td>
+<td><strong>A, D, F, G</strong> leiab täpselt &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ja &quot;G&quot;. <strong>10, 20, 30, 100</strong> leiab täpselt &quot;10, 20, 30, 100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">SQL-lause</span>) (sulgudes SQL-lause)</td>
 <td>Kirjeldatud päringule vastav</td>
 <td>Tippige sulgudesse päring SQL-lausena.</td>
-<td><strong><span class="code">(andmeallikas. Väljanimi! = &quot;A&quot;)</span></strong></td>
+<td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
 <td>N</td>
@@ -137,7 +140,7 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td>Vastendab <strong>SysQueryRangeUtil</strong>-meetodi parameetritega määratud väärtuse või väärtusevahemiku</td>
 <td>Tippige <strong>SysQueryRangeUtil</strong>-meetod, mille parameetrid määravad väärtuse või väärtusevahemiku.</td>
 <td><ol>
-<li>Klõpsake <strong>laekumata arved</strong>&gt;<strong>arvete</strong>&gt;<strong>avada kliendi arvete</strong>.</li>
+<li>Klõpsake valikuid <strong>Müügireskontro</strong> &gt; <strong>Arved</strong> &gt; <strong>Ava kliendiarved</strong>.</li>
 <li>Vajutage klahvikombinatsiooni Ctrl + Shift + F3, et avada leht <strong>Päring</strong>.</li>
 <li>Klõpsake vahekaardil <strong>Vahemik</strong> nuppu <strong>Lisa</strong>.</li>
 <li>Valige väljal <strong>Tabel</strong> suvand <strong>Avatud kliendikanded</strong>.</li>
@@ -228,6 +231,8 @@ Lisateavet <strong>SysQueryRangeUtil</strong>-kuupäevameetodite kohta ja mõne 
 </tr>
 </tbody>
 </table>
+
+
 
 
 

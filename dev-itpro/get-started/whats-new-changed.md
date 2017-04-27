@@ -41,23 +41,23 @@ Värskeimale versioonile täiendamiseks vaadake [Dynamics 365 for Operationsi vi
 <thead>
 <tr class="header">
 <th><strong>Vabastamine</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
-<th><strong><strong>Rohkem</strong></strong></th>
+<th><strong><strong>Versioon</strong></strong></th>
+<th><strong><strong>Loo number</strong></strong></th>
+<th><strong><strong>Kättesaadavus</strong></strong></th>
+<th><strong><strong>Lisateave</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operationsi platvorm</td>
-<td>Platvormi värskendus 4</td>
+<td>Platvormivärskendus 4</td>
 <td>7.0.4425.16160</td>
-<td>Veebruar 2017</td>
+<td>2017. veebruar</td>
 <td><ol>
-<li>Mine ning <a href="https://roadmap.dynamics.com/">Dynamics 365 tegevuskava</a>.</li>
-<li>Valige selle <strong>mis uudist</strong> vahekaart.</li>
-<li>Linnas on <strong>rakenduste</strong> lõik, valige <strong>Dynamics 365 operatsioonide</strong>.</li>
-<li>Aastal ning <strong>aladel</strong> jaotises Valige <strong>pilve platvormi</strong>.</li>
+<li>Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>.</li>
+<li>Valige vahekaart <strong>Mis uudist?</strong>.</li>
+<li>Jaotises <strong>Rakendused</strong> valige <strong>Dynamics 365 for Operations</strong>.</li>
+<li>Jaotises <strong>Alad</strong> valige <strong>Pilve platvorm</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

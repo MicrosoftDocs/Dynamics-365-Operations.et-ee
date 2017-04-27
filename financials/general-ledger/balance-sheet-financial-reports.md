@@ -1,6 +1,6 @@
 ---
 title: Bilansi finantsaruanded
-description: "Selles artiklis kirjeldatakse vaikimisi aruanded bilanssides. Samuti kirjeldatakse alustalad, mis on seotud kõnealuste aruannete."
+description: "Selles artiklis kirjeldatakse bilansside vaikearuandeid. Samuti kirjeldatakse nende aruannetega seotud koosteüksusi."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Bilansi finantsaruanded
 
-Selles artiklis kirjeldatakse vaikimisi aruanded bilanssides. Samuti kirjeldatakse alustalad, mis on seotud kõnealuste aruannete. 
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis kirjeldatakse bilansside vaikearuandeid. Samuti kirjeldatakse nende aruannetega seotud koosteüksusi. 
 
 <a name="default-balance-sheet-reports"></a>Bilansi vaikearuanded
 -----------------------------
@@ -72,10 +75,12 @@ Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmet
 <a name="see-also"></a>Vt ka
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finantsaruandlus](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Finantsaruannete vaatamine](view-financial-reports.md)
 
-[Dynamics finants aruandluse blogi](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamicsi finantsaruandluse ajaveeb](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

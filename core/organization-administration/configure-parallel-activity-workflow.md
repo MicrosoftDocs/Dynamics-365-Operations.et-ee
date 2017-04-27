@@ -1,5 +1,5 @@
 ---
-title: "Konfigureerida paralleelselt tegutseda töövoos"
+title: "Töövoos paralleeltegevuse konfigureerimine"
 description: "Paralleeltegevuse konfigureerimiseks tehke töövooredaktoris järgmist."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Konfigureerida paralleelselt tegutseda töövoos
+# <a name="configure-a-parallel-activity-in-a-workflow"></a>Töövoos paralleeltegevuse konfigureerimine
 
 Paralleeltegevuse konfigureerimiseks tehke töövooredaktoris järgmist.
 
@@ -32,7 +32,7 @@ Paralleeltegevus koosneb töövoo harudes, mis töötavad samal ajal.
 
 ## <a name="name-a-parallel-activity"></a>Paralleeltegevusele nime andmine
 Paralleeltegevusele nime andmiseks tehke järgmist.
-1.  Paralleelselt tegutseda paremklõpsake ja seejärel klõpsake **atribuudid** avamiseks ning **atribuudid** vormi.
+1.  Paremklõpsake paralleeltegevust ja klõpsake valikut **Atribuudid** , et avada vorm **Atribuudid**.
 2.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
 3.  Väljale **Nimi** sisestage paralleeltegevuse kordumatu nimi.
 4.  Klõpsake valikut **Sule**.

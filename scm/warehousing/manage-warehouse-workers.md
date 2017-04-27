@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Laotöötajate haldamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse, kuidas saate kasutada Microsoft Dynamics AX-i nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 
 Kui kasutate funktsiooni jaotises Laohaldus, viidatakse kõikidele laotöötaja toimingutele sõnaga *töö*. Töö, nagu komplekteerimine, teisaldamine ja vabade laovarude inventuur, salvestatakse mobiilse seadmega. Enne kui laotöötaja saab tööd teha, peab ta olema jaotises Inimressursid töötajaga seostatud. Iga kontoga **Töötaja** võib olla seostatud mitu laotöö kasutajat. Need töökasutajad võivad töötada erinevates ladudes ja neil võib olla erinevatele mobiilse seadme menüüdele erinev juurdepääsutase. Laotöö kasutajatest võib mõelda kui valitud töötaja mitmest logimisnimest. Igal töö kasutajal on vaikeladu ja selle töö kasutajale saadaolevate menüü-üksused kasutavad konkreetseid töövooge. 
@@ -51,6 +54,8 @@ Tööüksuste töötlemiseks kasutatav aja analüüs aitab täiustada laotööta
 
 -   **Töö kasutaja alusel** – see aruanne näitab töötaja tootlikkust eeldatud aja ja tegeliku aja võrdluse alusel.
 -   **Töö tehingu tüübi alusel** – kasutage seda aruannet kindlate laoprotsesside puudujääkide uurimiseks. Näiteks märkate, et üleviimistellimuste komplekteerimised võtavad sel nädalal kauem aega kui eelmisel nädalal. Seda teavet saate kasutada edasiseks uurimiseks.
+
+
 
 
 

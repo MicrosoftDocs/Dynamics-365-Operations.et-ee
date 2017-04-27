@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Vaikevastaskontosid kasutatakse järgmistel hankija arve töölehe lehekülgedel:
@@ -92,6 +95,8 @@ Kasutage järgmist tabelit, mis aitab teil otsustada, kuhu peaksite arve tööle
 </tr>
 </tbody>
 </table>
+
+
 
 
 

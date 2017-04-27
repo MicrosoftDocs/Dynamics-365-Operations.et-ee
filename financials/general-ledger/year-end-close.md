@@ -1,6 +1,6 @@
 ---
 title: "Aastalõpu sulgemine"
-description: "Teema käsitleb Häälestuste ja pearaamatu aastalõpu Sule protsess kulgeb järgmiselt."
+description: "See teema kirjeldab nõutavat seadistust ja juhiseid pearaamatu aastalõpu sulgemise protsessi käivitamiseks."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,61 +27,66 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="year-end-close"></a>Aastalõpu sulgemine
 
-Teema käsitleb Häälestuste ja pearaamatu aastalõpu Sule protsess kulgeb järgmiselt. 
+[!include[banner](../includes/banner.md)]
 
-Majandusaasta lõpus käivitate aastalõpu kohtuasi üle uus süsteem uusaasta. Enamikus organisatsioonides kestab aastalõpu Sulge protsessi mitu korda. Esimest korda oleks saada liikus uuel saldod. Aasta lõpu lähedal siis käivitamist uuesti, kui tarvis, liikuda saldod reguleerimine kanded uuel mitu korda. 
 
-Aasta jooksul sulgeda protsessi, on kahte tüüpi võimalik loodud kanded. Avamise kanne luuakse alati ja saab luua uus süsteem uuel. Avamist tehingu ilmneb bilanssi pearaamatu konto saldode uuel ja saldod kasumiaruanne pearaamatu konto saldode jaotamata kasum pearaamatukontol uuel aastal. Sulgemise kanne luuakse soovi tuua alla null sulgeda rahandusaasta tulude ja kulude kontode jääke.
+See teema kirjeldab nõutavat seadistust ja juhiseid pearaamatu aastalõpu sulgemise protsessi käivitamiseks. 
 
-## <a name="prepare-to-run-the-year-end-close"></a>Valmistada, käivitada, aasta lõpus sulgeda
-Enne aastalõpu kohtuasi, kontrollida järgmisi sätteid: 
+Rahandusaasta lõpus peate käivitama aastalõpu sulgemisprotsessi algsaldode ülekandmiseks uude aastasse. Enamik organisatsioone käivitavad aastalõpu sulgemise protsessi mitu korda. Esimene kord tuleks saldod uude finantsaastasse teisaldada. Aastalõpu sulgemise saab seejärel uuesti käivitada nii palju kordi, kui on vaja, et teisaldada saldod kirjete reguleerimisest uude finantsaastasse. 
+
+Aastalõpu sulgemise protsessi käigus on loodud kaks võimalikku kannete tüüpi. Avamiskanne luuakse alati ja seda kasutatakse uues finantsaastas algsaldode loomiseks. Avamiskanne näitab uue finantsaasta bilansi pearaamatukonto saldosid ja jaotamata kasumi pearaamatukontol olevate kasumi ja kahjumi pearaamatukonto saldodest pärinevaid saldosid. Sulgemiskanne luuakse valikuliselt, et tuua kasumi- ja kahjumikontode saldod suletavas finantsaastas alla nullini.
+
+## <a name="prepare-to-run-the-year-end-close"></a>Aastalõpu sulgemise käitamiseks ettevalmistamine
+Enne aastalõpu sulgemisprotsessi käitamist kinnitage sätted järgmisesse kohta. 
 
 **Põhikonto** lehel
 
--   Kinnitada ka **Main liik** iga peamine konto on õigesti määratletud. Kas peamine konto saldo viiakse edasi nagu algsaldo või suletud arvesse jaotamata kasum avamise toimingu määramiseks kasutatakse Main konto tüüp.
--   Selle **avate konto** ülekandmiseks uus peamine konto saldo, mille peamine ajal aasta lõpu lähedal saate kasutada välja. Peamine konto on kantud ka **avate konto** välja. Tavaliselt seda kasutatakse peamiste bilansikontod peamine konto on aktiivne ja peamiseks kasutajaks on uuel.
+-   Kinnitage, et **Põhikonto tüüp** on iga põhikonto jaoks õigesti määratletud. Põhikonto tüüpi kasutatakse määramaks, kas põhikonto saldo tuuakse edasi algsaldona või suletakse avamiskandes jaotamata kasumisse.
+-   Välja **Avamiskonto** saab kasutada aastalõpu sulgemise käigus põhikonto saldo üleviimiseks uuele põhikontole. Uus põhikonto sisestatakse väljale **Avamiskonto**. Tavaliselt kasutatakse seda bilansi põhikontode jaoks, kui põhikonto on inaktiveeritud ja uut põhikontot kasutatakse uue finantsaasta jaoks.
 
-Kohta ning **pearaamatu parameetrid** alla lehekülg **Rahandusaasta sulgemine**:
+Lehel **Pearaamatu parameetrid** valikus **Finantsaasta sulgemine** toimige järgmiselt.
 
--   Selle **Kustuta sulgeda aasta tehingute** suvandi abil saate määrata, kas süsteemi loodud avamist tehingu lähedal eelmise aasta lõpus kustutatakse aasta lõpu lähedal töötab jälle. Kui see suvand on seatud **Jah**, eelmise avamine kannet kustutada ja uue avamist tehingu on loodud põhineb tasakaalu. Kui see suvand on seatud **nr**, eelmise avamine tehing jääb ja täiendavad avamise kanne luuakse liikuda saldod edasi kohandada pärast eelmise aasta lõpu lähedal sisestatud kanded.
--   Selle **Loo sulgemiskanded ülekandmisel** võtmega saab Loo sulgemiskanded tulu ja kulu kontode jääke viia nullini sulgeda rahandusaasta. Kui see suvand on seatud **Jah**, avamine tehingu ja sulgemiskanne on loodud. Kui see suvand on seatud **nr**, vaid avamise kanne luuakse järgmise finantsaasta üle saldod. Tulu ja kulu konto saldode jäävad majandusaasta lõpus.
--   On **seatud rahandusaasta olek jäädavalt suletud** võtmega saab jäädavalt suletud olekuks aasta määratud. Kasutage seda sätet ettevaatlikult, sest kõigi perioodide jäädavalt suletud olek ei saa uuesti, vältida muudatusi alates majandusaasta lähetamine. See on seda määrata **nr**.
--   Selle **kande number peab olema täidetud** võtmega saab määrata, kas kande number peab võtma aasta lõpus kohtuasi sõites. See on parim lahendus tuleb numbri, et tehingut avamine kergesti identifitseerida.
+-   Valikut **Kustuta aasta lõpetamise kanded ülekandmisel** kasutatakse määramiseks, kas süsteemi loodud avamiskanne eelmisest aastalõpu sulgemisest tuleks kustutada, kui aastalõpu sulgemine käivitatakse uuesti. Kui see valik on seatud olekusse **Jah**, kustutatakse eelmine avamiskanne ja uus avamiskanne luuakse praeguste saldode põhjal. Kui see valik on seatud olekusse **Ei**, püsib eelmine avamiskanne ja luuakse täiendav avamiskanne, et teisaldada saldod edasi pärast eelmist aastalõpu sulgemist sisestatud kannete reguleerimist.
+-   Valikut **Loo ülekande ajal sulgemiskanded** kasutatakse sulgemiskannete loomiseks suletaval finantsaastal, et viia kasumi- ja kahjumikontode saldod nulli. Kui see valik on seatud olekusse **Jah**, luuakse nii avamis- kui ka sulgemiskanne. Kui see valik on seatud olekusse **Ei**, luuakse järgmisel finantsaastal saldode üleviimiseks ainult avamiskanne. Kasumi- ja kahjumikonto saldod püsivad finantsaasta lõpus.
+-   Valik **Rahandusaasta oleku määramine püsivalt suletuks** kasutatakse finantsaasta seadmiseks püsivalt suletud olekusse. Kasutage seda sätet ettevaatlikult, kuna kõiki püsivalt suletud olekuga perioode ei saa uuesti avada, ennetades korrigeerimiste sisestamist finantsaastasse. Selle valiku olekuks tasub määrata **Ei**.
+-   Valikut **Kande number peab olema täidetud** kasutatakse määratlemiseks, kas kande number on aastalõpu sulgemisprotsessi käitamisel kohustuslik. On hea tava nõuda kande numbrit, et avamiskannet hõlpsasti tuvastada.
 
-Kohta ning **finantskalender** leht:
+Lehel **Rahanduskalender** toimige järgmiselt.
 
--   Järgmisel eelarveaastal peab olemas olema enne aasta lõpus sulgeda. Järgmise rahandusaasta on vajalik luua algusest kaalud avamise perioodil.
+-   Järgmine finantsaasta peab eksisteerima enne aastalõpu sulgemise käitamist. Järgmine finantsaasta on kohustuslik, et luua avamisperioodil algsaldod.
 
-Kohta ning **pearaamatu kalender** leht:
+Lehel **Pearaamatu kalender** toimige järgmiselt.
 
--   Valikuline: Iga eelarveperioodi sulgeda rahandusaasta võib viia **ootel** kantud uute tehingute vältimiseks. Korrigeerimine kanded on märgistatud, On registreeritud perioodide saab uuesti avada korrigeerimine kannete, isegi siis, kui aasta lõpus kohtuasi on juba käitatud.
+-   Valikuline: iga suletavat finantsaasta rahandusaastat saab määrata olekusse **Ootel**, et takistada uute kannete sisestamist. Korrigeerivate sisestuste tuvastamisel saab ooteloleku perioodid korrigeerivate sisestuste sisestamiseks taasavada isegi siis, kui aastalõpu sulgemisprotsess on juba käivitatud.
 
-## <a name="define-year-end-close-templates"></a>Saate määratleda aastalõpu tihedas
-Pärast süsteemi konfigureerimist aastalõpu Sulge protsessi käivitamist. Kohta ning **aasta lõpus sulgeda** lehel malli saab määratleda puhul käitatakse mille aasta lõpus sulgeda protsessi õigussubjektide rühm. Malli konfigureeritava iga majandusaasta lõpus lähedal, kuid seda saab muuta kui ettevõtte muutudes. 
+## <a name="define-year-end-close-templates"></a>Aastalõpu sulgemismallide määratlemine
+Pärast süsteemi konfigureerimist saab käivitada aastalõpu sulgemisprotsessi. Lehel **Aastalõpu sulgemine** saab määratleda malli selliste juriidiliste isikute grupile, mille jaoks aastalõpu sulgemisprotsess käivitatakse. Malli taaskasutatakse igal aastalõpu sulgemisel, kuid seda saab muuta, kui teie organisatsioon muutub. 
 
-Esiteks määratleda selle **nimi** malli ja valida Finantsaasta kalendri. Rühma nimi tuleks lisada juriidiliste isikute grupi kood.  Näiteks malle võib seadistada põhinevad geograafilisel jaotusel, Põhja-Ameerika, EMEA juriidilised isikud, ja APAC juriidiliste isikute loodud eraldi gruppidega. 
+Esmalt määratlege malli jaoks **Grupi nimi** ja valige rahanduskalender. Grupi nimi peaks identifitseerima lisatud juriidiliste isikute gruppi.  Näiteks saab mallid seadistada geograafia põhjal nii, et Põhja-Ameerika, EMEA ja APAC juriidiliste isikute jaoks on loodud eraldi grupid. 
 
-Seejärel saab juriidiliste isikute lisada malli. Juriidiliste isikute saab lisada valides organisatsiooni hierarhia või valides juriidilised isikud. Organisatsiooni hierarhia valimisel lisatakse malli ainult juriidiliste isikute järjestuses, mis kasutavad valitud Finantsaasta kalendri. Kui juriidiliste isikute abil saate lisada malli, saab lisada ainult juriidilistest isikutest sama finantskalender. Sama finantskalender on vajalik, sest aasta lõpus lähedal töötab valides majandusaasta, millega saab muuta kalendris kalender. 
+Järgmisena saab mallile lisada juriidilised isikud. Juriidilisi isikute lisamiseks saate valida organisatsioonihierarhia või valida juriidilised isikud. Organisatsioonihierarhia valimisel lisatakse malli ainult hierarhiasisesed juriidilised isikud, kes kasutavad valitud rahanduskalendrit. Kui kasutate malli lisamiseks juriidilisi isikuid, saab lisada ainult sama rahanduskalendriga juriidilisi isikuid. Sama rahanduskalender on vajalik, kuna aastalõpu sulgemine käivitatakse finantsaasta valimisega, mis võib varieeruda olenevalt kalendrist. 
 
-Kui juriidilised isikud on lisatud, saate määratleda iga juriidilise isiku jaotamata kasum keskne raamatupidamine. Selle **mullu lõppkuupäev sulgeda** välja uuendatakse iga kord aasta lõpu lähedal töötab puhul. 
+Pärast juriidiliste isikute lisamist määratlege iga juriidilise isiku jaoks kinnipeetud tulude põhikontod. Välja **Viimase rahandusaasta sulgemise kuupäev** värskendatakse iga kord, kui juriidilise isiku jaoks käivitatakse aastalõpu sulgemine. 
 
-Selle **rahalise küljega** vahekaardil saab määratleda, millised finantsdimensioonide kasutatakse avamist tehingu. On määravad sätted on seotud ainult juriidilise isiku valitud selle **juriidiliste isikute** võrku. Igal juriidilisel isikul ruudustiku kordub setup. 
+Vahekaarti **Finantsdimensioon** kasutatakse määratlemiseks, milliseid finantsdimensioone avamiskandel kasutatakse. Pange tähele, et määratletavad sätted on asjakohased ainult ruudustikus **Juriidilised isikud** valitud juriidilisele isikule. Korrake seadistust iga ruudustikus oleva juriidilise isiku jaoks. 
 
-Selle **kanda bilansi mõõdud** abil määratletakse, kas finantsdimensioonide kohta bilansi kontodel sisestatud säilitamise tehingut avamine. Tavaks on, seadke selle suvandi väärtuseks on **Jah**. Ning **üle kanda tulu ja kulu mõõdud** võimaldab määratleda, millised finantsdimensioonide sisestatud tulu ja kulu konto kantakse jaotamata kasum põhikonto. Kõigepealt Tuvastage seotud valitud juriidilise finantsdimensioonide. See hõlmaks mis tahes aasta jooksul sisestada finantsdimensioonide, isegi kui rahalise küljega ei kuulu aktiivse konto struktuur. Määratleda, kas igale **lähedased ühe** või **sulgege kõik**.  Vaikimisi on **sulgeda kõik**, mis säilitab esialgse rahalise küljega konteeritud kannetega väärtustab ja kasutab neid loomine avamine saldod jaotamata kasumi kontole. Iga unikaalne kombinatsioon rahalisi väärtusi luuakse eraldi jaotamata kasum algusest kaalud. Kui **lähedal ühe** on valitud, kõik kanded sisestatakse selle rahalise küljega kokku võtta jaotamata kasumi algsaldo pärast väljale dimensiooniväärtuse **lähedal ühe**. Näiteks Oletame, et kõik majandusaasta sisestamise konto struktuur Main konto - osakond. Mall, dimensiooni osakond rahalise **lähedal ühe** on valitud ja 100 on sisestatud väärtus. Kui kõik edastada ka 200, 300 ja 400 sisestatud kanded kogutulu on $100,000, luuakse üks algsaldo jaotamata kasum - 100. Kui valite **lähedal ühe** ja rahalisi väärtusi tühjaks jätta, kõik tehingud konteerib jaotamata kasum selle dimensiooniväärtusega tühi. 
+Valikut **Bilansi dimensioonide ülekandmine** kasutatakse määratlemiseks, kas bilansikontodele sisestatud kannetel olevaid finantsdimensioone tuleks säilitada avamiskandes. Selle valiku olekuks tasub seada **Jah**. Valikut **Kasumi ja kahjumi dimensioonide ülekandmine** kasutatakse määratlemiseks, millised kasumi- ja kahjumikontole sisestatud finantsdimensioonid viiakse üle jaotamata kasumi põhikontole. Esmalt tuvastage valitud juriidilisele isikule asjakohased finantsdimensioonid. See peaks hõlmama kõiki finantsdimensioone, mille suhtes on aasta jooksul sisestatud, isegi kui finantsdimensioon ei ole osa aktiivsest kontostruktuurist. Järgmisena määratlege iga dimensioon kui **Sule üksik** või **Sule kõik**.  Vaikesäte on **Sule kõik**, mis säilitab algsed finantsdimensiooni väärtused sisestatud kannetest ja kasutab neid jaotamata kasumi konto jaoks avamissaldode loomiseks. Eraldi jaotamata kasumi algsaldod luuakse iga unikaalse finantsdimensiooni väärtuste unikaalse kombinatsiooni puhul. Valiku **Sule üksik** tegemisel võetakse kõik selle finantsdimensiooniga sisestatud kanded kokku jaotamata kasumi algsaldosse valiku **Sule üksik** väljale sisestatud dimensiooniväärtuse puhul. Näiteks eeldame, et kõik finantsaasta kanded sisestati põhikonto struktuuriga – osakond. Malli osakonna finantsdimensioonis tehakse valik **Sule üksik** ja sisestatakse väärtus 100. Kui kõik osakondadesse 200, 300 ja 400 sisestatud kanded on 100 000 dollarit, luuakse jaotamata kasumi jaoks üks algsaldo – 100. Kui teete valiku **Sule üksik** ja jätate finantsdimensiooni väärtuse tühjaks, sisestatakse kõik kanded jaotamata kasumisse nii, et dimensiooni väärtus on tühi. 
 
-Aasta lõpus Sule protsess ei täida konto struktuure. Seda sellepärast, et konto struktuure saab muuta kogu majandusaasta ja see ei ole alati võimalik kindlaks määrata asjakohased kontoplaani struktuuris muutumise tõttu.  Avamiskannete loomisel saldod viiakse edasi koos finantsdimensioonide aasta lõpuks Sule Mall määratletud. Algusest kaalud kanded saime finantsdimensioonide enam sellega Jooksevkonto struktuur ja segmendi kombinatsioonid kehtivusaeg Jooksevkonto struktuur. Kui teie organisatsioon soovib välistada rahalise küljega jaotamata tulu algsaldo, seadke rahalise küljega olevat **lähedal ühe** ja dimensiooniväärtuse tühjaks jätta.
+Aastalõpu sulgemise protsess ei järgi kontostruktuure. Seda selle tõttu, et kontostruktuurid võivad muutuda finantsaasta jooksul ja nende muudatuste tõttu pole võimalik tuvastada asjakohast kontot.  Avamiskannete loomisel tuuakse saldod edasi finantsdimensioonidega, nagu on määratletud aastalõpu sulgemise mallis. Algsaldo kirjed võivad hõlmata praeguses kontostruktuuris ja segmendikombinatsioonides mittesisalduvaid finantsdimensioone, mis ei kehti enam praeguses kontostruktuuris. Kui teie organisatsioon soovib jaotamata kasumi algsaldo puhul finantsdimensiooni välja arvata, seadke finantsdimensioon valikule **Sule üksik** ja jätke dimensiooni väärtus tühjaks.
 
-## <a name="run-the-year-end-close-process"></a>Aasta lõpus Sule protsess käivitada
-Aasta lõpus tihedas Mallid on loodud, aastalõpu kohtuasi algatatakse valides **käivitage rahandusaasta** Updatehagi paani. Vali kõik või osa õigussubjektide malli käitamise aasta lõpu lähedal. Kui töötab aasta lõpus sulgeda rahandusaasta esimest korda, siis tõenäoliselt valida luua algusest kaalud kõigil juriidilised isikud. Kui teil on aasta lõpus Sule uuesti, võite käivitada protsess vaid juriidiliste isikutega, mille korrigeerimine kanded konteeriti. 
+## <a name="run-the-year-end-close-process"></a>Aastalõpu sulgemisprotsessi käivitamine
+Pärast aastalõpu sulgemismallide loomist käivitatakse aastalõpu sulgemisprotsess, valides tegumiribal suvandi **Käivita finantsaasta**. Valige mallilt kõik juriidilised isikud või nende alamkogum, mille puhul aastalõpu sulgemine käivitada. Finantsaastas esimest korda aastalõpu sulgemise käivitamisel valite tõenäoliselt kõik juriidilised isikud, et luua kõikide juriidiliste isikute jaoks algsaldod. Kui käivitate uuesti aastalõpu sulgemise, võite valida protsessi käivitamise ainult juriidilistele isikutele, kelle jaoks korrigeerivad kirjed sisestati. 
 
-Saate valida rahandusaasta, mida soovite käivitada aasta lõpuks kohtuasi vastu. Kui rohkem kui üks on olemas viimase perioodi aasta, selle **nimi** välja muutuvad kättesaadavaks, nii et valige suletud perioodi sulgemise tehingu, kui seadistus on määratletud sulgemise kande loomisel. 
+Valige finantsaasta, mille suhtes sooviksite käivitada aastalõpu sulgemisprotsessi. Kui finantsdimensiooni viimase perioodi kohta on olemas rohkem kui üks sulgemisperiood, muutub väli **Perioodi nimi** kättesaadavaks, et saaksite valida, millisesse sulgemisperioodi sulgemiskanne sisestada, kui seadistus määratletakse sulgemiskande loomiseks. 
 
-Sisestage kande number, mis või ei tohi nõuda, sõltuvalt seadistusest üldiselt pearaamatu parameetrid. Sama kandenumbrit kasutatakse valitud aasta lõpuks kohtuasi juriidilised isikud. Kande number on loodud, kasutades numbriseeria. Isegi kui see ei ole vajalik on tavaks on sisestada numbri. Sisestage kande number on hõlpsam leida tehingut avamine uuel. Kui ei ole kande number, kande avamine kande tühjaks. 
+Sisestage kandenumber, mis ei pruugi sõltuvalt pearaamatu parameetrite seadistusest olla vajalik. Sama kandenumbrit kasutatakse kõikide aastalõpu sulgemisprotsessi jaoks valitud juriidiliste isikute puhul. Kandenumbrit ei looda numbriseeriat kasutades. Kandenumber tuleks sisestada siis, kui see pole kohustuslik. Kandenumbri sisestamine muudab lihtsaks avamiskande leidmise uuel finantsaastal. Kui kandenumbrit ei sisestata, on kanne avamiskande puhul tühi. 
 
-Kui soovite muuta vastupidiseks valitud rahandusaasta eelmise aasta lõpu lähedal, **Undo eelmise lähedale** et **Jah**. Aasta lõpu lähedal vastupidiseks, kuid protsessi saab alati uuesti. Aasta lõpu lähedal, tühistamisel on **mullu lõppkuupäev sulgeda** ei ole saadaval. 
+Kui sooviksite valitud finantsaasta puhul varasema aasta lõpu sulgemise ümber pöörata, seadke valik **Eelmise sulgemise tagasivõtmine** olekusse **Jah**. Aastalõpu sulgemine pööratakse ümber, kuid protsessi saab igal ajal uuesti käivitada. Kui pöörate aastalõpu sulgemise ümber, siis pole valik **Viimase rahandusaasta sulgemise kuupäev** enam saadaval. 
 
-Aasta lõpus kohtuasi vaikeväärtus sõidetud kogumitena. See on hea tava kogumitena võimaldab kasutajal pöörduda muude tegevuste protsessi käivitamiseks. Kui aasta lõpuks kohtuasi on lõppenud, on **mullu lõppkuupäev sulgeda** on uuendatud istungi kuupäeva.
+Aastalõpu sulgemise protsess läheb vaikimisi pakktöötlusrežiimi. Mõistlik on käivitada protsess pakktöötlusrežiimis, et lubada kasutajal naasta teiste tegevuste juurde. Pärast aastalõpu sulgemisprotsessi lõpuleviimist värskendatakse valikut **Viimase rahandusaasta sulgemise kuupäev**.
 
-Lisateabe saamiseks vaadake [pearaamatu perioodi lõpus sulgeda](close-general-ledger-at-period-end.md).
+Lisateabe saamiseks vaadake teemat [Pearaamatu sulgemine perioodi lõpus](close-general-ledger-at-period-end.md).
+
+
 
 

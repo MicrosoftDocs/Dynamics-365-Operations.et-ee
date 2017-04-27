@@ -1,6 +1,6 @@
 ---
-title: "Müügi ja tasuvuse jõudlus Power BI sisu"
-description: "Selles teemas kirjeldatakse, mida sisaldab Dynamics 365 toiminguteks - müügi ja tasuvuse tulemuslikkuse sisu pack Microsoft Power BI. Selgitab, kuidas sisu pakendis aruannetele juurde pääseda ja teave andmemudel ja üksuste, mida kasutatakse ehitada sisu pakendi."
+title: "Müügi ja tulususe tulemuste Power BI sisu"
+description: "See teema kirjeldab Microsoft Power BI-le mõeldud Microsoft Dynamics 365 for Operationsi müügi ja tulususe alaste tulemuste sisupaketis sisalduvat. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida sisupaketi loomiseks kasutatakse."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,84 +24,84 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Müügi ja tasuvuse jõudlus Power BI sisu
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Müügi ja tulususe tulemuste Power BI sisu
 
-Selles teemas kirjeldatakse, mida sisaldab Dynamics 365 toiminguteks - müügi ja tasuvuse tulemuslikkuse sisu pack Microsoft Power BI. Selgitab, kuidas sisu pakendis aruannetele juurde pääseda ja teave andmemudel ja üksuste, mida kasutatakse ehitada sisu pakendi.
+See teema kirjeldab Microsoft Power BI-le mõeldud Microsoft Dynamics 365 for Operationsi müügi ja tulususe alaste tulemuste sisupaketis sisalduvat. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida sisupaketi loomiseks kasutatakse.
 
 <a name="overview"></a>Ülevaade
 --------
 
-Sisu pack loodi müügijuhid jälgida müügi võtmemõõdikute tulu, kogutulu ja kasumimarginaale. See kasutab Dynamics 365 selgituseks müügiandmetega toimingute ja pakub nii kokku ülevaate kogu ettevõtte andmed ja jaotus müügi tulemuslikkuse kliente ja tooteid. Tõstes esile muutused tulude ja kasumi kasvu ajas, aruanded saab kasutada alert juhtidega positiivsete ja negatiivsete suundumuste üksikute klientide ja toodete. Kategooria ja regiooni näidatakse läheb vaja on võrrelda tulu ja kasumlikkuse erinevate tootekategooriate ja kliendigruppide üksteisele esile delel alumises ja juhid graafikuid. Põhjaliku aruande, mis kujutab üksiku kliendi tulud versus kasumimarginaali pakkumised kliendihaldurid häälestada oma müügi- ja jõupingutusi iga kliendi vastava profiili andmed tagatud Sihtasutus. Müügi ja tasuvuse jõudlus sisu võimaldab analüüsida müügi tulemuslikkuse poolt müügijuhid:
+See sisupakett loodi müügijuhtidele juhtimismõõdikute (tulu, brutokasum ja kasumimarginaalid) jälgimiseks. See kasutab Microsoft Dynamics 365 for Operationsi müügikannete andmeid ning annab koondvaate kogu ettevõtte müüginumbritest ja müügitulemuste jaotusest klientide ning toodete kohta. Tulude ja kasumi kasvu muudatuste esiletõstmisega saab aruandeid kasutada juhtide teavitamiseks eraldi klientide ja toodete positiivsetest ning negatiivsetest trendidest. Kategooria- ja piirkonnajuhtidele on abiks diagrammid, mis võrdlevad üksteisega erinevate kategooriate ja kliendigruppide tulusid ja kasumlikkust, tuues välja mahajääjad ja liidrid. Põhjalik aruanne, mis näitab eraldi kliendi tulu võrreldes kasumimarginaaliga, annab kliendihalduritele andmepõhja müügi- ja turunduspanuse kohandamiseks iga kliendi vastava profiiliga. Müügi ja tulususe tulemuste sisupakett võimaldab müügijuhtidel analüüsida müügitulemusi järgmisel alusel.
 
--   Tulu, aasta kuupäevani (kaupa kliendigrupp ja üksikute klientide, müügi, ja üksikute toodete kaugemad)
--   Müügitulu muutus aastane (kliendi piirkondade ja müük kategooriate) järgi
+-   Aasta senine tulu (kliendigruppide ja eraldi klientide, müügikategooriate ja eraldi toodete ning geograafiliste asukohtade järgi)
+-   Tulu muutus aastate lõikes (kliendipiirkondade ja müügikategooriate alusel)
 
-Tasuvuse saab analüüsida:
+Tulusust saab analüüsida järgmistel alustel.
 
--   Brutokasum ning – marginaal (nii klientide kui vaatlusaluse toote müük kategooriate)
--   Kogutulu muutus,-aastane
--   Kliendi kasumlikkus (müügitulu võrreldes brutomarginaalist) poolt
+-   Brutokasum ja kasumimarginaal (kliendigruppide ja toote müügikategooriate alusel)
+-   Brutokasumi muutus aastate lõikes
+-   Kliendi kasumlikkus (tulu järgi võrreldes kogutuluga)
 
-## <a name="accessing-the-content-pack"></a>Juurdepääsu sisu pakendi
-Müügi ja tasuvuse jõudlus Power BI sisu avaldatakse rakendamist varana elutsükli teenused (LCS) ja pääseb Dynamics 365 toiminguteks. Kuidas leida ja käivitada Power BI aruanded kohta lisateabe saamiseks vaadake [Power BI sisu LCS Microsofti ja oma partnerite](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>Juurdepääs sisupaketile
+Müügi ja tulususe tulemuste Power BI sisupakett on avaldatud juurutusvahendina teenuses Lifecycle Services (LCS) ja sellele pääseb juurde rakendusest Microsoft Dynamics 365 for Operations. Lisateavet Power BI aruannete juurde pääsemise ja nende käivitamise kohta vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-included-in-the-content-pack"></a>Kaasatud sisu pack mõõdikud
-Sisu pack sisaldab aruande, milles on kirjeldatud parameetrid näitlikustada diagrammid, plaadid ja tabelid. Järgmises tabelis antakse ülevaade Visual sisu Pack.
+## <a name="metrics-included-in-the-content-pack"></a>Sisupaketti kuuluvad mõõdikud
+Sisupakett sisaldab diagrammide, paanide ja tabelitena visualiseeritud mõõdikute kogumist koosnevat aruannet. Järgmine tabel annab ülevaate sisupaketi visualiseerimistest.
 
 |                        |                                            |                                                         |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Aruanne lehekülg**        | **Charts**                                 | **Plaadid**                                               |
-| Tulud kliendi poolt    | Top 10 hotelli tuludega                | Kogutulem                                           |
-|                        | Kogutulu kliendi grupi poolt            | Kvartaalne kasv                                      |
-|                        | Keskmine kliendi kliendi grupi müügitulud | Kogutulu                                            |
-|                        | Müügitulu ja brutokasum kliendigrupi poolt   |                                                         |
-| Tulu toodete kaupa     | Müügitulu ja brutokasum müük kategooria järgi   | Kokku \#toodete                                    |
-|                        | Top 10 tooted tuludega                 | Mitu kokku protsent ja aktiivsed tooted |
-|                        | Kogu müügitulust müük kategooria järgi            | Arvu tooteid, mis moodustavad 80% tulu           |
-| Müügitulud perioodi\*    | Tulu kuude lõikes                           | Kvartaalne kasv                                      |
-|                        | Lõpus tulude erinevus, eelmise aastaga võrreldes             | Eelmise aastaga võrreldes tulude kasv %                                    |
-|                        | Kogu müügi dispersiooni kliendi piirkonniti    |                                                         |
-| Müügitulu asukoha järgi    | Müügitulu linn                      |                                                         |
-|                        | Eelmise aastaga võrreldes tulude kasv %                       |                                                         |
-|                        | Müügitulu piirkonniti                    |                                                         |
-| Kliendi kasumlikkus | Brutokasumi marginaali versus tulu, kliendi poolt   | Brutokasum, kogukasum, kasv eelmise aastaga võrreldes          |
-| Tulususe analüüs | Müügitulu ja brutokasum kuude kaupa          |                                                         |
-|                        | Brutokasumi marginaali klientidele Top 15           |                                                         |
-|                        | Brutokasum ühe kuu võrra, eelmise aastaga võrreldes                 |                                                         |
+| **Aruandeleht**        | **Diagrammid**                                 | **Paanid**                                               |
+| Tulu kliendi alusel    | 10 parimat klienti tulu alusel                | Kogutulem                                           |
+|                        | Kogutulu kliendigrupi alusel            | YOY tulu kasv                                      |
+|                        | Keskmine kliendi tulu kliendigrupi alusel | Kogutulu                                            |
+|                        | Tulu ja brutokasum kliendigrupi alusel   |                                                         |
+| Tulu toote alusel     | Tulu ja brutokasum müügikategooria alusel   | Toodete \# kokku                                    |
+|                        | 10 parimat toodet tulu alusel                 | Aktiivsete toodete arv ja osakaal koguarvust |
+|                        | Kogutulu müügikategooria alusel            | Toodete arv, mis annavad 80% tulust           |
+| Tulu perioodi alusel\*    | Tulu kuu alusel                           | YOY tulu kasv                                      |
+|                        | Varasema tulu hälve, YOY             | YOY tulu kasvu %                                    |
+|                        | Müügihälve kokku kliendipiirkonna alusel    |                                                         |
+| Tulu asukoha järgi    | Müügitulu linna alusel                      |                                                         |
+|                        | YOY tulu kasvu %                       |                                                         |
+|                        | Müügitulu piirkonna alusel                    |                                                         |
+| Kliendi kasumlikkus | Kogutulu võrreldes kliendipõhise tuluga   | Brutokasum, kogutulu, YOY tulu kasv          |
+| Tulususe analüüs | Tulu ja kogutulu kuu alusel          |                                                         |
+|                        | 15 parimat klienti kogutulu alusel           |                                                         |
+|                        | Kogutulu kuu alusel, YOY                 |                                                         |
 
-\*Tulu see ja viimane aasta ja majanduskasvu müük kategooria järgi.
+\* Selle ja eelmise aasta tulu ja kasv müügikategooriate alusel.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Toimingute andmed Dynamics 365 saab asustada müügi ja tasuvuse tulemuslikkuse sisu pakendi aruande. See on esindatud kokku mõõtmised, mis on lavastatud olem poest, mis on optimeeritud analytics Microsoft SQL andmebaasi. Loe seda blogi [Power BI Integratsioon üksus poe Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Kogu selle sisu Pack on osa kokku mõõtmised, mis olid saadaval müügi kuubi Dynamics AX 2012 ja AX 2012 R3. Lavale kuubi kokku mõõtmise üksus poes tegema positsioonidele. Lisateabe saamiseks vaadake menetluse etapp kokku mõõtmise üksus salvestuskohta blogi [Power BI Integratsioon üksus poe Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Sisu pakendi alusena kasutatakse järgmisi peamisi kokku mõõtmisi arve read üksuse.
+Müügi ja tulususe tulemuste sisupaketi aruande täitmiseks kasutatakse Dynamics 365 for Operationsi andmeid. Need esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL-i andmebaas. Lugege selle kohta lisa ajaveebist [Power BI integratsioon üksuse kauplusega Dynamicsis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Selle sisupaketi koondmõõtmised on rakenduste Dynamics AX 2012 ja AX 2012 R3 müügikuubis olnud koondmõõtmiste alamkogum. Kuubi koondmõõtmiste korraldamiseks üksuse kaupluses tuleb muuta need juurutatavaks. Lisateavet leiate üksuse kaupluses koondmõõtmiste korraldamise protseduurist ajaveebis [Power BI integratsioon üksuse kauplusega Dynamicsis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Järgmisi arve ridade üksuse peamisi koondmõõtmisi kasutatakse sisupaketi alusena.
 
 |               |                                              |                                                 |                                              |                                          |
 |---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entity**    | **Võtme kõigi mõõtmiste**               | **Dynamics 365 operatsioonide jaoks** | **Field**                                    | **Description**                          |
+| **Üksus**    | **Peamised koondmõõtmised**               | **Dynamics 365 for Operationsi andmeallikas** | **Väli**                                    | **Kirjeldus**                          |
 | Arve read | Tulu                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Summa arvestusvaluutas            |
-|               | Müüdud kaupade omahind                           | InventTrans                                     | SUMMA (CostAmountPosted + CostAmountAdjustment) | Omahind + korrektsioon                 |
-|               | Komisjon rea summa – raamatupidamise valuuta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisjonitasu summa valuutas raamatupidamise |
+|               | Müüdud kaupade omahind                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Kulusumma + korrigeerimine                 |
+|               | Komisjoni rea summa – arvestusvaluuta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisjoni rea summa arvestusvaluutas |
 
-Järgmises tabelis on peamised kokku mõõtmised arve read üksuse, mis kasutab mitu arvutatud mõõtmeid sisu pakendi andmekogumis.
+Järgmine tabel näitab arve ridade üksuse peamisi koondmõõtmisi, mida kasutatakse mitme arvutatud meetme loomiseks sisupaketi andmekogumis.
 
 |                   |                                                                                                  |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Measure**       | **Arvutatud**                                                                                |
-| Kogukasum      | SUMMA (tulu-OMAHIND – komisjon – käibemaksu (sisaldub kliendi arve rea summa))          |
-| Kogutulu      | SUMMA (Brutokasum / (müügitulu - käibemaksu (sisaldub kliendi arve rea summa)))             |
-| Eelmise aasta tulu | Tulu eelmise aasta = Arvuta (summa (ridade arveldamiseks\[tulu\]), SAMEPERIODLASTYEAR (kuupäevad\[alates\]) |
+| **Mõõt**       | **Arvutatakse kui**                                                                                |
+| Kogukasum      | SUM(Tulu – COGS – Komisjon – Käibemaks (sisaldub kliendiarve rea summas))          |
+| Kogutulu      | SUM(Kogutulu / (Tulu – Käibemaks (sisaldub kliendiarve rea summas)))             |
+| Eelmise aasta tulu | Eelmise aasta tulu = CALCULATE(SUM('Arve read'\[Tulu\]), SAMEPERIODLASTYEAR(Kuupäevad\[Kuupäev\])) |
 
-Järgmisi olulisi mõõtmed on **müük kuubi** viil on suurem granulaarsus ja sügavama analüüsi pilgu kokku mõõtmised filtritena kasutatakse.
+Järgmisi **müügikuubi** põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate andmiseks.
 
 |                  |                                                      |
 |------------------|------------------------------------------------------|
-| **Entity**       | **Näited atribuutidest**                           |
-| Kliendid        | Kliendirühmad, kliendi piirkonnad, aadress, tööstuse |
-| Tooted         | Toote number, toote nimi, rühma nimi       |
-| Müügikategooriad | Müük kategooria nimed                                 |
+| **Üksus**       | **Atribuutide näited**                           |
+| Kliendid        | Kliendigrupid, Kliendipiirkonnad, Aadress, Valdkond |
+| Tooted         | Tootenumber, Toote nimi, Kaubagruppide nimi       |
+| Müügikategooriad | Müügi kategooria nimed                                 |
 | Juriidilised isikud   | Juriidilise isiku nimed                                   |
 | Kuupäevad            | Kuupäevad                                                |
 
-Vaikimisi sisu pakendi kuvatakse andmed kalendriaasta, kuid saate avada aruande filtrite sektsiooni ja Kuupäevafilter. Saate muuta ettevõtte filter.
+Vaikimisi kuvab sisupakett jooksva kalendriaasta andmed, kuid saate avada aruandefiltrite jaotise ja kuupäevafiltrit muuta. Saate muuta ka ettevõtte filtrit.
 
 ## <a name="additional-resources"></a>Lisaressursid
 Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.

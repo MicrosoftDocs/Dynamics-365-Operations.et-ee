@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Reakauba töövoo konfigureerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles teemas selgitatakse, kuidas konfigureerida reakaupa töövoo elementi.
 
 Töövooredaktoris reakauba töövoo elemendi konfigureerimiseks paremklõpsake elementi ja seejärel klõpsake valikut **Atribuudid**, et avada leht **Atribuudid**. Seejärel kasutage reakauba töövoo elemendi atribuutide konfigureerimiseks järgmisi protseduure.
 
-## <a name="name-the-lineitem-workflow-element"></a>Nimi lineitem töövoo element
+## <a name="name-the-lineitem-workflow-element"></a>Reakauba töövoo elemendile nime andmine
 Tehke reakauba töövoo elemendile nime sisestamiseks järgmist.
 
 1.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
@@ -50,6 +53,8 @@ Järgige neid etappe, et määrata, kas sama töövoogu kasutatakse dokumendi k�
     6.  Kontrollimaks, kas sisestatud tingimustekogum on õigesti konfigureeritud, klõpsake käsku **Katseta**. Lehel **Töövoo tingimuse katsetamine** alas **Kontrolli tingimust** valige kirje ja seejärel klõpsake käsku **Katseta**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele. Klõpsake **OK** või valikut **Tühista**, et naasta lehele **Atribuudid**.
 
     Vahekaardil **Töövoog** valige töövoog, mida kasutada teie määratletud tingimustekogumile vastavate reakaupade töötlemiseks.
+
+
 
 
 

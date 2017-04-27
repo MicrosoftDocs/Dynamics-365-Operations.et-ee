@@ -1,6 +1,6 @@
 ---
 title: Eelarve plaanimise andmete eraldamine
-description: Selles artiklis kirjeldatakse erinevaid eraldamise meetodeid, mis on saadaval Microsoft Dynamics 365 ja kuidas neid kasutada.
+description: Selles artiklis kirjeldatakse erinevaid Microsoft Dynamics 365 for Operationsis saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>Eelarve plaanimise andmete eraldamine
 
-Selles artiklis kirjeldatakse erinevaid eraldamise meetodeid, mis on saadaval Microsoft Dynamics 365 ja kuidas neid kasutada.  
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis kirjeldatakse erinevaid Microsoft Dynamics 365 for Operationsis saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.  
 
 Saate prognoositud summade täpseks kujutamiseks eelarveplaani andmeid jaotada mitmel viisil.
 
 ## <a name="allocation-methods"></a>Eraldamismeetodid
 Kolm eraldamismeetodit (Eralda perioodide lõikes, Eralda dimensioonidele ja Kasuta pearaamatu eraldamisreegleid) saavad luua eelarveplaani read, mis põhinevad sama eelarveplaani ridadel. Kolm teist meetodit (Koonda, Jaota ja Kopeeri eelarveplaanist) saavad luua eelarveplaani read muudest eelarveplaanidest. Kõigi kuue eraldamismeetodi puhul määrate teie sihtstsenaariumi. Sihtstsenaarium võib olla lähtestsenaariumiga sama või sellest erineda. Lisaks saate määrata, kas uued read lisatakse eelarveplaani või asendavad eelarveplaani praegused read.
 
-[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)<ph id="t1">
-</ph>**eraldatav kogu aja** – perioodi kategooria saab eraldada eelarvest arenguplaani read allikas eelarve kava stsenaariumi kogu perioodi stsenaariumi sihtkoha. Algsumma määratakse sihtstsenaariumis mitmele reale perioodi eraldamiskategoorias määratletud protsendi ja kuupäeva põhjal.         
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Eralda perioodide lõikes** – perioodi eraldamiskategooriat kasutatakse eelarveplaani ridade eraldamiseks algsest eelarveplaani stsenaariumist sihtstsenaariumi perioodide lõikes. Algsumma määratakse sihtstsenaariumis mitmele reale perioodi eraldamiskategoorias määratletud protsendi ja kuupäeva põhjal.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Eralda dimensioonidele** – eelarveplaani read eraldatakse algsest eelarve plaanimise stsenaariumist sihtstsenaariumi ühele või enamale reale valitud eelarve eraldustingimuses määratletud protsentide ja finantsdimensioonide põhjal.           
@@ -58,7 +61,7 @@ Eelarveplaani lehel eraldamiseks valige eraldatavad read ja seejärel klõpsake 
 
 [![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
-Seejärel valige Jaotamismeetod. Seejärel määratakse ülejäänud väljad teie valitud meetodi alusel. Need väljad hõlmavad eelarveplaani andmete allikat ja sihtkohta ning suvandit, mis võimaldab teil korrutada allika määratud teguriga hulgikorrigeerimise lihtsustamiseks sihtsummade loomisel. Saate määrata ka suvandi **Lisa plaani**. Valige olemasoleva eelarveplaani ridade asendamiseks **Ei** või valige **Jah** olemasoleva eelarveplaani ridade säilitamiseks ja uute ridade lisamiseks eraldatud summade puhul.
+Seejärel valige eraldamismeetod. Seejärel määratakse ülejäänud väljad teie valitud meetodi alusel. Need väljad hõlmavad eelarveplaani andmete allikat ja sihtkohta ning suvandit, mis võimaldab teil korrutada allika määratud teguriga hulgikorrigeerimise lihtsustamiseks sihtsummade loomisel. Saate määrata ka suvandi **Lisa plaani**. Valige olemasoleva eelarveplaani ridade asendamiseks **Ei** või valige **Jah** olemasoleva eelarveplaani ridade säilitamiseks ja uute ridade lisamiseks eraldatud summade puhul.
 
 ## <a name="automating-allocations-during-a-workflow"></a>Eraldamiste automatiseerimine töövoos
 Üks võimas funktsioon lubab eelarve plaanimise töövoo osana eraldada automaatselt. Eelarveplaani liikumisel läbi selle töövoo saavad automatiseeritud ülesanded tugineda eraldamisele määratud eelarve plaanimise etapis. 
@@ -70,5 +73,7 @@ Seejärel loote etapi eraldamise lehel **Eelarve plaanimise konfiguratsioon**. E
 Lõpuks lisate eelarve plaanimise etapi eraldamise automatiseeritud ülesande soovitud töövooetapis. Järgmises näites on töövoogu lisatud kaks eelarve plaanimise etapi eraldamist (punasega esile tõstetud).
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 

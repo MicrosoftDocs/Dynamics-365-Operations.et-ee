@@ -1,6 +1,6 @@
 ---
 title: "Küsimustikud"
-description: "Selles teemas kirjeldatakse küsimustikud ja lingid teabele. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida."
+description: "Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Küsimustikud
 
-Selles teemas kirjeldatakse küsimustikud ja lingid teabele. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida. 
+[!include[banner](includes/banner.md)]
 
-Saate kohandada vastavalt teie konkreetsetele nõuetele erinevaid funktsioone, mis on saadaval Microsoft Dynamics 365 operatsioonide abil küsimustiku. Siin on mõned näited küsimustike kasutamise kohta.
+
+Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida. 
+
+Saate kohandada küsimustikku nii, et see vastaks teie konkreetsetele nõudmistele, kasutades mitmesuguseid Microsoft Dynamics 365 for Operationsi funktsioone. Siin on mõned näited küsimustike kasutamise kohta.
 
 -   töötajate ja kandidaatide ametialaste oskuste kontrollimine,
 -   Saate hinnata, kas kursusel osalejad on kursuse materjali omandanud.
@@ -42,9 +45,9 @@ Järgmises tabelis on lingid küsimustike põhitoimingute teabe juurde. Lisateab
 
 | Teema| Kirjeldus|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | See artikkel annab teavet küsimustiku kavandamise kohta. Kavandamisprotsess hõlmab eeltingimuste, vastuste ja küsimuste seadistamist ning seejärel nende küsimustikku paigutamist. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Selles artiklis on teave selle kohta, kuidas küsimustikku vastajatele saata ja kuidas küsimustikke täita.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Selles artiklis on teave selle kohta, kuidas täidetud küsimustike tulemusi vaadata ja hinnata.                                                                                        |
+| [Küsimustiku kujundamine](design-questionnaires.md)  | See artikkel annab teavet küsimustiku kavandamise kohta. Kavandamisprotsess hõlmab eeltingimuste, vastuste ja küsimuste seadistamist ning seejärel nende küsimustikku paigutamist. |
+| [Küsimustiku laialisaatmine ja täitmine](distribute-questionnaires.md)  | Selles artiklis on teave selle kohta, kuidas küsimustikku vastajatele saata ja kuidas küsimustikke täita.                                                                       |
+| [Saate küsimustiku tulemusi vaadata ja hinnata](evaluate-questionnaire-results.md) | Selles artiklis on teave selle kohta, kuidas täidetud küsimustike tulemusi vaadata ja hinnata.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ Järgmises tabelis on lingid küsimustike põhitoimingute teabe juurde. Lisateab
 
 [Küsimustike laialisaatmine ja täitmine](distribute-questionnaires.md)
 
-[Küsimustike tulemuste vaatamiseks ja](evaluate-questionnaire-results.md)
+[Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
+
+
 
 

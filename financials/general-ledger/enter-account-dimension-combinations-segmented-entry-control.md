@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse, kuidas sisestada konto ja dimensiooni kombinatsioone või pearaamatukontosid. Kande kogemust nimetatakse sageli segmenditud sisestuse juhtelemendiks.
 
-Kasutajad sisestavad konto- ja kombinatsioonide erinevatel lehekülgedel, näiteks lehekülgede Peažurnaalide, eelarve- ja postitad mõisted. Kehtivad konto ja dimensiooni kombinatsioonid sõltuvad pearaamatule määratud kontostruktuuridest ja täpsematest kontostruktuuridele määratud reeglitest. Kui kasutajad sisestavad koos, nad käsitsi tippige väärtused või ära hulgaliselt, otsing kogemusi. Kui sisestate välja, te võite tippida ja see otsib väärtust ja kirjeldus. Näiteks kui tipite 180 see otsib väärtus, mille alguses on selle kombinatsiooni. Või saate tippida raha ja see otsib väärtus, mis on kirjeldus, mille alguses on raha. Võite kasutada ka metamärke, nagu \*raha või \*180 kui väärtus või kirjeldus sisaldama otsingukriteeriumid. 
+Kasutajad sisestavad konto ja dimensiooni kombinatsioonid mitmesugustele lehtedele, nt pearaamatu, eelarvestamise ja sisestamisdefinitsioonide lehtedele. Kehtivad konto ja dimensiooni kombinatsioonid sõltuvad pearaamatule määratud kontostruktuuridest ja täpsematest kontostruktuuridele määratud reeglitest. Kui kasutajad kombinatsioone sisestavad, võivad nad tippida väärtusi käsitsi või kasutada rikast otsingukogemust. Kui väljale sisenedes tippima hakkate, siis otsitakse väärtust ja kirjeldust. Näiteks kui tipite 180, siis otsitakse igasugust selle numbrikombinatsiooniga algavat väärtust. Või tippige Raha ja otsitakse mis tahes väärtust, mille kirjeldus algab sõnaga Raha. Võite kasutada ka metamärke, nt \*Raha või \*180, et otsida, kas väärtus või kirjeldus sisaldavad otsingukriteeriume. 
 
 Järgmises tabelis on kirjeldatud klaviatuuri otseteed, mida saab kasutada, kui otsing on suletud.
 
@@ -108,5 +111,7 @@ Järgmises tabelis on kirjeldatud klaviatuuri otseteed, mida saab kasutada, kui 
 </table>
 
  
+
+
 
 

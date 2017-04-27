@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>Mõõtühik ja ladustamispoliitikad
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse, kuidas kasutada laoprotsessides vaikeühikuid, ühikuseeriaid ja ühikuteisendusi.
 
-Ühiku seeriagrupid määratlevad laotoimingutes kasutatavate ühikute järjestuse. Nende loomisel on **jada rühmad** lehel. Järjestus näitab ühikute. Näiteks saate hoiundada kaubaaluseid, mis sisaldavad üksikuid kaupu sisaldavaid kaste. Sellisel juhul peate sisestama kolm erinevat ühikut ja kihtide loogilise järjestuse. Ühiku seeriagrupid võimaldavad määratleda litsentsiplaatide grupeerimise poliitikad ja vaikeühikud, mida tuleks erinevate laoprotsesside puhul kasutada. See artikkel kehtib nii täpsemale ladustamislahendusele, mis on saadaval moodulis Laohaldus, kui ka põhilisele ladustamislahendusele, mis on saadaval moodulis Varude haldus.
+Ühiku seeriagrupid määratlevad laotoimingutes kasutatavate ühikute järjestuse. Need luuakse lehel **Ühiku seeriagrupid**. Järjestus näitab seost erinevate ühikute vahel. Näiteks saate hoiundada kaubaaluseid, mis sisaldavad üksikuid kaupu sisaldavaid kaste. Sellisel juhul peate sisestama kolm erinevat ühikut ja kihtide loogilise järjestuse. Ühiku seeriagrupid võimaldavad määratleda litsentsiplaatide grupeerimise poliitikad ja vaikeühikud, mida tuleks erinevate laoprotsesside puhul kasutada. See artikkel kehtib nii täpsemale ladustamislahendusele, mis on saadaval moodulis Laohaldus, kui ka põhilisele ladustamislahendusele, mis on saadaval moodulis Varude haldus.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Väljastatud toodete ühiku seeriagrupid
-Kui soovite kasutada väljastatud tooteid lao tööprotsessides, tuleb neile määrata seeriagrupp. Kui kinnitate toote, mis on seotud laoala dimensioonigrupiga, ja laoala dimensioonigrupi suvandi **Kasuta laohaldusprotsesse** sätteks on valitud **Jah**, kuvatakse tõrketeade, kui toote kohta pole määratletud ühiku seeriagrupi ID-d. Kui üksuse numbriseeria grupi, mida kasutada mitmel real (ja seega mootorrongid), peate seadistama Ühikuteisendus üksuste vahel. Täidad selle setup on **ühikuid** lehel. Seeriagrupi väikseim ühik, mille väljastatud tootega seostate, peab ühtima vastava toote jaoks määratletud varude ühikuga. Laoühik on vaba kaubavaru põhiarvutusteks kasutatav ühik. Saate ka seadistada mõõtühikute teisendused tooteetalonide tootevariantide kohta, kasutades suvandit **Luba mõõtühikute teisendused**.
+Kui soovite kasutada väljastatud tooteid lao tööprotsessides, tuleb neile määrata seeriagrupp. Kui kinnitate toote, mis on seotud laoala dimensioonigrupiga, ja laoala dimensioonigrupi suvandi **Kasuta laohaldusprotsesse** sätteks on valitud **Jah**, kuvatakse tõrketeade, kui toote kohta pole määratletud ühiku seeriagrupi ID-d. Kui kasutatavad ühiku seeriagrupid sisaldavad mitut rida (ja seega mitut ühikut), peate ühikute vahel ühiku teisendamise seadistamise valima. Viige see seadistus lehel **Ühiku teisendused** lõpule. Seeriagrupi väikseim ühik, mille väljastatud tootega seostate, peab ühtima vastava toote jaoks määratletud varude ühikuga. Laoühik on vaba kaubavaru põhiarvutusteks kasutatav ühik. Saate ka seadistada mõõtühikute teisendused tooteetalonide tootevariantide kohta, kasutades suvandit **Luba mõõtühikute teisendused**.
 
 ## <a name="license-plate-grouping"></a>Litsentsiplaadi rühmitamine
 Saate määrata, kas vähem või rohkem kui kindla ühikuga sissetulekud rühmitatakse ühele litsentsiplaadile või luuakse iga ühiku kohta eraldi litsentsiplaat. Selle seadistamiseks kasutage lehe **Ühiku seeriagrupid** vahekaardi **Rea üksikasjad** suvandit **Litsentsiplaadi rühmitamine**. Kui soovite kasutada litsentsiplaadi rühmitamist mobiilses seadmes töödeldava töö puhul, peate menüüelemendis **Mobiilne seade** valima suvandi **Litsentsiplaadi rühmitamine**. Näiteks registreerite mobiilse seadme abil kauba, mis on seostatud ühiku seeriagrupiga, millel on kaks rida. Esimene rida on mõeldud tükkide jaoks ja suvandi **Litsentsiplaadi rühmitamine** sätteks on valitud **Jah**. Teine rida on mõeldud kaubaaluste ühiku jaoks ja suvandi **Litsentsiplaadi rühmitamine** sätteks on valitud **Ei**. Sellisel juhul saab süsteem automaatselt tükelduse teha ja luua litsentsiplaadid iga 100 tüki kohta.
@@ -45,5 +48,7 @@ Selleks et määrata mobiilses seadmes vastuvõtuprotsesside jaoks kasutatavad v
 
 ## <a name="default-order-settings"></a>Tellimuse vaikesätted
 Väljastatud toodete loomise osana peate valima vaikeühikud ostude, müükide ja varude jaoks, et töödelda erinevaid tellimusi. Saate määrata erinevate lähtedokumentide vaikeühikud ja -kogused lehtedel **Tellimuse vaikesätted** ja **Tellimuse tegevuskohapõhised sätted** pages. Pääsete neile lehtedele juurde lehelt **Väljastatud tooted**.
+
+
 
 

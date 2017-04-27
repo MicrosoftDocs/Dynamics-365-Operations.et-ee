@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Ostupoliitikad
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet ostupoliitikate kohta. Ostupoliitika on reeglite kogum, mis juhib taotluse protsessi. Ostupoliitikad aitavad hankeadministraatoritel hankestrateegiat juurutada, luues poliitikastruktuuri, mis on vastavuses organisatsiooni strateegiliste ostunõuetega.
 
 Ostupoliitika koosneb poliitikareeglite kogumist. Poliitikareegli määratlemisel valite esmalt reegli tüübi. Seejärel loote reegli tüübi reegli, määratledes reegli sätted, alguskuupäeva ja lõppkuupäeva.  
@@ -41,13 +44,13 @@ Ostupoliitikate konfigureerimisest olenevalt võivad organisatsiooni kasutajaid 
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>Näide 1: lihtsa ostupoliitika konfigureerimine
 
-Organisatsioon on väike ja mitte nii keerulised saate seadistada ostmise põhimõtete juriidilise isiku poolt ja saab kasutada ainult ettevõtete organisatsiooni hierarhia.  
+Väiksemad ja vähem keerukad organisatsioonid saavad seadistada ostupoliitikaid juriidilise isiku järgi ja kasutada ainult ettevõtete organisatsiooni hierarhiat.  
 
 Väikeettevõtte Fabrikami puhul erinevad ostunõuded kogu organisatsioonis väga vähe. Ostureeglid erinevad ainult organisatsiooni juriidiliste isikute seas. Näiteks ostavad Kanada Fabrikami ja USA Fabrikami töötajad kaupu ja teenuseid erinevatest kataloogidest ja eri hankijatelt. Seetõttu seadistab Fabrikam oma ostupoliitikad juriidilise isiku tasemel.  
 
-Fabrikam loob kaks ostupoliitikat. A poliitika kehtib USA lihtsustatud meetodit, 1111. B poliitika kehtib Kanada lihtsustatud meetodit, 2222. Kui töötaja õigussubjekti 1111 loob ostutellimuse, eeskirjad põhinevad poliitika A. Näiteks töötaja näeb tootekataloogis määratud kataloogi poliitika reegel poliitika A.  
+Fabrikam loob kaks ostupoliitikat. Poliitika A rakendub selle USA juriidilisele isikule 1111. Poliitika B rakendub Kanada juriidilisele isikule 2222. Kui juriidilise isiku 1111 töötaja loob ostutaotluse, tuletatakse poliitika reeglid poliitikast A. Näiteks on tootekataloog, mida töötaja näeb, määratud poliitika A kataloogipoliitika reeglis.  
 
-Kui töötaja õigussubjekti 2222 loob ostutellimuse, eeskirjad põhinevad poliitika B.  
+Kui juriidilise isiku 2222 töötaja loob ostutaotluse, tuletatakse poliitika reeglid poliitikast B.  
 
 **Märkus.** Kui juriidilise isiku 1111 töötaja ostab kauba juriidilise isiku 2222 töötaja nimel, rakenduvad juriidilisele isikule 2222 määratud poliitika reeglid (st poliitika reeglid poliitikast B).
 
@@ -117,7 +120,7 @@ Täiendamise kontrollreegel on valikuline reegel, mis määratleb väljad, mis t
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Ostutellimuse loomise ja nõudluse konsolideerimise reegel
 
-Ostu tellimuse loomine ja nõudluse konsolideerimise reegel määratleb eeskirjad kasutada, kui ostutellimus luuakse kinnitatud ostutellimuse. Seda tüüpi reeglite loomisel saate seada suvandeid erinevatele vahekaartidele.
+Ostutellimuse loomise ja nõude konsolideerimise reegel määratleb poliitikareeglid, mida kasutada siis, kui ostutellimus on loodud kinnitatud ostutaotlusest. Seda tüüpi reeglite loomisel saate seada suvandeid erinevatele vahekaartidele.
 
 -   Vahekaardil **Ostutellimuse tükeldamine** saate määratleda ostutaotluse ridade eraldi ostutellimusteks tükeldamise kriteeriumi.
 -   Vahekaardil **Hinna/allahindluse ülekanne** saate määratleda, millal arvutada ümber hinnalepe, kui loodud onostutellimus.
@@ -126,7 +129,7 @@ Ostu tellimuse loomine ja nõudluse konsolideerimise reegel määratleb eeskirja
 
     Samuti saate anda nõude esitajale loa muuta hinna ja allahindluse ülekandmise viisi üksikute ostutaotluse ridade puhul Valige suvand **Luba ostutaotluse ridadel manuaalne alistamine** selle võimaluse aktiveerimiseks.
 -   Vahekaardil **Kauba kirjelduse kanne** saate kauba kirjelduse taotluselt üle kanda, kui see pärineb pakkumiskutselt.
--   Vahekaardil **Hinnakõikumine** saate määratleda reeglid kinnitatud ostutaotluste ülevaatusprotsessi kaudu tagasi marsruutimiseks, kui hankekataloogi kauba hind tõuseb. Määrake maksimaalne summa, mida ostutaotluse rea kauba netosumma saab suurendada ostutaotluse kinnitamise ja ostutellimuse loomise aja vahel. Netokogus arvutatakse järgmise valemi abil: (\[kogus × (ühiku hind – allahindlust) ÷ hinnaühiku\] + ostu lisakulud) × (100-allahindluse %) ÷ 100 ostu nõudelehe read, mis ületavad määratud hinna kõikumise toimuvad käsitsi töötlemiseks. Vahekaardil **Tõrgete töötlemine** konfigureeritavad reeglid määravad, kuidas ostutaotluse ridu töödeldakse.
+-   Vahekaardil **Hinnakõikumine** saate määratleda reeglid kinnitatud ostutaotluste ülevaatusprotsessi kaudu tagasi marsruutimiseks, kui hankekataloogi kauba hind tõuseb. Määrake maksimaalne summa, mida ostutaotluse rea kauba netosumma saab suurendada ostutaotluse kinnitamise ja ostutellimuse loomise aja vahel. Netosumma arvutatakse järgmise valemi järgi: (\[kogus × (ühiku hind – allahindlus) ÷ hinnaühik\] + ostu lisakulud) × (100 – allahindluse protsent) ÷ 100 Ostutaotluse ridu, mis ületavad teie määratud hinnakõikumise, säilitatakse käsitsi töötlemiseks. Vahekaardil **Tõrgete töötlemine** konfigureeritavad reeglid määravad, kuidas ostutaotluse ridu töödeldakse.
 -   Vahekaardil **Tõrgete töötlemine** saate konfigureerida töötlemisreegli, mis rakendub ostutaotlusele, kui selle kontrollimine nurjub ostutellimuse loomise käigus hankija või hinnakõikumise vea tõttu. Tehke üks järgmistest valikutest:
     -   **Tegevuseta** – ostutaotluse read jäävad lehele **Kinnitatud ostutaotluste vabastamine**. Ostutaotluse ridade olekuks jääb **Kinnitatud**. Samas peab vead lahendama enne, kui ostutellimust saab ostutaotluse ridade jaoks luua.
     -   **Tühista ostutaotluse rida** – ostutaotluse read tühistatakse. Nõude esitaja saab tühistatud ridadele luua uue ostutaotluse, kui ta soovib rea kaupu taotleda.
@@ -141,6 +144,8 @@ Ostu tellimuse loomine ja nõudluse konsolideerimise reegel määratleb eeskirja
     -   **Ära luba nõudluskonsolideerimist** – nõudluskonsolideerimise puhul ei ole sobilikke kinnitatud ostutellimuse ridu. See suvand on vaikimisi valitud ja kehtib ainult ostutaotluse ridadele, mis nõuavad ostutellimuse loomisel käsitsi töötlemist.
     -   **Luba alati nõudluskonsolideerimine** – nõudluskonsolideerimise puhul on sobilikud kõik kinnitatud ostutellimuse read. **Märkus.** Kui valite vahekaardil **Nõudluskonsolideerimine** suvandi **Luba alati nõudluskonsolideerimine**, kuid valite vahekaardil **Ostutellimuse käsitsi loomine** suvandi **Loo ostutellimused automaatselt**, säilitatakse kõik ostutaotlused käsitsi töötlemiseks.
     -   **Luba nõudluskonsolideerimine nendel tingimustel** – määrake kriteerium, mis määrab, kas kinnitatud ostutaotluse read on nõudluskonsolideerimise puhul sobilikud. Iga ostutaotluse rea tüübi puhul saate määrata kriteeriumid hankekategooria ja hankija alusel. Kui teete valiku **Luba nõudluskonsolideerimine nendel tingimustel**, saate iga ostutaotluse rea tüübi puhul määrata kriteeriumid hankekategooria ja hankija alusel. Hankekategooria valimisel valitakse ka kõik hankekategooria alamkategooriad. Kui valite suvandi **Kõik** konkreetse rea tüübi puhul, sobivad kõik seda tüüpi ostutaotluse read nõudluskonsolideerimiseks.
+
+
 
 
 

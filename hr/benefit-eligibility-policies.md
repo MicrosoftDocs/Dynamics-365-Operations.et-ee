@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Soodustuse saamise õiguse eeskirjad
 
-See teema pakub teavet kasu abikõlblikkuse poliitika, mis aitavad teil määratleda, kes on teatud soodustusi.
+[!include[banner](includes/banner.md)]
+
+
+Selles teemas antakse teavet soodustuseks sobivuse poliitikate kohta, mis aitavad määratleda, kellel on õigus erisoodustustele.
 
 Soodustuste loomisel otsustate, millised töötajad milliseid soodustusi saavad. Järgmises tabelis näidatakse soodustusi, mille võite kindlatele töötajatele kättesaadavaks teha.
 
@@ -38,7 +41,7 @@ Soodustuste loomisel otsustate, millised töötajad milliseid soodustusi saavad.
 | Mobiiltelefon     | Müügipersonal, juhtkond         |
 | Parkimisload   | Juhtkond                      |
 
-Abikõlblikkuse poliitika kasutab järgmisi komponente:
+Soodustuse saamise õiguse poliitikate loomiseks kasutatakse järgmisi komponente.
 
 -   Poliitika reegli tüübid
 -   Soodustuse saamise õiguse poliitikad
@@ -51,5 +54,7 @@ Määratlete poliitika reegli ulatuse. Näiteks kui loote soodustuse saamise õi
 --------
 
 [Soodustusprogrammi määratlemine ja haldamine](manage-benefit-program.md)
+
+
 
 

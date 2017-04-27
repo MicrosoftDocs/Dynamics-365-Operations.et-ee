@@ -1,6 +1,6 @@
 ---
-title: "Parimaid tavasid kasutades peažurnaali ettevõte kannete importimiseks"
-description: "Sellest teemast leiate näpunäiteid andmete importimiseks peažurnaali abil üldist töölehe üksuse."
+title: "Parimad tavad kannete importimiseks üldise töölehe üksust kasutades"
+description: "Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,23 +24,26 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Parimaid tavasid kasutades peažurnaali ettevõte kannete importimiseks
+# <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Parimad tavad kannete importimiseks üldise töölehe üksust kasutades
 
-Sellest teemast leiate näpunäiteid andmete importimiseks peažurnaali abil üldist töölehe üksuse.  
+[!include[banner](../includes/banner.md)]
 
-Ettevõte peažurnaali abil saate importida kanded, mis on konto või seda konto liigi kohta **pearaamatu, kliendi, hankija või Pank**. Kannet saab sisestada ühe reana, kasutades nii **konto** välja ja **vastaskonto** välja, või mitme rea kande, kus on **konto** välja kasutatakse (ja **vastaskonto** tühjaks igal real). Peažurnaali üksus ei toeta iga konto tüüp. Selle asemel on olemas muud üksused stsenaariumide puhul, kus on vajalikud erinevad kontotüüpide kombinatsioonid. Näiteks projekti kannete importimiseks kasutada projekti kulude töölehe üksuse. Iga üksus toetamiseks mõeldud konkreetsete stsenaariumide, mis tähendab, et täiendavate väljade võib saadaval üksuste stsenaariumid kuid mitte üksuste erineva stsenaariumi jaoks.
+
+Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.  
+
+Saate kasutada üldise töölehe üksust, et importida kandeid, millel on konto või vastaskonto tüüp **Pearaamat, Klient, Hankija või Pank**. Kande saab sisestada ühe reana, kasutades nii välja **Konto** kui ka välja **Vastaskonto**, või mitmerealisena kandena, kus kasutatakse ainult välja **Konto** (ja valik **Vastaskonto** jäetakse igal real tühjaks). Üldine töölehe üksus ei toeta iga konto tüüpi. Selle asemel on olemas muud üksused stsenaariumide puhul, kus on vajalikud erinevad kontotüüpide kombinatsioonid. Näiteks projektikande importimiseks kasutage projektikulu töölehe üksust. Iga üksus on mõeldud konkreetsete stsenaariumide toetamiseks, mis tähendab, et nendele stsenaariumidele mõeldud üksustele, kuid mitte teistele stsenaariumidele mõeldud üksustele võib saadaval olla lisavälju.
 
 ## <a name="setup"></a>Häälestus
-Enne importimist peažurnaali üksuse abil, kontrollida järgnevalt:
+Enne üldise töölehe üksuse abil importimist kontrollige järgmist seadistust.
 
--   **Numbriseeria seadistust töölehe partiinumber** - vaikimisi, kui kasutades peažurnaali üksus, töölehe partii number kasutab määratud pearaamatu parameetrite numbriseeriat. Kui määrate töölehe partiinumbri numbriseeria väärtuseks **Käsitsi**, ei rakendata vaikenumbrit. See seadistust ei toetata.
--   **Rahalise küljega konfiguratsiooni** -finantsdimensioonide järjekorra peate määratlema iga organisatsioon, kui üksuste kasutatakse kannete importimiseks. Tellimuse jaoks määratletud ning **pearaamatu mõõtmed integratsiooni** formaadis, kell **PR**&gt;**kontoplaani**&gt;**mõõdud**&gt;**rahalise küljega konfiguratsiooni rakenduste integreerimise**&gt;**valige andmete üksuste**. Imporditava pearaamatukonto segmendid peavad olema samas järjekorras. Vastasel korral tekib importimise ajal tõrge.
+-   **Numbriseeria seadistus töölehe partiinumbri jaoks** – päevaraamatu üksuse abil importimisel kasutab töölehe partiinumber pearaamatu parameetrites määratletud numbriseeriat. Kui määrate töölehe partiinumbri numbriseeria väärtuseks **Käsitsi**, ei rakendata vaikenumbrit. See seadistust ei toetata.
+-   **Finantsdimensiooni konfigureerimine** – kui üksusi kasutatakse kannete importimiseks, peab iga organisatsioon määratlema finantsdimensioonide järjekorra. Tellimus määratletakse vormingule **Pearaamatu dimensioonide integreerimine** valikus **Pearaamat** &gt; **Kontoplaan** &gt; **Dimensioonid** &gt; **Finantsdimensiooni konfiguratsioon rakenduste integreerimiseks** &gt; **Andmeüksuste valimine**. Imporditava pearaamatukonto segmendid peavad olema samas järjekorras. Vastasel korral tekib importimise ajal tõrge.
 
 ## <a name="general-journal-entity-setup"></a>Päevaraamatu üksuse seadistus
-Kaks andmehaldus seadetest kuidas rakendatakse vaikimisi töölehe partiinumber või kande number:
+Kaks sätet andmehalduses mõjutavad vaiketöölehe partiinumbri ja kandenumbri rakendamist.
 
--   **Komplekt töötlemine** (olemis andmed)
--   **Automaatselt loodud** (linna väljavastenduse)
+-   **Komplektipõhine töötlemine** (andmeüksuses)
+-   **Automaatselt loodud** (välja vastendamisel)
 
 Järgmistes jaotistes kirjeldatakse nende sätete mõju ja selgitatakse, kuidas töölehe partiinumbreid ja kandenumbreid luuakse.
 
@@ -49,20 +52,22 @@ Järgmistes jaotistes kirjeldatakse nende sätete mõju ja selgitatakse, kuidas 
 -   Seadistus **Kogumipõhine töötlemine** päevaraamatu üksusel ei mõjuta seda, kuidas töölehe partiinumbreid luuakse.
 -   Kui välja **Töölehe partiinumber** väärtuseks on määratud **Automaatselt loodud**, luuakse uus töölehe partiinumber igale imporditavale reale. Selline käitumine ei ole soovitatav. Säte **Automaatselt loodud** on projekti importimise all jaotises **Kuva kaart** vahekaardil **Vastendamise andmed**.
 -   Kui välja **Töölehe partiinumber** väärtuseks ei ole määratud **Automaatselt loodud**, luuakse töölehe partiinumber järgmiselt.
-    -   Kui imporditud failis määratletud töölehe partiinumber kattub mõne olemasoleva, konteerimata päevasele töölehele Microsoft Dynamics 365 toiminguteks, imporditakse kõik read, mis on vastavaid töölehe partiinumber olemasoleva töölehe. Ridu ei impordita kunagi sisestatud töölehe partiinumbrisse. Selle asemel luuakse uus number.
-    -   Kui töölehe partiinumber, mis määratletakse imporditud fail ei vasta mõne olemasoleva, konteerimata päevasele töölehele Dynamics 365 toiminguteks, kõik read, mis on sama töölehe partiinumber on rühmitatud all uuele töölehele. Näiteks kõik read, mille töölehe partiinumber on 1, imporditakse uuele töölehele ja kõik read, mille töölehe partiinumber on 2, imporditakse teisele uuele töölehele. Töölehe partiinumber luuakse päevaraamatu parameetrites määratletud numbriseeria abil.
+    -   Kui imporditud failis määratletud töölehe partiinumber vastab rakenduses Microsoft Dynamics 365 for Operations olemasolevale, sisestamata igapäevasele töölehele, imporditakse olemasolevasse töölehte kõik read, millel on sobiv töölehe partiinumber. Ridu ei impordita kunagi sisestatud töölehe partiinumbrisse. Selle asemel luuakse uus number.
+    -   Kui imporditud failis määratletud töölehe partiinumber ei vasta rakenduses Microsoft Dynamics 365 for Operations olemasolevale, sisestamata igapäevasele töölehele, imporditakse olemasolevasse töölehte kõik read, millel on sobiv töölehe partiinumber. Näiteks kõik read, mille töölehe partiinumber on 1, imporditakse uuele töölehele ja kõik read, mille töölehe partiinumber on 2, imporditakse teisele uuele töölehele. Töölehe partiinumber luuakse päevaraamatu parameetrites määratletud numbriseeria abil.
 
 ### <a name="voucher-number"></a>Kande number
 
--   Kui kasutate päevaraamatu üksuse seadistust **Kogumipõhine töötlemine**, tuleb imporditud failis esitada kande number. Igale päevaraamatu kandele määratakse imporditud failis antud kande number, isegi kui kanne pole tasakaalustatud. Kui soovitud komplekt töötlemine, kuid soovite kasutada määratletud numbriseeria kandenumbrite Dynamics 365 toiminguteks, kiirparandus on esitatud veebruar 2016 vabastamiseks. Kiirparanduse number on 3170316 ja selle saab laadida alla teenusest Lifecycle Services (LCS). Lisateavet leiate jaotisest [Kiirparanduste allalaadimine teenusest Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Selle funktsiooni kohta töölehe nimi, mida kasutatakse impordi Dynamics 365 korral määrata **numbri eraldamine sisestamisel** et **Jah**.
-    -   Imporditud failis tuleb sellegipoolest kandenumber määratleda. Aga see number on ajutine ja kirjutatakse Dynamics 365 toimingute kandenumbri puhul, kui tööleht on sisestatud. Peate veenduma, et töölehe read oleksid ajutise kandenumbriga õigesti grupeeritud. Näiteks konteerimisel, kolm rida leitakse mis on ajutine kande number 1. Kõik kolm rida ajutise kandenumber kirjutatakse numbriseeria järgmine number. Kui need kolm rida ei ole tasakaalustatud kirje, siis kannet ei sisestata. Järgmiseks, kui leitakse ridu, mille ajutine kandenumber on 2, kirjutab selle numbri üle numbriseeria järgmine kandenumber jne.
+-   Kui kasutate päevaraamatu üksuse seadistust **Kogumipõhine töötlemine**, tuleb imporditud failis esitada kande number. Igale päevaraamatu kandele määratakse imporditud failis antud kande number, isegi kui kanne pole tasakaalustatud. Kui soovite kasutada komplektipõhist töötlemist, kuid soovite kasutada ka numbriseeriat, mis on rakenduses Dynamics 365 for Operations kandenumbritele määratletud, on 2016. aasta veebruari väljalaske jaoks tehtud kiirparandus. Kiirparanduse number on 3170316 ja selle saab laadida alla teenusest Lifecycle Services (LCS). Lisateavet leiate jaotisest [Kiirparanduste allalaadimine teenusest Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+    -   Selle funktsiooni lubamiseks määrake töölehe nimel, mida kasutatakse rakenduses Dynamics 365 for Operations tehtavate importimiste jaoks, valiku **Numbrite eraldamine sisestamisel** sätteks **Jah**.
+    -   Imporditud failis tuleb sellegipoolest kandenumber määratleda. Samas on see number ajutine ja kirjutatakse töölehe sisestamisel rakenduse Dynamics 365 for Operations kande numbriga üle. Peate veenduma, et töölehe read oleksid ajutise kandenumbriga õigesti grupeeritud. Näiteks sisestamise käigus leitakse kolm rida, millel on ajutine kandenumber 1. Kõigi kolme rea ajutine kandenumber kirjutatakse numbriseerias üle järgmise numbriseerias oleva numbriga. Kui need kolm rida ei ole tasakaalustatud kirje, siis kannet ei sisestata. Järgmiseks, kui leitakse ridu, mille ajutine kandenumber on 2, kirjutab selle numbri üle numbriseeria järgmine kandenumber jne.
 
 <!-- -->
 
--   Kui te ei kasuta selle **komplekt töötlemine** seadmine, võite jätta imporditud failis kande numbrit. Kandenumbrid luuakse importimise ajal töölehe nime seadistuse põhjal (**Ainult üks kanne**, **Seoses saldoga** jne). Näiteks kui töölehe nimi on määratletud valikuga **Saldoga seoses**, saab esimene rida uue kande vaikenumbri. Seejärel hindab süsteem rida, et määratleda, kas deebetsummad võrduvad kreeditsummadega. Kui real on olemas vastaskonto, saab järgmine imporditav rida uue kande numbri. Kui vastaskontot pole, hindab süsteem iga uue rea importimisel, kas deebetsummad on kreeditsummadega võrdsed.
+-   Kui te ei kasuta sätet **Komplektipõhine töötlemine**, ei pea te imporditud failis kandenumbrit sisestama. Kandenumbrid luuakse importimise ajal töölehe nime seadistuse põhjal (**Ainult üks kanne**, **Seoses saldoga** jne). Näiteks kui töölehe nimi on määratletud valikuga **Saldoga seoses**, saab esimene rida uue kande vaikenumbri. Seejärel hindab süsteem rida, et määratleda, kas deebetsummad võrduvad kreeditsummadega. Kui real on olemas vastaskonto, saab järgmine imporditav rida uue kande numbri. Kui vastaskontot pole, hindab süsteem iga uue rea importimisel, kas deebetsummad on kreeditsummadega võrdsed.
 -   Kui väljale **Kande number** on määratud väärtus **Automaatselt loodud**, siis importimine ei õnnestu. Seadistust **Automaatselt loodud** väljal **Kande number** ei toetata.
 
 Vaikimisi kasutab üksus Päevaraamat kogumipõhist töötlemist. Pärast oma organisatsiooni ärinõuete hindamist tuleb sätet **Kogumipõhine töötlemine** muuta, klõpsates valikut **Andmeüksused** tööruumis **Andmehaldus**. Kogumipõhist töötlemist kasutatakse impordiprotsessi kiirendamiseks. Kui te kogumipõhist töötlemist ei kasuta, on üksuse Päevaraamat importimine aeglasem.
+
+
 
 

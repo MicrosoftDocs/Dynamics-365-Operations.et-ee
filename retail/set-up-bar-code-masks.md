@@ -1,6 +1,6 @@
 ---
 title: "Vöötkoodi maskide häälestamine"
-description: "See teema kirjeldab, kuidas luua vöötkoodi mask märki, vöötkoodi maskid, ja kuidas määrata vöötkoodi vöötkoodide maskid."
+description: "Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja vöötkoodi maske ning kuidas määrata vöötkoodidele vöötkoodi maske."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
@@ -27,57 +27,62 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-bar-code-masks"></a>Vöötkoodi maskide häälestamine
 
-See teema kirjeldab, kuidas luua vöötkoodi mask märki, vöötkoodi maskid, ja kuidas määrata vöötkoodi vöötkoodide maskid.
+[!include[banner](includes/banner.md)]
+
+
+Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja vöötkoodi maske ning kuidas määrata vöötkoodidele vöötkoodi maske.
 
 <a name="set-up-bar-code-mask-characters"></a>Vöötkoodi maski tähemärkide häälestamine
 -------------------------------
 
-Vöötkoodi maskid kasutatakse vöötkoodide loomiseks ja vöötkoode, mis on skaneeritud müügikoha (POS) kiireks tuvastamiseks. Maskid koosneb märke, mis loovad vöötkoodide formaat tähistavad kohatäited. Vöötkoodi mask konfigureerimiseks peate luua vöötkoodi mask märki. Mine **hulgi- ja kaubanduse**&gt;**varud**&gt;**vöötkoode ja sildid**&gt;**varjata märki**. Klõpsake **uus** luua vöötkoodi mask märki. Järgmine kood andmete loomist mask märki.
+Vöötkoodimaske kasutatakse vöötkoodide loomiseks ja kassas skannitavate vöötkoodide kiiresti tuvastamiseks. Maskid koosnevad kohatäidetena toimivatest märkidest, mis näitavad loodavate vöötkoodide vormingut. Vöötkoodi maski konfigureerimiseks peate seadistama vöötkoodi maski tähemärgid. Valige **Jaemüük ja kaubandus** &gt; **Varude haldus** &gt; **Vöötkoodid ja sildid** &gt; **Maski märgid**. Klõpsake vöötkoodi maski märkide loomiseks nuppu **Uus**. Maski tähemärke saab luua järgmiste vöötkoodi andmete näitamiseks.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Field**            | **Description**                                                                                                 |
-| **Product**          | Toote ID kohatäide                                                                                     |
-| **Any number**       | Saab määrata number, et on raske, kodeeritakse vöötkoodi.                                                  |
-| **Check digit**      | Näitab, et vöötkoodi formaat maskis vöötkoodi kasutab kontrollarv vöötkoodi kehtivuse kinnitamiseks. |
-| **Size digit**       | Näitab mõeldud toote variant, mis sisaldab suurus vöötkoodi suurus.                                 |
-| **Color digit**      | Näitab värvi mõeldud toote variant, mis sisaldab värvi vöötkoodi.                               |
-| **Style digit**      | Näitab stiilis loodud toote variant, mis sisaldab stiili vöötkoodi.                             |
-| **EAN license code** | Kohatäide EAN litsentsi välja EAN litsentsikoodid.                                                       |
-| **Hind**            | Näitab hinna puhul hind varjatud vöötkoode.                                                                   |
-| **Quantity**         | Näitab kogus kogus/random massina varjatud vöötkoode.                                                |
-| **Employee**         | Näitab vöötkoodi segmendi vöötkoodi POS login kasutatakse töötaja ID-numbri.                                  |
-| **Customer**         | Näitab kliendi ID segment.                                                                                  |
-| **Andmete sisestamisel**       | *Seni teostamata.*                                                                                          |
-| **Discount code**    | Näitab soodustust koodi kasutatakse lisada soodustust punkti ostutehing vöötkood             |
-| **Kinkekaart**        | Näitab kingitus kaardi number või kasutate maksmiseks kinkekaarti.                                               |
-| **Loyalty card**     | Lisab lojaalsust kliendi tehingu ja kasutamist lojaalsus makstes.                             |
+| **Väli**            | **Kirjeldus**                                                                                                 |
+| **Toode**          | Toote ID kohatäide.                                                                                     |
+| **Mis tahes number**       | Kasutatakse, et määrata number, mis on vöötkoodidesse püsiprogrammeeritud.                                                  |
+| **Kontrollnumber**      | Näitab, et vöötkoodi vorming vöötkoodi maskis kasutab vöötkoodi kehtivuse kinnitamiseks kontrollnumbrit. |
+| **Suuruse numbrikoht**       | Näitab suurust vöötkoodis, mis luuakse suurust hõlmava tootevariandi jaoks.                                 |
+| **Värvi numbrikoht**      | Näitab vöötkoodis värvi, mis on loodud värvi sisaldava tootevariandi jaoks.                               |
+| **Laadi numbrikoht**      | Näitab vöötkoodis laadi, mis on loodud laadi sisaldava tootevariandi jaoks.                             |
+| **EAN-i litsentsi kood** | Kohatäide EAN-i litsentsikoodi jaoks väljastatud EAN-i litsentsile.                                                       |
+| **Hind**            | Näitab hinda hinda sisaldavate vöötkoodide puhul.                                                                   |
+| **Kogus**         | Näitab kogust kogust / juhuslikku kaalu sisaldavates vöötkoodides.                                                |
+| **Töötaja**         | Näitab vöötkoodi segmenti vöötkoodi kassa sisselogimise puhul kasutatava töötaja ID-koodi puhul.                                  |
+| **Klient**         | Näitab kliendi ID segmenti.                                                                                  |
+| **Andmekirje**       | *Pole veel rakendatud.*                                                                                          |
+| **Allahindluse kood**    | Näitab allahindluse koodi vöötkoodile, mida kasutatakse kassa kandele allahindluse lisamiseks.             |
+| **Kinkekaart**        | Näitab kinkekaardi väljastamisel või sellega tasumisel kinkekaardi numbrit.                                               |
+| **Kliendikaart**     | Lisab kandele püsikliendi ja seda saab kasutada kliendikaardiga tasumisel.                             |
 
-## <a name="define-bar-code-masks"></a>Määrata vöötkoodi maskid
-Pärast vöötkoodi mask tähemärki on määratud vajalikud vöötkoodi maskid, minge **hulgi- ja kaubanduse**&gt;**varud**&gt;**vöötkoode ja sildid**&gt;**vöötkoodi mask seadistus**. Sellel lehel saate määratleda vöötkoodi maskid, mis kasutavad eelnevalt määratletud märkidest. Luua vöötkoode ja see ka aitab paremini vöötkoodide skannitakse tootjaorganisatsioonid need vöötkoodi maskid kasutatavad.
+## <a name="define-bar-code-masks"></a>Vöötkoodi maskide määratlemine
+Pärast vajalikele vöötkoodi maskidele vöötkoodi maski tähemärkide määramist, valige **Jaemüük ja kaubandus** &gt; **Varud** &gt; **Vöötkoodid ja sildid** &gt; **Vöötkoodi maski seadistus**. Sellel lehel saate määratleda vöötkoodi maskid, mis kasutavad varasemalt määratud tähemärke. Neid vöötkoodi maske kasutatakse vöötkoodide loomisel ja need aitavad ka kassas skannitud vöötkoode tuvastada.
 
-1.  Klõpsake **uus** luua uue vöötkoodi mask.
-2.  Sisestage väärtused on **Mask ID** ja **kirjeldus** väljad ja valige vöötkoodi mask on **tüüp** välja.
-3.  Aastal ning **üldise** jao valik langeda on **standard vöötkood** väli ja määrake vöötkoodi eesliide, kui see on vajalik.
-4.  Aastal ning **vöötkoodi mask segmendi** jagu, lisada vöötkoodi segmente, mida kasutatakse luua vöötkoodi.
+1.  Klõpsake uue vöötkoodi maski loomiseks nuppu **Uus**.
+2.  Sisestage väärtused väljadele **Maski ID** ja **Kirjeldus** ja valige seejärel väljal **Tüüp** vöötkoodi maski tüüp.
+3.  Jaotises **Üldine** valige väärtus väljal **Vöötkoodi standard** ja määrake seejärel vöötkoodi prefiks, kui see on vajalik.
+4.  Jaotises **Vöötkoodi maski segment** lisage vöötkoodi segmendid, mida kasutatakse loodavas vöötkoodis.
 
-Näiteks luua vöötkoodi mask mask ID "Toode" sooviksite tegutsete järgmiselt:
+Näiteks vöötkoodi maski loomiseks maski ID-ga „Toode” teete järgmist.
 
-1.  Valige tüüp "Toode" luua uus kood mask.
-2.  Saate valida vöötkoodi standard, näiteks "Code 39".
-3.  Anda ette lisada vöötkoodi hõlpsaks tuvastamiseks kasutada. Näiteks "22".
-4.  Lisa mask segment. "Toode" mask segment on märgistatud.
-5.  Pikkus ette toote segment, näiteks "10". Pikkus tuleks kattu toote-ID, mida kasutatakse poes. Maski kuvatakse eelvaade on **üldise** jagu all **Mask**.
+1.  Looge uus vöötkoodi mask ja valige tüüp „Toode”.
+2.  Valige vöötkoodi standard, näiteks „Kood 39”.
+3.  Sisestage prefiks, mida kasutatakse vöötkoodi hõlpsaks tuvastamiseks. Näiteks „22”.
+4.  Lisage maski segment. Valitakse maski segment „Toode”.
+5.  Sisestage tootesegmendi pikkus, näiteks „10”. Pikkus peaks vastama kaupluses tavaliselt kasutatava toote ID pikkusele. Mask kuvatakse eelvaatena jaotise **Mask** jaotises **Üldine**.
 
-## <a name="assign-bar-code-masks-to-bar-codes"></a>Määrata vöötkoodi maskid vöötkoodid
-Vöötkoodide maskid määratakse vöötkoodid, enne kui neid kasutada. Jätkata eelmises näites, et määrata vöötkoodi mask vöötkoodi, tehke järgmist:
+## <a name="assign-bar-code-masks-to-bar-codes"></a>Vöötkoodidele vöötkoodi maskide määramine
+Vöötkoodi maskid tuleb enne nende kasutamist vöötkoodidele määrata. Jätkates eelmise näitega, vöötkoodi maski määramiseks vöötkoodile tehke järgmist.
 
-1.  Mine **organisatsiooni haldamine**&gt;**install**&gt;**koodi**. Klõpsake **uus** luua uue vöötkoodi.
-2.  Sisestage väärtused on **vöötkoodi****setup** ja ** seadistamine ** väljad.
-3.  Aastal ning **üldise** osa, on **vöötkoodi tüübi** number "Code 39",. Aastal ning **Mask****ID** number varem loodud "Toode" mask,.
-4.  All **suuruse**, sisestage "12".
-5.  Click **Save**.
+1.  Valige **Organisatsiooni haldus** &gt; **Seadistus** &gt; **Vöötkoodid**. Uue vöötkoodi loomiseks klõpsake nuppu **Uus**.
+2.  Sisestage väärtused väljadele **Vöötkoodi** **seadistus** ja **Seadistus**.
+3.  Jaotises **Üldine** väljal **Vöötkoodi tüüp** valige „Kood 39”. Väljal **Maski** **ID** valige varasemalt loodud mask „Toode”.
+4.  Jaotisesse **Suurus** sisestage „12”.
+5.  Klõpsake käsku **Salvesta**.
 
-Vöötkoodi mask saab nüüd luua toodete jaoks. Eespool nimetatud meetmed on näited, kuidas luua vöötkoodi maskid toodetele, kuid nad ka selgitavad, kuidas luua vöötkoodi maskid mõnda muud toetatud vöötkoodi. Vöötkoodi maskid, liigid ja pikkused kohandatakse teie teatud keskkonnas kasutamiseks.
+Vöötkoodi maski saab nüüd kasutada toodete jaoks vöötkoodide loomiseks. Eespool toodud juhised on näited selle kohta, kuidas toodete jaoks vöötkoodi maske luua, kuid need näitlikustavad ka seda, kuidas luua vöötkoodi maske mis tahes muude toetatud vöötkoodi tüüpide jaoks. Vöötkoodi maske, tüüpe ja pikkuseid tuleb korrigeerida teie konkreetses keskkonnas kasutamiseks.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: Impordi valuutavahetuskursid.
-description: "Kui juriidiline isik on saanud välisvaluutas, tuleb muuta valuuta kohalikku vääringusse. See tähendab, et uuema vahetuskursiga erinevate valuutade eest nõutakse. Selles teemas antakse ülevaade seadete ja töötlemise importimise internetis avaldatud vahetuskurss rahastajate, näiteks Euroopa ja Venemaa keskpanga valuutakursi viitemääradena."
+description: "Kui juriidiline isik on saanud arveid välisvaluutas, on vaja välisvaluuta kohalikku valuutasse teisendada. See tähendab, et vaja on erinevate valuutade ajakohaseid vahetuskursse. Selles teemas antakse ülevaade vajalikest sätetest ja töötlemisest vahetuskursside pakkujate (nt Euroopa Keskpank ja Venemaa Keskpank) Internetis avaldatud vahetuskursside importimiseks."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,32 +27,37 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="import-currency-exchange-rates"></a>Impordi valuutavahetuskursid.
 
-Kui juriidiline isik on saanud välisvaluutas, tuleb muuta valuuta kohalikku vääringusse. See tähendab, et uuema vahetuskursiga erinevate valuutade eest nõutakse. Selles teemas antakse ülevaade seadete ja töötlemise importimise internetis avaldatud vahetuskurss rahastajate, näiteks Euroopa ja Venemaa keskpanga valuutakursi viitemääradena.
+[!include[banner](../includes/banner.md)]
 
-Järgmistes punktides kirjeldatakse teabe, mida kasutatakse loomiseks ja töötlemiseks valuutakursside import.
 
-## <a name="configure-an-exchange-rate-provider"></a>Konfigureerida vahetuskursi pakkujaga
-Valuutakursside importimiseks peate seadistama teenusepakkujad, kes pakuvad vahetuskursside vajalikku teavet. Kasutamine ning **konfigureerida vahetuskursi pakkujaid** lehe vahetuskursi osutajate valimiseks. Mõned vahetuskursi pakkujad on kaasas demo andmeid Microsoft Dynamics 365 toiminguteks. Selle lehe juhtelementide kirjeldused leiate järgmistest tabelitest.
+Kui juriidiline isik on saanud arveid välisvaluutas, on vaja välisvaluuta kohalikku valuutasse teisendada. See tähendab, et vaja on erinevate valuutade ajakohaseid vahetuskursse. Selles teemas antakse ülevaade vajalikest sätetest ja töötlemisest vahetuskursside pakkujate (nt Euroopa Keskpank ja Venemaa Keskpank) Internetis avaldatud vahetuskursside importimiseks.
+
+Järgmised jaotised kirjeldavad teabevoogu, mida kasutatakse vahetuskursside importimise häälestamiseks ja töötlemiseks.
+
+## <a name="configure-an-exchange-rate-provider"></a>Vahetuskursi pakkuja konfigureerimine
+Enne vahetuskursside importimist tuleb seadistada andmed, mida nõuavad vahetuskursi pakkujad. Valige vahetuskursi pakkujad lehelt **Vahetuskursi pakkujate konfigureerimine**. Mõned vahetuskursi pakkujad sisalduvad Microsoft Dynamics 365 for Operationsi demoandmetes. Lehe juhtelementide kirjeldused leiate järgmisest tabelist.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Field** | **Description**                                                                                                                                                                                                             |
-| **Name**  | Vahetuskursi pakkuja nimi.                                                                                                                                                                                     |
-| **Võti**   | Pakkuja nõutud konfiguratsiooniteabe iga osa kordumatu ID. See teave lisatakse automaatselt iga vahetuskursi teenusepakkuja lisada, kui klõpsate selle **lisa** nuppu. |
-| **Value** | Iga nupu teave. See teave lisatakse iga vahetuskursi teenusepakkuja lisada, kui klõpsate selle **lisa** nuppu.                                                                                         |
+| **Väli** | **Kirjeldus**                                                                                                                                                                                                             |
+| **Nimi**  | Vahetuskursi pakkuja nimi.                                                                                                                                                                                     |
+| **Võti**   | Pakkuja nõutud konfiguratsiooniteabe iga osa kordumatu ID. See teave lisatakse automaatselt iga vahetuskursi pakkuja puhul, kelle lisate, klõpsates nuppu **Lisa**. |
+| **Väärtus** | Iga nupu teave. See teave lisatakse iga vahetuskursi pakkuja puhul, kelle lisate, klõpsates nuppu **Lisa**.                                                                                         |
 
 ## <a name="import-currency-exchange-rates"></a>Impordi valuutavahetuskursid.
-Saate importida vahetuskursside vahetuskursi pakkujad allikas ja ning selle **Valuutavahetuskursid** lehel. Kasutamine ning **importida Valuutavahetuskursid** lehe vahetuskursside importida. Järgnev tabel annab kirjeldused protsessi edukalt täita nõutavad väljad.
+Saate importida vahetuskursse vahetuskursi pakkujate allikast ja seadistada neid lehel **Valuutakursid**. Vahetuskursse saab importida lehe **Impordi valuutakursid** kaudu. Järgmises tabelis kirjeldatakse välju, mida on importimisprotsessi edukaks lõpuleviimiseks vaja.
 
 |                                        |                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Field**                              | **Description**                                                                                                                                                                                                                                                                                                                                                             |
-| **Exchange rate type**                 | Vahetuskurss tüüp.                                                                                                                                                                                                                                                                                                                                                      |
-| **Exchange rate provider**             | Vahetuskursi pakkujaga.                                                                                                                                                                                                                                                                                                                                                  |
-| **Import as of**                       | See parameeter juhib kas importida tänasel kuupäeval või kuupäevavahemikul. Kui soovite kasutada kuupäevavahemiku, sisestage või valige algus- ja.                                                                                                                                                                                                                |
-| **Create necessary currency pairs**    | See ruut haldab automaatse loomise valuutapaaride, kui imporditud valuutapaaride ei ole. See suvand ei pruugi olla saadaval mõned pakkujad.                                                                                                                                                                                               |
-| **Override existing exchange rates**   | See ruut kui vahetuskursi konkreetsel kuupäeval juba olemas haldab värskenduse olemasoleva vahetuskursi valuuta paari. Kui valite märkeruudu, vahetuskursi konkreetseteks kuupäevadeks ei impordita kui teise vahetuskurss on juba olemas.                                                                                       |
-| **Prevent import on national holiday** | Selle ruudu märkimisel haldab vahetuskursi impordi kuupäeva, mis on riigipüha. Näiteks kui märgite selle ruudu ja kasutada Euroopa Keskpanga vahetuskursi pakkujaga, süsteem ei uuenda vahetuskurss on riigipüha, mis on seotud praeguse juriidilise. See suvand ei pruugi olla saadaval mõned pakkujad. |
+| **Väli**                              | **Kirjeldus**                                                                                                                                                                                                                                                                                                                                                             |
+| **Vahetuskursi tüüp**                 | Vahetuskursi tüüp.                                                                                                                                                                                                                                                                                                                                                      |
+| **Vahetuskursi pakkuja**             | Vahetuskursi pakkuja.                                                                                                                                                                                                                                                                                                                                                  |
+| **Impordi seisuga**                       | See parameeter juhib seda, kas importida tänase kuupäeva või kuupäevavahemiku seisuga. Kui soovite kasutada kuupäevavahemikku, siis sisestage või valige alguse ja lõpu kuupäevad.                                                                                                                                                                                                                |
+| **Loo vajalikud valuutapaarid**    | See märkeruut juhib valuutapaaride automaatset loomist, kui imporditavaid valuutapaare pole. Mõne pakkuja puhul ei pruugi see valik saadaval olla.                                                                                                                                                                                               |
+| **Alista olemasolevad vahetuskursid**   | See märkeruut juhib olemasoleva vahetuskursi uuendamist valuutapaari puhul, kui konkreetse kuupäeva kohta on valuutakurss juba olemas. Kui te seda ruutu ei märgi, ei impordita konkreetsete kuupäevade valuutakurssi, kui teine valuutakurss on juba olemas.                                                                                       |
+| **Vältida importimist riiklikel pühadel** | See märkeruut juhib valuutakursi importimist kuupäeval, mis on riigipüha. Näiteks kui märgite selle ruudu ja kasutate vahetuskursi pakkujana Euroopa Keskpanka, ei muuda süsteem vahetuskurssi praeguse juriidilise isikuga seotud riigipühal. Mõne pakkuja puhul ei pruugi see valik saadaval olla. |
+
+
 
 
 

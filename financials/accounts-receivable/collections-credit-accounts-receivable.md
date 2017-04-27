@@ -1,6 +1,6 @@
 ---
 title: "Kreedit ja sissenõuded moodulis Müügireskontro"
-description: "Kontode saadaolevad kogusid andmeid haldab üks keskne vaade, kasutades Microsoft Dynamics 365 toimingute kogud leht. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid.."
+description: "Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics 365 for Operationsi sissenõuete lehte. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid.."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Kreedit ja sissenõuded moodulis Müügireskontro
 
-Kontode saadaolevad kogusid andmeid haldab üks keskne vaade, kasutades Microsoft Dynamics 365 toimingute kogud leht. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid..
+[!include[banner](../includes/banner.md)]
+
+
+Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics 365 for Operationsi sissenõuete lehte. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid..
 
 Enne sissenõuete seadistamist või nendega töötamist peaksite teadma järgmisi põhimõtteid.
 -   Kliendi aegumise hetktõmmised sisaldavad aegunud saldoteavet teatud ajahetkel
@@ -55,9 +58,9 @@ Aegumise hetktõmmise üksikasjalik kirje luuakse iga aegumisperioodi kohta aegu
 Kliendikaustad päringud, mis määratlevad kliendikirjete grupi, mida saab sissenõuete või aegumisprotsesside jaoks kuvada ja hallata. Kliendikaustadega saate filtreerida teavet loendilehtedel Aegunud saldod, Sissenõuete tegevused ja Sissenõuete juhtumid. Kliendikaustadega saate ka filtreerida kliendikontosid, mis kaasatakse aegumise hetktõmmiste loomisel.
 
 ## <a name="collections-agents"></a>Inkassaatorid
-Vaikimisi Microsoft Dynamics 365 toimingute kasutajad saate vaadata kõikide klientide teavet kollektsioonide nimekiri lehekülgedel. Inkassaatorikirjete abil saate määrata kliendikaustad, mis on saadaval sissenõuete loendilehtedel ja lehel Sissenõuded oleva teabe filtreerimiseks. 
+Vaikimisi saavad Microsoft Dynamics 365 for Operationsi kasutajad vaadata sissenõuete loendilehtedel kogu klienditeavet. Inkassaatorikirjete abil saate määrata kliendikaustad, mis on saadaval sissenõuete loendilehtedel ja lehel Sissenõuded oleva teabe filtreerimiseks. 
 
-Inkassaator on isik, kes teeb koostööd klientidega, et makseid kogutaks õigeaegselt. Microsoft Dynamics 365 operatsioonide kogud ained on töötajaid, kes määratakse kasutajatele kasutaja seadistuse lehel.
+Inkassaator on isik, kes teeb koostööd klientidega, et makseid kogutaks õigeaegselt. Microsoft Dynamics 365 for Operationsis on inkassaatorid töötajad, kes on määratud kasutajale lehel Kasutajate seadistus.
 
 ## <a name="collections-list-pages"></a> Sissenõuete loendilehed 
 Järgmiste loendilehtede abil saate sissenõuete teavet korraldada.
@@ -67,7 +70,7 @@ Järgmiste loendilehtede abil saate sissenõuete teavet korraldada.
 
 > [!NOTE]
 > Enne kui saate teavet neil loendilehtedel vaadata, tuleb luua aegumise hetktõmmis. Teave kuvatakse ainult klientide puhul, kelle kohta on loodud aegumise hetktõmmis. Loendilehel kuvatavaid kirjeid saab täiendavalt filtreerida järgmiselt.
-<li>Vaikimisi Microsoft Dynamics 365 toimingute kasutajale on juurdepääs kõigile klientidele, kes on vananevas hetktõmmise.</li>
+<li>Vaikimisi on Microsoft Dynamics 365 for Operationsi kasutajal juurdepääs kõigile klientidele, kel on aegumise hetktõmmis.</li>
 <li>Kliendikaustade olemasolul peab kasutaja olema seadistatud inkasaatorina, et kasutada kaustu sissenõuete loendilehtedel oleva teabe filtreerimiseks. Teave on piiratud klientidega, kes kuuluvad valitud kliendikausta.</li>
 <li>Kui kasutaja on seadistatud inkassaatorina, on loendilehel saadaval ainult selle inkassaatori jaoks valitud kaustad. Kui inkassaatori puhul on lehel Inkassaator märgitud ruut Luba inkassaatoril vaadata kõiki kliendikaustu, on kõik kaustad selle inkassaatori jaoks saadaval.</li>
 
@@ -75,7 +78,7 @@ Järgmiste loendilehtede abil saate sissenõuete teavet korraldada.
 ## <a name="collections-page"></a> Leht Sissenõuded
 Lehel Sissenõuded saate vaadata ja hallata kliendi sissenõudeteavet, -tegevusi ja -juhtumeid ning nendega tegevusi teha. 
 
-Ülemisel paanil kuvatakse valitud kliendi juhtudel. Keskmisel paanil kuvatakse kliendi kanded. Alumisel paanil kuvatakse kliendi tegevused. Saate luua sissenõudejuhtumid, et jälgida sissenõudeteavet ühe või mitme kande ja tegevuse kohta. Ülemise ja alumise paani teavet saab juhtumi alusel filtreerida. 
+Ülemisel paanil kuvatakse valitud kliendi teenindusjuhtumid. Keskmisel paanil kuvatakse valitud kliendi kanded. Alumisel paanil kuvatakse kliendi tegevused. Saate luua sissenõudejuhtumid, et jälgida sissenõudeteavet ühe või mitme kande ja tegevuse kohta. Ülemise ja alumise paani teavet saab juhtumi alusel filtreerida. 
 
 Kiirinfodes kuvatakse valitud kliendi aegunud saldod ja krediidilimiit. See teave salvestatakse aegumise hetktõmmisesse. Vajaduse korral saate aegumise hetktõmmist värskendada. 
 
@@ -86,7 +89,7 @@ Saate loobuda täielike viivisearvete või tasude ja kandeintresside, mis on osa
 
 Need korrigeerimised mõjutavad ainult viivisearveid ning neis sisalduvat intressi ja tasusid. Kasutage kõigi tasude, mida klient võlgneb, mahakandmiseks jaotise „Mahakandmiskannete loomine ühe etapina” etappe.
 
-## <a name="create-writeoff-transactions"></a>Writeoff kannete loomine
+## <a name="create-writeoff-transactions"></a>Mahakandmiskannete loomine
 Saate maha kanda lootusetuid võlgu, klõpsates vormil Sissenõuded ning loendilehtedel Aegunud saldod, Kliendid ja Avatud kliendiarved suvandit Mahakandmine. 
 
 Kliendi kannete mahakandmisel märgitakse kliendi kõik kanded automaatselt tasakaalustamiseks. Mahakantav summa sõltub märgitud kannete netosummast. Mahakandmise kanne luuakse päevaraamatus ja see võib sisaldada kuni kolme tüüpi tööleheridu.
@@ -100,6 +103,8 @@ Ebapiisavate vahendite (NSF) maksete töötlemine
 --------------------------------------------
 
 Saate töödelda NSF-makseid, klõpsates lehel Sissenõuded nuppu NSF-makse. Selle nupu klõpsamisel tühistatakse makse. Kui kliendile kehtib NSF-tasu, luuakse maksetöölehel tasukanne. Tasu summa põhineb automaatsete tasude seadistusel. Automaatsed tasud, mida kohaldatakse NSF-maksetele, on määratud tasude grupis, mis on valitud seotud pangakonto lehel Pangakontod.
+
+
 
 
 

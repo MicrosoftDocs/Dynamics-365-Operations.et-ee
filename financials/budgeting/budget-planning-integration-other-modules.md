@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Eelarve plaanimise integreerimine muude moodulitega
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>Perioodilised protsessid eelarveplaanide loomiseks
@@ -49,13 +52,13 @@ Perioodilise protsessi põhielemendid on kõikide protsesside puhul samad. Vahek
 
 Iga loomisprotsessi puhul on saadaval kolm toimingut.
 
--   **Luua uus eelarve** loob uue kava, mille atribuute, mis on valitud selle ** eesmärgi ** punkti. Need atribuudid ei pea olema kordumatud. Seega võib kahel plaanil olla sama nimi ja muud väärtused.
+-   **Uue eelarveplaani loomine** loob uue plaani, millel on jaotises **Sihtkoht** valitud atribuudid. Need atribuudid ei pea olema kordumatud. Seega võib kahel plaanil olla sama nimi ja muud väärtused.
 -   **Olemasoleva eelarveplaani stsenaariumi asendamine** kustutab kõik andmed valitud eelarveplaani stsenaariumi sihteelarveplaanis ja loob uued read, mis kasutavad valitud lähteandmeid.
 -   **Olemasoleva eelarveplaani stsenaariumi värskendamine ja uute andmete lisamine** värskendab olemasolevaid ridu sihtplaanis, mis vastavad allika ridadele, ja lisab uute andmete jaoks ka uusi ridu. Vastavus põhineb pearaamatukontol, kuupäeval, eelarveklassil ja mitmetel muudel väljadel. Näiteks kui loote eelarveplaane prognositavatest ametikohtadest, on amtikoha kood oluline väli. Kõik read, millel on ametikoha kood, mis vastab allika ametikoha koodile, asendatakse uute ridadega allikast.
 
 ### <a name="source"></a>Allikas
 
-Kõiki protsesse, on **allikas** vahekaardil saate andmeid filtreerida, kasutades selle **Filter** nuppu. Vaikimisi lisatakse erivaldkondade filter iga protsessi kohta. Näiteks protsessi **Eelarveplaani loomine pearaamatust** puhul on saadaval kategooriad **Pearaamatukonto** ja **Põhikonto** ning need kuvatakse loomise lehel. Kõik filtrile lisatud väljad lisatakse ka lehele koos mis tahes lisatava kriteeriumiga.
+Kõigi protsesside puhul võimaldab vahekaart **Allikas** andmeid filtreerida nupu **Filter** abil. Vaikimisi lisatakse iga protsessi puhul filtrile kindlad väljad. Näiteks protsessi **Eelarveplaani loomine pearaamatust** puhul on saadaval kategooriad **Pearaamatukonto** ja **Põhikonto** ning need kuvatakse loomise lehel. Kõik filtrile lisatud väljad lisatakse ka lehele koos mis tahes lisatava kriteeriumiga.
 
 ### <a name="target"></a>Sihtmärk
 
@@ -63,7 +66,7 @@ Suvand **Ajalooline** vahekaardil **Sihtkoht** võimaldab teil kasutada lähtean
 
 Lehe ülaosas olev väli **Kogusumma liitmine** määrab samuti kasutatud kuupäeva. See väli võtab summad kokku ja määrab valikuliselt rahandusaasta või rahandusperioodi esimesele päevale jõustusmikuupäeva. 
 
-Paljud väljad vahekaardil **Sihtkoht** muutuvad redigeeritavaks või kirjutuskaitstuks olenevalt valitud tegevusest. Kui lähete uue eelarveplaani loomiselt üle olemasoleva plaani värskendamisele, muutub väli **Eelarveplaani nimi** kättesaamatuks ja olemasoleva plaani valimisega seotud väljad muutuvad kättesaadavaks. Nii **siht** sakk ja ** allikas ** jaotises on **pearaamatu** välja pole alati saadaval, kuna väärtus määratakse valitud eelarve planeerimise protsessi. 
+Paljud väljad vahekaardil **Sihtkoht** muutuvad redigeeritavaks või kirjutuskaitstuks olenevalt valitud tegevusest. Kui lähete uue eelarveplaani loomiselt üle olemasoleva plaani värskendamisele, muutub väli **Eelarveplaani nimi** kättesaamatuks ja olemasoleva plaani valimisega seotud väljad muutuvad kättesaadavaks. Vahekaartidel **Sihtkoht** ja **Allikas** on väli **Pearaamat** alati mittesaadaval, sest väärtuse määrab valitud eelarve plaanimise protsess. 
 
 Väli **Eelarveklass** võimaldab teil määrata eelarveplaani ridu kas kulu- või tulukannetena. Tavaliselt on tulukanded krediidid pearaamatukontole ja seetõttu on need talletatud negatiivsete summadena. Tavaliselt ilmuvad need kanded ka eelarveplaani negatiivsete summadena. Kuid lisades eelarveklassi plaani paigutuse väljana saate lubada tulu kuvamise positiivsete summadena.
 
@@ -73,7 +76,7 @@ Kolm välja pakuvad täiendavaid funktsioone: **Tegur**, **Miinimum** ja **Ümar
 
 Väljal **Tegur** olev väärtus korrutatakse lähtesummaga, et määrata summa eelarveplaanis. Saate eelarveplaani ridu luues korrigeerida. Näiteks saate 3-protsendilise kasvu puhul sisestada **1,03**. Tegur peab olema positiivne arv. 
 
-Väli **Miinimum** võimaldab teil määrata eelarveplaani rea loomise lävisumma. Kui lähtesumma on sellest arvust väiksem, siis eelarveplaani rida ei looda. Väärtus **0,00** lubab kõik summad, kuid ei piira read positiivsete summadena. (Puudub väärtus piirab read positiivsete summadena. Negatiivsed summad on lisatud ja kujutavad kreeditkandega.)
+Väli **Miinimum** võimaldab teil määrata eelarveplaani rea loomise lävisumma. Kui lähtesumma on sellest arvust väiksem, siis eelarveplaani rida ei looda. Väärtus **0,00** lubab kõiki summasid, kuid ei piira ridu positiivsete summadega. Ükski väärtus ei piira ridu positiivsete summadega. Negatiivsed summad kaasatakse alati ja need esindavad tavaliselt kreeditkirjeid.)
 
 Väli **Ümardamisreegel** võimaldab teil määrata loodud eelarveplaani ridade täpsuse. Saate ümardada summasid kõige lähemale valuutale 1,00, 10,00, 100,00 jne.
 
@@ -86,13 +89,13 @@ Sihtkohas on välja **Eelarveklass** väärtuseks seatud kas **Kulu** või **Tul
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Eelarveplaani loomine põhivaradest
 
-Ptotsessil **Eelarveplaani loomine põhivaradest** ei ole liitmise võimalust perioodi või päeva järgi. Puudub ka võimalus kehtestamise plaani kui ajalooline. Saate selle perioodilise protsessi kaasamiseks planeeritud põhivara eelarve planeerimiseks.
+Ptotsessil **Eelarveplaani loomine põhivaradest** ei ole liitmise võimalust perioodi või päeva järgi. Samuti ei ole võimalust seadistada plaani ajaloolisena. Saate seda perioodilist protsessi kasutada selleks, et kaasata kavandatud kanded eelarve plaanimise põhivarasse.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Eelarveplaani loomine prognoositavatest ametikohtadest
 
 Protsess **Eelarveplaani loomine prognoositavatest ametikohtadest** määrab eelarveplaani reale allikaks oleva prognoositava ametikoha. Saate ametikohta vaadata, lisades prognoositava ametikoha eelarveplaani paigutuse reana või kasutades päringut **Eelarveplaani read**. Kui te ei soovi eelarveplaani ridadele prognoositavat ametikohta määrata, määrake suvandi **Kaasa ametikoht eelarveplaani real** väärtuseks **Ei**.
 
-Read eelarve kavas on koondatud pearaamatukonto ja positsiooni. Siiski saate välistada positsiooninumber, nii, et read on koondatud ainult pearaamatukonto. Määrake vahekaardil **Sihtkoht** suvandi **Kaasa ametikoht eelarveplaani real** väärtuseks **Ei**.
+Pearaamatukonto ja ametikoht liidavad eelarveplaani read. Saate aga ametikoha koodi välja jätta, nii et ridu liidab ainult pearaamatukonto. Määrake vahekaardil **Sihtkoht** suvandi **Kaasa ametikoht eelarveplaani real** väärtuseks **Ei**.
 
 Väljal **Eelarveplaani täistööaja vaste stsenaarium** saate valida stsenaariumi, mis kaasab täistööajaga töötajate (FTE-d) arvu eelarveplaani. See väli on piiratud koguse tüüpi stsenaariumidega, mis on kaasatud sihteelarveplaani paigutusse. Kui valite täistööaja vaste stsenaariumi, peate valima ka täistööaja vaste põhikonto. Seda kontot kasutatakse koguse eelarveplaani ridade loomiseks. 
 
@@ -140,5 +143,7 @@ Valige rida ja klõpsake nuppu **Eelarveplaani read**, et käivitada päring **E
 Nende päringute käivitamiseks kasutage nuppe **Tarneprognoos** ja **Nõudluse prognoos**. Mõlemal juhul otsib päring prognoosi ridu, mis võisid luua eelarveplaani ridu. 
 
 Täiendavad saadaolevad aruanded hõlmavad aruannet **Prognoositavad ametikohad eelarveplaani järgi**. See aruanne on eriti kasulik, kui soovite määrata, kas amtikoht on eelarveplaanidesse õigesti eraldatud.
+
+
 
 

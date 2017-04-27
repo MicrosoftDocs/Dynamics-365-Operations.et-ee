@@ -1,5 +1,5 @@
 ---
-title: Kasutada kiire import/eksport
+title: Kiirimpordi/-ekspordi kasutamine
 description: "Kiirimpordi/-ekspordi eesmärk on lasta teil importida ja eksportida väiksema toimingute arvuga."
 author: margoc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Käivitada katse Data Transfer Tool (beta) Dynamics AX (AX 2012)
+# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Käivitage Dynamics AX-i (AX 2012) katseandmete edastamise tööriist (beetaversioon)
+
+[!include[banner](../../includes/banner.md)]
+
 
 Kiirimpordi/-ekspordi eesmärk on lasta teil importida ja eksportida väiksema toimingute arvuga.
 
@@ -36,5 +39,7 @@ Lisasime kiirimpordi/-ekspordi funktsiooni, et kasutajad saaksid importida või 
 -   Kiirimpordi/-ekspordi kasutamiseks pole vaja töötlemisrühma luua; see luuakse süsteemis automaatselt impordi- või eksporditöö käitamisel. Saate valida ka kiirimpordi/-ekspordi ajaloo säilitamise.
 
   Arvestage, et kiirimport/-eksport eeldab, et oleksite DIXF-i mõistetega kursis.
+
+
 
 

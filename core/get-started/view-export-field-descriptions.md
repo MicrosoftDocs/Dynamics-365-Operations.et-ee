@@ -36,9 +36,9 @@ Kõigil lehekülgedel ei ole väljade kirjeldusi. Soovime pakkuda kirjeldusi ain
 Kui teil on juurdepääs Microsoft Dynamics 365 for Operationsi arenduskeskkonnale, saate lisada uusi väljade kirjeldusi ja kohandada olemasolevaid kirjeldusi. Näiteks saate lisada välja kirjeldusele ettevõttepõhist teavet. Lisateavet leiate jaotisest [Välja spikri kohandamine](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Väljakirjelduste vaatamine kasutajaliideses
-Välja kirjelduse vaatamiseks liikuge välja kohale. Kui kirjeldus puudub, näete välja kohale liikudes välja nime. (Märkus: versioon 7.0.0 kirjeldustest saab vaadata ainult selle **välja kirjeldused** lehekülg.) Järgmisel joonisel kuvatakse väljal kirjeldus, mis kuvatakse, kui viite selle **Lukusta kaubad inventuuri ajaks** välja. 
+Välja kirjelduse vaatamiseks liikuge välja kohale. Kui kirjeldus puudub, näete välja kohale liikudes välja nime. (Märkus. Versioonis 7.0.0 saab välja kirjeldusi vaadata ainult lehel **Välja kirjeldused**.) Järgmine joonis näitab välja kirjeldust, mis ilmub, kui liigutate kursori välja **Lukusta kaubad inventuuri ajaks** kohale. 
 
-[![Näiteks väli Kirjeldus](./media/field-description.png)](./media/field-description.png)
+[![Väljakirjelduse näide](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Kasutage lehte Väljade kirjeldused väljaspikri vaatamiseks ja eksportimiseks
 Leht **Väljade kirjeldused** võimaldab väljade kirjeldusi vaadata ja eksportida. Saate korraga vaadata ühe lehe jaoks saadaolevaid kirjeldusi.
@@ -73,7 +73,7 @@ Lehe otsimiseks väljal **Lehe valimine** on mitu võimalust. Paljudel juhtudel 
     -   Kui on mitu täpset vastet, ei kuvata ühtegi kirjeldust. Peate ripploendi avama ja valima soovitud lehe.
     -   Kui sisestatud lehe nimi on osa teise lehe nimest, näete oma lehe kirjeldusi. Kuid kui avate ripploendi, siis näete veel lehti, mis seda nime sisaldavad.
 
-Näiteks mingit kirjeldused kuvatakse kui kirjutad **inventuur** linnas on *** valige lehe *** välja. Avate ripploendi ja näete, et on olemas kaks lehte nimega **Inventuur** ja mitu lehte, mille nimes on sõna „inventuur”. Kui valite lehe, mille AOT-nimi on **InventJournalCount**, kuvatakse selle lehe väljade kirjeldused. Kui aga ripploendi uuesti avate, näete, et loend sisaldab nüüd kõiki lehti, mille AOT-nime osa on „InventJournalCount”.
+Näiteks ei kuvata ühtegi kirjeldust, kui sisestate sõna **Inventuur** väljale ****Lehe valimine****. Avate ripploendi ja näete, et on olemas kaks lehte nimega **Inventuur** ja mitu lehte, mille nimes on sõna „inventuur”. Kui valite lehe, mille AOT-nimi on **InventJournalCount**, kuvatakse selle lehe väljade kirjeldused. Kui aga ripploendi uuesti avate, näete, et loend sisaldab nüüd kõiki lehti, mille AOT-nime osa on „InventJournalCount”.
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
 Selles jaotises on teave, mis on abiks veaotsingul probleemide osas, millega võite väljade kirjelduste kasutamisel kokku puutuda.

@@ -1,5 +1,5 @@
 ---
-title: Koondplaneerimise saidi katvus, kohustuslik ladu
+title: Koondplaanimine laovarude puhul, kohustuslik ladu
 description: Selles teemas kirjeldatakse, kuidas plaanitakse kaupa, millel on laoala kattedimensioonidena. Ladu on kohustuslik dimensioon.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Koondplaneerimise saidi katvus, kohustuslik ladu
+# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Koondplaanimine laovarude puhul, kohustuslik ladu
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles teemas kirjeldatakse, kuidas plaanitakse kaupa, millel on laoala kattedimensioonidena. Ladu on kohustuslik dimensioon.
 
@@ -39,9 +42,9 @@ See koondplaneerimise stsenaarium sisaldab järgmisi tingimusi.
 -   Lao dimensioon ei ole seadistatud laovarude planeerimiseks. Seega on tarne ja nõudlus ning võibolla ka teised laovarude planeerimisega dimensioonid koondatud saitide kaupa.
 
 Järgmine graafik näitab, kuidas koondplaneerimine jätkub. Parameetrid, mis on graafikusse kantud, ja nende asukohad, on järgnevad:
--   Kauba laovarud on kauba kohta määratud. Klõpsake **toote teabekorraldus &gt;toodete&gt; vabastatud toodete**. Valige üksus ja klõpsake **kava &gt;kauba laovarud**.
--   Taastäitmise suhted on laole määratud. Klõpsake **varud &gt;Setup &gt;laovarude jaotamine &gt;ladudes**. Vaadake vahekaardil **Koondplaneerimine** väljagruppi **Pealadu**.
--   Tellimuse vaiketüübiks on määratud Tootmine, Ostutellimus või Kanban. Klõpsake **toote teabekorraldus &gt;toodete&gt; vabastatud toodete**. Valige üksus ja klõpsake **kava &gt;vaikimisi tellimuse telefoni**. Vaadake vormi **Tellimuse vaikesätted** jaotist **Tellimuse vaiketüüp**.
+-   Kauba laovarud on kauba kohta määratud. Klõpsake suvandeid **Tooteteabe haldus &gt; Tooted &gt; Väljastatud tooted**. Valige kaup ja klõpsake siis valikuid **Plaan &gt; Kauba laovarud**.
+-   Taastäitmise suhted on laole määratud. Klõpsake valikuid **Varud &gt; Seadistus &gt; Laovarude jaotamine &gt; Laod**. Vaadake vahekaardil **Koondplaneerimine** väljagruppi **Pealadu**.
+-   Tellimuse vaiketüübiks on määratud Tootmine, Ostutellimus või Kanban. Klõpsake suvandeid **Tooteteabe haldus &gt; Tooted &gt; Väljastatud tooted**. Valige kaup ja klõpsake siis valikuid **Plaan &gt; Tellimuse vaikesätted**. Vaadake vormi **Tellimuse vaikesätted** jaotist **Tellimuse vaiketüüp**.
 
 ![Nõue laoala varude laole kohustuslik](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
 
@@ -50,14 +53,16 @@ Järgmine graafik näitab, kuidas koondplaneerimine jätkub. Parameetrid, mis on
 <a name="see-also"></a>Vt ka
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Koondplaanimine ja mitme laoala funktsioon](master-plan-multisite-functionality.md)
 
 [Koondplaneerimine – laoala ja laovarud, ladu on kohustuslik](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Kapten planeerimine - saidi levialas. kohustuslik ladu](master-plan-site-coverage-warehouse-mandatory.md)
+[Koondplaanimine – laovarud, ladu on kohustuslik](master-plan-site-coverage-warehouse-mandatory.md)
 
 [Koondplaneerimine – laoala ja laovarud, ladu ei ole kohustuslik](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
 [Koondplaneerimine – koosluse versiooni määratlemine](master-plan-bom-version-determined.md)
+
+
 
 

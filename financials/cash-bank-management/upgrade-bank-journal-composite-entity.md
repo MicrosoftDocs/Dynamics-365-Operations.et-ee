@@ -1,5 +1,5 @@
 ---
-title: "Uuendada panga töölehe komposiit isiku"
+title: "Pangatöölehe liitüksuse värskendamine"
 description: "Järgmised etapid on vajalikud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity."
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Uuendada panga töölehe komposiit isiku
+# <a name="update-the-bank-journal-composite-entity"></a>Pangatöölehe liitüksuse värskendamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Järgmised etapid on vajalikud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.
 
 Kasutage järgmisi etappe, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.
 
 1.  Kompileerige ja sünkroonige järgmised panga töölehe liitüksused, üksused ja vahetabelid.
-    -   Üksuse töö alustamiseks\\BankJournalEntity
-    -   Ettevõte\\BankJournalHeaderEntity
-    -   Ettevõte\\BankJournalLineEntity
-    -   Tabelis\\BankJournalHeaderStaging
-    -   Tabelis\\BankJournalLineStaging
+    -   Liitüksus\\BankJournalEntity
+    -   Üksus\\BankJournalHeaderEntity
+    -   Üksus\\BankJournalLineEntity
+    -   Tabel\\BankJournalHeaderStaging
+    -   Tabel\\BankJournalLineStaging
 
-2.  Andmete haldamine\\andmete projektid
+2.  Andmehaldus\\andmeprojektid
     -   Avage tüüp **Pangakanne **paigutuses **Lähteandmed**.
         -   Lähteandmete vorming = XML-element
         -   Üksuse nimi = Panga tööleht
@@ -49,6 +52,8 @@ Kasutage järgmisi etappe, et lisada täiendav väli BankTransactionType liitük
             -   Kontrollige, kas pangekande tüüp on vastendatud valikult Allikas valikule Ajastamine.
 
 3.  Importige uus väljavõte.
+
+
 
 
 

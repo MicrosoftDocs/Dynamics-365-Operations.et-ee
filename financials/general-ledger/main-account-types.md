@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Põhikonto tüübid
 
+[!include[banner](../includes/banner.md)]
+
+
 Põhikonto tüübid määratlevad selle, kuidas põhikontot kontoplaanis kasutatakse.
 
 Leheküljel Põhikontod – kontoplaan põhikontot luues peate valima põhikonto tüübi.
@@ -35,6 +38,8 @@ Leheküljel Põhikontod – kontoplaan põhikontot luues peate valima põhikonto
 -   Bilanss, vara, kohustus ja omakapital – neid põhikontosid kasutatakse kandekontodena juriidilise isiku omatavate ja võlgnetavate summade kirjendamiseks.
 -   Kokku – neid põhikontosid kasutatakse kontovahemike lisamiseks. Põhikonto tüüpi Kokku saate konfigureerida kasutades lehekülge Kontovahemik, kus kuvatakse kõigi kontovahemike grupeeritud saldod kogusumma järgi. Kui olete valinud konto tüübi Kokku, pääsete leheküljele Kontovahemik, klõpsates vahekaardil Üldine valikud Kogusummad.
 -   Aruandlus – neid põhikontosid kasutatakse üksnes Brasiilia finantsaruande aruandluse jaoks.
+
+
 
 
 

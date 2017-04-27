@@ -1,6 +1,6 @@
 ---
-title: "Väikesed summad Ida-Euroopa"
-description: "See teema pakub teavet väikesed summad funktsiooni, mille abil kasutajad Eesti, Leedu, Tšehhi, Ungari, Läti, Poola ja Venemaa kajastavad sularaha süsteemis."
+title: "Väikesed summad Ida-Euroopa puhul"
+description: "Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,42 +25,45 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="petty-cash-for-eastern-europe"></a>Väikesed summad Ida-Euroopa
+# <a name="petty-cash-for-eastern-europe"></a>Väikesed summad Ida-Euroopa puhul
 
-See teema pakub teavet väikesed summad funktsiooni, mille abil kasutajad Eesti, Leedu, Tšehhi, Ungari, Läti, Poola ja Venemaa kajastavad sularaha süsteemis.
+[!include[banner](../includes/banner.md)]
 
-Väikesed summad funktsiooni abil saate automatiseerida sissetulekute ja kulutuste raha, esmane dokumentide loomise ja vastavate aruannete printimine. Väikesed summad funktsioon lubab teil sooritada järgmisi toiminguid:
 
--   Konto ja rahaliste varade kulutamist.
--   Looge tüüpiline raha: raha korvamisorderite, Kassa Väljaminekuorderid ja raha saatelehtede registreerimise tööleht.
--   Maksimaalselt raha ravimitele, lubatud toimingud klientide, hankijate ja nii edasi.
--   Kajastama erinevate valuutade SULARAHAOPERATSIOONID süsteemi.
--   Teisendada anda raamatupidamise aruandluse vaikevaluuta, mis koguses sularaha.
--   Luua on **Kassa** aruande ja on kassapidaja aruanne.
+Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid.
+
+Väikeset summade funktsioon võimaldab automatiseerida sularahasissetulekute ja -kulude toiminguid, põhidokumentide loomist ja seotud aruannete printimist. Väikeste summade funktsioon võimaldab teha järgmist.
+
+-   Arvestada saadaoleva sularaha sissetulekuid ja kulusid.
+-   Luua tüüpilisi sularahavorme: sularaha korvamisorderid, sularaha väljaminekuorderid ja sularahaorderite registreerimiste tööleht.
+-   Juhtida maksimaalset sularahasummat, mis on klientide, hankijatega jne tehtavate toimingute puhul lubatud.
+-   Kajastada süsteemis sularahatoiminguid erinevates valuutades.
+-   Teisendada sularahatoimingute välisvaluutas summasid vaikevaluutasse ja esitada raamatupidamise aruandeid.
+-   Luua **kassaraamatu** ja kassapidaja aruandeid.
 
 ## <a name="prerequisites"></a>Eeltingimused
-Väikesed summad funktsiooni kasutamiseks peate täitma järgmised eeltingimused:
+Väikeste summade funktsiooni kasutamiseks peate täitma järgmised eeltingimused.
 
--   Sularahakontode seadistamine
--   Saate seadistada sisestusreeglite raha.
--   Saate seadistada raha dokumendi nummerdamisel kasutatavad Numbriseeriad.
--   Saate seadistada vaikeväärtusi raha ja pangakontod parameetrid.
--   Raha nimed seadistada üldiselt pearaamatu.
+-   Seadistama sularahakontod.
+-   Seadistama sularahakonto sisestusreeglid.
+-   Seadistama kassadokumentide numbriseeriad.
+-   Seadistama sularaha- ja pangahalduse parameetrite vaikeväärtused.
+-   Seadistama pearaamatus sularahatöölehtede nimed.
 
-### <a name="set-up-cash-accounts"></a>Raha kontode
+### <a name="set-up-cash-accounts"></a>Sularahakontode seadistamine
 
-Raha seadistamiseks avage **raha ja pangakontod juhtimise**&gt;**panga**&gt;**raha kontode**, ja sisestage järgmine teave.
+Sularahakonto seadistamiseks avage **Sularaha- ja pangahaldus** &gt; **Pangakontod** &gt; **Sularahakontod** ja sisestage järgmine teave.
 
 | Väli                 | Kirjeldus                                                                                                          |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| Sularaha                  | Sisestada tähise, mis tuvastab sularahaarve (raha).                                                                    |
-| Nimi                  | Sisestage kirjeldus sularahaarve.                                                                             |
-| Valuuta              | Valige sularahatehingu valuutakoodi.                                                              |
-| Numbriseeria grupp | Kui dokumendid peab erinevad järjekorranumber s.t. raha järjekorranumber on parameetrites sisestada tähise. |
-| Veel valuutasid       | Märkige see ruut, et valuutade, erinevate raamatupidamise valuuta sisestatakse.                     |
-| Negatiivne kassa         | Märkige see ruut, et negatiivne raha erinevates valuutades.                                               |
+| Sularaha                  | Sisestage kood sularahakonto (kassa) tuvastamiseks.                                                                    |
+| Nimi                  | Sisesta sularahakonto kirjeldus                                                                             |
+| Valuuta              | Valige sularahatehingute vaikevaluutakood.                                                              |
+| Numbriseeria grupp | Kui kassadokumentide numeratsioon peab erinema parameetrites määratud numeratsioonist, sisestage kood. |
+| Veel valuutasid       | Märkige see ruut, et võimaldada arvestusvaluutast erinevate valuutade sisestamist.                     |
+| Negatiivne kassa         | Märkige see ruut, et võimaldada mis tahes valuutas negatiivseid sularahasaldosid.                                               |
 
-Seadistada saldo kontrolli eeskirjad valige sularahakonto sularahaarve ja siis Updatehagi paani kohta selle **raha konto** vahekaardil, on **saldolimiiti** nuppu **saldolimiiti**. Sisestage järgmine teave.
+Sularahakonto puhul sularahasaldo juhtimise reeglite seadistamiseks valige sularahasaldo ja seejärel klõpsake toimingupaanil vahekaardi **Sularahakonto** rühmas **Saldolimiit** valikut **Saldolimiit**. Sisestage järgmine teave.
 
 <table>
 <colgroup>
@@ -76,44 +79,44 @@ Seadistada saldo kontrolli eeskirjad valige sularahakonto sularahaarve ja siis U
 <tbody>
 <tr class="odd">
 <td>Valuuta tüüp</td>
-<td>Valige valuuta:
+<td>Valige valuuta tüüp.
 <ul>
-<li><strong>Raamatupidamise valuuta</strong> – põhi firma valuutatähist.</li>
-<li><strong>Näidatud valuuta</strong> – valuuta kood, mis erineb tava ettevõtte valuuta tähis.</li>
+<li><strong>Arvestusvaluuta</strong> – saate kasutada ettevõtte põhivaluutakoodi.</li>
+<li><strong>Näidatud valuuta</strong> – saate kasutada ettevõtte põhivaluutakoodist erinevat valuutakoodi.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Valuuta</td>
-<td>Kui valisite <strong>näidatud valuuta</strong> ja selle <strong>valuutatüüp</strong> number, valuuta tähis. See väli pole saadaval, kui valitud <strong>raamatupidamise valuuta</strong> ja selle <strong>valuutatüüp</strong> välja.</td>
+<td>Kui tegite väljal <strong>Valuuta tüüp</strong> valiku <strong>Näidatud valuuta</strong>, valige valuutakood. See väli pole saadaval, kui tegite väljal <strong>Valuuta tüüp</strong> valiku <strong>Arvestusvaluuta</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Saldolimiidi tüüp</td>
-<td>Tehke saadaolevad väärtused:
+<td>Valige üks saadaolevatest väärtustest.
 <ul>
-<li><strong>Maksimaalne</strong> – sularaha saldot ei tohi ületada selle <strong>saldolimiiti</strong> summa raha arvel (ülemist).</li>
-<li><strong>Vähemalt</strong> – sularaha saldot ei tohi minna alla selle <strong>saldolimiiti</strong> summa raha arvel (all seotud).</li>
+<li><strong>Maksimaalne</strong> – sularahasaldo ei tohi ületada sularahakonto summat <strong>Saldolimiit</strong> (ülapiir).</li>
+<li><strong>Minimaalne</strong> – sularahasaldo ei tohi langeda alla sularahakonto summat <strong>Saldolimiit</strong> (alapiir).</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Kontrolli saldolimiiti</td>
-<td>Valige, mis tekib ajal raha dokumentide protsessis kui ka <strong>saldolimiiti</strong> sularahaarve ületamise määrast:
+<td>Valige, mis juhtub kassadokumentide heakskiiduprotsessi ajal, kui sularahakonto puhul ületatakse summa <strong>Saldolimiit</strong>.
 <ul>
-<li><strong>Nõus</strong> – piir ei tohi ületada.</li>
-<li><strong>Hoiatus</strong> -piiri saab ületada, kuid kasutaja saab hoiatuse. Kassadokument heaks või heaks.</li>
-<li><strong>Viga</strong> – piirmäära ei ületata. Kasutaja saab veateate ja kassadokument ei ole heaks või heaks.</li>
+<li><strong>Aktsepteeri</strong> – limiidi saab ületada.</li>
+<li><strong>Hoiatus</strong> – limiidi saab ületada, kuid kasutaja saab hoiatusteate. Kassadokument kinnitatakse või kiidetakse heaks.</li>
+<li><strong>Tõrge</strong> – limiiti ei saa ületada. Kasutaja saab tõrketeate ja kassadokumenti ei kinnitata või ei kiideta heaks.</li>
 </ul>
-Kassa korvamis protsessis kohta lisateabe saamiseks vaadake selle &quot;raha tehingu kinnitamine ja sisestamise&quot; käesoleva teema jaotises.</td>
+Lisateavet kassadokumentide heakskiiduprotsessi kohta vt selle teema allpool olevast teemast &quot;Sularahakande kinnitamine ja sisestamine&quot;.</td>
 </tr>
 <tr class="odd">
 <td>Saldolimiit</td>
-<td>Sisestage selle konto saldo piir. Summa peaks olema määratud valuutas.</td>
+<td>Sisestage sularahakonto saldolimiit. Summa tuleb sisestada teie määratud valuutas.</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-cash-posting-profiles"></a>Saate seadistada sisestusreeglite raha
+### <a name="set-up-cash-posting-profiles"></a>Sularahakonto sisestusreeglite seadistamine
 
-Raha sisestusreeglite määratleda konteeringud pearaamatusse. Seadistatud sisestusreeglid raha, minge **raha****ja panga juhtimise**&gt;**Setup**&gt;**raha sisestusreegleid**, ja valida või luua. Sisestage järgmine teave.
+Sularahakonto sisestusreeglid määratlevad sisestused pearaamatusse. Sularahakonto sisestusreeglite seadistamiseks avage **Sularaha-** **ja pangahaldus** &gt; **Seadistus** &gt; **Sularahakonto sisestusreeglid** ning valige või looge sisestusreeglid. Sisestage järgmine teave.
 
 <table>
 <colgroup>
@@ -129,30 +132,30 @@ Raha sisestusreeglite määratleda konteeringud pearaamatusse. Seadistatud sises
 <tbody>
 <tr class="odd">
 <td>Kehtib</td>
-<td>Saate valida, kas sisestusreegleid rakendatakse konkreetse sularahakonto või kõik raha ja pangakontod:
+<td>Valige, kas sisestusreegleid rakendatakse kindlale sularahakontole või kõigile sularahakontodele.
 <ul>
-<li><strong>Tabelis</strong> – kui konteeringu profiili Real raha arvel, et kasutatakse Kassa kannete sisestamisel.</li>
-<li><strong>Kõik</strong> – ei postitad profiili jaoks on rida sularahaarve.</li>
+<li><strong>Tabel</strong> – kui sularahakonto jaoks on sisestusreeglite rida olemas, kasutatakse seda rida sularahakannete sisestamiseks.</li>
+<li><strong>Kõik</strong> – sularahakonto jaoks sisestusreeglite rida puudub.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Sularaha</td>
-<td>Kui valisite <strong>tabeli</strong> ja selle <strong>puhul kehtib</strong> valdkonnas, täpsustada sularahaarve. See väli on tühi, kui valisite <strong>kõik</strong> ja selle <strong>puhul kehtib</strong> välja.</td>
+<td>Kui tegite väljal <strong>Kehtib</strong> valiku <strong>Tabel</strong>, määrake sularahakonto. See väli jääb tühjaks, kui tegite väljal <strong>Kehtib</strong> valiku <strong>Kõik</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Pearaamatukonto</td>
-<td>Sisestage pearaamatukonto kasutada konto raha konto number.</td>
+<td>Sisestage selle pearaamatukonto number, mida kasutatakse sularahakonto puhul kliendi koondkontona.</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-number-sequences-for-cash-documents"></a>Kassa dokumentide numbriseeriate seadistamine
+### <a name="set-up-number-sequences-for-cash-documents"></a>Kassadokumentide numbriseeriate seadistamine
 
-Seadistama raha dokumentide jaoks, minge **raha ja pangakontod juhtimise**&gt;**Setup**&gt;**raha ja pangakontod parameetrid**. Kohta ning **jada Number** vahekaardil, saate määrata Numbriseeria koodid jaoks ning **raha korvamisorderite**, **raha Väljaminekuorderid**, **parandus sularahakviitungi**, ja **valuutakursi korrigeerimisel** dokumendid, ja **raha aruande number**.
+Kassadokumentide numbriseeriate seadistamiseks avage **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**. Vahekaardil **Numbriseeria** määrake numbriseeria koodid dokumentidele **Kassa korvamisorderid**, **Kassa väljaminekuorderid**, **Kassa paranduskanne** ja **Valuutakursi korrigeerimine** ning väljale **Sularahaaruande number**.
 
-### <a name="set-up-default-values-for-cash-and-bank-management-parameters"></a>Saate seadistada vaikeväärtusi raha ja pangakontod parameetrid
+### <a name="set-up-default-values-for-cash-and-bank-management-parameters"></a>Sularaha- ja pangahalduse parameetrite vaikeväärtuste seadistamine.
 
-Saate seadistada vaikeväärtusi raha ja pangakontod väikesed summad funktsiooni parameetrid, minge **raha ja pangakontod juhtimise**&gt;**Setup**&gt;**raha ja panga parameetrid**. Kohta ning **raha** sakk, sisestage järgmine teave.
+Sularaha- ja pangahalduse parameetrite vaikeväärtuste seadistamiseks väikeste summade funktsiooni jaoks avage **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**. Vahekaardil **Sularaha** sisestage järgmine teave.
 
 <table>
 <colgroup>
@@ -168,64 +171,64 @@ Saate seadistada vaikeväärtusi raha ja pangakontod väikesed summad funktsioon
 <tbody>
 <tr class="odd">
 <td>Sularaha</td>
-<td>Valige vaikekonto raha töölehtedel.</td>
+<td>Valige töölehtedel kasutatav vaikesularahakonto.</td>
 </tr>
 <tr class="even">
 <td>Kassaseisu sisestamine</td>
-<td>Sisestage vaikimisi raha sisestusreeglid, mida kasutatakse, kui määratakse muu sisestusreegel.</td>
+<td>Sisestage sularahakonto vaikesisestusreeglid, mida kasutatakse, kui muid sisestusreegleid pole määratud.</td>
 </tr>
 <tr class="odd">
 <td>Kontrolli kasutatud kannet</td>
-<td>Valige, mis toimub kui Duplikaatnumbrid ajal sisse raha dokumendi number:
+<td>Valige, mis juhtub, kui kassadokumendi numbri kontrollimisel leitakse topeltnumbrid.
 <ul>
 <li>Lükka duplikaat tagasi</li>
-<li>Tagasi lükata koopiad majandusaasta jooksul</li>
+<li>Ära luba koopiaid samal rahandusaastal</li>
 <li>Luba duplikaate</li>
 <li>Hoiata duplikaatide korral</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Kontrolli toimingute limiiti</td>
-<td>Saate määrata, mis toimub kui ületatakse piirmäära koostöölepinguid counteragents:
+<td>Määrake, mis juhtub, kui vastaspooltega tehtavate toimingute piirmäär on ületatud.
 <ul>
-<li><strong>Nõus</strong> – piir ei tohi ületada.</li>
-<li><strong>Hoiatus</strong> -piiri saab ületada, kuid kasutaja saab hoiatuse. Toiming sisestatakse.</li>
-<li><strong>Viga</strong> – piirmäära ei ületata. Kasutaja saab veateate ja operatsiooni ei ole postitatud.</li>
+<li><strong>Aktsepteeri</strong> – limiidi saab ületada.</li>
+<li><strong>Hoiatus</strong> – limiidi saab ületada, kuid kasutaja saab hoiatusteate. Toiming sisestatakse.</li>
+<li><strong>Tõrge</strong> – limiiti ei saa ületada. Kasutaja saab tõrketeate ja toimingut ei sisestata.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Kontrollimeetod</td>
-<td>Kontrollimeetod, mida kasutatakse tegevuste kontrolli ületada limiite valimine
+<td>Valige kontrollimismeetod, mida kasutatakse toimingute piirsummade ületamise juhtimiseks.
 <ul>
-<li><strong>Operatsiooni</strong> – valideerimine on tehtud kande kohta</li>
-<li><strong>Lepingu</strong> – valideerimine toimub ühe tehingu, mis on määratud vastaspoolega leping.</li>
+<li><strong>Toiming</strong> – kontrollitakse iga kannet.</li>
+<li><strong>Leping</strong> – kontrollitakse iga tehingut, millel on vastaspoolega määratud leping.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Toimingute limiit</td>
-<td>Sisestage maksimaalne lubatud koostöölepinguid counteragents sularahas.</td>
+<td>Sisestage maksimaalne summa, mis on vastaspooltega tehtavate sularahatoimingute puhul lubatud.</td>
 </tr>
 <tr class="odd">
 <td>Sisestus varasemal kuupäeval</td>
-<td>Märkige see ruut, et sularahatehingutes enne viimase raha kanne konteeritakse.</td>
+<td>Märkige see ruut, et lubada sularahakannete sisestamine enne viimast sularahakande kuupäeva.</td>
 </tr>
 <tr class="even">
 <td>Dimensioonid</td>
-<td>Sisestage mõõtmed on <strong>osakonna kood</strong>, <strong>analüüsi kood</strong>, ja <strong>eesmärgi koodi</strong> väljad. Kassa dokumentide trükkimise vorm kajastab seda teavet.</td>
+<td>Sisestage dimensioonid väljadele <strong>Osakonna kood</strong>, <strong>Analüütiline kood</strong> ja <strong>Eesmärgi kood</strong>. See teave kajastub kassadokumentide prindivormil.</td>
 </tr>
 <tr class="odd">
 <td>Kasuta kinnitatud olekut</td>
-<td>Märkige see ruut, kui kasutada täiendavaid olek, <strong>kinnitatud</strong>, raha dokumentide kinnitamise käigus. (Lisateabe saamiseks vt selle &quot;raha tehingu kinnitamine ja sisestamise&quot; osa.)</td>
+<td>Märkige see ruut, et kasutada kassadokumentide kinnitusprotsessi käigus lisaolekut <strong>Kinnitatud</strong>. (Lisateavet vt teemast &quot;Sularahakannete kinnitamine ja sisestamine&quot;.)</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-cash-journal-names-in-general-ledger"></a>Raha nimed seadistada üldiselt pearaamatu
+### <a name="set-up-cash-journal-names-in-general-ledger"></a>Pearaamatus sularahatöölehtede nimede seadistamine
 
-Sularaha tehingute sisestamiseks töölehe loomiseks minge **PR**&gt;**seadistus on**&gt;**nimesid**, ja luua uue kirje. Aastal ning **tüüp** valdkonnas, määrata **raha**. Kui vaja, saate määratleda muud töölehe vaikeparameetrid.
+Sularahakannete sisestamiseks töölehe loomiseks avage **Pearaamat** &gt; **Töölehe seadistamine** &gt; **Töölehtede nimed** ja looge uus kirje. Valige väljal **Töölehe tüüp** suvand **Sularaha**. Määratlege muud vajalikud töölehe vaikeparameetrid.
 
-## <a name="daily-cash-operations-via-a-slip-journal"></a>Igapäevane raha toimingute saatelehe tööleht
-Saatelehe töölehe kaudu raha dokumendi loomiseks minge **raha ja pangakontod juhtimise**&gt;**sularaha tehingud**&gt;**saatelehe tööleht**, ja looge uus. Kohta ning tegevus paanil klõpsake **read**. Lisada uus rida ja sisestage järgmine teave.
+## <a name="daily-cash-operations-via-a-slip-journal"></a>Igapäevased sularahatoimingud saatelehe töölehe kaudu
+Kassadokumendi loomiseks saatelehe töölehe kaudu avage **Sularaha- ja pangahaldus** &gt; **Sularahakanded** &gt; **Saatelehe tööleht** ning looge uus tööleht. Klõpsake toimingupaanil valikut **Read**. Lisage uus rida ja sisestage järgmine teave.
 
 <table>
 <colgroup>
@@ -245,122 +248,122 @@ Saatelehe töölehe kaudu raha dokumendi loomiseks minge **raha ja pangakontod j
 </tr>
 <tr class="even">
 <td>Konto</td>
-<td>Valige konto raha. Vaikimisi Kassa kontot määratud parameetrites raha haldamise.</td>
+<td>Valige sularahakonto. Vaikimisi määratakse sularahakonto sularaha- ja pangahalduse parameetrites.</td>
 </tr>
 <tr class="odd">
 <td>Kirjeldus</td>
-<td>Saate sisestada kande selgitav tekst.</td>
+<td>Sisestage kande jaoks selgitav tekst.</td>
 </tr>
 <tr class="even">
-<td>Deebet kreedit</td>
-<td>Sisestage dokumendi rahasumma ühte neist väljadest:
+<td>Deebet, kreedit</td>
+<td>Sisestage kassadokumendi summa ühele järgmistest väljadest.
 <ul>
-<li><strong>Deebet</strong> – selle välja abil saate registreerida sularaha kviitungid ja Kassa korvamisorderi.</li>
-<li><strong>Krediidi</strong> – selle välja abil saate registreerida raha kulutuste ja kassa väljaminekuorderi.</li>
+<li><strong>Deebet</strong> – kasutage seda välja kassa sissetuleku- ja väljaminekuorderite registreerimiseks.</li>
+<li><strong>Kreedit</strong> – kasutage seda välja kassa kulu- ja väljaminekuorderite registreerimiseks.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Vastaskonto tüüp vastaskonto</td>
-<td>Saate valida vastaskonto tüübi ja vastaskonto kontonumbri.</td>
+<td>Vastaskonto tüüp, vastaskonto</td>
+<td>Valige vastaskonto tüüp ja vastaskonto number.</td>
 </tr>
 <tr class="even">
 <td>Valuuta</td>
-<td>Valige kande valuuta tähist.</td>
+<td>Valige kande valuutakood.</td>
 </tr>
 <tr class="odd">
 <td>Kanne</td>
-<td>See väli täidetakse automaatselt, vastavalt seadistus.</td>
+<td>See väli täidetakse automaatselt töölehe seadistuse põhjal.</td>
 </tr>
 <tr class="even">
 <td>Tellimuse kood</td>
-<td>Kui ühtegi muud numbriseeriat seadistatakse sularahaarve, see väli täidetakse automaatselt, vastavalt parameetrites määratud numbriseeria. Sellele väljale saate sisestada käsitsi tellimuse numbrit, kui vaja. Et inconsistence raha dokumendi nummerdust, rakendatakse järgmisi kontrolli: raha dokumendi, mis on varem tegevuse arv ei tohi ületada arvu raha dokumendi, mis on hiljem operatsiooni. Kui te ei vaja seda juhtelementi, valige selle <strong>sisestus varasemal kuupäeval</strong> raha ja pangakontod dokumendihalduse Parameetrid ruut.</td>
+<td>Kui sularahakonto jaoks pole muid numbriseeriaid seadistatud, täidetakse see väli automaatselt parameetrites määratud numbriseeria põhjal. Saate sellele väljale sisestada soovi korral tellimuse numbri käsitsi. Kassadokumentide numeratsiooni ebajärjekindluse vältimiseks rakendatakse järgmist reeglit: varasema toimingukuupäevaga kassadokumendi number ei saa olla suurem kui hilisema toimingukuupäevaga kassadokumendi number. Kui te ei soovi seda reeglit rakendada, märkige sularaha- ja pangahalduse parameetrites ruut <strong>Sisestamine varasemal kuupäeval</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Kinnitamise olek</td>
-<td>Esimene olek on <strong>pole</strong>. Kande oleku kohta lisateavet selle &quot;raha tehingu kinnitamine ja sisestamise&quot; lõik.</td>
+<td>Esimese kande olek on <strong>Pole</strong>. Teavet kande oleku määramise kohta vt teemast &quot;Sularahakannete kinnitamine ja sisestamine&quot;.</td>
 </tr>
 <tr class="even">
 <td>Dokumendi tüüp </td>
-<td>Sellel välja selle <strong>raha tellimuse</strong> kaart sisestatakse automaatselt, kassadokument sisestatud koguse põhjal:
+<td>See väli vahekaardil <strong>Kassaorder</strong> täidetakse automaatselt kassadokumenti sisestatud summa põhjal.
 <ul>
-<li><strong>Sularaha korvamisorderi</strong> – seda väärtust kasutatakse, kui sisestasite vastav summa on <strong>deebet</strong> välja raha arvel.</li>
-<li><strong>Väljaminekuorderi sularaha</strong> – seda väärtust kasutatakse, kui sisestasite vastav summa on <strong>krediidi</strong> tarbeks raha välja</li>
-<li><strong>PARANDUS</strong> – sisestatud negatiivne summa on <strong>deebet</strong> välja või <strong>krediidi</strong> välja raha arvel.</li>
+<li><strong>Kassa korvamisorder</strong> – seda väärtust kasutatakse, kui sisestasite summa sularahakonto väljale <strong>Deebet</strong>.</li>
+<li><strong>Kassa väljaminekuorder</strong> – seda väärtust kasutatakse, kui sisestasite summa sularahakonto väljale <strong>Kreedit</strong>.</li>
+<li><strong>Parandus</strong> – olete sisestanud sularahakonto väljale <strong>Deebet</strong> või <strong>Kreedit</strong> negatiivse summa.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Käibemaksugrupp</td>
-<td>Saate määrata käibemaksugrupi maksude toimimise arvutamiseks.</td>
+<td>Määrake käibemaksugrupp toimingu maksude arvutamiseks.</td>
 </tr>
 <tr class="even">
 <td>Kauba käibemaksugrupp</td>
-<td>Määrake kauba käibemaksu Grupi tegevuse maksude arvutamiseks.</td>
+<td>Määrake kauba käibemaksugrupp toimingu maksude arvutamiseks.</td>
 </tr>
 <tr class="odd">
 <td>Põhjus</td>
-<td>Kohta ning <strong>tellimuse raha</strong> sakk, sisestage tekst, mis kirjeldab kande suhtes. See tekst trükitakse kassa väljaminekuorder aruandluse vormi.</td>
+<td>Sisestage vahekaardil <strong>Kassaorder</strong> kande teemat kirjeldav tekst. See tekst prinditakse kassaorderi aruandlusvormile.</td>
 </tr>
 <tr class="even">
 <td>Dokumendi kuupäev</td>
-<td>Sisestage kirjeldus, number ja kuupäev on kande (nt ettemakse aruanded, arve või tellimuse) põhjus esmase dokumendi.</td>
+<td>Sisestage kande põhjuseks oleva põhidokumendi (nt ettemaksuaruanded, arve või tellimus) kirjeldus, number ja kuupäev.</td>
 </tr>
 <tr class="odd">
 <td>Esindaja tüüp</td>
-<td>Sellel väljal saavad olla järgmised väärtused:
+<td>See väli võib sisaldada üht järgmistest väärtustest.
 <ul>
-<li><strong>Töötaja</strong> – teenuse <strong>esindaja</strong> otsing sisaldab töötajate nimekirja, kui selle <strong>vastaskonto</strong> on välja <strong>pearaamatu</strong> või <strong>panga</strong>, või loetelu ning vastaspoole kontaktisikud, kui on <strong>vastaskonto</strong> on välja <strong>kliendi</strong> või <strong>hankija</strong>. Seadistatud esindajad, minge <strong>põhilised</strong>&gt;<strong>Setup</strong>&gt;<strong>kontaktid</strong>&gt;<strong>kontaktisik</strong>.</li>
-<li><strong>Muud</strong> – teenuse <strong>esindaja</strong> otsing sisaldab teiste klientide loetelu. Vastuvõtjad, kes ei ilmu seadistamiseks on <strong>hotelli</strong> või <strong>müüjad</strong> tabelis, minge <strong>PR</strong>&gt;<strong>vastuvõtjad</strong>. Selline on saadaval ainult Lätis. (Ka <strong>CSELatvia</strong> peaks olema lubatud.)</li>
-<li><strong>Hankija</strong> – teenuse <strong>esindaja</strong> otsing sisaldab tarnijate loend. Hankijate seadistamiseks avage <strong>arved</strong>&gt;<strong>müüjad</strong>.</li>
-<li><strong>Kliendi</strong> – teenuse <strong>esindaja</strong> otsing sisaldab klientide loetelu. Hotelli seadistamiseks avage <strong>laekumata arved</strong>&gt;<strong>hotelli</strong>.</li>
+<li><strong>Töötaja</strong> – otsing <strong>Esindaja</strong> sisaldab töötajate loendit, kui väljal <strong>Vastaskonto</strong> on valitud <strong>Pearaamat</strong> või <strong>Pank</strong>, või vastaspoole kontaktisikute loendit, kui väljal <strong>Vastaskonto</strong> on valitud <strong>Klient</strong> või <strong>Hankija</strong>. Esindajate seadistamiseks avage <strong>Põhiline</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Kontaktid</strong> &gt; <strong>Kontaktisik</strong>.</li>
+<li><strong>Muu</strong> – otsing <strong>Esindaja</strong> sisaldab muude klientide loendit. Saajate, keda tabelis <strong>Kliendid</strong> või <strong>Hankijad</strong> ei kuvata, seadistamiseks avage <strong>Pearaamat</strong> &gt; <strong>Saajad</strong>. See tüüp on saadaval ainult Läti puhul. (Konfiguratsioonivõti <strong>CSELatvia</strong> peab olema lubatud.)</li>
+<li><strong>Hankija</strong> – otsing <strong>Esindaja</strong> sisaldab hankijate loendit. Hankijate seadistamiseks avage <strong>Ostureskontro</strong> &gt; <strong>Hankijad</strong>.</li>
+<li><strong>Klient</strong> – otsing <strong>Esindaja</strong> sisaldab klientide loendit. Klientide seadistamiseks avage <strong>Müügireskontro</strong> &gt; <strong>Kliendid</strong>.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Esindaja</td>
-<td>Esinduslik määratud tüüpi on <strong>esindaja tüüp</strong> välja.</td>
+<td>Valige esindaja, kelle tüübi määrasite väljal <strong>Esindaja tüüp</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Inimese nimi</td>
-<td>See väli täidetakse automaatselt, vastavalt selle <strong>vastaskonto</strong> ja <strong>esindaja</strong> väljad. Raha saatelehtede trükkimine vorm kajastab seda teavet.</td>
+<td>See väli täidetakse automaatselt väljade <strong>Vastaskonto</strong> ja <strong>Esindaja</strong> põhjal. See teave kajastub kassaorderite prindivormil.</td>
 </tr>
 <tr class="even">
 <td>ID-kaart</td>
-<td>See väli täidetakse automaatselt, kontaktisiku (esindaja) isikutunnistuse andmete alusel. Kui on <strong>vastaskonto tüüp</strong> on välja <strong>Avansisaajate</strong>, ja <strong>vastaskonto</strong> väärtuseks on töötaja numbri, raha laekumine või kulu saab teha alates või töötajale. Sel juhul on <strong>ID-kaardi</strong> väli täidetakse automaatselt, kasutades andmeid: isikutunnistuse ning <strong>töötaja</strong> tabeli (<strong>personali raamatupidamise</strong>&gt;<strong>töötajate tabelis</strong>).</td>
+<td>See väli täidetakse automaatselt kontaktisiku (esindaja) ID-kaardi andmete põhjal. Kui väljal <strong>Vastaskonto tüüp</strong> on valitud <strong>Avansisaaja</strong> ja väli <strong>Vastaskonto</strong> on määratud töövõtja koodile, saab kassaordereid või kulusid teha töövõtjalt või töövõtjale. Sellisel juhul täidetakse väli <strong>ID-kaart</strong> automaatselt, kasutades ID-kaardi andmeid tabelist <strong>Töövõtja</strong> (<strong>Personaliarvestus</strong> &gt; <strong>Töövõtjate tabel</strong>).</td>
 </tr>
 <tr class="odd">
 <td>Eesmärk</td>
-<td>Aastal ning <strong>eesmärki</strong> tabel, määratleda ühe või mitme sihtkoha koodid tehingu summa. Valige sihtkoha kood on <strong>eesmärk</strong> ja sisestage selgitust selle <strong>tekst</strong> välja. Linnas on <strong>summa</strong> Sisestage summa kande valuutas. Selle <strong>%</strong> välja näitab, protsentuaalne suhe sihtkoha summa kogu tehingute hulgast.</td>
+<td>Tabelis <strong>Eesmärk</strong> saate määratleda kande summa ühe või mitu sihtkoodi. Valige sihtkood väljal <strong>Eesmärk</strong> ja sisestage selgitus väljale <strong>Kande tekst</strong>. Sisestage väljale <strong>Summa</strong> summa kandevaluutas. Väljal <strong>Protsent</strong> kuvatakse sihtsumma ja kande kogusumma suhe protsentides.</td>
 </tr>
 <tr class="even">
 <td>Jääk</td>
-<td>Ülejäänud summa arvutatakse. Pange tähele, et kogu tehingu summa tuleb määrata sihtkoha koodid.</td>
+<td>Arvutatud järelejäänud summa. Pange tähele, et kande kogusumma tuleb määrata sihtkoodidele.</td>
 </tr>
 <tr class="odd">
 <td>Ametiisikud</td>
-<td>Kohta ning <strong>ametnike</strong> vahekaardil, määrake eest vastutavate isikute nimed ja pealkirjad: direktor, juhtiv raamatupidaja ja kassapidaja. Selle <strong>seisukoht</strong> väärtused määratakse ametnike seadistus on <strong>üldise</strong> ja <strong>pearaamatu</strong> saki on <strong>ametnike</strong> lehe (<strong>põhilised</strong>&gt;<strong>Setup</strong>&gt;<strong>kontaktid</strong>&gt;<strong>ametnike</strong>).</td>
+<td>Vahekaardil <strong>Ametiisikud</strong> saate määrata vastutavate isikute (direktor, pearaamatupidaja ja kassiir) nimed ja ametinimetused. Välja <strong>Ametikoht</strong> väärtused määratletakse ametiisikute seadistusega lehe <strong>Ametiisikud</strong> vahekaartidel <strong>Üldine</strong> ja <strong>Pearaamat</strong> (<strong>Põhiline</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Kontaktid</strong> &gt; <strong>Ametiisikud</strong>).</td>
 </tr>
 <tr class="even">
 <td>Ettemaks</td>
-<td>Märkige see ruut, kui kanne on Ettemaks.</td>
+<td>Märkige see ruut, kui kanne on ettemakse.</td>
 </tr>
 <tr class="odd">
 <td>Sisestusreeglid</td>
-<td>Sisestage sisestusreegliga sularahaarve. Vaikimisi kasutatakse selle raha ja panga Parameetrid määratud sisestusreeglid.</td>
+<td>Saate sisestada sularahakonto sisestusreeglid. Vaikimisi kasutatakse sularaha- ja pangahalduse parameetrites määratud sisestusreegleid.</td>
 </tr>
 <tr class="even">
 <td>Vastaskontoga sisestamise reeglid</td>
-<td>Saate sisestada valitud vastaskontoks sisestusreeglid.</td>
+<td>Saate sisestada valitud vastaskonto sisestusreeglid.</td>
 </tr>
 <tr class="odd">
 <td>Kogusumma</td>
-<td>Aastal ning <strong>kogusumma</strong> jaotises lehekülje allosas on <strong>Reimb</strong> väljal kuvatakse kogusumma, mis on arvutatud kõik raha tagasimaksmise libiseb, mis on kantud töölehele, ja <strong>Disb</strong> väljal kuvatakse kogusumma kõik Kassa Väljaminekuorderid.</td>
+<td>Lehe alaosas asuvas väljagrupis <strong>Kogusumma</strong> oleval väljal <strong>Korv.</strong> kuvatakse kogusumma, mis arvutatakse kõigi praegusele töölehele sisestatud kassa korvamisorderite kohta, ning väljal <strong>Väljam.</strong> kuvatakse kõigi kassa väljaminekuorderite kogusumma.</td>
 </tr>
 </tbody>
 </table>
 
-Päevikukannete Updatehagi paani, klõpsake nuppu **Valideeri**.
+Töölehekannete vaatamiseks klõpsake toimingupaanil nuppu **Kinnita**.
 
-## <a name="daily-cash-operations-via-a-general-journal"></a>Peažurnaali kaudu raha igapäevatöös
-Raha kandega peažurnaali loomiseks minge **PR**&gt;**päevikukannete**&gt;**Peažurnaalide**, ja looge uus. Kohta ning tegevus paanil klõpsake **read**. Lisada uus rida ja sisestage järgmine teave.
+## <a name="daily-cash-operations-via-a-general-journal"></a>Igapäevased sularahatoimingud päevaraamatu töölehe kaudu
+Sularahakannete loomiseks pearaamatu töölehe kaudu avage **Pearaamat** &gt; **Töölehe sisestused** &gt; **Päevaraamatud** ja looge uus tööleht. Klõpsake toimingupaanil valikut **Read**. Lisage uus rida ja sisestage järgmine teave.
 
 <table>
 <colgroup>
@@ -380,50 +383,50 @@ Raha kandega peažurnaali loomiseks minge **PR**&gt;**päevikukannete**&gt;**Pea
 </tr>
 <tr class="even">
 <td>Konto tüüp</td>
-<td>Valige <strong>väikesed summad</strong>.</td>
+<td>Valige <strong>Väikesed summad</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Konto</td>
-<td>Valige Kassa konto number.</td>
+<td>Valige sularahakonto number.</td>
 </tr>
 <tr class="even">
 <td>Kande tekst</td>
-<td>Saate sisestada kande selgitav tekst.</td>
+<td>Sisestage kande jaoks selgitav tekst.</td>
 </tr>
 <tr class="odd">
-<td>Deebet kreedit</td>
-<td>Sisestage dokumendi rahasumma ühte neist väljadest:
+<td>Deebet, kreedit</td>
+<td>Sisestage kassadokumendi summa ühele järgmistest väljadest.
 <ul>
-<li><strong>Deebet</strong> – selle välja abil saate registreerida sularaha kviitungid ja Kassa korvamisorderi.</li>
-<li><strong>Krediidi</strong> – selle välja abil saate registreerida raha kulutuste ja kassa väljaminekuorderi.</li>
+<li><strong>Deebet</strong> – kasutage seda välja kassa sissetuleku- ja väljaminekuorderite registreerimiseks.</li>
+<li><strong>Kreedit</strong> – kasutage seda välja kassa kulu- ja väljaminekuorderite registreerimiseks.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Vastaskonto tüüp vastaskonto</td>
-<td>Saate valida vastaskonto tüübi ja vastaskonto kontonumbri.</td>
+<td>Vastaskonto tüüp, vastaskonto</td>
+<td>Valige vastaskonto tüüp ja vastaskonto number.</td>
 </tr>
 <tr class="odd">
 <td>Valuuta</td>
-<td>Valige kande valuuta tähist.</td>
+<td>Valige kande valuutakood.</td>
 </tr>
 </tbody>
 </table>
 
-Kohta ning **arve** jaotises saate määrata sisestusreeglid valitud konto ja vastaskonto. Kui registreeritud kanne on ettemaks, valige selle **ettemaks** ruut selle **makse** vahekaart. Aastal ning **esindaja** valdkonnas rühma, täitke väljad nagu sa Slip tööleheridade printimiseks on **raha** aruande. Päevikukannete Updatehagi paani, klõpsake nuppu **Valideeri**.
+Vahekaardil **Arve** saate määrata valitud konto ja vastaskonto sisestusreeglid. Kui registreeritud kanne on ettemakse, märkige vahekaardil **Makse** ruut **Ettemakse**. Täitke väljagrupis **Esindaja** väljad, nagu saatelehe töölehtede puhul, et printida välja **Sularahaaruanne**. Töölehekannete vaatamiseks klõpsake toimingupaanil nuppu **Kinnita**.
 
-## <a name="cash-transaction-approval-and-posting"></a>Sularaha tehingu kinnitamine ja sisestamine
-Sularahatehingu, saab kasutada alljärgnevat staatust: **ükski**, **kinnitatud**, **kinnitatud**, ja **hüljatud**. A **Kasuta kinnitatud olekut** parameeter on **heakskiidu** FastTab ja selle **raha** tab kell **raha haldamise**&gt;**Setup**&gt;**raha ja pangakontod parameetrid** saate aktiveerida kaks täiendavat olekut: **kinnitatud** ja **hüljatud**. Kinnitus on asjakohane, kui väljastatakse sularaha ja raha laekumine või kulud jagavad kaks töötajat: raamatupidaja ja kassapidaja. Selle **oleku lähtestamise** funktsioon muudab praegune olek. **Tunnustatud** saab **kinnitatud**, ja **kinnitatud** saab **pole**. Raha päevikukannete saab redigeerida ainult siis, kui olek on **pole**. Sularahatehingud saab lükata ainult siis, kui olek on **kinnitatud**. Dokumendid on kantud raha tagasi selle **raha dokumentide registreerimise tööleht** aruande, kuid nad ei ole kajastatud ning **Kassa** aruande. Tehingu kinnitamiseks valige vastava saatelehe töölehe rea, ja klõpsake **dokumendid heakskiitmise**&gt;**kinnitus**. Tellimuse number luuakse vastavalt määratud numbriseeria. Kannete olek muudetakse **kinnitatud**, ja te saate enam töölehe rea. Konto saldo jääb samaks. Raha dokumendi keeldumiseks klõpsake **dokumendid heakskiitmise**&gt;**tagasi**. See suvand on saadaval ainult dokumendid, mis on **kinnitatud** staatus. Tehingu kinnitamiseks valige vastava saatelehe töölehe rea, ja klõpsake **dokumendid heakskiitmise**&gt;**kinnitamine**. Selle **kinnitatud** olek näitab, et rahalised vahendid, mis on saadud või tühjaks saamas. Selle saldo muutmisel. Sularaha tehingu konteerimist. Tühistada on **kinnitatud** olek ja et oleku lähtestamise **puudub**, klõpsake **dokumendid heakskiitmise**&gt;**oleku lähtestamise**. Ainult kinnitatud kanded sisestatakse raha. Žurnaali konteerimiseks klõpsake nuppu **Post**&gt;**Post**.
+## <a name="cash-transaction-approval-and-posting"></a>Sularahakande kinnitamine ja sisestamine
+Sularahakannete puhul saab rakendada järgmisi olekuid: **Pole**, **Kinnitatud**, **Heaks kiidetud**, **Tagasi lükatud**. Parameeter **Kasuta kinnituse olekut** vahekaardi **Sularaha** kiirkaardil **Kinnitamine** (**Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**) võimaldab aktiveerida kaks lisaolekut: **Kinnitatud** ja **Tagasi lükatud**. Kinnitus on asjakohane, kui kassadokumendid on väljastatud ning kaks töövõtjat – raamatupidaja ja kassiir – kasutavad ühiselt kassaordereid või kulusid. Funktsioon **Lähtesta olek** muudab kande praegust olekut. Olek **Heaks kiidetud** muutub olekuks **Kinnitatud** ja olek **Kinnitatud** muutub olekuks **Pole**. Sularahatöölehe sisestusi saab redigeerida ainult siis, kui olek on **Pole**. Sularahakandeid saab tagasi lükata ainult siis, kui kande olek on **Kinnitatud**. Tagasi lüktatud kassadokumendid kaasatakse aruandesse **Kassadokumentide registreerimise tööleht**, kuid need ei kajastu aruandes **Kassaraamat**. Kande kinnitamiseks valige vastav saatelehe töölehe rida ja klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Kinnita**. Luuakse tellimuse number, võttes aluseks määratud numbriseeria. Kande olekuks muutub **Kinnitatud** ja töölehe rida ei saa enam redigeerida. Sularahakonto saldo jääb muutumatuks. Kassadokumendi tagasilükkamiseks klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Lükka tagasi**. See suvand on saadaval ainult dokumentide puhul, mille olek on **Kinnitatud**. Kande heakskiitmiseks valige vastav saatelehe töölehe rida ja klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Kiida heaks**. Olek **Heaks kiidetud** näitab, et sularaha on vastu võetud või kulutatud. Kassasaldo on muutunud. Sularahakannet saab sisestada. Oleku **Heaks kiidetud** tühistamiseks ja ennistamiseks väärtusele **Pole** klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Lähtesta olek**. Sisestada saab ainult heakskiidetud sularahakandeid. Töölehe sisestamiseks klõpsake valikuid **Sisesta** &gt; **Sisesta**.
 
-## <a name="print-a-cash-order"></a>Prindi kassa järjekorras
-Sularaha tellimuse printimiseks valige Slip žurnaalirealt ja Updatehagi paani, klõpsake **printida**&gt;**Kassaorderi aruanne**. Kassa korvamisorderi või Kassa väljaminekuorderi, sõltuvalt sellest, kas summa on kantud trükkimise vorm loob süsteem selle **deebet** välja ning või **krediidi** välja valitud rea:
+## <a name="print-a-cash-order"></a>Kassaorderi printimine
+Kassaorderi printimiseks valige saatelehe töölehe rida ja seejärel klõpsake toimingupaanil valikuid **Prindi** &gt; **Kassaorderi aruanne**. Süsteem loob prindivormi kas kassa korvamisorderi või kassa väljaminekuorderi kohta olenevalt sellest, kas summa on sisestatud valitud real väljale **Deebet** või **Kreedit**.
 
--   Kui on vastav summa on **deebet** välja: raha korvamisorderi
--   Kui on vastav summa on **krediidi** välja: raha väljaminekuorderi
+-   Kui summa on väljal **Deebet**: kassa korvamisorder
+-   Kui summa on väljal **Kreedit**: kassa väljaminekuorder
 
-Saatelehe töölehe read, mis on **kinnitatud**, **kinnitatud**, või **hüljatud** olek saate printida. Saate printida Kassa järjekorras dokumentide **raha ja pangakontod juhtimise**&gt;**Inquires ja aruanded**&gt;**sularaha tellimuse**.
+Printida saab saatelehe töölehe ridu, mille olek on **Kinnitatud**, **Heaks kiidetud** või **Tagasi lükatud**. Samuti saate printida kassaorderi dokumente jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Kassaorder**.
 
 ## <a name="periodic-tasks"></a>Perioodilised ülesanded
-Järgmisi ülesandeid saab täita kell **raha ja pangakontod juhtimise**&gt;**perioodilisi toiminguid**.
+Jaotises **Sularaha- ja pangahaldus** &gt; **Perioodilised ülesanded** saab teha järgmist.
 
 <table>
 <colgroup>
@@ -439,39 +442,41 @@ Järgmisi ülesandeid saab täita kell **raha ja pangakontod juhtimise**&gt;**pe
 <tbody>
 <tr class="odd">
 <td>Kontrolli saldolimiiti</td>
-<td>Kontrollige valitud Kassa konto saldo määratud kuupäeval ja teate tulemuste kuvamine. Saldo arvutamisel võib arvestada ainult kinnitatud kanded. Märgitud on <strong>palgaarvestuse</strong> ei peeta.</td>
+<td>Saate kontrollida valitud sularahakonto saldot määratud kuupäeval ja kuvada tulemuse teabesõnumis. Saldoarvutusse saab kaasata ainult heakskiidetud kandeid. Kandeid märkega <strong>Palgaarvestuseks</strong> arvesse ei võeta.</td>
 </tr>
 <tr class="even">
 <td>Kassasaldo ümberarvutamine</td>
-<td>Kasutage selle tööülesande pearaamatusaldod Sularahakontode puhul sobivad kassajäägi.</td>
+<td>Selle ülesandega saate kontrollida, kas sularahakontode pearaamatusaldod vastavad sularahasaldole.</td>
 </tr>
 <tr class="odd">
-<td>Sularaha (ainult Poola) aruande loomine</td>
-<td>Loomine on <strong>raha</strong> aruande. Selle <strong>raha</strong> aruande number luuakse numbriseeria jaoks seadistatud vastavalt <strong>aruande number</strong>. Dialoogis kasti ülesande, mis on <strong>seni</strong>, määrata viimase kuupäeva, mis raha tehingud tuleks arvestada selle <strong>raha</strong> aruande. Kasutamine ning <strong>Filter</strong> funktsiooni ning <strong>kaasamiseks</strong> vahekaarti, et määrata täiendavad kriteeriumid, et piirata sularaha tehingute valikul. Need kriteeriumid võivad sisaldada raha numbrite ja valuutatähiste. Aastal ning <strong>loomiseks</strong> number, kasutaja, kes vastutab aruande loomine. Kuvamiseks on <strong>raha</strong> aruande, mis on loodud kasutamiseks on <strong>sularaha aruannete</strong> nupuga selle <strong>raha kontode</strong> lehekülg.</td>
+<td>Sularahaaruande loomine (ainult Poola puhul).</td>
+<td>Looge aruanne <strong>Sularaha</strong>. Aruande <strong>Sularaha</strong> number luuakse suvandi <strong>Aruande number</strong> jaoks seadistatud numbriseeria põhjal. Määrake ülesande dialoogiboksis väljal <strong>Tähtaeg</strong> viimane kuupäev, mille sularahakandeid tuleb aruandes <strong>Sularaha</strong> arvesse võtta. Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> lisakriteeriumid sularahakannete valiku piiramiseks. Need kriteeriumid võivad sisaldada sularahakontode numbreid ja valuutakoode. Valige väljal <strong>Looja</strong> aruande koostamise eest vastutav kasutaja. Loodud aruande <strong>Sularaha</strong> vaatamiseks kasutage lehel <strong>Sularahakontod</strong> olevat nuppu <strong>Sularahaaruanded</strong>.</td>
 </tr>
 <tr class="even">
-<td>Raha - Exchange korrigeerimine FIFO ja LIFO (ainult Poola) puhul</td>
-<td>Arvutada valuutakursi korrigeerimise Poola standardite kohta. Kasutamine ning <strong>Filter</strong> funktsiooni ning <strong>kaasamiseks</strong> vahekaarti, et määrata raha konto käivitada ülesanne. Valige selle <strong>ümberarvutamine</strong> ruut Valuutakursi erinevuse korrigeerimise täielik ümberarvutus kõigi avatud perioodide teha. Siin on valuutakursi korrigeerimise arvutamine kui esmalt FIFO, esimene ja Viimane, esimene LIFO meetodid on kasutatud:
+<td>Kassa – valuutakursi korrigeerimine, FIFO ja LIFO (ainult Poola puhul)</td>
+<td>Arvutage valuutakursi korrigeerimine Poola standardite alusel. Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> sularahakonto, mille kohta ülesanne kävitada. Märkige ruut <strong>Ümberarvutus</strong> valuutakursi korrigeerimise erinevuse ümberarvutamiseks kõigi avatud perioodide puhul. Kaubavarude hinna määramise FIFO-meetodi (esimesena sisse, esimesena välja) ja kaubavarude hinna määramise LIFO-meetodi (viimasena sisse, esimesena välja) kasutamisel arvutatakse valuutakursi korrigeerimine järgmiselt.
 <ul>
-<li><strong>FIFO meetod</strong> – kulude kanne, mis on varasema kande kuupäev (väiksem järjekorranumber) elama sissetulekukanne, mis on varasema kande kuupäev (väiksem järjekorranumber) otsib süsteem.</li>
-<li><strong>LIFO meetod</strong> – otsib süsteem kulude kanne, mis on tehingu hiljem (suurema järjekorranumber) elama sissetulekukanne, mis on tehingu hiljem (suurema tellimuse number).</li>
+<li><strong>FIFO-meetod</strong>– süsteem otsib varasema kandekuupäevaga (väiksema tellimuse numbriga) kulukannet ja tasakaalustab selle varasema kandekuupäevaga (väiksema tellimuse numbriga) sissetulekukandega.</li>
+<li><strong>LIFO-meetod</strong>– süsteem otsib hilisema kandekuupäevaga (suurema tellimuse numbriga) kulukannet ja tasakaalustab selle hilisema kandekuupäevaga (suurema tellimuse numbriga) sissetulekukandega.</li>
 </ul>
-Tasakaalustatud summa kajastub on <strong>tasakaalustatud valuuta</strong> kohta välja selle <strong>raha tehingu</strong> lehel. Kui valuutakursi korrigeerimise vahe, summa kajastub selle <strong>vahetuskursi korrigeerimise summa</strong> välja ja tehingu on <strong>valuutakursi erinevusi</strong> dokumendi tüüp on loodud ning <strong>sularaha tehingu</strong> tabel. Kasumi/kahjumi kannete pearaamatukontodele määratakse selle <strong>valuuta</strong> tabelis (<strong>valuutakursi finantskasum</strong> ja <strong>valuutakursi finantskahjum</strong>).</td>
+Tasakaalustatud summa kajastub lehe <strong>Sularahakanne</strong> väljal <strong>Tasakaalustatud valuuta</strong>. Valuutakursi korrigeerimise erinevuse korral kajastub summa väljal <strong>Valuutakursi korrigeerimise summa</strong> ja tabelis <strong>Sularahakanne</strong> luuakse kanne dokumenditüübita <strong>Valuutakursi erinevus</strong>. Kasumi/kahjumi kannete pearaamatukontod määratakse tabelis <strong>Valuuta</strong> (<strong>Valuutakursi finantskasum</strong> ja <strong>Valuutakursi finantskahjum</strong>).</td>
 </tr>
 <tr class="odd">
 <td>Välisvaluuta ümberarvutamine – kassa</td>
-<td>Selle ülesande abil on piisav saldo vaikevaluutas soetamisel kui toimingud on sisestatud välisvaluutas. Kasutamine ning <strong>Filter</strong> funktsiooni ning <strong>kaasamiseks</strong> vahekaarti, et määrata raha konto käivitada ülesanne. Ülesande dialoogiboksi kasutada selle <strong>olevast</strong> ja <strong>et valuuta</strong> välja, et määrata kande valuuta. Süsteem võrdleb summa valuutas, mis muudeti vahetuskursi abil valitud kuupäeval summa vaikevaluutas. (Välja arvatud eelmise valuutakursi korrigeerimise) kahe summa vahe on arvutatud valuutakursi korrigeerimine. Selleks loob heakskiidetud sularahatehinguid ning selle <strong>valuutakursi korrigeerimisel</strong> tüüp. Pearaamatusse koostatakse pearaamatu kontoga raha ja määratud pearaamatukonto <strong>realiseerimata kasum</strong> või <strong>realiseerimata kahjum</strong> ja selle <strong>valuuta</strong> tabel.</td>
+<td>Saate selle ülesande abil tagada aruandluskuupäeval piisava saldo vaikevaluutas, kui toimingud on sisestatud välisvaluutades. Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> sularahakonto, mille kohta ülesanne kävitada. Määrake ülesande dialoogiboksis väljade <strong>Lähtevaluuta</strong> ja <strong>Sihtvaluuta</strong> abil kande valuutad. Süsteem võrdleb valitud kuupäeva valuutakursi abil teisendatud valuuta summat vaikevaluuta summaga. Kahe summa vaheline erinevus (v.a eelmine valuutakursi korrigeerimine) on arvutatud valuutakursi korrigeerimine. See ülesanne loob heakskiidetud sularahakande tüübiga <strong>Valuutakursi korrigeerimine</strong>. Pearaamatu kanne koostamisel kasutatakse sularaha pearaamatukontot ja tabelis <strong>Valuuta</strong> väljal <strong>Realiseerimata kasum</strong> või <strong>Realiseerimata kahjum</strong> määratud pearaamatukontot.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="inquiries-and-reports"></a>Päringud ja aruanded
-| Päring või aruanne                             | Kirjeldus                                                                                                                                                                                                                     |
+| Päringud või aruandlus                             | Kirjeldus                                                                                                                                                                                                                     |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sularahatehingud Vaata                        | Saatelehe töölehe rea, kasutada selle **päringute** nuppu Updatehagi paani saate pearaamatukandeid, sularahasaldo ja muud teavet.                                                                                  |
-| Sularahakanne                              | Mine **raha ja pangakontod juhtimise**&gt;**päringute ja aruannete**&gt;**sularaha tehingud** raha kannete kuvamiseks. Kasutamine ning **Filter** funktsioon määrata täiendavad kriteeriumid, et piirata sularaha tehingute valikul. |
-| (Eesti, Venemaa) puhul registreerimise tööleht | Raporti **raha ja pangakontod juhtimise**&gt;**päringute ja aruannete**&gt;**registreerimise tööleht** peegeldab Kassa ja kassa Väljaminekuorderid, mis on välja antud.                                   |
-| Kassaraamatu (puhul Läti, Leedu, Venemaa)     | Raporti **raha ja pangakontod juhtimise**&gt;**päringute ja aruannete**&gt;**raha Broneeri aruanne** kajastab tegelikku raha fondi liikumiste (tulusid ja kulusid).                                                            |
+| Sularahakannete kuvamine                        | Saatelehe töölehe rea puhul kasutage pearaamatu kannete, sularahasaldo ja muu teabe kuvamiseks toimingupaani nuppu **Päringud**.                                                                                  |
+| Sularahakanne                              | Sularahakannete kuvamiseks avage **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Sularahakanded**. Määrake funktsiooniga **Filtreeri** lisakriteeriumid sularahakannete valiku piiramiseks. |
+| Registreerimise tööleht (Eesti ja Venemaa puhul) | Aruanne jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Registreerimise tööleht** kajastab kõiki väljastatud kassa korvamis- ja väljaminekuordereid.                                   |
+| Kassaraamat (Läti, Leedu ja Venemaa puhul)     | Aruanne jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Kassaraamatu aruanne** kajastab tegelikke sularahaliikumisi (sissetulekud ja kulud).                                                            |
+
+
 
 
 

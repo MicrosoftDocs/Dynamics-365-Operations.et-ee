@@ -1,6 +1,6 @@
 ---
-title: "Tootmise ülevaade"
-description: "See artikkel annab ülevaate tootmine. Selles kirjeldatakse tootmistellimuste, partii tellimuste ja kanbans, alates tellimuse loomine suletud perioodi erinevates etappides."
+title: "Tootmisprotsessi ülevaade"
+description: "See artikkel annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,20 +27,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-process-overview"></a>Tootmise ülevaade
+# <a name="production-process-overview"></a>Tootmisprotsessi ülevaade
 
-See artikkel annab ülevaate tootmine. Selles kirjeldatakse tootmistellimuste, partii tellimuste ja kanbans, alates tellimuse loomine suletud perioodi erinevates etappides. 
+[!include[banner](../includes/banner.md)]
+
+
+See artikkel annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni. 
 
 Toodete tootmine, protsess, mida nimetatakse ka tootmise töötsükliks, järgib kindlaid etappe, mis on nõutavad kauba tootmiseks. Töötsükkel algab tootmistellimuse, partiitellimuse või kanbani loomisega. See lõpeb lõpetatud kaubaga, mis on valmis kas kliendi või tootmise teise faasi jaoks. Igal töötsükli sammul vajatakse protsessi lõpule viimiseks erinevat laadi teavet. Iga etapi lõpulejõudmisel kuvatakse tootmistellimuses, partii tellimuses või kanbanis tootmise oleku muudatus. Erinevat tüüpi tooted nõuavad erinevaid tootmisprotsesse.  
 
-Selle **tootmisohje** moodul on seotud teiste moodulitega, näiteks **toote teabekorraldus**, **varud**, **PR**, **Laohaldus**, **projekti raamatupidamine**, ja **organisatsiooni haldamine**. Selline integreeritus toetab teabevoogu, mida on vaja valmis kauba tootmiseks.  
+Moodul **Tootmise juhtimine** on seotud teiste moodulitega, nagu **Tooteteabe haldus**, **Varude haldus**, **Pearaamat**, **Laohaldus**, **Projekti raamatupidamine** ja **Organisatsiooni administreerimine**. Selline integreeritus toetab teabevoogu, mida on vaja valmis kauba tootmiseks.  
 
-Tavaliselt mõjutavad tootmisprotsessi kindla tootmisprotsessi jaoks valitud kuluarvestuse ja varude hindamise meetodid. Dynamics 365 toiminguteks toetab nii tegelikke (esimene, esimene välja \[FIFO\]; viimati sisse, esimesena välja \[LIFO\]; libisev keskmine; ja perioodiline kaalutud keskmine) ja standardne kulu meetodid. Lean manufacturingit rakendatakse omahinna tagasiarvestuse põhimõtte alusel.  
+Tavaliselt mõjutavad tootmisprotsessi kindla tootmisprotsessi jaoks valitud kuluarvestuse ja varude hindamise meetodid. Microsoft Dynamics 365 for Operations toetab nii tegeliku kulu (esimesena sisse, esimesena välja \[FIFO\], viimasena sisse, esimesena välja \[LIFO\], liikuv keskmine ja perioodiline kaalutud keskmine) kui ka standardkulu meetodit. Lean manufacturingit rakendatakse omahinna tagasiarvestuse põhimõtte alusel.  
 
 Kulumõõtmismeetodite valik määratleb ka tootmisprotsessi materjalide ja ressursside tarbimise aruandluse nõuded. Tavaliselt nõuavad tegeliku kulu meetodid täpset aruandlust töö tasemel, samas kui perioodilise kuluarvestuse meetodid võimaldavad esitada materjalide ja ressursside tarbimise kohta üldisema aruande.
 
 ## <a name="mixed-mode-manufacturing"></a>Tootmise segarežiim
-Erinevad toodete ja tootmise topoloogiad nõuavad erinevate tellimustüüpide rakendamist. Dynamics 365 toiminguteks taotleda selleks erinevaid mixed mode. Teisisõnu võib kogu tootmisprotsessi käigus kuni valmistooteni esineda kõiki tellimusetüüpe.
+Erinevad toodete ja tootmise topoloogiad nõuavad erinevate tellimustüüpide rakendamist. Dynamics 365 for Operations saab rakendada erinevaid tellimusetüüpe segarežiimis. Teisisõnu võib kogu tootmisprotsessi käigus kuni valmistooteni esineda kõiki tellimusetüüpe.
 
 -   **Tootmistellimus** – see on klassikaline tellimus kindla toote või tootevariandi antud koguse tootmiseks kindlal kuupäeval. Tootmistellimused põhinevate kooslustel ja protsessidel.
 -   **Partii tellimus** – seda tüüpi tellimust kasutatakse protsessi harude ja diskreetsete protsesside puhul, kus tootmise teisendus põhineb valemil või kus kaastooted ja kõrvalsaadused võivad olla lõpptooted kas põhitootele lisaks või selle asemel. Partii tellimused kasutavad **valemi** tüüpi kooslusi ja protsesse.
@@ -59,14 +62,14 @@ Kindlale tootele ja seotud turule kõige paremini sobiva tootmispõhimõtte vali
 Tootmistsükli järgmised etapid võivad esineda kõigi tellimusetüüpide või segarežiimis tootmise korral. Siiski ei esitata neist kõiki sõnaselge tellimuse olekuna.
 
 1.  **Loodud** – saate luua tootmistellimus, partiitellimuse või kanbani käsitsi või konfigureerida süsteemi neid looma erinevate nõudlusmärguannete põhjal. Koondplaneerimine loob tootmistellimused, partiitellimused või kanbanid, kinnitades planeeritud tellimused. Ülejäänud nõudlusmärguanded on müügitellimused või kinnistatud tarnemärguanded muudest tootmistellimustest või kanbanidest. Fikseeritud kogusega kanbanide puhul luuakse nõudlusmärguanded, kui kanbanid registreeritakse tühjana.
-2.  **Eeldatav** – saate arvutada eeldatava materjali- ja ressursitarbimise. Hinnang loob varude kanded toormaterjalide kohta, mille olek on **Tellimusel**. Peamised tooted-, kaas- ja kõrvalsaaduste maksekviitungid on luua kui tootmistellimused või partii tellimuste hinnatakse. Kui kooslus sisaldab ridu on **seotud pakkumise** tüüp, ostutellimuste materjalide või alltöövõtulepingu käitamine on loodud ja seotud tootmistellimuse või portsjoni. Kaubad või tellimused reserveeritakse tootmistellimuse reserveerimisstrateegia järgi ja valmistoodete hind arvutatakse parameetrisätete põhjal.
+2.  **Eeldatav** – saate arvutada eeldatava materjali- ja ressursitarbimise. Hinnang loob varude kanded toormaterjalide kohta, mille olek on **Tellimusel**. Kui tootmistellimused või partiitellimused on hinnatud, luuakse põhitoodete, kaastoodete ja kõrvalsaaduste kohta sissetulekud. Kui kooslus sisaldab ridu, mille tüüp on **Kinnistatud tarne**, luuakse materjalide või alltöövõtu operatsiooniteenuste jaoks ostutellimused ja seotakse tootmistellimuse või partiitellimusega. Kaubad või tellimused reserveeritakse tootmistellimuse reserveerimisstrateegia järgi ja valmistoodete hind arvutatakse parameetrisätete põhjal.
 3.  **Planeeritud** – saate tootmist planeerida operatsioonide, üksikute tööde või mõlema põhjal.
     -   **Operatsioonide planeerimine** – see planeerimismeetod võimaldab üldist pikaajalist planeerimist. Selle meetodiga saate määrata tootmistellimuste käivitamise ja lõpetamise kuupäevad. Kui tootmistellimused on kinnitatud protsessi operatsioonidele, saate need määrata kulukeskuste gruppidesse.
     -   **Töö planeerimine** – see planeerimismeetod võimaldab detailset planeerimist. Iga operatsioon jagatakse üksikuteks töödeks, millel on kindlad kuupäevad, kellaajad ja määratud operatsiooniressursid. Kui piiratud võimsus on ära kasutatud, määratakse tööd operatsiooniressurssidele saadavuse alusel. Plaani saate vaadata ja muuta Gantti diagrammis.
     -   **Kanban-graafik** – kanban-tööd planeeritakse kanban-graafiku tahvlil või kanban-reeglite automaatse planeerimise konfiguratsiooni alusel automaatselt.
 
 4.  **Väljastatud** – saate väljastada tootmistellimuse või partiitellimuse, kui graafiku lõpeb ja materjal on komplekteerimiseks või ettevalmistamiseks saadaval. Materjali kättesaadavuse kontroll võimaldab tööde järelevaatajal hinnata materjali saadavust tootmistellimuste või partiitellimuste jaoks. Samuti saate printida tootmistellimuse dokumente, nagu komplekteerimislehed, protsessikaart ja protsessitöö. Kui tootmistellimus on vabastatud, muutub tellimuse olek ning näitab see näitab, et tootmine võib alata. Laohalduse kasutamisel väljastatakse tootmistellimuse või partiitellimuse väljastamisel tootmise koosluseread laohaldusse. Seejärel luuakse lao seadistuse järgi laovood ja laotöö.
-5.  **Valmis**/**komplekteeritud** – kui kõik materjalid ja ressursid on etendunud tootmise asukoht Tootmiskomplekti ridade või kanban read uuendatakse olekuks **komplekteeritud**. Kinnistatud tarnetellimused ja seotud laotöö viiakse lõpule tavaliselt selles etapis. Tootmise edenemise aruandluseks nõutavad kanban-kaardid või töökaardid tuleb määrata ja printida.
+5.  **Ettevalmistatud**/**komplekteeritud** – kui kõik materjalid ja ressursid on koondatud tootmise asukohta, värskendatakse tootmise koosluseridade või kanban-ridade olek sättele **Komplekteeritud**. Kinnistatud tarnetellimused ja seotud laotöö viiakse lõpule tavaliselt selles etapis. Tootmise edenemise aruandluseks nõutavad kanban-kaardid või töökaardid tuleb määrata ja printida.
 6.  **Alustatud** – kui tootmistellimus, partiitellimus või kanban on käivitatud, saate esitada materjali- ja ressursitarbimise tellimuse kohta. Süsteemi saab konfigureerida sisestama automaatselt materjali- ja ressursitarbimise, mis eraldatakse tellimusele selle käivitamisel. Seda eraldamist nimetatakse eeljagamiseks, ettejagamiseks või automaatseks tarbimiseks. Saate materjale käsitsi tootmistellimustele või partiitellimustele eraldada, luues täiendavad komplekteerimislehe töölehed. Samuti saate tööjõu- ja muud protsessikulud tellimusele käsitsi eraldada. Kui kasutate operatsioonide planeerimist, saate kulude eraldamiseks luua protsessikaardi töölehe. Kui kasutate töö planeerimist, saate kulude eraldamiseks luua töökaardi töölehe. Tootmistellimused või partiitellimused saab käivitada partiidena nõutavas lõplikus koguses. Tootmistellimuse, partiitellimuse või kanbani raames saab loodud tööd käivitada ja neist aru anda eraldi töölehtede, tootmise käivitusterminali (MES-terminal) või kanban-tahvlite kaudu.
 7.  Tööde edenemisest/**lõpetamisest** teatamine – kasutage töö või ressursiga tootmise edenemisest teatamiseks MES-etrminali, tootmistöölehti, kanban-tahvleid või mobiilse skannimise võimalusi. Materjali- ja ressursitarbimine sisestatakse ning seotud kanbanide, tootmistellimuste ja partiitellimuste olek võidakse värskendada sättele **Vastu võetud** või **Lõpetatuna teatatud**. Olenevalt lao konfiguratsioonist võidakse luua lao paigutamistöö.
 8.  **Lõpetatuna kinnitatud** (toote sissetulek) – kui tootmistellimus või partiitellimus on lõpetatuna kinnitatud, värskendatakse lõpetatud valmiskaupade kogust varudes. See kogus sisaldab asjakohaste kaastoodete ja kõrvalsaaduste kogust. Kui kasutate poolelioleva töö (WIP) raamatupidamist, luuakse pearaamatu tööleht, et vähendada WIP-kontosid ja suurendada valmiskaupade varusid. Tootmistellimuse kulu arvutamisel sisestatakse tootmise tegelik kulu. Kui tootmisega seotud materjali- ja töökulud ei ole juba töölehe või eeljagamisega eraldatud, saab neid nüüd automaatselt tagantjärele eraldada. Tagantjärele eraldamine hõlmab laokandeprotsesside järel-mahaarvamist. Kui tootmistellimus on lõpule viidud, märkige ruut **Lõpeta töö**, et määrata ülejäänu olekuks **Lõpetatud**. Vastasel juhul jätke väli tühjaks, et võimaldada toodetavate lisakoguste kohta aruandeid luua.
@@ -79,10 +82,12 @@ Tootmistsükli järgmised etapid võivad esineda kõigi tellimusetüüpide või 
 <a name="see-also"></a>Vt ka
 --------
 
-[Production feedback](production-feedback.md)
+[Tootmise tagasiside](production-feedback.md)
 
-[Product configuration models](../pim/product-configuration-models.md)
+[Toote konfiguratsioonimudelid](../pim/product-configuration-models.md)
 
 [Lean manufacturing](lean-manufacturing-overview.md)
+
+
 
 

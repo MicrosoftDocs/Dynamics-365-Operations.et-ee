@@ -1,6 +1,6 @@
 ---
 title: "Küsimustiku laialisaatmine ja täitmine"
-description: "See teema selgitab, kuidas levivad küsimustikud, kujundada, nii, et nad on isik või grupp inimesi, kes täidab neid."
+description: "See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Küsimustiku laialisaatmine ja täitmine
 
-See teema selgitab, kuidas levivad küsimustikud, kujundada, nii, et nad on isik või grupp inimesi, kes täidab neid. 
+See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. 
 
 Küsimustiku laialisaatmiseks on mitu võimalust.
 
@@ -38,7 +38,7 @@ Küsimustiku laialisaatmiseks on mitu võimalust.
 -   Saate luua graafiku. Küsimustik võib siis olla saadaval mitmele inimesele.
 
 ## <a name="marking-a-questionnaire-as-active"></a>Küsimustiku aktiivseks märkimine
-Seadmisega ning **aktiivne** välja **Jah** kohta on **küsimustikud** leht, teete küsimustik saadaval kõigi töötajate lõpuleviimiseks. Vastanutest saab küsimustikku mitu korda. See funktsioon on kasulik, kui soovite koguda kogu aasta vältel pidevat tagasisidet. Näiteks võite koostada küsimustiku, mille kaudu töötajad saavad anda kohviku lõunateenuse kohta tagasisidet.
+Määrates lehel **Küsimustikud** välja **Aktiivne** sätteks **Jah**, teete küsimustiku kõigile töövõtjatele täitmiseks kättesaadavaks. Vastajad võivad täita küsimustikku mitu korda. See funktsioon on abiks, kui soovite koguda terve aasta jooksul pidevat tagasisidet. Näiteks võite koostada küsimustiku, mille kaudu töötajad saavad anda kohviku lõunateenuse kohta tagasisidet.
 
 ## <a name="questionnaire-groups"></a>Küsimustikugrupid
 Saate seadistada küsimustikugrupid ja lisada sinna siis vastavad, kellele küsimustik tuleks saata. 
@@ -48,7 +48,7 @@ Saate luua küsimustikugruppe järgmistelt lehtedelt.
 -   **Küsimustikugrupid **– valitud küsimustikku saavad täita ainult küsimustikugrupis olevad inimesed. Näiteks on teie sihtrühm töövõtjad, seega koostate neile vastajatele mõeldud küsimustikugrupi.
 -   **Küsimustikugrupi liikmed** – saate lisada küsimustikugruppidesse inimesi.
 
-Et määrata küsimustiku grupi küsimustikule, on **küsimustikud** klõpsake valikul **kasutajaõiguste**. Pärast seda, kui küsimustik on salvestatud aktiivseks, küsimustiku rühma liikmed saab täita küsimustiku. See funktsioon on kasulik, kui soovite testida küsimustik on grupile enne seda vδlja suuremasse rühma või kui soovite küsimustiku väga kindlale sihtrühmale suunatud.
+Küsimustikule küsimustikugrupi määramiseks klõpsake lehel **Küsimustikud** valikut **Kasutajaõigused**. Pärast küsimustiku aktiivsena salvestamist saavad küsimustikugrupi liikmed küsimustiku täita. See funktsioon on abiks, kui soovite testida küsimustikku valitud inimeste grupil, enne kui edastate selle suuremale grupile, või kui soovite suunata küsimustiku väga konkreetsele sihtrühmale.
 
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Plaanitud vastamisseansid küsimustiku kohta
 Plaanitud vastamisseansid on küsimustikud, mille olete kavandanud ja millele vastajad valinud. 
@@ -82,24 +82,24 @@ Küsimustiku graafiku plaanimise tüüpe saab määrata lehel **Küsimustikugraa
 
 Võite kasutada viitetüüpe vastajate kriteeriumide sisestamiseks, mida saab küsimustiku plaanimisel valida. 
 
-Kasutage lehte **Viitetüübid** küsimustiku viitetüüpide seadistamiseks. Iga viitetüübi vastab tabeli Microsoft Dynamics 365 toiminguteks. Küsimustikugraafikute loomisel saate määrata eraldi tabelikirjeid või kirjete vahemikku, millega küsimustik seostatakse. 
+Kasutage lehte **Viitetüübid** küsimustiku viitetüüpide seadistamiseks. Iga viitetüüp vastab Microsoft Dynamics 365 for Operationsi tabelile. Küsimustikugraafikute loomisel saate määrata eraldi tabelikirjeid või kirjete vahemikku, millega küsimustik seostatakse. 
 
 Näiteks kui valite tabeli Kursused, saate määrata, millise konkreetse kursuse jaoks küsimustik on mõeldud. Kui seadistate viite kursuse tabelile, muutuvad mõned väljad ja nupud väljal **Kursused** kättesaadavaks.
 
 ### <a name="questionnaire-schedules"></a>Küsimustiku graafikud
 
-Saate luua viitetüübi põhinev kasutajate rühma mitu planeeritud vastamisseansside küsimustiku sõiduplaanid. Luua ajakava ning **küsimustiku sõiduplaanide** lehel. Valige planeerimistüübi kategoriseerida ajakava ja valida võib kasutada päringu süsteemi spetsiifilistele viitetüübi. Näiteks kui seate kursused tabeli viitetüüpi, valige konkreetse kursuse ning **viide** välja. 
+Võite kasutada küsimustikugraafikuid mitme plaanitud vastusesessiooni loomiseks kasutajagrupile viitetüübi põhjal. Looge graafik lehel **Küsimustikugraafikud**. Valige graafiku kategoriseerimiseks plaanimise tüüp ja valige ka viitetüüp, mida tuleb konkreetsete kasutajate puhul süsteemi päringute edastamisel kasutada. Näiteks kui määrate viitetüübiks kursuse tabeli, saate valida konkreetse kursuse väljal **Viide**. 
 
-Klõpsake valikut **Seadistuse üksikasjad** küsimustiku ja muude kriteeriumide valimiseks. Näiteks määrata juhendaja nimega kriteeriumina, kui küsimustik on juhendaja hinnangut. Kui olete lõpetanud setup andmete sisestamine, loob süsteem planeeritud vastamisseansside kasutajatele, kes on kaasatud päring. 
+Klõpsake valikut **Seadistuse üksikasjad** küsimustiku ja muude kriteeriumide valimiseks. Näiteks saate määrata kriteeriumiks juhendaja nime, kui küsimustik on juhendaja hindamiseks. Pärast seadistuse üksikasjade sisestamist loob süsteem päringusse lisatud vastajatele plaanitud vastusesessioonid. 
 
 Klõpsake valikut **Plaanitud vastusesessioonid** graafiku vastusesessioonide vaatamiseks. Seejärel saate luua käsitsi täiendavaid plaanitud vastamisseansse või vastusteta plaanitud vastuseseansse kustutada. 
 
-Klõpsake **funktsioonid**&gt;**alustada** võimaldamiseks küsimustik kasutajatele seotud planeeritud vastamisseansse. Klõpsake valikut **Vastused** küsimustiku täidetud vastuste vaatamiseks. Soovi korral saate kopeerida küsimustiku graafiku sätteid, plaanitud vastamisseansse ja vastuseid uue küsimustiku graafikusse.
+Klõpsake valikuid **Funktsioonid** &gt; **Käivita**, et teha küsimustik seotud plaanitud vastuseseanssides kasutajatele kättesaadavaks. Klõpsake valikut **Vastused** küsimustiku täidetud vastuste vaatamiseks. Soovi korral saate kopeerida küsimustiku graafiku sätteid, plaanitud vastamisseansse ja vastuseid uue küsimustiku graafikusse.
 
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Vastajate teavitamine neile saadaolevatest küsimustikest
 Kui küsimustiku laiali saadate, peate vastajatele teatama, et küsimustikud on neile kättesaadavad. 
 
-**Märkus:** vastanutest peavad olema kasutajatele Microsoft Dynamics 365 operatsioonide küsimustiku täitmist.
+**Märkus.** Küsimustiku täitmiseks peavad vastajad olema Microsoft Dynamics 365 for Operationsi kasutajad.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Vastajate teavitamine plaanitud vastamissessioonist
 
@@ -107,7 +107,7 @@ Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefon
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Vastajate teavitamine plaanimisest
 
-Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**. Pärast ajakava, klõpsake **funktsioonid**&gt;**saata e-posti** luua ja saata e-posti vastanutest. Vastanutest saate siis veebisaidile sisse logida ja küsimustikku. 
+Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**. Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
 
 **Märkus.** Enne, kui saate meilifunktsiooni kasutada, peab teie IT-administraator sisestama meilisätted lehele **Meiliparameetrid**.
 
@@ -119,7 +119,7 @@ Plaanitud küsimustiku saate lõpetada pärast seda, kui kõik vastajad on neile
 ## <a name="completing-questionnaires"></a>Küsimustike täitmine
 Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad selle täita. Saate täita küsimustikud, mis on saadaval kahes kohas:
 
--   Navigeerimispaanil klõpsake **küsimustikud**&gt;**hajuta**&gt;**küsimustiku täitmist,**.
+-   Klõpsake navigeerimispaanil valikuid **Küsimustikud** &gt; **Laialisaatmine** &gt; **Küsimustiku täitmine**.
 -   Klõpsake töötaja iseteeninduses valikut **Täidetavad küsimustikud**.
 
 Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagruppidele või kõigile kasutajatele võrgus.
@@ -131,6 +131,6 @@ Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagru
 
 [Küsimustike kasutamine](questionnaires.md)
 
-[Küsimustike tulemuste vaatamiseks ja](evaluate-questionnaire-results.md)
+[Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
 
 

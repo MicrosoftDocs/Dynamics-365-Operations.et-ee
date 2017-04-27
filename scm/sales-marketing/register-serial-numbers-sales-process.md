@@ -1,5 +1,5 @@
 ---
-title: "Registreerida seerianumbrid müügiprotsessi"
+title: "Seerianumbrite registreerimine müügiprotsessis"
 description: "See artikkel selgitab, kui registreerida müügiprotsessi ajal seerianumbreid saatelehtedel või arvetel. See funktsioon on abiks, kui ettevõte soovib hõivata seerianumbreid teenindus‑ ja garantiieesmärkidel, kuid ei pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Registreerida seerianumbrid müügiprotsessi
+# <a name="register-serial-numbers-in-the-sales-process"></a>Seerianumbrite registreerimine müügiprotsessis
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel selgitab, kui registreerida müügiprotsessi ajal seerianumbreid saatelehtedel või arvetel. See funktsioon on abiks, kui ettevõte soovib hõivata seerianumbreid teenindus‑ ja garantiieesmärkidel, kuid ei pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma.
 
@@ -65,7 +68,7 @@ Jah, saate käivitada päringu saatelehe töölehe rea või arve töölehe rea k
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Kas saan vaadata laos olevaid järjestatud kaupu?
 Ei, te ei saa laos olevaid järjestatud kaupu vaadata, kuna seerianumbrid registreeritakse kaupadele alles siis, kui need on müüdud.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Registreeruda seerianumbrid catchweight kaupade?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Kas saan registreerida tegeliku kaaluga kaupade seerianumbrid?
 Ei, müügiprotsessi ajal ei saa te tegeliku kaaluga kaupade seerianumbreid registreerida. Peale selle ei saa määrata toodet, mis on seadistatud tegeliku kaaluga kaubana, ainult müügiprotsessi ajal seerianumbreid kasutavasse jälgimisdimensiooni gruppi.
 Kas saan seerianumbreid jaemüügikohas registreerida?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Jah, jaemüügimüügikohas (POS) palutakse kasutajal seerianumber sisestada, ku
 See funktsioon on saadaval kõigile rollidele, kes saavad hallata müügi saatelehti ja arveid. Järgmised ülesanded lasevad töötajatel seerianumbreid parandada ja loetamatuid või skannimatuid seerianumbreid tühjade kirjetena registreerida.
 -   Seerianumbrite paranduse haldamine
 -   Loetamatute seerianumbrite registreerimise haldamine
+
+
 
 
 

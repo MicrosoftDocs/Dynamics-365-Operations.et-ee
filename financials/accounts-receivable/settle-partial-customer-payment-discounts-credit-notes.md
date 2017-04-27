@@ -1,5 +1,5 @@
 ---
-title: Lahendada osalise kliendi makse, mis on allahindlused kreeditarvetel
+title: Kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine
 description: See artikkel tutvustab stsenaariumi, kus kreeditarvelt arvestatakse skontot, samas kui algsel arvel oli samuti skonto.
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Lahendada osalise kliendi makse, mis on allahindlused kreeditarvetel
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel tutvustab stsenaariumi, kus kreeditarvelt arvestatakse skontot, samas kui algsel arvel oli samuti skonto. 
 
-Fabrikam võimaldab klientidel kasutada osalistel maksetel ja ka kreeditarvetel skontosid. Skontot saab arvestada kreeditarvel, kui see on väljastatud arve kohta, mille puhul kasutas klient skontot. Täissummas krediidi pakkumisel saate krediteerida kliendi saldo summas, mis jätab välja kliendi kasutatud skonto protsendi. Lahendamise parameetrid asuvad ka **Müügireskontro parameetrid** lehel.
+Fabrikam võimaldab klientidel kasutada osalistel maksetel ja ka kreeditarvetel skontosid. Skontot saab arvestada kreeditarvel, kui see on väljastatud arve kohta, mille puhul kasutas klient skontot. Täissummas krediidi pakkumisel saate krediteerida kliendi saldo summas, mis jätab välja kliendi kasutatud skonto protsendi. Tasakaalustamise parameetrid asuvad lehel **Müügireskontro parameetrid**.
 
 ## <a name="invoice-and-credit-note"></a>Arve ja kreeditarve
 Kliendil 4035 on arve summale 1000,00 ja kreeditarve summale 100,00. Igal dokumendil on 1% allahindlust, kui see tasutakse 14 päeva jooksul. Arnie saab vaadata seda teavet lehel **Kliendi kanded**.
@@ -59,5 +62,7 @@ Teave märgitud arve allahindluse kohta kuvatakse lehe **Kannete tasakaalustamin
 | Skonto summa võtmiseks | –1,00     |
 
 Tasakaalustus on 100,00 ning sisaldab makset summas 99,00 ja allahindlust summas 1,00.
+
+
 
 

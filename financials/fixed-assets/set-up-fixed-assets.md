@@ -1,9 +1,9 @@
 ---
-title: "Põhivarad"
+title: "Põhivarade seadistamine"
 description: "Selles teemas antakse ülevaade põhivarade mooduli seadistusest."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-fixed-assets"></a>Põhivarad
+# <a name="set-up-fixed-assets"></a>Põhivarade seadistamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles teemas antakse ülevaade põhivarade mooduli seadistusest.
 
@@ -43,9 +46,9 @@ Põhivarad määratakse loomisel gruppi. Vaikimisi määratakse põhivaragrupile
 Esmalt peaksite seadistama kulumireeglid. Kulumireeglites saate konfigureerida, kuidas vara väärtus aja jooksul amortiseerub. Peate määratlema kulumimeetodi, kulumiaasta (kalendriaasta või rahandusaasta) ja kulumi sageduse.
 
 ## <a name="books"></a>Raamatud
-Pärast kulumireeglite seadistamist peate looma oma varade jaoks nõutavad raamatud. Iga raamat jälgib vara sõltumatut rahalist elutsüklit. Raamatud saab konfigureerida sisestama seostatud kandeid pearaamatusse. See konfiguratsioon on vaikesäte, sest see on tavaliselt kasutatakse ettevõtete finantsaruandluseks. Raamatuid, et ära Postita pearaamatusse konteerida ainult põhivara subledger ja kasutatakse tavaliselt maksuaruandluseks.
+Pärast kulumireeglite seadistamist peate looma oma varade jaoks nõutavad raamatud. Iga raamat jälgib vara sõltumatut rahalist elutsüklit. Raamatud saab konfigureerida sisestama seostatud kandeid pearaamatusse. See konfiguratsioon on vaikesäte, kuna seda kasutatakse tavaliselt ettevõtte finantsaruandluses. Raamatud, mis pearaamatusse ei sisesta, sisestavad ainult põhivara alammoodulisse ja neid kasutatakse tavaliselt maksuaruandluses.
 
-Igale raamatule määratakse esmane kulumireegel. Raamatutel on ka alternatiivsed või ülemineku kulumireeglid, kui seda tüüpi reeglid on kohaldatavad. Põhivara raamatu automaatseks kaasamiseks kulumi käitustesse peate lubama suvandi Arvuta kulum. Kui see suvand pole valitud vara, ignoreerib tarbimiskulumi soovituse vara.
+Igale raamatule määratakse esmane kulumireegel. Raamatutel on ka alternatiivsed või ülemineku kulumireeglid, kui seda tüüpi reeglid on kohaldatavad. Põhivara raamatu automaatseks kaasamiseks kulumi käitustesse peate lubama suvandi Arvuta kulum. Kui see suvand pole mõne vara puhul valitud, jätab kulumisoovitus vara vahele.
 
 Saate seadistada ka tuletatud raamatuid. Määratud tuletatud kanded sisestatakse tuletatud raamatute suhtes esmase kande täpse koopiana. Seetõttu seadistatakse tuletatud kanded tavaliselt soetuste ja likvideerimiste, mitte kulumikannete jaoks.
 
@@ -62,14 +65,16 @@ Saate ka määratleda kulumi erihüvitised või lisakulumi põhivaragrupi ja raa
 ## <a name="fixed-asset-parameters"></a>Põhivara parameetrid
 Viimane etapp on põhivara parameetrite värskendamine.
 
-Väli Kapitaliseerimislävi määratleb amortiseerunud varad. Kui osturea on valitud põhivara, kuid see ei vasta määratud kapitaliseerimise piirmäära, põhivara veel loomisel või värskendamisel, kuid Arvuta kulum suvand on seatud ei. Seetõttu vara ei automaatselt amortiseeritakse põhivara ettepanekute osana.
+Väli Kapitaliseerimislävi määratleb amortiseerunud varad. Kui põhivarana on valitud osturida, kuid see ei vasta määratud kapitaliseerimislävele, siis põhivara küll luuakse või värskendatakse, kuid suvandi Arvuta kulum sätteks on Ei. Seetõttu ei amortiseerita vara kulumisoovituste osana automaatselt.
 
 Üks oluline suvand on Kulumi korrigeerimissummade automaatne loomine likvideerimisel. Kui valite selle suvandi sätteks Jah, korrigeeritakse vara amortiseerumist automaatselt, võttes aluseks kulumisätted vara likvideerimise ajal. Teine valik võimaldab soetussummast maha arvata skontod, kui soetate põhivarasid hankija arvega.
 
-Kiirkaardil Ostutellimused saate konfigureerida, kuidas varasid ostuprotsessi osana luuakse. Esimene valik on Luba vara soetamine ostmiselt. Kui määrate selle suvandi sätteks Jah, toimub vara soetamine arve sisestamisel. Kui seadistate valiku väärtuseks ei, saab ikka panna põhivara ostutellimuse (Ot) ja arve, kuid omandamine ei postitata. Sisestamine tuleb teha eraldi etapina põhivara töölehelt. Toote sissetulek või arve sisestamiseks suvand Loo vara saate luua uue põhivara "lennult" konteerimisel, nii, et see ei ole soovitatav seadistada põhivara enne tehingut. Viimane võimalus Kontrolli põhivarade loomist rea sisestamisel rakendub ainult ostutaotlustele.
+Kiirkaardil Ostutellimused saate konfigureerida, kuidas varasid ostuprotsessi osana luuakse. Esimene valik on Luba vara soetamine ostmiselt. Kui määrate selle suvandi sätteks Jah, toimub vara soetamine arve sisestamisel. Kui määrate selle suvandi sätteks Ei, saate põhivara ikkagi ostutellimusse ja arvesse paigutada, kuid soetamist ei sisestata. Sisestamine tuleb teha eraldi etapina põhivara töölehelt. Suvand Loo vara toote sissetuleku või arve sisestamise ajal võimaldab luua uue vara lennult – nii ei pea see enne kannet olema põhivarana seadistatud. Viimane võimalus Kontrolli põhivarade loomist rea sisestamisel rakendub ainult ostutaotlustele.
 
 Saate konfigureerida põhjusekoode nii, et need on põhivara muudatuste või kindlate põhivarakannete puhul nõutavad.
 
 Viimasena saate vahekaardil Numbriseeriad määratleda põhivarade numbriseeriad. Põhivara numbriseeria saab tühistada põhivaragrupi numbriseeriaga, kui see on määratud.
+
+
 
 

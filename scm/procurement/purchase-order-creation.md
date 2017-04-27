@@ -33,7 +33,7 @@ Kui ostutellimuse loote, määratakse ostutellimuse päises kogu tellimuse üldi
 
 Saate koostada ostutellimusi ka teiselt ostutellimuse dokumendilt või müügitellimuselt ridu kopeerides. Sel juhul võite muuta varude märgi vastupidiseks, nagu muudaksite vastupidiseks arvel oleva märgi kreediti näitamiseks.  
 
-Kuigi ostutellimusi saab käsitsi luua, luuakse need tavaliselt teistest protsessidest. Tellimusi saab automaatselt luua muude dokumentide (nt taotluste) põhjal. Samuti on nad loomist koondplaneerimise plaanitud POs protsessi osana. Kui kasutate ostulepingud, POs saab luua ka **väljalaskeorderi** tegevus. Ostutellimuse automaatseks loomiseks on ka paremaid meetodeid. Näiteks saab tellimusi koostada, kui kasutate otsetarnet või kontsernisiseseid tellimusahelaid.
+Kuigi ostutellimusi saab käsitsi luua, luuakse need tavaliselt teistest protsessidest. Tellimusi saab automaatselt luua muude dokumentide (nt taotluste) põhjal. Teine võimalus on luua need koondplaneerimise protsessi käigus plaanitud ostutellimuste kaudu. Kui kasutate ostulepinguid, saab ostutellimused luua toiminguga **Väljalaskeorder**. Ostutellimuse automaatseks loomiseks on ka paremaid meetodeid. Näiteks saab tellimusi koostada, kui kasutate otsetarnet või kontsernisiseseid tellimusahelaid.
 
 ## <a name="creating-a-purchase-order-header"></a>Ostutellimuse päise loomine
 Kui loote uue ostutellimuse, kuvatakse dialoogiboks, kuhu saate sisestada ostutellimuse päise jaoks kõige üldisemat teavet. Kui klõpsate dialoogiboksi sulgemiseks valikut **OK**, luuakse tellimus ja saate siis päises lisateavet täpsustada.  
@@ -84,7 +84,7 @@ Ostutellimuse täitmist võib olla vaja edasi lükata. Näiteks võib olla toode
 <a name="see-also"></a>Vt ka
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Ostutellimuse ülevaade](purchase-order-overview.md)
 
 [Ostutellimuse heakskiitmine ja kinnitamine](purchase-order-approval-confirmation.md)
 

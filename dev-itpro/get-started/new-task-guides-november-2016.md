@@ -1,6 +1,6 @@
 ---
-title: "Uue või ajakohastatud ülesandeks juhendid (November 2016)"
-description: "Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid vabastamisele Microsoftile (November 2016 - kõikides keeltes) APQC ühendatud Raamatukogu Microsoft Dynamics 365 toiminguteks. Ühtegi uut teeki Alustamine ei antud välja."
+title: "Uued või värskendatud tegevusjuhised (november 2016)"
+description: "Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (november 2016 – kõike keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-november-2016"></a>Uue või ajakohastatud ülesandeks juhendid (November 2016)
+# <a name="new-or-updated-task-guides-november-2016"></a>Uued või värskendatud tegevusjuhised (november 2016)
 
-Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid vabastamisele Microsoftile (November 2016 - kõikides keeltes) APQC ühendatud Raamatukogu Microsoft Dynamics 365 toiminguteks. Ühtegi uut teeki Alustamine ei antud välja.
+[!include[banner](../includes/banner.md)]
 
-(November 2016 - kõikides keeltes) APQC ühendatud Raamatukogu sisaldab ülesandeks juhendid, mis on mõeldud kasutamiseks spikrisisu Microsoft Dynamics 365 toiminguteks, Microsoft Dynamics 365 operatsioonide platvormi värskendus 3, Microsoft Dynamics AX platvormi värskendus 2, Dynamics AX vabastamise mai 2016 värskendus ja Microsoft Dynamics AX veebruar 2016. Need plaadid kohta lisateabe saamiseks vaadake [mis on uued või muudetud](whats-new-changed.md). Selles teegis on lokaliseeritud versioonide ülesandeks juhendid. Ühenduse abi süsteem ülesande juhend Raamatukogu loomise kohta lisateabe saamiseks vt [abiga alustada](help-overview.md). **Märkus:** tärn (**\***) kõrval kuvatavat Business protsessi modeler (BPM) joon näitab, et äriprotsessi ülesande juhend loodud Dynamics 365 operatsioonide November 2016 update ja ei toeta varasemate versioonide Microsoft Dynamics AX.
+
+Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (november 2016 – kõike keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
+
+(November 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics 365 for Operationsi, Microsoft Dynamics 365 for Operationsi platvormi värskenduse 3, Microsoft Dynamics AX-i platvormi värskenduse 2, Dynamics AX-i 2016. a. mai värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljalaske spikrina. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md). **Märkus:** tärn (**\***) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. a. novembri värskenduse jaoks ja seda ei toetata Microsoft Dynamics 365 for Operationsi varasemates versioonides.
 
 ### <a name="accounts-payable"></a>Ostureskontro
 
 | BPM-rida                                                                                           | Riik/regioon |
 |----------------------------------------------------------------------------------------------------|----------------|
-| AP süsteemi kasutades kinnitamise töölehe võtme arve andmed                                               | Üldine         |
-| Peamised arve andmed AP kasutava hankija arve (Enter ja post hankijaarve sobivate) | Üldine         |
+| Arve põhiandmed AP-süsteemis, kasutades kinnitamise töölehte                                               | Üldine         |
+| Arve põhiandmed AP-süsteemis, kasutades hankija arvet (hankija arve sisestamine koos vastavusse viimisega) | Üldine         |
 | Arve põhiandmed AP-süsteemi, kasutades arve töölehte                                              | Üldine         |
 | Arve põhiandmed AP-süsteemi, kasutades arvekausta                                                 | Üldine         |
-| Salvestada hankija arve saamisest ja mängu vastu tarnitud kogus                           | Üldine         |
+| Hankija arve sissetulekute salvestamine ja sissetulnud kogusega sobitamine                           | Üldine         |
 | Ostureskontro arvete võrdlemise kontrollimise seadistamine                                                | Üldine         |
 | Hankija arvepoliitikate seadistamine                                                                    | Üldine         |
 
@@ -49,7 +52,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | BPM-rida                                                                           | Riik/regioon |
 |------------------------------------------------------------------------------------|----------------|
 | Korduva vabas vormis arve malli määramine kliendile                        | Üldine         |
-| Intressi ja luua ja printida ja sisestada viivisearvete (protsessi huvi) | Üldine         |
+| Intressi arvutamine ning viivisearvete koostamine, printimine ja sisestamine (intressi töötlemine) | Üldine         |
 | Märgukirjaseeria loomine                                                | Üldine         |
 | Kliendi jaoks uue otsedeebeti loa loomine                                       | Üldine         |
 | Vabas vormis arve loomine                                                         | Üldine         |
@@ -59,7 +62,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Müügitellimuse arvete loomine                                                        | Üldine         |
 | Korduvate vabas vormis arvete loomine ja sisestamine                                     | Üldine         |
 | Märgukirjade töötlemine                                                         | Üldine         |
-| Läbi kogu teabe                                                      | Üldine         |
+| Sissenõuete teabe ülevaatamine                                                      | Üldine         |
 | Müügireskontro ajalise jaotuse teabe seadistamine ja loomine                          | Üldine         |
 
 ### 
@@ -77,7 +80,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 
 | BPM-rida                    | Riik/regioon |
 |-----------------------------|----------------|
-| Eelarve kava paigutuse muutmine | Üldine         |
+| Eelarveplaani paigutuse muutmine | Üldine         |
 
 ### 
 
@@ -137,45 +140,45 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 
 | BPM-rida                                                                                                                             | Riik/regioon                    |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| BAS aruande lisaväljad ja luua Austraalia ettevõtete tegevuse aruanne (BAS)                                                    | Austraalia ja Uus-Meremaa         |
+| BAS-aruande väljade lisamine ja Austraalia äritegevuse aruande (BAS) loomine                                                    | Austraalia ja Uus-Meremaa         |
 | Põhjuse koodide seadistamine Austraalia BAS-i puhul                                                                                                | Austraalia ja Uus-Meremaa         |
-| **\***Chinese voucher continuity check                                                                                               | Hiina                             |
-| **\***Kontoplaani CN-00010 Hiina hierarhia                                                                                  | Hiina                             |
-| **\***CN-00016 Kasutajalogi operatsiooni Hiina töö reegliga                                                                              | Hiina                             |
-| **\***Golden tax integration export setup                                                                                            | Hiina                             |
-| **\***Post vouchers from other modules, like sales invoices                                                                          | Hiina                             |
-| **\***Post vouchers from the general journal                                                                                         | Hiina                             |
-| **\***Set up basic tax integration profile for China                                                                                 | Hiina                             |
-| **\***Set up Chinese vouchers                                                                                                        | Hiina                             |
+| **\***Hiina kande järjepidevuse kontrollimine                                                                                               | Hiina                             |
+| **\***CN-00010 Hiina kontoplaani hierarhia                                                                                  | Hiina                             |
+| **\***CN-00016 Kasutaja toimingulogi Hiina tööreegli järgi                                                                              | Hiina                             |
+| **\***Kuldse maksusüsteemi integreerimise ekspordi seadistus                                                                                            | Hiina                             |
+| **\***Teistest moodulitest (nt müügiarvetelt) kannete sisestamine                                                                          | Hiina                             |
+| **\***Päevaraamatu kannete sisestamine                                                                                         | Hiina                             |
+| **\***Hiina üldise maksuintegratsiooni reeglite seadistamine                                                                                 | Hiina                             |
+| **\***Hiina kannete häälestamine                                                                                                        | Hiina                             |
 | Kliendiarve loomine ja sisestamine avaliku sektori kliendi puhul                                                                      | Taani                           |
 | Vabas vormis arve loomine ja sisestamine avaliku sektori kliendi puhul                                                                     | Taani                           |
 | Projektiarve loomine ja sisestamine avaliku sektori kliendi puhul                                                                       | Taani                           |
-| DK-00007 FIK 752 pangaülekande rahaülekande saatelehe/Sisesta vabas vormis arve tasumise kviitung                                               | Taani                           |
-| DK-00007 FIK 752 pangaülekande rahaülekande kviitung/Post projekti arve tasumise kviitung                                                 | Taani                           |
+| DK-00007 FIK 752 maksekorraldus / vabas vormis arve sisestamine koos maksekviitungiga                                               | Taani                           |
+| DK-00007 FIK 752 maksekorraldus / vabas projektiarve sisestamine koos maksekviitungiga                                                 | Taani                           |
 | OIOUBL elektroonilise arveldamise konfiguratsioonide importimine                                                                                    | Taani                           |
 | Kliendi kontode seadistamine OIOUBL elektrooniliseks arveldamiseks                                                                             | Taani                           |
 | OIOUBL-i elektroonilise arveldamise seadistamine                                                                                                   | Taani                           |
 | Maksekviitungi vormingu seadistamine                                                                                                           | Taani                           |
-| **\***EEU-00047 Advance payment to employee                                                                                          | Ida-Euroopa                    |
+| **\***EEU-00047 Töötajale avansi maksmine                                                                                          | Ida-Euroopa                    |
 | Hankijamaksete loomine ja eksportimine ISO20022 maksevormingut kasutades                                                                      | Euroopa                            |
 | Maksete loomine kliendile, kellel on otsedeebeti load                                                                          | Euroopa                            |
-| **\***EE-00015 makse viide vahend                                                                                     | Euroopa                            |
+| **\***EE-00015 Makseviite loomise tööriist                                                                                     | Euroopa                            |
 | EUR-00002 ELi Intrastati deklaratsiooni loomine                                                                                       | Euroopa                            |
-| **\***EUR-00002 määrata ka vastava lasti käsitleda ühendusesisese tehingu puhul                                                          | Euroopa                            |
+| **\***EUR-00002 Laadimisaadressi määramine ühendusesisesele kandele                                                          | Euroopa                            |
 | EUR-00002 Kannete ülekandmine Intrastati                                                                                     | Euroopa                            |
 | EUR-00011 EL-i müügiloendi aruande koostamine                                                                                          | Euroopa                            |
 | EUR-00011 EL-i käibearuandluse seadistamine                                                                                             | Euroopa                            |
 | EUR-00012 EL-i kandesertifikaadi väljastamine                                                                                              | Euroopa                            |
 | EUR-00012 EL-i kandesertifikaadi vastuvõtmine                                                                                            | Euroopa                            |
-| **\***EUR-00015 Party search using VAT ID                                                                                            | Euroopa                            |
-| **\***EUR-00015 Registration of vendor VAT ID                                                                                        | Euroopa                            |
-| **\***EUR-00015 seadistada KMKR                                                                                                        | Euroopa                            |
-| **\***HU-00001 Exchange kulumäära kalkulatsiooni                                                                                             | Euroopa                            |
+| **\***EUR-00015 Osapoole otsing KM ID abil                                                                                            | Euroopa                            |
+| **\***EUR-00015 Hankija KM ID registreerimine                                                                                        | Euroopa                            |
+| **\***EUR-00015 KM ID seadistamine                                                                                                        | Euroopa                            |
+| **\***HU-00001 Vahetuskursi arvutamine                                                                                             | Euroopa                            |
 | ISO20022 kreeditiülekande konfiguratsiooni importimine                                                                                        | Euroopa                            |
 | ISO20022 otsekorralduse konfiguratsiooni importimine                                                                                           | Euroopa                            |
-| **\***LT-00003 ümberlaadimisdokumendi firma/Loo dokumendi üleandmise sisemine lao üleviimise sees kauba liikumise   | Euroopa                            |
-| **\***LT-00003 ümberlaadimisdokumendi sees firma moodustatavate teisaldage dokumendid kaupade liikumist ettevõtte sees kaupade liikumise | Euroopa                            |
-| **\***Põhineb makse ID nr-00002 kliendi makse                                                                                  | Euroopa                            |
+| **\***LT-00003 Kaupade liikumise ülekandedokument ettevõtte sees / varude sisemise üleviimise ülekandedokumendi koostamine   | Euroopa                            |
+| **\***LT-00003 Kaupade liikumise ülekandedokument ettevõtte sees / kaupade liikumise ülekandedokumendi seadistamine ettevõtte sees | Euroopa                            |
+| **\***NO-00002 Makse ID-l põhinev kliendimakse                                                                                  | Euroopa                            |
 | Ettevõtte pangakontode seadistamine ISO20022 kreediti ülekannete puhul                                                                           | Euroopa                            |
 | Ettevõtte pangakontode seadistamine ISO20022 otsekorralduste puhul                                                                              | Euroopa                            |
 | Klientide ja kliendi pangakontode seadistamine ISO20022 otsekorralduste puhul                                                               | Euroopa                            |
@@ -183,10 +186,10 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Makseviisi seadistamine ISO20022 otsekorralduse puhul                                                                                   | Euroopa                            |
 | Hankijate ja hankija pangakontode seadistamine ISO20022 kreediti ülekannete puhul                                                                | Euroopa                            |
 | Kliendi maksemeetodite loomine                                                                                                | Prantsusmaa                            |
-| FR-00002 kliendi ja hankija                                                                                                 | Prantsusmaa                            |
+| FR-00002 Kliendi ja hankija konto                                                                                                 | Prantsusmaa                            |
 | FR-00003 NAF-koodid ja Siret-numbrid                                                                                                 | Prantsusmaa                            |
 | FR-00004 Koostatud käskveksli kinnitamine ja sisestamine                                                                                      | Prantsusmaa                            |
-| FR-00004 Prantsuse veksleid ja võlakirju                                                                               | Prantsusmaa                            |
+| FR-00004 Prantsusmaa käskvekslid ja võlatähed                                                                               | Prantsusmaa                            |
 | FR-00004 Vaidlustuse koostatud käskveksli töölehe sisestamine                                                                                  | Prantsusmaa                            |
 | FR-00004 Uuesti koostatud käskveksli töölehe sisestamine                                                                                       | Prantsusmaa                            |
 | FR-00004 Makseviisi seadistamine                                                                                                     | Prantsusmaa                            |
@@ -200,7 +203,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Elektrooniline aruandlus Vormingu konfigureerimine loendamiseks ja liitmiseks (2. osa: arvutuste konfigureerimine)                                                      | Saksamaa                           |
 | Elektrooniline aruandlus Vormingu konfigureerimine loendamiseks ja liitmiseks (3. osa: arvutuste kasutamine väljundi koostamiseks)                                         | Saksamaa                           |
 | Elektrooniline aruandlus Vormingu konfigureerimine loendamiseks ja liitmiseks (4. osa: vormingu käivitamine)                                                                  | Saksamaa                           |
-| ER luua konfiguratsiooni pakkuja ning märkida aktiivseks                                                                             | Saksamaa                           |
+| ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks                                                                             | Saksamaa                           |
 | Elektrooniline aruandlus. Microsoft WORD-i vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)                                            | Saksamaa                           |
 | Elektrooniline aruandlus. Domeenispetsiifilise andmemudeli kujundamine (november 2016)                                                                                 | Saksamaa                           |
 | Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services                                                                                    | Saksamaa                           |
@@ -218,28 +221,28 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Elektrooniline aruandlus Horisontaalselt laiendatavate vahemike kasutamine veergude dünaamiliseks lisamiseks Exceli aruannetes (2. osa: vormingu käivitamine)                               | Saksamaa                           |
 | Saksa auditifaili loomine                                                                                                           | Saksamaa                           |
 | Saksa auditifaili konfiguratsiooni importimine                                                                                               | Saksamaa                           |
-| **\***EUR-00018 käibemaksu tasakaalustamise aruandes                                                                                            | Island                           |
-| IS-00006 hankija arve deklaratsiooni/Loo hankijakonto ja lisada kaubaarve deklaratsiooni                                       | Island                           |
-| IS-00006 hankija arve deklaratsiooni moodustatavate arvedeklaratsiooni hankijatele                                                        | Island                           |
-| IS-00006 tarnija deklaratsiooni või uuendada hankija arve arvedeklaratsioonide ja aruande                                       | Island                           |
-| Säilitada kontoplaani kontode moodustatavate kohustuslik maksmise                                                                       | Island                           |
+| **\***EUR-00018 Käibemaksu vastavusseviimise aruanne                                                                                            | Island                           |
+| IS-00006 Hankija arve deklaratsioon / hankija konto loomine ja arve deklaratsiooni kategooria manustamine                                       | Island                           |
+| IS-00006 Hankija arve deklaratsioon / hankija arve deklaratsiooni seadistamine                                                        | Island                           |
+| IS-00006 Hankija arve deklaratsioon / hankija arve deklaratsioonide värskendamine ja aruande loomine                                       | Island                           |
+| Kontoplaani haldamine / kohustuslike makseviidete seadistamine                                                                       | Island                           |
 | Põhivara soetamine vara käibelt kõrvaldamise kohustustega                                                                              | Jaapan                             |
-| Fikseeritud vara soetamiseks, nõuda sihtfinantseerimist                                                                                 | Jaapan                             |
+| Põhivarade soetamine, valitsuse sihtfinantseerimise nõue                                                                                 | Jaapan                             |
 | Vara käibelt kõrvaldamise kohustuse hinnangu korrigeerimine                                                                               | Jaapan                             |
-| Ühise hüve ja raha genereerivatele üksustele firmaväärtuse bilansiline jaotatakse                                                   | Jaapan                             |
+| Ühiste vahendite ja maineväärtuse bilansilise väärtuse eraldamine sularaha genereerivale üksusele                                                   | Jaapan                             |
 | Kulumimeetodi muutmine ühe vara elutsükli jooksul                                                                   | Jaapan                             |
 | Kulumimeetodi muutmine raamatu elutsükli jooksul                                                                        | Jaapan                             |
 | Kiirendatud kulumi parameetrite ja sisestusreeglite konfigureerimine                                                                   | Jaapan                             |
 | CN-00004 Põhivara kulumi eraldamine (JP-)                                                                                   | Jaapan                             |
-| Kulumireeglite ja kulumi sisestusreeglid                                                   | Jaapan                             |
-| Kulumireeglite ja eriline kulumi sisestusreeglid                                                      | Jaapan                             |
+| Täiendava kulumi reeglite ja sisestusreeglite konfigureerimine                                                   | Jaapan                             |
+| Erikulumi reeglite ja sisestusreeglite konfigureerimine                                                      | Jaapan                             |
 | Koondarve parameetrite ja ostureskontro seadistuse konfigureerimine                                                             | Jaapan                             |
 | Vara käibelt kõrvaldamise kohustuse sisestamise ja turu allahindlusmäärade jaoks põhikontode konfigureerimine                                            | Jaapan                             |
 | Lisakulumiga põhivara loomine                                                                                    | Jaapan                             |
 | Põhivara loomine spetsiaalse kulumireegliga                                                                               | Jaapan                             |
 | Kiirendatud kulumireeglite profiili loomine ja selle määramine raamatule                                                                        | Jaapan                             |
 | Kiirendatud kulumidokumendi loomine ja kasutusandmete sisestamine                                                                     | Jaapan                             |
-| Luua ja määrata seadmete grupi                                                                                                 | Jaapan                             |
+| Seadmegrupi loomine ja määramine                                                                                                 | Jaapan                             |
 | Vähendamiskande dokumendi loomine ja määramine                                                                                           | Jaapan                             |
 | Hankija koondarve loomine ja kinnitamine                                                                                     | Jaapan                             |
 | Tuvastamise testi loomine ja kinnitamine                                                                                                  | Jaapan                             |
@@ -259,14 +262,14 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Vara käibelt kõrvaldamise kohustusega seotud kannete päringud                                                                    | Jaapan                             |
 | Mahaarvatavade kulude päring                                                                                                       | Jaapan                             |
 | JP-00005 Töölehe sisestamine T-konto vormile (Jaapan)                                                                                     | Jaapan                             |
-| JP-00011 konsolideeritud arve - AR - luua ja kinnitada kliendile koondarve                                              | Jaapan                             |
-| JP-00027 vormi 26 amortiseeritava maksudeklaratsiooni                                                                                     | Jaapan                             |
+| JP-00011 Konsolideeritud arve - AR - kliendi koondarve loomine ja kinnitamine                                              | Jaapan                             |
+| JP-00027 Amortiseeritava maksu deklaratsiooni vorm 26                                                                                     | Jaapan                             |
 | Põhivara koondandmete failide haldamine mahaarvatavade kulude jaoks                                                                       | Jaapan                             |
 | Kahjustuse indikaatorite haldamine üksikute varade puhul                                                                                  | Jaapan                             |
 | Hankija kande tasumine kliendi käskveksli heaks kiitmisega                                                                    | Jaapan                             |
 | Üle- ja alakulumi perioodiline tasakaalustamine                                                                                   | Jaapan                             |
 | Lisakulumi soovitamine                                                                                                      | Jaapan                             |
-| Ettepanekud ja konteerida kiirendatud amortisatsiooni                                                                                        | Jaapan                             |
+| Kiirendatud kulumi ettepanek ja sisestamine                                                                                        | Jaapan                             |
 | Kahjustuse summa ettepanek ja sisestamine partii kaupa                                                                                      | Jaapan                             |
 | Kahjustuse summa ettepanek ja sisestamine põhivara töölehe abil                                                                  | Jaapan                             |
 | Kahjustuse summa ettepanek ja sisestamine raha genereerival üksusel                                                                     | Jaapan                             |
@@ -300,12 +303,12 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | MX‑00010 elektroonilise arve kohta päringu esitamine ja printimine                                                                                     | Mehhiko                            |
 | MX-00010 Vabas vormis arve sisestamine                                                                                                    | Mehhiko                            |
 | MX-00010 Elektroonilise arve parameetrite seadistamine                                                                                    | Mehhiko                            |
-| MX-00020: Toota Mehhiko elektroonilise pearaamatu raamatupidamise aruande versioon 1.1                                                            | Mehhiko                            |
+| MX-00020: Mehhiko elektroonilise pearaamatu arvestuse aruande versiooni 1.1 koostamine                                                            | Mehhiko                            |
 | MX-00020 Kontoplaani seadistamine Mehhiko juriidilisele isikule                                                                   | Mehhiko                            |
 | MX-00020 - RFC-registreerimise ID määramine Mehhiko pangakontodele                                                                 | Mehhiko                            |
 | NL-00003 Semansys XBRL-i integratsioon                                                                                                   | Holland                       |
 | NL-00010 Elektroonilised maksudeklaratsioonid (EVAT)                                                                                          | Holland                       |
-| MY-00003 haldamine kliendi võlateate ja kreeditarve GST                                                                          | Singapur, Malaisia ja Tai |
+| MY-00003 Kliendi deebetaviisi ja kreeditarve haldamine GST jaoks                                                                          | Singapur, Malaisia ja Tai |
 | MY-00004 Hankija deebetaviisi ja kreeditarve haldamine GST jaoks                                                                            | Singapur, Malaisia ja Tai |
 | MY-00005 GST maksuarvete printimine                                                                                                      | Singapur, Malaisia ja Tai |
 | MY-00006 01 GST soodustuse klauslite seadistamine                                                                                                | Singapur, Malaisia ja Tai |
@@ -340,7 +343,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Varagrupi muutmine                                        | Üldine         |
 | Kulumimääramise tava muutmine mitme põhivara puhul | Üldine         |
 | Põhivarade loomine                                      | Üldine         |
-| Luua ja omandada alates Ostureskontro           | Üldine         |
+| Varade loomine ja soetamine ostureskontrost           | Üldine         |
 | Kulumisoovituse koostamine                              | Üldine         |
 | Põhivara käibelt kõrvaldamine vabas vormis arvet kasutades        | Globaalne         |
 | Põhivarale lisandi sisestamine                        | Üldine         |
@@ -362,7 +365,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | BPM-rida                                       | Riik/regioon |
 |------------------------------------------------|----------------|
 | Finantsaasta sulgemine                          | Üldine         |
-| Malli kasutamine päevikukande loomine        | Üldine         |
+| Töölehe sisestuse loomine malli abil        | Üldine         |
 | Põhikonto loomine                          | Üldine         |
 | Kontostruktuuride loomine                      | Globaalne         |
 | Viitvõlaskeemide loomine                         | Üldine         |
@@ -371,7 +374,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Pearaamatu tekkepõhiste kannete loomine             | Üldine         |
 | Finantsdimensioonide määratlemine                    | Globaalne         |
 | Sisestatud töölehe kirjete töölehele paigutamine              | Üldine         |
-| Säilitada rahalise küljega Mallid         | Üldine         |
+| Finantsdimensiooni mallide haldamine         | Üldine         |
 | Hulgi finantsperioodi sulgemine                    | Üldine         |
 | Töölehe kirjete töötlemine                        | Üldine         |
 | Pearaamatu eraldamistöölehe töötlemine              | Üldine         |
@@ -387,9 +390,9 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 
 | BPM-rida                                                                       | Riik/regioon |
 |--------------------------------------------------------------------------------|----------------|
-| **\***Change the ownership of consignment inventory based on production demand | Üldine         |
-| **\***Create a consignment replenishment order                                 | Üldine         |
-| **\***Monitor consignment inventory using vendor collaboration                 | Üldine         |
+| **\***Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal | Üldine         |
+| **\***Veose täiendustellimuse loomine                                 | Üldine         |
+| **\***Veose varude jälgimine hankija koostöö abil                 | Üldine         |
 
 ### 
 
@@ -412,13 +415,13 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 
 ### 
 
-### <a name="performance-management"></a>Tulemuslikkuse juhtimine
+### <a name="performance-management"></a>Tulemuste haldus
 
 | BPM-rida                                                         | Riik/regioon |
 |------------------------------------------------------------------|----------------|
-| **\***Add to your performance journal and send praise to someone | Üldine         |
-| **\***Create a goal                                              | Üldine         |
-| **\***Create a performance review                                | Üldine         |
+| **\***Sinu jõudluse töölehele lisamine ja kellelegi tänu saatmine | Üldine         |
+| **\***Eesmärgi loomine                                              | Üldine         |
+| **\***Tulemuste ülevaate koostamine                                | Üldine         |
 
 ### 
 
@@ -442,9 +445,9 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Tootele pildi lisamine                                               | Üldine         |
 | Toote klassifitseerimine kategooriahierarhiate abil                           | Üldine         |
 | Tootele vöötkoodi loomine                                         | Üldine         |
-| \*Loo number tootenomenklatuuri eelmääratletud toote variantide kohta | Üldine         |
-| \*Luua toote number eriotstarbeline puhul konfigureeritud toote variandid | Üldine         |
-| \*Määratleda kauba tellimuse vaikesätted                            | Üldine         |
+| \* Tootenumbri nomenklatuuri loomine eelmääratletud tootevariantidele | Üldine         |
+| \* Kaubakoodi nomenklatuuri loomine konfigureeritud tootevariantidele | Üldine         |
+| \* Kauba tellimise vaikesätete määratlemine                            | Üldine         |
 | Müügitellimuse loomine konfigureeritava toote jaoks                         | Üldine         |
 | Müügihinna valikukriteeriumide loomine                                   | Üldine         |
 | Tootele GTIN-koodi sisestamine                                       | Üldine         |
@@ -468,11 +471,11 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | BPM-rida                                                                      | Riik/regioon |
 |-------------------------------------------------------------------------------|----------------|
 | Sertifikaadi tüübi lisamine hankijale avaliku sektori puhul                        | Üldine         |
-| Osta lepingud avaliku sektori juurdepääsu kontroll                      | Üldine         |
+| Avaliku sektori ostulepingutele juurdepääsu juhtimine                      | Üldine         |
 | Arveldusklassifikatsiooni loomine                                               | Üldine         |
 | Arvelduskoodi loomine                                                         | Üldine         |
 | Eelarvefondi reserveerimiseks kohustuse loomine avaliku sektori puhul                 | Üldine         |
-| Luua kohandatud väli arveldusarve koodi                                      | Üldine         |
+| Arvelduskoodi jaoks kohandatud välja loomine                                      | Üldine         |
 | Fonditüübi loomine                                                            | Üldine         |
 | Ühekordse hankija ja arve loomine                                          | Üldine         |
 | Esialgse eelarve loomine avaliku sektori puhul                                 | Üldine         |
@@ -480,10 +483,10 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Laiendatud pearaamatu kirje loomine avalikus sektoris                          | Üldine         |
 | Algse eelarve loomine ja seejärel esialgse eelarve kirjete ümberpööramine         | Üldine         |
 | Kaubanduse partnerikoodi loomine ja määramine avalikus sektoris                 | Üldine         |
-| Kate ja allkirja lehti maksete aruannete avaliku sektori   | Üldine         |
+| Maksearuannete jaoks tiitel- ja allkirjalehtede loomine avaliku sektori jaoks   | Üldine         |
 | Mitme ühekordse hankija ja arve importimine ja loomine avalikus sektoris | Üldine         |
 | Avaliku sektori tuletatud finantshierarhia seadistamine                     | Üldine         |
-| Fondi avalikus sektoris                                            | Üldine         |
+| Fondi seadistamine avalikus sektoris                                            | Üldine         |
 | Ostulepingu klassifikatsioonide seadistamine avaliku sektori puhul                   | Üldine         |
 
 ### 
@@ -493,17 +496,17 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | BPM-rida                                                         | Riik/regioon |
 |------------------------------------------------------------------|----------------|
 | Töötaja konfigureerimine                                               | Üldine         |
-| **\***Configure machine learning-powered product recommendations | Üldine         |
+| **\***Masinõppele tuginevate tootesoovituste konfigureerimine | Üldine         |
 | Müügiesindaja funktsiooniprofiili konfigureerimine   | Üldine         |
-| **\***Create a POS visual profile (November 2016)                | Üldine         |
+| **\***Kassa visuaalse profiili loomine (november 2016)                | Üldine         |
 | Registrite loomine ja seostamine                                   | Üldine         |
 | Kõnekeskuse tellimuste loomine.                                        | Üldine         |
 | Kaubanduslepete loomine kategooria hinnakujunduse reegli abiga            | Üldine         |
 | Kaupluse jaoks väljavõtte loomine, arvutamine ja sisestamine              | Üldine         |
 | Täpsustage ühendus ja määrake allahindlus                      | Üldine         |
-| Saate määratleda ja hallata POS luba rühmad                          | Üldine         |
-| Määratleda järjepidevuse ajakava                                       | Üldine         |
-| **\***Määratleda jaemüügi kanali side (CDX)                 | Üldine         |
+| Kassa loagruppide kindlaksmääramine ja haldamine                          | Üldine         |
+| Järjepidevuse graafiku määratlemine                                       | Üldine         |
+| **\***Jaekanali kommunikatsioonide määratlemine (CDX)                 | Üldine         |
 | Püsikliendi preemiapunktide korrigeerimised                                      | Üldine         |
 | Sortimentide haldamine                                               | Üldine         |
 | Käibemaksu määramine ja tühistamine                                | Üldine         |
@@ -526,7 +529,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | Müügilepingute täitmine                   | Globaalne         |
 | Kliendi tagasimaksete loomine ja töötlemine      | Üldine         |
 | Kohaldatavate hindade ja allahindluste otsimine    | Üldine         |
-| Müügitellimuse ootelepanekute haldamine                   | Üldine         |
+| Müügitellimuste ootelepaneku juhtimine                   | Üldine         |
 | Loo müügipakkumised hulgi               | Üldine         |
 | Makse tagasimaksete töötlemine                | Globaalne         |
 | Müügi komisjonitasude registreerimine                 | Globaalne         |
@@ -554,7 +557,7 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 
 ### 
 
-### <a name="supply-relationship-management"></a>Kliendisuhete juhtimine
+### <a name="supply-relationship-management"></a>Tarnesuhete haldus
 
 | BPM-rida                                                           | Riik/regioon |
 |--------------------------------------------------------------------|----------------|
@@ -575,14 +578,14 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 | BPM-rida                                                                    | Riik/regioon |
 |-----------------------------------------------------------------------------|----------------|
 | Looge asukoha profiil                                                   | Üldine         |
-| **\***Create a mobile device menu item for license plate consolidation      | Üldine         |
+| **\***Mobiilse seadme menüükäsu loomine litsentsiplaadi konsolideerimiseks      | Üldine         |
 | Veose käsitsi vastavusseviimine                                                  | Üldine         |
 | Juhi sisse- ja väljaregistreerimine kohtumisele                   | Üldine         |
-| Saate seadistada mobiiltelefoni menüü-üksuse töö tüüp ostutellimuse täitmiseks | Üldine         |
+| Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks | Üldine         |
 | Koorma laadimise plaanimine                                            | Üldine         |
 | Transpordi maksevahendi seadistamine                                              | Üldine         |
 | Veose automaatse vastavusseviimise seadistamine                                     | Üldine         |
-| **\***Set up short picking item reallocation                                | Üldine         |
+| **\***Kauba lühikese valiku ümberjaotamise seadistamine                                | Üldine         |
 
 
 
@@ -593,6 +596,8 @@ Käesolevas peatükis on kirjeldatud uue või ajakohastatud ülesandeks juhendid
 
 [Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
-[New or updated task guides available (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>ostutaotluse töövoog
 
+[!include[banner](../includes/banner.md)]
+
+
 Töövooprotsess viib ostutaotlused läbi ülevaatusprotsessi algsest olekust Mustand kuni lõplikku olekusse Kinnitatud. Kui ostutaotlus esitatakse ülevaatamiseks, käivitatakse töövoo protsess. Kui ostutaotlus on kinnitatud, saate luua ostutellimuse ostutaotluse ridade jaoks ja selle hankijale tellimuse täitmiseks esitada.
 
 Enne ostutaotluse ülevaatuseks edastamist peate konfigureerima töövoo. Töövooprotsess võib sisaldada üht või mitut ülevaatusetappi mis tahes järjestuses. Töövoo protsessi saab seadistada ka jättes vahele ülesannete ülevaate ja ostutaotluse automaatselt kinnitada. Saate konfigureerida töövoo töötlema ostutaotlust ühe dokumendina või suunata üksikud ostutaotluse read asjakohastele ülevaatajatele. Saate luua ka stsenaariumi, kus ostutaotlus suunatakse ühe dokumendina osadele ülevaatajatele ja valitud ostutaotluste read suunatakse teistele ülevaatajatele.  
@@ -106,12 +109,14 @@ Töövoos seadistatud kulu ülevaataja kasutamiseks peate asjakohase töövooele
 <a name="see-also"></a>Vt ka
 --------
 
-[Luua nõudelehe tarbimiseks (ülesande juhend)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Tarbimistaotluse loomine (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Hangete töövood](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Ostutaotluste ülevaade](purchase-requisitions-overview.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Uue või ajakohastatud ülesandeks juhendid (mai 2016)"
-description: "See artikkel loetleb juhendid vabastamisele Microsofti (mais 2016 - kõikides keeltes) APQC ühendatud Raamatukogu Microsoft Dynamics AX uue või ajakohastatud ülesanne. Ühtegi uut teeki Alustamine ei antud välja."
+title: "Uued või värskendatud tegevusjuhised (mai 2016)"
+description: "Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (mai 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>Uue või ajakohastatud ülesandeks juhendid (mai 2016)
+# <a name="new-or-updated-task-guides-may-2016"></a>Uued või värskendatud tegevusjuhised (mai 2016)
 
-See artikkel loetleb juhendid vabastamisele Microsofti (mais 2016 - kõikides keeltes) APQC ühendatud Raamatukogu Microsoft Dynamics AX uue või ajakohastatud ülesanne. Ühtegi uut teeki Alustamine ei antud välja. 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Ülesande juhised (mais 2016 - kõikides keeltes) APQC ühendatud Raamatukogu Microsoft Dynamics AX
+
+Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (mai 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja. 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Tegevusjuhised (mai 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegist
 ------------------------------------------------------------------------------------------------
 
-(Mai 2016) APQC ühendatud Raamatukogu sisaldab ülesandeks juhendid, mis on mõeldud kasutamiseks spikrisisu Microsoft Dynamics AX võib 2016 värskendus ja Microsoft Dynamics AX veebruar 2016 vabastada. Lokaliseeritud versioonid ülesandeks juhendid, lubati (veebruar 2016) APQC ühendatud Raamatukogu on saadaval selles teegis. Ühenduse abi süsteem ülesande juhend Raamatukogu loomise kohta lisateabe saamiseks vt [abiga alustada](help-overview.md). **Märkus:** tärn (**\***) kõrval kuvatavat Business protsessi modeler (BPM) joon näitab, et äriprotsessi ülesande juhend loodud Dynamics AX võib 2016 värskendus ja Microsoft Dynamics AX-i varasemates versioonides ei toetata.
+(2016. a. mai) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft AX-i 2016. a. mai värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljaande spikrina. Tegevusjuhiste lokaliseeritud versioonid, mis väljastati (2016. a. veebruari) APQC ühendatud teegis, on selles teegis saadaval. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md). **Märkus:** tärn (**\***) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. a. mai värskenduse jaoks ja seda ei toetata Microsoft Dynamics AX-i varasemates versioonides.
 
 ### <a name="countryregion-functionality"></a>Riigi/regiooni funktsionaalsus
 
@@ -65,7 +68,7 @@ See artikkel loetleb juhendid vabastamisele Microsofti (mais 2016 - kõikides ke
 | Elektrooniline aruandlus OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine         | Globaalne         |
 | Elektrooniline aruandlus Elektrooniliste dokumentide loomine vormingu konfiguratsiooni kasutavate maksete jaoks | Üldine         |
 | Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services                          | Üldine         |
-| **\***ER Select service provider                                           | Üldine         |
+| **\***Elektroonilise aruandluse teenusepakkuja valimine                                           | Üldine         |
 | Elektrooniline aruandlus täiendamine vormingu uue alusversiooni kasutuselevõtuga      | Globaalne         |
 | Elektroonilise aruande konfiguratsiooni üleslaadimine teenusesse Lifecycle Services                          | Globaalne         |
 
@@ -126,7 +129,7 @@ See artikkel loetleb juhendid vabastamisele Microsofti (mais 2016 - kõikides ke
 | BPM-rida                                                 | Riik/regioon |
 |----------------------------------------------------------|----------------|
 | Uue toote loomine                                     | Üldine         |
-| Luua... \financial-dimensions\dimension-Based koosseisud                    | Üldine         |
+| Konfiguratsioonide ..\financial-dimensions\dimension-based loomine                    | Üldine         |
 | Eelmääratletud tootevariantide loomine                       | Globaalne         |
 | Müügihinna valikukriteeriumide loomine                    | Globaalne         |
 | Konfigureeritavate toodete tellimuste sisestamine                   | Globaalne         |
@@ -176,22 +179,24 @@ See artikkel loetleb juhendid vabastamisele Microsofti (mais 2016 - kõikides ke
 | BPM-rida                                                            | Riik/regioon |
 |---------------------------------------------------------------------|----------------|
 | Voo töötlemise konfigureerimine                                           | Üldine         |
-| **\***Lõpetamisel litsentsi plaadi kontrollitud asukohta | Globaalne         |
+| **\***Lõpetatuna kinnitamine mitte-litsentsiplaadiga juhitavasse asukohta | Globaalne         |
 | Min-max täiendamisprotsessi seadistamine                              | Globaalne         |
 | Konteineritesse määramise häälestamine                                             | Globaalne         |
 | Käsitsi pakkimise seadistamine                                               | Üldine         |
 | Transpordipiirangute seadistamine kaubale                       | Üldine         |
-| **\***Set up warehouse work policies                                | Üldine         |
+| **\***Lao tööpoliitikate seadistamine                                | Üldine         |
 
 
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Uue ülesande juhendid (veebruar 2016)](new-task-guides-available-february-2016.md)
+[Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
 
-[Uue või ajakohastatud ülesandeks juhendid (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Uue või ajakohastatud ülesandeks juhendid (November 2016)](new-task-guides-november-2016.md)
+[Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)
+
+
 
 

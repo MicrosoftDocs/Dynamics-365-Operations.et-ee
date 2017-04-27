@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-entry-certificates"></a>EL-i kandesertifikaadid
 
+[!include[banner](../includes/banner.md)]
+
+
 Artikkel annab teavet Euroopa Liidu (EL) kirjesertide kohta.
 
 Euroopa Liidu (ELi) kandesertifikaat võimaldab teha järgmisi toiminguid.
@@ -76,7 +79,7 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>ELi kandesertifikaadi loomine, registreerimine ja üleslaadimine
-EL-i kandesertifikaadi saab luua automaatselt või käsitsi. ELi sisenemise sertifikaadi luuakse ja trükitud automaatselt konteerimisel saatelehe või arve kliendi abil on **pakkimine saatelehe sisestamine** lehele või **sisestamise arve** lehel. Käsitsi loomiseks või ELi sisenemise sertifikaadi kliendi arve uuesti printida, kasutage selle **tööleht** lehel. Lisaks saate sisestada kolmanda osapoole väljastatud EL-i kandesertifikaadi üksikasjad lehele **Kandesertifikaadi tööleht**.
+EL-i kandesertifikaadi saab luua automaatselt või käsitsi. ELi kandesertifikaat luuakse ja prinditakse automaatselt, kui sisestate kliendi saatelehe või arve lehele **Saatelehe sisestamine** või **Arve sisestamine**. Kliendi arve ELi kandesertifikaadi käsitsi loomiseks või uuesti printimiseks kasutage lehte **Arve tööleht**. Lisaks saate sisestada kolmanda osapoole väljastatud EL-i kandesertifikaadi üksikasjad lehele **Kandesertifikaadi tööleht**.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>ELi kandesertifikaadi loomine automaatselt või käsitsi
 
@@ -121,6 +124,8 @@ Kui teil pole juurdepääsu lehtedele, mida kasutatakse selle ülesande täitmis
 </tr>
 </tbody>
 </table>
+
+
 
 
 

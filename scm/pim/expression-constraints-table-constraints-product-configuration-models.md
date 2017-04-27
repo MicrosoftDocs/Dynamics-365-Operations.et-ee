@@ -40,7 +40,7 @@ Tabeli piirangud loetlevad väärtuste kombinatsioonid, mis toote konfigureerimi
 
 ### <a name="example-of-a-table-constraint"></a>Tabeli piirangu näide
 
-Selles näites selgitatakse, kuidas saate piirata kõlari konfiguratsiooni kindla korpuseviimistluse ja esiküljega. Esimeses tabelis on üldkonfiguratsiooniks saadaolevad korpuseviimistlused ja esiküljed. Väärtused on määratletud selle ** kapis valmis ** ja **ees grill** atribuut tüübid.
+Selles näites selgitatakse, kuidas saate piirata kõlari konfiguratsiooni kindla korpuseviimistluse ja esiküljega. Esimeses tabelis on üldkonfiguratsiooniks saadaolevad korpuseviimistlused ja esiküljed. Atribuuditüüpidele **Korpuseviimistlus** ja **Esivõre** on väärtused määratletud.
 
 | Atribuudi tüüp | Väärtused                      |
 |----------------|-----------------------------|
@@ -60,8 +60,8 @@ Järgmises tabelis on toodud kombinatsioonid, mis on määratletud tabelipiirang
 
 Saate luua süsteemi ja kasutaja määratletud tabeli piiranguid. Lisateabe saamiseks vt jaotist [Süsteemi määratletud ja kasutaja määratletud tabelipiirangud](system-defined-user-defined-table-constraints.md).
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>Millist süntaksit kasutada kirjutada piiranguid?
-Piirangute kirjutamisel tuleb kasutada optimeerimise modelleerimiskeele (OML) süntaksit. Süsteem kasutab Microsoft Solver sihtasutuse piirangu solver lahendada piiranguid.
+## <a name="what-syntax-should-be-used-to-write-constraints"></a>Millist süntaksit tuleks piirangute kirjutamisel kasutada?
+Piirangute kirjutamisel tuleb kasutada optimeerimise modelleerimiskeele (OML) süntaksit. Süsteem kasutab piirangute lahendamiseks Microsoft Solver Foundationi piirangulahendajat.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Kas peaksin kasutama tabeli või avaldise piiranguid?
 Saate kasutada avaldisepiiranguid või tabelipiiranguid olenevalt sellest, kuidas soovite piirangud koostada. Tabelipiirangu saate luua maatriksina, samas kui avaldisepiirang on eraldi lause. Toote konfigureerimisel pole oluline, millist piirangut kasutatakse. Järgmine näide selgitab kahe meetodi erinevust.  
@@ -110,32 +110,32 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 <td>See on tõene, kui esimene tingimus on väär, teine tingimus on tõene või mõlemad.</td>
 <td>Tähendab[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operaator:</strong> tähendab [x! = 0, y &gt;= 0]</li>
-<li><strong>Infix märke:</strong> x! = 0-: y &gt;= 0</li>
+<li><strong>Tehtemärk:</strong> Tähendab[x != 0, y &gt;= 0]</li>
+<li><strong>Infix-märk:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Ja</td>
 <td>See on tõene ainult juhul, kui kõik tingimused on tõesed. Kui tingimuste arv on 0 (null), on vastus <strong>Tõene</strong>.</td>
-<td>Ja [args] infix: a &amp;b &amp; ... &amp;z</td>
+<td>Ja[argumendid], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operaator:</strong> ja [x == 2, y &lt;= 2]</li>
-<li><strong>Infix märke:</strong> x == 2 &amp;y &lt;= 2</li>
+<li><strong>Tehtemärk:</strong> And[x == 2, y &lt;= 2]</li>
+<li><strong>Infix-märk:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Või</td>
 <td>See on tõene, kui mis tahes tingimus on tõene. Kui tingimuste arv on 0 (null), on vastus <strong>Väär</strong>.</td>
-<td>Või [args] infix: on | b | ... | z</td>
+<td>Või[argumendid], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operaator:</strong> või [x == 2, y &lt;= 2]</li>
-<li><strong>Infix märke:</strong> x == 2 | y &lt;= 2</li>
+<li><strong>Tehtemärk:</strong> Või[x == 2, y &lt;= 2]</li>
+<li><strong>Infix-märk:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Pluss</td>
 <td>See summeerib tingimused. Kui tingimuste arv on 0 (null), on vastus <strong>0</strong>.</td>
-<td>Pluss [args] infix: a + b +... + z</td>
+<td>Pluss[argumendid], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Tehtemärk:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Infix-märk:</strong> x + y + 2 == z</li>
@@ -159,7 +159,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 <tr class="odd">
 <td>Ajad</td>
 <td>See arvestab tingimuste korrutise. Kui tingimuste arv on 0 (null), on vastus <strong>1</strong>.</td>
-<td>Infix korda [args]: a * b *... * z</td>
+<td>Kordaja[argumendid], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Tehtemärk:</strong> Times[x, y, 2] == z</li>
 <li><strong>Infix-märk:</strong> x * y * 2 == z</li>
@@ -167,8 +167,8 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 </tr>
 <tr class="even">
 <td>Võimsus</td>
-<td>See võtab astme. See rakendab paremalt vasakule astendamise. (Tähendab, see on õigus-assotsiatiivne.) Seega <strong>võimu [a, b, c]</strong> on <strong>võimsus [a, võimsus [b, c]]</strong>. <strong>Astet</strong> saab kasutada ainult siis, kui aste on positiivne konstant.</td>
-<td>Võimu [args], infix: a ^ b ^... ^ z</td>
+<td>See võtab astme. See rakendab paremalt vasakule astendamise. (See tähendab parempoolset seost) Seega on avaldis <strong>Aste[a, b, c]</strong> võrdne avaldisega <strong>Aste[a, Aste[b, c]]</strong>. <strong>Astet</strong> saab kasutada ainult siis, kui aste on positiivne konstant.</td>
+<td>Aste[argumendid], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Tehtemärk:</strong> Power[x, 2] == y</li>
 <li><strong>Infix-märk:</strong> x ^ 2 == y</li>
@@ -191,7 +191,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 <td>See annab vastuseks tingimuse loogilise pöördväärtuse. Sel peab olema täpselt üks tingimus.</td>
 <td>Pole[avaldis], infix: !avaldis</td>
 <td><ul>
-<li><strong>Operaator:</strong> ei [x] &amp;ei [y == 3]</li>
+<li><strong>Tehtemärk:</strong> Pole[x] &amp; Pole[y == 3]</li>
 <li><strong>Infix-märk:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -203,7 +203,7 @@ Järgmise tabeli näited selgitavad, kuidas kirjutada infix-märke.
 | Infix-märk    | Kirjeldus                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | x + y + z         | Lisa                                                                                      |
-| X \*y \*z       | Korrutamine                                                                                |
+| x \* y \* z       | Korrutamine                                                                                |
 | x - y             | Binaarne lahutamine teisendatakse samamoodi nagu negatiivse teise liikmega binaarne liitmine. |
 | x ^ y ^ z         | Parempoolse seosega astendamine                                                   |
 | !x                | Kahendmuutuja pole                                                                                   |
@@ -212,14 +212,14 @@ Järgmise tabeli näited selgitavad, kuidas kirjutada infix-märke.
 | x & y & z         | Kahendmuutuja ja                                                                                   |
 | x == y == z       | Võrdne                                                                                      |
 | x != y != z       | Distinktne                                                                                      |
-| X &lt;y &lt;z   | Väiksem kui                                                                                     |
-| X &gt;y &gt;z   | Suurem kui                                                                                  |
-| X &lt;= y &lt;= z | Väiksem kui või võrdne                                                                         |
-| X &gt;= y &gt;= z | Suurem kui või võrdne                                                                      |
+| x &lt; y &lt; z   | Väiksem kui                                                                                     |
+| x &gt; y &gt; z   | Suurem kui                                                                                  |
+| x &lt;= y &lt;= z | Väiksem kui või võrdne                                                                         |
+| x &gt;= y &gt;= z | Suurem kui või võrdne                                                                      |
 | (x)               | Sulud alistavad vaikejärjestuse.                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Miks minu avaldisepiiranguid õigesti ei kinnitata?
-Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või alamkomponentide nimena lahendaja nimena reserveeritud märksõnu. Siin on nimekiri ei saa kasutada reserveeritud märksõnad:
+Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või alamkomponentide nimena lahendaja nimena reserveeritud märksõnu. Siin on loend, mis sisaldab reserveeritud märksõnu, mida ei saa kasutada.
 
 -   Ülempiir
 -   Element
@@ -245,8 +245,8 @@ Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või ala
 <a name="see-also"></a>Vt ka
 --------
 
-[Väljend piirangu (ülesande juhend) loomine](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Avaldise piirangu loomine (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[Lisada tootemudelile konfiguratsiooni (ülesande juhend) arvutus](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Arvutuse lisamine toote konfiguratsioonimudelile (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

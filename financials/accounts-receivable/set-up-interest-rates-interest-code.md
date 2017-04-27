@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Intressikoodile intressimäära seadistamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Intressikoodid sisaldavad sätteid, mis määratlevad, millal intressi võetakse ja kuidas seda arvutatakse tähtaja ületanud arvete puhul.
 
 Saate seadistada ühe intressikoodi ja rakendada seda mitme kliendi sisestusreeglitele, arvelduskoodidele või kindlatele arveridadele. Intressikoodi üksikasjade muutumisel rakendavad kõik koodi kasutavad funktsioonid muutusi automaatselt uutele kannetele. Iga intressikoodi puhul saate seadistada kaht tüüpi määrasid.
@@ -44,17 +47,17 @@ Saate seadistada intressimäärad, mis arvutavad kindlaksmääratud protsendi.
 
 -   Intressimäär kehtib kõigile valuutadele.
 -   Sisestada saab valikulisi intressisumma limiite.
--   **Protsent** valitakse ** ** linnas on **arvutamiseks vastavalt** välja jäetud ning **huvi tähiste** lehekülg.
+-   **Protsent** valitakse** **väljal **Intressi arvutusalus** lehel **Intressikoodide seadistamine**.
 
-Nt kes hindab 5% intressi iga kahe kuu tagant mis arve ületab tehingu viivisekoodi seadistamiseks maksetähtaega, sisestage 2 on **arvutamiseks iga** välja ja valige **kuu**.
+Näiteks intressikoodi seadistamiseks, mis määrab 5 protsenti intressi iga kahe kuu eest, mille võrra arve makse ületab kande tähtaega, tuleks sisestada 2 väljale **Arvuta intress iga** ja valida **Kuu**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Summal põhinevad intressimäärad
 Saate seadistada intressimäärad, mis arvutavad määratud summa valuuta kaupa.
 -   Intressi summa määratakse iga intressikoodi valuuta jaoks.
 -   Sisestada saab valikulisi intressisumma limiite.
--   ** Summa ** on valitud selle **arvutamiseks vastavalt** kohta välja ning **huvi tähiste** lehekülg.
+-   Väärtus **Summa **valitakse väljal **Intressi arvutusalus** lehel **Viivisekoodide seadistamine**.
 
-Nt kes hindab 25,00 huvi iga 20 päeva mis arve ületab tehingu viivisekoodi seadistamiseks maksetähtaega, sisestage 20 ning **arvutamiseks iga** välja ja valige **päev**.
+Näiteks intressikoodi seadistamiseks, mis määrab 25,00 protsenti intressi iga 20 päeva eest, mille võrra arve makse ületab kande tähtaega, tuleks sisestada 20 väljale **Arvuta intress iga** ja valida **Päev**.
 
 ## <a name="interest-rates-based-on-ranges"></a>Vahemikel põhinevad intressimäärad
 Saate seadistada intressimäärad, mis varieeruvad sõltuvalt tähtaja ületanud summast, summa hilinemise päevadest või kuudest.
@@ -73,7 +76,7 @@ Saate seadistada intressikoodi, mis määrab intressi üks kord iga kolme kuu ta
 
 Saate seadistada vahemiku andmed järgmiselt.
 
-| **From value** | **Interest value** |
+| **Alates väärtusest** | **Intressi väärtus** |
 |----------------|--------------------|
 | 0              | 1                  |
 | 1,001          | 2                  |
@@ -94,7 +97,7 @@ Saate seadistada intressikoodi, mis määrab intressi üks kord iga 15 päeva ta
 
 Saate seadistada vahemiku andmed järgmiselt.
 
-| **From value** | **Interest value** |
+| **Alates väärtusest** | **Intressi väärtus** |
 |----------------|--------------------|
 | 0              | 10                 |
 | 61             | sept.                 |
@@ -109,13 +112,13 @@ Saate seadistada intressikoodi, mis määrab intressi üks kord iga kuu tagant, 
 | **Välja nimi**                  | **Välja väärtus** |
 |---------------------------------|-----------------|
 | **Viivise kood**               | 1M%ByMth        |
-| **Arvuta intress iga**    | 1/kuus         |
+| **Arvuta intress iga**    | 1/kuu         |
 | **Intress vahemiku järgi**           | Kuud          |
 | **Intressi arvutusalus:** | Protsent      |
 
 Saate seadistada vahemiku andmed järgmiselt.
 
-| **From value** | **Interest value** |
+| **Alates väärtusest** | **Intressi väärtus** |
 |----------------|--------------------|
 | 0              | 1.5                |
 | 4              | 2                  |
@@ -125,5 +128,7 @@ Saate seadistada vahemiku andmed järgmiselt.
 Intressikoodidel on kehtivuskuupäevad. Kui soovite intressimäära muuta, saate luua **uue versiooni**, mis kehtib tulevasest kuupäevast.
 
 Erinevate versioonide vaatamiseks võite kasutada kuupäeva valimiseks menüüvalikut **Alates kuupäevast**. Saate valida ka **Kuva kõik kirjed** kõigi intressikoodide kuvamiseks lehel.
+
+
 
 

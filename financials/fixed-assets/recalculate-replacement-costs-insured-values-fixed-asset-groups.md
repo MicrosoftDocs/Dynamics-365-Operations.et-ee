@@ -1,5 +1,5 @@
 ---
-title: "Arvuta ümber asendamise kulud ja kindlustatu väärtused gruppidesse"
+title: "Põhivaragruppide asendusväärtuste ja kindlustusväärtuste ümberarvutus"
 description: "See artikkel selgitab põhivara asendusväärtuste ja kindlustusväärtuste värskendamist."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Arvuta ümber asendamise kulud ja kindlustatu väärtused gruppidesse
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Põhivaragruppide asendusväärtuste ja kindlustusväärtuste ümberarvutus
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel selgitab põhivara asendusväärtuste ja kindlustusväärtuste värskendamist.
 
@@ -38,18 +41,18 @@ Põhivaragruppide asenduskulude ja kindlustusväärtuse ümberarvutamiseks peate
 
 Kui kasutate varade asenduskulude ja kindlustusväärtuse ümberarvutamiseks vormi Värskenda asendusväärtused ja kindlustusväärtused, kasutatakse järgmisi valemeid.
 
--   \[(Grupi vara asendamise kulude tekitajat / 100) + 1\]\* olemasolevate varade asendusmaksumuse
--   \[(Kood on kindlustatud väärtuse teguri / 100) + 1\]\* vara olemasolevates kindlustatud väärtuse
+-   \[(Varade grupi asenduskulu faktor / 100) + 1\] \* varade olemasolev asenduskulu
+-   \[(Varade grupi kindlustusväärtuse faktor / 100) + 1\] \* varade olemasolev kindlustusväärtus
 
 > [!NOTE] 
 > Kui kasutate vormi Värskenda asendusväärtused ja kindlustusväärtused, värskendatakse nii valitud varade asenduskulu kui ka kindlustusväärtust, te ei saa värskendada üksnes üht väärtust. Ühe väärtuse samaks jätmiseks ja teise värskendamiseks sisestage vormil Põhivaragrupid teguriks 0 (null). Kui tegur on null või tühi, jäetakse arvutus uuendamises vahele. Põhivarade raamatupidamislikku väärtust ja raamatupidamislikku jääkväärtust perioodiline värskendus ei mõjuta. 
 
 ## <a name="how-to-use-a-date-to-select-which-items-to-update"></a> Kuidas kasutada kuupäeva värskendatavate kaupade valimisel?
-Vaikimisi uuendatakse värskendusprotsessi käigus valitud varasid, mida ei ole antud päeval värskendatud, aga mis võivad olla värskendatud eelmistel päevadel. Näiteks &lt;praegune kuupäev tähendab "enne täna." Värskenduse asendamise kulud ja kindlustatu väärtused vormi kuupäeva muutmiseks klõpsake nuppu Vali. Täpsustatud kuupäevakriteeriumit võrreldakse vara viimase perioodilise värskenduse kuupäevaga (väli Viimane perioodiline väärtuse/kulu uuendus vormil Põhivarad). Välja Viimane perioodiline väärtuse/kulu uuendus värskendatakse automaatselt praeguse kuupäevaga iga kord, kui värskendate edukalt põhivara asendus‑ või kindlustusväärtust. 
+Vaikimisi uuendatakse värskendusprotsessi käigus valitud varasid, mida ei ole antud päeval värskendatud, aga mis võivad olla värskendatud eelmistel päevadel. Näiteks &lt; jooksev kuupäev tähendab „enne tänast”. Saate muuta vormi Värskenda asendusväärtused ja kindlustusväärtused kuupäeva, klõpsates nuppu Vali. Täpsustatud kuupäevakriteeriumit võrreldakse vara viimase perioodilise värskenduse kuupäevaga (väli Viimane perioodiline väärtuse/kulu uuendus vormil Põhivarad). Välja Viimane perioodiline väärtuse/kulu uuendus värskendatakse automaatselt praeguse kuupäevaga iga kord, kui värskendate edukalt põhivara asendus‑ või kindlustusväärtust. 
 
 Näide 
 
-Uuendamist asendusmaksumus sõidukite, Büroomööbel ja hooned pakuvad 5 protsenti täna, ja sa nüüd need täpselt uuendatavaid varasid. Jätta need varad, kõik muu põhivara täna uuendamisel, sisestate kuupäeva viimase perioodilise väärtus/kulu Värskenda väli ongi enne eile (&lt; kuupäevale), sest Viimane muudatus sõidukite, Büroomööbel ja hoonete puhul, mis on aset leidnud väljaspool teie sisestatud kriteeriumidele.
+Muutsite sõiduki-, kontorimööbli- ja hoonegruppide asenduskulusid eile 5 protsendi võrra ja nüüd leiate, et need varad on õigesti muudetud. Nende varade tänasesse ülejäänud põhivarade värskendamisse kaasamise vältimiseks sisestage väljale Viimane perioodiline väärtuse/kulu uuendus eilsele eelnev kuupäev (&lt; eilne kuupäev), sest viimane sõiduki, kontorimööbli ja hoonegruppide värskendus sai teoks väljaspool teie sisestatud kuupäevakriteeriumi.
 
 ## <a name="cumulative-effect-of-each-update"></a> Iga värskenduse kumulatiivne efekt
 Igal värskendusel on kumulatiivne efekt. Seetõttu peaksite värskendusi hoolikalt planeerima. Kui tõstate näiteks kõiki varasid teisipäeval 3% võrra ja siis tõstate kontorimööblit reedel 4%, tõuseb kontorimööbel kokku 7,12 protsenti.
@@ -72,6 +75,8 @@ Järgmisel päeval aga teavitab teie juht, et arvutid langesid 10% asemel 8%, se
 
 > [!NOTE]  
 > Te ei saa tegurit -10 tagasi võtta positiivse 10 sisestamisega (või teguriga 2, mis on -10 ja -8 vahe), sest summasid ei arvutata nii, nagu soovite. 
+
+
 
 
 

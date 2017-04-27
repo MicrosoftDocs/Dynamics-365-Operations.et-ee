@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Üksik mitme kliendi- või hankijakirjega kanne
 
+[!include[banner](../includes/banner.md)]
+
+
 See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Operations tulevastes versioonides, mille tulemusena me ei soovita me kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile. 
 
 Mõned levinumad süsteemid, kus üht kannet kasutatakse mitme kliendi või hakija jaoks, hõlmavad saldo ülekandeid klientide vahel ja saldode tasaarveldust klientide ja hankijate vahel samas organisatsioonis. 
@@ -91,7 +94,7 @@ Kui kasutaja pole rahul, et skonto jaotatakse ühe kande asemel algse arve kõig
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Kanne** | **Konto tüüp** | **Konto**  | **Kirjeldus** | **Debiteeri** | **Krediit** | **Offset type** | **Offset account** |
+| **Kanne** | **Konto tüüp** | **Konto**  | **Kirjeldus** | **Debiteeri** | **Krediit** | **Tasakaalustustasu tüüp** | **Vastaskonto** |
 | GNJL001     | Tarnija           | 1001         | INV1            |           | 100,00     | Pearaamat          | &lt;tühi&gt;      |
 | GNJL001     | Pearaamat           | 606300-001-- | INV1            |   50,00   |            | Pearaamat          | &lt;tühi&gt;      |
 | GNJL001     | Pearaamat           | 606300-002-- | INV1            |   50,00   |            | Pearaamat          | &lt;tühi&gt;      |
@@ -248,5 +251,7 @@ Vältimaks soovimatuid probleeme tulevaste tasakaalustamistega selle kande puhul
 | 002         | Tarnija           | 1001        |                 |  75,00    |            | Pearaamat          | 999999---          |
 
  
+
+
 
 

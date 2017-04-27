@@ -1,6 +1,6 @@
 ---
-title: Koosluse versiooni plahvatus
-description: "Selles artiklis selgitatakse koondplaneerimise stsenaarium, mis hõlmab plahvatuslik kooslus, koosluse versioon."
+title: Koosluse versiooni koosnevusarvutus
+description: "Selles artiklis selgitatakse koondplaanimise stsenaariumi, mis hõlmab koosluse versiooni koosnevusarvutust."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a>Koosluse versiooni plahvatus
+# <a name="explosion-of-a-bom-version"></a>Koosluse versiooni koosnevusarvutus
 
-Selles artiklis selgitatakse koondplaneerimise stsenaarium, mis hõlmab plahvatuslik kooslus, koosluse versioon.
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis selgitatakse koondplaanimise stsenaariumi, mis hõlmab koosluse versiooni koosnevusarvutust.
 
 Koosluse versiooni nõudluskoosnevusarvutus loob iga koosluserea kauba nõudluse konkreetses tegevuskohas ning võimalik, et ka konkreetses laos. Tegevuskohapõhises koosluses saab igale koosluse reale määrata konkreetse lao. Iga koosluserea puhul määratlevad kauba dimensioonisätted ka lao vajaduse. Iga koosluserea kaubast tulenevast nõudlusest saab seejärel täiendava nõudluskoosnevusarvutuse alguspunkt. See koondplaneerimise stsenaarium sisaldab järgmisi tingimusi.
 
@@ -41,8 +44,10 @@ Järgmisel joonisel on toodud koondplaneerimise nõudluskoosnevusarvutuse protse
 <a name="see-also"></a>Vt ka
 --------
 
-[Koondplaneerimise - kuidas koosluseversiooni määratakse](master-plan-bom-version-determined.md)
+[Koondplaanimine – koosluse versiooni määratlemine](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Koondplaanimine ja mitme laoala funktsioon](master-plan-multisite-functionality.md)
+
+
 
 

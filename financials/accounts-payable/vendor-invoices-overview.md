@@ -1,5 +1,5 @@
 ---
-title: "Hankija arvete ülevaade"
+title: "Hankijaarvete ülevaade"
 description: "Selles artiklis antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel."
 author: twheeloc
 manager: AnnBe
@@ -25,20 +25,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
+# <a name="vendor-invoices-overview"></a>Hankijaarvete ülevaade
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel. 
 
 <a name="vendor-invoices"></a>Hankijaarved
 ---------------
 
-Ostutellimuse hankija arve on arve, mis koostatakse toodete või teenuste vastuvõtmisel hankijale esitatud ostutellimuse põhjal. Hankija arve sisaldab päist ja kaupade või teenuste ühest või mitmest reast. Hankijaarve lõpetab tsükli ostutellimuse toote kättesaamise hankija arve. 
+Ostutellimuse hankija arve on arve, mis koostatakse toodete või teenuste vastuvõtmisel hankijale esitatud ostutellimuse põhjal. Hankijaarve sisaldab päist ning kaupade ja teenuste jaoks vähemalt üht rida. Hankijaarve viib lõpule tsükli ostutellimusest toote sissetulekuni ja omakorda hankijaarveni. 
 
 Kuigi mõned hankija arved on seotud ostutellimusega, võivad hankija arved sisaldada ka ridu, mis ei vasta ostutellimuse ridadele. Saate luua ka hankija arveid, mis ei ole seotud ühegi ostutellimusega. Need hankija arved võivad kajastada pidevaid teenuseid (nt kommunaalteenuste arve) ja nende lisamisel pole vaja ostutellimusele viidata. 
 
 On mitmeid viise hankija arve sisestamiseks.
 
--   Hankija arvete registri abil saate kiiresti sisestada arveid, mis ei viidata ostutellimuse, nii et te saate koguda arvelt. Hankija arve kinnitamise töölehe abil saate valida arvete ja pärast neid hankija saldo laekumist tagurdama.
+-   Hankijaarve register võimaldab teil kiiresti sisestada ostutellimusele mitteviitavaid arveid, et saaksite kulusid koondada. Hankijaarve kinnitamise töölehe kasutamisel saate need arved valida ja sisestada need juurdekasvu tühistamiseks hankijasaldosse.
 -   Hankija arve töölehe abil saate sisestada kiiresti (ühe toiminguga) arveid, mis ei viita ostutellimusele.
 -   Koos hankija arvete kaustaga võimaldab hankija arvete register kulude koondamiseks kiiresti arveid sisestada. Hiljem saate avada seotud ostutellimused arve sisestamiseks kulukonto suhtes.
 -   Lehed **Avatud hankija arved** ja **Ootel hankija arved** võimaldavad luua hankija arveid kinnitatud ostutellimustest.
@@ -57,7 +60,7 @@ Kui avate hankija arve seotud ostutellimusest, luuakse ostutellimusest arve read
 Kui teie juriidiline isik kasutab arvete võrdlemist, saate vaadata koguse võrdlemise tulemusi veerus **Toote sissetuleku koguse vastavusseviimine**. Saate kasutada koguse vastavusseviimise tulemuste vaatamiseks ka menüükäsku **Vastavusseviimise üksikasjad** vahekaardil **Ülevaatus**.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Ostutellimuselt puudunud rea lisamine
-Saate lisada uue rea, mis ei olnud ostutellimuse hankija arve. Valige kauba number või hanke kategooria. Seejärel saate lisada reale koguseid, hindu ja summasid. Rida kaasatakse ainult arve koondsummade vastavusseviimise põhimõtetesse.
+Saate hankijaarvele lisada uue ostutellimuses puuduva rea. Peate valima kaubakoodi või hankekategooria. Seejärel saate lisada reale koguseid, hindu ja summasid. Rida kaasatakse ainult arve koondsummade vastavusseviimise põhimõtetesse.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Hankija arve esitamine läbivaatuseks
 Teie organisatsioon võib kasutada töövoogusid, et hallata hankijaarvete läbivaatamise protsessi. Töövoo läbivaatamine võib olla vajalik ostuarve päise, arverea või mõlema jaoks. Töövoo juhtelemendid rakenduvad päisele või reale, sõltuvalt sellest, mis on juhtelemendi klõpsamise ajal aktiivne. Nupu **Sisesta** asemel näete nuppu **Edasta**, mida saate kasutada hankija arve läbivaatamisprotsessi saatmiseks.
@@ -74,6 +77,8 @@ See valik eeldab, et ostutellimuse kohta on sisestatud vähemalt üks toote siss
 ## <a name="working-with-multiple-invoices"></a>Mitme arvega töötamine
 
 Saate töötada mitme arvega samal ajal ja pärast need kõik korraga sisestada. Kui teil on vaja luua mitu arvet, kasutage lehte **Ootel hankija arved**. Kui peate sisestama ja printima mitu hankija arvet, kasutage arve kinnitamise töölehte. Kui kasutate arve kinnitamise töölehte, tuleb ostutellimusele sisestada vähemalt üks toote sissetulek ja ostutellimuse arve tuleb sisestada arveregistrisse. Arve finantsteave tuleb arvelt, mis sisestati registrisse.
+
+
 
 
 

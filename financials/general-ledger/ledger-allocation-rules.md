@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-allocation-rules"></a>Pearaamatu eraldamisreeglid
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet pearaamatu eraldamisreeglite kohta. See kirjeldab nende eraldamisreeglite mitmesuguseid komponente ja eraldamismeetodeid, mida nende puhul kasutada saab.
 
 Pearaamatu eraldamisreegleid kasutatakse eraldamistöölehtede ja kontokannete automaatseks arvutamiseks ja loomiseks pearaamatu saldode või fikseeritud summade eraldamise eesmärgil. Eraldamismeetodid võivad olla muutuvad või fikseeritud. Pearaamatu eraldamisreeglite jaoks saab kasutada järgmisi eraldamismeetodeid.
@@ -42,10 +45,12 @@ Kui eraldamisreegli puhul on eraldamismeetodiks Alus, peate määratlema ka eral
 Igal eraldamisreeglil on neli komponenti: üldine, allikas, sihtkoht ja vastaskonto. Kui eraldamismeetodiks on Alus, on nõutav täiendav komponent, pearaamatu eraldamispõhised reeglid. Iga komponent annab olulise osa eraldamiste töötlemiseks vajalikust teabest.
 
 -   **Üldine** – selles komponendis määrab kasutaja valikud, nagu eraldamismeetod, kontsernisisesed reeglisätted ja see, kas reegel on aktiivne või mitte.
--   **Allikas** – selles komponendis määrab kasutaja eraldamise lähteandmed. Jaotamise aluseks võivad olla pearaamatu saldod (**andmeallika** = **pearaamatu**) või kindlaksmääratud kogustele (**andmeallika** = **püsiva väärtusega**). Kui suvandi **Andmeallikas** sätteks on valitud **Pearaamat**, tuleb pearaamatu eraldamisreegli jaoks määratleda allika filtreerimiskriteeriumid (nt reklaamikulude jaoks).
+-   **Allikas** – selles komponendis määrab kasutaja eraldamise lähteandmed. Eraldamine võib toimuda pearaamatu saldode (**Andmeallikas** = **peaaamat**) või fikseeritud summade (**Andmeallikas** = **fikseeritud väärtus**) põhjal. Kui suvandi **Andmeallikas** sätteks on valitud **Pearaamat**, tuleb pearaamatu eraldamisreegli jaoks määratleda allika filtreerimiskriteeriumid (nt reklaamikulude jaoks).
 -   **Sihtkoht** – see komponent määratleb, kuidas tuleks eraldamisarvutuse tulemus jaotada ja arvestada. Näiteks saab olla iga osakonna kohta üks sihtkoharida.
 -   **Vastaskonto** – see komponent määratleb, kuidas tuleks põhikontod ja dimensioonid sihkohakandeid tasakaalustavate vastaskonto kannete kohta määrata. Allikal põhinevate kontode ja dimensioonide asemel kasutatakse tavaliselt kasutaja määratletud suvandeid. Kui suvandi **Andmeallikas** sätteks on valitud **Fikseeritud väärtus**, ei saa suvandit **Allikas** kasutada.
 -   **Pearaamatu eraldamispõhised reeglid** – need reeglid määratlevad oma allika filtreerimiskriteerumite alusel, milliseid pearaamatu saldosid tuleks eraldamiseks kasutada (nt eelarve osakonna kohta). Iga eralduspõhist reeglit saab kasutada mitme eraldusreegliga.
+
+
 
 
 

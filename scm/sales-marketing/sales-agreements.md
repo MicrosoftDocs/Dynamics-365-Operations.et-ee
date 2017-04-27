@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Müügilepingud
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega.
 
 Müügileping on leping, mis kohustab kliendi ostma tooteid konkreetses koguses või kindla summa eest teatud aja jooksul, saades selle eest erihindu, eriallahindlusi ja muid eritingimusi, nagu makse- ja tarnetingimused. Müügilepingu hinnad ja allahindlused tühistavad kõik hinnad ja allahindlused, mis on märgitud kõigis olemasolevates kaubanduslepetes.  
@@ -36,7 +39,7 @@ Müügilepingu kehtivusperiood määratletakse lepingu väljadega **Jõustumisku
 
 Saate luua müügitellimuse otse müügilepingult, kasutades tegevust **Väljalaskeorder**. Teine võimalus on valida tellimuste tegemisel kehtiva müügilepingu (vt selle artikli jaotist „Müügilepingute rakendamine tellimisprotsessis”).  
 
-**Märkus:** varasemas versioonis viidati ostu-ja müügilepingud, kui koondmüügitellimuste.
+**Märkus.** Varasemates versioonides nimetati müügilepinguid müügi raamtellimusteks.
 
 ## <a name="commitment-types"></a>Kohustuse tüübid
 Müügilepingu iga rida väljendab teatud kauba müümise kohustust. Üldiselt on kohustusekategooriaid kaks.
@@ -93,21 +96,23 @@ Kui olete loonud (väljastanud) müügilepinguga seotud müügitellimuse, saate 
 | Väli                                                             | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nõutav lähetuskuupäev                                               | Kui muudate nõutud lähetuskuupäeva kuupäevale, mis on varasem kui müügilepingu real olev väärtus **Jõustumiskuupäev**, peate eemaldama lingi müügilepingu reaga, enne kui saate muudetud lähetuskuupäeva salvestada. Kui muudate nõutud lähetuskuupäeva kuupäevale, mis on hilisem kui müügilepingu real olev väärtus **Aegumiskuupäev**, peate eemaldama lingi müügilepingu reaga, enne kui saate muudetud lähetuskuupäeva salvestada. |
-| CurrencyDiscount, percentDiscountUnit, pricePrice, unitNeti summa | Kui muudate mõne selle välja väärtust ja seostatud müügilepingu real on märgitud ruut **Hind ja allahindlus on fikseeritud**, kuvatakse sõnumiviip, milles palutakse teil muudatus salvestada. Klõpsake **Jah** eemaldada link seotud müügi ja Arvuta hind ümber. Klõpsake **nr** seotud müügi lingi eemaldada ilma ümberarvutamise hind.                                                                   |
-| Netosumma                                                        | Kui määrate summa, mis ületab summat müügilepingu real, kus märgitud on ruut **Maksimaalne on jõustatud**, kuvatakse sõnumiviip, milles palutakse teil muudetud summa salvestada. Klõpsake **Jah** eemaldada link seotud müügi ja Arvuta hind ümber. Klõpsake **nr** seotud müügi lingi eemaldada ilma ümberarvutamise hind.                                                                 |
-| Kogus                                                          | Kui määrate koguse, mis ületab kogust müügilepingu real, kus märgitud on ruut **Maksimaalne on jõustatud**, kuvatakse sõnumiviip, milles palutakse teil muudetud kogus salvestada. Klõpsake **Jah** eemaldada link seotud müügi ja Arvuta hind ümber. Klõpsake **nr** seotud müügi lingi eemaldada ilma ümberarvutamise hind.                                                            |
+| CurrencyDiscount, percentDiscountUnit, pricePrice, unitNeti summa | Kui muudate mõne selle välja väärtust ja seostatud müügilepingu real on märgitud ruut **Hind ja allahindlus on fikseeritud**, kuvatakse sõnumiviip, milles palutakse teil muudatus salvestada. Klõpsake valikut **Jah**, et eemaldada link müügilepingu reaga ja hind ümber arvutada. Klõpsake valikut **Ei**, et eemaldada link müügilepingu reaga ilma hinda ümber arvutamata.                                                                   |
+| Netosumma                                                        | Kui määrate summa, mis ületab summat müügilepingu real, kus märgitud on ruut **Maksimaalne on jõustatud**, kuvatakse sõnumiviip, milles palutakse teil muudetud summa salvestada. Klõpsake valikut **Jah**, et eemaldada link müügilepingu reaga ja hind ümber arvutada. Klõpsake valikut **Ei**, et eemaldada link müügilepingu reaga ilma hinda ümber arvutamata.                                                                 |
+| Kogus                                                          | Kui määrate koguse, mis ületab kogust müügilepingu real, kus märgitud on ruut **Maksimaalne on jõustatud**, kuvatakse sõnumiviip, milles palutakse teil muudetud kogus salvestada. Klõpsake valikut **Jah**, et eemaldada link müügilepingu reaga ja hind ümber arvutada. Klõpsake valikut **Ei**, et eemaldada link müügilepingu reaga ilma hinda ümber arvutamata.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Müügilepingu alusel tellitud kauba tagastamine
-Kui klient tagastab toote, mis telliti müügilepingu, Microsoft Dynamics 365 tegevust leida ja automaatselt värskendada seotud müügilepingu pühendumust kajastava kogus või summa. Algse müügilepinguga lingitud müügitellimuse põhjal tagastustellimust luues loote lingi müügilepingu kohustuse, müügitellimuse rea ja tagastustellimuse arve vahel.  
+Kui klient tagastab toote, mis on tellitud müügilepingu alusel, saab Microsoft Dynamics 365 for Operations seotud müügilepingu kohustuse leida ja seda automaatselt värskendada, et kajastada koguse või summa muutust. Algse müügilepinguga lingitud müügitellimuse põhjal tagastustellimust luues loote lingi müügilepingu kohustuse, müügitellimuse rea ja tagastustellimuse arve vahel.  
 
 Kui te ei soovi tagastatud kauba kogust müügilepingu kohustusest lahutada, saate kasutada lehel **Tagastustellimus** juhtnuppu **Eemalda link**, et eemaldada tagastustellimuse ja müügilepingu kohustuse vaheline link. Kui peate lingi hiljem uuesti looma, klõpsake nuppu **Loo link**.  
 
 **Märkus.** Tagastustellimust saab linkida ainult ühe müügilepinguga. Kui klient tagastab mitu toodet, mis on tellitud rohkem kui ühe müügilepingu alusel, peate looma igale tootele uue tagastustellimuse ja lingi vastava müügilepinguga.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Müügilepingute automaatne otsimine
-Mõnes olukorras, kus müügitellimuste loomisel kaudselt, näiteks kreeditarve või kontsernisiseste müügitellimuste loomisel saate kontrollida kas Microsoft Dynamics 365 operatsioonide otsib korral ostu-ja müügilepingud.
+Mõnes olukorras, kui müügitellimus luuakse kaudselt, nt kreeditarve või kontsernisiseste müügitellimuste loomisel, saate reguleerida, kas Microsoft Dynamics 365 for Operations otsib rakendatavaid müügilepinguid automaatselt.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Müügilepingute finantsdimensioonid
 Saate kopeerida finantsdimensioonid kas dokumendipäistesse või müügilepingu üksikutele ridadele. Saate mis tahes lepingupäises või lepingureal olevaid dimensioone igal ajal muuta. Sellisel juhul kopeeritakse dimensioonid automaatselt väljastuspäisesse või väljalaskeorderite väljastusreale.
+
+
 
 

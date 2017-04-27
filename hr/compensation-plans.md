@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Hüvitusplaanid
 
+[!include[banner](includes/banner.md)]
+
+
 Hüvitise ja eeliste haldurid saavad kasutada hüvituste haldust, et hallata ning töödelda organisatsiooni töötajate fikseeritud ja ergutussüsteemi plaane.
 
 ### <a name="introduction"></a>Sissejuhatus
 
-Hüvitise juhtimise kasutatakse kontrolli alus maksma ja auhinnad. Kui töövõtja fikseeritud alus maksma ja merit suureneb juhitakse läbi kindlaksmääratud hüvitiste plaanid. Lisatasude (nt preemiate, tulemustasude aktsiate eelismüügi ja toetuste ning ühekordsete preemiate) maksmist juhitakse ergutussüsteemi plaanide kaudu. 
+Tasuhaldust kasutatakse põhitasu ja preemiate jagamise juhtimiseks. Töötaja fikseeritud põhipalga ja preemia tõusu juhitakse põhipalga plaanide kaudu. Lisatasude (nt preemiate, tulemustasude aktsiate eelismüügi ja toetuste ning ühekordsete preemiate) maksmist juhitakse ergutussüsteemi plaanide kaudu. 
 
 Töötajaid saab registreerida ühes või mitmes mõlemat tüüpi plaanis. Töötaja peab vastama järgmistele nõuetele, et tal oleks õigus tasuplaanis registreeruda.
 -   Töötaja peab olema määratud aktiivsele ametikohale.
@@ -54,7 +57,7 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 <td>Põhipalga toimingutel on kaks eesmärki.
 <ul>
 <li>Tegevused võivad määrata teabe liigi, mida tuleb salvestada, kui töötaja tasu muutub. Näiteks võite nõuda, et salvestatakse muudatuse põhjus (nt edutamine või madalamale ametikohale viimine).</li>
-<li>Tegevusi saate tagada, et arvutuse kindlaksmääratud hüvitiste plaanide töötlemisel.  Näiteks meetmete tüüpi omakapitali võrrelda töötajate töötasu vähemalt viide punkti taseme kohta töötaja ja töötaja saada tasumine vähemalt minimaalne.</li>
+<li>Tegevused saavad tagada arvutuse rakendamise põhipalga plaanide töötlemisel.  Näiteks võrdlevad tegevused, mille tüüp on Omakapital, töötajate palka töötaja taseme minimaalse võrdluspunktiga ja tagavad, et töötajale makstakse vähemalt miinimum.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 </tr>
 <tr class="even">
 <td>Tasusagedused</td>
-<td>Tasu sagedustel kasutatakse mille hüvitis on määratud perioodi.  Näiteks saate aru, kui hüvitise summa on määratud aastapalk versus tunni tasu sagedus aitab maksma määr. Tunnitasu maksta sageduste palk Sagedus aastas maksma sagedused on ka kasutatud kehtestada ümberarvestuskoefitsiendid teisendada kompensatsiooni iga kuu, nädal, kaks korda nädalas.</td>
+<td>Maksmise sagedusi kasutatakse ajaperioodi määratlemiseks, millele tasu on määratud.  Näiteks aitab maksmise sagedus aru saada, kas tasusumma on määratud iga-aastase palgana või tunnitasu määrana. Maksmise sagedust kasutatakse ka teisendustegurite seadistamiseks, et teisendada kuu, nädala, kahe nädala ja tunni tasusummad iga-aastaseks maksesageduseks.</td>
 </tr>
 <tr class="odd">
 <td>Hüvitise regioonid</td>
@@ -107,7 +110,7 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 </tr>
 <tr class="even">
 <td>Tasuruudustikud</td>
-<td>Hüvitise võrkude sisaldada kompensatsiooni struktuuri.  Hüvitise võrkude kasutamist mõni hüvitiste plaanid.</td>
+<td>Tasuruudustikud sisaldavad tasustruktuuri.  Tasuruudustikke saab kasutada ühes või mitmes tasuplaanis.</td>
 </tr>
 <tr class="odd">
 <td>Jõudlusplaanid</td>
@@ -126,9 +129,11 @@ Protsessisündmus arvutab tasuteabe kindlal perioodi jaoks kõigi ühte või mit
 <a name="compensation-events"></a>Kompensatsiooni sündmused
 -------------------
 
-Hüvitist juhul luuakse iga kord protsessi sündmus käivitatakse.  Hüvitise sündmused sisaldavad hüvitise protseduuri tulemused iga töötaja sündmusega protsessi kaasatud.  Kui arvutused on õiged, saab laadida hüvitist sündmuse protsessi sündmuse mõjutatud töötajatele hüvitist kirjete värskendamiseks.
+Iga kord, kui protsessisündmus käivitatakse, luuakse tasusündmus.  Tasusündmused sisaldavad tasuprotsessi tulemusi iga protsessisündmusesse kaasatud töötaja kohta  Kui arvutused on õiged, saate laadida tasusündmuse, et uuendada protsessisündmusest mõjutatud töötajate tasukirjeid.
 
 ## <a name="recommendations"></a> Soovitused
 Pärast protsessisündmuse käitamist võite soovitada korrigeerimisi töötaja lisatasu või preemiasumma suurendamiseks, tuginedes protsessisündmuse arvutatud juhistele. Töötajate kohta soovituste edastamiseks tuleb tasuplaanide või protsessisündmuse seadistamisel soovitused lubada.
+
+
 
 

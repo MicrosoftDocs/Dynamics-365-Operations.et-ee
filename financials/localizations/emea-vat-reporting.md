@@ -1,6 +1,6 @@
 ---
-title: "Käibemaksuaruande Euroopa"
-description: "Selles teemas kirjeldatakse seadistamine ja loomine mõnes Euroopa riigis käibemaks (VAT) lause."
+title: "Euroopa käibemaksuaruandlus"
+description: "Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,11 +25,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-reporting-for-europe"></a>Käibemaksuaruande Euroopa
+# <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
 
-Selles teemas kirjeldatakse seadistamine ja loomine mõnes Euroopa riigis käibemaks (VAT) lause.
+Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides.
 
-See teema pakub üldist lähenemisviisi seadistamine ja km aruande loomine. Selline lähenemine on tavaline kasutajatele juriidiliste isikute järgmistes riikides/piirkondades:
+See teema käsitleb üldiselt KM-aruande seadistamist ja koostamist. See lähenemine on tavapärane kasutajate puhul järgmiste riikide/regioonide juriidiliste isikute puhul:
 
 -   Austria
 -   Belgia
@@ -42,28 +42,28 @@ See teema pakub üldist lähenemisviisi seadistamine ja km aruande loomine. Sell
 -   Holland
 -   Rootsi
 
-## <a name="vat-statement-overview"></a>KM aruande ülevaade
-KM aruande põhineb maksu kannete summad. KM aruande loomisel on käibemaksu maksmise käigus, mida rakendatakse läbi Settle ja post käibemaksu funktsiooni. See funktsioon arvutab käibemaksu, mis on tingitud teatava ajavahemiku jooksul. Tasakaalustuse arvutamisse sisestatud käibemaks maksukannete valitud tasakaalustusperioodil. KM aruande andmete arvutamise protsessi aluseks käibemaksukoodide ja Käibemaksuaruandluse koodide, kus käibemaksu koodid vasta käibemaksu ütlusi kastid (ja sildid XML) suhe. Iga käibemaksukoodi käibemaksu koodid tuleb seadistada igat liiki tehingu maksustatavat kaupa, nagu maksustatavaid oste, maksustatava impordi. Need tüüpi tehingud on kirjeldatud kui [käibemaksu koodid km aruandlus](#Sales tax codes for VAT reporting) lõik käesoleva teema.
+## <a name="vat-statement-overview"></a>KM-aruande ülevaade
+KM-aruanne põhineb maksukannete summadel. KM-aruande koostamise protsess kuulub käibemaksu tasumise protsessi juurde, mida rakendatakse funktsiooni Käibemaksu tasakaalustamine ja sisestamine kaudu. See funktsioon arvutab käibemaksu, mille tähtaeg jääb antud perioodi sisse. Tasakaalustuse arvutamine sisaldab maksukannete valitud tasakaalustusperioodil sisestatud käibemaksu. KM-aruande andmete arvutusprotsess põhineb käibemaksukoodide ja käibemaksuaruandluse koodide vahelisel seosel, mille alusel käibemaksuaruandluse koodid vastavad käibemaksuaruannete väljadele (või XML-i siltidele). Iga käibemaksukoodi puhul tuleb seadistada igale kandetüübile (nt maksustatav müügikäive, maksustatavad ostud, maksustatav import) käibemaksuaruandluse koodid. Seda liiki kandeid on kirjeldatud selle teema edasises jaotises [KM-koodid KM-aruandluse jaoks](#Sales tax codes for VAT reporting).
 
-Iga käibemaksukoodi, tuleks määrata kindla aruande paigutus. Samal ajal on käibemaksu koodiga seotud kindlatest asutuse kaudu Käibemaksu tasakaalustusperioodid. Iga käibemaksuhalduri määratakse aruande kavandi. Seega, ainult Käibemaksuaruandluse koodid seadistatakse jaoks maksuhaldur käibemaksu tasakaalustusperioodid käibemaksu sama aruande kavandi valimist käibemaksu aruande seadistamisel. Käibemaksu kande korral tellimuse või žurnaali, sisaldab käibemaksukood, käibemaksu allikas, suund ja tehingu summad (käibemaksu ja tulumaksu summa raamatupidamise valuuta, käibemaksu, valuuta ja tehingu valuuta). Vastavalt maksu tehingu atribuutide kombinatsioon, tehingu summad moodustavad Käibemaksuaruandluse koodid määratletud käibemaksukoodide kogusummad. Järgmine joonis näitab andmeid.
+Iga käibemaksuaruandluse koodi puhul tuleb määrata konkreetne aruande paigutus. Samal ajal on käibemaksukoodid seotud käibemaksu tasakaalustamise perioodide kaudu konkreetse käibemaksuasutusega. Iga käibemaksuasutuse puhul tuleb määrata aruande paigutus. Seega saab käibemaksukoodi aruande seadistuses valida ainult sama aruande paigutusega KM-aruandluse koode, mis on seadistatud käibemaksuasutuse jaoks käibemaksukoodi käibemaksu tasakaalustusperioodil. Tellimuse või töölehe sisestamisel loodud käibemaksukanne sisaldab käibemaksukoodi, käibemaksu allikat, käibemaksu suunda ja kandesummasid (maksu põhisumma ja maksusumma arvestusvaluutas, käibemaksu valuuta ja kande valuuta). Maksukannete atribuutide kombinatsiooni põhjal koostavad kandesummad käibemaksukoodidele määratud käibemaksuaruandluse koodide koondsummad. Järgmine illustratsioon näitab andmete seost.
 
 ![diagramm](./media/diagram4.jpg)
 
-## <a name="vat-statement-setup"></a>KM aruande seadistamine
-KM aruande loomiseks peate seadistama järgmised.
+## <a name="vat-statement-setup"></a>KM-aruande seadistus
+KM-aruande koostamiseks tuleb seadistada järgmine.
 
-### <a name="sales-tax-authorities-for-vat-reporting"></a>Maksuhaldur käibemaksu aruandluseks
+### <a name="sales-tax-authorities-for-vat-reporting"></a>KM-asutused KM-aruandluse jaoks
 
 <!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/). -->
-Enne Käibemaksuaruandluse koodide valige maksuhaldur õige aruande paigutuse. Kohta ning **maksuhaldur** lehekülg, mis on **üldise** jaotises Valige on **aruande paigutus**. See kujundus kasutab Käibemaksuaruandluse koodide seadistamisel.
+Enne käibemaksuaruandluse koodide seadistamist tuleb valida käibemaksuasutuse jaoks õige aruande paigutus. Tehke lehel **Käibemaksuasutused** jaotises **Üldine** valik **Aruande paigutus**. Seda paigutust kasutatakse käibemaksuaruandluse koodide seadistamisel.
 
 ### <a name="sales-tax-reporting-codes"></a>Käibemaksuaruandluse koodid
 
-Käibemaksu koodid on boksi koodid km silt või avaldus nimed XML-vormingus. Neid koode kasutatakse koondab ja koostab aruande summad. KM aruande aruande elektrooniliselt konfigureerimisel kasutatakse tulemuse summad nimed. Saate luua ja hallata Käibemaksuaruandluse koodide kohta ning **Käibemaksuaruandluse koodide** lehel. Peate määrama iga kood aruande kavandi. Käibemaksuaruandluse koodide loomise järel saate koodid on **seadistus** jaotises on **käibemaksukoodide** lehel. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/) and [Sales tax reporting codes page (Field descriptions)](http://ax.help.dynamics.com/en/wiki/sales-tax-reporting-codes-page-field-descriptions/).-->
+Käibemaksuaruandluse koodid on väljade koodid KM-aruandes või siltide nimed XML-vormingus. Neid koode kasutatakse aruande summade liitmiseks ja ettevalmistamiseks. KM-aruande elektroonilise aruandluse vormingu konfigureerimisel kasutatakse saadud summade nimesid. Käibemaksuaruandluse koode saab luua ja hallata lehel **Käibemaksuaruandluse koodid**. Igale koodile tuleb määrata aruande paigutus. Pärast käibemaksuaruandluse koodide loomist saate valida koodid jaotisest **Aruande seadistus** lehel **Käibemaksukoodid**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/) and [Sales tax reporting codes page (Field descriptions)](http://ax.help.dynamics.com/en/wiki/sales-tax-reporting-codes-page-field-descriptions/).-->
 
-### <a name="sales-tax-codes-for-vat-reporting"></a>Käibemaksu koodiga km aruandlus
+### <a name="sales-tax-codes-for-vat-reporting"></a>Käibemaksukoodid KM-aruandluse jaoks
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).-->Summade alus ja maksustamine saab liita tehingute käibemaksu summad aruandluskoodid km aruande (XML-silte või deklaratsiooni lahtrid). Seadistage see täiendavaid Käibemaksuaruandluse koodid erinevad tüübid käibemaksukoodi kohta ning **käibemaksu koodiga** lehel. Järgnev tabel kirjeldab kuvamiseks aruande seadistus käibemaksukoode. Arvutus hõlmab igat liiki allikatest, välja arvatud käibemaksu kandeid.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).--> Alussummad ja käibemaksukannete maksusummad saab KM-aruandes aruandluskoodide all summeerida (XML-sildid või deklaratsiooni väljad). Selle saab seadistada, seostades käibemaksukoodide erinevate kandetüüpide käibemaksuaruandluse koodid lehel **Käibemaksukoodid**. Järgmises tabelis kirjeldatakse kandetüüpe käibemaksukoodide aruande seadistuses. Arvutus sisaldab kandeid kõigi allikatüüpide kohta, v.a käibemaks.
 
 <table>
 <colgroup>
@@ -72,202 +72,202 @@ Käibemaksu koodid on boksi koodid km silt või avaldus nimed XML-vormingus. Nei
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Transaction type</strong></td>
-<td><strong>Tehingute ja summad arvestatakse tehingu liigi kirjeldus</strong></td>
+<td><strong>Kande tüüp</strong></td>
+<td><strong>Kande tüübi all arvestatud kannete ja summade kirjeldus</strong></td>
 </tr>
 <tr class="even">
 <td><strong>Maksustatav müük</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud /</li>
-<li>Müümine on siseriikliku (<strong>käibemaksu suund</strong> on <strong>tasumisele kuuluva</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&lt; 0.</li>
+<li>Kande kuupäev on valitud perioodil /</li>
+<li>Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Tax-free müük</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksuvaba müük</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Müük on eksport (<strong>käibemaksu suund</strong> on <strong>maksuvaba müük</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&lt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Müük on eksport (<strong>Maksu suund</strong> on <strong>Maksuvaba müük</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Sales tax payable</strong></td>
-<td>Summa <strong>maksude summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Tasumisele kuuluv käibemaks</strong></td>
+<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Müümine on siseriikliku (<strong>käibemaksu suund</strong> on <strong>tasumisele kuuluva</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&lt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Taxable sales credit note</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksustatava müügi kreeditarve</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Müümine on siseriikliku (<strong>käibemaksu suund</strong> on <strong>tasumisele kuuluva</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Faks maksuvaba müügi kreeditarve</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksuvaba müügi kreeditarve</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Müük on eksport (<strong>käibemaksu suund</strong> on <strong>maksuvaba müük</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Müük on eksport (<strong>Maksu suund</strong> on <strong>Maksuvaba müük</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Sales tax on sales credit note</strong></td>
-<td>Summa <strong>maksude summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Käibemaks müügi kreeditarvel</strong></td>
+<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Müümine on siseriikliku (<strong>käibemaksu suund</strong> on <strong>tasumisele kuuluva</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable purchases</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksustatavad ostud</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Ostmine on kodune (<strong>käibemaksu suund</strong> on <strong>saadaolev käibemaks</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Tax-free purchase</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksuvaba ost</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Import on (<strong>käibemaksu suund</strong> on <strong>maksuvaba ost</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Ost on import (<strong>Maksu suund</strong> on <strong>Maksuvaba ost</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Sales tax receivable</strong></td>
-<td>Summa <strong>maksude summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Saadaolev käibemaks</strong></td>
+<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Ostmine on kodune (<strong>käibemaksu suund</strong> on <strong>saadaolev käibemaks</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Taxable purchase credit note</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksustatav ostu kreeditarve</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Ostmine on kodune (<strong>käibemaksu suund</strong> on <strong>saadaolev käibemaks</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&lt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Tax exempt purchase credit note</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksuvaba ostu kreeditarve</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Import on (<strong>käibemaksu suund</strong> on <strong>maksuvaba ost</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&lt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Ost on import (<strong>Maksu suund</strong> on <strong>Maksuvaba ost</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Sales tax on purchase credit note</strong></td>
-<td>Summa <strong>maksude summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Käibemaks ostu kreeditarvel</strong></td>
+<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Ostmine on kodune (<strong>käibemaksu suund</strong> on <strong>saadaolev käibemaks</strong>).</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&lt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable import</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksustatav import</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li><strong>Käibemaksu suund</strong> on <strong>kasutada maksu</strong></li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong></li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset taxable import</strong></td>
-<td>Tühistatud summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Tasakaalusta maksustatav import</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li><strong>Käibemaksu suund</strong> on <strong>kasutada maksu</strong>.</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable import credit note</strong></td>
-<td>Summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Maksustatava impordi kreeditarve</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-e<li><strong>Käibemaksu suund</strong> on <strong>kasutada maksu</strong>.</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&lt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+e<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset taxable import credit note</strong></td>
-<td>Tühistatud summa <strong>maksu baasi summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Tasakaalusta maksustatav impordi kreeditarve</strong></td>
+<td>Väärtuste <strong>Maksu baassummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li>Suund on <strong>kasutada maksu</strong>.</li>
-d<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&lt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li>Maksusuund on <strong>Kasutusmaks</strong>.</li>
+d<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Use tax</strong></td>
-<td>Summa <strong>maksude summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Kasutusmaks</strong></td>
+<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li><strong>Käibemaksu suund</strong> on <strong>kasutada maksu</strong>.</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset use tax</strong></td>
-<td>Tühistatud summa <strong>maksude summad</strong> maksukannete, mis vastavad järgmistele tingimustele:
+<td><strong>Kasutusmaksu vastasmaks</strong></td>
+<td>Väärtuste <strong>Maksusummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.
 <ul>
-<li>Kande kuupäev on valitud.</li>
-<li><strong>Käibemaksu suund</strong> on <strong>kasutada maksu</strong>.</li>
-<li>Tehingu <strong>käibemaksu</strong> või <strong>maksusumma</strong>&gt; 0.</li>
+<li>Kande kuupäev on valitud perioodil.</li>
+<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</li>
+<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Ülaltoodud tabelis eeldatakse järgmistel tingimustel: 
-> -   Käibemaksu on tehingu summa: selle **päritolu raamatupidamise valuutas** välja.
-> -   Maksusumma on üleminek: selle **tegelik Käibemaksusumma valuutas raamatupidamise** välja.
+> Ülal antud tabeli puhul eeldatakse, et täidetud on järgmised tingimused. 
+> -   Maksu baassumma on kande summa väljalt **Päritolu arvestusvaluutas**.
+> -   Maksu baassumma on üleviidav summa väljalt **Tegelik käibemaksusumma arvestusvaluutas**.
 
-### <a name="configure-the-er-model-and-format-for-the-report"></a>ER mudeli ja aruande vormi kohta
+### <a name="configure-the-er-model-and-format-for-the-report"></a>ER-mudeli ja aruande vormingu konfigureerimine
 
-Elektroonilise aruandluse (ER) saate seadistada avalduste ja aruande ja eksportida andmeid eri elektroonilistes formaatides X ++ koodi muutmata. Lisainfo:
+Elektroonilist aruandlust (ER) saab kasutada väljavõtete ja aruande konfigureerimiseks ning andmete eksportimiseks erinevates elektroonilistes vormingutes, X++ koodi muutmata. Lisateave:
 
 -   [Elektroonilise aruandluse ülevaade](/dynamics365/operations/dev-itpro/dev-itpro/analytics/general-electronic-reporting)
 -   [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Lokaliseerimine nõue – GER konfiguratsiooni loomine](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [Lokaliseerimisnõuded – GER-i konfiguratsiooni loomine](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
 
-## <a name="countryspecific-resources-for-vat-statements"></a>KM aruannete Countryspecific ressursid
-KM aruande iga riigi vastama riigi õigusaktidega. On eelnevalt määratletud üldised mudelid ja formaadid Käibemaksudeklaratsioonide koostamisel järgmises tabelis loetletud riigid.
+## <a name="countryspecific-resources-for-vat-statements"></a>Riigipõhised ressursid KM-aruannete puhul
+Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele. Järgmises tabelis loetletud riikide puhul on olemas KM-aruannete eelmääratud üldised mudelid ja vormingud.
 
 
 | Riik        | Lisateave                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Austria        |  [Austria käibemaksu väljavõtte üksikasjad](emea-aut-vat-statement-details.md)         |
+| Austria        |  [KM-aruande üksikasjad Austria puhul](emea-aut-vat-statement-details.md)         |
 | Belgia        |                                                                                 |
-| Tšehhi Vabariik |  [Käibemaksu väljavõtte üksikasjad Tšehhi Vabariik](emea-cze-vat-statement-details.md)   |
-| Eesti        |  [Käibemaksu väljavõtte üksikasjad Eesti](emea-est-vat-statement-details.md) |
+| Tšehhi Vabariik |  [KM-aruande üksikasjad Tšehhi Vabariigi puhul](emea-cze-vat-statement-details.md)   |
+| Eesti        |  [KM-aruande üksikasjad Eesti puhul](emea-est-vat-statement-details.md) |
 | Soome        |                                                                                 |
 | Saksamaa        |                                                                                 |
-| Itaalia          | [Käibemaksu väljavõtte üksikasjad, Itaalia](emea-ita-vat-statements-details.md)            |
-| Läti         | [Läti käibemaksu väljavõtte üksikasjad](emea-lva-vat-statement-details.md)           |
-| Leedu      | [Käibemaksu väljavõtte üksikasjad Leedu](emea-ltu-vat-statement-details.md)         |
+| Itaalia          | [KM-aruande üksikasjad Itaalia puhul](emea-ita-vat-statements-details.md)            |
+| Läti         | [KM-aruande üksikasjad Läti puhul](emea-lva-vat-statement-details.md)           |
+| Leedu      | [KM-aruande üksikasjad Leedu puhul](emea-ltu-vat-statement-details.md)         |
 | Holland    |                                                                                 |
 | Rootsi         |                                                                                 |
 

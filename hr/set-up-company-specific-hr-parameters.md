@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>Ettevõttekohaste inimressursside parameetrite seadistamine
 
+[!include[banner](includes/banner.md)]
+
+
 Mõne inimressursside (HR) parameetri sätteid jagatakse ettevõtete vahel, samas kui teiste parameetrite sätted on täiesti ettevõttepõhised. See artikkel selgitab, ettevõttepõhiste inimressursside parameetrite seadistamist.
 
 Inimressursside (HR) parameetrite määramiseks kasutatakse kahte lehte. Ettevõtetes ühiskasutatavate parameetrite puhul kasutate lehte **Inimressursside ühiskasutusega parameetrid**. Ettevõttekohaste parameetrite (teisisõnu sätted, mis rakenduvad ühele ettevõttele) puhul kasutate lehte **Inimressursside parameetrid**. Lehel **Inimressursside parameetrid** jaotatakse sätted kuue vahekaardi vahel.
@@ -42,9 +45,9 @@ Iga vahekaart sisaldab teavet, mis on seotud ühe ettevõttega. Sätted vahekaar
 
 Vahekaardi **Värbamine** sätted määratlevad dokumendi tüübid, mida kasutatakse kandidaatidele automaatselt vastuse saatmiseks, ja värbamisprojekti, mida kasutatakse soovimatute avalduste puhul (avaldused, mis ei ole kindla värbamisprojektiga seotud). Värbamisprojekti ajalise jaotuse jaoks määratud periood määrab värbamisprojektid, mis on lisatud paanile **Projektide ajaline jaotus** tööruumis **Värbamise haldus**. Avalduse tähtaja hoiatusele määratud perioodi kasutatakse selliste värbamisprojektide kuvamiseks, mis lähenevad avalduse tähtajale paanil **Avalduse tähtaeg on lähenemas** tööruumis **Värbamine**. 
 
-Seaded on **hüvitist** vahekaardil saate määratleda, kas peavad kasutajad kinnitavad, et nad tahavad fikseeritud või hüvitiste plaan teabe salvestamiseks. Kui valite selle **luba salvestada valideerimise** märkige ruut kasutajad sulgeda hüvitise lehe, alati nad saavad teade, mis küsib, kas nad soovivad kirje salvestamiseks. Mõned lehed hüvitist juhtimises ei lase kasutajatele teavet kustutada. Seega paludes kasutajatel kinnitada, et nad soovivad teabe salvestada, saate võib-olla piirata salvestatud teabe hulka, mida ei saa hiljem kustutada. Kui ruut **Lubada salvestamise kinnitamine** on tühi, salvestatakse kirjed alati kohe, võimalik, et enne seda, kui kasutaja on lõpetanud. Jõudlushalduse kasutamisel võimaldab vahekaart **Hüvitus** teil valida ka hindamismudeli, mida hindamisel mudelile määratud hüvituse plaanide asemel kasutada. 
+Vahekaardil **Hüvitus** olevad sätted määratlevad, kas kasutajad peavad kinnitama, et nad soovivad fikseeritud või ergutussüsteemi plaani jaoks teavet salvestada. Kui märgite ruudu **Lubada salvestamise valideerimine?**, saavad kasutajad iga kord, kui nad sulgevad hüvitusega seotud lehe, sõnumi, mis küsib, kas nad soovivad kirje salvestada. Mõned lehed hüvituste halduses ei lase kasutajatel teavet kustutada. Seega paludes kasutajatel kinnitada, et nad soovivad teabe salvestada, saate võib-olla piirata salvestatud teabe hulka, mida ei saa hiljem kustutada. Kui ruut **Lubada salvestamise kinnitamine** on tühi, salvestatakse kirjed alati kohe, võimalik, et enne seda, kui kasutaja on lõpetanud. Jõudlushalduse kasutamisel võimaldab vahekaart **Hüvitus** teil valida ka hindamismudeli, mida hindamisel mudelile määratud hüvituse plaanide asemel kasutada. 
 
-Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viited ja koodide säilitamiseks kasutage selle **Numbriseeriad** loendilehe (klõpsake **organisatsiooni haldamine**&gt;**Number sequences**&gt;**Numbriseeriad**). 
+Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viidete ja koodide säilitamiseks kasutage loendi lehte **Numbriseeriad** (klõpsake valikuid **Organisatsiooni haldus** &gt; **Numbriseeriad** &gt; **Numbriseeriad**). 
 
 Vahekaardi **FMLA** sätted määratlevad, mitu tundi peab töötaja töötama, et saada FMLA eeliseid, sobivuseks nõutava tööaja pikkuse ja töösuhte alguskuupäeva, mida kasutatakse tööaja pikkuse määramiseks. Sätted määratlevad ka FMLA tundide arvu, millele töötajatel õigus on, ja FMLA puhkuste kalendri, mida kasutatakse selleks, et arvutada, mitu FMLA tundi töötajad kasutanud on. Vahekaart **FMLA** on saadaval ainult USA ettevõtetele. 
 
@@ -54,5 +57,7 @@ Vahekaardi **FMLA** sätted määratlevad, mitu tundi peab töötaja töötama, 
 --------
 
 [Juriidiliste isikutele inimressursside parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md)
+
+
 
 

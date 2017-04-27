@@ -1,6 +1,6 @@
 ---
-title: "Värbamine Power BI sisu"
-description: "Teema käsitleb Dynamics 365 toiminguteks - värbamine Power BI sisu. Ta selgitab, kuidas on võimalik saada aruandeid, mis on kaasatud sisu pack ja andmemudel ja üksuste, ehitada sisu pakendi kasutatud teavet."
+title: "Värbamise Power BI sisu"
+description: "See teema kirjeldab Dynamics 365 for Operationsi värbamise mooduli Power BI sisu. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisupaketi loomiseks kasutati."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,49 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recruiting-power-bi-content"></a>Värbamine Power BI sisu
+# <a name="recruiting-power-bi-content"></a>Värbamise Power BI sisu
 
-Teema käsitleb Dynamics 365 toiminguteks - värbamine Power BI sisu. Ta selgitab, kuidas on võimalik saada aruandeid, mis on kaasatud sisu pack ja andmemudel ja üksuste, ehitada sisu pakendi kasutatud teavet.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Juurdepääsu sisu pakendi
+
+See teema kirjeldab Dynamics 365 for Operationsi värbamise mooduli Power BI sisu. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisupaketi loomiseks kasutati.
+
+<a name="accessing-the-content-pack"></a>Juurdepääs sisupaketile
 --------------------------
 
-Leiate värbamine sisu pakendi jagatud varade teegi in Microsoft Dynamics elutsükli teenused (LCS). Lae sisu pakendi ja ühendada oma Microsoft Dynamics 365 toimingute andmete kohta lisateabe saamiseks vt [Power BI sisu LCS Microsofti ja oma partnerite](power-bi-content-microsoft-partners.md).
+Värbamise sisupaketi leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisupaketi allalaadimise ja selle ühendamise kohta Microsoft Dynamics 365 for Operationsi andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Aruanded, mis on kaasatud sisu pack
-Pärast sisu pakendi oma Dynamics 365 toimingute andmed, aruannetest nähtub teie ettevõtte andmeid. Kui te pole varem Microsoft Power BI enne, saab õppida rohkem sellest on [juhindub õppe lehekülg Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Aruanded, mis on kaasatud sisu pack on graafikuid ja tabeleid, mis sisaldavad täiendavat teavet. Järgmises tabelis on kirjeldatud aruandeid.
+## <a name="reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad aruanded
+Pärast sisupaketi ühendamist Dynamics 365 for Operationsi andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet jaotisest [Power BI juhendatud õpe](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
 
 | Aruanne                       | Sisu                                                                                               |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
-| Taotleja analüüs           | Taotlejate tööd, taotleja allikad, taotlejate asukoht ja koguarv           |
-| Kandidaadi olek             | Taotleja tüüp staatus ja kandidaadi olek                                                    |
-| Taotleja demograafia       | Kandidaatide vanuse ja soo ja haridustaseme ja staatuse taotlejate                             |
-| Värbamine analüüs          | Neto rendi suhe, Keskmine päeva palgata, halb palkab ja värbamise kulud                    |
-| Värbamine projekti analüüs | Värbamisprojektide, avade poolt värbamisprojekti ja taotlejate poolt värbamisprojekti arv |
+| Kandidaadi analüüs           | Kandidaadid töö järgi, kandidaatide allikad, kandidaadid asukoha järgi ja kandidaatide arv kokku           |
+| Kandidaadi olek             | Kandidaadid tüübi ja oleku järgi ning kandidaadi olek                                                    |
+| Kandidaadi demograafilised näitajad       | Kandidaadid vanuse ja soo järgi ning kandidaadid haridustaseme ja oleku järgi                             |
+| Värbamise analüüs          | Palkamise netosuhe, palkamise keskmine päevade arv, halbade palkamiste protsent ja värbamiskulud                    |
+| Värbamisprojekti analüüs | Värbamisprojektide arv, vabad ametikohad värbamisprojekti alusel ja kandidaadid värbamisprojekti alusel |
 
-Saate filtreerida diagrammid ja plaadid aruannete ja diagrammide ja plaadid armatuurlauale kinnitada. Filter ja Power BI pin kohta lisateabe saamiseks vt [loomine ja konfigureerimine armatuurlaua](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Toimingute andmed Dynamics 365 saab asustada värbamine sisu Pack aruanded. Järgmine tabel näitab üksuste sisu pakendi põhines.
+Värbamise sisupaketi aruannete täitmiseks kasutatakse Dynamics 365 for Operationsi andmeid. Järgmises tabelis on toodud sisupaketi aluseks olevad üksused.
 
-| Üksus                          | Sisu                                                         | Suhted ka teiste                                                                                                                                                                                                                 |
+| Üksus                          | Sisu                                                         | Seosed teiste üksustega                                                                                                                                                                                                                 |
 |---------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Värbamine\_taotleja           | Hagejad, renditud kandidaadile, neto rendi suhe ja kulud          | Värbamine\_ApplicantName tööle\_firma tööle\_CalendarOffset Recuriting\_kuupäev tööle\_GeographicLocation tööle\_demograafia tööle\_töö, tööle\_meedia tööle\_RecruitmentProject                                |
-| Värbamine\_ApplicantName       | Taotleja eesnimi, perekonnanimi ja täisnimi                   | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_CalendarOffset      | Kalendri tasakaalustab viil aruanded                                | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_firma             | Ettevõtete poolt aruannete filtreerimiseks                                   | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_kuupäev                | Päeva, nädala, kuu ja aasta                                   | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_demograafia        | Sünniaeg, soo, etnilise päritolu ja Perekonnaseis         | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_EmployedApplicant   | Taotleja, jõudluse, alguskuupäev ja taotleja tüüp           | Värbamine\_firma tööle\_CalendarOffset tööle\_kuupäev tööle\_GeographicLocation tööle\_ApplicantName tööle\_tööhõive tööle\_tulemuslikkuse tööle\_töö, tööle\_meedia tööle\_RecruitmentProject          |
-| Värbamine\_tööhõive          | Alguskuupäev, lõppkuupäev ja ülemineku kuupäev                        | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_GeographicLocation  | Linn, maakond, postiindeks kood ja maakond                 | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_töö                 | Funktsiooni, tüüp ja tiitel                                        | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_Media               | Allikas taotlejate                                             | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_täitmise         | Hinnang, kirjeldus ja hinnang mudel                            | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_RecruitmentProject  | Projekti kirjeldus projekti seisukorra ja avad                | Värbamine\_hageja tööle\_EmployedApplicant tööle\_TerminatedApplicant                                                                                                                                                               |
-| Värbamine\_TerminatedApplicant | Hagejad, põhjus, täitmise ja lõppemise päev | Värbamine\_firma tööle\_CalendarOffset tööle\_kuupäev tööle\_GeographicLocation tööle\_tulemuslikkuse tööle\_demograafia tööle\_tööhõive tööle\_meedia tööle\_RecruitmentProject tööle\_ApplicantName |
+| Värbamine\_Kandidaat           | Kandidaadid, palgatud kandidaadid, palkamise netosuhe ja kulud          | Värbamine\_Värbamise ApplicantName\_Värbamise ettevõte\_Värbamise CalendarOffset\_Värbamise kuupäev\_Värbamise GeographicLocation\_Värbamise demograafilised andmed\_Värbamise töö\_Värbamise meedia\_RecruitmentProject                                |
+| Värbamine\_ApplicantName       | Kandidaadi eesnimi, perekonnanimi ja täielik nimi                   | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_CalendarOffset      | Kalendri tasakaalustused aruannete tükeldamiseks                                | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_Ettevõte             | Ettevõtted, mille alusel aruandeid filtreerida                                   | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_Kuupäev                | Päevad, nädalad, kuud ja aastad                                   | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_Demograafilised andmed        | Sünnikuupäev, sugu, etniline päritolu ja perekonnaseis         | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_EmployedApplicant   | Kandidaat, tulemused, alguskuupäev ja kandidaadi tüüp           | Värbamine\_Värbamise ettevõte\_Värbamise CalendarOffset\_Värbamise kuupäev\_Värbamise GeographicLocation\_Värbamise ApplicantName\_Värbamise töösuhe\_Värbamise tulemused\_Värbamise töö\_Värbamise meedia\_RecruitmentProject          |
+| Värbamine\_Töösuhe          | Alguskuupäev, lõppkuupäev ja ülemineku kuupäev                        | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_GeographicLocation  | Linn, maakond, sihtnumber ja osariik või provints                 | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_Töö                 | Funktsioon, tüüp ja ametinimetus                                        | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_Meedia               | Kandidaatide allikas                                             | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_Tulemused         | Hinnang, kirjeldus ja hinnangumudel                            | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_RecruitmentProject  | Projekti kirjeldus, projekti olek ja vabad ametikohad                | Värbamine\_Värbamise kandidaat\_Värbamise EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
+| Värbamine\_TerminatedApplicant | Lõpetatud kandidaadid, põhjus, tulemused ja lõpetamise kuupäev | Värbamine\_Värbamise ettevõte\_Värbamise CalendarOffset\_Värbamise kuupäev\_Värbamise GeographicLocation\_Värbamise tulemused\_Värbamise demograafia\_Värbamise töösuhe\_Värbamise meedia\_Värbamise RecruitmentProject\_ApplicantName |
 
-Need üksused olid saab luua arvutatud mõõtmeid. Need arvutatakse meetmed seejärel kasutatakse tulemuslikkuse võtmenäitajate (KPI) ja aruanded, mida kasutatakse sisu Pack. Kui soovite kaasata edasiste arvutuste aruanded ja armatuurlaud, saate alla laadida ja muuta LCS Recruiting.pbix faili. See fail on vaikimisi andmemudel, kust luua sisu pakendi. Kui olete teinud muudatusi, saate luua organisatsiooni sisu pakendi ja armatuurlaud, mis sisaldab lisatud teavet.
+Neid üksusi kasutati arvutatud meetmete loomiseks. Seejärel kasutatakse neid arvutatud meetmeid sisupaketis kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Aruannetesse ja armatuurlauale täiendavate arvutuste lisamiseks võite laadida LCS-ist alla ja muuta faili Recruiting.pbix. See fail on vaikeandmemudel, mida kasutati sisupaketi loomiseks. Kui muudatused on tehtud, saate luua organisatsiooni sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
 
 ## <a name="additional-resources"></a>Lisaressursid
 Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
@@ -75,6 +78,8 @@ Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomise
 -   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI paanide lisamine tööruumidele](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

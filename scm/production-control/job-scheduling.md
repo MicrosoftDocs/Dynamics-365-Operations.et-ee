@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Tööde planeerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet tööde plaanimise kohta, mis on operatsioonide plaanimisest üksikasjalikum plaanimise vorm. Saate kasutada töö planeerimist selleks, et planeerida üksikuid töid või töökoja tellimusi, ja et juhtida tootmiskeskkonda.
 
 Saate kasutada töö planeerimist selleks, et planeerida üksikuid töid või töökoja tellimusi, ja et juhtida tootmiskeskkonda. Töö planeerimine jaotab iga toimingu üksikuteks ülesanneteks või töödeks. Need tööd määratakse siis operatsiooniressurssidele, kes need ära teevad. Töö planeerimine võimaldab ka sünkroonida kõik tööd, millele valitud töö viitab. Saate määrata töö alguskuupäeva ja kellaaja või lõppkuupäeva ning kellaaja ja siis plaani käitada. Määratud aeg võib olenevalt planeerimissuunast olla algus- või lõppaeg. See funktsioon on kasulik näiteks siis, kui tööd saab korraga käitada ainult ühes masinas või kui soovite optimeerida tööd, mis käivitatakse iga ressursi puhul.
@@ -39,7 +42,7 @@ Tööde planeerimise protsess hõlmab järgmisi ülesandeid.
 -   Jaotage operatsioonid töödeks.
 -   Planeerige tööd seotud operatsioonile määratud ressursside kuupäevade ja aegade alusel.
 -   Arvutage iga töö algus- ja lõppkellaajad. Saate kasutada piiratud võimsust veendumaks, et ajad ei kattu.
--   Kindlaks, millised ressursid ressursi rühma töö sõitma. See ülesanne nõuab ressursirühmi täpsustada operatsiooni. Töö planeerimine valib ressursid või ressursigrupid lühima täitmisaja alusel ja kaalub ka ressursside varasemaid reserveeringuid.
+-   Määrake, millistel ressursigrupi ressursidel tööd käitada. Selle ülesande puhul on nõutav, et operatsioonile on määratud ressursigrupp. Töö planeerimine valib ressursid või ressursigrupid lühima täitmisaja alusel ja kaalub ka ressursside varasemaid reserveeringuid.
 -   Tükeldage operatsioonid töödeks, kui käitate tööde planeerimist. Tööd planeeritakse kuupäeva ja kellaaja alusel, vastavalt tootmisprotsessi määratud tellimusele. Operatsiooni häälestus määrab tööd, mis planeerimisprotsessis tükeldatakse. Operatsioonile määratud protsessigrupp kontrollib, kas tööd luuakse. Töö on loodud üksnes juhul, kui sel on kindel kestus. Nt transpordi ajatöö on loodud, kui valitud operatsiooni transpordiaeg on määratud.
 
 ## <a name="scheduling-direction"></a>Planeerimise suund
@@ -73,5 +76,7 @@ Ressursid määratakse töödele töö planeerimise kaudu. Saate kehtestada ress
 
 ## <a name="resource-efficiency"></a>Ressursside efektiivsus
 Töö planeerimine võtab arvesse ressurssidele määratud efektiivsusprotsente. Efektiivsusprotsendid vähendavad või suurendavad ressursi jaoks reserveeritud aja hulka. Seetõttu suureneb või väheneb ka täitmisaeg. Arvutamiseks kasutatakse järgmist valemit: planeerimisaeg = aeg × 100 ÷ efektiivsusprotsent. Selles valemis hõlmab *Aeg* nii käitamisaega kui ka häälestusaega.
+
+
 
 

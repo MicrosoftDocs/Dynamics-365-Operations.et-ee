@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Uue toodetud kauba standardomahinna värskendamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse juhiseid uue toodetud kauba standardkulude värskendamise kohta. 
 
 Järgmised juhised eeldavad, et kasutate kaheversioonilist lähenemist standardkulude värskendamiseks. Selles lähenemises sisaldab üks kuluarvutuse versioon standardkulusid, mis määratleti algselt külmutatud perioodiks, ja teine kuluarvutuse versioon sisaldab uute toodetud kaupade astmelisi värskendusi. Astmelised värskendused sisestatakse kulukirjetena teise kuluversiooni, ja lõpuks aktiveeritakse. Kaheversiooniline lähenemine nõuab teise kuluarvutuse versiooni määratlemist. Siin on juhised selle kuluarvutuse versiooni määratlemiseks.
@@ -47,6 +50,8 @@ Uute toodetavate kaupade lisamiseks kogu külmutatud perioodi jooksul tehke jär
 5.  Kasutage lehte **Kuluarvutuse versiooni seadistus** blokeerimislipu muutmiseks, et lubada teise kuluarvutuse versiooni ootel kulukirjete aktiveerimine.
 6.  Kasutage lehte **Hindade aktiveerimine** (mille saab avada lehelt **Kuluarvutuse versiooni hooldus**) kõigi teises kuluarvutuse versiooni ootel kauba kulukirjete aktiveerimiseks. Ootel kulukirjeid saab aktiveerida ka eraldi kaupade kohta, klõpsates nuppu **Aktiveerimine** lehel **Kauba hind**.
 7.  Kasutage lehte **Kuluarvutuse versiooni seadistus** blokeerimislippude muutmiseks, et vältida täiendavat andmete hooldust. Blokeerimispoliitikad takistavad uute ootel kulude sisestamist ja ootel kulude aktiveerimist.
+
+
 
 
 

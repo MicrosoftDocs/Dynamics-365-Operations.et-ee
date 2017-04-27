@@ -1,6 +1,6 @@
 ---
-title: "Koosluse versiooni määratlemine"
-description: "Nõudluse plahvatuse ajal kui kaubal on tellimuse vaiketüübi tootmise, planeerimise mootori leiab vastavalt saidi kehtiv koosluseversioon."
+title: "Koosluse versiooni määramine"
+description: "Nõudluse koostamise ajal, kui kaubal on vaiketellimuse tüüp Tootmine, leiab plaanimismootor laoalal põhineva kehtiva koosluse versiooni."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a>Koosluse versiooni määratlemine
+# <a name="determine-the-bom-version"></a>Koosluse versiooni määramine
 
-Nõudluse plahvatuse ajal kui kaubal on tellimuse vaiketüübi tootmise, planeerimise mootori leiab vastavalt saidi kehtiv koosluseversioon. 
+[!include[banner](../includes/banner.md)]
+
+
+Nõudluse koostamise ajal, kui kaubal on vaiketellimuse tüüp Tootmine, leiab plaanimismootor laoalal põhineva kehtiva koosluse versiooni. 
 
 Laoala dimensioon on alati teada ja nimetatud nõudluskandes. Kasutatava koosluse versiooni määramiseks kasutatakse järgmist protsessi.
 
@@ -38,6 +41,8 @@ Laoala dimensioon on alati teada ja nimetatud nõudluskandes. Kasutatava kooslus
 -   Kui ei ole ühtegi kasutuselolevat koosluse versiooni, lõpeb siinkohal nõudluse kooslusearvutus.
 
 Kehtiv koosluse versioon, laoalapõhine või üldine, peab vastama nõutavatele kuupäeva ja koguse kriteeriumidele.
+
+
 
 
 

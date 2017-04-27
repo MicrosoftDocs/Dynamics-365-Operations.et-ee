@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Tarbimise kulum
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade kulumi tarbimismeetodist.
 
 Kui valite põhivara kulumireeglid ja teete valiku **Tarbimine** väljal **Meetod** lehel **Kulumireeglid**, määratakse põhivara kulumireeglitele kasutuse põhjal. Lehel **Kulumireeglid** pole vaja protsente ega intervalle seadistada. Pärast meetodit Tarbimine kasutavate kulumireeglite loomist on meetodi seadistamiseks mitmesuguseid võimalusi.
@@ -64,5 +67,7 @@ Järgmine tarbimiskulumi tegur on seadistatud 31. jaanuari jaoks:
 -   Eeldatav põhivara kogus on 2000.
 
 Kulumisoovitus on 31. jaanuaril järgmine: hinnanguline kogus × protsent × ühikukulum 2000 × 0,10 × 1,5 = 300
+
+
 
 

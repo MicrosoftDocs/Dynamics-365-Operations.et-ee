@@ -118,7 +118,7 @@ eGiro põhineb rahvusvahelisel UN EDIFACT CREMUL-i (Multiple Credit Advice Messa
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Maksevormingut enam ei kasutata.                                                     |
-| Asendatud teise funktsiooniga? | Nr Vorming asendatakse ISO 20022 impordi skeeme tulevastes väljalasetes. |
+| Asendatud teise funktsiooniga? | Nr Vorming asendatakse tulevastes väljalasetes ISO 20022 väljavõtte impordivormingutega. |
 | Mõjutatud moodulid             | Müügireskontro                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Väliskaubavaru Poola puhul
@@ -138,7 +138,7 @@ Tööriista kasutatakse andmete kogumise seadistamiseks raamatupidamise ja maksu
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Piiratud kasutus                                                                            |
-| Asendatud teise funktsiooniga? | Nr Tööriista asendatakse elektroonilise aruandluse koosseisud tulevikus releases. |
+| Asendatud teise funktsiooniga? | Nr Tööriist asendatakse tulevastes väljalasetes elektroonilise aruandluse konfiguratsioonidega. |
 | Mõjutatud moodulid             | Pearaamat                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Kliendimakse kannete import Soome puhul
@@ -148,7 +148,7 @@ Saate valida Soome maksete puhul impordivormingu, et importida kliendimakse kand
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Maksevormingut enam ei kasutata.                                                     |
-| Asendatud teise funktsiooniga? | Nr Vorming asendatakse ISO 20022 impordi skeeme tulevastes väljalasetes. |
+| Asendatud teise funktsiooniga? | Nr Vorming asendatakse tulevastes väljalasetes ISO 20022 väljavõtte impordivormingutega. |
 | Mõjutatud moodulid             | Müügireskontro                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Maksekannete importimine pearaamatu töölehele Soome puhul
@@ -158,7 +158,7 @@ Vormingut, mis on spetsiifiline Soomele, kasutatakse raamatupidamiskannete peara
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Maksevormingut enam ei kasutata.                                                     |
-| Asendatud teise funktsiooniga? | Nr Vorming asendatakse ISO 20022 impordi skeeme tulevastes väljalasetes. |
+| Asendatud teise funktsiooniga? | Nr Vorming asendatakse tulevastes väljalasetes ISO 20022 väljavõtte impordivormingutega. |
 | Mõjutatud moodulid             | Müügireskontro                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integratsioon Isabeliga, sünkroniseeritud (CIS) Belgia jaoks
@@ -168,7 +168,7 @@ Isabel on e-panganduse raamistik Euroopas ja de facto standard Belgias.
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Integratsioon Isabeli kliendiga on katkestatud.                                                                |
-| Asendatud teise funktsiooniga? | Nr Makse formaadis, mida ei kasutata enam asendatakse ISO20022 krediidi ülekande maksevormingu Belgiat. |
+| Asendatud teise funktsiooniga? | Nr Maksevormingu, mida enam ei kasutata, asendatakse Belgia ISO20022 kreeditiülekande maksevorminguga. |
 | Mõjutatud moodulid             | Ostureskontro                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Modifikatsioonid kontoplaanis ja raamatupidamisreeglites Hispaania puhul
@@ -218,7 +218,7 @@ Telehansa ja TeleTeenuse vorminguid kasutatakse pangamakse ekspordi jaoks.
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Maksevorminguid enam ei kasutata.                                                    |
-| Asendatud teise funktsiooniga? | Nr Vormid asendatakse ISO 20022 impordi skeeme tulevastes väljalasetes. |
+| Asendatud teise funktsiooniga? | Nr Vormingud asendatakse tulevastes väljalasetes ISO 20022 väljavõtte impordivormingutega. |
 | Mõjutatud moodulid             | Müügireskontro                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Jõudlushalduse eesmärgi töövoog
@@ -228,7 +228,7 @@ Jõudlushaldus hõlmab eesmärgihaldust ja integreerimist jõudluse ülevaadeteg
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Jõudlushaldus kujundati ümber ja eesmärgi lehtede arvu vähendati, et protsessi lihtsustada.                 |
-| Asendatud teise funktsiooniga? | Nr Eesmärgid on nähtavad juhid juht ise teenuse portaali kaudu ja saab muuta ja vaatasid ettevõtja. |
+| Asendatud teise funktsiooniga? | Nr Eesmärgid on nähtavad juhtidele juhi iseteeninduse portaali kaudu ja neid saab muuta ja vaadata vastav juht. |
 | Mõjutatud moodulid             | Inimkapitali juhtimine                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Postgiroti ja Postgirot Utlandi maksevormingud Rootsi puhul
@@ -243,17 +243,17 @@ Postgiroti ja Postgirot Utlandi maksevormingud Rootsi puhul.
 
 ### <a name="radio-frequency-identifier"></a>Raadiosageduse identifikaator
 
-Raadiosagedustuvastus (RFID) on andmete kogumise tehnoloogia, mis kasutab elektroonilisi silte salvestada andmete tuvastamine ja nr-line-of-vaatepilt nõue lugeja lüüa isikuandmed.
+Raadioidentimine (RFID) on andmete kogumise tehnoloogia, mis kasutab identimisteabe talletamiseks elektroonilisi silte ja selle teabe hankimiseks otsenähtavuse olemasolu mitte eeldavat lugemisseadet.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Kasutuselt eemaldamise põhjus       | Madal kliendi kasutamine ja piiratud funktsioon määratud. |
+| Kasutuselt eemaldamise põhjus       | Vähene kasutamine klientide seas ja piiratud funktsioonide kogum. |
 | Asendatud teise funktsiooniga? | Ei                                            |
 | Mõjutatud moodulid             | Varud                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Aruanne riigi arvete nummerdamise kohta Läti puhul
 
-Läti seadusandlus annab teatud reeglid müügiarvete nummerdamise kohta. Funktsioone saate määrata konkreetsete numbrite müügiarvetele, kasutaja või kasutajagrupp. Seejärel kasuta aruande või XML-faili. Samuti saate printida aruande kasutatavate arvenumbrite kohta.
+Läti seadusandlus annab teatud reeglid müügiarvete nummerdamise kohta. Funktsioon võimaldab müügiarvetele kasutaja või kasutajagrupi põhjal spetsiifilised numbrid määrata. Seejärel saate luua aruande või XML-faili. Samuti saate printida aruande kasutatavate arvenumbrite kohta.
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Töövoog töötaja eesmärkide loomise haldamiseks on üks mitmest töövoost, 
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ja AxBC integratsioonid
 
-Rakenduste integreerimise raamistikus (AIF) saab vahetada andmeid välissüsteemidega äriloogika kaudu, mis on näidatud teenustena. Dynamics AX sisaldab teenuseid, mis põhinevad dokumentidel ja .NET Business Connectoril (AxBC). Dokument luuakse XML-i abil. XML sisaldab päiseteavet, mis lisatakse *sõnumi* loomiseks, mille saab Dynamics AX-i või sealt välja saata. Dokumentide näites on müügitellimused ja ostutellimused. Kuid peaaegu igasugune üksus (nt klient) võib olla kajastatud dokumendiga. Teenuseid, mis põhinevad dokumentide kasutamine on **Axd &lt;*dokumendi*&gt;** klassid.
+Rakenduste integreerimise raamistikus (AIF) saab vahetada andmeid välissüsteemidega äriloogika kaudu, mis on näidatud teenustena. Dynamics AX sisaldab teenuseid, mis põhinevad dokumentidel ja .NET Business Connectoril (AxBC). Dokument luuakse XML-i abil. XML sisaldab päiseteavet, mis lisatakse *sõnumi* loomiseks, mille saab Dynamics AX-i või sealt välja saata. Dokumentide näites on müügitellimused ja ostutellimused. Kuid peaaegu igasugune üksus (nt klient) võib olla kajastatud dokumendiga. Dokumentidel põhinevad teenused kasutavad klasse **Axd &lt;*Dokument*&gt;**.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Föderaalmaksu avaldus ICMS maksule
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | See avaldus ei ole enam kohaldatav mõnedes Brasiilia osariikides.                                                     |
-| Asendatud teise funktsiooniga? | Nr Kasutajad saavad kasutada üldise elektroonilise aruandluse tööriist seadistada kalkulatsiooni ettenähtud erijuhtudel. |
+| Asendatud teise funktsiooniga? | Nr Kasutajad saavad kasutada üldist elektroonilist aruandlustööriista, et konfigureerida avaldust vastavalt konkreetsele olukorrale. |
 | Mõjutatud moodulid             | Finantsraamatud                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Brasiilia SCAN-i ettenägematute kulude režiim NF-e puhul
@@ -631,7 +631,7 @@ Inimressursside palgateave
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | See funktsioon on asendatud tuumlehtedega Palk ja Inimressurssid.                                                                                                                                                                                                                                              |
-| Asendatud teise funktsiooniga? | **Soodustused**, **Tulud** ja muud seotud lehed, mis olid varem moodulis USA palk olemas, on nüüd ümber konfigureeritud ja kuuluvad inimressursside tuumkonfiguratsiooni, et aidata toetada välist palga töötlemist. See funktsioon on kättesaadav, kasutades selle **personalikulud 1**&gt;**palga** konfiguratsioonivõti. |
+| Asendatud teise funktsiooniga? | **Soodustused**, **Tulud** ja muud seotud lehed, mis olid varem moodulis USA palk olemas, on nüüd ümber konfigureeritud ja kuuluvad inimressursside tuumkonfiguratsiooni, et aidata toetada välist palga töötlemist. Sellele funktsioonile pääseb juurde konfiguratsioonivõtmega **Inimressursid 1** &gt; **Palk**. |
 | Mõjutatud moodulid             | Inimressursid, Palk                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Varude ja laohalduse töölehtede privaatne blokeerimine
@@ -698,12 +698,12 @@ Sites Services võimaldab luua veebisaite, mis laiendavad äriprotsessid Interne
 | Asendatud teise funktsiooniga? | Ei                                                                                                                                       |
 | Mõjutatud moodulid             | Inimressursside värbamine, juhtumihaldus, pakkumiskutsed, hankija registreerimine                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>SSAS nõudluse prognoosimise strateegia
+### <a name="ssas-demand-forecasting-strategy"></a>SSAS-i nõudluse prognoosi strateegia
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Kasutuselt eemaldamise põhjus       | Turvaelement kujundus ei saa toetada uue pilve arhitektuuri. |
-| Asendatud teise funktsiooniga? | Azure'i masinõpet nõudluse prognoosimise strateegia                           |
+| Kasutuselt eemaldamise põhjus       | Uues pilvarhitektuuris ei toetata selle funktsiooni kujundust. |
+| Asendatud teise funktsiooniga? | Teenuse Azure Machine Learning nõudluse prognoosi strateegia                           |
 | Mõjutatud moodulid             | Planeerimine                                                                     |
 
 ### <a name="travel-requisitions"></a>Reisiplaanid

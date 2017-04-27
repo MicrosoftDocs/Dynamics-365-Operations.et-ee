@@ -1,6 +1,6 @@
 ---
 title: Tootedimensioonid
-description: "Seal on neli toote mõõtmed - värv, konfiguratsioon, suurus ja stiil. Tootedimensioonid saab ühendada dimensioonigruppidesse ja dimensioonigrupid saab määrata tooteetalonidele. Tootevariantide määratlemise määravad tootedimensioonide kombinatsioonid."
+description: "On olemas neli tootedimensiooni: värv, konfiguratsioon, suurus ja stiil. Tootedimensioonid saab ühendada dimensioonigruppidesse ja dimensioonigrupid saab määrata tooteetalonidele. Tootevariantide määratlemise määravad tootedimensioonide kombinatsioonid."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,21 +29,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-dimensions"></a>Tootedimensioonid
 
-Seal on neli toote mõõtmed - värv, konfiguratsioon, suurus ja stiil. Tootedimensioonid saab ühendada dimensioonigruppidesse ja dimensioonigrupid saab määrata tooteetalonidele. Tootevariantide määratlemise määravad tootedimensioonide kombinatsioonid.
+[!include[banner](../includes/banner.md)]
+
+
+On olemas neli tootedimensiooni: värv, konfiguratsioon, suurus ja stiil. Tootedimensioonid saab ühendada dimensioonigruppidesse ja dimensioonigrupid saab määrata tooteetalonidele. Tootevariantide määratlemise määravad tootedimensioonide kombinatsioonid.
 
 Tootedimensioonid on tootevarianti identifitseerivad omadused. Tootevariantide määratlemiseks saate kasutada tootedimensioonide kombinatsioone. Tootevariandi loomiseks peate määratlema tooteetaloni jaoks vähemalt ühe tootedimensiooni.
 Tootevariandid
 ----------------
 
-Tootevariante nimetatakse ka kaupadeks. Kaup on materiaalne toode, mis ei ole sama, mis teenus. Samuti on võimalik määratleda toote kapten teenuse tüübile. Kasutades tüüpi Teenus, saate määrata teenuseid sisaldavad tootevariandid. Näiteks saate määrata tooteetaloni nõustamistööle ja tootevariandid tööle, mida teevad vanem- ja nooremnõustajad.
+Tootevariante nimetatakse ka kaupadeks. Kaup on materiaalne toode, mis ei ole sama, mis teenus. Samuti on võimalik määratleda tooteetalon, mille tüüp on Teenus. Kasutades tüüpi Teenus, saate määrata teenuseid sisaldavad tootevariandid. Näiteks saate määrata tooteetaloni nõustamistööle ja tootevariandid tööle, mida teevad vanem- ja nooremnõustajad.
 
 ## <a name="product-dimensions"></a>Tootedimensioonid
-Toote mõõtmed on: konfiguratsiooni, värvi, suuruse ja laadi. Toote variandi saab luua vastavalt toote väärtusi.
+Saadaval on järgmised tootedimensioonid: konfiguratsioon, värv, suurus ja stiil. Tootevariandi saab luua tootedimensiooni väärtuste alusel.
 
-Toote mõõdud väärtused nagu suuruse, värvi ja stiili saab luua ning **suurus**, **värvi** ja **stiili** lehed, mida saab kasutada järgmistes kohtades:: **toote teabekorraldus**&gt;**Setup**&gt;**dimensiooni ja variant sõprade**&gt;**suurused/värvid/stiile**. Tootedimensiooni väärtused konfiguratsioonidimensiooni puhul luuakse tavaliselt kas tootekonfiguraatoris või dimensioonipõhises konfiguraatoris. Tootedimensioone saab luua ja hallata ka lehel **Tootedimensioonid**, millele pääseb juurde järgmistest asukohtadest.
--   Klõpsake **toote teabekorraldus**&gt;**toodete**&gt;**toote meistrid**. Kohta ning **Updatehagi paani**, klõpsake **toote mõõtmed**.
--   Klõpsake **toote teabekorraldus**&gt;**toodete**&gt;**kõik tooted ja toote meistrid**. Valige tooteetalon. Kohta ning **Updatehagi paani**, klõpsake **toote mõõtmed**.
--   Klõpsake **toote teabekorraldus**&gt;**vabastatud toodete**. Valige tooteetalon. Kohta ning **Updatehagi paani**, klõpsake **toode**. Klõpsake grupis **Tooteetalon** suvandit **Tootedimensioonid**.
+Tootedimensioonide väärtused, nagu suurus, värv ja stiil, saab luua lehtedel **Suurus**, **Värv** ja **Stiil**, millele pääseb järgmistest asukohtadest: **Tooteteabe haldus** &gt; **Seadistus** &gt; **Dimensiooni- ja variandigrupid** &gt; **Suurused/Värvid/Stiilid**. Tootedimensiooni väärtused konfiguratsioonidimensiooni puhul luuakse tavaliselt kas tootekonfiguraatoris või dimensioonipõhises konfiguraatoris. Tootedimensioone saab luua ja hallata ka lehel **Tootedimensioonid**, millele pääseb juurde järgmistest asukohtadest.
+-   Klõpsake suvandeid **Tooteteabe haldus** &gt; **Tooted** &gt; **Tooteetalonid**. Klõpsake **toimingupaanil** valikut **Tootedimensioonid**.
+-   Klõpsake suvandeid **Tooteteabe haldus** &gt; **Tooted** &gt; **Kõik tooted ja tooteetalonid**. Valige tooteetalon. Klõpsake **toimingupaanil** valikut **Tootedimensioonid**.
+-   Klõpsake valikuid **Tooteteabe haldus** &gt; **Väljastatud tooted**. Valige tooteetalon. Klõpsake **toimingupaanil** suvandit **Toode**. Klõpsake grupis **Tooteetalon** suvandit **Tootedimensioonid**.
 
 Kaubale loodavate variantide arv on piiratud võimalike tootedimensiooni kombinatsioonide arvuga.
 | **Näpunäide**                                                                                                                                              |
@@ -64,6 +67,8 @@ Ettevõte müüb teksasid. Kaup „teksad” kasutab dimensioone Värv ja Suurus
 | Pruun | L    |
 | Pruun | XL   |
 | Pruun | XXL  |
+
+
 
 
 

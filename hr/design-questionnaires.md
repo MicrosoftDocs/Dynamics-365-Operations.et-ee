@@ -1,6 +1,6 @@
 ---
 title: "Küsimustiku kujundamine"
-description: "Selles teemas kirjeldatakse jaoks küsimustiku loomine. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise."
+description: "See teema kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="design-a-questionnaire"></a>Küsimustiku kujundamine
 
-Selles teemas kirjeldatakse jaoks küsimustiku loomine. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
+See teema kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
 
 Hoolikalt koostatud küsimustik võib aidata tõsta kogutavate andmete kvaliteeti. Hoolika kavandamise kaudu saate küsimustiku jaoks sobival ajal paremini sobivaid võimalusi valida. Järgmised punktid aitavad tulemuslikku küsimustikku kavandada.
 
@@ -87,12 +87,12 @@ Küsimustiku parameetrid on valikulised. Te ei pruugi neid kasutada, olenevalt t
 
 Küsimustiku parameetrid määratlevad küsimustiku anonüümsuse, numbriseeriakoodid ja viitetüübid. Kui organisatsioon küsimustiku laiali saadab, võib olla vaja võimaldada kasutajatel anonüümseks jääda. 
 
-Küsimuste ja vastuste korraldamiseks kasutatakse numbriseeriakoode. Vastavalt nende Numbriseeria koodid, väärtused automaatselt määratakse üksusi. 
+Küsimuste ja vastuste korraldamiseks kasutatakse numbriseeriakoode. Nende numbriseeriakoodide põhjal määratakse kaupadele automaatselt väärtused. 
 
 Kõik parameetrid tuleks määratleda enne andmete loomise alustamist. Küsimustiku parameetri sätteid saab igal ajal muuta.
 
 ## <a name="questionnaire-components"></a>Küsimustiku osad
-Küsimustikud sisaldavad 2002: vastus valikvastustega vastuseid sisaldavate gruppide küsimused, küsimuste ja kogu küsimustik. Soovi korral saab grupeerida küsimused küsimustiku tulemus rühmadesse. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
+Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast. Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -235,6 +235,6 @@ Teine võimalus on seadistada küsimustik nii, et kui vastaja valib küsimusele 
 
 [Küsimustike laialisaatmine ja täitmine](distribute-questionnaires.md)
 
-[Küsimustike tulemuste vaatamiseks ja](evaluate-questionnaire-results.md)
+[Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
 
 

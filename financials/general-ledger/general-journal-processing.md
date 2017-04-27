@@ -1,6 +1,6 @@
 ---
 title: "Pearaamatu töölehe töötlemine"
-description: "Käesolevas artiklis kirjeldatakse võimalusi Microsoft Dynamics 365, mis aitavad teha peažurnaali töötlemist lihtsamaks ja see aitab tagada, et õiged andmed on hõivatud ja sisekontrolli turvalisus."
+description: "Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Operationsi võimalusi, mis lihtsustavad üldise töölehe töötlemist ja mis aitavad ühtlasi tagada, et jäädvustatakse õiged andmed ning sisekontrolli pole kahjustatud."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,32 +28,35 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-journal-processing"></a>Pearaamatu töölehe töötlemine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse Microsoft Dynamics AX-i võimalusi, mis lihtsustavad üldise töölehe töötlemist ja mis aitavad ühtlasi tagada, et jäädvustatakse õiged andmed ning sisekontrolli pole kahjustatud.  
 
 Töölehe nimed
 
-Üks tähtsamaid valdkondi seadistamiseks on nimed. See on mõistlik määratleda konkreetse töölehe nimesid soliidselt, nagu kontsernisisene, viitvõlgade seadistamise ja vigade parandamiseks. Saab vastavalt iga töölehe nimi, et muuta andmete sisestamisel soliidselt, lihtne ja turvaline. 
+Üks tähtsaim seadistatav ala on töölehe nimed. Soovitatav on määratleda konkreetsed töölehe nimed igaks eesmärgiks, nt kontsernisiseseks, viitvõlgade korrigeerimiseks ja vigade parandamiseks. Saate kohandada iga töölehe nime iga eesmärgi puhul andmete sisestamise lihtsaks ja turvaliseks muutmiseks. 
 
 Lehel **Töölehe nimed** saate seadistada järgmisi elemente.
 
--   **Töövoo kinnitamine** – sisekontrolli tõhustamiseks määratlege töölehe töövood, mis loovad ülevaatus- ja kinnitamisetappide materiaalsuspiirangud kriteeriumide, nagu deebeti kogusummade alusel. Saate seadistada Peažurnaalide töövood on ** pearaamatu töövood ** lehekülg.
+-   **Töövoo kinnitamine** – sisekontrolli tõhustamiseks määratlege töölehe töövood, mis loovad ülevaatus- ja kinnitamisetappide materiaalsuspiirangud kriteeriumide, nagu deebeti kogusummade alusel. Saate pearaamatute töövoogusid seadistada lehel** Pearaamatu töövood**.
 -   **Vaikeväärtused** – valige vastaskontode, valuuta ja finantsdimensioonide vaikeväärtused.
 -   **Töölehe juhtimine** – saate seadistada ettevõtte ja kontotüübi piiranguid ja ka segmendi väärtusi. 
 
 **Näited**
 
-Töölehe nime võib kasutada ainult korrigeerimiseks. Sellisel juhul saate määrata, et kõigis ettevõtetes kehtib ainult konto tüüp **Pearaamat**. [![Töölehe juhtelemendi tüübid](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+Töölehe nime võib kasutada ainult korrigeerimiseks. Sellisel juhul saate määrata, et kõigis ettevõtetes kehtib ainult konto tüüp **Pearaamat**. [![Töölehe juhtimise kontotüübid](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
-Töölehe nime saab kasutada ainult kindla segmendi või põhikontode vahemiku puhul. [![Töölehe juhtelemendi segmendi](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+Töölehe nime saab kasutada ainult kindla segmendi või põhikontode vahemiku puhul. [![Töölehe juhtimise segment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Päevaraamatutes on saadaval suvand **Automaatne tühistamine**. Näiteks viitvõlgade korrigeerimise puhul, kui tegelikku dokumenti pole veel töödeldud, nagu on näidatud järgmisel joonisel.
-[![Tagurdamine peažurnaali](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Pearaamatu ennistamine](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Microsoft Exceli lisandmoodul päevikukande pakub automaatika ja lihtsustab andmete sisestamisel. Tegevus **Ridade avamine Excelis **on saadaval lehtedel **Päevaraamat** ja **Töölehe kanne**. 
+Microsoft Exceli lisandmoodul pakub töölehe sisestuse puhul automatiseerimise täiendavat taset ja lihtsustab andmesisestust. Tegevus **Ridade avamine Excelis **on saadaval lehtedel **Päevaraamat** ja **Töölehe kanne**. 
 
 Lehel **Perioodilised töölehed** saate töölehe töötlemise automatiseerimiseks seadistada korduvad töölehed. 
 
-Kande malle saate kasutada igal ajal. Kohta ning **Peažurnaalide** lehel on **salvestada** ja **valige kande malli** meetmeid võib leida ning **töölehe kanne** lehekülg alla **funktsioonid** kande ridade.
+Saate kande malle kasutada igal ajal. Lehel **Päevaraamatud** on tegevused **Salvesta** ja **Vali kande mall** lehe **Töölehe kanne** kande ridade **Funktsioonid** all.
 
 ## <a name="related-setup"></a>Seotud seadistus
 Järgmine seadistus ei ole omane päevaraamatutele, kuid aitab tagada, et andmesisestus oleks õige ja lihtne.
@@ -78,6 +81,7 @@ Põhikonto seadistus pakub päevaraamatu töötlemiseks mitmeid järgmisi suvand
 
 Arvestusstruktuurid ja täpsemate reeglite struktuurid on äärmiselt olulised, tagamaks andmete nõudmine finantsaruandluseks ja jõudluse jälgimise rakendamine päevaraamatu töötlemisel ja mis tahes dokumentide puhul. Arvestusstruktuurid ja täpsemate reeglite struktuurid võimaldavad teil andmete sisestamise kogemust kohandada. Saate lubada andmesisestuse ainult igas olukorras asjakohaste finantsdimensioonide puhul ja rakendada alati kohustuslike ja õigete andmete hõivamise nõuet.
 
-Lisateabe saamiseks vaadake [planeerimine: kontoplaani](plan-chart-of-accounts.md). 
+Lisateavet leiate jaotisest [Plaanimine: kontoplaan](plan-chart-of-accounts.md). 
+
 
 

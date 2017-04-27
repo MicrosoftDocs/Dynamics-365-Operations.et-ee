@@ -1,5 +1,5 @@
 ---
-title: Kasutada toote koosseisud
+title: Tootekonfiguratsioonide taaskasutamine
 description: "Soovi korral saate määrata toote olemasoleva konfiguratsiooni automaatse taaskasutamise. Seejärel, kui kasutaja on konfiguratsiooniseansi lõpule viinud, kontrollib süsteem, kas kasutaja valikule vastav konfiguratsioon on juba olemas. Vastava konfiguratsiooni leidmisel kasutatakse konfiguratsiooni ID-d, vastavat kooslust ja protsessi uuesti."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reuse-product-configurations"></a>Kasutada toote koosseisud
+# <a name="reuse-product-configurations"></a>Tootekonfiguratsioonide taaskasutamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Soovi korral saate määrata toote olemasoleva konfiguratsiooni automaatse taaskasutamise. Seejärel, kui kasutaja on konfiguratsiooniseansi lõpule viinud, kontrollib süsteem, kas kasutaja valikule vastav konfiguratsioon on juba olemas. Vastava konfiguratsiooni leidmisel kasutatakse konfiguratsiooni ID-d, vastavat kooslust ja protsessi uuesti.
 
@@ -41,5 +44,7 @@ Konfiguratsioonide taaskasutamise lubamiseks peate määrama lehel **Tootekonfig
 
 ## <a name="resetting-configuration-reuse"></a>Konfiguratsiooni taaskasutuse lähestamine
 Konfiguratsiooni taaskasutuse lähtestamisel ei võeta varem loodud konfiguratsioone arvesse. Soovi korral saate konfiguratsiooni taaskasutuse lähtestada, kui kooslust või protsessi on muudetud, kuid seotud atribuute mitte. Saate lähtestada konfiguratsiooni taaskasutuse komponendi kiirkaardil **Üldine**.
+
+
 
 

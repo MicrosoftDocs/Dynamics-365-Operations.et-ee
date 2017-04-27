@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit"></a>Akreditiivid
 
+[!include[banner](../includes/banner.md)]
+
+
 Akreditiivid on pangadokumendid, mida kasutatakse tavaliselt kaupade ostmiseks ja müügiks välisriikides. 
 
 Akreditiive kasutatakse rahvusvaheliste kannete puhul maksete tagamiseks. Akreditiiv on panga väljastatud lepe, milles pank nõustub tagama makse ostja nimel, kui ostja ja müüja vahelise leppe tingimused on täidetud. Pange tähele, et akreditiivi nimetatakse ka dokumendikrediidiks (DC). 
 
-Impordiakreditiivi puhul on juriidiline isik ostja või akreditiivi taotleja. Ekspordiakreditiivi puhul on juriidiline isik müüja või akreditiivi kasusaaja. Järgmised isikud on seotud akreditiivi: 
+Impordiakreditiivi puhul on juriidiline isik ostja või akreditiivi taotleja. Ekspordiakreditiivi puhul on juriidiline isik müüja või akreditiivi kasusaaja. Akreditiivi on kaasatud järgmised osapooled. 
 
  - Kandidaat (ostja), kes soovib kaupade eest maksta 
  - Kasusaaja (müüja), kes makse saab
@@ -41,5 +44,7 @@ Impordiakreditiivi puhul on juriidiline isik ostja või akreditiivi taotleja. Ek
 Akreditiiv sisaldab kaupade kirjeldust, vajalikke dokumente, saatmise kuupäeva ja aegumiskuupäeva, misjärel makset ei tehta. Väljaandev pank võtab akreditiivi eest marginaali. 
 
 Akreditiiv võib olla kas tühistatav või mittetühistatav. Akreditiiv võib olla edastatav, mitte-edastatav või seostuv. Tavaliselt on akreditiiv tühistamatu ja kinnitatud kokkulepe, et konkreetsele kasusaajale tehakse makse täielike ja korrektsete transpordidokumentide esitamisel.
+
+
 
 

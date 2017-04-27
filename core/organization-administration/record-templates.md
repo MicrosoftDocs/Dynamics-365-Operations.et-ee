@@ -1,5 +1,5 @@
 ---
-title: "Luua Süsteemikirjete mallid"
+title: Kirjemallide loomine
 description: "Selles artiklis tutvustatakse kirjemallide mõistet ja selgitatakse, kuidas neid saab kasutada teavet jagavate kirjete loomiseks."
 author: pvillads
 manager: AnnBe
@@ -24,10 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="create-record-templates"></a>Luua Süsteemikirjete mallid
+# <a name="create-record-templates"></a>Kirjemallide loomine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis tutvustatakse kirjemallide mõistet ja selgitatakse, kuidas neid saab kasutada teavet jagavate kirjete loomiseks.
 
-Kirjemallide aitab teil luua kirjeid rohkem kiiresti Ümbruskonnas Microsoft Dynamics 365 toiminguteks. Ainult teatud Microsoft Dynamics 365 operatsioonide kirjetüübid loomiseks Süsteemikirjete mallid. Näiteks *** kujutada sisestate autorendi teave auto rentimise firma, mis asub San Francisco. Kuna enamik kliente on tõenäoliselt pärit San Francisco piirkonnast, oleks tore, kui saaksite rendivormil automaatselt täita väljade **Osariik**, **Maakond** ja **Linn** väärtused. **Märkus:** rakendage malle ainult Dynamics 365 alade puhul, mis teil on juurdepääs. Siiski on kõik mallipealkirjad teile uue kirje loomisel nähtavad, ja ka teistele kasutajatele, kui loote mallid, mis on saadaval kõigile kasutajatele. Võtke seda mallide nimetamisel arvesse. Vältige näiteks nimesid, mis sisaldavad selliseid sõnu, nagu „komisjonitasu”, kui see on konfidentsiaalne teave, et osa ettevõtte töötajatest saab komisjonitasul põhinevat palka. Kui teil on juurdepääs ühele või mitmele mallile, mis on loodud konkreetse vormi jaoks, ja proovite luua sellesse vormi uut kirjet, kuvatakse leht **Malli valimine üksusele**. Kui valite malli loendist, luuakse uus kirje, mis sisaldab valitud mallil põhinevat vaiketeavet. Kui te ei soovi kasutada malle, kui loote uusi kirjeid, valige selle **Ära küsi enam** ruut selle **malli valimine** lehel. Dialoogiboksis Malli valik uuesti kuvamiseks paremklõpsake salvestada, klõpsake **salvestada info**, ja seejärel klõpsake **Näita mallivalikut**.
+Kirjemallid aitavad teil kirjeid Microsoft Dynamics 365 for Operationsis kiiremini luua. Microsoft Dynamics 365 for Operationsis saate kirjemalle luua ainult teatud kirje tüüpide puhul. Näiteks ****kujutage ette, et sisestate renditeavet autorendiettevõtte puhul, mis asub San Franciscos. Kuna enamik kliente on tõenäoliselt pärit San Francisco piirkonnast, oleks tore, kui saaksite rendivormil automaatselt täita väljade **Osariik**, **Maakond** ja **Linn** väärtused. **Märkus.** Saate malle rakendada ainult nendes Microsoft Dynamics 365 for Operationsi osades, millele teil juurdepääs on. Siiski on kõik mallipealkirjad teile uue kirje loomisel nähtavad, ja ka teistele kasutajatele, kui loote mallid, mis on saadaval kõigile kasutajatele. Võtke seda mallide nimetamisel arvesse. Vältige näiteks nimesid, mis sisaldavad selliseid sõnu, nagu „komisjonitasu”, kui see on konfidentsiaalne teave, et osa ettevõtte töötajatest saab komisjonitasul põhinevat palka. Kui teil on juurdepääs ühele või mitmele mallile, mis on loodud konkreetse vormi jaoks, ja proovite luua sellesse vormi uut kirjet, kuvatakse leht **Malli valimine üksusele**. Kui valite malli loendist, luuakse uus kirje, mis sisaldab valitud mallil põhinevat vaiketeavet. Kui te ei soovi uute kirjete loomisel malle kasutada, märkige ruut **Ära edaspidi küsi** lehel **Malli valimine üksusele**. Mallivaliku uuesti kuvamiseks paremklõpsake suvalisel kirjel, klõpsake valikut **Kirje teave** ning seejärel klõpsake valikut **Näita mallivalikut**.
+
+
 
 

@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Tellimuse lubamine
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel käsitleb tellimuse lubamist. Tellimuse lubamine aitab teil usaldusväärselt tarnekuupäevi klientidele lubada ja annab teile paindlikkuse, et saaksite neid kuupäevi täita.
 
 Tellimuse lubamine arvutab varaseimad lähetamise ja vastuvõtmise kuupäevad ning põhineb tarnekuupäeva kontrollimeetodil ja transpordipäevadel. Saate valida nelja tarnekuupäeva kontrollimeetodi vahel.
 
--   **Müügi** – müügi täitmisaeg on ajavahemik müügitellimuse loomine ja kaupade lähetamine. Kohaletoimetamise kuupäeva arvutamine põhineb vaikimisi mitu päeva ja ei pea varude kättesaadavuse, tuntud nõue või plaanitud tarne.
--   **ATP (saadaval lubamiseks)** – ATP on kaup, mis on saadaval ja saate lubas kliendile kindlal kuupäeval. ATP arvutamine sisaldab kehtestamata laosaldot, täitmisaegu, plaanitud sissetulekuid ja väljaminekuid.
+-   **Müügi täitmisaeg** – müügi täitmisaeg on müügitellimuse koostamise ja kaupade lähetamise vaheline aeg. Tarnekuupäeva arvutamine põhineb päevade vaikearvul ega arvesta saadavust laos, teadaolevat nõudlust või plaanitud tarnet.
+-   **ATP (saadaval lubamiseks)** – ATP on kaubakogus, mis on saadaval ja mida saab kliendile konkreetsel kuupäeval lubada. ATP arvutamine sisaldab kehtestamata laosaldot, täitmisaegu, plaanitud sissetulekuid ja väljaminekuid.
 -   **ATP + väljamineku ohutusvaru ** – tarnekuupäev on võrdne ATP kuupäevaga pluss kauba väljamineku ohutusvaru. Väljamineku ohutusvaru on aeg, mis on vajalik kaupade saatmiseks ettevalmistamiseks.
 -   **CTP (lubamiseks võimeline) **– saadavus arvutatakse koosnevusarvutuse abil.
 
 ## <a name="atp-calculations"></a>ATP arvutused
-ATP kogus arvutatakse "kumulatiivne ATP etteplaneerimise" meetodi abil. Selle ATP arvutamise meetodi peamine eelis on lennukitega küsimustest sissetulekute summa on rohkem kui viimase sissetuleku (näiteks kogus varasemat kättesaamist tuleb kasutada nõue). "Kumulatiivne ATP etteplaneerimise" arvutamise meetod hõlmab kõiki küsimusi enne kumulatiivne kogus, väljastamise kumulatiivne kogus. Seetõttu hindab see ATP arvutusmeetod, kas mõne varasema perioodi kogust saab hilisemas perioodis kasutada.  
+ATP kogus arvutatakse meetodil „kumulatiivne plaanitav ATP”. Selle ATP arvutamise meetodi peamiseks eeliseks on see, et selle abil saab käsitleda juhtumeid, kus väljaminekute summa sissetulekute hulgas on suurem kui viimane sisstulek (näiteks kui nõude täitmiseks tuleb kasutada varasema sissetuleku kogust). Arvutusmeetod „kumulatiivne plaanitav ATP” sisaldab kõiki väljaminekuid, kuni kumulatiivne vastuvõetav kogus ületab kumulatiivse väljastatava koguse. Seetõttu hindab see ATP arvutusmeetod, kas mõne varasema perioodi kogust saab hilisemas perioodis kasutada.  
 
 ATP kogus on esimese perioodi kehtestamata laosaldo. Tavaliselt arvutatakse see iga perioodi kohta, milles sissetulekut plaanitakse. Programm arvutab ATP perioodi päevades ja arvutab praeguse kuupäeva esimeseks ATP koguse kuupäevaks. Esimeses perioodis sisaldab ATP vaba kaubavaru, millest on lahutatud tähtajalised või tähtaja ületanud klienditellimused.  
 
 ATP arvutamiseks kasutatakse järgmist valemit.  
 
-ATP = ATP eelmise perioodi + sissetulekute praeguse perioodi-probleemid praeguse perioodi – Väljalaske puhasväärtuse koguse iga tulevase perioodi kuni perioodi, millal kõikide tulevaste perioodide, kuni ja kaasa arvatud tulevase perioodi kohta ületab küsimusi summa kuni ja sealhulgas tulevase perioodi.  
+ATP = eelmise perioodi ATP + praeguse perioodi sissetulekud – praeguse perioodi väljaminekud – netoväljamineku kogus iga tulevase perioodi jaoks kuni periood, millal kõikide tulevaste perioodide sissetulekute summa (kuni tulevaste perioodideni ja need kaasa arvatud) on suurem kui väljaminekute summa (kuni tulevaste perioodideni ja need kaasa arvatud).  
 
 Kui rohkem väljaminekuid ja sissetulekuid ei ole, on järgmiste kuupäevade ATP kogus sama, mis viimane kalkuleeritud ATP.  
 
@@ -66,8 +69,10 @@ Klient helistab ja soovib tellida 150 ühikut sama toodet. Kui kontrollite toote
 
 Loote tootele müügitellimuse rea ja sisestate koguseks **150**.  
 
-Kuna tarnekuupäeva kontrollimismeetod on ATP, arvutatakse ATP andmed varaseima võimaliku lähetuskuupäeva leidmiseks. Vastavalt sätetele, peetakse hilinenud ostutellimuse ja müügitellimuse ja praeguse kuupäeva tekkinud ATP kogus on 0. Homme, kui hilinenud ostutellimuse peaks laekuma, ATP kogus arvutatakse üle 0 (sel juhul arvestatakse 125). Kuid 10 päeva alates nüüd, kuna täiendavaid ostutellimuse 100 ühikut peaks laekuma, ATP kogus muutub rohkem kui 150.  
+Kuna tarnekuupäeva kontrollimismeetod on ATP, arvutatakse ATP andmed varaseima võimaliku lähetuskuupäeva leidmiseks. Sätete põhjal arvestatakse hilinenud ostutellimust ja müügitellimust ning saadud ATP kogus praeguse kuupäeva kohta on 0. Homme, kui hilinenud ostutellimus peaks kohale jõudma, arvutatakse ATP koguseks rohkem kui 0 (praegusel juhul arvutatakse selleks 125). 10 päeva pärast, kui oodatakse täiendava 100 ühikuga ostutellimuse saabumist, saab aga ATP koguseks rohkem kui 150.  
 
-Seetõttu lähetuskuupäev on seadistatud 10 päeva pärast, vastavalt ATP arvutamisel. Seetõttu saate kliendile öelda, et soovitud koguse saab tarnida 10 päeva pärast.
+Seetõttu määratakse tarnekuupäevaks ATP arvutuse alusel 10 päeva alates tänasest. Seetõttu saate kliendile öelda, et soovitud koguse saab tarnida 10 päeva pärast.
+
+
 
 

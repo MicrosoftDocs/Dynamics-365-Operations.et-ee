@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Korduvate arvete seadistamine ja töötlemine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse, kuidas seadistada ja töödelda korduvaid arveid. Saate kasutada korduvaid arveid, kui peate klientidega tuleb arveldada regulaarselt sama summa.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Korduva vabas vormis arve malli loomine
@@ -61,5 +64,7 @@ Vabas vormis korduvate arvete printimine
 ----------------------------------
 
 Kui korduvad arved on sisestatud, saate printida arved vabas vormis arvete loendilehelt. Printida saab valitud arved või valida printimiseks arvete vahemiku.
+
+
 
 

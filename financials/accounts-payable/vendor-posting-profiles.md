@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
 
+[!include[banner](../includes/banner.md)]
+
+
 Hankija sisestusreeglid kontrollivad hankijakannete sisestamist pearaamatusse.
 
 <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
@@ -146,6 +149,8 @@ Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 | **Tasakaalustus** | Tehke see valik nende sisestusreeglitega kannete automaatse tasakaalustamise lubamiseks. Kui see valik eemaldada, tuleb kanded käsitsi tasakaalustada, kasutades lehte Avatud kannete tasakaalustamine. |
 | **Tühista**     | Tehke see valik, kui soovite, et saaksite nende sisestusreeglitega kandeid tühistada.                                                                                                               |
 | **Sulge**      | Valige sisestusreeglid, millele üle minna, kui nende sisestusreeglitega kanded suletakse. Kanne loetakse suletuks, kui see on täielikult tasakaalustatud.                                       |
+
+
 
 
 

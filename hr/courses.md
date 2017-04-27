@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-training-courses"></a>Koolituskursuste seadistamine
 
+[!include[banner](includes/banner.md)]
+
+
 Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.
 
  <a name="set-up-prerequisites"></a> Seadistuse eeltingimused
@@ -85,7 +88,7 @@ Iga kursuse puhul saate täita järgmisi ülesandeid.
 -   Kursusel osalejatele hotellide soovitamine
 -   Kursuse kirjelduse loomine töötaja iseteeninduses reklaamimiseks.
 
-  >**Märkus** kustutada muidugi ainult siis, kui keegi on selle registreerinud. 
+  >**Märkus.** Kursuse saate kustutada ainult siis, kui keegi pole sellele registreerunud. 
     
 ## <a name="course-statuses"></a>Kursuse olekud
 Järgmises tabelis on antud võimalikud kursuse olekud ja toimingud, mida saate teha, kui kursus on teatud olekuga.
@@ -132,7 +135,9 @@ Kursusel osalejad on töötajad, kandidaadid või kontaktisikud, kes koolituskur
 <a name="workflow"></a>Töövoog
 --------
 
-Kursuse kaudu registreeritud töötajad on **töötaja iseteenindusega** lehel võib olla nende registreerimise kinnitamiseks töövoogu vahendusel.  Töövoo saab seostada muidugi on **üldise** FastTab kohta on **kursused** lehel.
+Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, saavad lasta oma registreerumisel läbida kinnitamise töövoo.  Töövoo saab kursusele määrata lehe **Kursused** kiirkaardil **Üldine**.
+
+
 
 
 

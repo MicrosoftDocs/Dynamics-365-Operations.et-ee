@@ -1,6 +1,6 @@
 ---
 title: Sisestamisdefinitsioonid
-description: "Sellest artiklist leiate näiteid, ostu tellimuse koormatised ja eelarveassigneeringute sisestamise mõistete kasutamise."
+description: "Selles artiklis on näited selle kohta, kuidas ostutellimuse pandiõiguse ja eelarve jaotamise puhul sisestamisdefinitsioone kasutatakse."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Siintoodud definitsioon näited
+# <a name="posting-definition-examples"></a>Sisestamisdefinitsioonide näited
 
-Sellest artiklist leiate näiteid, ostu tellimuse koormatised ja eelarveassigneeringute sisestamise mõistete kasutamise.
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis on näited selle kohta, kuidas ostutellimuse pandiõiguse ja eelarve jaotamise puhul sisestamisdefinitsioone kasutatakse.
 
 Enne selle teema lugemist peaksite olema kursis sisestamisdefinitsioonide ja kande sisestamisdefinitsioonidega. Lisateavet vaadake teemast [Sisestamisdefinitsioonid](posting-definitions.md). Lehel **Sisestamisdefinitsioonid** saate seadistada järgmised näited. Iga näide sisaldab järgmisi jaotisi.
 
@@ -39,7 +42,7 @@ Enne selle teema lugemist peaksite olema kursis sisestamisdefinitsioonide ja kan
 
 Kui sisestamisdefinitsiooni paanil **Vastendamiskriteeriumid** olevate kontode ja dimensiooniväärtuste ning kande kontode ja dimensiooniväärtuste vahel ilmneb vastendus, luuakse pearaamatukirjed sisestamisdefinitsiooni paani **Loodud kanded** alusel. 
 > [!NOTE]
-> Siduda konkreetse pangakande tüübi lähetamise määratlust, kasutada selle **kande sisestamist mõisted** lehel. Pärast sisestamist määratlus seostada pangakande tüüp ja valige **kasutada sisestamise mõisted** kohta on **pearaamatu parameetrite** lehel kõik kanded valitud kandetüübi kasutama postitad mõisted.
+> Sisestamisdefinitsiooni saab seostada konkreetse kande tüübiga lehel **Kande sisestamisdefinitsioonid**. Pärast sisestamisdefinitsiooni seostamist kande tüübiga ja valiku **Kasuta sisestamisdefinitsioone** tegemist lehel **Pearaamatu parameetrid** peavad kõik valitud kande tüübiga kanded kasutama sisestamisdefinitsioone.
 
 ## <a name="example-purchase-order-encumbrances"></a>Näide: ostutellimuse pandiõigus
 Kui lubate pandiõiguse protsessi, valides lehel **Pearaamatu parameetrid** suvandi **Luba pandiõiguse protsess**, tuleb pandiõiguste pearaamatusse kandmiseks kasutada kõigi reserveeritavate kontode puhul sisestamisdefinitsioone. Enamasti reserveeritakse bilansis kõik kulukontod. 
@@ -69,7 +72,7 @@ Kontod ja dimensiooniväärtused tulevad kas ostutellimuse reale sisestatud arve
 
 | Konto + dimensioonid           | Debiteeri  | Krediit | Kommentaar |
 |--------------------------------|--------|--------|---------|
-| 606400-OU\_1-OÜ\_3566-koolitus | 250,00 |        |         |
+| 606400-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Sisestamisdefinitsioonist loodud pearaamatukirjed
 
@@ -77,10 +80,10 @@ Genereeritud pearaamatukirjed luuakse pandiõiguste registreerimiseks.
 
 | Konto + dimensioonid           | Debiteeri  | Krediit | Kommentaar |
 |--------------------------------|--------|--------|---------|
-| 300143-OU\_1-OÜ\_3566-koolitus | 250,00 |        |         |
-| 300144-OU\_1-OÜ\_3566-koolitus |        | 250,00 |         |
+| 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
+| 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-Selles näites vastab iga konto, mis on osa jaotisest Konto struktuur – kasum ja kahjum, sisestamisdefinitsiooni kriteeriumitele. Seega, kui 606500-OU\_1-OÜ\_3566-koolitus on hinnatud, loob loodud kanded kontodele, mis on määratletud selle **loodud kanded** paani lähetamise määratlust.
+Selles näites vastab iga konto, mis on osa jaotisest Konto struktuur – kasum ja kahjum, sisestamisdefinitsiooni kriteeriumitele. Üksuse 606500-OU\_1-OU\_3566-Training hindamisel luuakse seega genereeritud kirjed kontode kohta, mis on määratletud sisestamisdefinitsiooni paanil **Loodud kirjed**.
 
 ## <a name="example-budget-appropriations"></a>Näide: eelarveeraldised
 Kui lubate eelarveeraldise, valides lehel **Pearaamatu parameetrid** suvandi **Luba eelarveeraldis**, tuleb eelarve registrikirjete registreerimiseks pearaamatusse kasutada sisestamisdefinitsioone. Kui eelarve juhtimise konfiguratsioon on aktiivne ja sisse lülitatud, saab sisestamisdefinitsioone ja kande sisestamisdefinitsioone kasutada eraldiste, paranduste, ülekannete, projektide, põhivarade ning tarne- ja nõudlusprognooside kirjete pearaamatusse registreerimise toetamiseks. 
@@ -110,7 +113,7 @@ Saate sisestada kontod, dimensiooniväärtused ja eelarve konto kirje summad leh
 
 | Konto + dimensioonid           | Debiteeri | Krediit | Kommentaar |
 |--------------------------------|-------|--------|---------|
-| 606400-OU\_1-OÜ\_3566-koolitus |       | 250,00 |         |
+| 606400-OU\_1-OU\_3566-Training |       | 250,00 |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Sisestamisdefinitsioonist loodud pearaamatukirjed
 
@@ -118,10 +121,12 @@ Genereeritud pearaamatukirjed luuakse algse eelarve registreerimiseks igas dimen
 
 | Konto + dimensioonid           | Debiteeri  | Krediit | Kommentaar |
 |--------------------------------|--------|--------|---------|
-| 300145-OU\_1-OÜ\_3566-koolitus |        | 250,00 |         |
-| 300146-OU\_1-OÜ\_3566-koolitus | 250,00 |        |         |
+| 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
+| 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
-Selles näites vastab iga konto, mis on osa jaotisest Konto struktuur – kasum ja kahjum, sisestamisdefinitsiooni kriteeriumitele. Seega, kui 606400-OU\_1-OÜ\_3566-koolitus on hinnatud, loodud pearaamatu kanded luuakse.
+Selles näites vastab iga konto, mis on osa jaotisest Konto struktuur – kasum ja kahjum, sisestamisdefinitsiooni kriteeriumitele. Üksuse 606400-OU\_1-OU\_3566-Training hindamisel luuakse seega genereeritud pearaamatukirjed.
+
+
 
 
 

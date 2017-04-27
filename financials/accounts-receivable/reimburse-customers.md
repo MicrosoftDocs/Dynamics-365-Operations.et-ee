@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimburse-customers"></a>Klientide kulude korvamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse, kuidas kliendigrupile korvamiskandeid luua. Kui kliendil on kreeditsaldo, saate kliendile saldosumma hüvitada. 
 
 Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse loomiseks täidetud.
@@ -47,6 +50,8 @@ Korvamiskannete loomisel luuakse kreeditsaldo summa kohta hankija arve. Korvamis
     Kreeditsummad kantakse klientide hankijakontodele ja töödeldakse tavaliste maksetena. Kui kliendil ei ole hankija kontot, loob programm kliendi jaoks automaatselt ühekordse hankija konto.
 3.  Loodud korvamiskannete vaatamiseks kasutage lehte **Korvamine**.
 4.  Looge ostureskontros korvamisprotsessi tulemusena loodud hankija arvete makse.
+
+
 
 
 

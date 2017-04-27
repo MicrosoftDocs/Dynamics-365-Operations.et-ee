@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Krediidi ja võlanõuete seadistamine
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada.
 
 <a name="set-up-aging-period-definitions"></a>Aegumisperioodide definitsioonide häälestamine
@@ -46,7 +49,7 @@ Kui mitu inimest teie organisatsioonis töötab sissenõuetega, saate seadistada
 ## <a name="set-up-a-collections-case-category"></a>Saate seadistada sissenõuete juhtumikategooria
 Kui korraldate oma sissenõuete töö juhtumeid kasutades, seadistage juhtumikategooria kategooriatüübiga **Sissenõuded**. Seda seadistust on vaja ainult siis, kui soovite kasutada juhtumi funktsiooni lehel **Sissenõuded**.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>(Arveldus-, writeoff ja NSF) töölehenimede seadistamine
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Töölehe nimede seadistamine (tasakaalustus, mahakandmine ja NSF)
 Saate seadistada töölehenimed, mida kasutatakse kannete töötlemisel lehel **Sissenõuded**. See töötlemine hõlmab kande tasakaalustamist, kande mahakandmist ja ebapiisavate vahenditega (NSF) makse töötlemist.
 
 | Kirjeldus | Töölehe tüüp     |
@@ -55,7 +58,7 @@ Saate seadistada töölehenimed, mida kasutatakse kannete töötlemisel lehel **
 | Mahakandmine   | Kord päevas            |
 | NSF         | Kliendi makse |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Saate seadistada põhjusetähise writeoff tehinguteks
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Mahakandmiskannete jaoks põhjusekoodi seadistamine
 Saate seadistada põhjuse vaikekoodi, mida kasutatakse kannete mahakandmisel lehel **Sissenõuded**. Saate koodi mahakandmise protsessi käigus muuta.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Saate seadistada e-posti manuste kausta ja luua e-kirjade mallid
@@ -67,7 +70,7 @@ Saate seadistada müügireskontro parameetreid, mis kuvatakse vahekaardil **Siss
 ## <a name="optional-set-up-collections-agents"></a>Valikuline: saate häälestada inkassaatoreid
 Kui mitu inimest teie organisatsioonis töötab sissenõuetega, saate seadistada inkassaatorid. Inkassaator on töötaja, kes on seadistatud kasutajana lehel **Kasutaja seosed**. Saate määrata inkassaatoritele kliendikaustu (kliendipäringuid), et aidata inkassaatoritel oma tööd korraldada. Inkassaatorid lisatakse lehel **Müügireskontro parameetrid** valitud töörühma. Kui sellel lehel pole töörühma valitud, luuakse automaatselt uus töörühm nimega **Sissenõuded** ja inkassaatorid lisatakse sellesse töörühma.
 
-## <a name="set-up-a-writeoff-account"></a>Writeoff konto
+## <a name="set-up-a-writeoff-account"></a>Mahakandmise konto seadistamine
 Seadistage mahakandmiskonto, mida kasutatakse pearaamatu mahakandmiskandes, kui kanne kantakse maha. See konto salvestatakse kliendi sisestusreeglitesse.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>Pangakonto NSF teabe seadistamine
@@ -82,11 +85,13 @@ Seadistage kliendikontaktide e-posti aadressid, kui soovite saata meile neile ko
 Valige kliendi kiirkaardil **Krediit ja sissenõuded** väljal **Sissenõuete kontakt** kliendi organisatsioonis töötav inimene, kes teie inkassaatoriga koostööd teeb. Seda inimest kasutatakse vaikekontaktina lehel **Sissenõuded** ja meilisõnumid saadetakse talle. 
 
 > [!NOTE] 
-> Kui kogud kontakt kliendi määramata, kasutatakse kliendi esmase kontakti. Kui peamist kontaktisikut pole määratud, saadetakse meilisõnumid esimesele lehel **Kontaktid** loetletud aadressile.
+> Kui sissenõuete kontaktisik pole kliendi puhul määratud, kasutatakse kliendi peamist kontaktisikut. Kui peamist kontaktisikut pole määratud, saadetakse meilisõnumid esimesele lehel **Kontaktid** loetletud aadressile.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Saate seadistada müügitöötajate e-posti seaded
 Seadistage müügitöötajate meiliaadressid, kui soovite saata meile müügitöötajatele lehelt **Sissenõuded**. Seadistage iga komisjonimüügi grupi iga müügiesindaja meiliaadress. Müügiesindaja, kelle puhul on ruut **Kontakt** valitud, on vaikimisi müügiesindaja, kellele meile saadetakse. 
 
 Kui müügiesindaja on määramata, kasutatakse kliendi organisatsiooni peamist müügiesindajat. Kui peamist müügiesindajat pole määratud, saadetakse meilisõnumid esimesele lehel nimetatud müügiesindajale.
+
+
 
 

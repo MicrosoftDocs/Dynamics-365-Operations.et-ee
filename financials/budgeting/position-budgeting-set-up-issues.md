@@ -1,5 +1,5 @@
 ---
-title: "Eelarvestamine tõrkeotsingu seisukoht"
+title: "Ametikoha eelarvestamise tõrkeotsing"
 description: "Selles artiklis on vastused küsimustele, mis võivad teil ametikoha eelarvestuse konfigureerimisel tekkida. Käsitletud on korduma kippuvaid küsimusi selle kohta, kuidas luua eelarve kuluelemente, hüvitusgruppe ja hüvitusruudustikke."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Eelarvestamine tõrkeotsingu seisukoht
+# <a name="position-budgeting-troubleshooting"></a>Ametikoha eelarvestamise tõrkeotsing
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis on vastused küsimustele, mis võivad teil ametikoha eelarvestuse konfigureerimisel tekkida. Käsitletud on korduma kippuvaid küsimusi selle kohta, kuidas luua eelarve kuluelemente, hüvitusgruppe ja hüvitusruudustikke. 
 
@@ -58,6 +61,8 @@ Prognoositava ametikoha kuluelemendi real olevad kuupäevad peavad jääma järg
 -   Ametikoha aktiveerimis- ja kõrvaldamiskuupäevad.
 -   Eelarve kuluelemendi aktiveerimis- ja aegumiskuupäevad.
 -   Prognoositava ametikoha eelarve planeerimise protsessiga seostatud eelarvetsükli algus- ja lõppkuupäevad.
+
+
 
 
 

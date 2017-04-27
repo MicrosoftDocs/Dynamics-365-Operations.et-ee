@@ -1,6 +1,6 @@
 ---
-title: "Tootmistellimuste lõpetamise kinnitamine"
-description: "Lõpetamisel on tootmise etapil. Selles etapis valmis toode on teatatud ja lao tootmistellimuse olekuks."
+title: "Tootmistellimuste lõpetatuks kinnitamine"
+description: "Lõpetatuks kinnitamine on tootmisetapp. Selles etapid kinnitatakse valmistoode ja see teisaldatakse tootmistellimusest varudesse."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-production-orders-as-finished"></a>Tootmistellimuste lõpetamise kinnitamine
+# <a name="report-production-orders-as-finished"></a>Tootmistellimuste lõpetatuks kinnitamine
 
-Lõpetamisel on tootmise etapil. Selles etapis valmis toode on teatatud ja lao tootmistellimuse olekuks.
+[!include[banner](../includes/banner.md)]
+
+
+Lõpetatuks kinnitamine on tootmisetapp. Selles etapid kinnitatakse valmistoode ja see teisaldatakse tootmistellimusest varudesse.
 
 Kui lõpetatud kaupade kogus on kinnitatud tootmistellimusel lõpetatuks, uuendatakse see varudes laoseisuna. Algselt plaanitud tellimuse koguse osalised kogused saab kinnitada lõpetatuks. Samuti on võimalik kinnitada vigased kogused koos seostatud vea põhjusega, kui koguste lõpetamist kinnitatakse. Kui tootmistellimus jõuab etappi Lõpetamine kinnitatud, näitab see, et tootmistellimuses rohkem koguseid ei kinnitata.
 Järgmised omadused seostatakse ka protsessiga **Kinnita lõpetamine**.
@@ -44,5 +47,7 @@ Kogus kinnitatakse väljastuskohta. Seejärel luuakse laotöö, et teisaldada ko
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Tootmistellimuse lõpetatuks kinnitamise määramine
 Saate määrata tootmistellimuse väärtuseks **Kinnita lõpetamine** standardse tootmistellimuse värskendamisfunktsiooni kaudu või protsessikaardi ja töökaardi töölehtede kaudu või töölehe **Kinnita lõpetamine** kaudu. Saate oleku värskendada ka väärtusele **Kinnita lõpetamine** töökaardi terminali ja töökaardi seadme lehtede kaudu, kui kinnitate tootmistellimuse viimase töö. Lõpuks saate lubada suvandi **Kinnita lõpetamine** kaasaskantava laoseadme lahenduse protsessina.  
+
+
 
 

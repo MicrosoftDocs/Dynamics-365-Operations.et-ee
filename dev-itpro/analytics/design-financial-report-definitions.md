@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 See artikkel käsitleb aruande definitsioone. Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande loomiseks readefinitsiooni, veeru definitsiooni ja valikulist aruandluspuu definitsiooni. Aruande definitsioon annab valikud ja sätted ka aruande kohandamiseks. 
 
-Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande loomiseks readefinitsiooni, veeru definitsiooni ja valikulist aruandluspuu definitsiooni. Eesmärgiaruande definitsiooni pakub ka võimalusi ja mida saab kasutada aruande kohandamiseks. Pärast rea ja veeru definitsioonide määratlemist peate need aruande definitsiooni kombineerima. Saate määratleda ka definitsioonide muid aspekte, nagu üksikasjade tase ja aruande kuupäev. Seejärel saate salvestada ja aruande luua. Finantsaruandlus pakub järgmisi üksikasjade tasemeid.
+Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande loomiseks readefinitsiooni, veeru definitsiooni ja valikulist aruandluspuu definitsiooni. Aruande definitsioon sisaldab ka täiendavaid suvandeid ja sätteid, mida saab aruande kohandamiseks kasutada. Pärast rea ja veeru definitsioonide määratlemist peate need aruande definitsiooni kombineerima. Saate määratleda ka definitsioonide muid aspekte, nagu üksikasjade tase ja aruande kuupäev. Seejärel saate salvestada ja aruande luua. Finantsaruandlus pakub järgmisi üksikasjade tasemeid.
 
 -   Rahandus
 -   Rahaline ja Konto
@@ -89,6 +89,6 @@ Järgmises tabelis kirjeldatakse aruande definitsiooni vahekaarte ja seda, kuida
 <a name="see-also"></a>Vt ka
 --------
 
-[Finantsaruandluse Microsoft Dynamics 365 toiminguteks](financial-reporting-intro.md)
+[Microsoft Dynamics 365 for Operationsi finantsaruandlus](financial-reporting-intro.md)
 
 

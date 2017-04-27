@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
+[!include[banner](../includes/banner.md)]
+
+
 See teema kirjeldab, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta.
 
 Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 for Operations. See võimaldab hankijatel töötada ostutellimuse, arve ja veose varude teabega. See teema kirjeldab, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostöö liidest ostutellimuste ja veoste varudega töötamiseks. See kirjeldab ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad ostutellimusele. Lisateavet selle kohta, mida välised hankijad saavad hankija koostöö liideses teha, leiate teemast [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Kui soovite jagada hinnateavet, nagu ühikuhind, allahindlused ja tasud, koostö
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Hankija koostööd kasutades ostutellimustega töötamine
 ### <a name="sending-a-po-to-the-vendor"></a>Ostutellimuse hankijale saatmine
 
-Ostutellimused valmistatakse ette rakenduses Dynamics 365 for Operations. Kui Tootjaorganisatsioon on olek **kinnitatud**, saatmist kasutades hankijale on ** kinnitust saada ** tegevus on **Ostutellimus** lehel. Ostutellimuse olekuks saab **Välisel ülevaatamisel**. Pärast ostutellimuse saatmist saab hankija seda näha hankija koostöö liidese lehel **Ülevaatamist ootavad ostutellimused**, kus nad saavad tellimuse muudatusi aktsepteerida, tagasi lükata või soovitada. Hankija saab lisada ka kommentaare teabe (nt ostutellimuse muudatuste) edastamiseks. Kui soovite juhtida hankija tähelepanu uuele ostutellimusele, võite ostutellimuse saatmiseks meiliga kasutada prindihalduse süsteemi.
+Ostutellimused valmistatakse ette rakenduses Dynamics 365 for Operations. Kui ostutellimuse olek on **Kinnitatud**, saadate selle hankijale, kasutades tegevust **Kinnitamiseks saatmine** lehel **Ostutellimus**. Ostutellimuse olekuks saab **Välisel ülevaatamisel**. Pärast ostutellimuse saatmist saab hankija seda näha hankija koostöö liidese lehel **Ülevaatamist ootavad ostutellimused**, kus nad saavad tellimuse muudatusi aktsepteerida, tagasi lükata või soovitada. Hankija saab lisada ka kommentaare teabe (nt ostutellimuse muudatuste) edastamiseks. Kui soovite juhtida hankija tähelepanu uuele ostutellimusele, võite ostutellimuse saatmiseks meiliga kasutada prindihalduse süsteemi.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Ostutellimuse kinnitamine ja vastuvõtmine hankijalt
 
-Kui hankija on ostutellimuse aktsepteerinud, saab ostutellimuse automaatselt kinnitada või see tuleb vajadusel käsitsi kinnitada. See sellest, kas selle ** hankija aktiveerimise ** väärtuseks on **aktiivne (PO on kinnitatud auto)** hankija või - **aktiivne (PO ei ole auto kinnitusega)**.  
+Kui hankija on ostutellimuse aktsepteerinud, saab ostutellimuse automaatselt kinnitada või see tuleb vajadusel käsitsi kinnitada. See sõltub sellest, kas väli **Hankija aktiveerimine ** on hankija puhul seatud olekusse **Aktiivne (ostutellimus kinnitatakse automaatselt)** või olekusse **Aktiivne (ostutellimust ei kinnitata automaatselt)**.  
 
 Järgmises tabelis näidatakse tavapärast teabevahetust, mis oleneb sellest, kuidas hankija vastab, kui saadate talle kinnitamiseks ostutellimuse.
 
@@ -95,19 +98,19 @@ Järgmises tabelis näidatakse tavapärast teabevahetust, mis oleneb sellest, ku
 <td>Hankija vastus salvestatakse kui <strong>Tagasi lükatud</strong> ja ostutellimus jääb olekusse <strong>Välisel ülevaatamisel</strong>. Tagasilükkamine saadakse koos hankija märkusega.</td>
 </tr>
 <tr class="odd">
-<td>Hankija <strong>korralduse muudatustega nõustub</strong>. Muutus on soovitatud kui tasemel. Üksikuid ridu on võimalik aktsepteerida või tagasi lükata. Muud võimalikud muudatused hõlmavad:
+<td>Hankija <strong>kinnitab tellimuse muudatustega</strong>. Muudatusi soovitatakse reatasemel. Üksikuid ridu on võimalik aktsepteerida või tagasi lükata. Muud võimalikud muudatused hõlmavad:
 <ul>
 <li>Kuupäevad või koguste muutmine.</li>
 <li>Ridade tükeldamine erinevate tarnekuupäevade ja -koguste jaoks.</li>
 <li>Kauba asendamine.</li>
 </ul>
 Hankija ei saa hinnateavet ja kulusid muuta. Nendele muudatuste tegemise soovitusi saab teha märkuseid kasutades.</td>
-<td>Müüja vastus, tähistatakse <strong>on siis muutused</strong>, <strong></strong>ja staatus PO <strong>välise keskmiseks</strong>.</td>
+<td>Hankija vastus salvestatakse kui <strong>Aktsepteeritud koos muudatustega</strong>, <strong></strong> ja ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-Kasutage selle **Ostutellimus****ettevalmistus** tööruumi jälgida mis POs müüja vastas. See tööruum sisaldab kaks loendid, mis sisaldavad ostutellimuste oleku **välise keskmiseks**:
+Saate kasutada tööruumi **Ostutellimuse** **ettevalmistus**, et jälgida, millistele ostutellimustele on hankija vastanud. See tööruum sisaldab kaht loendit, mis sisaldab olekuga **Välisel ülevaatamisel** ostutellimusi.
 
 -   Välisel ülevaatamisel nõuab tegevust.
 -   Välisel ülevaatusel hankija vastuse ootel.
@@ -125,7 +128,7 @@ Ostutellimuse tühistamisel muudetakse olekuks uuesti **Aktsepteeritud**. Peate 
 Ostutellimusele saate lisada manuseid, nagu failid, pildid ja märkused, kasutades dokumendihalduse süsteemi. Tüübi **Väline**piiranguga lisatud manused on hankijale nähtavad, kui neile ostutellimuse saadate.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Ostutellimuse olekud ja versioonid
-See jaotis kirjeldab erinevaid olekuid, mis võib ostutellimusel olla kuni selle kinnitamiseni, ja millisel hetkel tehakse ostutellimuse uued versioonid hankijale kättesaadavaks. Esineb erinevusi, sõltuvalt sellest, kas kasutate muudatuste haldamise ostutellimuste puhul. 
+See jaotis kirjeldab erinevaid olekuid, mis võib ostutellimusel olla kuni selle kinnitamiseni, ja millisel hetkel tehakse ostutellimuse uued versioonid hankijale kättesaadavaks. Selles on erinevusi, sõltuvalt sellest, kas kasutate ostutellimuste jaoks muudatuste haldust. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versioonid ja olekud, kui te ei kasuta muudatusehaldust
 
@@ -168,6 +171,8 @@ Kui kasutate veose varusid, saavad hankijad kasutada hankija koostöö liidest, 
 -   **Ostutellimused, mis tarbivad veose varusid** – ostutellimused veose varude jaoks luuakse siis, kui varude omandiõigus muutub hankijalt teie ettevõttele. Toote sissetulek sisestatakse samal ajal. Need veose ostutellimused kuvatakse ainult lehel **Ostutellimused, mis tarbivad veose varusid**. Neid ei kaasata lehele **Kõik kinnitatud ostutellimused** moodulis **Hankija koostöö**.
 -   **Veose varudest saadud tooted** – see leht loetleb kõik kanded, kus toodete omandiõigus on hankijalt teie ettevõttele üle viidud. Hankijad saavad kasutada seda teavet, et kliendile arvet esitada.
 -   **Veose vaba kaubavaru** – see leht näitab hankijale kuuluvat vabu veose varusid, mis on teie lattu vastu võetud.
+
+
 
 
 

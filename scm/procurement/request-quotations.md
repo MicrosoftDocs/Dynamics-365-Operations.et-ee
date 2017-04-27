@@ -1,5 +1,5 @@
 ---
-title: Taotluse noteeringud (RFQs)
+title: Pakkumiskutsed
 description: "See artikkel annab ülevaate pakkumiskutsetest, mille organisatsioonid väljastavad, kui neil on vaja osta kaupu või teenuseid ja saada mitmelt hankijalt konkureerivaid pakkumisi. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu. Samuti saate hankijatelt küsida, kas on lisatasusid, nagu saatekulud, või allahindlusi suurte tellimuste või hankija arve ennetähtaegse maksmise korral."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Taotluse noteeringud (RFQs)
+# <a name="request-for-quotations-rfqs"></a>Pakkumiskutsed
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel annab ülevaate pakkumiskutsetest, mille organisatsioonid väljastavad, kui neil on vaja osta kaupu või teenuseid ja saada mitmelt hankijalt konkureerivaid pakkumisi. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu. Samuti saate hankijatelt küsida, kas on lisatasusid, nagu saatekulud, või allahindlusi suurte tellimuste või hankija arve ennetähtaegse maksmise korral.
 
@@ -37,9 +40,9 @@ Pakkumiskutse (RFQ) protsess hõlmab järgmisi ülesandeid.
 
 Järgmine näide annab ülevaate pakkumiskutse protsessist.  
 
-[![Taotlus pakkumise protsess](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
+[![Pakkumiskutse protsess](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-Saate luua pakkumiskutse plaanitud tellimustelt, ostutaotluselt või käsitsi kirjest. Loodud pakkumiskutset nimetatakse pakkumiskutse juhtumiks ja see on alusdokument, mida kasutate pakkumiskutse väljastamiseks igale hankijale. Valmistada ette RFQ juhtumi ja lisada hankijate, klõpsake **saada** RFQ kohtuasjas ja mis RFQ tööleht on loodud iga hankija, et RFQ saadetud. Saate konfigureerida prindihalduse sätteid saada tegevuse aruande printida iga hankija arhiivi või saatke aruanne iga hankija e-posti aadressile. Peale selle saab iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem. Samuti saate konfigureerida saatmistegevust, et luua vastuseleht, mille hankija saab täita.  
+Saate luua pakkumiskutse plaanitud tellimustelt, ostutaotluselt või käsitsi kirjest. Loodud pakkumiskutset nimetatakse pakkumiskutse juhtumiks ja see on alusdokument, mida kasutate pakkumiskutse väljastamiseks igale hankijale. Pärast pakkumiskutse juhtumi ettevalmistamist ja hankijate lisamist klõpsake pakkumiskutse juhtumis käsku **Saada**. Iga hankija jaoks, kellele saatsite pakkumiskutse, luuakse pakkumiskutse tööleht. Saate konfigureerida saatmistegevuse prindihaldussätteid kas printima iga hankija kohta aruande arhiivi või saatma aruande iga hankija meiliaadressile. Peale selle saab iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem. Samuti saate konfigureerida saatmistegevust, et luua vastuseleht, mille hankija saab täita.  
 
 Kui peate pakkumiskutset pärast saatmist muutma, saate selle hankijatele uuesti saata, kui olete lõpetanud.  
 
@@ -49,18 +52,18 @@ Kui konkreetse hankija puhul on nõutav vastuse teine iteratsioon, klõpsake leh
 
 Kui olete lisanud pakkumiskutse juhtumile hindamiskriteeriumid, on pakkumiskutse vastusel hindamispaneel, kuhu saate punktisummad sisestada. Punktide kogusumma kuvatakse, kui võrdlete vastuseid lehel **Vastuste võrdlemine**, kus saate võrrelda ka muid vastuseandmeid, nagu rea hind, tarnekuupäev ja koguhind.  
 
-Kui otsustate mõne pakkumise või osalise pakkumise kasuks, saate selle vastu võtta ja ülejäänud tagasi lükata. Luuakse kinnitamise töölehed, tagasilükkamise töölehed ja vastavad aruanded. Need on trükitud, arhiveeritakse, ja saadetakse vastavalt prindihalduse sätteid. Kui aktsepteerite pakkumise või vastavatel ridadel pakkumise, lepingu või ostutellimuse ostutellimus või ostutellimuse värskendatakse, sõltuvalt RFQ ostu. Saate luua kaubandusleppe, mida saate hiljem kasutada mis tahes vastuste puhul olenemata sellest, kas olete need aktsepteerinud või tagasi lükanud.  
+Kui otsustate mõne pakkumise või osalise pakkumise kasuks, saate selle vastu võtta ja ülejäänud tagasi lükata. Luuakse kinnitamise töölehed, tagasilükkamise töölehed ja vastavad aruanded. Need prinditakse, arhiivitakse ja saadetakse teie prindihalduse sätete järgi. Kui aktsepteerite pakkumise või pakkumise konkreetsed read, luuakse kas ostuleping või ostutellimus või värskendatakse ostutaotlust olenevalt pakkumiskutse ostutüübist. Saate luua kaubandusleppe, mida saate hiljem kasutada mis tahes vastuste puhul olenemata sellest, kas olete need aktsepteerinud või tagasi lükanud.  
 
 Pakkumiskutse olek kuvatakse pakkumiskutse päises ja see oleneb pakkumiskutse ridade olekust. Olek näitab, mil määral olete pakkumiskutset töödelnud. Igal pakkumiskutsel on kaks oleku väärtust: madalaim ja kõrgeim. Madalaim olek on pakkumiskutse ükskõik millise rea kõige vähemarenenum etapp ja kõrgeim olek on pakkumiskutse ükskõik millise rea kõige arenenum etapp. Näiteks kui pakkumiskutse kõige vähemarenenum etapp on loodud rea kohta, siis on pakkumiskutse madalaim olek **Loodud**. Kui pakkumiskutse kõige arenenum etapp on hankijatele saadetud rea kohta, siis on pakkumiskutse kõrgeim olek **Saadetud**. Pakkumiskutse töötlemisel värskendatakse olekuid automaatselt.  
 
 Saate pakkumiskutse päise madalaimaid ja kõrgeimaid olekuid vaadata lehel **Kõik pakkumiskutsed**. Saate pakkumiskutse rea madalaimaid ja kõrgeimaid olekuid vaadata lehe **Pakkumiskutsed** vahekaardil **Read**.  
 
-Siin on järjekord olek RFQs töötlemiseks:
+Pakkumiskutsete töötlemise olekute järjestus on järgmine.
 
-1.  **Created**
-2.  **Sent**
-3.  **Received**
-4.  **Aktsepteeritud**/**tühistatud**/**tagasi lükata**
+1.  **Loodud**
+2.  **Saadetud**
+3.  **Vastu võetud**
+4.  **Aktsepteeritud**/**Tühistatud**/**Tagasi lükatud**
 
 Olekuid kirjeldatakse üksikasjalikumalt selle artikli allpool olevates jaotistes.
 
@@ -72,7 +75,7 @@ Enne pakkumiskutse juhtumi loomist peate seadistama pakkumiskutse teabe lehel **
 -   Tarneteave ja maksetingimused
 -   Väljad, mis peavad olema pakkumiskutse vastuses
 
-Saate need väärtused kindla pakkumiskutse juhtumi puhul tühistada. Peate seadistama ka parandusprotsessi. Selle konfiguratsiooni osana saate väljalukustuse sisse lülitada. Kui väljalukustus on sisse lülitatud, peab hankespetsialist, kes soovib pakkumiskutset parandada, klõpsama esmalt vahekaardi **Pakkumine** jaotises **Parandus** käsku **Loo**. Pärast selle RFQ uuendamist muutmisest, hanke kutse tuleb viia lõpule klõpsake **Finalize**. ** ** The Lõpeta tegevus loob meilisõnumi, mis teavitab hankijate kohta muudetud RFQ. Valige hankijatele saadetava meiliteatise mall lehelt **Hankeparameetrid**. Malli loomisel võib see sisaldada järgmisi asendussõnesid.
+Saate need väärtused kindla pakkumiskutse juhtumi puhul tühistada. Peate seadistama ka parandusprotsessi. Selle konfiguratsiooni osana saate väljalukustuse sisse lülitada. Kui väljalukustus on sisse lülitatud, peab hankespetsialist, kes soovib pakkumiskutset parandada, klõpsama esmalt vahekaardi **Pakkumine** jaotises **Parandus** käsku **Loo**. Pärast pakkumiskutse värskendamist parandusega peab hankespetsialist viima protsessi lõpule, klõpsates käsku **Vii sisse**.** **Sisseviimistegevus koostab meilisõnumi, mis teavitab hankijaid parandatud pakkumiskutsest. Valige hankijatele saadetava meiliteatise mall lehelt **Hankeparameetrid**. Malli loomisel võib see sisaldada järgmisi asendussõnesid.
 
 -   %Pakkumise tagastamise põhjus%
 -   %Paranduse põhjus%
@@ -124,7 +127,7 @@ Järgmises tabelis kuvatakse pakkumiskutse oleku muudatused, kui loote pakkumisk
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Lowest RFQ header status** | **Highest RFQ header status**                   | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Tegevus**                         | **Madalaim pakkumiskutse päise olek** | **Kõrgeim pakkumiskutse päise olek**                   | **Madalaim pakkumiskutse rea olek** | **Kõrgeim pakkumiskutse rea olek** |
 | Looge pakkumiskutse päis ja rida.    | Loodud                      | Loodud                                         | Loodud                    | Loodud                     |
 | Saatke pakkumiskutse kindlale hankijale. | Saadetud                         | Saadetud                                            | Saadetud                       | Saadetud                        |
 | Lisage teine hankija.                | Loodud                      | Saadetud (pakkumiskutse on saadetud ainult ühele hankijale.) | Loodud                    | Saadetud                        |
@@ -146,7 +149,7 @@ Kui pakkumiskutse juhtumile on lisatud küsimustik, peate küsimuste vastused va
 
 Kui peate sisestama alternatiivseid ridu ja pakkumiskutse juhtub seda võimaldab, klõpsake kiirkaardil **Ostupakkumise read** käsku **Lisa rida**. Seejärel sisestage toote teave, nagu kaubakood või hankekategooria, kogus, hind ja allahindlus.  
 
-Kui olete sisestanud vastuse, kuid ette uue pakkumise hankija, võib uuesti selle RFQ. See loob uue töölehe ja aruanne, mille abil saab nõuda muudatuste tegemist hankija.  
+Kui olete sisestanud vastuse, kuid nõuate hankijalt uut pakkumist, saate pakkumiskutse uuesti saata. See loob uue töölehe ja aruande, mida saate kasutada hankijalt muudatuste taotlemiseks.  
 
 Kõigi pakkumiskutsete ülevaadet ja nende vastuste olekuid saate vaadata lehel **Pakkumiskutse järeltoimingud**.  
 
@@ -154,7 +157,7 @@ Järgmises tabelis kuvatakse pakkumiskutse oleku muudatused, kui saate pakkumisi
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Tegevus**                                     | **Madalaim pakkumise olek** | **Kõrgeim pakkumise olek** | **Madalaim pakkumiskutse päise olek** | **Kõrgeim pakkumiskutse päise olek** | **Madalaim pakkumiskutse rea olek** | **Kõrgeim pakkumiskutse rea olek** |
 | Registreerige ühe hankija pakkumine ja salvestage see.        | Saadetud                  | Saadud               | Saadetud                         | Saadud                      | Saadetud                       | Saadud                    |
 | Registreerige teise hankija pakkumine ja salvestage see. | Saadud              | Saadud               | Saadud                     | Saadud                      | Saadud                   | Saadud                    |
 
@@ -183,9 +186,11 @@ Järgmises tabelis kuvatakse pakkumiskutse oleku muudatused, kui hankija pakkumi
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Tegevus**              | **Madalaim pakkumise olek** | **Kõrgeim pakkumise olek** | **Madalaim pakkumiskutse päise olek** | **Kõrgeim pakkumiskutse päise olek** | **Madalaim pakkumiskutse rea olek** | **Kõrgeim pakkumiskutse rea olek** |
 | Aktsepteerige üks pakkumistest. | Saadud              | Aktsepteeritud               | Saadud                     | Aktsepteeritud                      | Saadud                   | Aktsepteeritud                    |
 | Lükake teised pakkumised tagasi.  | Tagasi lükatud              | Aktsepteeritud               | Tagasi lükatud                     | Aktsepteeritud                      | Tagasi lükatud                   | Aktsepteeritud                    |
+
+
 
 
 

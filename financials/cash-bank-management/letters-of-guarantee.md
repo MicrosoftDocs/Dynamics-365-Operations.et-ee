@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Garantiikirjad
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet garantiikirjade kohta. Garantiikirjas nõustub pank maksma isikule kindla rahasumma, kui üks panga klientidest makset või kohustust sellele isikule ei täida. 
 
 Garantiikiri on lepe pangalt (käendaja) määratud rahasumma tasumiseks mõnele isikule (saaja), kui panga klient (volitaja) makset või saaja kohustust ei täida. Garantiikirjad pole ülekantavad. Need rakenduvad ainult leppes nimetatud saajale. Volitaja saab leppe tingimuste alusel taotleda garantiikirja väärtuse suurendamist või vähendamist. 
@@ -55,6 +58,8 @@ Järgmises tabelis kirjeldatakse tegevusi, mida saate teha garantiikirja puhul.
 | Laienda              | Kehtivusperioodi pikendamine pärast garantiikirja esitamist kasusaajale, kui pikendamine on nõutav. |
 | Tühistamine              | Kui taotletud garantiikirja eesmärk enam ei kehti, saab leppe tühistada.                  |
 | Likvideeri           | Garantiikirja rahakstegemine, kui kasusaaja garantiikirja pangale esitab.                      |
+
+
 
 
 

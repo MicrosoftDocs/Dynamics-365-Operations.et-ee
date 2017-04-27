@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Kolmesuunalised vastavusse viimise poliitikad
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel sisaldab näiteid kolmesuunalise vastavusseviimise kohta.
 
 <a name="example-three-way-matching-for-items"></a>Näide: kaupade kolmesuunaline vastavusse viimine
@@ -62,7 +65,7 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 1.  Sammy, kes on Fabrikami vastuvõtu osakonna töötaja, saab Contoso saadetud masinate lõpliku koguse. Ta sisestab toote sissetuleku koguseks 5. Kuna ostutellimus on täielikult saadud, muutub ostutellimuse olekuks Saadud.
 2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
-    -   Kahesuunaline või kolm-viis sobitamine vajavad kaubad, on hinnad arvereal piiridesse, mis on määratletud Microsoft Dynamics 365 Operations.This sisaldab järgmist tüüpi hind:
+    -   Kahe- või kolmesuunalist vastavusse viimist vajavate kaupade hinnad arve real jäävad Microsoft Dynamics 365 for Operationsis määratletud kõikumiste piiridesse. See hõlmab järgmisi hinna vastendamisi.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +8 protsenti.
         -   Koguhindade vastavusse viimine – netosumma arve real vastendub kõikumise protsendi, summa või protsendi ja summa piires netosummale ostutellimuse real. Selles näites on lubatud koguhindade vastavusse viimise kõikumine +15 protsenti.
 
@@ -75,7 +78,7 @@ Contoso paberarve sisaldab järgmist teavet.
 | Maks                         |          |            | 0,00       |
 | Kokku                       |          |            | 44 500,00  |
 
-Microsoft Dynamics 365 operatsioonide Hooldusarve rida sisaldab järgmist teavet.
+Rakenduses Microsoft Dynamics 365 for Operations hõlmab arve rida järgmist teavet.
 
 | Kaubakood                 | Kogus | Ühiku hind | Rea netosumma | Vastavusse viimise poliitika    | Toote sissetuleku koguse vastendamine | Hinna vastendamine | Koguhinna vastendus |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 1.  Kaubad jõuavad kohale. Sammy, kes on Fabrikami Malaisia allüksuse vastuvõtu osakonna töötaja, töö katkestatakse ja ta ei sisesta kohe toote sissetulekut.
 2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
-    -   Kahesuunaline või kolm-viis sobitamine vajavad kaubad, eest arve real on Microsoft Dynamics 365 operatsioonide määratletud piiridesse. See hõlmab järgmisi hind:
+    -   Kahe- või kolmesuunalist vastavusse viimist vajavate kaupade hinnad arve real jäävad Microsoft Dynamics 365 for Operationsis määratletud kõikumiste piiridesse. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +2 protsenti.
         -   Koguhindade vastavusse viimine – netosumma arve real vastendub kõikumise protsendi, summa või protsendi ja summa piires netosummale ostutellimuse real. Selles näites on lubatud koguhindade vastavusse viimise kõikumine +10 protsenti.
 
@@ -124,7 +127,7 @@ Contoso paberarve sisaldab järgmist teavet.
 | USB‑draiv             | 200      | 10,05      | 2010,00   |
 | Arve kogusumma         |          |            | 7092,00   |
 
-Microsoft Dynamics 365 operatsioonide Hooldusarve rida sisaldab järgmist teavet.
+Rakenduses Microsoft Dynamics 365 for Operations hõlmab arve rida järgmist teavet.
 
 | Kaubakood           | Kogus | Ühiku hind | Rea netosumma | Vastavusse viimise poliitika    | Toote sissetuleku koguse vastendamine | Hinna vastendamine | Koguhinna vastendus |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Pange tähele järgmisi kaupu.
 Kui vastendamise lahknevustega arvete sisestamisel on nõutud kinnitus, tuleb enne, kui hinna ja koguse vastendamise vigadega arvet saab sisestada, määrata lehel Arve võrdlemise üksikasjad valik Kinnita ühtivate lahknevustega sisestamine. Kui kinnitamine ei ole kohustuslik, saab arve töötlemist muude sisestusvigade puudumisel jätkata.
 
 
-Lisateabe saamiseks vaadake [moodustab makstav arve sobitamine](accounts-payable-invoice-matching.md).
+Lisateabe saamiseks vaadake teemat [Ostureskonto arvete võrdlemine](accounts-payable-invoice-matching.md).
+
+
 
 

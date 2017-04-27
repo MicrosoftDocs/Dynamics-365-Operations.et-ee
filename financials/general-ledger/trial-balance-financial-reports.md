@@ -1,6 +1,6 @@
 ---
 title: Proovibilansi finantsaruanded
-description: "Selles artiklis kirjeldatakse uuringu saldode aruanded vaikimisi. Samuti kirjeldatakse alustalad, mis on seotud kõnealuste aruannete ja kuidas saab muuta aruandeid vastavalt teie ettevõtte vajadusi."
+description: "See artikkel kirjeldab proovibilansi vaikearuandeid. See kirjeldab ka nende aruannetega seotud alustalasid ja kuidas saate muuta aruandeid, et sobituda teie ärivajadustega."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>Proovibilansi finantsaruanded
 
-Selles artiklis kirjeldatakse uuringu saldode aruanded vaikimisi. Samuti kirjeldatakse alustalad, mis on seotud kõnealuste aruannete ja kuidas saab muuta aruandeid vastavalt teie ettevõtte vajadusi. 
+[!include[banner](../includes/banner.md)]
+
+
+See artikkel kirjeldab proovibilansi vaikearuandeid. See kirjeldab ka nende aruannetega seotud alustalasid ja kuidas saate muuta aruandeid, et sobituda teie ärivajadustega. 
 
 <a name="default-trial-balance-reports"></a>Proovibilansi vaikearuanded
 -----------------------------
@@ -51,7 +54,7 @@ Proovibilansi finantsaruanded kasutavad järgmisi koosteüksusi.
 
 ### <a name="row-definition"></a>Rea definitsioon
 
-Readefinitsiooni, proovibilansi – vaikimisi sisaldab ühte rida, mis tõmbab kõik keskne raamatupidamine. Seega saab igaüks luua aruande ilma muudatusi tegemata. Aruande vaatamisel saate iga konto üksikasjade kuvamiseks minna ühes reas süvitsi. Saate muuta readefinitsiooni nii, et see hõlmaks rohkem üksikasju. Suvandi Proovibilanss – vaikimisi readefinitsiooni muutmiseks nii, et see hõlmaks kõikide kontode ridu, toimige järgmiselt.
+Rea määratlus Proovibilanss – vaikimisi sisaldab ühte rida, mis koondab kõiki põhikontosid. Seega saab igaüks luua aruande ilma muudatusi tegemata. Aruande vaatamisel saate iga konto üksikasjade kuvamiseks minna ühes reas süvitsi. Saate muuta readefinitsiooni nii, et see hõlmaks rohkem üksikasju. Suvandi Proovibilanss – vaikimisi readefinitsiooni muutmiseks nii, et see hõlmaks kõikide kontode ridu, toimige järgmiselt.
 
 1.  Klõpsake nuppu **Redigeeri** ja seejärel klõpsake suvandit **Sisesta read dimensioonidest**. Käsk **Sisesta read dimensioonidest** võimaldab teil valida dimensioonid, mida soovite readefinitsiooni kaasata. Selle readefinitsiooni puhul kasutate **Põhikontot**.
 2.  Veenduge, et **Põhikonto** sisaldab kõiki ampersande (&) ja seejärel klõpsake nuppu **OK**.
@@ -100,10 +103,12 @@ Iga proovibilansi aruanne kasutab erinevat veeru definitsiooni. Need veeru defin
 <a name="see-also"></a>Vt ka
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finantsaruandlus](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Finantsaruannete vaatamine](view-financial-reports.md)
 
-[Dynamics finants aruandluse blogi](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamicsi finantsaruandluse ajaveeb](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

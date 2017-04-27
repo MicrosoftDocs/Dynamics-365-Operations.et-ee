@@ -1,5 +1,5 @@
 ---
-title: Tootmine tellimuse oleku
+title: Tootmistellimuse oleku ennistamine
 description: Selles teemas kirjeldatakse tootmistellimuse oleku ennistamist.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reverse-the-production-order-status"></a>Tootmine tellimuse oleku
+# <a name="reverse-the-production-order-status"></a>Tootmistellimuse oleku ennistamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles teemas kirjeldatakse tootmistellimuse oleku ennistamist. 
 
@@ -49,5 +52,7 @@ Tootmistellimuse oleku ennistamisel väärtuselt **Väljastatud** väärtusele *
 
 ## <a name="from-started-to-released"></a>Olekust Alustatud olekuks Väljastatud
 Tootmistellimuse oleku ennistamisel väärtuselt **Alustatud** väärtusele **Väljastatud** ennistatakse kõik lõpetatuna kinnitatud kaubad. Kui materjal on komplekteeritud või tootmisele on tehtud sissetulevaid ja väljaminevaid tarneid, ennistatakse need sätted. Tootmistellimuse koosluseridade väli **Jäägi olek** muutub väärtuselt **Lõpetatud** väärtusele **Materjali tarbimine**. Kui kellaaeg on registreeritud või kogused tootmisprotsessi operatsioonide jaoks lõpetatuna kinnitatud, ennistatakse need sätted. Tootmistellimuse väli **Jäägi olek** muutub väärtuselt **Lõpetatud** väärtusele **Protsessi tarbimine**. Ennistatakse sätted kõigi kaupade puhul, mis on sisestatud pooleliolevatena või lõpetamata toodanguna. Lehel **Tootmistellimuse üksikasjad** ennistatakse väljad, millel kuvatakse alustatud või lõpetatuna kinnitatud kogus. Ennistatakse ka nende kannete kuupäevad.
+
+
 
 

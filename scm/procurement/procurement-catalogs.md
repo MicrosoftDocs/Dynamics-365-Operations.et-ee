@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Hankekataloogid
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel kirjeldab kõrgel tasemel, kuidas ostuspetsialistid saavad hankekatalooge seadistada ja hallata. Hankekataloogid määratlevad kaubad ja teenused, mida ettevõtte töötajad saavad ettevõttesiseseks kasutamiseks tellida.
 
 Ostuspetsialistid saavad luua ja hallata katalooge kaupade ja teenuste kohta, mida saab osta organisatsioonisiseseks kasutamiseks. Kui kataloogid on seadistatud, saavad ettevõtte töötajad luua ostutaotlusi nende tellimiseks. Kataloogide abil saab jõustada ostupoliitikaid, nii et töötajad saavad tellida ainult neid kaupu ja teenuseid, mis on nende ostva juriidilise isiku jaoks lubatud. Hankekataloogi loomisel peate täitma järgmised ülesanded.
 
 -   Konfigureerige enne kataloogi loomist hankekategooria hierarhia.
--   Töötajatele tellimiseks saadaolevate toodete määratlemine. Saate kuvada või peita konkreetsete toodete kataloogi sõlmes või saate kuvada või peita kõigi toodete sõlmes.
+-   Töötajatele tellimiseks saadaolevate toodete määratlemine. Saate kataloogisõlmes kuvada või peita konkreetsed tooted või kõik tooted.
 -   Hankekataloogide vajaliku arvu määratlemine. Juurdepääsu hankekataloogile määratleb kataloogi poliitikareegel, mille peate konfigureerima juriidilisele isikule ja tootmisüksusele, kuhu töötaja on määratud.
 
 Tooteid, mida töötajad saavad tellida, ja hankekatalooge, mida nad saavad ostutaotluste loomisel kasutada, määratakse mitme teguriga.
@@ -52,7 +55,7 @@ Järgmises tabelis kirjeldatakse ülesandeid, mis tuleb täita, enne kui ostuspe
 ## <a name="setting-up-a-catalog"></a>Kataloogi seadistamine
 Katalooge saate seadistada, kui eeltingimused on täidetud. Saate luua ühe kataloogi, mida kasutab kogu ettevõte, või mitu kataloogi, mida kasutavad organisatsiooni erinevad osakonnad. Kui loote ühe kataloogi kogu organisatsiooni jaoks, juhivad juurdepääsu kataloogile ostupoliitika reeglid.  
 
-Kataloog määratleb, millised tooted on ostutaotluste loomisel saadaval, kuid saate kategooria juurdepääsupoliitika reeglitega rakendada täiendavaid piiranguid. Kuna kataloogi sõlmed on hankekategooriad, saab juurdepääsu neile keelata kategooria juurdepääsupoliitika reegli abil. Sel juhul toodete kategooria jaoks puuduvad töötajad kasutada ostutellimused. Saate määratleda kategooria juurdepääsu eeskirjade ning **osta poliitika** lehel. Järgmises tabelis kirjeldatakse ülesandeid, mis tuleb kataloogi seadistamiseks täita.
+Kataloog määratleb, millised tooted on ostutaotluste loomisel saadaval, kuid saate kategooria juurdepääsupoliitika reeglitega rakendada täiendavaid piiranguid. Kuna kataloogi sõlmed on hankekategooriad, saab juurdepääsu neile keelata kategooria juurdepääsupoliitika reegli abil. Sellisel juhul pole selles kategoorias olevad tooted töötajatele taotlustel kasutamiseks saadaval. Kategooria juurdepääsupoliitika reeglid saate määratleda lehel **Ostupoliitikad**. Järgmises tabelis kirjeldatakse ülesandeid, mis tuleb kataloogi seadistamiseks täita.
 
 | Ülesanne                                                   | Roll             | Kirjeldus                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,6 +73,8 @@ Värskendusi saab avaldada kas automaatselt või käsitsi olenevalt sellest, mil
 <a name="see-also"></a>Vt ka
 --------
 
-[Seadistage hanke kategooria hierarhia (ülesande juhend)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+[Hankekategooria hierarhia seadistamine (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+
+
 
 

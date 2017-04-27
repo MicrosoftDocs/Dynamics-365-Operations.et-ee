@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Ostutellimuse ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse üldist teavet ostutellimuste (PO-de) kohta ja lingid täiendavate artiklite juurde, mis on seotud mitmesuguste etappidega, mille PO läbib.
 
 Ostutellimus (PO) on dokument, mis kujutab endast kokkulepet hankijaga kaupade või teenuste ostmiseks. See dokument aitab jälgida ka toote sissetulekuid, mis on tellimuse suhtes tehtud, ja hiljem tellimuse suhtes väljastatud hankija arvete arvestust.  
 
-Lehel **Ostutellimused** on ülevaade olemasolevatest tellimustest ja seal saate neid tellimusi muuta. Kui PO avate, saate valida vaate **Päis**, mis sisaldab teavet, mis määratakse iga PO puhul ainult üks kord (nt hankija andmed). Teise võimalusena saate valida vaate **Read**, kus saab tellimuse ridu muuta. Tavaliselt hakkab vaheldumisi neid vaateid kordamööda, kui muudate POs. Tasud ei ole loetletud otse selle **ostutellimuste** lehekülg, kuid päise ja ridade menüüd tutvuda.  
+Lehel **Ostutellimused** on ülevaade olemasolevatest tellimustest ja seal saate neid tellimusi muuta. Kui PO avate, saate valida vaate **Päis**, mis sisaldab teavet, mis määratakse iga PO puhul ainult üks kord (nt hankija andmed). Teise võimalusena saate valida vaate **Read**, kus saab tellimuse ridu muuta. Tavaliselt liigute ostutellimuste muutmisel nende kahe vaate vahel. Tasusid pole lehel **Ostutellimused** otseselt loetletud, kuid nende juurde pääseb tellimuse päises ja ridadel olevate menüüde kaudu.  
 
 On palju aruandeid, kus saate vaadata andmeid ostutellimuste, toote sissetulekute ja hankija arvete kohta. Need aruanded leiate ka moodulitest **Hanked** ja **Ostureskontro**.  
 
-Tööruumides **Ostutellimuse ettevalmistamine** ja **Ostutellimuse vastuvõtt ja järeltegevus** saate vaadata ostutellimuste loendeid nende mitmesugustes olekutes, millesse need on jõudnud. Samuti pakuvad nad vajalike tegevuste kokkuvõtet. Tööruum **Ostutellimuse ettevalmistamine** keskendub ostutellimuse loomisele ja ülevaatamisele, tellimuse töötlemisele heakskiidu kaudu ja hankija kinnitusele. Selle **tellimuse tarne ja järelmeetmete** tööruum on keskendunud töötlemise kaupade või teenuste vastu POs. See sisaldab anda ülevaate laekumised, mille tähtaeg on saabunud või mis tehakse otse tarnija tarne nimekirjad. Neid tööruume ei kasutata laos toimuvate seotud sissetulekutegevuste läbiviimiseks. Neid tegevusi tehakse moodulite **Varude haldus** ja **Laohaldus** lehtede abil. Hankija arveid tuleks töödelda tööruumi **Hankija arve sisestamine** abil ja makseid tuleks teha tööruumi **Hankija maksed** abil.  
+Tööruumides **Ostutellimuse ettevalmistamine** ja **Ostutellimuse vastuvõtt ja järeltegevus** saate vaadata ostutellimuste loendeid nende mitmesugustes olekutes, millesse need on jõudnud. Samuti pakuvad nad vajalike tegevuste kokkuvõtet. Tööruum **Ostutellimuse ettevalmistamine** keskendub ostutellimuse loomisele ja ülevaatamisele, tellimuse töötlemisele heakskiidu kaudu ja hankija kinnitusele. Tööruum **Ostutellimuse vastuvõtt ja järeltegevus** keskendub kaupade või teenuste vastuvõtmisele ostutellimuste suhtes. See sisaldab loendeid, mis annavad ülevaate sissetulekutest, mis on tähtaja ületanud või mille tarnija peaks varsti kohale toimetama. Neid tööruume ei kasutata laos toimuvate seotud sissetulekutegevuste läbiviimiseks. Neid tegevusi tehakse moodulite **Varude haldus** ja **Laohaldus** lehtede abil. Hankija arveid tuleks töödelda tööruumi **Hankija arve sisestamine** abil ja makseid tuleks teha tööruumi **Hankija maksed** abil.  
 
 Järgmistes artiklites antakse ülevaade mitmesuguste etappide kohta, mille ostutellimus läbib.
 
@@ -45,7 +48,7 @@ Järgmistes artiklites antakse ülevaade mitmesuguste etappide kohta, mille ostu
 -   [Hankija arvete ülevaade](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Ostutellimuste tüübid
-Seal on kolme tüüpi POs. Tootjaorganisatsioon loomisel Määrake tüüp. Uute tellimuste kohta saab seadistada tellimuse vaiketüübi lehel **Hankeparameetrid**.
+Ostutellimusi on kolme tüüpi. Ostutellimuse loomisel tuleb määrata tüüp. Uute tellimuste kohta saab seadistada tellimuse vaiketüübi lehel **Hankeparameetrid**.
 
 | Ostutellimuse tüüp        | Kirjeldus                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ Välja **Kinnitamise olek** kasutatakse, kui ostutellimus läbib töövoo üleva
 <a name="see-also"></a>Vt ka
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Ostutellimuse loomine](purchase-order-creation.md)
 
 [Ostutellimuse heakskiitmine ja kinnitamine](purchase-order-approval-confirmation.md)
 
 [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
 
 [Hankija arvete ülevaade](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

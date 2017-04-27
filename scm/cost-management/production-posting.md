@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-posting"></a>Tootmise sisestamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet eri tüüpi sisestuste kohta tootmisprotsessis.
 
 Tootmise sisestamistegevused järgivad tootmisprotsesse, mida kirjeldatakse allolevates jaotistes.
 
 ## <a name="material-consumption"></a>Materjali tarbimine
-Materjalid registreeritakse tootmisel tarbituteks, kui sisestatakse tootmise komplekteerimise tööleht. See protsess loob väljaminekukanded, mis arvavad maha vaba kaubavaru. Tootmisparameetrite, saate määrata, kas tooraine hinna mis pooleli (lõpetamata töö \[lõpetamata toodangu\]) tuleks sisestada pearaamatusse. Lõpetamata (WIP) toormaterjalide väärtus sisestatakse siis sihtotstarbelisele komplekteerimislehe kontole ja sihtotstarbelisele komplekteerimislehe vastaskontole.
+Materjalid registreeritakse tootmisel tarbituteks, kui sisestatakse tootmise komplekteerimise tööleht. See protsess loob väljaminekukanded, mis arvavad maha vaba kaubavaru. Tootmise parameetrites saate määrata, kas töös olevate (lõpetamata toodang \[WIP\]) toormaterjalide väärtus tuleb pearaamatusse sisestada. Lõpetamata (WIP) toormaterjalide väärtus sisestatakse siis sihtotstarbelisele komplekteerimislehe kontole ja sihtotstarbelisele komplekteerimislehe vastaskontole.
 
 ## <a name="time-consumption"></a>ajatarbimine.
 Aega, mille töötajad tootmistöödele kulutavad, salvestatakse protsessikaardi töölehel või töökaardi töölehel. Kui need töölehed sisestatakse, töödeldakse pearaamatut, mis sisestab lõpetamata (WIP) ressursside sihtotatarbelisele kontole. See sisestus näitab tootmistellimusele kulutatud aja väärtust. Kui tootmistellimus on registreeritud lõpetatuks, tasakaalustatakse WIP-kontod.
@@ -42,7 +45,7 @@ Aega, mille töötajad tootmistöödele kulutavad, salvestatakse protsessikaardi
 Kui tootmistellimus on lõpetatuks tunnistatud, värskendatakse lõpule viidud lõpetatud kaupade kogust varude halduses töölehe Teata lõpetamisest kaudu. Kui kasutate WIP-kontosid, mille saab seadistada tootmise parameetrites, tehakse pearaamatu tööleht vähendamaks WIP-kontosid ja suurendamaks lõpetatud kaupade varusid. Tööleht kasutab standardhinda, mis on tootele määratud.
 
 ## <a name="ending-the-production-order"></a>Tootmistellimuse lõpetamine
-Enne tootmistellimuse lõpetamist arvutatakse toodetud koguse tegelikud kulud. Kõik hinnangulised materjali- töö ja üldkulud tühistatakse ja asendatakse tegeliku kuluga. Lõpetatud kauba üleüldine kulu debiteeritakse lao kontolt Sissetulekud ja krediteeritakse kontole Väljaminekud. Kui märgite kuluarvutuse käivitamisel ruudu **Lõpeta töö**, muudetakse tootmistellimuse olek sättele **Lõpetatud**. See olek takistab lisakulude tahtmatut sisestamist lõpetatud tootmistellimusele. Saate määrata, et lõpetatuna aruandeperioodi jooksul viga koguse väärtus jaotatakse hea kogused, mis on lõpetatuna kinnitatud. Teise võimalusena saate määrata, et vigaste koguste väärtus tuleb sisestada sihtotstarbelisele praagikontole.
+Enne tootmistellimuse lõpetamist arvutatakse toodetud koguse tegelikud kulud. Kõik hinnangulised materjali- töö ja üldkulud tühistatakse ja asendatakse tegeliku kuluga. Lõpetatud kauba üleüldine kulu debiteeritakse lao kontolt Sissetulekud ja krediteeritakse kontole Väljaminekud. Kui märgite kuluarvutuse käivitamisel ruudu **Lõpeta töö**, muudetakse tootmistellimuse olek sättele **Lõpetatud**. See olek takistab lisakulude tahtmatut sisestamist lõpetatud tootmistellimusele. Saate täpsustada, et lõpule viidud kogustest aru andmise ajal teavitatud vigaste koguste väärtus tuleb eraldada lõpule viidud koguste puhul õigetest kogustest. Teise võimalusena saate määrata, et vigaste koguste väärtus tuleb sisestada sihtotstarbelisele praagikontole.
 
 ## <a name="controlling-the-level-of-ledger-posting"></a>Pearaamatusse sisestamise taseme juhtimine
 Jaotises **Tootmise juhtimise parameetrid** saate kasutada välja **Pearaamatusse sisestamine**, et määrata pearaamatusse sisestamise taseme tootmisprotsesside puhul. Saadaval on järgmised väärtused:
@@ -52,5 +55,7 @@ Jaotises **Tootmise juhtimise parameetrid** saate kasutada välja **Pearaamatuss
 -   **Tootmisgrupid** – kasutage pearaamatukontosid, mis on seadistatud nii materjali- kui ka ajakulu tootmisgruppides. Tootmisgrupid on seostatud välastatud toodetega ja kopeeritud tootmistellimustele nende tellimuste loomisel. Tootmistellimuste sisestamine järgib tootmisgruppe, mis on seostatud tootmistellimusega.
 
 **Märkus.** Kui lõpetatud kauba kulu arvutamisel kasutati standardset meetodit, siis kajastavad seda lõppkanded. Kui tegelike kulude ja standardse arvutusmeetodi tulemused erinevad, siis sisestatakse see erinevus tulu või kulu kontole.
+
+
 
 

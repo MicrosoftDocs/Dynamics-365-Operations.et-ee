@@ -1,5 +1,5 @@
 ---
-title: Koondplaneerimise saidi ja lao katvus, ladu ei ole kohustuslik
+title: Koondplaanimine laoala ja laovarude jaoks, ladu ei ole kohustuslik
 description: Selles teemas kirjeldatakse, kuidas plaanitakse kaupa, millel on laoala ja varud kattedimensioonidena. Lao dimensioon ei ole kohustuslik.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Koondplaneerimise saidi ja lao katvus, ladu ei ole kohustuslik
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Koondplaanimine laoala ja laovarude jaoks, ladu ei ole kohustuslik
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles teemas kirjeldatakse, kuidas plaanitakse kaupa, millel on laoala ja varud kattedimensioonidena. Lao dimensioon ei ole kohustuslik.
 
@@ -38,10 +41,10 @@ See koondplaneerimise stsenaarium sisaldab järgmisi tingimusi.
 -   Laoala ja lao dimensioonid seadistatakse laovarude plaanimiseks. Muidki dimensioone võib seadistada laovarude plaanimiseks. Mitme laoala režiimi funktsioonid neid siiski ei mõjuta.
 
 Järgmine graafik näitab, kuidas koondplaneerimine jätkub. Parameetrid, mis on graafikusse kantud, ja nende asukohad, on järgnevad:
--   Ladu on seatud Käsitsi peale. Klõpsake **varud &gt;Setup &gt;laovarude jaotamine &gt;ladudes**. Vaadake kiirkaardil **Koondplaneerimine** välja **Käsitsi**.
--   Kauba laovarud on kauba kohta määratud. Klõpsake **toote teabekorraldus &gt;toodete&gt; vabastatud toodete**. Valige soovitud üksus ja siis Updatehagi paani kohta ning **kava** vahekaardil, klõpsake **kauba laovarud**.
--   Taastäitmise suhted on laole määratud. Klõpsake **varud &gt;Setup &gt;laovarude jaotamine &gt;ladudes**. Vaadake kiirkaardil **Koondplaneerimine** väljagruppi **Pealadu**.
--   Tellimuse vaiketüübiks on määratud Tootmine, Ostutellimus või Kanban. Klõpsake **toote teabekorraldus &gt;toodete&gt; vabastatud toodete**. Valige soovitud üksus ja siis Updatehagi paani kohta on **kava** vahekaardil, klõpsake **vaikimisi tellimuse telefoni**. Vaadake vormi **Tellimuse vaikesätted** jaotist **Tellimuse vaiketüüp**.
+-   Ladu on seatud Käsitsi peale. Klõpsake valikuid **Varud &gt; Seadistus &gt; Laovarude jaotamine &gt; Laod**. Vaadake kiirkaardil **Koondplaneerimine** välja **Käsitsi**.
+-   Kauba laovarud on kauba kohta määratud. Klõpsake suvandeid **Tooteteabe haldus &gt; Tooted &gt; Väljastatud tooted**. Valige kaup ja seejärel klõpsake tegumiribal vahekaardil **Plaan** valikut **Kauba laovarud**.
+-   Taastäitmise suhted on laole määratud. Klõpsake valikuid **Varud &gt; Seadistus &gt; Laovarude jaotamine &gt; Laod**. Vaadake kiirkaardil **Koondplaneerimine** väljagruppi **Pealadu**.
+-   Tellimuse vaiketüübiks on määratud Tootmine, Ostutellimus või Kanban. Klõpsake suvandeid **Tooteteabe haldus &gt; Tooted &gt; Väljastatud tooted**. Valige kaup ja seejärel klõpsake tegumiribal vahekaardil **Plaan** valikut **Tellimuse vaikesätted**. Vaadake vormi **Tellimuse vaikesätted** jaotist **Tellimuse vaiketüüp**.
 
 ![Nõude laoala ja laovarud, ladu pole    ](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
@@ -53,7 +56,7 @@ Järgmine graafik näitab, kuidas koondplaneerimine jätkub. Parameetrid, mis on
 <a name="see-also"></a>Vt ka
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Koondplaanimine ja mitme laoala funktsioon](master-plan-multisite-functionality.md)
 
 [Koondplaneerimine – laoala ja laovarud, ladu on kohustuslik](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -62,5 +65,7 @@ Järgmine graafik näitab, kuidas koondplaneerimine jätkub. Parameetrid, mis on
 [Koondplaneerimine – laovarud, ladu ei ole kohustuslik](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Koondplaneerimine – koosluse versiooni määratlemine](master-plan-bom-version-determined.md)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: Planeerida oma kontoplaani
+title: Kontoplaani kavandamine
 description: Selles artiklis antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Planeerida oma kontoplaani
+# <a name="plan-your-chart-of-accounts"></a>Kontoplaani kavandamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
 
@@ -34,7 +37,7 @@ Organisatsiooni finantsteabe jälgimiseks ja säilitamiseks saate seadistada kon
 
 Kontoplaan on juriidilise isiku pearaamatukontode struktureeritud loend. Seda loendit kasutatakse ametivõimudele ja omanikele finantsaruannete ettevalmistamiseks. Kontod on grupeeritud kontotüüpide järgi ja seejärel koondatud suurematesse kategooriatesse. Kõige üldisemal tasandil on kontod grupeeritud tulude ja kuludena (kasutusel olevad kontod) ning varade ja kohustustena (bilansikontod). 
 
-Kontoplaani saavad jagada ja kasutada kõik organisatsiooni juriidilised isikud. Määratletakse kontoplaani, mida juriidiline isik kasutab selle **pearaamatu** lehel. 
+Kontoplaani saavad jagada ja kasutada kõik organisatsiooni juriidilised isikud. Kontoplaan, mida juriidiline isik kasutab, on määratletud lehel **Pearaamat**. 
 
 Järgmiselt on toodud mõni tegur, millega peate oma organisatsiooni kontoplaani struktuuri plaanimisel arvestama.
 
@@ -48,10 +51,12 @@ Soovitatav on siduda põhikontod põhikonto kategooriatega, nii et saate kasutad
 
 Kasutage konto struktuuride loomiseks lehte **Konto struktuuride konfigureerimine**. Konto struktuurid määratlevad kehtivaid kombinatsioone. Need kombinatsioonid koos põhikontodega moodustavad kontoplaani. 
 
-**Legal entity overrides** 
+**Juriidilise isiku tühistamised** 
 
-Kõik põhiaruanded kehtivad juriidilised isikud ja mõned võib olla asjakohane ainult teatud aja jooksul. Sellisel juhul saab jaotist Juriidilise isiku alistamised kasutada tuvastamaks, milliste ettevõtete põhikonto tuleks peatada, kes on omanik ja mis ajaperioodil on dimensioon aktiivne. Ühiskasutuse tasandil alistamised ei saa olla piiravamad kui alistamised juriidilise isiku tasandil.
+Kõik põhikontod ei kehti kõikide juriidiliste isikute puhul ja mõned võivad olla asjakohased ainult konkreetse ajaperioodi puhul. Sellisel juhul saab jaotist Juriidilise isiku alistamised kasutada tuvastamaks, milliste ettevõtete põhikonto tuleks peatada, kes on omanik ja mis ajaperioodil on dimensioon aktiivne. Ühiskasutuse tasandil alistamised ei saa olla piiravamad kui alistamised juriidilise isiku tasandil.
 
-Lisateabe saamiseks vaadake [finantsdimensioonide](financial-dimensions.md).
+Lisateavet leiate jaotisest [Finantsdimensioonid](financial-dimensions.md).
+
+
 
 

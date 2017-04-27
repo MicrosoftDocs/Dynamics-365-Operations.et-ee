@@ -1,6 +1,6 @@
 ---
-title: "Uue ülesande juhendid (veebruar 2016)"
-description: "Seda wikit loetletakse Microsoft BPM raamatukogude seisuga veebruar 2016 vabastamisele ülesandeks juhendid.  Teegid, mis avaldati sisaldavad (veebruar 2016) APQC ühendatud Raamatukogu Microsoft Dynamics 365 (veebruar 2016), ja kuidas alustada."
+title: Uued tegevusjuhised (veebruar 2016)
+description: "Selles vikis on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.  Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics 365 for Operationsi APQC ühendatud teek ja (2016. a. veebruari Alustamine."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Uue ülesande juhendid (veebruar 2016)
+# <a name="new-task-guides-february-2016"></a>Uued tegevusjuhised (veebruar 2016)
 
-Seda wikit loetletakse Microsoft BPM raamatukogude seisuga veebruar 2016 vabastamisele ülesandeks juhendid.  Teegid, mis avaldati sisaldavad (veebruar 2016) APQC ühendatud Raamatukogu Microsoft Dynamics 365 (veebruar 2016), ja kuidas alustada.
+Selles vikis on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.  Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics 365 for Operationsi APQC ühendatud teek ja (2016. a. veebruari Alustamine.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Ülesande juhendid (veebruar 2016) APQC ühendatud Raamatukogu Microsoft Dynamics 365 toiminguteks
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Tegevusjuhised (veebruar 2016) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegist
 ---------------------------------------------------------------------------------
 
-(Veebruar 2016) APQC ühendatud Raamatukogu sisaldab ülesandeks juhendid, mis on mõeldud abiks Dynamics 365 kasutavad toimingud 7.0.0 vabastada. Kui peate need ülesandeks juhendid lokaliseeritud versioonid, need on saadaval (mai 2016) APQC ühendatud Raamatukogu Microsoft Dynamics 365 toiminguteks. Ühenduse abi süsteem ülesande juhend Raamatukogu loomise kohta lisateabe saamiseks vt [abiga alustada](help-overview.md).
+(2016. aasta veebruari) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks väljaandega Dynamics 365 for Operations 7.0.0. Kui vajate neist tegevusjuhistest lokaliseeritud versioone, siis need on saadaval Microsoft Dynamics 365 for Operationsi (2016. aasta mai) APQC ühendatud teegist. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
 
 ### <a name="accounts-payable"></a>Ostureskontro
 
@@ -531,7 +531,7 @@ Seda wikit loetletakse Microsoft BPM raamatukogude seisuga veebruar 2016 vabasta
 | Arvutuse lisamine toote konfiguratsioonimudelile    | Globaalne             |
 | Toote konfiguratsioonimudeli kinnitamine                 | Globaalne             |
 | Väljastatud tooteetaloni põhiseadistuse lõpuleviimine | Üldine             |
-| Luua on... \financial-dimensions\dimension-Based toote master               | Üldine             |
+| Tooteetaloni ..\financial-dimensions\dimension-based loomine               | Üldine             |
 | Tooteklassifikatsiooni hierarhia loomine          | Globaalne             |
 | Toote konfiguratsioonimudeli loomine                  | Globaalne             |
 | Tooteetaloni loomine                               | Globaalne             |
@@ -544,7 +544,7 @@ Seda wikit loetletakse Microsoft BPM raamatukogude seisuga veebruar 2016 vabasta
 | Toote konfiguratsioonimudeli BOM-i haldamine        | Globaalne             |
 | Tootemudeli protsessi haldamine                    | Üldine             |
 | Väljastatud toodete haldamine                              | Üldine             |
-| Release on... \financial-dimensions\dimension-Based toote master              | Üldine             |
+| Tooteetaloni ..\financial-dimensions\dimension-based väljastamine              | Üldine             |
 | Tootemudelite andmete ülekandmine                      | Globaalne             |
 
  
@@ -718,10 +718,10 @@ Seda wikit loetletakse Microsoft BPM raamatukogude seisuga veebruar 2016 vabasta
 <a name="see-also"></a>Vt ka
 --------
 
-[Uue või ajakohastatud ülesandeks juhendid (mai 2016)](new-updated-task-guides-available-may-2016.md)
+[Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Uue või ajakohastatud ülesandeks juhendid (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Uue või ajakohastatud ülesandeks juhendid (November 2016)](new-task-guides-november-2016.md)
+[Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)
 
 

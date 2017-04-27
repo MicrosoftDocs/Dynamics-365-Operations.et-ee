@@ -1,5 +1,5 @@
 ---
-title: "Kasutamise jälgimise plahvatus"
+title: "Plahvatuse jaoks jälgimise kasutamine"
 description: "Selles artiklis selgitatakse, kuidas kasutada jälgimist tellimuse koosnevusarvutuse tulemuse põhjuste uurimiseks."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Kasutamise jälgimise plahvatus
+# <a name="use-tracing-for-explosion"></a>Plahvatuse jaoks jälgimise kasutamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis selgitatakse, kuidas kasutada jälgimist tellimuse koosnevusarvutuse tulemuse põhjuste uurimiseks.
 
@@ -43,6 +46,8 @@ Saate vaadata tulevaste üksuste üksikasju ja valitud tellimuse toiminguid. Leh
 <a name="see-also"></a>Vt ka
 --------
 
-[Master plans](master-plans.md)
+[Koondplaanid](master-plans.md)
+
+
 
 

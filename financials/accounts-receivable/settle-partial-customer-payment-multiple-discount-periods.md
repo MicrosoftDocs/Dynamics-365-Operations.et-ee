@@ -1,5 +1,5 @@
 ---
-title: Lahendada osalise kliendi makse, mis on mitme allahindluse perioodide
+title: Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
 description: "See artikkel näitab, kuidas mitme allahindlusperioodi korral osalisi kliendi makseid tasakaalustatakse."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Lahendada osalise kliendi makse, mis on mitme allahindluse perioodide
+# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel näitab, kuidas mitme allahindlusperioodi korral osalisi kliendi makseid tasakaalustatakse.
 
-Fabrikam pakub kliendile 4031 kahte skontoperioodi. Klient saab 2-protsendilise skonto, kui arve tasutakse viie päeva jooksul ja 1-protsendilise skonto, kui arve tasutakse 14 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Lahendamise parameetrid asuvad ka **Müügireskontro parameetrid** lehel.
+Fabrikam pakub kliendile 4031 kahte skontoperioodi. Klient saab 2-protsendilise skonto, kui arve tasutakse viie päeva jooksul ja 1-protsendilise skonto, kui arve tasutakse 14 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Tasakaalustamise parameetrid asuvad lehel **Müügireskontro parameetrid**.
 
 ## <a name="invoice"></a>Arve
-25. juuni Arnie siseneb ja postitusi arve kliendi 4031 1000.00 dollarit. Kui ta kommentaare selle arve skonto, Arnie näeb kliendi 4031 saab 20.00 hinnaalandit, kui arve on tasutud 30. juuni. Kui arve tasub juuli 9, klient saab 10.00 hinnaalandit.
+25. juunil sisestab Arnie kliendile 4031 arve summas 1000,00. Selle arve skontode ülevaatamisel näeb Arnie, et klient 4031 saab allahindlust 20,00, kui ta tasub arve 30. juuniks. Kui arve tasutakse 9. juuliks, saab klient 10,00 allahindlust.
 
 | Skonto kuupäev | Skonto summa | Summa kandevaluutas |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ Arve saldo on nüüd 0,00. Arnie vaatab seda teavet lehel **Kliendi kanded**.
 | DISC‑10030 |  Skonto   | 28.06.2015 |         |                                      | 6,00                                  | 0,00    | USA dollar      |
 | ARP‑10031  |  Makse         | 08.07.2015  |         |                                      | 693,00                                | 0,00    | USA dollar      |
 | DISC‑1031  |  Skonto   | 08.07.2015  |         |                                      | 7,00                                  | 0,00    | USA dollar      |
+
+
 
 
 

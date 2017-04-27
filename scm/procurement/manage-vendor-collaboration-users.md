@@ -27,18 +27,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-vendor-collaboration-users"></a>Hankija koostöö kasutajate haldamine
 
+[!include[banner](../includes/banner.md)]
+
+
 See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte. 
 
-Hankija koostöö liides rakenduses Microsoft Dynamics 365 for Operations paljastab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub rakenduse Dynamics 365 for Operations eksemplar. Kui sa välise hankija hankija koostöö kasutamise kohta lisateabe saamiseks vt [hankija klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Hankija koostöö liides rakenduses Microsoft Dynamics 365 for Operations paljastab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub rakenduse Dynamics 365 for Operations eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Klientidega hankija](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Kasutamise hankija koostöö, kui sa oled professionaalne hanke kohta lisateabe saamiseks vt [hankija koostöö väliste tarnijate](vendor-collaboration-work-external-vendors.md).
+Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="add-new-vendor-collaboration-contacts"></a>Uue hankija koostöö kontaktide lisamine
-Kui soovite, et kellelgi oleks juurdepääs hankija koostööle, tuleb nad esmalt lisada hankija koostöö kontaktina. Võite soovi korral lisada kontakte oma ettevõtte töötajatele, kes ei kasuta hankija koostööd. Näiteks võivad nad olla kontaktpunktiks teist tüüpi hanketeabele. Uued kontaktid on lisatud ka **kõik kontaktid** leht, mis pääseb on **hankija koostöö**&gt;**kontaktid** menüü. Uue kontakti lisamiseks:
+Kui soovite, et kellelgi oleks juurdepääs hankija koostööle, tuleb nad esmalt lisada hankija koostöö kontaktina. Võite soovi korral lisada kontakte oma ettevõtte töötajatele, kes ei kasuta hankija koostööd. Näiteks võivad nad olla kontaktpunktiks teist tüüpi hanketeabele. Uued kontaktid lisatakse lehel **Kõik kontaktid** millele on juurdepääs menüüst **Hankija koostöö** &gt; **Kontaktid**. Uue kontakti lisamiseks:
 
 1.  Klõpsake valikut **Uus**.
 2.  Sisestage kontaktisiku üksikasjad.
-3.  Valige, millist juriidilist isikut nad teie ettevõttes tähistavad ja millise juriidilise isikuga nad töötavad ettevõttes, millega nad koostööd teevad. Seda valides on **minu firma juriidilise isiku**/**kliendi ettevõtte juriidilise isiku** paari.
+3.  Valige, millist juriidilist isikut nad teie ettevõttes tähistavad ja millise juriidilise isikuga nad töötavad ettevõttes, millega nad koostööd teevad. Selleks valite paari **Juriidiline isik minu ettevõttes**/**Juriidiline isik kliendi ettevõttes**.
 4.  Klõpsake valikut **Loo**.
 
 Kui soovite kontakti kustutada, siis on võimalik kustutada ainult need, mille olete loonud.
@@ -46,8 +49,8 @@ Kui soovite kontakti kustutada, siis on võimalik kustutada ainult need, mille o
 ## <a name="vendor-collaboration-user-requests"></a>Hankija koostöö kasutajataotlused
 Hankija koostöö kasutajataotlused saab tõstada hankeprofessionaal või väline hankija administraator.
 
--   Kui sa välise hankija, esitate taotlusi ning **kõik kontaktid** jooksul lehekülg on **hankija koostöö** moodul.
--   Kui olete hankeprofessionaal, edastate taotlusi lehelt **Kuva kontaktid**. Selleks hankija kohta, mis on **Setup** lõik tegevus paanil valige **kontaktid**&gt;**kontaktisikute**.
+-   Kui olete väline hankija, edastate taotlusi lehelt **Kõik kontaktid** mooduli **Hankija koostöö** siseselt.
+-   Kui olete hankeprofessionaal, edastate taotlusi lehelt **Kuva kontaktid**. Selleks tehke hankija kirjel tegumiriba jaotises **Seadistus** valikud **Kontaktid** &gt; **Kuva kontaktid**.
 
 Saate teha taotluse kasutaja ettevalmistamiseks, kasutaja inaktiveerimiseks või turberollide modifitseerimiseks. Kui olete välise hankija administraator, peate olema registreeritud selliste hankijakontode kontaktisikuna, mille jaoks soovite kasutajataotlusi teha, ja teil peab olema juurdepääs hankija koostöö liidesele nende hankijakontode puhul.  
 
@@ -57,13 +60,13 @@ Taotluse edastamisel lisatakse see mooduli **Hankija koostöö** loendisse **Han
 
 Enne kui saate taotleda uue kasutaja ettevalmistamist, tuleb see isik seadistada kontaktina ühe või mitme hankijakonto jaoks. Uue hankija koostöö kasutaja jaoks taotluse loomiseks:
 
-1.  Kohta ning **kõik kontaktid** klõpsake valikul **sätte hankija kasutaja**.
-2.  Sisestage kasutaja meiliaadress. Seda aadressi kasutab kasutaja, et logida sisse rakendusse Dynamics 365 for Operations. Kui meiliaadress kuulub domeenile, mis on registreeritud Microsoft Azure'iga üürnikuna, siis peab meiliaadress olema olemasolev Azure Active Directory (ADD) konto, et ettevalmistamise protsessi saaks edukalt lõpuke viia. Kui meiliaadress ei kuulu Microsoft Azure'iga registreeritud domeenile, luuakse ADD konto osana ettevalmistamise protsessit ja uus kasutaja saab kutsemeili. Tarbija e-posti käsitletakse valdkonda nagu @hotmail.com, @gmail.com, või @comcast.netei saa kasutada Dynamics 365 toimingute kasutaja registreerimiseks.
+1.  Lehel **Kõik kontaktid** klõpsake valikut **Valmista ette hankija-kasutaja**.
+2.  Sisestage kasutaja meiliaadress. Seda aadressi kasutab kasutaja, et logida sisse rakendusse Dynamics 365 for Operations. Kui meiliaadress kuulub domeenile, mis on registreeritud Microsoft Azure'iga üürnikuna, siis peab meiliaadress olema olemasolev Azure Active Directory (ADD) konto, et ettevalmistamise protsessi saaks edukalt lõpuke viia. Kui meiliaadress ei kuulu Microsoft Azure'iga registreeritud domeenile, luuakse ADD konto osana ettevalmistamise protsessit ja uus kasutaja saab kutsemeili. Laiatarbemeiliaadresse, mis on selliste domeenidega nagu @hotmail.com, @gmail.com või @comcast.net, ei saa kasutada rakenduse Dynamics 365 for Operations kasutaja registreerimiseks.
 3.  Seadke suvand **Hankija koostöö juurdepääs on lubatud** valikule **Jah** kõikide juriidiliste isikute puhul, millele kasutaja vajab juurdepääsu.
 4.  Jaotises **Kasutaja rollide määramine** valige märkeruut **Määra** turberollidele, mis uuel kasutajal peaks olema.
 5.  Klõpsake **Edasta**.
 
-Hankija kasutaja taotluse esitamisel on **hankija koostöö ligipääsetavuse** on välja **Jah** valitud hankija konto ja kasutaja paluda töövoo käivitamist. Osana töövoost luuakse rakenduses Dynamics 365 for Operations uus kasutaja ja määratakse turberollid. Lisaks aktiveeritakse Azure B2B teenus, mis käivitab suhtluse Azure'i portaaliga ja seostab uut või olemasolevat AAD kontot rakenduse Dynamics 365 for Operations kasutajakontoga.
+Hankija-kasutaja taotluse edastamisel seatakse valitud hankija konto väli **Hankija koostöö juurdepääs on lubatud** olekusse **Jah** ja käivitatakse kasutajataotluse töövoog. Osana töövoost luuakse rakenduses Dynamics 365 for Operations uus kasutaja ja määratakse turberollid. Lisaks aktiveeritakse Azure B2B teenus, mis käivitab suhtluse Azure'i portaaliga ja seostab uut või olemasolevat AAD kontot rakenduse Dynamics 365 for Operations kasutajakontoga.
 
 ### <a name="inactivate-a-user"></a>Kasutaja inaktiveerimine
 
@@ -72,22 +75,24 @@ On kaks viisi, kuidas eemaldada kasutaja juurdepääs hankija koostööle:
 -   Hankija lehel **Kontaktid** määrake suvandi **Hankija koostöö juurdepääs on lubatud** sätteks kontakti puhul **Ei**. Seda saab teha individuaalselt juriidilise isiku järgi, millele isik kontakt on. Seda suvandit saavad kasutada ainult hankeprofessionaalid.
 -   Inaktiveerige kogu kasutajakonto, edastades taotluse **Hankija-kasutaja inaktiveerimine**.
 
-Taotleda, et kasutaja on aktiivne:
+Kasutaja inaktiveerimise taotlemiseks tehke järgmist.
 
-1.  Kohta ning **kõik kontaktid** klõpsake valikul **Inactivate****hankija kasutaja**.
+1.  Klõpsake lehel **Kõik kontaktid** valikut **Inaktiveeri** **hankija-kasutaja**.
 2.  Kirjutage kommentaar väljale **Äripõhjendus**.
 3.  Klõpsake **Edasta**.
 
 ### <a name="modify-security-roles"></a>Turberollide modifitseerimine
 
-Selle **säilitada hankija Kasutajarollid** lehekülg on sama, mis on **sätte hankija kasutaja** lehekülg välja, et turberollid loendi redigeerimiseks.  
+Leht **Säilita hankija-kasutaja rollid** on sama mis leht **Valmista ette hankija-kasutaja**, välja arvatud see, et turberollide loendit saab redigeerida.  
 
-Taotleda, et turberollid muudetakse kasutaja:
+Kasutaja turberollide muutmise taotlemiseks tehke järgmist.
 
-1.  Kohta ning **kõik kontaktid** klõpsake valikul **Säilita****hankija Kasutajarollid**.
+1.  Klõpsake lehel **Kõik kontaktid** valikut **Halda** **hankija-kasutaja rolle**.
 2.  Kirjutage kommentaar väljale **Äripõhjendus**.
 3.  Jaotises **Säilita kasutajarollid** valige turberollid, mida soovite määrata, või tühjendage need, mida soovite eemaldada.
-4.  Click **Submit**.
+4.  Klõpsake **Edasta**.
+
+
 
 
 

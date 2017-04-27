@@ -1,6 +1,6 @@
 ---
-title: Organisatsiooni koolitus Power BI sisu
-description: "Teema käsitleb Dynamics 365 toiminguteks - organisatsiooniline koolitus Power BI sisu. Ta selgitab, kuidas pääseda sisu pakendi ja kirjeldab andmemudel ja üksuste, kasutatud ehitada sisu pakendi."
+title: Organisatsiooni koolituse Power BI sisu
+description: "See teema kirjeldab Dynamics 365 for Operationsi mooduli Organisatsiooni koolitus Power BI sisu. See selgitab ka seda, kuidas sisupaketile juurde pääseda, ning kirjeldab andmemudelit ja üksusi, mida sisupaketi loomiseks kasutati."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,45 +24,48 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>Organisatsiooni koolitus Power BI sisu
+# <a name="organizational-training-power-bi-content"></a>Organisatsiooni koolituse Power BI sisu
 
-Teema käsitleb Dynamics 365 toiminguteks - organisatsiooniline koolitus Power BI sisu. Ta selgitab, kuidas pääseda sisu pakendi ja kirjeldab andmemudel ja üksuste, kasutatud ehitada sisu pakendi.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Juurdepääsu sisu pakendi
+
+See teema kirjeldab Dynamics 365 for Operationsi mooduli Organisatsiooni koolitus Power BI sisu. See selgitab ka seda, kuidas sisupaketile juurde pääseda, ning kirjeldab andmemudelit ja üksusi, mida sisupaketi loomiseks kasutati.
+
+<a name="accessing-the-content-pack"></a>Juurdepääs sisupaketile
 --------------------------
 
-Leiate organisatsioonilise koolituse sisu pakendi jagatud varade teegi in Microsoft Dynamics elutsükli teenused (LCS). Lae sisu pakendi ja ühendada oma Microsoft Dynamics 365 toimingute andmete kohta lisateabe saamiseks vt [Power BI sisu LCS Microsofti ja oma partnerite](power-bi-content-microsoft-partners.md).
+Organisatsiooni koolituse sisupaketi leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisupaketi allalaadimise ja selle ühendamise kohta Microsoft Dynamics 365 for Operationsi andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Aruanded, mis on kaasatud sisu pack
-Pärast sisu pakendi oma Dynamics 365 toimingute andmed, aruannetest nähtub teie ettevõtte andmeid. Kui te pole varem Microsoft Power BI enne, saab õppida rohkem sellest on [juhindub õppe lehekülg Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Aruanded, mis on kaasatud sisu pack on graafikuid ja tabeleid, mis sisaldavad täiendavat teavet. Järgmises tabelis on kirjeldatud aruandeid.
+## <a name="reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad aruanded
+Pärast sisupaketi ühendamist Dynamics 365 for Operationsi andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet jaotisest [Power BI juhendatud õpe](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
 
 | Aruanne          | Sisu                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
-| Kursuse analüüs | Asukoht, kursuse osalejate olekut ja Registreerimisnimekiri registreerimine |
+| Kursuse analüüs | Registreerumine asukoha, kursusel osalejate oleku ja registreerimisloendi järgi |
 | Kursuste tüübid    | Kursuse tüübid oskuse järgi                                                       |
 
-Saate filtreerida diagrammid ja plaadid aruannete ja diagrammide ja plaadid armatuurlauale kinnitada. Filter ja Power BI pin kohta lisateabe saamiseks vt [loomine ja konfigureerimine armatuurlaua](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Toimingute andmed Dynamics 365 saab asustada organisatsioonilise koolituse sisu Pack aruanded. Järgmine tabel näitab üksuste sisu pakendi põhines.
+Organisatsiooni koolituse sisupaketi aruannete täitmiseks kasutatakse Dynamics 365 for Operationsi andmeid. Järgmises tabelis on toodud sisupaketi aluseks olevad üksused.
 
-| Üksus                    | Sisu                                                         | Suhted ka teiste                                                                                                                                                                  |
+| Üksus                    | Sisu                                                         | Seosed teiste üksustega                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Koolitus\_CalendarOffset  | Kalendri tasakaalustab viil aruanded                                | Koolitus\_CourseAgenda koolitus\_CourseAttendees                                                                                                                                                   |
-| Koolitus\_firma         | Ettevõtete poolt aruannete filtreerimiseks                                   | Koolitus\_CourseAgenda koolitus\_CourseAttendees                                                                                                                                                   |
-| Koolitus\_kursus          | Muidugi, kirjeldus, juhendaja nimi, asukoht, tuba ja staatus | Koolitus\_CourseAgenda koolitus\_CourseAttendees koolitus\_CourseSkill                                                                                                                             |
-| Koolitus\_CourseAgenda    | Tegevuskava ja kursuse algus-ja lõpp                          | Koolitus\_firma koolitus\_CalendarOffset koolitus\_koolituse kuupäev\_kursus                                                                                                                         |
-| Koolitus\_CourseAttendees | Nimi, staatus, töö, ja kuupäev                         | Koolitus\_firma koolituse\_CalendarOffset koolitus\_koolituse kuupäev\_demograafia koolitus\_tööturukoolitust\_muidugi koolitus\_WorkerName koolitus\_WorkerTitle koolitus\_töö koolitus\_asendis |
-| Koolitus\_CourseSkill     | Oskus, oskus tüüp ja tase                                     | Koolitus\_kursus                                                                                                                                                                                   |
-| Koolitus\_kuupäev            | Päeva, nädala, kuu ja aasta                                   | Koolitus\_CourseAgenda koolitus\_CourseAttendees                                                                                                                                                   |
-| Koolitus\_demograafia    | Sünniaeg, soo, etnilise päritolu ja Perekonnaseis         | Koolitus\_CourseAgenda koolitus\_CourseAttendees                                                                                                                                                   |
-| Koolitus\_tööhõive      | Alguskuupäev, lõppkuupäev ja ülemineku kuupäev                        | Koolitus\_CourseAgenda koolitus\_CourseAttendees                                                                                                                                                   |
-| Koolitus\_töö             | Funktsiooni, tüüp ja tiitel                                        | Koolitus\_CourseAgenda koolitus\_CourseAttendees                                                                                                                                                   |
-| Koolitus\_asendis        | Positsiooni, pealkiri ja täiskoha ekvivalent (taandatuna Täistööajale)                  | Koolitus\_CourseAgenda koolitus\_CourseAttendees                                                                                                                                                   |
-| Koolitus\_WorkerName      | Eesnimi, perekonnanimi ja täisnimi                             | Koolitus\_CourseAttendees                                                                                                                                                                          |
-| Koolitus\_WorkerTitle     | Pealkiri ja staažist                                         | Koolitus\_CourseAttendees                                                                                                                                                                          |
+| Koolitus\_CalendarOffset  | Kalendri tasakaalustused aruannete tükeldamiseks                                | Koolitus\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Koolitus\_Ettevõte         | Ettevõtted, mille alusel aruandeid filtreerida                                   | Koolitus\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Koolitus\_Kursus          | Kursus, kirjeldus, juhendaja nimi, asukoht, ruum ja olek | Koolitus\_CourseAgenda Training\_CourseAttendees Training\_CourseSkill                                                                                                                             |
+| Koolitus\_CourseAgenda    | Päevakord, kursus ja alguse ning lõpu ajad                          | Koolitus\_Ettevõtte koolitus\_Koolituse CalendarOffset\_Koolituse kuupäev\_Kursus                                                                                                                         |
+| Koolitus\_CourseAttendees | Nimi, olek, töö ja registreerimise kuupäev                         | Koolitus\_Ettevõtte koolitus\_Koolituse CalendarOffset\_Koolituse kuupäev\_Koolituse demograafilised andmed\_Töökoolitus\_Koolituskursus\_Koolituse WorkerName\_Koolituse WorkerTitle\_Töökoolitus\_Amet |
+| Koolitus\_CourseSkill     | Oskus, oskuse tüüp ja tase                                     | Koolitus\_Kursus                                                                                                                                                                                   |
+| Koolitus\_Kuupäev            | Päevad, nädalad, kuud ja aastad                                   | Koolitus\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Koolitus\_Demograafilised andmed    | Sünnikuupäev, sugu, etniline päritolu ja perekonnaseis         | Koolitus\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Koolitus\_Töösuhe      | Alguskuupäev, lõppkuupäev ja ülemineku kuupäev                        | Koolitus\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Koolitus\_Töö             | Funktsioon, tüüp ja ametinimetus                                        | Koolitus\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Koolitus\_Amet        | Amet, ametinimetus ja täistööajaga võrdne väärtus (FTE)                  | Koolitus\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Koolitus\_WorkerName      | Eesnimi, perekonnanimi ja täielik nimi                             | Koolitus\_CourseAttendees                                                                                                                                                                          |
+| Koolitus\_WorkerTitle     | Ametinimetus ja staaži kuupäev                                         | Koolitus\_CourseAttendees                                                                                                                                                                          |
 
-Need üksused olid saab luua arvutatud mõõtmeid andmemudel. Need arvutatakse meetmed seejärel kasutatakse tulemuslikkuse võtmenäitajate (KPI) ja aruanded, mida kasutatakse sisu Pack. Kui soovite kaasata edasiste arvutuste aruanded ja armatuurlaud, saate alla laadida ja muuta LCS Training.pbix faili. See fail on vaikimisi andmemudel, kust luua sisu pakendi. Kui olete teinud muudatusi, saate luua organisatsiooni sisu pakendi ja armatuurlaud, mis sisaldab lisatud teavet.
+Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Seejärel kasutatakse neid arvutatud meetmeid sisupaketis kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Aruannetesse ja armatuurlauale täiendavate arvutuste lisamiseks võite laadida LCS-ist alla ja muuta faili Training.pbix. See fail on vaikeandmemudel, mida kasutati sisupaketi loomiseks. Kui muudatused on tehtud, saate luua organisatsiooni sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
 
 ## <a name="additional-resources"></a>Lisaressursid
 Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
@@ -71,6 +74,8 @@ Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomise
 -   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI paanide lisamine tööruumidele](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

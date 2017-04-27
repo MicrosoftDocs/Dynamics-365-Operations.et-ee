@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Arvestuse jaotused ja alammooduli töölehe kirjed vabas vormis arvete puhul
 
+[!include[banner](../includes/banner.md)]
+
+
 Arvestuse jaotused määratlevad, kuidas summat arvestatakse, näiteks tulu, maksude või tasude arvestamisel vabas vormis arvel. Igal summal, mida tuleb vabas vormis arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust.
 
 <a name="accounting-distributions"></a>Arvestuse jaotused
@@ -35,7 +38,7 @@ Arvestuse jaotused määratlevad, kuidas summat arvestatakse, näiteks tulu, mak
 
 Saate kasutada järgmisi nuppe lehel Vabas vormis arve iga vabas vormis arve summa arvestuse jaotuse vaatamiseks ja võimaluse korral muutmiseks.
 
--   **Jaotada summad**— vaadake ja muutke raamatupidamise väljamaksed eraldi rida ja lapse rida, nagu maksud või tasud. Saate kuvada ja muuta ka alamrea arvestuse jaotusi otse lehelt Käibemaksukanded või Tasude kanded.
+-   **Summade jaotamine** –saate kuvada ja muuta arvestuse jaotusi üksiku rea ning alamridade kohta (nt maksud või tasud). Saate kuvada ja muuta ka alamrea arvestuse jaotusi otse lehelt Käibemaksukanded või Tasude kanded.
     -   Saate vabas vormis arve päise summasid (nt tasusid või valuuta ümardamissummasid) muuta.
     -   Saate vabas vormis arve reasummasid muuta.
 -   **Jaotuste kuvamine**–arvestuste jaotuste kuvamine kõigi dokumendi ridade kohta. Selles vaates arvestuse jaotusi muuta ei saa.
@@ -132,5 +135,7 @@ Maksude arvestuse jaotusi ei saa luua, kuni makse arvutatakse. Käibemaksu arvut
 
 ## <a name="subledger-journals-for-free-text-invoices"></a> Vabas vormis arvete alammooduli töölehed
 Enne vabas vormis arve sisestamist saate vaadata arve täielikku raamatupidamiskirjet, mis sisaldab deebet- ja kreeditsummasid, kontrollimaks, et arve sisestatakse õigetele kontodele. Selles vaates nimetatakse täielikku raamatupidamiskirjet alammooduli tööleheks. Kui alammooduli töölehe kirje on enne vabas vormis arve töölehele paigutamist vale, ei saa alammooduli töölehe kirjet muuta. Selle asemel peate muutma arvestuse jaotusi või sisestusreegleid. Arvestuse jaotuste abil määratletakse raamatupidamiskirje üks pool, deebet- või kreeditsumma. Alammooduli töölehe konto kirje vastaskonto luuakse sisestusreeglite abil, nt kliendi konto või maksu põhjal.
+
+
 
 

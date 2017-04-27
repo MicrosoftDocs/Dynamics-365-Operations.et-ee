@@ -1,5 +1,5 @@
 ---
-title: "Konfigureerida heakskiitmisprotsess töövoos"
+title: "Töövoo kinnitusprotsessi konfigureerimine"
 description: "Kinnitusprotsessi atribuutide konfigureerimiseks tehke järgmist."
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Konfigureerida heakskiitmisprotsess töövoos
+# <a name="configure-an-approval-process-in-a-workflow"></a>Töövoo kinnitusprotsessi konfigureerimine
 
 Kinnitusprotsessi atribuutide konfigureerimiseks tehke järgmist.
 
-Konfigureerimiseks töövoo redaktor heakskiitmisprotsess, Paremklõpsake elementi heakskiidu ja klõpsake **atribuudid** avamiseks ning **atribuudid** vormi.
+Kinnitusprotsessi konfigureerimiseks paremklõpsake töövooredaktoris kinnitamise elementi ja klõpsake seejärel valikut **Atribuudid**, et avada vorm **Atribuudid**.
 Kinnitusprotsessile nime andmine
 -------------------------
 
@@ -40,14 +40,14 @@ Kinnitusprotsessi nime sisestamiseks tehke järgmist.
 Saate konfigureerida süsteemi automaatselt dokumendiga tegelema, kui teatud tingimused on täidetud. Näiteks saab süsteem kinnitada kuluaruanded, mille kogusumma on väiksem kui 100 USA dollarit. Selleks et määrata, millal süsteem dokumendi puhul toimingu teeb, tehke järgmist.
 1.  Klõpsake vasakpoolsel paanil suvandit **Automaatsed tegevused**.
 2.  Märkige ruut **Luba automaatsed tegevused**.
-3.  Click **Add condition**.
+3.  Klõpsake valikut **Lisa tingimus**.
 4.  Sisestage tingimus.
 5.  Vajadusel lisage lisatingimused.
 6.  Kontrollimaks, kas teie sisestatud tingimused on õigesti konfigureeritud, tehke järgmist.
     1.  Klõpsake valikut **Katseta**, et avada leht **Katseta töövoo tingimust**.
     2.  Valige vormi alal kirje **Kontrolli tingimust**.
     3.  Klõpsake nuppu **Test**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.
-    4.  Klõpsake **OK** või **tühistada** tagasi selle **atribuudid** vormi.
+    4.  Klõpsake valikut **OK** või **Tühista**, et naasta vormile **Atribuudid**.
 
 7.  Loendist **Automaatne tegevus** valige tegevus, mille süsteem peaks ülesande puhul tegema.
 
@@ -55,11 +55,11 @@ Saate konfigureerida süsteemi automaatselt dokumendiga tegelema, kui teatud tin
 Saate saata inimestele teatisi dokumendi kinnitamisel, tagasilükkamisel, delegeerimisel või laiendamisel või muudatuse taotlemisel. Tehke järgmist, et määrata, millal ja kellele teatisi saadetakse.
 1.  Vasakul paanil klõpsake suvandit **Teatised**.
 2.  Märkige ruut sündmuste kõrval, mille puhul saadetakse teatis.
-    -   **Volitatud esindaja** – kui dokumendile on määratud teisele kasutajale kinnitamiseks.
-    -   **Avalikku korda** – kui määratud kasutajale on tegutsenud dokumendiga õigel ajal.
-    -   **Kinnitada** – kui dokument on kinnitatud.
-    -   **Hülga** – kui dokument on tagasi lükatud.
-    -   **Taotle muudatust** – kui määratud kasutajale on nõudnud dokument, mis esitati.
+    -   **Delegeeri** – kui dokument on määratud kinnitamiseks teisele kasutajale.
+    -   **Laienda** – kui määratud kasutaja pole dokumendi puhul nõutavat toimingut eraldatud aja jooksul teinud.
+    -   **Kinnita** – kui dokument on kinnitatud.
+    -   **Lükka tagasi** – kui dokument on tagasi lükatud.
+    -   **Muudatuse taotlus** – kui määratud kasutaja on taotlenud esitatud dokumendi muutmist.
 
 3.  Valige 2. etapis valitud sündmuse rida.
 4.  Klõpsake vahekaarti **Teatise tekst**.
@@ -70,8 +70,8 @@ Saate saata inimestele teatisi dokumendi kinnitamisel, tagasilükkamisel, delege
     3.  Valige kuvatavast loendist sisestatav kohatäitja.
     4.  Klõpsake nuppu **Sisesta**.
 
-7.  Tõlked teate lisamiseks klõpsake **tõlked**. Kuvataval vormil tehke järgmist.
-    1.  Click **Add**.
+7.  Teatise tõlgete lisamiseks klõpsake valikut **Tõlked**. Kuvataval vormil tehke järgmist.
+    1.  Klõpsake käsku **Lisa**.
     2.  Valige kuvatavast loendist keel, milles soovite teksti sisestada.
     3.  Tekstiväljale **Tõlgitud tekst** sisestage tekst.
     4.  Teksti isikupärastamiseks sisestage kohatäitjad.
@@ -112,11 +112,11 @@ Saate saata inimestele teatisi dokumendi kinnitamisel, tagasilükkamisel, delege
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Teatud Microsoft Dynamics 365 toimingud kasutajatele</td>
+    <td><strong>Kasutaja</strong></td>
+    <td>Kindlad Microsoft Dynamics 365 for Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>On <strong>saadaval kasutajate</strong>: loend sisaldab kõiki Microsoft Dynamics 365 toimingud kasutajatele. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad:</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad:</strong> hõlmab kõiki Microsoft Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad:</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -150,10 +150,10 @@ Kui kinnitusprotsess tuleb teatud ajaks lõpule viia, tehke järgmist.
 ## <a name="specify-which-actions-are-available-to-the-user"></a>Määrake, millised tegevused on kasutaja jaoks saadaval
 Kasutaja peab talle määratud dokumendiga tegelema. Esitatud dokumendi puhul kasutajale saadaolevate tegevuste määramiseks tehke järgmist.
 1.  Klõpsake vasakpoolsel paanil suvandit **Täpsemad sätted**.
-2.  Valige selle **kinnitamine** ruut kui kasutaja saab dokumendi heakskiitmiseks.
-3.  Valige selle **tagasi lükata** ruut kasutaja saab dokumendi hüljata.
-4.  Valige selle **Taotle muudatust** ruut kasutaja saab taotleda dokumendi muutmist.
-5.  Valige selle **esindaja** ruut kui kasutaja saab määrata dokumendi teisele kasutajale kinnitamiseks.
+2.  Märkige ruut **Kinnita**, kui kasutaja võib dokumendi kinnitada.
+3.  Märkige ruut **Lükka tagasi**, kui kasutaja võib dokumendi tagasi lükata.
+4.  Märkige ruut **Taotle muudatust**, kui kasutaja võib taotleda dokumendile muudatuste tegemist.
+5.  Märkige ruut **Delegeeri**, kui kasutaja võib määrata dokumendile kinnitajaks teise kasutaja.
 
 **Märkus**. Märkeruut **Tegevuste aktiveerimine ettevõtteportaali töödeloendist** pole soovitatav.
 

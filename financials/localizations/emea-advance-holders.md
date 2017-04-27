@@ -1,6 +1,6 @@
 ---
 title: Avansisaajad
-description: Siin on teavet eelnevalt omaniku funktsiooni Microsoft Dynamics 365 toiminguteks.
+description: Lugege teavet Microsoft Dynamics 365 for Operationsi avansisaajate funktsiooni kohta.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,84 +26,89 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advance-holders"></a>Avansisaajad
 
-Siin on teavet eelnevalt omaniku funktsiooni Microsoft Dynamics 365 toiminguteks.
+[!include[banner](../includes/banner.md)]
 
-On *Avansisaajate* on ettevõte, kes vastutab kulu summa, mis on sätestatud organisatsiooni töötaja. Ainult ettevõtte töötaja võib Avansisaaja. Hanke juhul Avansisaaja aruanded ettevõttele tehtud kulutuste kohta. Firma hüvitab töötaja kulu summa. Ettevõte kontrollib iga Avansisaajate tasakaal. Eesti, Läti, Leedu, Poola, Tšehhi, Ungari ja Venemaa juriidiliste isikute kasutajatele võib kajastada konkreetsete tehingute kaasnevad toimingud ettevõtte töötajatele, kes vastutavad organisatsiooni poolt antud kulusumma.
+
+Lugege teavet Microsoft Dynamics 365 for Operationsi avansisaajate funktsiooni kohta.
+
+*Avansisaaja* on ettevõtte töövõtja, kes vastutab organisatsiooni pakutud kulusumma eest. Avansisaaja saab olla ainult ettevõtte töötaja. Hanke toimumisel teavitab avansisaaja ettevõtet tehtud kuludest. Ettevõte hüvitab töövõtjale kulusumma. Ettevõte haldab iga avansisaaja saldot. Kasutajad Eestis, Lätis, Leedus, Poolas, Tšehhi Vabariigis, Ungaris ja Venemaal asuvates juriidilistes isikutes saavad kajastada kindlate kannetega kaasnevaid toiminguid ettevõtte töövõtjatega, kes vastutavad organisatsiooni pakutud kulusumma eest.
 
 ## <a name="set-up-an-advance-holder"></a>Avansisaaja seadistamine
-Avansisaaja seadistamiseks tuleb täita järgmised ülesanded järjekorras.
-1.  Loo ettemakse grupid.
-2.  Saate seadistada töötaja sisestusreeglid.
-3.  Konto Ostureskontro parameetrite seadistamine
-4.  Loo ettemakse antava tegemise konkreetsed tingimused.
-5.  Avansisaaja luua.
+Avansisaaja seadistamiseks tuleb täita järjest järgmised ülesanded.
+1.  Avansisaajate gruppide loomine.
+2.  Töövõtja sisestusreeglite seadistamine.
+3.  Ostureskontro parameetrite seadistamine.
+4.  Avansisaajale kindlate maksetingimuste loomine.
+5.  Avansisaaja loomine.
 
 ### <a name="advance-holder-groups"></a>Avansisaajate grupid
 
-Kasutamine ning **ette grupid** ette omanik koostamise lehekülg. Saate määrata nime, kirjelduse ja eelnevalt omaniku nimel vastaskonto.
+Avansisaajate grupi saate luua lehel **Avansisaajate grupid**. Saate määrata avansisaajate grupi nime, kirjelduse ja vastaskonto.
 ### <a name="employee-posting-profile"></a>Töötaja sisestusreeglid
 
-Kasutamine ning **sisestusreeglite töötaja** lehe luua profiili avansisaaja kanded. Saate määrata järgmised andmed töötaja sisestusreeglid.
+Avansisaaja kannete jaoks saate reeglid luua lehel **Töövõtja sisestusreeglid**. Saate töövõtja sisestusreeglite puhul määrata järgmise teabe.
 |Väli |Kirjeldus|
 |------|-----------|
-|Sisestusreeglid|Sisestage ettemakse omanik postitad profiili tunnuskood.|
-|Kirjeldus|Sisestage selle sisestusreegli lühikirjeldus.|
-|Kehtib|Valige üks järgmistest suvanditest sisestusreeglite seadistamine grupeerimise taseme puhul: 
-**Tabelis** – seda valikut kasutatakse ühe Avansisaajate jaoks seadistada. Peate määrama selle Avansisaaja kood väljale viitenumber.
-**Rühma** – seda valikut kasutatakse Avansisaajate grupi sisestusreegli luua. Peate määrama selle tähise väljale viitenumber.
-**Kõik** – seda valikut kasutatakse määrata sisestusreegli jaoks kõik Avansisaajate. | | Viide | Kehtiv välja valitud tabeli valimine on Avansisaaja kood või kehtiv välja valitud rühma eelnevalt omanik rühma valimine. | | Summakonto | Valige konto tehingute konteerimisel. |
+|Sisestusreeglid|Sisestage avansisaaja sisestusreeglite ID-kood.|
+|Kirjeldus|Sisestage sisestusreeglite lühikirjeldus.|
+|Kehtib|Valige sisestusreeglite seadistamiseks grupeerimistaseme jaoks järgmised suvandid. 
+**Tabel** – seda valikut kasutatakse sisestusreeglite loomiseks ühele avansisaajale. Väljale Viide peate sisestama avansisaaja koodi.
+**Grupp** – seda valikut kasutatakse sisestusreeglite loomiseks avansisaajate grupile. Väljale Viide peate sisestama grupi koodi.
+**Kõik** – seda valikut kasutatakse sisestusreeglite seadistamiseks kõigile avansisaajatele.| |Viide|Valige avansisaaja kood, kui väljal Kehtib on tehtud valik Tabel, või valige avansisaajate grupp, kui väljal Kehtib on tehtud valik Grupp.| |Koondkonto|Saate valida kannete sisestamiseks koondkonto.|
 
 
 
-### <a name="account-payable-parameters"></a>Konto Ostureskontro parameetrid
+### <a name="account-payable-parameters"></a>Ostureskontro parameetrid
 
-Avansisaaja kanded vastavalt seadistama järgmise on **moodustavad Ostureskontro parameetrid** lehe ning **ette alused** lõik.
+Avansisaaja kannete kajastamiseks peate lehel **Ostureskontro parameetrid** jaotises **Avansisaajad** seadistama järgmised parameetrid.
 |                                                |                   |
 |------------------------------------------------|-------------------|
-|  **Field**                                     | **Description**                                                                                                                                                                  |
-| **Posting profile**                            | •Valige vaikimisi profiil Avansisaajate tehingute lõpuleviimiseks.                                                                                                         |
-| **Advance holder sorting**                     | Märkimisel Avansisaajate kuvatakse loendi alguses ning **ette alused** lehel.                                                                     |
-| **Issue when balance is open**                 | Kui valitud, lubatakse raha ette eelnevalt omanikule, kes on avatud positiivne saldo väljaandmine.                                                                      |
-| **Saldo sulgemine kaudu raha välja rühm: nimi** | Valige raha saatelehe töölehe kood. Selle töölehe kood saab luua Kassa Väljaminekuorderid ja korvamisorderite Avansisaaja 's nõuded läbi raha sulgemisel. |
-| **Cash**                                       | Valige sularahakonto kanded, mida kasutatakse saldode sulgemiseks antava eelneva määramiseks.                                                                 |
-| **Saldo sulgemine panga väljagrupi kaudu: nimi** | Tehingute panga kaudu saldode sulgemiseks valige töölehe.                                                                                                   |
-| **Account type**                               | Valige Pank sulgeda saldod Avansisaaja panga kaudu.                                                                                                        |
-| **Main account**                               | Valige pangakonto kood sulgeda saldod Avansisaaja panga kaudu.                                                                                           |
+|  **Väli**                                     | **Kirjeldus**                                                                                                                                                                  |
+| **Sisestusreeglid**                            | Saate valida vaikeprofiili avansisaajate kannete lõpuleviimiseks.                                                                                                         |
+| **Avansisaajate sortimine**                     | Selle valiku korral kuvatakse avansisaajad lehel **Avansisaajad** oleva loendi alguses.                                                                     |
+| **Väljasta avatud saldo puhul**                 | Selle valiku korral lubatakse sularahaettemakse avansisaajale, kellel on avatud positiivne saldo.                                                                      |
+| **Saldo sulgemine kassa väljagrupi kaudu: Nimi** | Valige kassaorderi töölehe kood. Seda töölehe koodi kasutatakse sularaha korvamisorderite ja väljaminekuorderite loomisel, kui avansisaaja saldod suletakse sularaha kaudu. |
+| **Sularaha**                                       | Valige sularahakonto, et määrata avansisaaja saldode sulgemiseks kasutatavad kanded.                                                                 |
+| **Saldo sulgemine panga väljagrupi kaudu: Nimi** | Valige kannete jaoks töölehe kood, et sulgeda saldod panga kaudu.                                                                                                   |
+| **Konto tüüp**                               | Valige pank, et sulgeda avansisaaja saldod panga kaudu.                                                                                                        |
+| **Põhikonto**                               | Valige pangakonto kood, et sulgeda avansisaaja saldod panga kaudu.                                                                                           |
 
-### <a name="terms-of-payment-for-advance-holder"></a>Avansisaajate maksetingimused
+### <a name="terms-of-payment-for-advance-holder"></a>Avansisaaja maksetingimused
 
-Õigesti registreerida ja postitada kaudu Avansisaaja ostutellimuse, kasutage tegemise, mis loodi tingimused on **avansisaajalt** valik seatud **True**.
-### <a name="create-an-advance-holder-creation"></a>Loo ettemakse omanik loomine
+Ostutellimuse õigesti registreerimiseks ja sisestamiseks avansisaaja kaudu peate kasutama maksetingimusi, mille seadistuses kasutati valiku **Avansisaajalt** puhul sätet **Tõene**.
+### <a name="create-an-advance-holder-creation"></a>Avansisaaja loomine
 
-Avansisaaja loomiseks peab juba seadistatud töötajad. Lisateabe saamiseks vaadake [sisestage töötaja teave (tööülesande juhised).](http://ax.help.dynamics.com/en/wiki/enter-worker-information/) Kasutamine ning **ette alused** lehe luua töötaja on Avansisaaja. Valige töötaja Avansisaaja kasutada, klõpsake **muuta**, seadnud selle **Avansisaajate** võimalus **True**. Peate täitma järgmised väljad.
+Enne avansisaaja loomist peavad töötajad olema juba seadistatud. Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis).](http://ax.help.dynamics.com/en/wiki/enter-worker-information/) Töötaja saate avansisaajana seadistada lehel **Avansisaajad**. Valige töötaja, keda kasutada avansisaajana, klõpsake valikut **Redigeeri** ja seejärel määrake valiku **Avansisaaja** sätteks **Tõene**. Samuti peate täitma järgmised väljad.
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
-| **Field**      | **Description**                                                                             |
-| **Group**      | Eelnev omanik rühma valimine.                                                             |
-| **Series**     | Sisestage ettemakse omaniku tuvastamisel kasutatava dokumendi seeria. |
-| **Number**     | Sisestage ettemakse omaniku tuvastamisel kasutatava dokumendi number. |
-| **Issue date** | Valige või sisestage dokumendi kuupäev.                                                    |
-| **Issued by**  | Sisestage asutuse või dokumendi väljastaja andmed.                       |
+| **Väli**      | **Kirjeldus**                                                                             |
+| **Grupp**      | Valige avansisaajate grupp.                                                             |
+| **Seeria**     | Sisestage avansisaaja isiku kontrollimiseks kasutatava dokumendi seeria. |
+| **Number**     | Sisestage avansisaaja isiku kontrollimiseks kasutatava dokumendi number. |
+| **Väljaandmise kuupäev** | Valige või sisestage dokumendi väljaandmise kuupäev.                                                    |
+| **Väljastaja**  | Sisestage dokumendi väljastanud asutuse või isiku üksikasjad.                       |
 
-## <a name="advance-holder-inquiries-and-reports"></a>Omanik päringud ja aruanded
-### <a name="advance-holder-transactions-inquiry"></a>Eelnev omanik tehingute uurimine
+## <a name="advance-holder-inquiries-and-reports"></a>Avansisaaja päringud ja aruanded
+### <a name="advance-holder-transactions-inquiry"></a>Avansisaaja kannete päring
 
-Loetelu avansisaaja kanded, klõpsake selle **tehingute** nupuga ning **ette alused** lehel. Vaadata kõik eelnevalt alused või konkreetse päringu aluseks on eelnevalt omaniku kanded, klõpsake **arved**&gt;**päringute ja aruannete**&gt;**ette alused päringute ja aruannete**&gt; tehingud. Klõpsake **kanne** avamiseks ning **kande** lehel.
-### <a name="advance-holder-balance-inquiry"></a>Eelnev omanik Saldopäring
+Avansisaaja kannete loendi kuvamiseks klõpsake lehel **Avansisaajad** nuppu **Kanded**. Kõigi avansisaajate kannete kuvamiseks või kindla päringu loomiseks avansisaajate kannete põhjal klõpsake valikuid **Ostureskontro** &gt; **Päringud ja aruanded** &gt; **Avansisaajate päringud ja aruanded** &gt; Kanded. Klõpsake lehe **Pearaamatu kanded** avamiseks valikut **Kanne**.
+### <a name="advance-holder-balance-inquiry"></a>Avansisaaja saldo päring
 
-Kuvamiseks kasutage Avansisaaja saldo on **ette alused** lehel. Näha tasakaalu kõigi eelnevalt alused või konkreetse päringu vastavalt eelnevalt omaniku kontode loomiseks klõpsake **arved**&gt;**päringute ja aruannete**&gt;**ette alused päringute ja aruannete**&gt;**tasakaalu.**
+Avansisaaja saldot saate vaadata lehel **Avansisaajad**. Kõigi avansisaajate saldo kuvamiseks või kindla päringu loomiseks avansisaajate kontode põhjal klõpsake valikuid **Ostureskontro** &gt; **Päringud ja aruanded** &gt; **Avansisaajate päringud ja aruanded** &gt; **Saldo**.
 ### <a name="advance-holder-balance-report"></a>Avansisaaja saldo aruanne
 
-Eelvaade ja eelnevalt omaniku tasakaalu saamiseks kasutada, klõpsake **arved**&gt;**päringute ja aruannete**&gt;**ette alused päringute ja aruannete**&gt;**omanik jääksumma Ettemaksuaruande**.
+Avansisaajate saldo teabel põhineva aruande eelvaatamiseks ja printimiseks klõpsake valikuid **Ostureskontro** &gt; **Päringud ja aruanded** &gt; **Avansisaajate päringud ja aruanded** &gt; **Avansisaaja saldoaruanne**.
 ### <a name="advance-holder-transactions-report"></a>Avansisaaja kannete aruanne
 
-Eelvaade ja eelnevalt omaniku tehingute põhjal aruande, klõpsake nuppu **arved**&gt;**päringute ja aruannete**&gt;**ette alused päringute ja aruannete**&gt;**Ettemaksuaruande omanik tehingute**.
+Avansisaajate kannetel põhineva aruande eelvaatamiseks ja printimiseks klõpsake valikuid **Ostureskontro** &gt; **Päringud ja aruanded** &gt; **Avansisaajate päringud ja aruanded** &gt; **Avansisaaja kannete aruanne**.
 
 
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Advance holder transactions](emea-advance-holders-transactions.md)
+[Avansisaaja kanded](emea-advance-holders-transactions.md)
+
+
 
 

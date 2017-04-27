@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Töötajatele laenatud artiklite haldamine
 
+[!include[banner](includes/banner.md)]
+
+
 Laenuartiklid on kirjed, mis aitavad juhtidel jälgida füüsilisi kaupu, mida ettevõte töötajatele laenab. 
 
 Järgmistes punktides on loetletud artiklite näited, mida ettevõte võib töötajatele laenata.
@@ -39,7 +42,7 @@ Iga füüsiline kaup peab laenuartiklile vastama. Iga laenuartikli kirje peaks k
 
 Artiklit laenates sisestage laenamise kuupäev ja plaanitav tagastamise kuupäev. Artikli tagastamisel sisestage tegelik tagastamise kuupäev.
 
-Töötajad saaks vaadata objekte, mis on laenatud töötaja iseteeninduse tööruumi kasutavad kirjed. Nad saavad ka olemasolevate kirjete või sisestage uue laenu üksused, kui nad olen saanud täiendavaid füüsilised kaubad.  Töövoo saab seadistada uue või olemasoleva laenu üksuste kinnitamise protsessi kaudu marsruudi muudatused. 
+Töötajad saavad vaadata neile laenatud artiklite kirjeid, kasutades töötaja iseteeninduse tööruumi. Nad saavad redigeerida ka olemasolevaid kirjeid või sisestada uusi laenuartikleid, kui nad on saanud veel füüsilisi kaupu.  Uute või olemasolevate laenuartiklite muudatuste suunamiseks läbi kinnitusprotsessi saab seadistada töövoo. 
 
 Juhatajad saavad vaadata oma otseste alluvate laenatud artikleid. Neile saab anda ka õiguse oma töötajate nimel uusi laenuartikleid lisada.
 
@@ -52,6 +55,8 @@ Kui artikkel on kahjustatud või kadunud, sisestage fiktiivne tagastuskirje. See
 <a name="see-also"></a>Vt ka
 --------
 
-[Human resources](index.md)
+[Inimressursid](index.md)
+
+
 
 

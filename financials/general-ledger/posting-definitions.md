@@ -59,5 +59,5 @@ Sisestamisdefinitsioonide linkide loomisel kehtivad järgmised piirangud.
 -   Sisestamisdefinitsiooni saab määrata igale kandetüübile, kuid kandetüüp peab olema sisestamisdefinitsiooniga samas moodulis. Lehelt **Kande sisestamisdefinitsioonid** saate vaadata, millises moodulis kandetüüp on.
 
 
-Lisateabe saamiseks vaadake [siintoodud näited mõisted](/general-ledger/example-posting-definitions.md). 
+Lisateavet vaadake teemast [Sisestamisdefinitsioonide näited](/general-ledger/example-posting-definitions.md). 
 

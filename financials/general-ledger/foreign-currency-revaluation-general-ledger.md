@@ -1,6 +1,6 @@
 ---
 title: "Pearaamatu välisvaluuta ümberarvutamine"
-description: "Selles teemas antakse ülevaade järgmistest pearaamatu välisvaluuta ümberhindluse protsessi - setup, töötab protsessi, arvutamise protsessi ja kuidas reverse ümberhindamisgruppe, vajaduse korral."
+description: "Selles teemas antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi järgmistest toimingutest: seadistamine, protsessi käitamine, protsessi jaoks arvutamine ja vajaduse korral ümberarvutuskannete tühistamine."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,14 +27,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Pearaamatu välisvaluuta ümberarvutamine
 
-Selles teemas antakse ülevaade järgmistest pearaamatu välisvaluuta ümberhindluse protsessi - setup, töötab protsessi, arvutamise protsessi ja kuidas reverse ümberhindamisgruppe, vajaduse korral. 
+[!include[banner](../includes/banner.md)]
+
+
+Selles teemas antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi järgmistest toimingutest: seadistamine, protsessi käitamine, protsessi jaoks arvutamine ja vajaduse korral ümberarvutuskannete tühistamine. 
 
 Perioodi lõpu osana nõuavad raamatupidamistavad välisvaluutas pearaamatukonto saldode ümberarvutamist, kasutades erinevaid vahetuskursitüüpe (praegune, ajalooline, keskmine jne). Näiteks nõuab üks raamatupidamistava varade ja kohustuste ümberarvutamist praeguse vahetuskursi, põhivarade ümberarvutamist ajaloolise vahetuskursi ning tulu- ja kulukontode ümberarvutamist igakuise keskmise vahetuskursi alusel. Pearaamatu välisvaluuta ümberarvutamist saab kasutada bilansi ning tulu- ja kulukontode ümberarvutamiseks. 
 
 > [!NOTE]
-> Välisvaluuta ümberhindluse pakutakse ka (AR) Müügireskontro ja Ostureskontro (AP). Kui te kasutate neid mooduleid, pooleliolevatest tehingutest ümberhindamise korra välisvaluuta ümberhindluse nende moodulite abil. Müügireskontro ja ostureskontro välisvaluuta ümberarvutamine loob pearaamatus raamatupidamiskirje, et kajastada realiseerimata kasumit või kahjumit, tagades, et alammoodulid ja pearaamatu saab vastavusse viia. Kuna müügireskontro ja ostureskontro välisvaluuta ümberarvutamine loob pearaamatusse raamatupidamiskirjed, tuleb müügireskontro ja ostureskontro põhikontod välistada pearaamatu välisvaluuta ümberarvutusest. 
+> Välisvaluuta ümberarvutamine on saadaval ka müügireskontros ja ostureskontros. Kui kasutate neid mooduleid, tuleb tasumata kanne ümber arvutada neis moodulites välisvaluuta ümberarvutamist kasutades. Müügireskontro ja ostureskontro välisvaluuta ümberarvutamine loob pearaamatus raamatupidamiskirje, et kajastada realiseerimata kasumit või kahjumit, tagades, et alammoodulid ja pearaamatu saab vastavusse viia. Kuna müügireskontro ja ostureskontro välisvaluuta ümberarvutamine loob pearaamatusse raamatupidamiskirjed, tuleb müügireskontro ja ostureskontro põhikontod välistada pearaamatu välisvaluuta ümberarvutusest. 
 
-Ümberarvutusprotsessi käivitamisel arvutatakse ümber igas põhikontos olev välisvaluutas sisestatud saldo. Ümberarvutamise protsessi käigus loodud realiseerimata kasumi või kahjumi kanded on süsteemi loodud. Kaks tehingut võib luua, üks valuuta arvestus ja aruandevaluuta, teine vajadusel. Iga arvestuskande pärast realiseerimata kasum või kahjum ja peamine konto, mida hinnatakse ümber.
+Ümberarvutusprotsessi käivitamisel arvutatakse ümber igas põhikontos olev välisvaluutas sisestatud saldo. Ümberarvutamise protsessi käigus loodud realiseerimata kasumi või kahjumi kanded on süsteemi loodud. Luua võib kaks kannet: ühe arvestusvaluuta ja teise aruandlusvaluuta jaoks, kui see on asjakohane. Iga raamatupidamiskirje sisestatakse realiseerimata kasumisse või kahjumisse ja põhikonto arvutatakse ümber.
 
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Välisvaluuta ümberarvutamise käivitamiseks valmistumine
 Enne kui saate ümberarvutamise protsessi käivitada, on nõutav järgmine seadistus.
@@ -57,29 +60,29 @@ Lehel **Välisvaluuta ümberarvutamine** kuvatakse iga ümberhindamisprotsessi a
 
 Väljade **Alguskuupäev** ja **Lõppkuupäev** väärtused määratlevad kuupäevaintervalli ümberarvutatava välisvaluuta saldo arvutamiseks. Kasumi ja kahjumi kontode ümberarvutamisel arvutatakse ümber kõik kuupäevavahemikku jäävate kannete summa. Bilansikontode ümberarvutamisel eiratakse alguskuupäeva. Selle asemel määratakse ümberarvutatav saldo finantsaasta algusest kuni lõppkuupäevani. 
 
-Selle **kursi kuupäev** saab määrata kuupäeva, mille vahetuskurss tuleks vaikimisi. Näiteks võib ümber hinnata saldode vahel kuupäeva vahemikus jaanuar 1-31. jaanuar, kuid veebruar 1 määratud vahetuskurssi. 
+Välja **Kursi kuupäev** abil saab määratleda kuupäeva, mille puhul vahetuskurss peaks olema vaikeväärtus. Näiteks saate ümber arvutada saldosid kuupäevavahemikus 1. jaanuarist 31. jaanuarini, kuid kasutada 1. veebruari jaoks määratletud vahetuskurssi. 
 
-Valige, millised põhikontod tuleb ümber arvutada: Kõik, Bilanss või Kasum ja kahjum. Hinnatakse ümber ümberhindluse (Main konto lehel) märgitud ainult keskne raamatupidamine. Kui soovite piirata keskne raamatupidamine hulk, kasutage kirjete **lisada** vahekaarti Otsi keskne raamatupidamine või üksikute keskne raamatupidamine. 
+Valige, millised põhikontod tuleb ümber arvutada: Kõik, Bilanss või Kasum ja kahjum. Ümber arvutatakse ainult ümberarvutamiseks märgitud põhikontod (lehel Põhikontod). Kui soovite põhikontode valikut täiendavalt piirata, kasutage vahekaarti **Kaasatavad kirjed**, et määratleda põhikontode vahemik või üksikud põhikontod. 
 
-Ümberhindamise protsessi saab käivitada ühe või mitme juriidilise isiku. Otsingu kuvab ainult juriidilised isikud, millele teil on juurdepääs. Juriidilised isikud, mille soovite ümberhindamise protsessi käivitamiseks valige. 
+Ümberarvutusprotsessi saab käitada ühe või mitme juriidilise isiku puhul. Otsingus kuvatakse ainult need juriidilised isikud, kellele teil on juurdepääs. Valige juriidilised isikud, mille puhul soovite ümberarvutamisprotsessi käitada. 
 
-Ümberarvutamise saab käitada ühe või mitme välisvaluuta puhul. Otsingu sisaldab kõiki valuutasid, konteeritud kuupäevavahemikku jäävate põhikonto (bilanss või kasumiaruanne), juriidiliste isikute ümber hinnata valitud tüübist. Raamatupidamise valuuta on nimekirja kantud, kuid midagi hinnatakse ümber raamatupidamise valuuta valimisel. 
+Ümberarvutamise saab käitada ühe või mitme välisvaluuta puhul. Otsingusse kaasatakse kõik valuutad, mis sisestati põhikonto tüübile (Bilanss või Kasum ja kahjum) vastavas kuupäevavahemikus ümberarvutamiseks valitud juriidiliste isikute puhul. Arvestusvaluuta lisatakse loendisse, kuid arvestusvaluuta valimisel ei arvutata midagi ümber. 
 
-Seada **eelvaade enne postitamist** et **Jah** kui soovite vaadata pearaamatu ümberhindluse tulemusena. Eelvaate üldiselt pearaamatu erineb AR ja AP välisvaluuta ümberhindluse simulatsioon. Simulatsiooni AR ja AP on aruande, kuid pearaamatu on eelvaade, mida saab, ilma et ümberhindamise protsessi uuesti käivitada. Eelvaate tulemused saab eksportida Microsoft Excelisse, et säilitada ajalugu summade arvutamise viisist. Pakktöötlust ei saa kasutada, kui soovite ümberarvutamise tulemusi eelvaadata. Eelvaates on kasutajal võimalus sisestada kõigi juriidiliste isikute tulemused nupuga **Sisesta**. Kui juriidilise isiku puhul on tulemustega probleeme, on kasutajal võimalus ka sisestada juriidiliste isikute alamkogum, kasutades nuppu **Valige sisestamiseks juriidilised isikud**. 
+Valige suvandi **Eelvaade enne sisestamist** sätteks **Jah**, kui soovite kuvada pearaamatu ümberarvutamise tulemuse eelvaate. Eelvaade pearaamatus erineb müügireskontro ja ostureskontro välisvaluuta ümberarvutamise simulatsioonist. Ostureskontros ja müügireskontros on simulatsioon aruanne, kuid pearaamatul on eelvaade, mida saab sisestada, ilma et ümberarvutusprotsessi tuleks uuesti käitada. Eelvaate tulemused saab eksportida Microsoft Excelisse, et säilitada ajalugu summade arvutamise viisist. Pakktöötlust ei saa kasutada, kui soovite ümberarvutamise tulemusi eelvaadata. Eelvaates on kasutajal võimalus sisestada kõigi juriidiliste isikute tulemused nupuga **Sisesta**. Kui juriidilise isiku puhul on tulemustega probleeme, on kasutajal võimalus ka sisestada juriidiliste isikute alamkogum, kasutades nuppu **Valige sisestamiseks juriidilised isikud**. 
 
-Kui välisvaluuta ümberhindluse protsess on lõppenud, luuakse kirje iga katse ajalugu jälgida.  Iga juriidiline isik ja sisestamiskihi luuakse eraldi kirje.
+Kui välisvaluuta ümberarvutamise protsess on lõppenud, luuakse kirje iga tsükli ajaloo jälgimiseks.  Iga juriidilise isiku ja sisestamiskihi kohta luuakse eraldi kirje.
 
 ## <a name="calculate-unrealized-gainloss"></a>Realiseerimata kasumi/kahjumi arvutamine
-Realiseerimata kasumi/kahjumi kanded luuakse pearaamatu ümberarvutamise ning müügireskontro ja ostureskontro ümberarvutamise protsessi puhul erinevalt. Müügireskontros ja ostureskontros tühistatakse eelmine ümberarvutus täielikult (eeldusel, et kanne pole veel tasakaalustatud) ning realiseerimata kasumi/kahjumi jaoks luuakse uue vahetuskursi alusel uus kanne. Selle põhjuseks on müügireskontros ja ostureskontros iga üksiku kande ümberarvutamine. Pearaamatu, eelmise ümberhindluse ei tühistata. Selle asemel luuakse tehingu saldo, mille peamine, sealhulgas eelmise ümberhindluse summad ja uus väärtus vastavalt vahetuskursile Määra kuupäev delta. 
+Realiseerimata kasumi/kahjumi kanded luuakse pearaamatu ümberarvutamise ning müügireskontro ja ostureskontro ümberarvutamise protsessi puhul erinevalt. Müügireskontros ja ostureskontros tühistatakse eelmine ümberarvutus täielikult (eeldusel, et kanne pole veel tasakaalustatud) ning realiseerimata kasumi/kahjumi jaoks luuakse uue vahetuskursi alusel uus kanne. Selle põhjuseks on müügireskontros ja ostureskontros iga üksiku kande ümberarvutamine. Pearaamatus ei tühistata eelmist ümberarvutust. Selle asemel luuakse kanne põhikonto saldo vahelise delta jaoks (sh kõik varasemad ümberarvutussummad) ning uus väärtus arvutatakse kursi kuupäeva vahetuskursi põhjal. 
 
-**Näide** saldosid olemas peamine konto 110110.
+**Näide** Põhikonto 110110 puhul on olemas järgmised saldod.
 
 |            |                    |                        |                       |
 |------------|--------------------|------------------------|-----------------------|
 | **Kuupäev**   | **Pearaamatukonto** | **Kandesumma** | **Raamatupidamissumma** |
 | 20. jaanuar | 110110 (sularaha)      | 500 eurot (deebet)        | 1000 USA dollarit (deebet)      |
 
-31. jaanuaril hinnatakse ümber peamine konto.  Realiseerimata kasum/kahjum arvutatakse järgmiselt.
+Põhikonto arvutatakse ümber 31. jaanuaril.  Realiseerimata kasum/kahjum arvutatakse järgmiselt.
 
 |                                             |                                            |                                  |                                    |                             |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
@@ -94,7 +97,7 @@ Luuakse järgmine raamatupidamiskirje.
 | 31. jaanuar | 110110 (sularaha)            |           | 166.67     |
 | 31. jaanuar | 801 400 (realiseerimata kahjum) | 166.67    |            |
 
-Uusi kandeid ei sisestata veebruarikuu.  Peamine konto on ümberhindamine toimub veebruar 28.
+Veebruari kohta uusi kandeid ei sisestata.  Põhikonto arvutatakse ümber 28. veebruaril.
 
 |                                             |                                            |                                  |                                    |                             |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
@@ -112,6 +115,8 @@ Luuakse järgmine raamatupidamiskirje.
 ## <a name="reverse-foreign-currency-revaluation"></a>Välisvaluuta ümberarvutamise tühistamine
 Kui soovite ümberarvutuskande tühistada, valige lehel **Välisvaluuta ümberarvutamine** nupp **Tühista kanne**. Luuakse uue välisvaluuta ümberarvutamise ajalooline kirje, et säilitada ajalooline kontrolljälg ümberarvutamise toimumise või tühistamise ajast. 
 
-Te saate tulemid ümberhindluse kuupäeva järjekorras kokku, kuid võib osutuda ka vastupidine ajakohasemaid ümberhindluse iga ümberhinnatud peamine konto õige tasakaalu tagamiseks. Selle pöördumise saab aegunud tellimuse tekkida, sest kuidagi kontrollida, milline keskne raamatupidamine hinnatakse ümber ja millal nad hinnatakse ümber sagedus. Näiteks võite organisatsioon ümber hinnata iga kuu raha põhiaruanded kvartalis, kuid kõik muud keskne raamatupidamine.
+Saate tühistada ümberarvutuste tulemused aegumisjärjestuses, kuid samuti on teil võimalik tühistada ajakohasemat ümberarvutust, et tagada iga ümberarvutatud põhikonto puhul õiged saldod. Tühistamised võivad toimuda aegumisjärjestuses, kuna pole mingit viisi määrata, millised põhikontod ümber hinnatakse ja kui sageli seda tehakse. Näiteks võib organisatsioon soovida oma sularaha põhikontod ümber hinnata kord kvartalis, kuid kõik muud põhikontod kord kuus.
+
+
 
 

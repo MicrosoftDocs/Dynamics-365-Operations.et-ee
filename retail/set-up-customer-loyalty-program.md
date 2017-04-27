@@ -1,6 +1,6 @@
 ---
-title: Kliendi lojaalsus programmi seadmine
-description: "Selles artiklis kirjeldatakse, kuidas seadistada püsikliendiprogrammi. Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie jaekauplustest toodete ostmise eest. Microsoft Dynamics 365 toiminguteks, saate seadistada sobivat raskusastmega lojaalsus programmi kogu sinu juriidilistele isikutele jaemüügi kanali."
+title: "Püsikliendiprogrammi seadistamine"
+description: "Selles artiklis kirjeldatakse, kuidas seadistada püsikliendiprogrammi. Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie jaekauplustest toodete ostmise eest. Rakenduses Microsoft Dynamics 365 for Operations saate seadistada lihtsad või keerulised üsikliendiprogrammid, mis rakenduvad teie juriidilistele üksustele mis tahes jaemüügikanalis."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-customer-loyalty-program"></a>Kliendi lojaalsus programmi seadmine
+# <a name="set-up-a-customer-loyalty-program"></a>Püsikliendiprogrammi seadistamine
 
-Selles artiklis kirjeldatakse, kuidas seadistada püsikliendiprogrammi. Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie jaekauplustest toodete ostmise eest. Microsoft Dynamics 365 toiminguteks, saate seadistada sobivat raskusastmega lojaalsus programmi kogu sinu juriidilistele isikutele jaemüügi kanali.
+[!include[banner](includes/banner.md)]
+
+
+Selles artiklis kirjeldatakse, kuidas seadistada püsikliendiprogrammi. Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie jaekauplustest toodete ostmise eest. Rakenduses Microsoft Dynamics 365 for Operations saate seadistada lihtsad või keerulised üsikliendiprogrammid, mis rakenduvad teie juriidilistele üksustele mis tahes jaemüügikanalis.
 
 <a name="loyalty-features"></a>Püsikliendi funktsioonid
 ----------------
@@ -37,11 +40,11 @@ Saate seadistada püsikliendiprogrammi nii, et see hõlmaks järgmisi valikuid.
 -   Seadistage mitu püsikliendiprogrammides pakutavat preemiate tüüpi ja jälgige osalust püsikliendiprogrammides.
 -   Seadistage püsikliendiprogrammid, mis näitavad erinevaid pakutavaid preemiaid. Saate kaasata püsikliendiprogrammi järke, et pakkuda lisaimpulssi ja suuremaid preemiaid klientidele, kes ostavad sagedamini või kes kulutavad teie poodides rohkem raha.
 -   Määrake teenimisreeglid, et panna paika tegevused, mida klient peab preemia saamiseks tegema. Samuti saate määrata lunastamisreeglid, et panna paika, millal ja kuidas klient preemia lunastada saab.
--   Kliendikaardid: jaemüügi kanali, mis osaleb oma lojaalsuse programmid välja ning kliendikaardid linkida ühe või mitme kliendi osaleda lojaalsuse programmid. Saate ka linkida kliendi kirje kliendikaarti, nii et klient saab ühendada mitu kaardid boonuspunkti ning lunastamiseks.
+-   Väljastage kliendikaarte mis tahes teie püsikliendiprogrammis osalevast jaemüügikanalist ja siduge kliendikaardid vähemalt ühe püsikliendiprogrammiga, milles klient saab osaleda. Samuti saate kliendikirje kliendikaardiga siduda, et klient saaks püsikliendipunkte koguda mitmelt kaardilt ja neid lunastada.
 -   Kliendi andmete korrigeerimiseks või tema premeerimiseks saate kliendikaarte käsitsi kohandada või kandke püsikliendipreemiate saldo ühelt kaardilt teisele.
 
-## <a name="setting-up-loyalty-programs"></a>Seadistamine lojaalsuse programmid
-Lojaalsus funktsiooni Dynamics 365 toiminguteks - jaemüügi peate seadistama mitu osa. Järgmisel joonisel on kujutatud püsikliendiprogrammi komponendid ja nende omavahelised seosed. ![Püsikliendi seadistuse protsessivoog](./media/loyaltyprocess.gif)
+## <a name="setting-up-loyalty-programs"></a>Püsikliendiprogrammide seadistamine
+Peate seadistama mitu komponenti, et lubada rakenduse Dynamics 365 for Operations – jaemüük püsikliendifunktsioon. Järgmisel joonisel on kujutatud püsikliendiprogrammi komponendid ja nende omavahelised seosed. ![Püsikliendi seadistuse protsessivoog](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Püsikliendiprogrammi komponendid
 Järgmises tabelis kirjeldatakse kõiki komponente ja nende kasutuskohta püsikliendiprogrammi seadistamisel.
@@ -64,10 +67,12 @@ Järgmises tabelis kirjeldatakse protsesse, mida tuleb käitada, et saata püsik
 
 | Protsessi nimi                         | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                                                    | Lehe nimi                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (püsikliendi teave)           | Käivitage see protsess Dynamics 365 operatsioonide lojaalsus andmeid saata jaemüük kauplustes. Soovitatav on ajastada see protsess sageli käivituma, et püsikliendiandmed edastataks kõigisse kauplustesse.                                                                                                                                                                                               | Jaotusgraafik                |
+| 1050 (püsikliendi teave)           | Käivitage see protsess, et saata püsikliendiandmeid rakendusest Dynamics 365 for Operations jaekauplustesse. Soovitatav on ajastada see protsess sageli käivituma, et püsikliendiandmed edastataks kõigisse kauplustesse.                                                                                                                                                                                               | Jaotusgraafik                |
 | Boonusskeemide töötlemine              | Käitage seda protsessi, et seostada püsikliendiskeemid jaemüügikanalitega, millele püsikliendiskeem määratud on. Seda protsessi saab käitada pakktöötlusena. Peate seda protsessi käitama, kui muudate püsikliendi konfiguratsiooniandmeid, nagu püsikliendiskeemid, püsikliendiprogrammid või püsikliendi preemiapunktid.                                                                                               | Boonusskeemide töötlemine              |
-| Töötle võrguühenduseta boonuskandeid | Käitage seda protsessi, et värskendada kliendikaarte kaasamaks neisse võrguühenduseta töödeldud kandeid. See protsess rakendub ainult siis, kui on **teenida ühenduseta** on märgitud ruut on ** jaemüügi jagatud parameetrite ** lehekülg, et kasu saab teenitud ühenduseta.                                                                                                                                               | Töötle võrguühenduseta boonuskandeid |
+| Töötle võrguühenduseta boonuskandeid | Käitage seda protsessi, et värskendada kliendikaarte kaasamaks neisse võrguühenduseta töödeldud kandeid. See protsess kehtib ainult juhul, kui lehel **Jaemüügi ühisparameetrid** on märgitud ruut **Võrguühenduseta teenimine**, et preemiaid saaks teenida võrguühenduseta.                                                                                                                                               | Töötle võrguühenduseta boonuskandeid |
 | Uuenda kliendikaartide järke            | Käitage seda protsessi, et hinnata kliendi teenimisaktiivsust püsikliendiprogrammi järgureeglite suhtes ja värskendada kliendi järgu olekut. See protsess on nõutav ainult siis, kui muudate püsikliendiprogrammide järgureegleid ja soovite, et värskendatud reeglid kehtiksid tagasiulatuvalt juba väljastatud kliendikaartide puhul. Seda protsessi saab käitada pakktöötlusena või üksikute kaartide puhul. | Uuenda kliendikaartide järke            |
+
+
 
 
 

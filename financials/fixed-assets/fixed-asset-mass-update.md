@@ -1,6 +1,6 @@
 ---
 title: "Põhivara massuuendamine"
-description: "Kui kasutate raamatud, muutmiseks vararühmade, mis kuuluvad raamatut kulumiarvestusreeglid."
+description: Kui kasutate raamatuid, saate muuta kulumiarvestusreegleid varade grupi osas, mis on sama raamatu osad.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-mass-update"></a>Põhivara massuuendamine
 
-Kui kasutate raamatud, muutmiseks vararühmade, mis kuuluvad raamatut kulumiarvestusreeglid.
+[!include[banner](../includes/banner.md)]
+
+
+Kui kasutate raamatuid, saate muuta kulumiarvestusreegleid varade grupi osas, mis on sama raamatu osad.
 
 Näiteks kui olete Ameerika Ühendriikides ning üle 40 protsendi varade kasulik eluiga algab aasta neljandas kvartalis, peate kasutama kvartalikeskset kulumiarvestusreeglit. Kõigi varade, mis nõuavad uut kulumiarvestusreeglit, muutmiseks saate kasutada massuuendamise protsessi. 
 
@@ -36,6 +39,8 @@ Kui uuendate varade kulumiarvestusreeglit, kustutate kõik nende varade jaoks ol
 Juba likvideeritud varade kulumiarvestusreegli värskendamiseks peate kõigepealt kustutama olemasolevad likvideerimiskanded. Samuti peate kustutama kõik likvideerimisprotsessi tõttu loodud kanded. 
 
 Varade kulumiarvestusreegli uuendamise järel saate menetleda iga vara kulumit ja plaanivälist kulumit ning teha vajadusel käsitsi korrigeerimisi. Samuti saate teha käsitsi korrigeerimisi, kui need on nõutavad.
+
+
 
 
 

@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-call-center-catalog"></a>Kõnekeskuse kataloogi loomine
 
+[!include[banner](includes/banner.md)]
+
+
 See artikkel annab ülevaate kõnekeskusele kataloogi loomise protsessist. 
 
-Kõnekeskuses saate kasutada tootekatalooge, et tuvastada tooteid, mida soovite klientidele pakkuda. Kõnekeskused kasutavad tavaliselt prinditud katalooge. Projekteerimise ja tootmise trükitud kataloogi toimub väljaspool Microsoft Dynamics 365 toiminguteks. Siiski saate luua ja salvestada kataloogi digitaalsel kujul jaemüügi-ja kaubanduse dünaamika 365 operatsioonide abil saate seadistada Interneti-jaemüügi kataloogid korduvalt. Enne kataloogi loomist tuleb seadistada toote sortimendid ja määrata sortimendid kõnekeskusele. Seejärel saate lisada tooteid kataloogi, valides need sortimentidest. Pärast toodete lisamist kataloogi ja kataloogi lõpetamist tuleb kataloog andmete õigsuse kontrollimiseks kinnitada. Seejärel tuleb kataloog ülevaatamiseks ja heakskiitmiseks esitada. Kui kataloog on kinnitatud, võib selle avaldada. Kui kõnekeskuse kataloog on loodud, saate kataloogi avaldamise hetkel kataloogi andmetest hetktõmmise teha. See hetktõmmise funktsioon võimaldab juurdepääsu kataloogi konkreetsele versioonile isegi siis, kui kataloogi hiljem muudetakse ja uuendatakse. Kõnekeskuse kataloogid saab seadistada ka nii, et neis sisalduvad järgmised valikulised funktsioonid.
+Kõnekeskuses saate kasutada tootekatalooge, et tuvastada tooteid, mida soovite klientidele pakkuda. Kõnekeskused kasutavad tavaliselt prinditud katalooge. Trükitud kataloogi kujundust ja tootmist hallatakse väljaspool Microsoft Dynamics 365 for Operationsit. Siiski saate luua ja talletada kataloogi digitaalse vormi Microsoft Dynamics 365 for Operationsi moodulis Jaemüük ja kaubandus, kasutades samu vorme, mida kasutate võrgu jaemüügikataloogide seadistamiseks. Enne kataloogi loomist tuleb seadistada toote sortimendid ja määrata sortimendid kõnekeskusele. Seejärel saate lisada tooteid kataloogi, valides need sortimentidest. Pärast toodete lisamist kataloogi ja kataloogi lõpetamist tuleb kataloog andmete õigsuse kontrollimiseks kinnitada. Seejärel tuleb kataloog ülevaatamiseks ja heakskiitmiseks esitada. Kui kataloog on kinnitatud, võib selle avaldada. Kui kõnekeskuse kataloog on loodud, saate kataloogi avaldamise hetkel kataloogi andmetest hetktõmmise teha. See hetktõmmise funktsioon võimaldab juurdepääsu kataloogi konkreetsele versioonile isegi siis, kui kataloogi hiljem muudetakse ja uuendatakse. Kõnekeskuse kataloogid saab seadistada ka nii, et neis sisalduvad järgmised valikulised funktsioonid.
 
 -   **Lähtekoodid** – koodid, mida kasutatakse kliendi reageeringu jälgimiseks konkreetsetele kataloogipostitustele.
 -   **Tasuta tooted** – kliendi tellimusse lisatasudeta kaasatud tooted. Need tooted lisatakse kataloogi lähtekoodi tellimusse sisestamisel automaatselt tellimusele.
@@ -62,11 +65,13 @@ Kui kataloog on kontrollitud, saate esitada kataloogi ülevaatamiseks ja kinnita
 ## <a name="optional-add-source-codes-free-products-and-scripts"></a>Valikuline: lähtekoodide, tasuta toodete ja skriptide lisamine
 Saate sisestada kõnekeskuse kataloogi ka järgmisi üksusi. Need üksused on valikulised.
 
--   **Lähtekoodide** abil saavad trükitud katalooge pakkuvad ettevõtted jälgida kliendi reageeringut kindlatele kataloogidele. Lähtekoodi on sageli trükitud kataloogi tagasi ja sisestatakse müügitellimuse, kui klient sooritab ostu. Allika tähis kataloogi lisamiseks peate esmalt looma sihtturul. Sihtturu vastendatakse tavaliselt omandis või renditud meililisti.
+-   **Lähtekoodide** abil saavad trükitud katalooge pakkuvad ettevõtted jälgida kliendi reageeringut kindlatele kataloogidele. Lähtekoodid trükitakse sageli kataloogi tagaküljele ja sisestatakse müügitellimusse, kui klient sooritab ostu. Lähtekoodi kataloogi lisamiseks peate esmalt looma sihtturu. Sihtturg vastendatakse tavaliselt omandisse kuuluva või renditud postiloendiga.
 -   **Tasuta tooted** on kampaaniakaubad, mis lisatakse kataloogi viitamisel kliendi tellimusele tasuta.
 -   **Skriptide** abil saab suunata töötaja suhtlust klientidega kataloogi või kataloogis oleva toote kontekstis.
 
 ## <a name="publish-the-catalog"></a>Kataloogi avaldamine
 Kõnekeskuse jaoks kataloogi avaldamisega saate tooteteabe kataloogis lõpetada. Avaldamine näitab ka, et kataloog on valmis lisategevusteks, mida soovite teha. Näiteks saate luua trükitud kataloogi. Katalooge saab avaldada käsitsi või kasutades pakktöötlust graafiku alusel avaldamiseks. Enne kataloogi avaldamist peab kataloog olema kontrollitud ja kinnitatud. Kataloogi muutmiseks pärast avaldamist saate selle tagasi võtta ja siis uuesti avaldada.
+
+
 
 

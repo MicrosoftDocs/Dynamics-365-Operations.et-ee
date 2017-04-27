@@ -1,6 +1,6 @@
 ---
-title: Seadistada globaalse aadressiraamatud
-description: "Selles artiklis kirjeldatakse kaalutlused ja otsuseid, mida peate projekteerimise käigus, enne seadistada ja konfigureerida Microsoft Dynamics 365 operatsioonide globaalse ja täiendavad aadressiraamatud. Mõned otsused nõuavad toote mõnes muus valdkonnas (nt organisatsiooni hierarhia) tehtud otsuste kinnitamist."
+title: Globaalsete aadressiraamatute konfigureerimine
+description: "Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Operationsis globaalse aadressiraamatu ning mis tahes täiendava aadressiraamatu seadistate ja konfigureerite. Mõned otsused nõuavad toote mõnes muus valdkonnas (nt organisatsiooni hierarhia) tehtud otsuste kinnitamist."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Seadistada globaalse aadressiraamatud
+# <a name="configure-global-address-books"></a>Globaalsete aadressiraamatute konfigureerimine
 
-Selles artiklis kirjeldatakse kaalutlused ja otsuseid, mida peate projekteerimise käigus, enne seadistada ja konfigureerida Microsoft Dynamics 365 operatsioonide globaalse ja täiendavad aadressiraamatud. Mõned otsused nõuavad toote mõnes muus valdkonnas (nt organisatsiooni hierarhia) tehtud otsuste kinnitamist.
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Operationsis globaalse aadressiraamatu ning mis tahes täiendava aadressiraamatu seadistate ja konfigureerite. Mõned otsused nõuavad toote mõnes muus valdkonnas (nt organisatsiooni hierarhia) tehtud otsuste kinnitamist.
 
 <a name="global-address-book"></a>Globaalne aadressiraamat
 -------------------
@@ -61,6 +64,8 @@ Pärast globaalse aadressiraamatu loomist, saate luua vajaduse järgi täiendava
 Saate luua aadressiraamatuid igal ajal ja määrata igal ajal aadressiraamatutele ka turbeparameetreid. Teilt ei nõuta, et määraksite aadressiraamatule turbeprivileegid, kuid kui te seda ei tee, saavad kõik teie organisatsiooni töötajad vaadata kõiki osapoole kirjeid selles aadressiraamatus. Osapoole kirjete turbeprivileege saab määrata aadressiraamatute kaudu. Turbeprivileegid põhinevad töörühmadel. See lähenemine tagab, et aadressiraamatus olevaid osapoole kirjeid saavad vaadata ainult need töötajad, kes on määratud töörühma, millel on aadressiraamatule juurdepääs. Peate valima töörühmad, millel on juurdepääs igale aadressiraamatule. Saate määrata igale aadressiraamatule turbeprivileegid, mis annavad või keelavad juurdepääsu konkreetsete töörühmade jaoks. Kui annate töörühmale aadressiraamatu privileegid, saavad kõik selle töörühma liikmed vaadata selle aadressiraamatu kirjeid. Kui te ei anna töörühmale aadressiraamatu privileege, ei saa selle töörühma liikmed seda aadressiraamatut ega selle sisu vaadata. **Otsus.**
 
 -   Millistel töörühmadel peaks olema juurdepääs igale teie loodavale uuele aadressiraamatule?
+
+
 
 
 

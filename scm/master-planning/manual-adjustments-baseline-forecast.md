@@ -1,5 +1,5 @@
 ---
-title: "Ilmaennustus lähtejoonest käsitsi korrigeerida"
+title: "Alusprognoosis käsitsi korrigeerimiste tegemine"
 description: "Selles artiklis selgitatakse, kuidas alusprognoosi käsitsi korrigeerida ning prognoosi üksikasju kuvada."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Ilmaennustus lähtejoonest käsitsi korrigeerida
+# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Alusprognoosis käsitsi korrigeerimiste tegemine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis selgitatakse, kuidas alusprognoosi käsitsi korrigeerida ning prognoosi üksikasju kuvada. 
 
@@ -35,11 +38,11 @@ Enne käsitsi korrigeerimiste tegemist on oluline mõista mõnda põhimõtet eri
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Korrigeeritud nõudluse prognoosi lehe ruudustik
 Lehe **Korrigeeritud nõudluse prognoos** ruudustikul on järgmine struktuur.
 
--   Esimeses veerus kuvatakse kaubad, kauba eraldamisvõtmed, ettevõtted jms, mille jaoks prognoos loodi. Lehe alapealkiri kirjeldab ruudustikus kuvatatud praegusi prognoosi dimensioone. Kui lehe alapealkiri on **firma / saidi / kauba Eraldusvõtme**, ja üks Reapäistes ruudustiku on **USMF / 1 / D\_Alloc**, et rida näitab USMF firma Ilmaennustus, saidi 1, ning **D\_Alloc** kauba.
+-   Esimeses veerus kuvatakse kaubad, kauba eraldamisvõtmed, ettevõtted jms, mille jaoks prognoos loodi. Lehe alapealkiri kirjeldab ruudustikus kuvatatud praegusi prognoosi dimensioone. Näiteks kui lehe alapealkiri on **Ettevõte / Koht / Kauba eraldamisvõti** ja üks ruudustiku reapäiseid on **USMF / 1 / D\_Alloc**, näitab see rida, et tegemist on USMF-i ettevõtte, koha 1 ja **D\_Alloc** kauba eraldamisvõtme prognoosiga.
 -   Järgnevad veerud esindavad prognoosivahemikke, mille jaoks prognoos on loodud. Iga veeru päis on veerus kuvatava prognoosivahemiku alguskuupäev.
 -   Lahtrite väärtused esitavad ühe kauba, kauba eraldamisvõtme jm kindla prognoosivahemiku prognoosi.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Prognoositav koondamine ja deaggregation
+## <a name="forecast-aggregation-and-deaggregation"></a>Prognoosi koondamine ja jaotamine
 Lehe alapealkiri näitab prognoosi koondamise taset. 
 
 Näiteks, kui lehe alapealkiri on **Ettevõte / Koht / Eraldamisvõti / Kaubakood / Värv / Suurus / Konfiguratsioon / Stiil**, ei ole prognoosi koondatud ning seda kuvatakse kauba ja selle dimensioonide tasemel. Koondamise muutmiseks kasutage lehekülge** Prognoosi dimensioonide muutmine**, mille saate avada rakenduse menüüst. 
@@ -50,7 +53,7 @@ Kui muudate koondamist selliselt, et lehel rohkem koondatud andmeid kuvada, saat
 
 Näiteks lõite prognoosi kauba tasemel, kuid teate, et selle kauba nõudlus suureneb kampaania või muu taolise sündmuse tõttu kõigis kohtades. Sel juhul saate koondamise seada **Ettevõte / Kauba eraldamisvõti / Kaup** leheküljel **Prognoosi dimensioonide muutmine**. Kauba globaalselt prognoosi saate korrigeerida kõigis kohtades ruudustikus **Korrigeeritud nõudluse prognoos**. Tehtud muudatuste mõju nägemiseks kõigis kohtades avage lehekülg **Nõudluse prognoosi read**. Sellel lehel näete kaupa igas kohas eraldi real, korrigeeritud prognoosi kogust ja prognoosi algset kogust. 
 
-Prognoositav kogus kohandamisega koondandmeid, kasutab süsteem kaalutud jaotus muutus read, et luua liitmise seas levitada. 
+Kui prognoositud kogust on korrigeeritud koondamise tasemel, kasutab süsteem kaalutud eraldamist, et jagada muudatus koondatud ridadele. 
 
 Leheküljel **Nõudluse prognoosi read** saate ka käsitsi korrigeerimisi teha, muutes kas väärtust **Üldkogus** või jaotamise ruudustiku lahtreid **Kogus**.
 
@@ -69,15 +72,17 @@ Lehel **Nõudluse prognoosi üksikasjad** kuvatakse graafilises vormingus ja tab
 **Märkused.**
 
 -   Jaotises **Prognoos** kuvatud usaldusvahemik tähistab usaldusvahemiku ülem- ja alampiiri erinevust. Ülem- ja alampiiri väärtuste vaatamiseks liikuge üle diagrammi jaotises **Varasem nõudlus ja prognoos graafiliselt**.
--   Dynamics 365 toimingute nõudluse prognoosimise Microsoft Azure'i masinõppe teenuse kasutamisel saate määrata usalduse taseme protsent on loonud ilm peaks olema. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
+-   Kui kasutate Dynamics 365 for Operationsi nõudluse prognoosimise Microsoft Azure’i masinõppe teenust, saate määrata loodava prognoosi usaldusväärsuse taseme protsendi. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
 
 Leheküljel **Nõudluse prognoosi üksikasjad** saate prognoosis käsitsi korrigeerimis teha, muutes väärtusi reas **Prognoos** jaotises **Prognoos**.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Prognoosi täpsuse jälgimine](monitor-forecast-accuracy.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
+
+
 
 

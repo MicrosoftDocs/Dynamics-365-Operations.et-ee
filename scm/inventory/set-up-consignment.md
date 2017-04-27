@@ -1,5 +1,5 @@
 ---
-title: Saadetise seadistamine
+title: Veose seadistamine
 description: Selles teemas selgitatakse, kuidas konfigureerida sissetuleva veose laotoiminguid.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-consignment"></a>Saadetise seadistamine
+# <a name="set-up-consignment"></a>Veose seadistamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles teemas selgitatakse, kuidas konfigureerida sissetuleva veose laotoiminguid. 
 
@@ -34,19 +37,21 @@ Veose varud on varud, mis kuuluvad hankijale, kuid mida hoitakse teie tegevuskoh
 ## <a name="inventory-owners"></a>Varude omanikud
 Füüsiliste sissetulevate veose varude kirjendamiseks peate määratlema hankijast omaniku. Seda tehakse lehel **Varude omanik**. Kui teete valiku **Hankija konto**, loob see väljade **Nimi** ja **Omanik** jaoks vaikeväärtused. Väärtus väljal **Omanik** on hankijale nähtav, seega võite soovi korral seda muuta, kui hankijakonto nimesid pole välistel inimestel lihtne tuvastada. On võimalik redigeerida välja **Omanik**, kuid ainult kirje **Varude omanik** salvestamiseni. Väli **Nimi** täidetakse selle osapoole nimega, millega hankija konto on seostatud ja seda ei saa muuta. 
 
-[![varude omanike](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![inventory-owners](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Jälgimisdimensioonigrupp
 Veose protsessides kasutatavad kaubad tuleb seostada valikuga **Jälgimisdimensioonigrupp**, kus dimensioon **Omanik** on määratud sättele **Aktiivne**. Dimensioonil Omanik on suvandid **Füüsiline ladu** ja **Finantsiline laovaru** valitud. Suvand **Laovarude planeerimine dimensioonide kaupa** pole kunagi valitud. 
 
-[![jälitus-mõõde](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Varude omandiõiguse muutmise tööleht
 Töölehte **Varude omandiõiguse muutmine **kasutatakse, et kirjendada veose varude omandiõiguse ülekannet hankijalt juriidilisele isikule, kes seda tarbib. Nagu iga varude töölehega, tuleb see tuvastada lao töölehe nimega. Need nimed luuakse lehel **Lao töölehe nimed** ja valik **Töölehe tüüp** tuleb määrata sättele **Omandiõiguse muutmine**. 
 
-[![varude omandiõigus-muutmispäevik](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
-## <a name="vendor-collaboration-in-consignment-processes"></a>Hankija koostöö veose protsessides
+## <a name="vendor-collaboration-in-consignment-processes"></a>Hankija koostöö veoseprotsessides
 Kui hankijad kasutavad hankija koostööliidest, saavad nad seda kasutada varude tarbimise jälgimiseks teie tegevuskohas. Hankija koostöö kasutamiseks hankijate seadistamise kohta lisateabe saamiseks vaadake [Hankija koostöö kasutajate turbe konfigureerimine](../procurement/configure-security-vendor-portal-users.md).
+
+
 
 

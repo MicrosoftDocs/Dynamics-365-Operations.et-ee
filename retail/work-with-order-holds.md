@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-holds"></a>Ootelolevad tellimused
 
+[!include[banner](includes/banner.md)]
+
+
 Selles teemas kirjeldatakse tellimuste ootele panemist, kasutades Dynamics AX-i funktsiooni Jaemüük ja kaubandus.
 
-Tellimuse saab ootele panna mitmel põhjusel. Näiteks võidakse tellimus ootele panna seni, kuni kliendi aadressi või makseviisi saab kinnitada või kuni haldur saab kliendi krediidilimiidi üle vaadata. Müügiprotsessi ajal esineb olukordi, mil müügitellimused tuleb panna ootele. Näiteks võidakse müügitellimus ootele panna kliendi makseprobleemide, kahtlustatud pettuse tõttu või selleks, et haldur tellimuse üle vaataks. Kui müügitellimus on ootel, määratakse müügitellimusele ooteloleku kood, et näidata ooteloleku põhjust. Müügi ootel koodid on konfigureeritud kell **müügi- ja**&gt;**Setup**&gt;**müügitellimused**&gt;**tellimus sisaldab koode**. Müügitellimuse saab ootele panna käsitsi tellimuse loomisel või hiljem. Lisaks saab tellimuse automaatselt ootele panna pettuse reeglite alusel. Kui müügitellimus on ootel, peate seda võib-olla lisateabefa värskendama. Teise võimalusena soovite võib-olla müügitellimuse välja registreerida, kui sellega tööd jätkate. Võite vaadata müügitellimuse puhul kontrollida selle tagasi ja isegi alistada teise alla kasutades tellimuse kassasse hoidke workbench (**hulgi- ja kaubanduse**&gt;**hotelli**&gt;**tellida omab**). Kui tellimus on lõpule viimiseks valmis, peate eemaldama ooteloleku, enne kui saate tellimuse protsessi lõpule viia.
+Tellimuse saab ootele panna mitmel põhjusel. Näiteks võidakse tellimus ootele panna seni, kuni kliendi aadressi või makseviisi saab kinnitada või kuni haldur saab kliendi krediidilimiidi üle vaadata. Müügiprotsessi ajal esineb olukordi, mil müügitellimused tuleb panna ootele. Näiteks võidakse müügitellimus ootele panna kliendi makseprobleemide, kahtlustatud pettuse tõttu või selleks, et haldur tellimuse üle vaataks. Kui müügitellimus on ootel, määratakse müügitellimusele ooteloleku kood, et näidata ooteloleku põhjust. Müügitellimuse ooteloleku koodid konfigureeritakse valikus **Müük ja turundus** &gt; **Seadistus** &gt; **Müügitellimus** &gt; **Tellimuse ooteloleku koodid**. Müügitellimuse saab ootele panna käsitsi tellimuse loomisel või hiljem. Lisaks saab tellimuse automaatselt ootele panna pettuse reeglite alusel. Kui müügitellimus on ootel, peate seda võib-olla lisateabefa värskendama. Teise võimalusena soovite võib-olla müügitellimuse välja registreerida, kui sellega tööd jätkate. Saate müügitellimuse välja registreerida, selle uuesti sisse registreerida ja isegi alistada teise kasutaja väljaregistreerimise, kasutades tellimuse ooteloleku töölauda (**Jaemüük ja kaubandus** &gt; **Kliendid** &gt; **Ootelolevad tellimused**). Kui tellimus on lõpule viimiseks valmis, peate eemaldama ooteloleku, enne kui saate tellimuse protsessi lõpule viia.
+
+
 
 

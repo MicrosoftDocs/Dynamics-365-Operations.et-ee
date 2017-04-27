@@ -49,18 +49,18 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 ### <a name="create-a-report-group"></a>Aruandegrupi loomine
 
 1.  Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
-2.  Kohta ning **faili** menüü, klõpsake **uus**&gt;**aruande tooterühma määratlus** avada uue aruande rühma vaataja aken. Teise võimalusena klõpsake selle **aruande rühma** nupp ![aruande rühma](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "aruande rühma") tööriistariba.
+2.  Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas. Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Aruandegrupp").
 3.  Klõpsake vahekaarti **Aruandegrupp**. Individuaalsete aruande definitsioonide teabe tühistamiseks selle aruande loomise puhul valige märkeruut **Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine individuaalsetest aruande definitsioonidest**. Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.
 4.  Mitme arvestusvaluutasid näitava aruande koostamiseks märkige ruut **Kaasa kõik aruandlusvaluutad**. Seejärel pääsete mitmesse vaatesse, klõpsates aruande vaatamisel veebivaaturis nuppu **Valuuta**.
 5.  Aruandegruppi kaasatavate aruannete valimiseks klõpsake väljal **Grupi aruanded** valikut **Lisa**. Mitme aruande valimiseks dialoogiboksis **Lisa** hoidke aruannete valimisel all klahvi Ctrl. Kui olete aruannete valimise lõpetanud, klõpsake **OK**.
-6.  Klõpsake **faili**&gt;**salvestamine** uue aruande rühma salvestamiseks.
+6.  Uue aruandegrupi salvestamiseks klõpsake **Fail** &gt; **Salvesta**.
 
 ### <a name="modify-a-report-group"></a>Aruandegrupi muutmine
 
 1.  Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
 2.  Aruandegrupi muutmiseks topeltklõpsake.
 3.  Tehke vahekaardil **Aruandegrupp** soovitud muudatused.
-4.  Kohta ning **faili** menüü, klõpsake **salvestada** muudetud aruande rühma, klõpsake nuppu ning **salvestada** nupp ![salvestada](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "salvestada") tööriistariba.
+4.  Klõpsake menüüs **Fail** käsku **Salvesta** muudetud aruandegrupi salvestamiseks. Teine võimalus on klõpsata tööriistaribal nuppu **Salvesta** ![Salvesta](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Salvesta").
 
 **Märkus.** Kui olete plaaninud aruanded määratud vahemikel koostamiseks, saate need sätted tühistada ja aruande kohe luua.
 
@@ -68,7 +68,7 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 
 1.  Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
 2.  Avage loodav aruandegrupp.
-3.  Klõpsake selle **Loo aruanne** nupp ![Loo aruanne](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Loo aruanne") aruannete loomiseks.
+3.  Klõpsake aruannete loomiseks nuppu **Loo aruanne** ![Loo aruanne](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Loo aruanne").
 
 ### <a name="delete-a-report-group"></a>Aruandegrupi kustutamine
 
@@ -104,8 +104,8 @@ Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
 <td>Määrake aruannete üksikasjatase.
 <ul>
 <li><strong>Rahaline</strong>− kõrgetasemeline koondaruanne. Te ei saa kontodes ja dimensioonides süvitsi minna, välja arvatud aruandluspuu kaudu lisatud kontode ja dimensioonide puhul.</li>
-<li><strong>Rahalise &amp;konto</strong> − A aruanne, mis sisaldab kogusummad ja konto andmed.</li>
-<li><strong>Finants, konto, &amp;tehingu</strong> − A aruanne, mis sisaldab kogusummad ja kande üksikasjad.</li>
+<li><strong>Rahaline &amp; Konto</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja konto üksikasju.</li>
+<li><strong>Rahaline, Konto &amp; Kanne</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja kande üksikasju..</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Aruande definitsiooni salvestatakse ainult baasperioodi vaikesätted.</td>
 <a name="see-also"></a>Vt ka
 --------
 
-[Finantsaruandluse Microsoft Dynamics 365 toiminguteks](financial-reporting-intro.md)
+[Microsoft Dynamics 365 for Operationsi finantsaruandlus](financial-reporting-intro.md)
 
 

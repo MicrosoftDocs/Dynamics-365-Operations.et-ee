@@ -1,5 +1,5 @@
 ---
-title: "Saate määratleda ja hallata programmi eelised"
+title: "Soodustusprogrammi määratlemine ja haldamine"
 description: "Inimressursid pakuvad tööriistu, mida saab kasutada soodustuste, mahaarvamiste ja töötajate hüvitusplaanide seadistamiseks ja haldamiseks, mida organisatsioon oma töötajatele pakub või nende puhul töötleb. See artikkel sisaldab teavet soodustuste seadistamise ja haldamise kohta."
 author: rschloma
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="define-and-manage-a-benefits-program"></a>Saate määratleda ja hallata programmi eelised
+# <a name="define-and-manage-a-benefits-program"></a>Soodustusprogrammi määratlemine ja haldamine
 
-Inimressursid pakuvad tööriistu, mida saab kasutada soodustuste, mahaarvamiste ja töötajate hüvitusplaanide seadistamiseks ja haldamiseks, mida organisatsioon oma töötajatele pakub või nende puhul töötleb. See teema pakub teavet kuidas seadistada Halda kasu.
+[!include[banner](includes/banner.md)]
 
-<a name="benefit-setup"></a>Kasu seadistamine
+
+Inimressursid pakuvad tööriistu, mida saab kasutada soodustuste, mahaarvamiste ja töötajate hüvitusplaanide seadistamiseks ja haldamiseks, mida organisatsioon oma töötajatele pakub või nende puhul töötleb. See teema sisaldab teavet soodustuste seadistamise ja haldamise kohta.
+
+<a name="benefit-setup"></a>Soodustuse seadistamine
 -------------
 
 Enne kui töötajad saavad soodustuste saamiseks registreeruda, tuleb luua iga soodustuse elemendid. Need elemendid ühendavad sarnased soodustusplaanid ja määratlevad vaikesätted, nagu mahaarvamise määrad ja raamatupidamise üksikasjad. Paljusid neid sätteid saab kohandada, kui töötajad soodustuse saamiseks hiljem registreeruvad. Iga soodustusplaani puhul saab organisatsioon pakkuda mitut registreerimise võimalust või töötaja saab plaanis registreerumisest loobuda. 
 
-[![Kasu äriprotsessi voog](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Soodustuse protsessivoog](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Soodustuse elemendid
 Enne soodustuste loomist ja töötajate registreerimist nende saamiseks peate määratlema elemendid, mis moodustavad soodustuse: tüüp, plaan ja valikud.
@@ -46,27 +49,29 @@ Enne soodustuste loomist ja töötajate registreerimist nende saamiseks peate m�
 
 Iga soodustuse tüübi, nt visiooni või hambaravi puhul saab organisatsioon pakkuda oma töötajatele ühte või enamat plaani. Iga plaani puhul saab organisatsioon pakkuda erinevaid valikuid. Näiteks saavad töötajad täiendava tähtajaga elukindlustuse katvuse osta oma ühe, kahe või kolme aastapalga ulatuses. Iga plaani ja valiku kombinatsioonist saab soodustus, mille saamiseks töötajad saavad registreeruda. 
 
-[![kasu pic](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![soodustuse pilt](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Sobivus
-Töötaja soodustuse saamise õiguse tööandja pakutavatele eri tüüpi soodustustele määravad paljud tegurid. Kasu loomisel Microsoft Dynamics 365 operatsioonide seadistamiseks tüüpi abikõlblikkuse, et neid saada. 
+Töötaja soodustuse saamise õiguse tööandja pakutavatele eri tüüpi soodustustele määravad paljud tegurid. Soodustuse loomisel Microsoft Dynamics 365 for Operationsis saate seadistada selle soodustuse puhul rakenduva soodustuse saamise õiguse tüübi. 
 
-Saate kasu kättesaadavaks kõigile töötajatele. Näiteks mõned firmad pakuvad, parkimine läheb kõigi töötajate erisoodustusena. Selle soodustuse loomisel seate soodustuse saamise õiguse suvandile **Kõigil töötajatel on soodustuse saamiseks õigus**. 
+Saate muuta soodustuse saadavaks kõigile töötajatele. Mõned ettevõtted pakuvad näiteks parkimislube kõigile töötajatele erisoodustusena. Selle soodustuse loomisel seate soodustuse saamise õiguse suvandile **Kõigil töötajatel on soodustuse saamiseks õigus**. 
 
-Muude hüvitiste puhul nagu garnishments ja lõivud, ei kohaldada. Vadaku te luua sellist tüüpi hüvitisi, seate abikõlblikkuse **ümbersõit abikõlblikkuse protsess**. 
+Muude soodustuste, nagu sissenõudmiste ja maksude kehtestamise puhul soodustuse saamise õigus ei kehti. Seda tüüpi soodustuste loomisel seate soodustuse saamise õiguse valikule **Jäta soodustuse saamise õiguse protsess vahele**. 
 
-Lõpuks saab kasu saamise eeskirjadel põhinevat. Näiteks pakub firma töötajatele kahte tüüpi elukindlustuse hüvitise. Juhtivtöötajad on kõlblikud üks elukindlustuse plaan, kõik täistööajaga töötajad ei elukindlustuse plaani. Dynamics 365 toiminguteks, saate luua kasu abikõlblikkuse tavaliselt leida kõik juhtivtöötajad ja teise reegli kõik täisajaga töötajate leidmiseks ja seejärel kohaldama neid õigusnorme asjakohase kasuks.
+Lisaks võib soodustuse saamise õigus olla reeglipõhine. Näiteks ettevõte pakub töötajatele kahte tüüpi elukindlustust. Juhtivtöötajatel on õigus kasutada ühte meie elukindlustusplaani, samas kui kõigil teistel täistööajaga töötajatel on õigus kasutada muud elukindlustusplaani. Dynamics 365 for Operations saate luua kõigi juhtivtöötajate leidmiseks soodustuse saamise õiguse reegli ja teise reegli kõigi täistööajaga töötajate leidmiseks ja seejärel saate need reeglid asjakohasele soodustusele rakendada.
 
 ## <a name="enrollment"></a>Registreerimine
 Pärast teie organisatsiooni pakutavate soodustuste loomist ja soodustuse saamise õiguse määratlemist saate töötajaid soodustuse saamiseks registreerida. Saate soodustuse saamiseks registreerida ühe töötaja või registreerida mitu töötajat ühe protsessi ühe või mitme soodustuse saamiseks. 
 
-Mõnikord lõpetab organisatsioon konkreetsete soodustuste pakkumise. Sel juhul peate värskendama kasu ja töötajaid, kes õpib. Mass kasuks aegumine saate muuta see soodustus samal ajal kasu ja töötaja registreerimiste aegumiskuupäeva. Samuti saate valida mitut soodustuse saamiseks registreerunud töötajat ja muuta nende soodusperioodi lõppkuupäeva. 
+Mõnikord lõpetab organisatsioon konkreetsete soodustuste pakkumise. Sellisel juhul peate soodustust ja selle saamiseks registreerunud töötajaid värskendama. Hulgisoodustuse aegumine võimaldab teil korraga muuta nii soodustuse kui ka selleks soodustuseks töötajate registreerumise aegumiskuupäeva. Samuti saate valida mitut soodustuse saamiseks registreerunud töötajat ja muuta nende soodusperioodi lõppkuupäeva. 
 
 Samuti võimaldab hulgisoodustuse pikendamine teil pikendada nii soodustuse kui ka selle saamiseks töötajate registreerumise aegumiskuupäeva, kui otsustate soodustust pakkuda kauem kui algselt plaanitud.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Benefit eligibility policies](benefit-eligibility-policies.md)
+[Soodustuse saamise õiguse poliitikad](benefit-eligibility-policies.md)
+
+
 
 

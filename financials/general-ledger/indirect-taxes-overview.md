@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>Käibemaksu ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade käibemaksu süsteemist. Selgitatakse käibemaksu seadistamise elemente ja kuidas need koos töötavad.
 
 <a name="overview"></a>Ülevaade
 --------
 
-Käibemaksu raames toetab mitmeid kaudseid makse, näiteks käibemaksu, käibemaks (VAT), kaupade ja teenuste maksu (GST), üksus tasud ja kinnipeetava maksu. Need maksud arvutatakse ja dokumenteeritud ostu-müügi tehingute puhul. Aeg-ajalt peab olema teatatud ja makstava summaga. 
+Käibemaksuraamistik toetab mitmeid kaudsete maksude tüüpe, nt müügimaksu, käibemaksu (KM), kaupade ja teenuste maksu (GST), ühikupõhiseid tasusid ja kinnipeetavat maksu. Need maksud arvutatakse ja dokumenteeritakse ostu- ja müügikande tegemise ajal. Nende kohta tuleb regulaarselt aruandeid esitada ja neid maksuametile tasuda. 
 
 Järgmisel diagrammil on näidatud maksuseadistuse üksused ja nendevahelised seosed.
 
 [![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Iga käibemaksu, mida ettevõte peab moodustama tuleb määratleda käibemaksukood. Käibemaksukood talletab maksumäärad ja käibemaksu arvutamise reeglid. 
+Iga käibemaksu puhul, mille kohta ettevõte peab aru andma, tuleb määratleda käibemaksukood. Käibemaksukood talletab maksumäärad ja käibemaksu arvutamise reeglid. 
 
 Iga käibemaksukood peab olema seotud käibemaksu tasakaalustusperioodiga. Käibemaksu tasakaalustusperioodid määratlevad intervallid, mille tagant käibemaksuaruandeid tuleb koostada ja käibemaksuasutusele tasuda. Iga käibemaksu tasakaalustusperiood tuleb määrata käibemaksuasutusele. Käibemaksuasutus kajastab üksust, millele käibearuandeid esitatakse ja käibemaksu tasutakse. See määratleb ka käibemaksuaruande ülesehituse. Käibemaksuasutused võivad olla seotud hankija kontodega. 
 
@@ -69,26 +72,28 @@ Iga kande puhul (müügi-/ostudokumendi read, töölehed jne) tuleb sisestada k�
 Iga kande puhul saate vaadata arvutatud käibemaksu, avades lehe **Käibemaksukanne**. Saate vaadata dokumendi rea või kogu dokumendi käibemaksu. Teatud dokumentide (nt hankija arve ja päevaraamatute puhul) saate arvutatud käibemaksu korrigeerida, kui originaaldokumendil on näha erinevad summad.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Käibemaksu tasakaalustamine ja aruandlus
-Käibemaksu kohta tuleb esitada aruanne ja maksta see maksuasutustele regulaarsete ajavahemike järel (kord kuus, kord kvartalis jne). Microsoft Dynamics 365 operatsioonide pakub funktsiooni, mis võimaldab maksu Postipangas intervalli ja kompenseerida tulumaksu arvelduskontole vastavalt pearaamatu sisestusgruppide saldod. Seda funktsiooni saab kasutada selle **lahendada ja pärast käibemaksu** lehel. Määrake käibemaksu ütleks puhul käibemaksu tasakaalustusperioodi. 
+Käibemaksu kohta tuleb esitada aruanne ja maksta see maksuasutustele regulaarsete ajavahemike järel (kord kuus, kord kvartalis jne). Microsoft Dynamics 365 for Operationsis on funktsioon, mis võimaldab maksukontode tasakaalustamist ajavahemiku kohta tasakaalustab need käibemaksu tasakaalustuskontoga, nagu pearaamatu sisestusgruppides määratud. Sellele funktsioonile pääseb juurde lehel **Käibemaksu tasakaalustamine ja sisestamine**. Peate määrama käibemaksu tasakaalustusperioodi, mille eest käibemaks tasakaalustada tuleb. 
 
 Pärast käibemaksu tasumist tuleb käibemaksu tasakaalustuskonto saldo tasakaalustada pangakontoga. Kui käibemaksu tasakaalustusperioodile määratud käibemaksuasutus on seotud hankija kontoga, sisestatakse käibemaksusaldo avatud hankija arvena ja selle saab lisada tavalisse maksesoovitusse.
 
 ## <a name="conditional-sales-tax"></a>Tingimuslik käibemaks
-Tingimuslik käibemaks on käibemaks, mis makstakse proportsionaalselt tegeliku summa, mis makstakse arvele. Seevastu standard arvutatakse kell arveldamise aeg. Tingimuslik käibemaks makstakse maksuameti kui makse on sisestatud, mitte siis, kui arve on sisestatud. Kui arve on sisestatud, tuleb esitada tehingu käibemaksuraamatu aruandesse. Aga tehing arvatakse käibemaksu tasumise aruanne. 
+Tingimuslikku käibemaksu tuleb maksta proportsionaalselt ainult tegelikult arvel makstud summast. Seevastu tavakäibemaks arvestatakse arve esitamise ajal. Tingimuslikku käibemaksu tuleb tasuda käibemaksuhaldurile makse, mitte arve sisestamise ajal. Arve sisestamisel tuleb kanne registreerida käibemaksuregistri aruandes. Kuid kanne tuleb käibemaksu maksearuandest välja arvata. 
 
-Kui märgite vormil pearaamatu parameetrid tingimuslik käibemaks ruut, saate käibemaksu maha enne arve tasumist. See on juriidiline nõue teatud riikides/regioonides.
+Tingimusliku käibemaksu ruudu märkimisel pearaamatu parameetrite vormil ei saa käibemaksu maha arvata enne, kui olete arve tasunud. Mõnes riigis/regioonis on see seadusjärgne nõue.
 
 > [!NOTE]
-> Tingimuslik käibemaks ruut valimisel tuleb seadistada käibemaksu koodiga ja käibemaksugruppide ja ka saate luua, funktsionaalsuse. |
+> Kui märgite ruudu Tingimuslik käibemaks, peate seadistama käibemaksukoodid ja käibemaksugrupid ning looma pearaamatu sisestusgrupid funktsionaalsuse toetamiseks. |
 
 ###  <a name="example"></a>Näide
 
-Käibemakse saate tasakaalustada iga kuu. 15. juunil loote kliendile arve 10 000, pluss käibemaks.
--   Käibemaks on 25% või 2500.
--   Arve makse tuleb tasuda 30. juuli.
+Tasakaalustate käibemaksud iga kuu. 15. juunil koostate kliendiarve summas 10 000 pluss käibemaks.
+-   Käibemaks on 25 protsenti ehk 2500.
+-   Arve maksetähtaeg on 30. juuli.
 
-Tavaliselt teil lahendada ja maksma 2500 talle, kui arve on sisestatud juunis, isegi juhul, kui makse ei ole saanud kliendilt. 
+Üldjuhul tuleks tasakaalustada ja maksta maksuhaldurile 2500 arve sisestamise ajal juunis, kuigi te pole kliendilt veel makset saanud. 
 
-Siiski tingimuslik käibemaks kasutamisel saate tasakaalustada maksuhalduriga kui teile makse kliendi kohta juuli 30.
+Kuid kui kasutate tingimuslikku käibemaksu, siis tasakaalustatakse summa maksuhalduriga siis, kui 30. juulil kliendilt makse saate.
+
+
 
 

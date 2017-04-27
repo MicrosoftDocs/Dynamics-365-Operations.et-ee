@@ -1,6 +1,6 @@
 ---
-title: KM-registri kanded Ida-Euroopa
-description: "See teema pakub teavet km registri kannete jaoks Eesti, Leedu, Tšehhi, Ungari, Läti ja Poola."
+title: "Ida-Euroopa käibemaksuregistri kanded"
+description: "Selles teemas antakse teavet käibemaksuregistri kannete kohta Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis ja Poolas."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,10 +25,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-register-transactions-for-eastern-europe"></a>KM-registri kanded Ida-Euroopa
+# <a name="vat-register-transactions-for-eastern-europe"></a>Ida-Euroopa käibemaksuregistri kanded
 
-See teema pakub teavet km registri kannete jaoks Eesti, Leedu, Tšehhi, Ungari, Läti ja Poola. 
+[!include[banner](../includes/banner.md)]
 
-Juriidiliste isikutele, Eesti, Leedu, Tšehhi, Ungari, Läti ja Poola esmased, saate vaadata seotud ja värskendada ning **kuupäev käibemaksukohustuslaste registrisse** neid. KM registri kannete vaatamiseks avage **maksu**&gt;**perioodilisi toiminguid**&gt;**km-registri kanded**. Sellel lehel kuvatakse käibemaksukoodide tüübi poolt loodud seotud **käibemaksu** jaoks, mis on **kuupäev käibemaksukohustuslaste registrisse** on tühi. Täitke selle **kuupäev käibemaksukohustuslaste registrisse** lahter, kasutades seotud selle **kuupäev käibemaksukohustuslaste registrisse** nuppu ning **Peamenüü**. Esmane aadress Tšehhi Vabariigis juriidilistele, on lisaveeruna, **edasi lükata käibemaksu**. Kui see ruut on märgitud see näitab, et käibemaks ei ole edastatud kande. Tavaliselt kehtib müügi kreeditarvete kliendilt kinnitust ootavaid. Ajal müügiarve sisestamisel saate märkige see ruut. Kohta ning **käibemaksu koodiga** leht (**maksu**&gt;**käibemaksu**&gt;**käibemaksukoodide**), saate vaadata ja värskendada käibemaksu koodi tüüp. <!---For more information about sales tax codes, refer to [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).-->
+
+Selles teemas antakse teavet käibemaksuregistri kannete kohta Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis ja Poolas. 
+
+Juriidiliste isikute puhul, kelle esmane aadress on Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis ja Poolas, saate vaadata maksukandeid ja värskendada nende **KM-registri kuupäeva**. KM-registri kannete vaatamiseks avage **Maks** &gt; **Perioodilised toimingud** &gt; **KM-registri kanded**. Sellel lehel kuvatakse maksukanded, mis on loodud käibemaksukoodidega, mille tüüp on **Standardne KM**, mille puhul valik **KM-registri kuupäev** on tühi. Saate täita välja **KM-registri kuupäev** maksukannete puhul, kasutades nuppu **KM-registri kuupäev** **peamenüüs**. Juriidiliste isikute puhul, kelle peamine aadress on Tšehhi Vabariigis, on lisaveerg **Edasilükatud KM**. Kui see väli on valitud, siis näitab see, et kande puhul pole käibemaksu registreeritud. Tavaliselt puudutab see müügi kreeditarveid, mis ootavad kliendi kinnitust. Võite märkida selle ruudu müügiarve sisestusprotsessi käigus. Lehel **Käibemaksukoodid** (**Maks** &gt; **Käibemaks** &gt; **Käibemaksukoodid**) saate vaadata või muuta käibemaksukoodi tüüpi. <!---For more information about sales tax codes, refer to [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).-->
+
+
 
 

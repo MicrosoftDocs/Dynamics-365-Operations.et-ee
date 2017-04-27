@@ -1,6 +1,6 @@
 ---
 title: "Põhivara väärtusmudeli ja kulumiraamatu ühendamine"
-description: "Varasemates väljaannetes oli kahe hindamise mõiste põhivarade - väärtusmudelid ja kulumiraamatud. 365 Microsoft Dynamics lubamise toimingute 1611 väärtusmudeli funktsiooni ja kulumi raamat funktsioonile on ühendatud sama mõiste, mis on tuntud kui raamat."
+description: "Varasemates väljalasetes on põhivarade jaoks kaks hindamiskontseptsiooni: väärtusmudelid ja kulumiraamatud. Rakenduse Microsoft Dynamics 365 for Operations väljaandes 1611 on väärtusmudeli ja kulumiraamatu funktsioonid ühendatud üheks kontseptsiooniks, mis on tuntud kui raamat."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Põhivara väärtusmudeli ja kulumiraamatu ühendamine
 
-Varasemates väljaannetes oli kahe hindamise mõiste põhivarade - väärtusmudelid ja kulumiraamatud. 365 Microsoft Dynamics lubamise toimingute 1611 väärtusmudeli funktsiooni ja kulumi raamat funktsioonile on ühendatud sama mõiste, mis on tuntud kui raamat.
+[!include[banner](../includes/banner.md)]
 
-Uued raamatu funktsioonid põhinevad varasema väärtusmudeli funktsioonidel, kui hõlmab ka kõiki funktsioone, mis olid varasemalt antud ainult kulumiraamatutes. [![Raamatu väärtuse väärtusmudeli ja kulumiraamatu aadressiraamatu funktsioone ühinevad](./media/fixed-assets.png)](./media/fixed-assets.png) tõttu sellest koostest funktsioonis saate lehti, päringute ja aruannete ühtsed oma põhivara protsessidele. Selles teemas olevates tabelites kirjeldatakse kulumiraamatute ja väärtusmudelite varasemaid funktsioone koos raamatute uute funktsioonidega.
+
+Varasemates väljalasetes on põhivarade jaoks kaks hindamiskontseptsiooni: väärtusmudelid ja kulumiraamatud. Rakenduse Microsoft Dynamics 365 for Operations väljaandes 1611 on väärtusmudeli ja kulumiraamatu funktsioonid ühendatud üheks kontseptsiooniks, mis on tuntud kui raamat.
+
+Uued raamatu funktsioonid põhinevad varasema väärtusmudeli funktsioonidel, kui hõlmab ka kõiki funktsioone, mis olid varasemalt antud ainult kulumiraamatutes. [![Raamat väärtusmudeli ja kulumiraamatu funktsioonide ühendamisena](./media/fixed-assets.png)](./media/fixed-assets.png) Selle ühendamise tõttu saate nüüd kasutada lehtede, päringute ja aruannete üksikut kogumit kõikide teie põhivara protsesside jaoks. Selles teemas olevates tabelites kirjeldatakse kulumiraamatute ja väärtusmudelite varasemaid funktsioone koos raamatute uute funktsioonidega.
 
 ## <a name="setup"></a>Häälestus
 Vaikimisi sisestavad raamatud nii pearaamatusse (PR) kui ka põhivara alammoodulisse. Raamatutel on uus valik **Pearaamatusse sisestamine**, mis võimaldab teil keelata PR-sse sisestamise ja sisestada ainult põhivara alammoodulisse. See funktsioon sarnaneb kulumiraamatute varasemale sisestamise käitumisele. Töölehe nimede seadistusel on uus sisestamiskiht, mille nimetus on Pole. Sisestamiskiht lisati spetsiifiliselt põhivara kannetele. Sisestamaks kandeid raamatutele, mis ei sisesta pearaamatusse, peate kasutama töölehe nime, mille sisestamiskiht on määratud valikul **Pole**.
@@ -66,5 +69,7 @@ Päringud ja aruanded toetavad kõiki raamatuid. Aruanded, mis ei ole lisatud j�
 
 ## <a name="upgrade"></a>Täiendamine
 Täiendusprotsess liigutab teie olemasoleva seadistuse ja kõik olemasolevad kanded uude raamatu struktuuri. Väärtusmudelid jäävad selliseks, nagu need praegu on ehk raamatuks, mis sisestab pearaamatusse. Siiski liigutatakse kulumiraamatud raamatusse, millel on valik **Pearaamatusse sisestamine** määratud sättele **Ei**. Kulumiraamatu töölehe nimed liigutatakse pearaamatu töölehele, mille nimel on sisestamiskiht määratud sättele **Pole**.
+
+
 
 

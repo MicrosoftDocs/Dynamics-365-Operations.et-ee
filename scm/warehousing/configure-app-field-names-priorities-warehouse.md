@@ -1,6 +1,6 @@
 ---
-title: "Konfigureerida rakendus väljanimed Warehousing appi"
-description: "Selles teemas kirjeldatakse, kuidas määratleda ja seadistada lao app välja- ja prioriteetide Dynamics 365 toiminguteks."
+title: "Rakenduse väljanimede konfigureerimine rakenduses Ladustamine"
+description: "See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 for Operationsis."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Konfigureerida rakendus väljanimed Warehousing appi
+# <a name="configure-app-field-names-in-warehousing-app"></a>Rakenduse väljanimede konfigureerimine rakenduses Ladustamine
 
-Selles teemas kirjeldatakse, kuidas määratleda ja seadistada lao app välja- ja prioriteetide Dynamics 365 toiminguteks. 
+[!include[banner](../includes/banner.md)]
 
-**Märkus:** see teema kehtib Laohaldus funktsioonid. See ei kehti varude juhtimise funktsioonid. Dynamics 365 toiminguteks - ladustamine on rakendus, mis kasutage lao toimingute sooritamiseks. Te saate määratleda ja konfigureerida väljade nimed, mida kasutatakse rakenduse ning konfigureerida kuhu väljanimed määratakse prioriteet. Selles teemas selgitatakse, kuidas määratleda ja seadistada need laost app välja- ja prioriteedid ja kuidas neid kasutatakse Dynamics 365 - ladustamine. Vaadake üksikasjalikku teavet kuidas seadistada ühendust Dynamics 365 toiminguteks - ladustamis-, juhendaja [installida ja konfigureerida Dynamics 365 toiminguteks - lao](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Seadistada lao app väljanimed
+See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 for Operationsis. 
+
+**Märkus.** See teema kehtib mooduli Laohaldus funktsioonide puhul. See ei kehti funktsioonidele moodulis Varude haldus. Dynamics 365 for Operations – Ladustamine on rakendus, mille abil saate täita laos vajalikke ülesandeid. Saate määratleda ja konfigureerida rakenduses kasutatavaid väljanimetusi, samuti konfigureerida prioriteeti, millele väljanimed tuleb määrata. See teema selgitab, kuidas neid ladustamisrakenduse väljade nimesid ja prioriteete määratleda ning konfigureerida ja kuidas neid Dynamics 365 for Operationsi moodulis Ladustamine kasutada. Üksikasjalikku teavet Dynamics 365 for Operationsi mooduli Ladustamine ühenduse konfigureerimise kohta vaadake õppetükist [Dynamics 365 for Operationsi mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md).
+
+<a name="configure-warehouse-app-field-names"></a>Laorakenduse väljade nimede konfigureerimine
 ===================================
 
-Dynamics 365 kasutamisel toiminguteks - lao mobiilsideseadmes, saate konfigureerida kuidas metaandmed kuvatakse seadme kohta on **ladu app väljanimed** lehel. Uue ettevõtte Dynamics 365 toiminguteks, valige **Loo vaikimisi seadistus** luua kõigi väljade nimesid, mida kasutatakse lao mobiilseadme töövood, ja seejärel määrake eelistatud sisestusrežiim ja sisendi tüüp neile. Pärast kõikide väljade nimed on loodud, saate valida järgmisi andmeid võimalusi.
+Kui kasutate Dynamics 365 for Operationsi moodulit Ladustamine mobiilses seadmes, saate seadmes metaandmete kuvamise viisi konfigureerida lehel **Laorakenduse väljade nimed**. Valige Dynamics 365 for Operationsi uues ettevõttes käsk **Loo vaikeseadistus**, et luua kõik väljanimed, mida kasutatakse lao mobiilse seadme töövoogudes, ning seejärel määrake neile eelistatud sisestusrežiim ja sisestustüüp. Kui kõik väljanimed on loodud, saate valida järgmisi sisestusvalikuid.
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ Dynamics 365 kasutamisel toiminguteks - lao mobiilsideseadmes, saate konfigureer
 <tbody>
 <tr class="odd">
 <td>Eelistatud sisestusrežiim</td>
-<td>See valik määrab, kas skaneerimise välja või käsitsi kande sisestamise väljale näidatakse valitud välja nimi. See on kasulik eristada väljad sõltuvalt vöötkoode kasutamisel välja. <strong>Märkus:</strong> puhul välja nimed koos eelistatud sisendrežiimi määratud <strong>skannimise</strong>, saate sisestada teabe käsitsi kui vöötkoodi on loetamatu või rikutud.</td>
+<td>See valik määratleb, kas valitud väljanime puhul kuvatakse skannimisväli või käsitsi sisestamise väli. See aitab välju eristada olenevalt sellest, kas välja puhul kasutatakse vöötkoode. <strong>Märkus.</strong> Väljanimede puhul, mille eelistatud sisestusrežiim on <strong>Skannimine</strong>, saate sisestada teavet käsitsi, kui vöötkood on loetamatu või kahjustunud.</td>
 </tr>
 <tr class="even">
 <td>Sisestuse tüüp</td>
-<td>See valik määrab, milline sisendi tüüp võib kasutada valitud välja nimi. On saadaval nelja suvandid.
+<td>See valik määratleb, millist sisestustüüpi tuleb valitud väljanime puhul kasutada. Saadaval on neli valikut.
 <ul>
-<li><strong>Valiku</strong> - sisaldab loetelu võimalusi valida. Välja nimi see suvand ei saa redigeerida.</li>
-<li><strong>Kuupäev</strong> - välja nimed nagu kuupäev kuupäevavormingu sildiga. See aitab näha sisestada kuupäeva vormingu laotöölistele. Välja nimi see suvand ei saa redigeerida.</li>
-<li><strong>Alpha</strong> - märkimisel seadme klaviatuuri kasutatakse teabe sisestamine käsitsi rakendus. Klaviatuuri kogemusi saab muuta sõltuvalt sellest, millist seadet kasutatakse.</li>
-<li><strong>Numbrilise</strong> - puhul välja nimed selle kasutamise numbriline ainult sisend, valige see suvand, et kuvada ka kohandatud numbriklahvistiku välja seadme klaviatuuri asemel.</li>
+<li><strong>Valik</strong> - sisaldab valikute loendit. Selle valikuga väljanimesid ei saa redigeerida.</li>
+<li><strong>Kuupäev</strong> - kuupäevana määratud väljanimed kuvavad kuupäevavormingut koos sildiga. Tänu sellele näevad laotöötajad, millises vormingus tuleb kuupäev sisestada. Selle valikuga väljanimesid ei saa redigeerida.</li>
+<li><strong>Tähed</strong> - selle valiku korral kasutatakse rakenduses teabe käsitsi sisestamisel seadme klaviatuuri. Klaviatuurikasutust saab muuta olenevalt kasutatavast seadmest.</li>
+<li><strong>Numbrid</strong> - selle valiku korral saate ainult numbreid kasutavate väljanimede puhul kuvada seadme klaviatuuri kasutamise asemel kohandatud numbriklahvistiku koos sisestusväljaga.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Seadistada lao app välja prioriteet
+<a name="configure-warehouse-app-field-priority"></a>Laorakenduse väljade prioriteedi konfigureerimine
 ======================================
 
-Kohta ning **ladu app välja prioriteet** leht, paned väljanimed erinevad prioriteedi gruppidesse. Seetõttu on võimalik otsustada, millist teavet tuleks kuvada lehel põhiülesanne laotöötajad ülesannete rakenduse abil. Kui klõpsate **Loo vaikimisi seadistus**, luuakse vaikimisi määratud prioriteetsed rühmad. On võimalik luua nii palju prioriteetsed rühmad vastavalt vajadusele, kuid ainult kolm prioriteetsed rühmad kuvatakse lehel ülesanne. Kui Dynamics 365 operatsioonide saadab rakenduse metaandmed, see määrata igale väljale sõltuvalt oma prioriteetne rühm suhteline prioriteet ja rakenduses kuvatakse esimese kolme Eelisrühmad sisalduvate metaandmete ülesanne lehel. Ülejäänud täis metaandmed kuvatakse teisese üksikasjade lehel. Järgmises tabelis on näiteks viis prioriteetsed rühmad.
+Lehel **Laorakenduse väljade prioriteet** saate panna väljanimed erinevatesse prioriteedigruppidesse. See võimaldab otsustada, milline teave tuleb kuvada ülesande põhilehel, kui laotöötajad täidavad ülesandeid rakendust kasutades. Kui klõpsate valikut **Loo vaikeseadistus**, luuakse prioriteedigruppide vaikekomplekt. Prioriteedigruppe saab luua nii palju kui vaja, kuid ülesandelehel kuvatakse ainult kolm. Kui Dynamics 365 for Operations saadab metaandmed rakendusse, määrab see igale väljale suhtelise prioriteedi olenevalt selle prioriteedigrupist ja rakendus kuvab ülesandelehel kolm esimest metaandmetes sisalduvat prioriteedigruppi. Ülejäänud metaandmed kuvatakse teisel, üksikasjade lehel. Järgmises tabelis on toodud näide viiest prioriteedigrupist.
 
 <table>
 <colgroup>
@@ -78,7 +81,7 @@ Kohta ning **ladu app välja prioriteet** leht, paned väljanimed erinevad prior
 </colgroup>
 <thead>
 <tr class="header">
-<th>Prioriteetne rühm</th>
+<th>Prioriteedigrupp</th>
 <th>Määratud väljad</th>
 </tr>
 </thead>
@@ -123,7 +126,7 @@ Kohta ning **ladu app välja prioriteet** leht, paned väljanimed erinevad prior
 </tbody>
 </table>
 
-Näiteks kui töötaja lao ülesannet, mobiilsideseadmesse, kui metaandmeid, mis kuvatakse rakenduse koosneb järgmistest väljadest:
+Näiteks kui laotöötaja täidab ülesannet mobiilses seadmes, sisaldavad rakenduses kuvatavad metaandmed järgmisi välju.
 
 -   Kaup
 -   Kogus
@@ -131,17 +134,19 @@ Näiteks kui töötaja lao ülesannet, mobiilsideseadmesse, kui metaandmeid, mis
 -   Kauba kirjeldus
 -   Suurus ja asukoht
 
-Vastavalt eespool esitatud tabelis seadistada lao app välja prioriteet, järgmised 3 rida teavet kuvatakse lehe ülesanne:
+Ülaltoodud tabelis seadistatud laorakenduse väljade prioriteedi põhjal kuvatakse ülesandelehel järgmised kolm teaberida.
 
--   1. rida: Kauba, koguse, toodanguühiku
--   2. rida: Kauba kirjeldus
--   Rida 3: suurus
+-   1. rida: kaup, kogus, mõõtühik
+-   2. rida: kauba kirjeldus
+-   3. rida: suurus
 
-Ülejäänud metaandmed, näiteks asukoht, ei kuvata lehel ülesanne, kuid kuvatakse üksikasjade lehel. Rohkem ja Vaata näiteid kasutajaliidese, vt ajaveeb postitage [teada Dynamics 365 toiminguteks - lao](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Ülejäänud metaandmeid, näiteks asukohta, ülesandelehel ei kuvata, kuid need kuvatakse üksikasjade lehel. Lisateabe saamiseks ja kasutajaliidese näidete vaatamiseks lugege ajaveebipostitust [Announcing Dynamics 365 for Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Installida ja konfigureerida Microsoft Dynamics 365 operatsioonideks – ladustamine](install-configure-warehousing-app.md)
+[Microsoft Dynamics 365 for Operationsi mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md)
+
+
 
 

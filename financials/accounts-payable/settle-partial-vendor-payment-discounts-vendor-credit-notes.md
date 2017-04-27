@@ -1,5 +1,5 @@
 ---
-title: Allahindlused on hankija kreeditarvete osalise hankijamakse lahendada
+title: Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine
 description: "Selles artiklis läbitakse stsenaarium, kus kreeditarve tasakaalustatakse arvega."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Allahindlused on hankija kreeditarvete osalise hankijamakse lahendada
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis läbitakse stsenaarium, kus kreeditarve tasakaalustatakse arvega.
 
 Fabrikami hankijad annavad kreeditarvetelt skontosid. Hankija 3050 võimaldab Fabrikamil võtta 1% skontot, kui arve tasutakse 14 päeva jooksul.
 
 ## <a name="invoice-and-credit-memo"></a>Arve ja kreeditarve
-29. juuni, loob aprill 1000.00 dollarit 3050 hankija arve. 2. juuli ta loob krediteerimismärgukirjaga 200.00. Lehelt **Hankijad** avab April lehe **Kannete tasakaalustamine**. Ta saab kasutada lehte **Kannete tasakaalustamine** nii kreeditarve kui ka arve tasakaalustamiseks märkimiseks. Kreeditarvelt arvestatakse allahindlust 2.00. Seega vähendatakse kreeditarve koondväärtust summani 198.00.
+29. juunil loob April hankijale 3050 arve summas 1000,00. 2. juulil loob ta kreeditarve 200,00. Lehelt **Hankijad** avab April lehe **Kannete tasakaalustamine**. Ta saab kasutada lehte **Kannete tasakaalustamine** nii kreeditarve kui ka arve tasakaalustamiseks märkimiseks. Kreeditarvelt arvestatakse allahindlust 2.00. Seega vähendatakse kreeditarve koondväärtust summani 198.00.
 
 | Märge                     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ April saab vaadata üle hankija kanded lehel **Hankija kanded**, valides hankija
 | Inv-10071  |                  | 7/2/2015  | CR10071 | 200,00                               |                                       | 0,00    | USA dollar      |
 | DISC‑10071 |  Skonto   | 7/2/2015  |         | 2.00                                 |                                       | 0,00    | USA dollar      |
 | DISC‑10071 |  Skonto   | 7/2/2015  |         |                                      | 2.00                                  | 0,00    | USA dollar      |
+
+
 
 
 

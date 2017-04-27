@@ -1,6 +1,6 @@
 ---
 title: "Eraldiste töötlemine"
-description: "Käesolevas artiklis kirjeldatakse võimalusi neid Microsoft Dynamics 365 operatsioonide ja kuidas neid kasutada eelarvete koostamisel tehtud eraldistest. Eraldamisi kasutatakse summade jaotamiseks mitme pearaamatukonto kombinatsiooni lõikes. Need aitavad tagada seda, et raamatupidamises esitatakse kulud või tulud õigele objektile."
+description: "Selles artiklis antakse teavet eraldamiste kohta, nende töötlemise võimaluste kohta Microsoft Dynamics 365 for Operationsis ja nende kasutamise kohta eelarve planeerimisel. Eraldamisi kasutatakse summade jaotamiseks mitme pearaamatukonto kombinatsiooni lõikes. Need aitavad tagada seda, et raamatupidamises esitatakse kulud või tulud õigele objektile."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -28,11 +28,11 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="process-allocations"></a>Eraldiste töötlemine
 
-Käesolevas artiklis kirjeldatakse võimalusi neid Microsoft Dynamics 365 operatsioonide ja kuidas neid kasutada eelarvete koostamisel tehtud eraldistest. Eraldamisi kasutatakse summade jaotamiseks mitme pearaamatukonto kombinatsiooni lõikes. Need aitavad tagada seda, et raamatupidamises esitatakse kulud või tulud õigele objektile.
+Selles artiklis antakse teavet eraldamiste kohta, nende töötlemise võimaluste kohta Microsoft Dynamics 365 for Operationsis ja nende kasutamise kohta eelarve planeerimisel. Eraldamisi kasutatakse summade jaotamiseks mitme pearaamatukonto kombinatsiooni lõikes. Need aitavad tagada seda, et raamatupidamises esitatakse kulud või tulud õigele objektile.
 
-Microsoft Dynamics 365 operatsioonide pakub kohanemise järgmisi võimalusi:
+Microsoft Dynamics 365 for Operations annab selle protsessi toetamiseks järgmised võimalused.
 
--   Käsitsi jaotada kande summasid kasutatakse Split raamatupidamise distributsioonid, või rakendades rahalise küljega mallsõnumite dokumenti. Lisateabe saamiseks vaadake [raamatupidamise väljamakseid.](\accounts-payable\accounting-distributions.md)
+-   Kandesummade käsitsi eraldamine, kasutades arvestuse jaotustes tükeldamise toimingut või rakendades dokumendile finantsdimensiooni vaikemalle. Lisateavet kuluarvestuse kohta vt jaotisest [Arvestuse jaotused.](\accounts-payable\accounting-distributions.md)
 -   Saate eraldada automaatselt kandesummasid eraldi põhikontol määratletud eraldustingimuste põhjal. Eraldamise konto kanded luuakse iga töölehe jaoks protsendi ja siht-pearaamatukonto põhjal, alati kui raamatupidamiskirje vastab lähte-pearaamatukontona määratletud kriteeriumidele.
 -   Saate eraldada automaatselt pearaamatu saldosid või fikseeritud summasid pearaamatu eraldamisreeglite põhjal. Pearaamatu eraldamisreegleid töödeldakse perioodiliselt, kasutades eraldamise töölehti. 
 

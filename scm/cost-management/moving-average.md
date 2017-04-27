@@ -68,14 +68,14 @@ Liikuva keskmisega määrab toote kulu ostu sissetulek. Kui pärast ostuarve sis
 3.  Looge müügitellimus kogusele 1 ühikuhinnaga 10,00.
 4.  Looge ostuarve kogusele 2 ühikuhinnaga 12,00.
 
-Erinevus ühikuhinnas (2,00) sisestatakse ostuarve sisestamisel kontole Liikuva keskmise hinnaerinevus. Selle põhjus on, et tooted osteti hinnaga 20,00. Üks toode müüdi ühikuhinnaga 10,00. Kell 12.00 2 koguse müügihinna konteeritud ostuarve. Toote müügihinda ei saa sisestada kell 14.00.
+Erinevus ühikuhinnas (2,00) sisestatakse ostuarve sisestamisel kontole Liikuva keskmise hinnaerinevus. Selle põhjus on, et tooted osteti hinnaga 20,00. Üks toode müüdi ühikuhinnaga 10,00. Ostuarve sisestati ühikuhinnaga 12.00 ja kogusega 2. Toote ühikuhinnana ei saa sisestada 14.00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Liikuva keskmise toote ja varude korrrigeerimine
 Kui teil on vaja korrigeerida toote liikuva keskmise kulu, on varude korrigeerimised lubatud alates tänasest kuupäevast. Toote liikuva keskmise korrigeerimiseks ei saa varude korrigeerimist teha tagasiulatuvalt. Kuluvoogu ei saa olla järjestikuste kannete kaudu. Selles näites korrigeeritakse toote liikuva keskmise kulu.
 1.  Valige toode, mille puhul soovite liikuva keskmise kulu korrigeerida.
-    | **Note**                                                                                    |
+    | **Märkus**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | Selle ** ümberhindamise puhul jooksva keskmise ** lehe uurib toote koguse. |
+    | Lehel **Liikuva keskmise ümberhindamine **analüüsitakse toote jaoks saadaolevaid varusid. |
 
     Valitud toote sisestatud kogus on 1, sisestatud väärtus 12,00, sisestatud ühikuhind 12,00 ja ühikuhind 12,00.
 2.  Määrake välja **Ühikuhind** väärtuseks 16,00. Süsteem arvutab ülejäänud väljad.
@@ -88,7 +88,7 @@ Kui teil on vaja korrigeerida toote liikuva keskmise kulu, on varude korrigeerim
 Lehel **Kande tasakaalustamised** näete korrektsiooni 4,00 kontol Liikuva keskmise kulu ümberarvutamine.
 
 ## <a name="moving-average-with-production"></a>Liikuv keskmine koos tootmisega
-Liikuv keskmine toetab toodetud kaupu. Kui kavatsete kasutada tootmiskeskkonnas, libisev keskmine on **kasutamise eeldatav omahind** liugurit selle ** tootmise parameetrite ** leht peaks olema laiuse. See tähendab, et tegeliku koosluse arvutuse omahinna asemel kasutatakse hindamise ajal arvutatud omahinda.
+Liikuv keskmine toetab toodetud kaupu. Kui kavatsete kasutada liikuvat keskmist tootmiskeskkonnas, tuleb valida lehel **Tootmise juhtimise parameetrid **liugur **Kasuta eeldatavat omahinda**. See tähendab, et tegeliku koosluse arvutuse omahinna asemel kasutatakse hindamise ajal arvutatud omahinda.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Liikuva keskmise tagasiulatuva kandega
 Tagasiulatuvad kanded määratakse praegusele liikuva keskmise kulule ja toote füüsilist kogust värskendatakse, kuid toote liikuva keskmise kulu see ei mõjuta. Selles liikuva keskmise näites sisestatakse liikuva keskmise toote tagasiulatuv kanne.

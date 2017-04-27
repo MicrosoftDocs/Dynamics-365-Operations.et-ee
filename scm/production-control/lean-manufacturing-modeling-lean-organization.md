@@ -1,5 +1,5 @@
 ---
-title: Modelleerimine on lahja korraldamine
+title: Efektiivse organisatsiooni modelleerimine
 description: "Artiklis antakse teavet efektiivse organisatsiooni mudeldamise põhimõistete kohta."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="modeling-a-lean-organization"></a>Modelleerimine on lahja korraldamine
+# <a name="modeling-a-lean-organization"></a>Efektiivse organisatsiooni modelleerimine
 
 Artiklis antakse teavet efektiivse organisatsiooni mudeldamise põhimõistete kohta. 
 
@@ -35,7 +35,7 @@ Lean manufacturingi stsenaarium on tavaliselt enamat kui seosetute kanban-reegli
 ## <a name="production-flows-in-lean-manufacturing"></a>Tootmisvood lean manufacturingis
 Tootmistellimustel põhinevate tootmisstsenaariumide puhul väljastatakse materjal kindlale tootmistellimusele. Kooslustel ja protsessidel põhinevate operatsioonijadade ajal luuakse tooted ja võetakse need vastu tarne asukohas. Tootmistellimuste läbilaskeaeg võib erineda ja jääda vahemikku minutitest nädalateni. Kõik seotud kulud, materjalid ja tööjõud kogutakse tootmistellimusse. Partii tootmise põhjustatud tarne täitmisaegade lühendamiseks ja laotasemete ülejääkide vähendamiseks töökeskuste vahel tutvustab lean manufacturing kanbani täiendamist ning lõppladusid tootmise ja lao täiendamisel. Tavaliselt häirivad need funktsioonid osaliselt sõltumatute kanban-tsüklite tootmist. Kanbani täiendamist pooltootele ei käivita enam lõpptoote tellimus. Microsoft Dynamics AX-i soovitatud erinevatele kanbani stsenaariumidele tootmise ja kulude konteksti taastamiseks võetakse tegevuspõhised tootmisvood kasutusse lean manufacturingi selgroona. Kõik kanban-reeglid viitavad sellele eelmääratletud struktuurile. Tegevuspõhine mudel toetab suurema hulga stsenaariumide seadistamist kui eelmised Dynamics AX-i toetatud Lean manufacturingi versioonid. Kuid see mudel ei lisa keerukust tegevtöötajatele, sest kõik stsenaariumid kasutavad sama tegevuspõhist kasutajaliidest.
 
-## <a name="semifinished-products-nonbom-levels"></a>Semifinished tooted (nonBOM tase)
+## <a name="semifinished-products-nonbom-levels"></a>Pooltooted (mitte koosluseversioonid)
 Dynamics AX-i Lean manufacturing integreerib kanbanid ühes raamistikus laotoodeteks ja pooltoodeteks ja pakub seega igal juhul ühendatud kasutajakogemust. Selle ülesehituse tõttu ei pea enam kasutama täiendavaid kooslusetasemeid, et lubada pooltoodete puhul kasutatavaid kanbane. See ülesehitus aitab ka vähendada laokandeid miinimumini.
 
 ## <a name="products-and-material-in-work-in-progress"></a>Tooted ja materjal lõpetamata toodangus
@@ -51,6 +51,6 @@ Tootmisvoo kulu perioodiline konsolideerimine parandab seotud WIP-konto ja lubab
 Pidevate paranduste paremini toetamiseks juurutatakse tootmisvoogusid ajatõhusates versioonides. Seetõttu saab olemasoleva tootmisvoo versiooni koos kõigi seotud kanban-reeglitega kopeerida tootmisvoo tulevasse versiooni. Lisaks saab tulevase oleku tootmisvoogu muuta enne selle kinnitamist ja aktiveerimist tootmiseks. Olemasolevad kanbanid vanast tootmisvoo versioonist seotakse automaatselt uue verisooniga, et tagada sujuv materjalide voog siirde kuupäeval ja edaspidi.
 
 ## <a name="simplicity"></a>Lihtsus
-Kulusäästlik töötamine Dynamics AX rakendamiseks valime tootmise voolu ja tegevuse lähenemisviisi, mis võimaldab lihtne ja keeruline peamised modelleerida ühe scalable arhitektuur. Tegevuse mõistele lähemalt paljastab uue lihtsus neile kasutajatele, kes seda vajavad: tööde ja logistika töötajad. Laokannete asemel tegevuspõhistest töödest teavitades kannab kõikide lean manufacturingi variantide ühine kasutajaliides äri keerukuse kasutajaliidesest üle sinna, kuhu see kuulub: tootmisvoog lean manufacturingi selgroona.
+Lean manufacturingi juurutamisel Microsoft Dynamics AX-is valime tootmisvoo ja tegevuse lähenemise, mis võimaldab lihtsate ja keeruliste tootmisstsenaariumite modelleerimist ühes skaleeritavas arhitektuuris. Tegevuse kontseptsiooni lähem vaatlus paljastab uue lihtsuse neile, kes seda tõesti vajavad: tööde juhtijatele ja logistikatöötajatele. Laokannete asemel tegevuspõhistest töödest teavitades kannab kõikide lean manufacturingi variantide ühine kasutajaliides äri keerukuse kasutajaliidesest üle sinna, kuhu see kuulub: tootmisvoog lean manufacturingi selgroona.
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-payments-for-a-partial-amount"></a>Kliendi osalises summas maksed
 
+[!include[banner](../includes/banner.md)]
+
+
 Mõnikord teevad kliendid makse, mis on arve summast väiksem. See artikkel kirjeldab mitmesuguseid valikuid selle olukorra käsitlemiseks. Teile saadaolevad valikud sõltuvad teie ärivajadustest ja konfiguratsioonist.
 
 <a name="partial-payment-with-no-discount"></a>Allahindluseta osalised maksed
@@ -38,12 +41,12 @@ Kliendid võivad teha osalise makse, sest neil ei pruugi olla kogu arve maksmise
 Saate pakkuda klientidele enne tähtaegselt tasutud arve puhul skontot. Näiteks sisestate arve summas 100,00, millel on määratud skonto 2%, kui arve tasutakse 10 päeva jooksul. Tähtaeg on 30 päeva. Kui saate makse 98,00 10 päeva jooksul, sisestate makse 98,00. Kui arve on tasakaalustamiseks märgitud, võetakse skonto automaatselt.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Osalised maksed skontodega
-Osalise makse tegemisel kavatsevad kliendid ilmselt teha täiendava osamakse arve täielikuks tasakaalustamiseks. Võtta osaliselt skonto, peate seadma selle ** osalise makse skonto arvutamiseks ** võimalus **Jah** kohta on **Müügireskontro parameetrid** lehel. 
+Osalise makse tegemisel kavatsevad kliendid ilmselt teha täiendava osamakse arve täielikuks tasakaalustamiseks. Osamakse puhul skonto kasutamiseks seadke lehel **Müügireskontro parameetrid** valiku **Arvuta skontod osaliste maksete jaoks** sätteks **Jah**. 
 
 Näiteks pakute 2% skontot, kui arve tasutakse kümne päeva jooksul pärast selle väljastamist. Arve summas 100,00 on sisestatud. Kui saate makse 49,00 10 päeva jooksul, sisestate krediidi 49,00 maksetöölehele. Kui tasakaalustate osalise makse lehel **Kannete tasakaalustamine**, ilmub **1,00** väljale **Skonto summa võtmiseks**. Allahindluse summa sisestatakse skontokontole. 
 
 > [!NOTE] 
-> Kui sisestate osaliselt ja jätta kogu arve summa on **summa lahendada** välja, on **skonto summa võtta** välja automaatselt ümber, kui kandeid sisestada.
+> . Kui sisestate osalise makse ja jätate täieliku arve summa väljale **Tasakaalustatav summa**, arvutatakse väli **Skonto summa võtmiseks** automaatselt ümber, kui kanded sisestate.
 
 ## <a name="credit-notes-with-discounts"></a>Allahindlustega kreeditarved
 Kui kliendid tagastavad osa arvel olevatest kaupadest, võite väljastada kreeditarve. Kui skonto võeti algselt arvelt, peab kliendi krediiditeatis olema kliendi võetud skonto netosumma. Kui lehe **Müügireskontro parameetrid** jaotise **Arvuta skontod kreeditarvete jaoks** suvandi väärtuseks on seatud **Jah**, arvutatakse kreeditarve jaoks automaatselt allahindlus. 
@@ -54,6 +57,8 @@ Näiteks pakkusite maksetingimusi, mis määravad 2% skontot, kui arve tasutakse
 Kui kliendid teevad makse, võib olla väga väike summa, mis tuleb tasakaalustada. Näiteks esitate kliendile arve 1000,00 ja klient maksab 999,90. Kui järelejäänud summa on väiksem kui summa, mis on määratud üle- või alamaksete puhul lehel **Müügireskontro parameetrid**, sisestatakse erinevus automaatselt üle-/alamakse pearaamatukontole.
 
 ## <a name="full-settlement"></a>Täielik tasakaalustamine
-Hotelli võib teha osalise makse kui jääksummat ei maksta, kuid on määratud alamakse summa üle ning **moodustavad Ostureskontro parameetrid** lehel. Kui soovite märkida arve nagu täielikult tasakaalustatud, saate selle **täielik lahendamise** ostuoptsiooni on **kande tasakaalustamiseks** lehel. (Saate lubada täieliku tasakaalustamise funktsiooni, kasutades konfiguratsioonivõtit.) Näiteks sisestatakse arve summas 1000,00 ja klient maksab 990,00. Olete nõustunud, et klient ei ole maksta ülejäänud 10.00. Pärast arve tasakaalustamiseks, võite need märkida valige **lahendamise täis**. Arvet käsitletakse siis täielikult tasakaalustatuna. Erinevus 10,00 sisestatakse skonto kontole täiendava skonto summana.
+Kliendid võivad teha osalise makse, mille puhul järelejäänud summat ei maksta, kuid mis on suurem kui alamakse summa, mis on määratud lehel **Ostureskontro parameetrid**. Kui soovite märkida arve täielikult tasakaalustatuks, kasutage valikut **Täielik tasakaalustamine** lehel **Kannete tasakaalustamine**. (Saate lubada täieliku tasakaalustamise funktsiooni, kasutades konfiguratsioonivõtit.) Näiteks sisestatakse arve summas 1000,00 ja klient maksab 990,00. Olete kokku leppinud, et klient ei pea maksma järelejäänud summat 10,00. Pärast tasakaalustatava arve märkimist saate märkida ka valiku **Täielik tasakaalustamine**. Arvet käsitletakse siis täielikult tasakaalustatuna. Erinevus 10,00 sisestatakse skonto kontole täiendava skonto summana.
+
+
 
 

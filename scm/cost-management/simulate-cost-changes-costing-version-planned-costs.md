@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Kulumuudatuste simuleerimine planeeritud kulude kuluversiooni kasutades
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse, kuidas saab kulumuudatuste mõjusid toodetud kauba arvutatud kuludele simuleerida eraldi kuluversiooniga planeeritud kuludele.
 
 Kulumuudatuste mõjusid toodetud kauba arvutatud kuludele saab simuleerida eraldi kuluversiooniga planeeritud kuludele. Kasutage eraldi kuluversiooni astmelisi kulumuudatusi kajastavate ootel kulukirjete sisestamiseks ja kulu mõju arvutamiseks toodetavatele kaupadele. Kuna koosluse arvutustes kasutatakse aktiivsete kulude taande põhimõtet, tuleb sisestada ainult astmelised kulumuudatused.
@@ -54,5 +57,7 @@ Järgmised stsenaariumid illustreerivad kuluversiooni simulatsiooni kasutamist, 
 -   Simuleerige kulu muutumist kaudse kulu kalkulatsiooni valemis. Näiteks võib kulumuudatus kajastada tootmise üldkulude eeldatavat kasvu või kahanemist. Muutuse määramiseks kaudse kulu kalkulatsiooni valemis kasutage lehte **Kuluarvestuse lehe seadistus**, et sisestada kuluversiooni simulatsioonis olev ootel kulukirje ning kontrollida ja salvestada muudatus.
 
 Pärast kulumuudatuste simulatsiooni sisestamist arvutage toodetavate kaupade kulud, mida kulumuudatused mõjutavad. Kasutage kuluversiooni simulatsiooni jaoks lehte **Kalkulatsioon** ja määrake valitud toodetud kaubad, mida kulumuudatused mõjutavad. Koosluse arvutusi rakendatakse kõigi toodetavate kaupade puhul, v.a juhul, kuivalite kindlad kaubad. Teise võimalusena saate koosluse kalkulatsiooni valikut kasutada kasutuskoha värskenduste jaoks. Vaadake kuluversiooni simulatsioonis olevaid kauba kulukirjeid, et analüüsida, kuidas simuleeritud kulumuudatused valitud toodetavate kaupade kulusid mõjutasid. Kasutage kulude vaatamiseks ja analüüsimiseks lehte **Kauba hind** ja lehte **Kauba kulu arvutamine**.
+
+
 
 

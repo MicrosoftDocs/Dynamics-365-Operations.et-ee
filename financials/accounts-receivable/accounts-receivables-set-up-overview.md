@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Moodulite Müügireskontro ja Krediit ja võlanõuded konfigureerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 Konfigureerige Müügireskontro ning Krediit ja võlanõuded, et jälgida klientide arveid ja laekumisi.
 
 Saate seadistada kliendigruppe, kliente, sisestusreegleid, erinevaid maksevalikuid, viivisearveid, märgukirju, komisjonitasusid, klientide parameetreid, tasusid, tarneid ja sihtkohti, käskveksleid ning teisi moodulite Müügireskontro ja Krediit ja võlanõuded teabe tüüpe.
@@ -98,14 +101,16 @@ Järgmises tabelis on loetletud lehed, mis toetavad moodulite Müügireskontro j
 |                                                      | Kliendi kontaktid ja meilisätted | Saate seadistada klientide kontaktisikuid koos nende meiliaadressidega. Need aadressid kuvatakse sissenõuete lehel neid kasutatakse klientidele saadetavate meilide loomiseks. Saate seadistada ka sissenõuete vaikekontakti igale kliendile, kes lehel Sissenõuded esimesena kuvatakse. |
 |                                                      | Kliendikaustad                       | Seadistage kliendikaustad, mis on päringud, mis määravad kliendikontode grupi, mida saab sissenõuete või aegumisprotsesside jaoks kuvada ja hallata.                                                                                                                           |
 |                                                      | Kliendi sisestusreeglid             | Seadistage profiilid, mis kontrollivad kliendikannete sisestamist pearaamatusse.                                                                                                                                                                                      |
-|                                                      | Kliendi põhjusekoodid                | Saate seadistada kliendi põhjuste tähised.                                                                                                                                                                                                                                                    |
-|                                                      | Kliendi mahakandmine põhjusetähiste      | I kliendi mahakandmine põhjust mahakandmine tehinguteks kasutab.                                                                                                                                                                                             |
+|                                                      | Kliendi põhjusekoodid                | Saate seadistada klientide põhjusekoodid.                                                                                                                                                                                                                                                    |
+|                                                      | Kliendi mahakandmise põhjuse koodid.      | Saate seadistada klientide põhjusekoodid, mida mahakandmiskannete puhul kasutatakse.                                                                                                                                                                                             |
 |                                                      | Vormi seadistus                           | Määratlege pakkumiste, kinnituste, komplekteerimislehtede, saatelehtede, kliendiarvete, vabas vormis arvete ja viivisearvete vormimärkuste parameetrid.                                                                                                                               |
 |                                                      | Viivis                             | Seadistage ja hallake intresside koode.                                                                                                                                                                                                                                                 |
-|                                                      | NSF teavet.                     | Saate seadistada pangakontole NSF-teabe, mida kasutatakse siis, kui makse on märgitud sissenõuete lehel NSF-kandena.                                                                                                                                              |
+|                                                      | NSF-teave.                     | Saate seadistada pangakontole NSF-teabe, mida kasutatakse siis, kui makse on märgitud sissenõuete lehel NSF-kandena.                                                                                                                                              |
 |                                                      | Müügiesindaja teave              | Saate seadistada müügiesindajate meiliaadressi. Aadressid kuvatakse sissenõuete lehel ja saate neid kasutada sellelt lehelt müügiesindajale meili saatmiseks.                                                                                                                |
 
  
-Lisateabe saamiseks vaadake [krediidi- ja kogud mooduli Müügireskontro](collections-credit-accounts-receivable.md).
+Lisateavet vt teemast [Krediit ja võlanõuded moodulis Müügireskontro](collections-credit-accounts-receivable.md).
+
+
 
 

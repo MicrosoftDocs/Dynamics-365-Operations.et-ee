@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delivery-schedules"></a>Tarnegraafikud
 
+[!include[banner](../includes/banner.md)]
+
+
 Tarnegraafikute abil saate jälgida tellimuse rea kogust, kui kasutate ühe müügitellimuse, müügipakkumise või ostutellimuse puhul mitut tarnet.
 
-Kasutada tellimuse- või rea kogus tuleb esitada mitme partiide tarnimise ajakava. Üksikute saadetiste kohaletoimetamise read esindavad. Kaks või enam tarnerida moodustavad ühe tarnegraafiku. Tarneridadel võivad olla erinevad tarnekuupäevad, kogused, tarneviisid ja laoala dimensioonid, nagu tegevuskoht ja ladu.  
+Kasutage tarnegraafikuid, kui tellimuse- või pakkumiserea täielik kogus tuleb tarnida mitme saadetisena. Üksikud saadetised esitatakse tarneridadena. Kaks või enam tarnerida moodustavad ühe tarnegraafiku. Tarneridadel võivad olla erinevad tarnekuupäevad, kogused, tarneviisid ja laoala dimensioonid, nagu tegevuskoht ja ladu.  
 
 **Tarnegraafiku rea näide**
 
@@ -42,7 +45,7 @@ Kasutada tellimuse- või rea kogus tuleb esitada mitme partiide tarnimise ajakav
 
 Selle stsenaariumi korral taotleb klient 600 tooli tarnet 100-tooliste partiidena kuue kuu jooksul. Tarnenõuete jälgimiseks loote te tarnegraafiku. Tarnegraafiku lehel loote kuus eraldi tarnerida. Iga tarnerida sisaldab 100 tooli ja näitab nende 100 tooli tarnekuupäeva. Sellisel juhul tasakaalustatakse iga rida kuue järjestikuse kuu esimesel kuupäeval.  
 
-Tarnegraafiku loomisel muutub algse tellimusrea tüübiks automaatselt **Mitme tarnega tellimuserida**. Seda tüüpi rida nimetatakse äriandmete reaks ja see on tähistatud ikooniga. Tarnerida on tähistatud teistsuguse ikooniga. Tarne Real koguse muutmisel kaubandusliku uuendamisel koguhulga tarnegraafik. Kui on sõlmitud on määratletud tellimuse Lõppallahindlus, tarnimise ajakava tagab tellimuse saamise tellimuse Lõppallahindlus, isegi siis, kui tellimus on jaotatud eri tarned.  
+Tarnegraafiku loomisel muutub algse tellimusrea tüübiks automaatselt **Mitme tarnega tellimuserida**. Seda tüüpi rida nimetatakse äriandmete reaks ja see on tähistatud ikooniga. Tarnerida on tähistatud teistsuguse ikooniga. Tarnerea koguse muutmisel värskendatakse äriandmete rida tarnegraafiku lõplikule kogusele. Kui kaubandusleppes on määratletud tellimuse lõplik allahindlus, tagab tarnegraafik, et teie tellimus on sobilik tellimuse lõplikule allahindlusele, isegi kui tellimus on jaotatud eraldi tarneteks.  
 
 Tarnegraafikuga tellimusi töödeldakse tarneridade järgi. Töötlemine hõlmab saatelehtede sisestamist, toote sissetulekuid ja arveldamist.  
 
@@ -53,5 +56,7 @@ Tarnegraafikuga tellimuste ja pakkumiste trükitud dokumentidel kuvatakse ainult
 -   Loendi lehekülgede ja aruannete sirvimine
 
 Müügipakkumiste kinnitamisel kuvatakse tulemuseks saadavatel müügitellimustel kogu tarnegraafik, sh ka mitme tarnega tellimuseread. Samuti kuvatakse kogu tarnegraafik kõigil põhilehtedel, nagu müügitellimused, müügipakkumised ja ostutellimused.
+
+
 
 

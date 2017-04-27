@@ -1,6 +1,6 @@
 ---
 title: Koondplaanid
-description: "Erinevaid koondplaane ettevõtte igapäevaste tööoperatsioonide toetamiseks, simuleerida erinevaid mis jälgitava strateegiad ja firma poliitika, nagu sisemine jõudluse või kliendi rahulolu poliitika elluviimiseks."
+description: "Ettevõtte igapäevaste tööoperatsioonide toetamiseks, erinevate jälgimist vajavate planeerimisstrateegiate simuleerimiseks ja ettevõtte eeskirjade juurutamiseks (nt sisetegevuse puhul ja kliendi rahulolu saavutamiseks) saate kasutada erinevaid koondplaane."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Koondplaanid
 
-Erinevaid koondplaane ettevõtte igapäevaste tööoperatsioonide toetamiseks, simuleerida erinevaid mis jälgitava strateegiad ja firma poliitika, nagu sisemine jõudluse või kliendi rahulolu poliitika elluviimiseks. 
+[!include[banner](../includes/banner.md)]
+
+
+Ettevõtte igapäevaste tööoperatsioonide toetamiseks, erinevate jälgimist vajavate planeerimisstrateegiate simuleerimiseks ja ettevõtte eeskirjade juurutamiseks (nt sisetegevuse puhul ja kliendi rahulolu saavutamiseks) saate kasutada erinevaid koondplaane. 
 
 Koondplaane saate konfigureerida lehel **Koondplaanid**.
 
@@ -50,8 +53,10 @@ Alustava dünaamilise plaani saate seadistada ka nii, et seda värskendatakse ko
 
 [Laovarude sätted](coverage-settings.md)
 
-[Eraldades, taktikaline ja operatiivne kavandamine Koondplaneerimine](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+[Taktikalise ja operatiivse plaanimise eraldamine koondplaanimisel](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Koondplaneerimise: Staatiline ja dünaamiline koondplaan või üks plaan?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Koondplaanimine: kas kasutada staatilist ja dünaamilist koondplaani või kasutada ühte plaani?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

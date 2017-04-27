@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Kulumimeetodid ja kulumiarvestusreeglid
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel annab ülevaate Microsoft Dynamics AX-is toetatud kulumiarvestusreeglitest ja -meetoditest.
 
 Saate valida mitmesuguste kulumimeetodite ja kulumiarvestusreeglite hulgast. Meetodi eesmärk on põhivara amortiseeruva väärtuse jaotamine rahandusperioodidele. Põhivara amortiseeruv väärtus on mahakandmismaksumuse võrra (kui see on kasutusel) vähendatud soetamismaksumus. 
@@ -66,26 +69,27 @@ Saate valida järgmiste kulumimeetodite hulgast.
 <a name="see-also"></a>Vt ka
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Põhivara kulum](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Kasuliku eluea lineaarne kulum](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Väheneva saldoga kulum](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Käsitsi kulumiarvestus](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Kulumiarvestus kordaja alusel](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Tarbimise kulum](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Allesjäänud eluea lineaarne kulum](straight-line-life-remaining-depreciation.md)
 
-[125% väheneva saldoga kulum](125-percent-reducing-balance-depreciation.md)
+[125 protsenti väheneva saldoga kulum](125-percent-reducing-balance-depreciation.md)
 
-[150% väheneva saldoga kulum](150-percent-reducing-balance-depreciation.md)
+[150 protsenti väheneva saldoga kulum](150-percent-reducing-balance-depreciation.md)
 
-[175% väheneva saldoga kulum](175-percent-reducing-balance-depreciation.md)
+[175 protsenti väheneva saldoga kulum](175-percent-reducing-balance-depreciation.md)
 
-[200% väheneva saldoga kulum](200-percent-reducing-balance-depreciation.md)
+[200 protsenti väheneva saldoga kulum](200-percent-reducing-balance-depreciation.md)
+
 
 

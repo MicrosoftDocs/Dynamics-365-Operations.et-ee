@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Müük ja turundus
 
+[!include[banner](../includes/banner.md)]
+
+
 Müügi ja turunduse abil saate müügivoos hankida, talletada ja kasutada mitmesuguseid andmeid. Andmed hõlmavad algset müügialgatust, tulevasi järeltegevusi ja lisamüüki.
 
 <a name="marketing"></a>Turundus
 ---------
 
-Saate kasutada turunduskampaaniaid ja tegevusi potentsiaalsete klientide leidmiseks ja nendega seoste loomiseks, et algsest suhtlusest saaksid kujuneda müügisuhted. Järgmine protsessivoog näitab turunduse äriprotsessi. [![Äriprotsessi turustamiseks](./media/marketing01.jpg)](./media/marketing01.jpg)
+Saate kasutada turunduskampaaniaid ja tegevusi potentsiaalsete klientide leidmiseks ja nendega seoste loomiseks, et algsest suhtlusest saaksid kujuneda müügisuhted. Järgmine protsessivoog näitab turunduse äriprotsessi. [![Turunduse äriprotsess](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Seosed
 
@@ -39,10 +42,10 @@ Müügis ja turunduses võib algne suhtlus potentsiaalsete klientidega leida ase
 
 ### <a name="campaigns"></a>Kampaaniad
 
-Kampaania on suunatud potentsiaalsete klientide, müügivihjete, müügivõimaluste ja klientide kontaktidele, mis on valitud kampaanias osalema. Microsoft Dynamics 365 toiminguteks, saate luua mitut tüüpi kampaaniaid, nagu telemarketingi, posti ja e-posti kampaaniad, et maksimeerida teie potentsiaalne klient. Kui saate kampaania käigus positiivseid vastuseid, saate alustada müügiprotsessi nende saajatega, kes on kampaaniale positiivselt vastanud.
+Kampaania on suunatud potentsiaalsete klientide, müügivihjete, müügivõimaluste ja klientide kontaktidele, mis on valitud kampaanias osalema. Microsoft Dynamics 365 for Operationsis saate luua mitut tüüpi kampaaniaid (nt telemarketingi-, posti- ja meilikampaaniaid), et maksimeerida kliendipotentsiaali. Kui saate kampaania käigus positiivseid vastuseid, saate alustada müügiprotsessi nende saajatega, kes on kampaaniale positiivselt vastanud.
 
 ## <a name="sales"></a>Müük
-Müügifunktsiooni abil saab koostada hinnapakkumisi, teha ülesmüüki ja ristmüüki uutele ja olemasolevatele klientidele, koostada müügitellimusi ja koostada klientidele müügiarveid. Järgmine protsessivoog näitab müügi äriprotsessi. [![Äriprotsessi müügi](./media/sales01.jpg)](./media/sales01.jpg)
+Müügifunktsiooni abil saab koostada hinnapakkumisi, teha ülesmüüki ja ristmüüki uutele ja olemasolevatele klientidele, koostada müügitellimusi ja koostada klientidele müügiarveid. Järgmine protsessivoog näitab müügi äriprotsessi. [![Müügi äriprotsess](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Müügipakkumised
 
@@ -50,7 +53,7 @@ Koostate müügipakkumisi klientidele pakutavate kaupade või teenuste pakkumise
 
 ### <a name="up-sellcross-sell"></a>Ülesmüük/kaasmüük
 
-Ülesmüük ja ristmüük on tehnikad toodete müügiks kliendi tellimuse sisestamisel. Ülesmüügi korral soovitatakse olemasoleva toote asemel teist toodet. Ristmüügi korral soovitatakse mõnda toodet lisaks olemasolevale tootele. Toodete nimekirja seadistamisel saate luua erieeskirju, mis näitavad, millal toode tuleks teha ettepanek ristsaastumise müüa või up-müüa toode.
+Ülesmüük ja ristmüük on tehnikad toodete müügiks kliendi tellimuse sisestamisel. Ülesmüügi korral soovitatakse olemasoleva toote asemel teist toodet. Ristmüügi korral soovitatakse mõnda toodet lisaks olemasolevale tootele. Tooteloendite seadistamisel saate luua konkreetseid reegleid näitamiseks, millal tuleks soovitada rist- või ülesmüügi toodet.
 
 ### <a name="sales-orders"></a>Müügitellimused
 
@@ -117,5 +120,7 @@ Vabas vormis arve on arve, mis ei ole seotud müügitellimusega. See sisaldab te
 #### <a name="pro-forma-invoice"></a>Esialgne arve
 
 Esialgne arve on arve, mis on vormistatud hinnangulise arvesummaga enne arve sisestamist. Saate printida esialgse arve nii kliendiarve kui ka vabas vormis arve kohta.
+
+
 
 

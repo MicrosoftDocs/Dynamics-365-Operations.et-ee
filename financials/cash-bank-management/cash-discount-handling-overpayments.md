@@ -1,5 +1,5 @@
 ---
-title: "Käitlemise üle skonto"
+title: "Skonto töötlemine ülemaksete korral"
 description: "Selles artiklis on stsenaariumid, mis nöitavad, kuidas makset käsitletakse, kui klient võtab skonto, kuid maksab üle."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Käitlemise üle skonto
+# <a name="handling-cash-discounts-for-overpayments"></a>Skonto töötlemine ülemaksete korral
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis on stsenaariumid, mis nöitavad, kuidas makset käsitletakse, kui klient võtab skonto, kuid maksab üle. 
 
@@ -133,6 +136,8 @@ Skonto summat 10,50 vähendatakse 10,00-ni. Makse ja arve loetakse tasakaalustat
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Skonto (väli **Kliendi allahindluste põhikonto** lehel **Skontod**) | 10,50        |               |
 | Müügireskontro                                                                              |              | 10,50         |
+
+
 
 
 

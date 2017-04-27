@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Põhivara likvideerimise sisestuskontod
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse, kuidas seadistada pearaamatu sisestuskontosid varade likvideerimiseks.
 
 Pearaamatusse tehtavate sisestuste seadistamiseks valige lehe Põhivara sisestusreeglid kiirkaardil Pearaamatukontod suvandid Likvideerimine – müük ja Likvideerimine – praak.
@@ -37,6 +40,8 @@ Mõlemat tüüpi kannete puhul toimub pearaamatukonto krediteerimine põhivara l
 Klõpsake suvandit Likvideerimine ja siis suvandit Müük või Praak, seejärel seadistage üksikasjalikud kontod põhivara raamatupidamisliku jääkväärtuse tühistamiseks. Samuti saate sisestada teabe lehe Likvideerimisparameetrid väljadele Järelväärtus ja Müügiväärtuse tüüp. 
 
 Väikese väärtusega vahendite kaustas vähendab põhivara likvideerimiskanne väikese väärtusega vahendite kausta raamatupidamislikku jääkväärtust ainult kasutatud summa võrra. Kuid kui vara müük ületab väikese väärtusega vahendite kausta raamatupidamisliku jääkväärtuse, väheneb raamatupidamislik jääkväärtus nullini.
+
+
 
 
 

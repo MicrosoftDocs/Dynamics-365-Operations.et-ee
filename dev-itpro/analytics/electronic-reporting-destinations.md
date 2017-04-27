@@ -27,79 +27,82 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="electronic-reporting-destinations"></a>Elektroonilise aruandluse sihtkohad
 
+[!include[banner](../includes/banner.md)]
+
+
 Saate konfigureerida sihtkoha igale elektroonilise aruandluse (ER) vormingu konfiguratsioonile ja selle väljundi komponendile (kaust või fail). Kasutajad, kellele on antud sobilikud juurdepääsuõigused, võivad sihtkoha sätteid ka käitusajal muuta. Selles artiklis selgitatakse ER-i sihtkoha haldust, toetatud sihtkohtade tüüpe ja turbekaalutlusi.
 
-Elektroonilise aruandluse (ER) vormingu konfiguratsioonid sisaldavad tavaliselt vähemalt ühte väljundkomponenti: faili. Tavaliselt sisaldavad konfiguratsioonid mitut erinevat tüüpi faili väljundkomponenti (nt XML, TXT või XLSX), mis on rühmitatud ühte või mitmesse kausta. ER-i sihtkoha haldus võimaldab eelkonfigureerida, mis iga komponendi käitamisel toimub. Vaikimisi konfiguratsioon käivitamisel kuvatakse dialoogiboks mis võimaldab kasutajal salvestada või avada faili. Sama toimub ka siis, kui importida ER-i konfiguratsioon ja mitte konfigureerida sellele ühtegi konkreetset sihtkohta. Pärast peamisele väljundkomponendile sihtkoha loomist alistab see sihtkoht vaikekäitumise ja kaust või fail saadetakse sihtkoha sätete kohaselt.
+Elektroonilise aruandluse (ER) vormingu konfiguratsioonid sisaldavad tavaliselt vähemalt ühte väljundkomponenti: faili. Tavaliselt sisaldavad konfiguratsioonid mitut erinevat tüüpi faili väljundkomponenti (nt XML, TXT või XLSX), mis on rühmitatud ühte või mitmesse kausta. ER-i sihtkoha haldus võimaldab eelkonfigureerida, mis iga komponendi käitamisel toimub. Vaikimisi kuvatakse konfiguratsiooni käivitamisel dialoogiboks, mis võimaldab kasutajal faili salvestada või avada. Sama toimub ka siis, kui importida ER-i konfiguratsioon ja mitte konfigureerida sellele ühtegi konkreetset sihtkohta. Pärast peamisele väljundkomponendile sihtkoha loomist alistab see sihtkoht vaikekäitumise ja kaust või fail saadetakse sihtkoha sätete kohaselt.
 
 ## <a name="availability-and-general-prerequisites"></a>Kättesaadavus ja üldised eeltingimused
-ER sihtkohta funktsioonid pole saadaval Microsoft Dynamics 365 lubamise toimingute 7.0 (veebruar 2016). Seetõttu peate installima Microsoft Dynamics 365 operatsioonide (November 2016 release) kasutada kõiki funktsioone, mida on kirjeldatud selles teemas. Teise võimalusena saab paigaldada üks järgmised eeltingimused. Siiski tuleb nende asemel pakkuda piiratud ER sihtkoha kogemus.
+Elektroonilise aruandluse sihtkohtade funktsioon ei ole saadaval Microsoft Dynamics 365 for Operationsi versioonis 7.0 (veebruar 2016). Seetõttu peate kõigi selles teemas kirjeldatud funktsioonide kasutamiseks installima Microsoft Dynamics 365 for Operationsi (2016. aasta novembri väljalase). Teine võimalus on installida üks järgmistest eeltingimustest. Võtke siiski arvesse, et sellisel juhul on elektroonilise aruandluse sihtkohtade funktsionaalsus piiratud.
 
--   Microsoft Dynamics 365 toimingute rakenduse versioon 7.0.1 (mai 2016)
+-   Rakenduse Microsoft Dynamics 365 for Operations versioon 7.0.1 (mai 2016)
 -   ER-i sihtkoha halduse [rakenduse kiirparandus](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Võite seadistada sihtkohad ainult imporditud ER-i konfiguratsioonidele ja vormingutele, mis on saadaval lehel **Elektroonilise aruandluse konfiguratsioonid**.
 
 ## <a name="overview"></a>Ülevaade
-ER sihtkoha juhtimine funktsioonid on saadaval **organisatsiooni haldamine**&gt;**elektrooniline**. Siin saab alistada konfiguratsiooni vaikekäitumise. Imporditud konfiguratsioone ei kuvata siin enne, kui klõpsate valikut **Uus** ja valite siis väljal **Viide** konfiguratsiooni, millele sihtkoha sätted luua.
+Elektroonilise aruandluse sihtkohahalduse funktsioon on saadaval jaotises **Organisatsiooni haldus** &gt; **Elektrooniline aruandlus**. Siin saab alistada konfiguratsiooni vaikekäitumise. Imporditud konfiguratsioone ei kuvata siin enne, kui klõpsate valikut **Uus** ja valite siis väljal **Viide** konfiguratsiooni, millele sihtkoha sätted luua.
 
-[![Valige konfiguratsioon väljal viide](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg) 
+[![Konfiguratsiooni valimine väljal Viide](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg) 
 
-Pärast viite loomist saate luua faili sihtkohta iga kausta või faili. 
+Kui olete viite loonud, saate luua igale kaustale või failile failisihtkoha. 
 
-[![Luua faili sihtkohta](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
+[![Failisihtkoha loomine](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Märkus.** Saate luua ühe faili sihtkoha igale sama vormingu väljundkomponendile (kaustale või failile), mis on valitud väljal **Faili nimi**. Saab siis lubada ja keelata üksikute sihtkohta faili sihtkohta ning **sihtkoha seaded** dialoogiboksis. Nuppu **Sätted** kasutatakse valitud faili sihtkohtade juhtimiseks. Dialoogiboksis **Sihtkoha sätted** saate iga sihtkohta eraldi juhtida, tehes sellele valiku **Lubatud**.
+**Märkus.** Saate luua ühe faili sihtkoha igale sama vormingu väljundkomponendile (kaustale või failile), mis on valitud väljal **Faili nimi**. Seejärel saate lubada ja keelata failisihtkohti eraldi dialoogiboksis **Sihtkoha sätted**. Nuppu **Sätted** kasutatakse valitud faili sihtkohtade juhtimiseks. Dialoogiboksis **Sihtkoha sätted** saate iga sihtkohta eraldi juhtida, tehes sellele valiku **Lubatud**.
 
-[![Sihtkoha sätete dialoogiboksi](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
+[![Dialoogiboks Sihtkoha sätted](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
 ## <a name="destination-types"></a>Sihtkoha tüübid
 Toetatakse mitmesugust tüüpi sihtkohti. Saate keelata või lubada kõik tüübid üheaegselt. Sel viisil võite mitte midagi teha või saata komponendi kõigisse konfigureeritud sihtkohtadesse. Järgmised jaotised kirjeldavad toetatud sihtkohti.
 
 ### <a name="email-destination"></a>Meili sihtkoht
 
-Määrake valiku **Lubatud **väärtuseks **Jah** väljundfaili saatmiseks meiliga. Pärast seda, kui see on lubatud, saate määrata adressaadile e-posti ja redigeerige sõnumi teemat ja keha e-kirja. Seadistage pidev tekstid, e-kirja teemat ja keha või ER valemeid saate kasutada dünaamiliselt luua e-posti tekstid. Saate konfigureerida e-posti aadressid ER kahel viisil. Konfiguratsiooni saab valmis Dynamics 365 operatsioonide Print halduse funktsioon lõpetab see samamoodi. Teise võimalusena saate e-posti aadressi lahendamiseks kasutada ER konfiguratsiooni kaudu valemi otseviitega.
+Määrake valiku **Lubatud **väärtuseks **Jah** väljundfaili saatmiseks meiliga. Kui see valik on lubatud, saate määrata meili adressaadid ning redigeerida meilisõnumi teemat ja kehateksti. Saate seadistada meilide teema ja kehateksti jaoks püsiteksti või kasutada meilitekstide loomiseks elektroonilise aruandluse valemeid. Elektroonilise aruandluse meiliaadresside konfigureerimiseks on kaks võimalust. Konfiguratsiooni saab lõpule viia samamoodi, nagu prindihalduse funktsiooni puhul teenuses rakenduses Dynamics 365 for Operations. Teine võimalus on lahendada meiliaadress otseviitega elektroonilisele aruandlusele valemi kaudu.
 
-### <a name="email-address-types"></a>E-posti aadressi tüübid
+### <a name="email-address-types"></a>Meiliaadressi tüübid
 
-Kui klõpsate **muuta** jaoks on **et** või **koopia** välja, on **e-** dialoogiboks. Seejärel saate meiliaadressi kasutada tüüpi.
+Kui klõpsate valikut **Redigeeri** välja **Saaja** või **Koopia** puhul, kuvatakse dialoogiboks **Meili saaja**. Seejärel saate valida kasutatava meiliaadressi tüübi.
 
-[![Dialoogiboksis e-posti](./media/ger-destinations-email-1-1611-1024x588.jpg)](./media/ger-destinations-email-1-1611.jpg)
+[![Dialoogiboks Meili saaja](./media/ger-destinations-email-1-1611-1024x588.jpg)](./media/ger-destinations-email-1-1611.jpg)
 
 #### <a name="print-management"></a>Prindihaldus
 
-Kui valite selle **prindihalduse e-posti** liik, saate sisestada fikseeritud meiliaadressid on **et** välja. E-posti aadressid, mis ei ole määratud kasutamiseks valige e-posti allika liik faili sihtkohta. Toetatakse järgmisi väärtusi: **kliendi**, **hankija**, **väljavaade**, **kontakt**, **konkurent**, **töötaja**, **taotleja**, **tulevane müük**, ja **pole lubatud hankija**. Valige e-posti allika liik, kasutada nupu kõrval on **e-posti konto allikas** välja avamiseks on ** valemi disainer ** vormi. Selle vormi abil saate lisada valemi, mis tähistab valitud tootja konto e-posti sihtkohta.
+Kui valite tüübi **Prindihalduse meil**, saate sisestada väljale **Saaja** fikseeritud meiliaadressid. Fikseerimata meiliaadresside kasutamiseks tuleb valida failisihtkohaks meiliallika tüüp. Toetatakse järgmisi väärtusi: **Klient**, **Hankija**, **Potentsiaalne klient**, **Kontakt**, **Konkurent**, **Töötaja**, **Kandidaat**, **Potentsiaalne hankija** ja **Keelatud hankija**. Pärast meiliallika tüübi valimist avage välja **Meiliallika konto** kõrval oleva nupu abil vorm **Valemi kujundaja**. Selle vormi abil saate lisada meilisihtkohale valemi, mis kujutab valitud osapoole kontot.
 
-[![Konfigureerida prindihalduse meilisõnumi tüüp](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
+[![Prindihalduse meilitüübi konfigureerimine](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
 
 Pange tähele, et valemid on ER-i konfiguratsiooni põhised. Sisestage väljale **Valem** dokumendipõhine viide kliendi või hankija osapoole tüübile. Tippimise asemel võite otsida üles andmeallika sõlme, mis tähistab kliendi või hankija kontot, ja klõpsata siis valemi värskendamiseks nuppu **Lisa andmeallikas**. Näiteks kui kasutate ISO 20022 kreeditülekande konfiguratsiooni, tähistab hankija kontot sõlm **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Vastasel korral sisestage valemi salvestamiseks stringi väärtus, nagu **DE-001**.
 
 [![Formula designer](./media/ger_formuladesignerfordestination-1024x541.jpg)](./media/ger_formuladesignerfordestination.jpg)
 
-Linnas on **e-** dialoogiboksis klõpsake nuppu prügikasti kõrval on **e-posti konto allikas** välja valem allikas konto jäädavalt kustutada. Teise võimalusena avamist valem valem, mis oli varem salvestatud muuta. E-posti aadresside määramiseks klõpsake **muuta** avamiseks ning **määramine e-posti aadressid** dialoogiboksis.
+Klõpsake dialoogiboksis **Meili saaja** välja **Meiliallika konto** kõrval olevat prügikastiikooni, et selle meiliallika konto puhul valem jäädavalt kustutada. Teine võimalus on avada valemikujundaja, et muuta varem salvestatud valemit. Meiliaadresside määramiseks klõpsake nuppu **Redigeeri**, et avada dialoogiboks **Meiliaadresside määramine**.
 
-[![E-posti aadressid, e-posti sihtkoha määramine](./media/ger-destinations-email-3-1611-1024x587.jpg)](./media/ger-destinations-email-3-1611.jpg)
+[![Meiliaadresside määramine meilisihtkohale](./media/ger-destinations-email-3-1611-1024x587.jpg)](./media/ger-destinations-email-3-1611.jpg)
 
 #### <a name="configuration-email"></a>Konfigureerimismeil
 
-Kasutada sellist e-posti, kui konfiguratsiooni, mida kasutada on andmeallikate sõlme, mis moodustab e-posti aadress. Saate andmeallikate ja ülesanded valemi kujundaja õigesti vormindatud e-posti aadressi.
+Kasutage seda meilitüüpi, kui kasutataval konfiguratsioonil on andmeallikates sõlm, mis kujutab meiliaadressi. Õigesti vormindatud meiliaadressi saamiseks saate kasutada valemikujundajas sisalduvaid andmeallikaid ja funktsioone.
 
-[![E-posti aadressi andmete allikas e-posti sihtkoha määramine](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
+[![Meiliaadressi andmeallika määramine meilisihtkohale](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Märkus.** Simple Mail Transfer Protocoli (SMTP) server peab olema konfigureeritud ja saadaval. Võite määrata oma SMTP-serveri Dynamics 365 korral sel **süsteemi halduse**&gt;**install**&gt;**e-posti**&gt;**e-posti parameetrid**.
+**Märkus.** Simple Mail Transfer Protocoli (SMTP) server peab olema konfigureeritud ja saadaval. Saate määrata oma SMTP-serveri Dynamics 365 for Operationsi jaotises **Süsteemihaldus** &gt; **Seadistus** &gt; **Meil** &gt; **Meiliparameetrid**.
 
 ### <a name="archive-destination"></a>Arhiivi sihtkoht
 
-Selle valiku abil saab saata väljundi Microsoft SharePointi kausta või Microsoft Azure’i salvestusruumi. Määrake valiku **Lubatud** väärtuseks **Jah **väljundi saatmiseks valitud dokumenditüübiga määratletud sihtkohta. Valida saab ainult neid dokumenditüüpe, millel grupiks on määratud **Fail**. Saate määratleda dokumendi tüübiga kokku **organisatsiooni haldamine**&gt;**Dokumendihaldus**&gt;**dokumendi liiki**. ER-i sihtkohtade konfiguratsioon on sama, mis dokumendihaldussüsteemi konfiguratsioon.
+Selle valiku abil saab saata väljundi Microsoft SharePointi kausta või Microsoft Azure’i salvestusruumi. Määrake valiku **Lubatud** väärtuseks **Jah **väljundi saatmiseks valitud dokumenditüübiga määratletud sihtkohta. Valida saab ainult neid dokumenditüüpe, millel grupiks on määratud **Fail**. Dokumenditüübid saate määratleda jaotises **Organisatsiooni haldus** &gt; **Dokumendihaldus** &gt; **Dokumenditüübid**. ER-i sihtkohtade konfiguratsioon on sama, mis dokumendihaldussüsteemi konfiguratsioon.
 
-[![Dokumendi liigid lehele](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
+[![Leht Dokumenditüübid](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-Asukoht määrab, kuhu fail salvestatakse. Pärast selle **Arhiiv** alal on lubatud, konfiguratsiooni täitmise tulemused salvestatakse töö Arhiiv. Tulemused kuvatakse **organisatsiooni haldamine**&gt;**elektrooniline**&gt;**elektrooniline arhiveeritud Tööpakkumised**. **Märkus:** valige dokumenditüübi töö Arhiiv Dynamics 365 korral kell **organisatsiooni haldamine**&gt;**tööruumide**&gt;**elektrooniline**&gt;**elektroonilise aruandluse parameetrid**.
+Asukoht määrab, kuhu fail salvestatakse. Kui sihtkoht **Arhiiv** on lubatud, saab konfiguratsiooni käivitamise tulemused salvestada tööarhiivi. Tulemusi saate vaadata jaotises **Organisatsiooni haldus** &gt; **Elektrooniline aruandlus** &gt; **Elektroonilise aruandluse arhiivitud tööd**. **Märkus.** Tööarhiivi jaoks saate dokumenditüübi valida Dynamics 365 for Operationsi jaotises **Organisatsiooni haldus** &gt; **Tööruumid** &gt; **Elektrooniline aruandlus** &gt; **Elektroonilise aruandluse parameetrid**.
 
 #### <a name="sharepoint"></a>SharePoint
 
-Faili saab salvestada selleks mõeldud SharePointi kausta. Saate määratleda vaikimisi SharePointi serverisse **organisatsiooni haldamine**&gt;**Dokumendihaldus**&gt;**dokumendihalduse parameetrite**, on **SharePointi** vahekaart. Pärast SharePointi kausta konfigureerimist valige see kaust, kuhu salvestatakse väljund ER dokumenditüübi. 
+Faili saab salvestada selleks mõeldud SharePointi kausta. SharePointi vaikeserveri saate määratleda jaotises **Organisatsiooni haldus** &gt; **Dokumendihaldus** &gt; **Dokumendihalduse parameetrid** vahekaardil **SharePoint**. Pärast SharePointi kausta konfigureerimist saate valida selle kaustana, kuhu elektroonilise aruandluse väljund dokumenditüübi puhul salvestatakse. 
 
-[![Valige SharePointi kaust](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
+[![SharePointi kausta valimine](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
 
 #### <a name="azure-storage"></a>Azure’i salvestusruum
 
@@ -107,18 +110,18 @@ Kui dokumenditüübi asukohaks on määratud **Arhiivikaust**, saab salvestada f
 
 ### <a name="file-destination"></a>Faili sihtkoht
 
-Kui seate **lubatud** et **Jah**an open või save dialoogiboks kuvatakse, kui konfiguratsioon on töö lõpetanud.
+Kui määrate valiku **Lubatud** väärtuseks **Jah**, kuvatakse konfigureerimise lõppemisel avamise või salvestamise dialoogiboks.
 
-### <a name="screen-destination"></a>Ekraani sihtkoha
+### <a name="screen-destination"></a>Sihtkoht Kuva
 
-Kui seate **lubatud** et **Jah**, eelvaade väljund luuakse. Mõned failitüübid, nagu XML, TXT või PDF, saate vaadata otse brauseriaknas. Muid failitüüpe, selline Microsoft Excelis või Wordis, kasutatakse Office Online'i teenuseid.
+Kui määrate valiku **Lubatud** väärtuseks **Jah**, luuakse väljundi eelvaade. Saate mõnd failitüüpi, nagu XML, TXT või PDF, vaadata otse brauseriaknas. Muude failitüüpide, näiteks Microsoft Excel või Word, puhul kasutatakse Microsoft Office Online’i teenust.
 
-### <a name="power-bi-destination"></a>Power BI sihtkoha
+### <a name="power-bi-destination"></a>Sihtkoht Power BI
 
-Seada **lubatud** et **Jah** ER konfiguratsiooni abil saate korraldada oma eksemplari Dynamics 365 andmete edastamise toimingute Microsoft Power BI teenused. Edastatud failid on salvestatud Microsoft SharePoint Serveri eksemplari, mis peab olema selleks konfigureeritud. Lisateabe saamiseks vaadake [pakub Power BI andmetega Dynamics 365 meetmeteks elektroonilise aruandluse konfiguratsiooni abil](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Vihje.** Vaikekäitumise (st konfigureerimise dialoogiboksi) alistamiseks võite luua peamisele väljundkomponendile sihtkoha viite ja faili sihtkoha ning keelata siis kõik sihtkohad.
+Kui määrate valiku **Lubatud** väärtuseks **Jah**, saate oma elektroonilise aruandluse konfiguratsiooni abil korraldada andmete üleviimine teie Dynamics 365 for Operationsi eksemplarist Microsoft Power BI teenustesse. Edastatud failid talletatakse Microsoft SharePoint Serveri eksemplari, mis on selleks otstarbeks konfigureeritud. Lisateavet vt teemast [Elektroonilise aruandluse konfiguratsiooni kasutamine Power BI-le andmete esitamiseks rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Vihje.** Vaikekäitumise (st konfigureerimise dialoogiboksi) alistamiseks võite luua peamisele väljundkomponendile sihtkoha viite ja faili sihtkoha ning keelata siis kõik sihtkohad.
 
 ## <a name="security-considerations"></a>Turbemeetmed
-ER-i sihtkohtade puhul kasutatakse kahesuguseid õigusi ja kohustusi. Üks tüüp reguleerida säilitada üldine sihtkohtadesse, juriidilise isiku jaoks konfigureeritud (st kontrollib juurdepääsu ning **elektroonilise aruandluse sihtkohta** leht). Teine juhib rakenduse kasutaja võimalust alistada käitusajal sihtkoha sätted, mille on konfigureerinud ER-i arendaja või ER-i funktsionaalne konsultant.
+ER-i sihtkohtade puhul kasutatakse kahesuguseid õigusi ja kohustusi. Üks neist juhib võimalust hallata üldisi juriidilisele isikule konfigureeritud sihtkohti (st juurdepääsu lehele **Elektroonilise aruandluse sihtkohad**). Teine juhib rakenduse kasutaja võimalust alistada käitusajal sihtkoha sätted, mille on konfigureerinud ER-i arendaja või ER-i funktsionaalne konsultant.
 
 | Roll (AOT-nimi)                     | Rolli nimi                                  | Kohustus (AOT-nimi)                     | Kohustuse nimi                                                        |
 |-------------------------------------|--------------------------------------------|-------------------------------------|------------------------------------------------------------------|
@@ -130,17 +133,17 @@ ER-i sihtkohtade puhul kasutatakse kahesuguseid õigusi ja kohustusi. Üks tüü
 **Märkus.** Kahte õigust kasutatakse eelnevates kohustustes. Nendel õigustel on samad nimed, mis vastavatel kohustustel: **ERFormatDestinationConfigure** ja **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
-### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Olen importinud elektroonilised konfiguratsioonid ja näen neid lehel Elektroonilise aruandluse konfiguratsioonid. Aga miks ma ei näe neid elektroonilise aruandluse sihtkohta lehel?
+### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Olen importinud elektroonilised konfiguratsioonid ja näen neid lehel Elektroonilise aruandluse konfiguratsioonid. Miks ma ei näe neid lehel Elektroonilise aruandluse sihtkohad?
 
-Veenduge, et klõpsate **uus** ja valige konfiguratsioon ja selle **viide** välja. Lehel **Elektroonilise aruandluse sihtkohad** näete ainult neid konfiguratsioone, mille jaoks sihtkohad on konfigureeritud.
+Klõpsake kindlasti valikut **Uus** ja valige konfiguratsioon väljalt **Viide**. Lehel **Elektroonilise aruandluse sihtkohad** näete ainult neid konfiguratsioone, mille jaoks sihtkohad on konfigureeritud.
 
-### <a name="is-there-any-way-to-define-which-azure-storage-account-and-azure-blob-storage-are-used"></a>Kas kuidagi määratleda, milliseid Azure Storage konto ja Azure bloobimälu kasutada?
+### <a name="is-there-any-way-to-define-which-azure-storage-account-and-azure-blob-storage-are-used"></a>Kas on võimalik kuidagi määratleda, millist Azure’i salvestusruumi kontot ja Azure’i bloobimälu kasutatakse?
 
-Nr Kasutatakse vaikimisi Azure Kämp ladustamise, mis on määratletud ja kasutatakse dokumendihaldussüsteemi.
+Nr Kasutatakse Azure’i bloobimälu vaikeväärtust, mis on dokumendihalduse süsteemi puhul määratletud ja kasutusel.
 
-### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Mis on faili sihtkoha sihtkoht seaded? Mida see seadistus teeb?
+### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Mis on failisihtkoha otstarve sihtkoha sätetes? Mida see seadistus teeb?
 
-Sihtkohta **Fail** kasutatakse dialoogiboksi juhtimiseks. Kui lubate tagasi või kui konfiguratsiooni jaoks määratletud sihtkohta, vt avatud või salvestada dialoogiboksi väljund faili on loodud.
+Sihtkohta **Fail** kasutatakse dialoogiboksi juhtimiseks. Kui lubate selle sihtkoha või kui konfiguratsioonile pole määratletud ühtki sihtkohta, näete pärast väljundfaili loomist salvestamise või avamise dialoogiboksi.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Kas oskate tuua näite valemi kohta, mis viitab hankija kontole, kuhu saan meili saata?
 
@@ -148,10 +151,12 @@ Valem on ER-i konfiguratsiooni põhine. Näiteks kui kasutate ISO 20022 kreedit�
 
 ### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Ühes minu vormingukonfiguratsioonidest on mitu faili, mis on rühmitatud ühte kausta (nt kaustas nimega Folder1 on failid File1, File2 ja File3). Kuidas saan seadistada sihtkohad nii, et faili Folder1.zip ei loodaks üldse, File1 saadetaks meiliga, File2 saadetaks SharePointi ja et saaksin faili File3 avada kohe pärast konfigureerimist?
 
-Eeltingimus on, et tuleb oma formaadis ER versiooni. Kui teil on oma vorming, avage leht **Elektroonilise aruandluse sihtkoht** ja looge sellele konfiguratsioonile uus viide. Seejärel peab teil olema neli faili sihtkohta, üks iga väljundkomponendi jaoks. Looge esimene faili sihtkoht, andke sellele nimi (nt **Kaust**) ja valige failinimi, mis tähistab teie konfiguratsioonis olevat kausta. Siis klõpsake valikut **Sätted** ja veenduge, et kõik sihtkohad oleksid keelatud. Selle faili sihtkoha jaoks ei looda kausta. Vaikimisi (hierarhiliste sõltuvuste tõttu failide ja põhikaustade vahel) käituvad failid samamoodi. Teisisõnu ei saadeta neid kuhugi. Selle vaikekäitumise alistamiseks tuleb luua veel kolm faili sihtkohta, üks iga faili jaoks. Igaühe sihtkoha sätetes tuleb lubada sihtkoht, kuhu fail tuleks saata.
+Eeltingimus on, et teie vorming peab olema elektroonilise aruandluse konfiguratsioonides kättesaadav. Kui teil on oma vorming, avage leht **Elektroonilise aruandluse sihtkoht** ja looge sellele konfiguratsioonile uus viide. Seejärel peab teil olema neli faili sihtkohta, üks iga väljundkomponendi jaoks. Looge esimene faili sihtkoht, andke sellele nimi (nt **Kaust**) ja valige failinimi, mis tähistab teie konfiguratsioonis olevat kausta. Siis klõpsake valikut **Sätted** ja veenduge, et kõik sihtkohad oleksid keelatud. Selle faili sihtkoha jaoks ei looda kausta. Vaikimisi (hierarhiliste sõltuvuste tõttu failide ja põhikaustade vahel) käituvad failid samamoodi. Teisisõnu ei saadeta neid kuhugi. Selle vaikekäitumise alistamiseks tuleb luua veel kolm faili sihtkohta, üks iga faili jaoks. Igaühe sihtkoha sätetes tuleb lubada sihtkoht, kuhu fail tuleks saata.
 
 # <a name="see-also"></a>Vt ka
 
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+
+
 
 

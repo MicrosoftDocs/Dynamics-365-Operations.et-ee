@@ -85,6 +85,6 @@ Lisateabe saamiseks vt jaotist Interaktiivsed komponendid ja navigeerimisfunktsi
 
 #<a name="see-also"></a>Vt ka
 
-[Luua finantsaruande] ((dynamics365\operations\financials\general-ledger\generate-finants-aruanne)
+[Finantsaruande loomine]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

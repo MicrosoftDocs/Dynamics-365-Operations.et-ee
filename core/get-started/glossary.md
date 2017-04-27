@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 toimingute sõnastik"
+title: "Dynamics 365 for Operationsi sõnastik"
 description: "Microsoft Dynamics 365 for Operationsi sõnastik määratleb Microsoft Dynamics 365 for Operationsi toote olulised mõisted ja põhimõtted."
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 toimingute sõnastik
+# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operationsi sõnastik
+
+[!include[banner](../includes/banner.md)]
+
 
 Microsoft Dynamics 365 for Operationsi sõnastik määratleb Microsoft Dynamics 365 for Operationsi toote olulised mõisted ja põhimõtted. 
 
@@ -249,7 +252,7 @@ Sõiduk, mida kasutatakse kasutaja vastuvõtu testimise (UAT) ja tootmiskeskkond
 
 Tööriist Visual Studio, mida kasutasite mudelelementide loomiseks, värskendamiseks ja ülevaatamiseks.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. \financial-dimensions\dimension-Based konfiguratsiooni**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\financial-dimensions\dimension-based configuration**
 
 Konfiguratsioonitehnoloogia, mida kasutatakse tootevariantide loomiseks, valides tootedimensioonidele väärtused.
 
@@ -499,7 +502,7 @@ Toote osa.
 
 ###### <a name="product-dimension"></a>**tootedimensioon**
 
-Suuruse, värvi või konfiguratsiooni toote atribuute, mida kasutatakse... \financial-dimensions\dimension-Based konfiguratsiooni.
+Toote suuruse, värvi või konfiguratsiooni atribuudid, mida kasutatakse atribuudi ..\financial-dimensions\dimension-based configuration puhul.
 
 ###### <a name="product-family"></a>**tooteperekond**
 
@@ -722,5 +725,7 @@ Isik, kes võtab endale töötaja või töövõtja rolli ja kellele teenuste ees
 ###### <a name="workspace"></a>**tööruum**
 
 Leht, mis annab ülevaate ühest kasutaja tehtavast toimingust. Leht kasutab paane, loendeid ja diagramme, et kuvada ootel töö ja seotud andmed mitmest allikast, ja leht lihvib nende andmetega seotud sagedasi ülesandeid. Tööruumi kokkuvõttejaotises kuvatavad paanid kuvatakse ka armatuurlaua seotud jaotises.
+
+
 
 

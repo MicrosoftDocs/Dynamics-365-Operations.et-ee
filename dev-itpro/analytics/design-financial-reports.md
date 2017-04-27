@@ -1,6 +1,6 @@
 ---
-title: Vaade ja disain finantsaruanded
-description: See artikkel pakub harjutusi, mis selgitavad teile vaatamine ja finantsaruannete loomine Microsoft Dynamics 365 toiminguteks. Finantsaruandlus koosneb maksimaalselt Dynamics 365 vaatamiselamust ja kliki-kord Aruandekujundaja, mille abil saab luua ja redigeerida finantsaruanded.
+title: Finantsaruannete vaatamine ja kujundamine
+description: "See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Operationsis finantsaruannete vaatamist ja loomist. Finantsaruandlus hõlmab vaatamist Dynamics 365 for Operationsis ja korra klõpsatavat aruandekujundajat, mis võimaldab teil finantsaruandeid luua ja redigeerida."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Vaade ja disain finantsaruanded
+# <a name="view-and-design-financial-reports"></a>Finantsaruannete vaatamine ja kujundamine
 
-See artikkel pakub harjutusi, mis selgitavad teile vaatamine ja finantsaruannete loomine Microsoft Dynamics 365 toiminguteks. Finantsaruandlus koosneb maksimaalselt Dynamics 365 vaatamiselamust ja kliki-kord Aruandekujundaja, mille abil saab luua ja redigeerida finantsaruanded.  
+[!include[banner](../includes/banner.md)]
+
+
+See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Operationsis finantsaruannete vaatamist ja loomist. Finantsaruandlus hõlmab vaatamist Dynamics 365 for Operationsis ja korra klõpsatavat aruandekujundajat, mis võimaldab teil finantsaruandeid luua ja redigeerida.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>1. harjutus: vaikimisi finantsaruande loomine ja uurimine
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Selle harjutuse puhul loote ja uurite olemasolevat vaikearuannet. See aruanne si
 3.  Salvestage dimensiooni konfiguratsioon. Järgmisena loome aruande ja uurime aruande andmeid.
 4.  Avage **Finantsaruanded** pearaamatu osas **Päringud ja aruanded**.
 5.  Valige rida aruande puhul, mille nimi on **Pearaamatu üksikasjad – vaikimisi.**
-6.  Valige suvand **Redigeeri.** Märkus: Palutakse alla laadida kliki-kord Aruandekujundaja ja sisse. Mandaadi abil sisse logida.
+6.  Valige suvand **Redigeeri.** Märkus. Teil palutakse korra klõpsatav aruandekujundaja alla laadima ja sisse logima. Kasutage sisselogimiseks oma identimisteavet.
 7.  Muutke baasaastaks 2012 ja valige **Loo**. Kui aruanne on aruande kujundajas loodud, avatakse see uuel brauseri vahekaardil. Saate aruannet uurida kas brauseri vahekaardil või minna oma algse brauseri vahekaardile ja avada aruande sealt, valides selle loendist **Finantsaruanded**.
 8.  Valige avatud aruandes üks summadest, et minna aruande konto üksikasjadesse süvitsi.
 9.  Kui olete konto üksikasjades, valige konto andmetega ja **minge süvitsi aruande kande tasemele**. Aruande kande tasemel näete selle aruande kujundusse kaasatud atribuute. Kandest ja kontost olenevalt võidakse kuvada mõni atribuut või kõik atribuudid.
@@ -55,7 +58,7 @@ Selle harjutuse puhul loote ja uurite olemasolevat vaikearuannet. See aruanne si
 13. Valige suvand **Aruandevalikud**.
 14. Valige **Lisa dimensioonifilter** ja valige **Äriüksus**.
 15. Sisestage väljale 001 ja valige **OK**. Aruandes kuvatakse nüüd ainult äriüksuse 001 andmed. See on aruande isikupärastatud vaade ja pole saadaval teistele vaatamiseks.
-16. Sulgege filtritud aruanne. Finantsaruannete kuvamiseks mis tahes vääringus, Dynamics 365 operatsioonide lisamisel.
+16. Sulgege filtritud aruanne. Finantsaruandeid saab kuvada mis tahes valuutas, mis on Dynamics 365 for Operationsisse lisatud.
 17. Valige **Valuuta**, seejärel valige **EUR.** Aruanne kuvatakse nüüd eurodes. Aruande kujundusse kaasatud mis tahes valuutakoodid või -tähised kuvatakse nüüd rakendatud valuutas. Kui valuuta puhul pole ühtegi valuutatähist määratletud, siis valuuta tähist ei kuvata.
 18. Sulgege aruanne **Pearaamatu üksikasjad**.
 19. Sulgege **aruande kujundaja**.
@@ -66,7 +69,7 @@ Selles harjutuses muudate olemasolevat vaikearuannet. Värskendate nii readefini
 1.  Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
 2.  Valige rida aruande puhul, mille nimi on **Proovibilansi kokkuvõte – vaikimisi**
 3.  Valige suvand **Redigeeri**. **Proovibilansi kokkuvõte – vaikimisi** avaneb aruande kujundajas.
-4.  Valige **Fail**, seejärel **Salvesta nimega** ja pange aruande nimeks Üksikasjalik proovibilanss atribuutidega. Märkus: Uus aruanne luuakse Aruandekujundaja, alati finantsaruannete loendit uuendatakse Dynamics 365 toiminguteks.
+4.  Valige **Fail**, seejärel **Salvesta nimega** ja pange aruande nimeks Üksikasjalik proovibilanss atribuutidega. Märkus. Aruande loomisel mis tahes ajal aruandekujundajas värskendatakse finantsaruannete loendit Dynamics 365 for Operationsis.
 5.  Valige aruande definitsioonist readefinitsiooni ikoon, et avada **Proovibilanss – vaikimisi readefinitsioon**.
 6.  Salvestage readefinitsioon kui **Üksikasjalik proovibilanss atribuutidega**.
 7.  Suunates kursori reale 50, valige **Redigeeri**, seejärel **Sisesta read dimensioonidest**. Sisesta read dimensioonidest võimaldab teil valida, milliseid dimensioone soovite readefinitsiooni kaasata. Selle harjutuse puhul loome readefinitsiooni põhikonto abil.
@@ -96,7 +99,7 @@ Selles harjutuses muudate olemasolevat vaikearuannet. Värskendate nii readefini
 25. Sulgege aruanne **Üksikasjalik proovibilanss atribuutidega**.
 26. Sulgege **aruande kujundaja**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3. Harjutus: Kasutades aruandluse puu mitmemõõtmelise aruande loomine
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3. harjutus: mitmedimensioonilise aruande loomine aruandluspuu abil
 Selle harjutuse puhul muudate olemasolevat vaikearuannet. Saate luua aruandluspuu ja lisada aruande definitsiooni kulukeskuse/osakondade kasumiaruande loomiseks. Kui värskendused on lõpetatud, saate luua kulukeskuse/osakondade kasumiaruande ja uurida aruannet aruandluspuu abil. Alustame loendist Finantsaruanded.
 
 1.  Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
@@ -138,7 +141,7 @@ Selle harjutuse puhul muudate olemasolevat vaikearuannet. Lisate organisatsiooni
 1.  Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
 2.  Valige rida aruande puhul, mille nimi on **Kõrvuti bilanss ja kasumiaruanne – vaikimisi**
 3.  Valige suvand **Redigeeri**. **Kõrvuti bilanss ja kasumiaruanne – vaikimisi** avaneb aruande kujundajas.
-4.  Valige **faili**&gt;**nimega** ja aruandele nime **konsolideeritud bilanss ja kasumiaruanne kõrvuti**.
+4.  Valige **Fail** &gt; **Salvesta nimega** ning pange aruande nimeks **Kõrvuti konsolideeritud bilanss ja kasumiaruanne**.
 5.  Muutke baasaastaks 2012.
 6.  Klõpsake puu tüübi rippnoolt ja valige suvand **Organisatsiooni hierarhiad**.
 7.  Klõpsake puu tüübi rippnoolt ja valige suvand **Contoso Holdings.**
@@ -151,7 +154,7 @@ Selle harjutuse puhul muudate olemasolevat vaikearuannet. Lisate organisatsiooni
 14. Sulgege **Kõrvuti konsolideeritud bilanss ja kasumiaruanne**.
 15. Sulgege **aruande kujundaja**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>5. Harjutus: Sidebyside osakondade aruande loomine
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>5. harjutus: osakondade kõrvutiaruande loomine
 Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruanne. Kasutate olemasolevat readefinitsiooni, kuid loote uue aruande definitisiooni ja uue veeru definitsiooni, mis kasutab dimensiooni filtreid. Alustame loendist Finantsaruanded.
 
 1.  Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
@@ -179,8 +182,10 @@ Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruann
 18. **Salvesta** muudatused ja **loo**. Pärast aruande loomist ja avamist saate aruannet uurida.
 
 ## <a name="additional-resources"></a>Lisaressursid
-[Finantsaruandlus](\financials\general-ledger\financial-reporting-getting-started.md)<ph id="t1">
-</ph>[Vaata finantsaruanded](\financials\general-ledger\view-financial-reports.md)<ph id="t2">
-</ph>[Dynamics aruandluse blogi](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Finantsaruandlus](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Finantsaruannete kuvamine](\financials\general-ledger\view-financial-reports.md) 
+[Dynamicsi finantsaruandluse ajaveeb](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

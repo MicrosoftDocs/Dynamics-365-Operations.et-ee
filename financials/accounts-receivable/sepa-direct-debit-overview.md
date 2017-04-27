@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sepa-direct-debit-overview"></a>SEPA otsekorralduse ülevaade
 
+[!include[banner](../includes/banner.md)]
+
+
 Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklike ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Mis on SEPA otsekorralduste eesmärk?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Mis on SEPA otsedeebetite eesmärk?
 ---------------------------------------
 
-SEPA otsekorralduse võimaldab võlausaldajal vahendeid debiteerida kliendi pangakontolt, tingimusel, et allkirjastatud volituse on andnud klient võlausaldajale. Klient allkirjastab loa, mis autoriseerib kreeditori koguma makseid ja annab kliendi pangale korralduse kogutud maksed tasuda. 
+SEPA otsedeebet võimaldab kreeditoril koguda kliendi pangakontolt vahendeid eeldusel, et klient on kreeditorile andnud allkirjastatud loa. Klient allkirjastab loa, mis autoriseerib kreeditori koguma makseid ja annab kliendi pangale korralduse kogutud maksed tasuda. 
 
 SEPA otsekorraldused loovad esmakordselt maksevahendi, mida saab 32 SEPA riigis/piirkonnas kasutada nii riiklike kui ka piiriüleste eurodes tehtavate otsekorralduste puhul. 
 
@@ -60,7 +63,7 @@ SEPA B2B otsekorraldusskeem kehtib ettevõtetevahelistele kannetele ja selle alu
 Jah. Skeemi COR1 saab SEPA otsekorralduse mandaatide puhul kasutada Austrias, Belgias, Saksamaal, Prantsusmaal, Itaalias, Hispaanias ja Hollandis. Skeem pakub kreeditorile otsekorralduse kogumiseks lühemat eelteavitusaega.
 
 ## <a name="what-are-international-bank-account-numbers-iban-and-bank-identifier-codes-bic"></a>Mis on rahvusvahelised pangakonto numbrid (IBAN) ja panga identifikaatorkoodid (BIC)?
-Rahvusvahelist pangakonto numbrit (IBAN) ja panga identifikaatorkoodi (BIC) kasutatakse kõigi kontode tuvastamiseks 32 SEPA riigis/piirkonnas. Sisestage BIC IBAN väli IBAN ja SWIFT kood valdkonnas. Mõlemad väljad asuvad lehe Pangakontod vahekaardi Pangakonto kiirkaardil Täiendav identifitseerimine. See on nii kreeditori pangakonto kui ka kliendi pangakonto puhul.
+Rahvusvahelist pangakonto numbrit (IBAN) ja panga identifikaatorkoodi (BIC) kasutatakse kõigi kontode tuvastamiseks 32 SEPA riigis/piirkonnas. Sisestage SWIFT-koodi väljale BIC ja IBAN-väljale IBAN. Mõlemad väljad asuvad lehe Pangakontod vahekaardi Pangakonto kiirkaardil Täiendav identifitseerimine. See on nii kreeditori pangakonto kui ka kliendi pangakonto puhul.
 
 ## <a name="where-do-i-enter-creditor-identifiers-direct-debit-ids"></a>Kuhu pean sisestama kreeditori identifikaatorid (otsekorralduse ID-d)?
 SEPA-s tuvastatakse iga kreeditor kreeditori ainuidentifikaatoriga. See identifikaator võimaldab kliendil ja kliendi pangal filtreerida iga otsekorraldust ja seejärel otsekorraldust töödelda või selle tagasi lükata vastavalt kliendi juhistele. Kreeditor peab identifikaatori taotlema oma panga kaudu. Sisestage see identifikaator juriidilise isiku väljale Otsekorralduse ID.
@@ -69,7 +72,7 @@ SEPA-s tuvastatakse iga kreeditor kreeditori ainuidentifikaatoriga. See identifi
 Klient allkirjastab loa, mis autoriseerib kreeditori koguma makseid ja annab kliendi pangale korralduse kogutud maksed tasuda. Klient saab loa väljastada paberkandjal või elektrooniliselt. Vaikimisi aegub luba 36 kuud pärast otsekorralduse viimast algatamist.
 
 ## <a name="where-do-i-specify-the-sepa-direct-debit-file-format-iso-20022"></a>Kus saan määrata SEPA otsekorralduse failivormingu (ISO-20022)?
-SEPA andmevormingud põhinevad ISO-20022 sõnumistandarditel. Näidatakse ruut üldise elektroonilise aruandluse ja vali SEPA otsene deebet formaadis eksport formaat konfiguratsiooni kontode saadaolevad makseviisid konfigureerimisel. Seda makseviisi saab kasutada maksefaili loomisel kliendi makse töölehel.
+SEPA andmevormingud põhinevad ISO-20022 sõnumistandarditel. Märgite ruudu Üldine elektrooniline aruandlus ja valite müügireskontro makseviiside konfigureerimisel ekspordivormingu konfiguratsioonina SEPA Directi otsedeebeti. Seda makseviisi saab kasutada maksefaili loomisel kliendi makse töölehel.
 
 ## <a name="in-what-file-formats-can-i-generate-sepa-direct-debit-payment-files"></a>Millistes failivormingutes saan luua SEPA otsekorralduse maksefaile?
 SEPA otsekorralduste maksefaile saab luua järgmistes vormingutes.
@@ -78,6 +81,8 @@ SEPA otsekorralduste maksefaile saab luua järgmistes vormingutes.
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Kuidas toimib SEPA otsekorraldustega tagasimaksmine ja tagastamine?
 Mõlema SEPA otsekorraldusskeemi alusel on klientidel teatud õigused tagasimaksetele. Kliendil on lubatud kaheksa nädala jooksul pärast tähtaega mis tahes autoriseeritud kanne ilma selgitust andmata tagasi kutsuda. Autoriseerimata kannete korral pikendatakse perioodi 13 kuuni pärast tähtaega. Kõik tehtud maksed tühistatakse käsitsi, kasutades lehel Kliendi kanded olevat nuppu Tühista makse.
+
+
 
 
 

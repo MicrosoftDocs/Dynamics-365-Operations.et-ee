@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Tasakaalustuse ülevaade tsentraliseeritud maksete puhul
 
+[!include[banner](../includes/banner.md)]
+
+
 Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut. See kõrvaldab vajaduse sisestada sama kannet mitmes juriidilises isikus ja säästab aega, korrastades maksesoovituse protsessi, tasakaalustusprotsessi, avatud kande redigeerimist ja suletud kande redigeerimist tsentraliseeritud maksete jaoks. 
 
 Kui ühes juriidilises isikus sisestatakse kliendi- või hankijamakse ja tasakaalustatakse teises juriidilises isikus sisestatud arvega, genereeritakse kummagi juriidilise isiku kohta automaatselt sobiv tasakaalustus ning algus- ja lõputähtaegade kanded. Igale arve- ja maksekombinatsioonile kandes luuakse tasakaalustuskanne. Igale tasakaalustuskirjele määratakse uus kandenumber, mis põhineb makse kande numbriseerial, mis on määratud klientide puhul lehel **Müügireskontro parameetrid** ja hankijate puhul lehel **Ostureskontro parameetrid**. 
@@ -108,6 +111,8 @@ Hankijamaksete puhul kasutavad makse juriidilise isiku algus- ja lõputähtaja k
 
 ## <a name="withholding-tax"></a>Maksu kinnipidamine
 Arvega seostatud hankijakontot kasutatakse määramiseks, kas kinnipeetav maks tuleb arvutada. Kinnipeetava maksu rakendumisel arvutatakse see juriidilises isikus, mis on arvega seostatud. Kui juriidilised isikud kasutavad erinevaid valuutasid, kasutatakse arvega seostatud juriidilise isiku vahetuskurssi.
+
+
 
 
 

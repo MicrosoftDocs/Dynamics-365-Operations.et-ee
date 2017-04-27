@@ -1,6 +1,6 @@
 ---
 title: Kasumiaruande finantsaruanne
-description: "Selles artiklis kirjeldatakse vaikimisi aruande kasumiaruanded. Samuti kirjeldatakse alustalad, mis on seotud käesolevas aruandes."
+description: "Selles artiklis kirjeldatakse kasumiaruannete vaikearuannet. Samuti kirjeldatakse selle aruandega seotud koosteüksusi."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Kasumiaruande finantsaruanne
 
-Selles artiklis kirjeldatakse vaikimisi aruande kasumiaruanded. Samuti kirjeldatakse alustalad, mis on seotud käesolevas aruandes. 
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis kirjeldatakse kasumiaruannete vaikearuannet. Samuti kirjeldatakse selle aruandega seotud koosteüksusi. 
 
 <a name="default-income-statement-report"></a>Kasumiaruande vaikearuanne
 -------------------------------
@@ -61,10 +64,12 @@ Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmet
 <a name="see-also"></a>Vt ka
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finantsaruandlus](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Finantsaruannete vaatamine](view-financial-reports.md)
 
-[Dynamics finants aruandluse blogi](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamicsi finantsaruandluse ajaveeb](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

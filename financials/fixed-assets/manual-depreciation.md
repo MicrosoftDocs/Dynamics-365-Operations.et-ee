@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>Käsitsi kulumiarvestus
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade käsitsi rakendatavast kulumiarvestusmeetodist.
 
 Kui teete põhivara kulumireeglite seadistamisel valiku **Käsitsi** väljal **Meetod** lehel **Kulumireeglid**, määratletakse selle kulumireegliga põhivarade kulum kalendriaasta intervallidele sisestatud protsendimääraga. Intervallid, millele protsendimäärad seadistate, sisestatakse väärtuse järgi, mille valite väljal **Perioodi sagedus** kiirkaardil **Üldine** lehel **Kulumireeglid**. Siin on väärtused, mida valida saate.
@@ -63,13 +66,15 @@ Kui teete valiku **Igakuine** väljal** Perioodi sagedus**, seadistate 12 käsit
 | Jaanuar  | (11 000 – 1000) × 10% = 1000 |
 | Veebruar | (11 000 – 1000) × 50% = 5000 |
 
-Kui valite **poole aasta** ja selle *** perioodi sagedus * välja *, seadistate kahe käsitsi graafikuintervalli. Järgmine tabel näitab nende kahe intervalli kulumisummasid.
+Kui valite **Kord poolaastas** väljalt ****Perioodi sagedus** **, seadistate kaks käsitsi graafikuintervalli. Järgmine tabel näitab nende kahe intervalli kulumisummasid.
 
 | Intervall    | Kulumisumma            |
 |-------------|--------------------------------|
 | 30. juuni     | (11 000 – 1000) × 10% = 1000 |
 | 31. detsember | (11 000 – 1000) × 50% = 5000 |
 
-Kõigi intervallide protsentide kogusumma ei pea olema 100. Siiski kuvatakse teade, kui väärtus on **kumulatiivne protsent** sisse-välja ning **määratud kulumiraamatu graafikud** leht ei ole **100**.
+Kõigi intervallide protsentide kogusumma ei pea olema 100. Kuid saate teate, kui väärtus väljal **Kumulatiivne protsent** lehel **Põhivara kulumireeglite graafikud** ei ole **100**.
+
+
 
 

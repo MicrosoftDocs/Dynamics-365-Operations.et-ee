@@ -1,6 +1,6 @@
 ---
-title: "Toote konfiguratsioon mudelite ülevaade"
-description: "Selles artiklis määratletakse terminid ja mõisted, mis on seotud toote konfiguratsiooni mudelid. Toote konfiguratsiooni mudelid võimaldavad ehitada geneerilisteks struktuuri, mida saab seadistada palju toote variante ühe toote."
+title: "Toote konfiguratsioonimudelite ülevaade"
+description: "See artikkel määratleb toote konfiguratsioonimudeleid puudutavad tingimused ja mõisted. Toote konfiguratsioonimudelid võimaldavad luua üldise tootestruktuuri, mida saab kasutada üksiku toote paljude variantide konfigureerimiseks."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-configuration-models-overview"></a>Toote konfiguratsioon mudelite ülevaade
+# <a name="product-configuration-models-overview"></a>Toote konfiguratsioonimudelite ülevaade
 
-Selles artiklis määratletakse terminid ja mõisted, mis on seotud toote konfiguratsiooni mudelid. Toote konfiguratsiooni mudelid võimaldavad ehitada geneerilisteks struktuuri, mida saab seadistada palju toote variante ühe toote.
+See artikkel määratleb toote konfiguratsioonimudeleid puudutavad tingimused ja mõisted. Toote konfiguratsioonimudelid võimaldavad luua üldise tootestruktuuri, mida saab kasutada üksiku toote paljude variantide konfigureerimiseks.
 
 Toote konfiguratsioonimudelid on loodud tähistama toote üldstruktuuri. Pärast toote konfiguratsioonimudeli seadistamist saate konfigureerida eristatava toote variandi, millel on kordumatu kooslus ja kordumatu protsess. Toote konfiguratsioonimudelid kasutavad erinevate tootevariantide seoste ja piirangute käsitlemisel nii deklaratiivseid piiranguid kui ka imperatiivseid arvutusi. Üksusi saab konfigureerida müügitellimustele, müügipakkumistele, ostutellimustele ja tootmistellimustele. Järgmine tabel kirjeldab tabeli piirangul põhinevaid tingimusi ja mõisteid.
 <table>
@@ -69,16 +69,16 @@ Samuti saate määrata atribuutide eeltingimuse. Kui tingimus on täidetud, tule
 <li><strong>Tekst</strong> fikseeritud loendiga või ilma</li>
 <li><strong>Kahendmuutuja</strong></li>
 </ul>
-Kui atribuudi tüüp on <strong>Kahendmuutuja</strong>, vahemikuga <strong>Täisarv</strong> või <strong>Tekst</strong>, on väärtuste kogum kättesaadav, kui toote konfiguratsioonimudel on seadistatud. <strong>Märkus:</strong> toote konfiguratsiooni solver tunnistab ainult atribuut järgmisi: <strong>Boolean</strong>, <strong>teksti</strong> fikseeritud nimekirja, ja <strong>täisarv</strong> valikus. Seetõttu saab ainult neid atribuudi tüüpe kasutada avaldise piirangutes ja tingimustes.</td>
+Kui atribuudi tüüp on <strong>Kahendmuutuja</strong>, vahemikuga <strong>Täisarv</strong> või <strong>Tekst</strong>, on väärtuste kogum kättesaadav, kui toote konfiguratsioonimudel on seadistatud. <strong>Märkus.</strong> Tootekonfiguratsiooni lahendaja tunneb ära ainult järgmised atribuuditüübid: <strong>kahendmuutuja</strong>, fikseeritud loendiga <strong>tekst</strong> ja vahemikuga <strong>täisarv</strong>. Seetõttu saab ainult neid atribuudi tüüpe kasutada avaldise piirangutes ja tingimustes.</td>
 </tr>
 <tr class="even">
 <td>Piirangud</td>
 <td>Piirangud kirjeldavad tootemudeli konfiguratsiooni piiranguid. Piiranguid kasutatakse tagamaks, et toote konfigureerimisel valitakse ainult kehtivad väärtused. Piirangud saavad olla avaldise piirangud või tabeli piirangud.
 <ul>
 <li>Avaldise piiranguid saab kasutada ainult komponentidega, millega need seotud on. Komponendi avaldise piirangud võivad viidata komponentide alamkomponentide atribuutidele. Tootekonfiguratsiooni lahendajat kasutatakse piirangute lahendamiseks ja piirangute kirjutamisel tuleb kasutada lahendaja süntaksit. Lisateavet saate wiki lingi kaudu avaldise piirangute ja tabeli piirangute kohta.</li>
-<li>Tabel piiranguid tuleb määratleda enne rakendub konfiguratsiooni tootemudeli komponent. Tabel piiranguid võib olla kas siia või süsteemi määratletud. Kasutaja määratletud tabeli piirang on teatud tüüpi maatriks, mida saab kasutada kombinatsioonide kogumi kirjeldamiseks atribuudiväärtustele, mis on määratletud atribuudi tüübiga. Näiteks kui toodetakse kõlareid, võib kasutaja määratletud tabeli piirangu maatriksil olla veerud kõlari viimistluse ja võre jaoks.</li>
+<li>Tabeli piirangud tuleb määratleda enne nende rakendamist komponendile toote konfiguratsioonimudelis. Tabeli piirangud võivad olla kas kasutaja või süsteemi määratletud. Kasutaja määratletud tabeli piirang on teatud tüüpi maatriks, mida saab kasutada kombinatsioonide kogumi kirjeldamiseks atribuudiväärtustele, mis on määratletud atribuudi tüübiga. Näiteks kui toodetakse kõlareid, võib kasutaja määratletud tabeli piirangu maatriksil olla veerud kõlari viimistluse ja võre jaoks.</li>
 </ul>
-<strong>Näide</strong> Kõlareid on saadaval nelja viimistlusega: must, tamm, roosipuu ja valge. Kõlarid võib olla üks kolme ees grillid: must, metall või valge. Must viimistlus on saadaval kõik grillid, kuid muud viimistlusvahendid ainult konkreetse grillid. Järgmises tabelis on näide teabe kohta, mis kuvatakse vahekaardil <strong>Lubatud kombinatsioonid</strong> lehel <strong>Tabeli piirangu redigeerimine</strong>.
+<strong>Näide</strong> Kõlareid on saadaval nelja viimistlusega: must, tamm, roosipuu ja valge. Kõlarite esivõre võib olla üks kolmest: must, metall või valge. Must viimistlus on saadaval kõigi võrede puhul, kuid muud viimistlused on piiratud teatud võredega. Järgmises tabelis on näide teabe kohta, mis kuvatakse vahekaardil <strong>Lubatud kombinatsioonid</strong> lehel <strong>Tabeli piirangu redigeerimine</strong>.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Kui atribuudi tüüp on <strong>Kahendmuutuja</strong>, vahemikuga <strong>Täis
 </tr>
 </tbody>
 </table>
-Süsteemi määratletud tabeli kitsendus tähistab atribuudi tüüp ja Dynamics 365 toimingute tabeli välja vastendust. Süsteemi määratletud tabeli kitsendus lingid atribuuditüüp dünaamiliselt väljale. Link võimaldab konfiguratsiooni tootemudeli andmeid, Dynamics 365 toimingute tabeli välja atribuudi.</td>
+Süsteemi määratletud tabeli piirang tähistab tarkvara Dynamics 365 for Operationsi tabeli atribuudi tüübi ja välja vahelist vastendust. Süsteemi määratud tabeli piirang seob atribuudi tüübi dünaamiliselt väljaga. Link lubab atribuudi toote konfiguratsioonimudelis, et kajastada välja andmeid Microsoft Dynamics 365 for Operationsi tabelis.</td>
 </tr>
 <tr class="odd">
 <td>Arvestused</td>
-<td>Arvutused esindavad Lisaks piiranguid. Arvutuse abil saate teha Aritmeetilisi tehteid atribuudid on <strong>kümnend</strong> ja <strong>täisarv</strong> saavad või atribuutide loogilisi operatsioone on <strong>teksti</strong> koos püsiva ja <strong>Boolean</strong> tüübid. Arvutusel on sihtatribuut, milles on arvutusavaldise tulemus. Arvutusavaldis koostatakse avaldiseredaktori abil.</td>
+<td>Arvutused kujutavad endast piirangute täiendust. Saate kasutada arvutust aritmeetilistes tehetes tüübiga <strong>Kümnendarv</strong> ja <strong>Täisarv</strong> või loogikatehete puhul, mis hõlmavad fikseeritud loendiga <strong>teksti</strong> ja <strong>kahendmuutuja</strong> tüüpi atribuute. Arvutusel on sihtatribuut, milles on arvutusavaldise tulemus. Arvutusavaldis koostatakse avaldiseredaktori abil.</td>
 </tr>
 <tr class="even">
 <td>Alamkomponendid</td>

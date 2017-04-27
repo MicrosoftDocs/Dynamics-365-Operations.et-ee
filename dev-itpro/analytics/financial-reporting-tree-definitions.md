@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Aruandluspuu definitsioonid finantsaruannetes
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel käsitleb aruandluspuu definitsioone. Aruandluspuu definitsioon on aruande komponent (koosteüksus), mis aitab määratleda teie organisatsiooni struktuuri ja hierarhiat.
 
 Finantsaruandlus toetab paindlikku aruandlust nii, et ettevõtte struktuuri muutumisel oleks lihtne muudatusi teha. Aruanded koostatakse mitmesugustest komponentidest (koosteüksustest). Üks neist koosteüksustest on aruandluspuu definitsioon. Aruandluspuu definitsioon aitab määratleda teie organisatsiooni struktuuri ja hierarhia. See on dimensioonidevaheline hierarhiastruktuur, mis põhineb finantsandmete dimensiooniseostel. See annab teavet aruandlusüksuse tasandil ja kõigi puu üksuste koondtasandil. Aruandluspuu definitsioone saab kombineerida veerudefinitsioonide ja aruande definitsioonidega koosteüksuste grupi loomiseks, mida saavad kasutada mitu ettevõtet. Aruandlusüksust kasutatakse organisatsiooniskeemi iga välja puhul. Aruandlusüksuseks võib olla üksik osakond finantsandmetest või selleks võib olla kõrgema taseme kokkuvõtte üksus, mis ühendab teavet teistest aruandlusüksustest. Aruandluspuud sisaldava aruande definitsiooni puhul luuakse aruanne iga aruandlusüksuse ja kokkuvõtte taseme puhul. Kõik need aruanded kasutavad aruande definitsioonis määratud rea ja veeru definitsioone, v.a juhul, kui aruande definitsioon näeb ette aruandluspuu kasutamise readefinitsioonist. Rea ja veeru definitsioonid on finantsaruannete kujunduse ja toimivuse olulised komponendid. Aruandluspuud võimendavad komponente ja toetavad paindlikku aruandlust ettevõtte struktuuri muutumisel. Aruandluspuul mittepõhinevad finantsaruanded kasutavad ainult osasid finantsaruandluse võimalusi. Saate kasutada mitut aruandluspuu definitsiooni koos sama rea ja veeru definitsioonidega, et vaadata oma ettevõtte andmeid eri viisil.
@@ -49,7 +52,7 @@ Aruandluspuu definitsioon sisaldab järgmises tabelis kirjeldatud veerge.
 
 | Aruandluspuu veerg | Kirjeldus|
 |---|---|
-| Ettevõte               | Aruandlusüksuse ettevõtte nimi. Selle **@ANY**väärtus, mis määratakse tavaliselt ainult Kokkuvõte tasemele, võimaldab andmete esitamise puu kasutatakse ettevõtteist. Kõigile tütarharudele on määratud ettevõte.|
+| Ettevõte               | Aruandlusüksuse ettevõtte nimi. Väärtus **@ANY**, mis on tavaliselt määratud ainult kokkuvõtte tasemele, võimaldab aruandluspuu kasutamist kõigis ettevõtetes. Kõigile tütarharudele on määratud ettevõte.|
 | Üksuse nimi             | Kood, mis määratleb selle aruandlusüksuse graafilises aruandluspuus. Veenduge, et looksite kordumatu kodeerimissüsteemi, mis on järjepidev ja mida kasutajatel on lihtne mõista. |
 | Üksuse kirjeldus      | Aruandlusüksuse pealkiri kuvatakse aruande päises ja jaluses suvandi **UnitDesc** koodina sisestamisel aruande definitsiooni vahekaardil **Päised ja jalused**. Pealkiri kuvatakse aruande rea kirjelduses, kui sisestate suvandi **UnitDesc** readefinitsiooni lahtrisse **Kirjeldus**.|
 | Dimensioonid            | Aruandlusüksus, mis tõmbab teavet otse finantsandmetest. See määrab konto ja seotud segmentide loogilise paigutuse ja pikkused. Igal aruandlusüksuse real peab olema selles veerus dimensioon. Saate panna dimensiooni ka kokkuvõtva üksuse reale (nt kulud, mis on selle üksusega otseselt seotud). Kokkuvõtva üksuse reale dimensiooni sisestamisel ei tohiks emaüksustes kasutatavaid kontosid kasutada tütarüksustes. Vastasel korral võidakse summasid dubleerida.|
@@ -58,15 +61,15 @@ Aruandluspuu definitsioon sisaldab järgmises tabelis kirjeldatud veerge.
 | Väline link         | Selle aruandlusüksuse puhul kasutatav rea link. Rea lingid määratletakse readefinitsiooni puhul lingitava aruande tuvastamiseks.|
 | Välisfail         | Finantsaruandluse töölehe faili tee, kust andmeid tuua.|
 | Lehe suvandid          | See veerg juhib, kas aruandlusüksuse andmed keelatakse aruande vaatamisel või printimisel.|
-| Ümberarvestuse %              | Emaüksusele eraldatava aruandlusüksuse protsent. Sellesse veergu sisestatud protsent rakendub readefinitsiooni igale reale enne rea väärtuse lisamist emaaruandesse. Näiteks kui tütarüksus tuleb jagada võrdselt kahe osakonna vahel, korrutatakse igal real olevaid summasid 50 protsendiga enne selle väärtuse aruandesse lisamist. Ühel aruandlusüksusel ei saa olla kahte emaüksust. Aruandlusüksuse summade eraldamiseks kahele emaüksusele looge teine sama dimensiooniga aruandlusüksus täiendava 50 protsendi koondamiseks. Sisestage kümnendkohtadeta täisprotsendid. Näiteks **25** tähistab 25 protsendi eraldamist emaüksusele. Kui lisate koma (**.25**), eraldatakse emaettevõttele 0,25%. Protsent, mis on vähem kui 1 protsenti kasutamiseks kasutama selle **võimaldavad värskenduskomplekti &lt;1%** võimalus aruande määratlemisel. See suvand asub vahekaardil **Lisasuvandid** dialoogiboksis **Aruande sätted**. Pääsete selle dialoogiboksi juurde nupuga **Muud** aruande definitsiooni vahekaardil **Sätted**. |
+| Ümberarvestuse %              | Emaüksusele eraldatava aruandlusüksuse protsent. Sellesse veergu sisestatud protsent rakendub readefinitsiooni igale reale enne rea väärtuse lisamist emaaruandesse. Näiteks kui tütarüksus tuleb jagada võrdselt kahe osakonna vahel, korrutatakse igal real olevaid summasid 50 protsendiga enne selle väärtuse aruandesse lisamist. Ühel aruandlusüksusel ei saa olla kahte emaüksust. Aruandlusüksuse summade eraldamiseks kahele emaüksusele looge teine sama dimensiooniga aruandlusüksus täiendava 50 protsendi koondamiseks. Sisestage kümnendkohtadeta täisprotsendid. Näiteks **25** tähistab 25 protsendi eraldamist emaüksusele. Kui lisate koma (**.25**), eraldatakse emaettevõttele 0,25%. Alla 1 protsendi suuruse protsendi kasutamiseks kasutage aruande definitsiooni valikut **Luba ümberarvestus &lt;1%**. See suvand asub vahekaardil **Lisasuvandid** dialoogiboksis **Aruande sätted**. Pääsete selle dialoogiboksi juurde nupuga **Muud** aruande definitsiooni vahekaardil **Sätted**. |
 | Üksuse turvalisus         | Piirangud selle kohta, millised kasutajad ja grupid pääsevad aruandlusüksuse teabe juurde.|
 | Lisatekst       | Aruandel olev tekst.|
 
 Aruandluspuu definitsiooni loomiseks tehke järgmist.
 
 1.  Avage aruande kujundaja.
-2.  Klõpsake **faili**&gt;**uus**&gt;**aruandluse puu mõiste**.
-3.  Klõpsake **muuta**&gt;**sisestada aruandlusüksused mõõdud**.
+2.  Klõpsake **Fail** &gt; **Uus** &gt; **Aruandluspuu definitsioon**.
+3.  Klõpsake **Redigeeri** &gt; **Sisesta aruandlusüksused dimensioonidest**.
 4.  Märkige dialoogiboksis **Sisesta aruandlusüksused dimensioonidest** märkeruut iga aruandluspuusse kaasatava dimensiooni puhul. Dialoogiboks **Sisesta aruandlusüksused dimensioonidest** sisaldab järgmisi jaotisi.
 
     | Lõik                          | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -85,7 +88,7 @@ Aruandluspuu definitsiooni loomiseks tehke järgmist.
 
 9.  Korrake iga dimensiooni puhul alal **Segmendi hierarhia ja vahemikud** toiminguid 7–8.
 10. Kui olete lõpetanud selle määratlemise, kuidas aruandlusüksused uude aruandluspuusse tuua tuleks, klõpsake nuppu **OK**.
-11. Klõpsake **faili**&gt;**salvestamine** aruandluse puu päästa. Sisestage aruandluspuu kordumatu nimi ja kirjeldus ja seejärel klõpsake nuppu **OK**.
+11. Aruandluspuu salvestamiseks klõpsake valikuid **Fail** &gt; **Salvesta**. Sisestage aruandluspuu kordumatu nimi ja kirjeldus ja seejärel klõpsake nuppu **OK**.
 
 ### <a name="open-an-existing-reporting-tree-definition"></a>Olemasoleva aruandluspuu definitsiooni avamine
 
@@ -121,7 +124,7 @@ Saate aruandluspuu definitsiooni organisatsioonistruktuuri ümber korraldada, li
 1.  Avage aruande kujundajas muudetav aruandluspuu.
 2.  Valige aruandluspuu definitsiooni graafilises vaates aruandlusüksus.
 3.  Lohistage üksus uude asukohta. Teine võimalus on teha üksusel paremklõps ja valida siis **Edenda aruandlusüksust** või **Alanda aruandlusüksust**.
-4.  Klõpsake **faili**&gt;**salvestamine** muudatuste salvestamiseks.
+4.  Klõpsake muudatuste salvestamiseks valikuid **Fail** &gt; **Salvesta**.
 
 ### <a name="add-text-about-a-reporting-unit"></a> Teksti lisamine aruandlusüksuse kohta
 
@@ -189,7 +192,7 @@ Järgmisel diagrammil on aruandluspuul ettevõtte funktsiooni järgi jaotatud or
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Näide aruandlusüksuste sisestamise kohta dimensioonide dialoogiboksist
 
-Järgmisel illustratsioonil on dialoogiboksi **Sisesta aruandlusüksused dimensioonidest** näide. Selles näites annavad tulemused äriüksuste, kulukeskuste ja osakondade kombinatsiooni. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) saadud andmete esitamise puu mõiste sorditakse äriüksus, siis kulukeskuse ja seejärel osakond. Dimensiooni viies aruandeühik on **äriüksuse = \[001\], Kulukeskus =\[\], osakonna = \[022\]**, ja tuvastab aruandeühik on business unit 001 ja osakonna 022 kontod. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+Järgmisel illustratsioonil on dialoogiboksi **Sisesta aruandlusüksused dimensioonidest** näide. Selles näites annavad tulemused äriüksuste, kulukeskuste ja osakondade kombinatsiooni. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) Saadud aruandluspuu definitsiooni sorditakse äriüksuse, siis kulukeskuse ja siis osakonna järgi. Viienda aruandlusüksuse dimensioon on **Äriüksus = \[001\], Kulukeskus = \[\], Osakond = \[022\]** ja tähistab äriüksuse 001 osakonda 022 puudutavate kontode aruandlusüksust. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Andmete koondamise näited
 
@@ -205,6 +208,8 @@ Järgmistes näidetes on võimalik teave, mida koondatavate andmete aruandluspuu
 
 # <a name="see-also"></a>Vt ka
 
-[Financial reporting](financial-reporting-intro.md)
+[Finantsaruandlus](financial-reporting-intro.md)
+
+
 
 

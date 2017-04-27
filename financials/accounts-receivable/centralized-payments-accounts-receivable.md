@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Müügireskontro tsentraliseeritud maksed
 
+[!include[banner](../includes/banner.md)]
+
+
 Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada sama kannet mitmesse juriidilisse isikusse. Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
 
 Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada sama kannet mitmesse juriidilisse isikusse. Lisaks säästab organisatsioon aega, kuna maksesoovituste, tasakaalustuste ja avatud ja suletud kannete redigeerimise protsessid on tsentraliseeritud maksete puhul sujuvamad. 
 
-Keskne makse organisatsioonis, on paljude juriidiliste toimingute ja iga tegevus juriidilise isiku õnnestub oma arved saadaoleva teabe. Makseid tegevate juriidiliste isikutele kätte ühe juriidilise isiku, mis on tuntud kui juriidilise makse. Tasakaalustusprotsessi ajal luuakse rakendatavad millest milleni kanded. Saate määrata, milline juriidiline isik organisatsioonis võtab vastu realiseeritud kasumi või realiseeritud kahjumi kanded ning kuidas käsitsetakse tsentraliseeritud maksetega seotud allahindluskandeid. 
+Tsentraliseeritud maksete organisatsioonis on toimingute jaoks palju juriidilisi isikuid ja iga tegutsev juriidiline isik haldab oma müügireskontro teavet. Maksed kõigi tegutsevate juriidiliste isikute jaoks luuakse ühest juriidilisest isikust, mida nimetatakse makse juriidiliseks isikuks. Tasakaalustusprotsessi ajal luuakse rakendatavad millest milleni kanded. Saate määrata, milline juriidiline isik organisatsioonis võtab vastu realiseeritud kasumi või realiseeritud kahjumi kanded ning kuidas käsitsetakse tsentraliseeritud maksetega seotud allahindluskandeid. 
 
 Järgmised näited illustreerivad sisestamise käsitlust erisugustes stsenaariumides. Kõigi nende näidete puhul eeldatakse järgmist konfiguratsiooni.
 
@@ -66,14 +69,14 @@ Fabrikam võtab Fabrikami kliendi kontole 4000, Northwind Tradersile vastu makse
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                         | Deebetsumma | Kreeditsumma |
 |---------------------------------|--------------|---------------|
 | Müügireskontro (Fabrikam)  | 600,00       |               |
 | Võlg Ida Fabrikamile (Fabrikam) |              | 600,00        |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                             | Deebetsumma | Kreeditsumma |
 |-------------------------------------|--------------|---------------|
@@ -81,7 +84,7 @@ Fabrikam võtab Fabrikami kliendi kontole 4000, Northwind Tradersile vastu makse
 | Müügireskontro (Ida Fabrikam) |              | 600,00        |
 
 ## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Näide 2: arve kliendimakse teisest juriidilisest isikust skontoga
-Fabrikam võtab Fabrikami kliendi kontole 4000, Northwind Tradersile vastu makse 580,00 ühikut. Fabrikami East on kliendi 4000 avatud arve. Arvele on saadaval skonto 20,00 ühikut. Makse tasakaalustatakse avatud Ida Fabrikami arvetega. Skonto sisestatakse arve juriidilisele isikule, kelleks on Fabrikam East.
+Fabrikam võtab Fabrikami kliendi kontole 4000, Northwind Tradersile vastu makse 580,00 ühikut. Fabrikam Eastil on avatud arve kliendile 4000. Arvele on saadaval skonto 20,00 ühikut. Makse tasakaalustatakse avatud Ida Fabrikami arvetega. Skonto sisestatakse arve juriidilisele isikule, kelleks on Fabrikam East.
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Arve sisestatakse Ida Fabrikami all Ida Fabrikami kliendile 4000
 
@@ -99,14 +102,14 @@ Fabrikam võtab Fabrikami kliendi kontole 4000, Northwind Tradersile vastu makse
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                         | Deebetsumma | Kreeditsumma |
 |---------------------------------|--------------|---------------|
 | Müügireskontro (Fabrikam)  | 580,00       |               |
 | Võlg Ida Fabrikamile (Fabrikam) |              | 580,00        |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                             | Deebetsumma | Kreeditsumma |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam võtab Fabrikami kliendi kontole 4000, Northwind Tradersile vastu makse
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                         | Deebetsumma            | Kreeditsumma           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam võtab Fabrikami kliendi kontole 4000, Northwind Tradersile vastu makse
 | Võlg Ida Fabrikamile (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
 | Realiseeritud kasum (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                             | Deebetsumma            | Kreeditsumma           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam sisestab makse Fabrikami kliendile 4000, Northwind Traders, avatud arve
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                         | Deebetsumma            | Kreeditsumma           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam sisestab makse Fabrikami kliendile 4000, Northwind Traders, avatud arve
 | Võlg Ida Fabrikamile (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
 | Realiseeritud kasum (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                             | Deebetsumma            | Kreeditsumma           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam sisestab makse Fabrikami kliendile 4000, Northwind Traders, avatud arve
 | Müügireskontro (Ida Fabrikam) |                         | 12,00 EUR / 14,47 USD   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>Näide 5: kliendi kreeditarve koos esmase maksega
-Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Makse tasakaalustatakse avatud arvega Lääne Fabrikami kliendile 10000 ja avatud kreeditarvega Ida Fabrikami kliendile 4000. Makse on märgitud esmase maksena on **paralleelkäibe** lehel.
+Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Makse tasakaalustatakse avatud arvega Lääne Fabrikami kliendile 10000 ja avatud kreeditarvega Ida Fabrikami kliendile 4000. Makse valitakse esmase maksena avatud lehel **Kannete tasakaalustamine**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Arve sisestatakse Lääne Fabrikami all kliendile 10000
 
@@ -224,7 +227,7 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikami makse tasakaalustatakse Lääne Fabrikami arvega ja Ida Fabrikami kreeditarvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                           | Deebetsumma | Kreeditsumma |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 | Müügireskontro (Fabrikam)    | 100,00       |               |
 | Võlg Lääne Fabrikamile (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                             | Deebetsumma | Kreeditsumma |
 |-------------------------------------|--------------|---------------|
 | Müügireskontro (Ida Fabrikam) | 25,00        |               |
 | Võlg Fabrikamile (Ida Fabrikam)     |              | 25,00         |
 
-**Fabrikam West posting**
+**Lääne Fabrikami sisestus**
 
 | Konto                             | Deebetsumma | Kreeditsumma |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 | Müügireskontro (Lääne Fabrikam) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>Näide 6: kliendi kreeditarve ilma esmase makseta
-Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Makse tasakaalustatakse avatud arvega Lääne Fabrikami kliendile 10000 ja avatud kreeditarvega Ida Fabrikami kliendile 4000. Makse ei ole märgitud esmase maksena on **paralleelkäibe** lehel.
+Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Makse tasakaalustatakse avatud arvega Lääne Fabrikami kliendile 10000 ja avatud kreeditarvega Ida Fabrikami kliendile 4000. Makset ei valita esmase maksena avatud lehel **Kannete tasakaalustamine**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Arve sisestatakse Lääne Fabrikami all kliendile 10000
 
@@ -273,21 +276,21 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikami makse tasakaalustatakse Lääne Fabrikami arvega ja Ida Fabrikami kreeditarvega
 
-**Fabrikam posting**
+**Fabrikami sisestus**
 
 | Konto                         | Deebetsumma | Kreeditsumma |
 |---------------------------------|--------------|---------------|
 | Müügireskontro (Fabrikam)  | 75,00        |               |
 | Võlg Lääne Fabrikamile (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Ida Fabrikami sisestus**
 
 | Konto                              | Deebetsumma | Kreeditsumma |
 |--------------------------------------|--------------|---------------|
 | Müügireskontro (Ida Fabrikam)  | 25,00        |               |
 | Võlg Lääne Fabrikamile (Ida Fabrikam) |              | 25,00         |
 
-**Fabrikam West posting**
+**Lääne Fabrikami sisestus**
 
 | Konto                                | Deebetsumma | Kreeditsumma |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 | Müügireskontro (Lääne Fabrikam)    |              | 75,00         |
 | Võlg Ida Fabrikamilt (Lääne Fabrikam) | 25,00        |               |
 | Müügireskontro (Lääne Fabrikam)    |              | 25,00         |
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Saate küsimustiku tulemusi vaadata ja hinnata"
-description: "Selles teemas selgitatakse, kuidas saab vaadata ja hinnata küsimustike vastuste täielik."
+description: "See teema selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsimustike tulemusi."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Saate küsimustiku tulemusi vaadata ja hinnata
 
-Selles teemas selgitatakse, kuidas saab vaadata ja hinnata küsimustike vastuste täielik. 
+See teema selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsimustike tulemusi. 
 
 Pärast seda, kui vastajad on küsimustiku täitnud, saate vaadata ja hinnata küsimustiku tulemusi järgmisel viisil.
 

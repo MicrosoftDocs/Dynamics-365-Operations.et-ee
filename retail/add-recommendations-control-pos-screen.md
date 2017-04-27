@@ -1,6 +1,6 @@
 ---
-title: Lisada soovitusi kontrolli tehingu lehele POS seade
-description: "Selles teemas kirjeldatakse soovitused juhtelement lisada kande ekraani Müügikoht (POS) seadme ekraani paigutuse kujundaja abil Microsoft Dynamics 365 toimingute küsimuses."
+title: Soovituste juhtelemendi lisamine kassaaparaadi kannetelehele
+description: See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Operationsi kuvapaigutuse kujundajat.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,55 +25,60 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Lisada soovitusi kontrolli tehingu lehele POS seade
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Soovituste juhtelemendi lisamine kassaaparaadi kannetelehele
 
-Selles teemas kirjeldatakse soovitused juhtelement lisada kande ekraani Müügikoht (POS) seadme ekraani paigutuse kujundaja abil Microsoft Dynamics 365 toimingute küsimuses.
+[!include[banner](includes/banner.md)]
 
-Korraga kuvatakse toote soovitused POS seadmes Microsoft Dynamics 365 kasutamisel toiminguteks. *Soovitused* kaup teie klient võib olla huvitatud oma ostuajalugu, oma lemmikute loendi üksuste ja teiste klientide internetist ostetud kaupade ja Telliskivi-ja mördi kauplustes. Toote soovitused kuvamiseks peate juhtelemendi lisamine tehingu ekraan ekraani paigutuse kujundaja abil.
 
-## <a name="open-layout-designer"></a>Avatud paigutus disainer
-1.  Mine **hulgi- ja kaubanduse**&gt;**kanali seaded**&gt;**POS seadistus**&gt;**POS**&gt;**ekraani paigutusega**.
-2.  Kiire filtri abil leida ekraani, mida soovite juhtelemendi lisada. Näiteks filtreerida ning **ekraani paigutuse ID** välja väärtuse "F2CP16:9M".
-3.  Otsige loendist ja valige soovitud kirje. Näiteks valige "nimi: F2CP16:9M paigutuse ID: F2CP16:9M".
-4.  Klõpsake **paigutuse disainer**.
-5.  Järgige viipasid käivitada paigutus disainer. Kui küsitakse mandaati, sisestage sama mandaati, mis olid kasutuses, kui paigutus disainer alustas **ekraani paigutusega** lehel.
-6.  Kui te logite sisse, kuvatakse leht sarnaneb allpool. Paigutus on erinevad, sõltuvalt teie poe tehtud kohandused.
+See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Operationsi kuvapaigutuse kujundajat.
 
-[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) valida kuvamissuvandi
+Saate Microsoft Dynamics 365 for Operationsi kasutamisel kuvada kassaaparaadis tootesoovitusi. *Soovitused* on kaubad, millest teie klient võib oma ostuajaloo, oma sooviloendi kaupade ja teiste klientide võrgu- ja füüsilistest poodidest ostetud kaupade põhjal huvituda. Tootesoovituste kuvamiseks peate lisama kannetekuvale juhtelemendi, kasutades kuvapaigutuse kujundajat.
+
+## <a name="open-layout-designer"></a>Paigutusekujundaja avamine
+1.  Minge jaotisse **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa** &gt; **Kuvapaigutused**.
+2.  Leidke kiirfiltri abil kuva, kuhu soovite juhtelemendi lisada. Näiteks saate filtreerida välja **Kuvapaigutuse ID** väärtuse „F2CP16:9M” järgi.
+3.  Otsige loendist ja valige soovitud kirje. Valige näiteks Nimi: F2CP16:9M Kuvapaigutuse ID: F2CP16:9M”.
+4.  Klõpsake valikut **Paigutusekujundaja**.
+5.  Järgige paigutusekujundaja avamiseks viipasid. Kui küsitakse identimisteavet, sisestage sama identimisteave, mida kasutasite, kui paigutusekujundaja lehel **Kuvapaigutused** käivitasite.
+6.  Sisselogimisel avaneb alltoodule sarnane leht. Paigutus erineb olenevalt teie poele tehtud kohandustest.
+
+[![kuvapaigutuse-pilt-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Kuvamisvaliku tegemine
 -----------------------
 
-Seal on kaks koosseisud võimalusi. Valige suvand, mis vastab kõige paremini teie poodi ja järgige juhiseid kontrolli lõpetamiseks. On kaks võimalust:
--   Soovitused on alati nähtav.
--   A **soovitused** vahekaardil kuvatakse ekraani paremas servas.
+Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja järgige juhtelemendi seadistamise lõpetamiseks järelejäänud juhiseid. Võimalused on järgmised.
+-   Soovitused on alati nähtaval.
+-   Kuva paremas servas olevas ruudustikus kuvatakse vahekaart **Soovitused**.
 
-#### <a name="to-make-recommendations-always-visible"></a>Soovitused alati nähtavaks
+#### <a name="to-make-recommendations-always-visible"></a>Soovituste alati nähtavaks tegemine
 
-1.  Vähendada kõrgus kande ridade üksikasjad ala, nii et see on sama kõrge kui klient paneel vasakul pool. [](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
-2.  Vasakult menüüst lohistada soovitused kontrolli tehingu rida üksikasjad ja vahele center Tehingu ekraani allservas nuppu ruudustikus. Juhtelemendi suurust muuta, et see sobituks elamispinnal. [](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
-3.  Klõpsake selle **X** salvestamiseks ja väljumiseks paigutus disainer.
-4.  Dynamics 365 toiminguteks, minge **hulgi- ja kaubanduse**&gt;**jaemüügi see**&gt;**Distribution plaanid**.
-5.  Valige loendist, **1090 registreerib**.
-6.  Klõpsake **Käivita kohe**.
+1.  Vähendage kanderidade üksikasjade ala kõrgust, nii et see oleks sama kõrge kui vasakul asuv kliendipaneel.[](./media/pic-2.png)[![kuvapaigutuse-pilt-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+2.  Pukseerige soovituste juhtelement vasakul asuvast menüüst kanderea üksikasjade ala ja kannetekuva alaosa keskel asuva nupuruudustiku vahele. Muutke juhtelemendi suurust, nii et see mahuks olemasolevasse ruumi.[](./media/pic-3.png)[![kuvapaigutuse-pilt-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+3.  Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.
+4.  Dynamics 365 for Operationsis minge jaotisse **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
+5.  Valige loendist suvand **1090, registrid**.
+6.  Klõpsake valikut **Käivita kohe**.
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Soovitused vahekaardi lisamiseks nuppu Koordinaatvõrgu ekraani paremal
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Soovituste vahekaardi lisamine kuva paremas servas olevasse nupuruudustikku
 
-1.  Paremklõpsake tühjal viimase vahekaardi kohta asub lehe paremas servas nuppu all.
-2.  Klõpsake **kohandamine**. [![pic-5](./media/pic-5.png)](./media/pic-5.png)
-3.  Klõpsake **uue vahekaardi**.
-4.  Otsige uue vahekaardi, lisatud. Peate allapoole kerida.
-5.  Aastal ning **sisu** rippmenüü, Vali **soovitatud tooted**. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
-6.  Linnas on **Label** välja, tippige vahekaardile soovitusi. Näiteks tippige "Soovitatavad tooted".
-7.  Aastal ning **pilt** pildi kuvada vahekaardi number.
-8.  Click **OK**. Vahekaardil kuvatakse nupp.
-9.  Klõpsake selle **X** salvestamiseks ja väljumiseks paigutus disainer.
-10. Dynamics 365 toiminguteks, minge **hulgi- ja kaubanduse**&gt;**jaemüügi see**&gt;**Distribution plaanid**.
-11. Valige loendist, **1090 registreerib**.
-12. Klõpsake **Käivita kohe**.
+1.  Paremklõpsake lehe paremas servas asuva nupuruudustiku viimase vahekaardi all olevat tühja ruumi.
+2.  Klõpsake valikut **Kohanda**.[![pilt-5](./media/pic-5.png)](./media/pic-5.png)
+3.  Klõpsake valikut **Uus vahekaart**.
+4.  Leidke vastlisatud uus vahekaart. Võib-olla peate selleks allapoole kerima.
+5.  Valige ripploendist **Sisu** suvand **Soovitatud tooted**. [![pilt-6](./media/pic-6.png)](./media/pic-6.png)
+6.  Tippige väljale **Silt** soovituste vahekaardi nimi. Tippige näiteks „Soovitatud tooted”.
+7.  Valige väljal **Pilt** vahekaardil kuvatav pilt.
+8.  Klõpsake **OK**. Uus vahekaart kuvatakse nupuruudustikus.
+9.  Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.
+10. Dynamics 365 for Operationsis minge jaotisse **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
+11. Valige loendist suvand **1090, registrid**.
+12. Klõpsake valikut **Käivita kohe**.
 
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Isikupärastatud ülevaade soovitused](personalized-product-recommendations.md)
+[Isikupärastatud tootesoovituste ülevaade](personalized-product-recommendations.md)
+
+
 
 

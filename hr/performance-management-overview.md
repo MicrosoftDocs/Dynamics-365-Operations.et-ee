@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Jõudlushalduse ülevaade
 
+[!include[banner](includes/banner.md)]
+
+
 Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid.  
 
 Nagu on näha järgmiselt diagrammilt, on teil protsessi haldamiseks kolm lehte.
@@ -34,7 +37,7 @@ Nagu on näha järgmiselt diagrammilt, on teil protsessi haldamiseks kolm lehte.
 -   Eesmärgid
 -   Tulemuslikkuse hindamine
 
-Järgmine diagramm näitab, kuidas on jõudlushalduse peamised komponendid omavahel seotud. [![Täitmise ülevaade](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Järgmine diagramm näitab, kuidas on jõudlushalduse peamised komponendid omavahel seotud. [![Jõudluse protsessi ülevaade](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Jõudluse tööraamat
 Töövõtjana kogute enne ülevaate lõpuleviimist sageli teavet tegevuste ja sündmuste kohta, mis aitasid ülevaatusperioodi jooksul kaasa teie edule. Jõudluse tööleht on koht nende tegevuste ja sündmuste dokumenteerimiseks. Lisaks saate luua tulevasi sündmusi, mis tuleb lõpetada, et saavutada eesmärke, vastata arenguplaani nõuetele või täita jõudlusega seotud kohustusi. Jõudluse töölehti ei ole vaja eesmärkide või jõudluse ülevaadete loomiseks. 
@@ -132,7 +135,7 @@ Saate kasutada töötaja ülevaate töövoogu ülevaate kinnitamise kontrollimis
 Töötaja ülevaate töövool on kaks järgmist elementi.
 
 1.  Ülevaate kinnitamine. Lisage see element oleku muudatuse kontrollimiseks olekust **Pooleli** olekuni **Ülevaatuseks valmis**. Muutke määramist, et kasutada juhtimishierarhiast, kus juhataja tase Employee.line = 1.
-2.  Lõplik ülevaade. Lisage see element kontrollida staatuse muutus **läbivaatuseks valmis** et **lõppkokkuvõtte**. Muuta määramise kasutada juhtide hierarhia kui Employee.line manager tase = 1, kui soovite manager lõpliku aruande kinnitamiseks. Muutke määramine töövoo kasutajaks, kui soovite, ülevaate kinnitaks töövõtja. Kui soovite, et ülevaate kinnitaks nii juhataja kui ka töövõtja, lisake töövoogu kaks etappi ja tehke iga etapi jaoks vastav määramine järjekorras, milles soovite kinnitamisi.
+2.  Lõplik ülevaade. Lisage see element oleku muudatuse kontrollimiseks olekust **Ülevaatuseks valmis** olekuni **Lõplik ülevaade**. Muutke määramist, et kasutada juhtimishierarhiast, kus juhataja tase Employee.line = 1, kui soovite, et juhataja kinnitaks lõpliku ülevaate. Muutke määramine töövoo kasutajaks, kui soovite, ülevaate kinnitaks töövõtja. Kui soovite, et ülevaate kinnitaks nii juhataja kui ka töövõtja, lisake töövoogu kaks etappi ja tehke iga etapi jaoks vastav määramine järjekorras, milles soovite kinnitamisi.
 
 ## <a name="setup"></a>Häälestus
 Saadaval on kolm lehte, mis aitavad teil häälestada jõudluse protsessi lõpetamiseks vajalikku teavet: **mõõtmiste** leht, **jõudluse töölehe allikatüüpide** leht ja **ülevaate tüüpide** leht.
@@ -148,5 +151,7 @@ Jõudluse töölehe allikatüübid kirjeldavad, kust jõudluse töölehed tuleva
 ### <a name="review-types"></a>Ülevaate tüübid
 
 Jõudluse ülevaate tüübid aitavad teil kontrollida ülevaate käitumist. Saate lubada või keelata ülevaate töövoo. Kui ülevaade ei kasuta töövoogu, saate määrata vaikeoleku, mida kasutatakse ülevaate loomisel. Samuti saate otsustada, kas ülevaatele peavad nõusoleku andma töövõtja, juhataja või mõlemad.
+
+
 
 

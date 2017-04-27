@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Lahknevuste lahendamine arve kogusummade võrdlemisel
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Arvete võrdlemise kinnitamise üks tüüp on arvete kogusummade võrdlemine. Selleks, et määrata, et süsteem peaks arvete kogusummasid võrdlema, määrake lehe **Ostureskontro parameetrid** vahekaardil **Arve kinnitamine** suvandi **Arvesummade võrdlemine** väärtuseks **Jah**. 
@@ -39,6 +42,8 @@ Pärast lahknevuse tuvastamist peate vajaduse korral võtma ühendust hankijaga,
 -   Aktsepteerima hinnaerinevust ja sisestama arve, millel on vastenduste lahknevus. Süsteem võib olla seadistatud teilt kinnitust küsima, enne kui saab sisestada, kas võrdluslahknevusi on. Sel juhul peate kinnitama võrdluslahknevuse ja saate valikuliselt sisestada kinnituse kommentaari. Seejärel saate valida, kas soovite arve sisestada.
 -   Tegema arve summa ümber eeldatavale summale ja sisestama arve.
 -   Taotlema hankijalt täiskrediiti ja uut parandatud arvet.
+
+
 
 
 

@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organizations-and-organizational-hierarchies"></a>Organisatsioonid ja organisatsiooni hierarhiad
 
+[!include[banner](../includes/banner.md)]
+
+
 Organisatsiooni on grupp inimesi, kes töötavad koos äriprotsessi või eesmärgi saavutamiseks. Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate organisatsioonide vahelisi seoseid.
 
 <a name="organizations"></a>Organisatsioonid
 -------------
 
-Microsoft Dynamics 365 toiminguteks, saate määratleda järgmist tüüpi sisemine organisatsioonid: juriidilised isikud tegutsevad üksused ja meeskonnad.
+Microsoft Dynamics 365 for Operationsis saate määratleda järgmist tüüpi siseorganisatsioonid: juriidilised isikud, tootmisüksused ja töörühmad.
 
 Kõik siseorganisatsioonid on **osapoole** üksuse tüübid. Seetõttu kasutavad need organisatsioonid aadressi- ja kontaktteave talletamiseks aadressiraamatut. Osapool, mis saab olla kas isik või organisatsioon, võib kuuluda ühte või mitmesse aadressiraamatusse.
 ### <a name="legal-entities"></a>Juriidilised isikud
 
-Juriidiline isik on registreeritud või õigusliku struktuuriga organisatsioon. Juriidilised isikud võivad sõlmida juriidilisi lepinguid ja on kohustatud koostama oma tegevuse kohta aruandeid. Ettevõte on juriidiline isik. Selles versioonis Microsoft Dynamics 365 toiminguteks, ettevõtted on saate luua ainult selline juriidiline isik ja iga juriidiline isik on seotud ka ettevõtte ID. See seos on olemas, kuna mõni programmi funktsioonivaldkond kasutab oma andmemudelis ettevõtte ID-d või atribuuti DateAreaId. Neis funktsioonivaldkondades kasutatakse ettevõtteid andmeturbe piirina. Kasutajad pääsevad juurde ainult selle ettevõtte andmetele, millesse nad parasjagu sisse on loginud.
+Juriidiline isik on registreeritud või õigusliku struktuuriga organisatsioon. Juriidilised isikud võivad sõlmida juriidilisi lepinguid ja on kohustatud koostama oma tegevuse kohta aruandeid. Ettevõte on juriidiline isik. Selles Microsoft Dynamics 365 for Operationsi versioonis on ettevõtted ainsad juriidilised isikud, mida saate luua, ja iga juriidiline isik on seostatud ettevõtte ID-ga. See seos on olemas, kuna mõni programmi funktsioonivaldkond kasutab oma andmemudelis ettevõtte ID-d või atribuuti DateAreaId. Neis funktsioonivaldkondades kasutatakse ettevõtteid andmeturbe piirina. Kasutajad pääsevad juurde ainult selle ettevõtte andmetele, millesse nad parasjagu sisse on loginud.
 
 ### <a name="operating-units"></a>Tootmisüksused
 
-Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks. Inimestel tootmisüksuses on kohustus maksimeerida nappide ressursside kasutamist, täiustada protsesse ja vastutada nende toimivuse eest. Microsoft Dynamics 365 operatsioonide üksused tüübid kulukeskuste, äriüksused, väärtus ojad, osakondade ja jaemüügikanalid. Järgmine tabel annab lisateavet iga tüüpi tootmisüksuse kohta.
+Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks. Inimestel tootmisüksuses on kohustus maksimeerida nappide ressursside kasutamist, täiustada protsesse ja vastutada nende toimivuse eest. Microsoft Dynamics 365 for Operationsis hõlmavad tootmisüksuste tüübid kulukeskuseid, äriüksuseid, väärtusevooge, osakondi ja jaemüügikanaleid. Järgmine tabel annab lisateavet iga tüüpi tootmisüksuse kohta.
 | Tootmisüksuse tüüp | Kirjeldus                                                                                                                                    | Eesmärk                                                                                                                                 |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Kulukeskus         | Tootmisüksus, mille juhid vastutavad eelarveliste ja tegelike kulude eest.                                                      | Kasutatakse juriidilisi isikuid hõlmavate äriprotsesside haldamiseks ja tegevusjuhtimiseks.                                         |
@@ -55,7 +58,9 @@ Töörühm on organisatsioon, mille liikmed jagavad ühist vastutust, huvi või 
 Organisatsiooni hierarhiad
 --------------------------
 
-Organisatsiooni hierarhiate seadistamine võimaldab teil oma äri vaadata ja selle aruandlust teha erinevatest aspektidest. Näiteks saate seadistada juriidiliste isikute hierarhia maksu-, õigus- või seadusliku aruandluse jaoks. Saate seadistada tootmisüksustel põhineva hierarhia finantsteabe aruandluseks, mis ei ole õiguslikult vajalik, kuid mida kasutatakse sisejuhtimiseks. Näiteks saate luua ostuhierarhia ostupoliitikate, -reeglite ja äriprotsesside juhtimiseks. Iga hierarhia on määratud Microsoft Dynamics 365 tegevuse eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada. Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul alistada. Organisatsioonide ja hierarhiate loomine nõuab hoolikat planeerimist. Lisateavet kohta vt teemast [Organisatsiooni hierarhia planeerimine](plan-organizational-hierarchy.md).
+Organisatsiooni hierarhiate seadistamine võimaldab teil oma äri vaadata ja selle aruandlust teha erinevatest aspektidest. Näiteks saate seadistada juriidiliste isikute hierarhia maksu-, õigus- või seadusliku aruandluse jaoks. Saate seadistada tootmisüksustel põhineva hierarhia finantsteabe aruandluseks, mis ei ole õiguslikult vajalik, kuid mida kasutatakse sisejuhtimiseks. Näiteks saate luua ostuhierarhia ostupoliitikate, -reeglite ja äriprotsesside juhtimiseks. Igale hierarhiale määratakse Microsoft Dynamics 365 for Operationsis eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada. Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul alistada. Organisatsioonide ja hierarhiate loomine nõuab hoolikat planeerimist. Lisateavet kohta vt teemast [Organisatsiooni hierarhia planeerimine](plan-organizational-hierarchy.md).
+
+
 
 
 

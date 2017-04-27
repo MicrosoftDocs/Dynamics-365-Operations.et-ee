@@ -1,6 +1,6 @@
 ---
-title: Kuva kanded tasakaalustamisel Ida-Euroopa
-description: See teema pakub klientide ja hankijate kannete teavet lahendamise lehel.
+title: Ida-Euroopa kannete vaatamine tasakaalustamisel
+description: "Selles teemas käsitletakse lehe Kanded tasakaalustamisel teavet klientide ja hankijate kohta."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,24 +25,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-transactions-on-settlement-for-eastern-europe"></a>Kuva kanded tasakaalustamisel Ida-Euroopa
+# <a name="view-transactions-on-settlement-for-eastern-europe"></a>Ida-Euroopa kannete vaatamine tasakaalustamisel
 
-See teema pakub klientide ja hankijate kannete teavet lahendamise lehel.
+[!include[banner](../includes/banner.md)]
 
-Kasutamine ning **kanded tasakaalustamisel** lehekülg, et vaadata teavet keerukate Tasakaalustuskannete jaoks klient või hankija. See funktsioon on saadaval ainult juriidiliste isikute, nende peamine aadress on Leedu, Läti, Eesti, Tšehhi Vabariik, Ungari ja Poola. Leiad selle **kanded tasakaalustamisel** lehe järgmistes kohtades:
 
--   **Arved**&gt;**müüjad**&gt;**hankijate**. Updatehagi paani kohta ning **hankija** vahekaardil, klõpsake **tehingute**&gt;**tehingute**. Kohta ning **hankijakannete** lehekülg, valige kanne ja klõpsake **kanded tasakaalustamisel**.
--   **Ostjatelt laekumata arved**&gt;**hotelli**&gt;**kõik kliendid**. Updatehagi paani kohta ning **kliendi** vahekaardil, klõpsake **tehingute**. Kohta ning **kliendikannete** lehekülg, valige kanne ja klõpsake **kanded tasakaalustamisel**.
+Selles teemas käsitletakse lehe Kanded tasakaalustamisel teavet klientide ja hankijate kohta.
 
-Lahendamise seotud teave on jäädvustatud ja saab selle **kanded tasakaalustamisel** lehekülg oli loodud järgmistel juhtudel:
+Kasutage lehte **Kanded tasakaalustamisel** teabe kuvamiseks kliendi või hankija keerukate tasakaalustuskannete kohta. See funktsioon on saadaval ainult juriidilistele isikutele esmase aadressiga Leedus, Lätis, Eestis, Tšehhi Vabariigis, Ungaris või Poolas. Leiate lehe **Kanded tasakaalustamisel** järgmistest kohtadest:
 
--   **Valuutakursi korrigeerimine** – arve ja makse tekitab realiseeritud või realiseerimata valuutakursi erinevusi.
--   **Postitad profiili muutmine** – kaht sissesõitu, nagu arve ja kreeditarve, millel on erinevad profiilid on lahendatud.
--   Ettemaksu teisendatakse makse või makse teisendatakse ettemaksu.
--   **Allahindlus** -arve on tasakaalustatud makse hinnaalandi summa on lahutatud.
--   **Sendierinevus** – arve tasumisega, mis on veidi erinevad summa, kui arve tasakaalustamisel.
--   **Tingimusliku käibemaksu** – arve tasakaalustamisel tingimuslik käibemaks on seotud maksega.
--   **Cross-firma lahendamise** – Kontserniarvestuse funktsioonidega kasutatakse organisatsiooni tasutud arve.
+-   **Ostureskontro** &gt; **Hankijad** &gt; **Kõik hankijad**. Klõpsake tegumiriba vahekaardil **Hankija** valikuid **Kanded** &gt; **Kanded**. Valige lehelt **Hankija kanded** kanne ja klõpsake siis valikut **Kanded tasakaalustamisel**.
+-   **Müügireskontro** &gt; **Kliendid** &gt; **Kõik kliendid**. Klõpsake tegumiriba vahekaardil **Klient** valikut **Kanded**. Valige lehelt **Kliendi kanded** kanne ja klõpsake siis valikut **Kanded tasakaalustamisel**.
+
+Hõivatakse tasakaalustamisega seotud andmed ja need saab kuvada lehel **Kanded tasakaalustamisel** kannete puhul, mis loodi järgmistes stsenaariumides.
+
+-   **Valuutakursi korrigeerimine** – arve ja makse tasakaalustamine loob realiseeritud või realiseerimata vahetuskursi erinevuse.
+-   **Sisestusreeglite muutmine** – tasakaalustatakse kaks erinevate sisestusreeglitega kirjet, nt arve ja kreeditarve.
+-   Ettemakse teisendatakse makseks või makse teisendatakse ettemakseks.
+-   **Skonto** – arve tasakaalustatakse maksega, millest on maha arvatud allahindluse summa.
+-   **Sendierinevus** – arve tasakaalustatakse maksega, millel on arvest veidi erinev summa.
+-   **Tingimusliku maksu sisestamine** – arve tasakaalustatakse maksega, millele on rakendatud tingimuslik maks.
+-   **Ettevõtetevaheline tasakaalustamine** – kontsernisisest funktsiooni kasutatakse arve tasakaalustamiseks organisatsiooni maksega.
+
+
 
 
 

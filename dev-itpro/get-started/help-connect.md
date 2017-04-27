@@ -28,18 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="connect-the-help-system"></a>Spikrisüsteemi ühendamine
 
-Teema käsitleb Microsoft Dynamics 365 toimingute abiinfo süsteemi komponendid. See annab ülevaate, kuidas need komponendid ühendada ja kokkuvõte, kuidas luua kohandatud abi. 
+Selles teemas kirjeldatakse Microsoft Dynamics 365 for Operationsi spikrisüsteemi komponente. Antakse ülevaade nende komponentide ühendamisest ning kokkuvõte kohandatud spikri loomisest. 
 
 <a name="help-architecture"></a>Spikri arhitektuur
 -----------------
 
-Järgmisel joonisel on Dynamics 365 toimingute aidata süsteemi osa. -Toote spikrisüsteemist tõmbab artiklite Dynamics 365 toimingute saidi https://docs.microsoft.com, samuti ülesandeks juhendid talletatakse Business protsessi Modeler elutsükli teenused (LCS). 
-**Märkus:** funktsioonid, mis on loetletud tabelis tärniga (\*) on planeeritud, kuid ei ole veel saadaval. [![Help architecture](./media/help-architecture.png)](./media/help-architecture.png)
+Järgmisel joonisel on näidatud Microsoft Dynamics 365 for Operationsi spikrisüsteemi osad. Toote sisespikri süsteem toob artikleid Dynamics 365 for Operationsi saidilt https://docs.microsoft.com ja tegevusejuhistest, mis on salvestatud teenuse Microsoft Dynamics Lifecycle Services (LCS) äriprotsesside modelleerijasse. 
+**Märkus** Joonisel tärniga (\*) märgitud funktsioonid on meil plaanis, kuid pole veel saadaval. [![Spikri arhitektuur](./media/help-architecture.png)](./media/help-architecture.png)
 
-## <a name="connecting-the-help-system"></a>Abiinfo süsteemi ühendamine
-Kasutades on **süsteemi parameetrid** leht, süsteemiadministraatorid ühendust metallitükid Abiinfo süsteemi rakendamist. [![Süsteemi parameetrid vormi abi seaded](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) kohta on **süsteemi parameetrid** lehekülg, järgige neid samme:
+## <a name="connecting-the-help-system"></a>Spikrisüsteemi ühendamine
+Lehel **Süsteemiparameetrid** saavad süsteemiadministraatorid spikrisüsteemi osad juurutamiseks ühendada. [![Süsteemi parameetrite vorm koos spikri sätetega](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Järgige lehel **Süsteemi parameetrid** järgmisi etappe.
 
-1.  **Tähtis:** esimene kord, kui avate selle **aidata** jaotises ühendamist elutsükli teenuseid. Kindlasti klõpsake linki keset vormi, oodake ühendust, sulgege see ja klõpsake **OK** saada selle **süsteemi parameetrid** lehel. [![Ühendada LCS](./media/connect-to-lcs-crop-1024x365.png "ühendada LCS")](./media/connect-to-lcs-crop.png)
+1.  **Oluline:** vahekaardi **Spikker** esmakordsel avamisel peate looma ühenduse teenusega Lifecycle Services. Klõpsake kindlasti vormi keskel olevat linki, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel klõpsake lehe **Süsteemiparameetrid** avamiseks **OK**.[![LCS-iga ühenduse loomine](./media/connect-to-lcs-crop-1024x365.png "LCS-iga ühenduse loomine")](./media/connect-to-lcs-crop.png)
 2.  Valige elutsükli teenuste projekt, millega ühendus luua.
 3.  Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.
 4.  Valige BPM-i teekide kuvamise järjekord. See määrab teekidest pärinevate tegevuse salvestiste kuvamise järjekorra paanil **Spikker**.
@@ -48,23 +48,23 @@ Kui olete need toimingud lõpetanud, võite avada paani **Spikker** ja klõpsata
 
 ### <a name="showing-translated-task-guides"></a>Tõlgitud tegevusjuhiste kuvamine
 
-Tõlgitud ülesandeks juhendid esimesena lähetati mais 2016 APQC ühendatud raamatukogu ja raamatukogu alustamine. Dynamics 365 for Operationsis lokaliseeritud tegevusjuhise vaatamiseks veenduge, et teil oleks ühendus mai teegiga. Keel, mis kuvatakse ülesande juhend reguleerib iga kasutaja keele seaded all **Valikud**&gt;**eelistused**. **Märkus:** kuigi paljud tegevusjuhised on tõlgitud, ei kuva Dynamics 365 for Operationsi klient praegu tõlgitud tegevusjuhiste nimesid. Samuti puuduvad ainult ülesandeks juhendid, mis anti välja veebruaris 2016 mai Raamatukogu tõlge. Anname välja värskendatud teegi täiendavate tõlgetega.
+Tõlgitud tegevusjuhised edastati esmakordselt 2016. aasta mai APQC ühendatud teegis ja teegis Alustamine. Dynamics 365 for Operationsis lokaliseeritud tegevusjuhise vaatamiseks veenduge, et teil oleks ühendus mai teegiga. Keelt, milles tegevusjuhis kuvatakse, juhitakse iga kasutaja puhul keelesätetega jaotises **Suvandid** &gt; **Eelistused**. **Märkus:** kuigi paljud tegevusjuhised on tõlgitud, ei kuva Dynamics 365 for Operationsi klient praegu tõlgitud tegevusjuhiste nimesid. Samuti on praegu 2016. aasta mai teegis tõlkena saadaval ainult veebruaris välja antud tegevusjuhised. Anname välja värskendatud teegi täiendavate tõlgetega.
 
 -   Kui tegevusjuhis on tõlgitud, siis kuvatakse tegevusjuhise avamisel kogu selle tekst teie valitud keeles.
 -   Kui tegevusjuhist pole veel tõlgitud, siis kuvatakse tegevusjuhise avamisel teie valitud keeles ainult osa tekstist (juhtelementide tekst).
 
 ## <a name="creating-custom-help"></a>Kohandatud spikri loomine
-Saate luua oma Dynamics 365 for Operationsi eksemplarile kohandatud spikri, luues tegevuste salvestised, mis kajastavad teie eksemplari, ja salvestades need LCS-i äriprotsesside teeki. Partneritele: kui teete olemasoleva teegi ettevõtte teegiks ja lisate selle lahendusse, on see teie klientidele kättesaadav. Võite teha koopia ka APQC teegist Unified global library ja avada siis oma eksemplari, avada selle tegevuste salvestised, muuta neid ja salvestada salvestised oma muudatustega. Lisateabe saamiseks vaadake [tööülesande salvestamine kasutada või koolituse loomine](../user-interface/task-recorder.md).
+Saate luua oma Dynamics 365 for Operationsi eksemplarile kohandatud spikri, luues tegevuste salvestised, mis kajastavad teie eksemplari, ja salvestades need LCS-i äriprotsesside teeki. Partneritele: kui teete olemasoleva teegi ettevõtte teegiks ja lisate selle lahendusse, on see teie klientidele kättesaadav. Võite teha koopia ka APQC teegist Unified global library ja avada siis oma eksemplari, avada selle tegevuste salvestised, muuta neid ja salvestada salvestised oma muudatustega. Lisateavet leiate teemast [Kuidas luua tegevuste salvestisi koolitusel dokumentatsioonina kasutamiseks](../user-interface/task-recorder.md).
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Help overview](help-overview.md)
+[Spikri ülevaade](help-overview.md)
 
-[Ülesanne salvesti ülevaade](../user-interface/task-recorder.md)
+[Tegevuse salvestaja ülevaade](../user-interface/task-recorder.md)
 
 [Kuidas luua tegevuse salvestist dokumentide või koolitusena kasutamiseks](../user-interface/task-recorder-training-docs.md)
 
-[Uus koolitus teekide loomise Dynamics 365 piires elutsükli teenuste kasutamise lindistaja ülesanne (External link)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Uute koolitusteekide loomine Dynamics 365 for Operationsi abil teenustes Lifecycle Services, kasutades tegevuse salvestajat (väline link)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
 

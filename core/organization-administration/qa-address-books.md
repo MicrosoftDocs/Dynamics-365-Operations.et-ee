@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Aadressiraamatud
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Kuidas topeltkirjeid kontrollida?
@@ -53,7 +56,7 @@ Saate muuta osapoole kirje nime ja selle kirjega seotud aadresse igal ajal.
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>Kas saan ühendada mitu osapoole kirjet üheks kirjeks?
 Mõnikord võib olla vaja ühendada mitu osapoole kirjet üheks kirjeks. See võib juhtuda, kui loote osapoole kirjeid tahtlikult või tahtmatult topelt. Osapoole kirjete ühendamisel tuleb valida üks kirje, mis alles jäetakse. Seejärel lisatakse teiste kirjete andmed sellesse kirjesse. Näiteks avastate, et Fabrikami andmed on salvestatud kolme osapoole kirjesse: A, B ja C. Otsustate hoida alles osapoole kirje A. Seetõttu lisatakse osapoole kirjetesse B ja C salvestatud andmed osapoole kirjesse A. On mõned olukorrad, kus osapoole kirjeid ei saa ühendada.
 
--   Ühendada ei saa neid osapoole kirjeid, mis on seotud sama osapoole rolliga (nt kliendi või hankijaga) samas juriidilises isikus. Näiteks isik A on seotud kliendi õigussubjekti 123 ja pool B on seotud erinevate kliendi õigussubjekti 123. Neid pool kirjeid ei saa ühendada, sest kui nad olid ühendatud, ühendatud osapoole kirje on seotud klientidega sama juriidilise isiku, ja see ei ole lubatud. Kuid kirjeid saab ühendada, kui osapool B on seotud hankijaga juriidilises isikus 123 või kliendiga teises juriidilises isikus.
+-   Ühendada ei saa neid osapoole kirjeid, mis on seotud sama osapoole rolliga (nt kliendi või hankijaga) samas juriidilises isikus. Näiteks oletame, et osapool A on seotud kliendiga juriidilises isikus 123 ja osapool B on seotud teise kliendiga juriidilises isikus 123. Neid osapoole kirjeid ei saa ühendada, kuna nende ühendamisel oleks ühendatud osapoole kirje seotud mitme kliendiga samas juriidilises isikus ja see pole lubatud. Kuid kirjeid saab ühendada, kui osapool B on seotud hankijaga juriidilises isikus 123 või kliendiga teises juriidilises isikus.
 -   Ühendada ei saa sisemise osapoole organisatsioonikirjeid samas juriidilises isikus, töörühmas või tootmisüksuses.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>Kas peaksin looma osapoole kirje globaalses aadressiraamatus või muus kohas, näiteks kliendi või hankija lehel?
@@ -64,5 +67,7 @@ Saate sisestada osapoole kirjeid globaalsesse aadressiraamatusse või vastava ü
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Kas saan tõlkida osapoole kirjete aadressiteavet?
 Saate seadistada aadressiteabe tõlkeid, nii et teave kuvatakse Microsoft Dynamics 365 for Operationsis teie kasutajakeeles (süsteemikeeles), kuid dokumentidel (nt müügitellimustel) muus keeles. Saate sisestada riigi/piirkonna nimede, aadressi eesmärkide ja nimeseeriate tõlkeid. Näiteks oletame, et teie süsteemikeel on taani keel ja loote müügitellimuse Prantsusmaal asuvale kliendile. Sel juhul saate vaadata kliendikirjet programmis taani keeles, kuid kuvada prinditud müügitellimusel aadressiteabe prantsuse keeles. Tõlgete seadistamisel tuleb sisestada iga loendis oleva üksuse tõlke. Kõik üksused, millele te tõlget ei sisesta, kuvatakse süsteemikeeles. Näiteks oletame, et teie süsteemikeel on taani keel ja saadate dokumendi Hispaanias asuvale kliendile. Kui te pole sisestanud aadressiteabele hispaaniakeelseid (ESP) tõlkeid, kuvatakse see teave taani keeles nii programmis kui ka prinditud dokumendil.
+
+
 
 

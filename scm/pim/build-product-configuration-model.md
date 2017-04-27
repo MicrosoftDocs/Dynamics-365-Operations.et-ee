@@ -1,5 +1,5 @@
 ---
-title: Luua toote konfiguratsiooni mudel
+title: Toote konfiguratsioonimudeli koostamine
 description: "Erinõuetele vastamiseks toodete konfigureerimise vajadus on saamas erandist reegliks nii ettevõtetevahelistes kui ka ettevõtte ja tarbija vahelistes suhetes."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="build-a-product-configuration-model"></a>Luua toote konfiguratsiooni mudel
+# <a name="build-a-product-configuration-model"></a>Toote konfiguratsioonimudeli koostamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Erinõuetele vastamiseks toodete konfigureerimise vajadus on saamas erandist reegliks nii ettevõtetevahelistes kui ka ettevõtte ja tarbija vahelistes suhetes.
 
@@ -34,7 +37,7 @@ Tootjal, kes toetab tellimisel konfigureeritav tüüpi stsenaariume, on võimalu
 
 Edukas liikumine seadistuselt toodang lattu seadistusele tellimisel konfigureeritav nõuab hoolikat tootestruktuuride analüüsi, tootesarjade tuvastamist ja komponentiseerimist. Protsessis olevate osade arvu vähendamiseks ja kaupade arvu minimeerimiseks on väga oluline, et mõistate toote liideseid ja et kujundate korduvkasutust silmas pidades.  
 
-On olemas mitmeid tootekonfiguratsiooni modelleerimise põhimõtteid, nagureeglipõhine, dimensioonipõhine ja piirangupõhine modelleerimine. Uuringud näitavad, et piirangupõhine meetod võib vähendada koodiridade arvu mudelites umbes 50 protsendi võrra võrrdeldes muude modelleerimispõhimõtetega. Seega võib see meetod vähendada omanduse kogukulu (TCO). Liigutades reeglitel põhinev mudel, mis põhineb X ++ koodi piiranguteta põhineva mudeliga, mida enam ei vajata arendaja litsentsi tootemudelite säilitamiseks.
+On olemas mitmeid tootekonfiguratsiooni modelleerimise põhimõtteid, nagureeglipõhine, dimensioonipõhine ja piirangupõhine modelleerimine. Uuringud näitavad, et piirangupõhine meetod võib vähendada koodiridade arvu mudelites umbes 50 protsendi võrra võrrdeldes muude modelleerimispõhimõtetega. Seega võib see meetod vähendada omanduse kogukulu (TCO). Minnes reeglipõhiselt mudelilt, mille aluseks on kood X++, üle piirangupõhisele mudelile, ei ole teil enam vaja arendaja litsentsi tootemudelite säilitamiseks.
 
 ## <a name="product-configuration"></a>Toote konfiguratsioon
 Industrialiseerimisajastu on viinud suurte saavutusteni kvaliteetsete ja funktsioonirohkete toodete tootmisel taskohase hinnaga. Mastaabisääst võimaldab enamikul industrialiseerunud riikide inimestel osta autosid, telereid, kodumasinaid ja muid kaupu, mida enamik meist peab igapäevaelu oluliseks osaks.  
@@ -64,11 +67,11 @@ Piirangupõhise toote konfiguratsioonimudeli kasutamine tähendab, et on mõned 
 
 ### <a name="table-constraints"></a>Tabeli piirajad
 
-Tabel piiranguid saab siia või süsteemi määratletud.  
+Tabelipiirangud võivad olla kas kasutaja või süsteemi määratletud.  
 
 Kasutaja määratletud tabeli piirang on kasutaja loodud. Kasutaja valib tabeli veergude esindamiseks atribuuditüüpide kombinatsiooni ja sisestab siis väärtused valitud atribuuditüüpide domeenidest, et moodustada tabeli piirangus ridu.  
 
-Mis Microsoft Dynamics 365 toimingute tabeli jaoks kasutada ja seejärel klõpsake välju sellest tabelist kitsenduse veerud: määratletakse süsteemi määratletud tabeli kitsendus. Read tabelis piirang on Dynamics 365 meetmete tabeli ridu, mis on praeguse konfiguratsiooni ajal.  
+Süsteemi määratletud tabelipiirangu määratlemiseks valitakse, millist Microsoft Dynamics 365 for Operationsi tabelit viitena kasutada, ja seejärel valitakse sellest tabelist väljad, et moodustada piirangu veerud. Tabelipiirangu read on Dynamics 365 for Operationsi tabeli read, mis on saadaval konfigureerimise ajal.  
 
 Tabelipiirang on lisatud toote konfiguratsioonimudelile, viidates tabelipiirangu määratlusele ja vastendades asjakohased mudeli atribuudid tabelipiirangu veergudega.
 
@@ -103,7 +106,7 @@ Viimase võimalusena saab kinnitada lõpule viidud toote konfiguratsioonimudelit
 
 ### <a name="testing"></a>Testimine
 
-Mudel on sarnane tegeliku konfiguratsiooni seansi. Kasutaja konfiguratsioon leheküljed läbi ja veenduge, et näidisstruktuuri toetab konfigureerimisprotsessi. Kasutaja saab kinnitada, et atribuudi väärtused on õiged ja et atribuudi kirjeldused juhivad kasutaja valima õigeid väärtusi. Lõpuks, kui testseanss on lõpule viidud, püüab süsteem luua koosluse ja protsessi, mis vastab valitud atribuudi väärtustele, ning esitab tõrketeate, kui midagi läheb valesti.
+Mudeli testimine sarnaneb tegeliku konfiguratsiooniseansi käitamisele. Kasutaja saab konfiguratsioonilehed läbi käia ja kinnitada, et mudeli struktuur toetab konfiguratsiooniprotsessi. Kasutaja saab kinnitada, et atribuudi väärtused on õiged ja et atribuudi kirjeldused juhivad kasutaja valima õigeid väärtusi. Lõpuks, kui testseanss on lõpule viidud, püüab süsteem luua koosluse ja protsessi, mis vastab valitud atribuudi väärtustele, ning esitab tõrketeate, kui midagi läheb valesti.
 
 ### <a name="the-configuration-page"></a>Konfiguratsiooni leht
 
@@ -129,17 +132,17 @@ Kui toodet müüakse erinevas riigis/regioonis, saab luua tõlked kogu tekstile,
 Viimane ja kõige olulisem etapp lõpetamisprotsessis on luua toote konfiguratsioonimudeli versioon. Versioon esindab seost tooteetaloni, mille saab konfiguratsioonile valida tellimuse või pakkumise real, ja toote konfiguratsioonimudeli vahel. Versioon tuleb kinnitada ja aktiveerida enne selle kasutamist konfiguratsiooniseansil.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Toote konfiguratsioonimudeli laiendamine API kaudu
-Juurutatud on sihtotstarbeline rakenduse programmiliides (API), nii et partnerid ja teised, kellel on arendaja litsents, saavad laiendada toote konfiguratsioonimudeli võimalusi. Peamine eesmärk on kehtestada mehhanism, mis let's partneritele ja klientidele, kes kasutavad olemasolevaid Tootekonstruktori liiguvad kood, mis on paigaldatud Tootekonstruktori mudelid API. Sel moel saavad nad mudelid tootekonstruktorist toote konfiguratsiooni üle kanda. Kuid uued partnerid ja kliendid võidavad samuti API kasutamisest uute toote konfiguratsioonimudelite laiendamiseks.
+Juurutatud on sihtotstarbeline rakenduse programmiliides (API), nii et partnerid ja teised, kellel on arendaja litsents, saavad laiendada toote konfiguratsioonimudeli võimalusi. Peamine eesmärk on olnud luua mehhanism, mis võimaldab partnetitel ja klientidel, kes kasutavad olemasolevat tootekonstruktorit, kanda üle tootekonstruktori mudelitesse manustatud koodi API-sse. Sel moel saavad nad mudelid tootekonstruktorist toote konfiguratsiooni üle kanda. Kuid uued partnerid ja kliendid võidavad samuti API kasutamisest uute toote konfiguratsioonimudelite laiendamiseks.
 
 ### <a name="pcadaptor-class"></a>Klass PCAdaptor
 
-API juurutatakse, kasutades klasside **PCAdaptor** komplekti, mis kasutab toote konfiguratsioonimudelite andmestruktuuri. Näiteks on **PCAdaptor** klassi tuleb luua iga mudeli, mida laiendatakse. Pärast konfiguratsiooni seansi lõppu süsteem otsib selle klassi eksemplar ja jookseb ta, kui ilmneb.  
+API juurutatakse, kasutades klasside **PCAdaptor** komplekti, mis kasutab toote konfiguratsioonimudelite andmestruktuuri. Iga laiendatava mudeli jaoks tuleb luua klassi **PCAdaptor** eksemplar. Pärast konfigureerimisseansi lõpetamist otsib süsteem selle klassi eksemplari ja käivitab selle, kui see leitakse.  
 
 Järgmine voodiagramm kirjeldab protsessi.  
 
-[![Analüüsisüsteemi skeem](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Voodiagramm](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Toote konfiguratsiooni API vooldiagrammi
+Toote konfiguratsiooni-API voodiagramm
 
 ## <a name="product-configuration"></a>Toote konfiguratsioon
 Toote konfiguratsiooni saab läbi viia järgmistest kohtadest.
@@ -155,5 +158,7 @@ Konfiguratsiooni eesmärk on luua kliendi nõuetele vastav toote eristav variant
 ### <a name="multiple-sites-and-intercompany"></a>Mitu laoala ja kontsernisisesus
 
 Kui konfiguratsioon tehakse laoalal või ettevõttes, mis ei ole laoala või ettevõte, kus toimub tootmine, luuakse kooslus ja protsess tarneettevõtte tarnija laoalale. Tootevariant antakse välja kõikides ettevõtetes, mis osalevad tarneahelas.
+
+
 
 

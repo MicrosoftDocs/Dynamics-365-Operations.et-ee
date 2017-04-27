@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Põhivara soetamise sisestuskontod
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse, kuidas seadistada pearaamatu sisestuskontosid varade omandamiseks.
 
 Põhivara soetamisel kasutatavad kontod võivad erineda, olenevalt vara soetamiseks kasutatavast meetodist. Tehke lehel Põhivara sisestusreeglid vahekaardil Pearaamatukontod valikud Soetus ja Soetuse korrigeerimine pearaamatusse sisestatavate põhivarakontode seadistamiseks. 
@@ -40,6 +43,8 @@ Kui põhivara soetamisel kasutatakse ostureskontro lehte Arve tööleht või Ost
 
 Mooduli Pearaamat töölehe Põhivara varud kaudu sisestatud soetamiste puhul pole põhivara ostetud välistest allikatest, vaid on toodud üle ettevõtte laost. Seepärast kasutatakse vastaskontona laokauba väljamineku kontot moodulis Laohaldus.
 
-Lisateabe saamiseks vaadake [omandada vara hangete kaudu](acquire-assets-procurement.md).
+Lisateavet leiate jaotisest [Varade soetamine hankega](acquire-assets-procurement.md).
+
+
 
 

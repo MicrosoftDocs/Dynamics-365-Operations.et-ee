@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Kulude haldus
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Kulude halduse plaanimine](plan-expense-management.md) Hiljem lisatakse veel teavet, vaadake varsti uuesti.
+
+
 
 

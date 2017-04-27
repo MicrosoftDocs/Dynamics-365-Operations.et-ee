@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cash-discounts"></a>Skontod
 
+[!include[banner](../includes/banner.md)]
+
+
 Skontod seadistatakse ning neid ühiskasutatakse ostu- ja müügireskontroga.  Saadaolevat skontot saab määratleda kliendi- või hankija arve puhul ja see võetakse, kui arve tasutakse skonto kuupäeval. 
 
 <a name="cash-discounts"></a>Skontod
@@ -61,8 +64,8 @@ Teie juriidilise isiku arvestusvaluuta on euro ja USA dollarile on määratud j�
 -   1. veebruar = 110
 -   1. märts = 80
 
-1000 USD 20D 2% skontotingimused arve on postitatud veebruar 15. Arve summa arvestus on 1100 eurot. 980 USD makse on tasakaalustatud arve 1. märtsil. Skonto summa on 20 USD. Makse summa arvestusvaluutas on 784 eurot. Raamatupidamise skonto summa arvutatakse 1:20 alates märtsist vahetuskursi abil \*80 / 100 = 16 EUR.
-| **Note**                                                                                                                                                                                                                             |
+15. veebruaril sisestatakse arve 1000 USD skonto tingimustega 20D2%. Arve summa arvestusvaluutas on 1100 eurot. Makse summas 980 USA dollarit tasakaalustatakse arvega 1. märtsil. Skonto summa on 20 dollarit. Makse summa arvestusvaluutas on 784 eurot. Skonto summa arvestusvaluutas arvutatakse 1. märtsi vahetuskursiga: 20 \* 80 / 100 = 16 eurot.
+| **Märkus**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kui lehel Müügireskontro parameetrid või Ostureskontro parameetrid on tehtud valik Arvuta skontod osaliste maksete jaoks, kasutatakse iga osamakse kuupäeval kehtivat vahetuskurssi. |
 
@@ -70,5 +73,7 @@ Teie juriidilise isiku arvestusvaluuta on euro ja USA dollarile on määratud j�
 =
 
  
+
+
 
 

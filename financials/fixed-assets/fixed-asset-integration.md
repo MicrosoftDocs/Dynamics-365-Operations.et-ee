@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Põhivarade integreerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 Põhivarasid saab integreerida moodulitega Pearaamat, Varude haldus, Müügi- ja Ostureskontro. Samuti on teil võimalik seadistada moodulit Põhivarad, et see oleks integreeritud ostutellimustega.
 
 <a name="general-ledger"></a>Pearaamat
@@ -82,7 +85,7 @@ Iga tellimuserea integratsioon aktiveeritakse lehe **Ostutellimus** kiirkaardi *
 ## <a name="project-management-and-accounting"></a>Projektihaldus ja raamatupidamine
 Saate seostada projekti varaga, mis on projektist mõjutatud. Samuti saate seostada iga faasi, ülesannet või alamprojekti erineva varaga. Üht vara saab seostada iga projektikirjega. Saate luua seose, kui sisestate põhivara koodi lehel **Projektid** väljale **Põhivara kood**. Projekti tüüp peab olema **Sisemine projekt** või **Kuluprojekt**. 
 
-Saate vaadata projektidega seostatud varade üksikasju ka lehel **Projektid**. Põhivarakirje kuvamiseks klõpsake kiirkaardil **Seadistus** vara linki, et avada leht **Põhivarad**. Klõpsake **projekti**&gt;**kõik projektid** saab vaadata projekte, mis on seotud põhivara. 
+Saate vaadata projektidega seostatud varade üksikasju ka lehel **Projektid**. Põhivarakirje kuvamiseks klõpsake kiirkaardil **Seadistus** vara linki, et avada leht **Põhivarad**. Seejärel klõpsake valikuid **Projektid** &gt; **Kõik projektid**, et kuvada põhivaraga seostatud projektid. 
 
 Tavaliselt seostate põhivarad projektidega, kui projektid on seotud tööga, hooldusega või põhivara remondiga. Kui projekt on lõpule viidud, ei looda automaatselt vara üleshindluse korrigeerimist. Seega peate üleshindluse korrigeerimise käsitsi looma, kui see on nõutav. 
 
@@ -90,6 +93,8 @@ Seose kustutamiseks projekti ja vara vahel tühjendage lehel **Projektid** väli
 
 Saate määrata ka põhivara, mida loote või toodate osana hinnanguprojektist. Hinnanguprojekti lõpus saate automaatselt sisestada varasoetamise kande.
 
-Lisateabe saamiseks vaadake [hangete kaudu varade soetamiseks](acquire-assets-procurement.md)
+Lisateavet leiate jaotisest [Varade soetamine hankega](acquire-assets-procurement.md)
+
+
 
 

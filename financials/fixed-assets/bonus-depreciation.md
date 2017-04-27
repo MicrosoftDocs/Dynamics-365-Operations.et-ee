@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>Lisakulum
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade lisakulumi funktsioonist.
 
 Lisakulumi rakendamine võimaldab teil põhivarale selle esimesel kasulikul töö- ja amortisatsiooniaastal lisakulumit arvestada. Lisakulum tuleb võtta enne mis tahes kulumiarvutusi. Seetõttu on kõige parem kasutada lisakulumit raamatutega, kus funktsioon Pearaamatusse sisestamine on keelatud. Saate kasutada suvandit **Pearaamatusse sisestamata kannete kustutamine**, et kustutada selliste raamatute kannete ajalugu, mis ei sisestada pearaamatusse. Seejärel saate mahutada lisakulumi hiljem vara elutsüklisse, kustutades eelnevalt sisestatud kulumikanded. 
@@ -61,5 +64,7 @@ Lisakulumi arvutamisel soovitusprotsessi abil luuakse lisakulumikanne kõigi rak
 Loodavate lisakulumikirjete arv on piiramatu. Pärast nende kirjete põhivaragrupi raamatule rakendatakse need sellele kulumiraamatusse. 
 
 Lisakulum sisestatakse protsendina või kindla summana. Kui sisestate kulumisoovitusi, sisestatakse lisakulumikanded raamatusse kulumikannetest eraldi kannetena.
+
+
 
 

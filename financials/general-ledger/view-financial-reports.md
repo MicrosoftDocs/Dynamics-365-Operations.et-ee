@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Finantsaruannete vaatamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics AX-is. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 
 <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
@@ -48,7 +51,7 @@ Saate muuta aruande kuupäeva, rakendada atribuudi- ja dimensioonifiltreid või 
 
 -   Aruande baasperioodi ja baasaasta kasutamiseks valige vaasperiood ja baasaasta ning klõpsake nuppu **OK**.
 -   Aruandele atribuudifiltrite rakendamiseks valige käsk **Lisa atribuudifilter**. Valige atribuudi tüüp, tippige atribuudi väärtus ja klõpsake siis **OK**. Näiteks kui valite atribuudi **Konto kategooria**, sisestage atribuudi väärtuseks **MÜÜK**. Atribuudifiltri eemaldamiseks klõpsake käsku **Tühjenda**.
--   Dimensiooniväärtuse filtrit rakendada aruande, valige **Dimensiooniväärtuse filtri lisamine**. Saate valida dimensiooni, ja tippida dimensiooni ID või valige loendist dimensiooni. Dimensioonifiltri eemaldamiseks klõpsake käsku **Tühjenda**.
+-   Aruandele dimensioonifiltrite rakendamiseks valige **Lisa dimensioonifilter**. Valige dimensioon ja seejärel sisestage dimensiooni ID või valige loendist dimensioon. Dimensioonifiltri eemaldamiseks klõpsake käsku **Tühjenda**.
 -   Aruandes **Tegelik vs eelarve** stsenaariumi muutmiseks valige uus stsenaarium ja klõpsake siis nuppu **OK**. Kui valitud stsenaarium on teise aasta kohta, muutke kindlasti baasaastat. Näiteks kui praegune stsenaarium on finantsaasta 2015 jaoks ja valite uue stsenaariumi, mis on finantsaasta 2016 jaoks, tuleb baasaastaks märkida **2016**.
 
 Kui klõpsate **OK**, rakendatakse kõik valitud suvandid aruandele. Kui otsustate, et ei soovi valitud suvandeid rakendada, klõpsake käsku **Tühista**.
@@ -66,7 +69,7 @@ Finantsaruande saab kuvada alati soovitud valuutas. Aruande kuvamiseks teises va
 Finantsaruanne võib sisaldada üksikasjaridu ja kokkuvõtteridu. Üksikasjaread on read, mis sisaldavad põhikontosid või dimensioone. Kokkuvõtteread on kirjelduse, koondsumma ja arvutuste read. Ainult aruande kokkuvõtteridade kuvamiseks klõpsake nuppu **Kuva** ja seejärel valikut **Ainult kokkuvõtteread**. Aruanne ahendatakse ning kuvatakse ainult kokkuvõtteread. Üksikasjaridade kuvamiseks koos kokkuvõtteridadega klõpsake nuppu **Kuva** ja seejärel uuesti valikut **Ainult kokkuvõtteread**.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Eelmine kuu finantsaruande avamine
-Saate vaadata praeguse või eelmise kuu aruandeid, ilma aruannet uuesti koostamata. Eelmise kuu aruande avamiseks klõpsake **Näita**, ja seejärel klõpsake **eelmine aruanded**. Kuvatakse loend on loodud aruande jaoks viimase kuu jooksul. Laiendage kuud, mille kohta soovite aruannet kuvada, valige kuupäev ja klõpsake siis nuppu **OK**. Kuvatakse eelmise kuu aruanne. Praeguse kuu aruande juurde naasmiseks klõpsake nuppu **Tühista**.
+Saate vaadata praeguse või eelmise kuu aruandeid, ilma aruannet uuesti koostamata. Eelneva kuu aruande avamiseks klõpsake nuppu **Näita** ja seejärel nuppu **Eelmised aruanded**. Ilmub loend eelnevatest kuudest, mille jaoks aruanne loodi. Laiendage kuud, mille kohta soovite aruannet kuvada, valige kuupäev ja klõpsake siis nuppu **OK**. Kuvatakse eelmise kuu aruanne. Praeguse kuu aruande juurde naasmiseks klõpsake nuppu **Tühista**.
 
 ## <a name="print-a-financial-report"></a>Finantsaruande printimine
 Finantsaruande printimiseks klõpsake tegumiribal nuppu **Prindi** ja tehke siis vähemalt üks järgmistest toimingutest prindisuvandite määramiseks.
@@ -85,5 +88,7 @@ Finantsaruande eksportimiseks klõpsake tegumiribal käsku **Ekspordi**. Aruanne
 --------
 
 [Finantsaruandlus Microsoft Dynamics AX-i jaoks](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

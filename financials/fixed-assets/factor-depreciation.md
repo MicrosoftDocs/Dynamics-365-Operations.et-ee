@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Kulumiarvestus kordaja alusel
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade teguripõhisest kulumiarvestusmeetodist.
 
 Tegurid on põhivarade kulumiarvestuses kasutatavad protsendimäärad. Kui valite põhivara kulumireegli seadistamisel lehe **Kulumireeglid** väljal **Meetod** suvandi **Tegur**, saate seadistada progresseeruva, degressiivse või lineaarse kulumi.
@@ -39,14 +42,14 @@ Tegurid on põhivarade kulumiarvestuses kasutatavad protsendimäärad. Kui valit
 Järgmiste reeglite ja näidete varal näete, kuidas saate seadistada iga kulumiliigi tegureid. 
 
 > [!NOTE] 
-> Valides **tegur** ja selle **meetod** välja, on **tegur** välja ja **intervalli** väli kuvatakse.
+> Märkus. Kui valite väljal **Meetod** väärtuse **Tegur**, kuvatakse väljad **Tegur** ja **Intervall**.
 
 ## <a name="progressive-depreciation"></a>Progresseeruv kulum
 Välja **Tegur** väärtus on suurem kui **50**.
 
 ### <a name="example"></a>Näide
 
-Soetusmaksumus on 100 000, on 70, eluiga on 10 aastat ja kulum algab 1. jaanuar. Kulumisummad ja Jääkmaksumus summad on näidatud ainult esimese kuue aasta kasutusiga.
+Soetusmaksumus on 100 000, tegur on 70, tööiga on 10 aastat ning kulumiarvestuse algus on 1. jaanuar. Kulumisummad ja raamatupidamisliku jääkväärtuse summad kuvatakse ainult kasuliku eluea kuue esimese aasta kohta.
 
 | Aasta | Periood      | Kulumisumma | Raamatupidamisliku jääkväärtuse summa |
 |------|-------------|---------------------|-----------------------|
@@ -62,7 +65,7 @@ Välja **Tegur** väärtus on väiksem kui **50**.
 
 ### <a name="example"></a>Näide
 
-Soetusmaksumus on 100 000, on 20, eluiga on 10 aastat ja kulum algab 1. jaanuar. Kulumisummad ja Jääkmaksumus summad on näidatud ainult esimese kuue aasta kasutusiga.
+Soetusmaksumus on 100 000, tegur on 20, tööiga on 10 aastat ning kulumiarvestuse algus on 1. jaanuar. Kulumisummad ja raamatupidamisliku jääkväärtuse summad kuvatakse ainult kasuliku eluea kuue esimese aasta kohta.
 
 | Aasta | Periood      | Kulumisumma | Raamatupidamisliku jääkväärtuse summa |
 |------|-------------|---------------------|-----------------------|
@@ -75,5 +78,7 @@ Soetusmaksumus on 100 000, on 20, eluiga on 10 aastat ja kulum algab 1. jaanuar.
 
 ## <a name="straight-line-depreciation"></a>Lineaarne kulum
 Välja **Tegur** väärtus võrdub **50**. Sellisel juhul on kulum igal perioodil sama ja teil tuleks kaaluda oma teistel väljadel määratud väärtuste mõju. Lugege selle kohta teemat [Lineaarne tööea kulumiarvestus](straight-line-service-life-depreciation.md).
+
+
 
 

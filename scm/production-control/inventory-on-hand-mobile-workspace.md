@@ -1,6 +1,6 @@
 ---
-title: "Varude vaba mobiilne tööruum Microsoft Dynamics 365 toimingute App"
-description: "Varude vaba mobiilne tööruumi aitab teil saavutada mobiilne teadmisi reserveeritud ja saadaval igal ajal ja igal pool."
+title: "Vaba kaubavaru mobiilne tööruum rakendusele Microsoft Dynamics 365 for Operations"
+description: "Vaba kaubavaru mobiilne tööruum aitab saada alati ja kõikjal mobiilseid ülevaateid reserveeritud ja vabadest kaubavarudest."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,72 +25,72 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Varude vaba mobiilne tööruum Microsoft Dynamics 365 toimingute App
+# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Vaba kaubavaru mobiilne tööruum rakendusele Microsoft Dynamics 365 for Operations
 
-Varude vaba mobiilne tööruumi aitab teil saavutada mobiilne teadmisi reserveeritud ja saadaval igal ajal ja igal pool. 
+Vaba kaubavaru mobiilne tööruum aitab saada alati ja kõikjal mobiilseid ülevaateid reserveeritud ja vabadest kaubavarudest. 
 
 <a name="prerequisites"></a>Eeltingimused
 -------------
 
 | Eeltingimus                                                         | Kirjeldus                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lugeda Microsoft Dynamics 365 toimingute mobiilne platvorm | [Dynamics 365 toimingute mobiilne platvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
-| Dynamics 365 toiminguteks                                          | Keskkond, mis on Microsoft Dynamics 365 toiminguid versiooni 1611 ja Microsoft Dynamics toimingute platvormi update 3 (November 2016) |
-| Käigultparanduse KB 3215650                                                    | Installige käigultparandus et tööruumid, mis on toodud teie Microsoft Dynamics 365 toiminguteks.                                       |
-| Mobiilne seade, mis on toimingute App installitud Dynamics 365 | Lae toimingute rakenduse Dynamics 365 mobiilne app-store.                                                                           |
+| Lugege teavet Microsoft Dynamics 365 for Operationsi mobiiliplatvormi kohta | [Dynamics 365 for Operationsi mobiilne platvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
+| Dynamics 365 for Operations                                          | Keskkond, millesse on installitud Microsoft Dynamics 365 for Operationsi versioon 1611 ja Microsoft Dynamics for Operationsi platvormivärskendus 3 (november 2016). |
+| Kiirparanduse KB 3215650                                                    | Installige kiirparandus, et lubada rakenduses Microsoft Dynamics 365 for Operations sisestatud tööruumid.                                       |
+| Mobiilne seade, kuhu on installitud rakendus Dynamics 365 for Operations | Laadige mobiilirakenduste poest alla rakendus Dynamics 365 for Operations.                                                                           |
 
 ## <a name="introduction"></a>Sissejuhatus
-Tavaliselt ettevõtted on mitu ühikud ja mitme sissetuleku varude iga päev. Need liikumised pidevalt olekuks vaba kaubavaru. Varude vaba mobiilne tööruumi saab näha risti-ettevõtte vaba kaubavaru oleku nii, et sa saaksid varude andmeid valitud mobiilsideseadme uusimaid teadmisi. Olenemata sellest, kas teil töötada lao, ostu, müügi, tootmise ja juhtimise või on teisi rolle, võite kasutada vaba kaubavaru andmeid igal ajal ja igal pool. Tööruumi mobiil annab vahetu ülevaate vaba staatuse vahendid ja võimaldab vaadata vaba kaubavaru vahendid, praeguse materjali broneerimine ja vaba kaubavaru. Võite sisestada kaubakoodide päringut vaba kaubavaru, ja saate filtreeritud otsida vaba tooteid või variandid. Täpsemalt mobiilne workspace pakub neid funktsioone:
+Tavaliselt on ettevõtetel iga päev mitu laosaadetist ja sissetulekut. Need liikumised muudavad pidevalt vaba kaubavaru olekut. Vaba kaubavaru mobiilne tööruum aitab näha ettevõtteülest vaba kaubavaru olekut, et saaksid enda valitud mobiilsel seadmel viimaseid ülevaateid varude andmetest. Olenemata sellest, kas töötate laos, ostu- või müügiosakonnas, tootmises või juhtkonnas või teil on teised rollid, pääsete vaba kaubavaru andmetele alati ja kõikjal juurde. Mobiilne tööruum annab viivitamatu ülevaate vaba kaubavaru olekust rajatiste lõikes ja võimaldab vaadata vaba kaubavaru erinevates rajatistes, praegusi materjali reserveeringuid ja reserveerimata vaba kaubavaru. Saate sisestada vaba kaubavaru päringute esitamiseks ka kaubakoode ja teha olemasolevate toodete ning variantide filtreeritud otsingut. Konkreetsemalt pakub mobiilne tööruum järgmisi funktsioone.
 
--   Võite otsida toote number või toote nimi leida tooteid vaba kaubavaru oleku vaatamine.
--   Valitud toodete, kuvatakse järgmine teave:
-    -   Vaba kaubavaru ühe koha
-    -   Vaba kaubavaru lao kohta
-    -   Vaba kaubavaru asukoha kohta
-    -   Vaba kaubavaru partii (partii kontrollitud toodete puhul)
-    -   Vaba kaubavaru kohta varude olek
+-   Saate otsida tootekoodi või tootenime järgi tooteid, mille vaba kaubavaru olekut on vaja vaadata.
+-   Valitud toodete puhul saate vaadata järgmisi andmeid.
+    -   Vaba kaubavaru laoala järgi
+    -   Vaba kaubavaru lao järgi
+    -   Vaba kaubavaru asukoha järgi
+    -   Vaba kaubavaru partii järgi (partii kaudu juhitavate toodete puhul)
+    -   Vaba kaubavaru varude oleku järgi
 
 <!-- -->
 
--   Toote vaba kaubavaru kuvatakse järgmiselt:
-    -   Poolt inventuuri (see vaade kujutab endast kogusummat).
-    -   Füüsiliselt reserveeritud (selles vaates esindab broneeritud summa).
-    -   Saadaval füüsiliselt (see vaade on saadaval summa ei ole.)
+-   Toodete vaba kaubavaru näidatakse järgmiselt.
+    -   Füüsiliste varude järgi (see vaade kajastab kogu summat).
+    -   Füüsiliste reserveeritud kaupade järgi (see vaade kajastab reserveeritud summat).
+    -   Vabade füüsiliste varude järgi (see vaade kajastab vaba kogust, millel puuduvad reserveeringud).
 
 ## <a name="get-started"></a>Alusta
-Algas mobiilne seade:
+Mobiilsel seadmel alustamiseks tehke järgmist.
 
-1.  Poest mobiilirakenduse alla laadida ja installida Microsoft Dynamics 365 toimingute app.
-2.  Käivitada rakendus oma seadmes.
-3.  Sisestage oma Dynamics 365 URL.
-4.  Sisestage ettevõtte sisse logima. Sisestage **USMF**.
-5.  Esimene kord, kui logite sisse, küsitakse kasutajanime ja parooli teie Microsofti Dynamics 365 operatsioonide tarbeks. Sisestage oma kasutajanimi ja parool. Pärast sisselogimist, näed saadaval tööruumid firmale.
+1.  Laadige mobiilirakenduste poest alla rakendus Microsoft Dynamics 365 for Operations ja installige see.
+2.  Käivitage rakendus oma seadmes.
+3.  Sisestage Dynamics 365 URL.
+4.  Sisestage ettevõte, millesse soovite sisse logida. Näiteks sisestage **USMF**.
+5.  Esmakordsel sisselogimisel palutakse teil sisestada oma Microsoft Dynamics 365 for Operationsi konto kasutajanimi ja parool. Sisestage oma identimisteave. Pärast sisselogimist näete oma ettevõtte jaoks saadaolevaid tööruume.
 
-Saate vaadata oma mobiilirakendus tööruumid, peab esmalt avaldama soovitud tööruumid toimingute rakenduse Dynamics 365.
+Tööruumide vaatamiseks mobiilirakenduses peate soovitud tööruumid esmalt avaldama rakenduses Microsoft Dynamics 365 for Operations.
 
-1.  Käivitage Dynamics 365 toiminguteks.
-2.  Mine **süsteemi halduse**&gt;**install**&gt;**süsteemi parameetrid**.
-3.  Valige **Halda mobiilirakendus**.
-4.  Valige tööruumis avaldada mobiilsel platvormil.
-5.  Valige **avaldada tööruumi**.
-6.  Värskendage seadme avaldatud tööruumid.
+1.  Käivitage Dynamics 365 for Operations.
+2.  Minge jaotisse **Süsteemihaldus** &gt; **Seadistus** &gt; **Süsteemi parameetrid**.
+3.  Valige suvand **Mobiilirakenduse haldamine**.
+4.  Valige tööruum mobiiliplatvormile avaldamiseks.
+5.  Valige käsk **Avalda tööruum**.
+6.  Värskendage seadet, et näha avaldatud tööruume.
 
-## <a name="view-the-onhand-inventory-for-a-product"></a>Vaata toote lao taastäitmise
-1.  Mobiilsideseadmes, valige selle **vaba kaubavaru** tööruumi.
-2.  Valige **kontrollige vaba kauba**. Näete nimekirja toodetest, mis on laaditud rakenduse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 tootest, kuid seda numbrit saab muuta. Lisateabe saamiseks vt eelnevalt loe käsiraamat.
-3.  Kui teie üksust pole loendis, valige **Otsi rohkem** online Otsi Dynamics 365 toiminguid teha. Otsing toote numbri järgi või aktiveerige Otsi toote nime järgi.
-4.  Valige toode. Kui kaubale on pildi, pilt on näidanud.
-5.  Tehke järgmised valikud saate vaadata vaba kaubavaru olekut:
-    -   Vaata vaba ühe koha
-    -   Vaadata vaba kaubavaru lao kohta
-    -   Vaata vaba kohta asukohta
-    -   Vaata vaba partii (partii kontrollitud toodete puhul)
-    -   Vaata vaba kaubavaru oleku kohta
+## <a name="view-the-onhand-inventory-for-a-product"></a>Toote vaba kaubavaru vaatamine
+1.  Valige oma mobiilses seadmes tööruum **Vaba kaubavaru**.
+2.  Valige **Kauba vaba kaubavaru kontrollimine**. Näete loendit toodetest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi on laaditud 50 kaupa, kuid saate seda arvu muuta. Lisateavet leiate eelnevaks lugemiseks mõeldud käsiraamatust.
+3.  Kui teie kaupa pole loendis, valige **Otsi lisa**, et kasutada Dynamics 365 for Operationsis veebiotsingut. Otsige tootekoodi järgi või lülituge toote nime järgi otsimisse.
+4.  Valige toode. Kui kaubal on pilt, siis kuvatakse see pilt.
+5.  Tehke vaba kaubavaru oleku vaatamiseks üks järgmistest valikutest.
+    -   Kuva vaba kaubavaru laoala järgi
+    -   Kuva vaba kaubavaru lao järgi
+    -   Kuva vaba kaubavaru asukoha järgi
+    -   Kuva vaba kaubavaru partii järgi (partii kaudu juhitavate toodete puhul)
+    -   Kuva vaba kaubavaru varude oleku järgi
 
-    Toote vaba kaubavaru kuvatakse järgmiselt:
-    -   Poolt inventuuri (see vaade kujutab endast kogusummat).
-    -   Füüsiliselt reserveeritud (selles vaates esindab broneeritud summa).
-    -   Saadaval füüsiliselt (selles vaates esindab saadaoleva summa, mis ei ole.)
+    Toodete vaba kaubavaru näidatakse järgmiselt.
+    -   Füüsiliste varude järgi (see vaade kajastab kogu summat).
+    -   Füüsiliste reserveeritud kaupade järgi (see vaade kajastab reserveeritud summat).
+    -   Vabade füüsiliste varude järgi (see vaade kajastab vaba kogust, millel puuduvad reserveeringud).
 
 
 

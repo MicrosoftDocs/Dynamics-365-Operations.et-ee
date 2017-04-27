@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Toote sissetulek ostutellimuste suhtes
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse mitmesuguseid toodete sisstuleku registreerimise valikuid.
 
 Toote sissetulek on protsess, millega näidatakse, et tellitud tooted on kätte saadud, et ostutellimuse ridu saaks siis arveldamiseks töödelda. Mõnikord läbivad tooted eelregistreerimise, mille käigus enne toodete vastuvõtmist registreeritakse tarnijalt saadud lisateave. Kui saabuvad, märgitakse need kõigepealt olekuga **Registreeritud**. Tooted võivad seejärel läbida lisaprotsesse (nt kvaliteedijuhtimine), enne kui nende olekuks märgitakse lõpuks **Saadud**.
@@ -52,19 +55,21 @@ Võite valida mitu tellimust ja töödelda kõigi nende tellimuste sissetulekut 
 
 Valiku **Otsetarne** korral võidakse koostada ostutellimusi müügitellimusest. Otsetarne kasutamisel ei saabu tooted kunagi teie lattu, vaid hankija viib need otse kliendile. Sellisel juhul kajastatakse sissetulek tavaliselt otse ostutellimusel. Sissetuleku saab vormistada automaatselt, nt elektroonilise andmevahetuse (EDI) integreerimise kaudu hankijaga. Kui tegemist on kontsernisisese ostutellimusega, siis on olemas ka võimalus, et Microsoft Dynamics 365 for Operations automatiseerib kontsernisisese müügitellimuse sissetuleku, kui tarne toimub. Otsetarne kasutamisel käsitletakse tooteid endiselt varudena, kuigi need ei saabu füüsiliselt lattu. Seetõttu, kui toote sissetulek ostutellimusel registreeritakse, värskendatakse müügitellimust automaatselt saatelehe andmetega, nii et üldine varude muutus on 0 (null). Otsetarne stsenaariumide puhul ei tohiks eelregistreerimine vajalik olla. Kui kasutate ladusid, milles on lubatud laohaldus, võite litsentsiplaadi registreerimise nõudest mööda minna, määrates selle asemel virtuaalse lao. Selle lao saab määrata toote väljal **Otsetarne ladu**. 
 
-Po on töödeldud toote sissetulek, PO olekuks on määratud **saadud** näitamaks, et arve saab töödelda tellimuse. Juba saadud toodete üksikasju saab vaadata lehelt **Toote sissetuleku töölehed**.  
+Pärast toote sissetuleku töötlemist ostutellimusel määratakse ostutellimuse olekuks **Saadud** näitamaks, et tellimuse arvet võib töödelda. Juba saadud toodete üksikasju saab vaadata lehelt **Toote sissetuleku töölehed**.  
 
 Sellele lehele pääsete tegevusgrupist **Sissetulek** lehel **Ostutellimus**. Töölehtedel olev teave sisaldab koguste, kuupäevade ja mõõtmete andmeid.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Ostutellimuse ülevaade](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Ostutellimuse loomine](purchase-order-creation.md)
 
 [Ostutellimuse heakskiitmine ja kinnitamine](purchase-order-approval-confirmation.md)
 
 [Hankija arvete ülevaade](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

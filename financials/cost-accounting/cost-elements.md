@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-element-dimensions"></a>Kuluelemendi dimensioonid
 
+[!include[banner](../includes/banner.md)]
+
+
 Ühe kuluarvestuse tuumsambana kasutatakse kuluelemendi dimensioone, et kategoriseerida ja jälgida, kuhu kulud voolavad. 
 
 Kuluelement vastab kulu asjakohasele kaubale kontoplaanis. Põhimõtteliselt võib see olla mis tahes tüüpi element ettevõtte madalaimal tasandil, kuhu kulud saavad voolata. Kuluelemendid kontseptsioonina ulatuvad pearaamatukontost kõigi kulu asjakohaste ressurssideni. Praegu toetab kuluarvestus pearaamatukontosid.
@@ -64,12 +67,14 @@ On kahte tüüpi kuluelemente: esmased kuluelemendid ja teisesed kuluelemendid. 
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Kuluelemendi dimensioonid ja kuluelemendi dimensiooni liikmed
 Kuluelemente nimetatakse *kuluelemendi dimensioonideks* . Individuaalseid dimensiooniväärtuseid nimetatakse *kuluelemendi dimensiooni liikmeteks*. Näiteks on teil USA kontoplaani struktuur (COA), mis on teie seadusliku aruandluse alus. Seda COA-d kasutatakse kuluelemendi dimensioonina. Kontosid, mis on esmased kuluelemendid, tähistatakse kuluarvestuses kuluelemendi dimensiooniliikmetena. Järgmine kuvatõmmis näitab näidet põhikontodest kuluelemendi dimensioonina, kus selle tegelikud põhikontod on kuluelemendi dimensiooni liikmed. 
 
-[![kulu-element-Mõõdud](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![kuluelemendi-dimensioonid](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Kuluelemendi dimensiooni liikmete importimine andmekonnektorite kaudu
 Kuluelemendi dimensiooni liikmete seadistamise lihtsustamiseks kuluarvestuses saate kasutada andmekonnektoreid, mis on eelnevalt ehitatud või teie järgi kohandatud, et tuua esmased kuluelemendid ühest või mitmest lähtesüsteemist.
 
 ## <a name="implementation-considerations"></a>Juurutamise kaalutlused
 Kuna kuluelemendid tähistavad kulu üksikasjade madalaimat tasanit, peaksite tagama, et kõik juhtimisaruandluse tegemiseks vajalikud kuluelemendi on kuluelemendi struktuuri juurutamisel kaasatud. See võib olla väljakutse, et leida kulujuhtimise jaoks kuluelementide sobiv number. Tuhandete kuluelementide omamine võib muuta iga kuluelemendi juhtimise keeruliseks. Alternatiivina saate kuluelemente grupeerida ja hallata kulu juhtimist koondtasemel.
+
+
 
 

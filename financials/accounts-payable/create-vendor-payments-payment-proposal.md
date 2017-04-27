@@ -27,32 +27,35 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Hankija maksete loomine maksesoovituse abil
 
+[!include[banner](../includes/banner.md)]
+
+
 See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad. Maksesoovitusi kasutatakse sageli hankija maksete loomiseks, kuna maksesoovituse päringu abil saab hankija arveid kiiresti kriteeriumide (nt tähtaeg ja skonto) alusel maksmiseks valida. 
 
 Organisatsioonid kasutavad hankija maksete loomiseks sageli maksesoovitusi, kuna maksesoovituse päringu abil saab hankija arveid kiiresti tähtaja, skonto või muu kriteeriumi alusel maksmiseks valida. 
 
-Maksesoovituse päring sisaldab mitmeid vahekaarte, millest igaühel on erinevad võimalused makstavate arvete valimiseks. Selle **parameeter** vahekaart sisaldab organisatsiooni vastu enim kasutatavad suvandid. Kohta ning **kaasamiseks** FastTab, saate määrata, millised arved või hankijate hulka makse määratledes erinevate näitajate vahemikud. Näiteks kui soovite maksta ainult teatud hulga müüjad, saate määratleda filtri hankija vahemiku. Seda funktsiooni kasutatakse sageli arvete konkreetse makseviisi valimiseks. Näiteks kui määratlete filtri kui **makseviisi** = **kontrollida**, ainult arved, et makseviisi valitakse maksetaotluste alusel, tingimusel, et need vastavad ka muud päringus määratud kriteeriumidele. Vahekaart **Täpsemad parameetrid** sisaldab lisavalikuid, millest kõik ei pruugi olla teie organisatsioonile vajalikud. Näiteks sisaldab see vahekaart tsentraliseeritud maksete arvete maksmise suvandeid.
+Maksesoovituse päring sisaldab mitmeid vahekaarte, millest igaühel on erinevad võimalused makstavate arvete valimiseks. Vahekaart **Parameeter** sisaldab valikuid, mida suurem osa organisatsioonist kõige sagedamini kasutab. Kiirkaardil **Kaasatavad kirjed** saate määrata, millised arved või hankijad tuleb maksesse kaasata, määratledes erinevate näitajate vahemikud. Näiteks kui soovite maksta ainult teatud hankijatele, saate määratleda nende hankijate jaoks filtri. Seda funktsiooni kasutatakse sageli kindla maksemeetodi jaoks arvete valimiseks. Näiteks kui määratlete filtri, kus **Makseviis** = **Tšekk**, valitakse makseks ainult selle makseviisiga arved, eeldusel, et need vastavad ka teistele päringus määratud kriteeriumidele. Vahekaart **Täpsemad parameetrid** sisaldab lisavalikuid, millest kõik ei pruugi olla teie organisatsioonile vajalikud. Näiteks sisaldab see vahekaart tsentraliseeritud maksete arvete maksmise suvandeid.
 
 ## <a name="parameters"></a>Parameetrid
--   **Valige arvete** – arved määratud kuupäevavahemikku jäävate ning **alates** ja **siiani** välja poolt tähtaja, allahindluse kuupäeva või mõlema. Skonto kuupäev kasutamisel otsib süsteem esmalt arved, skonto kuupäeva vahel on alates ja kuni kuupäevad. Seejärel määratleb süsteem seansi kuupäeva kasutades, kas arve on skonto saamiseks sobilik ning ega skonto kuupäev juba möödunud ole.
+-   **Arvete valimise alus** – väljadega **Alguskuupäev** ja **Lõppkuupäev** määratud kuupäevavahemikku jäävaid arveid saab valida tähtaja, skonto kuupäeva või mõlema alusel. Kui kasutate skonto kuupäeva, otsib süsteem esmalt arveid, mille skonto kuupäev jääb algus- ja lõppkuupäeva vahele. Seejärel määratleb süsteem seansi kuupäeva kasutades, kas arve on skonto saamiseks sobilik ning ega skonto kuupäev juba möödunud ole.
 -   **Alguskuupäevast**** lõppkuupäevani** – maksmiseks valitakse arved, mille tähtaeg või skonto kuupäev jääb sellesse kuupäevavahemikku.
 -   **Maksekuupäev** – kui kuupäev on määratletud, luuakse kõik maksed sellel kuupäeval. Välja **Varaseim maksekuupäev** ignoreeritakse.
--   **Varaseim maksekuupäev** – sisestage varaseim maksekuupäev. Näiteks on **alates** ja **seni** väljade Määrake vahemik 1. septembrist kuni September 10 ja minimaalne makse kuupäev on 5. September. Sel juhul on makse tähtajaks, 5. September tähtaeg: 1. September – 5. September kõik arved. Tähtaeg: 5. September – 10. September kõik arved on siiski makse kuupäev, mis on võrdne iga arve maksetähtaeg.
+-   **Varaseim maksekuupäev** – sisestage varaseim maksekuupäev. Näiteks määravad väljad **Alguskuupäev** ja **Lõppkuupäev** ajavahemiku 1. septembrist 10. septembrini ning minimaalne maksekuupäev on 5. september. Sellisel juhul on kõigil maksetel tähtajaga 1.–5. september maksekuupäevaks 5. september. Arvetel tähtajaga 5.–10. september on aga maksekuupäevaks iga arve tähtaja kuupäev.
 -   **Summa limiit** – sisestage kõikide maksete suurim kogusumma.
--   **Luua makseid ilma arve eelvaade** – kui see valik on seatud **Jah**, maksete luuakse kohe selle **hankijamaksete** lehel. Selle **maksesoovituse** lehe jäetakse vahele. Seetõttu luuakse maksed kiiremini. Makseid saab endiselt muuta lehel **Hankija maksed**. Teise võimalusena saate nuppu **Valitud makse arvete redigeerimine** kasutades naasta lehele **Maksesoovitus**.
+-   **Maksete loomine ilma arve eelvaateta** – kui selle suvandi sätteks on valitud **Jah**, luuakse maksed kohe lehel **Hankija maksed**. Leht **Maksesoovitus** jäetakse vahele. Seetõttu luuakse maksed kiiremini. Makseid saab endiselt muuta lehel **Hankija maksed**. Teise võimalusena saate nuppu **Valitud makse arvete redigeerimine** kasutades naasta lehele **Maksesoovitus**.
 
 ## <a name="advanced-options"></a>Täpsemad suvandid
--   **Hankija saldo kontrollimine** – kui määrate suvandi **Jah**, kontrollib süsteem enne mistahes arve maksmist hankija deebetsaldo olemasolu. Kui hankija on deebetsaldo, luuakse makset. Näiteks, on hankija kreeditarvete või makseid, mis on konteeritud, kuid ei ole veel tasutud. Neil juhtudel ei tuleks hankijale maksta. Selle asemel tuleks kreeditarved ja maksed tasakaalustada tasumata arvetega.
+-   **Hankija saldo kontrollimine** – kui määrate suvandi **Jah**, kontrollib süsteem enne mistahes arve maksmist hankija deebetsaldo olemasolu. Kui hankijal on deebetsaldo, siis makset ei looda. Näiteks võib hankijal olla kreeditarveid või makseid, mis on küll sisestatud, kuid pole veel tasakaalustatud. Neil juhtudel ei tuleks hankijale maksta. Selle asemel tuleks kreeditarved ja maksed tasakaalustada tasumata arvetega.
 -   **Kustuta negatiivsed maksed** – valik toimib erinevalt üksikute arvete ja maksekriteeriumile vastavate arvete summa maksmise puhul. Käitumine on määratletud makseviisiga.
 -   **Makse iga arve jaoks** – kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Jah** ning hankijal on olemas tasakaalustamata arve ja makse, valitakse maksmiseks ainult arve. Olemasolevat makset ei tasakaalustata arvega. Kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Ei** ning arve ja makse pole tasakaalustatud, valitakse maksmiseks nii arve kui makse. Maksele luuakse makse ja tagasimakse (negatiivne makse).
--   **Makse arvete summa jaoks** – kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Jah** ning hankijal on tasakaalustamata arve ja makse, valitakse maksmiseks nii tasakaalustamata arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma. Erand tehakse ainult siis, kui summa tulemuseks on tagasimakse. Sellisel juhul ei valita ei arvet ega makset. Kui selle ** Kustuta negatiivsed maksed ** määrangu **nr**, ning arve ja tasumist ei ole tasakaalustatud, arve ja makse valikul makse ja summad lisatakse koos esitada arve kogusumma.
+-   **Makse arvete summa jaoks** – kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Jah** ning hankijal on tasakaalustamata arve ja makse, valitakse maksmiseks nii tasakaalustamata arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma. Erand tehakse ainult siis, kui summa tulemuseks on tagasimakse. Sellisel juhul ei valita ei arvet ega makset. Kui suvandi **Kustuta negatiivsed maksed** sätteks on määratud **Ei** ning arvet ja makset ei tasakaalustata, valitakse maksmiseks nii arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma.
 -   **Prindi ainult aruanne** – kui soovite maksesoovituse tulemuste aruannet vaadata ilma makseid loomata, seadke selle suvandi väärtuseks **Jah**.
 -   **Lisa hankija arve teistelt juriidilistelt isikutelt** – kui teie organisatsioonil on tsentraliseeritud makseprotsess ja maksesoovitus peaks sisaldama arveid teistelt otsingukriteeriumisse kaasatud juriidilistelt isikutelt, määrake suvandi väärtuseks **Jah**.
 -   **Soovita iga juriidilise isiku jaoks eraldi hankija makset** – kui suvandi väärtuseks on määratud **Jah**, luuakse eraldi makse igale juriidilisele isikule hankija kohta. Maksel olev hankija on iga juriidilise isiku arvel olev hankija. Kui suvandi väärtuseks on määratud **Ei** ja samal hankijal on arveid mitmete juriidiliste isikute juures, luuakse üks makse valitud arvete kogusummas. Maksel olev hankija on antud juriidilise isiku hankija. Kui antud juriidilisel isikul hankija konto puudub, kasutatakse esimese tasutava arve hankija kontot.
--   **Makse valuuta** – see väli määrab kõigi maksete loodud valuuta. Kui valuuta ei ole määratletud, iga arve tasuda arve valuutat.
+-   **Makse valuuta** – see väli määrab valuuta, milles kõik maksed luuakse. Kui valuuta pole määratletud, tasutakse iga arve selle valuutas.
 -   **Makse nädalapäev** – saate sisestada makse tegemise nädalapäeva. Seda välja kasutatakse ainult siis, kui makseviisiks on seatud arvete kogusumma makse jaoks kindlal nädalapäeval.
--   **Vastaskonto tüüp** ja **vastaskonto** – nende väljade määratleda kindlat tüüpi kontole (näiteks **pearaamatu** või **panga**) ja Vastaskonto (nt eraldi pangakonto). Arve maksmise meetod määratleb vaikimisi vastaskonto tüübi ja vastaskonto, kuid nende väljade abil saate alistada vaikeväärtused.
--   **F3** -edasi on **kaasamiseks** FastTab, saate määratleda kriteeriumid täiendavad vahemikud. Näiteks kui soovite maksta ainult hankijakoodide vahemiku, saate määratleda filtri hankija vahemiku. Seda funktsiooni kasutatakse sageli arvete konkreetse makseviisi valimiseks. Näiteks kui määratlete filtri kui **makseviisi** = **kontrollida**, ainult arved, et makseviisi valitakse maksetaotluste alusel, tingimusel, et need vastavad ka muud päringus määratud kriteeriumidele.
+-   **Vastaskonto tüüp** ja **Vastaskonto** – nende väljadega saate määratleda kindla kontotüübi (nt **Pearaamat** või **Pank**) ja vastaskonto (nt kindel pangakonto). See arve makseviis määratleb vastaskonto vaiketüübi ja vastaskonto, kuid saate nende väljade abil ka alistada vaikeväärtused.
+-   **Lisafiltrid** – kiirkaardil **Kaasatavad kirjed** saate määratleda täiendavad kriteeriumivahemikud. Näiteks kui soovite maksta ainult teatud hankijatele, saate määratleda nende hankijate jaoks filtri. Seda funktsiooni kasutatakse sageli kindla maksemeetodi jaoks arvete valimiseks. Näiteks kui määratlete filtri, kus **Makseviis** = **Tšekk**, valitakse makseks ainult selle makseviisiga arved, eeldusel, et need vastavad ka teistele päringus määratud kriteeriumidele.
 
 ## <a name="scenarios"></a>Stsenaariumid
 | Hankija | Arve | Arve kuupäev | Arve summa | Tähtaeg | Skonto kuupäev | Skonto summa |
@@ -66,7 +69,7 @@ April maksab hankijatele 1. juulil. Ta kasutab ülesande tõhusamaks täitmiseks
 
 ### <a name="option-1-by-cash-discount"></a>1. võimalus: skonto järgi
 
-April valib soovituse tüübiks **Skonto**. Ta siseneb on kuupäev vahemikus, juuni 26-juuli 10. Ettepanek on kaasatud järgmised arved:
+April valib soovituse tüübiks **Skonto**. Ta sisestab kuupäevavahemikuks 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
 
 -   1002, kuna skonto kuupäev, 4. juuli, jääb maksekuupäevade vahemikku;
 -   1004, kuna skonto kuupäev, 1. juuli, jääb maksekuupäevade vahemikku.
@@ -78,7 +81,7 @@ Soovitusse ei kaasata järgmisi arveid:
 
 ### <a name="option-2-by-due-date"></a>2. võimalus: tähtaja järgi
 
-April valib soovituse tüübiks **Tähtaja järgi**. Ta siseneb on kuupäev vahemikus, juuni 26-juuli 10. Ettepanek on kaasatud järgmised arved:
+April valib soovituse tüübiks **Tähtaja järgi**. Ta sisestab kuupäevavahemikuks 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
 
 -   1003, kuna tähtaeg, 29. juuni, jääb maksekuupäevade vahemikku.
 
@@ -90,7 +93,7 @@ Soovitusse ei kaasata järgmisi arveid:
 
 ### <a name="option-3-by-due-date-and-cash-discount"></a>3. võimalus: tähtaja ja skonto järgi
 
-April valib soovituse tüübiks **Tähtaeg ja skonto**. Ta siseneb on kuupäev vahemikus, juuni 26-juuli 10. Ettepanek on kaasatud järgmised arved:
+April valib soovituse tüübiks **Tähtaeg ja skonto**. Ta sisestab kuupäevavahemikuks 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
 
 -   1003, kuna tähtaeg, 29. juuni, jääb maksekuupäevade vahemikku.
 -   1002, kuna skonto kuupäev, 4. juuli, jääb maksekuupäevade vahemikku;
@@ -109,12 +112,14 @@ Dimensioonide juhtimine võimaldab teil juhtida loodud ridade rühmitamist makse
 
 -   Väli **Dimensiooni juhtimine** keelatakse. Maksesoovitus käitub nagu mis tahes muu riigi puhul.
 -   Väli **Dimensiooni juhtimine** aktiveeritakse ilma dimensioone täpsemalt määratlemata. Maksesoovitus luuakse ilma dimensioone arvesse võtmata. Loodud kanne ei päri rakendatud kirjest ühtki dimensiooni.
--   Väli **Dimensiooni juhtimine** aktiveeritakse ja dimensioonide täpsem määratlemine lubatakse. Nüüd saate määratleda, kuidas dimensioonid töölehele kopeeritakse. Näiteks: Saabuva kõne märguanne on **äriüksusega** ruut Maksesoovituse loomine iga äriüksuse jaoks makse, Saabuva kõne märguanne on **CostCenter** ruut Maksesoovituse loomine kulukeskuse kohta meetodi makse
+-   Väli **Dimensiooni juhtimine** aktiveeritakse ja dimensioonide täpsem määratlemine lubatakse. Nüüd saate määratleda, kuidas dimensioonid töölehele kopeeritakse. Näide. • Märkige ruut **Äriüksus**, et luua makseviisi puhul maksepakkumine äriüksuse kohta • Märkige ruut **Kulukeskus**, et luua makseviisi puhul maksepakkumine kulukeskuse kohta
 
 **Märkus.** Kui valite kolmandas võimaluses rohkem kui ühe dimensiooni, luuakse maksesoovitus dimensiooni kombinatsioonile.
 
 #### <a name="bank-account-selection"></a>Pangakonto valimine
 
-Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltumata riigikontekstist. See määratakse soovituse loodud makseridadel. Pangakonto funktsiooniga saate määratleda mitu dimensiooni ja valuutaga hallatavat debiteerimise pangakontot või nende kombinatsiooni, et kasutada erinevaid debiteerimise pangakontosid olenevalt kombinatsioonist. Seadistage need kombinatsioonid **makseviiside** lehe abil selle **panga** nupp koos iga makseviisi jaoks saadaval **konto sisestamistüüp** = **panga**.
+Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltumata riigikontekstist. See määratakse soovituse loodud makseridadel. Pangakonto funktsiooniga saate määratleda mitu dimensiooni ja valuutaga hallatavat debiteerimise pangakontot või nende kombinatsiooni, et kasutada erinevaid debiteerimise pangakontosid olenevalt kombinatsioonist. Saate seadistada need kombinatsioonid lehel **Makseviisid**, kasutades nuppu **Pangakontod**, mis on saadaval iga makseviisi puhul, mille puhul **Sisestuskonto tüüp** = **Pank**.
+
+
 
 

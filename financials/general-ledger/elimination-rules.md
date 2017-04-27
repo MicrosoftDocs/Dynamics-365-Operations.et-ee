@@ -1,6 +1,6 @@
 ---
 title: Eemaldamisreeglid
-description: "See teema pakub teavet kõrvaldamise reeglid ja aruandluse umbes elimineerimised erinevaid võimalusi."
+description: "See teema annab teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="elimination-rules"></a>Eemaldamisreeglid
 
-See teema pakub teavet kõrvaldamise reeglid ja aruandluse umbes elimineerimised erinevaid võimalusi.
+[!include[banner](../includes/banner.md)]
 
-Eemaldamiskanded on nõutavad juhul, kui emaettevõttest juriidilisel isikul on ärisuhted ühe või mitme tütarettevõttest juriidilise isikuga ning ta kasutab konsolideeritud finantsaruandlust. Konsolideeritud finantsaruanded peavad sisaldama ainult konsolideeritud organisatsiooni ja teiste sellest organisatsioonist väljaspool asuvate üksuste vahelisi kandeid. Seega, juriidilised isikud, kes kuuluvad samasse organisatsiooni vaheliste tehingute eemaldada, või kõrvaldada pearaamatu, seetõttu ei kuvata finantsaruannete põhjal. Eemaldamistest saab teatada mitmesugusel moel.
+
+See teema annab teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta.
+
+Eemaldamiskanded on nõutavad juhul, kui emaettevõttest juriidilisel isikul on ärisuhted ühe või mitme tütarettevõttest juriidilise isikuga ning ta kasutab konsolideeritud finantsaruandlust. Konsolideeritud finantsaruanded peavad sisaldama ainult konsolideeritud organisatsiooni ja teiste sellest organisatsioonist väljaspool asuvate üksuste vahelisi kandeid. Seetõttu tuleb samasse organisatsiooni kuuluvate juriidiliste isikute vahelised kanded pearaamatust eemaldada, nii et neid finantsaruannetes ei kuvata. Eemaldamistest saab teatada mitmesugusel moel.
 
 -   Eemaldamisreeglit saab luua ja töödelda konsolideerimis- või eemaldamisettevõttes.
 -   Finantsaruandlust saab kasutada eemaldamiskontode ja dimensioonide kuvamiseks konkreetses reas või veerus.
@@ -129,27 +132,29 @@ Teie juriidiline isik (A) müüb vidinad teisele teie ettevõtte juriidilisele i
 Kõik need kanded loovad kontsernisisesed kanded, mis sisestatakse algus- ja lõpptähtaja kontodele. Peale selle võivad need kanded hõlmata hinnalisandiga ja hinnavähendusega summasid, kui kontsernisisene müügisumma ja müüdud kaupade maksumus ei ole võrdsed.
 
 ## <a name="set-up-elimination-rules"></a>Eemaldamisreeglite seadistamine
-Kõrvaldamise eeskirjad Dynamics 365 operatsioonide loomisel soovitame luua rahalise küljega konkreetselt kõrvaldamise eesmärgil. Enamik kliente nime Trading Partner või midagi sarnast. Kui te ei soovi kasutada rahalise küljega, siis kindlasti on IC-tehinguid ainult seotud keskne raamatupidamine. 
+Dynamics 365 for Operationsis eemaldamisreeglite seadistamisel soovitame luua spetsiaalselt eemaldamiseks mõeldud finantsdimensiooni. Enamik kliente annab sellele nimeks Kaubanduspartner või muud sarnast. Kui te ei soovi finantsdimensiooni kasutada, siis peavad teil kindlasti olema ainult ettevõtete vahelisteks kanneteks mõeldud põhikontod. 
 
-Setup elimineerimiste jaoks leitakse konsolideerimise moodul Setup valdkonnas. Kui olete sisestanud reegli kirjeldus, peate valima ettevõtte likvideerimise töölehe konteerib. See peaks olema ettevõte, mis on **kasutamine rahaliste kõrvaldamise protsessile** juriidilise isiku seadistuses valinud. 
+Eemaldamised saate seadistada mooduli Konsolideerimised alal Seadistus. Kui olete reegli kohta kirjelduse sisestanud, peate valima ettevõtte, millesse eemaldamisreegel sisestab. See peab olema ettevõte, mille puhul on juriidilise isiku seadistuses valitud suvand **Kasuta finantsiliseks eemaldamisprotsessiks**. 
 
-Saate kuupäeva mis kõrvaldamiseks eeskirja jõustumist ja kuna see on aegunud, kui vaja. Peate määrama **aktiivne** et **Jah** kui see saadaval soovitusprotsessi kõrvaldamiseks. Valige töölehe nimi, mis on teatud tüüpi **kõrvaldamiseks**.
+Saate määrata eemaldamisreegli jõustumiskuupäeva ja vajadusel ka aegumiskuupäeva. Kui soovite, et see oleks eemaldamispakkumise protsessis saadaval, valige suvandi **Aktiivne** sätteks **Jah**. Valige selle töölehe nimi, mille tüüp on **Eemaldamine**.
 
-Pärast põhitõdesid, klõpsates saate määratleda tegelik eeskirjad **read**. On kaks võimalust elimineerimine, kõrvaldades muutus summa või kindlasummaline määratlemisel. 
+Kui olete põhiparameetrid määratlenud, saate määratleda ka tegelikud töötlusreeglid, klõpsates valikut **Read**. Eemaldamiseks on kaks võimalust: netomuutuse summa eemaldamine või fikseeritud summa määratlemine. 
 
-Valige konto allikas. Kasutage tärni (\*) metamärgina. Nt 1\* valida kõik kontod, alustades 1 jaotamise andmete allikas. 
+Valige lähtekonto. Saate kasutada metamärgina tärni (\*). Näiteks väärtuse 1\* korral valitakse eralduse andmeallikana kõik kontod, mis algavad numbriga 1. 
 
-Pärast seda, kui valitud konto allikas on **moodustavad spetsifikatsioon** määrab sihtkoha firma, mida kasutatakse konto. Valige **allikas** kui soovite kasutada määratud sama peamine konto on **allikas** konto. Kui valite **kasutaja määratud**, siis määrake sihtkoht konto. 
+Kui olete lähtekontod valinud, määrab valik **Konto täpsustus** kasutatava konto sihtettevõttes. Valige suvand **Allikas**, kui soovite kasutada sama põhikontot, mis on määratletud jaotises **Lähtekonto**. Kui valite suvandi **Kasutaja määratletud**, peate määrama sihtkonto. 
 
-Dimensiooni kirjeldus toimib samal viisil. Kui valite **allikas**, ta kasutab sama allikas ettevõtte sihtettevõttes. Kui valite **kasutaja määratud**, peate määrama sihtkoha ettevõttes dimensioonid, klõpsates selle **sihtkoha mõõtmed** menüükäsu. 
+Dimensiooni täpsustus toimib samal moel. Kui valite suvandi **Allikas**, kasutab see sihtettevõttes lähteettevõttega samu dimensioone. Kui valite suvandi **Kasutaja määratletud**, peate määrama sihtettevõtes dimensioonid, klõpsates menüüelementi **Sihtdimensioonid**. 
 
-Valige allikas mõõtmed ja finantsdimensioonide ja kõrvaldamiseks allikana kasutatavad väärtused.
+Valige lähtedimensioonid ja finantsdimensioonid ning väärtused, mida kasutatakse eemaldamisallikana.
 
 ## <a name="process-elimination-transactions"></a>Eemaldamiskannete töötlemine
-On kaks võimalust protsessi kõrvaldamiseks tehingute käigus Konsolideeri online või kõrvaldamise töölehe loomise ja likvideerimise soovitusprotsessi. Käesolevas punktis keskendutakse töölehe loomise ja käivitamise kõrvaldamise protsessile. 
+Eemaldamiskannete töötlemiseks on kaks võimalust: ainult võrgu kaudu konsolideerimise ajal või luues eemaldamise tööraamatu ja käitades eemaldamispakkumise protsessi. See jaotis keskendub töölehe loomisele ja eemaldamisprotsessi käitamisele. 
 
-Valige ettevõttelt kõrvaldamiseks ettevõtte määratletud, **kõrvaldamiseks töölehe** konsolideerimise moodul. Pärast valitud töölehe nime, klõpsake **read**. Ettepaneku käivitada valides ning **ettepanekud** menüü ja valige **kõrvaldamiseks ettepaneku**.
+Valige eemaldamisettevõttena määratletud ettevõttes moodulis Konsolideerimine suvand **Eemaldamisreegel**. Pärast töölehe nime valimist klõpsake valikut **Read**. Pakkumise saate käivitada, valides menüü **Pakkumised** ja seejärel suvandi **Eemaldamisperiood.**
 
-Valige ettevõte, mis on konsolideeritud andmete allikas ja valige reegel, mille soovite töödelda. Sisestage alguskuupäeva kõrvaldamiseks summad otsingu alustamiseks ja lõpetamiseks otsingu kuupäev kõrvaldamiseks summad kuupäeva. Selle **GL konteerimiskuupäeva** väli on kasutatav töölehe pearaamatusse sisestamise kuupäev. Pärast nupu **OK**, saate vaadata summad ja selle konteerida.
+Valige ettevõte, mis on konsolideeritud andmete allikas, ja seejärel valige reegel, mida soovite töödelda. Sisestage eemaldamissummade otsimiseks algus- ja lõppkuupäev. Välja **Pearaamatu sisestamise kuupäev** kasutatakse töölehe pearaamatusse sisestamiseks. Pärast nupu **OK** klõpsamist saate summad üle vaadata ja töölehe sisestada.
+
+
 
 

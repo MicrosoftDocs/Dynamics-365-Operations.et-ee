@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Operationsi ressursid
 
+[!include[banner](../includes/banner.md)]
+
+
 Operatsiooniressurssid sooritavad projekti või tootmisprotsessi tegevusi. Need võivad olla erinevat tüüpi ja erinevate võimalustega. 
 
 <a name="operations-resources"></a>Operationsi ressursid
@@ -36,7 +39,7 @@ Operatsiooniressurssid sooritavad projekti või tootmisprotsessi tegevusi. Need 
 Operatsiooniressursid on masinad, tööriistad, töötajad, ruumid, füüsilised alad või hankijad, kes teostavad projekti või tootmisprotsessi tegevusi. Need võivad olla erinevat tüüpi ja erinevate võimalustega.
 
 -   **Hankija** – väline ressurss, mis teostab projektitegevusi või tootmisoperatsioone. Selle näiteks on allhankija. Hankija ressursside linkimisel hankijakontoga saate luua allhankijatele oste koosluseridade või tootmisridade põhjal.
--   **Inimressurssid** – projekti- või tootmistöötaja, kes teostab tegevust kas ise või tööriista või masina operaatorina. Inimressursside funktsiooni kasutamisel saate linkida töötaja personalikulud. Seejärel saab planeerimismootor ressursse eraldada, võttes aluseks vastava töötaja kohta määratletud pädevused.
+-   **Inimressurssid** – projekti- või tootmistöötaja, kes teostab tegevust kas ise või tööriista või masina operaatorina. Kui kasutate inimressursside funktsionaalsust, saate linkida inimressurssid hankijaga. Seejärel saab planeerimismootor ressursse eraldada, võttes aluseks vastava töötaja kohta määratletud pädevused.
 -   **Masin** – masin või muu tootmises vajalik tootmisseade.
 -   **Tööriist** – vahend või seade, mida tavaliselt kasutatakse koos teise ressursiga projektis või tootmises mingi tegevuse teostamiseks.
 -   **Asukoht** – kindla suurusega füüsiline asukoht, mis on tegevuse teostamiseks nõutav. Selle näiteks on montaažiala.
@@ -80,5 +83,7 @@ Ressursigrupi kasutamisel säästliku töörakuna määratakse tööraku võimsu
 
 ## <a name="costing-resources"></a>Kuluarvutuse ressursid
 Kui määrtlete tegevuse, nagu protsessioperatsioon või projekti tunnieelarve, saate määrata konkreetse operatsiooniressursi või ressursigrupi nõude. Siiski saate määrata ka kindlat tüüpi operatsiooniressursi või teatud võimsuse või pädevusega operatsiooniressursi nõude. Sel põhjusel ei tehta tegelikku ressursimääramist enne, kui tegevus on planeeritud ja võimsus reserveeritud. Seetõttu saate protsessioperatsioonis määrata, et hinnang ja koosluse arvutus peavad põhinema konkreetsel operatsiooniressursil. Seda operatsiooniressurssi nimetatakse kuluarvutuse ressursiks. Saate kulukategooriaid ja operatsiooniaegu ka kuluarvutuse ressursist tegevusse üle kanda. Operatsiooni planeerimisel toimub hindamine ja koosluse arvutus juba planeeritud operatsiooniressurssi kasutades.
+
+
 
 

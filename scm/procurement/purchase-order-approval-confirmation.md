@@ -1,5 +1,5 @@
 ---
-title: Kiita heaks ja kinnitada ostutellimused
+title: Ostutellimuse heakskiitmine ja kinnitamine
 description: "Selles artiklis kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Kiita heaks ja kinnitada ostutellimused
+# <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuse heakskiitmine ja kinnitamine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele.
 
@@ -73,12 +76,14 @@ Pärast seda, kui tellimus on kinnitatud, ei saa seda enam kustutada. Kuid tühi
 <a name="see-also"></a>Vt ka
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Ostutellimuse ülevaade](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Ostutellimuse loomine](purchase-order-creation.md)
 
 [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
 
 [Hankija arvete ülevaade](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

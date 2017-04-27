@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Varade soetamine hankega
 
+[!include[banner](../includes/banner.md)]
+
+
 See artikkel kirjeldab, kuidas seadistada integratsiooni Põhivarade ja Ostureskontro vahel, et luua ostutellimustest või hankija arvetest automaatselt põhivarad, või sisestada automaatselt põhivarade soetamise- ja soetamiskorrigeeringu kanded.
 
  Põhivarade ja ostureskontro integreerimiseks on saadaval järgmised meetodid. Kõigi põhivarade puhul tuleb kasutada sama meetodit.
@@ -103,6 +106,8 @@ Järgnevalt sama stsenaariumi variandid:
 -   Kui saadakse üksnes osaline kogus, ei looda vara soetamist esimese hankija arve puhul kasutajagrupi piirangute tõttu. Ainus viis hankija teise, lõpliku kogusega arvega soetamise sisestamiseks on see, kui soetamiskanne on juba hankija esimese arve puhul sisestatud ja olete sellise kasutajagrupi liige, mis saab soetusi sisestada.
 
 
-Lisateabe saamiseks vaadake [fikseeritud varade integratsiooni](fixed-asset-integration.md).
+Lisateavet vt teemas [Põhivarade integreerimine](fixed-asset-integration.md).
+
+
 
 

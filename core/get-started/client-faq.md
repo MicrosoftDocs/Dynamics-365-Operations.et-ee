@@ -1,6 +1,6 @@
 ---
-title: Toiminguid kliendi FAQ Dynamics 365
-description: "Sellest artiklist leiate vastused korduma kippuvatele küsimustele toiminguid kliendi Microsoft Dynamics 365."
+title: Dynamics 365 for Operationsi klientrakenduse KKK
+description: "See artikkel annab vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 for Operationsi klientrakenduse kohta."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,33 +24,38 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-client-faq"></a>Toiminguid kliendi FAQ Dynamics 365
+# <a name="dynamics-365-for-operations-client-faq"></a>Dynamics 365 for Operationsi klientrakenduse KKK
 
-Sellest artiklist leiate vastused korduma kippuvatele küsimustele toiminguid kliendi Microsoft Dynamics 365.
+[!include[banner](../includes/banner.md)]
 
-<a name="why-arent-symbols-loaded-when-i-use-dynamics-365-for-operations"></a>Miks ei ole sümbolid laaditud operatsioonide Dynamics 365 kasutamisel?
+
+See artikkel annab vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 for Operationsi klientrakenduse kohta.
+
+<a name="why-arent-symbols-loaded-when-i-use-dynamics-365-for-operations"></a>Miks ei laadita Dynamics 365 for Operationsi kasutamisel sümboleid?
 -----------------------------------------------------------------
 
 Teie brauseri turbesätted võivad takistada sümbolite õiget laadimist. Proovige teha probleemi lahendamiseks järgmist.
 
--   Kui teil esineb selle probleemi Internet Exploreris, klõpsake **tööriistad**, ja seejärel klõpsake **Interneti-suvandid**.  Interneti-suvandid dialoogiboksi kohta ning **Privaatsus** vahekaardil, klõpsake **Kohandatud tase**, ja veenduge, et selle **fondi allalaadimine** valik.
--   Vastasel juhul peate Dynamics 365 toimingute saidi lisamiseks usaldusväärsete saitide loendisse.
+-   Kui teil esineb see probleem Internet Exploreris, klõpsake menüüs **Tööriistad** valikut **Interneti-suvandid**.  Dialoogiboksis Interneti-suvandid klõpsake vahekaardil **Privaatsus** valikut **Kohandatud tase** ja veenduge, et suvand **Fondi allalaadimine** oleks märgitud.
+-   Vastasel korral peate lisama Microsoft Dynamics 365 for Operationsi saidi usaldusväärsete saitide loendisse.
 
-## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Ma igatsen lindi Dynamics AX 2012. Vältida Updatehagi paani vahekaarte avada pidevalt?
-On plaanis rakendada see funktsioon kiiresti. Kasutajat saab seejärel valida hoida sakke tegevus paane avatud kogu aeg. Vastasel korral vahekaardid ahendatakse, kui neid ei kasutata, et lehele rohkem ruumi saada.
+## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Mul pole rakenduses Dynamics AX 2012 linti. Kas saan toimingupaani vahekaardid alati lahti hoida?
+Kavatseme selle funktsiooni peagi juurutada. Seejärel saavad kasutajad toimingupaani vahekaardid alati lahti hoida. Vastasel korral vahekaardid ahendatakse, kui neid ei kasutata, et lehele rohkem ruumi saada.
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>Miks mõnikord näha erinevaid kiirmenüüde kui ma rightclick?
-Kui paremklõpsate redigeeritavat välja (või valite teksti), kuvatakse brauseri kiirmenüü. See menüü annab teile juurdepääsu käskudele **Lõika**, **Kopeeri** ja **Kleebi**. Me ei saa manustada need käsud Dynamics 365 toimingute otsetee menüüsid sest turvalisuse huvides brauserid ei võimalda Programmeerimisjuurdepääs ruumilistele süsteemi lõikelauale.
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>Miks ma näen mõnikord paremklõpsamisel erinevaid kiirmenüüsid?
+Kui paremklõpsate redigeeritavat välja (või valite teksti), kuvatakse brauseri kiirmenüü. See menüü annab teile juurdepääsu käskudele **Lõika**, **Kopeeri** ja **Kleebi**. Me ei saa manustada neid käske Dynamics 365 for Operationsi kiirmenüüdesse, kuna turvakaalutlustel ei võimalda brauserid meil süsteemi lõikelauale programmiliselt juurde pääseda.
 
-Kui paremklõpsate välja silt või kirjutuskaitstud juhtelemendi väärtuse, näete Dynamics 365 toimingute otsetee menüü.
+Kui paremklõpsate välja silti või kirjutuskaitstud juhtelemendi väärtust, kuvatakse Dynamics 365 for Operationsi kiirmenüü.
 
-Klaviatuuri kasutamise lihtsamaks, plaanime rakendada klaviatuuri otsetee tulevikus avatava Dynamics 365 toimingute otsetee menüü.
+Klaviatuurile juurdepääsu hõlbustamiseks plaanime võtta tulevikus kasutusele klaviatuuri otsetee, mis avab Dynamics 365 for Operationsi kiirmenüü.
 
-## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>Kus on vaade üksikasjad funktsiooni Dynamics 365 operatsioonide?
+## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>Kus on Dynamics 365 for Operationsis funktsioon Kuva üksikasjad?
 Valik **Kuva üksikasjad** on kättesaadav mitmel viisil.
 
 -   Kui juhtelemendil on **üksikasjade kuvamise **võimalused ja kui juhtelemendil on väärtus, kuvatakse väärtus hüperlingina. Võite klõpsata hüperlinki täiendavaid üksikasju sisaldava lehe avamiseks.
--   **Andmete** on ka võimalus Dynamics 365 toimingute otseteemenüüd. Lisateabe saamiseks, millal Dynamics 365 toimingute kiirmenüüde paremklõpsamisel kuvatakse, vaadake eelmist teemat.
+-   **Kuva üksikasjad** on ka Dynamics 365 for Operationsi kiirmenüüde valik. Lisateavet selle kohta, millal Dynamics 365 for Operationsi kiirmenüüd paremklõpsamisel kuvatakse, leiate eelmisest teemast.
+
+
 
 
 

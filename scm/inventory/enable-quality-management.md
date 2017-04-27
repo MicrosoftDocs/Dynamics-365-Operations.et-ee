@@ -1,5 +1,5 @@
 ---
-title: "Kvaliteedi juhtimise ülevaade"
+title: "Kvaliteedijuhtimise ülevaade"
 description: "Selles artiklis kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 for Operationsis kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Kvaliteedi juhtimise ülevaade
+# <a name="quality-management-overview"></a>Kvaliteedijuhtimise ülevaade
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 for Operationsis kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
 
@@ -344,7 +347,7 @@ Kvaliteediseos tuleb automaatset kvaliteettellimuse genereerimist nõudvas ärip
 </tr>
 <tr class="even">
 <td>Katse muutuja väljundteated</td>
-<td>Kasutage seda lehte kvalitatiivse katsega seotud muutuja võimalike katsetulemuste seadistamiseks, redigeerimiseks ja vaatamiseks. Iga tulemuse puhul tuleb määrata olek <strong>läbis</strong> või <strong>ei läbinud</strong>. Peate määrama muutuja ja tema väljundid iga kvalitatiivse katse jaoks, mis on määratud lehel <strong>Katsed</strong>. (Kvalitatiivsete testide, määratakse katse liik <strong>valik</strong> kohta on <strong>testide</strong> lehekülg.) Kasutamine ning <strong>katserühmade</strong> lehekülg testi muutuja ja vaikimisi tulemuse määramiseks hotellile kvalitatiivne test.</td>
+<td>Kasutage seda lehte kvalitatiivse katsega seotud muutuja võimalike katsetulemuste seadistamiseks, redigeerimiseks ja vaatamiseks. Iga tulemuse puhul tuleb määrata olek <strong>läbis</strong> või <strong>ei läbinud</strong>. Peate määrama muutuja ja tema väljundid iga kvalitatiivse katse jaoks, mis on määratud lehel <strong>Katsed</strong>. (Kvalitatiivsete katsete puhul on katse tüübiks määratud <strong>Valik</strong> lehel <strong>Katsed</strong>.) Kasutage lehte <strong>Katsegrupid</strong> katsemuutuja ja vaikeväärtuse määramiseks kindlale kvalitatiivsele katsele.</td>
 <td>Küpsiseid valmistav tootmisettevõte kasutab valmistoote kontrollkatset. Sellel kontrollkatsel on mitu muutujat. Üks muutuja on maitse ja selle muutuja võimalikud väärtused on hea ja halb. Teine muutuja on värvus ja võimalikud tulemused on liiga tume, liiga hele ja õige. Igale tulemusele omistatakse väärtus <strong>läbis</strong> või <strong>ei läbinud</strong>. Iga muutuja kontrolltesti ajal registreerib katsetaja katse tulemuse, valides ühe väljundi väärtustest.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ Kvaliteediseos tuleb automaatset kvaliteettellimuse genereerimist nõudvas ärip
 <a name="see-also"></a>Vt ka
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 
 [Mittevastavuse haldamise võimaldamine](enable-nonconformance-management.md)
+
+
 
 

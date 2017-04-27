@@ -1,6 +1,6 @@
 ---
-title: Kontserni arvestuse seadistamine
-description: "Selles artiklis käsitletakse loodud kontserni raamatupidamise nii, et saate kasutada IC-žurnaalides pearaamatu eraldised ja rahalise töölehtedele, päevased töölehed, hankija arve töölehtedel ja Maksežurnaalid."
+title: Kontsernisisese raamatupidamise seadistus
+description: "Selles teemas selgitatakse, kuidas seadistada kontsernisisest raamatupidamist nii, et saaksite kasutada kontsernisiseseid töölehti pearaamatueraldiste ja finantstöölehtede (nt igapäevaste töölehtede, hankija arve töölehtede ja maksetöölehtede) jaoks."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,25 +25,30 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="intercompany-accounting-setup"></a>Kontserni arvestuse seadistamine
+# <a name="intercompany-accounting-setup"></a>Kontsernisisese raamatupidamise seadistus
 
-Selles artiklis käsitletakse loodud kontserni raamatupidamise nii, et saate kasutada IC-žurnaalides pearaamatu eraldised ja rahalise töölehtedele, päevased töölehed, hankija arve töölehtedel ja Maksežurnaalid.
+[!include[banner](../includes/banner.md)]
 
-IC-žurnaalides loomist mitmesugustel juhtudel, näiteks päevased töölehed, hankija arve töölehtedega, pearaamatu eraldised ja tsentraliseeritud maksed. Nende stsenaariumide lubamiseks peate seadistama kontsernisisese raamatupidamise.
 
-## <a name="define-main-accounts"></a>Määratleda keskne raamatupidamine
-Esmalt tuleb luua kontsernisisesed põhikontod, et kasutada makse saaja ja maksja raamatupidamiskirjeid. Iga ettevõtte jaoks tasub kasutada kordumatuid põhikontosid, et hõlbustada kontsernisiseste raamatupidamiskirjete tasakaalustamist ja likvideerimist. Kui kasutate IC poole äripartneri või vastutasu dimensiooni, saate määratleda peamine konto raamatupidamises ettevõtetevaheliste määratletud fikseeritud dimensioon selle dimensiooni. Keskne raamatupidamine seadistamisel peate seadma selle **Main liik** välja **bilansi** kohta on **Main kontode** lehekülg.
+Selles teemas selgitatakse, kuidas seadistada kontsernisisest raamatupidamist nii, et saaksite kasutada kontsernisiseseid töölehti pearaamatueraldiste ja finantstöölehtede (nt igapäevaste töölehtede, hankija arve töölehtede ja maksetöölehtede) jaoks.
 
-## <a name="define-journal-names"></a>Määratleda nimesid
-Järgmisena tuleb määratleda töölehe nimi. Määra ning **tüüp** välja **päevas** kohta on **nimesid** lehekülg. Kontsernisiseseks raamatupidamiseks tasub kasutada kindlat töölehe nime.
+Kontserni töölehed saab luua mitmesugustes stsenaariumides, näiteks igapäevaste töölehtede, hankija arve töölehtede, pearaamatu eraldiste ja tsentraliseeritud maksete jaoks. Nende stsenaariumide lubamiseks peate seadistama kontsernisisese raamatupidamise.
 
-## <a name="define-intercompany-accounting-setup"></a>Määratleda kontsernisisese arvestuse seadistamine
-Selle **kontserni raamatupidamise** lehel saab luua teostada tehing juriidiliste isikute paarid omavahel. Arvestuse seadistamine kontsernisisese jagatakse nii, et seadistus on nähtavad jooksul juriidilised isikud. Uus juriidiline isik kahe loomisel tagama, et sa oled teadlik, milline juriidiline isik mõistetakse koostanud firma versus sihtkoha firma. Kui sisestate IC-tehinguid, määrab tehingu algatamise või pärit tehingu mis juriidiline isik. Näiteks seadistatakse kontserni raamatupidamise USMF (pärit) ja USSI (sihtkoht). Kui kasutaja on USSI ja siseneb IC-tehing koos USMF, tehing ei postita sest kontserni raamatupidamise määratletakse vaid USMF on algataja. Kui kas firma saab pärinevad tehingu, peate Loo teine juriidiline isik paar vastastikuse seadistamiseks. 
+## <a name="define-main-accounts"></a>Põhikontode määratlemine
+Esmalt tuleb luua kontsernisisesed põhikontod, et kasutada makse saaja ja maksja raamatupidamiskirjeid. Iga ettevõtte jaoks tasub kasutada kordumatuid põhikontosid, et hõlbustada kontsernisiseste raamatupidamiskirjete tasakaalustamist ja likvideerimist. Kui kasutate kontsernisisese osapoole tuvastamiseks äripartneri või ekvivalendi dimensiooni, saate määratleda selle dimensiooni kontsernisiseses raamatupidamises määratletud põhikonto fikseeritud dimensioonina. Põhikontode seadistamisel tuleb lehel **Põhikontod** määrata välja **Põhikonto tüüp** väärtuseks **Bilanss**.
 
-Valige selle **konto debiteerimiseks (nõuded)** ja **krediidi konto (tõttu)** nii lähte- ja juriidilisel isikul. Määratleda, mis **töölehe nimi** kasutatakse kande loomisel sihtkoha ettevõttes. Töölehe koostanud äriühingu on juba teada, sest see on kasutaja valitud IC-tehingu loomiseks. 
+## <a name="define-journal-names"></a>Töölehenimede määratlemine
+Järgmisena tuleb määratleda töölehe nimi. Määrake lehel **Töölehenimed** välja **Töölehe tüüp** väärtuseks **Igapäevane**. Kontsernisiseseks raamatupidamiseks tasub kasutada kindlat töölehe nime.
 
-Lõpuks, Vali, milline juriidiline isik saab toetamiseks summasid nagu skonto või tsentraliseeritud maksete realiseeritud tulude/kulude arvestus. 
+## <a name="define-intercompany-accounting-setup"></a>Kontsernisisese raamatupidamise seadistuse määratlemine
+Lehte **Kontsernisisene raamatupidamine** kasutatakse juriidiliste isikute paaride loomiseks, kes saavad üksteisega tehinguid teha. Kontsernisisese raamatupidamise seadistus on ühiskasutuses, mis tähendab, et seadistus on näha kõigist juriidilistest isikutest. Uue juriidiliste isikute paari loomisel veenduge, et oleksite teadlik, milline juriidiline isik on määratud sihtettevõtte suhtes lähte-ettevõtteks. Kontsernisisestesse kannetesse sisenemisel määrab kanne, milline juriidiline isik kande algatab või on kande lähtepunktiks. Näiteks seadistatakse kontsernisisene raamatupidamine USMF-i (lähtepunkt) ja USSI (sihtpunkt) jaoks. Kui kasutaja on USSI-s aktiivne ja teeb USMF-iga kontsernisisese kande, siis kannet ei sisestata, kuna kontsernisiseses raamatupidamises on USMF määratletud ainult lähtepunktina. Kui kumbki ettevõte võib kande algatada, on vaja mõlemapoolse seadistuse jaoks luua teine juriidiliste isikute paar. 
 
-Vastastikune suhe saab seadistada hõlpsasti linna ning **kontserni raamatupidamise** lehe abil selle **luua vastastikusest** nuppu esimene paar juriidiline isik on loodud. Vastastikune paari loomisel kopeeritakse sihtkoha ettevõtte teave pärit firma ja vastupidi. Sihtkoha ettevõtte määratletud töölehe jääb. Enamikus organisatsioonides kasutada sama nimetamistava nende töölehtede nimed, et töölehe nimi on sama. Kui töölehe nimi on erinev, ilmub hoiatus välja, et teavitada teid, et tööleht pole olemas ja saab valida eri žurnaali.
+Valige **Deebetkonto (maksja)** ja **Kreeditkonto (vastuvõtja)** nii algatava kui ka vastuvõtva juriidilise isiku jaoks. Määratlege, millist **töölehe nime** kasutatakse, kui sihtettevõttes kanne luuakse. Lähteettevõtte tööleht on juba teada, kuna kasutaja valis selle kontsernisisese kande loomisel. 
+
+Lõpuks valige, millise juriidilise alla paigutatakse tugisummade arvestus (nt skonto või realiseeritud kasum/kahjum) tsentraliseeritud maksete puhul. 
+
+Vastastikuse seose saab lehel **Kontsernisisene raamatupidamine** hõlpsasti seadistada, kasutades nuppu **Loo vastastikune seos** pärast esimese juriidiliste isikute paari loomist. Kui vastastikune paar on loodud, kopeeritakse sihtettevõtte andmed lähteettevõttele ja vastupidi. Sihtettevõttele määratletud tööleht jääb alles. Enamik organisatsioone kasutab oma töölehenimede jaoks sama nime andmise süsteemi, et töölehe nimi oleks sama. Kui töölehe nimi on erinev, kuvatakse väljal hoiatus, mis ütleb, et töölehte pole olemas, ja saab valida teise töölehe.
+
+
 
 

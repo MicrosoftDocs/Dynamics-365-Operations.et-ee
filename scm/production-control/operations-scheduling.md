@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Operatsioonide planeerimine
 
+[!include[banner](../includes/banner.md)]
+
+
 See teema annab teavet operatsioonide plaanimise kohta. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul.
 
 Saate plaanida tootmist operatsiooni ja töö tasandil. Erinevalt tööde plaanimisest ei tükelda operatsioonide plaanimine tootmisprotsessi operatsioone töödeks. Kui soovite kaasata plaanimisse rohkem üksikasju, näiteks teavet praeguse võimsuse kohta, saate käivitada tööde plaanimise pärast operatsioonide plaanimise käivitamist. Saate käivitada ka ainult tööde plaanimise. Tööde plaanimist kasutatakse tavaliselt üksikute tööde plaanimiseks tööde juhtimise moodulis kohe või lühikese ajavahemiku jooksul.
@@ -76,5 +79,7 @@ Kui töötate limiteeritud materjalidega, sõltub plaanimine ka tootmiseks vajal
 --------
 
 [Operatsioonide plaanimise valikud](operation-scheduling-options.md)
+
+
 
 

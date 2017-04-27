@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="batch-attributes"></a>Partii atribuudid
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet partii atribuutide kohta. Partii atribuudid on toormaterjalide ja varude partiid moodustavate valmistoodete omadused. See artikkel selgitab ka partiiatribuutide määramist ja seda, kuidas neilt partiide reserveerimisel otsida saab.
 
 Partii atribuudid on toormaterjalide ja varude partiid moodustavate valmistoodete omadused. Partii atribuudid võivad erineda olenevalt teguritest, nagu keskkonnatingimused, partii tootmiseks kasutatavate toormaterjalide kvaliteet või valmistoote tulemus. Kasutatavate partii atribuutide arv ja tüübid võivad valdkonniti olulisel määral erineda. Siin on toodud kaks näidet partii atribuutide kasutamisest.
@@ -42,12 +45,14 @@ Atribuutide arvu ja tüüpide paremini haldamiseks saate kasutada partii atribuu
 Saate määrata partii atribuudid varude partiides hoitavatele üksikutele toodetele või kindlate klientidega seostatud toodetele. Enne partii atribuudi määramist peate määrama selle toote tasemel. Tootel peab olema jälgimisdimensioonigrupis määratud partiidimensiooni väärtuseks **Aktiivne**. Partii atribuudi määramiseks üksikule tootele kasutage tootekohast lehte. Kui atribuut on kliendi jaoks loodud toote kohane, kasutage kliendikohast lehte. Tootele atribuudi lisamisel saate määratleda ka muud parameetrid. Järgmisena on toodud mõned näited.
 
 -   Atribuudi tüübiga **Täisarv** või **Murd** miinimum- ja maksimumvahemikud.
--   Lubatud toimingud atribuut on **täisarv** või **osa** tüüp. Kui atribuudi väärtus jääb vahemikust minimaalse ja maksimaalse, hagi saab hoiatuse või tõrketeate.
+-   Atribuudi, mille tüüp on **Täisarv** või **Murd**, hälbetegevused. Kui atribuudi väärtus jääb väljapoole miinimum- ja maksimumvahemikku, saab tegevus olla kas hoiatus- või tõrketeade.
 -   Atribuudi sihtväärtus. See väärtus on atribuudi optimaalne väärtus ja see rakendub kõigile atribuuditüüpidele.
 
 Pääsete juurde mooduli Tooteteabe haldus lehel **Väljastatud tooted** valitud toodete lehtedele. Pärast tootele partii atribuutide määramist saate lehel **Varude partii atribuudid** lisada atribuutidele kindlad väärtused.
 
 ## <a name="reserve-batches"></a>Partiide reserveerimine
 Saate otsida partii atribuute, kui reserveerite partiisid müügitellimuse puhul, et täita kliendi tellimust, või kui komplekteerite ja reserveerite partiisid tootmistellimuse jaoks. Otsing aitab leida varude partii, mis sisaldab teie soovitud partiiatribuutidega toodet. Kui olete partii(de) asukoha(d) tuvastanud, saate reserveerida toote lähtevarude kandereale.
+
+
 
 

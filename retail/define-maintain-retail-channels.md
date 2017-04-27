@@ -1,6 +1,6 @@
 ---
 title: "Jaemüügikanalite määratlemine ja haldamine"
-description: "Selles artiklis antakse ülevaade Telliskivi-ja mördi kauplustes, mis on edaspidi müügipindade Microsoft Dynamics 365 operatsioonide seadistamise protsess. See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast jaekaupluse seadistamist."
+description: "Selles artiklis antakse ülevaade füüsilistele kaupluste (mida nimetatakse Microsoft Dynamics 365 for Operationsis jaekauplusteks) seadistamise protsessist. See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast jaekaupluse seadistamist."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Jaemüügikanalite määratlemine ja haldamine
 
-Selles artiklis antakse ülevaade Telliskivi-ja mördi kauplustes, mis on edaspidi müügipindade Microsoft Dynamics 365 operatsioonide seadistamise protsess. See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast jaekaupluse seadistamist.
+[!include[banner](includes/banner.md)]
 
-Hulgi- ja kaubanduse dünaamika 365 toiminguteks toetab mitme jaemüügikanalid, näiteks võrgupoed, kõnekeskused ja Telliskivi-ja mördi kauplustes. Moodulis Jaemüük ja kaubandus nimetatakse traditsioonilist kauplust kaupluseks. Igal kauplusel võivad olla oma makseviisid, hinnagrupid, kassaregistrid, tulu- ja kulukontod ning personal. Enne kaupluse loomist tuleb seadistada kõik need elemendid. Kui olete kaupluse loonud, saate määrata seal müüdavad tooted. Saate kauplusele määrata ka töötajad, registrid ja kliendid. Viimaks peate lisama uue kaupluse organisatsioonihierarhiasse.
+
+Selles artiklis antakse ülevaade füüsilistele kaupluste (mida nimetatakse Microsoft Dynamics 365 for Operationsis jaekauplusteks) seadistamise protsessist. See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast jaekaupluse seadistamist.
+
+Jaemüük ja kaubandus Microsoft Dynamics 365 for Operationsis toetab mitut jaemüügikanalit, näiteks võrgupoode, kõnekeskusi ja tavalisi kauplusi. Moodulis Jaemüük ja kaubandus nimetatakse traditsioonilist kauplust kaupluseks. Igal kauplusel võivad olla oma makseviisid, hinnagrupid, kassaregistrid, tulu- ja kulukontod ning personal. Enne kaupluse loomist tuleb seadistada kõik need elemendid. Kui olete kaupluse loonud, saate määrata seal müüdavad tooted. Saate kauplusele määrata ka töötajad, registrid ja kliendid. Viimaks peate lisama uue kaupluse organisatsioonihierarhiasse.
 
 ## <a name="setting-up-retail-stores"></a>Kaupluste seadistamine
-Enne kauplusesse Dynamics 365 toiminguteks peate täitma mõned eelduseks olevad ülesanded. Seejärel saate luua kaupluse ja lisada üksikasjad.
+Enne kui saate Microsoft Dynamics 365 for Operationsis kaupluse seadistada, peate täitma mõne eeltingimuseks oleva ülesande. Seejärel saate luua kaupluse ja lisada üksikasjad.
 
 ### <a name="prerequisites"></a>Eeltingimused 
 
@@ -49,7 +52,7 @@ Enne kui saate kaupluse seadistada, peate tegema järgmised toimingud.
 8.  Jaemüügitoodete seadistamine. Selle toimingu raames seadistate ka jaemüügihierarhiad, tootevariandid ja tootesortimendid.
 9.  Toote hinnagruppide seadistamine.
 10. Jaemüügitoodete hinnakujunduse seadistamine. Selle toimingu raames seadistate ka hinnakorrektsioonid, allahindlused ja allahindluse perioodid.
-11. Töötajate seadistamine. **Märkus:** tuleb määrata ka vastavad õigused töötajatele, et nad saavad sisse logida ja ülesannete abil Dynamics 365 Retail POS süsteem operatsioonide.
+11. Töötajate seadistamine. **Märkus.** Peate määrama töötajatele ka vajalikud õigused, et nad saaksid sisse logida ja teha toiminguid, kasutades süsteemi Microsoft Dynamics 365 for Operations jaemüügikassale.
 12. Kauplusele määratavate Retail POS-i profiilide konfigureerimine. See toiming hõlmab mitmeid toiminguid, nagu registrite, ühenduseta profiilide ning kviitungivormingute ja -profiilide seadistamine.
 
 Vaadake kõik eelduses nimetatud toimingud üle ja tehke ainult teid puudutavad toimingud.
@@ -77,5 +80,7 @@ Kui kaupluse üksikasjad on sisestatud, täitke uue kaupluse andmete saatmiseks 
 
 ## <a name="organization-hierarchies"></a>Organisatsiooni hierarhiad
 Jaemüük kasutab jaemüügikanalite struktureerimiseks Microsoft Dynamics AX-i organisatsiooni hierarhiaid. Organisatsiooni hierarhia kajastab ettevõttesse kuuluvate organisatsioonide vahelisi seoseid. Kaupluste seadistamisel saate need lisada organisatsiooni hierarhiasse. Seejärel on sortimentide, täiendamise ja aruandluse jaoks kasutatavad andmed kaupluste vahel ühiskasutuses.
+
+
 
 

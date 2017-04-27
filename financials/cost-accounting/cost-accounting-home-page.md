@@ -1,6 +1,6 @@
 ---
-title: "Kuluarvestuse kodulehekülg"
-description: See teema pakub spikriteemasid ja muude kuluarvestuse olemasolevate vahendite loetelu.
+title: Kuluarvestuse avaleht
+description: See teema esitab kuluarvestuse jaoks saadaolevate spikriteemade ja muude ressursside loendi.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Kuluarvestuse kodulehekülg
+# <a name="cost-accounting-home-page"></a>Kuluarvestuse avaleht
 
-See teema pakub spikriteemasid ja muude kuluarvestuse olemasolevate vahendite loetelu.
+[!include[banner](../includes/banner.md)]
 
-Kuluarvestuse moodul võimaldab teha järgmist:
 
--   Määratleda kulude elemendi mõõtmed, importida kulude element dimensiooni liikmed ja kaarti kulu elemendi mõõtmed.
--   Määratleda kulude objekti mõõtmed ja importida kulu objekti dimensiooni liikmed.
+See teema esitab kuluarvestuse jaoks saadaolevate spikriteemade ja muude ressursside loendi.
+
+Kuluarvestuse moodul võimaldab teha järgmist.
+
+-   Kuluelemendi dimensioonide määratlemine, kuluelemendi dimensiooniliikmete importimine ja kuluelemendi dimensioonide vastendamine.
+-   Kuluobjekti dimensioonide määratlemine ja kuluobjekti dimensiooniliikmete importimine.
 -   Määratlege või importige statistilised dimensioonid.
 -   Looge statistiliste mõõtude pakkuja mallid.
 -   Looge kuluarvestuse pearaamatud.
@@ -46,29 +49,31 @@ Kuluarvestuse moodul võimaldab teha järgmist:
 
 ## <a name="get-started"></a>Alusta
 
-Kuluarvestuse käed labs anda põhisammu konfigureerida Microsoft Dynamics 365 operatsioonideks – kuluarvestuse tegelike kulude analüüsi. See sisaldab ka menetlusi, mille ilmumise järjekorras majutatud.
+Kuluarvestuse ülesanded pakuvad põhietappe Microsoft Dynamics 365 for Operationsi mooduli Kuluarvestus konfigureerimiseks tegelike kulude analüüsimiseks. Samuti pakub see protseduuride seeriat, mille saate täita nende ilmumise järjekorras.
 
--   [Alustage kuluarvestuse](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (valge paber ja nõuab tootekomplekti konto)
+-   [Kuluarvestusega alustamine](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (tehniline ülevaade ja nõuab CustomerSource’i kontot)
 
-Mõista kasutamist kuluarvestuse oma igapäevast tööd, te peate mõistma neid mõisteid.
+Selleks et mõista, kuidas kuluarvestust oma igapäevase töö jaoks kasutada, peate teadma järgmisi põhimõtteid.
 
--   [Key terms in Cost accounting](terms-cost-accounting.md)
--   [Elemendid ja kulude elemendi mõõtmed](cost-elements.md)
--   [Map different cost element dimension members to a common set of cost element dimension members](map-cost-elements-dimension-members.md)
--   [Luua moodustavad](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (ülesande juhend)
--   [Cost object dimensions](cost-objects.md)
--   [Kuluobjektiks luua](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (ülesande juhend)
+-   [Kuluarvestuse põhimõisted](terms-cost-accounting.md)
+-   [Kuluelemendid ja kuluelemendi dimensioonid](cost-elements.md)
+-   [Erinevate kuluelemendi dimensiooni liikmete vastendamine kuluelemendi dimensiooni liikmete ühisele kogumile](map-cost-elements-dimension-members.md)
+-   [Kuluelementide loomine](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (tegevuse juhis)
+-   [Kuluobjekti dimensioonid](cost-objects.md)
+-   [Kuluobjektide loomine](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (tegevuse juhis)
 
-## <a name="cost-control-mobile-workspace"></a>Kulude jälgimine mobiilne tööruumi
-Kulude kontrolli mobiilne tööruumi, näen kulu center managers kulu center täitmise ajal ja igal pool.
+## <a name="cost-control-mobile-workspace"></a>Kulujuhtimise mobiilne tööruum
+Kulujuhtimise mobiilse tööruumi abil saavad kulukeskuse haldurid näha kulukeskuse jõudlust igal ajal ja igas kohas.
 
--   [Cost control mobile workspace](cost-controlling-mobile-workspace.md)
+-   [Kulujuhtimise mobiilne tööruum](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüs Power BI sisu
-Kuluarvestuse analüüs Microsoft Power BI sisu on mõeldud eest vastutav töötleja või keegi, kes on tegemise kulude kontrolli organisatsiooni. See sisaldab võtmemõõdikute kulu, ulatuse ja määra poolt tegelikud kulud, eelarvekulud ja paindliku eelarve kulud. See kasutab kuluarvestuse tehingu andmeid Microsoft Dynamics 365 toiminguteks ning kulud kokku ülevaate ette kogu organisatsiooni ühe aruandevaluutas. Juhtide saate filtreerida andmeid kuluobjektiks täida kulude kontrolli oma organisatsioonilised üksused, isegi kui organisatsioon võib olla mitu õigussubjekti.
+## <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu
+Kuluarvestuse analüüsi Microsoft Power BI sisu on mõeldud kulul kontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Microsoft Dynamics 365 for Operationsi kuluarvestusest ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut.
 
--   [Kuluarvestuse analüüs Power BI sisu](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Set up security for the Cost accounting analysis Power BI content](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Kuluarvestuse analüüsi Power BI sisu](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Kuluarvestuse analüüsi Power BI sisu turbe seadistamine](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+
+
 
 
 

@@ -101,7 +101,7 @@ Saate olemasoleva koosteüksuste grupi uue nimega salvestada. Seejärel saate uu
 
 ### <a name="export-a-building-block-group"></a> Koosteüksuste grupi eksportimine
 
-Saate eksportida koosteüksuse rühma või kindla aruande ehitusplokkide koosteüksuse grupina. Saate eksporditud koosteüksuse rühma varukoopiana. Saate kopeerida ka toimingute käitiste vahel koosteüksuse sõprade või Dynamics 365 eksporditud andmeid. Aruandekujundaja sisaldab viidatud fondilaade ja dimensiooni seab koosteüksuse rühma koos.
+Saate koosteüksuste grupi või selle kindla aruande koosteüksused eksportida. Eksporditud koosteüksuste gruppi saab kasutada varundamiseks. Saate eksporditud andmeid ka koosteüksuse gruppide või rakenduse Dynamics 365 for Operations seadmete vahel kopeerida. Aruandekoostur sisaldab viidatud fondilaade ja dimensioongruppe koos koosteüksuste grupiga.
 1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Koosteüksuste grupid**.
 2.  Valige dialoogiboksist **Koosteüksuste grupid** eksporditav koosteüksuste grupp ja klõpsake seejärel käsku **Ekspordi**.
 3.  Valige dialoogiboksist **Eksport** eksporditavad aruande definitsioonid.

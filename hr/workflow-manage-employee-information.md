@@ -1,6 +1,6 @@
 ---
-title: "Töövoogude abil saate hallata töötajate teavitamise"
-description: "See teema selgitab kasutamist inimressursi töövoo suudab hallata töötaja teavet. Näiteks saate töövoo seostada võimalik ja algas siis, kui töötajad muuta nende kinnitamise töövoo sätete konfigureerimine."
+title: "Töövoogude kasutamine töötajateabe haldamiseks"
+description: "See teema selgitab, kuidas saate töötaja teabe haldamiseks kasutada inimressursside töövoo võimalust. Näiteks saate seostada töövoo positsiooniga ja konfigureerida kinnitamise töövoo, mis käivitatakse, kui töötajad muudavad oma kirjet."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,11 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-workflows-to-manage-employee-information"></a>Töövoogude abil saate hallata töötajate teavitamise
+# <a name="use-workflows-to-manage-employee-information"></a>Töövoogude kasutamine töötajateabe haldamiseks
 
-See teema selgitab kasutamist inimressursi töövoo suudab hallata töötaja teavet. Näiteks saate töövoo seostada võimalik ja algas siis, kui töötajad muuta nende kinnitamise töövoo sätete konfigureerimine.
+[!include[banner](includes/banner.md)]
 
-Töövoo võimega inimressursi annab personali tegevuse haldamise töövoogu. Lisaks mitmeid võimalusi on saadaval nii, et saate muuta tööprotsesse ja ühineda aruandluse hierarhia. Töövood on saadaval, et aidata hallata muudatusi mitme standardi tüüpi töötajateavet. Töövoo saab seostada võimalik. Siis, kui töötajad saavad töötaja kirje muutmiseks töövoo alustamist enne, kui uus teave salvestatakse kinnitust nõudva. Töövood on eelnevalt infot, mis aitavad teil tõhusalt hallata muudatusi ja hoida oma töötajate andmete täpne järgmisi:
+
+See teema selgitab, kuidas saate töötaja teabe haldamiseks kasutada inimressursside töövoo võimalust. Näiteks saate seostada töövoo positsiooniga ja konfigureerida kinnitamise töövoo, mis käivitatakse, kui töötajad muudavad oma kirjet.
+
+Inimressursside töövoo võimalus annab hulgaliselt töövoogusid inimressursside tegevuste haldamiseks. Lisaks on saadaval mitmed valikud, et saaksite muuta spetsiifilisi töövoogusid ja seostada neid aruandlushierarhiaga. Töövood on saadaval, et hallata muudatusi mitmele töötajateabe standardsele tüübile. Saate seostada töövoo positsiooniga. Kui töötajad muudavad seejärel oma töötaja kirjet, käivitatakse töövoog, mis nõuab enne uue teabe salvestamist kinnitust. Töövood määratletakse eelnevalt järgmiste teabetüüpide puhul, et aidata teil tõhusalt muudatusi hallata ja töötajate andmete täpsust säilitada.
 
 -   ID-numbrid
 -   Kursused
@@ -39,33 +42,35 @@ Töövoo võimega inimressursi annab personali tegevuse haldamise töövoogu. Li
 -   Projektikogemus
 -   Oskused
 -   Vastutavad positsioonid
--   Inimressursside meetmete
+-   Inimressursside tegevused
 -   Kursusele registreerimine
 
-Kui töötajad on palgatud, üle või lõpetada, saate lisada töövoo läbivaatamisprotsessi. Sel viisil saab muuta dokumendi või hagi seoses defineeritakse töövoo osa. Läbivaatamise protsessi lõppedes dokumendi või tegevus on lõpetatud ja töövoo avatakse samm lõpliku heakskiidu.
+Töötajate palkamisel, üleviimisel või nendega töösuhte lõpetamisel võib töövoog hõlmata ülevaatamise protsessi. Sellisel viisil saab dokumenti parandada või tegevuse tingimusi määratleda osana töövoost. Ülevaatamisprotsessi lõpuleviimisel viiakse dokument või tegevus lõpule ja töövoog liigub lõplikku kinnitamisetappi.
 
-## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Töövoo seostada positsiooni hierarhia
-Töövoo saab seostada hierarhia, mis konfigureerida. Näiteks, kui ametikoht on seotud maatriks andmete esitamise hierarhia, võis seadistada töövoog, mis suunab konkreetse projekti kulud projekti juhtiv töötaja, kes on seotud selle seisukoha manager asemel. Luua uue töövoo või muuta olemasoleva töövoo kohta ning **inimressursside töövoo** klõpsake valikul **uus**. Valige Töövoog töövoo designer alustamiseks loendis. Saate luua uue töövoo või muuta olemasoleva töövoo juhised projekteerija. Kui olemasoleva töövoo muutmiseks muudatused salvestatakse uue versioonina. Seetõttu siis saab alati tagasi minna eelmise versiooni kui pead.
+## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Töövoo seostamine positsioonihierarhiaga
+Saate seostada töövoo mis tahes konfigureeritava hierarhiaga. Näiteks kui positsioon on seotud maatriksi aruandluse hierarhiaga, võite konfigureerida töövoo, mis suunab spetsiifilise projekti kulud selle positsiooniga seotud töötaja juhataja asemel projekti müügivihjele. Uue töövoo loomiseks või olemasoleva töövoo muutmiseks klõpsake lehel **Inimressursside töövood** nuppu **Uus**. Töövoo kujundaja käivitamiseks valige loendis töövoog. Saate kasutada kujundajat uue töövoo loomiseks või etappide muutmiseks olemasolevas töövoos. Olemasoleva töövoo muutmisel salvestatakse teie muudatused uude versiooni. Lisaks saate vajaduse korral minna tagasi eelmisesse versiooni.
 
-## <a name="configure-a-human-resources-workflow"></a>Konfigureerige töövoog inimressursside
-Põhilised töövoog, mis käivitatakse, kui töötajad taotleda oma isikukood muutmist konfigureerimiseks toimige järgmiselt.
+## <a name="configure-a-human-resources-workflow"></a>Inimressursside töövoo konfigureerimine
+Konfigureerimaks põhitöövoogu, mis käivitatakse siis, kui töötajad nõuavad nende isikukoodi muutmist, järgige neid juhiseid.
 
-1.  Kohta ning **inimressursside töövoogude** klõpsake valikul **uus**.
-2.  Valige saadaolevate töövoogude loendist **identifitseerimisnumbrid**.
-3.  Klõpsake **käivitada** alustada töövoo disainer ja seejärel sisestage oma kasutajanimi ja parool, kui küsitakse.
-4.  Drag on **kinnitada registreerimise number** disainer lõuend töövoo elementide loendist element.
-5.  Connect heakskiidu elemendi **alustada** ja **lõpuni**.
-6.  Topeltklõpsake **kinnitamine elemendi**, ja seejärel paremklõpsake ja valige **atribuudid**.
-7.  Tööjuhiste üksuse lisamiseks tehke järgmist
-    1.  Valige **määramine**, ja seejärel valige **hierarhia** ülesande tüüp.
-    2.  All on **hierarhia** valik, valige **seadistatav hierarhia**.
-    3.  Stop tingimuse lisamine ja lehe sulgemiseks.
+1.  Lehel **Inimressursside töövood** klõpsake nuppu **Uus**.
+2.  Saadaolevate töövoogude loendis valige **ID-koodid**.
+3.  Klõpsake nuppu **Käivita**, et käivitada töövoo kujundaja ja sisestada seejärel vastava viiba kuvamisel oma kasutajanime ja parooli.
+4.  Lohistage element **Kinnituse ID-number** töövoo elementide loendist kujundaja lõuendile.
+5.  Ühendage kinnituse element valikuga **Algus** ja **Valmis**.
+6.  Topeltklõpsake nuppu **Kinnita element** ning seejärel paremklõpsake ja valige suvand **Atribuudid**.
+7.  Järgige tööüksuse juhiste lisamiseks neid juhiseid.
+    1.  Valige **Määramine** ja seejärel valige määramistüübi valikus **Hierarhia**.
+    2.  Valikus **Hierarhia** valige **Konfigureeritav hierarhia**.
+    3.  Lisage peatamistingimus ja sulgege leht.
 
-8.  Täitma täiendavaid juhiseid (hoiatusi pole veel peaks eksisteerima).
-9.  Klõpsake käsku **Salvesta ja sule**. Aktiveerimine uue töövoo dialoog avaneb ning valige **aktiivseks muuta**.
-10. Mine **töötajate**&gt;**positsioone**&gt;**paigutada hierarhia tüübid**.
-11. Valige **maatriksi**.
-12. Lisada ka **töötaja ID-koodi** loendisse töövoo.
+8.  Täitke mis tahes täiendavad juhised (täiendavaid hoiatusi ei tohiks olla).
+9.  Klõpsake käsku **Salvesta ja sule**. Aktiveerige uus töövoog, kui dialoogiboks avaneb, ja valige **Muuda aktiivseks**.
+10. Valige **Inimressurssid** &gt; **Ametikohad** &gt; **Positsiooni hierarhiatüübid**.
+11. Valige suvand **Maatriks**.
+12. Lisage loendisse töövoog **Töötaja ID-kood**.
+
+
 
 
 

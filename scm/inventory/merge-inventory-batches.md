@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Varupartiide ühendamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis kirjeldatakse kahe või enama varude partii konsolideerimist ühendatud partiisse. 
 
 Partiide ühendamisel aitavad arvutused optimeerida ühendatud partii tunnuseid ja partiiatribuute. Kui lähtepartiid on valitud, saab ühendatud partiid enne sisestamist üle vaadata ja muuta. Partii ühendamise saab kinnitamiseks ka varude töölehele edastada. Seejärel saab varud sellelt varude töölehelt otse reserveerida või sisestada. Ühendatud partii sisestamisel korrigeeritakse varud lähtepartiidele ja ühendatud partiile.
@@ -48,7 +51,7 @@ Jah, enne kui saate ühendatud partii tööriistu kasutada, peate seadistama paa
 <tbody>
 <tr class="odd">
 <td>Töölehe nimed, ladu</td>
-<td>Peate looma töölehe nime, mida kasutatakse vaikimisi partiide ühendamiste sisestamisel varude töölehtedele. Valikuline, kuid kohustuslik: saate määrata, et reserveerimised tuleb teha automaatselt, kui partii ühendamine edastatakse varude töölehele. Vastasel juhul on oht, et vabad kaubavarud muutuvad pärast ühendatud partii üksikasjade seadistamist ja töölehe sisestamist. Automaatsete reserveerimiste kohta lubamiseks valige <strong>automaatne</strong> ja selle <strong><strong>reserveerimine</strong></strong> välja.</td>
+<td>Peate looma töölehe nime, mida kasutatakse vaikimisi partiide ühendamiste sisestamisel varude töölehtedele. Valikuline, kuid kohustuslik: saate määrata, et reserveerimised tuleb teha automaatselt, kui partii ühendamine edastatakse varude töölehele. Vastasel juhul on oht, et vabad kaubavarud muutuvad pärast ühendatud partii üksikasjade seadistamist ja töölehe sisestamist. Töölehe nime puhul automaatsete reserveerimiste lubamiseks valige <strong>Automaatne</strong> väljalt <strong><strong>Reserveerimine</strong></strong>.</td>
 </tr>
 <tr class="even">
 <td>Varude ja laohalduse parameetrid</td>
@@ -134,9 +137,11 @@ Sisestamine toimub kahel viisil olenevalt sellest, kas kasutate töölehtede jao
 -   **Kanna töölehele** – partiide ühendamise üksikasjad kantakse uuele varude töölehele. Kui olete seadistanud automaatsed reserveeringuid, reserveeritakse kogused lähtepartiides. Partii ühendamise üksikasju ei saa muuta. Partii ühendamise muutmiseks peate töölehe kustutama. Töölehte saab kasutada ülesandena, mille teine töötaja peab hiljem täitma. Partii koguse reserveerimine töölehe reale on kinnitatud. See eraldamine võimaldab kvaliteediplaanijal või laojuhatajal oma töötajatele ülesandeid luua.
 -   **Sisesta partii ühendamine** – sisestab partiide ühendamise otse. Selle toimingu saab teha pärast füüsilise ühendamise toimumist.
 
-Varude töölehe saate partiide ühendamiseks kinnitada loendilehelt **Kõik partii ühendamised**. Klõpsake **töölehe**&gt;**Post**. Kui tööleht on sisestatud, ei saa ühendatud partii üksikasju muuta. Pärast ühendatud partii ülekandmist varude töölehele saate muuta üksikasju ainult töölehe kustutamisel.
+Varude töölehe saate partiide ühendamiseks kinnitada loendilehelt **Kõik partii ühendamised**. Klõpsake valikuid **Tööleht** &gt; **Sisesta**. Kui tööleht on sisestatud, ei saa ühendatud partii üksikasju muuta. Pärast ühendatud partii ülekandmist varude töölehele saate muuta üksikasju ainult töölehe kustutamisel.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Pärast seda, kui ma ühendatud catchweight üksus, miks ma ei näe catchweight teavet laotöölehe?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Miks ma ei näe pärast tegeliku kaaluga kauba ühendamist tegeliku kaalu teavet varude töölehel?
 Tegeliku kaaluga kaupade partiisid saate ühendada samamoodi kui kõiki teisi kaupu. Kuid tegeliku kaalu teavet varude töölehel ei kuvata. Soovitame teil enne ühendatud partii ülekandmist varude töölehele tegeliku kaalu teavet kontrollida.
+
+
 
 

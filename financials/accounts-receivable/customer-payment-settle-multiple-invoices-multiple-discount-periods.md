@@ -1,5 +1,5 @@
 ---
-title: "Kliendimakse abil lahendada mitme arve, mis ulatuvad üle mitme allahindluse perioodide"
+title: "Kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi"
 description: "See artikkel näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas võetavad skontod erinevad, olenevalt sellest, millal makse tehakse."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Kliendimakse abil lahendada mitme arve, mis ulatuvad üle mitme allahindluse perioodide
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas võetavad skontod erinevad, olenevalt sellest, millal makse tehakse.
 
-Fabrikami müüb kauba kliendile 4032. Fabrikami pakub 1 protsenti allahindlust, kui arve on tasutud 14 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Settement parameetrid asuvad ka **Müügireskontro parameetrid** lehel.
+Fabrikam müüb kliendile 4032 kaupu. Fabrikam pakub skontot 1%, kui arve tasutakse 14 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Tasakaalustamise parameetrid asuvad lehel **Müügireskontro parameetrid**.
 
 ## <a name="invoices"></a>Arved
 Kliendil 4032 on kolm arvet kogusummale 3000,00.
 
--   15. mail sisestatud arve FTI-10040 1000.00 dollarit, jaoks. See arve on õigus saada 1 protsenti allahindlust, kui 14 päeva jooksul.
--   Arve FTI-10041 jaoks 1000.00 dollarit, oli sisestatud 25 juuni. See arve on õigus saada 1 protsenti allahindlust, kui 14 päeva jooksul.
--   Arve FTI-10042 jaoks 1000.00 dollarit, oli sisestatud 25 juuni. See arve on õigus saada 2 protsenti allahindlust kui maksma viis päeva ja kehtib 1 protsenti, kui seda makstakse 14 päeva jooksul.
+-   Arve FTI-10040 summale 1000,00 sisestati 15. mail. See arve sobib 1-protsendise skonto jaoks, kui see tasutakse 14 päeva jooksul.
+-   Arve FTI-10041 summale 1000,00 sisestati 25. juunil. See arve sobib 1-protsendise skonto jaoks, kui see tasutakse 14 päeva jooksul.
+-   Arve FTI-10042 summale 1000,00 sisestati 25. juunil. See arve sobib 2-protsendise skonto jaoks, kui see tasutakse viie päeva jooksul, ja 1-protsendise allahindluse jaoks, kui see tasutakse 14 päeva jooksul.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Kõigi arvete tasakaalustamine 29. juunil
 Kui Arnie loob maksetöölehe, et need arved 29. juunil täielikult tasakaalustada, on makse 2970,00. Allahindluste kogusumma on 30,00. Arnie loob makse kliendile 4032 ja seejärel avab lehe **Kannete tasakaalustamine**. Lehel **Kannete tasakaalustamine** märgib Arnie tasakaalustamiseks kõik kolm arverida.
@@ -76,7 +79,7 @@ Klient 4032 saab tasuda osa summast, näiteks pool igast arvest. Arnie loob maks
 | Valitud                 | Tavaline            | FTI‑10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1 000,00                             |                                       | USA dollar      | 495.00           |
 | Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1 000,00                             |                                       | USA dollar      | 490.00           |
 
-Arnie võib ka käsitsi sisestada makse summa 1,485.00, enne kui ta avab selle **paralleelkäibe** lehel. Arnie käsitsi siseneb makse summa ja seejärel märgistab kõik kolm tehingud juhul, kui ta ei reguleerige selle **summa lahendada** välja iga tehingu ta saab järgmise teate, kui ta sulgeb lehe:
+Arnie saate maksesumma 1485,00 ka käsitsi sisestada enne lehe **Kannete tasakaalustamine** avamist. Kui Arnie sisestab maksesumma käsitsi ja seejärel märgib kõik kolm kannet, kuid ei korrigeeri iga kande puhul välja **Tasakaalustatav summa** väärtust, saab ta lehe sulgemisel järgmise teate.
 
 > Märgitud kannete kogusummade erineb töölehe summast. Kas muuta töölehe summat?
 
@@ -95,6 +98,8 @@ Arnie vaatab seda teavet lehel **Kliendi kanded**.
 | FTI‑10042  | Arve          | 25.06.2015 | 10042   | 1 000,00                             |                                       | 505.10   | USA dollar      |
 | ARP‑10040  | Makse          | 6/29/2015 |         |                                      | 1,485.00                              | 0,00     | USA dollar      |
 | DISC‑10040 | Skonto    | 6/29/2015 |         |                                      | 9.90                                  | 0,00     | USA dollar      |
+
+
 
 
 

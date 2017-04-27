@@ -1,6 +1,6 @@
 ---
 title: "Jaemüügikanali side määratlemine (Commerce Data Exchange)"
-description: "Selles artiklis antakse ülevaade rakendusest Commerce Data Exchange ja selle komponentidest. Ta selgitab osa, mis iga komponendi mängib andmete ülekannet Microsoft Dynamics 365 operatsioonide ja jaemüügikanalid."
+description: "Selles artiklis antakse ülevaade rakendusest Commerce Data Exchange ja selle komponentidest. Selgitatakse rolli, mida iga komponent mängib Microsoft Dynamics 365 for Operationsi ja jaemüügikanalite vahelises andmete ülekandmises."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 27021
 ms.assetid: 179b1629-ac90-4cfb-b46a-5bda56c4f451
 ms.search.region: global
@@ -27,31 +27,34 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="define-retail-channel-communications-commerce-data-exchange"></a>Jaemüügikanali side määratlemine (Commerce Data Exchange)
 
-Selles artiklis antakse ülevaade rakendusest Commerce Data Exchange ja selle komponentidest. Ta selgitab osa, mis iga komponendi mängib andmete ülekannet Microsoft Dynamics 365 operatsioonide ja jaemüügikanalid.
+[!include[banner](../includes/banner.md)]
+
+
+Selles artiklis antakse ülevaade rakendusest Commerce Data Exchange ja selle komponentidest. Selgitatakse rolli, mida iga komponent mängib Microsoft Dynamics 365 for Operationsi ja jaemüügikanalite vahelises andmete ülekandmises.
 
 <a name="overview"></a>Ülevaade
 --------
 
-Commerce andmevahetus on süsteem, mis edastab andmeid Dynamics 365 operatsioonide ja jaemüügikanalid, nagu Telliskivi-ja mördi kauplustes või online kauplustes. Jaemüügi kanali andmed andmebaas on eraldunud Dynamics 365 operatsioonide andmebaasi. Kanali andmebaasis on ainult jaemüügikannete jaoks vajalikud andmed. Kapten andmete konfigureeritud Dynamics 365 toiminguteks ning levitamise kanaleid. Kandeandmete luuakse Müügikoht (POS) süsteemi punktis või online, ja seejärel laadida Dynamics 365 toiminguteks. Andmejaotus on asünkroonne. Teisisõnu: andmete kogumise ja pakkimise protsess allika juures toimub sihtkohas andmete vastuvõtmise ja rakendamise protsessist eraldi. Mõne stsenaariumi (nt hinna ja varude otsingu) puhul tuleb andmed tuua reaalajas. Neil juhtudel toetada kaubanduse andmevahetus ka teenus, mis võimaldab reaalajas suhtlemist Dynamics 365 operatsioonide ja kanal. 
+Commerce Data Exchange on süsteem, mis edastab andmeid Microsoft Dynamics 365 for Operationsi ja jaemüügikanalite (nt veebipoed või traditsioonilised kauplused) vahel. Jaemüügikanali andmeid säilitav andmebaas on Microsoft Dynamics 365 for Operationsi andmebaasist eraldi. Kanali andmebaasis on ainult jaemüügikannete jaoks vajalikud andmed. Koondandmed konfigureeritakse Microsoft Dynamics 365 for Operationsis ja jaotatakse kanalitesse. Kandeandmete luuakse kassasüsteemis või võrgupoes ja laaditakse seejärel Microsoft Dynamics 365 for Operationsisse üles. Andmejaotus on asünkroonne. Teisisõnu: andmete kogumise ja pakkimise protsess allika juures toimub sihtkohas andmete vastuvõtmise ja rakendamise protsessist eraldi. Mõne stsenaariumi (nt hinna ja varude otsingu) puhul tuleb andmed tuua reaalajas. Nende stsenaariumide toetamiseks sisaldab Commerce Data Exchange ka teenust, mis võimaldab Microsoft Dynamics 365 for Operationsi ja kanali vahelist reaalajas suhtlust. 
 
-[![Uuendatud jaemüük pilt](./media/updated-retail-graphic.png)](./media/updated-retail-graphic.png)  
+[![värskendatud-jaemüügidiagramm](./media/updated-retail-graphic.png)](./media/updated-retail-graphic.png)  
 
 ## <a name="async-service"></a>Teenus Async
-Andmete muutmine, mis saadetakse kanalite määramiseks kasutatakse Microsoft SQL serveri muutuste jälitamise Dynamics 365 operatsioonide andmebaasi. Jaotus graafiku alusel, Dynamics 365 toimingute andmed paketid ja salvestab selle tsentraalselt (Azure bloobimälu). Eraldi pakktöötlusprotsess kasutab Commerce Data Exchange: Async Clienti teeki selle andmepaketi lisamiseks kanali andmebaasi. 
+Microsoft SQL Serveri muudatuste jälgimist Microsoft Dynamics 365 for Operationsi andmebaasis kasutatakse kanalitele saadetavate andmete muudatuste määratlemiseks. Jaotusgraafiku alusel pakib Microsoft Dynamics 365 for Operations andmed ja salvestab need tsentraalsesse salve (Azure’i bloobimällu). Eraldi pakktöötlusprotsess kasutab Commerce Data Exchange: Async Clienti teeki selle andmepaketi lisamiseks kanali andmebaasi. 
 
-[![Async Service](./media/async-300x239.png)](./media/async.png)
+[![Teenus Async](./media/async-300x239.png)](./media/async.png)
 
 ### <a name="retail-scheduler"></a>Kaupluse andmeedastaja
 
-Andmeedastaja tööd on mehhanism andmete jaotamiseks asukohtade vahel. Tööd koosnevad alamtöödest, mis määravad jaotatavaid andmeid sisaldavad tabelid ja tabeliväljad. Dynamics 365 operatsioonide sisaldab eelmääratletud Toiminguajasti töökohti ja subjobs, enamik organisatsioonide replikatsiooni nõuetele vastavad. Luuakse järgmist tüüpi eelmääratletud tööd.
+Andmeedastaja tööd on mehhanism andmete jaotamiseks asukohtade vahel. Tööd koosnevad alamtöödest, mis määravad jaotatavaid andmeid sisaldavad tabelid ja tabeliväljad. Microsoft Dynamics 365 for Operations sisaldab eelmääratletud andmeedastaja töid ja alamtöid, mis vastavad enamiku organisatsioonide andmeedastuse nõuetele. Luuakse järgmist tüüpi eelmääratletud tööd.
 
--   **Lae töökohti** – lae töökohti saada andmed muutunud Dynamics 365 tegevuste kanali andmebaasidele. Kirjete muudatusi jälgitakse SQL Serveri muudatuste jälgimise abil.
--   **Upload tööde (P töökohti)** – Upload tööde pull müügi tehingud alates kanali Dynamics 365 operatsioonide andmebaasi. P-tööd laadivad andmeid üles järk-järgult. Kui P-töö käib, otsib Async Clienti teek andmeedastusloendurist kirjeid, mis on asukohast juba vastu võetud. Kirje laaditakse üles ainult juhul, kui selle andmeedastusloendur on suurem kui suurima leitud väärtus. P-tööd ei uuenda varem üles laaditud andmeid.
+-   **Allalaadimistööd** – allalaadimistööd laadivad muutunud andmeid Microsoft Dynamics 365 for Operationsist kanali andmebaasidesse. Kirjete muudatusi jälgitakse SQL Serveri muudatuste jälgimise abil.
+-   **Üleslaadimistööd (P-tööd)** – üleslaadimistööd toovad müügikanded kanalist Microsoft Dynamics 365 for Operationsi andmebaasi. P-tööd laadivad andmeid üles järk-järgult. Kui P-töö käib, otsib Async Clienti teek andmeedastusloendurist kirjeid, mis on asukohast juba vastu võetud. Kirje laaditakse üles ainult juhul, kui selle andmeedastusloendur on suurem kui suurima leitud väärtus. P-tööd ei uuenda varem üles laaditud andmeid.
 
-Jaotus ajakava saab käivitada andmete edastamise, kas käsitsi või pakett-töö Dynamics 365 operatsioonide planeerimine. Jaotusgraafik võib sisaldada vähemalt ühte kanali andmegruppi ja vähemalt ühte andmeedastaja tööd.
+Jaotusgraafikut kasutatakse andmeedastuse käitamiseks, kas käsitsi või Microsoft Dynamics 365 for Operationsis pakett-töö plaanimisel. Jaotusgraafik võib sisaldada vähemalt ühte kanali andmegruppi ja vähemalt ühte andmeedastaja tööd.
 
-## <a name="realtime-service"></a>Reaalajas teenus
-Commerce andmevahetus: Reaalajas teenus on integreeritud teenus, mis annab reaalajas suhtlemine Dynamics 365 operatsioonide ja jaemüügikanalid. Reaalajas teenus võimaldab POS arvutite ja konkreetsete andmete allalaadimiseks Dynamics 365 operatsioonide reaalajas online kauplustes. Kuigi enamik peamisi toiminguid teha kohalike kanalite andmebaasi, järgmistel juhtudel nõuda otsest juurdepääsu Dynamics 365 operatsioonide salvestatud andmete:
+## <a name="realtime-service"></a>Teenus Real-time Service
+Teenus Commerce Data Exchange: Real-time Service on integreeritud teenus, mis pakub reaalajas sünkroonitud sidet Microsoft Dynamics 365 for Operationsi ja jaemüügikanalite vahel. Real-time Service lubab eraldi kassaarvutitel ja e-poodidel tuua konkreetseid andmeid Microsoft Dynamics 365 for Operationsist reaalajas. Kuigi enamikku põhitoimingutest saab teha kohalikus kanali andmebaasis, nõuavad järgmised stsenaariumid otsest juurdepääsu Microsoft Dynamics 365 for Operationsisse salvestatud andmetele.
 
 -   Kinkekaartide väljastamine ja lunastamine.
 -   Püsikliendi punktide lunastamine.
@@ -62,8 +65,10 @@ Commerce andmevahetus: Reaalajas teenus on integreeritud teenus, mis annab reaal
 -   Inventuuride läbiviimine.
 -   Müügitehingute toomine kaupluste lõikes ja tagastuskannete tegemine.
 
-[![Real-time Service](./media/rts.png)](./media/rts.png) 
+[![Teenus Real-time Service](./media/rts.png)](./media/rts.png) 
 
-Eelnevalt määratletud reaalajalise teenus profiil on loodud.
+Luuakse eelmääratletud Real-time Service’i profiil.
+
+
 
 

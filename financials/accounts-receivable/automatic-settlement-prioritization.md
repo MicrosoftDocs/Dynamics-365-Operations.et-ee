@@ -1,5 +1,5 @@
 ---
-title: "Automaatne tasakaalustus ja prioriteetide kindlaksmääramisel"
+title: Automaatne tasakaalustus ja prioritiseerimine
 description: "See artikkel kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Automaatne tasakaalustus ja prioriteetide kindlaksmääramisel
+# <a name="automatic-settlement-and-prioritization"></a>Automaatne tasakaalustus ja prioritiseerimine
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada.
 
-Maksete tasakaalustamisel arvete ja muude kannetega on kaks võimalust. Valige käsitsi tehingute arveldamiseks või Microsoft Dynamics 365 operatsioonid saab valida kandeid automaatselt automaatne tasakaalustus funktsiooni abil. Saate kohandada ka automaatsete tasakaalustuste töötlemise viisi, kasutades suvandit **Tasakaalustuse prioriseerimine**. Kõik need valikud on osa tasakaalustuse parameetreid, mis on määratletud nende **Müügireskontro parameetrid** lehel. Kannete automaatse tasakaalustamise viis võib erineda, sõltuvalt meetodist, mida automaatseks tasakaalustamiseks kasutate. Saadaval on järgmised meetodid:
+Maksete tasakaalustamisel arvete ja muude kannetega on kaks võimalust. Saate valida tasakaalustatavad kanded käsitsi või Microsoft Dynamics 365 for Operations võib valida kanded automaatselt, kasutades automaatse tasakaalustamise funktsiooni. Saate kohandada ka automaatsete tasakaalustuste töötlemise viisi, kasutades suvandit **Tasakaalustuse prioriseerimine**. Kõik need suvandid on osa tasakaalustuse parameetritest, mis on määratletud lehel **Müügireskontro parameetrid**. Kannete automaatse tasakaalustamise viis võib erineda, sõltuvalt meetodist, mida automaatseks tasakaalustamiseks kasutate. Saadaval on järgmised meetodid:
 
 -   Kasutaja määratletud tasakaalustuse prioriteet
 -   Vaikimisi automaatne tasakaalustus
@@ -45,9 +48,9 @@ Selles artiklis allpool toodud tasakaalustuste näited põhinevad järgmistel ka
 | Arve 1     | 15. august   | 100,00 | 2%14, neto 30        | 29. august          |                                                                                                                                                                                               |
 | Arve 2     | 1. september | 250,00 | 2%14, neto 30        | 15. september       |                                                                                                                                                                                               |
 | Arve 3     | 15. oktoober  | 500,00 | 2% 14/neto 30        | 29. oktoober         |                                                                                                                                                                                               |
-| Viivisearve | 15. oktoober  | 7,00   |                     |                    | Käesolev huvi on arve 1 ja arve 2. Summa arvutatakse 2% intressi summad, mis on 30 või enam päeva üle tähtaja. Näide: 0,02 × (100,00 + 250,00) = 7,00. |
+| Viivisearve | 15. oktoober  | 7,00   |                     |                    | Viivisearve on 1. ja 2. arve kohta. Summa arvutatakse kaheprotsendilise intressina summadelt, mis on vähemalt 30 päeva üle tähtaja. Näide: 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Userdefined lahendamise prioriteet
+## <a name="userdefined-settlement-priority"></a>Kasutaja määratletud tasakaalustuse prioriteet
 Kui valite lehel **Müügireskontro parameetrid** suvandi **Kasuta automaatseteks tasakaalustusteks prioriteeti** sätteks **Jah**, kasutatakse kannete automaatseks tasakaalustamiseks valimisel tasakaalustusprioriteeti, mille määratlete lehel **Tasakaalustuse prioriteet**. Selle näite puhul on määratletud järgmine tasakaalustusprioriteet.
 
 1.  Kande tüüp
@@ -77,6 +80,8 @@ Kui kasutaja määratletud tasakaalustuse prioriteet puudub, valitakse kanded ta
 | Arve 2     | 9/1/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USA dollar      |
 | Arve 3     | 10/15/2015 |         | 500,00                         | 350.00           | 150.00  | USA dollar      |
 | Viivisearve | 10/15/2015 |         | 7,00                           | 0,00             | 0,00    | USA dollar      |
+
+
 
 
 

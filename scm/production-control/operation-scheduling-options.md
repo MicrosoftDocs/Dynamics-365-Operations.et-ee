@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Operatsioonide plaanimise valikud
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles teemas kirjeldatakse operatsioonide plaanimise võimalusi. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul.
 
 Operatsioonide plaanimine arvutab tootmistellimuse jaoks järgmise teabe.
@@ -128,6 +131,8 @@ Saate praegused väärtused salvestada vaikeväärtustena. Selleks on kaks võim
 <a name="see-also"></a>Vt ka
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Operatsioonide planeerimine](operations-scheduling.md)
+
+
 
 

@@ -102,7 +102,7 @@ Korduvaks tsüklilise inventuuri töö loomiseks on kaks võimalust: seadistada 
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Tsüklilise inventuuri töö loomine kaupade läveparameetrite põhjal
 
-Tsüklilise inventuuri töö saab luua, kui kaupade arv langeb asukohas alla konkreetse läveväärtuse. Näiteks on 60 toodet asukohta, mis on inventuuri läve 40. Ajal müügitellimuse kandele, 25 üksuse asukohast peale ja panna lavastus kohas. Kuna uus kaupade arv 35 on lävekogusest väiksem, luuakse asukohas automaatselt tsüklilise inventuuri töö.
+Tsüklilise inventuuri töö saab luua, kui kaupade arv langeb asukohas alla konkreetse läveväärtuse. Näiteks on 60 kaupa asukohas, mille tsüklilise inventuuri läve kogus on 40. Müügitellimuse kande käigus komplekteeritakse asukohast 25 kaupa ja need paigutatakse vaheasukohta. Kuna uus kaupade arv 35 on lävekogusest väiksem, luuakse asukohas automaatselt tsüklilise inventuuri töö.
 
 ### <a name="schedule-cycle-counting-work"></a>Tsüklilise inventuuri töö plaanimine
 
@@ -129,7 +129,7 @@ Järgmine näide illustreerib, kuidas saate mobiilse seadme abil punkttsüklilis
 ## <a name="resolve-cycle-counting-differences"></a>Tsüklilise inventuuri erinevuste lahendamine
 Tsüklilise inventuuri erinevus ilmneb järgmistes stsenaariumides, kui valiku **On tsüklilise inventuuri ülevaataja** väärtuseks on töö kasutaja ID puhul määratud **Ei**.
 
--   Loendatud väärtus jääb lehe **Töö kasutajad** väljadel **Maksimaalne protsendi piirang** või **Maksimaalse koguse piirang** määratletud hälbepiiridest välja. Näiteks vaba kaubavaru kogus kohas on 50 ja kõrvalekalle töö kasutaja on 10. Kui töö kasutaja sisestab väärtuse, mis ei ole 40-60, ilmneb erinevus.
+-   Loendatud väärtus jääb lehe **Töö kasutajad** väljadel **Maksimaalne protsendi piirang** või **Maksimaalse koguse piirang** määratletud hälbepiiridest välja. Näiteks on asukohas vaba kaubavaru kogus 50 ja töö kasutaja hälbepiir on 10. Kui töö kasutaja sisestab väärtuse, mis ei ole vahemikus 40–60, tekib erinevus.
 -   Tsüklilise inventuuri väärtus erineb vaba kaubavaru kogusest ja kindlaid hälbepiire pole määratud.
 
 Saate korrigeerida loendatud väärtuse erinevusi ja kinnitada siis loendatud väärtuse lehel **Ülevaatuse ootel tsükliline inventuur**. Kauba muudetud kogust saab kontrollida lehel **Vaba varu asukoha järgi**. Loendatud väärtus lükatakse tagasi, kui erinevust ei saa kinnitada.

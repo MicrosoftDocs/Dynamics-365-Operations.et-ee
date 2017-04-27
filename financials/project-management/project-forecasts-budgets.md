@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-forecasts-and-budgets"></a>Projekti prognoosid ja eelarved
 
+[!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 operatsioonide pakub kahte võimalust hallata ja juhtida oma projektid: projekti planeerimine, projektide eelarved. 
+
+
+Microsoft Dynamics 365 for Operations võimaldab hallata ja juhtida projekte kahel viisil: projekti prognoosid ja projekti eelarved. 
 
 Kasutage projekti prognoosi, kui teie organisatsioonil on tegevustele suunatud perspektiiv ja keskendutakse konkreetsetest tehingutest tulenevatele tuludele ja kuludele. Kasutage projekti eelarvet, kui teie organisatsioon keskendub rohkem rahasummadele. 
 
@@ -45,9 +48,9 @@ Kummalgi meetodil on omad eelised. Enne organisatsiooni jaoks meetodi valimist t
 | **Kande muutujad ** | Prognoosi kannete sisestamisel saate kasutada iga atribuuti, mis tegelikul kandel on. See võimaldab üksikasjalikumat prognoosi. Näiteks saate sisestada koguse, töötajate, kaupade või reaatribuutide üksikasjad.         | Eelarve üksikasjade sisestamisel saate kasutada ainult summasid, kategooriaid ja tegevusi.                                                                                    |
 | **Turvalisus **              | Prognoosimine põhineb prognoosi vormidele sisestatud kannetel ega hõlma ühtegi protsessi kontrollimehhanismi. Töötaja, kellel on prognoosivormi load, saab parandada andmeid ilma kinnituseta.                                        | Eelarve koostamisel kasutatakse töövoo süsteemi, mis võimaldab muudatuste haldamist ja võimaldab säilitada versiooniajalugu.                                                       |
 | **Kirjete tüübid **           | Prognoosi kandekirjed põhinevad ühikute arvul ning kulul ja müügiüksuste hindadel.                                                                                                                                                       | Eelarve üksikasjad põhinevad summadel, mis on jagatud tuludeks ja kuludeks.                                                                                        |
-| **Forecast models**       | Kuna iga eelarve tuleb seostada mudeliga, saate luua mitu eelarvemudelit ja seadistada ka alammudeleid.                                                                                                                               | Projekti eelarve piirab eelarvestamiseks kasutatavaid eelarvemudeleid. Väiksem eelarvemudelite arv aitab suurendada plaanide järjepidevust.                           |
+| **Eelarvemudelid**       | Kuna iga eelarve tuleb seostada mudeliga, saate luua mitu eelarvemudelit ja seadistada ka alammudeleid.                                                                                                                               | Projekti eelarve piirab eelarvestamiseks kasutatavaid eelarvemudeleid. Väiksem eelarvemudelite arv aitab suurendada plaanide järjepidevust.                           |
 | **Kulu ületamine **         | Saate ainult lubada või keelata kanded, mis põhjustavad kulu ületamise.                                                                                                                                                                | Projekti eelarve koostamine annab kasutajatele juhtimiseks lisavõimalusi. Saate lubada hoiatused ja ülekulu.                                                                   |
-| **Control**               | Prognoosi juhtimine toimub prognoosi vähendamise abil. Tegelikud summad lahutatakse eelarvekande saldodest ilma igasuguse kontrolljäljeta. See võib tegelike kannete toimumiskoha tuvastamise keerukamaks muuta.                   | Projekti eelarve juhtimisel lahutatakse tegelikud summad järelejäänud eelarve summadest. See tagab selgema kontrolljälje.                                   |
+| **Juhtimine**               | Prognoosi juhtimine toimub prognoosi vähendamise abil. Tegelikud summad lahutatakse eelarvekande saldodest ilma igasuguse kontrolljäljeta. See võib tegelike kannete toimumiskoha tuvastamise keerukamaks muuta.                   | Projekti eelarve juhtimisel lahutatakse tegelikud summad järelejäänud eelarve summadest. See tagab selgema kontrolljälje.                                   |
 
 ## <a name="project-forecasts"></a>Projekti eelarved
 Projekti prognoosimise kasutamisel saate sisestada eelarvekanded iga kandetüübi puhul prognoosivormidele. Prognoosi kande jaoks saab kasutada iga atribuuti, mis on saadaval tegeliku kande jaoks – nt rea tulusus, rea atribuudid, töötajad või kirjeldused. Samuti saate plaanida, kui pika aja jooksul pärast kulu kandmist kliendile arve esitate. 
@@ -62,7 +65,7 @@ Eelarvemudelid saavad projektide kontrollimehhanismina kasutada prognoosi vähen
 
 Projekti prognoose saab parandada, kopeerida või edastada pearaamatu eelarvesse. Kuid protsessijuhtimine puudub. Iga prognoosivormi loaga töötaja saab teha parandusi ilma ülevaatuseta.
 
--   * Muuta * – saate vaadata eelarvekande kui algsed kanded toimus korduvalt.
+-   **Paranda ** – prognoosikandeid saate parandada samadel vormidel, kus tehti algsed kanded.
 -   **Kopeeri või kustuta** – prognoosikannete kopeerimisel kopeerige ühe prognoosimudeli kanderead teise prognoosimudelisse. Prognoosi kustutamisel kustutate eelarvekanded eelarvemudelist. Kopeeritavate või kustutatavate prognoosikannete piiramiseks saate valida kindlad kandetüübid ja kuupäevad. See võimaldab teil kopeerida või kustutada ainult kindlaid prognoosi osi.
 -   **Ülekanne** – projekti prognoosi ülekandmisel pearaamatu eelarvesse kannate sellesse üle prognoosimudeli prognoosikanded. Kõiki pearaamatu eelarvesse, kuhu oma projekti prognoosi üle kannate, varem üle kantud kandeid saab üle kirjutada.
 
@@ -78,6 +81,8 @@ Projekti eelarveid seostatakse automaatselt kahe eelarvemudeliga: üks algse eel
 ## <a name="forecast-models"></a>Prognoosimudelid
 Prognoosimudelitel on ühekihiline hierarhia. See tähendab, et üks projektiprognoos tuleb seostada ühe prognoosimudeliga.
 
-Kui kasutate projekti prognoosimine, te tunnete mudelid alammudelitena. Seejärel saate prognoosid ametite, ajavahemiku ja piirkonna poolt. Näiteks võite luua prognoosimudeli aasta kohta ja luua siis alammudelid kirde-, kagu-, edela- ja loodepiirkonna prognooside jaoks, mida piirkondlikud juhid esitavad. Valides erinevaid võimalusi kättesaadavad aruanded, kuvatakse teave kokku ilm või alammudeli.
+Projekti prognoosi kasutamisel saate märkida mudelid alammudeliteks. Seejärel saate koostada prognoose osakonna, ajavahemiku või piirkonna alusel. Näiteks võite luua prognoosimudeli aasta kohta ja luua siis alammudelid kirde-, kagu-, edela- ja loodepiirkonna prognooside jaoks, mida piirkondlikud juhid esitavad. Erinevate valikutega olemasolevates aruannetes saate vaadata andmeid kogu prognoosi või alammudeli järgi.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Tootmiskeskkonnas standardkulude värskendamine
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse juhiseid tootmiskeskkonnas standardsete kulude värskendamise kohta. 
 
 Värskendused võivad kajastada uusi kaupu, kulukategooriaid või kaudse kulu kalkulatsiooni valemeid. Samuti võivad need kajastada parandusi ja kulumuutusi. Värskendamise tüüp mõjutab etappe, mille peate läbima standardsete kulude värskendamiseks, ja seda illustreerivad järgmised juhtumid.
@@ -43,5 +46,7 @@ Värskendused võivad kajastada uusi kaupu, kulukategooriaid või kaudse kulu ka
 -   Arvutage kulud uue toodetava kauba jaoks, mis põhineb määratud, kinnitatud ja aktiivse koosluse ja protsessi teabel.
 
 Iga juhtum nõuab hoolikat kaalumist selle osas, kuidas standardseid kulusid värskendada.
+
+
 
 

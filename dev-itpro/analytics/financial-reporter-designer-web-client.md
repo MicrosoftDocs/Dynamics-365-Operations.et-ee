@@ -1,5 +1,5 @@
 ---
-title: Juhtimise Reporter - disainer ja web klient
+title: "Halduse aruandja – disainer ja veebiklient"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Juhtimise Reporter - disainer ja web klient
+# <a name="management-reporter----the-designer-and-web-client"></a>Halduse aruandja – disainer ja veebiklient
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

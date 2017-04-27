@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Põhivara kulum
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse ülevaade põhivara kulumiarvestusest.
 
 Kulum on perioodiline kanne, mis tavaliselt vähendab bilansis põhivara väärtust ning mis kantakse kuluna tulu ja kulu kontole. Seetõttu kasutatakse bilansis perioodilise kulumi krediteerimiseks tavaliselt põhikontot. Vastaskonto on kontoplaani tulude ja kulude osas olev konto.
@@ -51,6 +54,8 @@ Igal raamatul on kalender, mida kasutatakse põhivarade kulumiarvestusel. Kui te
 
 Saate luua ühiskasutusega kalendrid, kasutades pearaamatus lehte **Rahanduskalendrid**.
 
-Lisateabe saamiseks vaadake [kulumimeetodite ja kulumiarvestusreeglite hulgast](depreciation-methods-conventions.md).
+Lisateavet leiate jaotisest [Kulumimeetodid ja kulumiarvestusreeglid](depreciation-methods-conventions.md).
+
+
 
 
