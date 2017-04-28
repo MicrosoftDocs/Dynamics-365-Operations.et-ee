@@ -1,62 +1,62 @@
-# [Human resources home page](index.md)
+# [Personaliosakonna avaleht](index.md)
 # Inimressursside strateegia arendamine
-## [Korraldada oma tööjõudu kasutades osakonnad-, töö- ja ametikohtadele](departments-jobs-positions.md)
-## [Töö komponente seadistada](create-job.md)
-## [Create a department and associate it with the department hierarchy](create-department-add-department-hierarchy.md)
+## [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](departments-jobs-positions.md)
+## [Töökomponentide häälestamine](create-job.md)
+## [Osakonna loomine ja selle seostamine osakonnahierarhiaga](create-department-add-department-hierarchy.md)
 ## [Ettevõttekohaste inimressursside parameetrite seadistamine](set-up-company-specific-hr-parameters.md)
-## [Juriidiliste isikutele inimressursside parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md)
-## [Töövoo abil saate hallata töötajate teavitamise](workflow-manage-employee-information.md)
+## [Juriidilistele isikutele inimressursside parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md)
+## [Töövoo kasutamine töövõtja teabe haldamiseks](workflow-manage-employee-information.md)
 # Töötajate värbamine, palkamine ja motiveerimine
-## [Manage a recruiting process](manage-recruiting-process.md)
-## [Mass hire projects](mass-hire-projects.md)
+## [Värbamisprotsessi haldus](manage-recruiting-process.md)
+## [Hulgivärbamisprojektid](mass-hire-projects.md)
 ## [Hüvitusplaanid](compensation-plans.md)
-## [Põhipalgaplaanide loomine](create-fixed-compensation-plans.md)
+## [Fikseeritud hüvitusplaanide loomine](create-fixed-compensation-plans.md)
 ## [Ergutussüsteemi plaanide loomine](create-variable-compensation-plans.md)
 # Töötajate arendamine ja koolitamine
-## [Performance management overview](performance-management-overview.md)
-## [Align workforce skills with business needs](skills.md)
+## [Jõudlushalduse ülevaade](performance-management-overview.md)
+## [Töötajate oskuste joondamine ärivajadustega](skills.md)
 ## [Koolituskursuste seadistamine](courses.md)
 # Soodustuste loomine ja haldamine
-## [Hallata programmi eelised](manage-benefit-program.md)
-## [Benefit eligibility policies](benefit-eligibility-policies.md)
-## [Manage items lent to workers](loan-items.md)
+## [Soodustusprogrammi haldamine](manage-benefit-program.md)
+## [Soodustuse saamise õiguse eeskirjad](benefit-eligibility-policies.md)
+## [Töötajatele laenatud artiklite haldamine](loan-items.md)
 # Teabe kogumine küsimustike abil
-## [Questionnaires](questionnaires.md)
-## [Design a questionnaire](design-questionnaires.md)
-## [Distribute and complete a questionnaire](distribute-questionnaires.md)
-## [Küsimustiku tulemuste hindamiseks](evaluate-questionnaire-results.md)
-# Ameerika Ühendriikide funktsioonid
-## Töökoha ohutuse ja nõuetele vastavuse
-### [Vorm I-9 töö kontrollimine](localizations/noam-usa-form-i-9-verification.md)
-### [Vastavad ADA](localizations/noam-usa-comply-ada.md)
-## [Payroll](localizations/noam-usa-payroll.md)
-### Palgaarvestuse seadistamine
-#### [Seadistage töötajate](localizations/noam-usa-worker-position-payroll-tasks.md)
-#### [Seadistamise töötsüklid ja töötamise perioode](localizations/noam-usa-work-cycle-work-period-tasks.md)
-#### [Saate seadistada viitvõlgade plaanid](localizations/noam-usa-benefit-accrual-plan-tasks.md)
-#### [Set up benefits](localizations/noam-usa-benefit-set-up-tasks.md)
-### Sagedused ja rattad
-### [Tsükli maksta ja maksta perioodi ülesanded](localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md)
-### [Palga arvutamine ja sagedus ülesanded](localizations/noam-usa-payroll-calculation-frequencies-tasks.md)
-### [Tööplaani ja jätta ülesanded](localizations/noam-usa-work-schedule-leave-tasks.md)
+## [Küsimustikud](questionnaires.md)
+## [Küsimustiku kujundamine](design-questionnaires.md)
+## [Küsimustiku laialisaatmine ja täitmine](distribute-questionnaires.md)
+## [Küsimustiku tulemuste hindamine](evaluate-questionnaire-results.md)
+# Funktsioonid Ameerika Ühendriikides
+## Töökoha ohutus ja nõuetele vastavus
+### [Vorm I-9 töökohale sobivuse kontrollimine](localizations/noam-usa-form-i-9-verification.md)
+### [Vastavus ADA-le](localizations/noam-usa-comply-ada.md)
+## [Palk](localizations/noam-usa-payroll.md)
+### Palga seadistus
+#### [Töötajate palga häälestamine](localizations/noam-usa-worker-position-payroll-tasks.md)
+#### [Töötsüklite ja tööperioodide häälestamine](localizations/noam-usa-work-cycle-work-period-tasks.md)
+#### [Soodustuse kogumisplaanide häälestamine ](localizations/noam-usa-benefit-accrual-plan-tasks.md)
+#### [Soodustuste häälestamine](localizations/noam-usa-benefit-set-up-tasks.md)
+### Sagedused ja tsüklid
+### [Palgatsükli ja makseperioodi ülesanded](localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md)
+### [Palgaarvestuse ja sageduse ülesanded](localizations/noam-usa-payroll-calculation-frequencies-tasks.md)
+### [Töögraafiku ja puhkuse ülesanded](localizations/noam-usa-work-schedule-leave-tasks.md)
 ### Koodid ja maksud
-#### [Kood teenida ja teenida kood rühma ülesanded](localizations/noam-usa-earning-code-group-tasks.md)
-#### [Maksu teavet ülesannete](localizations/noam-usa-tax-information-tasks.md)
-### Garnishments, lõivud ja lisatasu maksma
-#### [Saate seadistada garnishments ja maksud maksustamine](localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md)
-#### [Registreeruda arestimise ja maks maksude töötajate](localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md)
-#### [Saate seadistada lisatasu kasum](localizations/noam-usa-premium-earning-setup-tasks.md)
-#### [Garnishments, lõivud ja haldustasud FAQ](localizations/noam-usa-garnishment-tax-levy-administrative-fees.md)
-### Palgaarvestuse töötlemise toimingud
-#### [Generate earnings](localizations/noam-usa-earnings-generation-process.md)
-#### [Probleem töötaja makseid](localizations/noam-usa-issue-worker-payments.md)
-#### [Pärast palgaarvestuse ja luua Hankija arvete](localizations/noam-usa-post-payroll-generate-vendor-invoices.md)
-#### [Avaldused ja teeniva maksete FAQ](localizations/noam-usa-pay-statements-payment-generation-process.md)
-### Makse lõpule viia
-#### [Töötle olemasoleva palga maksete](localizations/noam-usa-existing-payroll-payments.md)
-#### [Protsessi olemasolevaid tulu](localizations/noam-usa-existing-earnings.md)
-#### [Protsessi maksa avaldused](localizations/noam-usa-pay-statements.md)
+#### [Tulukoodi ja tulukoodi grupi ülesanded](localizations/noam-usa-earning-code-group-tasks.md)
+#### [Maksuteabe ülesanded](localizations/noam-usa-tax-information-tasks.md)
+### Sissenõudmised, lõivud ja preemia
+#### [Sissenõudmiste ja lõivude seadistamine](localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md)
+#### [Töötajate registreerimine sissenõudmises ja lõivudes](localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md)
+#### [Preemiatulude seadistamine ](localizations/noam-usa-premium-earning-setup-tasks.md)
+#### [Sissenõudmiste, lõivude ja haldustasude KKK](localizations/noam-usa-garnishment-tax-levy-administrative-fees.md)
+### Palgaarvestuse töötlemise ülesanded
+#### [Tulude koostamine](localizations/noam-usa-earnings-generation-process.md)
+#### [Töötaja maksete väljastamine](localizations/noam-usa-issue-worker-payments.md)
+#### [Palgaarvestuse sisestamine ja hankija arvete loomine](localizations/noam-usa-post-payroll-generate-vendor-invoices.md)
+#### [Palgaväljavõtete ja maksete loomise KKK](localizations/noam-usa-pay-statements-payment-generation-process.md)
+### Makseprotsessi lõpuleviimine
+#### [Olemasolevate palgamaksete töötlemine](localizations/noam-usa-existing-payroll-payments.md)
+#### [Olemasolevate tulude töötlemine](localizations/noam-usa-existing-earnings.md)
+#### [Palgaväljavõtete töötlemine](localizations/noam-usa-pay-statements.md)
 ### Hooldus ja aruandlus
-#### [Palga uuenduste FAQ](localizations/noam-usa-payroll-data-updates.md)
-#### [Palgaarvestuse aruandeid](localizations/noam-usa-generate-payroll-reports.md)
+#### [Palgaandmete värskenduste KKK](localizations/noam-usa-payroll-data-updates.md)
+#### [Palgaaruannete loomine](localizations/noam-usa-generate-payroll-reports.md)
 

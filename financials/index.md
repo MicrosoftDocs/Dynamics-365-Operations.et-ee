@@ -31,15 +31,15 @@ ms.lasthandoff: 04/12/2017
 See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Operations. 
 
 Valige funktsiooniala, et selle kohta rohkem teavet saada.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+- [Ostureskontro](accounts-payable\accounts-payable.md) 
+- [Müügireskontro](accounts-receivable\accounts-receivable.md) 
+- [Sularaha- ja pangahaldus](cash-bank-management\cash-bank-management.md)
+- [Kuluarvestus](cost-accounting\cost-accounting-home-page.md)
+- [Põhivarad](fixed-assets\fixed-assets.md)
+- [Pearaamat](general-ledger\general-ledger.md) 
+- [Projektihaldus](project-management\overview-project-management-accounting.md)
+- [Avalik sektor](public-sector\public-sector-functionality.md) 
+- [Eelarvestamine](budgeting\budgeting-overview.md) 
 
 
 

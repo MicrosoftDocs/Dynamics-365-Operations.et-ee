@@ -1,6 +1,6 @@
 ---
 title: Tarneahela halduse koguleht
-description: "See leht viitab ressursside, mis aitavad teil Microsoft Dynamics 365 toiminguteks - Supply Chain management tõhusamalt kasutada."
+description: "Leht viitab ressurssidele, mis aitavad teil rakendust Microsoft Dynamics 365 for Operations – tarneahela haldus tõhusamalt kasutada."
 author: yuyus
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,31 +29,31 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-See leht viitab ressursside, mis aitavad teil Microsoft Dynamics 365 toiminguteks - Supply Chain management tõhusamalt kasutada. 
+Leht viitab ressurssidele, mis aitavad teil rakendust Microsoft Dynamics 365 for Operations – tarneahela haldus tõhusamalt kasutada. 
 
-## <a name="whats-new-and-in-development"></a>Uute ja arengu
-Mine ning <a href="https://roadmap.dynamics.com/">Dynamics 365 teejuhiga</a> näha, millised uued funktsioonid on lubatud ja millised uued funktsioonid on väljatöötamisel. 
+## <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
+Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>, et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
 
-## <a name="core-concepts-and-tasks"></a>Põhilisi mõisteid ja ülesannete
-*  Vasakpoolsel paanil valige funktsioon ala rohkem selle kohta. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Töödelda sissetuleva ASNs laohalduse</a> (video) 
+## <a name="core-concepts-and-tasks"></a>Põhimõisted ja ülesanded
+*  Valige vasakul paanil funktsiooniala, et selle kohta rohkem teavet saada. 
+*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Sissetulevate ASN-ide töötlemine laohalduses</a> (video) 
 
 
-## <a name="blogs"></a>Blogid
-Seal on palju teemasid umbes tootmis- ja tarneahela juhtimise kohta ning <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX tootmise R & D meeskond blogi</a> ja <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management Dynamics AX R & D meeskond blogi</a>. Enamik neist on kirjutatud Dynamics 365 for Operationsi eelmise versiooni jaoks, kuid mõningad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
+## <a name="blogs"></a>Ajaveebid
+<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist</a> ning <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX-i tarneahela halduse uurimis- ja arendustöörühma ajaveebist</a> leiate palju teemasid tootmise ja tarneahela halduse kohta. Enamik neist on kirjutatud Dynamics 365 for Operationsi eelmise versiooni jaoks, kuid mõningad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
 
-Näiteks saate lugeda viimaseid postitusi: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Kuulutades Dynamics 365 operatsioonideks – ladustamine</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Täiustatud pakkimise funktsionaalsus (Dynamics 365 toimingute 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Risti lõikamine tootmistellimuste tuleb anda</a>
+Näiteks saate lugeda viimaseid sisestusi järgmiste teemade kohta. 
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Tutvustame rakendust Dynamics 365 for Operations – ladustamine</a>
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Täiustatud pakkimisfunktsioon (Dynamics 365 for Operations 1611)</a>
+* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Ristlaadimine tootmistellimustest üleviimistellimustesse</a>
 
-## <a name="white-papers"></a>Valged raamatud
-* Selle <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 toiminguteks - alustamine kuluarvestuse</a> valge raamat annab põhilised sammud konfigureerida Microsoft Dynamics 365 operatsioonideks – kulude arvestus tegelike kulude analüüsi. See sisaldab ka menetlusi, mille ilmumise järjekorras majutatud.
-* Selle <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 toiminguteks - Lean Manufacturing: võimeline lubadus ja Kanban tööde planeerimise</a> valge raamat üksikasjade kanban tööde planeerimise ja esitatakse müügitellimuse võttes, kes kasutavad võimeline lubadus (CTP) meetod Tarnekuupäeva kontrolli mõiste. Selgitatakse ka, kuidas CTP kombineerimiseks sündmuse kanbans mudel tellimusele kokku panna või ehitada korra stsenaariume.
-* Selle <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 toiminguteks - Koosluse kalkulatsioon maksvate lehe abil</a> valges raamatus kirjeldatakse, kuidas seadistada maksavad leht, mis sisaldab materjali ja tootmise ja kuidas setup mõjutab Koosluse kalkulatsiooni tulemusi. Saate teha harjutusi õppimise eesmärgil liite ja kasutada teades, et olete saanud lugeda selle dokumendi Koosluse arvutamise analüüsi teha.
+## <a name="white-papers"></a>Tehniline ülevaade
+* Tehniline ülevaade <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Operations – kuluarvestusega alustamine</a> katab põhisamme rakenduse Microsoft Dynamics 365 for Operations – kuluarvestus konfigureerimiseks, et koostada tegelike kulude analüüse. See sisaldab ka erinevaid protseduure, mida saate täita nende ilmumise järjekorras.
+* Tehniline ülevaade <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 for Operations – Lean Manufacturing: võimeline lubama ja Kanban-tööde planeerimine</a> kirjeldab kanban-tööde planeerimise üksikasju ja tutvustab müügitellimuse saamise mõistet, mis kasutab tarnekuupäeva kontrollimiseks meetodit „võimeline lubama” (CTP). Selgitatakse ka seda, kuidas CTP-d saab kombineerida sündmuse kanbanidega, et modelleerida stsenaariume koosta tellimiseks või ehita tellimiseks.
+* Tehniline ülevaade <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Operations – koosluse arvutamine kuluarvutustabeli abil</a> kirjeldab, kuidas seadistada kuluarvutustabelit, mis sisaldab materjali ja tootmist ning kuidas seadistamine mõjutab koosluse arvutamise tulemusi. Saate õppimise eesmärgil teha lisas olevaid harjutusi ja kasutada selle dokumendi lugemisel saadud teadmisi koosluse arvutamise analüüside tegemiseks.
 
-## <a name="elearning-courses"></a>e-õppe kursused
-Lisateavet Microsoft Dynamics 365 operatsioonide koolitus, vt <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics õppe portaal</a>. (nõuab tootekomplekti konto) 
+## <a name="elearning-courses"></a>eLearningu kursused
+Lisateabe saamiseks Microsoft Dynamics 365 for Operationsi koolituste kohta vt <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamicsi õppeportaali</a>. (vajab CustomerSource’i kontot) 
 
 
 

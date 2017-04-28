@@ -1,6 +1,6 @@
 ---
-title: "Jaemüügi kodulehekülg"
-description: "Kodulehekülg Dynamics 365 operatsioonideks – jaemüük"
+title: "Jaemüügi avaleht"
+description: "Rakenduse Dynamics 365 for Operations – Retail"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,71 +25,71 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="retail-home-page"></a>Jaemüügi kodulehekülg
+# <a name="retail-home-page"></a>Jaemüügi avaleht
 
 [!include[banner](includes/banner.md)]
 
-Dynamics 365 operatsioonideks – jaemüügi pakub täielikku shopping kogemus, õmblusteta ja eristada omni-channel lahendus, mis on kaasaegne, mobiiltelefoni ja global. Otsast-otsani võimet, kaasaegne punktist Müügikoht (POS) tarkvara lahendusi, lao operatsioone, merchandising, pood, kõnekeskus, turundus ja klienditeenindus, tarneahela, finantside ja rohkem, saab kasutada nii, et ettevõtte jaoks kõige loogilisem.
+Dynamics 365 for Operations – Retail pakub terviklikku ostuelamust sujuva ja eristava ühiskanali lahendusega, mis on kaasaegne, mobiilne ja globaalne. Täielikke võimalusi, alates moodsatest kassa (POS) tarkvaralahendustest, laotoimingutest, tootesündmustest, e-kaubandusest, kõnekeskusest, turundusest ja klienditeenindusest ning lõpetades tarneahela, rahanduse ja muuga saab kasutada viisil, mis on teie ettevõtte jaoks kõige loogilisem.
 
-See leht viitab ressursside, mis aitavad teil Microsoft Dynamics 365 toiminguteks - jaemüügi tõhusamalt kasutada. Vasakpoolseimal paanil valige funktsioon ala rohkem selle kohta. 
+Leht viitab ressurssidele, mis aitavad teil rakendust Microsoft Dynamics 365 for Operations – Retail tõhusamalt kasutada. Valige kõige vasakpoolsemal paanil funktsiooniala, et selle kohta rohkem teavet saada. 
 
-## <a name="set-up-retail-channels"></a>Jaemüügi kanalite seadistamine
-Kui seadistate oma kogemustega, saate otsustada, kuidas määratleda ja seadistada tellistest ja betoonist poes (nimetatakse *kauplusesse* Dynamics 365 toiminguteks) ja poe toimingute. 
+## <a name="set-up-retail-channels"></a>Jaemüügikanalite häälestamine
+Jaemüügi kogemuse seadistamisel saate otsustada, kuidas määratleda ja konfigureerida oma füüsilise kaupluse (nimetatakse rakenduses Dynamics 365 for Operations *jaekaupluseks*) ja veebipoe toiminguid. 
 
-Iga kauplusesse võib olla oma makseviisid, Hooldushinnarühmad, POS lahendusi, tulukontodele, kulu kontod ja töötajad. Kui olete loonud oma kauplusesse, määrate poodi viia soovitud tooted. Saate kauplusele määrata ka töötajad, registrid ja kliendid. Viimaks peate lisama uue kaupluse organisatsioonihierarhiasse.
+Igal jaekauplusel võivad olla oma makseviisid, hinnagrupid, kassalahendused, tulukontod, kulukontod ja töötajad. Kui olete loonud oma kaupluse, saate määrata kaupluses müüdavad tooted. Saate kauplusele määrata ka töötajad, registrid ja kliendid. Viimaks peate lisama uue kaupluse organisatsioonihierarhiasse.
 
-E-poe loomisel peate seadistama näiteks sortimentide, atribuudid, makseviisid ja kohaletoimetamise viise. Saate määratleda ka hinnad, kampaaniad, allahindlused ja laevandus tingimustega, mis on konkreetse poe.
+Veebipoe loomisel peate seadistama komponendid, nagu sortimendid, atribuudid, makseviisid ja tarneviisid. Saate määratleda ka hindu, kampaaniaid, allahindlusi ja tarnetingimusi, mis on seotud selle konkreetse veebipoega.
 
--   [Määratleda jaemüügikanalid](define-maintain-retail-channels.md)
--   [Online store overview](online-stores.md)
+-   [Jaemüügikanalite määratlemine](define-maintain-retail-channels.md)
+-   [Võrgupoe ülevaade](online-stores.md)
 
 ## <a name="set-up-a-call-center"></a>Kõnekeskuse seadistamine
-Jaemüügi kanali tüüpi kõnekeskuse seadistamine Kõnekeskuses võtavad töötajad telefonitsi klientide tellimusi vastu ja loovad müügitellimusi. Aidata oma töötajatel tellimuste ja hakkama klienditeenindus tellimuse täitmise käigus, saate seadistada mida sisaldab müügitellimuse, kuidas hinnakujunduse kontrollitakse ja milliseid andmeid klientide, toodete ja hindade kohta saab kasutada. Iga kõne Center, samuti saate kasutajaid, makseviisid, Hooldushinnarühmad, finantsdimensioonide ja Tarneviisid.
+Saate seadistada kõnekeskuse jaemüügikanali tüübina. Kõnekeskuses võtavad töötajad telefonitsi klientide tellimusi vastu ja loovad müügitellimusi. Selleks et aidata oma töötajatel tellimusi vastu võtta ja tegeleda klienditeenindusega kogu tellimuse täitmise protsessi käigus, saate seadistada, mida müügitellimus sisaldab, kuidas hinnakujundust kontrollitakse ning milliseid andmeid klientide, toodete ja hindade kohta saab kasutada. Saate iga kõnekeskuse jaoks seadistada ka kasutajaid, makseviise, hinnagruppe, finantsdimensioone ja tarneviise.
 
--   [Call center functionality](call-center-functionality.md)
--   [Create call center catalogs](create-call-center-catalogs.md)
+-   [Kõnekeskuse funktsioonid](call-center-functionality.md)
+-   [Kõnekeskuse kataloogide loomine](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Määratleda oma POS ja MPOS lahendusi
-Jaemüügi kaasaegne POS (MPOS) on müügikoha rakendus arvutites, tahvelarvutites ja telefonides. Müügitöötajad töödelda müügitehingud, klient tellib, ja iga päev toiminguid ja varud mobiili kusagil laos, samuti registrite PC-põhised. POS pilv on veebipõhine POS. 
+## <a name="define-your-pos-and-mpos-solutions"></a>Kassa ja MPOS-i lahenduste määratlemine
+Retail Modern POS (MPOS) on müügikoha rakendus arvutite, tahvelarvutite ja telefonide jaoks. Müügipersonal saab töödelda müügikandeid ja klienditellimusi ning teha igapäevaseid toiminguid ja hallata varusid mobiilsetes seadmetes poes mis tahes kohas, kaasa arvatud arvutipõhistes registrites. Pilve kassa on brauseripõhine kassa. 
 
-On mitmeid komponente saate seadistada ka suhted poodi, POS registrite või kanaleid poodi ja jaemüügi välisseadmed, mis registreerib või kanalite abil töödelda tehingute. Saate määratleda ka eksemplariga seotud POS, sealhulgas riistvaraprofiili või jaemüügi välisseadmed, mida kasutatakse kasutaja sisse loginud, et registreerida registrisse, registri vastendatud laos ja visuaalne kogemus setup omadused.
+Saadaval on mitu komponenti, mida saate seadistada, et määratleda seoseid poe, kassaregistrite või poes olevate kanalite ning jaemüügi välisseadmete vahel, mida need registrid või kanalid kasutavad kannete töötlemiseks. Saate määratleda ka kassa konkreetse eksemplari omadusi, sealhulgas riistvaraprofiili või seadistust jaemüügi välisseadmete jaoks, mida kasutatakse registris, poes, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalses kogemuses.
 
--   [Määratleda ja hallata kanali klientidele, registreid ja riistvara jaamad](define-maintain-channel-clients-registers-hw-stations.md)
--   [Konfigureerida ja installida MPOS](retail-modern-pos-device-activation.md)
--   [Ühenduseta POS funktsionaalsust](pos-offline-functionality.md)
+-   [Kanaliklientide, registrite ja riistvarajaamade määratlemine ning haldamine](define-maintain-channel-clients-registers-hw-stations.md)
+-   [MPOS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
+-   [Võrguühenduseta kassa funktsioonid](pos-offline-functionality.md)
 
-## <a name="set-up-a-customer-loyalty-program"></a>Kliendi lojaalsus programmi seadmine
-Seadistage oma lojaalsusprogrammi, et hotelli teenida punkte põhineb erikriteeriumid ja punkte saab arvutada mitmel viisil. Sinu lojaalsusprogrammi raskusastmega ja üle sinu juriidilistele isikutele jaemüügi kanali.
--   [Kliendi lojaalsus programmi seadmine](set-up-customer-loyalty-program.md)
+## <a name="set-up-a-customer-loyalty-program"></a>Püsikliendiprogrammi seadistamine
+Saate seadistada oma püsikliendi programmi, et kliendid saaksid teatud kriteeriumite põhjal teenida punkte, mida saab arvutada mitmel viisil. Teie püsikliendi programm võib olla lihtne või keerukas ja rakenduda kõigile juriidilistele isikutele mis tahes jaemüügikanalil.
+-   [Püsikliendiprogrammi seadistamine](set-up-customer-loyalty-program.md)
 
-## <a name="set-up-discounts-and-price-adjustments"></a>Allahindlused ja hinda
-Saate muuta hinna toodete ja saate seadistada allahindluste, rakendatavad reaüksus või tehingust POS, kõne center müügitellimuse või online tellimuse. 
--   [Price adjustments and discounts](price-adjustments-discounts.md)
--   [Define channel-specific discounts](define-channel-specific-discounts.md)
--   [Kindlaks optimaalne kombinatsioon kattuvate allahindlusi](optimal-combination-overlapping-discounts.md)
+## <a name="set-up-discounts-and-price-adjustments"></a>Allahindluste ja hindade korrigeerimise seadistamine
+Saate korrigeerida toodete hindu ja seadistada allahindlusi, mida rakendatakse kassas, kõnekeskuse müügitellimuses või võrgutellimuses rea kaubale või kandele. 
+-   [Hinnakorrigeerimised ja allahindlused](price-adjustments-discounts.md)
+-   [Kanalipõhiste allahindluste määratlemine](define-channel-specific-discounts.md)
+-   [Kattuvate allahindluste optimaalse kombinatsiooni määratlemine](optimal-combination-overlapping-discounts.md)
 
 ## <a name="set-up-retail-products"></a>Jaetoodete häälestamine
-Enne müümiseks pakute jaemüügiprotsessi, peate luua ja konfigureerida toodete Dynamics 365 toiminguteks. Saate luua tooted, määratleda toote omadused ja atribuudid ning määrata tooted jaemüügikategooria hierarhiatesse. Jaemüügiprotsessi toodete kättesaadavaks, ja lisab need aktiivne valik, saad seejärel vabastage toodete juriidilisi isikuid, kus need on saadaval.
--   [Set up retail products](set-up-retail-products.md)
+Enne kui saate oma jaemüügikanalitel hakata tooteid müügiks pakkuma, peate tooted looma ja konfigureerima rakenduses Dynamics 365 for Operations. Saate luua tooted, määratleda toote omadusi ja atribuute ning määrata tooted jaemüügikategooria hierarhiatesse. Selleks et teha tooted jaemüügikanalites kättesaadavaks ja lisada need aktiivsele sortimendile, peate tooted väljastama juriidilistele isikutele, kus need on saadaval.
+-   [Jaetoodete häälestamine](set-up-retail-products.md)
 
-## <a name="monitor-and-analyze-performance"></a>Jälgida ja analüüsida tulemuslikkuse
-Kasutades Dynamics 365 operatsioonide andmeid, saate analüüsida poe jõudlust, kliendi- ja toote tasuvus, käibe ja muu.
--   [Assess customer and product profitability](assess-customer-product-profitability.md)
--   [Analyze store performance](store-performance-information.md)
+## <a name="monitor-and-analyze-performance"></a>Tulemuslikkuse jälgimine ja analüüsimine
+Saate rakenduse Dynamics 365 for Operations andmeid kasutades analüüsida poe jõudlust, kliendi ja toote tulusust, müügitrende ja muud.
+-   [Kliendi ja toote tulususe hindamine](assess-customer-product-profitability.md)
+-   [Kaupluse jõudluse analüüsimine](store-performance-information.md)
 
-## <a name="customize-and-administer-retail-environments"></a>Kohandada ning hallata jaemüügi keskkondade
-Kui teil on palutud kohandada oma keskkonda või, kelle ülesanne on juurutamine ja säilitades oma, Tutvu arendaja ja süsteemi administraator sisu, jaemüügi ning üldisemas Microsoft Dynamics 365 toiminguteks. 
--   [Dynamics 365 toiminguteks - jaemüügi IT-spetsialistidele ja arendajatele](dev-itpro/dev-retail-home-page.md)
--   [Arendajad ja IT-spetsialistidele Microsofti Dynamics 365](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+## <a name="customize-and-administer-retail-environments"></a>Jaemüügikeskkondade kohandamine ja haldamine
+Kui teil on palutud kohandada oma keskkonda või kui teie ülesandeks on oma süsteemi juurutamine ja haldamine, vaadake jaemüügiga seotud arendaja ja süsteemiadministraatori sisu ning ka rakenduse Microsoft Dynamics 365 for Operations üldisemat sisu. 
+-   [Dynamics 365 for Operations – Retail IT-professionaalidele ja arendajatele](dev-itpro/dev-retail-home-page.md)
+-   [Microsoft Dynamics 365 for Operations arendajatele ja IT-professionaalidele](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>Lisaressursid
-### <a name="whats-new-and-in-development"></a>Uute ja arengu
-Mine ning <a href="https://roadmap.dynamics.com/">Dynamics 365 teejuhiga</a> näha, millised uued funktsioonid on lubatud ja millised uued funktsioonid on väljatöötamisel. 
+### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
+Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>, et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
 
-### <a name="blogs"></a>Blogid
-Leiad arvamused, Uudised ja muu teave Microsoft Dynamics 365 toiminguteks - jae- ja muid lahendusi on <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 blogi</a>.
+### <a name="blogs"></a>Ajaveebid
+Arvamusi, uudiseid ja muud teavet rakenduse Microsoft Dynamics 365 for Operations – Retail ja muud lahendused kohta leiate <a href="https://community.dynamics.com/b/msftdynamicsblog">rakenduse Microsoft Dynamics 365 ajaveebist</a>.
 
-On palju teemasid umbes jaemüügi ning <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX toote meeskonna blogi</a>. Need ametikohad on kirjutatud eelmise versiooni Dynamics 365 korral aga samu mõisteid kohaldatakse jätkuvalt ja menetlused on sarnased praeguses versioonis.
+Palju teemasid jaemüügi kohta leiate ka <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX-i tootemeeskonna ajaveebist</a>. Mõni neist sisestustest on kirjutatud Dynamics 365 for Operationsi eelmise versiooni jaoks, kuid mõningad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
-Selle <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics toimingud partneri ühenduse Blog</a> pakub Microsoft Dynamics partnerid ressurss õppida uute ja trendid MBS tegevuses.
+<a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb</a> on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss saamaks teada, mis on rakenduses MBS Operations uut ja põnevat.
 
