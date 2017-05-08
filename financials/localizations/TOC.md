@@ -42,6 +42,7 @@
 ## [Arve ID-de redigeerimine müügitellimustel](emea-edit-invoice-id-sales-orders.md)
 ## [EL-i kandesertifikaadid](emea-entry-certificates.md)
 ## [EL-i käibearuandlus](emea-eu-sales-list.md)
+## [Vahetuskursi korrigeerimine](emea-exchange-rate-adjustments.md)
 ## [Makseviiside failivormingud](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Eesti ja Leedu põhivarade likvideerimine](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Intrastat](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [SEPA kreeditiülekande ülevaade](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA otsekorralduse ülevaade](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Allkirjastajate häälestamine prindivormide jaoks](emea-set-up-signers-for-printing-forms.md)
-## [Perioodide tükeldamine perioodilistes töölehtedes](emea-create-post-periodic-journals.md)
-## [Aruannetes ja dokumentides summade kuvamise viisi värskendamine](emea-amount-printing-forms.md)
-## [Käibemaksuaruanne](emea-vat-reporting.md)
+## [KM-i vahetuskursid](emea-vat-exchange-rate.md)
 ## [Kannete kuvamine tasakaalustamisel](emea-transactions-settlement-form.md)
 ## Austria
+### [Poolaasta kulum](emea-aut-half-year-depreciation.md)
 ### [Pakkematerjali maksud](emea-aut-packing-material-fee-calculation.md)
 ### [KM aruanne](emea-aut-vat-statement-details.md)
 ## Belgia
 ### [CODA pangaväljavõte](emea-bel-coda-bank-statement-import.md)
+### [Intervati maksudeklaratsioon](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM-i aruande häälestamine](emea-bel-prodcom-report.md)
 
 ## Tšehhi Vabariik
+### [Kreeditarve skonto](emea-cze-credit-note-cash-discount.md)
 ### [Kulumi ümardamine](emea-cze-depreciation-rounding.md)
 ### [Kulumi peatamine](emea-cze-depreciation-suspension-holidays.md)
 ### [Põhivarade kulum](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Töölehtede aruanne](emea-deu-journal-list-report.md)
 ### [Müügist tulenevate kreeditarvete jaoks eraldi sildi printimine](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Ungari
+### [Põhivarade kulumiarvestusmeetodid](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Allahinnatud põhivarad](emea-hun-low-cost-fixed-assets.md)
+### [Põhivara teisaldamine varudesse](emea-hun-fixed-asset-to-inventory.md)
 ## Itaalia
 ### [KM aruannete üksikasjad](emea-ita-vat-statements-details.md)
 ### [Musta loendi aruanne](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Saatelehe kuupäeva kinnitamine arvetel](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [Käibemaksuregistrid](emea-ita-fiscal-books.md)
 ### [Tükeldatud makse avalikule haldusele väljastatud arvete korral](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Kinnipeetav maks](emea-ita-withholding tax.md)
 ## Läti
 ### [Põhivarade raamatupidamine](emea-lva-fixed-assets-accounting.md)
 ### [Põhivarade asukoha muudatuse jälgimine](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Müügiarve duplikaadi nummerdamine](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Põhivara kulum](emea-pol-fixed-assets-depreciation.md)
 ### [Põhivara likvideerimise funktsiooni laiendus](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Tagastatav pakend](emea-pol-returnable-packages.md)
+### [Käibemaksuaruanded](emea-pol-sales-tax-reports.md)
+### [Standardne auditifail (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Käibe saldoväljavõte](emea-pol-turnover-balances-statement.md)
 ## Hispaania
-### [Käskveksli valikud](emea-esp-bill-of-exchange-options.md)
 ### [Arvele skontode rakendamine](emea-esp-cash-discount-applied-invoice.md)
+### [Käskveksli valikud](emea-esp-bill-of-exchange-options.md)
+### [Tingimuslik käibemaks](emea-esp-conditional-sales-tax.md)
 ### [Arvekonto finantsandmed](emea-esp-fiscal-data-invoice-account.md)
 ### [Põhivaragrupi ümberhindamine](emea-esp-fixed-asset-group-revaluation.md)
+### [ELi sisene KM](emea-esp-intra-community-vat.md)
 ### [Ühekordsed kliendid](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Võlatähe valikud](emea-esp-promissory-note-options.md)
 ### [Müügi- ja ostutsüklid](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Põhja-Ameerika
 ## [Aastalõpu aruanne 1099 Ameerika Ühendriikides](noam-usa-year-end-1099-reporting.md)
+

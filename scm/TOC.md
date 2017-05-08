@@ -56,6 +56,7 @@
 ### [Kooslus ja valem](production-control/bill-of-material-bom.md)
 ### [Koosluse koostaja funktsioon](production-control/bom-designer-functionality.md)
 ### [Tootedimensioon](pim/product-dimensions.md)
+### [Dimensioonide ja tootevariantide tellimuse vaikesätted](production-control/default-order-settings.md)
 ### [Toote numbri nomenklatuur](pim/product-variant-identification-nomenclature.md)
 ### [Tootega seotud tõlke KKK](pim/translations-product-related-information.md)
 ### [Seerianumbri registreerimine müügiprotsessis](sales-marketing/register-serial-numbers-sales-process.md)
@@ -70,49 +71,77 @@
 ### [Konfiguratsioonimudeli häälestamine](pim/set-up-maintain-product-configuration-model.md)
 ### [Süsteemi ja kasutaja määratletud tabelipiirang](pim/system-defined-user-defined-table-constraints.md)
 # Tootmise juhtimine
-## Tootmisprotsess    
-### [Tegevusel põhinev allhange](production-control/activity-based-subcontracting.md)
-### [Partii atribuudid](production-control/batch-attributes.md)
-### [Kooslused ja valemid](production-control/bill-of-material-bom.md)
-### [Koosluse koostaja funktsioon](production-control/bom-designer-functionality.md)
-### [Konsolideeritud partiitellimused](production-control/consolidated-batch-orders.md)
-### [Allhanketöö haldamine tootmises](production-control/manage-subcontract-work-production.md)
-### [Segarežiimis plaanimine: diskreetse, protsessi- ja säästliku hanke kombineerimine](production-control/mixed-mode-plan.md)
-### [Tootmisprotsess](production-control/production-process-overview.md)
-### [Tootmise seadistusnõuded](production-control/production-set-up-requirements.md)
-### [Protsessid ja toimingud](production-control/routes-operations.md)
-## Tootmistellimused
-### [Tootmistellimuste loomine](production-control/create-production-orders.md)
-### [Dimensioonide ja tootevariantide tellimuse vaikesätted](production-control/default-order-settings.md)
-### [Tootetellimuste vabastamine](production-control/release-production-orders.md)
-### [Tootmistellimuse oleku tühistamine](production-control/reverse-production-order-status.md)
-### [Koosluste lõpetatuks kinnitamine](production-control/report-boms-as-finished.md)
-### [Tootmistellimuste lõpetatuks tunnistamine](production-control/report-production-orders-as-finished.md)
-## Säästlik tootmine 
-### [Kanbani ülekandmise tahvli tugi vöötkoodilugejatele](production-control/kanban-transfer-board-support-barcode-scanner.md) 
-### [Lean manufacturingi kanban-töö planeerimine](production-control/lean-manufacturing-kanban-job-scheduling.md)
+## [Tootmisprotsessi ülevaade](production-control/production-process-overview.md)
+## [Segarežiimis plaanimine: diskreetse, protsessi- ja säästliku hanke kombineerimine](production-control/mixed-mode-plan.md)
+## [Allhanketöö haldamine tootmises](production-control/manage-subcontract-work-production.md)
+## Diskreetne tootmine
+### Tootmise koondandmete haldamine
+#### [Tootmise seadistusnõuded](production-control/production-set-up-requirements.md)
+#### [Kooslused ja valemid](production-control/bill-of-material-bom.md)
+#### [Koosluse koostaja funktsioon](production-control/bom-designer-functionality.md)
+#### [Koosluse kalkulatsioonid](cost-management/bom-calculations.md)
+#### [Operatsiooniressursid](production-control/operations-resources.md)
+#### [Ressursi võimalused](production-control/resource-capabilities.md)
+#### [Protsessid ja toimingud](production-control/routes-operations.md)
+#### [Tootmistellimuse vaikesätted tootmise käivitamisel](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Lao tööpoliitikad](warehousing/warehouse-work-policies.md)
+### Tootmistoimingute plaanimine
+#### [Operatsioonide plaanimine](production-control/operations-scheduling.md)
+#### [Tööde plaanimine](production-control/job-scheduling.md)
+#### [Operatsioonide plaanimise valikud](production-control/operation-scheduling-options.md)
+### Tootmistööde toimimine
+#### [Tootmistellimuste loomine](production-control/create-production-orders.md)
+#### [Tootetellimuste vabastamine](production-control/release-production-orders.md)
+#### [Tootmistellimuse oleku tühistamine](production-control/reverse-production-order-status.md)
+#### [Tootmistellimuste lõpetatuks tunnistamine](production-control/report-production-orders-as-finished.md)
+#### [Koosluste lõpetatuks kinnitamine](production-control/report-boms-as-finished.md)
+#### [Materjali asendamine tootmises](production-control/substitute-items-bom-lines.md)
+#### [Tootmise käivitamise registreerimine](production-control/registration-manufacturing-execution.md)
+#### [Tootmise tagasiside](production-control/production-feedback.md)
+#### [Tööajaarvestuse registreerimine](production-control/time-attendance-registrations.md)
+### Finantside haldamine tootmises
+#### [Tööde kogumisse kuuluvatele töödele aja eraldamine](production-control/allocate-time-jobs-job-bundle.md)
+#### [Materjalikulu arvutamine](production-control/consumption.md)
+#### [Tootmise sisestamine](cost-management/production-posting.md)
+## Lean manufacturing 
 ### [Lean manufacturingi ülevaade](production-control/lean-manufacturing-overview.md)
-### [Efektiivse organisatsiooni modelleerimine](production-control/lean-manufacturing-modeling-lean-organization.md)
-## Toimingute ja tööde planeerimine
-### [Tööde kogumisse kuuluvatele töödele aja eraldamine](production-control/allocate-time-jobs-job-bundle.md)
-### [Tööde planeerimine](production-control/job-scheduling.md)
-### [Operatsioonide plaanimise valikud](production-control/operation-scheduling-options.md)
-### [Operatsioonide planeerimine](production-control/operations-scheduling.md)
-## Ressursid
-### [Operatsiooniressursid](production-control/operations-resources.md)
-### [Ressursi võimalused](production-control/resource-capabilities.md)
-### [Tööajaarvestuse registreerimine](production-control/time-attendance-registrations.md)
-## Tootmise käivitamine
-### [Materjali asendamine tootmises](production-control/substitute-items-bom-lines.md)
-### [Materjalikulu arvutamine](production-control/consumption.md)
-### [Tootmise tagasiside](production-control/production-feedback.md)
-### [Tootmistellimuse vaikesätted tootmise käivitamisel](production-control/production-order-defaults-manufacturing-execution.md)
-### [Tootmise sisestamine](cost-management/production-posting.md)
-### [Tootmise käivitamise registreerimine](production-control/registration-manufacturing-execution.md)
+### [Tegevusel põhinev allhange](production-control/activity-based-subcontracting.md)
+### Tootmise koondandmete haldamine
+#### [Efektiivse organisatsiooni modelleerimine](production-control/lean-manufacturing-modeling-lean-organization.md)
+#### [Operatsiooniressursid](production-control/operations-resources.md)
+### Kanban-tööde plaanimine
+#### [Lean manufacturingi kanban-töö plaanimine](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [Tööde plaanimine](production-control/job-scheduling.md)
+### Kanban-tööde toimimine
+#### [Kanbani ülekandmise tahvli tugi vöötkoodilugejatele](production-control/kanban-transfer-board-support-barcode-scanner.md)
+#### [Tootmise tagasiside](production-control/production-feedback.md)
+## Protsessi tootmine
+### Tootmise koondandmete haldamine
+#### [Kooslused ja valemid](production-control/bill-of-material-bom.md)
+#### [Operatsiooniressursid](production-control/operations-resources.md)
+#### [Ressursi võimalused](production-control/resource-capabilities.md)
+#### [Partii atribuudid](production-control/batch-attributes.md)
+#### [Tootmistellimuse vaikesätted tootmise käivitamisel](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Tootmise seadistusnõuded](production-control/production-set-up-requirements.md)
+### Tootmistoimingute plaanimine
+#### [Operatsioonide plaanimine](production-control/operations-scheduling.md)
+#### [Operatsioonide plaanimise valikud](production-control/operation-scheduling-options.md)
+#### [Tööde plaanimine](production-control/job-scheduling.md)
+### Tootmistööde toimimine
+#### [Konsolideeritud partiitellimused](production-control/consolidated-batch-orders.md)
+#### [Materjali asendamine tootmises](production-control/substitute-items-bom-lines.md)
+#### [Tootmise käivitamise registreerimine](production-control/registration-manufacturing-execution.md)
+#### [Tootmise tagasiside](production-control/production-feedback.md)
+#### [Tööajaarvestuse registreerimine](production-control/time-attendance-registrations.md) 
+### Finantside haldamine tootmises
+#### [Tööde kogumisse kuuluvatele töödele aja eraldamine](production-control/allocate-time-jobs-job-bundle.md)
+#### [Materjalikulu arvutamine](production-control/consumption.md)
+#### [Tootmise sisestamine](cost-management/production-posting.md)
 # Müük ja turundus
 ## [Turundus](sales-marketing/overview-sales-marketing.md)
 ## Müügitellimused
 ### [Tellimuse lubamine](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Tarne alternatiivid](sales-marketing/delivery-alternatives.md)
 ### [Tellimuse sisestamise tähtajad](sales-marketing/order-entry-deadlines.md)
 ### [Otsetarned](sales-marketing/direct-deliveries.md)
 ### [Tarnegraafikud](sales-marketing/delivery-schedules.md)
@@ -138,6 +167,7 @@
 ### [Paigutuse seadistamine](warehousing/warehouse-configuration.md)
 ### [Lao tööpoliitikad](warehousing/warehouse-work-policies.md)
 ### [Mõõtühik ja ladustamispoliitikad](warehousing/unit-measure-stocking-policies.md)
+### [Lao Power BI sisu](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
 ## Komplekteerimine ja pakkimine
 ### [Pakkematerjalid ja tasud](warehousing/pack-materials-packing-material-fees.md)
 ## Varude arvestamine
@@ -151,7 +181,21 @@
 ## Täiendamine
 ### [Täiendamine](warehousing/replenishment.md)
 ## Mobiilsed seadmed
+### [Lao rakenduse installimine ja konfigureerimine ](warehousing/install-configure-warehousing-app.md)
 ### [Välja nimede konfigureerimine lao rakenduses](warehousing/configure-app-field-names-priorities-warehouse.md)
 ### [Mobiilsete seadmete seadistamine laotöö jaoks](warehousing/configure-mobile-devices-warehouse.md)
 ### [Lao mobiilsete seadmete portaal (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Lao mobiilse seadme kuvasätted](warehousing/change-warehouse-mobile-device-displays.md)
+
+# [Finantsid](/dynamics365/operations/financials/index)
+
+# [Inimressursid](/dynamics365/operations/human-resources/index)
+
+# [Jaemüük](/dynamics365/operations/retail/index)
+
+# [Arendaja ja administraator](/dynamics365/operations/dev-itpro/index)
+
+# Muud ressursid
+## [Dynamics 365 for Operationsi sõnastik](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Mis on uus või muudetud](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+

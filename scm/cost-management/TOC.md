@@ -22,10 +22,14 @@
 ## [Kaalutud keskmine kuupäev](weighted-average-date.md)
 ## [Kaalutud keskmine füüsilise väärtuse ja märgistusega](weighted-average-physical-value-marking.md)
 # Tootmise kuluarvutus
+## [Toodetud kauba püsikulude amortiseerimine](amortize-constant-costs-manufactured-item.md)
+## [Omahinna tagasiarvestus](backflush-costing.md)
+## [Koosluse kalkulatsioonid](bom-calculations.md)
 ## [Koosluse kalkulatsioonigrupp](bom-calculation-groups.md)
 ## [Tootmishälbe tavalised allikad](common-sources-of-production-variances.md)
 ## [Tootmisprotsessis kasutatud kulukategooria](cost-categories-used-production-routings.md)
 ## [Kulukategooria, mida kasutatakse moodulites Tootmise juhtimine ja Projektihalduse raamatupidamine](cost-categories-used-production-control-project-management-accounting.md)
+## [Toodetud kauba kulude kuvamine](charges-manufactured-item.md)
 ## [Tootmistellimuse kulu analüüs](production-order-cost-analysis.md)
 ## [Tootmistellimuse kulu hindamine](production-order-cost-estimation.md)
 ## [Tootmise sisestamine](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Tootmiskeskkonnas standardomahinna värskendamine](update-standard-costs-manufacturing-environment.md)
 ## [Uue toodetud kauba standardomahinna värskendamine](update-standard-costs-new-manufactured-item.md)
 ## [Mittetootmiskeskkonnas standardomahinna värskendamine](update-standard-costs-non-manufacturing-environment.md)
+
 
 

@@ -170,6 +170,7 @@
 ## [Kuluelemendi dimensioonid](cost-accounting/cost-elements.md)
 ## [Kuluobjekti dimensioonid](cost-accounting/cost-objects.md)
 ## [Kuluelemendi dimensiooniliikmete vastendamine dimensiooniliikmete ühtse mudeliga](cost-accounting/map-cost-elements-dimension-members.md)
+## [Üldkulude arvutus](cost-accounting/overhead-calculation.md)
 ## [Kulujuhtimise mobiilne tööruum](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [Kuluarvestuse analüüsi Power BI sisu](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [Projektipakkumised](project-management/project-quotations.md)
 ## [Projekti ressursid](project-management/project-resourcing.md)
 ## [Tööjaotuse struktuurid](project-management/work-breakdown-structures.md)
+## [Mobiilse tööruumi projekti ajakirje](project-management/project-time-entry-mobile-workspace.md)
 # [Lokaliseerimised](localizations/TOC.md)
+
+# [Inimressursid](/dynamics365/operations/human-resources/index)
+
+# [Jaemüük](/dynamics365/operations/retail/index)
+
+# [Hankeahela haldamine](/dynamics365/operations/supply-chain/index)
+
+# [Arendaja ja administraator](/dynamics365/operations/dev-itpro/index)
+
+# Muud ressursid
+## [Dynamics 365 for Operationsi sõnastik](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [Mis on uus või muudetud](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

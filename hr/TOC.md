@@ -60,3 +60,15 @@
 #### [Palgaandmete värskenduste KKK](localizations/noam-usa-payroll-data-updates.md)
 #### [Palgaaruannete loomine](localizations/noam-usa-generate-payroll-reports.md)
 
+# [Finantsid](/dynamics365/operations/financials/index)
+
+# [Jaemüük](/dynamics365/operations/retail/index)
+
+# [Hankeahela haldamine](/dynamics365/operations/supply-chain/index)
+
+# [Arendaja ja administraator](/dynamics365/operations/dev-itpro/index)
+
+# Muud ressursid
+## [Dynamics 365 for Operationsi sõnastik](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Mis on uus või muudetud](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+
