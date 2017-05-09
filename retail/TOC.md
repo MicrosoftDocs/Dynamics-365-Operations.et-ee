@@ -68,3 +68,16 @@
 ## [Commerce’i põhitõdede ülevaade](commerce-essentials.md)
 ## [Organisatsioonid ja organisatsiooni hierarhiad (Commerce’i põhitõed)](organizational-hierarchies-commerce-essentials.md)
 # [IT-spetsialistide ja arendajate sisu](dev-itpro/TOC.md)
+
+# [Finantsid](/dynamics365/operations/financials/index)
+
+# [Inimressursid](/dynamics365/operations/human-resources/index)
+
+# [Hankeahela haldamine](/dynamics365/operations/supply-chain/index)
+
+# [Arendaja ja administraator](/dynamics365/operations/dev-itpro/index)
+
+# Muud ressursid
+## [Dynamics 365 for Operationsi sõnastik](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [Mis on uus või muudetud](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

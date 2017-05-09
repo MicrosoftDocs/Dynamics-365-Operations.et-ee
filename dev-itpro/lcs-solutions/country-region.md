@@ -17,29 +17,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokaliseerimine ja regulatiivsed funktsioonid
 
-Microsoft Dynamics 365 for Operations sisaldab funktsioone teatud riigi-/regioonipõhiste regulatsioonide ja protsesside kohta. Need funktsioonid on lubatud aktiivse juriidilise isiku esmase aadressi põhjal. See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide kohta rohkem teada saada. 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>Arendaja ja ISV teave
-Järgmised ressursid sisaldavad teavet, mis on abiks arendajatele ja ISV-dele, kes loovad riigi-/regioonipõhiseid kohandusi.
+
+Microsoft Dynamics 365 for Operations sisaldab funktsioone [toote saadavuse juhendis](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf) dokumenteeritud riigi/regioonide kohta. Need funktsioonid on lubatud aktiivse juriidilise isiku esmase aadressi põhjal. 
+
+See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide kohta rohkem teada saada. 
+
+## <a name="developing-localized-solutions"></a>Lokaliseeritud lahenduste väljatöötamine
+Järgmised ressursid sisaldavad juhiseid ja teavet, mis on abiks arendajatele ja ISV-dele, kes loovad riigi-/regioonipõhiseid kohandusi või lahendust riigi jaoks, mida Microsoft ei toeta.
 -   [Eraldi lokaliseerimismudelid](separate-localization-models.md)
 -   [Riigi/regiooni konteksti rakendamine](apply-country-context.md)
 -   [Regulatiivsed serdid](regulatory-certifications.md)
 -   [Lokaliseerimisfunktsioonide klassifikatsioon](classify-localization-features.md)
 -   [Riigikoodid – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>Lokaliseerimisvärskendused
+## <a name="localization-updates-and-communication"></a>Lokaliseerimisvärskendused ja suhtlus
 Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioonide kohta. 
--   [Lokaliseerimise portaal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>Lokaliseerimisvärskendused
+-   [Lokaliseerimise portaal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (uuendatakse kord nädalas)
+-   [LCS-i väljamineku otsing](../lifecycle-services/issue-search-lcs.md) (uuendatakse iga päev)
+
+### <a name="communication-and-alerts"></a>Suhtlus ja teatised
 -   [Regulatiivse vaatluse ja regulatiivsete värskenduste teabevahetus](regulatory-watch-communication.md)
 -   [Microsofti teavitamine riigi/regiooni regulatiivsetest teatistest ja regulatiivsete funktsioonide oleku jälgimine](submit-localization-alerts.md)
 
@@ -51,7 +62,15 @@ Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektro
 -   [Elektroonilise aruandluse funktsioonide loendi laiendamine](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Elektroonilise aruandluse sihtkohad](../analytics/electronic-reporting-destinations.md)
 -   [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Elektroonilise aruandluse häälestamine Power BI-ga](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+## <a name="task-guides"></a>Tegevuse juhised
+Tegevuse juhised asuvad toote spikripaanil ja need pakuvad juhendatud ülevaadet peamistest äriprotsessidest. Saate avada tegevuse juhise, et lugeda äriprotsessi etappe või saate esitada tegevuse juhise, et saada ülevaade äriprotsessist ja sisestada andmeid.
+
+Tegevuse juhiste leidmiseks liikuge Microsoft Dynamics 365 for Operationsis soovitud lehele ja klõpsake nuppu Spikker. Lehte kasutavad tegevuste juhised on loetletud spikripaanil. Spikripaani saate kasutada ka tegevuse juhiste otsimiseks pealkirja järgi.
+
+Lisateabe saamiseks vt teemat [tegevuse juhised](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides).
+
 
 ## <a name="countryregion-specific-help-topics"></a>Riigi/regioonikohased spikriteemad
 Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
@@ -62,17 +81,17 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Äritegevuse aruanne ](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [Väikese väärtusega vahendite kulum](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>Austria
 
+-   [Poolaasta kulum](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
 -   [Pakkematerjali maksud](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
 -   [KM aruanne](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Belgia
 
 -   [CODA pangaväljavõte](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [Intervati maksudeklaratsioon](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM-i aruande häälestamine](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>Brasiilia
 
@@ -93,7 +112,6 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Maksu maksmised](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [Maksud](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>Hiina
 -   [Koosluse võrdlus](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [Hiina kanded](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Varude põhikontode sisestamine saidi järgi](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [Pearaamatukonto deebet- ja kreeditsummade kuvamine](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>Tšehhi Vabariik
+
+-   [Kreeditarve skonto](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [Kulumi ümardamine](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [Tšehhi Vabariigi põhivarade likvideerimise poolaasta kulum](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [Kulumi peatamine (pühad)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [Tšehhi Vabariigi põhivarade kulumiarvestusmeetodid](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [Tšehhi Vabariigi põhivarade likvideerimise poolaasta kulum](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [Kulumi peatamine (pühad)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [Tšehhi Vabariigi põhivarade kulumiarvestusmeetodid](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [Põhivara eelsoetuse sisestamine](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Tšehhi Vabariigi KM aruanne](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Perioodide tükeldamine perioodilistes töölehtedes](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -125,10 +145,11 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 ### <a name="europe"></a>Euroopa
 -   [Avansisaajad](/dynamics365/operations/financials/localizations/emea-advance-holders)
 -   [Arve ID-de redigeerimine müügitellimustel](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
--   [EL-i kandesertifikaadid](/dynamics365/operations/financials/localizations/emea-entry-certificates)
--   [EL-i käibearuandlus](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [ELi kandesertifikaadid](/dynamics365/operations/financials/localizations/emea-entry-certificates)
+-   [ELi käibearuandlus](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [Vahetuskursi korrigeerimine](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
 -   [Makseviiside failivormingud](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
--   [Põhivarade likvideerimine Eestis ja Leedus](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+-   [Eesti ja Leedu põhivarade likvideerimine](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [Intrastat](/dynamics365/operations/financials/localizations/emea-intrastat)
 -   [Arve ja saatelehe nummerdamine Lätis ja Leedus](/dynamics365/operations/financials/localizations/emea-invoices-packing-slips-numbering)
 -   [Arve väljastamise tähtajad](/dynamics365/operations/financials/localizations/emea-invoice-issue-deadline)
@@ -143,11 +164,9 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Allkirjastajate häälestamine prindivormide jaoks](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Perioodide tükeldamine perioodilistes töölehtedes](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [Aruannetes ja dokumentides summade kuvamise viisi värskendamine](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
+-   [KM-i vahetuskursid](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
 -   [KM aruandlus Euroopas](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
 -   [Kannete kuvamine tasakaalustamisel](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
 
 ### <a name="france"></a>Prantsusmaa
 -   [Arvete ja kannete numbrid kronoloogilises järjekorras](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,15 +183,16 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
    -   [Titres de recette](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Hankija arve maksete ootelolekud](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>Saksamaa
 -   [Täiendavate soetamiste kulum](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [Saksa auditifail (GDPdU/GoBD)](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [Saksa töölehtede loendi aruanne](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [Müügist tulenevate kreeditarvete jaoks eraldi sildi printimine (tegevuse juhis)](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [Müügist tulenevate kreeditarvete jaoks eraldi sildi printimine](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
 ### <a name="hungary"></a>Ungari
 
+-   [Põhivarade kulumiarvestusmeetodid](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [Põhivara teisaldamine varudesse](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [Allahinnatud põhivarad](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>Itaalia
@@ -184,6 +204,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Saatelehe kuupäeva kinnitamine arvetel Itaalias](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Itaalia käibemaksuraamatud](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [Tükeldatud makse avalikule haldusele väljastatud arvete korral](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [Kinnipeetav maks](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>Jaapan
 
@@ -240,6 +261,9 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Müügiarve duplikaadi nummerdamine](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [Põhivarade kulum](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [Põhivarade likvideerimine](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [Tagastatav pakend](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [Käibemaksuaruanded](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [Standardne auditifail (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [Käibe- ja saldoväljavõte](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>Saudi Araabia
@@ -252,15 +276,16 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 
 ### <a name="spain"></a>Hispaania
 
-
--   [Hispaania käskveksli valikud](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [Hispaania käskveksli valikud](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [Arve parameetris skonto rakendamine](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [Kasuta arvekonto finantsandmeid](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Tingimuslik käibemaks](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [Põhivara ümberhindamisgrupid](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [ELi sisene KM](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Ühekordsed kliendid](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [Hispaania võlatähe valikud](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Müügi- ja ostutsüklid](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Erikanded ja avamislehed](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [Kasuta arvekonto finantsandmeid](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>Rootsi
 
@@ -286,4 +311,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Aastalõpu aruanne 1099](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Palk](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [Avalik sektor](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 

@@ -1,5 +1,6 @@
 # Lao paigutuse loomine
 # Sissetulev protsess
+## [Saabumise ülevaade](arrival-overview.md)
 # Väljaminev protsess
 # Varude jälgimise häälestamine
 ## [Laotöölehed](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [Saadetis](consignment.md)
 ## [Saadetise seadistamine](set-up-consignment.md)
 # Kvaliteedijuhtimine
+## [Mobiilse tööruumi varude laoseis](inventory-on-hand-mobile-workspace.md)
 ## [Kvaliteedijuhtimise lubamine](enable-quality-management.md)
 ## [Varude blokeerimine](inventory-blocking.md)
 ## [Mittevastavuse haldus](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # Kauba ja partii jälgimine
 ## [Varupartiide ühendamine](merge-inventory-batches.md)
 ## [Kauba ja tooraine jälgimine](trace-items-raw-materials-inventory-production-sales.md)
+
