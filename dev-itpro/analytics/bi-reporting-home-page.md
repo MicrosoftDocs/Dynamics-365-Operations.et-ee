@@ -1,6 +1,6 @@
 ---
-title: "BI ja aruandluse kodulehekülg"
-description: Selles teemas on toodud Microsoft Dynamics 365 for Operationsis saadaolevate BI ja aruandluse ressursside loend.
+title: "BI &amp; aruandluse kodulehekülg"
+description: Teema esitab Microsoft Dynamics 365 for Operationsis saadaolevate BI &amp; aruandluse ressursside loendi.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,26 +16,27 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: fad93826b0798e2028f75457d5bbdbd1f9639a5b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 7163951249cbea6d528440aef9bf38bcf4c4f7e5
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI ja aruandluse kodulehekülg
+# <a name="bi-amp-reporting-home-page"></a>BI &amp; aruandluse kodulehekülg
 
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas on toodud Microsoft Dynamics 365 for Operationsis saadaolevate BI ja aruandluse ressursside loend. 
+Teema esitab Microsoft Dynamics 365 for Operationsis saadaolevate BI &amp; aruandluse ressursside loendi. 
 
 <a name="working-with-aggregate-data"></a>Koondandmetega töötamine
 ---------------------------
 
 -   [Analüütika](analytics.md)
--   [asendavad SSAS-i kuubid](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
+-   [SSAS-i kuubide asendamine mälusiseste reaalajas liitmudelitega](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
 -   [Koondandmete modelleerimine ja kasutamine](model-aggregate-data.md)
 -   [Täiendatud Dynamics AX 2012 R3 müügikuubi migreerimine üksuse poodi](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
@@ -47,7 +48,7 @@ Selles teemas on toodud Microsoft Dynamics 365 for Operationsis saadaolevate BI 
 -   [Jaemüügikanali näitajate Power BI sisu](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Finantstulemuste Power BI sisu](financial-performance-power-bi-content-pack.md)
 -   [Müügi ja tulususe tulemuste Power BI sisu](sales-profitability-performance-content-pack.md)
--   [Kasutage elektroonilise aruandluse konfiguratsiooni, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroonilise aruandluse konfiguratsiooni kasutamine, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Dynamics 365 for Operationsi kliendis manustatud analüütiliste kogemuste loomine
 -   [Manustatud ärianalüüs](analytics.md#embedded-business-intelligence)
@@ -71,7 +72,7 @@ Selles teemas on toodud Microsoft Dynamics 365 for Operationsis saadaolevate BI 
 -   [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 -   [Elektroonilise aruandluse sihtkohad](electronic-reporting-destinations.md)
 -   [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Kasutage elektroonilise aruandluse konfiguratsiooni, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroonilise aruandluse konfiguratsiooni kasutamine, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Elektrooniline aruandlus. Konfiguratsioonipakkuja loomine ja aktiivseks märkimine](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Domeenikohase andmemudeli koostamine](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Mudeli vastenduse määratlemine ja andmeallikate valimine](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (tegevusjuhis)
@@ -83,7 +84,7 @@ Selles teemas on toodud Microsoft Dynamics 365 for Operationsis saadaolevate BI 
 -   [Elektrooniline aruandlus. Sihtkohtade konfigureerimine](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (1. osa: andmemudeli koostamine)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (2. osa: mudeli vastendamine)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (tegevusjuhis)
--   [Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (3. osa: aruande koostamine)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (tegevusjuhis)
+-   [Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (3. osa: aruande kujundamine)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (4. osa: aruande käitamine)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Vormingu konfigureerimine loendamiseks ja liitmiseks (1. osa: vormingu loomine)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Vormingu konfigureerimine loendamiseks ja liitmiseks (2. osa: arvutuste konfigureerimine)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (tegevusjuhis)

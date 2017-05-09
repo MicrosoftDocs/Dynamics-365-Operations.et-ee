@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ Dynamics 365 for Operations – Retail pakub terviklikku ostuelamust sujuva ja e
 Leht viitab ressurssidele, mis aitavad teil rakendust Microsoft Dynamics 365 for Operations – Retail tõhusamalt kasutada. Valige kõige vasakpoolsemal paanil funktsiooniala, et selle kohta rohkem teavet saada. 
 
 ## <a name="set-up-retail-channels"></a>Jaemüügikanalite häälestamine
-Jaemüügi kogemuse seadistamisel saate otsustada, kuidas määratleda ja konfigureerida oma füüsilise kaupluse (nimetatakse rakenduses Dynamics 365 for Operations *jaekaupluseks*) ja veebipoe toiminguid. 
+Jaemüügi kogemuse seadistamisel saate otsustada, kuidas määratleda ja konfigureerida oma füüsilist kauplust, veebikauplust ja kõnekeskust. 
 
-Igal jaekauplusel võivad olla oma makseviisid, hinnagrupid, kassalahendused, tulukontod, kulukontod ja töötajad. Kui olete loonud oma kaupluse, saate määrata kaupluses müüdavad tooted. Saate kauplusele määrata ka töötajad, registrid ja kliendid. Viimaks peate lisama uue kaupluse organisatsioonihierarhiasse.
-
-Veebipoe loomisel peate seadistama komponendid, nagu sortimendid, atribuudid, makseviisid ja tarneviisid. Saate määratleda ka hindu, kampaaniaid, allahindlusi ja tarnetingimusi, mis on seotud selle konkreetse veebipoega.
+Igal jaekauplusel võivad olla oma makseviisid, tarneviisid, hinnagrupid, tulu-/kulukontod, registrid ja töötajad. Kui olete loonud oma kaupluse, saate luua soovitud arvu kaupluses müüdavaid tooteid. Saate määratleda ka kauplusepõhiseid hindu ja allahindlusi, mis kehtivad poes saada olevatele toodetele.
 
 -   [Jaemüügikanalite määratlemine](define-maintain-retail-channels.md)
 -   [Võrgupoe ülevaade](online-stores.md)
@@ -49,10 +48,10 @@ Saate seadistada kõnekeskuse jaemüügikanali tüübina. Kõnekeskuses võtavad
 -   [Kõnekeskuse funktsioonid](call-center-functionality.md)
 -   [Kõnekeskuse kataloogide loomine](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Kassa ja MPOS-i lahenduste määratlemine
-Retail Modern POS (MPOS) on müügikoha rakendus arvutite, tahvelarvutite ja telefonide jaoks. Müügipersonal saab töödelda müügikandeid ja klienditellimusi ning teha igapäevaseid toiminguid ja hallata varusid mobiilsetes seadmetes poes mis tahes kohas, kaasa arvatud arvutipõhistes registrites. Pilve kassa on brauseripõhine kassa. 
+## <a name="define-your-pos-solutions"></a>Kassalahenduste määratlemine
+Retail Modern POS (MPOS) on müügikoha rakendus arvutite, tahvelarvutite ja telefonide jaoks. Müügipersonal saab töödelda müügikandeid ja klienditellimusi, luua kliendisuhtlusi ning teha igapäevaseid toiminguid ja hallata varusid mobiilsetes seadmetes poes mis tahes kohas, kaasa arvatud arvutipõhistes registrites. Cloud POS on brauseripõhine POS, mille saab käivitada igas standardses brauseris. 
 
-Saadaval on mitu komponenti, mida saate seadistada, et määratleda seoseid poe, kassaregistrite või poes olevate kanalite ning jaemüügi välisseadmete vahel, mida need registrid või kanalid kasutavad kannete töötlemiseks. Saate määratleda ka kassa konkreetse eksemplari omadusi, sealhulgas riistvaraprofiili või seadistust jaemüügi välisseadmete jaoks, mida kasutatakse registris, poes, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalses kogemuses.
+Saadaval on mitu komponenti, mida saate seadistada, et määratleda seoseid poe, poes olevate kassaregistrite ja jaemüügi välisseadmete vahel, mida need registrid kasutavad kannete töötlemiseks. Saate määratleda ka kassa konkreetse eksemplari omadusi, sealhulgas riistvaraprofiili või seadistust jaemüügi välisseadmete jaoks, mida kasutatakse registris, poes, millega register on vastendatud, sellesse registrisse sisse logiva kasutaja visuaalses kogemuses ja funktsioonides, mis on registris lubatud. Samuti saate määratleda, kas register saab töötada katkestatud või võrguühenduseta olekus.
 
 -   [Kanaliklientide, registrite ja riistvarajaamade määratlemine ning haldamine](define-maintain-channel-clients-registers-hw-stations.md)
 -   [MPOS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
@@ -92,4 +91,6 @@ Arvamusi, uudiseid ja muud teavet rakenduse Microsoft Dynamics 365 for Operation
 Palju teemasid jaemüügi kohta leiate ka <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX-i tootemeeskonna ajaveebist</a>. Mõni neist sisestustest on kirjutatud Dynamics 365 for Operationsi eelmise versiooni jaoks, kuid mõningad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
 <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb</a> on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss saamaks teada, mis on rakenduses MBS Operations uut ja põnevat.
+
+
 
