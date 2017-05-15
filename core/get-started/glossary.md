@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0d8af341c8020f756f1a736f6f74402e992d6e16
-ms.openlocfilehash: c6372e366db6abc7b586c2f1185ecd44bbf28502
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.contentlocale: et-ee
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -54,15 +55,15 @@ Mõõdetud kogus, mis on sisestatud tegevusse või mille kohta on tegevusest teh
 
 Teenus, mida osutab krediitkaardi töötleja, kes kinnitab, et kaardi omaniku esitatud arveaadress vastab välja andva panga faili teabele.
 
-###### <a name="adjusted-unit-price"></a>**Korrigeeritud ühikuhind**
+###### <a name="adjusted-unit-price"></a>**korrigeeritud ühikuhind**
 
 Arvutatud ühikuhind atribuudipõhise hinnakujunduse ja tegeliku sisalduse alusel.
 
-###### <a name="advanced-pricing"></a>**Täpsem hinnakujundus**
+###### <a name="advanced-pricing"></a>**täpsem hinnakujundus**
 
 Loogika, mida kasutatakse sisaldusüksuse ostuhinna arvutamiseks.
 
-###### <a name="aging"></a>**aegumine**
+###### <a name="aging"></a>**ajaline jaotus**
 
 Ajavahemike vanuse järgi klassifitseerimise protsess.
 
@@ -112,9 +113,9 @@ Dokumendi või toote ootele paneku toiming.
 
 Loa andmine kulude autoriseerimiseks ainult siis, kui eelarve vahendeid saab reserveerida tulevaste maksekohustuste täitmiseks.
 
-###### <a name="budget-control-dimension"></a>**eelarve juhtimise dimensioon**
+###### <a name="budget-control-dimension"></a>**eelarvekontrolli dimensioon**
 
-Aktiivsete rahaliste dimensioonide kombinatsioon, mida kasutatakse eelarveliste vahendite eraldamiseks planeeritud tegevuste eest tasumiseks.
+Aktiivsete finantsdimensioonide kombinatsioon, mida kasutatakse eelarveliste vahendite eraldamiseks planeeritud tegevuste eest tasumiseks.
 
 ###### <a name="budget-control-rule"></a>**eelarve juhtimise reegel**
 
@@ -126,7 +127,7 @@ Ajavahemik, mis on määratletud rahandusperioodide hulgana kalendris. Eelarvepe
 
 ###### <a name="budget-group"></a>**eelarvegrupp**
 
-Rahalise dimensiooni väärtused eelarvedimensiooni hierarhias, mida kasutatakse eraldatud eelarvevahendite kogusumma arvutamiseks finantsdimensiooni väärtuse ülendamiseks, summeerides need eelarvevahendid, mis on eraldatud finantsdimensiooni väärtuste allutamiseks.
+Finantsdimensiooni väärtused eelarvedimensiooni hierarhias, mida kasutatakse eraldatud eelarvevahendite kogusumma arvutamiseks finantsdimensiooni väärtuse ülendamiseks, summeerides need eelarvevahendid, mis on eraldatud finantsdimensiooni väärtuste allutamiseks.
 
 ###### <a name="budget-model"></a>**eelarvemudel**
 
@@ -136,9 +137,9 @@ Plaanimise struktuur, mida kasutatakse fondi eelarveliste eraldiste ja kulude pl
 
 Valemi üksuse sisend toote tarne toimingusse.
 
-###### <a name="bundle"></a>**paketeerimine**
+###### <a name="bundle"></a>**kogum**
 
-Mitmete toote kombinatsioon müügiks ühe üksusena.
+Mitme toote kombinatsioon müügiks ühe üksusena.
 
 ###### <a name="business-unit"></a>**äriüksus**
 
@@ -146,7 +147,7 @@ Poolautonoomne tootmisüksus, mis on loodud strateegilise ärieesmärkide saavut
 
 ### <a name="c"></a>**C**
 
-###### <a name="capacity-load"></a>**võimsuse koormus**
+###### <a name="capacity-load"></a>**täiskoormus**
 
 Maksimaalne plaanitud tööde hulk, mida töökeskus saab sooritada nõutaval tasemel.
 
@@ -172,7 +173,7 @@ Põhikontode loend.
 
 ###### <a name="cogs-cost-of-goods-sold"></a>**COGS (tuletusreegel)**
 
-Raamatupidamiskategooria, mida kasutatakse toodete tootmise rahaliste tagajärgede summeerimiseks ja inventuuri läbiviimiseks.
+Arvestuskategooria, mida kasutatakse toodete tootmise rahaliste tagajärgede summeerimiseks ja inventuuri läbiviimiseks.
 
 ###### <a name="commodity-pricing"></a>**toorainepõhine hinnakujundus**
 
@@ -194,11 +195,11 @@ Teise kaubaga ühiselt toodetud kaup.
 
 Tootmisüksus, mille juhid vastutavad eelarveliste ja tegelike kulude eest.
 
-###### <a name="cost-of-goods-sold"></a>**müüdud kaupade omahind**
+###### <a name="cost-of-goods-sold"></a>**tuletusreegel**
 
-Raamatupidamiskategooria, mida kasutatakse toodete tootmise rahaliste tagajärgede summeerimiseks ja inventuuri läbiviimiseks.
+Arvestuskategooria, mida kasutatakse toodete tootmise rahaliste tagajärgede summeerimiseks ja inventuuri läbiviimiseks.
 
-###### <a name="cost-variance"></a>**omahinna hälve**
+###### <a name="cost-variance"></a>**kulu hälve**
 
 Eeldatava kulu ja tegeliku kulu vahe.
 
@@ -212,7 +213,7 @@ Toodangu osa saadaolevatest operatsiooniressurssidest ning saadaolev sisendtooda
 
 ###### <a name="currency-code"></a>**valuutakood**
 
-Valuutaühikut tähistav tähe- ja numbrimärkidest koosnev identifikaator.
+Valuutaühikut tähistav tärgiline identifikaator.
 
 ###### <a name="cycle-time"></a>**tsükli aeg**
 
@@ -220,7 +221,7 @@ Tegevuse lõpetamiseks vajalik aeg.
 
 ### <a name="d"></a>**D**
 
-###### <a name="dashboard"></a>**Armatuurlaud**
+###### <a name="dashboard"></a>**armatuurlaud**
 
 Tavaline Microsoft Dynamics 365 for Operationsi avaleht. Armatuurlaual näevad kasutajad iga tööruumi jaotist, kuhu neil on juurdepääs. Iga jaotis kuvab paane seotud tööruumi kokkuvõttejaotistest. Armatuurlaud koosneb nimest ja paanidega jaotistest.
 
@@ -240,15 +241,15 @@ Delegaat on tüüp, mis esitab meetoditele viiteid kindla parameetri loendi ja t
 
 Tulevase toote nõudluse ennustus.
 
-###### <a name="demand-forecasting"></a>**nõudluse prognoos**
+###### <a name="demand-forecasting"></a>**nõudluse prognoosimine**
 
 Äriprotsess, mis hindab tulevast nõudlust ja loob varasemate kandeandmete põhjal nõudluse prognoosid.
 
-###### <a name="deployable-package"></a>**Juurutatav pakett**
+###### <a name="deployable-package"></a>**juurutatav pakett**
 
 Sõiduk, mida kasutatakse kasutaja vastuvõtu testimise (UAT) ja tootmiskeskkondade juurutamiseks.
 
-###### <a name="designer"></a>**Koostaja**
+###### <a name="designer"></a>**koostaja**
 
 Tööriist Visual Studio, mida kasutasite mudelelementide loomiseks, värskendamiseks ja ülevaatamiseks.
 
@@ -264,7 +265,7 @@ Toode, mis on üheselt tuvastatav.
 
 Toimingute protsessi ootele panemise meetod, samas kui tellitud kaubad on kvaliteedi kontrollimise protsessis.
 
-###### <a name="document-management-system"></a>**dokumendihalduse süsteem**
+###### <a name="document-management-system"></a>**dokumendihaldussüsteem**
 
 Rakendusteenus organisatsiooni dokumentide säilitamiseks ja käsitsemiseks.
 
@@ -286,11 +287,11 @@ Sündmus võimaldab klassil või objektil teavitada muid klasse või objekte, ku
 
 Säästlikkuse mõiste, mida kasutatakse regulaarse korduva tootmistsükli loomiseks.
 
-###### <a name="extension"></a>**Laiend **
+###### <a name="extension"></a>**laiendus**
 
 Rakenduse kohandamine, lisades olemasolevale koodile funktsionaalsuse.
 
-### <a name="f"></a>**R**
+### <a name="f"></a>**F**
 
 ###### <a name="financial-dimension"></a>**finantsdimensioon**
 
@@ -304,7 +305,7 @@ Finantsdimensiooni domeenis olev andmeelement.
 
 Aruanne, mis dokumenteerib organisatsiooni finantsteabe ja finantsseisundi.
 
-###### <a name="fixed-cost"></a>**fikseeritud kulud**
+###### <a name="fixed-cost"></a>**fikseeritud omahind**
 
 Kulu, mis ei muutu seoses toote tarnimise tootlikkuse või toodangu muutustega.
 
@@ -330,7 +331,7 @@ Valemiga kontrollitud pakktöötluse väljund.
 
 ### <a name="g"></a>**G**
 
-###### <a name="general-budget-reservation"></a>**Põhilised eelarvereserveeringud**
+###### <a name="general-budget-reservation"></a>**eelarvereserv**
 
 Dokument, mida kasutavad sageli avaliku sektori üksused tuleb tühistada või eraldada eelarvestatud raha nii, et seda raha ei kasutataks muudel eesmärkidel.
 
@@ -342,7 +343,7 @@ Ajavahemik pärast määratud kuupäeva, mille jooksul on võimalik kohustust t�
 
 Käibemaks, mida rakendatakse mõnes riigis/piirkonnas.
 
-### <a name="i"></a>**Mina**
+### <a name="i"></a>**I**
 
 ###### <a name="intercompany"></a>**kontsernisisene**
 
@@ -398,7 +399,7 @@ Viis, kuidas kaupu tootmiseks koondada, nt seadistusgrupi, saadetuse grupi või 
 
 ###### <a name="ledger-account"></a>**pearaamatukonto**
 
-Klassifikaator, mis on loodud põhikonto väärtuse ja muude rahaliste dimensioonide väärtuste kombinatsioonist, mis on loetletud kontoplaanis ja mida kasutatakse majandustegevuse rahaliste tagajärgede klassifitseerimiseks.
+Klassifikaator, mis on loodud põhikonto väärtuse ja muude finantsdimensioonide väärtuste kombinatsioonist, mis on loetletud kontoplaanis ja mida kasutatakse majandustegevuse rahaliste tagajärgede klassifitseerimiseks.
 
 ###### <a name="license-code"></a>**litsentsi kood**
 
@@ -408,11 +409,11 @@ Tähtnumbriline võti mis annab poolele õiguse kasutada tarkvara või tarkvara 
 
 Osapoole võime kasutada käibevara jooksvate kohustuste eest tasumiseks.
 
-### <a name="m"></a>**E**
+### <a name="m"></a>**M**
 
-###### <a name="manufacturing-overhead-based-on-material"></a>**materjalil põhinevatest tootmise üldkulu**
+###### <a name="manufacturing-overhead-based-on-material"></a>**materjalil põhinevad tootmise üldkulud**
 
-Tootmise üldkulu väljendatakse kaudsete kulude kalkulatsioonivalemitena lisatasude jaoks. Materjali komponentidele määratud kulugrupp toimib kalkulatsioonivalemi alusena. Kalkulatsioonivalemit saab määrata üksikutele toodetele või toodetele määratud kaubagruppidele, et pakkuda suuremat paindlikkust materjalil põhineva tootmise üldkulu arvestamisel.
+Tootmise üldkulu väljendatakse kaudsete kulude kalkulatsioonivalemitena lisatasude jaoks. Materjali komponentidele määratud kulugrupp toimib kalkulatsioonivalemi alusena. Kalkulatsioonivalemit saab määrata üksikutele toodetele või toodetele määratud kaubagruppidele, et pakkuda suuremat paindlikkust materjalil põhinevate tootmise üldkulude arvestamisel.
 
 ###### <a name="master-scheduling"></a>**koondplaneerimine**
 
@@ -426,7 +427,7 @@ Mudel sisaldab koodi elemente ja viite metaandmeid. See luuakse ja seda saab ül
 
 Mudel on elementide grupp (lähtefailid ja metaandmed), mis moodustab levitatava tarkvaralahenduse. Mudel on kujundusaja idee.
 
-### <a name="n"></a>**E**
+### <a name="n"></a>**N**
 
 ###### <a name="nbv-net-book-value"></a>**NBV (raamatupidamislik jääkväärtus)**
 
@@ -452,7 +453,7 @@ Lähtekoodi kohandamise viis, andes uue lähtekoodi, mis alistab vaikelähtekood
 
 ### <a name="p"></a>**P**
 
-###### <a name="package"></a>**pakend**
+###### <a name="package"></a>**pakett**
 
 Pakett on koostatav ja juurutatav ühe või mitme mudeli üksus.
 
@@ -488,7 +489,7 @@ Majandussündmuse rahalise väärtuse salvestamiseks kindlale kontole või üldi
 
 Isik, kes loob lähtedokumendi majandusressursside taotluse algatamiseks.
 
-###### <a name="privilege"></a>**eesõigus**
+###### <a name="privilege"></a>**privileeg**
 
 Üks või mitu luba, mida kasutajal on toimingu sooritamiseks vaja.
 
@@ -552,11 +553,11 @@ Poliitika, mis lubab pooltel muuta ostutellimuse tingimusi ja juhtida tellimuse 
 
 Lähtedokument, mis dokumenteerib pakkumise teatud tootekoguse ostmiseks nimetatud hinna eest ja määratud kuupäevaks vastuseks hankeprotsessis esitatud päringule.
 
-###### <a name="purchase-requisition"></a>**ostutellimus**
+###### <a name="purchase-requisition"></a>**ostutaotlus**
 
 Lähtedokument, mis dokumenteerib tootenõuded, et need saaks saata ülevaatamiseks ja kasutada ostmise autoriseerimiseks ostva organisatsiooni poolt.
 
-### <a name="q"></a>**K**
+### <a name="q"></a>**Q**
 
 ###### <a name="quantity-variance"></a>**koguse hälve**
 
@@ -576,7 +577,7 @@ Kahe või enama konto või väljavõtte kohandamine nii, et numbrid on vastavuse
 
 Meetod, mida kasutatakse koondplaneerimisel eelarvevajaduste suurendamiseks või vähendamiseks, tuginedes kasutaja määratletud protsentidele, mida konkreetsete perioodide vältel rakendatakse.
 
-###### <a name="register"></a>**registreeri**
+###### <a name="register"></a>**register**
 
 Kirje, mida kasutatakse ressursivoo sündmuste tegevuslike, juriidiliste ja rahaliste tagajärgede kirjendamiseks raamatupidamissüsteemis.
 
@@ -596,7 +597,7 @@ Isik, kes taotleb majandusressursse.
 
 Toode, mille jaotust on piiranud valitsusasutus.
 
-### <a name="s"></a>**L**
+### <a name="s"></a>**S**
 
 ###### <a name="sales-agreement"></a>**müügileping**
 
@@ -654,21 +655,21 @@ Just-in-time (täpselt õigeks ajaks) varude asukoht, mis on piiratud suurusega 
 
 Andmebaasis tabeli või vaatega vastendatud finantsdimensioon, mis kajastab üksuse tüüpi ja mille väärtused on selle üksuse tüübiga ühe atribuudi domeenis.
 
-### <a name="t"></a>**N**
+### <a name="t"></a>**T**
 
 ###### <a name="takt-time"></a>**takti aeg**
 
 Toote ühe kaubaühiku tootmiseks kuluv aeg.
 
-###### <a name="task-guide"></a>**Ülesande juhis**
+###### <a name="task-guide"></a>**tegevuse juhis**
 
-Kontrollitud, juhendatud kasutuskogemus läbi ülesande salvestamise etappide. Ülesande juhend juhatab kasutaja läbi salvestatud kogemuse. Kõik turvalisuse, andmete ja rakenduse käitumised on ülesande juhisega tehes samad mis ilma ülesande juhiseta. Ülesande juhis kasutab samu tööriistu mis ülesande salvestaja, et teada, millal kasutaja on kavatsetud etapi lõpetanud, nii et see saab paluda kasutajal minna salvestamise järgmise etapi juurde.
+Kontrollitud, juhendatud kasutuskogemus läbi tegevuse salvestamise etappide. Tegevuse juhend juhatab kasutaja läbi salvestatud kogemuse. Kõik turvalisuse, andmete ja rakenduse käitumised on tegevuse juhisega tehes samad mis ilma tegevuse juhiseta. Tegevuse juhis kasutab samu tööriistu mis tegevuse salvestaja, et teada, millal kasutaja on kavatsetud etapi lõpetanud, nii et see saab paluda kasutajal minna salvestamise järgmise etapi juurde.
 
-###### <a name="task-recorder"></a>**Ülesande salvestaja**
+###### <a name="task-recorder"></a>**tegevuse salvestaja**
 
 Tööriist, mis on Microsoft Dynamics 365 for Operationsisse eelnevalt installitud. Salvestamisel salvestab see kõik sündmused, mille kasutaja Dynamics 365 for Operationsi kasutajaliidesesse sisestab ja mis käivitatakse serveris – sh lisatud väärtused, muudetud sätted, eemaldatud andmed jne.
 
-###### <a name="task-recording"></a>**Ülesande salvestamine**
+###### <a name="task-recording"></a>**tegevuse salvestis**
 
 Fail, mis sisaldab tegevusi ja märkusi, mis jäädvustatakse, kui tegevuse salvestaja Microsoft Dynamics 365 for Operationsis käivitatakse.
 
@@ -700,7 +701,7 @@ Tootmisüksus, mis kontrollib ühte või mitut tootmisvoogu.
 
 Tooteetalonide valmistamise ja tootevariandi konfiguratsioonide otsimise meetod.
 
-###### <a name="vat-value-added-tax"></a>**KM (käibemaks)**
+###### <a name="vat-value-added-tax"></a>**VAT (käibemaks)**
 
 Toodetele igas tootmise etapis rakendatav maks, mis põhineb vastava etapi jooksul lisatud väärtusel.
 
@@ -712,7 +713,7 @@ Loetelu tootepakkumistest, mis on hankijalt ostmiseks saadaval.
 
 Lähtedokument, mis dokumenteerib hankija maksenõude. Hankija arve võib viidata ühele või mitmele ostutellimusele. Kui hankija arve on autoriseeritud, saab hankijale makse edastada.
 
-### <a name="w"></a>**K**
+### <a name="w"></a>**W**
 
 ###### <a name="work-cell"></a>**töörakk**
 
@@ -724,7 +725,7 @@ Isik, kes võtab endale töötaja või töövõtja rolli ja kellele teenuste ees
 
 ###### <a name="workspace"></a>**tööruum**
 
-Leht, mis annab ülevaate ühest kasutaja tehtavast toimingust. Leht kasutab paane, loendeid ja diagramme, et kuvada ootel töö ja seotud andmed mitmest allikast, ja leht lihvib nende andmetega seotud sagedasi ülesandeid. Tööruumi kokkuvõttejaotises kuvatavad paanid kuvatakse ka armatuurlaua seotud jaotises.
+Leht, mis annab ülevaate ühest kasutaja tehtavast toimingust. Leht kasutab paane, loendeid ja diagramme, et kuvada ootel töö ja seotud andmed mitmest allikast, ja leht lihvib nende andmetega seotud sagedasi tegevusi. Tööruumi kokkuvõttejaotises kuvatavad paanid kuvatakse ka armatuurlaua seotud jaotises.
 
 
 
