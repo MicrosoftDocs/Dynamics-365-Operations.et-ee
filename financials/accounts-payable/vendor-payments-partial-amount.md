@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 4d243e6a9a68b69a6b32748344fc606ff3f2d965
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: eeed8bc4ad0fc24b04055e26bb33c2c56856c52b
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -49,7 +50,7 @@ Näiteks saate 2% skontot, kui arve tasutakse kümne päeva jooksul pärast sell
 ## <a name="credit-notes-with-cash-discounts"></a>Skontodega kreeditarved
 Võib-olla tagastate osa arvel olevatest kaupadest ja saate kreeditarve. Kui algse arve puhul arvestati skontot, lahutage skonto väärtus ja saate tagasimakse õiges summas. Kui suvand **Arvuta skontod kreeditarvete jaoks **on lehel **Ostureskontro parameetrid** seatud väärtusele **Jah**, arvutatakse allahindlus kreeditarve jaoks automaatselt. 
 
-Näiteks saate 2% skontot, kui arve tasutakse kümne päeva jooksul pärast selle väljastamist. Sisestatud on arve summas 100,00. Kui tagastate kaubad ja saate kreeditarve, saate algse arve täissumma jaoks sisestada kreeditarve, mis on 100,00, pluss 2-protsendine skonto, mis määratletakse samuti krediiditeatisel.  Kui vaatate kreeditarvet lehel **Kannete tasakaalustamine**, ilmub** 98,00** väljale **Tasakaalustatav summa** ja **–2,00** väljale **Skonto summa**. Allahindluse summa sisestatakse skontokontole.
+Näiteks saate 2% skontot, kui arve tasutakse kümne päeva jooksul pärast selle väljastamist. Sisestatud on arve summas 100,00. Kui tagastate kaubad ja saate kreeditarve, saate algse arve täissumma jaoks sisestada kreeditarve, mis on 100,00, pluss 2-protsendine skonto, mis määratletakse samuti krediiditeatisel.  Kui vaatate kreeditarvet lehel **Kannete tasakaalustamine**, ilmub**98,00** väljale **Tasakaalustatav summa** ja **–2,00** väljale **Skonto summa**. Allahindluse summa sisestatakse skontokontole.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Üle-/alamakse summad
 Võib‑olla teete osalise makse, mille puhul tasakaalustamist vajav osa on väga väike. Näiteks, kui hankija arve on summas 1000,00 ja maksate sellest 999,90. Kui järelejäänud summa on väiksem kui summa, mis on määratud üle- või alamaksete puhul leheküljel **Ostureskontro parameetrid**, sisestatakse erinevus automaatselt üle-/alamakse pearaamatukontole.

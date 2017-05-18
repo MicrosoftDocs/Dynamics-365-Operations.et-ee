@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 7025072cd29aac4ceb13b5594c3e321350777cf1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11fa0f0afa7ab400c87d6e7558292385ae80c8b2
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Näiteks pakute 2% skontot, kui arve tasutakse kümne päeva jooksul pärast sel
 ## <a name="credit-notes-with-discounts"></a>Allahindlustega kreeditarved
 Kui kliendid tagastavad osa arvel olevatest kaupadest, võite väljastada kreeditarve. Kui skonto võeti algselt arvelt, peab kliendi krediiditeatis olema kliendi võetud skonto netosumma. Kui lehe **Müügireskontro parameetrid** jaotise **Arvuta skontod kreeditarvete jaoks** suvandi väärtuseks on seatud **Jah**, arvutatakse kreeditarve jaoks automaatselt allahindlus. 
 
-Näiteks pakkusite maksetingimusi, mis määravad 2% skontot, kui arve tasutakse kümne päeva jooksul pärast selle väljastamist. Sisestati arve 100,00 ja klient võttis skonto. Kui klient tagastab kaubad ja väljastate kreeditarve, saate sisestada kreeditarve –100,00. Kui vaatate kreeditarvet lehel **Avatud kannete tasakaalustamine**, ilmub** 98,00** väljale **Tasakaalustatav summa** ja **–2,00** ilmub väljale **Skonto summa**. Allahindluse summa sisestatakse skontokontole.
+Näiteks pakkusite maksetingimusi, mis määravad 2% skontot, kui arve tasutakse kümne päeva jooksul pärast selle väljastamist. Sisestati arve 100,00 ja klient võttis skonto. Kui klient tagastab kaubad ja väljastate kreeditarve, saate sisestada kreeditarve –100,00. Kui vaatate kreeditarvet lehel **Avatud kannete tasakaalustamine**, ilmub**98,00** väljale **Tasakaalustatav summa** ja **–2,00** ilmub väljale **Skonto summa**. Allahindluse summa sisestatakse skontokontole.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Üle-/alamakse summad
 Kui kliendid teevad makse, võib olla väga väike summa, mis tuleb tasakaalustada. Näiteks esitate kliendile arve 1000,00 ja klient maksab 999,90. Kui järelejäänud summa on väiksem kui summa, mis on määratud üle- või alamaksete puhul lehel **Müügireskontro parameetrid**, sisestatakse erinevus automaatselt üle-/alamakse pearaamatukontole.

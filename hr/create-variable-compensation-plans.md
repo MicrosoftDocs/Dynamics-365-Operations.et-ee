@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9397e84f03ee5b340fa2aa0a64e582fc0078526e
-ms.openlocfilehash: be156afa73de731e54985485b617bcbae883db3a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 917771596a0c56561bf302ae990d95a987f442e0
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Ergutussüsteemi summade arvutamine töötajatele võib põhineda mitmel teguril
 ## <a name="variable-compensation-components"></a>Ergutussüsteemi osad
 ### <a name="create-compensation-types"></a>Tasutüüpide loomine
 
-**Ergutussüsteemi tüübid **on kohustuslik osa. Ergutussüsteemi tüübid võimaldavad kirjeldada organisatsioonis kasutatavaid ergutussüsteeme. Samuti võimaldavad need määrata, kas tasu makstakse sularahas või mitterahalistes vahendites (nt aktsiatega).
+**Ergutussüsteemi tüübid**on kohustuslik osa. Ergutussüsteemi tüübid võimaldavad kirjeldada organisatsioonis kasutatavaid ergutussüsteeme. Samuti võimaldavad need määrata, kas tasu makstakse sularahas või mitterahalistes vahendites (nt aktsiatega).
 
 ### <a name="describe-vesting-rules"></a>Pensionireeglite kirjeldamine
 
@@ -53,13 +54,13 @@ Soovi korral saavad ettevõtted seadistada **pensionireegleid**. Pensionireeglid
 Tulemustasu summa võib põhineda töötaja regulaarse põhitasu protsendil või määratud ühikute arvul.
 
 -   Tehke valik **Alusprotsent** vaikeprotsendi sisestamiseks ja määrake, kas alus peaks olema töötaja põhipalgamäär või töötaja palgataseme kontrollpunkt. Töötaja ametile määratakse palgatase. Üks palgastruktuuri viitepunkt võib olla määratud põhipalgaplaani kontrollpunktiks. Süsteem kasutab töötaja ametikoha puhul seda palgataset ja ristviitab sellele kontrollpunktiga, mis on nimetatud töötaja põhipalgaplaanis, et leida töötaja palgataseme kontrollpunkti summa. Kontrollpunkti summat kasutatakse siis töötaja fikseeritud palgamäära asemel tulemustasu alusena.
--   Valige** Ühikute arv**, et sisestada ühikute vaikearv, iga ühiku väärtus ja ühiku väärtuse valuuta, kui tasuplaan on mitterahaline tasu (nt 200 aktsiat väärtusega 40 dollarit) või lihtsalt ühikute arv, kui tasuplaan on rahalise tulemustasu kohta. Rahalise preemia puhul saab töötaja nimetatud valuutaühikute arvu, mida kasutatakse tema põhipalgaplaani puhul (nt 500 ühikut väärtusega 1 dollar). Üks-ühele seose juhtimise abil saab näidata, kas ühikute arvu ja ühiku väärtuse vahel on otsene üks-ühele vastendus. Kui koostate ergutussüsteemi plaani rahapõhisele plaanile, kasutades ühikute arvu, lukustatakse see valik automaatselt väärtusele **Jah** ja ühiku väärtus on **1,0000**.
+-   Valige**Ühikute arv**, et sisestada ühikute vaikearv, iga ühiku väärtus ja ühiku väärtuse valuuta, kui tasuplaan on mitterahaline tasu (nt 200 aktsiat väärtusega 40 dollarit) või lihtsalt ühikute arv, kui tasuplaan on rahalise tulemustasu kohta. Rahalise preemia puhul saab töötaja nimetatud valuutaühikute arvu, mida kasutatakse tema põhipalgaplaani puhul (nt 500 ühikut väärtusega 1 dollar). Üks-ühele seose juhtimise abil saab näidata, kas ühikute arvu ja ühiku väärtuse vahel on otsene üks-ühele vastendus. Kui koostate ergutussüsteemi plaani rahapõhisele plaanile, kasutades ühikute arvu, lukustatakse see valik automaatselt väärtusele **Jah** ja ühiku väärtus on **1,0000**.
 
 Säte **Palkamise reegel** võimaldab määrata, kas kõik töötajad peaksid saama ühesugust palgatõusu, olenemata nende palkamise kuupäevast (**Palkamise reegel** = **Pole**) või peaksid töötajad saama preemiaprotsenti selle põhjal, kui kaua nad tsükli vältel palgatud olid (**Palkamise reegel** = **Protsent**). 
 
 **Mõjujõud** võimaldab kohandada töötaja preemiat töötaja osakonna tulemuste põhjal. Igale osakonnale saab määrata tulemuste näitajad lehel **Osakonnad** jaotises **Seotud vormid** &gt; **Tasu** &gt; **Tulemused**. Osakonna töötajatele makstav preemia sõltub välja **Saavutatava eesmärgi protsent** väärtusest, mis näitab osakonna tulemust.
 
--   Kui osakonna tulemus on 100 protsenti, faktooritakse selle osakonna töötajate preemiat väljal ** Väljamakse 100% juures** määratud protsendi võrra.
+-   Kui osakonna tulemus on 100 protsenti, faktooritakse selle osakonna töötajate preemiat väljal **Väljamakse 100% juures** määratud protsendi võrra.
 -   Kui osakonna tulemus on üle 100 protsendi, lisab süsteem väljal **1% kohta üle eesmärgi** määratud protsendi väljal **Väljamakse 100% juures** määratud protsendile, kuni jõutakse väljal **Kõrgeim lubatud väljamakse** määratud väärtuseni.
 -   Kui osakonna jõudlus on alla 100 protsendi, lahutab süsteem väljal **1% kohta alla eesmärgi** määratud protsendi väljal **Väljamakse 100% juures** määratud protsendist, kuni jõutakse väljal **Madalaim lubatud väljamakse** määratud väärtuseni.
 

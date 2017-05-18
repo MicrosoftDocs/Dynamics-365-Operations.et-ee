@@ -3,7 +3,7 @@ title: "Töövoo kinnitusprotsessi konfigureerimine"
 description: "Kinnitusprotsessi atribuutide konfigureerimiseks tehke järgmist."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Töövoo kinnitusprotsessi konfigureerimine
+
+[!include[banner](../includes/banner.md)]
+
 
 Kinnitusprotsessi atribuutide konfigureerimiseks tehke järgmist.
 
@@ -132,7 +136,7 @@ Teil võib olla vajalik määrata lõplik kinnitaja olukordades, kus kinnitaja o
 
 ## <a name="set-a-time-limit"></a>Ajalimiidi seadmine
 Kui kinnitusprotsess tuleb teatud ajaks lõpule viia, tehke järgmist.
-| **Märkus. **                                                                                                                                                |
+| **Märkus.**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Neis etappides valitavad suvandid tühistavad iga kinnitusetapi aladel **Määramine** ja **Laiendus** valitud suvandid. |
 
@@ -161,7 +165,9 @@ Kasutaja peab talle määratud dokumendiga tegelema. Esitatud dokumendi puhul ka
 Kinnitusprotsess koosneb kinnitusetappidest. Kinnitusprotsessi etappide lisamiseks ja konfigureerimiseks tehke järgmist.
 1.  Topeltklõpsake töövooredaktoris kinnitusprotsessi. Töövooredaktoris kuvatakse kinnitusprotsessi etapid.
 2.  Kinnitusetapi lisamiseks lohistage etapp alalt **Töövoo elemendid** lõuendile.
-3.  Kinnitusetapi konfigureerimiseks vt teemat [Kinnitusetapi konfigureerimine](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/).
+3.  Kinnitusetapi konfigureerimiseks vt teemat [Kinnitusetapi konfigureerimine](configure-approval-step-workflow.md).
+
+
 
 
 

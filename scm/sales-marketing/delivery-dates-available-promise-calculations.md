@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8aa0a58b03ee18e42ca7770ea3e22311c1ddba67
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9aba61178d050f4881c96b7a7fa62937b98b2beb
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,8 +38,8 @@ Tellimuse lubamine arvutab varaseimad lähetamise ja vastuvõtmise kuupäevad ni
 
 -   **Müügi täitmisaeg** – müügi täitmisaeg on müügitellimuse koostamise ja kaupade lähetamise vaheline aeg. Tarnekuupäeva arvutamine põhineb päevade vaikearvul ega arvesta saadavust laos, teadaolevat nõudlust või plaanitud tarnet.
 -   **ATP (saadaval lubamiseks)** – ATP on kaubakogus, mis on saadaval ja mida saab kliendile konkreetsel kuupäeval lubada. ATP arvutamine sisaldab kehtestamata laosaldot, täitmisaegu, plaanitud sissetulekuid ja väljaminekuid.
--   **ATP + väljamineku ohutusvaru ** – tarnekuupäev on võrdne ATP kuupäevaga pluss kauba väljamineku ohutusvaru. Väljamineku ohutusvaru on aeg, mis on vajalik kaupade saatmiseks ettevalmistamiseks.
--   **CTP (lubamiseks võimeline) **– saadavus arvutatakse koosnevusarvutuse abil.
+-   **ATP + väljamineku ohutusvaru** – tarnekuupäev on võrdne ATP kuupäevaga pluss kauba väljamineku ohutusvaru. Väljamineku ohutusvaru on aeg, mis on vajalik kaupade saatmiseks ettevalmistamiseks.
+-   **CTP (lubamiseks võimeline)**– saadavus arvutatakse koosnevusarvutuse abil.
 
 ## <a name="atp-calculations"></a>ATP arvutused
 ATP kogus arvutatakse meetodil „kumulatiivne plaanitav ATP”. Selle ATP arvutamise meetodi peamiseks eeliseks on see, et selle abil saab käsitleda juhtumeid, kus väljaminekute summa sissetulekute hulgas on suurem kui viimane sisstulek (näiteks kui nõude täitmiseks tuleb kasutada varasema sissetuleku kogust). Arvutusmeetod „kumulatiivne plaanitav ATP” sisaldab kõiki väljaminekuid, kuni kumulatiivne vastuvõetav kogus ületab kumulatiivse väljastatava koguse. Seetõttu hindab see ATP arvutusmeetod, kas mõne varasema perioodi kogust saab hilisemas perioodis kasutada.  

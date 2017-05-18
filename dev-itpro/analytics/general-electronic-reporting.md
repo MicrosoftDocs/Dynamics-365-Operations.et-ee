@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ ER-i mootoril on järgmised võimalused.
 ## <a name="concepts"></a>Mõisted
 ### <a name="components"></a>Komponendid
 
-ER toetab kahte tüüpi komponente: **Andmemudel **ja **Vorming**.
+ER toetab kahte tüüpi komponente: **Andmemudel**ja **Vorming**.
 
 #### <a name="data-model-components"></a>Andmemudeli komponendid
 
@@ -93,9 +94,9 @@ Vormingukomponent annab võimaluse manustada konkreetseid faile, mida saab aruan
 ER-komponentide puhul toetatakse versioonimist. Järgmist töövoogu pakutakse ER-i komponentides muudatuste haldamiseks.
 
 -   Algselt loodud versioon on märgitud versioonina **MUSTAND**. Seda versiooni saab redigeerida ja see on proovimiseks saadaval.
--   Versiooni** MUSTAND** saab teisendada versiooniks **LÕPULE VIIDUD**. Seda versiooni saab kasutada kohalikes aruandlusprotsessides.
+-   Versiooni**MUSTAND** saab teisendada versiooniks **LÕPULE VIIDUD**. Seda versiooni saab kasutada kohalikes aruandlusprotsessides.
 -   Versiooni **LÕPULE VIIDUD** saab teisendada versiooniks **JAGATUD**. See versioon avaldatakse LCS-is ja seda saab kasutada üldistes aruandlusprotsessides. See versioon avaldatakse LCS-is ja seda saab kasutada üldistes aruandlusprotsessides.
--   Versiooni **JAGATUD **saab teisendada versiooniks **KATKESTATUD**. Seejärel saab selle versiooni kustutada.
+-   Versiooni **JAGATUD**saab teisendada versiooniks **KATKESTATUD**. Seejärel saab selle versiooni kustutada.
 
 Versioonid olekus** LÕPULE VIIDUD** või **JAGATUD** on saadaval muuks andmevahetuseks. Nende olekutega komponentidega saab teha neid toiminguid:
 
@@ -104,7 +105,7 @@ Versioonid olekus** LÕPULE VIIDUD** või **JAGATUD** on saadaval muuks andmevah
 
 #### <a name="component-date-effectivity"></a>Komponendi kehtivuskuupäev
 
-ER-i komponendi versioonid on kehtivuskuupäevaga. ER-i komponendile saab määratleda kuupäeva** Kehtiv alates, **et määrata kuupäev, millal see komponent aruandlusprotsessides jõustub. Dynamics 365 for Operationsi seansi kuupäeva kasutatakse selleks, et määratleda, kas komponent kehtib käivitamiseks. Kui kindlal kuupäeval kehtib mitu versiooni, kasutatakse aruandlusprotsessides uusimat versiooni.
+ER-i komponendi versioonid on kehtivuskuupäevaga. ER-i komponendile saab määratleda kuupäeva**Kehtiv alates,**et määrata kuupäev, millal see komponent aruandlusprotsessides jõustub. Dynamics 365 for Operationsi seansi kuupäeva kasutatakse selleks, et määratleda, kas komponent kehtib käivitamiseks. Kui kindlal kuupäeval kehtib mitu versiooni, kasutatakse aruandlusprotsessides uusimat versiooni.
 
 #### <a name="component-access"></a>Komponendi juurdepääs
 
@@ -112,7 +113,7 @@ Juurdepääs ER-i vormingu komponentidele sõltub ISO riigi/regiooni koodi seadi
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-ER-i konfiguratsioon on konkreetse ER-i komponendi ümbris: kas **Andmemudel **või **Vorming**. Konfiguratsioon võib sisaldada kindla ER-i komponendi erinevaid versioone. Iga konfiguratsiooni omanikuks on märgitud kindel konfigurasiooni pakkuja. Konfiguratsiooni komponendi versiooni **MUSTAND** saab redigeerida, kui konfiguratsiooni omanik on valitud Dynamics 365 for Operationsi ER-i sätetes aktiivseks teenusepakkujaks. Iga mudelikonfiguratsioon sisaldab komponenti **Andmemudel**. Uus vormingukonfiguratsioon võib pärineda (olla tuletatud) konkreetsest andmemudeli konfiguratsioonist. Loodud vormingukonfiguratsioon esitatakse konfiguratsioonipuul algse andmemudeli konfiguratsiooni allüksusena. Loodud vormingukonfiguratsioon sisaldab komponenti **Vorming**. Algse mudelikonfiguratsiooni komponent **Andmemudel** lisatakse vaike-andmeallikana automaatselt alamvormingu konfiguratsiooni komponenti **Vorming**. Dynamics 365 for Operationsi ettevõtted jagavad ER-i konfiguratsiooni.
+ER-i konfiguratsioon on konkreetse ER-i komponendi ümbris: kas **Andmemudel**või **Vorming**. Konfiguratsioon võib sisaldada kindla ER-i komponendi erinevaid versioone. Iga konfiguratsiooni omanikuks on märgitud kindel konfigurasiooni pakkuja. Konfiguratsiooni komponendi versiooni **MUSTAND** saab redigeerida, kui konfiguratsiooni omanik on valitud Dynamics 365 for Operationsi ER-i sätetes aktiivseks teenusepakkujaks. Iga mudelikonfiguratsioon sisaldab komponenti **Andmemudel**. Uus vormingukonfiguratsioon võib pärineda (olla tuletatud) konkreetsest andmemudeli konfiguratsioonist. Loodud vormingukonfiguratsioon esitatakse konfiguratsioonipuul algse andmemudeli konfiguratsiooni allüksusena. Loodud vormingukonfiguratsioon sisaldab komponenti **Vorming**. Algse mudelikonfiguratsiooni komponent **Andmemudel** lisatakse vaike-andmeallikana automaatselt alamvormingu konfiguratsiooni komponenti **Vorming**. Dynamics 365 for Operationsi ettevõtted jagavad ER-i konfiguratsiooni.
 
 #### <a name="provider"></a>Pakkuja
 
@@ -120,7 +121,7 @@ ER-i pakkuja on osapoole ID, mida kasutatakse iga ER-i konfiguratsiooni autori (
 
 #### <a name="repository"></a>Hoidla
 
-ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroonilise aruandluse hoidlate tüüpe: **operatsiooniressursid** ja **LCS-i projekt**. Hoidla** Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loendile, mis on väljastatud Microsofti kui ER-i konfiguratsioonipakkuja Dynamics 365 for Operationsi lahenduse osana. Need konfiguratsioonid saab praegusesse Dynamics 365 for Operationsi eksemplari importida ja elektroonilise aruandluse jaoks kasutada. Neid saab kasutada ka täiendavaks lokaliseerimiseks/kohandamiseks. Hoidla **LCS-i projekt **võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimise etapis. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist Dynamics 365 for Operationsi eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka konkreetsest hoidlast **LCS-i projekt** praegusesse Dynamics 365 for Operationsi eksemplari. Vajalikke hoidlaid **LCS-i projekt** saab registreerida eraldi iga praeguse Dynamics 365 for Operationsi eksemplari konfiguratsioonipakkuja kohta. Iga hoidla saab eraldada konkreetsele konfiguratsioonipakkujale.
+ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroonilise aruandluse hoidlate tüüpe: **operatsiooniressursid** ja **LCS-i projekt**. Hoidla** Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loendile, mis on väljastatud Microsofti kui ER-i konfiguratsioonipakkuja Dynamics 365 for Operationsi lahenduse osana. Need konfiguratsioonid saab praegusesse Dynamics 365 for Operationsi eksemplari importida ja elektroonilise aruandluse jaoks kasutada. Neid saab kasutada ka täiendavaks lokaliseerimiseks/kohandamiseks. Hoidla **LCS-i projekt**võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimise etapis. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist Dynamics 365 for Operationsi eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka konkreetsest hoidlast **LCS-i projekt** praegusesse Dynamics 365 for Operationsi eksemplari. Vajalikke hoidlaid **LCS-i projekt** saab registreerida eraldi iga praeguse Dynamics 365 for Operationsi eksemplari konfiguratsioonipakkuja kohta. Iga hoidla saab eraldada konkreetsele konfiguratsioonipakkujale.
 
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 ### <a name="building-a-data-model"></a>Andmemudeli loomine
@@ -154,7 +155,7 @@ Konkreetse elektroonilise dokumendi koostamiseks töölehevormingus OPENXML saab
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Koostatud vormingu komponendi talletamine vormingukonfiguratsioonis
 
-ER suudab talletada koostatud vormingu koos konfigureeritud andmete vastendamistega praeguse Dynamics 365 for Operationsi eksemplari vormingukonfiguratsioonina. Eelneval joonisel on sellist tüüpi vormingukonfiguratsiooni näide (**BACS (UK)**, mis on konfiguratsiooni **Maksemudel **alamkonfiguratsioon). Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise vormingu kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
+ER suudab talletada koostatud vormingu koos konfigureeritud andmete vastendamistega praeguse Dynamics 365 for Operationsi eksemplari vormingukonfiguratsioonina. Eelneval joonisel on sellist tüüpi vormingukonfiguratsiooni näide (**BACS (UK)**, mis on konfiguratsiooni **Maksemudel**alamkonfiguratsioon). Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise vormingu kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
 ### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Dynamics 365 for Operationsi konfigureerimine loodud vormingu ettevõttesiseseks kasutamiseks
 

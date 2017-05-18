@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 24caafcd01875f04cf3ae5299aadcf9b38ac0e15
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 38725d4d873a3b39eb3916c3f616826f8a266b60
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Lehe **Korrigeeritud nõudluse prognoos** ruudustikul on järgmine struktuur.
 ## <a name="forecast-aggregation-and-deaggregation"></a>Prognoosi koondamine ja jaotamine
 Lehe alapealkiri näitab prognoosi koondamise taset. 
 
-Näiteks, kui lehe alapealkiri on **Ettevõte / Koht / Eraldamisvõti / Kaubakood / Värv / Suurus / Konfiguratsioon / Stiil**, ei ole prognoosi koondatud ning seda kuvatakse kauba ja selle dimensioonide tasemel. Koondamise muutmiseks kasutage lehekülge** Prognoosi dimensioonide muutmine**, mille saate avada rakenduse menüüst. 
+Näiteks, kui lehe alapealkiri on **Ettevõte / Koht / Eraldamisvõti / Kaubakood / Värv / Suurus / Konfiguratsioon / Stiil**, ei ole prognoosi koondatud ning seda kuvatakse kauba ja selle dimensioonide tasemel. Koondamise muutmiseks kasutage lehekülge**Prognoosi dimensioonide muutmine**, mille saate avada rakenduse menüüst. 
 
 Prognoosi muutmiseks klõpsake mistahes saadaoleval lahtril ja sisestage sinna korrigeeritud prognoosi väärtus. Redigeeritud lahtri sisu pannakse paksu kirja, et näidata, et selles kuvatav prognoos ei ole nõudluse prognoosimise teenuse loodud prognoos, vaid seda on käsitsi korrigeeritud. 
 
@@ -58,7 +59,7 @@ Kui prognoositud kogust on korrigeeritud koondamise tasemel, kasutab süsteem ka
 Leheküljel **Nõudluse prognoosi read** saate ka käsitsi korrigeerimisi teha, muutes kas väärtust **Üldkogus** või jaotamise ruudustiku lahtreid **Kogus**.
 
 ## <a name="viewing-details-of-the-forecast"></a>Prognoosi üksikasjade vaatamine
-Prognoosi kohta lisateabe saamiseks avage lehekülg** Nõudluse prognoosi üksikasjad**. 
+Prognoosi kohta lisateabe saamiseks avage lehekülg**Nõudluse prognoosi üksikasjad**. 
 
 Lehel **Nõudluse prognoosi üksikasjad** kuvatakse graafilises vormingus ja tabelina järgmist teavet:
 

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 68cac68e1ea3db35b44c91f2c1901abf2aa521be
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b79b21c6c4ceebfd24225643d099a2e2789d303
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Tootmisgraafikute arvutamisviise määravad mitmed sätted. Saate need sätted m
 
 Planeerimisprotsessis on planeerimissuund põhiline. Tootmise saab plaanida mis tahes kuupäevast edasi või tagasi, olenevalt ajastamise ja plaanimise nõuetest.
 
--   **Edasisuunas plaanimine **– saate plaanida tootmise alustamise võimalikult vara. Tootmist võib alustada täna, homme või mis tahes kindlal kuupäeval tulevikus. Tootmise algus planeeritakse võimalikult varasele kuupäevale ja planeeritakse sealt edasi võimalikult varase lõppkuupäevaga.
+-   **Edasisuunas plaanimine**– saate plaanida tootmise alustamise võimalikult vara. Tootmist võib alustada täna, homme või mis tahes kindlal kuupäeval tulevikus. Tootmise algus planeeritakse võimalikult varasele kuupäevale ja planeeritakse sealt edasi võimalikult varase lõppkuupäevaga.
 -   **Tagasisuunas plaanimine** – saate plaanida tootmise alustamise võimalikult hilja. Graafik põhineb kuupäeval, milleks tootmine peab olema lõpule viidud, ja arvutatakse tagasi hiliseima võimaliku kuupäevani, millal tootmist tuleks alustada, et see ei ületaks lõpptähtaega.
 
 Valikud on järgmised:
@@ -98,7 +99,7 @@ Kui viited sõltuvad tootmistellimustest, nimetatakse neid ka alamtootmisteks. A
 
 ### <a name="synchronize-references"></a>Sünkrooni viited
 
-Saate sünkroonida viited tootmistellimusega. Kui see suvand on valitud, nihutatakse alamtootmiste kuupäevi ja joondatakse, kui tootmistellimuse graafikus tehakse muudatusi. Kui tootmistellimusel on üks või mitu alamtootmist, saate soovi korral plaanida alamtootmised koos põhitootmisega. Sellisel juhul ei saa põhitootmist käivitada enne, kui seotud alamtootmised on lõpule viidud. Seetõttu märkige see ruut, kui alamtootmiste plaanimine peaks põhinema valitud tootmise algus- ja lõppajal. Saate märkida selle ruudu vaid juhul, kui märgitud on ka ruut** Graafiku viited**.
+Saate sünkroonida viited tootmistellimusega. Kui see suvand on valitud, nihutatakse alamtootmiste kuupäevi ja joondatakse, kui tootmistellimuse graafikus tehakse muudatusi. Kui tootmistellimusel on üks või mitu alamtootmist, saate soovi korral plaanida alamtootmised koos põhitootmisega. Sellisel juhul ei saa põhitootmist käivitada enne, kui seotud alamtootmised on lõpule viidud. Seetõttu märkige see ruut, kui alamtootmiste plaanimine peaks põhinema valitud tootmise algus- ja lõppajal. Saate märkida selle ruudu vaid juhul, kui märgitud on ka ruut**Graafiku viited**.
 
 ## <a name="cancellation"></a>Tühistamine
 ### <a name="cancel-queue-time"></a>Tühista ooteaeg

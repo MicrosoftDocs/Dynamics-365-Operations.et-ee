@@ -3,7 +3,7 @@ title: "Kanban-töö plaanimine lean manufacturingi jaoks"
 description: "Selles artiklis antakse teavet visuaalse kontrolli kohta kanban-tööde ajastamisel ja kanban-tööde ajastamise erinevate viiside kohta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban-töö plaanimine lean manufacturingi jaoks
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet visuaalse kontrolli kohta kanban-tööde ajastamisel ja kanban-tööde ajastamise erinevate viiside kohta.  
 
 Leht **Kanban-töö planeerimine** pakub visuaalset kontrolli lean manufacturingi töörakkude graafikute üle. See annab ülevaate kõikidest kanban-töödest ja pakub mitmeid filtreerimisvõimalusi. Sellelt lehelt saate liikuda kõikidele muudele lehtedele, mis on seotud kanbani konfiguratsiooni ja käivitamisega.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Kanban-tööde automaatne planeerimine
-Plaanimise saab käivitada automaatselt, kui määrate kanban-reeglile parameetri **Automaatse plaanimise kogus**. Kui määrate parameetri **Automaatse plaanimise kogus** väärtuseks **1**, plaanitakse iga kanban-töö kohe selle loomisel. Tulemuseks on tõmbasmiste järjekorras täidetud operatsioonide seeria. Kui määrate parameetrile **Automaatse plaanimise kogus** väärtuse, mis on suurem kui 1, rühmitatakse kanban-tööd enne plaanimist. See idee võimaldab kanbani suurusi vähendada allapoole tegelikke majanduslikke partiisuurusi. Näiteks on kindla kauba (või kaubapere) tasuv partii suurus 30. Näiteks on kindla kauba (või kaubapere) tasuv partii suurus 30. Selle asemel, et luua kanbane, mis kasutavad toote kogust, 30, saate konfigureerida kanban-reegli, mille toote kogus on 10 ja parameetri **Automaatse plaanimise kogus **väärtus on **3**. Ehkki automaatne plaanimine ajastab kanban-tööd tööraku jaoks ainult siis, kui olemas on kolm plaanimata tööd, on plaanijale ja tööde järelevaatajale täiesti nähtav, et kaks plaanimata tööd võivad täitmist oodata. Plaanija või tööde juhataja saab siis viia need kaks tööd tootmisse, plaanides need käsitsi või luues täiendavaid kanbane.
+Plaanimise saab käivitada automaatselt, kui määrate kanban-reeglile parameetri **Automaatse plaanimise kogus**. Kui määrate parameetri **Automaatse plaanimise kogus** väärtuseks **1**, plaanitakse iga kanban-töö kohe selle loomisel. Tulemuseks on tõmbasmiste järjekorras täidetud operatsioonide seeria. Kui määrate parameetrile **Automaatse plaanimise kogus** väärtuse, mis on suurem kui 1, rühmitatakse kanban-tööd enne plaanimist. 
+
+See idee võimaldab kanbani suurusi vähendada allapoole tegelikke majanduslikke partiisuurusi. Näiteks on kindla kauba (või kaubapere) tasuv partii suurus 30. Selle asemel et luua kanbane, mis kasutavad toote kogust (30), saate konfigureerida kanban-reegli, mille toote kogus on 10 ja parameetri **Automaatse plaanimise kogus** väärtus on **3**. Ehkki automaatne plaanimine ajastab kanban-tööd tööraku jaoks ainult siis, kui olemas on kolm plaanimata tööd, on plaanijale ja tööde järelevaatajale täiesti nähtav, et kaks plaanimata tööd võivad täitmist oodata. Plaanija või tööde juhataja saab siis viia need kaks tööd tootmisse, plaanides need käsitsi või luues täiendavaid kanbane.
 
 ## <a name="manual-scheduling"></a>Käsitsi plaanimine
 Käsitsi plaanimiseks võttis Microsoft Dynamics AX 2012 kasutusele kanbani plaanimise tahvli. Käsitsi plaanimise saab ühendada automaatse plaanimisega. Kanbani plaanimistahvel võimaldab teil töid plaanida ja plaanidest eemaldada, järjestada neid või teisaldada neid perioodist perioodi. Kanban-reeglil põhinevaid töid, mille puhul parameetri **Automaatne plaanimine** väärtus on suurem kui **0**, saab käsitsi plaanidest eemaldada. Kuid neid töid plaanitakse uuesti, kui ilmneb järgmine automaatne plaanimine (st kui luuakse uus kanban). Käsitsi plaanimiseks on saadaval järgmised suvandid.
@@ -66,5 +72,7 @@ Loendileht **Kanban-töö plaanimine** sisaldab kiirinfot, mis näitab valitud t
 
 <a name="see-also"></a>Vt ka
 --------
+
+
 
 

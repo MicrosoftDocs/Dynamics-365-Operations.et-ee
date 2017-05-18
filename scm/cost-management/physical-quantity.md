@@ -3,7 +3,7 @@ title: "Varuobjekti väärtused"
 description: "Selles artiklis antakse teavet lao objekti väärtuste arvutamise kohta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 09 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 7a0a2af2094e3e5be757d3dd82255769677b96ea
-ms.openlocfilehash: 8898d5d91ffb4f73ea68f1251e1a99440e81bcd4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d177903e3c79226e90a1f2eb3d55e3c670446a44
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="inventory-object-values"></a>Varuobjekti väärtused
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis antakse teavet lao objekti väärtuste arvutamise kohta. 
 
-Uus funktsioon nimega **füüsiline kogus **võimaldab näha konkreetse varuobjekti väärtusi. Kuluobjekt tähistab üksuse taset, kus laoarvestus toimub. Lisateavet kuluobjektide kohta leiate jaotisest [Kuluobjektid](cost-object.md). Konkreetse varuobjekti väärtuste vaatamiseks klõpsake lehel **Kuluobjekt** valikut **Füüsiline kogus**. Varuobjekti väärtus arvutatakse nii: varuobjekti väärtus = kuluobjekti keskmine ühiku maksumus × varuobjekti kogus. Järgmine näide illustreerib, kuidas varuobjekti ja kuluobjekti väärtused arvutatakse. Kaubale A registreeritakse kaks toote sissetuleku sündmust:
+Uus funktsioon nimega **füüsiline kogus**võimaldab näha konkreetse varuobjekti väärtusi. 
+
+Kuluobjekt tähistab üksuse taset, kus laoarvestus toimub. Lisateavet kuluobjektide kohta leiate jaotisest [Kuluobjektid](cost-object.md). 
+
+Konkreetse varuobjekti väärtuste vaatamiseks klõpsake lehel **Kuluobjekt** valikut **Füüsiline kogus**. Varude objekti väärtus arvutatakse järgmiselt. 
+
+Varude objekt.Väärtus = Kuluobjekt.Keskmine ühikukulu × Varude objekt.Kogus 
+
+Järgmises näites kirjeldatakse varude objekti ja kuluobjekti väärtuste arvutamist. Kaubale A registreeritakse kaks toote sissetuleku sündmust:
 
 -   Toote sissetulek 1: kogus = 100 tk, summa = 1000.00 $, koht = 1, ladu = 11, partii nr = B1
 -   Toote sissetulek 2: kogus = 50 tk, summa = 800.00 $, koht = 1, ladu = 11, partii nr = B2
@@ -135,5 +147,7 @@ Järgmises tabelis on varuobjekti arvutuse tulemus. Tulemust saab vaadata, klõp
 [Kulukirjed](cost-entries.md)
 
 [Mida on Microsoft Dynamics AX-is uut ja mis on muutunud?](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+
+
 
 

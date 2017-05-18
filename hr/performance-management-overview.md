@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 4bd934091c80ab9a4d244499d2bce2c4646c3e99
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 769680aff8c018bc042ffce98ee50a9760a65fcf
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -126,7 +127,7 @@ Töövõtja ja/või juhataja esitatakse ülevaates teie määratud ülevaate par
 Saate kasutada töötaja ülevaate töövoogu ülevaate kinnitamise kontrollimiseks. Samuti saate soovi korral automatiseeritud töövoo vahele jätta ja muuta ülevaate olekut käsitsi, mis võimaldab teile luua lihtsamaid dokumente, nagu üks-ühele koosolekud ilma töövoo protsessi kasutamata. Juurdepääsu ülevaatele kontrollitakse ülevaate olekuga.
 
 1.  Aruande loomisel määratakse selle olekuks **Alustamata**. Aruannet saavad kõik redigeerida.
-2.  Kui töövõtja vajutab nuppu **Alusta ülevaatust**, määratakse ülevaate olekuks** Pooleli**. Seejärel hakkab töövõtja sisu lisama. Selles punktis ei saa juhataja ülevaatedokumenti enam vaadata.
+2.  Kui töövõtja vajutab nuppu **Alusta ülevaatust**, määratakse ülevaate olekuks**Pooleli**. Seejärel hakkab töövõtja sisu lisama. Selles punktis ei saa juhataja ülevaatedokumenti enam vaadata.
 3.  Töövõtja muudab olekuks **Ülevaatamiseks valmis**.
 4.  Juhataja saab lisada kommentaare ja hinnanguid. Selles punktis näeb ülevaadet ainult juhataja.
 5.  Juhataja muudab olekuks **Lõplik ülevaatus**, nii et nii juhataja kui ka töövõtja saavad ülevaadet vaadata ja selle üle arutleda. Saate parameetrites määrata, kas ülevaadet saab selles punktis redigeerida. See etapp on valikuline ka siis, kui juhataja soovib lihtsalt ülevaadet töövõtjaga jagada ja märkida selle olekuks **Lõpetatud**, kui nad on lõpetanud.

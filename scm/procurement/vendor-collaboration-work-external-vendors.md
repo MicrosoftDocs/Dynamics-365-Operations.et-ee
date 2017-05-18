@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,8 +58,8 @@ Rakenduses Dynamics 365 for Operations konfigureerib administraator üldised han
 
 Enne kui välise hankija jaoks saab kasutajakontosid luua, peate konfigureerima hankijakonto, et lubada neil hankija koostööd kasutada. Selleks määrake väli **Koostöö aktiveerimine** aktiivseks vahekaardil **Üldine** lehel **Hankijad**. On kaks valikut, mida saate teha:
 
--   **Aktiivne (ostutellimus kinnitatakse automaatselt) **– ostutellimused kinnitatakse automaatselt, kui hankija aktsepteerib need ilma muudatusteta.
--   **Aktiivne (ostutellimust ei kinnitata automaatselt) **– teie organisatsioon peab ostutellimused käsitsi kinnitama pärast seda, kui hankija on neid aktsepteerinud.
+-   **Aktiivne (ostutellimus kinnitatakse automaatselt)**– ostutellimused kinnitatakse automaatselt, kui hankija aktsepteerib need ilma muudatusteta.
+-   **Aktiivne (ostutellimust ei kinnitata automaatselt)**– teie organisatsioon peab ostutellimused käsitsi kinnitama pärast seda, kui hankija on neid aktsepteerinud.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Otsustage, kas soovite, et hankija näeks hinna teavet.
 
@@ -142,7 +143,7 @@ Järgmises tabelis on näide oleku ja versiooni muudatuste kohta, mida ostutelli
 | Hankija saadab vastuse **Aktsepteeritud koos muudatustega**                  | Olek on ikka **Välisel ülevaatamisel**.                                                                                                                  |
 | Teete mõningaid hankija soovitud muudatusi.                  | Olekuks saab **Kinnitatud**.                                                                                                                        |
 | Saadate ostutellimuse uue versiooni hankijale.                        | Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.                                      |
-| Hankija aktsepteerib ostutellimuse uue versiooni.                            | Olek on endiselt **Välisel ülevaatamisel **, välja arvatud juhul, kui hankija konto konfigureeritakse ostutellimust automaatselt olekusse **Kinnitatud** määrama, kui nad selle aktsepteerivad. |
+| Hankija aktsepteerib ostutellimuse uue versiooni.                            | Olek on endiselt **Välisel ülevaatamisel**, välja arvatud juhul, kui hankija konto konfigureeritakse ostutellimust automaatselt olekusse **Kinnitatud** määrama, kui nad selle aktsepteerivad. |
 
 Hankijad ei pea ostutellimust kinnitama, kasutades hankija koostöö liidest. Nad võivad saata ka meilisõnumi või teatama ostutellimuse vastuvõtmisest muude kanalite kaudu. Seejärel saate tellimuse kinnitada käsitsi rakenduses Dynamics 365 for Operations. Kui teete seda, saate hoiatuse, et tellimus kinnitatakse vaatamata sellele, et hankijalt ei ole mingit vastust. Seejärel kuvatakse ostutellimus kinnitusajaloos avatud kinnitatud tellimusena, millel puuduvad vastused. Hankijal ei ole enam võimalust ostutellimust kinnitada või tagasi lükata.  
 

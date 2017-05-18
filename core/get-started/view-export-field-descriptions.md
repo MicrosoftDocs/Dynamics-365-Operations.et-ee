@@ -3,7 +3,7 @@ title: "Väljade kirjelduste vaatamine ja eksportimine"
 description: "Selles artiklis kirjeldatakse, kuidas vaadata väljade kirjeldusi ja kuidas kasutada väljade kirjelduste lehte kirjelduste eksportimiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: d4fc9cdee0e2160e363f9defcf6bdbc57ed4db74
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3029cb441d124e6e5aa427f7fcd95540700254c6
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Väljade kirjelduste vaatamine ja eksportimine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse, kuidas vaadata väljade kirjeldusi ja kuidas kasutada väljade kirjelduste lehte kirjelduste eksportimiseks.
 
@@ -80,11 +84,11 @@ Selles jaotises on teave, mis on abiks veaotsingul probleemide osas, millega võ
 
 ### <a name="i-cant-find-a-field-description"></a>Ma ei leia välja kirjeldust
 
-Praegu on käimas kirjelduste lisamise toiming keerulisematele väljadele. Kui vajate konkreetse välja puhul abi, andke meile sellest teada, lisades sellele viki artiklile kommentaari.
+Praegu on käimas kirjelduste lisamise toiming keerulisematele väljadele. Kui vajate konkreetse välja puhul abi, andke meile sellest teada, lisades sellele teemale kommentaari.
 
 ### <a name="the-field-description-isnt-helpful"></a>Välja kirjeldusest ei ole abi
 
-Andke meile sellest teada, lisades sellele viki artiklile kommentaari. Võimaluse korral kirjeldage lisateavet, mida vajate.
+Andke meile sellest teada, lisades sellele teemale kommentaari. Võimaluse korral kirjeldage lisateavet, mida vajate.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Ma ei leia lehelt Väljade kirjeldused välja.
 
@@ -97,6 +101,9 @@ Teavet mitmesuguste võimaluste kohta lehtede otsimiseks leiate selle artikli va
 <a name="see-also"></a>Vt ka
 --------
 
-[Väljaspikri kohandamine](https:/docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/user-interface/customize-field-help.md)
+[Väljaspikri kohandamine](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

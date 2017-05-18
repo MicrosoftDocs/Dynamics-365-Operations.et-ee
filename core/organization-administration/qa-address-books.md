@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 444ffcc8a14650085e24d0ea0d7f725e9d324d69
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f3d34f9ee0c9db97e79b8577d006b198f9a5cb29
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,8 +42,8 @@ Saate kontrollida topeltkirjeid otse loendilehelt **Globaalne aadressiraamat**. 
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>Kas osapoolte kirjeid saab aadressiraamatusse hulgi lisada või sealt kustutada?
 Jah, saate lisada aadressiraamatusse mitu osapoolekirjet ja ka mitu osapoole kirjet eemaldada.
 
--   Mitme osapoole kirje lisamiseks aadressiraamatusse valige loendilehelt **Globaalne aadressiraamat **loendis olevad osapooled. Seejärel klõpsake tegumiribal vahekaardi **Osapool** grupis **Halda **valikut **Osapoolte määramine**. Valige aadressiraamatud, kuhu valitud osapoole kirjed lisada, ja seejärel klõpsake nuppu **OK**. Kõik valitud osapoole kirjed lisatakse valitud aadressiraamatutesse.
--   Mitme osapoole kirje eemaldamiseks aadressiraamatust valige loendilehelt **Globaalne aadressiraamat **loendis olevad osapooled. Seejärel klõpsake tegumiribal vahekaardi **Osapool **grupis **Halda **valikut **Osapoolte eemaldamine**. Valige aadressiraamatud, millest osapooled eemaldada, ja klõpsake siis nuppu **OK**. Kõik valitud osapoole kirjed eemaldatakse valitud aadressiraamatutest.
+-   Mitme osapoole kirje lisamiseks aadressiraamatusse valige loendilehelt **Globaalne aadressiraamat**loendis olevad osapooled. Seejärel klõpsake tegumiribal vahekaardi **Osapool** grupis **Halda**valikut **Osapoolte määramine**. Valige aadressiraamatud, kuhu valitud osapoole kirjed lisada, ja seejärel klõpsake nuppu **OK**. Kõik valitud osapoole kirjed lisatakse valitud aadressiraamatutesse.
+-   Mitme osapoole kirje eemaldamiseks aadressiraamatust valige loendilehelt **Globaalne aadressiraamat**loendis olevad osapooled. Seejärel klõpsake tegumiribal vahekaardi **Osapool**grupis **Halda**valikut **Osapoolte eemaldamine**. Valige aadressiraamatud, millest osapooled eemaldada, ja klõpsake siis nuppu **OK**. Kõik valitud osapoole kirjed eemaldatakse valitud aadressiraamatutest.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Kas saan kirje osapoole tüüpi muuta või pean vana kirje kustutama ja uue looma?
 Aeg-ajalt võib olla vaja kirje osapoole tüüpi muuta (isikust organisatsiooniks või organisatsioonist isikuks). Näiteks Nancy kuulub ettevõtte Fabrikam U.K. müügi töörühma. Londonis kohtab ta ärimessil kuut uut potentsiaalset klienti. Nancy loob igale potentsiaalsele kliendile potentsiaalse kliendi osapoole kirje. Kui Nancy kirjed salvestab, luuakse iga kirje ka globaalses aadressiraamatus. Fabrikam on määratud osapoole vaiketüübiks organisatsiooni, kuid kahe uue potentsiaalse kliendi kirje tüüp peaks olema isik. Seetõttu, kui Nancy ärimessilt naaseb, peab ta kahe potentsiaalse kliendi osapoole tüüpi muutma. Osapoole kirje osapoole tüübi muutmiseks tuleb esmalt luua globaalses aadressiraamatus uus õige tüübiga osapoole kirje. Seejärel saab vana osapoole kirje selle uue kirjega seostada. Pärast uue osapoolega seostamist kustutage algne osapoole kirje, millel on vale kirje tüüp.

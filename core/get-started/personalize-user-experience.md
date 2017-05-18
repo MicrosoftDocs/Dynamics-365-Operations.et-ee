@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Igat tüüpi isikupärastamised, mille kasutaja rakenduses Dynamics 365 for Oper
 ## <a name="systemwide-options-for-the-current-user"></a>Süsteemiülesed suvandid praegusele kasutajale
 Navigeerimisribal leiate hammasrattapildi, mida nimetatakse menüünupuks **Sätted**. Menüü **Sätted** avamisel kuvatakse mitu valikut. Suvandi **Sätted** valimine avab kasutaja lehe **Suvandid**. Sealt leiate neli suvandite vahekaarti: **Visuaalne**, **Eelistused**, **Konto** ja **Töövoog**.
 
--   **Visuaalne: **kasutage värvikujunduse ja lehtede elementide vaikesuuruste valimiseks.
+-   **Visuaalne:**kasutage värvikujunduse ja lehtede elementide vaikesuuruste valimiseks.
 -   **Eelistused:** siin saate valida vaikeväärtused iga kord, kui avate rakenduse Dynamics 365 for Operations, sh ettevõtte, esialgse lehe ja vaikevaate/redigeerimisrežiimi (mis määrab igal avamisel, kas leht on vaatamiseks lukus või redigeerimiseks avatud). Samuti leiate keele, ajavööndi ja kuupäeva, kellaaja ning numbrivormingute suvandid. Lisaks sisaldab see leht mitmesuguseid eelistusi, mis erinevat väljaanneti.
--   **Konto: **kasutage oma kasutaja ID ja muude kontoga seotud suvandite jaoks.
--   **Töövoog: **siin saate valida töövooga seotud suvandeid.
+-   **Konto:**kasutage oma kasutaja ID ja muude kontoga seotud suvandite jaoks.
+-   **Töövoog:**siin saate valida töövooga seotud suvandeid.
 
 ## <a name="implicit-personalizations"></a>Varjatud isikupärastamised
 Varjatud isikupärastamised on need isikupärastamised, mida teete, suheldes teatud juhtnuppudega, mis jätavad oma praeguse nähtava oleku meelde. 
@@ -106,7 +107,7 @@ Mõned tööruumid sisaldavad arvpaane (paane, millel on numbrid), mida tahaksit
 Armatuurlaud on tihti esimene leht, mida näete Dynamics 365 for Operationsi avamisel. Saate armatuurlauda isikupärastada nimetama ümber tööruumi navigeerimispaane, näitama ainult paane, mida näha soovite, paane pmber nimetama või korraldama paane eelistatud järjekorda. Armatuurlaya isikupärastamiseks valige mis tahes paan ja paremklõpsake kontekstimenüü avamiseks. Valige kontekstimenüüs suvand **Isikupärasta**. Kui valitud paan on see, mida soovite peita või ümbe nimetada või vahele jätta, saate teha selle muudatuse otse kuvatavas aknas Atribuut. Kui soovite paane ümber korraldada, siis valige aknas Atribuut suvand **Vormi isikupärastamine**, et avada tööriistariba Isikupärastamine. Seejärel saate kasutada paanide ümberkorraldamiseks tööriista Teisalda.
 
 ## <a name="administration-of-personalization"></a>Isikupärastamise haldamine
-On võimalik isikupärastada leht ja ühiskasutada seda teiste kasutajatega, eksportides lihtsalt isikupärastatud leht ja paludes teistel kasutajatel isikupärastatud lehele navigeerida ja importida loodud isikupärastatud fail. Kui kasutajal on administraatori privileegid, saab ta hallata ka teiste kasutajate isikupärastamisi lehel **Isikupärastamise seadistus**. Navigeerige lehele b. Lehel **Isikupärastamine** leiate kaks vahekaarti, üks on tähistatud sildiga **Süsteem** ja teine sildiga** Kasutajad**. 
+On võimalik isikupärastada leht ja ühiskasutada seda teiste kasutajatega, eksportides lihtsalt isikupärastatud leht ja paludes teistel kasutajatel isikupärastatud lehele navigeerida ja importida loodud isikupärastatud fail. Kui kasutajal on administraatori privileegid, saab ta hallata ka teiste kasutajate isikupärastamisi lehel **Isikupärastamise seadistus**. Navigeerige lehele b. Lehel **Isikupärastamine** leiate kaks vahekaarti, üks on tähistatud sildiga **Süsteem** ja teine sildiga**Kasutajad**. 
 
 **Süsteem:** siin saate ajutiselt keelata või välja lülitada kõik süsteemi isikupärastamised. See ei kustuta isikupärastamisi, vaid lähtestab kõik vormid nende vaikeolekusse. Hiljem saate isikupärastamise uuesti lubada, et kõik isikupärastamised igale kasutajate vormile uuesti rakendada. Samuti saate kustutada kõikide kasutajate kõik isikupärastamised. Arvestage sellega, et kui kustutate isikupärastamisi, siis puudub võimalus isikupärastamiste automaatseks uuesti lubamiseks süsteemist. Veendute, et olete eksportinud isikupärastamised, mida soovite võib-olla hiljem importida, enne kui selle toimingu teete. 
 

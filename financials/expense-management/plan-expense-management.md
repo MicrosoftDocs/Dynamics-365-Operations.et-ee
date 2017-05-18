@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ Kuluhaldus on tihedalt seotud organisatsiooni finantshaldusega. Suur osa kuluhal
 
 ### <a name="per-diems"></a>Päevarahad
 
-Peate määratlema töötajate päevarahad, mida teie organisatsioon maksab. Kuna päevarahasid kasutatakse tavaliselt selliste kulude katmiseks nagu toitlustus, majutus ja muud ettenägematud kulud, saate koostada ettevõtte makstavate päevarahade reeglid. Päevaraha määrade aluseks võib olla aastaaeg, reisisiht või mõlemad. Päevaraha reegli määratlemisel saate valida päevaraha määrast mingi protsendi kinnipidamise, kui töötaja saab tasuta eineid või teenuseid. Saate määratleda ka päevaraha määrade järgud, määrates minimaalse ja maksimaalse tundide arvu, millele päevaraha määr töötaja reisi ajal rakendatakse. **Otsused. **
+Peate määratlema töötajate päevarahad, mida teie organisatsioon maksab. Kuna päevarahasid kasutatakse tavaliselt selliste kulude katmiseks nagu toitlustus, majutus ja muud ettenägematud kulud, saate koostada ettevõtte makstavate päevarahade reeglid. Päevaraha määrade aluseks võib olla aastaaeg, reisisiht või mõlemad. Päevaraha reegli määratlemisel saate valida päevaraha määrast mingi protsendi kinnipidamise, kui töötaja saab tasuta eineid või teenuseid. Saate määratleda ka päevaraha määrade järgud, määrates minimaalse ja maksimaalse tundide arvu, millele päevaraha määr töötaja reisi ajal rakendatakse. **Otsused.**
 
 -   Esimese ja viimase päeva vaikepäevaraha reeglid:
     -   Milline on minimaalne tundide arv, mida töötaja saab ühes päevas taotleda ja siiski päevaraha saada?
@@ -124,10 +125,10 @@ Kuludega seotud maksude puhul tuleb määratleda, mis kuluaruannetes sisaldub v�
 -   Kas kulusummades sisaldub käibemaks?
 -   Kas kulude puhul tuleks maksu korvamine lubada?
 
-Arvestage, et kui otsustasite pearaamatu plaanimise ajal rakendada USA käibemaksu ja kasutada maksureegleid, määrates välja ** Rakenda käibemaksu maksustamisreeglid** olekuks Jah, ei saa kuludelt maksu korvamist lubada.
+Arvestage, et kui otsustasite pearaamatu plaanimise ajal rakendada USA käibemaksu ja kasutada maksureegleid, määrates välja **Rakenda käibemaksu maksustamisreeglid** olekuks Jah, ei saa kuludelt maksu korvamist lubada.
 
 ## <a name="policies"></a>Poliitikad
-Saate luua kuluaruande poliitikaid, et teie organisatsioon saaks säästa aega ja raha, kui töötajatel organisatsiooni nimel tegutsedes kulud tekivad. Poliitikate abil saab tagada, et töötajad püsivad eelarves, esitavad kõik vajaliku teabe ja kulutavad raha ainult vajalikul viisil. Iga loodava kuluaruande poliitika ja iga kuluaruande kinnitamispoliitika puhul tuleb teha järgmised otsused. **Otsused. **
+Saate luua kuluaruande poliitikaid, et teie organisatsioon saaks säästa aega ja raha, kui töötajatel organisatsiooni nimel tegutsedes kulud tekivad. Poliitikate abil saab tagada, et töötajad püsivad eelarves, esitavad kõik vajaliku teabe ja kulutavad raha ainult vajalikul viisil. Iga loodava kuluaruande poliitika ja iga kuluaruande kinnitamispoliitika puhul tuleb teha järgmised otsused. **Otsused.**
 
 -   Mis on poliitika nimi?
 -   Mille jaoks kulupoliitika mõeldud on?

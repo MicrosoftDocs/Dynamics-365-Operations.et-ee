@@ -3,7 +3,7 @@ title: Keskmine jooksev omahind
 description: "Süsteemi lao sulgemise protsess tasakaalustab väljaminekukanded sissetulekukannetega varude hinnamääramise meetodi alusel, mis on valitud kauba mudeligrupis. Ent enne lao sulgemise käitamist arvutab süsteem jooksva keskmise omahinna, mida tavaliselt kasutatakse väljaminekukannete sisestamisel."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-07 15 - 11 - 47
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,19 +18,25 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 685dfaa877699db3c36cc1ea77d956461f8e68ec
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 53690038068d7a2cae43585fd2eb896d662ee3e4
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="running-average-cost-price"></a>Keskmine jooksev omahind
 
+[!include[banner](../includes/banner.md)]
+
+
 Süsteemi lao sulgemise protsess tasakaalustab väljaminekukanded sissetulekukannetega varude hinnamääramise meetodi alusel, mis on valitud kauba mudeligrupis. Ent enne lao sulgemise käitamist arvutab süsteem jooksva keskmise omahinna, mida tavaliselt kasutatakse väljaminekukannete sisestamisel.
 
-Süsteem arvestab seda kauba jooksvat omahinda, kasutades järgmist valemit: eeldatav hind = (füüsiline summa + rahaline summa) ÷ (füüsiline kogus + rahaline kogus)
+Süsteem hindab seda kauba keskmist jooksevomahinda, kasutades järgmist valemit. 
+
+Eeldatav hind = (füüsiline summa + rahaline summa) ÷ (füüsiline kogus + rahaline kogus)
 
 ## <a name="using-the-running-average-cost-price"></a>Jooksva keskmise omahinna kasutamine
 Järgnev tabel näitab, millal süsteem sisestab laokanded, kasutades jooksvat keskmist omahinda, ja millal see kasutab hoopis kauba põhikirjes määratud omahinda.
@@ -41,7 +47,9 @@ Järgnev tabel näitab, millal süsteem sisestab laokanded, kasutades jooksvat k
 | Lugeja\*, nimetaja\*\* või mõlemad on negatiivsed. | Ei                                                       | Jah                                                               |
 | Nimetaja\*\* on 0 (null).                        | Ei                                                       | Jah                                                               |
 
-\* Lugeja = (füüsiline summa + rahaline summa) \*\* Nimetaja = (füüsiline kogus + rahaline kogus) **Märkus.** Kui valikut **Kaasa füüsiline väärtus** pole kauba puhul tehtud, kasutab süsteem 0 (nulli) nii füüsilise summa kui ka füüsilise koguse puhul. Lisateavet selle valiku kohta leiate jaotisest [Füüsilise väärtuse kaasamine](include-physical-value.md).
+\* Lugeja = (füüsiline summa + rahaline summa) \*\* Nimetaja = (füüsiline kogus + rahaline kogus) 
+
+**Märkus.** Kui valik **Kaasa füüsiline väärtus** pole kauba jaoks valitud, kasutab süsteem väärtust 0 (null) nii füüsilise summa kui ka füüsilise koguse puhul. Lisateavet selle valiku kohta leiate jaotisest [Füüsilise väärtuse kaasamine](include-physical-value.md).
 
 ## <a name="avoiding-pricing-amplification"></a>Hinnakujunduse amplifikatsiooni vältimine
 Harvadel juhtudel kujundab süsteem mitme väljamineku hinna, enne kui hinna aluseks on piisavalt sissetulekuid. See stsenaarium võib põhjustada ülemäära paisutatud jooksva keskmise omahinna hinnangud. Kuid on olemas võimalusi, kuidas hinna amplifikatsiooni vältida või selle ilmnemisel selle mõju vähendada. **Stsenaarium** Kauba puhul, millele olete teinud valiku **Kaasa füüsiline väärtus**, toimuvad järgmised kanded.
@@ -50,7 +58,11 @@ Harvadel juhtudel kujundab süsteem mitme väljamineku hinna, enne kui hinna alu
 2.  Väljastate rahaliselt koguse 200.
 3.  Saate füüsiliselt koguse 101 hinnaga USD 202.00.
 
-Kui uurite kauba eeldatavat jooksvat keskmist omahinda, eeldate omahinda USD 1.51. Selle asemel leiate hinnangulise jooksva keskmise USD 102.00, mis põhineb järgmisel valemil: hinnanguline hind = \[202 + (–100)]\] ÷ \[101 + (–100)\] = 102 ÷ 1 = 102 See hinnavõimendus toimub, kuna 200 üksuse väljastamisel rahaliselt sammus 2 peab süsteem määrama hinna 100 üksusele enne, kui on olemas vastavaid sissetulekuid. Selline olukord põhjustab negatiivse laovaru. Süsteem prognoosib siis ühiku hinnaks USD 1.00, nagu võib eeldada. Kuid kui vastavad 100 sissetulekut saabuvad, on nende iga ühiku hind USD 2.00. **Märkus:** kuigi väljaminekud tekitavad negatiivse laovaru, on väljastamise hinna arvutamisel laovaru positiivne. Seetõttu kasutataksegi kauba põhikirje hinna asemel jooksvat keskmist omahinda. Selles punktis on süsteemil laoväärtuse tasakaalustus USD 100.00. Kuigi see tasakaalustus kogunes 100 ühikult, kui iga ühiku tasakaalustus oli USD 1.00, on meil nüüd laos üks ühik. Seega eraldatakse tasakaalustus USD 100.00 sellele ühele ühikule. Tulemuseks on liigselt paisutatud eeldatav omahind. **Märkus:** võrdluseks pange tähele, et kui sammud 2 ja 3 ülaltoodud näites tagasi võtta, antakse välja 200 üksust ühikuhinnaga USD 1.51 ja üks tooteühik jääb ühiku hinnaga USD 1.51. Kuna selline hinnakujunduse amplifikatsiooni stsenaarium võib tekkida negatiivse laovaru puhul, on seda raske vältida järgmistel juhtudel.
+Kui uurite kauba eeldatavat jooksvat keskmist omahinda, eeldate omahinda USD 1.51. Selle asemel leiate hinnangulise jooksva keskmise USD 102.00, mis põhineb järgmisel valemil: hinnanguline hind = \[202 + (–100)]\] ÷ \[101 + (–100)\] = 102 ÷ 1 = 102 See hinnavõimendus toimub, kuna 200 üksuse väljastamisel rahaliselt sammus 2 peab süsteem määrama hinna 100 üksusele enne, kui on olemas vastavaid sissetulekuid. Selline olukord põhjustab negatiivse laovaru. Süsteem prognoosib siis ühiku hinnaks USD 1.00, nagu võib eeldada. Kuid kui vastavad 100 sissetulekut saabuvad, on nende iga ühiku hind USD 2.00. 
+
+**Märkus:** kuigi väljaminekud tekitavad negatiivse laovaru, on väljastamise hinna arvutamisel laovaru positiivne. Seetõttu kasutataksegi kauba põhikirje hinna asemel jooksvat keskmist omahinda. Selles punktis on süsteemil laoväärtuse tasakaalustus USD 100.00. Kuigi see tasakaalustus kogunes 100 ühikult, kui iga ühiku tasakaalustus oli USD 1.00, on meil nüüd laos üks ühik. Seega eraldatakse tasakaalustus USD 100.00 sellele ühele ühikule. Tulemuseks on liigselt paisutatud eeldatav omahind. 
+
+**Märkus:** võrdluseks pange tähele, et kui sammud 2 ja 3 ülaltoodud näites tagasi võtta, antakse välja 200 üksust ühikuhinnaga USD 1.51 ja üks tooteühik jääb ühiku hinnaga USD 1.51. Kuna selline hinnakujunduse amplifikatsiooni stsenaarium võib tekkida negatiivse laovaru puhul, on seda raske vältida järgmistel juhtudel.
 
 -   Peate hinnanguliselt määrama väljalaske hinnad vaba väärtuse ja koguse kohta.
 -   Peate korrigeerima väljaminekute ja sissetulekute vaba väärtust ja kogust.
@@ -63,5 +75,7 @@ Ent kui teie äritegevuse mudel lubab, võivad järgmised praktikad aidata teil 
 -   Kui te *ei* tee kauba puhul valikut **Kaasa füüsiline väärtus**, eemaldage valik **Negatiivne rahaline laovaru** lehel **Kauba mudeligrupid**.
 
 Lisaks arvestage, et maksimaalne vastaskonto teie füüsilises laoväärtuses on piiratud füüsiliste kannete arvuga ja füüsiliste ja rahaliste hindade vahega. Eeldusel, et kõik füüsilised kanded lõpuks rahaliselt värskendatakse, ei saa füüsiline väärtus äärmuslikele tasanditele tõusta. Lõpuks arvestage, et amplifikatsiooniefekt väheneb oluliselt, kui akumuleeritud tasakaalustus ulatub üle mitme, mitte ainult ühe vaba kaubaühiku.
+
+
 
 

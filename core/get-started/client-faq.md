@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 2c99b2e1f7ddecb61be62832ca1a8d3ac1fd21a8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 94f5874cb24b53476843f1a073dc9c4cfdb36ac9
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ Klaviatuurile juurdepääsu hõlbustamiseks plaanime võtta tulevikus kasutusele
 ## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>Kus on Dynamics 365 for Operationsis funktsioon Kuva üksikasjad?
 Valik **Kuva üksikasjad** on kättesaadav mitmel viisil.
 
--   Kui juhtelemendil on **üksikasjade kuvamise **võimalused ja kui juhtelemendil on väärtus, kuvatakse väärtus hüperlingina. Võite klõpsata hüperlinki täiendavaid üksikasju sisaldava lehe avamiseks.
+-   Kui juhtelemendil on **üksikasjade kuvamise**võimalused ja kui juhtelemendil on väärtus, kuvatakse väärtus hüperlingina. Võite klõpsata hüperlinki täiendavaid üksikasju sisaldava lehe avamiseks.
 -   **Kuva üksikasjad** on ka Dynamics 365 for Operationsi kiirmenüüde valik. Lisateavet selle kohta, millal Dynamics 365 for Operationsi kiirmenüüd paremklõpsamisel kuvatakse, leiate eelmisest teemast.
 
 

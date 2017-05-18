@@ -3,7 +3,7 @@ title: Avaldisepiirangud ja tabelipiirangud toote konfiguratsioonimudelites
 description: "Selles teemas kirjeldatakse avaldise piirangute ja tabeli piirangute kasutamist. Piirangute abil kontrollitakse atribuutide väärtusi, mida saab valida toodete konfigureerimisel müügitellimuse, müügipakkumise, ostutellimuse või tootmistellimuse jaoks. Saate avaldise piiranguid või tabeli piiranguid kasutada sõltuvalt sellest, kuidas soovite piiranguid luua."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Avaldisepiirangud ja tabelipiirangud toote konfiguratsioonimudelites
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles teemas kirjeldatakse avaldise piirangute ja tabeli piirangute kasutamist. Piirangute abil kontrollitakse atribuutide väärtusi, mida saab valida toodete konfigureerimisel müügitellimuse, müügipakkumise, ostutellimuse või tootmistellimuse jaoks. Saate avaldise piiranguid või tabeli piiranguid kasutada sõltuvalt sellest, kuidas soovite piiranguid luua. 
 
@@ -40,7 +44,7 @@ Tabeli piirangud loetlevad väärtuste kombinatsioonid, mis toote konfigureerimi
 
 ### <a name="example-of-a-table-constraint"></a>Tabeli piirangu näide
 
-Selles näites selgitatakse, kuidas saate piirata kõlari konfiguratsiooni kindla korpuseviimistluse ja esiküljega. Esimeses tabelis on üldkonfiguratsiooniks saadaolevad korpuseviimistlused ja esiküljed. Atribuuditüüpidele **Korpuseviimistlus** ja **Esivõre** on väärtused määratletud.
+Selles näites selgitatakse, kuidas saate piirata kõlari konfiguratsiooni kindla korpuseviimistluse ja esiküljega. Esimeses tabelis on üldkonfiguratsiooniks saadaolevad korpuseviimistlused ja esiküljed. Atribuuditüüpidele **Korpuseviimistlus**ja **Esivõre** on väärtused määratletud.
 
 | Atribuudi tüüp | Väärtused                      |
 |----------------|-----------------------------|
@@ -84,7 +88,7 @@ Toote konfigureerimisel järgmiste piiranguseadistuste abil on need kombinatsioo
 (Värv == "Must" & (suurus == "30" | suurus == "50")) | (värv == "Punane" & suurus = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>Kas avaldise piirangute kirjutamisel tuleks kasutada tehtemärke või infix-märke?
-Saate kirjutada avaldisepiirangu kas saadaolevaid tehtemärke või infix-märke kasutades. Tehtemärkide **Min**, **Max** ja **Abs **puhul ei saa infix-märke kasutada. Need tehtemärgid sisalduvad standardina enamikus programmeerimiskeeltes.
+Saate kirjutada avaldisepiirangu kas saadaolevaid tehtemärke või infix-märke kasutades. Tehtemärkide **Min**, **Max** ja **Abs**puhul ei saa infix-märke kasutada. Need tehtemärgid sisalduvad standardina enamikus programmeerimiskeeltes.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Milliseid tehtemärke ja infix-märke saan avaldisepiirangute kirjutamisel kasutada?
 Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote konfiguratsioonimudeli komponendile avaldisepiirangu kirjutamisel kasutada. Esimeses tabelis toodud näited selgitavad, kuidas infix-märkide või tehtemärkide abil avaldist kirjutada.
@@ -248,5 +252,7 @@ Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või ala
 [Avaldise piirangu loomine (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Arvutuse lisamine toote konfiguratsioonimudelile (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

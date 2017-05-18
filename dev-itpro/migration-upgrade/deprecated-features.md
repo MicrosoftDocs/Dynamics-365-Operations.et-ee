@@ -3,7 +3,7 @@ title: Aegunud funktsioonid
 description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada rakendusest Dynamics 365 for Operations. See esitab ka loendi funktsioonidest, mis on aegunud Dynamics AX 7.0 väljalasetes."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Aegunud funktsioonid
+
+[!include[banner](../includes/banner.md)]
+
 
 See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada rakendusest Dynamics 365 for Operations. See esitab ka loendi funktsioonidest, mis on aegunud Dynamics AX 7.0 väljalasetes.
 
@@ -474,6 +478,16 @@ Andmesektsioonid tagavad andmete loogilise eraldamise Microsoft Dynamics AX-i an
 | Asendatud teise funktsiooniga? | Uus veebiklient põhineb töölauavormi metaandmetel ja programmeerimismudelil, mida on muudetud rikkaliku veebiplatvormi pakkumiseks. |
 | Mõjutatud moodulid             | Kõik                                                                                                                                    |
 
+### <a name="direct-database-connection"></a>Andmebaasi otseühendus
+
+Dynamics AX 2012 R3-s sai tänapäevane jaemüügikassa luua kanaliandmebaasiga otse ühenduse samamoodi, nagu ettevõtte kassaga. See täiendas jaemüügikassa standardset sidepidamisviisi jaemüügiserveri kaudu.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Kasutuselt eemaldamise põhjus       | Andmebaasi otseühenduvus nõudis madalamaid turbeprotokolle ja seda kasutati peamiselt kõrgeima jõudluse saavutamiseks. Dynamics 365 for Operationsi jõudulus- ja turbetäiustuste tõttu põhjustab see funktsioon nüüd rohkem probleeme kui lahendab. |
+| Asendatud teise funktsiooniga? | Nr Nüüd toetatakse ainult standardset jaemüügiserveri sidet.    |
+| Mõjutatud moodulid             | Kanali andmebaas / tänapäevane jaemüügikassa                                    |
+
 ### <a name="dutch-swift-mt940"></a>Hollandi SWIFT MT940
 
 |                              |                                                                                                                                                                                                                                       |
@@ -664,6 +678,16 @@ Selle funktsiooni abil saate määrata ühe toote standarddimensiooni (suuruse, 
 | Asendatud teise funktsiooniga? | Ei                                                                            |
 | Mõjutatud moodulid             | Tooteteabe haldus                                                |
 
+### <a name="retail-server-connectivity-using-http"></a>Jaemüügiserveri ühenduvus HTTP abil
+
+Dynamics AX 2012 R3-s toimis jaemüügiserveri funktsioon HTTP-sidet (mitteturvalist) kasutades. See täiendas standardset sidet HTTP-si kaudu.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Kasutuselt eemaldamise põhjus       | Uute turbenõuete tõttu toetatakse nüüd ainult turvalist sidet, kasutades TLS 1.2 (või uuemat, kui on saadaval). Iseteeninduslik installiprogramm konfigureerib arvuti selle side jaoks automaatselt. |
+| Asendatud teise funktsiooniga? | Nr Nüüd toetatakse ainult standardset HTTP-sidet.                                                                           |
+| Mõjutatud moodulid             | Jaemüügiserver                                                |
+
 ### <a name="role-center-pages"></a>Rollikeskuse leheküljed
 
 |                              |                                                                                                                                                                          |
@@ -784,6 +808,8 @@ Inimressursside palgateave
 | Kasutuselt eemaldamise põhjus       | See funktsioon on asendatud teise funktsiooniga.                                    |
 | Asendatud teise funktsiooniga? | Management Reporter (selles Dynamics AX-i versioonis nimega **Finantsaruandlus**) |
 | Mõjutatud moodulid             | Pearaamat                                                                              |
+
+
 
 
 

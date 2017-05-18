@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 408e2bc6ca1cd506a89ba9676fb457df8fd4e214
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a62b56bd2ac0a7484471190c5f342a1db335ab07
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -260,7 +261,7 @@ Võite saata inimestele teatisi käsitsi ülesande delegeerimisel, eskaleerimise
     -   **Delegeerimine** – ülesanne määrati muule kasutajale.
     -   **Eskaleerimine** – määratud kasutaja ei viinud toimingut määratud aja jooksul lõpule.
     -   **Lõpule viidud** – määratud kasutaja viis ülesande lõpule.
-    -   **Tagasi lükatud ** – määratud kasutaja lükkas esitatud dokumendi tagasi.
+    -   **Tagasi lükatud** – määratud kasutaja lükkas esitatud dokumendi tagasi.
     -   **Muudatuse taotlus** – määratud kasutaja taotles esitatud dokumendi muutmist.
 
 3.  Valige 2. etapis valitud sündmuse rida.

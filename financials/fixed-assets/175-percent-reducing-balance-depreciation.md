@@ -3,7 +3,7 @@ title: "175 protsenti väheneva saldoga kulum"
 description: "Selles artiklis antakse ülevaade 175% väheneva jääkväärtuse kulumiarvestusmeetodi kohta."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 812fbb3cc3159783e9908e537c366ffc7f934092
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf428d61f89ea70a83e440c656fbc84d7dbded8d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>175 protsenti väheneva saldoga kulum
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis antakse ülevaade 175% väheneva jääkväärtuse kulumiarvestusmeetodi kohta.
 
@@ -54,7 +58,7 @@ Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus*
 
 ### <a name="fiscal"></a>Fiskaalne
 
-Kui valite väljal **Kulumiaasta** suvandi **Rahandusaasta**, arvutatakse 175% väheneva jääkväärtuse kulumist rahanduskalendri rahandusaasta alusel, mis on määratud raamatule, või rahanduskalendri alusel, mis on valitud lehel **Pearaamat**. Rahanduskalendrid seadistatakse lehel **Rahanduskalendrid**. Lisateavet leiate teemast [Rahanduskalendrid, rahandusaastad ja -perioodid.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Kui valite väljal **Kulumiaasta** suvandi **Rahandusaasta**, arvutatakse 175% väheneva jääkväärtuse kulumist rahanduskalendri rahandusaasta alusel, mis on määratud raamatule, või rahanduskalendri alusel, mis on valitud lehel **Pearaamat**. Rahanduskalendrid seadistatakse lehel **Rahanduskalendrid**. Lisateavet leiate teemast [Rahanduskalendrid, rahandusaastad ja -perioodid.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
 Näiteks rahandusaasta puhul 1. juulist kuni 30. juunini algab kulumiarvestus 1. juulil. Rahandusaasta võib olla pikem või lühem kui 12 kuud. Kulumit korrigeeritakse iga perioodi puhul automaatselt ja järgmise rahandusaasta pikkuse määrab perioodide seadistus lehel **Rahanduskalendrid**. 
 
@@ -82,5 +86,7 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 
 > [!NOTE] 
 > Tavaliselt kui 175% väheneva saldo kulumiarvestusmeetodiga arvutatud summa on väiksem kui lineaarse meetodiga arvutades tulemuseks olev summa, teisendatakse järelejäänud eluiga lineaarse meetodi järgi.
+
+
 
 

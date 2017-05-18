@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>Hulgivärbamisprojektid
+
+[!include[banner](includes/banner.md)]
+
 
 Hulgivärbamisprojektid võimaldavad inimressursside spetsialistidel luua mitu ametikohta ja palgata tõhusalt neile ametikohtadele töötajaid.
 
@@ -46,7 +50,7 @@ Valige lehel **Hulgivärbamisprojektid** projekt „SuvePraktikandid” ja seej�
 
 Pärast üliõpilaste valimist praktikakohtadele saate iga tudengi kohta sisestada jaotises **Ametikoha üksikasjad** teabe, millisele ametikohale te nad palkasite. Kui olete kõik ametikoha üksikasjad sisestanud, valige lehel Hulgivärbamisprojektid ametikoht ja seejärel klõpsake valikut **Palka**. Igale ametikohale luuakse ametikoha ning töötaja kirje, mis määratakse õigele ametikohale iga palgatava inimese jaoks.
 
-## <a name="masshire-project-statuses"></a>Hulgivärbamisprojekti olekud
+## <a name="mass-hire-project-statuses"></a>Hulgivärbamisprojekti olekud
 Hulgivärbamisprojekti olek võib olla järgmine.
 -   Loodud
 -   Avatud
@@ -92,6 +96,8 @@ Hulgivärbamisprojekti oleku muutmiseks avage lehekülg **Hulgivärbamisprojekt*
 </table>
 
  
+
+
 
 
 

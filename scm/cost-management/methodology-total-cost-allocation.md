@@ -3,7 +3,7 @@ title: Kogukulu eraldamise meetod
 description: "See artikkel sisaldab juhiseid kogukulu eraldamise (TCA) kohta. TCA on meetod kulude arvutamiseks partiitellimuse peamise valemi üksuse ja valemile määratletud kaastoodete vahel."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Kogukulu eraldamise meetod
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel sisaldab juhiseid kogukulu eraldamise (TCA) kohta. TCA on meetod kulude arvutamiseks partiitellimuse peamise valemi üksuse ja valemile määratletud kaastoodete vahel.
 
@@ -36,6 +40,11 @@ Kogukulude eraldamine (TCA) on meetod kulude arvutamiseks partiitellimuse peamis
 Siin on mõned juhised TCA kasutamise kohta kaastoodetes.
 
 -   Kui määrate valemiversiooni liuguri **Kogukulude eraldamine** väärtuseks **Jah**, peab kaastoodetel olema omahind, mis on suurem kui 0 (null). Väärtuse saab tuua sama laoala või mitte-laoalapõhise valemi esimese laoala aktiivsest kuluversioonist. See tingimus kinnitatakse valemi kinnitamisel.
+
+    -   Kaastoodete puhul pole vaja kulude eraldamise protsente käsitsi sisestada. Selle asemel loob süsteem automaatselt kulude eraldamise protsendi kaastoodete aktiivsete omahindade keskmisena. 
+    -   Mittestandardsete kuluüksuste puhul, mis on kaastooted, pole standardomahind vaja sisestada. Süsteemis on kaht tüüpi kuluversioone: standardomahind ja plaanitud kulu 
+    -   Kui kaupa ei hinnata standardomahinna hindamise meetodiga, soovitame kasutad aktiivset kuluhinda plaanitud kuluversioonis. Seda hinda kasutatakse kulude hindamiseks, näiteks koosluse arvutamisel, tootmiskulu hindamisel ja taande põhimõttel varude hindamisprotsessis. 
+
 -   Kui määrate valemiversiooni liuguri **Kogukulude eraldamine** väärtuseks **Jah** ja järgmised tingimused on tõesed, on kulueralduse meetod **TCA** ja kulueralduse protsent ei muutu.
     -   Lisasite kaastooteid.
     -   Kasutasite kaastoodete puhul teist kulueraldusmeetodit.
@@ -53,6 +62,8 @@ Väli **Kõrvalsaaduse kulu eraldamine** lehel **Kaastooted** on numeraatori vä
 -   **Protsent** – omahind arvutatakse tootmises tarbitud toormaterjalide kogukulu protsendina. Väljale sisestatakse arvutuses kasutatav protsent.
 -   **Seeria kohta** – omahind arvutatakse summana tootmistellimuse standardpartii suuruse kohta. See summa ei sõltu tootmises kinnitatud kogusest. Väljale sisestatakse arvutuses kasutatav summa.
 -   **Koguse kohta** – omahind arvutatakse summana tootmise valemiüksuse kinnitatud koguse kohta. Väljale sisestatakse arvutuses kasutatav summa.
+
+
 
 
 

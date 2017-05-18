@@ -3,7 +3,7 @@ title: "FIFO füüsilise väärtuse ja märkimisega"
 description: "FIFO on laomudel, milles esimesena hangitud sissetulekud väljastatakse esimesena. Finantsiliselt värskendatud väljaminekud laost tasakaalustatakse esimeste finantsiliselt värskendatud lattu minevate sissetulekutega, põhinedes laokannete finantsilisel kuupäeval."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 18 - 57 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8e3d189fc4dbc5c747a3473d3a221c739c323050
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0be852bde33e8dfc82ceb42dd98be10537f318d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO füüsilise väärtuse ja märkimisega
+
+[!include[banner](../includes/banner.md)]
+
 
 FIFO on laomudel, milles esimesena hangitud sissetulekud väljastatakse esimesena. Finantsiliselt värskendatud väljaminekud laost tasakaalustatakse esimeste finantsiliselt värskendatud lattu minevate sissetulekutega, põhinedes laokannete finantsilisel kuupäeval. 
 
@@ -50,7 +54,9 @@ Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitu
 -   5b. Lao finantsiline väljaminek kogusele 1 omahinnaga 20,00 USA dollarit tükk (finantsiliselt värskendatud kannete jooksev keskmine).
 -   6. Teostatakse lao sulgemine. FIFO-meetodi põhjal tasakaalustatakse esimene finantsiliselt värskendatud väljaminek esimese finantsiliselt värskendatud sissetulekuga. Väljaminekukandele tehakse 10,00 USA dollari ulatuses korrigeerimine.
 
-Uus keskmise hinna käitamine kajastab finantsiliselt värskendatud kannete keskmist. Järgmised illustratsioonid näitavad FIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** ei kasutata. ![FIFO without Include Physical Value](./media/fifowithoutincludephysicalvalue.gif) **Diagrammi võti**
+Uus keskmise hinna käitamine kajastab finantsiliselt värskendatud kannete keskmist. Järgmised illustratsioonid näitavad FIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** ei kasutata. ![FIFO valikuta Kaasa füüsiline väärtus](./media/fifowithoutincludephysicalvalue.gif) 
+
+**Diagrammi võti**
 
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
@@ -78,7 +84,9 @@ Kui märkeruut **Kaasa füüsiline väärtus** on kauba puhul lehel **Kauba mude
 -   6a. Lao füüsiline sissetulek kogusele 1 omahinnaga 21,25 USD tükk.
 -   7. Teostatakse lao sulgemine. FIFO meetodi põhjal kohandatakse või tasakaalustatakse esimest finantsilist väljamineku kannet esimese finantsilise või füüsilise värskendatud sissetulekuga.
 
-Kanne 5b tasakaalustatakse sissetulekukandele 1b. Seda väljamineku kannet korrigeeritakse 11,25 USA dollariga. Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USA dollarit. Järgmine illustratsioon näitab FIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** kasutatakse. ![FIFO with Include Physical Value](./media/fifowithincludephysicalvalue.gif) **Diagrammi võti**
+Kanne 5b tasakaalustatakse sissetulekukandele 1b. Seda väljamineku kannet korrigeeritakse 11,25 USA dollariga. Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USA dollarit. Järgmine illustratsioon näitab FIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** kasutatakse. ![FIFO valikuga Kaasa füüsiline väärtus](./media/fifowithincludephysicalvalue.gif) 
+
+**Diagrammi võti**
 
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
@@ -106,7 +114,9 @@ Märkimine on protsess, mis võimaldab teil väljaminekukande siduda või märki
 -   6a. Lao füüsiline sissetulek kogusele 1 omahinnaga 21,25 USD tükk.
 -   7. Teostatakse lao sulgemine. Kuna finantsiliselt värskendatud FIFO-kanne märgitakse olemasolevale sissetulekule, tasakaalustatakse need kanded üksteisega ja korrigeerimisi ei tehta.
 
-Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USA dollarit. Järgmine illustratsioon näitab FIFO laomudeli mõju sellele kannete seeriale väljaminekute ja sissetulekute vahelise märkimise kasutamisel. ![FIFO with Marking](./media/fifowithmarking.gif) **Diagrammi võti**
+Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USA dollarit. Järgmine illustratsioon näitab FIFO laomudeli mõju sellele kannete seeriale väljaminekute ja sissetulekute vahelise märkimise kasutamisel. ![FIFO valikuga Märkimine](./media/fifowithmarking.gif) 
+
+**Diagrammi võti**
 
 -   Laokandeid tähistavad vertikaalsed nooled.
 -   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
@@ -118,6 +128,8 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 -   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
 -   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
+
+
 
 
 

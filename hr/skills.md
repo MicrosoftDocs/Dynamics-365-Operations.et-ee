@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4fd6e61e88ca3ca3fa63308dead1258c0263e5aa
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Tööjõu oskuste joondamine ärivajadustele
+
+[!include[banner](includes/banner.md)]
+
 
 Saate jälgida oskusi, mis võivad töötajatel, kandidaatidel või kontaktisikutel olla, et oma rolli tõhusalt täita. Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks.
 
@@ -52,24 +56,12 @@ Saate luua oskuste kaardistamise otsingu, et leida töötaja, kandidaat või kon
 
 Oskuste kaardistamise profiilid võimaldavad leida praegused töötajad või kandidaadid, kellel on kvalifikatsioonid, mis vastavad otseselt ärivajadustele.  Näiteks võiksite oma organisatsioonis oleva avatud ametikoha jaoks luua oskuste kaardistamise profiili. Konkreetse töö jaoks profiili luues ning kopeerides oskused, hariduse ja serdid sellelt töölt profiilile, saate kiiresti otsida töötajaid, kandidaate ja kontaktisikuid, kes vastavad ühele või mitmele profiili sisestatud kriteeriumile, ning kuvada loendi kandidaatidest, kelle oskused ühtivad kõige enam töö jaoks nõutavate oskustega.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Märkus. </strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Oskuste kaardistamise tulemuste loendis saab kuvada või oskuste profiilile lisada vaid need töötajad, kandidaadid ja kontaktisikud, kes on lisatud oskuste kaardistamise otsingusse. Töötaja, kandidaadi või kontaktisiku lisamiseks oskuste kaardistamise otsingusse valige suvandi <strong>Kaasa oskuste kaardistamisse</strong> sätteks Jah järgmistel lehtedel.
-<ul>
-<li>Töötaja</li>
-<li>Töötaja</li>
-<li>Kandidaat</li>
-<li>Kontaktid</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+>**Märkus.** Oskuste kaardistamise tulemuste loendis saab kuvada või oskuste profiilile lisada vaid need töötajad, kandidaadid ja kontaktisikud, kes on lisatud oskuste kaardistamise otsingusse. Töötaja, kandidaadi või kontaktisiku lisamiseks oskuste kaardistamise otsingusse valige suvandi **Kaasa oskuste kaardistamisse** sätteks Jah järgmistel lehtedel.
+
+> + Töötaja
+> + Töötaja
+> + Kandidaat
+> + Kontaktid
 
 ## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Oskuste vahe analüüs ja oskuste profiili analüüs
 Saate luua oskuste profiili analüüsi, et vaadata töötaja, kandidaadi või kontaktisiku pädevuste loendit alates kindlast kuupäevast. Oskuste vahe analüüsiga saate võrrelda isiku oskusi ja kindla töö jaoks vajalikke oskusi.  
@@ -80,5 +72,7 @@ Saate luua oskuste profiili analüüsi, et vaadata töötaja, kandidaadi või ko
 --------
 
 [Inimressursid](index.md)
+
+
 
 

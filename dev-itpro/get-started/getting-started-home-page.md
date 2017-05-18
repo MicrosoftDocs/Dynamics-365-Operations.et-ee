@@ -3,7 +3,7 @@ title: Kust alustada
 description: "Alustage siit kiireks kasutuselevõtuks ja Microsoft Dynamics 365 for Operationsi kasutajaliidese tundmaõppimiseks."
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>Kust alustada
+
+[!include[banner](../includes/banner.md)]
+
 
 Alustage siit kiireks kasutuselevõtuks ja Microsoft Dynamics 365 for Operationsi kasutajaliidese tundmaõppimiseks.
 
@@ -36,7 +40,7 @@ Järgmised ressursid annavad ülevaate selle kohta, kuidas teha partneriga koost
 - [Microsoft FastTrack for Dynamics 365 ülevaade](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [Tellimusele registreerimine](../dev-tools/sign-up-preview-subscription.md) 
 - [Lifecycle Services (LCS) Microsoft Dynamics 365 for Operationsi klientidele](../lifecycle-services/lcs-works-lcs.md) 
-- [Kuidas kliendid, kes on ostnud Microsoft Dynamics 365 for Operationsi pilveteenuse pakkuja kaudu, saavad Dynamics 365 for Operations 2012 asutusesisese versiooni](../deployment/csp-download-customersource.md)
+- [Kuidas kliendid, kes on ostnud Microsoft Dynamics 365 for Operationsi pilveteenuse pakkuja kaudu, saavad Dynamics AX 2012 asutusesisese versiooni](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Kasutajaliides
 Järgmistes ressurssides antakse teavet Dynamics 365 for Operationsi kasutajakogemuse kohta. 
@@ -71,12 +75,12 @@ Järgmistes ressurssides antakse ülevaade spikrisüsteemist ja selgitatakse, ku
 <a name="see-also"></a>Vt ka
 --------
 
-[Uute koolitusteekide loomine Dynamics 365 for Operationsi abil teenustes Lifecycle Services, kasutades tegevuse salvestajat (väline link)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
 
 [Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)
+
+
 
 

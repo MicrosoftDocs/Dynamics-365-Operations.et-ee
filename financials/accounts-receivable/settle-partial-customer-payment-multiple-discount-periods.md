@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 9da48c7861f48ec2a154ac12616149d1208346cf
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31c3354590935b40ecadd3a2fb380f4f103eb2b7
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -44,14 +45,14 @@ Fabrikam pakub kliendile 4031 kahte skontoperioodi. Klient saab 2-protsendilise 
 | 09.07.2015           | 10,00                | 990,00                         |
 | 25.07.2015          | 0,00                 | 1 000,00                       |
 
-Arnie saab vaadata seda kannet lehel** Kliendi kanded**.
+Arnie saab vaadata seda kannet lehel**Kliendi kanded**.
 
 | Kanne   | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo  | Valuuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI‑10030 | Arve          | 25.06.2015 | 10030   | 1 000,00                             |                                       | 1 000,00 | USA dollar      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Osaline makse enne skonto kuupäeva
-28. juunil teeb klient 4031 osalise makse summas 294,00. Kuna 28. juuni jääb esimesse skontoperioodi, saab klient allahindlust summas 6,00. Lehel **Kannete tasakaalustamine** on suvandi** Skonto summa** väärtus 20,00 ja suvandi **Skonto summa võtmiseks** väärtus on 6,00.
+28. juunil teeb klient 4031 osalise makse summas 294,00. Kuna 28. juuni jääb esimesse skontoperioodi, saab klient allahindlust summas 6,00. Lehel **Kannete tasakaalustamine** on suvandi**Skonto summa** väärtus 20,00 ja suvandi **Skonto summa võtmiseks** väärtus on 6,00.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ Suvandit *Kulutuse piirmäärad *saab kasutada taotluse kulutuste piiramiseks ja
   
 Hankeosakond tuvastab nõutavate toodete ja teenuste tarnijad ning see võib hõlmata seda, et mitmele potentsiaalsele tarnijale saaadetakse *pakkumiskutse*. Taotletud toote spetsifikatsioone saab ühiskasutada ja potentsiaalsed hankijad saavad neid vaadata, et näha, kas nad saavad neile vastava toote hankida. Hankijad tagastavad oma pakkumised, mille hankeosakond siis üle vaatab, enne kui valitakse tarnija, kellelt nad soovivad hankida.  
 
-Ostutellimused sisaldavad võimalust saata välja *ostupäring *hankijale alternatiivina põhjalikumale pakkumikutsele. Ostupäringut saab kasutada selliste tingimuste loomiseks nagu hinnad, allahindlused ja tellimuse tarnekuupäev. Kui hankijad on seadistatud kasutama portaali **Hankija**, siis on* * ostupäringu funktsioon keelatud. Selle asemel ühiskasutatakse tellimust portaalis** Hankija** ja kui saadetakse *kinnituse taotlus*, saab hankija tellimuse otse kinnitada.  
+Ostutellimused sisaldavad võimalust saata välja *ostupäring *hankijale alternatiivina põhjalikumale pakkumikutsele. Ostupäringut saab kasutada selliste tingimuste loomiseks nagu hinnad, allahindlused ja tellimuse tarnekuupäev. Kui hankijad on seadistatud kasutama portaali **Hankija**, siis on ostupäringu funktsioon keelatud. Selle asemel ühiskasutatakse tellimust portaalis**Hankija** ja kui saadetakse *kinnituse taotlus*, saab hankija tellimuse otse kinnitada.  
 
 *Hankija katalooge *saab kasutada kogumaks teavet tootesortimendi kohta, mida hankijad tarnida saavad. Hankijad saavad avaldada oma kataloogi, et oleks lihtsam kataloogi ajakohasena hoida. Võimalik n manustada tootele * kinnitatud hankijate loend* ja see aitab juhtida hankija valikut, kui uued ostutellimused avatakse, ning vältida soovimatute hankijate kasutamist.
 

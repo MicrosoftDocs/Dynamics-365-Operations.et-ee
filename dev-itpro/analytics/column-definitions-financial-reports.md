@@ -1,16 +1,16 @@
 ---
 title: Veerudefinitsioonid finantsaruannetes
 description: "See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.
 
@@ -150,7 +154,7 @@ Saate kasutada dialoogiboksi **Veerupäis** aruande veergude ülaosas olevate p�
 
 1.  Avage aruande kujundajas muudetav veeru definitsioon.
 2.  Valige päisereast lahter.
-3.  Klõpsake menüüs **Redigeerimine** suvandit **Lisa rida**. Uus rida sisestatakse 2. toimingus valitud rea kohale. **Märkus. **Kui teie aruandes on aruande päiseid neli rida või rohkem ja aruanne eksporditakse Exceli töölehele, siis päised kattuvad. Kõigi päiste kuvamiseks aruandes suurendage aruande definitsioonis ülemist veerist.
+3.  Klõpsake menüüs **Redigeerimine** suvandit **Lisa rida**. Uus rida sisestatakse 2. toimingus valitud rea kohale. **Märkus.**Kui teie aruandes on aruande päiseid neli rida või rohkem ja aruanne eksporditakse Exceli töölehele, siis päised kattuvad. Kõigi päiste kuvamiseks aruandes suurendage aruande definitsioonis ülemist veerist.
 
 ### <a name="delete-a-column-header-row"></a>Veerupäise rea kustutamine
 
@@ -318,11 +322,11 @@ Lahter **Prindi kontrollkood** võib sisaldada koode, mis korrigeerivad veeru ku
 2.  Topeltklõpsake lahtrit **Prindi kontrollkood**.
 3.  Valige dialoogiboksis **Prindi kontrollkood** kood loendist **Prindi kontrollkoodi suvandite valimine**. Rohkem kui ühe koodi valimiseks hoidke koodide valimisel all klahvi Ctrl.
 4.  Valige suvand väljalt **Tingimuslikud prindi suvandid**. Vaikimisi on valitud **(puudub)**. Korraga saate valida ainult ühe tingimusliku prindi kontrollkoodi.
-5.  Klõpsake nupul **OK**.
+5.  Klõpsake nuppu **OK**.
 
-**Vihje.** Saate prindi kontrollkoodid sisestada ka otse lahtrisse **Prindi kontrollkood**. Eraldage mitu prindi kontrollkoodi komadega.
+> [!TIP]
+> Saate prindi kontrollkoodid sisestada ka otse lahtrisse **Prindi kontrollkood**. Eraldage mitu prindi kontrollkoodi komadega.
 
-### 
 
 ## <a name="column-types"></a>Veerutüübid
 Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru definitsiooni real **Veeru tüüp**. Iga veeru definitsioon peab sisaldama vähemalt ühte kirjelduse (**DESC**) veergu ja ühte summa (**FD**, **WKS** või **CALC**) veergu. **Märkus.** Veeru tüübi koodid ei rakendu kõigile raamatupidamissüsteemidele. Valides tüübi, mis teie raamatupidamissüsteemi puhul ei kehti, on see veerg aruandes tühi.
@@ -507,7 +511,8 @@ Mitme valuutaga aruandes saab kuvada summad füüsilises (kohalik) valuutas, ame
 -   **Valuuta kuvamine** – saate määrata kannetes kuvatava valuuta tüübi (füüsiline, ametlik või aruandlus). Sellele funktsioonile viidatakse mõnikord kui valuuta teisendamisele. Valuuta teisendamine on pearaamatu summade aruandluse võimalus valuutas, mis ei pruugi olla ettevõtte ametlik valuuta või kandele sisestatud valuuta.
 -   **Valuutafilter** – valuuta filtri määramine. Aruandes kuvatakse ainult valitud valuutas sisestatud kanded.
 
-**Märkus.** Mitut valuutat kasutavate aruannete loomiseks peate valima märkeruudu **Kaasa kõik aruandlusvaluutad** aruande definitsiooni vahekaardil **Aruanne**. Ettevõtte ametliku valuuta määramiseks toimige järgmiselt.
+> [!NOTE]
+> Mitut valuutat kasutavate aruannete loomiseks peate valima märkeruudu **Kaasa kõik aruandlusvaluutad** aruande definitsiooni vahekaardil **Aruanne**. Ettevõtte ametliku valuuta määramiseks toimige järgmiselt.
 
 1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Ettevõtted**.
 2.  Valige ettevõte dialoogiboksist **Ettevõtted** ja seejärel klõpsake käsku **Kuva**..
@@ -519,7 +524,8 @@ Mitme valuutaga aruandes saab kuvada summad füüsilises (kohalik) valuutas, ame
 2.  Topeltklõpsake lahtrit **Valuuta kuva** asjakohases veerus **FD** ja seejärel valige valuutateabe kuvamise suvand: **Füüsiline/pärinev valuuta**, **Ettevõtte teabe ametlik valuuta** või aruandlusvaluuta.
 3.  Topeltklõpsake lahtrit **Valuutafilter** asjakohases veerus **FD** ja seejärel valige loendist sobiv valuutakood. Aruandes kuvatakse ainult selles valuutas sisestatud kanded.
 
-**Märkus.** Siin kirjeldatavad suvandid võivad olenevalt ERP süsteemist erineda. Lisateabe saamiseks vaadake oma [Microsoft ERP süsteemi dokumente](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> Siin kirjeldatavad suvandid võivad olenevalt ERP süsteemist erineda. Lisateabe saamiseks vaadake oma [Microsoft ERP süsteemi dokumente](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Lahtrite Kuva valuuta ja Valuutafilter näide
 
@@ -584,5 +590,7 @@ Saate veeru summa jagada määratud perioodide arvuga. Näiteks valem **B/Period
 [Readefinitsioonid finantsaruandluses](row-definitions-financial-reporting.md)
 
 [Täpsemad vormingusuvandid finantsaruandluses](advanced-formatting-options-financial-reporting.md)
+
+
 
 

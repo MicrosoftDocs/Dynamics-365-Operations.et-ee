@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Küsimustiku laialisaatmine ja täitmine
+
+[!include[banner](includes/banner.md)]
+
 
 See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. 
 
@@ -45,7 +49,7 @@ Saate seadistada küsimustikugrupid ja lisada sinna siis vastavad, kellele küsi
 
 Saate luua küsimustikugruppe järgmistelt lehtedelt.
 
--   **Küsimustikugrupid **– valitud küsimustikku saavad täita ainult küsimustikugrupis olevad inimesed. Näiteks on teie sihtrühm töövõtjad, seega koostate neile vastajatele mõeldud küsimustikugrupi.
+-   **Küsimustikugrupid**– valitud küsimustikku saavad täita ainult küsimustikugrupis olevad inimesed. Näiteks on teie sihtrühm töövõtjad, seega koostate neile vastajatele mõeldud küsimustikugrupi.
 -   **Küsimustikugrupi liikmed** – saate lisada küsimustikugruppidesse inimesi.
 
 Küsimustikule küsimustikugrupi määramiseks klõpsake lehel **Küsimustikud** valikut **Kasutajaõigused**. Pärast küsimustiku aktiivsena salvestamist saavad küsimustikugrupi liikmed küsimustiku täita. See funktsioon on abiks, kui soovite testida küsimustikku valitud inimeste grupil, enne kui edastate selle suuremale grupile, või kui soovite suunata küsimustiku väga konkreetsele sihtrühmale.
@@ -53,7 +57,8 @@ Küsimustikule küsimustikugrupi määramiseks klõpsake lehel **Küsimustikud**
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Plaanitud vastamisseansid küsimustiku kohta
 Plaanitud vastamisseansid on küsimustikud, mille olete kavandanud ja millele vastajad valinud. 
 
-**Märkus.** Enne plaanitud vastamisseansside seadistamist tuleb kavandada küsimustik. 
+> **Märkus.**
+>   Enne plaanitud vastamisseansside seadistamist tuleb kavandada küsimustik. 
 
 Lehel **Plaanitud vastamisseanss** saate luua üksiku töötaja jaoks plaanitud vastamisseansi. Lehe loendis kuvatakse kõik kavandatud küsimustikud. 
 
@@ -99,7 +104,8 @@ Klõpsake valikuid **Funktsioonid** &gt; **Käivita**, et teha küsimustik seotu
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Vastajate teavitamine neile saadaolevatest küsimustikest
 Kui küsimustiku laiali saadate, peate vastajatele teatama, et küsimustikud on neile kättesaadavad. 
 
-**Märkus.** Küsimustiku täitmiseks peavad vastajad olema Microsoft Dynamics 365 for Operationsi kasutajad.
+> **Märkus.**
+>   Küsimustiku täitmiseks peavad vastajad olema Microsoft Dynamics 365 for Operationsi kasutajad.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Vastajate teavitamine plaanitud vastamissessioonist
 
@@ -109,12 +115,14 @@ Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefon
 
 Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**. Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
 
-**Märkus.** Enne, kui saate meilifunktsiooni kasutada, peab teie IT-administraator sisestama meilisätted lehele **Meiliparameetrid**.
+> **Märkus.**
+>   Enne kui saate meilifunktsiooni kasutada, peab teie IT-administraator sisestama meilisätted lehel **Meiliparameetrid**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plaanitud küsimustiku lõpetamine
 Plaanitud küsimustiku saate lõpetada pärast seda, kui kõik vastajad on neile määratud vastuseseansid sooritanud. Pärast plaanitud küsimustiku lõpetamist ei saa selle sätteid uude graafikusse kopeerida. 
 
-**Märkus.** Kui vähemalt üks vastaja pole küsimustikku täitnud, kuid soovite siiski plaanimise lõpetada, peate esmalt kustutama need vastajad loendist lehel **Plaanitud vastamissessioon**. Seejärel saate graafiku lõpetada.
+> **Märkus.**
+>   Kui vähemalt üks vastaja pole küsimustikku täitnud, kuid soovite siiski plaanimise lõpetada, peate esmalt kustutama need vastajad loendist lehel **Plaanitud vastamissessioon**. Seejärel saate graafiku lõpetada.
 
 ## <a name="completing-questionnaires"></a>Küsimustike täitmine
 Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad selle täita. Saate täita küsimustikud, mis on saadaval kahes kohas:
@@ -132,5 +140,7 @@ Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagru
 [Küsimustike kasutamine](questionnaires.md)
 
 [Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
+
+
 
 

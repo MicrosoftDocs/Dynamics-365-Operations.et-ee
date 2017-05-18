@@ -17,10 +17,11 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 1270c04262f66a38863a1938fa32195bfe0d2bbd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9308158482b2eda0bd27cee07697b4184fc62253
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -154,11 +155,11 @@ Kannet peetakse EL-i siseseks kaubanduskandeks, kui kande tarneaadress on EL-i l
 
 ### <a name="generating-the-eu-sales-list-report"></a>EL-i käibearuande loomine
 
-Saate luua aruande **EL-i käibearuanne**, kasutades funktsiooni **Aruandlus **lehel **EL-i käibearuanne**. Selle funktsiooniga saate valida aruandlusperioodi ja rakendada filtreid kaasatavate ESL-i kirjete määratlemiseks. Lisaks saate määrata muid parameetreid, mis on igas riigis/regioonis ainuomased. Saate luua ka eelvaate aruande, elektroonilise faili või mõlemad. Funktsioon **Aruandlus **kasutab aruande ja failivormingu sätteid, mis on määratud lehel **Väliskaubanduse parameetrid**. Üldiselt koosneb **EL-i käibearuanne** eraldi ridadest, mis loetlevad kaupade kogusummad vastaspoole riigi/regiooni, maksukohuslase koodi ja aruandluse tüübi (kaasatud on triangulatsioonkaubanduse kanded) kohta. Pärast konkreetse perioodi kohta **EL-i käibearuande** loomist saate märkida aruandesse kaasatud ESL-i kirjed, seadistades väärtuse **Aruandluse olek** olekuks **Esitatud**. Selle oleku seadistamiseks kasutage funktsiooni **Märgi esitatuks **lehel **EL-i käibearuanne**.
+Saate luua aruande **EL-i käibearuanne**, kasutades funktsiooni **Aruandlus**lehel **EL-i käibearuanne**. Selle funktsiooniga saate valida aruandlusperioodi ja rakendada filtreid kaasatavate ESL-i kirjete määratlemiseks. Lisaks saate määrata muid parameetreid, mis on igas riigis/regioonis ainuomased. Saate luua ka eelvaate aruande, elektroonilise faili või mõlemad. Funktsioon **Aruandlus**kasutab aruande ja failivormingu sätteid, mis on määratud lehel **Väliskaubanduse parameetrid**. Üldiselt koosneb **EL-i käibearuanne** eraldi ridadest, mis loetlevad kaupade kogusummad vastaspoole riigi/regiooni, maksukohuslase koodi ja aruandluse tüübi (kaasatud on triangulatsioonkaubanduse kanded) kohta. Pärast konkreetse perioodi kohta **EL-i käibearuande** loomist saate märkida aruandesse kaasatud ESL-i kirjed, seadistades väärtuse **Aruandluse olek** olekuks **Esitatud**. Selle oleku seadistamiseks kasutage funktsiooni **Märgi esitatuks**lehel **EL-i käibearuanne**.
 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>EL-i käibearuande aruandlusperioodi sulgemine
 
-Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksuametnikud on **EL-i käibearuande** kinnitanud), saate märkida ESL-i kirjed, mis on perioodil aruandesse kaasatud, seadistades väärtuse **Aruandluse olek** olekuks **Suletud**. Kasutage selle oleku määramiseks funktsiooni **Märgi suletuks **lehel **EL-i käibearuanne**. Kui ennistate perioodi lõpetamise, saate märkida ESL-i kirjed, seadistades suvandi **Aruandluse olek** väärtuseks **Kaasatud**. Need kirjed saab siis uuesti **EL-i käibearuandesse** lisada. Selle oleku seadistamiseks kasutage funktsiooni **Märgi** **kaasatuks **lehel **EL-i käibearuanne**.
+Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksuametnikud on **EL-i käibearuande** kinnitanud), saate märkida ESL-i kirjed, mis on perioodil aruandesse kaasatud, seadistades väärtuse **Aruandluse olek** olekuks **Suletud**. Kasutage selle oleku määramiseks funktsiooni **Märgi suletuks**lehel **EL-i käibearuanne**. Kui ennistate perioodi lõpetamise, saate märkida ESL-i kirjed, seadistades suvandi **Aruandluse olek** väärtuseks **Kaasatud**. Need kirjed saab siis uuesti **EL-i käibearuandesse** lisada. Selle oleku seadistamiseks kasutage funktsiooni **Märgi** **kaasatuks**lehel **EL-i käibearuanne**.
 
 
 

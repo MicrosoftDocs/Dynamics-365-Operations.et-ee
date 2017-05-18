@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: b265a20a271230de5dba6df93900a24aad642885
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: efc932d24e20721c024e8da735ccdbbeca58beb1
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -33,7 +34,7 @@ See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet kl
 
 Kliendid saavad tagastada kaupu erinevatel põhjustel. Näiteks võib kaup olla defektne või see ei pruugi vastata kliendi ootustele. Tagastusprotsess käivitub, kui klient väljastab kauba tagastamiseks taotluse. Pärast kliendi taotluse vastuvõtmist luuakse rakenduses Microsoft Dynamics 365 for Operations tagastustellimus.
 
-## <a name="return-order-process"></a>Tellimuse protsessi tagastamine
+## <a name="return-order-process"></a>Tagastustellimuse protsess
 Järgmine näide annab ülevaate tagastustellimuse protsessist.  
 
 [![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
@@ -47,16 +48,16 @@ On kaks tagastustellimuse protsessi tüüpi: füüsiline tagastus ja ainult kree
 
 1.  **Tagastustellimuse loomine.** Dokumenteerige formaalselt kliendi autoriseerimine, et tagastada mis tahes defektsed või soovimatud tooted. Tagastustellimus ei nõua, et ettevõte aktsepteeriks tagastatud tooteid või pakuks kliendile krediiti. Tagastuse aktsepteerimisel saate autoriseerida asenduskauba saatmise enne, kui defektne kaup on tagastatud.
 2.  **Kontrollimiseks lattu saabumine.** Viige tagastustellimuse dokumendi suhtes lõpule algne kontrollimine ja kinnitamine. Tagastustellimus toetab täiendavaks kontrollimiseks ja kvaliteedikontrolli tegemiseks ka tagastatud kaupade vaheladu.
-3.  **Likvideerimise tuvastamine.** Viige kontrollimise protsess lõpule ja otsustage, mida teha tagastatud toodetega. Osana sellest etapist otsustage, kas krediteerite klienti, lükkate tootetagastuse tagasi või aktsepteerite tootetagastust, praagite toote ja saadate seejärel kliendile asendustoote.
+3.  **Likvideerimise kindlaksmääramine.** Viige kontrollimise protsess lõpule ja otsustage, mida teha tagastatud toodetega. Osana sellest etapist otsustage, kas krediteerite klienti, lükkate tootetagastuse tagasi või aktsepteerite tootetagastust, praagite toote ja saadate seejärel kliendile asendustoote.
 4.  **Saatelehe loomine.** Looge saateleht ja kinnitage 3. etapis tehtud likvideerimisotsus. Viige logistikaprotsessid lõpule.
-5.  **Arve loomine.** Sulgege tagastustellimus.
+5.  **Loo arve.** Sulgege tagastustellimus.
 
 ### <a name="credit-only-process"></a>Ainult kreediti protsess
 
 1.  **Tagastustellimuse loomine.** Dokumenteerige formaalselt kliendi autoriseerimine, et kreeditit vastu võtta ilma defektsete või soovimatute toodete tagastamiseta. Valiku **Ainult kreedit** likvideerimiskood autoriseerib otsuse krediteerida klienti ilma füüsilise tagastuseta.
-2.  **Arve loomine.** Looge kreeditarve ja sulgege seejärel tagastustellimus.
+2.  **Loo arve.** Looge kreeditarve ja sulgege seejärel tagastustellimus.
 
-## <a name="return-material-authorization"></a>Materjali autoriseerimise tagastamine
+## <a name="return-material-authorization"></a>Tagastatud kauba autoriseerimine
 Tagastatud kauba autoriseerimise (RMA) töötlemine põhineb müügitellimuse funktsionaalsusel. Tagastus registreeritakse tagastustellimusena, mis luuakse müügitellimusena ja sellega võib olla seotud mõni muu müügitellimus, mida nimetatakse asendustellimuseks. Mõlemad müügitellimused on seotud tagastuse algse numbriga.
 
 -   **Tagastustellimus** – RMA registreerimiseks loote tagastustellimuse, mis on müügitellimus, millel on määratud tüüp **Tagastatud tellimus** Mis tahes tagastuse teabele tehtavaid muudatusi värskendatakse automaatselt müügitellimusel. Kuni tagastustellimusel on olek **Avatud**, ei ilmu see müügitellimuste loendisse. Kasutate tagastust, et käsitleda tagastatud kaupade saabumist ja sissetulekut, aga ka selleks, et autoriseerida ainult kreediti likvideerimistoimingut (vt jaotist **Likvideerimiskoodid ja likvideerimistoimingud**). Kõiki teisi järeltegevuse protsesse tuleb käsitleda müügitellimuses.
@@ -75,7 +76,7 @@ Tagastustellimuse loomisel tuleb lisada järgmises tabelis sisalduv teave.
 |--------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kliendi konto   | Viide tabelile Kliendid                       | Peate sisestama olemasoleva kliendikonto.                                                                                                                                                                                                                                                                                                  |
 | Tarneaadress   | Aadress, kuhu kaup tagastatakse                 | Vaikimisi kasutatakse organisatsiooni aadressi. Kui päises valitakse spetsiifiline ladu, muudetakse tarneaadress lao tarneaadressiks. Seda aadressi saate muuta lehel **Tagastustellimuse üksikasjad**.                                                                                                  |
-| Sait/ladu     | Tagastatud toodet vastuvõttev tegevuskoht või ladu | Tagastustellimuse tarneaadress määratakse tegevuskoha või lao tarneaadressi põhjal.                                                                                                                                                                                                                                 |
+| Tegevuskoht/ladu     | Tagastatud toodet vastuvõttev tegevuskoht või ladu | Tagastustellimuse tarneaadress määratakse tegevuskoha või lao tarneaadressi põhjal.                                                                                                                                                                                                                                 |
 | Tagastuse number         | Tagastustellimusele määratud ID              | Tagastuse numbrit kasutatakse tagastustellimuse protsessi jooksul alternatiivvõtmena. Määratav tagastuse number põhineb tagastuse numbriseerial, mis seadistatakse lehel **Müügireskontro parameetrid**.                                                                                                                              |
 | Lõpptähtaeg           | Viimane kuupäev, millal kauba saab tagastada               | Vaikeväärtus arvutatakse praeguse kuupäevana, millele lisandub kehtivuse periood. Näiteks kui tagastus kehtib ainult 90 päeva alates tagastustellimuse loomise kuupäevast ja tagastustellimus loodi 1. mail, on väljal olev väärtus **30. juuli**. Kehtivusperiood määratakse lehel **Müügireskontro parameetrid**. |
 | Tagastuspõhjuse kood | Kliendi põhjus toote tagastamiseks          | Põhjuse kood valitakse kasutaja määratletud põhjusekoodide loendis. Saate seda välja igal ajal värskendada.                                                                                                                                                                                                                                    |
@@ -117,7 +118,7 @@ Lisaks määratlemisele, kuidas tagastatud kaupu likvideerida, saavad likvideeri
 <thead>
 <tr class="header">
 <th>Likvideerimiskood</th>
-<th>Finantsmõjud</th>
+<th>Finantsilised mõjud</th>
 <th>Mõjud logistikale</th>
 </tr>
 </thead>

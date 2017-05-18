@@ -3,7 +3,7 @@ title: Lao konfiguratsioon
 description: Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet selle kohta, kuidas lubada lao paigutust ja laoprotsesse.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,19 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Lao konfiguratsioon
 
+[!include[banner](../includes/banner.md)]
+
+
 Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet selle kohta, kuidas lubada lao paigutust ja laoprotsesse.
 
-**Märkus.** See artikkel kehtib mooduli** Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis** Laohaldus**.
+**Märkus.** See artikkel kehtib mooduli**Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis**Laohaldus**.
 
 ## <a name="warehouse-layout"></a>Lao paigutus
 Laohalduse süsteem Microsoft Dynamics 365 for Operationsis pakub paindlikke võimalusi laopaigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, et saavutaksite optimaalse laotõhususe.
@@ -75,7 +79,12 @@ Lao konfiguratsiooni osana on oluline lubada laoprotsessid vastavalt ettevõtte 
 
 Voomallid aitavad lubada väljaminevat lattu väljastamise protsessi. Kui tellimuse read on väljastatud (kas otse lähtedokumentidest, pakett-töö protsesside või juba loodud koormate kaudu), kasutatakse voomalli funktsiooni. 
 
-Saate luua kolme tüüpi lainemallid: **Lähetamine**, **Tootmistellimus** ja **Kanban**. Parameetreid kasutatakse määratlemiseks, kui kaugele peaks süsteem automaatselt väljamineva töö töötlemisel minema. Voomall valitakse voomallide seeria ja mallis määratud kriteeriumide alusel. Kui mall on seeria ülaosas, kontrollitakse kõigepealt selle malli kriteeriume. Kui kriteeriumid saab täita, töödeldakse voomall. Vastasel korral kontrollitakse järgmise malli kriteeriume jne. Seetõttu on soovitatav panna kõige konkreetsemate kriteeriumidega mall voomallide seeria loendi etteotsa, et seda töödeldaks esimesena. Näiteks soovite töödelda täna kogu konkreetse vedaja tööd ja viivitada ajutiselt teiste vedajate töötlemisega. Sel juhul tuleks sellele vedajale tööd valiv voomall paigutada seerias teistest mallidest kõrgemale. Vastasel korral võidakse muude vedajate töö töödelda enne, kui selle vedaja tööga lõpule jõutakse. 
+Saate luua kolme tüüpi voomalle. 
+-   **Lähetamine**
+-   **Tootmistellimus**
+-   **Kanban** 
+
+Parameetreid kasutatakse määratlemiseks, kui kaugele peaks süsteem automaatselt väljamineva töö töötlemisel minema. Voomall valitakse voomallide seeria ja mallis määratud kriteeriumide alusel. Kui mall on seeria ülaosas, kontrollitakse kõigepealt selle malli kriteeriume. Kui kriteeriumid saab täita, töödeldakse voomall. Vastasel korral kontrollitakse järgmise malli kriteeriume jne. Seetõttu on soovitatav panna kõige konkreetsemate kriteeriumidega mall voomallide seeria loendi etteotsa, et seda töödeldaks esimesena. Näiteks soovite töödelda täna kogu konkreetse vedaja tööd ja viivitada ajutiselt teiste vedajate töötlemisega. Sel juhul tuleks sellele vedajale tööd valiv voomall paigutada seerias teistest mallidest kõrgemale. Vastasel korral võidakse muude vedajate töö töödelda enne, kui selle vedaja tööga lõpule jõutakse. 
 
 Peate määrama voo töötlemise meetodid igas voomallis. Saadaolevad meetodid on erinevad, olenevalt voomalli tüübist.
 
@@ -107,6 +116,8 @@ Iga asukohakorralduse reaga seotud toimingute hõlpsamaks ja kiriemaks määratl
 <a name="see-also"></a>Vt ka
 --------
 
-[Asukohtade konfigureerimine WMS-loaga laos (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Asukohtade konfigureerimine WMS-loaga laos (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

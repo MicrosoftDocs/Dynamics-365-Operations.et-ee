@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 26c628e10aaa5f47bc87d7510ca8f41ab3630204
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>Atribuutide loomine ja haldamine
+
+[!include[banner](includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Operationsi atribuute. Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja selle omadusi kirjeldada.
 
@@ -34,110 +38,28 @@ Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja sel
 
 #### <a name="examples"></a>Näited
 
-Kategooria
+| Kategooria   | Atribuut                | Lubatud väärtused          | Vaikeväärtus |
+|------------|--------------------------|-----------------------------|---------------|
+| Teler ja video | Tootemark                    | Mis tahes kehtiv väärtus Kaubamärk       | Puudub          |
+| Teler         | Ekraani suurus              | 20″–80″                     | Puudub          |
+| Teler         | Vertikaallahendus      | 480i, 720p, 1080i või 1080p | 1080p         |
+| Teler         | Ekraani värskendussagedus      | 60 Hz, 120 Hz või 240 Hz       | 60 Hz          |
+| Teler         | HDMI-sisendid              | 0–10                        | 3             |
+| Teler         | DVI-sisendid               | 0–10                        | 1             |
+| Teler         | Koondsisendid         | 0–10                        | 2             |
+| Teler         | Komponendi sisendid         | 0–10                        | 1             |
+| LCD        | 3D-valmidus                 | Jah või Ei                   | Jah           |
+| LCD        | 3D lubatud               | Jah või Ei                   | Ei            |
+| Plasma     | Töötemperatuur alates      | 32–110 kraadi              | 32            |
+| Plasma     | Töötemperatuur kuni        | 32–110 kraadi              | 100           |
+| Projektsioon | Projektsioonitoru garantii | 6, 12 või 18 kuud         | 12            |
+| Projektsioon | # Projektsioonitorude     | 1–5                         | 3             |
 
-Atribuut
-
-Lubatud väärtused
-
-Vaikeväärtus
-
-Teler ja video
-
-Tootemark
-
-Mis tahes kehtiv väärtus **Kaubamärk**
-
-Puudub
-
-Teler
-
-Ekraani suurus
-
-**20 tolli**–**80 tolli**
-
-Puudub
-
-Vertikaallahendus
-
-**480i**, **720p**, **1080i** või **1080p**
-
-**1080p**
-
-Ekraani värskendussagedus
-
-**60 Hz**, **120 Hz** või **240 Hz**
-
-**60 Hz**
-
-HDMI-sisendid
-
-**0**–**10**
-
-**3**
-
-DVI-sisendid
-
-**0**–**10**
-
-**1**
-
-Koondsisendid
-
-**0**–**10**
-
-**2**
-
-Komponendi sisendid
-
-**0**–**10**
-
-**1**
-
-LCD
-
-3D-valmidus
-
-**Jah** või **Ei**
-
-**Jah**
-
-3D lubatud
-
-**Jah** või **Ei**
-
-**Ei**
-
-Plasma
-
-Töötemperatuur alates
-
-**32**–**110** kraadi
-
-**32**
-
-Töötemperatuur kuni
-
-**32**–**110** kraadi
-
-**100**
-
-Projektsioon
-
-Projektsioonitoru garantii
-
-**6**, **12** või **18** kuud
-
-**12**
-
-Projektsioonitorude \#
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>Atribuudi tüüp
-  [![atribuutide-fikseeritud-koopia](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Atribuudid põhinevad atribuudi tüüpidel. Atribuudi tüübid tuvastavad andmete tüübi, mida saab konkreetse atribuudi jaoks sisestada. Praegu toetab Microsoft Dynamics 365 for Operations järgmisi atribuuditüüpe.
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+Atribuudid põhinevad atribuuditüüpidel. Atribuudi tüübid tuvastavad andmete tüübi, mida saab konkreetse atribuudi jaoks sisestada. Praegu toetab Microsoft Dynamics 365 for Operations järgmisi atribuuditüüpe.
 
 -   **Currency** – see atribuudi tüüp toetab valuuta väärtusi. Seda saab piirata (see tähendab, et see toetab väärtuste vahemikku) või jätta lahtiseks.
 -   **DateTime** – see atribuudi tüüp toetab kuupäeva ja kellaaja väärtusi. Seda saab piirata (see tähendab, et see toetab väärtuste vahemikku) või jätta lahtiseks.
@@ -174,5 +96,7 @@ Projektsioonitorude \#
 ### <a name="at-the-retail-channel-level"></a>Jaemüügikanali tasemel
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Atribuutide vaikeväärtused saab kindlatele jaemüügikanalitele sihitud kindlates kataloogides olevate üksikute toodete puhul alistada.
+
+
 
 

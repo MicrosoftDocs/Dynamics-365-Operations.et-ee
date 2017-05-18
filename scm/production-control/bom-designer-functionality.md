@@ -3,7 +3,7 @@ title: Koosluse koostaja funktsioon
 description: "Selles artiklis kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks. Klõpsake nuppu Seadistus erinevate konfiguratsioonide valimiseks ja määramaks, milline teave puu ridadel ilmub."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-08 21 - 09 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2c98039c9fa8179408394f9f66b9fca0f8cad3fe
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff482c183276a99a3c9a632d41d9121bf77befbf
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="bom-designer-functionality"></a>Koosluse koostaja funktsioon
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks. Klõpsake nuppu Seadistus erinevate konfiguratsioonide valimiseks ja määramaks, milline teave puu ridadel ilmub.
 
@@ -95,7 +99,7 @@ Kooslusele ja protsessile rakendatud filter kuvatakse koosluse koostaja päises.
 Kui kasutate koosluse koostajat ühest või mitmest fiktiivse koosluse tasemest koosnevate koosluste ülevaatuseks või redigeerimiseks, siis tavaliselt hõlmab enimmüüdud kaubaga seostatud protsess kogu koosluse hierarhiat. Ülevaate lihtsustamiseks saate lukustada kuval kõrgeima taseme protsessi, klõpsates valikuid **Vaade** &gt; **Lukusta protsess**. Protsessi vabastamiseks klõpsake valikuid **Vaade** &gt; **Vabasta protsess**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Koosluste ja koosluse ridade lisamine ning redigeerimine
-Koosluse ridade ja koosluste muutmiseks kasutage funktsiooni **Koosluseread** või **Kooslus**. Kui valite puus sõlme, määrab sõlme tüüp saadaolevad funktsioonid.
+Koosluse ridade ja koosluste muutmiseks kasutage funktsiooni **Koosluseread**või **Kooslus**. Kui valite puus sõlme, määrab sõlme tüüp saadaolevad funktsioonid.
 
 | Funktsioon                            | Kirjeldus                                                                                               | Sõlme tüüp ja tingimused                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,6 +119,8 @@ Klõpsake suvandit **Seadistus**, et kohandada teavet, mida näidatakse koosluse
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kooslus         | Kasutage märkeruute, et valida puustruktuuris näidatud kriteerium. Koosluse koostaja kuvab valitud kriteeriumi mõlema vahekaardi allosas. |
 | Marsruut       | Kasutage märkeruute, et valida protsesside puhul näidatav kriteerium.                                                                                    |
+
+
 
 
 

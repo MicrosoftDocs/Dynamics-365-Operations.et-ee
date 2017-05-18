@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 19eeee753c15cf2670948ce2c615a112813c16ad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2112d6dd45c76af3cea75a4e06b06f9577c572ad
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a>Koondplaneerimine ja mitme laoala režiim
+
+[!include[banner](../includes/banner.md)]
+
 
 Koondplaneerimine võtab arvesse laoala ja varude dimensioonide sätteid. 
 
@@ -37,7 +41,7 @@ Kui dimensioon on kohustuslik, tuleb dimensiooniväärtus sisestada kõigile lao
 
 Kui ladu ei ole seatud kohustuslikuks, ei pruugi see pärineda nõudest. Planeerimismootor peab määratlema, millist ladu kauba, üksikute ladude ja tellimusrea üksikasjade jaoks määratud sätetel põhinedes kasutada.
 
-Järgmised wiki artiklid kirjeldavad, kuidas planeerimismootor kasutatava lao määratlemisel toimib, kui on määratud erinevad sätted.
+Järgmised teemad kirjeldavad, kuidas toimib planeerimismootor kasutatava lao määratlemisel, kui on määratud erinevad sätted.
 
 [Koondplaneerimine – laoala ja laovarud, ladu on kohustuslik](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -48,5 +52,7 @@ Järgmised wiki artiklid kirjeldavad, kuidas planeerimismootor kasutatava lao m�
 [Koondplaneerimine – laovarud, ladu ei ole kohustuslik](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Koondplaneerimine – koosluse versiooni määratlemine](master-plan-bom-version-determined.md)
+
+
 
 

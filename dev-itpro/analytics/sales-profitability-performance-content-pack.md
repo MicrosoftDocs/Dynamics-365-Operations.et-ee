@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Müügi ja tulususe tulemuste Power BI sisu
+
+[!include[banner](../includes/banner.md)]
+
 
 See teema kirjeldab Microsoft Power BI-le mõeldud Microsoft Dynamics 365 for Operationsi müügi ja tulususe alaste tulemuste sisupaketis sisalduvat. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida sisupaketi loomiseks kasutatakse.
 
@@ -44,6 +48,7 @@ Tulusust saab analüüsida järgmistel alustel.
 
 ## <a name="accessing-the-content-pack"></a>Juurdepääs sisupaketile
 Müügi ja tulususe tulemuste Power BI sisupakett on avaldatud juurutusvahendina teenuses Lifecycle Services (LCS) ja sellele pääseb juurde rakendusest Microsoft Dynamics 365 for Operations. Lisateavet Power BI aruannete juurde pääsemise ja nende käivitamise kohta vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
+**Märkus.** KB4011327 on selle Power BI sisu eeltingimus. Pärast elutsükli teenustesse sisselogimist pääsete teabebaasiartiklile juurde siin:<a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Sisupaketti kuuluvad mõõdikud
 Sisupakett sisaldab diagrammide, paanide ja tabelitena visualiseeritud mõõdikute kogumist koosnevat aruannet. Järgmine tabel annab ülevaate sisupaketi visualiseerimistest.
@@ -110,6 +115,8 @@ Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomise
 -   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI paanide lisamine tööruumidele](configure-power-bi-integration.md)
+
+
 
 
 

@@ -3,7 +3,7 @@ title: "Tsükliline inventuur"
 description: "See artikkel kirjeldab, kuidas kasutada tsüklilist inventuuri laohalduse moodulis oleva ladustamislahendusega. See artikkel ei kehti moodulis Varude haldus oleva ladustamislahenduse puhul."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Tsükliline inventuur
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel kirjeldab, kuidas kasutada tsüklilist inventuuri laohalduse moodulis oleva ladustamislahendusega. See artikkel ei kehti moodulis Varude haldus oleva ladustamislahenduse puhul.
 
@@ -39,7 +43,6 @@ Järgmine illustratsioon näitab tsüklilise inventuuri protsessi. ![Tsüklilise
 
 ## <a name="cycle-counting-prerequisites"></a>Tsüklilise inventuuri eeltingimused
 Järgmises tabelis kuvatakse eeltingimused, mis peavad olema olemas, enne kui saate tsüklilist inventuuri kasutada.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema olemas, enne kui sa
 <li>Tsüklilise inventuuri rühmitamine</li>
 <li>Punkttsükliline inventuur</li>
 </ul>
-Lisateavet vt artiklist <a href="configure-mobile-devices-warehouse">Mobiilsete seadmete konfigureerimine laotöö jaoks</a>.</li>
+</li>
 <li>Menüü seadistamine mobiilsele seadmele.</li>
 <li>Töö kasutajakonto loomine ja mobiilse seadme menüü määramine töö kasutaja ID-le.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Tsüklilise inventuuri erinevus ilmneb järgmistes stsenaariumides, kui valiku *
 -   Tsüklilise inventuuri väärtus erineb vaba kaubavaru kogusest ja kindlaid hälbepiire pole määratud.
 
 Saate korrigeerida loendatud väärtuse erinevusi ja kinnitada siis loendatud väärtuse lehel **Ülevaatuse ootel tsükliline inventuur**. Kauba muudetud kogust saab kontrollida lehel **Vaba varu asukoha järgi**. Loendatud väärtus lükatakse tagasi, kui erinevust ei saa kinnitada.
+
+# <a name="see-also"></a>Vt ka
+[Mobiilsete seadmete konfigureerimine lao töö jaoks](configure-mobile-devices-warehouse.md)
 
 
 

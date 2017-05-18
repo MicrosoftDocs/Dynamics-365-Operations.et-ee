@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 1666691ec122e65128b74056817a0c40551f49b5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c85c90feb7f314db6b47f64402f8b9455ed53d9d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Kalendri tööpäevade ja töötundide seadistamiseks või uue kalendri loomisek
 WBS-i kulude prognoosimise võimaluste täielikuks kasutamiseks tuleb seadistada kulud ja müügihinnad töötajatele, töö kategooriatele, kuludele ja tasudele ning kaupadele.
 
 -   Tööjõu, kulu ja tasu kategooriatele kulude ja müügihinna seadistamiseks klõpsake valikuid **Projektihaldus ja -arvestus** &gt; **Seadistus** &gt; **Hinnad**.
--   Kaupade maksumuse ja müügihinna seadistamiseks kasutage iga kauba lehte **Kaubanduslepped **mooduli Tooteteabe haldus loendilehel **Väljastatud tooted**.
+-   Kaupade maksumuse ja müügihinna seadistamiseks kasutage iga kauba lehte **Kaubanduslepped**mooduli Tooteteabe haldus loendilehel **Väljastatud tooted**.
 
 ## <a name="creating-a-wbs"></a>WBS-i loomine
 WBS-i loomine hõlmab kolme tegevust.

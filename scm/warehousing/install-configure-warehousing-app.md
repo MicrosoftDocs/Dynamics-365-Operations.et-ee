@@ -3,7 +3,7 @@ title: Microsoft Dynamics 365 for Operationsi rakenduse Ladustamine installimine
 description: Selles teemas kirjeldatakse, kuidas installida ja konfigureerida Microsoft Dynamics 365 for Operationsi rakendust Ladustamine.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Operationsi rakenduse Ladustamine installimine ja konfigureerimine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles teemas kirjeldatakse, kuidas installida ja konfigureerida Microsoft Dynamics 365 for Operationsi rakendust Ladustamine.
 
@@ -67,7 +71,7 @@ Et rakendus saaks konkreetse Dynamics 365 for Operationsi serveriga suhelda, tul
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Microsoft Dynamics 365 for Operationsis kasutajakonto loomine ja konfigureerimine
 Et võimaldada Dynamics 365 for Operationsil oma Azure AD rakendust kasutada, peate tegema järgmised konfigureerimistoimingud.
 
-1.  Microsoft Dynamics 365 for Operationsi rentnikule uue Azure Active Directory kasutajakonto loomine. Selle kasutajakonto eesmärk on pääseda juurde konkreetsele kohandatud teenusele laorakenduses, mille Dynamics 365 for Operationsi server avab. Pärast selle toimingu tegemist on teil WMDP kasutaja identimisteave, mis koosneb WMDP meiliaadressist ja WMDP paroolist. Põhitoimingud kasutajate lisamiseks Azure AD-sse ja Dynamics 365 for Operationsisse leiate järgmisest õpikust: [Microsoft Dynamics 365 for Operationsi tellimuse registreerimine](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Microsoft Dynamics 365 for Operationsi rentnikule uue Azure Active Directory kasutajakonto loomine. Selle kasutajakonto eesmärk on pääseda juurde konkreetsele kohandatud teenusele laorakenduses, mille Dynamics 365 for Operationsi server avab. Pärast selle toimingu tegemist on teil WMDP kasutaja identimisteave, mis koosneb WMDP meiliaadressist ja WMDP paroolist. Põhitoimingud kasutajate lisamiseks Azure AD-sse ja Dynamics 365 for Operationsisse leiate järgmisest õpikust: [Microsoft Dynamics 365 for Operationsi tellimuse registreerimine](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Looge laorakenduse kasutaja identimisteabele vastav Dynamics 365 for Operationsi kasutaja.
     1.  Avage rakenduses Dynamics 365 for Operations **Süsteemihaldus** &gt; **Üldine** &gt; **Kasutajad**.
     2.  Looge uus kasutaja.
@@ -83,7 +87,8 @@ Peate konfigureerima rakenduse seadmel Dynamics 365 for Operationsi serveriga Az
 
 1.  Avage rakenduses **Ühenduse sätted**.
 2.  Tühjendage väli **Demorežiim**. [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
-3.  Sisestage järgmised andmed: - **Azure Active Directory kliendi ID** - kliendi ID hangiti sammus 13 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. - **Azure Active Directory kliendi saladus** - kliendi saladus hangiti sammus 13 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. - **Azure Active directory ressurss** - Azure AD kausta ressurss kujutab endast Dynamics 365 for Operationsi juur-URL-i. **Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). - **Azure Active Directory rentnik** - Azure AD kausta rentnik, mida Dynamics 365 for Operationsi serveri puhul kasutatakse: https://login.windows.net/&lt;your-AD-tenant-ID&gt;. Näide: https://login.windows.net/contosooperations.onmicrosoft.com. **Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). - **Ettevõte** - sisestage rakendusse Dynamics 365 for Operations juriidiline isik, millega soovite rakenduse ühendada. [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+3.  Sisestage järgmised andmed: - **Azure Active Directory kliendi ID** - kliendi ID hangiti sammus 13 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. - **Azure Active Directory kliendi saladus** - kliendi saladus hangiti sammus 13 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. - **Azure Active directory ressurss** - Azure AD kausta ressurss kujutab endast Dynamics 365 for Operationsi juur-URL-i. **Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). - **Azure Active Directory rentnik** - Azure AD kausta rentnik, mida Dynamics 365 for Operationsi serveri puhul kasutatakse: https://login.windows.net/&lt;your-AD-tenant-ID&gt;. Näide: https://login.windows.net/contosooperations.onmicrosoft.com. 
+**Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). - **Ettevõte** - sisestage rakendusse Dynamics 365 for Operations juriidiline isik, millega soovite rakenduse ühendada. [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Valige nupp **Tagasi** rakenduse ülemises vasakus nurgas. Rakendus loob nüüd ühenduse teie Dynamics 365 for Operationsi serveriga ja kuvatakse laotöötaja sisselogimisekraan. [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
 ## <a name="remove-access-for-a-device"></a>Seadmelt juurdepääsu äravõtmine
@@ -97,6 +102,8 @@ Kaotatud või ohtu sattunud seadme puhul on vaja seadmelt juurdepääs Dynamics 
 6.  Klõpsake vahekaarti **Konfigureeri**, kerige alla ja veenduge, et rakenduse **kliendi ID** oleks sama, mis selle jaotise 2. toimingus.
 7.  Klõpsake käsuribal nuppu **Kustuta**.
 8.  Klõpsake kinnitusteates nuppu **Jah**.
+
+
 
 
 
