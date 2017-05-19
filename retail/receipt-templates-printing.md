@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: fabaacbc7187b38a1745c2139a9eb7760f2be987
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a0a105ade7e47d7c554d62ee112ed03437bb7521
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -54,7 +55,7 @@ Kasutage vormi paigutust, et luua graafiliselt vormidokumendi paigutus. Lehel **
 5.  Pärast installi lõpetamist sisestage kujundaja käivitamiseks oma Microsoft Dynamics 365 for Operationsi kasutajanimi ja parool ning klõpsake valikut **Sisselogimine**.
 6.  Kui teie identimisteave on kinnitatud ja kujundaja käivitunud, saate hakata kviitungi vorminguid looma või olemasolevaid muutma.
 7.  Vormi elementide loomiseks valige jaotis **Päis**, **Read** või **Jalus** ja seejärel lohistage see element jaotisest tööruumi. Enamik elemente sisaldavad muutujaid, mis täidetakse automaatselt andmebaasist pärit andmetega. Muud elemendid, nagu **Tekst**, võimaldavad printida kohandatud teksti. **Märkus.** Iga jaotise hõlmatava ridade arvu määramiseks kohandage jaotise alumises paremas nurgas olevat arvu. Sektsiooni muutmise lihtsustamiseks suurendage sektsiooni kõrgust, lohistades sektsiooni allosas olevat suuruse muutmise riba. Jaotise kõrgus tööruumis ei mõjuta tegeliku kviitungi ridade arvu.
-8.  Pärast elemendi tööruumi lohistamist määrake atribuudid lehe alumise paani **Objektiteave **osa jaoks. Sisestage üks või mitu järgmist sätet.
+8.  Pärast elemendi tööruumi lohistamist määrake atribuudid lehe alumise paani **Objektiteave**osa jaoks. Sisestage üks või mitu järgmist sätet.
     -   **Joonda** – seadke välja joondus olekusse **Vasakul** või **Paremal**.
     -   **Täitemärk** – määrake tühimärkide märk. Vaikimisi kasutatakse tühja ruumi, kuid te võite sisestada suvalise märgi.
     -   **Eesliide** – sisestage väärtus, mis ilmub välja alguses. See säte rakendub ainult kavandi jaotisele **Read**.
@@ -67,7 +68,7 @@ Kasutage vormi paigutust, et luua graafiliselt vormidokumendi paigutus. Lehel **
 Kviitungi profiilid määratakse riistvaraprofiili abil otse printeritele.
 
 1.  Riistvaraprofiili avamiseks järgige seda rada: **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa profiilid** &gt; **Riistvaraprofiil**.
-2.  Valige printer ja seejärel määrake väljal **Kviitungi profiil **kassaaparaadis kasutatava kviitungi profiil.
+2.  Valige printer ja seejärel määrake väljal **Kviitungi profiil**kassaaparaadis kasutatava kviitungi profiil.
 
 **Märkus.** Kui kasutate kahte printerit, saate üht printerit standardsete 40-veeruliste termoparberil kviitungite printimiseks kasutada. Teist printerit kasutatakse tavaliselt rohkem teavet nõudvate kogu lehe suuruste kviitungi tüüpide puhul. Selliste kviitungite hulka kuuluvad kliendi tellimuse kviitungid ja kliendiarved.
 

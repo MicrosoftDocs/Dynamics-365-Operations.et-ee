@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 1a9bf1067d0f6e0e139ef13d939d2f0e9bf2126b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8dd5cc110e83e1b10db233547b0ac2081cc6c380
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada.
 Aegumisperioodide definitsiooni seadistamine. Aegumisperioodi definitsioon määratleb veerud, mis kuvatakse loendilehtedel **Aegunud saldod**, **Sissenõuete tegevused** ja **Sissenõuete juhtumid**. Samuti määratleb see perioodid, mis kuvatakse lehel **Sissenõuded**. Kui kliendikaust on seadistatud, kasutatakse kausta aegumisperioodi definitsiooni. Kui kaustu ei ole seadistatud, kasutatakse vaikimisi aegumisperioodi määratlust, mis on määratud lehel **Müügireskontro parameetrid**. Kui ühtegi vaikimisi aegumisperioodi definitsiooni ei ole määratud, kasutatakse esimest aegumisperioodi määratlust lehel **Aegumisperioodi määratlused**.
 
 ## <a name="create-an-aging-snapshot"></a>Aegumise hetktõmmise loomine
-Looge aegumise hetktõmmise kirjed kõigile klientidele või kliendikausta klientidele. Aegumise hetktõmmise teave kuvatakse loendilehel** Aegunud saldod** ja lehel **Sissenõuded**. Enne kui saate loendilehte kasutada, peate looma aegumise hetktõmmise. Loendilehel kuvatakse teavet vaid püsiklientidele, kelle jaoks on aegumise hetktõmmis loodud.
+Looge aegumise hetktõmmise kirjed kõigile klientidele või kliendikausta klientidele. Aegumise hetktõmmise teave kuvatakse loendilehel**Aegunud saldod** ja lehel **Sissenõuded**. Enne kui saate loendilehte kasutada, peate looma aegumise hetktõmmise. Loendilehel kuvatakse teavet vaid püsiklientidele, kelle jaoks on aegumise hetktõmmis loodud.
 
 ## <a name="optional-set-up-customer-pools"></a>Valikuline: saate häälestada kliendikaustu
 Saate seadistada kliendikaustad kliendigruppide esindamiseks. Saate kasutada kliendikaustu loendilehtedel **Sissenõuded** lehel **Sissenõuded** kuvatava klienditeabe filtritena või aegumise hetktõmmiste loomisel.

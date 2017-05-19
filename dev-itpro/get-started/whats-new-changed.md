@@ -3,33 +3,37 @@ title: "Mis on uus või muudetud"
 description: "See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet Microsoft 365 for Operationsi värskeimate versioonide uute funktsioonide kohta."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Core
+ms.search.scope: Operations, Core
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0d954043c461975a70f9e0ab867f30cadd9800b5
-ms.openlocfilehash: 2896a11f79d5cbb00137a439e0a2c8caaee705a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed"></a>Mis on uus või muudetud
 
+[!include[banner](../includes/banner.md)]
+
+
 See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet Microsoft 365 for Operationsi värskeimate versioonide uute funktsioonide kohta.
 
-Värskeimale versioonile täiendamiseks vaadake [Dynamics 365 for Operationsi viimasele värskendusele täiendamise protsess](/migration-upgrade/upgrade-latest-update.md).
+Värskeimale versioonile täiendamiseks vaadake [Dynamics 365 for Operationsi viimasele värskendusele täiendamise protsess](../migration-upgrade/upgrade-latest-update.md).
 <table>
 <colgroup>
 <col width="20%" />
@@ -50,15 +54,24 @@ Värskeimale versioonile täiendamiseks vaadake [Dynamics 365 for Operationsi vi
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operationsi platvorm</td>
+<td>Platvormivärskendus 6</td>
+<td> 7.0.4509.16180</td>
+<td>2017. aprill</td>
+<td><a href="whats-new-platform-update-6.md">Mis on uut või muudetud rakenduse Dynamics 365 for Operations platvormi värskenduses 6 (aprill 2017)</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Operationsi platvorm</td>
+<td>Platvormivärskendus 5</td>
+<td> 7.0.4475.16165</td>
+<td>2017. märts</td>
+<td><a href="whats-new-platform-update-5.md">Mis on uut või muudetud rakenduse Dynamics 365 for Operations platvormi värskenduses 5 (märts 2017)</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Operationsi platvorm</td>
 <td>Platvormivärskendus 4</td>
-<td>7.0.4425.16160</td>
+<td> 7.0.4425.16161</td>
 <td>2017. veebruar</td>
-<td><ol>
-<li>Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>.</li>
-<li>Valige vahekaart <strong>Mis uudist?</strong>.</li>
-<li>Jaotises <strong>Rakendused</strong> valige <strong>Dynamics 365 for Operations</strong>.</li>
-<li>Jaotises <strong>Alad</strong> valige <strong>Pilve platvorm</strong>.</li>
-</ol></td>
+<td><a href="whats-new-platform-update-4.md">Mis on uut või muudetud rakenduse Dynamics 365 for Operations platvormi värskenduses 4 (veebruar 2017)</a></td>
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Operations</td>
@@ -111,6 +124,8 @@ Värskeimale versioonile täiendamiseks vaadake [Dynamics 365 for Operationsi vi
 </tr>
 </tbody>
 </table>
+
+
 
 
 

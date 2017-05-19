@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f77fe37933854d66c35a4a14e6dfb6db398eb034
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 53700246fb072c4d9afb2e475ae27892700a078a
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -58,7 +59,7 @@ Ressursigrupp on operatsiooniressursside kogum, mis näitab operatsioonide plane
 Tootmisüksus on haldusüksus, mis on ressursigruppide kogum. Tootmisüksus võib sisaldada mitut ressursigruppi, kuid ressursigrupi saab määrata ainult ühte tootmisüksusse. Tootmisüksus kajastab tootmisressursside füüsilist paigutust ega mõju kannetele ega nende töötlemisviisile. Peate tootmisüksuse seostama saidiga. Saate määrata tootmisüksusele ka komplekteerimislaoala ja ladustamislaoala. Saate kasutada tootmisüksust tootmisega seotud teabe konsolideerimiseks ja filtreerimiseks. Nt tööde juhtimise haldur saab üle vaadata silmapaistva töökoormuse ja kindla tootmisüksuse saadaoleva võimsuse. Saate ressursigrupile määratud tootmisüksust muuta. Samuti saate tootmisüksust kustutada. Need tootmisüksuse muudatused rakenduvad aga ainult uutele tellimustele, mis luuakse pärast koondplaneerimise käitamist. Kui tahate tootmisüksuse muudatusi rakendada olemasolevatele tellimustele, peate seda käsitsi tegema.
 
 ## <a name="resource-scheduling"></a>Ressursside plaanimine
-Operatsiooniressurssid määratakse tegevustele projekti või tootmise planeerimisel. Saadaval on kaks planeerimismeetodit: operatsioonide planeerimine ja tööde planeerimine. Kui kasutate operatsioonide planeerimist, planeeritakse iga operatsioon või projektitegevus ressursigrupis, mis sisaldab operatsiooni jaoks määratud ressursinõuetele vastavaid operatsiooniressursse. Kui operatsiooniks on nõutav kindel operatsiooniressurss, reserveerib planeerimine võimsuse ainult konkreetsele operatsiooniressursile grupis. Tööde planeerimine on üksikasjalikum planeerimisvorm kui operatsioonide planeerimine. See jaotab iga operatsiooni üksikülesanneteks või töödeks. Need tööd määratakse siis operatsiooniressurssidele, kes need ära teevad. Planeerimine reserveerib võimsuse ressursigruppides tootmisprotsessis või tootmistegevustes määratletud operatsiooniaegade põhjal. Kui töötate piiratud võimsusega, sõltub graafik tegevuse lõpule viimiseks nõutavate operatsiooniressursside kättesaadavusest. Operatsioonide planeerimisel on ressursigrupp sellesse gruppi kuuluvate operatsiooniressursside saadaolevate võimsuste summa. Operatsiooniressurssides juba olemas olevaid võimsuse reserveerimisi käsitletakse mittesaadava võimsusena. Kui tootmise jaoks ei ole piisavalt võimsust, saab tootmistellimused edasi lükata või isegi peatada. Lehel **Ressurssid **saate määratleda mitu atribuuti, mis reguleerivad võimsuse reserveerimiste tegemist.
+Operatsiooniressurssid määratakse tegevustele projekti või tootmise planeerimisel. Saadaval on kaks planeerimismeetodit: operatsioonide planeerimine ja tööde planeerimine. Kui kasutate operatsioonide planeerimist, planeeritakse iga operatsioon või projektitegevus ressursigrupis, mis sisaldab operatsiooni jaoks määratud ressursinõuetele vastavaid operatsiooniressursse. Kui operatsiooniks on nõutav kindel operatsiooniressurss, reserveerib planeerimine võimsuse ainult konkreetsele operatsiooniressursile grupis. Tööde planeerimine on üksikasjalikum planeerimisvorm kui operatsioonide planeerimine. See jaotab iga operatsiooni üksikülesanneteks või töödeks. Need tööd määratakse siis operatsiooniressurssidele, kes need ära teevad. Planeerimine reserveerib võimsuse ressursigruppides tootmisprotsessis või tootmistegevustes määratletud operatsiooniaegade põhjal. Kui töötate piiratud võimsusega, sõltub graafik tegevuse lõpule viimiseks nõutavate operatsiooniressursside kättesaadavusest. Operatsioonide planeerimisel on ressursigrupp sellesse gruppi kuuluvate operatsiooniressursside saadaolevate võimsuste summa. Operatsiooniressurssides juba olemas olevaid võimsuse reserveerimisi käsitletakse mittesaadava võimsusena. Kui tootmise jaoks ei ole piisavalt võimsust, saab tootmistellimused edasi lükata või isegi peatada. Lehel **Ressurssid**saate määratleda mitu atribuuti, mis reguleerivad võimsuse reserveerimiste tegemist.
 
 -   **Võimsus** – saate määrata operatsiooniressursi võimsuse tunnis võimsuse mõõtühikutes.
 -   **Partii võimsus** – saate määrata tükkide maksimaalse arvu, mida operatsiooniressurss suudab ühes käituses töödelda.

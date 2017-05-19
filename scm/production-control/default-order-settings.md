@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -90,7 +91,7 @@ Tellimuse vaikesätetel on hierarhia. Mida kõrgemal hierarhias reegel paikneb, 
 
 ### <a name="default-order-settings-for-released-products"></a>Väljastatud toodete tellimuse vaikesätted
 
-Eristuvate väljastatud toodete puhul saate määratleda üldised tellimuse sätted või tegevuskoha spetsiifilised tellimuse sätted. Üldistel tellimuse sätetel on alati nullpositsioon. Kui seadistate uued müügi, ostu ja varude tellimuse sätted samaaegselt koos, soovitame teil kasutada vaadet **Üksikasjade vaade** lehel **Tellimuse vaikesätted **. Üksikasjade vaatele lülitamiseks valige toimingupaan **Suvandid** &gt; **Lehe suvandid** &gt; **Muuda vaadet** &gt; **Üksikasjade vaade**.
+Eristuvate väljastatud toodete puhul saate määratleda üldised tellimuse sätted või tegevuskoha spetsiifilised tellimuse sätted. Üldistel tellimuse sätetel on alati nullpositsioon. Kui seadistate uued müügi, ostu ja varude tellimuse sätted samaaegselt koos, soovitame teil kasutada vaadet **Üksikasjade vaade** lehel **Tellimuse vaikesätted**. Üksikasjade vaatele lülitamiseks valige toimingupaan **Suvandid** &gt; **Lehe suvandid** &gt; **Muuda vaadet** &gt; **Üksikasjade vaade**.
 
 ### <a name="site-specific-order-settings"></a>Tegevuskohaspetsiifilised tellimuse sätted
 
@@ -149,9 +150,9 @@ Süsteem läbib reeglite kogumit tegevuskoha ja lao määramiseks kaks korda. Ku
 
 Nullpositsiooniga reegel täidab turvavõrgu rolli. Kui ühtki teist reeglit ei tabata, siis kasutatakse tellimuse vaikesätteid nullpositsioonist. 
 
-Kuna hierarhia positsiooni number on nii oluline, on tegumiribal **Tellimuse vaikesätted **funktsioonid reegli üles ja alla liigutamiseks ning reeglite ümber nummerdamiseks, et need on alati juurdekasvuga 10. 
+Kuna hierarhia positsiooni number on nii oluline, on tegumiribal **Tellimuse vaikesätted**funktsioonid reegli üles ja alla liigutamiseks ning reeglite ümber nummerdamiseks, et need on alati juurdekasvuga 10. 
 
-Väljastatud toote jaoks loodud reeglite arv võib olla hulgaline. Saamaks paremat aimu sellest, mida iga reegel alistab ja miks see on vajalik, soovitame kasutada vaadet **Ruudustikuvaade** lehel** Tellimuse vaikesätted**. Saate lubada ruudustikuvaate, valides toimingupaani **Suvandid** &gt; **Lehe suvandid** &gt; **Muuda vaadet** &gt; **Ruudustikuvaade**. Ruudustikus kuvatud veergude arv võib olla üsna märkimisväärne, eriti müügi ja varude vahekaartide puhul Ruudustikus näidatud veergude arvu piiramiseks saab veergude gruppe peita või kuvada, kasutades menüü **Tellimuse vaikesätted** &gt; **Veeru kuvamine** nuppe.
+Väljastatud toote jaoks loodud reeglite arv võib olla hulgaline. Saamaks paremat aimu sellest, mida iga reegel alistab ja miks see on vajalik, soovitame kasutada vaadet **Ruudustikuvaade** lehel**Tellimuse vaikesätted**. Saate lubada ruudustikuvaate, valides toimingupaani **Suvandid** &gt; **Lehe suvandid** &gt; **Muuda vaadet** &gt; **Ruudustikuvaade**. Ruudustikus kuvatud veergude arv võib olla üsna märkimisväärne, eriti müügi ja varude vahekaartide puhul Ruudustikus näidatud veergude arvu piiramiseks saab veergude gruppe peita või kuvada, kasutades menüü **Tellimuse vaikesätted** &gt; **Veeru kuvamine** nuppe.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Väljastatud tootevariandi spetsiifilised tellimuse sätted
 

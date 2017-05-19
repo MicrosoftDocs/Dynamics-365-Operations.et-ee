@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: b46037b9509f329e18f0da69d530f6b1f88c8888
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fef518bf156aa45dff66d21d49b433ed613cead1
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Maksesoovituse päring sisaldab mitmeid vahekaarte, millest igaühel on erinevad
 
 ## <a name="parameters"></a>Parameetrid
 -   **Arvete valimise alus** – väljadega **Alguskuupäev** ja **Lõppkuupäev** määratud kuupäevavahemikku jäävaid arveid saab valida tähtaja, skonto kuupäeva või mõlema alusel. Kui kasutate skonto kuupäeva, otsib süsteem esmalt arveid, mille skonto kuupäev jääb algus- ja lõppkuupäeva vahele. Seejärel määratleb süsteem seansi kuupäeva kasutades, kas arve on skonto saamiseks sobilik ning ega skonto kuupäev juba möödunud ole.
--   **Alguskuupäevast**** lõppkuupäevani** – maksmiseks valitakse arved, mille tähtaeg või skonto kuupäev jääb sellesse kuupäevavahemikku.
+-   **Alguskuupäevast****lõppkuupäevani** – maksmiseks valitakse arved, mille tähtaeg või skonto kuupäev jääb sellesse kuupäevavahemikku.
 -   **Maksekuupäev** – kui kuupäev on määratletud, luuakse kõik maksed sellel kuupäeval. Välja **Varaseim maksekuupäev** ignoreeritakse.
 -   **Varaseim maksekuupäev** – sisestage varaseim maksekuupäev. Näiteks määravad väljad **Alguskuupäev** ja **Lõppkuupäev** ajavahemiku 1. septembrist 10. septembrini ning minimaalne maksekuupäev on 5. september. Sellisel juhul on kõigil maksetel tähtajaga 1.–5. september maksekuupäevaks 5. september. Arvetel tähtajaga 5.–10. september on aga maksekuupäevaks iga arve tähtaja kuupäev.
 -   **Summa limiit** – sisestage kõikide maksete suurim kogusumma.

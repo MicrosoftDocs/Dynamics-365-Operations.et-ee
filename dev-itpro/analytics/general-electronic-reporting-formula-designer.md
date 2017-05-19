@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ac8d6c064ca826cc1c2fed07578ca9ce0c66ef66
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -158,11 +159,11 @@ Kõiki praeguse ER-i komponendi (mudel või vorming) andmeallikaid, mis on avald
 
 #### <a name="path"></a>Tee
 
-Kui avaldis viitab struktureeritud andmeallikale, saate kasutada tee määratlemist, et valida selle andmeallika kindel primitiivne element. Punkti (.) kasutatakse struktureeritud andmeallika üksikute elementide eraldamiseks. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **InvoiceTransactions**, mis tagastab kirjete loendi. Kirje struktuur** InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
+Kui avaldis viitab struktureeritud andmeallikale, saate kasutada tee määratlemist, et valida selle andmeallika kindel primitiivne element. Punkti (.) kasutatakse struktureeritud andmeallika üksikute elementide eraldamiseks. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **InvoiceTransactions**, mis tagastab kirjete loendi. Kirje struktuur**InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
 
 #### <a name="functions"></a>Funktsioonid
 
-Järgmises jaotises kirjeldatakse funktsioone, mida saab kasutada ER-i avaldistes. Kõiki avaldise konteksti (praegune ER-i andmemudel või ER-i vorming) andmeallikaid ja ka konstante saab kasutada helistamisfunktsioonide parameetritena vastavalt helistamisfunktsiooni argumentide loendile. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **InvoiceTransactions**, mis tagastab kirjete loendi. Kirje struktuur** InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise, mis kasutab sisseehitatud ER-i ümardamisfunktsiooni: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
+Järgmises jaotises kirjeldatakse funktsioone, mida saab kasutada ER-i avaldistes. Kõiki avaldise konteksti (praegune ER-i andmemudel või ER-i vorming) andmeallikaid ja ka konstante saab kasutada helistamisfunktsioonide parameetritena vastavalt helistamisfunktsiooni argumentide loendile. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **InvoiceTransactions**, mis tagastab kirjete loendi. Kirje struktuur**InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise, mis kasutab sisseehitatud ER-i ümardamisfunktsiooni: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
 
 ## <a name="supported-functions"></a>Toetatud funktsioonid
 Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida saate kasutada ER-i andmemudelite ja ER-i aruannete koostamiseks. Funktsioonide loend ei ole fikseeritud ja arendajad saavad seda laiendada. Võimalike funktsioonide loendi nägemiseks minge ER-i valemikoostaja funktsioonide paanile.
@@ -257,7 +258,7 @@ Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida sa
 <tr class="odd">
 <td>ORDERBY (loend [, avaldis 1, avaldis 2, …])</td>
 <td>Tagastab määratud loendi, mis on sorditud vastavalt määratud argumentidele, mida saab määratleda avaldistena.</td>
-<td>Kui <strong>Hankija </strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, tagastab<strong> ORDERBY (Vendors, Vendors.'name()')</strong> hankijate loendi, mis on sorditud nimede järgi kasvavas järjestuses.</td>
+<td>Kui <strong>Hankija</strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, tagastab<strong>ORDERBY (Vendors, Vendors.'name()')</strong> hankijate loendi, mis on sorditud nimede järgi kasvavas järjestuses.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (loend)</td>
@@ -397,7 +398,7 @@ Väljad Silt ja Kirjeldus tagastatakse käitusaja väärtuste juures põhinevalt
 
 | Funktsioon             | Kirjeldus                                                                                                                                                                                                                                     | Näide                                                                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| NULLCONTAINER (loend) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel. **Märkus. **See funktsioon on aegunud. Kasutage selle asemel funktsiooni **EMPTYRECORD**.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
+| NULLCONTAINER (loend) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel. **Märkus.**See funktsioon on aegunud. Kasutage selle asemel funktsiooni **EMPTYRECORD**.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
 | EMPTYRECORD (kirje) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel. **Märkus.** Kirje **null** on kirje, mille kõikidel väljadel on tühi väärtus (**0** \[null\] numbrite puhul, tühi string stringide puhul jne). | **EMPTYRECORD (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**.   |
 
 ### <a name="text-functions"></a>Tekstifunktsioonid
@@ -527,23 +528,23 @@ Lisateavet nende funktsioonide kasutamise kohta vaadake tegevusjuhisest **ER-i l
 
 SUMIFS (liitmise võtmestring, kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\])
 
-Tagastab XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad **on välja lülitatud.
+Tagastab XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad**on välja lülitatud.
 
 SUMIF (liitmise võtmestring, kriteeriumivahemiku string, kriteeriumiväärtuse string)
 
-Tagastab XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimuse (vahemik ja väärtus). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad **on välja lülitatud.
+Tagastab XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimuse (vahemik ja väärtus). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad**on välja lülitatud.
 
 COUNTIFS (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\])
 
-Tagastab XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad **on välja lülitatud.
+Tagastab XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad**on välja lülitatud.
 
 COUNTIF (kriteeriumivahemiku string, kriteeriumiväärtuse string)
 
-Tagastab XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimuse (vahemik ja väärtus). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad **on välja lülitatud.
+Tagastab XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimuse (vahemik ja väärtus). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad**on välja lülitatud.
 
 COLLECTEDLIST (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\])
 
-Tagastab XML-i sõlmede väärtuste loendi, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab tühja loendi, kui praeguste failide lipp **Kogu väljundi üksikasjad **on välja lülitatud.
+Tagastab XML-i sõlmede väärtuste loendi, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab tühja loendi, kui praeguste failide lipp **Kogu väljundi üksikasjad**on välja lülitatud.
 
 ### <a name="other-business-domainspecific-functions"></a>Muud (ettevõtte domeenipõhised) funktsioonid
 
@@ -553,7 +554,7 @@ Tagastab XML-i sõlmede väärtuste loendi, mis on kogutud selle vormi käivitam
 | ROUNDAMOUNT (number, kümnendkohad, ümardamisreegel)                                       | Ümardab määratus summa vastavalt määratud ümardamisreeglile ja määratud kümnendkohtade arvule. **Märkus.** Ümardamisreegel peab olema määratud Dynamics 365 for Operationsi nummerdamise **RoundOffType** väärtusena.                          | Kui parameeter **model.RoundOff** on seatud väärtusele ****Allapoole****, tagastab **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000.78**. Kui parameeter **model.RoundOff** on seatud väärtusele **Normaalne** või **Ülespoole ümardamine**, tagastab **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000,79**. |
 | CURCredRef (arvud)                                                              | Tagastab kreeditori viite määratud arve numbri arvude alusel.                                                                                                                                                                                  | **CURCredRef ("VEND-200002")** tagastab väärtuse **"2200002"**.                                                                                                                                                                                                                                                         |
 | MOD\_97 (arvud)                                                                 | Tagastab kreeditori viite MOD97 avaldisena määratud arve numbri arvude alusel.                                                                                                                                                            | **MOD\_97 ("VEND-200002")** tagastab väärtuse **"20000285"**.                                                                                                                                                                                                                                                           |
-| ISOCredRef (arvud)                                                              | Tagastab ISO kreeditori viite määratud arve numbri arvude ja tähestikus olevate sümbolite alusel. **Märkus. **ISO-ga ühildumatute sümbolite tähestikust eemaldamiseks tuleb sisendparameeter enne sellele funktsioonile edastamist tõlkida. | **ISOCredRef ("VEND-200002")** tagastab väärtuse **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
+| ISOCredRef (arvud)                                                              | Tagastab ISO kreeditori viite määratud arve numbri arvude ja tähestikus olevate sümbolite alusel. **Märkus.**ISO-ga ühildumatute sümbolite tähestikust eemaldamiseks tuleb sisendparameeter enne sellele funktsioonile edastamist tõlkida. | **ISOCredRef ("VEND-200002")** tagastab väärtuse **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
 | CN\_GBT\_AdditionalDimensionID (string, number)                                  | Hankige täiendav finantsdimensiooni ID. Dimensioonid on esindatud selles stringis komadega eraldatud ID-dena. Numbrid määratlevad taotletud dimensioonide seeriakoodi selles stringis.                                                                            | CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3) tagastab stringi „CC”                                                                                                                                                                                                                                      |
 | GetCurrentCompany ()                                                             | Tagastab praegu logitud ettevõtte koodi.                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                               |
 | CH\_BANK\_MOD\_10 (numbrid)                                                       | Tagastab kreeditori viite MOD10 avaldisena antud arve numbri numbrite alusel.                                                                                                                                                                      | CH\_BANK\_MOD\_10 ("VEND-200002") tagastab väärtuse 3                                                                                                                                                                                                                                                                   |

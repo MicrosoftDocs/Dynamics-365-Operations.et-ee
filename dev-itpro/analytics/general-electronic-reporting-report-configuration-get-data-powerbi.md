@@ -1,9 +1,9 @@
 ---
-title: Seadistage elektrooniline aruandlus, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations
+title: "Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse"
 description: "See teema selgitab, kuidas saate kasutada oma elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete üleviimine teie rakenduse Dynamics 365 for Operations eksemplarist Power BI teenustesse. Näitena kasutab see teema Intrastati kandeid äriandmetena, mis tuleb üle viia. Power BI kaardi visualisatsioon kasutab selle Intrastati kande andmeid, et esitleda Power BI aruandes ettevõtte impordi-/eksporditegevuse analüüsi vaadet."
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>Seadistage elektrooniline aruandlus, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse
+
+[!include[banner](../includes/banner.md)]
+
 
 See teema selgitab, kuidas saate kasutada oma elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete üleviimine teie rakenduse Dynamics 365 for Operations eksemplarist Power BI teenustesse. Näitena kasutab see teema Intrastati kandeid äriandmetena, mis tuleb üle viia. Power BI kaardi visualisatsioon kasutab selle Intrastati kande andmeid, et esitleda Power BI aruandes ettevõtte impordi-/eksporditegevuse analüüsi vaadet.
 
@@ -61,7 +65,7 @@ Selles teemas näite lõpuleviimiseks peab teil olema järgmine juurdepääs:
 3.  Tööruumis **Elektrooniline aruandlus** tehke soovitud teenusepakkuja aktiivseks, klõpsates valikut **Aktiivsena seadistamine**. Lisateabe jaoks esitage tegevuse juhis **Elektroonilise aruandluse teenusepakkuja valimine**.
 
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Elektroonilise aruandluse andmemudeli kasutamine andmeallikana
-Teil peab olema äriandmete allikaks elektroonilise aruandluse andmemudel, mida kasutatakse Power BI aruannetes. See andmemudel laetakse üles elektroonilise aruandluse konfiguratsioonide hoidlast. Lisateabe jaoks vaadake [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](download-electronic-reporting-configuration-lcs.md) või esitage tegevuse juhis **Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services** . Valige andmemudeliks **Intrastat **, mis laetakse üles valitud elektroonilise aruandluse konfiguratsioonide hoidlast. (Selles näites kasutatakse mudeli versiooni 1.) Seejärel saate lehel **Konfiguratsioonid** pääseda juurde **Intrastat**i elektroonilise aruandluse mudeli konfiguratsioonile. [![Konfiguratsioonide leht](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+Teil peab olema äriandmete allikaks elektroonilise aruandluse andmemudel, mida kasutatakse Power BI aruannetes. See andmemudel laetakse üles elektroonilise aruandluse konfiguratsioonide hoidlast. Lisateabe jaoks vaadake [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](download-electronic-reporting-configuration-lcs.md) või esitage tegevuse juhis **Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services** . Valige andmemudeliks **Intrastat**, mis laetakse üles valitud elektroonilise aruandluse konfiguratsioonide hoidlast. (Selles näites kasutatakse mudeli versiooni 1.) Seejärel saate lehel **Konfiguratsioonid** pääseda juurde **Intrastat**i elektroonilise aruandluse mudeli konfiguratsioonile. [![Konfiguratsioonide leht](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Elektroonilise aruandluse vormingu konfiguratsiooni kujundamine
 Peate looma uue elektroonilise aruandluse vormingus konfiguratsiooni, mis kasutab äriandmete allikana andmemudelit **Intrastat**. Selles vormingus konfiguratsioon peab looma väljundtulemused elektrooniliste dokumentidena OpenXML-i vormingus (Exceli fail). Lisateabe saamiseks esitage tegevuse juhis **ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML**. Määrake uue konfiguratsiooni nimeks **Tegevuste importimine/eksportimine**, a Kasutage elektroonilise aruandluse vormingu kujundamisel mallina Exceli faili [Elektroonilise aruandluse andmed – impordi ja ekspordi üksikasjad](https://go.microsoft.com/fwlink/?linkid=845208). (Saamaks lisateavet, kuidas vormingumalli importida, esitage tegevuse juhis.) [![Impordi-/eksporditegevuste konfiguratsioon](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) Vormingu konfiguratsiooni **Impordi-/eksporditegevused** muutmiseks järgige neid juhiseid.
@@ -119,5 +123,7 @@ Seadistage rakenduste Dynamics 365 for Operations ja Power BI vaheline integrats
 [Elektroonilise aruandluse sihtkohad](electronic-reporting-destinations.md)
 
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+
+
 
 

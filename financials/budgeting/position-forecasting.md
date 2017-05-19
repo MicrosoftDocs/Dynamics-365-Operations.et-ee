@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1bc458d58834be1e2e9b602619f76424b3bb449b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 62dcc8a9b17ad044ac63080a94593a5f6ae2f182
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -98,7 +99,7 @@ Hüvitusgrupis valitud tulu kuluelementi kasutatakse grupi prognoositavate ameti
 
 Kõige täpsema eelarve planeerimise jaoks saate luua prognoositavaid ametikohti, kasutades üksikasju olemasolevatest ametikohtadest Microsoft Dynamics 365 for Operationsis, olenemata sellest, kas ametikoht on praegu täidetud või mitte. 
 
-Funktsioon **Lisa olemasolevad ametikohad** kuvab kõik organisatsiooni ametikohad. Seadistades kuupäeva** Seisuga**, saate muuta ametikohtade loendit, nii et see sisaldab ametikohti, mis olid olemas kuupäeval minevikus või enamasti tulevikus (näiteks järgmise eelarvetsükli algus). Valige eelarve plaanimise protsess ja eelarveplaani stsenaarium, valige loendist ametikohad ja klõpsake siis nuppu **OK**, et luua valitud ametikohtadele prognoositavad ametikohad. Arvestage sellega, et saate luua igale eelarve plaanimise protsessi ja eelarveplaani stsenaariumis olemasolevale ametikohale ainult ühe prognoositava ametikoha. Sellegipoolest saate luua lisaversioone, määrates erinevaid eelarveplaani stsenaariume. 
+Funktsioon **Lisa olemasolevad ametikohad** kuvab kõik organisatsiooni ametikohad. Seadistades kuupäeva**Seisuga**, saate muuta ametikohtade loendit, nii et see sisaldab ametikohti, mis olid olemas kuupäeval minevikus või enamasti tulevikus (näiteks järgmise eelarvetsükli algus). Valige eelarve plaanimise protsess ja eelarveplaani stsenaarium, valige loendist ametikohad ja klõpsake siis nuppu **OK**, et luua valitud ametikohtadele prognoositavad ametikohad. Arvestage sellega, et saate luua igale eelarve plaanimise protsessi ja eelarveplaani stsenaariumis olemasolevale ametikohale ainult ühe prognoositava ametikoha. Sellegipoolest saate luua lisaversioone, määrates erinevaid eelarveplaani stsenaariume. 
 
 Kui jaotises Inimressursid on ametikohale määratud eelarve kuluelemendid, on need eelarve kuluelemendid määratud ka prognoositavale ametikohale ja kasutavad vaikesummasid. Prognoositava ametikoha väljale **Määratud töötaja** on sisestatud ametikohale määratud töötaja nimi, kui töötaja on määratud. See väli on lihtne tekstiväli. Otsest seost ei ole loodud. 
 

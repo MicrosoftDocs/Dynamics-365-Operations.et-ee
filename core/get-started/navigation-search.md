@@ -1,9 +1,9 @@
 ---
 title: Navigeerimisotsing
-description: Selles artiklis selgitatakse, kuidas kasutada otsingufunktsiooni Microsoft Dynamics 365 for Operationsi lehtedel navigeerimiseks.
+description: Selles teemas selgitatakse, kuidas kasutada otsingufunktsiooni Microsoft Dynamics 365 for Operationsi lehtedel navigeerimiseks.
 author: aneesmsft
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 87fed576f8cf358520d94f5cd5b326ff9801913a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 650c8b60ba8204e8990cf607c1c9901b8f0bb762
+ms.openlocfilehash: 9f2cbafa3e21006f458067baf99ea5abaef8bb86
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/28/2017
 
 
 ---
@@ -29,27 +30,34 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis selgitatakse, kuidas kasutada otsingufunktsiooni Microsoft Dynamics 365 for Operationsi lehtedel navigeerimiseks.
+Selles teemas selgitatakse, kuidas kasutada otsingufunktsiooni Microsoft Dynamics 365 for Operationsi lehtedel navigeerimiseks.
 
-Dynamics 365 for Operations pakub mitmesuguste valdkondade ja vertikaallahenduste funktsiooni. Rakendus sisaldab mitut ala ja lehte, mis aitavad teil mitmesuguseid toiminguid teha. Lehtede kiireks leidmiseks tuleb teha toimingud, kasutades navigeerimisotsingu funktsiooni. Selle funktsiooni kasutamiseks klõpsake ikooni **Otsing**, et kuvada väli **Otsing**. Seejärel saate tippida väljale sõna või väljendi. Süsteem otsib kohe rakendusest lehti, mis vastavad teie sisestatud sõnale. Näiteks võite tippida sõna „hankijaarve” ja süsteem kuvab sellele sisestusele vastavad tulemused. **Märkus.** Väli **Otsing** aitab lehti leida ja nende juurde liikuda. See ei aita leida konkreetseid andmeid ega toiminguid. 
+Dynamics 365 for Operations pakub mitmesuguste valdkondade ja vertikaallahenduste funktsiooni. Rakendus sisaldab mitut ala ja lehte, mis aitavad teil mitmesuguseid toiminguid teha. Ülesannete täitmiseks vajalike lehtede kiireks leidmiseks saate kasutada navigeerimise otsingufunktsiooni. 
 
-[![search-box](./media/search-box.png)](./media/search-box.png) Navigeerimise otsingufunktsioon on samuti suurepärane viis kiiresti konkreetsele lehele liikumiseks. Näiteks, kui olete ostureskontro ametnik, kes sageli kasutab lehte **Makse tööleht**, võite sisestada otsinguväljale sõna „makse tööleht”. Kuna sisestus vastab täpselt lehe pealkirjale, on leht otsingutulemuste alguses ja pääsete sellele kiiresti juurde. 
+Selle funktsiooni kasutamiseks klõpsake ikooni **Otsing**, et kuvada väli **Otsing**. Seejärel saate tippida väljale sõna või väljendi. Süsteem otsib kohe rakendusest lehti, mis vastavad teie sisestatud sõnale. Näiteks võite tippida sõna „hankijaarve” ja süsteem kuvab sellele sisestusele vastavad tulemused. 
 
-[![searching-for-payment-journal](./media/searching-for-payment-journal.png)](./media/searching-for-payment-journal.png) 
+**Märkus.** Väli **Otsing** aitab lehti leida ja nende juurde liikuda. See ei aita leida konkreetseid andmeid ega toiminguid. 
 
-Otsingutulemuste loend kuvab lehe pealkirja ja navigeerimistee. See aitab saada teada lehe asukohta rakenduses. Samuti aitab see eristada tulemustes mitut sarnast lehte. Lehe otsimisel võrreldakse sisestust lehe pealkirja ja selle navigeerimisteega. Näiteks kui sisestate** **otsinguväljale sõna „saadaolev”, näete nende lehtede tulemusi, mis on teile kättesaadavad ostureskontro alal – isegi kui lehtede pealkirjades pole sõna „saadaolev”. 
+[![otsinguväli](media/navigation-search.png "Otsinguväli") 
 
-[![search-for-the-word-receivable](./media/search-for-the-word-receivable.png)](./media/search-for-the-word-receivable.png) 
+## <a name="quickly-navigate-to-a-particular-page"></a>Kiiresti liikumine kindlale lehele
+Navigeerimise otsingufunktsioon on ka suurepärane viis kiiresti kindlale lehele liikumiseks. Näiteks kui olete ostureskontro ametnik, kes kasutab sageli lehte **Maksetööleht**, võite sisestada **otsinguväljale** sõna „maksetööleht”. Kuna sisestus vastab täpselt lehe pealkirjale, on leht otsingutulemuste alguses ja pääsete sellele kiiresti juurde. 
 
-Halduse ja turbe vaatepunktist hõlmab navigeerimisotsingu funktsioon ainult:
+Otsingutulemuste loend kuvab lehe pealkirja ja navigeerimistee. See näitab lehe asukohta rakenduses. Samuti aitab see eristada tulemustes mitut sarnast lehte. 
+
+Lehe otsimisel võrreldakse sisestust lehe pealkirja ja selle navigeerimisteega. Näiteks kui sisestate **otsinguväljale** sõna „ostureskontro”, näete nende lehtede tulemusi, mis on teile kättesaadavad ostureskontro alal, isegi kui lehtede pealkirjades pole sõna „ostureskontro”. 
+
+## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a>Lehele kiiresti liikumine tehnilise vormi nime alusel
+Navigeerimisotsingu funktsioon sisaldab ka eeliskasutajate palju nõutud funktsiooni: võimalust minna kiiresti lehele tehnilise vormi nime alusel. Paljud kasutajad on süsteemiga nii tuttavad, et nad teavad täpseid vormide nimesid, millega nad töötavad. Kui olete ka selline kasutaja, võite sisestada sõna **vorm:** ja selle järele vormi nime, mida otsite. Näiteks kui sisestate **vorm: vendinvoice**, kuvatakse otsingutulemustes kõik lehed, kus vormi nimi algab sõnaga **vendinvoice**. 
+
+## <a name="administration-and-security"></a>Administreerimine ja turve
+Administreerimise ja turbe vaatepunktist hõlmab navigeerimisotsingu funktsioon ainult kaht tüüpi tulemusi:
 
 -   lehti, mis on praeguses konfiguratsioonis lubatud (konfiguratsioonivõtmete kaudu);
 -   lehti, millele kasutajal on oma rolli põhjal juurdepääs.
 
-Otsingutulemuste loend on piiratud 10 üksusega. Kui te ei leia tulemustest seda, mida otsite, võiksite proovida sisestust täpsustada või muuta. Arenduse vaatepunktist on navigeerimisotsingu funktsiooni väga lihtne kasutada, kuna menüüelementide juurutamise ja nende kuvamise vahel otsingutulemustes põhimõtteliselt puudub igasugune viivitus. Kui menüüelemendid on seotud navigeerimispaani või armatuurlauaga, muutuvad need automaatselt otsitavaks. Navigeerimisotsingu funktsioon sisaldab ka eeliskasutajate palju nõutud funktsiooni: võimalust minna kiiresti lehele tehnilise vormi nime alusel. Paljud kasutajad on süsteemiga nii tuttavad, et nad teavad täpseid vormide nimesid, millega nad töötavad. Kui olete ka selline kasutaja, võite sisestada sõna **vorm:** ja selle järele vormi nime, mida otsite. Näiteks kui sisestate **vorm: vendinvoice**, kuvatakse otsingutulemustes kõik lehed, kus vormi nimi algab sõnaga **vendinvoice**. 
+Otsingutulemuste loend on piiratud 10 üksusega. Kui te ei leia tulemustest seda, mida otsite, võiksite proovida sisestust täpsustada või muuta. 
 
-[![search-for-form-vendinvoice](./media/search-for-form-vendinvoice.png)](./media/search-for-form-vendinvoice.png)
-
-
-
+## <a name="development"></a>Arendus 
+Arenduse vaatepunktist on navigeerimise otsingufunktsiooni väga lihtne kasutada, kuna menüüelementide juurutamise ja nende kuvamise vahel otsingutulemustes puudub praktiliselt igasugune viivitus. Kui menüüelemendid on seotud navigeerimispaani või armatuurlauaga, muutuvad need automaatselt otsitavaks. 
 

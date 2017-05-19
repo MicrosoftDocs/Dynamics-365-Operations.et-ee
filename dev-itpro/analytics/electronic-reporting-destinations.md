@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Toetatakse mitmesugust tüüpi sihtkohti. Saate keelata või lubada kõik tüüb
 
 ### <a name="email-destination"></a>Meili sihtkoht
 
-Määrake valiku **Lubatud **väärtuseks **Jah** väljundfaili saatmiseks meiliga. Kui see valik on lubatud, saate määrata meili adressaadid ning redigeerida meilisõnumi teemat ja kehateksti. Saate seadistada meilide teema ja kehateksti jaoks püsiteksti või kasutada meilitekstide loomiseks elektroonilise aruandluse valemeid. Elektroonilise aruandluse meiliaadresside konfigureerimiseks on kaks võimalust. Konfiguratsiooni saab lõpule viia samamoodi, nagu prindihalduse funktsiooni puhul teenuses rakenduses Dynamics 365 for Operations. Teine võimalus on lahendada meiliaadress otseviitega elektroonilisele aruandlusele valemi kaudu.
+Määrake valiku **Lubatud**väärtuseks **Jah** väljundfaili saatmiseks meiliga. Kui see valik on lubatud, saate määrata meili adressaadid ning redigeerida meilisõnumi teemat ja kehateksti. Saate seadistada meilide teema ja kehateksti jaoks püsiteksti või kasutada meilitekstide loomiseks elektroonilise aruandluse valemeid. Elektroonilise aruandluse meiliaadresside konfigureerimiseks on kaks võimalust. Konfiguratsiooni saab lõpule viia samamoodi, nagu prindihalduse funktsiooni puhul teenuses rakenduses Dynamics 365 for Operations. Teine võimalus on lahendada meiliaadress otseviitega elektroonilisele aruandlusele valemi kaudu.
 
 ### <a name="email-address-types"></a>Meiliaadressi tüübid
 
@@ -92,7 +93,7 @@ Kasutage seda meilitüüpi, kui kasutataval konfiguratsioonil on andmeallikates 
 
 ### <a name="archive-destination"></a>Arhiivi sihtkoht
 
-Selle valiku abil saab saata väljundi Microsoft SharePointi kausta või Microsoft Azure’i salvestusruumi. Määrake valiku **Lubatud** väärtuseks **Jah **väljundi saatmiseks valitud dokumenditüübiga määratletud sihtkohta. Valida saab ainult neid dokumenditüüpe, millel grupiks on määratud **Fail**. Dokumenditüübid saate määratleda jaotises **Organisatsiooni haldus** &gt; **Dokumendihaldus** &gt; **Dokumenditüübid**. ER-i sihtkohtade konfiguratsioon on sama, mis dokumendihaldussüsteemi konfiguratsioon.
+Selle valiku abil saab saata väljundi Microsoft SharePointi kausta või Microsoft Azure’i salvestusruumi. Määrake valiku **Lubatud** väärtuseks **Jah**väljundi saatmiseks valitud dokumenditüübiga määratletud sihtkohta. Valida saab ainult neid dokumenditüüpe, millel grupiks on määratud **Fail**. Dokumenditüübid saate määratleda jaotises **Organisatsiooni haldus** &gt; **Dokumendihaldus** &gt; **Dokumenditüübid**. ER-i sihtkohtade konfiguratsioon on sama, mis dokumendihaldussüsteemi konfiguratsioon.
 
 [![Leht Dokumenditüübid](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 

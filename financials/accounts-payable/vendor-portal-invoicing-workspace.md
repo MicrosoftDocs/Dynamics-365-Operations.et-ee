@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7aebcdf0578d931d326420b42e2b220407049bc6
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Hankija koostöö arve tööruum
+
+[!include[banner](../includes/banner.md)]
+
 
 See teema selgitab, kuidas saate vaadata hankijaarveid ja edastada arveid hankija koostöö arveldamise tööruumist.
 
@@ -43,7 +47,7 @@ Paanid **Kokkuvõte** annavad valitud hankija arvetest ülevaate. Saate vaadata 
 Paani klõpsamine avab lehest **Arvete loend** filtreeritud vaate.
 ### <a name="tabular-lists"></a>Tabelloendid
 
-Jaotises **Tabelloendid **on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid. Mustandi olekus saab arve edastada töövoosse või kustutada. Viimane tabelloend on võimalus arvete leidmiseks. Saate otsides filtreerida, et võimaldada kiiremaid otsinguid.
+Jaotises **Tabelloendid**on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid. Mustandi olekus saab arve edastada töövoosse või kustutada. Viimane tabelloend on võimalus arvete leidmiseks. Saate otsides filtreerida, et võimaldada kiiremaid otsinguid.
 Kõikide hankijaarvete loendileht
 -----------------------------
 
@@ -55,6 +59,8 @@ Saate luua uue hankijaarve, valides tegevuse **Uus** tööruumis **Hankija koost
 
 
 
-Lisateabe saamiseks vaadake teemat [Hankijatega koostöö tegemine hankija portaali kasutades](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Lisateabe saamiseks vaadake teemat [Hankijatega koostöö tegemine hankija portaali kasutades](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+
+
 
 

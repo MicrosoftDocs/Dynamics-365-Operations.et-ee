@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uus või muutunud rakenduses Dynamics AX 7.0 (veebruar 2016)
+
+[!include[banner](../includes/banner.md)]
+
 
 Artikkel kirjeldab funktsioone, mis on Microsoft Dynamics AX 7.0-s kas uued või muudetud. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016.
 
@@ -170,7 +174,7 @@ See funktsioon töötab toodetud kaubale määratud kuluarvestuse meetoditest s�
 <td>Võimaldab ühiskasutuses teenuse raamatupidajal siseneda ettevõtete lõikes pearaamatutesse, ilma et oleks vaja vormilt lahkuda või ettevõtte konteksti vahetada.</td>
 </tr> 
 <tr class="odd">
-<td>Kasutage uut lehte **Arvestusallika uurija **.</td>
+<td>Kasutage uut lehte **Arvestusallika uurija**.</td>
 <td>Saadaval alates versioonist Dynamics AX 2012 R3 CU10.</td>
 <td>Uus leht **Arvestusallika uurija** ja toimingud loendilehelt **Proovisaldo** ja lehelt **Kande toimingud** sinna liikumiseks.</td>
 <td>Teeb võimalikuks kõige üksikasjalikuma teabe vaatamise proovisaldo või raamatupidamiskirje allika kohta pearaamatus või sihtanalüüsiks.</td>
@@ -331,8 +335,8 @@ See funktsioon töötab toodetud kaubale määratud kuluarvestuse meetoditest s�
 <tr class="even">
 <td>Protseduuride juhendava spikri (ülesande juhised) ja mõisteid kirjeldavad teemad saate avada, klõpsates jaotist **Spikker**.</td>
 <td>AX 2012 spikrisüsteemi osutab HTML-teemadele, mis on salvestatud kohalikku veebiserverisse. Kliendid ja partnerid saavad luua oma spikri.</td>
-<td>Dynamics AX-i praeguse versiooni spikrisüsteemi kuvab ülesande juhised, mis on salvestatud ja Microsoft Dynamicsi teenuse Lifecycle Services (LCS) BPM-i. Spikrisüsteemi kuvab ka Microsofti viki teemasid. Lisateabe saamiseks vaadake teemat [Dynamics AX-i spikker – Alustamine](help-overview.md) ja teemat [Saadaval on uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md).</td>
-<td>Ülesande juhised pakuvad juhendatud, interaktiivset kogemust, mis juhib teid läbi ülesande või äriprotsessi toimingute. Saate alla laadida ja kohandada Microsofti pakutavaid ülesande juhiseid. Wiki annab kiirema ja paindlikuma viisi luua, edastada ja värskendada tootedokumentatsiooni. Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.</td>
+<td>Dynamics AX-i praeguse versiooni spikrisüsteemi kuvab ülesande juhised, mis on salvestatud ja Microsoft Dynamicsi teenuse Lifecycle Services (LCS) BPM-i. Spikrisüsteem kuvab ka Microsofti dokumendisaid teemasid. Lisateabe saamiseks vaadake teemat [Dynamics AX-i spikker – Alustamine](help-overview.md) ja teemat [Saadaval on uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md).</td>
+<td>Ülesande juhised pakuvad juhendatud, interaktiivset kogemust, mis juhib teid läbi ülesande või äriprotsessi toimingute. Saate alla laadida ja kohandada Microsofti pakutavaid ülesande juhiseid. Teema pakub kiiremat ja paindlikumat viisi tootedokumentatsiooni loomiseks, edastamiseks ning värskendamiseks. Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.</td>
 </tr>
 </tbody>
 </table>
@@ -555,7 +559,7 @@ Uusi funktsioone ei ole lisatud.
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Mida saate teha?**                                                                                                                                 | **Dynamics AX 2012**                                                                                                             | **Dynamics AX 7.0**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Miks on see oluline?**                                                                                                                                                                                                                                            |
 | Kontrollige materjali saadavust tootmistellimuste jaoks eraldi lehel, mis avaneb tööruumist **Tootmisosakonna haldus**. | Pole saadaval                                                                                                                    | Tootmise ülevaataja saab kontrollida, kas plaanitud tootmistellimuste materjalid on vajalikul kuupäeval saadaval. Tööruumis näeb tootmise ülevaataja, kui palju tootmistellimusi plaanitud olekus ja väljastamise ootel on. Dünaamilise koondplaani põhjal värskendatakse materjali saadavuse teavet, kui materjalinõuded on tegelike või plaanitud tellimuste puhul vaba kaubavaruga täidetud. Materjali saadavuse teabe põhjal võib ülevaataja tellimused lehel **Materjali saadavus** väljastada.                                                                                                                                                                                                                                                                                                                        | See aitab tootmise ülevaatajatel teha õigeid otsuseid materjalide eraldamise kohta tellimustele, kui tootmistellimusi tööde tegemise etappi väljastatakse.                                                                                                       |
-| Saate käivitada tootmistööd ja teatada nende edenemisest uue lehe **Töökaardi vahend** kaudu.                                                              | Vorm **Töö registreerimine **on mõeldud peamiselt suurte terminaliekraanide jaoks ja kasutajaliidesele pääseb tavaliselt juurde hiireklõpsudega. | Kuigi uus leht **Töökaardi vahend** on lihtsa ülesehitusega, on see mõeldud ka puuteekraani jaoks. Lehe sobib hästi mobiilsetele seadmetele (nt tahvelarvutitele ja telefonidele). Töid tegev töötaja kogeb vähem liigset teabehulka ja rohkem intuitiivset kasutuslihtsust. Töötaja saab teha tavalisi toiminguid töö alustamine, lõpetamine ja töö edenemisest teatamine. Lisaks tegeliku töö tegemisele või sisse- ja väljalogimisele saab töötaja vaadata manuseid, teha lõunapausi ja muid tegevusi. Tööd on töötaja jaoks plaanitud järjestuses, kuid töötaja saab neid ka valida. Leht on peamiselt mõeldud diskreetse tootmise tegevuste jaoks, kus materjalid valmistatakse tootmiseks ette. Stsenaariumide puhul, mis on seotud kaastoodete ja kõrvalsaaduste aruandlusega ning materjalide komplekteerimisega, jälgides dimensioone, kasutage lehte **Töö registreerimine**. | Alternatiivse kasutajaliidese abil, mis on mõeldud puutega kasutamiseks ja millele pääseb juurde kõikvõimalikelt seadmetelt (nt terminaliekraanidelt ja mobiilsetelt seadmetelt), aitab see funktsioon vähendada tavalise tööetapi registreerimise juurutuskulusid. |
+| Saate käivitada tootmistööd ja teatada nende edenemisest uue lehe **Töökaardi vahend** kaudu.                                                              | Vorm **Töö registreerimine**on mõeldud peamiselt suurte terminaliekraanide jaoks ja kasutajaliidesele pääseb tavaliselt juurde hiireklõpsudega. | Kuigi uus leht **Töökaardi vahend** on lihtsa ülesehitusega, on see mõeldud ka puuteekraani jaoks. Lehe sobib hästi mobiilsetele seadmetele (nt tahvelarvutitele ja telefonidele). Töid tegev töötaja kogeb vähem liigset teabehulka ja rohkem intuitiivset kasutuslihtsust. Töötaja saab teha tavalisi toiminguid töö alustamine, lõpetamine ja töö edenemisest teatamine. Lisaks tegeliku töö tegemisele või sisse- ja väljalogimisele saab töötaja vaadata manuseid, teha lõunapausi ja muid tegevusi. Tööd on töötaja jaoks plaanitud järjestuses, kuid töötaja saab neid ka valida. Leht on peamiselt mõeldud diskreetse tootmise tegevuste jaoks, kus materjalid valmistatakse tootmiseks ette. Stsenaariumide puhul, mis on seotud kaastoodete ja kõrvalsaaduste aruandlusega ning materjalide komplekteerimisega, jälgides dimensioone, kasutage lehte **Töö registreerimine**. | Alternatiivse kasutajaliidese abil, mis on mõeldud puutega kasutamiseks ja millele pääseb juurde kõikvõimalikelt seadmetelt (nt terminaliekraanidelt ja mobiilsetelt seadmetelt), aitab see funktsioon vähendada tavalise tööetapi registreerimise juurutuskulusid. |
 
 ## <a name="master-planning-and-forecasting"></a>Koondplaneerimine ja eelarvestamine
 |                                                                                                                            |                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                         |
@@ -1076,5 +1080,7 @@ Uusi funktsioone ei ole lisatud.
 [Mida on uut või muudetud?](whats-new-changed.md)
 
 [Saadava on uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
+
+
 
 

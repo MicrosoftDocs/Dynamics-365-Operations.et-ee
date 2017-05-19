@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 451273a8ee98f7033795182e754f76aca3788f47
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6379f63a367dab51fa3ed6465ed8422a44ef7a7a
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Arve loetakse ülemakstuks, kui maksesumma on suurem kui arve summa, millest on 
 | 105,00        | 10,50                   | 94,50                                               | 95,00                             |
 
 ## <a name="cash-discount-administration--specific"></a>Skonto haldamine = spetsiifiline
-Kui lehe **Automaatsete kannete kontod** väljal **Skonto haldamine** valitakse suvand **Spetsiifiline**, vetakse täielik skonto. Ülemakse summa sisestatakse skonto erinevuse pearaamatukontole või jäetakse saldona kliendi kontole. Käitumine oleneb sellest, kas ülemakse summa on 0,00 ja väljale** Suurim üle- või alamakse** sisestatud summa vahel või kas ülemakse summa on suurem kui summa väljal **Suurim üle- või alamakse**.
+Kui lehe **Automaatsete kannete kontod** väljal **Skonto haldamine** valitakse suvand **Spetsiifiline**, vetakse täielik skonto. Ülemakse summa sisestatakse skonto erinevuse pearaamatukontole või jäetakse saldona kliendi kontole. Käitumine oleneb sellest, kas ülemakse summa on 0,00 ja väljale**Suurim üle- või alamakse** sisestatud summa vahel või kas ülemakse summa on suurem kui summa väljal **Suurim üle- või alamakse**.
 
 ### <a name="scenario-1"></a>1. stsenaarium
 

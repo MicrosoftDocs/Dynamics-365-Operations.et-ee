@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 25c2f85298bb89cb2802c7f0f7ff632c08aeca8f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e25a7657c2b859ffd57313ed7eb8da6583e7130d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,7 +62,7 @@ Saate parandusi teha, kasutades vabas vormis arve tegevuspaani nuppu **Arve para
 
 Saate tühistada kliendikande arvel, kui arve loodi valesti. Kui tühistatud kliendikandel on viivisearves sisalduv intress ja viivisearve on sisestatud, tühistatakse ka kande intress viivisearvel. Kui viivisearve pole sisestatud, siis see tühistatakse. 
 
-Saate kliendi kanded tühistada, kasutades nuppu **Tühista **lehel **Kliendi kanded**.
+Saate kliendi kanded tühistada, kasutades nuppu **Tühista**lehel **Kliendi kanded**.
 
 ## <a name="waive-or-reinstate-interest-notes"></a>Viivisearvetest loobumine või nende ennistamine
 Saate loobuda või ennistada kõik tasud valitavatel viivisearvetel. Kui loobute tasude nõuetest, ei saa loobumise kogusumma ületada määratud summapiiranguid. Viivisearve saab ennistada ainult juhul, kui sellest eelnevalt loobuti. 
@@ -81,7 +82,7 @@ Saate viivisearvetest loobuda või need ennistada, kasutades nuppu **Tasu** lehe
 ## <a name="reverse-interest-notes"></a>Viivisearvete tühistamine
 Saate tühistada kõik tasud valitavatel viivisearvetel. Tühistatud tasud eemaldatakse kliendi kontolt ja need ei ole enam sissenõutavad. Pärast seda, kui viivisearve tühistatakse, saab intressi ümber arvutada ja luua uue viivisearve. 
 
-Saate viivisearved tühistada, kasutades nuppu **Viivisearve **lehe **Klient** vahekaardil **Kogu**.
+Saate viivisearved tühistada, kasutades nuppu **Viivisearve**lehe **Klient** vahekaardil **Kogu**.
 
 ## <a name="reverse-interest-transactions"></a>Intressikannete tühistamine
 Saate tühistada kõik intressikanded, mille valite. Tühistatud tasud eemaldatakse kliendi kontolt ja need ei ole enam sissenõutavad. Pärast seda, kui kanded tühistatakse, saab intressi ümber arvutada ja luua uue viivisearve.
@@ -91,7 +92,7 @@ Saate intressikanded tühistada, kasutades nuppu **Kande intress** lehe **Klient
 ## <a name="view-the-history-of-adjustments-for-charges-that-were-waived-reinstated-or-reversed"></a>Loobutud, ennistatud või tühistatud tasude korrigeerimiste ajaloo vaatamine
 Saate vaadata viivisearvetes tehtud korrigeerimiste üksikasjalikku ajalugu, näiteks korrigeerimise sisestanud kasutajat, korrigeerimise tüüpi, summat ja sisestamise aega. Näiteks võite vaadata viivisearvele sisestatud eelmisi korrigeerimisi enne uue viivisearve loomist. 
 
-Saate intressikanded tühistada, kasutades nuppu **Ajalugu **lehe **Klient** vahekaardil **Kogu**.
+Saate intressikanded tühistada, kasutades nuppu **Ajalugu**lehe **Klient** vahekaardil **Kogu**.
 
 
 

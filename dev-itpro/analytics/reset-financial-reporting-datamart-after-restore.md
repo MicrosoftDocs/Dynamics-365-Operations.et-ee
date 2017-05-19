@@ -1,9 +1,9 @@
 ---
 title: "Finantsaruandluse andmevaka lähtestamine pärast andmebaasi taastamist"
 description: "Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Operationsi andmebaasi taastamist."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Finantsaruandluse andmevaka lähtestamine pärast andmebaasi taastamist
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Operationsi andmebaasi taastamist. 
 
@@ -43,7 +47,11 @@ Kõigepealt eksportige aruandekoosturis paiknevad aruandekujundused, tehes järg
 5.  Sisestage faili nimi ja valige turvaline asukoht, kuhu soovite eksporditud aruande definitsioonid salvestada.
 6.  Klõpsake käsku **Salvesta**.
 
-Faili saab kopeerida või laadida üles turvalisse asukohta, et selle saaks muul ajal teistsugusesse keskkonda importida. Teavet Microsoft Azure’i salvestuskonto kohta leiate jaotisest [Andmeedastus käsurea utiliidiga AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Märkus.** Microsoft ei paku Dynamics 365 for Operationsi lepingu raames salvestuskontot. Peate ostma salvestuskonto või kasutama eraldi Azure’i tellimuse salvestuskontot. **Oluline!** Olge kursis Azure’i virtuaalarvutite D-ketta käitumisega. Ärge hoidke sellel pidevalt eksporditud koosteüksuste gruppe. Lisateavet ajutiste ketaste kohta leiate jaotisest [Ajutine ketas Windows Azure’i virtuaalarvutites](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Faili saab kopeerida või laadida üles turvalisse asukohta, et selle saaks muul ajal teistsugusesse keskkonda importida. Teavet Microsoft Azure’i salvestuskonto kohta leiate jaotisest [Andmeedastus käsurea utiliidiga AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> Microsoft ei paku Dynamics 365 for Operationsi lepingu raames salvestuskontot. Peate ostma salvestuskonto või kasutama eraldi Azure’i tellimuse salvestuskontot. 
+> [!WARNING]
+> Olge kursis Azure’i virtuaalarvutite D-ketta käitumisega. Ärge hoidke sellel pidevalt eksporditud koosteüksuste gruppe. Lisateavet ajutiste ketaste kohta leiate jaotisest [Ajutine ketas Windows Azure’i virtuaalarvutites](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Teenuste peatamine
 Kasutage kaugarvutit ühenduse loomiseks kõigi arvutitega keskkonnas ja peatage faili services.msc abil järgmised Windowsi teenused:
@@ -96,7 +104,9 @@ Taaskäivitage faili services.msc abil eelnevalt peatatud teenused.
 Importige aruande kujundused aruandekoosturist, kasutades eksportimise ajal loodud faili.
 
 1.  Minge aruandekoosturis jaotisse **Ettevõte** &gt; **Koosteüksuste grupid**.
-2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. **Märkus.** Dynamics 365 for Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
+2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. 
+    > [!NOTE]
+    > Dynamics 365 for Operationsi puhul toetatakse ainult üht koosteüksuste gruppi: **Vaikeväärtus**.
 3.  Valige koosteüksus **Vaikeväärtus** ja klõpsake nuppu **Impordi**.
 4.  Valige eksporditud aruande definitsioone sisaldav fail ja klõpsake nuppu **Ava**.
 5.  Valige dialoogiboksist Import imporditavad aruande definitsioonid.
@@ -104,6 +114,8 @@ Importige aruande kujundused aruandekoosturist, kasutades eksportimise ajal lood
     -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite importimiseks valige imporditavad aruanded, read, veerud, puud või dimensioonikogumid.
 
 6.  Klõpsake nuppu **Impordi**.
+
+
 
 
 

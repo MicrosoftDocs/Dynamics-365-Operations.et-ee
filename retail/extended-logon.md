@@ -1,6 +1,6 @@
 ---
 title: "Pilve kassasse ja MPOS‑i laiendatud sisselogimise funktsiooni seadistamine"
-description: "See viki käsitleb võimalusi laiendatud sisselogimise seadistamiseks Cloud POS-is ja Retail Modern POS-is (MPOS)."
+description: "See teema käsitleb võimalusi laiendatud sisselogimise seadistamiseks pilve kassas ja tänapäevases jaemüügikassas (MPOS)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
@@ -17,17 +17,21 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 0dc80784a5c9a7de6009826284cb68f1aee83f70
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 499fd5947a96f4a44f09883d5dd0d6124758e47a
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Pilve kassasse ja MPOS‑i laiendatud sisselogimise funktsiooni seadistamine
 
-See viki käsitleb võimalusi laiendatud sisselogimise seadistamiseks Cloud POS-is ja Retail Modern POS-is (MPOS).
+[!include[banner](includes/banner.md)]
+
+
+See teema käsitleb võimalusi laiendatud sisselogimise seadistamiseks pilve kassas ja tänapäevases jaemüügikassas (MPOS).
 
 <a name="setting-up-extended-logon"></a>Laiendatud sisselogimise seadistamine
 =========================
@@ -69,5 +73,7 @@ Sisselogimisteenust saab laiendada täiendavate laiendatud sisselogimine seadmet
 ====================
 
 Kui laiendatud sisselogimine on konfigureeritud ja töötajale on määratud vöötkood või magnetriba, peab töötaja kassa sisselogimislehe kuvamisel tegema ainult kaarditõmbe või ‑skanni. Kui sisselogimise jätkamiseks on kohustuslik ka parool, palutakse töötajal oma parool sisestada.
+
+
 
 

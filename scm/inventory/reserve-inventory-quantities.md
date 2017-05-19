@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7361b2e04376284238c8c9b1f91d03d18b121d24
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e414d5a5f946ff67befdf824cbf994a99dfe3eb6
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Jaotis **Varude poliitikad** sisaldab järgmiseid reserveerimispoliitikaid.
 | **Reserveerimispoliitika**  | **Kirjeldus**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | FIFO kuupäevakontrolliga    | Kui valite suvandi **FIFO kuupäevakontrolliga**, kontrollitakse varude reserveerimist FIFO põhimõtte järgi sortimiskuupäevaga. Partiid reserveeritakse kaupade sissetuleku varaseima kuupäeva põhjal esimese sissetuleku, esimese väljamineku (FIFO) põhimõtte järgi.                                                                                                                                                                                                                                                                       |
 | Lähetuskuupäevast tagasi | See suvand muutub kättesaadavaks, kui valisite suvandi **FIFO kuupäevakontrolliga**. Kui valite **Lähetuskuupäevast tagasi**, reserveeritakse varusid soovitud lähetuskuupäevast tagasi LIFO-põhimõtte järgi (viimasena sisse, esimesena välja). Kui enne lähetuskuupäeva ei ole ühtegi sissetulekut saadaval, kasutatakse FIFO reserveerimist.                                                                                                                                                                                                           |
-| Kauba müügireserveering  | Määrab, kas kauba reserveerimine on manuaalne või automaatne. Kui reserveerimine on automaatne, reserveeritakse varud tellimusridade loomisel. On võimalik teha reserveeringuid koosluste kaubakoodi tasemel (suvand **Automaatne**) või koosluse individuaalsete elementide tasemel (suvand **Koosnevus**). Valiku **Kauba müügireserveering vaikeväärtus** päritakse lehelt **Müügireskontro parameetrid** Sellel lehel määratakse väärtus väljal Reserveerimine jaotises **Müügi vaikeväärtused** **** vahekaardil **Üldine**. |
+| Kauba müügireserveering  | Määrab, kas kauba reserveerimine on manuaalne või automaatne. Kui reserveerimine on automaatne, reserveeritakse varud tellimusridade loomisel. On võimalik teha reserveeringuid koosluste kaubakoodi tasemel (suvand **Automaatne**) või koosluse individuaalsete elementide tasemel (suvand **Koosnevus**). Valiku **Kauba müügireserveering vaikeväärtus** päritakse lehelt **Müügireskontro parameetrid** Sellel lehel määratakse väärtus vahekaardil **Üldine** **jaotise** **Müügi vaikeväärtused** väljal Reserveerimine. |
 | Sama partii valimine    | Sama partii reserveerimisel saate reserveerida müügitellimuse rea varusid ühe varupartii suhtes. Kui soovite seda suvandit kasutada, peate määrama ka suvandi **Konsolideeri vajadus** väärtusele **Jah**. On täiendavad sätted, mis on vajalikud jälgimisdimensiooni grupi ja laoala dimensiooni grupi jaoks. Lisateabe saamiseks vaadake [Sama partii reserveerimine müügitellimuse jaoks](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Konsolideeri vajadus | See suvand on sarnane suvandile **Sama partii valimine** ja see konsolideerib varud, mis reserveeris müügitellimuse read üheks nõudeks.                                                                                                                                                                                                                                                                                                                                                                                      |
 | FEFO kuupäevakontrolliga    | See suvand võimaldab teil reserveerida partiid, mis on sarnased nende aegumiskuupäevale või parim enne kuupäevale. Samuti peate määrama välja **Komplekteerimise kriteeriumid**, et valida **Aegumiskuupäev** või **Parim enne kuupäev**.                                                                                                                                                                                                                                                                                                                              |
@@ -76,7 +77,7 @@ Müügitellimus, mille puhul tuleb kasutada automaatset reserveerimist ja mis pe
 ### <a name="policies-on-the-inventory-and-warehouse-management-parameter-page"></a>Poliitikad varude ja laohalduse parameetrilehel.
 
 Lehel **Varude ja laohalduse parameetrid** on kaks suvandit seotud reserveerimistega.
--   Suvand **Reserve ordered items** vahekaardil **Üldine ** võimaldab reserveerida kauba sissetulekuid, mis on tellitud kauba väljaminekute suhtes moodulites Müügireskontro, Projektijuhtimine ja raamatupidamine ning Tootmise juhtimine. Selle valiku tühistamisel saate reserveerida ainult füüsiliselt sissetulnud kaupu. Kui konkreetse kauba puhul on lubatud negatiivne laovaru, pole see väli vajalik.
+-   Suvand **Reserve ordered items** vahekaardil **Üldine** võimaldab reserveerida kauba sissetulekuid, mis on tellitud kauba väljaminekute suhtes moodulites Müügireskontro, Projektijuhtimine ja raamatupidamine ning Tootmise juhtimine. Selle valiku tühistamisel saate reserveerida ainult füüsiliselt sissetulnud kaupu. Kui konkreetse kauba puhul on lubatud negatiivne laovaru, pole see väli vajalik.
 -   Suvand **Kaupade automaatne reserveerimine** vahekaardil **Transport** määrab vaikesätte, kui kaubad reserveeritakse üleviimistellimuste jaoks automaatselt. Vaikesätte saab individuaalsetel üleviimistellimustel alistada.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Varude reserveerimispoliitikad tootmisparameetrite lehel

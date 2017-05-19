@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8b13d734c22203618183b8855f99da8e51114f76
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5c21260315a08ecb31ae180d2d905a8606de2e88
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,13 +62,13 @@ Uus kuluarvutuse versioon on määratud teisenduskirjele, nagu näitab kuluarves
 Kauba kuluteavet sellele määratud kuluarvutuse versioonis saab hallata ainult lehelt **Standardkulu teisendused**. Teisenduse ajal ei saa kuluarvutuse versiooni kulude arvutamiseks kasutada lehte **Kuluarvutuse versiooni seadistus** või **Kuluarvutuse versiooni hooldus**. Kuid saate kasutada neid lehti kuluarvutuse versiooni haldamiseks pärast teisendusprotsessi lõpuleviimist.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Tuvastage kaubad, mis teisendatakse standardseks kuluks.
-Tuvastage lehel** Standardkulu teisendused** eraldi üksused, mis tuleks standardkuluks teisendada. Lehel **Lisa üksusi standardkulu teisendusele** saate lisada mitu üksust. Üldjuhul peaksite lisama kõik toodetud kaubad ühte teisenduskirjesse, mis aitab tagada kulude õige arvutamise.
+Tuvastage lehel**Standardkulu teisendused** eraldi üksused, mis tuleks standardkuluks teisendada. Lehel **Lisa üksusi standardkulu teisendusele** saate lisada mitu üksust. Üldjuhul peaksite lisama kõik toodetud kaubad ühte teisenduskirjesse, mis aitab tagada kulude õige arvutamise.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Sisestage või arvutage iga kauba puhul ootel standardsed kulud, mida teisendatakse.
 Kasutage lehte **Kauba hind**, et sisestada ootel standardkulud vastava kuluversiooni raames ostetud kaupade ja üleviidavate kaupade jaoks. Kulukirjed on laoalapõhised ja kauba ootel kulud tuleb sisestada iga laoala puhul. Kasutage lehte **Kauba hind**, et arvutada ootel standardkulud toodetavate kaupade jaoks. Toodetava kauba ootel kulud tuleb arvutada iga tootmiskoha jaoks, kui laoalaks pole üleviimisala. Sel juhul tuleb ootel kulud käsitsi sisestada. Mõnel kaubal võivad olla värvi, suuruse või konfiguratsiooni tootedimensioonid. Lehel **Standardkulu teisendused** näitab märkeruut **Kasuta omahinda variantide alusel** iga tootedimensioonide kombinatsiooni standardkulu. Kui see märkeruut on tühjendatud, tuleb kauba jaoks sisestada ainult ootel kulu.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Kontrollige ja lahendage teisendatavate kaupade puhul kõik probleemid.
-Aruande ** Standardkulude teisendamise kontrollimine** abil saate tuvastada probleeme teisendatavate kaupadega. Kui kaubal pole ühtegi probleemi, määratakse selle olekuks teisenduskirjes **Kontrollitud**. Kui kaubal on probleeme, tuleb probleemid lahendada ja käivitada siis aruande uuesti, kuni kauba olekuks määratakse **Kontrollitud**. Kui te kaubaga seotud probleeme õigeaegselt lahendada ei suuda, saate kauba valikuliselt teisenduskirjest kustutada ja teisendada kauba hiljem.
+Aruande **Standardkulude teisendamise kontrollimine** abil saate tuvastada probleeme teisendatavate kaupadega. Kui kaubal pole ühtegi probleemi, määratakse selle olekuks teisenduskirjes **Kontrollitud**. Kui kaubal on probleeme, tuleb probleemid lahendada ja käivitada siis aruande uuesti, kuni kauba olekuks määratakse **Kontrollitud**. Kui te kaubaga seotud probleeme õigeaegselt lahendada ei suuda, saate kauba valikuliselt teisenduskirjest kustutada ja teisendada kauba hiljem.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Muutke teisenduskirje olek väärtusele Valmis
 Kui teisenduskirje olekuks määratakse **Valmis**, teeb süsteem lõpliku kontrollimise enne standardkulu teisendamist. Olekuks määratakse **Valmis** ainult juhul, kui täidetud on järgmised tingimused.

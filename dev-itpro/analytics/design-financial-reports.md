@@ -1,7 +1,7 @@
 ---
 title: Finantsaruannete vaatamine ja kujundamine
-description: "See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Operationsis finantsaruannete vaatamist ja loomist. Finantsaruandlus hõlmab vaatamist Dynamics 365 for Operationsis ja korra klõpsatavat aruandekujundajat, mis võimaldab teil finantsaruandeid luua ja redigeerida."
-author: twheeloc
+description: See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Operationsis finantsaruannete vaatamist ja loomist.
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -165,7 +166,7 @@ Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruann
 6.  Topeltklõpsake väljal **Dimensioonifilter**.
 7.  Topeltklõpsake aknas **Dimensioon** veergu **Osakond**.
 8.  Klõpsake dialoogiboksi üksikus või vahemiku jaotises **kolmikpunkti** välja **Saatja** puhul osakondade loendi kuvamiseks.
-9.  Valige osakond **022** **Müük ja turundus** ja seejärel klõpsake nuppu** OK**.
+9.  Valige osakond **022** **Müük ja turundus** ja seejärel klõpsake nuppu**OK**.
 10. Korrake etappe 5 kuni 8 osakondade 23–25 puhul.
 11. Sisestage iga FD veeru puhul reale **Päis 2** järgmine osakonna kirjeldus.
     -   Veerg B – Müük ja turundus
@@ -182,8 +183,8 @@ Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruann
 18. **Salvesta** muudatused ja **loo**. Pärast aruande loomist ja avamist saate aruannet uurida.
 
 ## <a name="additional-resources"></a>Lisaressursid
-[Finantsaruandlus](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Finantsaruannete kuvamine](\financials\general-ledger\view-financial-reports.md) 
+[Finantsaruandlus](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Finantsaruannete kuvamine](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Dynamicsi finantsaruandluse ajaveeb](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

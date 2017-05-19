@@ -1,9 +1,9 @@
 ---
 title: "Töövoo süsteemi ülevaade"
-description: "Artikkel kirjeldab Microsoft Dynamics 365 for Operationsi töövoo süsteemi."
+description: "Teema kirjeldab Microsoft Dynamics 365 for Operationsi töövoosüsteemi."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 08c36f02f88fef7508730b6c01a1c99a0f77fb0c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5432e67ffa41e6a38b19c9fe5bb12c5acb2c345c
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -29,7 +30,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Artikkel kirjeldab Microsoft Dynamics 365 for Operationsi töövoo süsteemi.
+Teema kirjeldab Microsoft Dynamics 365 for Operationsi töövoosüsteemi.
 
 <a name="what-is-workflow"></a>Mis on töövoog?
 -----------------
@@ -41,9 +42,13 @@ Töövoog on koos Dynamics 365 for Operationsiga installitud süsteem, mis töö
 
 ### <a name="workflow-is-a-business-process"></a>Töövoog on äriprotsess
 
-Töövoog esindab äriprotsessi. See määratleb, kuidas dokument voogab või liigub läbi süsteemi, näidates, kes peab täitma ülesannet, otsuse või dokumendi kinnitamiseks. Allpool toodud näitejoonisel kujutatakse kuluaruannete töövoogu. ![Kasutajatele määratud elementidega töövoog](./media/workflow_user.gif) Töövoo paremaks mõistmiseks oletame, et Sam esitab kuluaruande summas 7000 USA dollarit. Selle stsenaariumi kohaselt on Ivani ülesanne Sami lähetatud sissetulekud üle vaadata. Seejärel peavad Frank ja Sue kuluaruande kinnitama. Oletame nüüd, et Sam esitab kuluaruande summas 11 000 USA dollarit. Selles stsenaariumis peab Ivan tšekid üle vaatama ning Frank, Sue ja Ann peavad kuluaruande kinnitama.
- Töövoo süsteemi kasutamise eelised
--------------------------------------
+Töövoog esindab äriprotsessi. See määratleb, kuidas dokument voogab või liigub läbi süsteemi, näidates, kes peab täitma ülesannet, otsuse või dokumendi kinnitamiseks. Alltoodud joonisel kujutatakse kuluaruannete töövoogu. 
+
+![Kasutajatele määratud elementidega töövoog](./media/workflow_user.gif) 
+
+Selle töövoo paremaks mõistmiseks oletame, et Sam esitab kuluaruande summale 7000 USA dollarit. Selle stsenaariumi kohaselt on Ivani ülesanne Sami lähetatud sissetulekud üle vaadata. Seejärel peavad Frank ja Sue kuluaruande kinnitama. Oletame nüüd, et Sam esitab kuluaruande summas 11 000 USA dollarit. Selles stsenaariumis peab Ivan tšekid üle vaatama ning Frank, Sue ja Ann peavad kuluaruande kinnitama.
+
+## <a name="benefits-of-using-the-workflow-system"></a> Töövoo süsteemi kasutamise eelised
 
 Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
 -   **Järjepidevad protsessid** – töövoo süsteem lubab teil määratleda, kuidas kindlaid dokumente, näiteks ostutaotlused ja kuluaruanded, töödeldakse. Töövoo süsteemi abil tagate, et dokumente töödeldakse ja kinnitatakse ühtemoodi ja efektiivselt.
@@ -51,6 +56,20 @@ Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
 -   **Koondatud tööde loend** – kasutajad saavad vaadata koondatud tööde loendit, et näha neile määratud töövoo ülesandeid ja kinnitusi.
 
 
+## <a name="workflow-content"></a>Töövoo sisu
 
-
++ [Töövoo arhitektuur](workflow-system-architecture.md)
++ [Töövoo elemendid](workflow-elements.md)
++ [Töövoo tegevused](workflow-actions.md)
++ [Töövoo loomine](create-workflow.md)
++ [Töövoo atribuutide konfigureerimine](configure-workflow-properties.md)
++ [Töövoos käsitsi ülesande konfigureerimine](configure-manual-task-workflow.md)
++ [Töövoos automaatse ülesande konfigureerimine](configure-automated-task-workflow.md)
++ [Töövoo kinnitusprotsessi konfigureerimine](configure-approval-process-workflow.md)
++ [Töövoo kinnitusetapi konfigureerimine](configure-approval-step-workflow.md)
++ [Töövoos käsitsi otsuse konfigureerimine](configure-manual-decision-workflow.md)
++ [Töövoos tingimusliku otsuse konfigureerimine](configure-conditional-decision-workflow.md)
++ [Töövoos paralleeltegevuse konfigureerimine](configure-parallel-activity-workflow.md)
++ [Töövoos paralleelharu konfigureerimine](configure-parallel-branch-workflow.md)
++ [Rea kauba töövoo konfigureerimine](configure-line-item-workflow.md)
 

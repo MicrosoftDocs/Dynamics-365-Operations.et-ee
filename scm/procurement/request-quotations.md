@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d70b4ae0a6b177508021ee72481333cf6f265069
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ad50ab5c2dddf4fe07ebb5bb940954c0408f8d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,7 +49,7 @@ Kui peate pakkumiskutset pärast saatmist muutma, saate selle hankijatele uuesti
 
 Pakkumiste vastuvõtmisel peate sisestama need lehel **Pakkumiskutse vastused**. Kui valite suvandi **Kopeeri andmed vastuseväljadele**, kopeeritakse vastuseväljadele pakkumiskutse juhtumi andmed, nagu kogus ja kuupäevad. Saate neid andmeid muuta, et kajastada hankija pakkumist.  
 
-Kui konkreetse hankija puhul on nõutav vastuse teine iteratsioon, klõpsake lehel** Pakkumiskutse vastus** käsku **Tagasta**. Tagastustegevus loob uue töölehe ja aruande, mis prinditakse, arhiivitakse ja saadetakse teie prindihaldussätete järgi.  
+Kui konkreetse hankija puhul on nõutav vastuse teine iteratsioon, klõpsake lehel**Pakkumiskutse vastus** käsku **Tagasta**. Tagastustegevus loob uue töölehe ja aruande, mis prinditakse, arhiivitakse ja saadetakse teie prindihaldussätete järgi.  
 
 Kui olete lisanud pakkumiskutse juhtumile hindamiskriteeriumid, on pakkumiskutse vastusel hindamispaneel, kuhu saate punktisummad sisestada. Punktide kogusumma kuvatakse, kui võrdlete vastuseid lehel **Vastuste võrdlemine**, kus saate võrrelda ka muid vastuseandmeid, nagu rea hind, tarnekuupäev ja koguhind.  
 
@@ -107,7 +108,7 @@ Kui pakkumiskutse tüüp on **Ostuleping**
 -   Pakkumiskutset kasutatakse hankijalt pikema aja vältel kindlas koguses või väärtuses toote ostmiseks. Peate valima ostulepingule kehtiva kuupäevavahemiku ja ostulepingut haldava isiku nime.
 -   Pakkumise aktsepteerimisel luuakse ostuleping.
 
-Saate luua on pakkumiskutse ostutaotluselt ainult siis, kui ostutaotluse olek on **Ülevaatusel **ja teile on määratud järgmine töövooülesanne. Ostutaotluse ridu värskendatakse automaatselt, kui aktsepteerite hankijalt saadud pakkumiskutse vastuste (pakkumiste) ridu. Te ei saa ostutaotlust lõpule viia, tagasi lükata, kinnitada ega sellega muid toiminguid teha, kuni pakkumiskutse on pooleli.  
+Saate luua on pakkumiskutse ostutaotluselt ainult siis, kui ostutaotluse olek on **Ülevaatusel**ja teile on määratud järgmine töövooülesanne. Ostutaotluse ridu värskendatakse automaatselt, kui aktsepteerite hankijalt saadud pakkumiskutse vastuste (pakkumiste) ridu. Te ei saa ostutaotlust lõpule viia, tagasi lükata, kinnitada ega sellega muid toiminguid teha, kuni pakkumiskutse on pooleli.  
 
 Pakkumiskutse loomisel saate valida kindla kutsetüübi. Kutsetüüp määrab hindamiskriteeriumite komplekti, mida kasutatakse pakkumiskutse vastuste hindamiseks.  
 

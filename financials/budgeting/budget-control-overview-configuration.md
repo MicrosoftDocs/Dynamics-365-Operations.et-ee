@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 04e0c066511c1fedf33784944441326201fc2df8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4caef8eb4d11ad5d2ba1ce0e23d869c0b26b5466
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -99,7 +100,7 @@ Vahekaardil **Eelarvemudelite määramine** saate määrata eelarvemudelid eelar
 Vahekaardil **Eelarve juhtimise reeglite määratlemine** peate looma konkreetsed reeglid eelarve juhtimisel lubatud finantsdimensioonide alusel. Näiteks kui fookus on osakonna kulul või kulude vahemikul, saab neid kulusid määratleda ja hinnata sellel vahekaardil olevate sätetega. Iga eelarve juhtimise reegli puhul saab määratleda eri lävesid. 
 
 > [!Important]
-> Eelarve juhtimine lubatakse põhukonto tüüpide **Kasum ja kahjum**, **Kulu**, **Tulu, Bilanss, Kohustused, Omakapital** või **Vara** puhul. Kui see vahekaart sisaldab reeglit, millel on tühi kriteerium, lubatakse eelarve juhtimine **kõikide **finantsdimensioonide puhul, mis hülmavad seda tüüpi põhikontosid. Seetõttu looge kindlasti eelarve juhtimise reeglid, mis määratlevad ainult finantsdimensiooni kombinatsioonide vahemikud, kus eelarve juhtimise sisselülitamine on oluline.  
+> Eelarve juhtimine lubatakse põhukonto tüüpide **Kasum ja kahjum**, **Kulu**, **Tulu, Bilanss, Kohustused, Omakapital** või **Vara** puhul. Kui see vahekaart sisaldab reeglit, millel on tühi kriteerium, lubatakse eelarve juhtimine **kõikide**finantsdimensioonide puhul, mis hülmavad seda tüüpi põhikontosid. Seetõttu looge kindlasti eelarve juhtimise reeglid, mis määratlevad ainult finantsdimensiooni kombinatsioonide vahemikud, kus eelarve juhtimise sisselülitamine on oluline.  
 
 ### <a name="select-main-accounts"></a>Põhikontode valimine
 

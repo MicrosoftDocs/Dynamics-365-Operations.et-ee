@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 1a8cbe01bb774ac7fc4aac721dca00674852197f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3592f3c076681c5b755b62383212bbe6d158f62d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,7 +51,7 @@ Kulugrupi segmentimist saab rakendada standardsete kuluüksuste hälvete puhul. 
 Kulugrupile saab määrata kulugrupi tüübi ja toimimise täiendavate segmentimise eesmärkide puhul.
 
 -   **Kulugrupi tüüp** – igale kulugrupile tuleb määrata kulugrupi tüüp, mis näitab, et kulugrupp rakendub otse materjalile, otse tootmisele või otse välisteenustele, või määratleda selle kas kaudsena või määratlematuna. Otsese materjalina määratud kulugrupi saab määrata kaupadele. Otsese tootmise kulugrupi saab määrata kulukategooriatele. Otsese välisteenuste kulugrupi saab määrata teenuse tootetüübile, et saaksite liigitada teenuse ostmisega seotud kulusid allhanketegevustesse. Kaudse kulugrupi saab määrata lisatasude või määrade kaudsetele kuludele. Määratlemata kulugrupi saab määrata kaupadele, kulukategooriatele või kaudsetele kuludele. Kulugrupi tüübi määramisel on mitu eesmärki. Esiteks piirab see kulugrupi määramise võimalust ja kohalduvate kulugruppide loendi vaatamist. Teiseks võimaldab see lisasegmentimist aruandluse eesmärgil. Kolmandaks saab seda kasutada hälvete pearaamatukontode määramiseks.
--   **Käitumine** – igale kulugrupile saab valikuliselt määrata käitumise, mis näitab kulugrupi rakendumist fikseeritud kuludele või muutuvkuludele. Kulugruppi, mille käitumise väärtus on null, käsitletakse muutuva kuluna. Käitumine määratakse vaid aruandluse eesmärgil. Näiteks saab kulusid kuvada fikseeritud ja muutuvkulude segmentatsioonina kuluarvutustabelis ja lehel** Kulude ümberarvestus kulugruppide kaupa**. Igale kulugrupile kasumisätte protsentide määramisel pakub koosluse arvutamine soovituslikke müügihindu kulupõhise hinnalisandi alusel.
+-   **Käitumine** – igale kulugrupile saab valikuliselt määrata käitumise, mis näitab kulugrupi rakendumist fikseeritud kuludele või muutuvkuludele. Kulugruppi, mille käitumise väärtus on null, käsitletakse muutuva kuluna. Käitumine määratakse vaid aruandluse eesmärgil. Näiteks saab kulusid kuvada fikseeritud ja muutuvkulude segmentatsioonina kuluarvutustabelis ja lehel**Kulude ümberarvestus kulugruppide kaupa**. Igale kulugrupile kasumisätte protsentide määramisel pakub koosluse arvutamine soovituslikke müügihindu kulupõhise hinnalisandi alusel.
 
 
 

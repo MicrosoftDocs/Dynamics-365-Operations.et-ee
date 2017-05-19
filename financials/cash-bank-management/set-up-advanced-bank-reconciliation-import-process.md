@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,13 +65,13 @@ Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi ISO20022 pan
 1.  Avage **Tööruumid** &gt; **Andmehaldus**.
 2.  Klõpsake nuppu **Impordi**.
 3.  Sisestage vormingu nimi, nt **ISO20022**.
-4.  Määrake välja **Lähteandmete vorming **väärtuseks **XML-element**.
+4.  Määrake välja **Lähteandmete vorming**väärtuseks **XML-element**.
 5.  Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.
 6.  Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.
 7.  Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.
 8.  Pangaväljavõtte üksus on liitüksus, mis koosneb neljast eraldi üksusest. Valige loendist **BankStatementDocumentEntity** ja klõpsake siis toimingut **Kuva kaart**.
 9.  Klõpsake vahekaardil **Teisendused** valikut **Uus**.
-10. Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail** ISO20022XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Dynamics 365 for Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale, tuleb teil vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail**ISO20022XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Dynamics 365 for Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale, tuleb teil vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Klõpsake nuppu **Uus**.
 12. Järjekorranumbri 2 puhul klõpsake valikut **Laadi fail üles** ja valige fail**BankReconciliation-to-Composite.xslt**, mille varem salvestasite.
 13. Klõpsake valikut **Rakenda teisendused**.
@@ -88,8 +89,8 @@ Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakont
 
 1.  Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.
 2.  Valige pangakonto ja avage see üksikasjade vaatamiseks.
-3.  Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine **väärtuseks **Jah**.
-4.  Määrake väljal **Väljavõtte vorming **varem loodud vorming, nt **ISO20022**.
+3.  Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine**väärtuseks **Jah**.
+4.  Määrake väljal **Väljavõtte vorming**varem loodud vorming, nt **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>MT940 pangaväljavõtete impordi seadistamine
 Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi MT940 pangaväljavõtetele, kasutades andmeüksuse raamistikku.
@@ -97,7 +98,7 @@ Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi MT940 pangav
 1.  Avage **Tööruumid** &gt; **Andmehaldus**.
 2.  Klõpsake nuppu **Impordi**.
 3.  Sisestage vormingu nimi, nt **MT940**.
-4.  Määrake välja **Lähteandmete vorming **väärtuseks **XML-element**.
+4.  Määrake välja **Lähteandmete vorming**väärtuseks **XML-element**.
 5.  Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.
 6.  Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.
 7.  Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.
@@ -105,7 +106,7 @@ Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi MT940 pangav
 9.  Klõpsake vahekaardil **Teisendused** valikut **Uus**.
 10. Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail **MT940TXT-to-MT940XML.xslt**, mille varem salvestasite.
 11. Klõpsake **Uus**.
-12. Klõpsake järjekorranumbri 2 puhul valikut **Laadi fail üles** ja valige fail** MT940XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Dynamics 365 for Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale, tuleb teil vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. Klõpsake järjekorranumbri 2 puhul valikut **Laadi fail üles** ja valige fail**MT940XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Dynamics 365 for Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale, tuleb teil vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Klõpsake nuppu **Uus**.
 14. Järjekorranumbri 3 puhul klõpsake valikut **Laadi fail üles** ja valige fail**BankReconciliation-to-Composite.xslt**, mille varem salvestasite.
 15. Klõpsake valikut **Rakenda teisendused**.
@@ -125,7 +126,7 @@ Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakont
 2.  Valige pangakonto ja avage see üksikasjade vaatamiseks.
 3.  Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine** väärtuseks **Jah**.
 4.  Kui teil palutakse oma valik kinnitada ja lubada täpsem pangakonto vastavusseviimine, klõpsake **OK**.
-5.  Määrake väljal **Väljavõtte vorming **varem loodud vorming, nt **MT940**.
+5.  Määrake väljal **Väljavõtte vorming**varem loodud vorming, nt **MT940**.
 
 ## <a name="set-up-the-import-of-bai2-bank-statements"></a>BAI2 pangaväljavõtete impordi seadistamine
 Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi BAI2 pangaväljavõtetele, kasutades andmeüksuse raamistikku.
@@ -133,7 +134,7 @@ Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi BAI2 pangav�
 1.  Avage **Tööruumid** &gt; **Andmehaldus**.
 2.  Klõpsake nuppu **Impordi**.
 3.  Sisestage vormingu nimi, nt **BAI2**.
-4.  Määrake välja **Lähteandmete vorming **väärtuseks **XML-element**.
+4.  Määrake välja **Lähteandmete vorming**väärtuseks **XML-element**.
 5.  Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.
 6.  Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.
 7.  Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.
@@ -141,7 +142,7 @@ Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi BAI2 pangav�
 9.  Klõpsake vahekaardil **Teisendused** valikut **Uus**.
 10. Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail **BAI2CSV-to-BAI2XML.xslt**, mille varem salvestasite.
 11. Klõpsake **Uus**.
-12. Klõpsake järjekorranumbri 2 puhul valikut **Laadi fail üles** ja valige fail** BAI2XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Dynamics 365 for Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale ja teil tuleb vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. Klõpsake järjekorranumbri 2 puhul valikut **Laadi fail üles** ja valige fail**BAI2XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Dynamics 365 for Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale ja teil tuleb vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Klõpsake nuppu **Uus**.
 14. Järjekorranumbri 3 puhul klõpsake valikut **Laadi fail üles** ja valige fail**BankReconciliation-to-Composite.xslt**, mille varem salvestasite.
 15. Klõpsake valikut **Rakenda teisendused**.
@@ -161,7 +162,7 @@ Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakont
 2.  Valige pangakonto ja avage see üksikasjade vaatamiseks.
 3.  Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine** väärtuseks **Jah**.
 4.  Kui teil palutakse oma valik kinnitada ja lubada täpsem pangakonto vastavusseviimine, klõpsake **OK**.
-5.  Määrake väljal **Väljavõtte vorming **varem loodud vorming, nt **BAI2**.
+5.  Määrake väljal **Väljavõtte vorming**varem loodud vorming, nt **BAI2**.
 
 ## <a name="test-the-bank-statement-import"></a>Pangaväljavõtte impordi proovimine
 Viimane toiming on proovimine, kas saate oma pangaväljavõtte importida.

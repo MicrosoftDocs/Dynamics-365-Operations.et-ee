@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 15af90d007d77a490db7cb540ef96b4104dbba7e
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35c3d59abe8c2cb4d2db9fa1cf581f022dbc8c39
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Toote konfiguratsioonimudelite ülevaade
+
+[!include[banner](../includes/banner.md)]
+
 
 See artikkel määratleb toote konfiguratsioonimudeleid puudutavad tingimused ja mõisted. Toote konfiguratsioonimudelid võimaldavad luua üldise tootestruktuuri, mida saab kasutada üksiku toote paljude variantide konfigureerimiseks.
 
@@ -75,7 +79,7 @@ Kui atribuudi tüüp on <strong>Kahendmuutuja</strong>, vahemikuga <strong>Täis
 <td>Piirangud</td>
 <td>Piirangud kirjeldavad tootemudeli konfiguratsiooni piiranguid. Piiranguid kasutatakse tagamaks, et toote konfigureerimisel valitakse ainult kehtivad väärtused. Piirangud saavad olla avaldise piirangud või tabeli piirangud.
 <ul>
-<li>Avaldise piiranguid saab kasutada ainult komponentidega, millega need seotud on. Komponendi avaldise piirangud võivad viidata komponentide alamkomponentide atribuutidele. Tootekonfiguratsiooni lahendajat kasutatakse piirangute lahendamiseks ja piirangute kirjutamisel tuleb kasutada lahendaja süntaksit. Lisateavet saate wiki lingi kaudu avaldise piirangute ja tabeli piirangute kohta.</li>
+<li>Avaldise piiranguid saab kasutada ainult komponentidega, millega need seotud on. Komponendi avaldise piirangud võivad viidata komponentide alamkomponentide atribuutidele. Tootekonfiguratsiooni lahendajat kasutatakse piirangute lahendamiseks ja piirangute kirjutamisel tuleb kasutada lahendaja süntaksit. Lisateavet saate teema lingi kaudu avaldise piirangute ja tabeli piirangute kohta.</li>
 <li>Tabeli piirangud tuleb määratleda enne nende rakendamist komponendile toote konfiguratsioonimudelis. Tabeli piirangud võivad olla kas kasutaja või süsteemi määratletud. Kasutaja määratletud tabeli piirang on teatud tüüpi maatriks, mida saab kasutada kombinatsioonide kogumi kirjeldamiseks atribuudiväärtustele, mis on määratletud atribuudi tüübiga. Näiteks kui toodetakse kõlareid, võib kasutaja määratletud tabeli piirangu maatriksil olla veerud kõlari viimistluse ja võre jaoks.</li>
 </ul>
 <strong>Näide</strong> Kõlareid on saadaval nelja viimistlusega: must, tamm, roosipuu ja valge. Kõlarite esivõre võib olla üks kolmest: must, metall või valge. Must viimistlus on saadaval kõigi võrede puhul, kuid muud viimistlused on piiratud teatud võredega. Järgmises tabelis on näide teabe kohta, mis kuvatakse vahekaardil <strong>Lubatud kombinatsioonid</strong> lehel <strong>Tabeli piirangu redigeerimine</strong>.
@@ -147,6 +151,8 @@ Saate vaadata, kas väljastatud toodet saab kasutada komponendi või alamkompone
 </tr>
 </tbody>
 </table>
+
+
 
 
 

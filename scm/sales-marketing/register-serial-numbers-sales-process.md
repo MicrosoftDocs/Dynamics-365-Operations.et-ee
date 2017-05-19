@@ -19,10 +19,11 @@ ms.search.industry: Distribution
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: ec2907129e68f39e6e5f56f0617b7599598312d2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: de1d8bc2fa1080e549cb8c33657ad0f373644d38
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Seerianumbrite registreerimine kõigi saatelehel või arvel olevate kaupade puhu
 Saate luua müügitellimustele osalisi arveid ja saatelehti ning registreerida ainult nendel arvetel ja saatelehtedel sisalduvate kaupade seerianumbrid. Kui soovite luua osalise arve ja müügitellimusel on rohkem kui üks saateleht, saate lisada rohkem kui ühe saatelehe seerianumbrid. Kuid saatelehti, millele pole lisatud kõiki seerianumbreid, võib olla ainult üks. Näiteks kui teil on kolm saatelehte ja igal saatelehel on kaks järjestatud kaupa, ei saa luua osalist arvet iga saatelehe ühele kaubale.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Mida teha siis, kui seerianumber pole loetav?
-Kui seerianumbrit ei saa lugeda ega skannida, saate luua kaubale tühja rea, klõpsates leheküljel **Seerianumbrid **valikut **Pole loetav**. Kui seerianumber muutub hiljem kättesaadavaks, saate arvet või saatelehte uuendada. Lisateavet vt järgmisest jaotistest „Kas saan müügitellimusele registreeritud seerianumbreid parandada või muuta?”
+Kui seerianumbrit ei saa lugeda ega skannida, saate luua kaubale tühja rea, klõpsates leheküljel **Seerianumbrid**valikut **Pole loetav**. Kui seerianumber muutub hiljem kättesaadavaks, saate arvet või saatelehte uuendada. Lisateavet vt järgmisest jaotistest „Kas saan müügitellimusele registreeritud seerianumbreid parandada või muuta?”
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Kas saan müügitellimusele registreeritud seerianumbreid parandada või muuta?
 Jah, saate seerianumbreid parandada, kui täidetud on järgmised tingimused.

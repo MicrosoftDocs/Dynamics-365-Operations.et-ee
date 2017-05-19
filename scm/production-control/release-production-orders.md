@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c4ebedab6d7de62479d3bc80583afadbe780aac4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8a12f79c9b2b02198c268a293b357ef805e2f4b9
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Protsessikaart annab ülevaate teabest, mis on pärit protsessi ja operatsiooni 
 Protsessitöö loetleb kõik operatsiooni tööd üksikasjalikult ning hõlmab seadistus-, protsessi-, järjekorra- ja transpordiaegu. Näiteks võib selline operatsioon nagu värvimine vajada eraldi töid, nagu seadistusaeg, käitusaeg (värvimisprotsessi jaoks) ja järjekorraaeg (kuivamiseks).
 
 ## <a name="job-cards"></a>Töökaardid
-Töökaart loetleb konkreetse operatsiooni üksiktööde numbrid. Igal lehel kuvatakse üks töö. Töökaardile kaasatud tööd ja nende nende prognoositavad ajad on pärit protsessi ja operatsiooni seadistusteabest. Töökaardilt saate avada lehe **Tootmise töölehe read**, **töökaart **. Operatsiooniressursse käitavad inimesed saavad tootmisprotsessi kohta tagasisidet anda. On olemas väljad, kuhu saate sisestada tarbimisstatistika ja teabe, nt tõrgete koguse.
+Töökaart loetleb konkreetse operatsiooni üksiktööde numbrid. Igal lehel kuvatakse üks töö. Töökaardile kaasatud tööd ja nende nende prognoositavad ajad on pärit protsessi ja operatsiooni seadistusteabest. Töökaardilt saate avada lehe **Tootmise töölehe read**, **töökaart**. Operatsiooniressursse käitavad inimesed saavad tootmisprotsessi kohta tagasisidet anda. On olemas väljad, kuhu saate sisestada tarbimisstatistika ja teabe, nt tõrgete koguse.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Laotöö materjali komplekteerimiseks.
 Töö toormaterjalide komplekteerimiseks luuakse väljastamise ajal. Töö luuakse ainult enne tellimuse väljastamist tootmistellimuse jaoks füüsiliselt reserveeritud materjalide koguse kohta. Toormaterjalide komplekteerimise jaoks laotöö loomiseks on nõutav järgmine seadistus.

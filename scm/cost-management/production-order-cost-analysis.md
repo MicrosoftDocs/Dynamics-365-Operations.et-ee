@@ -3,7 +3,7 @@ title: "Tootmistellimuse kulu analüüs"
 description: "Selles artiklis käsitletakse kuluanalüüsi, mida saab teha lõpetatud ja jooksvate tootmistellimuste puhul. Saate analüüsida eeldatavaid kulusid ja tegelikke kulusid, kasutades lehte Hinnakalkulatsioon või aruannet Kuluhinnangud ja omahind. Saate vaadata hinnanguliste ja tegelike kulude (ja koguste) teavet iga komponendi rea, protsessitoimingu ja kaudse kulu kohta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-11 13 - 25 - 42
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f931432f6dc919d448ed690a1deae3d64bebe455
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: acb8e49ed86d3e22ba8e343280f77c0644f057c6
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Tootmistellimuse kulu analüüs
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis käsitletakse kuluanalüüsi, mida saab teha lõpetatud ja jooksvate tootmistellimuste puhul. Saate analüüsida eeldatavaid kulusid ja tegelikke kulusid, kasutades lehte Hinnakalkulatsioon või aruannet Kuluhinnangud ja omahind. Saate vaadata hinnanguliste ja tegelike kulude (ja koguste) teavet iga komponendi rea, protsessitoimingu ja kaudse kulu kohta.
 
@@ -40,21 +44,27 @@ Hälbed kajastavad võrdlust aruandes esitatud tootmistegevuste ja toodetava kau
 -   Tootmishinna hälve
 -   Tootmise asendamise hälve
 
-Järgmisel diagrammil on näidatud neli hälvet, mis selgitavad erinevust tootmistellimuse tegelike kulude ja arvutatud kulude vahel kauba kulukirjes tootmistellimuse lõpetamise ajal. ![Hälbed, mis näitavad lõpetatud tootmistellimuses olevaid erinevusi](./media/control.jpg) Saate analüüsida tootmise hälbeid lehe **Hälve** või aruande **Tootmise hälve** abil. Kasutage kuvamisvalikuid üksikasjalike hälvete vaatamiseks kauba ja operatsiooniressursi või kulugrupi järgi.. Kulude jaotamise poliitika varude parameetrites määratleb, kas hälbeid jälgitakse kulugruppide alusel. Võite kasutada summeeritud hälvete vaatamiseks ka kuvamisvalikuid **üksik**, **mitmekordne** ja **kokku**. Teave üksikasjalike hälvete kohta võib aidata iga hälbe allikat mõista. Hälvete prognoosimiseks enne tootmistellimuse lõpetamist analüüsige üksikasjalikku teavet, mis on antud aruandes **Kuluhinnangud ja omahind**.
+Järgmisel diagrammil on näidatud neli hälvet, mis selgitavad erinevust tootmistellimuse tegelike kulude ja arvutatud kulude vahel kauba kulukirjes tootmistellimuse lõpetamise ajal. 
+
+![Hälbed, mis selgitavad erinevusi lõpule viidud tootmistellimuses](./media/control.jpg) 
+
+Saate tootmishälbeid analüüsida lehega **Hälve** või aruandega **Tootmishälve**. Kasutage kuvamisvalikuid üksikasjalike hälvete vaatamiseks kauba ja operatsiooniressursi või kulugrupi järgi.. Kulude jaotamise poliitika varude parameetrites määratleb, kas hälbeid jälgitakse kulugruppide alusel. Võite kasutada summeeritud hälvete vaatamiseks ka kuvamisvalikuid **üksik**, **mitmekordne** ja **kokku**. Teave üksikasjalike hälvete kohta võib aidata iga hälbe allikat mõista. Hälvete prognoosimiseks enne tootmistellimuse lõpetamist analüüsige üksikasjalikku teavet, mis on antud aruandes **Kuluhinnangud ja omahind**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Praeguste tootmistellimuste kuluanalüüs.
-Eraldiolevad aruanded kajastavad iga kandetüübi teavet. Kasutage neid aruandeid kinnitatud tootmistegevuste kulude analüüsimiseks. Kuvatakse teave ainult nende jooksvate tootmistellimuste kohta, mille olek on **Alustatud** või** Lõpetatuna kinnitatud**.
+Eraldiolevad aruanded kajastavad iga kandetüübi teavet. Kasutage neid aruandeid kinnitatud tootmistegevuste kulude analüüsimiseks. Kuvatakse teave ainult nende jooksvate tootmistellimuste kohta, mille olek on **Alustatud** või**Lõpetatuna kinnitatud**.
 
--   **Lõpetamata materjalid **− see aruanne koosneb komplekteerimislehe kannetest, mis on praeguste tootmistellimuste alusel määratud kande kuupäevaga kinnitatud. Aruanne näitab komponendi väljastatud kogust ja iga kande kulusummat. Kasutage ühe komponendiüksuse valikukriteeriume. Näiteks võite printida komponendi väljastatud koguse teabe võrreldes kehtivate tootmistellimustega. Väljastatud kogust ei värskendata peamise üksuse puhul lõpetatuks märgitud kogustega. Seetõttu võib lõpetamata toormaterjalide tegelik kogus olla liialdatud.
--   **Lõpetamata töö **− see aruanne kajastab protsessi (või töö) kandeid, mis on praeguste tootmistellimuste alusel määratud kande kuupäevaga kinnitatud. Aruanne näitab tunde, summat ja kogust (nii kvaliteetset kui ka veakogust), mis iga kande kohta esitatakse. See sisaldab ka teavet toimingu numbri, toimingu ID ja operatsiooniressursi kohta. Aruandes kuvatakse ka kõikide kannete koondaeg ja -summa tootmistellimusega seoses ning lõpetatuna kinnitatud kogus.
--   **Töödeldavad kaudsed kulud **− selles aruandes on tootmistellimustega seoses tekkinud kaudsed kulud. Need andmed põhinevad protsessitoimingute ja komponentide kinnitatud tarbimisel määratud kande kuupäeval. Aruandes näidatakse kaudse kulu tüüp (lisatasu või määr), kaudse kulu palgalehe kood ning iga kande kulusumma. Selles aruandes ei anta teavet protsessikaardi või komplekteerimisloendi kande kohta, mis kaudse kulu tekitasid.
--   **Lõpetamata toodangu omahinna arvutamine **− see aruanne loetleb määratud kande kuupäevaga tootmistellimuste ühendatud tarbimismaterjalid, protsessioperatsioonid ja kaudsed kulud.
--   **Pooleliolevad lõpetatud kaubad **− see aruanne loetleb määratud kuupäevaga praegused tootmistellimused lõpetatuna kinnitatud kanded.
+-   **Lõpetamata materjalid**− see aruanne koosneb komplekteerimislehe kannetest, mis on praeguste tootmistellimuste alusel määratud kande kuupäevaga kinnitatud. Aruanne näitab komponendi väljastatud kogust ja iga kande kulusummat. Kasutage ühe komponendiüksuse valikukriteeriume. Näiteks võite printida komponendi väljastatud koguse teabe võrreldes kehtivate tootmistellimustega. Väljastatud kogust ei värskendata peamise üksuse puhul lõpetatuks märgitud kogustega. Seetõttu võib lõpetamata toormaterjalide tegelik kogus olla liialdatud.
+-   **Lõpetamata töö**− see aruanne kajastab protsessi (või töö) kandeid, mis on praeguste tootmistellimuste alusel määratud kande kuupäevaga kinnitatud. Aruanne näitab tunde, summat ja kogust (nii kvaliteetset kui ka veakogust), mis iga kande kohta esitatakse. See sisaldab ka teavet toimingu numbri, toimingu ID ja operatsiooniressursi kohta. Aruandes kuvatakse ka kõikide kannete koondaeg ja -summa tootmistellimusega seoses ning lõpetatuna kinnitatud kogus.
+-   **Töödeldavad kaudsed kulud**− selles aruandes on tootmistellimustega seoses tekkinud kaudsed kulud. Need andmed põhinevad protsessitoimingute ja komponentide kinnitatud tarbimisel määratud kande kuupäeval. Aruandes näidatakse kaudse kulu tüüp (lisatasu või määr), kaudse kulu palgalehe kood ning iga kande kulusumma. Selles aruandes ei anta teavet protsessikaardi või komplekteerimisloendi kande kohta, mis kaudse kulu tekitasid.
+-   **Lõpetamata toodangu omahinna arvutamine**− see aruanne loetleb määratud kande kuupäevaga tootmistellimuste ühendatud tarbimismaterjalid, protsessioperatsioonid ja kaudsed kulud.
+-   **Pooleliolevad lõpetatud kaubad**− see aruanne loetleb määratud kuupäevaga praegused tootmistellimused lõpetatuna kinnitatud kanded.
 
 
 <a name="see-also"></a>Vt ka
 --------
 
 [Tootmishälvete üldpõhjused](common-sources-of-production-variances.md)
+
+
 
 

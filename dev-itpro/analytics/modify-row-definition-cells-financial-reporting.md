@@ -1,16 +1,16 @@
 ---
 title: Readefinitsiooni lahtrite muutmine
 description: "Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 16 - 09 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: b61364c9055e5c5a63592c7f05551d0c145924b9
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82a0b8c52a816a7fc608e90866bd564392f9c8d4
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Readefinitsiooni lahtrite muutmine
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada. 
 
@@ -38,7 +42,9 @@ Readefinitsioonides määratlevad lahtri **Rea kood** numbrid või sildid readef
 
 Rea kood on nõutav kõikide ridade puhul. Saate kombineerida readefinitsiooni numbrilisi, tähelisi ja määramata (tühje) rea koode. Rea kood võib olla mis tahes positiivne täisarv (alla 100 000 000) või rida määratlev kirjeldav silt. Kirjeldav silt peab järgima järgmisi reegleid.
 
--   Silt peab algama tähega (a kuni z või A kuni Z) ning võib olla kuni 16 märki pikk kombinatsioon numbritest ja tähtedest. **Märkus.** Silt võib sisaldada allkriipsu (\_), kuid muud erimärgid pole lubatud.
+-   Silt peab algama tähega (a kuni z või A kuni Z) ning võib olla kuni 16 märki pikk kombinatsioon numbritest ja tähtedest. 
+    > [!NOTE]
+    > Silt võib sisaldada allkriipsu (\_), kuid muud erimärgid pole lubatud.
 -   Silt ei saa kasutada järgmisi kinnissõnu: AND, OR, IF, THEN, ELSE, PERIODS, TO, BASEROW, UNIT, NULL, CPO või RPO.
 
 Järgmised näited on kehtivad rea koodid.
@@ -56,10 +62,14 @@ Järgmised näited on kehtivad rea koodid.
 
 1.  Klõpsake aruande kujundajas suvandit **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
 2.  Klõpsake menüüs **Redigeerimine** suvandit **Nummerda read ümber**.
-3.  Määratlege dialoogiboksis **Nummerda read ümber** esimese reakoodi ja reakoodi juurdekasvu uued väärtused. Saate lähtestada numbrilised reakoodid võrdselt jaotatud väärtustele. Aruandekoostur nummerdab ümber siiski ainult reakoodid, mis algavad numbritega (nt 130 või 246). See ei nummerda ümber rea koode, mis algavad tähtedega (nt INCOME\_93 või TP0693). **Märkus.** Reakoodide ümbernummerdamisel värskendab aruandekoostur viiteid **TOT** ja **CAL** automaatselt. Näiteks kui rida **TOT** viitab vahemikule, mis algab reakoodiga 100 ja nummerdate read ümber, alustades 90-ga, muutub alguse viide **TOT** väärtuselt 100 väärtusele 90.
+3.  Määratlege dialoogiboksis **Nummerda read ümber** esimese reakoodi ja reakoodi juurdekasvu uued väärtused. Saate lähtestada numbrilised reakoodid võrdselt jaotatud väärtustele. Aruandekoostur nummerdab ümber siiski ainult reakoodid, mis algavad numbritega (nt 130 või 246). See ei nummerda ümber rea koode, mis algavad tähtedega (nt INCOME\_93 või TP0693). 
+> [!NOTE]
+> Reakoodide ümbernummerdamisel värskendab aruandekoostur viiteid **TOT** ja **CAL** automaatselt. Näiteks kui rida **TOT** viitab vahemikule, mis algab reakoodiga 100 ja nummerdate read ümber, alustades 90-ga, muutub alguse viide **TOT** väärtuselt 100 väärtusele 90.
 
 ## <a name="add-a-description"></a>Kirjelduse lisamine
-Kirjelduse lahter kirjeldab aruanderea finantsandmeid, nagu Tulu või Netotulu. Lahtri **Kirjeldus** tekst kuvatakse aruandes täpselt nii, nagu selle readefinitsiooni sisestate. **Märkus.** Aruande kirjelduse veeru laius määratakse veeru definitsioonis. Kui veeru **Kirjeldus** tekst readefinitsioonis on pikk, kontrollige veeru **DESC** laiust. Dialoogiboksi **Sisesta read** kasutamisel on veeru **Kirjeldus** väärtused segmendi väärtused või finantsandmete dimensiooniväärtused. Saate lisada ridu kirjeldava teksti, nagu jaotise pealkirja või jaotise kogusumma ja vormingu, nagu kokkuvõttereale eelneva rea lisamiseks. Kui aruanne sisaldab aruandluspuud, saate kaasata aruandluspuus aruandlusüksuste puhul määratletud lisateksti. Samuti saate piirata konkreetse aruandlusüksuse lisateksti.
+Kirjelduse lahter kirjeldab aruanderea finantsandmeid, nagu Tulu või Netotulu. Lahtri **Kirjeldus** tekst kuvatakse aruandes täpselt nii, nagu selle readefinitsiooni sisestate. 
+> [!NOTE]
+> Aruande kirjelduse veeru laius määratakse veeru definitsioonis. Kui veeru **Kirjeldus** tekst readefinitsioonis on pikk, kontrollige veeru **DESC** laiust. Dialoogiboksi **Sisesta read** kasutamisel on veeru **Kirjeldus** väärtused segmendi väärtused või finantsandmete dimensiooniväärtused. Saate lisada ridu kirjeldava teksti, nagu jaotise pealkirja või jaotise kogusumma ja vormingu, nagu kokkuvõttereale eelneva rea lisamiseks. Kui aruanne sisaldab aruandluspuud, saate kaasata aruandluspuus aruandlusüksuste puhul määratletud lisateksti. Samuti saate piirata konkreetse aruandlusüksuse lisateksti.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Aruande rea kirjelduse lisamine
 
@@ -81,7 +91,9 @@ Kirjelduse lahter kirjeldab aruanderea finantsandmeid, nagu Tulu või Netotulu. 
 4.  Laiendage või ahendage väljal **Piirangu aruandlusüksuse valimine** aruandluspuud ja seejärel valige aruandlusüksus.
 
 ## <a name="add-a-format-code"></a>Vormingu koodi lisamine
-Lahter **Vormingu kood** pakub selle rea sisu puhul eelvormindatud valikuid. Kui lahter **Vormingu kood** on tühi, tõlgendatakse rida finantsandmete üksikasjade reana. **Märkus.** Kui aruanne sisaldab mittesummalisi vormingu ridu, mis on seotud peidetud summa ridadega (nt nullsaldode tõttu), saate kasutada veergu **Seotud valemid/read/üksused** pealkirja ja vormingu ridade printimise vältimiseks.
+Lahter **Vormingu kood** pakub selle rea sisu puhul eelvormindatud valikuid. Kui lahter **Vormingu kood** on tühi, tõlgendatakse rida finantsandmete üksikasjade reana. 
+> [!NOTE]
+> Kui aruanne sisaldab mittesummalisi vorminguridu, mis on seotud peidetud summa ridadega (nt nullsaldode tõttu), saate kasutada veergu **Seotud valemid/read/ühikud** pealkirja ja vormingu ridade printimise vältimiseks.
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Vormingu koodi lisamine aruande reale
 
@@ -140,7 +152,9 @@ Rea kogusumma valemi loomisel peate kasutama rea koode määramaks, millised rea
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Vormingu rea sidumine summa reaga
 
-Readefinitsiooni veerus **Vormingu kood** rakendavad vormingu koodid **DES**, **LFT**, **RGT**, **CEN**, **---** ja **===** vorminduse mittesumma ridadele. Selle vormingu printimise vältimiseks seotud summa ridade peitmisel (näiteks summa ridadel olevate nullväärtuste või perioodi aktiivsuse puudumise tõttu) peate seostama vormingu read asjakohaste summa ridadega. See funktsioon on kasulik, kui soovite takistada kogusummadega seotud päiste või vormingu printimise, kui perioodi puhul prinditavad üksikasjad puuduvad. **Märkus.** Saate takistada ka üksikasjaliku summa ridade printimise, tühjendades summadeta ridade kuvamise suvandi. See suvand asub aruande definitsiooni vahekaardil **Sätted**. Vaikimisi on nullsaldo või perioodi aktiivsuseta kande üksikasjade kontod aruannetes peidetud. Nende kande üksikasjade kontode kuvamiseks valige märkeruut **Kuva summadeta read** aruande definitsiooni vahekaardil **Sätted**.
+Readefinitsiooni veerus **Vormingu kood** rakendavad vormingu koodid **DES**, **LFT**, **RGT**, **CEN**, **---** ja **===** vorminduse mittesumma ridadele. Selle vormingu printimise vältimiseks seotud summa ridade peitmisel (näiteks summa ridadel olevate nullväärtuste või perioodi aktiivsuse puudumise tõttu) peate seostama vormingu read asjakohaste summa ridadega. See funktsioon on kasulik, kui soovite takistada kogusummadega seotud päiste või vormingu printimise, kui perioodi puhul prinditavad üksikasjad puuduvad. 
+    > [!NOTE]
+    >  You can also prevent the detailed amount rows from being printed by clearing the option to display rows without amounts. This option is located on the **Settings** tab of the report definition. By default, transaction detail accounts that have a zero balance or no period activity are suppressed in reports. To show these transaction detail accounts, select the **Display rows without an amounts** check box on the **Settings** tab of the report definition.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Vormingu rea sidumine summa reaga
 
@@ -164,7 +178,7 @@ Readefinitsioonis määratletakse üks või mitu baasrida ja seejärel määratl
 -   **CBR**-ridu lõpetatud aruandele ei prindita.
 -   Vormingu kood **CBR** ja sellega seotud rea kood asuvad seotud arvutusi kuvava rea või jaotise kohal.
 
-Veeru definitsioonis viitab veeru tüüp **CALC** veerule, mis määrab valemi real **Valem**. See valem toimib aruande selle veeru andmetel ja kasutab märksõna Baserow arvutuste rajamiseks rea vormingu koodidele **CBR**. Readefinitsioonis määratleb vormingu kood **CBR** baasrea veergude puhul, mis arvutavad aruande iga rea puhul protsendi või korrutavad baasreaga. Teil võib olla rea vormingus mitu vormingu koodi **CBR**, näiteks üks netomüügi, üks brutomüügi ja üks kogukulude jaoks. Tavaliselt kasutatakse vormingu koodi **CBR** protsendi loomiseks kontode puhul, mida võrreldakse kogusumma reaga. Baasrida kasutatakse kõigi arvutuste puhul kuni teise baasrea määratlemiseni. Peate määrama alguse vormingu koodi **CBR** ja lõpu vormingu koodi **CBR **. Näiteks kulude määramiseks netomüügi protsendina saate jagada iga kulu rea väärtuse netomüügi rea väärtusega. Sellisel juhul on netomüügi rida baasrida. Saate määrata veeru definitsiooni, mis esitab tulemused aasta puhul ja aasta algusest praeguse kuupäevani koos iga tulemuse baasprotsendiga, nagu on näidatud järgmises näites. Alustage üksikasjaliku kasumiaruandega.
+Veeru definitsioonis viitab veeru tüüp **CALC** veerule, mis määrab valemi real **Valem**. See valem toimib aruande selle veeru andmetel ja kasutab märksõna Baserow arvutuste rajamiseks rea vormingu koodidele **CBR**. Readefinitsioonis määratleb vormingu kood **CBR** baasrea veergude puhul, mis arvutavad aruande iga rea puhul protsendi või korrutavad baasreaga. Teil võib olla rea vormingus mitu vormingu koodi **CBR**, näiteks üks netomüügi, üks brutomüügi ja üks kogukulude jaoks. Tavaliselt kasutatakse vormingu koodi **CBR** protsendi loomiseks kontode puhul, mida võrreldakse kogusumma reaga. Baasrida kasutatakse kõigi arvutuste puhul kuni teise baasrea määratlemiseni. Peate määrama alguse vormingu koodi **CBR** ja lõpu vormingu koodi **CBR**. Näiteks kulude määramiseks netomüügi protsendina saate jagada iga kulu rea väärtuse netomüügi rea väärtusega. Sellisel juhul on netomüügi rida baasrida. Saate määrata veeru definitsiooni, mis esitab tulemused aasta puhul ja aasta algusest praeguse kuupäevani koos iga tulemuse baasprotsendiga, nagu on näidatud järgmises näites. Alustage üksikasjaliku kasumiaruandega.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Baasrea valimine readefinitsioonis veeru arvutuse puhul
 
@@ -196,7 +210,9 @@ Sortimiskoodid sordivad kontod või väärtused, tegeliku või eelarve hälbe ar
 1.  Klõpsake aruande kujundajas suvandit **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
 2.  Topeltklõpsake lahtrit **Vormingu kood** ja seejärel valige sortimiskood.
 3.  Määrake lahtris **Seotud valemid/read/üksused** sorditavate reakoodide vahemik. Vahemiku määramiseks sisestage esimene rea kood, koolon (:) ja seejärel viimane rea kood. Näiteks sisestage **160:490** määramaks, et vahemik on rida 160 kuni rida 490.
-4.  Sisestage lahtrisse **Veeru piirang** sortimisel kasutatava aruande veeru täht. **Märkus.** Kaasake sortimise arvutusse ainult summa read.
+4.  Sisestage lahtrisse **Veeru piirang** sortimisel kasutatava aruande veeru täht. 
+    > [!NOTE]
+    > Kaasake sortimise arvutusse ainult summa read.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Tõusvate ja laskuvate veeru väärtuste näited
 
@@ -220,255 +236,24 @@ Järgmises näites sorditakse aruande veeru D väärtused tõusvas järjestuses 
 
 Järgmiselt on toodud näide loodud aruande kohta.
 
-**Hälbe analüüs (sorditud hälbe järgi)**
+|||||||||
+|---|---|---|---|---|---|---|
+|**Hälbe analüüs (sorditud hälbe järgi)**|||||||
 
-**Pekingi ja Atlanta piirkonnad**
+|**Pekingi ja Atlanta piirkonnad**|||||||
 
-**Seitsme kuu puhul lõpuga 31. juuli 2013**
+|**Seitsme kuu puhul lõpuga 31. juuli 2013**|||||||
 
-**Juuli**
+||**Juuli**|**YTD**|||||
 
-**YTD**
+||**Tegelik**|**Eelarve**|**Hälve**|**Tegelik**|**Eelarve**|**Hälve**|
 
-**Tegelik**
+|**Sorditud igakuise hälbe järgi tõusvas järjestuses**|||||||
 
-**Eelarve**
+|COGS|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
 
-**Hälve**
-
-**Tegelik**
-
-**Eelarve**
-
-**Hälve**
-
-**Sorditud igakuise hälbe järgi tõusvas järjestuses**
-
-COGS
-
-873,872
-
-236,144
-
-(637,728)
-
-4,864,274
-
-1,590,315
-
-(3,273,959)
-
-Palgad ja tasud
-
-97,624
-
-65,573
-
-(32,051)
-
-653,884
-
-441,664
-
-(212,220)
-
-Skontod
-
-36,383
-
-24,152
-
-(12,231)
-
-241,562
-
-162,670
-
-(78,892)
-
-Müügitagastused
-
-10,917
-
-7,246
-
-(3,671)
-
-62,809
-
-48,803
-
-(14,006)
-
-Rendikulu
-
-12,052
-
-9,019
-
-(3,033)
-
-80,444
-
-60,748
-
-(19,696)
-
-Kontori kulu
-
-5,023
-
-3,291
-
-(1,732)
-
-33,420
-
-22,098
-
-(11,322)
-
-Reisikulu
-
-7,656
-
-7,641
-
-(15)
-
-51,062
-
-51,469
-
-407
-
-Müük
-
-1,240,119
-
-410,389
-
-829,730
-
-7,139,288
-
-2,764,549
-
-4,374,739
-
-**Sorditud YTD absoluuthälbe järgi laskuvas järjestuses**
-
-Müük
-
-1,240,119
-
-410,389
-
-829,730
-
-7,139,288
-
-2,764,549
-
-4,374,739
-
-Reisikulu
-
-7,656
-
-7,641
-
-(15)
-
-51,062
-
-51,469
-
-407
-
-Kontori kulu
-
-5,023
-
-3,291
-
-(1,732)
-
-33,420
-
-22,098
-
-(11,322)
-
-Müügitagastused
-
-10,917
-
-7,246
-
-(3,671)
-
-62,809
-
-48,803
-
-(14,006)
-
-Rendikulu
-
-12,052
-
-9,019
-
-(3,033)
-
-80,444
-
-60,748
-
-(19,696)
-
-Skontod
-
-36,383
-
-24,152
-
-(12,231)
-
-241,562
-
-162,670
-
-(78,892)
-
-Palgad ja tasud
-
-97,624
-
-65,573
-
-(32,051)
-
-653,884
-
-441,664
-
-(212,220)
-
-COGS
-
-873,872
-
-236,144
-
-(637,728)
-
-4,864,274
-
-1,590,315
-
-(3,273,959)
+|Palgad ja töötasud|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |Skontod|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Müügitagastused|10 917|7246|(3671)|62 809|48 803|(14 006)| |Rendikulu|12 052|9019|(3033)|80 444|60 748|(19 696)| |Kontori kulu|5023|3291|(1732)|33 420|22 098|(11 322)| |Reisikulu|7656|7641|(15)|51 062|51 469|407| |Sales|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |**Sorditud YTD absoluuthälbe järgi laskuvas järjestuses**|||||||
+|Müük|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |Reisikulu|7656|7641|(15)|51 062|51 469|407| |Kontori kulu|5023|3291|(1732)|33 420|22 098|(11 322)| |Müügitagastused|10 917|7246|(3671)|62 809|48 803|(14 006)| |Rendikulu|12 052|9019|(3033)|80 444|60 748|(19 696)| |Skontod|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Palgad ja töötasud|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |COGS|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
 
 ## <a name="specify-a-format-override-cell"></a>Vormingu alistamise lahtri määramine
 Lahter **Vormingu alistamine** määrab aruande printimisel rea puhul kasutatava vormingu. Selline vorming alistab veeru definitsioonis ja aruande definitsioonis määratud vormingu. Vaikimisi on neis definitsioonides määratud vorminguks valuuta. Kui ühel aruande real loetletakse varade arv, nt ehitiste arv ja teisel real loetletakse nende varade rahaline väärtus, saate alistada valuuta vormingu ja sisestada numbrivormingu rea puhul, mis määrab ehitiste arvu. Saate selle teabe määrata dialoogiboksis **Vormingu alistamine**. Saadaolevad suvandid olenevad valitud vormingu kategooriast. Dialoogiboksi alal **Näidis** kuvatakse näidisvormingud. Saadaval on järgmised vormingu kategooriad.
@@ -492,7 +277,9 @@ Valuuta vorming rakendub eelarve summale ja sisaldab valuuta tähist. Valikud on
 -   **Valuuta tähis** – aruande valuuta tähis. See väärtus alistab ettevõtte teabe sätte **Piirkonnavalikud**.
 -   **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
 -   **Kümnendkohad** – pärast kümnendkohta näidatavate numbrikohtade arv.
--   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. **Märkus.** Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
+-   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
+    > [!NOTE]
+    >  Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
 
 ### <a name="numeric-formatting"></a>Arvuvorming
 
@@ -500,7 +287,9 @@ Arvuvorming rakendub mis tahes summale, mis ei sisalda valuuta tähist. Valikud 
 
 -   **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
 -   **Kümnendkohad** – pärast kümnendkohta näidatavate numbrikohtade arv.
--   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. **Märkus.** Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
+-   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
+    > [!NOTE]
+    >  Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
 
 ### <a name="percentage-formatting"></a>Protsendivorming
 
@@ -508,14 +297,18 @@ Protsendivorming sisaldab protsendimärki (%). Valikud on järgmised:
 
 -   **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
 -   **Kümnendkohad** – pärast kümnendkohta kuvatavate numbrikohtade arv.
--   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. **Märkus.** Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
+-   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
+    > [!NOTE]
+    >  Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
 
 ### <a name="custom-formatting"></a>Kohandatud vorming
 
 Kasutage kohandatud vormingu alistamise loomiseks kohandatud vormingu kategooriat. Valikud on järgmised:
 
 -   **Tüüp** – kohandatud vorming.
--   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. **Märkus.** Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
+-   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
+    > [!NOTE]
+    >  Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
 
 Tüüp peaks tähistama positiivset väärtust ja seejärel negatiivset väärtust. Üldjuhul sisestate sarnase vormingu, mis eristab positiivset ja negatiivset väärtust. Näiteks määramaks, et nii positiivsetel kui ka negatiivsetel väärtustel on kaks kümnendkohta, kuid negatiivsed väärtused kuvatakse sulgudes, sisestage **0.00;(0.00)**. Järgmises tabelis näidatakse kohandatud vorminguid, mida saate kasutada oma väärtuste vormingu juhtimiseks. Kõik näited algavad väärtusest 1234.56.
 
@@ -570,14 +363,18 @@ Kindla konto valimisel kombineerib aruandekoostur üldjuhul konto ja rahandusaas
 
 ### <a name="book-code-modifiers"></a>Konteerimiskoodi muutujad
 
-Saate piirata rida olemasoleva konteerimiskoodiga. Veeru definitsioon peab sisaldama vähemalt ühte konteerimiskoodiga veergu **FD**. **Märkus.** Rea konteerimiskoodi piirang alistab selle rea veeru definitsiooni konteerimiskoodi piirangud.
+Saate piirata rida olemasoleva konteerimiskoodiga. Veeru definitsioon peab sisaldama vähemalt ühte konteerimiskoodiga veergu **FD**. 
+> [!NOTE]
+> Rea konteerimiskoodi piirang alistab selle rea veeru definitsiooni konteerimiskoodi piirangud.
 
 ### <a name="account-and-transaction-attributes"></a>Konto ja kande atribuudid
 
 Mõned raamatupidamissüsteemid toetavad finantsandmetes konto atribuute ja kande atribuute. Need atribuudid toimivad virtuaalsete kontosegmentidena ja võivad sisaldada lisateavet konto või kande kohta. Selleks lisateabeks võivad olla konto ID-d, partii ID-d, sihtnumbrid või muud atribuudid. Kui teie raamatupidamissüsteem toetab atribuute, saate kasutada konto atribuute või kande atribuute readefinitsioonis rea muutujatena. Lisateabe saamiseks rea teabe alistamise kohta vt selles artiklis varem toodud jaotist Veeru definitsiooni alistamine.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Lahtri Link finantsdimensioonidele määramine
-Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tuleks aruande igale reale lisada. See lahter sisaldab dimensiooniväärtusi, kuid saate lahtreid määrata Microsoft Exceli töölehel segmendiväärtuste või dimensiooniväärtuste asemel või neile lisaks. Dialoogiboksi **Dimensioonid** avamiseks topeltklõpsake lahtrit **Link finantsdimensioonidele**. **Märkus.** Aruande kujundaja ei saa valida kontosid, dimensioone või välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. Readefinitsioonis juba olemasoleva rea teabe määramiseks lisage teave lahtrisse **Link finantsdimensioonidele**. Finantsandmetega seotavate uute ridade lisamiseks kasutage aruande definitsioonis uute ridade loomiseks dialoogiboksi **Sisesta read**. Veeru pealkiri muutub veeru konfiguratsioonist olenevalt, nagu on näidatud järgmises tabelis.
+Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tuleks aruande igale reale lisada. See lahter sisaldab dimensiooniväärtusi, kuid saate lahtreid määrata Microsoft Exceli töölehel segmendiväärtuste või dimensiooniväärtuste asemel või neile lisaks. Dialoogiboksi **Dimensioonid** avamiseks topeltklõpsake lahtrit **Link finantsdimensioonidele**. 
+> [!NOTE]
+> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], {, või }. Readefinitsioonis juba olemasoleva rea teabe määramiseks lisage teave lahtrisse **Link finantsdimensioonidele**. Finantsandmetega seotavate uute ridade lisamiseks kasutage aruande definitsioonis uute ridade loomiseks dialoogiboksi **Sisesta read**. Veeru pealkiri muutub veeru konfiguratsioonist olenevalt, nagu on näidatud järgmises tabelis.
 
 | Valitud seose tüüp       | Lingi veeru kirjeldus muutub järgmiseks |
 |----------------------------------|----------------------------------------------------|
@@ -606,21 +403,27 @@ Vaikimisi ei prindi aruandekoostur ridu, mille finantsandmetes pole asjakohast s
 3.  Muudatuste salvestamiseks klõpsake menüü **Fail** käsku **Salvesta**.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Metamärkide ja vahemike kasutamine readefinitsioonis
-Füüsilise segmendi väärtuse sisestamisel dialoogiboksi **Dimensioonid** saate panna metamärgi (? või \*) segmendi mis tahes kohta. Aruandekoostur ekstraktib kõik määratud asukohtade väärtused metamärke arvestamata. Näiteks sisaldab readefinitsioon ainult füüsilise segmendi väärtusi ja füüsilistel segmentidel on neli tähemärki. Sisestades reale **6???**, juhendate aruandekoosturit kaasama kõiki kontosid, mille füüsilise segmendi väärtus algab 6-ga. Kui sisestate **6\***, saadakse samad tulemused, kuid tulemused sisaldavad ka muutuva laiusega väärtusi, nagu **60** ja **600000**. Aruandekoostur asendab iga metamärgi (?) võimalikud väärtuste vahemikuga, mis hõlmavad tähti ja erimärke. Näiteks vahemikus **12?0** kuni **12?4** asendatakse **12?0** metamärk märgistiku madalaima väärtusega ja **12?4** metamärk asendatakse märgistiku kõrgeima väärtusega. **Märkus.** Peaksite vältima metamärkide kasutamist vahemike algus- ja lõppkontode puhul. Algus- või lõppkontol metamärkide kasutamisel võite saada ootamatuid tulemusi.
+Füüsilise segmendi väärtuse sisestamisel dialoogiboksi **Dimensioonid** saate panna metamärgi (? või \*) segmendi mis tahes kohta. Aruandekoostur ekstraktib kõik määratud asukohtade väärtused metamärke arvestamata. Näiteks sisaldab readefinitsioon ainult füüsilise segmendi väärtusi ja füüsilistel segmentidel on neli tähemärki. Sisestades reale **6???**, juhendate aruandekoosturit kaasama kõiki kontosid, mille füüsilise segmendi väärtus algab 6-ga. Kui sisestate **6\***, saadakse samad tulemused, kuid tulemused sisaldavad ka muutuva laiusega väärtusi, nagu **60** ja **600000**. Aruandekoostur asendab iga metamärgi (?) võimalikud väärtuste vahemikuga, mis hõlmavad tähti ja erimärke. Näiteks vahemikus **12?0** kuni **12?4** asendatakse **12?0** metamärk märgistiku madalaima väärtusega ja **12?4** metamärk asendatakse märgistiku kõrgeima väärtusega. 
+> [!NOTE]
+> Peaksite vältima metamärkide kasutamist vahemike algus- ja lõppkontode puhul. Algus- või lõppkontol metamärkide kasutamisel võite saada ootamatuid tulemusi.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>Ühe segmendi või ühe dimensiooni vahemikud
 
-Saate määrata segmendiväärtuste või dimensiooniväärtuste vahemiku. Vahemiku määramise kasu seisneb selles, et te ei pea värskendama readefinitsiooni iga kord, kui uus segmendiväärtus või dimensiooniväärtus finantsandmetesse lisatakse. Näiteks vahemik **+Konto=\[6100:6900\]** tõmbab rea summasse väärtusi kontodelt 6100 kuni 6900. Kui vahemik sisaldab metamärki (?), ei hinda aruandekoostur vahemikku märgiti. Selle asemel määratakse vahemiku alam- ja ülempiirid ja seejärel kaasatakse piirväärtused ja kõik nendevahelised väärtused. **Märkus.** Aruande kujundaja ei saa valida kontosid, dimensioone või välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. Saate ampersandi (&) lisada ainult juhul, kui loote readefinitsioone automaatselt, kasutades dialoogiboksi **Sisesta read dimensioonidest**.
+Saate määrata segmendiväärtuste või dimensiooniväärtuste vahemiku. Vahemiku määramise kasu seisneb selles, et te ei pea värskendama readefinitsiooni iga kord, kui uus segmendiväärtus või dimensiooniväärtus finantsandmetesse lisatakse. Näiteks vahemik **+Konto=\[6100:6900\]** tõmbab rea summasse väärtusi kontodelt 6100 kuni 6900. Kui vahemik sisaldab metamärki (?), ei hinda aruandekoostur vahemikku märgiti. Selle asemel määratakse vahemiku alam- ja ülempiirid ja seejärel kaasatakse piirväärtused ja kõik nendevahelised väärtused. 
+> [!NOTE]
+> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], {, või }. Saate ampersandi (&) lisada ainult juhul, kui loote readefinitsioone automaatselt, kasutades dialoogiboksi **Sisesta read dimensioonidest**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Mitme segmendi või mitme dimensiooni vahemikud
 
-Vahemiku sisestamisel mitme dimensiooniväärtuse kombinatsioone kasutades võrreldakse vahemikku ..\finantsdimensioonid\dimensioonipõhiselt. Vahemiku võrdlust ei saa teha märgiti või osalise segmendi alusel. Näiteks vahemik **+Konto=\[5000:6000\], Osakond=\[1000:2000\], Kulukeskus=\[00\]** hõlmab ainult iga segmendiga ühtivaid kontosid. Selles stsenaariumis peab esimene dimensioon olema vahemikus 5000 kuni 6000, teine dimensioon peab olema vahemikus 1000 kuni 2000 ja viimane dimensioon peab olema 00. Näiteks **+Konto=\[5100\], Osakond=\[1100\], Kulukeskus=\[01\]** ei kaasata aruandesse, kuna viimane segment jääb määratud vahemikust välja. Kui segmendi väärtus sisaldab tühikuid, pange see väärtus nurksulgudesse (\[ \]). Neljakohalise segmendi puhul kehtivad järgmised väärtused: **\[ 234\], \[123 \], \[1 34\]**. Dimensiooniväärtused peaks olema nurksulgudes (\[ \]) ja aruandekoostur lisab need sulud teie eest. Kui mitme segmendi või mitme dimensiooni vahemik sisaldab metamärke (? või \*), määratakse mitme segmendi või mitme dimensiooni vahemiku alam- ja ülempiirid ja seejärel kaasatakse piirväärtused ja kõik nendevahelised väärtused. Laia vahemiku soovimisel, nagu näiteks kogu kontode vahemiku 40 000 kuni 99 999 puhul peaksite võimaluse korral määrama kehtiva algus- ja lõppkonto. **Märkus.** Aruande kujundaja ei saa valida kontosid, dimensioone või välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. Saate ampersandi (&) lisada ainult juhul, kui loote readefinitsioone automaatselt, kasutades dialoogiboksi **Sisesta read dimensioonidest**.
+Vahemiku sisestamisel mitme dimensiooniväärtuse kombinatsioone kasutades võrreldakse vahemikku ..\finantsdimensioonid\dimensioonipõhiselt. Vahemiku võrdlust ei saa teha märgiti või osalise segmendi alusel. Näiteks vahemik **+Konto=\[5000:6000\], Osakond=\[1000:2000\], Kulukeskus=\[00\]** hõlmab ainult iga segmendiga ühtivaid kontosid. Selles stsenaariumis peab esimene dimensioon olema vahemikus 5000 kuni 6000, teine dimensioon peab olema vahemikus 1000 kuni 2000 ja viimane dimensioon peab olema 00. Näiteks **+Konto=\[5100\], Osakond=\[1100\], Kulukeskus=\[01\]** ei kaasata aruandesse, kuna viimane segment jääb määratud vahemikust välja. Kui segmendi väärtus sisaldab tühikuid, pange see väärtus nurksulgudesse (\[ \]). Neljakohalise segmendi puhul kehtivad järgmised väärtused: **\[ 234\], \[123 \], \[1 34\]**. Dimensiooniväärtused peaks olema nurksulgudes (\[ \]) ja aruandekoostur lisab need sulud teie eest. Kui mitme segmendi või mitme dimensiooni vahemik sisaldab metamärke (? või \*), määratakse mitme segmendi või mitme dimensiooni vahemiku alam- ja ülempiirid ja seejärel kaasatakse piirväärtused ja kõik nendevahelised väärtused. Laia vahemiku soovimisel, nagu näiteks kogu kontode vahemiku 40 000 kuni 99 999 puhul peaksite võimaluse korral määrama kehtiva algus- ja lõppkonto. 
+> [!NOTE]
+> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], {, või }. Saate ampersandi (&) lisada ainult juhul, kui loote readefinitsioone automaatselt, kasutades dialoogiboksi **Sisesta read dimensioonidest**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Readefinitsiooni muude kontode liitmine või lahutamine
 Ühe konto rahasummade liitmiseks teise konto rahasummadele või neist lahutamiseks saate kasutada plussmärki (+) ja miinusmärk (–) lahtris **Link finantsdimensioonidele**. Järgmises tabelis kuvatakse linkide finantsandmetele liitmise ja lahutamise puhul lubatud vormingud.
 
-| Toiming                                                                               | Kasutatav vorming                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Toiming  | Kasutatav vorming  |
+|------------|-----------------|
 | Kahe täielikult kvalifitseeritud konto liitmine.                                                       | +Divisjon=\[000\], Konto=\[1205\], Osakond=\[00\]+Divisjon=\[100\], Konto=\[1205\], Osakond=\[00\] |
 | Kahe segmendiväärtuse liitmine.                                                                 | +Konto=\[1205\]+Konto=\[1210\]                                                                           |
 | Metamärke sisaldavate segmendiväärtuste liitmine.                                    | +Konto=\[120?+Konto=\[11??\]                                                                             |
@@ -634,7 +437,9 @@ Vahemiku sisestamisel mitme dimensiooniväärtuse kombinatsioone kasutades võrr
 | Segmendiväärtuste vahemiku lahutamine.                                                     | -Konto=\[1200:1205\]                                                                                       |
 | Metamärke sisaldavate segmendiväärtuste vahemiku lahutamine.                    | -Konto=\[120?:130?\]                                                                                       |
 
-Ehkki saate kontosid otse muuta, saate finantsandmete linkidele õige vormingu rakendamiseks kasutada ka dialoogiboksi **Dimensioonid**. Väärtused võivad sisaldada metamärke (? või \*). Aruande kujundaja ei saa siiski valida kontosid, dimensioone või välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. **Märkus.** Väärtuste lahutamiseks peate panema need väärtused sulgudesse. Näiteks kui sisestate **450?-(4509)**, kuvatakse see kui **+Konto=\[4509\]-Konto=\[450?\]** ja juhendate aruandekoosturit lahutama konto segmendi 4509 summat mis tahes konto segmendi summast, mis algab 450-ga.
+Ehkki saate kontosid otse muuta, saate finantsandmete linkidele õige vormingu rakendamiseks kasutada ka dialoogiboksi **Dimensioonid**. Väärtused võivad sisaldada metamärke (? või \*). Aruande kujundaja ei saa siiski valida kontosid, dimensioone või välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. 
+> [!NOTE]
+> Väärtuste lahutamiseks peate panema need väärtused sulgudesse. Näiteks kui sisestate **450?-(4509)**, kuvatakse see kui **+Konto=\[4509\]-Konto=\[450?\]** ja juhendate aruandekoosturit lahutama konto segmendi 4509 summat mis tahes konto segmendi summast, mis algab 450-ga.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Kontode liitmine muudele kontodele või neist lahutamine
 
@@ -648,7 +453,8 @@ Ehkki saate kontosid otse muuta, saate finantsandmete linkidele õige vormingu r
 
 4.  Tehete lisamiseks korrake etappe 2 kuni 3.
 
-**Märkus.** Tehtemärk rakendub rea kõigile dimensioonidele.
+> [!NOTE]
+> Tehtemärk rakendub rea kõigile dimensioonidele.
 
 ## <a name="description-of-the-dimensions-dialog-box"></a>Dialoogiboksi Dimensioonid kirjeldus
 Järgmises tabelis kirjeldatakse dialoogiboksi **Dimensioonid** välju.
@@ -680,7 +486,9 @@ Dimensiooniväärtuste kogum on dimensiooniväärtuste nimega grupp. Dimensiooni
 2.  Klõpsake menüüs **Redigeeri** suvandit **Dimensiooniväärtuste kogumite haldamine**.
 3.  Valige dimensiooni tüüp dialoogiboksi **Dimensiooniväärtuste kogumite haldamine** väljalt **Dimensioon**.
 4.  Valige loendist värskendatav dimensiooniväärtuste kogum ja seejärel klõpsake käsku **Muuda**.
-5.  Muutke dialoogiboksis **Muutmine** kogumisse kaasatava valemi väärtusi. **Märkus.** Uute kontode või dimensioonide lisamisel veenduge, et muudate muudatuste kaasamiseks olemasolevaid dimensiooniväärtuse kogumeid.
+5.  Muutke dialoogiboksis **Muutmine** kogumisse kaasatava valemi väärtusi. 
+    > [!NOTE]
+    >  Uute kontode või dimensioonide lisamisel veenduge, et muudaksite muudatuste kaasamiseks olemasolevaid dimensiooniväärtuse kogumeid.
 6.  Topeltklõpsake lahtrit ja valige sobiv tehtemärk, konto **Alates** ja konto **Kuni**.
 7.  Klõpsake nuppu **OK** dialoogiboksi **Muutmine** sulgemiseks ja muudatuste salvestamiseks.
 
@@ -703,6 +511,8 @@ Dimensiooniväärtuste kogum on dimensiooniväärtuste nimega grupp. Dimensiooni
 <a name="see-also"></a>Vt ka
 --------
 
-[Microsoft Dynamics 365 for Operationsi finantsaruandlus](financial-reporting-intro.md)
+[Finantsaruandlus](financial-reporting-intro.md)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Selles näidisstsenaariumis on ettevõtte USMF-l veose leping hankijaga US-104 t
 USMF teeb täiendavad perioodilised protsessid.
 
 -   Hankijale kuuluvate varude füüsilist liikumist töödeldakse erinevate ladude vahel üleviimistöölehte kasutades.
--   Füüsiliste varude laoseisu värskendatakse, kasutades töölehte** Kauba inventuur**. Inventuuri saab kasutada ka hankija, et värskendada vabu varusid, kui neil on luba seda teha.
+-   Füüsiliste varude laoseisu värskendatakse, kasutades töölehte**Kauba inventuur**. Inventuuri saab kasutada ka hankija, et värskendada vabu varusid, kui neil on luba seda teha.
 
 Hankija, US-104, saab jälgida värskendusi, kasutades lehte **Veose vaba kaubavaru**.
 

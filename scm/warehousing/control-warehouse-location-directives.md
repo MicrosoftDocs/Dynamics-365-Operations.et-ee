@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 64bcea1f305d67c01967184596a58a48a002cf48
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e90741b9151f19c70923685fdf1edb2552296a08
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,7 +57,7 @@ Töömallide puhul saate seadistada päringu, et määrata, millal kindlat asuko
 
 Asukohakorralduse read seavad asukoha leidmise reeglite rakendusele lisapiiranguid. Saate määrata minimaalse ja maksimaalse koguse, millele korraldus vastama peab, ja saate määrata, et korraldus on kindlale laoühikule. Näiteks kui mõõtühikuks on kaubaalused, saab määratud asukohta maha panna ainult kaubaalustel kaupu. Samuti saate määrata, kas kogust saab mitme asukoha vahel jagada. Nagu asukohakorralduse päisel, on ka asukohakorralduse real seerianumber, mis määrab ridade hindamise järjekorra. 
 
-Asukohakorraldustel on veel üks üksikasjade tase: *asukohakorralduse toimingud*. Saate määratleda igale reale mitu asukoha korralduse tegevust. Järjekorranumbrit kasutatakse selleks, et määrata tegevuste järjekord. Sellel tasemel saate seadistada päringu määratlemaks, kuidas leida laos parim asukoht. Saate kasutada ka eelmääratletud sätteid **Strateegia **, et leida optimaalne asukoht.
+Asukohakorraldustel on veel üks üksikasjade tase: *asukohakorralduse toimingud*. Saate määratleda igale reale mitu asukoha korralduse tegevust. Järjekorranumbrit kasutatakse selleks, et määrata tegevuste järjekord. Sellel tasemel saate seadistada päringu määratlemaks, kuidas leida laos parim asukoht. Saate kasutada ka eelmääratletud sätteid **Strateegia**, et leida optimaalne asukoht.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Asukoha korralduste kasutamise näide
 

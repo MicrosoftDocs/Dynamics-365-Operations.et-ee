@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 394276e6908f2c1f6bc72eea061facc3afe701e9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a6bd487e602a57272ea2943441ea4b78129b3f8d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ Vahelaoorderite olek võib olla järgmine:
 
 ### <a name="created"></a>Loodud
 
-Kui vahelaoorder on loodud käsitsi, kuid kaup ei ole veel vahelattu pandud, siis on vahelaoorderi olek **Loodud**. Luuakse kaks laokannet. Üks kanne on väljaminekukanne, mille olek võib olla **Tellimusel**, **Füüsiliselt reserveeritud** või** Komplekteeritud**. Teine kanne on sissetulekukanne, mille olek võib vahelaos olla **Tellitud** või** Registreeritud**. Saate reserveerida, komplekteerida ja registreerida varude värskendusi tavaliste protsesside abil.
+Kui vahelaoorder on loodud käsitsi, kuid kaup ei ole veel vahelattu pandud, siis on vahelaoorderi olek **Loodud**. Luuakse kaks laokannet. Üks kanne on väljaminekukanne, mille olek võib olla **Tellimusel**, **Füüsiliselt reserveeritud** või**Komplekteeritud**. Teine kanne on sissetulekukanne, mille olek võib vahelaos olla **Tellitud** või**Registreeritud**. Saate reserveerida, komplekteerida ja registreerida varude värskendusi tavaliste protsesside abil.
 
 ### <a name="started"></a>Alustatud
 

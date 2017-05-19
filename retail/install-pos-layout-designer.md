@@ -18,21 +18,25 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b33cbf67c00b6baea4393e82d19300085781af29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e60994f5c4fa38fc2be17b4021e2def904c87b7f
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Jaemüügikassa paigutuse kujundaja installimine
 
+[!include[banner](includes/banner.md)]
+
+
 Saate kasutada ühe klõpsuga kujundajat, et kujundada kaupluste, registrite, kassapidajate ja juhatajate jaoks režiimis Horisontaalne või režiimis Vertikaalne erinevaid uudse jaemüügikassa (MPOS) ja pilve kassa paigutusi.
 
 Tänapäevase jamüügikassa (MPOS) või pilve kassa graafilist kujundust juhib kassa paigutus. Paigutus juhib erinevate objektide asukohta. Näited hõlmavad kogupaigutust, kaubavõrgustiku paigutust, kliendi paigutust, makse paigutust ja erinevate menüünuppude paigutust. Paigutused hõlmavad ka töötajatele esitatava müügiliidese üldist ilmet.
 
-## <a name="install-the-oneclick-designer"></a>Ühe klõpsuga kujundaja installimine
+## <a name="install-the-one-click-designer"></a>Ühe klõpsuga kujundaja installimine
 1.  Rakenduses Microsoft Dynamics 365 for Operations kasutage üleval vasakul olevat menüüd, et navigeerida asukohta **Jaemüük** **ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa** &gt; **Ekraani paigutused**.
 2.  Valige mis tahes paigutus, millel on rakenduse tüüp **Modern POS Windowsi jaoks** või **Pilve POS** ja klõpsake seejärel valikut **Paigutusekujundaja**.
 3.  Ühe klõpsuga kujundaja installi käitamiseks klõpsake Internet Exploreri akna alumisse ossa ilmuval teavitusribal käsku **Ava**. (Teistes brauserites võib teavitusriba ilmuda kusagile mujale.)
@@ -52,5 +56,7 @@ Tänapäevase jamüügikassa (MPOS) või pilve kassa graafilist kujundust juhib 
 --------
 
 [Tänapäevase jaemüügikassa konfigureerimine, allalaadimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md)
+
+
 
 

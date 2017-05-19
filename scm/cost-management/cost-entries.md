@@ -3,7 +3,7 @@ title: Kulukirjed
 description: "Sellese artiklis antakse teavet kulukirjete ja nende loomise aja kohta. Kulukirje on kirje, mis registreerib antud sündmuse koguse ja kulu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 55f5ee731c40acc40e8fe20c24d4ed707fe2c81a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 341251119304456a89b02c7a8d4af941ea21196d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-entries"></a>Kulukirjed
+
+[!include[banner](../includes/banner.md)]
+
 
 Sellese artiklis antakse teavet kulukirjete ja nende loomise aja kohta. Kulukirje on kirje, mis registreerib antud sündmuse koguse ja kulu.
 
@@ -53,17 +57,22 @@ Uus leht **Kulukirjed** võimaldab vaadata ja juhtida koguste ja kulude registre
 -   Mõni päev pärast arvesündmuse registreerimist suureneb kulu 11.00 USA dollarini. Seetõttu on kogusumma 1100 USA dollarit. Luuakse teine kanne, mis kajastab 100 USA dollari suurust vahet.
 -   Mõni päev hiljem registreeritakse ostutellimusel lisatasu 15.00 USA dollarit transpordikulu katteks.
 
-| Kanne | Kuupäev       | Viide      | Number | Saatepartii ID  | Viitepartii | Tagastuspartii ID | Kogus | Summa  |
-|---------|------------|----------------|--------|---------|---------------|---------------|----------|---------|
-| 00001   | 01-01-2015 | Ostutellimus | 100001 | 0000101 |               |               | 100,00   | 1000.00 |
-| 00002   | 20-01-2015 | Ostutellimus | 100001 | 0000101 |               |               |          | 100,00  |
-| 00003   | 31-01-2015 | Korrigeerimine     | 100001 | 0000101 |               |               |          | 15,00   |
+| Kanne | Kuupäev       | Viide      | Kood | Saatepartii ID  | Kogus | Summa  |
+|---------|------------|----------------|--------|---------|---------------|----|
+| 00001   | 01-01-2015 | Ostutellimus | 100001 | 0000101 | 100,00   | 1000.00 |
+| 00002   | 20-01-2015 | Ostutellimus | 100001 | 0000101 |          | 100,00  |
+| 00003   | 31-01-2015 | Korrigeerimine     | 100001 | 0000101 |          | 15,00   |
 
-Lehel **Kulukirjed** saab filtreerida dokumendi ID ja dokumendi kuupäeva alusel. **Märkus.** Kulukirjed on saadaval ainult [kuluobjektide](cost-object.md) või väljastatud toodete puhul.
+Lehel **Kulukirjed** saab filtreerida dokumendi ID ja dokumendi kuupäeva alusel. 
+
+> [!NOTE]
+> Kulukeskused on saadaval ainult [kuluobjektide](cost-object.md) või väljastatud toodete puhul.
 
 <a name="see-also"></a>Vt ka
 --------
 
 [Kuluobjektid](cost-object.md)
+
+
 
 

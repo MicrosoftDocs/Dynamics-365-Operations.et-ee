@@ -1,9 +1,9 @@
 ---
 title: Dynamics 365 for Operationsi finantsaruandlus
 description: "Microsoft Dynamics 365 for Operationsi finantsaruandlus võimaldab finants- ja äriprofessionaalidel finantsaruandeid koostada, hallata, juurutada ja kuvada. See ületab tavapärased aruandluse piirangud, aidates teil tõhusalt mitmesuguseid aruandeid koostada."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>Dynamics 365 for Operationsi finantsaruandlus
+
+[!include[banner](../includes/banner.md)]
+
 
 Microsoft Dynamics 365 for Operationsi finantsaruandlus võimaldab finants- ja äriprofessionaalidel finantsaruandeid koostada, hallata, juurutada ja kuvada. See ületab tavapärased aruandluse piirangud, aidates teil tõhusalt mitmesuguseid aruandeid koostada.
 
@@ -36,8 +40,7 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 | Komponent        | Funktsioonid                                                                                                                                                                                                                                                                           | Lisateave                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Aruande kujundaja  | Saate luua aruande määratlemiseks ja koostamiseks ühendatavaid aruande koosteüksusi. Aruande viisard juhendab vähem kogenud kasutajaid kujunduse protsessis. Edasijõudnud kasutajad saavad luua uued aruande koosteüksused või muuta olemasolevaid koosteüksusi oma vajaduste järgi. |                                                                                                 |
-| Veebivaatur       | Finantsaruannete vaatamine veebibrauseris. Veebivaatur ei nõua finantsaruande serverikomponentide installimist.                                                                                                                                                        | [Veebivaatur](financial-reporter-designer-web-client.md)            |
-| Aruandegraafikud | Saate plaanida regulaarseks koostamiseks üksiku aruande või aruanderühma.                                                                                                                                                                                          | [Aruande loomine](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Aruandegraafikud | Saate plaanida regulaarseks koostamiseks üksiku aruande või aruanderühma.                                                                                                                                                                                          | [Finantsaruande loomine](generate-financial-report.md) |
 
 ## <a name="features"></a>Funktsioonid
 <table>
@@ -78,13 +81,15 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 <li>Dimensioonifiltrite lisamine aruande sisu piiramiseks konkreetse dimensiooni või dimensioonide kombinatsiooniga.</li>
 <li>Atribuudifiltrite lisamine aruande sisu piiramiseks konkreetse atribuudi või atribuutide kombinatsiooniga.</li>
 </ul>
-Lisateabe saamiseks vt jaotist Interaktiivsed komponendid ja navigeerimisfunktsioonid <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">töölauavaaturi liideses</a>.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Vt ka
+[Finantsaruande loomine](generate-financial-report.md)
 
-[Finantsaruande loomine]((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

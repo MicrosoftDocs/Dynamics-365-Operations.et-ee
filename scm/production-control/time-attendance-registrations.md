@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Tööajaarvestust kasutatavates ettevõtetes peavad töötajad registreerima tö
 -   Töötajad, kes peavad registreerima aja ja kohaloleku regulaarse intervalliga, näiteks kord päevas, kord nädalas või kord kahe nädala järel.
 -   Ülevaatajad, juhid ja palgaarvestajad, kes arvutavad, kinnitavad ja edastavad töötaja registreerimised edasiseks töötlemiseks.
 
-| **Märkus. **                                                                                                                                                                                                                                                    |
+| **Märkus.**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kui käivitate tööajaarvestuse koos tootmisega, salvestatakse kõik registreerimised projektides, projektitegevustes, kaudsetes tegevustes, puudumiskoodides ning ületunnitöödes ja paindajas ning neid kasutatakse mõlemas moodulis palga arvutamiseks. |
 
@@ -53,7 +54,7 @@ Pärast seadistamist saavad töötajad sisestada erinevat tüüpi registreerimis
 -   Aja- ja kaubatarbimine tootmistöödel.
 -   Masina kasutamise aeg tootmises, kui masin on määratletud ressursina.
 
-| **Märkus. **                                                                                                                                                                                                                      |
+| **Märkus.**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Töötajale saab automaatselt määrata tootmises konkreetsel masinal tehtud ajaregistreerimised, kui töötaja valib tootmistöö alustamisel töö masina assistendina. |
 
@@ -82,7 +83,7 @@ Kinnitusgrupi määramine ajalise registreerimisega töötajale toimub samamoodi
 -   Käsitsi preemiate lisamine.
 -   Lisateabe sisestamine puudumiste registreerimiste kohta.
 
-| **Märkus. **                                                                                                                                                                             |
+| **Märkus.**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kui mõnele töötajale on arvestatud ületunnitöö, saab selle jaotada konkreetsetele päeva jooksul sooritatud töödele. See on oluline, kui töö kulu arvutatakse töötajate tasu alusel. |
 
@@ -102,7 +103,7 @@ Pärast registreerimiste kinnitamist saate need üle kanda perioodilisse palgat�
 ## <a name="reversing-transferred-registrations"></a>Ülekantud registreerimiste tühistamine
 Kannete tühistamise ülesanne (nende tagasipööramine) on võimalik kuni palgaperioodi tasu ülekandmiseni. See tähendab, et palgaandmed on üle kantud välisfaili. Tühistamise korral võetakse kõik registreerimised tagasi ja kõik tootmistellimustesse või projektidesse sisestatud kanded tühistatakse tasakaalustuskannetega ja neutraliseeritakse.
 
-| **Märkus. **                                                 |
+| **Märkus.**                                                 |
 |----------------------------------------------------------|
 | Välisfaili saab importida palgaarvestussüsteemi. |
 

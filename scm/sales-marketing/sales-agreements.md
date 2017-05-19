@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 4dd1eae27ae33837fbab16f764083168578d0a29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69535f07cadda4f17bb5d846132ffe614495553e
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -44,8 +45,8 @@ Saate luua müügitellimuse otse müügilepingult, kasutades tegevust **Väljala
 ## <a name="commitment-types"></a>Kohustuse tüübid
 Müügilepingu iga rida väljendab teatud kauba müümise kohustust. Üldiselt on kohustusekategooriaid kaks.
 
--   **Väärtuse kohustus **– klient nõustub ostma tooteid kindla summa eest.
--   **Koguse kohustus **– klient nõustub ostma kindla koguse tooteid.
+-   **Väärtuse kohustus**– klient nõustub ostma tooteid kindla summa eest.
+-   **Koguse kohustus**– klient nõustub ostma kindla koguse tooteid.
 
 Peale selle saab leping kohustada klienti ostma teatud toodet või tootekategoorias olevaid tooteid. Kombineerides neid kaht tegurit (väärtus vs kogus ning konkreetsed tooted vs tootekategooriad), saame nelja tüüpi kohustusi.
 

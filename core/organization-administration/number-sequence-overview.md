@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a812c93a13fd36f44e659c9976099af62793098f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce03d3b55ecdc05f70a36762f7de49b3018b6451
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Numbriseeriate näidised
 Järgmised näited selgitavad, kuidas kasutada segmente numbriseeriate vormingute loomiseks. Täpsemalt kajastavad näited ulatuse segmentide kasutamise mõju.
 ### <a name="expense-report-numbers"></a>Kuluaruande numbrid
 
-Järgmises näites on kuluaruande numbrid häälestatud juriidilise isiku jaoks, mis kannab nime **CS**. **Valdkond: **reisimine ja kulud **Viide: **kuluaruande number **Ulatus: **juriidiline isik **Juriidiline isik: **CS
+Järgmises näites on kuluaruande numbrid häälestatud juriidilise isiku jaoks, mis kannab nime **CS**. **Valdkond:**reisimine ja kulud **Viide:**kuluaruande number **Ulatus:**juriidiline isik **Juriidiline isik:**CS
 | Segmendid  | Segmendi tüüp | Väärtus     |
 |-----------|--------------|-----------|
 | 1. segment | Juriidiline isik | CS        |
@@ -49,7 +50,7 @@ Järgmises näites on kuluaruande numbrid häälestatud juriidilise isiku jaoks,
 
 ### <a name="sales-order-numbers"></a>Müügitellimuste numbrid
 
-Järgmises näites on müügitellimuse numbrid häälestatud ettevõttele, mille ID on **CEU**. **Valdkond: **müük **Viide: **müügitellius **Ulatus: **ettevõte **Ettevõte: **CEU
+Järgmises näites on müügitellimuse numbrid häälestatud ettevõttele, mille ID on **CEU**. **Valdkond:**müük **Viide:**müügitellius **Ulatus:**ettevõte **Ettevõte:**CEU
 | Segmendid  | Segmendi tüüp | Väärtus    |
 |-----------|--------------|----------|
 | 1. segment | Konstant     | SO-      |
@@ -59,7 +60,7 @@ Järgmises näites on müügitellimuse numbrid häälestatud ettevõttele, mille
 
 ### <a name="purchase-requisition-numbers"></a>Ostutaotluse numbrid
 
-Järgmises näites kehtivad ostutaotluse numbrid kogu organisatsioonis. **Valdkond: **ost **Viide: **ostutaotlus **Ulatus: **jagatud
+Järgmises näites kehtivad ostutaotluse numbrid kogu organisatsioonis. **Valdkond:**ost **Viide:**ostutaotlus **Ulatus:**jagatud
 | Segmendid  | Segmendi tüüp | Väärtus    |
 |-----------|--------------|----------|
 | 1. segment | Konstant     | Req      |

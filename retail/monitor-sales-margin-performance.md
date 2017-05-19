@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f82bf6373e8076fb6786fe9ef184f47f3cf7b84
-ms.openlocfilehash: 5b8104b570c7679dff7157696d08355627312f71
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: fb8f31a88b63d8c046d28478cc29175ed8c39cb6
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -48,7 +49,7 @@ Lisaks võimaldavad kaks ainulaadset aruannet, milles kasutatakse hierarhilist r
 -   Dynamics 365 for Operationsi tööruum **Jaekaupluse haldus** &gt; **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
 -   Microsoft Dynamics 365 for Operationsi tööruum **Kategooria ja toote haldus** &gt; **Jaemüük ja kaubandus** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
 -   Microsoft Dynamics 365 for Operationsi tööruum **Hinnakujunduse ja allahindluste haldamine** &gt; **Jaemüük ja kaubandus** &gt; **Hinnad ja allahindlused** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
--   Dynamics 365 for Operationsi jaotises **Päringud ja aruanded** &gt; **Jaemüük ja kaubandus** &gt; **Päringud ja aruanded** &gt; ** Müügiaruanded**
+-   Dynamics 365 for Operationsi jaotises **Päringud ja aruanded** &gt; **Jaemüük ja kaubandus** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded**
 
 
 

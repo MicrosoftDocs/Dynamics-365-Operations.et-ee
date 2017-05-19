@@ -3,7 +3,7 @@ title: "Mobiilsete seadmete seadistamine laotöö jaoks"
 description: "Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: et-ee
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
+
+[!include[banner](../includes/banner.md)]
+
 
 Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 
@@ -315,7 +319,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="even">
 <td>Kuva varude olek</td>
-<td>Valige see suvand, et kuvada varudes olevate kaupade olek. Lisateabe saamiseks vt teemat „<a href="/inventory/inventory-statuses.md">Varude olekute kasutamise eelised</a>”. See valik on saadaval kõikide menüüelementide jaoks, mis kasutavad olemasolevat tööd, v.a tsükliline inventuur.</td>
+<td>Valige see suvand, et kuvada varudes olevate kaupade olek. See valik on saadaval kõikide menüüelementide jaoks, mis kasutavad olemasolevat tööd, v.a tsükliline inventuur.</td>
 </tr>
 <tr class="odd">
 <td>Kuva komplekteerimiskuva kokkuvõte</td>
@@ -412,5 +416,7 @@ Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinn
 [Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
 [Mobiilse seadme menüüelemendi seadistamine saabunud kaupade registreerimiseks (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Varude olekute kasutamise eelised](../inventory/inventory-statuses.md)
+
 
 
