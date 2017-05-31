@@ -1,40 +1,38 @@
 ---
-title: Tootenumbri nomenklatuur
-description: "See teema kirjeldab, kuidas saate seadistada tootenumbri nomenklatuuri fikseeritud vormingu asendamiseks [koondplaneerimise number - konfiguratsioon - suurus - värv - stiil], koos sihitud vorminguga, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja tekstieraldajaid teie soovi järgi. Samuti saate koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute."
-author: YuyuScheller
+title: Tootevariandi numbrite ja nimede nomenklatuur
+description: "See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud vormingu [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] asendamiseks. Uuel nomenklatuuril on sihipärane vorming, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja teie valitud teksti eraldajaid. Nomenklatuuri saab luua ka tootenimede kohta. Lõpuks saab koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute."
+author: roxanadiaconu
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
+ms.reviewer: annbe
 ms.search.scope: Operations, Core
 ms.custom: 220104
-ms.assetid: 31c9efb4-b5f6-4af3-b884-8f1e128469bd
+ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: roxanad
+ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: deda2b7986333e0d865aa87e6b34b6acdc8f6a6d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 0e19b18a2900a0b42dc9a1a984b9c884ca0c17cc
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="product-number-nomenclature"></a>Tootenumbri nomenklatuur
+# <a name="nomenclature-of-product-variant-numbers-and-names"></a>Tootevariandi numbrite ja nimede nomenklatuur
 
-[!include[banner](../includes/banner.md)]
+See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud vormingu [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] asendamiseks. Uuel nomenklatuuril on sihipärane vorming, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja teie valitud teksti eraldajaid. Nomenklatuuri saab luua ka tootenimede kohta. Lõpuks saab koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute.
 
-
-See teema kirjeldab, kuidas saate seadistada tootenumbri nomenklatuuri fikseeritud vormingu asendamiseks [koondplaneerimise number - konfiguratsioon - suurus - värv - stiil], koos sihitud vorminguga, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja tekstieraldajaid teie soovi järgi. Samuti saate koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute.
-
-Uus tootevariandi numbrite nomenklatuur võimaldab kaasata tootevariandi identifikaatorites segmente. Need segmendid võivad sisaldada tooteetaloni numbrit, tootedimensioone, numbriseeriaid, tekstikonstante ja atribuute. See funktsionaalsus võimaldab teil müügitellimuse või ostutellimuse loomisel kiiresti leida konkreetse tootevariandi.
+Tootevariandi numbrite ja nimede uued nomenklatuurid võimaldavad kaasata identifikaatoritesse tootevariantide segmente. Need segmendid võivad sisaldada tooteetaloni numbrit ja nime, tootedimensiooni ID-sid ja nimesid, numbriseeriaid, tekstikonstante ja atribuute. See funktsionaalsus võimaldab teil müügitellimuse või ostutellimuse loomisel kiiresti leida konkreetse tootevariandi. Nomenklatuure saab luua nii tootevariandi numbrite kui ka nimede kohta, kasutades lehte **Toote nomenklatuur**. Selle lehe avamiseks klõpsake nuppe **Tooteteabe haldus** &gt; **Seadistus**.
 
 ## <a name="nomenclature-of-predefined-product-variants"></a>Eelmääratletud tootevariantide nomenklatuur
 Tootevariandid luuakse tooteetalonidele vastavalt ühele kolmest konfiguratsioonitehnoloogiast.
@@ -43,56 +41,57 @@ Tootevariandid luuakse tooteetalonidele vastavalt ühele kolmest konfiguratsioon
 -   Piirangupõhised
 -   Dimensioonipõhised
 
-Igal tootevariandil on number ja tootevariandi ID nomenklatuur võimaldab valida segmendid, mida kaasatakse igas tootevariandi numbris. Saate valida lehel **Toote nomenklatuur** järgmisi segmente.
+Igal tootevariandil on number ja nimi ning tootevariandi ID nomenklatuurid võimaldavad valida segmendid, mida kaasatakse igas tootevariandi numbris või nimes. Saate valida lehel **Toote nomenklatuur** järgmisi segmente.
 
 -   Tooteetaloni number
+-   Tooteetaloni nimi
 -   Numbriseeria väärtus
 -   Tekstikonstant
 -   Tootedimensioonid
-    -   Konfiguratsioon
-    -   Värv
-    -   Suurus
-    -   Laad
+    -   Konfiguratsiooni ID või nimi
+    -   Värvi ID või nimi
+    -   Suuruse ID või nimi
+    -   Laadi ID või nimi
 
-Kui tootevariandi ID-nomenklatuur on määratletud, saab selle seostada tootedimensioonigrupiga. Seega määratakse kõigile sellele tootedimensioonigrupile viitavatele tooteetalonidele nomenklatuuri põhjal tootevariandi numbrid. Samuti on võimalik määrata tootevariandi ID-nomenklatuur otse tooteetalonile, millisel juhul määratakse sellele etalonile kuuluvatele tootevariantidele nomenklatuuri põhjal tootevariandi numbrid.
+Pärast tootevariandi ID-numbri nomenklatuuri määratlemist saab selle seostada tootedimensioonigrupiga. Kõigile sellele tootedimensioonigrupile viitavatele tooteetalonidele määratakse siis nomenklatuuri põhjal tootevariandi numbrid. Kuid tootevariandi nime nomenklatuure ei saa tootedimensiooni gruppidega seostada. Tootevariandi ID nomenklatuuri saab seostada ka otse tooteetaloniga. Sel juhul määratakse tooteetaloni juurde kuuluvatele tootevariantidele nomenklatuuride alusel tootevariandi numbrid ja nimed.
 
 ### <a name="example"></a>Näide
 
-T-särki (TS1234) toodetakse 3 erinevas suuruses (S, M, L), 4 erinevas värvis (punane, roheline, sinine, kollane) ja kahes stiilis (polo, V-kaelus), mis annab kokku 24 võimalikku tootevarianti. Tootevariandi ID-nomenklatuur luuakse järgmiste segmentidega.
+T-särki (TS1234) toodetakse kolmes suuruses (S, M, L), nelja värvi (punane, roheline, sinine, kollane) ja kahes stiilis (polo, V). Seetõttu on võimalikud 24 tootevarianti (= 3 × 4 × 2). Loote tootevariandi numbri nomenklatuuri, millel on järgmised segmendid.
 
 1.  Tooteetaloni number
-2.  Tekstikonstant: –
+2.  Tekstikonstant: „-”
 3.  Värv
-4.  Tekstikonstant: –
+4.  Tekstikonstant: „-”
 5.  Suurus
-6.  Tekstikonstant: –
+6.  Tekstikonstant: „-”
 7.  Laad
 
-Tootevariandi number punase väikese polo puhul on järgmine: TS1234-punane-väike-polo.
+Sellisel juhul on tootevariandi number punase väikese polosärgi puhul TS1234-punane-väike-polo.
 
 ## <a name="nomenclature-of-constraintbased-configurations"></a>Piirangupõhiste konfiguratsioonide nomenklatuur
 Piirangupõhiste konfiguratsioonide puhul saab tootedimensiooni konfigureerimiseks luua spetsiaalse nomenklatuuri. Saate valida lehel **Toote nomenklatuur** järgmisi segmente.
 
 -   Numbriseeria väärtus
 -   Tekstikonstant
--   Atribuudi väärtus 
+-   Atribuudi väärtus
 
-Igal toote konfiguratsioonimudelis oleval komponendil võib olla oma konfiguratsiooninomenklatuur. Kasutada võib ainult komponendile kuuluvaid atribuute. Alamkomponendid või kasutajanõuete atribuudid pole saadaval.
+Igal toote konfiguratsioonimudelis oleval komponendil võib olla oma konfiguratsiooninomenklatuur. Kasutada saab ainult komponendile kuuluvaid atribuute. Alamkomponente või kasutajanõuete atribuute ei saa kasutada.
 
 ### <a name="example"></a>Näide
 
-Toote konfiguratsioonimudelil on juurkomponent kahe atribuudiga.
+Toote konfiguratsioonimudelil on kahe atribuudiga juurkomponent.
 
 -   Materjal (plast, puit, teras)
 -   Pikkus (10...100)
 
-Konfiguratsiooninomenklatuur määratletakse järgmiste segmentide põhjal.
+Loote konfiguratsiooni nomenklatuuri, millel on järgmised segmendid.
 
 1.  Atribuudi väärtus: materjal
-2.  Tekstikonstant: AAA
+2.  Tekstikonstant: „AAA”
 3.  Atribuudi väärtus: pikkus
 
-Puitmaterjali, mille pikkus on 78, konfiguratsiooni ID on järgmine: PuitAAA78.
+Sellisel juhul on konfiguratsiooni ID puitmaterjali puhul pikkusega 78 PuitAAA78.
 
 ## <a name="nomenclature-of-dimensionbased-configurations"></a>Dimensioonipõhiste konfiguratsioonide nomenklatuur
 Dimensioonipõhiste konfiguratsioonide puhul saab tootedimensiooni konfigureerimiseks luua spetsiaalse nomenklatuuri. Saate valida lehel **Toote nomenklatuur** järgmisi segmente.
@@ -105,7 +104,7 @@ Konfiguratsiooninomenklatuuri saab määratleda kooslusele.
 
 ### <a name="example"></a>Näide
 
-Kooslusel on neli koosluse rida, mis on jaotatud kahte konfiguratsioonigruppi.
+Kooslusel on neli koosluserida, mis on jagatud kaheks konfiguratsioonigrupiks.
 
 -   Koosluserida: M0007, standardkorpus
     -   Konfiguratsioonigrupp: korpus
@@ -116,89 +115,87 @@ Kooslusel on neli koosluse rida, mis on jaotatud kahte konfiguratsioonigruppi.
 -   Koosluserida: M0022, metallist esivõre
     -   Konfiguratsioonigrupp: esivõre
 
-Konfiguratsiooninomenklatuur määratletakse järgmiste segmentide põhjal.
+Loote konfiguratsiooni nomenklatuuri, millel on järgmised segmendid.
 
 1.  Konfiguratsioonigrupp: korpus
-2.  Tekstikonstant: &
+2.  Tekstikonstant: „&”
 3.  Konfiguratsioonigrupp: esivõre
 
-Kangast esivõrega standardse korpuse konfiguratsiooni-ID on järgmine: M0007&M0021.
+Sellisel juhul on kangast esivõrega standardse korpuse konfiguratsiooni-ID M0007&M0021.
 
-## <a name="nomenclature-of-a-combination-of-product-variants-and-configurations"></a>Tootevariantide ja konfiguratsioonide kombinatsiooni nomenklatuur
-Kui kasutate tooteetalonile tootevariantide konfigureerimiseks piirangupõhist või dimensioonipõhist konfiguratsioonitehnoloogiat, saavad tootevariandid tootevariandi numbrid, mis hõlmavad konfiguratsioonidimensioonist pärit nomenklatuuri. Variantide konfigureerimiseks toimige järgmiselt.
+## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Tootevariantide ja konfiguratsioonide kombinatsiooni nomenklatuur
+Kui kasutate tooteetalonile tootevariantide konfigureerimiseks piirangupõhist või dimensioonipõhist konfiguratsioonitehnoloogiat, võivad tootevariantide tootevariandi numbrid hõlmata konfiguratsioonidimensioonist pärit nomenklatuuri. Variantide konfigureerimiseks tehke järgmist.
 
 1.  Määratlege lehel **Toote nomenklatuur** tootevariandi numbrite nomenklatuur, mis sisaldab konfiguratsioonidimensiooni.
 2.  Määrake see nomenklatuur konfiguratsioonidimensiooniga tootedimensioonigrupile.
 3.  Määratlege konfiguratsiooninomenklatuur komponentidele või kooslustele, mida kasutatakse tootevariantide konfigureerimiseks.
+
+Nomenklatuure saab luua ka tootevariantide nimedele. Tootevariantide nimed saab konfigureerida nii, et need sisaldaksid konfiguratsiooni ID-d või nime.
 
 ### <a name="example-for-constraint-based-configurations"></a>Piirangupõhiste konfiguratsioonide näide
 
 Selle näite puhul saate kasutada tootevariandi numbrite nomenklatuuri, mis koosneb järgmistest segmentidest.
 
 1.  Tooteetaloni number
-2.  Tekstikonstant '\_'
+2.  Tekstikonstant: „\_”
 3.  Konfiguratsioon
 
-Konfiguratsiooninomenklatuur võib sisaldada järgmisi segmente.
+Konfiguratsiooninomenklatuur koosneb järgmistest segmentidest.
 
 1.  Atribuudi väärtus: materjal
-2.  Tekstikonstant: AAA
+2.  Tekstikonstant: „AAA”
 3.  Atribuudi väärtus: pikkus
 
 Saate sisestada segmentidele järgmised väärtused.
 
--   Tooteetaloni number = M0099
--   Materjal = plast
--   Pikkus = 12
+-   Tooteetaloni number = **M0099**
+-   Materjal = **plast**
+-   Pikkus = **12**
 
-Tootevariandi numbriks muutub: M0099\_PlasticAAA12.
+Sellisel juhul saab tootevariandi numbriks M0099\_PlastAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Dimensioonipõhiste konfiguratsioonide näide
 
 Selle näite puhul saate kasutada tootevariandi numbrite nomenklatuuri, mis koosneb järgmistest segmentidest.
 
 1.  Tooteetaloni number
-2.  Tekstikonstant: //
+2.  Tekstikonstant: „//”
 3.  Konfiguratsioon
 
-Konfiguratsiooninomenklatuur võib sisaldada järgmisi segmente.
+Konfiguratsiooninomenklatuur koosneb järgmistest segmentidest.
 
 1.  Konfiguratsioonigrupp: korpus
-2.  Tekstikonstant: &
+2.  Tekstikonstant: „&”
 3.  Konfiguratsioonigrupp: esivõre
 
 Saate sisestada segmentidele järgmised väärtused.
 
--   Tooteetaloni number = D0123
--   Korpus = M0008
--   Esivõre = M0022
+-   Tooteetaloni number = **D0123**
+-   Korpus = **M0008**
+-   Esivõre = **M0022**
 
-Tootevariandi numbriks muutub: D0123//M0008&M0022.
+Sellisel juhul saab tootevariandi numbriks D0123//M0008&M0022.
 
 ## <a name="numbering-conflicts"></a>Numbrikonfliktid
-Võimalik on seadistada tootevariandi numbrite nomenklatuur, mille tulemuseks ei ole kordumatud tootevariandi numbrid. See võib juhtuda näiteks siis, kui üks aktiivne tootedimensioon ei sisaldu eelmääratud variandi konfiguratsioonitehnoloogiat kasutava tooteetaloni nomenklatuuris. Konflikte käsitletakse erinevate konfiguratsioonitehnoloogiate puhul erinevalt.
+Mõnikord ei pruugi seadistatav tootevariandi numbrite nomenklatuur anda kordumatuid tootevariandi numbreid. Tootevariantide numbrid pole kordumatud näiteks juhul, kui üks aktiivne tootedimensioon ei sisaldu eelmääratud variandi konfiguratsioonitehnoloogiat kasutava tooteetaloni nomenklatuuris. Konfliktide lahendamise viis võib olla erinev, olenevalt konfiguratsiooni tehnoloogiast.
 
 ### <a name="predefined-variants"></a>Eelmääratletud variandid
 
-Kui proovite luua tootevariante käsitsi või automaatselt, nii et ühel või mitmel on tulemuseks sama tootevariandi number, tekib tõrge. Selle vältimiseks peaksite kasutama kõiki selles tootedimensioonigrupis olevaid aktiivseid tootedimensioone või kaasama numbriseeria, et tagada tootevariandi numbrite kordumatus.
+Kui proovite luua tootevariante käsitsi või automaatselt, nii et mitmel tootevariandil on sama tootevariandi number, tekib tõrge. Selle stsenaariumi vältimiseks tuleks kasutada tootedimensiooni grupis kõiki aktiivseid tootedimensioone. Teine võimalus on lisada numbriseeria, mis aitab tagada kordumatud tootevariantide numbrid.
 
 ### <a name="constraint-based-configurations"></a>Piirangupõhised konfiguratsioonid
 
-Olenevalt nomenklatuurist võib süsteem püüda määrata konfiguratsioonile mittekordumatu tootevariandi numbri. Sellisel juhul kasutab süsteem tootevariandi numbrina konfiguratsioonidimensiooni numbriseeriat. Kui nii juhtub, kuvatakse hoiatus. Selle vältimiseks peaksite kaasama nomenklatuuri piisavalt atribuute, et tagada kordumatus, ning veenduma, et komponendi puhul oleks suvand **Korduvkasutus** sisse lülitatud.
+Olenevalt nomenklatuurist võib süsteem püüda määrata konfiguratsioonile mittekordumatu tootevariandi numbri. Sellisel juhul kasutab süsteem tootevariandi numbrina konfiguratsioonidimensiooni numbriseeriat ja kuvatakse hoiatus. Selle stsenaariumi vältimiseks tuleks lisada nomenklatuuri piisavalt atribuute, mis aitaksid tagada kordumatud tootevariantide numbrid. Samuti peaksite veenduma, et valik **Taaskasuta** oleks komponendi puhul sisse lülitatud.
 
 ### <a name="dimension-based-configurations"></a>Dimensioonipõhised konfiguratsioonid
 
-Konfigureerimisprotsess sisaldab etappi, milles süsteem soovitab nomenklatuuri põhjal konfiguratsiooniväärtust. Selles etapis saate konfiguratsiooniväärtust käsitsi muuta. Konfiguratsiooni salvestamisel kontrollib süsteem, kas konfiguratsiooniväärtus on kordumatu. Kui see ii pole, kuvatakse tõrge. Konfiguratsiooni salvestamiseks peate sisestama kordumatu konfiguratsiooniväärtuse.
-
-
+Ühe konfiguratsiooniprotsessi etapi ajal soovitab süsteem nomenklatuurile vastavat konfiguratsiooniväärtust. Selles etapis saate konfiguratsiooniväärtust käsitsi muuta. Konfiguratsiooni salvestamisel kontrollib süsteem, kas konfiguratsiooniväärtus on kordumatu. Kui sisestatud väärtus ei ole kordumatu, saate tõrketeate. Konfiguratsiooni salvestamiseks peate sisestama kordumatu konfiguratsiooniväärtuse.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Tootenumbri nomenklatuuri loomine eelmääratletud tootevariantidele (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Tootenumbri nomenklatuuri loomine eelmääratletud tootevariantidele](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Kaubakoodi nomenklatuuri loomine konfigureeritud tootevariantidele (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
-
-
+[Kaubakoodi nomenklatuuri loomine konfigureeritud tootevariantidele](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
 
 

@@ -67,6 +67,7 @@
 ### [CODA pangaväljavõte](emea-bel-coda-bank-statement-import.md)
 ### [Intervati maksudeklaratsioon](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM-i aruande häälestamine](emea-bel-prodcom-report.md)
+### [Vastavusseviimise aruanded](emea-bel-reconciliation-reports.md)
 
 ## Tšehhi Vabariik
 ### [Kreeditarve skonto](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Kulumi peatamine](emea-cze-depreciation-suspension-holidays.md)
 ### [Põhivarade kulum](emea-cze-fixed-assets-depreciation.md)
 ### [Poolaasta kulum](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [Käibemaksuaruandlus ](emea-cze-intra-community-vat-transactions.md)
 ### [KM aruanne](emea-cze-vat-statement-details.md)
 ## Eesti
 ### [KM aruanne](emea-est-vat-statement-details.md)

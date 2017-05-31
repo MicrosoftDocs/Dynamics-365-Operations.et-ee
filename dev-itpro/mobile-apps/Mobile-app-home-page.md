@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Dynamics 365 for Operationsi mobiilirakenduse koduleht
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ Mobiilirakenduse navigeerimispaan koosneb neljast lihtsast osast: armatuurlaud, 
 ## <a name="implementation-process"></a>Juurutusprotsess
 Järgmisel joonisel jyvatajse Dynamics 365 for Operationsi mobiilirakenduse juurutamise protsess teie organisatsioonis. 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![Mobiilirakenduste juurutamise protsess](./media/mobile-implementation-process_4.png)
 
 Järgmises tabelis on toodud lingid ressurssidele, mis aitavad teil Dynamics 365 for Operationsi mobiilirakendust oma organisatsioonis juurutada. Esimeses veerus toodud numbrid vastavad eelmisel joonisel kujutatud nummerdatud etappidele.
 
@@ -85,7 +83,7 @@ Järgmises tabelis on toodud lingid ressurssidele, mis aitavad teil Dynamics 365
 <td>1</td>
 <td>Süsteemiadministraator</td>
 <td>Juurutage Dynamics 365 for Operations organisatsioonile.</td>
-<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, vt teemat <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
+<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, vt teemat <a href="../deployment/deploy-demo-environment.md">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ Järgmises tabelis on toodud lingid ressurssidele, mis aitavad teil Dynamics 365
 <td>Laadige alla ja installige KB-d, mis lubavad Microsofti pakutavad mobiilsed tööruumid.</td>
 <td>Vaadake teema jaotisest &quot;Eeltingimused&quot; teavet mobiilse tööruumi kohta, mida teie organisatsioon soovib kasutada.
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Kulujuhtimise mobiilsed tööruumid</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Mobiilse tööruumi varude laoseis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Müügitellimuste mobiilsed tööruumid</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Hankija koostöö mobiilne tööruum</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Mobiilse tööruumi projekti ajakirje</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Kulujuhtimise mobiilsed tööruumid</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Mobiilse tööruumi varude laoseis</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Müügitellimuste mobiilsed tööruumid</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Hankija koostöö mobiilne tööruum</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Mobiilse tööruumi projekti ajakirje</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Kulude halduse mobiilne tööruum</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>Süsteemiadministraator</td>
 <td>Avaldage Microsofti pakutavad mobiilsed tööruumid.</td>
-<td>Vaadake teema jaotisest &quot;Eeltingimused&quot; teavet mobiilse tööruumi kohta, mida teie organisatsioon soovib kasutada.
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Kulujuhtimise mobiilsed tööruumid</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Mobiilse tööruumi varude laoseis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Müügitellimuste mobiilsed tööruumid</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Hankija koostöö mobiilne tööruum</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Mobiilse tööruumi projekti ajakirje</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">Mobiilse tööruumi avaldamine</a>
+</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>Arendaja või sõltumatu tarkvaratarnija (ISV)</td>
 <td>Kasutage Dynamics 365 for Operationsi mobiilset raamistikku kohandatud mobiilsete tööruumide loomiseks.</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Dynamics 365 for Operationsi mobiilne raamistik</a></li>
+<li><a href="mobile-platform.md">Dynamics 365 for Operationsi mobiilne raamistik</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Dynamics 365 for Operationsi tööruumi X++ API-d</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ Järgmises tabelis on toodud lingid ressurssidele, mis aitavad teil Dynamics 365
 <td>5</td>
 <td>ISV</td>
 <td>Looge kohandatud mobiilseid tööruume sisaldav juurutatav pakett ja laadige see üles Microsoft Dynamicsi elutsükliteenustesse (LCS).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Juurutatava paketi loomine</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Juurutatava paketi loomine</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>Süsteemiadministraator</td>
 <td>Rakendage ISV pakutavaid kohandatud tööruume sisaldav juurutatav pakett.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Microsoft Dynamicsi 365 for Operationsi juurutatava paketi rakendamine</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">Microsoft Dynamicsi 365 for Operationsi juurutatava paketi rakendamine</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>Süsteemiadministraator</td>
 <td>Avaldage ISV pakutavad kohandatud mobiilsed tööruumid.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a></td>
+<td><a href="publish-mobile-workspace.md">Mobiilse tööruumi avaldamine</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ Järgmises tabelis on toodud lingid ressurssidele, mis aitavad teil Dynamics 365
 <td>9</td>
 <td>Kasutaja</td>
 <td>Logige sisse ja kasutage Dynamics 365 for Operationsi mobiilirakendust. Rakendus sisaldab avaldatud mobiilseid tööruume.</td>
-<td>Microsoft pakub järgmisi mobiilseid tööruume.
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Kulujuhtimise mobiilsed tööruumid</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Mobiilse tööruumi varude laoseis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Müügitellimuste mobiilsed tööruumid</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Hankija koostöö mobiilne tööruum</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Mobiilse tööruumi projekti ajakirje</a></li>
-</ul></td>
+<td>Microsofti pakutavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Dynamics 365 for Operationsi mobiilirakenduse jaoks hiljuti välja antud mobiilsed tööruumid</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>Vt ka
---------
-
-[Dynamics 365 for Operationsi mobiilirakenduse jaoks hiljuti välja antud mobiilsed tööruumid](mobile-workspaces-released.md)
 
 
 

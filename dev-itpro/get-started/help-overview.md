@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
-ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 181ad9a7ab4e83ce9eb34312e93b1ebdeb2e04eb
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -38,10 +38,14 @@ Microsoft Dynamics 365 for Operations sisaldab spikrisüsteemi, mis põhineb kah
 -   Dokumentide sait
 -   Tegevuse juhised
 
-Nii artiklitele kui ka tegevusejuhistele pääseb juurde Dynamics 365 for Operationsi paanilt Spikker, nagu on näidatud järgmisel kuvatõmmisel. [![Spikripaan](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) See artikkel kirjeldab spikrisüsteemi ja selgitab, kuidas saate oma organisatsioonile kohandatud dokumente ja koolitusressursse luua.
+Nii artiklitele kui ka tegevusejuhistele pääseb juurde Dynamics 365 for Operationsi paanilt Spikker, nagu on näidatud järgmisel kuvatõmmisel.
+
+![Spikripaan](./media/help-pane-ops-task-guides-1024x741.png)
+
+See artikkel kirjeldab spikrisüsteemi ja selgitab, kuidas saate oma organisatsioonile kohandatud dokumente ja koolitusressursse luua.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Spikker saidil docs.microsoft.com
-Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) on Dynamics 365 for Operationsi peamine tootedokumentide allikas. See sait pakub järgmisi funktsioone.
+Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) on Dynamics 365 for Operationsi peamine tootedokumentide allikas. See sait pakub järgmisi funktsioone.
 
 -   **Juurdepääs kõige ajakohasemale sisule** – sait annab meile kiirema ja paindliku võimaluse tootedokumente luua, edastada ja uuendada. Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.
 -   **Asjatundjate kirjutatud sisu** – sait pakub rikkalikumat tootedokumentatsiooni kogumit, mida saavad täiustada kogukonna liikmed nii Microsoftis kui ka väljaspool.
@@ -50,13 +54,48 @@ Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics36
 
 Oleme kõik oma varasema viki sisu dokumentidesse üle viinud. Meil on oma uue saidi üle väga hea meel ja loodame, et teil samuti.
 
-### <a name="when-can-we-use-it"></a>Millal seda kasutada saame?
+### <a name="searching-on-docsmicrosoftcom"></a>Otsimine saidil docs.microsoft.com
+Saame palju küsimusi selle kohta, kuidas meie sisu otsida. Kui alustate meie saidil Dynamics 365 for Operationsi lehelt, määrame teie otsingu ulatuseks ainult Dynamics 365 for Operationsi sisu. Selle piirangu saab eemaldada, klõpsates otsinguväljal märki X valiku Operations juures. 
+![Tellimuste otsing](./media/search-scope.png)
 
-Saate dokumentide sisu kohe lugeda – see on täiesti avalik ja sellest saab sisse logimata otsida. Sisu leidmiseks saab kasutada igasugust teile meeldivat otsingumootorit. Soovi korral saate saidi artikleid kommenteerida, logides sisse.
+Leiate meie sisu ka igasuguse otsingumootoriga. Soovitame kasutada parimate tulemuste saamiseks saidiotsingut, nt sait: docs.microsoft.com "otsingusõna"  
+![Saidiotsing](./media/site-search.png)
+
+![Saidiotsingu tulemused](./media/site-search-results.png)
+
+
+### <a name="how-can-i-contribute"></a>Kuidas saan kaasa aidata? 
+
+Jätke meile kommentaar! 
+
+1 Klõpsake valikut **Kommentaarid** kommentaaride nägemiseks lehe alumises osas.
+
+![Kommentaarid](./media/comments.png)
+
+2 Alustage kommentaaride sisestamist ja klõpsake siis valikut **Sisesta kommentaar**.
+
+![Sisesta kommentaar](./media/before-signin.png)
+
+3 Valige konto tüüp, millega soovite sisse logida.  
+Klõpsake ühte vasakul asuvat ikooni selle saidi seostamiseks olemasoleva kontoga, nt Twitteri, Facebooki või Microsofti kontoga. 
+
+Või 
+
+Sisestage paremale meiliaadress ja uus parool saidi jaoks uue konto loomiseks. 
+
+![Sisselogimisvalikud](./media/signin-options.png)
 
 
 ## <a name="task-guides"></a>Tegevuse juhised
-Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute. Tegevuse juhise saab avada (esitada) paanilt Spikker. Tegevuse juhise esmakordsel klõpsamisel kuvatakse paanil Spikker tegevuse etapiviisilised juhised. Lokaliseeritud tegevuse juhised on nüüd saadaval. [![Tegevuse juhise lugemisvaade](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png) Juhitud interaktiivse kogemusega alustamiseks klõpsake valikut **Käivita tegevuse juhis** paani Spikker alumises osas. Avaneb must kursor, mis näitab tegevust, mida tegema peate. Järgige kasutajaliideses kuvatavaid juhiseid ja sisestage andmed näidatud viisil. [![Tegevuse juhise etapijuhend](./media/task-guide-step-1-ops.png)](./media/task-guide-step-1-ops.png) **Oluline!** Tegevuse juhise esitamisel sisestatavad andmed on tõelised. Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.
+Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute. Tegevuse juhise saab avada (esitada) paanilt Spikker. Tegevuse juhise esmakordsel klõpsamisel kuvatakse paanil Spikker tegevuse etapiviisilised juhised. Lokaliseeritud tegevuse juhised on nüüd saadaval. 
+
+![Tegevuse juhise lugemisvaade](./media/task-guide-ops-1024x742.png)
+
+Juhitud interaktiivse kogemusega alustamiseks klõpsake valikut **Käivita tegevusjuhis** paani Spikker alumises osas. Avaneb must kursor, mis näitab tegevust, mida tegema peate. Järgige kasutajaliideses kuvatavaid juhiseid ja sisestage andmed näidatud viisil. 
+![Tegevusjuhise etapijuhend](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT] 
+> Tegevusjuhise esitamisel sisestatavad andmed on tõelised. Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Kõik algab tegevuse salvestajast
 
@@ -72,7 +111,9 @@ Lisateavet tegevuse salvestaja kohta leiate teemast [Tegevuse salvestaja Dynamic
 Saate luua oma tegevuse salvestisi või laadida alla ja kohandada tegevuse salvestisi, mida Microsoft pakub. Seega saate luua oma organisatsioonile kohandatud spikri, mis kajastab teie konkreetset Dynamics 365 for Operationsi eksemplari. Tegevuse salvestise kuvamiseks Dynamics 365 for Operationsi paanil Spikker ja selle esitamiseks tegevuse juhisena tuleb salvestis LCS-is BPM-i teeki salvestada. Kui olete partner ja viite teegi üle ettevõtte teegiks ning lisate selle lahendusse, on see teie klientidele kättesaadav. Täielikud juhised leiate jaotisest [Tegevuse salvestiste kasutamine dokumentide või koolituse loomiseks](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Toote sisespikker
-Spikri sisule Dynamics 365 for Operationsis juurdepääsuks klõpsake ikooni **Spikker** (**?**) ja valige Spikker või vajutage klahve Ctrl + Shift + ?. Mõlemal juhul avaneb paan Spikker. Paanilt Spikker pääsete juurde artiklitele või tegevuse juhistele. [![Spikripaan](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Spikri sisule Dynamics 365 for Operationsis juurdepääsuks klõpsake ikooni **Spikker** (**?**) ja valige Spikker või vajutage klahve Ctrl + Shift + ?. Mõlemal juhul avaneb paan Spikker. Paanilt Spikker pääsete juurde artiklitele või tegevuse juhistele. 
+
+![Spikripaan](./media/help-pane-wiki-1024x684.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Spikri paanilt artiklitele juurdepääsemine
 
@@ -80,19 +121,24 @@ Paanilt Spikker pääsete juurde Dynamics 365 for Operationsi kliendile kohalduv
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Spikri paanilt tegevuse juhistele juurdepääsemine
 
-Enne, kui pääsete paanilt Spikker tegevuse juhistele juurde, peab süsteemiadministraator minema Dynamics 365 for Operationsis lehele **Süsteemi parameetrid** ja konfigureerima mõned sätted. **Märkused.**
+Enne, kui pääsete paanilt Spikker tegevuse juhistele juurde, peab süsteemiadministraator minema Dynamics 365 for Operationsis lehele **Süsteemi parameetrid** ja konfigureerima mõned sätted. 
 
--   Spikri konfigureerimiseks peate olema sisse loginud kontoga samas rentnikus, kus Dynamics 365 for Operations on juurutatud.
--   LCS-i teegiga ei saa ühendust luua Dynamics 365 for Operationsi eksemplarist, mis töötab virtuaalsel kõvakettal (VHD).
+> [!NOTE]
+> -   Spikri konfigureerimiseks peate olema sisse loginud kontoga samas rentnikus, kus Dynamics 365 for Operations on juurutatud.
+> -   LCS-i teegiga ei saa ühendust luua Dynamics 365 for Operationsi eksemplarist, mis töötab virtuaalsel kõvakettal (VHD).
 
-[![Süsteemi parameetrite vorm koos spikri sätetega](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Järgige lehel **Süsteemi parameetrid** järgmisi etappe.
+![Süsteemi parameetrite vorm koos spikrisätetega](./media/system-parameters_ops-1024x437.png)
 
-1.  **Oluline:**spikri vahekaardi esmakordsel avamisel peate looma ühenduse teenusega Lifecycle Services. Klõpsake kindlasti vormi keskel olevat linki, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel klõpsake parameetrite vormi avamiseks OK.LCS-iga ühenduse loomine[![LCS-iga ühenduse loomine](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+Tehke lehel **Süsteemi parameetrid** järgmist.
+
+1.  **Oluline:**spikri vahekaardi esmakordsel avamisel peate looma ühenduse teenusega Lifecycle Services. Klõpsake kindlasti vormi keskel olevat linki, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel klõpsake parameetrite vormi avamiseks OK.
+![Ühenda LCS-iga](./media/connect-to-lcs-crop-1024x365.png)
 2.  Valige elutsükli teenuste projekt, millega ühendus luua.
 3.  Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.
 4.  Valige BPM-i teekide kuvamise järjekord. See määrab teekidest pärinevate tegevuse salvestiste kuvamise järjekorra paanil Spikker.
 
-Kui süsteemiadministraator on need toimingud teinud, võite avada paani Spikker ja klõpsata vahekaarti **Ülesande juhised**. Näete nüüd tegevuse juhiseid, mis kohalduvad lehele, millel parajasti Dynamics 365 for Operationsis olete. Kui ühtegi tegevuse juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Pärast tegevuse juhise klõpsamist paanil Spikker kuvatakse paanil Spikker etapiviisilised juhised ja saate tegevuse juhise esitada. [![Tegevuse juhise lugemisvaade](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png)
+Kui süsteemiadministraator on need toimingud teinud, võite avada paani Spikker ja klõpsata vahekaarti **Ülesande juhised**. Näete nüüd tegevuse juhiseid, mis kohalduvad lehele, millel parajasti Dynamics 365 for Operationsis olete. Kui ühtegi tegevuse juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Pärast tegevuse juhise klõpsamist paanil Spikker kuvatakse paanil Spikker etapiviisilised juhised ja saate tegevuse juhise esitada. 
+![Tegevuse juhise lugemisvaade](./media/task-guide-ops-1024x742.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Kus on tõlgitud tegevuse juhised?
 

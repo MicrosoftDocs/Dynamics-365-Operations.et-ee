@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 1ab51f90be918ee60e99fe11e5425383beefb26e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,11 @@ Sulgege pearaamatu perioodid
 |Müügitellimuse kinnitamine                   | Uuendage müügitellimusi.                                                                       |
 |Välisvaluuta ümberarvutamine          | Looge kanded, mis uuendavad avatud kliendikannete väärtust välisvaluutades.                                                                                                                         |
 | Tööleht                              | Sisestage arved, maksed ja võlatähed.                                             |
-| Töölehe kanne                      | -   **Maksete tööleht** – saate makseid luua, töödelda ja sisestada.
-                                         -   **Draw bill of exchange journal** – Post bills of exchange.
-                                         -   **Protest bill of exchange journal** – Post protested bills of exchange.
-                                         -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
-                                         -   **Remittance journal** – Post remittances.
-                                         -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Saatelehe sisestamine                 | saate värskendada müügitellimuste saatelehti.                                                     | | Vabas vormis arve sisestamine               | saate sisestada vabas vormis arveid.                                                                   | | Arve sisestamine                      | saate sisestada müügitellimuste arveid.                                                            | | Komplekteerimislehe sisestamine                 |müügitellimuste komplekteerimislehtede värskendamine                                                      |
+| Töölehe kanne                      |<ul><li>**Maksete tööleht**: looge, töödelge ja sisestage maksed.</li><li>**Loo käskveksli tööleht**: sisestage käskveksel.</li><li>**Vaidlusta käskveksli tööleht**: sisestage vaidlustatud käskveksel.</li><li>**Koosta käskveksli tööleht uuesti**: sisestage uuesti koostatud käskvekslid.</li><li>**Rahaülekande tööleht**: sisestage rahaülekanded.</li><li>**Tasakaalusta käskveksli tööleht**: sisestage tasakaalustatud käskvekslid</li></ul>                   |
+| Saatelehe sisestamine                 | Uuendage müügitellimuste saatelehti.                                                     |
+| Sisesta vabas vormis arve               | Sisestage vabas vormid arved.                                                                   |
+| Arve sisestamine                      | Sisestage müügitellimuste arved.                                                            |
+| Komplekteerimisloendi sisestamine                 |Uuendage müügitellimuste komplekteerimisloendeid.                                                      |
 
 **Äriprotsessi komponendi ülesanne**   
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru d
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Finantsandmete või Exceli töölehe andmete kuvamine readefinitsioonis veeru <strong>Link finantsdimensioonidele</strong> või veeru <strong>Link töölehele</strong> kasutamisel. Veeru tüübi <strong>FD</strong> valimisel määratletakse vaikesätted automaatselt järgmiste ridade puhul.
-    <ul>
+    <td>Finantsandmete või Exceli töölehe andmete kuvamine readefinitsioonis veeru <strong>Link finantsdimensioonidele</strong> või veeru <strong>Link töölehele</strong> kasutamisel. Veeru tüübi <strong>FD</strong> valimisel määratletakse vaikesätted automaatselt järgmiste ridade puhul. <ul>
     <li><strong>Konteerimiskood/atribuudi kategooria:</strong> ACTUAL</li>
     <li><strong>Konteerimiskood/atribuudi kategooria:</strong> ACTUAL</li>
     <li><strong>Rahandusaasta:</strong> BASE</li>
@@ -359,7 +358,7 @@ Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru d
     <li><strong>Hõlmatud perioodid:</strong> PERIODIC</li>
     <li><strong>Veeru laius:</strong> 14</li>
     </ul>
-    Saate neid vaikesätteid muuta.</td>
+Saate neid vaikesätteid muuta.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -387,12 +386,11 @@ Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru d
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Exceli töölehelt tõmmatavate andmete kuvamine. Veeru tüübi <strong>WKS</strong> valimisel määratletakse vaikesätted automaatselt järgmiste ridade puhul.
-    <ul>
+    <td>Exceli töölehelt tõmmatavate andmete kuvamine. Veeru tüübi <strong>WKS</strong> valimisel määratletakse vaikesätted automaatselt järgmiste ridade puhul. <ul>
     <li><strong>Rahandusaasta:</strong> PERIODIC</li>
     <li><strong>Periood:</strong> BASE</li>
     </ul>
-    Saate neid vaikesätteid muuta.</td>
+Saate neid vaikesätteid muuta.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

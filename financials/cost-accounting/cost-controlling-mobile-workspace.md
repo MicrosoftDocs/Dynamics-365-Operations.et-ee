@@ -3,10 +3,10 @@ title: "Kulujuhtimise mobiilne tööruum"
 description: "See teema annab teavet Microsoft Dynamics 365 for Operationsi mobiilirakenduse jaoks saadaoleva kulujuhtimise mobiilse tööruumi kohta. See tööruum võimaldab kulukeskuse juhtidel vaadata teavet kulukeskuse jõudluse kohta igal ajal ja kõikjal."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 31a9650774b2ddb70827ffa210154ca10c761236
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -36,11 +36,15 @@ See teema annab teavet Microsoft Dynamics 365 for Operationsi mobiilirakenduse j
 <a name="overview-of-the-cost-controlling-mobile-workspace"></a>Kulujuhtimise mobiilse tööruumi ülevaade
 -------------------------------------------------
 
-Mobiilne tööruum **Kulujuhtimine** annab kiire ülevaate kulukeskuste praegusest jõudlusest, võrreldes tegelikke kulusid eelarvestatud kuludega. Saate üksikute kuluelementide olekuid ka sügavuti uurida. Näiteks saab töövõtja kutse rahvusvahelisele konverentsile, kuid organisatsioon peab tasuma kõik reisikulud. Töövõtja küsib oma juhilt, kas ta saab konverentsil osaleda. Juht avab oma mobiiltelefonis kiiresti mobiilse tööruumi **Kulujuhtimine**, et näha, kas tal on töövõtja konverentsil osalemiseks olemas piisav eelarve.
+Mobiilne tööruum **Kulujuhtimine** annab kiire ülevaate kulukeskuste praegusest jõudlusest, võrreldes tegelikke kulusid eelarvestatud kuludega. Saate üksikute kuluelementide olekuid ka sügavuti uurida. 
+
+Näiteks saab töövõtja kutse rahvusvahelisele konverentsile, kuid organisatsioon peab tasuma kõik reisikulud. Töövõtja küsib oma juhilt, kas ta saab konverentsil osaleda. Juht avab oma mobiiltelefonis kiiresti mobiilse tööruumi **Kulujuhtimine**, et näha, kas tal on töövõtja konverentsil osalemiseks olemas piisav eelarve.
 
 ### <a name="data-security"></a>Andmeturve
 
-Mobiilses tööruumis **Kulujuhtimine** olevad andmed on kaitstud kasutaja identimisteabe kaudu. Kulukeskuse juhtidel on õigus näha vaid oma enda kulukeskuse andmeid. Juurdepääsu turbetaset hallatakse moodulis **Kuluarvestus**. Kuluarvestajad määratlevad mobiilse tööruumi **Kulujuhtimine** konfiguratsiooni moodulis **Kuluarvestus**. Kui tööruum on avaldatud mobiilirakenduses Microsoft Dynamics 365 for Operations, on see saadaval rakenduses. Seega saavad kõik organisatsiooni kulukeskuse juhid vaadata andmeid samas vormingus.
+Mobiilses tööruumis **Kulujuhtimine** olevad andmed on kaitstud kasutaja identimisteabe kaudu. Kulukeskuse juhtidel on õigus näha vaid oma enda kulukeskuse andmeid. Juurdepääsu turbetaset hallatakse moodulis **Kuluarvestus**. 
+
+Kuluarvestajad määratlevad mobiilse tööruumi **Kulujuhtimine** konfiguratsiooni moodulis **Kuluarvestus**. Kui tööruum on avaldatud mobiilirakenduses Microsoft Dynamics 365 for Operations, on see saadaval rakenduses. Seega saavad kõik organisatsiooni kulukeskuse juhid vaadata andmeid samas vormingus.
 
 ### <a name="actions-views-and-links"></a>Toimingud, vaated ja lingid
 
@@ -87,7 +91,7 @@ Enne mobiilse tööruumi **Kulujuhtimine** juurutamist veenduge, et teie süstee
 <tr class="odd">
 <td>Juurutatud peab olema Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuemaga.</td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator nägema teadet <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
+<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator nägema teadet <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
 </tr>
 <tr class="even">
 <td>Juurutatud peab olema KB 4013633.</td>
@@ -95,9 +99,9 @@ Enne mobiilse tööruumi **Kulujuhtimine** juurutamist veenduge, et teie süstee
 <td>KB 4013633 (X\+\+ värskendus või metaandmete kiirparandus) sisaldab tarneahela haldamiseks nelja mobiilset tööruumi. KB 4013633 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
 <ol>
 <li>Laadima KB 4013633 alla Microsoft Dynamicsi elutsükliteenustest (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Installima metaandmete kiirparanduse</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
 </ol></td>
 </tr>
 <tr class="odd">

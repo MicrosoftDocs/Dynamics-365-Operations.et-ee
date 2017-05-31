@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Järgige neid etappe, et määrata, kellele kinnitusetapp tuleb määrata.
     <td>Kasutaja spetsiifilises organisatsioonilises hierarhias</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Hierarhia</strong> vahekaardil <strong>Hierarhia valik</strong> loendis <strong>Hierarhia tüüp</strong>, valige hierarhia tüüp, millele etapp määrata.</li>
-    <li>Süsteem peab hierarhiast tooma kasutajanimede vahemiku. Need nimed tähistavad kasutajaid, kellele etappi saab määrata. Järgige neid etappe, et määrata nende kasutajanimede vahemiku algus- ja lõpp-punkt, mida kasutaja toob.
-    <ol>
+    <li>Süsteem peab hierarhiast tooma kasutajanimede vahemiku. Need nimed tähistavad kasutajaid, kellele etappi saab määrata. Järgige neid etappe, et määrata nende kasutajanimede vahemiku algus- ja lõpp-punkt, mida kasutaja toob. <ol>
     <li>Alguspunkti määramiseks valige isik loendist <strong>Alguspunkt</strong>.</li>
     <li>Lõpp-punkti määramiseks klõpsake valikut <strong>Lisa tingimus</strong>. Seejärel sisestage tingimus, mis määrab, kus hierarhias lõpetab süsteem nimede toomise.</li>
     </ol></li>
-    <li>Vahekaardil <strong>Hierarhiasuvandid</strong> määrake, millistele kasutajatele vahemikus tuleb etapp määrata.
-    <ul>
+    <li>Vahekaardil <strong>Hierarhiasuvandid</strong> määrake, millistele kasutajatele vahemikus tuleb etapp määrata. <ul>
     <li><strong>Määra kõikidele toodud kasutajatele</strong> – etapp määratakse kõikidele kasutajatele vahemikus.</li>
     <li><strong>Määra ainult viimati toodud kasutajale</strong> – etapp määratakse ainult viimasele kasutajale vahemikus.</li>
     <li><strong>Välista kasutajatelt järgmise tingimusega</strong> – etappi ei määrata vahemiku ühelegi kasutajale , kes vastavad teatud tingimusele. Tingimuse määramiseks klõpsake valikut <strong>Lisa tingimus</strong>.</li>
@@ -211,13 +209,11 @@ Kui kasutaja ei reageeri dokumendile määratud aja jooksul, siis on dokument hi
     <td>Kasutaja spetsiifilises organisatsioonilises hierarhias</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Hierarhia</strong> vahekaardil <strong>Hierarhia valik</strong> loendis <strong>Hierarhia tüüp</strong>, valige hierarhia tüüp, millele dokument laiendada.</li>
-    <li>Süsteem peab hierarhiast tooma kasutajanimede vahemiku. Need nimed tähistavad kasutajaid, kellele dokumenti saab laiendada. Järgige neid etappe, et määrata nende kasutajanimede vahemiku algus- ja lõpp-punkt, mida kasutaja toob.
-    <ol>
+    <li>Süsteem peab hierarhiast tooma kasutajanimede vahemiku. Need nimed tähistavad kasutajaid, kellele dokumenti saab laiendada. Järgige neid etappe, et määrata nende kasutajanimede vahemiku algus- ja lõpp-punkt, mida kasutaja toob. <ol>
     <li>Alguspunkti määramiseks valige isik loendist <strong>Alguspunkt</strong>.</li>
     <li>Lõpp-punkti määramiseks klõpsake valikut <strong>Lisa tingimus</strong>. Seejärel sisestage tingimus, mis määrab, kus hierarhias lõpetab süsteem nimede toomise.</li>
     </ol></li>
-    <li>Vahekaardil <strong>Hierarhiasuvandid</strong> määrake, millistele kasutajatele vahemikus tuleb dokument määrata.
-    <ul>
+    <li>Vahekaardil <strong>Hierarhiasuvandid</strong> määrake, millistele kasutajatele vahemikus tuleb dokument määrata. <ul>
     <li><strong>Määra kõikidele toodud kasutajatele</strong> – dokument laiendatakse kõikidele kasutajatele vahemikus.</li>
     <li><strong>Määra ainult viimati toodud kasutajale</strong> – dokumenti laiendatakse ainult viimasele kasutajale vahemikus.</li>
     <li><strong>Välista kasutajatelt järgmise tingimusega</strong> – dokumenti ei laiendata vahemiku ühelegi kasutajale, kes vastavad teatud tingimusele. Tingimuse määramiseks klõpsake valikut <strong>Lisa tingimus</strong>.</li>

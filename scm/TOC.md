@@ -4,6 +4,7 @@
 ## Nõudluse prognoosi loomine
 ### [Nõudluse prognoosi ülevaade](master-planning/introduction-demand-forecasting.md)
 ### [Nõudluse prognoosi seadistamine](master-planning/demand-forecasting-setup.md)
+### [Nõudluse prognooside olulised ajaloolised andmed](master-planning/import-historical-data.md)
 ### [Statistilise alusprognoosi loomine](master-planning/generate-statistical-baseline-forecast.md)
 ### [Alusprognoosi käsitsi korrigeerimine](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Korrigeeritud prognoosi autoriseerimine](master-planning/authorize-adjusted-forecast.md)
