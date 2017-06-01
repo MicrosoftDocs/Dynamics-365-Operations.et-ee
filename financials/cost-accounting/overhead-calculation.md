@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise prot
 -   Finantsaasta
 -   Rahandusperiood
 
-Üldkulude arvutus käivitatakse versioonist sõltumatult. Seetõttu saate arvutada eelarveversiooni enne tegelikku versiooni. Üldkulude arvutus koosneb neljast etapist, nagu näha alltoodud joonisel. Igas etapis luuakse töölehe päis, millel on töölehe kanded. See töölehe päis säiiltab sisendandmeid iga arvutusetapi kohta. Igale töölehe reale rakendatakse poliitikad ja reeglid ning väljundina luuakse kulukirjed. Seega on teil alati olemas põhjalik ülevaade. [![Üldkulude arvutus](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+Üldkulude arvutus käivitatakse versioonist sõltumatult. Seetõttu saate arvutada eelarveversiooni enne tegelikku versiooni. Üldkulude arvutus koosneb neljast etapist, nagu näha alltoodud joonisel. Igas etapis luuakse töölehe päis, millel on töölehe kanded. See töölehe päis säiiltab sisendandmeid iga arvutusetapi kohta. Igale töölehe reale rakendatakse poliitikad ja reeglid ning väljundina luuakse kulukirjed. Seega on teil alati olemas põhjalik ülevaade. 
+[![Üldkulude arvutus](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Elektri üldkulude arvutamine ja eraldamine
 Finantsaruandluses on mõned kulud, näiteks elekter, registreeritud põhisummana. Seetõttu ei pakuta kuluarvestuseks üksikasjalikku juhtimisülevaadet. Kuluarvestuses peavad kulud liikuma läbi organisatsiooniüksuste, et pakkuda korrektset juhtimisülevaadet kõigi organisatsiooniüksuste ja -tasemete kohta. See voog peab põhinema tarbimise või õiglase hindamise täpsel kirjendamisel. Pearaamatus, saab elektrikulu sisestada nii, nagu on näidatud järgmises tabelis.
@@ -622,7 +623,7 @@ Järgmises tabelis on näidatud tulemus, kui inimressursside projektid on rakend
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4. etapp: kulueralduse arvutuse töötlemine
 
-Eraldamist kasutatakse kuluobjekti saldo eraldamiseks teistele kuluobjektidele, rakendades eraldamisalust. Microsoft Dynamics 365 for Operations toetab vastastikuse eraldamise meetodit. Vastastikuse eraldamise meetodi puhul tuvastatakse täiendavate kuluobjektide vahetatavad vastastikused teenused. Süsteem määrab automaatselt eraldamiste tegemise õige järjekorra. Kuluobjekti saldo eraldatakse üksiku eraldamisalusena. Toetatakse eraldamisi kuluobjektide dimensioonide ja nende vastavate liikmete seas. Eraldamisjärjekorda reguleerib kulujuhtseade. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+Eraldamist kasutatakse kuluobjekti saldo eraldamiseks teistele kuluobjektidele, rakendades eraldamisalust. Microsoft Dynamics 365 for Operations toetab vastastikuse eraldamise meetodit. Vastastikuse eraldamise meetodi puhul tuvastatakse täiendavate kuluobjektide vahetatavad vastastikused teenused. Süsteem määrab automaatselt eraldamiste tegemise õige järjekorra. Kuluobjekti saldo eraldatakse üksiku eraldamisalusena. Toetatakse eraldamisi kuluobjektide dimensioonide ja nende vastavate liikmete seas. Eraldamisjärjekorda reguleerib kulujuhtseade. [![Vastastikune meetod](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Kulueraldamise määratlemine
 

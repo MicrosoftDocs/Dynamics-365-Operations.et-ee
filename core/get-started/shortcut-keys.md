@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Microsoft Dynamics 3
 | Kiirinfopaani avamine (või fookuse nihutamine kiirinfopaanile, kui see on juba avatud) | Ctrl + F2                                   |
 | Kiirinfopaani sulgemine (fookusega kiirinfopaanil)                         | Esc-klahv                                       |
 | Järgmisele/eelmisele kiirinfole liikumine (fookusega kiirinfopaanil)              | Alt + Shift + allanool / Alt + Shift + ülesnool |
-| Liigutage &lt;n&gt;. kiirinfosse (fookusega kiirinfopaanile)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
+| &lt;n&gt;-ndale kiirinfole liikumine (fookusega kiirinfopaanil)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Kiirinfo laiendamine (fookusega kiirinfo päisel)                             | Tühik või sisestusklahv (Enter)                            |
 | Praeguse kiirinfo ahendamine                                                    | Alt + 0                                     |
 
@@ -115,8 +115,8 @@ Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Microsoft Dynamics 3
 | Järgmisele/eelmisele väljale liikumine                     | tabeldusklahv / Shift + tabeldusklahv                              |
 | Järgmisele/eelmisele vahekaardile liikumine                       | Alt + Shift + paremnool / Alt + Shift + vasaknool |
 | Järgmisele/eelmisele kiirkaardile liikumine                   | Alt + Shift + allanool / Alt + Shift + ülesnool    |
-| Liigutamine &lt;n&gt;. kiirkaardile                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
-| Liigutamine &lt;n&gt;. vahekaardile                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
+| &lt;n&gt;-ndale kiirinfole liikumine                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Liigutamine &lt;n&gt;. vahekaardile                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Kiirkaardi laiendamine (fookusega kiirkaardi päisel) | Tühik või sisestusklahv (Enter)                               |
 | Praeguse kiirkaardi ahendamine                        | Alt + 0                                        |
 | Ruudustikuvaatele lülitumine                                 | Ctrl + Shift + G                                 |

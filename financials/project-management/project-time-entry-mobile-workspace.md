@@ -3,10 +3,10 @@ title: "Projekti ajakirje mobiilne tööruum rakendusele Dynamics 365 for Operat
 description: "See teema annab teavet projekti ajakirje mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel sisestada ja säästa aega projektiga, kasutades oma mobiilset seadet."
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -31,7 +31,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-„[!include[banner](../includes/banner.md)]”
 
 
 See teema annab teavet projekti ajakirje mobiilse tööruumi kohta rakendusele Microsoft Dynamics 365 for Operations. See tööruum võimaldab kasutajatel sisestada ja säästa aega projektiga, kasutades oma mobiilset seadet.
@@ -71,7 +70,7 @@ Enne mobiilse tööruumi **Projekti ajakirje** juurutamist veenduge, et teie sü
 <tr class="odd">
 <td>Juurutatud peab olema Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuemaga.</td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator vaatama teemat <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
+<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator vaatama teemat <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
 </tr>
 <tr class="even">
 <td>Juurutatud peab olema KB 4018050.</td>
@@ -79,9 +78,9 @@ Enne mobiilse tööruumi **Projekti ajakirje** juurutamist veenduge, et teie sü
 <td>KB 4018050 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Projekti ajakirje</strong>. KB 4018050 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
 <ol>
 <li>Laadima KB 4018050 alla Microsoft Dynamicsi elutsükliteenustest (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ProjectMobile</strong>, ning seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Rakendama juurutatava paketi</a> teie Dynamics 365 for Operationsi süsteemi.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ProjectMobile</strong>, ning seejärel laadima juurutatava paketi LCS-i üles.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
 </ol></td>
 </tr>
 <tr class="odd">

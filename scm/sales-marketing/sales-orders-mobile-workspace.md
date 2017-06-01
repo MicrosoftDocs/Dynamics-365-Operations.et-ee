@@ -3,10 +3,10 @@ title: "Müügitellimuste mobiilne tööruum"
 description: "See teema annab teavet Microsoft Dynamics 365 for Operationsi mobiilirakenduse jaoks saadaoleva müügitellimuste mobiilse tööruumi kohta. See tööruum aitab teil olla oma müügitellimustega alati kõikjal kursis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ See teema annab teavet Microsoft Dynamics 365 for Operationsi mobiilirakenduse j
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Müügitellimuste mobiilse tööruumi ülevaade
 ---------------------------------------------
 
-Mobiilne tööruum **Müügitellimused** pääseb juurde Microsoft Dynamics 365 for Operationsile ja võimaldab teil vaadata iga müügitellimuse kohta üksikasjalikku teavet. See teave hõlmab tellimuse olekut, kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet. Mobiilne tööruum **Müügitellimused** annab müügitellimustest kiirülevaate. Saate vaadata kõiki müügitellimusi, müügitellimusi klientide kaupa või konkreetse müügitellimuse andmeid. Mobiilne tööruum pakub kahte vaadet, mis aitavad teil müügitellimusi põhjalikult analüüsida.
+Mobiilne tööruum **Müügitellimused** pääseb juurde Microsoft Dynamics 365 for Operationsile ja võimaldab teil vaadata iga müügitellimuse kohta üksikasjalikku teavet. See teave hõlmab tellimuse olekut, kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet. Mobiilne tööruum **Müügitellimused** annab müügitellimustest kiirülevaate. Saate vaadata kõiki müügitellimusi, müügitellimusi klientide kaupa või konkreetse müügitellimuse andmeid. 
+
+Mobiilne tööruum pakub kahte vaadet, mis aitavad teil müügitellimusi põhjalikult analüüsida.
 
 ### <a name="view-all-sales-orders"></a>Kõigi müügitellimuste kuvamine
 
@@ -50,6 +52,7 @@ Selles vaates loetletakse kõik müügitellimused.
     -   Otsing oleku järgi
     -   Otsing väljastamisoleku järgi
     -   Otsing loomise kuupäeva ja kellaaja järgi
+    
 -   Pärast müügitellimuste valimist saate konkreetsete tellimuste andmeid vaadata. Täpsemalt saate vaadata järgmist teavet.
     -   Kliendi nimi ja aadressiandmed
     -   Müügitellimuse erinevad kuupäevad, nagu nõutav lähetuskuupäev ja kinnitatud lähetuskuupäev.
@@ -65,6 +68,7 @@ Selles vaates on loetletud müügitellimused kliendi järgi.
 -   Saate kliendi tellimuste kuvamiseks kasutada järgmisi filtreid.
     -   Otsing nime alusel
     -   Otsing konto alusel
+
 -   Pärast kliendi valimist saate vaadata järgmist teavet.
     -   Kliendi nimi ja grupp
     -   Kliendi kontaktandmed
@@ -96,7 +100,7 @@ Enne mobiilse tööruumi **Müügitellimused** juurutamist veenduge, et teie sü
 <tr class="odd">
 <td>Juurutatud peab olema Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuemaga.</td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator nägema teadet <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
+<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator nägema teadet <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
 </tr>
 <tr class="even">
 <td>Juurutatud peab olema KB 4013633.</td>
@@ -104,9 +108,9 @@ Enne mobiilse tööruumi **Müügitellimused** juurutamist veenduge, et teie sü
 <td>KB 4013633 (X\+\+ värskendus või metaandmete kiirparandus) sisaldab tarneahela haldamiseks nelja mobiilset tööruumi. KB 4013633 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
 <ol>
 <li>Laadima KB 4013633 alla Microsoft Dynamicsi elutsükliteenustest (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Installima metaandmete kiirparanduse</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
 </ol></td>
 </tr>
 <tr class="odd">

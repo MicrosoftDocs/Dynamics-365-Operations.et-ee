@@ -3,10 +3,10 @@ title: "Vaba kaubavaru mobiilne tööruum"
 description: "See teema annab teavet Microsoft Dynamics 365 for Operationsi mobiilirakenduse jaoks saadaoleva vaba kaubavaru mobiilse tööruumi kohta. See tööruum aitab saada alati ja kõikjal mobiilseid ülevaateid reserveeritud ning vabadest kaubavarudest."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e703ae80800b993ebca1c7bee455af1be41c7d5f
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7387df37e047d5ab7a90b696a6ffa249094499c4
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,15 +37,21 @@ See teema annab teavet Microsoft Dynamics 365 for Operationsi mobiilirakenduse j
 <a name="overview-of-the-inventory-on-hand-mobile-workspace"></a>Vaba kaubavaru mobiilse tööruumi ülevaade
 --------------------------------------------------
 
-Tavaliselt on ettevõtetel iga päev mitu laosaadetist ja sissetulekut. Need liikumised muudavad pidevalt vaba kaubavaru olekut. Mobiilne tööruum **Vaba kaubavaru** aitab näha ettevõtteülest vaba kaubavaru olekut, et saaksite enda valitud mobiilsel seadmel viimaseid ülevaateid varude andmetest. Olenemata sellest, kas töötate laos, ostu- või müügiosakonnas, tootmises või juhtkonnas või teil on muud rollid, pääsete vaba kaubavaru andmetele alati ja kõikjal juurde. Mobiilne tööruum annab kiire ülevaate vaba kaubavaru olekust kõigis asutustes. See võimaldab teil vaadata vaba kaubavaru kõigis asutustes, materjali praegusi reserveeringuid ja reserveerimata vaba kaubavaru. Saate vaba kaubavaru päringute esitamiseks sisestada ka kaubakoode ning teha olemasolevate toodete ja variantide filtreeritud otsingut. Konkreetsemalt pakub mobiilne tööruum järgmisi funktsioone.
+Tavaliselt on ettevõtetel iga päev mitu laosaadetist ja sissetulekut. Need liikumised muudavad pidevalt vaba kaubavaru olekut. Mobiilne tööruum **Vaba kaubavaru** aitab näha ettevõtteülest vaba kaubavaru olekut, et saaksite enda valitud mobiilsel seadmel viimaseid ülevaateid varude andmetest. Olenemata sellest, kas töötate laos, ostu- või müügiosakonnas, tootmises või juhtkonnas või teil on muud rollid, pääsete vaba kaubavaru andmetele alati ja kõikjal juurde. 
+
+Mobiilne tööruum annab kiire ülevaate vaba kaubavaru olekust kõigis asutustes. See võimaldab teil vaadata vaba kaubavaru kõigis asutustes, materjali praegusi reserveeringuid ja reserveerimata vaba kaubavaru. Saate vaba kaubavaru päringute esitamiseks sisestada ka kaubakoode ning teha olemasolevate toodete ja variantide filtreeritud otsingut. 
+
+Konkreetsemalt pakub mobiilne tööruum järgmisi funktsioone.
 
 -   Saate otsida tootekoodi või tootenime järgi tooteid, mille vaba kaubavaru olekut on vaja vaadata.
+
 -   Valitud toodete puhul saate vaadata järgmisi andmeid.
     -   Vaba kaubavaru laoala järgi
     -   Vaba kaubavaru lao järgi
     -   Vaba kaubavaru asukoha järgi
     -   Vaba kaubavaru partii järgi (partii kaudu juhitavate toodete puhul)
     -   Vaba kaubavaru varude oleku järgi
+    
 -   Toodete vaba kaubavaru näidatakse järgmiselt.
     -   Füüsiliste varude järgi (see vaade kajastab kogu summat).
     -   Füüsiliste reserveeritud kaupade järgi (see vaade kajastab reserveeritud summat).
@@ -71,7 +77,7 @@ Enne mobiilse tööruumi **Vaba kaubavaru** juurutamist veenduge, et teie süste
 <tr class="odd">
 <td>Juurutatud peab olema Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuemaga.</td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator nägema teadet <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
+<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator nägema teadet <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
 </tr>
 <tr class="even">
 <td>Juurutatud peab olema KB 4013633.</td>
@@ -79,9 +85,9 @@ Enne mobiilse tööruumi **Vaba kaubavaru** juurutamist veenduge, et teie süste
 <td>KB 4013633 (X\+\+ värskendus või metaandmete kiirparandus) sisaldab tarneahela haldamiseks nelja mobiilset tööruumi. KB 4013633 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
 <ol>
 <li>Laadima KB 4013633 alla Microsoft Dynamicsi elutsükliteenustest (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Installima metaandmete kiirparanduse</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -114,7 +120,7 @@ Laadige mobiilirakenduste poest alla mobiilirakendus Microsoft Dynamics 365 for 
 
 ## <a name="view-the-onhand-inventory-for-a-product-by-using-the-inventory-onhand-mobile-workspace"></a>Toote vaba kaubavaru vaatamine, kasutades mobiilset tööruumi Vaba kaubavaru
 1.  Valige oma mobiilses seadmes tööruum **Vaba kaubavaru**.
-2.  Valige **Kauba vaba kaubavaru kontrollimine**. Näete loendit toodetest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Dynamics 365 for Operationsi mobiiliplatvorm](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).
+2.  Valige **Kauba vaba kaubavaru kontrollimine**. Näete loendit toodetest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Dynamics 365 for Operationsi mobiiliplatvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
 3.  Kui teie kaupa pole loendis, valige **Otsi lisa**, et kasutada Dynamics 365 for Operationsis veebiotsingut. Otsige tootekoodi järgi või lülituge toote nime järgi otsimisse.
 4.  Valige toode. Kui kaubal on pilt, siis kuvatakse see pilt.
 5.  Tehke vaba kaubavaru oleku vaatamiseks üks järgmistest valikutest.
