@@ -1,34 +1,34 @@
 # [Sissejuhatus](index.md)
 
-# [Rakenduse Dynamics 365 for Operations kasutuselevõtt](get-started/onboarding-home.md)
-## Rakenduse Dynamics 365 for Operations sissejuhatus
+# [Rakenduse Finance and Operations kasutuselevõtt](get-started/onboarding-home.md)
+## Sissejuhatus rakendusse Finance and Operations
 ### [Teenusega Microsoft FastTrack for Dynamics 365 alustamine](get-started/fasttrack-dynamics-365-overview.md)
-### [Tellimusele registreerimine](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [Kuidas saada rakenduse Dynamics AX 2012 asutusesisene versioon](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [Demokeskkonna juurutamine](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+### [Tellimusele registreerimine](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Kuidas saada rakenduse Dynamics AX 2012 asutusesisene versioon](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Demokeskkonna juurutamine](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Kasutajaliidesega tutvumine
 ### [Tegevuse otsing](get-started/action-search.md)
 ### [Täpsema filtreerimise ja päringu süntaks](get-started/advanced-filtering-query-options.md)
-### [Dynamics 365 for Operationsi kliendi KKK](get-started/client-faq.md)
+### [Finance and Operationsi kliendi KKK](get-started/client-faq.md)
 ### [Tööruumide konfigureerimine ja filtreerimine](get-started/configure-filter-workspaces.md)
 ### [Lehtede kuvamine kõrvuti, kasutades ikooni Ava uues aknas](get-started/display-pages-side-by-side.md)
 ### [Navigeerimisotsing](get-started/navigation-search.md)
 ### [Kasutuskogemuse isikupärastamine](get-started/personalize-user-experience.md)
 ### [Kiirklahvid](get-started/shortcut-keys.md)
 ### [Lehtede kuvamise viisi haldamine](get-started/window-management.md)
-### [Teenuse Lifecycle Services ülevaade](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [Teenuse Lifecycle Services ülevaade](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Spikker ja tugi
-### [Spikri ülevaade](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [Ühendamise spikker](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [Spikri ülevaade](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Ühendamise spikker](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Väljade kirjelduste vaatamine ja eksportimine](get-started/view-export-field-descriptions.md)
 
 ### Tegevuse juhised ja tegevuse salvestaja
-#### [Tegevuse salvestaja](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [Dokumentatsiooni või koolituse loomine](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [Tegevuse salvestaja](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Dokumentatsiooni või koolituse loomine](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Riigi-/regioonikohane spikrisisu](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [Riigi-/regioonikohane spikrisisu](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [Organisatsiooni konfigureerimine](organization-administration/organization-administration-home-page.md)
 ## [Organisatsioonid ja organisatsiooni hierarhiad](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [Sõnumi töötlemise pakett-töö konfigureerimine](organization-administration/workflow-batch-job-critical.md)
 ## [Töövoo tüüpide aruanne](organization-administration/workflow-types-report.md)
 
-# [Financials](/dynamics365/operations/financials/index)
+# [Finantsid](/dynamics365/unified-operations/financials/index)
 
-# [Inimressursid](/dynamics365/operations/human-resources/index)
+# [Inimressursid](/dynamics365/unified-operations/talent/index)
 
-# [Jaemüük](/dynamics365/operations/retail/index)
+# [Jaemüük](/dynamics365/unified-operations/retail/index)
 
-# [Hankeahela haldamine](/dynamics365/operations/supply-chain/index)
+# [Hankeahela haldamine](/dynamics365/unified-operations/supply-chain/index)
 
-# [Arendaja ja administraator](/dynamics365/operations/dev-itpro/index)
+# [Arendaja ja administraator](/dynamics365/unified-operations/dev-itpro/index)
 
 # Muud ressursid
-## [Dynamics 365 for Operationsi sõnastik](get-started/glossary.md)
-## [Mis on uus või muudetud](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [Finance and Operationsi sõnastik](get-started/glossary.md)
+## [Mis on uus või muudetud](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 

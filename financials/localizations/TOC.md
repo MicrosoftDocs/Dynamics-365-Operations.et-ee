@@ -1,4 +1,4 @@
-# [Lokaliseerimise ülevaade](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Lokaliseerimise ülevaade](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Aasia ja Vaikse ookeani piirkond
 ## Austraalia
 ### [Panga failivormingud](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [Põhivara eelsoetuse sisestamine](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Sihtnumbrid](emea-import-create-postal-codes-manually.md)
 ## [Registreerimise ID-d](emea-registration-ids.md)
+## [Pöördkäibemaks](emea-reverse-charge.md)
 ## [SEPA kreeditiülekande ülevaade](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA otsekorralduse ülevaade](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Allkirjastajate häälestamine prindivormide jaoks](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Töölehtede aruanne](emea-deu-journal-list-report.md)
 ### [Müügist tulenevate kreeditarvete jaoks eraldi sildi printimine](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Ungari
-### [Põhivarade kulumiarvestusmeetodid](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Põhivarade kulumiarvestusmeetodid](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Allahinnatud põhivarad](emea-hun-low-cost-fixed-assets.md)
 ### [Põhivara teisaldamine varudesse](emea-hun-fixed-asset-to-inventory.md)
 ## Itaalia
@@ -138,6 +139,7 @@
 ### [Põhivaragrupi ümberhindamine](emea-esp-fixed-asset-group-revaluation.md)
 ### [ELi sisene KM](emea-esp-intra-community-vat.md)
 ### [Ühekordsed kliendid](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Tšekkide printimine Hispaania paigutusega](emea-esp-print-checks-with-spanish-layout.md)
 ### [Võlatähe valikud](emea-esp-promissory-note-options.md)
 ### [Müügi- ja ostutsüklid](emea-esp-sales-purchase-cycle.md)
 ### [Erikanded ja avamislehed](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Finantsraamatud](latam-bra-fiscal-books.md)
 #### [ICMS-maksustamise finantsdokumendid](latam-bra-icms-tax-fiscal-documents.md)
 #### [Finantsdokumentide importimine](latam-bra-import-fiscal-documents.md)
+#### [Juriidilise isiku üksuste eksportimine ja importimine pearaamatu konsolideerimisest](latam-bra-general-ledger-consolidation-transactions.md)
 #### [NF-e XML-dokumentide ja DANFE-failide importimine ning kinnitamine](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Elektroonilise makse rahaülekannete töötlemine](latam-bra-process-electronic-payment-remittances.md)
 #### [Finantsdokumendid](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Finantsdokumendi teksti kohatäited](latam-bra-fiscal-document-text-placeholders.md)
 #### [Ostu täiendavad finantsdokumendid](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Elektroonilise makse tagastusprotsessi ajal loodud töölehed](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [NF-e protsess](latam-bra-nf-e-process.md)
 ### [Parameetrid juriidiliste isikute jaoks](latam-bra-legal-entity-parameters.md)
+### [CIAP põhivara soetamine](latam-bra-ciap-fixed-asset.md)
+### [CIAP põhivara likvideerimine](latam-bra-ciap-fixed-asset.md)
 ### [Maksud](latam-bra-calculate-taxes.md)
 #### [Maksuatribuudid](latam-bra-tax-attributes.md)
 #### [Maksu maksmised](latam-bra-tax-payments.md)

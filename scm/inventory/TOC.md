@@ -21,4 +21,5 @@
 # Kauba ja partii jälgimine
 ## [Varupartiide ühendamine](merge-inventory-batches.md)
 ## [Kauba ja tooraine jälgimine](trace-items-raw-materials-inventory-production-sales.md)
+## [Seerianumbri registreerimine müügiprotsessis](../sales-marketing/register-serial-numbers-sales-process.md)
 
