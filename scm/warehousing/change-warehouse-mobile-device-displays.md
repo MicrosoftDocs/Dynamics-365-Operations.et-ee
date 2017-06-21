@@ -3,7 +3,7 @@ title: "Lao mobiilse seadme kuvasätted"
 description: "Selles artiklis kirjeldatakse, kuidas seadistada mobiilse seadme kuva välimust ja vastendada kiirklahve juhtelementidega, näiteks nuppudega."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

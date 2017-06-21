@@ -3,7 +3,7 @@ title: "Ida-Euroopa käibemaksuregistri kanded"
 description: "Selles teemas antakse teavet käibemaksuregistri kannete kohta Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis ja Poolas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

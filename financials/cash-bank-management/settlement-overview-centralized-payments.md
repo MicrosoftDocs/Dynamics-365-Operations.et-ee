@@ -3,7 +3,7 @@ title: "Tasakaalustuse ülevaade tsentraliseeritud maksete puhul"
 description: "Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut. See kõrvaldab vajaduse sisestada sama kannet mitmes juriidilises isikus ja säästab aega, korrastades maksesoovituse protsessi, tasakaalustusprotsessi, avatud kande redigeerimist ja suletud kande redigeerimist tsentraliseeritud maksete jaoks."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

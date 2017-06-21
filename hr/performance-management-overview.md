@@ -3,10 +3,10 @@ title: "Jõudlushalduse ülevaade"
 description: "Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

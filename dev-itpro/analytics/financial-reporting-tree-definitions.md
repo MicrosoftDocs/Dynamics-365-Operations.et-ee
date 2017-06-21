@@ -3,7 +3,7 @@ title: Aruandluspuu definitsioonid finantsaruannetes
 description: "See artikkel käsitleb aruandluspuu definitsioone. Aruandluspuu definitsioon on aruande komponent (koosteüksus), mis aitab määratleda teie organisatsiooni struktuuri ja hierarhiat."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

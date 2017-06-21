@@ -3,7 +3,7 @@ title: "Akreditiivid ja impordi sissenõudmised"
 description: "Selles artiklis antakse üldist teavet akreditiivide ja impordi sissenõuete kohta. Mõlemat tüüpi pangadokumente kasutatakse sageli kaupade ostmiseks ja müügiks välisriikides."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

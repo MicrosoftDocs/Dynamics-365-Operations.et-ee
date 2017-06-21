@@ -3,7 +3,7 @@ title: "Arvete võrdlemine ja kontsernisisesed ostutellimused"
 description: "Kontsernisisese kaubanduse kandega seotud juriidilise isiku ostu saab seadistada kasutama ostureskontro arvete võrdlemist. Sel juhul peavad nii kontsernisisese kaubanduse kui ka ostureskontro arvete võrdlemise sisestamisnõuded olema täidetud, enne kui saab sisestada kontsernisisesed hankijate arved."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

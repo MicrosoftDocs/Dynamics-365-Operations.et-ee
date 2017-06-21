@@ -3,7 +3,7 @@ title: Kontsernisisese raamatupidamise seadistus
 description: "Selles teemas selgitatakse, kuidas seadistada kontsernisisest raamatupidamist nii, et saaksite kasutada kontsernisiseseid töölehti pearaamatueraldiste ja finantstöölehtede (nt igapäevaste töölehtede, hankija arve töölehtede ja maksetöölehtede) jaoks."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

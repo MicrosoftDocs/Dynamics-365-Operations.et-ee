@@ -3,7 +3,7 @@ title: Projekti eest arve esitamine
 description: "Selles artiklis antakse ülevaade aja- ja materjalikulu ning fikseeritud hinnaga projektide arveldamise kohta. See sisaldab teavet arvesoovituste (esialgsed arved), arvekontrolli, ettemaksuarvelduse, hankija arvete ja kreeditarvete kohta."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

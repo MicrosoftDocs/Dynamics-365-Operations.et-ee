@@ -3,7 +3,7 @@ title: "Ressursi võimalused"
 description: "Selles artiklis antakse teavet ressursivõimaluste kohta. Võimsus on operatsiooniressursi võime konkreetset tegevust sooritada. Artiklis selgitatakse, kuidas võimalusi ja seotud mõisteid, näiteks oskustaset ning prioriteeti, kasutatakse tegevuse jaoks sobilike ressursside valimiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

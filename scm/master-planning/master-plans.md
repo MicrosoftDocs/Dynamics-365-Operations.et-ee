@@ -3,7 +3,7 @@ title: Koondplaanid
 description: "Ettevõtte igapäevaste tööoperatsioonide toetamiseks, erinevate jälgimist vajavate planeerimisstrateegiate simuleerimiseks ja ettevõtte eeskirjade juurutamiseks (nt sisetegevuse puhul ja kliendi rahulolu saavutamiseks) saate kasutada erinevaid koondplaane."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

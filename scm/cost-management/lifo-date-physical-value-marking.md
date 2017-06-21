@@ -3,7 +3,7 @@ title: "LIFO kuupäev füüsilise väärtuse ja märgistusega"
 description: "Laomudel Viimasena sisse, esimesena välja (LIFO) põhineb LIFO põhimõttel. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. Kui LIFO-kuupäeva kasutamisel enne väljaminekut sissetulekut pole, tasakaalustatakse väljaminek mis tahes sissetulekuga, mis toimub pärast väljamineku kuupäeva. Mitmed väljaminekud samal päeval tasakaalustatakse viimase väljamineku, viimase sissetuleku järjekorras."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Kvaliteedijuhtimise protsessid
 description: "Selles artiklis antakse teavet mittevastavate toodete kvaliteedijuhtimise protsessi kohta. Kirjeldatakse, kuidas saate kasutada kvaliteedikontrolli funktsiooni, kuidas määratleda ja hallata mittevastavusi ning kuidas käsitleda parandusi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

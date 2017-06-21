@@ -3,7 +3,7 @@ title: "Põhivarade integreerimine"
 description: "Põhivarasid saab integreerida moodulitega Pearaamat, Varude haldus, Müügi- ja Ostureskontro. Samuti on teil võimalik seadistada moodulit Põhivarad, et see oleks integreeritud ostutellimustega."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

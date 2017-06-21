@@ -3,7 +3,7 @@ title: "Standardkulu teisendamise ülevaade"
 description: "See artikkel annab protsessiülevaate, mis aitab teil standardkulu teisendust seadistada ja käitada. Nimetatud toimingud on mõeldud tegemiseks pärast standardkulu teisenduse eeltingimuste täitmist."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

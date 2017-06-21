@@ -3,7 +3,7 @@ title: "Ametikoha eelarvestamise tõrkeotsing"
 description: "Selles artiklis on vastused küsimustele, mis võivad teil ametikoha eelarvestuse konfigureerimisel tekkida. Käsitletud on korduma kippuvaid küsimusi selle kohta, kuidas luua eelarve kuluelemente, hüvitusgruppe ja hüvitusruudustikke."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Kanban-töö plaanimine lean manufacturingi jaoks"
 description: "Selles artiklis antakse teavet visuaalse kontrolli kohta kanban-tööde ajastamisel ja kanban-tööde ajastamise erinevate viiside kohta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

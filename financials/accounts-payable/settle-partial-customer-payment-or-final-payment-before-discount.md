@@ -3,7 +3,7 @@ title: "Kliendi osalise makse ja lõpliku makse tasakaalustamine enne skonto kuu
 description: "See artikkel pakub stsenaariume näitamiseks, kuidas kirjendada kliendi osalisi makseid ja võtta skonto perioodil skontosid."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

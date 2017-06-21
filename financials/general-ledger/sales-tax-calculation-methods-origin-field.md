@@ -3,7 +3,7 @@ title: "Käibemaksuarvutusmeetodid valimine väljal Päritolu"
 description: "See artikkel selgitab käibemaksukoodide lehe välja Päritolu valikuid ja seda, kuidas käibemaks arvutatakse, tuginedes tehtud käibemaksukoodi valikule."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

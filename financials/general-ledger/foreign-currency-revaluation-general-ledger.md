@@ -3,7 +3,7 @@ title: "Pearaamatu välisvaluuta ümberarvutamine"
 description: "Selles teemas antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi järgmistest toimingutest: seadistamine, protsessi käitamine, protsessi jaoks arvutamine ja vajaduse korral ümberarvutuskannete tühistamine."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

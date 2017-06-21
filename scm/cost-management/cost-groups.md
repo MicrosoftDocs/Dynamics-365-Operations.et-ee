@@ -3,7 +3,7 @@ title: Kulugrupid
 description: "Kulugrupid annavad aluse toodetud kauba omahinna püsikulude, nt materjali, töö ja üldise püsikulude segmentimiseks ja analüüsimiseks. Kulugrupi segmentimisel on tootmiskeskkonnas mitu sünonüümi, nagu kulude jaotamine, kulu eraldamine või kulu klassifikatsioon."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

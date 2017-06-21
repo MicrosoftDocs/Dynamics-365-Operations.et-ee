@@ -3,7 +3,7 @@ title: Tootmise tagasiside
 description: "See artikkel annab teavet tootmise tagasiside kohta, mis annab töötajatele tootmistööde kohta tagasisidet. Artikkel sisaldab teavet mitmesuguste tootmise tagasiside värskendamise viiside kohta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

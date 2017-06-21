@@ -3,7 +3,7 @@ title: Prinditud vormide allkirjastajate seadistamine
 description: "Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

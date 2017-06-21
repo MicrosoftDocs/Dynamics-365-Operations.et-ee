@@ -3,12 +3,13 @@ title: "Kassa komisjonitasude jälgimine müügigruppide abil"
 description: "Jaekaubanduses on tavapärane müügi jälgimine kliendiga töötanud müüja järgi, kes osutab abi, teeb lisa- ja ristmüüki ning töötleb kannet."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations, Core
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa

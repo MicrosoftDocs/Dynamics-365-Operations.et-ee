@@ -3,7 +3,7 @@ title: "Arvete ID-de redigeerimine müügitellimustel Ida-Euroopa puhul"
 description: "See teema annab teavet müügireskontro parameetrite kohta, mis mõjutab arvenumbreid saatelehtedel ja arvetel. Teave kehtib Tšehhi Vabariigi, Eesti, Ungari, Leedu, Läti ja Poola puhul."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

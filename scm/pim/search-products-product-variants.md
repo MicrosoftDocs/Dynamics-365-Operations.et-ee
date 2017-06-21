@@ -3,7 +3,7 @@ title: "Toodete ja tootevariantide otsimine tellimuse sisestamise käigus"
 description: "Kasutage välja <strong>Kaubakood </strong>, et otsida tooteid ja tootevariante, kui loote käsitsi müügi- või ostutellimuse rea.  See võimaldab teil kiiresti leida tootevariante, kui teil on ainult konfiguratsiooni string või üks saadaolevatest tootedimensioonidest."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

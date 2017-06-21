@@ -3,7 +3,7 @@ title: Otsetarned
 description: Artikkel sisaldab teavet otsetarnete kohta. Otsetarned on tarned, mis saadetakse hankijalt otse teie kliendile.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

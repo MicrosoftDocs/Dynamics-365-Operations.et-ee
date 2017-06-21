@@ -3,7 +3,7 @@ title: Materjali asendamise tootmises
 description: "Selles teemas kirjeldatakse, kuidas asendada materjale tootmisprotsessi käigus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

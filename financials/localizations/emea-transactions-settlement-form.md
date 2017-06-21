@@ -3,7 +3,7 @@ title: Ida-Euroopa kannete vaatamine tasakaalustamisel
 description: "Selles teemas käsitletakse lehe Kanded tasakaalustamisel teavet klientide ja hankijate kohta."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

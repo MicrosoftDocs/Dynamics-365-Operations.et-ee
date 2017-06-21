@@ -3,7 +3,7 @@ title: Auditipoliitika rikkumised ja juhtumid
 description: "Artiklis selgitatakse, kuidas auditi poliitikareeglite rikkumistest auditijuhtumeid luuakse. See sisaldab ka teavet erinevate viiside kohta, kuidas auditireeglite kasutavad dokumendi valimise kuupäevavahemikku."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

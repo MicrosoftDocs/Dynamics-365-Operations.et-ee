@@ -3,7 +3,7 @@ title: Hankekataloogid
 description: "See artikkel kirjeldab kõrgel tasemel, kuidas ostuspetsialistid saavad hankekatalooge seadistada ja hallata. Hankekataloogid määratlevad kaubad ja teenused, mida ettevõtte töötajad saavad ettevõttesiseseks kasutamiseks tellida."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

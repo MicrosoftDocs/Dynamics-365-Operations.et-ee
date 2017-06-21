@@ -3,7 +3,7 @@ title: "Tööajaarvestuse registreerimine"
 description: "Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See artikkel kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

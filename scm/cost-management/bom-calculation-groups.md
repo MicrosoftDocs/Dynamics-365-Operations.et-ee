@@ -3,7 +3,7 @@ title: Koosluse arvutusgrupid
 description: "Selles artiklis antakse teavet koosluste arvutusgruppide ja nende seadistamise kohta. Koosluse arvutuse käivitamiseks tuleb seadistada arvutusgrupid ja määrata need eraldi üksustele või määrata vaike-arvutusgrupp. Arvutusgrupi arvutussätteid kasutatakse siis koosluse arvutamise ajal lehel Koosluse arvutamine vaikeväärtustena."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

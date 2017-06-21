@@ -3,7 +3,7 @@ title: "Tööde planeerimine"
 description: "Selles artiklis antakse teavet tööde plaanimise kohta, mis on operatsioonide plaanimisest üksikasjalikum plaanimise vorm. Saate kasutada töö planeerimist selleks, et planeerida üksikuid töid või töökoja tellimusi, ja et juhtida tootmiskeskkonda."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Põhivara likvideerimise sisestuskontod"
 description: Selles artiklis selgitatakse, kuidas seadistada pearaamatu sisestuskontosid varade likvideerimiseks.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

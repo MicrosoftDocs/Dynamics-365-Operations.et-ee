@@ -3,7 +3,7 @@ title: Kulumiarvestus kordaja alusel
 description: "Selles artiklis antakse ülevaade teguripõhisest kulumiarvestusmeetodist."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

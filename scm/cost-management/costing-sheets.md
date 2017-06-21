@@ -3,7 +3,7 @@ title: Kuluarvutustabelid
 description: "Kuluarvutustabeli seadistus täidab kahte eesmärki. Esimese sihina määrate müüdud kaupade maksumuse teabe kuvamise vormingu toodetud kauba või tootmistellimuse kohta. Vormindatud kuva nimetatakse kuluarvutustabeliks. Teise sihina määrate kaudse kulu arvutamise alused. Kuluarvutustabeli seadistus põhineb kulugrupi teabekuvamise funktsioonil ja kaudse kulu arvutamise valemitel. Selles artiklis on kirjeldatud kuluarvutustabeli seadistuse kahte eesmärki."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

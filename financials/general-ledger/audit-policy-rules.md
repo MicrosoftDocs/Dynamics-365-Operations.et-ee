@@ -3,7 +3,7 @@ title: Auditipoliitika reeglid
 description: "Auditipoliitikaga saate hinnata kuluaruandeid, hankija arveid ja ostutellimusi, et kontrollida, kas need vastavad loodud poliitikareeglitele. Kõik auditi poliitikaga seotud reeglid käitatakse pakett-režiimis vastavalt teie määratud graafikule.  Iga poliitikareegel on poliitikareegli tüübi eksemplar. Iga poliitikareegli tüübi puhul saab korraga aktiivne olla vaid üks reegel."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

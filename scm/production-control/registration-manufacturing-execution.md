@@ -3,7 +3,7 @@ title: "Tootmise käivitamise registreerimine"
 description: "Selles teemas kirjeldatakse põhimõisteid ja tingimusi, mida on vaja tootmise käivitamise konfigureerimiseks ja kasutamiseks mõista."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

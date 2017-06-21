@@ -3,7 +3,7 @@ title: Pakkematerjalid ja tasud
 description: "Pakkematerjalitasud makstakse jäätmekäitlusfirmale kindlate perioodide kaupa. Iga materjali eest, millest pakkimisühik koosneb, tuleb maksta summa kaaluühiku kohta. Pakkematerjalitasud arvutatakse ja esitatakse, kuid ühtegi pearaamatukannet ei sisestata, sest need tasud ei ole riigile makstavad maksud."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

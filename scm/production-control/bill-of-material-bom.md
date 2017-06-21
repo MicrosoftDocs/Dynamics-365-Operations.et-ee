@@ -3,7 +3,7 @@ title: Kooslused ja valemid
 description: "See artikkel annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa. Kooslused ja valemid määravad kindla toote jaoks nõutavad materjalid või koostisosad. Valemid määravad ka kindla tootmise kontekstis vastuvõetavad kaastooted ja kõrvalsaadused."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

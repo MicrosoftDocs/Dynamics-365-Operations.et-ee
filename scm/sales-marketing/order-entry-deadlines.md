@@ -3,7 +3,7 @@ title: "Tellimuse sisestamise tähtajad"
 description: "See artikkel käsitleb tellimuse sisestamise tähtaegu. Tellimuse sisestamise tähtaeg on katkestusaeg, mis määratleb, kas kliendi tellimust käsitletakse (ja täidetakse) nii, nagu see oleks saadud jooksval päeval või järgmisel päeval."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

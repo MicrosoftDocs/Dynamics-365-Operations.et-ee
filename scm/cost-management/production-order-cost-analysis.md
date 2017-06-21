@@ -3,7 +3,7 @@ title: "Tootmistellimuse kulu analüüs"
 description: "Selles artiklis käsitletakse kuluanalüüsi, mida saab teha lõpetatud ja jooksvate tootmistellimuste puhul. Saate analüüsida eeldatavaid kulusid ja tegelikke kulusid, kasutades lehte Hinnakalkulatsioon või aruannet Kuluhinnangud ja omahind. Saate vaadata hinnanguliste ja tegelike kulude (ja koguste) teavet iga komponendi rea, protsessitoimingu ja kaudse kulu kohta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

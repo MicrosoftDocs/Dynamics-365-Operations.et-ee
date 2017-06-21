@@ -3,7 +3,7 @@ title: Garantiikirjad
 description: "Selles artiklis antakse teavet garantiikirjade kohta. Garantiikirjas nõustub pank maksma isikule kindla rahasumma, kui üks panga klientidest makset või kohustust sellele isikule ei täida."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
