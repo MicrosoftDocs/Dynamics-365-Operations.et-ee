@@ -3,7 +3,7 @@ title: Ostupoliitikad
 description: "Selles artiklis antakse teavet ostupoliitikate kohta. Ostupoliitika on reeglite kogum, mis juhib taotluse protsessi. Ostupoliitikad aitavad hankeadministraatoritel hankestrateegiat juurutada, luues poliitikastruktuuri, mis on vastavuses organisatsiooni strateegiliste ostunõuetega."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

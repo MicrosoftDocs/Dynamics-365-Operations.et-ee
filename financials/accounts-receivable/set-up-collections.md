@@ -3,7 +3,7 @@ title: "Krediidi ja võlanõuete seadistamine"
 description: "See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

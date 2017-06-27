@@ -3,13 +3,14 @@ title: "Tööajaarvestuse registreerimine"
 description: "Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See artikkel kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f

@@ -3,7 +3,7 @@ title: Tootmise sisestamine
 description: "Selles artiklis antakse teavet eri tüüpi sisestuste kohta tootmisprotsessis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

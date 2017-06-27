@@ -3,7 +3,7 @@ title: "Standardomahinna värskenduste haldus"
 description: "Standardomahinna andmete värskendusi saab hallata kahte erinevat lähenemist kasutades: üheversiooniline lähenemine ja kaheversiooniline lähenemine."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

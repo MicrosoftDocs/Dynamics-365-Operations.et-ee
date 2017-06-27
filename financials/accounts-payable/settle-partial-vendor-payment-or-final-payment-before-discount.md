@@ -3,7 +3,7 @@ title: "Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindlu
 description: "Selles artiklis käsitletakse stsenaariumi, kus osalised maksed tehakse hankija arvele ja võetakse skonto."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

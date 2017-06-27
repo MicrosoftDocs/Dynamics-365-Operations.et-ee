@@ -3,7 +3,7 @@ title: Sularaha- ja pangahalduse avaleht
 description: Saate kasutada sularaha- ja pangahalduse moodulit juriidilise isiku pangakontode ja finantsvahendite haldamiseks, mis on pangakontodega seotud.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

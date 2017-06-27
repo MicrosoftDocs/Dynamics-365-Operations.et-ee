@@ -3,7 +3,7 @@ title: "Intressimäärade nõudest loobumine, selle ennistamine või tühistamin
 description: "Selles artiklis selgitatakse, kuidas loobuda, ennistada ja tagasi pöörata intressi ja tasude kulusid."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

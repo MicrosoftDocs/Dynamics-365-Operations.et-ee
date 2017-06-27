@@ -3,7 +3,7 @@ title: Pearaamatukonto saldod
 description: "Selles artiklis selgitatakse pearaamatu konto saldode vaatamise kaht viisi: proovibilansi loendileht ja finantsaruanded. Arutletakse ka dimensioonikomplekti saldo värskendamise üle."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

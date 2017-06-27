@@ -3,7 +3,7 @@ title: Kasutaja eelistused finantsaruannete koosturis
 description: Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toimingute kohandamiseks finantsaruande koosturis ja juhtida algset sisselogimiskogemust. Saate juhtida ka eraldi aruannete, aruannete teegi ja failide vaikeasukohtade kuvamisviisi.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

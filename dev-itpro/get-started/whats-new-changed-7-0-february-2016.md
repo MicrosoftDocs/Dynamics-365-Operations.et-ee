@@ -3,7 +3,7 @@ title: "Mis on uus või muutunud rakenduses Dynamics AX 7.0 (veebruar 2016)"
 description: "Artikkel kirjeldab funktsioone, mis on Microsoft Dynamics AX 7.0-s kas uued või muudetud. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

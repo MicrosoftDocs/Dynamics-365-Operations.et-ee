@@ -3,7 +3,7 @@ title: Pakkumiskutsed
 description: "See artikkel annab ülevaate pakkumiskutsetest, mille organisatsioonid väljastavad, kui neil on vaja osta kaupu või teenuseid ja saada mitmelt hankijalt konkureerivaid pakkumisi. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu. Samuti saate hankijatelt küsida, kas on lisatasusid, nagu saatekulud, või allahindlusi suurte tellimuste või hankija arve ennetähtaegse maksmise korral."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

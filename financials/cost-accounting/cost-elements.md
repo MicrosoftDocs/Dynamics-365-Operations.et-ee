@@ -3,7 +3,7 @@ title: Kuluelemendi dimensioonid
 description: "Ühe kuluarvestuse tuumsambana kasutatakse kuluelemendi dimensioone, et kategoriseerida ja jälgida, kuhu kulud voolavad."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

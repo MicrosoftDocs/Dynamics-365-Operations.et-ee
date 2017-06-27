@@ -3,7 +3,7 @@ title: "Põhivaragruppide asendusväärtuste ja kindlustusväärtuste ümberarvu
 description: "See artikkel selgitab põhivara asendusväärtuste ja kindlustusväärtuste värskendamist."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

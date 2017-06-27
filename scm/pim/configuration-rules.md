@@ -3,7 +3,7 @@ title: Konfiguratsioonireeglid
 description: "Selles artiklis antakse üldteavet konfiguratsioonireeglite kohta. Konfiguratsioonireeglid määratlevad koosluse kaupade vahelised seosed toodete puhul, mis kasutavad dimensioonipõhist konfiguratsioonitehnoloogiat."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

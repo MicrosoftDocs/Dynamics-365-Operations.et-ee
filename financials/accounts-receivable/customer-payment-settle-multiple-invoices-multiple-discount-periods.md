@@ -3,7 +3,7 @@ title: "Kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle
 description: "See artikkel näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas võetavad skontod erinevad, olenevalt sellest, millal makse tehakse."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

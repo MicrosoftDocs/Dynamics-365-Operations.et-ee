@@ -3,7 +3,7 @@ title: "Põhivarakannete valikud"
 description: "Selles artiklis kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

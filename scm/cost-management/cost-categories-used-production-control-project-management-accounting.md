@@ -3,7 +3,7 @@ title: Kulukategooriad, mida kasutatakse moodulites Tootmise juhtimine ja Projek
 description: "Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. See artikkel annab teavet kulukategooriate kohta, mis tuleb määratleda tootmise ja projekti puhul nende tootmistöö tüüpide jaoks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

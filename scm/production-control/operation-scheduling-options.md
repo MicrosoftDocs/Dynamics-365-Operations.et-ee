@@ -3,7 +3,7 @@ title: Operatsioonide plaanimise valikud
 description: "Selles teemas kirjeldatakse operatsioonide plaanimise võimalusi. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

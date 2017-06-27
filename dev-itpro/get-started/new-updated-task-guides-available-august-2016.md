@@ -3,7 +3,7 @@ title: "Uued või värskendatud tegevusjuhised (august 2016)"
 description: "Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (august 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

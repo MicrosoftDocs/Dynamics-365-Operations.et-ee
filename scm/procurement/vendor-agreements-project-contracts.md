@@ -3,7 +3,7 @@ title: Maksmisel tasumise lepingud hankijatega
 description: "Selles artiklis selgitatakse maksmisel tasumise (PWP)tingimusi hankija lepingute puhul. PWP tingimused võimaldavad teil osaliselt või täielikult hankija makset kinni pidada, kuni projekti klient maksab teile. Lisaks sisaldab see artikkel näidet tegelikust elust näitamaks, kuidas saate PWP tingimusi projektis kasutada."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

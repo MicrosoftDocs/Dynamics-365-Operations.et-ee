@@ -3,7 +3,7 @@ title: "Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul"
 description: "Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

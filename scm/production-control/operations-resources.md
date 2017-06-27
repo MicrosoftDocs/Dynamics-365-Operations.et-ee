@@ -3,7 +3,7 @@ title: Operationsi ressursid
 description: "Operatsiooniressurssid sooritavad projekti või tootmisprotsessi tegevusi. Need võivad olla erinevat tüüpi ja erinevate võimalustega."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

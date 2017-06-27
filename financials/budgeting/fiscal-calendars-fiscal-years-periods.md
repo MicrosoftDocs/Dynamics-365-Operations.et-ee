@@ -3,7 +3,7 @@ title: Rahanduskalendrid, rahandusaastad ja -perioodid
 description: "Selles artiklis käsitletakse rahanduskalendreid, rahandusaastaid ja -perioode ning seda, kuidas neid kasutada juriidiliste isikute, põhivara ja eelarvestamise puhul."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

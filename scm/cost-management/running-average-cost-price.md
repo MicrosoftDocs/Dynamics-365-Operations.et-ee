@@ -3,7 +3,7 @@ title: Keskmine jooksev omahind
 description: "Süsteemi lao sulgemise protsess tasakaalustab väljaminekukanded sissetulekukannetega varude hinnamääramise meetodi alusel, mis on valitud kauba mudeligrupis. Ent enne lao sulgemise käitamist arvutab süsteem jooksva keskmise omahinna, mida tavaliselt kasutatakse väljaminekukannete sisestamisel."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

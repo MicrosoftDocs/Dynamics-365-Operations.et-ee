@@ -3,7 +3,7 @@ title: Hankija maksete loomine maksesoovituse abil
 description: "See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad. Maksesoovitusi kasutatakse sageli hankija maksete loomiseks, kuna maksesoovituse päringu abil saab hankija arveid kiiresti kriteeriumide (nt tähtaeg ja skonto) alusel maksmiseks valida."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

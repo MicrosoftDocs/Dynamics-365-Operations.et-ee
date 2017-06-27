@@ -3,7 +3,7 @@ title: "Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos 
 description: "See artikkel käsitleb klientidele esitatavate arvete ja maksete tasakaalustamise mõju. Stsenaarium keskendub mõjule alammoodulis, mitte pearaamatus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

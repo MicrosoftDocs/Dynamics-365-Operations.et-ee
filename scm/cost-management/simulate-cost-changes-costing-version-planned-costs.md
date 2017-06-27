@@ -3,7 +3,7 @@ title: Kulumuudatuste simuleerimine planeeritud kulude kuluversiooni kasutades
 description: "Selles artiklis selgitatakse, kuidas saab kulumuudatuste mõjusid toodetud kauba arvutatud kuludele simuleerida eraldi kuluversiooniga planeeritud kuludele."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

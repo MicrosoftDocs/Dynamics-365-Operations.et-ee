@@ -3,7 +3,7 @@ title: Partii atribuudid
 description: "Selles artiklis antakse teavet partii atribuutide kohta. Partii atribuudid on toormaterjalide ja varude partiid moodustavate valmistoodete omadused. See artikkel selgitab ka partiiatribuutide määramist ja seda, kuidas neilt partiide reserveerimisel otsida saab."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

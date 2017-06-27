@@ -3,7 +3,7 @@ title: "Täpsem panga vastavusseviimise MT940 import – liitandmeüksuse täien
 description: "Järjekorranumber tuleb lisada pangaväljavõtte impordiüksusele, et toetada MT940 vormingut."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

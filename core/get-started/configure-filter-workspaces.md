@@ -3,7 +3,7 @@ title: "Tööruumide konfigureerimine ja filtreerimine"
 description: "Selles artiklis antakse ülevaade tööruumide konfigureerimisest ja filtreerimisest."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

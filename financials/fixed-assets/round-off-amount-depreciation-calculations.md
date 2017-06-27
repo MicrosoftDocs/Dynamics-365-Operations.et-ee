@@ -3,7 +3,7 @@ title: "Kulumiarvutuste ümardatav summa"
 description: "See artikkel käsitleb kulumi ümardamise välja raamatu seadistamise lehtedel."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

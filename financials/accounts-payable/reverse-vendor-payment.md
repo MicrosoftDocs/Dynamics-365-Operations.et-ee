@@ -3,7 +3,7 @@ title: Hankija makse storneerimine
 description: "See artikkel kirjeldab makse tagasipööramise, kustutamise, tühistamise ja tagasilükkamise erinevusi. Lisaks selgitab see kahte hankija tšeki tagasipööramise meetodit."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

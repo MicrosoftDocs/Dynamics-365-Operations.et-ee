@@ -3,7 +3,7 @@ title: Ettemaksuarved vs ettemaksed
 description: "See artikkel kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tas
 description: "Selles artiklis läbitakse stsenaarium, kus kreeditarve tasakaalustatakse arvega."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

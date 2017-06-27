@@ -3,7 +3,7 @@ title: "SEPA otsekorralduse ülevaade"
 description: "Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklike ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

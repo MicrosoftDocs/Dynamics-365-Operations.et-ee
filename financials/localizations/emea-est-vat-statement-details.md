@@ -3,16 +3,16 @@ title: "KM-aruande üksikasjad Eesti puhul"
 description: "See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxPeriod, TaxReportCollection, TaxReportVoucher
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 266904
-ms.assetid: 7a804f8e-3595-463c-8371-21425c992c91
 ms.search.region: Estonia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31

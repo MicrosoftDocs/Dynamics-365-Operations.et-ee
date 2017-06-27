@@ -3,7 +3,7 @@ title: "Mis on uus või muutunud rakenduse Dynamics AX versioonis 7.0.1 (mai 201
 description: "Artikkel kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics AX versioonis 7.0.1-s kas uued või muudetud. See versioon ilmus mais 2016 ja selle number on 7.0.1265.23014."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

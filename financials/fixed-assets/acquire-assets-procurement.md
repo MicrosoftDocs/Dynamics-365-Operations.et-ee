@@ -3,7 +3,7 @@ title: Varade soetamine hankega
 description: "See artikkel kirjeldab, kuidas seadistada integratsiooni Põhivarade ja Ostureskontro vahel, et luua ostutellimustest või hankija arvetest automaatselt põhivarad, või sisestada automaatselt põhivarade soetamise- ja soetamiskorrigeeringu kanded."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Toote konfiguratsioonimudelite arvutuste KKK
 description: Selles artiklis kirjeldatakse tootekonfiguratsiooni mudelite arvutusi ja selgitatakse arvutuste kasutamist koos piirangutega.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

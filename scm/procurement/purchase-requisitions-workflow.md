@@ -3,7 +3,7 @@ title: "ostutaotluse töövoog"
 description: "Töövooprotsess viib ostutaotlused läbi ülevaatusprotsessi algsest olekust Mustand kuni lõplikku olekusse Kinnitatud. Kui ostutaotlus esitatakse ülevaatamiseks, käivitatakse töövoo protsess. Kui ostutaotlus on kinnitatud, saate luua ostutellimuse ostutaotluse ridade jaoks ja selle hankijale tellimuse täitmiseks esitada."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
