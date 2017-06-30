@@ -1,15 +1,15 @@
 ---
 title: "BI &amp; aruandluse kodulehekülg"
-description: Teema esitab Microsoft Dynamics 365 for Operationsis saadaolevate BI &amp; aruandluse ressursside loendi.
+description: Teema esitab rakenduses Microsoft Dynamics 365 for Finance and Operations saadaolevate BI &amp; aruandluse ressursside loendi.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Teema esitab Microsoft Dynamics 365 for Operationsis saadaolevate BI &amp; aruandluse ressursside loendi. 
+Teema esitab rakenduses Microsoft Dynamics 365 for Finance and Operations saadaolevate BI &amp; aruandluse ressursside loendi. 
 
 <a name="working-with-aggregate-data"></a>Koondandmetega töötamine
 ---------------------------
@@ -43,14 +43,14 @@ Teema esitab Microsoft Dynamics 365 for Operationsis saadaolevate BI &amp; aruan
 ## <a name="self-service-reporting"></a>Iseteeninduse aruandlus
 -   [Power BI integreerimine](power-bi-integration.md)
 -   [Power BI integreerimise konfigureerimine tööruumidele](configure-power-bi-integration.md)
--   [Microsoft Dynamics 365 for Operationsi andmete abil Power BI aruande loomine](create-powerbi-report-data.md)
+-   [Rakenduse Microsoft Dynamics 365 for Finance and Operations andmete abil Power BI aruande loomine](create-powerbi-report-data.md)
 -   [Power BI aruande ja armatuurlaua loomine](create-powerbi-report-dashboard.md)
 -   [Jaemüügikanali näitajate Power BI sisu](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Finantstulemuste Power BI sisu](financial-performance-power-bi-content-pack.md)
 -   [Müügi ja tulususe tulemuste Power BI sisu](sales-profitability-performance-content-pack.md)
--   [Elektroonilise aruandluse konfiguratsiooni kasutamine, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroonilise aruandluse konfiguratsiooni kasutamine, et edastada Power BI-le andmed rakendusest Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Dynamics 365 for Operationsi kliendis manustatud analüütiliste kogemuste loomine
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Rakenduse Finance and Operations kliendis manustatud analüütiliste kogemuste loomine
 -   [Manustatud ärianalüüs](analytics.md#embedded-business-intelligence)
 -   [KPI modelleerimine ja kohandamine](analytics.md#kpi-modeling-and-customization)
 -   [BI lisamine tööruumidesse](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ Teema esitab Microsoft Dynamics 365 for Operationsis saadaolevate BI &amp; aruan
 
 ## <a name="document-reporting-and-printing"></a>Dokumentide aruandlus ja printimine
 -   [Dokumentide aruandlusteenuste ülevaade](document-reporting-services.md)
--   [Dynamics 365 for Operationsi rakendustes printimine](print-documents.md)
+-   [Finance and Operationsi rakendustes printimine](print-documents.md)
 -   [Dokumendi marsruudivaliku agendi installimine võrguprinterite lubamiseks](install-document-routing-agent.md)
 -   [Dokumendi marsruudivaliku agendi käitamine Windowsi teenusena](run-document-routing-agent-as-windows-service.md)
 -   [Järgmise põlvkonna aruandluslahenduste loomine](create-nextgen-reporting-solutions.md)
@@ -72,8 +72,8 @@ Teema esitab Microsoft Dynamics 365 for Operationsis saadaolevate BI &amp; aruan
 -   [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 -   [Elektroonilise aruandluse sihtkohad](electronic-reporting-destinations.md)
 -   [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Elektroonilise aruandluse konfiguratsiooni kasutamine, et anda Power BI-le andmed rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Elektrooniline aruandlus. Konfiguratsioonipakkuja loomine ja aktiivseks märkimine](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (tegevusjuhis)
+-   [Elektroonilise aruandluse konfiguratsiooni kasutamine, et edastada Power BI-le andmed rakendusest Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektrooniline aruandlus. Konfiguratsioonipakkuja loomine ja aktiivseks märkimine](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (tegevuse juhis)
 -   [Elektrooniline aruandlus. Domeenikohase andmemudeli koostamine](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Mudeli vastenduse määratlemine ja andmeallikate valimine](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (tegevusjuhis)
 -   [Elektrooniline aruandlus. Andmemudeli vastendamine valitud andmeallikatele](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (tegevusjuhis)

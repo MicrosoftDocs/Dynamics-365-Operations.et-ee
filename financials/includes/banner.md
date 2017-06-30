@@ -1,3 +1,3 @@
 > [!IMPORTANT]
-> Tere tulemast Microsoft Dynamics 365 for Operationsi dokumentatsiooni aadressil docs.microsoft.com. Migreerime oma sisu siia Dynamics 365 for Operationsi spikri vikist. 
+> Tere tulemast rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition dokumentatsiooni aadressil docs.microsoft.com. Migreerime oma sisu siia rakenduse Finance and Operations spikri vikist. 
 
