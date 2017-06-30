@@ -1,96 +1,99 @@
 ---
-title: "Jaemüügi avaleht"
-description: "Rakenduse Dynamics 365 for Operations – Retail"
+title: Microsoft Dynamics 365 for Retail
+description: Rakenduse Dynamics 365 for Retail avaleht
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.search.validFrom: 2017-6-19
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a1004022b1b9dfc43bd2ef5b9f59c759397a3af1
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 6684e1f3703df8eb821b442c98d187ffcf931796
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="retail-home-page"></a>Jaemüügi avaleht
+# <a name="welcome-to-dynamics-365-for-retail"></a>Tere tulemast rakendusse Dynamics 365 for Retail
 
 [!include[banner](includes/banner.md)]
 
-Dynamics 365 for Operations – Retail pakub terviklikku ostuelamust sujuva ja eristava ühiskanali lahendusega, mis on kaasaegne, mobiilne ja globaalne. Täielikke võimalusi, alates moodsatest kassa (POS) tarkvaralahendustest, laotoimingutest, tootesündmustest, e-kaubandusest, kõnekeskusest, turundusest ja klienditeenindusest ning lõpetades tarneahela, rahanduse ja muuga saab kasutada viisil, mis on teie ettevõtte jaoks kõige loogilisem.
+Microsoft Dynamics 365 for Retail on täielik jaemüügilahendus, mis pakub ühtlustatud kaubandust kõigi kanalite lõikes. See hõlmab müüke, mobiilsust, teavet ja tööviljakust, mis aitab jaemüüjatel ja töötajatel pilve ja mobiilsuse esikohale asetamise kaudu rohkem saavutada. Rakendus Retail pakub mitmesuguste äriprotsessidega töötamiseks mitmekülgset tuge, nt kaubanduse, varude ja kanalite haldamisvõimalusi. Samuti pakub see kõigi puutepunktide üleselt kõikehõlmavat kliendikogemust.
 
-Leht viitab ressurssidele, mis aitavad teil rakendust Microsoft Dynamics 365 for Operations – Retail tõhusamalt kasutada. Valige kõige vasakpoolsemal paanil funktsiooniala, et selle kohta rohkem teavet saada. 
+Järgmised kolm toodet on omavahel tihedalt seotud.
 
-## <a name="set-up-retail-channels"></a>Jaemüügikanalite häälestamine
-Jaemüügi kogemuse seadistamisel saate otsustada, kuidas määratleda ja konfigureerida oma füüsilist kauplust, veebikauplust ja kõnekeskust. 
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
+- Microsoft Dynamics 365 for Retail
+- Microsoft Dynamics 365 for Talent
 
-Igal jaekauplusel võivad olla oma makseviisid, tarneviisid, hinnagrupid, tulu-/kulukontod, registrid ja töötajad. Kui olete loonud oma kaupluse, saate luua soovitud arvu kaupluses müüdavaid tooteid. Saate määratleda ka kauplusepõhiseid hindu ja allahindlusi, mis kehtivad poes saada olevatele toodetele.
+Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on enamasti Retailiga seotud teemades toote nimeks Microsoft Dynamics 365 for Retail. Enamasti Talentiga seotud teemades on toote nimeks Microsoft Dynamics 365 for Talent. Põhitootega (Finance and Operations) seotud teemades on toote nimeks Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Teemad, mis on kirja pandud ühe toote jaoks, võivad rakenduda ka seotud toote samale funktsioonile.
 
--   [Jaemüügikanalite määratlemine](define-maintain-retail-channels.md)
--   [Võrgupoe ülevaade](online-stores.md)
+Selle kohta lisateabe saamiseks valige vasakul paanil funktsiooniala.
 
-## <a name="set-up-a-call-center"></a>Kõnekeskuse seadistamine
-Saate seadistada kõnekeskuse jaemüügikanali tüübina. Kõnekeskuses võtavad töötajad telefonitsi klientide tellimusi vastu ja loovad müügitellimusi. Selleks et aidata oma töötajatel tellimusi vastu võtta ja tegeleda klienditeenindusega kogu tellimuse täitmise protsessi käigus, saate seadistada, mida müügitellimus sisaldab, kuidas hinnakujundust kontrollitakse ning milliseid andmeid klientide, toodete ja hindade kohta saab kasutada. Saate iga kõnekeskuse jaoks seadistada ka kasutajaid, makseviise, hinnagruppe, finantsdimensioone ja tarneviise.
+## <a name="channel-management"></a>Kanalihaldus
+Rakenduse Retail seadistamise käigus saate otsustada, kuidas oma kauplusi määratleda ja konfigureerida. Tegemist võib olla füüsiliste, veebikaupluste või kõnekeskustega.
 
--   [Kõnekeskuse funktsioonid](call-center-functionality.md)
--   [Kõnekeskuse kataloogide loomine](create-call-center-catalogs.md)
+Igal jaekauplusel võivad olla oma makseviisid, tarneviisid, hinnagrupid, tulu- ja kulukontod, registrid ning töötajad. Pärast jaekaupluse loomist saate luua kaupluses müüdavate toodete valiku. Saate määratleda ka kauplusepõhiseid hindu ja allahindlusi, mis kehtivad poes saadaolevatele toodetele.
 
-## <a name="define-your-pos-solutions"></a>Kassalahenduste määratlemine
-Retail Modern POS (MPOS) on müügikoha rakendus arvutite, tahvelarvutite ja telefonide jaoks. Müügipersonal saab töödelda müügikandeid ja klienditellimusi, luua kliendisuhtlusi ning teha igapäevaseid toiminguid ja hallata varusid mobiilsetes seadmetes poes mis tahes kohas, kaasa arvatud arvutipõhistes registrites. Cloud POS on brauseripõhine POS, mille saab käivitada igas standardses brauseris. 
+## <a name="clienteling-and-loyalty"></a>Kliendisuhtlus ja lojaalsus
+Klientide vajadused muutuvad pidevalt. Selleks, et saaksite nii uusi kliente ligi meelitada kui ka olemasoleva kliendibaasi vajadusi rahuldada, peate olema suuteline ostuharjumuste ja trendide muudatustega kiirelt ja tõhusalt sammu pidama.
 
-Saadaval on mitu komponenti, mida saate seadistada, et määratleda seoseid poe, poes olevate kassaregistrite ja jaemüügi välisseadmete vahel, mida need registrid kasutavad kannete töötlemiseks. Saate määratleda ka kassa konkreetse eksemplari omadusi, sealhulgas riistvaraprofiili või seadistust jaemüügi välisseadmete jaoks, mida kasutatakse registris, poes, millega register on vastendatud, sellesse registrisse sisse logiva kasutaja visuaalses kogemuses ja funktsioonides, mis on registris lubatud. Samuti saate määratleda, kas register saab töötada katkestatud või võrguühenduseta olekus.
+Lisaks tuleb arvestada sellega, et klientidel on palju valikuvõimalusi, saamaks soovitut neile sobival ajal ja hinnaga. Klientide lojaalsuse säilitamiseks saate kasutada ostlemist hõlbustavaid isikupärastatud teatiseid ja pakkumisi.
 
--   [Kanaliklientide, registrite ja riistvarajaamade määratlemine ning haldamine](define-maintain-channel-clients-registers-hw-stations.md)
--   [MPOS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
--   [Võrguühenduseta kassa funktsioonid](pos-offline-functionality.md)
+## <a name="hardware-and-peripherals"></a>Riistvara ja välisseadmed
+Retail Modern POS (MPOS) ja pilve kassa võivad kasutada mitmesuguseid riistvara välisseadmeid. Nii MPOS kui ka pilve kassa pakuvad teile erinevate äristsenaariumitega tegelemiseks mitmesuguseid liideste ja juurutamissuvandeid.
 
-## <a name="set-up-a-customer-loyalty-program"></a>Püsikliendiprogrammi seadistamine
-Saate seadistada oma püsikliendi programmi, et kliendid saaksid teatud kriteeriumite põhjal teenida punkte, mida saab arvutada mitmel viisil. Teie püsikliendi programm võib olla lihtne või keerukas ja rakenduda kõigile juriidilistele isikutele mis tahes jaemüügikanalil.
--   [Püsikliendiprogrammi seadistamine](set-up-customer-loyalty-program.md)
+Rakenduse Retail välisseadme simulaator sisaldab virtuaalset välisseadme simulaatorit ja POS-simulaatorit. Virtuaalne välisseadme simulaator toetab peamiselt selliste stsenaariumite testimist, mis vajavad tavaliselt füüsilisi kassa välisseadmeid. POS-simulaator võimaldab teil proovida füüsiliste välisseadmete ühilduvust rakendusega Retail ilma, et peaksite POS-klienti juurutama.
 
-## <a name="set-up-discounts-and-price-adjustments"></a>Allahindluste ja hindade korrigeerimise seadistamine
-Saate korrigeerida toodete hindu ja seadistada allahindlusi, mida rakendatakse kassas, kõnekeskuse müügitellimuses või võrgutellimuses rea kaubale või kandele. 
--   [Hinnakorrigeerimised ja allahindlused](price-adjustments-discounts.md)
--   [Kanalipõhiste allahindluste määratlemine](define-channel-specific-discounts.md)
--   [Kattuvate allahindluste optimaalse kombinatsiooni määratlemine](optimal-combination-overlapping-discounts.md)
+## <a name="intelligence"></a>Teave
+Täpsem analüütika pakub jaemüügi probleemide lahendamiseks masinõppe võimsust ja võimaldab ennustavad, optimeeritud ning isikupärastatud ülevaated, mis aitavad müügivihje kasvu ja kasumlikkuseni. Rakendus Retail võimaldab teil saata visuaalseid aruandeid mis tahes seadmesse, võrgus või võrguühenduseta. Samuti saate aidata klientidel tuvastada nende vajadustele vastavaid tooteid ja teenuseid enne ostu sooritamist.
 
-## <a name="set-up-retail-products"></a>Jaetoodete häälestamine
-Enne kui saate oma jaemüügikanalitel hakata tooteid müügiks pakkuma, peate tooted looma ja konfigureerima rakenduses Dynamics 365 for Operations. Saate luua tooted, määratleda toote omadusi ja atribuute ning määrata tooted jaemüügikategooria hierarhiatesse. Selleks et teha tooted jaemüügikanalites kättesaadavaks ja lisada need aktiivsele sortimendile, peate tooted väljastama juriidilistele isikutele, kus need on saadaval.
--   [Jaetoodete häälestamine](set-up-retail-products.md)
+## <a name="monitoring-and-diagnosis"></a>Seire ja diagnoos
+Retail võimaldab teil jälgida müügi ja marginaali jõudlust reaalajas, organisatsioonihierarhia erinevate tasemete üleselt.
 
-## <a name="monitor-and-analyze-performance"></a>Tulemuslikkuse jälgimine ja analüüsimine
-Saate rakenduse Dynamics 365 for Operations andmeid kasutades analüüsida poe jõudlust, kliendi ja toote tulusust, müügitrende ja muud.
--   [Kliendi ja toote tulususe hindamine](assess-customer-product-profitability.md)
--   [Kaupluse jõudluse analüüsimine](store-performance-information.md)
+## <a name="merchandising"></a>Kaubastamine
+Enne kui saate oma jaemüügikanalitel hakata tooteid müügiks pakkuma, peate tooted looma ja konfigureerima rakenduses Retail. Saate luua tooted, määratleda toote omadusi ja atribuute ning määrata tooted jaemüügikategooria hierarhiatesse. Selleks, et teha tooted jaemüügikanalites kättesaadavaks ja lisada need aktiivsele sortimendile, peate tooted väljastama juriidilistele isikutele, kus need on saadaval.
+
+Saate korrigeerida toodete hindu ja seadistada allahindlusi, mida rakendatakse kassas, kõnekeskuse müügitellimuses või võrgutellimuses rea kaubale või kandele.
+
+## <a name="store-operations-and-pos"></a>Kaupluse toimingud ja kassa
+MPOS on arvutitele, tahvelarvutitele ja telefonidele mõeldud kassarakendus. Müügipersonal saab töödelda müügikandeid ja klienditellimusi, luua kliendisuhtlusi ning teha igapäevaseid toiminguid ja hallata varusid mobiilsetes seadmetes kõikjal kaupluses, kaasa arvatud arvutipõhistes registrites. Pilve kassa on brauseripõhine kassa, mille saab käivitada igas standardses brauseris.
+
+Selleks, et määratleda seoseid kaupluse, kaupluses olevate kassaregistrite ja jaemüügi välisseadmete vahel, mida need registrid kasutavad kannete töötlemiseks, seadistate mitu komponenti. Samuti määratlete kassa konkreetse eksemplari omadused. Need omadused hõlmavad riistvaraprofiili või seadistust jaemüügi välisseadmete jaoks, mida kasutatakse registris, kaupluses, millega register on vastendatud, sellesse registrisse sisse logiva kasutaja visuaalses kogemuses ja registris lubatud funktsioonides. Samuti saate määratleda, kas register saab töötada katkestatud või võrguühenduseta olekus.
+
+## <a name="workforce-management"></a>Tööjõu haldus
+Selleks, et saada tulu keskkonnas, mille kasumimarginaalid kahanevad, püüavad jaemüüjad pidevat oma tegevuskulusid vähendada. Enamike jaemüüjate puhul moodustavad jaemüügipersonali kulud tegevuskuludest suure osa. Seetõttu võib nende kulude kontrollimine jaemüüjate finantstulemusi suuresti mõjutada. Võimalusi omav ja efektiivne tööjõud tagab ka parema kliendikogemuse.
+
+Retail võimaldab kaupluse juhatajatel luua ja avaldada kaupluse töötajate vahetusi ja graafikuid, lisada juhiste kaudu vahetustele marginaale ja kopeerida eelmise nädala graafikut käesolevasse nädalasse. Samuti saavad juhatajad ülevaate jaemüügitöötajate esitatud puudumistaotlustest ja võimaluse neid taotlusi kinnitada või tagasi lükata. Juhatajad saavad ka ülevaate vahetuste pakkumise ja vahetamise taotlustest ning võimaluse neid taotlusi kinnitada või tagasi lükata.
+
+Klienditeenindajad saavad määratud vahetustest ja graafikutest ülevaate, samuti vahetuste juhised ning näevad andmeid vahetustesse määratud kaastööliste kohta. Samuti saavad nad esitada puudumistaotlusi, taotlusi kaastöötajatega vahetuste vahetamiseks ja vahetuse pakkumistaotlusi.
 
 ## <a name="customize-and-administer-retail-environments"></a>Jaemüügikeskkondade kohandamine ja haldamine
-Kui teil on palutud kohandada oma keskkonda või kui teie ülesandeks on oma süsteemi juurutamine ja haldamine, vaadake jaemüügiga seotud arendaja ja süsteemiadministraatori sisu ning ka rakenduse Microsoft Dynamics 365 for Operations üldisemat sisu. 
--   [Dynamics 365 for Operations – Retail IT-professionaalidele ja arendajatele](dev-itpro/dev-retail-home-page.md)
--   [Microsoft Dynamics 365 for Operations arendajatele ja IT-professionaalidele](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+Kui teil on palutud oma keskkonda kohandada või kui teie ülesandeks on oma süsteemi juurutamine ja haldamine, vaadake kindlasti rakendusele Retail omast arendaja ja süsteemiadministraatori sisu ning ka üldisemat sisu.
+
+- [Dynamics 365 for Retail IT-professionaalidele ja arendajatele](dev-itpro/dev-retail-home-page.md)
+- [Microsoft Dynamics 365 for Retail arendajatele ja IT-professionaalidele](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>Lisaressursid
 ### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
-Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>, et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
+Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel.
 
 ### <a name="blogs"></a>Ajaveebid
-Arvamusi, uudiseid ja muud teavet rakenduse Microsoft Dynamics 365 for Operations – Retail ja muud lahendused kohta leiate <a href="https://community.dynamics.com/b/msftdynamicsblog">rakenduse Microsoft Dynamics 365 ajaveebist</a>.
+Retaili ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog).
 
-Palju teemasid jaemüügi kohta leiate ka <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX-i tootemeeskonna ajaveebist</a>. Mõni neist sisestustest on kirjutatud Dynamics 365 for Operationsi eelmise versiooni jaoks, kuid mõningad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
+Palju postitusi Retaili kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/). Kuigi mõned neist postitustest kirjutati rakenduse Retail eelmisele versioonile on põhimõtted endiselt samad. Ka protseduurid on praeguses versioonis sarnased.
 
-<a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb</a> on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss saamaks teada, mis on rakenduses MBS Operations uut ja põnevat.
-
-
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.
 
