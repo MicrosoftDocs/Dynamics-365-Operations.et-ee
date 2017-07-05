@@ -6,22 +6,21 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
-ms.assetid: 2e299a38-16e5-474e-b993-d88cebfadca0
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: 25a9885a31871a19285cdd30987e3d1caa99bc04
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -54,6 +53,9 @@ Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioo
 -   [Regulatiivse vaatluse ja regulatiivsete värskenduste teabevahetus](regulatory-watch-communication.md)
 -   [Microsofti teavitamine riigi/regiooni regulatiivsetest teatistest ja regulatiivsete funktsioonide oleku jälgimine](submit-localization-alerts.md)
 
+### <a name="dynamics-365-roadmap"></a>Dynamics 365 sisukaart
+[Dynamics 365 sisukaart](https://roadmap.dynamics.com/) annab hetkeülevaate sellest, millega parajasti töötame. Saate selle sisukaardi abil välja uurida, mis on tehtud üldiselt kättesaadavaks ja mida arendatakse. Kõik arendustega seotud kuupäevad ja funktsioonid on esialgsed, põhinevad praegustel ootustel ja võivad ette teatamata muutuda.
+
 ## <a name="electronic-reporting"></a>Elektrooniline aruandlus
 Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektrooniliste dokumentide vorminguid erinevate riikide/regioonide õigusnõuete järgi. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Lisateavet vt järgmistest teemadest.
 -   [Elektroonilise aruandluse ülevaade](../analytics/general-electronic-reporting.md)
@@ -62,7 +64,9 @@ Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektro
 -   [Elektroonilise aruandluse funktsioonide loendi laiendamine](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Elektroonilise aruandluse sihtkohad](../analytics/electronic-reporting-destinations.md)
 -   [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Elektroonilise aruandluse konfiguratsioonide importimine](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroonilise aruandluse tööriista abil elektrooniliste dokumentide loomine ja avalduse andmete värskendamine](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Tegevuse juhised
 Tegevuse juhised asuvad toote spikripaanil ja need pakuvad juhendatud ülevaadet peamistest äriprotsessidest. Saate avada tegevuse juhise, et lugeda äriprotsessi etappe või saate esitada tegevuse juhise, et saada ülevaade äriprotsessist ja sisestada andmeid.
@@ -83,9 +87,10 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 
 ### <a name="austria"></a>Austria
 
--   [Poolaasta kulum](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
--   [Pakkematerjali maksud](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
--   [KM aruanne](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [Poolaasta kulum](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
+- [Pakkematerjali maksud](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
+- [Ostulõivud](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
+- [KM aruanne](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Belgia
 
@@ -130,7 +135,6 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Tšehhi Vabariigi põhivarade likvideerimise poolaasta kulum](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
 -   [Kulumi peatamine (pühad)](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
 -   [Tšehhi Vabariigi põhivarade kulumiarvestusmeetodid](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
-
 -   [Põhivara eelsoetuse sisestamine](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Tšehhi Vabariigi KM aruanne](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Käibemaksuaruandlus ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
@@ -144,30 +148,39 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Põhivarade likvideerimine](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 
 ### <a name="europe"></a>Euroopa
--   [Avansisaajad](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
--   [Arve ID-de redigeerimine müügitellimustel](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
--   [ELi kandesertifikaadid](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
--   [ELi käibearuandlus](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
--   [Vahetuskursi korrigeerimine](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
--   [Makseviiside failivormingud](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
--   [Eesti ja Leedu põhivarade likvideerimine](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
--   [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
--   [Läti ja Leedu arve ja saatelehe nummerdamine](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Arve väljastamise tähtajad](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
--   [OIOUBL-standardid](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
--   [Maksekviitungi aruanne](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
--   [Väikesed summad](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
--   [Põhivara eelsoetuse sisestamine](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [Sihtnumbrid](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
--   [Registreerimise ID-d](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
--   [SEPA kreeditiülekande ülevaade](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
--   [SEPA otsekorralduse ülevaade](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
--   [Allkirjastajate häälestamine prindivormide jaoks](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Perioodide tükeldamine perioodilistes töölehtedes](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Aruannetes ja dokumentides summade kuvamise viisi värskendamine](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
--   [KM-i vahetuskursid](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
--   [KM aruandlus Euroopas](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
--   [Kannete kuvamine tasakaalustamisel](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [Avansisaajad](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
+- [Avansisaaja kanded](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
+- [Täpsem arveldamine](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
+- [Panga vastavusseviimine](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
+- [Parandav arveldamine](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
+- [Perioodiliste töölehtede loomine ja sisestamine](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
+- [Arve ID-de redigeerimine müügitellimustel](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
+- [EL-i kandesertifikaadid](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
+- [ELi käibearuandlus](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
+- [Vahetuskursi korrigeerimine](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
+- [Makseviiside failivormingud](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
+- [Eesti ja Leedu põhivarade likvideerimine](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
+- [Varude töölehe aruanded](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
+- [Läti ja Leedu arve ja saatelehe nummerdamine](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+- [Arve väljastamise tähtajad](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+- [OIOUBL-standardid](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
+- [Maksekviitungi aruanne](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
+- [Väikesed summad](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
+- [Põhivara eelsoetuse sisestamine](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
+- [Sihtnumbrid](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
+- [Registreerimise ID-d](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
+- [Pöördtasud](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
+- [SEPA kreeditiülekande ülevaade](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
+- [SEPA otsekorralduse ülevaade](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
+- [Kliendi ja hankija hüvituse seadistamine](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
+- [Allkirjastajate häälestamine prindivormide jaoks](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Maksudirektiivid](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
+- [Aruannetes ja dokumentides summade kuvamise viisi värskendamine](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
+- [KM-i vahetuskursid](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
+- [Ida-Euroopa käibemaksuregistri kanded](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
+- [Käibemaksuaruanne](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
+- [Kannete kuvamine tasakaalustamisel](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
 
 ### <a name="france"></a>Prantsusmaa
 -   [Arvete ja kannete numbrid kronoloogilises järjekorras](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -180,6 +193,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 #### <a name="public-sector"></a>Avalik sektor
    -   [Kohustused avalikus sektoris](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
    -   [Mandats de paiement avalikus sektoris](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
+   -   [Hanked](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
    -   [Avaliku sektori raamatupidamine](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
    -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Hankija arve maksete ootelolekud](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
@@ -205,22 +219,21 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Saatelehe kuupäeva kinnitamine arvetel Itaalias](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Itaalia käibemaksuraamatud](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
 -   [Tükeldatud makse avalikule haldusele väljastatud arvete korral](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [Kinnipeetav maks](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax)
+-   [Kinnipeetav maks](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
 
 ### <a name="japan"></a>Jaapan
 
--   [Hankijate kaetavad pangamaksete tasud](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--   [Koondarved](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
-
-#### <a name="fixed-assets"></a>Põhivarad
-   -  [Põhivara eraldamisreeglid](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
-   -  [Võrdselt jagatud kulumiarvestuse meetod](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
-   -  [Põhivara kulum](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
-   -  [Põhivara kahjustuse haldus raha genereerival üksusel](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
-   -  [Põhivara käibelt kõrvaldamise kohustuse seadistamine](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
-   -  [Põhivarade vähendamiskannete seadistamine](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--   [Hankijale tasumine käskveksli toetusega](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--   [Kinnipeetava maksu progressiivne arvutamine](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [Hankijate kaetavad pangamaksete tasud](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
+-  [Koondarved](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
+-  [Põhivara eraldamisreeglid](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
+-  [Võrdselt jagatud kulumiarvestuse meetod](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
+-  [Põhivara kulum](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
+-  [Põhivara kahjustuse haldus raha genereerival üksusel](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
+-  [Sihtnumbrite importimine](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
+-  [Põhivara käibelt kõrvaldamise kohustuse seadistamine](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
+-  [Põhivarade vähendamiskannete seadistamine](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
+-  [Hankijale tasumine käskveksli toetusega](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
+-  [Kinnipeetava maksu progressiivne arvutamine](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
 
 ### <a name="latvia"></a>Läti
 
@@ -254,6 +267,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 ### <a name="norway"></a>Norra
 
 -   [Netsi impordivorming](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
+-   [KM aruanne](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
 
 ### <a name="poland"></a>Poola
 
@@ -286,11 +300,12 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Hispaania võlatähe valikud](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Müügi- ja ostutsüklid](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Erikanded ja avamislehed](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
--   [Kasuta arvekonto finantsandmeid](/dynamics365/unified-operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Arvekonto finantsandmete kasutamine](/dynamics365/unified-operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>Rootsi
 
 -   [Rootsi maksevormingute importimine](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [Rootsi kassaaparaadid](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
 
 ### <a name="switzerland"></a>Šveits
 

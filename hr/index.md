@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,23 +32,24 @@ ms.lasthandoff: 06/21/2017
 
 Microsoft Dynamics 365 for Talent hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib mitmeid teie organisatsiooni personalitegevuste protsesse. Need protsessid on töötajate hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks.
 
-Dynamics 365 for Talent on tihedalt seotud rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition inimressurssidega. Mõlemas tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud inimressurssidega, toote nimeks Dynamics 365 for Finance and Operations, Enterprise Edition; ja teemades, mis on peamiselt seotud Talentiga, on toote nimeks Dynamics 365 for Talent. Teemad, mis on kirja pandud ühe toote jaoks, võivad rakenduda ka seotud toote samale funktsioonile.
-
 Saate rakendust Talent kasutada, et teha järgmist.
 
-> + Hallata organisatsiooni struktuure.
-> + Säilitada põhjalikku teavet töötajate kohta alates töölevõtmisest kuni pensionini.
-> + Määratleda ja hallata soodustusplaane, registreerida töötajaid, määrata sõltuvaid katvusi ja tulusaajaid.
-> + Luua ja jälgida puudumispoliitikaid.
-> + Rakendada ja jälgida profiilipõhist aja juhtimist ning luua palgaandmeid palgasüsteemi eksportimiseks.
-> + Hallata töötaja pädevusi.
-> + Vaadata üle tulemusi ja seada töötajale eesmärke.
-> + Seadistada, pakkuda ja analüüsida koolituskursusi, mis sisaldavad päevakavasid, seansse ja jälgimisi.
++ Hallata organisatsiooni struktuure.
++ Säilitada põhjalikku teavet töötajate kohta alates töölevõtmisest kuni pensionini.
++ Määratleda ja hallata soodustusplaane, registreerida töötajaid, määrata sõltuvaid katvusi ja tulusaajaid.
++ Luua ja jälgida puudumispoliitikaid.
++ Rakendada ja jälgida profiilipõhist aja juhtimist ning luua palgaandmeid palgasüsteemi eksportimiseks.
++ Hallata töötaja pädevusi.
++ Vaadata üle tulemusi ja seada töötajale eesmärke.
++ Seadistada, pakkuda ja analüüsida koolituskursusi, mis sisaldavad päevakavasid, seansse ja jälgimisi.
+
+> [!NOTE] 
+> Dynamics 365 for Talent on tihedalt seotud rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition inimressurssidega. Mõlemas tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud inimressurssidega, toote nimeks Dynamics 365 for Finance and Operations, Enterprise Edition; ja teemades, mis on peamiselt seotud Talentiga, on toote nimeks Dynamics 365 for Talent. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Arendada strateegiat inimressursside haldamiseks.
 ---------------------------------------------------------
 
-Rakendusega Talent töötamisel saate otsustada kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad. Need kuuluvad põhielementide hulka, mida saate konfigureerida. Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.
+Rakendusega Talent töötamisel saate otsustada, kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad. Need kuuluvad põhielementide hulka, mida saate konfigureerida. Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.
 
 -   [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](departments-jobs-positions.md)
 -   [Ettevõttekohaste inimressursside parameetrite seadistamine](set-up-company-specific-hr-parameters.md)
