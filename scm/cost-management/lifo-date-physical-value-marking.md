@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO kuupäev füüsilise väärtuse ja märgistusega
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Laomudel Viimasena sisse, esimesena välja (LIFO) põhineb LIFO põhimõttel. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. Kui LIFO-kuupäeva kasutamisel enne väljaminekut sissetulekut pole, tasakaalustatakse väljaminek mis tahes sissetulekuga, mis toimub pärast väljamineku kuupäeva. Mitmed väljaminekud samal päeval tasakaalustatakse viimase väljamineku, viimase sissetuleku järjekorras. 

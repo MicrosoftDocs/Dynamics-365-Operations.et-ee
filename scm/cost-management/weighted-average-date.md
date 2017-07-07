@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Kaalutud keskmine kuupäev
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel. Kaalutud keskmise põhimõtte järgi hinnatakse varude väljaminekuid lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes. Kui käitate lao sulgemist kaalutud keskmist kuupäeva kasutades, tasakaalustatakse kõik igapäevased sissetulekud virtuaalse väljaminekuga. See virtuaalne väljamineku hoiab kogu vastuvõetud kogust ja väärtust. Sel virtuaalsel väljaminekul on vastav virtuaalne sissetulek, millega väljaminekud tasakaalustatakse. Seega on kõigil väljaminekutel sama keskmine kulu. Virtuaalset väljaminekut ja sissetulekut saab vaadelda kui virtuaalset ülekannet nimega *kaalutud keskmise lao sulgemise ülekanne*. 

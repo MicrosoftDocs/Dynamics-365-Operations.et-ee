@@ -31,6 +31,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[Retail name](../includes/retail-name.md)]
 
 Kasutage välja <strong>Kaubakood </strong>, et otsida tooteid ja tootevariante, kui loote käsitsi müügi- või ostutellimuse rea.  See võimaldab teil kiiresti leida tootevariante, kui teil on ainult konfiguratsiooni string või üks saadaolevatest tootedimensioonidest.
 
