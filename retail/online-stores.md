@@ -1,39 +1,41 @@
 ---
 title: "võrgupoe ülevaade"
-description: "See artikkel käsitleb võrgu jaepoode ja seda, kuidas neid Microsoft Dynamics 365 for Operationsis seadistada."
+description: "See artikkel käsitleb võrgu jaepoode ja seda, kuidas neid Microsoft Dynamics 365 for Retailis seadistada."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 784444258a324eeefb5b96ae518ef4123ac219d4
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28ab301dc3aede6b23fb5d87fcb179916e0296e4
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="online-store-overview"></a>võrgupoe ülevaade
+# <a name="online-store-overview"></a>Võrgupoe ülevaade
 
 [!include[banner](includes/banner.md)]
 
 
-See artikkel käsitleb võrgu jaepoode ja seda, kuidas neid Microsoft Dynamics 365 for Operationsis seadistada.
+See artikkel käsitleb võrgu jaepoode ja seda, kuidas neid Microsoft Dynamics 365 for Retailis seadistada.
 
-Jaemüük ja kaubandus Dynamics 365 for Operationsis toetab mitut jaemüügikanalit. Jaemüügikanalid hõlmavad võrgupoode, kõnekeskusi ja jaekauplusi (neid nimetatakse ka füüsilisteks kauplusteks). Võrgupoed annavad jaemüüjale kohaloleku võrgus, nii et tema kliendid saavad lisaks jaekauplusest osta tooteid ka võrgupoest. Kui kliendid ostavad tooteid võrgupoest, saab need tooted neile tarnida või võivad nad tooted kätte saada kohalikust jaekauplusest. Võrgupoe saate luua Dynamics 365 for Operationsi klientrakenduses. Seejärel avaldatakse võrgupood muu osapoole võrgupoele, mis on integreeritud Dynamics 365 for Operationsiga. Muu osapoole võrgupood toimib võrgupoe fassaadina (kasutajaliidesena) ning võimaldab teil valida kliendihaldussüsteemi (CMS) ja kasutajaliidese võimalusi. Dynamics 365 for Operationsi jaoks on saadaval mitu seda tüüpi integratsiooni. Atribuudid, mida saate võrgupoe jaoks määratleda, juhivad võrgupoe toimimist. Näiteks määratlete Dynamics 365 for Operationsis navigeerimiskategooria hierarhia ja määrate selle võrgupoele. Võrgupoe avaldamisel muu osapoole võrgupoele kuvatakse navigeerimiskategooria hierarhia kaupluse võrguversioonis. Ostjad kasutavad navigeerimiskategooria hierarhiat võrgupoe sisu sirvimiseks ja toodete otsimiseks. Võrgupoe loomiseks peate seadistama komponendid, mis võimaldavad kaupluse jaoks kannete töötlemist. Näiteks tuleb lisada sortimentid, rakendada atribuudid ning seadistada makseviisid ja tarneviisid. Samuti saate määrata hindu, kampaaniaid, allahindlusi, kaubandusleppeid ja võrgupoes kehtivaid tarnetingimusi. Pärast võrgupoe avaldamist muu osapoole võrgupoele saate võrgupoe jaoks luua jaemüügi tootekatalooge. Kataloogi toodetest saavad võrgupoe tooteloendid. Kui klient ostab võrgupoest tooteid, värskendatakse ja sünkroonitakse saadaolevad varud klientrakenduses. Samuti luuakse ostude kohta müügitellimused ning saadetakse tellimuse täitmiseks ja töötlemiseks klientrakendusse.
+Dynamics 365 for Retail toetab mitut jaemüügikanalit. Jaemüügikanalid hõlmavad võrgupoode, kõnekeskusi ja jaekauplusi (neid nimetatakse ka füüsilisteks kauplusteks). Võrgupoed annavad jaemüüjale kohaloleku võrgus, nii et tema kliendid saavad lisaks jaekauplusest osta tooteid ka võrgupoest. Kui kliendid ostavad tooteid võrgupoest, saab need tooted neile tarnida või võivad nad tooted kätte saada kohalikust jaekauplusest. Võrgupoe saate luua Dynamics 365 for Retaili klientrakenduses. Seejärel avaldatakse võrgupood muu osapoole võrgupoele, mis on integreeritud Dynamics 365 for Retailiga. Muu osapoole võrgupood toimib võrgupoe fassaadina (kasutajaliidesena) ning võimaldab teil valida kliendihaldussüsteemi (CMS) ja kasutajaliidese võimalusi. Dynamics 365 for Retaili jaoks on saadaval mitu seda tüüpi integratsiooni. Atribuudid, mida saate võrgupoe jaoks määratleda, juhivad võrgupoe toimimist. Näiteks määratlete Dynamics 365 for Retailis navigeerimiskategooria hierarhia ja määrate selle võrgupoele. Võrgupoe avaldamisel muu osapoole võrgupoele kuvatakse navigeerimiskategooria hierarhia kaupluse võrguversioonis. Ostjad kasutavad navigeerimiskategooria hierarhiat võrgupoe sisu sirvimiseks ja toodete otsimiseks. Võrgupoe loomiseks peate seadistama komponendid, mis võimaldavad kaupluse jaoks kannete töötlemist. Näiteks tuleb lisada sortimentid, rakendada atribuudid ning seadistada makseviisid ja tarneviisid. Samuti saate määrata hindu, kampaaniaid, allahindlusi, kaubandusleppeid ja võrgupoes kehtivaid tarnetingimusi. Pärast võrgupoe avaldamist muu osapoole võrgupoele saate võrgupoe jaoks luua jaemüügi tootekatalooge. Kataloogi toodetest saavad võrgupoe tooteloendid. Kui klient ostab võrgupoest tooteid, värskendatakse ja sünkroonitakse saadaolevad varud klientrakenduses. Samuti luuakse ostude kohta müügitellimused ning saadetakse tellimuse täitmiseks ja töötlemiseks klientrakendusse.
 
 ## <a name="set-up-an-online-store"></a>Veebipoe häälestamine
 Võrgupoe seadistamiseks täitke järgmised ülesanded.

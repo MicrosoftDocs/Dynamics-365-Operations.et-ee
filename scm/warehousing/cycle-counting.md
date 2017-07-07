@@ -3,14 +3,14 @@ title: "Tsükliline inventuur"
 description: "See artikkel kirjeldab, kuidas kasutada tsüklilist inventuuri laohalduse moodulis oleva ladustamislahendusega. See artikkel ei kehti moodulis Varude haldus oleva ladustamislahenduse puhul."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4446dfec1fa8eabb45e14b3f2ff685b3b1d68e2c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ebc7789d7b0be5db4a0faf4309bc3640f51956c6
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ See artikkel kirjeldab, kuidas kasutada tsüklilist inventuuri laohalduse moodul
 Tsükliline inventuur on laoprotsess, mida saate kaupade laovaru kontrollimiseks kasutada. Tsüklilise inventuuri protsessi saab kirjeldada kolme etapina.
 
 1.  **Tsüklilise inventuuri töö loomine** – tsüklilise inventuuri töö saab luua automaatselt, tuginedes kaupade läveparameetritele või kasutades tsüklilise inventuuri plaani. Teine võimalus on luua tsüklilise inventuuri töö käsitsi, kasutades lehel **Tsüklilise inventuuri töö kauba alusel** või lehel **Tsüklilise inventuuri töö asukoha alusel** olevaid kauba või lao parameetrid.
-2.  **Tsüklilise inventuuri töötlemine** – pärast tsüklilise inventuuri töö loomist saab teha tsüklilise inventuuri töö, loendades lao asukohas olevad kaubad ja sisestades tulemuse mobiilse seadme abil Microsoft Dynamics 365 for Operationsisse. Teise võimalusena saate lugeda kaupu lao asukohas, tsüklilise inventuuri tööd loomata. Seda protsessi nimetatakse *punkttsükliliseks inventuuriks*.
+2.  **Tsüklilise inventuuri töötlemine** – pärast tsüklilise inventuuri töö loomist saab teha tsüklilise inventuuri töö, loendades lao asukohas olevad kaubad ja sisestades tulemuse mobiilse seadme abil Finance and Operationsisse. Teise võimalusena saate lugeda kaupu lao asukohas, tsüklilise inventuuri tööd loomata. Seda protsessi nimetatakse *punkttsükliliseks inventuuriks*.
 3.  **Tsüklilise inventuuri väärtuse erinevuse lahendamine** – pärast tsüklilist inventuuri on vormil **Kogu töö** kaupadel, mille inventuuri käigus saadud väärtuses on erinevusi, tööolek **Ülevaatuse ootel**. Need erinevused saab lahendada lehel **Ülevaatuse ootel tsüklilise inventuuri töö**.
 
 Järgmine illustratsioon näitab tsüklilise inventuuri protsessi. ![Tsüklilise inventuuri protsessivoog](./media/performcyclecountinginawarehouselocation.jpg)
@@ -115,10 +115,10 @@ Saate ajastada tsüklilise inventuuri plaane tsüklilise inventuuri töö loomis
 Tsüklilise inventuuri töö loomiseks käsitsi võite kasutada lehte **Tsükliline inventuur kauba alusel** või **Tsükliline inventuur asukoha alusel**. Saate määrata loodavate tsükliliste inventuuride maksimumarvu. Näiteks kui laojuhataja määrab väärtuse **5**, luuakse tsüklilise inventuuri töö viiele asukohale, isegi kui kaup on 10-s asukohas olemas. Saate valida ka töökausta ID, kuhu loodavate tsüklilise inventuuri tööde ID-d määratakse. Töökausta ID töötlemisel tsüklilise inventuuri jaoks töödeldakse sellesse töökausta määratud tsüklilise inventuuri tööde ID-d grupina.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Tsüklilise inventuuri läbiviimine mobiilse seadmega
-Tsüklilise inventuuri töö tegemiseks mobiilses seadmes on Microsoft Dynamics 365 for Operationsis mitu võimalust.
+Tsüklilise inventuuri töö tegemiseks mobiilses seadmes on Finance and Operationsis mitu võimalust.
 
 -   **Kasutaja juhitud** – töötaja saab määrata tsüklilise inventuuri töö ID, mille olek on **Avatud**.
--   **Süsteemi juhitud** – Dynamics 365 for Operations määrab töötajale tsüklilise inventuuri töö ID.
+-   **Süsteemi juhitud** – Finance and Operations määrab töötajale tsüklilise inventuuri töö ID.
 -   **Tsüklilise inventuuri rühmitamine** – töötaja saab rühmitada teatud asukoha, tsooni või töökausta tsüklilise inventuuri töö ID-d.
 -   **Punkttsükliline inventuur** – valikuline: töötaja saab loendada kaupu lao asukohas igal ajal, tsüklilise inventuuri tööd loomata, sisestades asukoha ID. Punkttsüklilise inventuuri läbiviimiseks asukohas sisestab töötaja asukoha ID.
 

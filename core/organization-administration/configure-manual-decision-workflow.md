@@ -3,13 +3,13 @@ title: "Töövoos käsitsi otsuse konfigureerimine"
 description: "See teema selgitab, kuidas konfigureerida käsitsi otsuse atribuute."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -152,10 +152,10 @@ Saate saata inimestele teatisi, kui otsus langetatakse, delegeeritakse või eska
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Kindlad Microsoft Dynamics 365 for Operationsi kasutajad</td>
+    <td>Kindlad Microsoft Dynamics 365 for Finance and Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Finance and Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -215,10 +215,10 @@ Järgige neid etappe, et valida, kellele käsitsi otsus määratakse.
     </tr>
     <tr class="even">
     <td>Kasutaja</td>
-    <td>Kindlad Dynamics 365 for Operationsi kasutajad</td>
+    <td>Konkreetsed Finance and Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele otsus määrata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Finance and Operationsi kasutajaid. Valige kasutajad, kellele otsus määrata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -301,10 +301,10 @@ Kui kasutaja ei tee otsust määratud aja jooksul, on otsuse tähtaeg ületatud.
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Kindlad Dynamics 365 for Operationsi kasutajad</td>
+    <td>Konkreetsed Finance and Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele otsust eskaleerida, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Finance and Operationsi kasutajaid. Valige kasutajad, kellele otsust eskaleerida, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

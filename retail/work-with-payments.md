@@ -1,27 +1,28 @@
 ---
 title: "Makseviisid kõnekeskuses"
-description: "Selles teemas käsitletakse erinevaid makseviise, mida saate jaemüügi ja kaubanduse mooduli kõnekeskuses kasutada."
+description: "Selles teemas käsitletakse erinevaid makseviise, mida saate Dynamics 365 for Retaili kõnekeskuses kasutada."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 930264f9c22cbde102b59237e432df7d7e4836c8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 07cb1bcb3870b96e34f7f6725fe5b7da32628fde
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Selles teemas käsitletakse erinevaid makseviise, mida saate jaemüügi ja kaubanduse mooduli kõnekeskuses kasutada.
+Selles teemas käsitletakse erinevaid makseviise, mida saate Dynamics 365 for Retaili kõnekeskuses kasutada.
 
-Microsoft Dynamics AX-i mooduli Jaemüük ja kaubandus muudes kanalites kasutatavaid makseviise, nt sularaha, tšekke, krediitkaarte ja kinkekaarte, saab kasutada ka kõnekeskustes. Pärast seda, kui olete seadistanud kõnekeskuse makseviisi, kuvatakse see ühe valikuna jaotises **Maksed** lehel **Müügitellimus** kõigi kõnekeskuse kasutajate puhul. Lisaks saate seadistada kupongid, millega pakkuda allahindlusi klientidele, kes esitavad teie organisatsiooni kõnekeskuse kaudu tellimuse. Kupongid võivad pakkuda fikseeritud summaga allahindlust või allahindlusprotsenti kauba hinnast või kogutellimusest. Näiteks summapõhine kupong võib pakkuda klientidele 75.00-eurost allahindlust, kui nad kulutavad vähemalt 750.00 eurot. On võimalik luua erinevat tüüpi kuponge, seadistada põhi-/alamkuponge ja kopeerida või tühistada kupongi. Kasutage kupongide loomiseks järgmises tabelis olevaid valikuid.
+Muudes kanalites kasutatavaid makseviise (nt sularaha, tšekke, krediitkaarte ja kinkekaarte) saab kasutada ka kõnekeskustes. Pärast seda, kui olete seadistanud kõnekeskuse makseviisi, kuvatakse see ühe valikuna jaotises **Maksed** lehel **Müügitellimus** kõigi kõnekeskuse kasutajate puhul. Lisaks saate seadistada kupongid, millega pakkuda allahindlusi klientidele, kes esitavad teie organisatsiooni kõnekeskuse kaudu tellimuse. Kupongid võivad pakkuda fikseeritud summaga allahindlust või allahindlusprotsenti kauba hinnast või kogutellimusest. Näiteks summapõhine kupong võib pakkuda klientidele 75.00-eurost allahindlust, kui nad kulutavad vähemalt 750.00 eurot. On võimalik luua erinevat tüüpi kuponge, seadistada põhi-/alamkuponge ja kopeerida või tühistada kupongi. Kasutage kupongide loomiseks järgmises tabelis olevaid valikuid.
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

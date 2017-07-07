@@ -3,7 +3,7 @@ title: Aadressiraamatud
 description: 
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23601
 ms.assetid: b177fa0f-ac9a-415e-9498-15438e132f60
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 568000b37fa067dfd34b4ee0642e4ba6cbe3aa54
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7b3bed2bec4b109c6e3b557b8c3651f15f25169c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,8 +42,8 @@ Saate kontrollida topeltkirjeid otse loendilehelt **Globaalne aadressiraamat**. 
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>Kas osapoolte kirjeid saab aadressiraamatusse hulgi lisada või sealt kustutada?
 Jah, saate lisada aadressiraamatusse mitu osapoolekirjet ja ka mitu osapoole kirjet eemaldada.
 
--   Mitme osapoole kirje lisamiseks aadressiraamatusse valige loendilehelt **Globaalne aadressiraamat**loendis olevad osapooled. Seejärel klõpsake tegumiribal vahekaardi **Osapool** grupis **Halda**valikut **Osapoolte määramine**. Valige aadressiraamatud, kuhu valitud osapoole kirjed lisada, ja seejärel klõpsake nuppu **OK**. Kõik valitud osapoole kirjed lisatakse valitud aadressiraamatutesse.
--   Mitme osapoole kirje eemaldamiseks aadressiraamatust valige loendilehelt **Globaalne aadressiraamat**loendis olevad osapooled. Seejärel klõpsake tegumiribal vahekaardi **Osapool**grupis **Halda**valikut **Osapoolte eemaldamine**. Valige aadressiraamatud, millest osapooled eemaldada, ja klõpsake siis nuppu **OK**. Kõik valitud osapoole kirjed eemaldatakse valitud aadressiraamatutest.
+-   Mitme osapoole kirje lisamiseks aadressiraamatusse valige loendilehelt **Globaalne aadressiraamat** loendis olevad osapooled. Seejärel klõpsake tegumiribal vahekaardi **Osapool** grupis **Halda** valikut **Osapoolte määramine**. Valige aadressiraamatud, kuhu valitud osapoole kirjed lisada, ja seejärel klõpsake nuppu **OK**. Kõik valitud osapoole kirjed lisatakse valitud aadressiraamatutesse.
+-   Mitme osapoole kirje eemaldamiseks aadressiraamatust valige loendilehelt **Globaalne aadressiraamat** loendis olevad osapooled. Seejärel klõpsake tegumiribal vahekaardi **Osapool** grupis **Halda** valikut **Osapoolte eemaldamine**. Valige aadressiraamatud, millest osapooled eemaldada, ja klõpsake siis nuppu **OK**. Kõik valitud osapoole kirjed eemaldatakse valitud aadressiraamatutest.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Kas saan kirje osapoole tüüpi muuta või pean vana kirje kustutama ja uue looma?
 Aeg-ajalt võib olla vaja kirje osapoole tüüpi muuta (isikust organisatsiooniks või organisatsioonist isikuks). Näiteks Nancy kuulub ettevõtte Fabrikam U.K. müügi töörühma. Londonis kohtab ta ärimessil kuut uut potentsiaalset klienti. Nancy loob igale potentsiaalsele kliendile potentsiaalse kliendi osapoole kirje. Kui Nancy kirjed salvestab, luuakse iga kirje ka globaalses aadressiraamatus. Fabrikam on määratud osapoole vaiketüübiks organisatsiooni, kuid kahe uue potentsiaalse kliendi kirje tüüp peaks olema isik. Seetõttu, kui Nancy ärimessilt naaseb, peab ta kahe potentsiaalse kliendi osapoole tüüpi muutma. Osapoole kirje osapoole tüübi muutmiseks tuleb esmalt luua globaalses aadressiraamatus uus õige tüübiga osapoole kirje. Seejärel saab vana osapoole kirje selle uue kirjega seostada. Pärast uue osapoolega seostamist kustutage algne osapoole kirje, millel on vale kirje tüüp.
@@ -67,7 +67,7 @@ Saate sisestada osapoole kirjeid globaalsesse aadressiraamatusse või vastava ü
 -   **Osapoole kirje loomine, kui teate üksuse tüüpi** – kui teate osapoole üksuse tüüpi, saate luua kirje selle tüübi puhul kehtival lehel. Näiteks kliendi kirje looge lehel **Klient**. Kui loote ja salvestate kirje lehekülje sobiva üksuse lehel, luuakse kirje automaatselt globaalses aadressiraamatus.
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Kas saan tõlkida osapoole kirjete aadressiteavet?
-Saate seadistada aadressiteabe tõlkeid, nii et teave kuvatakse Microsoft Dynamics 365 for Operationsis teie kasutajakeeles (süsteemikeeles), kuid dokumentidel (nt müügitellimustel) muus keeles. Saate sisestada riigi/piirkonna nimede, aadressi eesmärkide ja nimeseeriate tõlkeid. Näiteks oletame, et teie süsteemikeel on taani keel ja loote müügitellimuse Prantsusmaal asuvale kliendile. Sel juhul saate vaadata kliendikirjet programmis taani keeles, kuid kuvada prinditud müügitellimusel aadressiteabe prantsuse keeles. Tõlgete seadistamisel tuleb sisestada iga loendis oleva üksuse tõlke. Kõik üksused, millele te tõlget ei sisesta, kuvatakse süsteemikeeles. Näiteks oletame, et teie süsteemikeel on taani keel ja saadate dokumendi Hispaanias asuvale kliendile. Kui te pole sisestanud aadressiteabele hispaaniakeelseid (ESP) tõlkeid, kuvatakse see teave taani keeles nii programmis kui ka prinditud dokumendil.
+Saate seadistada aadressiteabe tõlkeid, nii et teave kuvatakse Microsoft Dynamics 365 for Finance and Operationsis teie kasutajakeeles (süsteemikeeles), kuid dokumentidel (nt müügitellimustel) muus keeles. Saate sisestada riigi/piirkonna nimede, aadressi eesmärkide ja nimeseeriate tõlkeid. Näiteks oletame, et teie süsteemikeel on taani keel ja loote müügitellimuse Prantsusmaal asuvale kliendile. Sel juhul saate vaadata kliendikirjet programmis taani keeles, kuid kuvada prinditud müügitellimusel aadressiteabe prantsuse keeles. Tõlgete seadistamisel tuleb sisestada iga loendis oleva üksuse tõlke. Kõik üksused, millele te tõlget ei sisesta, kuvatakse süsteemikeeles. Näiteks oletame, et teie süsteemikeel on taani keel ja saadate dokumendi Hispaanias asuvale kliendile. Kui te pole sisestanud aadressiteabele hispaaniakeelseid (ESP) tõlkeid, kuvatakse see teave taani keeles nii programmis kui ka prinditud dokumendil.
 
 
 

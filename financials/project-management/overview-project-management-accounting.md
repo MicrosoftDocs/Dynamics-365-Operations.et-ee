@@ -3,24 +3,24 @@ title: Projektihaldus ja -arvestus
 description: "Projektihaduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas teenuse pakkumiseks, toote tootmiseks või tulemuse saavutamiseks."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ Projekt on tegevuste grupp, mis on mõeldud teenuse osutamiseks, toodangu valmis
 ## <a name="projects-across-industries"></a>Projektid valdkondade lõikes
 Projektihalduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas, nagu järgmisel joonisel näha. [![Projektid valdkondade lõikes](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Kõnekeskuses saab kasutada piletit kõne lahendamiseks vajalike tegevuste kogumi kirjeldamiseks. Nõustamisettevõtted (nt juhtimis- või tehnilise nõustamise organisatsioonid või reklaamiagentuurid) viitavad oma tegevustele kui projektidele. Turunduses tähistab kampaania tehtavate tööde kogumit. Projektipõhises tootmises on tootmistellimus seotud mitmesuguste töödega, mis tuleb valmis kaupade tootmiseks teha. Olenemata nimest, mida nende projektide puhul kasutatakse, hõlmavad need ressursse, graafikuid ja kulusid ja projektihalduse ning raamatupidamise funktsioon Microsoft Dynamics 365 for Operationsis võib aidata neid projekte plaanida, läbi viia ja analüüsida.
+Kõnekeskuses saab kasutada piletit kõne lahendamiseks vajalike tegevuste kogumi kirjeldamiseks. Nõustamisettevõtted (nt juhtimis- või tehnilise nõustamise organisatsioonid või reklaamiagentuurid) viitavad oma tegevustele kui projektidele. Turunduses tähistab kampaania tehtavate tööde kogumit. Projektipõhises tootmises on tootmistellimus seotud mitmesuguste töödega, mis tuleb valmis kaupade tootmiseks teha. Olenemata nimest, mida nende projektide puhul kasutatakse, hõlmavad need ressursse, graafikuid ja kulusid ja projektihalduse ning raamatupidamise funktsioon Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis võib aidata neid projekte plaanida, läbi viia ja analüüsida.
 
 ## <a name="project-phases"></a>Projekti faasid
 Kuigi järgmine protsessivoog on suunatud välistele projektidele või vähemalt ühe kliendi heaks läbiviidavale projektile, kehtib see funktsioon ka ettevõttesiseste ainult kuluga projektide puhul. 
@@ -75,11 +75,11 @@ Lisateavet leiate jaotisest [Tööjaotuse struktuurid](work-breakdown-structures
 
 ### <a name="create-project-forecasts-and-budgets"></a>Projekti prognooside ja eelarvete loomine
 
-Võite kasutada projekti prognoosi, kui teie organisatsioonil on tegevustele suunatud perspektiiv ja keskendutakse konkreetsetest tehingutest tulenevatele tuludele ja kuludele. Kuid kui teie organisatsioon keskendub rohkem rahasummadele, võite kasutada eelarvestamist. Kummalgi meetodil on omad eelised. Lisateavet leiate jaotisest [Projekti prognoosid ja eelarved](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Võite kasutada projekti prognoosi, kui teie organisatsioonil on tegevustele suunatud perspektiiv ja keskendutakse konkreetsetest tehingutest tulenevatele tuludele ja kuludele. Kuid kui teie organisatsioon keskendub rohkem rahasummadele, võite kasutada eelarvestamist. Kummalgi meetodil on omad eelised. Lisateavet leiate jaotisest [Projekti prognoosid ja eelarved](project-forecasts-budgets.md).
 
 ### <a name="create-projects"></a>Projektide loomine
 
-Saate luua Microsoft Dynamics 365 for Operationsis kuut tüüpi projekte. Iga projekti tüüp seadistatakse kulude ja tulude arvestuse seisukohast erinevalt. Projektitüübi valik sõltub projekti otstarbest. Järgmises tabelis kirjeldatakse iga projektitüübi tavapärast kasutust.
+Saate luua Microsoft Dynamics 365 for Finance and Operationsis kuut tüüpi projekte. Iga projekti tüüp seadistatakse kulude ja tulude arvestuse seisukohast erinevalt. Projektitüübi valik sõltub projekti otstarbest. Järgmises tabelis kirjeldatakse iga projektitüübi tavapärast kasutust.
 
                                                                                                                                                                          |
 | Projekti tüüp      | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Lisateavet leiate jaotisest [Tööjaotuse struktuurid](work-breakdown-structures
 
 Projekte saab hallata ja juhtida kahel viisil: projekti prognoosid ja projekti eelarved. Võite kasutada projekti prognoosi, kui teie organisatsioonil on tegevustele suunatud perspektiiv ja keskendutakse konkreetsetest tehingutest tulenevatele tuludele ja kuludele. Kuid kui teie organisatsioon keskendub rohkem rahasummadele, võite kasutada eelarvestamist.
 
-Lisateavet leiate jaotisest [Projekti prognoosid ja eelarved](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Lisateavet leiate jaotisest [Projekti prognoosid ja eelarved](project-forecasts-budgets.md).
 
 ### <a name="create-production-orders"></a>Tootmistellimuste koostamine
 
@@ -210,7 +210,7 @@ Lisateavet projektiarvete töötlemise kohta leiate jaotisest [Projekti arveldus
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projekti läbiviimise kulu arvutamine
 
-Hinnangu loomisel saate valida projekti läbiviimise kulu arvutamiseks kasutatava meetodi. Meetod valitakse väljal **Täitmiskulu meetod**lehel **Hinnangu loomine**. Valitud meetod rakendatakse eraldi igale kuluprognoosi kulureale. Kui rea olek on **Loodud**, saate muuta sellel rakendatavat meetodit lehel **Kuluhinnang**. 
+Hinnangu loomisel saate valida projekti läbiviimise kulu arvutamiseks kasutatava meetodi. Meetod valitakse väljal **Täitmiskulu meetod** lehel **Hinnangu loomine**. Valitud meetod rakendatakse eraldi igale kuluprognoosi kulureale. Kui rea olek on **Loodud**, saate muuta sellel rakendatavat meetodit lehel **Kuluhinnang**. 
 
 Järgmises tabelis kirjeldatakse projekti täitmiskulu arvutamise meetodeid.
 
@@ -228,7 +228,7 @@ Järgmises tabelis kirjeldatakse projekti täitmiskulu arvutamise meetodeid.
 <tbody>
 <tr class="odd">
 <td>Tegelik kulu kogusumma</td>
-<td>Hinnangulised kulud tuleb sisestada käsitsi. Pärast seda, kui on täidetud veerg <strong>Kulu kokku</strong> või <strong>Kogus kokku</strong> lehel <strong>Kuluhinnang</strong>, lahutatakse tegelikud kulud kasutaja sisestatud koondsummadest. Tulemus on projekt täitmiskulu. Tavaliselt ei jälgita kulude edenemist näiteks hotellis peatumiste ja igal perioodil kajastatud einete arvu põhjal. Selle asemel tehakse järgmist. Tavaliselt põhineb jälgimine võrdlemisel hinnanguliste tundide koguarvuga. Selle lähenemisviisi puhul ei ole eelarvemudelit vaja ja kulu või kogust kokku saab käsitsi muuta. Kui väljale <strong>Kulu kokku</strong> või <strong>Kogus kokku</strong> sisestatakse väärtus, võrdleb Microsoft Dynamics 365 for Operations seda väärtust tegelike perioodi sisestatud kannetega ja vähendab siis väärtust veerus <strong>Täitmise kogus</strong> või <strong>Täitmise kulu</strong>.</td>
+<td>Hinnangulised kulud tuleb sisestada käsitsi. Pärast seda, kui on täidetud veerg <strong>Kulu kokku</strong> või <strong>Kogus kokku</strong> lehel <strong>Kuluhinnang</strong>, lahutatakse tegelikud kulud kasutaja sisestatud koondsummadest. Tulemus on projekt täitmiskulu. Tavaliselt ei jälgita kulude edenemist näiteks hotellis peatumiste ja igal perioodil kajastatud einete arvu põhjal. Selle asemel tehakse järgmist. Tavaliselt põhineb jälgimine võrdlemisel hinnanguliste tundide koguarvuga. Selle lähenemisviisi puhul ei ole eelarvemudelit vaja ja kulu või kogust kokku saab käsitsi muuta. Kui väljale <strong>Kulu kokku</strong> või <strong>Kogus kokku</strong> sisestatakse väärtus, võrdleb Finance and Operations seda väärtust tegelike perioodi sisestatud kannetega ja vähendab siis väärtust veerus <strong>Täitmise kogus</strong> või <strong>Täitmise kulu</strong>.</td>
 </tr>
 <tr class="even">
 <td>Tegelik eelarve kogusumma</td>
@@ -238,7 +238,7 @@ Järgmises tabelis kirjeldatakse projekti täitmiskulu arvutamise meetodeid.
 <li>Võrrelge prognoosi kandeid tegelike kannetega.</li>
 <li>Hallake, vähendage või suurendage järgmise perioodi prognoose.</li>
 </ol>
-Microsoft Dynamics 365 for Operations ei vähenda automaatselt prognoositud väärtusi. Seetõttu on soovitatav fikseeritud hinnaga projekti puhul algne prognoosimudel alles hoida, et projekti lõppedes oleks võrdlemiseks alus olemas. 
+Finance and Operations ei vähenda automaatselt prognoositud väärtusi. Seetõttu on soovitatav fikseeritud hinnaga projekti puhul algne prognoosimudel alles hoida, et projekti lõppedes oleks võrdlemiseks alus olemas. 
 > [!NOTE] Selle meetodi valimisel kasutage vähemalt kahte prognoosimudelit. Üks mudel peaks sisaldama algset prognoosi. Teise mudeli jaoks tuleks kopeerida teisest mudelist prognoosi kanded. See meetod kehtib ainult fikseeritud hinnaga projektide ja investeeringuprojektide puhul.</td>
 > </tr>
 <tr class="odd">
@@ -316,7 +316,7 @@ Nende sätete põhjal on siin kulu maksekuupäev iga kandetüübi kohta.
 
 Kulu maksekuupäeva ei arvutata puhverpäevadel. Pärast projekti lõpuleviimist, kui kogu kuluarvestus ja arveldused on tehtud, sisestatakse nii kulud kui ka müük kasumi- ja kahjumikontodele. 
 
-Kui kõik müügi- ja hankija arved on lõpetatud, saate vaadata väljadevahelist seost lehel **Rahavoog**ja lehe **Projektiaruanded** väljadel.
+Kui kõik müügi- ja hankija arved on lõpetatud, saate vaadata väljadevahelist seost lehel **Rahavoog** ja lehe **Projektiaruanded** väljadel.
 
 | Rahavoo leht | Projektiaruannete leht |
 |----------------|-------------------------|
@@ -333,14 +333,14 @@ Saate jälgida kulusid, mis teie organisatsioonile projekti käigus tekivad, leh
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Eelarve jäägi summade vaatamine
 
-Kui kulude kontrolli meetodiks on lehel **Projektihalduse ja raamatupidamise parameetrid** valitud **Eelarvejääk**, leht **Kulude kontroll** arvutab kulud, mida pole tegelikena sisestatud ega kooskõlastatuks märgitud. Konkreetsemalt: lehe **Kulude kontroll**vahekaardil **Üldine** olevad summad arvutatakse järgmiselt.
+Kui kulude kontrolli meetodiks on lehel **Projektihalduse ja raamatupidamise parameetrid** valitud **Eelarvejääk**, leht **Kulude kontroll** arvutab kulud, mida pole tegelikena sisestatud ega kooskõlastatuks märgitud. Konkreetsemalt: lehe **Kulude kontroll** vahekaardil **Üldine** olevad summad arvutatakse järgmiselt.
 
 -   **Tegelik kulu** – kogusumma, mis projektile valitud kulureal on kulutatud. Tegelik kulusumma arvutatakse lehel **Pearaamatu uuendused**.
 -   **Kooskõlastatud kulu** – täiendav kulusumma, mille juriidiline isik on nõustunud maksma. Kindlad kooskõlastatud kulusummad arvutatakse lehel **Kooskõlastatud kulud**.
 -   **Järelejäänud eelarve** – algne eelarvesumma, mis on valitud kulurea puhul veel saadaval. Järelejäänud eelarvesumma arvutatakse lehel **Pearaamatu eelvaade**.
 -   **Kulu kokku** – tegeliku kulu, kooskõlastatud kulu ja eelarvejäägi summad kokku.
 
-Lehe **Kulude kontroll**vahekaardil **Hälve**saate vaadata eeldatava kogukulu võrdlust originaaleelarvega. See võrdlus näitab nende summade erinevusi. Seega saate vaadata, kus andmed ei ühti. Hälbesummad kalkuleeritakse järgmistel viisidel:
+Lehe **Kulude kontroll** vahekaardil **Hälve** saate vaadata eeldatava kogukulu võrdlust originaaleelarvega. See võrdlus näitab nende summade erinevusi. Seega saate vaadata, kus andmed ei ühti. Hälbesummad kalkuleeritakse järgmistel viisidel:
 
 -   **Algne eelarve** – valitud kulureale algselt eelarvestatud summa. Algne eelarvesumma arvutatakse lehel **Pearaamatu eelvaade**.
 -   **Kogukulu** – tegeliku kulu, kooskõlastatud kulu ja eelarvejäägi summa kokku, nagu on kirjas vahekaardil **Üldine**.
@@ -357,7 +357,7 @@ Kui lehel **Projektihalduse ja raamatupidamise parameetrid** on kulude kontrolli
 -   **Kooskõlastatud kulu** – valitud kulurea kooskõlastatud kogusumma.
 -   **Hälve** – tegelike ja kooskõlastatud kulude summa ja kogukulu vahe. Hälve näitab, kas kogu eelarvele tuleb määratleda lisakulud.
 
-Lehel **Kulude kontroll** vahekaardil **Hälve**saab vaadata kogu eelarve ja algse eelarve vahet, vaadates järgmisi välju.
+Lehel **Kulude kontroll** vahekaardil **Hälve** saab vaadata kogu eelarve ja algse eelarve vahet, vaadates järgmisi välju.
 
 -   **Algne eelarve** – kulureale algselt eelarvestatud summa. Algne eelarve arvutatakse lehel **Pearaamatu eelvaade**.
 -   **Eelarvesse kantud kogukulu** – kulureale algselt eelarvestatud kogukulu. Eelarvesse kantud kogukulu arvutatakse lehel **Pearaamatu eelvaade**.
@@ -394,14 +394,14 @@ Kui arvutate töötaja kasutusmäära, võite kasutada normtunde või arvestatav
 
 ### <a name="review-project-statements"></a>Projektiaruannete ülevaatamine
 
-Saate luua projektiaruande projekti edenemise kiire hetktõmmise kuvamiseks. Projektiaruande käivitamisel saate määrata kriteeriumid, mida kasutatakse aruande arvutamiseks, tehes valikud vahekaardil **Üldine**lehel **Projektiaruanded**. Saate valida, kas lisada või jätta välja järgmised andmed.
+Saate luua projektiaruande projekti edenemise kiire hetktõmmise kuvamiseks. Projektiaruande käivitamisel saate määrata kriteeriumid, mida kasutatakse aruande arvutamiseks, tehes valikud vahekaardil **Üldine** lehel **Projektiaruanded**. Saate valida, kas lisada või jätta välja järgmised andmed.
 
 -   Projektitüübid
 -   Kandetüübid
 -   Projekti kuupäev / pearaamatu kuupäev
 -   Andmed
 
-Pärast seda, kui aruanne on arvutatud, saate vaadata järgmisi andmeid lehe **Projektiaruanded**järgmistel vahekaartidel.
+Pärast seda, kui aruanne on arvutatud, saate vaadata järgmisi andmeid lehe **Projektiaruanded** järgmistel vahekaartidel.
 
 -   **Üldine** – üldteave projekti peamise kasumi- ja kahjumistruktuuri kohta.
 -   **Kasum ja kahjum** – viittulu teave.

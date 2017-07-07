@@ -1,15 +1,15 @@
 ---
 title: "Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil"
-description: "Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid rakenduses Microsoft Dynamics 365 for Operations automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi."
+description: "Pangakonto täpsema vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid rakenduses Microsoft Dynamics 365 for Operations automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.  
+Pangakonto täpsema vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektroonilise pangaväljavõtte importimine
 -----------------------------------
@@ -44,7 +44,7 @@ Saate laadida üles pangaväljavõtte, mis sisaldab teavet ühe või mitme konto
 
 Kui mis tahes väljavõtet elektroonilises failis ei saa pangakontoga seostada tuvastatavaid välju kasutades, siis neid ei impordita. Siiski saab importida teisi väljavõtteid failis. Kasutaja saab seejärel teate, mis ütleb, et pangaväljavõtete importimine oli kindlate pangakontode puhul ebaedukas. Pange tähele, et pangaväljavõtte faili importival kasutajal peab olema juurdepääs juriidilisele isikule, et importida selle juriidilise isiku pangakontode väljavõtted. 
 
-Saate kasutada zip-faili, et laadida mitu väljavõttefaili rakendusse Microsoft Dynamics 365 for Operations üles ühe protsessina. Mitme pangaväljavõtte faili importimiseks mitme konto kohta ühendage kõik pangaväljavõtte failid ühte zip-faili. Määrake dialoogiboksis **Pangaväljavõtete importimine** valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Jah**. Klõpsake valikut **Sirvi** pangaväljavõtte faile sisaldava zip-faili valimiseks ja klõpsake siis käsku **Laadi üles**. Importimisprotsess tuvastab zip-faili ja laeb iga sellesse kaasatud väljavõtte üles hoolimata pangakonto juriidilisest isikust. 
+Saate kasutada ZIP-faili, et laadida mitu väljavõttefaili rakendusse Finance and Operations üles ühe protsessina. Mitme pangaväljavõtte faili importimiseks mitme konto kohta ühendage kõik pangaväljavõtte failid ühte zip-faili. Määrake dialoogiboksis **Pangaväljavõtete importimine** valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Jah**. Klõpsake valikut **Sirvi** pangaväljavõtte faile sisaldava zip-faili valimiseks ja klõpsake siis käsku **Laadi üles**. Importimisprotsess tuvastab zip-faili ja laeb iga sellesse kaasatud väljavõtte üles hoolimata pangakonto juriidilisest isikust. 
 
 Saadaval on valik **Vii pärast importi vastavusse**. Kui määrate selle valiku väärtuseks **Jah**, kinnitab süsteem automaatselt pangaväljavõtte, loob uue panga vastavusseviimise ja töölehe ning käivitab pangaväljavõtte üleslaadimisel vaike-vastendamisreegli. See funktsioon automatiseerib protsessi kuni punktini, kus tehingud tuleb käsitsi vastendada.
 
@@ -76,7 +76,7 @@ Pangaväljavõtte kannete vastendamiseks või vastavusse viimiseks on kolm võim
 
 -   Kannete vastendamine Operationsi pangakannetega.
 -   Kannete vastendamine tühistava pangaväljavõtte kandega.
--   Märkige kanded väärtusega **Uus**, et neid saaks hiljem rakenduses Dynamics 365 for Operations pangakannetena sisestada.
+-   Märkige kanded väärtusega **Uus**, et neid saaks hiljem rakenduses Finance and Operations pangakannetena sisestada.
 
 Kannete käsitsi vastendamiseks valige kanded ruudustikus **Pangaväljavõtte kanded**, valige ruudustikus **Operationsi pangakanded** vastavad kanded ja klõpsake siis käsku **Vastenda**. Valitud vastendamata kanded viiakse ülemistesse ruutudesse ja vastendatud kanded alumistesse ruutudesse. Lisaks värskendatakse vastendatud ja vastendamata koondsummasid. Kande vastavused võivad olla üks-ühele, mitu ühele ja mitu mitmele. Vastavused peavad järgima reegleid lubatud kuupäevaerinevuste ja kandetüübi vastendamise kohta. Need reeglid on määratud lehel **Sularaha- ja pangahalduse parameetrid**.
 
@@ -86,7 +86,7 @@ Pangaväljavõtte kannete tühistamised vastendatakse vastavusseviimise tööleh
 
 Tühistatud Operationsi pangakanded tuleb viia vastavusse, kasutades lehte **Operationsi pangakanded**. Kaks Operationsi pangakannet saab omavahel vastavusse viia, kui dokumentidel on sama pangakonto, dokumendi tüüp ja makseviide ja kui neil on vastupidised summad. Saate viia vastavusse ka üksiku tühistatud tšeki, et vältida nende kannete kuvamist vastavusseviimise töölehel. 
 
-Kui on uusi panga algatatud kandeid (nt intresse, tasusid ja kulusid, mis pole veel rakenduses Dynamics 365 for Operations, võite lisada need töölehele, mis on seotud valitud pangaväljavõtte kandega. Valige pangaväljavõtte kanne vastendamata kannete ruudustikust **Pangaväljavõtte kanded** ja klõpsake siis valikut **Märgi uueks**. Kande olekuks määratakse **Uus** ja kanne viiakse vastendatud kannete ruudustikku **Pangaväljavõtte kanded**. Kanded, mis on märgitud väärtusega **Uus**, sisestatakse hiljem lehelt **Pangaväljavõte**. 
+Kui on uusi panga algatatud kandeid (nt intresse, tasusid ja kulusid, mis pole veel rakenduses Finance and Operations), võite lisada need töölehele, mis on seotud valitud pangaväljavõtte kandega. Valige pangaväljavõtte kanne vastendamata kannete ruudustikust **Pangaväljavõtte kanded** ja klõpsake siis valikut **Märgi uueks**. Kande olekuks määratakse **Uus** ja kanne viiakse vastendatud kannete ruudustikku **Pangaväljavõtte kanded**. Kanded, mis on märgitud väärtusega **Uus**, sisestatakse hiljem lehelt **Pangaväljavõte**. 
 
 Saate ekslikult vastendatud kannete vastenduse tühistada. Valige vastendatud pangaväljavõtte tehing ja klõpsake käsku **Tühista vastendamine**. Kõik seotud kanded viiakse tagasi vastendamata kannete ülemistesse ruudustikesse ja vastendatud ning vastendamata kogusummasid värskendatakse. 
 

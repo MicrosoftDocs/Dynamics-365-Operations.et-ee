@@ -3,14 +3,14 @@ title: Toote sissetulek ostutellimuste suhtes
 description: Selles artiklis kirjeldatakse mitmesuguseid toodete sisstuleku registreerimise valikuid.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d1b063344d4191facf2ddace5f5c9d592fb0942
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a192688315adb2d83f349c525c5d8f70309375db
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="product-receipt-against-purchase-orders"></a>Toote sissetulek ostutellimuste suhtes
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Selles artiklis kirjeldatakse mitmesuguseid toodete sisstuleku registreerimise valikuid.
@@ -54,7 +56,7 @@ Saate luua ostutellimuse ridu, millel on lubatud valik **Uus põhivara**. See va
 
 Võite valida mitu tellimust ja töödelda kõigi nende tellimuste sissetulekut korraga. Sellist lähenemist ei kasutata kuigi sageli, kuid seda võib olla vaja kasutada, kui hankijal on teile ühes koormas konsolideeritud saadetised. Ostu toote sissetuleku käigus saab kasutada koondvärskenduste tegemise funktsiooni. Koondvärskendused võimaldavad sisestada ühe hankija saatelehe mitme ostutellimuse jaoks.  
 
-Valiku **Otsetarne** korral võidakse koostada ostutellimusi müügitellimusest. Otsetarne kasutamisel ei saabu tooted kunagi teie lattu, vaid hankija viib need otse kliendile. Sellisel juhul kajastatakse sissetulek tavaliselt otse ostutellimusel. Sissetuleku saab vormistada automaatselt, nt elektroonilise andmevahetuse (EDI) integreerimise kaudu hankijaga. Kui tegemist on kontsernisisese ostutellimusega, siis on olemas ka võimalus, et Microsoft Dynamics 365 for Operations automatiseerib kontsernisisese müügitellimuse sissetuleku, kui tarne toimub. Otsetarne kasutamisel käsitletakse tooteid endiselt varudena, kuigi need ei saabu füüsiliselt lattu. Seetõttu, kui toote sissetulek ostutellimusel registreeritakse, värskendatakse müügitellimust automaatselt saatelehe andmetega, nii et üldine varude muutus on 0 (null). Otsetarne stsenaariumide puhul ei tohiks eelregistreerimine vajalik olla. Kui kasutate ladusid, milles on lubatud laohaldus, võite litsentsiplaadi registreerimise nõudest mööda minna, määrates selle asemel virtuaalse lao. Selle lao saab määrata toote väljal **Otsetarne ladu**. 
+Valiku **Otsetarne** korral võidakse koostada ostutellimusi müügitellimusest. Otsetarne kasutamisel ei saabu tooted kunagi teie lattu, vaid hankija viib need otse kliendile. Sellisel juhul kajastatakse sissetulek tavaliselt otse ostutellimusel. Sissetuleku saab vormistada automaatselt, nt elektroonilise andmevahetuse (EDI) integreerimise kaudu hankijaga. Kui tegemist on kontsernisisese ostutellimusega, siis on olemas ka võimalus, et Microsoft Dynamics 365 for Finance and Operations automatiseerib kontsernisisese müügitellimuse sissetuleku, kui tarne toimub. Otsetarne kasutamisel käsitletakse tooteid endiselt varudena, kuigi need ei saabu füüsiliselt lattu. Seetõttu, kui toote sissetulek ostutellimusel registreeritakse, värskendatakse müügitellimust automaatselt saatelehe andmetega, nii et üldine varude muutus on 0 (null). Otsetarne stsenaariumide puhul ei tohiks eelregistreerimine vajalik olla. Kui kasutate ladusid, milles on lubatud laohaldus, võite litsentsiplaadi registreerimise nõudest mööda minna, määrates selle asemel virtuaalse lao. Selle lao saab määrata toote väljal **Otsetarne ladu**. 
 
 Pärast toote sissetuleku töötlemist ostutellimusel määratakse ostutellimuse olekuks **Saadud** näitamaks, et tellimuse arvet võib töödelda. Juba saadud toodete üksikasju saab vaadata lehelt **Toote sissetuleku töölehed**.  
 
@@ -69,7 +71,7 @@ Sellele lehele pääsete tegevusgrupist **Sissetulek** lehel **Ostutellimus**. T
 
 [Ostutellimuse heakskiitmine ja kinnitamine](purchase-order-approval-confirmation.md)
 
-[Hankija arvete ülevaade](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Hankija arvete ülevaade](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

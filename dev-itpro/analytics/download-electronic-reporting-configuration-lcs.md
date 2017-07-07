@@ -3,14 +3,14 @@ title: Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Life
 description: Selles teemas selgitatakse, kuidas laadida teenusest Microsoft Dynamics Lifecycle Services (LCS) alla elektroonilise aruandluse (ER) konfiguratsioone.
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 105843
 ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1e73cd38c33d88feaba825abb64721bc332a4d6e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: be77d76194e9d38589548113cc650599d5af4323
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ Selles teemas selgitatakse, kuidas laadida teenusest Microsoft Dynamics Lifecycl
 
 Selles õpikus selgitatakse, kuidas laadida teenusest Microsoft Dynamics Lifecycle Services (LCS) alla elektroonilise aruandluse (ER) konfiguratsioone.
 
-1.  Logige Dynamics 365 for Operationsisse sisse, kasutades üht järgmistest rollidest.
+1.  Logige Finance and Operationsisse sisse, kasutades üht järgmistest rollidest.
     -   Elektroonilise aruandluse arendaja
     -   Elektroonilise aruandluse funktsionaalne konsultant
     -   Süsteemiadministraator
@@ -55,7 +55,7 @@ Selles õpikus selgitatakse, kuidas laadida teenusest Microsoft Dynamics Lifecyc
 6.  Valitud hoidla ER-i konfiguratsioonide loendi vaatamiseks klõpsake käsku **Ava**. [![ms-i-elektroonilise-aruandluse-värskendamine-lcs-ist-lcs-i-hoidla-loomine](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Valige vasakul paanil konfiguratsioonide puus soovitud ER-i konfiguratsioon.
 8.  Kiirkaardil **Versioonid** valige valitud ER-i konfiguratsiooni nõutav versioon.
-9.  Klõpsake käsku **Impordi**, et laadida valitud versioon LCS-ist alla Dynamics 365 for Operationsi praegusesse eksemplari. **Märkus.** Nupp **Impordi** ei ole saadaval ER-i konfiguratsiooni versioonide puhul, mis on juba Dynamics 365 for Operationsi praeguses eksemplaris olemas. [![ms-i-elektroonilise-aruandluse-värskendamine-konfiguratsiooni-allalaadimine](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  Klõpsake käsku **Impordi**, et laadida valitud versioon LCS-ist alla Finance and Operationsi praegusesse eksemplari. **Märkus.** Nupp **Impordi** ei ole saadaval ER-i konfiguratsiooni versioonide puhul, mis on juba Dynamics 365 for Finance and Operationsi praeguses eksemplaris olemas. [![ms-i-elektroonilise-aruandluse-värskendamine-konfiguratsiooni-allalaadimine](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 **Märkus.** Olenevalt ER-i sätetest kontrollitakse konfiguratsioone pärast importimist. Võib-olla teavitatakse teid leitud vasturääkivustest. Probleemid tuleb enne imporditud konfiguratsiooni versiooni kasutamist lahendada. Lisateavet vaadaje selle teemaga seotud artiklite loendist.
 

@@ -1,9 +1,9 @@
 ---
 title: Eelarve plaanimine
-description: "Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Operations funktsiooni värskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub täpsemalt järgmistele äriprotsessidele või ülesannetele: - organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine - eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine - eelarve plaanimise protsessi loomine ja aktiveerimine - eelarveplaani dokumendi loomine pearaamatust tegelikke kulusid tõmmates - eraldamiste kasutamine eelarveplaani dokumendi andmete korrigeerimiseks - eelarveplaani dokumendi andmete redigeerimine Excelis"
+description: "Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni funktsiooni uuendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub täpsemalt järgmistele äriprotsessidele või ülesannetele: - organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine - eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine - eelarve plaanimise protsessi loomine ja aktiveerimine - eelarveplaani dokumendi loomine pearaamatust tegelikke kulusid tõmmates - eraldamiste kasutamine eelarveplaani dokumendi andmete korrigeerimiseks - eelarveplaani dokumendi andmete redigeerimine Excelis"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Operations funktsiooni värskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub täpsemalt järgmistele äriprotsessidele või ülesannetele: - organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine - eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine - eelarve plaanimise protsessi loomine ja aktiveerimine - eelarveplaani dokumendi loomine pearaamatust tegelikke kulusid tõmmates - eraldamiste kasutamine eelarveplaani dokumendi andmete korrigeerimiseks - eelarveplaani dokumendi andmete redigeerimine Excelis 
+Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni funktsiooni uuendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub täpsemalt järgmistele äriprotsessidele või ülesannetele: - organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine - eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine - eelarve plaanimise protsessi loomine ja aktiveerimine - eelarveplaani dokumendi loomine pearaamatust tegelikke kulusid tõmmates - eraldamiste kasutamine eelarveplaani dokumendi andmete korrigeerimiseks - eelarveplaani dokumendi andmete redigeerimine Excelis 
 
 <a name="prerequisites"></a>Eeltingimused 
 ------------------
 
-Selle õppetüki saamiseks vajate juurdepääsu Dynamicsi 365 for Operationsi keskkonda Contoso demoandmetega ja peate olema eksemplaris administraatori õigustega. Ärge kasutage selle ülesande puhul privaatbrauseri režiimi – vajaduse korral logige brauseri muust kontost välja ja logige sisse Dynamics 365 for Operationsi administraatori identimisteabega. Dynamics 365 for Operationsisse sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. See loob püsiva küpsise, mida Exceli rakendus praegu vajab. Kui logite Dynamics 365 for Operations sisse muu brauseriga kui IE, siis palutakse teil Exceli rakenduses sisse logida. Exceli rakenduses suvandi Sisselogimine klõpsamine avab IE hüpikakna ja sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. Kui Exceli rakenduses suvandi Sisselogimine klõpsamine midagi ei tee, peaksite IE küpsiste vahemälu tühjendama.
+Selle õppetüki saamiseks vajate juurdepääsu Finance and Operationsi keskkonda Contoso demoandmetega ja peate olema eksemplaris administraatori õigustega. Ärge kasutage selle ülesande puhul privaatbrauseri režiimi – vajaduse korral logige brauseri muust kontost välja ja logige sisse Finance and Operationsi administraatori identimisteabega. Finance and Operationsisse sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. See loob püsiva küpsise, mida Exceli rakendus praegu vajab. Kui logite Finance and Operations sisse muu brauseriga kui IE, siis palutakse teil Exceli rakenduses sisse logida. Exceli rakenduses suvandi Sisselogimine klõpsamine avab IE hüpikakna ja sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. Kui Exceli rakenduses suvandi Sisselogimine klõpsamine midagi ei tee, peaksite IE küpsiste vahemälu tühjendama.
 
 ## <a name="scenario-overview"></a>**Stsenaariumi ülevaade**
 Julia töötab Saksamaa ettevõttes Contoso Entertainment Systems (DEMF) finantshaldurina. FY2016 lähenemisel peab ta töötama eelseisva aasta ettevõtte eelarve seadistamise osas. Eelarve koostamine näeb välja järgmine.
@@ -148,7 +148,7 @@ Eelarveplaani veerud on kas valuuta- või kogusepõhised veerud, mida saab kasut
 
 [![Automaattäide](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Naaske Dynamics 365 for Operationsisse ja värskendage lehte. Avaldatud väärtused kuvatakse rakenduses Dynamics 365 for Operations. 
+4.7. Naaske Finance and Operationsisse ja uuendage lehte. Avaldatud väärtused kuvatakse rakenduses Finance and Operations. 
 
 [![Värskendamine](./media/screenshot23.png)](./media/screenshot23.png)
 
@@ -231,9 +231,9 @@ Eelmise aasta tegelikud summad kopeeritakse praeguse aasta eelarvesse ja eraldat
 
 9.2. Exceli töövihiku avamisel korrigeerige eelarveplaani dokumendi arve ja klõpsake nuppu Avalda.
 
-[![Avalda](./media/screenshot36.png)](./media/screenshot36.png)
+[![Avaldamine](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Naaske Dynamics 365 for Operationsi eelarveplaani dokumenti. Klõpsake dokumendi automaatseks heakskiitmiseks valikuid Töövoog &gt; Esita.
+9.3. Naaske Finance and Operationsi eelarveplaani dokumenti. Klõpsake dokumendi automaatseks heakskiitmiseks valikuid Töövoog &gt; Esita.
 
 [![Automaatne heakskiitmine](./media/screenshot37.png)](./media/screenshot37.png) 
 

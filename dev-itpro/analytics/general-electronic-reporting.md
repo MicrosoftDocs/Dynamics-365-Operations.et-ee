@@ -3,7 +3,7 @@ title: "Elektroonilise aruandluse ülevaade"
 description: "Artikkel annab ülevaate elektroonilise aruandluse (ER) tööriista kohta. Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/15/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: caa9f4c73f4c6b5b7637b5b012bd9ed3b7dd6392
+ms.sourcegitcommit: cebd1b6f041e18c2e016142aba7447bf813f570b
+ms.openlocfilehash: f6327b339441f2f1f6d4e557e45d085685245a08
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -32,138 +32,239 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Artikkel annab ülevaate elektroonilise aruandluse (ER) tööriista kohta. Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana.
+Teema annab ülevaate elektroonilise aruandluse (ER) tööriista kohta. Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana.
 
-Elektrooniline aruandlus (ER) on vahend, mille abil saate seadistada elektrooniliste dokumentide vorminguid mitmesuguste riikide/regioonide seadusenõuete kohaselt. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Näiteks saate võtta vastu õigusaktidega kehtestatud uusi nõudeid ja koostada nõutud vormingus äridokumente teabe elektrooniliseks vahetamiseks valitsusasutuste, pankade ja muude osapooltega. ER-i mootor on suunatud arendajate asemel ärikasutajatele. Kuna seadistate vorminguid ja mitte koodi, on elektrooniliste dokumentide loomise ja kohandamise protsessid kiiremad ja lihtsamad. ER toetab praegu töölehevorminguid TEXT, XML ja OPENXML. Kuid laiendusliides toetab suuremat vormingute arvu.
+Elektrooniline aruandlus (ER) on vahend, mille abil saate seadistada nii sissetulevate kui ka väljaminevate elektrooniliste dokumentide vorminguid mitmesuguste riikide/regioonide seadusenõuete kohaselt. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Näiteks saate võtta vastu õigusaktidega kehtestatud uusi nõudeid ja koostada nõutud vormingus äridokumente teabe elektrooniliseks vahetamiseks valitsusasutuste, pankade ja muude osapooltega.
+
+ER-i mootor on suunatud arendajate asemel ärikasutajatele. Kuna seadistate koodi asemel vorminguid, on elektrooniliste dokumentide loomise ja kohandamise protsessid kiiremad ja lihtsamad.
+
+ER toetab praegu vorminguid TEXT, XML, Microsoft Wordi dokumente ja OPENXML-i töölehevorminguid. Kuid laiendusliides toetab täiendavaid vorminguid.
 
 ## <a name="capabilities"></a>Võimalused
 ER-i mootoril on järgmised võimalused.
 
--   See on üks ühtne tööriist elektrooniliseks aruandluseks erinevates domeenides ja asendab enam kui 20 erinevat mootorit, mis Microsoft Dynamics 365 for Operationsis teatud tüüpi elektroonilise aruandlusega tegelevad.
--   See isoleerib aruande vormingu praegusest Dynamics 365 for Operationsi versioonist. (Teisisõnu: seda vormingut saab rakendada Dynamics 365 for Operationsi erinevatele versioonidele.)
--   See toetab algsel vormingul põhineva kohandatud vormingu loomist. See sisaldab võimalusi kohandatud vormingu automaatseks versioonitäienduseks, kui algses vormingus tehakse muudatusi, kuna kasutusele on võetud lokaliseerimise/kohandamise nõuded.
--   Sellest saab esmane standardtöövahend elektroonilise aruandluse lokaliseerimisnõuete toetamiseks – nii Microsofti kui ka Microsofti partnerite jaoks.
--   See toetab võimalust levitada vorminguid partneritele ja klientidele Microsoft Dynamicsi teenuse Lifecycle Services (LCS) kaudu.
+- See on üks jagatud tööriist elektrooniliseks aruandluseks erinevates domeenides ja asendab enam kui 20 mitmesugust mootorit, mis Microsoft Dynamics 365 for Operationsis teatud tüüpi elektroonilise aruandlusega tegelevad.
+- See isoleerib aruande vormingu praegusest Dynamics 365 for Operationsi versioonist. Teisisõnu: seda vormingut saab rakendada Dynamics 365 for Operationsi erinevatele versioonidele.
+- See toetab algsel vormingul põhineva kohandatud vormingu loomist. See sisaldab ka võimalusi kohandatud vormingu automaatseks versioonitäienduseks, kui algset vormingut muudetakse, kuna kasutusele on võetud lokaliseerimise/kohandamise nõuded.
+- Sellest saab esmane standardtöövahend elektroonilise aruandluse lokaliseerimisnõuete toetamiseks – nii Microsofti kui ka Microsofti partnerite jaoks.
+- See toetab võimalust levitada vorminguid partneritele ja klientidele Microsoft Dynamicsi teenuse Lifecycle Services (LCS) kaudu.
 
-## <a name="concepts"></a>Mõisted
+## <a name="key-concepts"></a>Põhimõisted
 ### <a name="components"></a>Komponendid
 
-ER toetab kahte tüüpi komponente: **Andmemudel**ja **Vorming**.
+ER toetab kahte tüüpi komponente: **Andmemudel** ja **Vorming**.
 
 #### <a name="data-model-components"></a>Andmemudeli komponendid
 
-Andmemudeli komponent on andmestruktuuri abstraktne esitus ja seda kasutatakse teatud äridomeeni piirkonna kirjeldamiseks piisava üksikasjalikkusega, et rahuldada selle domeeni aruandluse nõudeid. Andmemudeli komponent koosneb järgmistest osadest:
+Andmemudeli komponent on andmestruktuuri abstraktne kujutis. Seda kasutatakse konkreetse äridomeeni piirkonna kirjeldamiseks piisavalt üksikasjalikult, et rahuldada selle domeeni aruandlusvajadusi. Andmemudeli komponent koosneb järgmistest osadest:
 
--   andmemudel domeenipõhiste äriüksuste kogumina ja nende üksuste vaheline hierarhiliselt struktureeritud suhtemääratlus;
--   mudeli vastendus, mis seob valitud Microsoft Dynamics 365 for Operationsi andmeallikad andmemudeli eraldi elementidega, mis määrab käitusajal andmemudelikomponendile andmevoo ja äriandmete populatsiooni reeglid.
+- andmemudel domeenipõhiste äriüksuste kogumina ja nende üksuste vaheline hierarhiliselt struktureeritud suhtemääratlus;
+- mudeli vastendus, mis seob valitud Microsoft Dynamics 365 for Operationsi andmeallikad andmemudeli eraldi elementidega, mis määrab käitusajal andmemudelikomponendile andmevoo ja äriandmete populatsiooni reeglid.
+Andmemudeli äriüksus on esindatud konteinerina (kirje). Äriüksuse atribuudid on esindatud andmeüksustena (väljad). Igal andmeüksusel on kordumatu nimi, silt, kirjeldus ja väärtus. Iga andmeüksuse väärtus võib olla sellise ülesehitusega, et see tuvastatakse stringi, täisarvu, reaalarvu, kuupäeva, loetelu, kahendväärtusena jne. See võib olla ka teine kirje või kirjete loend.
 
-Andmemudeli äriüksus on esindatud konteinerina (kirje). Äriüksuse atribuudid on esindatud andmeüksustena (väljad). Igal andmeüksusel on kordumatu nimi, silt, kirjeldus ja väärtus. Iga andmeüksuse väärtus võib olla sellise ülesehitusega, et see tuvastatakse stringi, täisarvu, reaalarvu, kuupäeva, loetelu tüübi, kahendväärtusena jne, . See võib olla ka teine kirje või kirjete loend. Üksik andmemudelikomponent võib sisaldada mitmeid domeenipõhiste äriüksuste hierarhiaid ja mudelivastendusi, mis toetavad käitamisel konkreetse aruande põhist andmevoogu. Hierarhiaid eristatakse ühe kirjega, mis on valitud mudelivastenduse juurena. Näiteks võib maksedomeeni ala andmemudel toetada järgmisi vastendusi:
+Üksik andmemudeli komponent võib sisaldada mitut domeenipõhiste äriüksuste hierarhiat. See võib sisaldada ka mudelivastendusi, mis toetavad käitusajal aruandepõhist andmevoogu. Hierarhiaid eristatakse ühe kirjega, mis on valitud mudelivastenduse juurena. Näiteks võib maksedomeeni ala andmemudel toetada järgmisi vastendusi:
 
--   ettevõte -&gt; hankija -&gt; AP-domeeni maksekanded
--   klient -&gt; ettevõte -&gt; AR-domeeni maksekanded
+- ettevõte > hankija > AP-domeeni maksekanded
+- klient > ettevõte > AR-domeeni maksekanded
 
-Arvestage, et äriüksused (nt ettevõte ja maksekanded) kavandatakse ühe korra. Seejärel kasutavad neid erinevad vastendused. Mudelivastendusel on järgmised võimalused.
+Arvestage, et äriüksused (nt ettevõte ja maksekanded) kavandatakse ühe korra. Seejärel kasutavad neid erinevad vastendused.
 
--   See võib kasutada andmemudeli andmeallikatena erinevaid Dynamics 365 for Operationsi andmetüüpe. Näiteks võib see kasutada tabeleid, andmeüksus, meetodeid või loetelusid.
--   See toetab kasutaja sisendparameetreid, mida saab määratleda andmemudeli andmeallikatena, kui mõningad andmed on vaja määratleda käitusajal.
--   See toetab Dynamics 365 for Operationsi andmete teisendamist vajalikesse rühmadesse, filtreerides, sortides ja summeerides andmeid ning sidudes neid loogiliste arvutatud väljadega, mis on koostatud Microsoft Exceli sarnaste valemite kaudu (lisateavet leiate jaotisest [Valemikoostur elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)).
+Väljaminevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised võimalused.
 
-[![Exceli sarnane valemiredaktor](./media/pic-formula-1024x615.png)](./media/pic-formula.png) Igale äridomeenile on koostatud andmemudeli komponent, mida tuleb kasutada ühtse andmeallikana aruandluseks, mis eraldab aruandlust Microsoft Dynamics 365 for Operationsi andmeallikate füüsilisest juurutamisest ja kajastab domeenipõhiseid ärikontseptsioone ja funktsioone vormis, mis teeb aruandluse vormingu algse kujunduse ja edaspidise hooldamise tõhusamaks.
+- See võib kasutada andmemudeli andmeallikatena erinevaid Dynamics 365 for Operationsi andmetüüpe. Näiteks võib see kasutada tabeleid, andmeüksus, meetodeid või loetelusid.
+- See toetab kasutaja sisendparameetreid, mida saab määratleda andmemudeli andmeallikatena, kui mõningad andmed on vaja määratleda käitusajal.
+- See toetab Dynamics 365 for Operationsi andmete teisendamise vajalikesse gruppidesse. Samuti võimaldab see filtreerida, sortida ja summeerida andmeid ning lisada loogilisi arvutatud välju, mis on kavandatud Microsoft Exceli valemitele sarnanevate valemite kaudu, nagu on näidatud järgmisel illustratsioonil. Lisateavet leiate jaotisest [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)).
 
-#### <a name="format-components"></a>Vormingu komponendid
+[![Valemikoostaja](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
+
+Sissetulevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised võimalused.
+
+- See võib kasutada sihtüksusena erinevaid Dynamics 365 for Operationsi uuendatavaid andmeelemente. Nende andmeelementide hulka kuuluvad tabelid, andmeüksused ja vaated. Andmeid saab uuendada sissetulevate elektrooniliste dokumentide andmete abil. Ühe mudeli vastenduses saab kasutada mitut sihtüksust.
+- See toetab kasutaja sisendparameetreid, mida saab määratleda andmemudeli andmeallikatena, kui mõningad andmed on vaja määratleda käitusajal.
+Andmemudeli komponent on kavandatud igale äridomeenile, mida tuleks kasutada ühtlustatud andmeallikana aruandluse jaoks, mis eraldab aruandluse Dynamics 365 for Operationsi andmeallikate füüsilisest juurutusest. See kajastab domeenipõhiseid ärikontseptsioone ja funktsioone sellisel kujul, mis teeb aruandlusvormingu algse koostamise ja edasise haldamise tõhusamaks.
+
+#### <a name="format-components-for-outgoing-electronic-documents"></a>Väljaminevate elektrooniliste dokumentide vormingukomponendid
 
 Vormingu komponent on käitusajal loodava aruandlusväljundi skeem. Skeem koosneb järgmistest osadest:
 
--   vorming, mis määratleb käitusajal loodud elektroonilise aruandluse dokumendi struktuuri ja sisu;
--   andmeallikad kasutaja väljundi parameetrite ja domeenipõhise andmemudeli kogumina, mis kasutab valitud mudelivastendust;
--   vormingu vastendamine vormingu andmeallikate seoste kogumina, millel on vormingu üksikud elemendid, mis määravad käitusajal andmevoo ja vormingu väljundi loomise reeglid;
--   Vormingu kinnitamine konfigureeritavate reeglite kogumina, mis juhivad käitusajal aruande koostamist, olenevalt jooksvast kontekstist (nt reegel, mis peatab hankija maksete väljundi koostamise ja annab erandi, kui valitud hankija konkreetsed atribuudid (nt pangakonto) puuduvad).
+- vorming, mis määratleb käitusajal loodud väljamineva elektroonilise dokumendi struktuuri ja sisu;
+- andmeallikad kasutaja väljundi parameetrite ja domeenipõhise andmemudeli kogumina, mis kasutab valitud mudelivastendust;
+- vormingu vastendamine vormingu andmeallikate seoste kogumina, millel on vormingu üksikud elemendid, mis määravad käitusajal andmevoo ja vormingu väljundi loomise reeglid;
+- vormingu kinnitamine konfigureeritavate reeglite kogumina, mis juhib käitamisel aruande loomist olenevalt käitatavast kontekstist. Näiteks võib olla olemas reegel, mis peatab hankija maksete väljundi loomise ja annab erandi, kui valitud hankija konkreetsed atribuudid (nt pangakonto number) on puudu.
 
 Vormingukomponent toetab järgmisi funktsioone.
 
--   Aruandluse väljundi loomine eraldi failidega mitmesugustes vormingutes: tekst, XML või tööleht
--   Mitme faili eraldi loomine ja nende failide kapseldamine zip-failidesse
+- Aruandluse väljundi loomine eraldi failidega mitmesugustes vormingutes, nt tekst, XML, Microsoft Wordi dokument või tööleht.
+- Mitme faili eraldi loomine ja nende failide kapseldamine zip-failidesse.
 
-Vormingukomponent annab võimaluse manustada konkreetseid faile, mida saab aruandlusväljundis järgmiselt kasutada:
+Vormingukomponent võimaldab manustada konkreetseid faile, mida saab aruandlusväljundis järgmiselt kasutada:
 
--   Exceli töövihikud, mis sisaldavad töölehte, mida saab kasutada töölehevormingu OPENXML väljundi mallina;
--   muud failid, mida saab vormingu väljundisse eelmääratletud failidena lisada.
+- Exceli töövihikud, mis sisaldavad töölehte, mida saab kasutada töölehevormingu OPENXML väljundi mallina;
+- Wordi failid, mis sisaldavad dokumenti, mida saab kasutada Microsoft Wordi dokumendivormingu väljundi mallina;
+- muud failid, mida saab vormingu väljundisse eelmääratletud failidena lisada.
+
+Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
+
+[![Väljaminevate vormingukomponentide andmevoog](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+
+Ühe ER-vormingukonfiguratsiooni käitamiseks ja väljamineva elektroonilise dokumendi koostamiseks tuleb tuvastada vormingukonfiguratsiooni vastendus.
+
+#### <a name="format-components-for-incoming-electronic-documents"></a>Sissetulevate elektrooniliste dokumentide vormingukomponendid
+Vormingukomponent on käitusajal imporditava sissetuleva dokumendi skeem. Skeem koosneb järgmistest osadest:
+
+- vorming, mis määratleb käitusajal imporditud andmeid sisaldava sissetuleva elektroonilise dokumendi struktuuri ja sisu. Vormingukomponenti kasutatakse sissetuleva dokumendi sõelumiseks mitmesugustes vormingutes, nt tekst ja XML.
+- Vormi vastendus, mis seob eraldi vormielemente domeenipõhise andmemudeli elementidega. Käitusajal määravad andmemudeli elemendid andmevoo ja reeglid andmete importimiseks sissetulevast dokumendist ning salvestavad siis andmed andmemudelisse.
+- Vormingu kinnitamine konfigureeritavate reeglite kogumina, mis juhib käitamisel andmete importimist olenevalt käitatavast kontekstist. Näiteks võib olla olemas reegel, mis peatab hankija maksetega pangaväljavõtte andmeimpordi ja annab erandi, kui hankija konkreetsed atribuudid (nt hankija ID-kood) on puudu.
+
+Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
+
+[![Sissetulevate vormingukomponentide andmevoog](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+
+Ühe ER-vormingukonfiguratsiooni käitamiseks, et importida andmeid sissetulevast elektroonilisest dokumendist, tuleb tuvastada vormingukonfiguratsiooni soovitud vastendus ja samuti mudeli vastenduse integratsioonipunkt. Sama mudeli vastendust ja sihtkohti saab kasutada koos erinevate vormingutega erinevat tüüpi sissetulevate dokumentide puhul.
 
 #### <a name="component-versioning"></a>Komponendi versioonimine
 
 ER-komponentide puhul toetatakse versioonimist. Järgmist töövoogu pakutakse ER-i komponentides muudatuste haldamiseks.
 
--   Algselt loodud versioon on märgitud versioonina **MUSTAND**. Seda versiooni saab redigeerida ja see on proovimiseks saadaval.
--   Versiooni**MUSTAND** saab teisendada versiooniks **LÕPULE VIIDUD**. Seda versiooni saab kasutada kohalikes aruandlusprotsessides.
--   Versiooni **LÕPULE VIIDUD** saab teisendada versiooniks **JAGATUD**. See versioon avaldatakse LCS-is ja seda saab kasutada üldistes aruandlusprotsessides. See versioon avaldatakse LCS-is ja seda saab kasutada üldistes aruandlusprotsessides.
--   Versiooni **JAGATUD**saab teisendada versiooniks **KATKESTATUD**. Seejärel saab selle versiooni kustutada.
+1. Algselt loodud versioon on märgitud versioonina **Mustand**. Seda versiooni saab redigeerida ja see on proovimiseks saadaval.
+2. Versiooni **Mustand** saab teisendada versiooniks **Lõpule viidud**. Seda versiooni saab kasutada kohalikes aruandlusprotsessides.
+3. Versiooni **Lõpule viidud** saab teisendada versiooniks **Jagatud**. See versioon avaldatakse LCS-is ja seda saab kasutada üldistes aruandlusprotsessides.
+4. Versiooni **Jagatud** saab teisendada versiooniks **Katkestatud**. Seejärel saab selle versiooni kustutada.
 
-Versioonid olekus** LÕPULE VIIDUD** või **JAGATUD** on saadaval muuks andmevahetuseks. Nende olekutega komponentidega saab teha neid toiminguid:
+Versioonid olekus **Lõpule viidud** või **Jagatud** on saadaval muuks andmevahetuseks. Nende olekutega komponentidega saab teha järgmisi toiminguid.
 
--   neid saab XML-vormingus järjestada ja eksportida Dynamics 365 for Operationsist XML-vormingus failina.
--   Neid saab ümber järjestada ja importida Dynamics 365 for Operationsi ER-komponendi uue versioonina.
+- Komponenti saab XML-vormingus järjestada ja eksportida Dynamics 365 for Operationsist XML-vormingus failina.
+- Komponenti saab ümber järjestada ja importida Dynamics 365 for Operationsi ER-komponendi uue versioonina.
 
 #### <a name="component-date-effectivity"></a>Komponendi kehtivuskuupäev
 
-ER-i komponendi versioonid on kehtivuskuupäevaga. ER-i komponendile saab määratleda kuupäeva**Kehtiv alates,**et määrata kuupäev, millal see komponent aruandlusprotsessides jõustub. Dynamics 365 for Operationsi seansi kuupäeva kasutatakse selleks, et määratleda, kas komponent kehtib käivitamiseks. Kui kindlal kuupäeval kehtib mitu versiooni, kasutatakse aruandlusprotsessides uusimat versiooni.
+ER-i komponendi versioonid on kehtivuskuupäevaga. ER-i komponendile saab määratleda kuupäeva **Kehtiv alates**, et määrata kuupäev, millal see komponent aruandlusprotsessides jõustub. Dynamics 365 for Operationsi seansi kuupäeva kasutatakse selleks, et määratleda, kas komponent kehtib käivitamiseks. Kui kindlal kuupäeval kehtib mitu versiooni, kasutatakse aruandlusprotsessides uusimat versiooni.
 
 #### <a name="component-access"></a>Komponendi juurdepääs
 
-Juurdepääs ER-i vormingu komponentidele sõltub ISO riigi/regiooni koodi seadistusest. Kui see seadistus on vormingu konfiguratsiooni valitud versiooni puhul tühi, on võimalik käitusajal igast Dynamics 365 for Operationsi ettevõttest vormingukomponendile juurde pääseda. kui see seadistus sisaldab ISO riigi/regiooni koode, siis on vormingukomponent saadaval ainult nendest Dynamics 365 for Operationsi ettevõtetest, millel on esmane aadress, mis on määratletud ühele vormingukomponendi ISO riigi/regiooni koodile. Andmevormingu komponendi erinevatel versioonidel võivad olla erinevad ISO riigi/regiooni koodide sätted.
+Juurdepääs ER-i vormingu komponentidele sõltub ISO riigi/regiooni koodi seadistusest. Kui see seadistus on vormingu konfiguratsiooni valitud versiooni puhul tühi, on võimalik käitusajal igast Dynamics 365 for Operationsi ettevõttest vormingukomponendile juurde pääseda. kui see seadistus sisaldab ISO riigi/regiooni koode, siis on vormingukomponent saadaval ainult nendest Dynamics 365 for Operationsi ettevõtetest, millel on esmane aadress, mis on määratletud ühele vormingukomponendi ISO riigi/regiooni koodile.
+
+Andmevormingu komponendi erinevatel versioonidel võivad olla erinevad ISO riigi/regiooni koodide sätted.
 
 #### <a name="configuration"></a>Konfiguratsioon
 
-ER-i konfiguratsioon on konkreetse ER-i komponendi ümbris: kas **Andmemudel**või **Vorming**. Konfiguratsioon võib sisaldada kindla ER-i komponendi erinevaid versioone. Iga konfiguratsiooni omanikuks on märgitud kindel konfigurasiooni pakkuja. Konfiguratsiooni komponendi versiooni **MUSTAND** saab redigeerida, kui konfiguratsiooni omanik on valitud Dynamics 365 for Operationsi ER-i sätetes aktiivseks teenusepakkujaks. Iga mudelikonfiguratsioon sisaldab komponenti **Andmemudel**. Uus vormingukonfiguratsioon võib pärineda (olla tuletatud) konkreetsest andmemudeli konfiguratsioonist. Loodud vormingukonfiguratsioon esitatakse konfiguratsioonipuul algse andmemudeli konfiguratsiooni allüksusena. Loodud vormingukonfiguratsioon sisaldab komponenti **Vorming**. Algse mudelikonfiguratsiooni komponent **Andmemudel** lisatakse vaike-andmeallikana automaatselt alamvormingu konfiguratsiooni komponenti **Vorming**. Dynamics 365 for Operationsi ettevõtted jagavad ER-i konfiguratsiooni.
+ER-i konfiguratsioon on konkreetse ER-i komponendi ümbris. See komponent võib olla andmemudeli komponent või vormingukomponent. Konfiguratsioon võib sisaldada ER-i komponendi erinevaid versioone. Iga konfiguratsiooni omanikuks on märgitud kindel konfiguratsiooni pakkuja. Konfiguratsiooni komponendi versiooni **Mustand** saab redigeerida, kui konfiguratsiooni omanik on valitud Dynamics 365 for Operationsi ER-i sätetes aktiivseks teenusepakkujaks.
+
+Iga mudelikonfiguratsioon sisaldab andmemudeli komponenti. Uue vormingukonfiguratsiooni võib tuletada konkreetsest andmemudeli konfiguratsioonist. Loodud vormingukonfiguratsioon kuvatakse konfiguratsioonipuul algse andmemudeli konfiguratsiooni allüksusena.
+
+Loodud vormingukonfiguratsioon sisaldab vormingukomponenti. Algse mudelikonfiguratsiooni andmemudeli komponent lisatakse vaike-andmeallikana automaatselt alamvormingu konfiguratsiooni vormingukomponenti.
+
+Dynamics 365 for Operationsi ettevõtted jagavad ER-i konfiguratsiooni.
 
 #### <a name="provider"></a>Pakkuja
 
 ER-i pakkuja on osapoole ID, mida kasutatakse iga ER-i konfiguratsiooni autori (omaniku) tähistamiseks. ER võimaldab hallata konfiguratsioonipakkujate loendit. Elektroonilistele dokumentidele Dynamics 365 for Operationsi lahenduse osana väljastatud vormingukonfiguratsioonide omanikuks märgitakse konfiguratsioonipakkuja **Microsoft**.
 
+Uue ER-i pakkuja registreerimise kohta saate juhised, kui esitate tegevusjuhise **Elektrooniline aruandlus. Konfiguratsioonipakkuja loomine ja aktiivseks märkimine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
+
 #### <a name="repository"></a>Hoidla
 
-ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroonilise aruandluse hoidlate tüüpe: **operatsiooniressursid** ja **LCS-i projekt**. Hoidla** Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loendile, mis on väljastatud Microsofti kui ER-i konfiguratsioonipakkuja Dynamics 365 for Operationsi lahenduse osana. Need konfiguratsioonid saab praegusesse Dynamics 365 for Operationsi eksemplari importida ja elektroonilise aruandluse jaoks kasutada. Neid saab kasutada ka täiendavaks lokaliseerimiseks/kohandamiseks. Hoidla **LCS-i projekt**võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimise etapis. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist Dynamics 365 for Operationsi eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka konkreetsest hoidlast **LCS-i projekt** praegusesse Dynamics 365 for Operationsi eksemplari. Vajalikke hoidlaid **LCS-i projekt** saab registreerida eraldi iga praeguse Dynamics 365 for Operationsi eksemplari konfiguratsioonipakkuja kohta. Iga hoidla saab eraldada konkreetsele konfiguratsioonipakkujale.
+ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse kahte elektroonilise aruandluse hoidlate tüüpi: **Operatsiooniressursid** ja **LCS-i projekt**.
+
+Hoidla **Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loendile, mille on väljastanud Microsoft kui ER-i konfiguratsioonipakkuja Dynamics 365 for Operationsi lahenduse osana. Need konfiguratsioonid saab praegusesse Dynamics 365 for Operationsi eksemplari importida ja elektroonilise aruandluse jaoks kasutada. Neid saab kasutada ka täiendavaks lokaliseerimiseks ja kohandamiseks.
+
+Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimise etapis. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist Dynamics 365 for Operationsi eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka **LCS-i projekti** hoidlast praegusesse Dynamics 365 for Operationsi eksemplari.
+
+Vajalikke hoidlaid **LCS-i projekt** saab registreerida eraldi iga praeguse Dynamics 365 for Operationsi eksemplari konfiguratsioonipakkuja kohta. Iga hoidla saab eraldada konkreetsele konfiguratsioonipakkujale.
 
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 ### <a name="building-a-data-model"></a>Andmemudeli loomine
 
-ER pakub mudelikoosturit, mida saab kasutada konkreetsele äridomeenile andmemudeli koostamiseks. Kõiki domeenipõhiseid äriüksusi ja nendevahelisi suhteid saab esitleda andmemudelis hierarhilise struktuurina. Järgmisel joonisel on näide seda tüüpi andmemudeli (maksedomeeni andmemudeli) kohta. [![Andmemudeli näide](./media/pic-data-model-1024x550.png)](./media/pic-data-model.png) Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise andmemudeli kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
+ER pakub mudelikoosturit, mida saab kasutada konkreetsele äridomeenile andmemudeli koostamiseks. Kõiki domeenipõhiseid äriüksusi ja nendevahelisi suhteid saab esitleda andmemudelis hierarhilise struktuurina. Järgmisel joonisel on näide seda tüüpi andmemudeli (maksedomeeni andmemudeli) kohta. 
+
+[![Maksedomeeni andmemudel](./media/ER-overview-04.png)](./media/ER-overview-04.png)
+
+Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise andmemudeli kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
 ### <a name="translating-data-model-content"></a>Andmemudeli sisu tõlkimine
 
-Andmemudeli sisu (sildid ja kirjeldused) saab tõlkida teistesse keeltesse, mida Dynamics 365 for Operations toetab. Andmemudeli sisu võib olla vaja tõlkida järgmistel põhjustel:
+Andmemudeli sisu (sildid ja kirjeldused) saab tõlkida teistesse keeltesse, mida Finance and Operations toetab. Andmemudeli sisu võib olla vaja tõlkida järgmistel põhjustel:
 
--   selleks, et muuta see koostamisel arusaadavamaks teist keelt rääkivatele vormingu koostajatele, kes kasutavad vormingukomponentide andmevastenduseks andmemudelit;
--   et muuta sisu käitusajal kasutajasõbralikumaks, esitades viibad ja käitamisparameetrite spikri ning konfigureeritud kinnitusteated (tõrked ja hoiatused) Dynamics 365 for Operationsisse sisselogitud kasutaja eelistatud keeles.
+-   selleks, et muuta see koostamisel arusaadavamaks teisi keeli rääkivatele vormingu koostajatele, kes kasutavad vormingukomponentide andmevastenduseks andmemudelit;
+-   et muuta sisu käitusajal kasutajasõbralikumaks, esitades viibad ja käitamisparameetrite spikri ning konfigureeritud kinnitusteated (tõrked ja hoiatused) sisselogitud kasutaja eelistatud keeles.
 
-Järgmisel joonisel on näide selle kohta, kuidas andmemudeli sisu saab tõlkida inglise keelest jaapani keelde. [![Andmemudeli sisu inglise keeles](./media/pic-translate-en-1024x495.png)](./media/pic-translate-en.png) [![Jaapani keelde tõlgitud andmemudeli sisu](./media/pic-translate-ja-1024x495.png)](./media/pic-translate-ja.png)
+Järgmisel joonisel on näide, milles andmemudeli sisu on tõlgitud inglise keelest jaapani keelde. 
 
-### <a name="configuring-data-model-mappings"></a>Andmemudeli vastendamiste konfigureerimine
+[![Andmemudeli sisu inglise keeles](./media/ER-overview-05.png)](./media/ER-overview-05.png)
 
-ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete Dynamics 365 for Operationsi andmeallikatega. Järgmisel illustratsioonil on sellise andmemudeli vastendamise näidis (**SEPA kreeditiülekande** mudeli vastendus maksedomeeni andmemudeliga). [![Andmemudeli vastenduse näide ](./media/pic-model-mapping-1024x551.png)](./media/pic-model-mapping.png) Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhised **Elektroonilise aruandluse mudeli vastenduse määratlemine ja andmeallikate valimine** ja **Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatega** (osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)**).
+[![Jaapani keelde tõlgitud andmemudeli sisu](./media/ER-overview-06.png)](./media/ER-overview-06.png)
+
+
+### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Andmemudeli vastenduste konfigureerimine väljaminevate dokumentide puhul
+
+ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete Finance and Operationsi andmeallikatega. Vastenduse põhjal imporditakse andmed käitusajal valitud andmeallikatest andmemudelisse. Seejärel kasutatakse andmemudelit väljaminevaid elektroonilisi dokumente loovate ER-vormingute abstraktse andmeallikana. Järgmisel illustratsioonil on sellise andmemudeli vastendamise näidis (**SEPA kreeditiülekande** mudeli vastendus maksedomeeni andmemudeliga). 
+
+[![Andmemudeli vastenduse näide](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+
+Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhised **Elektroonilise aruandluse mudeli vastenduse määratlemine ja andmeallikate valimine** ja **Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatega** (osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)**).
+
+### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Andmemudeli vastenduste konfigureerimine sissetulevate dokumentide puhul
+ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete sihtüksustega. Näiteks saab andmemudeleid vastendada Dynamics 365 for Operationsi uuendatavate andmekomponentidega (tabelid, andmeüksused ja vaated). Vastenduse põhjal uuendatakse käitusajal Dynamics 365 for Operationsi andmeid, kasutades andmemudeli andmeid. ER-i vormingu abstraktse salvestusruumina on andmemudel täidetud sissetulevast elektroonilisest dokumendist imporditud andmetega. Järgmisel joonisel on näide seda tüüpi andmemudeli vastenduse kohta. Selles näites kasutatakse maksedomeeni andmemudeli mudelivastendust **NETS-i impordivastendus** Norra NETS-i vormingus pangaväljavõtete importimise toetamiseks.
+
+[![Impordivastendus NETS-i andmemudeli näite puhul](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Koostatud mudelikomponendi salvestamine mudelikonfiguratsioonina
 
-ER suudab talletada koostatud andmemudeli koos seotud andmevastendustega praeguse Microsoft Dynamics 365 for Operationsi eksemplari mudelikonfiguratsioonina. Järgmisel joonisel on näide seda tüüpi andmemudeli konfiguratsiooni (maksedomeeni andmemudeli konfiguratsiooni) kohta. [![Andmemudeli konfiguratsiooni näide](./media/pic-model-configuration-1024x585.png)](./media/pic-model-configuration.png) Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatega** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
+ER suudab talletada koostatud andmemudeli koos seotud andmevastendustega praeguse Finance and Operationsi eksemplari mudelikonfiguratsioonina. Järgmisel joonisel on näide seda tüüpi andmemudeli konfiguratsiooni (maksedomeeni andmemudeli konfiguratsiooni) kohta. 
+
+Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatega** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Andmemudelit alusena kasutava vormingu koostamine
 
-ER toetab vormingukoosturit, mida võite kasutada valitud äridomeenile konkreetse elektroonilise dokumendi vormingu koostamiseks, valides aluseks mudelikomponendi. Sama ER-i vormingukoostur võimaldab teil vastendada vormingu, mille loote, valitud domeeni andmemudeli vastendusega andmeallikana. Järgmisel illustratsioonil on seda tüüpi vormingu näide (vormingukonfiguratsioon, mis toetab Ühendkuningriigi maksevormingut **BACS**). [![Vormingu näide, mille alus on andmemudel](./media/pic-format-1024x690.png)](./media/pic-format.png) Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektrooniline aruandlus. Domeenikohase vormingu koostamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
+ER toetab vormingukoosturit, mida võite kasutada valitud äridomeenile elektroonilise dokumendi vormingu koostamiseks, valides aluseks mudelikomponendi. Sama ER-i vormingukoostur võimaldab teil vastendada vormingu, mille loote, valitud domeeni andmemudeli vastendusega andmeallikana. Järgmisel illustratsioonil on seda tüüpi vormingu näide (vormingukonfiguratsioon, mis toetab Ühendkuningriigi maksevormingut **BACS**). 
+
+[![Vormingu näide, mille alus on andmemudel](./media/ER-overview-09.png)](./media/ER-overview-09.png)
+
+Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise vormingu kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Konfiguratsiooni koostamine elektrooniliste dokumentide loomiseks töölehevormingus OPENXML
 
-Konkreetse elektroonilise dokumendi koostamiseks töölehevormingus OPENXML saab kasutada ER-i vormingukoosturit. Järgmisel illustratsioonil on sellist tüüpi vormingu näide (vormingukonfiguratsioon OPENXML-töölehe loomiseks valitud maksetöölehe andmetega):[![Pic-ER-format-Excel](./media/pic-er-format-excel.jpg)](./media/pic-er-format-excel.jpg) Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa). Kasutage allpool nimetatud Exceli faili mallina ER-i vormingu kujundamisel vormingumalli importimise etapi läbimiseks selles tegevusjuhises: [Maksearuande mall (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+Elektroonilise dokumendi koostamiseks töölehevormingus OPENXML saab kasutada ER-i vormingukoosturit. Järgmisel illustratsioonil on sellist tüüpi vormingu näide (vormingukonfiguratsioon OPENXML-töölehe loomiseks valitud maksetöölehe andmetega).
+
+[![Pic-ER-format-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
+
+Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa). Malli importimise tegevusjuhise toimingu käigus kasutage mallina Exceli faili [Maksearuande mall (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202).
+
+### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Konfiguratsiooni koostamine elektrooniliste dokumentide loomiseks Wordi dokumendi vormingus
+Elektroonilise dokumendi koostamiseks Wordi dokumendi vormingus saab kasutada ER-i vormingukoosturit. Järgmisel joonisel on näide seda tüüpi vormingu vastenduse kohta. Pange tähele, et see vorming taaskasutab olemasolevat elektroonilise aruandluse konfiguratsiooni, mis oli algselt mõeldud aruande väljundi loomiseks OPENXML-vormingus.
+
+[![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
+
+Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis Elektrooniline aruandlus. Microsoft WORD-i vormingus aruannete loomiseks konfiguratsiooni koostamine (äriprotsessi 7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677) osa). Tegevusjuhise malli importimise toimingu käigus kasutage ER-vormingu mallidena järgmisi Wordi faile.
+
+- [Maksearuande mall (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Maksearuande piiratud mall (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+
+### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Konfiguratsiooni koostamine andmete importimiseks sissetulevatest elektroonilistest dokumentidest  
+ER-i vormingukoosturi abil saab kirjeldada elektroonilist dokumenti, mis on mõeldud andmete importimiseks XML- või tekstivormingus. Kavandatud vormingut kasutatakse sissetuleva dokumendi sõelumiseks. ER-i vormingu vastendamise koosturi abil saab määratleda kavandatud vormingu elementide sideme andmemudeliga. Järgmistel joonistel on näide seda tüüpi vormingu ja vorminguvastenduse kohta. Selles näites imporditakse NETS-i pangaväljavõtted, mis sisaldavad hankija makseandmeid teksti kujul.
+
+[![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
+
+[![ER-model-mapping-designer](./media/ER-overview-13.png)](./media/ER-overview-13.png)
+
+Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist (äriprotsessi 7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677) osa). Kasutage selle juhise esitamiseks järgmisi faile.
+
+- [Elektroonilise aruandluse andmemudeli konfiguratsioon (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Elektroonilise aruandluse vormingu konfiguratsioon (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [XML-vormingus sissetuleva dokumendi näidis (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Sissetuleva dokumendi andmete haldamise töövihiku näidis (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Koostatud vormingu komponendi talletamine vormingukonfiguratsioonis
 
-ER suudab talletada koostatud vormingu koos konfigureeritud andmete vastendamistega praeguse Dynamics 365 for Operationsi eksemplari vormingukonfiguratsioonina. Eelneval joonisel on sellist tüüpi vormingukonfiguratsiooni näide (**BACS (UK)**, mis on konfiguratsiooni **Maksemudel**alamkonfiguratsioon). Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise vormingu kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
+ER suudab talletada koostatud vormingu koos konfigureeritud andmete vastendamistega praeguse Finance and Operationsi eksemplari vormingukonfiguratsioonina. Eelneval joonisel on sellist tüüpi vormingukonfiguratsiooni näide (**BACS (UK)**, mis on konfiguratsiooni **Maksemudel** alamkonfiguratsioon). Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise vormingu kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
-### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Dynamics 365 for Operationsi konfigureerimine loodud vormingu ettevõttesiseseks kasutamiseks
+### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Finance and Operationsi konfigureerimine loodud vormingu ettevõttesiseseks kasutamiseks
 
-Dynamics 365 for Operationsit saab konfigureerida kasutama loodud vormingut elektrooniliste aruanne loomiseks. Viide loodud vormingu konfiguratsioonile tuleb määratleda konkreetse domeeni sätetes. Näiteks selleks, et hakata kasutama ER-i vormingukonfiguratsiooni elektrooniliste hankija maksete jaoks vormingus BACS, tuleb vormingukonfiguratsioonile viidata konkreetsetes makseviisides, nagu on näidatud järgmistel illustratsioonidel. 
+Finance and Operationsit saab konfigureerida kasutama loodud vormingut elektrooniliste aruanne loomiseks. Viide loodud vormingu konfiguratsioonile tuleb määratleda konkreetse domeeni sätetes. Näiteks selleks, et hakata kasutama ER-i vormingukonfiguratsiooni elektrooniliste hankija maksete jaoks vormingus BACS, tuleb vormingukonfiguratsioonile viidata konkreetsetes makseviisides, nagu on näidatud järgmistel illustratsioonidel. 
 
-[![BACS (UK) vormingukonfiguratsioon](media/ger-bacs-uk-format-configuration.png) 
+[![BACS (UK) vormingukonfiguratsioon](./media/ER-overview-14.png)](./media/ER-overview-14.png)
 
-[![Vormingule BACS (UK) viitamine makseviisis](media/ger-bacs-uk-format-method.png) 
+[![Vormingule BACS (UK) viitamine makseviisis](./media/ER-overview-15.png)](./media/ER-overview-15.png)
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilises aruandluses maksmiseks elektroonilise dokumendi loomiseks vormingu kasutamine** (osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)**).
 
@@ -174,7 +275,7 @@ Loodud komponendi omanik (mudel või vorming) saab kasutada ER-i komponendi lõp
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>ER-i komponendi importimine LCS-ist ettevõttesiseseks kasutamiseks
 
-ER võimaldab importida ER-i komponente LCS-ist praegusesse Dynamics 365 for Operationsi eksemplari. Selleks on vajalik hoidla tüüp **LCS-i projekt**. Kui ER-i komponent on LCS-ist praegusesse Dynamics 365 for Operationsi eksemplari imporditud, saab selle eksemplari omanikust tarbija teenusele, mida pakub imporditud komponendi omanik (autor). Näiteks kui vormingukomponent on mõeldud Dynamics 365 for Operationsist konkreetse elektroonilise dokumendi koostamiseks riigi-/regioonipõhises vormingus (lokaliseerimisstsenaarium), eeldatakse, et teenuse tarbija suudab hankida sellele vormingule tehtud värskendused, et hoida seda kooskõlas seaduse nõuetega. Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
+ER võimaldab importida ER-i komponente LCS-ist praegusesse Finance and Operationsi eksemplari. Selleks on vajalik hoidla tüüp **LCS-i projekt**. Kui ER-i komponent on LCS-ist praegusesse Finance and Operationsi eksemplari imporditud, saab selle eksemplari omanikust tarbija teenusele, mida pakub imporditud komponendi omanik (autor). Näiteks kui vormingukomponent on mõeldud Finance and Operationsist konkreetse elektroonilise dokumendi koostamiseks riigi-/regioonipõhises vormingus (lokaliseerimisstsenaarium), eeldatakse, et teenuse tarbija suudab hankida sellele vormingule tehtud uuendused, et hoida seda kooskõlas seaduse nõuetega. Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Vormingu koostamine, valides aluseks muu vormingu (kohandamine)
 
@@ -184,7 +285,7 @@ ER võimaldab luua (tuletada) komponendi kehtivast LCS-ist imporditud versioonis
 
 ER võimaldab võtta automaatselt kasutusele aluskomponendi uusima versiooni muudatused praeguses tuletatud komponendi mustandiversioonis. Seda protsessi nimetatakse *aluse muutmiseks*. Näiteks uue seadusandluse muudatuse, mis on võetud kasutusele LCS-ist imporditud vormingu uusimas versioonis, saab ühendada automaatselt elektroonilise dokumendi kohandatud versiooniga. Kõiki muudatusi, mida ei saa automaatselt ühendada, käsitletakse konfliktidena. Need konfliktid esitatakse sobiva komponendi koosturis käsitsi lahendamiseks. Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilises aruandluses vormingu versiooni uuendamine, kasutades selle alusversiooni** (osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)**).
 
-## <a name="list-of-er-configurations-that-are-delivered-in-the-dynamics-365-for-operations-solution"></a>Dynamics 365 for Operationsi lahenduses pakutavate ER-i konfiguratsioonide loend
+## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Finance and Operationsi lahenduses pakutavate ER-i konfiguratsioonide loend
 | Valdkonnapõhise andmemudeli konfiguratsioonid: pealkiri | Domeen                | Andmemudel – sõltuva vormingu konfiguratsioonid: pealkiri | Kirjeldus                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Auditifaili mudel                                 | Finantsaudit       |                                                   |                                                                    |

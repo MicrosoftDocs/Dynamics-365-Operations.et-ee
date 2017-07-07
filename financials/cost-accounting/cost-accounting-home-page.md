@@ -3,13 +3,13 @@ title: Kuluarvestuse avaleht
 description: See teema esitab kuluarvestuse jaoks saadaolevate spikriteemade ja muude ressursside loendi.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbf755c7adb3589ca0fa5242589f1aae3ef6e1b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Kuluarvestuse moodul võimaldab teha järgmist.
 
 ## <a name="get-started"></a>Alusta
 
-Kuluarvestuse ülesanded pakuvad põhietappe Microsoft Dynamics 365 for Operationsi mooduli Kuluarvestus konfigureerimiseks tegelike kulude analüüsimiseks. Samuti pakub see protseduuride seeriat, mille saate täita nende ilmumise järjekorras.
+Kuluarvestuse ülesanded pakuvad põhietappe Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni mooduli Kuluarvestus konfigureerimiseks tegelike kulude analüüsimiseks. Samuti pakub see protseduuride seeriat, mille saate täita nende ilmumise järjekorras.
 
 -   [Kuluarvestusega alustamine](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (tehniline ülevaade ja nõuab CustomerSource’i kontot)
 
@@ -69,10 +69,10 @@ Kulujuhtimise mobiilse tööruumi abil saavad kulukeskuse haldurid näha kulukes
 -   [Kulujuhtimise mobiilne tööruum](cost-controlling-mobile-workspace.md)
 
 ## <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu
-Kuluarvestuse analüüsi Microsoft Power BI sisu on mõeldud kulul kontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Microsoft Dynamics 365 for Operationsi kuluarvestusest ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut.
+Kuluarvestuse analüüsi Microsoft Power BI sisu on mõeldud kulul kontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Finance and Operationsi kuluarvestuse moodulist ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut.
 
--   [Kuluarvestuse analüüsi Power BI sisu](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Kuluarvestuse analüüsi Power BI sisu turbe seadistamine](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Kuluarvestuse analüüsi Power BI sisu](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Kuluarvestuse analüüsi Power BI sisu turbe seadistamine](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 
 
 

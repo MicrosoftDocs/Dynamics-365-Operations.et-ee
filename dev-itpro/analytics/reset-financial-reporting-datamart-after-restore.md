@@ -1,15 +1,15 @@
 ---
 title: "Finantsaruandluse andmevaka lähtestamine pärast andmebaasi taastamist"
-description: "Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Operationsi andmebaasi taastamist."
+description: "Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Finance and Operationsi andmebaasi taastamist."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d227452e48914170404f0ee5163a05e6b875e69f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Operationsi andmebaasi taastamist. 
+Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Finance and Operationsi andmebaasi taastamist. 
 
-On mitu stsenaariumi, mille korral võib olla vaja Dynamics 365 for Operationsi andmebaas varukoopiast taastada või kopeerida andmebaas teisest keskkonnast. Kui nii juhtub, siis tuleb teha sobivad toimingud tagamiseks, et finantsaruandluse andmevakk kasutaks taastatud Microsoft Dynamics 365 for Operationsi andmebaasi õigesti. Kui teil on küsimusi finantsaruandluse andmevaka lähtestamise kohta muul põhjusel peale Dynamics 365 for Operationsi andmebaasi taastamise, siis vaadake lisateavet jaotisest [Management Reporteri andmevaka lähtestamine](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Pange tähele, et selle protsessi etappe toetatakse Dynamics 365 for Operationsi 2016. aasta mai väljaandes (rakenduse järgus 7.0.1265.23014 ja finantsaruandluse järgus 7.0.10000.4) ja uuemates väljaannetes. Kui teil on Dynamics 365 for Operationsi varasem väljaanne, siis pöörduge abi saamiseks meie tugiteenuse töörühma poole.
+On mitu stsenaariumi, mille korral võib olla vaja Finance and Operationsi andmebaas varukoopiast taastada või kopeerida andmebaas teisest keskkonnast. Kui nii juhtub, siis tuleb teha sobivad toimingud tagamiseks, et finantsaruandluse andmevakk kasutaks taastatud Finance and Operationsi andmebaasi õigesti. Kui teil on küsimusi finantsaruandluse andmevaka lähtestamise kohta muul põhjusel peale Finance and Operationsi andmebaasi taastamise, siis vaadake lisateavet jaotisest [Management Reporteri andmevaka lähtestamine](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Pange tähele, et selle protsessi etappe toetatakse Dynamics 365 for Operationsi 2016. aasta mai väljaandes (rakenduse järgus 7.0.1265.23014 ja finantsaruandluse järgus 7.0.10000.4) ja uuemates väljaannetes. Kui teil on Finance and Operationsi varasem väljaanne, siis pöörduge abi saamiseks meie tugiteenuse töörühma poole.
 
 ## <a name="export-report-definitions"></a>Aruande definitsioonide eksportimine
 Kõigepealt eksportige aruandekoosturis paiknevad aruandekujundused, tehes järgmist.
 
 1.  Minge aruandekoosturis jaotisse **Ettevõte** &gt; **Koosteüksuste grupid**.
-2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. **Märkus.** Dynamics 365 for Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
+2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. **Märkus.** Finance and Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
 3.  Valige eksportimiseks aruande definitsioonid.
     -   Kõikide aruande definitsioonide ja seotud koosteüksuste eksportimiseks klõpsake suvandit **Vali kõik**.
     -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite eksportimiseks klõpsake vastavat vahekaarti ja valige eksporditavad üksused. Vahekaardil mitme üksuse valimiseks vajutage ja hoidke all klahvi Ctrl. Eksporditavate aruannete valimisel valitakse seotud read, veerud, puud ja dimensioonikogumid.
@@ -49,7 +49,7 @@ Kõigepealt eksportige aruandekoosturis paiknevad aruandekujundused, tehes järg
 
 Faili saab kopeerida või laadida üles turvalisse asukohta, et selle saaks muul ajal teistsugusesse keskkonda importida. Teavet Microsoft Azure’i salvestuskonto kohta leiate jaotisest [Andmeedastus käsurea utiliidiga AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
 > [!NOTE]
-> Microsoft ei paku Dynamics 365 for Operationsi lepingu raames salvestuskontot. Peate ostma salvestuskonto või kasutama eraldi Azure’i tellimuse salvestuskontot. 
+> Microsoft ei paku Finance and Operationsi lepingu raames salvestuskontot. Peate ostma salvestuskonto või kasutama eraldi Azure’i tellimuse salvestuskontot. 
 > [!WARNING]
 > Olge kursis Azure’i virtuaalarvutite D-ketta käitumisega. Ärge hoidke sellel pidevalt eksporditud koosteüksuste gruppe. Lisateavet ajutiste ketaste kohta leiate jaotisest [Ajutine ketas Windows Azure’i virtuaalarvutites](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
@@ -57,19 +57,19 @@ Faili saab kopeerida või laadida üles turvalisse asukohta, et selle saaks muul
 Kasutage kaugarvutit ühenduse loomiseks kõigi arvutitega keskkonnas ja peatage faili services.msc abil järgmised Windowsi teenused:
 
 -   ülemaailmse veebi avaldamisteenus (kõigil AOS-i arvutitel)
--   Microsoft Dynamics 365 for Operationsi pakett-tööde halduse teenus (ainult mitteprivaatsetel AOS-i arvutitel)
+-   Microsoft Dynamics 365 for Finance and Operationsi pakett-tööde halduse teenus (ainult mitteprivaatsetel AOS-i arvutitel)
 -   Management Reporter 2012 protsessiteenus (ainult BI-arvutitel)
 
-Nendel teenustel on avatud ühendus Microsoft Dynamics 365 for Operationsi andmebaasiga.
+Nendel teenustel on avatud ühendus Finance and Operationsi andmebaasiga.
 
-## <a name="reset"></a>Lähtesta
+## <a name="reset"></a>Lähtestamine
 #### <a name="locate-the-latest-dataupgradezip-package"></a>Otsige üles uusim pakett DataUpgrade.zip
 
 Otsige üles uusim pakett DataUpgrade.zip, kasutades juhiseid jaotises [Skripti DataUpgrade.zip allalaadimine](..\migration-upgrade\upgrade-data-to-latest-update.md). Juhistes selgitatakse, kuidas leida oma keskkonna jaoks õige andmete versioonitäienduse pakett.
 
-#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Käivitage skriptid Dynamics 365 for Operationsi andmebaasi suhtes
+#### <a name="execute-scripts-against-finance-and-operations-database"></a>Käivitage skriptid Finance and Operationsi andmebaasi suhtes
 
-Käivitage järgmised skriptid Dynamics 365 for Operationsi andmebaasi suhtes (mitte finantsaruandluse andmebaasi suhtes).
+Käivitage järgmised skriptid Finance and Operationsi andmebaasi suhtes (mitte finantsaruandluse andmebaasi suhtes).
 
 -   DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
 -   DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
@@ -78,7 +78,7 @@ Need skriptid tagavad õiged kasutajad, rollid ja muudatuste jälgimise sätted.
 
 #### <a name="execute-powershell-command-to-reset-database"></a>Käivitage andmebaasi lähtestamiseks PowerShelli käsk
 
-Käivitage järgmine käsk otse AOS-i arvutil, et lähtestada Dynamics 365 for Operationsi ja finantsaruandluse integratsioon.
+Käivitage järgmine käsk otse AOS-i arvutil, et lähtestada Finance and Operationsi ja finantsaruandluse integratsioon.
 
 1.  Avage Windows PowerShell administraatorina.
 2.  Käivitage: F:
@@ -97,7 +97,7 @@ Parameetrite selgitus.
 Taaskäivitage faili services.msc abil eelnevalt peatatud teenused.
 
 -   ülemaailmse veebi avaldamisteenus (kõigil AOS-i arvutitel)
--   Microsoft Dynamics 365 for Operationsi pakett-tööde halduse teenus (ainult mitteprivaatsetel AOS-i arvutitel)
+-   Microsoft Dynamics 365 for Finance and Operationsi pakett-tööde halduse teenus (ainult mitteprivaatsetel AOS-i arvutitel)
 -   Management Reporter 2012 protsessiteenus (ainult BI-arvutitel)
 
 ## <a name="import-report-definitions"></a>Aruande definitsioonide importimine
@@ -106,7 +106,7 @@ Importige aruande kujundused aruandekoosturist, kasutades eksportimise ajal lood
 1.  Minge aruandekoosturis jaotisse **Ettevõte** &gt; **Koosteüksuste grupid**.
 2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. 
     > [!NOTE]
-    > Dynamics 365 for Operationsi puhul toetatakse ainult üht koosteüksuste gruppi: **Vaikeväärtus**.
+    > Finance and Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
 3.  Valige koosteüksus **Vaikeväärtus** ja klõpsake nuppu **Impordi**.
 4.  Valige eksporditud aruande definitsioone sisaldav fail ja klõpsake nuppu **Ava**.
 5.  Valige dialoogiboksist Import imporditavad aruande definitsioonid.

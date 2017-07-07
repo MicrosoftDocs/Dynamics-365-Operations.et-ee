@@ -1,27 +1,28 @@
 ---
 title: Soovituste juhtelemendi lisamine kassaaparaadi kannetelehele
-description: See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Operationsi kuvapaigutuse kujundajat.
+description: See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Retaili kuvapaigutuse kujundajat.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Retail, Operations, Core, UnifiedOperations
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db17231a27c85193dd95dfe32575f598e00873b1
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 1cb80decf8ef0f182feec5d4cbe76b37b106dcd2
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Operationsi kuvapaigutuse kujundajat.
+See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Retaili kuvapaigutuse kujundajat.
 
-Saate Microsoft Dynamics 365 for Operationsi kasutamisel kuvada kassaaparaadis tootesoovitusi. *Soovitused* on kaubad, millest teie klient võib oma ostuajaloo, oma sooviloendi kaupade ja teiste klientide võrgu- ja füüsilistest poodidest ostetud kaupade põhjal huvituda. Tootesoovituste kuvamiseks peate lisama kannetekuvale juhtelemendi, kasutades kuvapaigutuse kujundajat.
+Saate Microsoft Dynamics 365 for Retaili kasutamisel kuvada kassaaparaadis tootesoovitusi. *Soovitused* on kaubad, millest teie klient võib oma ostuajaloo, oma sooviloendi kaupade ja teiste klientide võrgu- ja füüsilistest poodidest ostetud kaupade põhjal huvituda. Tootesoovituste kuvamiseks peate lisama kannetekuvale juhtelemendi, kasutades kuvapaigutuse kujundajat.
 
 ## <a name="open-layout-designer"></a>Paigutusekujundaja avamine
-1.  Minge jaotisse **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa** &gt; **Kuvapaigutused**.
+1.  Minge jaotisse **Jaemüük** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa** &gt; **Kuvapaigutused**.
 2.  Leidke kiirfiltri abil kuva, kuhu soovite juhtelemendi lisada. Näiteks saate filtreerida välja **Kuvapaigutuse ID** väärtuse „F2CP16:9M” järgi.
 3.  Otsige loendist ja valige soovitud kirje. Valige näiteks Nimi: F2CP16:9M Kuvapaigutuse ID: F2CP16:9M”.
 4.  Klõpsake valikut **Paigutusekujundaja**.
@@ -55,7 +56,7 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 1.  Vähendage kanderidade üksikasjade ala kõrgust, nii et see oleks sama kõrge kui vasakul asuv kliendipaneel.[](./media/pic-2.png)[![kuvapaigutuse-pilt-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 2.  Pukseerige soovituste juhtelement vasakul asuvast menüüst kanderea üksikasjade ala ja kannetekuva alaosa keskel asuva nupuruudustiku vahele. Muutke juhtelemendi suurust, nii et see mahuks olemasolevasse ruumi.[](./media/pic-3.png)[![kuvapaigutuse-pilt-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 3.  Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.
-4.  Dynamics 365 for Operationsis minge jaotisse **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
+4.  Dynamics 365 for Retailis minge jaotisse **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
 5.  Valige loendist suvand **1090, registrid**.
 6.  Klõpsake valikut **Käivita kohe**.
 
@@ -70,7 +71,7 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 7.  Valige väljal **Pilt** vahekaardil kuvatav pilt.
 8.  Klõpsake **OK**. Uus vahekaart kuvatakse nupuruudustikus.
 9.  Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.
-10. Dynamics 365 for Operationsis minge jaotisse **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
+10. Dynamics 365 for Retailis minge jaotisse **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
 11. Valige loendist suvand **1090, registrid**.
 12. Klõpsake valikut **Käivita kohe**.
 

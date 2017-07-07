@@ -1,9 +1,9 @@
 ---
 title: "Süsteeminõuded"
-description: "Teema esitab süsteeminõuete loendi Microsoft Dynamics 365 for Operationsi praeguse versiooni kohta."
+description: "Teema esitab süsteeminõuete loendi Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni praeguse versiooni kohta."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 724ee7ec29f8a9c4e8cc0b244193cd6c83c37f03
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Teema esitab süsteeminõuete loendi Microsoft Dynamics 365 for Operationsi praeguse versiooni kohta.
+Teema esitab süsteeminõuete loendi Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni praeguse versiooni kohta.
 
 <a name="supported-web-browsers"></a>Toetatud veebibrauserid
 ----------------------
 
-Microsoft Dynamics 365 for Operationsi veebirakendus võib töötada kõigis järgmistes veebibrauserites, mis töötavad nimetatud operatsioonisüsteemis.
+Veebirakenduse võib töötada kõigis järgmistes veebibrauserites, mis töötavad nimetatud operatsioonisüsteemis.
 
 -   Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s
 -   Internet Explorer 11 operatsioonisüsteemides Windows 10, Windows 8.1 või Windows 7
@@ -46,33 +46,33 @@ Iga veebibrauseri uusima versiooni leidmiseks minge tarkvaratootja veebisaidile.
 
 **Märkused.**
 
--   Tegevuse salvestajas loodud piltide jäädvustamiseks ja nende Microsoft Wordi dokumentidesse lisamiseks peab teil olema installitud Chrome’i laiendus. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
+-   Installitud peab olema väljalaske-eelne Chrome’i versioon, et lubada kuvatõmmise piltide salvestamine tegevuse salvestajas ja nende lisamine loodud Microsoft Wordi dokumentidesse. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
 -   Töövooredaktor käivitatakse ClickOnce’i rakendusena. Ainult Microsoft Edge ja Internet Explorer (Microsoft Windowsi toetatud versioonis) toetavad ClickOnce’i rakendusi. Töövooredaktori ClickOnce rakendus nõuab ühilduvat 64-bitist operatsioonisüsteemi.
 -   Finantsaruandluse jaoks mõeldud aruandekujundaja käivitatakse ClickOnce’i rakendusena. See nõuab ühilduvat 64-bitist operatsioonisüsteemi. Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce. Kui kasutate Chrome’i inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks samuti aktiveeritud.
--   PDF-failide eelvaateks soovitame kasutada tänapäevasi brausereid, nagu Edge (viimane avalikult saadaolev versioon) Windows 10-s või Chrome (viimane avalikult saadaolev versioon) Windows 10-s, Windows 8.1-s, Windows 8-s, Windows 7-s või tahvelarvutis Google Nexus 10.
+-   PDF-failide eelvaateks soovitame kasutada brausereid, nagu Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s või Google Chrome (viimane avalikult saadaolev versioon) Windows 10-s, Windows 8.1-s, Windows 8-s, Windows 7-s või tahvelarvutis Google Nexus 10.
 
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Retail Cloud POS-i toetatud veebibrauserid
 
-Dynamics 365 for Operationsi Retail Cloud POS-i saab käitada kõigis järgmistes veebibrauserites, mis töötavad nimetatud operatsioonisüsteemides.
+Retail Cloud POS võib töötada kõigis järgmistes veebibrauserites, mis töötavad nimetatud operatsioonisüsteemides.
 
 -   Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s
 -   Internet Explorer 11 operatsioonisüsteemides Windows 10, Windows 8.1 või Windows 7
 -   Chrome (kõige värskem saadaolev versioon) operatsioonisüsteemis Windows 10, Windows 8.1 või Windows 7
 
 ## <a name="network-requirements"></a>Võrgunõuded
--   Dynamics 365 for Operations on mõeldud võrkudele, mille latentsus on kuni 250–300 millisekundit (ms). See on latentsus brauserikliendist Microsoft Azure’i andmekeskusesse, mis majutab rakendust Dynamics 365 for Operations. Soovitame teilt testida võrgulatentsust veebiaadressil <http://www.azurespeed.com>.
--   Rakenduse Dynamics 365 for Operations ribalaiuse nõuded sõltuvad stsenaariumist. Kõige tüüpilisemad stsenaariumid nõuavad ribalaiust rohkem kui 50 kilobaiti sekundis (KB/s). Stsenaariumide puhul, millel on kõrged kasuliku koormuse nõuded (nt tööruumid või stsenaariumid, mis hõlmavad ulatuslikku kohandamist), on soovitatav kasutada rohkem ribalaiust.
+-   Dynamics 365 for Finance and Operations, Enterprise edition on mõeldud võrkudele, mille latentsus on kuni 250–300 millisekundit (ms). See on latentsus brauserikliendist Microsoft Azure’i andmekeskusesse, mis majutab rakendust Finance and Operations. Soovitame teilt testida võrgulatentsust veebiaadressil <http://www.azurespeed.com>.
+-   Läbilaskevõime nõuded sõltuvad teie stsenaariumist. Kõige tüüpilisemad stsenaariumid nõuavad ribalaiust rohkem kui 50 kilobaiti sekundis (KB/s). Stsenaariumide puhul, millel on kõrged kasuliku koormuse nõuded (nt tööruumid või stsenaariumid, mis hõlmavad ulatuslikku kohandamist), on soovitatav kasutada rohkem ribalaiust.
 
-Üldiselt on Dynamics 365 for Operations Interneti jaoks optimeeritud. Pendellevi hulk brauserikliendist Azure’i andmekeskusesse on väga väike ja kogu kasulik koormus on tihendatud. 
+Üldiselt on Finance and Operations Interneti jaoks optimeeritud. Pendellevi hulk brauserikliendist Azure’i andmekeskusesse on väike ja kogu kasulik koormus on tihendatud. 
 
-**Hoiatus.** Ärge arvutage ribalaiuse nõudeid kliendi asukohast, korrutades kasutajate arvu minimaalsete ribalaiuse nõuetega. Antud asukoha samaaegset kasutust on väga keeruline arvutada. Ribalaiuse nõuete pärast muret tundvate klientide puhul kasutage rakenduse Dynamics 365 for Operations eelvaateversiooni.
+**Hoiatus.** Ärge arvutage ribalaiuse nõudeid kliendi asukohast, korrutades kasutajate arvu minimaalsete ribalaiuse nõuetega. Antud asukoha samaaegset kasutust on keeruline arvutada. Ribalaiuse nõuete pärast muret tundvate klientide puhul kasutage rakenduse Finance and Operations eelvaateversiooni.
 
 ## <a name="net-framework-requirements"></a>.NET Frameworki nõuded
-Dynamics 365 for Operations nõuab .NET Frameworki versiooni 4.6.2 kõikide ühe korra klõpsatavate rakenduste puhul (nt dokumendi marsruudivaliku agent). Installimisjuhiste puhul vaadake teemat [.NET Frameworki installimine](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
+.NET Frameworki versiooni 4.6.2 on vajalik kõikide ClickOnce-rakenduste puhul (nt dokumendi marsruudivaliku agent). Installimisjuhiste puhul vaadake teemat [.NET Frameworki installimine](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
 
 ## <a name="supported-microsoft-office-applications"></a>Toetatud Microsoft Office’i rakendused
--   Microsoft Exceli ja Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Microsoft Exceli ja Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
 -   Funktsiooniga Ekspordi Excelisse või Ekspordi Wordi loodud dokumentide vaatamiseks peab teil olema installitud Microsoft Office 2007 või uuem versioon.
 
 ## <a name="retail-modern-pos-requirements"></a>Retail Modern POS-i nõuded
@@ -126,13 +126,31 @@ Arvuti peab vastama kõigile järgmiste üksuste installimist ja kasutamist puud
 -   2,4 GHz i7 (või ekvivalent) CPU tippkiirus tuuma kohta (neli tuuma on soovitatavad).
 -   Vähemalt 10 GB vaba ruumi (kanali andmebaas võib nõuda suurel hulgal ruumi)
 
+## <a name="connector-requirements"></a>Konnektori nõuded
+### <a name="supported-operating-systems"></a>Toetatud operatsioonisüsteemid
+
+-   Microsoft Dynamics AX-i konnektoril on kaks eraldi installiprogrammi: **Async Server Connector service** ja **Real-time service for Dynamics AX 2012 R3**.
+-   Mõlemad komponendid on 32-bitised rakendused, kuid töötavad nii x86- kui ka x64-põhistes arhitektuurides.
+-   Mõlemaid komponente toetatakse järgmistes operatsioonisüsteemides.
+    -   Windows 7 Professionali, Enterprise’i ja Ultimate’i versioonides
+    -   Windows 8.1 Update 1 Professionali, Enterprise’i ja manustatud versioonid
+    -   Windows 10 Pro, Enterprise’i ja Enterprise LTSB versioonid
+    -   Windows Server 2012 R2, Windows Server 2016
+
+### <a name="minimum-system-requirements"></a>Minimaalsed süsteeminõuded
+
+-   2 GB RAM, soovituslik 4 GB RAM
+-   1,6 GHz CPU tippkiirus tuuma kohta (kaks tuuma minimaalselt.)
+-   Vähemalt 10 GB vaba ruumi (kanali andmebaas võib nõuda suurel hulgal ruumi)
+
 ## <a name="requirements-for-development-on-local-vms"></a>Arenduse nõuded kohalikes VM-ides
 Kohalikes virtuaalmasinates (VM-id) arenduse nõuete kohta lisateabe saamiseks vaadake teemat [Asutusesiseselt töötav virtuaalmasin](../dev-tools/access-instances.md).
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Rakenduse Dynamics 365 for Operations hindamiskoopia hankimine](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Rakenduse Dynamics 365 for Finance and Operations, Enterprise Editioni hindamiskoopia hankimine](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+
 
 
 

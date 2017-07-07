@@ -3,25 +3,27 @@ title: "Vöötkoodi maskide häälestamine"
 description: "Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja vöötkoodi maske ning kuidas määrata vöötkoodidele vöötkoodi maske."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja 
 <a name="set-up-bar-code-mask-characters"></a>Vöötkoodi maski tähemärkide häälestamine
 -------------------------------
 
-Vöötkoodimaske kasutatakse vöötkoodide loomiseks ja kassas skannitavate vöötkoodide kiiresti tuvastamiseks. Maskid koosnevad kohatäidetena toimivatest märkidest, mis näitavad loodavate vöötkoodide vormingut. Vöötkoodi maski konfigureerimiseks peate seadistama vöötkoodi maski tähemärgid. Valige **Jaemüük ja kaubandus** &gt; **Varude haldus** &gt; **Vöötkoodid ja sildid** &gt; **Maski märgid**. Klõpsake vöötkoodi maski märkide loomiseks nuppu **Uus**. Maski tähemärke saab luua järgmiste vöötkoodi andmete näitamiseks.
+Vöötkoodimaske kasutatakse vöötkoodide loomiseks ja kassas skannitavate vöötkoodide kiiresti tuvastamiseks. Maskid koosnevad kohatäidetena toimivatest märkidest, mis näitavad loodavate vöötkoodide vormingut. Vöötkoodi maski konfigureerimiseks peate seadistama vöötkoodi maski tähemärgid. Valige **Jaemüük** &gt; **Varude haldus** &gt; **Vöötkoodid ja sildid** &gt; **Maski märgid**. Klõpsake vöötkoodi maski märkide loomiseks nuppu **Uus**. Maski tähemärke saab luua järgmiste vöötkoodi andmete näitamiseks.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ Vöötkoodimaske kasutatakse vöötkoodide loomiseks ja kassas skannitavate vö�
 | **Töötaja**         | Näitab vöötkoodi segmenti vöötkoodi kassa sisselogimise puhul kasutatava töötaja ID-koodi puhul.                                  |
 | **Klient**         | Näitab kliendi ID segmenti.                                                                                  |
 | **Andmekirje**       | *Pole veel rakendatud.*                                                                                          |
-| **Allahindluse kood**    | Näitab allahindluse koodi vöötkoodile, mida kasutatakse kassa kandele allahindluse lisamiseks.             |
+| **Allahindluse kood**    | *Amortiseeritud* alates Dynamics 365 for Retaili 2017. aasta kevade versioonist. Varem: näitab allahindluse koodi vöötkoodile, mida kasutatakse kassa kandele allahindluse lisamiseks.                                                                   |
+| **Kupongikood**      | Näitab jaemüügitellimusele allahindluse lisamiseks kasutatava vöötkoodi kupongikoodi. See asendas allahindluse koodi.     |
 | **Kinkekaart**        | Näitab kinkekaardi väljastamisel või sellega tasumisel kinkekaardi numbrit.                                               |
 | **Kliendikaart**     | Lisab kandele püsikliendi ja seda saab kasutada kliendikaardiga tasumisel.                             |
 
 ## <a name="define-bar-code-masks"></a>Vöötkoodi maskide määratlemine
-Pärast vajalikele vöötkoodi maskidele vöötkoodi maski tähemärkide määramist, valige **Jaemüük ja kaubandus** &gt; **Varud** &gt; **Vöötkoodid ja sildid** &gt; **Vöötkoodi maski seadistus**. Sellel lehel saate määratleda vöötkoodi maskid, mis kasutavad varasemalt määratud tähemärke. Neid vöötkoodi maske kasutatakse vöötkoodide loomisel ja need aitavad ka kassas skannitud vöötkoode tuvastada.
+Pärast vajalikele vöötkoodi maskidele vöötkoodi maski tähemärkide määramist, valige **Jaemüük** &gt; **Varud** &gt; **Vöötkoodid ja sildid** &gt; **Vöötkoodi maski seadistus**. Sellel lehel saate määratleda vöötkoodi maskid, mis kasutavad varasemalt määratud tähemärke. Neid vöötkoodi maske kasutatakse vöötkoodide loomisel ja need aitavad ka kassas skannitud vöötkoode tuvastada.
 
 1.  Klõpsake uue vöötkoodi maski loomiseks nuppu **Uus**.
 2.  Sisestage väärtused väljadele **Maski ID** ja **Kirjeldus** ja valige seejärel väljal **Tüüp** vöötkoodi maski tüüp.

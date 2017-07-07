@@ -1,16 +1,16 @@
 ---
 title: "Allhanketöö haldamine tootmises"
-description: "Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone."
+description: "Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
+Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 
 [Tootmisprotsessides](production-process-overview.md) võivad tööd teha ressursid, mille omanikud on või mida haldavad hankijad. Tavaliselt kasutatakse hankija ressursse perioodilise liigse nõudluse tasakaalustamiseks, kui see ületab ettevõtte oma ressursside mahtu. Hankija võib suuta pakkuda ka konkreetseid [ressursivõimalusi](resource-capabilities.md)või ressursse madalama hinnaga.  
 
@@ -42,7 +42,7 @@ Kui kasutatakse allhankeoperatsioone või -tegevusi, siis mõjutavad need kõiki
 
 Sisemiste ressursside puhul eraldatakse teatud perioodiks tavaliselt kindel kulumäär. Seevastu allhankeressursside maksumus põhineb seotud teenuse ostuhinnal. Teenus määratletakse teise tootena ja seda kasutatakse antud allhangitud operatsiooni hanke- ning ostuprotsesside juhtimiseks.  
 
-Praegu ei ole Microsoft Dynamics 365 for Operationsis sõnaselget pooltoodete mõistet. Tootmistellimuse puhul, mis nõuab tooraine valmiskaubaks muutmiseks mitut operatsiooni, sisestatakse valmistoode varudesse tagasi alles viimases toimingus. Varasemate operatsioonide käigus saadud pooltooted registreeritakse poolelioleva tööna (WIP), kuid neid ei sisestata ega jälgita varudes. Kuigi võite protsessid ja kooslused mitmeks väiksemaks üksuseks jagada, suurendab see lähenemine hallatavate toodete, koosluste ja protsesside arvu.  
+Praegu ei ole Microsoft Dynamics 365 for Finance and Operationsis sõnaselget pooltoodete mõistet. Tootmistellimuse puhul, mis nõuab tooraine valmiskaubaks muutmiseks mitut operatsiooni, sisestatakse valmistoode varudesse tagasi alles viimases toimingus. Varasemate operatsioonide käigus saadud pooltooted registreeritakse poolelioleva tööna (WIP), kuid neid ei sisestata ega jälgita varudes. Kuigi võite protsessid ja kooslused mitmeks väiksemaks üksuseks jagada, suurendab see lähenemine hallatavate toodete, koosluste ja protsesside arvu.  
 
 Allhanketöö modelleerimiseks tootmisoperatsioonide jaoks on kaks meetodit. Need meetodid erinevad selle poolest, kuidas allhankeprotsessi saab modelleerida, kuidas pooltooteid protsessis kajastatakse ja kuidas toimub kuluhaldus.
 

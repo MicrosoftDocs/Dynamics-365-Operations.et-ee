@@ -3,7 +3,7 @@ title: "Tasakaalustuse ülevaade"
 description: "Selles artiklis antakse üldist teavet tasakaalustamisprotsessi kohta. See kirjeldab kannete tüüpe, mida saab tasakaalustada, seda, millal ja kuidas kandeid saab tasakaalustada, ja tasakaalustusprotsessi tulemusi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6ff44d517eb64d6472802ad057b680f4d2c7c1d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -43,7 +43,7 @@ Ostureskontro ja müügireskontro tasakaalustus võib toimuda mis tahes kandetü
 Kandeid saab tasakaalustada makse sisestamise ajal. Näiteks kui teete makse hankijale, valite tavaliselt makstavad arved. Arvete valimisega märgistate need makse suhtes tasakaalustamiseks. Kui Müügireskontro makseametnikud kirjendavad kliendimakse, saavad nad kliendimaksesse lisatud teabe põhjal sobivad arved tasakaalustamiseks märgistada. Makseid saab tasakaalustamiseks märkida lehel **Kannete tasakaalustamine**. Selle lehe saate avada mis tahes sisestamata arvelt või makselt. Kande sisestamisel sisestatakse ka tasakaalustus. Kandeid saab tasakaalustada ka pärast sisestamist. Saate sisestada kliendimakse ilma seda arvete suhtes tasakaalustamata. Siiski peate võib-olla esmalt uurima, kas makse on õige arve suhtes tasakaalustatud. Lehe **Kannete tasakaalustamine** saab avada lehelt **Kõik kliendid** või **Kõik hankijad** või mis tahes kliendi või hankija lehelt **Kanded**. Samuti saate arve jaoks sisestatud ettemakseid reserveerida, märkides makse ostutellimuse või müügitellimuse suhtes tasakaalustamiseks. Sellisel juhul on maksel endiselt avatud saldo, kuid selle saab tasakaalustada teise arve suhtes. Makse tasakaalustatakse automaatselt ostu- või müügitellimusest loodud arve suhtes.
 
 ## <a name="how-to-settle-transactions"></a>Kuidas kandeid tasakaalustada?
-Kandeid saab tasakaalustada käsitsi, automaatselt või kaht meetodit kombineerides. Tasakaalustusmeetodi valik sõltub äriprotsessidest, mille saab seejärel rakendada tasakaalustuse seadistuse kaudu ostureskontro parameetrites ja müügireskontro parameetrites. Saate luua hankijamakseid ja kliendi otsekorraldusmakseid, kasutades maksesoovitust, mida kasutatakse makstavate arvete valimiseks. Maksesoovitus käivitatakse käsitsi, kuid seejärel märgistab rakendus Microsoft Dynamics 365 for Operations maksete loomisel valitud arved automaatselt tasakaalustamiseks. Kui maksed luuakse käsitsi, saate tasakaalustatavad arved valida lehel **Kannete tasakaalustamine**. Saate arveid käsitsi valida või kasutada suvandit **Märgi prioriteedi alusel**, et arved märgitaks tasakaalustamiseks automaatselt. Suvand **Märgi prioriteedi alusel** on saadaval ainult müügireskontro puhul. Selle suvandi lubamiseks kasutage müügireskontro parameetrites lehte **Tasakaalustuse prioriteet**. Kui makseametnik sisestab makse, kuid ei tasakaalusta seda makset enne sisestamist, saab makse automaatselt tasakaalustada. Saate automaatse tasakaalustamise lubada müügi- ja ostureskontro parameetrites. Automaatse tasakaalustuse kasutamisel saate kasutada eelmääratletud tasakaalustuse järjekorda või saate müügireskontro parameetrites määratleda teie enda tasakaalustuse prioriteedijärjestuse. See funktsioon on saadaval ainult müügireskontro puhul.
+Kandeid saab tasakaalustada käsitsi, automaatselt või kaht meetodit kombineerides. Tasakaalustusmeetodi valik sõltub äriprotsessidest, mille saab seejärel rakendada tasakaalustuse seadistuse kaudu ostureskontro parameetrites ja müügireskontro parameetrites. Saate luua hankijamakseid ja kliendi otsekorraldusmakseid, kasutades maksesoovitust, mida kasutatakse makstavate arvete valimiseks. Maksesoovitus käivitatakse käsitsi, kuid seejärel märgistab rakendus Microsoft Dynamics 365 for Finance and Operations maksete loomisel valitud arved automaatselt tasakaalustamiseks. Kui maksed luuakse käsitsi, saate tasakaalustatavad arved valida lehel **Kannete tasakaalustamine**. Saate arveid käsitsi valida või kasutada suvandit **Märgi prioriteedi alusel**, et arved märgitaks tasakaalustamiseks automaatselt. Suvand **Märgi prioriteedi alusel** on saadaval ainult müügireskontro puhul. Selle suvandi lubamiseks kasutage müügireskontro parameetrites lehte **Tasakaalustuse prioriteet**. Kui makseametnik sisestab makse, kuid ei tasakaalusta seda makset enne sisestamist, saab makse automaatselt tasakaalustada. Saate automaatse tasakaalustamise lubada müügi- ja ostureskontro parameetrites. Automaatse tasakaalustuse kasutamisel saate kasutada eelmääratletud tasakaalustuse järjekorda või saate müügireskontro parameetrites määratleda teie enda tasakaalustuse prioriteedijärjestuse. See funktsioon on saadaval ainult müügireskontro puhul.
 
 ## <a name="results-of-settlement"></a>Tasakaalustamise tulemused
 Kui kanded on tasakaalustatud, suurendatakse või vähendatakse iga kande saldo vajadust mööda. Tüüpilise stsenaariumi puhul, kus arve ja makse on tasakaalustatud, värskendatakse iga kande olekut ja saldot järgmiste reeglite järgi.

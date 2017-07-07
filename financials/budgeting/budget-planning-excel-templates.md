@@ -3,7 +3,7 @@ title: Eelarve plaanimise mallid Excelile
 description: See teema kirjeldab, kuidas luua Microsoft Exceli malle, mida saab kasutada eelarveplaanidega.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Exceli mall sisaldab kõiki eelarveplaani dokumendi paigutuse elemente, kui veer
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Exceliga eelarveplaani andmete vaatamisel ja redigeerimisel võimalike probleemide vältimiseks peab sama kasutaja olema sisse loginud nii Dynamics 365 for Operationsisse kui ka Microsoft Dynamics Office’i lisandmooduli andmekonnektorisse.
+> Exceliga eelarveplaani andmete vaatamisel ja redigeerimisel võimalike probleemide vältimiseks peab sama kasutaja olema sisse loginud nii Microsoft Dynamics 365 for Finance and Operations, Enterprise editionisse kui ka Microsoft Dynamics Office’i lisandmooduli andmekonnektorisse.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Eelarveplaani dokumendimallile päise lisamine
 Päiseteabe lisamiseks valige Exceli failis ülemine rida ja sisestage tühjad read. Exceli failile päiseväljade lisamiseks klõpsake rakenduses **Andmekonnektor** valikut **Kujundus**.
@@ -79,11 +79,11 @@ Valitud väljagrupis kuvatakse mallis saadaolevad veerud. Uue veeru lisamiseks k
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Valemi määratlemiseks looge valem arvutustabelis ja kopeerige see aknasse **Kujundus**. Dynamics 365 for Operationsiga seotud tabelile antakse tavaliselt nimi AXTable1. Näiteks veergude Taotlus Q1 : Taotlus Q4 columns summeerimiseks arvutustabelis saate kasutada valemit AxTable1\[Taotlus Q1\]+AxTable1\[Taotlus Q2\]+AxTable1\[Taotlus Q3\]+AxTable1\[Taotlus Q4\].
+> Valemi määratlemiseks looge valem arvutustabelis ja kopeerige see aknasse **Kujundus**. Finance and Operationsiga seotud tabelile antakse tavaliselt nimi AXTable1. Näiteks veergude Taotlus Q1 : Taotlus Q4 columns summeerimiseks arvutustabelis saate kasutada valemit AxTable1\[Taotlus Q1\]+AxTable1\[Taotlus Q2\]+AxTable1\[Taotlus Q3\]+AxTable1\[Taotlus Q4\].
 
 Korrake neid etappe veeru **Korrigeerimine** lisamiseks. Kasutage selle veeru puhul valemit AxTable1\[Koondtaotlus\]\*$I$1. See võtab väärtuse lahtrist I1 ja korrutab väärtustega veerus **Koondtaotlus**, et arvutada korrigeerimise summad.
 
-Salvestage ja sulgege Exceli fail. Naaske Dynamics 365 for Operationsisse ja klõpsake aknas **Paigutused** valikuid **Mall &gt; Üleslaadimine**, et laadida eelarveplaani jaoks kasutatav salvestatud Exceli mall üles. 
+Salvestage ja sulgege Exceli fail. Naaske Finance and Operationsisse ja klõpsake aknas **Paigutused** valikuid **Mall &gt; Üleslaadimine**, et laadida eelarveplaani jaoks kasutatav salvestatud Exceli mall üles. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

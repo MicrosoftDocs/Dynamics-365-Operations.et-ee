@@ -1,9 +1,9 @@
 ---
 title: "Kreedit ja sissenõuded moodulis Müügireskontro"
-description: "Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics 365 for Operationsi sissenõuete lehte. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid.."
+description: "Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni sissenõuete lehte. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid.."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics 365 for Operationsi sissenõuete lehte. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid..
+Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Finance and Operationsi sissenõuete lehte. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid..
 
 Enne sissenõuete seadistamist või nendega töötamist peaksite teadma järgmisi põhimõtteid.
 -   Kliendi aegumise hetktõmmised sisaldavad aegunud saldoteavet teatud ajahetkel
@@ -59,9 +59,9 @@ Aegumise hetktõmmise üksikasjalik kirje luuakse iga aegumisperioodi kohta aegu
 Kliendikaustad päringud, mis määratlevad kliendikirjete grupi, mida saab sissenõuete või aegumisprotsesside jaoks kuvada ja hallata. Kliendikaustadega saate filtreerida teavet loendilehtedel Aegunud saldod, Sissenõuete tegevused ja Sissenõuete juhtumid. Kliendikaustadega saate ka filtreerida kliendikontosid, mis kaasatakse aegumise hetktõmmiste loomisel.
 
 ## <a name="collections-agents"></a>Inkassaatorid
-Vaikimisi saavad Microsoft Dynamics 365 for Operationsi kasutajad vaadata sissenõuete loendilehtedel kogu klienditeavet. Inkassaatorikirjete abil saate määrata kliendikaustad, mis on saadaval sissenõuete loendilehtedel ja lehel Sissenõuded oleva teabe filtreerimiseks. 
+Vaikimisi saavad Microsoft Dynamics 365 for Finance and Operationsi kasutajad vaadata sissenõuete loendilehtedel kogu klienditeavet. Inkassaatorikirjete abil saate määrata kliendikaustad, mis on saadaval sissenõuete loendilehtedel ja lehel Sissenõuded oleva teabe filtreerimiseks. 
 
-Inkassaator on isik, kes teeb koostööd klientidega, et makseid kogutaks õigeaegselt. Microsoft Dynamics 365 for Operationsis on inkassaatorid töötajad, kes on määratud kasutajale lehel Kasutajate seadistus.
+Inkassaator on isik, kes teeb koostööd klientidega, et makseid kogutaks õigeaegselt. Finance and Operationsis on inkassaatorid töötajad, kes on määratud kasutajale lehel Kasutajate seadistus.
 
 ## <a name="collections-list-pages"></a> Sissenõuete loendilehed 
 Järgmiste loendilehtede abil saate sissenõuete teavet korraldada.
@@ -71,7 +71,7 @@ Järgmiste loendilehtede abil saate sissenõuete teavet korraldada.
 
 > [!NOTE]
 > Enne kui saate teavet neil loendilehtedel vaadata, tuleb luua aegumise hetktõmmis. Teave kuvatakse ainult klientide puhul, kelle kohta on loodud aegumise hetktõmmis. Loendilehel kuvatavaid kirjeid saab täiendavalt filtreerida järgmiselt.
-<li>Vaikimisi on Microsoft Dynamics 365 for Operationsi kasutajal juurdepääs kõigile klientidele, kel on aegumise hetktõmmis.</li>
+<li>Vaikimisi on Finance and Operationsi kasutajal juurdepääs kõigile klientidele, kel on aegumise hetktõmmis.</li>
 <li>Kliendikaustade olemasolul peab kasutaja olema seadistatud inkasaatorina, et kasutada kaustu sissenõuete loendilehtedel oleva teabe filtreerimiseks. Teave on piiratud klientidega, kes kuuluvad valitud kliendikausta.</li>
 <li>Kui kasutaja on seadistatud inkassaatorina, on loendilehel saadaval ainult selle inkassaatori jaoks valitud kaustad. Kui inkassaatori puhul on lehel Inkassaator märgitud ruut Luba inkassaatoril vaadata kõiki kliendikaustu, on kõik kaustad selle inkassaatori jaoks saadaval.</li>
 

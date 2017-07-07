@@ -1,15 +1,15 @@
 ---
 title: "Pangaväljavõtte faili importimise tõrkeotsing"
-description: "On oluline, et pangaväljavõtte fail pangast vastaks paigutusele, mida Microsoft Dynamics 365 for Operations toetab. Pangaväljavõtete rangete standardite tõttu töötavad enamik integratsioone õigesti. Mõnikord ei saa väljavõttefaili importida või on sel valed tulemused. Tüüpiliselt põhjustavad neid probleeme väikesed erinevused pangaväljavõtte failis. See artikkel selgitab, kuidas neid erinevusi parandada ja probleeme lahendada."
+description: "On oluline, et pangaväljavõtte fail pangast vastaks paigutusele, mida Microsoft Dynamics 365 for Finance and Operations, Enterprise edition toetab. Pangaväljavõtete rangete standardite tõttu töötavad enamik integratsioone õigesti. Mõnikord ei saa väljavõttefaili importida või on sel valed tulemused. Tüüpiliselt põhjustavad neid probleeme väikesed erinevused pangaväljavõtte failis. See artikkel selgitab, kuidas neid erinevusi parandada ja probleeme lahendada."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-On oluline, et pangaväljavõtte fail pangast vastaks paigutusele, mida Microsoft Dynamics 365 for Operations toetab. Pangaväljavõtete rangete standardite tõttu töötavad enamik integratsioone õigesti. Mõnikord ei saa väljavõttefaili importida või on sel valed tulemused. Tüüpiliselt põhjustavad neid probleeme väikesed erinevused pangaväljavõtte failis. See artikkel selgitab, kuidas neid erinevusi parandada ja probleeme lahendada.
+On oluline, et pangaväljavõtte fail pangast vastaks paigutusele, mida Microsoft Dynamics 365 for Finance and Operations, Enterprise edition toetab. Pangaväljavõtete rangete standardite tõttu töötavad enamik integratsioone õigesti. Mõnikord ei saa väljavõttefaili importida või on sel valed tulemused. Tüüpiliselt põhjustavad neid probleeme väikesed erinevused pangaväljavõtte failis. See artikkel selgitab, kuidas neid erinevusi parandada ja probleeme lahendada.
 
 <a name="what-is-the-error"></a>Mis on tõrge?
 ------------------
@@ -38,7 +38,7 @@ On oluline, et pangaväljavõtte fail pangast vastaks paigutusele, mida Microsof
 Kui olete proovinud importida pangaväljavõtte faili, minge tõrke leidmiseks andmehalduse töö ajalukku ja selle käivitamise üksikasjadesse. Tõrge võib aidata, osutades väljavõttele, saldole või väljavõtte reale. Siiski on ebatõenäoline, et see annab piisavalt teavet aitamaks teil tuvastada probleemi põhjustavat välja või elementi.
 
 ## <a name="what-are-the-differences"></a>Millised on erinevused?
-Võrrelge panga faili paigutuse määratlust Microsoft Dynamics 365 for Operationsi impordi määratlusega ja pange tähele mis tahes võimalikke erinevuse väljades ja elementides. Võrrelge pangaväljavõtte faili seotud Dynamics 365 for Operationsi näidisfailiga. ISO20022 failides peaks võimalikke erinevusi lihtne märgata olema.
+Võrrelge panga faili paigutuse määratlust Finance and Operationsi impordi määratlusega ja pange tähele mis tahes võimalikke erinevusi väljades ja elementides. Võrrelge pangaväljavõtte faili seotud Finance and Operationsi näidisfailiga. ISO20022 failides peaks võimalikke erinevusi lihtne märgata olema.
 
 ## <a name="transformations"></a>Teisendused
 Tüüpiliselt tuleb muudatus teha ühes kolmest teisendusest. Iga teisendus on kirjutatud spetsiifilise standardi jaoks.
@@ -80,7 +80,7 @@ Teisenduse käitamisel loob see väljundfaili, mida saate vaadata Visual Studios
 
 ### <a name="adjust-the-transformation"></a>Teisenduse korrigeerimine
 
-Korrigeerige teisendust, et saada sobiv väli või element pangaväljavõtte failis. Seejärel vastendage see väli või element sobiva Dynamics 365 for Operationsi elemendiga.
+Korrigeerige teisendust, et saada sobiv väli või element pangaväljavõtte failis. Seejärel vastendage see väli või element sobiva Finance and Operationsi elemendiga.
 
 ### <a name="debitcredit-indicator"></a>Deebeti/kreediti indikaator
 

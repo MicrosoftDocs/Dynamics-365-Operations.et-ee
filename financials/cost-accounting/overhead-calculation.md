@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ Järgmises tabelis on näidatud tulemus, kui inimressursside projektid on rakend
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4. etapp: kulueralduse arvutuse töötlemine
 
-Eraldamist kasutatakse kuluobjekti saldo eraldamiseks teistele kuluobjektidele, rakendades eraldamisalust. Microsoft Dynamics 365 for Operations toetab vastastikuse eraldamise meetodit. Vastastikuse eraldamise meetodi puhul tuvastatakse täiendavate kuluobjektide vahetatavad vastastikused teenused. Süsteem määrab automaatselt eraldamiste tegemise õige järjekorra. Kuluobjekti saldo eraldatakse üksiku eraldamisalusena. Toetatakse eraldamisi kuluobjektide dimensioonide ja nende vastavate liikmete seas. Eraldamisjärjekorda reguleerib kulujuhtseade. [![Vastastikune meetod](./media/reciprocal-method.png)]
+Eraldamist kasutatakse kuluobjekti saldo eraldamiseks teistele kuluobjektidele, rakendades eraldamisalust. Finance and Operations toetab vastastikuse eraldamise meetodit. Vastastikuse eraldamise meetodi puhul tuvastatakse täiendavate kuluobjektide vahetatavad vastastikused teenused. Süsteem määrab automaatselt eraldamiste tegemise õige järjekorra. Kuluobjekti saldo eraldatakse üksiku eraldamisalusena. Toetatakse eraldamisi kuluobjektide dimensioonide ja nende vastavate liikmete seas. Eraldamisjärjekorda reguleerib kulujuhtseade. [![Vastastikune meetod](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Kulueraldamise määratlemine
 
@@ -719,12 +719,12 @@ Kuluobjekt CC004 pakendamine panustab mitmele kuluobjektile. Luuakse statistilis
 <tr>
 <td>Toode 2</td>
 <td>Toode 2</td>
-<td>15</td>
+<td>sept.</td>
 </tr>
 </tbody>
 </table>
 
-**Märkus.** Dynamics 365 for Operationsis saab statistilised mõõdud, nagu toote tarbitud tootmistunnid, tuletada lähteandmetest. Üksikasjalikku teavet statistiliste mõõtude pakkujate kohta vt jaotisest Statistilise mõõdu pakkuja mall. (Pange tähele, et see teema pole veel valmis, kuid see tuleb peagi.) Järgmises tabelis on näidatud tulemus, kui Inimressursside teenused on rakendatud kogukulu puhul eraldamisalusena (fikseeritud kulu ja muutuvkulu).
+**Märkus.** Finance and Operationsis saab statistilised mõõdud, nagu toote tarbitud tootmistunnid, tuletada lähteandmetest. Üksikasjalikku teavet statistiliste mõõtude pakkujate kohta vt jaotisest Statistilise mõõdu pakkuja mall. (Pange tähele, et see teema pole veel valmis, kuid see tuleb peagi.) Järgmises tabelis on näidatud tulemus, kui Inimressursside teenused on rakendatud kogukulu puhul eraldamisalusena (fikseeritud kulu ja muutuvkulu).
 
 <table>
 <thead>

@@ -3,14 +3,14 @@ title: Statistilise alusprognoosi koostamine
 description: "Selles artiklis on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d5232b0862d02962c6524ddc5ef37a6ad49d4143
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 93646e37ee511d433097bb284fccc73c230aee32
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,22 +40,22 @@ Nõudluse prognoosi loomiseks avage **Koondplaneerimine &gt; Prognoosimine &gt; 
 
 Prognoosi vahemiku saate valida prognoosi loomise ajal. Saadaval on järgmised väärtused: päev, nädal ja kuu. 
 
-Vahemike arvu, mille jaoks prognoos luuakse, saate määrata väljal**Prognoosi periood**. 
+Vahemike arvu, mille jaoks prognoos luuakse, saate määrata väljal **Prognoosi periood**. 
 
 Ajaloolise perioodi lõppu eiratakse, kui prognoosi strateegiaks on määratud **Kopeeri ajalooline nõudlus ümber**. Süsteem kopeerib väljal **Prognoosi periood** määratud vahemike arvu nõudluse prognoosi, alustades alguskuupäevast, mis on seatud jaotise **Ajalooline periood** väljal **Alguskuupäev**. Kopeerides ajaloolise nõudluse teatud kuupäevast alates, saavad tootmisplaanijad järgmist kvartalit planeerida kahel viisil:
 
 -   kopeerides eelmise aasta sama kvartali nõudluse või
 -   kopeerides eelmise kvartali nõudluse.
 
-Tootmisplaanide segaduse vältimiseks saab teatud hulga prognoosivahemike külmutada. Selle arvu saab määrata väljal **Külmuta ajapiir**. Lehel **Korrigeeritud nõudluse prognoos**on külmutatud vahemike lahtrid keelatud, et näidata visuaalselt, et neid väärtusi ei peaks muutma. 
+Tootmisplaanide segaduse vältimiseks saab teatud hulga prognoosivahemike külmutada. Selle arvu saab määrata väljal **Külmuta ajapiir**. Lehel **Korrigeeritud nõudluse prognoos** on külmutatud vahemike lahtrid keelatud, et näidata visuaalselt, et neid väärtusi ei peaks muutma. 
 
-Nõudluse alusprognoosi alguskuupäev ei pea olema tänane kuupäev ega tulevane kuupäev. Teise alguskuupäeva määramiseks kasutage välja **Alusprognoosi alguskuupäev – alates kuupäevast**. Näiteks saavad kasutajad juunis järgmise aasta prognoosi luua. Ajaloolise nõudluse lõpu ja alusprognoosi alguse prognoosivahemike puudumise tõttu ei pruugi prognoosid täpsed olla. Microsoft Dynamics 365 for Operationsi nõudluse prognoosimise teenuses on lünkade täitmiseks neli viisi. Soovitud meetodi saate valida, seades parameetri MISSING\_VALUE\_SUBSTITUTION leheküljel **Nõudluse prognoosimise parameetrid**. 
+Nõudluse alusprognoosi alguskuupäev ei pea olema tänane kuupäev ega tulevane kuupäev. Teise alguskuupäeva määramiseks kasutage välja **Alusprognoosi alguskuupäev – alates kuupäevast**. Näiteks saavad kasutajad juunis järgmise aasta prognoosi luua. Ajaloolise nõudluse lõpu ja alusprognoosi alguse prognoosivahemike puudumise tõttu ei pruugi prognoosid täpsed olla. Microsoft Dynamics 365 for Finance and Operationsi nõudluse prognoosimise teenuses on lünkade täitmiseks neli viisi. Soovitud meetodi saate valida, seades parameetri MISSING\_VALUE\_SUBSTITUTION leheküljel **Nõudluse prognoosimise parameetrid**. 
 
 Väljal **Alusprognoosi alguskuupäev** - **alates kuupäevast** peab määrama prognoosi vahemiku alguse, näiteks Ameerika Ühendriikides on nädalase prognoosivahemiku puhul alguseks pühapäev. Süsteem kohandab automaatselt välja **Alusprognoosi alguskuupäev** - **alates kuupäevast**, et olla vastavuses prognoosivahemiku algusega. 
 
 Väljale **Alusprognoosi alguskuupäev** - **alates kuupäevast** saab määrata mineviku kuupäeva. Teisisõnu on võimalik luua nõudluse prognoosi minevikus. See on kasulik, kuna võimaldab kasutajatel prognoosimisteenuse parameetreid kohandada selliselt, et varem loodud statistiline prognoos vastab tegelikule ajaloolisele nõudlusele. Seejärel saavad kasutajad neid parameetri sätted tulevase statistilise alusprognoosi loomisel kasutada. 
 
-Varasemates prognoosimise iteratsioonides käsitsi tehtud korrigeerimised saab automaatselt uuele alusprognoosile rakendada, kui ruut **Kandke käsitsi tehtud korrigeerimised üle nõudluse prognoosi** on märgitud. Kui ruut on tühi, ei lisata alusprognoosis käsitsi tehtud korrigeerimisi, kuid ei kustutata ka. Prognoosis käsitsi tehtud korrigeerimisi saab kustutada ainult prognoosi importimise ajal, tühjendades ruudu **Salvestage nõudluse alusprognoosis käsitsi tehtud korrigeerimised**. Käsitsi tehtud korrigeerimised salvestatakse autoriseerimise ajal. Seega, kui kasutaja korrigeerib prognoosi käsitsi, kuid ei autoriseeri prognoosi uuesti Dynamics 365 for Operationsis, lähevad muudatused kaotsi. Käsitsi tehtud korrigeerimiste ja nende tööpõhimõtete kohta vt lisateavet artiklist [Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md). 
+Varasemates prognoosimise iteratsioonides käsitsi tehtud korrigeerimised saab automaatselt uuele alusprognoosile rakendada, kui ruut **Kandke käsitsi tehtud korrigeerimised üle nõudluse prognoosi** on märgitud. Kui ruut on tühi, ei lisata alusprognoosis käsitsi tehtud korrigeerimisi, kuid ei kustutata ka. Prognoosis käsitsi tehtud korrigeerimisi saab kustutada ainult prognoosi importimise ajal, tühjendades ruudu **Salvestage nõudluse alusprognoosis käsitsi tehtud korrigeerimised**. Käsitsi tehtud korrigeerimised salvestatakse autoriseerimise ajal. Seega, kui kasutaja korrigeerib prognoosi käsitsi, kuid ei autoriseeri prognoosi uuesti Dynamics 365 for Finance and Operationsis, lähevad muudatused kaotsi. Käsitsi tehtud korrigeerimiste ja nende tööpõhimõtete kohta vt lisateavet artiklist [Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md). 
 
 Nõudluse prognoosil võib olla nimi ja kommetaarid, mis aitavad kasutajatel loodud prognoosi tuvastada. Need väärtused kuvatakse prognoosi loomise ajaloos leheküljel **Statistilise alusprognoosi loomise ajalugu**. 
 

@@ -1,16 +1,16 @@
 ---
 title: Finantsaruandlus
-description: "Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Operations finantsaruandlusele ja kuidas finantsaruandluse võimalusi kasutada. See sisaldab pakutavate vaike-finantsaruannete kirjeldust."
+description: "Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition finantsaruandlusele ja kuidas finantsaruandluse võimalusi kasutada. See sisaldab pakutavate vaike-finantsaruannete kirjeldust."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Operations finantsaruandlusele ja kuidas finantsaruandluse võimalusi kasutada. See sisaldab pakutavate vaike-finantsaruannete kirjeldust.
+Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition finantsaruandlusele ja kuidas finantsaruandluse võimalusi kasutada. See sisaldab pakutavate vaike-finantsaruannete kirjeldust.
 
 <a name="accessing-financial-reporting"></a>Juurdepääs finantsaruandlusele
 -----------------------------
 
-Menüü **Finantsaruandlus** leiate rakenduses Dynamics 365 for Operations järgmistest kohtadest.
+Menüü **Finantsaruandlus** leiate rakenduses Finance and Operations järgmistest kohtadest.
 
 -   **Pearaamat** &gt; **Päringud ja aruanded**
 -   **Eelarvestamine** &gt; **Päringud ja aruanded** &gt; **Põhiline eelarvestamine**
@@ -83,7 +83,7 @@ Rahalise aruandluse funktsioonid on saadaval kasutajatele, kellele on turberolli
 Pärast kasutaja lisamist või rolli muutmist peaks kasutaja mõne minuti jooksul finantsaruandlusele juurde pääsema. **Märkus:** süsteemiadministraatori roll lisatakse finantsaruandluses kõigile rollidele.
 
 ## <a name="default-reports"></a>Vaikearuanded
-Finantsaruandlus pakub 22 vaike-finantsaruannet. Iga aruanne kasutab rakenduses Dynamics 365 for Operations põhikonto vaikekategooriaid. Saate kasutada neid aruandeid olemasoleval kujul või finantsaruandluse vajaduste lähtepunktina. Lisaks tavalistele finantsaruannetele nagu kasumiaruanne ja bilanss sisaldavad need vaikearuanded aruandeid, millel on näidatud erinevat tüüpi finantsaruanded, mida saate koostada. Iga aruanne järgmises tabelis on lingitud Office Mixi esitlusega aruande kohta.
+Finantsaruandlus pakub 22 vaike-finantsaruannet. Iga aruanne kasutab rakenduses Finance and Operations põhikonto vaikekategooriaid. Saate kasutada neid aruandeid olemasoleval kujul või finantsaruandluse vajaduste lähtepunktina. Lisaks tavalistele finantsaruannetele nagu kasumiaruanne ja bilanss sisaldavad need vaikearuanded aruandeid, millel on näidatud erinevat tüüpi finantsaruanded, mida saate koostada. Iga aruanne järgmises tabelis on lingitud Office Mixi esitlusega aruande kohta.
 
 | Vaikearuanne                                                                                         | Kirjeldus                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Finantsaruandlus pakub 22 vaike-finantsaruannet. Iga aruanne kasutab rakenduses 
 Kui klõpsate menüüd **Finantsaruandlus**, kuvatakse ettevõtte vaike-finantsaruannete loend. Seejärel saate aruande avada või seda muuta. Mõne vaikearuande avamiseks valige aruande nimi. Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta. Näiteks kui avate aruande esmakordselt augustis 2016, koostatakse aruanne 31. juuli 2016 kohta. Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finantsaruannete koostamine ja muutmine
-Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, klõpsates tegumiribal nuppu **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida rakenduses Dynamics 365 for Operations kasutate. Lisateavet finantsaruannete koostamise ja muutmise kohta rakenduses Dynamics 365 for Operations leiate neist [ajaveebipostitustest](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) Dynamicsi finantsaruandluse ajaveebis. **Märkus:** arvutisse, kuhu aruandekoosturi alla laadite, peab olema installitud Microsoft .NET Frameworki versioon 4.6.2. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [siit](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Finantsaruannete loendis kuvatavat aruannet saab ka muuta. Kui on valitud aruande nime ümber olev ala, klõpsake tegumiribal nuppu **Redigeeri**. Käivitub aruande koostamise programm.
+Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, klõpsates tegumiribal nuppu **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Finance and Operationsis kasutate. Lisateavet finantsaruannete koostamise ja muutmise kohta rakenduses Finance and Operationsleiate neist [ajaveebipostitustest](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) Dynamicsi finantsaruandluse ajaveebis. **Märkus:** arvutisse, kuhu aruandekoosturi alla laadite, peab olema installitud Microsoft .NET Frameworki versioon 4.6.2. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [siit](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Finantsaruannete loendis kuvatavat aruannet saab ka muuta. Kui on valitud aruande nime ümber olev ala, klõpsake tegumiribal nuppu **Redigeeri**. Käivitub aruande koostamise programm.
 
 <a name="see-also"></a>Vt ka
 --------

@@ -3,14 +3,14 @@ title: "Nõudluse prognoosi seadistus"
 description: "Selles teemas kirjeldatakse seadistustoiminguid, mida tuleb nõudluse prognoosimiseks valmistumiseks teha."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72653
 ms.assetid: c5fa4b09-512d-4349-ac51-cc13da69a160
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f9b0930ac8d26f83be077fe0e6edf917e8fb0f58
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 74d520199410711b80b750a12ee726633e09d01c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -44,9 +44,9 @@ Kui prognoosi loomisel kasutatakse kauba eraldamisvõtit, peab kaup ja selle dim
 Kauba eraldamisvõtmele varude arvestusühiku (SKU) lisamiseks minge jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoos** &gt; **Kauba eraldamisvõtmed**. Kaubale kauba eraldamisvõtme määramiseks kasutage lehekülge **Kaupade määramine**.
 
 ## <a name="intercompany-planning-groups"></a>Kontsernisisesed plaanimisgrupid
-Nõudluse prognoos loob ettevõteteülesed prognoosid. Microsoft Dynamics 365 for Operationsis grupeeritakse koos plaanitud ettevõtted ühte kontsernisisesesse plaanimisgruppi. Ettevõtteti nõudluse prognoosimisel arvestatavate kauba eraldamisvõtmete määratlemiseks tuleks kauba eraldamisvõti seostada kontsernisisese plaanimisgrupi liikmega, minnes jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Kontsernisisesed plaanimisgrupid**. 
+Nõudluse prognoos loob ettevõteteülesed prognoosid. Microsoft Dynamics 365 for Finance and Operationsis grupeeritakse koos plaanitud ettevõtted ühte kontsernisisesesse plaanimisgruppi. Ettevõtteti nõudluse prognoosimisel arvestatavate kauba eraldamisvõtmete määratlemiseks tuleks kauba eraldamisvõti seostada kontsernisisese plaanimisgrupi liikmega, minnes jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Kontsernisisesed plaanimisgrupid**. 
 
-Kui kontsernisisese plaanimisgrupi liikmetele ei ole määratud ühtki kauba eraldamisvõtit, arvutatakse nõudluse prognoos vaikimisi kõigile kaupadele, mis on määratud kõigile kauba eraldamisvõtmetele kõigis Dynamics 365 for Operationsi ettevõtetes. Ettevõtte ja kauba eraldamisvõtmete täiendavad filtreerimissuvandid on saadaval leheküljel **Statistilise alusprognoosi loomine**. 
+Kui kontsernisisese plaanimisgrupi liikmetele ei ole määratud ühtki kauba eraldamisvõtit, arvutatakse nõudluse prognoos vaikimisi kõigile kaupadele, mis on määratud kõigile kauba eraldamisvõtmetele kõigis Finance and Operationsi ettevõtetes. Ettevõtte ja kauba eraldamisvõtmete täiendavad filtreerimissuvandid on saadaval leheküljel **Statistilise alusprognoosi loomine**. 
 
 Vaadake üle prognoositavate kaupade arv. Mittevajalike kaupadega võivad Microsoft Azure'i masinõppe kasutamisel suurenenud kulud kaasneda.
 
@@ -57,7 +57,7 @@ Nõudluse prognoosimine loob koguselise prognoosi. Seetõttu peab väljal **Nõu
 
 Nõudluse prognoosimist saab kasutada nii sõltuva kui ka sõltumatu nõudluse prognoosimiseks. Näiteks kui on valitud ainult ruut **Müügitellimus** ja kui kõik kaubad, mida arvestatakse nõudluse prognoosimisel, on müüdud, arvutab süsteem sõltumatu nõudluse. Kauba eraldamisvõtmetele ja nõudluse prognoosimisse saab siiski lisada olulisi alamkomponente. Kui ruut **Tootmisrida** on märgitud, arvutatakse sel juhul sõltuv prognoos. 
 
-Alusprognoosi loomiseks on Dynamics 365 for Operationsis kaks võimalust. Saate prognoosimise mudeleid ajalooliste andmete peal kasutada või ajaloolised andmed prognoosi kopeerida. Nende kahe meetodi vahel saate valida väljal **Prognoosi koostamise strateegia**. Prognoosimudelite kasutamiseks valige **Azure'i masinõpe**. 
+Alusprognoosi loomiseks on Finance and Operationsis kaks võimalust. Saate prognoosimise mudeleid ajalooliste andmete peal kasutada või ajaloolised andmed prognoosi kopeerida. Nende kahe meetodi vahel saate valida väljal **Prognoosi koostamise strateegia**. Prognoosimudelite kasutamiseks valige **Azure'i masinõpe**. 
 
 Kui klõpsate valikut **Prognoosi dimensioonid** lehekülje **Nõudluse prognoosimise parameetrid** vasakul paanil, saate valida ka nõudluse prognoosi loomisel kasutatavad prognoosi dimensioonid. Prognoosi dimensioon näitab prognoosile määratletud üksikasjade taset. Ettevõte, koht ja kauba eraldamisvõti on prognoosi kohustuslikud dimensioonid, kuid saate kasutada ka ladu, varude olekut, kliendigruppi, kliendikontot, riiki/regiooni, maakonda ja kaupa ning kõiki kauba dimensiooni tasemeid. 
 
@@ -65,7 +65,7 @@ Nõudluse prognoosimiseks kasutatavasse dimensioonide loendisse saate igal ajal 
 
 Kõik kaubad ei käitu nõudluse prognoosimise perspektiivist samal viisil. Sarnased kaubad saab koondada ühe kauba eraldamisvõtme alla ning seada kauba eraldamisvõtmeti parameetreid, nagu kande tüübid ja prognoosi meetodi seadistus. Klõpsake lehekülje **Nõudluse prognoosimise parameetrid** vasakul paanil valikut **Kauba eraldamisvõtmed**. 
 
-Prognoosi loomiseks kasutab Dynamics 365 for Operations masinõppe veebiteenust. Teenusega ühenduse loomiseks peate Microsoft Azure'i Machine Learning Studiosse sisselogimiseks andma Dynamics 365 for Operationsile järgmist teavet:
+Prognoosi loomiseks kasutab Finance and Operations masinõppe veebiteenust. Teenusega ühenduse loomiseks peate Microsoft Azure Machine Learning Studiosse sisselogimiseks andma Finance and Operationsile järgmist teavet:
 
 -   veebiteenuse rakenduse programmeerimisliidese (API) võti;
 -   veebiteenuse lõpp-punkti URL;
@@ -74,10 +74,10 @@ Prognoosi loomiseks kasutab Dynamics 365 for Operations masinõppe veebiteenust.
 
 **Märkus.** Azure'i salvestuskonto nime ja võtit on vaja ainult juhul, kui kasutate kohandatud salvestuskontot. Kui juurutate asutusesisest versiooni, peab teil olema Azure'is kohandatud salvestuskonto, et masinõppe teenus pääseks ajaloolistele andmetele juurde. 
 
-Nõudluse prognooside loomiseks saate juurutada oma teenuse, kasutades masinõppe stuudio või Dynamics 365 for Operationsi nõudluse prognoosimise katseid. Dynamics 365 for Operationsi nõudluse prognoosimise katsete veebiteenusena juurutamise juhised on saadaval Dynamics 365 for Operationsis. Klõpsake lehel **Nõudluse prognoosimise parameetrid** vahekaarti **Azure'i masinõpe**.
+Nõudluse prognooside loomiseks saate juurutada oma teenuse, kasutades masinõppe stuudio või Finance and Operationsi nõudluse prognoosimise katseid. Finance and Operationsi nõudluse prognoosimise katsete veebiteenusena juurutamise juhised on saadaval Finance and Operationsis. Klõpsake lehel **Nõudluse prognoosimise parameetrid** vahekaarti **Azure'i masinõpe**.
 
-## <a name="settings-for-the-dynamics-365-for-operations-demand-forecasting-machine-learning-service"></a>Dynamics 365 for Operationsi nõudluse prognoosimise masinõppe teenuse sätted
-Dynamics 365 for Operationsi nõudluse prognoosimise teenuse jaoks konfigureeritavate parameetrite vaatamiseks minge jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoos** &gt; **Prognoosi algoritmi parameetrid**. Lehel **Prognoosi algoritmi parameetrid** kuvatakse parameetrite vaikeväärtused. Saate need parameetrid üle kirjutada lehel **Nõudluse prognoosimise parameetrid**. Parameetrite globaalseks ülekirjutamiseks kasutage vahekaarti **Üldine**, kauba eraldamisvõtmeti ülekirjutamiseks kasutage vahekaarti **Kauba eraldamisvõtmed**. Kauba eraldamisvõtme parameetrite ülekirjutamine mõjutab ainult selle kauba eraldamisvõtmega seostatud kaupade prognoosi.
+## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Finance and Operationsi nõudluse prognoosimise masinõppe teenuse sätted
+Finance and Operationsi nõudluse prognoosimise teenuse jaoks konfigureeritavate parameetrite vaatamiseks minge jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoos** &gt; **Prognoosi algoritmi parameetrid**. Lehel **Prognoosi algoritmi parameetrid** kuvatakse parameetrite vaikeväärtused. Saate need parameetrid üle kirjutada lehel **Nõudluse prognoosimise parameetrid**. Parameetrite globaalseks ülekirjutamiseks kasutage vahekaarti **Üldine**, kauba eraldamisvõtmeti ülekirjutamiseks kasutage vahekaarti **Kauba eraldamisvõtmed**. Kauba eraldamisvõtme parameetrite ülekirjutamine mõjutab ainult selle kauba eraldamisvõtmega seostatud kaupade prognoosi.
 
 <a name="see-also"></a>Vt ka
 --------

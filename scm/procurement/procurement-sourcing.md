@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 -   [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md)
 -   [Hankija koostöö seadistamine ja haldamine](set-up-maintain-vendor-collaboration.md)
--   [Sissetulevate veoste varude demoskript rakendusele Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniline ülevaade)
+-   [Sissetulevate veoste varude demoskript rakendusele Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniline ülevaade)
 -   [Veose varude jälgimine hankija koostöö abil](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Koostöö hankijatega, kasutades hankijaportaali](collaborate-vendors-vendor-portal.md) (ainult Dynamics 365 for Operationsi 2016. aasta veebruari ja 2016. aasta mai versioonid)
--   [Turbe konfiguratsioon hankijaportaali kasutajatele](configure-security-vendor-portal-users.md) (ainult Dynamics 365 for Operationsi 2016. aasta veebruari ja 2016. aasta mai versioonid)
--   [Hankija koostöö mobiilne tööruum rakendusele Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [Koostöötamine hankijatega, kasutades hankijaportaali](collaborate-vendors-vendor-portal.md)  (ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonid)
+-   [Turbe konfiguratsioon hankijaportaali kasutajatele](configure-security-vendor-portal-users.md) (ainult Finance and Operationsi 2016. aasta veebruari ja 2016. aasta mai versioonid)
+-   [Hankija koostöö mobiilne tööruum rakendusele Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Hanke tootehaldus
 -   [Hankekataloogid](procurement-catalogs.md)
@@ -92,8 +92,8 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 
 ## <a name="product-receipt-and-invoicing"></a>Toote sissetulek ja arveldamine
 -   [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
--   [Hankija arvete ülevaade](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Hankija sisestusreeglid](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Hankija arvete ülevaade](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Hankija sisestusreeglid](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Hangete töövood
 -   [Hangete ülevaade](procurement-sourcing-overview.md)

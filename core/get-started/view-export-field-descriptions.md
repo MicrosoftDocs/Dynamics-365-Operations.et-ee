@@ -3,14 +3,14 @@ title: "Väljade kirjelduste vaatamine ja eksportimine"
 description: "Selles artiklis kirjeldatakse, kuidas vaadata väljade kirjeldusi ja kuidas kasutada väljade kirjelduste lehte kirjelduste eksportimiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 Selles artiklis kirjeldatakse, kuidas vaadata väljade kirjeldusi ja kuidas kasutada väljade kirjelduste lehte kirjelduste eksportimiseks.
 
-Microsoft Dynamics 365 for Operationsis on antud mõne keerukama välja kirjeldused. Need kirjeldused kuvatakse, kui liigute välja kohale. Väljade kirjeldusi saab vaadata ja eksportida ka lehel **Väljade kirjeldused**. 
+Microsoft Dynamics 365 for Finance and Operationsis on antud mõne keerukama välja kirjeldused. Need kirjeldused kuvatakse, kui liigute välja kohale. Väljade kirjeldusi saab vaadata ja eksportida ka lehel **Väljade kirjeldused**. 
 
 Kõigil lehekülgedel ei ole väljade kirjeldusi. Soovime pakkuda kirjeldusi ainult keerukamate väljade jaoks, mitte nende väljade jaoks, mille kasutamine on ilmselge. Seetõttu pole mõnel lehel väljade kirjeldusi, mõnel lehel on mõned kirjeldused ja mõnel keerukamal lehel (nt paljudel parameetrilehtedel) on palju kirjeldusi. 
 
-Kui teil on juurdepääs Microsoft Dynamics 365 for Operationsi arenduskeskkonnale, saate lisada uusi väljade kirjeldusi ja kohandada olemasolevaid kirjeldusi. Näiteks saate lisada välja kirjeldusele ettevõttepõhist teavet. Lisateavet leiate jaotisest [Välja spikri kohandamine](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
+Kui teil on juurdepääs Finance and Operationsi arenduskeskkonnale, saate lisada uusi väljade kirjeldusi ja kohandada olemasolevaid kirjeldusi. Näiteks saate lisada välja kirjeldusele ettevõttepõhist teavet. Lisateavet leiate jaotisest [Välja spikri kohandamine](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Väljakirjelduste vaatamine kasutajaliideses
-Välja kirjelduse vaatamiseks liikuge välja kohale. Kui kirjeldus puudub, näete välja kohale liikudes välja nime. (Märkus. Versioonis 7.0.0 saab välja kirjeldusi vaadata ainult lehel **Välja kirjeldused**.) Järgmine joonis näitab välja kirjeldust, mis ilmub, kui liigutate kursori välja **Lukusta kaubad inventuuri ajaks** kohale. 
+Välja kirjelduse vaatamiseks liikuge välja kohale. Kui kirjeldus puudub, näete välja kohale liikudes välja nime. (Märkus. Dynamics AX-i versioonis 7.0 (veebruar 2016) saab välja kirjeldusi vaadata ainult lehel **Välja kirjeldused**.) Järgmine joonis näitab välja kirjeldust, mis ilmub, kui liigutate kursori välja **Lukusta kaubad inventuuri ajaks** kohale. 
 
 [![Väljakirjelduse näide](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Teavet mitmesuguste võimaluste kohta lehtede otsimiseks leiate selle artikli va
 <a name="see-also"></a>Vt ka
 --------
 
-[Väljaspikri kohandamine](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[Väljaspikri kohandamine](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

@@ -1,15 +1,15 @@
 ---
 title: Teabe leidmiseks otsingute kasutamine
-description: "Rakenduses Microsoft Dynamics 365 for Operations on paljudel väljadel otsingud, mis saavad aidata teil hõlpsalt õiget või soovitud väärtust leida. Otsingutele on lisatud mitmed täiustused, mis muudavad need juhtelemendid kasutatavamaks ja kasutajad produktiivsemaks. Selles teemas saate teada nende uute otsingufunktsioonide kohta ja saate mõned näpunäited, et süsteemis otsinguid optimaalselt kasutada."
+description: "Rakenduses Microsoft Dynamics 365 for Finance and Operations on paljudel väljadel otsingud, mis saavad aidata teil hõlpsalt õiget või soovitud väärtust leida. Otsingutele on lisatud mitmed täiustused, mis muudavad need juhtelemendid kasutatavamaks ja kasutajad produktiivsemaks. Selles teemas saate teada nende uute otsingufunktsioonide kohta ja saate mõned näpunäited, et süsteemis otsinguid optimaalselt kasutada."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269934
 ms.assetid: f20cbd2c-14e0-47e7-b351-8e60d3537f96
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 652fbdb7a96c516ca1fc17357683d94b85cd93f3
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5d0a9edd2cb5747fc799c6fdca45dd9ba5720f7
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Rakenduses Microsoft Dynamics 365 for Operations on paljudel väljadel otsingud, mis saavad aidata teil hõlpsalt õiget või soovitud väärtust leida. Otsingutele on lisatud mitmed täiustused, mis muudavad need juhtelemendid kasutatavamaks ja kasutajad produktiivsemaks. Selles teemas saate teada nende uute otsingufunktsioonide kohta ja saate mõned näpunäited, et süsteemis otsinguid optimaalselt kasutada.  
+Rakenduses Microsoft Dynamics 365 for Finance and Operations on paljudel väljadel otsingud, mis saavad aidata teil hõlpsalt õiget või soovitud väärtust leida. Otsingutele on lisatud mitmed täiustused, mis muudavad need juhtelemendid kasutatavamaks ja kasutajad produktiivsemaks. Selles teemas saate teada nende uute otsingufunktsioonide kohta ja saate mõned näpunäited, et süsteemis otsinguid optimaalselt kasutada.  
 
 <a name="responsive-lookups"></a>Hästi reageerivad otsingud
 ------------------
 
-Rakenduse Dynamics 365 for Operations varasemates versioonides otsingu juhtelemendiga suheldes peaks kasutaja tegema rippmenüü avamiseks selge toimingu. Selleks võib sisestada juhtelementi tärni (\*), et filtreerida otsingut juhtelemendi praeguse väärtuse põhjal, klõpsates rippmenüü nuppu või kasutades kiirklahvi **Alt**+**Allanool**. Otsingu juhtelemente on muudetud järgmistel viisidel, et paremini ühtida praeguste veebitavadega.
+Rakenduse Finance and Operations varasemates versioonides otsingu juhtelemendiga suheldes peaks kasutaja tegema rippmenüü avamiseks selge toimingu. Selleks võib sisestada juhtelementi tärni (\*), et filtreerida otsingut juhtelemendi praeguse väärtuse põhjal, klõpsates rippmenüü nuppu või kasutades kiirklahvi **Alt**+**Allanool**. Otsingu juhtelemente on muudetud järgmistel viisidel, et paremini ühtida praeguste veebitavadega.
 
 -   Otsingu rippmenüüd avanevad nüüd automaatselt pärast väikest pausi tippimisel ja rippmenüü sisu filtreeritakse otsingu juhtelemendi väärtuse põhjal.
     -   Pange tähele, et rippmenüü automaatse avanemise vana käitumine pärast tärni (\*) sisestamist on aegunud.
@@ -58,7 +58,7 @@ Isegi kui fookus on ikka otsingu juhtelemendis, saate kasutada ka klahve **Üles
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Rohkemate andmete kui vaid ID-de sisestamine
-Andmete sisestamisel on loomulik, et nime osas proovivad kasutajad olemit tähistava identifikaatori asemel tuvastada olemit, nagu klient või hankija. Rakenduse Dynamics 365 for Operations praeguses versioonis võimaldavad paljud (kuid mitte kõik) otsingud nüüd kontekstuaalsete andmete sisestust. See mitmekülgne funktsioon võimaldab kasutajal sisestada otsingu juhtelementi ID või vastava nime. 
+Andmete sisestamisel on loomulik, et nime osas proovivad kasutajad olemit tähistava identifikaatori asemel tuvastada olemit, nagu klient või hankija. Rakenduse Finance and Operations praeguses versioonis võimaldavad paljud (kuid mitte kõik) otsingud nüüd kontekstuaalsete andmete sisestust. See mitmekülgne funktsioon võimaldab kasutajal sisestada otsingu juhtelementi ID või vastava nime. 
 
 Näiteks müügitellimuse loomisel arvestage välja **Kliendi konto**. See väli näitab kliendi puhul suvandit **Konto ID**, kuid tavaliselt eelistab kasutaja müügitellimuse loomisel sisestada väärtuse **Konto ID** asemel väärtust **Konto nimi**, näiteks väärtuse „US-003” asemel väärtust „Hulgimüük”.
 

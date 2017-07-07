@@ -1,16 +1,16 @@
 ---
 title: "Laotöötajate haldamine"
-description: "Selles artiklis kirjeldatakse, kuidas saate kasutada Microsoft Dynamics AX-i nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd."
+description: "Selles artiklis kirjeldatakse, kuidas saate kasutada Dynamics 365 for Finance and Operationsit nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse, kuidas saate kasutada Microsoft Dynamics AX-i nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
+Selles artiklis kirjeldatakse, kuidas saate kasutada Microsoft Dynamics 365 for Finance and Operations, Enterprise editionit nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 
 Kui kasutate funktsiooni jaotises Laohaldus, viidatakse kõikidele laotöötaja toimingutele sõnaga *töö*. Töö, nagu komplekteerimine, teisaldamine ja vabade laovarude inventuur, salvestatakse mobiilse seadmega. Enne kui laotöötaja saab tööd teha, peab ta olema jaotises Inimressursid töötajaga seostatud. Iga kontoga **Töötaja** võib olla seostatud mitu laotöö kasutajat. Need töökasutajad võivad töötada erinevates ladudes ja neil võib olla erinevatele mobiilse seadme menüüdele erinev juurdepääsutase. Laotöö kasutajatest võib mõelda kui valitud töötaja mitmest logimisnimest. Igal töö kasutajal on vaikeladu ja selle töö kasutajale saadaolevate menüü-üksused kasutavad konkreetseid töövooge. 
 

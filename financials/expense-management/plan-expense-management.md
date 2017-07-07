@@ -1,27 +1,28 @@
 ---
 title: Kuluhalduse konfigureerimine
-description: "Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics AX-is kuluhaldust konfigureerite. Kuluhalduse alal saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jm kohta."
-author: kfend
+description: "Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis kuluhaldust konfigureerite. Kuluhalduse alal saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jm kohta."
+author: KimANelson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 62bef78c143f7ad83e78982dbecb1c9e4542187d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics AX-is kuluhaldust konfigureerite. Kuluhalduse alal saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jm kohta. 
+Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis kuluhaldust konfigureerite. Kuluhalduse alal saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jm kohta. 
 
 Kuna paljud otsused, mida kuluhalduse konfiguratsiooni plaanimisel langetate, põhinevad organisatsiooni hierarhial ja finantsstruktuuril, tuleb juhinduda nende valdkondade plaanimisdokumentidest.
 

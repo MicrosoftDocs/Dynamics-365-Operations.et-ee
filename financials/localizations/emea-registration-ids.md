@@ -3,7 +3,7 @@ title: Registreerimise ID-d
 description: See teema annab teavet registreerimise ID-de seadistamise ja kasutamise kohta.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fc4a56eceb75673b7a044bd8392f8d0cc675e869
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -57,10 +57,12 @@ Registreerimiskategooria on riigi/regiooni registreerimise identifikaator, mis o
 |-----------------------|----------------|
 | Registreerimise tüüp     | Registreerimistüüp kõnealuses riigis/regioonis.|
 | Kitsendatud         | Maksu registreerimistüübile kohaldub piirangu laad: Pole, Isik, Organisatsioon.|
-| Registreerimiskategooria | Riigis kasutamiseks heakskiidetud kordumatu registreerimise identifikaator. Täieliku loendi AX7.1 kategooraites toetatud ID-dest leiate altpoolt. |
+| Registreerimiskategooria | Riigis kasutamiseks heakskiidetud kordumatu registreerimise identifikaator. Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni toetatud kategooriate tervikloend on allpool. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Sisestage registreerimise ID-d globaalse aadressiraamatu kirjete puhul
-Rakenduse Microsoft Dynamics 365 for Operations globaalne aadressiraamat (GAB) sisaldab konsolideeritud aadressiteavet klientide, hankijate, kontaktide, ärisuhete ja juriidiliste isikute kohta. Lisateavet vt teemast [Globaalse aadressiraamatu ülevaade](/dynamics365/operations/organization-administration/overview-global-address-book). Osapoole kirjed, mis on salvestatud globaalsesse aadressiraamatusse, võivad sisaldada üht või mitut aadressikirjet. Neid aadresse kasutatakse erinevatel eesmärkidel, näiteks arvete või tarnimise jaoks. Saate määrata aadressiteabe jaoks registreerimise ID-d klientidele, hankijatele, töötajatele ja juriidilistele isikutele. Leidke osapoole (juriidiline isik, hankija, klient, töötaja) kirje, mille jaoks soovite registreerimise ID-d sisestada, ja klõpsake osapoole, juriidilise isiku, hankija, kliendi või töötajaga seotud vormidel valikut **Registreerimise ID-d**, et avada leht **Aadresside haldamine**. Klõpsake vahekaardil **Maksu registreerimine** nuppu **Lisa** ja sisestage registreerimise ID kohta järgmine teave.
+
+Rakenduse Microsoft Finance and Operations globaalne aadressiraamat (GAB) sisaldab konsolideeritud aadressiteavet klientide, hankijate, kontaktide, ärisuhete ja juriidiliste isikute kohta. Lisateavet vt teemast [Globaalse aadressiraamatu ülevaade](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). Osapoole kirjed, mis on salvestatud globaalsesse aadressiraamatusse, võivad sisaldada üht või mitut aadressikirjet. Neid aadresse kasutatakse erinevatel eesmärkidel, näiteks arvete või tarnimise jaoks. Saate määrata aadressiteabe jaoks registreerimise ID-d klientidele, hankijatele, töötajatele ja juriidilistele isikutele. Leidke osapoole (juriidiline isik, hankija, klient, töötaja) kirje, mille jaoks soovite registreerimise ID-d sisestada, ja klõpsake osapoole, juriidilise isiku, hankija, kliendi või töötajaga seotud vormidel valikut **Registreerimise ID-d**, et avada leht **Aadresside haldamine**. Klõpsake vahekaardil **Maksu registreerimine** nuppu **Lisa** ja sisestage registreerimise ID kohta järgmine teave.
+
 
 |Väli                |Kirjeldus                                                |
 |---------------------|-----------------------------------------------------------|
@@ -80,23 +82,23 @@ Rakenduse Microsoft Dynamics 365 for Operations globaalne aadressiraamat (GAB) s
 Osapoolte kirjete otsimine registreerimise ID alusel on võimalik osapoole, juriidilise isiku, hankija, kliendi ja töötajaga seotud vormidel. Klõpsake valikut **Registreerimise ID otsing**, et avada leht **Registreerimise ID otsingukriteeriumid**. Määrake otsingukriteeriumid ja klõpsake nuppu **Leia**. Süsteem kuvab valitud kirjed globaalsest aadressiraamatust ja seostatud tüüpi osapoole kirjed.
 
 ## <a name="supported-registration-categories"></a>Toetatud registreerimiskategooriad
-Järgmises tabelis on toodud Dynamics 365 for Operationsis toetatud registreerimistüübid. Kui olete Microsoft Dynamics AX 2012 registreerimise ID väljadega tuttav, leiate sellest tabelist ka nende väljade vasted Dynamics 365 for Operationsi registreerimiskategooriatele.
+Järgmises tabelis on toodud Finance and Operationsis toetatud registreerimistüübid. Kui olete Microsoft Dynamics AX 2012 registreerimise ID väljadega tuttav, leiate sellest tabelist ka nende väljade vasted Finance and Operationsi registreerimiskategooriatele.
 
-| Dynamics 365 for Operationsi registreerimiskategooria         |Riik/regioon  | Dynamics AX 2012 mõiste/väli|
+| Finance and Operationsi registreerimiskategooria         |Riik/regioon  | Dynamics AX 2012 mõiste/väli|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| KM-i ID                                                        | Kõik Euroopa Liidu (EL) riigid|  Maksukohuslase kood (seadusjärgset tüüpi TAX ID rakenduses AX2012 R3)|
-| Ettevõtte ID (COID)                                          | Belgia, Tšehhi Vabariik, Eesti, Ungari, Läti, Leedu, Poola, Šveits | Ettevõtte number (EnterpriseNumber) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Ettevõtet kood (EnterpriseCode) Registreerimisnumber (RegNum\_W) UID (Seadusjärgset tüüpi UID rakenduses AX2012 R3) |
+| KM-i ID                                                        | Kõik Euroopa Liidu (EL) riigid|  Maksukohustuslase kood (seadusjärgset tüüpi TAX ID rakenduses AX 2012 R3)|
+| Ettevõtte ID (COID)                                          | Belgia, Tšehhi Vabariik, Eesti, Ungari, Läti, Leedu, Poola, Šveits | Ettevõtte number (EnterpriseNumber) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Registreerimisnumber (RegNum\_W) Ettevõtet kood (EnterpriseCode) Registreerimisnumber (RegNum\_W) UID (Seadusjärgset tüüpi UID rakenduses AX 2012 R3) |
 | Haru ID                                                     | Belgia            | Filiaali kood (BranchNumber)|
 | Spisová značka (registreerimisnumber, väljaandev asutus, sektsioon) | Tšehhi Vabariik     | Sisestatud number (CommercialRegisterInsetNumber) Säilitatud äriregistris (CommercialRegister) Äriregistri sektsioon (CommercialRegisterSection)|
 | Tollikliendi ID                                           | Soome | Tollikliendi number (CustomsCustomerNumber\_FI)|
-| INN                                                           | Venemaa Föderatsioon| INN (seadusjärgset tüüpi INN rakenduses AX2012 R3)|
-| RRC                                                           | Venemaa Föderatsioon| RRC (seadusjärgset tüüpi RRC rakenduses AX2012 R3)|
-| OKDP                                                          | Venemaa Föderatsioon| OKDP (seadusjärgset tüüpi OKDP rakenduses AX2012 R3)|
-| OKPO                                                          | Venemaa Föderatsioon| OKPO (seadusjärgset tüüpi OKPO rakenduses AX2012 R3)|
-| RCOAD                                                         | Venemaa Föderatsioon| RCOAD (seadusjärgset tüüpi RCOAD rakenduses AX2012 R3)|
-| OGRN                                                          | Venemaa Föderatsioon| OGRN (seadusjärgset tüüpi OGRN rakenduses AX2012 R3) |
-| SNILS                                                         | Venemaa Föderatsioon| SNILS (seadusjärgset tüüpi SNILS rakenduses AX2012 R3)|
-| CIFTS                                                         | Venemaa Föderatsioon| CIFTS (seadusjärgset tüüpi CIFTS rakenduses AX2012 R3)|
+| INN                                                           | Venemaa Föderatsioon| INN (seadusjärgset tüüpi INN rakenduses AX 2012 R3)|
+| RRC                                                           | Venemaa Föderatsioon| RRC (seadusjärgset tüüpi RRC rakenduses AX 2012 R3)|
+| OKDP                                                          | Venemaa Föderatsioon| OKDP (seadusjärgset tüüpi OKDP rakenduses AX 2012 R3)|
+| OKPO                                                          | Venemaa Föderatsioon| OKPO (seadusjärgset tüüpi OKPO rakenduses AX 2012 R3)|
+| RCOAD                                                         | Venemaa Föderatsioon| RCOAD (seadusjärgset tüüpi RCOAD rakenduses AX 2012 R3)|
+| OGRN                                                          | Venemaa Föderatsioon| OGRN (seadusjärgset tüüpi OGRN rakenduses AX 2012 R3) |
+| SNILS                                                         | Venemaa Föderatsioon| SNILS (seadusjärgset tüüpi SNILS rakenduses AX 2012 R3)|
+| CIFTS                                                         | Venemaa Föderatsioon| CIFTS (seadusjärgset tüüpi CIFTS rakenduses AX 2012 R3)|
 
 Lisateavet registreerimise ID-de töötlemise kohta, sealhulgas nõutavad eeltingimused, leiate järgmistest elutsükliteenuste (LCS) KMKR-i tegevuste salvestistest.
 

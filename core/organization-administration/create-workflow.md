@@ -3,13 +3,13 @@ title: "Töövoo loomine"
 description: "See teema selgitab, kuidas töövoogu luua."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Core
+ms.search.scope: Core, UnifiedOperations
 ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bf8f87fffa655b0e8566147af31c8fff02e045ad
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ See teema selgitab, kuidas töövoogu luua.
 <a name="open-the-workflow-editor"></a>Avage töövoo redaktor
 ------------------------
 
-Microsoft Dynamics 365 for Operationsi moodul, milles töötate, määrab töövootüübid, mida saate luua. Läbige need etapid töövoo tüübi valimiseks, et luua ja avada töövoo redaktor.
+Microsoft Dynamics 365 for Finance and Operationsi moodul, milles töötate, määrab töövootüübid, mida saate luua. Läbige need etapid töövoo tüübi valimiseks, et luua ja avada töövoo redaktor.
 
 1.  Avage moodul, mille jaoks soovite luua uue töövoo. Näiteks ostutaotluste jaoks töövoo loomiseks klõpsake valikut **Hanked**.
 2.  Klõpsake valikuid **Seadistus** &gt; **Mooduli \[mooduli nimi\] töövood**.
@@ -74,7 +74,7 @@ Töövooredaktori allservas olev paan **Tõrked ja hoiatused** näitab töövoo 
 ## <a name="save-and-activate-the-workflow"></a>Salvestage ja aktiveerige töövoog
 Kui olete valmis töövoo salvestama ja aktiveerima, järgige neid juhiseid.
 
-1.  Klõpsake valikut**Salvesta ja sule**, et sulgeda töövooredaktor ja avada leht **Salvesta töövoog**.
+1.  Klõpsake valikut **Salvesta ja sule**, et sulgeda töövooredaktor ja avada leht **Salvesta töövoog**.
 2.  Sisestage kommentaarid töövoole tehtud muudatuste kohta ja klõpsake seejärel **OK**.
 3.  Kui kõik tõrked ja hoiatused on lahendatud, ilmub leht **Aktiveeri töövoog**. Tehke üks järgmistest valikutest:
     -   Töövoo selle versiooni aktiveerimiseks klõpsake valikut **Aktiveeri uus versioon**. Kui töövoog on aktiivne, saavad kasutajad esitada töötlemiseks dokumente.

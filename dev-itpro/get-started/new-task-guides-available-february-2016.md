@@ -3,13 +3,13 @@ title: Uued tegevusjuhised (veebruar 2016)
 description: "Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.  Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics 365 for Operationsi APQC ühendatud teek ja (2016. a. veebruari Alustamine."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3c99753f22e537fdc026342dce12389fb9acc83a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cdad1d6c2466b47b07133a5335866ef6881609ca
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.  Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics 365 for Operationsi APQC ühendatud teek ja (2016. a. veebruari Alustamine.
+Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.  Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics AX-i APQC ühendatud teek ja (2016. a. veebruari) Alustamine.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Tegevusjuhised (veebruar 2016) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegist
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (veebruar 2016) Microsoft Dynamics AX-i APQC ühendatud teegist
 ---------------------------------------------------------------------------------
 
-(2016. aasta veebruari) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks väljaandega Dynamics 365 for Operations 7.0.0. Kui vajate neist tegevusjuhistest lokaliseeritud versioone, siis need on saadaval Microsoft Dynamics 365 for Operationsi (2016. aasta mai) APQC ühendatud teegist. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
+(2016. aasta veebruari) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks väljaandega Dynamics AX 7.0.0. Kui vajate neist tegevusjuhistest lokaliseeritud versioone, siis need on saadaval Microsoft Dynamics AX-i (2016. aasta mai) APQC ühendatud teegist. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
 
 ### <a name="accounts-payable"></a>Ostureskontro
 

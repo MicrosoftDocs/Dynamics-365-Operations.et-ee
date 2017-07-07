@@ -3,14 +3,14 @@ title: "Alusprognoosis käsitsi korrigeerimiste tegemine"
 description: "Selles artiklis selgitatakse, kuidas alusprognoosi käsitsi korrigeerida ning prognoosi üksikasju kuvada."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 00e3d39d93a971dd6d4e88e322a1311eb58d7230
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0b3b56aa838888461a6d27c6612e405a3cf59414
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Lehe **Korrigeeritud nõudluse prognoos** ruudustikul on järgmine struktuur.
 ## <a name="forecast-aggregation-and-deaggregation"></a>Prognoosi koondamine ja jaotamine
 Lehe alapealkiri näitab prognoosi koondamise taset. 
 
-Näiteks, kui lehe alapealkiri on **Ettevõte / Koht / Eraldamisvõti / Kaubakood / Värv / Suurus / Konfiguratsioon / Stiil**, ei ole prognoosi koondatud ning seda kuvatakse kauba ja selle dimensioonide tasemel. Koondamise muutmiseks kasutage lehekülge**Prognoosi dimensioonide muutmine**, mille saate avada rakenduse menüüst. 
+Näiteks, kui lehe alapealkiri on **Ettevõte / Koht / Eraldamisvõti / Kaubakood / Värv / Suurus / Konfiguratsioon / Stiil**, ei ole prognoosi koondatud ning seda kuvatakse kauba ja selle dimensioonide tasemel. Koondamise muutmiseks kasutage lehekülge **Prognoosi dimensioonide muutmine**, mille saate avada rakenduse menüüst. 
 
 Prognoosi muutmiseks klõpsake mistahes saadaoleval lahtril ja sisestage sinna korrigeeritud prognoosi väärtus. Redigeeritud lahtri sisu pannakse paksu kirja, et näidata, et selles kuvatav prognoos ei ole nõudluse prognoosimise teenuse loodud prognoos, vaid seda on käsitsi korrigeeritud. 
 
@@ -59,7 +59,7 @@ Kui prognoositud kogust on korrigeeritud koondamise tasemel, kasutab süsteem ka
 Leheküljel **Nõudluse prognoosi read** saate ka käsitsi korrigeerimisi teha, muutes kas väärtust **Üldkogus** või jaotamise ruudustiku lahtreid **Kogus**.
 
 ## <a name="viewing-details-of-the-forecast"></a>Prognoosi üksikasjade vaatamine
-Prognoosi kohta lisateabe saamiseks avage lehekülg**Nõudluse prognoosi üksikasjad**. 
+Prognoosi kohta lisateabe saamiseks avage lehekülg **Nõudluse prognoosi üksikasjad**. 
 
 Lehel **Nõudluse prognoosi üksikasjad** kuvatakse graafilises vormingus ja tabelina järgmist teavet:
 
@@ -73,7 +73,7 @@ Lehel **Nõudluse prognoosi üksikasjad** kuvatakse graafilises vormingus ja tab
 **Märkused.**
 
 -   Jaotises **Prognoos** kuvatud usaldusvahemik tähistab usaldusvahemiku ülem- ja alampiiri erinevust. Ülem- ja alampiiri väärtuste vaatamiseks liikuge üle diagrammi jaotises **Varasem nõudlus ja prognoos graafiliselt**.
--   Kui kasutate Dynamics 365 for Operationsi nõudluse prognoosimise Microsoft Azure’i masinõppe teenust, saate määrata loodava prognoosi usaldusväärsuse taseme protsendi. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
+-   Kui kasutate Finance and Operationsi nõudluse prognoosimise Microsoft Azure’i masinõppe teenust, saate määrata loodava prognoosi usaldusväärsuse taseme protsendi. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
 
 Leheküljel **Nõudluse prognoosi üksikasjad** saate prognoosis käsitsi korrigeerimis teha, muutes väärtusi reas **Prognoos** jaotises **Prognoos**.
 

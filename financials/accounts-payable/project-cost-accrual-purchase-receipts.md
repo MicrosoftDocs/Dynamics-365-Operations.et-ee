@@ -1,15 +1,15 @@
 ---
 title: Projektikulu juurdekasv ostu sissetulekute korral
-description: "Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab Microsoft Dynamics 365 for Operationsis jälgida."
+description: "Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis jälgida."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab Microsoft Dynamics 365 for Operationsis jälgida. 
+Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis jälgida. 
 
 Projekti arved saabuvad sageli kaupade ja teenuste üleandmisest hiljem, millel võib olla märkimisväärne mõju projekti juhtimismõõdikutele (KPI-dele). Nende kannete jälgimise võimalus nii finants- kui ka projektiaruannetes on oluline.
 
@@ -38,7 +38,7 @@ Seda illustreerib järgmine näidisstsenaarium.
 
 Contoso Consulting on käivitanud uue pilvejuurutusprojekti. Luuakse ostutellimus projekti jaoks arvuti ostmiseks. Arvuti hind on 1500 $ ja paigaldusteenuste hind 150 $. Hankija on arvuti kohale toonud ja paigaldanud, kuid arve pole veel ettevõttesse Contoso Consulting jõudnud. Projektijuht soovib näha projekti maksumuse koondsummat 1650 $ enne arve kohaletoimetamist. See kulu peaks kajastuma ka ettevõtte kuu lõpu finantsaruannetes. 
 
-Koondkulu tuleb kajastada nii finantstaseme kui ka projekti taseme aruandluses. Dynamics 365 for Operationsis saab toote sissetuleku finantsuuendus jälgida kauba ja hanke kategooriates. 
+Koondkulu tuleb kajastada nii finantstaseme kui ka projekti taseme aruandluses. Finance and Operationsis saab toote sissetuleku finantsuuendus jälgida kauba ja hanke kategooriates. 
 
 Tehke kaupadele lehel **Ostureskontro parameetrid** valik **Sisesta toote sissetulek pearaamatusse**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +73,7 @@ Hankekategooriat saab lehel **Hankekategooria** projektikategooriatega vastendad
 
 **3. etapp:** hankija arve mustandi koostamine. 
 
-Dynamics 365 for Operationsis ei mõjuta toote sissetuleku sisestamine projekti andmeid. Lahendusena võite koostada hankija arve mustandi otse pärast ostukviitungi sisestamist. Minge lehele **Ostutellimus** &gt; **Vahekaart Arve** &gt; **Loo** &gt; **Arve**. Nii koostatakse ootel arvedokument, mis muudab projekti andmeid. 
+Finance and Operationsis ei mõjuta toote sissetuleku sisestamine projekti andmeid. Lahendusena võite koostada hankija arve mustandi otse pärast ostukviitungi sisestamist. Minge lehele **Ostutellimus** &gt; **Vahekaart Arve** &gt; **Loo** &gt; **Arve**. Nii koostatakse ootel arvedokument, mis muudab projekti andmeid. 
 
 Hankija arve mustandi loomisel luuakse ootel projektikanded. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

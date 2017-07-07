@@ -3,7 +3,7 @@ title: "Müügilepingud"
 description: "Selles artiklis antakse teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d356017ac0413b92ff9734800231ba1979dac242
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4eaa4fef65fb310524f25d052aeefb58c5f20fe4
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -102,14 +102,14 @@ Kui olete loonud (väljastanud) müügilepinguga seotud müügitellimuse, saate 
 | Kogus                                                          | Kui määrate koguse, mis ületab kogust müügilepingu real, kus märgitud on ruut **Maksimaalne on jõustatud**, kuvatakse sõnumiviip, milles palutakse teil muudetud kogus salvestada. Klõpsake valikut **Jah**, et eemaldada link müügilepingu reaga ja hind ümber arvutada. Klõpsake valikut **Ei**, et eemaldada link müügilepingu reaga ilma hinda ümber arvutamata.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Müügilepingu alusel tellitud kauba tagastamine
-Kui klient tagastab toote, mis on tellitud müügilepingu alusel, saab Microsoft Dynamics 365 for Operations seotud müügilepingu kohustuse leida ja seda automaatselt värskendada, et kajastada koguse või summa muutust. Algse müügilepinguga lingitud müügitellimuse põhjal tagastustellimust luues loote lingi müügilepingu kohustuse, müügitellimuse rea ja tagastustellimuse arve vahel.  
+Kui klient tagastab toote, mis on tellitud müügilepingu alusel, saab Microsoft Dynamics 365 for Finance and Operations seotud müügilepingu kohustuse leida ja seda automaatselt uuendada, et kajastada koguse või summa muutust. Algse müügilepinguga lingitud müügitellimuse põhjal tagastustellimust luues loote lingi müügilepingu kohustuse, müügitellimuse rea ja tagastustellimuse arve vahel.  
 
 Kui te ei soovi tagastatud kauba kogust müügilepingu kohustusest lahutada, saate kasutada lehel **Tagastustellimus** juhtnuppu **Eemalda link**, et eemaldada tagastustellimuse ja müügilepingu kohustuse vaheline link. Kui peate lingi hiljem uuesti looma, klõpsake nuppu **Loo link**.  
 
 **Märkus.** Tagastustellimust saab linkida ainult ühe müügilepinguga. Kui klient tagastab mitu toodet, mis on tellitud rohkem kui ühe müügilepingu alusel, peate looma igale tootele uue tagastustellimuse ja lingi vastava müügilepinguga.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Müügilepingute automaatne otsimine
-Mõnes olukorras, kui müügitellimus luuakse kaudselt, nt kreeditarve või kontsernisiseste müügitellimuste loomisel, saate reguleerida, kas Microsoft Dynamics 365 for Operations otsib rakendatavaid müügilepinguid automaatselt.
+Mõnes olukorras, kui müügitellimus luuakse kaudselt, nt kreeditarve või kontsernisiseste müügitellimuste loomisel, saate reguleerida, kas Microsoft Dynamics 365 for Finance and Operations otsib rakendatavaid müügilepinguid automaatselt.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Müügilepingute finantsdimensioonid
 Saate kopeerida finantsdimensioonid kas dokumendipäistesse või müügilepingu üksikutele ridadele. Saate mis tahes lepingupäises või lepingureal olevaid dimensioone igal ajal muuta. Sellisel juhul kopeeritakse dimensioonid automaatselt väljastuspäisesse või väljalaskeorderite väljastusreale.

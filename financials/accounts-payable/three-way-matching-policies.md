@@ -3,15 +3,15 @@ title: Kolmesuunalised vastavusse viimise poliitikad
 description: "See artikkel sisaldab näiteid kolmesuunalise vastavusseviimise kohta."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -66,7 +66,7 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 1.  Sammy, kes on Fabrikami vastuvõtu osakonna töötaja, saab Contoso saadetud masinate lõpliku koguse. Ta sisestab toote sissetuleku koguseks 5. Kuna ostutellimus on täielikult saadud, muutub ostutellimuse olekuks Saadud.
 2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
-    -   Kahe- või kolmesuunalist vastavusse viimist vajavate kaupade hinnad arve real jäävad Microsoft Dynamics 365 for Operationsis määratletud kõikumiste piiridesse. See hõlmab järgmisi hinna vastendamisi.
+    -   Kahe- või kolmesuunalist vastavusse viimist vajavate kaupade hinnad arve real jäävad Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis määratletud kõikumiste piiridesse. See hõlmab järgmisi hinna vastendamisi.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +8 protsenti.
         -   Koguhindade vastavusse viimine – netosumma arve real vastendub kõikumise protsendi, summa või protsendi ja summa piires netosummale ostutellimuse real. Selles näites on lubatud koguhindade vastavusse viimise kõikumine +15 protsenti.
 
@@ -79,7 +79,7 @@ Contoso paberarve sisaldab järgmist teavet.
 | Maks                         |          |            | 0,00       |
 | Kokku                       |          |            | 44 500,00  |
 
-Rakenduses Microsoft Dynamics 365 for Operations hõlmab arve rida järgmist teavet.
+Finance and Operationsis sisaldab arve rida järgmist teavet.
 
 | Kaubakood                 | Kogus | Ühiku hind | Rea netosumma | Vastavusse viimise poliitika    | Toote sissetuleku koguse vastendamine | Hinna vastendamine | Koguhinna vastendus |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -115,7 +115,7 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 1.  Kaubad jõuavad kohale. Sammy, kes on Fabrikami Malaisia allüksuse vastuvõtu osakonna töötaja, töö katkestatakse ja ta ei sisesta kohe toote sissetulekut.
 2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
-    -   Kahe- või kolmesuunalist vastavusse viimist vajavate kaupade hinnad arve real jäävad Microsoft Dynamics 365 for Operationsis määratletud kõikumiste piiridesse. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
+    -   Kahe- või kolmesuunalist vastavusse viimist vajavate kaupade hinnad arve real jäävad Finance and Operationsis määratletud kõikumiste piiridesse. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +2 protsenti.
         -   Koguhindade vastavusse viimine – netosumma arve real vastendub kõikumise protsendi, summa või protsendi ja summa piires netosummale ostutellimuse real. Selles näites on lubatud koguhindade vastavusse viimise kõikumine +10 protsenti.
 
@@ -128,7 +128,7 @@ Contoso paberarve sisaldab järgmist teavet.
 | USB‑draiv             | 200      | 10,05      | 2010,00   |
 | Arve kogusumma         |          |            | 7092,00   |
 
-Rakenduses Microsoft Dynamics 365 for Operations hõlmab arve rida järgmist teavet.
+Finance and Operationsis sisaldab arve rida järgmist teavet.
 
 | Kaubakood           | Kogus | Ühiku hind | Rea netosumma | Vastavusse viimise poliitika    | Toote sissetuleku koguse vastendamine | Hinna vastendamine | Koguhinna vastendus |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
