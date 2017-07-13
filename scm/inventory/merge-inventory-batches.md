@@ -3,14 +3,14 @@ title: "Varupartiide ühendamine"
 description: "Selles artiklis kirjeldatakse kahe või enama varude partii konsolideerimist ühendatud partiisse."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e97257955f4f8fa86c8bf957a182aa71d4fbc8ef
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: aec97976ef6a2b4c66118289f7f76b14351456f8
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -91,7 +91,7 @@ Ei, saate ühendada ainult neid partiisid, millel on samad laoala ja lao dimensi
 Ei, saate ühendada ainult partiide tervikkoguseid. Partii ühendamise funktsioon on mõeldud varude funktsioonina, mitte tootmisfunktsioonina.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Mis juhtub, kui partiidel on erinevad partiiatribuudi väärtused?
-Ühendatud partii loomiseks lähtepartiide valimisel kontrollib Microsoft Dynamics 365 for Operations, kas kõigil partiidel on omadused või atribuudiväärtused. Kui atribuudi väärtus on sama, soovitatakse ühendatud partiile väärtust. Seda väärtust saate muuta. Mittekattuvad atribuudiväärtused jäetakse ühendatud partii puhul tühjaks ja saate need väärtused käsitsi sisestada. Kui atribuudiväärtuse partiiatribuudi tüüp on täisarv või murdarv ning väärtused pole kõigi lähtepartiide puhul samad, arvutatakse väärtus kaalutud keskmise alusel. Arvutatud väärtus ümardatakse üles või alla lähima täisarvuni. Kui lähtepartii puhul väärtus puudub, siis partiid ja selle kogust arvutusse ei kaasata. **Näide** Järgmine näide kujutab ühendatud partii kaalutud keskmise arvutamist. Kahe lähtepartii partiiatribuudi tüübil, mis on täisarv, on tühi väärtus. Lähtepartiidele määratakse järgmine atribuut.
+Ühendatud partii loomiseks lähtepartiide valimisel kontrollib Finance and Operations, kas kõigil partiidel on omadused või atribuudiväärtused. Kui atribuudi väärtus on sama, soovitatakse ühendatud partiile väärtust. Seda väärtust saate muuta. Mittekattuvad atribuudiväärtused jäetakse ühendatud partii puhul tühjaks ja saate need väärtused käsitsi sisestada. Kui atribuudiväärtuse partiiatribuudi tüüp on täisarv või murdarv ning väärtused pole kõigi lähtepartiide puhul samad, arvutatakse väärtus kaalutud keskmise alusel. Arvutatud väärtus ümardatakse üles või alla lähima täisarvuni. Kui lähtepartii puhul väärtus puudub, siis partiid ja selle kogust arvutusse ei kaasata. **Näide** Järgmine näide kujutab ühendatud partii kaalutud keskmise arvutamist. Kahe lähtepartii partiiatribuudi tüübil, mis on täisarv, on tühi väärtus. Lähtepartiidele määratakse järgmine atribuut.
 
 | Atribuut | Miinimum | Suurenemine | Maksimum |
 |-----------|---------|-----------|---------|

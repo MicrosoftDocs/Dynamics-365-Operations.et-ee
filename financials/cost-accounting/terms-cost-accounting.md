@@ -3,14 +3,14 @@ title: Kuluarvestuse terminoloogia
 description: "See teema määratleb põhimõisted, mida kasutatakse kuluarvestuses."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ce12337c22542aea2002ffc5abd09e4f4d770c1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ See teema määratleb põhimõisted, mida kasutatakse kuluarvestuses.
 
 **Kuluarvestus**
 
-Kuluarvestus võimaldab koguda andmeid erinevatest allikatest, näiteks pearaamatust, alammoodulist, eelarvetest ja statistilisest teabest. Seejärel saate analüüsida, summeerida ja hinnata kuluandmeid, et haldus saaks teha parimad võimalikud otsused hinnavärskenduste, eelarvete, kulude kontrolli jne jaoks. Lähteandmeid, mida kasutatakse kuluanalüüsi jaoks, töödeldakse kuluarvestuses sõltumatult. Seetõttu ei mõjuta värskendused kuluarvestuses lähteandmeid. Kui kogute kuluandmeid erinevatest allikatest ja eriti kui impordite põhikontosid pearaamatust rakenduses Microsoft Dynamics 365 for Operation kuluelementidena, siis on andmete liiasus, kuna samad andmed eksisteerivad nii pearaamatus kui ka kuluarvestuses. See liiasus on vajalik, kuna kasutate välise aruandluse jaoks finantshaldust ja sisemise aruandluse jaoks kuluarvestust.
+Kuluarvestus võimaldab koguda andmeid erinevatest allikatest, näiteks pearaamatust, alammoodulist, eelarvetest ja statistilisest teabest. Seejärel saate analüüsida, summeerida ja hinnata kuluandmeid, et haldus saaks teha parimad võimalikud otsused hinnavärskenduste, eelarvete, kulude kontrolli jne jaoks. Lähteandmeid, mida kasutatakse kuluanalüüsi jaoks, töödeldakse kuluarvestuses sõltumatult. Seetõttu ei mõjuta värskendused kuluarvestuses lähteandmeid. Kui kogute kuluandmeid erinevatest allikatest ja eriti kui impordite põhikontosid pearaamatust rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kuluelementidena, siis on andmete liiasus, kuna samad andmed eksisteerivad nii pearaamatus kui ka kuluarvestuses. See liiasus on vajalik, kuna kasutate välise aruandluse jaoks finantshaldust ja sisemise aruandluse jaoks kuluarvestust.
 
 **Kuluarvestuse pearaamat**
 

@@ -1,26 +1,26 @@
 ---
 title: Kontsernisisene arveldamine
-description: "Selles artiklis on teave ja näited projektide kontsernisisese arveldamise kohta Microsoft Dynamics 365 for Operationsis."
+description: "Selles artiklis on teave ja näited projektide kontsernisisese arveldamise kohta Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis on teave ja näited projektide kontsernisisese arveldamise kohta Microsoft Dynamics 365 for Operationsis.
+Selles artiklis on teave ja näited projektide kontsernisisese arveldamise kohta Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis.
 
 Teie organisatsioonil võib olla mitu allüksust, tütarettevõtet ja muud juriidilist isikut, mis edastavad üksteisele projektide tarbeks tooteid ja teenuseid. Juriidilist isikut, kes teenust või toodet pakub*, nimetatakse laenu väljastavaks juriidiliseks isikuks* ja teenust või toodet vastuvõtvat juriidilist isikut *laenavaks juriidiliseks isikuks*. 
 
@@ -53,7 +53,7 @@ Eesmärk on muuta kulude juhtimine, tulude kajastamine, maksud ja sisehind konts
     -   **Kasumimäär** – arv, mille sisestate väljale **Hinnakujundus**, on kasumimäär, mis on väljendatud protsendina müügihinnast.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>1. näide: kontsernisisese arveldamise parameetrite seadistamine
-Selles näites on USSI laenu väljastav juriidiline isik ja tema ressursid registreerivad aega laenava juriidilise isiku FRSI suhtes, kellel on sõlmitud leping lõppkliendiga. USSI töötajate registreeritavad tunnid ja kulud saab lisada FRSI koostatavale projektiarvele. Lisaks on olemas kolmas kannete allikas, mis võib pärineda laenavast juriidilisest isikust (selles näites USSI), kui see osutab allüksustele (nt FRSI) jagatud hankijate teenuseid ja edastab need kulud siis projektidele nendes allüksustes. Kõik vastavad arvedokumendid ja maksuarvutused teeb Dynamics 365 for Operations. 
+Selles näites on USSI laenu väljastav juriidiline isik ja tema ressursid registreerivad aega laenava juriidilise isiku FRSI suhtes, kellel on sõlmitud leping lõppkliendiga. USSI töötajate registreeritavad tunnid ja kulud saab lisada FRSI koostatavale projektiarvele. Lisaks on olemas kolmas kannete allikas, mis võib pärineda laenavast juriidilisest isikust (selles näites USSI), kui see osutab allüksustele (nt FRSI) jagatud hankijate teenuseid ja edastab need kulud siis projektidele nendes allüksustes. Kõik vastavad arvedokumendid ja maksuarvutused teeb Finance and Operations. 
 
 Selles näites peab FRSI olema USSI juriidilises isikus klient ja USSI peab olema FRSI juriidilises isikus hankija. Seejärel saate seadistada kahe juriidilise isiku vahelise kontsernisisese seose. Järgmine protseduur näitab, kuidas seadistada parameetreid, nii et mõlemad juriidilised isikud saaksid kontsernisiseses arvelduses osaleda.
 

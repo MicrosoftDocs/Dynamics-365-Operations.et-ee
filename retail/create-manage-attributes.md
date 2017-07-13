@@ -1,28 +1,29 @@
 ---
 title: Atribuutide loomine ja haldamine
-description: "Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Operationsi atribuute. Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja selle omadusi kirjeldada."
+description: "Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Retaili atribuute. Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja selle omadusi kirjeldada."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Operationsi atribuute. Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja selle omadusi kirjeldada.
+Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Retaili atribuute. Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja selle omadusi kirjeldada.
 
 Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja selle omadusi kirjeldada. Näiteks saate määrata toote mälu suuruse ja kõvaketta võimsuse ning näidata, kas toode vastab energiatähisele. Atribuute saab seostada erinevate jaemüügiüksustega, nagu tootekategooriad ja jaemüügikanalid, ning neile saab määrata vaikeväärtused. Tooted pärivad nende atribuudid ja atribuutide vaikeväärtused, kui need seostatakse tootekategooriate või jaemüügikanalitega. Vaikeväärtusi saab alistada üksiku toote tasemel, jaemüügikanali tasemel või jaemüügikataloogis.
 
@@ -59,7 +60,7 @@ Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja sel
 ## <a name="attribute-type"></a>Atribuudi tüüp
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
-Atribuudid põhinevad atribuuditüüpidel. Atribuudi tüübid tuvastavad andmete tüübi, mida saab konkreetse atribuudi jaoks sisestada. Praegu toetab Microsoft Dynamics 365 for Operations järgmisi atribuuditüüpe.
+Atribuudid põhinevad atribuuditüüpidel. Atribuudi tüübid tuvastavad andmete tüübi, mida saab konkreetse atribuudi jaoks sisestada. Praegu toetab Microsoft Dynamics 365 for Retail järgmisi atribuuditüüpe.
 
 -   **Currency** – see atribuudi tüüp toetab valuuta väärtusi. Seda saab piirata (see tähendab, et see toetab väärtuste vahemikku) või jätta lahtiseks.
 -   **DateTime** – see atribuudi tüüp toetab kuupäeva ja kellaaja väärtusi. Seda saab piirata (see tähendab, et see toetab väärtuste vahemikku) või jätta lahtiseks.

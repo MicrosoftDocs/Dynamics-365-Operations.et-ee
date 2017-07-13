@@ -3,25 +3,26 @@ title: "Ettevõttekohaste inimressursside parameetrite seadistamine"
 description: "Mõne inimressursside (HR) parameetri sätteid jagatakse ettevõtete vahel, samas kui teiste parameetrite sätted on täiesti ettevõttepõhised. See artikkel selgitab, ettevõttepõhiste inimressursside parameetrite seadistamist."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRMParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1a3560013271fc1b83bdb931aef2153b1d07317
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: ef84ad6e90e7c58ea921930e23b67228d393bc7e
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -36,8 +37,8 @@ Mõne inimressursside (HR) parameetri sätteid jagatakse ettevõtete vahel, sama
 Inimressursside (HR) parameetrite määramiseks kasutatakse kahte lehte. Ettevõtetes ühiskasutatavate parameetrite puhul kasutate lehte **Inimressursside ühiskasutusega parameetrid**. Ettevõttekohaste parameetrite (teisisõnu sätted, mis rakenduvad ühele ettevõttele) puhul kasutate lehte **Inimressursside parameetrid**. Lehel **Inimressursside parameetrid** jaotatakse sätted kuue vahekaardi vahel.
 
 -   Üldine
--   Värbamine
--   Kompensatsioon
+-   Värbamine – see ei sisaldu Dynamics 365 for Talentis
+-   Hüvitus
 -   Numbriseeriad
 -   Perekondlikel ja meditsiinilistel põhjustel puudumine (FMLA)
 -   Töötaja iseteenindus
@@ -48,7 +49,11 @@ Vahekaardi **Värbamine** sätted määratlevad dokumendi tüübid, mida kasutat
 
 Vahekaardil **Hüvitus** olevad sätted määratlevad, kas kasutajad peavad kinnitama, et nad soovivad fikseeritud või ergutussüsteemi plaani jaoks teavet salvestada. Kui märgite ruudu **Lubada salvestamise valideerimine?**, saavad kasutajad iga kord, kui nad sulgevad hüvitusega seotud lehe, sõnumi, mis küsib, kas nad soovivad kirje salvestada. Mõned lehed hüvituste halduses ei lase kasutajatel teavet kustutada. Seega paludes kasutajatel kinnitada, et nad soovivad teabe salvestada, saate võib-olla piirata salvestatud teabe hulka, mida ei saa hiljem kustutada. Kui ruut **Lubada salvestamise kinnitamine** on tühi, salvestatakse kirjed alati kohe, võimalik, et enne seda, kui kasutaja on lõpetanud. Jõudlushalduse kasutamisel võimaldab vahekaart **Hüvitus** teil valida ka hindamismudeli, mida hindamisel mudelile määratud hüvituse plaanide asemel kasutada. 
 
-Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viidete ja koodide säilitamiseks kasutage loendi lehte **Numbriseeriad** (klõpsake valikuid **Organisatsiooni haldus** &gt; **Numbriseeriad** &gt; **Numbriseeriad**). 
+### <a name="previously-released-functionality"></a>Varem välja antud funktsioonid
+Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viidete ja koodide säilitamiseks kasutage loendi lehte **Numbriseeriad** (klõpsake valikuid **Organisatsiooni haldus** &gt; **Numbriseeriad** &gt; **Numbriseeriad**).
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Kui kasutate Dynamics 365 for Talentit
+Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viidete ja koodide säilitamiseks kasutage loendilehte **Numbriseeriad** (klõpsake valikuid **Süsteemihaldus** &gt; **Linkide vahekaart** &gt; **Numbriseeriad** &gt; **Numbriseeriad**). 
 
 Vahekaardi **FMLA** sätted määratlevad, mitu tundi peab töötaja töötama, et saada FMLA eeliseid, sobivuseks nõutava tööaja pikkuse ja töösuhte alguskuupäeva, mida kasutatakse tööaja pikkuse määramiseks. Sätted määratlevad ka FMLA tundide arvu, millele töötajatel õigus on, ja FMLA puhkuste kalendri, mida kasutatakse selleks, et arvutada, mitu FMLA tundi töötajad kasutanud on. Vahekaart **FMLA** on saadaval ainult USA ettevõtetele. 
 

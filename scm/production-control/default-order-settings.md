@@ -1,16 +1,16 @@
 ---
 title: "Tellimuse vaikesätted dimensioonide ja tootevariantide puhul"
-description: "Tellimuse vaikesätted määratlevad tegevuskoha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ja standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi. Tellimuse vaikesätteid kasutatakse ostutellimuste, müügitellimuste, üleviimistellimuste, laotöölehtede loomisel ja plaanitud tellimuste loomiseks koondplaanimisega. Tellimuse vaikesätted võivad olla kaubaspetsiifilised, tegevuskohaspetsiifilised, tootevariandispetsiifilised ja või tootedimensiooni-spetsiifilised."
+description: "Tellimuse vaikesätted määratlevad tegevuskoha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ja standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemOrderSetup
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
@@ -19,20 +19,22 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db2398e85d5f49cece4f406b2244cf072cce083d
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: b4e8ff363a98f8dfc90af0133807373566531568
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Tellimuse vaikesätted dimensioonide ja tootevariantide puhul
+# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Dimensioonide ja tootevariantide tellimuse vaikesätted
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
-Tellimuse vaikesätted määratlevad tegevuskoha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ja standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi. Tellimuse vaikesätteid kasutatakse ostutellimuste, müügitellimuste, üleviimistellimuste, laotöölehtede loomisel ja plaanitud tellimuste loomiseks koondplaanimisega. Tellimuse vaikesätted võivad olla kaubaspetsiifilised, tegevuskohaspetsiifilised, tootevariandispetsiifilised ja või tootedimensiooni-spetsiifilised.
+
+Tellimuse vaikesätted Microsoft Dynamics 365 for Finance and Operations, Enterpise editionis määratlevad tegevuskoha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ja standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi. Tellimuse vaikesätteid kasutatakse ostutellimuste, müügitellimuste, üleviimistellimuste, laotöölehtede loomisel ja plaanitud tellimuste loomiseks koondplaanimisega. Tellimuse vaikesätted võivad olla kaubaspetsiifilised, tegevuskohaspetsiifilised, tootevariandispetsiifilised ja või tootedimensiooni-spetsiifilised.
 
 Lehel **Tellimuse vaikesätted** saate määratleda tellimuse vaikesätted. Selle lehe avamiseks minge jaotisse **Tooteteabe haldus** &gt; **Tooted** &gt; **Väljastatud tooted** &gt; valige väljastatud toode &gt; toimingupaanil **Plaan** või ****Varude haldamine**** &gt; **Tellimuse sätted** &gt; **Tellimuse vaikesätted**.
 
@@ -74,7 +76,7 @@ Varude tellimuse vaikesätted rakenduvad ka siis, kui luuakse:
 -   Plaanitud tootmistellimused
 
 ## <a name="full-definition-of-a-released-product"></a>Väljastatud toote täielik määratlus
-Kande loomisel peate määrama väljastatud toote täieliku määratluse real enne, kui Dynamics 365 for Operations proovib tuvastada tellimuse vaikesätted. Väljastatud toote täielik määratlus tähendab, et kauba number ja kõik aktiivsed toote dimensioonid, nagu konfiguratsioon, suurus, laad ja värv, on määratud kandel. Näiteks kui loote käsitsi väljastatud tootevariandile ostutellimuse rea, peate määrama kõik vajalikud toote dimensioonid enne, kui tegevuskoha, lao, koguste ja täitmisaeg kuvatakse vaikimisi tellimusreal. 
+Kande loomisel peate määrama väljastatud toote täieliku määratluse real enne, kui Finance and Operations proovib tuvastada tellimuse vaikesätted. Väljastatud toote täielik määratlus tähendab, et kauba number ja kõik aktiivsed toote dimensioonid, nagu konfiguratsioon, suurus, laad ja värv, on määratud kandel. Näiteks kui loote käsitsi väljastatud tootevariandile ostutellimuse rea, peate määrama kõik vajalikud toote dimensioonid enne, kui tegevuskoha, lao, koguste ja täitmisaeg kuvatakse vaikimisi tellimusreal. 
 
 Mitte kõiki tellimuse vaikesätete parameetreid ei rakendata tellimuse või töölehe ridade loomisel. Kogused ja täitmisajad kuvatakse vaikimisi ainult vastavalt vajadusele. Näiteks töölehe rea loendamisel kuvatakse rea loomisel vaikimisi ainult tegevuskoht ja ladu. Ilmselgelt ei tehta rea loomisel või töölehe sisestamisel kordsetele või miinimumidele koguse vaikeolekusse seadmist ega kontrolle. 
 
@@ -97,7 +99,7 @@ Eristuvate väljastatud toodete puhul saate määratleda üldised tellimuse sät
 
 Tegevuskoha spetsiifiliste tellimuse sätete loomiseks klõpsake valikut **Uus**. Vaates **Üksikasjade vaade** täitke tegevuskoht väljal **Kohalduvad sätted** &gt; **Tegevuskoht**. Vaates **Ruudustikuvaade** täitke tegevuskoht veerus **Tegevuskoht**. Uus reegel saab hierarhias automaatselt uue positsiooni väärtuse, mis on kõrgem kui null. Saate luua nii palju tegevuskohaspetsiifilisi reegleid kui vaja ja saate määrata kõik tegevuskohaspetsiifilised reeglid hierarhias samale positsioonile näitamaks, et need on võrdselt olulised. 
 
-Kui asute vaates **Üksikasjade vaade** saate ülevaate kauba jaoks loodud reeglitest. Lülitage nuppu **Kuva/peida loend**, et näha ülevaate teavet. Kui mis tahes tüübi tellimuse rida luuakse ja sellele pole ühtki tegevuskohta antud, otsib Dynamics 365 for Operations reeglit, millele pole tegevuskohta määratud. See võib aidata määrata tellimuse real vaiketegevuskoha. Seda tegevuskohta kasutatakse seejärel tegevuskohaspetsiifilise reegli otsimiseks, kus võib olla seatud vaikimisi ladu. See ladu rakendatakse tellimuse reale.
+Kui asute vaates **Üksikasjade vaade** saate ülevaate kauba jaoks loodud reeglitest. Lülitage nuppu **Kuva/peida loend**, et näha ülevaate teavet. Kui mis tahes tüübi tellimuse rida luuakse ja sellele pole ühtki tegevuskohta antud, otsib Finance and Operations reeglit, millele pole tegevuskohta määratud. See võib aidata määrata tellimuse real vaiketegevuskoha. Seda tegevuskohta kasutatakse seejärel tegevuskohaspetsiifilise reegli otsimiseks, kus võib olla seatud vaikimisi ladu. See ladu rakendatakse tellimuse reale.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Tootedimensiooni spetsiifilised tellimused sätted
 
@@ -134,7 +136,7 @@ Saate luua järgmised tellimuse vaikesätete reeglid.
 
 Kahel reeglil vanade revisjonide peatamiseks on hierarhias sama positsioon, mis tähendab, et need on võrdselt olulised. Neil mõlemal on kõrgem positsioon kui konfiguratsiooni C1 reeglil, mis tähendab, et need on konfiguratsiooni C1 reegli suhtes ülimuslikud. 
 
-See näide selgitab positsiooni vajadust. Kui konfiguratsiooni C1 ja revisjoni R2 jaoks luuakse ostutellimus, siis hierarhia positsiooni puudumisel oleks kaks R2 ja C1 jaoks määratletud reeglit ebamäärased. Ebamäärasuse lahendamiseks otsib Dynamics 365 for Operations reegleid läbi positsioonide laskuvas järjestuses ja rakendab esimese kohaldatava reegli. Praeguses näites, kui ostutellimuse rida luuakse konfiguratsiooni C1 ja revisjoni R2 jaoks, siis saab kasutaja hoiatusteate, et kaup on ootel ja et seda põhjustab revisjoni väärtus. Kui konfiguratsiooni reeglil oli kõrgem positsioon kui revisjoni reeglil, siis oleks ostutellimuse rea loomine konfiguratsiooni C1 ja revisjoni R2 jaoks olnud edukas ja kasutajale ei oleks kuvatud teadet „kaup ootel”. 
+See näide selgitab positsiooni vajadust. Kui konfiguratsiooni C1 ja revisjoni R2 jaoks luuakse ostutellimus, siis hierarhia positsiooni puudumisel oleks kaks R2 ja C1 jaoks määratletud reeglit ebamäärased. Ebamäärasuse lahendamiseks otsib Finance and Operations reegleid läbi positsioonide laskuvas järjestuses ja rakendab esimese kohaldatava reegli. Praeguses näites, kui ostutellimuse rida luuakse konfiguratsiooni C1 ja revisjoni R2 jaoks, siis saab kasutaja hoiatusteate, et kaup on ootel ja et seda põhjustab revisjoni väärtus. Kui konfiguratsiooni reeglil oli kõrgem positsioon kui revisjoni reeglil, siis oleks ostutellimuse rea loomine konfiguratsiooni C1 ja revisjoni R2 jaoks olnud edukas ja kasutajale ei oleks kuvatud teadet „kaup ootel”. 
 
 Arvestage järgmiseid tellimuse vaikesätte reegleid.
 
@@ -150,9 +152,9 @@ Süsteem läbib reeglite kogumit tegevuskoha ja lao määramiseks kaks korda. Ku
 
 Nullpositsiooniga reegel täidab turvavõrgu rolli. Kui ühtki teist reeglit ei tabata, siis kasutatakse tellimuse vaikesätteid nullpositsioonist. 
 
-Kuna hierarhia positsiooni number on nii oluline, on tegumiribal **Tellimuse vaikesätted**funktsioonid reegli üles ja alla liigutamiseks ning reeglite ümber nummerdamiseks, et need on alati juurdekasvuga 10. 
+Kuna hierarhia positsiooni number on nii oluline, on tegumiribal **Tellimuse vaikesätted** funktsioonid reegli üles ja alla liigutamiseks ning reeglite ümber nummerdamiseks, et need on alati juurdekasvuga 10. 
 
-Väljastatud toote jaoks loodud reeglite arv võib olla hulgaline. Saamaks paremat aimu sellest, mida iga reegel alistab ja miks see on vajalik, soovitame kasutada vaadet **Ruudustikuvaade** lehel**Tellimuse vaikesätted**. Saate lubada ruudustikuvaate, valides toimingupaani **Suvandid** &gt; **Lehe suvandid** &gt; **Muuda vaadet** &gt; **Ruudustikuvaade**. Ruudustikus kuvatud veergude arv võib olla üsna märkimisväärne, eriti müügi ja varude vahekaartide puhul Ruudustikus näidatud veergude arvu piiramiseks saab veergude gruppe peita või kuvada, kasutades menüü **Tellimuse vaikesätted** &gt; **Veeru kuvamine** nuppe.
+Väljastatud toote jaoks loodud reeglite arv võib olla hulgaline. Saamaks paremat aimu sellest, mida iga reegel alistab ja miks see on vajalik, soovitame kasutada vaadet **Ruudustikuvaade** lehel **Tellimuse vaikesätted**. Saate lubada ruudustikuvaate, valides toimingupaani **Suvandid** &gt; **Lehe suvandid** &gt; **Muuda vaadet** &gt; **Ruudustikuvaade**. Ruudustikus kuvatud veergude arv võib olla üsna märkimisväärne, eriti müügi ja varude vahekaartide puhul Ruudustikus näidatud veergude arvu piiramiseks saab veergude gruppe peita või kuvada, kasutades menüü **Tellimuse vaikesätted** &gt; **Veeru kuvamine** nuppe.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Väljastatud tootevariandi spetsiifilised tellimuse sätted
 

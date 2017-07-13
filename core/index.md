@@ -114,7 +114,7 @@ See dokumentatsioon annab teile teada, kuidas rakendust Dynamics 365 for Finance
 <p><a href="../retail/call-center-functionality">Kõnekeskus</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanali seadistus ja haldamine</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS ja pilve kassa</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Jaemüügi arendaja ja haldus</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Retaili arendaja ja haldus</p>
 
 </td>
 </tr>

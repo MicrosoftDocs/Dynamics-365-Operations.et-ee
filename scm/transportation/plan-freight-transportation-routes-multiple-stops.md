@@ -1,16 +1,16 @@
 ---
 title: Mitme peatusega veose transpordimarsruutide plaanimine
-description: Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel Microsoft Dynamics AX-is.
+description: Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel Dynamics 365 for Finance and Operationsis.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 90013
 ms.assetid: 50d6f58c-f1c8-4321-9e83-8445cec57a85
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cdb073f707355d6dbf8dffd3abc410e1320c5db9
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: e7965c094f91bcbcad21ecfa599f133a6e84f4f7
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel Microsoft Dynamics AX-is.
+Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis.
 
 Keerukate transpordimarsruutide puhul, mis sisaldavad mitut peatust, saate kasutada marsruudiplaane ja marsruudi juhendeid. Kui sama marsruuti kasutatakse regulaarselt, saate seadistada plaanitud marsruudi.
 

@@ -1,15 +1,15 @@
 ---
 title: "Eelarve koostamise ülevaade"
-description: "Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 for Operationsis funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist."
+description: "Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 for Finance and Operationsi Enterprise editionis funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Finance and Operationsi Enterprise editionis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>Eelarve koostamise ülevaade
+# <a name="budgeting-overview"></a>Eelarve koostamise ülevaade 
 
 [!include[banner](../includes/banner.md)]
 
 
-Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 for Operationsis funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 for Finance and Operationsi Enterprise editionis funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 
 <a name="overview"></a>Ülevaade
 --------
 
 Juriidilise isiku kinnitatud eelarve talletatakse dokumendis, mida nimetatakse *eelarveregistri kandeks*. Eelarveregistri kirje dokumendi ridu nimetatakse *eelarvekonto* kirjeteks ning need sisaldavad finantsdimensiooni teavet, kuupäevi ja kinnitatud eelarve summasid. Eelarveregistri kirje dokument on integreeritud põhifinantsaruannetega ja päringulehtedega, kus pearaamatu tegelikke summasid võrreldakse eelarvesummadega. 
 
-Microsoft Dynamics 365 for Operationsis on eelarveregistri kirjete loomiseks mitu võimalust.
+Finance and Operationsis on eelarveregistri kirjete loomiseks mitu võimalust.
 
 -   Sisestage käsitsi dokumendi teave lehele **Eelarveregistri kirjed**.
 -   Kasutage Microsoft Exceli malli, mille saate avada, klõpsates nuppu **Ava Excelis** lehel **Eelarveregistri kirjed**.
@@ -77,7 +77,7 @@ Eelarvehaldur saab praguse eelarve oleku üle vaadata tööruumis **Pearaamatu e
 > [!NOTE] 
 > Väli **Osakonnajuhataja** lehel **Organisatsiooni üksused** määrab, millised juhid toetavad kindlaid finantsdimensioonide kombinatsioone. Klõpsake vahekaardi allosas suvandit **Vt lisa**, et avada päringuleht **Eelarveline vs tegelik**, et saada lisateavet eelarvesummade ja tegelike summade kohta. 
 
-Päringuleht **Tegelik võrreldes eelarvega** võimaldab süveneda eelarvesummade ja tegelike summade üksikasjadesse. Valige päringulehel rida ja klõpsake siis suvandit **Perioodi saldod**, et näha, kuidas eelarve ja tegelikud summad rahandusperioodil jaotuvad. Lehel **Eelarvekonto kirjed** saab süveneda eelarveregistri kirjetes oleva eelarvesumma üksikasjadesse. Leht **Üldised töölehe sisestused**avab pearaamatu kanded, mis on lisatud arvutatud summale **Tegelikud**. 
+Päringuleht **Tegelik võrreldes eelarvega** võimaldab süveneda eelarvesummade ja tegelike summade üksikasjadesse. Valige päringulehel rida ja klõpsake siis suvandit **Perioodi saldod**, et näha, kuidas eelarve ja tegelikud summad rahandusperioodil jaotuvad. Lehel **Eelarvekonto kirjed** saab süveneda eelarveregistri kirjetes oleva eelarvesumma üksikasjadesse. Leht **Üldised töölehe sisestused** avab pearaamatu kanded, mis on lisatud arvutatud summale **Tegelikud**. 
 
 Funktsiooni Eelarve planeerimine kasutav ettevõte saab luua *eelarveprognoose *ja neid kasutada tööruumis **Pearaamatu eelarved ja prognoosid**.
 

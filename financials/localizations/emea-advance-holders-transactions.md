@@ -1,9 +1,9 @@
 ---
 title: Avansisaaja kanded
-description: "Lugege, kuidas töötada avansisaajate kannetega Microsoft Dynamics 365 for Operationsis."
+description: "Vaadake, kuidas töötada avansisaaja kannetega Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dfca71b0ba48a725d1e1c5418d9e505744545d33
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6424d371fb2cfdbfb657931f982670755d4d4155
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Lugege, kuidas töötada avansisaajate kannetega Microsoft Dynamics 365 for Operationsis.
+Vaadake, kuidas töötada avansisaaja kannetega Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis.
 
 Avansisaajast töötajate kandeid saab sisestada avansisaaja kontode abil. Igale avansisaajale määratud töötaja ID alusel saab jälgida kõiki avansisaajate kandeid. See number tuuakse avansisaaja kannete jaoks kontonumbrina lehtedel **Päevaraamatud** ja **Avansisaajate kanded**.
 

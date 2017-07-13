@@ -3,13 +3,13 @@ title: Kuluhalduse Power BI sisu
 description: "See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9449e42224d5dfb1bc1f0368a041c45afc334a2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -52,7 +52,7 @@ See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu. See selgitab ka sed
 Atribuudi CostAggregatedCostStatementEntryEntity peamine andmeallikas on tabel CostStatementCache. Seda tabelit hallatakse andmekogumi vahemälu raamistikuga. Vaikimisi värskendatakse tabelit iga 24 tunni järel, kuid saate lubada andmete vahemälu konfiguratsioonis käsitsi värskendused. Seejärel saate tabelit käsitsi värskendada tööruumis **Kuluhaldus** või **Kuluanalüüs**. Pärast atribuudi CostStatementCache värskendamist peate värskendama Power Bi.com’is OData ühendust, et näha värskendatud andmeid saidil. Hälbe (ostu, tootmise) meetmed selles Power BI sisus puudutavad ainult kaupu, mida hinnatakse varude standardomahinna meetodiga. Toote hälve arvutatakse erinevusena tegeliku kulu ja realiseeritud kulu vahel. Tootmishälve arvutatakse, kui tootmistellimuse olek on **Lõpetatud**. Lisateavet tootmishälvete tüüpide ja iga tüübi arvutamise kohta vt teemast [Teave lõpule viidud tootmistellimuse hälvete analüüsimise kohta](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-**Kuluhalduse** Power BI sisu on saadaval veebisaidil PowerBI.com. Lisateavet Microsoft Dynamics 365 for Operationsi andmete ühendamise ja laadimise kohta vt teemast [Juurdepääs Power BI sisule saidilt PowerBI.com](power-bi-home-page.md).
+**Kuluhalduse** Power BI sisu on saadaval veebisaidil PowerBI.com. Lisateavet Microsoft Dynamics 365 for Finance and Operationsi andmete ühendamise ja laadimise kohta vt teemast [Juurdepääs Power BI sisule saidilt PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **kuluhalduse** Power BI sisu visualiseerimistest.
@@ -84,9 +84,9 @@ Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist,
 | |Tootmishälbed saidi nime ja kategooria 3. nimetaseme alusel | |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Aruandelehtede täitmiseks **kuluhalduse** Power BI sisus kasutatakse Dynamics 365 for Operationsi andmeid. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL-i andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md). Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
+Aruandelehtede täitmiseks **kuluhalduse** Power BI sisus kasutatakse Finance and Operationsi andmeid. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL-i andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md). Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
 
-| Üksus            | Peamine koondmõõtmine | Dynamics 365 for Operationsi andmeallikas | Väli             | Kirjeldus                       |
+| Üksus            | Peamine koondmõõtmine | Finance and Operationsi andmeallikas | Väli             | Kirjeldus                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | Väljavõtte kirjed | Netomuutus                | CostAggregatedCostStatementEntryEntity      | sum(\[Summa\])   | Summa arvestusvaluutas |
 | Väljavõtte kirjed | Netomuutuse kogus       | CostAggregatedCostStatementEntryEntity      | sum(\[Kogus\]) |                                   |

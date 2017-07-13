@@ -3,14 +3,14 @@ title: Efektiivse organisatsiooni modelleerimine
 description: "Artiklis antakse teavet efektiivse organisatsiooni mudeldamise põhimõistete kohta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ec9191054a1b3587ebbde16acf278084cbd22660
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: c5bb642df692451e975be74bd8aa7d856b964a68
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -41,7 +41,7 @@ Tootmistellimustel põhinevate tootmisstsenaariumide puhul väljastatakse materj
 
 Partii tootmise põhjustatud tarne täitmisaegade lühendamiseks ja laotasemete ülejääkide vähendamiseks töökeskuste vahel tutvustab lean manufacturing kanbani täiendamist ning lõppladusid tootmise ja lao täiendamisel. Tavaliselt häirivad need funktsioonid osaliselt sõltumatute kanban-tsüklite tootmist. Kanbani täiendamist pooltootele ei käivita enam lõpptoote tellimus. 
 
-Microsoft Dynamics AX-i soovitatud erinevatele kanbani stsenaariumidele tootmise ja kulude konteksti taastamiseks võetakse tegevuspõhised tootmisvood kasutusse lean manufacturingi selgroona. Kõik kanban-reeglid viitavad sellele eelmääratletud struktuurile. Tegevuspõhine mudel toetab suurema hulga stsenaariumide seadistamist kui eelmised Dynamics AX-i toetatud Lean manufacturingi versioonid. Kuid see mudel ei lisa keerukust tegevtöötajatele, sest kõik stsenaariumid kasutavad sama tegevuspõhist kasutajaliidest.
+Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni soovitatud erinevatele kanbani stsenaariumidele tootmise ja kulude konteksti taastamiseks võetakse tegevuspõhised tootmisvood kasutusse lean manufacturingi selgroona. Kõik kanban-reeglid viitavad sellele eelmääratletud struktuurile. Tegevuspõhine mudel toetab suurema hulga stsenaariumide seadistamist kui eelmised Dynamics AX-i toetatud Lean manufacturingi versioonid. Kuid see mudel ei lisa keerukust tegevtöötajatele, sest kõik stsenaariumid kasutavad sama tegevuspõhist kasutajaliidest.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Pooltooted (mitte kooslusetasemed)
 Dynamics AX-i Lean manufacturing integreerib kanbanid ühes raamistikus laotoodeteks ja pooltoodeteks ja pakub seega igal juhul ühendatud kasutajakogemust. Selle ülesehituse tõttu ei pea enam kasutama täiendavaid kooslusetasemeid, et lubada pooltoodete puhul kasutatavaid kanbane. See ülesehitus aitab ka vähendada laokandeid miinimumini.

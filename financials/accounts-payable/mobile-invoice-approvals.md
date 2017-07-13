@@ -1,15 +1,15 @@
 ---
-title: Mobiilne arvete kinnitamine
-description: "Mobiilsed võimalused Microsoft Dynamics 365 for Operationsis lasevad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud."
+title: Mobiilsed arvete heakskiidud
+description: "See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele rakenduses Dynamics 365 for Finance and Operations, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
@@ -17,32 +17,32 @@ ms.author: sunilg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c412562a5b224e682c4a555a56e713570a1e4ef
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="mobile-invoice-approvals"></a>Mobiilne arvete kinnitamine
+# <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
 [!include[banner](../includes/banner.md)]
 
 
-Mobiilsed võimalused Microsoft Dynamics 365 for Operationsis lasevad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud.
+Mobiilsed võimalused Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis lasevad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud.
 
 <a name="prerequisites"></a>Eeltingimused
 -------------
 
 | Eeltingimus                                                                                            | Kirjeldus                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mobiili käsiraamat eelnevaks lugemiseks                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
-| Dynamics 365 for Operations                                                                             | Keskkond, millesse on installitud Microsoft Dynamics 365 for Operationsi versioon 1611 ja Microsoft Dynamics for Operationsi platvormivärskendus 3 (november 2016).                   |
+| Mobiili käsiraamat eelnevaks lugemiseks                                                                                |[Mobiilne platvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Dynamics 365 for Finance and Operations                                                                             | Keskkond, millesse on installitud Microsoft Dynamics 365 for Operationsi versioon 1611 ja Microsoft Dynamics for Operationsi platvormivärskendus 3 (november 2016).                   |
 | Installige kiirparandus KB 3204341.                                                                              | Tegevuse salvestaja võib kogemata salvestada rippdialoogidele kaks sulgemiskäsku Dynamics 365 for Operationsi platvormi värskenduses 3 (2016. aasta novembri värskendus) |
 | Installige kiirparandus KB 3207800.                                                                              | See kiirparandus võimaldab vaadata manuseid mobiilikliendil, mis sisaldub Dynamics 365 for Operationsi platvormi värskenduses 3 (2016. aasta novembri värskendus).           |
 | Installige kiirparandus KB 3208224.                                                                              | Rakenduse kood mobiilse hankija arve kinnitamise rakenduse jaoks, mis sisaldub Microsoft Dynamics AX-i rakenduses 7.0.1 (mai 2016).                          |
-| Androidi või iOS-i või Windowsi seade, millesse on installitud Dynamics 365 for Operationsi mobiilirakendus | Otsige rakendust vastavast rakenduste poest.                                                                                                                     |
+| Androidi või iOS-i või Windowsi seade, millesse on installitud Finance and Operationsi mobiilirakendus | Otsige rakendust vastavast rakenduste poest.                                                                                                                     |
 
 ## <a name="introduction"></a>Sissejuhatus
 Hankija arvete mobiilsed kinnitused nõuavad kolme kiirparandust, mis on nimetatud jaotises „Eeltingimused”. Need kiirparandused ei paku tööruumi arvete kinnitamiseks. Seda, mis on mobiili kontekstis tööruum, saate lugeda jaotises „Eeltingimused” nimetatud mobiili käsiraamatust. Arvete kinnitamise tööruum vajab kujundamist. 
@@ -126,7 +126,7 @@ Arvete kinnitamise mobiiliversioon on erinev, olenevalt nende küsimuste vastust
 
 ### <a name="create-the-workspace"></a>Tööruumi loomine
 
-1.  Avage brauseris Microsoft Dynamics 365 for Operations ja logige sisse.
+1.  Avage brauseris Finance and Operations ja logige sisse.
 2.  Kui olete sisse loginud, lisage URL-ile **&mode=mobile**, nagu on näidatud järgmises näites, ja värskendage lehte: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
 3.  Klõpsake nuppu **Sätted** (hammasratas) lehe ülemises paremas osas ja seejärel valikut **Mobiilirakendus**. Mobiilirakenduse kujundaja peaks ilmuma samamoodi, nagu ilmub tegevuse salvestaja.
 4.  Klõpsake uue tööruumi loomiseks nuppu **Lisa**. Selle näite puhul andke tööruumile nimi **Minu kinnitused**.
@@ -138,9 +138,9 @@ Arvete kinnitamise mobiiliversioon on erinev, olenevalt nende küsimuste vastust
 
 ### <a name="vendor-invoices-assigned-to-me"></a>Mulle määratud hankijaarved
 
-Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks määratud arvete loend. Selle mobiilse lehe kujundamiseks kasutage lehte **VendMobileInvoiceAssignedToMeListPage** rakenduses Dynamics 365 for Operations. Enne selle protseduuri läbimist veenduge, et teile oleks ülevaatamiseks määratud vähemalt üks hankija arve ja et arve real oleks kaks jaotust. See seadistus vastab selle stsenaariumi nõuetele.
+Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks määratud arvete loend. Selle mobiilse lehe kujundamiseks kasutage lehte **VendMobileInvoiceAssignedToMeListPage** rakenduses Finance and Operations. Enne selle protseduuri läbimist veenduge, et teile oleks ülevaatamiseks määratud vähemalt üks hankija arve ja et arve real oleks kaks jaotust. See seadistus vastab selle stsenaariumi nõuetele.
 
-1.  Asendage Dynamics 365 for Operationsi URL-is menüüelemendi nimi stringiga **VendMobileInvoiceAssignedToMeListPage**, et avada loendilehe **Mulle määratud ootel hankija arved** mobiiliversioon moodulis **Ostureskontro**. Olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel need arved. Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja, et teile oleks määratud mõni arve, mis võimaldaks teil mobiilset lehte kujundada. Uued saadaolevad lehed on kujundatud spetsiaalselt hankija arve mobiilistsenaariumide väljatöötamiseks. Seega tuleb kasutada neid lehti. URL peab sarnanema järgmisele URL-ile ja kui olete selle sisestanud, peab avanema joonisel näidatud leht: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Mulle määratud ootel hankija arvete leht](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  Asendage Finance and Operationsi URL-is menüüelemendi nimi stringiga **VendMobileInvoiceAssignedToMeListPage**, et avada loendilehe **Mulle määratud ootel hankija arved** mobiiliversioon moodulis **Ostureskontro**. Olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel need arved. Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja, et teile oleks määratud mõni arve, mis võimaldaks teil mobiilset lehte kujundada. Uued saadaolevad lehed on kujundatud spetsiaalselt hankija arve mobiilistsenaariumide väljatöötamiseks. Seega tuleb kasutada neid lehti. URL peab sarnanema järgmisele URL-ile ja kui olete selle sisestanud, peab avanema joonisel näidatud leht: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Mulle määratud ootel hankija arvete leht](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
 2.  Klõpsake nuppu **Sätted** (hammasratas) lehe ülemises paremas osas ja seejärel valikut **Mobiilirakendus**
 3.  Valige oma tööruum ja klõpsake nuppu **Redigeeri**
 4.  Klõpsake esimese mobiilse lehe loomiseks nuppu **Lisa leht**.
@@ -148,20 +148,21 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
 6.  Klõpsake nuppu **Valmis**.
 7.  Klõpsake mobiilse kujundaja vahekaardil **Väljad** nuppu **Vali väljad**. Loendilehe veerud peavad sarnanema järgmisele illustratsioonile. [![Veerud lehel Mulle määratud ootel hankija arved](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
 8.  Lisage vajalikud veerud loendilehelt, mis tuleb mobiililehel kasutajatele kuvada. Väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida. Selle stsenaariumi nõuete põhjal on vaja järgmist kaheksat välja. Kuid mõned kasutajad võivad leida, et kaheksa välja on mobiilsel seadmel liiga palju teavet. Seega näitame mobiili loendivaates ainult kõige olulisemaid välju. Ülejäänud väljad kuvatakse üksikasjavaates, mille kujundame hiljem. Praegu lisame järgmised väljad. Klõpsake plussmärki (**+**) nende veergude mobiililehele lisamiseks.
-    1.  Hankija nimi
-    2.  Arve summa
-    3.  Maksja
-    4.  Arve number
-    5.  Arve kuupäev
+    - Hankija nimi
+    - Arve summa
+    - Maksja
+    - Arve number
+    - Arve kuupäev
 
-    Pärast väljade lisamist peab mobiilileht sarnanema järgmisele illustratsioonile. [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    Pärast väljade lisamist peab mobiilileht sarnanema järgmisele illustratsioonile. 
+    [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 9.  Nüüd tuleb lisada ka järgmised väljad, et hiljem saaks töövootoimingud lubada.
-    1.  Kuva lõpetamise ülesanne
-    2.  Kuva delegeerimise ülesanne
-    3.  Kuva tagasikutsumise ülesanne
-    4.  Kuva tagasilükkamise ülesanne
-    5.  Kuva taotluse täitmise ülesanne
-    6.  Kuva uuesti esitamise ülesanne
+    - Kuva lõpetamise ülesanne
+    - Kuva delegeerimise ülesanne
+    - Kuva tagasikutsumise ülesanne
+    - Kuva tagasilükkamise ülesanne
+    - Kuva taotluse täitmise ülesanne
+    - Kuva uuesti esitamise ülesanne
 
 10. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 11. Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
@@ -170,42 +171,44 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
 
 ### <a name="vendor-invoice-details"></a>Hankija arve andmed
 
-Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMobileInvoiceHeaderDetails** Dynamics 365 for Operationsis. Pange tähele, et olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel vanim arve (esimesena koostatud arve). Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja mõningaid arveandmeid, et saaksime mobiilset lehte kujundada. [![Töövoo leht](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMobileInvoiceHeaderDetails** Finance and Operationsis. Pange tähele, et olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel vanim arve (esimesena koostatud arve). Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja mõningaid arveandmeid, et saaksime mobiilset lehte kujundada. [![Töövoo leht](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Asendage Dynamics 365 for Operationsi URL-is menüüelemendi nimi stringiga **VendMobileInvoiceHeaderDetails** vormi avamiseks
+1.  Asendage Finance and Operationsi URL-is menüüelemendi nimi stringiga **VendMobileInvoiceHeaderDetails** vormi avamiseks
 2.  Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
 3.  Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
 4.  Valige eelnevalt loodud leht **Minu hankija arved **ja klõpsake siis nuppu **Redigeeri**.
 5.  Klõpsake vahekaardil **Väljad** veerupäist **Ruudustik**.
 6.  Klõpsake valikuid **Atribuudid** &gt; **Lisa leht**. **Märkus.** Kui klõpsate pealkirja **Ruudustik** ja lisate lehe, luuakse automaatselt seos üksikasjade lehega.
 7.  Sisestage lehe pealkiri, nt **Arve üksikasjad** ja kirjeldus, nt **Kuva arve päis ja rea üksikasjad**.
-8.  Klõpsake nuppu **Vali väljad**. Pange tähele, et väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida.
+8.  Klõpsake nuppu **Vali väljad**. Pange tähele, et väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida. 
 9.  Lisage selle stsenaariumi nõuete põhjal päisest järgmised väljad.
-    1.  Hankija nimi
-    2.  Arve summa
-    3.  Maksja
-    4.  Arve number
-    5.  Arve kuupäev
-    6.  Arve kirjeldus
-    7.  Tähtaeg
-    8.  Arve valuuta
+    - Hankija nimi
+    - Arve summa
+    - Maksja
+    - Arve number
+    - Arve kuupäev
+    - Arve kirjeldus
+    - Tähtaeg
+    - Arve valuuta
 
 10. Lisage lehel olevast ridade ruudustikust järgmised väljad.
-    1.  Hankekategooria
-    2.  Kogus
-    3.  Ühiku hind
-    4.  Rea netosumma
-    5.  1099-summa
+    - Hankekategooria
+    - Kogus
+    - Ühiku hind
+    - Rea netosumma
+    - 1099-summa
 
-11. Kui kõik väljad eelmisest kahest toimingust on lisatud, klõpsake nuppu **Valmis**. Leht peab sarnanema järgmisele illustratsioonile. [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+11. Kui kõik väljad eelmisest kahest toimingust on lisatud, klõpsake nuppu **Valmis**. Leht peab sarnanema järgmisele illustratsioonile.
+[![Leht pärast väljade lisamist](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 13. Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
 14. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
 
 ### <a name="workflow-actions"></a>Töövoo tegevused
 
-Töövootoimingute lisamiseks kasutage lehte **VendMobileInvoiceHeaderDetails** Dynamics 365 for Operationsis. Selle lehe avamiseks asendage menüüelemendi nimi URL-is nii, nagu varem tegite. Seejärel avage mobiilne kujundaja nupult **Sätted** (hammasratas). Tehke järgmist töövootoimingute lisamiseks üksikasjade lehel.
+Töövootoimingute lisamiseks kasutage lehte **VendMobileInvoiceHeaderDetails** Finance and Operationsis. Selle lehe avamiseks asendage menüüelemendi nimi URL-is nii, nagu varem tegite. Seejärel avage mobiilne kujundaja nupult **Sätted** (hammasratas). Tehke järgmist töövootoimingute lisamiseks üksikasjade lehel. Teile peavad olema määratud sobivas olekus arved, mis teevad teile kättesaadavaks need töövootegevused, mille kujundamisega tegelete.
 
+#### <a name="record-workflow-actions"></a>Töövoo tegevuste registreerimine
 1.  Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
 2.  Valige eelnevalt loodud leht **Arve üksikasjad** ja klõpsake siis nuppu **Redigeeri**.
 3.  Klõpsake vahekaardil **Tegevused** käsku **Lisa tegevus**.
@@ -217,14 +220,40 @@ Töövootoimingute lisamiseks kasutage lehte **VendMobileInvoiceHeaderDetails** 
 9.  Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 10. Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
 11. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
-12. Korrake samme 3–11 kõigi vajalike töövootegevuste registreerimiseks. Pange tähele nõuet, et teile oleksid määratud sellises olekus arved, mis teevad teile kättesaadavaks need töövootegevused, mille kujundamisega tegelete.
-13. Avage Notepad või Microsoft Visual Studio ja kleepige sinna järgmine kood. Salvestage fail JS-failina. See kood teeb kahte asja.
-    1.  See peidab töövooga seotud lisaveerud, mille varem mobiili loendilehel lisasime. Lisasime need veerud selleks, et rakendusel oleks see teave kontekstis olemas ja see saaks teha järgmise toimingu.
-    2.  Aktiivse töövooetapi põhjal rakendab see loogikat ainult nende tegevuste näitamiseks.
+12. Korrake eelmisi toiminguid kõigi vajalike töövootegevuste registreerimiseks. 
 
-Pange tähele, et lehtede ja muude juhtelementide nimed JS-koodis peavad olema tööruumis samad.
+#### <a name="create-a-js-file"></a>Looge JS-fail
+1. Avage Notepad või Microsoft Visual Studio ja kleepige sinna järgmine kood. Salvestage fail JS-failina. See kood teeb järgmist.
+    - See peidab töövooga seotud lisaveerud, mille varem mobiili loendilehel lisasime. Lisasime need veerud selleks, et rakendusel oleks see teave kontekstis olemas ja see saaks teha järgmise toimingu.
+    - Aktiivse töövooetapi põhjal rakendab see loogikat ainult nende tegevuste näitamiseks.
 
-1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Peitke juhtelemendid, mis peavad olema olemas, kuid mitte nähtavad                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
+> [!NOTE]
+> Lehtede ja muude juhtelementide nimed JS-koodis peavad olema samad, mis tööruumis.
+
+    function main(metadataService, dataService, cacheService, $q) {
+           return {
+               appInit: function (appMetadata) {
+                   // Hide controls that need to be present, but not visible
+                   metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });
+                 metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });
+               metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });
+               },
+               pageInit: function (pageMetadata, params) {
+        if (pageMetadata.Name == 'Invoice-details') {
+                       // Show/hide workflow actions based on workflow step
+                       metadataService.configureAction('Accept', { visible: true });
+                       metadataService.configureAction('Approve', { visible: true });
+                       metadataService.configureAction('Reject', { visible: true });
+                       metadataService.configureAction('Delegate', { visible: true });
+                       metadataService.configureAction('Request-change', { visible: true });
+                       metadataService.configureAction('Recall', { visible: true });
+                       metadataService.configureAction('Complete', { visible: true });
+                       metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -271,19 +300,20 @@ Pange tähele, et lehtede ja muude juhtelementide nimed JS-koodis peavad olema t
 2.  Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
 3.  Valige eelnevalt loodud leht **Arve üksikasjad **ja klõpsake siis nuppu **Redigeeri**.
 4.  Määrake valiku **Dokumendihaldus** sätteks **Jah**, nagu allpool näidatud. **Märkus.** Kui puuduvad nõuded mobiilsel seadmel manuste näitamiseks, võite jätta selle valiku sätteks **Ei**, mis on vaikesäte.
-5.  [![docmanagement](./media/docmanagement-216x300.png)](./media/docmanagement.png)
+![Dokumendihaldus](./media/docmanagement-216x300.png)
 6.  Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 7.  Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
 8.  Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
 
 ### <a name="vendor-invoice-line-distributions"></a>Hankija arve rea jaotused
 
-Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotused ja et arvel on alati ainult üks rida. Kuna see stsenaarium on lihtne, peab kasutaja kogemus mobiilsel seadmel olema samuti piisavalt lihtne, et kasutaja ei peaks jaotuste vaatamiseks mitme taseme võrra süvitsi minema. Hankija arved Dynamics 365 for Operationsis sisaldavad võimalust kuvada kõik jaotused arve päisest. Seda me mobiilistsenaariumi puhul vajamegi. Seetõttu kasutame selle mobiilistsenaariumi osa kujundamiseks lehte **VendMobileInvoiceAllDistributionTree**. 
+Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotused ja et arvel on alati ainult üks rida. Kuna see stsenaarium on lihtne, peab kasutaja kogemus mobiilsel seadmel olema samuti piisavalt lihtne, et kasutaja ei peaks jaotuste vaatamiseks mitme taseme võrra süvitsi minema. Hankija arved Finance and Operationsis sisaldavad võimalust kuvada kõik jaotused arve päisest. Seda me mobiilistsenaariumi puhul vajamegi. Seetõttu kasutame selle mobiilistsenaariumi osa kujundamiseks lehte **VendMobileInvoiceAllDistributionTree**. 
 
 > [!NOTE] 
 > Nõuetega kursis olemine aitab meil stsenaariumi kujundamisel otsustada, millist konkreetset lehte kasutada ja kuidas täpselt kasutaja mobiilikogemust optimeerida. Teises stsenaariumis kasutame teist lehte jaotuste näitamiseks, kuna selle stsenaariumi nõuded on erinevad.
 
-1.  Asendage menüüelemendi nimi URL-is nii, nagu enne tegite. Kuvatav leht peab sarnanema järgmisele illustratsioonile. [![Kõigi jaotuste leht](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+1.  Asendage menüüelemendi nimi URL-is nii, nagu enne tegite. Kuvatav leht peab sarnanema järgmisele illustratsioonile.
+[![Kõigi jaotuste leht](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 2.  Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
 3.  Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**. **Märkus.** Näete, et automaatselt loodi kaks uut lehte. Süsteem loob need lehed, kuna lülitasite eelmises jaotises sisse dokumendihalduse. Võite neid uusi lehti eirata.
 4.  Klõpsake nuppu **Lisa leht**.
@@ -294,22 +324,50 @@ Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotus
     2.  Valuuta
     3.  Pearaamatukonto
 
-> [!NOTE] 
-> Me ei valinud jaotuste ruudustikust veergu **Kirjeldus**, kuna selle stsenaariumi nõuded kinnitasid, et laiendatud hind on ainus summa, mille jaoks jaotused olemas on. Seega ei vaja kasutaja teist välja summa tüübi määramiseks, mille jaoks jaotus on mõeldud. Kuid järgmises stsenaariumis **kasutame** seda teavet, kuna selle stsenaariumi nõuded määravad, et teistel summatüüpidel on jaotused (nt käibemaks).
+    > [!NOTE] 
+    > Me ei valinud jaotuste ruudustikust veergu **Kirjeldus**, kuna selle stsenaariumi nõuded kinnitasid, et laiendatud hind on ainus summa, mille jaoks jaotused olemas on. Seega ei vaja kasutaja teist välja summa tüübi määramiseks, mille jaoks jaotus on mõeldud. Kuid järgmises stsenaariumis **kasutame** seda teavet, kuna selle stsenaariumi nõuded määravad, et teistel summatüüpidel on jaotused (nt käibemaks).
 8.  Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 9.  Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
 10. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
 
-**Märkus.** Mobiilileht **Arvestuse kuvamine** pole praegu seotud ühegi mobiililehega, mille seni kujundanud oleme. Kuna kasutaja peab saama liikuda lehele **Arvestuse kuvamine** mobiilse seadme lehelt **Arve üksikasjad**, peame pakkuma võimalust liikuda lehelt **Arve üksikasjad** lehele **Arvestuse kuvamine**. Tekitame selle liikumisvõimaluse, kasutades JavaScripti kaudu lisaloogikat.
+> [!NOTE] 
+> Mobiilileht **Arvestuse kuvamine** pole praegu seotud ühegi mobiililehega, mille seni kujundanud oleme. Kuna kasutaja peab saama liikuda lehele **Arvestuse kuvamine** mobiilse seadme lehelt **Arve üksikasjad**, peame pakkuma võimalust liikuda lehelt **Arve üksikasjad** lehele **Arvestuse kuvamine**. Tekitame selle liikumisvõimaluse, kasutades JavaScripti kaudu lisaloogikat.
 
 1.  Avage varem loodud JS-fail ja lisage read, mis tõstetakse esile järgmises koodis. See kood teeb kahte asja.
     1.  See aitab garanteerida, et kasutajad ei saa liikuda otse tööruumist lehele **Arvestuse kuvamine**.
     2.  See tekitab navigeerimisnupu lehelt **Arve üksikasjad** lehele **Arvestuse kuvamine**.
 
 > [!NOTE] 
-> Lehtede ja muude juhtelementide nimed JS-koodis peavad olema tööruumis samad.
+> Lehtede ja muude juhtelementide nimed JS-koodis peavad olema samad, mis tööruumis.
 
-1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Peitke juhtelemendid, mis peavad olema olemas, kuid mitte nähtavad                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });                // Hide pages not applicable for root navigation                metadataService.hideNavigation('View-accounting');                //Link to view accounting                metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
+    function main(metadataService, dataService, cacheService, $q) {
+           return {
+               appInit: function (appMetadata) {
+                   // Hide controls that need to be present, but not visible
+                   metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });
+                 metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });
+               metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });
+                   // Hide pages not applicable for root navigation
+                   metadataService.hideNavigation('View-accounting');
+                   //Link to view accounting
+                   metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);
+               },
+               pageInit: function (pageMetadata, params) {
+        if (pageMetadata.Name == 'Invoice-details') {
+                       // Show/hide workflow actions based on workflow step
+                       metadataService.configureAction('Accept', { visible: true });
+                       metadataService.configureAction('Approve', { visible: true });
+                       metadataService.configureAction('Reject', { visible: true });
+                       metadataService.configureAction('Delegate', { visible: true });
+                       metadataService.configureAction('Request-change', { visible: true });
+                       metadataService.configureAction('Recall', { visible: true });
+                       metadataService.configureAction('Complete', { visible: true });
+                       metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -352,7 +410,7 @@ Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotus
 
 ### <a name="validation"></a>Kinnitamine
 
-Avage rakendus oma mobiilses seadmes ja looge ühendus oma Microsoft Dynamics 365 for Operationsi eksemplariga. Veenduge, et logiksite sisse ettevõttesse, kus teile on määratud ülevaatamiseks hankija arved. Teil peaks olema võimalik teha järgmisi toiminguid.
+Avage rakendus oma mobiilses seadmes ja looge ühendus oma Finance and Operationsi eksemplariga. Veenduge, et logiksite sisse ettevõttesse, kus teile on määratud ülevaatamiseks hankija arved. Teil peaks olema võimalik teha järgmisi toiminguid.
 
 -   Vaadake tööruumi **Minu kinnitused**.
 -   Minge tööruumis **Minu kinnitused** süvitsi ja vaadake lehte **Minu hankija arved**.
@@ -421,9 +479,9 @@ Avage rakendus oma mobiilses seadmes ja looge ühendus oma Microsoft Dynamics 36
 </tbody>
 </table>
 
-### <a name="exercise"></a>Harjutus
+### <a name="next-steps"></a>Järgmised sammud
 
-1. stsenaariumi puhul saab kasutada järgmisi variatsioone, tuginedes 2. stsenaariumi nõuetele. Kasutage seda jaotist õppeotstarbelise harjutusena.
+1. stsenaariumi puhul saab kasutada järgmisi variatsioone, tuginedes 2. stsenaariumi nõuetele. Selle jaotise abil saate parandada oma mobiilirakenduse kogemust.
 
 1.  Kuna 2. stsenaariumi puhul eeldatakse suuremat arve ridade arvu, aitavad järgmised kujunduse muudatused kasutajakogemust mobiilsel seadmel optimeerida.
     1.  Arve ridade vaatamise asemel üksikasjade lehel (nagu 1. stsenaariumis) võivad kasutajad valida ridade vaatamise eraldi mobiililehel.
@@ -432,8 +490,6 @@ Avage rakendus oma mobiilses seadmes ja looge ühendus oma Microsoft Dynamics 36
 
 2.  Kuna 2. stsenaariumi puhul eeldatakse mitut summa tüüpi (käibemaks, tasud jne), on kasulik näidata summa tüübi kirjeldust. (Jätsime selle teabe 1. stsenaariumist välja.)
 
-## <a name="conclusion"></a>Lõppsõna
-Mobiiliplatvorm ja rakenduse võimalused võimaldavad kujundada organisatsiooni kasutajabaasile optimeeritud mobiilistsenaariume. Selles teemas antud näidete põhjal võite proovida teisi variatsioone ja luua konkreetsele vajadusele vastavaid teistsuguseid versioone.
 
 
 

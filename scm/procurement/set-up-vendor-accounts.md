@@ -3,7 +3,7 @@ title: Hankijakontode seadistamine
 description: "See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bee95a2f3d9727e9123aa0abcf41325e6cac1efd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -62,13 +62,13 @@ Saate talletada hankija kontaktid. Neid kontakte saab seejärel kasutada dokumen
 
 Hankija kontaktide lisamiseks klõpsake lehe **Kõik hankijad** vahekaardi **Grupis** grupis **Seadistus** klõpsake valikuid **Kontaktid** &gt; **Lisa kontaktid**.  
 
-Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksikasjad ühelt isikult, kes juba on registreeritud Microsoft Dynamics 365 for Operationsis, ja redigeerida teavet vastavalt nõudmisele.  
+Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksikasjad ühelt isikult, kes juba on registreeritud Microsoft Dynamics 365 for Finance and Operationsis, ja redigeerida teavet vastavalt nõudmisele.  
 
 **Märkus.** Hankija kontakti lisamine pole sama mis sellele hankijale kontaktiteabe lisamine. Kuigi võite lisada hankijale üldise kontaktiteabe, võib teil olla ka mitu teatud inimest, kes on selles ettevõttes kontaktid ja kellel kõigil on oma kontaktiteave.  
 
 Te ei saa kustutada kontaktiisiku kirjet, kui kontaktidel on dokumendis viidatud. Selle asemel saate kontakti inaktiveerida.  
 
-Rakenduses Microsoft Office 365 saate isiklikele kontaktidele hankija kontakte lisada. Peate esmalt Microsoft Exchange Serveri sünkroonimise ja Microsoft Outlooki seadistuse viisardis seadistama sünkroonimise rakenduste Dynamics 365 for Operations ja Office 365 vahel.
+Rakenduses Microsoft Office 365 saate isiklikele kontaktidele hankija kontakte lisada. Peate esmalt Microsoft Exchange Serveri sünkroonimise ja Microsoft Outlooki seadistuse viisardis seadistama sünkroonimise rakenduste Dynamics 365 for Finance and Operations ja Office 365 vahel.
 
 ## <a name="vendors-in-different-legal-entities"></a>Hankijad erinevates juriidilistes isikutes
 Kui hankija on registreeritud teie organisatsioonis ainult ühele juriidilisele isikule ja teised juriidilised isikud peavad registreerima sama hankija, saate kasutada lehte **Lisa hankija teise juriidilisse isikusse**, et konfigureerida hankija tegema äri teise juriidilise isikuga. Peate valima hankija grupi, valuuta ja hoidma hankija olekut valitud juriidilises isikus.  

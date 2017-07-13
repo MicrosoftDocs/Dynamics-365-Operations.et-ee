@@ -1,27 +1,27 @@
 ---
 title: "Tööjaotuse struktuurid"
-description: 
+description: "Tööjaotuse struktuur (WBS) on projekti puhul tehtava töö kirjeldus. See on ülesannete hierarhia, mis kajastab projekti töörühma arusaama töö koosseisust ja iga osa või ülesande ulatusest, maksumusest ja kestusest."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,10 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
-
-
-Tööjaotuse struktuuris Tööjaotuse struktuur (WBS) on projekti puhul tehtava töö kirjeldus. See on ülesannete hierarhia, mis kajastab projekti töörühma arusaama töö koosseisust ja iga osa või ülesande ulatusest, maksumusest ja kestusest. WBS-il on kolm suurt eesmärki.
+Tööjaotuse struktuur (WBS) on projekti puhul tehtava töö kirjeldus. See on ülesannete hierarhia, mis kajastab projekti töörühma arusaama töö koosseisust ja iga osa või ülesande ulatusest, maksumusest ja kestusest. WBS-il on kolm suurt eesmärki.
 
 -   Kirjeldada tööjaotust või koosseisu ülesannetes.
 -   Plaanida projekti tööd.
@@ -43,7 +40,7 @@ WBS-i üksikasjalikkuse tase sõltub prognoosides vajalikust täpsuse tasemest j
 
 Vastukaaluks on meedia ja reklaami, tarkvara ja IT-taristu valdkondade projektid pigem ainulaadsed ja produktiivsus sõltub ülesande läbiviija kogemusest ja kompetentsusest. Seetõttu kasutatakse nendes valdkondades WBS-i projekti ulatuse hindamiseks, mitte projekti üksikasjaliku edenemise jälgimiseks. 
 
-WBS-i koostamine on intensiivne protsess, mida tehakse tavaliselt kaua ja mis nõuab koostööd ning teavet väga mitmesugustelt inimestelt. See teema kirjeldab, kuidas saate kasutada WBS-i täiustusi rakenduses Microsoft Dynamics 365 for Operations teie hinnangutele ja jälgimise nõuetele vastamiseks.
+WBS-i koostamine on intensiivne protsess, mida tehakse tavaliselt kaua ja mis nõuab koostööd ning teavet väga mitmesugustelt inimestelt. See teema kirjeldab, kuidas saate kasutada WBS-i täiustusi rakenduses Microsoft Dynamics 365 for Finance and Operations teie hinnangutele ja jälgimise nõuetele vastamiseks.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS-i loomise eeltingimused
 WBS-i loomiseks tuleb koostada tööplaan ja prognoosida töö maksumust.
@@ -68,7 +65,7 @@ Kalendri tööpäevade ja töötundide seadistamiseks või uue kalendri loomisek
 WBS-i kulude prognoosimise võimaluste täielikuks kasutamiseks tuleb seadistada kulud ja müügihinnad töötajatele, töö kategooriatele, kuludele ja tasudele ning kaupadele.
 
 -   Tööjõu, kulu ja tasu kategooriatele kulude ja müügihinna seadistamiseks klõpsake valikuid **Projektihaldus ja -arvestus** &gt; **Seadistus** &gt; **Hinnad**.
--   Kaupade maksumuse ja müügihinna seadistamiseks kasutage iga kauba lehte **Kaubanduslepped**mooduli Tooteteabe haldus loendilehel **Väljastatud tooted**.
+-   Kaupade maksumuse ja müügihinna seadistamiseks kasutage iga kauba lehte **Kaubanduslepped** mooduli Tooteteabe haldus loendilehel **Väljastatud tooted**.
 
 ## <a name="creating-a-wbs"></a>WBS-i loomine
 WBS-i loomine hõlmab kolme tegevust.
@@ -106,10 +103,10 @@ Praegu ei saa WBS-i nummerdamist kohandada.
 
 ### <a name="schedule-estimation"></a>Graafiku prognoosimine
 
-Graafiku prognoosimine on tavaliselt WBS-i loomise teine etapp. Graafikut on kõige parem prognoosida pärast ülesannete loomist. Lehel **Tööjaotuse struktuur** rakenduses Microsoft Dynamics 365 for Operation on kaks jaotist. Ülemine paan on mõeldud graafiku prognoosimiseks ja alumisel paanil on vahekaart **Eeldatavad kulud ja tulud**, mida saate kasutada kulude prognoosimiseks. 
+Graafiku prognoosimine on tavaliselt WBS-i loomise teine etapp. Graafikut on kõige parem prognoosida pärast ülesannete loomist. Finance and Operationsi lehel **Tööjaotuse struktuur** on kaks osa. Ülemine paan on mõeldud graafiku prognoosimiseks ja alumisel paanil on vahekaart **Eeldatavad kulud ja tulud**, mida saate kasutada kulude prognoosimiseks. 
 **Ülesande sõltuvused** WBS-is saab luua ülesannete vahel eelkäija seose. Kui määrate ülesandele eelkäijatest ülesanded, saab ülesanne alata alles siis, kui kõik eelkäijatest ülesanded on lõpetatud. Ülesande plaanitavaks alguskuupäevaks määratakse automaatselt kõigi selle eelkäijate hiliseim kuupäev. 
 
-**Ülesannete plaanimine rakenduses Microsoft Dynamics 365 for Operations** Järgmised tegurid määravad lehe sõlme ülesannete ajastamise.
+**Ülesannete plaanimine rakenduses Finance and Operations** Järgmised tegurid määravad lehe sõlme ülesannete ajastamise.
 
 -   Eelkäijad
 -   Panus
@@ -126,7 +123,7 @@ Ilma eelkäijateta lehe sõlmülesande alguskuupäevaks määratakse automaatsel
 
 Inimeste arv × kestus × tundide arv standardsel tööpäeval projektikalendris. 
 
-Mõnikord võite soovida neist reeglitest kõrvale kalduda. Saate automaatse ajastamise välja lülitada, et takistada rakendusel Microsoft Dynamics 365 for Operations mis tahes lehe sõlmülesannete atribuute automaatselt määrata või korrigeerida. Kui sisestate ülesandele teavet, mis põhjustab mõne plaanimisreegli rikkumise, kuvatakse selle ülesande puhul plaanimisvea ikoon. Kui te ei soovi, et plaanimisvigu kuvatakse, klõpsake funktsiooni väljalülitamiseks valikut **Plaanimisvead on kuvatud**. 
+Mõnikord võite soovida neist reeglitest kõrvale kalduda. Saate lülitada automaatse plaanimise välja, et Finance and Operations ei seadistaks ega korrigeeriks automaatselt lehe sõlmülesannete atribuute. Kui sisestate ülesandele teavet, mis põhjustab mõne plaanimisreegli rikkumise, kuvatakse selle ülesande puhul plaanimisvea ikoon. Kui te ei soovi, et plaanimisvigu kuvatakse, klõpsake funktsiooni väljalülitamiseks valikut **Plaanimisvead on kuvatud**. 
 
 > [!NOTE] 
 > Kokkuvõtva või konteinerülesande väärtusi arvutatakse jätkuvalt koostisülesannete väärtuste summana, olenemata sellest, kas automaatne plaanimisabi on sisse või välja lülitatud. 
@@ -135,7 +132,7 @@ Mõnikord võite soovida neist reeglitest kõrvale kalduda. Saate automaatse aja
 
 **Plaanimisvigade parandamine ülesannete kaupa** Kui teete plaanimisvea ikoonil konkreetse ülesande puhul topeltklõpsu, kuvab dialoogiboks kõik selle ülesande plaanimisvead. Saate valida, milliseid plaanimisvigu selle ülesande puhul parandada. 
 
-**Kõigi plaanimisvigade parandamine** Kui soovite, et rakendus Microsoft Dynamics 365 for Operations parandaks kõik WBS-i ajastamistõrked, klõpsake tegumisribal nuppu **Paranda kõik plaanimislahknevused**. 
+**Kõigi plaanimisvigade parandamine** Kui soovite, et Finance and Operations parandaks WBS-is kõik plaanimisvead, klõpsake valikut **Paranda kõik plaanimislahknevused**. 
 
 > [!NOTE] 
 > See funktsioon võib põhjustada WBS-ile olulisi muudatusi. Vead parandatakse järgmises järjestuses.
@@ -170,7 +167,7 @@ Iga tööjõu või kuluprognoosi rea kulu ja müügihind põhinevad seadistusel,
 ## <a name="tracking-progress-on-the-wbs"></a>Edenemise jälgimine WBS-is
 Mõnes valdkonnas jälgitakse projekti edenemist WBS-i suhtes väga detailsel tasemel, samas kui teistes jälgitakse edenemist WBS-i kõrgemal tasemel. See jaotis kirjeldab, kuidas WBS-i jälgimist projekti nõuete jaoks kasutada saab. 
 
-Rakendusel Microsoft Dynamics 365 for Operations on projekti WBS-i jaoks kolm vaadet: plaanimisvaade, panuse jälgimise kuva ja kulude jälgimine.
+Finance and Operations on projekti WBS-i jaoks kolm kuva: plaanimiskuva, panuse jälgimise kuva ja kulude jälgimise kuva.
 
 ### <a name="planning-view"></a>Plaanimiskuva
 
@@ -246,13 +243,13 @@ Teenitud väärtuse ajafaasi diagramm kuvatakse nädalate või kuude kaupa. Sell
 
 **Plaanitud väärtus** EVM-i teooria väidab, et graafiku plaanitud väärtus kajastab määra, mille ulatuses projekti töörühm plaanis projekti puhul väärtust teenida. 
 
-Rakendus Microsoft Dynamics 365 for Operations kasutab plaanitud väärtuse plaanimisel 0:100 teenimisreeglit. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
+Finance and Operations kasutab plaanitud väärtuse kavandamisel 0:100 teenimise reeglit. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
 
 Moodulis Projektihaldus ja raamatupidamine sisestatakse lehe sõlmede lõppkuupäev ja plaanitud kulu. Kui plaanitud väärtuse graafik kuvatakse nädalakaupa, summeeritakse plaanitud väärtus nädalakaupa kõigi lehe sõlmülesannete puhul projekti vältel. 
 
 **Teenitud väärtus** EVM-i teooria väidab, et graafiku teenitud väärtus kajastab määra, mille ulatuses projekti töörühm tegelikult väärtust teenib. 
 
-Rakendus Microsoft Dynamics 365 for Operations kasutab teenitud väärtuse plaanimisel 0:100 teenimisreeglit. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
+Finance and Operations kasutab teenitud väärtuse kavandamisel 0:100 teenimise reeglit. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
 
 Teenitud väärtuse arvutamisel arvestatakse iga ülesande edenemise protsenti. 0:100 teenimise reegli alusel arvestatakse teenitud väärtuse arvutuses ainult antud perioodi lõpetatud ülesandeid selle perioodi lõpu seisuga. Projekti teenitud väärtus arvutatakse kõigi selle graafiku loomisel lõpetatud ülesannete kohta. 
 

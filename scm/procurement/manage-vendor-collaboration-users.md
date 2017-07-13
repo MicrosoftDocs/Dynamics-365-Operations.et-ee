@@ -3,14 +3,14 @@ title: "Hankija koostöö kasutajate haldamine"
 description: "See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7e747547ed5cf4654a99382ecc8f9f6103ec5cfa
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte. 
 
-Hankija koostöö liides rakenduses Microsoft Dynamics 365 for Operations paljastab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub rakenduse Dynamics 365 for Operations eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Klientidega hankija](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Hankija koostöö liides rakenduses Microsoft Dynamics 365 for Finance and Operations paljastab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub rakenduse Dynamics 365 for Finance and Operations eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Klientidega hankija](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
@@ -62,12 +62,12 @@ Taotluse edastamisel lisatakse see mooduli **Hankija koostöö** loendisse **Han
 Enne kui saate taotleda uue kasutaja ettevalmistamist, tuleb see isik seadistada kontaktina ühe või mitme hankijakonto jaoks. Uue hankija koostöö kasutaja jaoks taotluse loomiseks:
 
 1.  Lehel **Kõik kontaktid** klõpsake valikut **Valmista ette hankija-kasutaja**.
-2.  Sisestage kasutaja meiliaadress. Seda aadressi kasutab kasutaja, et logida sisse rakendusse Dynamics 365 for Operations. Kui meiliaadress kuulub domeenile, mis on registreeritud Microsoft Azure'iga üürnikuna, siis peab meiliaadress olema olemasolev Azure Active Directory (ADD) konto, et ettevalmistamise protsessi saaks edukalt lõpuke viia. Kui meiliaadress ei kuulu Microsoft Azure'iga registreeritud domeenile, luuakse ADD konto osana ettevalmistamise protsessit ja uus kasutaja saab kutsemeili. Laiatarbemeiliaadresse, mis on selliste domeenidega nagu @hotmail.com, @gmail.com või @comcast.net, ei saa kasutada rakenduse Dynamics 365 for Operations kasutaja registreerimiseks.
+2.  Sisestage kasutaja meiliaadress. Seda aadressi kasutab kasutaja, et logida sisse rakendusse Dynamics 365 for Finance and Operations. Kui meiliaadress kuulub domeenile, mis on registreeritud Microsoft Azure'iga üürnikuna, siis peab meiliaadress olema olemasolev Azure Active Directory (ADD) konto, et ettevalmistamise protsessi saaks edukalt lõpuke viia. Kui meiliaadress ei kuulu Microsoft Azure'iga registreeritud domeenile, luuakse ADD konto osana ettevalmistamise protsessit ja uus kasutaja saab kutsemeili. Laiatarbemeiliaadresse, mis on selliste domeenidega nagu @hotmail.com, @gmail.com või @comcast.net, ei saa kasutada rakenduse Dynamics 365 for Finance and Operations kasutaja registreerimiseks.
 3.  Seadke suvand **Hankija koostöö juurdepääs on lubatud** valikule **Jah** kõikide juriidiliste isikute puhul, millele kasutaja vajab juurdepääsu.
 4.  Jaotises **Kasutaja rollide määramine** valige märkeruut **Määra** turberollidele, mis uuel kasutajal peaks olema.
 5.  Klõpsake **Edasta**.
 
-Hankija-kasutaja taotluse edastamisel seatakse valitud hankija konto väli **Hankija koostöö juurdepääs on lubatud** olekusse **Jah** ja käivitatakse kasutajataotluse töövoog. Osana töövoost luuakse rakenduses Dynamics 365 for Operations uus kasutaja ja määratakse turberollid. Lisaks aktiveeritakse Azure B2B teenus, mis käivitab suhtluse Azure'i portaaliga ja seostab uut või olemasolevat AAD kontot rakenduse Dynamics 365 for Operations kasutajakontoga.
+Hankija-kasutaja taotluse edastamisel seatakse valitud hankija konto väli **Hankija koostöö juurdepääs on lubatud** olekusse **Jah** ja käivitatakse kasutajataotluse töövoog. Osana töövoost luuakse rakenduses Dynamics 365 for Finance and Operations uus kasutaja ja määratakse turberollid. Lisaks aktiveeritakse Azure B2B teenus, mis käivitab suhtluse Azure'i portaaliga ja seostab uut või olemasolevat AAD kontot rakenduse Dynamics 365 for Finance and Operations kasutajakontoga.
 
 ### <a name="inactivate-a-user"></a>Kasutaja inaktiveerimine
 

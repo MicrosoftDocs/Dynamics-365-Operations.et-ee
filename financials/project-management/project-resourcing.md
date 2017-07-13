@@ -3,14 +3,14 @@ title: Projekti ressursieraldus
 description: Selles teemas antakse teavet projekti ressursieralduse kohta.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Selles teemas antakse teavet projekti ressursieralduse kohta.
 
-Üks väljakutse projektijuhtide ja ressursihaldurite jaoks projekti plaanimisetapis on ressursside eraldamine, mille käigus nad peavad projektiga töötamiseks õige ressursi välja selgitama ja reserveerima. Microsoft Dynamics 365 for Operationsis saab projektide ressursieralduse võimaluste abil määratleda rolle, mida käsitletakse ajutiste ressurssidena, mille saab reserveerida konkreetsele tegevusele või tegevuse osale. Sedalaadi ressursieraldus võimaldab projektijuhtidel ja ressursihalduritel teha järgmisi toiminguid.
+Üks väljakutse projektijuhtide ja ressursihaldurite jaoks projekti plaanimisetapis on ressursside eraldamine, mille käigus nad peavad projektiga töötamiseks õige ressursi välja selgitama ja reserveerima. Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis saab projektide ressursieralduse võimaluste abil määratleda rolle, mida käsitletakse ajutiste ressurssidena, mille saab reserveerida konkreetsele tegevusele või tegevuse osale. Sedalaadi ressursieraldus võimaldab projektijuhtidel ja ressursihalduritel teha järgmisi toiminguid.
 
 -   Määratleda ressursside sobitamise hõlbustamiseks rolli, millel on vajalikud kompetentsid.
 -   Kasutada rolle reserveeritud ressurssidel põhineva algse tegevuse ajakava määratlemiseks.
@@ -65,7 +65,7 @@ Töötaja seadistamisel kontsernisisese ressursina peate tegema seadistuse välj
 
 **Välja laenavas ettevõttes tehke järgmist.**
 
-1.  Kontrollige Dynamics 365 for Operationsis, kas välja laenav ettevõte on valitud, ja läbige siis eespool kirjeldatud protseduur „Töötaja seadistamine projekti ressursina”.
+1.  Kontrollige Finance and Operationsis, kas välja laenav ettevõte on valitud, ja läbige siis eespool kirjeldatud protseduur „Töötaja seadistamine projekti ressursina”.
 2.  Avage **Pearaamat **&gt; **Sisestamise seadistus **&gt; **Kontserni raamatupidamine**. Klõpsake **Uus**.
 3.  Valige väljalt **Juriidilise isiku ID **välja laenav ettevõte. Täitke vajalikul viisil ülejäänud väljad ja klõpsake siis käsku **Salvesta**.
 4.  Avage **Projektihaldus ja raamatupidamine **&gt; **Seadistus **&gt; **Hinnad ** &gt; **Ülekande hind**.** **
@@ -123,7 +123,7 @@ Töötaja kompetentside seadistamiseks kasutatakse loendilehte **Töötajad** mo
 6.  Valige paanilt **Järelejäänud projektid** projekt ja klõpsake siis noolt selle lisamiseks paanile **Valitud projektid**.
 7.  Sulgege leht.
 
-Vajaduse korral saate ka ressursile kategooriaid määrata. Kategooria tüüp on kulu või tulu. Selle määrab teie organisatsioon. Kui ressursile pole määratud ühtegi kategooriat, otsib Dynamics 365 for Operations üles kulu ja tulu tunnihindade vaikekategooria.
+Vajaduse korral saate ka ressursile kategooriaid määrata. Kategooria tüüp on kulu või tulu. Selle määrab teie organisatsioon. Kui ressursile pole määratud ühtegi kategooriat, otsib Finance and Operations üles kulu ja tulu tunnihindade vaikekategooria.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Projekti ressursi ja rolli omaduste seadistamine
 
@@ -190,7 +190,7 @@ Rollidele saab seadistada kõik kulud, müügi- ja sisehinnad.
 5.  Sisestage veergu **Hinnakujundus** valitud ressursi rolli hind.
 
 ## <a name="form-a-project-team"></a>Projektimeeskonna koostamine
-Projektis eelnevalt seadistatud rollide kasutamiseks peab projektijuht need rollid projektiga seostama. Projektile saab määrata mitu rolli ja segaduse vältimiseks märgistab Dynamics 365 for Operations need rollid reserveerimise ajal automaatselt. Näiteks kui projektijuht vajab kolme tarkvarainseneri, luuakse automaatselt kolm tarkvarainseneri rolli, mille sildid on tarkvarainsener 1, tarkvarainsener 2 ja tarkvarainsener 3. Kui rollile olid eelnevalt määratud rolli omadused, rakendatakse need ressursi otsingute käigus filtrina. Otsingu täiendavaks täpsustamiseks saab omadusi lisada. 
+Projektis eelnevalt seadistatud rollide kasutamiseks peab projektijuht need rollid projektiga seostama. Projektile saab määrata mitu rolli ja segaduse vältimiseks märgistab Finance and Operations need rollid reserveerimise ajal automaatselt. Näiteks kui projektijuht vajab kolme tarkvarainseneri, luuakse automaatselt kolm tarkvarainseneri rolli, mille sildid on tarkvarainsener 1, tarkvarainsener 2 ja tarkvarainsener 3. Kui rollile olid eelnevalt määratud rolli omadused, rakendatakse need ressursi otsingute käigus filtrina. Otsingu täiendavaks täpsustamiseks saab omadusi lisada. 
 
 Kuvasätteid saab samuti kohandada, et anda parem vaade ressursi saadavuse kohta. On olemas valikud saadavuse kuvamiseks tunnis, päevas, nädalas, kuus, kvartalis ja aastas. On olemas ka valik näidata ressursside olemasolevat ja järelejäänud mahtu. Sellest valikust on kasu aja juhtimisel, kui hindate tegevuste jaoks saadaolevat aega või ressursi kättesaadavust. 
 
@@ -210,7 +210,7 @@ Järgmine protseduur selgitab, kuidas projektimeeskonda koostada.
 1.  Valige loendilehelt **Kõik projektid** projekt ja klõpsake siis käsku **Redigeeri**.
 2.  Sisestage vahekaardile **Projektimeeskond ja plaanimine** väljal **Graafiku lõppkuupäev** graafiku alguskuupäev pluss üks kuu. Näiteks kui graafiku alguskuupäev on 24. juuni 2017 (24/06/2017), sisestage **24/07/2017**.
 3.  Klõpsake käsku **Lisa**.
-4.  Valige paanilt **Projektile rollide lisamine** väljal **Roll**väärtus **Vanem-projektijuht**.
+4.  Valige paanilt **Projektile rollide lisamine** väljal **Roll** väärtus **Vanem-projektijuht**.
 5.  Klõpsake valikut **Vajalikud kompetentsid**.
 6.  Lehel **Omaduste valimine** on vaikimisi valitud omadused, mille eelnevalt vanem-projektijuhi rollile määrasite. Klõpsake nupul **OK**.
 7.  Sisestage lehe **Rollide lisamine projektidele** väljale **Ressursside arv** väärtus **1**.
@@ -277,7 +277,7 @@ WBS-i on lisatud valikuid, et ressursieralduse funktsiooni paremini kasutada.
 </tr>
 <tr class="even">
 <td>Meeskonna automaatne loomine</td>
-<td>Saate lisada automaatselt plaanitud ressursse, kasutades toiminguga seostatud rolle. Dynamics 365 for Operations soovitab automaatselt plaanitud ressursse, kasutades mitmel kriteeriumil põhinevat otsustamise analüüsi, mis põhineb rollidel. Pärast toimingutele WBS-is rollide ja panuse (tunnid) määramist ja struktuuri vabastamist klõpsake valikut <strong>Meeskonna automaatne loomine</strong>. Vajalik arv plaanitud ressursse lisatakse WBS-i ja vahekaardile <strong>Projekti ja meeskonna plaanimine</strong>.</td>
+<td>Saate lisada automaatselt plaanitud ressursse, kasutades toiminguga seostatud rolle. Finance and Operations soovitab automaatselt plaanitud ressursse, kasutades mitmel kriteeriumil põhinevat otsustamise analüüsi, mis põhineb rollidel. Pärast toimingutele WBS-is rollide ja panuse (tunnid) määramist ja struktuuri vabastamist klõpsake valikut <strong>Meeskonna automaatne loomine</strong>. Vajalik arv plaanitud ressursse lisatakse WBS-i ja vahekaardile <strong>Projekti ja meeskonna plaanimine</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Ressurss (ripploend)</td>
@@ -317,7 +317,7 @@ WBS-i on lisatud valikuid, et ressursieralduse funktsiooni paremini kasutada.
 
 > [!NOTE] 
 > Te ei saa hoiatust, et määratud ressurss on nüüd 2, kuna ressursside arvuks jääb 1.
-18. Kinnitage lehel **Tööjaotuse struktuur**WBS-is ressursi määrang ja klõpsake siis käsku **Salvesta**.
+18. Kinnitage lehel **Tööjaotuse struktuur** WBS-is ressursi määrang ja klõpsake siis käsku **Salvesta**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Ressursi täitmine plaanitud ressursside puhul
 Projektijuht saab plaanida projekti jaoks vajalikke ressursirolle. Ressursihaldur näeb neid plaanitud ressursse taotlustena lehel **Ressursi täitmine** ja saab määrata tegelikke ressursse.

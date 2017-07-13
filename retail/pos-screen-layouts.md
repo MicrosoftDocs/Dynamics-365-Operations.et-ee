@@ -1,27 +1,28 @@
 ---
 title: Kassa ekraanipaigutuste konfigureerimine
-description: "Selles teemas käsitletakse Microsoft Dynamics 365 for Operationsi jaemüügikassa ekraanipaigutusi."
+description: "Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili jaemüügikassa ekraanipaigutusi."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7dee20166ea89b56523e3ef38e66de53d6e4a621
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 9f7f46c1bae5bac6eefa0b8c70b079cab76aa8b6
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Selles teemas käsitletakse Microsoft Dynamics 365 for Operationsi jaemüügikassa ekraanipaigutusi.
+Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili jaemüügikassa ekraanipaigutusi.
 
-Microsoft Dynamics 365 for Operationsi jaemüügikassa kasutajaliidest saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil.
+Microsoft Dynamics 365 for Retaili jaemüügikassa kasutajaliidest saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil.
 
 ## <a name="visual-profile"></a>Visuaalne profiil
 Visuaalsed profiilid määratakse registritele ja neid kasutatakse kasutajate vahel jagatavate registripõhiste visuaalsete elementide määramiseks. Kõigil kasutajatel, kes registrisse logivad, on sama kujundus, värvid ja pildid. 
@@ -46,7 +47,7 @@ Visuaalsed profiilid määratakse registritele ja neid kasutatakse kasutajate va
 
 **Rõhuvärv** – rõhuvärvi kasutatakse kogu kassas teatud visuaalsete elementide (nt paanide, käsunuppude või hüperlinkide) eristamiseks või esiletõstmiseks. Tavaliselt eeldavad need elemendid kasutajatoimingut.
 
-**Päise värv** – päise värv võimaldab kasutajal konfigureerida lehe päise värvi jaemüüja tootjakohanduste vajaduste järgi. See funktsioon on saadaval ainult Dynamics 365 for Operationsi versioonis 1611.
+**Päise värv** – päise värv võimaldab kasutajal konfigureerida lehe päise värvi jaemüüja tootjakohanduste vajaduste järgi. See funktsioon on saadaval ainult Dynamics 365 for Retaili versioonis 1611.
 
 **Sisselogimise taustad** – kasutajad saavad määrata sisselogimisekraani taustapildi. Taustapiltide failid peaksid olema võimalikult väikesed, kuna suurte failide talletamine ja laadimine võib mõjutada rakenduse toimimist ja jõudlust.
 
@@ -67,7 +68,7 @@ Ekraanipaigutusi saab määrata kaupluse, registri või kasutaja tasandil. Kasut
 
 ### <a name="layout-sizes"></a>Paigutuse suurused
 
-See funktsioon kehtib ainult Dynamics 365 for Operationsi versioonis 1611. Kuna paljudel juhtudel saab ekraanipaigutusi kasutada mitme ekraani suuruse ja eraldusvõimega, saavad kasutajad nende paigutust ja sisu igaühe puhul konfigureerida. Kassarakendus valib käivitamisel automaatselt seadmele lähima paigutuse suuruse. Ekraanipaigutus võib sisaldada ka nii täis- kui ka kompaktseadmete konfiguratsioone. See konfiguratsioon võimaldab määrata kasutaja ühele ekraanipaigutusele, mis töötab kaupluses mitmesuguste suuruse ja vormi tegurite lõikes. 
+See funktsioon kehtib ainult Dynamics 365 for Retaili versioonis 1611. Kuna paljudel juhtudel saab ekraanipaigutusi kasutada mitme ekraani suuruse ja eraldusvõimega, saavad kasutajad nende paigutust ja sisu igaühe puhul konfigureerida. Kassarakendus valib käivitamisel automaatselt seadmele lähima paigutuse suuruse. Ekraanipaigutus võib sisaldada ka nii täis- kui ka kompaktseadmete konfiguratsioone. See konfiguratsioon võimaldab määrata kasutaja ühele ekraanipaigutusele, mis töötab kaupluses mitmesuguste suuruse ja vormi tegurite lõikes. 
 
 **Modern POS – täispaigutus** – täispaigutused sobivad tavaliselt kõige paremini suurematele ekraanidele, näiteks arvutikuvaritele või tahvelarvutitele. Kasutajad saavad valida, milliseid kasutajaliidese elemente kaasata, määrata nende suuruse ja paigutuse ning konfigureerida nende üksikasjalikke omadusi. Täispaigutused toetavad nii vertikaal- kui ka horisontaalkonfiguratsioone. 
 
@@ -77,11 +78,11 @@ See funktsioon kehtib ainult Dynamics 365 for Operationsi versioonis 1611. Kuna 
 
 Iga paigutuse suurust ekraanipaigutuses tuleb konfigureerida ekraanipaigutuse kujundaja abil. Kujundaja võimaldab kasutajatel määrata ja konfigureerida ekraani Kanne kasutajaliidese elemente. Ekraanipaigutuse kujundaja kasutab ClickOnce’i rakenduse uusima versiooni allalaadimiseks, installimiseks ja käivitamiseks iga kord, kui kasutaja sellele juurde pääseb. Veenduge, et kontrolliksite brauserinõudeid ClickOnce’i kasutamiseks – mõned brauserid (nt Chrome) nõuavad laiendusi. 
 
-**Numbriklahvistik** – numbriklahvistik on kassa ekraani Kanne peamine kasutaja sisestusvahend. Selle saab konfigureerida kuvama terve ekraaniklahvistiku, mis on ideaalne puuteekraanide puhul, või ainult sisestusvälja, mida saab kasutada koos füüsilise klaviatuuriga. Numbriklahvistiku sätted on saadaval ainult tervikpaigutuses. Dynamics 365 for Operationsi versioonis 1611 on kompaktpaigutuste puhul ekraanil Kanne saadaval alati täielik numbriklahvistik.
+**Numbriklahvistik** – numbriklahvistik on kassa ekraani Kanne peamine kasutaja sisestusvahend. Selle saab konfigureerida kuvama terve ekraaniklahvistiku, mis on ideaalne puuteekraanide puhul, või ainult sisestusvälja, mida saab kasutada koos füüsilise klaviatuuriga. Numbriklahvistiku sätted on saadaval ainult tervikpaigutuses. Dynamics 365 for Retaili versioonis 1611 on kompaktpaigutuste puhul ekraanil Kanne saadaval alati täielik numbriklahvistik.
 
-**Kogusummade paneel** – kogusummade paneeli saab konfigureerida ühes või kahes veerus kuvama välju nagu ridade arv, allahindluse summa, tasud, vahesumma ja maksud. Dynamics 365 for Operationsi versioonis 1611 toetavad kompaktpaigutused ainult ühe kogusummade veergu. 
+**Kogusummade paneel** – kogusummade paneeli saab konfigureerida ühes või kahes veerus kuvama välju nagu ridade arv, allahindluse summa, tasud, vahesumma ja maksud. Dynamics 365 for Retaili versioonis 1611 toetavad kompaktpaigutused ainult ühe kogusummade veergu. 
 
-**Sissetulek** – sissetuleku paan sisaldab müügiridu, makseridu ja tarneteavet kassas töödeldavate toodete ning teenuste kohta. Kasutajad saavad määrata veerge, laiusi ja paigutust. Dynamics 365 for Operationsi versiooni 1611 kompaktpaigutuses saate konfigureerida ka lisateavet, mis kuvatakse real põhirea all. 
+**Sissetulek** – sissetuleku paan sisaldab müügiridu, makseridu ja tarneteavet kassas töödeldavate toodete ning teenuste kohta. Kasutajad saavad määrata veerge, laiusi ja paigutust. Dynamics 365 for Retaili versiooni 1611 kompaktpaigutuses saate konfigureerida ka lisateavet, mis kuvatakse real põhirea all. 
 
 **Kliendikaart** – kliendikaart näitab praegu kandega seotud kliendi andmeid. Kliendikaardi saab konfigureerida lisateavet peitma või kuvama. 
 
@@ -89,7 +90,7 @@ Iga paigutuse suurust ekraanipaigutuses tuleb konfigureerida ekraanipaigutuse ku
 
 **Pilt** – pildi juhtelementi saab kasutada kaupluse logo või muu tootjakohanduse teabe kuvamiseks kandekuval. Pildi juhtelement on saadaval ainult täispaigutuste puhul. 
 
-**Soovitatud tooted** – kui soovitatud toodete juhtelement on keskkonna jaoks konfigureeritud, näitab see masinõppel põhinevaid tootesoovitusi. Dynamics 365 for Operationsi versioonis 1611 on soovitatud toodete juhtelement saadaval ainult täispaigutuste puhul. **Kohandatud juhtelement **– kohandatud juhtelement toimib ekraanipaigutuses kohatäitena, mis võimaldab kasutajatel kohandatud sisu jaoks ruumi reserveerida. Kohandatud juhtelement on saadaval ainult täispaigutuste puhul.
+**Soovitatud tooted** – kui soovitatud toodete juhtelement on keskkonna jaoks konfigureeritud, näitab see masinõppel põhinevaid tootesoovitusi. Dynamics 365 for Retaili versioonis 1611 on soovitatud toodete juhtelement saadaval ainult täispaigutuste puhul. **Kohandatud juhtelement **– kohandatud juhtelement toimib ekraanipaigutuses kohatäitena, mis võimaldab kasutajatel kohandatud sisu jaoks ruumi reserveerida. Kohandatud juhtelement on saadaval ainult täispaigutuste puhul.
 
 <a name="see-also"></a>Vt ka
 --------

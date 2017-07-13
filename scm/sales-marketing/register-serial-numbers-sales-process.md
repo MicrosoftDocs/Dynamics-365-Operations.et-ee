@@ -3,15 +3,15 @@ title: "Seerianumbrite registreerimine müügiprotsessis"
 description: "See artikkel selgitab, kui registreerida müügiprotsessi ajal seerianumbreid saatelehtedel või arvetel. See funktsioon on abiks, kui ettevõte soovib hõivata seerianumbreid teenindus‑ ja garantiieesmärkidel, kuid ei pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d984a6af2b48f02120ea61b385522a6400d93d4a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ffb567c0ba9c95d059e64e24cbe0ea53ec9f7bc9
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,15 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 See artikkel selgitab, kui registreerida müügiprotsessi ajal seerianumbreid saatelehtedel või arvetel. See funktsioon on abiks, kui ettevõte soovib hõivata seerianumbreid teenindus‑ ja garantiieesmärkidel, kuid ei pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma.
 
-Paljud ettevõtted soovivad seerianumbreid hõivata teenindus‑ ja garantiieesmärkidel ega pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma. Selliste stsenaariumide puhul laseb Microsoft Dynamics 365 for Operations seerianumbrid toodete müümisel saatelehtedele või arvetele registreerida. Kui tooted hiljem tagastatakse, saate iga toote arvega siduda, et näha, kas toode on müüdud, ja kas teenindus- või garantiikohustused on kehtivad.
+Paljud ettevõtted soovivad seerianumbreid hõivata teenindus‑ ja garantiieesmärkidel ega pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma. Selliste stsenaariumide puhul laseb Microsoft Dynamics 365 for Finance and Operations seerianumbrid toodete müümisel saatelehtedele või arvetele registreerida. Kui tooted hiljem tagastatakse, saate iga toote arvega siduda, et näha, kas toode on müüdud, ja kas teenindus- või garantiikohustused on kehtivad.
 Kas selleks on eeltingimusi?
 ----------------------------
 
-Müügiprotsessi seerianumbrite lubamiseks valige leheküljel **Jälgimisdimensiooni grupid** suvand **Aktiivne müügiprotsessis**. Seejärel toimuvad Microsoft Dynamics 365 for Operationsis järgmised sündmused.
+Müügiprotsessi seerianumbrite lubamiseks valige leheküljel **Jälgimisdimensiooni grupid** suvand **Aktiivne müügiprotsessis**. Seejärel toimuvad Microsoft Dynamics 365 for Finance and Operationsis järgmised sündmused.
 -   Kiirkaardil **Seerianumbrid** valitakse suvand **Seerianumbri juhtimine**. Kui see suvand on valitud, tuleb saatelehel või arvel iga kauba kohta üks seerianumber registreerida.
 -   Kõik seerianumbri jälgimisdimensiooni grupi valikud eemaldatakse, välja arvatud suvand **Määramata väljaminekud lubatud**. Saate valida suvandi **Määramata väljaminekud lubatud** seerianumbri kontrollimise tühistamiseks ning toodete pakkimise ja arvete esitamise lubamiseks seerianumbreid registreerimata.
 
@@ -56,7 +57,7 @@ Seerianumbrite registreerimine kõigi saatelehel või arvel olevate kaupade puhu
 Saate luua müügitellimustele osalisi arveid ja saatelehti ning registreerida ainult nendel arvetel ja saatelehtedel sisalduvate kaupade seerianumbrid. Kui soovite luua osalise arve ja müügitellimusel on rohkem kui üks saateleht, saate lisada rohkem kui ühe saatelehe seerianumbrid. Kuid saatelehti, millele pole lisatud kõiki seerianumbreid, võib olla ainult üks. Näiteks kui teil on kolm saatelehte ja igal saatelehel on kaks järjestatud kaupa, ei saa luua osalist arvet iga saatelehe ühele kaubale.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Mida teha siis, kui seerianumber pole loetav?
-Kui seerianumbrit ei saa lugeda ega skannida, saate luua kaubale tühja rea, klõpsates leheküljel **Seerianumbrid**valikut **Pole loetav**. Kui seerianumber muutub hiljem kättesaadavaks, saate arvet või saatelehte uuendada. Lisateavet vt järgmisest jaotistest „Kas saan müügitellimusele registreeritud seerianumbreid parandada või muuta?”
+Kui seerianumbrit ei saa lugeda ega skannida, saate luua kaubale tühja rea, klõpsates leheküljel **Seerianumbrid** valikut **Pole loetav**. Kui seerianumber muutub hiljem kättesaadavaks, saate arvet või saatelehte uuendada. Lisateavet vt järgmisest jaotistest „Kas saan müügitellimusele registreeritud seerianumbreid parandada või muuta?”
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Kas saan müügitellimusele registreeritud seerianumbreid parandada või muuta?
 Jah, saate seerianumbreid parandada, kui täidetud on järgmised tingimused.

@@ -3,7 +3,7 @@ title: Readefinitsioonid finantsaruande koosturis
 description: "Readefinitsioon on aruande komponent (koosteüksus), mis määrab finantsaruandel iga rea sisu. Readefinitsiooni saab kombineerida veerudefinitsioonide, aruandluspuu definitsioonide ja aruande definitsioonidega koosteüksuste grupi loomiseks, mida saavad kasutada mitu ettevõtet."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,7 +49,7 @@ Readefinitsioon on aruande komponent (koosteüksus), mis määrab finantsaruande
 Readefinitsioon võib sisaldada kuni 20 000 finantsdimensiooni rida ja võib sisaldada järgmist teavet.
 
 -   Kirjeldav tekst, mis lisab aruandele tähenduse, luues jaotise päiseid, ridu ja tühikuid, nt **Sularaha** või **Kogutulu**
--   Lingid finantsandmetele, mis võivad hõlmata dimensiooniväärtusi Microsoft Dynamics 365 for Operationsis. **Märkus.** Saate seadistada readefinitsiooni andmete tõmbamiseks finantsdimensioonide süsteemist iga kord, kui aruanne luuakse.
+-   Lingid finantsandmetele, mis võivad hõlmata dimensiooniväärtusi Microsoft Dynamics 365 for Finance and Operationsis. **Märkus.** Saate seadistada readefinitsiooni andmete tõmbamiseks finantsdimensioonide süsteemist iga kord, kui aruanne luuakse.
 -   Ridade kogusummad ja valemid, mis põhinevad lingitud finantsandmetel
 
 Üldjuhul sisaldab iga readefinitsioon üht järgmist tüüpi teavet.
@@ -76,8 +76,8 @@ Readefinitsiooni dimensioonide lisamiseks tehke järgmist.
 
 1.  Klõpsake aruandekoosturis valikut **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
 2.  Klõpsake menüüs **Redigeeri** suvandit **Sisesta read dimensioonidest**.
-3.  Valige dialoogiboksist **Ridade lisamine dimensioonidest**real **Dimensioonid** readefinitsiooni teisaldatava dimensiooni lahter ja seejärel klõpsake valikut **Kõik &&&**.
-4.  Readefinitsiooni piiramiseks dimensiooniväärtuste kindlasse vahemikku sisestage alguse dimensiooniväärtus lahtrisse**Dimensioonivahemiku algus**ja seejärel sisestage lõpu dimensiooniväärtus lahtrisse **Dimensioonivahemiku lõpp**. Kõikide valitud dimensiooni väärtuste kaasamiseks jätke need lahtrid tühjaks. **Märkus.** Metamärgid (\* või ?) dimensioonivahemikes ei pruugi tagastada kõiki soovitud tulemusi, olenevalt sellest, kuidas ERP andmebaas andmeid kogub.
+3.  Valige dialoogiboksist **Ridade lisamine dimensioonidest** real **Dimensioonid** readefinitsiooni teisaldatava dimensiooni lahter ja seejärel klõpsake valikut **Kõik &&&**.
+4.  Readefinitsiooni piiramiseks dimensiooniväärtuste kindlasse vahemikku sisestage alguse dimensiooniväärtus lahtrisse **Dimensioonivahemiku algus** ja seejärel sisestage lõpu dimensiooniväärtus lahtrisse **Dimensioonivahemiku lõpp**. Kõikide valitud dimensiooni väärtuste kaasamiseks jätke need lahtrid tühjaks. **Märkus.** Metamärgid (\* või ?) dimensioonivahemikes ei pruugi tagastada kõiki soovitud tulemusi, olenevalt sellest, kuidas ERP andmebaas andmeid kogub.
 5.  Määrake väljal **Algrea kood** readefinitsiooni lisatava esimese dimensiooniväärtuse reakood.
 6.  Määrake väljal **Iga rea juurdekasv** järjestikuste reakoodide vahe. Näiteks kui esimene reakood on 100 ja juurdekasvu väärtus on 30, on esimeste uute ridade koodideks 100, 130, 160, 190 ja 220. Kasutage juurdekasvu väärtust, mis annab piisavalt ruumi uute vormingu ja valemi ridade lisamiseks.
 7.  Klõpsake nupul **OK**. Readefinitsiooni lisatakse iga valitud dimensiooniväärtuse kohta üks rida.
@@ -101,9 +101,9 @@ Bilansi ümardamise korrigeerimiseks tehke järgmist.
     -   **Kogu kohustuste ja omakapitali rida** – bilansis kogu kohustusi ja omakapitali sisaldava rea reakood.
     -   **Korrigeerimissumma limiit** – positiivne täisarv, mis määrab automaatsete korrigeerimiste limiidi. Seda summat võrreldakse tegeliku ümardamiserinevuse absoluutväärtusega.
 
-    **Märkus.**Need reakoodid peavad olema teie finantsandmetega seotud. Teisisõnu peab real olema lahtris **Link finantsdimensioonidele** dimensiooniväärtus. **Ärge** viidake kirjelduse (**DESC**), arvutatud (**CALC**) või summeeritud (**TOT**) reale.
+    **Märkus.** Need reakoodid peavad olema teie finantsandmetega seotud. Teisisõnu peab real olema lahtris **Link finantsdimensioonidele** dimensiooniväärtus. **Ärge** viidake kirjelduse (**DESC**), arvutatud (**CALC**) või summeeritud (**TOT**) reale.
 
-Teie bilansi summad tasakaalustatakse nüüd ümardamise sisselülitamisel võrdselt. **Märkus.**Korrigeerimise limiiti rakendatakse suvandi **Ümardamise täpsus** alusel, mis on määratud aruande definitsioonis. Näiteks kui valite aruande ümardamise tuhandikeni ja sisestate arvu **2** väljale **Korrigeerimissumma limiit**, kuvatakse hoiatusteade, kui välja **Ümardamise korrigeerimise rida** väärtus suureneb või väheneb rohkem kui 2,000.
+Teie bilansi summad tasakaalustatakse nüüd ümardamise sisselülitamisel võrdselt. **Märkus.** Korrigeerimise limiiti rakendatakse suvandi **Ümardamise täpsus** alusel, mis on määratud aruande definitsioonis. Näiteks kui valite aruande ümardamise tuhandikeni ja sisestate arvu **2** väljale **Korrigeerimissumma limiit**, kuvatakse hoiatusteade, kui välja **Ümardamise korrigeerimise rida** väärtus suureneb või väheneb rohkem kui 2,000.
 
 ## <a name="format-row-and-column-text"></a>Ridade ja veergude teksti vormindamine
 Saate kohandada aruannete ilmet fontide muutmise ja teksti vormindamise teel. Järgmistes jaotistes selgitatakse, kuidas aruannetes ridade ja veergude ilmet vormindada.

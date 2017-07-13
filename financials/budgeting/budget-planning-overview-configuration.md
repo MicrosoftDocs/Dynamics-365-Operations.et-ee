@@ -3,14 +3,14 @@ title: "Eelarve plaanimise ülevaade"
 description: Selles artiklis tutvustatakse eelarve plaanimist ja see sisaldab teavet, mis aitab teil eelarve plaanimise konfigureerida ning selle protsesse seadistada.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -38,7 +38,7 @@ Selles artiklis tutvustatakse eelarve plaanimist ja see sisaldab teavet, mis ait
 
 Plaanite eelarvet organisatsiooni juurutatavate eelarvete ettevalmistamisel. Organisatsioon saab eelarve plaanimise konfigureerida ja seejärel seadistada eelarve plaanimise protsessid, et need vastaksid eelarve ettevalmistamise poliitikatele, protseduuridele ja nõuetele. 
 
-Kui mõistate Microsoft Dynamics 365 for Operationsis kasutatavaid mõisteid ja terminoloogiat, on teil lihtsam oma organisatsioonis eelarve plaanimist rakendada.
+Kui mõistate Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis kasutatavaid mõisteid ja terminoloogiat, on teil lihtsam oma organisatsioonis eelarve plaanimist rakendada.
 
 ### <a name="key-terms"></a>Põhimõisted
 
@@ -59,7 +59,7 @@ Eelarve plaanimise abil saate täita järgmisi ülesandeid.
 -   Eelarveplaanide automaatne saatmine koos töölehtede, põhjendusdokumentide ja muude manustega ülevaatamiseks ja kinnitamiseks.
 -   Mitme eelarveplaani konsolideerimine organisatsiooni madalamalt tasemelt ühte pea-eelarveplaani organisatsiooni kõrgemal tasemel. Saate ka välja arendada üksiku eelarveplaani organisatsiooni kõrgemal tasemel eraldada eelarve organisatsiooni madalamatele tasemetele.
 
-Eelarve plaanimine on integreeritud teiste Microsoft Dynamics 365 for Operationsi moodulitega. Seetõttu saab teavet tuua eelmistest eelarvetest, tegelikest kuludest, põhivaradest ja inimressurssidest. Kuna eelarve plaanimine on integreeritud ka Microsoft Excelisse ja Microsoft Wordi, saate neid programme kasutada eelarve plaanimise andmetega töötamiseks. Näiteks saab eelarvehaldur eksportida mõne osakonna eelarvetaotluse eelarveplaani stsenaariumist Exceli töölehele. Andmeid saab analüüsida, värskendada ja kanda diagrammina töölehele ning seejärel avaldada tagasi eelarveplaani ridadele.
+Eelarve plaanimine on integreeritud teiste Microsoft Dynamics 365 for Finance and Operationsi moodulitega. Seetõttu saab teavet tuua eelmistest eelarvetest, tegelikest kuludest, põhivaradest ja inimressurssidest. Kuna eelarve plaanimine on integreeritud ka Microsoft Excelisse ja Microsoft Wordi, saate neid programme kasutada eelarve plaanimise andmetega töötamiseks. Näiteks saab eelarvehaldur eksportida mõne osakonna eelarvetaotluse eelarveplaani stsenaariumist Exceli töölehele. Andmeid saab analüüsida, värskendada ja kanda diagrammina töölehele ning seejärel avaldada tagasi eelarveplaani ridadele.
 
 ## <a name="configuring-budget-planning"></a>Eelarve planeerimise konfigureerimine
 Leht **Eelarve plaanimise konfiguratsioon** sisaldab enamikku sätteid, mida vajate eelarve plaanimise seadistamiseks. Järgmistes jaotistes kirjeldatakse mõnd põhitegurit, millega peaksite eelarve plaanimise konfigureerimisel arvestama. Pärast konfiguratsiooni lõpetamist saate eelarve plaanimise protsessid seadistada.
@@ -78,7 +78,7 @@ Järgmises näites hindab ettevõtte peakontor algse eelarve lähtesummasid ja j
 
 Lehel **Organisatsiooni hierarhia** saate määrata organisatsiooni hierarhia eelarve plaanimise hierarhiana iga eelarve plaanimise protsessi puhul. Eelarve plaanimise hierarhia ei pea ühtima muul otstarbel kasutatava standardse organisatsiooni hierarhiaga. Kuna seda hierarhiat kasutatakse andmete kogumiseks ja jagamiseks, võite soovida, et sellel oleks teistsugune struktuur. Näiteskeemis on müügiosakonnad peakorterite taseme all, mis sisaldab eelarvet ja finantsosakondi. See struktuur erineb tõenäoliselt struktuurist, mida kasutatakse müügiosakondade toimingute haldamiseks. Igale eelarve plaanimise protsessile saab määrata vaid ühe organisatsiooni hierarhia. 
 
-Lisateabe saamiseks vt jaotist [Organisatsioonid ja organisatsiooni hierarhiad](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies).
+Lisateabe saamiseks vt jaotist [Organisatsioonid ja organisatsiooni hierarhiad](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
 
 ### <a name="user-security"></a>Kasutaja turvalisus
 
@@ -88,13 +88,13 @@ Eelarve plaanimine saab kasutajaõiguste määramiseks jälgida ühte kahest tur
 
 Eelarve plaanimise töövooge kasutatakse koos eelarvestuse töövoogudega eelarveplaanide loomise ja aredamise haldamiseks.
 
-Eelarve planeerimise töövoog koosneb järjestatud etappidest, mille eelarveplaan läbib. Iga eelarve plaanimise töövoog on seotud eelarvestuse töövooga. Eelarvestuse töövood on töövoo tüüp, mida kasutatakse kogu Microsoft Dynamics 365 for Operationsis. Eelarvestuse töövoog suunab eelarveplaani koos töölehtede, põhjenduste ja manustega organisatsioonile ülevaatamiseks ja kinnitamiseks. 
+Eelarve planeerimise töövoog koosneb järjestatud etappidest, mille eelarveplaan läbib. Iga eelarve plaanimise töövoog on seotud eelarvestuse töövooga. Eelarvestuse töövood on töövoo tüüp, mida kasutatakse kogu Finance and Operationsis. Eelarvestuse töövoog suunab eelarveplaani koos töölehtede, põhjenduste ja manustega organisatsioonile ülevaatamiseks ja kinnitamiseks. 
 
 Saate luua eelarve plaanimise töövoo jaotises **Töövooetapid** lehel **Eelarve plaanimise konfiguratsioon**. Seal saate valida etapid ja kasutatava eelarvestamise töövoo ja konfigureerida täiendavad sätted. 
 
 Hea tava on luua eelarve plaanimise töövoog eelarvestamise hierarhia igal tasandil. Seejärel määrake eelarvestamise töövoog, mis sisaldab eelarve plaanimise töövoo etappidele vastavaid elemente. Selles artiklis varem kuvatud näidisskeemis luuakse üks eelarve plaanimise töövoog müügiosakondade puhul ja teine peakorterite puhul. Eelarvestuse töövoog teisaldab eelarveplaane etappide kaudu. 
 
-Saate luua eelarvestamise töövoo eelarve plaanimise puhul lehel **Eelarvestuse töövood**. Protsess sarnaneb Microsoft Dynamics 365 for Operationsis muude töövoogude loomise protsessiga. Järgmisel joonisel on toodud peakorteri töövoo näide. 
+Saate luua eelarvestamise töövoo eelarve plaanimise puhul lehel **Eelarvestuse töövood**. Protsess sarnaneb Finance and Operationsis muude töövoogude loomise protsessiga. Järgmisel joonisel on toodud peakorteri töövoo näide. 
 
 [![Eelarvestuse töövoog eelarve plaanimiseks](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 

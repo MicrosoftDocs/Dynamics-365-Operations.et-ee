@@ -1,16 +1,16 @@
 ---
 title: "Rakenduse väljanimede konfigureerimine rakenduses Ladustamine"
-description: "See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 for Operationsis."
+description: "See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Finance and Operationsis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: edcbf8a0921e0eb08d0f970e681c9d098b354c0b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 49db5ad10914897b2157e123c5803ca51e4e66e7
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 for Operationsis. 
+See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Finance and Operationsis. 
 
-**Märkus.** See teema kehtib mooduli Laohaldus funktsioonide puhul. See ei kehti funktsioonidele moodulis Varude haldus. Dynamics 365 for Operations – Ladustamine on rakendus, mille abil saate täita laos vajalikke ülesandeid. Saate määratleda ja konfigureerida rakenduses kasutatavaid väljanimetusi, samuti konfigureerida prioriteeti, millele väljanimed tuleb määrata. See teema selgitab, kuidas neid ladustamisrakenduse väljade nimesid ja prioriteete määratleda ning konfigureerida ja kuidas neid Dynamics 365 for Operationsi moodulis Ladustamine kasutada. Üksikasjalikku teavet Dynamics 365 for Operationsi mooduli Ladustamine ühenduse konfigureerimise kohta vaadake õppetükist [Dynamics 365 for Operationsi mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md).
+**Märkus.** See teema kehtib mooduli Laohaldus funktsioonide puhul. See ei kehti funktsioonidele moodulis Varude haldus. Finance and Operations – ladustamine on rakendus, mille abil saate täita laos vajalikke ülesandeid. Saate määratleda ja konfigureerida rakenduses kasutatavaid väljanimetusi, samuti konfigureerida prioriteeti, millele väljanimed tuleb määrata. See teema selgitab, kuidas neid ladustamisrakenduse väljade nimesid ja prioriteete määratleda ning konfigureerida ja kuidas neid Finance and Operationsi moodulis Ladustamine kasutada. Üksikasjalikku teavet Finance and Operationsi mooduli Ladustamine ühenduse konfigureerimise kohta vaadake õppetükist [Finance and Operationsi mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md).
 
 <a name="configure-warehouse-app-field-names"></a>Laorakenduse väljade nimede konfigureerimine
 ===================================
 
-Kui kasutate Dynamics 365 for Operationsi moodulit Ladustamine mobiilses seadmes, saate seadmes metaandmete kuvamise viisi konfigureerida lehel **Laorakenduse väljade nimed**. Valige Dynamics 365 for Operationsi uues ettevõttes käsk **Loo vaikeseadistus**, et luua kõik väljanimed, mida kasutatakse lao mobiilse seadme töövoogudes, ning seejärel määrake neile eelistatud sisestusrežiim ja sisestustüüp. Kui kõik väljanimed on loodud, saate valida järgmisi sisestusvalikuid.
+Kui kasutate Finance and Operationsi moodulit Ladustamine mobiilses seadmes, saate seadmes metaandmete kuvamise viisi konfigureerida lehel **Laorakenduse väljade nimed**. Valige Finance and Operationsi uues ettevõttes käsk **Loo vaikeseadistus**, et luua kõik väljanimed, mida kasutatakse lao mobiilse seadme töövoogudes, ning seejärel määrake neile eelistatud sisestusrežiim ja sisestustüüp. Kui kõik väljanimed on loodud, saate valida järgmisi sisestusvalikuid.
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ Kui kasutate Dynamics 365 for Operationsi moodulit Ladustamine mobiilses seadmes
 <a name="configure-warehouse-app-field-priority"></a>Laorakenduse väljade prioriteedi konfigureerimine
 ======================================
 
-Lehel **Laorakenduse väljade prioriteet** saate panna väljanimed erinevatesse prioriteedigruppidesse. See võimaldab otsustada, milline teave tuleb kuvada ülesande põhilehel, kui laotöötajad täidavad ülesandeid rakendust kasutades. Kui klõpsate valikut **Loo vaikeseadistus**, luuakse prioriteedigruppide vaikekomplekt. Prioriteedigruppe saab luua nii palju kui vaja, kuid ülesandelehel kuvatakse ainult kolm. Kui Dynamics 365 for Operations saadab metaandmed rakendusse, määrab see igale väljale suhtelise prioriteedi olenevalt selle prioriteedigrupist ja rakendus kuvab ülesandelehel kolm esimest metaandmetes sisalduvat prioriteedigruppi. Ülejäänud metaandmed kuvatakse teisel, üksikasjade lehel. Järgmises tabelis on toodud näide viiest prioriteedigrupist.
+Lehel **Laorakenduse väljade prioriteet** saate panna väljanimed erinevatesse prioriteedigruppidesse. See võimaldab otsustada, milline teave tuleb kuvada ülesande põhilehel, kui laotöötajad täidavad ülesandeid rakendust kasutades. Kui klõpsate valikut **Loo vaikeseadistus**, luuakse prioriteedigruppide vaikekomplekt. Prioriteedigruppe saab luua nii palju kui vaja, kuid ülesandelehel kuvatakse ainult kolm. Kui Finance and Operations saadab metaandmed rakendusse, määrab see igale väljale suhtelise prioriteedi olenevalt selle prioriteedigrupist ja rakendus kuvab ülesandelehel kolm esimest metaandmetes sisalduvat prioriteedigruppi. Ülejäänud metaandmed kuvatakse teisel, üksikasjade lehel. Järgmises tabelis on toodud näide viiest prioriteedigrupist.
 
 <table>
 <colgroup>
@@ -141,12 +141,12 @@ Näiteks kui laotöötaja täidab ülesannet mobiilses seadmes, sisaldavad raken
 -   2. rida: kauba kirjeldus
 -   3. rida: suurus
 
-Ülejäänud metaandmeid, näiteks asukohta, ülesandelehel ei kuvata, kuid need kuvatakse üksikasjade lehel. Lisateabe saamiseks ja kasutajaliidese näidete vaatamiseks lugege ajaveebipostitust [Announcing Dynamics 365 for Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Ülejäänud metaandmeid, näiteks asukohta, ülesandelehel ei kuvata, kuid need kuvatakse üksikasjade lehel. Lisateabe saamiseks ja kasutajaliidese näidete vaatamiseks lugege ajaveebipostitust [Announcing Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Microsoft Dynamics 365 for Operationsi mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md)
+[Microsoft Dynamics 365 for Finance and Operationsi mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md)
 
 
 

@@ -1,16 +1,16 @@
 ---
-title: "Hankija koostöö mobiilne tööruum rakendusele Microsoft Dynamics 365 for Operations"
-description: "Hankija koostöö mobiilse tööruumiga saavad teie hankijad püsida ajakohasena neile kinnitamiseks saadetud ostutellimuste osas ja vaadata teavet uute ja värskendatud ostutellimuste ja kontaktide kohta."
-author: YuyuScheller
+title: "Hankija koostöö mobiilne tööruum"
+description: "See teema annab teavet hankija koostöö mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta."
+author: mkirknel
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
@@ -18,130 +18,143 @@ ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e19fee87dae6e5d425f36dac0db4ea89534a8510
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 20e4c77bc47bffc3474559e3b9933b87e947e178
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Hankija koostöö mobiilne tööruum rakendusele Microsoft Dynamics 365 for Operations
+# <a name="vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilne tööruum
 
 [!include[banner](../includes/banner.md)]
 
+See teema annab teavet **hankija koostöö** mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
 
-Hankija koostöö mobiilse tööruumiga saavad teie hankijad püsida ajakohasena neile kinnitamiseks saadetud ostutellimuste osas ja vaadata teavet uute ja värskendatud ostutellimuste ja kontaktide kohta.
+See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations.
 
-<a name="prerequisites"></a>Eeltingimused
--------------
+## <a name="overview"></a>Ülevaade 
+**Hankija koostöö** mobiilne tööruum teavitab hankijaid uutest ostutellimustest, et nad saaksid ostutellimusi rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition veebikliendis vaadata ja neile siis reageerida. 
+
+>[!NOTE]
+> Mobiilset tööruumi tuleb kasutada hankija koostöö veebiliidese lisana, kuid mitte selle asemel. 
+
+Teie hankijad saavad kasutada **hankija koostöö** mobiilset tööruumi neile kinnitamiseks saadetud uute ostutellimuste vaatamiseks. See kuvab ostutellimuse teabe, nagu tooted, kogused ja nõutavad tarnekuupäevad. Hinnateave on samuti saadaval, olenevalt iga hankija konfiguratsioonist. 
+
+Kasutaja, kes logib hankijana sisse, näeb, millistele ostutellimustele on vastatud ja millised ostutellimused ootavad endiselt kliendi tegevust. Näiteks võib ostutellimus oodata kliendi tegevust, kuna hankija soovitas teist tarnekuupäeva, kuid klient pole selle kuupäevaga veel nõustunud. Hankija näeb ka loendit ostutellimustest, mis on kinnitatud, kuid pole veel kohale toimetatud. 
+
+Ostutellimusele vastamiseks peab hankija kasutama hankija koostöö veebiliidest, mis on saadaval veebikliendis. Seal saab hankija tellimuse kohta ka rohkem teavet, nagu dokumendimanused, tarneaadress rea kohta ja hankijaga seotud kulud. 
+
+Spetsiaalse turberolliga hankijad saavad vaadata, millised kontaktisikud on hankijakonto jaoks registreeritud. Sama turberolliga saab hankija vaadata kasutaja edastatud taotluste olekut. 
+
+Uute kontaktide loomiseks ja uute kasutajataotluste esitamiseks tuleb kasutada veebikliendi hankija koostöö veebiliidest. 
+
+**Hankija koostöö** mobiilne tööruum võimaldab hankijal teha järgmisi toiminguid.
+
+-   Vaadata hankijale saadetud uusi ostutellimusi.
+-   Vaadata ostutellimusi, millele hankija on vastanud ja mis ootavad kliendipoolset tegevust.
+-   Vaadata ostutellimusi, mis on kinnitatud, kuid mida pole veel täielikult vastu võetud.
+-   Kuvada hankija kontole registreeritud kontaktisiku andmeid. (See toiming nõuab täiendavat turberolli.)
+-   Kuvada teavet kasutaja taotluse kohta, mille hankija esitas, ja jälgida taotluse olekut. (See toiming nõuab täiendavat turberolli.)
+
+## <a name="prerequisites"></a>Eeltingimused
+Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Eeltingimused lahenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni 2017. aasta juuli värskenduse kasutamisel 
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendus, peab süsteemiadministraator avaldama **hankija koostöö** mobiilse tööruumi. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Eeltingimus</th>
+<th>Roll</th>
 <th>Kirjeldus</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lugege teavet Microsoft Dynamics 365 for Operationsi mobiiliplatvormi kohta</td>
-<td><a href="https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/">Dynamics 365 for Operationsi mobiilne platvorm</a></td>
+<td>Kui kasutate platvormivärskendust 3, tuleb juurutada KB 3216943.</td>
+<td>Süsteemiadministraator</td>
+<td>KB 3216943 on binaarne värskendus, mis on vajalik, kui kasutate platvormivärskendust 3. Selle KB juurutamiseks peab süsteemiadministraator tegema järgmist.
+<ol>
+<li>Laadima KB 3216943 alla Microsoft Dynamicsi elutsükliteenustest (LCS).</li>
+<li>Installima binaarse värskenduse, mis toimetatakse kohale juurutatava paketina. Teavet juurutatava paketi kohta leiate jaotisest <a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Juurutatava paketi rakendamine</a>.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>Dynamics 365 for Operations</td>
-<td>Veenduge, et kasutaksite keskkonda, millesse on installitud Microsoft Dynamics 365 for Operationsi versioon 1611 ja Microsoft Dynamics for Operationsi platvormivärskendus 3 (november 2016).</td>
+<td>Juurutatud peab olema KB 4013633.</td>
+<td>Süsteemiadministraator</td>
+<td>KB 4013633 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Vaba kaubavaru</strong>. KB 4013633 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Metaandmete kiirparanduse allalaadimine LCS-ist</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li><li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
+</ol></td>
 </tr>
 <tr class="odd">
-<td><span style="color: #000000">Mobiilne seade, kuhu on installitud rakendus Dynamics 365 for Operations</span></td>
-<td><span style="color: #000000">Laadige mobiilirakenduste poest alla rakendus Dynamics 365 for Operations.</span></td>
+<td><strong>Hankija koostöö</strong> mobiilne tööruum tuleb avaldada.</td><td>Süsteemiadministraator</td>
+<td>Vt jaotist <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
 </tr>
 <tr class="even">
-<td>Kiirparandus KB 4013633</td>
-<td>Installige kiirparandus, et lubada rakenduses Dynamics 365 for Operations sisestatud tööruumid.</td>
-</tr>
-<tr class="odd">
-<td><span style="color: #ff0000"><span style="color: #000000">Kiirparandus KB 3216943</span> </span></td>
-<td>Installige kiirparandus, et lubada hankija koostöö mobiilne tööruum.</td>
-</tr>
-<tr class="even">
-<td>Hankija-kasutajal peab olema juurdepääs hankija koostöö veebiliidesele rakenduses Dynamics 365 for Operations ja seadistada hankija koostöö kasutaja.</td>
-<td>Järgige järgmistes teemades kirjeldatud juhiseid, et seadistada ja töötada hankija koostöö veebiliidesega.
+<td>Hankija-kasutajal peab olema juurdepääs hankija koostöö veebiliidesele veebikliendis ja ta peab seadistama hankija koostöö kasutaja.</td><td>Ostuspetsialistid ja süsteemiadministraator</td>
+<td>Järgige hankija koostöö veebiliidese seadistamiseks ja sellega töötamiseks järgmistes teemades antud juhiseid.
 <ul>
 <li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-external-vendors/">Hankija koostöö kasutamine väliste hankijatega töötamiseks</a></li>
 <li><a href="https://ax.help.dynamics.com/en/wiki/manage-vendor-collaboration-users/">Hankija koostöö kasutajate haldamine</a></li>
 <li><a href="https://ax.help.dynamics.com/en/wiki/set-up-and-maintain-vendor-collaboration/">Hankija koostöö seadistamine ja haldamine</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Hankija koostöö kasutamine klientidega töötamiseks rakenduses Dynamics 365 for Operations</a></li>
+<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Hankija koostöö kasutamine klientidega töötamiseks rakenduses Finance and Operations</a></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="overview"></a>Ülevaade
-Hankija koostöö mobiilne tööruum teavitab hankijaid uutest ostutellimustest, et nad saaks näha ja vastata ostutellimustele rakenduse Dynamics 365 for Operations veebikliendis. 
+## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
 
-**Märkus.** Mobiilset tööruumi tuleb kasutada hankija koostöö veebiliidese lisana, kuid mitte asendusena. 
+Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
-Hankija koostöö mobiilse tööruumiga saavad teie hankijad vaadata uusi kinnitamiseks saadetud ostutellimusi. See kuvab ostutellimuse teabe, nagu tooted, kogus ja nõutavad tarnekuupäevad. Hinnateave on saadaval sõltuvalt iga hankija jaoks tehtud konfiguratsioonist. 
+-   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
-Kui kasutaja logib hankijana sisse, siis nad näevad, millistele ostutellimustele on vastatud või millised ostutellimused ootavad endiselt kliendi tegevust. Hankija võis pakkuda teist tarnekuupäeva, mille osas pole kliendiga kokku lepitud, seega ootab ostutellimus kliendi tegevust. Hankija näeb ka loendit ostutellimustest, mis on kinnitatud, kuid pole veel kohale toimetatud. 
+## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
+1.  Käivitage rakendus oma mobiilses seadmes.
+2.  Sisestage Microsoft Dynamics 365 URL.
+4.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
+5.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
-Ostutellimusele vastamiseks peab hankija kasutama hankija koostöö veebiliidest, mis on saadaval veebikliendis Dynamics 365 for Operations. See on ka koht, kus hankija saab tellimuse kohta rohkem teavet, nagu dokumendimanused, tarneaadress rea kohta ja hankijaga seotud kulud. 
+    [![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-Spetsiaalse turberolliga saab hankija vaadata, millised kontaktisikud on hankijakonto jaoks registreeritud. Sama turberolliga saab hankija vaadata mis tahes edastatud kasutajataotluse olekut. 
+## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilse tööruumi kasutamine
+Kui valite **hankija koostöö** tööruumi, siis näete järgmisi valikuid.
 
-Uute kontaktide loomine ja uute kasutajataotluste edastamist tuleb teha hankija koostööliideses, mis on saadaval rakenduse Dynamics 365 for Operations veebikliendist. 
+![Hankija koostöö mobiilne tööruum](./media/vendor-collaboration-mobile-app.png)
 
-Mobiilse tööruumiga saab teie hankija teha järgmist.
+**Hankija koostöö** tööruum sisaldab järgmisi lehti.
 
--   Vaadata hankijale saadetud uusi ostutellimusi.
--   Vaadata ostutellimusi, millele hankija on vastanud ja mis ootavad kliendipoolset tegevust.
--   Vaadata ostutellimusi, mis on kinnitatud olekus ja mis pole veel täielikult vastu võetud.
--   Vaadata hankijakonto jaoks registreeritud kontaktisiku teavet (nõuab täiendavat turberolli).
--   Vaadata teavet ja järgida hankija kasutajataotluse olekut (nõuab täiendavat turberolli).
+### <a name="contacts"></a>Kontaktid
+Leht **Kontaktid** võimaldab teil näha kõiki kontakte, mis on hankija konto jaoks seadistatud. See kuvab kontaktisiku nime, peamise meiliaadressi ja kasutaja pseudonüümi, kui kontaktisikul on pseudonüüm. See leht näitab ka, kas kontaktisiku kasutajakonto on aktiivne. Kui valite kontakti, siis näete kontaktandmeid, nt juriidilisi isikuid, mille kontaktisik kasutaja on. Näete ka kontaktandmeid, nt telefoninumbrit või teist meiliaadressi.
 
-## <a name="get-started"></a>Alusta
-Mobiilsel seadmel alustamiseks tehke järgmist.
+### <a name="user-requests"></a>Kasutaja nõuded
+Leht **Kasutaja taotlused** võimaldab teil näha kasutaja taotlusi, mille olete hankija koostöö veebiliidese kaudu edastanud. Saate ka nende taotluste olekut jälgida. Kasutajataotluse valimisel saate näha, mida taotleti, lisada või inaktiveerida kasutajat, muuta turvet ja näha, milliseid turberolle kasutajale taotleti.
 
-1.  Laadige mobiilirakenduste poest alla rakendus Microsoft Dynamics 365 for Operations ja installige see.
-2.  Käivitage rakendus oma seadmes.
-3.  Sisestage Dynamics 365 URL.
-4.  Sisestage ettevõte, millesse soovite sisse logida. Näiteks sisestage **USMF**.
-5.  Esmakordsel sisselogimisel palutakse teil sisestada oma Microsoft Dynamics 365 for Operationsi konto kasutajanimi ja parool.
+### <a name="purchase-orders-ready-for-review"></a>Ülevaatamiseks valmis ostutellimused
+Leht **Ülevaatamiseks valmis ostutellimused** võimaldab näha kõiki kliendi saadetud, kuid veel vastamata ostutellimusi. Saate vaadata tellimuse kohta valitud teavet, näiteks seda, milliseid tooteid taotleti ja millal need tooted tuleks kohale toimetada. Hinnateave on samuti saadaval, olenevalt hankija konfiguratsioonist.
 
-Pärast rakendusse sisselogimist pole ükski tööruum nähtav. Tööruumide vaatamiseks mobiilirakenduses peate soovitud tööruumid esmalt avaldama rakenduses Microsoft Dynamics 365 for Operations. Tööruumi avaldamiseks vajate süsteemiadministraatori õigust.
+Näete ka seda, kas ostutellimusel on märkusi või manuseid. Kuid märkuste ja manuste avamiseks tuleb kasutada veebikliendis hankija koostöö veebiliidest. Valige **Ostutellimuse rida**, et näha kõiki ridu koos nende üksikasjadega. Iga rea puhul kuvatakse tähis, mis näitab, kas on märkusi või manuseid või kas tarneaadress erineb päises näidatud tarneaadressist.
 
-1.  Käivitage Dynamics 365 for Operations.
-2.  Minge jaotisse **Süsteemihaldus** &gt; **Seadistus** &gt; **Süsteemi parameetrid**.
-3.  Valige suvand **Mobiilirakenduse haldamine**.
-4.  Mobiilse platvormi avaldamiseks valige tööruum **Hankija koostöö**.
-5.  Valige suvand **Avalda tööruum**.
-6.  Värskendage seadet, et näha avaldatud tööruume.
-7.  Valige tööruum **Hankija koostöö**. Näete järgmist lehte.
+Ostutellimusele vastamiseks peate kasutama hankija koostöö veebiliidest veebikliendis.
 
-    [![vendor-collaboration-mobile-app](./media/vendor-collaboration-mobile-app.png)](./media/vendor-collaboration-mobile-app.png)
+### <a name="awaiting-customer-action"></a>Kliendi tegevuse ootel
+Leht **Kliendi tegevuse ootel** võimaldab teil leida ostutellimusi, millele teie või keegi teine teie ettevõttes, kellel on juurdepääs hankija koostööle, on vastanud. Ostutellimused on selles loendis nähtavad ainult juhul, kui klient peab tegema ostutellimusel ühe järgmistest tegevustest.
 
-## <a name="contacts"></a>Kontaktid
-Leht **Kontaktid** võimaldab teil näha kõiki kontakte, mis on hankija konto jaoks seadistatud. See näitab kontaktisiku nime, peamist meiliaadressi ja kasutajate aliast, kui see on saadaval. See näitab ka, kas kontaktisiku kasutajakonto on aktiivne. Kontakti valimisel näete kontakti üksikasju, nt seda, milliste juriidiliste isikute kontakt isik on, ja kontaktteavet, nagu telefoninumber või teine meiliaadress.
+-   Kui ostutellimus lükati tagasi, peab klient uuendama või tühistama algse tellimuse ja siis selle uuesti saatma. Kui ostutellimus saadetakse uuesti, ei kuvata seda enam lehel **Kliendi tegevuse ootel**.
+-   Kui ostutellimus kinnitati muudatustega, peab klient algset tellimust uuendama ja saatma selle ülevaatamiseks uuesti või uuendama tellimust vastavalt muudatustele ja kinnitama selle siis kohe. Kummalgi juhul ei kuvata ostutellimust enam lehel **Kliendi tegevuse ootel**.
+-   Kui ostutellimus kinnitati, aga see kuvatakse ikka lehel **Kliendi tegevuse ootel**, ei kinnitatud ostutellimust vastuvõtmisel automaatselt. See ootab nüüd, et ostuagent määraks tellimuse olekuks **Kinnitatud**. Tavaliselt käsitletakse ostutellimust kliendi ja hankija vahelise lepinguna kohe, kui hankija tellimuse kinnitab. Seetõttu on uuendamine olekusse **Kinnitatud** tavaliselt ainult formaalsus.
 
-## <a name="user-requests"></a>Kasutaja nõuded
-Leht **Kasutaja nõuded** võimaldab teil näha kasutajataotlusi, mis on edastatud hankija koostöö veebiliidese kaudu ja mis järgivad olekut. Kasutajataotluse valimisel saate näha, mida taotleti, lisada või inaktiveerida kasutajat, muuta turvet ja näha, milliseid turberolle kasutajale taotleti.
-
-## <a name="purchase-orders-ready-for-review"></a>Ülevaatamiseks valmis ostutellimused
-Leht **Ülevaatamiseks valmis ostutellimused** võimaldab näha kõiki kliendi saadetud ja vastamata ostutellimusi. Saate vaadata tellimuse kohta valitud teavet, näiteks seda, milliseid tooteid on taotletud ja millal kohale toimetada. Hinnateave on saadaval ainult siis, kui see on hankija jaoks konfigureeritud. Saate näha, kas ostutellimusel on märkusi või manuseid. Manuste avamiseks peate kasutama veebikliendis hankija koostööd. Valige **Ostutellimuse rida**, et näha kõiki ridu koos üksikasjadega. Pange iga rea puhul tähele, et kuvatakse indikaator, mis näitab, kas on märkusi või manuseid või kas on olemas tarneaadress, mis erineb päises näidatud aadressist. Ostutellimusele vastamiseks peate kasutama hankija koostöö veebiklienti.
-
-## <a name="awaiting-customer-action"></a>Kliendi tegevuse ootel
-Leht **Kliendi tegevuse ootel** võimaldab teil leida ostutellimusi, millele teie või keegi teie ettevõttes, kellel on juurdepääs hankija koostööle, on vastanud. Ostutellimused on selles loendis nähtavad ainult siis, kui klient peab tegema ostutellimusel ühe järgmistest tegevustest.
-
--   Kui ostutellimus lükati tagasi, peab klient värskendama saadetud tellimust ja saatma uuesti või tühistama tellimuse ja uuesti saatma. Kui ostutellimus saadetakse uuesti, kaob see lehelt **Kliendi tegevuse ootel**.
--   Kui ostutellimus kinnitati muudatustega, peab klient värskendama originaaltellimust ja saatma ülevaatamiseks uuesti või värskendama seda vastavalt muudatustele ja kinnitama selle koheselt. Mõlemal juhul kaob ostutellimus lehelt **Kliendi tegevuse ootel**.
--   Kui ostutellimus kinnitati ja see ilmub lehel **Kliendi tegevuse ootel**, on see sellepärast, et ostutellimust ei kinnitatud kinnitamisel automaatselt. See ootab ostuagenti, et ta muudaks tellimuse olekuks Kinnitatud. Tavaliselt loetakse ostutellimus lepinguks kliendi ja hankija vahel kohe, kui hankija tellimuse kinnitab. Ostutellimuse teisaldamiseks olekusse Kinnitatud on formaalsus.
-
-Ostutellimuse valimisega ilmuvad vastuse kohta täiendavad üksikasjad. Saate näha rea üksikasju ja vastust iga rea kohta. Rea olek näitab, milline järgmistest vastustest on antud.
+Kui valite ostutellimuse, kuvatakse vastuse kohta täiendavad üksikasjad. Saate näha rea üksikasju ja vastust iga rea kohta. Rea olek näitab, milline järgmistest vastustest on antud.
 
 -   Aktsepteeritud
 -   Tagasi lükatud
@@ -149,12 +162,14 @@ Ostutellimuse valimisega ilmuvad vastuse kohta täiendavad üksikasjad. Saate n�
 -   Asendatud/asendaja
 -   Tükeldamine graafikusse / graafiku rida
 
-Pange tähele, et indikaator näitab **Tarnimisel**=jah/ei, mida kasutatakse näitamiseks, et ridu ei edastata. See võib olla selle tõttu, et rida lükati tagasi või asendati seal, kus originaalridade edastamist ei oodatud, või mitmeks graafiku reaks tükeldatud rea ja originaalrea edastamist ei oodata nii, nagu vastuvõetud tellimuses on soovitud. Kuvatakse mis tahes tellimusereale tehtud muudatused, välja arvatud üles laaditud märkused ja manused, mida saate näha, kasutades hankija koostöö veebiliidest.
+Pange tähele, et välja **Tarnimisel** olekuks määratakse **Jah** või **Ei**, et näidata, kas read tarnitakse. Rida ei pruugita tarnida järgmistel põhjustel.
 
-## <a name="open-confirmed-orders"></a>Kinnitatud tellimuste avamine
-Kui klient kinnitab ostutellimuse, mis tähendab, et ostutellimus muudetakse olekusse Kinnitatud, ilmub see avatud kinnitatud olekusse. See püsib loendis, kuni see registreeritakse kliendilt vastuvõetuks.
+- Rida lükati tagasi.
+- Tehti asendus ja algse rea tarnimist saadud tellimuses ei oodata saadud tellimuse kohaselt.
+- Rida jagati mitmeks graafikureaks ja algse rea tarnimist saadud tellimuses ei oodata saadud tellimuse kohaselt.
 
+Kuvatakse tellimuse rea vastuses tehtud muudatused. Kuid üles laaditud märkusi ja manuseid ei kuvata. Märkuste ja manuste kuvamiseks tuleb kasutada veebikliendis hankija koostöö veebiliidest.
 
-
-
+### <a name="open-confirmed-orders"></a>Avatud kinnitatud tellimused
+Kui klient kinnitab ostutellimuse (st ostutellimuse olekuks määratakse **Kinnitatud**), kuvatakse see avatud kinnitatud tellimuses. See jääb loendisse, kuni registreeritakse, et klient on selle vastu võtnud.
 

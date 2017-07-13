@@ -3,13 +3,13 @@ title: "Müügitagastused"
 description: "See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele.
 
-Kliendid saavad tagastada kaupu erinevatel põhjustel. Näiteks võib kaup olla defektne või see ei pruugi vastata kliendi ootustele. Tagastusprotsess käivitub, kui klient väljastab kauba tagastamiseks taotluse. Pärast kliendi taotluse vastuvõtmist luuakse rakenduses Microsoft Dynamics 365 for Operations tagastustellimus.
+Kliendid saavad tagastada kaupu erinevatel põhjustel. Näiteks võib kaup olla defektne või see ei pruugi vastata kliendi ootustele. Tagastusprotsess käivitub, kui klient väljastab kauba tagastamiseks taotluse. Pärast kliendi taotluse vastuvõtmist luuakse rakenduses Microsoft Dynamics 365 for Finance and Operations tagastustellimus.
 
 ## <a name="return-order-process"></a>Tagastustellimuse protsess
 Järgmine näide annab ülevaate tagastustellimuse protsessist.  
@@ -264,7 +264,7 @@ See stsenaarium hõlmab samas organisatsioonis kaht ettevõtet, nagu on näidatu
 
 [![Lihtne kontsernisisene tagastus](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-Tellimusahela saab luua, kui ostuettevõttes luuakse hankija tagastustellimus või müügiettevõttes luuakse kliendi tagastustellimus. Rakendus Dynamics 365 for Operations loob teises ettevõttes vastava tellimuse ja tagab, et hankija tagastustellimuse päise ja rea teave kajastaks kliendi tagastusreal olevaid sätteid. Loodav tagastustellimus võib olemasolevale kliendiarvele viidet lisada või seda välistada (**Otsi müügitellimust**). Kahe tellimuse saatelehti ja arveid saab individuaalselt töödelda. Näiteks ei pea te looma saatelehte hankija tagastustellimuse jaoks enne kliendi tagastustellimuse jaoks saatelehe loomist.
+Tellimusahela saab luua, kui ostuettevõttes luuakse hankija tagastustellimus või müügiettevõttes luuakse kliendi tagastustellimus. Finance and Operations loob teises ettevõttes vastava tellimuse ja tagab, et hankija tagastustellimuse päise ja rea teave kajastaks kliendi tagastusreal olevaid sätteid. Loodav tagastustellimus võib olemasolevale kliendiarvele viidet lisada või seda välistada (**Otsi müügitellimust**). Kahe tellimuse saatelehti ja arveid saab individuaalselt töödelda. Näiteks ei pea te looma saatelehte hankija tagastustellimuse jaoks enne kliendi tagastustellimuse jaoks saatelehe loomist.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Otsetarne saadetise tagastused kolme osapoole hulgas
 

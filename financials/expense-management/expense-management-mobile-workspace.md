@@ -1,6 +1,6 @@
 ---
 title: "Kulude halduse mobiilne tööruum"
-description: "See teema annab teavet Microsoft Dynamics 365 for Operationsi mobiilirakenduse jaoks saadaoleva kulude haldamise mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Mobiilne tööruum võimaldab kasutajatel ka kiiresti luua kuluridu, kasutades lisatud kviitungit."
+description: "See teema annab teavet Microsoft Dynamics 365 for Finance and Operationsi mobiilirakenduse jaoks saadaoleva kulude haldamise mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Mobiilne tööruum võimaldab kasutajatel ka kiiresti luua kuluridu, kasutades lisatud kviitungit."
 author: annbe
 manager: AnnBe
 ms.date: 04/10/2017
@@ -18,10 +18,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4e3202de8e5288bbd52e8c28922374de147cc99f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e52d1c5dde7f79c4a8ac5ac2d9c3b25bba9c2cd
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-See teema annab teavet Microsoft Dynamics 365 for Operationsi mobiilirakenduse jaoks saadaoleva kulude haldamise mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Mobiilne tööruum võimaldab kasutajatel ka kiiresti luua kuluridu, kasutades lisatud kviitungit.
+See teema annab teavet Microsoft Dynamics 365 for Finance and Operationsi mobiilirakenduse jaoks saadaoleva kulude haldamise mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Mobiilne tööruum võimaldab kasutajatel ka kiiresti luua kuluridu, kasutades lisatud kviitungit.
 
 <a name="overview-of-the-expense-management-mobile-workspace"></a>Kulude halduse mobiilse tööruumi ülevaade
 ---------------------------------------------------
 
 Paljud ettevõtted nõuavad, et reisiga seotud või äriga seotud kuluaruandele, mille töövõtja korvamiseks esitab, lisatakse kviitungi koopia. Mobiilne tööruum **Kulude haldus** võimaldab kasutajatel kiiresti luua oma valitud mobiilses seadmes uusi kuluridu, kasutades lisatud fotot kviitungist. Teise võimalusena saavad kasutajad jäädvustada kviitungist foto ja lisada selle kuluaruandele hiljem. Täpsemalt võimaldab mobiilne tööruum **Kulude haldamine** teha kasutajal järgmist.
 
--   Kviitungist foto tegemine ja selle üleslaadimine Microsoft Dynamicsi 365 for Operationsisse. Seejärel saab kasutaja lisada selle foto hiljem kuluaruandele.
+-   Kviitungist foto tegemine ja selle üleslaadimine Microsoft Dynamicsi 365 for Finance and Operationsisse. Seejärel saab kasutaja lisada selle foto hiljem kuluaruandele.
 -   Faili üleslaadimine salvestatud kviitungina. Seejärel saab kasutaja lisada selle faili hiljem kuluaruandele.
 -   Uue kulurea loomine, kasutades lisatud kviitungit. Seejärel saab kasutaja lisada selle reaüksuse hiljem kuluaruandele ning esitada selle heakskiitmiseks ja korvamiseks.
 
@@ -64,7 +64,7 @@ Enne mobiilse tööruumi **Kulude haldamine** juurutamist veenduge, et teie süs
 <tr class="odd">
 <td>Juurutatud peab olema Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuemaga.</td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator vaatama teemat <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
+<td>Kui teie organisatsioonis pole Dynamics 365 for Finance and Operations veel juurutatud, peaks süsteemiadministraator vaatama teemat <a href="/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Finance and Operationsi demokeskkonna juurutamine</a>.</td>
 </tr>
 <tr class="even">
 <td>Juurutatud peab olema KB 4019015.</td>
@@ -72,16 +72,16 @@ Enne mobiilse tööruumi **Kulude haldamine** juurutamist veenduge, et teie süs
 <td>KB 4019015 (X ++ värskendus või metaandmete kiirparandus) sisaldab tarneahela haldamiseks nelja mobiilset tööruumi. KB 4019015 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
 <ol>
 <li>Laadima KB 4019015 alla Microsoft Dynamicsi elutsükliteenustest (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ExpenseMobile</strong>, ning seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ExpenseMobile</strong>, ning seejärel laadima juurutatava paketi LCS-i üles.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Finance and Operationsi süsteemile.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Mobiilne tööruum <strong>Kulude haldamine</strong> tuleb avaldada Dynamics 365 for Operationsi mobiilirakenduses.</td>
+<td>Mobiilne tööruum <strong>Kulude haldamine</strong> tuleb avaldada Dynamics 365 for Finance and Operationsi mobiilirakenduses.</td>
 <td>Süsteemiadministraator</td>
 <td><ol>
-<li>Käivitage oma brauseris rakendus Dynamics 365 for Operations.</li>
+<li>Käivitage Finance and Operations oma brauseris.</li>
 <li>Valige lehel <strong>Süsteemiparameetrid</strong> suvand <strong>Mobiilsete tööruumide haldamine</strong>.</li>
 <li>Valige tööruum <strong>Kulude haldamine</strong>.</li>
 <li>Klõpsake nuppu <strong>Mobiilse tööruumi avaldamine</strong>.</li>
@@ -90,17 +90,17 @@ Enne mobiilse tööruumi **Kulude haldamine** juurutamist veenduge, et teie süs
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operationsi mobiilirakenduse alla laadimine ja installimine
-Laadige mobiilirakenduste poest alla mobiilirakendus Microsoft Dynamics 365 for Operations ja installige see.
+## <a name="download-and-install-the-finance-and-operations-mobile-app"></a>Laadige alla ja installige Finance and Operationsi mobiilirakendus
+Laadige mobiilirakenduste poest alla mobiilirakendus Finance and Operations ja installige see.
 
--   Androidile: [Dynamics 365 for Operations Google Play Store’is](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   iPhone’ile: [Dynamics 365 for Operations iTunes apps store’is](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+-   Androidile: [Finance and Operations Google Play Store’is](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
+-   iPhone’ile: [Finance and Operations iTunes apps store’is](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Logige sisse, et kasutada Dynamics 365 for Operationsi mobiilirakendust
+## <a name="sign-in-to-the-finance-and-operations-mobile-app"></a>Logige mobiilirakendusse Finance and Operations sisse
 1.  Käivitage rakendus oma mobiilses seadmes.
-2.  Sisestage oma Dynamics 365 for Operationsi URL.
+2.  Sisestage oma Finance and Operationsi URL.
 3.  Sisestage ettevõte, millesse soovite sisse logida. Näiteks sisestage **USMF**.
-4.  Esmakordsel sisselogimisel palutakse teil sisestada oma Dynamics 365 for Operationsi konto kasutajanimi ja parool. Sisestage oma identimisteave.
+4.  Esmakordsel sisselogimisel palutakse teil sisestada oma Finance and Operationsi konto kasutajanimi ja parool. Sisestage oma identimisteave.
 5.  Pärast sisselogimist näete oma ettevõtte jaoks saadaolevaid tööruume. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem. Võite mobiilsete tööruumide loendi värskendamiseks tõmmata. 
 
 [![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
@@ -122,11 +122,11 @@ Laadige mobiilirakenduste poest alla mobiilirakendus Microsoft Dynamics 365 for 
 ## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>Kiire kulusisestus, kasutades kulude haldamise mobiilset tööruumi
 1.  Valige oma mobiilses seadmes tööruum **Kulude haldamine**.
 2.  Valige suvand **Kiire kulusisestus**.
-3.  Valige kulu kategooria. Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse kuni 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Dynamics 365 for Operationsi mobiiliplatvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). Kui soovitud kategooriat pole loendis, valige suvand **Otsi**, et kasutada Dynamics 365 for Operationsis veebiotsingut. Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.
+3.  Valige kulu kategooria. Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse kuni 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Finance and Operationsi mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui soovitud kategooriat pole loendis, valige suvand **Otsi**, et kasutada Finance and Operationsis veebiotsingut. Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.
 4.  Sisestage kulu kande kuupäev.
 5.  Valikuline: saate sisestada kaupmehe kulu.
 6.  Sisestage kulu summa.
-7.  Saate valida kulu valuuta. Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse kuni 400 valuutat, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Dynamics 365 for Operationsi mobiiliplatvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). Kui soovitud valuutat pole loendis, valige suvand **Otsi**, et kasutada Dynamics 365 for Operationsis veebiotsingut. Saate otsida valuuta järgi või lülituda nime järgi otsingule.
+7.  Saate valida kulu valuuta. Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse kuni 400 valuutat, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Finance and Operationsi mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui soovitud valuutat pole loendis, valige suvand **Otsi**, et kasutada Finance and Operationsis veebiotsingut. Saate otsida valuuta järgi või lülituda nime järgi otsingule.
 8.  Valige suvand **Tee foto** või **Vali pilt**.
 9.  Kui valisite suvandi **Tee foto**, avaneb teie mobiilse seadme kaamera, et saaksite kviitungist foto jäädvustada. Kui foto on tehtud, klõpsake selle aktsepteerimiseks nuppu **OK**.  Kui aga valisite suvandi **Vali pilt**, valige loendist pilt.
 10. Valige suvand **Valmis**.

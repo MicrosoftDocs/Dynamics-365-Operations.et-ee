@@ -3,7 +3,7 @@ title: Hinnasimulatsioon
 description: "Selles artiklis antakse teavet pakkumiste hinnasimulatsiooni kohta. Hinnasimulatsiooni abil saate hinnata mahaarvamiste mõju tulevasele müügihinale pakkumise protsessi ajal, enne kui määrate kindla hinna."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -54,7 +54,7 @@ Et tagada allahindluste ja hindade õige arvestamine, olge allahindlusega pakkum
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Allahindluste tüübid kaubanduslepetes
 
-Microsoft Dynamics 365 for Operationsi kaubanduslepetel võib olla nelja tüüpi hinna allahindlusi. Neid allahindlusi saab kasutada erinevate kaupade, klientide või hinnagruppide puhul ning neid saab piirata kuupäevaga. Valearvestuste vältimiseks peab hinnasimulatsioonide tegemisel kaubandusleppeid arvestama. Siin on nelja tüüpi allahindlused kaubanduslepetes.
+Microsoft Dynamics 365 for Finance and Operationsi kaubanduslepetel võib olla nelja tüüpi hinna allahindlusi. Neid allahindlusi saab kasutada erinevate kaupade, klientide või hinnagruppide puhul ning neid saab piirata kuupäevaga. Valearvestuste vältimiseks peab hinnasimulatsioonide tegemisel kaubandusleppeid arvestama. Siin on nelja tüüpi allahindlused kaubanduslepetes.
 
 -   **Müügihind** – kaupadele saab määrata eraldi müügihinnad. Pakkumise ridade loomisel otsib programm õiget kauba müügihinda ja kannab selle pakkumise ridadele. Seetõttu ei mõjuta sellise allahindlusega kaubanduslepe hinnasimulatsiooni. Pakkumise real kasutatav müügihind kajastab kaubanduslepet.
 -   **Rea allahindlus** – kaupadele määratakse spetsiaalsed allahindlused, olenevalt tellitud kogusest. Rea summasid vähendatakse harilikult rea allahindluse võrra enne hinnasimulatsiooni tegemist. Seetõttu mõjutab sellise allahindlusega kaubanduslepe hinnasimulatsiooni.

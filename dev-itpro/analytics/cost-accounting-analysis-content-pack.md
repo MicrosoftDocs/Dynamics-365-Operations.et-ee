@@ -3,24 +3,24 @@ title: "Kuluarvestuse analüüsi Power BI sisu"
 description: "See teema kirjeldab, mida hõlmab kuluarvestuse analüüsi Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
-ms.author: yuyus
+ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ce75a6145bde4a8c33ed785c7d2a60a52416676
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,18 +29,27 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+See teema kirjeldab, mida hõlmab **kuluarvestuse analüüsi** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
-See teema kirjeldab, mida hõlmab kuluarvestuse analüüsi Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+## <a name="overview"></a>Ülevaade
 
-<a name="overview"></a>Ülevaade
---------
+**Kuluarvestuse analüüsi** Power BI sisu on mõeldud kulul kontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Microsoft Dynamics 365 for Operationsi **kuluarvestuse** moodulist ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut. 
 
-**Kuluarvestuse analüüsi** Microsoft Power BI sisu on mõeldud kulul kontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Microsoft Dynamics 365 for Operationsi kuluarvestusest ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut. Kuna **kuluarvestuse analüüsi** Power BI sisu tõstab esile hälbed tegelike ja eelarvestatud kulude vahel, saab haldajaid teavitada nende tootmisüksuse positiivsetest ja negatiivsetest trendidest. Haldajatel on võimalik kuluelementide hierarhiaid või üksikuid kuluelemente sügavuti uurida, et saada põhjalik ülevaade kuluhälvete tekkimisest ja rakendada asjakohaseid meetmeid. **Kuluarvestuse analüüsi** Power BI sisu võimaldab kuluarvestajatel analüüsida kulude voogu läbi kogu organisatsiooni kuluobjektide. Lisateavet kuluarvestuse kohta vt teemast [Kuluarvestuse koduleht](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Määratledes juurdepääsutasemel turvalisuse kuluarvestuses ja kombineerides selle reatasemel turvalisusega Power BI-s, saate anda kõigile kuluobjektide omanikele juurdepääsu **kuluarvestuse analüüsi** Power BI sisule. Kõik andmed visualisatsioonis filtreeritakse seejärel kuluarvestuses juhitava juurdepääsutaseme alusel. Lisateavet juurdepääsutasemel turvalisuse ja reatasemel turvalisuse kohta vt teemast [Turbe seadistamine kuluarvestuse sisu jaoks Power BI puhul](setup-security-cost-accounting-content-pack.md).
+Kuna **kuluarvestuse analüüsi** sisu tõstab esile hälbed tegelike ja eelarvestatud kulude vahel, saab haldajaid teavitada nende tootmisüksuse positiivsetest ja negatiivsetest trendidest. Juhid saavad kuluelemendi hierarhiates või eraldi kuluelementides süvitsi minna. Sel viisil saavad juhid üksikasjalikke andmeid selle kohta, kuidas kuluhälbed on tekkinud, ja neil on siis võimalik tulemuslikke meetmeid tarvitusele võtta. 
+
+**Kuluarvestuse analüüsi** sisu võimaldab kuluarvestajatel analüüsida kulude voogu läbi kogu organisatsiooni kuluobjektide. 
+
+Lisateavet kuluarvestuse kohta vt teemast [Kuluarvestuse koduleht](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+
+Määratledes juurdepääsutasemel turvalisuse kuluarvestuses ja kombineerides selle reatasemel turvalisusega Power BI-s, saate anda kõigile kuluobjektide omanikele juurdepääsu **kuluarvestuse analüüsi** Power BI sisule. Kõik andmed visualisatsioonis filtreeritakse seejärel kuluarvestuses juhitava juurdepääsutaseme alusel. Lisateavet juurdepääsutasemel turvalisuse ja reatasemel turvalisuse kohta vt teemast [Turbe seadistamine kuluarvestuse sisu jaoks Power BI puhul](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-**Kuluarvestuse analüüsi** Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle ühendamise kohta Microsoft Dynamics 365 for Operationsi andmetega vt teemast [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). 
+**Kuluarvestuse analüüsi** Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
-> Märkus. **KB4011327** on selle Power BI sisu eeltingimus. Pärast elutsükli teenustesse sisselogimist pääsete teabebaasiartiklile juurde siin:<https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+Laadige kindlasti alla **kuluarvestuse analüüsi** sisu, mis kehtib teie kasutatava Microsoft Dynamics 365 versiooni puhul.
+
+> [!NOTE]
+> KB4011327 on selle Power BI sisu eeltingimus. Pärast LCS-i sisselogimist pääsete teabebaasiartiklile juurde aadressil <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **kuluarvestuse analüüsi** Power BI sisu visualiseerimistest.
@@ -64,12 +73,14 @@ Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist,
 |                                  | Tegelik kulu kuluobjekti dimensiooniliikme nime ja kuluelemendi dimensiooniliikme nime alusel                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Aruandelehtede täitmiseks **kuluarvestuse analüüsi** Power BI sisus kasutatakse Dynamics 365 for Operationsi andmeid. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL-i andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md). Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
+Aruandelehtede täitmiseks **kuluarvestuse analüüsi** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md). 
 
-| Üksus                  | Peamine koondmõõtmine | Dynamics 365 for Operationsi andmeallikas | Väli     | Kirjeldus                                   |
-|-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Kuluarvestuse sisestused | SUM(Summa)               | CAMDATAAggregatedCostEntry                  | Summa    | Summa kuluarvestuse pearaamatu valuutas |
-| Statistilised kirjed     | SUM(Väärtus)            | CAMDATAAggregatedStatisctialEntry           | Väärtus |                                               |
+Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
+
+| Üksus                  | Peamine koondmõõtmine | Dynamics 365 andmeallikas      | Väli     | Kirjeldus                                        |
+|-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
+| Kuluarvestuse sisestused | SUM(Summa)               | CAMDATAAggregatedCostEntry        | Summa    | Summa kuluarvestuse pearaamatu valuutas. |
+| Statistilised kirjed     | SUM(Väärtus)            | CAMDATAAggregatedStatisctialEntry | Väärtus |                                                    |
 
 Järgmine tabel näitab, kuidas kasutatakse peamisi koondmõõtmisi mitme arvutatud meetme loomiseks sisu andmekogumis.
 
@@ -114,16 +125,4 @@ Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamisek
 | Rahandussaasta kalendrid                   | Kalender, kalendri kirjeldus                                                                                       |
 | Finantsaastad                       | Kalendriaasta                                                                                                        |
 | Rahandusperioodid                     | Kalendriaasta periood                                                                                                 |
-
-## <a name="additional-resources"></a>Lisaressursid
-Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
-
--   [Andmeüksused](..\data-entities\data-entities.md)
--   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI paanide lisamine tööruumidele](configure-power-bi-integration.md)
--   [Kuluarvestuse sisu turbe seadistamine Power BI puhul](setup-security-cost-accounting-content-pack.md)
-
-
-
 

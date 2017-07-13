@@ -3,13 +3,13 @@ title: "Parimad tavad kannete importimiseks üldise töölehe üksust kasutades"
 description: "Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a1740f322972b1c37f23a0422fdcb4435253710
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b9a5c03584635908067bb7b623deba76f4ba3e18
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,14 +53,14 @@ Järgmistes jaotistes kirjeldatakse nende sätete mõju ja selgitatakse, kuidas 
 -   Seadistus **Kogumipõhine töötlemine** päevaraamatu üksusel ei mõjuta seda, kuidas töölehe partiinumbreid luuakse.
 -   Kui välja **Töölehe partiinumber** väärtuseks on määratud **Automaatselt loodud**, luuakse uus töölehe partiinumber igale imporditavale reale. Selline käitumine ei ole soovitatav. Säte **Automaatselt loodud** on projekti importimise all jaotises **Kuva kaart** vahekaardil **Vastendamise andmed**.
 -   Kui välja **Töölehe partiinumber** väärtuseks ei ole määratud **Automaatselt loodud**, luuakse töölehe partiinumber järgmiselt.
-    -   Kui imporditud failis määratletud töölehe partiinumber vastab rakenduses Microsoft Dynamics 365 for Operations olemasolevale, sisestamata igapäevasele töölehele, imporditakse olemasolevasse töölehte kõik read, millel on sobiv töölehe partiinumber. Ridu ei impordita kunagi sisestatud töölehe partiinumbrisse. Selle asemel luuakse uus number.
-    -   Kui imporditud failis määratletud töölehe partiinumber ei vasta rakenduses Microsoft Dynamics 365 for Operations olemasolevale, sisestamata igapäevasele töölehele, imporditakse olemasolevasse töölehte kõik read, millel on sobiv töölehe partiinumber. Näiteks kõik read, mille töölehe partiinumber on 1, imporditakse uuele töölehele ja kõik read, mille töölehe partiinumber on 2, imporditakse teisele uuele töölehele. Töölehe partiinumber luuakse päevaraamatu parameetrites määratletud numbriseeria abil.
+    -   Kui imporditud failis määratletud töölehe partiinumber vastab olemasolevale sisestamata päevaraamatule, imporditakse kõik vastava töölehe partiinumbriga read olemasolevale töölehele. Ridu ei impordita kunagi sisestatud töölehe partiinumbrisse. Selle asemel luuakse uus number.
+    -   Kui imporditud failis määratletud töölehe partiinumber ei vasta olemasolevale sisestamata päevaraamatule, rühmitatakse kõik sama töölehe partiinumbriga read uue töölehe alla. Näiteks kõik read, mille töölehe partiinumber on 1, imporditakse uuele töölehele ja kõik read, mille töölehe partiinumber on 2, imporditakse teisele uuele töölehele. Töölehe partiinumber luuakse päevaraamatu parameetrites määratletud numbriseeria abil.
 
 ### <a name="voucher-number"></a>Kande number
 
--   Kui kasutate päevaraamatu üksuse seadistust **Kogumipõhine töötlemine**, tuleb imporditud failis esitada kande number. Igale päevaraamatu kandele määratakse imporditud failis antud kande number, isegi kui kanne pole tasakaalustatud. Kui soovite kasutada komplektipõhist töötlemist, kuid soovite kasutada ka numbriseeriat, mis on rakenduses Dynamics 365 for Operations kandenumbritele määratletud, on 2016. aasta veebruari väljalaske jaoks tehtud kiirparandus. Kiirparanduse number on 3170316 ja selle saab laadida alla teenusest Lifecycle Services (LCS). Lisateavet leiate jaotisest [Kiirparanduste allalaadimine teenusest Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Selle funktsiooni lubamiseks määrake töölehe nimel, mida kasutatakse rakenduses Dynamics 365 for Operations tehtavate importimiste jaoks, valiku **Numbrite eraldamine sisestamisel** sätteks **Jah**.
-    -   Imporditud failis tuleb sellegipoolest kandenumber määratleda. Samas on see number ajutine ja kirjutatakse töölehe sisestamisel rakenduse Dynamics 365 for Operations kande numbriga üle. Peate veenduma, et töölehe read oleksid ajutise kandenumbriga õigesti grupeeritud. Näiteks sisestamise käigus leitakse kolm rida, millel on ajutine kandenumber 1. Kõigi kolme rea ajutine kandenumber kirjutatakse numbriseerias üle järgmise numbriseerias oleva numbriga. Kui need kolm rida ei ole tasakaalustatud kirje, siis kannet ei sisestata. Järgmiseks, kui leitakse ridu, mille ajutine kandenumber on 2, kirjutab selle numbri üle numbriseeria järgmine kandenumber jne.
+-   Kui kasutate päevaraamatu üksuse seadistust **Kogumipõhine töötlemine**, tuleb imporditud failis esitada kande number. Igale päevaraamatu kandele määratakse imporditud failis antud kande number, isegi kui kanne pole tasakaalustatud. Kui soovite kasutada komplektipõhist töötlemist, kuid soovite kasutada ka numbriseeriat, mis on kandenumbritele määratletud, on 2016. aasta veebruari väljalaske jaoks tehtud kiirparandus. Kiirparanduse number on 3170316 ja selle saab laadida alla teenusest Lifecycle Services (LCS). Lisateavet leiate jaotisest [Kiirparanduste allalaadimine teenusest Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+    -   Selle funktsiooni lubamiseks määrake töölehe nimel, mida importimisteks kasutatakse, valiku **Numbrite eraldamine sisestamisel** väärtuseks **Jah**.
+    -   Imporditud failis tuleb sellegipoolest kandenumber määratleda. Kuid see number on ajutine ja kandenumber kirjutab selle töölehe sisestamisel üle. Peate veenduma, et töölehe read oleksid ajutise kandenumbriga õigesti grupeeritud. Näiteks sisestamise käigus leitakse kolm rida, millel on ajutine kandenumber 1. Kõigi kolme rea ajutine kandenumber kirjutatakse numbriseerias üle järgmise numbriseerias oleva numbriga. Kui need kolm rida ei ole tasakaalustatud kirje, siis kannet ei sisestata. Järgmiseks, kui leitakse ridu, mille ajutine kandenumber on 2, kirjutab selle numbri üle numbriseeria järgmine kandenumber jne.
 
 <!-- -->
 

@@ -3,25 +3,27 @@ title: Retail Modern POS-i jaoks piltide seadistamine ja haldamine
 description: "See artikkel selgitab toiminguid, mis on seotud mitmesuguste Retail Modern POS-is (MPOS)kuvatavate üksuste piltide seadistamise ja haldamisega."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 06915686e1421742c2f1dd1ebbb02491f04431fd
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 3985d731709eff4085927b277996528e4e448ba9
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,19 +38,19 @@ See artikkel selgitab toiminguid, mis on seotud mitmesuguste Retail Modern POS-i
 <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Meedia baas-URL-i seadistamine ja meediamallide määratlemine pildi URL-ide vormingu konfigureerimiseks
 -------------------------------------------------------------------------------------------------
 
-Retail Modern POS-is (MPOS) kuvatavad pildid peavad olema majutatud väliselt, rakendusest Microsoft Dynamics 365 for Operations – jaemüük väljapoole. Tavaliselt majutatakse neid sisuhaldussüsteemis, sisu edastamise võrgus (CDN) või meediserveris. MPOS toob pildid sobivate üksuste (nagu tooted ja kataloogid) juurde ning kuvab need, kasutades sihtkoha URL-i. Väliselt majutatavate piltide toomiseks nõuab MPOS piltide õiget URL-i vormingut. Saate konfigureerida piltidele nõutava URL-i vormingu, seadistades kanali profiilis väärtuse **Meedia baas-URL**ja kasutades iga üksuse puhul funktsiooni **Meediamalli määratlemine**. Samuti saate alistada standardse URL-i vormingu üksuste alamkogumi jaoks, kasutades funktsiooni **Excelis redigeerimine**. **Oluline märkus.** Praeguses rakenduse Dynamics 365 for Operations versioonis ei saate seadistada URL-vormingut, kasutades MPOS-i XML-atribuuti **Pilt** üksuste atribuudigrupis **Vaikimisi**. Kui olete tuttav rakendusega Microsoft Dynamics AX 2012 R3 ja kasutate nüüd rakenduse Dynamics 365 for Operations praegust versiooni, veenduge, et kasutate piltide seadistamiseks alati uut funktsiooni **Meediamallide määratlemine**. Ärge kasutage ega muutke ühegi üksuse (sh tootede) puhul atribuuti **Pilt** atribuudigrupis **Vaikimisi**. Otse atribuudigrupis **Vaikimisi** piltidele tehtud muudatusi ei kajastata. See suvand keelatakse tulevases väljaandes. Järgmistes protseduurides seadistatakse näitena pildid kataloogiüksuse jaoks. Need protseduurid aitavad tagada, et vaikimisi seadistatakse ühist teed kasutavatele kataloogi piltidele õige pildi sihtkoha tee. Näiteks kui olete seadistanud meediaserveri või CDN-i väliselt ja soovite MPOS-is pilte kuvada konkreetse poe jaoks, aitab funktsioon **Meediamalli määratlemine** määrata tee, mille puhul saab MPOS pilte otsida ja neid tuua. **Märkus.** Antud demonandmete näites juurutatakse meediaserver jaemüügiserveris. Samas võib see teil olla igalpool väljaspool rakendust Dynamics 365 for Operations.
+Retail Modern POS-is (MPOS) kuvatavad pildid peavad olema majutatud väliselt, rakendusest Microsoft Dynamics 365 for Retail väljapoole. Tavaliselt majutatakse neid sisuhaldussüsteemis, sisu edastamise võrgus (CDN) või meediserveris. MPOS toob pildid sobivate üksuste (nagu tooted ja kataloogid) juurde ning kuvab need, kasutades sihtkoha URL-i. Väliselt majutatavate piltide toomiseks nõuab MPOS piltide õiget URL-i vormingut. Saate konfigureerida piltidele nõutava URL-i vormingu, seadistades kanali profiilis väärtuse **Meedia baas-URL** ja kasutades iga üksuse puhul funktsiooni **Meediamalli määratlemine**. Samuti saate alistada standardse URL-i vormingu üksuste alamkogumi jaoks, kasutades funktsiooni **Excelis redigeerimine**. **Oluline märkus.** Praeguses rakenduse Dynamics 365 for Retail versioonis ei saate seadistada URL-vormingut, kasutades MPOS-i XML-atribuuti **Pilt** üksuste atribuudigrupis **Vaikimisi**. Kui olete tuttav rakendusega Microsoft Dynamics AX 2012 R3 ja kasutate nüüd rakenduse Dynamics 365 for Retail praegust versiooni, veenduge, et kasutate piltide seadistamiseks alati uut funktsiooni **Meediamallide määratlemine**. Ärge kasutage ega muutke ühegi üksuse (sh tootede) puhul atribuuti **Pilt** atribuudigrupis **Vaikimisi**. Otse atribuudigrupis **Vaikimisi** piltidele tehtud muudatusi ei kajastata. See suvand keelatakse tulevases väljaandes. Järgmistes protseduurides seadistatakse näitena pildid kataloogiüksuse jaoks. Need protseduurid aitavad tagada, et vaikimisi seadistatakse ühist teed kasutavatele kataloogi piltidele õige pildi sihtkoha tee. Näiteks kui olete seadistanud meediaserveri või CDN-i väliselt ja soovite MPOS-is pilte kuvada konkreetse poe jaoks, aitab funktsioon **Meediamalli määratlemine** määrata tee, mille puhul saab MPOS pilte otsida ja neid tuua. **Märkus.** Antud demonandmete näites juurutatakse meediaserver jaemüügiserveris. Samas võib see teil olla igal pool väljaspool rakendust Dynamics 365 for Retail.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Meedia baas-URL.i seadistamine kanalile
 
-1.  Avage Dynamics 365 for Operations HQ portaal.
-2.  Klõpsake nuppe **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kanali profiilid**. [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
+1.  Avage Dynamics 365 for Retaili HQ portaal.
+2.  Klõpsake nuppe **Jaemüük** &gt; **Kanali seadistus** &gt; **Kanali profiilid**. [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
 3.  Värskendage kanali profiilis, mida teie kauplus MPOS-ide jaoks kasutab, välja **Meedia baas-URL** oma meediaserveri või CDN-i baas-URL-iga. Baas-URL on esimene URL-i osa, mida jagavad kõik erinevate üksuste pildikaustad.[![channel-profile2](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Üksusele meediamalli määratlemine
 
-1.  Klõpsake nuppe **Jaemüük ja kaubandus** &gt; **Kataloogi haldus** &gt; **Kataloogi pildid**.
+1.  Klõpsake nuppe **Jaemüük** &gt; **Kataloogi haldus** &gt; **Kataloogi pildid**.
 2.  Klõpsake lehe **Kataloogi pildid** tegevuspaanil suvandit **Meediamalli määratlemine**. Dialoogikasti **Meediamalli määratlemine** väljal **Üksus** peab vaikevalikuks olema **Kataloog**.
-3.  Sisestage kiirkaardile **Meediumitee** pildi asukoha ülejäänud tee. Meediumitee toetab muutujana atribuuti **LanguageID**. Näiteks demoandmete puhul saate luua kausta **Kataloogid** kõikidele kataloogi piltidele, mis on teie meediaserveri meedia baas-URL-i all (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Siis saate luua kausta igale keelele, nagu en-US või fr-FR, ja kopeerida sobivad pildid iga kausta alla. Kui teil ei ole eri keelte jaoks erinevaid pilte, saate muutuja **LanguageID** oma kaustastruktuurist välja jätta ja osutada otse kaustale Kataloogid, mis sisaldab kataloogi pilte. **Märkus.** Praegune Dynamics AX-i versioon toetab luba **{LanguageId}** üksuste Kataloog, Toode ja Kategooria puhul. (Luba **{LanguageID}** ei toetata üksuste Klient ja Töötaja puhul vastavalt olemasolevale standardile, mis on kehtinud alates versioonist Microsoft Dynamics AX 6.x.)
+3.  Sisestage kiirkaardile **Meediumitee** pildi asukoha ülejäänud tee. Meediumitee toetab muutujana atribuuti **LanguageID**. Näiteks demoandmete puhul saate luua kausta **Kataloogid** kõikidele kataloogi piltidele, mis on teie meediaserveri meedia baas-URL-i all (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Siis saate luua kausta igale keelele, nagu en-US või fr-FR, ja kopeerida sobivad pildid iga kausta alla. Kui teil ei ole eri keelte jaoks erinevaid pilte, saate muutuja **LanguageID** oma kaustastruktuurist välja jätta ja osutada otse kaustale Kataloogid, mis sisaldab kataloogi pilte. **Märkus.** Praegune Dynamics 365 for Retaili versioon toetab luba **{LanguageId}** üksuste Kataloog, Toode ja Kategooria puhul. (Luba **{LanguageID}** ei toetata üksuste Klient ja Töötaja puhul vastavalt olemasolevale standardile, mis on kehtinud alates versioonist Microsoft Dynamics AX 6.x.)
 4.  Piltide puhul on failinime vorming kataloogi nimele püsiprogrammeeritud ja seda ei saa muuta. Seega muutke piltide nime nii, et neild oleks sobivad katalooginimed. See aitab tagada, et MPOS käsitleb neid õigesti.
 5.  Valige väljal **Faililaiend** eeldatav faili nimelaiend olenevalt olemasolevatest pilditüüpidest. Näiteks demoandmete puhul on kataloogipildid laiendiga .jpg. (Ka pildifailid nimetatakse ümbe nii, et neil oleks kataloogi nimed.)
 6.  Klõpsake **OK**.
@@ -78,10 +80,10 @@ Nagu te eelmises jaotises teada saite, toetab antud üksuse meediamall ainult ü
 
 ### <a name="overwrite-by-using-edit-in-excel"></a>Ülekirjutamine funktsiooniga Excelis redigeerimine
 
-1.  Klõpsake nuppe **Jaemüük ja kaubandus** &gt; **Kataloogi haldus** &gt; **Kataloogi pildid**.
+1.  Klõpsake nuppe **Jaemüük** &gt; **Kataloogi haldus** &gt; **Kataloogi pildid**.
 2.  Klõpsake lehel **Kataloogi pildid** suvandit **Meediamalli määratlemine**. Dialoogikasti **Meediamalli määratlemine** väljal **Üksus** peab valitud olema **Kataloog**.
 3.  Vaadake kiirkaardil **Meediumitee** pildi asukohta.
-4.  Klõpsake kiirkaardil **Pildi URL-ide loomine Exceli jaoks** suvandit **Loo**. **Oluline.** Alati kui meediamalli muudetakse, peate klõpsama suvandit **Loo**, enne kui saate kasutada funktsiooni Excelis redigeerimine. [![excel1](./media/excel1.jpg)](./media/excel1.jpg) Näete nüüd eelvaadet pildi URL-idest, mis loodi viimase salvestatud meediamalli alusel. [![excel2](./media/excel2.png)](./media/excel2.png) **Märkus** Excelile loodud URL-id kasutavad määratletud meediamallide teed ja tavasid. Tavad hõlmavad tavasid failinimede osas. Eeldus on, et olete seadistanud füüsilised pildid väljaspool Dynamics AX-i ja pilte saab tuua URL-idest, mis on tuletatud varem määratletud meediamallist. Saate need tuletatud URL-id üle kirjutada, kasutades funktsiooni Excelis redigeerimine.
+4.  Klõpsake kiirkaardil **Pildi URL-ide loomine Exceli jaoks** suvandit **Loo**. **Oluline.** Alati kui meediamalli muudetakse, peate klõpsama suvandit **Loo**, enne kui saate kasutada funktsiooni Excelis redigeerimine. [![excel1](./media/excel1.jpg)](./media/excel1.jpg) Näete nüüd eelvaadet pildi URL-idest, mis loodi viimase salvestatud meediamalli alusel. [![excel2](./media/excel2.png)](./media/excel2.png) **Märkus** Excelile loodud URL-id kasutavad määratletud meediamallide teed ja tavasid. Tavad hõlmavad tavasid failinimede osas. Eeldus on, et olete seadistanud füüsilised pildid väljaspool Dynamics 365 for Retaili ja pilte saab tuua URL-idest, mis on tuletatud varem määratletud meediamallist. Saate need tuletatud URL-id üle kirjutada, kasutades funktsiooni Excelis redigeerimine.
 5.  Klõpsake funktsiooni **Excelis redigeerimine**.
 6.  Pärast Microsoft Exceli töölehe avamist klõpsake viiba avanemisel suvandit **Luba redigeerimine**.
 7.  Kui küsitakse, klõpsake parempoolsel paanil suvandit **Usalda seda lisandmoodulit** ja oodake, et lisandmoodul installimise lõpetaks. [![Usalda seda lisandmoodulit](./media/excel4.jpg)](./media/excel4.jpg)

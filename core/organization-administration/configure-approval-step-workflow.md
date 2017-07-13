@@ -3,13 +3,13 @@ title: "Töövoo kinnitusetapi konfigureerimine"
 description: See teema selgitab, kuidas konfigureerida kinnitusetapi atribuute.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 61b3107516c7af8d1c0f4c427bdffa9be0fbc18d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -126,10 +126,10 @@ Järgige neid etappe, et määrata, kellele kinnitusetapp tuleb määrata.
     </tr>
     <tr class="even">
     <td>Kasutaja</td>
-    <td>Kindlad Microsoft Dynamics 365 for Operationsi kasutajad</td>
+    <td>Kindlad Microsoft Dynamics 365 for Finance and Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele etapp määrata, ja liigutage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Finance and Operationsi kasutajaid. Valige kasutajad, kellele etapp määrata, ja liigutage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +229,10 @@ Kui kasutaja ei reageeri dokumendile määratud aja jooksul, siis on dokument hi
     </tr>
     <tr class="odd">
     <td>Kasutaja</td>
-    <td>Kindlad Dynamics 365 for Operationsi kasutajad</td>
+    <td>Konkreetsed Finance and Operationsi kasutajad</td>
     <td><ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Operationsi kasutajaid. Valige kasutajad, kellele dokumenti laiendada ja liigutage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Finance and Operationsi kasutajaid. Valige kasutajad, kellele dokumenti laiendada ja liigutage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

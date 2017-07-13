@@ -1,15 +1,15 @@
 ---
 title: "Üksik mitme kliendi- või hankijakirjega kanne"
-description: "See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Operations tulevastes versioonides, mille tulemusena me ei soovita me kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile."
+description: "See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition tulevastes versioonides, mille tulemusena me ei soovita me kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Operations tulevastes versioonides, mille tulemusena me ei soovita me kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile. 
+See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition tulevastes versioonides, mille tulemusena me ei soovita me kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile. 
 
 Mõned levinumad süsteemid, kus üht kannet kasutatakse mitme kliendi või hakija jaoks, hõlmavad saldo ülekandeid klientide vahel ja saldode tasaarveldust klientide ja hankijate vahel samas organisatsioonis. 
 
@@ -162,7 +162,7 @@ Nüüd kui makstakse INV2, tehakse järgmine kirje. Pange tähele, et vahetuskur
 | 14000056    | 200110-001- | Hankija saldo     |                                          | -2.00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Üks kanne saldo ülekannete ja tasaarvelduse stsenaariumide jaoks
-Kaks levinumalt kasutatud stsenaariumit, mis kasutavad üht mitut klienti või hankijat sisaldavat kannet, hõlmavad saldo ülekandeid ühelt kliendilt/hankijalt teisele kliendile/hankijale ja sama organisatsiooni kliendi ja hankija tasaarveldamist. Kaks järgmist näidet kirjeldavad eelistatud meetodit nende stsenaariumide sisestamiseks rakendusse Dynamics 365 for Operations, alternatiivina nende sisestamisele ühte kandesse. 
+Kaks levinumalt kasutatud stsenaariumit, mis kasutavad üht mitut klienti või hankijat sisaldavat kannet, hõlmavad saldo ülekandeid ühelt kliendilt/hankijalt teisele kliendile/hankijale ja sama organisatsiooni kliendi ja hankija tasaarveldamist. Kaks järgmist näidet kirjeldavad eelistatud meetodit nende stsenaariumide sisestamiseks rakendusse Dynamics 365 for Finance and Operations, alternatiivina nende sisestamisele ühte kandesse. 
 
 *Saldo ülekanne* on üks mitme kliendiga kanne, mis on sisestatud eesmärgil kanda saldo ühelt kliendilt teisele kliendile üle (sama hankijatele) See stsenaarium võib esineda, kui vastutus arve maksmise eest nihkub teisel osapoolele, näiteks tütarettevõte nihutab vastutuse emaettevõttele. 
 
@@ -176,7 +176,7 @@ Kirjeldamiseks eeldame, et järgmine müük tehakse kliendile ACME. Järgmised r
 | 401100-002-023-    | Tulu          |           | 100        |
 | 130100-002-        | Kliendi saldo | 100       |            |
 
-Järgmisena kannab kasutaja ACME-lt nõutava saldo üle kindlustusettevõttele müügireskontro maksetöölehel ühes kandes. Rakenduses Dynamics 365 for Operations on kindlustusettevõte seadistatud kui kliendi kindlustus.
+Järgmisena kannab kasutaja ACME-lt nõutava saldo üle kindlustusettevõttele müügireskontro maksetöölehel ühes kandes. Rakenduses Finance and Operations on kindlustusettevõte seadistatud kui kliendi kindlustus.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

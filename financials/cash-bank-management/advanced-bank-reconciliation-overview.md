@@ -3,7 +3,7 @@ title: "Pangakonto täpsema vastavusseviimise ülevaade"
 description: "Selles artiklis kirjeldatakse täpsema panga vastavusseviimise protsessi voogu. Täpsema panga vastavusseviimise funktsiooni abil saate importida pangaväljavõtteid, mida saab automaatselt pangakannetes vastavusse viia."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: deba55d5e1e376f3f4063f372bfe853fcaf20498
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 67cd622d7766e5b177ccc58398431b007e8bda4e
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,12 +42,12 @@ Pangakonto täpsema vastavusseviimise funktsioon võimaldab teil pangaväljavõt
     -   Funktsiooni saab laiendada mis tahes vormingusse.
 
 2.  Pangakonto täpsema vastavusseviimise puhul kasutatava numbriseeria seadistamine ja pangakonto vastavusseviimise vastendusreeglite määratlemine.
-    -   Vastavusseviimise vastendusreegel on komplekt kriteeriume, mida kasutatakse pangaväljavõtte ja Microsoft Dynamics 365 for Operationsi pangakande ridade filtrimiseks vastavusseviimise protsessi ajal. Olenevalt oma äritavast saate vastavusseviimise protsessi automatiseerimiseks ja optimeerimiseks seadistada rohkem kui ühe vastendusreegli.
+    -   Vastavusseviimise vastendusreegel on komplekt kriteeriume, mida kasutatakse pangaväljavõtte ja Microsoft Dynamics 365 for Finance and Operationsi, Enterprise edition, pangakande ridade filtrimiseks vastavusseviimise protsessi ajal. Olenevalt oma äritavast saate vastavusseviimise protsessi automatiseerimiseks ja optimeerimiseks seadistada rohkem kui ühe vastendusreegli.
 
-3.  Pangaväljavõtete vastavusseviimine Microsoft Dynamics 365 for Operationsi pangakannetega.
+3.  Pangaväljavõtete vastavusseviimine Finance and Operationsi pangakannetega.
     -   Vastavusseviimise töölehtede automaatne võrdlemine ja loomine.
-    -   Pangaväljavõtete ja Microsoft Dynamics 365 for Operationsi pangakannete kuvamine kõrvuti.
-    -   Microsoft Dynamics 365 for Operationsi pangakannete automaatne sisestamine, kui need kuvatakse pangaväljavõttel, kuid ei kuvata Dynamics 365 for Operationsis.
+    -   Pangaväljavõtete ja Finance and Operationsi pangakannete kuvamine kõrvuti.
+    -   Finance and Operationsi pangakannete automaatne sisestamine, kui need kuvatakse pangaväljavõttel, kuid ei kuvata Finance and Operationsis.
     -   Vastavusseviimiseks väljavõtte loomine.
 
 

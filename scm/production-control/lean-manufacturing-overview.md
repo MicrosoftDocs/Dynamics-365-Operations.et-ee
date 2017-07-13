@@ -1,9 +1,9 @@
 ---
 title: "Lean manufacturingi ülevaade"
-description: "See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Microsoft Dynamics AX."
+description: "See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd29e601cb78b6903e09e63182196427183f6dbe
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,17 +33,17 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Microsoft Dynamics AX.
+See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 Lean manufacturing pakub tööriistu, mida saate säästlike operatsioonide modelleerimiseks kasutada. Nende tööriistad toetavad ja soodustavad järgmisi mõisteid ning äritegevusi.
 -   Lean manufacturingi aluse loomine, modelleerides tootmis- ja logistikaprotsesse tootmisvoogudena.
 -   Säästliku tõmbesüsteemi rakendamine, kasutades kanbane nõudluse nõuete tähistamiseks.
 -   Kanban-tööde jälgimine ja haldamine.
 
-Lean manufacturingi arhitektuur rakenduses Microsoft Dynamics AX 7 koosneb tootmisvoogudest, tegevustest ja kanban-reeglitest. Need struktuurid on täielikult integreeritud Microsoft Dynamics AX 7 protsessidega. Saate kasutada lean manufacturingi kombineeritud tootmiskeskkonnas, mis ühendab mitmesugused tarne-, tootmis- ja hankestrateegiad. Need strateegiad hõlmavad tootmistellimusi, protsessi haru partiitellimusi, ostutellimusi ja üleviimistellimusi.
+Lean manufacturingi arhitektuur rakenduses Finance and Operations koosneb tootmisvoogudest, tegevustest ja kanban-reeglitest. Need struktuurid on Finance and Operationsi protsessidega täielikult integreeritud. Saate kasutada lean manufacturingi kombineeritud tootmiskeskkonnas, mis ühendab mitmesugused tarne-, tootmis- ja hankestrateegiad. Need strateegiad hõlmavad tootmistellimusi, protsessi haru partiitellimusi, ostutellimusi ja üleviimistellimusi.
 | **Oluline**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Microsoft Dynamics AX 7 abil saate toetada lean manufacturingi rakendamist kanbanidega. Kuid kulusäästlike põhimõtete edukas rakendamine sõltub siiski sisemistest äriprotsessidest, mida kasutatakse, ning tegelikest tootmistingimustest ja -keskkonnast. |
+| Finance and Operationsi abil saate toetada lean manufacturingi rakendamist kanbanidega. Kuid kulusäästlike põhimõtete edukas rakendamine sõltub siiski sisemistest äriprotsessidest, mida kasutatakse, ning tegelikest tootmistingimustest ja -keskkonnast. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a> Tootmis- ja logistikaprotsesside modelleerimine tootmisvoogudena
 Lean manufacturingi aluse loomiseks modelleerige tootmis- ja logistikaprotsessid tootmisvoogudena. Selle tegevus koosneb järgmistest ülesannetest.
@@ -71,8 +71,8 @@ Järgmises loendis kirjeldatakse spetsiaalseid kanban-tahvleid.
 -   Kanban-tahvel ülekandetööde jaoks – see tahvel annab ülevaate jooksvatest ülekandetöödest. Saate komplekteerimislehti uuendada ja registreerida, ülekandetöid käivitada ja lõpetada ning teha muid toiminguid.
 -   Kanban-tahvel protsessitööde jaoks – see tahvel on mõeldud tavalise tootmisvoo toetamiseks ja ülevaate andmiseks jooksvast olukorrast ühes või mitmes töörakus. Sellelt tahvlilt saab Kanbane prioritiseerida, komplekteerida või toota. Tahvel on mõeldud ka vöötkoodi skannimise toetamiseks Kanbanide aruande koostamisel.
 
-## <a name="kanban-jobs-and-integration-with-microsoft-dynamics-ax-processes"></a> Kanban-tööd ja integreerimine Microsoft Dynamics AX-i protsessidega
-Kanban-tööd on täielikult integreeritud praeguste laokannete protsessidega Microsoft Dynamics AX-is.
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Kanban-tööd ja integreerimine Finance and Operationsi protsessidega
+Kanban-tööd on täielikult integreeritud praeguste laokannete protsessidega Finance and Operationsis.
 -   Saate teha komplekteerimistegevusi kanban-tööde nõuete täitmiseks kasutatud materjali täiendamiseks.
 -   Saate printida kanban-kaarte, ringlevaid kanban-kaarte ja komplekteerimislehti kanbanide kasutamise toetamiseks. Neid dokumente kasutatakse kanban-tööde kajastamiseks, jälgimiseks ja registreerimiseks laos ja tootmisosakonnas.
 -   Laos toimuvaid komplekteerimis- ja ülekandetegevusi saab registreerida vöötkoode skannides.

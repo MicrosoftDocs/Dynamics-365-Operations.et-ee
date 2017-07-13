@@ -3,14 +3,14 @@ title: "Laotöölehed"
 description: "Selles artiklis kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 Selles artiklis kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks. 
 
-Laotöölehti kasutatakse rakenduses Microsoft Dynamics 365 for Operationsis mitmesuguste füüsiliste laokannete sisestamiseks, nt väljaminekute ja sissetulekuste, varude liikumiste, koosluste loomise ja füüsiliste varude vastavusseviimise sisestamiseks. Kõiki neid laotöölehti kasutatakse sarnasel viisil, kuid need on jagatud erinevateks tüüpideks.
+Laotöölehti kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operationsis mitmesuguste füüsiliste laokannete sisestamiseks, nt väljaminekute ja sissetulekuste, varude liikumiste, koosluste loomise ja füüsiliste varude vastavusseviimise sisestamiseks. Kõiki neid laotöölehti kasutatakse sarnasel viisil, kuid need on jagatud erinevateks tüüpideks.
 
 ## <a name="types-of-inventory-journals"></a>Laotöölehtede tüübid
 Saadaval on järgmist tüüpi laotöölehti.
@@ -68,7 +70,7 @@ Kui kinnitate koosluse lõpetatuks, saate luua koosluse töölehe. Koosluse tö�
 
 ### <a name="item-arrival"></a>Kauba saabumine
 
-Saate kasutada kauba saabumistöölehte kaupade sissetuleku registreerimiseks (nt ostutellimustelt). Kauba saabumistöölehe saab luua saabumise haldamise käigus lehelt **Saabumisülevaade** või töölehe sisestuse saab luua käsitsi lehelt **Kauba saabumine**. Kui lubate kauba saabumise töölehe nime puhul komplekteerimiskohtade otsimise, otsib Dynamics 365 for Operations saadud kaupade asukohta ja kui ruumi on, loob sissetulevatele kaupadele sihtkohad.
+Saate kasutada kauba saabumistöölehte kaupade sissetuleku registreerimiseks (nt ostutellimustelt). Kauba saabumistöölehe saab luua saabumise haldamise käigus lehelt **Saabumisülevaade** või töölehe sisestuse saab luua käsitsi lehelt **Kauba saabumine**. Kui lubate kauba saabumise töölehe nime puhul komplekteerimiskohtade otsimise, otsib Finance and Operations saadud kaupade asukohta ja kui ruumi on, loob sissetulevatele kaupadele sihtkohad.
 
 ### <a name="production-input"></a>Materjalid tootmisse
 
