@@ -3,14 +3,14 @@ title: Elektroonilise aruandluse sihtkohad
 description: "Saate konfigureerida sihtkoha igale elektroonilise aruandluse (ER) vormingu konfiguratsioonile ja selle väljundi komponendile (kaust või fail). Kasutajad, kellele on antud sobilikud juurdepääsuõigused, võivad sihtkoha sätteid ka käitusajal muuta. Selles artiklis selgitatakse ER-i sihtkoha haldust, toetatud sihtkohtade tüüpe ja turbekaalutlusi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ Saate konfigureerida sihtkoha igale elektroonilise aruandluse (ER) vormingu konf
 Elektroonilise aruandluse (ER) vormingu konfiguratsioonid sisaldavad tavaliselt vähemalt ühte väljundkomponenti: faili. Tavaliselt sisaldavad konfiguratsioonid mitut erinevat tüüpi faili väljundkomponenti (nt XML, TXT või XLSX), mis on rühmitatud ühte või mitmesse kausta. ER-i sihtkoha haldus võimaldab eelkonfigureerida, mis iga komponendi käitamisel toimub. Vaikimisi kuvatakse konfiguratsiooni käivitamisel dialoogiboks, mis võimaldab kasutajal faili salvestada või avada. Sama toimub ka siis, kui importida ER-i konfiguratsioon ja mitte konfigureerida sellele ühtegi konkreetset sihtkohta. Pärast peamisele väljundkomponendile sihtkoha loomist alistab see sihtkoht vaikekäitumise ja kaust või fail saadetakse sihtkoha sätete kohaselt.
 
 ## <a name="availability-and-general-prerequisites"></a>Kättesaadavus ja üldised eeltingimused
-Elektroonilise aruandluse sihtkohtade funktsioon ei ole saadaval Microsoft Dynamics 365 for Operationsi versioonis 7.0 (veebruar 2016). Seetõttu peate kõigi selles teemas kirjeldatud funktsioonide kasutamiseks installima Microsoft Dynamics 365 for Operationsi (2016. aasta novembri väljalase). Teine võimalus on installida üks järgmistest eeltingimustest. Võtke siiski arvesse, et sellisel juhul on elektroonilise aruandluse sihtkohtade funktsionaalsus piiratud.
+ER-i sihtkohtade funktsioon ei ole saadaval Microsoft Dynamics AX-i versioonis 7.0 (veebruar 2016). Seetõttu peate kõigi selles teemas kirjeldatud funktsioonide kasutamiseks installima Microsoft Dynamics 365 for Operationsi versiooni 1611 (2016. aasta novembrist). Teine võimalus on installida üks järgmistest eeltingimustest. Võtke siiski arvesse, et sellisel juhul on elektroonilise aruandluse sihtkohtade funktsionaalsus piiratud.
 
--   Rakenduse Microsoft Dynamics 365 for Operations versioon 7.0.1 (mai 2016)
+-   Microsoft Dynamics AX-i versioon 7.0.1 (mai 2016)
 -   ER-i sihtkoha halduse [rakenduse kiirparandus](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Võite seadistada sihtkohad ainult imporditud ER-i konfiguratsioonidele ja vormingutele, mis on saadaval lehel **Elektroonilise aruandluse konfiguratsioonid**.
@@ -61,7 +61,7 @@ Toetatakse mitmesugust tüüpi sihtkohti. Saate keelata või lubada kõik tüüb
 
 ### <a name="email-destination"></a>Meili sihtkoht
 
-Määrake valiku **Lubatud**väärtuseks **Jah** väljundfaili saatmiseks meiliga. Kui see valik on lubatud, saate määrata meili adressaadid ning redigeerida meilisõnumi teemat ja kehateksti. Saate seadistada meilide teema ja kehateksti jaoks püsiteksti või kasutada meilitekstide loomiseks elektroonilise aruandluse valemeid. Elektroonilise aruandluse meiliaadresside konfigureerimiseks on kaks võimalust. Konfiguratsiooni saab lõpule viia samamoodi, nagu prindihalduse funktsiooni puhul teenuses rakenduses Dynamics 365 for Operations. Teine võimalus on lahendada meiliaadress otseviitega elektroonilisele aruandlusele valemi kaudu.
+Määrake valiku **Lubatud** väärtuseks **Jah** väljundfaili saatmiseks meiliga. Kui see valik on lubatud, saate määrata meili adressaadid ning redigeerida meilisõnumi teemat ja kehateksti. Saate seadistada meilide teema ja kehateksti jaoks püsiteksti või kasutada meilitekstide loomiseks elektroonilise aruandluse valemeid. Elektroonilise aruandluse meiliaadresside konfigureerimiseks on kaks võimalust. Konfiguratsiooni saab lõpule viia samamoodi, nagu prindihalduse funktsiooni puhul rakenduses Finance and Operations. Teine võimalus on lahendada meiliaadress otseviitega elektroonilisele aruandlusele valemi kaudu.
 
 ### <a name="email-address-types"></a>Meiliaadressi tüübid
 
@@ -89,15 +89,15 @@ Kasutage seda meilitüüpi, kui kasutataval konfiguratsioonil on andmeallikates 
 
 [![Meiliaadressi andmeallika määramine meilisihtkohale](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Märkus.** Simple Mail Transfer Protocoli (SMTP) server peab olema konfigureeritud ja saadaval. Saate määrata oma SMTP-serveri Dynamics 365 for Operationsi jaotises **Süsteemihaldus** &gt; **Seadistus** &gt; **Meil** &gt; **Meiliparameetrid**.
+**Märkus.** Simple Mail Transfer Protocoli (SMTP) server peab olema konfigureeritud ja saadaval. Saate määrata oma SMTP-serveri Finance and Operationsi jaotises **Süsteemihaldus** &gt; **Seadistus** &gt; **Meil** &gt; **Meiliparameetrid**.
 
 ### <a name="archive-destination"></a>Arhiivi sihtkoht
 
-Selle valiku abil saab saata väljundi Microsoft SharePointi kausta või Microsoft Azure’i salvestusruumi. Määrake valiku **Lubatud** väärtuseks **Jah**väljundi saatmiseks valitud dokumenditüübiga määratletud sihtkohta. Valida saab ainult neid dokumenditüüpe, millel grupiks on määratud **Fail**. Dokumenditüübid saate määratleda jaotises **Organisatsiooni haldus** &gt; **Dokumendihaldus** &gt; **Dokumenditüübid**. ER-i sihtkohtade konfiguratsioon on sama, mis dokumendihaldussüsteemi konfiguratsioon.
+Selle valiku abil saab saata väljundi Microsoft SharePointi kausta või Microsoft Azure’i salvestusruumi. Määrake valiku **Lubatud** väärtuseks **Jah** väljundi saatmiseks valitud dokumenditüübiga määratletud sihtkohta. Valida saab ainult neid dokumenditüüpe, millel grupiks on määratud **Fail**. Dokumenditüübid saate määratleda jaotises **Organisatsiooni haldus** &gt; **Dokumendihaldus** &gt; **Dokumenditüübid**. ER-i sihtkohtade konfiguratsioon on sama, mis dokumendihaldussüsteemi konfiguratsioon.
 
 [![Leht Dokumenditüübid](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-Asukoht määrab, kuhu fail salvestatakse. Kui sihtkoht **Arhiiv** on lubatud, saab konfiguratsiooni käivitamise tulemused salvestada tööarhiivi. Tulemusi saate vaadata jaotises **Organisatsiooni haldus** &gt; **Elektrooniline aruandlus** &gt; **Elektroonilise aruandluse arhiivitud tööd**. **Märkus.** Tööarhiivi jaoks saate dokumenditüübi valida Dynamics 365 for Operationsi jaotises **Organisatsiooni haldus** &gt; **Tööruumid** &gt; **Elektrooniline aruandlus** &gt; **Elektroonilise aruandluse parameetrid**.
+Asukoht määrab, kuhu fail salvestatakse. Kui sihtkoht **Arhiiv** on lubatud, saab konfiguratsiooni käivitamise tulemused salvestada tööarhiivi. Tulemusi saate vaadata jaotises **Organisatsiooni haldus** &gt; **Elektrooniline aruandlus** &gt; **Elektroonilise aruandluse arhiivitud tööd**. **Märkus.** Tööarhiivi jaoks saate dokumenditüübi valida Finance and Operationsi jaotises **Organisatsiooni haldus** &gt; **Tööruumid** &gt; **Elektrooniline aruandlus** &gt; **Elektroonilise aruandluse parameetrid**.
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -119,7 +119,7 @@ Kui määrate valiku **Lubatud** väärtuseks **Jah**, luuakse väljundi eelvaad
 
 ### <a name="power-bi-destination"></a>Sihtkoht Power BI
 
-Kui määrate valiku **Lubatud** väärtuseks **Jah**, saate oma elektroonilise aruandluse konfiguratsiooni abil korraldada andmete üleviimine teie Dynamics 365 for Operationsi eksemplarist Microsoft Power BI teenustesse. Edastatud failid talletatakse Microsoft SharePoint Serveri eksemplari, mis on selleks otstarbeks konfigureeritud. Lisateavet vt teemast [Elektroonilise aruandluse konfiguratsiooni kasutamine Power BI-le andmete esitamiseks rakendusest Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Vihje.** Vaikekäitumise (st konfigureerimise dialoogiboksi) alistamiseks võite luua peamisele väljundkomponendile sihtkoha viite ja faili sihtkoha ning keelata siis kõik sihtkohad.
+Kui määrate valiku **Lubatud** väärtuseks **Jah**, saate oma elektroonilise aruandluse konfiguratsiooni abil korraldada andmete üleviimine teie Finance and Operationsi eksemplarist Microsoft Power BI teenustesse. Edastatud failid talletatakse Microsoft SharePoint Serveri eksemplari, mis on selleks otstarbeks konfigureeritud. Lisateavet vt teemast [Elektroonilise aruandluse konfiguratsiooni kasutamine Power BI-le andmete esitamiseks rakendusest Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Vihje.** Vaikekäitumise (st konfigureerimise dialoogiboksi) alistamiseks võite luua peamisele väljundkomponendile sihtkoha viite ja faili sihtkoha ning keelata siis kõik sihtkohad.
 
 ## <a name="security-considerations"></a>Turbemeetmed
 ER-i sihtkohtade puhul kasutatakse kahesuguseid õigusi ja kohustusi. Üks neist juhib võimalust hallata üldisi juriidilisele isikule konfigureeritud sihtkohti (st juurdepääsu lehele **Elektroonilise aruandluse sihtkohad**). Teine juhib rakenduse kasutaja võimalust alistada käitusajal sihtkoha sätted, mille on konfigureerinud ER-i arendaja või ER-i funktsionaalne konsultant.

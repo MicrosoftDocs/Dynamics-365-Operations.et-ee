@@ -3,27 +3,26 @@ title: "Kõnekeskuse kataloogi loomine"
 description: "See artikkel annab ülevaate kõnekeskusele kataloogi loomise protsessist."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef58d4b2028aee5bccd9f060abed8342381888eb
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28aaa84c11a897b895b2a106ca5f0cd6168997b2
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 See artikkel annab ülevaate kõnekeskusele kataloogi loomise protsessist. 
 
-Kõnekeskuses saate kasutada tootekatalooge, et tuvastada tooteid, mida soovite klientidele pakkuda. Kõnekeskused kasutavad tavaliselt prinditud katalooge. Trükitud kataloogi kujundust ja tootmist hallatakse väljaspool Microsoft Dynamics 365 for Operationsit. Siiski saate luua ja talletada kataloogi digitaalse vormi Microsoft Dynamics 365 for Operationsi moodulis Jaemüük ja kaubandus, kasutades samu vorme, mida kasutate võrgu jaemüügikataloogide seadistamiseks. Enne kataloogi loomist tuleb seadistada toote sortimendid ja määrata sortimendid kõnekeskusele. Seejärel saate lisada tooteid kataloogi, valides need sortimentidest. Pärast toodete lisamist kataloogi ja kataloogi lõpetamist tuleb kataloog andmete õigsuse kontrollimiseks kinnitada. Seejärel tuleb kataloog ülevaatamiseks ja heakskiitmiseks esitada. Kui kataloog on kinnitatud, võib selle avaldada. Kui kõnekeskuse kataloog on loodud, saate kataloogi avaldamise hetkel kataloogi andmetest hetktõmmise teha. See hetktõmmise funktsioon võimaldab juurdepääsu kataloogi konkreetsele versioonile isegi siis, kui kataloogi hiljem muudetakse ja uuendatakse. Kõnekeskuse kataloogid saab seadistada ka nii, et neis sisalduvad järgmised valikulised funktsioonid.
+Kõnekeskuses saate kasutada tootekatalooge, et tuvastada tooteid, mida soovite klientidele pakkuda. Kõnekeskused kasutavad tavaliselt prinditud katalooge. Trükitud kataloogi kujundust ja tootmist hallatakse väljaspool Microsoft Dynamics 365 for Retaili. Kuid saate luua ja talletada kataloogi digitaalse vormi, kasutades samu vorme, mida kasutate võrgus jaemüügikataloogide seadistamiseks. Enne kataloogi loomist tuleb seadistada toote sortimendid ja määrata sortimendid kõnekeskusele. Seejärel saate lisada tooteid kataloogi, valides need sortimentidest. Pärast toodete lisamist kataloogi ja kataloogi lõpetamist tuleb kataloog andmete õigsuse kontrollimiseks kinnitada. Seejärel tuleb kataloog ülevaatamiseks ja heakskiitmiseks esitada. Kui kataloog on kinnitatud, võib selle avaldada. Kui kõnekeskuse kataloog on loodud, saate kataloogi avaldamise hetkel kataloogi andmetest hetktõmmise teha. See hetktõmmise funktsioon võimaldab juurdepääsu kataloogi konkreetsele versioonile isegi siis, kui kataloogi hiljem muudetakse ja uuendatakse. Kõnekeskuse kataloogid saab seadistada ka nii, et neis sisalduvad järgmised valikulised funktsioonid.
 
 -   **Lähtekoodid** – koodid, mida kasutatakse kliendi reageeringu jälgimiseks konkreetsetele kataloogipostitustele.
 -   **Tasuta tooted** – kliendi tellimusse lisatasudeta kaasatud tooted. Need tooted lisatakse kataloogi lähtekoodi tellimusse sisestamisel automaatselt tellimusele.

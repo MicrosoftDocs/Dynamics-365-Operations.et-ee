@@ -1,15 +1,15 @@
 ---
-title: Workforce Metrics Power BI sisu
-description: "See teema kirjeldab Dynamics 365 for Operationsi – Workforce Metrics Power BI sisu. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisupaketi loomiseks kasutati."
-author: twheeloc
+title: "Tööjõu mõõdikute Power BI sisu"
+description: "Selles teemas kirjeldatakse tööjõu mõõdikute Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations, Talent, Core
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
@@ -17,85 +17,81 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2a3f611d29e041a5f05e3f93fd2330f4218b9dd1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1f732a53eee17317417058b92706a9228d783cb5
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="workforce-metrics-power-bi-content"></a>Workforce Metrics Power BI sisu
+# <a name="workforce-metrics-power-bi-content"></a>Tööjõu mõõdikute Power BI sisu
 
 [!include[banner](../includes/banner.md)]
 
+Selles teemas kirjeldatakse **tööjõu mõõdikute** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
-See teema kirjeldab Dynamics 365 for Operationsi – Workforce Metrics Power BI sisu. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisupaketi loomiseks kasutati.
+## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
+**Tööjõu mõõdikute** Power BI sisu kuvatakse tööruumis **Personalijuhtimine**, kui kasutate ühte järgmistest toodetest:
 
-<a name="accessing-the-content-pack"></a>Juurdepääs sisupaketile
---------------------------
+- Lahenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni 2017. aasta juuli värskendus
+- Microsoft Dynamics 365 for Talent
 
-Tööjõu mõõdikute sisupaketi leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisupaketi allalaadimise ja selle ühendamise kohta Microsoft Dynamics 365 for Operationsi andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
+Järgmine tabel loetleb igas aruandes kuvatavad mõõdikud.
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad aruanded
-Pärast sisupaketi ühendamist Dynamics 365 for Operationsi andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet jaotisest [Power BI juhendatud õpe](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
-
-| Aruanne                                           | Sisu                                                                                                                                                                                                            |
+| Aruanne                                           | Mõõdikud                                                                                                                                                                                                            |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Inimeste mõõdikud                                   | Teiste aruannete kokkuvõte                                                                                                                           |
 | Headcount Analysis Company, osakond, asukoht | Töötajate arv ettevõtte, osakonna ja asukoha järgi ning töötajate koguarv.                                                                                                                           |
 | Töötajate koguarvu analüüsitöö, etapp, juhataja            | Töötajate arv töökoha, etapi ja halduri järgi ning töötajate koguarv                                                                                                                                      |
 | Töötajate koguarvu suundumuste analüüs                         | Töötajate koguarv sellel aastal vs eelmisel aastal ettevõtte järgi ja töötajate koondarv viimase 12 kuu kohta                                                                                                                        |
-| Tööjõu demograafilised andmed                           | Töötajate arv vanuse ja soo, etnilise päritolu, veteranistaatuse ja perekonnaseisu järgi, täiskohaga õpilaste arv, keskmine ametiaeg, keskmine vanus ning naissoost ja meessoost töötajate suhe. |
+| TTE analüüs                                     | Täistööaja ekvivalent kokku (TTE), määratud TTE kokku, TTE osakondade kaupa, TTE viimase 12 kuu kohta ja TTE töö kohta |
+| Tööjõu demograafilised andmed                           | Töötajate arv vanuse ja soo, etnilise päritolu, veteranistaatuse ja perekonnaseisu järgi, täiskohaga õpilaste arv, keskmine ametiaeg, keskmine vanus, naissoost ja meessoost töötajate suhtarv ning keeled, mida töötajad räägivad |
 | Ametikohaanalüüs                                | Avatud ametikohad osakonna järgi, täitmiseks avatud ametikohad, aktiivsed kuni mitteaktiivsed ametikohad ja ametikohad osakonna järgi                                                                                                   |
-| Kinnipidamise analüüs                               | Kinnipidamine sellel aastal vs eelmisel aastal, kinnipidamine, lahkuvate inimeste keskmine ametiaeg, lahkuvate inimeste keskmine vanus ja töötajate lahkumise põhjus                                                                   |
+| Kinnipidamise analüüs                               | Kinnipidamine sellel aastal vs eelmisel aastal, kinnipidamine, lahkuvad töötajad vanuse ja soo järgi, lahkuvate töötajate keskmine ametiaeg, sel kuul lahkuvad töötajad ja lahkuvad töötajad põhjuse järgi                                                                   |
 | Inimesed osakonniti                             | Personalinumbriga töötajad osakonna, ametikoha ja määramise algus- ja lõppkuupäevade alusel                                                                                                                       |
-| Staažianalüüs                               | Teenuse keskmised aastad ettevõtte ja staažiloendi alusel                                                                                                                                                              |
-| Tähtpäevad ja töötamise aastad               | Töötajad tööaastate arvu ja aastapäevade alusel                                                                                                                                                                    |
+| Staažianalüüs                               | Keskmine ametiaeg, keskmine tööaastate arv ettevõtte järgi ja staažiloend                                                                                                                                                              |
+| Töötaja tähtpäevad                           | Tähtpäevi sellel kuul, tähtpäevi järgmisel kuul, töötajad tööaastate järgi ja tähtpäevad, tööaastad osakonna järgi                                                                                                                                                                    |
+| Töötajate sünnipäevad                               | Sünnipäevad sellel kuul, sünnipäevad järgmisel kuul, töötajate sünnipäevad ja sünnipäevad kuu ning osakonna järgi                                                                                                                                                                    |
+| Hulgivärbamisprojektid                               | Hulgivärbamisprojekte kokku, hulgivärbamisprojektid oleku järgi, hulgivärbamisprojektid osakonna ja omaniku järgi, hulgivärbamisprojektid töö järgi ja hulgivärbamisprojektid                                                                                                                                                                    |
 
 Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
+## <a name="extending-the-power-bi-content"></a>Power BI sisu laiendamine
+Kasutades teenuses Microsoft Dynamics Lifecycle Services (LCS) olevaid sisupakette, saate pakkuda suurepäraseid analüüsivõimalusi inimestele, kes rakendusse Finance and Operations sisse ei logi. Neid sisupakette saab muuta nii, et need sisaldaksid teisi aruandeid või visuaale, ja avaldada siis sisupaketid analüüsimiseks Power BI.com-i rentnikus.
+
+Power BI sisu **Tööjõu mõõdikud** leiate LCS-i ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+
+Laadige kindlasti alla **tööjõu mõõdikute** Power BI sisu, mis kehtib teie kasutatava Microsoft Dynamics 365 versiooni puhul.
+
+>[!NOTE]
+>Teenuses Lifecycle Services olevad PBIX-failid kehtivad ainult Finance and Operationsi puhul.
+
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Tööjõu mõõdikute sisupaketi aruannete täitmiseks kasutatakse Dynamics 365 for Operationsi andmeid. Järgmises tabelis on toodud sisupaketi aluseks olevad üksused.
+Järgmises tabelis on toodud sisu aluseks olevad üksused.
 
-| Üksus                            | Sisu                                                                                                   | Seosed teiste üksustega                                                                                                                                                                                                                                                                                                |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tööjõud\_CalendarOffset         | Kalendri tasakaalustused aruannete tükeldamiseks                                                                          | Tööjõud\_PastPositionAssignment Tööjõud\_PositionTrend Tööjõud\_WorkerTrend Tööjõud\_TerminatedWorker                                                                                                                                                                                                                     |
-| Tööjõud\_Ettevõte                | Ettevõtted, mille alusel aruandeid filtreerida                                                                             | Tööjõud\_CurrentCompensation Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                        |
-| Tööjõud\_Tasu           | Tasu määr ja sagedus aja jooksul                                                                           | Tööjõud\_CurrentCompensation Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                        |
-| Tööjõud\_CurrentCompensation    | Tasu määr ja sagedus tänase kuupäeva seisuga                                                              | Tööjõud\_Ettevõte Tööjõud\_Hüvitis Tööjõud\_Demograafia Tööjõud\_Töö Tööjõud\_Ametikoht                                                                                                                                                                                                                            |
-| Tööjõud\_CurrentPosition        | Ametikohad tänase kuupäeva seisuga, täistööaja ekvivalent (TTE), avatud ametikohad ja täitmiseks avatud ametikohad | Tööjõud\_Tööjõu töö\_Amet                                                                                                                                                                                                                                                                                               |
-| Tööjõud\_CurrentWorker          | Töötajad tänase kuupäeva seisuga, vanus ja inimeste arv                                                         | Tööjõud\_Ettevõte Tööjõud\_Hüvitis Tööjõud\_GeographicLocation Tööjõud\_Tulemus Tööjõud\_WorkerName Tööjõud\_ReportsToWorkerName Tööjõud\_WorkerTitle Tööjõud\_Demograafia Tööjõud\_Töö Tööjõud\_Tööhõive Tööjõud\_Ametikoht Tööjõud\_WorkerBenefit                                            |
-| Tööjõud\_Kuupäev                   | Päevad, nädalad, kuud ja aastad                                                                             | Tööjõud\_PastPositionAssignment Tööjõud\_PositionTrend Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                     |
-| Tööjõud\_Demograafilised andmed           | Sünnikuupäev, sugu, etniline päritolu ja perekonnaseis                                                   | Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Tööjõud\_Töösuhe             | Alguskuupäev, lõppkuupäev ja ülemineku kuupäev                                                                  | Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Tööjõud\_GeographicLocation     | Linn, maakond, sihtnumber ja osariik või provints                                                           | Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Tööjõud\_Töö                    | Funktsioon, tüüp ja ametinimetus                                                                                  | Tööjõud\_CurrentPosition Tööjõud\_CurrentWorker                                                                                                                                                                                                                                                                              |
-| Tööjõud\_JobPerferredSkill      |                                                                                                            |                                                                                                                                                                                                                                                                                                                                  |
-| Tööjõud\_PastPositionAssignment | Määramise põhjus, alguskuupäev, lõppkuupäev ja töö                                                           | Tööjõud\_CalendarOffset Tööjõud\_Kuupäev Tööjõud\_Töö Tööjõud\_Ametikoht                                                                                                                                                                                                                                                     |
-| Tööjõud\_Tulemus            | Hinnang, kirjeldus ja hinnangumudel                                                                      | Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Tööjõud\_PersonSkill            | Tase ja oskus                                                                                            | Tööjõud\_Oskus                                                                                                                                                                                                                                                                                                                 |
-| Tööjõud\_PersonSkillAnalysis    | Sertifitseeritud, tase ja oskus                                                                                | Tööjõud\_Tööjõu oskus\_WorkerName                                                                                                                                                                                                                                                                                           |
-| Tööjõud\_Amet               | Osakond, TTE, ametikoht, ametikoha tüüp ja ametinimetus                                                        | Tööjõud\_CurrentPosition Tööjõud\_CurrentWorker                                                                                                                                                                                                                                                                              |
-| Tööjõud\_PositionTrend          | Ametikohad aja jooksul, TTE ja töö                                                                          | Tööjõud\_CalendarOffset Tööjõud\_Kuupäev Tööjõud\_Töö Tööjõud\_Ametikoht                                                                                                                                                                                                                                                     |
-| Tööjõud\_ReportsToWorkerName    | Eesnimi, perekonnanimi ja täielik nimi                                                                       | Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Tööjõud\_Oskus                  | Oskus, oskuse tüüp ja hinnang                                                                              | Tööjõud\_PersonSkill Tööjõud\_PersonSkillAnalysis                                                                                                                                                                                                                                                                            |
-| Tööjõud\_TerminatedWorker       | Lõpetatud lepinguga töötajad, lepingu lõpetamise kuupäev, ametinimetus, ametikoht ja töö                                             | Tööjõud\_Ettevõte Tööjõud\_Hüvitis Tööjõud\_GeographicLocation Tööjõud\_Tulemus Tööjõud\_WorkerName Tööjõud\_ReportsToWorkerName Tööjõud\_CalendarOffset Tööjõud\_Kuupäev Tööjõud\_WorkerTitle Tööjõud\_Demograafia Tööjõud\_Tööhõive Tööjõud\_Töö Tööjõud\_Ametikoht Tööjõud\_WorkerBenefit |
-| Tööjõud\_WorkerBenefit          | Jõustumiskuupäev, eelise valik, eelise plaan ja eelise tüüp                                             | Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Tööjõud\_WorkerName             | Eesnimi, perekonnanimi ja täielik nimi                                                                       | Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend Tööjõud\_PersonSkillAnalysis                                                                                                                                                                                                                        |
-| Tööjõud\_WorkerTitle            | Ametinimetus ja staaži kuupäev                                                                                   | Tööjõud\_CurrentWorker Tööjõud\_TerminatedWorker Tööjõud\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Tööjõud\_WorkerTrend             | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                                        | Tööjõud\_Ettevõte Tööjõud\_Hüvitis Tööjõud\_GeographicLocation Tööjõud\_Tulemus Tööjõud\_WorkerName Tööjõud\_ReportsToWorkerName Tööjõud\_CalendarOffset Tööjõud\_Kuupäev Tööjõud\_WorkerTitle Tööjõud\_Demograafia Tööjõud\_Tööhõive Tööjõud\_Töö Tööjõud\_WorkerBenefit                     |
+| Üksus                   | Sisu                                                                            | Seosed teiste üksustega |
+|--------------------------|-------------------------------------------------------------------------------------|-----------------------------------|
+| Kalendri tasakaalustus          | Kalendri tasakaalustused aruannete tükeldamiseks                                                   | Varasem ametikoha määramine, ametikoha trend, töötaja trend, lõpetatud lepinguga töötaja |
+| Ettevõte                  | Ettevõtted, mille alusel aruandeid filtreerida                                                      | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
+| Praegune ametikoht         | Ametikohad tänase kuupäeva seisuga, TTE, avatud ametikohad ja täitmiseks avatud ametikohad | Töö, ametikoht |
+| Praegune töötaja         | Töötajad tänase kuupäeva seisuga, vanus ja inimeste arv                                  | Ettevõte, geograafiline asukoht, töötaja nimi, otsene juht, töötaja ametinimetus, demograafilised andmed, töö, töösuhe, ametikoht |
+| Kuupäev                     | Päevad, nädalad, kuud ja aastad                                                      | Varasem ametikoha määramine, ametikoha trend, lõpetatud lepinguga töötaja, töötaja trend |
+| Demograafilised näitajad             | Sünnikuupäev, sugu, etniline päritolu ja perekonnaseis                            | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
+| Tööhõive               | Alguskuupäev, lõppkuupäev ja ülemineku kuupäev                                           | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
+| Geograafiline asukoht      | Linn, maakond, sihtnumber ja osariik või provints                                    | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
+| Töö                      | Funktsioon, tüüp ja ametinimetus                                                           | Praegune ametikoht, praegune töötaja |
+| Varasem ametikoha määramine | Määramise põhjus, alguskuupäev, lõppkuupäev ja töö                                    | Kalendri tasakaalustus, kuupäev, töö, ametikoht |
+| Ametikoht                 | Osakond, TTE, ametikoht, ametikoha tüüp ja ametinimetus                                 | Praegune ametikoht, praegune töötaja |
+| Ametikoha trend           | Ametikohad aja jooksul, TTE ja töö                                                   | Kalendri tasakaalustus, kuupäev, töö, ametikoht |
+| Otsene juht               | Eesnimi, perekonnanimi ja täielik nimi                                                | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
+| Lõpetatud lepinguga töötaja      | Lõpetatud lepinguga töötajad, lepingu lõpetamise kuupäev, ametinimetus, ametikoht ja töö                      | Ettevõte, geograafiline asukoht, töötaja nimi, otsene juht, kalendri tasakaalustus, kuupäev, töötaja ametinimetus, demograafilised andmed, töösuhe, töö, ametikoht |
+| Töövõtja nimi            | Eesnimi, perekonnanimi ja täielik nimi                                                | Praegune töötaja, lõpetatud lepinguga töötaja, töötaja trend |
+| Töötaja ametinimetus           | Ametinimetus ja staaži kuupäev                                                            | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
+| Töötaja trend           | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                 | Ettevõte, geograafiline asukoht, töötaja nimi, otsene juht, kalendri tasakaalustus, kuupäev, töötaja ametinimetus, demograafilised andmed, töösuhe, töö |
+| Hulgivärbamisprojekt        | Hulgivärbamisprojektide arv, projekti omanik ja projekti olek                     | Ettevõte, hulgivärbamise rida |
+| Hulgivärbamise rida           | Osakond, töösuhte tüüp ja amet                                           | Kuupäev, töö, hulgivärbamisprojekt |
 
-Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Seejärel kasutatakse neid arvutatud meetmeid sisupaketis kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Aruannetesse ja armatuurlauale täiendavate arvutuste lisamiseks võite laadida LCS-ist alla ja muuta faili CompensationandBenefits.pbix. See fail on vaikeandmemudel, mida kasutati sisupaketi loomiseks. Kui muudatused on tehtud, saate luua organisatsiooni sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
-
-## <a name="additional-resources"></a>Lisaressursid
-Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
-
--   [Andmeüksused](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI paanide lisamine tööruumidele](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
-
-
-
-
+Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Seejärel kasutatakse neid arvutatud meetmeid Power BI sisus kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Aruannetesse ja armatuurlauale täiendavate arvutuste lisamiseks võite laadida PBIX-faili LCS-ist alla ja seda muuta. See fail on vaikeandmemudel, mida kasutati Power BI sisu loomiseks. Kui muudatused on tehtud, saate luua organisatsiooni sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
 

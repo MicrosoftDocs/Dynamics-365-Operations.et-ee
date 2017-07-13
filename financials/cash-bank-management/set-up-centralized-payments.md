@@ -1,6 +1,6 @@
 ---
 title: Tsentraliseeritud maksete seadistamine
-description: 
+description: "Järgige neid juhiseid, et ühes juriidilises isikus teiste organisatsiooni juriidiliste isikute nimel protsessimaksed ette valmistada."
 author: twheeloc
 manager: AnnBe
 ms.date: 05/09/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 0b33e37699fb9b81ad1803f670a4dedbce6a9c29
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
@@ -29,8 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="set-up-centralized-payments"></a>Tsentraliseeritud maksete seadistamine
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Järgige neid juhiseid, et ühes juriidilises isikus teiste organisatsiooni juriidiliste isikute nimel protsessimaksed ette valmistada. Enne alustamist tuleb järgmine seadistus lõpule viia.
@@ -53,10 +51,10 @@ Kui maksate hankijale ühelt juriidiliselt isikult ja soovite valida selle hanki
 Kui loote makse ühele juriidilisele isikule, mis tasakaalustab arveid teistele juriidilistele isikutele, peavad sisestusprofiili ID-d mõlema juriidilise isiku puhul kattuma. Maksete korrektse loomise tagamiseks seadistage igale arveldatavale juriidilisele isikule sisestusprofiil, mis vastab makse juriidilise isikuga kasutatavatele sisestusprofiilidele. Vahetage arve esimesele juriidilise isikule ja seejärel saate lehel **Hankija sisestusreeglid** luua uued sisestusreeglid või redigeerida olemasolevaid sisestusreegleid. Arve juriidilises isikus sisestusreeglitele tehtavad valikud ei pea ühtima makse juriidilises isikus olevate sisestusreeglite seadistusele.
 
 ## <a name="set-up-methods-of-payment-for-centralized-payments"></a>Seadistage makseviisid tsentraliseeritud maksetele
-Kui loote makse ühele juriidilisele isikule, mis tasakaalustab arveid teistele juriidilistele isikutele, peavad makseviiside ID-d mõlema juriidilise isiku puhul kattuma. Maksete korrektse loomise tagamiseks seadistage igale arveldatavale juriidilisele isikule makseviis, mis vastab makse juriidilise isikuga kasutatavatele makseviisidele. Minge esimesele arve juriidilisele isikule ja seejärel saate lehel **Makseviisid**luua uue makseviisi või muuta olemasolevat makseviisi. Arve juriidilise isiku makseviisi puhul tehtavad valikud ei pea ühtima makse juriidilise isiku makseviisi seadistusega.
+Kui loote makse ühele juriidilisele isikule, mis tasakaalustab arveid teistele juriidilistele isikutele, peavad makseviiside ID-d mõlema juriidilise isiku puhul kattuma. Maksete korrektse loomise tagamiseks seadistage igale arveldatavale juriidilisele isikule makseviis, mis vastab makse juriidilise isikuga kasutatavatele makseviisidele. Minge esimesele arve juriidilisele isikule ja seejärel saate lehel **Makseviisid** luua uue makseviisi või muuta olemasolevat makseviisi. Arve juriidilise isiku makseviisi puhul tehtavad valikud ei pea ühtima makse juriidilise isiku makseviisi seadistusega.
 
 ## <a name="set-up-default-descriptions"></a>Vaikekirjelduste seadistamine
-Saate määrata vaikekirjeldused kontsernisisestele tasakaalustuskannetele. Vaikekirjeldus kaasatakse kannetele, mis ollakse võlgu või mis on võlgnikult saada ettevõtetevahelise tasakaalustusprotsessi käigus. Lehel **Vaikekirjeldused** saate luua uusi kirjeldusi nii suvandite **Kontsernisisese kliendi tasakaalustus**kui ka **Kontsernisisese hankija tasakaalustus** puhul, valides keele ja sisestades seejärel teksti.
+Saate määrata vaikekirjeldused kontsernisisestele tasakaalustuskannetele. Vaikekirjeldus kaasatakse kannetele, mis ollakse võlgu või mis on võlgnikult saada ettevõtetevahelise tasakaalustusprotsessi käigus. Lehel **Vaikekirjeldused** saate luua uusi kirjeldusi nii suvandite **Kontsernisisese kliendi tasakaalustus** kui ka **Kontsernisisese hankija tasakaalustus** puhul, valides keele ja sisestades seejärel teksti.
 
 
 

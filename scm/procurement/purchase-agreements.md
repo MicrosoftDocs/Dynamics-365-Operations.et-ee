@@ -3,14 +3,14 @@ title: Ostulepingud
 description: "Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ Kui kinnitate ostulepingu, salvestatakse ostulepingu praegune versioon ajalootab
 Ostutellimuse koostamisel saate sellele ostulepingu rakendada. Lepingu tingimustest pärinev teave (nt maksetingimused, tarnetingimused ja tarneaadress) kopeeritakse siis ostutellimuse päisesse. Kui ostutellimus sisaldab vähemalt ühte rida ostulepingus määratud toodete ja kategooriate kohta, kasutatakse nende ridade puhul ostulepingu hindu ja allahindlusi. Tellimuse real olev summa või kogus panustab ostulepingu kohustuse täitmisse. Sama ostutellimus võib sisaldada mõlemat rida, mis ei ole seotud ostulepinguga ja ridadega, millel on ostulepingu kohustus.  
 
 Saate valida ostulepingu ainult ostutellimuse loomisel. Pärast ostutellimuse loomist ei saa ostulepingut valida.  
-Mõnes olukorras, kus ostutellimused luuakse kaudselt, saate määrata, kas Microsoft Dynamics 365 for Operations otsib kehtivaid ostulepinguid automaatselt. Näiteks võiksite seda teha, kui kinnitate automaatselt plaanitud ostutellimusi või loote ostutellimusi, mis põhinevad müügitellimustel.
+Mõnes olukorras, kus ostutellimused luuakse kaudselt, saate määrata, kas Finance and Operations otsib kehtivaid ostulepinguid automaatselt. Näiteks võiksite seda teha, kui kinnitate automaatselt plaanitud ostutellimusi või loote ostutellimusi, mis põhinevad müügitellimustel.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Ostulepingud ja kontsernisisene kaubandus
 Kontsernisiseseid kaubandussuhteid saab luua erinevates juriidilistes isikutes olevate hankija kontode ja kliendi kontode vahel. Kui ühele osapoolele luuakse müügi- või ostutellimus, luuakse kontsernisisene tellimusahel. Tellimusahelas luuakse müügi- ja ostutellimus sobivates juriidilistes isikutes.  

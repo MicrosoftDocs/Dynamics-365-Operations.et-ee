@@ -1,16 +1,16 @@
 ---
 title: "Kasutuskogemuse isikupärastamine"
-description: "See artikkel selgitab, kuidas Microsoft Dynamics 365 for Operationsit isikupärastada."
+description: "See artikkel selgitab, kuidas Microsoft Dynamics 365 for Finance and Operationsit isikupärastada."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysUserSetup
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 689efef6ffa10bbee30cd734f3f09ba20957834d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,31 +31,31 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel selgitab, kuidas Microsoft Dynamics 365 for Operationsit isikupärastada.
+See artikkel selgitab, kuidas Microsoft Dynamics 365 for Finance and Operationsit isikupärastada.
 
-Microsoft Dynamics 365 for Operationsis on mitut tüüpi isikupärastamisi. Mõned isikupärastamised on valikud, mille teete seadistuslehe suvandite loendis. Mõned isikupärastamised on varjatud, näiteks jälgib Dynamics 365 for Operations ruudustike veergude laiusi, kui neid korrigeerite, ja kiirkaartide laiendatud/ahendatud olekut. Muud isikupärastamised on selgesõnalised. Selgesõnaliste isikupärastamiste puhul sisenete interaktiivsesse isikupärastamise režiimi ja muudate lehe välimust, hallates otse, kuidas elemendid lehel kuvatakse või kuidas need käituvad. 
+Microsoft Dynamics 365 for Finance and Operationsis on mitut tüüpi isikupärastamisi. Mõned isikupärastamised on valikud, mille teete seadistuslehe suvandite loendis. Mõned isikupärastamised on varjatud, näiteks jälgib Finance and Operations ruudustike veergude laiusi, kui neid korrigeerite, ja kiirkaartide laiendatud/ahendatud olekut. Muud isikupärastamised on selgesõnalised. Selgesõnaliste isikupärastamiste puhul sisenete interaktiivsesse isikupärastamise režiimi ja muudate lehe välimust, hallates otse, kuidas elemendid lehel kuvatakse või kuidas need käituvad. 
 
-Igat tüüpi isikupärastamised, mille kasutaja rakenduses Dynamics 365 for Operations teeb, on ainult sellele kasutajale ega olene ettevõttest, millega kasutaja suhtleb. Kasutaja lehele tehtud muudatused ei mõjuta süsteemi teisi kasutajaid.
+Igat tüüpi isikupärastamised, mille kasutaja Finance and Operationsis teeb, on ainult sellele kasutajale ega olene ettevõttest, millega kasutaja suhtleb. Kasutaja lehele tehtud muudatused ei mõjuta süsteemi teisi kasutajaid.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Süsteemiülesed suvandid praegusele kasutajale
 Navigeerimisribal leiate hammasrattapildi, mida nimetatakse menüünupuks **Sätted**. Menüü **Sätted** avamisel kuvatakse mitu valikut. Suvandi **Sätted** valimine avab kasutaja lehe **Suvandid**. Sealt leiate neli suvandite vahekaarti: **Visuaalne**, **Eelistused**, **Konto** ja **Töövoog**.
 
--   **Visuaalne:**kasutage värvikujunduse ja lehtede elementide vaikesuuruste valimiseks.
--   **Eelistused:** siin saate valida vaikeväärtused iga kord, kui avate rakenduse Dynamics 365 for Operations, sh ettevõtte, esialgse lehe ja vaikevaate/redigeerimisrežiimi (mis määrab igal avamisel, kas leht on vaatamiseks lukus või redigeerimiseks avatud). Samuti leiate keele, ajavööndi ja kuupäeva, kellaaja ning numbrivormingute suvandid. Lisaks sisaldab see leht mitmesuguseid eelistusi, mis erinevat väljaanneti.
--   **Konto:**kasutage oma kasutaja ID ja muude kontoga seotud suvandite jaoks.
--   **Töövoog:**siin saate valida töövooga seotud suvandeid.
+-   **Visuaalne:** kasutage värvikujunduse ja lehtede elementide vaikesuuruste valimiseks.
+-   **Eelistused:** siin saate valida vaikeväärtused iga kord, kui avate rakenduse Finance and Operations, sh ettevõtte, esialgse lehe ja vaikevaate/redigeerimisrežiimi (mis määrab igal avamisel, kas leht on vaatamiseks lukus või redigeerimiseks avatud). Samuti leiate keele, ajavööndi ja kuupäeva, kellaaja ning numbrivormingute suvandid. Lisaks sisaldab see leht mitmesuguseid eelistusi, mis erinevat väljaanneti.
+-   **Konto:** kasutage oma kasutaja ID ja muude kontoga seotud suvandite jaoks.
+-   **Töövoog:** siin saate valida töövooga seotud suvandeid.
 
 ## <a name="implicit-personalizations"></a>Varjatud isikupärastamised
 Varjatud isikupärastamised on need isikupärastamised, mida teete, suheldes teatud juhtnuppudega, mis jätavad oma praeguse nähtava oleku meelde. 
 
-**Ruudustiku veerud:** saate korrigeerida veeru laiust loendis, valides veerupäisest vasakul või paremal oleva suuruse muutise riba ja libistades seda soovitud laiuse saavutamiseks vasakule või paremale. Dynamics 365 for Operations talletab soovitud laiuse ja kuvab selle veeru selle laiusega iga kord, kui avate lehe selle loendiga. 
+**Ruudustiku veerud:** saate korrigeerida veeru laiust loendis, valides veerupäisest vasakul või paremal oleva suuruse muutise riba ja libistades seda soovitud laiuse saavutamiseks vasakule või paremale. Finance and Operations talletab soovitud laiuse ja kuvab selle veeru selle laiusega iga kord, kui avate lehe selle loendiga. 
 
-**Kiirkaardid:** mõnel lehel on laiendatavad jaotised, mida nimetatakse kiirkaartideks. Dynamics 365 for Operations talletab, milliseid kiirkaarte olete laiendanud ja milliseid kiirkaarte ahendanud. Iga kord, kui lehele naasete, laiendatakse või ahendatakse neid samu kiirkaarte nende viimase kasutamise alusel. Selles artiklis selgitame, kuidas muuta kiirkaardi jaotiste järjekorda. Mõnel juhul võib kiirkaardi ahendamine jõudlust parandada, sest Dynamics 365 for Operations ei pea selle kiirkaardi teavet tooma, kuni kiirkaarti ei laiendata. 
+**Kiirkaardid:** mõnel lehel on laiendatavad jaotised, mida nimetatakse kiirkaartideks. Finance and Operations talletab, milliseid kiirkaarte olete laiendanud ja milliseid kiirkaarte ahendanud. Iga kord, kui lehele naasete, laiendatakse või ahendatakse neid samu kiirkaarte nende viimase kasutamise alusel. Selles artiklis selgitame, kuidas muuta kiirkaardi jaotiste järjekorda. Mõnel juhul võib kiirkaardi ahendamine jõudlust parandada, sest Finance and Operations ei pea selle kiirkaardi teavet tooma, kuni kiirkaarti ei laiendata. 
 
-**Kiirinfo:** mõnel lehel on jaotis, mida nimetatakse kiirinfo paaniks. See paan sisaldab kirjutuskaitstud teavet, mis on seotud lehe praeguse teemaga. Igat kiirinfo paani jaotist nimetatakse kiirinfoks. Saate kiirinfot laiendada või ahendada ja Dynamics 365 for Operations talletab teie eelistuse Mõnel juhul võib kiirinfo ahendamine jõudlust parandada, sest Dynamics 365 for Operations ei pea kiirinfo teavet tooma, kuni kiirinfot ei laiendata.
+**Kiirinfo:** mõnel lehel on jaotis, mida nimetatakse kiirinfo paaniks. See paan sisaldab kirjutuskaitstud teavet, mis on seotud lehe praeguse teemaga. Igat kiirinfo paani jaotist nimetatakse kiirinfoks. Saate kiirinfot laiendada või ahendada ja Finance and Operations talletab teie eelistuse Mõnel juhul võib kiirinfo ahendamine jõudlust parandada, sest Finance and Operations ei pea kiirinfo teavet tooma, kuni kiirinfot ei laiendata.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Selgesõnalised isikupärastamised tööriistariba Isikupärastamine kasutades
-Igal inimesel ja ettevõttel on erinev vaatenurk sellele, milline teave nende jaoks kõige olulisem on või millist teavet ei ole vaja sel moel ettevõtte juhtimisel. Võimalus kohandada seda, kuidas teave on järjestatud, kuid see suhtleb või kuidas see peidetud on, on võtmeküsimuseks Dynamics 365 for Operationsi kasutamisel isikliku ja tootliku kogemuse saamiseks. 
+Igal inimesel ja ettevõttel on erinev vaatenurk sellele, milline teave nende jaoks kõige olulisem on või millist teavet ei ole vaja sel moel ettevõtte juhtimisel. Võimalus kohandada seda, kuidas teave on järjestatud, kuid see suhtleb või kuidas see peidetud on, on võtmeküsimuseks Finance and Operationsi kasutamisel isikliku ja tootliku kogemuse saamiseks. 
 
 Selged isikupärastamised on isikupärastamised, mille teete selgelt kavatsusega elemendi või lehe välimust või käitumist muuta, valides isikupärastamise menüü. Kõige põhilisem selge isikupärastamise tüüp on see, kui paremklõpsate elementi ja teete valiku **Isikupärastamine**. (Arvestage sellega, et mitte kõiki lehel olevaid elemente ei saa isikupärastada.) Kui valite selle isikupärastamise viisi, näete elemendi atribuudi akent. 
 
@@ -67,11 +67,11 @@ Kui soovite elemente teisaldada või peita või teha mitu muudatust, saate kasut
 
 [![Isikupärastamise tööriistariba](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Isikupärastamise tööriistaribal on mitu isikupärastamistoimingut. Valige tööriist **Vali**, kui soovite valida ja muuta korraga mitme elemendi atribuute. Esmalt klõpsake tööriista Vali ja siis elementi, mille atribuute muuta soovite. Elemendi valimisel avaneb elemendi atribuutide aken ja saate muuta selle elemendi mis tahes atribuute. Saate protsessi vormi muude isikupärastatavate elementide jaoks korrata. Mõnel juhul valite elemendi ja näete, et mõned atribuudid ei ole muudetavad. See tähendab, et praeguse elemendi kasutamise alusel ei saa Dynamics 365 for Operations lasta teil atribuuti muuta. Näiteks ei saa te peita nõutavat välja. 
+Isikupärastamise tööriistaribal on mitu isikupärastamistoimingut. Valige tööriist **Vali**, kui soovite valida ja muuta korraga mitme elemendi atribuute. Esmalt klõpsake tööriista Vali ja siis elementi, mille atribuute muuta soovite. Elemendi valimisel avaneb elemendi atribuutide aken ja saate muuta selle elemendi mis tahes atribuute. Saate protsessi vormi muude isikupärastatavate elementide jaoks korrata. Mõnel juhul valite elemendi ja näete, et mõned atribuudid ei ole muudetavad. See tähendab, et praeguse elemendi kasutamise alusel ei saa Finance and Operations lasta teil atribuuti muuta. Näiteks ei saa te peita nõutavat välja. 
 
-Valige tööriist **Teisalda**, kui soovite valida ja teisaldada elementi erinevasse asukohta praeguses elementidegrupis. (Te ei saa teisaldada elementi selle emagrupist väljapoole). Esmalt klõpsake tööriista Teisalda ja siis elementi, mida teisaldada soovite. Kui klõpsate elementi, mida soovite teisaldada, skannib Dynamics 365 for Operations vormi mõistmaks, kuhu seda elementi teisaldada saab, ja loob pukseerimistsoonide loetelu, mis osutab värvilise paksu reaga piirkondadele, kuhu saab elemendi pukseerida, kui lohistate elementi praeguses grupis. 
+Valige tööriist **Teisalda**, kui soovite valida ja teisaldada elementi erinevasse asukohta praeguses elementidegrupis. (Te ei saa teisaldada elementi selle emagrupist väljapoole). Esmalt klõpsake tööriista Teisalda ja siis elementi, mida teisaldada soovite. Kui klõpsate elementi, mida soovite teisaldada, skannib Finance and Operations vormi mõistmaks, kuhu seda elementi teisaldada saab, ja loob pukseerimistsoonide loetelu, mis osutab värvilise paksu reaga piirkondadele, kuhu saab elemendi pukseerida, kui lohistate elementi praeguses grupis. 
 
-Valige tööriist **Peida**, elemendi valimiseks ja peitmiseks. Elemendi peitmiseks valige lihtsalt tööriist Peida ja klõpsake elementi, mida peita soovite. Kui valite tööriista Peida, muudetakse kõik praegu peidetud elemendid nähtavaks ja neid näidatakse varjutatud konteineris, nii et saate valida elemendi selle nähtavaks tegemiseks. Valige tööriist Vali nägemaks, kuidas leht valitud peidetud elementidega välja näeb. Valige tööriist **Kokkuvõte**, kui soovite, et numbrilist või stringivälja näidataks kiirkaardi kokkuvõtte alal. Tööriist Kokkuvõte rakendub ainult väljadele, mis sisalduvad kiirkaardi jaotises. Kui valite tööriista Kokkuvõte, näitab Dynamics 365 for Operations kõiki välju, mis on valitud kokkuvõtte väljadena, sulgedes need varjutatud konteinerisse. Saate välju kiirkaardi kokkuvõttesse interaktiivselt lisada ja neid sealt eemaldada, klõpsates välja. 
+Valige tööriist **Peida**, elemendi valimiseks ja peitmiseks. Elemendi peitmiseks valige lihtsalt tööriist Peida ja klõpsake elementi, mida peita soovite. Kui valite tööriista Peida, muudetakse kõik praegu peidetud elemendid nähtavaks ja neid näidatakse varjutatud konteineris, nii et saate valida elemendi selle nähtavaks tegemiseks. Valige tööriist Vali nägemaks, kuidas leht valitud peidetud elementidega välja näeb. Valige tööriist **Kokkuvõte**, kui soovite, et numbrilist või stringivälja näidataks kiirkaardi kokkuvõtte alal. Tööriist Kokkuvõte rakendub ainult väljadele, mis sisalduvad kiirkaardi jaotises. Kui valite tööriista Kokkuvõte, näitab Finance and Operations kõiki välju, mis on valitud kokkuvõtte väljadena, sulgedes need varjutatud konteinerisse. Saate välju kiirkaardi kokkuvõttesse interaktiivselt lisada ja neid sealt eemaldada, klõpsates välja. 
 
 Valige tööriist **Jäta vahele**, et eemaldada element lehe klaviatuuri vahekaardi järjestusest. Kui valite tööriista Jäta vahele, näidatakse kõiki praegu vahele jäetud elemente varjutatud konteineris, nii et saate neid uuesti valida, et muuta need vahekaardi järjestuse osaks, valides vahele jäetud elemendi. 
 
@@ -104,16 +104,17 @@ Kui loend või paan on tööruumi lisatud, saate selle tööruumi avada ja loend
 Mõned tööruumid sisaldavad arvpaane (paane, millel on numbrid), mida tahaksite näha ka oma armatuurlaual. Paremklõpsake tööruumis arvpaani ja valige suvand **Isikupärasta**. Valige suvand **Kinnita armatuurlauale**. Järgmine kord, kui navigeerite valitud armatuurlauale (ja värskendate seda), näete seda arvu selle tööruumi navigeerimispaani all armatuurlaual.
 
 ## <a name="explicit-personalization-personalizing-your-dashboard"></a>Selgesõnaline isikupärastamine: armatuurlaua isikupärastamine
-Armatuurlaud on tihti esimene leht, mida näete Dynamics 365 for Operationsi avamisel. Saate armatuurlauda isikupärastada nimetama ümber tööruumi navigeerimispaane, näitama ainult paane, mida näha soovite, paane pmber nimetama või korraldama paane eelistatud järjekorda. Armatuurlaya isikupärastamiseks valige mis tahes paan ja paremklõpsake kontekstimenüü avamiseks. Valige kontekstimenüüs suvand **Isikupärasta**. Kui valitud paan on see, mida soovite peita või ümbe nimetada või vahele jätta, saate teha selle muudatuse otse kuvatavas aknas Atribuut. Kui soovite paane ümber korraldada, siis valige aknas Atribuut suvand **Vormi isikupärastamine**, et avada tööriistariba Isikupärastamine. Seejärel saate kasutada paanide ümberkorraldamiseks tööriista Teisalda.
+Armatuurlaud on tihti esimene leht, mida näete Finance and Operationsi avamisel. Saate armatuurlauda isikupärastada nimetama ümber tööruumi navigeerimispaane, näitama ainult paane, mida näha soovite, paane pmber nimetama või korraldama paane eelistatud järjekorda. Armatuurlaya isikupärastamiseks valige mis tahes paan ja paremklõpsake kontekstimenüü avamiseks. Valige kontekstimenüüs suvand **Isikupärasta**. Kui valitud paan on see, mida soovite peita või ümbe nimetada või vahele jätta, saate teha selle muudatuse otse kuvatavas aknas Atribuut. Kui soovite paane ümber korraldada, siis valige aknas Atribuut suvand **Vormi isikupärastamine**, et avada tööriistariba Isikupärastamine. Seejärel saate kasutada paanide ümberkorraldamiseks tööriista Teisalda.
 
 ## <a name="administration-of-personalization"></a>Isikupärastamise haldamine
-On võimalik isikupärastada leht ja ühiskasutada seda teiste kasutajatega, eksportides lihtsalt isikupärastatud leht ja paludes teistel kasutajatel isikupärastatud lehele navigeerida ja importida loodud isikupärastatud fail. Kui kasutajal on administraatori privileegid, saab ta hallata ka teiste kasutajate isikupärastamisi lehel **Isikupärastamise seadistus**. Navigeerige lehele b. Lehel **Isikupärastamine** leiate kaks vahekaarti, üks on tähistatud sildiga **Süsteem** ja teine sildiga**Kasutajad**. 
+Pärast lehe isikupärastamist võite oma isikupärastamisi teiste kasutajatega jagada. Lihtsalt eksportige isikupärastatud leht. Seejärel võite paluda teistel kasutajatel isikupärastatud lehele minna ja importida teie loodud isikupärastamise fail.
 
-**Süsteem:** siin saate ajutiselt keelata või välja lülitada kõik süsteemi isikupärastamised. See ei kustuta isikupärastamisi, vaid lähtestab kõik vormid nende vaikeolekusse. Hiljem saate isikupärastamise uuesti lubada, et kõik isikupärastamised igale kasutajate vormile uuesti rakendada. Samuti saate kustutada kõikide kasutajate kõik isikupärastamised. Arvestage sellega, et kui kustutate isikupärastamisi, siis puudub võimalus isikupärastamiste automaatseks uuesti lubamiseks süsteemist. Veendute, et olete eksportinud isikupärastamised, mida soovite võib-olla hiljem importida, enne kui selle toimingu teete. 
+Administraatori õigustega kasutaja saab lehel **Isikupärastamine** hallata ka teiste kasutajate isikupärastamisi. Sellel lehel on neli vahekaarti: **Süsteem**, **Kasutajad**, **Impordi** ja **Eemalda**.
 
-**Kasutajad:** siin saate iga kasutaja puhul otsustada, kas ta saab läbi viia selgesõnalist või varjatud isikupärastamist. Samuti saate otsustada, kas iga kasutaja saab läbi viia varjatud või selgesõnalist isikupärastamist kindlas vormis. Lõpuks saate importida või eksportida või kustutada iga kasutaja isikupärastamise. 
-
-**Märkus.** Algses väljaandes võimaldab isikupärastamise haldus kasutaja haldamist ainult kasutaja alusel.
+- **Süsteem** – saate ajutiselt keelata või välja lülitada kõik süsteemi isikupärastamised. Sel juhul ei kustuta te isikupärastamisi. Selle asemel lähtestate lihtsalt kõik lehed vaikeolekusse. Kui hiljem isikupärastamise uuesti lubate, rakendatakse kõik isikupärastamised igale kasutaja lehele uuesti. Samuti saate kustutada kõikide kasutajate kõik isikupärastamised. Arvestage sellega, et kui kustutate isikupärastamisi, siis puudub võimalus isikupärastamiste automaatseks uuesti lubamiseks süsteemist. Seega veenduge enne seda sammu, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
+- **Kasutajad** – saate määrata, kas iga kasutaja saab teha varjatud või selget isikupärastamist. Samuti saate määrata, kas iga kasutaja saab teha konkreetsel lehel varjatud või selget isikupärastamist. Lõpuks saate importida või eksportida või kustutada iga kasutaja isikupärastamise.
+- **Impordi** – saate importida vähemalt ühe kasutaja isikupärastamise. Seda vahekaarti kasutatakse pärast lehe või tööruumi isikupärastamist ja selle eksportimist isikupärastamise failina. Isikupärastamise faili importimiseks ja selle rakendamiseks vähemalt ühele kasutajale valige kõigi kasutajate loendist eraldi kasutajad või filtreerige konkreetse rolli järgi ja valige selles rollis olevad kasutajad. Kui olete valinud kasutajad, kes teie isikupärastamist kasutavad, klõpsake nuppu **Impordi** ja valige isikupärastamise fail. Isikupärastamine kinnitatakse ja rakendatakse valitud kasutajatele järgmisel korral, kui nad valitud lehe avavad.
+- **Eemalda** – saate kustutada vähemalt ühe kasutaja lehe või tööruumi isikupärastamised. Valige kõigepealt leht või tööruum, mille isikupärastamised tuleks eemaldada. Seejärel valige kõigi kasutajate loendist eraldi kasutajad või filtreerige konkreetse rolli järgi ja valige siis selles rollis olevad kasutajad. Kui olete valinud nii lehe kui ka tööruumi ja kasutajad, klõpsake nuppu **Eemalda**. Kõik isikupärastamised, mille valitud kasutajad on valitud lehele või tööruumile rakendanud, eemaldatakse. Seda tegevust ei saa tagasi võtta. Kuid kui lehel või tööruumil on salvestatud isikupärastamine, saab selle isikupärastamise uuesti importida.
 
 
 

@@ -3,7 +3,7 @@ title: Finantsaruande komponendid
 description: "Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse. Nende koosteüksuste hulka kuuluvad readefinitsioonid, veerudefinitsioonid ja aruandluspuu definitsioonid. Artikkel selgitab, kuidas koosteüksusi korraldada ja lukustada ning kuidas koosteüksuste gruppidega töötada."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 057c338c11518b3a1081223e432cbfd109d5e679
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -105,7 +105,7 @@ Saate olemasoleva koosteüksuste grupi uue nimega salvestada. Seejärel saate uu
 
 ### <a name="export-a-building-block-group"></a> Koosteüksuste grupi eksportimine
 
-Saate koosteüksuste grupi või selle kindla aruande koosteüksused eksportida. Eksporditud koosteüksuste gruppi saab kasutada varundamiseks. Saate eksporditud andmeid ka koosteüksuse gruppide või rakenduse Dynamics 365 for Operations seadmete vahel kopeerida. Aruandekoostur sisaldab viidatud fondilaade ja dimensioongruppe koos koosteüksuste grupiga.
+Saate koosteüksuste grupi või selle kindla aruande koosteüksused eksportida. Eksporditud koosteüksuste gruppi saab kasutada varundamiseks. Saate eksporditud andmeid ka koosteüksuse gruppide või rakenduse Finance and Operations seadmete vahel kopeerida. Aruandekoostur sisaldab viidatud fondilaade ja dimensioongruppe koos koosteüksuste grupiga.
 1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Koosteüksuste grupid**.
 2.  Valige dialoogiboksist **Koosteüksuste grupid** eksporditav koosteüksuste grupp ja klõpsake seejärel käsku **Ekspordi**.
 3.  Valige dialoogiboksist **Eksport** eksporditavad aruande definitsioonid.

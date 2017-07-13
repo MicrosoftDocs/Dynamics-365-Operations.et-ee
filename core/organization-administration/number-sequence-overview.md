@@ -1,15 +1,15 @@
 ---
 title: "Numbriseeriate ülevaade"
-description: "Rakenduse Microsoft Dynamics 365 for Operations numbriseeriate alusel luuakse loetavaid kordumatuid ID-sid koondandmete kirjetele ja kandekirjetele, mille puhul on ID nõutav. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse <em>viiteks</em>."
+description: "Rakenduse Microsoft Dynamics 365 for Finance and Operations numbriseeriate alusel luuakse loetavaid kordumatuid ID-sid koondandmete kirjetele ja kandekirjetele, mille puhul on ID nõutav. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse <em>viiteks</em>."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Rakenduse Microsoft Dynamics 365 for Operations numbriseeriate alusel luuakse loetavaid kordumatuid ID-sid koondandmete kirjetele ja kandekirjetele, mille puhul on ID nõutav. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse <em>viiteks</em>.
+Rakenduse Microsoft Dynamics 365 for Finance and Operations numbriseeriate alusel luuakse loetavaid kordumatuid ID-sid koondandmete kirjetele ja kandekirjetele, mille puhul on ID nõutav. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse <em>viiteks</em>.
 
-Enne rakenduses Microsoft Dynamics 365 for Operations viitele uute kirjete loomist tuleb häälestada numbriseeria ja see viitega seostada. Soovitame numbriseeriate häälestamiseks kasutada lehti jaotises **Organisatsiooni haldus**. Kui moodulipõhised sätted on nõutavad, saate mooduli parameetrite lehega määrata mooduli viidete numbriseeriad. Näiteks jaotises **Müügireskontro** ja **Ostureskontro** saate häälestada numbriseeriate grupid, et eraldada numbriseeriad konkreetsetele klientidele või hankijatele. Kui häälestate numbriseeria, tuleb teil määrata ulatus, mis määratleb, milline organisatsioon numbriseeriat kasutab. Ulatus võib olla **Jagatud**, **Ettevõte**, **Juriidiline isik** või **Tootmisüksus**. Ulatused **Juriidiline isik** ja **Ettevõte** saab kombineerida atribuudiga **Rahanduskalendri periood** veelgi täpsemate numbriseeriate loomiseks. Numbriseeria vorming koosneb segmentidest. Numbriseeriad, mille ulatus ei ole **Jagatud**, võivad sisaldada ulatusele vastavaid segmente. Näiteks numbriseeria, mille ulatus on **Juriidiline isik**, võib sisaldada juriidilise isiku segmenti. Kui kaasate numbriseeria vormingus ulatuse segmendi, saate kirje numbri alusel määrata konkreetse kirje ulatuse. Peale ulatustele vastavate segmentide võivad numbriseeriate vormingud sisaldada segmente tüübiga **Konstantne** ja **Tähe- ja numbrimärkidest koosnevad segmendid**. Segment **Konstantne** sisaldab tähtede, numbrite või sümbolite muutumatut kogumit. **Tähe- ja numbrimärkidest** koosnev segment sisaldab tähtede või numbrite kogumit, mis suureneb iga kord, kui numbrit kasutatakse. Kasvavate numbrite tähistamiseks kasutage numbriosundit (\#), kasvavate tähtede jaoks ampersandi. Näiteks vorming \#\#\#\#\#\_2017 loob seeria 00001\_2017, 00002\_2017 jne.
+Enne rakenduses Microsoft Dynamics 365 for Finance and Operations viitele uute kirjete loomist tuleb häälestada numbriseeria ja see viitega seostada. Soovitame numbriseeriate häälestamiseks kasutada lehti jaotises **Organisatsiooni haldus**. Kui moodulipõhised sätted on nõutavad, saate mooduli parameetrite lehega määrata mooduli viidete numbriseeriad. Näiteks jaotises **Müügireskontro** ja **Ostureskontro** saate häälestada numbriseeriate grupid, et eraldada numbriseeriad konkreetsetele klientidele või hankijatele. Kui häälestate numbriseeria, tuleb teil määrata ulatus, mis määratleb, milline organisatsioon numbriseeriat kasutab. Ulatus võib olla **Jagatud**, **Ettevõte**, **Juriidiline isik** või **Tootmisüksus**. Ulatused **Juriidiline isik** ja **Ettevõte** saab kombineerida atribuudiga **Rahanduskalendri periood** veelgi täpsemate numbriseeriate loomiseks. Numbriseeria vorming koosneb segmentidest. Numbriseeriad, mille ulatus ei ole **Jagatud**, võivad sisaldada ulatusele vastavaid segmente. Näiteks numbriseeria, mille ulatus on **Juriidiline isik**, võib sisaldada juriidilise isiku segmenti. Kui kaasate numbriseeria vormingus ulatuse segmendi, saate kirje numbri alusel määrata konkreetse kirje ulatuse. Peale ulatustele vastavate segmentide võivad numbriseeriate vormingud sisaldada segmente tüübiga **Konstantne** ja **Tähe- ja numbrimärkidest koosnevad segmendid**. Segment **Konstantne** sisaldab tähtede, numbrite või sümbolite muutumatut kogumit. **Tähe- ja numbrimärkidest** koosnev segment sisaldab tähtede või numbrite kogumit, mis suureneb iga kord, kui numbrit kasutatakse. Kasvavate numbrite tähistamiseks kasutage numbriosundit (\#), kasvavate tähtede jaoks ampersandi. Näiteks vorming \#\#\#\#\#\_2017 loob seeria 00001\_2017, 00002\_2017 jne.
 Numbriseeriate näidised
 ------------------------
 
 Järgmised näited selgitavad, kuidas kasutada segmente numbriseeriate vormingute loomiseks. Täpsemalt kajastavad näited ulatuse segmentide kasutamise mõju.
 ### <a name="expense-report-numbers"></a>Kuluaruande numbrid
 
-Järgmises näites on kuluaruande numbrid häälestatud juriidilise isiku jaoks, mis kannab nime **CS**. **Valdkond:**reisimine ja kulud **Viide:**kuluaruande number **Ulatus:**juriidiline isik **Juriidiline isik:**CS
+Järgmises näites on kuluaruande numbrid häälestatud juriidilise isiku jaoks, mis kannab nime **CS**. **Valdkond:** reisimine ja kulud **Viide:** kuluaruande number **Ulatus:** juriidiline isik **Juriidiline isik:** CS
 | Segmendid  | Segmendi tüüp | Väärtus     |
 |-----------|--------------|-----------|
 | 1. segment | Juriidiline isik | CS        |
@@ -50,7 +50,7 @@ Järgmises näites on kuluaruande numbrid häälestatud juriidilise isiku jaoks,
 
 ### <a name="sales-order-numbers"></a>Müügitellimuste numbrid
 
-Järgmises näites on müügitellimuse numbrid häälestatud ettevõttele, mille ID on **CEU**. **Valdkond:**müük **Viide:**müügitellius **Ulatus:**ettevõte **Ettevõte:**CEU
+Järgmises näites on müügitellimuse numbrid häälestatud ettevõttele, mille ID on **CEU**. **Valdkond:** müük **Viide:** müügitellius **Ulatus:** ettevõte **Ettevõte:** CEU
 | Segmendid  | Segmendi tüüp | Väärtus    |
 |-----------|--------------|----------|
 | 1. segment | Konstant     | SO-      |
@@ -60,7 +60,7 @@ Järgmises näites on müügitellimuse numbrid häälestatud ettevõttele, mille
 
 ### <a name="purchase-requisition-numbers"></a>Ostutaotluse numbrid
 
-Järgmises näites kehtivad ostutaotluse numbrid kogu organisatsioonis. **Valdkond:**ost **Viide:**ostutaotlus **Ulatus:**jagatud
+Järgmises näites kehtivad ostutaotluse numbrid kogu organisatsioonis. **Valdkond:** ost **Viide:** ostutaotlus **Ulatus:** jagatud
 | Segmendid  | Segmendi tüüp | Väärtus    |
 |-----------|--------------|----------|
 | 1. segment | Konstant     | Req      |

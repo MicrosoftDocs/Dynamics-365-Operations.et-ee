@@ -3,7 +3,7 @@ title: Readefinitsiooni lahtrite muutmine
 description: "Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 920cd02edee96b829069e88e026af1774d037d9a
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -252,8 +252,7 @@ Järgmiselt on toodud näide loodud aruande kohta.
 
 |COGS|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
 
-|Palgad ja töötasud|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |Skontod|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Müügitagastused|10 917|7246|(3671)|62 809|48 803|(14 006)| |Rendikulu|12 052|9019|(3033)|80 444|60 748|(19 696)| |Kontori kulu|5023|3291|(1732)|33 420|22 098|(11 322)| |Reisikulu|7656|7641|(15)|51 062|51 469|407| |Sales|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |**Sorditud YTD absoluuthälbe järgi laskuvas järjestuses**|||||||
-|Müük|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |Reisikulu|7656|7641|(15)|51 062|51 469|407| |Kontori kulu|5023|3291|(1732)|33 420|22 098|(11 322)| |Müügitagastused|10 917|7246|(3671)|62 809|48 803|(14 006)| |Rendikulu|12 052|9019|(3033)|80 444|60 748|(19 696)| |Skontod|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Palgad ja töötasud|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |COGS|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
+|Palgad ja töötasud|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |Skontod|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Müügitagastused|10 917|7246|(3671)|62 809|48 803|(14 006)| |Rendikulu|12 052|9019|(3033)|80 444|60 748|(19 696)| |Kontori kulu|5023|3291|(1732)|33 420|22 098|(11 322)| |Reisikulu|7656|7641|(15)|51 062|51 469|407| |Sales|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |**Sorditud YTD absoluuthälbe järgi laskuvas järjestuses**||||||| |Müük|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |Reisikulu|7656|7641|(15)|51 062|51 469|407| |Kontori kulu|5023|3291|(1732)|33 420|22 098|(11 322)| |Müügitagastused|10 917|7246|(3671)|62 809|48 803|(14 006)| |Rendikulu|12 052|9019|(3033)|80 444|60 748|(19 696)| |Skontod|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Palgad ja töötasud|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |COGS|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
 
 ## <a name="specify-a-format-override-cell"></a>Vormingu alistamise lahtri määramine
 Lahter **Vormingu alistamine** määrab aruande printimisel rea puhul kasutatava vormingu. Selline vorming alistab veeru definitsioonis ja aruande definitsioonis määratud vormingu. Vaikimisi on neis definitsioonides määratud vorminguks valuuta. Kui ühel aruande real loetletakse varade arv, nt ehitiste arv ja teisel real loetletakse nende varade rahaline väärtus, saate alistada valuuta vormingu ja sisestada numbrivormingu rea puhul, mis määrab ehitiste arvu. Saate selle teabe määrata dialoogiboksis **Vormingu alistamine**. Saadaolevad suvandid olenevad valitud vormingu kategooriast. Dialoogiboksi alal **Näidis** kuvatakse näidisvormingud. Saadaval on järgmised vormingu kategooriad.

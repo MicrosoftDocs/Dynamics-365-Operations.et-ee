@@ -1,27 +1,27 @@
 ---
 title: "Jaemüügi välisseadmete ülevaade"
 description: "Selles teemas selgitatakse mõisteid, mis on seotud jaemüügi välisseadmetega. See kirjeldab mitmesuguseid viise, kuidas välisseadmed saab kassaga ühendada, ja kassaga ühenduse haldamise eest vastutavaid komponente."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 268444
-ms.assetid: 2ea93e43-8019-49a0-a7f8-325565ebc52d
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f7c47c3dc22b2f3c2ea08085326be08011eca4e
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,16 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 Selles teemas selgitatakse mõisteid, mis on seotud jaemüügi välisseadmetega. See kirjeldab mitmesuguseid viise, kuidas välisseadmed saab kassaga ühendada, ja kassaga ühenduse haldamise eest vastutavaid komponente.
 
-<a name="concepts"></a>Mõisted
---------
+## <a name="concepts"></a>Mõisted
 
 ### <a name="pos-registers"></a>Kassaregistrid
 
-Navigeerimine: klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Kassaregister on üksus, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Kassaregister on üksus, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
 
 ### <a name="devices"></a>Seadmed
 
-Navigeerimine: klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmeid saab vastendada järgmiste rakenduse tüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmeid saab vastendada järgmiste rakenduse tüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Uudne jaemüügikassa
 
@@ -66,11 +65,11 @@ Kassa välisseadmed on seadmed, millel selgelt kassafunktsioone toetatakse. Need
 
 ### <a name="hardware-station"></a>Riistvarajaam
 
-Navigeerimine: klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaemüügikanalid** &gt; **Kõik jaekauplused**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**. **Riistvarajaama** säte on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse jaemüügi välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmi Windowsile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb sellele juurde võrgu kaudu.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanalid** &gt; **Jaemüügikanalid** &gt; **Kõik jaekauplused**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**. **Riistvarajaama** säte on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse jaemüügi välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmi Windowsile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb sellele juurde võrgu kaudu.
 
 ### <a name="hardware-profile"></a>Riistvaraprofiil
 
-Navigeerimine: klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
 
 ## <a name="devices-classes"></a>Seadmete klassid
 Kassa välisseadmed on tavaliselt jagatud klassidesse. Selles jaotises kirjeldatakse seadmeid, mida Modern POS toetab, ja antakse neist ülevaade.
@@ -118,12 +117,12 @@ Makseseadme tugi juurutatakse makseliidese kaudu. Makseseadmed võivad täita ü
 ## <a name="supported-interfaces"></a>Toetatud liidesed
 ### <a name="opos"></a>OPOS
 
-Selleks, et Microsoft Dynamics 365 for Operationsi jaemüügi mooduliga saaks kasutada suurimat seadmevalikut, on valdkonna standard Objektilinkimine ja -manustamine müügikohas peamine jaemüügi välisseadmete platvorm, mida Microsoft Dynamics 365 for Operationsi moodulis Jaemüük kasutatakse. Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab jaemüügi välisseadmetele standardsed sideprotokollid. OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus. See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud. OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega. OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega. OPOS-i juhtelement koosneb kahest osast.
+Selleks, et Microsoft Dynamics 365 for Retailiga saaks kasutada suurimat seadmevalikut, on valdkonna standard Objektilinkimine ja -manustamine müügikohas peamine jaemüügi välisseadmete platvorm, mida Microsoft Dynamics 365 for Retailis kasutatakse. Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab jaemüügi välisseadmetele standardsed sideprotokollid. OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus. See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud. OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega. OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega. OPOS-i juhtelement koosneb kahest osast.
 
--   **Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid). CCO-sid kasutatakse Microsoft Dynamics 365 for Operationsi jaemüügi mooduli kassakomponendi testimiseks. Seega aitab testimine tagada, et kui Microsoft Dynamics 365 for Operationsi jaemüügi moodul toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe, eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti. Iga seadmetüüpi pole vaja otseselt testida.
+-   **Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid). CCO-sid kasutatakse Microsoft Dynamics 365 for Retaili kassakomponendi testimiseks. Seega aitab testimine tagada, et kui Microsoft Dynamics 365 for Retail toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe, eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti. Iga seadmetüüpi pole vaja otseselt testida.
 -   **Hooldusobjekt** – hooldusobjekt tagab juhtimisobjekti (CCO) ja seadme vahelise side. Tavaliselt annab seadme hooldusobjekti seadme tootja. Kuid mõnel juhul võib teil olla vaja hooldusobjekt tootja veebisaidilt alla laadida. Näiteks võib olla saadaval uuem hooldusobjekt. Tootja veebisaidi aadressi leiate oma riistvara dokumentidest.
 
-[![Juhtimisobjekt ja hooldusobjekt](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Kassa OLE OPOS-i juurutuse tugi aitab tagada, et kui seadme tootjad ja kassa avaldajad juurutavad standardi õigesti, siis töötavad kassasüsteemid ja toetatud seadmed koos, isegi kui neid eelnevalt koos ei testitud. **Märkus.** OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge. Microsoft Dynamics 365 for Operationsi jaemüügi moodul peab esmalt toetama OPOS-i kaudu seda seadmetüüpi või -klassi. Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla. Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.
+[![Juhtimisobjekt ja hooldusobjekt](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Kassa OLE OPOS-i juurutuse tugi aitab tagada, et kui seadme tootjad ja kassa avaldajad juurutavad standardi õigesti, siis töötavad kassasüsteemid ja toetatud seadmed koos, isegi kui neid eelnevalt koos ei testitud. **Märkus.** OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge. Microsoft Dynamics 365 for Retail peab esmalt toetama OPOS-i kaudu seda seadmetüüpi või -klassi. Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla. Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.
 
 ### <a name="windows"></a>&Aknad...
 
@@ -133,7 +132,7 @@ Kassas kviitungite printimine on OPOS-i jaoks optimeeritud. OPOS on tavaliselt p
 -   Printeri kaudu ühendatud (pärgühendusega) seadmed ei pruugi Windowsi draiverite kasutamisel õigesti töötada. Näiteks sularahasahtel ei pruugi avaneda või kviitungiprinter ei pruugi oodatud viisil töötada.
 -   OPOS toetab alati ulatuslikumat jaemüügi kviitungiprinterite põhiste muutujate kogumit, nt paberi lõikamist või kviitungi printimist.
 
-Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Microsoft Dynamics 365 for Operationsi jaemüügi mooduliga õigesti töötama.
+Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Microsoft Dynamics 365 for Retaili jaemüügi mooduliga õigesti töötama.
 
 ### <a name="universal-windows-platform"></a>Universaalne Windowsi platvorm
 
@@ -473,7 +472,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Toetatud stsenaariumide konfigureerimine
-Lisateavet riistvaraprofiilide loomise kohta leiate jaotisest [Kanaliklientide (sh registrite ja riistvarajaamade) määratlemine ja haldamine](define-maintain-channel-clients-registers-hw-stations.md). **Märkus.** Microsoft Dynamics 365 for Operationsi versiooni 1611 puhul ei kasutata enam riistvarajaama profiili. Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.
+Lisateavet riistvaraprofiilide loomise kohta leiate jaotisest [Kanaliklientide (sh registrite ja riistvarajaamade) määratlemine ja haldamine](define-maintain-channel-clients-registers-hw-stations.md). **Märkus.** Microsoft Dynamics 365 for Retaili versiooni 1611 puhul ei kasutata enam riistvarajaama profiili. Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaamaga Modern POS Windowsile
 
@@ -482,7 +481,7 @@ See konfiguratsioon on tavapäraste fikseeritud kassaregistrite puhul kõige lev
 1.  Looge riistvaraprofiil, kus on konfigureeritud kõik vajalikud välisseadmed.
 2.  Vastendage riistvaraprofiil kassaregistriga.
 3.  Looge jaekauplusele, kus kassaregistrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**. Kirjeldus on vabatahtlik. **Märkus.** Te ei pea riistvarajaamale ühtegi muud atribuuti määrama. Kogu muu vajalik teave (nt riistvaraprofiil) tuleb registrist endast.
-4.  Klõpsake valikut **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
+4.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
 5.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 6.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7.  Installige ja aktiveerige Modern POS Windowsile.
@@ -501,7 +500,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, millel 
     -   **EFT kassa number** – EFT terminali ID, mida EFT volituste saatmisel kasutada. Selle ID annab krediitkaardiprotsessor.
     -   **Paketi nimi** – riistvarajaama pakett, mida riistvarajaama juurutamisel kasutada.
 
-4.  Klõpsake valikut **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
+4.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
 5.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 6.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7.  Riistvarajaama paigaldamine. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
@@ -524,12 +523,12 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kas
     -   **Hosti nimi** – hostarvuti nimi, kus riistvarajaam töötab.
     -   **Kirjeldus** – tekst, mis aitab riistvarajaama tuvastada, nt **Tagastused** või **Kaupluse ees**.
     -   **Port** – port, mida riistvarajaam kasutab Modern POS-i kliendiga suhtlemiseks.
-    -   **Riistvaraprofiil** – ühiskasutuses riistvarajaamade puhul peab igal riistvarajaamal olema riistvaraprofiil. Riistvarajaamad võivad riistvaraprofiile ühiselt kasutada, kuid need peavad olema vastendatud iga riistvarajaamaga. Lisaks soovitame kasutada ühiseid vahetusi, kui sama ühist riistvarajaama kasutab mitu seadet. Ühise vahetuse seadistamiseks klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Valige iga ühise riistvaraprofiili jaoks sularahasahtel ja määrake valiku **Ühise vahetuse sahtel** väärtuseks **Jah**.
+    -   **Riistvaraprofiil** – ühiskasutuses riistvarajaamade puhul peab igal riistvarajaamal olema riistvaraprofiil. Riistvarajaamad võivad riistvaraprofiile ühiselt kasutada, kuid need peavad olema vastendatud iga riistvarajaamaga. Lisaks soovitame kasutada ühiseid vahetusi, kui sama ühist riistvarajaama kasutab mitu seadet. Ühise vahetuse seadistamiseks klõpsake valikuid **Jaemüük** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Valige iga ühise riistvaraprofiili jaoks sularahasahtel ja määrake valiku **Ühise vahetuse sahtel** väärtuseks **Jah**.
     -   **EFT kassa number** – EFT terminali ID, mida EFT volituste saatmisel kasutada. Selle ID annab krediitkaardiprotsessor.
     -   **Paketi nimi** – riistvarajaama pakett, mida riistvarajaama juurutamisel kasutada.
 
 4.  Korrake samme 2 ja 3 iga täiendava riistvarajaamaga, mida kaupluses vaja on.
-5.  Klõpsake valikut **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
+5.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
 6.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 8.  Installige riistvarajaam igasse hostarvutisse, mille toimingutes 2 ja 3 seadistasite. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
@@ -542,7 +541,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kas
 14. Valige kasutatav riistvarajaam ja klõpsake siis nuppu **Seo**.
 15. Korrake toimingut 14 iga riistvarajaamaga, mida Modern POS kasutab.
 16. Kui kõik vajalikud riistvarajaamad on seotud, klõpsake nuppu **Sule**.
-17. Klõpsake riistvarajaama valimise lehel hiljuti valitud riistvarajaama, et muuta see aktiivseks. **Märkus.** Kui seadmed kasutavad sageli erinevaid riistvarajaamu, siis soovitame konfigureerida Modern POS-i paluma kassapidajatel maksmisprotsessi alustamisel riistvarajaama valida. Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**. Valige register ja määrake siis valiku **Valige maksmisel** väärtuseks **Jah**. Kasutage jaotusgraafikut **1090** muudatuste sünkroonimiseks kanali andmebaasiga.
+17. Klõpsake riistvarajaama valimise lehel hiljuti valitud riistvarajaama, et muuta see aktiivseks. **Märkus.** Kui seadmed kasutavad sageli erinevaid riistvarajaamu, siis soovitame konfigureerida Modern POS-i paluma kassapidajatel maksmisprotsessi alustamisel riistvarajaama valida. Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Valige register ja määrake siis valiku **Valige maksmisel** väärtuseks **Jah**. Kasutage jaotusgraafikut **1090** muudatuste sünkroonimiseks kanali andmebaasiga.
 
 ## <a name="extensibility"></a>Laiendatavus
 Teavet riistvarajaama laiendatavuse stsenaariumide kohta leiate jaotisest [Riistvarajaama laiendatavus](dev-itpro/hardware-station-extensibility.md).
@@ -575,7 +574,7 @@ Kehtivate turbestandardite kohaselt tuleb tootmiskeskkonnas kasutada järgmisi s
 **Märkus.** On väga tähtis vaadata üle IIS-i ja Payment Card Industry (PCI) nõuete turbepõhimõtted.
 
 ## <a name="peripheral-simulator"></a>Välisseadme simulaator
-Teavet leiate jaotisest [Jaemüügi välisseadme stimulaator](retail-peripheral-simulator.md).
+Teavet leiate jaotisest [Jaemüügi välisseadme stimulaator](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsofttested-peripheral-devices"></a>Microsofti testitud välisseadmed
 ### <a name="ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaam
@@ -806,7 +805,7 @@ Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Mod
 <a name="see-also"></a>Vt ka
 --------
 
-[Jaemüügi välisseadme simulaator](retail-peripheral-simulator.md)
+[Jaemüügi välisseadme simulaator](dev-itpro/retail-peripheral-simulator.md)
 
 
 

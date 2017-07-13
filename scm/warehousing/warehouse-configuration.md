@@ -3,14 +3,14 @@ title: Lao konfiguratsioon
 description: Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet selle kohta, kuidas lubada lao paigutust ja laoprotsesse.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08c086767303f6f52e085f8f56b5d09f1e46878f
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,10 +33,10 @@ ms.lasthandoff: 05/25/2017
 
 Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet selle kohta, kuidas lubada lao paigutust ja laoprotsesse.
 
-**Märkus.** See artikkel kehtib mooduli**Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis**Laohaldus**.
+**Märkus.** See artikkel kehtib mooduli **Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis **Laohaldus**.
 
 ## <a name="warehouse-layout"></a>Lao paigutus
-Laohalduse süsteem Microsoft Dynamics 365 for Operationsis pakub paindlikke võimalusi laopaigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, et saavutaksite optimaalse laotõhususe.
+Laohalduse süsteem Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis pakub paindlikke võimalusi laopaigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, et saavutaksite optimaalse laotõhususe.
 
 -   Saate luua ja kõrge prioriteediga ja madal prioriteediga hoiustamisalasid kaupade optimaalseks paigutamiseks.
 -   Saate jagada oma lao tsoonideks, et rahuldada mitmesuguseid ladustamisvajadusi, näiteks temperatuurinõudeid või mitmesuguseid kaubakäibe kiirusi.
@@ -44,7 +44,7 @@ Laohalduse süsteem Microsoft Dynamics 365 for Operationsis pakub paindlikke võ
 -   Saate rühmitada asukohti, kasutades füüsilise mahu piirangu sätteid.
 -   Saate kaupade ladustamise ja komplekteerimise viisi juhtida, tuginedes päringuga määratud reeglitele.
 
-Microsoft Dynamics 365 for Operationsi laohalduse kasutamiseks peate looma lao ja lubama selle täpsema või spetsiaalse laohalduse tegevuste jaoks. Tehke lehel **Laod** valik **Kasuta laohaldusprotsesse**.
+Finance and Operationsi laohalduse kasutamiseks peate looma lao ja lubama selle täpsema või spetsiaalse laohalduse tegevuste jaoks. Tehke lehel **Laod** valik **Kasuta laohaldusprotsesse**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Tsoonigrupid, tsoonid, asukohatüübid ja asukohad
 
@@ -56,7 +56,7 @@ Laopaigutuse lubamise protsessi raames tuleb määratleda laotsoonide grupid ja 
 -   **Asukohatüübid** – laoasukohtade füüsiline või loogiline grupeering. Näiteks saate luua asukohatüüp ajastamise kõigi asukohtade jaoks. Lehe **Laohalduse parameetrid** kohustuslikud sätted juhivad vaheasukoha tüüpide ja lõppsihtkoha määratlemise protsessi.
 -   **Asukohad** – asukohateabe madalaim tase. Asukohti kasutatakse jälgimiseks, kus vaba kaubavaru laos ladustatakse ja komplekteeritakse.
 
-Laopaigutuse määratlemiseks loodavaid üksusi kasutatakse töömallidel seadistatavates päringutes lao töötellimuste juhtimiseks. Seetõttu arvestage tsoonide, asukohatüüpide jne määratlemisel, kuidas lao erinevaid alasid erinevate protsesside jaoks kasutatakse. Lisaks arvestage selliseid tegureid nagu konkreetse ala füüsilised omadused. Näiteks võib olla alasid, kus saate kasutada ainult teatud tüüpi kahveltõstukit. Või kui teie ettevõttel on samas rajatises nii tootmis- kui ka lõpetatud tooted, võite soovi korral luua rakenduses Dynamics 365 for Operations ühe lao, kuid seejärel eraldada need kaks toimingut, luues kaks tsoonigruppi. Andke oma üksustele kirjeldavad nimed, et neid oleks lihtne tuvastada, kui kasutate neid mallpäringutes.
+Laopaigutuse määratlemiseks loodavaid üksusi kasutatakse töömallidel seadistatavates päringutes lao töötellimuste juhtimiseks. Seetõttu arvestage tsoonide, asukohatüüpide jne määratlemisel, kuidas lao erinevaid alasid erinevate protsesside jaoks kasutatakse. Lisaks arvestage selliseid tegureid nagu konkreetse ala füüsilised omadused. Näiteks võib olla alasid, kus saate kasutada ainult teatud tüüpi kahveltõstukit. Või kui teie ettevõttel on samas rajatises nii tootmis- kui ka lõpetatud tooted, võite soovi korral luua rakenduses Finance and Operations ühe lao, kuid seejärel eraldada need kaks toimingut, luues kaks tsoonigruppi. Andke oma üksustele kirjeldavad nimed, et neid oleks lihtne tuvastada, kui kasutate neid mallpäringutes.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Asukoha ladustamispiirangud, asukohaprofiilid ja fikseeritud komplekteerimiskohad
 

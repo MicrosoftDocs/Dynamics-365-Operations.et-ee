@@ -3,7 +3,7 @@ title: Tasakaalustuse konfigureerimine
 description: "Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles artiklis kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d3015004371aa041a7ee545df9a4c7f0e48ca31
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles artiklis kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks. 
 
-Järgmised parameetrid mõjutavad, kuidas tasakaalustusi Microsoft Dynamics 365 for Operationsis töödeldakse. Tasakaalustus on arve makse või kreeditarvega tasakaalustamise protsess. Need parameetrid asuvad ala **Tasakaalustus** lehtedel **Müügireskontro parameetrid** ja **Ostureskontro parameetrid**.
+Järgmised parameetrid mõjutavad, kuidas tasakaalustusi Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis töödeldakse. Tasakaalustus on arve makse või kreeditarvega tasakaalustamise protsess. Need parameetrid asuvad ala **Tasakaalustus** lehtedel **Müügireskontro parameetrid** ja **Ostureskontro parameetrid**.
 
 -   **Automaatne tasakaalustus** – määrake see suvand valikule **Jah**, kui kanne tuleks tasakaalustada teiste avatud kannetega automaatselt kande sisestamisel. Kui see suvand on seatud valikule **Ei**, saavad kasutajad kandeid käsitsi tasakaalustada maksete sisestamisel või hiljem, kasutades lehte **Kannete tasakaalustamine**.
 -   **Skonto haldamine** – määrake, kuidas [skontot arve ülemaksmisel käsitletakse](cash-discount-handling-overpayments.md). Ülemakse puhul saab skontot vähendada, käsitleda erinevusena või jätta selle hankija või kliendi kontole.

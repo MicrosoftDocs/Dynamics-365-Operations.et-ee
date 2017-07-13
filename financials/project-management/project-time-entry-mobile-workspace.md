@@ -1,28 +1,28 @@
 ---
-title: "Projekti ajakirje mobiilne tööruum rakendusele Dynamics 365 for Operations"
+title: "Mobiilse tööruumi projekti ajakirje"
 description: "See teema annab teavet projekti ajakirje mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel sisestada ja säästa aega projektiga, kasutades oma mobiilset seadet."
-author: annbe
+author: KimANelson
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-audience: Application User, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: annbe
+ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,16 +31,14 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+See teema annab teavet **projekti ajakirje** mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel sisestada ja säästa aega projektiga, kasutades oma mobiilset seadet.
 
+See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations. 
 
-See teema annab teavet projekti ajakirje mobiilse tööruumi kohta rakendusele Microsoft Dynamics 365 for Operations. See tööruum võimaldab kasutajatel sisestada ja säästa aega projektiga, kasutades oma mobiilset seadet.
-
-<a name="overview-of-the-project-time-entry-mobile-workspace"></a>Projekti ajakirje mobiilse tööruumi ülevaade
----------------------------------------------------
-
+## <a name="overview"></a>Ülevaade
 Igapäevase töö käigus on projekti ressursid sageli objektil või reisimas. Mobiilne tööruum **Projekti ajakirje** võimaldab kasutajatel sisestada projekti puhul arveldatavat või mittearveldatavat aega nende valitud mobiilses seadmes. Nii saavad projekti ressursid registreerida ajakirjeid igal ajal ja igal pool. Samuti saavad nad vaadata juba registreeritud ajakirjeid. 
 
-Konkreetsemalt pakub mobiilne tööruum **Projekti ajakirje** järgmisi funktsioone.
+Konkreetsemalt saavad kasutajad teha mobiilses tööruumis **Projekti ajakirje** järgmisi toiminguid.
 
 -   Mis tahes valitud kuupäeva puhul saate sisestada kindlale ülesandele kulutatud tundide arvu.
 -   Saate otsida projekti nime või kliendi järgi, et leida projekt, mille kohta aega sisestada.
@@ -48,17 +46,16 @@ Konkreetsemalt pakub mobiilne tööruum **Projekti ajakirje** järgmisi funktsio
 -   Saate registreerida aja projekti puhul arveldatava või mittearveldatavana.
 -   Soovi korral saate sisestada väliseid või sisemisi kommentaare.
 
-Mobiilse tööruumi **Projekti ajakirje** juurutamiseks vaadake selle teema järgmisi jaotisi.
-
 ## <a name="prerequisites"></a>Eeltingimused
-Enne mobiilse tööruumi **Projekti ajakirje** juurutamist veenduge, et teie süsteemiadministraator oleks täitnud järgmised eeltingimused.
+Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Eeltingimused lahenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni 2017. aasta juuli värskenduse kasutamisel 
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendus, peab süsteemiadministraator avaldama **projekti ajakirje** mobiilse tööruumi. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Eeltingimus</th>
@@ -68,45 +65,38 @@ Enne mobiilse tööruumi **Projekti ajakirje** juurutamist veenduge, et teie sü
 </thead>
 <tbody>
 <tr class="odd">
-<td>Juurutatud peab olema Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuemaga.</td>
-<td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pole Dynamics 365 for Operations veel juurutatud, peaks süsteemiadministraator vaatama teemat <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Microsoft Dynamics 365 for Operationsi demokeskkonna juurutamine</a>.</td>
-</tr>
-<tr class="even">
-<td>Juurutatud peab olema KB 4018050.</td>
+
+<td>Rakendage KB 4018050.</td>
 <td>Süsteemiadministraator</td>
 <td>KB 4018050 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Projekti ajakirje</strong>. KB 4018050 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
 <ol>
-<li>Laadima KB 4018050 alla Microsoft Dynamicsi elutsükliteenustest (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ProjectMobile</strong>, ning seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Rakendama juurutatavat paketti</a> teie Microsoft Dynamics 365 for Operationsi süsteemile.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Laadige alla metaandmete kiirparandus teenusest Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ProjectMobile</strong>, ning seejärel laadima juurutatava paketi LCS-i üles.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
+
 </ol></td>
 </tr>
-<tr class="odd">
-<td>Mobiilne tööruum <strong>Projekti ajakirje</strong> tuleb avaldada Dynamics 365 for Operationsi mobiilirakenduses.</td>
+<tr class="even">
+<td>Avaldage mobiilne tööruum <strong>Projekti ajakirje</strong>.</td>
 <td>Süsteemiadministraator</td>
-<td><ol>
-<li>Käivitage oma brauseris rakendus Dynamics 365 for Operations.</li>
-<li>Valige lehe <strong>Süsteemi parameetrid</strong> vahekaardil <strong>Mobiilsete tööruumide haldamine</strong> tööruum <strong>Projekti ajakirje</strong>.</li>
-<li>Klõpsake nuppu <strong>Mobiilse tööruumi avaldamine</strong>.</li>
-</ol></td>
+<td>Vt jaotist <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operationsi mobiilirakenduse alla laadimine ja installimine
-Laadige mobiilirakenduste poest alla mobiilirakendus Microsoft Dynamics 365 for Operations ja installige see.
+## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
 
--   Androidile: [Dynamics 365 for Operations Google Play Store’is](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   iPhone’ile: [Dynamics 365 for Operations iTunes apps store’is](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Logige sisse, et kasutada Dynamics 365 for Operationsi mobiilirakendust
+-   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
+
+## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
 1.  Käivitage rakendus oma mobiilses seadmes.
-2.  Sisestage oma Dynamics 365 for Operationsi URL.
-3.  Sisestage ettevõte, millesse soovite sisse logida. Näiteks sisestage **USMF**.
-4.  Esmakordsel sisselogimisel palutakse teil sisestada oma Dynamics 365 for Operationsi konto kasutajanimi ja parool. Sisestage oma identimisteave.
-5.  Pärast sisselogimist näete oma ettevõtte jaoks saadaolevaid tööruume. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem. Võite mobiilsete tööruumide loendi värskendamiseks tõmmata.
+2.  Sisestage Dynamics 365 URL.
+3.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
+4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
 [![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
@@ -115,18 +105,14 @@ Laadige mobiilirakenduste poest alla mobiilirakendus Microsoft Dynamics 365 for 
 2.  Valige suvand **Ajakirje**. Kuvatakse praeguse nädala kalendrikuupäevad.
 3.  Valige soovitud kuupäeva puhul suvandid **Toimingud** &gt; **Uus kirje**.
 4.  Sisestage registreeritavate tundide arv.
-5.  Valige ajakirje jaoks projekt. Näete loendit projektidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Dynamics 365 for Operationsi mobiiliplatvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-6.  Kui soovitud projekti pole loendis, valige suvand **Otsi**, et kasutada Dynamics 365 for Operationsis veebiotsingut. Saate otsida nime järgi või lülituda otsingule projekti nime või kliendi järgi.
-7.  Valige kategooria. Näete loendit kategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Dynamics 365 for Operationsi mobiiliplatvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-8.  Kui soovitud kategooriat pole loendis, valige suvand **Otsi**, et kasutada Dynamics 365 for Operationsis veebiotsingut. Saate otsida kategooria järgi või lülituda kategooria nime järgi otsingule.
-9.  Valige tegevus. Näete loendit tegevustest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Dynamics 365 for Operationsi mobiiliplatvorm](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-10. Kui soovitud tegevust pole loendis, valige suvand **Otsi**, et kasutada Dynamics 365 for Operationsis veebiotsingut. Saate otsida tegevuse numbri järgi või lülituda otstarbe järgi otsingule.
+5.  Valige ajakirje jaoks projekt. Loendis kuvatakse projektid, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+6.  Kui teie projekti pole loendis, valige **Otsi**. Saate otsida nime järgi või lülituda otsingule projekti nime või kliendi järgi.
+7.  Valige kategooria. Loendis kuvatakse kategooriad, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+8.  Kui teie kategooriat pole loendis, valige **Otsi**. Saate otsida kategooria järgi või lülituda kategooria nime järgi otsingule.
+9.  Valige tegevus. Loendis kuvatakse tegevused, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+10. Kui teie tegevust pole loendis, valige **Otsi**. Saate otsida tegevuse numbri järgi või lülituda otstarbe järgi otsingule.
+
 11. Valige rea atribuut.
 12. Valikuline: saate sisestada väliseid ja sisemisi kommentaare.
 13. Valige suvand **Valmis**.
-
-
-
-
-
 

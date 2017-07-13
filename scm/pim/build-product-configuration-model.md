@@ -3,14 +3,14 @@ title: Toote konfiguratsioonimudeli koostamine
 description: "Erinõuetele vastamiseks toodete konfigureerimise vajadus on saamas erandist reegliks nii ettevõtetevahelistes kui ka ettevõtte ja tarbija vahelistes suhetes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 901d5dd18f0da6f05c185c24b3f11fe32fdc400b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5bc19e95266e8f1bec8744da688387dca559373f
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -72,7 +72,7 @@ Tabelipiirangud võivad olla kas kasutaja või süsteemi määratletud.
 
 Kasutaja määratletud tabeli piirang on kasutaja loodud. Kasutaja valib tabeli veergude esindamiseks atribuuditüüpide kombinatsiooni ja sisestab siis väärtused valitud atribuuditüüpide domeenidest, et moodustada tabeli piirangus ridu.  
 
-Süsteemi määratletud tabelipiirangu määratlemiseks valitakse, millist Microsoft Dynamics 365 for Operationsi tabelit viitena kasutada, ja seejärel valitakse sellest tabelist väljad, et moodustada piirangu veerud. Tabelipiirangu read on Dynamics 365 for Operationsi tabeli read, mis on saadaval konfigureerimise ajal.  
+Süsteemi määratletud tabelipiirangu määratlemiseks valitakse, millist Microsoft Dynamics 365 for Finance and Operationsi tabelit viitena kasutada, ja seejärel valitakse sellest tabelist väljad, et moodustada piirangu veerud. Tabelipiirangu read on Finance and Operationsi tabeli read, mis on saadaval konfigureerimise ajal.  
 
 Tabelipiirang on lisatud toote konfiguratsioonimudelile, viidates tabelipiirangu määratlusele ja vastendades asjakohased mudeli atribuudid tabelipiirangu veergudega.
 

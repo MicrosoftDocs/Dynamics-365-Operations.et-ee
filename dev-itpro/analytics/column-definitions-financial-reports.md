@@ -3,7 +3,7 @@ title: Veerudefinitsioonid finantsaruannetes
 description: "See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -154,7 +154,7 @@ Saate kasutada dialoogiboksi **Veerupäis** aruande veergude ülaosas olevate p�
 
 1.  Avage aruande kujundajas muudetav veeru definitsioon.
 2.  Valige päisereast lahter.
-3.  Klõpsake menüüs **Redigeerimine** suvandit **Lisa rida**. Uus rida sisestatakse 2. toimingus valitud rea kohale. **Märkus.**Kui teie aruandes on aruande päiseid neli rida või rohkem ja aruanne eksporditakse Exceli töölehele, siis päised kattuvad. Kõigi päiste kuvamiseks aruandes suurendage aruande definitsioonis ülemist veerist.
+3.  Klõpsake menüüs **Redigeerimine** suvandit **Lisa rida**. Uus rida sisestatakse 2. toimingus valitud rea kohale. **Märkus.** Kui teie aruandes on aruande päiseid neli rida või rohkem ja aruanne eksporditakse Exceli töölehele, siis päised kattuvad. Kõigi päiste kuvamiseks aruandes suurendage aruande definitsioonis ülemist veerist.
 
 ### <a name="delete-a-column-header-row"></a>Veerupäise rea kustutamine
 
@@ -164,7 +164,7 @@ Saate kasutada dialoogiboksi **Veerupäis** aruande veergude ülaosas olevate p�
 
 ### <a name="create-an-automatically-generated-header"></a>Automaatselt loodava päise loomine
 
-Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua. Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse. Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks. Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul. Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC**, **FD** ja **WKS**. Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes. Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega. Seega kuvatakse tekst aruandes erinevate tõstudega. Näiteks standardses kalendriaastas teisendab **@CalMonthLong** kuu **7** valikule **Juuli**. Kui kuu nimi peaks olema suurtäheline (nt **JUULI**), sisestage automaatteksti kood suurtähtedega väljale **Veerupäise tekst**. Näiteks sisestage **@CALMONTHLONG**. Võite koode ja teksti kombineerida. Näiteks saate sisestada järgmise päiseteksti: **Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate**. Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**. **Märkus.** Osa teksti, nt pika kuupäeva, vorming oleneb teie regioonisätetest Dynamics 365 for Operationsi serveris. Nende sätete muutmiseks klõpsake nuppu **Start**, klõpsake suvandit **Juhtpaneel** ja seejärel klõpsake suvandit **Regioon ja keel**. Järgmises tabelis loetletakse veerupäiste puhul saadaolevad automaatteksti suvandid.
+Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua. Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse. Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks. Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul. Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC**, **FD** ja **WKS**. Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes. Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega. Seega kuvatakse tekst aruandes erinevate tõstudega. Näiteks standardses kalendriaastas teisendab **@CalMonthLong** kuu **7** valikule **Juuli**. Kui kuu nimi peaks olema suurtäheline (nt **JUULI**), sisestage automaatteksti kood suurtähtedega väljale **Veerupäise tekst**. Näiteks sisestage **@CALMONTHLONG**. Võite koode ja teksti kombineerida. Näiteks saate sisestada järgmise päiseteksti: **Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate**. Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**. **Märkus.** Osa teksti, nt pika kuupäeva, vorming oleneb teie regioonisätetest Finance and Operationsi serveris. Nende sätete muutmiseks klõpsake nuppu **Start**, klõpsake suvandit **Juhtpaneel** ja seejärel klõpsake suvandit **Regioon ja keel**. Järgmises tabelis loetletakse veerupäiste puhul saadaolevad automaatteksti suvandid.
 
 | Automaatteksti suvand ja kood                | Kirjeldus                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -488,7 +488,7 @@ Järgmises näites kuvatakse veeru kirjelduse osa, mille konto atribuut on real 
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Veeru definitsiooni dimensioonifilter
 
-Dimensiooni filtrit kasutatakse veeru **FD** piiramiseks teatud dimensiooniväärtusteni. Filtri võib sisaldada ühte dimensiooni, dimensioonide vahemikku või dimensioonide gruppi. Filter võib sisaldada ka dimensiooniväärtuste kogumeid. Kuna dimensiooniväärtused võivad olla erinevad, ei pea ..\finantsdimensioonid\dimensioonipõhine süsteem täpsele pikkusele vastama. Filtrit rakendatakse olenemata sellest, kas aruanne sisaldab aruandluspuud või mitte. Saate kasutada metamärki (\* või ?) kõigis kohtades. Mitme konto määramisel pange kontode vahele koma, nagu järgmises näites: +Konto=\[1200\], +Konto=\[1100\], Osakond=\[01?\] Kõikide kindla konto osakondade saamiseks saate osakonna dimensiooni dimensioonifiltrist välistada. Näiteks käsitletakse mõlemat järgmist dimensioonifiltrit samamoodi.
+Dimensiooni filtrit kasutatakse veeru **FD** piiramiseks teatud dimensiooniväärtusteni. Filtri võib sisaldada ühte dimensiooni, dimensioonide vahemikku või dimensioonide gruppi. Filter võib sisaldada ka dimensiooniväärtuste kogumeid. Kuna dimensiooniväärtused võivad olla erinevad, ei pea ..\finantsdimensioonid\dimensioonipõhine süsteem täpsele pikkusele vastama. Filtrit rakendatakse olenemata sellest, kas aruanne sisaldab aruandluspuud või mitte. Saate kasutada metamärki (\* või ?) kõigis kohtades. Kui määrate mitu kontot, pange kontode vahele koma, nagu järgmises näites: +konto=\[1200\], +konto=\[1100\], osakond=\[01?\] Kõigi konkreetse konto osakondade saamiseks võite dimensioonifiltrist dimensiooni Osakond välja jätta. Näiteks käsitletakse mõlemat järgmist dimensioonifiltrit samamoodi.
 
 -   +Konto=\[1100\],Osakond
 -   +Konto=\[1100\]

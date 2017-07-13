@@ -1,27 +1,27 @@
 ---
 title: Finantsaruannete vaatamine
-description: "Selles artiklis kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics AX-is. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad."
-author: RobinARH
+description: "Selles artiklis kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics AX-is. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
+Selles artiklis kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 
 <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
 ----------------------------
@@ -64,7 +64,7 @@ Saate värskendada (uuendada) finantsaruannet nii, et seal oleks kuvatud kõige 
 Pärast finantsaruande värskendamist saate selle avaldada. Siis saavad teised organisatsiooni inimesed seda vaadata. Aruande avaldamiseks klõpsake tegumiribal käsku **Avalda**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Finantsaruande kuvamine teises valuutas
-Finantsaruande saab kuvada alati soovitud valuutas. Aruande kuvamiseks teises valuutas klõpsake tegumiribal nuppu **Valuuta** ja seejärel valige valuuta. Aruande teisendatakse sellesse valuutasse ja kuvatakse tulemused. Aruande kujunduses sisalduvaid valuutakoode või sümboleid muudetakse nii, et need kajastaksid uut valuutat. Loendis kuvatavad valuutad on Microsoft Dynamics AX-is konfigureeritud aruandlusvaluutad.
+Finantsaruande saab kuvada alati soovitud valuutas. Aruande kuvamiseks teises valuutas klõpsake tegumiribal nuppu **Valuuta** ja seejärel valige valuuta. Aruande teisendatakse sellesse valuutasse ja kuvatakse tulemused. Aruande kujunduses sisalduvaid valuutakoode või sümboleid muudetakse nii, et need kajastaksid uut valuutat. Loendis kuvatavad valuutad on Finance and Operationsis konfigureeritud aruandlusvaluutad.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Finantsaruande kokkuvõttevaate kuvamine
 Finantsaruanne võib sisaldada üksikasjaridu ja kokkuvõtteridu. Üksikasjaread on read, mis sisaldavad põhikontosid või dimensioone. Kokkuvõtteread on kirjelduse, koondsumma ja arvutuste read. Ainult aruande kokkuvõtteridade kuvamiseks klõpsake nuppu **Kuva** ja seejärel valikut **Ainult kokkuvõtteread**. Aruanne ahendatakse ning kuvatakse ainult kokkuvõtteread. Üksikasjaridade kuvamiseks koos kokkuvõtteridadega klõpsake nuppu **Kuva** ja seejärel uuesti valikut **Ainult kokkuvõtteread**.
@@ -88,7 +88,8 @@ Finantsaruande eksportimiseks klõpsake tegumiribal käsku **Ekspordi**. Aruanne
 <a name="see-also"></a>Vt ka
 --------
 
-[Finantsaruandlus Microsoft Dynamics AX-i jaoks](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Finantsaruandlus Microsoft Dynamics AX-i jaoks](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

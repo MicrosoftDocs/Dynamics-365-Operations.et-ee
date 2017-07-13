@@ -1,16 +1,16 @@
 ---
 title: "Kvaliteedijuhtimise ülevaade"
-description: "Selles artiklis kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 for Operationsis kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti."
+description: "Selles artiklis kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 for Finance and Operationsis kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 for Operationsis kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
+Selles artiklis kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 for Finance and Operationsis kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
 
-Kvaliteedijuhtimise abil saate hallata ümberpööramise aegu, kui käsitsete mittevastavaid tooteid, olenemata nende päritolukohast. Kuna diagnostikatüübid on seotud parandustest teatamisega, saab Microsoft Dynamics 365 for Operations plaanida ülesandeid probleemide kõrvaldamiseks ja nende kordumise vältimiseks.
+Kvaliteedijuhtimise abil saate hallata ümberpööramise aegu, kui käsitsete mittevastavaid tooteid, olenemata nende päritolukohast. Kuna diagnostikatüübid on seotud parandustest teatamisega, saab Microsoft Dynamics 365 for Finance and Operations plaanida ülesandeid probleemide kõrvaldamiseks ja nende kordumise vältimiseks.
 
 Lisaks mittevastavuste haldamiseks mõeldud funktsioonidele hõlmab kvaliteedijuhtimine funktsioone probleemide jälgimiseks probleemi tüübi alusel (isegi sisemiste probleemide puhul) ja lühiajaliste või pikaajaliste lahenduste tuvastamiseks. Tulemuslikkuse võtmenäitajate (KPI) statistika annab ülevaate varasematest mittevastavuse probleemidest ja nende kõrvaldamiseks kasutatud lahendustest. Saate kasutada varasemaid andmeid eelmiste kvaliteedimeetmete tulemuslikkuse ülevaatamiseks ja sobivate tulevikus kasutatavate meetmete määramiseks.
 
-Kvaliteediseose seadistamisel saab Microsoft Dynamics 365 for Operations koostada kvaliteettellimusi mitmesugustele äriprotsessidele, sündmustele ja tingimustele. Kvaliteediseos võib hõlmata konkreetset kaupa, konkreetset kaubagruppi või kõiki kaupu.
+Kvaliteediseose seadistamisel saab Finance and Operations koostada kvaliteettellimusi mitmesugustele äriprotsessidele, sündmustele ja tingimustele. Kvaliteediseos võib hõlmata konkreetset kaupa, konkreetset kaubagruppi või kõiki kaupu.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Kvaliteedijuhtimise kasutamise näited
 Kvaliteedijuhtimine on paindlik ja seda saab rakendada mitmesugusel moel, et järgida konkreetsete tarneahela toimingute tasemete nõudeid. Järgmised näited illustreerivad nende funktsioonide võimalikke kasutusviise.

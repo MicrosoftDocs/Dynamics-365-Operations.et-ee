@@ -1,16 +1,16 @@
 ---
 title: "Digitaalallkirja ülevaade"
-description: "Selles artiklis antakse ülevaade elektronallkirjadest ja kirjeldatakse nende kasutust Microsoft Dynamics 365 for Operationsis."
+description: "Selles artiklis antakse ülevaade elektronallkirjadest ja kirjeldatakse nende kasutust Microsoft Dynamics 365 for Finance and Operationsis."
 author: maertenm
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13611
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5adf45769657e4da81af00b2114a2c1a98655207
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 0cebd30a560ff033efab89c2055827b62cf31576
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,15 +31,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis antakse ülevaade elektronallkirjadest ja kirjeldatakse nende kasutust Microsoft Dynamics 365 for Operationsis.
+Selles artiklis antakse ülevaade elektronallkirjadest ja kirjeldatakse nende kasutust Microsoft Dynamics 365 for Finance and Operationsis.
 
 <a name="what-is-an-electronic-signature"></a>Mis on elektronallkiri?
 --------------------------------
 
-Elektronallkiri kinnitab isiku, kes käivitab või kinnitab protsessi. Mõnes tööstuses on elektronallkiri juriidiliselt sama siduv kui käsitsi kirjutatud allkiri. Elektronallkirjad on määrustele vastavuse nõue mitmes reguleeritud tööstusharus, nt farmaatsia-, toiduainete- ja joogi-, ja lennundus ja kaitsetööstuses. Need on vajalikud ka vastavuse tagamiseks USA toiduainete ja -ravimiameti väljastatud määruste CFR-i 21. ptk osaga 11. **Märkus.** Elektrooniline allkiri pole sama mis digitaalallkiri. Elektrooniline allkiri asendab lihtsalt käsitsi kirjutatud allkirja, samal ajal, kui digitaalallkirjaga kaasnevad ka täiendavad turvameetmed. Digitaalallkirja abil saab tuvastada kas teine kasutaja või protsess on andmeid rikkunud. Digitaalallkirja saab ka kinnitada ja omanik, kellele andmete allkirjastamise sertifikaat kuulub, ei saa seda ümber lükata. Nagu allpool kirjeldatud, on Microsoft Dynamics 365 for Operationsi elektronallkirjadel sisseehitatud digitaalallkirja funktsioon.
+Elektronallkiri kinnitab isiku, kes käivitab või kinnitab protsessi. Mõnes tööstuses on elektronallkiri juriidiliselt sama siduv kui käsitsi kirjutatud allkiri. Elektronallkirjad on määrustele vastavuse nõue mitmes reguleeritud tööstusharus, nt farmaatsia-, toiduainete- ja joogi-, ja lennundus ja kaitsetööstuses. Need on vajalikud ka vastavuse tagamiseks USA toiduainete ja -ravimiameti väljastatud määruste CFR-i 21. ptk osaga 11. **Märkus.** Elektrooniline allkiri pole sama mis digitaalallkiri. Elektrooniline allkiri asendab lihtsalt käsitsi kirjutatud allkirja, samal ajal, kui digitaalallkirjaga kaasnevad ka täiendavad turvameetmed. Digitaalallkirja abil saab tuvastada kas teine kasutaja või protsess on andmeid rikkunud. Digitaalallkirja saab ka kinnitada ja omanik, kellele andmete allkirjastamise sertifikaat kuulub, ei saa seda ümber lükata. Nagu allpool kirjeldatud, on Microsoft Dynamics 365 for Finance and Operationsi elektronallkirjadel sisseehitatud digitaalallkirja funktsioon.
 
-## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Elektronallkirjad Dynamics 365 for Operationsis
-Dynamics 365 for Operationsis saate kasutada tähtsateks äriprotsessideks elektronallkirju. Mõnedel protsessidel on sisseehitatud elektronallkirja võimalused. Igale andmebaasi tabelile või väljale saate luua ka allkirjanõuded. Elektronallkirjadel on sisseehitatud digitaalallkirja funktsioon. Iga dokumenti allkirjastav kasutaja peab hankima kehtiva krüptograafilise serdi. Dokumendi allkirjastamisel kinnitatakse sertifikaadiga seostuv privaatvõti. Dynamics 365 for Operations salvestab elektronallkirja teabe kontrolljälje pakkumiseks logisse. Teavet elektrooniliste allkirjade seadistamise kohta vt teemast [Elektrooniliste allkirjade seadistamine (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Elektronallkirjad Dynamics 365 for Finance and Operationsis
+Finance and Operationsis saate kasutada tähtsateks äriprotsessideks elektronallkirju. Mõnedel protsessidel on sisseehitatud elektronallkirja võimalused. Igale andmebaasi tabelile või väljale saate luua ka allkirjanõuded. Elektronallkirjadel on sisseehitatud digitaalallkirja funktsioon. Iga dokumenti allkirjastav kasutaja peab hankima kehtiva krüptograafilise serdi. Dokumendi allkirjastamisel kinnitatakse sertifikaadiga seostuv privaatvõti. Finance and Operations salvestab elektronallkirja teabe kontrolljälje pakkumiseks logisse. Teavet elektrooniliste allkirjade seadistamise kohta vt teemast [Elektrooniliste allkirjade seadistamine (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Kasutajad, kes vajavad juurdepääsu elektronallkirjadele
 Kolme tüüpi kasutajad vajavad tavaliselt turvapääsu digitaalallkirjadele: digitaalallkirja administraatorid, allkirjastajad ja digitaalallkirja audiitorid.
@@ -62,7 +62,7 @@ Elektronallkirja audiitor vaatab üle andmebaasilogi ja andmebaasis oleva allkir
 ## <a name="signing-documents-electronically"></a>Dokumentide elektrooniline allkirjastamine
 ### <a name="get-a-certificate"></a>Sertifikaadi hankimine
 
-Enne dokumentide elektroonilist allkirjastamist Dynamics 365 for Operationsis peab taotlema serti. **Märkus.** Dynamics 365 for Operations kasutab sertide loomiseks ja elektroonilise allkirjastamise võimaldamiseks Microsoft SQL Serveri funktsioone. Muid sertifikaate ega avaliku võtme infrastruktuure (PKI) pole vaja. Serdi taotlemisel luuakse teie jaoks Dynamics 365 for Operationsi andmebaasi avalik võti ja privaatvõti. Privaatvõti krüptitakse ainult teile teadaolevat parooli kasutades. Dokumendi elektroonsel allkirjastamisel kinnitatakse teie identiteet parooli sisestamisel. Serdi taotlemiseks klõpsake lehe **Suvandid** vahekaardil **Kontod** käsku **Hangi sert**. Peate sisestama ja kinnitama allkirjastamiseks kasutatava parooli. Parooli kasutatakse teie privaatvõtme kaitsmiseks ja sertifikaadi kasutamise volituseks. Parooli ei salvestata andmebaasis ja see ei ole teistele (isegi mitte Dynamics 365 for Operationsi administraatorile) kättesaadav. Serdiga seotud parooli unustamisel peab serdi lähtestama. Serdi lähtestamine ei mõjuta dokumente, mille eelmise serdi abil allkirjastasite. Serdi lähtestamiseks klõpsake lehel **Suvandid** käsku **Lähtesta sert**.
+Enne dokumentide elektroonilist allkirjastamist Finance and Operationsis peab taotlema serti. **Märkus.** Finance and Operations kasutab sertide loomiseks ja elektroonilise allkirjastamise võimaldamiseks Microsoft SQL Serveri funktsioone. Muid sertifikaate ega avaliku võtme infrastruktuure (PKI) pole vaja. Sertifikaadi taotlemisel luuakse teie jaoks rakenduse Finance and Operationsi andmebaasi avalik võti ja privaatvõti. Privaatvõti krüptitakse ainult teile teadaolevat parooli kasutades. Dokumendi elektroonsel allkirjastamisel kinnitatakse teie identiteet parooli sisestamisel. Serdi taotlemiseks klõpsake lehe **Suvandid** vahekaardil **Kontod** käsku **Hangi sert**. Peate sisestama ja kinnitama allkirjastamiseks kasutatava parooli. Parooli kasutatakse teie privaatvõtme kaitsmiseks ja sertifikaadi kasutamise volituseks. Parooli ei salvestata andmebaasis ja see ei ole teistele (isegi mitte Finance and Operationsi administraatorile) kättesaadav. Serdiga seotud parooli unustamisel peab serdi lähtestama. Serdi lähtestamine ei mõjuta dokumente, mille eelmise serdi abil allkirjastasite. Serdi lähtestamiseks klõpsake lehel **Suvandid** käsku **Lähtesta sert**.
 
 ### <a name="sign-a-document-electronically"></a>Dokumendi digitaalselt allkirjastamine
 
@@ -77,7 +77,7 @@ Vorm **Dokumendi allkirjastamine** kuvatakse siis, kui teete muudatuse, mis nõu
 
 ### <a name="sign-for-another-users-changes"></a>Teise kasutaja muudatuste allkirjastamine
 
-Mõnikord on vaja kasutajal teise kasutaja muudatusi allkirjastada. Näiteks peab ülemus allkirjastama töötaja tehtud koosluse (BOM) muudatused. Kasutage seda protseduuri Dynamics 365 for Operationsi kasutaja määramiseks allkirjastajana teise allkirjastaja asemel. **Märkus.** Kui üks kasutaja allkirjastab teise kasutaja muudatuse, peab muudatuse teinud kasutaja andma allkirja tööjaamas. Kasutaja ei saa muudatust salvestada enne, kui allkiri on antud. Kinnitajate määramiseks tehke järgmist.
+Mõnikord on vaja kasutajal teise kasutaja muudatusi allkirjastada. Näiteks peab ülemus allkirjastama töötaja tehtud koosluse (BOM) muudatused. Kasutage seda protseduuri rakenduse Finance and Operations kasutaja määramiseks allkirjastajaks teise allkirjastaja asemel. **Märkus.** Kui üks kasutaja allkirjastab teise kasutaja muudatuse, peab muudatuse teinud kasutaja andma allkirja tööjaamas. Kasutaja ei saa muudatust salvestada enne, kui allkiri on antud. Kinnitajate määramiseks tehke järgmist.
 
 1.  Klõpsake lehe **Suvandid** vahekaardil **Kontod** valikut **Määra kinnitaja**.
 2.  Valige väljal **Kinnitaja kasutaja ID** selle kasutaja ID, kes peab teise kasutaja tehtud muudatuse allkirjastama.

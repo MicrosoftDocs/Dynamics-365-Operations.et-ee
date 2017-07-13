@@ -80,7 +80,7 @@ Retail võimaldab kaupluse juhatajatel luua ja avaldada kaupluse töötajate vah
 
 Klienditeenindajad saavad määratud vahetustest ja graafikutest ülevaate, samuti vahetuste juhised ning näevad andmeid vahetustesse määratud kaastööliste kohta. Samuti saavad nad esitada puudumistaotlusi, taotlusi kaastöötajatega vahetuste vahetamiseks ja vahetuse pakkumistaotlusi.
 
-## <a name="customize-and-administer-retail-environments"></a>Jaemüügikeskkondade kohandamine ja haldamine
+## <a name="customize-and-administer-retail-environments"></a>Retaili keskkondade kohandamine ja haldamine
 Kui teil on palutud oma keskkonda kohandada või kui teie ülesandeks on oma süsteemi juurutamine ja haldamine, vaadake kindlasti rakendusele Retail omast arendaja ja süsteemiadministraatori sisu ning ka üldisemat sisu.
 
 - [Dynamics 365 for Retail IT-professionaalidele ja arendajatele](dev-itpro/dev-retail-home-page.md)

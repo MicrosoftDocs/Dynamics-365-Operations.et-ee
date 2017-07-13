@@ -3,7 +3,7 @@ title: "Tootmisprotsessi ülevaade"
 description: "See artikkel annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ Toodete tootmine, protsess, mida nimetatakse ka tootmise töötsükliks, järgib
 
 Moodul **Tootmise juhtimine** on seotud teiste moodulitega, nagu **Tooteteabe haldus**, **Varude haldus**, **Pearaamat**, **Laohaldus**, **Projekti raamatupidamine** ja **Organisatsiooni administreerimine**. Selline integreeritus toetab teabevoogu, mida on vaja valmis kauba tootmiseks.  
 
-Tavaliselt mõjutavad tootmisprotsessi kindla tootmisprotsessi jaoks valitud kuluarvestuse ja varude hindamise meetodid. Microsoft Dynamics 365 for Operations toetab nii tegeliku kulu (esimesena sisse, esimesena välja \[FIFO\], viimasena sisse, esimesena välja \[LIFO\], liikuv keskmine ja perioodiline kaalutud keskmine) kui ka standardkulu meetodit. Lean manufacturingit rakendatakse omahinna tagasiarvestuse põhimõtte alusel.  
+Tavaliselt mõjutavad tootmisprotsessi kindla tootmisprotsessi jaoks valitud kuluarvestuse ja varude hindamise meetodid. Finance and Operations toetab nii tegeliku kulu (esimesena sisse, esimesena välja \[FIFO\], viimasena sisse, esimesena välja \[LIFO\], liikuv keskmine ja perioodiline kaalutud keskmine) kui ka standardkulu meetodit. Lean manufacturingit rakendatakse omahinna tagasiarvestuse põhimõtte alusel.  
 
 Kulumõõtmismeetodite valik määratleb ka tootmisprotsessi materjalide ja ressursside tarbimise aruandluse nõuded. Tavaliselt nõuavad tegeliku kulu meetodid täpset aruandlust töö tasemel, samas kui perioodilise kuluarvestuse meetodid võimaldavad esitada materjalide ja ressursside tarbimise kohta üldisema aruande.
 
 ## <a name="mixed-mode-manufacturing"></a>Tootmise segarežiim
-Erinevad toodete ja tootmise topoloogiad nõuavad erinevate tellimustüüpide rakendamist. Dynamics 365 for Operations saab rakendada erinevaid tellimusetüüpe segarežiimis. Teisisõnu võib kogu tootmisprotsessi käigus kuni valmistooteni esineda kõiki tellimusetüüpe.
+Erinevad toodete ja tootmise topoloogiad nõuavad erinevate tellimustüüpide rakendamist. Finance and Operations saab rakendada erinevaid tellimusetüüpe segarežiimis. Teisisõnu võib kogu tootmisprotsessi käigus kuni valmistooteni esineda kõiki tellimusetüüpe.
 
 -   **Tootmistellimus** – see on klassikaline tellimus kindla toote või tootevariandi antud koguse tootmiseks kindlal kuupäeval. Tootmistellimused põhinevate kooslustel ja protsessidel.
 -   **Partii tellimus** – seda tüüpi tellimust kasutatakse protsessi harude ja diskreetsete protsesside puhul, kus tootmise teisendus põhineb valemil või kus kaastooted ja kõrvalsaadused võivad olla lõpptooted kas põhitootele lisaks või selle asemel. Partii tellimused kasutavad **valemi** tüüpi kooslusi ja protsesse.

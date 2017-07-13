@@ -3,13 +3,14 @@ title: "Hankija koostöö arve tööruum"
 description: "See teema selgitab, kuidas saate vaadata hankijaarveid ja edastada arveid hankija koostöö arveldamise tööruumist."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 See teema selgitab, kuidas saate vaadata hankijaarveid ja edastada arveid hankija koostöö arveldamise tööruumist.
 
-Tööruumi **Hankija koostöö arve** saab kasutada, et vaadata hankija arve teavet ja esitada arveid rakendusse Microsoft Dynamics 365 for Operations, kasutades töövoo võimalusi.
+Tööruumi **Hankija koostöö arve** saab kasutada, et vaadata hankija arve teavet ja esitada arveid rakendusse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, kasutades töövoo võimalusi.
 Hankija koostöö arve tööruum
 ----------------------------------------
 
@@ -40,14 +41,14 @@ Hankija koostöö arve tööruum
 
 Paanid **Kokkuvõte** annavad valitud hankija arvetest ülevaate. Saate vaadata arveid nende oleku järgi.
 -   Arvemustandeid ei ole edastatud töövoosse.
--   Esitatud, kuid kinnitamata arved on need arved, mille hankija on edastanud, kuid need pole sisestatud rakendusse Dynamics 365 for Operations.
--   Esitatud, kuid makstud arved on need arved, mis on sisestatud rakendusse Dynamics 365 for Operations, kuid need pole veel täielikult tasutud.
--   Tasutud arved on need, mis on rakenduses Dynamics 365 for Operations täielikult tasutud.
+-   Esitatud, kuid kinnitamata arved on need arved, mille hankija on edastanud, kuid need pole sisestatud rakendusse Finance and Operations.
+-   Esitatud, kuid makstud arved on need arved, mis on sisestatud rakendusse Finance and Operations, kuid need pole veel täielikult tasutud.
+-   Tasutud arved on need, mis on rakenduses Finance and Operations täielikult tasutud.
 
 Paani klõpsamine avab lehest **Arvete loend** filtreeritud vaate.
 ### <a name="tabular-lists"></a>Tabelloendid
 
-Jaotises **Tabelloendid**on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid. Mustandi olekus saab arve edastada töövoosse või kustutada. Viimane tabelloend on võimalus arvete leidmiseks. Saate otsides filtreerida, et võimaldada kiiremaid otsinguid.
+Jaotises **Tabelloendid** on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid. Mustandi olekus saab arve edastada töövoosse või kustutada. Viimane tabelloend on võimalus arvete leidmiseks. Saate otsides filtreerida, et võimaldada kiiremaid otsinguid.
 Kõikide hankijaarvete loendileht
 -----------------------------
 
@@ -59,7 +60,7 @@ Saate luua uue hankijaarve, valides tegevuse **Uus** tööruumis **Hankija koost
 
 
 
-Lisateabe saamiseks vaadake teemat [Hankijatega koostöö tegemine hankija portaali kasutades](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Lisateabe saamiseks vaadake teemat [Hankijatega koostöö tegemine hankija portaali kasutades](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

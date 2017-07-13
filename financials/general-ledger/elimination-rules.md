@@ -3,7 +3,7 @@ title: Eemaldamisreeglid
 description: "See teema annab teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ab1d8fb5bfc9413652d222e701c44b3b91a4c842
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -133,7 +133,7 @@ Teie juriidiline isik (A) müüb vidinad teisele teie ettevõtte juriidilisele i
 Kõik need kanded loovad kontsernisisesed kanded, mis sisestatakse algus- ja lõpptähtaja kontodele. Peale selle võivad need kanded hõlmata hinnalisandiga ja hinnavähendusega summasid, kui kontsernisisene müügisumma ja müüdud kaupade maksumus ei ole võrdsed.
 
 ## <a name="set-up-elimination-rules"></a>Eemaldamisreeglite seadistamine
-Dynamics 365 for Operationsis eemaldamisreeglite seadistamisel soovitame luua spetsiaalselt eemaldamiseks mõeldud finantsdimensiooni. Enamik kliente annab sellele nimeks Kaubanduspartner või muud sarnast. Kui te ei soovi finantsdimensiooni kasutada, siis peavad teil kindlasti olema ainult ettevõtete vahelisteks kanneteks mõeldud põhikontod. 
+Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis eemaldamisreeglite seadistamisel soovitame luua spetsiaalselt eemaldamiseks mõeldud finantsdimensiooni. Enamik kliente annab sellele nimeks Kaubanduspartner või muud sarnast. Kui te ei soovi finantsdimensiooni kasutada, siis peavad teil kindlasti olema ainult ettevõtete vahelisteks kanneteks mõeldud põhikontod. 
 
 Eemaldamised saate seadistada mooduli Konsolideerimised alal Seadistus. Kui olete reegli kohta kirjelduse sisestanud, peate valima ettevõtte, millesse eemaldamisreegel sisestab. See peab olema ettevõte, mille puhul on juriidilise isiku seadistuses valitud suvand **Kasuta finantsiliseks eemaldamisprotsessiks**. 
 

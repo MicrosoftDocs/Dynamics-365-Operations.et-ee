@@ -1,9 +1,9 @@
 ---
 title: "Spikrisüsteemi ühendamine"
-description: "Selles teemas kirjeldatakse Microsoft Dynamics 365 for Operationsi spirkisüsteemi komponente ning antakse ülevaade nende ühendamisest ja kokkuvõte kohandatud spikri loomisest."
+description: "Selles teemas kirjeldatakse Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponente ning antakse ülevaade nende ühendamisest ja kokkuvõte kohandatud spikri loomisest."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86c7cb3961ba5170c32979e77aaa5f506ffac8a1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 425e87f8b667b53fcc950730dc4ece6330503d66
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,15 +32,19 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 for Operationsi spikrisüsteemi komponente. Antakse ülevaade nende komponentide ühendamisest ning kokkuvõte kohandatud spikri loomisest. 
+Selles teemas kirjeldatakse Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponente. Antakse ülevaade nende komponentide ühendamisest ning kokkuvõte kohandatud spikri loomisest. 
 
-<a name="help-architecture"></a>Spikri arhitektuur
------------------
+## <a name="help-architecture"></a>Spikri arhitektuur
+Järgmisel joonisel on näidatud Finance and Operationsi spikrisüsteemi osad. Toote sisespikri süsteem toob artikleid Finance and Operationsi saidilt https://docs.microsoft.com ja tegevusejuhistest, mis on salvestatud teenuse Microsoft Dynamics Lifecycle Services (LCS) äriprotsesside modelleerijasse. 
+> [!NOTE]
+> Joonisel tärniga (\*) märgitud funktsioonid on meil plaanis, kuid pole veel saadaval. [![Spikri arhitektuur](./media/help-architecture.png)](./media/help-architecture.png)
 
-Järgmisel joonisel on näidatud Microsoft Dynamics 365 for Operationsi spikrisüsteemi osad. Toote sisespikri süsteem toob artikleid Dynamics 365 for Operationsi saidilt https://docs.microsoft.com ja tegevusejuhistest, mis on salvestatud teenuse Microsoft Dynamics Lifecycle Services (LCS) äriprotsesside modelleerijasse. 
-**Märkus** Joonisel tärniga (\*) märgitud funktsioonid on meil plaanis, kuid pole veel saadaval. [![Spikri arhitektuur](./media/help-architecture.png)](./media/help-architecture.png)
 
 ## <a name="connecting-the-help-system"></a>Spikrisüsteemi ühendamine
+> [!NOTE]
+> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) nii rakenduse Retail kui ka Talent puhul.
+ 
+
 Lehel **Süsteemiparameetrid** saavad süsteemiadministraatorid spikrisüsteemi osad juurutamiseks ühendada. [![Süsteemi parameetrite vorm koos spikri sätetega](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Järgige lehel **Süsteemi parameetrid** järgmisi etappe.
 
 > [!IMPORTANT]
@@ -48,21 +52,27 @@ Lehel **Süsteemiparameetrid** saavad süsteemiadministraatorid spikrisüsteemi 
 
 1.  Valige elutsükli teenuste projekt, millega ühendus luua.
 2.  Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.
+    - Finance and Operationsi puhul valige Microsofti sisu jaoks 2017. aasta veebruari Microsoft Dynamics 365 for Finance and Operationsi QPC ühendatud teek. 
+    - Retaili jaoks anname teegi välja juulis. 
+    - Talenti jaoks pole vaja teeki valida – ühendus õige teegiga on teie eest loodud. 
+
 3.  Valige BPM-i teekide kuvamise järjekord. See määrab teekidest pärinevate tegevuse salvestiste kuvamise järjekorra paanil **Spikker**.
 
-Kui olete need toimingud lõpetanud, võite avada paani **Spikker** ja klõpsata vahekaarti **Tegevuse juhised**. Näete nüüd tegevusejuhiseid, mis kohalduvad lehele, millel parajasti Dynamics 365 for Operationsis olete. Kui ühtegi ülesande juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks.
+Kui olete need toimingud lõpetanud, võite avada paani **Spikker** ja klõpsata vahekaarti **Tegevuse juhised**. Näete nüüd ülesande juhiseid, mis rakenduvad lehele, millel parajasti Finance and Operationsis olete. Kui ühtegi ülesande juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks.
 
 ### <a name="showing-translated-task-guides"></a>Tõlgitud tegevusjuhiste kuvamine
 
-Tõlgitud tegevusjuhised edastati esmakordselt 2016. aasta mai APQC ühendatud teegis ja teegis Alustamine. Dynamics 365 for Operationsis lokaliseeritud tegevusjuhise vaatamiseks veenduge, et teil oleks ühendus mai teegiga. Keelt, milles tegevusjuhis kuvatakse, juhitakse iga kasutaja puhul keelesätetega jaotises **Suvandid** &gt; **Eelistused**. 
+Tõlgitud tegevusjuhised edastati esmakordselt 2016. aasta mai APQC ühendatud teegis ja teegis Alustamine. Finance and Operationsis lokaliseeritud tegevusjuhise vaatamiseks veenduge, et teil oleks ühendus mai teegiga. Keelt, milles tegevusjuhis kuvatakse, juhitakse iga kasutaja puhul keelesätetega jaotises **Suvandid** &gt; **Eelistused**. 
 
 > [!NOTE]
-> Kuigi paljud tegevusjuhised on tõlgitud, ei kuva Dynamics 365 for Operationsi klient praegu tõlgitud tegevusjuhiste nimesid. Samuti on praegu 2016. aasta mai teegis tõlkena saadaval ainult veebruaris välja antud tegevusjuhised. Anname välja värskendatud teegi täiendavate tõlgetega.
+> Kuigi paljud tegevusjuhised on tõlgitud, ei kuva Finance and Operationsi klient praegu tõlgitud tegevusjuhiste nimesid. Samuti on praegu 2016. aasta mai teegis tõlkena saadaval ainult veebruaris välja antud tegevusjuhised. Anname välja värskendatud teegi täiendavate tõlgetega.
 > -   Kui tegevusjuhis on tõlgitud, siis kuvatakse tegevusjuhise avamisel kogu selle tekst teie valitud keeles.
 > -   Kui tegevusjuhist pole veel tõlgitud, siis kuvatakse tegevusjuhise avamisel teie valitud keeles ainult osa tekstist (juhtelementide tekst).
 
 ## <a name="creating-custom-help"></a>Kohandatud spikri loomine
-Saate luua oma Dynamics 365 for Operationsi eksemplarile kohandatud spikri, luues tegevuste salvestised, mis kajastavad teie eksemplari, ja salvestades need LCS-i äriprotsesside teeki. Partneritele: kui teete olemasoleva teegi ettevõtte teegiks ja lisate selle lahendusse, on see teie klientidele kättesaadav. Võite teha koopia ka APQC teegist Unified global library ja avada siis oma eksemplari, avada selle tegevuste salvestised, muuta neid ja salvestada salvestised oma muudatustega. Lisateavet leiate teemast [Kuidas luua tegevuste salvestisi koolitusel dokumentatsioonina kasutamiseks](../user-interface/task-recorder.md).
+Saate luua oma Finance and Operationsi ja Retaili eksemplarile kohandatud spikri, luues tegevuste salvestised, mis kajastavad teie eksemplari, ja salvestades need LCS-i äriprotsesside teeki. Kohandatud tegevusjuhiseid ei saa luua Talenti puhul. 
+
+Partneritele: kui teete olemasoleva teegi ettevõtte teegiks ja lisate selle lahendusse, on see teie klientidele kättesaadav. Võite teha koopia ka APQC teegist Unified global library ja avada siis oma eksemplari, avada selle tegevuste salvestised, muuta neid ja salvestada salvestised oma muudatustega. Lisateavet leiate teemast [Kuidas luua tegevuste salvestisi koolitusel dokumentatsioonina kasutamiseks](../user-interface/task-recorder.md).
 
 <a name="see-also"></a>Vt ka
 --------

@@ -1,16 +1,16 @@
 ---
 title: Ametikoha prognoosimine
-description: 
+description: "Töötajatega seotud kulud moodustavad tihti suure osa organisatsiooni kuludest. Ametikoha prognoosimine võimaldab teil neid kulusid planeerida ja kaasata need eelaarvete planeerimisse."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,7 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="position-forecasting"></a>Ametikoha prognoosimine
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,9 +96,9 @@ Hüvitusgrupis valitud tulu kuluelementi kasutatakse grupi prognoositavate ameti
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Olemasolevatele ametikohtadele prognoositavate ametikohtade loomine
 
-Kõige täpsema eelarve planeerimise jaoks saate luua prognoositavaid ametikohti, kasutades üksikasju olemasolevatest ametikohtadest Microsoft Dynamics 365 for Operationsis, olenemata sellest, kas ametikoht on praegu täidetud või mitte. 
+Kõige täpsema eelarve planeerimise jaoks saate luua prognoositavaid ametikohti, kasutades üksikasju olemasolevatest ametikohtadest Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis, olenemata sellest, kas ametikoht on praegu täidetud või mitte. 
 
-Funktsioon **Lisa olemasolevad ametikohad** kuvab kõik organisatsiooni ametikohad. Seadistades kuupäeva**Seisuga**, saate muuta ametikohtade loendit, nii et see sisaldab ametikohti, mis olid olemas kuupäeval minevikus või enamasti tulevikus (näiteks järgmise eelarvetsükli algus). Valige eelarve plaanimise protsess ja eelarveplaani stsenaarium, valige loendist ametikohad ja klõpsake siis nuppu **OK**, et luua valitud ametikohtadele prognoositavad ametikohad. Arvestage sellega, et saate luua igale eelarve plaanimise protsessi ja eelarveplaani stsenaariumis olemasolevale ametikohale ainult ühe prognoositava ametikoha. Sellegipoolest saate luua lisaversioone, määrates erinevaid eelarveplaani stsenaariume. 
+Funktsioon **Lisa olemasolevad ametikohad** kuvab kõik organisatsiooni ametikohad. Seadistades kuupäeva **Seisuga**, saate muuta ametikohtade loendit, nii et see sisaldab ametikohti, mis olid olemas kuupäeval minevikus või enamasti tulevikus (näiteks järgmise eelarvetsükli algus). Valige eelarve plaanimise protsess ja eelarveplaani stsenaarium, valige loendist ametikohad ja klõpsake siis nuppu **OK**, et luua valitud ametikohtadele prognoositavad ametikohad. Arvestage sellega, et saate luua igale eelarve plaanimise protsessi ja eelarveplaani stsenaariumis olemasolevale ametikohale ainult ühe prognoositava ametikoha. Sellegipoolest saate luua lisaversioone, määrates erinevaid eelarveplaani stsenaariume. 
 
 Kui jaotises Inimressursid on ametikohale määratud eelarve kuluelemendid, on need eelarve kuluelemendid määratud ka prognoositavale ametikohale ja kasutavad vaikesummasid. Prognoositava ametikoha väljale **Määratud töötaja** on sisestatud ametikohale määratud töötaja nimi, kui töötaja on määratud. See väli on lihtne tekstiväli. Otsest seost ei ole loodud. 
 

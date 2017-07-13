@@ -1,9 +1,9 @@
 ---
 title: Aegunud funktsioonid
-description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada rakendusest Dynamics 365 for Operations. See esitab ka loendi funktsioonidest, mis on aegunud Dynamics AX 7.0 väljalasetes."
+description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 
-See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada rakendusest Dynamics 365 for Operations. See esitab ka loendi funktsioonidest, mis on aegunud Dynamics AX 7.0 väljalasetes.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendusest eemaldatud funktsioonid
+
+### <a name="warehouse-mobile-devices-portal"></a>Lao mobiilsete seadmete portaal
+
+Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõeldud ise toimivaks asutusesiseseks juurutamiseks. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ei toeta enam seda komponenti. WMDP funktsiooni on asendanud kasutajakogemust parandav omarakendus. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Kasutuselt eemaldamise põhjus**       | Topeltfunktsioon.                        |
+| **Asendatud teise funktsiooniga?** | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistamise ja eeltingimuste kohta leiate jaotisest [Microsoft Dynamics 365 for Finance and Operationsi mooduli Ladustamine installimine ja konfigureerimine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Mõjutatud moodulid**             | Laohaldus, transpordihaldus |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Täpsema panga vastavusseviimise vastavusreegel käsitsi sobitamiseks
+
+Vastavusreeglit kasutati pangadokumendi valimiseks ja märkimiseks, kui dokumente vastavusseviimise töölehel käsitsi sobitati.
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Kasutuselt eemaldamise põhjus**       | Piiratud kasutus.                                                                         |
+| **Asendatud teise funktsiooniga?** | Nr Dokumentide leidmiseks, et neid vastavusse viia, tuleks kasutada veeru filtreerimise võimalusi. |
+| **Mõjutatud moodulid**             | Sularaha- ja pangahaldus                                                               |
+
+### <a name="windows-8-tablet-app"></a>Windows 8 tahvelarvuti rakendus
+
+Windows 8 tahvelarvuti rakendus pakkus kulude sisestamise ja kinnitamise funktsioone.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Kasutuselt eemaldamise põhjus**       | Finance and Operations ühildub tahvelarvutitega. Tahvelarvuti rakendust pole enam vaja. |
+| **Asendatud teise funktsiooniga?** | Nr                                                                                      |
+| **Mõjutatud moodulid**             | Kulude haldus                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Funktsioonid, mis on aegunud rakeduses Dynamics 365 for Operations 1611 platvormivärskendusega 3
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Töövoog töötaja eesmärkide loomise haldamiseks on üks mitmest töövoost, 
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kasutuselt eemaldamise põhjus       | Jõudlushaldus on rakenduses Microsoft Dynamics 365 for Operations täielikult ümber kujundatud.                                                                                                                                                                                                                                        |
+| Kasutuselt eemaldamise põhjus       | Jõudlushaldus on rakenduses Microsoft Dynamics 365 for Finance and Operations täielikult ümber kujundatud.                                                                                                                                                                                                                                        |
 | Asendatud teise funktsiooniga? | Ümberkujundatud jõudlushalduse funktsioon annab rohkem kontrolli eesmärkide sisu, progressi jälgimiseks kasutatavate mõõtmiste ja lisadokumentide manustamise üle. Eesmärke saab salvestada mallidena ja seejärel taaskasutada. See funktsioon saab aidata teil kiiremini oma töötajate jaoks täiendavaid eesmärke seadistada. |
 | Mõjutatud moodulid             | Inimkapitali juhtimine                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ Dynamics AX 2012 R3-s sai tänapäevane jaemüügikassa luua kanaliandmebaasiga 
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Kasutuselt eemaldamise põhjus       | Andmebaasi otseühenduvus nõudis madalamaid turbeprotokolle ja seda kasutati peamiselt kõrgeima jõudluse saavutamiseks. Dynamics 365 for Operationsi jõudulus- ja turbetäiustuste tõttu põhjustab see funktsioon nüüd rohkem probleeme kui lahendab. |
+| Kasutuselt eemaldamise põhjus       | Andmebaasi otseühenduvus nõudis madalamaid turbeprotokolle ja seda kasutati peamiselt kõrgeima jõudluse saavutamiseks. Finance and Operationsi jõudlus- ja turbetäiustuste tõttu põhjustab see funktsioon nüüd rohkem probleeme kui lahendab. |
 | Asendatud teise funktsiooniga? | Nr Nüüd toetatakse ainult standardset jaemüügiserveri sidet.    |
 | Mõjutatud moodulid             | Kanali andmebaas / tänapäevane jaemüügikassa                                    |
 
@@ -808,9 +840,5 @@ Inimressursside palgateave
 | Kasutuselt eemaldamise põhjus       | See funktsioon on asendatud teise funktsiooniga.                                    |
 | Asendatud teise funktsiooniga? | Management Reporter (selles Dynamics AX-i versioonis nimega **Finantsaruandlus**) |
 | Mõjutatud moodulid             | Pearaamat                                                                              |
-
-
-
-
 
 

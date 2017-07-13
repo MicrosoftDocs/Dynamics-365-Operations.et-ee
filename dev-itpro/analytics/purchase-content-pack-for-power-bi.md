@@ -1,15 +1,15 @@
 ---
 title: "Ostukulutuste analüüsi Power BI sisu"
-description: "See teema kirjeldab, mida hõlmab Microsoft Power BI ostukulutuste analüüsi sisupakett. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisupaketi loomiseks kasutatakse."
-author: YuyuScheller
+description: "See teema kirjeldab, mida hõlmab ostukulutuste analüüsi Power BI sisu. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutatakse."
+author: FrankDahl
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ad0ee95113d05710cccc1a5e9d215b38244c2047
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: daba17aed7e6cc475a16d6100c5c99ee747ca048
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,23 +29,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+See teema kirjeldab, mida hõlmab **ostukulutuste analüüsi** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
-See teema kirjeldab, mida hõlmab Microsoft Power BI ostukulutuste analüüsi sisupakett. See selgitab juurdepääsu sisupaketis sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisupaketi loomiseks kasutatakse.
+## <a name="overview"></a>Ülevaade
 
-<a name="overview"></a>Ülevaade
---------
-
-Microsoft Power BI ostukulutuste analüüsi sisupakett loodi ostujuhtide ja eelarvete eest vastutavate juhtide jaoks. Selle eesmärk on aidata neil ostukulutustel silma peal hoida. See kasutab Microsoft Dynamics 365 for Operationsi ostukannete andmeid ning annab koondvaate kogu ettevõtte ostunumbritest ja ostukulude jaotuse hankijate ja toodete kaupa. Aruanded tõstavad esile ostukulude muutusi aja jooksul. Seega saab neid kasutada juhtide teavitamiseks eraldi hankijate ja toodete positiivsetest ning negatiivsetest kulutamistrendidest. Diagrammid näitavad erinevate hankekategooriate ja hankijagruppide kulusid. Kategooria- ja piirkonnajuhtidel võib olla neist diagrammidest abi, et tuvastada muutusi kulutamiskäitumises. Sisupakett võimaldab ostujuhtidel ja eelarvete eest vastutavatel juhtidel analüüsida ostukulutusi järgmiselt.
+**Ostukulutuste analüüsi** Power BI sisu on mõeldud eelarvete eest vastutavate ostujuhtide ja juhtide abistamiseks ostukulutuste jälgimisel. Juhid saavad analüüsida ostukulutusi järgmiselt.
 
 -   Aasta seniste ostude summa (hankijarühmade ja eraldi hankijate, tootekategooriate ja eraldi toodete ning hankija asukoha järgi)
 -   Ostmise muutumine aastate lõikes (hankijarühmade ja hankekategooriate järgi)
 
-## <a name="accessing-the-content-pack"></a>Juurdepääs sisupaketile
-Ostukulutuste analüüsi sisupakett on avaldatud juurutusvahendina teenuses Microsoft Dynamics Lifecycle Services (LCS) ja sellele pääseb juurde rakendusest Microsoft Dynamics 365 for Operations. Lisateavet Power BI aruannete juurde pääsemise ja nende avamise kohta vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
-Märkus. KB4011327 on selle Power BI sisu eeltingimus. Pärast elutsükli teenustesse sisselogimist pääsete teabebaasiartiklile juurde siin:https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+Sisu kasutab ostukannete andmeid ning annab koondvaate kogu ettevõtte ostunumbritest ja ostukulude jaotuse hankijate ja toodete kaupa. Aruanded tõstavad esile ostukulude muutusi aja jooksul. Seega saab neid aruandeid kasutada juhtide teavitamiseks eraldi hankijate ja toodete positiivsetest ning negatiivsetest kulutamistrendidest. Lisaks näitavad diagrammid erinevate hankekategooriate ja hankijagruppide kulusid. Seega saavad kategooria- ja piirkonnajuhid kasutada neid diagramme muutuste tuvastamiseks kulutamiskäitumises.
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad mõõdikud
-Ostukulutuste analüüsi sisupakett sisaldab mõõdikute kogumist koosnevat aruannet. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate sisupaketi visualiseerimistest.
+## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
+Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 2017. aasta juuli värskendust, kuvatakse **ostukulutuste analüüsi** Power BI sisu lehel **Ostu- ja kulutusanalüüs** (**Hanked** > **Päringud ja aruanded** > **Ostujõudluse analüüs** > **Ostu- ja kulutusanalüüs**). 
+
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
+**Ostukulutuste analüüsi** Power BI sisu sisaldab mõõdikute kogumist koosnevat aruannet. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmises tabelis antakse ülevaade visualiseeringutest.
 
 <table>
 <colgroup>
@@ -133,12 +132,24 @@ Ostukulutuste analüüsi sisupakett sisaldab mõõdikute kogumist koosnevat arua
 
 \* Selle ja eelmise aasta ostud ja kasv hankekategooriate alusel
 
-## <a name="data-model-and-entities"></a>Andmemudel ja üksused
-Ostukulutuste analüüsi sisupaketis kasutatakse aruande jaoks Dynamics 365 for Operationsi andmeid. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL-i andmebaas. Lisateavet üksuse kaupluse kohta leiate ajaveebipostitusest [Power BI integratsioon üksuse kauplusega Dynamicsis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Selle sisupaketi koondmõõtmised on rakenduste Microsoft Dynamics AX 2012 ja Microsoft Dynamics AX 2012 R3 ostukuubis olnud koondmõõtmiste alamkogum. Kuubi koondmõõtmiste korraldamiseks üksuse kaupluses tuleb muuta need juurutatavaks. Lisateavet leiate üksuse kaupluses koondmõõtmiste korraldamise protseduurist ajaveebipostituses [Power BI integratsioon üksuse kauplusega Dynamicsis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Järgmised peamised koondmõõtmised on saadaval otse arve ridade üksusest ja neid kasutatakse sisupaketi alusena.
+## <a name="extending-the-power-bi-content"></a>Power BI sisu laiendamine
+Kasutades teenuses Microsoft Dynamics Lifecycle Services (LCS) olevaid sisupakette, saate pakkuda suurepäraseid analüüsivõimalusi inimestele, kes rakendusse Microsoft Dynamics 365 sisse ei logi. Neid sisupakette saab muuta nii, et need sisaldaksid teisi aruandeid või visuaale, ja avaldada siis sisupaketid analüüsimiseks Power BI.com-i rentnikus. 
 
-| Üksus        | Peamised koondmõõtmised | Dynamics 365 for Operationsi andmeallikas | Väli              | Kirjeldus                           |
-|---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
-| Arve read | Ost                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Summa arvestusvaluutas |
+Power BI sisu **Ostukulutuste analüüs** leiate LCS-i ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+
+Laadige kindlasti alla **ostukulutuste analüüsi** Power BI sisu, mis kehtib teie kasutatava Dynamics 365 versiooni puhul.
+
+> [!NOTE]
+> Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operationsi versiooni 1611, siis on selle Power BI sisu eeltingimus KB 4011327. Pärast LCS-i sisselogimist pääsete teabebaasiartiklile juurde aadressil https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
+## <a name="data-model-and-entities"></a>Andmemudel ja üksused
+Aruandelehtede täitmiseks **ostukulutuste analüüsi** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
+
+Selle sisu koondmõõtmised on rakenduste Microsoft Dynamics AX 2012 ja Microsoft Dynamics AX 2012 R3 ostukuubis olnud koondmõõtmiste alamkogum. Kuubi koondmõõtmiste korraldamiseks üksuse kaupluses tuleb muuta need juurutatavaks. Lisateavet leiate üksuse kaupluses koondmõõtmiste korraldamise protseduurist ajaveebipostituses [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md). Järgmised peamised koondmõõtmised on saadaval otse arve ridade üksusest ja neid kasutatakse sisu alusena.
+
+| Üksus        | Peamised koondmõõtmised | Andmeallikas                                 | Väli              | Kirjeldus                            |
+|---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
+| Arve read | Ost                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Summa arvestusvaluutas. |
 
 Järgmises tabelis on antud peamised mõõtmised, mis arvutatakse sisupaketis arve ridade üksusest.
 
@@ -148,7 +159,7 @@ Järgmises tabelis on antud peamised mõõtmised, mis arvutatakse sisupaketis ar
 | Eelmise aasta ostud    | Eelmise aasta ostud = CALCULATE(SUM('Arve read'\[Ost\]), SAMEPERIODLASTYEAR(Kuupäevad\[Kuupäev\])) |
 | YOY ostude kasv   | YOY ostude kasv = \[Jooksva aasta ostud\] – \[Eelmise aasta ostud\]                            |
 
-Järgmisi sisupaketi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate andmiseks.
+Järgmisi sisu põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate saamiseks.
 
 | Üksus                 | Atribuutide näited                                |
 |------------------------|-------------------------------------------------------|
@@ -158,17 +169,5 @@ Järgmisi sisupaketi põhidimensioone kasutatakse filtritena koondmõõtmiste t�
 | Juriidilised isikud         | Juriidilise isiku nimi                                     |
 | Kuupäevad                  | Kuupäevad, Aasta vastaskonto                                    |
 
-Vaikimisi näitab sisupakett jooksva kalendriaasta andmeid. Kuid kuupäevafiltrit saab muuta aruande filtrite jaotises. Saate muuta ka ettevõtte filtrit.
-
-## <a name="additional-resources"></a>Lisaressursid
-Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
-
--   [Andmeüksused](..\data-entities\data-entities.md)
--   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI paanide lisamine tööruumidele](configure-power-bi-integration.md)
-
-
-
-
+Vaikimisi näitab sisu jooksva kalendriaasta andmeid. Kuid kuupäevafiltrit saab muuta aruande filtrite jaotises. Saate muuta ka ettevõtte filtrit.
 

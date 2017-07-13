@@ -3,25 +3,27 @@ title: Vahetuse ja sularahasahtli haldamine
 description: "Selles artiklis selgitatakse, kuidas seadistada ja kasutada kahte tüüpi jaemüügikassa vahetust – ühist ja eraldiseisvat. Ühiseid vahetusi saab kasutada mitu kasutajat mitmes kohas, samas kui eraldi vahetusi saab kasutada korraga ainult üks töötaja."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ Eraldiseisvaid vahetusi kasutatakse tavapärastes, fikseeritud kassa stsenaarium
 
 Eraldiseisev vahetus määratakse kassasahtli tasandil. See protseduur selgitab, kuidas seadistada kassaregistris eraldiseisvat vahetust.
 
-1.  Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa profiilid** &gt; **Riistvara profiilid**.
+1.  Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**.
 2.  Valige riistvaraprofiil, mida eraldiseisva vahetuse puhul kasutada.
 3.  Kinnitage kiirkaardil **Sahtel**, et valiku **Ühise vahetuse sahtel** väärtuseks oleks määratud **Ei**.
 4.  Klõpsake käsku **Salvesta**.
-5.  Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**.
+5.  Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**.
 6.  Valige register, mis nõuab eraldi vahetust, ja klõpsake siis käsku **Redigeeri**.
 7.  Valige väljalt **Riistvaraprofiil** 2. etapis valitud riistvaraprofiil.
 8.  Klõpsake käsku **Salvesta**.
-9.  Klõpsake valikut **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
+9.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
 10. Valige jaotusgraafik **1090** ja klõpsake siis käsku **Käivita kohe** kassa muudatuste sünkroonimiseks.
 
 ### <a name="use-a-stand-alone-shift"></a>Eraldiseisva vahetuse kasutamine
@@ -70,15 +72,15 @@ Eraldiseisev vahetus määratakse kassasahtli tasandil. See protseduur selgitab,
 
 ### <a name="set-up-a-shared-shift"></a>Ühise vahetuse seadistamine
 
-1.  Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa profiilid** &gt; **Riistvara profiilid**.
+1.  Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**.
 2.  Valige riistvaraprofiil, mida ühise vahetuse puhul kasutada.
 3.  Määrake kiirkaardil **Sahtel** valiku **Ühise vahetuse sahtel** väärtuseks **Jah**.
 4.  Klõpsake käsku **Salvesta**.
-5.  Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**.
+5.  Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**.
 6.  Valige register, mis nõuab ühist vahetust, ja klõpsake siis käsku **Redigeeri**.
 7.  Valige väljalt **Riistvaraprofiil** 2. etapis valitud riistvaraprofiil.
 8.  Klõpsake käsku **Salvesta**.
-9.  Klõpsake valikut **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
+9.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
 10. Valige jaotusgraafik **1090** ja klõpsake siis käsku **Käivita kohe** kassa muudatuste sünkroonimiseks.
 
 ### <a name="use-a-shared-shift"></a>Ühise vahetuse kasutamine
@@ -89,7 +91,7 @@ Eraldiseisev vahetus määratakse kassasahtli tasandil. See protseduur selgitab,
 4.  Valige käsk **Loo uus vahetus**.
 5.  Valige käsk **Deklareeri algsumma**.
 6.  Sisestage kõigi kassasahtlite arv kaupluses, mis ühisesse vahetusse kuuluvad, ja klõpsake siis käsku **Salvesta**.
-    -   Algsumma osa lisamiseks igasse järgmisse kassasahtlisse kasutage toimingut **Riistvarajaama valimine**riistvarajaama aktiveerimiseks.
+    -   Algsumma osa lisamiseks igasse järgmisse kassasahtlisse kasutage toimingut **Riistvarajaama valimine** riistvarajaama aktiveerimiseks.
     -   Kassasahtli sisu lisamiseks konkreetsesse kassasahtlisse kasutage toimingut **Ava sahtel**.
     -   Jätkake, kuni kõigis ühise vahetuse kassasahtlites on osa algsummast.
 

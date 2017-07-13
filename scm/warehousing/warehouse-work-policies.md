@@ -1,16 +1,16 @@
 ---
 title: "Lao tööpoliitikad"
-description: "Uut laotöö poliitikat tutvustatakse rakenduses Microsoft Dynamics AX 7.0.1 (mai 2016 värskendus). See tööpoliitika kontrollib, kas laotöö luuakse tootmises laoprotsesside jaoks."
+description: "Laotöö poliitikad juhivad seda, kas laotöö luuakse tootmises laoprotsessidega töötellimuse tüübi, varude asukoha ja toote põhjal."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Uut laotöö poliitikat tutvustatakse rakenduses Microsoft Dynamics AX 7.0.1 (mai 2016 värskendus). See tööpoliitika kontrollib, kas laotöö luuakse tootmises laoprotsesside jaoks.
+Laotöö poliitikad Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis juhivad seda, kas laotöö luuakse tootmises laoprotsessidega töötellimuse tüübi, varude asukoha ja toote põhjal.
 
 See tööpoliitika kontrollib, kas laotöö luuakse tootmises laoprotsesside jaoks. Saate seadistada tööpoliitika, kasutades **töötellimuse tüüpide**, **lao asukoha** ja **toote** kombinatsiooni. Näiteks toode L0101 teatatakse väljundasukohas 001 lõpetatuks. Lõpetatud kaupa tarbitakse hiljem teises tootmistellimuses väljastuskohaga 001. Sellisel juhul saate seadistada tööpoliitika, et takistada lõpetatud kaupade kõrvalepaneku jaoks töö loomist, kui teatate toote L0101 väljastuskohas 001 lõpetatuks. Tööpoliitika on individuaalne üksus, mida saab kirjeldada järgmise teabe kaudu.
 
 -   **Tööpoliitika nimi**(tööpoliitika kordumatu identifikaator)
--   **Töötellimuse tüübid**ja**Töö loomise meetod**
+-   **Töötellimuse tüübid** ja **Töö loomise meetod**
 -   **Lao asukohad**
 -   **tooted.**
 

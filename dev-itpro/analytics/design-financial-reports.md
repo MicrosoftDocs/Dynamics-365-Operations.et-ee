@@ -1,16 +1,16 @@
 ---
 title: Finantsaruannete vaatamine ja kujundamine
-description: See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Operationsis finantsaruannete vaatamist ja loomist.
+description: See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Finance and Operationsis finantsaruannete vaatamist ja loomist.
 author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1c0787327830d2cdff9e8a48798165dc83493393
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Operationsis finantsaruannete vaatamist ja loomist. Finantsaruandlus hõlmab vaatamist Dynamics 365 for Operationsis ja korra klõpsatavat aruandekujundajat, mis võimaldab teil finantsaruandeid luua ja redigeerida.  
+See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Finance and Operationsis finantsaruannete vaatamist ja loomist. Finantsaruandlus hõlmab vaatamist Dynamics 365 for Finance and Operationsis ja korra klõpsatavat aruandekujundajat, mis võimaldab teil finantsaruandeid luua ja redigeerida.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>1. harjutus: vaikimisi finantsaruande loomine ja uurimine
 -----------------------------------------------------------
@@ -59,7 +59,7 @@ Selle harjutuse puhul loote ja uurite olemasolevat vaikearuannet. See aruanne si
 13. Valige suvand **Aruandevalikud**.
 14. Valige **Lisa dimensioonifilter** ja valige **Äriüksus**.
 15. Sisestage väljale 001 ja valige **OK**. Aruandes kuvatakse nüüd ainult äriüksuse 001 andmed. See on aruande isikupärastatud vaade ja pole saadaval teistele vaatamiseks.
-16. Sulgege filtritud aruanne. Finantsaruandeid saab kuvada mis tahes valuutas, mis on Dynamics 365 for Operationsisse lisatud.
+16. Sulgege filtritud aruanne. Finantsaruandeid saab kuvada mis tahes valuutas, mis on Dynamics 365 for Finance and Operationsisse lisatud.
 17. Valige **Valuuta**, seejärel valige **EUR.** Aruanne kuvatakse nüüd eurodes. Aruande kujundusse kaasatud mis tahes valuutakoodid või -tähised kuvatakse nüüd rakendatud valuutas. Kui valuuta puhul pole ühtegi valuutatähist määratletud, siis valuuta tähist ei kuvata.
 18. Sulgege aruanne **Pearaamatu üksikasjad**.
 19. Sulgege **aruande kujundaja**.
@@ -70,7 +70,7 @@ Selles harjutuses muudate olemasolevat vaikearuannet. Värskendate nii readefini
 1.  Avage **Finantsaruanded** pearaamatu osas Päringud ja aruanded.
 2.  Valige rida aruande puhul, mille nimi on **Proovibilansi kokkuvõte – vaikimisi**
 3.  Valige suvand **Redigeeri**. **Proovibilansi kokkuvõte – vaikimisi** avaneb aruande kujundajas.
-4.  Valige **Fail**, seejärel **Salvesta nimega** ja pange aruande nimeks Üksikasjalik proovibilanss atribuutidega. Märkus. Aruande loomisel mis tahes ajal aruandekujundajas värskendatakse finantsaruannete loendit Dynamics 365 for Operationsis.
+4.  Valige **Fail**, seejärel **Salvesta nimega** ja pange aruande nimeks Üksikasjalik proovibilanss atribuutidega. Märkus. Aruande loomisel mis tahes ajal aruandekujundajas uuendatakse finantsaruannete loendit Dynamics 365 for Finance and Operationsis.
 5.  Valige aruande definitsioonist readefinitsiooni ikoon, et avada **Proovibilanss – vaikimisi readefinitsioon**.
 6.  Salvestage readefinitsioon kui **Üksikasjalik proovibilanss atribuutidega**.
 7.  Suunates kursori reale 50, valige **Redigeeri**, seejärel **Sisesta read dimensioonidest**. Sisesta read dimensioonidest võimaldab teil valida, milliseid dimensioone soovite readefinitsiooni kaasata. Selle harjutuse puhul loome readefinitsiooni põhikonto abil.
@@ -166,7 +166,7 @@ Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruann
 6.  Topeltklõpsake väljal **Dimensioonifilter**.
 7.  Topeltklõpsake aknas **Dimensioon** veergu **Osakond**.
 8.  Klõpsake dialoogiboksi üksikus või vahemiku jaotises **kolmikpunkti** välja **Saatja** puhul osakondade loendi kuvamiseks.
-9.  Valige osakond **022** **Müük ja turundus** ja seejärel klõpsake nuppu**OK**.
+9.  Valige osakond **022** **Müük ja turundus** ja seejärel klõpsake nuppu **OK**.
 10. Korrake etappe 5 kuni 8 osakondade 23–25 puhul.
 11. Sisestage iga FD veeru puhul reale **Päis 2** järgmine osakonna kirjeldus.
     -   Veerg B – Müük ja turundus
@@ -183,8 +183,8 @@ Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruann
 18. **Salvesta** muudatused ja **loo**. Pärast aruande loomist ja avamist saate aruannet uurida.
 
 ## <a name="additional-resources"></a>Lisaressursid
-[Finantsaruandlus](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
-[Finantsaruannete kuvamine](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
+[Finantsaruandlus](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
+[Finantsaruannete kuvamine](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [Dynamicsi finantsaruandluse ajaveeb](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

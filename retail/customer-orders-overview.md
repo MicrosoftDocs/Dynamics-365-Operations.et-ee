@@ -3,25 +3,27 @@ title: "Klienditellimuste ülevaade"
 description: "See teema annab teavet klienditellimuste kohta uudses jaemüügikassas (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e96579437ab59e99268263a51fc589eaacb98cc1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 89e79c7227e05eec539d9bb142b8f41de092f01b
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -46,8 +48,8 @@ Lehel **Jaemüügi parameetrid** saate määrata muu hulgas järgmisi parameetre
 
 -   **Deposiidi vaikeprotsent** – saate määrata summa, mille klient peab enne tellimuse kinnitamist deposiidina tasuma. Deposiidi vaikesumma arvutatakse protsendina tellimuse väärtusest. Olenevalt õigustest võib poemüüja summa alistada, kasutades valikut **Deposiidi alistamine**.
 -   **Tühistamistasu protsent** – saate määrata klienditellimuse tühistamisel rakendatava tasu summa.
--   **Tühistamistasu kood** – kui klienditellimuse tühistamisel rakendatakse tasu, kajastub see Microsoft Dynamics AX-is müügitellimusel tasukoodi all. Kasutage seda parameetrit tühistamistasu koodi määratlemiseks.
--   **Saatekulude kood** – jaemüüjad saavad määrata lisatasu kauba saatmiseks kliendile. Saatekulude summa kajastub Dynamics AX-is müügitellimusel tasukoodi all. Kasutage seda parameetrit saatekulude koodi vastendamiseks klienditellimuse saatekuludega.
+-   **Tühistamistasu kood** – kui klienditellimuse tühistamisel rakendatakse tasu, kajastub see müügitellimusel tasukoodi all. Kasutage seda parameetrit tühistamistasu koodi määratlemiseks.
+-   **Saatekulude kood** – jaemüüjad saavad määrata lisatasu kauba saatmiseks kliendile. Saatekulude summa kajastub müügitellimusel tasukoodi all. Kasutage seda parameetrit saatekulude koodi vastendamiseks klienditellimuse saatekuludega.
 -   **Saatekulude tagasimakse** – saate määrata, kas klienditellimusega seostatud saatekulud on tagasi makstavad.
 -   **Maksimaalne kinnitamata summa** – saate määrata saatekulude tagasimakse maksimaalse summa tagastustellimustele, kui saatekulud on tagasi makstavad. Selle summa ületamisel peab tagasimakse jätkamiseks tegema haldur alistamistoimingu. Järgmiste stsenaariumide võimaldamiseks võib saatekulude tagasimakse ületada algselt makstud summat.
     -   Tasud rakendatakse müügitellimuse päise tasemel ja tooterea osalise koguse tagastamisel ei saa toodete ja koguse puhul lubatud saatekulude maksimaalset tagasimakset määrata viisil, mis toimiks kõigi jaeklientide puhul.
@@ -90,10 +92,10 @@ Klienditellimus saab luua kassa klientrakendusest kas sünkroonses režiimis võ
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Klienditellimuste asünkroonses režiimis loomise lubamine
 
-1.  Klõpsake Dynamics AX-is valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiil** &gt; **Funktsiooniprofiilid**.
+1.  Klõpsake valikuid **Jaemüük** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiil** &gt; **Funktsiooniprofiilid**.
 2.  Määrake kiirkaardil **Üldine** valiku **Klienditellimuse loomine asünkroonses režiimis** sätteks **Jah**.
 
-Kui valiku **Klienditellimuse loomine asünkroonses režiimis** sätteks on valitud **Jah**, luuakse klienditellimused alati asünkroonses režiimis, isegi kui Retail Transaction Service (RTS) on saadaval. Kui määrate valiku sätteks **Ei**, luuakse klienditellimused alati sünkroonses režiimis, kasutades RTS-i. Kui klienditellimused luuakse asünkroonses režiimis, tõmmatakse ja sisestatakse need Dynamics AX-i tõmbamise (P) töödena. Vastavad müügitellimused luuakse Dynamics AX-is, kui käsk **Sünkrooni tellimused** käivitatakse käsitsi või pakktöötluse kaudu.
+Kui valiku **Klienditellimuse loomine asünkroonses režiimis** sätteks on valitud **Jah**, luuakse klienditellimused alati asünkroonses režiimis, isegi kui Retail Transaction Service (RTS) on saadaval. Kui määrate valiku sätteks **Ei**, luuakse klienditellimused alati sünkroonses režiimis, kasutades RTS-i. Kui klienditellimused luuakse asünkroonses režiimis, tõmmatakse ja sisestatakse need Retaili tõmbamise (P) töödena. Vastavad müügitellimused luuakse Retailis, kui käsk **Sünkrooni tellimused** käivitatakse käsitsi või pakktöötluse kaudu.
 
 <a name="see-also"></a>Vt ka
 --------

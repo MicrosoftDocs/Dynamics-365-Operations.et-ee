@@ -3,25 +3,27 @@ title: "Kanaliklientide, registrite ja riistvarajaamade määratlemine ning hald
 description: "See teema käsitleb välisseadmete ühendamist Retail POS-iga."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 800e5c139b54541a179a336c8247eaa6017201d8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 5c5a6cc45ad65c7581dbfb9a4441fdddbbc19242
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -40,11 +42,11 @@ Mitut komponenti kasutatakse seoste määratlemiseks kaupluse, kassaregistri võ
 
 ### <a name="pos-registers"></a>Kassaregistrid
 
-Navigeerimine: klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Kassaregister on olem, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Kassaregister on olem, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
 
 ### <a name="devices"></a>Seadmed
 
-Navigeerimine: klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmed võivad olla kahte tüüpi: **Retail Modern POS** (MPOS) või **Retail Cloud POS** (pilvekassa).
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmed võivad olla kahte tüüpi: **Retail Modern POS** (MPOS) või **Retail Cloud POS** (pilvekassa).
 
 #### <a name="mpos"></a>MPOS
 
@@ -52,7 +54,7 @@ MPOS on POS-i klientrakendus, mis on installitud operatsioonisüsteemi Windows 8
 
 #### <a name="cloud-pos"></a>Cloud POS
 
-Cloud POS on brauseripõhine kassa. Kuna see töötab brauseris, ei nõua Cloud POS operatsioonisüsteemi Windows 8.1 ega uuemat PC-põhist operatsioonisüsteemi. Kui rakenduse tüüp **Retail Cloud POS** vastendatakse varukontoris konkreetse seadmega, saab seda seadet kasutada brauseri kaudu, ilma et oleks vaja paketti alla laadida või installida. Cloud POS nõuab riistvarajaama, et kasutada riistvara üle klaviatuurikiilul põhineva vöötkoodi skannimise.
+Cloud POS on brauseripõhine kassa. Kuna see töötab brauseris, ei nõua Cloud POS operatsioonisüsteemi Windows 8.1 ega uuemat PC-põhist operatsioonisüsteemi. Kui rakenduse tüüp **Retail Cloud POS** vastendatakse kaupluse halduses konkreetse seadmega, saab seda seadet kasutada brauseri kaudu, ilma et oleks vaja paketti alla laadida või installida. Cloud POS nõuab riistvarajaama, et kasutada riistvara üle klaviatuurikiilul põhineva vöötkoodi skannimise.
 
 ### <a name="hardware-profile"></a>Riistvaraprofiil
 
@@ -60,7 +62,7 @@ Navigeerimine: klõpsake valikuid **Kaubandus** &gt; **Kanali häälestus** &gt;
 
 ### <a name="hardware-station"></a>Riistvarajaam
 
-Navigeerimine: klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaemüügikanalid** &gt; **Kõik jaekauplused**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**. Riistvarajaam on äriloogika eksemplar, mis juhib kassa välisseadmeid. Riistvarajaam paigaldatakse automaatselt koos MPOS-iga. Teine võimalus on paigaldada riistvarajaam eraldi komponendina ja kasutada seda siis MPOS-i või Cloud POS-i jaoks veebiteenuse kaudu. Riistvarajaam tuleb määratleda kanali tasemel.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanalid** &gt; **Jaemüügikanalid** &gt; **Kõik jaekauplused**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**. Riistvarajaam on äriloogika eksemplar, mis juhib kassa välisseadmeid. Riistvarajaam paigaldatakse automaatselt koos MPOS-iga. Teine võimalus on paigaldada riistvarajaam eraldi komponendina ja kasutada seda siis MPOS-i või Cloud POS-i jaoks veebiteenuse kaudu. Riistvarajaam tuleb määratleda kanali tasemel.
 
 ### <a name="hardware-station-profile"></a>Riistvarajaama profiil
 
@@ -71,12 +73,12 @@ Navigeerimine: klõpsake valikuid **Kaubandus** &gt; **Kanali häälestus** &gt;
 
 [![Tavapärane fikseeritud kassa](./media/traditional-300x279.png)](./media/traditional.png) 
 
-MPOS-i ühendamiseks POS-i välisseadmetega tavapärases, fikseeritud kassa stsenaariumis liikuge kõigepealt registri enda juurde ja määrake sellele riistvaraprofiil. Leiate kassaregistrid, valides **Jaemüük ja kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Kui olete riistvaraprofiili määranud, sünkroonige muudatused kanali andmebaasis, kasutades jaotusgraafikut Registrid. Jaotusgraafikud leiate, valides **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**. Järgmisena seadistage kanalil „kohalik” riistvarajaam. Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaekauplused** &gt; **Kõik jaekauplused** ja valige kauplus. Seejärel klõpsake kiirkaardil **Riistvarajaamad** käsku **Lisa** riistvarajaama lisamiseks. Sisestage kirjeldus, sisestage hosti nimeks **localhost** ja sünkroonige siis kanali muudatused, kasutades jaotusgraafikut Kanali konfigureerimine. Jaotusgraafikud leiate, valides **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**. Lõpuks kasutage MPOS-is toimingut **Riistvarajaama valimine** riistvarajaama **localhost** valimiseks. Määrake riistvarajaama olekuks **Aktiivne**. Selles stsenaariumis kasutatav riistvaraprofiil peaks pärinema kassaregistrist enesest. Selle stsenaariumi puhul pole riistvarajaama profiil vajalik. **Märkus.** Mõned riistvaraprofiili muudatused (nt kassasahtlite vahetused) nõuavad uue vahetuse avamist pärast muudatuste sünkroonimist kanaliga. **Märkus.** Cloud POS peab kasutama jaemüügi välisseadmetega suhtlemiseks eraldiseisvat riistvarajaama.
+MPOS-i ühendamiseks POS-i välisseadmetega tavapärases, fikseeritud kassa stsenaariumis liikuge kõigepealt registri enda juurde ja määrake sellele riistvaraprofiil. Leiate kassaregistrid, valides **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Kui olete riistvaraprofiili määranud, sünkroonige muudatused kanali andmebaasis, kasutades jaotusgraafikut Registrid. Jaotusgraafikud leiate, valides **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**. Järgmisena seadistage kanalil „kohalik” riistvarajaam. Klõpsake valikuid **Jaemüük** &gt; **Kanalid** &gt; **Jaekauplused** &gt; **Kõik jaekauplused** ja valige kauplus. Seejärel klõpsake kiirkaardil **Riistvarajaamad** käsku **Lisa** riistvarajaama lisamiseks. Sisestage kirjeldus, sisestage hosti nimeks **localhost** ja sünkroonige siis kanali muudatused, kasutades jaotusgraafikut Kanali konfigureerimine. Jaotusgraafikud leiate, valides **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**. Lõpuks kasutage MPOS-is toimingut **Riistvarajaama valimine** riistvarajaama **localhost** valimiseks. Määrake riistvarajaama olekuks **Aktiivne**. Selles stsenaariumis kasutatav riistvaraprofiil peaks pärinema kassaregistrist enesest. Selle stsenaariumi puhul pole riistvarajaama profiil vajalik. **Märkus.** Mõned riistvaraprofiili muudatused (nt kassasahtlite vahetused) nõuavad uue vahetuse avamist pärast muudatuste sünkroonimist kanaliga. **Märkus.** Cloud POS peab kasutama jaemüügi välisseadmetega suhtlemiseks eraldiseisvat riistvarajaama.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS või Cloud POS koos eraldi riistvarajaamaga
 [![Ühiskasutusega välisseadmed](./media/shared-300x254.png)](./media/shared.png)
 
-Selles stsenaariumis jagavad MPOS-i ja Cloud POS-i kliendid eraldiseisvat riistvarajaama. See stsenaarium nõuab riistvarajaama profiili loomist allalaadimispaketi, pordi ja riistvaraprofiili määramiseks, mida riistvarajaam kasutab. Riistvarajaama profiili leiate, valides **Jaemüük ja kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvarajaama profiilid**. Pärast riistvarajaama profiili loomist minge konkreetse jaemüügikanali juurde (**Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaekauplused** &gt; **Kõik jaekauplused**) ja lisage uus riistvarajaam. Vastendage see uus riistvarajaam varem loodud riistvarajaama profiiliga. Järgmiseks sisestage kirjeldus, mis aitab kassiiril riistvarajaama tuvastada. Sisestage väljale **Hosti nimi** hostseadme URL järgmises vormingus: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Asendage **&lt;MachineName:Port&gt;** riistvarajaama tegeliku seadmenime ja pordiga, mis on määratud riistvarajaama profiilis.) Eraldi riistvarajaama puhul tuleks täpsustada ka elektroonilise rahaülekande (EFT) terminali ID-d. See väärtus tähistab EFT terminali, mis on riistvarajaamaga ühendatud, kui makseühendus maksepakkujaga suhtleb. Järgmiseks minge tegelikust riistvarajaamast kanali juurde ja valige riistvarajaam. Siis klõpsake valikut **Allalaadimine** ja installige riistvarajaam. Järgmiseks kasutage MPOS-i või Cloud POS-i toimingut **Riistvarajaama valimine** varem installitud riistvarajaama valimiseks. Valige **Seo** turvalise seose loomiseks kassa ja riistvarajaama vahel. See toiming tuleb teha iga kassa ja riistvarajaama kombinatsiooni puhul üks kord. Pärast riistvarajaama sidumist kasutatakse sama toimingut riistvarajaama aktiveerimiseks selle kasutamise ajal. Selle stsenaariumi puhul tuleks määrata riistvaraprofiil riistvarajaama profiilile, mitte registrile endale. Kui mingil põhjusel pole riistvarajaamale otse riistvaraprofiili määratud, kasutatakse registrile määratud riistvaraprofiili.
+Selles stsenaariumis jagavad MPOS-i ja Cloud POS-i kliendid eraldiseisvat riistvarajaama. See stsenaarium nõuab riistvarajaama profiili loomist allalaadimispaketi, pordi ja riistvaraprofiili määramiseks, mida riistvarajaam kasutab. Riistvarajaama profiili leiate, valides **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvarajaama profiilid**. Pärast riistvarajaama profiili loomist minge konkreetse jaemüügikanali juurde (**Jaemüük** &gt; **Kanalid** &gt; **Jaekauplused** &gt; **Kõik jaekauplused**) ja lisage uus riistvarajaam. Vastendage see uus riistvarajaam varem loodud riistvarajaama profiiliga. Järgmiseks sisestage kirjeldus, mis aitab kassiiril riistvarajaama tuvastada. Sisestage väljale **Hosti nimi** hostseadme URL järgmises vormingus: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Asendage **&lt;MachineName:Port&gt;** riistvarajaama tegeliku seadmenime ja pordiga, mis on määratud riistvarajaama profiilis.) Eraldi riistvarajaama puhul tuleks täpsustada ka elektroonilise rahaülekande (EFT) terminali ID-d. See väärtus tähistab EFT terminali, mis on riistvarajaamaga ühendatud, kui makseühendus maksepakkujaga suhtleb. Järgmiseks minge tegelikust riistvarajaamast kanali juurde ja valige riistvarajaam. Siis klõpsake valikut **Allalaadimine** ja installige riistvarajaam. Järgmiseks kasutage MPOS-i või Cloud POS-i toimingut **Riistvarajaama valimine** varem installitud riistvarajaama valimiseks. Valige **Seo** turvalise seose loomiseks kassa ja riistvarajaama vahel. See toiming tuleb teha iga kassa ja riistvarajaama kombinatsiooni puhul üks kord. Pärast riistvarajaama sidumist kasutatakse sama toimingut riistvarajaama aktiveerimiseks selle kasutamise ajal. Selle stsenaariumi puhul tuleks määrata riistvaraprofiil riistvarajaama profiilile, mitte registrile endale. Kui mingil põhjusel pole riistvarajaamale otse riistvaraprofiili määratud, kasutatakse registrile määratud riistvaraprofiili.
 
 ## <a name="client-maintenance"></a>Kliendi hooldus
 ### <a name="registers"></a>Registrid
@@ -85,7 +87,7 @@ Kassaregistreid hallatakse peamiselt registrite endi kaudu ning samuti registrit
 
 ### <a name="pos-profiles"></a>Kassa profiilid
 
-Leiate kassaprofiilid, valides **Jaemüük ja kaubandus** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid**. Paljusid registri aspekte tasub hallata profiilide kaudu, kuna profiile saab paljude registrite vahel jagada. Profiile saab vastendada eraldi registriga või, kui profiil kehtib üle kogu kaupluse, siis jaekauplusega. Järgmistes punktides kirjeldatakse kassaprofiile ja nende kasutamist.
+Leiate kassaprofiilid, valides **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid**. Paljusid registri aspekte tasub hallata profiilide kaudu, kuna profiile saab paljude registrite vahel jagada. Profiile saab vastendada eraldi registriga või, kui profiil kehtib üle kogu kaupluse, siis jaekauplusega. Järgmistes punktides kirjeldatakse kassaprofiile ja nende kasutamist.
 
 #### <a name="offline-profile"></a>Ühendusväline profiil
 
@@ -151,14 +153,14 @@ Seadmeid selgitatakse selles artiklis eespool. Neid kasutatakse konkreetse kassa
 
 -   **Ootel** – seade on aktiveerimiseks valmis.
 -   **Aktiveeritud** – seade on aktiveeritud.
--   **Inaktiveeritud** – seade on kontoris või kassa kaudu inaktiveeritud.
+-   **Inaktiveeritud** – seade on kaupluse halduses või kassa kaudu inaktiveeritud.
 -   **Keelatud** – seade on keelatud.
 
 Aktiveerimist puudutav lisateave hõlmab töötajat, kes seadme aktiveerimisolekut muutis, aktiveerimise ajatemplit ja seda, kas seadme konfiguratsioon on kinnitatud.
 
 ### <a name="client-data-synchronization"></a>Kliendi andmete sünkroonimine
 
-Kõik kassa kliendi muudatused, v.a seadme aktiveerimisoleku muudatused, tuleb nende jõustumiseks kanali andmebaasiga sünkroonida. Muudatuste sünkroonimiseks kanali andmebaasiga minge jaotisse **Jaemüük ja kaubandus** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik** ja käivitage nõutud jaotusgraafik. Kliendi muudatuste puhul tuleks käivitada jaotusgraafikud Registrid ja Kanali konfiguratsioon.
+Kõik kassa kliendi muudatused, v.a seadme aktiveerimisoleku muudatused, tuleb nende jõustumiseks kanali andmebaasiga sünkroonida. Muudatuste sünkroonimiseks kanali andmebaasiga minge jaotisse **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik** ja käivitage nõutud jaotusgraafik. Kliendi muudatuste puhul tuleks käivitada jaotusgraafikud Registrid ja Kanali konfiguratsioon.
 
 
 
