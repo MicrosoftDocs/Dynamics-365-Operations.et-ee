@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: et-ee
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
@@ -128,3 +128,4 @@ Kui eelarve juhtimine on sisse lülitatud, saavad kasutajad eelarve juhtimise os
 Sellelt lehelt saavad kasutajad minna süvitsi lehele **Eelarve juhtimise statistika perioodide kaupa**, et vaadata eelarve saadavaloleku üksikasju ja valitud eelarve juhtimise dimensiooni kombinatsiooni reserveerimisi. Kasutajad saavad süveneda ka lehele **Eelarve juhtimise statistika**, et vaadata kõikide eelarve juhtimisel kasutatavate finantsdimensioonide kombinatsioonide eelarve saadavalolekut. 
 
 Kui eelarve juhtimine on ostutellimuste puhul sisse lülitatud, saab eelarvehaldur kasutada tööruumi **Pearaamatu eelarved ja prognoosid**, et vaadata üle kõikide kinnitamata ostutellimuste järjestus, millel on eelarve kontrollimise hoiatused ja tõrked. Kui eelarve halduril on eelarve ületamise load konfigureeritud, saab ta ostutellimuse kinnitada otse tööruumis.    
+
