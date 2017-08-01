@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# Kuluarvestuse avaleht
+# <a name="cost-accounting-home-page"></a>Kuluarvestuse avaleht
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ Kuluarvestuse moodul võimaldab teha järgmist.
 -   Looge väljavõtted, mida saab vaadata tööruumis.
 -   Looge aruandeid Excelit kasutades.
 
-<a id="get-started" class="xliff"></a>
-
-## Alusta
+## <a name="get-started"></a>Alusta
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ Selleks et mõista, kuidas kuluarvestust oma igapäevase töö jaoks kasutada, p
 -   [Kuluobjekti dimensioonid](cost-objects.md)
 -   [Kuluobjektide loomine](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (tegevuse juhis)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## Kulujuhtimise mobiilne tööruum
+## <a name="cost-control-mobile-workspace"></a>Kulujuhtimise mobiilne tööruum
 Kulujuhtimise mobiilse tööruumi abil saavad kulukeskuse haldurid näha kulukeskuse jõudlust igal ajal ja igas kohas.
 
 -   [Kulujuhtimise mobiilne tööruum](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## Kuluarvestuse analüüsi Power BI sisu
+## <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu
 Kuluarvestuse analüüsi Microsoft Power BI sisu on mõeldud kulul kontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Finance and Operationsi kuluarvestuse moodulist ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut.
 
 -   [Kuluarvestuse analüüsi Power BI sisu](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
