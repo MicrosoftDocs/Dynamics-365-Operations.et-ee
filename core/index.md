@@ -1,36 +1,34 @@
 ---
 title: Sissejuhatus rakendusse Dynamics 365 for Finance and Operations
-description: "Microsoft Dynamics 365 for Finance and Operations on Microsofti ärirakendus ettevõtetele. See lehekülg aitab teil tootega tutvuda ja seda kasutama hakata."
+description: "Microsoft Dynamics 365 for Finance and Operations on Microsofti ärirakendus ettevõtetele. See leht aitab teil tootega tutvuda ja seda kasutama hakata."
 author: margoc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/10/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: 71
+ms.reviewer: margoc
 ms.custom: 62303
-ms.assetid: 3d7dfc2a-4be2-4fdc-ac35-cc96868f56ab
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bb0700ad317fa8faf5dc83ea523dd151f0f4a811
-ms.openlocfilehash: 713178e79000e4358104038295452db0ba025195
+ms.translationtype: HT
+ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
+ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/28/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="introduction-to-dynamics-365-finance-and-operations"></a>Sissejuhatus rakendusse Dynamics 365 for Finance and Operations
 
+# <a name="introduction-to-dynamics-365-for-finance-and-operations"></a>Sissejuhatus rakendusse Dynamics 365 for Finance and Operations
 [!include[banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations on Microsofti ärirakendus ettevõtetele. See võimaldab inimestel kiiresti teha targemaid otsuseid nutika kasutajaliidese kaudu, mis annab juurdepääsu reaalajas ülevaadetele ja andmetele. See võimaldab ettevõtetel areneda ja teha uuendusi, pakkudes tõestatud äriloogikat, mis võimaldab neil äriprotsesse kiiremini ümber kujundada. See annab ettevõtetele paindlikkuse kasvada omas tempos ja tegeleda ettevõtlusega peaaegu kõikjal ning igal ajal, võimaldades skaleerida toiminguid ärivajaduste rahuldamiseks üleilmselt. 
 
-See dokumentatsioon annab teile teada, kuidas rakendust Dynamics 365 for Finance and Operations oma ettevõttes tõhusalt ära kasutada. Antud dokumentatsioon on ühendatud Unified Operationsi komplekti, rakenduste Dynamics 365 for Retail ja Dynamics 365 for Talent seotud toodete dokumentatsiooniga. 
+See dokumentatsioon annab teile teada, kuidas rakendust Dynamics 365 for Finance and Operations oma ettevõttes tõhusalt ära kasutada. Dokumentatsioon on ühendatud teenusekomplekti Unified Operations, rakenduste Dynamics 365 for Retail ja Dynamics 365 for Talent seotud toodete dokumentatsiooniga. 
 
 <table>
 <colgroup>
@@ -40,77 +38,82 @@ See dokumentatsioon annab teile teada, kuidas rakendust Dynamics 365 for Finance
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Financials</h3>
-<p><a href="../financials/general-ledger/audit-policy-rules">Ühilduvus</a></p>
-<p>Finantshaldus</p>
-<ul style="list-style-type:none">
-<li><a href="../financials/accounts-payable/accounts-payable">Ostureskontro</a></li>
-<li><a href="../financials/accounts-receivable/accounts-receivable">Müügireskontro</a></li>
-<li><a href="../financials/budgeting/budgeting-overview">Eelarvestamine</a></li>
-<li><a href="../financials/cash-bank-management/cash-bank-management">Sularaha- ja pangahaldus</a></li>
-<li><a href="../financials/cost-accounting/cost-accounting-home-page">Kuluarvestus</a></li>
-<li><a href="../financials/fixed-assets/fixed-assets">Põhivarad</a></li>
-<li><a href="../financials/general-ledger/general-ledger">Pearaamat</a></li>
-<li><a href="../financials/public-sector/public-sector-functionality">Avalik sektor</a></li>
-<li><a href="../dev-itpro/lcs-solutions/country-region">Regionaalsed regulatiivsed funktsioonid</a></li></ul>
+<td>
+<h3><a href="../fin-and-ops/get-started/before-you-buy">Enne ostmist</a></h3>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">Eelvaatetellimuse saajaks registreerumine</a></p>
+ <p><a href="../dev-itpro/deployment/choose-deployment-type">Juurutamissuvandi valimine</a></p>
+<p>Rakenduse Finance and Operations ostmine</p>
+ <ul style="list-style-type:none">
+  <p><a href="../fin-and-ops/get-started/fasttrack-dynamics-365-overview">FastTrack for Dynamics 365</a></p>
+  <p><a href="../dev-itpro/get-started/purchase-on-premises">Rakenduse Finance and Operations kohapealse versiooni hankimine</a></p></ul>
+
+<h3><a href="../financials/index">Financials</a></h3>
+<p><a href="../financials/accounts-payable/accounts-payable">Ostureskontro</a></p>
+<p><a href="../financials/accounts-receivable/accounts-receivable">Müügireskontro</a></p>
+<p><a href="../financials/budgeting/budgeting-overview">Eelarvestamine</a></p>
+<p><a href="../financials/cash-bank-management/cash-bank-management">Sularaha- ja pangahaldus</a></p>
+<p><a href="../financials/general-ledger/audit-policy-rules">Vastavus</a></p>
+<p><a href="../financials/cost-accounting/cost-accounting-home-page">Kuluarvestus</a></p>
+<p><a href="../financials/fixed-assets/fixed-assets">Põhivarad</a></p>
+<p><a href="../financials/general-ledger/general-ledger">Pearaamat</a></p>
 <p><a href="../financials/project-management/overview-project-management-accounting">Projektihaldus</a></p>
-<H3>Inimressursid</h3>
-  <ul style="list-style-type:none">
-<li><a href="hr/manage-recruiting-process">Värbamine</a></li>
-<li><a href="hr/localizations/noam-usa-payroll">USA palk</a></li>
-</ul>
-<h3>Tarneahela haldamine</h3>
+<p><a href="../financials/public-sector/public-sector-functionality">Avalik sektor</a></p>
+<p><a href="../dev-itpro/lcs-solutions/country-region">Regionaalsed regulatiivsed funktsioonid</a></p>
+
+<H3><a href="hr/hr-landing-page">Inimressursid</a></h3>
+<p><a href="hr/manage-recruiting-process">Värbamine</a></p>
+<p><a href="hr/localizations/noam-usa-payroll">USA palk</a></p>
+
+<h3><a href="../supply-chain/index">Hankeahela haldamine</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets">Kuluhaldus</a></p>
 <p><a href="../supply-chain/inventory/inventory-locations">Varude haldus</a></p>
 <p>Logistika</p>
-<ul style="list-style-type:none"><li><a href="../supply-chain/transportation/transportation-management-overview">Transpordihaldus</a></li>
-<li><a href="../supply-chain/warehousing/warehouse-configuration">Laohaldus</a></li></ul>
+<ul style="list-style-type:none">
+<p><a href="../supply-chain/transportation/transportation-management-overview">Transpordihaldus</a></p>
+<p><a href="../supply-chain/warehousing/warehouse-configuration">Laohaldus</a></p></ul>
 <p><a href="../supply-chain/master-planning/master-plans">Planeerimine</a></p>
-  <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Tooteteabe haldus</a></p>
-  <p><a href="../supply-chain/production-control/create-production-orders">Tootmise juhtimine</a></p>
-<p>Tellimuse haldus</p>
-  <ul style="list-style-type:none"><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Hanked</a></li>
-  <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Müük ja turundus</a></li></ul>
+<p><a href="../supply-chain/pim/product-information">Tooteteabe haldus</a></p>
+<p><a href="../supply-chain/production-control/create-production-orders">Tootmise juhtimine</a></p>
+<p>Tellimuste haldus</p>
+  <ul style="list-style-type:none">
+  <p><a href="../supply-chain/procurement/procurement-sourcing-overview">Hanked</a></p>
+  <p><a href="../supply-chain/sales-marketing/overview-sales-marketing">Müük ja turundus</a></p></ul>
 </td>
 <td>
-<h3>Unified Operationsi platvorm</h3>
-<p>Teave</p>
-<ul style="list-style-type:none"><li><a href="../dev-itpro/analytics/analytics">Analüütika</a></li>
- <li><a href="../dev-itpro/analytics/document-reporting-services">Äridokumendid</a></li>
-<li><a href="../dev-itpro/analytics/financial-reporting-intro">Finantsaruandlus</a></li>
-<li><a href="../dev-itpro/analytics/general-electronic-reporting">Regulatiivne aruandlus</a></li></ul>
+<h3><a href="../dev-itpro/analytics/information-access-reporting">Äriteave</a></h3>
+<p><a href="../dev-itpro/analytics/analytics">Analüütika</a></p>
+ <p><a href="../dev-itpro/analytics/document-reporting-services">Äridokumendid</a></p>
+<p><a href="../dev-itpro/analytics/financial-reporting-intro">Finantsaruandlus</a></p>
+<p><a href="../dev-itpro/analytics/general-electronic-reporting">Regulatiivne aruandlus</a></p>
 
-<p><a href="../dev-itpro/mobile-apps/mobile-platform">Mobiilne platvorm</a></p>
+<h3><a href="../dev-itpro/mobile-apps/mobile-platform">Mobiilne platvorm</a></h3>
 
- <p>Arendaja funktsioonid</p>
-<ul style="list-style-type:none">
-<li><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Pidev tarne</a></li>
-<li><a href="../dev-itpro/get-started/demo-data">Demoandmed</a></li>
-<li><a href="../dev-itpro/dev-tools/developer-home-page">Arendusriistad</a></li>
-<li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Laiendatavus</a></li>
-<li><p>Integratsioon</p>
-<ul style="list-style-type:none"><li><a href="../dev-itpro/data-entities/data-entities">Andmeüksused</a></li>
-<li><a href="../dev-itpro/office-integration/office-integration">Office’i integreerimine</a></li></ul></li></ul>
+<h3>Arendaja funktsioonid</h3>
+<p><a href="../dev-itpro/dev-tools/developer-home-page">Arendaja koduleht</a></p>
+<p><a href="../dev-itpro/extensibility/extensibility-home-page">Laiendatavus</a></p>
+<p>Integratsioon</p>
+<ul style="list-style-type:none"><p><a href="../dev-itpro/data-entities/data-entities">Andmeüksused</a></p>
+<p><a href="../dev-itpro/office-integration/office-integration">Office’i integreerimine</a></p></ul></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Pidev tarne</a></p>
+<p><a href="../dev-itpro/get-started/demo-data">Demoandmed</a></p>
 
-<p>Administraatori funktsioonid<p>
-<ul style="list-style-type:none">
-<li><a href="../fin-and-ops/get-started/onboarding-home">Kasutuselevõtt organisatsioonis</a></li>
-<li><a href="../dev-itpro/deployment/deploy-demo-environment">Juurutamine ja hooldus</a></li>
-<li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Täiendamine</a></li>
-<li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Andmehaldus</a></li>
-<li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
-<li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organisatsioonihaldus</a></li>
-<li><a href="../dev-itpro/sysadmin/system-administration-home-page">Süsteemihaldus</a></li>
-</ul>
+<h3>Administraatori funktsioonid</h3>
+<p><a href="../fin-and-ops/get-started/onboarding-home">Kasutuselevõtt organisatsioonis</a></p>
+<p><a href="../dev-itpro/deployment/deploy-demo-environment">Juurutamine ja hooldus</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Täiendamine</a></p>
+<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Andmehaldus</a></p>
+<p><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></p>
+<p><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organisatsioonihaldus</a></p>
+<p><a href="../dev-itpro/sysadmin/system-administration-home-page">Süsteemihaldus</a></p>
 </td>
 <td>
 <h3>Seotud tooted</h3>
-<h4>Dynamics 365 for Talent</h4>
+<h4><a href="../talent/index">Dynamics 365 for Talent</a></h4>
 <p><a href="../talent/manage-benefit-program">Soodustused</a></p>
 <p><a href="../talent/performance-management-overview">Töövõtja areng ja koolitused</a></p>
 <p><a href="../talent/questionnaires">Küsimustik</a></p>
 
-<h4>Dynamics 365 for Retail</h4>
+<h4><a href="../retail/index">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality">Kõnekeskus</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanali seadistus ja haldamine</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS ja pilve kassa</p>

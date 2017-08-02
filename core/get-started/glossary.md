@@ -1,43 +1,41 @@
 ---
-title: "Dynamics 365 for Operationsi sõnastik"
-description: "Microsoft Dynamics 365 for Operationsi sõnastik määratleb Microsoft Dynamics 365 for Operationsi toote olulised mõisted ja põhimõtted."
+title: "Rakenduse Finance and Operations sõnastik"
+description: "Sõnastikus on määratletud rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition põhiterminid ja mõisted."
 author: tonyafehr
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 07/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global
 ms.author: tfehr
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
+ms.translationtype: HT
+ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
+ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/08/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operationsi sõnastik
+# <a name="finance-and-operations-glossary"></a>Rakenduse Finance and Operations sõnastik
 
 [!include[banner](../includes/banner.md)]
 
-
-Microsoft Dynamics 365 for Operationsi sõnastik määratleb Microsoft Dynamics 365 for Operationsi toote olulised mõisted ja põhimõtted. 
+Sõnastikus on määratletud rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition põhiterminid ja mõisted. 
 
 ### <a name="a"></a>**A**
 
 ###### <a name="accounting-journal"></a>**raamatupidamise tööleht**
 
-Raamatupidamissüsteemi raamatupidamissündmuste finantstagajärgede kirjendamiseks kasutatav tööleht.
+Raamatupidamissüsteemi arvestussündmuste finantstagajärgede kirjendamiseks kasutatav tööleht.
 
 ###### <a name="accounting-rule"></a>**raamatupidamisreegel**
 
@@ -51,17 +49,9 @@ Elektrooniline rahaülekande süsteem Ameerika Ühendriikides, mis lihtsustab ra
 
 Mõõdetud kogus, mis on sisestatud tegevusse või mille kohta on tegevusest tehtud väljund.
 
-###### <a name="address-verification-service"></a>**aadressi kontrollimise teenus**
+###### <a name="address-verification"></a>**aadressi tõendamine**
 
-Teenus, mida osutab krediitkaardi töötleja, kes kinnitab, et kaardi omaniku esitatud arveaadress vastab välja andva panga faili teabele.
-
-###### <a name="adjusted-unit-price"></a>**korrigeeritud ühikuhind**
-
-Arvutatud ühikuhind atribuudipõhise hinnakujunduse ja tegeliku sisalduse alusel.
-
-###### <a name="advanced-pricing"></a>**täpsem hinnakujundus**
-
-Loogika, mida kasutatakse sisaldusüksuse ostuhinna arvutamiseks.
+Teenus, mida osutab krediitkaardi töötleja, kes kinnitab, et kaardi omaniku esitatud arveaadress vastab väljaandva panga failiteabele.
 
 ###### <a name="aging"></a>**ajaline jaotus**
 
@@ -99,19 +89,18 @@ Ajavahemik, mille jooksul on võimalik kasutada toote optimaalset kvaliteeti võ
 
 ###### <a name="bill-of-exchange"></a>**käskveksel**
 
-Lähtedokument, mis dokumenteerib tingimusteta taotlust kolmandale osapoolele maksta nõudmisel teisele osapoolele.
-
-###### <a name="bill-of-materials"></a>**kooslus**
-
-Toodete ja nende koguste loetelu, mis on vajalikud ühe toote tootmiseks.
+Lähtedokument, mis dokumenteerib kolmandale osapoolele ette nähtud tingimusteta taotluse maksta nõudmisel teisele osapoolele.
 
 ###### <a name="blocking"></a>**blokeerimine**
 
-Dokumendi või toote ootele paneku toiming.
+Dokumendi või toote ootelepaneku tegevus.
 
+###### <a name="bom-bill-of-materials"></a>**kooslus**
+
+Toodete ja nende koguste loetelu, mis on vajalikud ühe toote tootmiseks.
 ###### <a name="budget-control"></a>**eelarve juhtimine**
 
-Loa andmine kulude autoriseerimiseks ainult siis, kui eelarve vahendeid saab reserveerida tulevaste maksekohustuste täitmiseks.
+Loa andmine kulude autoriseerimiseks ainult siis, kui eelarvevahendeid saab reserveerida tulevaste maksekohustuste täitmiseks.
 
 ###### <a name="budget-control-dimension"></a>**eelarvekontrolli dimensioon**
 
@@ -175,14 +164,6 @@ Põhikontode loend.
 
 Arvestuskategooria, mida kasutatakse toodete tootmise rahaliste tagajärgede summeerimiseks ja inventuuri läbiviimiseks.
 
-###### <a name="commodity-pricing"></a>**toorainepõhine hinnakujundus**
-
-Hinnakujunduse strateegia müügikaupade hinna uuendamiseks, mida valmistatakse sagedasti muutuva hinnaga toorainetest.
-
-###### <a name="consolidated-order"></a>**konsolideeritud tellimus**
-
-Lähtedokument, mis dokumenteerib rohkem kui ühe viidatud tellimuse.
-
 ###### <a name="contractor"></a>**peatöövõtja**
 
 Roll, mille on võtnud endale isik, kes osaleb töövõtja-tööandja suhetes juriidilise isikuga.
@@ -195,11 +176,7 @@ Teise kaubaga ühiselt toodetud kaup.
 
 Tootmisüksus, mille juhid vastutavad eelarveliste ja tegelike kulude eest.
 
-###### <a name="cost-of-goods-sold"></a>**tuletusreegel**
-
-Arvestuskategooria, mida kasutatakse toodete tootmise rahaliste tagajärgede summeerimiseks ja inventuuri läbiviimiseks.
-
-###### <a name="cost-variance"></a>**kulu hälve**
+###### <a name="cost-variance"></a>**kuluhälve**
 
 Eeldatava kulu ja tegeliku kulu vahe.
 
@@ -223,7 +200,7 @@ Tegevuse lõpetamiseks vajalik aeg.
 
 ###### <a name="dashboard"></a>**armatuurlaud**
 
-Tavaline Microsoft Dynamics 365 for Operationsi avaleht. Armatuurlaual näevad kasutajad iga tööruumi jaotist, kuhu neil on juurdepääs. Iga jaotis kuvab paane seotud tööruumi kokkuvõttejaotistest. Armatuurlaud koosneb nimest ja paanidega jaotistest.
+Rakenduse Finance and Operations tavaline avaleht. Armatuurlaual näevad kasutajad iga tööruumi jaotist, kuhu neil on juurdepääs. Iga jaotis kuvab paane seotud tööruumi kokkuvõttejaotistest. Armatuurlaud koosneb nimest ja paanidega jaotistest.
 
 ###### <a name="data-entity"></a>**andmeüksus**
 
@@ -260,10 +237,6 @@ Konfiguratsioonitehnoloogia, mida kasutatakse tootevariantide loomiseks, valides
 ###### <a name="distinct-product"></a>**eristatav toode**
 
 Toode, mis on üheselt tuvastatav.
-
-###### <a name="document-blocking"></a>**dokumentide blokeerimine**
-
-Toimingute protsessi ootele panemise meetod, samas kui tellitud kaubad on kvaliteedi kontrollimise protsessis.
 
 ###### <a name="document-management-system"></a>**dokumendihaldussüsteem**
 
@@ -316,10 +289,6 @@ Valuuta, millel on muu valuuta suhtes fikseeritud vahetuskurss.
 ###### <a name="fixed-quantity-kanban"></a>**fikseeritud kogusega kanban**
 
 Kanbani tüüp mida kasutatakse siis, kui kanban-reeglile määratud kanbanite arv on püsiv.
-
-###### <a name="flexible-authentication"></a>**paindlik autentimine**
-
-Autentimisprotsess, kus saab autentida mitmesuguste identiteedi haldamise süsteemidega kasutajaid.
 
 ###### <a name="formula"></a>**valem**
 
@@ -377,11 +346,7 @@ Protsess või üleandmise tegevus tootmisvoos, mille käivitab kanban.
 
 ###### <a name="kanban-job-consumption"></a>**kanban-töö tarbimine**
 
-Toote osade eemaldamine varudest, et viia lõpule kanban-tootmistööd.
-
-###### <a name="kanban-product-quantity"></a>**kanban-toote kogus**
-
-Arvulised nõuded kaubale, mida kantakse kanbanil kanban-reegli põhjal.
+Toote komponentide eemaldamine varudest, et viia lõpule kanban-tootmistööd.
 
 ###### <a name="kanban-rule"></a>**kanban-reegel**
 
@@ -410,10 +375,6 @@ Tähtnumbriline võti mis annab poolele õiguse kasutada tarkvara või tarkvara 
 Osapoole võime kasutada käibevara jooksvate kohustuste eest tasumiseks.
 
 ### <a name="m"></a>**M**
-
-###### <a name="manufacturing-overhead-based-on-material"></a>**materjalil põhinevad tootmise üldkulud**
-
-Tootmise üldkulu väljendatakse kaudsete kulude kalkulatsioonivalemitena lisatasude jaoks. Materjali komponentidele määratud kulugrupp toimib kalkulatsioonivalemi alusena. Kalkulatsioonivalemit saab määrata üksikutele toodetele või toodetele määratud kaubagruppidele, et pakkuda suuremat paindlikkust materjalil põhinevate tootmise üldkulude arvestamisel.
 
 ###### <a name="master-scheduling"></a>**koondplaneerimine**
 
@@ -459,10 +420,6 @@ Pakett on koostatav ja juurutatav ühe või mitme mudeli üksus.
 
 ###### <a name="party"></a>**osapool**
 
-Üksus, mis võtab endale lepingulistes suhetes õiguslikult siduva rolli.
-
-###### <a name="party"></a>**osapool**
-
 Isik või organisatsioon, mis osaleb majandustegevuses.
 
 ###### <a name="pegging"></a>**sidumine**
@@ -471,11 +428,7 @@ Nõutava kauba koguse allikaga sidumise protsess.
 
 ###### <a name="pegging-event"></a>**sidumissündmus**
 
-Ressursivoolu sündmus, mis näitab nõudlust toote järele.
-
-###### <a name="phantom-item"></a>**fiktiivne kaup**
-
-Kaup, mis on toodetud, kuid mitte ladustatud.
+Ressursivoo sündmus, mis näitab nõudlust toote järele.
 
 ###### <a name="planned-intercompany-demand"></a>**plaanitud kontsernisisene nõudlus**
 
@@ -489,17 +442,9 @@ Majandussündmuse rahalise väärtuse salvestamiseks kindlale kontole või üldi
 
 Isik, kes loob lähtedokumendi majandusressursside taotluse algatamiseks.
 
-###### <a name="privilege"></a>**privileeg**
-
-Üks või mitu luba, mida kasutajal on toimingu sooritamiseks vaja.
-
 ###### <a name="procurement-catalog"></a>**hankekataloog**
 
 Tootepakkumiste loetelu, mis on rühmitatud hankekategooriate kaupa. Hankekataloogi kasutatakse toodete taotlemisel organisatsioonisiseseks kasutamiseks.
-
-###### <a name="product-component"></a>**toote komponent**
-
-Toote osa.
 
 ###### <a name="product-dimension"></a>**tootedimensioon**
 
@@ -507,7 +452,7 @@ Toote suuruse, värvi või konfiguratsiooni atribuudid, mida kasutatakse dimensi
 
 ###### <a name="product-family"></a>**tooteperekond**
 
-Kordumatu rühm kaupu, teenuseid või õigusi, mis kas osalevad samades tootmise või tarnimisega seotud tegevustes või mida pakutakse samadele turusegmentidele. Microsoft Dynamics 365 for Operationsis on huvigrupp kajastatud prognoosi eraldusvõtme abil.
+Kordumatu rühm kaupu, teenuseid või õigusi, mis kas osalevad samades tootmise või tarnimisega seotud tegevustes või mida pakutakse samadele turusegmentidele. Rakenduses Finance and Operations on grupp kajastatud prognoosi eraldusvõtme abil.
 
 ###### <a name="product-master"></a>**tooteetalon**
 
@@ -581,10 +526,6 @@ Meetod, mida kasutatakse koondplaneerimisel eelarvevajaduste suurendamiseks või
 
 Kirje, mida kasutatakse ressursivoo sündmuste tegevuslike, juriidiliste ja rahaliste tagajärgede kirjendamiseks raamatupidamissüsteemis.
 
-###### <a name="regulated-product"></a>**reguleeritud toode**
-
-Toode, mida reguleerib valitsusasutus, mis peab olema vastavuses ja mille kohta on nõutav auditeerimise aruandlus.
-
 ###### <a name="rfq-request-for-quotation"></a>**RFQ (pakkumiskutse)**
 
 Lähtedokument, mis dokumenteerib pakkumiskutse toote koguse tarnimiseks nimetatud hinna eest ja nimetatud kuupäevaks.
@@ -593,9 +534,6 @@ Lähtedokument, mis dokumenteerib pakkumiskutse toote koguse tarnimiseks nimetat
 
 Isik, kes taotleb majandusressursse.
 
-###### <a name="restricted-product"></a>**piirangutega toode**
-
-Toode, mille jaotust on piiranud valitsusasutus.
 
 ### <a name="s"></a>**S**
 
@@ -647,13 +585,6 @@ Lähtedokumendi real dokumenteeritud tootekogus, mis tekitab siduva nõude.
 
 Tulevase nõudluse prognoos, mis luuakse prognoosimise algoritmi rakendamisega varasematele kandeandmetele.
 
-###### <a name="supermarket"></a>**lõppladu**
-
-Just-in-time (täpselt õigeks ajaks) varude asukoht, mis on piiratud suurusega ning mida kasutatakse materjali partiideks jagamiseks tarbimispunkti läheduses.
-
-###### <a name="system-defined-financial-dimension-type"></a>**süsteemi määratletud finantsdimensiooni tüüp**
-
-Andmebaasis tabeli või vaatega vastendatud finantsdimensioon, mis kajastab üksuse tüüpi ja mille väärtused on selle üksuse tüübiga ühe atribuudi domeenis.
 
 ### <a name="t"></a>**T**
 
@@ -665,17 +596,17 @@ Toote ühe kaubaühiku tootmiseks kuluv aeg.
 
 Kontrollitud, juhendatud kasutuskogemus läbi tegevuse salvestamise etappide. Tegevuse juhend juhatab kasutaja läbi salvestatud kogemuse. Kõik turvalisuse, andmete ja rakenduse käitumised on tegevuse juhisega tehes samad mis ilma tegevuse juhiseta. Tegevuse juhis kasutab samu tööriistu mis tegevuse salvestaja, et teada, millal kasutaja on kavatsetud etapi lõpetanud, nii et see saab paluda kasutajal minna salvestamise järgmise etapi juurde.
 
-###### <a name="task-recorder"></a>**tegevuse salvestaja**
+###### <a name="task-recorder"></a>**Tegevuse salvestaja**
 
-Tööriist, mis on Microsoft Dynamics 365 for Operationsisse eelnevalt installitud. Salvestamisel salvestab see kõik sündmused, mille kasutaja Dynamics 365 for Operationsi kasutajaliidesesse sisestab ja mis käivitatakse serveris – sh lisatud väärtused, muudetud sätted, eemaldatud andmed jne.
+Tööriist, mis on rakendusse Finance and Operations eelinstallitud. Salvestamisel salvestab see kõik sündmused, mille kasutaja rakenduse Finance and Operations kasutajaliidesesse sisestab ja mis käivitatakse serveris (sh lisatud väärtused, muudetud sätted, eemaldatud andmed jne).
 
 ###### <a name="task-recording"></a>**tegevuse salvestis**
 
-Fail, mis sisaldab tegevusi ja märkusi, mis jäädvustatakse, kui tegevuse salvestaja Microsoft Dynamics 365 for Operationsis käivitatakse.
+Fail, mis sisaldab tegevusi ja märkusi, mis jäädvustatakse, kui tegevuse salvestaja rakenduses Finance and Operations käivitatakse.
 
-###### <a name="three-way-matching-policy"></a>**kolmesuunaline vastavusse viimise poliitika**
+###### <a name="three-way-matching-policy"></a>**kolmesuunaline vastavusseviimise poliitika**
 
-Vastavusse viimise poliitika, mis nõuab, et ühe või mitme hankija arve hinnad vastaksid ühe või mitme tellimuse ostuhindadele, ja mis nõuab, et ühe või mitme hankija arve kogused vastaksid ühe või mitme toote sissetuleku kogustele.
+Vastavusseviimise poliitika, mis nõuab, et ühe või mitme hankijaarve hinnad vastaksid ühe või mitme tellimuse ostuhindadele, ja mis nõuab, et ühe või mitme hankijaarve kogused vastaksid ühe või mitme toote sissetulekukogustele.
 
 ###### <a name="transfer-batch"></a>**ülekandepartii**
 
@@ -683,13 +614,7 @@ Vastavusse viimise poliitika, mis nõuab, et ühe või mitme hankija arve hinnad
 
 ###### <a name="two-way-matching-policy"></a>**kahesuunaline vastavusse viimise poliitika**
 
-Vastavusse viimise poliitika, mis nõuab, et ühe või mitme hankija arve hinnad vastaksid ühe või mitme ostutellimuse hindadele.
-
-### <a name="u"></a>**U**
-
-###### <a name="user-defined-financial-dimension-type"></a>**kasutaja määratletud finantsdimensiooni tüüp**
-
-Kasutaja määratletud väärtuste loendiga vastendatud finantsdimensioon.
+Vastavusseviimise poliitika, mis nõuab, et ühe või mitme hankijaarve hinnad vastaksid ühe või mitme ostutellimuse hindadele.
 
 ### <a name="v"></a>**V**
 
@@ -726,7 +651,4 @@ Isik, kes võtab endale töötaja või töövõtja rolli ja kellele teenuste ees
 ###### <a name="workspace"></a>**tööruum**
 
 Leht, mis annab ülevaate ühest kasutaja tehtavast toimingust. Leht kasutab paane, loendeid ja diagramme, et kuvada ootel töö ja seotud andmed mitmest allikast, ja leht lihvib nende andmetega seotud sagedasi tegevusi. Tööruumi kokkuvõttejaotises kuvatavad paanid kuvatakse ka armatuurlaua seotud jaotises.
-
-
-
 
