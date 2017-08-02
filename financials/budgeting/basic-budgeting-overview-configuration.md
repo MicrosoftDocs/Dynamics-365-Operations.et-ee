@@ -79,7 +79,7 @@ Eelarvehaldur saab praguse eelarve oleku üle vaadata tööruumis **Pearaamatu e
 
 Päringuleht **Tegelik võrreldes eelarvega** võimaldab süveneda eelarvesummade ja tegelike summade üksikasjadesse. Valige päringulehel rida ja klõpsake siis suvandit **Perioodi saldod**, et näha, kuidas eelarve ja tegelikud summad rahandusperioodil jaotuvad. Lehel **Eelarvekonto kirjed** saab süveneda eelarveregistri kirjetes oleva eelarvesumma üksikasjadesse. Leht **Üldised töölehe sisestused** avab pearaamatu kanded, mis on lisatud arvutatud summale **Tegelikud**. 
 
-Funktsiooni Eelarve planeerimine kasutav ettevõte saab luua *eelarveprognoose *ja neid kasutada tööruumis **Pearaamatu eelarved ja prognoosid**.
+Funktsiooni Eelarve planeerimine kasutav ettevõte saab luua *eelarveprognoose* ja neid kasutada tööruumis **Pearaamatu eelarved ja prognoosid**.
 
 
 
