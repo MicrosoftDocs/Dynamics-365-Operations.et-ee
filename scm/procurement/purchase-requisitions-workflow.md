@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d28e92fa853d155bc62932625e0e714cdf4edcc
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 95d1d3a34728aab38f77635ae68bea16b08f6587
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -105,12 +105,12 @@ Te ei pea kulude ülevaataja konfiguratsioone määratlema. Selle asemel saate t
 
 Saate seadistada kulude ülevaatajad lehel **Ostutaotluse kulude ülevaatajad**. Looge kulude ülevaataja konfiguratsioon ja sisestage väärtused igale oma organisatsiooni juriidilisele isikule. Projektile määratavate taotluste puhul saate määrata rolli, kes vastab taotluste ülevaatamise eest: projektijuht, projekti revident või projekti müügijuht. Kulud suunatakse kasutajale, kes on sellele rollile määratud. Saate kulu suunata ka finantsdimensiooni omanikule, valides vastava finantsdimensiooni suvandi vahekaardil **Organisatsiooni jaotused**.  
 
-Töövoos seadistatud kulu ülevaataja kasutamiseks peate asjakohase töövooelemendi välja**Määramine** atribuutides valima suvandi **Osaleja tüüp** sätteks**Kulu osalejad**.
+Töövoos seadistatud kulu ülevaataja kasutamiseks peate asjakohase töövooelemendi välja **Määramine** atribuutides valima suvandi **Osaleja tüüp** sätteks **Kulu osalejad**.
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Tarbimistaotluse loomine (tegevuse juhis)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Tarbimistaotluse loomine (tegevuse juhis)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
 
 [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 

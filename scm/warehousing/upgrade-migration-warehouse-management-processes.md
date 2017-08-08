@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ See teema annab ülevaate toote ja laohalduse migreerimisvalikutest rakenduses M
 Versioonitäienduse käigus Finance and Operationsiks blokeeritakse tooted, kui need on seotud mõne laoala dimensioonigrupiga, millel on sätteid, mis ei vasta Finance and Operationsi laoala dimensioonigrupi sätete nõuetele. Kuid pärast versioonitäiendust võite kasutada migreerimisvalikute komplekti protsessis **Kaupade laoala dimensioonigrupi muutmine** versioonitäienduse ajal blokeeritud toodetelt blokeeringu eemaldamiseks. Seejärel saate nende toodete kandeid töödelda. Mõned kaubad võivad juba olla seostatud laoala dimensioonigruppidega, kus dimensioonid Laoala, Ladu ja Asukoha varud on aktiivselt ja füüsiliselt jälgitavad. Sellisel juhul võite kasutada protsessi **Kaupade laoala dimensioonigrupi muutmine**, et võimaldada nende kaupade kasutamist laohalduse protsessides. See funktsioon on kasulik, kui soovite kasutada olemasolevate kaupade puhul laoala halduse funktsiooni.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Versioonitäiendus Finance and Operationsiks, kui kasutatakse rakendust AX 2012 R3 WMSII
-Finance and Operations ei toeta enam pärandmoodulit **WMSII** rakendusest Microsoft Dynamics AX 2012. Selle asemel saab kasutada uut moodulit **Laohaldus**. Lisateavet leiate jaotisest [Laohalduse koduleht](https://ax.help.dynamics.com/en/wiki/warehouse-management/). Varasemates versioonides sai finantsilisteks varudeks valida varude dimensioonid Asukoht ja Aluse ID. Kuid versioonitäienduse protsessi käigus ei saa varude dimensiooni Aluse ID enam finantsiliste varude puhul lubada. Kõik tooted, mis on seotud laoala dimensioonigrupiga, mis kasutab varude dimensiooni Aluse ID, blokeeritakse ja neid ei töödelda.
+Finance and Operations ei toeta enam pärandmoodulit **WMSII** rakendusest Microsoft Dynamics AX 2012. Selle asemel saab kasutada uut moodulit **Laohaldus**. Varasemates versioonides sai finantsilisteks varudeks valida varude dimensioonid Asukoht ja Aluse ID. Kuid versioonitäienduse protsessi käigus ei saa varude dimensiooni Aluse ID enam finantsiliste varude puhul lubada. Kõik tooted, mis on seotud laoala dimensioonigrupiga, mis kasutab varude dimensiooni Aluse ID, blokeeritakse ja neid ei töödelda.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Kaupade aktiveerimine Finance and Operationsis
 
@@ -70,7 +70,7 @@ Enne väljastatud toodete kasutamist moodulis **Laohaldus** peavad tooted kasuta
 1.  Looge vähemalt üks uus asukohaprofiil.
 2.  Klõpsake valikuid **Laohaldus** &gt; **Seadistus** &gt; **Luba laohaldusprotsessid** &gt; **Luba lao seadistus**.
 3.  Lisage lehel **Luba lao seadistus** laod, mis tuleks lubada. Selle toimingu võib teha otse lehel või Microsoft Office’i integratsiooni kasutades.
-4.  Asukohaprofiili määramine kõigile asukohtadele. Selle toimingu võib teha hõlpsasti otse lehel Microsoft Office’i integratsiooni kasutades. Võite andmed eksportida ja importida või kasutada andmeüksuse töötlemist jaotises [Andmehaldus](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+4.  Asukohaprofiili määramine kõigile asukohtadele. Selle toimingu võib teha hõlpsasti otse lehel Microsoft Office’i integratsiooni kasutades. Võite andmed eksportida ja importida või kasutada andmeüksuse töötlemist jaotises [Andmehaldus](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 5.  Valideerige muudatused. Valideerimisprotsessi käigus toimuvad mitmesugused andmete terviklikkuse valideerimised. Suurema versioonitäienduse protsessi käigus võib olla vaja ilmnevaid probleeme allika juurutamisel korrigeerida. Sellisel juhul on vajalik täiendav andmete versioonitäiendus.
 6.  Töödelge muudatused.
 
@@ -81,7 +81,7 @@ Enne väljastatud toodete kasutamist moodulis **Laohaldus** peavad tooted kasuta
 3.  Määratlege lehel **Reserveerimishierarhia** kauba ladustamise ja jälgimisdimensiooni gruppide kohaselt uus reserveerimishierarhia.
 4.  Looge vähemalt üks kauba seeriagrupp, mis sisaldab vähemalt samu ühikuid, mida kasutatakse kauba laoühikutena.
 5.  Klõpsake valikuid **Laohaldus** &gt; **Seadistus** &gt; **Luba laohaldusprotsessid** &gt; **Kaupade laoala dimensioonigrupi muutmine**.
-6.  Lisage lehel **Kaupade laoala dimensioonigrupi muutmine** kaubakoodid, laoala dimensioonigrupid ja ühiku seeriagrupid. Selle toimingu saab teha otse lehelt, kasutades Microsoft Office’i integratsiooni, või kasutades andmeüksuse protsessi jaotises [Andmehaldus](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+6.  Lisage lehel **Kaupade laoala dimensioonigrupi muutmine** kaubakoodid, laoala dimensioonigrupid ja ühiku seeriagrupid. Selle toimingu saab teha otse lehelt, kasutades Microsoft Office’i integratsiooni, või kasutades andmeüksuse protsessi jaotises [Andmehaldus](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 7.  Valideerige muudatused. Valideerimisprotsessi käigus toimuvad mitmesugused andmete terviklikkuse valideerimised. Suurema versioonitäienduse protsessi käigus võib olla vaja ilmnevaid probleeme allika juurutamisel korrigeerida. Sellisel juhul on vajalik täiendav andmete versioonitäiendus.
 8.  Töödelge muudatused. Kõigi varude dimensioonide uuendamine võib veidi aega võtta. Saate edenemist pakett-tööde toimingute abil jälgida.
 

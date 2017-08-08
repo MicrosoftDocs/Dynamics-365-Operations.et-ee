@@ -3,7 +3,7 @@ title: "Käibemaksumäärad väljade Marginaali alus ja Arvutusmeetod põhjal"
 description: "Selles artiklis selgitatakse, kuidas väljade Marginaali alus ja Arvutamismeetod väärtused määravad müügi- ja ostukannete maksumäära(d)."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
 ms.author: vstehman
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 49cbaba7360fb3a16a70c6889d23608c7fbfa412
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: e16e91208cdd6c1a5c904fb763454371b02c71fd
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -41,7 +40,7 @@ Erinevad väärtuste kombinatsioonid nendel väljadel annavad tulemuseks väga e
 > [!Important]                                                                                                                  
 > Kui Marginaali alus või mõni käibemaksukood põhineb reasummadel või ühikutel, tuleb lehel Pearaamatu parameetrid määrata välja Arvutusmeetod väärtuseks Rida. |
 
-## <a name="net-amount-per-line"></a>Netosumma rea kohta
+## <a name="net-amount-per-line"></a> Netosumma rea kohta
 Tehke see valik käibemaksumäärade arvutamiseks arve ridade netosumma alusel, välistades kõik muud maksud.
 
 ### <a name="example"></a>Näide

@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonili
 
 Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
-Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
@@ -196,12 +196,16 @@ Kui muudatusehaldus on ostutellimuste jaoks lubatud, läbib ostutellimus kinnita
 
 Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimusse teha võidakse, kui muudatuste haldamine on sisse lülitatud. Versioon registreeritakse ostutellimuse kinnitamisel, mitte siis, kui ostutellimus saadetakse hankijale või kinnitatakse.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Tegevus**                                                                                                    | **Olek ja versioon**                                                                                                                                                                                                                                                                                                                                                                      |
-| Ostutellimuse algne versioon luuakse rakenduses Finance and Operations.                                      | Olek on **Mustand**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| Ostutellimus esitatakse kinnitusprotsessile. (Kinnitusprotsess on sisemine protsess, millega hankija seotud ei ole.) | Olek muudetakse olekust **Mustand** olekusse **Ülevaatamisel** ja olekusse **Kinnitamine**, kui kinnitamisprotsessi ajal ostutellimust tagasi ei lükata. Kinnitatud ostutellimus registreeritakse versioonina.                                                                                                                                                                                                                     | | Ostutellimus saadetakse hankijale                                                                                  | See versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.                                                                                                                                                                                                                                                                       | | Teete muudatusi, mida hankija soovib, kas käsitsi või kasutades vastusel olevat tegevust ostutellimuse uuendamiseks.                                                       | Olekuks määratakse uuesti **Mustand**.                                                                                                                                                                                                                                                                                                                                                    | | Ostutellimus esitatakse uuesti kinnitusprotsessile.                                                            | Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine**, kui ostutellimust kinnitamisprotsessi ajal tagasi ei lükata. Teise võimalusena saab süsteemi konfigureerida nii, et konkreetse välja muudatused ei nõua uuesti kinnitamist. Sellisel juhul määratakse olekuks kõigepealt **Mustand** ja seejärel automaatselt **Kinnitatud**. Kinnitatud ostutellimus registreeritakse uue versioonina. | | Saadate ostutellimuse uue versiooni hankijale.                                                             | Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.                                                                                                                                                                                                                                                                   | | Hankija kinnitab ostutellimuse uue versiooni.                                                                | Olekuks määratakse **Kinnitatud**, kas automaatselt või siis, kui saate hankijalt vastuse ja kinnitate siis ostutellimuse.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Tegevus**                                                               | **Olek ja versioon**                                                                                                                                       |
+| Ostutellimuse algne versioon luuakse rakenduses Finance and Operations.      | Olek on **Mustand**.  |
+| Ostutellimus esitatakse kinnitusprotsessile. (Kinnitusprotsess on sisemine protsess, millesse hankija ei ole kaasatud.)                                                           | Olek muudetakse olekust **Mustand** olekusse **Ülevaatamisel** ja omakorda olekusse **Kinnitus**, kui ostutellimust ei lükata kinnitamisprotsessi käigus tagasi. Kinnitatud ostutellimus registreeritakse versioonina.           | 
+| Ostutellimus saadetakse hankijale.                                                            | Versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.      |
+| Teete muudatusi, mida hankija soovib, kas käsitsi või kasutades vastusel olevat tegevust ostutellimuse uuendamiseks.                                                            | Olekuks määratakse uuesti **Mustand**.     |
+|Ostutellimus esitatakse uuesti kinnitusprotsessile.                                                |  Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine**, kui ostutellimust ei lükata kinnitamisprotsessi käigus tagasi. Teise võimalusena saab süsteemi konfigureerida nii, et konkreetse välja muudatused ei nõua uuesti kinnitamist. Sellisel juhul määratakse olekuks kõigepealt **Mustand** ja seejärel automaatselt **Kinnitatud**. Kinnitatud ostutellimus registreeritakse uue versioonina.                                         |
+|Saadate ostutellimuse uue versiooni hankijale.                                                |  Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.                                         |
+|Hankija kinnitab ostutellimuse uue versiooni.                                                |  Olekuks määratakse **Kinnitatud**, kas automaatselt või siis, kui saate hankijalt vastuse ja kinnitate siis ostutellimuse. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Teabe jagamine veose varude kohta
 Kui kasutate veose varusid, saavad hankijad kasutada hankija koostöö liidest, et kuvada teavet järgmistel lehtedel:

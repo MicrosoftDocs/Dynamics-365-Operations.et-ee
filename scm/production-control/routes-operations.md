@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 017985645e0f77e7f269fce2932c0ec0f6eaaa1c
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -45,7 +45,7 @@ Protsess kirjeldab operatsioonide järjekorda, mis on toote või tootevariandi t
 -   **Protsessi versioon** – protsessi versioon määratleb protsessi, mida toote või tootevariandi valmistamiseks kasutatakse. Protsessiversioonid võimaldavad protsesside uuesti kasutamist toodete lõikes või nende muutmist aja jooksul. Samuti võimaldavad need erinevate protsesside kasutamist sama toote valmistamiseks. Sellisel juhul oleneb kasutatav protsess teguritest nagu asukoht või toodetav kogus.
 
 ## <a name="routes"></a>Protsessid
-Protsess kirjeldab operatsioonide järjekorda, mida toote või tootevariandi tootmiseks kasutatakse. Igale operatsioonile määratakse operatsiooni number ja järgnev operatsioon. Operatsioonide järjekord moodustab protsessivõrgu, mida saab kujutada juhitud diagrammiga, millel on vähemalt üks alguspunkt ja üks lõpp-punkt. Dynamics 365 for Finance and Operationsis eristatakse protsesse struktuuri tüübi põhjal. Kaks protsessitüüpi on lihtsad protsessid ja protsessivõrgud. Tootmise juhtimise parameetrites saate määrata, kas kasutada saab ainult lihtsaid protsesse või keerukamais protsessivõrke.
+Protsess kirjeldab operatsioonide järjekorda, mida toote või tootevariandi tootmiseks kasutatakse. Igale operatsioonile määratakse operatsiooni number ja järgnev operatsioon. Operatsioonide järjekord moodustab protsessivõrgu, mida saab kujutada juhitud diagrammiga, millel on vähemalt üks alguspunkt ja üks lõpp-punkt. Finance and Operationsis eristatakse protsesse struktuuri tüübi põhjal. Kaks protsessitüüpi on lihtsad protsessid ja protsessivõrgud. Tootmise juhtimise parameetrites saate määrata, kas kasutada saab ainult lihtsaid protsesse või keerukamais protsessivõrke.
 
 ### <a name="simple-routes"></a>Lihtsad protsessid
 
@@ -87,8 +87,8 @@ Iga protsessi saab eraldi kinnitada või sellelt kinnituse eemaldada. Kuid kui p
 
 Kui teil on vaja säilitada logi, milles salvestatakse iga protsessi kinnitaja, võite nõuda protsessi kinnitamiseks digitaalallkirja. Siis peavad kasutajad kinnitama oma isiku, kasutades [digitaalallkirja](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
-## <a name="operations"></a>Toimingud
-Operatsioon on tootmisprotsessi etapp. Dynamics 365 for Finance and Operationsis on igal operatsioonil ID ja lihtne kirjeldus. Järgmistes tabelites on toodud tüüpilised töökojaoperatsioonide näited.
+## <a name="operations"></a>Operations
+Operatsioon on tootmisprotsessi etapp. Finance and Operationsis on igal operatsioonil ID ja lihtne kirjeldus. Järgmistes tabelites on toodud tüüpilised töökojaoperatsioonide näited.
 
 | Toiming  | Kirjeldus        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Operatsiooni seosed annavad protsesside määratlemisel palju paindlikkust. Lisa
 
 ### <a name="modifying-product-specific-routes"></a>Tootepõhiste protsesside muutmine
 
-Kui avate lehe **Protsess** lehelt **Väljastatud toote üksikasjad**, siis kuvatakse valitud väljastatud tootega seotud protsessiversioonid. Selles kontekstis näitab Dynamics 365 for Finance and Operations operatsiooni atribuudid sellest operatsiooni seosest, mis protsessi versiooniga kõige paremini sobib. Märkate, et operatsioonide loendis on atribuudid **Kaubakood** ja **Protsessi kood** operatsiooni seosest. Seega saate määrata, millist operatsiooni seost näidatakse.  
+Kui avate lehe **Protsess** lehelt **Väljastatud toote üksikasjad**, siis kuvatakse valitud väljastatud tootega seotud protsessiversioonid. Selles kontekstis näitab Finance and Operations iga operatsiooni puhul atribuute sellest operatsiooni seosest, mis protsessi versiooniga kõige paremini sobib. Märkate, et operatsioonide loendis on atribuudid **Kaubakood** ja **Protsessi kood** operatsiooni seosest. Seega saate määrata, millist operatsiooni seost näidatakse.  
 
 Lehel **Protsess** saate muuta operatsiooni tööatribuute, nt käitusaega või kulukategooriaid. Teie muudatused salvestatakse operatsiooni seosesse, mis põhinevad protsessil ja väljastatud tootel, millele selles protsessiversioonis viidatakse. Kui kuvatud operatsiooni seos ei põhine protsessil ja väljastatud tootel, siis teeb süsteem enne muudatuste salvestamist operatsiooni seosest koopia. See koopia *on* protsessi ja väljastatud toote põhine. Seega ei mõjuta teie muudatused teisi protsesse või väljastatud tooteid. Kontrollimiseks, millist operatsiooni seost lehel **Protsess** muudetakse, vaadake välju **Kaubakood** ja **Protsessi kood**.  
 
@@ -150,9 +150,9 @@ Kui teie ettevõte kasutab standardoperatsioone ning kui tööparameetrid on kõ
 
 ### <a name="applying-operation-relations"></a>Operatsiooni seoste rakendamine
 
-Mõnikord peab Dynamics 365 for Finance and Operations operatsiooni jaoks tööatribuudid leidma. Näiteks ostutellimuse loomisel tuleb iga operatsiooni atribuudid kopeerida operatsiooni seostest tootmisprotsessiga. Nendes olukordades otsib Finance and Operations vastavaid operatsiooni seoseid kõige konkreetsemast kombinatsioonist kõige vähem konkreetse kombinatsiooni suunas.  
+Mõnikord peab Finance and Operations operatsiooni jaoks tööatribuudid leidma. Näiteks ostutellimuse loomisel tuleb iga operatsiooni atribuudid kopeerida operatsiooni seostest tootmisprotsessiga. Nendes olukordades otsib Finance and Operations vastavaid operatsiooni seoseid kõige konkreetsemast kombinatsioonist kõige vähem konkreetse kombinatsiooni suunas.  
 
-Kui Dynamics 365 for Finance and Operations otsib väljastatud toote jaoks kõige asjakohasemat operatsiooni seost, eelistatakse operatsiooni seost, mis sobitab väljastatud toote kauba ID, operatsiooni seosele, mis sobitab kaubagrupi ID. Operatsiooni seost, mis vastab kaubagrupi ID-le, eelistatakse omakorda operatsiooni vaikeseosele. Otsimine toimub järgmises järjekorras.
+Kui Finance and Operations otsib väljastatud toote jaoks kõige asjakohasemat operatsiooni seost, eelistatakse operatsiooni seost, mis sobitab väljastatud toote kauba ID, operatsiooni seosele, mis sobitab kaubagrupi ID. Operatsiooni seost, mis vastab kaubagrupi ID-le, eelistatakse omakorda operatsiooni vaikeseosele. Otsimine toimub järgmises järjekorras.
 
 1.  **Kaubakood**=**Tabel** ja **Kauba seos**=&lt;kauba ID&gt;
 2.  **Kaubakood**=**Grupp** ja **Kauba seos**=&lt;kaubagrupi ID&gt;
@@ -199,7 +199,7 @@ Olenevalt ettevõtte vajadustest võib teil olla võimalik protsessidefinitsioon
 
 ### <a name="making-routes-independent-of-resources"></a>Protsesside sõltumatuks muutmine ressurssidest
 
-Paljudes süsteemides tuleb protsessis määrata operatsiooniressurss või ressursigrupp, mis operatsiooni peaks läbi viima. Kuid Dynamics 365 for Finance and Operationsis saate määrata nõuete kogumi, millele operatsiooniressurss peab vastama, et seda saaks operatsioonis kasutada. Seetõttu ei tule konkreetset operatsiooniressurssi või ressursigruppi, mida peaks kasutama, määrata enne operatsiooni tegelikku plaanimist. See funktsioon on eriti kasulik, kui teil on palju töötajaid või masinaid, kes/mis saavad sama operatsiooni teha.  
+Paljudes süsteemides tuleb protsessis määrata operatsiooniressurss või ressursigrupp, mis operatsiooni peaks läbi viima. Finance and Operationsis saate siiski määrata nõuete kogumi, millele operatsiooniressurss peab vastama, et seda saaks operatsioonis kasutada. Seetõttu ei tule konkreetset operatsiooniressurssi või ressursigruppi, mida peaks kasutama, määrata enne operatsiooni tegelikku plaanimist. See funktsioon on eriti kasulik, kui teil on palju töötajaid või masinaid, kes/mis saavad sama operatsiooni teha.  
 
 Näiteks võite määrata, et operatsioon nõuab operatsiooniressurssi tüübiga **Masin**, mille võime **Stantsimine** on 20 tonni. Siis lahendab plaanimismootor need nõuded konkreetse operatsiooniressursi või ressursigrupi abil operatsiooni plaanimisel. Kuna teil on võimalus määrata ainult need nõuded, selle asemel et siduda operatsioon konkreetse masinaga, on teil palju rohkem paindlikkust. Lisaks on haldamine lihtsam, kui ressursse teisaldatakse või lisandub uusi ressursse.  
 

@@ -1,5 +1,5 @@
 ---
-title: "Pöördkäibemaks | Microsofti dokumendid"
+title: "Pöördkäibemaks"
 description: "See teema selgitab, kuidas seadistada Euroopa riikide pöördkäibemaksu (KM)."
 author: epodkolz
 manager: AnnBe
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epodkolz
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: b3c94fa73410d9bdcaaec11dee04a7a239e4d45a
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dba651b4e6f0e661d6743780495c7ee217eefd9d
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -70,7 +70,7 @@ Soovitame kasutada ostu- ja müügitoimingute jaoks eraldi käibemaksugruppe.
 </tr>
 <tr>
 <td><strong>Kauba käibemaksugrupid</strong></td>
-<td>Looge või uuendage kauba käibemaksugrupp käibemaksukoodiga, millel on negatiivne väärtus (<strong>Maks</strong> > <strong>Kaudsed maksud</strong> > <strong>Käibemaks</strong> > <strong>Kauba käibemaksugrupid</strong>). Kauba käibemaksu vaikegrupp tuleb määrata toodetele ja kategooriatele, millele kohaldatakse pöördmaksu.</td>
+<td>Looge või värskendage kauba käibemaksugrupp käibemaksukoodiga, millel on negatiivne väärtus (<strong>Maks</strong> > <strong>Kaudsed maksud</strong> > <strong>Käibemaks</strong> > <strong>Kauba käibemaksugrupid</strong>). Kauba käibemaksu vaikegrupp tuleb määrata toodetele ja kategooriatele, millele kohaldatakse pöördmaksu.</td>
 </tr>
 </table>
 

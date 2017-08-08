@@ -3,26 +3,26 @@ title: "Täpsem filtreerimis- ja päringusüntaks"
 description: "See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate dialoogiboksis Täpsem filter / sortimine tehtemärki „vastab”."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysQueryForm
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48b2049c3f5025d7e8d3fc7e944aa9360786d18a
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td><em>algväärtus</em>..<em>lõppväärtus</em> (topeltpunkt)</td>
 <td>Kahe teineteisest topeltpunktiga eraldatud sisestatud väärtuse vahel</td>
 <td>Tippige algväärtus, seejärel kaks punkti ja siis lõppväärtus.</td>
-<td><strong>1..10</strong> leiab kõik väärtused vahemikus 1 kuni 10. Kuid näiteks stringiväljal leiab <strong>A..C</strong> kõik tähtedega &quot;A&quot; ja &quot;B&quot; algavad väärtused ning väärtused, mis võrduvad täpselt tähega &quot;C&quot; (näiteks väärtust &quot;Ca&quot; ei leita). Selleks et leida kõiki väärtusi vahemikus &quot;A*&quot; kuni &quot;C*&quot;, tippige <strong>A..D</strong>.</td>
+<td><strong>1..10</strong> leiab kõik väärtused vahemikus 1 kuni 10. Kuid näiteks stringiväljal leiab <strong>A..C</strong> kõik tähtedega &quot;A&quot; ja &quot;B&quot; algavad väärtused ning väärtused, mis võrduvad täpselt tähega &quot;C&quot;. Näiteks ei leia see päring stringi &quot;Ca&quot;. Selleks et leida kõiki väärtusi vahemikus &quot;A*&quot; kuni &quot;C*&quot;, tippige <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>väärtus</em> (topeltpunkt)</td>

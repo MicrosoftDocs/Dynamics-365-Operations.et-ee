@@ -1,6 +1,6 @@
 ---
-title: Pakkumiskutsed
-description: "See artikkel annab ülevaate pakkumiskutsetest, mille organisatsioonid väljastavad, kui neil on vaja osta kaupu või teenuseid ja saada mitmelt hankijalt konkureerivaid pakkumisi. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu. Samuti saate hankijatelt küsida, kas on lisatasusid, nagu saatekulud, või allahindlusi suurte tellimuste või hankija arve ennetähtaegse maksmise korral."
+title: Pakkumiskutsed (RFQ-d)
+description: "See teema annab ülevaate pakkumiskutsetest, mille organisatsioonid väljastavad, kui neil on vaja osta kaupu või teenuseid ja saada mitmelt hankijalt konkureerivaid pakkumisi."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,34 +10,34 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d681f4c107a9dbc1ea8c5e1de38b2d45cf19bcfa
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 47e394c8642f502c698dbcd5506979b7cac0a830
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Pakkumiskutsed
+# <a name="request-for-quotations-rfqs"></a>Pakkumiskutsed (RFQ-d)
 
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel annab ülevaate pakkumiskutsetest, mille organisatsioonid väljastavad, kui neil on vaja osta kaupu või teenuseid ja saada mitmelt hankijalt konkureerivaid pakkumisi. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu. Samuti saate hankijatelt küsida, kas on lisatasusid, nagu saatekulud, või allahindlusi suurte tellimuste või hankija arve ennetähtaegse maksmise korral.
+See teema annab ülevaate pakkumiskutsetest, mille organisatsioonid väljastavad, kui neil on vaja osta kaupu või teenuseid ja saada mitmelt hankijalt konkureerivaid pakkumisi. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu. Samuti saate hankijatelt küsida, kas on lisatasusid, nagu saatekulud, või allahindlusi suurte tellimuste või hankija arve ennetähtaegse maksmise korral.
 
 Pakkumiskutse (RFQ) protsess hõlmab järgmisi ülesandeid.
 
--   Pakkumiskutse loomine ja saatmine ühele või mitmele hankijale
--   Pakkumiskutse vastuste (pakkumiste) vastuvõtmine ja registreerimine
--   Aktsepteeritud pakkumiste ülekandmine ostutellimuseks, ostulepinguks või ostutaotluseks
+-   Ühele või mitmele hankijale pakkumiskutse loomine ja saatmine.
+-   Pakkumiskutse vastuste (pakkumiste) vastuvõtmine ja registreerimine.
+-   Aktsepteeritud pakkumiste ülekandmine ostutellimuseks, ostulepinguks või ostutaotluseks.
 
 Järgmine näide annab ülevaate pakkumiskutse protsessist.  
 
@@ -49,7 +49,7 @@ Kui peate pakkumiskutset pärast saatmist muutma, saate selle hankijatele uuesti
 
 Pakkumiste vastuvõtmisel peate sisestama need lehel **Pakkumiskutse vastused**. Kui valite suvandi **Kopeeri andmed vastuseväljadele**, kopeeritakse vastuseväljadele pakkumiskutse juhtumi andmed, nagu kogus ja kuupäevad. Saate neid andmeid muuta, et kajastada hankija pakkumist.  
 
-Kui konkreetse hankija puhul on nõutav vastuse teine iteratsioon, klõpsake lehel**Pakkumiskutse vastus** käsku **Tagasta**. Tagastustegevus loob uue töölehe ja aruande, mis prinditakse, arhiivitakse ja saadetakse teie prindihaldussätete järgi.  
+Kui konkreetse hankija puhul on nõutav vastuse teine iteratsioon, klõpsake lehel **Pakkumiskutse vastus** käsku **Tagasta**. Tagastustegevus loob uue töölehe ja aruande, mis prinditakse, arhiivitakse ja saadetakse teie prindihaldussätete järgi.  
 
 Kui olete lisanud pakkumiskutse juhtumile hindamiskriteeriumid, on pakkumiskutse vastusel hindamispaneel, kuhu saate punktisummad sisestada. Punktide kogusumma kuvatakse, kui võrdlete vastuseid lehel **Vastuste võrdlemine**, kus saate võrrelda ka muid vastuseandmeid, nagu rea hind, tarnekuupäev ja koguhind.  
 
@@ -66,17 +66,17 @@ Pakkumiskutsete töötlemise olekute järjestus on järgmine.
 3.  **Vastu võetud**
 4.  **Aktsepteeritud**/**Tühistatud**/**Tagasi lükatud**
 
-Olekuid kirjeldatakse üksikasjalikumalt selle artikli allpool olevates jaotistes.
+Olekuid kirjeldatakse üksikasjalikumalt selle teema allpool olevates jaotistes.
 
 ## <a name="setting-up-rfq-functionality"></a>Pakkumiskutse funktsiooni seadistamine
 Enne pakkumiskutse juhtumi loomist peate seadistama pakkumiskutse teabe lehel **Hankeparameetrid**. Pakkumiskutse juhtumi loomisel saate määrata vaikeväärtused, mis kopeeritakse pakkumiskutsele. Saate määrata järgmised vaikeväärtused.
 
--   Uus pakkumiskutsete ostutellimuse tüüp: **Ostutellimuse** või **Ostuleping**
--   Aegumiskuupäeva ja -kellaaja sätted
+-   Uute pakkumiskutsete ostutüüp: **Ostutellimus** või **Ostuleping**.
+-   Aegumiskuupäeva ja -kellaaja sätted.
 -   Tarneteave ja maksetingimused
--   Väljad, mis peavad olema pakkumiskutse vastuses
+-   Väljad, mis peavad olema pakkumiskutse vastuses.
 
-Saate need väärtused kindla pakkumiskutse juhtumi puhul tühistada. Peate seadistama ka parandusprotsessi. Selle konfiguratsiooni osana saate väljalukustuse sisse lülitada. Kui väljalukustus on sisse lülitatud, peab hankespetsialist, kes soovib pakkumiskutset parandada, klõpsama esmalt vahekaardi **Pakkumine** jaotises **Parandus** käsku **Loo**. Pärast pakkumiskutse värskendamist parandusega peab hankespetsialist viima protsessi lõpule, klõpsates käsku **Vii sisse**.** **Sisseviimistegevus koostab meilisõnumi, mis teavitab hankijaid parandatud pakkumiskutsest. Valige hankijatele saadetava meiliteatise mall lehelt **Hankeparameetrid**. Malli loomisel võib see sisaldada järgmisi asendussõnesid.
+Saate need väärtused kindla pakkumiskutse juhtumi puhul tühistada. Peate seadistama ka parandusprotsessi. Selle konfiguratsiooni osana saate väljalukustuse sisse lülitada. Kui väljalukustus on sisse lülitatud, peab hankespetsialist, kes soovib pakkumiskutset parandada, klõpsama esmalt vahekaardi **Pakkumine** jaotises **Parandus** käsku **Loo**. Pärast pakkumiskutse värskendamist lisaga peab hankespetsialist protsessi lõpule viima, klõpsates nuppu **Vii lõpule**. Tegevus **Vii lõpule** loob meilisõnumi, mis teavitab hankijaid täiendatud pakkumiskutsest. Valige hankijatele saadetava meiliteatise mall lehelt **Hankeparameetrid**. Malli loomisel võib see sisaldada järgmisi asendussõnesid.
 
 -   %Pakkumise tagastamise põhjus%
 -   %Paranduse põhjus%
@@ -87,7 +87,10 @@ Sõned %Pakkumise tagastuse põhjus% ja %Paranduse põhjus% asendatakse tekstiga
 
 Kui soovite kasutada pakkumiskutse vastusel põhjusekoode, et näidata pakkumise tagasilükkamise või aktsepteerimise põhjust, peate seadistama põhjusekoodid lehel **Hankija põhjused**.  
 
-Saate konfigureerida prinditud või salvestatud pakkumiskutsedokumentide välimust mooduli Hanked lehel **Vormiseadistus**.  
+Saate konfigureerida prinditud või salvestatud pakkumiskutsedokumentide välimust mooduli Hanked lehel **Vormiseadistus**. 
+
+**Märkus.** Avaliku sektori konfiguratsiooni puhul nõuavad juba saadetud pakkumiskutse mis tahes muudatused täiendamisprotsessi kasutamist. Pakkumiskutse saatmisel väljad lukustatakse, seega on nupu **Loo** klõpsamine, et kasutada ülal kirjeldatud täiendamisprotsessi, pakkumiskutse muutmisel kohustuslik etapp.
+Seda juhitakse välja lukustusparameetriga **Lukusta pakkumiskutse selle saatmisel** suvandis **Hankeparameetrid**. Selle parameetri säte on **Jah** ja avaliku sektori konfiguratsiooni puhul on see vaikeväärtus, mida ei saa muuta. See tähendab, et kui täiendamisprotsessi saab mitteavaliku sektori konfiguratsioonis käsitsi käsitleda, on avaliku sektori puhul kohustuslik kasutada täienduste käsitlemise protsessi väljade lukustamisega pärast pakkumiskutse saatmist.
 
 Kui loote pakkumiskutse ostutellimuse jaoks ja lisate pakkumiskutsele laokauba, luuakse ka laokanne, mille sissetuleku olek on **Saadud pakkumine**. Koondplaani abil varude arvutamisel arvestatakse vaid selle olekuga pakkumiskutse ridu. Kui soovite, et koondplaan sisaldaks pakkumiskutse ridu eeldatava sissetulekuna, peate konfigureerima selle käitumise koondplaneerimise seadistamisel.  
 
@@ -108,7 +111,7 @@ Kui pakkumiskutse tüüp on **Ostuleping**
 -   Pakkumiskutset kasutatakse hankijalt pikema aja vältel kindlas koguses või väärtuses toote ostmiseks. Peate valima ostulepingule kehtiva kuupäevavahemiku ja ostulepingut haldava isiku nime.
 -   Pakkumise aktsepteerimisel luuakse ostuleping.
 
-Saate luua on pakkumiskutse ostutaotluselt ainult siis, kui ostutaotluse olek on **Ülevaatusel**ja teile on määratud järgmine töövooülesanne. Ostutaotluse ridu värskendatakse automaatselt, kui aktsepteerite hankijalt saadud pakkumiskutse vastuste (pakkumiste) ridu. Te ei saa ostutaotlust lõpule viia, tagasi lükata, kinnitada ega sellega muid toiminguid teha, kuni pakkumiskutse on pooleli.  
+Saate luua on pakkumiskutse ostutaotluselt ainult siis, kui ostutaotluse olek on **Ülevaatusel** ja teile on määratud järgmine töövooülesanne. Ostutaotluse ridu värskendatakse automaatselt, kui aktsepteerite hankijalt saadud pakkumiskutse vastuste (pakkumiste) ridu. Te ei saa ostutaotlust lõpule viia, tagasi lükata, kinnitada ega sellega muid toiminguid teha, kuni pakkumiskutse on pooleli.  
 
 Pakkumiskutse loomisel saate valida kindla kutsetüübi. Kutsetüüp määrab hindamiskriteeriumite komplekti, mida kasutatakse pakkumiskutse vastuste hindamiseks.  
 
@@ -181,7 +184,7 @@ Kui aktsepteerite pakkumiskutse vastuse, mille tüüp on **Ostutaotlus**, värsk
 
 Saate vastusele lisada põhjusekoodi, millega selgitada pakkumise aktsepteerimist või tagasilükkamist.  
 
-Saate pakkumises mõne rea aktsepteerida ja ülejäänud tagasi lükata. Samuti saate aktsepteerida ridu teistelt hankijatelt. Võtke siiski arvesse, et mõne rea aktsepteerimisel palutakse teil kõik teised read tagasi lükata. Seega kui soovite teised read aktsepteerida, peate viiba kuvamisel klõpsama käsku **Tühista**.  
+Saate pakkumises mõne rea aktsepteerida ja ülejäänud tagasi lükata. Samuti saate aktsepteerida ridu teistelt hankijatelt. Võtke arvesse, et mõne rea aktsepteerimisel palutakse teil kõik teised read tagasi lükata. Seega kui soovite teised read aktsepteerida, peate viiba kuvamisel klõpsama käsku **Tühista**.  
 
 Järgmises tabelis kuvatakse pakkumiskutse oleku muudatused, kui hankija pakkumisi aktsepteerite või tagasi lükkate.
 

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 Selles artiklis antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile. 
 
-> [!IMPORTANT] 
-> Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Ühe toote kohta kirjutatud teemad võivad kohalduda ka seotud toote samale funktsioonile
+> [!NOTE] 
+> Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Ühe toote kohta kirjutatud teemad võivad kohalduda ka seotud toote samale funktsioonile.
+
+Spikrisüsteemi jagatakse kõigi Unified Operationsi toodete puhul:
+- Dynamics 365 for Finance and Operations, Enterprise Edition
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations sisaldab spikrisüsteemi, mis põhineb kahel peamisel komponendil.
 
 -   Dokumentide sait
 -   Tegevuse juhised
 
-Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Ühe toote kohta kirjutatud teemad võivad kohalduda ka seotud toote samale funktsioonile. 
-
-Spikrisüsteemi jagatakse kõigi Unified Operationsi toodete puhul:
-- Dynamics 365 for Finance and Operations, Enterprise edition
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
-
 Nii spikriteemadele kui ka tegevusjuhistele pääseb juurde mis tahes kasutatava toote spikripaanilt. Järgmisel kuvatõmmisel on näha Dynamics 365 for Finance and Operations
 
-![Spikripaan](./media/help-pane-ops-task-guides-1024x741.png)
+![Spikripaan](./media/help-pane-ops-task-guides.png)
 
 See teema kirjeldab spikrisüsteemi ja selgitab, kuidas saate oma organisatsioonile kohandatud dokumente ja koolitusressursse luua.
 
 > [!IMPORTANT]
-> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) nii rakenduse Retail kui ka Talent puhul.
+> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index) nii rakenduse Retail kui ka Talent puhul.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Spikker saidil docs.microsoft.com
 
-Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) on Finance and Operationsi peamine tootedokumentide allikas. See sait pakub järgmisi funktsioone.
+Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) on Finance and Operationsi peamine tootedokumentide allikas. See sait pakub järgmisi funktsioone.
 
 -   **Juurdepääs kõige ajakohasemale sisule** – sait annab meile kiirema ja paindliku võimaluse tootedokumente luua, edastada ja uuendada. Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.
 -   **Asjatundjate kirjutatud sisu** – sait pakub rikkalikumat tootedokumentatsiooni kogumit, mida saavad täiustada kogukonna liikmed nii Microsoftis kui ka väljaspool.
@@ -68,12 +65,13 @@ Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics36
 ### <a name="searching-on-docsmicrosoftcom"></a>Otsimine saidil docs.microsoft.com
 Saame palju küsimusi selle kohta, kuidas meie sisu otsida. Kui alustate meie saidil Finance and Operationsi lehelt, määrame teie otsingu ulatuseks ainult Finance and Operationsi sisu. Selle piirangu saab eemaldada, klõpsates otsinguväljal märki X valiku Operations juures. 
 
-![Tellimuste otsing](./media/search-scope.png)
+![Tellimuste otsing](./media/search-scope-2.png)
 
 Leiate meie sisu ka igasuguse otsingumootoriga. Soovitame kasutada parimate tulemuste saamiseks saidiotsingut, nt sait: docs.microsoft.com dynamics 365 "otsingusõna".  
-![Saidiotsing](./media/site-search.png)
 
-![Saidiotsingu tulemused](./media/site-search-results.png)
+![Saidiotsing](./media/site-search-1.png)
+
+![Saidiotsingu tulemused](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Unified Operationsi sisukord lehel docs.microsoft.com
 Kõigil toodetel on dokumentide saidil üks sisukord, mis võimaldab klientidel näha selle teema konteksti, milles nad on. Samuti võimaldab see kasutada filtri juhtelementi otsitavate teemade leidmiseks.
@@ -105,7 +103,7 @@ Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevu
 
 Pakume iga Unified Operationsi toote jaoks erinevaid tegevusjuhiste komplekte. Jaotis Spikri paanilt tegevusjuhistele juurdepääsemine kirjeldab, kuidas leida oma toote jaoks õigeid tegevusjuhiseid. 
 
-![Tegevuse juhise lugemisvaade](./media/task-guide-ops-1024x742.png)
+![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
 
 Juhitud interaktiivse kogemusega alustamiseks klõpsake valikut **Käivita tegevusjuhis** paani Spikker alumises osas. Avaneb must kursor, mis näitab tegevust, mida tegema peate. Järgige kasutajaliideses kuvatavaid juhiseid ja sisestage andmed näidatud viisil. 
 ![Tegevusjuhise etapijuhend](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ Saate luua oma tegevuse salvestisi või laadida alla ja kohandada tegevuse salve
 ## <a name="in-product-help"></a>Toote sisespikker
 Spikri sisule Finance and Operationsis juurdepääsuks klõpsake ikooni **Spikker** (**?**) ja valige Spikker või vajutage klahve Ctrl + Shift + ?. Mõlemal juhul avaneb paan Spikker. Paanilt Spikker pääsete juurde artiklitele või tegevuse juhistele. 
 
-![Spikripaan](./media/help-pane-wiki-1024x684.png)
+![Spikripaan](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Spikri paanilt spikriteemadele juurdepääsemine
 
@@ -162,7 +160,7 @@ Tehke lehel **Süsteemi parameetrid** järgmist.
 
 Kui süsteemiadministraator on need toimingud teinud, võite avada paani Spikker ja klõpsata vahekaarti **Ülesande juhised**. Näete nüüd ülesande juhiseid, mis rakenduvad lehele, millel parajasti Finance and Operationsis olete. Kui ühtegi tegevuse juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Pärast tegevuse juhise klõpsamist paanil Spikker kuvatakse paanil Spikker etapiviisilised juhised ja saate tegevuse juhise esitada. 
 
-![Tegevuse juhise lugemisvaade](./media/task-guide-ops-1024x742.png)
+![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Kus on tõlgitud tegevuse juhised?
 

@@ -14,14 +14,13 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262574
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fedcd2b4756faddc20fe6f304e4448949acdaa61
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: c6cbc225d6ac8eb4c4c22dc50c42bf9563cec02a
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -79,7 +78,7 @@ Avansisaaja kannete kajastamiseks peate lehel **Ostureskontro parameetrid** jaot
 Ostutellimuse õigesti registreerimiseks ja sisestamiseks avansisaaja kaudu peate kasutama maksetingimusi, mille seadistuses kasutati valiku **Avansisaajalt** puhul sätet **Tõene**.
 ### <a name="create-an-advance-holder-creation"></a>Avansisaaja loomine
 
-Enne avansisaaja loomist peavad töötajad olema juba seadistatud. Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis).](http://ax.help.dynamics.com/en/wiki/enter-worker-information/) Töötaja saate avansisaajana seadistada lehel **Avansisaajad**. Valige töötaja, keda kasutada avansisaajana, klõpsake valikut **Redigeeri** ja seejärel määrake valiku **Avansisaaja** sätteks **Tõene**. Samuti peate täitma järgmised väljad.
+Enne avansisaaja loomist peavad töötajad olema juba seadistatud. Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis).](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enter-worker-information) Töötaja saate avansisaajana seadistada lehel **Avansisaajad**. Valige töötaja, keda kasutada avansisaajana, klõpsake valikut **Redigeeri** ja seejärel määrake valiku **Avansisaaja** sätteks **Tõene**. Samuti peate täitma järgmised väljad.
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | **Väli**      | **Kirjeldus**                                                                             |
