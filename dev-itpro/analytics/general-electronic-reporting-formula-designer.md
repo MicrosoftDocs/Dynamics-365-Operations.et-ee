@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -104,7 +104,7 @@ ER-i avaldised võivad sisaldada mõnd või kõiki järgmistest elementidest.
 
 #### <a name="constants"></a>Konstandid
 
-Avaldiste koostamisel saate kasutada tekstilisi ja arvulisi konstante (väärtused, mida ei arvutata). Näiteks avaldis **VALUE („100”) + 20 **kasutab arvulist konstanti 20 ja stringi konstanti 100 ning tagastab arvulise väärtuse **120**. ER-i valemikoostaja toetab paoseeriaid, mis tähendab, et saate määrata avaldise stringi, mida tuleb teisiti käsitleda. Näiteks avaldis **Lev Tolstoi „„Sõda ja rahu”” 1. osa** tagastab tekstistringi **Lev Tolstoi „Sõda ja rahu” 1. osa**.
+Avaldiste koostamisel saate kasutada tekstilisi ja arvulisi konstante (väärtused, mida ei arvutata). Näiteks avaldis **VALUE („100”) + 20**kasutab arvulist konstanti 20 ja stringi konstanti 100 ning tagastab arvulise väärtuse **120**. ER-i valemikoostaja toetab paoseeriaid, mis tähendab, et saate määrata avaldise stringi, mida tuleb teisiti käsitleda. Näiteks avaldis **Lev Tolstoi „„Sõda ja rahu”” 1. osa** tagastab tekstistringi **Lev Tolstoi „Sõda ja rahu” 1. osa**.
 
 #### <a name="operators"></a>Operaatorid
 
@@ -196,8 +196,8 @@ Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida sa
 | SESSIONNOW ()                              | Tagastab Dynamics 365 for Finance and Operationsi seansi praeguse kuupäeva ja kellaaja kuupäeva- ja kellaajaväärtusena.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (kuupäev, vorming)                  | Annab stringi kujul esitatud kuupäeva, kasutades määratud vormingut.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "pp-KK-aaaa")** tagastab Dynamics 365 for Finance and Operationsi rakenduseserveri praeguse kuupäeva, 12/24/2015, kujul **„24-12-2015”** vastavalt määratud kohandatud vormingule.                                                                                                                      |
 | DATEFORMAT (kuupäev, vorming, kultuur)         | Teisendage määratud kuupäevaväärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) stringiks. (Teavet toetatud vormingute kohta vt jaotistest [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** annab vastuseks Finance and Operationsi seansi kuupäeva 12/24/2015 kujul **„24.12.2015”** vastavalt valitud saksa kultuurile.                                                                                                                       |
-| DAYOFYEAR (kuupäev)              | Annab vastuseks 1. jaanuari ja määratud kuupäeva vahelise päevade arvu täisarvuna.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** annab vastuseks **61**.
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** annab vastuseks **1**.                                                                                                                       |
+| DAYOFYEAR (kuupäev)              | Annab vastuseks 1. jaanuari ja määratud kuupäeva vahelise päevade arvu täisarvuna.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** annab vastuseks **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** annab vastuseks **1**. 
+                                                                                                                      |
 
 **Andmete teisendamise funktsioonid**
 
@@ -236,7 +236,14 @@ Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida sa
 <li>Partiid regulaarsete loenditena (komponent <strong>Väärtus</strong>)</li>
 <li>Praegune partiinumber (komponent <strong>BatchNumber</strong>)</li>
 </ul></td>
-<td>Järgmises näites luuakse andmeallikas <strong>Read</strong> kolme kirje kirjeloendina, mis on jaotatud partiideks, millest igaüks sisaldab kuni kahte kirjet. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Siin on koostatud vormi paigutus, kus luuakse andmeallika <strong>Read</strong> sidemed, et luua XML-vormingus väljund, mis esitab üksikuid sõlmi igale partiile ja selles olevale kirjele. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> Siin on kujundatud vormingu käitamise tulem. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>Järgmises näites luuakse andmeallikas <strong>Read</strong> kolme kirje kirjeloendina, mis on jaotatud partiideks, millest igaüks sisaldab kuni kahte kirjet. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+Siin on koostatud vormi paigutus, kus luuakse andmeallika <strong>Read</strong> sidemed, et luua XML-vormingus väljund, mis esitab üksikuid sõlmi igale partiile ja selles olevale kirjele. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+Siin on kujundatud vormingu käitamise tulem. 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (kirje 1 [, kirje 2, ...])</td>
@@ -300,7 +307,14 @@ Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida sa
 <li>Määratud loendikirjed regulaarsete loenditena (komponent <strong>Väärtus</strong>)</li>
 <li>Praegune kirje indeks (komponent <strong>Number</strong>)</li>
 </ul></td>
-<td>Järgmises näites on andmeallikas <strong>Nummerdatud</strong> loodud andmeallika <strong>Hankijad</strong> hankijate kirjete nummerdatud loendina, mis viitab tabelile <strong>VendTable</strong>. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>Siin on vorming, kus luuakse andmete sidumised, et luua XML-vormingus väljund, mis esitab üksikuid hankijaid nummerdatud sõlmedena. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> Siin on kujundatud vormingu käitamise tulem. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>Järgmises näites on andmeallikas <strong>Nummerdatud</strong> loodud andmeallika <strong>Hankijad</strong> hankijate kirjete nummerdatud loendina, mis viitab tabelile <strong>VendTable</strong>. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+Siin on vorming, kus luuakse andmete sidumised, et luua XML-vormingus väljund, mis esitab üksikuid hankijaid nummerdatud sõlmedena. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+Siin on kujundatud vormingu käitamise tulem. 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (loend)</td>
@@ -322,13 +336,24 @@ Loodud loend koosneb järgmiste väljadega kirjetest.
 <li>Kirjeldus</li>
 </ul>
 Väljad Silt ja Kirjeldus tagastatakse käitusaja väärtuste juures põhinevalt vormingu keelesätetest.</td>
-<td>Järgmises näites kirjeldatakse andmemudelis kasutusele võetud loetelu. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>Järgmises näites on toodud:
+<td>Järgmises näites kirjeldatakse andmemudelis kasutusele võetud loetelu. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+Järgmises näites on toodud:
 <ul>
 <li>aruandesse andmeallikana sisestatud mudeli loetelu;</li>
 <li>mudeliloetelu selle funktsiooni parameetrina kasutamiseks kujundatud ER-i avaldist;</li>
 <li>loodud ER-i avaldise abil aruandesse sisestatud kirjeloendi tüübi andmeallikas.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> Järgmises näites on toodud ER-vorming elemendid, mis on seotud funktsiooniga LISTOFFIELDS loodud kirjeloendi tüübi andmeallikaga.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>See on kujundatud vormingu käivitamise tulem.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Märkus.</strong> Siltide ja kirjelduste tõlgitud tekst asustatakse ER-vormingu väljundisse vastavalt faili- ja kaustavormingu ülemelementidele konfigureeritud keelesätetele.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+Järgmises näites kirjeldatakse elektroonilise aruandluse vormingu elemente, mis on seotud funktsiooniga LISTOFFIELDS loodud kirjeloendi tüübi andmeallikaga.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+See on kujundatud vormingu käitamise tulemus.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+Märkus.</strong> Siltide ja kirjelduste tõlgitud tekst asustatakse elektroonilise aruandluse vormingu väljundis vastavalt vormingu peaelementide FAIL ja KAUST jaoks konfigureeritud keelesätetele.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (loend, välja nimi, eraldaja)</td>
@@ -338,7 +363,18 @@ Väljad Silt ja Kirjeldus tagastatakse käitusaja väärtuste juures põhinevalt
 <tr class="even">
 <td>SPLITLISTBYLIMIT (loend, piirväärtus, piirallikas)</td>
 <td>Tükeldab loendi uueks alamloenditest koosnevaks loendiks ja tagastab tulemuse kirjeloendi sisus. Piirväärtuse parameeter määrab algse loendi tükeldamise piirväärtuse. Piirallika parameeter määrab etapi, milles kogusumma suureneb. Piirangut ei rakendata antud loendi üksikule üksusele, kui piirallikas ületab määratud piirangut.</td>
-<td>Järgmises näites kirjeldatakse näidisvormingut, kasutades andmeallikaid. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>See on vormingu käivitamise tulemus, mis kujutab tarbekaupade lamedat loendit.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>Järgmises näites on toodud sama vorming, mida on kohandatud, et esitada tarbekaupade loend partiidena, kus üksik partii peab sisaldama tarbekaupu kogukaaluga, mis ei tohi ületada piirangut 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>See on kohandatud vormingu käivitamise tulemus. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Märkus.</strong> Piirangut ei rakendata algse loendi viimasele üksusele, kuna selle piirangu allika (mass) väärtus (11) ületab määratletud piirangut (9). Kasutage kas funktsiooni <strong>KUS</strong> või vastava vorminguelemendi avaldist <strong>Lubatud</strong>, et alamloendeid aruande loomisel vajaduse korral eirata (jätta vahele).</td>
+<td>Järgmises näites kirjeldatakse näidisvormingut, kasutades andmeallikaid. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+See on tarbekaupade lamedat loendit kujutava vormingu käivitamise tulemus.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+Järgmises näites on toodud sama vorming, mida on kohandatud, et esitada tarbekaupade loend partiidena, kus üksik partii peab sisaldama tarbekaupu kogukaaluga, mis ei tohi ületada piirangut 9.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+See on kohandatud vormingu käitamise tulemus. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>Märkus.</strong> Piirangut ei rakendata algse loendi viimasele üksusele, kuna selle piirangu allika (mass) väärtus (11) ületab määratletud piirangut (9). Kasutage kas funktsiooni <strong>KUS</strong> või vastava vorminguelemendi avaldist <strong>Lubatud</strong>, et alamloendeid aruande loomisel vajaduse korral eirata (jätta vahele).</td>
 </tr>
 <tr class="odd">
 <td>FILTER (loend, tingimus)</td>
@@ -511,7 +547,10 @@ Väljad Silt ja Kirjeldus tagastatakse käitusaja väärtuste juures põhinevalt
 <tr class="even">
 <td>FORMAT (string 1, string 2[, string 3, ...])</td>
 <td>Tagastab määratud stringi, mida vormindatakse, asendades kõik argumendi <strong>%N</strong> esinemised argumendiga <em>n</em>. Argumendid on stringid. Kui parameetril ei ole argumenti, tagastatakse parameeter stringis kui <strong>&quot;%N&quot;</strong>. <strong>Tõelist</strong> tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga.</td>
-<td>Selles näites tagastab andmeallikas <strong>PaymentModel</strong> komponendi <strong>Klient</strong> kaudu kliendikirjete loendi ja välja <strong>ProcessingDate</strong> kaudu töötlemise kuupäeva väärtuse. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> ER-i vormingus, mis on mõeldud looma valitud klientidele elektroonilist faili, valitakse <strong>PaymentModel</strong> andmeallikana ja see juhib protsessi voogu. Lõppkasutajatele tehakse erand, kui valitud klient on peatatud kuupäeval, millal aruannet töödeldakse. Seda tüüpi töötlemise juhtimiseks koostatud valem saab kasutada järgmisi ressursse.
+<td>Selles näites tagastab andmeallikas <strong>PaymentModel</strong> komponendi <strong>Klient</strong> kaudu kliendikirjete loendi ja välja <strong>ProcessingDate</strong> kaudu töötlemise kuupäeva väärtuse. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+ER-i vormingus, mis on mõeldud looma valitud klientidele elektroonilist faili, valitakse <strong>PaymentModel</strong> andmeallikana ja see juhib protsessi voogu. Lõppkasutajatele tehakse erand, kui valitud klient on peatatud kuupäeval, millal aruannet töödeldakse. Seda tüüpi töötlemise juhtimiseks koostatud valem saab kasutada järgmisi ressursse.
 <ul>
 <li>Finance and Operationsi silt SYS70894, millel on järgmine tekst.
 <ul>
@@ -549,7 +588,8 @@ Siin on valem, mida saab koostada: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &
 <td>TRIM (string)</td>
 <td>Annab antud teksti pärast algus- ja lõputühikute kärpimist ning eemaldab sõnade vahelt mitmekordsed tühikud. </td>
 <td><strong>TRIM ("     Näidis     tekst     ")</strong> annab vastuse <strong>„Näidistekst”.</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (loetelu andmeallika tee, loetelu väärtuse sildi tekst)</td>
 <td>Annab vastuseks määratud loetelu andmeallika väärtuse selle loetelu sildi määratud tekstiga.</td>
 <td>Järgmises näites kirjeldatakse andmemudelis kasutusele võetud loetelu ReportDirection. Pange tähele, et loetelu väärtuste puhul on määratletud sildid.

@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Klõpsake uue sihtkoha kirje jaoks nuppu **Sätted**. Seejärel järgige dialoog
 Lehel **Konfiguratsioonid** (**Organisatsiooni haldus** &gt; **Elektrooniline haldus** &gt; **Konfiguratsioonid**) konfiguratsioonide puul valige varasemalt loodud konfiguratsioon **Impordi-/eksporditegevused**. Muutke versiooni 1.1 olekut variandilt **Mustand** variandile **Lõpetatud**, et muuta see vorming kasutamiseks kättesaadavaks. [![Konfiguratsioonide leht](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Valige konfiguratsiooni **Impordi-/eksporditegevused** lõpetatud versioon ja klõpsake seejärel valikut **Käivita**. Pange tähele, et konfigureeritud sihtkoht rakendatakse väljundtulemusele, mis luuakse Exceli vormingus. Määrake suvandi **Pakktöötlus** sätteks **Jah**, et käivitada see aruanne järelevalveta režiimis. Klõpsake valikut **Kordumine**, et ajastada selle partii käivitamise vajalik kordumine. Kordumine määratleb, kui sageli uuendatud andmed edastatakse rakendusest Finance and Operations rakendusse Power BI. [![Elektroonilise aruande parameetrite dialoogiboks](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Pärast selle konfigureerimist saate leida elektroonilise aruandluse käivitamistöö lehel **Pakett-tööd** (**Süsteemihaldus &gt; Päringud &gt; Pakett-tööd**). [![Pakett-tööde leht](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Selle töö esmakordsel käivitamisel loob sihtkoht uue Exceli faili, millel on valitud SharePointi kaustas konfigureeritud nimi. Igal järgneval korral, kui töö käivitatakse, loob sihtkoht sellest Exceli failist uue versiooni. [![Exceli faili uus versioon](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Power BI andmekomplekti loomine, kasutades elektroonilise aruandluse vormingu väljundtulemust.
-Logige sisse rakendusse Power BI ja avage olemasolev Power BI grupp (tööruum) või looge uus grupp. Klõpsake suvandit **Lisa** menüüs **Failid** jaotises **Andmete importimine või ühendamine** või klõpsake vasakul paanil plussmärki (**+**), mis asub valiku **Andmekogumid** kõrval. [![Andmekogumi loomine](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Valige suvand **SharePoint – meeskonna saidid** ja seejärel sisestage kasutusel olev SharePoint Serveri tee (meie näites **https://ax7partner.spoppe.com**). Seejärel sirvige kausta **/Shared Documents/GER data/PowerBI** ja valige Exceli fail, mille lõite andmeallikaks uue Power BI andmekogumi jaoks. [![Exceli faili valimine](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Klõpsake valikut **Ühenda** ja klõpsake seejärel valikut **Impordi**. Luuakse uus andmekogum, mis põhineb valitud Exceli failil. Andmekogumi saab automaatselt värskelt loodud armatuurlauale lisada. [![Andmekogum armatuurlaual](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Konfigureerige selle andmekogumi jaoks värskendamisgraafik, et jõustada perioodilist värskendamist. Perioodilised uuendused võimaldavad rakendusest Finance and Operations elektroonilise aruandluse aruande perioodilise käivitamise kaudu tulevate uute äriandmete tarbimist ja seda SharePoint Serveris loodud Exceli faili uute versioonide kaudu.
+Logige sisse rakendusse Power BI ja avage olemasolev Power BI grupp (tööruum) või looge uus grupp. Klõpsake suvandit **Lisa** menüüs **Failid** jaotises **Andmete importimine või ühendamine** või klõpsake vasakul paanil plussmärki (**+**), mis asub valiku **Andmekogumid** kõrval. [![Andmekogumi loomine](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Valige suvand **SharePoint – meeskonna saidid** ja seejärel sisestage kasutusel olev SharePoint Serveri tee (meie näites **https://ax7partner.litware.com**). Seejärel sirvige kausta **/Shared Documents/GER data/PowerBI** ja valige Exceli fail, mille lõite andmeallikaks uue Power BI andmekogumi jaoks. [![Exceli faili valimine](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Klõpsake valikut **Ühenda** ja klõpsake seejärel valikut **Impordi**. Luuakse uus andmekogum, mis põhineb valitud Exceli failil. Andmekogumi saab automaatselt värskelt loodud armatuurlauale lisada. [![Andmekogum armatuurlaual](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Konfigureerige selle andmekogumi jaoks värskendamisgraafik, et jõustada perioodilist värskendamist. Perioodilised uuendused võimaldavad rakendusest Finance and Operations elektroonilise aruandluse aruande perioodilise käivitamise kaudu tulevate uute äriandmete tarbimist ja seda SharePoint Serveris loodud Exceli faili uute versioonide kaudu.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Power BI aruande loomine uut andmekogumit kasutades
 Uue Power BI aruande loomiseks klõpsake loodud Power BI andmekogumit **Impordi ja ekspordi üksikasjad**. Seejärel konfigureerige visualiseerimine. Näiteks valige visualiseerimine **Täidetud kaart** ja konfigureerige see järgmiselt.

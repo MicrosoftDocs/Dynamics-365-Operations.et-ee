@@ -3,25 +3,25 @@ title: Aegunud funktsioonid
 description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,9 +29,10 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
+See teema kirjeldab funktsioone, mis on rakendusest Microsoft Dynamics 365 for Finance and Operations, Enterprise edition eemaldatud või mida plaanitakse eemaldada.
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendusest eemaldatud funktsioonid
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Funktsioonid, mis on 2017. aasta juulivärskenduse koos platvormivärskendusega 8 kõigi juurutustüüpide puhul taunitud.
+See loend hõlmab funktsioone, mis on taunitud nii pilve- kui ka kohapealsete juurutuste puhul.
 
 ### <a name="warehouse-mobile-devices-portal"></a>Lao mobiilsete seadmete portaal
 
@@ -40,7 +41,7 @@ Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõel
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **Kasutuselt eemaldamise põhjus**       | Topeltfunktsioon.                        |
-| **Asendatud teise funktsiooniga?** | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistamise ja eeltingimuste kohta leiate jaotisest [Microsoft Dynamics 365 for Finance and Operationsi mooduli Ladustamine installimine ja konfigureerimine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Asendatud teise funktsiooniga?** | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistamise ja eeltingimuste kohta leiate jaotisest [Microsoft Dynamics 365 for Finance and Operationsi mooduli Ladustamine installimine ja konfigureerimine](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Mõjutatud moodulid**             | Laohaldus, transpordihaldus |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Täpsema panga vastavusseviimise vastavusreegel käsitsi sobitamiseks
@@ -62,6 +63,28 @@ Windows 8 tahvelarvuti rakendus pakkus kulude sisestamise ja kinnitamise funktsi
 | **Kasutuselt eemaldamise põhjus**       | Finance and Operations ühildub tahvelarvutitega. Tahvelarvuti rakendust pole enam vaja. |
 | **Asendatud teise funktsiooniga?** | Nr                                                                                      |
 | **Mõjutatud moodulid**             | Kulude haldus                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Funktsioonid, mis on 2017. aasta juulivärskenduse koos platvormivärskendusega 8 kohapealsete juurutuste puhul taunitud.
+
+### <a name="ssrs-report-viewer-control"></a>SSRS-i aruandevaaturi juhtimine
+
+Seda funktsiooni kasutati HTML-vormingus aruannetega suhtlemiseks Finance and Operationsi veebikliendis.
+
+|                                  |  |
+|----------------------------------|--|
+| **Kasutuselt eemaldamise põhjus**       | SQL-i aruandlusteenused (SSRS) ei toeta aruandevaaturi juhtimist, mis ühildub kohapealse veebikliendiga.      |
+| **Asendatud teise funktsiooniga?** | Aruanded muudab PDF-dokumentideks kohapealne teenus. Kaasatud süvalinkide lubamiseks rakenduse aruannetes kasutage laiendeid. |
+| **Mõjutatud moodulid**             | Kõik    |
+
+### <a name="document-routing-agent"></a>Dokumendi marsruudivaliku agent
+
+Dokumendi marsruudivaliku agendi klienti kasutatakse teenuse lüüsina pilvest domeenis autenditud võrguprinteritega ühenduse loomiseks.
+
+|                                  |  |
+|----------------------------------|--|
+| **Kasutuselt eemaldamise põhjus**       | Asutusesiseseid juurutusi majutatakse domeeni autenditud serverites. See pakub turvalist otsepääsu võrguprinteritele. |
+| **Asendatud teise funktsiooniga?** | See komponent ei ole kohapealsete juurutuste puhul vajalik.|
+| **Mõjutatud moodulid**             | Puudub               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Funktsioonid, mis on aegunud rakeduses Dynamics 365 for Operations 1611 platvormivärskendusega 3
@@ -488,11 +511,20 @@ Seda tööriista kasutati võtmeandmete integreerimiseks Microsoft Dynamics CRM-
 
 Andmesektsioonid tagavad andmete loogilise eraldamise Microsoft Dynamics AX-i andmebaasis.
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | Kasutuselt eemaldamise põhjus       | Microsoft Dynamics AX 2012 R2-s võeti andmete eraldamise võimaldamiseks kasutusele andmesektsioonid. Tavastsenaariumi puhul on ettevõttel tütarettevõtted ja ühe tütarettevõtte andmed ei tohiks olla teisele tütarettevõttele näha, kuigi mõlemaid tütarettevõtteid haldab sama IT-osakond. Kuid uute sektsioonide loomiseks ja nende täitmiseks andmetega ning sektsiooni andmete varundamiseks oli vaja kogu programmis lisaskripte ja halduse üldkulusid. Pilves, kus meil on juurdepääs platvormi teenusena (PaaS) andmebaasiteenustele (Microsoft Azure SQL-i andmebaas) on palju tõhusam kasutada andmebaasi eralduskonteinerina, kui teha eraldamine programmis. Olenemata sellest, kas andmete eraldamine on vajalik tütarettevõtetele, mitmele rentnikule või lihtsalt skaalale, usume, et neid stsenaariume saab käsitleda paremini mitme andmebaasi või mitme Dynamics AX-i eksemplari kaudu. |
-| Asendatud teise funktsiooniga? | Tulevases väljaandes asendatakse andmesektsioonid mitme andmebaasi või Dynamics AX-i eksemplari toe kaudu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Mõjutatud moodulid             | Kõik                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Asendatud teise funktsiooniga? | Tulevases väljaandes asendatakse andmesektsioonid mitme andmebaasi või Dynamics AX-i eksemplari toe kaudu.    |
+| Mõjutatud moodulid             | Kõik  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>Andmebaas ja ühine failiketas manuste jaoks
+Microsoft Dynamics AX 2012 lubas manuste talletamist andmebaasis ja failiketastel. Kumbagi neist valikutest enam ei toetata.
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| Kasutuselt eemaldamise põhjus       | Ühist failiketast enam ei toetata, kuna pilve majutatud keskkonnad ei saa kohalike failiketastega suhelda. Andmebaasi talletamine on Azure’i bloobimälu kasuks taunitud. Azure’i bloobimälu on andmebaasis talletamisega samaväärne, kuna dokumentidele pääseb juurde ainult rakenduse Dynamics 365 for Finance and Operations kliendivormide kaudu. See pakub lisaeelist talletusruumi pakkumisel, mis ei mõjuta negatiivselt andmebaasi jõudlust. Bloobimälu on dokumendihalduse vaiketalletusmehhanism ja toimib viivitamatult. |
+| Asendatud teise funktsiooniga? | Andmebaasi talletamine on Azure’i bloobimälu kasuks taunitud.       |
+| Mõjutatud moodulid             | Kõik                   |
 
 ### <a name="delimitation"></a>Eraldamine
 
@@ -525,7 +557,7 @@ Dynamics AX 2012 R3-s sai tänapäevane jaemüügikassa luua kanaliandmebaasiga 
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Lokaliseeritud funktsiooni asemel kasutatakse nüüd üldist funktsiooni.                                                                                                                                                                 |
-| Asendatud teise funktsiooniga? | Jah, see funktsioon on asendatud pangakonto täpsema vastavusseviimise funktsiooniga. Lisaks on Dynamics AX-i järgmises värskenduses pearaamatus plaanitud camt.053 ISO20022 konto väljavõtte impordi juurutamine. |
+| Asendatud teise funktsiooniga? | Jah, see funktsioon on asendatud pangakonto täpsema vastavusseviimise funktsiooniga. |
 | Mõjutatud moodulid             | Kõik                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (Saksamaal XBRL)
@@ -577,7 +609,7 @@ Eelpäringu loomine pole partii abil võimalik, kuid kasutaja saab seda siiski t
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | See vorming ei kehti enam Saksamaal, kuna see on asendatud ühtse euromaksete piirkonna (SEPA) funktsiooniga.                                                                                                                                                                 |
-| Asendatud teise funktsiooniga? | Jah, selle funktsiooni on asendanud SEPA maksete eksportimine ja täiustatud panga vastavusseviimise funktsioon kontoväljavõtete importimiseks. Lisaks on Dynamics AX-i järgmises värskenduses pearaamatus plaanitud camt.053 ISO20022 konto väljavõtte impordi juurutamine. |
+| Asendatud teise funktsiooniga? | Jah, selle funktsiooni on asendanud SEPA maksete eksportimine ja täiustatud panga vastavusseviimise funktsioon kontoväljavõtete importimiseks. |
 | Mõjutatud moodulid             | Kõik                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Saksamaa DTAZV maksevorming
@@ -593,7 +625,7 @@ Eelpäringu loomine pole partii abil võimalik, kuid kasutaja saab seda siiski t
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kasutuselt eemaldamise põhjus       | Lokaliseeritud funktsiooni asemel kasutatakse nüüd üldist funktsiooni.                                                                                                                                                                 |
-| Asendatud teise funktsiooniga? | Jah, see funktsioon on asendatud pangakonto täpsema vastavusseviimise funktsiooniga. Lisaks on Dynamics AX-i järgmises värskenduses pearaamatus plaanitud camt.053 ISO20022 konto väljavõtte impordi juurutamine. |
+| Asendatud teise funktsiooniga? | Jah, see funktsioon on asendatud pangakonto täpsema vastavusseviimise funktsiooniga. |
 | Mõjutatud moodulid             | Kõik                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Saksamaa XML EL-i käibearuanne

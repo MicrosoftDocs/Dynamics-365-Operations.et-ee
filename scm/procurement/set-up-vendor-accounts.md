@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Saate panna hankija ootele erinevate kandetüüpide puhul. Valikud on järgmised
 -   **Mitte kunagi** – hankijat ei panda passiivsuse tõttu ootele.
 
 Kui panete hankija ootele, saate määrata ka põhjuse ja kuupäeva, millal ootelolek lõppeb Kui te ei sisestada lõppkuupäeva, siis kestab hankija ootelolek määramata ajani.
+
+Saate hankijate puhul ooteloleku värskendada hulgi valikule **Kõik**, võttes aluseks lehel **Hankija inaktiveerimine** valitud kriteeriumid ja määrates hankija ooteloleku põhjuse.
+
+Järgmisi kriteeriume kasutatakse selleks, et kaasata hankijaid, kes on olnud teatud perioodi jooksul passiivsed, kaasata või välistada töötajatega hankijaid ning välistada hankijaid, kes on enne järgmist ootelepanekut tähtajapikendusel.
+
+- Lehel **Hankija inaktiveerimine** olevale väljale **Passiivsuse periood** sisestatud päevade arvu põhjal arvutab rakendus hiliseima kuupäeva, mil hankijal võib mis tahes tegevus olla, et teda käsitletaks passiivsena. See on praegune kuupäev miinus teie sisestatud päevade arv. Kui hankija puhul on olemas üks või mitu arvet, mille kuupäev on hilisem kui arvutatud kuupäev, välistatakse hankija inaktiveerimisest. Kontrollitakse ka seda, kas hankijal on makseid pärast seda kuupäeva, avatud ostutaotlusi, avatud ostutellimusi, pakkumiskutseid või vastuseid.
+- Väljal **Tähtajapikendus enne järgmist ootelolekut** olevat arvu kasutatakse hiliseima tähtajapikenduse kuupäeva arvutamiseks. See on praegune kuupäev miinus teie sisestatud päevade arv. See kehtib ainult eelnevalt inaktiveeritud hankijate puhul. Eelneva inaktiveerimise korral kontrollib rakendus hankija teisi inaktiveerimiskordi ja seda, kas viimane aktiveerimine toimus enne viimast tähtajapikenduse kuupäeva. Sellisel juhul kaasatakse hankija inaktiveerimisprotsessi.
+- Parameeter **Kaasa töötajad** viitab hankijatele, kes on töötajaga lingitud. Saate määrata, kas soovite need töötajad kaasata.
+
+See protsess välistab alati hankijad, kelle puhul välja **Hankija ootel** väärtus on **Mitte kunagi**.
+
+Hankijad, kes valideerimise läbivad, pannakse ootele, mis seab välja **Hankija ootel** väärtuseks **Kõik** ja väljale **Põhjus** valitud väärtuse. Hankija jaoks luuakse ooteloleku ajaloo kirje.
 
 ## <a name="vendor-invoice-account"></a>Hankija arvekonto
 Kui rohkem kui ühel hankijal on sama arveaadress või kui hankijaga arveldatakse muu osapoole kaudu, saate hankija kirjele määrata arvekonto. Arvekonto on konto, millele krediteeritakse arve summa, kui loote ostutellimuse põhjal hankijaarve. Kui te ei sisesta hankija kirjele arvekontot, kasutatakse arvekontona hankijakontot.

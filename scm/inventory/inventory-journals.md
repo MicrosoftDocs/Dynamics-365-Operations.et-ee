@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -78,7 +78,7 @@ Tootmise sisendtöölehed toimivad kauba saabumistöölehtede sarnaselt, kuid ne
 
 ### <a name="counting"></a>Inventuur
 
-Inventuuritöölehtede abil saate korrigeerida praegust vaba kaubavaru, mis on kaupade või kaubagruppide puhul registreeritud, ja seejärel sisestada tegeliku füüsilise inventuuri nii, et saate teha vajalikke korrigeerimisi erinevuste tasakaalustamiseks. Saate seostada inventuuripoliitikad inventuurigruppidega, et aidata rühmitada erinevate omadustega kaupu, nii et need kaubad saaks lisada inventuuri töölehele. Näiteks saate seadistada inventuurigrupid nii, et need loeksid kaupu, millel on konkreetne sagedus, või loeksid kaupu siis, kui varud langevad teatud tasemele. Teavet inventuurigruppide määratlemise kohta leiate jaotisest [Laoinventuuri protsesside määratlemine (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Inventuuritöölehtede abil saate korrigeerida praegust vaba kaubavaru, mis on kaupade või kaubagruppide puhul registreeritud, ja seejärel sisestada tegeliku füüsilise inventuuri nii, et saate teha vajalikke korrigeerimisi erinevuste tasakaalustamiseks. Saate seostada inventuuripoliitikad inventuurigruppidega, et aidata rühmitada erinevate omadustega kaupu, nii et need kaubad saaks lisada inventuuri töölehele. Näiteks saate seadistada inventuurigrupid nii, et need loeksid kaupu, millel on konkreetne sagedus, või loeksid kaupu siis, kui varud langevad teatud tasemele. Teavet inventuurigruppide määratlemise kohta leiate jaotisest [Laoinventuuri protsesside määratlemine (tegevuse juhis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
 
 ### <a name="tag-counting"></a>Märgistusega inventuur
 

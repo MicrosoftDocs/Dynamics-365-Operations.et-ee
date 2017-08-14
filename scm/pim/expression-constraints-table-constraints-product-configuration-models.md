@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0bad513590ec0b0d495664d81f2e5f92e162bdd7
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dd6f993e5c5fe343c6484383ff097f87f5dbf894
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -44,7 +44,7 @@ Tabeli piirangud loetlevad väärtuste kombinatsioonid, mis toote konfigureerimi
 
 ### <a name="example-of-a-table-constraint"></a>Tabeli piirangu näide
 
-Selles näites selgitatakse, kuidas saate piirata kõlari konfiguratsiooni kindla korpuseviimistluse ja esiküljega. Esimeses tabelis on üldkonfiguratsiooniks saadaolevad korpuseviimistlused ja esiküljed. Atribuuditüüpidele **Korpuseviimistlus**ja **Esivõre** on väärtused määratletud.
+Selles näites selgitatakse, kuidas saate piirata kõlari konfiguratsiooni kindla korpuseviimistluse ja esiküljega. Esimeses tabelis on üldkonfiguratsiooniks saadaolevad korpuseviimistlused ja esiküljed. Atribuuditüüpidele **Korpuseviimistlus** ja **Esivõre** on väärtused määratletud.
 
 | Atribuudi tüüp | Väärtused                      |
 |----------------|-----------------------------|
@@ -88,7 +88,7 @@ Toote konfigureerimisel järgmiste piiranguseadistuste abil on need kombinatsioo
 (Värv == "Must" & (suurus == "30" | suurus == "50")) | (värv == "Punane" & suurus = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>Kas avaldise piirangute kirjutamisel tuleks kasutada tehtemärke või infix-märke?
-Saate kirjutada avaldisepiirangu kas saadaolevaid tehtemärke või infix-märke kasutades. Tehtemärkide **Min**, **Max** ja **Abs**puhul ei saa infix-märke kasutada. Need tehtemärgid sisalduvad standardina enamikus programmeerimiskeeltes.
+Saate kirjutada avaldisepiirangu kas saadaolevaid tehtemärke või infix-märke kasutades. Tehtemärkide **Min**, **Max** ja **Abs** puhul ei saa infix-märke kasutada. Need tehtemärgid sisalduvad standardina enamikus programmeerimiskeeltes.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Milliseid tehtemärke ja infix-märke saan avaldisepiirangute kirjutamisel kasutada?
 Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote konfiguratsioonimudeli komponendile avaldisepiirangu kirjutamisel kasutada. Esimeses tabelis toodud näited selgitavad, kuidas infix-märkide või tehtemärkide abil avaldist kirjutada.
@@ -249,9 +249,9 @@ Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või ala
 <a name="see-also"></a>Vt ka
 --------
 
-[Avaldise piirangu loomine (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Avaldisepiirangu loomine (tegevuse juhis)(/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)
 
-[Arvutuse lisamine toote konfiguratsioonimudelile (tegevuse juhis)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Arvutuse lisamine toote konfiguratsioonimudelile (tegevuse juhis)](/dynamics365/unified-operations/supply-chain/pim/tasks/add-calculation-product-configuration-model)
 
 
 

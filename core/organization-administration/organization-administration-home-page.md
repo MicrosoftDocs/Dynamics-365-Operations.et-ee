@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ Teema viitab ressurssidele, mis aitavad teil Microsoft Dynamics 365 for Finance 
 ----------------
 
 -   [Numbriseeriate ülevaade](number-sequence-overview.md)
--   [Numbriseeriate seadistamine viisardit kasutades](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (tegevusjuhis)
--   [Eraldi numbriseeriate seadistamine](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (tegevusjuhis)
+-   [Numbriseeriate seadistamine viisardit kasutades](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (tegevusjuhis)
+-   [Eraldi numbriseeriate seadistamine](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (tegevusjuhis)
 
 ## <a name="address-books"></a>Aadressiraamatud
 -   [Aadressiraamatud](qa-address-books.md)
@@ -67,17 +67,17 @@ Teema viitab ressurssidele, mis aitavad teil Microsoft Dynamics 365 for Finance 
 
 ## <a name="electronic-signatures"></a>Digitaalallkirjad
 -   [Digitaalallkirja ülevaade](electronic-signature-overview.md)
--   [Digitaalallkirjade seadistamine](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (tegevusjuhis)
+-   [Digitaalallkirjade seadistamine](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (tegevusjuhis)
 
 ## <a name="organizations"></a>Organisatsioonid
 -   [Organisatsioonid ja organisatsiooni hierarhiad](organizations-organizational-hierarchies.md)
 -   [Organisatsiooni hierarhia plaanimine](plan-organizational-hierarchy.md)
--   [Tootmisüksuse loomine](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (tegevusjuhis)
--   [Organisatsiooni hierarhia loomine](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (tegevusjuhis)
--   [Juriidilise isiku loomine](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (tegevusjuhis)
+-   [Tootmisüksuse loomine](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (tegevusjuhis)
+-   [Organisatsiooni hierarhia loomine](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (tegevusjuhis)
+-   [Juriidilise isiku loomine](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (tegevusjuhis)
 
 ## <a name="general-administration"></a>Üldine haldus
--   [Ribareklaami või logo muutmine](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (tegevusjuhis)
+-   [Ribareklaami või logo muutmine](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (tegevusjuhis)
 -   [Kuupäeva/aja andmed ja ajavööndid](date-time-zones.md)
 -   [Kirjemallid](record-templates.md)
 

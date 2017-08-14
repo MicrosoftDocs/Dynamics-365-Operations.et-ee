@@ -3,26 +3,26 @@ title: Hankija maksete loomine maksesoovituse abil
 description: "See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad. Maksesoovitusi kasutatakse sageli hankija maksete loomiseks, kuna maksesoovituse päringu abil saab hankija arveid kiiresti kriteeriumide (nt tähtaeg ja skonto) alusel maksmiseks valida."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -40,7 +40,7 @@ Maksesoovituse päring sisaldab mitmeid vahekaarte, millest igaühel on erinevad
 ## <a name="parameters"></a>Parameetrid
 -   **Arvete valimise alus** – väljadega **Alguskuupäev** ja **Lõppkuupäev** määratud kuupäevavahemikku jäävaid arveid saab valida tähtaja, skonto kuupäeva või mõlema alusel. Kui kasutate skonto kuupäeva, otsib süsteem esmalt arveid, mille skonto kuupäev jääb algus- ja lõppkuupäeva vahele. Seejärel määratleb süsteem seansi kuupäeva kasutades, kas arve on skonto saamiseks sobilik ning ega skonto kuupäev juba möödunud ole.
 -   **Alguskuupäevast****lõppkuupäevani** – maksmiseks valitakse arved, mille tähtaeg või skonto kuupäev jääb sellesse kuupäevavahemikku.
--   **Maksekuupäev** – kui kuupäev on määratletud, luuakse kõik maksed sellel kuupäeval. Välja **Varaseim maksekuupäev** ignoreeritakse.
+-   **Maksekuupäev** – seda kasutatakse ainult siis, kui välja **Periood** väärtus makseviisis on **Kokku**. Kuupäev on määratletud, luuakse kõik maksed sellel kuupäeval. Välja **Varaseim maksekuupäev** ignoreeritakse.
 -   **Varaseim maksekuupäev** – sisestage varaseim maksekuupäev. Näiteks määravad väljad **Alguskuupäev** ja **Lõppkuupäev** ajavahemiku 1. septembrist 10. septembrini ning minimaalne maksekuupäev on 5. september. Sellisel juhul on kõigil maksetel tähtajaga 1.–5. september maksekuupäevaks 5. september. Arvetel tähtajaga 5.–10. september on aga maksekuupäevaks iga arve tähtaja kuupäev.
 -   **Summa limiit** – sisestage kõikide maksete suurim kogusumma.
 -   **Maksete loomine ilma arve eelvaateta** – kui selle suvandi sätteks on valitud **Jah**, luuakse maksed kohe lehel **Hankija maksed**. Leht **Maksesoovitus** jäetakse vahele. Seetõttu luuakse maksed kiiremini. Makseid saab endiselt muuta lehel **Hankija maksed**. Teise võimalusena saate nuppu **Valitud makse arvete redigeerimine** kasutades naasta lehele **Maksesoovitus**.

@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Selles teemas tutvustatakse omahinna tagasiarvestuse mõistet, mida kasutatakse lean manufacturingi jaoks. 
 
-Lean manufacturingi kuluarvutus võimaldab tootmisvoos kasutada kulu akumuleerimise viisi, mida nimetatakse omahinna tagasiarvestuseks. Omahinna tagasiarvestuse meetodi puhul akumuleeruvad tarbitud otsesed materjalikulud tootmisvoo lõpetamata toodangu (WIP) kulukontole. Kasutatakse standardkuludele laomudeligruppi. Töövoost saadud tooted lahutatakse lõpetamata toodangust standardomahinnaga. Standardomahinna ja omahinna tagasiarvestuse peamine erinevus on see, et omahinna tagasiarvestuse puhul ei arvutata hälbeid kanbani või lõpetatud toote kohta. Selle asemel arvutatakse hälbeid tootmisvoo kohta perioodi jooksul. See meetod tutvustab materjalitarbimise aruandluse jaoks tõelist säästlikkuse mõistet. Sihtotstarbelisi komplekteeritud materjalikoguseid ei esitada kanban- ega tootmistellimuse jaoks. Selle asemel koondatakse töövoole täielikud partiid või materjali käsitlemisühikud. Pärast seda, kui partiid või materjali käsitlemisühikud on tühjana registreeritud, deklareeritakse need tarbituks. Kasutada võib täiustatud tarbimist, sõltuvalt [töövoo konfiguratsioonist](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/). Enne täiustatud tarbimise kasutamist peavad organisatsioonid endale lubama materjali kaotamist tootmisvoo lõpetamata toodangus. Perioodiline omahinna tagasiarvestus määrab lõpetamata toodangu kehtiva väärtuse perioodi lõppu. See määramine põhineb kanbani materjali käsitlemisühikutel ja kanban-töö olekul. Kõrvalekaldeid kehtiva väärtuse ja tegeliku lõpetamata toodangu väärtuse iga kulugrupi ja kauba kohta vahel arvutatakse ja näidatakse hälvetena.
+Lean manufacturingi kuluarvutus võimaldab tootmisvoos kasutada kulu akumuleerimise viisi, mida nimetatakse omahinna tagasiarvestuseks. Omahinna tagasiarvestuse meetodi puhul akumuleeruvad tarbitud otsesed materjalikulud tootmisvoo lõpetamata toodangu (WIP) kulukontole. Kasutatakse standardkuludele laomudeligruppi. Töövoost saadud tooted lahutatakse lõpetamata toodangust standardomahinnaga. Standardomahinna ja omahinna tagasiarvestuse peamine erinevus on see, et omahinna tagasiarvestuse puhul ei arvutata hälbeid kanbani või lõpetatud toote kohta. Selle asemel arvutatakse hälbeid tootmisvoo kohta perioodi jooksul. See meetod tutvustab materjalitarbimise aruandluse jaoks tõelist säästlikkuse mõistet. Sihtotstarbelisi komplekteeritud materjalikoguseid ei esitada kanban- ega tootmistellimuse jaoks. Selle asemel koondatakse töövoole täielikud partiid või materjali käsitlemisühikud. Pärast seda, kui partiid või materjali käsitlemisühikud on tühjana registreeritud, deklareeritakse need tarbituks. Kasutada võib täiustatud tarbimist, sõltuvalt [töövoo konfiguratsioonist](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization). Enne täiustatud tarbimise kasutamist peavad organisatsioonid endale lubama materjali kaotamist tootmisvoo lõpetamata toodangus. Perioodiline omahinna tagasiarvestus määrab lõpetamata toodangu kehtiva väärtuse perioodi lõppu. See määramine põhineb kanbani materjali käsitlemisühikutel ja kanban-töö olekul. Kõrvalekaldeid kehtiva väärtuse ja tegeliku lõpetamata toodangu väärtuse iga kulugrupi ja kauba kohta vahel arvutatakse ja näidatakse hälvetena.
 
 ## <a name="configuring-backflush-costing"></a>Omahinna tagasiarvestuse konfigureerimine
 Kuluarvestuse lubamiseks peate läbima järgmise häälestuse.

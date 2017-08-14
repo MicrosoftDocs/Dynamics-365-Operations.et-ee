@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.assetid: 
 ms.search.region: Global
 ms.author: twheeloc
-ms.dyn365.intro: 2017-06-30
+ms.dyn365.intro: 2017-06-30T00:00:00.000Z
 ms.dyn365.version: Enterprise edition, July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: 8228690ee5ab7839ec19c307c23f9b6150006371
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: a8ba439ff643fce4811be9224a3edf96b2b9025c
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/14/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -38,11 +38,11 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition sisaldab n
 
 ## <a name="what-do-i-have-to-set-up"></a>Mida pean seadistamiseks tegema?
 
-- Enne, kui saate ER-i abil tšekke printida, tuleb ER-i aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne tšeki konfiguratsioon. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+- Enne, kui saate ER-i abil tšekke printida, tuleb ER-i aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne tšeki konfiguratsioon. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 - Kui konfigureerite pangakontole sularaha ja pangahalduse tšekke, siis märkige ruut **Üldine elektrooniline ekspordivorming** ja valige siis ekspordivormingu konfiguratsiooniks sobiv tšekivorming.
 - Määrata tuleb ka ülekandele prinditavate kviitungiridade arv. Lisage selle numbri arvutamisel kindlasti päiseread. Kahe tšeki näidisvormingu puhul on soovitatav kviitungiridade arv 17. Kuid see arv erineb, olenevalt teie tšekivarudest ja printeridraiveritest.
 - Soovitame printida tšeki paigutuse kontrollimiseks proovitšeki. Proovitšeki printimiseks valige suvand **Prindi proov**. Tšeki näidisvormingud toimivad kõige paremini, kui valiku **Veerised** väärtuseks on Microsoft Exceli täpsemates printeriatribuutides määratud **Pole**. Kui tšekk on loodud, lubage Exceli väljundi redigeerimine ja konfigureerige lehe paigutus, nii et kõik veerised oleksid määratud väärtuseks **0** (null). Võrrelge tšekkide proovieksemplari oma tšekivarudega ja reguleerige sätteid, kuni olete joondusega rahul.
 - Maksetöölehel konfigureeritud pangakontole maksete loomisel prinditakse tšekid, kasutades määratud vormingut.
 
-Lisateavet leiate jaotisest [Elektroonilise aruandluse vormingu muutmine](/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+Lisateavet leiate jaotisest [Elektroonilise aruandluse vormingu muutmine](/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template).
 
