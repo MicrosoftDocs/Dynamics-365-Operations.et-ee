@@ -3,7 +3,7 @@ title: "Pearaamatu töölehe töötlemine"
 description: "Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni võimalusi, mis lihtsustavad üldise töölehe töötlemist ja mis aitavad ühtlasi tagada, et jäädvustatakse õiged andmed ning sisekontrolli pole kahjustatud."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -40,7 +39,7 @@ Töölehe nimed
 
 Lehel **Töölehe nimed** saate seadistada järgmisi elemente.
 
--   **Töövoo kinnitamine** – sisekontrolli tõhustamiseks määratlege töölehe töövood, mis loovad ülevaatus- ja kinnitamisetappide materiaalsuspiirangud kriteeriumide, nagu deebeti kogusummade alusel. Saate pearaamatute töövoogusid seadistada lehel** Pearaamatu töövood**.
+-   **Töövoo kinnitamine** – sisekontrolli tõhustamiseks määratlege töölehe töövood, mis loovad ülevaatus- ja kinnitamisetappide materiaalsuspiirangud kriteeriumide, nagu deebeti kogusummade alusel. Saate pearaamatute töövoogusid seadistada lehel **Pearaamatu töövood**.
 -   **Vaikeväärtused** – valige vastaskontode, valuuta ja finantsdimensioonide vaikeväärtused.
 -   **Töölehe juhtimine** – saate seadistada ettevõtte ja kontotüübi piiranguid ja ka segmendi väärtusi. 
 
@@ -82,8 +81,13 @@ Põhikonto seadistus pakub päevaraamatu töötlemiseks mitmeid järgmisi suvand
 
 Arvestusstruktuurid ja täpsemate reeglite struktuurid on äärmiselt olulised, tagamaks andmete nõudmine finantsaruandluseks ja jõudluse jälgimise rakendamine päevaraamatu töötlemisel ja mis tahes dokumentide puhul. Arvestusstruktuurid ja täpsemate reeglite struktuurid võimaldavad teil andmete sisestamise kogemust kohandada. Saate lubada andmesisestuse ainult igas olukorras asjakohaste finantsdimensioonide puhul ja rakendada alati kohustuslike ja õigete andmete hõivamise nõuet.
 
-Lisateavet leiate jaotisest [Plaanimine: kontoplaan](plan-chart-of-accounts.md). 
-
+Lisateavet vt järgmistest teemadest:
+- [Plaanimine: kontoplaan](plan-chart-of-accounts.md). 
+- [Täpsemate reeglite loomine töölehtede jaoks](tasks/create-advanced-rules-journals.md)
+- [Töölehe sisestuse loomine malli abil](tasks/create-journal-entry-template.md)
+- [Töölehtede loomine ja kinnitamine](tasks/create-validate-journals.md)
+- [Perioodiliste töölehtede sisestamine](tasks/post-periodic-journals.md)
+- [Pearaamatu eraldamistöölehe töötlemine](tasks/process-ledger-allocation-journal.md)
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: Kliendiarve loomine
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd89921a97782c4d09807a730ab077809304159f
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 249b1f331d6889d3b9ed2ace2e5db21d7a5d3e46
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,11 +30,20 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-
-
-**Müügitellimuse kliendiarve** on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab. Sellist tüüpi müügiarve luuakse müügitellimuse põhjal, mis sisaldab tellimuse ridu ja kaubakoode. Kauba koodid täpsustatakse ja sisestatakse pearaamatusse. Alammooduli töölehe kirjed pole müügitellimuse kliendiarve puhul saadaval. 
+**Müügitellimuse kliendiarve** on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab. Sellist tüüpi müügiarve luuakse müügitellimuse põhjal, mis sisaldab tellimuse ridu ja kaubakoode. Kauba koodid täpsustatakse ja sisestatakse pearaamatusse. Alammooduli töölehe kirjed pole müügitellimuse kliendiarve puhul saadaval. Lisateabe saamiseks vt [Müügitellimuse arvete loomine](tasks/create-sales-order-invoices.md).
 
 **Vabas vormis arve** pole müügitellimusega seotud. See sisaldab tellimuse ridu, mille hulka kuuluvad pearaamatukontod, vaba tekstina sisestatud kirjeldused ja müügihind, mille sisestate. Seda tüüpi arvele ei saa kaubakoodi sisestada. Peate sisestama vastava käibemaksuteabe. Müügi põhikonto on näidatud igal arve real, mille saate jaotada mitmele pearaamatukontole, klõpsates valikut **Summade jaotamine** lehel **Vabas vormis arve**. Lisaks sisestatakse kliendi saldo vabas vormis arve puhul kasutatavatest sisestusreeglitest koondkontole.
+
+Lisateavet vt 
+
+[Vabas vormis arve loomine](tasks/create-free-text-invoice.md)
+
+[Vabas vormis tekstimalli loomine](tasks/create-free-text-invoice-template.md)
+
+[Vabas vormis arve tekstimalli määramine kliendile](tasks/assign-free-text-invoice-template-customer.md)
+
+[Korduvate vabas vormis arvete genereerimine ja sisestamine](tasks/post-recurring-free-text-invoices.md)
+
 
 **Esialgne arve** on arve, mis on vormistatud hinnanguliste arvesummadega enne arve sisestamist. Saate printida esialgse arve nii müügitellimuse kliendiarve kui ka vabas vormis arve kohta.
 

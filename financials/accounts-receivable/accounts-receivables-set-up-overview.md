@@ -1,9 +1,9 @@
 ---
 title: "Moodulite Müügireskontro ja Krediit ja võlanõuded konfigureerimine"
 description: "Konfigureerige Müügireskontro ning Krediit ja võlanõuded, et jälgida klientide arveid ja laekumisi."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ Järgmises tabelis on loetletud lehed, mis toetavad moodulite Müügireskontro j
 |                                                      | Valuutad                           | Saate luua ja vaadata oma ettevõtte kasutatavaid valuutasid.                                                                                                                                                                                                                       |
 |                                                      | Valuuta vahetuskursi määrad              | Saate luua ja hallata arvestusvaluuta ja muude valuutade vahelisi vahetuskursse.                                                                                                                                                                              |
 |                                                      | Kontserni raamatupidamine              | Saate luua loendi kontodest, kuhu praegune juriidiline isik saab sisestada. Peate seadistama deebet- ja kreeditkonto ning ka töölehe, mis võtab vastu teise juriidilise isiku kandeid.                                                                             |
-|                                                      | Maksemeetodid – klient        | Looge ja hallake teavet klientide makseviiside kohta.                                                                                                                                                                                                           |
+|                                                      | Maksemeetodid – klient        | Looge ja hallake teavet klientide makseviiside kohta. Lisateabe saamiseks vt [Kliendi makseviisi loomine](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Organisatsiooni hierarhiad             | Saate seadistada organisatsiooni hierarhia tsentraliseeritud maksetele.                                                                                                                                                                                                                        |
 |                                                      | Organisatsiooni hierarhia eesmärgid      | Saate määrata tsentraliseeritud maksete eesmärgi.                                                                                                                                                                                                                                       |
 |                                                      | Maksepäevad                         | Määrake maksepäevad, mida kasutatakse tähtaegade arvutamiseks maksetele, mille saate klientidelt või teete tarnijatele.                                                                                                                                                |
-|                                                      | Maksetasu                          | Looge ja hallake klientidega seotud maksetasusid, näiteks käskveksli maksed.                                                                                                                                                                               |
-|                                                      | Maksetasu seadistus                    | Seadistage pankade, makseviiside, rahaülekannete tüüpide, maksetäpsustuste, valuutade ja ajaintervallide erinevate kombinatsioonide maksetasusid.                                                                                                                              |
+|                                                      | Maksetasu                          | Looge ja hallake klientidega seotud maksetasusid, näiteks käskveksli maksed.                                                                                                                                                                         |
+|                                                      | Maksetasu seadistus                    | Seadistage pankade, makseviiside, rahaülekannete tüüpide, maksetäpsustuste, valuutade ja ajaintervallide erinevate kombinatsioonide maksetasusid.  Lisateabe saamiseks vt [Kliendi käitluslõivude loomine](tasks/establish-customer-payment-fees.md).                                                                                   |
 |                                                      | Maksegraafikud                    | Looge maksgraafikud, mida saate kasutada osamaksete planeerimiseks klientidelt ja tarnijatele.                                                                                                                                                                       |
 |                                                      | Maksetäpsustus                | Looge ja vaadake lehel Makseviisid valitud makseviisi maksetäpsustuse koode. Maksetäpsustuse koodid peate määratlema vastavalt valitud makseviisi puhul määratud pangaga sõlmitud kokkuleppele.                    |
 |                                                      | Kande tekst                     | Looge kandetekst automaatseks sisestamiseks Pearaamatusse. Saate kandetekste luua mitmesugustes keeltes.                                                                                                                                                           |
@@ -83,7 +82,7 @@ Järgmises tabelis on loetletud lehed, mis toetavad moodulite Müügireskontro j
 |                                                      | Maksemeetodid – klient        | Looge ja hallake teavet klientide makseviiside kohta.                                                                                                                                                                                                           |
 |                                                      | Allkiri                            | Lisage, muutke või eemaldage allkirjapildifaile, näiteks .bmp-, .jpg- või .gif-faile. Allkirjapildifailid prinditakse tšekkidele juriidilise isiku ametlike allkirjadena.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Müügireskontro statistika konfigureerimine           | Aegumisperioodi määratlused             | Seadistage ja hallake kasutaja määratletud aegumisperioodi määratlusi, mida kasutatakse kliendikontode ja tarnijakontode vanuse analüüsiks teie sisestatava kuupäeva alusel.                                                                                                         |
+| Müügireskontro statistika konfigureerimine           | Aegumisperioodi määratlused             | Seadistage ja hallake kasutaja määratletud aegumisperioodi määratlusi, mida kasutatakse kliendikontode ja tarnijakontode vanuse analüüsiks teie sisestatava kuupäeva alusel. Lisateabe saamiseks vt [Müügireskontro ajalise jaotuse teabe seadistamine ja genereerimine](tasks/set-up-accounts-receivable-aging-information.md)                                                           |
 |                                                      | Äristatistika                  | Seadistage äristatistika päringud, mis aitavad analüüsida teie organisatsiooni jõudlust.                                                                                                                                                                              |
 |                                                      | Äristatistika andmed             | Vaadake andmeid ruudustikvormingus valitud äristatistika puhu.                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |

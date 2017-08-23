@@ -3,7 +3,7 @@ title: Ostureskontro arvete vastavusse viimine
 description: "Ostureskontro arvete võrdlemine on hankija arve, ostutellimuse ja toote sissetuleku teabe vastavusse viimise protsess."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ Hankijaarved põhinevad ostutellimuste asemel tihti tegelikke saadetisi kajastav
 -   Sisestage arve summad, mida ei kaasatud algsesse ostutellimusse, nii et arve teave kattuks arvega, mille hankijalt saite. Saate võrrelda ostutellimuste tasusid arvete tasudega. Vajaduse korral saate tasud arvetele lisada ja määrata need arve ridadele.
 -   Vaadake ja kinnitage hinna võrdluslahknevusi arve ühiku netohinna ja ostutellimuse ühiku netohinna vahel. Võite seadistada hinnakõikumisprotsendid juriidilistele isikutele, hankijatele ja kaupadele. Kui hankija arve rea hind pole vastuvõetava hinnakõikumise piires, võite arve salvestada, kuni see on sisestamiseks kinnitatud või kuni saate hankijalt paranduse.
 
-Lisateavet leiate teemast [Kolmesuunalised vastavusse viimise poliitikad](three-way-matching-policies.md).
+Lisateabe saamiseks vt [Kolmesuunaline vastavusse viimise poliitika](three-way-matching-policies.md) ja [Ostureskontro arvete võrdlemise kinnitamise häälestamine](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: Kliendi osalises summas maksed
 description: "Mõnikord teevad kliendid makse, mis on arve summast väiksem. See artikkel kirjeldab mitmesuguseid valikuid selle olukorra käsitlemiseks. Teile saadaolevad valikud sõltuvad teie ärivajadustest ja konfiguratsioonist."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 795d13a07065a125a750970beaff85b59307f623
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: ebfa8aaed6f82e9c3142540d0850c59d49328d59
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -52,7 +51,7 @@ Näiteks pakute 2% skontot, kui arve tasutakse kümne päeva jooksul pärast sel
 ## <a name="credit-notes-with-discounts"></a>Allahindlustega kreeditarved
 Kui kliendid tagastavad osa arvel olevatest kaupadest, võite väljastada kreeditarve. Kui skonto võeti algselt arvelt, peab kliendi krediiditeatis olema kliendi võetud skonto netosumma. Kui lehe **Müügireskontro parameetrid** jaotise **Arvuta skontod kreeditarvete jaoks** suvandi väärtuseks on seatud **Jah**, arvutatakse kreeditarve jaoks automaatselt allahindlus. 
 
-Näiteks pakkusite maksetingimusi, mis määravad 2% skontot, kui arve tasutakse kümne päeva jooksul pärast selle väljastamist. Sisestati arve 100,00 ja klient võttis skonto. Kui klient tagastab kaubad ja väljastate kreeditarve, saate sisestada kreeditarve –100,00. Kui vaatate kreeditarvet lehel **Avatud kannete tasakaalustamine**, ilmub**98,00** väljale **Tasakaalustatav summa** ja **–2,00** ilmub väljale **Skonto summa**. Allahindluse summa sisestatakse skontokontole.
+Näiteks pakkusite maksetingimusi, mis määravad 2% skontot, kui arve tasutakse kümne päeva jooksul pärast selle väljastamist. Sisestati arve 100,00 ja klient võttis skonto. Kui klient tagastab kaubad ja väljastate kreeditarve, saate sisestada kreeditarve –100,00. Kui vaatate kreeditarvet lehel **Avatud kannete tasakaalustamine**, ilmub **98,00** väljale **Tasakaalustatav summa** ja **–2,00** ilmub väljale **Skonto summa**. Allahindluse summa sisestatakse skontokontole.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Üle-/alamakse summad
 Kui kliendid teevad makse, võib olla väga väike summa, mis tuleb tasakaalustada. Näiteks esitate kliendile arve 1000,00 ja klient maksab 999,90. Kui järelejäänud summa on väiksem kui summa, mis on määratud üle- või alamaksete puhul lehel **Müügireskontro parameetrid**, sisestatakse erinevus automaatselt üle-/alamakse pearaamatukontole.
@@ -61,5 +60,5 @@ Kui kliendid teevad makse, võib olla väga väike summa, mis tuleb tasakaalusta
 Kliendid võivad teha osalise makse, mille puhul järelejäänud summat ei maksta, kuid mis on suurem kui alamakse summa, mis on määratud lehel **Ostureskontro parameetrid**. Kui soovite märkida arve täielikult tasakaalustatuks, kasutage valikut **Täielik tasakaalustamine** lehel **Kannete tasakaalustamine**. (Saate lubada täieliku tasakaalustamise funktsiooni, kasutades konfiguratsioonivõtit.) Näiteks sisestatakse arve summas 1000,00 ja klient maksab 990,00. Olete kokku leppinud, et klient ei pea maksma järelejäänud summat 10,00. Pärast tasakaalustatava arve märkimist saate märkida ka valiku **Täielik tasakaalustamine**. Arvet käsitletakse siis täielikult tasakaalustatuna. Erinevus 10,00 sisestatakse skonto kontole täiendava skonto summana.
 
 
-
+Lisateabe saamiseks vt [Kliendimaksete hoiustamine](tasks/deposit-customer-payments.md).
 

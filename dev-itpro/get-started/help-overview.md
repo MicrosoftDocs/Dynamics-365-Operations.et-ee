@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -32,9 +32,9 @@ ms.lasthandoff: 07/27/2017
 Selles artiklis antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile. 
 
 > [!NOTE] 
-> Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Ühe toote kohta kirjutatud teemad võivad kohalduda ka seotud toote samale funktsioonile.
+> Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
 
-Spikrisüsteemi jagatakse kõigi Unified Operationsi toodete puhul:
+Spikrisüsteemi jagatakse kõigi järgmiste toodete puhul:
 - Dynamics 365 for Finance and Operations, Enterprise Edition
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
@@ -73,7 +73,7 @@ Leiate meie sisu ka igasuguse otsingumootoriga. Soovitame kasutada parimate tule
 
 ![Saidiotsingu tulemused](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Unified Operationsi sisukord lehel docs.microsoft.com
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>Sisukord lehel docs.microsoft.com
 Kõigil toodetel on dokumentide saidil üks sisukord, mis võimaldab klientidel näha selle teema konteksti, milles nad on. Samuti võimaldab see kasutada filtri juhtelementi otsitavate teemade leidmiseks.
 
 ### <a name="how-can-i-contribute"></a>Kuidas saan kaasa aidata? 
@@ -101,7 +101,7 @@ Sisestage paremale meiliaadress ja uus parool saidi jaoks uue konto loomiseks.
 ## <a name="task-guides"></a>Tegevuse juhised
 Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute. Tegevuse juhise saab avada (esitada) paanilt Spikker. Tegevuse juhise esmakordsel klõpsamisel kuvatakse paanil Spikker tegevuse etapiviisilised juhised. Lokaliseeritud tegevuse juhised on nüüd saadaval. 
 
-Pakume iga Unified Operationsi toote jaoks erinevaid tegevusjuhiste komplekte. Jaotis Spikri paanilt tegevusjuhistele juurdepääsemine kirjeldab, kuidas leida oma toote jaoks õigeid tegevusjuhiseid. 
+Pakume mitmesuguseid tööjuhendeid iga toote jaoks (nt Dynamics 365 for Retail, Dynamics 365 for Finance and Operations või Dynamics 365 for Talent). Jaotis Spikri paanilt tegevusjuhistele juurdepääsemine kirjeldab, kuidas leida oma toote jaoks õigeid tegevusjuhiseid. 
 
 ![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ Tõlgitud tegevuse juhised on väljastatud teekidesse, mille pealkirjas on „K�
 -   Kui tegevuse juhist pole veel tõlgitud, siis kuvatakse tegevuse juhise avamisel teie valitud keeles ainult osa tekstist (juhtelementide tekst).
 
 ## <a name="additional-resources"></a>Lisaressursid
-Järgmises tabelis on toodud veebisaidid, mis pakuvad Unified Operationsi sisu. Meie sisuveebisaidid on korraldatud nii, et need toetaksid kliendi elutsüklit. Iga faasi toetab erinev saidikogum. Saitidel, millel on nime kõrval tärn (\*), nõuavad, et logiksite sisse, kasutades teenusepaketiga seotud kontot.
+Järgmises tabelis esitatakse meie veebilehed. Meie sisuveebisaidid on korraldatud nii, et need toetaksid kliendi elutsüklit. Iga faasi toetab erinev saidikogum. Saitidel, millel on nime kõrval tärn (\*), nõuavad, et logiksite sisse, kasutades teenusepaketiga seotud kontot.
 
 | Sait                                                                     | Kirjeldus                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

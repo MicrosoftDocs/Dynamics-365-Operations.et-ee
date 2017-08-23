@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Kulude kiire sisestamine, kasutades mobiilset tööruumi Kulude haldamine
 1. Avage oma mobiilses seadmes tööruum **Kulude haldamine**.
 2. Valige suvand **Kiire kulusisestus**.
-3. Valige kulu kategooria. Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui teie kategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.
+3. Valige kulu kategooria. Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie kategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.
 4. Sisestage kulu kande kuupäev.
 5. Valikuline: saate sisestada kaupmehe kulu.
 6. Sisestage kulu summa.
-7. Saate valida kulu valuuta. Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui teie valuutat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida valuuta järgi või lülituda nime järgi otsingule.
+7. Saate valida kulu valuuta. Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie valuutat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida valuuta järgi või lülituda nime järgi otsingule.
 8. Valige suvand **Tee foto** või **Vali pilt**.
 9. Järgige üht neist sammudest.
 
@@ -166,11 +166,11 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 7. Valige loendist üks või mitu kulu.
 8. Valige suvand **Valmis**.
 9. Kuluaruandesse uue kulu lisamiseks valige suvand **Uus kulu**.
-10. Valige kulu kategooria. Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui teie kategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.
+10. Valige kulu kategooria. Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie kategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.
 11. Valikuline: saate sisestada kaupmehe kulu.
 12. Sisestage kulu kande kuupäev.
 13. Sisestage kulu summa.
-14. Saate valida kulu valuuta. Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui teie valuutat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida valuuta järgi või lülituda nime järgi otsingule.
+14. Saate valida kulu valuuta. Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie valuutat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida valuuta järgi või lülituda nime järgi otsingule.
 15. Valige suvand **Valmis**.
 16. Kulu üksikasjade lisamiseks valige **Üksikasjade lisamine**. Saadaolevad väljad sõltuvad teie ettevõtte kuluhalduse konfiguratsioonist.
 17. Kui ettevõtte poliitika nõuab kulu puhul kviitungit, valige suvand **Kviitungid** ja seejärel toimige järgmiselt.
@@ -216,12 +216,12 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
         - Kui valisite suvandi **Eelmised külalised**, toimige järgmiselt.
 
-            1. Valige loendist üks või mitu eelmist külalist. Kuvatakse loend eelmistest külalistest, kelle olete lisanud eelmistesse kuluaruannetesse, mis on laaditud teie rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui teie eelmist külalist pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida nime järgi või lülituda otsingule organisatsiooni, riigi või ametinimetuse järgi.
+            1. Valige loendist üks või mitu eelmist külalist. Kuvatakse loend eelmistest külalistest, kelle olete lisanud eelmistesse kuluaruannetesse, mis on laaditud teie rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie eelmist külalist pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida nime järgi või lülituda otsingule organisatsiooni, riigi või ametinimetuse järgi.
             2. Valige suvand **Valmis**.
 
         - Kui valisite suvandi **Kaastöötajad**, toimige järgmiselt.
 
-            1. Valige loendist üks või mitu kaastöötajat. Näete loendit kaastöötajatest, kes on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui teie kaastöötajat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida nime järgi või lülituda otsingule ettevõtte või ametinimetuse järgi.
+            1. Valige loendist üks või mitu kaastöötajat. Näete loendit kaastöötajatest, kes on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie kaastöötajat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida nime järgi või lülituda otsingule ettevõtte või ametinimetuse järgi.
             2. Valige suvand **Valmis**.
 
     3. Valige kulu üksikasjade juurde naasmiseks nupp **Tagasi**.
@@ -230,7 +230,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
     1. Valige täpsustamiseks alguskuupäev.
     2. Valige suvand **Lisa täpsustus**.
-    3. Valige kulu täpsustuse alamkategooria. Näete loendit kulu alamkategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kui teie alamkategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Tehke otsing kulu alamkategooria nime järgi.
+    3. Valige kulu täpsustuse alamkategooria. Näete loendit kulu alamkategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie alamkategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Tehke otsing kulu alamkategooria nime järgi.
     4. Sisestage täpsustuseks kande summa.
     5. Vajaduse korral redigeerige kande kuupäeva.
     6. Valige suvand **Valmis**.

@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations toetab hilisema kuupäevaga da
 </tr>
 <tr class="even">
 <td>Registreeri ja postita hankija hilisema kuupäevaga tšekk</td>
-<td>Registreerige hankijale väljastatava hilisema kuupäevaga tšeki üksikasjad. Kui makse on sisestatud, siis tuvastatakse hankija kohustus, kuid pangakonto ei ole veel krediteeritud. Selle asemel kasutatakse selleks kliiringukontot.</td>
+<td>Registreerige hankijale väljastatava hilisema kuupäevaga tšeki üksikasjad. Kui makse on sisestatud, siis tuvastatakse hankija kohustus, kuid pangakonto ei ole veel krediteeritud. Selle asemel kasutatakse selleks kliiringukontot. </td>
 </tr>
 <tr class="odd">
 <td>Kliendi hilisema kuupäevaga tšeki registreerimine ja postitamine</td>
@@ -87,6 +86,17 @@ Kui teie algne tšekk hankijale või kliendilt on kadunud või kahjustatud, siis
 
 
 
+Lisateavet vt järgmistest teemadest:
+
+[Hilisema kuupäevaga tšekkide seadistamine](tasks/set-up-postdated-checks.md)
+
+[Kliendi hilisema kuupäevaga tšeki registreerimine ja sisestamine](tasks/register-post-postdated-check-customer.md)
+
+[Kliendi hilisema kuupäevaga tšeki tasakaalustamine](tasks/settle-postdated-check-customer.md)
+
+[Hankija hilisema kuupäevaga tšeki registreerimine ja sisestamine](tasks/register-post-postdated-check-vendor.md) 
+
+[Hankija hilisema kuupäevaga tšeki tasakaalustamine](tasks/settle-postdated-check-vendor.md)
 
 
 

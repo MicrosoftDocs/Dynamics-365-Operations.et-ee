@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -105,11 +104,11 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 2.  Valige suvand **Ajakirje**. Kuvatakse praeguse nädala kalendrikuupäevad.
 3.  Valige soovitud kuupäeva puhul suvandid **Toimingud** &gt; **Uus kirje**.
 4.  Sisestage registreeritavate tundide arv.
-5.  Valige ajakirje jaoks projekt. Loendis kuvatakse projektid, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Valige ajakirje jaoks projekt. Loendis kuvatakse projektid, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Kui teie projekti pole loendis, valige **Otsi**. Saate otsida nime järgi või lülituda otsingule projekti nime või kliendi järgi.
-7.  Valige kategooria. Loendis kuvatakse kategooriad, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Valige kategooria. Loendis kuvatakse kategooriad, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Kui teie kategooriat pole loendis, valige **Otsi**. Saate otsida kategooria järgi või lülituda kategooria nime järgi otsingule.
-9.  Valige tegevus. Loendis kuvatakse tegevused, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Valige tegevus. Loendis kuvatakse tegevused, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateavet leiate teemast [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Kui teie tegevust pole loendis, valige **Otsi**. Saate otsida tegevuse numbri järgi või lülituda otstarbe järgi otsingule.
 
 11. Valige rea atribuut.
