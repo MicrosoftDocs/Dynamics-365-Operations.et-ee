@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,9 +29,9 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations sisaldab funktsioone [toote saadavuse juhendis](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf) dokumenteeritud riikide/regioonide kohta. Need funktsioonid on lubatud aktiivse juriidilise isiku esmase aadressi põhjal. 
+Microsoft Dynamics 365 for Finance and Operations sisaldab funktsioone [rahvusvahelises toote saadavuse juhendis](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf) dokumenteeritud riikide/regioonide kohta. Need funktsioonid on lubatud aktiivse juriidilise isiku esmase aadressi põhjal. 
 
-See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide kohta rohkem teada saada. 
+See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste lahenduste, värskenduste, teatiste ja funktsioonide kohta rohkem teada saada. 
 
 ## <a name="developing-localized-solutions"></a>Lokaliseeritud lahenduste väljatöötamine
 Järgmised ressursid sisaldavad juhiseid ja teavet, mis on abiks arendajatele ja ISV-dele, kes loovad riigi-/regioonipõhiseid kohandusi või lahendust riigi jaoks, mida Microsoft ei toeta.
@@ -96,9 +96,13 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [CODA pangaväljavõte](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
 -   [Intervati maksudeklaratsioon](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM-i aruande häälestamine](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [Vastavusseviimise aruanded](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>Brasiilia
 
+-   [CIAP põhivara](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [Finantsraamatute konfigureerimine](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [Kannete eksportimine ja importimine pearaamatu konsolideerimise jaoks Brasiilias](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [Finantsraamatud](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [Finantsdokumendi teksti kohatäited](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [Finantsdokumendid](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
@@ -108,10 +112,12 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Elektroonilise makse tagastusprotsessi ajal loodud töölehed](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
 -   [NF-e protsess](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [Parameetrid juriidiliste isikute jaoks](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [Elektroonilise makse rahaülekannete töötlemine Brasiilias](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [Ostu täiendavad finantsdokumendid](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [Viidatud finantsdokumendid](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
 -   [Müüki täiendavad finantsdokumendid](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
 -   [Teenuse elektrooniline finantsdokument](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [NF-e XML-dokumentide ja DANFE häälestamine, importimine ning kinnitamine](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
 -   [Maksuatribuudid](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [Maksu maksmised](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
 -   [Maksud](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
@@ -159,6 +165,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 - [Vahetuskursi korrigeerimine](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [Makseviiside failivormingud](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [Eesti ja Leedu põhivarade likvideerimine](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [ISO20022 failide importimine](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [Varude töölehe aruanded](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [Läti ja Leedu arve ja saatelehe nummerdamine](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -174,6 +181,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 - [SEPA otsekorralduse ülevaade](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [Kliendi ja hankija hüvituse seadistamine](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [Allkirjastajate häälestamine prindivormide jaoks](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Stornoarvestus](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [Maksudirektiivid](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
 - [Aruannetes ja dokumentides summade kuvamise viisi värskendamine](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [KM-i vahetuskursid](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
@@ -246,6 +254,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 
 -   [Põhivara paranduse väljavõte](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [Arve ja saatelehe nummerdamine](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [KM-aruande üksikasjad](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>Mehhiko
 
@@ -296,6 +305,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Põhivara ümberhindamisgrupid](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
 -   [ELi sisene KM](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Ühekordsed kliendid](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [Tšekkide printimine Hispaania paigutusega](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [Hispaania võlatähe valikud](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Müügi- ja ostutsüklid](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Erikanded ja avamislehed](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,6 +323,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 ### <a name="thailand"></a>Tai
 
 -   [Laokaardi aruanded](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [Maksuarve asendamine/korrigeerimine Tais](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [Realiseerimata KM](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [Kinnipeetav maks](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
@@ -322,6 +333,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 
 ### <a name="united-states"></a>USA
 
+-   [Avaliku sektori vorm 1099](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [Vormi I-9 kinnitamine](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [Aastalõpu aruanne 1099](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Palk](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
