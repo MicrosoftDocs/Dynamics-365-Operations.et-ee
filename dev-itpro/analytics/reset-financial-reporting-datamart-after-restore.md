@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Finance and Operationsi andmebaasi taastamist. 
+Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka pärast Microsoft Dynamics 365 for Finance and Operationsi andmebaasi taastamist.
 
-On mitu stsenaariumi, mille korral võib olla vaja Finance and Operationsi andmebaas varukoopiast taastada või kopeerida andmebaas teisest keskkonnast. Kui nii juhtub, siis tuleb teha sobivad toimingud tagamiseks, et finantsaruandluse andmevakk kasutaks taastatud Finance and Operationsi andmebaasi õigesti. Kui teil on küsimusi finantsaruandluse andmevaka lähtestamise kohta muul põhjusel peale Finance and Operationsi andmebaasi taastamise, siis vaadake lisateavet jaotisest [Management Reporteri andmevaka lähtestamine](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Pange tähele, et selle protsessi etappe toetatakse Dynamics 365 for Operationsi 2016. aasta mai väljaandes (rakenduse järgus 7.0.1265.23014 ja finantsaruandluse järgus 7.0.10000.4) ja uuemates väljaannetes. Kui teil on Finance and Operationsi varasem väljaanne, siis pöörduge abi saamiseks meie tugiteenuse töörühma poole.
+Kui taastate oma rakenduse Finance and Operations andmebaasi varukoopia põhjal või kopeerite mõnest muust keskkonnast pärit andmebaasi, peate järgima selles teemas toodud juhiseid tagamaks, et finantsaruandluse andmevakk kasutab taastatud andmebaasi õigesti. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> Selle protsessi etappe toetatakse rakenduse Dynamics 365 for Operations 2016. aasta mai väljaandes (rakenduse järgus 7.0.1265.23014 ja finantsaruandluse järgus 7.0.10000.4) ja uuemates väljaannetes. Kui teil on rakenduse Finance and Operations varasem väljaanne, siis pöörduge abi saamiseks meie tugiteenuse töörühma poole.
 
 ## <a name="export-report-definitions"></a>Aruande definitsioonide eksportimine
 Kõigepealt eksportige aruandekoosturis paiknevad aruandekujundused, tehes järgmist.
 
 1.  Minge aruandekoosturis jaotisse **Ettevõte** &gt; **Koosteüksuste grupid**.
-2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. **Märkus.** Finance and Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
+2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. 
+    > [!Note] 
+    > Finance and Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
 3.  Valige eksportimiseks aruande definitsioonid.
     -   Kõikide aruande definitsioonide ja seotud koosteüksuste eksportimiseks klõpsake suvandit **Vali kõik**.
     -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite eksportimiseks klõpsake vastavat vahekaarti ja valige eksporditavad üksused. Vahekaardil mitme üksuse valimiseks vajutage ja hoidke all klahvi Ctrl. Eksporditavate aruannete valimisel valitakse seotud read, veerud, puud ja dimensioonikogumid.
@@ -63,9 +68,9 @@ Kasutage kaugarvutit ühenduse loomiseks kõigi arvutitega keskkonnas ja peatage
 Nendel teenustel on avatud ühendus Finance and Operationsi andmebaasiga.
 
 ## <a name="reset"></a>Lähtestamine
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Otsige üles uusim pakett DataUpgrade.zip
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>Otsige üles ja laadige alla kõige uusim pakett MinorVersionDataUpgrade.zip
 
-Otsige üles uusim pakett DataUpgrade.zip, kasutades juhiseid jaotises [Skripti DataUpgrade.zip allalaadimine](..\migration-upgrade\upgrade-data-to-latest-update.md). Juhistes selgitatakse, kuidas leida oma keskkonna jaoks õige andmete versioonitäienduse pakett.
+Otsige üles uusim pakett MinorVersionDataUpgrade.zip, kasutades juhiseid jaotises [Uusima andmeuuenduse juurutuspaketi allalaadimine](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). Juhistes selgitatakse, kuidas leida ja alla laadida õige andmetäienduse paketi väljaanne. Paketi MinorVersionDataUpgrade.zip alla laadimiseks ei ole vaja uuendust. Paketi MinorVersionDataUpgrade.zip koopia alla laadimiseks peate täitma ainult teemas „Uusima andmeuuenduse juurutuspaketi allalaadimine“ toodud juhised, ilma ülejäänud spikriartiklis toodud juhiseid täitmata.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>Käivitage skriptid Finance and Operationsi andmebaasi suhtes
 
@@ -105,8 +110,10 @@ Importige aruande kujundused aruandekoosturist, kasutades eksportimise ajal lood
 
 1.  Minge aruandekoosturis jaotisse **Ettevõte** &gt; **Koosteüksuste grupid**.
 2.  Valige eksportimiseks koosteüksuste grupp ja klõpsake nuppu **Ekspordi**. 
+
     > [!NOTE]
     > Finance and Operationsi puhul toetatakse ainult ühte koosteüksuste gruppi: **Vaikeväärtus**.
+    
 3.  Valige koosteüksus **Vaikeväärtus** ja klõpsake nuppu **Impordi**.
 4.  Valige eksporditud aruande definitsioone sisaldav fail ja klõpsake nuppu **Ava**.
 5.  Valige dialoogiboksist Import imporditavad aruande definitsioonid.

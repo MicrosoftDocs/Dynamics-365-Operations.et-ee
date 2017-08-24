@@ -18,27 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611, Retail Version
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 2de5b3d532c599f2273b97dad1db6a027c4dc04a
+ms.translationtype: HT
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: bde08c142e976cd5546703b27af2f9a3ac635d9e
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>Tere tulemast rakendusse Dynamics 365 for Retail
 
-[!include[banner](includes/banner.md)]
-
 Microsoft Dynamics 365 for Retail on täielik jaemüügilahendus, mis pakub ühtlustatud kaubandust kõigi kanalite lõikes. See hõlmab müüke, mobiilsust, teavet ja tööviljakust, mis aitab jaemüüjatel ja töötajatel pilve ja mobiilsuse esikohale asetamise kaudu rohkem saavutada. Rakendus Retail pakub mitmesuguste äriprotsessidega töötamiseks mitmekülgset tuge, nt kaubanduse, varude ja kanalite haldamisvõimalusi. Samuti pakub see kõigi puutepunktide üleselt kõikehõlmavat kliendikogemust.
 
-Järgmised kolm toodet on omavahel tihedalt seotud.
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
-- Microsoft Dynamics 365 for Retail
-- Microsoft Dynamics 365 for Talent
-
-Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on enamasti Retailiga seotud teemades toote nimeks Microsoft Dynamics 365 for Retail. Enamasti Talentiga seotud teemades on toote nimeks Microsoft Dynamics 365 for Talent. Põhitootega (Finance and Operations) seotud teemades on toote nimeks Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Teemad, mis on kirja pandud ühe toote jaoks, võivad rakenduda ka seotud toote samale funktsioonile.
+> [!NOTE] 
+> Rakendus Dynamics 365 for Retail on tihedalt seotud rakendustega Dynamics 365 for Finance and Operations, Enterprise Edition ja Dynamics 365 for Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud jaekaubandusega, toote nimeks microsoft Dynamics 365 for Retail; teemades, mis on peamiselt seotud põhitootega (Finance and Operations) on toote nimeks Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition; teemades, mis on peamiselt seotud inimressurssidega, on tootenimeks Dynamics 365 for Talent. 
 
 Selle kohta lisateabe saamiseks valige vasakul paanil funktsiooniala.
 

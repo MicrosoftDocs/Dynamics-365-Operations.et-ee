@@ -1,9 +1,9 @@
 ---
 title: "Kasutuskogemuse isikupärastamine"
-description: "See artikkel selgitab, kuidas Microsoft Dynamics 365 for Finance and Operationsit isikupärastada."
+description: "Selles artiklid selgitatakse, kuidas rakendust Microsoft Dynamics 365 for Finance and Operations isikupärastada."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel selgitab, kuidas Microsoft Dynamics 365 for Finance and Operationsit isikupärastada.
+Selles artiklid selgitatakse, kuidas rakendust Microsoft Dynamics 365 for Finance and Operations isikupärastada.
 
 Microsoft Dynamics 365 for Finance and Operationsis on mitut tüüpi isikupärastamisi. Mõned isikupärastamised on valikud, mille teete seadistuslehe suvandite loendis. Mõned isikupärastamised on varjatud, näiteks jälgib Finance and Operations ruudustike veergude laiusi, kui neid korrigeerite, ja kiirkaartide laiendatud/ahendatud olekut. Muud isikupärastamised on selgesõnalised. Selgesõnaliste isikupärastamiste puhul sisenete interaktiivsesse isikupärastamise režiimi ja muudate lehe välimust, hallates otse, kuidas elemendid lehel kuvatakse või kuidas need käituvad. 
 
 Igat tüüpi isikupärastamised, mille kasutaja Finance and Operationsis teeb, on ainult sellele kasutajale ega olene ettevõttest, millega kasutaja suhtleb. Kasutaja lehele tehtud muudatused ei mõjuta süsteemi teisi kasutajaid.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Süsteemiülesed suvandid praegusele kasutajale
-Navigeerimisribal leiate hammasrattapildi, mida nimetatakse menüünupuks **Sätted**. Menüü **Sätted** avamisel kuvatakse mitu valikut. Suvandi **Sätted** valimine avab kasutaja lehe **Suvandid**. Sealt leiate neli suvandite vahekaarti: **Visuaalne**, **Eelistused**, **Konto** ja **Töövoog**.
+Navigeerimisribal leiate hammasrattapildi, mida nimetatakse menüünupuks **Sätted**. Menüü **Sätted** avamisel kuvatakse mitu valikut. Suvandi **Sätted** valimine avab kasutaja lehe **Suvandid**. Sealt leiate neli suvandimenüüd. 
 
 -   **Visuaalne:** kasutage värvikujunduse ja lehtede elementide vaikesuuruste valimiseks.
 -   **Eelistused:** siin saate valida vaikeväärtused iga kord, kui avate rakenduse Finance and Operations, sh ettevõtte, esialgse lehe ja vaikevaate/redigeerimisrežiimi (mis määrab igal avamisel, kas leht on vaatamiseks lukus või redigeerimiseks avatud). Samuti leiate keele, ajavööndi ja kuupäeva, kellaaja ning numbrivormingute suvandid. Lisaks sisaldab see leht mitmesuguseid eelistusi, mis erinevat väljaanneti.
@@ -107,15 +107,20 @@ Mõned tööruumid sisaldavad arvpaane (paane, millel on numbrid), mida tahaksit
 Armatuurlaud on tihti esimene leht, mida näete Finance and Operationsi avamisel. Saate armatuurlauda isikupärastada nimetama ümber tööruumi navigeerimispaane, näitama ainult paane, mida näha soovite, paane pmber nimetama või korraldama paane eelistatud järjekorda. Armatuurlaya isikupärastamiseks valige mis tahes paan ja paremklõpsake kontekstimenüü avamiseks. Valige kontekstimenüüs suvand **Isikupärasta**. Kui valitud paan on see, mida soovite peita või ümbe nimetada või vahele jätta, saate teha selle muudatuse otse kuvatavas aknas Atribuut. Kui soovite paane ümber korraldada, siis valige aknas Atribuut suvand **Vormi isikupärastamine**, et avada tööriistariba Isikupärastamine. Seejärel saate kasutada paanide ümberkorraldamiseks tööriista Teisalda.
 
 ## <a name="administration-of-personalization"></a>Isikupärastamise haldamine
-Pärast lehe isikupärastamist võite oma isikupärastamisi teiste kasutajatega jagada. Lihtsalt eksportige isikupärastatud leht. Seejärel võite paluda teistel kasutajatel isikupärastatud lehele minna ja importida teie loodud isikupärastamise fail.
+Pärast lehe isikupärastamist võite oma isikupärastamisi oma isikupärastatud lehe eksportimise teel teiste kasutajatega jagada. Seejärel võite paluda teistel kasutajatel isikupärastatud lehele minna ja importida teie loodud isikupärastamise fail.
 
-Administraatori õigustega kasutaja saab lehel **Isikupärastamine** hallata ka teiste kasutajate isikupärastamisi. Sellel lehel on neli vahekaarti: **Süsteem**, **Kasutajad**, **Impordi** ja **Eemalda**.
+Administraatori õigustega kasutaja saab lehel **Isikupärastamine** hallata ka teiste kasutajate isikupärastamisi. Sellel lehel on neli menüüd. 
 
 - **Süsteem** – saate ajutiselt keelata või välja lülitada kõik süsteemi isikupärastamised. Sel juhul ei kustuta te isikupärastamisi. Selle asemel lähtestate lihtsalt kõik lehed vaikeolekusse. Kui hiljem isikupärastamise uuesti lubate, rakendatakse kõik isikupärastamised igale kasutaja lehele uuesti. Samuti saate kustutada kõikide kasutajate kõik isikupärastamised. Arvestage sellega, et kui kustutate isikupärastamisi, siis puudub võimalus isikupärastamiste automaatseks uuesti lubamiseks süsteemist. Seega veenduge enne seda sammu, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
 - **Kasutajad** – saate määrata, kas iga kasutaja saab teha varjatud või selget isikupärastamist. Samuti saate määrata, kas iga kasutaja saab teha konkreetsel lehel varjatud või selget isikupärastamist. Lõpuks saate importida või eksportida või kustutada iga kasutaja isikupärastamise.
 - **Impordi** – saate importida vähemalt ühe kasutaja isikupärastamise. Seda vahekaarti kasutatakse pärast lehe või tööruumi isikupärastamist ja selle eksportimist isikupärastamise failina. Isikupärastamise faili importimiseks ja selle rakendamiseks vähemalt ühele kasutajale valige kõigi kasutajate loendist eraldi kasutajad või filtreerige konkreetse rolli järgi ja valige selles rollis olevad kasutajad. Kui olete valinud kasutajad, kes teie isikupärastamist kasutavad, klõpsake nuppu **Impordi** ja valige isikupärastamise fail. Isikupärastamine kinnitatakse ja rakendatakse valitud kasutajatele järgmisel korral, kui nad valitud lehe avavad.
 - **Eemalda** – saate kustutada vähemalt ühe kasutaja lehe või tööruumi isikupärastamised. Valige kõigepealt leht või tööruum, mille isikupärastamised tuleks eemaldada. Seejärel valige kõigi kasutajate loendist eraldi kasutajad või filtreerige konkreetse rolli järgi ja valige siis selles rollis olevad kasutajad. Kui olete valinud nii lehe kui ka tööruumi ja kasutajad, klõpsake nuppu **Eemalda**. Kõik isikupärastamised, mille valitud kasutajad on valitud lehele või tööruumile rakendanud, eemaldatakse. Seda tegevust ei saa tagasi võtta. Kuid kui lehel või tööruumil on salvestatud isikupärastamine, saab selle isikupärastamise uuesti importida.
 
+## <a name="personalization-of-inventory-dimensions"></a>Varude dimensioonide isikupärastamine.
 
+Lehel varude dimensioonide häälestuse isikupärastamisel võtke arvesse suvandi **Kuva dimensiooni** abil loodud sätteid. Näiteks kui kasutate isikupärastamist partiinumbri varude dimensiooni veeru peitmiseks ja veerg kuvatakse lehe järgmisel avamisel uuesti, võib põhjuseks olla dimensioonikuva säte, mis määrab selle, milliseid varude dimensiooni veerge kuvatakse. 
 
+Dimensiooni kuvasätted kehtivad kõigile lehtede ja need sätted alistavad eraldi lehtedel isikupärastatud varude dimensiooniväljade sätted. 
+
+Partiinumbri varude dimensiooni näite puhul tuleks see dimensioon eemaldada suvandist **Dimensioonide kuvamine**, et tabelis seda veergu ei kuvataks. See muudatus kehtiks mitte ainult ühe kindla lehekülje, vaid kõikide lehekülgede puhul..
 

@@ -1,9 +1,9 @@
 ---
 title: Eelarve plaanimise mallid Excelile
 description: See teema kirjeldab, kuidas luua Microsoft Exceli malle, mida saab kasutada eelarveplaanidega.
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: et-ee
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ Teema näitab, kuidas luua Exceli malle, mida kasutatakse eelarveplaanidega, kas
 
 Eelarveplaani dokumente saab vaadata ja redigeerida üht või mitut paigutust kasutades. Igal paigutusel võib olla seostatud eelarveplaani dokumendimall, et saaksite eelarveplaani andmeid vaadata ja redigeerida Exceli töölehel. Selles teemas luuakse eelarveplaani dokumendimall olemasolevat paigutuse konfiguratsiooni kasutades. 
 
-Avage **Eelarveplaanide loend** (**Eelarvestus** &gt; **Eelarveplaanid**). Klõpsake uue eelarveplaani dokumendi loomiseks valikut **Uus**. 
+1. Avage **Eelarveplaanide loend** (**Eelarvestus** &gt; **Eelarveplaanid**). 
+2. Klõpsake uue eelarveplaani dokumendi loomiseks valikut **Uus**. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Eelarveplaanide loend](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Ridade lisamiseks kasutage valikut **Lisa** rida. Eelarveplaani dokumendi paigutuse konfiguratsiooni kuvamiseks klõpsake valikut **Paigutused**. 
+3. Ridade lisamiseks kasutage valikut **Lisa** rida. Eelarveplaani dokumendi paigutuse konfiguratsiooni kuvamiseks klõpsake valikut **Paigutused**. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Lisa eelarveplaanid](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Saate paigutuse konfiguratsiooni üle vaadata ja seda vajaduse korral korrigeerida. Selle paigutuse jaoks Exceli faili loomiseks minge jaotisse **Mall** &gt; **Loo**. Kui mall on loodud, minge jaotisse **Mall** &gt; **Kuva**, et eelarveplaani dokumendimall avada ja üle vaadata. Saate Exceli faili salvestada kohalikule kettale. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+Saate paigutuse konfiguratsiooni üle vaadata ja seda vajaduse korral korrigeerida. 
+1. Selle paigutuse jaoks Exceli faili loomiseks minge jaotisse **Mall** &gt; **Loo**. 
+2. Kui mall on loodud, minge jaotisse **Mall** &gt; **Kuva**, et eelarveplaani dokumendimall avada ja üle vaadata. Saate Exceli faili salvestada kohalikule kettale. 
+
+[![Salvesta nimega](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Eelarveplaani dokumendi paigutust ei saa enam redigeerida, kui Exceli mall on sellega seostatud. Paigutuse muutmiseks kustutage seostatud Exceli malli fail ja looge see uuesti. See on vajalik selleks, et hoida paigutuse ja töölehe väljad sünkroonis. 
 
 Exceli mall sisaldab kõiki eelarveplaani dokumendi paigutuse elemente, kui veeru **Saadaval töölehel** sätteks on valitud Tõene. Exceli mallis pole elementide kattumine lubatud. Näiteks kui paigutus sisaldab veerge Taotlus Q1, Taotlus Q2, Taotlus Q3 ja Taotlus Q4 ning taotluste koondveergu, mis kujutab kõigi neljandikveergude summat, saab Exceli mallis kasutada ainult neljandikveerge või koondveergu. Exceli fail ei saa kattuvaid veerge värskendamise ajal värskendada, kuna tabelis olevad andmed muutuvad ajakohatuks ja ebatäpseks.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Näide](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > Exceliga eelarveplaani andmete vaatamisel ja redigeerimisel võimalike probleemide vältimiseks peab sama kasutaja olema sisse loginud nii Microsoft Dynamics 365 for Finance and Operations, Enterprise editionisse kui ka Microsoft Dynamics Office’i lisandmooduli andmekonnektorisse.
@@ -63,7 +68,7 @@ Päiseteabe lisamiseks valige Exceli failis ülemine rida ja sisestage tühjad r
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-Klõpsake vahekaardil **Kujundus**** **välju **Lisa** ja valige üksuse andmeallikaks **BudgetPlanHeader**.
+Klõpsake vahekaardil **Kujundus** välju **Lisa** ja valige üksuse andmeallikaks **BudgetPlanHeader**.
 
 [![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 

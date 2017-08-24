@@ -1,9 +1,9 @@
 ---
 title: "Kreedit ja sissenõuded moodulis Müügireskontro"
 description: "Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni sissenõuete lehte. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid.."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Saate loobuda täielike viivisearvete või tasude ja kandeintresside, mis on osa
 
 Need korrigeerimised mõjutavad ainult viivisearveid ning neis sisalduvat intressi ja tasusid. Kasutage kõigi tasude, mida klient võlgneb, mahakandmiseks jaotise „Mahakandmiskannete loomine ühe etapina” etappe.
 
+Lisateabe saamiseks vt [Vahemikuga viivisekoodi loomine](tasks/create-interest-code-range.md) ja [Protsessiviivis](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Mahakandmiskannete loomine
 Saate maha kanda lootusetuid võlgu, klõpsates vormil Sissenõuded ning loendilehtedel Aegunud saldod, Kliendid ja Avatud kliendiarved suvandit Mahakandmine. 
 
@@ -100,7 +101,10 @@ Kliendi kannete mahakandmisel märgitakse kliendi kõik kanded automaatselt tasa
 -   Kolmandat tüüpi tööleherida sisaldab pearaamatu mahakandmisteavet käibemaksu kohta. See tööleherida luuakse ainult siis, kui lehel Müügireskontro parameetrid on märgitud ruut Eraldi käibemaks. Kui märgitud kanded sisaldavad mitut tasumisele kuuluva käibemaksu konto, dimensiooni ja käibemaksukoodi kombinatsiooni, luuakse iga kombinatsiooni kohta eraldi tööleherida.
 
 Mahakandmiskanne luuakse kandevaluutas.
-Ebapiisavate vahendite (NSF) maksete töötlemine  
+
+Lisateabe saamiseks vt [Kliendi jaoks mahakandmise töölehe loomine](tasks/create-write-off-journal-customer.md)
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Ebapiisavate vahendite (NSF) maksete töötlemine  
 --------------------------------------------
 
 Saate töödelda NSF-makseid, klõpsates lehel Sissenõuded nuppu NSF-makse. Selle nupu klõpsamisel tühistatakse makse. Kui kliendile kehtib NSF-tasu, luuakse maksetöölehel tasukanne. Tasu summa põhineb automaatsete tasude seadistusel. Automaatsed tasud, mida kohaldatakse NSF-maksetele, on määratud tasude grupis, mis on valitud seotud pangakonto lehel Pangakontod.

@@ -3,7 +3,7 @@ title: "Töövoos käsitsi ülesande konfigureerimine"
 description: "See teema selgitab, kuidas konfigureerida käsitsi ülesande atribuute."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Kui kasutaja ei vii käsitsi ülesannet määratud aja jooksul lõpule, on üles
 
 1.  Vasakul paanil klõpsake valikut **Laiendus**.
 2.  Laiendustee loomiseks märkige ruut **Laiendustee kasutamine**. Süsteem määrab ülesande automaatselt laiendamistee nimekirjas olevatele kasutajatele. Näiteks tähistab järgmine tabel laiendusteed.
+
     | Seeria | Laiendustee      |
     |----------|----------------------|
     | 1        | Määra isikule: Donna     |
@@ -318,7 +319,9 @@ Võite saata inimestele teatisi käsitsi ülesande delegeerimisel, eskaleerimise
 8.  Korrake 3.–7. toimingut iga sündmuse puhul, mille 2. etapis valisite.
 
 ## <a name="set-a-time-limit"></a>Ajalimiidi seadmine
-Kui käsitsi ülesanne tuleb teatud ajaks lõpule viia, tehke järgmist. **Märkus.** Selle protseduuri käigus valitud suvandid alistavad lehe jaotistes **Määramine** ja **Eskaleerimine** valitud suvandid.
+Kui käsitsi ülesanne tuleb teatud ajaks lõpule viia, tehke järgmist. 
+
+**Märkus.** Selle protseduuri käigus valitud suvandid alistavad lehe jaotistes **Määramine** ja **Eskaleerimine** valitud suvandid.
 
 1.  Klõpsake vasakpoolsel paanil suvandit **Täpsemad sätted**.
 2.  Märkige ruut **Määra töövoo elemendi jaoks ajalimiit**.

@@ -3,7 +3,7 @@ title: ISO20022 failide importimine
 description: See teema selgitab ISO 20022 camt.054- ja pain.002-vormingus maksefailide importimist rakendusse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 author: neserovleo
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
-ms.search.validFrom: 2017-06-01T00:00:00.000Z
+ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: Enterprise edition, July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 48e280bf0a6c5db237bd389fe448c9d698d3ae12
-ms.openlocfilehash: acf6ed5f503d77f372d802a51a71cec062c2b24b
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
@@ -105,4 +105,29 @@ Kui impordite camt.054-faili, peate määrama järgmised lisaparameetrid.
 - **Kannete tasakaalustamine** – seadke selle suvandi sätteks **Jah**, kui imporditud hankijamaksed tuleb süsteemis leitud arvetega tasakaalustada.
 
 Saate vaadata imporditud teavet lehel **Makseülekanded**. 
+
+## <a name="additional-details"></a>Täiendavad üksikasjad
+
+LCS-ist vormingu konfiguratsiooni importimisel impordite kogu konfiguratsioonipuu, seega kaasatakse mudel ja mudeli vastendamise konfiguratsioonid. Alates 8. versioonist asuvad maksemudeli vastendamised lahenduspuu eraldiseisvates ER-konfiguratsioonides (makse mudeli vastendamine 1611, makse mudeli vastendamine sihtkohta ISO20022 jne). Ühe mudeli (maksemudeli) all on palju erinevaid maksevorminguid, mistõttu on mugava halduse huvides parim eraldi vastendamine. Näiteks saab kasutada ISO20022 makseid krediidiülekannete failide loomiseks ja seejärel pangast tagastusteadete importimiseks. Sel juhul peaks kasutama järgmiseid konfiguratsioone.
+
+ - **Maksemudel**
+ - **Makse mudeli vastendamine 1611** – vastendust kasutatakse eksportfaili loomiseks
+ - **Makse mudeli vastendamine sihtkohta ISO20022** – konfiguratsioonis kasutatakse andmete importimiseks kõiki vastendusi ("sihtkohta" vastendamise suund)
+ - **ISO20022 krediidiülekanne** – see konfiguratsioon sisaldab vormingu osa, mis vastutab makse mudeli vastendamise 1611 põhjal ekspordifaili loomise (pain.001)eest, ja mudeli vastendamise komponendi vormingut, mida kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et registreerida eksporditud maksed süsteemi edasise impordi eesmärgil (impordi CustVendProcessedPayments tehnilisse tabelisse).
+ - **ISO20022 krediidiülekanne (CE)**, kus CE tähistab riigi laiend – ISO20022 krediidiülekandest tuletatud sama struktuuri ja teatud riigikohaste erinevustega vorming
+ - **Pain.002** – seda vormingut kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et importida pain.002-fail hankija makseülekannete töölehele
+ - **Camt.054** – seda vormingut kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et importida camt.054-fail hankija makseülekannete töölehele Sama vormingukonfiguratsiooni kasutatakse kliendimaksete impordi funktsiooni puhul, kuid konfiguratsiooni Maksemudeli vastendamine sihtkohta ISO20022 puhul kasutatakse teistsugust vastendamist.
+
+Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonilise aruandluse ülevaade](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+
+## <a name="additional-resources"></a>Lisaressursid
+- [Hankijamaksete loomine ja eksportimine ISO20022 maksevormingu abil](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
+- [ISO20022 kreeditiülekande konfiguratsiooni importimine](./tasks/import-iso20022-credit-transfer-configuration.md)
+- [ISO20022 otsekorralduse konfiguratsiooni importimine](./tasks/import-iso20022-direct-debit-configuration.md)
+- [Ettevõtte pangakontode seadistamine ISO20022 kreeditkorralduste jaoks](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+- [Ettevõtte pangakontode seadistamine ISO20022 otsekorralduste jaoks](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+- [Klientide ja kliendi pangakontode seadistamine ISO20022 otsekorralduste jaoks](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+- [Makseviisi seadistamine ISO20022 kreeditkorralduse jaoks](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
+- [Makseviisi seadistamine ISO20022 otsekorralduse jaoks](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Hankijate ja hankija pangakontode seadistamine ISO20022 kreeditkorralduste jaoks](./tasks/set-up-vendor-iso20022-credit-transfers.md)
 

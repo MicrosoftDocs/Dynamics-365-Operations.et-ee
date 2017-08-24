@@ -1,9 +1,9 @@
 ---
-title: Saadaolev Power BI sisu
+title: Power BI sisu
 description: Selles teemas loetletakse saadaolev Power BI sisu ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>Saadaolev Power BI sisu
+# <a name="power-bi-content"></a>Power BI sisu
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ Selles teemas loetletakse saadaolev Microsoft Power BI sisu ja osutatakse ressur
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Power BI sisu rakendusele Dynamics 365 for Finance and Operations, Enterprise Editioni 2017. aasta juuli värskendus
 Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendust, siis on saadaval järgmine Power BI sisu.
 
+- [Power BI sisu Tegelik võrreldes eelarvega](ledger-budgets-power-bi.md)
 - [Soodustuste Power BI sisu](benefits-power-bi.md)
 - [Kassa ülevaate Power BI sisu](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [CFO ülevaate Power BI sisu](CFO-power-bi.md)

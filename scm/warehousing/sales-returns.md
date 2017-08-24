@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ Kliendid saavad tagastada kaupu erinevatel põhjustel. Näiteks võib kaup olla 
 ## <a name="return-order-process"></a>Tagastustellimuse protsess
 Järgmine näide annab ülevaate tagastustellimuse protsessist.  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Tagastustellimuse protsess](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 On kaks tagastustellimuse protsessi tüüpi: füüsiline tagastus ja ainult kreedit.
 
@@ -213,7 +213,7 @@ Tooteasenduse haldamiseks on kaks meetodit.
 
 Esimeses asenduses saab asenduskauba kliendile toimetada enne kauba tagastamist. See meetod on kasulik ka siis, kui kaup on masinaosa, mida ei saa eemaldada, välja arvatud juhul, kui selle asemele on võtta varuosa või kui soovite, et teie kliendil oleks asendustoode võimalikult kiiresti olemas. Esimene asendustellimus on sõltumatu müügitellimus. Päiseteave käivitatakse kliendi ja reateave tagastustellimuse kaudu. Asendustellimust saate redigeerida, töödelda ja kustutada tagastustellimusest sõltumatult. Asendustellimuse kustutamisel saate sõnumi, et tellimus loodi asendustellimusena. Järgmine illustratsioon näitab asendustellimuse protsessi.  
 
-[![Esimene asendusprotsess](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Esimene asendusprotsess](./media/SalesReturn04.png)
 
 Asendustellimus hõlmab viidet asendustellimusele. Kui esimene asendustellimus luuakse tagastustellimusele enne defektse kauba tagastamist, ei saa te pärast defektse kauba tagastamist asenduse jaoks likvideerimiskoode valida.
 
@@ -221,7 +221,7 @@ Asendustellimus hõlmab viidet asendustellimusele. Kui esimene asendustellimus l
 
 Kui tarnite kliendile asenduskauba ja kasutate tagastustellimusel olevat likvideerimistegevust **Asenda ja kanna praaki** või **Asenda ja kanna kreeditisse**, kasutage järgmisel illustratsioonil näidatud protsessi.  
 
-[![Asendusprotsess likvideerimisprotsessi kasutamisel](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Asendusprotsess likvideerimisprotsessi kasutamisel](./media/SalesReturn05.png)
 
 Asenduskaup tarnitakse, kasutades sõltumatut müügitellimust ehk asendusmüügitellimust. See müügitellimus luuakse tagastustellimuse jaoks saatelehe loomisel. Tellimusepäis kasutab kliendilt teavet, millele viidatakse tagastustellimuse päises. Reateavet kogutakse teabest, mis sisestatakse lehel **Asenduskaup**. Leht **Asenduskaup** peab olema täidetud ridadele, millel on sõnaga „asendama” algavad likvideerimistegevused. Siiski pole asenduskauba kogus ega identiteet kinnitatud ega piiratud. See käitumine võimaldab juhtumeid, kus klient soovib sama kaupa, kuid erineva konfiguratsiooni või suurusega, aga ka juhtumeid, kus kliendid soovivad täiesti erinevat kaupa. Vaikimisi sisestatakse lehele **Asenduskaup** identne kaup. Siiski saate valida teise kauba, tingimusel, et funktsioon on seadistatud. **Märkus.** Saate redigeerida ja kustutada asendusmüügitellimuse pärast selle loomist.
 
@@ -254,7 +254,7 @@ Tagastustellimused saab teie organisatsioonisiseselt kahe ettevõtte vahel lõpu
 
 Järgmine näide illustreerib minimaalset seadistust, mis on vajalik kahe ettevõtte jaoks kontsernisiseses suhtes osalemiseks ja kontserni kaubavahetuse eeliste kasutamiseks.  
 
-[![Minimaalne seadistus](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Minimaalne seadistus](./media/SalesReturn06.png)
 
 Järgmises stsenaariumis on CompBuy ostu- ja CompSell müügiettevõte. Tavaliselt tarnib ettevõtte kaubad ostuettevõttesse või otsetarne saadetise stsenaariumites otse lõppkliendile. CompBuys on hankija IC\_CompSell määratletud kontsernisisese lõpp-punktina, mis on seotud ettevõttega CompSell. Samaaegselt on CompSellis klient IC\_CompBuy määratletud kontsernisisese lõpp-punktina, mis on seotud ettevõttega CompBuy. Mõlemas ettevõttes peavad olema määratletud sobivad tegevuspoliitika üksikasjad ja väärtuste vastendused. Otsetarne saadetise stsenaariumis luuakse müügiettevõttes kontsernisisene tagastustellimus, mis on ka kontsernisisene müügitellimus. Kontsernisisese tagastustellimuse tagastuse numbri saab CompSellis valida tagastuse numbriseeriast või selle saab kopeerida tagastuse numbrilt, mis on CompBuys algsele tagastustellimusele määratud. Neid tegevusi määrab tegevuspoliitikas **PurchaseRequisition** olevad tagastuse numbri sätted. Tagastuse numbri sünkroonimisel peate tegema plaani numbri kokkupõrgete ohu vähendamiseks olukorras, kus kaks ettevõtet kasutavad sama numbrijada.
 
@@ -262,7 +262,7 @@ Järgmises stsenaariumis on CompBuy ostu- ja CompSell müügiettevõte. Tavalise
 
 See stsenaarium hõlmab samas organisatsioonis kaht ettevõtet, nagu on näidatud järgmises näites.  
 
-[![Lihtne kontsernisisene tagastus](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Lihtne kontsernisisene tagastus](./media/SalesReturn07.png)
 
 Tellimusahela saab luua, kui ostuettevõttes luuakse hankija tagastustellimus või müügiettevõttes luuakse kliendi tagastustellimus. Finance and Operations loob teises ettevõttes vastava tellimuse ja tagab, et hankija tagastustellimuse päise ja rea teave kajastaks kliendi tagastusreal olevaid sätteid. Loodav tagastustellimus võib olemasolevale kliendiarvele viidet lisada või seda välistada (**Otsi müügitellimust**). Kahe tellimuse saatelehti ja arveid saab individuaalselt töödelda. Näiteks ei pea te looma saatelehte hankija tagastustellimuse jaoks enne kliendi tagastustellimuse jaoks saatelehe loomist.
 
@@ -270,7 +270,7 @@ Tellimusahela saab luua, kui ostuettevõttes luuakse hankija tagastustellimus v�
 
 Selle stsenaariumi saab luua, kui tüübi **Otsetarne** varasem müük on lõpule viidud ja kui ettevõttes, kes suhtleb kliendiga, eksisteerib kliendi suhtes arve. Järgmisel illustratsioonil on ettevõtte CompBuy tooted varasemalt kliendile Väline müünud ja arveldenud. Tooted lähetati kliendile otse ettevõttest CompSell kontsernisisese tellimusahela kaudu.  
 
-[![Otsetarne saadetise tagastused kolme osapoole vahel](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Otsetarne saadetise tagastused kolme osapoole vahel](./media/SalesReturn08.png)
 
 Kui klient Väline soovib tooteid tagastada, luuakse kliendi jaoks ettevõttes CompBuy tagastustellimus (RMA02). Kontsernisisese keti loomiseks peab tagastustellimus olema märgitud otsetarne jaoks. Funktsiooni **Otsi müügitellimust** kasutamisel tagastusele kliendiarve valimiseks luuakse kontsernisisene tellimusahel, mis koosneb järgmistest dokumentidest.
 
@@ -292,7 +292,7 @@ Järgnevates näidetes tähistatakse tagastamise omahind kui **Lao omahind**.
 
 Tagastustellimus ei viita kliendiarvele. Tagastatud kaup krediteeritakse. Parameetrit **Kreediti parandus** ei valita tagastustellimuse arve või kreeditarve loomisel.  
 
-[![Tagastustellimus ei viita kliendiarvele](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![Tagastustellimus ei viita kliendiarvele](./media/SalesReturn09.png)  
 
 **Märkus.** Kauba põhihinda kasutatakse parameetri **Tagastamise omahind** vaikeväärtusena. Vaikehind erineb lao väljamineku ajal omahinnast. Seetõttu on mõju see, et 3 kadu on kuludesse kantud. Täiendavalt ei hõlma tagastustellimus allahindlust, mis anti kliendile müügitellimusel. Seetõttu esineb üleliigset krediiti.
 
@@ -300,7 +300,7 @@ Tagastustellimus ei viita kliendiarvele. Tagastatud kaup krediteeritakse. Parame
 
 Näide 2 on sama mis näide 1, kuid parameeter **Kreediti parandus** valitakse tagastustellimuse arve loomisel.  
 
-[![Tagastustellimus krediiditäpsustuse valimisel ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![Tagastustellimus krediiditäpsustuse valimisel ](./media/SalesReturn10.png)  
 
 **Märkus.** Pearaamatu sisestused sisestatakse negatiivsete parandustena.
 
@@ -308,7 +308,7 @@ Näide 2 on sama mis näide 1, kuid parameeter **Kreediti parandus** valitakse t
 
 Selles näites kasutatakse tagastustellimuse rea loomiseks funktsiooni **Otsi müügitellimust**. Parameetrit **Kreediti parandus** ei valita arve loomisel.  
 
-[![Tagastustellimuse rida, mis luuakse funktsiooni Otsi müügitellimust kasutades ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![Tagastustellimuse rida, mis luuakse funktsiooni Otsi müügitellimust kasutades ](./media/SalesReturn11.png)  
 
 **Märkus.** **Allahindlus** ja **Tagastamise omahind** on korrektselt seatud. Seetõttu toimub kliendiarve täpne tühistamine.
 

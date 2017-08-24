@@ -3,7 +3,7 @@ title: "Käibemaksu ülevaade"
 description: "Selles artiklis antakse ülevaade käibemaksu süsteemist. Selgitatakse käibemaksu seadistamise elemente ja kuidas need koos töötavad."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ Järgmisel diagrammil on näidatud maksuseadistuse üksused ja nendevahelised se
 
 Iga käibemaksu puhul, mille kohta ettevõte peab aru andma, tuleb määratleda käibemaksukood. Käibemaksukood talletab maksumäärad ja käibemaksu arvutamise reeglid. 
 
-Iga käibemaksukood peab olema seotud käibemaksu tasakaalustusperioodiga. Käibemaksu tasakaalustusperioodid määratlevad intervallid, mille tagant käibemaksuaruandeid tuleb koostada ja käibemaksuasutusele tasuda. Iga käibemaksu tasakaalustusperiood tuleb määrata käibemaksuasutusele. Käibemaksuasutus kajastab üksust, millele käibearuandeid esitatakse ja käibemaksu tasutakse. See määratleb ka käibemaksuaruande ülesehituse. Käibemaksuasutused võivad olla seotud hankija kontodega. 
+Iga käibemaksukood peab olema seotud käibemaksu tasakaalustusperioodiga. Käibemaksu tasakaalustusperioodid määratlevad intervallid, mille tagant käibemaksuaruandeid tuleb koostada ja käibemaksuasutusele tasuda. Iga käibemaksu tasakaalustusperiood tuleb määrata käibemaksuasutusele. Käibemaksuasutus kajastab üksust, millele käibearuandeid esitatakse ja käibemaksu tasutakse. See määratleb ka käibemaksuaruande ülesehituse. Käibemaksuasutused võivad olla seotud hankija kontodega. Lisateavet käibemaksu seadistamise kohta leiate teemast [Käibemaksu tasakaalustusperioodi määramine](tasks/set-up-sales-tax-settlement-periods.md).
 
 Iga käibemaksukood peab olema seotud ka pearaamatu sisestusgrupiga. Pearaamatu sisestusgrupp määrab põhikontod, millele käibemaksukoodide summad sisestatakse. 
 
@@ -60,13 +59,13 @@ Järgmises tabelis kirjeldatakse üksusi ja maksu seadistusprotsessi.
 | Tegevuste seadistamine                                                  | Kohustuslik/valikuline tegevus ja kirjeldus                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Põhikontode loomine.                                           | Nõutav. Ettevõtte maksude tasumiseks ja registreerimiseks kasutatavad põhikontod peavad olema loodud enne käibemaksufunktsiooni seadistamist.                                                                                                                                                                             |
-| Seadistage käibemaksule pearaamatu sisestusgrupid.                     | Nõutav. Pearaamatu sisestamisgrupid määratlevad käibemaksu kajastamise ja tasumise põhikontod.                                                                                                                                                                                                                            |
-| Seadistage käibemaksuhaldurid.                                   | Nõutav. Käibemaksuasutused on asutused, millele tuleb maksuaruandeid esitada ja makse tasuda.                                                                                                                                                                                                                                   |
+| Seadistage käibemaksule pearaamatu sisestusgrupid.                     | Nõutav. Pearaamatu sisestamisgrupid määratlevad käibemaksu kajastamise ja tasumise põhikontod.   Lisateavet leiate teemast [Käibemaksu jaoks pearaamatu sisestusgruppide seadistamine](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Seadistage käibemaksuhaldurid.                                   | Nõutav. Käibemaksuasutused on asutused, millele tuleb maksuaruandeid esitada ja makse tasuda.    Lisateavet leiate teemast [Käibemaksuasutuste määramine](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Saate seadistada käibemaksu tasakaalustusperioode.                            | Nõutav. Käibemaksu tasakaalustusperioodid sisaldavad teavet selle kohra, millal ja kui sageli käibemaksu aruandeid tuleb esitada ja käibemaksu tasuda. Need on seotud käibemaksuasutusega.                                                                                                                                                       |
-| Käibemaksuaruandluse koodide seadistamine.                               | Valikuline. Käibemaksuaruandluse koodid saab määrata käibemaksukoodidele mitme käibemaksukoodi summade kohta aruande koostamiseks ühe käibemaksuaruandluse koodi alusel.                                                                                                                                                                 |
-| Saate seadistada käibemaksukoode.                                         | Nõutav. Käibemaksukoodid sisaldavad iga käibemaksu määrasid ja arvutusreegleid. Käibemaksukoodid on seotud käibemaksu tasakaalustusperioodi ja pearaamatu sisestusgrupiga.                                                                                                                                        |
+| Käibemaksuaruandluse koodide seadistamine.                               | Valikuline. Käibemaksuaruandluse koodid saab määrata käibemaksukoodidele mitme käibemaksukoodi summade kohta aruande koostamiseks ühe käibemaksuaruandluse koodi alusel. Lisateavet leiate teemast [Käibemaksuaruandluse koodide määramine](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Saate seadistada käibemaksukoode.                                         | Nõutav. Käibemaksukoodid sisaldavad iga käibemaksu määrasid ja arvutusreegleid. Käibemaksukoodid on seotud käibemaksu tasakaalustusperioodi ja pearaamatu sisestusgrupiga. Lisateavet leiate teemast [Käibemaksukoodide määramine](tasks/set-up-sales-tax-codes.md).                                |
 | Käibemaksugruppide seadistamine.                                        | Nõutav. Käibemaksugrupid sisaldavad kande osapoolele (kliendile või hankijale) kehtivate käibemaksukoodide loendit. Antud kande puhul määrab käibemaksugruppi kuuluvate käibemaksukoodide ja kauba käibemaksugrupi ühisosa kande puhul kehtivad käibemaksukoodid.                  |
-| Saate seadistada kauba käibemaksugruppe.                                   | Nõutav. Kauba käibemaksugrupid sisaldavad kande ressursile (tootele, teenusele jne) kehtivate käibemaksukoodide loendit. Antud kande puhul määrab käibemaksugruppi kuuluvate käibemaksukoodide ja kauba käibemaksugrupi ühisosa kande puhul kehtivad käibemaksukoodid. |
+| Saate seadistada kauba käibemaksugruppe.                                   | Nõutav. Kauba käibemaksugrupid sisaldavad kande ressursile (tootele, teenusele jne) kehtivate käibemaksukoodide loendit. Antud kande puhul määrab käibemaksugruppi kuuluvate käibemaksukoodide ja kauba käibemaksugrupi ühisosa kande puhul kehtivad käibemaksukoodid. Lisateavet leiate teemast [Käibemaksugruppide ja kauba käibemaksugruppide häälestamine](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Saate seadistada käibemaksuparameetrid rakenduse parameetri lehtedel. | Nõutav. Valdkondades nagu pearaamat, müügireskontro ja ostureskontro tuleb seadistada kaudsete maksude õige arvutamise parameetrid. Kuigi enamikul neist parameetritest on vaikeväärtused, tuleb neid iga ettevõtte vajaduste kohaselt muuta.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Käibemaks kannetelt
@@ -98,5 +97,5 @@ Tasakaalustate käibemaksud iga kuu. 15. juunil koostate kliendiarve summas 10 0
 Kuid kui kasutate tingimuslikku käibemaksu, siis tasakaalustatakse summa maksuhalduriga siis, kui 30. juulil kliendilt makse saate.
 
 
-
+Lisateavet leiate teemast [Kinnipeetava maksu määramine](tasks/set-up-withholding-tax.md).
 

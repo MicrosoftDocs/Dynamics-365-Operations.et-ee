@@ -1,9 +1,9 @@
 ---
 title: "Krediidi ja võlanõuete seadistamine"
 description: "See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada.
 Aegumisperioodide definitsiooni seadistamine. Aegumisperioodi definitsioon määratleb veerud, mis kuvatakse loendilehtedel **Aegunud saldod**, **Sissenõuete tegevused** ja **Sissenõuete juhtumid**. Samuti määratleb see perioodid, mis kuvatakse lehel **Sissenõuded**. Kui kliendikaust on seadistatud, kasutatakse kausta aegumisperioodi definitsiooni. Kui kaustu ei ole seadistatud, kasutatakse vaikimisi aegumisperioodi määratlust, mis on määratud lehel **Müügireskontro parameetrid**. Kui ühtegi vaikimisi aegumisperioodi definitsiooni ei ole määratud, kasutatakse esimest aegumisperioodi määratlust lehel **Aegumisperioodi määratlused**.
 
 ## <a name="create-an-aging-snapshot"></a>Aegumise hetktõmmise loomine
-Looge aegumise hetktõmmise kirjed kõigile klientidele või kliendikausta klientidele. Aegumise hetktõmmise teave kuvatakse loendilehel**Aegunud saldod** ja lehel **Sissenõuded**. Enne kui saate loendilehte kasutada, peate looma aegumise hetktõmmise. Loendilehel kuvatakse teavet vaid püsiklientidele, kelle jaoks on aegumise hetktõmmis loodud.
+Looge aegumise hetktõmmise kirjed kõigile klientidele või kliendikausta klientidele. Aegumise hetktõmmise teave kuvatakse loendilehel **Aegunud saldod** ja lehel **Sissenõuded**. Enne kui saate loendilehte kasutada, peate looma aegumise hetktõmmise. Loendilehel kuvatakse teavet vaid püsiklientidele, kelle jaoks on aegumise hetktõmmis loodud.
 
 ## <a name="optional-set-up-customer-pools"></a>Valikuline: saate häälestada kliendikaustu
 Saate seadistada kliendikaustad kliendigruppide esindamiseks. Saate kasutada kliendikaustu loendilehtedel **Sissenõuded** lehel **Sissenõuded** kuvatava klienditeabe filtritena või aegumise hetktõmmiste loomisel.
@@ -94,5 +94,12 @@ Seadistage müügitöötajate meiliaadressid, kui soovite saata meile müügitö
 Kui müügiesindaja on määramata, kasutatakse kliendi organisatsiooni peamist müügiesindajat. Kui peamist müügiesindajat pole määratud, saadetakse meilisõnumid esimesele lehel nimetatud müügiesindajale.
 
 
+Lisateavet vt järgmistest teemadest:
+
+ - [Märgukirjaseeria loomine](tasks/create-collection-letter-sequence.md)
+ 
+ - [Märgukirjade töötlemine](tasks/process-collection-letters.md)
+ 
+ - [Sissenõuete teabe ülevaatamine](tasks/review-collections-information.md)
 
 
