@@ -1,7 +1,7 @@
 ---
 title: "Töölehe kirjete ja kannete kuvamine"
 description: "Selles artiklis selgitatakse erinevaid viise, kuidas vaadata töölehe kandeid ja kandeid."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

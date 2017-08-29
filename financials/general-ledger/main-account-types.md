@@ -1,7 +1,7 @@
 ---
 title: "Põhikonto tüübid"
 description: "Põhikonto tüübid määratlevad selle, kuidas põhikontot kontoplaanis kasutatakse."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

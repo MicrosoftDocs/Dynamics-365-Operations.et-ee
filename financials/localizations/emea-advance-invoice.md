@@ -1,7 +1,7 @@
 ---
 title: Ettemaksuarved Ida-Euroopa puhul
 description: "Ettemaksuarve on dokument, mille saate luua kliendile või hankijale. Sellel märgitakse summa, mis tuleb müügitellimuse puhul ette maksta. See teema annab teavet ettemaksuarvete kohta Ida-Euroopa puhul."
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -21,7 +21,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 948124526f5718d783b1ecd80462701610734f82
 ms.contentlocale: et-ee
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

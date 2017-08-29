@@ -1,7 +1,7 @@
 ---
 title: Tootmistulemuste Power BI sisu
 description: "See teema kirjeldab, mida hõlmab tootmistulemuste Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

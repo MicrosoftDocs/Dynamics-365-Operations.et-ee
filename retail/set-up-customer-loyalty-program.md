@@ -1,7 +1,7 @@
 ---
 title: "Püsikliendiprogrammi seadistamine"
 description: "Selles artiklis kirjeldatakse, kuidas seadistada püsikliendiprogrammi. Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie jaekauplustest toodete ostmise eest. Rakenduses Microsoft Dynamics 365 for Retailis saate seadistada lihtsad või keerulised püsikliendiprogrammid, mis rakenduvad teie juriidilistele üksustele mis tahes jaemüügikanalis."
-author: josaw1
+author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: et-ee
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

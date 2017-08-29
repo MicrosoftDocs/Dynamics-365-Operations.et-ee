@@ -14,7 +14,7 @@ ms.search.scope: Operations
 ms.search.region: Estonia
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
 ms.openlocfilehash: ed280cebdd568c3ff60b1537b8902b23c4c14743
