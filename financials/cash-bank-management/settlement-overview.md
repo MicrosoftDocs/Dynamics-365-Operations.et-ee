@@ -1,7 +1,7 @@
 ---
 title: "Tasakaalustuse ülevaade"
 description: "Selles artiklis antakse üldist teavet tasakaalustamisprotsessi kohta. See kirjeldab kannete tüüpe, mida saab tasakaalustada, seda, millal ja kuidas kandeid saab tasakaalustada, ja tasakaalustusprotsessi tulemusi."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: et-ee
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Vahetuse ja sularahasahtli haldamine
 description: "Selles artiklis selgitatakse, kuidas seadistada ja kasutada kahte tüüpi jaemüügikassa vahetust – ühist ja eraldiseisvat. Ühiseid vahetusi saab kasutada mitu kasutajat mitmes kohas, samas kui eraldi vahetusi saab kasutada korraga ainult üks töötaja."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: et-ee
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

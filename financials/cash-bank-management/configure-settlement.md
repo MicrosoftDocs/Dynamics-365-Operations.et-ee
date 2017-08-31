@@ -1,7 +1,7 @@
 ---
 title: Tasakaalustuse konfigureerimine
 description: "Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles artiklis kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: et-ee
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

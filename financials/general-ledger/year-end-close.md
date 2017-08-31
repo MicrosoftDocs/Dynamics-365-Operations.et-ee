@@ -1,7 +1,7 @@
 ---
 title: "Aastalõpu sulgemine"
 description: "See teema kirjeldab nõutavat seadistust ja juhiseid pearaamatu aastalõpu sulgemise protsessi käivitamiseks."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

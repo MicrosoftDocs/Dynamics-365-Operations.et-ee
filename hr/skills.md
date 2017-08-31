@@ -1,7 +1,7 @@
 ---
 title: "Tööjõu oskuste joondamine ärivajadustele"
 description: "Saate jälgida oskusi, mis võivad töötajatel, kandidaatidel või kontaktisikutel olla, et oma rolli tõhusalt täita. Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks."
-author: rschloma
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: ae940cdbab2166d8fe3f2f396c84ed4a09c2ca7e
 ms.contentlocale: et-ee
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Kontoplaani kavandamine
 description: Selles artiklis antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

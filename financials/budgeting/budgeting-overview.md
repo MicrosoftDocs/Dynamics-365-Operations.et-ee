@@ -3,7 +3,7 @@ title: "Eelarvestamise kodulehekülg"
 description: "Teema annab ülevaate eelarvestamise funktsionaalsuse komponentidest, eelarvestamise tööriistadest ja aruandluse võimalustest rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/09/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 5c18de5a3e8af32564771b6a30c0ec6876e399a6
+ms.translationtype: HT
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: e59c29370353a6e4a67d2b892e2024ca78d560fc
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -36,7 +36,12 @@ Teema annab ülevaate eelarvestamise funktsionaalsuse komponentidest, eelarvesta
 -------------------------------------
 
 Ettevõtte ressursi planeerimistsükkel koosneb tavaliselt plaanimisest, eelarvestamisest ja tegevuste prognoosimisest.
-[![Eelarve koostamise funktsiooni komponendid](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg) Nii pikaajaliste strateegilise plaanimise kui ka aastaeelarve plaanimise protsessi toetatakse eelarve plaanimise dokumendi kaudu. Eelarveplaani dokumendid on tugevasti Microsoft Exceliga integreeritud. Kasutajad saavad konfigureerida piiramatu arvu valuuta- ja kvantitatiivseid stsenaariume ning määratleda eelarvestamise organisatsiooni hierarhia nii ülalt-alla kui ka alt-üles eelarvestamise meetodite toetamiseks. Pärast seda, kui eelarve on rakenduses Finance and Operations loodud ja kinnitatud, teisendatakse eelarveplaan eelarveregistri kirjeks. Eelarveregistri kirjed pakuvad vahendeid eelarve haldamiseks ja summade jälgitavana hoidmiseks eelarvekoodide kaudu. Eelarve registrikirjed võimaldavad parandada algseid eelarveid, teha ülekandeid ja eelmise aasta eelarvesummasid edasi kanda. Kehtestatud eelarve põhjal saab ettevõte lubada eelarve juhtimise. Kontrolli tase oleneb organisatsiooni kultuurist ja küpsusastmest. Madala küpsusastmega organisatsioonid võivad jätta eelarve muutmata ja olla rohkem reaktiivsed kui proaktiivsed, kui eelarve ootustele ei vasta. Teised organisatsioonid võivad lubada eelarve juhtimise poliitikaid, mis takistavad kasutajatel ostmist, kui eelarvesummasid pole. Lõpetuseks võivad väga küpsed organisatsioonid kehtestada organisatsiooni kultuuri, kus töötajaid koolitatakse organisatsiooni eesmärkide teemal, ja nad järgivad neid eesmärke poliitikate kaudu, nagu „Kaaluge reisimise asemel veebikoosolekut”. Finance and Operations sisaldab eelarve juhtimise raamistikku, mis võimaldab ettevõtte juhtkonnal valida ranged juhtimismeetodid (mis takistavad sisestamisi, mis ületataks eelarvet) või leebed juhtimismeetodid (kus kasutajatele edastatakse hoiatus, et nad ületavad olemasolevaid eelarvevahendeid, kuid nad saavad ise otsustada, kuidas jätkata). Lõpuks saab kasutada jooksvaid prognoose. Jooksev prognoos on eelarve regulaarne võrdlemine tegelike näitajatega ja seda kasutatakse määratlemiseks, kui hästi ettevõttel eelarvega võrreldes läheb. Jooksvat prognoosi kasutatakse ka suundumuste tuvastamiseks. Rakenduses Finance and Operations toetatakse jooksvaid prognoose eelarveplaani dokumendi kaudu algse plaanimise tegevustena. Jooksvaid prognoose saab teha paralleelselt tulevase eelarvetsükli plaanimisega.
+
+[![Eelarve koostamise funktsiooni komponendid](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+
+Pikaajalist strateegilist plaanimist ja aastase eelarve plaanimist toetatakse eelarveplaani dokumendi kaudu. Eelarveplaani dokumendid on tugevasti Microsoft Exceliga integreeritud. Kasutajad saavad konfigureerida piiramatu arvu valuuta- ja kvantitatiivseid stsenaariume ning määratleda eelarvestamise organisatsiooni hierarhia nii ülalt-alla kui ka alt-üles eelarvestamise meetodite toetamiseks. Pärast seda, kui eelarve on rakenduses Finance and Operations loodud ja kinnitatud, teisendatakse eelarveplaan eelarveregistri kirjeks. Eelarveregistri kirjed pakuvad vahendeid eelarve haldamiseks ja summade jälgitavana hoidmiseks eelarvekoodide kaudu. Eelarve registrikirjed võimaldavad parandada algseid eelarveid, teha ülekandeid ja eelmise aasta eelarvesummasid edasi kanda. Kehtestatud eelarve põhjal saab ettevõte lubada eelarve juhtimise. Kontrolli tase oleneb organisatsiooni kultuurist ja küpsusastmest. Madala küpsusastmega organisatsioonid võivad jätta eelarve muutmata ja olla rohkem reaktiivsed kui proaktiivsed, kui eelarve ootustele ei vasta. Teised organisatsioonid võivad lubada eelarve juhtimise poliitikaid, mis takistavad kasutajatel ostmist, kui eelarvesummasid pole.
+
+Lõpetuseks võivad väga küpsed organisatsioonid kehtestada organisatsiooni kultuuri, kus töötajaid koolitatakse organisatsiooni eesmärkide teemal, ja nad järgivad neid eesmärke poliitikate kaudu, nagu „Kaaluge reisimise asemel veebikoosolekut”. Finance and Operations sisaldab eelarve juhtimise raamistikku, mis võimaldab ettevõtte juhtkonnal valida ranged juhtimismeetodid (mis takistavad sisestamisi, mis ületataks eelarvet) või leebed juhtimismeetodid (kus kasutajatele edastatakse hoiatus, et nad ületavad olemasolevaid eelarvevahendeid, kuid nad saavad ise otsustada, kuidas jätkata). Lõpuks saab kasutada jooksvaid prognoose. Jooksev prognoos on eelarve regulaarne võrdlemine tegelike näitajatega ja seda kasutatakse määratlemiseks, kui hästi ettevõttel eelarvega võrreldes läheb. Jooksvat prognoosi kasutatakse ka suundumuste tuvastamiseks. Rakenduses Finance and Operations toetatakse jooksvaid prognoose eelarveplaani dokumendi kaudu algse plaanimise tegevustena. Jooksvaid prognoose saab teha paralleelselt tulevase eelarvetsükli plaanimisega.
 
 -   [Põhiline eelarvestamine: ülevaade ja konfigureerimine](basic-budgeting-overview-configuration.md)
 -   [Eelarve juhtimine: ülevaade ja konfigureerimine](budget-control-overview-configuration.md)
@@ -58,7 +63,9 @@ Kogu rakenduses Finance and Operationsis on olemas täiendavad plaanimis- ja eel
 Teavet selle kohta, kuidas tuua plaanimisandmeid muudest moodulitest eelarveplaanidesse vt jaotisest [Eelarve plaanimise integreerimine muude moodulitega](budget-planning-integration-other-modules.md).
 
 ## <a name="user-interface-and-reporting-capabilities"></a>Kasutajaliides ja aruandluse võimalused
-Rakenduses Finance and Operations saavad kasutajad koostada eelarveplaane kas otse rakenduse Finance and Operations kliendis (kasutades konfigureeritavat eelarveplaani dokumendi lehte) või Exceli kaudu. Excel pakub mitut lisavõimalust. Näiteks saab eelarveplaani allikana kasutada väliseid andmeid, teha kohandatud arvutusi ning kasutada Microsofti liigendtabeleid ja diagramme. Enamikku eelarve plaanimise protsessi muutujatest saab konfigureerida. Näiteks saate määratleda, kes eelarve koostab, mille kohta eelarve koostatakse ja milline on protsess. Kuigi saate kasutada eelarve plaanimiseks Excelit, jääb rakendus Finance and Operations ainsaks tõe allikaks, mis aitab eelarve juhtimise probleeme vältida. Algsete eelarvestamise andmete toomiseks eelarveplaani saab kasutada perioodilisi protsesse. Aruandluse jaoks pakub rakendus Finance and Operations standardsete päringulehtede kogumit, mis võimaldab eelarvestamise andmeid vaadata ja analüüsida. Eelarveplaani andmetele pääseb juurde Management Reporteri kaudu ja eraldi eelarveplaani stsenaariume saab kuvada Management Reporteri aruandes veergudena.
+Rakenduses Finance and Operations saavad kasutajad koostada eelarveplaane kas otse rakenduse Finance and Operations kliendis (kasutades konfigureeritavat eelarveplaani dokumendi lehte) või Exceli kaudu. Excel pakub mitut lisavõimalust. Näiteks saab eelarveplaani allikana kasutada väliseid andmeid, teha kohandatud arvutusi ning kasutada Microsofti liigendtabeleid ja diagramme. Enamikku eelarve plaanimise protsessi muutujatest saab konfigureerida. 
+
+Näiteks saate määratleda, kes eelarve koostab, mille kohta eelarve koostatakse ja milline on protsess. Kuigi saate kasutada eelarve plaanimiseks Excelit, jääb rakendus Finance and Operations ainsaks tõe allikaks, mis aitab eelarve juhtimise probleeme vältida. Algsete eelarvestamise andmete toomiseks eelarveplaani saab kasutada perioodilisi protsesse. Aruandluse jaoks pakub rakendus Finance and Operations standardsete päringulehtede kogumit, mis võimaldab eelarvestamise andmeid vaadata ja analüüsida. Eelarveplaani andmetele pääseb juurde Management Reporteri kaudu ja eraldi eelarveplaani stsenaariume saab kuvada Management Reporteri aruandes veergudena.
 
 
 

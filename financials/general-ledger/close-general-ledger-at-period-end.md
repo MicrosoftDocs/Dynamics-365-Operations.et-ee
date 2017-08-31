@@ -1,7 +1,7 @@
 ---
 title: "Pearaamatu sulgemine perioodi lõpus"
 description: "Selles teemas kirjeldatakse ülesandeid, mida tehakse tavaliselt pearaamatu puhul perioodi sulgemisel."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

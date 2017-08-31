@@ -1,7 +1,7 @@
 ---
 title: Finantsdimensioonid
 description: "Selles teemas kirjeldatakse mitmesuguseid finantsdimensioonide tüüpe ja nende seadistamist."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

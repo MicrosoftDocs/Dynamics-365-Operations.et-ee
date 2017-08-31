@@ -1,7 +1,7 @@
 ---
 title: Tsentraliseeritud maksete seadistamine
 description: "Järgige neid juhiseid, et ühes juriidilises isikus teiste organisatsiooni juriidiliste isikute nimel protsessimaksed ette valmistada."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
