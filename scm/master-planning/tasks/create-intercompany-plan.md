@@ -16,48 +16,48 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7c7f466add55fb9a24c3fb8f1f92df712a8622e3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: da186f7ad74bb607fd6e7220d77c2f414789f29c
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-intercompany-plan"></a>Kontsernisisese plaani loomine
+# <a name="create-an-intercompany-plan"></a><span data-ttu-id="bf390-103">Kontsernisisese plaani loomine</span><span class="sxs-lookup"><span data-stu-id="bf390-103">Create an intercompany plan</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas luua kontsernisisest plaani. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+<span data-ttu-id="bf390-104">See protseduur näitab, kuidas luua kontsernisisest plaani.</span><span class="sxs-lookup"><span data-stu-id="bf390-104">This procedure shows how to create an intercompany plan.</span></span> <span data-ttu-id="bf390-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="bf390-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-an-intercompany-planning-group"></a>Kontsernisisese plaanimisgrupi seadistamine 
-1. Avage jaotis Kontsernisisesed plaanimisgrupid.
-    * Koondplaneerimine > Seadistus > Kontsernisisesed plaanimisgrupid  
-2. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks saate filtrida välja Nimi väärtuse 10 järgi.
-3. Märkige loendis valitud rida.
-4. Klõpsake  Kustuta.
-    * See etapp on vajalik kontsernisisese plaanimistsükli lühendamiseks.   Kontsernisisene plaanimine käivitab kõigis ettevõtetes koondplaneerimise plaanimisgrupis, alustades madalaimast plaanimisjärjestusest.  
-5. Klõpsake nuppu Jah.
-6. Sulgege leht.
+## <a name="set-up-an-intercompany-planning-group"></a><span data-ttu-id="bf390-106">Kontsernisisese plaanimisgrupi seadistamine</span><span class="sxs-lookup"><span data-stu-id="bf390-106">Set up an intercompany planning group</span></span> 
+1. <span data-ttu-id="bf390-107">Avage jaotis Kontsernisisesed plaanimisgrupid.</span><span class="sxs-lookup"><span data-stu-id="bf390-107">Go to Intercompany planning groups.</span></span>
+    * <span data-ttu-id="bf390-108">Koondplaneerimine > Seadistus > Kontsernisisesed plaanimisgrupid</span><span class="sxs-lookup"><span data-stu-id="bf390-108">Master planning > Setup > Intercompany planning groups</span></span>  
+2. <span data-ttu-id="bf390-109">Saate kirjete leidmiseks kasutada valikut Kiirfilter.</span><span class="sxs-lookup"><span data-stu-id="bf390-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="bf390-110">Näiteks saate filtrida välja Nimi väärtuse 10 järgi.</span><span class="sxs-lookup"><span data-stu-id="bf390-110">For example, filter on the Name field with a value of '10'.</span></span>
+3. <span data-ttu-id="bf390-111">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="bf390-111">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="bf390-112">Klõpsake  Kustuta.</span><span class="sxs-lookup"><span data-stu-id="bf390-112">Click Delete.</span></span>
+    * <span data-ttu-id="bf390-113">See etapp on vajalik kontsernisisese plaanimistsükli lühendamiseks.</span><span class="sxs-lookup"><span data-stu-id="bf390-113">This step is necessary in order to shorten the intercompany planning run.</span></span>   <span data-ttu-id="bf390-114">Kontsernisisene plaanimine käivitab kõigis ettevõtetes koondplaneerimise plaanimisgrupis, alustades madalaimast plaanimisjärjestusest.</span><span class="sxs-lookup"><span data-stu-id="bf390-114">Intercompany planning will run master planning in all the companies in a planning group, starting from the lowest scheduling sequence.</span></span>  
+5. <span data-ttu-id="bf390-115">Klõpsake nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="bf390-115">Click Yes.</span></span>
+6. <span data-ttu-id="bf390-116">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="bf390-116">Close the page.</span></span>
 
-## <a name="create-an-intercompany-plan"></a>Kontsernisisese plaani loomine
-1. Klõpsake valikut Kontsernisisene koondplaneerimine.
-    * See on koondplaneerimise tööruumis.  
-2. Klõpsake väljal Kontsernisisene plaanimisgrupp otsingu avamiseks ripploendi nuppu.
-3. Klõpsake loendis valitud real olevat linki.
-    * Valige kontsernisisene plaanimisgrupp 10.  
-4. Sisestage väljale Plaanitud kontsernisiseste iteratsioonide arv number 2.
-    * Kontsernisisesel plaanimisgrupil 10 on kaks liiget. Selleks, et lisada lähteettevõtte (USMF) viivitused klientettevõtte (DEMF) ees, on vaja käivitada kontsernisisene plaanimine mõlemal ettevõttel kaks korda. Esimene iteratsioon lisab nõudluse ja tuvastab viivitused lähteettevõttes (USMF). Teine iteratsioon lisab viivitused USMF-ilt DEMF-ile.  
-5. Tehke valik väljal Esimene iteratsioon.
-6. Valige Taasloomine väljalt Esimene iteratsioon.
-7. Valige Taasloomine väljalt Järgnevad iteratsioonid.
-8. Sisestage number väljale Lõimede arv.
-    * See tähistab planeerimises kasutatavate paralleelsete lõimede arvu.  
-9. Klõpsake nuppu OK.
+## <a name="create-an-intercompany-plan"></a><span data-ttu-id="bf390-117">Kontsernisisese plaani loomine</span><span class="sxs-lookup"><span data-stu-id="bf390-117">Create an intercompany plan</span></span>
+1. <span data-ttu-id="bf390-118">Klõpsake valikut Kontsernisisene koondplaneerimine.</span><span class="sxs-lookup"><span data-stu-id="bf390-118">Click Intercompany master planning.</span></span>
+    * <span data-ttu-id="bf390-119">See on koondplaneerimise tööruumis.</span><span class="sxs-lookup"><span data-stu-id="bf390-119">This is on the Master planning workspace.</span></span>  
+2. <span data-ttu-id="bf390-120">Klõpsake väljal Kontsernisisene plaanimisgrupp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bf390-120">In the Intercompany planning group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="bf390-121">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bf390-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="bf390-122">Valige kontsernisisene plaanimisgrupp 10.</span><span class="sxs-lookup"><span data-stu-id="bf390-122">Select intercompany planning group 10.</span></span>  
+4. <span data-ttu-id="bf390-123">Sisestage väljale Plaanitud kontsernisiseste iteratsioonide arv number 2.</span><span class="sxs-lookup"><span data-stu-id="bf390-123">In the Number of intercompany planning iterations field, enter '2'.</span></span>
+    * <span data-ttu-id="bf390-124">Kontsernisisesel plaanimisgrupil 10 on kaks liiget.</span><span class="sxs-lookup"><span data-stu-id="bf390-124">Intercompany planning group 10 has two members.</span></span> <span data-ttu-id="bf390-125">Selleks, et lisada lähteettevõtte (USMF) viivitused klientettevõtte (DEMF) ees, on vaja käivitada kontsernisisene plaanimine mõlemal ettevõttel kaks korda.</span><span class="sxs-lookup"><span data-stu-id="bf390-125">In order to propagate the delays from the source company (USMF) to the customer company (DEMF), you will need to run intercompany in both companies two times.</span></span> <span data-ttu-id="bf390-126">Esimene iteratsioon lisab nõudluse ja tuvastab viivitused lähteettevõttes (USMF).</span><span class="sxs-lookup"><span data-stu-id="bf390-126">The first iteration will propagate the demand and identify the delays in the source company (USMF).</span></span> <span data-ttu-id="bf390-127">Teine iteratsioon lisab viivitused USMF-ilt DEMF-ile.</span><span class="sxs-lookup"><span data-stu-id="bf390-127">The second iteration will propagate the delays from USMF to DEMF.</span></span>  
+5. <span data-ttu-id="bf390-128">Tehke valik väljal Esimene iteratsioon.</span><span class="sxs-lookup"><span data-stu-id="bf390-128">In the First iteration field, select an option.</span></span>
+6. <span data-ttu-id="bf390-129">Valige Taasloomine väljalt Esimene iteratsioon.</span><span class="sxs-lookup"><span data-stu-id="bf390-129">In the First iteration field, select 'Regeneration'.</span></span>
+7. <span data-ttu-id="bf390-130">Valige Taasloomine väljalt Järgnevad iteratsioonid.</span><span class="sxs-lookup"><span data-stu-id="bf390-130">In the Subsequent iterations field, select 'Regeneration'.</span></span>
+8. <span data-ttu-id="bf390-131">Sisestage number väljale Lõimede arv.</span><span class="sxs-lookup"><span data-stu-id="bf390-131">In the Number of threads field, enter a number.</span></span>
+    * <span data-ttu-id="bf390-132">See tähistab planeerimises kasutatavate paralleelsete lõimede arvu.</span><span class="sxs-lookup"><span data-stu-id="bf390-132">This represents the number of parallel threads used for planning.</span></span>  
+9. <span data-ttu-id="bf390-133">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="bf390-133">Click OK.</span></span>
 
-## <a name="view-the-result-of-the-plan"></a>Plaani tulemuse vaatamine
-1. Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.
-2. Klõpsake loendis valitud real olevat linki.
-    * Klõpsake valiku StaticPlan linki. Peate olema ettevõttes USMF.  
-3. Klõpsake valikut Planeeritud tellimused.
+## <a name="view-the-result-of-the-plan"></a><span data-ttu-id="bf390-134">Plaani tulemuse vaatamine</span><span class="sxs-lookup"><span data-stu-id="bf390-134">View the result of the plan</span></span>
+1. <span data-ttu-id="bf390-135">Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bf390-135">In the Plan field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="bf390-136">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bf390-136">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="bf390-137">Klõpsake valiku StaticPlan linki.</span><span class="sxs-lookup"><span data-stu-id="bf390-137">Click the link for StaticPlan.</span></span> <span data-ttu-id="bf390-138">Peate olema ettevõttes USMF.</span><span class="sxs-lookup"><span data-stu-id="bf390-138">You need to be in company USMF.</span></span>  
+3. <span data-ttu-id="bf390-139">Klõpsake valikut Planeeritud tellimused.</span><span class="sxs-lookup"><span data-stu-id="bf390-139">Click Planned orders.</span></span>
 
 

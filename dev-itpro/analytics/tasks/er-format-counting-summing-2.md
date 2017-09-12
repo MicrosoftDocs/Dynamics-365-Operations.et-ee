@@ -16,127 +16,127 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d787cc951f8389fb07a265c99635fedeca132170
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 000cfe484865ff5c1003c2a68eac710491f6c536
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) arvutuste konfigureerimine loendamiseks ja liitmiseks
+# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a><span data-ttu-id="8bb9c-103">Elektroonilise aruandluse (ER) arvutuste konfigureerimine loendamiseks ja liitmiseks</span><span class="sxs-lookup"><span data-stu-id="8bb9c-103">Configure computations to do counting and summing for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu loendamiseks ja liitmiseks juba loodud tekstiväljundi andmete põhjal. Neid toiminguid saab teha igas ettevõttes.
+<span data-ttu-id="8bb9c-104">Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu loendamiseks ja liitmiseks juba loodud tekstiväljundi andmete põhjal.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="8bb9c-105">Neid toiminguid saab teha igas ettevõttes.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-105">These steps can be performed in any company.</span></span>
 
-Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektrooniline aruandlus Vormingu konfigureerimine loendamiseks ja liitmiseks (1. osa: vormingu loomine).
+<span data-ttu-id="8bb9c-106">Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektrooniline aruandlus Vormingu konfigureerimine loendamiseks ja liitmiseks (1. osa: vormingu loomine).</span><span class="sxs-lookup"><span data-stu-id="8bb9c-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 1: Create format)” procedure.</span></span>
 
-See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
+<span data-ttu-id="8bb9c-107">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-format-configuration-to-add-counting-and-summing-details"></a>Vormingukonfiguratsiooni loomine loendamise ja liitmise üksikasjade lisamiseks
-1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-2. Klõpsake valikut Aruandluse konfiguratsioonid.
-3. Laiendage puul valikut Intrastati mudel.
-4. Valige puult Intrastati mudel \ Intrastat (DE).
-    * Oletame, et teil on vaja kohandada Microsofti antud vormingut, lisades intrastati aruande lõppu ridu kokkuvõtte andmetega. Muudatuste tegemiseks tuleb seda teha, tuletades oma intrastati konfiguratsiooni eksemplari Microsofti eksemplarist.  
-5. Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.
-6. Sisestage väljale Uus üksus Tuleta nimest: intrastat (DE), Microsoft.
-7. Tippige väljale Nimi tekst „Intrastat (DE) koos loendamise ja liitmisega“.
-8. Klõpsake Loo konfiguratsioon.
+## <a name="create-a-format-configuration-to-add-counting-and-summing-details"></a><span data-ttu-id="8bb9c-108">Vormingukonfiguratsiooni loomine loendamise ja liitmise üksikasjade lisamiseks</span><span class="sxs-lookup"><span data-stu-id="8bb9c-108">Create a format configuration to add counting and summing details</span></span>
+1. <span data-ttu-id="8bb9c-109">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="8bb9c-110">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="8bb9c-111">Laiendage puul valikut Intrastati mudel.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="8bb9c-112">Valige puult Intrastati mudel \ Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="8bb9c-112">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
+    * <span data-ttu-id="8bb9c-113">Oletame, et teil on vaja kohandada Microsofti antud vormingut, lisades intrastati aruande lõppu ridu kokkuvõtte andmetega.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-113">Assume that you need to customize the format provided by Microsoft by adding lines with summary details at the end of the Intrastat report.</span></span> <span data-ttu-id="8bb9c-114">Muudatuste tegemiseks tuleb seda teha, tuletades oma intrastati konfiguratsiooni eksemplari Microsofti eksemplarist.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-114">You need to do that by deriving our own instance of the Intrastat configuration from the Microsoft instance to make modifications.</span></span>  
+5. <span data-ttu-id="8bb9c-115">Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-115">Click Create configuration to open the drop dialog.</span></span>
+6. <span data-ttu-id="8bb9c-116">Sisestage väljale Uus üksus Tuleta nimest: intrastat (DE), Microsoft.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-116">In the New field, enter 'Derive from Name: Intrastat (DE), Microsoft'.</span></span>
+7. <span data-ttu-id="8bb9c-117">Tippige väljale Nimi tekst „Intrastat (DE) koos loendamise ja liitmisega“.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-117">In the Name field, type 'Intrastat (DE) with counting & summing'.</span></span>
+8. <span data-ttu-id="8bb9c-118">Klõpsake Loo konfiguratsioon.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-118">Click Create configuration.</span></span>
 
-## <a name="configure-this-report-to-do-counting-and-summation-based-on-output-details"></a>Saate konfigureerida selle aruande nii, et loendamine ja liitmine toimub väljundi andmete põhjal
-1. Klõpsake valikut Kujundaja.
-2. Tehke väljal Kogu väljundi üksikasjad valik Jah.
-    * See lipp aktiveerib käitusajal väljundi üksikasjade kogumise protsessi intrastati faili loomiseks.  
-    * Loendamine peab toimuma erinevate intrastati suundade kohta, seega lisage spetsiaalne mudeli loetelu selle vormingukonfiguratsiooni andmeallikate loendile.  
-3. Klõpsake vahekaarti Vastendus.
-4. Klõpsake suvandit Lisa juur rippdialoogi avamiseks.
-5. Valige puul väärtus Andmemudel \ Loetelu.
-6. Tippige Suund väljale Nimi.
-7. Sisestage või valige väärtus väljal Mudeli loetelu.
-    * Valige väärtuseks Suund.  
-8. Klõpsake nuppu OK.
-9. Klõpsake suvandit Lisa juur rippdialoogi avamiseks.
-10. Valige puul suvand Funktsioonid\arvutatud väli.
-11. Tippige $BlockName väljale Nimi.
-12. Klõpsake suvandit Muuda valemit.
-13. Sisestage „plokk” väljale Valem.
-14. Klõpsake nuppu Salvesta.
-15. Sulgege leht.
-16. Klõpsake nuppu OK.
-17. Klõpsake suvandit Lisa juur rippdialoogi avamiseks.
-18. Valige puul suvand Funktsioonid\arvutatud väli.
-19. Tippige $RecName väljale Nimi.
-20. Klõpsake suvandit Muuda valemit.
-21. Sisestage „kirje” väljale Valem.
-22. Klõpsake nuppu Salvesta.
-23. Sulgege leht.
-24. Klõpsake nuppu OK.
-25. Klõpsake suvandit Lisa juur rippdialoogi avamiseks.
-26. Valige puul suvand Funktsioonid\arvutatud väli.
-27. Tippige $InvName väljale Nimi.
-28. Klõpsake suvandit Muuda valemit.
-29. Sisestage „InvoicedAmountEUR” väljale Valem.
-30. Klõpsake nuppu Salvesta.
-31. Sulgege leht.
-32. Klõpsake nuppu OK.
-33. Tehke puul valik Intrastat \ Andmed.
-34. Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri
-35. Klõpsake suvandit Andmeallika lisamine.
-    * $BlockName  
-36. Klõpsake nuppu Salvesta.
-37. Sulgege leht.
-38. Klõpsake välja Kogutud andmete võtme väärtus nuppu Redigeeri.
-39. Sisestage väljale valem IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export").
-    * IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")  
-40. Klõpsake nuppu Salvesta.
-41. Sulgege leht.
-    * Loendage selle järjestuse ridade arv. Tulemusi kasutatakse nimega „plokk” erinevate suundade puhul eraldi. Väärtust „import” kasutatakse igasuguste intrastati saabumiskannete puhul. Väärtust „eksport” kasutatakse igasuguste intrastati lähetuskannete puhul. Vaadake seda kui virtuaalset Exceli arvutustabelit. Iga kande puhul täidetakse rida, mille esimene veerg on „plokk”, vastavalt väärtustega „Import” ja „Eksport”.  
-42. Laiendage puul valikut Intrastat \ Andmed: seeria.
-43. Valige puult Intrastat \ Andmed: seeria \ Saabumised?.
-44. Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri.
-    * Loendage selle järjestuse ridade arv. Tulemused jäetakse meelde, kasutades nime „kirje”.  
-45. Valige puul väärtus $RecName.
-46. Klõpsake suvandit Andmeallika lisamine.
-47. Klõpsake nuppu Salvesta.
-48. Sulgege leht.
-49. Klõpsake välja Kogutud andmete võtme väärtus nuppu Redigeeri.
-50. Sisestage väljale Valem Intrastat.CommodityRecord.CommodityCode.
-51. Klõpsake nuppu Salvesta.
-52. Sulgege leht.
-    * Loendage selle järjestuse ridade arv. Tulemusi kasutatakse nimega „kirje” erinevate kaubakoodide puhul eraldi. Vaadake seda kui virtuaalset Exceli arvutustabelit. Iga kande puhul täidetakse rida, mille esimene veerg on „plokk”, vastavalt väärtustega „Import” ja „Eksport” ja teine plokk „kirje” täidetakse kaubakoodi väärtusega.  
-53. Valige puult Intrastat \ Andmed: seeria \ Lähetused?.
-54. Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri
-55. Valige puul väärtus $RecName.
-56. Klõpsake suvandit Andmeallika lisamine.
-57. Klõpsake nuppu Salvesta.
-58. Sulgege leht.
-59. Klõpsake välja Kogutud andmete võtme väärtus nuppu Redigeeri.
-60. Sisestage väljale Valem Intrastat.CommodityRecord.CommodityCode.
-61. Klõpsake nuppu Salvesta.
-62. Sulgege leht.
-63. Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria?.
-64. Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria? \ Kirje =  Intrastat.CommodityRecord.
-65. Klõpsake vahekaarti Vorming.
-66. Valige puult Intrastat \ Andmed \ Lähetused \ Kirje \ Arve summa EUR.
-67. Klõpsake vahekaarti Vastendus.
-68. Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri.
-69. Valige puul väärtus $InvName.
-70. Klõpsake suvandit Andmeallika lisamine.
-71. Klõpsake nuppu Salvesta.
-72. Sulgege leht.
-    * Liitke selle järjestuse ridade arveldatud summade väärtused. Tulemusi kasutatakse nimega „InvoicedAmountEUR” erinevate intrastati suundade ja kaubakoodide puhul eraldi. Vaadake seda kui virtuaalset loomingut Exceli arvutustabelis. Iga kande puhul täidetakse rida, mille esimene veerg on „plokk”, vastavalt väärtustega „Import” ja „Eksport”. Teine plokk „kirje” täidetakse kaubakoodi väärtusega ja kolmas veerg „InvoicedAmountEUR” täidetakse arve summa väärtusega.  
-73. Laiendage puul valikut Intrastat \ Andmed \ Saabumised?.
-74. Laiendage puul valikut Intrastat \ Andmed \ Saabumised? \ Kirje =  Intrastat.CommodityRecord.
-75. Klõpsake vahekaarti Vorming.
-76. Valige puult Intrastat \ Andmed \ Saabumised \ Kirje \ Arve summa EUR.
-77. Klõpsake vahekaarti Vastendus.
-78. Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri.
-79. Valige puul väärtus $InvName.
-80. Klõpsake suvandit Andmeallika lisamine.
-81. Klõpsake nuppu Salvesta.
-82. Sulgege leht.
-83. Klõpsake nuppu Salvesta.
-84. Sulgege leht.
+## <a name="configure-this-report-to-do-counting-and-summation-based-on-output-details"></a><span data-ttu-id="8bb9c-119">Saate konfigureerida selle aruande nii, et loendamine ja liitmine toimub väljundi andmete põhjal</span><span class="sxs-lookup"><span data-stu-id="8bb9c-119">Configure this report to do counting and summation based on output details</span></span>
+1. <span data-ttu-id="8bb9c-120">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-120">Click Designer.</span></span>
+2. <span data-ttu-id="8bb9c-121">Tehke väljal Kogu väljundi üksikasjad valik Jah.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-121">Select Yes in the Collect output details field.</span></span>
+    * <span data-ttu-id="8bb9c-122">See lipp aktiveerib käitusajal väljundi üksikasjade kogumise protsessi intrastati faili loomiseks.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-122">This flag will activate at run-time the process of collecting output details for generating the Intrastat file.</span></span>  
+    * <span data-ttu-id="8bb9c-123">Loendamine peab toimuma erinevate intrastati suundade kohta, seega lisage spetsiaalne mudeli loetelu selle vormingukonfiguratsiooni andmeallikate loendile.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-123">You need to do counting for different Intrastat directions, so add a dedicated model enumeration to the data sources’ list of this format configuration.</span></span>  
+3. <span data-ttu-id="8bb9c-124">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-124">Click the Mapping tab.</span></span>
+4. <span data-ttu-id="8bb9c-125">Klõpsake suvandit Lisa juur rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-125">Click Add root to open the drop dialog.</span></span>
+5. <span data-ttu-id="8bb9c-126">Valige puul väärtus Andmemudel \ Loetelu.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-126">In the tree, select 'Data model\Enumeration '.</span></span>
+6. <span data-ttu-id="8bb9c-127">Tippige Suund väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-127">In the Name field, type 'Direction'.</span></span>
+7. <span data-ttu-id="8bb9c-128">Sisestage või valige väärtus väljal Mudeli loetelu.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-128">In the Model enumeration field, enter or select a value.</span></span>
+    * <span data-ttu-id="8bb9c-129">Valige väärtuseks Suund.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-129">Select the value Direction.</span></span>  
+8. <span data-ttu-id="8bb9c-130">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-130">Click OK.</span></span>
+9. <span data-ttu-id="8bb9c-131">Klõpsake suvandit Lisa juur rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-131">Click Add root to open the drop dialog.</span></span>
+10. <span data-ttu-id="8bb9c-132">Valige puul suvand Funktsioonid\arvutatud väli.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-132">In the tree, select 'Functions\Calculated field'.</span></span>
+11. <span data-ttu-id="8bb9c-133">Tippige $BlockName väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-133">In the Name field, type '$BlockName'.</span></span>
+12. <span data-ttu-id="8bb9c-134">Klõpsake suvandit Muuda valemit.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-134">Click Edit formula.</span></span>
+13. <span data-ttu-id="8bb9c-135">Sisestage „plokk” väljale Valem.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-135">In the Formula field, enter '"block"'.</span></span>
+14. <span data-ttu-id="8bb9c-136">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-136">Click Save.</span></span>
+15. <span data-ttu-id="8bb9c-137">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-137">Close the page.</span></span>
+16. <span data-ttu-id="8bb9c-138">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-138">Click OK.</span></span>
+17. <span data-ttu-id="8bb9c-139">Klõpsake suvandit Lisa juur rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-139">Click Add root to open the drop dialog.</span></span>
+18. <span data-ttu-id="8bb9c-140">Valige puul suvand Funktsioonid\arvutatud väli.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-140">In the tree, select 'Functions\Calculated field'.</span></span>
+19. <span data-ttu-id="8bb9c-141">Tippige $RecName väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-141">In the Name field, type '$RecName'.</span></span>
+20. <span data-ttu-id="8bb9c-142">Klõpsake suvandit Muuda valemit.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-142">Click Edit formula.</span></span>
+21. <span data-ttu-id="8bb9c-143">Sisestage „kirje” väljale Valem.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-143">In the Formula field, enter '"record"'.</span></span>
+22. <span data-ttu-id="8bb9c-144">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-144">Click Save.</span></span>
+23. <span data-ttu-id="8bb9c-145">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-145">Close the page.</span></span>
+24. <span data-ttu-id="8bb9c-146">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-146">Click OK.</span></span>
+25. <span data-ttu-id="8bb9c-147">Klõpsake suvandit Lisa juur rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-147">Click Add root to open the drop dialog.</span></span>
+26. <span data-ttu-id="8bb9c-148">Valige puul suvand Funktsioonid\arvutatud väli.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-148">In the tree, select 'Functions\Calculated field'.</span></span>
+27. <span data-ttu-id="8bb9c-149">Tippige $InvName väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-149">In the Name field, type '$InvName'.</span></span>
+28. <span data-ttu-id="8bb9c-150">Klõpsake suvandit Muuda valemit.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-150">Click Edit formula.</span></span>
+29. <span data-ttu-id="8bb9c-151">Sisestage „InvoicedAmountEUR” väljale Valem.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-151">In the Formula field, enter '"InvoicedAmountEUR"'.</span></span>
+30. <span data-ttu-id="8bb9c-152">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-152">Click Save.</span></span>
+31. <span data-ttu-id="8bb9c-153">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-153">Close the page.</span></span>
+32. <span data-ttu-id="8bb9c-154">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-154">Click OK.</span></span>
+33. <span data-ttu-id="8bb9c-155">Tehke puul valik Intrastat \ Andmed.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-155">In the tree, select 'Intrastat\Data'.</span></span>
+34. <span data-ttu-id="8bb9c-156">Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri</span><span class="sxs-lookup"><span data-stu-id="8bb9c-156">Click Edit button for the ‘Collected data key name’ field</span></span>
+35. <span data-ttu-id="8bb9c-157">Klõpsake suvandit Andmeallika lisamine.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-157">Click Add data source.</span></span>
+    * <span data-ttu-id="8bb9c-158">$BlockName</span><span class="sxs-lookup"><span data-stu-id="8bb9c-158">$BlockName</span></span>  
+36. <span data-ttu-id="8bb9c-159">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-159">Click Save.</span></span>
+37. <span data-ttu-id="8bb9c-160">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-160">Close the page.</span></span>
+38. <span data-ttu-id="8bb9c-161">Klõpsake välja Kogutud andmete võtme väärtus nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-161">Click the Edit button for the Collected data key value field.</span></span>
+39. <span data-ttu-id="8bb9c-162">Sisestage väljale valem IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export").</span><span class="sxs-lookup"><span data-stu-id="8bb9c-162">In the Formula field, enter 'IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")'.</span></span>
+    * <span data-ttu-id="8bb9c-163">IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")</span><span class="sxs-lookup"><span data-stu-id="8bb9c-163">IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")</span></span>  
+40. <span data-ttu-id="8bb9c-164">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-164">Click Save.</span></span>
+41. <span data-ttu-id="8bb9c-165">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-165">Close the page.</span></span>
+    * <span data-ttu-id="8bb9c-166">Loendage selle järjestuse ridade arv.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-166">Count the lines of this sequence.</span></span> <span data-ttu-id="8bb9c-167">Tulemusi kasutatakse nimega „plokk” erinevate suundade puhul eraldi.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-167">The results will be used with the name “block” separately for different directions.</span></span> <span data-ttu-id="8bb9c-168">Väärtust „import” kasutatakse igasuguste intrastati saabumiskannete puhul.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-168">Value “Import” will be used for any arrivals Intrastat transactions.</span></span> <span data-ttu-id="8bb9c-169">Väärtust „eksport” kasutatakse igasuguste intrastati lähetuskannete puhul.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-169">The value “Export” will be used for any Intrastat dispatches transactions.</span></span> <span data-ttu-id="8bb9c-170">Vaadake seda kui virtuaalset Exceli arvutustabelit.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-170">Consider this to be a virtual Excel spreadsheet.</span></span> <span data-ttu-id="8bb9c-171">Iga kande puhul täidetakse rida, mille esimene veerg on „plokk”, vastavalt väärtustega „Import” ja „Eksport”.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-171">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly.</span></span>  
+42. <span data-ttu-id="8bb9c-172">Laiendage puul valikut Intrastat \ Andmed: seeria.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-172">In the tree, expand 'Intrastat\Data: Sequence'.</span></span>
+43. <span data-ttu-id="8bb9c-173">Valige puult Intrastat \ Andmed: seeria \ Saabumised?.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-173">In the tree, select 'Intrastat\Data: Sequence\Arrivals?'.</span></span>
+44. <span data-ttu-id="8bb9c-174">Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-174">Click Edit button for the ‘Collected data key name’ field.</span></span>
+    * <span data-ttu-id="8bb9c-175">Loendage selle järjestuse ridade arv.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-175">Count the lines of this sequence.</span></span> <span data-ttu-id="8bb9c-176">Tulemused jäetakse meelde, kasutades nime „kirje”.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-176">The results will be memorized using the name “record”.</span></span>  
+45. <span data-ttu-id="8bb9c-177">Valige puul väärtus $RecName.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-177">In the tree, select '$RecName'.</span></span>
+46. <span data-ttu-id="8bb9c-178">Klõpsake suvandit Andmeallika lisamine.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-178">Click Add data source.</span></span>
+47. <span data-ttu-id="8bb9c-179">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-179">Click Save.</span></span>
+48. <span data-ttu-id="8bb9c-180">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-180">Close the page.</span></span>
+49. <span data-ttu-id="8bb9c-181">Klõpsake välja Kogutud andmete võtme väärtus nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-181">Click Edit button for the ‘Collected data key value’ field</span></span>
+50. <span data-ttu-id="8bb9c-182">Sisestage väljale Valem Intrastat.CommodityRecord.CommodityCode.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-182">In the Formula field, enter 'Intrastat.CommodityRecord.CommodityCode'.</span></span>
+51. <span data-ttu-id="8bb9c-183">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-183">Click Save.</span></span>
+52. <span data-ttu-id="8bb9c-184">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-184">Close the page.</span></span>
+    * <span data-ttu-id="8bb9c-185">Loendage selle järjestuse ridade arv.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-185">Count the lines of this sequence.</span></span> <span data-ttu-id="8bb9c-186">Tulemusi kasutatakse nimega „kirje” erinevate kaubakoodide puhul eraldi.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-186">The results will be used with the name “record” separately for different commodity codes.</span></span> <span data-ttu-id="8bb9c-187">Vaadake seda kui virtuaalset Exceli arvutustabelit.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-187">Consider this to be a virtual Excel spreadsheet.</span></span> <span data-ttu-id="8bb9c-188">Iga kande puhul täidetakse rida, mille esimene veerg on „plokk”, vastavalt väärtustega „Import” ja „Eksport” ja teine plokk „kirje” täidetakse kaubakoodi väärtusega.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-188">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly and the second block “record” is filled with the commodity code value.</span></span>  
+53. <span data-ttu-id="8bb9c-189">Valige puult Intrastat \ Andmed: seeria \ Lähetused?.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-189">In the tree, select 'Intrastat\Data: Sequence\Dispatches?'.</span></span>
+54. <span data-ttu-id="8bb9c-190">Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri</span><span class="sxs-lookup"><span data-stu-id="8bb9c-190">Click Edit button for the ‘Collected data key name’ field</span></span>
+55. <span data-ttu-id="8bb9c-191">Valige puul väärtus $RecName.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-191">In the tree, select '$RecName'.</span></span>
+56. <span data-ttu-id="8bb9c-192">Klõpsake suvandit Andmeallika lisamine.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-192">Click Add data source.</span></span>
+57. <span data-ttu-id="8bb9c-193">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-193">Click Save.</span></span>
+58. <span data-ttu-id="8bb9c-194">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-194">Close the page.</span></span>
+59. <span data-ttu-id="8bb9c-195">Klõpsake välja Kogutud andmete võtme väärtus nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-195">Click the Edit button for the ‘Collected data key value’ field.</span></span>
+60. <span data-ttu-id="8bb9c-196">Sisestage väljale Valem Intrastat.CommodityRecord.CommodityCode.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-196">In the Formula field, enter 'Intrastat.CommodityRecord.CommodityCode'.</span></span>
+61. <span data-ttu-id="8bb9c-197">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-197">Click Save.</span></span>
+62. <span data-ttu-id="8bb9c-198">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-198">Close the page.</span></span>
+63. <span data-ttu-id="8bb9c-199">Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria?.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-199">In the tree, expand 'Intrastat\Data: Sequence\Dispatches: Sequence?'.</span></span>
+64. <span data-ttu-id="8bb9c-200">Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria? \ Kirje =  Intrastat.CommodityRecord.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-200">In the tree, expand 'Intrastat\Data: Sequence\Dispatches: Sequence?\Record =  Intrastat.CommodityRecord'.</span></span>
+65. <span data-ttu-id="8bb9c-201">Klõpsake vahekaarti Vorming.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-201">Click the Format tab.</span></span>
+66. <span data-ttu-id="8bb9c-202">Valige puult Intrastat \ Andmed \ Lähetused \ Kirje \ Arve summa EUR.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-202">In the tree, select 'Intrastat\Data\Dispatches\Record\Invoice amount EUR'.</span></span>
+67. <span data-ttu-id="8bb9c-203">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-203">Click the Mapping tab.</span></span>
+68. <span data-ttu-id="8bb9c-204">Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-204">Click the Edit button for the ‘Collected data key name’ field.</span></span>
+69. <span data-ttu-id="8bb9c-205">Valige puul väärtus $InvName.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-205">In the tree, select '$InvName'.</span></span>
+70. <span data-ttu-id="8bb9c-206">Klõpsake suvandit Andmeallika lisamine.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-206">Click Add data source.</span></span>
+71. <span data-ttu-id="8bb9c-207">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-207">Click Save.</span></span>
+72. <span data-ttu-id="8bb9c-208">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-208">Close the page.</span></span>
+    * <span data-ttu-id="8bb9c-209">Liitke selle järjestuse ridade arveldatud summade väärtused.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-209">Summarize the invoiced amount values for lines of this sequence.</span></span> <span data-ttu-id="8bb9c-210">Tulemusi kasutatakse nimega „InvoicedAmountEUR” erinevate intrastati suundade ja kaubakoodide puhul eraldi.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-210">The results will be used with the name “InvoicedAmountEUR” separately for different Intrastat directions and commodity codes.</span></span> <span data-ttu-id="8bb9c-211">Vaadake seda kui virtuaalset loomingut Exceli arvutustabelis.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-211">Consider this to be a virtual creation in Excel spreadsheet.</span></span> <span data-ttu-id="8bb9c-212">Iga kande puhul täidetakse rida, mille esimene veerg on „plokk”, vastavalt väärtustega „Import” ja „Eksport”.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-212">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly.</span></span> <span data-ttu-id="8bb9c-213">Teine plokk „kirje” täidetakse kaubakoodi väärtusega ja kolmas veerg „InvoicedAmountEUR” täidetakse arve summa väärtusega.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-213">The second block “record” is filled with the commodity code value, and the third column “InvoicedAmountEUR” is filled with the invoice amount value.</span></span>  
+73. <span data-ttu-id="8bb9c-214">Laiendage puul valikut Intrastat \ Andmed \ Saabumised?.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-214">In the tree, expand 'Intrastat\Data\Arrivals?'.</span></span>
+74. <span data-ttu-id="8bb9c-215">Laiendage puul valikut Intrastat \ Andmed \ Saabumised? \ Kirje =  Intrastat.CommodityRecord.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-215">In the tree, expand 'Intrastat\Data\Arrivals?\Record =  Intrastat.CommodityRecord'.</span></span>
+75. <span data-ttu-id="8bb9c-216">Klõpsake vahekaarti Vorming.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-216">Click the Format tab.</span></span>
+76. <span data-ttu-id="8bb9c-217">Valige puult Intrastat \ Andmed \ Saabumised \ Kirje \ Arve summa EUR.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-217">In the tree, select 'Intrastat\Data\Arrivals\Record\Invoice amount EUR'.</span></span>
+77. <span data-ttu-id="8bb9c-218">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-218">Click the Mapping tab.</span></span>
+78. <span data-ttu-id="8bb9c-219">Klõpsake välja Kogutud andmete võtme nimi nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-219">Click the Edit button for the ‘Collected data key name’ field.</span></span>
+79. <span data-ttu-id="8bb9c-220">Valige puul väärtus $InvName.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-220">In the tree, select '$InvName'.</span></span>
+80. <span data-ttu-id="8bb9c-221">Klõpsake suvandit Andmeallika lisamine.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-221">Click Add data source.</span></span>
+81. <span data-ttu-id="8bb9c-222">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-222">Click Save.</span></span>
+82. <span data-ttu-id="8bb9c-223">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-223">Close the page.</span></span>
+83. <span data-ttu-id="8bb9c-224">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-224">Click Save.</span></span>
+84. <span data-ttu-id="8bb9c-225">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="8bb9c-225">Close the page.</span></span>
 
 

@@ -17,30 +17,30 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 36096c9a0c8dde1028728ec257dfa63e7fb669af
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0e6829238b244cc01b070fde6acdf37bdaeb9670
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a>Koosluse arvutamine ühetasandilise struktuuri abil (ainult veebruar 2016)
+# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a><span data-ttu-id="0c9c1-103">Koosluse arvutamine ühetasandilise struktuuri abil (ainult veebruar 2016)</span><span class="sxs-lookup"><span data-stu-id="0c9c1-103">Calculate a BOM by using a single level structure (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas arvutada lõpetatud toote kulu, kasutades kuluarvutustabelis põhinevat üksiktaseme koosnemist. See on kuues ülesanne koosluse arvutamise seerias. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.
+<span data-ttu-id="0c9c1-104">See protseduur näitab, kuidas arvutada lõpetatud toote kulu, kasutades kuluarvutustabelis põhinevat üksiktaseme koosnemist.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-104">This procedure shows how to calculate the cost of a finished product by using single level explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="0c9c1-105">See on kuues ülesanne koosluse arvutamise seerias.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-105">This is the sixth task in the BOM calculation series.</span></span> <span data-ttu-id="0c9c1-106">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-106">The demo data company used to create this task is USMF.</span></span>
 
-1. Avage Väljastatud tooted.
-2. Otsige loendist ja valige soovitud kirje.
-    * Valige toode BOM_1.  
-3. Klõpsake toimingupaanil valikut Kulude haldamine.
-4. Klõpsake nuppu Kauba hind.
-5. Klõpsake nuppu Kauba kulu arvutamine.
-    * Peate vajaduse korral klõpsama kolmikpunkti (...), et näha seda suvandit peamenüüs.  
-6. Klõpsake väljal Kuluversioon otsingu avamiseks ripploendi nuppu.
-    * Selle demo puhul valige 10. See on sama kuluversioon, mida kasutatakse kuluhinna lisamiseks komponentidele.  
-7. Klõpsake nuppu OK.
-8. Klõpsake suvandit Kuva arvutamise üksikasjad.
-    * Peate vajaduse korral klõpsama kolmikpunkti (...), et näha seda suvandit peamenüüs.    Siin on kulu koosseis: • 10 tuletatakse üksusest ITEM_A, 10 üksusest ITEM_B, 10 üksusest BOM_2. Sellisel juhul pole BOM_2 jaoks üksikasju, kuna see sisestati 10 standardkuluna, kuid seda ei tehtud arvutuse kaudu.  • 7 tuletatakse häälestusajast, mis on püsikulu, ja täiendav 7 tuletatakse käitusaja toimingust (Protsess).  • Samuti on olemas teised summad, mis vastavad kaudsetele kuludele.  
+1. <span data-ttu-id="0c9c1-107">Avage Väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-107">Go to Released products.</span></span>
+2. <span data-ttu-id="0c9c1-108">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0c9c1-109">Valige toode BOM_1.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-109">Select product BOM_1.</span></span>  
+3. <span data-ttu-id="0c9c1-110">Klõpsake toimingupaanil valikut Kulude haldamine.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-110">On the Action Pane, click Manage costs.</span></span>
+4. <span data-ttu-id="0c9c1-111">Klõpsake nuppu Kauba hind.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-111">Click Item price.</span></span>
+5. <span data-ttu-id="0c9c1-112">Klõpsake nuppu Kauba kulu arvutamine.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-112">Click Calculate item cost.</span></span>
+    * <span data-ttu-id="0c9c1-113">Peate vajaduse korral klõpsama kolmikpunkti (...), et näha seda suvandit peamenüüs.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
+6. <span data-ttu-id="0c9c1-114">Klõpsake väljal Kuluversioon otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-114">In the Costing version field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="0c9c1-115">Selle demo puhul valige 10.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-115">For this demo, select 10.</span></span> <span data-ttu-id="0c9c1-116">See on sama kuluversioon, mida kasutatakse kuluhinna lisamiseks komponentidele.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-116">This is the same costing version used for adding the cost price to the components.</span></span>  
+7. <span data-ttu-id="0c9c1-117">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-117">Click OK.</span></span>
+8. <span data-ttu-id="0c9c1-118">Klõpsake suvandit Kuva arvutamise üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-118">Click View calculation details.</span></span>
+    * <span data-ttu-id="0c9c1-119">Peate vajaduse korral klõpsama kolmikpunkti (...), et näha seda suvandit peamenüüs.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-119">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>    <span data-ttu-id="0c9c1-120">Siin on kulu koosseis: • 10 tuletatakse üksusest ITEM_A, 10 üksusest ITEM_B, 10 üksusest BOM_2.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-120">Here's the composition of the cost:  •    10 is derived from ITEM_A, 10 from ITEM_B, 10 from BOM_2.</span></span> <span data-ttu-id="0c9c1-121">Sellisel juhul pole BOM_2 jaoks üksikasju, kuna see sisestati 10 standardkuluna, kuid seda ei tehtud arvutuse kaudu.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-121">In this case there are no details for BOM_2 because it was entered as a standard cost of 10 but not done through calculation.</span></span>  <span data-ttu-id="0c9c1-122">• 7 tuletatakse häälestusajast, mis on püsikulu, ja täiendav 7 tuletatakse käitusaja toimingust (Protsess).</span><span class="sxs-lookup"><span data-stu-id="0c9c1-122">•  7 is derived from the setup time, which is a constant cost, and additional 7 is derived from the run-time operation (Process).</span></span>  <span data-ttu-id="0c9c1-123">• Samuti on olemas teised summad, mis vastavad kaudsetele kuludele.</span><span class="sxs-lookup"><span data-stu-id="0c9c1-123">•   There are also other amounts that correspond to indirect costs.</span></span>  
 9. @SysTaskRecorder:_RequestClose
 
 

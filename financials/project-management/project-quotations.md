@@ -19,28 +19,28 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0906a1600d4bf097a27cabff4d3b51e50f986631
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 9e8f56c8ee0567d4fd5820462583b79316d44c4b
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="project-quotations"></a>Projektipakkumised
+# <a name="project-quotations"></a><span data-ttu-id="bf073-104">Projektipakkumised</span><span class="sxs-lookup"><span data-stu-id="bf073-104">Project quotations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Artikkel tutvustab projektipakkumiste mõistet, mida saate projektifaasi esimese etapina kasutada kliendile atraktiivse pakkumise tegemiseks. Projektipakkumine võib hõlmata pakutavaid kaupu ja teenuseid, peamist kontaktteavet, erilisi kaubandusleppeid ja allahindlusi ning võimalikke makse ja lisatasusid. 
+<span data-ttu-id="bf073-105">Artikkel tutvustab projektipakkumiste mõistet, mida saate projektifaasi esimese etapina kasutada kliendile atraktiivse pakkumise tegemiseks.</span><span class="sxs-lookup"><span data-stu-id="bf073-105">This article introduces the concept of project quotations, which you can use to make an attractive offer to a customer as the first step of the project phase.</span></span> <span data-ttu-id="bf073-106">Projektipakkumine võib hõlmata pakutavaid kaupu ja teenuseid, peamist kontaktteavet, erilisi kaubandusleppeid ja allahindlusi ning võimalikke makse ja lisatasusid.</span><span class="sxs-lookup"><span data-stu-id="bf073-106">A project quotation might include the items and services that are quoted, basic contact information, special trade agreements and discounts, and possible taxes and surcharges.</span></span> 
 
-Võimalus projekti pakkumiste ja tellimuste müügivõimalusi jälgida, läbi vaadata ning juhtida on projektihalduse oluline osa. Nende ülesannete täitmisel saate kasutada mitmesuguseid Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni tööriistu. Müügivõimaluste analüüsimisel on abiks näiteks õiged viiteandmete definitsioonid (pakkumiste tüübid, pakkumise päritolu, pakkumise prognoos ja pakkumise tõenäosus). Nende tööriistade abil saate analüüsida, miks projektipakkumine võitis või kaotas ja määrata pakkumise võimalikku väärtust. 
+<span data-ttu-id="bf073-107">Võimalus projekti pakkumiste ja tellimuste müügivõimalusi jälgida, läbi vaadata ning juhtida on projektihalduse oluline osa.</span><span class="sxs-lookup"><span data-stu-id="bf073-107">The ability to monitor, review, and control the pipeline of project quotations and orders is an important part of project management.</span></span> <span data-ttu-id="bf073-108">Nende ülesannete täitmisel saate kasutada mitmesuguseid Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni tööriistu.</span><span class="sxs-lookup"><span data-stu-id="bf073-108">Various tools in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition can help with these tasks.</span></span> <span data-ttu-id="bf073-109">Müügivõimaluste analüüsimisel on abiks näiteks õiged viiteandmete definitsioonid (pakkumiste tüübid, pakkumise päritolu, pakkumise prognoos ja pakkumise tõenäosus).</span><span class="sxs-lookup"><span data-stu-id="bf073-109">For example, correct reference data definitions (quotation types, quotation origin, and prognosis and probability) help you analyze the pipeline.</span></span> <span data-ttu-id="bf073-110">Nende tööriistade abil saate analüüsida, miks projektipakkumine võitis või kaotas ja määrata pakkumise võimalikku väärtust.</span><span class="sxs-lookup"><span data-stu-id="bf073-110">You can use these tools to categorize the reasons why a project quotation was won or lost, and to determine the potential value of a quotation.</span></span> 
 
-Projektipakkumises saate sisestada projekti teenused, peamise kontaktteabe, konkreetsed kaubanduslepped ja allahindlused ning hinnangulised maksud ja lisatasud. Saate valida projektile ka tegevused või ülesanded ning luua ülesannete ja alamülesannete hierarhia. Iga tegevuse puhul saate sisestada üksikasjad selle aja ja kestuse kohta ning teabe tegevust läbiviivate töötajate puhul nõutavad oskused ja kogemused. 
+<span data-ttu-id="bf073-111">Projektipakkumises saate sisestada projekti teenused, peamise kontaktteabe, konkreetsed kaubanduslepped ja allahindlused ning hinnangulised maksud ja lisatasud.</span><span class="sxs-lookup"><span data-stu-id="bf073-111">In a project quotation, you enter the services, basic contact information, special trade agreements and discounts, and estimated taxes and surcharges for a project.</span></span> <span data-ttu-id="bf073-112">Saate valida projektile ka tegevused või ülesanded ning luua ülesannete ja alamülesannete hierarhia.</span><span class="sxs-lookup"><span data-stu-id="bf073-112">You can also select the activities or tasks for a project, and create a hierarchy of tasks and subtasks.</span></span> <span data-ttu-id="bf073-113">Iga tegevuse puhul saate sisestada üksikasjad selle aja ja kestuse kohta ning teabe tegevust läbiviivate töötajate puhul nõutavad oskused ja kogemused.</span><span class="sxs-lookup"><span data-stu-id="bf073-113">For each activity, you can enter details about the timing and duration of the activity, and about the skills and experience that are required for workers who perform the activity.</span></span> 
 
-Projektipakkumine on mittesiduv hinnang tehtavale tööle. Kui aga pakkumises olev teave kopeeritakse projekti, mis seostatakse projektilepinguga, muutub see teave kahe osapoole vahelise siduva lepingu osaks. 
+<span data-ttu-id="bf073-114">Projektipakkumine on mittesiduv hinnang tehtavale tööle.</span><span class="sxs-lookup"><span data-stu-id="bf073-114">The project quotation is a non-binding estimate of the work that must be performed.</span></span> <span data-ttu-id="bf073-115">Kui aga pakkumises olev teave kopeeritakse projekti, mis seostatakse projektilepinguga, muutub see teave kahe osapoole vahelise siduva lepingu osaks.</span><span class="sxs-lookup"><span data-stu-id="bf073-115">However, when the information in the quotation is copied to a project that is associated with a project contract, that information becomes part of a binding agreement between two parties.</span></span> 
 
-Kui klient kinnitab projektipakkumise, saate selles oleva teabe kopeerida projekti. Saate samal ajal kopeerida projektipakkumise teabe ka projekti eelarvesse.
+<span data-ttu-id="bf073-116">Kui klient kinnitab projektipakkumise, saate selles oleva teabe kopeerida projekti.</span><span class="sxs-lookup"><span data-stu-id="bf073-116">If the customer approves the project quotation, you can copy the information in the project quotation to a project.</span></span> <span data-ttu-id="bf073-117">Saate samal ajal kopeerida projektipakkumise teabe ka projekti eelarvesse.</span><span class="sxs-lookup"><span data-stu-id="bf073-117">You can also copy the project quotation information to a project forecast at the same time.</span></span>
 
 
 

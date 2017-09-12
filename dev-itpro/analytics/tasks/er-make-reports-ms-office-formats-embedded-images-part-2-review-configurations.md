@@ -16,80 +16,80 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 21e73f9e7e3fbab4c62786e689f72127598d1961
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 19757b1b8f932113361b6e5d210a66f149a212f6
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a>Konfiguratsioonide läbivaatus elektroonilise aruandluse aruannete (ER) koostamiseks manustatud piltidega Microsoft Office'i vormingus
+# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a><span data-ttu-id="7551d-103">Konfiguratsioonide läbivaatus elektroonilise aruandluse aruannete (ER) koostamiseks manustatud piltidega Microsoft Office'i vormingus</span><span class="sxs-lookup"><span data-stu-id="7551d-103">Review configurations to make reports in Microsoft Office formats with embedded images for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Toimingute teostamiseks peab esmalt täitma juhendis "ER MS Office'i vormingutes manuspiltidega aruannete koostamine (1. osa: parameetrite häälestamine)" toodud toimingud.
+<span data-ttu-id="7551d-104">Toimingute teostamiseks peab esmalt täitma juhendis "ER MS Office'i vormingutes manuspiltidega aruannete koostamine (1. osa: parameetrite häälestamine)" toodud toimingud.</span><span class="sxs-lookup"><span data-stu-id="7551d-104">To complete these steps, you must first complete the steps in the “ER Make reports in MS Office formats with embedded images (Part 1: Set up parameters)” task guide.</span></span>
 
-See toiming kirjeldab Microsoft Excelis ja Microsoft Wordis manuspilte sisaldavate elektrooniliste dokumentide loomiseks elektroonilise aruandluse (ER) konfiguratsioonide kujundamist. Selles näites vaatate üle näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse konfiguratsioonid. 
+<span data-ttu-id="7551d-105">See toiming kirjeldab Microsoft Excelis ja Microsoft Wordis manuspilte sisaldavate elektrooniliste dokumentide loomiseks elektroonilise aruandluse (ER) konfiguratsioonide kujundamist.</span><span class="sxs-lookup"><span data-stu-id="7551d-105">This procedure shows how to design Electronic reporting (ER) configurations to generate electronic documents that contain embedded images in Microsoft Excel and Microsoft Word.</span></span> <span data-ttu-id="7551d-106">Selles näites vaatate üle näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="7551d-106">In this example, you will review ER configurations for the sample company Litware, Inc.</span></span> 
 
-Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia USMF-i andmekomplekti abil.
+<span data-ttu-id="7551d-107">Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll.</span><span class="sxs-lookup"><span data-stu-id="7551d-107">This procedure is intended for users who have the System administrator or Electronic reporting developer role assigned to them.</span></span> <span data-ttu-id="7551d-108">Need toimingud saab lõpule viia USMF-i andmekomplekti abil.</span><span class="sxs-lookup"><span data-stu-id="7551d-108">The steps can be completed by using the USMF data set.</span></span>
 
 
-## <a name="review-the-imported-data-model"></a>Vaadake üle imporditud andmemudel
-1. Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.
-2. Valige puus väärtus Tšekkide mudel.
-3. Klõpsake valikut Kujundaja.
-    * See mudel on ette nähtud maksetšekkide tähistamiseks ettevõtte seisukohast ja selle mudeli vastendamiseks rakenduse andmeallikatega. Vaadake see mudel üle ER-i operatsioonide kujundaja abil. Vaadake esitatud mudelielementide atribuute: struktuur, nimi, kirjeldus, andmetüüp jne.   
-4. Laiendage puul valikut „root".
-5. Tehke puul valik „root\cheques".
-6. Laiendage puul valikut „root\cheques"
-7. Laiendage puul valikut „root\cheques\attributes".
-8. Laiendage puul valikut „root\payer".
-9. Tehke puul valik „root\istestrun".
-10. Tehke puul valik „root\layout".
-    * Selle mudeli paigutuselement tähistab valitud pangakontoga seotud tšeki printimise vormi paigutuse üksikasju. See hõlmab piltide salvestamiseks ka kaht andmetüübi Konteiner sõlme.   
-11. Laiendage puul valikut „root\layout".
-12. Tehke puul valik „root\layout\company logo".
-13. Laiendage puul valikut „root\layout\company logo".
-14. Tehke puul valik „root\layout\company logo\image".
-15. Tehke puul valik „root\layout\company logo\isprinted".
-16. Tehke puul valik „root\layout\signature"
-17. Laiendage puul valikut „root\layout\signature".
-18. Tehke puul valik „root\layout\signature\image".
-19. Tehke puul valik „root\layout\signature\isprinted".
-    * Pange tähele, et kaks pildi andmemudeli elementi on seotud nende tabelite väljadega, mis sisaldavad binaarvormingus ettevõtte logo ja volitatud isiku allkirja.  
-20. Laiendage puul valikut „root\layout\watermark".
-21. Klõpsake suvandit Mudeli vastendamine andmeallikaga.
-22. Klõpsake valikut Kujundaja.
-23. Laiendage puul valikut „chequesselected".
-24. Laiendage puus valik layout.
-25. Laiendage puul valikut „layout\company logo".
-26. Laiendage puus valik „layout\signature“.
-27. Laiendage puul valikut „layout\watermark".
-28. Lülitage nupp Kuva üksikasjad sisse.
-    * Pange tähele, et tšekkide andmemudeli element on seotud tabeliga TmpChequePrintout, mis sisaldab käitusajal nende tšekkide kirjeid, mille kasutaja on valinud printimiseks.   
-29. Sulgege leht.
-30. Sulgege leht.
-31. Sulgege leht.
+## <a name="review-the-imported-data-model"></a><span data-ttu-id="7551d-109">Vaadake üle imporditud andmemudel</span><span class="sxs-lookup"><span data-stu-id="7551d-109">Review the imported data model</span></span>
+1. <span data-ttu-id="7551d-110">Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="7551d-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="7551d-111">Valige puus väärtus Tšekkide mudel.</span><span class="sxs-lookup"><span data-stu-id="7551d-111">In the tree, select 'Model for cheques'.</span></span>
+3. <span data-ttu-id="7551d-112">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="7551d-112">Click Designer.</span></span>
+    * <span data-ttu-id="7551d-113">See mudel on ette nähtud maksetšekkide tähistamiseks ettevõtte seisukohast ja selle mudeli vastendamiseks rakenduse andmeallikatega.</span><span class="sxs-lookup"><span data-stu-id="7551d-113">This model is designed to represent payment cheques from the business standpoint and the mapping of this model to the application’s data sources.</span></span> <span data-ttu-id="7551d-114">Vaadake see mudel üle ER-i operatsioonide kujundaja abil.</span><span class="sxs-lookup"><span data-stu-id="7551d-114">Review this model by the ER Operations designer.</span></span> <span data-ttu-id="7551d-115">Vaadake esitatud mudelielementide atribuute: struktuur, nimi, kirjeldus, andmetüüp jne.</span><span class="sxs-lookup"><span data-stu-id="7551d-115">Note the attributes of the model elements that are presented: structure, name, description, data type, and so on.</span></span>   
+4. <span data-ttu-id="7551d-116">Laiendage puul valikut „root".</span><span class="sxs-lookup"><span data-stu-id="7551d-116">In the tree, expand 'root'.</span></span>
+5. <span data-ttu-id="7551d-117">Tehke puul valik „root\cheques".</span><span class="sxs-lookup"><span data-stu-id="7551d-117">In the tree, select 'root\cheques'.</span></span>
+6. <span data-ttu-id="7551d-118">Laiendage puul valikut „root\cheques"</span><span class="sxs-lookup"><span data-stu-id="7551d-118">In the tree, expand 'root\cheques'.</span></span>
+7. <span data-ttu-id="7551d-119">Laiendage puul valikut „root\cheques\attributes".</span><span class="sxs-lookup"><span data-stu-id="7551d-119">In the tree, expand 'root\cheques\attributes'.</span></span>
+8. <span data-ttu-id="7551d-120">Laiendage puul valikut „root\payer".</span><span class="sxs-lookup"><span data-stu-id="7551d-120">In the tree, expand 'root\payer'.</span></span>
+9. <span data-ttu-id="7551d-121">Tehke puul valik „root\istestrun".</span><span class="sxs-lookup"><span data-stu-id="7551d-121">In the tree, select 'root\istestrun'.</span></span>
+10. <span data-ttu-id="7551d-122">Tehke puul valik „root\layout".</span><span class="sxs-lookup"><span data-stu-id="7551d-122">In the tree, select 'root\layout'.</span></span>
+    * <span data-ttu-id="7551d-123">Selle mudeli paigutuselement tähistab valitud pangakontoga seotud tšeki printimise vormi paigutuse üksikasju.</span><span class="sxs-lookup"><span data-stu-id="7551d-123">The layout element of this model represents the details of the printing cheque form layout for the selected bank account.</span></span> <span data-ttu-id="7551d-124">See hõlmab piltide salvestamiseks ka kaht andmetüübi Konteiner sõlme.</span><span class="sxs-lookup"><span data-stu-id="7551d-124">It also includes two nodes of the Container data type to store images.</span></span>   
+11. <span data-ttu-id="7551d-125">Laiendage puul valikut „root\layout".</span><span class="sxs-lookup"><span data-stu-id="7551d-125">In the tree, expand 'root\layout'.</span></span>
+12. <span data-ttu-id="7551d-126">Tehke puul valik „root\layout\company logo".</span><span class="sxs-lookup"><span data-stu-id="7551d-126">In the tree, select 'root\layout\company logo'.</span></span>
+13. <span data-ttu-id="7551d-127">Laiendage puul valikut „root\layout\company logo".</span><span class="sxs-lookup"><span data-stu-id="7551d-127">In the tree, expand 'root\layout\company logo'.</span></span>
+14. <span data-ttu-id="7551d-128">Tehke puul valik „root\layout\company logo\image".</span><span class="sxs-lookup"><span data-stu-id="7551d-128">In the tree, select 'root\layout\company logo\image'.</span></span>
+15. <span data-ttu-id="7551d-129">Tehke puul valik „root\layout\company logo\isprinted".</span><span class="sxs-lookup"><span data-stu-id="7551d-129">In the tree, select 'root\layout\company logo\isprinted'.</span></span>
+16. <span data-ttu-id="7551d-130">Tehke puul valik „root\layout\signature"</span><span class="sxs-lookup"><span data-stu-id="7551d-130">In the tree, select 'root\layout\signature'.</span></span>
+17. <span data-ttu-id="7551d-131">Laiendage puul valikut „root\layout\signature".</span><span class="sxs-lookup"><span data-stu-id="7551d-131">In the tree, expand 'root\layout\signature'.</span></span>
+18. <span data-ttu-id="7551d-132">Tehke puul valik „root\layout\signature\image".</span><span class="sxs-lookup"><span data-stu-id="7551d-132">In the tree, select 'root\layout\signature\image'.</span></span>
+19. <span data-ttu-id="7551d-133">Tehke puul valik „root\layout\signature\isprinted".</span><span class="sxs-lookup"><span data-stu-id="7551d-133">In the tree, select 'root\layout\signature\isprinted'.</span></span>
+    * <span data-ttu-id="7551d-134">Pange tähele, et kaks pildi andmemudeli elementi on seotud nende tabelite väljadega, mis sisaldavad binaarvormingus ettevõtte logo ja volitatud isiku allkirja.</span><span class="sxs-lookup"><span data-stu-id="7551d-134">Note that two image data model elements are bound to the fields of the tables that contain images of the company logo and the authorized person’s signature in binary format.</span></span>  
+20. <span data-ttu-id="7551d-135">Laiendage puul valikut „root\layout\watermark".</span><span class="sxs-lookup"><span data-stu-id="7551d-135">In the tree, expand 'root\layout\watermark'.</span></span>
+21. <span data-ttu-id="7551d-136">Klõpsake suvandit Mudeli vastendamine andmeallikaga.</span><span class="sxs-lookup"><span data-stu-id="7551d-136">Click Map model to datasource.</span></span>
+22. <span data-ttu-id="7551d-137">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="7551d-137">Click Designer.</span></span>
+23. <span data-ttu-id="7551d-138">Laiendage puul valikut „chequesselected".</span><span class="sxs-lookup"><span data-stu-id="7551d-138">In the tree, expand 'chequesselected'.</span></span>
+24. <span data-ttu-id="7551d-139">Laiendage puus valik layout.</span><span class="sxs-lookup"><span data-stu-id="7551d-139">In the tree, expand 'layout'.</span></span>
+25. <span data-ttu-id="7551d-140">Laiendage puul valikut „layout\company logo".</span><span class="sxs-lookup"><span data-stu-id="7551d-140">In the tree, expand 'layout\company logo'.</span></span>
+26. <span data-ttu-id="7551d-141">Laiendage puus valik „layout\signature“.</span><span class="sxs-lookup"><span data-stu-id="7551d-141">In the tree, expand 'layout\signature'.</span></span>
+27. <span data-ttu-id="7551d-142">Laiendage puul valikut „layout\watermark".</span><span class="sxs-lookup"><span data-stu-id="7551d-142">In the tree, expand 'layout\watermark'.</span></span>
+28. <span data-ttu-id="7551d-143">Lülitage nupp Kuva üksikasjad sisse.</span><span class="sxs-lookup"><span data-stu-id="7551d-143">Toggle 'Show details' on.</span></span>
+    * <span data-ttu-id="7551d-144">Pange tähele, et tšekkide andmemudeli element on seotud tabeliga TmpChequePrintout, mis sisaldab käitusajal nende tšekkide kirjeid, mille kasutaja on valinud printimiseks.</span><span class="sxs-lookup"><span data-stu-id="7551d-144">Note that the cheques data model element is bound to the TmpChequePrintout table that, at runtime, will contain records for cheques that the user has selected for printing.</span></span>   
+29. <span data-ttu-id="7551d-145">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7551d-145">Close the page.</span></span>
+30. <span data-ttu-id="7551d-146">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7551d-146">Close the page.</span></span>
+31. <span data-ttu-id="7551d-147">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7551d-147">Close the page.</span></span>
 
-## <a name="review-the-imported-format"></a>Vaadake üle imporditud vorming
-1. Laiendage puus valik Tšekkide mudel.
-2. Valige puus „Model for cheques\Cheques printing format“.
-3. Klõpsake valikut Kujundaja.
-4. Klõpsake suvandit Manused.
-5. Klõpsake valikut Ava.
-    * Avage manustatud aruande mall Excelis.  
-    * Vaadake läbi manustatud aruande Exceli mall, mida kasutatakse tšekkide printimiseks. Mall sisaldab kaht tšekki lehe kohta ja see on mõeldud tšekkide printimiseks eelprinditud vormile. Võtke arvesse, et kaks tühja pilti on manustatud. Tühjad pildid on ette nähtud ettevõtte logo ja makse autoriseerija allkirja jaoks. Veenduge, et piltidel on Excelis vastavalt nimed CompLogo ja SignatureImage.   
-6. Sulgege leht.
-7. Laiendage puul valikut „Report".
-8. Laiendage puul valikut „Report\ChequeLines".
-9. Tehke puul valik „Report\ChequeLines\CompLogo".
-10. Lülitage nupp Kuva üksikasjad sisse.
-    * Pange tähele, et pildi CompLogo vormingu lahtrielement tähistab Exceli üksust, mille abil täidetakse aruandes ettevõtte logo pilt. See vorming on seotud pildi andmemudeli elemendiga, mis sisaldab käitusajal ettevõtte logo binaarvormingus pilti.   
-11. Klõpsake vahekaarti Vastendus.
-12. Klõpsake valikut Redigeerimine on lubatud.
-    * Pange tähele, et saate luua „CompLogo" vormingu lahtrielementi sel viisil, et see pole enam lubatud. Sel juhul peidab Exceli seotud pildielement loodud aruandes ettevõtte logo. Kui lubatud avaldis tagastab väärtuse TRUE ja määratletud seos ei kuva pilti, kuvab Exceli seotud pildielement Exceli malli salvestatud pilti.   
-13. Sulgege leht.
-14. Laiendage puul valikut „labels: Container".
-    * Mõned eelprinditud tšekivormidel olevad sildid kaasatakse aruandesse selle testimise eesmärgil loomisel. Neid silte aga ei prindita reaalse printimise ajal, kuna eelprinditud vorm juba sisaldab neid.  
-15. Sulgege leht.
+## <a name="review-the-imported-format"></a><span data-ttu-id="7551d-148">Vaadake üle imporditud vorming</span><span class="sxs-lookup"><span data-stu-id="7551d-148">Review the imported format</span></span>
+1. <span data-ttu-id="7551d-149">Laiendage puus valik Tšekkide mudel.</span><span class="sxs-lookup"><span data-stu-id="7551d-149">In the tree, expand 'Model for cheques'.</span></span>
+2. <span data-ttu-id="7551d-150">Valige puus „Model for cheques\Cheques printing format“.</span><span class="sxs-lookup"><span data-stu-id="7551d-150">In the tree, select 'Model for cheques\Cheques printing format'.</span></span>
+3. <span data-ttu-id="7551d-151">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="7551d-151">Click Designer.</span></span>
+4. <span data-ttu-id="7551d-152">Klõpsake suvandit Manused.</span><span class="sxs-lookup"><span data-stu-id="7551d-152">Click Attachments.</span></span>
+5. <span data-ttu-id="7551d-153">Klõpsake valikut Ava.</span><span class="sxs-lookup"><span data-stu-id="7551d-153">Click Open.</span></span>
+    * <span data-ttu-id="7551d-154">Avage manustatud aruande mall Excelis.</span><span class="sxs-lookup"><span data-stu-id="7551d-154">Open the attached report’s template in Excel.</span></span>  
+    * <span data-ttu-id="7551d-155">Vaadake läbi manustatud aruande Exceli mall, mida kasutatakse tšekkide printimiseks.</span><span class="sxs-lookup"><span data-stu-id="7551d-155">Review the attached report’s Excel template that will be used to print cheques.</span></span> <span data-ttu-id="7551d-156">Mall sisaldab kaht tšekki lehe kohta ja see on mõeldud tšekkide printimiseks eelprinditud vormile.</span><span class="sxs-lookup"><span data-stu-id="7551d-156">The template contains two cheques per page and is designed to print cheques to the preprinted form.</span></span> <span data-ttu-id="7551d-157">Võtke arvesse, et kaks tühja pilti on manustatud.</span><span class="sxs-lookup"><span data-stu-id="7551d-157">Note that two blank images are embedded.</span></span> <span data-ttu-id="7551d-158">Tühjad pildid on ette nähtud ettevõtte logo ja makse autoriseerija allkirja jaoks.</span><span class="sxs-lookup"><span data-stu-id="7551d-158">These blank images are for the company logo and the signature of the person who is authorizing a payment.</span></span> <span data-ttu-id="7551d-159">Veenduge, et piltidel on Excelis vastavalt nimed CompLogo ja SignatureImage.</span><span class="sxs-lookup"><span data-stu-id="7551d-159">Verify that the images are named CompLogo and SignatureImage, respectively, in Excel.</span></span>   
+6. <span data-ttu-id="7551d-160">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7551d-160">Close the page.</span></span>
+7. <span data-ttu-id="7551d-161">Laiendage puul valikut „Report".</span><span class="sxs-lookup"><span data-stu-id="7551d-161">In the tree, expand 'Report'.</span></span>
+8. <span data-ttu-id="7551d-162">Laiendage puul valikut „Report\ChequeLines".</span><span class="sxs-lookup"><span data-stu-id="7551d-162">In the tree, expand 'Report\ChequeLines'.</span></span>
+9. <span data-ttu-id="7551d-163">Tehke puul valik „Report\ChequeLines\CompLogo".</span><span class="sxs-lookup"><span data-stu-id="7551d-163">In the tree, select 'Report\ChequeLines\CompLogo'.</span></span>
+10. <span data-ttu-id="7551d-164">Lülitage nupp Kuva üksikasjad sisse.</span><span class="sxs-lookup"><span data-stu-id="7551d-164">Toggle 'Show details' on.</span></span>
+    * <span data-ttu-id="7551d-165">Pange tähele, et pildi CompLogo vormingu lahtrielement tähistab Exceli üksust, mille abil täidetakse aruandes ettevõtte logo pilt.</span><span class="sxs-lookup"><span data-stu-id="7551d-165">Note that the ‘CompLogo’ format’s cell element represents the Excel item that is used to populate the company logo image in the report.</span></span> <span data-ttu-id="7551d-166">See vorming on seotud pildi andmemudeli elemendiga, mis sisaldab käitusajal ettevõtte logo binaarvormingus pilti.</span><span class="sxs-lookup"><span data-stu-id="7551d-166">This format element is bound to the image data model element that, at runtime, contains a company logo image in binary format.</span></span>   
+11. <span data-ttu-id="7551d-167">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="7551d-167">Click the Mapping tab.</span></span>
+12. <span data-ttu-id="7551d-168">Klõpsake valikut Redigeerimine on lubatud.</span><span class="sxs-lookup"><span data-stu-id="7551d-168">Click Edit enabled.</span></span>
+    * <span data-ttu-id="7551d-169">Pange tähele, et saate luua „CompLogo" vormingu lahtrielementi sel viisil, et see pole enam lubatud.</span><span class="sxs-lookup"><span data-stu-id="7551d-169">Note that you can make the ‘CompLogo’ format’s cell element so that it’s no longer enabled.</span></span> <span data-ttu-id="7551d-170">Sel juhul peidab Exceli seotud pildielement loodud aruandes ettevõtte logo.</span><span class="sxs-lookup"><span data-stu-id="7551d-170">In this case, the associated Excel image element will hide a company logo in the generated report.</span></span> <span data-ttu-id="7551d-171">Kui lubatud avaldis tagastab väärtuse TRUE ja määratletud seos ei kuva pilti, kuvab Exceli seotud pildielement Exceli malli salvestatud pilti.</span><span class="sxs-lookup"><span data-stu-id="7551d-171">If the enabled expression returns TRUE and the defined binding brings no image, the associated Excel image element will show an image that has been saved in the Excel template.</span></span>   
+13. <span data-ttu-id="7551d-172">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7551d-172">Close the page.</span></span>
+14. <span data-ttu-id="7551d-173">Laiendage puul valikut „labels: Container".</span><span class="sxs-lookup"><span data-stu-id="7551d-173">In the tree, expand 'labels: Container'.</span></span>
+    * <span data-ttu-id="7551d-174">Mõned eelprinditud tšekivormidel olevad sildid kaasatakse aruandesse selle testimise eesmärgil loomisel.</span><span class="sxs-lookup"><span data-stu-id="7551d-174">Some labels that are presented in the preprinted cheque form will be included in the report when it’s created for testing purposes.</span></span> <span data-ttu-id="7551d-175">Neid silte aga ei prindita reaalse printimise ajal, kuna eelprinditud vorm juba sisaldab neid.</span><span class="sxs-lookup"><span data-stu-id="7551d-175">However, those labels won’t be printed during real printing, because the preprinted form already includes them.</span></span>  
+15. <span data-ttu-id="7551d-176">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7551d-176">Close the page.</span></span>
 
 

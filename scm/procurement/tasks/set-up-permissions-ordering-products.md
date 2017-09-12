@@ -16,35 +16,35 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 8f12f9eb949034f9bef91d93f31a0f3373e39e98
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9e003f953c05facd5516e2bfa6d1c83ba6381c15
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Teise isiku nimel toodete tellimise õiguste seadistamine
+# <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="0b7f0-103">Teise isiku nimel toodete tellimise õiguste seadistamine</span><span class="sxs-lookup"><span data-stu-id="0b7f0-103">Set up permissions for ordering products on behalf of someone else</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas anda töötajatele õigus teiste töötajate nimel ostutaotlusi koostada. Teisisõnu saab ostutaotluse "ettevalmistaja" luua nõude teisele "nõude esitajale". See protseduur demonstreerib ka seda, kuidas anda töötajale õigus tellida kaupu ja teenuseid erinevate juriidiliste isikute või tootmisüksuste kaudu. Tavaliselt teeb need toimingud ostujuht. Saate seda protseduuri kasutada demoettevõtte USMF või oma andmeid kasutades.
+<span data-ttu-id="0b7f0-104">See protseduur näitab, kuidas anda töötajatele õigus teiste töötajate nimel ostutaotlusi koostada.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-104">This procedure shows how to grant workers permission to prepare purchase requisitions on behalf of other workers.</span></span> <span data-ttu-id="0b7f0-105">Teisisõnu saab ostutaotluse "ettevalmistaja" luua nõude teisele "nõude esitajale".</span><span class="sxs-lookup"><span data-stu-id="0b7f0-105">In other words, a purchase requisition “preparer” can create a requisition for another “requester.”</span></span> <span data-ttu-id="0b7f0-106">See protseduur demonstreerib ka seda, kuidas anda töötajale õigus tellida kaupu ja teenuseid erinevate juriidiliste isikute või tootmisüksuste kaudu.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-106">The procedure also shows how to grant a worker permission to order items and services in different legal entities or operating units.</span></span> <span data-ttu-id="0b7f0-107">Tavaliselt teeb need toimingud ostujuht.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-107">Typically, these tasks are performed by a purchasing manager.</span></span> <span data-ttu-id="0b7f0-108">Saate seda protseduuri kasutada demoettevõtte USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-108">You can use this procedure either on data for the USMF demo company or on your own data.</span></span>
 
 
-## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Õiguse andmine ostutaotluste sisestamiseks teise töötaja nimel
-1. Valige Hanked > Seadistus > Poliitikad > Ostutaotluse õigused.
-    * Veenduge, et väljal Praegune vaade oleks määratud väärtus Ettevalmistajalt.  Vasakul paanil olevas loendis on näidatud inimesed, kellele saab anda loa koostada teiste inimeste nimel ostutaotlusi.  
-2. Valige isik, kellele õigus anda (ettevalmistaja).
-3. Klõpsake vahekaarti Lisa.
-4. Otsige üles ja valige inimene, kes nõude esitajana lisada.
-    * Nõude esitaja on isik, kelle nimel ettevalmistaja saab taotlusi koostada.  
-    * Tehke väljal Autoriseerimine valik Konkreetne, kui ettevalmistaja peaks saama valitud töötaja nimel ostutaotlusi koostada. Valige Aruandlus, kui koostaja peaks saama koostada ostutaotlusi ka kõikide nende töötajate nimel, kes sellele töötajale alluvad.  
-5. Sisestage kuupäev väljale Jõustunud.
-6. Sisestage kuupäev väljale Aegumine.
+## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a><span data-ttu-id="0b7f0-109">Õiguse andmine ostutaotluste sisestamiseks teise töötaja nimel</span><span class="sxs-lookup"><span data-stu-id="0b7f0-109">Grant permission to enter purchase requisitions on behalf of another worker</span></span>
+1. <span data-ttu-id="0b7f0-110">Valige Hanked > Seadistus > Poliitikad > Ostutaotluse õigused.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-110">Go to Procurement and sourcing > Setup > Policies > Purchase requisition permissions.</span></span>
+    * <span data-ttu-id="0b7f0-111">Veenduge, et väljal Praegune vaade oleks määratud väärtus Ettevalmistajalt.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-111">Make sure that the Current view field is set to By preparer.</span></span>  <span data-ttu-id="0b7f0-112">Vasakul paanil olevas loendis on näidatud inimesed, kellele saab anda loa koostada teiste inimeste nimel ostutaotlusi.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-112">The list in the left pane shows the people who can be granted permission to prepare requisitions on behalf of other people.</span></span>  
+2. <span data-ttu-id="0b7f0-113">Valige isik, kellele õigus anda (ettevalmistaja).</span><span class="sxs-lookup"><span data-stu-id="0b7f0-113">Select the person to grant permission to (the preparer).</span></span>
+3. <span data-ttu-id="0b7f0-114">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-114">Click Add.</span></span>
+4. <span data-ttu-id="0b7f0-115">Otsige üles ja valige inimene, kes nõude esitajana lisada.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-115">Find and select the person to add as a requester.</span></span>
+    * <span data-ttu-id="0b7f0-116">Nõude esitaja on isik, kelle nimel ettevalmistaja saab taotlusi koostada.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-116">The requester is the person that the preparer can create requisitions on behalf of.</span></span>  
+    * <span data-ttu-id="0b7f0-117">Tehke väljal Autoriseerimine valik Konkreetne, kui ettevalmistaja peaks saama valitud töötaja nimel ostutaotlusi koostada.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-117">In the Authorization field, select Specific if the preparer should be able to create purchase requisitions on behalf of the selected worker.</span></span> <span data-ttu-id="0b7f0-118">Valige Aruandlus, kui koostaja peaks saama koostada ostutaotlusi ka kõikide nende töötajate nimel, kes sellele töötajale alluvad.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-118">Select Reporting if the preparer should also be able to create purchase requisitions on behalf of all workers who report to that worker.</span></span>  
+5. <span data-ttu-id="0b7f0-119">Sisestage kuupäev väljale Jõustunud.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-119">In the Effective field, enter a date.</span></span>
+6. <span data-ttu-id="0b7f0-120">Sisestage kuupäev väljale Aegumine.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-120">In the Expiration field, enter a date.</span></span>
 
-## <a name="view-preparers-who-have-permission-to-create-purchase-requisitions-for-a-selected-worker"></a>Ettevalmistajate vaatamine, kellel on õigus koostada valitud töötaja eest ostutaotlusi
-1. Tehke väljal Praegune vaade valik Nõude esitajalt.
-    * Selles vaates on loend ettevalmistajatest, kellele on antud õigus valitud töötaja nimel ostutaotlusi koostada.  
-2. Otsige kiirfiltri abil üles töötaja, kelle just nõude esitajana lisasite.
-3. Valige nõude esitaja.
-    * Loendis Ettevalmistaja on inimesed, kellel on õigus tellida kaupu vasakul paanil valitud nõude esitaja nimel.   Siin saate lisada veel ettevalmistajaid.   Selles vaates saate anda nõude esitajale ka õiguse koostada taotlusi juriidilistes isikutes ja tootmisüksustes, mis ei ole selle inimese peamised juriidilised isikud või tootmisüksused.  
+## <a name="view-preparers-who-have-permission-to-create-purchase-requisitions-for-a-selected-worker"></a><span data-ttu-id="0b7f0-121">Ettevalmistajate vaatamine, kellel on õigus koostada valitud töötaja eest ostutaotlusi</span><span class="sxs-lookup"><span data-stu-id="0b7f0-121">View preparers who have permission to create purchase requisitions for a selected worker</span></span>
+1. <span data-ttu-id="0b7f0-122">Tehke väljal Praegune vaade valik Nõude esitajalt.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-122">In the Current view field, select 'By requester'.</span></span>
+    * <span data-ttu-id="0b7f0-123">Selles vaates on loend ettevalmistajatest, kellele on antud õigus valitud töötaja nimel ostutaotlusi koostada.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-123">This view shows a list of preparers who have been granted permission to create purchase requisitions on behalf of a selected worker.</span></span>  
+2. <span data-ttu-id="0b7f0-124">Otsige kiirfiltri abil üles töötaja, kelle just nõude esitajana lisasite.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-124">Use the Quick Filter to find the worker that you just added as the requester.</span></span>
+3. <span data-ttu-id="0b7f0-125">Valige nõude esitaja.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-125">Select the requester.</span></span>
+    * <span data-ttu-id="0b7f0-126">Loendis Ettevalmistaja on inimesed, kellel on õigus tellida kaupu vasakul paanil valitud nõude esitaja nimel.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-126">The Preparer list shows the people who have permission to order items on behalf of the requester who is selected in the left pane.</span></span>   <span data-ttu-id="0b7f0-127">Siin saate lisada veel ettevalmistajaid.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-127">You can add additional preparers here.</span></span>   <span data-ttu-id="0b7f0-128">Selles vaates saate anda nõude esitajale ka õiguse koostada taotlusi juriidilistes isikutes ja tootmisüksustes, mis ei ole selle inimese peamised juriidilised isikud või tootmisüksused.</span><span class="sxs-lookup"><span data-stu-id="0b7f0-128">This view also lets you grant the requester permission to create requisitions in legal entities and operating units that aren't that person's primary legal entity or operating unit.</span></span>  
 
 

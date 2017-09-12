@@ -17,81 +17,81 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4c2456fffd9a010728154749b35c58db13f142bb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks
+# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="9a8cb-103">Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks</span><span class="sxs-lookup"><span data-stu-id="9a8cb-103">Set up a location directive for purchase order put-away</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas seadistada lihtsat asukohakorraldust. Toodud näites luuakse asukohakorraldus, mille abil määratletakse, kuhu panna ostutellimuse jaoks vastu võetud kaubad. Saate kasutada selles ülesandejuhendis demoettevõtte USMF andmeid. Eeltingimused: peate looma likvideerimiskoodi. Kasutame selles protseduuris likvideerimiskoodi Ümbersildistamine. Kui loote asukohakorralduse oma andmete põhjal, peate seadistama oma lao ja kaupade jaoks täiendava laohalduse.  See protseduur on mõeldud laohaldurile.
+<span data-ttu-id="9a8cb-104">See protseduur näitab, kuidas seadistada lihtsat asukohakorraldust.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="9a8cb-105">Toodud näites luuakse asukohakorraldus, mille abil määratletakse, kuhu panna ostutellimuse jaoks vastu võetud kaubad.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="9a8cb-106">Saate kasutada selles ülesandejuhendis demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="9a8cb-107">Eeltingimused: peate looma likvideerimiskoodi.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="9a8cb-108">Kasutame selles protseduuris likvideerimiskoodi Ümbersildistamine.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="9a8cb-109">Kui loote asukohakorralduse oma andmete põhjal, peate seadistama oma lao ja kaupade jaoks täiendava laohalduse.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="9a8cb-110">See protseduur on mõeldud laohaldurile.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-110">This procedure is intended for the warehouse manager.</span></span>
 
-1. Avage Laohaldus > Seadistus > Asukohakorraldused.
-2. Valige väljal Töötellimuse tüüp suvand Ostutellimus.
+1. <span data-ttu-id="9a8cb-111">Avage Laohaldus > Seadistus > Asukohakorraldused.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-111">Go to Warehouse management > Setup > Location directives.</span></span>
+2. <span data-ttu-id="9a8cb-112">Valige väljal Töötellimuse tüüp suvand Ostutellimus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-112">In the Work order type field, select 'Purchase orders'.</span></span>
 
-## <a name="create-a-location-directive-header"></a>Asukohakorralduse päise loomine
-1. Klõpsake valikut Uus.
-2. Sisestage number väljale Seerianumber.
-    * See on asukohakorralduse töötlemise järjestus valitud töötüübi puhul. Vajaduse korral saate järjestust ka muuta.  
-3. Sisestage väärtus väljale Nimi.
-    * See on selle korralduse ainuidentifikaator.  
-4. Valige väljal Töö tüüp suvand Pane.
-    * Valige tehtava töö tüüp. Korralduse puhul, mille töötellimuse tüüp on Ostutellimus, on ainus toetatud väärtus Pane.  
-5. Sisestage väärtus väljale Koht.
-6. Sisestage väärtus väljale Ladu.
-    * Jätke väli Korraldusekood tühjaks.  Korraldusekoode kasutatakse töötellimuse rea, mille tüüp on Pane, linkimiseks kindla korraldusega. Ostutellimuste puhul lahendatakse viimase töötellimuse rea, mille tüüp on Pane, asukoht enne töömalli määratlemist. Seetõttu ei saa töömalli viimast rida ühendada kindla korraldusega.   
-7. Sisestage väärtus väljale Likvideerimiskood.
-    * Likvideerimiskood piirab asukohakorralduse kasutamist, nii et asukohakorraldust kasutatakse ainult siis, kui laotöötaja sisestab selle kindla väärtuse mobiilse seadme abil kauba registreerimisel.  
-8. Klõpsake nuppu Salvesta.
+## <a name="create-a-location-directive-header"></a><span data-ttu-id="9a8cb-113">Asukohakorralduse päise loomine</span><span class="sxs-lookup"><span data-stu-id="9a8cb-113">Create a location directive header</span></span>
+1. <span data-ttu-id="9a8cb-114">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-114">Click New.</span></span>
+2. <span data-ttu-id="9a8cb-115">Sisestage number väljale Seerianumber.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-115">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="9a8cb-116">See on asukohakorralduse töötlemise järjestus valitud töötüübi puhul.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-116">This is the sequence in which the location directive is processed for the selected work type.</span></span> <span data-ttu-id="9a8cb-117">Vajaduse korral saate järjestust ka muuta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-117">You can also modify the sequence, if needed.</span></span>  
+3. <span data-ttu-id="9a8cb-118">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="9a8cb-119">See on selle korralduse ainuidentifikaator.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-119">This is the unique identifier for this directive.</span></span>  
+4. <span data-ttu-id="9a8cb-120">Valige väljal Töö tüüp suvand Pane.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-120">In the Work type field, select 'Put'.</span></span>
+    * <span data-ttu-id="9a8cb-121">Valige tehtava töö tüüp.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-121">Select the type of work to be performed.</span></span> <span data-ttu-id="9a8cb-122">Korralduse puhul, mille töötellimuse tüüp on Ostutellimus, on ainus toetatud väärtus Pane.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-122">For directive with work order type Purchase order, Put is the only supported value.</span></span>  
+5. <span data-ttu-id="9a8cb-123">Sisestage väärtus väljale Koht.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-123">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="9a8cb-124">Sisestage väärtus väljale Ladu.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-124">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="9a8cb-125">Jätke väli Korraldusekood tühjaks.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-125">Leave the Directive code blank.</span></span>  <span data-ttu-id="9a8cb-126">Korraldusekoode kasutatakse töötellimuse rea, mille tüüp on Pane, linkimiseks kindla korraldusega.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-126">Directive codes are used to link a work order line of type Put to a specific directive.</span></span> <span data-ttu-id="9a8cb-127">Ostutellimuste puhul lahendatakse viimase töötellimuse rea, mille tüüp on Pane, asukoht enne töömalli määratlemist.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-127">For purchase orders, the location of the last work order line of type Put is resolved before the work template is determined.</span></span> <span data-ttu-id="9a8cb-128">Seetõttu ei saa töömalli viimast rida ühendada kindla korraldusega.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-128">Therefore it is not possible to connect the last line of a work template to a specific directive.</span></span>   
+7. <span data-ttu-id="9a8cb-129">Sisestage väärtus väljale Likvideerimiskood.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-129">In the Disposition code field, type a value.</span></span>
+    * <span data-ttu-id="9a8cb-130">Likvideerimiskood piirab asukohakorralduse kasutamist, nii et asukohakorraldust kasutatakse ainult siis, kui laotöötaja sisestab selle kindla väärtuse mobiilse seadme abil kauba registreerimisel.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-130">The Disposition code limits the use of the location directive, so the location directive is only used if the warehouse worker enters this specific value during registration of the item using a mobile device.</span></span>  
+8. <span data-ttu-id="9a8cb-131">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-131">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive"></a>Korralduse päringu redigeerimine
-1. Klõpsake suvandit Redigeeri päringut.
-    * Selle korralduse kasutamine on juba piiratud teie määratud laos registreeritud kaupade ja teie määratud likvideerimiskoodiga. Saate päringu abil lisada ka muid piiranguid.  
-2. Klõpsake nuppu OK.
+## <a name="edit-the-query-for-directive"></a><span data-ttu-id="9a8cb-132">Korralduse päringu redigeerimine</span><span class="sxs-lookup"><span data-stu-id="9a8cb-132">Edit the query for directive</span></span>
+1. <span data-ttu-id="9a8cb-133">Klõpsake suvandit Redigeeri päringut.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-133">Click Edit query.</span></span>
+    * <span data-ttu-id="9a8cb-134">Selle korralduse kasutamine on juba piiratud teie määratud laos registreeritud kaupade ja teie määratud likvideerimiskoodiga.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-134">The use of this directive is already limited to be used for items registered in the warehouse that you specified, and with the disposition code that you specified.</span></span> <span data-ttu-id="9a8cb-135">Saate päringu abil lisada ka muid piiranguid.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-135">You can add other constraints using the query.</span></span>  
+2. <span data-ttu-id="9a8cb-136">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-136">Click OK.</span></span>
 
-## <a name="add-directive-lines"></a>Korralduseridade lisamine
-1. Klõpsake valikut Uus.
-    * See on asukohakorralduse ridade töötlemise järjestus valitud töötüübi puhul. Vajaduse korral saate järjestust ka muuta.  
-2. Sisestage number väljale Alates kogusest.
-    * See on väikseim kogus, mille puhul see korralduserida kehtib.  
-3. Sisestage number väljale Kuni koguseni.
-4. Sisestage väärtus väljale Ühik.
-    * Väljade Alates kogusest ja Kuni koguseni väärtuse ühik. Kui jätate selle välja tühjaks, kasutatakse kauba varudeühikut.  
-5. Valige suvand väljal Koguse asukoha leidmine.
-    * Puudub või Litsentsiplaadi kogus: igale litsentsiplaadile registreeritud kogus. Ühikuna määratud kogus: kogu registreeritud kogus. Järelejäänud kogus: ostutellimuse realt veel registreeritav kogus. Oodatav kogus: kogu ostutellimuse real määratud kogus.  
-6. Märkige või tühjendage ruut Piira ühiku alusel.
-    * Kui valite selle suvandi ja määrate lehel Piiramine ühiku alusel soovitud ühiku, saab asukohta panna ainult selle mõõtühikuga kaubad. Näiteks kui mõõtühikuks on kaubaalused, saab määratud asukohta maha panna ainult kaubaalustel kaupu.  
-7. Märkige või tühjenadge ruut Luba tükeldamine.
-    * See võimaldab korraldusel jaotada koguse mitme asukoha vahel.  
-8. Klõpsake nuppu Salvesta.
+## <a name="add-directive-lines"></a><span data-ttu-id="9a8cb-137">Korralduseridade lisamine</span><span class="sxs-lookup"><span data-stu-id="9a8cb-137">Add directive lines</span></span>
+1. <span data-ttu-id="9a8cb-138">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-138">Click New.</span></span>
+    * <span data-ttu-id="9a8cb-139">See on asukohakorralduse ridade töötlemise järjestus valitud töötüübi puhul.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-139">This is the sequence in which the location directive lines are processed for the selected work type.</span></span> <span data-ttu-id="9a8cb-140">Vajaduse korral saate järjestust ka muuta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-140">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="9a8cb-141">Sisestage number väljale Alates kogusest.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-141">In the From quantity field, enter a number.</span></span>
+    * <span data-ttu-id="9a8cb-142">See on väikseim kogus, mille puhul see korralduserida kehtib.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-142">This is the lowest quantity that this directive line is valid for.</span></span>  
+3. <span data-ttu-id="9a8cb-143">Sisestage number väljale Kuni koguseni.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-143">In the To quantity field, enter a number.</span></span>
+4. <span data-ttu-id="9a8cb-144">Sisestage väärtus väljale Ühik.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-144">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="9a8cb-145">Väljade Alates kogusest ja Kuni koguseni väärtuse ühik.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-145">The unit the From quantity and To quantity is expressed in.</span></span> <span data-ttu-id="9a8cb-146">Kui jätate selle välja tühjaks, kasutatakse kauba varudeühikut.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-146">If you leave this field blank the inventory unit from the item is used.</span></span>  
+5. <span data-ttu-id="9a8cb-147">Valige suvand väljal Koguse asukoha leidmine.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-147">In the Locate quantity field, select an option.</span></span>
+    * <span data-ttu-id="9a8cb-148">Puudub või Litsentsiplaadi kogus: igale litsentsiplaadile registreeritud kogus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-148">None, or licence plate quantity: The quantity registered on each licence plate.</span></span> <span data-ttu-id="9a8cb-149">Ühikuna määratud kogus: kogu registreeritud kogus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-149">Unitized quantity: The entire quantity that’s been registered.</span></span> <span data-ttu-id="9a8cb-150">Järelejäänud kogus: ostutellimuse realt veel registreeritav kogus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-150">Remaining quantity: The quantity that is yet to be registered from the purchase order line.</span></span> <span data-ttu-id="9a8cb-151">Oodatav kogus: kogu ostutellimuse real määratud kogus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-151">Expected quantity: The total quantity that is specified on the purchase order line.</span></span>  
+6. <span data-ttu-id="9a8cb-152">Märkige või tühjendage ruut Piira ühiku alusel.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-152">Check or uncheck the Restrict by unit checkbox.</span></span>
+    * <span data-ttu-id="9a8cb-153">Kui valite selle suvandi ja määrate lehel Piiramine ühiku alusel soovitud ühiku, saab asukohta panna ainult selle mõõtühikuga kaubad.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-153">If you select this option, and specify the unit on the Restrict by unit page, only items with that unit of measurement can be put into the location.</span></span> <span data-ttu-id="9a8cb-154">Näiteks kui mõõtühikuks on kaubaalused, saab määratud asukohta maha panna ainult kaubaalustel kaupu.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-154">For example, if the unit of measurement is PL (pallets), only items in pallets can be put into the specified location.</span></span>  
+7. <span data-ttu-id="9a8cb-155">Märkige või tühjenadge ruut Luba tükeldamine.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-155">Check or uncheck the Allow split checkbox.</span></span>
+    * <span data-ttu-id="9a8cb-156">See võimaldab korraldusel jaotada koguse mitme asukoha vahel.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-156">This allows the directive to split the quantity across multiple locations.</span></span>  
+8. <span data-ttu-id="9a8cb-157">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-157">Click Save.</span></span>
 
-## <a name="restrict-the-directive-line-to-a-specific-unit"></a>Korralduserea piiramine kindla ühikuga
-1. Klõpsake suvandit Piira ühiku alusel.
-    * See nupp on saadaval ainult siis, kui vajutate pärast ruudu Piira ühiku alusel valimist nuppu Salvesta.  
-2. Sisestage väärtus väljale Ühik.
-3. Sulgege leht.
+## <a name="restrict-the-directive-line-to-a-specific-unit"></a><span data-ttu-id="9a8cb-158">Korralduserea piiramine kindla ühikuga</span><span class="sxs-lookup"><span data-stu-id="9a8cb-158">Restrict the directive line to a specific unit</span></span>
+1. <span data-ttu-id="9a8cb-159">Klõpsake suvandit Piira ühiku alusel.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-159">Click Restrict by unit.</span></span>
+    * <span data-ttu-id="9a8cb-160">See nupp on saadaval ainult siis, kui vajutate pärast ruudu Piira ühiku alusel valimist nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-160">This button is only available when you press Save after you have selected the Restrict by unit check box.</span></span>  
+2. <span data-ttu-id="9a8cb-161">Sisestage väärtus väljale Ühik.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-161">In the Unit field, type a value.</span></span>
+3. <span data-ttu-id="9a8cb-162">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-162">Close the page.</span></span>
 
-## <a name="add-a-location-directive-action-line"></a>Asukohakorralduse tegevuserea lisamine
-1. Klõpsake valikut Uus.
-    * See on asukohakorralduse tegevuseridade töötlemise järjestus valitud töötüübi puhul. Vajaduse korral saate järjestust ka muuta.  
-2. Sisestage väärtus väljale Nimi.
-    * See on selle korraldustegevuse ainuidentifikaator.  
-3. Valige suvand väljal Fikseeritud asukoha kasutus.
-    * Fikseeritud ja fikseerimata asukohad: kehtivad kõik fikseerimata asukohad ja ka toote oma fikseeritud asukoht päringus määratud vahemikus.  Ainult toote fikseeritud asukoht: kehtivad toote fikseeritud asukohad ja kõik tootevariandid kasutavad sama fikseeritud asukohtade kogumit. Ainult tootevariantide fikseeritud asukoht: kehtivad ainult igale tootevariandile määratud fikseeritud asukohad.  
-4. Valige suvand väljal Strateegia.
-    * Töötellimused, mille tüüp on Ostutellimused, toetavad järgmisi strateegiaid. Puudub: kaup pannakse esimesse leitud asukohta. Konsolideeri: kaup pannakse asukohta, kus on sarnased kaubad juba olemas. Tühi asukoht sissetuleva tööta: kaup pannakse esimesse leitud tühja asukohta. Asukohta käsitletakse tühjana, kui sellel ei ole füüsilist laoseisu ja eeldatavat sissetulevat tööd.  
-5. Klõpsake nuppu Salvesta.
+## <a name="add-a-location-directive-action-line"></a><span data-ttu-id="9a8cb-163">Asukohakorralduse tegevuserea lisamine</span><span class="sxs-lookup"><span data-stu-id="9a8cb-163">Add a location directive action line</span></span>
+1. <span data-ttu-id="9a8cb-164">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-164">Click New.</span></span>
+    * <span data-ttu-id="9a8cb-165">See on asukohakorralduse tegevuseridade töötlemise järjestus valitud töötüübi puhul.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-165">This is the sequence in which the location directive action lines are processed for the selected work type.</span></span> <span data-ttu-id="9a8cb-166">Vajaduse korral saate järjestust ka muuta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-166">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="9a8cb-167">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-167">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="9a8cb-168">See on selle korraldustegevuse ainuidentifikaator.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-168">This is the unique identifier for this directive action.</span></span>  
+3. <span data-ttu-id="9a8cb-169">Valige suvand väljal Fikseeritud asukoha kasutus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-169">In the Fixed location usage field, select an option.</span></span>
+    * <span data-ttu-id="9a8cb-170">Fikseeritud ja fikseerimata asukohad: kehtivad kõik fikseerimata asukohad ja ka toote oma fikseeritud asukoht päringus määratud vahemikus.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-170">Fixed and non-fixed locations: All non-fixed locations are valid as well as the product’s own fixed location, within the range specified in the query.</span></span>  <span data-ttu-id="9a8cb-171">Ainult toote fikseeritud asukoht: kehtivad toote fikseeritud asukohad ja kõik tootevariandid kasutavad sama fikseeritud asukohtade kogumit.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-171">Only fixed location for the product: Fixed locations for the product are valid, and all product variants share the same set of fixed locations.</span></span> <span data-ttu-id="9a8cb-172">Ainult tootevariantide fikseeritud asukoht: kehtivad ainult igale tootevariandile määratud fikseeritud asukohad.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-172">Only fixed location for the product variants: Only fixed locations specified for each product variant are valid.</span></span>  
+4. <span data-ttu-id="9a8cb-173">Valige suvand väljal Strateegia.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-173">In the Strategy field, select an option.</span></span>
+    * <span data-ttu-id="9a8cb-174">Töötellimused, mille tüüp on Ostutellimused, toetavad järgmisi strateegiaid. Puudub: kaup pannakse esimesse leitud asukohta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-174">Work orders of type Purchase order support the following strategies: None: the item is placed at the first location that’s found.</span></span> <span data-ttu-id="9a8cb-175">Konsolideeri: kaup pannakse asukohta, kus on sarnased kaubad juba olemas.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-175">Consolidate: The item is placed in a location where similar items are already available.</span></span> <span data-ttu-id="9a8cb-176">Tühi asukoht sissetuleva tööta: kaup pannakse esimesse leitud tühja asukohta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-176">Empty location with no incoming work: the item is placed in the first empty location that’s found.</span></span> <span data-ttu-id="9a8cb-177">Asukohta käsitletakse tühjana, kui sellel ei ole füüsilist laoseisu ja eeldatavat sissetulevat tööd.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-177">A location is considered to be empty if it has no physical inventory and no expected incoming work.</span></span>  
+5. <span data-ttu-id="9a8cb-178">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-178">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive-action-line"></a>Korralduse tegevuserea päringu redigeerimine
-1. Klõpsake suvandit Redigeeri päringut.
-2. Klõpsake vahekaarti Lisa.
-3. Sisestage väljale Väli tekst „asukohaprofiili ID”.
-    * Selles näites piirame võimalikke asukohti asukohaprofiili ID abil.  
-4. Sisestage väärtus väljale Kriteeriumid.
-5. Klõpsake nuppu OK.
-    * Saate jätkata korralduseridade ja korraldusetegevuste lisamist, kuni olete katnud kõik oma lao võimalikud stsenaariumid.  
+## <a name="edit-the-query-for-directive-action-line"></a><span data-ttu-id="9a8cb-179">Korralduse tegevuserea päringu redigeerimine</span><span class="sxs-lookup"><span data-stu-id="9a8cb-179">Edit the query for directive action line</span></span>
+1. <span data-ttu-id="9a8cb-180">Klõpsake suvandit Redigeeri päringut.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-180">Click Edit query.</span></span>
+2. <span data-ttu-id="9a8cb-181">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-181">Click Add.</span></span>
+3. <span data-ttu-id="9a8cb-182">Sisestage väljale Väli tekst „asukohaprofiili ID”.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-182">In the Field field, type 'location profile ID'.</span></span>
+    * <span data-ttu-id="9a8cb-183">Selles näites piirame võimalikke asukohti asukohaprofiili ID abil.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-183">In this example, we’ll restrict the possible locations using a location profile ID.</span></span>  
+4. <span data-ttu-id="9a8cb-184">Sisestage väärtus väljale Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-184">In the Criteria field, type a value.</span></span>
+5. <span data-ttu-id="9a8cb-185">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-185">Click OK.</span></span>
+    * <span data-ttu-id="9a8cb-186">Saate jätkata korralduseridade ja korraldusetegevuste lisamist, kuni olete katnud kõik oma lao võimalikud stsenaariumid.</span><span class="sxs-lookup"><span data-stu-id="9a8cb-186">You can continue to add directive lines and directive actions until you have covered all the possible scenarios in your warehouse.</span></span>  
 
 

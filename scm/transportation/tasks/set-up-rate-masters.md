@@ -17,71 +17,71 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 263c912594dcf61985094dab30eab8f72cd731e9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b7c02e5a6f5eeee270ca4b6f91e90f7799c2ca11
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-rate-masters"></a>Määrade koondandmete seadistamine
+# <a name="set-up-rate-masters"></a><span data-ttu-id="789c0-103">Määrade koondandmete seadistamine</span><span class="sxs-lookup"><span data-stu-id="789c0-103">Set up rate masters</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas seadistada koondmäära. Koondmäärad seadistab üldjuhul logistikahaldur vedajatega allkirjastatud lepingutest olenevalt. Sel juhul saate seadistada koondmäära lennukompanii puhul. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+<span data-ttu-id="789c0-104">See protseduur näitab, kuidas seadistada koondmäära.</span><span class="sxs-lookup"><span data-stu-id="789c0-104">This procedure shows you how to set up a rate master.</span></span> <span data-ttu-id="789c0-105">Koondmäärad seadistab üldjuhul logistikahaldur vedajatega allkirjastatud lepingutest olenevalt.</span><span class="sxs-lookup"><span data-stu-id="789c0-105">The logistic manager usually sets up rate masters, depending on the contracts signed with the carriers.</span></span> <span data-ttu-id="789c0-106">Sel juhul saate seadistada koondmäära lennukompanii puhul.</span><span class="sxs-lookup"><span data-stu-id="789c0-106">In this scenario you will set up a rate master for an air carrier.</span></span> <span data-ttu-id="789c0-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="789c0-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-rate-master"></a>Koondmäära seadistamine
-1. Avage Transpordihaldus > Seadistus > Hinnang > Koondmäär.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Koondmäär.
-4. Sisestage väärtus väljale Nimi.
-5. Klõpsake väljal Hindamise metaandmete ID otsingu avamiseks ripploendi nuppu.
-    * Hinnangu metaandmete ID määratleb koondmäära puhul vajalikud andmed, nagu see määratleb TMS-i mootori eeldatavad metaandmed seda koondmäära kasutades.  
-6. Selle näite puhul valige suvand P2P
-7. Klõpsake loendis valitud real olevat linki.
-8. Klõpsake nuppu Salvesta.
+## <a name="set-up-rate-master"></a><span data-ttu-id="789c0-108">Koondmäära seadistamine</span><span class="sxs-lookup"><span data-stu-id="789c0-108">Set up rate master</span></span>
+1. <span data-ttu-id="789c0-109">Avage Transpordihaldus > Seadistus > Hinnang > Koondmäär.</span><span class="sxs-lookup"><span data-stu-id="789c0-109">Go to Transportation management > Setup > Rating > Rate master.</span></span>
+2. <span data-ttu-id="789c0-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="789c0-110">Click New.</span></span>
+3. <span data-ttu-id="789c0-111">Sisestage väärtus väljale Koondmäär.</span><span class="sxs-lookup"><span data-stu-id="789c0-111">In the Rate master field, type a value.</span></span>
+4. <span data-ttu-id="789c0-112">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="789c0-112">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="789c0-113">Klõpsake väljal Hindamise metaandmete ID otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="789c0-113">In the Rating metadata ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="789c0-114">Hinnangu metaandmete ID määratleb koondmäära puhul vajalikud andmed, nagu see määratleb TMS-i mootori eeldatavad metaandmed seda koondmäära kasutades.</span><span class="sxs-lookup"><span data-stu-id="789c0-114">The rating metadata ID will determine the data needed for the rate master, as it defines the metadata expected by the TMS engine using this rate master.</span></span>  
+6. <span data-ttu-id="789c0-115">Selle näite puhul valige suvand P2P</span><span class="sxs-lookup"><span data-stu-id="789c0-115">For this example, select the P2P option</span></span>
+7. <span data-ttu-id="789c0-116">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="789c0-116">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="789c0-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="789c0-117">Click Save.</span></span>
 
-## <a name="set-up-rate-base"></a>Alusmäära seadistamine
-1. Klõpsake suvandit Alusmäär.
-    * Alusmäär määratleb vedaja määra ja seda saab kasutada tariifi struktuuri seadistamiseks, nagu see struktuurib määrasid katkestuse koondandmete määratletud katkestuspunktides.  
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Alusmäär.
-4. Sisestage väärtus väljale Nimi.
-5. Klõpsake väljal Katkestuse koondandmed otsingu avamiseks ripploendi nuppu.
-    * Katkestuse koondandmeid kasutatakse hinnakujunduse struktuuri ja selle katkestuspunktide määratlemiseks. Hinnakujunduse struktuur kasutab mitmetasandilist hinnakujundust, mis põhineb füüsilistel dimensioonidel.  
-6. Selle näite puhul kasutage kaalu
-7. Klõpsake loendis valitud real olevat linki.
-8. Laiendage jaotist Üksikasjad.
-9. Klõpsake Uus.
-10. Sisestage väljale Kohaleviimise saatja sihtnumber väärtus 30301.
-11. Sisestage väljale Kohaleviimise saaja sihtnumber väärtus 30318.
-12. Sisestage väljale Kohaleviimise riik/regioon suvand USA.
-13. Sisestage väljale <1,00 naela väärtus 100.
-    * Sisestage määr naela kohta, kui koorma kogukaal on alla 1 naela.  
-14. Sisestage väljale <5,00 naela väärtus 300.
-    * Sisestage määr naela kohta, kui koorma kogukaal on alla 5 naela.  
-15. Sisestage väljale <20,00 naela väärtus 500.
-    * Sisestage määr naela kohta, kui koorma kogukaal on alla 20 naela.  
-16. Sisestage väljale <100,00 naela väärtus 1000.
-    * Sisestage määr naela kohta, kui koorma kogukaal on alla 100 naela.  
-17. Sisestage väljale <1000,00 naela väärtus 3000.
-    * Sisestage määr naela kohta, kui koorma kogukaal on alla 1000 naela.  
-18. Klõpsake nuppu Salvesta.
-19. Sulgege leht.
+## <a name="set-up-rate-base"></a><span data-ttu-id="789c0-118">Alusmäära seadistamine</span><span class="sxs-lookup"><span data-stu-id="789c0-118">Set up rate base</span></span>
+1. <span data-ttu-id="789c0-119">Klõpsake suvandit Alusmäär.</span><span class="sxs-lookup"><span data-stu-id="789c0-119">Click Rate base.</span></span>
+    * <span data-ttu-id="789c0-120">Alusmäär määratleb vedaja määra ja seda saab kasutada tariifi struktuuri seadistamiseks, nagu see struktuurib määrasid katkestuse koondandmete määratletud katkestuspunktides.</span><span class="sxs-lookup"><span data-stu-id="789c0-120">The rate base determines the rate of the carrier, and can be used to set up a tariff structure as it structures the rates in the breakpoints defined in the break master.</span></span>  
+2. <span data-ttu-id="789c0-121">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="789c0-121">Click New.</span></span>
+3. <span data-ttu-id="789c0-122">Sisestage väärtus väljale Alusmäär.</span><span class="sxs-lookup"><span data-stu-id="789c0-122">In the Rate base field, type a value.</span></span>
+4. <span data-ttu-id="789c0-123">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="789c0-123">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="789c0-124">Klõpsake väljal Katkestuse koondandmed otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="789c0-124">In the Break master field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="789c0-125">Katkestuse koondandmeid kasutatakse hinnakujunduse struktuuri ja selle katkestuspunktide määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="789c0-125">Break masters are used to define the pricing structure and its breakpoints.</span></span> <span data-ttu-id="789c0-126">Hinnakujunduse struktuur kasutab mitmetasandilist hinnakujundust, mis põhineb füüsilistel dimensioonidel.</span><span class="sxs-lookup"><span data-stu-id="789c0-126">The pricing structure uses tiered pricing that is based on physical dimensions.</span></span>  
+6. <span data-ttu-id="789c0-127">Selle näite puhul kasutage kaalu</span><span class="sxs-lookup"><span data-stu-id="789c0-127">For this example, use weight</span></span>
+7. <span data-ttu-id="789c0-128">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="789c0-128">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="789c0-129">Laiendage jaotist Üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="789c0-129">Toggle the expansion of the Details section.</span></span>
+9. <span data-ttu-id="789c0-130">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="789c0-130">Click New.</span></span>
+10. <span data-ttu-id="789c0-131">Sisestage väljale Kohaleviimise saatja sihtnumber väärtus 30301.</span><span class="sxs-lookup"><span data-stu-id="789c0-131">In the Drop-off Postal Code From field, type '30301'.</span></span>
+11. <span data-ttu-id="789c0-132">Sisestage väljale Kohaleviimise saaja sihtnumber väärtus 30318.</span><span class="sxs-lookup"><span data-stu-id="789c0-132">In the Drop-off Postal Code To field, type '30318'.</span></span>
+12. <span data-ttu-id="789c0-133">Sisestage väljale Kohaleviimise riik/regioon suvand USA.</span><span class="sxs-lookup"><span data-stu-id="789c0-133">In the Drop-off Country Region field, type 'USA'.</span></span>
+13. <span data-ttu-id="789c0-134">Sisestage väljale <1,00 naela väärtus 100.</span><span class="sxs-lookup"><span data-stu-id="789c0-134">In the <1.00 Lbs field, type '100'.</span></span>
+    * <span data-ttu-id="789c0-135">Sisestage määr naela kohta, kui koorma kogukaal on alla 1 naela.</span><span class="sxs-lookup"><span data-stu-id="789c0-135">Insert the rate per lbs if the total weight of the load is less than 1 pound.</span></span>  
+14. <span data-ttu-id="789c0-136">Sisestage väljale <5,00 naela väärtus 300.</span><span class="sxs-lookup"><span data-stu-id="789c0-136">In the <5.00 Lbs field, type '300'.</span></span>
+    * <span data-ttu-id="789c0-137">Sisestage määr naela kohta, kui koorma kogukaal on alla 5 naela.</span><span class="sxs-lookup"><span data-stu-id="789c0-137">Insert the rate per lbs if the total weight of the load is less than 5 pounds.</span></span>  
+15. <span data-ttu-id="789c0-138">Sisestage väljale <20,00 naela väärtus 500.</span><span class="sxs-lookup"><span data-stu-id="789c0-138">In the <20.00 Lbs field, type '500'.</span></span>
+    * <span data-ttu-id="789c0-139">Sisestage määr naela kohta, kui koorma kogukaal on alla 20 naela.</span><span class="sxs-lookup"><span data-stu-id="789c0-139">Insert the rate per lbs if the total weight of the load is less than 20 pounds.</span></span>  
+16. <span data-ttu-id="789c0-140">Sisestage väljale <100,00 naela väärtus 1000.</span><span class="sxs-lookup"><span data-stu-id="789c0-140">In the <100.00 Lbs field, type '1000'.</span></span>
+    * <span data-ttu-id="789c0-141">Sisestage määr naela kohta, kui koorma kogukaal on alla 100 naela.</span><span class="sxs-lookup"><span data-stu-id="789c0-141">Insert the rate per lbs if the total weight of the load is less than 100 pounds.</span></span>  
+17. <span data-ttu-id="789c0-142">Sisestage väljale <1000,00 naela väärtus 3000.</span><span class="sxs-lookup"><span data-stu-id="789c0-142">In the <1,000.00 Lbs field, type '3000'.</span></span>
+    * <span data-ttu-id="789c0-143">Sisestage määr naela kohta, kui koorma kogukaal on alla 1000 naela.</span><span class="sxs-lookup"><span data-stu-id="789c0-143">Insert the rate per lbs if the total weight of the load is less than 1000 pounds.</span></span>  
+18. <span data-ttu-id="789c0-144">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="789c0-144">Click Save.</span></span>
+19. <span data-ttu-id="789c0-145">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="789c0-145">Close the page.</span></span>
 
-## <a name="assign-rate-base"></a>Alusmäära määramine
-1. Laiendage jaotist Alusmäära määrangud.
-2. Klõpsake valikut Uus.
-    * Teil võib iga määra koondandme puhul olla mitu alusmäära määramist. See võimaldab luua mitu erinevat hinnaühtlustuspunkti iga vedaja puhul olenevalt sihtkohtadest, teenustest või erinevatest alusmääradest. Selles protseduuris loote ainult ühe alusmäära määramise.  
-3. Sisestage väärtus väljale Nimi.
-4. Klõpsake väljal Alusmäär otsingu avamiseks ripploendi nuppu.
-5. Klõpsake loendis valitud real olevat linki.
-6. Klõpsake väljal Teenus otsingu avamiseks ripploendi nuppu.
-7. Otsige loendist ja valige soovitud kirje.
-8. Klõpsake loendis valitud real olevat linki.
-9. Sisestage väljale Pealevõtmise postiindeks väärtus 98052.
-    * Määrake, milline sihtnumber peaks selle alusmäära määramise puhul kehtima.    
-10. Sisestage väljale Pealevõtmise riik/regioon suvand USA.
-11. Klõpsake nuppu Salvesta.
+## <a name="assign-rate-base"></a><span data-ttu-id="789c0-146">Alusmäära määramine</span><span class="sxs-lookup"><span data-stu-id="789c0-146">Assign rate base</span></span>
+1. <span data-ttu-id="789c0-147">Laiendage jaotist Alusmäära määrangud.</span><span class="sxs-lookup"><span data-stu-id="789c0-147">Toggle the expansion of the Rate base assignments section.</span></span>
+2. <span data-ttu-id="789c0-148">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="789c0-148">Click New.</span></span>
+    * <span data-ttu-id="789c0-149">Teil võib iga määra koondandme puhul olla mitu alusmäära määramist.</span><span class="sxs-lookup"><span data-stu-id="789c0-149">You can have several rate base assignments for each rate master.</span></span> <span data-ttu-id="789c0-150">See võimaldab luua mitu erinevat hinnaühtlustuspunkti iga vedaja puhul olenevalt sihtkohtadest, teenustest või erinevatest alusmääradest.</span><span class="sxs-lookup"><span data-stu-id="789c0-150">This makes it possible to create several different price points for each carrier depending on destinations, services, or different rate bases.</span></span> <span data-ttu-id="789c0-151">Selles protseduuris loote ainult ühe alusmäära määramise.</span><span class="sxs-lookup"><span data-stu-id="789c0-151">In this procedure you will only create one rate base assignment.</span></span>  
+3. <span data-ttu-id="789c0-152">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="789c0-152">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="789c0-153">Klõpsake väljal Alusmäär otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="789c0-153">In the Rate base field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="789c0-154">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="789c0-154">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="789c0-155">Klõpsake väljal Teenus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="789c0-155">In the Service field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="789c0-156">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="789c0-156">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="789c0-157">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="789c0-157">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="789c0-158">Sisestage väljale Pealevõtmise postiindeks väärtus 98052.</span><span class="sxs-lookup"><span data-stu-id="789c0-158">In the Pick-up Postal Code field, type '98052'.</span></span>
+    * <span data-ttu-id="789c0-159">Määrake, milline sihtnumber peaks selle alusmäära määramise puhul kehtima.</span><span class="sxs-lookup"><span data-stu-id="789c0-159">Specify which postal code this rate base assignment should be valid from.</span></span>    
+10. <span data-ttu-id="789c0-160">Sisestage väljale Pealevõtmise riik/regioon suvand USA.</span><span class="sxs-lookup"><span data-stu-id="789c0-160">In the Pick-up Country Region field, type 'USA'.</span></span>
+11. <span data-ttu-id="789c0-161">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="789c0-161">Click Save.</span></span>
 
 

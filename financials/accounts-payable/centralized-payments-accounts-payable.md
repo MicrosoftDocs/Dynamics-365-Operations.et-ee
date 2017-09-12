@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>Ostureskontro tsentraliseeritud maksed
+# <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="a5617-105">Ostureskontro tsentraliseeritud maksed</span><span class="sxs-lookup"><span data-stu-id="a5617-105">Centralized payments for Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse, Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
+<span data-ttu-id="a5617-106">Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut.</span><span class="sxs-lookup"><span data-stu-id="a5617-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="a5617-107">Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse,</span><span class="sxs-lookup"><span data-stu-id="a5617-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="a5617-108">Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.</span><span class="sxs-lookup"><span data-stu-id="a5617-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse, Peale selle säästab organisatsioon aega, kuna makseprotsess on sujuv.
+<span data-ttu-id="a5617-109">Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut.</span><span class="sxs-lookup"><span data-stu-id="a5617-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="a5617-110">Seetõttu pole vaja sisestada samu makseid mitmesse juriidilisse isikusse,</span><span class="sxs-lookup"><span data-stu-id="a5617-110">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="a5617-111">Peale selle säästab organisatsioon aega, kuna makseprotsess on sujuv.</span><span class="sxs-lookup"><span data-stu-id="a5617-111">Additionally, the organization saves time, because the payment process is streamlined.</span></span>
 
-Tsentraliseeritud maksete organisatsioonis on toimingute jaoks palju juriidilisi isikuid ja iga tegutsev juriidiline isik haldab oma hankijaarveid. Maksed kõigi juriidiliste isikute jaoks luuakse ühest juriidilisest isikust, mida nimetatakse makse juriidiliseks isikuks. Tasakaalustusprotsessi ajal luuakse rakendatavad millest milleni kanded. Saate määrata, milline juriidiline isik organisatsioonis võtab vastu realiseeritud kasumi või realiseeritud kahjumi kanded ning kuidas käsitsetakse ettevõtetevaheliste maksetega seotud allahindluskandeid. 
+<span data-ttu-id="a5617-112">Tsentraliseeritud maksete organisatsioonis on toimingute jaoks palju juriidilisi isikuid ja iga tegutsev juriidiline isik haldab oma hankijaarveid.</span><span class="sxs-lookup"><span data-stu-id="a5617-112">In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices.</span></span> <span data-ttu-id="a5617-113">Maksed kõigi juriidiliste isikute jaoks luuakse ühest juriidilisest isikust, mida nimetatakse makse juriidiliseks isikuks.</span><span class="sxs-lookup"><span data-stu-id="a5617-113">Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="a5617-114">Tasakaalustusprotsessi ajal luuakse rakendatavad millest milleni kanded.</span><span class="sxs-lookup"><span data-stu-id="a5617-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="a5617-115">Saate määrata, milline juriidiline isik organisatsioonis võtab vastu realiseeritud kasumi või realiseeritud kahjumi kanded ning kuidas käsitsetakse ettevõtetevaheliste maksetega seotud allahindluskandeid.</span><span class="sxs-lookup"><span data-stu-id="a5617-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled.</span></span> 
 
-Järgmised näited illustreerivad sisestamise käsitlust erisugustes stsenaariumides. Kõigi nende näidete puhul eeldatakse järgmist konfiguratsiooni.
+<span data-ttu-id="a5617-116">Järgmised näited illustreerivad sisestamise käsitlust erisugustes stsenaariumides.</span><span class="sxs-lookup"><span data-stu-id="a5617-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="a5617-117">Kõigi nende näidete puhul eeldatakse järgmist konfiguratsiooni.</span><span class="sxs-lookup"><span data-stu-id="a5617-117">The following configuration is assumed for all these examples:</span></span>
 
--   Juriidilised isikud on Fabrikam, Fabrikam East ja Fabrikam West. Maksed on tehtud Fabrikamist.
--   Välja **Sularaha allahindluse sisestamine** väärtuseks lehel **Kontserni raamatupidamine** määratakse **Arve juriidiline isik**.
--   Välja **Sisesta valuutavahetusega seotud kasum või kahjum** väärtuseks lehel **Kontserni raamatupidamine** määratakse **Makse juriidiline isik**.
--   Hankija Fourth Coffee on seadistatud iga juriidilise isiku hankijana. Hankijad erinevatest juriidilistest isikutest on tuvastatud sama hankijana, kuna neil on ühine globaalse aadressiraamatu ID.
+-   <span data-ttu-id="a5617-118">Juriidilised isikud on Fabrikam, Fabrikam East ja Fabrikam West.</span><span class="sxs-lookup"><span data-stu-id="a5617-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="a5617-119">Maksed on tehtud Fabrikamist.</span><span class="sxs-lookup"><span data-stu-id="a5617-119">Payments are made from Fabrikam.</span></span>
+-   <span data-ttu-id="a5617-120">Välja **Sularaha allahindluse sisestamine** väärtuseks lehel **Kontserni raamatupidamine** määratakse **Arve juriidiline isik**.</span><span class="sxs-lookup"><span data-stu-id="a5617-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="a5617-121">Välja **Sisesta valuutavahetusega seotud kasum või kahjum** väärtuseks lehel **Kontserni raamatupidamine** määratakse **Makse juriidiline isik**.</span><span class="sxs-lookup"><span data-stu-id="a5617-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="a5617-122">Hankija Fourth Coffee on seadistatud iga juriidilise isiku hankijana.</span><span class="sxs-lookup"><span data-stu-id="a5617-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="a5617-123">Hankijad erinevatest juriidilistest isikutest on tuvastatud sama hankijana, kuna neil on ühine globaalse aadressiraamatu ID.</span><span class="sxs-lookup"><span data-stu-id="a5617-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
-| Kausta ID | Hankija konto | Nimi          | Juriidiline isik  |
+| <span data-ttu-id="a5617-124">Kausta ID</span><span class="sxs-lookup"><span data-stu-id="a5617-124">Directory ID</span></span> | <span data-ttu-id="a5617-125">Hankija konto</span><span class="sxs-lookup"><span data-stu-id="a5617-125">Vendor account</span></span> | <span data-ttu-id="a5617-126">Nimi</span><span class="sxs-lookup"><span data-stu-id="a5617-126">Name</span></span>          | <span data-ttu-id="a5617-127">Juriidiline isik</span><span class="sxs-lookup"><span data-stu-id="a5617-127">Legal entity</span></span>  |
 |--------------|----------------|---------------|---------------|
-| 1050         | 3004           | Fourth Coffee | Fabrikam      |
-| 1050         | 100            | Fourth Coffee | Ida Fabrikam |
-| 1050         | 3004           | Fourth Coffee | Lääne Fabrikam |
+| <span data-ttu-id="a5617-128">1050</span><span class="sxs-lookup"><span data-stu-id="a5617-128">1050</span></span>         | <span data-ttu-id="a5617-129">3004</span><span class="sxs-lookup"><span data-stu-id="a5617-129">3004</span></span>           | <span data-ttu-id="a5617-130">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="a5617-130">Fourth Coffee</span></span> | <span data-ttu-id="a5617-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="a5617-131">Fabrikam</span></span>      |
+| <span data-ttu-id="a5617-132">1050</span><span class="sxs-lookup"><span data-stu-id="a5617-132">1050</span></span>         | <span data-ttu-id="a5617-133">100</span><span class="sxs-lookup"><span data-stu-id="a5617-133">100</span></span>            | <span data-ttu-id="a5617-134">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="a5617-134">Fourth Coffee</span></span> | <span data-ttu-id="a5617-135">Ida Fabrikam</span><span class="sxs-lookup"><span data-stu-id="a5617-135">Fabrikam East</span></span> |
+| <span data-ttu-id="a5617-136">1050</span><span class="sxs-lookup"><span data-stu-id="a5617-136">1050</span></span>         | <span data-ttu-id="a5617-137">3004</span><span class="sxs-lookup"><span data-stu-id="a5617-137">3004</span></span>           | <span data-ttu-id="a5617-138">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="a5617-138">Fourth Coffee</span></span> | <span data-ttu-id="a5617-139">Lääne Fabrikam</span><span class="sxs-lookup"><span data-stu-id="a5617-139">Fabrikam West</span></span> |
 
-## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a>Näide 1: teise juriidilise isiku hankija makse arve
-Fabrikam Eastil on avatud arve hankija kontole 100, Fourth Coffee. Fabrikam määrab ja sisestab makse Fabrikami hankija kontole 3004, Fourth Coffee. Makse tasakaalustatakse avatud arvega.
+## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="a5617-140">Näide 1: teise juriidilise isiku hankija makse arve</span><span class="sxs-lookup"><span data-stu-id="a5617-140">Example 1: Vendor payment of invoice from another legal entity</span></span>
+<span data-ttu-id="a5617-141">Fabrikam Eastil on avatud arve hankija kontole 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-141">Fabrikam East has an open invoice for vendor account 100, Fourth Coffee.</span></span> <span data-ttu-id="a5617-142">Fabrikam määrab ja sisestab makse Fabrikami hankija kontole 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-142">Fabrikam enters and posts a payment to Fabrikam vendor account 3004, Fourth Coffee.</span></span> <span data-ttu-id="a5617-143">Makse tasakaalustatakse avatud arvega.</span><span class="sxs-lookup"><span data-stu-id="a5617-143">The payment is settled with the open invoice.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a>Arve sisestatakse Fabrikam Easti hankijale 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="a5617-144">Arve sisestatakse Fabrikam Easti hankijale 100</span><span class="sxs-lookup"><span data-stu-id="a5617-144">Invoice is posted in Fabrikam East for vendor 100</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-145">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-145">Account</span></span>                          | <span data-ttu-id="a5617-146">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-146">Debit amount</span></span> | <span data-ttu-id="a5617-147">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-147">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Kulu (Ida Fabrikam)          | 600,00       |               |
-| Ostureskontro (Ida Fabrikam) |              | 600,00        |
+| <span data-ttu-id="a5617-148">Kulu (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-148">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="a5617-149">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-149">600.00</span></span>       |               |
+| <span data-ttu-id="a5617-150">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-150">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="a5617-151">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-151">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Fabrikamis luuakse ja sisestatakse makse tarnijale 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="a5617-152">Fabrikamis luuakse ja sisestatakse makse tarnijale 3004</span><span class="sxs-lookup"><span data-stu-id="a5617-152">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Konto                     | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-153">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-153">Account</span></span>                     | <span data-ttu-id="a5617-154">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-154">Debit amount</span></span> | <span data-ttu-id="a5617-155">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-155">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Ostureskontro (Fabrikam) | 600,00       |               |
-| Sularaha (Fabrikam)             |              | 600,00        |
+| <span data-ttu-id="a5617-156">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-156">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="a5617-157">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-157">600.00</span></span>       |               |
+| <span data-ttu-id="a5617-158">Sularaha (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-158">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="a5617-159">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-159">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="a5617-160">Fabrikami makse tasakaalustatakse Ida Fabrikami arvega</span><span class="sxs-lookup"><span data-stu-id="a5617-160">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikami sisestus**
+<span data-ttu-id="a5617-161">**Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-161">**Fabrikam posting**</span></span>
 
-| Konto                           | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-162">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-162">Account</span></span>                           | <span data-ttu-id="a5617-163">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-163">Debit amount</span></span> | <span data-ttu-id="a5617-164">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-164">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Võlg Ida Fabrikamilt (Fabrikam) | 600,00       |               |
-| Ostureskontro (Fabrikam)       |              | 600,00        |
+| <span data-ttu-id="a5617-165">Võlg Ida Fabrikamilt (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-165">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="a5617-166">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-166">600.00</span></span>       |               |
+| <span data-ttu-id="a5617-167">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-167">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="a5617-168">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-168">600.00</span></span>        |
 
-**Ida Fabrikami sisestus**
+<span data-ttu-id="a5617-169">**Ida Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-169">**Fabrikam East posting**</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-170">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-170">Account</span></span>                          | <span data-ttu-id="a5617-171">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-171">Debit amount</span></span> | <span data-ttu-id="a5617-172">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-172">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Ostureskontro (Ida Fabrikam) | 600,00       |               |
-| Võlg Fabrikamile (Ida Fabrikam)  |              | 600,00        |
+| <span data-ttu-id="a5617-173">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-173">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="a5617-174">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-174">600.00</span></span>       |               |
+| <span data-ttu-id="a5617-175">Võlg Fabrikamile (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-175">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="a5617-176">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-176">600.00</span></span>        |
 
-## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Näide 2: teise juriidilise isiku arve hankijamakse skontoga
-Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Arvel on 20,00 sularaha allahindluse võimalus. Fabrikam määrab ja sisestab 580,00 suuruse makse Fabrikami hankijale 3004, Fourth Coffee. Makse tasakaalustatakse avatud Ida Fabrikami arvetega. Skonto sisestatakse arve juriidilisele isikule, kelleks on Fabrikam East.
+## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="a5617-177">Näide 2: teise juriidilise isiku arve hankijamakse skontoga</span><span class="sxs-lookup"><span data-stu-id="a5617-177">Example 2: Vendor payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="a5617-178">Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-178">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="a5617-179">Arvel on 20,00 sularaha allahindluse võimalus.</span><span class="sxs-lookup"><span data-stu-id="a5617-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="a5617-180">Fabrikam määrab ja sisestab 580,00 suuruse makse Fabrikami hankijale 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-180">Fabrikam enters and posts a payment of 580.00 for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="a5617-181">Makse tasakaalustatakse avatud Ida Fabrikami arvetega.</span><span class="sxs-lookup"><span data-stu-id="a5617-181">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="a5617-182">Skonto sisestatakse arve juriidilisele isikule, kelleks on Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="a5617-182">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Arve on sisestatud Ida Fabrikamis Ida Fabrikami tarnijale 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="a5617-183">Arve on sisestatud Ida Fabrikamis Ida Fabrikami tarnijale 100</span><span class="sxs-lookup"><span data-stu-id="a5617-183">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-184">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-184">Account</span></span>                          | <span data-ttu-id="a5617-185">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-185">Debit amount</span></span> | <span data-ttu-id="a5617-186">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-186">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Kulu (Ida Fabrikam)          | 600,00       |               |
-| Ostureskontro (Ida Fabrikam) |              | 600,00        |
+| <span data-ttu-id="a5617-187">Kulu (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-187">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="a5617-188">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-188">600.00</span></span>       |               |
+| <span data-ttu-id="a5617-189">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-189">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="a5617-190">600,00</span><span class="sxs-lookup"><span data-stu-id="a5617-190">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Makse luuakse ja sisestatakse Fabrikamis Fabrikami tarnijale 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="a5617-191">Makse luuakse ja sisestatakse Fabrikamis Fabrikami tarnijale 3004</span><span class="sxs-lookup"><span data-stu-id="a5617-191">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Konto                     | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-192">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-192">Account</span></span>                     | <span data-ttu-id="a5617-193">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-193">Debit amount</span></span> | <span data-ttu-id="a5617-194">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-194">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Ostureskontro (Fabrikam) | 580,00       |               |
-| Sularaha (Fabrikam)             |              | 580,00        |
+| <span data-ttu-id="a5617-195">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-195">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="a5617-196">580,00</span><span class="sxs-lookup"><span data-stu-id="a5617-196">580.00</span></span>       |               |
+| <span data-ttu-id="a5617-197">Sularaha (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-197">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="a5617-198">580,00</span><span class="sxs-lookup"><span data-stu-id="a5617-198">580.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="a5617-199">Fabrikami makse tasakaalustatakse Ida Fabrikami arvega</span><span class="sxs-lookup"><span data-stu-id="a5617-199">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikami sisestus**
+<span data-ttu-id="a5617-200">**Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-200">**Fabrikam posting**</span></span>
 
-| Konto                           | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-201">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-201">Account</span></span>                           | <span data-ttu-id="a5617-202">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-202">Debit amount</span></span> | <span data-ttu-id="a5617-203">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-203">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Võlg Ida Fabrikamilt (Fabrikam) | 580,00       |               |
-| Ostureskontro (Fabrikam)       |              | 580,00        |
+| <span data-ttu-id="a5617-204">Võlg Ida Fabrikamilt (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-204">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="a5617-205">580,00</span><span class="sxs-lookup"><span data-stu-id="a5617-205">580.00</span></span>       |               |
+| <span data-ttu-id="a5617-206">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-206">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="a5617-207">580,00</span><span class="sxs-lookup"><span data-stu-id="a5617-207">580.00</span></span>        |
 
-**Ida Fabrikami sisestus**
+<span data-ttu-id="a5617-208">**Ida Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-208">**Fabrikam East posting**</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-209">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-209">Account</span></span>                          | <span data-ttu-id="a5617-210">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-210">Debit amount</span></span> | <span data-ttu-id="a5617-211">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-211">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Ostureskontro (Ida Fabrikam) | 580,00       |               |
-| Võlg Fabrikamile (Ida Fabrikam)  |              | 580,00        |
-| Ostureskontro (Ida Fabrikam) | 20,00        |               |
-| Skonto (Ida Fabrikam)    |              | 20,00         |
+| <span data-ttu-id="a5617-212">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-212">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="a5617-213">580,00</span><span class="sxs-lookup"><span data-stu-id="a5617-213">580.00</span></span>       |               |
+| <span data-ttu-id="a5617-214">Võlg Fabrikamile (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-214">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="a5617-215">580,00</span><span class="sxs-lookup"><span data-stu-id="a5617-215">580.00</span></span>        |
+| <span data-ttu-id="a5617-216">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-216">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="a5617-217">20,00</span><span class="sxs-lookup"><span data-stu-id="a5617-217">20.00</span></span>        |               |
+| <span data-ttu-id="a5617-218">Skonto (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-218">Cash discount (Fabrikam East)</span></span>    |              | <span data-ttu-id="a5617-219">20,00</span><span class="sxs-lookup"><span data-stu-id="a5617-219">20.00</span></span>         |
 
-## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>Näide 3: teise juriidilise isiku arve hankijamakse realiseeritud vahetuskursi kahjumiga
-Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Fabrikam määrab ja sisestab makse Fabrikami hankijale 3004, Fourth Coffee. See makse tasakaalustatakse Fabrikam Easti avatud maksega. Valuutavahetuse kahjumikanne luuakse tasakaalustusprotsessi ajal.
+## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a><span data-ttu-id="a5617-220">Näide 3: teise juriidilise isiku arve hankijamakse realiseeritud vahetuskursi kahjumiga</span><span class="sxs-lookup"><span data-stu-id="a5617-220">Example 3: Vendor payment of invoice from another legal entity with realized exchange rate loss</span></span>
+<span data-ttu-id="a5617-221">Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-221">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="a5617-222">Fabrikam määrab ja sisestab makse Fabrikami hankijale 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-222">Fabrikam enters and posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="a5617-223">See makse tasakaalustatakse Fabrikam Easti avatud maksega.</span><span class="sxs-lookup"><span data-stu-id="a5617-223">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="a5617-224">Valuutavahetuse kahjumikanne luuakse tasakaalustusprotsessi ajal.</span><span class="sxs-lookup"><span data-stu-id="a5617-224">A currency exchange loss transaction is generated during the settlement process.</span></span>
 
--   Vahetuskurss eurodest (EUR) USA dollariteks (USD) arve kuupäeva järgi: 1,2062
--   Vahetuskurss eurodest USA dollariteks vastavalt makse kuupäevale: 1,2277
+-   <span data-ttu-id="a5617-225">Vahetuskurss eurodest (EUR) USA dollariteks (USD) arve kuupäeva järgi: 1,2062</span><span class="sxs-lookup"><span data-stu-id="a5617-225">Exchange rate for euros (EUR) to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="a5617-226">Vahetuskurss eurodest USA dollariteks vastavalt makse kuupäevale: 1,2277</span><span class="sxs-lookup"><span data-stu-id="a5617-226">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Arve on sisestatud Ida Fabrikamis Ida Fabrikami tarnijale 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="a5617-227">Arve on sisestatud Ida Fabrikamis Ida Fabrikami tarnijale 100</span><span class="sxs-lookup"><span data-stu-id="a5617-227">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Konto                          | Deebetsumma            | Kreeditsumma           |
+| <span data-ttu-id="a5617-228">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-228">Account</span></span>                          | <span data-ttu-id="a5617-229">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-229">Debit amount</span></span>            | <span data-ttu-id="a5617-230">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-230">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Kulu (Ida Fabrikam)          | 600,00 EUR / 723,72 USD |                         |
-| Ostureskontro (Ida Fabrikam) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="a5617-231">Kulu (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-231">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="a5617-232">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-232">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="a5617-233">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-233">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="a5617-234">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-234">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Makse luuakse ja sisestatakse Fabrikamis Fabrikami tarnijale 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="a5617-235">Makse luuakse ja sisestatakse Fabrikamis Fabrikami tarnijale 3004</span><span class="sxs-lookup"><span data-stu-id="a5617-235">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Konto                     | Deebetsumma            | Kreeditsumma           |
+| <span data-ttu-id="a5617-236">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-236">Account</span></span>                     | <span data-ttu-id="a5617-237">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-237">Debit amount</span></span>            | <span data-ttu-id="a5617-238">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-238">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Ostureskontro (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Sularaha (Fabrikam)             |                         | 600,00 EUR / 736,62 USD |
+| <span data-ttu-id="a5617-239">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-239">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="a5617-240">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-240">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="a5617-241">Sularaha (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-241">Cash (Fabrikam)</span></span>             |                         | <span data-ttu-id="a5617-242">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-242">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="a5617-243">Fabrikami makse tasakaalustatakse Ida Fabrikami arvega</span><span class="sxs-lookup"><span data-stu-id="a5617-243">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikami sisestus**
+<span data-ttu-id="a5617-244">**Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-244">**Fabrikam posting**</span></span>
 
-| Konto                           | Deebetsumma            | Kreeditsumma           |
+| <span data-ttu-id="a5617-245">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-245">Account</span></span>                           | <span data-ttu-id="a5617-246">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-246">Debit amount</span></span>            | <span data-ttu-id="a5617-247">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-247">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Võlg Ida Fabrikamilt (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Ostureskontro (Fabrikam)       |                         | 600,00 EUR / 736,62 USD |
-| Realiseeritud kahjum (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
-| Võlg Ida Fabrikamilt (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="a5617-248">Võlg Ida Fabrikamilt (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-248">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="a5617-249">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-249">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="a5617-250">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-250">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="a5617-251">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-251">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="a5617-252">Realiseeritud kahjum (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-252">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="a5617-253">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-253">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="a5617-254">Võlg Ida Fabrikamilt (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-254">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="a5617-255">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-255">0.00 EUR / 12.90 USD</span></span>    |
 
-**Ida Fabrikami sisestus**
+<span data-ttu-id="a5617-256">**Ida Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-256">**Fabrikam East posting**</span></span>
 
-| Konto                          | Deebetsumma            | Kreeditsumma           |
+| <span data-ttu-id="a5617-257">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-257">Account</span></span>                          | <span data-ttu-id="a5617-258">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-258">Debit amount</span></span>            | <span data-ttu-id="a5617-259">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-259">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Ostureskontro (Ida Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Võlg Fabrikamile (Ida Fabrikam)  |                         | 600,00 EUR / 736,62 USD |
-| Võlg Fabrikamile (Ida Fabrikam)  | 0,00 EUR / 12,90 USD    |                         |
-| Ostureskontro (Ida Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="a5617-260">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-260">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="a5617-261">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-261">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="a5617-262">Võlg Fabrikamile (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-262">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="a5617-263">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-263">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="a5617-264">Võlg Fabrikamile (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-264">Due to Fabrikam (Fabrikam East)</span></span>  | <span data-ttu-id="a5617-265">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-265">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="a5617-266">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-266">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="a5617-267">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-267">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>Näide 4: teise juriidilise isiku arve hankijamakse skonto ja realiseeritud vahetuskursi kahjumiga
-Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee. Arvel on saadaval skonto ja luuakse käibemaksukanne. Fabrikam sisestab makse Fabrikami hankijale 3004, Fourth Coffee. Makse tasakaalustatakse avatud Fabrikam Easti arvega. Valuutavahetuse kahjumikanne luuakse tasakaalustusprotsessi ajal. Skonto sisestatakse arve juriidilisele isikule (Fabrikam East) ja valuutavahetuse kahjum sisestatakse makse juriidilisele isikule (Fabrikam).
+## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a><span data-ttu-id="a5617-268">Näide 4: teise juriidilise isiku arve hankijamakse skonto ja realiseeritud vahetuskursi kahjumiga</span><span class="sxs-lookup"><span data-stu-id="a5617-268">Example 4: Vendor payment of invoice from another legal entity with cash discount and realized exchange rate loss</span></span>
+<span data-ttu-id="a5617-269">Fabrikam Eastil on avatud arve hankijale 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-269">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="a5617-270">Arvel on saadaval skonto ja luuakse käibemaksukanne.</span><span class="sxs-lookup"><span data-stu-id="a5617-270">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="a5617-271">Fabrikam sisestab makse Fabrikami hankijale 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-271">Fabrikam posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="a5617-272">Makse tasakaalustatakse avatud Fabrikam Easti arvega.</span><span class="sxs-lookup"><span data-stu-id="a5617-272">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="a5617-273">Valuutavahetuse kahjumikanne luuakse tasakaalustusprotsessi ajal.</span><span class="sxs-lookup"><span data-stu-id="a5617-273">A currency exchange loss transaction is generated during the settlement process.</span></span> <span data-ttu-id="a5617-274">Skonto sisestatakse arve juriidilisele isikule (Fabrikam East) ja valuutavahetuse kahjum sisestatakse makse juriidilisele isikule (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="a5617-274">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange loss is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Vahetuskurss eurodest USA dollariteks vastavalt arve kuupäevale: 1,2062
--   Vahetuskurss eurodest USA dollariteks vastavalt makse kuupäevale: 1,2277
+-   <span data-ttu-id="a5617-275">Vahetuskurss eurodest USA dollariteks vastavalt arve kuupäevale: 1,2062</span><span class="sxs-lookup"><span data-stu-id="a5617-275">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="a5617-276">Vahetuskurss eurodest USA dollariteks vastavalt makse kuupäevale: 1,2277</span><span class="sxs-lookup"><span data-stu-id="a5617-276">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a>Arve sisestatakse ja käibemaksukanne luuakse Fabrikam Eastis hankijale 100
+### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="a5617-277">Arve sisestatakse ja käibemaksukanne luuakse Fabrikam Eastis hankijale 100</span><span class="sxs-lookup"><span data-stu-id="a5617-277">Invoice is posted and a tax transaction is generated in Fabrikam East for vendor 100</span></span>
 
-| Konto                          | Deebetsumma            | Kreeditsumma           |
+| <span data-ttu-id="a5617-278">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-278">Account</span></span>                          | <span data-ttu-id="a5617-279">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-279">Debit amount</span></span>            | <span data-ttu-id="a5617-280">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-280">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Kulu (Ida Fabrikam)          | 564,07 EUR / 680,38 USD |                         |
-| Käibemaks (Ida Fabrikam)        | 35,93 EUR / 43,34 USD   |                         |
-| Ostureskontro (Ida Fabrikam) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="a5617-281">Kulu (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-281">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="a5617-282">564,07 EUR / 680,38 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-282">564.07 EUR / 680.38 USD</span></span> |                         |
+| <span data-ttu-id="a5617-283">Käibemaks (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-283">Sales tax (Fabrikam East)</span></span>        | <span data-ttu-id="a5617-284">35,93 EUR / 43,34 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-284">35.93 EUR / 43.34 USD</span></span>   |                         |
+| <span data-ttu-id="a5617-285">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-285">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="a5617-286">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-286">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Fabrikamis luuakse ja sisestatakse makse tarnijale 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="a5617-287">Fabrikamis luuakse ja sisestatakse makse tarnijale 3004</span><span class="sxs-lookup"><span data-stu-id="a5617-287">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Konto                     | Deebetsumma            | Kreeditsumma           |
+| <span data-ttu-id="a5617-288">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-288">Account</span></span>                     | <span data-ttu-id="a5617-289">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-289">Debit amount</span></span>            | <span data-ttu-id="a5617-290">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-290">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Ostureskontro (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Sularaha (Fabrikam East)        |                         | 588,72 EUR / 722,77 USD |
+| <span data-ttu-id="a5617-291">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-291">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="a5617-292">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-292">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="a5617-293">Sularaha (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="a5617-293">Cash (Fabrikam East)</span></span>        |                         | <span data-ttu-id="a5617-294">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-294">588.72 EUR / 722.77 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikami makse tasakaalustatakse Ida Fabrikami arvega
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="a5617-295">Fabrikami makse tasakaalustatakse Ida Fabrikami arvega</span><span class="sxs-lookup"><span data-stu-id="a5617-295">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikami sisestus**
+<span data-ttu-id="a5617-296">**Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-296">**Fabrikam posting**</span></span>
 
-| Konto                           | Deebetsumma            | Kreeditsumma           |
+| <span data-ttu-id="a5617-297">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-297">Account</span></span>                           | <span data-ttu-id="a5617-298">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-298">Debit amount</span></span>            | <span data-ttu-id="a5617-299">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-299">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Võlg Ida Fabrikamilt (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Ostureskontro (Fabrikam)       |                         | 588,72 EUR / 722,77 USD |
-| Realiseeritud kahjum (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
-| Võlg Ida Fabrikamilt (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
+| <span data-ttu-id="a5617-300">Võlg Ida Fabrikamilt (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-300">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="a5617-301">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-301">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="a5617-302">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-302">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="a5617-303">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-303">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="a5617-304">Realiseeritud kahjum (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-304">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="a5617-305">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-305">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="a5617-306">Võlg Ida Fabrikamilt (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-306">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="a5617-307">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-307">0.00 EUR / 12.66 USD</span></span>    |
 
-**Ida Fabrikami sisestus**
+<span data-ttu-id="a5617-308">**Ida Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-308">**Fabrikam East posting**</span></span>
 
-| Konto                          | Deebetsumma            | Kreeditsumma           |
+| <span data-ttu-id="a5617-309">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-309">Account</span></span>                          | <span data-ttu-id="a5617-310">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-310">Debit amount</span></span>            | <span data-ttu-id="a5617-311">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-311">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Ostureskontro (Ida Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Võlg Fabrikamile (Ida Fabrikam)  |                         | 588,72 EUR / 722,77 USD |
-| Võlg Fabrikamile (Fabrikam East   | 0,00 EUR / 12,66 USD    |                         |
-| Ostureskontro (Ida Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
-| Ostureskontro (Ida Fabrikam) | 11,28 EUR / 13,61 USD   |                         |
-| Skonto (Ida Fabrikam)    |                         | 11,28 EUR / 13,61 USD   |
+| <span data-ttu-id="a5617-312">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-312">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="a5617-313">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-313">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="a5617-314">Võlg Fabrikamile (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-314">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="a5617-315">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-315">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="a5617-316">Võlg Fabrikamile (Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="a5617-316">Due to Fabrikam (Fabrikam East</span></span>   | <span data-ttu-id="a5617-317">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-317">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="a5617-318">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-318">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="a5617-319">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-319">0.00 EUR / 12.66 USD</span></span>    |
+| <span data-ttu-id="a5617-320">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-320">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="a5617-321">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-321">11.28 EUR / 13.61 USD</span></span>   |                         |
+| <span data-ttu-id="a5617-322">Skonto (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-322">Cash discount (Fabrikam East)</span></span>    |                         | <span data-ttu-id="a5617-323">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="a5617-323">11.28 EUR / 13.61 USD</span></span>   |
 
-## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Näide 5: hankija kreeditarve esmase maksega
-Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse tasakaalustatakse Fabrikam Westi hankijale 3004 avatud arvega ja avatud kreeditarvega Fabrikam Easti hankijale 100. Makse valitakse esmase maksena avatud lehel **Kannete tasakaalustamine**.
+## <a name="example-5-vendor-credit-note-with-primary-payment"></a><span data-ttu-id="a5617-324">Näide 5: hankija kreeditarve esmase maksega</span><span class="sxs-lookup"><span data-stu-id="a5617-324">Example 5: Vendor credit note with primary payment</span></span>
+<span data-ttu-id="a5617-325">Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-325">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="a5617-326">See makse tasakaalustatakse Fabrikam Westi hankijale 3004 avatud arvega ja avatud kreeditarvega Fabrikam Easti hankijale 100.</span><span class="sxs-lookup"><span data-stu-id="a5617-326">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="a5617-327">Makse valitakse esmase maksena avatud lehel **Kannete tasakaalustamine**.</span><span class="sxs-lookup"><span data-stu-id="a5617-327">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Arve sisestatakse Lääne Fabrikami tarnijale 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="a5617-328">Arve sisestatakse Lääne Fabrikami tarnijale 3004</span><span class="sxs-lookup"><span data-stu-id="a5617-328">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-329">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-329">Account</span></span>                          | <span data-ttu-id="a5617-330">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-330">Debit amount</span></span> | <span data-ttu-id="a5617-331">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-331">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Kulu (Lääne Fabrikam)          | 100,00       |               |
-| Ostureskontro (Lääne Fabrikam) |              | 100,00        |
+| <span data-ttu-id="a5617-332">Kulu (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-332">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="a5617-333">100,00</span><span class="sxs-lookup"><span data-stu-id="a5617-333">100.00</span></span>       |               |
+| <span data-ttu-id="a5617-334">Ostureskontro (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-334">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="a5617-335">100,00</span><span class="sxs-lookup"><span data-stu-id="a5617-335">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Kreeditarve sisestatakse Ida Fabrikami tarnijale 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="a5617-336">Kreeditarve sisestatakse Ida Fabrikami tarnijale 100</span><span class="sxs-lookup"><span data-stu-id="a5617-336">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-337">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-337">Account</span></span>                          | <span data-ttu-id="a5617-338">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-338">Debit amount</span></span> | <span data-ttu-id="a5617-339">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-339">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Ostureskontro (Ida Fabrikam) | 25,00        |               |
-| Ostu tagastused (Ida Fabrikam) |              | 25,00         |
+| <span data-ttu-id="a5617-340">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-340">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="a5617-341">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-341">25.00</span></span>        |               |
+| <span data-ttu-id="a5617-342">Ostu tagastused (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-342">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="a5617-343">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-343">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Makse sisestatakse Fabrikami tarnijale 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="a5617-344">Makse sisestatakse Fabrikami tarnijale 3004</span><span class="sxs-lookup"><span data-stu-id="a5617-344">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Konto                     | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-345">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-345">Account</span></span>                     | <span data-ttu-id="a5617-346">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-346">Debit amount</span></span> | <span data-ttu-id="a5617-347">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-347">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Ostureskontro (Fabrikam) | 75,00        |               |
-| Sularaha (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="a5617-348">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-348">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="a5617-349">75,00</span><span class="sxs-lookup"><span data-stu-id="a5617-349">75.00</span></span>        |               |
+| <span data-ttu-id="a5617-350">Sularaha (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-350">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="a5617-351">75,00</span><span class="sxs-lookup"><span data-stu-id="a5617-351">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikami makse tasakaalustatakse Lääne Fabrikami arvega ja Ida Fabrikami kreeditarvega
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="a5617-352">Fabrikami makse tasakaalustatakse Lääne Fabrikami arvega ja Ida Fabrikami kreeditarvega</span><span class="sxs-lookup"><span data-stu-id="a5617-352">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikami sisestus**
+<span data-ttu-id="a5617-353">**Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-353">**Fabrikam posting**</span></span>
 
-| Konto                           | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-354">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-354">Account</span></span>                           | <span data-ttu-id="a5617-355">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-355">Debit amount</span></span> | <span data-ttu-id="a5617-356">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-356">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Ostureskontro (Fabrikam)       | 25,00        |               |
-| Võlg Ida Fabrikamile (Fabrikam)   |              | 25,00         |
-| Võlg Lääne Fabrikamilt (Fabrikam) | 100,00       |               |
-| Ostureskontro (Fabrikam)       |              | 100,00        |
+| <span data-ttu-id="a5617-357">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-357">Accounts payable (Fabrikam)</span></span>       | <span data-ttu-id="a5617-358">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-358">25.00</span></span>        |               |
+| <span data-ttu-id="a5617-359">Võlg Ida Fabrikamile (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-359">Due to Fabrikam East (Fabrikam)</span></span>   |              | <span data-ttu-id="a5617-360">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-360">25.00</span></span>         |
+| <span data-ttu-id="a5617-361">Võlg Lääne Fabrikamilt (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-361">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="a5617-362">100,00</span><span class="sxs-lookup"><span data-stu-id="a5617-362">100.00</span></span>       |               |
+| <span data-ttu-id="a5617-363">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-363">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="a5617-364">100,00</span><span class="sxs-lookup"><span data-stu-id="a5617-364">100.00</span></span>        |
 
-**Ida Fabrikami sisestus**
+<span data-ttu-id="a5617-365">**Ida Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-365">**Fabrikam East posting**</span></span>
 
-| Konto                           | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-366">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-366">Account</span></span>                           | <span data-ttu-id="a5617-367">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-367">Debit amount</span></span> | <span data-ttu-id="a5617-368">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-368">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Võlg Fabrikamilt (Ida Fabrikam) | 25,00        |               |
-| Ostureskontro (Ida Fabrikam)  |              | 25,00         |
+| <span data-ttu-id="a5617-369">Võlg Fabrikamilt (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-369">Due from Fabrikam (Fabrikam East)</span></span> | <span data-ttu-id="a5617-370">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-370">25.00</span></span>        |               |
+| <span data-ttu-id="a5617-371">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-371">Accounts payable (Fabrikam East)</span></span>  |              | <span data-ttu-id="a5617-372">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-372">25.00</span></span>         |
 
-**Lääne Fabrikami sisestus**
+<span data-ttu-id="a5617-373">**Lääne Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-373">**Fabrikam West posting**</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-374">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-374">Account</span></span>                          | <span data-ttu-id="a5617-375">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-375">Debit amount</span></span> | <span data-ttu-id="a5617-376">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-376">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Ostureskontro (Lääne Fabrikam) | 100,00       |               |
-| Võlg Fabrikamile (Lääne Fabrikam)  |              | 100,00        |
+| <span data-ttu-id="a5617-377">Ostureskontro (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-377">Accounts payable (Fabrikam West)</span></span> | <span data-ttu-id="a5617-378">100,00</span><span class="sxs-lookup"><span data-stu-id="a5617-378">100.00</span></span>       |               |
+| <span data-ttu-id="a5617-379">Võlg Fabrikamile (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-379">Due to Fabrikam (Fabrikam West)</span></span>  |              | <span data-ttu-id="a5617-380">100,00</span><span class="sxs-lookup"><span data-stu-id="a5617-380">100.00</span></span>        |
 
-## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Näide 6: hankija kreeditarve esmase makseta
-Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse tasakaalustatakse Fabrikam Westi hankijale 3004 avatud arvega ja avatud kreeditarvega Fabrikam Easti hankijale 100. Makset ei valita esmase maksena avatud lehel **Kannete tasakaalustamine**.
+## <a name="example-6-vendor-credit-note-without-primary-payment"></a><span data-ttu-id="a5617-381">Näide 6: hankija kreeditarve esmase makseta</span><span class="sxs-lookup"><span data-stu-id="a5617-381">Example 6: Vendor credit note without primary payment</span></span>
+<span data-ttu-id="a5617-382">Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="a5617-382">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="a5617-383">See makse tasakaalustatakse Fabrikam Westi hankijale 3004 avatud arvega ja avatud kreeditarvega Fabrikam Easti hankijale 100.</span><span class="sxs-lookup"><span data-stu-id="a5617-383">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="a5617-384">Makset ei valita esmase maksena avatud lehel **Kannete tasakaalustamine**.</span><span class="sxs-lookup"><span data-stu-id="a5617-384">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Arve sisestatakse Lääne Fabrikami tarnijale 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="a5617-385">Arve sisestatakse Lääne Fabrikami tarnijale 3004</span><span class="sxs-lookup"><span data-stu-id="a5617-385">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-386">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-386">Account</span></span>                          | <span data-ttu-id="a5617-387">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-387">Debit amount</span></span> | <span data-ttu-id="a5617-388">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-388">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Kulu (Lääne Fabrikam)          | 100,00       |               |
-| Ostureskontro (Lääne Fabrikam) |              | 100,00        |
+| <span data-ttu-id="a5617-389">Kulu (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-389">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="a5617-390">100,00</span><span class="sxs-lookup"><span data-stu-id="a5617-390">100.00</span></span>       |               |
+| <span data-ttu-id="a5617-391">Ostureskontro (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-391">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="a5617-392">100,00</span><span class="sxs-lookup"><span data-stu-id="a5617-392">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Kreeditarve sisestatakse Ida Fabrikami tarnijale 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="a5617-393">Kreeditarve sisestatakse Ida Fabrikami tarnijale 100</span><span class="sxs-lookup"><span data-stu-id="a5617-393">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Konto                          | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-394">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-394">Account</span></span>                          | <span data-ttu-id="a5617-395">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-395">Debit amount</span></span> | <span data-ttu-id="a5617-396">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-396">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Ostureskontro (Ida Fabrikam) | 25,00        |               |
-| Ostu tagastused (Ida Fabrikam) |              | 25,00         |
+| <span data-ttu-id="a5617-397">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-397">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="a5617-398">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-398">25.00</span></span>        |               |
+| <span data-ttu-id="a5617-399">Ostu tagastused (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-399">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="a5617-400">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-400">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Makse sisestatakse Fabrikami tarnijale 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="a5617-401">Makse sisestatakse Fabrikami tarnijale 3004</span><span class="sxs-lookup"><span data-stu-id="a5617-401">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Konto                     | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-402">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-402">Account</span></span>                     | <span data-ttu-id="a5617-403">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-403">Debit amount</span></span> | <span data-ttu-id="a5617-404">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-404">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Ostureskontro (Fabrikam) | 75,00        |               |
-| Sularaha (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="a5617-405">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-405">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="a5617-406">75,00</span><span class="sxs-lookup"><span data-stu-id="a5617-406">75.00</span></span>        |               |
+| <span data-ttu-id="a5617-407">Sularaha (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-407">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="a5617-408">75,00</span><span class="sxs-lookup"><span data-stu-id="a5617-408">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikami makse tasakaalustatakse Lääne Fabrikami arvega ja Ida Fabrikami kreeditarvega
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="a5617-409">Fabrikami makse tasakaalustatakse Lääne Fabrikami arvega ja Ida Fabrikami kreeditarvega</span><span class="sxs-lookup"><span data-stu-id="a5617-409">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikami sisestus**
+<span data-ttu-id="a5617-410">**Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-410">**Fabrikam posting**</span></span>
 
-| Konto                           | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-411">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-411">Account</span></span>                           | <span data-ttu-id="a5617-412">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-412">Debit amount</span></span> | <span data-ttu-id="a5617-413">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-413">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Võlg Lääne Fabrikamilt (Fabrikam) | 75,00        |               |
-| Ostureskontro (Fabrikam)       |              | 75,00         |
+| <span data-ttu-id="a5617-414">Võlg Lääne Fabrikamilt (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-414">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="a5617-415">75,00</span><span class="sxs-lookup"><span data-stu-id="a5617-415">75.00</span></span>        |               |
+| <span data-ttu-id="a5617-416">Ostureskontro (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-416">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="a5617-417">75,00</span><span class="sxs-lookup"><span data-stu-id="a5617-417">75.00</span></span>         |
 
-**Ida Fabrikami sisestus**
+<span data-ttu-id="a5617-418">**Ida Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-418">**Fabrikam East posting**</span></span>
 
-| Konto                                | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-419">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-419">Account</span></span>                                | <span data-ttu-id="a5617-420">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-420">Debit amount</span></span> | <span data-ttu-id="a5617-421">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-421">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Võlg Fabrikam Westilt (Fabrikam East) | 25,00        |               |
-| Ostureskontro (Ida Fabrikam)       |              | 25,00         |
+| <span data-ttu-id="a5617-422">Võlg Fabrikam Westilt (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="a5617-422">Due from Fabrikam West (Fabrikam East)</span></span> | <span data-ttu-id="a5617-423">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-423">25.00</span></span>        |               |
+| <span data-ttu-id="a5617-424">Ostureskontro (Ida Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-424">Accounts payable (Fabrikam East)</span></span>       |              | <span data-ttu-id="a5617-425">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-425">25.00</span></span>         |
 
-**Lääne Fabrikami sisestus**
+<span data-ttu-id="a5617-426">**Lääne Fabrikami sisestus**</span><span class="sxs-lookup"><span data-stu-id="a5617-426">**Fabrikam West posting**</span></span>
 
-| Konto                              | Deebetsumma | Kreeditsumma |
+| <span data-ttu-id="a5617-427">Konto</span><span class="sxs-lookup"><span data-stu-id="a5617-427">Account</span></span>                              | <span data-ttu-id="a5617-428">Deebetsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-428">Debit amount</span></span> | <span data-ttu-id="a5617-429">Kreeditsumma</span><span class="sxs-lookup"><span data-stu-id="a5617-429">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Ostureskontro (Lääne Fabrikam)     | 75,00        |               |
-| Võlg Fabrikamile (Lääne Fabrikam)      |              | 75,00         |
-| Ostureskontro (Lääne Fabrikam)     | 25,00        |               |
-| Võlg Fabrikam Eastilt (Fabrikam West) |              | 25,00         |
+| <span data-ttu-id="a5617-430">Ostureskontro (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-430">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="a5617-431">75,00</span><span class="sxs-lookup"><span data-stu-id="a5617-431">75.00</span></span>        |               |
+| <span data-ttu-id="a5617-432">Võlg Fabrikamile (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-432">Due to Fabrikam (Fabrikam West)</span></span>      |              | <span data-ttu-id="a5617-433">75,00</span><span class="sxs-lookup"><span data-stu-id="a5617-433">75.00</span></span>         |
+| <span data-ttu-id="a5617-434">Ostureskontro (Lääne Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="a5617-434">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="a5617-435">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-435">25.00</span></span>        |               |
+| <span data-ttu-id="a5617-436">Võlg Fabrikam Eastilt (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="a5617-436">Due to Fabrikam East (Fabrikam West)</span></span> |              | <span data-ttu-id="a5617-437">25,00</span><span class="sxs-lookup"><span data-stu-id="a5617-437">25.00</span></span>         |
 
 
 

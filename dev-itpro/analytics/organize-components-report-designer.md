@@ -16,71 +16,71 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="organize-report-components-in-report-designer"></a>Aruande komponentide korraldamine aruandekoosturis
+# <a name="organize-report-components-in-report-designer"></a><span data-ttu-id="c1cad-104">Aruande komponentide korraldamine aruandekoosturis</span><span class="sxs-lookup"><span data-stu-id="c1cad-104">Organize report components in report designer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Kui olete koosteüksused kujundanud ja aruanded koostanud, on abiks nende objektide korraldamine, et kasutajatel oleks neid hõlpsam leida. Selles artiklis kirjeldatakse olemasolevate aruannete,koosteüksuste ja objektide korraldamist aruandekoosturis.
+<span data-ttu-id="c1cad-105">Kui olete koosteüksused kujundanud ja aruanded koostanud, on abiks nende objektide korraldamine, et kasutajatel oleks neid hõlpsam leida.</span><span class="sxs-lookup"><span data-stu-id="c1cad-105">After you've designed building blocks and generated reports, it's helpful to organize these objects so that they are easier for users to locate.</span></span> <span data-ttu-id="c1cad-106">Selles artiklis kirjeldatakse olemasolevate aruannete,koosteüksuste ja objektide korraldamist aruandekoosturis.</span><span class="sxs-lookup"><span data-stu-id="c1cad-106">This article explains how to organize existing reports, building blocks, and objects in report designer.</span></span>
 
-Failide korraldamiseks saate aruandekoosturis kaustu, aruandeid, koosteüksusi ja muid objekte ümber nimetada. Ümbernimetatava objekti tüübist olenevalt võib teil olla vaja selle objekti seoseid värskendada.
+<span data-ttu-id="c1cad-107">Failide korraldamiseks saate aruandekoosturis kaustu, aruandeid, koosteüksusi ja muid objekte ümber nimetada.</span><span class="sxs-lookup"><span data-stu-id="c1cad-107">You can rename folders, reports, building blocks, and other objects in report designer to help organize your files.</span></span> <span data-ttu-id="c1cad-108">Ümbernimetatava objekti tüübist olenevalt võib teil olla vaja selle objekti seoseid värskendada.</span><span class="sxs-lookup"><span data-stu-id="c1cad-108">Depending on the type of object that you rename, you might have to update associations with that object.</span></span>
 
-## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aruande kujundaja kausta või koosteüksuse ümbernimetamine
-Saate aruande kujundajas ümber nimetada kaustu, aruande definitsioone, readefinitsioone, veerudefinitsioone ja aruandluspuu definitsioone. **Märkus.** Koosteüksuse ümbernimetamisel peate värskendama aruandluse definitsioone, mis seda koosteüksust kasutavad. Vastasel korral ei saa aruannet koostada.
+## <a name="rename-a-folder-or-building-block-in-report-designer"></a><span data-ttu-id="c1cad-109">Aruande kujundaja kausta või koosteüksuse ümbernimetamine</span><span class="sxs-lookup"><span data-stu-id="c1cad-109">Rename a folder or building block in Report Designer</span></span>
+<span data-ttu-id="c1cad-110">Saate aruande kujundajas ümber nimetada kaustu, aruande definitsioone, readefinitsioone, veerudefinitsioone ja aruandluspuu definitsioone.</span><span class="sxs-lookup"><span data-stu-id="c1cad-110">In Report Designer, you can rename folders, report definitions, row definitions, column definitions, and reporting tree definitions.</span></span> <span data-ttu-id="c1cad-111">**Märkus.** Koosteüksuse ümbernimetamisel peate värskendama aruandluse definitsioone, mis seda koosteüksust kasutavad.</span><span class="sxs-lookup"><span data-stu-id="c1cad-111">**Note:** When you rename a building block, you must update any reporting definitions that use the building block.</span></span> <span data-ttu-id="c1cad-112">Vastasel korral ei saa aruannet koostada.</span><span class="sxs-lookup"><span data-stu-id="c1cad-112">Otherwise, a new report can't be generated.</span></span>
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aruande kujundaja kausta või koosteüksuse ümbernimetamine
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a><span data-ttu-id="c1cad-113">Aruande kujundaja kausta või koosteüksuse ümbernimetamine</span><span class="sxs-lookup"><span data-stu-id="c1cad-113">Rename a folder or building block in Report Designer</span></span>
 
-1.  Kasutage aruande kujundajas ümbernimetatava kausta või objekti leidmiseks navigeerimispaani.
-2.  Paremklõpsake kausta või objekti ja seejärel klõpsake suvandit **Nimeta ümber**. Navigeerimispaani väli **Nimi** muutub aktiivseks.
-3.  Sisestage uus nimi ja seejärel vajutage suvandit Sisesta.
-4.  Kui koosteüksus on readefinitsioon, veeru definitsioon või aruandluspuu definitsioon, peate värskendama teisi sellega seotud koosteüksusi. Paremklõpsake 3. etapis ümbernimetatud koosteüksust, valige **Seosed** ja seejärel valige element loendist selle värskendamiseks.
-5.  Korrake 4. etappi, kuni kõik seotud elemendid on värskendatud.
+1.  <span data-ttu-id="c1cad-114">Kasutage aruande kujundajas ümbernimetatava kausta või objekti leidmiseks navigeerimispaani.</span><span class="sxs-lookup"><span data-stu-id="c1cad-114">In Report Designer, use the navigation pane to locate the folder or object to rename.</span></span>
+2.  <span data-ttu-id="c1cad-115">Paremklõpsake kausta või objekti ja seejärel klõpsake suvandit **Nimeta ümber**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-115">Right-click the folder or object, and then click **Rename**.</span></span> <span data-ttu-id="c1cad-116">Navigeerimispaani väli **Nimi** muutub aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="c1cad-116">The **Name** field in the navigation pane becomes available.</span></span>
+3.  <span data-ttu-id="c1cad-117">Sisestage uus nimi ja seejärel vajutage suvandit Sisesta.</span><span class="sxs-lookup"><span data-stu-id="c1cad-117">Type a new name, and then press Enter.</span></span>
+4.  <span data-ttu-id="c1cad-118">Kui koosteüksus on readefinitsioon, veeru definitsioon või aruandluspuu definitsioon, peate värskendama teisi sellega seotud koosteüksusi.</span><span class="sxs-lookup"><span data-stu-id="c1cad-118">If the building block is a row definition, column definition, or reporting tree definition, you must update other building blocks that are associated with it.</span></span> <span data-ttu-id="c1cad-119">Paremklõpsake 3. etapis ümbernimetatud koosteüksust, valige **Seosed** ja seejärel valige element loendist selle värskendamiseks.</span><span class="sxs-lookup"><span data-stu-id="c1cad-119">Right-click the building block that you renamed in step 3, select **Associations**, and then select an item in the list to update it.</span></span>
+5.  <span data-ttu-id="c1cad-120">Korrake 4. etappi, kuni kõik seotud elemendid on värskendatud.</span><span class="sxs-lookup"><span data-stu-id="c1cad-120">Repeat step 4 until all associated items are updated.</span></span>
 
-## <a name="create-and-manage-report-groups"></a>Aruandegruppide loomine ja haldamine
-Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandegruppide loomiseks, muutmiseks ja kustutamiseks peab teil olema kujundaja või administraatori roll. Looja rolliga kasutajad saavad aruandegruppe luua ja ka aruandegruppide kasutaja aruande definitsiooni seadistust muuta.
+## <a name="create-and-manage-report-groups"></a><span data-ttu-id="c1cad-121">Aruandegruppide loomine ja haldamine</span><span class="sxs-lookup"><span data-stu-id="c1cad-121">Create and manage report groups</span></span>
+<span data-ttu-id="c1cad-122">Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks.</span><span class="sxs-lookup"><span data-stu-id="c1cad-122">You can group report definitions to generate multiple reports at the same time.</span></span> <span data-ttu-id="c1cad-123">Aruandegruppide loomiseks, muutmiseks ja kustutamiseks peab teil olema kujundaja või administraatori roll.</span><span class="sxs-lookup"><span data-stu-id="c1cad-123">To create, modify, delete, and generate report groups, you must have the designer or administrator role.</span></span> <span data-ttu-id="c1cad-124">Looja rolliga kasutajad saavad aruandegruppe luua ja ka aruandegruppide kasutaja aruande definitsiooni seadistust muuta.</span><span class="sxs-lookup"><span data-stu-id="c1cad-124">Users who have the generator role can generate report groups and can also modify the user report definitions setting for report groups.</span></span>
 
-### <a name="create-a-report-group"></a>Aruandegrupi loomine
+### <a name="create-a-report-group"></a><span data-ttu-id="c1cad-125">Aruandegrupi loomine</span><span class="sxs-lookup"><span data-stu-id="c1cad-125">Create a report group</span></span>
 
-1.  Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
-2.  Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas. Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Aruandegrupp").
-3.  Klõpsake vahekaarti **Aruandegrupp**. Individuaalsete aruande definitsioonide teabe tühistamiseks selle aruande loomise puhul valige märkeruut **Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine individuaalsetest aruande definitsioonidest**. Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.
-4.  Mitme arvestusvaluutasid näitava aruande koostamiseks märkige ruut **Kaasa kõik aruandlusvaluutad**. Seejärel pääsete mitmesse vaatesse, klõpsates aruande vaatamisel veebivaaturis nuppu **Valuuta**.
-5.  Aruandegruppi kaasatavate aruannete valimiseks klõpsake väljal **Grupi aruanded** valikut **Lisa**. Mitme aruande valimiseks dialoogiboksis **Lisa** hoidke aruannete valimisel all klahvi Ctrl. Kui olete aruannete valimise lõpetanud, klõpsake **OK**.
-6.  Uue aruandegrupi salvestamiseks klõpsake **Fail** &gt; **Salvesta**.
+1.  <span data-ttu-id="c1cad-126">Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-126">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
+2.  <span data-ttu-id="c1cad-127">Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas.</span><span class="sxs-lookup"><span data-stu-id="c1cad-127">On the **File** menu, click **New** &gt; **Report Group Definition** to open a new report group in the viewer window.</span></span> <span data-ttu-id="c1cad-128">Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Aruandegrupp").</span><span class="sxs-lookup"><span data-stu-id="c1cad-128">Alternatively, click the **Report Group** button ![Report Group](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Report Group") on the toolbar.</span></span>
+3.  <span data-ttu-id="c1cad-129">Klõpsake vahekaarti **Aruandegrupp**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-129">Click the **Report Group** tab.</span></span> <span data-ttu-id="c1cad-130">Individuaalsete aruande definitsioonide teabe tühistamiseks selle aruande loomise puhul valige märkeruut **Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine individuaalsetest aruande definitsioonidest**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-130">To override the information on the individual report definitions for the generation of this report, select the **Override company, detail, and date settings from individual report definitions** check box.</span></span> <span data-ttu-id="c1cad-131">Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.</span><span class="sxs-lookup"><span data-stu-id="c1cad-131">The company name, detail level, provisional setting, and date information are entered automatically, but you can make updates.</span></span>
+4.  <span data-ttu-id="c1cad-132">Mitme arvestusvaluutasid näitava aruande koostamiseks märkige ruut **Kaasa kõik aruandlusvaluutad**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-132">To generate multiple reports that show the reporting currencies, select the **Include all reporting currencies** check box.</span></span> <span data-ttu-id="c1cad-133">Seejärel pääsete mitmesse vaatesse, klõpsates aruande vaatamisel veebivaaturis nuppu **Valuuta**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-133">You can then access multiple views by clicking the **Currency** button in the Web Viewer when you view the report.</span></span>
+5.  <span data-ttu-id="c1cad-134">Aruandegruppi kaasatavate aruannete valimiseks klõpsake väljal **Grupi aruanded** valikut **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-134">In the **Reports in group** field, click **Add** to select the reports to include in the report group.</span></span> <span data-ttu-id="c1cad-135">Mitme aruande valimiseks dialoogiboksis **Lisa** hoidke aruannete valimisel all klahvi Ctrl.</span><span class="sxs-lookup"><span data-stu-id="c1cad-135">To select multiple reports in the **Add** dialog box, hold down the Ctrl key while you select reports.</span></span> <span data-ttu-id="c1cad-136">Kui olete aruannete valimise lõpetanud, klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-136">When you've finished selecting reports, click **OK**.</span></span>
+6.  <span data-ttu-id="c1cad-137">Uue aruandegrupi salvestamiseks klõpsake **Fail** &gt; **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-137">Click **File** &gt; **Save** to save the new report group.</span></span>
 
-### <a name="modify-a-report-group"></a>Aruandegrupi muutmine
+### <a name="modify-a-report-group"></a><span data-ttu-id="c1cad-138">Aruandegrupi muutmine</span><span class="sxs-lookup"><span data-stu-id="c1cad-138">Modify a report group</span></span>
 
-1.  Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
-2.  Aruandegrupi muutmiseks topeltklõpsake.
-3.  Tehke vahekaardil **Aruandegrupp** soovitud muudatused.
-4.  Klõpsake menüüs **Fail** käsku **Salvesta** muudetud aruandegrupi salvestamiseks. Teine võimalus on klõpsata tööriistaribal nuppu **Salvesta** ![Salvesta](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Salvesta").
+1.  <span data-ttu-id="c1cad-139">Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-139">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
+2.  <span data-ttu-id="c1cad-140">Aruandegrupi muutmiseks topeltklõpsake.</span><span class="sxs-lookup"><span data-stu-id="c1cad-140">Double-click the report group to modify.</span></span>
+3.  <span data-ttu-id="c1cad-141">Tehke vahekaardil **Aruandegrupp** soovitud muudatused.</span><span class="sxs-lookup"><span data-stu-id="c1cad-141">On the **Report Group** tab, make the changes that you want.</span></span>
+4.  <span data-ttu-id="c1cad-142">Klõpsake menüüs **Fail** käsku **Salvesta** muudetud aruandegrupi salvestamiseks. Teine võimalus on klõpsata tööriistaribal nuppu **Salvesta** ![Salvesta](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Salvesta").</span><span class="sxs-lookup"><span data-stu-id="c1cad-142">On the **File** menu, click **Save** to save the modified report group, Alternatively, click the **Save** button ![Save](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Save") on the toolbar.</span></span>
 
-**Märkus.** Kui olete plaaninud aruanded määratud vahemikel koostamiseks, saate need sätted tühistada ja aruande kohe luua.
+<span data-ttu-id="c1cad-143">**Märkus.** Kui olete plaaninud aruanded määratud vahemikel koostamiseks, saate need sätted tühistada ja aruande kohe luua.</span><span class="sxs-lookup"><span data-stu-id="c1cad-143">**Note:** If you've scheduled reports so that they are generated at set intervals, you can override those settings and generate a report immediately.</span></span>
 
-### <a name="generate-a-report-group-report"></a>Aruandegrupi aruande loomine
+### <a name="generate-a-report-group-report"></a><span data-ttu-id="c1cad-144">Aruandegrupi aruande loomine</span><span class="sxs-lookup"><span data-stu-id="c1cad-144">Generate a report group report</span></span>
 
-1.  Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
-2.  Avage loodav aruandegrupp.
-3.  Klõpsake aruannete loomiseks nuppu **Loo aruanne** ![Loo aruanne](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Loo aruanne").
+1.  <span data-ttu-id="c1cad-145">Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-145">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
+2.  <span data-ttu-id="c1cad-146">Avage loodav aruandegrupp.</span><span class="sxs-lookup"><span data-stu-id="c1cad-146">Open the report group to generate.</span></span>
+3.  <span data-ttu-id="c1cad-147">Klõpsake aruannete loomiseks nuppu **Loo aruanne** ![Loo aruanne](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Loo aruanne").</span><span class="sxs-lookup"><span data-stu-id="c1cad-147">Click the **Generate Report** button ![Generate Report](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Generate Report") to generate reports.</span></span>
 
-### <a name="delete-a-report-group"></a>Aruandegrupi kustutamine
+### <a name="delete-a-report-group"></a><span data-ttu-id="c1cad-148">Aruandegrupi kustutamine</span><span class="sxs-lookup"><span data-stu-id="c1cad-148">Delete a report group</span></span>
 
-1.  Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
-2.  Paremklõpsake kustutamiseks aruandegruppi ja seejärel tehke valik **Kustuta**.
-3.  Kui kuvatakse kinnitusteade, klõpsake valikut **Jah**.
+1.  <span data-ttu-id="c1cad-149">Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-149">In Report Designer, in the navigation pane, click **Report Groups**.</span></span>
+2.  <span data-ttu-id="c1cad-150">Paremklõpsake kustutamiseks aruandegruppi ja seejärel tehke valik **Kustuta**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-150">Right-click the report group to delete, and then select **Delete**.</span></span>
+3.  <span data-ttu-id="c1cad-151">Kui kuvatakse kinnitusteade, klõpsake valikut **Jah**.</span><span class="sxs-lookup"><span data-stu-id="c1cad-151">When a confirmation message appears, click **Yes**.</span></span>
 
-## <a name="report-group-tab-controls"></a>Vahekaardi Aruandegrupp juhtelemendid
-Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
+## <a name="report-group-tab-controls"></a><span data-ttu-id="c1cad-152">Vahekaardi Aruandegrupp juhtelemendid</span><span class="sxs-lookup"><span data-stu-id="c1cad-152">Report Group tab controls</span></span>
+<span data-ttu-id="c1cad-153">Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.</span><span class="sxs-lookup"><span data-stu-id="c1cad-153">The following table describes the controls on the **Report Group** tab.</span></span>
 
 <table>
 <colgroup>
@@ -89,64 +89,64 @@ Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Juhtelement</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="c1cad-154">Juhtelement</span><span class="sxs-lookup"><span data-stu-id="c1cad-154">Control</span></span></th>
+<th><span data-ttu-id="c1cad-155">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="c1cad-155">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine individuaalsetest aruande definitsioonidest</td>
-<td>Märkige see ruut selle aruandegrupi aruannete individuaalsete aruande definitsioonide tühistamiseks ainult nende aruannete loomise puhul.</td>
+<td><span data-ttu-id="c1cad-156">Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine individuaalsetest aruande definitsioonidest</span><span class="sxs-lookup"><span data-stu-id="c1cad-156">Override company, detail, and date settings from individual report definitions</span></span></td>
+<td><span data-ttu-id="c1cad-157">Märkige see ruut selle aruandegrupi aruannete individuaalsete aruande definitsioonide tühistamiseks ainult nende aruannete loomise puhul.</span><span class="sxs-lookup"><span data-stu-id="c1cad-157">Select this check box to override individual report definitions of the reports in this report group for the generation of these reports only.</span></span></td>
 </tr>
 <tr class="even">
-<td>Ettevõtte nimi</td>
-<td>Aruannete puhul kasutatava ettevõtte valimine.</td>
+<td><span data-ttu-id="c1cad-158">Ettevõtte nimi</span><span class="sxs-lookup"><span data-stu-id="c1cad-158">Company name</span></span></td>
+<td><span data-ttu-id="c1cad-159">Aruannete puhul kasutatava ettevõtte valimine.</span><span class="sxs-lookup"><span data-stu-id="c1cad-159">Select the company to use for the reports.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Üksikasjatase</td>
-<td>Määrake aruannete üksikasjatase.
+<td><span data-ttu-id="c1cad-160">Üksikasjatase</span><span class="sxs-lookup"><span data-stu-id="c1cad-160">Detail level</span></span></td>
+<td><span data-ttu-id="c1cad-161">Määrake aruannete üksikasjatase.</span><span class="sxs-lookup"><span data-stu-id="c1cad-161">Specify the level of detail that the reports include.</span></span>
 <ul>
-<li><strong>Rahaline</strong>− kõrgetasemeline koondaruanne. Te ei saa kontodes ja dimensioonides süvitsi minna, välja arvatud aruandluspuu kaudu lisatud kontode ja dimensioonide puhul.</li>
-<li><strong>Rahaline &amp; Konto</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja konto üksikasju.</li>
-<li><strong>Rahaline, Konto &amp; Kanne</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja kande üksikasju..</li>
+<li><span data-ttu-id="c1cad-162"><strong>Rahaline</strong>− kõrgetasemeline koondaruanne.</span><span class="sxs-lookup"><span data-stu-id="c1cad-162"><strong>Financial</strong> − A high-level summary report.</span></span> <span data-ttu-id="c1cad-163">Te ei saa kontodes ja dimensioonides süvitsi minna, välja arvatud aruandluspuu kaudu lisatud kontode ja dimensioonide puhul.</span><span class="sxs-lookup"><span data-stu-id="c1cad-163">You can't drill down to accounts and dimensions, except for those accounts and dimensions that have been added through a reporting tree.</span></span></li>
+<li><span data-ttu-id="c1cad-164"><strong>Rahaline &amp; Konto</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja konto üksikasju.</span><span class="sxs-lookup"><span data-stu-id="c1cad-164"><strong>Financial &amp; Account</strong> − A report that contains a high-level summary and account details.</span></span></li>
+<li><span data-ttu-id="c1cad-165"><strong>Rahaline, Konto &amp; Kanne</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja kande üksikasju..</span><span class="sxs-lookup"><span data-stu-id="c1cad-165"><strong>Financial, Account, &amp; Transaction</strong> − A report that contains a high-level summary and transaction details.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Tinglik</td>
-<td>Määrake aruannete tegevuste tüübid.
+<td><span data-ttu-id="c1cad-166">Tinglik</span><span class="sxs-lookup"><span data-stu-id="c1cad-166">Provisional</span></span></td>
+<td><span data-ttu-id="c1cad-167">Määrake aruannete tegevuste tüübid.</span><span class="sxs-lookup"><span data-stu-id="c1cad-167">Specify the types of activity that the reports include.</span></span>
 <ul>
-<li><strong>Ainult sisestatud tegevus</strong> − sisaldavad ainult teie finantsandmetesse kirjendatud kandeid ja saldosid.</li>
-<li><strong>Sisestatud ja sisestamata tegevus</strong> − sisaldavad kõiki teie finantsandmetesse sisestatud ja kirjendatud kandeid ja saldosid.</li>
-<li><strong>Ainult sisestamata tegevus</strong> − sisaldavad ainult teie finantsandmetesse sisestatud, kuid veel kirjendamata kandeid ja saldosid.</li>
+<li><span data-ttu-id="c1cad-168"><strong>Ainult sisestatud tegevus</strong> − sisaldavad ainult teie finantsandmetesse kirjendatud kandeid ja saldosid.</span><span class="sxs-lookup"><span data-stu-id="c1cad-168"><strong>Posted activity only</strong> − Include only the transactions and balances that are posted in your financial data.</span></span></li>
+<li><span data-ttu-id="c1cad-169"><strong>Sisestatud ja sisestamata tegevus</strong> − sisaldavad kõiki teie finantsandmetesse sisestatud ja kirjendatud kandeid ja saldosid.</span><span class="sxs-lookup"><span data-stu-id="c1cad-169"><strong>Posted and unposted activity</strong> − Include all the transactions and balances that are entered and posted in your financial data.</span></span></li>
+<li><span data-ttu-id="c1cad-170"><strong>Ainult sisestamata tegevus</strong> − sisaldavad ainult teie finantsandmetesse sisestatud, kuid veel kirjendamata kandeid ja saldosid.</span><span class="sxs-lookup"><span data-stu-id="c1cad-170"><strong>Unposted activity only</strong> − Include only the transactions that are entered, but not yet posted, in your financial data.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Kõigi aruandlusvaluutade kaasamine</td>
-<td>Kui teie Microsoft Dynamics ERP süsteemis on konfigureeritud täiendavaid aruandlusvaluutasid, loetletakse need siin. Märkige see ruut lisaaruannete koostamiseks näidatud valuutades. Nende aruannete kuvamiseks veebivaaturis klõpsake nuppu <strong>Valuuta</strong> ja valige siis valuuta.</td>
+<td><span data-ttu-id="c1cad-171">Kõigi aruandlusvaluutade kaasamine</span><span class="sxs-lookup"><span data-stu-id="c1cad-171">Include all reporting currencies</span></span></td>
+<td><span data-ttu-id="c1cad-172">Kui teie Microsoft Dynamics ERP süsteemis on konfigureeritud täiendavaid aruandlusvaluutasid, loetletakse need siin.</span><span class="sxs-lookup"><span data-stu-id="c1cad-172">Any additional reporting currencies that are configured in your Microsoft Dynamics ERP system are listed here.</span></span> <span data-ttu-id="c1cad-173">Märkige see ruut lisaaruannete koostamiseks näidatud valuutades.</span><span class="sxs-lookup"><span data-stu-id="c1cad-173">Select this check box to generate additional reports in the currencies that are indicated.</span></span> <span data-ttu-id="c1cad-174">Nende aruannete kuvamiseks veebivaaturis klõpsake nuppu <strong>Valuuta</strong> ja valige siis valuuta.</span><span class="sxs-lookup"><span data-stu-id="c1cad-174">To view these reports in the Web Viewer, click the <strong>Currency</strong> button, and then select a currency.</span></span></td>
 </tr>
 <tr class="even">
-<td>Aruande definitsiooni ei salvestatud kuupäevateavet</td>
+<td><span data-ttu-id="c1cad-175">Aruande definitsiooni ei salvestatud kuupäevateavet</span><span class="sxs-lookup"><span data-stu-id="c1cad-175">Date information not saved with report definition</span></span></td>
 <td><ul>
-<li>Baasperiood</li>
-<li>Baasaasta</li>
-<li>Ajavahemik</li>
+<li><span data-ttu-id="c1cad-176">Baasperiood</span><span class="sxs-lookup"><span data-stu-id="c1cad-176">Base period</span></span></li>
+<li><span data-ttu-id="c1cad-177">Baasaasta</span><span class="sxs-lookup"><span data-stu-id="c1cad-177">Base year</span></span></li>
+<li><span data-ttu-id="c1cad-178">Ajavahemik</span><span class="sxs-lookup"><span data-stu-id="c1cad-178">Period covered</span></span></li>
 </ul>
-Aruande definitsiooni salvestatakse ainult baasperioodi vaikesätted.</td>
+<span data-ttu-id="c1cad-179">Aruande definitsiooni salvestatakse ainult baasperioodi vaikesätted.</span><span class="sxs-lookup"><span data-stu-id="c1cad-179">Only default base period settings are saved with the report definition.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Aruande definitsiooni salvestati kuupäevateave</td>
+<td><span data-ttu-id="c1cad-180">Aruande definitsiooni salvestati kuupäevateave</span><span class="sxs-lookup"><span data-stu-id="c1cad-180">Date information saved with report definition</span></span></td>
 <td><ul>
-<li>Aruande kuupäev</li>
-<li>Vaikimisi baasperiood</li>
+<li><span data-ttu-id="c1cad-181">Aruande kuupäev</span><span class="sxs-lookup"><span data-stu-id="c1cad-181">Report date</span></span></li>
+<li><span data-ttu-id="c1cad-182">Vaikimisi baasperiood</span><span class="sxs-lookup"><span data-stu-id="c1cad-182">Default base period</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Rühma aruanded</td>
-<td>Aruandegrupi aruannete lisamine, eemaldamine ja ümberkorraldamine.
+<td><span data-ttu-id="c1cad-183">Rühma aruanded</span><span class="sxs-lookup"><span data-stu-id="c1cad-183">Reports in group</span></span></td>
+<td><span data-ttu-id="c1cad-184">Aruandegrupi aruannete lisamine, eemaldamine ja ümberkorraldamine.</span><span class="sxs-lookup"><span data-stu-id="c1cad-184">Add, remove, and re-order reports in the report group.</span></span>
 <ul>
-<li>Aruande definitsioonide lisamiseks aruandegruppi topeltklõpsake aruandegruppi selle avamiseks ja seejärel klõpsake suvandit <strong>Lisa</strong>. Valige aruandegruppi kaasatavad aruanded ja seejärel klõpsake nuppu <strong>OK</strong>.</li>
-<li>Aruande eemaldamiseks aruandegrupist valige see ja seejärel klõpsake suvandit <strong>Eemalda</strong>.</li>
-<li>Aruannete loomise järjestuse muutmiseks valige loendist aruanne ja seejärel klõpsake valikut <strong>Liigu üles</strong> või <strong>Liigu alla</strong>.</li>
+<li><span data-ttu-id="c1cad-185">Aruande definitsioonide lisamiseks aruandegruppi topeltklõpsake aruandegruppi selle avamiseks ja seejärel klõpsake suvandit <strong>Lisa</strong>.</span><span class="sxs-lookup"><span data-stu-id="c1cad-185">To add report definitions to the report group, double-click the report group to open it, and then click <strong>Add</strong>.</span></span> <span data-ttu-id="c1cad-186">Valige aruandegruppi kaasatavad aruanded ja seejärel klõpsake nuppu <strong>OK</strong>.</span><span class="sxs-lookup"><span data-stu-id="c1cad-186">Select the reports to include in the report group, and then click <strong>OK</strong>.</span></span></li>
+<li><span data-ttu-id="c1cad-187">Aruande eemaldamiseks aruandegrupist valige see ja seejärel klõpsake suvandit <strong>Eemalda</strong>.</span><span class="sxs-lookup"><span data-stu-id="c1cad-187">To remove a report from the report group, select it, and then click <strong>Remove</strong>.</span></span></li>
+<li><span data-ttu-id="c1cad-188">Aruannete loomise järjestuse muutmiseks valige loendist aruanne ja seejärel klõpsake valikut <strong>Liigu üles</strong> või <strong>Liigu alla</strong>.</span><span class="sxs-lookup"><span data-stu-id="c1cad-188">To modify the order that the reports are generated in, select a report in the list, and then click <strong>Move up</strong> or <strong>Move down</strong>.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
@@ -154,10 +154,10 @@ Aruande definitsiooni salvestatakse ainult baasperioodi vaikesätted.</td>
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="see-also"></a><span data-ttu-id="c1cad-189">Vt ka</span><span class="sxs-lookup"><span data-stu-id="c1cad-189">See also</span></span>
 --------
 
-[Finantsaruandlus](financial-reporting-intro.md)
+[<span data-ttu-id="c1cad-190">Finantsaruandlus</span><span class="sxs-lookup"><span data-stu-id="c1cad-190">Financial reporting</span></span>](financial-reporting-intro.md)
 
 
 

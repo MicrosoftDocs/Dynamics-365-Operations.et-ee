@@ -19,61 +19,61 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 67bdb8436ff379b0e55cfe1660597e8f93235eeb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 80853a06e599786e2dcaf049ac733c47dfe4d9a5
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="procurement-and-sourcing-workflows"></a>Hangete töövood
+# <a name="procurement-and-sourcing-workflows"></a><span data-ttu-id="1f00f-104">Hangete töövood</span><span class="sxs-lookup"><span data-stu-id="1f00f-104">Procurement and sourcing workflows</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Mõned organisatsioonid nõuavad, et ostutaotlused ja ostutellimused kinnitaks muu kasutaja kui see, kes kande sisestas. Kinnitamisprotsessi seadistamiseks saate luua töövoo.
+<span data-ttu-id="1f00f-105">Mõned organisatsioonid nõuavad, et ostutaotlused ja ostutellimused kinnitaks muu kasutaja kui see, kes kande sisestas.</span><span class="sxs-lookup"><span data-stu-id="1f00f-105">Some organizations require that purchase requisitions and purchase orders are approved by a user other than the person who entered the transaction.</span></span> <span data-ttu-id="1f00f-106">Kinnitamisprotsessi seadistamiseks saate luua töövoo.</span><span class="sxs-lookup"><span data-stu-id="1f00f-106">To set up an approval process, you can create a workflow.</span></span>
 
-Töövoog esindab äriprotsessi. Töövoog määrab, kuidas dokument voogab läbi süsteemi, näidates, kes peab seda töötlema ja kinnitama. Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
--   **Järjepidevad protsessid** — töövoo süsteem lubab teil määratleda kinnitusprotsessi kindlatele dokumentidele nagu näiteks ostutaotlused ja kuluaruanded. Töövoo süsteemi abil tagate, et dokumente töödeldakse ja kinnitatakse järjekindlal ja tõhusal viisil.
--   **Protsessi nähtavus** — töövoo süsteem lubab teil jälgida kindla töövoo eksemplari olekut ja ajalugu. See aitab teil määratleda, kas töövoos tuleks muudatusi tõhususe parandamiseks.
--   **Tööde koondloend** – kasutajad saavad vaadata tööde koondloendit, et näha neile määratud töövoo ülesandeid ja kinnitusi kõigis töövoogudes, milles nad osalevad. See on saadaval lehel Tööüksused.
+<span data-ttu-id="1f00f-107">Töövoog esindab äriprotsessi.</span><span class="sxs-lookup"><span data-stu-id="1f00f-107">A workflow represents a business process.</span></span> <span data-ttu-id="1f00f-108">Töövoog määrab, kuidas dokument voogab läbi süsteemi, näidates, kes peab seda töötlema ja kinnitama.</span><span class="sxs-lookup"><span data-stu-id="1f00f-108">It defines how a document flows through the system and indicates who must complete a task or approve a document.</span></span> <span data-ttu-id="1f00f-109">Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.</span><span class="sxs-lookup"><span data-stu-id="1f00f-109">There are several benefits of using the workflow system in your organization:</span></span>
+-   <span data-ttu-id="1f00f-110">**Järjepidevad protsessid** — töövoo süsteem lubab teil määratleda kinnitusprotsessi kindlatele dokumentidele nagu näiteks ostutaotlused ja kuluaruanded.</span><span class="sxs-lookup"><span data-stu-id="1f00f-110">**Consistent processes**— You can define the approval process for specific documents, such as purchase requisitions and expense reports.</span></span> <span data-ttu-id="1f00f-111">Töövoo süsteemi abil tagate, et dokumente töödeldakse ja kinnitatakse järjekindlal ja tõhusal viisil.</span><span class="sxs-lookup"><span data-stu-id="1f00f-111">Using the workflow system helps to ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+-   <span data-ttu-id="1f00f-112">**Protsessi nähtavus** — töövoo süsteem lubab teil jälgida kindla töövoo eksemplari olekut ja ajalugu.</span><span class="sxs-lookup"><span data-stu-id="1f00f-112">**Process visibility**— You can track the status, history, and performance metrics of a specific workflow instance.</span></span> <span data-ttu-id="1f00f-113">See aitab teil määratleda, kas töövoos tuleks muudatusi tõhususe parandamiseks.</span><span class="sxs-lookup"><span data-stu-id="1f00f-113">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+-   <span data-ttu-id="1f00f-114">**Tööde koondloend** – kasutajad saavad vaadata tööde koondloendit, et näha neile määratud töövoo ülesandeid ja kinnitusi kõigis töövoogudes, milles nad osalevad.</span><span class="sxs-lookup"><span data-stu-id="1f00f-114">**Centralized work list**— Users can view a centralized work list to view the workflow tasks and approvals assigned to them across all workflows they participate in.</span></span> <span data-ttu-id="1f00f-115">See on saadaval lehel Tööüksused.</span><span class="sxs-lookup"><span data-stu-id="1f00f-115">This is available in the Work items page.</span></span>
 
-## <a name="the-types-of-workflows-that-you-can-create"></a> Loodavate töövoogude tüübid
-Jaotises Hanked on saadaval järgmised töövootüübid.
+## <a name="the-types-of-workflows-that-you-can-create"></a><span data-ttu-id="1f00f-116"> Loodavate töövoogude tüübid</span><span class="sxs-lookup"><span data-stu-id="1f00f-116">The types of workflows that you can create</span></span>
+<span data-ttu-id="1f00f-117">Jaotises Hanked on saadaval järgmised töövootüübid.</span><span class="sxs-lookup"><span data-stu-id="1f00f-117">The following workflow types are available for Procurement and sourcing.</span></span>
 
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
-| **Tüüp**                         | **Kasutage seda tüüpi järgmiseks**                                          |
-| Ostutaotluse ülevaade      | Saate luua ülevaatuse töövoogusid ostutaotluste jaoks.            |
-| Ostutaotluse rea eelvaade | Saate luua ülevaatuse töövoogusid ostutaotluse ridade jaoks.       |
-| Ostutellimuse töövoog          | Saate luua ülevaatuse ja kinnitamise töövoogusid ostutellimuste jaoks.     |
-| Ostutellimuse rea töövoog     | Saate luua ülevaatuse ja kinnitamise töövoogusid ostutellimuse ridade jaoks. |
+| <span data-ttu-id="1f00f-118">**Tüüp**</span><span class="sxs-lookup"><span data-stu-id="1f00f-118">**Type**</span></span>                         | <span data-ttu-id="1f00f-119">**Kasutage seda tüüpi järgmiseks**</span><span class="sxs-lookup"><span data-stu-id="1f00f-119">**Use this type to**</span></span>                                          |
+| <span data-ttu-id="1f00f-120">Ostutaotluse ülevaade</span><span class="sxs-lookup"><span data-stu-id="1f00f-120">Purchase requisition review</span></span>      | <span data-ttu-id="1f00f-121">Saate luua ülevaatuse töövoogusid ostutaotluste jaoks.</span><span class="sxs-lookup"><span data-stu-id="1f00f-121">Create review workflows for purchase requisitions.</span></span>            |
+| <span data-ttu-id="1f00f-122">Ostutaotluse rea eelvaade</span><span class="sxs-lookup"><span data-stu-id="1f00f-122">Purchase requisition line review</span></span> | <span data-ttu-id="1f00f-123">Saate luua ülevaatuse töövoogusid ostutaotluse ridade jaoks.</span><span class="sxs-lookup"><span data-stu-id="1f00f-123">Create review workflows for purchase requisition lines.</span></span>       |
+| <span data-ttu-id="1f00f-124">Ostutellimuse töövoog</span><span class="sxs-lookup"><span data-stu-id="1f00f-124">Purchase order workflow</span></span>          | <span data-ttu-id="1f00f-125">Saate luua ülevaatuse ja kinnitamise töövoogusid ostutellimuste jaoks.</span><span class="sxs-lookup"><span data-stu-id="1f00f-125">Create review and approval workflows for purchase orders.</span></span>     |
+| <span data-ttu-id="1f00f-126">Ostutellimuse rea töövoog</span><span class="sxs-lookup"><span data-stu-id="1f00f-126">Purchase order line workflow</span></span>     | <span data-ttu-id="1f00f-127">Saate luua ülevaatuse ja kinnitamise töövoogusid ostutellimuse ridade jaoks.</span><span class="sxs-lookup"><span data-stu-id="1f00f-127">Create review and approve workflows for purchase order lines.</span></span> |
 
-## <a name="creating-a-workflow"></a>Töövoo loomine
-Töövoo loomiseks minge jaotisse Hanked &gt; Seadistus &gt; Hangete töövood ja looge uus töövoog, valides loodava töövoo tüübi.  
+## <a name="creating-a-workflow"></a><span data-ttu-id="1f00f-128">Töövoo loomine</span><span class="sxs-lookup"><span data-stu-id="1f00f-128">Creating a workflow</span></span>
+<span data-ttu-id="1f00f-129">Töövoo loomiseks minge jaotisse Hanked &gt; Seadistus &gt; Hangete töövood ja looge uus töövoog, valides loodava töövoo tüübi.</span><span class="sxs-lookup"><span data-stu-id="1f00f-129">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
-Töövoo lõuendil saate lohistada töövoo elemendid kujundajasse ja linkida need voogu. Töövoo elemendid peavad olema konfigureeritud. Kinnitus- ja ülesandetöövoo elementide puhul saate konfigureerida, milline osaleja peaks tegutsema.
-Osalejate tüübid
+<span data-ttu-id="1f00f-130">Töövoo lõuendil saate lohistada töövoo elemendid kujundajasse ja linkida need voogu.</span><span class="sxs-lookup"><span data-stu-id="1f00f-130">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="1f00f-131">Töövoo elemendid peavad olema konfigureeritud.</span><span class="sxs-lookup"><span data-stu-id="1f00f-131">The workflow elements should be configured.</span></span> <span data-ttu-id="1f00f-132">Kinnitus- ja ülesandetöövoo elementide puhul saate konfigureerida, milline osaleja peaks tegutsema.</span><span class="sxs-lookup"><span data-stu-id="1f00f-132">For approval and task workflow elements you can configure which participant should take action.</span></span>
+<span data-ttu-id="1f00f-133">Osalejate tüübid</span><span class="sxs-lookup"><span data-stu-id="1f00f-133">Types of participants</span></span>
 ----------------------
 
-Saate määrata kinnitamisetapi järgmistele osalejate gruppidele.
+<span data-ttu-id="1f00f-134">Saate määrata kinnitamisetapi järgmistele osalejate gruppidele.</span><span class="sxs-lookup"><span data-stu-id="1f00f-134">You can assign an approval step to the following groups of participants.</span></span>
 
-| Kasutajagrupp    | Kirjeldus                                                               |
+| <span data-ttu-id="1f00f-135">Kasutajagrupp</span><span class="sxs-lookup"><span data-stu-id="1f00f-135">User group</span></span>    | <span data-ttu-id="1f00f-136">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="1f00f-136">Description</span></span>                                                               |
 |---------------|---------------------------------------------------------------------------|
-| Osaleja   | Määrake kinnitamisetapp grupi või rolli liikmetele.                   |
-| Hierarhia     | Määrake kinnitamisetapp teatud organisatsioonihierarhia kasutajatele. |
-| Töövoo kasutaja | Määrake kinnitamisetapp selle töövoo kasutajatele.                       |
-| Järjekord         | Määrake kinnitusetapp tööüksuste järjekorda.                            |
-| Kasutaja          | Määrake kinnitamisetapp konkreetsetele kasutajatele.                               |
+| <span data-ttu-id="1f00f-137">Osaleja</span><span class="sxs-lookup"><span data-stu-id="1f00f-137">Participant</span></span>   | <span data-ttu-id="1f00f-138">Määrake kinnitamisetapp grupi või rolli liikmetele.</span><span class="sxs-lookup"><span data-stu-id="1f00f-138">Assign the approval step to members of a group or role.</span></span>                   |
+| <span data-ttu-id="1f00f-139">Hierarhia</span><span class="sxs-lookup"><span data-stu-id="1f00f-139">Hierarchy</span></span>     | <span data-ttu-id="1f00f-140">Määrake kinnitamisetapp teatud organisatsioonihierarhia kasutajatele.</span><span class="sxs-lookup"><span data-stu-id="1f00f-140">Assign the approval step to users in a specific organizational hierarchy.</span></span> |
+| <span data-ttu-id="1f00f-141">Töövoo kasutaja</span><span class="sxs-lookup"><span data-stu-id="1f00f-141">Workflow user</span></span> | <span data-ttu-id="1f00f-142">Määrake kinnitamisetapp selle töövoo kasutajatele.</span><span class="sxs-lookup"><span data-stu-id="1f00f-142">Assign the approval step to users of this workflow.</span></span>                       |
+| <span data-ttu-id="1f00f-143">Järjekord</span><span class="sxs-lookup"><span data-stu-id="1f00f-143">Queue</span></span>         | <span data-ttu-id="1f00f-144">Määrake kinnitusetapp tööüksuste järjekorda.</span><span class="sxs-lookup"><span data-stu-id="1f00f-144">Assign the approval step to a work item queue.</span></span>                            |
+| <span data-ttu-id="1f00f-145">Kasutaja</span><span class="sxs-lookup"><span data-stu-id="1f00f-145">User</span></span>          | <span data-ttu-id="1f00f-146">Määrake kinnitamisetapp konkreetsetele kasutajatele.</span><span class="sxs-lookup"><span data-stu-id="1f00f-146">Assign the approval step to specific users.</span></span>                               |
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="see-also"></a><span data-ttu-id="1f00f-147">Vt ka</span><span class="sxs-lookup"><span data-stu-id="1f00f-147">See also</span></span>
 --------
 
-[Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+[<span data-ttu-id="1f00f-148">Äriprotsessi töövoogude määratlemine ostutaotluste jaoks</span><span class="sxs-lookup"><span data-stu-id="1f00f-148">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Ostutaotluse töövoog](purchase-requisitions-workflow.md)
+[<span data-ttu-id="1f00f-149">Ostutaotluse töövoog</span><span class="sxs-lookup"><span data-stu-id="1f00f-149">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
 
 

@@ -14,31 +14,31 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dbf0e49b1156c54cd37bbbe57ca564cdbc45fb2d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 0c68d544fec985f325e6472203533f23948cc9b4
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="system-grouping-on-an-open-work-list"></a>Süsteemi rühmitamine avatud tööloendis
+# <a name="system-grouping-on-an-open-work-list"></a><span data-ttu-id="9a1bb-103">Süsteemi rühmitamine avatud tööloendis</span><span class="sxs-lookup"><span data-stu-id="9a1bb-103">System grouping on an open work list</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Süsteemi rühmitusvälja abil saate avatud tööloendit filtreerida, ilma et oleks vaja mobiilse seadme menüüelementi redigeerida.
-Kui kasutatakse süsteemi rühmitamist, saab selle abil tööloendit ühel tööpäise väljal filtreerida. Süsteemi rühmitamist ei saa kasutada rea taseme väljade filtreerimiseks.
+<span data-ttu-id="9a1bb-104">Süsteemi rühmitusvälja abil saate avatud tööloendit filtreerida, ilma et oleks vaja mobiilse seadme menüüelementi redigeerida.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-104">By using a system grouping field, you can filter an open work list without having to edit the mobile device menu item.</span></span>
+<span data-ttu-id="9a1bb-105">Kui kasutatakse süsteemi rühmitamist, saab selle abil tööloendit ühel tööpäise väljal filtreerida.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-105">Where it applies, system grouping works for filtering a work list on a single work header field.</span></span> <span data-ttu-id="9a1bb-106">Süsteemi rühmitamist ei saa kasutada rea taseme väljade filtreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-106">You cannot use system grouping to filter on line level fields.</span></span>
 
-## <a name="set-up-system-grouping-on-an-open-work-list"></a>Süsteemi rühmitamise seadistamine avatud tööloendis
-Süsteemi rühmitamise seadistamiseks avatud tööloendis tehke järgmist.
+## <a name="set-up-system-grouping-on-an-open-work-list"></a><span data-ttu-id="9a1bb-107">Süsteemi rühmitamise seadistamine avatud tööloendis</span><span class="sxs-lookup"><span data-stu-id="9a1bb-107">Set up system grouping on an open work list</span></span>
+<span data-ttu-id="9a1bb-108">Süsteemi rühmitamise seadistamiseks avatud tööloendis tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-108">Use these steps to set up system grouping on an open work list.</span></span>
 
--   Valige mobiilse seadme menüüelemendist **Režiim: kaudne** ja **Tegevuse kood: kuva avatud tööloend**. Kättesaadavaks muutuvad järgmised valikud. Need valikud on vajalikud süsteemi rühmitamise jaoks avatud tööloendis. 
+-   <span data-ttu-id="9a1bb-109">Valige mobiilse seadme menüüelemendist **Režiim: kaudne** ja **Tegevuse kood: kuva avatud tööloend**.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-109">From a mobile device menu item, select **Mode: Indirect** and **Activity Code: Display open work list**.</span></span> <span data-ttu-id="9a1bb-110">Kättesaadavaks muutuvad järgmised valikud.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-110">The following options become available.</span></span> <span data-ttu-id="9a1bb-111">Need valikud on vajalikud süsteemi rühmitamise jaoks avatud tööloendis.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-111">These options are required for system grouping on an open work list.</span></span> 
 
-| Suvand        | Kirjeldus   | 
+| <span data-ttu-id="9a1bb-112">Suvand</span><span class="sxs-lookup"><span data-stu-id="9a1bb-112">Option</span></span>        | <span data-ttu-id="9a1bb-113">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="9a1bb-113">Description</span></span>   | 
 | ------------- | ------------- |
-| Luba süsteemi rühmitamine   | Lubab süsteemi rühmitamise valitud tööloendi menüüelemendi puhul.| 
-| Süsteemi rühmitusväli   | Saadaval ainult juhul, kui valiku **Luba süsteemi töö** olekuks on määratud **Jah**. Valige väli, mis määrab, kuidas komplekteerimistöö töötajate puhul rühmitatakse. Kui valite näiteks välja **ShipmentId**, skannib töötaja komplekteerimistöö rühmitamiseks saadetise ID. Seejärel määratakse kogu saadetisega seotud töö töötajale. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Kasutage välja **Süsteemi rühmitussilt** töötaja teavitamiseks sellest, mida skannida. |
-| Süsteemi rühmitussilt   | Saadaval ainult juhul, kui valiku **Luba süsteemi töö** olekuks on määratud **Jah**. Sisestage töötaja jaoks teave selle kohta, mida skannida, kui komplekteerimistöö rühmitatakse. Kui kasutate näiteks komplekteerimistöö rühmitamiseks saadetise järgi välja **ShipmentId**, võib vajalik olla väljale Saadetise ID sisestamine. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peale selle peate valima väljal **Süsteemi rühmitamine** rühmitamise aluseks oleva välja.|
+| <span data-ttu-id="9a1bb-114">Luba süsteemi rühmitamine</span><span class="sxs-lookup"><span data-stu-id="9a1bb-114">Allow system grouping</span></span>   | <span data-ttu-id="9a1bb-115">Lubab süsteemi rühmitamise valitud tööloendi menüüelemendi puhul.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-115">Enables system groping for a selected work list menu item.</span></span>| 
+| <span data-ttu-id="9a1bb-116">Süsteemi rühmitusväli</span><span class="sxs-lookup"><span data-stu-id="9a1bb-116">System grouping field</span></span>   | <span data-ttu-id="9a1bb-117">Saadaval ainult juhul, kui valiku **Luba süsteemi töö** olekuks on määratud **Jah**.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-117">Available only if **Allow system work** is set to **Yes**.</span></span> <span data-ttu-id="9a1bb-118">Valige väli, mis määrab, kuidas komplekteerimistöö töötajate puhul rühmitatakse.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-118">Select the field that determines how picking work will be grouped for workers.</span></span> <span data-ttu-id="9a1bb-119">Kui valite näiteks välja **ShipmentId**, skannib töötaja komplekteerimistöö rühmitamiseks saadetise ID.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-119">For example, if you select the **ShipmentId** field, the worker will scan the shipment ID to group the picking work.</span></span> <span data-ttu-id="9a1bb-120">Seejärel määratakse kogu saadetisega seotud töö töötajale.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-120">All work for the shipment is then assigned to the worker.</span></span> <span data-ttu-id="9a1bb-121">Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-121">This field requires that you create a menu item to use existing work that is grouped by the system.</span></span> <span data-ttu-id="9a1bb-122">Kasutage välja **Süsteemi rühmitussilt** töötaja teavitamiseks sellest, mida skannida.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-122">Use the **System grouping label** field to inform the worker what to scan.</span></span> |
+| <span data-ttu-id="9a1bb-123">Süsteemi rühmitussilt</span><span class="sxs-lookup"><span data-stu-id="9a1bb-123">System grouping label</span></span>   | <span data-ttu-id="9a1bb-124">Saadaval ainult juhul, kui valiku **Luba süsteemi töö** olekuks on määratud **Jah**.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-124">Available only if **Allow system work** is set to **Yes**.</span></span> <span data-ttu-id="9a1bb-125">Sisestage töötaja jaoks teave selle kohta, mida skannida, kui komplekteerimistöö rühmitatakse.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-125">Enter information for the worker about what to scan when picking work is grouped.</span></span> <span data-ttu-id="9a1bb-126">Kui kasutate näiteks komplekteerimistöö rühmitamiseks saadetise järgi välja **ShipmentId**, võib vajalik olla väljale Saadetise ID sisestamine.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-126">For example, if you use the **ShipmentId** field to group picking work by shipment, you might enter Shipment ID in the field.</span></span> <span data-ttu-id="9a1bb-127">Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-127">This field requires that you create a menu item to use existing work that is grouped by the system.</span></span> <span data-ttu-id="9a1bb-128">Peale selle peate valima väljal **Süsteemi rühmitamine** rühmitamise aluseks oleva välja.</span><span class="sxs-lookup"><span data-stu-id="9a1bb-128">You must also select the field to group by in the **System grouping** field.</span></span>|
 

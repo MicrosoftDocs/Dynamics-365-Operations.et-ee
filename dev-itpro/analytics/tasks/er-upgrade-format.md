@@ -22,181 +22,181 @@ ms.contentlocale: et-ee
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) vormingu täiendamine selle vormingu uue alusvormi kasutuselevõtu abil
+# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a><span data-ttu-id="7023b-103">Elektroonilise aruandluse (ER) vormingu täiendamine selle vormingu uue alusvormi kasutuselevõtu abil</span><span class="sxs-lookup"><span data-stu-id="7023b-103">Upgrade your format by adopting of new base version of that format for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni. Selles protseduuris selgitatakse, kuidas saab luua vormingu kohandatud versiooni konfiguratsiooni pakkujalt (CP) saadud vormingu alusel. Selgitatakse ka seda, kuidas võtta kasutusele selle vormingu uus alusversioon.
+<span data-ttu-id="7023b-104">Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni.</span><span class="sxs-lookup"><span data-stu-id="7023b-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="7023b-105">Selles protseduuris selgitatakse, kuidas saab luua vormingu kohandatud versiooni konfiguratsiooni pakkujalt (CP) saadud vormingu alusel.</span><span class="sxs-lookup"><span data-stu-id="7023b-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="7023b-106">Selgitatakse ka seda, kuidas võtta kasutusele selle vormingu uus alusversioon.</span><span class="sxs-lookup"><span data-stu-id="7023b-106">It also explains how to adopt a new, base version of that format.</span></span>
 
 
 
-Nende etappide lõpuleviimiseks peate kõigepealt lõpetama etapid protseduurides „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” ja „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Neid toiminguid saab teha GBSI ettevõttes.
+<span data-ttu-id="7023b-107">Nende etappide lõpuleviimiseks peate kõigepealt lõpetama etapid protseduurides „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” ja „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</span><span class="sxs-lookup"><span data-stu-id="7023b-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</span></span> <span data-ttu-id="7023b-108">Neid toiminguid saab teha GBSI ettevõttes.</span><span class="sxs-lookup"><span data-stu-id="7023b-108">These steps can be performed in the GBSI company.</span></span>
 
 
-## <a name="select-format-configuration-for-customization"></a>Vormingu konfiguratsiooni valimine kohandamiseks
-1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-    * Selles näites on näidisettevõte Litware, Inc. (http://www.litware.com) konfiguratsiooni pakkuja, mis toetab kindla riigi elektrooniliste maksete vormingu konfiguratsioone.    Näidisettevõte Proseware, Inc. (http://www.proseware.com) on selle vormingukonfiguratsiooni tarbija, mida pakub Litware, Inc. Proseware, Inc. kasutab vorminguid selle riigi teatud piirkondades.  
-2. Klõpsake valikut Aruandluse konfiguratsioonid.
-3. Klõpsake suvandit Näita filtreid.
-4. Rakendage järgmised filtrid: sisestage filtri väärtus „BACS (UK fiktiivne)” väljale „Nimi”, kasutades filtri tehtemärki „algab üksusega”,
-    * BACS (UK fiktiivne)  
-    * Valitud vormingu konfiguratsiooni BACS (UK fiktiivne) omanik on pakkuja Litware, Inc.  
-5. Klõpsake suvandit Näita filtreid.
-6. Otsige loendist ja valige soovitud kirje.
-    * Proseware, Inc. kasutab isikupärastamiseks vormingu versiooni olekuga Lõpule viidud.  
+## <a name="select-format-configuration-for-customization"></a><span data-ttu-id="7023b-109">Vormingu konfiguratsiooni valimine kohandamiseks</span><span class="sxs-lookup"><span data-stu-id="7023b-109">Select format configuration for customization</span></span>
+1. <span data-ttu-id="7023b-110">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="7023b-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="7023b-111">Selles näites on näidisettevõte Litware, Inc. (http://www.litware.com) konfiguratsiooni pakkuja, mis toetab kindla riigi elektrooniliste maksete vormingu konfiguratsioone.</span><span class="sxs-lookup"><span data-stu-id="7023b-111">In this example, sample company Litware, Inc. (http://www.litware.com) will act as a configuration provider that supports format configurations for electronic payments for a particular country.</span></span>    <span data-ttu-id="7023b-112">Näidisettevõte Proseware, Inc. (http://www.proseware.com) on selle vormingukonfiguratsiooni tarbija, mida pakub Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7023b-112">Sample company Proseware, Inc. (http://www.proseware.com) will act as a consumer of the format configuration that Litware, Inc. provided.</span></span> <span data-ttu-id="7023b-113">Proseware, Inc. kasutab vorminguid selle riigi teatud piirkondades.</span><span class="sxs-lookup"><span data-stu-id="7023b-113">Proseware, Inc. uses formats in certain regions of that country.</span></span>  
+2. <span data-ttu-id="7023b-114">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="7023b-114">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="7023b-115">Klõpsake suvandit Näita filtreid.</span><span class="sxs-lookup"><span data-stu-id="7023b-115">Click Show filters.</span></span>
+4. <span data-ttu-id="7023b-116">Rakendage järgmised filtrid: sisestage filtri väärtus „BACS (UK fiktiivne)” väljale „Nimi”, kasutades filtri tehtemärki „algab üksusega”,</span><span class="sxs-lookup"><span data-stu-id="7023b-116">Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="7023b-117">BACS (UK fiktiivne)</span><span class="sxs-lookup"><span data-stu-id="7023b-117">BACS (UK fictitious)</span></span>  
+    * <span data-ttu-id="7023b-118">Valitud vormingu konfiguratsiooni BACS (UK fiktiivne) omanik on pakkuja Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7023b-118">The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</span></span>  
+5. <span data-ttu-id="7023b-119">Klõpsake suvandit Näita filtreid.</span><span class="sxs-lookup"><span data-stu-id="7023b-119">Click Show filters.</span></span>
+6. <span data-ttu-id="7023b-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7023b-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7023b-121">Proseware, Inc. kasutab isikupärastamiseks vormingu versiooni olekuga Lõpule viidud.</span><span class="sxs-lookup"><span data-stu-id="7023b-121">The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</span></span>  
 
-## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Elektroonilise dokumendi kohandatud vormingule uue konfiguratsiooni loomine
-    * Proseware, Inc. sai ettevõttelt Litware, Inc vastavalt nende teenusekirjeldusele BACS-i (UK fiktiivne) konfiguratsiooniversiooni 1.1, mis sisaldab algset vormingut elektrooniliste maksedokumentide loomiseks. Proseware, Inc. soovib hakata seda kasutama oma riigi standardina, kuid nõutavad on mõned kohandamised, et toetada teatud piirkondlikke nõudeid. Proseware, Inc. soovib säilitada ka võime täiendada kohandatud vormingut niipea kui selle uus versioon (koos muudatustega uute riigipõhiste nõuete toetamiseks) ettevõttelt Litware, Inc. välja antakse ja soovib täienduse läbi viia võimalikult väikeste kuludega.  Selleks peab Proseware, Inc. looma konfiguratsiooni, kasutades alusena Litware, Inc. konfiguratsiooni BACS (UK fiktiivne).  
-1. Sulgege leht.
-2. Valige Proseware, Inc, et muuta see aktiivseks pakkujaks.
-3. Klõpsake valikut Määra aktiivseks.
-4. Klõpsake valikut Aruandluse konfiguratsioonid.
-5. Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).
-6. Tehke puustruktuuris valik 'Maksed (lihtsustatud mudel)\BACS (UK fiktiivne)'.
-    * Valige ettevõtte Litware, Inc. pakutav BACS (UK fiktiivne). Proseware, Inc. kasutab väljaannet 1.1 kohandatud versiooni alusena.  
-7. Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.
-    * See võimaldab teil luua uut konfiguratsiooni kohandatud maksevormingule.  
-8. Sisestage väljale Uus tekst 'Tuleta nimest: BACS (UK fiktiivne), Litware, Inc.'.
-    * Valige suvand Tuleta, et kinnitada BACS-i (UK fiktiivne) kasutamine kohandatud versiooni loomise alusena.  
-9. Tippige väljale Nimi tekst 'BACS (UK fiktiivne kohandatud)'.
-    * BACS (UK fiktiivne kohandatud)  
-10. Väljale Kirjeldus tippige „BACS-i hankija makse (UK fiktiivne kohandatud)”.
-    * BACS-i hankija makse (UK fiktiivne kohandatud)  
-    * Aktiivse konfiguratsiooni pakkuja (Proseware, Inc.) sisestatakse siia automaatselt. See pakkuja saab seda konfiguratsiooni hallata. Muud pakkujad saavad seda konfiguratsiooni kasutada, kuid ei saa seda hallata.  
-11. Klõpsake Loo konfiguratsioon.
+## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a><span data-ttu-id="7023b-122">Elektroonilise dokumendi kohandatud vormingule uue konfiguratsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="7023b-122">Create a new configuration for your custom format of electronic document</span></span>
+    * <span data-ttu-id="7023b-123">Proseware, Inc. sai ettevõttelt Litware, Inc vastavalt nende teenusekirjeldusele BACS-i (UK fiktiivne) konfiguratsiooniversiooni 1.1, mis sisaldab algset vormingut elektrooniliste maksedokumentide loomiseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-123">Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</span></span> <span data-ttu-id="7023b-124">Proseware, Inc. soovib hakata seda kasutama oma riigi standardina, kuid nõutavad on mõned kohandamised, et toetada teatud piirkondlikke nõudeid.</span><span class="sxs-lookup"><span data-stu-id="7023b-124">Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</span></span> <span data-ttu-id="7023b-125">Proseware, Inc. soovib säilitada ka võime täiendada kohandatud vormingut niipea kui selle uus versioon (koos muudatustega uute riigipõhiste nõuete toetamiseks) ettevõttelt Litware, Inc. välja antakse ja soovib täienduse läbi viia võimalikult väikeste kuludega.</span><span class="sxs-lookup"><span data-stu-id="7023b-125">Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</span></span>  <span data-ttu-id="7023b-126">Selleks peab Proseware, Inc. looma konfiguratsiooni, kasutades alusena Litware, Inc. konfiguratsiooni BACS (UK fiktiivne).</span><span class="sxs-lookup"><span data-stu-id="7023b-126">To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</span></span>  
+1. <span data-ttu-id="7023b-127">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7023b-127">Close the page.</span></span>
+2. <span data-ttu-id="7023b-128">Valige Proseware, Inc, et muuta see aktiivseks pakkujaks.</span><span class="sxs-lookup"><span data-stu-id="7023b-128">Select Proseware, Inc. to make it an active provider.</span></span>
+3. <span data-ttu-id="7023b-129">Klõpsake valikut Määra aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-129">Click Set active.</span></span>
+4. <span data-ttu-id="7023b-130">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="7023b-130">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="7023b-131">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</span><span class="sxs-lookup"><span data-stu-id="7023b-131">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="7023b-132">Tehke puustruktuuris valik 'Maksed (lihtsustatud mudel)\BACS (UK fiktiivne)'.</span><span class="sxs-lookup"><span data-stu-id="7023b-132">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="7023b-133">Valige ettevõtte Litware, Inc. pakutav BACS (UK fiktiivne). Proseware, Inc. kasutab väljaannet 1.1 kohandatud versiooni alusena.</span><span class="sxs-lookup"><span data-stu-id="7023b-133">Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</span></span>  
+7. <span data-ttu-id="7023b-134">Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="7023b-134">Click Create configuration to open the drop dialog.</span></span>
+    * <span data-ttu-id="7023b-135">See võimaldab teil luua uut konfiguratsiooni kohandatud maksevormingule.</span><span class="sxs-lookup"><span data-stu-id="7023b-135">This lets you create a new configuration for a custom payment format.</span></span>  
+8. <span data-ttu-id="7023b-136">Sisestage väljale Uus tekst 'Tuleta nimest: BACS (UK fiktiivne), Litware, Inc.'.</span><span class="sxs-lookup"><span data-stu-id="7023b-136">In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</span></span>
+    * <span data-ttu-id="7023b-137">Valige suvand Tuleta, et kinnitada BACS-i (UK fiktiivne) kasutamine kohandatud versiooni loomise alusena.</span><span class="sxs-lookup"><span data-stu-id="7023b-137">Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</span></span>  
+9. <span data-ttu-id="7023b-138">Tippige väljale Nimi tekst 'BACS (UK fiktiivne kohandatud)'.</span><span class="sxs-lookup"><span data-stu-id="7023b-138">In the Name field, type 'BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="7023b-139">BACS (UK fiktiivne kohandatud)</span><span class="sxs-lookup"><span data-stu-id="7023b-139">BACS (UK fictitious custom)</span></span>  
+10. <span data-ttu-id="7023b-140">Väljale Kirjeldus tippige „BACS-i hankija makse (UK fiktiivne kohandatud)”.</span><span class="sxs-lookup"><span data-stu-id="7023b-140">In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="7023b-141">BACS-i hankija makse (UK fiktiivne kohandatud)</span><span class="sxs-lookup"><span data-stu-id="7023b-141">BACS vendor payment (UK fictitious custom)</span></span>  
+    * <span data-ttu-id="7023b-142">Aktiivse konfiguratsiooni pakkuja (Proseware, Inc.) sisestatakse siia automaatselt.</span><span class="sxs-lookup"><span data-stu-id="7023b-142">The active configuration provider (Proseware, Inc.) is automatically entered here.</span></span> <span data-ttu-id="7023b-143">See pakkuja saab seda konfiguratsiooni hallata.</span><span class="sxs-lookup"><span data-stu-id="7023b-143">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="7023b-144">Muud pakkujad saavad seda konfiguratsiooni kasutada, kuid ei saa seda hallata.</span><span class="sxs-lookup"><span data-stu-id="7023b-144">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+11. <span data-ttu-id="7023b-145">Klõpsake Loo konfiguratsioon.</span><span class="sxs-lookup"><span data-stu-id="7023b-145">Click Create configuration.</span></span>
 
-## <a name="customize-your-format-for-the-electronic-document"></a>Elektroonilise dokumendi jaoks vormingu kohandamine
-1. Klõpsake valikut Kujundaja.
-2. Klõpsake nuppu Laienda/ahenda.
-3. Klõpsake nuppu Laienda/ahenda.
-4. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.
-5. Klõpsake valikut Lisa rippdialoogi avamiseks.
-6. Valige puul suvand XML\Element.
-7. Sisestage väljale Nimi suvand IBAN.
-    * IBAN  
-8. Klõpsake nuppu OK.
-9. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\IBAN”.
-10. Klõpsake valikut Lisa rippdialoogi avamiseks.
-11. Valige puul suvand Tekst\String.
-12. Klõpsake nuppu OK.
-13. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi\String”.
-14. Sisestage väljale Maksimaalne pikkus väärtus '60'.
-15. Klõpsake vahekaarti Vastendus.
-16. Laiendage puus sõlme „model”.
-17. Laiendage puus sõlme model\Payments.
-18. Laiendage puus sõlme model\Payments\Creditor.
-19. Laiendage puus sõlme model\Payments\Creditor\Account.
-20. Puuvaates valige „mudel\Maksed\Kreeditor\Konto\IBAN”.
-21. Puuvaates valige „Xml\Teade\Maksed\Kaup = model.Payments\Hankija\Pank\IBAN\String”.
-22. Klõpsake valikut Seo.
-23. Klõpsake nuppu Salvesta.
+## <a name="customize-your-format-for-the-electronic-document"></a><span data-ttu-id="7023b-146">Elektroonilise dokumendi jaoks vormingu kohandamine</span><span class="sxs-lookup"><span data-stu-id="7023b-146">Customize your format for the electronic document</span></span>
+1. <span data-ttu-id="7023b-147">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="7023b-147">Click Designer.</span></span>
+2. <span data-ttu-id="7023b-148">Klõpsake nuppu Laienda/ahenda.</span><span class="sxs-lookup"><span data-stu-id="7023b-148">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="7023b-149">Klõpsake nuppu Laienda/ahenda.</span><span class="sxs-lookup"><span data-stu-id="7023b-149">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="7023b-150">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.</span><span class="sxs-lookup"><span data-stu-id="7023b-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="7023b-151">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-151">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="7023b-152">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="7023b-152">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="7023b-153">Sisestage väljale Nimi suvand IBAN.</span><span class="sxs-lookup"><span data-stu-id="7023b-153">In the Name field, type 'IBAN'.</span></span>
+    * <span data-ttu-id="7023b-154">IBAN</span><span class="sxs-lookup"><span data-stu-id="7023b-154">IBAN</span></span>  
+8. <span data-ttu-id="7023b-155">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7023b-155">Click OK.</span></span>
+9. <span data-ttu-id="7023b-156">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\IBAN”.</span><span class="sxs-lookup"><span data-stu-id="7023b-156">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span></span>
+10. <span data-ttu-id="7023b-157">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-157">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="7023b-158">Valige puul suvand Tekst\String.</span><span class="sxs-lookup"><span data-stu-id="7023b-158">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="7023b-159">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7023b-159">Click OK.</span></span>
+13. <span data-ttu-id="7023b-160">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi\String”.</span><span class="sxs-lookup"><span data-stu-id="7023b-160">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="7023b-161">Sisestage väljale Maksimaalne pikkus väärtus '60'.</span><span class="sxs-lookup"><span data-stu-id="7023b-161">In the Maximum length field, enter '60'.</span></span>
+15. <span data-ttu-id="7023b-162">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="7023b-162">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="7023b-163">Laiendage puus sõlme „model”.</span><span class="sxs-lookup"><span data-stu-id="7023b-163">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="7023b-164">Laiendage puus sõlme model\Payments.</span><span class="sxs-lookup"><span data-stu-id="7023b-164">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="7023b-165">Laiendage puus sõlme model\Payments\Creditor.</span><span class="sxs-lookup"><span data-stu-id="7023b-165">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="7023b-166">Laiendage puus sõlme model\Payments\Creditor\Account.</span><span class="sxs-lookup"><span data-stu-id="7023b-166">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
+20. <span data-ttu-id="7023b-167">Puuvaates valige „mudel\Maksed\Kreeditor\Konto\IBAN”.</span><span class="sxs-lookup"><span data-stu-id="7023b-167">In the tree, select 'model\Payments\Creditor\Account\IBAN'.</span></span>
+21. <span data-ttu-id="7023b-168">Puuvaates valige „Xml\Teade\Maksed\Kaup = model.Payments\Hankija\Pank\IBAN\String”.</span><span class="sxs-lookup"><span data-stu-id="7023b-168">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span></span>
+22. <span data-ttu-id="7023b-169">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="7023b-169">Click Bind.</span></span>
+23. <span data-ttu-id="7023b-170">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7023b-170">Click Save.</span></span>
 
-## <a name="validate-the-customized-format"></a>Kohandatud vormingu kinnitamine
-1. Klõpsake suvandit Kinnita.
-    * Kinnitage kohandatud vormingu paigutus ja andmete vastendamise muudatused veendumaks, et kõik seosed on korras.  
-2. Sulgege leht.
+## <a name="validate-the-customized-format"></a><span data-ttu-id="7023b-171">Kohandatud vormingu kinnitamine</span><span class="sxs-lookup"><span data-stu-id="7023b-171">Validate the customized format</span></span>
+1. <span data-ttu-id="7023b-172">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="7023b-172">Click Validate.</span></span>
+    * <span data-ttu-id="7023b-173">Kinnitage kohandatud vormingu paigutus ja andmete vastendamise muudatused veendumaks, et kõik seosed on korras.</span><span class="sxs-lookup"><span data-stu-id="7023b-173">Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="7023b-174">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7023b-174">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a>Kohandatud vormingu konfiguratsiooni praeguse versiooni oleku muutmine
-    * Muutke koostatud vormingu konfiguratsiooni olek suvandilt Mustand suvandile Lõpetatud, et muuta see maksedokumedi loomiseks kättesaadavaks.  
-1. Klõpsake valikut Muuda olekut.
-    * Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.  
-2. Klõpsake valikut Valmis.
-3. Sisestage väljale Kirjeldus soovitud väärtus.
-4. Klõpsake nuppu OK.
-5. Otsige loendist ja valige soovitud kirje.
-    * Pange tähele, et loodud konfiguratsioon salvestatakse kui lõpetatud versioon 1.1.1. See tähendab, et see on kohandatud BACS-i (UK fiktiivne kohandatud) vormingu 1. versioon, mis põhineb BACS-i (UK fiktiivne) vormingu 1. versioonil, mis põhineb andmemudeli Maksed (lihtsustatud mudel) 1. versioonil.  
+## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a><span data-ttu-id="7023b-175">Kohandatud vormingu konfiguratsiooni praeguse versiooni oleku muutmine</span><span class="sxs-lookup"><span data-stu-id="7023b-175">Change the status of the current version of the custom format configuration</span></span>
+    * <span data-ttu-id="7023b-176">Muutke koostatud vormingu konfiguratsiooni olek suvandilt Mustand suvandile Lõpetatud, et muuta see maksedokumedi loomiseks kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="7023b-176">Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
+1. <span data-ttu-id="7023b-177">Klõpsake valikut Muuda olekut.</span><span class="sxs-lookup"><span data-stu-id="7023b-177">Click Change status.</span></span>
+    * <span data-ttu-id="7023b-178">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</span><span class="sxs-lookup"><span data-stu-id="7023b-178">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="7023b-179">Klõpsake valikut Valmis.</span><span class="sxs-lookup"><span data-stu-id="7023b-179">Click Complete.</span></span>
+3. <span data-ttu-id="7023b-180">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="7023b-180">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="7023b-181">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7023b-181">Click OK.</span></span>
+5. <span data-ttu-id="7023b-182">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7023b-182">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7023b-183">Pange tähele, et loodud konfiguratsioon salvestatakse kui lõpetatud versioon 1.1.1.</span><span class="sxs-lookup"><span data-stu-id="7023b-183">Note that the created configuration is saved as completed version 1.1.1.</span></span> <span data-ttu-id="7023b-184">See tähendab, et see on kohandatud BACS-i (UK fiktiivne kohandatud) vormingu 1. versioon, mis põhineb BACS-i (UK fiktiivne) vormingu 1. versioonil, mis põhineb andmemudeli Maksed (lihtsustatud mudel) 1. versioonil.</span><span class="sxs-lookup"><span data-stu-id="7023b-184">This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</span></span>  
 
-## <a name="test-the-customized-format-to-generate-payment-files"></a>Kohandatud vormingu testimine maksefailide loomiseks
-    * Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige BACS-i (UK fiktiivne kohandatud) vorming elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.  
+## <a name="test-the-customized-format-to-generate-payment-files"></a><span data-ttu-id="7023b-185">Kohandatud vormingu testimine maksefailide loomiseks</span><span class="sxs-lookup"><span data-stu-id="7023b-185">Test the customized format to generate payment files</span></span>
+    * <span data-ttu-id="7023b-186">Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</span><span class="sxs-lookup"><span data-stu-id="7023b-186">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="7023b-187">Valige BACS-i (UK fiktiivne kohandatud) vorming elektroonilise makseviisi parameetrites.</span><span class="sxs-lookup"><span data-stu-id="7023b-187">Select the BACS (UK fictitious custom) format in electronic payment method parameters.</span></span> <span data-ttu-id="7023b-188">Veenduge, et loodud maksefail sisaldab hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.</span><span class="sxs-lookup"><span data-stu-id="7023b-188">Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</span></span>  
 
-## <a name="update-the-existing-country-specific-configuration"></a>Olemasoleva riigipõhise konfiguratsiooni värskendamine
-    * Litware, Inc. peab värskendama BACS-i (UK fiktiivne) konfiguratsiooni ja kasutusele võtma uued riigipõhised nõuded, et hallata elektroonilise dokumendi vormingut. Hiljem lisatakse see selle konfiguratsiooni uude versiooni, mida pakutakse teenuse tellijatele, sh ettevõttele Proseware, Inc.  
-    * Tegelikes teenuse osutamisega seotud protsessides saab Proseware, Inc. importida iga uue BACS-i (UK fiktiivne) väljaande ettevõtte Litware, Inc. konfiguratsioonide LCS-hoidlast. Selles protseduuris simuleerime seda, värskendades BACS-i (UK fiktiivne) teenusepakkuja nimel.  
-1. Sulgege leht.
-2. Valige Litware, inc. pakkuja.
-3. Klõpsake valikut Määra aktiivseks.
-4. Klõpsake valikut Aruandluse konfiguratsioonid.
-5. Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).
-6. Tehke puustruktuuris valik 'Maksed (lihtsustatud mudel)\BACS (UK fiktiivne)'.
-    * Ettevõtte Litware, Inc omandis mustandversioon pakkuja BACS (UK fiktiivne) on valitud toomaks kaasa muudatusi, et toetada uusi riigipõhiseid nõudeid.  
+## <a name="update-the-existing-country-specific-configuration"></a><span data-ttu-id="7023b-189">Olemasoleva riigipõhise konfiguratsiooni värskendamine</span><span class="sxs-lookup"><span data-stu-id="7023b-189">Update the existing country-specific configuration</span></span>
+    * <span data-ttu-id="7023b-190">Litware, Inc. peab värskendama BACS-i (UK fiktiivne) konfiguratsiooni ja kasutusele võtma uued riigipõhised nõuded, et hallata elektroonilise dokumendi vormingut.</span><span class="sxs-lookup"><span data-stu-id="7023b-190">Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</span></span> <span data-ttu-id="7023b-191">Hiljem lisatakse see selle konfiguratsiooni uude versiooni, mida pakutakse teenuse tellijatele, sh ettevõttele Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7023b-191">Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</span></span>  
+    * <span data-ttu-id="7023b-192">Tegelikes teenuse osutamisega seotud protsessides saab Proseware, Inc. importida iga uue BACS-i (UK fiktiivne) väljaande ettevõtte Litware, Inc. konfiguratsioonide LCS-hoidlast.</span><span class="sxs-lookup"><span data-stu-id="7023b-192">In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</span></span> <span data-ttu-id="7023b-193">Selles protseduuris simuleerime seda, värskendades BACS-i (UK fiktiivne) teenusepakkuja nimel.</span><span class="sxs-lookup"><span data-stu-id="7023b-193">In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</span></span>  
+1. <span data-ttu-id="7023b-194">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7023b-194">Close the page.</span></span>
+2. <span data-ttu-id="7023b-195">Valige Litware, inc.</span><span class="sxs-lookup"><span data-stu-id="7023b-195">Select Litware, inc.</span></span> <span data-ttu-id="7023b-196">pakkuja.</span><span class="sxs-lookup"><span data-stu-id="7023b-196">provider.</span></span>
+3. <span data-ttu-id="7023b-197">Klõpsake valikut Määra aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-197">Click Set active.</span></span>
+4. <span data-ttu-id="7023b-198">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="7023b-198">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="7023b-199">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</span><span class="sxs-lookup"><span data-stu-id="7023b-199">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="7023b-200">Tehke puustruktuuris valik 'Maksed (lihtsustatud mudel)\BACS (UK fiktiivne)'.</span><span class="sxs-lookup"><span data-stu-id="7023b-200">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="7023b-201">Ettevõtte Litware, Inc omandis mustandversioon pakkuja BACS (UK fiktiivne) on valitud toomaks kaasa muudatusi, et toetada uusi riigipõhiseid nõudeid.</span><span class="sxs-lookup"><span data-stu-id="7023b-201">The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</span></span>  
 
-## <a name="localize-the-base-format-of-the-electronic-document"></a>Elektroonilise dokumendi alusvormingu lokaliseerimine
-    * Oletame, et on olemas uued riigipõhised nõuded, mida Litware, Inc. peab täitma: iga makse puhul kreeditori panga SWIFT-koodi väärtus.  - 100 tähemärgi piirang hankija nime tekstipikkusele loomisfailis.  
-    * Uued riigipõhised nõuded  
-    * Valige soovitud konfiguratsiooni mustandiversioon, et nõutavad muudatused kasutusele võtta.  
-1. Klõpsake valikut Kujundaja.
-2. Klõpsake nuppu Laienda/ahenda.
-3. Klõpsake nuppu Laienda/ahenda.
-4. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.
-5. Klõpsake valikut Lisa rippdialoogi avamiseks.
-6. Valige puul suvand XML\Element.
-7. Sisestage väljale Nimi suvand SWIFT.
-    * SWIFT  
-8. Klõpsake nuppu OK.
-9. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\SWIFT”.
-10. Klõpsake valikut Lisa rippdialoogi avamiseks.
-11. Valige puul suvand Tekst\String.
-12. Klõpsake nuppu OK.
-13. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi\String”.
-14. Sisestage väljale Maksimaalne pikkus väärtus '100'.
-15. Klõpsake vahekaarti Vastendus.
-16. Laiendage puus sõlme „model”.
-17. Laiendage puus sõlme model\Payments.
-18. Laiendage puus sõlme model\Payments\Creditor.
-19. Laiendage puus sõlme model\Payments\Creditor\Agent.
-20. Puuvaates valige „mudel\Maksed\Kreeditor\Agent\SWIFT”.
-21. Puuvaates valige „Xml\Teade\Maksed\Kaup = model.Payments\Hankija\Pank\SWIFT\String”.
-22. Klõpsake valikut Seo.
-23. Klõpsake nuppu Salvesta.
+## <a name="localize-the-base-format-of-the-electronic-document"></a><span data-ttu-id="7023b-202">Elektroonilise dokumendi alusvormingu lokaliseerimine</span><span class="sxs-lookup"><span data-stu-id="7023b-202">Localize the base format of the electronic document</span></span>
+    * <span data-ttu-id="7023b-203">Oletame, et on olemas uued riigipõhised nõuded, mida Litware, Inc. peab täitma: iga makse puhul kreeditori panga SWIFT-koodi väärtus.</span><span class="sxs-lookup"><span data-stu-id="7023b-203">Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</span></span>  <span data-ttu-id="7023b-204">- 100 tähemärgi piirang hankija nime tekstipikkusele loomisfailis.</span><span class="sxs-lookup"><span data-stu-id="7023b-204">- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</span></span>  
+    * <span data-ttu-id="7023b-205">Uued riigipõhised nõuded</span><span class="sxs-lookup"><span data-stu-id="7023b-205">New country-specific requirements</span></span>  
+    * <span data-ttu-id="7023b-206">Valige soovitud konfiguratsiooni mustandiversioon, et nõutavad muudatused kasutusele võtta.</span><span class="sxs-lookup"><span data-stu-id="7023b-206">Select the draft version of the desired configuration to introduce required changes.</span></span>  
+1. <span data-ttu-id="7023b-207">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="7023b-207">Click Designer.</span></span>
+2. <span data-ttu-id="7023b-208">Klõpsake nuppu Laienda/ahenda.</span><span class="sxs-lookup"><span data-stu-id="7023b-208">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="7023b-209">Klõpsake nuppu Laienda/ahenda.</span><span class="sxs-lookup"><span data-stu-id="7023b-209">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="7023b-210">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.</span><span class="sxs-lookup"><span data-stu-id="7023b-210">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="7023b-211">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-211">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="7023b-212">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="7023b-212">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="7023b-213">Sisestage väljale Nimi suvand SWIFT.</span><span class="sxs-lookup"><span data-stu-id="7023b-213">In the Name field, type 'SWIFT'.</span></span>
+    * <span data-ttu-id="7023b-214">SWIFT</span><span class="sxs-lookup"><span data-stu-id="7023b-214">SWIFT</span></span>  
+8. <span data-ttu-id="7023b-215">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7023b-215">Click OK.</span></span>
+9. <span data-ttu-id="7023b-216">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\SWIFT”.</span><span class="sxs-lookup"><span data-stu-id="7023b-216">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span></span>
+10. <span data-ttu-id="7023b-217">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-217">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="7023b-218">Valige puul suvand Tekst\String.</span><span class="sxs-lookup"><span data-stu-id="7023b-218">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="7023b-219">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7023b-219">Click OK.</span></span>
+13. <span data-ttu-id="7023b-220">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi\String”.</span><span class="sxs-lookup"><span data-stu-id="7023b-220">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="7023b-221">Sisestage väljale Maksimaalne pikkus väärtus '100'.</span><span class="sxs-lookup"><span data-stu-id="7023b-221">In the Maximum length field, enter '100'.</span></span>
+15. <span data-ttu-id="7023b-222">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="7023b-222">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="7023b-223">Laiendage puus sõlme „model”.</span><span class="sxs-lookup"><span data-stu-id="7023b-223">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="7023b-224">Laiendage puus sõlme model\Payments.</span><span class="sxs-lookup"><span data-stu-id="7023b-224">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="7023b-225">Laiendage puus sõlme model\Payments\Creditor.</span><span class="sxs-lookup"><span data-stu-id="7023b-225">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="7023b-226">Laiendage puus sõlme model\Payments\Creditor\Agent.</span><span class="sxs-lookup"><span data-stu-id="7023b-226">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
+20. <span data-ttu-id="7023b-227">Puuvaates valige „mudel\Maksed\Kreeditor\Agent\SWIFT”.</span><span class="sxs-lookup"><span data-stu-id="7023b-227">In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</span></span>
+21. <span data-ttu-id="7023b-228">Puuvaates valige „Xml\Teade\Maksed\Kaup = model.Payments\Hankija\Pank\SWIFT\String”.</span><span class="sxs-lookup"><span data-stu-id="7023b-228">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span></span>
+22. <span data-ttu-id="7023b-229">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="7023b-229">Click Bind.</span></span>
+23. <span data-ttu-id="7023b-230">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7023b-230">Click Save.</span></span>
 
-## <a name="validate-the-localized-format"></a>Lokaliseeritud vormingu kinnitamine
-1. Klõpsake suvandit Kinnita.
-2. Sulgege leht.
+## <a name="validate-the-localized-format"></a><span data-ttu-id="7023b-231">Lokaliseeritud vormingu kinnitamine</span><span class="sxs-lookup"><span data-stu-id="7023b-231">Validate the localized format</span></span>
+1. <span data-ttu-id="7023b-232">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="7023b-232">Click Validate.</span></span>
+2. <span data-ttu-id="7023b-233">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7023b-233">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Alusvormingu konfiguratsiooni praeguse versiooni oleku muutmine
-    * Muutke värskendatud alusvormingu konfiguratsiooni olek suvandist Mustand suvandiks Lõpetatud, et teha see kättesaadavaks maksedokumentide loomiseks ja sellest tuletatud vormingu konfiguratsioonide värskendusteks.  
-1. Klõpsake valikut Muuda olekut.
-    * Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.  
-2. Klõpsake valikut Valmis.
-3. Sisestage väljale Kirjeldus soovitud väärtus.
-4. Klõpsake nuppu OK.
-5. Otsige loendist ja valige soovitud kirje.
+## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a><span data-ttu-id="7023b-234">Alusvormingu konfiguratsiooni praeguse versiooni oleku muutmine</span><span class="sxs-lookup"><span data-stu-id="7023b-234">Change the status of the current version of the base format configuration</span></span>
+    * <span data-ttu-id="7023b-235">Muutke värskendatud alusvormingu konfiguratsiooni olek suvandist Mustand suvandiks Lõpetatud, et teha see kättesaadavaks maksedokumentide loomiseks ja sellest tuletatud vormingu konfiguratsioonide värskendusteks.</span><span class="sxs-lookup"><span data-stu-id="7023b-235">Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</span></span>  
+1. <span data-ttu-id="7023b-236">Klõpsake valikut Muuda olekut.</span><span class="sxs-lookup"><span data-stu-id="7023b-236">Click Change status.</span></span>
+    * <span data-ttu-id="7023b-237">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</span><span class="sxs-lookup"><span data-stu-id="7023b-237">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="7023b-238">Klõpsake valikut Valmis.</span><span class="sxs-lookup"><span data-stu-id="7023b-238">Click Complete.</span></span>
+3. <span data-ttu-id="7023b-239">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="7023b-239">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="7023b-240">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7023b-240">Click OK.</span></span>
+5. <span data-ttu-id="7023b-241">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7023b-241">In the list, find and select the desired record.</span></span>
 
-## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Kohandatud vormingu konfiguratsiooni alusversiooni muutmine
-    * Proseware, Inc. saab teada, et saadaval on BACS-i (UK fiktiivne) konfiguratsiooni uus versioon 1.2, et luua elektroonilisi maksedokumente vastavalt hiljuti teatatud riigipõhistele nõuetele. Proseware, Inc. soovib hakata kasutama seda riigi standardina.  Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fiktiivne kohandatud) aluskonfiguratsiooni versiooni. BACS-i (UK fiktiivne) versiooni 1.1 asemel kasutage uut versiooni 1.2.  
-1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-2. Valige pakkuja Proseware, Inc, et muuta see aktiivseks.
-3. Klõpsake valikut Määra aktiivseks.
-4. Klõpsake valikut Aruandluse konfiguratsioonid.
-5. Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).
-6. Laiendage puustruktuuris suvandit 'Payments (simplified model)\BACS (UK fictitious)'.
-7. Tehke puustruktuuris valik 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.
-    * Valige BACS-i (UK fiktiivne kohandatud) konfiguratsioon, mille omanik on Proseware, Inc.  
-    * Kasutage valitud konfiguratsiooni mustandiversiooni, et nõutavad muudatused kasutusele võtta.  
-8. Klõpsake nuppu Muuda alust.
-    * Valige aluskonfiguratsiooni uus versioon 1.2 konfiguratsiooni värskendamise uueks aluseks.  
-9. Klõpsake nuppu OK.
-    * Pange tähele, et kohandatud versiooni ja uue alusversiooni liitmisel on avastatud mõned probleemid, mis esindavad mõnd vormingumuudatusi, mida ei saa automaatselt ühendada.  
+## <a name="change-the-base-version-for-the-custom-format-configuration"></a><span data-ttu-id="7023b-242">Kohandatud vormingu konfiguratsiooni alusversiooni muutmine</span><span class="sxs-lookup"><span data-stu-id="7023b-242">Change the base version for the custom format configuration</span></span>
+    * <span data-ttu-id="7023b-243">Proseware, Inc. saab teada, et saadaval on BACS-i (UK fiktiivne) konfiguratsiooni uus versioon 1.2, et luua elektroonilisi maksedokumente vastavalt hiljuti teatatud riigipõhistele nõuetele.</span><span class="sxs-lookup"><span data-stu-id="7023b-243">Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</span></span> <span data-ttu-id="7023b-244">Proseware, Inc. soovib hakata kasutama seda riigi standardina.</span><span class="sxs-lookup"><span data-stu-id="7023b-244">Proseware, Inc. wants to start using it as a standard for the country.</span></span>  <span data-ttu-id="7023b-245">Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fiktiivne kohandatud) aluskonfiguratsiooni versiooni.</span><span class="sxs-lookup"><span data-stu-id="7023b-245">To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</span></span> <span data-ttu-id="7023b-246">BACS-i (UK fiktiivne) versiooni 1.1 asemel kasutage uut versiooni 1.2.</span><span class="sxs-lookup"><span data-stu-id="7023b-246">Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</span></span>  
+1. <span data-ttu-id="7023b-247">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="7023b-247">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="7023b-248">Valige pakkuja Proseware, Inc, et muuta see aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-248">Select the Proseware, Inc. provider to mark it as active.</span></span>
+3. <span data-ttu-id="7023b-249">Klõpsake valikut Määra aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-249">Click Set active.</span></span>
+4. <span data-ttu-id="7023b-250">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="7023b-250">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="7023b-251">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</span><span class="sxs-lookup"><span data-stu-id="7023b-251">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="7023b-252">Laiendage puustruktuuris suvandit 'Payments (simplified model)\BACS (UK fictitious)'.</span><span class="sxs-lookup"><span data-stu-id="7023b-252">In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+7. <span data-ttu-id="7023b-253">Tehke puustruktuuris valik 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span><span class="sxs-lookup"><span data-stu-id="7023b-253">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="7023b-254">Valige BACS-i (UK fiktiivne kohandatud) konfiguratsioon, mille omanik on Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="7023b-254">Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</span></span>  
+    * <span data-ttu-id="7023b-255">Kasutage valitud konfiguratsiooni mustandiversiooni, et nõutavad muudatused kasutusele võtta.</span><span class="sxs-lookup"><span data-stu-id="7023b-255">Use the draft version of the selected configuration to introduce required changes.</span></span>  
+8. <span data-ttu-id="7023b-256">Klõpsake nuppu Muuda alust.</span><span class="sxs-lookup"><span data-stu-id="7023b-256">Click Rebase.</span></span>
+    * <span data-ttu-id="7023b-257">Valige aluskonfiguratsiooni uus versioon 1.2 konfiguratsiooni värskendamise uueks aluseks.</span><span class="sxs-lookup"><span data-stu-id="7023b-257">Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</span></span>  
+9. <span data-ttu-id="7023b-258">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7023b-258">Click OK.</span></span>
+    * <span data-ttu-id="7023b-259">Pange tähele, et kohandatud versiooni ja uue alusversiooni liitmisel on avastatud mõned probleemid, mis esindavad mõnd vormingumuudatusi, mida ei saa automaatselt ühendada.</span><span class="sxs-lookup"><span data-stu-id="7023b-259">Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</span></span>  
 
-## <a name="resolve-rebase-conflicts"></a>Aluse muutmise konfliktide lahendamine
-1. Klõpsake valikut Kujundaja.
-    * Pange tähele, et hankija nime pikkuse piirangu muudatusi ei saa automaatselt lahendada. Seega on see esitatud konfliktide loendis. Iga Värskendus-tüüpi konflikti puhul on saadaval järgmised võimalused: - rakendage eelnevat alusväärtust (ruudustiku ülaosas olev nupp), et tuua sisse eelmise alusversiooni väärtus (meie juhtumi puhul 0);  - rakendage alusväärtust (ruudustiku ülaosas olev nupp), et tuua sisse uue alusversiooni väärtus (meie juhtumi puhul 100);  - Säilitage enda (kohandatud) väärtus (60 meie juhtumis).  Klõpsake suvandit Alusväärtuse rakendamine, et rakendada riigipõhist 100 tähemärgi piirangut hankijate nimepikkuste puhul.  
-    * Pange tähele, et ettevõtetel Proseware, Inc. ja Litware Inc. on selle vormingu kohandatud ja kohalikud versioonid, mis kasutavad IBAN- ja SWIFT-koode koos seotud komponentidega, mis liidetakse automaatselt haldusvormingus.  
-2. Klõpsake suvandit Alusväärtuse rakendamine.
-    * Klõpsake suvandit Alusväärtuse rakendamine, et rakendada riigipõhist 100 tähemärgi piirangut hankijate nimede puhul.  
-3. Klõpsake nuppu Salvesta.
-    * Vormingu salvestamine eemaldab lahendatud konfliktid konfliktide loendist.  
-4. Sulgege leht.
+## <a name="resolve-rebase-conflicts"></a><span data-ttu-id="7023b-260">Aluse muutmise konfliktide lahendamine</span><span class="sxs-lookup"><span data-stu-id="7023b-260">Resolve rebase conflicts</span></span>
+1. <span data-ttu-id="7023b-261">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="7023b-261">Click Designer.</span></span>
+    * <span data-ttu-id="7023b-262">Pange tähele, et hankija nime pikkuse piirangu muudatusi ei saa automaatselt lahendada.</span><span class="sxs-lookup"><span data-stu-id="7023b-262">Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</span></span> <span data-ttu-id="7023b-263">Seega on see esitatud konfliktide loendis.</span><span class="sxs-lookup"><span data-stu-id="7023b-263">Therefore, this is presented in a conflicts list.</span></span> <span data-ttu-id="7023b-264">Iga Värskendus-tüüpi konflikti puhul on saadaval järgmised võimalused: - rakendage eelnevat alusväärtust (ruudustiku ülaosas olev nupp), et tuua sisse eelmise alusversiooni väärtus (meie juhtumi puhul 0);</span><span class="sxs-lookup"><span data-stu-id="7023b-264">For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</span></span>  <span data-ttu-id="7023b-265">- rakendage alusväärtust (ruudustiku ülaosas olev nupp), et tuua sisse uue alusversiooni väärtus (meie juhtumi puhul 100);</span><span class="sxs-lookup"><span data-stu-id="7023b-265">- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</span></span>  <span data-ttu-id="7023b-266">- Säilitage enda (kohandatud) väärtus (60 meie juhtumis).</span><span class="sxs-lookup"><span data-stu-id="7023b-266">- Keep your own (custom) value (60 in our case).</span></span>  <span data-ttu-id="7023b-267">Klõpsake suvandit Alusväärtuse rakendamine, et rakendada riigipõhist 100 tähemärgi piirangut hankijate nimepikkuste puhul.</span><span class="sxs-lookup"><span data-stu-id="7023b-267">Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</span></span>  
+    * <span data-ttu-id="7023b-268">Pange tähele, et ettevõtetel Proseware, Inc. ja Litware Inc. on selle vormingu kohandatud ja kohalikud versioonid, mis kasutavad IBAN- ja SWIFT-koode koos seotud komponentidega, mis liidetakse automaatselt haldusvormingus.</span><span class="sxs-lookup"><span data-stu-id="7023b-268">Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</span></span>  
+2. <span data-ttu-id="7023b-269">Klõpsake suvandit Alusväärtuse rakendamine.</span><span class="sxs-lookup"><span data-stu-id="7023b-269">Click Apply base value.</span></span>
+    * <span data-ttu-id="7023b-270">Klõpsake suvandit Alusväärtuse rakendamine, et rakendada riigipõhist 100 tähemärgi piirangut hankijate nimede puhul.</span><span class="sxs-lookup"><span data-stu-id="7023b-270">Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</span></span>  
+3. <span data-ttu-id="7023b-271">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7023b-271">Click Save.</span></span>
+    * <span data-ttu-id="7023b-272">Vormingu salvestamine eemaldab lahendatud konfliktid konfliktide loendist.</span><span class="sxs-lookup"><span data-stu-id="7023b-272">Saving the format will remove resolved conflicts from the conflicts list.</span></span>  
+4. <span data-ttu-id="7023b-273">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7023b-273">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a>Kohandatud vormingu konfiguratsiooni uue versiooni oleku muutmine
-1. Klõpsake valikut Muuda olekut.
-    * Muutke värskendatud, kohandatud vormingu konfiguratsiooni olekust Mustand olekule Lõpule viidud. See muudab vormingu konfiguratsiooni maksedokumentide loomiseks kättesaadavaks. Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.  
-2. Klõpsake valikut Valmis.
-3. Sisestage väljale Kirjeldus soovitud väärtus.
-4. Klõpsake nuppu OK.
-    * Pange tähele, et loodud konfiguratsioon salvestatakse lõpetatud versioonina 1.2.2: alus-BACS-i (UK fiktiivne kohandatud) vormingu versioon 2, mis põhineb alust-BACS-i (UK fiktiivne) vormingu versioonil 2, mis põhineb andmemudeli Maksed (lihtsustatud mudel) versioonil 1.  
+## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a><span data-ttu-id="7023b-274">Kohandatud vormingu konfiguratsiooni uue versiooni oleku muutmine</span><span class="sxs-lookup"><span data-stu-id="7023b-274">Change the status of the new version of the custom format configuration</span></span>
+1. <span data-ttu-id="7023b-275">Klõpsake valikut Muuda olekut.</span><span class="sxs-lookup"><span data-stu-id="7023b-275">Click Change status.</span></span>
+    * <span data-ttu-id="7023b-276">Muutke värskendatud, kohandatud vormingu konfiguratsiooni olekust Mustand olekule Lõpule viidud.</span><span class="sxs-lookup"><span data-stu-id="7023b-276">Change the status of the updated, custom format configuration from Draft to Completed.</span></span> <span data-ttu-id="7023b-277">See muudab vormingu konfiguratsiooni maksedokumentide loomiseks kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="7023b-277">This will make the format configuration available for generating payment documents.</span></span> <span data-ttu-id="7023b-278">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</span><span class="sxs-lookup"><span data-stu-id="7023b-278">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="7023b-279">Klõpsake valikut Valmis.</span><span class="sxs-lookup"><span data-stu-id="7023b-279">Click Complete.</span></span>
+3. <span data-ttu-id="7023b-280">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="7023b-280">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="7023b-281">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7023b-281">Click OK.</span></span>
+    * <span data-ttu-id="7023b-282">Pange tähele, et loodud konfiguratsioon salvestatakse lõpetatud versioonina 1.2.2: alus-BACS-i (UK fiktiivne kohandatud) vormingu versioon 2, mis põhineb alust-BACS-i (UK fiktiivne) vormingu versioonil 2, mis põhineb andmemudeli Maksed (lihtsustatud mudel) versioonil 1.</span><span class="sxs-lookup"><span data-stu-id="7023b-282">Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</span></span>  
 
-## <a name="test-the-customized-format-for-payment-files-generation"></a>Kohandatud vormingu testimine maksefailide loomiseks
-    * Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige loodud vorming ‘BACS (UK fiktiivne kohandatud)’ elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele. Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.  
+## <a name="test-the-customized-format-for-payment-files-generation"></a><span data-ttu-id="7023b-283">Kohandatud vormingu testimine maksefailide loomiseks</span><span class="sxs-lookup"><span data-stu-id="7023b-283">Test the customized format for payment files generation</span></span>
+    * <span data-ttu-id="7023b-284">Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</span><span class="sxs-lookup"><span data-stu-id="7023b-284">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="7023b-285">Valige loodud vorming ‘BACS (UK fiktiivne kohandatud)’ elektroonilise makseviisi parameetrites.</span><span class="sxs-lookup"><span data-stu-id="7023b-285">Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</span></span> <span data-ttu-id="7023b-286">Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.</span><span class="sxs-lookup"><span data-stu-id="7023b-286">Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</span></span> <span data-ttu-id="7023b-287">Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.</span><span class="sxs-lookup"><span data-stu-id="7023b-287">The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</span></span>  
 
 

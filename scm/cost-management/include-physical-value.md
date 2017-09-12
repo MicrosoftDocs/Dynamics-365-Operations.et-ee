@@ -17,42 +17,42 @@ ms.assetid: 1928c145-bf82-436d-87ca-e7a173e31923
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d45e7a56851f3f4ac7a7d2d8c4ca9f23b6535fc
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: fa59031ed2144c2e92399933cd5dd40bfca0f2ae
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="include-physical-value"></a>Kaasa füüsiline väärtus
+# <a name="include-physical-value"></a><span data-ttu-id="14fa0-103">Kaasa füüsiline väärtus</span><span class="sxs-lookup"><span data-stu-id="14fa0-103">Include physical value</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Märkeruutu Kaasa füüsiline väärtus kiirkaardil Laomudel või lehel Kauba mudeligrupid kasutatakse määramiseks, kas füüsiliselt värskendatud kandeid arvestatakse kauba jooksva keskmise omahinna arvutuses.
+<span data-ttu-id="14fa0-104">Märkeruutu Kaasa füüsiline väärtus kiirkaardil Laomudel või lehel Kauba mudeligrupid kasutatakse määramiseks, kas füüsiliselt värskendatud kandeid arvestatakse kauba jooksva keskmise omahinna arvutuses.</span><span class="sxs-lookup"><span data-stu-id="14fa0-104">You use the Include physical value check box on the Inventory model FastTab of the Item model groups page to specify whether physically updated transactions are considered when the running average cost price is calculated for an item.</span></span>
 
-Märkeruudul **Kaasa füüsiline väärtus** on järgmised väärtused.
+<span data-ttu-id="14fa0-105">Märkeruudul **Kaasa füüsiline väärtus** on järgmised väärtused.</span><span class="sxs-lookup"><span data-stu-id="14fa0-105">The **Include physical value** check box has the following values.</span></span>
 
-| Väärtus    | Tulemus                                                                                                                          |
+| <span data-ttu-id="14fa0-106">Väärtus</span><span class="sxs-lookup"><span data-stu-id="14fa0-106">Value</span></span>    | <span data-ttu-id="14fa0-107">Tulemus</span><span class="sxs-lookup"><span data-stu-id="14fa0-107">Result</span></span>                                                                                                                          |
 |----------|---------------------------------------------------------------------------------------------------------------------------------|
-| Valitud | Jooksva keskmise omahinna arvutamiseks kasutatakse nii füüsiliselt kui ka rahaliselt värskendatud kandeid. |
-| Tühjendatud  | Jooksva keskmise omahinna arvutamiseks kasutatakse ainult rahaliselt värskendatud kandeid.                                     |
+| <span data-ttu-id="14fa0-108">Valitud</span><span class="sxs-lookup"><span data-stu-id="14fa0-108">Selected</span></span> | <span data-ttu-id="14fa0-109">Jooksva keskmise omahinna arvutamiseks kasutatakse nii füüsiliselt kui ka rahaliselt värskendatud kandeid.</span><span class="sxs-lookup"><span data-stu-id="14fa0-109">Both physically updated transactions and financially updated transactions are used to calculate the running average cost price.</span></span> |
+| <span data-ttu-id="14fa0-110">Tühjendatud</span><span class="sxs-lookup"><span data-stu-id="14fa0-110">Cleared</span></span>  | <span data-ttu-id="14fa0-111">Jooksva keskmise omahinna arvutamiseks kasutatakse ainult rahaliselt värskendatud kandeid.</span><span class="sxs-lookup"><span data-stu-id="14fa0-111">Only financially updated transactions are used to calculate the running average cost price.</span></span>                                     |
 
-Märkeruudul on veidi erinevad mõjud, olenevalt kasutatavast laomudelist.
+<span data-ttu-id="14fa0-112">Märkeruudul on veidi erinevad mõjud, olenevalt kasutatavast laomudelist.</span><span class="sxs-lookup"><span data-stu-id="14fa0-112">The check box has slightly different effects, depending on the inventory model that you use.</span></span>
 
--   Kui märgite ruudu **Kaasa füüsiline väärtus** laomudeli FIFO (elavjärjekorra), LIFO (viimaste esmaväljastamine) või LIFO kasutamisel, korrigeerib lao sulgemine ka füüsiliselt värskendatud kandeid.
--   Kui te ei märgi laomudelite kasutamisel ruutu **Kaasa füüsiline väärtus**, teeb lao sulgemine tasakaalustusi ainult rahaliselt värskendatud kannetes.
--   Kui kasutate kaalutud keskmise või kaalutud keskmise kuupäeva laomudelit, tasakaalustab lao sulgemine vaid rahaliselt värskendatud kanded, olenemata sellest, kas märgite ruudu **Kaasa füüsiline väärtus**.
+-   <span data-ttu-id="14fa0-113">Kui märgite ruudu **Kaasa füüsiline väärtus** laomudeli FIFO (elavjärjekorra), LIFO (viimaste esmaväljastamine) või LIFO kasutamisel, korrigeerib lao sulgemine ka füüsiliselt värskendatud kandeid.</span><span class="sxs-lookup"><span data-stu-id="14fa0-113">If you select the **Include physical value** check box when you use the FIFO (First in, first out), LIFO (Last in, first out), or LIFO date inventory model, inventory close also makes adjustments to physically updated transactions.</span></span>
+-   <span data-ttu-id="14fa0-114">Kui te ei märgi laomudelite kasutamisel ruutu **Kaasa füüsiline väärtus**, teeb lao sulgemine tasakaalustusi ainult rahaliselt värskendatud kannetes.</span><span class="sxs-lookup"><span data-stu-id="14fa0-114">If you don't select the **Include physical value** check box when you use these inventory models, inventory close makes settlements only to financially updated transactions.</span></span>
+-   <span data-ttu-id="14fa0-115">Kui kasutate kaalutud keskmise või kaalutud keskmise kuupäeva laomudelit, tasakaalustab lao sulgemine vaid rahaliselt värskendatud kanded, olenemata sellest, kas märgite ruudu **Kaasa füüsiline väärtus**.</span><span class="sxs-lookup"><span data-stu-id="14fa0-115">When you use the weighted average or weighted average date inventory model, inventory close settles only financially updated transactions, regardless of whether you select the **Include physical value** check box.</span></span>
 
-**Näide 1** Olete märkinud ruudu**Kaasa füüsiline väärtus** ja saate järgmised ostutellimused.
+<span data-ttu-id="14fa0-116">**Näide 1** Olete märkinud ruudu**Kaasa füüsiline väärtus** ja saate järgmised ostutellimused.</span><span class="sxs-lookup"><span data-stu-id="14fa0-116">**Example 1** You've selected the **Include physical value** check box and receive the following purchase orders:</span></span>
 
--   Ostutellimus kogusele 2 omahinnaga 10.00 USA dollarit, mis on saatelehega sisestatud
--   Ostutellimus kogusele 3 omahinnaga 12.00 USA dollarit, mis on arvega sisestatud
+-   <span data-ttu-id="14fa0-117">Ostutellimus kogusele 2 omahinnaga 10.00 USA dollarit, mis on saatelehega sisestatud</span><span class="sxs-lookup"><span data-stu-id="14fa0-117">A purchase order for a quantity of 2 and a cost price of USD 10.00 that has been packing slip–updated</span></span>
+-   <span data-ttu-id="14fa0-118">Ostutellimus kogusele 3 omahinnaga 12.00 USA dollarit, mis on arvega sisestatud</span><span class="sxs-lookup"><span data-stu-id="14fa0-118">A purchase order for a quantity of 3 and a cost price of USD 12.00 that has been invoice-updated</span></span>
 
-Sellisel juhul on jooksev keskmine omahind 11.20 USD, sest omahinna arvutamiseks kasutatakse nii füüsiliselt kui ka rahaliselt värskendatud kandeid. **Näide 2** Te pole märkinud ruutu **Kaasa füüsiline väärtus** ja kauba seadistuse omahind on 10.00 USD. Saate ostutellimuse kogusele 20 omahinnaga 12.00 USA dollarit, mis on saatelehega sisestatud Müügitellimuse sisestamisel sisestatakse kulusumma 10.00 USD kulusumma, sest jooksev keskmine omahind ei hõlma füüsiliselt sisestatud kandeid. **Märkus:** võrdluseks, kui märgite selle kauba puhul müügitellimuse sisestamisel ruudu **Kaasa füüsiline väärtus**, on sisestatav kulusumma 12.00 USD.
+<span data-ttu-id="14fa0-119">Sellisel juhul on jooksev keskmine omahind 11.20 USD, sest omahinna arvutamiseks kasutatakse nii füüsiliselt kui ka rahaliselt värskendatud kandeid.</span><span class="sxs-lookup"><span data-stu-id="14fa0-119">In this case, the running average cost price will be USD 11.20, because both physically updated transactions and financially updated transactions are used to calculate the cost price.</span></span> <span data-ttu-id="14fa0-120">**Näide 2** Te pole märkinud ruutu **Kaasa füüsiline väärtus** ja kauba seadistuse omahind on 10.00 USD.</span><span class="sxs-lookup"><span data-stu-id="14fa0-120">**Example 2** You haven't selected the **Include physical value** check box, and the cost price on the item setup is USD 10.00.</span></span> <span data-ttu-id="14fa0-121">Saate ostutellimuse kogusele 20 omahinnaga 12.00 USA dollarit, mis on saatelehega sisestatud</span><span class="sxs-lookup"><span data-stu-id="14fa0-121">You receive a purchase order for a quantity of 20 and a cost price of USD 12.00 that has been packing slip–updated.</span></span> <span data-ttu-id="14fa0-122">Müügitellimuse sisestamisel sisestatakse kulusumma 10.00 USD kulusumma, sest jooksev keskmine omahind ei hõlma füüsiliselt sisestatud kandeid.</span><span class="sxs-lookup"><span data-stu-id="14fa0-122">When a sales order is posted, the posted cost amount is USD 10.00, because the running average cost price won't include physically posted transactions.</span></span> <span data-ttu-id="14fa0-123">**Märkus:** võrdluseks, kui märgite selle kauba puhul müügitellimuse sisestamisel ruudu **Kaasa füüsiline väärtus**, on sisestatav kulusumma 12.00 USD.</span><span class="sxs-lookup"><span data-stu-id="14fa0-123">**Note:** For comparison, if you select the **Include physical value** check box for this item, when a sales order is posted, the posted cost amount will be USD 12.00.</span></span>
 
 
 

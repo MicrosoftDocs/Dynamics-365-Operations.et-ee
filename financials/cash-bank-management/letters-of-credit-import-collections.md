@@ -19,41 +19,41 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5b27e8731dde9a834ee0ff5aa7a289bd2ecfeef1
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4332c7bb0344bd0caabd5d1a26fb8e4bb4fc862d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="letters-of-credit-and-import-collections"></a>Akreditiivid ja impordi sissenõudmised
+# <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="d229c-104">Akreditiivid ja impordi sissenõudmised</span><span class="sxs-lookup"><span data-stu-id="d229c-104">Letters of credit and import collections</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis antakse üldist teavet akreditiivide ja impordi sissenõuete kohta. Mõlemat tüüpi pangadokumente kasutatakse sageli kaupade ostmiseks ja müügiks välisriikides.
+<span data-ttu-id="d229c-105">Selles artiklis antakse üldist teavet akreditiivide ja impordi sissenõuete kohta.</span><span class="sxs-lookup"><span data-stu-id="d229c-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="d229c-106">Mõlemat tüüpi pangadokumente kasutatakse sageli kaupade ostmiseks ja müügiks välisriikides.</span><span class="sxs-lookup"><span data-stu-id="d229c-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 
-<a name="letters-of-credit"></a>Akreditiivid
+<a name="letters-of-credit"></a><span data-ttu-id="d229c-107">Akreditiivid</span><span class="sxs-lookup"><span data-stu-id="d229c-107">Letters of credit</span></span>
 -----------------
 
-Akreditiive kasutatakse rahvusvaheliste kannete puhul ja need aitavad tagada, et maksete tegemise. Akreditiiv on panga väljastatud lepe, millega pank nõustub ostja nimel makse tagama, tingimusel, et müüja ja ostja vahel sõlmitud leppe tingimused on täidetud. Akreditiivi nimetatakse ka dokumendikrediidiks (DC).
+<span data-ttu-id="d229c-108">Akreditiive kasutatakse rahvusvaheliste kannete puhul ja need aitavad tagada, et maksete tegemise.</span><span class="sxs-lookup"><span data-stu-id="d229c-108">Letters of credit are used for international transactions and help guarantee that payments will be made.</span></span> <span data-ttu-id="d229c-109">Akreditiiv on panga väljastatud lepe, millega pank nõustub ostja nimel makse tagama, tingimusel, et müüja ja ostja vahel sõlmitud leppe tingimused on täidetud.</span><span class="sxs-lookup"><span data-stu-id="d229c-109">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to guarantee payment on behalf of a buyer, provided that the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="d229c-110">Akreditiivi nimetatakse ka dokumendikrediidiks (DC).</span><span class="sxs-lookup"><span data-stu-id="d229c-110">A letter of credit is also referred to as a documentary credit (DC).</span></span>
 
-Impordiakreditiivi puhul on juriidiline isik ostja või akreditiivi taotleja. Ekspordiakreditiivi puhul on juriidiline isik müüja või akreditiivi kasusaaja. Akreditiivi on kaasatud järgmised osapooled.
+<span data-ttu-id="d229c-111">Impordiakreditiivi puhul on juriidiline isik ostja või akreditiivi taotleja.</span><span class="sxs-lookup"><span data-stu-id="d229c-111">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="d229c-112">Ekspordiakreditiivi puhul on juriidiline isik müüja või akreditiivi kasusaaja.</span><span class="sxs-lookup"><span data-stu-id="d229c-112">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="d229c-113">Akreditiivi on kaasatud järgmised osapooled.</span><span class="sxs-lookup"><span data-stu-id="d229c-113">The following parties are involved in a letter of credit:</span></span>
 
--   Kandidaat (ostja), kes soovib kaupade eest maksta
--   Kasusaaja (müüja), kes makse saab
--   Väljaandev pank, mis akreditiivi väljastab
--   Nõustav pank, mis kandidaadi nimel kande täidab
+-   <span data-ttu-id="d229c-114">Kandidaat (ostja), kes soovib kaupade eest maksta</span><span class="sxs-lookup"><span data-stu-id="d229c-114">The applicant (buyer) who intends to pay for the goods</span></span>
+-   <span data-ttu-id="d229c-115">Kasusaaja (müüja), kes makse saab</span><span class="sxs-lookup"><span data-stu-id="d229c-115">The beneficiary (seller) who will receive the payment</span></span>
+-   <span data-ttu-id="d229c-116">Väljaandev pank, mis akreditiivi väljastab</span><span class="sxs-lookup"><span data-stu-id="d229c-116">The issuing bank that issues the letter of credit</span></span>
+-   <span data-ttu-id="d229c-117">Nõustav pank, mis kandidaadi nimel kande täidab</span><span class="sxs-lookup"><span data-stu-id="d229c-117">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-Akreditiiv sisaldab kaupade kirjeldust, vajalikke dokumente, saatmise kuupäeva ja aegumiskuupäeva, misjärel makset ei tehta. Väljaandev pank võtab akreditiivi eest marginaali. 
+<span data-ttu-id="d229c-118">Akreditiiv sisaldab kaupade kirjeldust, vajalikke dokumente, saatmise kuupäeva ja aegumiskuupäeva, misjärel makset ei tehta.</span><span class="sxs-lookup"><span data-stu-id="d229c-118">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment won't be made.</span></span> <span data-ttu-id="d229c-119">Väljaandev pank võtab akreditiivi eest marginaali.</span><span class="sxs-lookup"><span data-stu-id="d229c-119">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-Akreditiiv võib olla kas **tühistatav** või **mittetühistatav**. Akreditiiv võib olla **ülekantav**, **ülekandmatu** või **seostuv**. Tavaliselt on akreditiiv tühistamatu ja kinnitatud kokkulepe, et konkreetsele kasusaajale tehakse makse täielike ja korrektsete transpordidokumentide esitamisel.
+<span data-ttu-id="d229c-120">Akreditiiv võib olla kas **tühistatav** või **mittetühistatav**.</span><span class="sxs-lookup"><span data-stu-id="d229c-120">A letter of credit can be **revocable** or **irrevocable**.</span></span> <span data-ttu-id="d229c-121">Akreditiiv võib olla **ülekantav**, **ülekandmatu** või **seostuv**.</span><span class="sxs-lookup"><span data-stu-id="d229c-121">The nature of a letter of credit can be **transferable**, **non-transferable**, or **revolving**.</span></span> <span data-ttu-id="d229c-122">Tavaliselt on akreditiiv tühistamatu ja kinnitatud kokkulepe, et konkreetsele kasusaajale tehakse makse täielike ja korrektsete transpordidokumentide esitamisel.</span><span class="sxs-lookup"><span data-stu-id="d229c-122">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-## <a name="import-collections"></a>Impordi sissenõudmised
-Impordi sissenõue on panga ja eksportija (müüja) vaheline lepe, millega pank nõustub saadetise dokumendid rahvusvahelisele importijale (ostja) tarnima. Pangalt eeldatakse saadetise dokumentide tarnimist saadetavate kaupade makse saamisel sularahas või makse allkirjastatud kinnituse laekumisel. 
+## <a name="import-collections"></a><span data-ttu-id="d229c-123">Impordi sissenõudmised</span><span class="sxs-lookup"><span data-stu-id="d229c-123">Import collections</span></span>
+<span data-ttu-id="d229c-124">Impordi sissenõue on panga ja eksportija (müüja) vaheline lepe, millega pank nõustub saadetise dokumendid rahvusvahelisele importijale (ostja) tarnima.</span><span class="sxs-lookup"><span data-stu-id="d229c-124">An import collection is an agreement between the bank and the exporter (seller), in which the bank agrees to deliver the shipping documentation to the international importer (buyer).</span></span> <span data-ttu-id="d229c-125">Pangalt eeldatakse saadetise dokumentide tarnimist saadetavate kaupade makse saamisel sularahas või makse allkirjastatud kinnituse laekumisel.</span><span class="sxs-lookup"><span data-stu-id="d229c-125">The bank is expected to deliver the shipping documentation upon receipt of payment for the shipped goods in cash, or upon receipt of a signed draft toward the payment.</span></span> 
 
-Impordi sissenõue aitab tagada, et müüjale tasutakse, kui ostja saadetise dokumendid imporditud kaupade tarnimiseks vastu võtab.
+<span data-ttu-id="d229c-126">Impordi sissenõue aitab tagada, et müüjale tasutakse, kui ostja saadetise dokumendid imporditud kaupade tarnimiseks vastu võtab.</span><span class="sxs-lookup"><span data-stu-id="d229c-126">An import collection helps guarantee that the seller is paid when the buyer collects the shipping documents to take delivery of the imported goods.</span></span>
 
 
 

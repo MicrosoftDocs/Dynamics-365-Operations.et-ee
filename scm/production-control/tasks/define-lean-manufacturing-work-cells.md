@@ -17,86 +17,86 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: dc9793bd59e59c96532549d73c56bad518fa7394
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-lean-manufacturing-work-cells"></a>Töörakkude määratlemine: lean manufacturing
+# <a name="define-lean-manufacturing-work-cells"></a><span data-ttu-id="7ee1e-103">Töörakkude määratlemine: lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="7ee1e-103">Define lean manufacturing work cells</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Töörakk on konkreetne ressursigruppide vorm, mida saab lean manufacturingi protsessi tegevustes kasutada. Töörakkudel on sisestus- ja väljastuskohad ning võimsuse määratlus, mis põhineb tootmisvoo mudelil. Lisateavet lean manufacturingi töörakkude ja läbilaskvuse arvutuste kohta leiate lean manufacturingi tehnilistest ülevaadetest. Selle protseduuri loomiseks kasutati demoettevõtte USMF andmeid
+<span data-ttu-id="7ee1e-104">Töörakk on konkreetne ressursigruppide vorm, mida saab lean manufacturingi protsessi tegevustes kasutada.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-104">A work cell is a specific form of resource groups that can be used in lean manufacturing process activities.</span></span> <span data-ttu-id="7ee1e-105">Töörakkudel on sisestus- ja väljastuskohad ning võimsuse määratlus, mis põhineb tootmisvoo mudelil.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-105">Work cells have input and output locations and a capacity definition based on a production flow model.</span></span> <span data-ttu-id="7ee1e-106">Lisateavet lean manufacturingi töörakkude ja läbilaskvuse arvutuste kohta leiate lean manufacturingi tehnilistest ülevaadetest.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-106">To learn more about the basic concepts of lean manufacturing work cells and capacity calculations, see the white papers on Lean manufacturing.</span></span> <span data-ttu-id="7ee1e-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF andmeid</span><span class="sxs-lookup"><span data-stu-id="7ee1e-107">The demo data company used to create this procedure is USMF</span></span>
 
 
-## <a name="create-a-work-cell"></a>Looge töörakk. 
-1. Avage Organisatsiooni haldus > Ressursid > Ressursigrupid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Ressursigrupp.
-    * Tööraku ID on tavaliselt süsteemikood ja see peab juriidilise isiku puhul kordumatu olema.  
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-    * Kirjeldus sisaldab tööraku nime või tiitlit.  
-5. Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.
-    * Töörakk asub ühes konkreetses asukohas. Nii sisestus- kui ka väljastusladu ja asukoht peavad olema selles kohas.  
-6. Klõpsake loendis valitud real olevat linki.
-7. Klõpsake väljal Tootmisüksus otsingu avamiseks ripploendi nuppu.
-8. Klõpsake loendis valitud real olevat linki.
-    * Valige tootmisüksus, mille juurde see töörakk kuulub.  
-9. Märkige ruut Töörakk.
-    * Ressursigrupi kasutamiseks säästliku töörakuna tuleb märkida ruut Töörakk.  Pange tähele, et seda atribuuti ei saa muuta pärast ressursigrupi loomist.  
-10. Klõpsake väljal Sisestusladu otsingu avamiseks ripploendi nuppu.
-11. Klõpsake loendis valitud real olevat linki.
-    * Raamatupidamise ja materjali juhtimise jaoks paigutatakse tööde juhtimise moodulisse koondatud kaup tavaliselt konkreetsesse virtuaalsesse lattu. Kuid kui soovite asukohti täiendada, kasutades laotööd, peavad need kuuluma vastuvõtva toorainelao juurde.  
-12. Klõpsake väljal Sisestuskoht otsingu avamiseks ripploendi nuppu.
-13. Klõpsake loendis valitud real olevat linki.
-    * Pange tähele, et protsessitegevuse puhul saab sisestuskoha üldise või konkreetse toote või tootevariandiga üle kirjutada, määratledes komplekteerimistegevused, mis viivad protsessitegevuseni. Tööraku sisestuskohad ei tohi olla litsentsiplaadiga juhitavad.  
-14. Klõpsake väljal Väljastusladu otsingu avamiseks ripploendi nuppu.
-15. Otsige loendist ja valige soovitud kirje.
-    * Mitme tegevusega tootmisvoogude või tootmisliinide puhul on see sageli järgmise tööraku sisestusladu või müügi- või transiitladu, kuhu toode tavaliselt pärast tootmisprotsessi viiakse. Pidage meeles, et lean manufacturingi protsesside mudeli koostamisel on transport tavaliselt raiskamine, nagu ka transpordiaruandlus.  
-16. Klõpsake loendis valitud real olevat linki.
-17. Klõpsake väljal Väljastuskoht otsingu avamiseks ripploendi nuppu.
-    * Mitme protsessitegevusega tootmisvoo puhul on see sageli järgmise tööraku sisestuskoht.  
-18. Otsige loendist ja valige soovitud kirje.
-19. Klõpsake loendis valitud real olevat linki.
-20. Laiendage või ahendage jaotist Toiming.
-    * Säästlike kanban-tööde kuluarvestuse ja töötlemise võimaldamiseks tuleb esitada käitusaja kategooria.  
-21. Klõpsake väljal Käitusaja kategooria otsingu avamiseks ripploendi nuppu.
-22. Otsige loendist ja valige soovitud kirje.
-    * Käitusaja kulukategooriat kasutatakse standardses kuluarvestuses ja omahinna tagasiarvestuses.  
-23. Klõpsake loendis valitud real olevat linki.
-24. Laiendage või ahendage jaotist Kalendrid.
-25. Klõpsake vahekaarti Lisa.
-26. Klõpsake väljal Kalender otsingu avamiseks ripploendi nuppu.
-27. Otsige loendist ja valige soovitud kirje.
-    * Tavaliselt kasutavad ühe tegevuskoha töörakud ühte tööajakalendrit. Kui töörakkudel saavad olla eraldi tööajad, võib olla vaja koostada töörakule konkreetne tööajakalender. Pange tähele, et kalendrile peab olema määratletud standardne tööaeg, kui seda kasutatakse säästliku tööraku jaoks, kuna võimsuse määratlus on tavaliselt seotud tööpäeva standardse tööajaga.  
-28. Klõpsake loendis valitud real olevat linki.
-29. Laiendage või ahendage jaotist Tööraku võimsus.
-30. Klõpsake vahekaarti Lisa.
-31. Klõpsake väljal Tootmisvoo mudel otsingu avamiseks ripploendi nuppu.
-32. Otsige loendist ja valige soovitud kirje.
-    * Need protseduurid nõuavad tootmisvoo mudeli tüüpi Läbilaskevõime, et näidata läbilaskevõime määratlust.  
-33. Klõpsake loendis valitud real olevat linki.
-34. Valige suvand väljalt Võimsuse periood.
-    * Suvandid on järgmised. Standardne tööpäev – võimsust väljendatakse tööraku tööaja kalendri standardse tööpäeva pikkusega. Iga päeva puhul määratakse tegelik tööaeg kalendri järgi ja kehtiv saadaolev võimsus arvutatakse selle põhjal.   Nädal – võimaldab iganädalast võimsust. Tegeliku tööajaga korrigeerimist ei toimu.   Kuu – lubab igakuist võimsust. Tegeliku võimsusega korrigeerimist ei toimu.   Tavaliselt kasutatakse standardset tööpäeva igapäevaste perioodide ja iganädalast võimsust iganädalaste võimsuseperioodide puhul.  
-35. Sisestage number väljale Keskmine läbilaskekogus.
-    * Pange tähele, et säästlikku tööd ei seadistata ideaalses keskkonnas kunagi maksimaalse võimsusega. Selle asemel tuleb võimsus määratleda alati tavapärastes oludes toimuvate tegevuste jaoks.  
-36. Klõpsake väljal Ühik otsingu avamiseks ripploendi nuppu.
-37. Klõpsake loendis valitud real olevat linki.
-38. Ühiku toiming ResolveChanges.
+## <a name="create-a-work-cell"></a><span data-ttu-id="7ee1e-108">Looge töörakk.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-108">Create a work cell.</span></span> 
+1. <span data-ttu-id="7ee1e-109">Avage Organisatsiooni haldus > Ressursid > Ressursigrupid.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-109">Go to Organization administration > Resources > Resource groups.</span></span>
+2. <span data-ttu-id="7ee1e-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-110">Click New.</span></span>
+3. <span data-ttu-id="7ee1e-111">Sisestage väärtus väljale Ressursigrupp.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-111">In the Resource group field, type a value.</span></span>
+    * <span data-ttu-id="7ee1e-112">Tööraku ID on tavaliselt süsteemikood ja see peab juriidilise isiku puhul kordumatu olema.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-112">The work cell ID is typically a systematic code and has to be unique for the legal entity.</span></span>  
+4. <span data-ttu-id="7ee1e-113">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-113">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="7ee1e-114">Kirjeldus sisaldab tööraku nime või tiitlit.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-114">The description contains the name or title of the work cell.</span></span>  
+5. <span data-ttu-id="7ee1e-115">Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-115">In the Site field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="7ee1e-116">Töörakk asub ühes konkreetses asukohas.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-116">A work cell is located at one specific site.</span></span> <span data-ttu-id="7ee1e-117">Nii sisestus- kui ka väljastusladu ja asukoht peavad olema selles kohas.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-117">Both input and output warehouse and location have to be located on this site.</span></span>  
+6. <span data-ttu-id="7ee1e-118">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-118">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="7ee1e-119">Klõpsake väljal Tootmisüksus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-119">In the Production unit field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="7ee1e-120">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="7ee1e-121">Valige tootmisüksus, mille juurde see töörakk kuulub.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-121">Select a production unit that this work cell belongs to.</span></span>  
+9. <span data-ttu-id="7ee1e-122">Märkige ruut Töörakk.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-122">Select the Work cell check box.</span></span>
+    * <span data-ttu-id="7ee1e-123">Ressursigrupi kasutamiseks säästliku töörakuna tuleb märkida ruut Töörakk.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-123">To use a resource group as a lean work cell, the Work cell check box has to be selected.</span></span>  <span data-ttu-id="7ee1e-124">Pange tähele, et seda atribuuti ei saa muuta pärast ressursigrupi loomist.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-124">Note that this property cannot be changed after resource group is created.</span></span>  
+10. <span data-ttu-id="7ee1e-125">Klõpsake väljal Sisestusladu otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-125">In the Input warehouse field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="7ee1e-126">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-126">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="7ee1e-127">Raamatupidamise ja materjali juhtimise jaoks paigutatakse tööde juhtimise moodulisse koondatud kaup tavaliselt konkreetsesse virtuaalsesse lattu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-127">For accounting and material control, the material staged on the shop floor is typically allocated to a specific virtual warehouse.</span></span> <span data-ttu-id="7ee1e-128">Kuid kui soovite asukohti täiendada, kasutades laotööd, peavad need kuuluma vastuvõtva toorainelao juurde.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-128">However, if you want to replenish the locations using warehouse work, they must be part of the receptive raw material warehouse.</span></span>  
+12. <span data-ttu-id="7ee1e-129">Klõpsake väljal Sisestuskoht otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-129">In the Input location field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="7ee1e-130">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-130">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="7ee1e-131">Pange tähele, et protsessitegevuse puhul saab sisestuskoha üldise või konkreetse toote või tootevariandiga üle kirjutada, määratledes komplekteerimistegevused, mis viivad protsessitegevuseni.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-131">Note that for a process activity, the input location can by overwritten in general or for a specific product or product variant by defining picking activities that feed to the process activity.</span></span> <span data-ttu-id="7ee1e-132">Tööraku sisestuskohad ei tohi olla litsentsiplaadiga juhitavad.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-132">The input locations of a work cell cannot be license plate controlled.</span></span>  
+14. <span data-ttu-id="7ee1e-133">Klõpsake väljal Väljastusladu otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-133">In the Output warehouse field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="7ee1e-134">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-134">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7ee1e-135">Mitme tegevusega tootmisvoogude või tootmisliinide puhul on see sageli järgmise tööraku sisestusladu või müügi- või transiitladu, kuhu toode tavaliselt pärast tootmisprotsessi viiakse.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-135">In multiple activity production flows or production lines, this is often the input warehouse of the next work cell or the sales or transit warehouse where a product is typically transferred to after the production process.</span></span> <span data-ttu-id="7ee1e-136">Pidage meeles, et lean manufacturingi protsesside mudeli koostamisel on transport tavaliselt raiskamine, nagu ka transpordiaruandlus.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-136">Remember when modeling lean manufacturing processes, transport is usually waste, as is reporting transport.</span></span>  
+16. <span data-ttu-id="7ee1e-137">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-137">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="7ee1e-138">Klõpsake väljal Väljastuskoht otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-138">In the Output location field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="7ee1e-139">Mitme protsessitegevusega tootmisvoo puhul on see sageli järgmise tööraku sisestuskoht.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-139">In a production flow with multiple process activites this if often the input location of the next work cell.</span></span>  
+18. <span data-ttu-id="7ee1e-140">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-140">In the list, find and select the desired record.</span></span>
+19. <span data-ttu-id="7ee1e-141">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-141">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="7ee1e-142">Laiendage või ahendage jaotist Toiming.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-142">Expand or collapse the Operation section.</span></span>
+    * <span data-ttu-id="7ee1e-143">Säästlike kanban-tööde kuluarvestuse ja töötlemise võimaldamiseks tuleb esitada käitusaja kategooria.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-143">A Run time category must be provided to enable cost calculation and processing of lean kanban jobs.</span></span>  
+21. <span data-ttu-id="7ee1e-144">Klõpsake väljal Käitusaja kategooria otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-144">In the Run time category field, click the drop-down button to open the lookup.</span></span>
+22. <span data-ttu-id="7ee1e-145">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-145">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7ee1e-146">Käitusaja kulukategooriat kasutatakse standardses kuluarvestuses ja omahinna tagasiarvestuses.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-146">The run time cost category is used in standard cost calculation and on backflush costing.</span></span>  
+23. <span data-ttu-id="7ee1e-147">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-147">In the list, click the link in the selected row.</span></span>
+24. <span data-ttu-id="7ee1e-148">Laiendage või ahendage jaotist Kalendrid.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-148">Expand or collapse the Calendars section.</span></span>
+25. <span data-ttu-id="7ee1e-149">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-149">Click Add.</span></span>
+26. <span data-ttu-id="7ee1e-150">Klõpsake väljal Kalender otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-150">In the Calendar field, click the drop-down button to open the lookup.</span></span>
+27. <span data-ttu-id="7ee1e-151">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-151">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7ee1e-152">Tavaliselt kasutavad ühe tegevuskoha töörakud ühte tööajakalendrit.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-152">Typically work cells of a given site use the same working time calendar.</span></span> <span data-ttu-id="7ee1e-153">Kui töörakkudel saavad olla eraldi tööajad, võib olla vaja koostada töörakule konkreetne tööajakalender.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-153">If work cells can have individual working times, you might need to create a specific working time calendar for the work cell.</span></span> <span data-ttu-id="7ee1e-154">Pange tähele, et kalendrile peab olema määratletud standardne tööaeg, kui seda kasutatakse säästliku tööraku jaoks, kuna võimsuse määratlus on tavaliselt seotud tööpäeva standardse tööajaga.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-154">Note that the calendar should have a standard working time defined when used for a lean work cell, because the capacity definition is usually related to the standard working time of a work day.</span></span>  
+28. <span data-ttu-id="7ee1e-155">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-155">In the list, click the link in the selected row.</span></span>
+29. <span data-ttu-id="7ee1e-156">Laiendage või ahendage jaotist Tööraku võimsus.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-156">Expand or collapse the Work cell capacity section.</span></span>
+30. <span data-ttu-id="7ee1e-157">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-157">Click Add.</span></span>
+31. <span data-ttu-id="7ee1e-158">Klõpsake väljal Tootmisvoo mudel otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-158">In the Production flow model field, click the drop-down button to open the lookup.</span></span>
+32. <span data-ttu-id="7ee1e-159">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-159">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7ee1e-160">Need protseduurid nõuavad tootmisvoo mudeli tüüpi Läbilaskevõime, et näidata läbilaskevõime määratlust.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-160">This procedures requires production flow model type Throughput, to show the definition of throughput capacity.</span></span>  
+33. <span data-ttu-id="7ee1e-161">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-161">In the list, click the link in the selected row.</span></span>
+34. <span data-ttu-id="7ee1e-162">Valige suvand väljalt Võimsuse periood.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-162">In the Capacity period field, select an option.</span></span>
+    * <span data-ttu-id="7ee1e-163">Suvandid on järgmised. Standardne tööpäev – võimsust väljendatakse tööraku tööaja kalendri standardse tööpäeva pikkusega.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-163">The options include:   Standard workday - The capacity is expressed by the length of the standard workday of the working time calendar for the work cell.</span></span> <span data-ttu-id="7ee1e-164">Iga päeva puhul määratakse tegelik tööaeg kalendri järgi ja kehtiv saadaolev võimsus arvutatakse selle põhjal.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-164">For each day, the actual working time is determined from the calendar and the effective available capacity is calculated based on that.</span></span>   <span data-ttu-id="7ee1e-165">Nädal – võimaldab iganädalast võimsust.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-165">Week - Allows a weekly capacity.</span></span> <span data-ttu-id="7ee1e-166">Tegeliku tööajaga korrigeerimist ei toimu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-166">There is no adjustment done by the actual working time.</span></span>   <span data-ttu-id="7ee1e-167">Kuu – lubab igakuist võimsust.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-167">Month - Allows a monthly capacity.</span></span> <span data-ttu-id="7ee1e-168">Tegeliku võimsusega korrigeerimist ei toimu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-168">There is no adjustment done by the actual capacity.</span></span>   <span data-ttu-id="7ee1e-169">Tavaliselt kasutatakse standardset tööpäeva igapäevaste perioodide ja iganädalast võimsust iganädalaste võimsuseperioodide puhul.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-169">Typically, the standard workday is used for daily periods and the weekly capacity is used for weekly capacity periods.</span></span>  
+35. <span data-ttu-id="7ee1e-170">Sisestage number väljale Keskmine läbilaskekogus.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-170">In the Average throughput quantity field, enter a number.</span></span>
+    * <span data-ttu-id="7ee1e-171">Pange tähele, et säästlikku tööd ei seadistata ideaalses keskkonnas kunagi maksimaalse võimsusega.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-171">Note that a lean operation is never set up for the maximum possible capacity in an ideal environment.</span></span> <span data-ttu-id="7ee1e-172">Selle asemel tuleb võimsus määratleda alati tavapärastes oludes toimuvate tegevuste jaoks.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-172">Instead the capacity should always be defined for operations running under typical circumstances.</span></span>  
+36. <span data-ttu-id="7ee1e-173">Klõpsake väljal Ühik otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-173">In the Unit field, click the drop-down button to open the lookup.</span></span>
+37. <span data-ttu-id="7ee1e-174">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-174">In the list, click the link in the selected row.</span></span>
+38. <span data-ttu-id="7ee1e-175">Ühiku toiming ResolveChanges.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-175">ResolveChanges the Unit.</span></span>
 
-## <a name="add-a-financial-dimension"></a>Finantsdimensiooni lisamine
-1. Laiendage või ahendage jaotist Finantsdimensioonid.
-    * Pange tähele, et tootmisvoole määratletud finantsdimensioonid alistavad antud tööraku finantsdimensiooni.    Valitavad finantsdimensioonid olenevad teie süsteemi finantsdimensioonide konfiguratsioonist. Järgmised sammud vastavad demoettevõtte USMF andmetele. Erinevate andmete kasutamisel ei pruugi need toimingud kehtida.  
-2. Klõpsake väljal CostCenter otsingu avamiseks ripploendi nuppu.
-3. Otsige loendist ja valige soovitud kirje.
-    * Säästlike töörakkude puhul valitavad dimensioonid sõltuvad finantsdimensioonide rakendamisest konkreetse juriidilise isiku arvestusmudelis.  
-4. Klõpsake loendis valitud real olevat linki.
-5. Klõpsake väljal ItemGroup otsingu avamiseks ripploendi nuppu.
-6. Otsige loendist ja valige soovitud kirje.
-7. Klõpsake loendis valitud real olevat linki.
+## <a name="add-a-financial-dimension"></a><span data-ttu-id="7ee1e-176">Finantsdimensiooni lisamine</span><span class="sxs-lookup"><span data-stu-id="7ee1e-176">Add a financial dimension</span></span>
+1. <span data-ttu-id="7ee1e-177">Laiendage või ahendage jaotist Finantsdimensioonid.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-177">Expand or collapse the Financial dimensions section.</span></span>
+    * <span data-ttu-id="7ee1e-178">Pange tähele, et tootmisvoole määratletud finantsdimensioonid alistavad antud tööraku finantsdimensiooni.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-178">Note that financial dimensions defined on the production flow override the financial dimension of a given work cell.</span></span>    <span data-ttu-id="7ee1e-179">Valitavad finantsdimensioonid olenevad teie süsteemi finantsdimensioonide konfiguratsioonist.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-179">The financial dimensions that can be selected depend on the configuration of the financial dimensions of your system.</span></span> <span data-ttu-id="7ee1e-180">Järgmised sammud vastavad demoettevõtte USMF andmetele.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-180">The following steps correspond to the Demo data set in company USMF.</span></span> <span data-ttu-id="7ee1e-181">Erinevate andmete kasutamisel ei pruugi need toimingud kehtida.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-181">When using different data, the steps might not be applicable.</span></span>  
+2. <span data-ttu-id="7ee1e-182">Klõpsake väljal CostCenter otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-182">In the CostCenter field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="7ee1e-183">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-183">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7ee1e-184">Säästlike töörakkude puhul valitavad dimensioonid sõltuvad finantsdimensioonide rakendamisest konkreetse juriidilise isiku arvestusmudelis.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-184">The dimensions that need to be selected on lean work cells depend on the implementation of financial dimensions in the accounting model for a specific legal entity.</span></span>  
+4. <span data-ttu-id="7ee1e-185">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-185">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="7ee1e-186">Klõpsake väljal ItemGroup otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-186">In the ItemGroup field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="7ee1e-187">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-187">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="7ee1e-188">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-188">In the list, click the link in the selected row.</span></span>
 
-## <a name="save"></a>Salvesta
-1. Klõpsake nuppu Salvesta.
+## <a name="save"></a><span data-ttu-id="7ee1e-189">Salvesta</span><span class="sxs-lookup"><span data-stu-id="7ee1e-189">Save</span></span>
+1. <span data-ttu-id="7ee1e-190">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7ee1e-190">Click Save.</span></span>
 
 

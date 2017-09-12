@@ -17,56 +17,56 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d83f58f860f64b03c0a27d43e3f0695968d0699b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 22ce633f65847f10fbe507b71bfc2bb33f595501
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enable-the-payroll-process-for-time-and-attendance"></a>Tööajaarvestuse palgaarvestuse protsessi lubamine
+# <a name="enable-the-payroll-process-for-time-and-attendance"></a><span data-ttu-id="2bd53-103">Tööajaarvestuse palgaarvestuse protsessi lubamine</span><span class="sxs-lookup"><span data-stu-id="2bd53-103">Enable the payroll process for time and attendance</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris näitlikustatakse, kuidas aktiveerida palgaarvestuse protsessi tööajaarvestuse põhjal. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+<span data-ttu-id="2bd53-104">Selles protseduuris näitlikustatakse, kuidas aktiveerida palgaarvestuse protsessi tööajaarvestuse põhjal.</span><span class="sxs-lookup"><span data-stu-id="2bd53-104">This procedure shows how to enable the payroll process for time and attendance.</span></span> <span data-ttu-id="2bd53-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="2bd53-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-pay-type-with-a-related-pay-rate"></a>Seostatud tasumääraga tasutüübi loomine
-1. Tööajaarvestus > Seadistus > Palk > Tasutüübid
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Tasutüüp.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake nuppu Salvesta.
-6. Klõpsake valikut Määrad.
-    * Tasutüüpide määrad seatakse konkreetseteks ajaperioodideks ja töötajatele saab luua eri tasumäärasid. Tasumäärade loomine tööajaarvestuse järgi ei ole alati vajalik. See teave võib juba olemas olla palgaarvestussüsteemis, kus palku luuakse.  
-7. Klõpsake valikut Uus.
-8. Märkige loendis valitud rida.
-9. Sisestage arv väljale Määr.
-10. Klõpsake nuppu Salvesta.
+## <a name="create-a-pay-type-with-a-related-pay-rate"></a><span data-ttu-id="2bd53-106">Seostatud tasumääraga tasutüübi loomine</span><span class="sxs-lookup"><span data-stu-id="2bd53-106">Create a pay type with a related pay rate</span></span>
+1. <span data-ttu-id="2bd53-107">Tööajaarvestus > Seadistus > Palk > Tasutüübid</span><span class="sxs-lookup"><span data-stu-id="2bd53-107">Time and attendance > Setup > Payroll > Pay types</span></span>
+2. <span data-ttu-id="2bd53-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2bd53-108">Click New.</span></span>
+3. <span data-ttu-id="2bd53-109">Sisestage väärtus väljale Tasutüüp.</span><span class="sxs-lookup"><span data-stu-id="2bd53-109">In the Pay type field, type a value.</span></span>
+4. <span data-ttu-id="2bd53-110">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="2bd53-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="2bd53-111">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2bd53-111">Click Save.</span></span>
+6. <span data-ttu-id="2bd53-112">Klõpsake valikut Määrad.</span><span class="sxs-lookup"><span data-stu-id="2bd53-112">Click Rates.</span></span>
+    * <span data-ttu-id="2bd53-113">Tasutüüpide määrad seatakse konkreetseteks ajaperioodideks ja töötajatele saab luua eri tasumäärasid.</span><span class="sxs-lookup"><span data-stu-id="2bd53-113">Rates for pay types are set up for specific time intervals, and individual rates can be created for workers.</span></span> <span data-ttu-id="2bd53-114">Tasumäärade loomine tööajaarvestuse järgi ei ole alati vajalik.</span><span class="sxs-lookup"><span data-stu-id="2bd53-114">It is not always necessary to create rates for pay types in time and attendance.</span></span> <span data-ttu-id="2bd53-115">See teave võib juba olemas olla palgaarvestussüsteemis, kus palku luuakse.</span><span class="sxs-lookup"><span data-stu-id="2bd53-115">This information may already exist in the payroll system that is used to generate wages.</span></span>  
+7. <span data-ttu-id="2bd53-116">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2bd53-116">Click New.</span></span>
+8. <span data-ttu-id="2bd53-117">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2bd53-117">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="2bd53-118">Sisestage arv väljale Määr.</span><span class="sxs-lookup"><span data-stu-id="2bd53-118">In the Rate field, enter a number.</span></span>
+10. <span data-ttu-id="2bd53-119">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2bd53-119">Click Save.</span></span>
 
-## <a name="create-a-pay-agreement"></a>Tasuleppe loomine
-1. Sulgege leht.
-2. Sulgege leht.
-3. Avage Tasulepped.
-    * Tööajaarvestus > Seadistus > Tasulepped  
-4. Klõpsake valikut Uus.
-5. Sisestage väärtus väljale Tasulepe.
-6. Sisestage väljale Kirjeldus soovitud väärtus.
-7. Klõpsake nuppu Salvesta.
-8. Klõpsake valikut Lepingu read.
-9. Klõpsake valikut Uus.
-10. Märkige loendis valitud rida.
-11. Sisestage või valige väärtus väljal Reeglite tüüp.
-12. Sisestage või valige väärtus väljal Tasutüüp.
+## <a name="create-a-pay-agreement"></a><span data-ttu-id="2bd53-120">Tasuleppe loomine</span><span class="sxs-lookup"><span data-stu-id="2bd53-120">Create a pay agreement</span></span>
+1. <span data-ttu-id="2bd53-121">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2bd53-121">Close the page.</span></span>
+2. <span data-ttu-id="2bd53-122">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2bd53-122">Close the page.</span></span>
+3. <span data-ttu-id="2bd53-123">Avage Tasulepped.</span><span class="sxs-lookup"><span data-stu-id="2bd53-123">Go to Pay agreements.</span></span>
+    * <span data-ttu-id="2bd53-124">Tööajaarvestus > Seadistus > Tasulepped</span><span class="sxs-lookup"><span data-stu-id="2bd53-124">Time and attendance > Setup > Pay agreements</span></span>  
+4. <span data-ttu-id="2bd53-125">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2bd53-125">Click New.</span></span>
+5. <span data-ttu-id="2bd53-126">Sisestage väärtus väljale Tasulepe.</span><span class="sxs-lookup"><span data-stu-id="2bd53-126">In the Pay agreement field, type a value.</span></span>
+6. <span data-ttu-id="2bd53-127">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="2bd53-127">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="2bd53-128">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2bd53-128">Click Save.</span></span>
+8. <span data-ttu-id="2bd53-129">Klõpsake valikut Lepingu read.</span><span class="sxs-lookup"><span data-stu-id="2bd53-129">Click Agreement lines.</span></span>
+9. <span data-ttu-id="2bd53-130">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2bd53-130">Click New.</span></span>
+10. <span data-ttu-id="2bd53-131">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2bd53-131">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="2bd53-132">Sisestage või valige väärtus väljal Reeglite tüüp.</span><span class="sxs-lookup"><span data-stu-id="2bd53-132">In the Profile type field, enter or select a value.</span></span>
+12. <span data-ttu-id="2bd53-133">Sisestage või valige väärtus väljal Tasutüüp.</span><span class="sxs-lookup"><span data-stu-id="2bd53-133">In the Pay type field, enter or select a value.</span></span>
 
-## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a>Kellaaja registreerimisega töötaja tasuleppe seadistamine
-1. Sulgege leht.
-2. Sulgege leht.
-3. Avage jaotis Ajalise registreerimise töötajad.
-    * Tööajaarvestus > Seadistus > Ajalise registreerimise töötajad  
-4. Klõpsake loendis valitud real olevat linki.
-5. Klõpsake vahekaarti Tööhõive.
-6. Laiendage jaotist Ajaline registreerimine.
-7. Klõpsake nuppu Redigeeri.
-8. Sisestage või valige väärtus väljal Tasulepe.
+## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a><span data-ttu-id="2bd53-134">Kellaaja registreerimisega töötaja tasuleppe seadistamine</span><span class="sxs-lookup"><span data-stu-id="2bd53-134">Set up pay agreement for time and registration worker</span></span>
+1. <span data-ttu-id="2bd53-135">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2bd53-135">Close the page.</span></span>
+2. <span data-ttu-id="2bd53-136">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2bd53-136">Close the page.</span></span>
+3. <span data-ttu-id="2bd53-137">Avage jaotis Ajalise registreerimise töötajad.</span><span class="sxs-lookup"><span data-stu-id="2bd53-137">Go to Time registration workers.</span></span>
+    * <span data-ttu-id="2bd53-138">Tööajaarvestus > Seadistus > Ajalise registreerimise töötajad</span><span class="sxs-lookup"><span data-stu-id="2bd53-138">Time and attendance > Setup > Time registration workers</span></span>  
+4. <span data-ttu-id="2bd53-139">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="2bd53-139">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="2bd53-140">Klõpsake vahekaarti Tööhõive.</span><span class="sxs-lookup"><span data-stu-id="2bd53-140">Click the Employment tab.</span></span>
+6. <span data-ttu-id="2bd53-141">Laiendage jaotist Ajaline registreerimine.</span><span class="sxs-lookup"><span data-stu-id="2bd53-141">Expand the Time registration section.</span></span>
+7. <span data-ttu-id="2bd53-142">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="2bd53-142">Click Edit.</span></span>
+8. <span data-ttu-id="2bd53-143">Sisestage või valige väärtus väljal Tasulepe.</span><span class="sxs-lookup"><span data-stu-id="2bd53-143">In the Pay agreement field, enter or select a value.</span></span>
 
 

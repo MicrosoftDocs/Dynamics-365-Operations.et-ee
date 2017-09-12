@@ -17,30 +17,30 @@ ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 712406f1a47d3b0b6b8302cd7337a594a3818f95
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Kulukategooriad, mida kasutatakse moodulites Tootmise juhtimine ja Projektihalduse raamatupidamine
+# <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a><span data-ttu-id="168df-104">Kulukategooriad, mida kasutatakse moodulites Tootmise juhtimine ja Projektihalduse raamatupidamine</span><span class="sxs-lookup"><span data-stu-id="168df-104">Cost categories used in Production control and Project management accounting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. See artikkel annab teavet kulukategooriate kohta, mis tuleb määratleda tootmise ja projekti puhul nende tootmistöö tüüpide jaoks.
+<span data-ttu-id="168df-105">Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele.</span><span class="sxs-lookup"><span data-stu-id="168df-105">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="168df-106">See artikkel annab teavet kulukategooriate kohta, mis tuleb määratleda tootmise ja projekti puhul nende tootmistöö tüüpide jaoks.</span><span class="sxs-lookup"><span data-stu-id="168df-106">This article provides information about the cost categories that you must define for these types of production work for production and project purposes.</span></span>
 
-Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. Sellisel juhul on tootmise ja projekti jaoks vaja kulukategooriat. Kui tootmises ja projektides kasutatakse kulukategooriat, tuleb määratleda täiendav projektiga seotud teave. Näiteks projektidega seotud tunnikulud võivad erineda tootmisega seotud tunnikuludest. Lehte **Kulukategooriad** saab kasutada tootmise juhtimises ja projektihalduse raamatupidamises kasutatava kulukategooria määratlemiseks. **Märkus:** kuluarvestusel on leht **Projekti kategooriad**, kuid sellel lehel puudub seos selles teemas kirjeldatud funktsioonidega. Kulukategooria kasutamisel projektides on lehel **Kulukategooriad** täiendavad vahekaardid, mis kuvavad täiendava projektiga seotud teabe. See teave hõlmab kategooriagruppi, rea atribuuti ja pearaamatukontosid, mis on määratud kulukategooriale.
+<span data-ttu-id="168df-107">Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele.</span><span class="sxs-lookup"><span data-stu-id="168df-107">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="168df-108">Sellisel juhul on tootmise ja projekti jaoks vaja kulukategooriat.</span><span class="sxs-lookup"><span data-stu-id="168df-108">In this case, a cost category is required for production and project purposes.</span></span> <span data-ttu-id="168df-109">Kui tootmises ja projektides kasutatakse kulukategooriat, tuleb määratleda täiendav projektiga seotud teave.</span><span class="sxs-lookup"><span data-stu-id="168df-109">When a cost category is used in production and projects, additional project-related information must be defined.</span></span> <span data-ttu-id="168df-110">Näiteks projektidega seotud tunnikulud võivad erineda tootmisega seotud tunnikuludest.</span><span class="sxs-lookup"><span data-stu-id="168df-110">For example, the hourly costs that are associated with projects can differ from the hourly costs that are associated with production.</span></span> <span data-ttu-id="168df-111">Lehte **Kulukategooriad** saab kasutada tootmise juhtimises ja projektihalduse raamatupidamises kasutatava kulukategooria määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="168df-111">You can use the **Cost categories** page to define a cost category that is used in Production control and Project management accounting.</span></span> <span data-ttu-id="168df-112">**Märkus:** kuluarvestusel on leht **Projekti kategooriad**, kuid sellel lehel puudub seos selles teemas kirjeldatud funktsioonidega.</span><span class="sxs-lookup"><span data-stu-id="168df-112">**Note:** Cost accounting has a **Project categories** page, but this page has no relationship to the functionality that is described in this topic.</span></span> <span data-ttu-id="168df-113">Kulukategooria kasutamisel projektides on lehel **Kulukategooriad** täiendavad vahekaardid, mis kuvavad täiendava projektiga seotud teabe.</span><span class="sxs-lookup"><span data-stu-id="168df-113">When you use a cost category in projects, the **Cost categories** page has additional tabs that show additional project-related information.</span></span> <span data-ttu-id="168df-114">See teave hõlmab kategooriagruppi, rea atribuuti ja pearaamatukontosid, mis on määratud kulukategooriale.</span><span class="sxs-lookup"><span data-stu-id="168df-114">This information includes the category group, a line property, and ledger accounts that are assigned to the cost category.</span></span>
 
--   Kulukategooria peab olema määratud kategooriagrupile, mis toetab kandetüüpi **Tunnid**.
--   Rea atribuut näitab vaiketeavet selle kohta, kuidas teavitatud aeg on projektile arveldatav.
--   Tavaliselt määratletakse kulude ja müügiga seotud pearaamatukontod kulukategooriale määratud kategooriagrupi jaoks. Kuid konkreetsed kontod saab määratleda eraldi kulukategooria puhul.
+-   <span data-ttu-id="168df-115">Kulukategooria peab olema määratud kategooriagrupile, mis toetab kandetüüpi **Tunnid**.</span><span class="sxs-lookup"><span data-stu-id="168df-115">The cost category must be assigned to a category group that supports a transaction type of **Hours**.</span></span>
+-   <span data-ttu-id="168df-116">Rea atribuut näitab vaiketeavet selle kohta, kuidas teavitatud aeg on projektile arveldatav.</span><span class="sxs-lookup"><span data-stu-id="168df-116">The line property indicates default information about how reported time can be charged to a project.</span></span>
+-   <span data-ttu-id="168df-117">Tavaliselt määratletakse kulude ja müügiga seotud pearaamatukontod kulukategooriale määratud kategooriagrupi jaoks.</span><span class="sxs-lookup"><span data-stu-id="168df-117">Typically, the ledger accounts that are related to costs and sales are defined for the category group that is assigned to the cost category.</span></span> <span data-ttu-id="168df-118">Kuid konkreetsed kontod saab määratleda eraldi kulukategooria puhul.</span><span class="sxs-lookup"><span data-stu-id="168df-118">However, specific accounts can be defined for an individual cost category.</span></span>
 
-Täiendavad nupud lehel **Kulukategooriad** pakuvad juurdepääsu projektiga seotud teabele valitud kulukategooria kohta. Näiteks saate vaadata projektiga seotud kandeid, määrata töötajaid või projekte, määratleda tunnikulusid ja müügihindu ja vaadata aruandeid.
+<span data-ttu-id="168df-119">Täiendavad nupud lehel **Kulukategooriad** pakuvad juurdepääsu projektiga seotud teabele valitud kulukategooria kohta.</span><span class="sxs-lookup"><span data-stu-id="168df-119">Additional buttons on the **Cost categories** page let you access project-related information about a selected cost category.</span></span> <span data-ttu-id="168df-120">Näiteks saate vaadata projektiga seotud kandeid, määrata töötajaid või projekte, määratleda tunnikulusid ja müügihindu ja vaadata aruandeid.</span><span class="sxs-lookup"><span data-stu-id="168df-120">For example, you can view project-related transactions, define employees or projects, define hourly costs and sales prices, and view reports.</span></span>
 
 
 

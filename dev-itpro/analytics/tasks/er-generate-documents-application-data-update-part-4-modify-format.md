@@ -22,132 +22,132 @@ ms.contentlocale: et-ee
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) vormingu muutmine avalduse andmete uuendamisega dokumentide genereerimiseks
+# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="e85a5-103">Elektroonilise aruandluse (ER) vormingu muutmine avalduse andmete uuendamisega dokumentide genereerimiseks</span><span class="sxs-lookup"><span data-stu-id="e85a5-103">Modify format to generate documents with application data update for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (3. osa: mudeli ja vastendamise muutmine)“.
+<span data-ttu-id="e85a5-104">Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (3. osa: mudeli ja vastendamise muutmine)“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-104">To complete the steps in this procedure, you must first complete the procedure, "ER Generate documents with application data update (Part 3: Modify model and mapping)".</span></span>
 
-Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone elektroonilise dokumendi genereerimiseks ja avalduse andmete uuendamiseks. Käesolevas näites muudate ER konfiguratsioone, et hakata neid kasutama nii elektrooniliste dokumentide loomiseks kui ka avalduse andmete uuendamiseks. Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia DEMF-i andmekomplekti abil.
+<span data-ttu-id="e85a5-105">Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone elektroonilise dokumendi genereerimiseks ja avalduse andmete uuendamiseks.</span><span class="sxs-lookup"><span data-stu-id="e85a5-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="e85a5-106">Käesolevas näites muudate ER konfiguratsioone, et hakata neid kasutama nii elektrooniliste dokumentide loomiseks kui ka avalduse andmete uuendamiseks.</span><span class="sxs-lookup"><span data-stu-id="e85a5-106">In this procedure, you will modify the ER configurations to not just use them to generate electronic documents, but also to update application data.</span></span> <span data-ttu-id="e85a5-107">Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll.</span><span class="sxs-lookup"><span data-stu-id="e85a5-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="e85a5-108">Need toimingud saab lõpule viia DEMF-i andmekomplekti abil.</span><span class="sxs-lookup"><span data-stu-id="e85a5-108">These steps can be completed using the DEMF dataset.</span></span>
 
 
-## <a name="modify-format-to-collect-details-of-reporting"></a>Vormingu muutmine aruandluse üksikasjade kogumiseks
-1. Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.
-2. Laiendage puul valikut „Intrastat (model)".
-3. Tehke puul valik „Intrastat (model)\Intrastat (format)".
-4. Klõpsake valikut Kujundaja.
-5. Laiendage puul väärtust „File”.
-6. Laiendage puul valikut „File\Declaration”.
-7. Tehke puul valik „File\Declaration\Data”.
-8. Valige kordsuse väljal „One many”.
-    * Konfigureerige see vorminguelement Intrastat-aruandluse protsessi üksikasjade arhiivimiseks. Selle kaup esindab arhiivi päisekirjet.  
-9. Laiendage puul valikut „File\Declaration\Data”.
-10. Tehke puul valik "File\Declaration\Data\Item”.
-11. Valige kordsuse väljal „Zero many”.
-    * Konfigureerige see vorminguelement Intrastat-aruandluse protsessi üksikasjade arhiivimiseks. See kaup esindab arhiivitus ridade loendit.  
-12. Laiendage puul valikut „File\Declaration\Data\Item”.
-13. Tehke puul valik „File\Declaration\Data\Item\Dim1“.
-14. Valige Jah väljal Välistatud.
-    * Neid andmeid te ei arhiivi ja seega saate selle vorminguelemendi Intrastat-aruandluse andmete andmeallikas välistada.  
-15. Laiendage puul valikut „File\Declaration\Data\Item\Dim1”.
-16. Tehke puul valik „File\Declaration\Data\Item\Dim1\property“.
-17. Valige Jah väljal Välistatud.
-18. Tehke puul valik „File\Declaration\Data\Item\Dim1\date“.
-19. Valige Jah väljal Välistatud.
-20. Tehke puul valik „File\Declaration\Data\Item\Dim2“.
-21. Valige Jah väljal Välistatud.
-22. Laiendage puul valikut „File\Declaration\Data\Item\Dim2”.
-23. Tehke puul valik „File\Declaration\Data\Item\Dim2\property“.
-24. Valige Jah väljal Välistatud.
-25. Tehke puul valik „File\Declaration\Data\Item\Dim2\code“.
-26. Valige Jah väljal Välistatud.
-27. Tehke puul valik „File\Declaration\Data\Item\Dim3“.
-    * Mitmel vorminguelemendil võib olla sama nimi. Nt Dim. Kui te kasutate seda vormingut Intrastat-aruande üksikasjade arhiivimisel andmeallikana, ei tunne te neid kohe ära ja seega peate nendele vorminguelementidele alternatiivsed nimed määrama.   
-28. Sisestage väljale Nimi suvand Summa.
-    * Summa  
-29. Valige kordsuse väljal „Exactly one”.
-30. Tehke puul valik „File\Declaration\Data\Item\Dim4“.
-31. Sisestage väljale Nimi suvand Kaup.
-    * Kaup  
-32. Valige kordsuse väljal „Exactly one”.
-    * Lisaks kujunduse vormingu elementidele, tuleb arhiivida ka järgmised Intrastat-aruandluse üksikasjad: iga esitatud artiklikauba kirje kordumatu ID ja genereeritud faili nimi. Kuna neid andmeid ei asustata Intrastat-aruandes, peate nende üksikasjadega seotud vormingu lisama andmeallika kaupadena.  
-33. Tehke puul valik „File\Declaration\Data”.
-34. Klõpsake valikut Lisa rippdialoogi avamiseks.
-35. Tehke puul valik „Data source\Item”.
-36. Tippige Faili nimi väljale Nimi.
-    * Faili nimi  
-37. Valige väljalt Andmetüüp suvand String.
-38. Klõpsake nuppu OK.
-39. Tehke puul valik "File\Declaration\Data\Item”.
-40. Klõpsake käsku Lisa kaup.
-41. Sisestage nimeväljale valik „Commodity rec id”.
-    * Kaubakirje ID  
-42. Valige väljalt Andmetüüp suvand Int64.
-43. Klõpsake nuppu OK.
-44. Klõpsake vahekaarti Vastendus.
-45. Tehke puul valik "File\Declaration\Data\File name”.
-46. Klõpsake valikut Seo.
-47. Laiendage puus sõlme „model”.
-48. Laiendage puul valikut „model\Transactions“.
-49. Tehke puul valik „File\Declaration\Data\Item =  model.Transactions\Commodity rec id”.
-50. Tehke puul valik „model\Transactions\Commodity rec id”.
-51. Klõpsake valikut Seo.
-52. Klõpsake nuppu Salvesta.
+## <a name="modify-format-to-collect-details-of-reporting"></a><span data-ttu-id="e85a5-109">Vormingu muutmine aruandluse üksikasjade kogumiseks</span><span class="sxs-lookup"><span data-stu-id="e85a5-109">Modify format to collect details of reporting</span></span>
+1. <span data-ttu-id="e85a5-110">Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="e85a5-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="e85a5-111">Laiendage puul valikut „Intrastat (model)".</span><span class="sxs-lookup"><span data-stu-id="e85a5-111">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="e85a5-112">Tehke puul valik „Intrastat (model)\Intrastat (format)".</span><span class="sxs-lookup"><span data-stu-id="e85a5-112">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="e85a5-113">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="e85a5-113">Click Designer.</span></span>
+5. <span data-ttu-id="e85a5-114">Laiendage puul väärtust „File”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-114">In the tree, expand 'File'.</span></span>
+6. <span data-ttu-id="e85a5-115">Laiendage puul valikut „File\Declaration”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-115">In the tree, expand 'File\Declaration'.</span></span>
+7. <span data-ttu-id="e85a5-116">Tehke puul valik „File\Declaration\Data”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-116">In the tree, select 'File\Declaration\Data'.</span></span>
+8. <span data-ttu-id="e85a5-117">Valige kordsuse väljal „One many”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-117">In the Multiplicity field, select 'One many'.</span></span>
+    * <span data-ttu-id="e85a5-118">Konfigureerige see vorminguelement Intrastat-aruandluse protsessi üksikasjade arhiivimiseks.</span><span class="sxs-lookup"><span data-stu-id="e85a5-118">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="e85a5-119">Selle kaup esindab arhiivi päisekirjet.</span><span class="sxs-lookup"><span data-stu-id="e85a5-119">This item represents the archive’s header record.</span></span>  
+9. <span data-ttu-id="e85a5-120">Laiendage puul valikut „File\Declaration\Data”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-120">In the tree, expand 'File\Declaration\Data'.</span></span>
+10. <span data-ttu-id="e85a5-121">Tehke puul valik "File\Declaration\Data\Item”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-121">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+11. <span data-ttu-id="e85a5-122">Valige kordsuse väljal „Zero many”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-122">In the Multiplicity field, select 'Zero many'.</span></span>
+    * <span data-ttu-id="e85a5-123">Konfigureerige see vorminguelement Intrastat-aruandluse protsessi üksikasjade arhiivimiseks.</span><span class="sxs-lookup"><span data-stu-id="e85a5-123">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="e85a5-124">See kaup esindab arhiivitus ridade loendit.</span><span class="sxs-lookup"><span data-stu-id="e85a5-124">This item will represent the list of archived lines.</span></span>  
+12. <span data-ttu-id="e85a5-125">Laiendage puul valikut „File\Declaration\Data\Item”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-125">In the tree, expand 'File\Declaration\Data\Item'.</span></span>
+13. <span data-ttu-id="e85a5-126">Tehke puul valik „File\Declaration\Data\Item\Dim1“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-126">In the tree, select 'File\Declaration\Data\Item\Dim1'.</span></span>
+14. <span data-ttu-id="e85a5-127">Valige Jah väljal Välistatud.</span><span class="sxs-lookup"><span data-stu-id="e85a5-127">Select Yes in the Excluded field.</span></span>
+    * <span data-ttu-id="e85a5-128">Neid andmeid te ei arhiivi ja seega saate selle vorminguelemendi Intrastat-aruandluse andmete andmeallikas välistada.</span><span class="sxs-lookup"><span data-stu-id="e85a5-128">You will not archive this data, so you can exclude this format element from the data source of Intrastat reporting details.</span></span>  
+15. <span data-ttu-id="e85a5-129">Laiendage puul valikut „File\Declaration\Data\Item\Dim1”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-129">In the tree, expand 'File\Declaration\Data\Item\Dim1'.</span></span>
+16. <span data-ttu-id="e85a5-130">Tehke puul valik „File\Declaration\Data\Item\Dim1\property“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-130">In the tree, select 'File\Declaration\Data\Item\Dim1\property'.</span></span>
+17. <span data-ttu-id="e85a5-131">Valige Jah väljal Välistatud.</span><span class="sxs-lookup"><span data-stu-id="e85a5-131">Select Yes in the Excluded field.</span></span>
+18. <span data-ttu-id="e85a5-132">Tehke puul valik „File\Declaration\Data\Item\Dim1\date“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-132">In the tree, select 'File\Declaration\Data\Item\Dim1\date'.</span></span>
+19. <span data-ttu-id="e85a5-133">Valige Jah väljal Välistatud.</span><span class="sxs-lookup"><span data-stu-id="e85a5-133">Select Yes in the Excluded field.</span></span>
+20. <span data-ttu-id="e85a5-134">Tehke puul valik „File\Declaration\Data\Item\Dim2“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-134">In the tree, select 'File\Declaration\Data\Item\Dim2'.</span></span>
+21. <span data-ttu-id="e85a5-135">Valige Jah väljal Välistatud.</span><span class="sxs-lookup"><span data-stu-id="e85a5-135">Select Yes in the Excluded field.</span></span>
+22. <span data-ttu-id="e85a5-136">Laiendage puul valikut „File\Declaration\Data\Item\Dim2”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-136">In the tree, expand 'File\Declaration\Data\Item\Dim2'.</span></span>
+23. <span data-ttu-id="e85a5-137">Tehke puul valik „File\Declaration\Data\Item\Dim2\property“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-137">In the tree, select 'File\Declaration\Data\Item\Dim2\property'.</span></span>
+24. <span data-ttu-id="e85a5-138">Valige Jah väljal Välistatud.</span><span class="sxs-lookup"><span data-stu-id="e85a5-138">Select Yes in the Excluded field.</span></span>
+25. <span data-ttu-id="e85a5-139">Tehke puul valik „File\Declaration\Data\Item\Dim2\code“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-139">In the tree, select 'File\Declaration\Data\Item\Dim2\code'.</span></span>
+26. <span data-ttu-id="e85a5-140">Valige Jah väljal Välistatud.</span><span class="sxs-lookup"><span data-stu-id="e85a5-140">Select Yes in the Excluded field.</span></span>
+27. <span data-ttu-id="e85a5-141">Tehke puul valik „File\Declaration\Data\Item\Dim3“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-141">In the tree, select 'File\Declaration\Data\Item\Dim3'.</span></span>
+    * <span data-ttu-id="e85a5-142">Mitmel vorminguelemendil võib olla sama nimi.</span><span class="sxs-lookup"><span data-stu-id="e85a5-142">Several format elements can have the same name.</span></span> <span data-ttu-id="e85a5-143">Nt Dim.</span><span class="sxs-lookup"><span data-stu-id="e85a5-143">For example, Dim.</span></span> <span data-ttu-id="e85a5-144">Kui te kasutate seda vormingut Intrastat-aruande üksikasjade arhiivimisel andmeallikana, ei tunne te neid kohe ära ja seega peate nendele vorminguelementidele alternatiivsed nimed määrama.</span><span class="sxs-lookup"><span data-stu-id="e85a5-144">You cannot explicitly recognize them when you use this format as a data source for archiving Intrastat reporting details, so you need to define the alternative names for these format elements.</span></span>   
+28. <span data-ttu-id="e85a5-145">Sisestage väljale Nimi suvand Summa.</span><span class="sxs-lookup"><span data-stu-id="e85a5-145">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="e85a5-146">Summa</span><span class="sxs-lookup"><span data-stu-id="e85a5-146">Amount</span></span>  
+29. <span data-ttu-id="e85a5-147">Valige kordsuse väljal „Exactly one”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-147">In the Multiplicity field, select 'Exactly one'.</span></span>
+30. <span data-ttu-id="e85a5-148">Tehke puul valik „File\Declaration\Data\Item\Dim4“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-148">In the tree, select 'File\Declaration\Data\Item\Dim4'.</span></span>
+31. <span data-ttu-id="e85a5-149">Sisestage väljale Nimi suvand Kaup.</span><span class="sxs-lookup"><span data-stu-id="e85a5-149">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="e85a5-150">Kaup</span><span class="sxs-lookup"><span data-stu-id="e85a5-150">Item</span></span>  
+32. <span data-ttu-id="e85a5-151">Valige kordsuse väljal „Exactly one”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-151">In the Multiplicity field, select 'Exactly one'.</span></span>
+    * <span data-ttu-id="e85a5-152">Lisaks kujunduse vormingu elementidele, tuleb arhiivida ka järgmised Intrastat-aruandluse üksikasjad: iga esitatud artiklikauba kirje kordumatu ID ja genereeritud faili nimi.</span><span class="sxs-lookup"><span data-stu-id="e85a5-152">In addition to the design format elements, the following Intrastat reporting details must be archived: unique record identification of each reported commodity item and name of the generated file.</span></span> <span data-ttu-id="e85a5-153">Kuna neid andmeid ei asustata Intrastat-aruandes, peate nende üksikasjadega seotud vormingu lisama andmeallika kaupadena.</span><span class="sxs-lookup"><span data-stu-id="e85a5-153">Because this data will not be populated in the Intrastat report, you need to add the format that is related to these detail elements as data source items.</span></span>  
+33. <span data-ttu-id="e85a5-154">Tehke puul valik „File\Declaration\Data”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-154">In the tree, select 'File\Declaration\Data'.</span></span>
+34. <span data-ttu-id="e85a5-155">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="e85a5-155">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="e85a5-156">Tehke puul valik „Data source\Item”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-156">In the tree, select 'Data source\Item'.</span></span>
+36. <span data-ttu-id="e85a5-157">Tippige Faili nimi väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="e85a5-157">In the Name field, type 'File name'.</span></span>
+    * <span data-ttu-id="e85a5-158">Faili nimi</span><span class="sxs-lookup"><span data-stu-id="e85a5-158">File name</span></span>  
+37. <span data-ttu-id="e85a5-159">Valige väljalt Andmetüüp suvand String.</span><span class="sxs-lookup"><span data-stu-id="e85a5-159">In the Data type field, select 'String'.</span></span>
+38. <span data-ttu-id="e85a5-160">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e85a5-160">Click OK.</span></span>
+39. <span data-ttu-id="e85a5-161">Tehke puul valik "File\Declaration\Data\Item”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-161">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+40. <span data-ttu-id="e85a5-162">Klõpsake käsku Lisa kaup.</span><span class="sxs-lookup"><span data-stu-id="e85a5-162">Click Add Item.</span></span>
+41. <span data-ttu-id="e85a5-163">Sisestage nimeväljale valik „Commodity rec id”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-163">In the Name field, type 'Commodity rec id'.</span></span>
+    * <span data-ttu-id="e85a5-164">Kaubakirje ID</span><span class="sxs-lookup"><span data-stu-id="e85a5-164">Commodity rec id</span></span>  
+42. <span data-ttu-id="e85a5-165">Valige väljalt Andmetüüp suvand Int64.</span><span class="sxs-lookup"><span data-stu-id="e85a5-165">In the Data type field, select 'Int64'.</span></span>
+43. <span data-ttu-id="e85a5-166">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e85a5-166">Click OK.</span></span>
+44. <span data-ttu-id="e85a5-167">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="e85a5-167">Click the Mapping tab.</span></span>
+45. <span data-ttu-id="e85a5-168">Tehke puul valik "File\Declaration\Data\File name”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-168">In the tree, select 'File\Declaration\Data\File name'.</span></span>
+46. <span data-ttu-id="e85a5-169">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="e85a5-169">Click Bind.</span></span>
+47. <span data-ttu-id="e85a5-170">Laiendage puus sõlme „model”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-170">In the tree, expand 'model'.</span></span>
+48. <span data-ttu-id="e85a5-171">Laiendage puul valikut „model\Transactions“.</span><span class="sxs-lookup"><span data-stu-id="e85a5-171">In the tree, expand 'model\Transactions'.</span></span>
+49. <span data-ttu-id="e85a5-172">Tehke puul valik „File\Declaration\Data\Item =  model.Transactions\Commodity rec id”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-172">In the tree, select 'File\Declaration\Data\Item =  model.Transactions\Commodity rec id'.</span></span>
+50. <span data-ttu-id="e85a5-173">Tehke puul valik „model\Transactions\Commodity rec id”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-173">In the tree, select 'model\Transactions\Commodity rec id'.</span></span>
+51. <span data-ttu-id="e85a5-174">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="e85a5-174">Click Bind.</span></span>
+52. <span data-ttu-id="e85a5-175">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e85a5-175">Click Save.</span></span>
 
-## <a name="modify-format-to-memorize-details-of-reporting"></a>Vormingu muutmine aruandluse üksikasjade meeldejätmiseks
-1. Klõpsake nuppu Vormingu vastendamine mudeliga.
-2. Klõpsake valikut Uus.
-3. Sisestage või valige definitsiooni väljal juurkaup „For application data update”.
-    * Avalduse andmete uuendamiseks  
-4. Sisestage nimeväljale valik „Vastendamine andmete uuendamiseks”.
-    * Vastendamise andmete uuendamiseks  
-5. Klõpsake nuppu Salvesta.
-    * Vastendus määratleb, kuidas Intrastat-aruande üksikasju kogutakse andmemudelis, mille struktuur on määratud valitud juurkauba poolt „For application data update”. Neid üksikasju, sama juurkaubaga "For application data update" vastendamist ja suunda „To destination" kasutatakse avalduse andmete uuendamiseks. Avalduse andmete uuendamine käivitatakse kohe pärast väljamineva Intrastat-aruande genereerimist. Pange tähele, et avalduse andmete uuendamise võib käitusajal vahele jätta, aga andmemudel peab olema tühi (sisaldab tühja kirjeloendit).   
-6. Klõpsake valikut Kujundaja.
-    * Pange tähele, et väljamineva Intrastat-aruande vorming lisatakse vaikimisi selle mudelivastenduse andmeallikana.  
-    * Siduge loodud aruande elemendid (esitatud andmeallikana) andmemudeli elementidega, mis on filtreeritud valitud mudeli juurkauba alusel.  
-7. Laiendage puul väärtust „Archive header”.
-8. Laiendage puul valikut „Archive header\Archive lines”.
-9. Laiendage puul valikut „format”.
-10. Laiendage puul valikut „format\Declaration: XML Element(Declaration)”.
-11. Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)”.
-12. Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)”.
-13. Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)”.
-14. Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)”.
-15. Tehke puul valik „Archive header\Number of lines”.
-16. Klõpsake nuppu Redigeeri.
-17. Tehke puul valik „List\COUNT”.
-18. Klõpsake suvandit Funktsiooni lisamine.
-19. Laiendage puul valikut „format”.
-20. Laiendage puul valikut „format\Declaration: XML Element(Declaration)”.
-21. Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)”.
-22. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)”.
-23. Klõpsake suvandit Andmeallika lisamine.
-24. Sisestage valemi väljale väärtus „COUNT(format.Declaration.Data.Item)”.
-    * COUNT(format.Declaration.Data.Item)  
-25. Klõpsake nuppu Salvesta.
-26. Sulgege leht.
-27. Tehke puul valik „Archive header\File name”.
-28. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)”.
-29. Klõpsake valikut Seo.
-30. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)”.
-31. Tehke puul valik „Archive header\Archive lines\Item number”.
-32. Klõpsake valikut Seo.
-33. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)”.
-34. Tehke puul valik „Archive header\Archive lines\Amount”.
-35. Klõpsake valikut Seo.
-36. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)”.
-37. Tehke puul valik „Archive header\Archive lines\Commodity rec id”.
-38. Klõpsake valikut Seo.
-39. Tehke puul valik „Archive header\Archive lines”.
-40. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)”.
-41. Klõpsake valikut Seo.
-42. Tehke puul valik „Archive header”.
-43. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)”.
-44. Klõpsake valikut Seo.
-45. Klõpsake nuppu Salvesta.
-46. Sulgege leht.
-47. Sulgege leht.
-48. Sulgege leht.
+## <a name="modify-format-to-memorize-details-of-reporting"></a><span data-ttu-id="e85a5-176">Vormingu muutmine aruandluse üksikasjade meeldejätmiseks</span><span class="sxs-lookup"><span data-stu-id="e85a5-176">Modify format to memorize details of reporting</span></span>
+1. <span data-ttu-id="e85a5-177">Klõpsake nuppu Vormingu vastendamine mudeliga.</span><span class="sxs-lookup"><span data-stu-id="e85a5-177">Click Map format to model.</span></span>
+2. <span data-ttu-id="e85a5-178">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e85a5-178">Click New.</span></span>
+3. <span data-ttu-id="e85a5-179">Sisestage või valige definitsiooni väljal juurkaup „For application data update”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-179">In the Definition field, enter or select the ‘For application data update’ root item.</span></span>
+    * <span data-ttu-id="e85a5-180">Avalduse andmete uuendamiseks</span><span class="sxs-lookup"><span data-stu-id="e85a5-180">For application data update</span></span>  
+4. <span data-ttu-id="e85a5-181">Sisestage nimeväljale valik „Vastendamine andmete uuendamiseks”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-181">In the Name field, type 'Mapping to update data'.</span></span>
+    * <span data-ttu-id="e85a5-182">Vastendamise andmete uuendamiseks</span><span class="sxs-lookup"><span data-stu-id="e85a5-182">Mapping to update data</span></span>  
+5. <span data-ttu-id="e85a5-183">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e85a5-183">Click Save.</span></span>
+    * <span data-ttu-id="e85a5-184">Vastendus määratleb, kuidas Intrastat-aruande üksikasju kogutakse andmemudelis, mille struktuur on määratud valitud juurkauba poolt „For application data update”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-184">This mapping defines how the details of the Intrastat report are collected in the data model, the structure of which is specified by the selected root item ‘For application data update’.</span></span> <span data-ttu-id="e85a5-185">Neid üksikasju, sama juurkaubaga "For application data update" vastendamist ja suunda „To destination" kasutatakse avalduse andmete uuendamiseks.</span><span class="sxs-lookup"><span data-stu-id="e85a5-185">These details, the model mapping with same root item ‘For application data update’, and the direction ‘To destination’ will be used for the application data update.</span></span> <span data-ttu-id="e85a5-186">Avalduse andmete uuendamine käivitatakse kohe pärast väljamineva Intrastat-aruande genereerimist.</span><span class="sxs-lookup"><span data-stu-id="e85a5-186">The application data update starts immediately after the outgoing Intrastat report is generated.</span></span> <span data-ttu-id="e85a5-187">Pange tähele, et avalduse andmete uuendamise võib käitusajal vahele jätta, aga andmemudel peab olema tühi (sisaldab tühja kirjeloendit).</span><span class="sxs-lookup"><span data-stu-id="e85a5-187">Note that the application data update can be skipped at run-time, but the data model must be empty (containing empty record list).</span></span>   
+6. <span data-ttu-id="e85a5-188">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="e85a5-188">Click Designer.</span></span>
+    * <span data-ttu-id="e85a5-189">Pange tähele, et väljamineva Intrastat-aruande vorming lisatakse vaikimisi selle mudelivastenduse andmeallikana.</span><span class="sxs-lookup"><span data-stu-id="e85a5-189">Note that the outgoing Intrastat report format is added by default as a data source for this model mapping.</span></span>  
+    * <span data-ttu-id="e85a5-190">Siduge loodud aruande elemendid (esitatud andmeallikana) andmemudeli elementidega, mis on filtreeritud valitud mudeli juurkauba alusel.</span><span class="sxs-lookup"><span data-stu-id="e85a5-190">Bind elements of the designed report (presented as data source) to elements of the data model, which is filtered based on the selected model’s root item.</span></span>  
+7. <span data-ttu-id="e85a5-191">Laiendage puul väärtust „Archive header”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-191">In the tree, expand 'Archive header'.</span></span>
+8. <span data-ttu-id="e85a5-192">Laiendage puul valikut „Archive header\Archive lines”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-192">In the tree, expand 'Archive header\Archive lines'.</span></span>
+9. <span data-ttu-id="e85a5-193">Laiendage puul valikut „format”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-193">In the tree, expand 'format'.</span></span>
+10. <span data-ttu-id="e85a5-194">Laiendage puul valikut „format\Declaration: XML Element(Declaration)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-194">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+11. <span data-ttu-id="e85a5-195">Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-195">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+12. <span data-ttu-id="e85a5-196">Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-196">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+13. <span data-ttu-id="e85a5-197">Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-197">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)'.</span></span>
+14. <span data-ttu-id="e85a5-198">Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-198">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)'.</span></span>
+15. <span data-ttu-id="e85a5-199">Tehke puul valik „Archive header\Number of lines”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-199">In the tree, select 'Archive header\Number of lines'.</span></span>
+16. <span data-ttu-id="e85a5-200">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="e85a5-200">Click Edit.</span></span>
+17. <span data-ttu-id="e85a5-201">Tehke puul valik „List\COUNT”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-201">In the tree, select 'List\COUNT'.</span></span>
+18. <span data-ttu-id="e85a5-202">Klõpsake suvandit Funktsiooni lisamine.</span><span class="sxs-lookup"><span data-stu-id="e85a5-202">Click Add function.</span></span>
+19. <span data-ttu-id="e85a5-203">Laiendage puul valikut „format”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-203">In the tree, expand 'format'.</span></span>
+20. <span data-ttu-id="e85a5-204">Laiendage puul valikut „format\Declaration: XML Element(Declaration)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-204">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+21. <span data-ttu-id="e85a5-205">Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-205">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+22. <span data-ttu-id="e85a5-206">Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-206">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+23. <span data-ttu-id="e85a5-207">Klõpsake suvandit Andmeallika lisamine.</span><span class="sxs-lookup"><span data-stu-id="e85a5-207">Click Add data source.</span></span>
+24. <span data-ttu-id="e85a5-208">Sisestage valemi väljale väärtus „COUNT(format.Declaration.Data.Item)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-208">In the Formula field, enter 'COUNT(format.Declaration.Data.Item)'.</span></span>
+    * <span data-ttu-id="e85a5-209">COUNT(format.Declaration.Data.Item)</span><span class="sxs-lookup"><span data-stu-id="e85a5-209">COUNT(format.Declaration.Data.Item)</span></span>  
+25. <span data-ttu-id="e85a5-210">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e85a5-210">Click Save.</span></span>
+26. <span data-ttu-id="e85a5-211">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="e85a5-211">Close the page.</span></span>
+27. <span data-ttu-id="e85a5-212">Tehke puul valik „Archive header\File name”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-212">In the tree, select 'Archive header\File name'.</span></span>
+28. <span data-ttu-id="e85a5-213">Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-213">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)'.</span></span>
+29. <span data-ttu-id="e85a5-214">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="e85a5-214">Click Bind.</span></span>
+30. <span data-ttu-id="e85a5-215">Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-215">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)'.</span></span>
+31. <span data-ttu-id="e85a5-216">Tehke puul valik „Archive header\Archive lines\Item number”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-216">In the tree, select 'Archive header\Archive lines\Item number'.</span></span>
+32. <span data-ttu-id="e85a5-217">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="e85a5-217">Click Bind.</span></span>
+33. <span data-ttu-id="e85a5-218">Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-218">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)'.</span></span>
+34. <span data-ttu-id="e85a5-219">Tehke puul valik „Archive header\Archive lines\Amount”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-219">In the tree, select 'Archive header\Archive lines\Amount'.</span></span>
+35. <span data-ttu-id="e85a5-220">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="e85a5-220">Click Bind.</span></span>
+36. <span data-ttu-id="e85a5-221">Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-221">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)'.</span></span>
+37. <span data-ttu-id="e85a5-222">Tehke puul valik „Archive header\Archive lines\Commodity rec id”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-222">In the tree, select 'Archive header\Archive lines\Commodity rec id'.</span></span>
+38. <span data-ttu-id="e85a5-223">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="e85a5-223">Click Bind.</span></span>
+39. <span data-ttu-id="e85a5-224">Tehke puul valik „Archive header\Archive lines”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-224">In the tree, select 'Archive header\Archive lines'.</span></span>
+40. <span data-ttu-id="e85a5-225">Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-225">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+41. <span data-ttu-id="e85a5-226">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="e85a5-226">Click Bind.</span></span>
+42. <span data-ttu-id="e85a5-227">Tehke puul valik „Archive header”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-227">In the tree, select 'Archive header'.</span></span>
+43. <span data-ttu-id="e85a5-228">Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)”.</span><span class="sxs-lookup"><span data-stu-id="e85a5-228">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+44. <span data-ttu-id="e85a5-229">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="e85a5-229">Click Bind.</span></span>
+45. <span data-ttu-id="e85a5-230">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e85a5-230">Click Save.</span></span>
+46. <span data-ttu-id="e85a5-231">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="e85a5-231">Close the page.</span></span>
+47. <span data-ttu-id="e85a5-232">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="e85a5-232">Close the page.</span></span>
+48. <span data-ttu-id="e85a5-233">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="e85a5-233">Close the page.</span></span>
 
 

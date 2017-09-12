@@ -18,53 +18,53 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7acabdec9133b4b4cc8fc8861ee097aa2a00e191
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 3ed41a57e40e8d90ebfd996f855a8dc8dc16de13
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="petty-cash-for-eastern-europe"></a>Väikesed summad Ida-Euroopa puhul
+# <a name="petty-cash-for-eastern-europe"></a><span data-ttu-id="5f46c-103">Väikesed summad Ida-Euroopa puhul</span><span class="sxs-lookup"><span data-stu-id="5f46c-103">Petty cash for Eastern Europe</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid.
+<span data-ttu-id="5f46c-104">Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-104">This topic provides information about the petty cash functionality that lets users in Estonia, Lithuania, Czech Republic, Hungary, Latvia, Poland, and Russia reflect cash operations in the system.</span></span>
 
-Väikeset summade funktsioon võimaldab automatiseerida sularahasissetulekute ja -kulude toiminguid, põhidokumentide loomist ja seotud aruannete printimist. Väikeste summade funktsioon võimaldab teha järgmist.
+<span data-ttu-id="5f46c-105">Väikeset summade funktsioon võimaldab automatiseerida sularahasissetulekute ja -kulude toiminguid, põhidokumentide loomist ja seotud aruannete printimist.</span><span class="sxs-lookup"><span data-stu-id="5f46c-105">You can use the petty cash functionality to automate operations for receipts and expenditures of cash, the creation of primary documents, and the printing of related reports.</span></span> <span data-ttu-id="5f46c-106">Väikeste summade funktsioon võimaldab teha järgmist.</span><span class="sxs-lookup"><span data-stu-id="5f46c-106">The petty cash functionality lets you perform the following operations:</span></span>
 
--   Arvestada saadaoleva sularaha sissetulekuid ja kulusid.
--   Luua tüüpilisi sularahavorme: sularaha korvamisorderid, sularaha väljaminekuorderid ja sularahaorderite registreerimiste tööleht.
--   Juhtida maksimaalset sularahasummat, mis on klientide, hankijatega jne tehtavate toimingute puhul lubatud.
--   Kajastada süsteemis sularahatoiminguid erinevates valuutades.
--   Teisendada sularahatoimingute välisvaluutas summasid vaikevaluutasse ja esitada raamatupidamise aruandeid.
--   Luua **kassaraamatu** ja kassapidaja aruandeid.
+-   <span data-ttu-id="5f46c-107">Arvestada saadaoleva sularaha sissetulekuid ja kulusid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-107">Account the receipt and expenditure of available cash assets.</span></span>
+-   <span data-ttu-id="5f46c-108">Luua tüüpilisi sularahavorme: sularaha korvamisorderid, sularaha väljaminekuorderid ja sularahaorderite registreerimiste tööleht.</span><span class="sxs-lookup"><span data-stu-id="5f46c-108">Generate typical cash forms: Cash reimbursement slips, Cash disbursement slips, and a Journal of registration for cash slips.</span></span>
+-   <span data-ttu-id="5f46c-109">Juhtida maksimaalset sularahasummat, mis on klientide, hankijatega jne tehtavate toimingute puhul lubatud.</span><span class="sxs-lookup"><span data-stu-id="5f46c-109">Control the maximum cash amount that is allowed for operations with customers, vendors, and so on.</span></span>
+-   <span data-ttu-id="5f46c-110">Kajastada süsteemis sularahatoiminguid erinevates valuutades.</span><span class="sxs-lookup"><span data-stu-id="5f46c-110">Reflect cash operations in various currencies in the system.</span></span>
+-   <span data-ttu-id="5f46c-111">Teisendada sularahatoimingute välisvaluutas summasid vaikevaluutasse ja esitada raamatupidamise aruandeid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-111">Convert the amounts of cash operations in foreign currency to the default currency to provide accounting reporting.</span></span>
+-   <span data-ttu-id="5f46c-112">Luua **kassaraamatu** ja kassapidaja aruandeid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-112">Generate a **Cash book** report and a cashier’s report.</span></span>
 
-## <a name="prerequisites"></a>Eeltingimused
-Väikeste summade funktsiooni kasutamiseks peate täitma järgmised eeltingimused.
+## <a name="prerequisites"></a><span data-ttu-id="5f46c-113">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="5f46c-113">Prerequisites</span></span>
+<span data-ttu-id="5f46c-114">Väikeste summade funktsiooni kasutamiseks peate täitma järgmised eeltingimused.</span><span class="sxs-lookup"><span data-stu-id="5f46c-114">Before you can use the petty cash functionality, you must complete the following prerequisites:</span></span>
 
--   Seadistama sularahakontod.
--   Seadistama sularahakonto sisestusreeglid.
--   Seadistama kassadokumentide numbriseeriad.
--   Seadistama sularaha- ja pangahalduse parameetrite vaikeväärtused.
--   Seadistama pearaamatus sularahatöölehtede nimed.
+-   <span data-ttu-id="5f46c-115">Seadistama sularahakontod.</span><span class="sxs-lookup"><span data-stu-id="5f46c-115">Set up cash accounts.</span></span>
+-   <span data-ttu-id="5f46c-116">Seadistama sularahakonto sisestusreeglid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-116">Set up cash posting profiles.</span></span>
+-   <span data-ttu-id="5f46c-117">Seadistama kassadokumentide numbriseeriad.</span><span class="sxs-lookup"><span data-stu-id="5f46c-117">Set up number sequences for cash document numbering.</span></span>
+-   <span data-ttu-id="5f46c-118">Seadistama sularaha- ja pangahalduse parameetrite vaikeväärtused.</span><span class="sxs-lookup"><span data-stu-id="5f46c-118">Set up default values for Cash and bank management parameters.</span></span>
+-   <span data-ttu-id="5f46c-119">Seadistama pearaamatus sularahatöölehtede nimed.</span><span class="sxs-lookup"><span data-stu-id="5f46c-119">Set up cash journal names in General ledger.</span></span>
 
-### <a name="set-up-cash-accounts"></a>Sularahakontode seadistamine
+### <a name="set-up-cash-accounts"></a><span data-ttu-id="5f46c-120">Sularahakontode seadistamine</span><span class="sxs-lookup"><span data-stu-id="5f46c-120">Set up cash accounts</span></span>
 
-Sularahakonto seadistamiseks avage **Sularaha- ja pangahaldus** &gt; **Pangakontod** &gt; **Sularahakontod** ja sisestage järgmine teave.
+<span data-ttu-id="5f46c-121">Sularahakonto seadistamiseks avage **Sularaha- ja pangahaldus** &gt; **Pangakontod** &gt; **Sularahakontod** ja sisestage järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="5f46c-121">To set up a Cash, open **Cash and bank management** &gt; **Bank accounts** &gt; **Cash accounts**, and enter the following information.</span></span>
 
-| Väli                 | Kirjeldus                                                                                                          |
+| <span data-ttu-id="5f46c-122">Väli</span><span class="sxs-lookup"><span data-stu-id="5f46c-122">Field</span></span>                 | <span data-ttu-id="5f46c-123">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-123">Description</span></span>                                                                                                          |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| Sularaha                  | Sisestage kood sularahakonto (kassa) tuvastamiseks.                                                                    |
-| Nimi                  | Sisesta sularahakonto kirjeldus                                                                             |
-| Valuuta              | Valige sularahatehingute vaikevaluutakood.                                                              |
-| Numbriseeria grupp | Kui kassadokumentide numeratsioon peab erinema parameetrites määratud numeratsioonist, sisestage kood. |
-| Veel valuutasid       | Märkige see ruut, et võimaldada arvestusvaluutast erinevate valuutade sisestamist.                     |
-| Negatiivne kassa         | Märkige see ruut, et võimaldada mis tahes valuutas negatiivseid sularahasaldosid.                                               |
+| <span data-ttu-id="5f46c-124">Sularaha</span><span class="sxs-lookup"><span data-stu-id="5f46c-124">Cash</span></span>                  | <span data-ttu-id="5f46c-125">Sisestage kood sularahakonto (kassa) tuvastamiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-125">Enter a code to identify the cash account (cash).</span></span>                                                                    |
+| <span data-ttu-id="5f46c-126">Nimi</span><span class="sxs-lookup"><span data-stu-id="5f46c-126">Name</span></span>                  | <span data-ttu-id="5f46c-127">Sisesta sularahakonto kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-127">Enter a description of the cash account.</span></span>                                                                             |
+| <span data-ttu-id="5f46c-128">Valuuta</span><span class="sxs-lookup"><span data-stu-id="5f46c-128">Currency</span></span>              | <span data-ttu-id="5f46c-129">Valige sularahatehingute vaikevaluutakood.</span><span class="sxs-lookup"><span data-stu-id="5f46c-129">Select the default currency code for cash transactions.</span></span>                                                              |
+| <span data-ttu-id="5f46c-130">Numbriseeria grupp</span><span class="sxs-lookup"><span data-stu-id="5f46c-130">Number sequence group</span></span> | <span data-ttu-id="5f46c-131">Kui kassadokumentide numeratsioon peab erinema parameetrites määratud numeratsioonist, sisestage kood.</span><span class="sxs-lookup"><span data-stu-id="5f46c-131">If the numbering of cash documents must differ from the numbering that is specified in the parameters, enter a code.</span></span> |
+| <span data-ttu-id="5f46c-132">Veel valuutasid</span><span class="sxs-lookup"><span data-stu-id="5f46c-132">More currencies</span></span>       | <span data-ttu-id="5f46c-133">Märkige see ruut, et võimaldada arvestusvaluutast erinevate valuutade sisestamist.</span><span class="sxs-lookup"><span data-stu-id="5f46c-133">Select this check box to allow currencies that differ from the accounting currency to be posted.</span></span>                     |
+| <span data-ttu-id="5f46c-134">Negatiivne kassa</span><span class="sxs-lookup"><span data-stu-id="5f46c-134">Negative cash</span></span>         | <span data-ttu-id="5f46c-135">Märkige see ruut, et võimaldada mis tahes valuutas negatiivseid sularahasaldosid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-135">Select this check box to allow negative cash balances in any currency.</span></span>                                               |
 
-Sularahakonto puhul sularahasaldo juhtimise reeglite seadistamiseks valige sularahasaldo ja seejärel klõpsake toimingupaanil vahekaardi **Sularahakonto** rühmas **Saldolimiit** valikut **Saldolimiit**. Sisestage järgmine teave.
+<span data-ttu-id="5f46c-136">Sularahakonto puhul sularahasaldo juhtimise reeglite seadistamiseks valige sularahasaldo ja seejärel klõpsake toimingupaanil vahekaardi **Sularahakonto** rühmas **Saldolimiit** valikut **Saldolimiit**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-136">To set up cash balance control rules for a cash account, select the cash account, and then, on the Action Pane, on the **Cash account** tab, in the **Balance limit** group, click **Balance limit**.</span></span> <span data-ttu-id="5f46c-137">Sisestage järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="5f46c-137">Enter the following information.</span></span>
 
 <table>
 <colgroup>
@@ -73,51 +73,51 @@ Sularahakonto puhul sularahasaldo juhtimise reeglite seadistamiseks valige sular
 </colgroup>
 <thead>
 <tr class="header">
-<th>Väli</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="5f46c-138">Väli</span><span class="sxs-lookup"><span data-stu-id="5f46c-138">Field</span></span></th>
+<th><span data-ttu-id="5f46c-139">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-139">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Valuuta tüüp</td>
-<td>Valige valuuta tüüp.
+<td><span data-ttu-id="5f46c-140">Valuuta tüüp</span><span class="sxs-lookup"><span data-stu-id="5f46c-140">Currency type</span></span></td>
+<td><span data-ttu-id="5f46c-141">Valige valuuta tüüp.</span><span class="sxs-lookup"><span data-stu-id="5f46c-141">Select the type of currency:</span></span>
 <ul>
-<li><strong>Arvestusvaluuta</strong> – saate kasutada ettevõtte põhivaluutakoodi.</li>
-<li><strong>Näidatud valuuta</strong> – saate kasutada ettevõtte põhivaluutakoodist erinevat valuutakoodi.</li>
+<li><span data-ttu-id="5f46c-142"><strong>Arvestusvaluuta</strong> – saate kasutada ettevõtte põhivaluutakoodi.</span><span class="sxs-lookup"><span data-stu-id="5f46c-142"><strong>Accounting currency</strong> – Use the basic company currency code.</span></span></li>
+<li><span data-ttu-id="5f46c-143"><strong>Näidatud valuuta</strong> – saate kasutada ettevõtte põhivaluutakoodist erinevat valuutakoodi.</span><span class="sxs-lookup"><span data-stu-id="5f46c-143"><strong>Indicated currency</strong> – Use a currency code that differs from the basic company currency code.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Valuuta</td>
-<td>Kui tegite väljal <strong>Valuuta tüüp</strong> valiku <strong>Näidatud valuuta</strong>, valige valuutakood. See väli pole saadaval, kui tegite väljal <strong>Valuuta tüüp</strong> valiku <strong>Arvestusvaluuta</strong>.</td>
+<td><span data-ttu-id="5f46c-144">Valuuta</span><span class="sxs-lookup"><span data-stu-id="5f46c-144">Currency</span></span></td>
+<td><span data-ttu-id="5f46c-145">Kui tegite väljal <strong>Valuuta tüüp</strong> valiku <strong>Näidatud valuuta</strong>, valige valuutakood.</span><span class="sxs-lookup"><span data-stu-id="5f46c-145">If you selected <strong>Indicated currency</strong> in the <strong>Currency type</strong> field, select a currency code.</span></span> <span data-ttu-id="5f46c-146">See väli pole saadaval, kui tegite väljal <strong>Valuuta tüüp</strong> valiku <strong>Arvestusvaluuta</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-146">This field is unavailable if you selected <strong>Accounting currency</strong> in the <strong>Currency type</strong> field.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Saldolimiidi tüüp</td>
-<td>Valige üks saadaolevatest väärtustest.
+<td><span data-ttu-id="5f46c-147">Saldolimiidi tüüp</span><span class="sxs-lookup"><span data-stu-id="5f46c-147">Balance limit type</span></span></td>
+<td><span data-ttu-id="5f46c-148">Valige üks saadaolevatest väärtustest.</span><span class="sxs-lookup"><span data-stu-id="5f46c-148">Select one of the available values:</span></span>
 <ul>
-<li><strong>Maksimaalne</strong> – sularahasaldo ei tohi ületada sularahakonto summat <strong>Saldolimiit</strong> (ülapiir).</li>
-<li><strong>Minimaalne</strong> – sularahasaldo ei tohi langeda alla sularahakonto summat <strong>Saldolimiit</strong> (alapiir).</li>
+<li><span data-ttu-id="5f46c-149"><strong>Maksimaalne</strong> – sularahasaldo ei tohi ületada sularahakonto summat <strong>Saldolimiit</strong> (ülapiir).</span><span class="sxs-lookup"><span data-stu-id="5f46c-149"><strong>Maximum</strong> – The cash balance should not be allowed to exceed the <strong>Balance limit</strong> amount for the cash account (upper bound).</span></span></li>
+<li><span data-ttu-id="5f46c-150"><strong>Minimaalne</strong> – sularahasaldo ei tohi langeda alla sularahakonto summat <strong>Saldolimiit</strong> (alapiir).</span><span class="sxs-lookup"><span data-stu-id="5f46c-150"><strong>Minimum</strong> – The cash balance should not be allowed to go below the <strong>Balance limit</strong> amount for the cash account (bottom bound).</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Kontrolli saldolimiiti</td>
-<td>Valige, mis juhtub kassadokumentide heakskiiduprotsessi ajal, kui sularahakonto puhul ületatakse summa <strong>Saldolimiit</strong>.
+<td><span data-ttu-id="5f46c-151">Kontrolli saldolimiiti</span><span class="sxs-lookup"><span data-stu-id="5f46c-151">Check balance limit</span></span></td>
+<td><span data-ttu-id="5f46c-152">Valige, mis juhtub kassadokumentide heakskiiduprotsessi ajal, kui sularahakonto puhul ületatakse summa <strong>Saldolimiit</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-152">Select what occurs during the approval process for cash documents if the <strong>Balance limit</strong> amount for the cash account is exceeded:</span></span>
 <ul>
-<li><strong>Aktsepteeri</strong> – limiidi saab ületada.</li>
-<li><strong>Hoiatus</strong> – limiidi saab ületada, kuid kasutaja saab hoiatusteate. Kassadokument kinnitatakse või kiidetakse heaks.</li>
-<li><strong>Tõrge</strong> – limiiti ei saa ületada. Kasutaja saab tõrketeate ja kassadokumenti ei kinnitata või ei kiideta heaks.</li>
+<li><span data-ttu-id="5f46c-153"><strong>Aktsepteeri</strong> – limiidi saab ületada.</span><span class="sxs-lookup"><span data-stu-id="5f46c-153"><strong>Accept</strong> – The limit can be exceeded.</span></span></li>
+<li><span data-ttu-id="5f46c-154"><strong>Hoiatus</strong> – limiidi saab ületada, kuid kasutaja saab hoiatusteate.</span><span class="sxs-lookup"><span data-stu-id="5f46c-154"><strong>Warning</strong> – The limit can be exceeded, but the user receives a warning message.</span></span> <span data-ttu-id="5f46c-155">Kassadokument kinnitatakse või kiidetakse heaks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-155">The cash document is confirmed or approved.</span></span></li>
+<li><span data-ttu-id="5f46c-156"><strong>Tõrge</strong> – limiiti ei saa ületada.</span><span class="sxs-lookup"><span data-stu-id="5f46c-156"><strong>Error</strong> – The limit can't be exceeded.</span></span> <span data-ttu-id="5f46c-157">Kasutaja saab tõrketeate ja kassadokumenti ei kinnitata või ei kiideta heaks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-157">The user receives an error message, and the cash document isn't confirmed or approved.</span></span></li>
 </ul>
-Lisateavet kassadokumentide heakskiiduprotsessi kohta vt selle teema allpool olevast teemast &quot;Sularahakande kinnitamine ja sisestamine&quot;.</td>
+<span data-ttu-id="5f46c-158">Lisateavet kassadokumentide heakskiiduprotsessi kohta vt selle teema allpool olevast teemast &quot;Sularahakande kinnitamine ja sisestamine&quot;.</span><span class="sxs-lookup"><span data-stu-id="5f46c-158">For more information about the approval process for cash documents, see the &quot;Cash transaction approval and posting&quot; section, later in this topic.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Saldolimiit</td>
-<td>Sisestage sularahakonto saldolimiit. Summa tuleb sisestada teie määratud valuutas.</td>
+<td><span data-ttu-id="5f46c-159">Saldolimiit</span><span class="sxs-lookup"><span data-stu-id="5f46c-159">Balance limit</span></span></td>
+<td><span data-ttu-id="5f46c-160">Sisestage sularahakonto saldolimiit.</span><span class="sxs-lookup"><span data-stu-id="5f46c-160">Enter a limit for the cash account balance.</span></span> <span data-ttu-id="5f46c-161">Summa tuleb sisestada teie määratud valuutas.</span><span class="sxs-lookup"><span data-stu-id="5f46c-161">The amount should be in the currency that you specified.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-cash-posting-profiles"></a>Sularahakonto sisestusreeglite seadistamine
+### <a name="set-up-cash-posting-profiles"></a><span data-ttu-id="5f46c-162">Sularahakonto sisestusreeglite seadistamine</span><span class="sxs-lookup"><span data-stu-id="5f46c-162">Set up cash posting profiles</span></span>
 
-Sularahakonto sisestusreeglid määratlevad sisestused pearaamatusse. Sularahakonto sisestusreeglite seadistamiseks avage **Sularaha-** **ja pangahaldus** &gt; **Seadistus** &gt; **Sularahakonto sisestusreeglid** ning valige või looge sisestusreeglid. Sisestage järgmine teave.
+<span data-ttu-id="5f46c-163">Sularahakonto sisestusreeglid määratlevad sisestused pearaamatusse.</span><span class="sxs-lookup"><span data-stu-id="5f46c-163">Cash posting profiles define postings to the general ledger.</span></span> <span data-ttu-id="5f46c-164">Sularahakonto sisestusreeglite seadistamiseks avage **Sularaha-** **ja pangahaldus** &gt; **Seadistus** &gt; **Sularahakonto sisestusreeglid** ning valige või looge sisestusreeglid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-164">To set up a cash posting profile, go to **Cash** **and bank management** &gt; **Setup** &gt; **Cash posting profiles**, and select or create a posting profile.</span></span> <span data-ttu-id="5f46c-165">Sisestage järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="5f46c-165">Enter the following information.</span></span>
 
 <table>
 <colgroup>
@@ -126,37 +126,37 @@ Sularahakonto sisestusreeglid määratlevad sisestused pearaamatusse. Sularahako
 </colgroup>
 <thead>
 <tr class="header">
-<th>Väli</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="5f46c-166">Väli</span><span class="sxs-lookup"><span data-stu-id="5f46c-166">Field</span></span></th>
+<th><span data-ttu-id="5f46c-167">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-167">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kehtib</td>
-<td>Valige, kas sisestusreegleid rakendatakse kindlale sularahakontole või kõigile sularahakontodele.
+<td><span data-ttu-id="5f46c-168">Kehtib</span><span class="sxs-lookup"><span data-stu-id="5f46c-168">Valid for</span></span></td>
+<td><span data-ttu-id="5f46c-169">Valige, kas sisestusreegleid rakendatakse kindlale sularahakontole või kõigile sularahakontodele.</span><span class="sxs-lookup"><span data-stu-id="5f46c-169">Select whether the posting profile applies to a specific cash account or all cash accounts:</span></span>
 <ul>
-<li><strong>Tabel</strong> – kui sularahakonto jaoks on sisestusreeglite rida olemas, kasutatakse seda rida sularahakannete sisestamiseks.</li>
-<li><strong>Kõik</strong> – sularahakonto jaoks sisestusreeglite rida puudub.</li>
+<li><span data-ttu-id="5f46c-170"><strong>Tabel</strong> – kui sularahakonto jaoks on sisestusreeglite rida olemas, kasutatakse seda rida sularahakannete sisestamiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-170"><strong>Table</strong> – If there is a posting profile line for the cash account, that line is used for cash transaction posting.</span></span></li>
+<li><span data-ttu-id="5f46c-171"><strong>Kõik</strong> – sularahakonto jaoks sisestusreeglite rida puudub.</span><span class="sxs-lookup"><span data-stu-id="5f46c-171"><strong>All</strong> – There is no posting profile line for the cash account.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Sularaha</td>
-<td>Kui tegite väljal <strong>Kehtib</strong> valiku <strong>Tabel</strong>, määrake sularahakonto. See väli jääb tühjaks, kui tegite väljal <strong>Kehtib</strong> valiku <strong>Kõik</strong>.</td>
+<td><span data-ttu-id="5f46c-172">Sularaha</span><span class="sxs-lookup"><span data-stu-id="5f46c-172">Cash</span></span></td>
+<td><span data-ttu-id="5f46c-173">Kui tegite väljal <strong>Kehtib</strong> valiku <strong>Tabel</strong>, määrake sularahakonto.</span><span class="sxs-lookup"><span data-stu-id="5f46c-173">If you selected <strong>Table</strong> in the <strong>Valid for</strong> field, specify the cash account.</span></span> <span data-ttu-id="5f46c-174">See väli jääb tühjaks, kui tegite väljal <strong>Kehtib</strong> valiku <strong>Kõik</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-174">This field remains blank if you selected <strong>All</strong> in the <strong>Valid for</strong> field.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Pearaamatukonto</td>
-<td>Sisestage selle pearaamatukonto number, mida kasutatakse sularahakonto puhul kliendi koondkontona.</td>
+<td><span data-ttu-id="5f46c-175">Pearaamatukonto</span><span class="sxs-lookup"><span data-stu-id="5f46c-175">Ledger account</span></span></td>
+<td><span data-ttu-id="5f46c-176">Sisestage selle pearaamatukonto number, mida kasutatakse sularahakonto puhul kliendi koondkontona.</span><span class="sxs-lookup"><span data-stu-id="5f46c-176">Enter the number of the ledger account to use as the summary account for the cash account.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-number-sequences-for-cash-documents"></a>Kassadokumentide numbriseeriate seadistamine
+### <a name="set-up-number-sequences-for-cash-documents"></a><span data-ttu-id="5f46c-177">Kassadokumentide numbriseeriate seadistamine</span><span class="sxs-lookup"><span data-stu-id="5f46c-177">Set up number sequences for cash documents</span></span>
 
-Kassadokumentide numbriseeriate seadistamiseks avage **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**. Vahekaardil **Numbriseeria** määrake numbriseeria koodid dokumentidele **Kassa korvamisorderid**, **Kassa väljaminekuorderid**, **Kassa paranduskanne** ja **Valuutakursi korrigeerimine** ning väljale **Sularahaaruande number**.
+<span data-ttu-id="5f46c-178">Kassadokumentide numbriseeriate seadistamiseks avage **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-178">To set up number sequences for cash documents, go to **Cash and bank management** &gt; **Setup** &gt; **Cash and bank management parameters**.</span></span> <span data-ttu-id="5f46c-179">Vahekaardil **Numbriseeria** määrake numbriseeria koodid dokumentidele **Kassa korvamisorderid**, **Kassa väljaminekuorderid**, **Kassa paranduskanne** ja **Valuutakursi korrigeerimine** ning väljale **Sularahaaruande number**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-179">On the **Number sequence** tab, specify number sequence codes for the **Cash reimbursement slips**, **Cash disbursement slips**, **Cash correction voucher**, and **Exchange adjustment** documents, and for **Cash report number**.</span></span>
 
-### <a name="set-up-default-values-for-cash-and-bank-management-parameters"></a>Sularaha- ja pangahalduse parameetrite vaikeväärtuste seadistamine.
+### <a name="set-up-default-values-for-cash-and-bank-management-parameters"></a><span data-ttu-id="5f46c-180">Sularaha- ja pangahalduse parameetrite vaikeväärtuste seadistamine.</span><span class="sxs-lookup"><span data-stu-id="5f46c-180">Set up default values for Cash and bank management parameters</span></span>
 
-Sularaha- ja pangahalduse parameetrite vaikeväärtuste seadistamiseks väikeste summade funktsiooni jaoks avage **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**. Vahekaardil **Sularaha** sisestage järgmine teave.
+<span data-ttu-id="5f46c-181">Sularaha- ja pangahalduse parameetrite vaikeväärtuste seadistamiseks väikeste summade funktsiooni jaoks avage **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-181">To set up default values for Cash and bank management parameters for the petty cash functionality, go to **Cash and bank management** &gt; **Setup** &gt; **Cash and bank management parameters**.</span></span> <span data-ttu-id="5f46c-182">Vahekaardil **Sularaha** sisestage järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="5f46c-182">On the **Cash** tab, enter the following information.</span></span>
 
 <table>
 <colgroup>
@@ -165,71 +165,71 @@ Sularaha- ja pangahalduse parameetrite vaikeväärtuste seadistamiseks väikeste
 </colgroup>
 <thead>
 <tr class="header">
-<th>Väli</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="5f46c-183">Väli</span><span class="sxs-lookup"><span data-stu-id="5f46c-183">Field</span></span></th>
+<th><span data-ttu-id="5f46c-184">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-184">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Sularaha</td>
-<td>Valige töölehtedel kasutatav vaikesularahakonto.</td>
+<td><span data-ttu-id="5f46c-185">Sularaha</span><span class="sxs-lookup"><span data-stu-id="5f46c-185">Cash</span></span></td>
+<td><span data-ttu-id="5f46c-186">Valige töölehtedel kasutatav vaikesularahakonto.</span><span class="sxs-lookup"><span data-stu-id="5f46c-186">Select the default cash account in journals.</span></span></td>
 </tr>
 <tr class="even">
-<td>Kassaseisu sisestamine</td>
-<td>Sisestage sularahakonto vaikesisestusreeglid, mida kasutatakse, kui muid sisestusreegleid pole määratud.</td>
+<td><span data-ttu-id="5f46c-187">Kassaseisu sisestamine</span><span class="sxs-lookup"><span data-stu-id="5f46c-187">Cash posting</span></span></td>
+<td><span data-ttu-id="5f46c-188">Sisestage sularahakonto vaikesisestusreeglid, mida kasutatakse, kui muid sisestusreegleid pole määratud.</span><span class="sxs-lookup"><span data-stu-id="5f46c-188">Enter the default cash posting profile that is used if no other posting profile is specified.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Kontrolli kasutatud kannet</td>
-<td>Valige, mis juhtub, kui kassadokumendi numbri kontrollimisel leitakse topeltnumbrid.
+<td><span data-ttu-id="5f46c-189">Kontrolli kasutatud kannet</span><span class="sxs-lookup"><span data-stu-id="5f46c-189">Check for voucher used</span></span></td>
+<td><span data-ttu-id="5f46c-190">Valige, mis juhtub, kui kassadokumendi numbri kontrollimisel leitakse topeltnumbrid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-190">Select what occurs if duplicate numbers are found during the check of the cash document number:</span></span>
 <ul>
-<li>Lükka duplikaat tagasi</li>
-<li>Ära luba koopiaid samal rahandusaastal</li>
-<li>Luba duplikaate</li>
-<li>Hoiata duplikaatide korral</li>
+<li><span data-ttu-id="5f46c-191">Lükka duplikaat tagasi</span><span class="sxs-lookup"><span data-stu-id="5f46c-191">Reject duplicate</span></span></li>
+<li><span data-ttu-id="5f46c-192">Ära luba koopiaid samal rahandusaastal</span><span class="sxs-lookup"><span data-stu-id="5f46c-192">Reject copies within fiscal year</span></span></li>
+<li><span data-ttu-id="5f46c-193">Luba duplikaate</span><span class="sxs-lookup"><span data-stu-id="5f46c-193">Accept duplicates</span></span></li>
+<li><span data-ttu-id="5f46c-194">Hoiata duplikaatide korral</span><span class="sxs-lookup"><span data-stu-id="5f46c-194">Warn in case of duplicates</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Kontrolli toimingute limiiti</td>
-<td>Määrake, mis juhtub, kui vastaspooltega tehtavate toimingute piirmäär on ületatud.
+<td><span data-ttu-id="5f46c-195">Kontrolli toimingute limiiti</span><span class="sxs-lookup"><span data-stu-id="5f46c-195">Check operations limit</span></span></td>
+<td><span data-ttu-id="5f46c-196">Määrake, mis juhtub, kui vastaspooltega tehtavate toimingute piirmäär on ületatud.</span><span class="sxs-lookup"><span data-stu-id="5f46c-196">Specify what occurs if the limit for operations with counteragents is exceeded:</span></span>
 <ul>
-<li><strong>Aktsepteeri</strong> – limiidi saab ületada.</li>
-<li><strong>Hoiatus</strong> – limiidi saab ületada, kuid kasutaja saab hoiatusteate. Toiming sisestatakse.</li>
-<li><strong>Tõrge</strong> – limiiti ei saa ületada. Kasutaja saab tõrketeate ja toimingut ei sisestata.</li>
+<li><span data-ttu-id="5f46c-197"><strong>Aktsepteeri</strong> – limiidi saab ületada.</span><span class="sxs-lookup"><span data-stu-id="5f46c-197"><strong>Accept</strong> – The limit can be exceeded.</span></span></li>
+<li><span data-ttu-id="5f46c-198"><strong>Hoiatus</strong> – limiidi saab ületada, kuid kasutaja saab hoiatusteate.</span><span class="sxs-lookup"><span data-stu-id="5f46c-198"><strong>Warning</strong> – The limit can be exceeded, but the user receives a warning message.</span></span> <span data-ttu-id="5f46c-199">Toiming sisestatakse.</span><span class="sxs-lookup"><span data-stu-id="5f46c-199">The operation is posted.</span></span></li>
+<li><span data-ttu-id="5f46c-200"><strong>Tõrge</strong> – limiiti ei saa ületada.</span><span class="sxs-lookup"><span data-stu-id="5f46c-200"><strong>Error</strong> – The limit can't be exceeded.</span></span> <span data-ttu-id="5f46c-201">Kasutaja saab tõrketeate ja toimingut ei sisestata.</span><span class="sxs-lookup"><span data-stu-id="5f46c-201">The user receives an error message, and the operation isn't posted.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Kontrollimeetod</td>
-<td>Valige kontrollimismeetod, mida kasutatakse toimingute piirsummade ületamise juhtimiseks.
+<td><span data-ttu-id="5f46c-202">Kontrollimeetod</span><span class="sxs-lookup"><span data-stu-id="5f46c-202">Validation method</span></span></td>
+<td><span data-ttu-id="5f46c-203">Valige kontrollimismeetod, mida kasutatakse toimingute piirsummade ületamise juhtimiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-203">Select the validation method that is used to control exceeded limit amounts for operations:</span></span>
 <ul>
-<li><strong>Toiming</strong> – kontrollitakse iga kannet.</li>
-<li><strong>Leping</strong> – kontrollitakse iga tehingut, millel on vastaspoolega määratud leping.</li>
+<li><span data-ttu-id="5f46c-204"><strong>Toiming</strong> – kontrollitakse iga kannet.</span><span class="sxs-lookup"><span data-stu-id="5f46c-204"><strong>Operation</strong> – Validation is done per transaction</span></span></li>
+<li><span data-ttu-id="5f46c-205"><strong>Leping</strong> – kontrollitakse iga tehingut, millel on vastaspoolega määratud leping.</span><span class="sxs-lookup"><span data-stu-id="5f46c-205"><strong>Agreement</strong> – Validation is done per transaction that has a specified contract with a counteragent.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Toimingute limiit</td>
-<td>Sisestage maksimaalne summa, mis on vastaspooltega tehtavate sularahatoimingute puhul lubatud.</td>
+<td><span data-ttu-id="5f46c-206">Toimingute limiit</span><span class="sxs-lookup"><span data-stu-id="5f46c-206">Operations limit</span></span></td>
+<td><span data-ttu-id="5f46c-207">Sisestage maksimaalne summa, mis on vastaspooltega tehtavate sularahatoimingute puhul lubatud.</span><span class="sxs-lookup"><span data-stu-id="5f46c-207">Enter the maximum amount that is allowed for operations with counteragents in cash.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Sisestus varasemal kuupäeval</td>
-<td>Märkige see ruut, et lubada sularahakannete sisestamine enne viimast sularahakande kuupäeva.</td>
+<td><span data-ttu-id="5f46c-208">Sisestus varasemal kuupäeval</span><span class="sxs-lookup"><span data-stu-id="5f46c-208">Posting on earlier date</span></span></td>
+<td><span data-ttu-id="5f46c-209">Märkige see ruut, et lubada sularahakannete sisestamine enne viimast sularahakande kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="5f46c-209">Select this check box to enable cash transactions to be posted before the last date of the cash transaction.</span></span></td>
 </tr>
 <tr class="even">
-<td>Dimensioonid</td>
-<td>Sisestage dimensioonid väljadele <strong>Osakonna kood</strong>, <strong>Analüütiline kood</strong> ja <strong>Eesmärgi kood</strong>. See teave kajastub kassadokumentide prindivormil.</td>
+<td><span data-ttu-id="5f46c-210">Dimensioonid</span><span class="sxs-lookup"><span data-stu-id="5f46c-210">Dimensions</span></span></td>
+<td><span data-ttu-id="5f46c-211">Sisestage dimensioonid väljadele <strong>Osakonna kood</strong>, <strong>Analüütiline kood</strong> ja <strong>Eesmärgi kood</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-211">Enter dimensions in the <strong>Department code</strong>, <strong>Analytical code</strong>, and <strong>Purpose code</strong> fields.</span></span> <span data-ttu-id="5f46c-212">See teave kajastub kassadokumentide prindivormil.</span><span class="sxs-lookup"><span data-stu-id="5f46c-212">The printing form for cash documents will reflect this information.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Kasuta kinnitatud olekut</td>
-<td>Märkige see ruut, et kasutada kassadokumentide kinnitusprotsessi käigus lisaolekut <strong>Kinnitatud</strong>. (Lisateavet vt teemast &quot;Sularahakannete kinnitamine ja sisestamine&quot;.)</td>
+<td><span data-ttu-id="5f46c-213">Kasuta kinnitatud olekut</span><span class="sxs-lookup"><span data-stu-id="5f46c-213">Use confirm status</span></span></td>
+<td><span data-ttu-id="5f46c-214">Märkige see ruut, et kasutada kassadokumentide kinnitusprotsessi käigus lisaolekut <strong>Kinnitatud</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-214">Select this check box to use an additional status, <strong>Confirmed</strong>, during the approval process for cash documents.</span></span> <span data-ttu-id="5f46c-215">(Lisateavet vt teemast &quot;Sularahakannete kinnitamine ja sisestamine&quot;.)</span><span class="sxs-lookup"><span data-stu-id="5f46c-215">(For more information, see the &quot;Cash transaction approval and posting&quot; section.)</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-cash-journal-names-in-general-ledger"></a>Pearaamatus sularahatöölehtede nimede seadistamine
+### <a name="set-up-cash-journal-names-in-general-ledger"></a><span data-ttu-id="5f46c-216">Pearaamatus sularahatöölehtede nimede seadistamine</span><span class="sxs-lookup"><span data-stu-id="5f46c-216">Set up cash journal names in General ledger</span></span>
 
-Sularahakannete sisestamiseks töölehe loomiseks avage **Pearaamat** &gt; **Töölehe seadistamine** &gt; **Töölehtede nimed** ja looge uus kirje. Valige väljal **Töölehe tüüp** suvand **Sularaha**. Määratlege muud vajalikud töölehe vaikeparameetrid.
+<span data-ttu-id="5f46c-217">Sularahakannete sisestamiseks töölehe loomiseks avage **Pearaamat** &gt; **Töölehe seadistamine** &gt; **Töölehtede nimed** ja looge uus kirje.</span><span class="sxs-lookup"><span data-stu-id="5f46c-217">To create a journal for cash transaction posting, go to **General ledger** &gt; **Journal setup** &gt; **Journal names**, and create a new record.</span></span> <span data-ttu-id="5f46c-218">Valige väljal **Töölehe tüüp** suvand **Sularaha**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-218">In the **Journal type** field, specify **Cash**.</span></span> <span data-ttu-id="5f46c-219">Määratlege muud vajalikud töölehe vaikeparameetrid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-219">Define other default journal parameters as you require.</span></span>
 
-## <a name="daily-cash-operations-via-a-slip-journal"></a>Igapäevased sularahatoimingud saatelehe töölehe kaudu
-Kassadokumendi loomiseks saatelehe töölehe kaudu avage **Sularaha- ja pangahaldus** &gt; **Sularahakanded** &gt; **Saatelehe tööleht** ning looge uus tööleht. Klõpsake toimingupaanil valikut **Read**. Lisage uus rida ja sisestage järgmine teave.
+## <a name="daily-cash-operations-via-a-slip-journal"></a><span data-ttu-id="5f46c-220">Igapäevased sularahatoimingud saatelehe töölehe kaudu</span><span class="sxs-lookup"><span data-stu-id="5f46c-220">Daily cash operations via a Slip journal</span></span>
+<span data-ttu-id="5f46c-221">Kassadokumendi loomiseks saatelehe töölehe kaudu avage **Sularaha- ja pangahaldus** &gt; **Sularahakanded** &gt; **Saatelehe tööleht** ning looge uus tööleht.</span><span class="sxs-lookup"><span data-stu-id="5f46c-221">To create a cash document via a Slip journal, go to **Cash and bank management** &gt; **Cash transactions** &gt; **Slip journal**, and create a new journal.</span></span> <span data-ttu-id="5f46c-222">Klõpsake toimingupaanil valikut **Read**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-222">On the Action Pane, click **Lines**.</span></span> <span data-ttu-id="5f46c-223">Lisage uus rida ja sisestage järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="5f46c-223">Add a new line, and enter the following information.</span></span>
 
 <table>
 <colgroup>
@@ -238,133 +238,133 @@ Kassadokumendi loomiseks saatelehe töölehe kaudu avage **Sularaha- ja pangahal
 </colgroup>
 <thead>
 <tr class="header">
-<th>Väli</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="5f46c-224">Väli</span><span class="sxs-lookup"><span data-stu-id="5f46c-224">Field</span></span></th>
+<th><span data-ttu-id="5f46c-225">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-225">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kuupäev</td>
-<td>Sisestage kande kuupäev.</td>
+<td><span data-ttu-id="5f46c-226">Kuupäev</span><span class="sxs-lookup"><span data-stu-id="5f46c-226">Date</span></span></td>
+<td><span data-ttu-id="5f46c-227">Sisestage kande kuupäev.</span><span class="sxs-lookup"><span data-stu-id="5f46c-227">Enter the date of the transaction.</span></span></td>
 </tr>
 <tr class="even">
-<td>Konto</td>
-<td>Valige sularahakonto. Vaikimisi määratakse sularahakonto sularaha- ja pangahalduse parameetrites.</td>
+<td><span data-ttu-id="5f46c-228">Konto</span><span class="sxs-lookup"><span data-stu-id="5f46c-228">Account</span></span></td>
+<td><span data-ttu-id="5f46c-229">Valige sularahakonto.</span><span class="sxs-lookup"><span data-stu-id="5f46c-229">Select the cash account.</span></span> <span data-ttu-id="5f46c-230">Vaikimisi määratakse sularahakonto sularaha- ja pangahalduse parameetrites.</span><span class="sxs-lookup"><span data-stu-id="5f46c-230">By default, a cash account is specified in the Cash and bank management parameters.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Kirjeldus</td>
-<td>Sisestage kande jaoks selgitav tekst.</td>
+<td><span data-ttu-id="5f46c-231">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-231">Description</span></span></td>
+<td><span data-ttu-id="5f46c-232">Sisestage kande jaoks selgitav tekst.</span><span class="sxs-lookup"><span data-stu-id="5f46c-232">Enter explanatory text for the transaction.</span></span></td>
 </tr>
 <tr class="even">
-<td>Deebet, kreedit</td>
-<td>Sisestage kassadokumendi summa ühele järgmistest väljadest.
+<td><span data-ttu-id="5f46c-233">Deebet, kreedit</span><span class="sxs-lookup"><span data-stu-id="5f46c-233">Debit Credit</span></span></td>
+<td><span data-ttu-id="5f46c-234">Sisestage kassadokumendi summa ühele järgmistest väljadest.</span><span class="sxs-lookup"><span data-stu-id="5f46c-234">Enter cash document amount in one of these fields:</span></span>
 <ul>
-<li><strong>Deebet</strong> – kasutage seda välja kassa sissetuleku- ja väljaminekuorderite registreerimiseks.</li>
-<li><strong>Kreedit</strong> – kasutage seda välja kassa kulu- ja väljaminekuorderite registreerimiseks.</li>
+<li><span data-ttu-id="5f46c-235"><strong>Deebet</strong> – kasutage seda välja kassa sissetuleku- ja väljaminekuorderite registreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-235"><strong>Debit</strong> – Use this field to register cash receipts and a Cash reimbursement slip.</span></span></li>
+<li><span data-ttu-id="5f46c-236"><strong>Kreedit</strong> – kasutage seda välja kassa kulu- ja väljaminekuorderite registreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-236"><strong>Credit</strong> – Use this field to register cash expenditures and a Cash disbursement slip.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Vastaskonto tüüp, vastaskonto</td>
-<td>Valige vastaskonto tüüp ja vastaskonto number.</td>
+<td><span data-ttu-id="5f46c-237">Vastaskonto tüüp, vastaskonto</span><span class="sxs-lookup"><span data-stu-id="5f46c-237">Offset account type Offset account</span></span></td>
+<td><span data-ttu-id="5f46c-238">Valige vastaskonto tüüp ja vastaskonto number.</span><span class="sxs-lookup"><span data-stu-id="5f46c-238">Select an offset account type and offset account number.</span></span></td>
 </tr>
 <tr class="even">
-<td>Valuuta</td>
-<td>Valige kande valuutakood.</td>
+<td><span data-ttu-id="5f46c-239">Valuuta</span><span class="sxs-lookup"><span data-stu-id="5f46c-239">Currency</span></span></td>
+<td><span data-ttu-id="5f46c-240">Valige kande valuutakood.</span><span class="sxs-lookup"><span data-stu-id="5f46c-240">Select the code for the transaction currency.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Kanne</td>
-<td>See väli täidetakse automaatselt töölehe seadistuse põhjal.</td>
+<td><span data-ttu-id="5f46c-241">Kanne</span><span class="sxs-lookup"><span data-stu-id="5f46c-241">Voucher</span></span></td>
+<td><span data-ttu-id="5f46c-242">See väli täidetakse automaatselt töölehe seadistuse põhjal.</span><span class="sxs-lookup"><span data-stu-id="5f46c-242">This field is filled in automatically, based on the journal setup.</span></span></td>
 </tr>
 <tr class="even">
-<td>Tellimuse kood</td>
-<td>Kui sularahakonto jaoks pole muid numbriseeriaid seadistatud, täidetakse see väli automaatselt parameetrites määratud numbriseeria põhjal. Saate sellele väljale sisestada soovi korral tellimuse numbri käsitsi. Kassadokumentide numeratsiooni ebajärjekindluse vältimiseks rakendatakse järgmist reeglit: varasema toimingukuupäevaga kassadokumendi number ei saa olla suurem kui hilisema toimingukuupäevaga kassadokumendi number. Kui te ei soovi seda reeglit rakendada, märkige sularaha- ja pangahalduse parameetrites ruut <strong>Sisestamine varasemal kuupäeval</strong>.</td>
+<td><span data-ttu-id="5f46c-243">Tellimuse kood</span><span class="sxs-lookup"><span data-stu-id="5f46c-243">Order number</span></span></td>
+<td><span data-ttu-id="5f46c-244">Kui sularahakonto jaoks pole muid numbriseeriaid seadistatud, täidetakse see väli automaatselt parameetrites määratud numbriseeria põhjal.</span><span class="sxs-lookup"><span data-stu-id="5f46c-244">If no other number sequence is set up for the cash account, this field is filled in automatically, based on the number sequence that is specified in the parameters.</span></span> <span data-ttu-id="5f46c-245">Saate sellele väljale sisestada soovi korral tellimuse numbri käsitsi.</span><span class="sxs-lookup"><span data-stu-id="5f46c-245">You can manually enter an order number in this field as you require.</span></span> <span data-ttu-id="5f46c-246">Kassadokumentide numeratsiooni ebajärjekindluse vältimiseks rakendatakse järgmist reeglit: varasema toimingukuupäevaga kassadokumendi number ei saa olla suurem kui hilisema toimingukuupäevaga kassadokumendi number.</span><span class="sxs-lookup"><span data-stu-id="5f46c-246">To prevent inconsistence in cash document numbering, the following control is applied: the number of a cash document that has an earlier date of operation can't be higher than number of a cash document that has a later date of operation.</span></span> <span data-ttu-id="5f46c-247">Kui te ei soovi seda reeglit rakendada, märkige sularaha- ja pangahalduse parameetrites ruut <strong>Sisestamine varasemal kuupäeval</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-247">If you don't require this control, select the <strong>Posting on earlier date</strong> check box in the Cash and bank management parameters.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Kinnitamise olek</td>
-<td>Esimese kande olek on <strong>Pole</strong>. Teavet kande oleku määramise kohta vt teemast &quot;Sularahakannete kinnitamine ja sisestamine&quot;.</td>
+<td><span data-ttu-id="5f46c-248">Kinnitamise olek</span><span class="sxs-lookup"><span data-stu-id="5f46c-248">Approval status</span></span></td>
+<td><span data-ttu-id="5f46c-249">Esimese kande olek on <strong>Pole</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-249">The first transaction status is <strong>None</strong>.</span></span> <span data-ttu-id="5f46c-250">Teavet kande oleku määramise kohta vt teemast &quot;Sularahakannete kinnitamine ja sisestamine&quot;.</span><span class="sxs-lookup"><span data-stu-id="5f46c-250">For information about how to set the transaction status, See the &quot;Cash transaction approval and posting&quot; section.</span></span></td>
 </tr>
 <tr class="even">
-<td>Dokumendi tüüp </td>
-<td>See väli vahekaardil <strong>Kassaorder</strong> täidetakse automaatselt kassadokumenti sisestatud summa põhjal.
+<td><span data-ttu-id="5f46c-251">Dokumendi tüüp </span><span class="sxs-lookup"><span data-stu-id="5f46c-251">Document type</span></span></td>
+<td><span data-ttu-id="5f46c-252">See väli vahekaardil <strong>Kassaorder</strong> täidetakse automaatselt kassadokumenti sisestatud summa põhjal.</span><span class="sxs-lookup"><span data-stu-id="5f46c-252">This field on the <strong>Cash order</strong> tab is filled in automatically, based on the amount that you entered for the cash document:</span></span>
 <ul>
-<li><strong>Kassa korvamisorder</strong> – seda väärtust kasutatakse, kui sisestasite summa sularahakonto väljale <strong>Deebet</strong>.</li>
-<li><strong>Kassa väljaminekuorder</strong> – seda väärtust kasutatakse, kui sisestasite summa sularahakonto väljale <strong>Kreedit</strong>.</li>
-<li><strong>Parandus</strong> – olete sisestanud sularahakonto väljale <strong>Deebet</strong> või <strong>Kreedit</strong> negatiivse summa.</li>
+<li><span data-ttu-id="5f46c-253"><strong>Kassa korvamisorder</strong> – seda väärtust kasutatakse, kui sisestasite summa sularahakonto väljale <strong>Deebet</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-253"><strong>Cash reimbursement slip</strong> – This value is used if you entered an amount in the <strong>Debit</strong> field for the cash account.</span></span></li>
+<li><span data-ttu-id="5f46c-254"><strong>Kassa väljaminekuorder</strong> – seda väärtust kasutatakse, kui sisestasite summa sularahakonto väljale <strong>Kreedit</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-254"><strong>Cash disbursement slip</strong> – This value is used if you entered an amount in the <strong>Credit</strong> field for the cash account</span></span></li>
+<li><span data-ttu-id="5f46c-255"><strong>Parandus</strong> – olete sisestanud sularahakonto väljale <strong>Deebet</strong> või <strong>Kreedit</strong> negatiivse summa.</span><span class="sxs-lookup"><span data-stu-id="5f46c-255"><strong>Correction</strong> – You entered a negative amount in either the <strong>Debit</strong> field or the <strong>Credit</strong> field for the cash account.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Käibemaksugrupp</td>
-<td>Määrake käibemaksugrupp toimingu maksude arvutamiseks.</td>
+<td><span data-ttu-id="5f46c-256">Käibemaksugrupp</span><span class="sxs-lookup"><span data-stu-id="5f46c-256">Sales tax group</span></span></td>
+<td><span data-ttu-id="5f46c-257">Määrake käibemaksugrupp toimingu maksude arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-257">Specify a sales tax group to calculate taxes on the operation.</span></span></td>
 </tr>
 <tr class="even">
-<td>Kauba käibemaksugrupp</td>
-<td>Määrake kauba käibemaksugrupp toimingu maksude arvutamiseks.</td>
+<td><span data-ttu-id="5f46c-258">Kauba käibemaksugrupp</span><span class="sxs-lookup"><span data-stu-id="5f46c-258">Item sales tax group</span></span></td>
+<td><span data-ttu-id="5f46c-259">Määrake kauba käibemaksugrupp toimingu maksude arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-259">Specify an item sales tax group to calculate taxes on the operation.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Põhjus</td>
-<td>Sisestage vahekaardil <strong>Kassaorder</strong> kande teemat kirjeldav tekst. See tekst prinditakse kassaorderi aruandlusvormile.</td>
+<td><span data-ttu-id="5f46c-260">Põhjus</span><span class="sxs-lookup"><span data-stu-id="5f46c-260">Reason</span></span></td>
+<td><span data-ttu-id="5f46c-261">Sisestage vahekaardil <strong>Kassaorder</strong> kande teemat kirjeldav tekst.</span><span class="sxs-lookup"><span data-stu-id="5f46c-261">On the <strong>Cash order</strong> tab, enter text that describes the transaction subject.</span></span> <span data-ttu-id="5f46c-262">See tekst prinditakse kassaorderi aruandlusvormile.</span><span class="sxs-lookup"><span data-stu-id="5f46c-262">This text will be printed on the cash slip reporting form.</span></span></td>
 </tr>
 <tr class="even">
-<td>Dokumendi kuupäev</td>
-<td>Sisestage kande põhjuseks oleva põhidokumendi (nt ettemaksuaruanded, arve või tellimus) kirjeldus, number ja kuupäev.</td>
+<td><span data-ttu-id="5f46c-263">Dokumendi kuupäev</span><span class="sxs-lookup"><span data-stu-id="5f46c-263">Document Date</span></span></td>
+<td><span data-ttu-id="5f46c-264">Sisestage kande põhjuseks oleva põhidokumendi (nt ettemaksuaruanded, arve või tellimus) kirjeldus, number ja kuupäev.</span><span class="sxs-lookup"><span data-stu-id="5f46c-264">Enter the description, number, and date of the primary document that is the reason for the transaction (for example, advance reports, invoice, or order).</span></span></td>
 </tr>
 <tr class="odd">
-<td>Esindaja tüüp</td>
-<td>See väli võib sisaldada üht järgmistest väärtustest.
+<td><span data-ttu-id="5f46c-265">Esindaja tüüp</span><span class="sxs-lookup"><span data-stu-id="5f46c-265">Representative type</span></span></td>
+<td><span data-ttu-id="5f46c-266">See väli võib sisaldada üht järgmistest väärtustest.</span><span class="sxs-lookup"><span data-stu-id="5f46c-266">This field can have the following values:</span></span>
 <ul>
-<li><strong>Töötaja</strong> – otsing <strong>Esindaja</strong> sisaldab töötajate loendit, kui väljal <strong>Vastaskonto</strong> on valitud <strong>Pearaamat</strong> või <strong>Pank</strong>, või vastaspoole kontaktisikute loendit, kui väljal <strong>Vastaskonto</strong> on valitud <strong>Klient</strong> või <strong>Hankija</strong>. Esindajate seadistamiseks avage <strong>Põhiline</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Kontaktid</strong> &gt; <strong>Kontaktisik</strong>.</li>
-<li><strong>Muu</strong> – otsing <strong>Esindaja</strong> sisaldab muude klientide loendit. Saajate, keda tabelis <strong>Kliendid</strong> või <strong>Hankijad</strong> ei kuvata, seadistamiseks avage <strong>Pearaamat</strong> &gt; <strong>Saajad</strong>. See tüüp on saadaval ainult Läti puhul. (Konfiguratsioonivõti <strong>CSELatvia</strong> peab olema lubatud.)</li>
-<li><strong>Hankija</strong> – otsing <strong>Esindaja</strong> sisaldab hankijate loendit. Hankijate seadistamiseks avage <strong>Ostureskontro</strong> &gt; <strong>Hankijad</strong>.</li>
-<li><strong>Klient</strong> – otsing <strong>Esindaja</strong> sisaldab klientide loendit. Klientide seadistamiseks avage <strong>Müügireskontro</strong> &gt; <strong>Kliendid</strong>.</li>
+<li><span data-ttu-id="5f46c-267"><strong>Töötaja</strong> – otsing <strong>Esindaja</strong> sisaldab töötajate loendit, kui väljal <strong>Vastaskonto</strong> on valitud <strong>Pearaamat</strong> või <strong>Pank</strong>, või vastaspoole kontaktisikute loendit, kui väljal <strong>Vastaskonto</strong> on valitud <strong>Klient</strong> või <strong>Hankija</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-267"><strong>Worker</strong> – The <strong>Representative</strong> lookup contains a list of employees if the <strong>Offset account</strong> field is set to <strong>Ledger</strong> or <strong>Bank</strong>, or a list of the counteragent's contact persons if the <strong>Offset account</strong> field is set to <strong>Customer</strong> or <strong>Vendor</strong>.</span></span> <span data-ttu-id="5f46c-268">Esindajate seadistamiseks avage <strong>Põhiline</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Kontaktid</strong> &gt; <strong>Kontaktisik</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-268">To set up representatives, go to <strong>Basic</strong> &gt; <strong>Setup</strong> &gt; <strong>Contacts</strong> &gt; <strong>Contact person</strong>.</span></span></li>
+<li><span data-ttu-id="5f46c-269"><strong>Muu</strong> – otsing <strong>Esindaja</strong> sisaldab muude klientide loendit.</span><span class="sxs-lookup"><span data-stu-id="5f46c-269"><strong>Other</strong> – The <strong>Representative</strong> lookup contains a list of other clients.</span></span> <span data-ttu-id="5f46c-270">Saajate, keda tabelis <strong>Kliendid</strong> või <strong>Hankijad</strong> ei kuvata, seadistamiseks avage <strong>Pearaamat</strong> &gt; <strong>Saajad</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-270">To set up receivers who don't appear in the <strong>Customers</strong> or <strong>Vendors</strong> table, go to <strong>General ledger</strong> &gt; <strong>Receivers</strong>.</span></span> <span data-ttu-id="5f46c-271">See tüüp on saadaval ainult Läti puhul.</span><span class="sxs-lookup"><span data-stu-id="5f46c-271">This type is available only for Latvia.</span></span> <span data-ttu-id="5f46c-272">(Konfiguratsioonivõti <strong>CSELatvia</strong> peab olema lubatud.)</span><span class="sxs-lookup"><span data-stu-id="5f46c-272">(The <strong>CSELatvia</strong> configuration key should be enabled.)</span></span></li>
+<li><span data-ttu-id="5f46c-273"><strong>Hankija</strong> – otsing <strong>Esindaja</strong> sisaldab hankijate loendit.</span><span class="sxs-lookup"><span data-stu-id="5f46c-273"><strong>Vendor</strong> – The <strong>Representative</strong> lookup contains a list of vendors.</span></span> <span data-ttu-id="5f46c-274">Hankijate seadistamiseks avage <strong>Ostureskontro</strong> &gt; <strong>Hankijad</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-274">To set up vendors, go to <strong>Accounts payable</strong> &gt; <strong>Vendors</strong>.</span></span></li>
+<li><span data-ttu-id="5f46c-275"><strong>Klient</strong> – otsing <strong>Esindaja</strong> sisaldab klientide loendit.</span><span class="sxs-lookup"><span data-stu-id="5f46c-275"><strong>Customer</strong> – The <strong>Representative</strong> lookup contains a list of customers.</span></span> <span data-ttu-id="5f46c-276">Klientide seadistamiseks avage <strong>Müügireskontro</strong> &gt; <strong>Kliendid</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-276">To set up customers, go to <strong>Accounts receivable</strong> &gt; <strong>Customers</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Esindaja</td>
-<td>Valige esindaja, kelle tüübi määrasite väljal <strong>Esindaja tüüp</strong>.</td>
+<td><span data-ttu-id="5f46c-277">Esindaja</span><span class="sxs-lookup"><span data-stu-id="5f46c-277">Representative</span></span></td>
+<td><span data-ttu-id="5f46c-278">Valige esindaja, kelle tüübi määrasite väljal <strong>Esindaja tüüp</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-278">Select a representative of the type that you specified in the <strong>Representative type</strong> field.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Inimese nimi</td>
-<td>See väli täidetakse automaatselt väljade <strong>Vastaskonto</strong> ja <strong>Esindaja</strong> põhjal. See teave kajastub kassaorderite prindivormil.</td>
+<td><span data-ttu-id="5f46c-279">Inimese nimi</span><span class="sxs-lookup"><span data-stu-id="5f46c-279">Name of person</span></span></td>
+<td><span data-ttu-id="5f46c-280">See väli täidetakse automaatselt väljade <strong>Vastaskonto</strong> ja <strong>Esindaja</strong> põhjal.</span><span class="sxs-lookup"><span data-stu-id="5f46c-280">This field is filled in automatically, based on the <strong>Offset account</strong> and <strong>Representative</strong> fields.</span></span> <span data-ttu-id="5f46c-281">See teave kajastub kassaorderite prindivormil.</span><span class="sxs-lookup"><span data-stu-id="5f46c-281">The printing form for cash slips will reflect this information.</span></span></td>
 </tr>
 <tr class="even">
-<td>ID-kaart</td>
-<td>See väli täidetakse automaatselt kontaktisiku (esindaja) ID-kaardi andmete põhjal. Kui väljal <strong>Vastaskonto tüüp</strong> on valitud <strong>Avansisaaja</strong> ja väli <strong>Vastaskonto</strong> on määratud töövõtja koodile, saab kassaordereid või kulusid teha töövõtjalt või töövõtjale. Sellisel juhul täidetakse väli <strong>ID-kaart</strong> automaatselt, kasutades ID-kaardi andmeid tabelist <strong>Töövõtja</strong> (<strong>Personaliarvestus</strong> &gt; <strong>Töövõtjate tabel</strong>).</td>
+<td><span data-ttu-id="5f46c-282">ID-kaart</span><span class="sxs-lookup"><span data-stu-id="5f46c-282">Identity card</span></span></td>
+<td><span data-ttu-id="5f46c-283">See väli täidetakse automaatselt kontaktisiku (esindaja) ID-kaardi andmete põhjal.</span><span class="sxs-lookup"><span data-stu-id="5f46c-283">This field is filled in automatically, based on the identity card data for the contact person (representative).</span></span> <span data-ttu-id="5f46c-284">Kui väljal <strong>Vastaskonto tüüp</strong> on valitud <strong>Avansisaaja</strong> ja väli <strong>Vastaskonto</strong> on määratud töövõtja koodile, saab kassaordereid või kulusid teha töövõtjalt või töövõtjale.</span><span class="sxs-lookup"><span data-stu-id="5f46c-284">If the <strong>Offset account type</strong> field is set to <strong>Advance holder</strong>, and the <strong>Offset account</strong> field is set to an employee number, cash receipts or expenditures can be done from or to the employee.</span></span> <span data-ttu-id="5f46c-285">Sellisel juhul täidetakse väli <strong>ID-kaart</strong> automaatselt, kasutades ID-kaardi andmeid tabelist <strong>Töövõtja</strong> (<strong>Personaliarvestus</strong> &gt; <strong>Töövõtjate tabel</strong>).</span><span class="sxs-lookup"><span data-stu-id="5f46c-285">In this case the <strong>Identity card</strong> field is filled in automatically by using data for the identity card from the <strong>Employee</strong> table (<strong>Staff accounting</strong> &gt; <strong>Employee table</strong>).</span></span></td>
 </tr>
 <tr class="odd">
-<td>Eesmärk</td>
-<td>Tabelis <strong>Eesmärk</strong> saate määratleda kande summa ühe või mitu sihtkoodi. Valige sihtkood väljal <strong>Eesmärk</strong> ja sisestage selgitus väljale <strong>Kande tekst</strong>. Sisestage väljale <strong>Summa</strong> summa kandevaluutas. Väljal <strong>Protsent</strong> kuvatakse sihtsumma ja kande kogusumma suhe protsentides.</td>
+<td><span data-ttu-id="5f46c-286">Eesmärk</span><span class="sxs-lookup"><span data-stu-id="5f46c-286">Purpose</span></span></td>
+<td><span data-ttu-id="5f46c-287">Tabelis <strong>Eesmärk</strong> saate määratleda kande summa ühe või mitu sihtkoodi.</span><span class="sxs-lookup"><span data-stu-id="5f46c-287">In the <strong>Purpose</strong> table, define one or more destination codes for the transaction amount.</span></span> <span data-ttu-id="5f46c-288">Valige sihtkood väljal <strong>Eesmärk</strong> ja sisestage selgitus väljale <strong>Kande tekst</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-288">Select a destination code in the <strong>Purpose</strong> field, and enter an explanation in the <strong>Transaction text</strong> field.</span></span> <span data-ttu-id="5f46c-289">Sisestage väljale <strong>Summa</strong> summa kandevaluutas.</span><span class="sxs-lookup"><span data-stu-id="5f46c-289">In the <strong>Amount</strong> field, enter an amount in the transaction currency.</span></span> <span data-ttu-id="5f46c-290">Väljal <strong>Protsent</strong> kuvatakse sihtsumma ja kande kogusumma suhe protsentides.</span><span class="sxs-lookup"><span data-stu-id="5f46c-290">The <strong>Percent</strong> field shows, as a percentage, the ratio of the destination amount to the total transaction amount.</span></span></td>
 </tr>
 <tr class="even">
-<td>Jääk</td>
-<td>Arvutatud järelejäänud summa. Pange tähele, et kande kogusumma tuleb määrata sihtkoodidele.</td>
+<td><span data-ttu-id="5f46c-291">Jääk</span><span class="sxs-lookup"><span data-stu-id="5f46c-291">Remainder</span></span></td>
+<td><span data-ttu-id="5f46c-292">Arvutatud järelejäänud summa.</span><span class="sxs-lookup"><span data-stu-id="5f46c-292">The remaining amount that is calculated.</span></span> <span data-ttu-id="5f46c-293">Pange tähele, et kande kogusumma tuleb määrata sihtkoodidele.</span><span class="sxs-lookup"><span data-stu-id="5f46c-293">Note that the whole transaction amount must be assigned to destination codes.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Ametiisikud</td>
-<td>Vahekaardil <strong>Ametiisikud</strong> saate määrata vastutavate isikute (direktor, pearaamatupidaja ja kassiir) nimed ja ametinimetused. Välja <strong>Ametikoht</strong> väärtused määratletakse ametiisikute seadistusega lehe <strong>Ametiisikud</strong> vahekaartidel <strong>Üldine</strong> ja <strong>Pearaamat</strong> (<strong>Põhiline</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Kontaktid</strong> &gt; <strong>Ametiisikud</strong>).</td>
+<td><span data-ttu-id="5f46c-294">Ametiisikud</span><span class="sxs-lookup"><span data-stu-id="5f46c-294">Officials</span></span></td>
+<td><span data-ttu-id="5f46c-295">Vahekaardil <strong>Ametiisikud</strong> saate määrata vastutavate isikute (direktor, pearaamatupidaja ja kassiir) nimed ja ametinimetused.</span><span class="sxs-lookup"><span data-stu-id="5f46c-295">On the <strong>Officials</strong> tab, specify the names and titles for responsible persons: Director, Chief accountant, and Cashier.</span></span> <span data-ttu-id="5f46c-296">Välja <strong>Ametikoht</strong> väärtused määratletakse ametiisikute seadistusega lehe <strong>Ametiisikud</strong> vahekaartidel <strong>Üldine</strong> ja <strong>Pearaamat</strong> (<strong>Põhiline</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Kontaktid</strong> &gt; <strong>Ametiisikud</strong>).</span><span class="sxs-lookup"><span data-stu-id="5f46c-296">The <strong>Position</strong> values are determined by the setup of officials on the <strong>General</strong> and <strong>Ledger</strong> tabs of the <strong>Officials</strong> page (<strong>Basic</strong> &gt; <strong>Setup</strong> &gt; <strong>Contacts</strong> &gt; <strong>Officials</strong>).</span></span></td>
 </tr>
 <tr class="even">
-<td>Ettemaks</td>
-<td>Märkige see ruut, kui kanne on ettemakse.</td>
+<td><span data-ttu-id="5f46c-297">Ettemaks</span><span class="sxs-lookup"><span data-stu-id="5f46c-297">Prepayment</span></span></td>
+<td><span data-ttu-id="5f46c-298">Märkige see ruut, kui kanne on ettemakse.</span><span class="sxs-lookup"><span data-stu-id="5f46c-298">Select this check box if the transaction is a prepayment.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Sisestusreeglid</td>
-<td>Saate sisestada sularahakonto sisestusreeglid. Vaikimisi kasutatakse sularaha- ja pangahalduse parameetrites määratud sisestusreegleid.</td>
+<td><span data-ttu-id="5f46c-299">Sisestusreeglid</span><span class="sxs-lookup"><span data-stu-id="5f46c-299">Posting profile</span></span></td>
+<td><span data-ttu-id="5f46c-300">Saate sisestada sularahakonto sisestusreeglid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-300">Enter the posting profile for the cash account.</span></span> <span data-ttu-id="5f46c-301">Vaikimisi kasutatakse sularaha- ja pangahalduse parameetrites määratud sisestusreegleid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-301">By default, the posting profile that is specified in the Cash and bank management parameters is used.</span></span></td>
 </tr>
 <tr class="even">
-<td>Vastaskontoga sisestamise reeglid</td>
-<td>Saate sisestada valitud vastaskonto sisestusreeglid.</td>
+<td><span data-ttu-id="5f46c-302">Vastaskontoga sisestamise reeglid</span><span class="sxs-lookup"><span data-stu-id="5f46c-302">Offset posting profile</span></span></td>
+<td><span data-ttu-id="5f46c-303">Saate sisestada valitud vastaskonto sisestusreeglid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-303">Enter the posting profile for the selected offset account.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Kogusumma</td>
-<td>Lehe alaosas asuvas väljagrupis <strong>Kogusumma</strong> oleval väljal <strong>Korv.</strong> kuvatakse kogusumma, mis arvutatakse kõigi praegusele töölehele sisestatud kassa korvamisorderite kohta, ning väljal <strong>Väljam.</strong> kuvatakse kõigi kassa väljaminekuorderite kogusumma.</td>
+<td><span data-ttu-id="5f46c-304">Kogusumma</span><span class="sxs-lookup"><span data-stu-id="5f46c-304">Total amount</span></span></td>
+<td><span data-ttu-id="5f46c-305">Lehe alaosas asuvas väljagrupis <strong>Kogusumma</strong> oleval väljal <strong>Korv.</strong> kuvatakse kogusumma, mis arvutatakse kõigi praegusele töölehele sisestatud kassa korvamisorderite kohta, ning väljal <strong>Väljam.</strong> kuvatakse kõigi kassa väljaminekuorderite kogusumma.</span><span class="sxs-lookup"><span data-stu-id="5f46c-305">In the <strong>Total amount</strong> field group at the bottom of the page, the <strong>Reimb</strong> field shows the total that is calculated for all Cash reimbursement slips that are entered in the current journal, and the <strong>Disb</strong> field shows the total for all Cash disbursement slips.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-Töölehekannete vaatamiseks klõpsake toimingupaanil nuppu **Kinnita**.
+<span data-ttu-id="5f46c-306">Töölehekannete vaatamiseks klõpsake toimingupaanil nuppu **Kinnita**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-306">To check journal entries, on the Action Pane, click **Validate**.</span></span>
 
-## <a name="daily-cash-operations-via-a-general-journal"></a>Igapäevased sularahatoimingud päevaraamatu töölehe kaudu
-Sularahakannete loomiseks pearaamatu töölehe kaudu avage **Pearaamat** &gt; **Töölehe sisestused** &gt; **Päevaraamatud** ja looge uus tööleht. Klõpsake toimingupaanil valikut **Read**. Lisage uus rida ja sisestage järgmine teave.
+## <a name="daily-cash-operations-via-a-general-journal"></a><span data-ttu-id="5f46c-307">Igapäevased sularahatoimingud päevaraamatu töölehe kaudu</span><span class="sxs-lookup"><span data-stu-id="5f46c-307">Daily cash operations via a General journal</span></span>
+<span data-ttu-id="5f46c-308">Sularahakannete loomiseks pearaamatu töölehe kaudu avage **Pearaamat** &gt; **Töölehe sisestused** &gt; **Päevaraamatud** ja looge uus tööleht.</span><span class="sxs-lookup"><span data-stu-id="5f46c-308">To create a cash transaction via a General journal, go to **General ledger** &gt; **Journal entries** &gt; **General journals**, and create a new journal.</span></span> <span data-ttu-id="5f46c-309">Klõpsake toimingupaanil valikut **Read**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-309">On the Action Pane, click **Lines**.</span></span> <span data-ttu-id="5f46c-310">Lisage uus rida ja sisestage järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="5f46c-310">Add a new line, and enter the following information.</span></span>
 
 <table>
 <colgroup>
@@ -373,61 +373,61 @@ Sularahakannete loomiseks pearaamatu töölehe kaudu avage **Pearaamat** &gt; **
 </colgroup>
 <thead>
 <tr class="header">
-<th>Väli</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="5f46c-311">Väli</span><span class="sxs-lookup"><span data-stu-id="5f46c-311">Field</span></span></th>
+<th><span data-ttu-id="5f46c-312">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-312">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kuupäev</td>
-<td>Sisestage kande kuupäev.</td>
+<td><span data-ttu-id="5f46c-313">Kuupäev</span><span class="sxs-lookup"><span data-stu-id="5f46c-313">Date</span></span></td>
+<td><span data-ttu-id="5f46c-314">Sisestage kande kuupäev.</span><span class="sxs-lookup"><span data-stu-id="5f46c-314">Enter the date of the transaction.</span></span></td>
 </tr>
 <tr class="even">
-<td>Konto tüüp</td>
-<td>Valige <strong>Väikesed summad</strong>.</td>
+<td><span data-ttu-id="5f46c-315">Konto tüüp</span><span class="sxs-lookup"><span data-stu-id="5f46c-315">Account type</span></span></td>
+<td><span data-ttu-id="5f46c-316">Valige <strong>Väikesed summad</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-316">Select <strong>Petty cash</strong>.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Konto</td>
-<td>Valige sularahakonto number.</td>
+<td><span data-ttu-id="5f46c-317">Konto</span><span class="sxs-lookup"><span data-stu-id="5f46c-317">Account</span></span></td>
+<td><span data-ttu-id="5f46c-318">Valige sularahakonto number.</span><span class="sxs-lookup"><span data-stu-id="5f46c-318">Select the cash account number.</span></span></td>
 </tr>
 <tr class="even">
-<td>Kande tekst</td>
-<td>Sisestage kande jaoks selgitav tekst.</td>
+<td><span data-ttu-id="5f46c-319">Kande tekst</span><span class="sxs-lookup"><span data-stu-id="5f46c-319">Transaction text</span></span></td>
+<td><span data-ttu-id="5f46c-320">Sisestage kande jaoks selgitav tekst.</span><span class="sxs-lookup"><span data-stu-id="5f46c-320">Enter explanatory text for the transaction.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Deebet, kreedit</td>
-<td>Sisestage kassadokumendi summa ühele järgmistest väljadest.
+<td><span data-ttu-id="5f46c-321">Deebet, kreedit</span><span class="sxs-lookup"><span data-stu-id="5f46c-321">Debit Credit</span></span></td>
+<td><span data-ttu-id="5f46c-322">Sisestage kassadokumendi summa ühele järgmistest väljadest.</span><span class="sxs-lookup"><span data-stu-id="5f46c-322">Enter cash document amount in one of these fields:</span></span>
 <ul>
-<li><strong>Deebet</strong> – kasutage seda välja kassa sissetuleku- ja väljaminekuorderite registreerimiseks.</li>
-<li><strong>Kreedit</strong> – kasutage seda välja kassa kulu- ja väljaminekuorderite registreerimiseks.</li>
+<li><span data-ttu-id="5f46c-323"><strong>Deebet</strong> – kasutage seda välja kassa sissetuleku- ja väljaminekuorderite registreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-323"><strong>Debit</strong> – Use this field to register cash receipts and a Cash reimbursement slip.</span></span></li>
+<li><span data-ttu-id="5f46c-324"><strong>Kreedit</strong> – kasutage seda välja kassa kulu- ja väljaminekuorderite registreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-324"><strong>Credit</strong> – Use this field to register cash expenditures and a Cash disbursement slip.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Vastaskonto tüüp, vastaskonto</td>
-<td>Valige vastaskonto tüüp ja vastaskonto number.</td>
+<td><span data-ttu-id="5f46c-325">Vastaskonto tüüp, vastaskonto</span><span class="sxs-lookup"><span data-stu-id="5f46c-325">Offset account type Offset account</span></span></td>
+<td><span data-ttu-id="5f46c-326">Valige vastaskonto tüüp ja vastaskonto number.</span><span class="sxs-lookup"><span data-stu-id="5f46c-326">Select an offset account type and offset account number.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Valuuta</td>
-<td>Valige kande valuutakood.</td>
+<td><span data-ttu-id="5f46c-327">Valuuta</span><span class="sxs-lookup"><span data-stu-id="5f46c-327">Currency</span></span></td>
+<td><span data-ttu-id="5f46c-328">Valige kande valuutakood.</span><span class="sxs-lookup"><span data-stu-id="5f46c-328">Select the code for the transaction currency.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-Vahekaardil **Arve** saate määrata valitud konto ja vastaskonto sisestusreeglid. Kui registreeritud kanne on ettemakse, märkige vahekaardil **Makse** ruut **Ettemakse**. Täitke väljagrupis **Esindaja** väljad, nagu saatelehe töölehtede puhul, et printida välja **Sularahaaruanne**. Töölehekannete vaatamiseks klõpsake toimingupaanil nuppu **Kinnita**.
+<span data-ttu-id="5f46c-329">Vahekaardil **Arve** saate määrata valitud konto ja vastaskonto sisestusreeglid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-329">On the **Invoice** tab, you can specify posting profiles for the selected account and offset account.</span></span> <span data-ttu-id="5f46c-330">Kui registreeritud kanne on ettemakse, märkige vahekaardil **Makse** ruut **Ettemakse**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-330">If the registered transaction is a prepayment, select the **Prepayment** check box on the **Payment** tab.</span></span> <span data-ttu-id="5f46c-331">Täitke väljagrupis **Esindaja** väljad, nagu saatelehe töölehtede puhul, et printida välja **Sularahaaruanne**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-331">In the **Representative** field group, fill in the fields as you did for the Slip journal lines to print on the **Cash** report.</span></span> <span data-ttu-id="5f46c-332">Töölehekannete vaatamiseks klõpsake toimingupaanil nuppu **Kinnita**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-332">To check journal entries, on the Action Pane, click **Validate**.</span></span>
 
-## <a name="cash-transaction-approval-and-posting"></a>Sularahakande kinnitamine ja sisestamine
-Sularahakannete puhul saab rakendada järgmisi olekuid: **Pole**, **Kinnitatud**, **Heaks kiidetud**, **Tagasi lükatud**. Parameeter **Kasuta kinnituse olekut** vahekaardi **Sularaha** kiirkaardil **Kinnitamine** (**Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**) võimaldab aktiveerida kaks lisaolekut: **Kinnitatud** ja **Tagasi lükatud**. Kinnitus on asjakohane, kui kassadokumendid on väljastatud ning kaks töövõtjat – raamatupidaja ja kassiir – kasutavad ühiselt kassaordereid või kulusid. Funktsioon **Lähtesta olek** muudab kande praegust olekut. Olek **Heaks kiidetud** muutub olekuks **Kinnitatud** ja olek **Kinnitatud** muutub olekuks **Pole**. Sularahatöölehe sisestusi saab redigeerida ainult siis, kui olek on **Pole**. Sularahakandeid saab tagasi lükata ainult siis, kui kande olek on **Kinnitatud**. Tagasi lüktatud kassadokumendid kaasatakse aruandesse **Kassadokumentide registreerimise tööleht**, kuid need ei kajastu aruandes **Kassaraamat**. Kande kinnitamiseks valige vastav saatelehe töölehe rida ja klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Kinnita**. Luuakse tellimuse number, võttes aluseks määratud numbriseeria. Kande olekuks muutub **Kinnitatud** ja töölehe rida ei saa enam redigeerida. Sularahakonto saldo jääb muutumatuks. Kassadokumendi tagasilükkamiseks klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Lükka tagasi**. See suvand on saadaval ainult dokumentide puhul, mille olek on **Kinnitatud**. Kande heakskiitmiseks valige vastav saatelehe töölehe rida ja klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Kiida heaks**. Olek **Heaks kiidetud** näitab, et sularaha on vastu võetud või kulutatud. Kassasaldo on muutunud. Sularahakannet saab sisestada. Oleku **Heaks kiidetud** tühistamiseks ja ennistamiseks väärtusele **Pole** klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Lähtesta olek**. Sisestada saab ainult heakskiidetud sularahakandeid. Töölehe sisestamiseks klõpsake valikuid **Sisesta** &gt; **Sisesta**.
+## <a name="cash-transaction-approval-and-posting"></a><span data-ttu-id="5f46c-333">Sularahakande kinnitamine ja sisestamine</span><span class="sxs-lookup"><span data-stu-id="5f46c-333">Cash transaction approval and posting</span></span>
+<span data-ttu-id="5f46c-334">Sularahakannete puhul saab rakendada järgmisi olekuid: **Pole**, **Kinnitatud**, **Heaks kiidetud**, **Tagasi lükatud**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-334">For cash transactions, the following statuses can be applied: **None**, **Confirmed**, **Approved**, and **Rejected**.</span></span> <span data-ttu-id="5f46c-335">Parameeter **Kasuta kinnituse olekut** vahekaardi **Sularaha** kiirkaardil **Kinnitamine** (**Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**) võimaldab aktiveerida kaks lisaolekut: **Kinnitatud** ja **Tagasi lükatud**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-335">A **Use confirm status** parameter on the **Approval** FastTab of the **Cash** tab at **Cash and bank management** &gt; **Setup** &gt; **Cash and bank management parameters** lets you activate two additional statuses: **Confirmed** and **Rejected**.</span></span> <span data-ttu-id="5f46c-336">Kinnitus on asjakohane, kui kassadokumendid on väljastatud ning kaks töövõtjat – raamatupidaja ja kassiir – kasutavad ühiselt kassaordereid või kulusid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-336">Confirmation is appropriate when cash documents are issued, and cash receipts or expenditures are shared between two employees: accountant and cashier.</span></span> <span data-ttu-id="5f46c-337">Funktsioon **Lähtesta olek** muudab kande praegust olekut.</span><span class="sxs-lookup"><span data-stu-id="5f46c-337">The **Reset status** function changes the current transaction status.</span></span> <span data-ttu-id="5f46c-338">Olek **Heaks kiidetud** muutub olekuks **Kinnitatud** ja olek **Kinnitatud** muutub olekuks **Pole**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-338">**Approved** becomes **Confirmed**, and **Confirmed** becomes **None**.</span></span> <span data-ttu-id="5f46c-339">Sularahatöölehe sisestusi saab redigeerida ainult siis, kui olek on **Pole**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-339">Cash journal entries can be edited only when the status is **None**.</span></span> <span data-ttu-id="5f46c-340">Sularahakandeid saab tagasi lükata ainult siis, kui kande olek on **Kinnitatud**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-340">Cash transactions can be rejected only if the transaction status is **Confirmed**.</span></span> <span data-ttu-id="5f46c-341">Tagasi lüktatud kassadokumendid kaasatakse aruandesse **Kassadokumentide registreerimise tööleht**, kuid need ei kajastu aruandes **Kassaraamat**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-341">Rejected cash documents are included on the **Journal of registration of cash documents** report, but they aren't reflected on the **Cash book** report.</span></span> <span data-ttu-id="5f46c-342">Kande kinnitamiseks valige vastav saatelehe töölehe rida ja klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Kinnita**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-342">To confirm a transaction, select the corresponding Slip journal line, and then click **Documents approval** &gt; **Confirm**.</span></span> <span data-ttu-id="5f46c-343">Luuakse tellimuse number, võttes aluseks määratud numbriseeria.</span><span class="sxs-lookup"><span data-stu-id="5f46c-343">An order number is generated, based on the specified number sequence.</span></span> <span data-ttu-id="5f46c-344">Kande olekuks muutub **Kinnitatud** ja töölehe rida ei saa enam redigeerida.</span><span class="sxs-lookup"><span data-stu-id="5f46c-344">The transaction status is changed to **Confirmed**, and you can no longer edit the journal line.</span></span> <span data-ttu-id="5f46c-345">Sularahakonto saldo jääb muutumatuks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-345">The cash account balance remains unchanged.</span></span> <span data-ttu-id="5f46c-346">Kassadokumendi tagasilükkamiseks klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Lükka tagasi**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-346">To reject a cash document, click **Documents approval** &gt; **Reject**.</span></span> <span data-ttu-id="5f46c-347">See suvand on saadaval ainult dokumentide puhul, mille olek on **Kinnitatud**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-347">This option is available only for documents that have **Confirmed** status.</span></span> <span data-ttu-id="5f46c-348">Kande heakskiitmiseks valige vastav saatelehe töölehe rida ja klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Kiida heaks**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-348">To approve a transaction, select the corresponding Slip journal line, and then click **Documents approval** &gt; **Approve**.</span></span> <span data-ttu-id="5f46c-349">Olek **Heaks kiidetud** näitab, et sularaha on vastu võetud või kulutatud.</span><span class="sxs-lookup"><span data-stu-id="5f46c-349">The **Approved** status indicates that cash funds are received or expended.</span></span> <span data-ttu-id="5f46c-350">Kassasaldo on muutunud.</span><span class="sxs-lookup"><span data-stu-id="5f46c-350">The cash balance is changed.</span></span> <span data-ttu-id="5f46c-351">Sularahakannet saab sisestada.</span><span class="sxs-lookup"><span data-stu-id="5f46c-351">The cash transaction can be posted.</span></span> <span data-ttu-id="5f46c-352">Oleku **Heaks kiidetud** tühistamiseks ja ennistamiseks väärtusele **Pole** klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Lähtesta olek**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-352">To cancel an **Approved** status and reset the status to **None**, click **Documents approval** &gt; **Reset status**.</span></span> <span data-ttu-id="5f46c-353">Sisestada saab ainult heakskiidetud sularahakandeid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-353">Only approved cash transactions can be posted.</span></span> <span data-ttu-id="5f46c-354">Töölehe sisestamiseks klõpsake valikuid **Sisesta** &gt; **Sisesta**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-354">To post a journal, click **Post** &gt; **Post**.</span></span>
 
-## <a name="print-a-cash-order"></a>Kassaorderi printimine
-Kassaorderi printimiseks valige saatelehe töölehe rida ja seejärel klõpsake toimingupaanil valikuid **Prindi** &gt; **Kassaorderi aruanne**. Süsteem loob prindivormi kas kassa korvamisorderi või kassa väljaminekuorderi kohta olenevalt sellest, kas summa on sisestatud valitud real väljale **Deebet** või **Kreedit**.
+## <a name="print-a-cash-order"></a><span data-ttu-id="5f46c-355">Kassaorderi printimine</span><span class="sxs-lookup"><span data-stu-id="5f46c-355">Print a cash order</span></span>
+<span data-ttu-id="5f46c-356">Kassaorderi printimiseks valige saatelehe töölehe rida ja seejärel klõpsake toimingupaanil valikuid **Prindi** &gt; **Kassaorderi aruanne**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-356">To print a cash order, select a Slip journal line, and then, on the Action Pane, click **Print** &gt; **Cash order report**.</span></span> <span data-ttu-id="5f46c-357">Süsteem loob prindivormi kas kassa korvamisorderi või kassa väljaminekuorderi kohta olenevalt sellest, kas summa on sisestatud valitud real väljale **Deebet** või **Kreedit**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-357">The system generates a printing form for either a Cash reimbursement slip or a Cash disbursement slip, depending on whether an amount is entered in the **Debit** field the or **Credit** field for the selected line:</span></span>
 
--   Kui summa on väljal **Deebet**: kassa korvamisorder
--   Kui summa on väljal **Kreedit**: kassa väljaminekuorder
+-   <span data-ttu-id="5f46c-358">Kui summa on väljal **Deebet**: kassa korvamisorder</span><span class="sxs-lookup"><span data-stu-id="5f46c-358">If there is an amount in the **Debit** field: Cash reimbursement slip</span></span>
+-   <span data-ttu-id="5f46c-359">Kui summa on väljal **Kreedit**: kassa väljaminekuorder</span><span class="sxs-lookup"><span data-stu-id="5f46c-359">If there is an amount in the **Credit** field: Cash disbursement slip</span></span>
 
-Printida saab saatelehe töölehe ridu, mille olek on **Kinnitatud**, **Heaks kiidetud** või **Tagasi lükatud**. Samuti saate printida kassaorderi dokumente jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Kassaorder**.
+<span data-ttu-id="5f46c-360">Printida saab saatelehe töölehe ridu, mille olek on **Kinnitatud**, **Heaks kiidetud** või **Tagasi lükatud**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-360">Slip journal lines that have **Confirmed**, **Approved**, or **Rejected** status can be printed.</span></span> <span data-ttu-id="5f46c-361">Samuti saate printida kassaorderi dokumente jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Kassaorder**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-361">You can also print cash order documents at **Cash and bank management** &gt; **Inquires and reports** &gt; **Cash order**.</span></span>
 
-## <a name="periodic-tasks"></a>Perioodilised ülesanded
-Jaotises **Sularaha- ja pangahaldus** &gt; **Perioodilised ülesanded** saab teha järgmist.
+## <a name="periodic-tasks"></a><span data-ttu-id="5f46c-362">Perioodilised ülesanded</span><span class="sxs-lookup"><span data-stu-id="5f46c-362">Periodic tasks</span></span>
+<span data-ttu-id="5f46c-363">Jaotises **Sularaha- ja pangahaldus** &gt; **Perioodilised ülesanded** saab teha järgmist.</span><span class="sxs-lookup"><span data-stu-id="5f46c-363">The following tasks can be performed at **Cash and bank management** &gt; **Periodic tasks**.</span></span>
 
 <table>
 <colgroup>
@@ -436,46 +436,46 @@ Jaotises **Sularaha- ja pangahaldus** &gt; **Perioodilised ülesanded** saab teh
 </colgroup>
 <thead>
 <tr class="header">
-<th>Perioodiline ülesanne</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="5f46c-364">Perioodiline ülesanne</span><span class="sxs-lookup"><span data-stu-id="5f46c-364">Periodic task</span></span></th>
+<th><span data-ttu-id="5f46c-365">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-365">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kontrolli saldolimiiti</td>
-<td>Saate kontrollida valitud sularahakonto saldot määratud kuupäeval ja kuvada tulemuse teabesõnumis. Saldoarvutusse saab kaasata ainult heakskiidetud kandeid. Kandeid märkega <strong>Palgaarvestuseks</strong> arvesse ei võeta.</td>
+<td><span data-ttu-id="5f46c-366">Kontrolli saldolimiiti</span><span class="sxs-lookup"><span data-stu-id="5f46c-366">Check balance limit</span></span></td>
+<td><span data-ttu-id="5f46c-367">Saate kontrollida valitud sularahakonto saldot määratud kuupäeval ja kuvada tulemuse teabesõnumis.</span><span class="sxs-lookup"><span data-stu-id="5f46c-367">Check the balance for the selected cash account on the specified date, and show the result in an information message.</span></span> <span data-ttu-id="5f46c-368">Saldoarvutusse saab kaasata ainult heakskiidetud kandeid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-368">Only approved transactions can be counted in the balance calculation.</span></span> <span data-ttu-id="5f46c-369">Kandeid märkega <strong>Palgaarvestuseks</strong> arvesse ei võeta.</span><span class="sxs-lookup"><span data-stu-id="5f46c-369">Transactions that are marked as <strong>For payroll</strong> aren't considered.</span></span></td>
 </tr>
 <tr class="even">
-<td>Kassasaldo ümberarvutamine</td>
-<td>Selle ülesandega saate kontrollida, kas sularahakontode pearaamatusaldod vastavad sularahasaldole.</td>
+<td><span data-ttu-id="5f46c-370">Kassasaldo ümberarvutamine</span><span class="sxs-lookup"><span data-stu-id="5f46c-370">Cash balance recalculation</span></span></td>
+<td><span data-ttu-id="5f46c-371">Selle ülesandega saate kontrollida, kas sularahakontode pearaamatusaldod vastavad sularahasaldole.</span><span class="sxs-lookup"><span data-stu-id="5f46c-371">Use this task to make sure that the ledger balances for cash accounts fit the cash balance.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Sularahaaruande loomine (ainult Poola puhul).</td>
-<td>Looge aruanne <strong>Sularaha</strong>. Aruande <strong>Sularaha</strong> number luuakse suvandi <strong>Aruande number</strong> jaoks seadistatud numbriseeria põhjal. Määrake ülesande dialoogiboksis väljal <strong>Tähtaeg</strong> viimane kuupäev, mille sularahakandeid tuleb aruandes <strong>Sularaha</strong> arvesse võtta. Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> lisakriteeriumid sularahakannete valiku piiramiseks. Need kriteeriumid võivad sisaldada sularahakontode numbreid ja valuutakoode. Valige väljal <strong>Looja</strong> aruande koostamise eest vastutav kasutaja. Loodud aruande <strong>Sularaha</strong> vaatamiseks kasutage lehel <strong>Sularahakontod</strong> olevat nuppu <strong>Sularahaaruanded</strong>.</td>
+<td><span data-ttu-id="5f46c-372">Sularahaaruande loomine (ainult Poola puhul).</span><span class="sxs-lookup"><span data-stu-id="5f46c-372">Cash report creation (for Poland only)</span></span></td>
+<td><span data-ttu-id="5f46c-373">Looge aruanne <strong>Sularaha</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-373">Create a <strong>Cash</strong> report.</span></span> <span data-ttu-id="5f46c-374">Aruande <strong>Sularaha</strong> number luuakse suvandi <strong>Aruande number</strong> jaoks seadistatud numbriseeria põhjal.</span><span class="sxs-lookup"><span data-stu-id="5f46c-374">The <strong>Cash</strong> report number is generated based on the number sequence that is set up for <strong>Report number</strong>.</span></span> <span data-ttu-id="5f46c-375">Määrake ülesande dialoogiboksis väljal <strong>Tähtaeg</strong> viimane kuupäev, mille sularahakandeid tuleb aruandes <strong>Sularaha</strong> arvesse võtta.</span><span class="sxs-lookup"><span data-stu-id="5f46c-375">In the dialog box for the task, in the <strong>To date</strong>, specify the last date for which cash transactions should be counted for the <strong>Cash</strong> report.</span></span> <span data-ttu-id="5f46c-376">Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> lisakriteeriumid sularahakannete valiku piiramiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-376">Use the <strong>Filter</strong> function on the <strong>Records to include</strong> tab to specify additional criteria to limit the selection of cash transactions.</span></span> <span data-ttu-id="5f46c-377">Need kriteeriumid võivad sisaldada sularahakontode numbreid ja valuutakoode.</span><span class="sxs-lookup"><span data-stu-id="5f46c-377">These criteria can include cash account numbers and currency codes.</span></span> <span data-ttu-id="5f46c-378">Valige väljal <strong>Looja</strong> aruande koostamise eest vastutav kasutaja.</span><span class="sxs-lookup"><span data-stu-id="5f46c-378">In the <strong>Create by</strong> field, select the user who is responsible for report creation.</span></span> <span data-ttu-id="5f46c-379">Loodud aruande <strong>Sularaha</strong> vaatamiseks kasutage lehel <strong>Sularahakontod</strong> olevat nuppu <strong>Sularahaaruanded</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-379">To view the <strong>Cash</strong> report that is created, use the <strong>Cash reports</strong> button on the <strong>Cash accounts</strong> page.</span></span></td>
 </tr>
 <tr class="even">
-<td>Kassa – valuutakursi korrigeerimine, FIFO ja LIFO (ainult Poola puhul)</td>
-<td>Arvutage valuutakursi korrigeerimine Poola standardite alusel. Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> sularahakonto, mille kohta ülesanne kävitada. Märkige ruut <strong>Ümberarvutus</strong> valuutakursi korrigeerimise erinevuse ümberarvutamiseks kõigi avatud perioodide puhul. Kaubavarude hinna määramise FIFO-meetodi (esimesena sisse, esimesena välja) ja kaubavarude hinna määramise LIFO-meetodi (viimasena sisse, esimesena välja) kasutamisel arvutatakse valuutakursi korrigeerimine järgmiselt.
+<td><span data-ttu-id="5f46c-380">Kassa – valuutakursi korrigeerimine, FIFO ja LIFO (ainult Poola puhul)</span><span class="sxs-lookup"><span data-stu-id="5f46c-380">Cash - Exchange adjustment FIFO and LIFO (for Poland only)</span></span></td>
+<td><span data-ttu-id="5f46c-381">Arvutage valuutakursi korrigeerimine Poola standardite alusel.</span><span class="sxs-lookup"><span data-stu-id="5f46c-381">Calculate the exchange adjustment per Polish standards.</span></span> <span data-ttu-id="5f46c-382">Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> sularahakonto, mille kohta ülesanne kävitada.</span><span class="sxs-lookup"><span data-stu-id="5f46c-382">Use the <strong>Filter</strong> function on the <strong>Records to include</strong> tab to specify the cash account to run the task for.</span></span> <span data-ttu-id="5f46c-383">Märkige ruut <strong>Ümberarvutus</strong> valuutakursi korrigeerimise erinevuse ümberarvutamiseks kõigi avatud perioodide puhul.</span><span class="sxs-lookup"><span data-stu-id="5f46c-383">Select the <strong>Recalculation</strong> check box to do a full recalculation of the exchange adjustment difference for all open periods.</span></span> <span data-ttu-id="5f46c-384">Kaubavarude hinna määramise FIFO-meetodi (esimesena sisse, esimesena välja) ja kaubavarude hinna määramise LIFO-meetodi (viimasena sisse, esimesena välja) kasutamisel arvutatakse valuutakursi korrigeerimine järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="5f46c-384">Here is how the exchange adjustment is calculated when the first in, first out (FIFO) and last in, first out (LIFO) methods are used:</span></span>
 <ul>
-<li><strong>FIFO-meetod</strong>– süsteem otsib varasema kandekuupäevaga (väiksema tellimuse numbriga) kulukannet ja tasakaalustab selle varasema kandekuupäevaga (väiksema tellimuse numbriga) sissetulekukandega.</li>
-<li><strong>LIFO-meetod</strong>– süsteem otsib hilisema kandekuupäevaga (suurema tellimuse numbriga) kulukannet ja tasakaalustab selle hilisema kandekuupäevaga (suurema tellimuse numbriga) sissetulekukandega.</li>
+<li><span data-ttu-id="5f46c-385"><strong>FIFO-meetod</strong>– süsteem otsib varasema kandekuupäevaga (väiksema tellimuse numbriga) kulukannet ja tasakaalustab selle varasema kandekuupäevaga (väiksema tellimuse numbriga) sissetulekukandega.</span><span class="sxs-lookup"><span data-stu-id="5f46c-385"><strong>FIFO method</strong> – The system searches for an expenditure transaction that has an earlier transaction date (smaller order number) and settles it with a receipt transaction that has an earlier transaction date (smaller order number).</span></span></li>
+<li><span data-ttu-id="5f46c-386"><strong>LIFO-meetod</strong>– süsteem otsib hilisema kandekuupäevaga (suurema tellimuse numbriga) kulukannet ja tasakaalustab selle hilisema kandekuupäevaga (suurema tellimuse numbriga) sissetulekukandega.</span><span class="sxs-lookup"><span data-stu-id="5f46c-386"><strong>LIFO method</strong> – The system searches for an expenditure transaction that has a later transaction date (larger order number) and settles it with a receipt transaction that has a later transaction date (larger order number).</span></span></li>
 </ul>
-Tasakaalustatud summa kajastub lehe <strong>Sularahakanne</strong> väljal <strong>Tasakaalustatud valuuta</strong>. Valuutakursi korrigeerimise erinevuse korral kajastub summa väljal <strong>Valuutakursi korrigeerimise summa</strong> ja tabelis <strong>Sularahakanne</strong> luuakse kanne dokumenditüübita <strong>Valuutakursi erinevus</strong>. Kasumi/kahjumi kannete pearaamatukontod määratakse tabelis <strong>Valuuta</strong> (<strong>Valuutakursi finantskasum</strong> ja <strong>Valuutakursi finantskahjum</strong>).</td>
+<span data-ttu-id="5f46c-387">Tasakaalustatud summa kajastub lehe <strong>Sularahakanne</strong> väljal <strong>Tasakaalustatud valuuta</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-387">The settled amount is reflected in the <strong>Settled currency</strong> field on the <strong>Cash transaction</strong> page.</span></span> <span data-ttu-id="5f46c-388">Valuutakursi korrigeerimise erinevuse korral kajastub summa väljal <strong>Valuutakursi korrigeerimise summa</strong> ja tabelis <strong>Sularahakanne</strong> luuakse kanne dokumenditüübita <strong>Valuutakursi erinevus</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-388">If there is an exchange adjustment difference, the amount is reflected in the <strong>Exchange adjustment amount</strong> field, and a transaction of the <strong>Exchange rate difference</strong> document type is generated in the <strong>Cash transaction</strong> table.</span></span> <span data-ttu-id="5f46c-389">Kasumi/kahjumi kannete pearaamatukontod määratakse tabelis <strong>Valuuta</strong> (<strong>Valuutakursi finantskasum</strong> ja <strong>Valuutakursi finantskahjum</strong>).</span><span class="sxs-lookup"><span data-stu-id="5f46c-389">Ledger accounts for profit/loss transactions are set in the <strong>Currency</strong> table (<strong>Exchange rate financial profit</strong> and <strong>Exchange rate financial loss</strong>).</span></span></td>
 </tr>
 <tr class="odd">
-<td>Välisvaluuta ümberarvutamine – kassa</td>
-<td>Saate selle ülesande abil tagada aruandluskuupäeval piisava saldo vaikevaluutas, kui toimingud on sisestatud välisvaluutades. Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> sularahakonto, mille kohta ülesanne kävitada. Määrake ülesande dialoogiboksis väljade <strong>Lähtevaluuta</strong> ja <strong>Sihtvaluuta</strong> abil kande valuutad. Süsteem võrdleb valitud kuupäeva valuutakursi abil teisendatud valuuta summat vaikevaluuta summaga. Kahe summa vaheline erinevus (v.a eelmine valuutakursi korrigeerimine) on arvutatud valuutakursi korrigeerimine. See ülesanne loob heakskiidetud sularahakande tüübiga <strong>Valuutakursi korrigeerimine</strong>. Pearaamatu kanne koostamisel kasutatakse sularaha pearaamatukontot ja tabelis <strong>Valuuta</strong> väljal <strong>Realiseerimata kasum</strong> või <strong>Realiseerimata kahjum</strong> määratud pearaamatukontot.</td>
+<td><span data-ttu-id="5f46c-390">Välisvaluuta ümberarvutamine – kassa</span><span class="sxs-lookup"><span data-stu-id="5f46c-390">Foreign currency revaluation - Cash</span></span></td>
+<td><span data-ttu-id="5f46c-391">Saate selle ülesande abil tagada aruandluskuupäeval piisava saldo vaikevaluutas, kui toimingud on sisestatud välisvaluutades.</span><span class="sxs-lookup"><span data-stu-id="5f46c-391">Use this task to have an adequate balance in the default currency on the reporting date when the operations are entered in foreign currencies.</span></span> <span data-ttu-id="5f46c-392">Määrake vahekaardi <strong>Kaasatavad kirjed</strong> funktsiooniga <strong>Filtreeri</strong> sularahakonto, mille kohta ülesanne kävitada.</span><span class="sxs-lookup"><span data-stu-id="5f46c-392">Use the <strong>Filter</strong> function on the <strong>Records to include</strong> tab to specify the cash account to run the task for.</span></span> <span data-ttu-id="5f46c-393">Määrake ülesande dialoogiboksis väljade <strong>Lähtevaluuta</strong> ja <strong>Sihtvaluuta</strong> abil kande valuutad.</span><span class="sxs-lookup"><span data-stu-id="5f46c-393">In the dialog box for the task, use the <strong>From currency</strong> and <strong>To Currency</strong> fields to specify transaction currencies.</span></span> <span data-ttu-id="5f46c-394">Süsteem võrdleb valitud kuupäeva valuutakursi abil teisendatud valuuta summat vaikevaluuta summaga.</span><span class="sxs-lookup"><span data-stu-id="5f46c-394">The system compares the amount in the currency that was converted by using exchange rate on the selected date with the amount in the default currency.</span></span> <span data-ttu-id="5f46c-395">Kahe summa vaheline erinevus (v.a eelmine valuutakursi korrigeerimine) on arvutatud valuutakursi korrigeerimine.</span><span class="sxs-lookup"><span data-stu-id="5f46c-395">The difference between the two amounts (excluding the previous exchange adjustment) is the calculated exchange adjustment.</span></span> <span data-ttu-id="5f46c-396">See ülesanne loob heakskiidetud sularahakande tüübiga <strong>Valuutakursi korrigeerimine</strong>.</span><span class="sxs-lookup"><span data-stu-id="5f46c-396">This task creates an approved cash transaction of the <strong>Exchange adjustment</strong> type.</span></span> <span data-ttu-id="5f46c-397">Pearaamatu kanne koostamisel kasutatakse sularaha pearaamatukontot ja tabelis <strong>Valuuta</strong> väljal <strong>Realiseerimata kasum</strong> või <strong>Realiseerimata kahjum</strong> määratud pearaamatukontot.</span><span class="sxs-lookup"><span data-stu-id="5f46c-397">The ledger transaction is formed by using the ledger account for cash and the ledger account that is specified in <strong>Unrealized profit</strong> or <strong>Unrealized loss</strong> in the <strong>Currency</strong> table.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="inquiries-and-reports"></a>Päringud ja aruanded
-| Päringud või aruandlus                             | Kirjeldus                                                                                                                                                                                                                     |
+## <a name="inquiries-and-reports"></a><span data-ttu-id="5f46c-398">Päringud ja aruanded</span><span class="sxs-lookup"><span data-stu-id="5f46c-398">Inquiries and reports</span></span>
+| <span data-ttu-id="5f46c-399">Päringud või aruandlus</span><span class="sxs-lookup"><span data-stu-id="5f46c-399">Inquiry or report</span></span>                             | <span data-ttu-id="5f46c-400">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5f46c-400">Description</span></span>                                                                                                                                                                                                                     |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sularahakannete kuvamine                        | Saatelehe töölehe rea puhul kasutage pearaamatu kannete, sularahasaldo ja muu teabe kuvamiseks toimingupaani nuppu **Päringud**.                                                                                  |
-| Sularahakanne                              | Sularahakannete kuvamiseks avage **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Sularahakanded**. Määrake funktsiooniga **Filtreeri** lisakriteeriumid sularahakannete valiku piiramiseks. |
-| Registreerimise tööleht (Eesti ja Venemaa puhul) | Aruanne jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Registreerimise tööleht** kajastab kõiki väljastatud kassa korvamis- ja väljaminekuordereid.                                   |
-| Kassaraamat (Läti, Leedu ja Venemaa puhul)     | Aruanne jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Kassaraamatu aruanne** kajastab tegelikke sularahaliikumisi (sissetulekud ja kulud).                                                            |
+| <span data-ttu-id="5f46c-401">Sularahakannete kuvamine</span><span class="sxs-lookup"><span data-stu-id="5f46c-401">Cash transactions view</span></span>                        | <span data-ttu-id="5f46c-402">Saatelehe töölehe rea puhul kasutage pearaamatu kannete, sularahasaldo ja muu teabe kuvamiseks toimingupaani nuppu **Päringud**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-402">For a Slip journal line, use the **Inquiries** button on the Action Pane to view ledger transactions, the cash balance, and other information.</span></span>                                                                                  |
+| <span data-ttu-id="5f46c-403">Sularahakanne</span><span class="sxs-lookup"><span data-stu-id="5f46c-403">Cash transaction</span></span>                              | <span data-ttu-id="5f46c-404">Sularahakannete kuvamiseks avage **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Sularahakanded**.</span><span class="sxs-lookup"><span data-stu-id="5f46c-404">Go to **Cash and bank management** &gt; **Inquiries and reports** &gt; **Cash transactions** to view cash transactions.</span></span> <span data-ttu-id="5f46c-405">Määrake funktsiooniga **Filtreeri** lisakriteeriumid sularahakannete valiku piiramiseks.</span><span class="sxs-lookup"><span data-stu-id="5f46c-405">Use the **Filter** function to specify additional criteria to limit the selection of cash transactions.</span></span> |
+| <span data-ttu-id="5f46c-406">Registreerimise tööleht (Eesti ja Venemaa puhul)</span><span class="sxs-lookup"><span data-stu-id="5f46c-406">Journal of registration (for Estonia, Russia)</span></span> | <span data-ttu-id="5f46c-407">Aruanne jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Registreerimise tööleht** kajastab kõiki väljastatud kassa korvamis- ja väljaminekuordereid.</span><span class="sxs-lookup"><span data-stu-id="5f46c-407">The report at **Cash and bank management** &gt; **Inquiries and reports** &gt; **Journal of registration** reflects all cash reimbursement and cash disbursement slips that have been issued.</span></span>                                   |
+| <span data-ttu-id="5f46c-408">Kassaraamat (Läti, Leedu ja Venemaa puhul)</span><span class="sxs-lookup"><span data-stu-id="5f46c-408">Cash book (for Latvia, Lithuania, Russia)</span></span>     | <span data-ttu-id="5f46c-409">Aruanne jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Kassaraamatu aruanne** kajastab tegelikke sularahaliikumisi (sissetulekud ja kulud).</span><span class="sxs-lookup"><span data-stu-id="5f46c-409">The report at **Cash and bank management** &gt; **Inquiries and reports** &gt; **Cash book report** reflects actual cash fund movements (receipts and expenditures).</span></span>                                                            |
 
 
 

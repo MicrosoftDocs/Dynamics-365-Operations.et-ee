@@ -19,15 +19,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 093047d43a39fa723eb99e3daf34cf33fa81a099
+ms.sourcegitcommit: 55cb0f20dbd671e39d0f409a87cec93efd9ce4d6
+ms.openlocfilehash: bab0f6ca21f4216b70cccf24f5781e0dbf48b7f8
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a><span data-ttu-id="69aca-103">Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul</span><span class="sxs-lookup"><span data-stu-id="69aca-103">Whole amount and Interval calculation options for sales tax codes</span></span>
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,61 +35,61 @@ ms.lasthandoff: 05/25/2017
 
 
 
-See artikkel selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
+<span data-ttu-id="69aca-104">See artikkel selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.</span><span class="sxs-lookup"><span data-stu-id="69aca-104">This article explains the options for the Calculation method field on sales tax codes and how sales tax is calculated for intervals and whole amounts.</span></span>
 
-Saate seadistada käibemaksukoodi arvutamise kogusumma või intervallisumma põhjal. Valige käibemaksukoodi arvutamise viis lehe Käibemaksukoodid kiirkaardi Arvutamine väljal Arvutusmeetod.
--   Kogusumma – maksumäära rakendatakse kogu maksustatavale summale.
--   Intervall – maksustatav summa on jagatud osadeks, millest igaüks langeb kindla käibemaksumäärata vahemikku. Osa summast, mis langeb antud intervalli, maksustatakse selle intervalli maksumäära järgi. Käibemaks on iga summa intervalli kohta arvutatud maksusummade summa.
+<span data-ttu-id="69aca-105">Saate seadistada käibemaksukoodi arvutamise kogusumma või intervallisumma põhjal.</span><span class="sxs-lookup"><span data-stu-id="69aca-105">You can set up a sales tax code to be calculated based on a whole amount or an interval amount.</span></span> <span data-ttu-id="69aca-106">Valige käibemaksukoodi arvutamise viis lehe Käibemaksukoodid kiirkaardi Arvutamine väljal Arvutusmeetod.</span><span class="sxs-lookup"><span data-stu-id="69aca-106">In the Sales tax codes page, use the Calculation method field on the Calculation FastTab to select how to calculate a sales tax code.</span></span>
+-   <span data-ttu-id="69aca-107">Kogusumma – maksumäära rakendatakse kogu maksustatavale summale.</span><span class="sxs-lookup"><span data-stu-id="69aca-107">Whole amount – The tax rate is applied to the whole taxable amount.</span></span>
+-   <span data-ttu-id="69aca-108">Intervall – maksustatav summa on jagatud osadeks, millest igaüks langeb kindla käibemaksumäärata vahemikku.</span><span class="sxs-lookup"><span data-stu-id="69aca-108">Interval – The taxable amount is divided into parts, each of which falls in a range that has a specific sales tax rate.</span></span> <span data-ttu-id="69aca-109">Osa summast, mis langeb antud intervalli, maksustatakse selle intervalli maksumäära järgi.</span><span class="sxs-lookup"><span data-stu-id="69aca-109">The part of the amount that falls in a given interval is taxed according to the tax rate for that interval.</span></span> <span data-ttu-id="69aca-110">Käibemaks on iga summa intervalli kohta arvutatud maksusummade summa.</span><span class="sxs-lookup"><span data-stu-id="69aca-110">The sales tax is the sum of the tax amounts that are calculated for each amount interval.</span></span>
 > [!NOTE]                                                                                                                              
-> Suvand Intervall on saadaval ainult siis, kui valite lehel Pearaamatu parameetrid alal Käibemaks väljal Arvutusmeetod suvandi Rida. 
+> <span data-ttu-id="69aca-111">Suvand Intervall on saadaval ainult siis, kui valite lehel Pearaamatu parameetrid alal Käibemaks väljal Arvutusmeetod suvandi Rida.</span><span class="sxs-lookup"><span data-stu-id="69aca-111">The Interval option is available only when you select Line in the Calculation method field in the Sales tax area of the General ledger parameters page.</span></span> 
 
-Intervallid seadistatakse lehel Käibemaksukood, sisestades iga maksumäära kohta alampiiri ja ülempiiri summad. Selleks et maksud arvutataks kõigi maksustatavate summade kohta olenemata valitud arvutusmeetodist, peavad intervallid järgima järgmisi reegleid.
--   Esimese intervalli alamlimiit peab olema null.
--   Viimase intervalli ülempiir peab olema null, mis tähistab lõpmatust.
--   Intervalli ülempiir peab olema järgmise intervalli alampiir.
+<span data-ttu-id="69aca-112">Intervallid seadistatakse lehel Käibemaksukood, sisestades iga maksumäära kohta alampiiri ja ülempiiri summad.</span><span class="sxs-lookup"><span data-stu-id="69aca-112">Intervals are set up in the Sales tax code values page by entering Minimum and Maximum limit amounts per tax rate.</span></span> <span data-ttu-id="69aca-113">Selleks et maksud arvutataks kõigi maksustatavate summade kohta olenemata valitud arvutusmeetodist, peavad intervallid järgima järgmisi reegleid.</span><span class="sxs-lookup"><span data-stu-id="69aca-113">For taxes to be calculated on all taxable amounts, regardless of which calculation method is selected, intervals must follow these rules:</span></span>
+-   <span data-ttu-id="69aca-114">Esimese intervalli alamlimiit peab olema null.</span><span class="sxs-lookup"><span data-stu-id="69aca-114">The first interval must have a Minimum limit of zero.</span></span>
+-   <span data-ttu-id="69aca-115">Viimase intervalli ülempiir peab olema null, mis tähistab lõpmatust.</span><span class="sxs-lookup"><span data-stu-id="69aca-115">The last interval must have a Maximum limit of zero, which indicates infinity.</span></span>
+-   <span data-ttu-id="69aca-116">Intervalli ülempiir peab olema järgmise intervalli alampiir.</span><span class="sxs-lookup"><span data-stu-id="69aca-116">The Maximum limit of an interval must be the Minimum limit of the next interval.</span></span>
 
-Kui summa on eelmise intervalli ülempiir ja järgmise intervalli alampiir, rakendub summale esimese intervalli käibemaksumäär. Kui summa jääb väljapoole intervalle, mis on määratletud ülem- ja alampiiriga, rakendatakse käibemaksumäära null.
+<span data-ttu-id="69aca-117">Kui summa on eelmise intervalli ülempiir ja järgmise intervalli alampiir, rakendub summale esimese intervalli käibemaksumäär.</span><span class="sxs-lookup"><span data-stu-id="69aca-117">If an amount is the Maximum limit of the previous interval and the Minimum limit of the next interval, the sales tax rate of the first interval will be applied to the amount.</span></span> <span data-ttu-id="69aca-118">Kui summa jääb väljapoole intervalle, mis on määratletud ülem- ja alampiiriga, rakendatakse käibemaksumäära null.</span><span class="sxs-lookup"><span data-stu-id="69aca-118">If an amount falls outside the intervals that are defined by upper and lower limits, a sales tax rate of zero will be applied.</span></span>
 
-## <a name="example-whole-amount-method-of-calculation"></a>Näide. Arvutamismeetod: kogusumma
-Lehel Käibemaksukoodid seadistatakse käibemaksumäärad järgmiste intervallidega.
+## <a name="example-whole-amount-method-of-calculation"></a><span data-ttu-id="69aca-119">Näide. Arvutamismeetod: kogusumma</span><span class="sxs-lookup"><span data-stu-id="69aca-119">Example: Whole amount method of calculation</span></span>
+<span data-ttu-id="69aca-120">Lehel Käibemaksukoodid seadistatakse käibemaksumäärad järgmiste intervallidega.</span><span class="sxs-lookup"><span data-stu-id="69aca-120">In the Sales tax code values page, sales tax rates are set up in the following intervals:</span></span>
 |                   |                   |              |
 |-------------------|-------------------|--------------|
-| **Alampiir** | **Ülempiir** | **Maksumäär** |
-| 0,00              | 50,00             | 30%          |
-| 50,00             | 100,00            | 20%          |
-| 100,00            | 0,00              | 10%          |
+| <span data-ttu-id="69aca-121">**Alampiir**</span><span class="sxs-lookup"><span data-stu-id="69aca-121">**Minimum limit**</span></span> | <span data-ttu-id="69aca-122">**Ülempiir**</span><span class="sxs-lookup"><span data-stu-id="69aca-122">**Maximum limit**</span></span> | <span data-ttu-id="69aca-123">**Maksumäär**</span><span class="sxs-lookup"><span data-stu-id="69aca-123">**Tax rate**</span></span> |
+| <span data-ttu-id="69aca-124">0,00</span><span class="sxs-lookup"><span data-stu-id="69aca-124">0.00</span></span>              | <span data-ttu-id="69aca-125">50,00</span><span class="sxs-lookup"><span data-stu-id="69aca-125">50.00</span></span>             | <span data-ttu-id="69aca-126">30%</span><span class="sxs-lookup"><span data-stu-id="69aca-126">30%</span></span>          |
+| <span data-ttu-id="69aca-127">50,00</span><span class="sxs-lookup"><span data-stu-id="69aca-127">50.00</span></span>             | <span data-ttu-id="69aca-128">100,00</span><span class="sxs-lookup"><span data-stu-id="69aca-128">100.00</span></span>            | <span data-ttu-id="69aca-129">20%</span><span class="sxs-lookup"><span data-stu-id="69aca-129">20%</span></span>          |
+| <span data-ttu-id="69aca-130">100,00</span><span class="sxs-lookup"><span data-stu-id="69aca-130">100.00</span></span>            | <span data-ttu-id="69aca-131">0,00</span><span class="sxs-lookup"><span data-stu-id="69aca-131">0.00</span></span>              | <span data-ttu-id="69aca-132">10%</span><span class="sxs-lookup"><span data-stu-id="69aca-132">10%</span></span>          |
 
-Käibemaks arvutatakse kogu maksustatava summa kohta.
+<span data-ttu-id="69aca-133">Käibemaks arvutatakse kogu maksustatava summa kohta.</span><span class="sxs-lookup"><span data-stu-id="69aca-133">The sales tax is calculated on the whole taxable amount.</span></span>
 
-| Maksustatav summa (hind) | Kalkulatsioon    | Käibemaks |
+| <span data-ttu-id="69aca-134">Maksustatav summa (hind)</span><span class="sxs-lookup"><span data-stu-id="69aca-134">Taxable amount (price)</span></span> | <span data-ttu-id="69aca-135">Kalkulatsioon</span><span class="sxs-lookup"><span data-stu-id="69aca-135">Calculation</span></span>    | <span data-ttu-id="69aca-136">Käibemaks</span><span class="sxs-lookup"><span data-stu-id="69aca-136">Sales tax</span></span> |
 |------------------------|----------------|-----------|
-| 35,00                  | 35,00 \* 0,30  | 10,50     |
-| 50,00                  | 50,00 \* 0,30  | 15,00     |
-| 85,00                  | 85,00 \* 0,20  | 17,00     |
-| 305,00                 | 305,00 \* 0,10 | 30,50     |
+| <span data-ttu-id="69aca-137">35,00</span><span class="sxs-lookup"><span data-stu-id="69aca-137">35.00</span></span>                  | <span data-ttu-id="69aca-138">35,00 \* 0,30</span><span class="sxs-lookup"><span data-stu-id="69aca-138">35.00 \* 0.30</span></span>  | <span data-ttu-id="69aca-139">10,50</span><span class="sxs-lookup"><span data-stu-id="69aca-139">10.50</span></span>     |
+| <span data-ttu-id="69aca-140">50,00</span><span class="sxs-lookup"><span data-stu-id="69aca-140">50.00</span></span>                  | <span data-ttu-id="69aca-141">50,00 \* 0,30</span><span class="sxs-lookup"><span data-stu-id="69aca-141">50.00 \* 0.30</span></span>  | <span data-ttu-id="69aca-142">15,00</span><span class="sxs-lookup"><span data-stu-id="69aca-142">15.00</span></span>     |
+| <span data-ttu-id="69aca-143">85,00</span><span class="sxs-lookup"><span data-stu-id="69aca-143">85.00</span></span>                  | <span data-ttu-id="69aca-144">85,00 \* 0,20</span><span class="sxs-lookup"><span data-stu-id="69aca-144">85.00 \* 0.20</span></span>  | <span data-ttu-id="69aca-145">17,00</span><span class="sxs-lookup"><span data-stu-id="69aca-145">17.00</span></span>     |
+| <span data-ttu-id="69aca-146">305,00</span><span class="sxs-lookup"><span data-stu-id="69aca-146">305.00</span></span>                 | <span data-ttu-id="69aca-147">305,00 \* 0,10</span><span class="sxs-lookup"><span data-stu-id="69aca-147">305.00 \* 0.10</span></span> | <span data-ttu-id="69aca-148">30,50</span><span class="sxs-lookup"><span data-stu-id="69aca-148">30.50</span></span>     |
 
-## <a name="example-interval-method-of-calculation"></a> Näide. Arvutusmeetod: intervall
-Lehel Väärtused seadistatakse käibemaksumäärad järgmiste intervallidega.
+## <a name="example-interval-method-of-calculation"></a><span data-ttu-id="69aca-149"> Näide. Arvutusmeetod: intervall</span><span class="sxs-lookup"><span data-stu-id="69aca-149">Example: Interval method of calculation</span></span>
+<span data-ttu-id="69aca-150">Lehel Väärtused seadistatakse käibemaksumäärad järgmiste intervallidega.</span><span class="sxs-lookup"><span data-stu-id="69aca-150">In the Values page, sales tax rates are set up in the following intervals:</span></span>
 
 |                   |                   |              |
 |-------------------|-------------------|--------------|
-| **Alampiir** | **Ülempiir** | **Maksumäär** |
-| 0,00              | 50,00             | 30%          |
-| 50,00             | 100,00            | 20%          |
-| 100,00            | 0,00              | 10%          |
+| <span data-ttu-id="69aca-151">**Alampiir**</span><span class="sxs-lookup"><span data-stu-id="69aca-151">**Minimum limit**</span></span> | <span data-ttu-id="69aca-152">**Ülempiir**</span><span class="sxs-lookup"><span data-stu-id="69aca-152">**Maximum limit**</span></span> | <span data-ttu-id="69aca-153">**Maksumäär**</span><span class="sxs-lookup"><span data-stu-id="69aca-153">**Tax rate**</span></span> |
+| <span data-ttu-id="69aca-154">0,00</span><span class="sxs-lookup"><span data-stu-id="69aca-154">0.00</span></span>              | <span data-ttu-id="69aca-155">50,00</span><span class="sxs-lookup"><span data-stu-id="69aca-155">50.00</span></span>             | <span data-ttu-id="69aca-156">30%</span><span class="sxs-lookup"><span data-stu-id="69aca-156">30%</span></span>          |
+| <span data-ttu-id="69aca-157">50,00</span><span class="sxs-lookup"><span data-stu-id="69aca-157">50.00</span></span>             | <span data-ttu-id="69aca-158">100,00</span><span class="sxs-lookup"><span data-stu-id="69aca-158">100.00</span></span>            | <span data-ttu-id="69aca-159">20%</span><span class="sxs-lookup"><span data-stu-id="69aca-159">20%</span></span>          |
+| <span data-ttu-id="69aca-160">100,00</span><span class="sxs-lookup"><span data-stu-id="69aca-160">100.00</span></span>            | <span data-ttu-id="69aca-161">0,00</span><span class="sxs-lookup"><span data-stu-id="69aca-161">0.00</span></span>              | <span data-ttu-id="69aca-162">10%</span><span class="sxs-lookup"><span data-stu-id="69aca-162">10%</span></span>          |
 
-Käibemaks on iga summa intervalli kohta arvutatud maksusummade summa.
+<span data-ttu-id="69aca-163">Käibemaks on iga summa intervalli kohta arvutatud maksusummade summa.</span><span class="sxs-lookup"><span data-stu-id="69aca-163">The sales tax is the sum of the tax amounts that are calculated for each amount interval.</span></span>
 
-| Maksustatav summa (hind) | Kalkulatsioon                                                               | Käibemaks |
+| <span data-ttu-id="69aca-164">Maksustatav summa (hind)</span><span class="sxs-lookup"><span data-stu-id="69aca-164">Taxable amount (price)</span></span> | <span data-ttu-id="69aca-165">Kalkulatsioon</span><span class="sxs-lookup"><span data-stu-id="69aca-165">Calculation</span></span>                                                               | <span data-ttu-id="69aca-166">Käibemaks</span><span class="sxs-lookup"><span data-stu-id="69aca-166">Sales tax</span></span> |
 |------------------------|---------------------------------------------------------------------------|-----------|
-| 35,00                  | 35,00 \* 0,30                                                             | 10,50     |
-| 50,00                  | 50,00 \* 0,30                                                             | 15,00     |
-| 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
-| 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
+| <span data-ttu-id="69aca-167">35,00</span><span class="sxs-lookup"><span data-stu-id="69aca-167">35.00</span></span>                  | <span data-ttu-id="69aca-168">35,00 \* 0,30</span><span class="sxs-lookup"><span data-stu-id="69aca-168">35.00 \* 0.30</span></span>                                                             | <span data-ttu-id="69aca-169">10,50</span><span class="sxs-lookup"><span data-stu-id="69aca-169">10.50</span></span>     |
+| <span data-ttu-id="69aca-170">50,00</span><span class="sxs-lookup"><span data-stu-id="69aca-170">50.00</span></span>                  | <span data-ttu-id="69aca-171">50,00 \* 0,30</span><span class="sxs-lookup"><span data-stu-id="69aca-171">50.00 \* 0.30</span></span>                                                             | <span data-ttu-id="69aca-172">15,00</span><span class="sxs-lookup"><span data-stu-id="69aca-172">15.00</span></span>     |
+| <span data-ttu-id="69aca-173">85,00</span><span class="sxs-lookup"><span data-stu-id="69aca-173">85.00</span></span>                  | <span data-ttu-id="69aca-174">(50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)</span><span class="sxs-lookup"><span data-stu-id="69aca-174">(50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)</span></span>                          | <span data-ttu-id="69aca-175">22,00</span><span class="sxs-lookup"><span data-stu-id="69aca-175">22.00</span></span>     |
+| <span data-ttu-id="69aca-176">305,00</span><span class="sxs-lookup"><span data-stu-id="69aca-176">305.00</span></span>                 | <span data-ttu-id="69aca-177">(50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50)</span><span class="sxs-lookup"><span data-stu-id="69aca-177">(50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50)</span></span> | <span data-ttu-id="69aca-178">45,50</span><span class="sxs-lookup"><span data-stu-id="69aca-178">45.50</span></span>     |
 
  
 
-Lisateabe saamiseks vaadake teemat [Käibemaksumäärade määramine väljade Marginaali alus ja Arvutusmeetod põhjal](marginal-base-field.md).
+<span data-ttu-id="69aca-179">Lisateabe saamiseks vaadake teemat [Käibemaksumäärade määramine väljade Marginaali alus ja Arvutusmeetod põhjal](marginal-base-field.md).</span><span class="sxs-lookup"><span data-stu-id="69aca-179">For more information, see [Determining sale tax rates based on the Marginal base and Calculation method fields](marginal-base-field.md).</span></span>
 
 
 

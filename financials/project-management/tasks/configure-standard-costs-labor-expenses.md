@@ -17,46 +17,46 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 64719b39cb7c0140f1851a87ff49747d2286804c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 432b5b195b29fb03786cb0560e277735b531b7d7
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-standard-costs-for-labor-and-expenses"></a>Tööjõu ja kulude standardsete kulude konfigureerimine
+# <a name="configure-standard-costs-for-labor-and-expenses"></a><span data-ttu-id="b6e29-103">Tööjõu ja kulude standardsete kulude konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b6e29-103">Configure standard costs for labor and expenses</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas saate projekti tööjõu ja kulude jaoks standardseid kulusid häälestada. Ülesandes kasutatakse USSI andmekomplekti.
+<span data-ttu-id="b6e29-104">See protseduur näitab, kuidas saate projekti tööjõu ja kulude jaoks standardseid kulusid häälestada.</span><span class="sxs-lookup"><span data-stu-id="b6e29-104">This procedure shows you how to set up standard costs for labor and expenses for a project.</span></span> <span data-ttu-id="b6e29-105">Ülesandes kasutatakse USSI andmekomplekti.</span><span class="sxs-lookup"><span data-stu-id="b6e29-105">This task uses the USSI data set.</span></span>
 
-1. Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Omahind (tund).
-2. Klõpsake valikut Uus.
-3. Sisestage kuupäev väljale Jõustumiskuupäev.
-4. Sisestage arv väljale Omahind.
-    * Saate teatud projektikategooria jaoks standardse omahinna häälestada või häälestada omahinna töötaja koodi, projekti numbri, kategooria, kuupäeva või mis tahes nende kombinatsiooni alusel. Rakendatakse kõrgeima üksikasjatasemega omahind.  
-5. Klõpsake nuppu Salvesta.
-6. Sulgege leht.
-7. Avage menüü Projektihaldus ja -arvestus > Häälestamine > Hinnad > Müügihind (hour).
-8. Klõpsake valikut Uus.
-9. Sisestage kuupäev väljale Jõustumiskuupäev.
-10. Valige suvand väljal Kehtiv.
-11. Väljale Hinnakujundus sisestage number.
-    * Saate häälestada standardse müügihinna tunnikannetele või projekti kategooriale. Saate häälestada ka müügihinnad töötaja koodi, projekti numbri, kategooria, kande kuupäeva või nende mis tahes kombinatsioonide alusel. Tegelik müügihind, mis rakendatakse, kui töötaja sisestab kande tunnitöölehele, on kõrgeima üksikasjatasemega müügihind. Näiteks kui nii üldine kui ka töötajapõhine müügihind on häälestatud, kasutatakse töötajapõhist müügihinda.  
-12. Klõpsake nuppu Salvesta.
-13. Sulgege leht.
-14. Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Omahind (kulu).
-15. Klõpsake valikut Uus.
-16. Sisestage kuupäev väljale Jõustumiskuupäev.
-17. Sisestage arv väljale Omahind.
-    * Täita saab mitut välja, kuid see on kirje salvestamiseks vajalik miinimum.  
-18. Klõpsake nuppu Salvesta.
-19. Sulgege leht.
-20. Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Müügihind (kulu).
-21. Klõpsake valikut Uus.
-22. Sisestage kuupäev väljale Jõustumiskuupäev.
-23. Valige suvand väljal Kehtiv.
-24. Väljale Hinnakujundus sisestage number.
-    * Tegelik müügihind, mis seotakse, kui töötaja sisestab kanded kulude töölehele, on kõrgeima üksikasjatasemega müügihind. Näiteks kui nii üldine kui ka töötajapõhine müügihind on häälestatud, kasutatakse töötajapõhist müügihinda.  
-25. Klõpsake nuppu Salvesta.
+1. <span data-ttu-id="b6e29-106">Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Omahind (tund).</span><span class="sxs-lookup"><span data-stu-id="b6e29-106">Go to Project management and accounting > Setup > Prices > Cost price (hour).</span></span>
+2. <span data-ttu-id="b6e29-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b6e29-107">Click New.</span></span>
+3. <span data-ttu-id="b6e29-108">Sisestage kuupäev väljale Jõustumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="b6e29-108">In the Effective date field, enter a date.</span></span>
+4. <span data-ttu-id="b6e29-109">Sisestage arv väljale Omahind.</span><span class="sxs-lookup"><span data-stu-id="b6e29-109">In the Cost price field, enter a number.</span></span>
+    * <span data-ttu-id="b6e29-110">Saate teatud projektikategooria jaoks standardse omahinna häälestada või häälestada omahinna töötaja koodi, projekti numbri, kategooria, kuupäeva või mis tahes nende kombinatsiooni alusel.</span><span class="sxs-lookup"><span data-stu-id="b6e29-110">You can set up a standard cost price for the project category, or you can set up a cost price by worker number, project number, category, date, or any combination of these.</span></span> <span data-ttu-id="b6e29-111">Rakendatakse kõrgeima üksikasjatasemega omahind.</span><span class="sxs-lookup"><span data-stu-id="b6e29-111">The cost price that is applied is the cost price with the highest level of detail.</span></span>  
+5. <span data-ttu-id="b6e29-112">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="b6e29-112">Click Save.</span></span>
+6. <span data-ttu-id="b6e29-113">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="b6e29-113">Close the page.</span></span>
+7. <span data-ttu-id="b6e29-114">Avage menüü Projektihaldus ja -arvestus > Häälestamine > Hinnad > Müügihind (hour).</span><span class="sxs-lookup"><span data-stu-id="b6e29-114">Go to Project management and accounting > Setup > Prices > Sales price (hour).</span></span>
+8. <span data-ttu-id="b6e29-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b6e29-115">Click New.</span></span>
+9. <span data-ttu-id="b6e29-116">Sisestage kuupäev väljale Jõustumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="b6e29-116">In the Effective date field, enter a date.</span></span>
+10. <span data-ttu-id="b6e29-117">Valige suvand väljal Kehtiv.</span><span class="sxs-lookup"><span data-stu-id="b6e29-117">In the Valid for field, select an option.</span></span>
+11. <span data-ttu-id="b6e29-118">Väljale Hinnakujundus sisestage number.</span><span class="sxs-lookup"><span data-stu-id="b6e29-118">In the Pricing field, enter a number.</span></span>
+    * <span data-ttu-id="b6e29-119">Saate häälestada standardse müügihinna tunnikannetele või projekti kategooriale.</span><span class="sxs-lookup"><span data-stu-id="b6e29-119">You can set up a standard sales price for hour transactions or for a project category.</span></span> <span data-ttu-id="b6e29-120">Saate häälestada ka müügihinnad töötaja koodi, projekti numbri, kategooria, kande kuupäeva või nende mis tahes kombinatsioonide alusel.</span><span class="sxs-lookup"><span data-stu-id="b6e29-120">You can also set up sales prices by worker number, project number, category, transaction date, or any combination of these.</span></span> <span data-ttu-id="b6e29-121">Tegelik müügihind, mis rakendatakse, kui töötaja sisestab kande tunnitöölehele, on kõrgeima üksikasjatasemega müügihind.</span><span class="sxs-lookup"><span data-stu-id="b6e29-121">The actual sales price, which is applied when a worker enters a transaction in the Hour journal, is the sales price with the highest level of detail.</span></span> <span data-ttu-id="b6e29-122">Näiteks kui nii üldine kui ka töötajapõhine müügihind on häälestatud, kasutatakse töötajapõhist müügihinda.</span><span class="sxs-lookup"><span data-stu-id="b6e29-122">For example, if both a general sales price and a worker-specific sales price are set up, the worker-specific sales price is used.</span></span>  
+12. <span data-ttu-id="b6e29-123">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="b6e29-123">Click Save.</span></span>
+13. <span data-ttu-id="b6e29-124">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="b6e29-124">Close the page.</span></span>
+14. <span data-ttu-id="b6e29-125">Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Omahind (kulu).</span><span class="sxs-lookup"><span data-stu-id="b6e29-125">Go to Project management and accounting > Setup > Prices > Cost price (expense).</span></span>
+15. <span data-ttu-id="b6e29-126">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b6e29-126">Click New.</span></span>
+16. <span data-ttu-id="b6e29-127">Sisestage kuupäev väljale Jõustumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="b6e29-127">In the Effective date field, enter a date.</span></span>
+17. <span data-ttu-id="b6e29-128">Sisestage arv väljale Omahind.</span><span class="sxs-lookup"><span data-stu-id="b6e29-128">In the Cost price field, enter a number.</span></span>
+    * <span data-ttu-id="b6e29-129">Täita saab mitut välja, kuid see on kirje salvestamiseks vajalik miinimum.</span><span class="sxs-lookup"><span data-stu-id="b6e29-129">Multiple fields can be filled in, but this is the minimum needed to save the record.</span></span>  
+18. <span data-ttu-id="b6e29-130">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="b6e29-130">Click Save.</span></span>
+19. <span data-ttu-id="b6e29-131">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="b6e29-131">Close the page.</span></span>
+20. <span data-ttu-id="b6e29-132">Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Müügihind (kulu).</span><span class="sxs-lookup"><span data-stu-id="b6e29-132">Go to Project management and accounting > Setup > Prices > Sales price (expense).</span></span>
+21. <span data-ttu-id="b6e29-133">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b6e29-133">Click New.</span></span>
+22. <span data-ttu-id="b6e29-134">Sisestage kuupäev väljale Jõustumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="b6e29-134">In the Effective date field, enter a date.</span></span>
+23. <span data-ttu-id="b6e29-135">Valige suvand väljal Kehtiv.</span><span class="sxs-lookup"><span data-stu-id="b6e29-135">In the Valid for field, select an option.</span></span>
+24. <span data-ttu-id="b6e29-136">Väljale Hinnakujundus sisestage number.</span><span class="sxs-lookup"><span data-stu-id="b6e29-136">In the Pricing field, enter a number.</span></span>
+    * <span data-ttu-id="b6e29-137">Tegelik müügihind, mis seotakse, kui töötaja sisestab kanded kulude töölehele, on kõrgeima üksikasjatasemega müügihind.</span><span class="sxs-lookup"><span data-stu-id="b6e29-137">The actual sales price, which is applied when a worker enters transactions in an expense journal, is the sales price with the highest level of detail.</span></span> <span data-ttu-id="b6e29-138">Näiteks kui nii üldine kui ka töötajapõhine müügihind on häälestatud, kasutatakse töötajapõhist müügihinda.</span><span class="sxs-lookup"><span data-stu-id="b6e29-138">For example, if both a general and a worker-specific sales price are set up, the worker-specific sales price is used.</span></span>  
+25. <span data-ttu-id="b6e29-139">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="b6e29-139">Click Save.</span></span>
 
 

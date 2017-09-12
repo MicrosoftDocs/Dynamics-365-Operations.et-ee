@@ -16,43 +16,43 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f8ca9cc59df4eab5a476524e92200687e5979bc9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d2001da7b3487a07a91abd406f74558916ac9f23
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-depreciation-books"></a>Kulumiraamatute seadistamine  
+# <a name="set-up-depreciation-books"></a><span data-ttu-id="9357e-103">Kulumiraamatute seadistamine </span><span class="sxs-lookup"><span data-stu-id="9357e-103">Set up depreciation books</span></span> 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesande juhend loob uue kulumiraamatu ja seostab selle põhivaragrupiga.  See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
+<span data-ttu-id="9357e-104">See ülesande juhend loob uue kulumiraamatu ja seostab selle põhivaragrupiga.</span><span class="sxs-lookup"><span data-stu-id="9357e-104">This task guide will create a new depreciation book and associate it with a fixed asset group.</span></span>  <span data-ttu-id="9357e-105">See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.</span><span class="sxs-lookup"><span data-stu-id="9357e-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
 
 
-## <a name="create-a-depreciation-book"></a>Kulumiraamatu loomine
-1. Avage Põhivarad > Seadistus > Kulumiraamatud.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Kulumiraamat.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Märkige või tühjendage ruut Arvuta kulum.
-6. Klõpsake väljal Kulumireegel otsingu avamiseks ripploendi nuppu.
-7. Leidke ja valige loendist soovitud kulumireegel.
-8. Klõpsake loendis valitud real olevat linki.
-9. Klõpsake väljal Alternatiivne kulumireegel otsingu avamiseks ripploendi nuppu.
-10. Valige loendist soovitud kulumireegel.
-11. Klõpsake loendis valitud real olevat linki.
-    * Plaaniväliseid kulumireegleid kasutatakse vara täiendava kulumi arvestamiseks ebatavalistes olukordades. Näiteks võite seda kasutada loodusõnnetusest tuleneva kulumi registreerimiseks.  
-12. Märkige või tühjendage ruut Loo kulumi korrigeerimised koos aluse korrigeerimistega.
-13. Klõpsake väljal Kalender otsingu avamiseks ripploendi nuppu.
-14. Klõpsake loendis valitud real olevat linki.
+## <a name="create-a-depreciation-book"></a><span data-ttu-id="9357e-106">Kulumiraamatu loomine</span><span class="sxs-lookup"><span data-stu-id="9357e-106">Create a depreciation book</span></span>
+1. <span data-ttu-id="9357e-107">Avage Põhivarad > Seadistus > Kulumiraamatud.</span><span class="sxs-lookup"><span data-stu-id="9357e-107">Go to Fixed assets > Setup > Depreciation books.</span></span>
+2. <span data-ttu-id="9357e-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9357e-108">Click New.</span></span>
+3. <span data-ttu-id="9357e-109">Sisestage väärtus väljale Kulumiraamat.</span><span class="sxs-lookup"><span data-stu-id="9357e-109">In the Depreciation book field, type a value.</span></span>
+4. <span data-ttu-id="9357e-110">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="9357e-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9357e-111">Märkige või tühjendage ruut Arvuta kulum.</span><span class="sxs-lookup"><span data-stu-id="9357e-111">Check or uncheck the Calculate depreciation checkbox.</span></span>
+6. <span data-ttu-id="9357e-112">Klõpsake väljal Kulumireegel otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="9357e-112">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="9357e-113">Leidke ja valige loendist soovitud kulumireegel.</span><span class="sxs-lookup"><span data-stu-id="9357e-113">In the list, find and select the desired depreciation profile.</span></span>
+8. <span data-ttu-id="9357e-114">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="9357e-114">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="9357e-115">Klõpsake väljal Alternatiivne kulumireegel otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="9357e-115">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="9357e-116">Valige loendist soovitud kulumireegel.</span><span class="sxs-lookup"><span data-stu-id="9357e-116">In the list, select the desired depreciation profile.</span></span>
+11. <span data-ttu-id="9357e-117">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="9357e-117">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="9357e-118">Plaaniväliseid kulumireegleid kasutatakse vara täiendava kulumi arvestamiseks ebatavalistes olukordades.</span><span class="sxs-lookup"><span data-stu-id="9357e-118">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="9357e-119">Näiteks võite seda kasutada loodusõnnetusest tuleneva kulumi registreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="9357e-119">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
+12. <span data-ttu-id="9357e-120">Märkige või tühjendage ruut Loo kulumi korrigeerimised koos aluse korrigeerimistega.</span><span class="sxs-lookup"><span data-stu-id="9357e-120">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
+13. <span data-ttu-id="9357e-121">Klõpsake väljal Kalender otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="9357e-121">In the Calendar field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="9357e-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="9357e-122">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a>Kulumiraamatu seostamine põhivaragrupiga
-1. Klõpsake suvandit Põhivaragrupid.
-2. Klõpsake väljal Põhivara grupp otsingu avamiseks ripploendi nuppu.
-3. Otsige loendist ja valige soovitud kirje.
-4. Klõpsake loendis valitud real olevat linki.
-5. Valige suvand väljalt Kulumiarvestusreegel.
-6. Sisestage number väljale Kasutusiga.
-    * Pange tähele, et välja Kulumiperioodid väärtus arvutatakse pärast kasutusea seadistamist.  
+## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="9357e-123">Kulumiraamatu seostamine põhivaragrupiga</span><span class="sxs-lookup"><span data-stu-id="9357e-123">Associate the depreciation book with a fixed asset group</span></span>
+1. <span data-ttu-id="9357e-124">Klõpsake suvandit Põhivaragrupid.</span><span class="sxs-lookup"><span data-stu-id="9357e-124">Click Fixed asset groups.</span></span>
+2. <span data-ttu-id="9357e-125">Klõpsake väljal Põhivara grupp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="9357e-125">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="9357e-126">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="9357e-126">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="9357e-127">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="9357e-127">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="9357e-128">Valige suvand väljalt Kulumiarvestusreegel.</span><span class="sxs-lookup"><span data-stu-id="9357e-128">In the Depreciation convention field, select an option.</span></span>
+6. <span data-ttu-id="9357e-129">Sisestage number väljale Kasutusiga.</span><span class="sxs-lookup"><span data-stu-id="9357e-129">In the Service life field, enter a number.</span></span>
+    * <span data-ttu-id="9357e-130">Pange tähele, et välja Kulumiperioodid väärtus arvutatakse pärast kasutusea seadistamist.</span><span class="sxs-lookup"><span data-stu-id="9357e-130">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
 
 

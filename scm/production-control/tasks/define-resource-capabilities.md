@@ -17,35 +17,35 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4a7d342eeb16fd76f2dde58151bfc7973de76e2d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 99c230c0e6a580f77d863b6f0be298615966c479
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-resource-capabilities"></a>Ressursivõimaluste määratlemine
+# <a name="define-resource-capabilities"></a><span data-ttu-id="3644c-103">Ressursivõimaluste määratlemine</span><span class="sxs-lookup"><span data-stu-id="3644c-103">Define resource capabilities</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ressursi võimalused kirjeldavad, milliseid operatsioone ressursid teha saavad. Planeerimisel vastendatakse iga töö ja operatsiooni nõuded saadaolevate ressursside võimalustega. Selles tegevuse juhises aidatakse teil ressursi võimalust luua ja seda ressursile määrata. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.
+<span data-ttu-id="3644c-104">Ressursi võimalused kirjeldavad, milliseid operatsioone ressursid teha saavad.</span><span class="sxs-lookup"><span data-stu-id="3644c-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="3644c-105">Planeerimisel vastendatakse iga töö ja operatsiooni nõuded saadaolevate ressursside võimalustega.</span><span class="sxs-lookup"><span data-stu-id="3644c-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="3644c-106">Selles tegevuse juhises aidatakse teil ressursi võimalust luua ja seda ressursile määrata.</span><span class="sxs-lookup"><span data-stu-id="3644c-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="3644c-107">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="3644c-107">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-resource-capability"></a>Ressursi võimaluse loomine
-1. Avage Ressursi võimalused.
-2. Klõpsake Uus.
-3. Sisestage ressursi võimaluse ID väljale Võimalus.
-    * Selle operatsiooni puhul kasutage võimaluse ID-d, et määrata võimalus, mis ressurssidel selle operatsiooni teostamiseks peab olema.  
-4. Sisestage võimaluse kirjeldus väljale Kirjeldus.
+## <a name="create-a-resource-capability"></a><span data-ttu-id="3644c-108">Ressursi võimaluse loomine</span><span class="sxs-lookup"><span data-stu-id="3644c-108">Create a resource capability</span></span>
+1. <span data-ttu-id="3644c-109">Avage Ressursi võimalused.</span><span class="sxs-lookup"><span data-stu-id="3644c-109">Go to Resource capabilities.</span></span>
+2. <span data-ttu-id="3644c-110">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="3644c-110">Click New.</span></span>
+3. <span data-ttu-id="3644c-111">Sisestage ressursi võimaluse ID väljale Võimalus.</span><span class="sxs-lookup"><span data-stu-id="3644c-111">In the Capability field, type the ID of the resource capability.</span></span>
+    * <span data-ttu-id="3644c-112">Selle operatsiooni puhul kasutage võimaluse ID-d, et määrata võimalus, mis ressurssidel selle operatsiooni teostamiseks peab olema.</span><span class="sxs-lookup"><span data-stu-id="3644c-112">For a given operation, you use the capability ID to specify that resources must have this capability to perform the operation.</span></span>  
+4. <span data-ttu-id="3644c-113">Sisestage võimaluse kirjeldus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="3644c-113">In the Description field, enter a description of the capability.</span></span>
 
-## <a name="assign-capability-to-a-resource"></a>Ressursile võimaluse määramine
-1. Klõpsake vahekaarti Lisa.
-2. Sisestage ressursi ID väljale Ressurss.
-    * Ressursi võimaluse saab määrata ühele või mitmele ressursile.  
-3. Sisestage kuupäev väljale Aegumine.
-    * Saate seda välja kasutades ressursile ainult piiratud ajaks võimaluse määrata.  
-4. Sisestage arv väljale Prioriteet.
-    * Tööde ja operatsioonide planeerimisel saate määrata, kas ressursse valitakse prioriteedi järgi. Kui otsustate selle valiku kasuks, kuid töö või operatsiooni saab soovitud kuupäevaks sooritatud rohkem kui üks ressurss, valitakse nõutava võimaluses suhtes madalaima prioriteediga ressurss.  
-5. Sisestage arv väljale Tase.
-    * Kui määrate tööle või operatsioonile kindla nõutava võimaluse, saate määrata ka minimaalse nõutava taseme. Sama tööd erineval kiirusel, tugevusel, suurusel jms tegevate ressursside eristamiseks saate kasutada võimaluse taset.  
+## <a name="assign-capability-to-a-resource"></a><span data-ttu-id="3644c-114">Ressursile võimaluse määramine</span><span class="sxs-lookup"><span data-stu-id="3644c-114">Assign capability to a resource</span></span>
+1. <span data-ttu-id="3644c-115">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="3644c-115">Click Add.</span></span>
+2. <span data-ttu-id="3644c-116">Sisestage ressursi ID väljale Ressurss.</span><span class="sxs-lookup"><span data-stu-id="3644c-116">In the Resource field, type the ID of the resource.</span></span>
+    * <span data-ttu-id="3644c-117">Ressursi võimaluse saab määrata ühele või mitmele ressursile.</span><span class="sxs-lookup"><span data-stu-id="3644c-117">A resource capability can be assigned to one or more resources.</span></span>  
+3. <span data-ttu-id="3644c-118">Sisestage kuupäev väljale Aegumine.</span><span class="sxs-lookup"><span data-stu-id="3644c-118">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="3644c-119">Saate seda välja kasutades ressursile ainult piiratud ajaks võimaluse määrata.</span><span class="sxs-lookup"><span data-stu-id="3644c-119">You can use this field to specify that a resource has the capability for only a limited time.</span></span>  
+4. <span data-ttu-id="3644c-120">Sisestage arv väljale Prioriteet.</span><span class="sxs-lookup"><span data-stu-id="3644c-120">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="3644c-121">Tööde ja operatsioonide planeerimisel saate määrata, kas ressursse valitakse prioriteedi järgi.</span><span class="sxs-lookup"><span data-stu-id="3644c-121">When you schedule jobs and operations, you can specify whether to select resources by priority.</span></span> <span data-ttu-id="3644c-122">Kui otsustate selle valiku kasuks, kuid töö või operatsiooni saab soovitud kuupäevaks sooritatud rohkem kui üks ressurss, valitakse nõutava võimaluses suhtes madalaima prioriteediga ressurss.</span><span class="sxs-lookup"><span data-stu-id="3644c-122">If you choose to do this, and more than one resource can perform the job or operation by the requested date, the resource that has the lowest priority with respect to the required capability is selected.</span></span>  
+5. <span data-ttu-id="3644c-123">Sisestage arv väljale Tase.</span><span class="sxs-lookup"><span data-stu-id="3644c-123">In the Level field, enter a number.</span></span>
+    * <span data-ttu-id="3644c-124">Kui määrate tööle või operatsioonile kindla nõutava võimaluse, saate määrata ka minimaalse nõutava taseme.</span><span class="sxs-lookup"><span data-stu-id="3644c-124">When you specify that a job or operation requires a particular capability, you can also specify the minimum level that is required.</span></span> <span data-ttu-id="3644c-125">Sama tööd erineval kiirusel, tugevusel, suurusel jms tegevate ressursside eristamiseks saate kasutada võimaluse taset.</span><span class="sxs-lookup"><span data-stu-id="3644c-125">Use the capability level to differentiate resources that can perform the same job, but at different speeds, strengths, sizes, and so on.</span></span>  
 
 

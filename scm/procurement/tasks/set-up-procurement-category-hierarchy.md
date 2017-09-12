@@ -16,63 +16,63 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6250fb309417c938d829e08b73343ece9de7b1a1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-procurement-category-hierarchy"></a>Hankekategooria hierarhia seadistamine
+# <a name="set-up-a-procurement-category-hierarchy"></a><span data-ttu-id="be73b-103">Hankekategooria hierarhia seadistamine</span><span class="sxs-lookup"><span data-stu-id="be73b-103">Set up a procurement category hierarchy</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja konfigureerida hankeprotsessis kasutatavat hankekategooriat. Neid ülesandeid täidab üldjuhul ostujuht. Enne, kui saate selle protseduuri käivitada, peab teil olema kategooriahierarhia, mille tüüp on Hange. Demoettevõtte kasutamisel saate seda protseduuri käitada ettevõttes USMF.
+<span data-ttu-id="be73b-104">See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja konfigureerida hankeprotsessis kasutatavat hankekategooriat.</span><span class="sxs-lookup"><span data-stu-id="be73b-104">This procedure shows you how to create new nodes in a procurement category hierarchy and how to configure a procurement category to be used in a procurement process.</span></span> <span data-ttu-id="be73b-105">Neid ülesandeid täidab üldjuhul ostujuht.</span><span class="sxs-lookup"><span data-stu-id="be73b-105">These tasks would typically be carried out by a Purchasing manager.</span></span> <span data-ttu-id="be73b-106">Enne, kui saate selle protseduuri käivitada, peab teil olema kategooriahierarhia, mille tüüp on Hange.</span><span class="sxs-lookup"><span data-stu-id="be73b-106">Before you can start this procedure, there must be a category hierarchy of type Procurement.</span></span> <span data-ttu-id="be73b-107">Demoettevõtte kasutamisel saate seda protseduuri käitada ettevõttes USMF.</span><span class="sxs-lookup"><span data-stu-id="be73b-107">If you're using a demo data company, you can run this procedure in the USMF company.</span></span>
 
 
-## <a name="add-a-new-procurement-category"></a>Uue hankekategooria lisamine
-1. Tehke valik Hanked > .. > Hankekategooriad.
-2. Klõpsake suvandit Kategooriahierarhia redigeerimine.
-    * Lehe vasakus servas kuvatakse praegune hankekategooria hierarhia. Hakkate seda hierarhiat muutma.  
-3. Klõpsake suvandit Uus kategooriasõlm.
-    * Süsteem valib vaikimisi ülemise sõlme. Kui käitate seda protseduuri ülesandejuhendina, saate klõpsata nuppu Ava ja valida teise ülataseme sõlme, millesse oma uus sõlm lisada. Kui see on tehtud, lukustage uuesti ülesandejuhend ja klõpsake sõlme Uus kategooria.  
-4. Sisestage väärtus väljale Nimi.
-5. Sisestage väljale Kirjeldus soovitud väärtus.
-6. Sisestage väärtus väljale Hüüdnimi.
-    * Hüüdnimi on valikuline. See kuvatakse kategooriaotsingutes koos kategooria nimega.  
-7. Klõpsake nuppu Salvesta.
+## <a name="add-a-new-procurement-category"></a><span data-ttu-id="be73b-108">Uue hankekategooria lisamine</span><span class="sxs-lookup"><span data-stu-id="be73b-108">Add a new procurement category</span></span>
+1. <span data-ttu-id="be73b-109">Tehke valik Hanked > ..</span><span class="sxs-lookup"><span data-stu-id="be73b-109">Go to Procurement and sourcing > ..</span></span> <span data-ttu-id="be73b-110">> Hankekategooriad.</span><span class="sxs-lookup"><span data-stu-id="be73b-110">> Procurement categories.</span></span>
+2. <span data-ttu-id="be73b-111">Klõpsake suvandit Kategooriahierarhia redigeerimine.</span><span class="sxs-lookup"><span data-stu-id="be73b-111">Click Edit category hierarchy.</span></span>
+    * <span data-ttu-id="be73b-112">Lehe vasakus servas kuvatakse praegune hankekategooria hierarhia.</span><span class="sxs-lookup"><span data-stu-id="be73b-112">The current procurement category hierarchy is displayed in the left side of the page.</span></span> <span data-ttu-id="be73b-113">Hakkate seda hierarhiat muutma.</span><span class="sxs-lookup"><span data-stu-id="be73b-113">You  are about to modify the hierarchy.</span></span>  
+3. <span data-ttu-id="be73b-114">Klõpsake suvandit Uus kategooriasõlm.</span><span class="sxs-lookup"><span data-stu-id="be73b-114">Click New category node.</span></span>
+    * <span data-ttu-id="be73b-115">Süsteem valib vaikimisi ülemise sõlme.</span><span class="sxs-lookup"><span data-stu-id="be73b-115">The system selects the top node by default.</span></span> <span data-ttu-id="be73b-116">Kui käitate seda protseduuri ülesandejuhendina, saate klõpsata nuppu Ava ja valida teise ülataseme sõlme, millesse oma uus sõlm lisada.</span><span class="sxs-lookup"><span data-stu-id="be73b-116">If you are running this procedure as a task guide, you can click the Unlock button and select another parent node to insert your new node into.</span></span> <span data-ttu-id="be73b-117">Kui see on tehtud, lukustage uuesti ülesandejuhend ja klõpsake sõlme Uus kategooria.</span><span class="sxs-lookup"><span data-stu-id="be73b-117">Once that is done, lock the task guide again and then click New category node.</span></span>  
+4. <span data-ttu-id="be73b-118">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="be73b-118">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="be73b-119">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="be73b-119">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="be73b-120">Sisestage väärtus väljale Hüüdnimi.</span><span class="sxs-lookup"><span data-stu-id="be73b-120">In the Friendly name field, type a value.</span></span>
+    * <span data-ttu-id="be73b-121">Hüüdnimi on valikuline.</span><span class="sxs-lookup"><span data-stu-id="be73b-121">The friendly name is optional.</span></span> <span data-ttu-id="be73b-122">See kuvatakse kategooriaotsingutes koos kategooria nimega.</span><span class="sxs-lookup"><span data-stu-id="be73b-122">It will be displayed in category lookups together with the category name.</span></span>  
+7. <span data-ttu-id="be73b-123">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="be73b-123">Click Save.</span></span>
 
-## <a name="add-products-to-your-new-procurement-category"></a>Toodete lisamine uude hankekategooriasse
-1. Tehke valik Hanked > .. > Hankekategooriad.
-    * Valige äsjalisatud sõlm. Kui käitate seda protseduuri ülesandejuhendina, peate sõlme valimiseks võib-olla ülesandejuhendi avama.  
-2. Laiendage jaotist Tooted.
-3. Klõpsake suvandit Lisa, et seostada tooted hankekategooriaga.
-4. Valige toode, mille soovite lisada hankekategooriasse.
-5. Klõpsake toote valimiseks noolt.
-6. Valige teine toode, mille soovite lisada hankekategooriasse.
-7. Klõpsake toote valimiseks noolt.
-8. Klõpsake nuppu OK.
+## <a name="add-products-to-your-new-procurement-category"></a><span data-ttu-id="be73b-124">Toodete lisamine uude hankekategooriasse</span><span class="sxs-lookup"><span data-stu-id="be73b-124">Add products to your new procurement category</span></span>
+1. <span data-ttu-id="be73b-125">Tehke valik Hanked > ..</span><span class="sxs-lookup"><span data-stu-id="be73b-125">Go to Procurement and sourcing > ..</span></span> <span data-ttu-id="be73b-126">> Hankekategooriad.</span><span class="sxs-lookup"><span data-stu-id="be73b-126">> Procurement categories.</span></span>
+    * <span data-ttu-id="be73b-127">Valige äsjalisatud sõlm.</span><span class="sxs-lookup"><span data-stu-id="be73b-127">Select the node you just added.</span></span> <span data-ttu-id="be73b-128">Kui käitate seda protseduuri ülesandejuhendina, peate sõlme valimiseks võib-olla ülesandejuhendi avama.</span><span class="sxs-lookup"><span data-stu-id="be73b-128">If you’re running this procedure as a task guide you might need to unlock the task guide to select the node.</span></span>  
+2. <span data-ttu-id="be73b-129">Laiendage jaotist Tooted.</span><span class="sxs-lookup"><span data-stu-id="be73b-129">Toggle the expansion of the Products section.</span></span>
+3. <span data-ttu-id="be73b-130">Klõpsake suvandit Lisa, et seostada tooted hankekategooriaga.</span><span class="sxs-lookup"><span data-stu-id="be73b-130">Click Add to associate products with the procurement category.</span></span>
+4. <span data-ttu-id="be73b-131">Valige toode, mille soovite lisada hankekategooriasse.</span><span class="sxs-lookup"><span data-stu-id="be73b-131">Select the product you want to add to the procurement category.</span></span>
+5. <span data-ttu-id="be73b-132">Klõpsake toote valimiseks noolt.</span><span class="sxs-lookup"><span data-stu-id="be73b-132">Click the arrow to select the product.</span></span>
+6. <span data-ttu-id="be73b-133">Valige teine toode, mille soovite lisada hankekategooriasse.</span><span class="sxs-lookup"><span data-stu-id="be73b-133">Select another product to add to the procurement category.</span></span>
+7. <span data-ttu-id="be73b-134">Klõpsake toote valimiseks noolt.</span><span class="sxs-lookup"><span data-stu-id="be73b-134">Click the arrow to select the product.</span></span>
+8. <span data-ttu-id="be73b-135">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="be73b-135">Click OK.</span></span>
 
-## <a name="add-approved-and-preferred-vendors"></a>Kinnitatud ja eelistatud hankijate lisamine
-1. Lülitage jaotise Hankijad laiendamist.
-2. Klõpsake vahekaarti Lisa.
-    * Saate lisada hankekategooriasse hankija ja määrata, kas hankija on eelistatud või kategooria jaoks lihtsalt kinnitatud. Kui kustutate hankija kategooriast, ei kustutata kategooriast hankija ajaloolisi kandeid.   
-3. Leidke hankija, kelle soovite lisada hankekategooriasse.
-4. Klõpsake hankija valimiseks noolt.
-5. Klõpsake nuppu OK.
-6. Valige selle hankija rida, keda soovite muuta.
-7. Valige suvand väljal Hankija olek.
-    * Hankija valimise säte suvandis Kategooria poliitika reegel määrab, kas ostutaotlusel on saadaval eelistatud hankija, kinnitatud hankija või kõik hankijad.   
+## <a name="add-approved-and-preferred-vendors"></a><span data-ttu-id="be73b-136">Kinnitatud ja eelistatud hankijate lisamine</span><span class="sxs-lookup"><span data-stu-id="be73b-136">Add approved and preferred vendors</span></span>
+1. <span data-ttu-id="be73b-137">Lülitage jaotise Hankijad laiendamist.</span><span class="sxs-lookup"><span data-stu-id="be73b-137">Toggle the expansion of the Vendors section.</span></span>
+2. <span data-ttu-id="be73b-138">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="be73b-138">Click Add.</span></span>
+    * <span data-ttu-id="be73b-139">Saate lisada hankekategooriasse hankija ja määrata, kas hankija on eelistatud või kategooria jaoks lihtsalt kinnitatud.</span><span class="sxs-lookup"><span data-stu-id="be73b-139">You can add a vendor to a procurement category and specify whether a vendor is preferred or just approved for the category.</span></span> <span data-ttu-id="be73b-140">Kui kustutate hankija kategooriast, ei kustutata kategooriast hankija ajaloolisi kandeid.</span><span class="sxs-lookup"><span data-stu-id="be73b-140">When you delete a vendor from a category, the historical transactions with the vendor in the category are not deleted.</span></span>   
+3. <span data-ttu-id="be73b-141">Leidke hankija, kelle soovite lisada hankekategooriasse.</span><span class="sxs-lookup"><span data-stu-id="be73b-141">Find the vendor you want to add to the category.</span></span>
+4. <span data-ttu-id="be73b-142">Klõpsake hankija valimiseks noolt.</span><span class="sxs-lookup"><span data-stu-id="be73b-142">Click the arrow to select the vendor.</span></span>
+5. <span data-ttu-id="be73b-143">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="be73b-143">Click OK.</span></span>
+6. <span data-ttu-id="be73b-144">Valige selle hankija rida, keda soovite muuta.</span><span class="sxs-lookup"><span data-stu-id="be73b-144">Select the vendor row that you want to modify.</span></span>
+7. <span data-ttu-id="be73b-145">Valige suvand väljal Hankija olek.</span><span class="sxs-lookup"><span data-stu-id="be73b-145">In the Vendor status field, select an option.</span></span>
+    * <span data-ttu-id="be73b-146">Hankija valimise säte suvandis Kategooria poliitika reegel määrab, kas ostutaotlusel on saadaval eelistatud hankija, kinnitatud hankija või kõik hankijad.</span><span class="sxs-lookup"><span data-stu-id="be73b-146">The vendor selection setting in the Category policy rule governs whether preferred, approved, or all vendors are available on purchase requisitions.</span></span>   
 
-## <a name="add-additional-information-to-the-category"></a>Kategooriale lisateabe lisamine
-1. Laiendage jaotist Hankija hindamiskriteeriumigrupid.
-    * Sellel vahekaardil saate määratleda, millise kriteeriumi järgi tuleks hankekategoorias olevaid hankijaid hinnata. Selleks klõpsake suvandit Lisa ja seejärel valige soovitud kriteeriumit sisaldav hankija hindamise grupp.  
-2. Laiendage jaotist Küsimustikud.
-    * Sellel vahekaardil saate lisada küsimustikke, mis kuvatakse tellimusel, kui määrate suvandi Tegevuse tüüp sätteks Tellimus. Sel juhul peab tellija enne hankekategooriasse kuuluva kindla toote või toodete tellimuse esitamist täitma küsimustiku.  
-3. Laiendage jaotist Kauba käibemaksugrupid.
-4. Klõpsake väljal Kauba käibemaksugrupp otsingu avamiseks ripploendi nuppu.
-5. Saate valida käibemaksugrupi.
-6. Laiendage jaotist Kategooria leht.
-    * Kategooria lehed luuakse lehel Kategooria hierarhia. Need sisaldavad teavet hankekategooria kohta, näiteks kategoorias olevate toodete tüüp, kategoorias olevate toodete pildid või teated, näiteks kategoorias saadaolevad allahindlused. Kategooria lehel olev teave kuvatakse ostutaotlustel.  
-7. Sulgege leht.
+## <a name="add-additional-information-to-the-category"></a><span data-ttu-id="be73b-147">Kategooriale lisateabe lisamine</span><span class="sxs-lookup"><span data-stu-id="be73b-147">Add additional information to the category</span></span>
+1. <span data-ttu-id="be73b-148">Laiendage jaotist Hankija hindamiskriteeriumigrupid.</span><span class="sxs-lookup"><span data-stu-id="be73b-148">Toggle the expansion of the Vendor evaluation criterion groups section.</span></span>
+    * <span data-ttu-id="be73b-149">Sellel vahekaardil saate määratleda, millise kriteeriumi järgi tuleks hankekategoorias olevaid hankijaid hinnata.</span><span class="sxs-lookup"><span data-stu-id="be73b-149">This tab allows you to define which criteria the vendors in the procurement category should be rated against.</span></span> <span data-ttu-id="be73b-150">Selleks klõpsake suvandit Lisa ja seejärel valige soovitud kriteeriumit sisaldav hankija hindamise grupp.</span><span class="sxs-lookup"><span data-stu-id="be73b-150">To do this you would click Add and then select a vendor evaluation group that contains the criteria you want.</span></span>  
+2. <span data-ttu-id="be73b-151">Laiendage jaotist Küsimustikud.</span><span class="sxs-lookup"><span data-stu-id="be73b-151">Toggle the expansion of the Questionnaires section.</span></span>
+    * <span data-ttu-id="be73b-152">Sellel vahekaardil saate lisada küsimustikke, mis kuvatakse tellimusel, kui määrate suvandi Tegevuse tüüp sätteks Tellimus.</span><span class="sxs-lookup"><span data-stu-id="be73b-152">This tab allows you to add questionnaires that will appear on the requisition, as long as you set the Activity type to "Requisition".</span></span> <span data-ttu-id="be73b-153">Sel juhul peab tellija enne hankekategooriasse kuuluva kindla toote või toodete tellimuse esitamist täitma küsimustiku.</span><span class="sxs-lookup"><span data-stu-id="be73b-153">The requester then has to fill out a questionnaire before they submit a requisition for the specific product or products in the procurement category.</span></span>  
+3. <span data-ttu-id="be73b-154">Laiendage jaotist Kauba käibemaksugrupid.</span><span class="sxs-lookup"><span data-stu-id="be73b-154">Toggle the expansion of the Item sales tax groups section.</span></span>
+4. <span data-ttu-id="be73b-155">Klõpsake väljal Kauba käibemaksugrupp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="be73b-155">In the Item sales tax group: field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="be73b-156">Saate valida käibemaksugrupi.</span><span class="sxs-lookup"><span data-stu-id="be73b-156">Select a sales tax group.</span></span>
+6. <span data-ttu-id="be73b-157">Laiendage jaotist Kategooria leht.</span><span class="sxs-lookup"><span data-stu-id="be73b-157">Toggle the expansion of the Category page section.</span></span>
+    * <span data-ttu-id="be73b-158">Kategooria lehed luuakse lehel Kategooria hierarhia.</span><span class="sxs-lookup"><span data-stu-id="be73b-158">Category pages are created in the Category hierarchy page.</span></span> <span data-ttu-id="be73b-159">Need sisaldavad teavet hankekategooria kohta, näiteks kategoorias olevate toodete tüüp, kategoorias olevate toodete pildid või teated, näiteks kategoorias saadaolevad allahindlused.</span><span class="sxs-lookup"><span data-stu-id="be73b-159">They contain information about the procurement category such as information about the type of products in a category, images of products in a category, or announcements such as the discounts that are available in a category.</span></span> <span data-ttu-id="be73b-160">Kategooria lehel olev teave kuvatakse ostutaotlustel.</span><span class="sxs-lookup"><span data-stu-id="be73b-160">The information in a category page is displayed on purchase requisitions.</span></span>  
+7. <span data-ttu-id="be73b-161">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="be73b-161">Close the page.</span></span>
 
 

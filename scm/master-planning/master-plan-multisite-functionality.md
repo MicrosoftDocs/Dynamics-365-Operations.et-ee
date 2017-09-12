@@ -20,37 +20,37 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d45cc1e69696fbc22078d0f1cd7f089fd322b440
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04f61141497570577520fe9146fbd1464f31062e
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="master-planning-and-multisite-functionality"></a>Koondplaneerimine ja mitme laoala režiim
+# <a name="master-planning-and-multisite-functionality"></a><span data-ttu-id="f184d-103">Koondplaneerimine ja mitme laoala režiim</span><span class="sxs-lookup"><span data-stu-id="f184d-103">Master planning and multisite functionality</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Koondplaneerimine võtab arvesse laoala ja varude dimensioonide sätteid. 
+<span data-ttu-id="f184d-104">Koondplaneerimine võtab arvesse laoala ja varude dimensioonide sätteid.</span><span class="sxs-lookup"><span data-stu-id="f184d-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
 
-Laoala dimensioon on kohustuslik ja saate määrata kohustuslikuks ka lao dimensiooni.
+<span data-ttu-id="f184d-105">Laoala dimensioon on kohustuslik ja saate määrata kohustuslikuks ka lao dimensiooni.</span><span class="sxs-lookup"><span data-stu-id="f184d-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
 
-Kui dimensioon on kohustuslik, tuleb dimensiooniväärtus sisestada kõigile laokannetele. Seepärast on algse nõude laoala ja ladu koondplaneerimise ajal teada. Laoala dimensioon on samuti kooskõlaline nii, et madalama taseme nõude koosnevuse jooksul laoala väärtus ei muutu.
+<span data-ttu-id="f184d-106">Kui dimensioon on kohustuslik, tuleb dimensiooniväärtus sisestada kõigile laokannetele.</span><span class="sxs-lookup"><span data-stu-id="f184d-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="f184d-107">Seepärast on algse nõude laoala ja ladu koondplaneerimise ajal teada.</span><span class="sxs-lookup"><span data-stu-id="f184d-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="f184d-108">Laoala dimensioon on samuti kooskõlaline nii, et madalama taseme nõude koosnevuse jooksul laoala väärtus ei muutu.</span><span class="sxs-lookup"><span data-stu-id="f184d-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
 
-Kui ladu ei ole seatud kohustuslikuks, ei pruugi see pärineda nõudest. Planeerimismootor peab määratlema, millist ladu kauba, üksikute ladude ja tellimusrea üksikasjade jaoks määratud sätetel põhinedes kasutada.
+<span data-ttu-id="f184d-109">Kui ladu ei ole seatud kohustuslikuks, ei pruugi see pärineda nõudest.</span><span class="sxs-lookup"><span data-stu-id="f184d-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="f184d-110">Planeerimismootor peab määratlema, millist ladu kauba, üksikute ladude ja tellimusrea üksikasjade jaoks määratud sätetel põhinedes kasutada.</span><span class="sxs-lookup"><span data-stu-id="f184d-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
 
-Järgmised teemad kirjeldavad, kuidas toimib planeerimismootor kasutatava lao määratlemisel, kui on määratud erinevad sätted.
+<span data-ttu-id="f184d-111">Järgmised teemad kirjeldavad, kuidas toimib planeerimismootor kasutatava lao määratlemisel, kui on määratud erinevad sätted.</span><span class="sxs-lookup"><span data-stu-id="f184d-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
 
-[Koondplaneerimine – laoala ja laovarud, ladu on kohustuslik](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="f184d-112">Koondplaneerimine – laoala ja laovarud, ladu on kohustuslik</span><span class="sxs-lookup"><span data-stu-id="f184d-112">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Koondplaneerimine – laovarud, ladu on kohustuslik](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="f184d-113">Koondplaneerimine – laovarud, ladu on kohustuslik</span><span class="sxs-lookup"><span data-stu-id="f184d-113">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Koondplaneerimine – laoala ja laovarud, ladu ei ole kohustuslik](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="f184d-114">Koondplaneerimine – laoala ja laovarud, ladu ei ole kohustuslik</span><span class="sxs-lookup"><span data-stu-id="f184d-114">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Koondplaneerimine – laovarud, ladu ei ole kohustuslik](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="f184d-115">Koondplaneerimine – laovarud, ladu ei ole kohustuslik</span><span class="sxs-lookup"><span data-stu-id="f184d-115">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Koondplaneerimine – koosluse versiooni määratlemine](master-plan-bom-version-determined.md)
+[<span data-ttu-id="f184d-116">Koondplaneerimine – koosluse versiooni määratlemine</span><span class="sxs-lookup"><span data-stu-id="f184d-116">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

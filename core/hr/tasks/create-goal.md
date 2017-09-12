@@ -16,47 +16,47 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 46661449fcff01e417c788d3cc1d5d39ac39cba0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0c84003fa2326c68978dae698ae7c91c0c62b0f7
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-goal"></a>Eesmärgi loomine
+# <a name="create-a-goal"></a><span data-ttu-id="8547a-103">Eesmärgi loomine</span><span class="sxs-lookup"><span data-stu-id="8547a-103">Create a goal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Saate eesmärke luua, eesmärkidele tegevusi lisada, mõõdikuid jälgida ja siduda eesmärke hindamisega. Protseduuri loomisel kasutati demoettevõtte USMF andmeid. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
+<span data-ttu-id="8547a-104">Saate eesmärke luua, eesmärkidele tegevusi lisada, mõõdikuid jälgida ja siduda eesmärke hindamisega.</span><span class="sxs-lookup"><span data-stu-id="8547a-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="8547a-105">Protseduuri loomisel kasutati demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="8547a-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="8547a-106">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="8547a-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
-1. Avage Kõik tööruumid > Töötaja iseteenindus.
-2. Klõpsake valikut Kõigi eesmärkide kuvamine
-3. Klõpsake valikut Uus.
-4. Tippige väljale Nimi tekst „Vii Contoso projekt lõpule”.
-5. Sisestage väljale ülevaade tekst „Lõpetan Contoso projekti 30 päeva pärast”.
-    * Eesmärgid võivad kehtida inimesele, töörühmale või isegi korporatsioonile. Töötaja eesmärkide vaikesäte on Individuaalne.  
-6. Valige või sisestage väärtus väljal Eesmärgi kategooria.
-7. Muutke väljal Alguskuupäev kuvatud kuupäeva.
-8. Muutke väljal Lõppkuupäev kuvatud kuupäeva.
-    * Eesmärgi saavutamisel sisestage siia eesmärgi saavutamise kuupäev.  
-9. Klõpsake nuppu Salvesta.
-10. Laiendage jaotist Mõõdikud. Kui see on juba laiendatud, klõpsake kaks korda noolt Laienda.
-11. Klõpsake valikut Lisa mõõdik rippdialoogi avamiseks.
-12. Valige või sisestage väärtus väljal Mõõdik.
-13. Sisestage number väljale Sihtsumma.
-14. Klõpsake nuppu OK.
-15. Laiendage jaotist Tegevused. Kui see on juba laiendatud, klõpsake kaks korda noolt Laienda.
-16. Klõpsake vahekaarti Lisa.
-17. Sisestage väärtus väljale Pealkiri.
-18. Sisestage väljale Kirjeldus soovitud väärtus.
-19. Klõpsake nuppu Salvesta.
-20. Klõpsake valikut Kuva jaotised rippdialoogi avamiseks.
-21. Tehke väljal Kuva mõõdikud valik Ei.
-22. Klõpsake nuppu Salvesta.
-23. Klõpsake valikut Kuva jaotised rippdialoogi avamiseks.
-24. Tehke väljal Kuva mõõdikud valik Jah.
-25. Klõpsake nuppu Salvesta.
-    * Sageli on eesmärke, mis on töörühma liikmete või kõigi töötajate puhul samad või sarnased.     Teie inimressursside haldur või juht saab nende eesmärkide jaoks eesmärgimalle luua. Eesmärgi saab lisada malli põhjal ja siis seda muuta, et see vastaks teie ajaskaaladele.  
-    * Sageli on mitu eesmärki, mis on töörühma liikmete või kõigi töötajate puhul samad või sarnased.     Teie inimressursside haldur või juht saab luua eesmärgigruppe, milles on vähemalt üks eesmärgimall. Saate lisada eesmärgigrupist eesmärke ja muuta neid siis nii, et need vastaksid teie ajaskaaladele.  
-    * Hindamise loomisel saate sellele hindamisele eesmärke lisada. Vaadake hindamiste tegevuse juhisest, kuidas hindamistele eesmärke lisada.  
+1. <span data-ttu-id="8547a-107">Avage Kõik tööruumid > Töötaja iseteenindus.</span><span class="sxs-lookup"><span data-stu-id="8547a-107">Go to All workspaces > Employee self service.</span></span>
+2. <span data-ttu-id="8547a-108">Klõpsake valikut Kõigi eesmärkide kuvamine</span><span class="sxs-lookup"><span data-stu-id="8547a-108">Click View all goals</span></span>
+3. <span data-ttu-id="8547a-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="8547a-109">Click New.</span></span>
+4. <span data-ttu-id="8547a-110">Tippige väljale Nimi tekst „Vii Contoso projekt lõpule”.</span><span class="sxs-lookup"><span data-stu-id="8547a-110">In the Name field, type 'Complete the Contoso project'.</span></span>
+5. <span data-ttu-id="8547a-111">Sisestage väljale ülevaade tekst „Lõpetan Contoso projekti 30 päeva pärast”.</span><span class="sxs-lookup"><span data-stu-id="8547a-111">In the Overview field, enter 'I will finish the Contoso project in 30 days'.</span></span>
+    * <span data-ttu-id="8547a-112">Eesmärgid võivad kehtida inimesele, töörühmale või isegi korporatsioonile.</span><span class="sxs-lookup"><span data-stu-id="8547a-112">Goals can apply to an individual, a team, or even a corporation.</span></span> <span data-ttu-id="8547a-113">Töötaja eesmärkide vaikesäte on Individuaalne.</span><span class="sxs-lookup"><span data-stu-id="8547a-113">The default setting for Employee goals is Individual.</span></span>  
+6. <span data-ttu-id="8547a-114">Valige või sisestage väärtus väljal Eesmärgi kategooria.</span><span class="sxs-lookup"><span data-stu-id="8547a-114">In the Goal category field, enter or select a value.</span></span>
+7. <span data-ttu-id="8547a-115">Muutke väljal Alguskuupäev kuvatud kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="8547a-115">In the Start date field, change the date shown.</span></span>
+8. <span data-ttu-id="8547a-116">Muutke väljal Lõppkuupäev kuvatud kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="8547a-116">In the End date field, change the date shown.</span></span>
+    * <span data-ttu-id="8547a-117">Eesmärgi saavutamisel sisestage siia eesmärgi saavutamise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="8547a-117">When you complete a goal, enter the date that you completed the goal here.</span></span>  
+9. <span data-ttu-id="8547a-118">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8547a-118">Click Save.</span></span>
+10. <span data-ttu-id="8547a-119">Laiendage jaotist Mõõdikud.</span><span class="sxs-lookup"><span data-stu-id="8547a-119">Expand the Measurements section.</span></span> <span data-ttu-id="8547a-120">Kui see on juba laiendatud, klõpsake kaks korda noolt Laienda.</span><span class="sxs-lookup"><span data-stu-id="8547a-120">If it is already expanded, click the Expand arrow twice.</span></span>
+11. <span data-ttu-id="8547a-121">Klõpsake valikut Lisa mõõdik rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="8547a-121">Click Add measurement to open the drop dialog.</span></span>
+12. <span data-ttu-id="8547a-122">Valige või sisestage väärtus väljal Mõõdik.</span><span class="sxs-lookup"><span data-stu-id="8547a-122">In the Measurement field, enter or select a value.</span></span>
+13. <span data-ttu-id="8547a-123">Sisestage number väljale Sihtsumma.</span><span class="sxs-lookup"><span data-stu-id="8547a-123">In the Target amount field, enter a number.</span></span>
+14. <span data-ttu-id="8547a-124">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="8547a-124">Click OK.</span></span>
+15. <span data-ttu-id="8547a-125">Laiendage jaotist Tegevused.</span><span class="sxs-lookup"><span data-stu-id="8547a-125">Expand the Activities section.</span></span> <span data-ttu-id="8547a-126">Kui see on juba laiendatud, klõpsake kaks korda noolt Laienda.</span><span class="sxs-lookup"><span data-stu-id="8547a-126">If it is already expanded, click the Expand arrow twice.</span></span>
+16. <span data-ttu-id="8547a-127">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="8547a-127">Click Add.</span></span>
+17. <span data-ttu-id="8547a-128">Sisestage väärtus väljale Pealkiri.</span><span class="sxs-lookup"><span data-stu-id="8547a-128">In the Title field, type a value.</span></span>
+18. <span data-ttu-id="8547a-129">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="8547a-129">In the Description field, type a value.</span></span>
+19. <span data-ttu-id="8547a-130">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8547a-130">Click Save.</span></span>
+20. <span data-ttu-id="8547a-131">Klõpsake valikut Kuva jaotised rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="8547a-131">Click Show sections to open the drop dialog.</span></span>
+21. <span data-ttu-id="8547a-132">Tehke väljal Kuva mõõdikud valik Ei.</span><span class="sxs-lookup"><span data-stu-id="8547a-132">Select No in the Show measurements field.</span></span>
+22. <span data-ttu-id="8547a-133">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8547a-133">Click Save.</span></span>
+23. <span data-ttu-id="8547a-134">Klõpsake valikut Kuva jaotised rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="8547a-134">Click Show sections to open the drop dialog.</span></span>
+24. <span data-ttu-id="8547a-135">Tehke väljal Kuva mõõdikud valik Jah.</span><span class="sxs-lookup"><span data-stu-id="8547a-135">Select Yes in the Show measurements field.</span></span>
+25. <span data-ttu-id="8547a-136">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8547a-136">Click Save.</span></span>
+    * <span data-ttu-id="8547a-137">Sageli on eesmärke, mis on töörühma liikmete või kõigi töötajate puhul samad või sarnased.</span><span class="sxs-lookup"><span data-stu-id="8547a-137">There are often goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="8547a-138">Teie inimressursside haldur või juht saab nende eesmärkide jaoks eesmärgimalle luua.</span><span class="sxs-lookup"><span data-stu-id="8547a-138">Your HR administrator or manager can create goal templates for those goals.</span></span> <span data-ttu-id="8547a-139">Eesmärgi saab lisada malli põhjal ja siis seda muuta, et see vastaks teie ajaskaaladele.</span><span class="sxs-lookup"><span data-stu-id="8547a-139">You can add a goal from a template, and then modify it to match your timelines.</span></span>  
+    * <span data-ttu-id="8547a-140">Sageli on mitu eesmärki, mis on töörühma liikmete või kõigi töötajate puhul samad või sarnased.</span><span class="sxs-lookup"><span data-stu-id="8547a-140">There are often several goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="8547a-141">Teie inimressursside haldur või juht saab luua eesmärgigruppe, milles on vähemalt üks eesmärgimall.</span><span class="sxs-lookup"><span data-stu-id="8547a-141">Your HR administrator or manager can create goal groups that contain one or more goal templates.</span></span> <span data-ttu-id="8547a-142">Saate lisada eesmärgigrupist eesmärke ja muuta neid siis nii, et need vastaksid teie ajaskaaladele.</span><span class="sxs-lookup"><span data-stu-id="8547a-142">You can add goals from a goal group, and then modify them to match your timelines.</span></span>  
+    * <span data-ttu-id="8547a-143">Hindamise loomisel saate sellele hindamisele eesmärke lisada.</span><span class="sxs-lookup"><span data-stu-id="8547a-143">When you create a review, you can add goals to that review.</span></span> <span data-ttu-id="8547a-144">Vaadake hindamiste tegevuse juhisest, kuidas hindamistele eesmärke lisada.</span><span class="sxs-lookup"><span data-stu-id="8547a-144">Refer to the task guide for reviews to see how you can add goals to your reviews.</span></span>  
 
 

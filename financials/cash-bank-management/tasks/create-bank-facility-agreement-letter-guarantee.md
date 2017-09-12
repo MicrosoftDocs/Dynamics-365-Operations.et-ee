@@ -16,45 +16,45 @@ ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bfdc149632f2d0b7bdb978e7c12e0afef6ba3734
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7b6e35c922edeb3c3c7a33ff741a25e699242abf
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Garantiikirja jaoks panga süsteemiteenuse lepingu loomine
+# <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a><span data-ttu-id="454f3-103">Garantiikirja jaoks panga süsteemiteenuse lepingu loomine</span><span class="sxs-lookup"><span data-stu-id="454f3-103">Create a bank facility agreement for the letter of guarantee</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesanne loob panga süsteemiteenuse leppe garantiikirja töötlemiseks. See ülesanne kasutab demoettevõtte USMF andmeid. 
+<span data-ttu-id="454f3-104">See ülesanne loob panga süsteemiteenuse leppe garantiikirja töötlemiseks.</span><span class="sxs-lookup"><span data-stu-id="454f3-104">This task creates a bank facility agreement to process a letter of guarantee.</span></span> <span data-ttu-id="454f3-105">See ülesanne kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="454f3-105">This task uses the USMF demo company.</span></span> 
 
 
-## <a name="create-bank-facility-agreement"></a>Panga süsteemiteenuse leppe loomine
-1. Minge jaotisse Sularaha- ja pangahaldus > Garantiikirjad > Panga süsteemiteenuse lepped.
-2. Klõpsake valikut Uus.
-3. Sisestage väljale Leppe number kande pangaleppe number.
-4. Valige väljal Pangakonto selle pangakonto number, mille jaoks garantiikiri on avatud. 
-5. Klõpsake loendis valitud real olevat linki.
-6. Sisestage väljale Alguskuupäev kuupäev ja kellaaeg.
-7. Sisestage väljale Lõppkuupäev kuupäev ja kellaaeg.
-8. Lülitage jaotise Üldine laiendamist.
-9. Klõpsake käsku Lisa rida.
-10. Klõpsake väljal Süsteemiteenuse tüüp otsingu avamiseks ripploendi nuppu.
-11. Otsige loendist ja valige soovitud kirje.
-12. Klõpsake loendis valitud real olevat linki.
-13. Sisestage väljale Piirang pangaga kokkulepitud summa.
-14. Klõpsake nuppu Salvesta.
-15. Laiendage jaotist Garantiikiri.
-16. Valige suvand väljal Arvutusmeetod.
-    * Sisestage suvandi Sularaha marginaal, Väljaandmise komisjonitasu, Laiendi komisjonitasu, Väärtuse komisjonitasu suurendamine või Väärtuse komisjonitasu vähendamine puhul vastavalt arvutusmeetod ja protsendi üksikasjad.   
-17. Klõpsake nuppu Salvesta.
+## <a name="create-bank-facility-agreement"></a><span data-ttu-id="454f3-106">Panga süsteemiteenuse leppe loomine</span><span class="sxs-lookup"><span data-stu-id="454f3-106">Create Bank facility agreement</span></span>
+1. <span data-ttu-id="454f3-107">Minge jaotisse Sularaha- ja pangahaldus > Garantiikirjad > Panga süsteemiteenuse lepped.</span><span class="sxs-lookup"><span data-stu-id="454f3-107">Go to Cash and bank management > Letters of guarantee > Bank facility agreements.</span></span>
+2. <span data-ttu-id="454f3-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="454f3-108">Click New.</span></span>
+3. <span data-ttu-id="454f3-109">Sisestage väljale Leppe number kande pangaleppe number.</span><span class="sxs-lookup"><span data-stu-id="454f3-109">In the Agreement number field, enter the bank agreement number for the transaction.</span></span>
+4. <span data-ttu-id="454f3-110">Valige väljal Pangakonto selle pangakonto number, mille jaoks garantiikiri on avatud.</span><span class="sxs-lookup"><span data-stu-id="454f3-110">In the Bank account field, select the bank account number for which the letter of guarantee is open.</span></span> 
+5. <span data-ttu-id="454f3-111">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="454f3-111">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="454f3-112">Sisestage väljale Alguskuupäev kuupäev ja kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="454f3-112">In the Start date field, enter a date and time.</span></span>
+7. <span data-ttu-id="454f3-113">Sisestage väljale Lõppkuupäev kuupäev ja kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="454f3-113">In the End date field, enter a date and time.</span></span>
+8. <span data-ttu-id="454f3-114">Lülitage jaotise Üldine laiendamist.</span><span class="sxs-lookup"><span data-stu-id="454f3-114">Toggle the expansion of the General section.</span></span>
+9. <span data-ttu-id="454f3-115">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="454f3-115">Click Add line.</span></span>
+10. <span data-ttu-id="454f3-116">Klõpsake väljal Süsteemiteenuse tüüp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="454f3-116">In the Facility type field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="454f3-117">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="454f3-117">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="454f3-118">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="454f3-118">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="454f3-119">Sisestage väljale Piirang pangaga kokkulepitud summa.</span><span class="sxs-lookup"><span data-stu-id="454f3-119">In the Limit field, enter the amount negotiated with the bank.</span></span>
+14. <span data-ttu-id="454f3-120">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="454f3-120">Click Save.</span></span>
+15. <span data-ttu-id="454f3-121">Laiendage jaotist Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="454f3-121">Toggle the expansion of the Letter of guarantee section.</span></span>
+16. <span data-ttu-id="454f3-122">Valige suvand väljal Arvutusmeetod.</span><span class="sxs-lookup"><span data-stu-id="454f3-122">In the Calculation method field, select an option.</span></span>
+    * <span data-ttu-id="454f3-123">Sisestage suvandi Sularaha marginaal, Väljaandmise komisjonitasu, Laiendi komisjonitasu, Väärtuse komisjonitasu suurendamine või Väärtuse komisjonitasu vähendamine puhul vastavalt arvutusmeetod ja protsendi üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="454f3-123">Enter the calculation method and percentage details for the Cash margin, Issuance commission, Extension commission, Increase value commission, or Decrease value commission, as appropriate.</span></span>   
+17. <span data-ttu-id="454f3-124">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="454f3-124">Click Save.</span></span>
 
-## <a name="extend-bank-facility-agreement"></a>Laiendage panga süsteemiteenuse lepet
-1. Rippdialoogi avamiseks klõpsake Laienda.
-2. Sisestage väärtus väljale Uus leppe number.
-3. Sisestage väljale Lõppkuupäev kuupäev ja kellaaeg.
-4. Klõpsake Laienda.
-5. Klõpsake nuppu Salvesta.
-6. Sulgege leht.
+## <a name="extend-bank-facility-agreement"></a><span data-ttu-id="454f3-125">Laiendage panga süsteemiteenuse lepet</span><span class="sxs-lookup"><span data-stu-id="454f3-125">Extend bank facility agreement</span></span>
+1. <span data-ttu-id="454f3-126">Rippdialoogi avamiseks klõpsake Laienda.</span><span class="sxs-lookup"><span data-stu-id="454f3-126">Click Extend to open the drop dialog.</span></span>
+2. <span data-ttu-id="454f3-127">Sisestage väärtus väljale Uus leppe number.</span><span class="sxs-lookup"><span data-stu-id="454f3-127">In the New agreement number field, type a value.</span></span>
+3. <span data-ttu-id="454f3-128">Sisestage väljale Lõppkuupäev kuupäev ja kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="454f3-128">In the End date field, enter a date and time.</span></span>
+4. <span data-ttu-id="454f3-129">Klõpsake Laienda.</span><span class="sxs-lookup"><span data-stu-id="454f3-129">Click Extend.</span></span>
+5. <span data-ttu-id="454f3-130">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="454f3-130">Click Save.</span></span>
+6. <span data-ttu-id="454f3-131">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="454f3-131">Close the page.</span></span>
 
 

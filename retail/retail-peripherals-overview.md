@@ -18,321 +18,219 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Jaemüügi välisseadmete ülevaade
+# <a name="retail-peripherals-overview"></a><span data-ttu-id="ba422-104">Jaemüügi välisseadmete ülevaade</span><span class="sxs-lookup"><span data-stu-id="ba422-104">Retail peripherals overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Selles teemas selgitatakse mõisteid, mis on seotud jaemüügi välisseadmetega. See kirjeldab mitmesuguseid viise, kuidas välisseadmed saab kassaga ühendada, ja kassaga ühenduse haldamise eest vastutavaid komponente.
+<span data-ttu-id="ba422-105">Selles teemas selgitatakse mõisteid, mis on seotud jaemüügi välisseadmetega.</span><span class="sxs-lookup"><span data-stu-id="ba422-105">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="ba422-106">See kirjeldab mitmesuguseid viise, kuidas välisseadmed saab kassaga ühendada, ja kassaga ühenduse haldamise eest vastutavaid komponente.</span><span class="sxs-lookup"><span data-stu-id="ba422-106">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 
-## <a name="concepts"></a>Mõisted
+## <a name="concepts"></a><span data-ttu-id="ba422-107">Mõisted</span><span class="sxs-lookup"><span data-stu-id="ba422-107">Concepts</span></span>
 
-### <a name="pos-registers"></a>Kassaregistrid
+### <a name="pos-registers"></a><span data-ttu-id="ba422-108">Kassaregistrid</span><span class="sxs-lookup"><span data-stu-id="ba422-108">POS registers</span></span>
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Kassaregister on üksus, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
+<span data-ttu-id="ba422-109">Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**.</span><span class="sxs-lookup"><span data-stu-id="ba422-109">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="ba422-110">Kassaregister on üksus, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-110">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="ba422-111">Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.</span><span class="sxs-lookup"><span data-stu-id="ba422-111">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
 
-### <a name="devices"></a>Seadmed
+### <a name="devices"></a><span data-ttu-id="ba422-112">Seadmed</span><span class="sxs-lookup"><span data-stu-id="ba422-112">Devices</span></span>
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmeid saab vastendada järgmiste rakenduse tüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.
+<span data-ttu-id="ba422-113">Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**.</span><span class="sxs-lookup"><span data-stu-id="ba422-113">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="ba422-114">Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari.</span><span class="sxs-lookup"><span data-stu-id="ba422-114">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="ba422-115">Seadme loomisel vastendatakse see kassaregistriga.</span><span class="sxs-lookup"><span data-stu-id="ba422-115">When a device is created, it’s mapped to a POS register.</span></span> <span data-ttu-id="ba422-116">Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-116">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="ba422-117">Seadmeid saab vastendada järgmiste rakenduse tüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.</span><span class="sxs-lookup"><span data-stu-id="ba422-117">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
 
-### <a name="retail-modern-pos"></a>Uudne jaemüügikassa
+### <a name="retail-modern-pos"></a><span data-ttu-id="ba422-118">Uudne jaemüügikassa</span><span class="sxs-lookup"><span data-stu-id="ba422-118">Retail Modern POS</span></span>
 
-Modern POS on Microsoft Windowsi kassaprogramm. Seda saab juurutada Windows 10 operatsioonisüsteemides (OS-ides).
+<span data-ttu-id="ba422-119">Modern POS on Microsoft Windowsi kassaprogramm.</span><span class="sxs-lookup"><span data-stu-id="ba422-119">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="ba422-120">Seda saab juurutada Windows 10 operatsioonisüsteemides (OS-ides).</span><span class="sxs-lookup"><span data-stu-id="ba422-120">It can be deployed on Windows 10 operating systems (OSs).</span></span>
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a><span data-ttu-id="ba422-121">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="ba422-121">Cloud POS</span></span>
 
-Cloud POS on programmi Modern POS brauseripõhine versioon, millele pääseb juurde veebibrauserist.
+<span data-ttu-id="ba422-122">Cloud POS on programmi Modern POS brauseripõhine versioon, millele pääseb juurde veebibrauserist.</span><span class="sxs-lookup"><span data-stu-id="ba422-122">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
 
-### <a name="modern-pos-for-ios"></a>Modern POS iOS-ile
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="ba422-123">Modern POS iOS-ile</span><span class="sxs-lookup"><span data-stu-id="ba422-123">Modern POS for iOS</span></span>
 
-Modern POS iOS-ile on programmi Modern POS iOS-i põhine versioon, mida saab juurutada iOS-i seadmetel.
+<span data-ttu-id="ba422-124">Modern POS iOS-ile on programmi Modern POS iOS-i põhine versioon, mida saab juurutada iOS-i seadmetel.</span><span class="sxs-lookup"><span data-stu-id="ba422-124">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
 
-### <a name="modern-pos-for-android"></a>Modern POS Androidile
+### <a name="modern-pos-for-android"></a><span data-ttu-id="ba422-125">Modern POS Androidile</span><span class="sxs-lookup"><span data-stu-id="ba422-125">Modern POS for Android</span></span>
 
-Modern POS Androidile on Modern POS-i programmi Androidi-põhine versioon, mida saab juurutada Androidi seadmetel.
+<span data-ttu-id="ba422-126">Modern POS Androidile on Modern POS-i programmi Androidi-põhine versioon, mida saab juurutada Androidi seadmetel.</span><span class="sxs-lookup"><span data-stu-id="ba422-126">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
 
-### <a name="pos-peripherals"></a>Kassa välisseadmed
+### <a name="pos-peripherals"></a><span data-ttu-id="ba422-127">Kassa välisseadmed</span><span class="sxs-lookup"><span data-stu-id="ba422-127">POS peripherals</span></span>
 
-Kassa välisseadmed on seadmed, millel selgelt kassafunktsioone toetatakse. Need välisseadmed on tavaliselt jagatud konkreetsetesse klassidesse. Lisateavet nende klasside kohta leiate selle teema jaotisest „Seadmeklassid”.
+<span data-ttu-id="ba422-128">Kassa välisseadmed on seadmed, millel selgelt kassafunktsioone toetatakse.</span><span class="sxs-lookup"><span data-stu-id="ba422-128">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="ba422-129">Need välisseadmed on tavaliselt jagatud konkreetsetesse klassidesse.</span><span class="sxs-lookup"><span data-stu-id="ba422-129">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="ba422-130">Lisateavet nende klasside kohta leiate selle teema jaotisest „Seadmeklassid”.</span><span class="sxs-lookup"><span data-stu-id="ba422-130">For more information about these classes, see the “Device classes” section of this topic.</span></span>
 
-### <a name="hardware-station"></a>Riistvarajaam
+### <a name="hardware-station"></a><span data-ttu-id="ba422-131">Riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-131">Hardware station</span></span>
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanalid** &gt; **Jaemüügikanalid** &gt; **Kõik jaekauplused**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**. **Riistvarajaama** säte on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse jaemüügi välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmi Windowsile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb sellele juurde võrgu kaudu.
+<span data-ttu-id="ba422-132">Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanalid** &gt; **Jaemüügikanalid** &gt; **Kõik jaekauplused**.</span><span class="sxs-lookup"><span data-stu-id="ba422-132">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="ba422-133">Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**.</span><span class="sxs-lookup"><span data-stu-id="ba422-133">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="ba422-134">**Riistvarajaama** säte on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse jaemüügi välisseadme loogikat.</span><span class="sxs-lookup"><span data-stu-id="ba422-134">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="ba422-135">Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-135">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="ba422-136">Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-136">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="ba422-137">Riistvarajaam on integreeritud Modern POS-i programmi Windowsile.</span><span class="sxs-lookup"><span data-stu-id="ba422-137">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="ba422-138">Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina.</span><span class="sxs-lookup"><span data-stu-id="ba422-138">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="ba422-139">Sellisel juhul pääseb sellele juurde võrgu kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-139">In this case, it can be accessed via a network.</span></span>
 
-### <a name="hardware-profile"></a>Riistvaraprofiil
+### <a name="hardware-profile"></a><span data-ttu-id="ba422-140">Riistvaraprofiil</span><span class="sxs-lookup"><span data-stu-id="ba422-140">Hardware profile</span></span>
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
+<span data-ttu-id="ba422-141">Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**.</span><span class="sxs-lookup"><span data-stu-id="ba422-141">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="ba422-142">Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend.</span><span class="sxs-lookup"><span data-stu-id="ba422-142">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="ba422-143">Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.</span><span class="sxs-lookup"><span data-stu-id="ba422-143">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
 
-## <a name="devices-classes"></a>Seadmete klassid
-Kassa välisseadmed on tavaliselt jagatud klassidesse. Selles jaotises kirjeldatakse seadmeid, mida Modern POS toetab, ja antakse neist ülevaade.
+## <a name="devices-classes"></a><span data-ttu-id="ba422-144">Seadmete klassid</span><span class="sxs-lookup"><span data-stu-id="ba422-144">Devices classes</span></span>
+<span data-ttu-id="ba422-145">Kassa välisseadmed on tavaliselt jagatud klassidesse.</span><span class="sxs-lookup"><span data-stu-id="ba422-145">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="ba422-146">Selles jaotises kirjeldatakse seadmeid, mida Modern POS toetab, ja antakse neist ülevaade.</span><span class="sxs-lookup"><span data-stu-id="ba422-146">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
 
-### <a name="printer"></a>Printer
+### <a name="printer"></a><span data-ttu-id="ba422-147">Printer</span><span class="sxs-lookup"><span data-stu-id="ba422-147">Printer</span></span>
 
-Printerite hulka kuuluvad tavapärased kassa kviitungiprinterid ja kogu lehe printerid. Printereid toetatakse süsteemi Object Linking and Embedding for Retail POS (OPOS) ja Microsoft Windowsi draiveriliideste kaudu. Korraga saab kasutada kuni kahte printerit. See võimalus toetab stsenaariume, kus sularahaklientide kviitungid prinditakse kviitungiprinteritest, samas kui klientide teaberohkemad arved prinditakse kogu lehe printeritest. Kviitungiprinterid saab ühendada USB kaudu otse arvutiga, Etherneti kaudu võrguga või Bluetoothi kaudu.
+<span data-ttu-id="ba422-148">Printerite hulka kuuluvad tavapärased kassa kviitungiprinterid ja kogu lehe printerid.</span><span class="sxs-lookup"><span data-stu-id="ba422-148">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="ba422-149">Printereid toetatakse süsteemi Object Linking and Embedding for Retail POS (OPOS) ja Microsoft Windowsi draiveriliideste kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-149">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="ba422-150">Korraga saab kasutada kuni kahte printerit.</span><span class="sxs-lookup"><span data-stu-id="ba422-150">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="ba422-151">See võimalus toetab stsenaariume, kus sularahaklientide kviitungid prinditakse kviitungiprinteritest, samas kui klientide teaberohkemad arved prinditakse kogu lehe printeritest.</span><span class="sxs-lookup"><span data-stu-id="ba422-151">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="ba422-152">Kviitungiprinterid saab ühendada USB kaudu otse arvutiga, Etherneti kaudu võrguga või Bluetoothi kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-152">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
 
-### <a name="scanner"></a>Skanner
+### <a name="scanner"></a><span data-ttu-id="ba422-153">Skanner</span><span class="sxs-lookup"><span data-stu-id="ba422-153">Scanner</span></span>
 
-Korraga saab kasutada kuni kahte vöötkoodiskannerit. See võimalus toetab stsenaariume, kus on vaja mobiilsemat skannerit, et skannida suuri või raskeid kaupu, samas kui enamiku tavasuuruses kaupade jaoks kasutatakse fikseeritud manustatud skannerit, et väljaregistreerimist kiirendada. Skannereid võidakse toetada OPOS-i, universaalse Windowsi platvormi (UWP) või klaviatuuri kiilliideste kaudu. Skanneri ühendamiseks arvutiga võib kasutada USB-d või Bluetoothi.
+<span data-ttu-id="ba422-154">Korraga saab kasutada kuni kahte vöötkoodiskannerit.</span><span class="sxs-lookup"><span data-stu-id="ba422-154">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="ba422-155">See võimalus toetab stsenaariume, kus on vaja mobiilsemat skannerit, et skannida suuri või raskeid kaupu, samas kui enamiku tavasuuruses kaupade jaoks kasutatakse fikseeritud manustatud skannerit, et väljaregistreerimist kiirendada.</span><span class="sxs-lookup"><span data-stu-id="ba422-155">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="ba422-156">Skannereid võidakse toetada OPOS-i, universaalse Windowsi platvormi (UWP) või klaviatuuri kiilliideste kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-156">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="ba422-157">Skanneri ühendamiseks arvutiga võib kasutada USB-d või Bluetoothi.</span><span class="sxs-lookup"><span data-stu-id="ba422-157">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
 
-### <a name="msr"></a>Magnetribalugeja
+### <a name="msr"></a><span data-ttu-id="ba422-158">Magnetribalugeja</span><span class="sxs-lookup"><span data-stu-id="ba422-158">MSR</span></span>
 
-OPOS-i draiverite abil saab seadistada ühe USB-magnetribalugeja (MSR). Kui soovite kasutada maksmiskannete jaoks elektroonilise ülekande (EFT) kaudu autonoomset MSR-i, peab MSR-i haldama makseliides. Autonoomseid MSR-e saab kasutada püsikliendi sisestamise, töötaja sisselogimise ja kinkekaardi sisestamise jaoks, makseliidesest sõltumatult.
+<span data-ttu-id="ba422-159">OPOS-i draiverite abil saab seadistada ühe USB-magnetribalugeja (MSR).</span><span class="sxs-lookup"><span data-stu-id="ba422-159">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="ba422-160">Kui soovite kasutada maksmiskannete jaoks elektroonilise ülekande (EFT) kaudu autonoomset MSR-i, peab MSR-i haldama makseliides.</span><span class="sxs-lookup"><span data-stu-id="ba422-160">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="ba422-161">Autonoomseid MSR-e saab kasutada püsikliendi sisestamise, töötaja sisselogimise ja kinkekaardi sisestamise jaoks, makseliidesest sõltumatult.</span><span class="sxs-lookup"><span data-stu-id="ba422-161">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
 
-### <a name="cash-drawer"></a>Sularahasahtel
+### <a name="cash-drawer"></a><span data-ttu-id="ba422-162">Sularahasahtel</span><span class="sxs-lookup"><span data-stu-id="ba422-162">Cash drawer</span></span>
 
-Toetada on võimalik kahte sularahasahtlit riistvaraprofiili kohta. Nii on võimalik kasutada korraga kahte aktiivset vahetust registri kohta. Jagatud vahetuse või sularahasahtli korral, mida kasutab korraga mitu mobiilset kassaseadet, lubatakse riistvaraprofiili kohta ainult ühte sularahasahtlit. Sularahasahtlid saab ühendada USB kaudu otse arvutiga, võrguga või liidese RJ12 kaudu kviitungiprinteriga. Mõnel juhul saab sularahasahtlid ühendada ka Bluetoothi kaudu.
+<span data-ttu-id="ba422-163">Toetada on võimalik kahte sularahasahtlit riistvaraprofiili kohta.</span><span class="sxs-lookup"><span data-stu-id="ba422-163">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="ba422-164">Nii on võimalik kasutada korraga kahte aktiivset vahetust registri kohta.</span><span class="sxs-lookup"><span data-stu-id="ba422-164">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="ba422-165">Jagatud vahetuse või sularahasahtli korral, mida kasutab korraga mitu mobiilset kassaseadet, lubatakse riistvaraprofiili kohta ainult ühte sularahasahtlit.</span><span class="sxs-lookup"><span data-stu-id="ba422-165">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="ba422-166">Sularahasahtlid saab ühendada USB kaudu otse arvutiga, võrguga või liidese RJ12 kaudu kviitungiprinteriga.</span><span class="sxs-lookup"><span data-stu-id="ba422-166">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="ba422-167">Mõnel juhul saab sularahasahtlid ühendada ka Bluetoothi kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-167">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
 
-### <a name="line-display"></a>Rea kuva
+### <a name="line-display"></a><span data-ttu-id="ba422-168">Rea kuva</span><span class="sxs-lookup"><span data-stu-id="ba422-168">Line display</span></span>
 
-Ridade kuvareid kasutatakse toodete, kandesaldode ja muu kasuliku teabe kuvamiseks kliendile kande ajal. Ühe ridade kuvari saab USB kaudu arvutiga ühendada, kasutades OPOS-i draivereid.
+<span data-ttu-id="ba422-169">Ridade kuvareid kasutatakse toodete, kandesaldode ja muu kasuliku teabe kuvamiseks kliendile kande ajal.</span><span class="sxs-lookup"><span data-stu-id="ba422-169">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="ba422-170">Ühe ridade kuvari saab USB kaudu arvutiga ühendada, kasutades OPOS-i draivereid.</span><span class="sxs-lookup"><span data-stu-id="ba422-170">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
 
-### <a name="signature-capture"></a>Allkirja hõivamine
+### <a name="signature-capture"></a><span data-ttu-id="ba422-171">Allkirja hõivamine</span><span class="sxs-lookup"><span data-stu-id="ba422-171">Signature capture</span></span>
 
-Allkirja hõivamise seadmed saab USB kaudu otse arvutiga ühendada, kasutades OPOS-i draivereid. Kui allkirja hõive on konfigureeritud, kuvatakse kasutajale viip seadmesse logimiseks. Pärast allkirja edastamist näidatakse seda kassapidajale kinnitamiseks.
+<span data-ttu-id="ba422-172">Allkirja hõivamise seadmed saab USB kaudu otse arvutiga ühendada, kasutades OPOS-i draivereid.</span><span class="sxs-lookup"><span data-stu-id="ba422-172">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="ba422-173">Kui allkirja hõive on konfigureeritud, kuvatakse kasutajale viip seadmesse logimiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-173">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="ba422-174">Pärast allkirja edastamist näidatakse seda kassapidajale kinnitamiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-174">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
 
-### <a name="scale"></a>Sobita
+### <a name="scale"></a><span data-ttu-id="ba422-175">Sobita</span><span class="sxs-lookup"><span data-stu-id="ba422-175">Scale</span></span>
 
-Arvutiga saab USB kaudu kaalu ühendada, kasutades OPOS-i draivereid. Kui kandele lisatakse toode, mis on märgitud „kaalutavaks” tooteks, loeb kassa kaalult kaalu, lisab toote kandesse ja kasutab kaalu antud kogust.
+<span data-ttu-id="ba422-176">Arvutiga saab USB kaudu kaalu ühendada, kasutades OPOS-i draivereid.</span><span class="sxs-lookup"><span data-stu-id="ba422-176">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="ba422-177">Kui kandele lisatakse toode, mis on märgitud „kaalutavaks” tooteks, loeb kassa kaalult kaalu, lisab toote kandesse ja kasutab kaalu antud kogust.</span><span class="sxs-lookup"><span data-stu-id="ba422-177">When a product that is marked as a “Weighed” product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
 
-### <a name="pin-pad"></a>PIN-klahvistik
+### <a name="pin-pad"></a><span data-ttu-id="ba422-178">PIN-klahvistik</span><span class="sxs-lookup"><span data-stu-id="ba422-178">PIN pad</span></span>
 
-OPOS toetab PIN-koodi (PIN) klahvistikke, kuid neid tuleb hallata makseliidese kaudu.
+<span data-ttu-id="ba422-179">OPOS toetab PIN-koodi (PIN) klahvistikke, kuid neid tuleb hallata makseliidese kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-179">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
 
-### <a name="secondary-display"></a>Sekundaarne kuvar
+### <a name="secondary-display"></a><span data-ttu-id="ba422-180">Sekundaarne kuvar</span><span class="sxs-lookup"><span data-stu-id="ba422-180">Secondary display</span></span>
 
-Kui on konfigureeritud sekundaarne kuvar, kasutatakse põhiteabe kuvamiseks Windowsi kuvarit nr 2. Sekundaarse kuvari eesmärk on toetada sõltumatu tarkvaratootja (ISV) laiendust, kuna sekundaarne kuvar pole valmiskujul konfigureeritav ja näitab piiratud sisu.
+<span data-ttu-id="ba422-181">Kui on konfigureeritud sekundaarne kuvar, kasutatakse põhiteabe kuvamiseks Windowsi kuvarit nr 2.</span><span class="sxs-lookup"><span data-stu-id="ba422-181">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="ba422-182">Sekundaarse kuvari eesmärk on toetada sõltumatu tarkvaratootja (ISV) laiendust, kuna sekundaarne kuvar pole valmiskujul konfigureeritav ja näitab piiratud sisu.</span><span class="sxs-lookup"><span data-stu-id="ba422-182">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
 
-### <a name="payment-device"></a>Makseseade
+### <a name="payment-device"></a><span data-ttu-id="ba422-183">Makseseade</span><span class="sxs-lookup"><span data-stu-id="ba422-183">Payment device</span></span>
 
-Makseseadme tugi juurutatakse makseliidese kaudu. Makseseadmed võivad täita ühte või paljusid funktsioone, mida pakuvad teised seadmeklassid. Näiteks võib makseseade toimida MSR-i/kaardilugejana, ridade kuvarina, allkirja jäädvustamise seadmena või PIN-klahvistikuna. Makseseadmete tugi juurutatakse sõltumatult autonoomse seadme toest, mida pakutakse teistele riistvaraprofiilis sisalduvatele seadmetele.
+<span data-ttu-id="ba422-184">Makseseadme tugi juurutatakse makseliidese kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-184">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="ba422-185">Makseseadmed võivad täita ühte või paljusid funktsioone, mida pakuvad teised seadmeklassid.</span><span class="sxs-lookup"><span data-stu-id="ba422-185">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="ba422-186">Näiteks võib makseseade toimida MSR-i/kaardilugejana, ridade kuvarina, allkirja jäädvustamise seadmena või PIN-klahvistikuna.</span><span class="sxs-lookup"><span data-stu-id="ba422-186">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="ba422-187">Makseseadmete tugi juurutatakse sõltumatult autonoomse seadme toest, mida pakutakse teistele riistvaraprofiilis sisalduvatele seadmetele.</span><span class="sxs-lookup"><span data-stu-id="ba422-187">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
 
-## <a name="supported-interfaces"></a>Toetatud liidesed
-### <a name="opos"></a>OPOS
+## <a name="supported-interfaces"></a><span data-ttu-id="ba422-188">Toetatud liidesed</span><span class="sxs-lookup"><span data-stu-id="ba422-188">Supported interfaces</span></span>
+### <a name="opos"></a><span data-ttu-id="ba422-189">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-189">OPOS</span></span>
 
-Selleks, et Microsoft Dynamics 365 for Retailiga saaks kasutada suurimat seadmevalikut, on valdkonna standard Objektilinkimine ja -manustamine müügikohas peamine jaemüügi välisseadmete platvorm, mida Microsoft Dynamics 365 for Retailis kasutatakse. Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab jaemüügi välisseadmetele standardsed sideprotokollid. OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus. See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud. OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega. OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega. OPOS-i juhtelement koosneb kahest osast.
+<span data-ttu-id="ba422-190">Selleks, et Microsoft Dynamics 365 for Retailiga saaks kasutada suurimat seadmevalikut, on valdkonna standard Objektilinkimine ja -manustamine müügikohas peamine jaemüügi välisseadmete platvorm, mida Microsoft Dynamics 365 for Retailis kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="ba422-190">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="ba422-191">Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab jaemüügi välisseadmetele standardsed sideprotokollid.</span><span class="sxs-lookup"><span data-stu-id="ba422-191">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="ba422-192">OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus.</span><span class="sxs-lookup"><span data-stu-id="ba422-192">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="ba422-193">See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-193">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="ba422-194">OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega.</span><span class="sxs-lookup"><span data-stu-id="ba422-194">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="ba422-195">OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega.</span><span class="sxs-lookup"><span data-stu-id="ba422-195">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="ba422-196">OPOS-i juhtelement koosneb kahest osast.</span><span class="sxs-lookup"><span data-stu-id="ba422-196">An OPOS control consists of two parts:</span></span>
 
--   **Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid). CCO-sid kasutatakse Microsoft Dynamics 365 for Retaili kassakomponendi testimiseks. Seega aitab testimine tagada, et kui Microsoft Dynamics 365 for Retail toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe, eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti. Iga seadmetüüpi pole vaja otseselt testida.
--   **Hooldusobjekt** – hooldusobjekt tagab juhtimisobjekti (CCO) ja seadme vahelise side. Tavaliselt annab seadme hooldusobjekti seadme tootja. Kuid mõnel juhul võib teil olla vaja hooldusobjekt tootja veebisaidilt alla laadida. Näiteks võib olla saadaval uuem hooldusobjekt. Tootja veebisaidi aadressi leiate oma riistvara dokumentidest.
+-   <span data-ttu-id="ba422-197">**Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest.</span><span class="sxs-lookup"><span data-stu-id="ba422-197">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="ba422-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid).</span><span class="sxs-lookup"><span data-stu-id="ba422-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="ba422-199">CCO-sid kasutatakse Microsoft Dynamics 365 for Retaili kassakomponendi testimiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-199">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="ba422-200">Seega aitab testimine tagada, et kui Microsoft Dynamics 365 for Retail toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe, eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti.</span><span class="sxs-lookup"><span data-stu-id="ba422-200">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="ba422-201">Iga seadmetüüpi pole vaja otseselt testida.</span><span class="sxs-lookup"><span data-stu-id="ba422-201">You don't have to explicitly test each device type.</span></span>
+-   <span data-ttu-id="ba422-202">**Hooldusobjekt** – hooldusobjekt tagab juhtimisobjekti (CCO) ja seadme vahelise side.</span><span class="sxs-lookup"><span data-stu-id="ba422-202">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="ba422-203">Tavaliselt annab seadme hooldusobjekti seadme tootja.</span><span class="sxs-lookup"><span data-stu-id="ba422-203">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="ba422-204">Kuid mõnel juhul võib teil olla vaja hooldusobjekt tootja veebisaidilt alla laadida.</span><span class="sxs-lookup"><span data-stu-id="ba422-204">However, in some cases, you might have to download the service object from the manufacturer’s website.</span></span> <span data-ttu-id="ba422-205">Näiteks võib olla saadaval uuem hooldusobjekt.</span><span class="sxs-lookup"><span data-stu-id="ba422-205">For example, a more recent service object might be available.</span></span> <span data-ttu-id="ba422-206">Tootja veebisaidi aadressi leiate oma riistvara dokumentidest.</span><span class="sxs-lookup"><span data-stu-id="ba422-206">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
 
-[![Juhtimisobjekt ja hooldusobjekt](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Kassa OLE OPOS-i juurutuse tugi aitab tagada, et kui seadme tootjad ja kassa avaldajad juurutavad standardi õigesti, siis töötavad kassasüsteemid ja toetatud seadmed koos, isegi kui neid eelnevalt koos ei testitud. **Märkus.** OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge. Microsoft Dynamics 365 for Retail peab esmalt toetama OPOS-i kaudu seda seadmetüüpi või -klassi. Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla. Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.
+<span data-ttu-id="ba422-207">[![Juhtimisobjekt ja hooldusobjekt](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Kassa OLE OPOS-i juurutuse tugi aitab tagada, et kui seadme tootjad ja kassa avaldajad juurutavad standardi õigesti, siis töötavad kassasüsteemid ja toetatud seadmed koos, isegi kui neid eelnevalt koos ei testitud.</span><span class="sxs-lookup"><span data-stu-id="ba422-207">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span> <span data-ttu-id="ba422-208">**Märkus.** OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge.</span><span class="sxs-lookup"><span data-stu-id="ba422-208">**Note:** OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="ba422-209">Microsoft Dynamics 365 for Retail peab esmalt toetama OPOS-i kaudu seda seadmetüüpi või -klassi.</span><span class="sxs-lookup"><span data-stu-id="ba422-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="ba422-210">Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla.</span><span class="sxs-lookup"><span data-stu-id="ba422-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="ba422-211">Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.</span><span class="sxs-lookup"><span data-stu-id="ba422-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
 
-### <a name="windows"></a>&Aknad...
+### <a name="windows"></a><span data-ttu-id="ba422-212">&Aknad...</span><span class="sxs-lookup"><span data-stu-id="ba422-212">Windows</span></span>
 
-Kassas kviitungite printimine on OPOS-i jaoks optimeeritud. OPOS on tavaliselt palju kiirem kui Windowsi kaudu printimine. Seega tasub OPOS-i kasutada, eelkõige jaemüügikeskkondades, kus prinditakse 40 veerust koosnevaid kviitungeid ja kande aeg peab olema lühike. Enamiku seadmete puhul kasutatakse OPOS-i juhtelemente. Kuid mõned OPOS-i kviitungiprinterid toetavad ka Windowsi draivereid. Windowsi draiverit kasutades pääsete juurde uusimatele fontidele ja esimese võrgu printerile mitme registri puhul. Kuid Windowsi draiverite kasutamisel on miinuseid. Siin on mõned näited neist miinustest.
+<span data-ttu-id="ba422-213">Kassas kviitungite printimine on OPOS-i jaoks optimeeritud.</span><span class="sxs-lookup"><span data-stu-id="ba422-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="ba422-214">OPOS on tavaliselt palju kiirem kui Windowsi kaudu printimine.</span><span class="sxs-lookup"><span data-stu-id="ba422-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="ba422-215">Seega tasub OPOS-i kasutada, eelkõige jaemüügikeskkondades, kus prinditakse 40 veerust koosnevaid kviitungeid ja kande aeg peab olema lühike.</span><span class="sxs-lookup"><span data-stu-id="ba422-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="ba422-216">Enamiku seadmete puhul kasutatakse OPOS-i juhtelemente.</span><span class="sxs-lookup"><span data-stu-id="ba422-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="ba422-217">Kuid mõned OPOS-i kviitungiprinterid toetavad ka Windowsi draivereid.</span><span class="sxs-lookup"><span data-stu-id="ba422-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="ba422-218">Windowsi draiverit kasutades pääsete juurde uusimatele fontidele ja esimese võrgu printerile mitme registri puhul.</span><span class="sxs-lookup"><span data-stu-id="ba422-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="ba422-219">Kuid Windowsi draiverite kasutamisel on miinuseid.</span><span class="sxs-lookup"><span data-stu-id="ba422-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="ba422-220">Siin on mõned näited neist miinustest.</span><span class="sxs-lookup"><span data-stu-id="ba422-220">Here are some examples of these drawbacks:</span></span>
 
--   Windowsi draiverite kasutamisel esitatakse pildid enne printimist. Seega kipub printimine olema aeglasem kui OPOS-i juhtelementidega printeritel.
--   Printeri kaudu ühendatud (pärgühendusega) seadmed ei pruugi Windowsi draiverite kasutamisel õigesti töötada. Näiteks sularahasahtel ei pruugi avaneda või kviitungiprinter ei pruugi oodatud viisil töötada.
--   OPOS toetab alati ulatuslikumat jaemüügi kviitungiprinterite põhiste muutujate kogumit, nt paberi lõikamist või kviitungi printimist.
+-   <span data-ttu-id="ba422-221">Windowsi draiverite kasutamisel esitatakse pildid enne printimist.</span><span class="sxs-lookup"><span data-stu-id="ba422-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="ba422-222">Seega kipub printimine olema aeglasem kui OPOS-i juhtelementidega printeritel.</span><span class="sxs-lookup"><span data-stu-id="ba422-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+-   <span data-ttu-id="ba422-223">Printeri kaudu ühendatud (pärgühendusega) seadmed ei pruugi Windowsi draiverite kasutamisel õigesti töötada.</span><span class="sxs-lookup"><span data-stu-id="ba422-223">Devices that are connected through the printer (“daisy-chained”) might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="ba422-224">Näiteks sularahasahtel ei pruugi avaneda või kviitungiprinter ei pruugi oodatud viisil töötada.</span><span class="sxs-lookup"><span data-stu-id="ba422-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+-   <span data-ttu-id="ba422-225">OPOS toetab alati ulatuslikumat jaemüügi kviitungiprinterite põhiste muutujate kogumit, nt paberi lõikamist või kviitungi printimist.</span><span class="sxs-lookup"><span data-stu-id="ba422-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
 
-Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Microsoft Dynamics 365 for Retaili jaemüügi mooduliga õigesti töötama.
+<span data-ttu-id="ba422-226">Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Microsoft Dynamics 365 for Retaili jaemüügi mooduliga õigesti töötama.</span><span class="sxs-lookup"><span data-stu-id="ba422-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
 
-### <a name="universal-windows-platform"></a>Universaalne Windowsi platvorm
+### <a name="universal-windows-platform"></a><span data-ttu-id="ba422-227">Universaalne Windowsi platvorm</span><span class="sxs-lookup"><span data-stu-id="ba422-227">Universal Windows Platform</span></span>
 
-Jaemüügi välisseadmete puhul on UWP seotud Windowsi isehäälestuvate seadmete toega Kui isehäälestuv seade ühendatakse seda tüüpi seadet toetava Windowsi OS-i versiooniga, pole seadme sihipäraseks kasutamiseks ühtegi draiverit vaja. Näiteks kui Windows tuvastab Bluetooth-kõlari või seadme, siis OS teab, et selle seadme klassi tüüp on **Kõlar**. Seega käsitleb see seadet kõlarina. Täiendavat seadistamist pole vaja. Kassaseadmete puhul saab ühendada paljusid USB-seadmeid ja Windows tuvastab need inimliidese seadmetena (HID-dena). Kuid see ei pruugi suuta määrata seadme pakutavaid võimalusi, kuna seade ei määra seadme klassi või tüüpi. Windows 10-s on lisatud vöötkoodiskannerite ja MSR-ide seadmeklassid. Seetõttu, kui seade kinnitab Windows 10-le, et ta on mõne sellise klassi seade, kuulab Windows sobivatel aegadel seadme sündmusi. Modern POS toetab UWP MSR-e ja skannereid. Seega, kui see on valmis mõne sellise seadme sisendiks ja mõnda sellisesse klassi kuuluv seade on ühendatud, saab seadet kasutada. Näiteks kui Windows 10 arvutiga on ühendatud UWP-vöötkoodiskanner ja Modern POS-i jaoks on konfigureeritud vöötkoodiga sisselogimine, siis aktiveerub sisselogimisekraanil vöötkoodiskanner. Täiendavat seadistamist pole vaja. Windowsi lisatakse täiendavaid kassa UWP seadmeid. Nende klasside hulka kuuluvad sularahasahtlite ja kviitungiprinterite klassid. Nende uute seadmeklasside tugi Modern POS-is on ootel.
+<span data-ttu-id="ba422-228">Jaemüügi välisseadmete puhul on UWP seotud Windowsi isehäälestuvate seadmete toega</span><span class="sxs-lookup"><span data-stu-id="ba422-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="ba422-229">Kui isehäälestuv seade ühendatakse seda tüüpi seadet toetava Windowsi OS-i versiooniga, pole seadme sihipäraseks kasutamiseks ühtegi draiverit vaja.</span><span class="sxs-lookup"><span data-stu-id="ba422-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="ba422-230">Näiteks kui Windows tuvastab Bluetooth-kõlari või seadme, siis OS teab, et selle seadme klassi tüüp on **Kõlar**.</span><span class="sxs-lookup"><span data-stu-id="ba422-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="ba422-231">Seega käsitleb see seadet kõlarina.</span><span class="sxs-lookup"><span data-stu-id="ba422-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="ba422-232">Täiendavat seadistamist pole vaja.</span><span class="sxs-lookup"><span data-stu-id="ba422-232">No additional setup is required.</span></span> <span data-ttu-id="ba422-233">Kassaseadmete puhul saab ühendada paljusid USB-seadmeid ja Windows tuvastab need inimliidese seadmetena (HID-dena).</span><span class="sxs-lookup"><span data-stu-id="ba422-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="ba422-234">Kuid see ei pruugi suuta määrata seadme pakutavaid võimalusi, kuna seade ei määra seadme klassi või tüüpi.</span><span class="sxs-lookup"><span data-stu-id="ba422-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="ba422-235">Windows 10-s on lisatud vöötkoodiskannerite ja MSR-ide seadmeklassid.</span><span class="sxs-lookup"><span data-stu-id="ba422-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="ba422-236">Seetõttu, kui seade kinnitab Windows 10-le, et ta on mõne sellise klassi seade, kuulab Windows sobivatel aegadel seadme sündmusi.</span><span class="sxs-lookup"><span data-stu-id="ba422-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="ba422-237">Modern POS toetab UWP MSR-e ja skannereid.</span><span class="sxs-lookup"><span data-stu-id="ba422-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="ba422-238">Seega, kui see on valmis mõne sellise seadme sisendiks ja mõnda sellisesse klassi kuuluv seade on ühendatud, saab seadet kasutada.</span><span class="sxs-lookup"><span data-stu-id="ba422-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="ba422-239">Näiteks kui Windows 10 arvutiga on ühendatud UWP-vöötkoodiskanner ja Modern POS-i jaoks on konfigureeritud vöötkoodiga sisselogimine, siis aktiveerub sisselogimisekraanil vöötkoodiskanner.</span><span class="sxs-lookup"><span data-stu-id="ba422-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="ba422-240">Täiendavat seadistamist pole vaja.</span><span class="sxs-lookup"><span data-stu-id="ba422-240">No additional setup is required.</span></span> <span data-ttu-id="ba422-241">Windowsi lisatakse täiendavaid kassa UWP seadmeid.</span><span class="sxs-lookup"><span data-stu-id="ba422-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="ba422-242">Nende klasside hulka kuuluvad sularahasahtlite ja kviitungiprinterite klassid.</span><span class="sxs-lookup"><span data-stu-id="ba422-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="ba422-243">Nende uute seadmeklasside tugi Modern POS-is on ootel.</span><span class="sxs-lookup"><span data-stu-id="ba422-243">Support for these new device classes in Modern POS is pending.</span></span>
 
-### <a name="keyboard-wedge"></a>Klaviatuurikiil
+### <a name="keyboard-wedge"></a><span data-ttu-id="ba422-244">Klaviatuurikiil</span><span class="sxs-lookup"><span data-stu-id="ba422-244">Keyboard wedge</span></span>
 
-Klaviatuurikiilu seadmed saadavad andmeid arvutisse, justkui need andmed oleksid klaviatuuri kaudu sisestatud. Seega võtab skannitud või kaarditõmbega sisestatud andmed vaikimisi vastu väli, mis on kassas aktiivne. Mõnikord põhjustab see vale tüüpi andmete skannimise valele väljale. Näiteks võidakse vöötkood skannida väljale, mis on mõeldud krediitkaardi andmete sisestamiseks. Paljudel juhtidel on kassas olemas loogika, mis määrab, kas skannitud või kaarditõmbega sisestatud andmed on vöötkood või kaarditõmme. Seega käsitsetakse andmeid õigesti. Kuid kui seadmed on seadistatud klaviatuurikiilu seadmete asemel OPOS-ina, on suurem kontroll selle üle, kuidas nende seadmete andmeid tarbitakse, kuna seadme kohta, kust andmed pärinevad, on rohkem „teada”. Näiteks vöötkoodiskannerist pärinevad andmed tuvastatakse automaatselt vöötkoodina ning seotud kirje andmebaasis leitakse hõlpsamini ja kiiremini kui üldise stringiotsingu kasutamisel (nagu klaviatuurikiilu seadmete puhul).
+<span data-ttu-id="ba422-245">Klaviatuurikiilu seadmed saadavad andmeid arvutisse, justkui need andmed oleksid klaviatuuri kaudu sisestatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="ba422-246">Seega võtab skannitud või kaarditõmbega sisestatud andmed vaikimisi vastu väli, mis on kassas aktiivne.</span><span class="sxs-lookup"><span data-stu-id="ba422-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="ba422-247">Mõnikord põhjustab see vale tüüpi andmete skannimise valele väljale.</span><span class="sxs-lookup"><span data-stu-id="ba422-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="ba422-248">Näiteks võidakse vöötkood skannida väljale, mis on mõeldud krediitkaardi andmete sisestamiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="ba422-249">Paljudel juhtidel on kassas olemas loogika, mis määrab, kas skannitud või kaarditõmbega sisestatud andmed on vöötkood või kaarditõmme.</span><span class="sxs-lookup"><span data-stu-id="ba422-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="ba422-250">Seega käsitsetakse andmeid õigesti.</span><span class="sxs-lookup"><span data-stu-id="ba422-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="ba422-251">Kuid kui seadmed on seadistatud klaviatuurikiilu seadmete asemel OPOS-ina, on suurem kontroll selle üle, kuidas nende seadmete andmeid tarbitakse, kuna seadme kohta, kust andmed pärinevad, on rohkem „teada”.</span><span class="sxs-lookup"><span data-stu-id="ba422-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is “known” about the device that the data originates from.</span></span> <span data-ttu-id="ba422-252">Näiteks vöötkoodiskannerist pärinevad andmed tuvastatakse automaatselt vöötkoodina ning seotud kirje andmebaasis leitakse hõlpsamini ja kiiremini kui üldise stringiotsingu kasutamisel (nagu klaviatuurikiilu seadmete puhul).</span><span class="sxs-lookup"><span data-stu-id="ba422-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
 
-### <a name="native-printer"></a>Süsteemi printer
+### <a name="native-printer"></a><span data-ttu-id="ba422-253">Süsteemi printer</span><span class="sxs-lookup"><span data-stu-id="ba422-253">Native printer</span></span>
 
-Süsteemi (või riistvaraprofiilis nimetatud tüüpi seadme) printereid saab konfigureerida nii, et kasutaja peab valima printeri, mis arvuti jaoks konfigureeritakse. Kui on konfigureeritud printer tüübiga **Seade**, siis kui Modern POS saab printimiskäsu, lastakse kasutajal loendist printer valida. See käitumisviis erineb Windowsi draiverite omast, kuna printeri tüüp **Windows** riistvaraprofiilis ei näita printerite loendit. Selle asemel nõuab see, et väljal **Seadme nimi** oleks antud nimega printer.
+<span data-ttu-id="ba422-254">Süsteemi (või riistvaraprofiilis nimetatud tüüpi seadme) printereid saab konfigureerida nii, et kasutaja peab valima printeri, mis arvuti jaoks konfigureeritakse.</span><span class="sxs-lookup"><span data-stu-id="ba422-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="ba422-255">Kui on konfigureeritud printer tüübiga **Seade**, siis kui Modern POS saab printimiskäsu, lastakse kasutajal loendist printer valida.</span><span class="sxs-lookup"><span data-stu-id="ba422-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="ba422-256">See käitumisviis erineb Windowsi draiverite omast, kuna printeri tüüp **Windows** riistvaraprofiilis ei näita printerite loendit.</span><span class="sxs-lookup"><span data-stu-id="ba422-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="ba422-257">Selle asemel nõuab see, et väljal **Seadme nimi** oleks antud nimega printer.</span><span class="sxs-lookup"><span data-stu-id="ba422-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
 
-### <a name="windows"></a>&Aknad...
+### <a name="windows"></a><span data-ttu-id="ba422-258">&Aknad...</span><span class="sxs-lookup"><span data-stu-id="ba422-258">Windows</span></span>
 
-Seadme tüüpi **Windows** kasutatakse ainult printerite puhul. Kui riistvaraprofiilis on konfigureeritud Windowsi printer, tuleb edastada konkreetne printeri nimi. Kui Modern POS näeb printimissündmusi, siis kui on konfigureeritud Windowsi printer, edastatakse sündmus määratud Windowsi printerisse. Kasutajal ei lasta printerit valida.
+<span data-ttu-id="ba422-259">Seadme tüüpi **Windows** kasutatakse ainult printerite puhul.</span><span class="sxs-lookup"><span data-stu-id="ba422-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="ba422-260">Kui riistvaraprofiilis on konfigureeritud Windowsi printer, tuleb edastada konkreetne printeri nimi.</span><span class="sxs-lookup"><span data-stu-id="ba422-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="ba422-261">Kui Modern POS näeb printimissündmusi, siis kui on konfigureeritud Windowsi printer, edastatakse sündmus määratud Windowsi printerisse.</span><span class="sxs-lookup"><span data-stu-id="ba422-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="ba422-262">Kasutajal ei lasta printerit valida.</span><span class="sxs-lookup"><span data-stu-id="ba422-262">The user won't be prompted to select a printer.</span></span>
 
-### <a name="network"></a>Võrk
+### <a name="network"></a><span data-ttu-id="ba422-263">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-263">Network</span></span>
 
-Võrguaadressiga sularahasahtleid, kviitungiprintereid ja makseterminale saab kasutada üle võrgu kas otse rakendusse Modern POS Windowsile integreeritud protsessisisese side (IPC) riistvarajaama kaudu või IIS-i riistvarajaama kaudu teiste Modern POS-i klientide jaoks.
+<span data-ttu-id="ba422-264">Võrguaadressiga sularahasahtleid, kviitungiprintereid ja makseterminale saab kasutada üle võrgu kas otse rakendusse Modern POS Windowsile integreeritud protsessisisese side (IPC) riistvarajaama kaudu või IIS-i riistvarajaama kaudu teiste Modern POS-i klientide jaoks.</span><span class="sxs-lookup"><span data-stu-id="ba422-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
 
-## <a name="hardware-station-deployment-options"></a>Riistvarajaama juurutusvõimalused
-### <a name="ipc-built-in"></a>IPC (integreeritud)
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="ba422-265">Riistvarajaama juurutusvõimalused</span><span class="sxs-lookup"><span data-stu-id="ba422-265">Hardware station deployment options</span></span>
+### <a name="ipc-built-in"></a><span data-ttu-id="ba422-266">IPC (integreeritud)</span><span class="sxs-lookup"><span data-stu-id="ba422-266">IPC (built-in)</span></span>
 
-Protsessisisese side (IPC) riistvarajaam on integreeritud rakendusse Modern POS Windowsile. IPC riistvarajaama kasutamiseks määrake riistvaraprofiil registrile, mis kasutab rakendust Modern POS Windowsile. Seejärel looge kauplusele, kus registrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**. Modern POS-i käivitamisel on IPC riistvarajaam aktiivne ja konfigureeritud kassa välisseadmed kasutamiseks valmis. Kui teil pole kohalikku riistvara mingil põhjusel ajutiselt vaja, siis kasutage toimingut **Riistvarajaamade haldamine** riistvarajaama võimaluste väljalülitamiseks. Modern POS saab kasutada IPC riistvarajaama otse võrgu välisseadmetega suhtlemiseks.
+<span data-ttu-id="ba422-267">Protsessisisese side (IPC) riistvarajaam on integreeritud rakendusse Modern POS Windowsile.</span><span class="sxs-lookup"><span data-stu-id="ba422-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="ba422-268">IPC riistvarajaama kasutamiseks määrake riistvaraprofiil registrile, mis kasutab rakendust Modern POS Windowsile.</span><span class="sxs-lookup"><span data-stu-id="ba422-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="ba422-269">Seejärel looge kauplusele, kus registrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**.</span><span class="sxs-lookup"><span data-stu-id="ba422-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="ba422-270">Modern POS-i käivitamisel on IPC riistvarajaam aktiivne ja konfigureeritud kassa välisseadmed kasutamiseks valmis.</span><span class="sxs-lookup"><span data-stu-id="ba422-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="ba422-271">Kui teil pole kohalikku riistvara mingil põhjusel ajutiselt vaja, siis kasutage toimingut **Riistvarajaamade haldamine** riistvarajaama võimaluste väljalülitamiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="ba422-272">Modern POS saab kasutada IPC riistvarajaama otse võrgu välisseadmetega suhtlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
 
-### <a name="iis"></a>IIS-I
+### <a name="iis"></a><span data-ttu-id="ba422-273">IIS-I</span><span class="sxs-lookup"><span data-stu-id="ba422-273">IIS</span></span>
 
-Võite kasutada IIS-i või riistvarajaama autonoomset versiooni kahel moel. Deskriptor IIS viitab sellele, et kassarakendus loob riistvarajaamaga ühenduse teenuse Microsoft Internet Information Services kaudu. Kassarakendus loob IIS-i riistvarajaamaga ühenduse veebiteenuste kaudu, mis töötavad arvutis, millega seadmed on ühendatud. IIS-i kasutamisel saab riistvarajaamaga ühendatud jaemüügi välisseadmeid kasutada iga kassaregister, mis on IIS-i riistvarajaamaga samas võrgus. Kuna ainult Modern POS Windowsile sisaldab integreeritud jaemüügi välisseadmete tuge, peavad kõik Modern POS-i rakendused kasutama riistvaraprofiilis konfigureeritud kassa välisseadmetega suhtlemiseks IIS-i riistvarajaama. Seega nõuab iga IIS-i riistvarajaama eksemplar arvutit, millel töötab veebiteenus ja seadmetega suhtlev rakendus. IIS-i riistvarajaam on vajalik kõigi mitte-Windowsi Modern POS-i rakenduste puhul.
+<span data-ttu-id="ba422-274">Võite kasutada IIS-i või riistvarajaama autonoomset versiooni kahel moel.</span><span class="sxs-lookup"><span data-stu-id="ba422-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="ba422-275">Deskriptor IIS viitab sellele, et kassarakendus loob riistvarajaamaga ühenduse teenuse Microsoft Internet Information Services kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-275">The descriptor “IIS” implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="ba422-276">Kassarakendus loob IIS-i riistvarajaamaga ühenduse veebiteenuste kaudu, mis töötavad arvutis, millega seadmed on ühendatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="ba422-277">IIS-i kasutamisel saab riistvarajaamaga ühendatud jaemüügi välisseadmeid kasutada iga kassaregister, mis on IIS-i riistvarajaamaga samas võrgus.</span><span class="sxs-lookup"><span data-stu-id="ba422-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="ba422-278">Kuna ainult Modern POS Windowsile sisaldab integreeritud jaemüügi välisseadmete tuge, peavad kõik Modern POS-i rakendused kasutama riistvaraprofiilis konfigureeritud kassa välisseadmetega suhtlemiseks IIS-i riistvarajaama.</span><span class="sxs-lookup"><span data-stu-id="ba422-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="ba422-279">Seega nõuab iga IIS-i riistvarajaama eksemplar arvutit, millel töötab veebiteenus ja seadmetega suhtlev rakendus.</span><span class="sxs-lookup"><span data-stu-id="ba422-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="ba422-280">IIS-i riistvarajaam on vajalik kõigi mitte-Windowsi Modern POS-i rakenduste puhul.</span><span class="sxs-lookup"><span data-stu-id="ba422-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
 
-#### <a name="dedicated"></a>Sihtotstarbeline
+#### <a name="dedicated"></a><span data-ttu-id="ba422-281">Sihtotstarbeline</span><span class="sxs-lookup"><span data-stu-id="ba422-281">Dedicated</span></span>
 
-Modern POS kasutab riistvarajaamu tüübiga **Sihtotstarbeline** tuvastamiseks, et välisseadmed on ühendatud otse arvutiga, kus rakendust kasutatakse. Kuid tüüpi **Sihtotstarbeline** saab kasutada ka IIS-i riistvarajaamade jaoks. Tavapärase fikseeritud kassa stsenaariumi puhul, kus kassarakendusena kasutatakse pilvekassat, kasutatakse riistvarajaama tüüpi **Sihtotstarbeline** IIS-i riistvarajaamade puhul, mis on juurutatud samas arvutis, kus pilvekassa töötab. Jaemüügi välisseadmete vaatepunktist on sihtotstarbelisel IIS-i riistvarajaamal tavapäraste fikseeritud kassa stsenaariumide puhul parem jaemüügi välisseadmete tugi. Sihtotstarbelised riistvarajaamad toetavad kõiki välisseadmeid, mida riistvaraprofiilis toetatakse.
+<span data-ttu-id="ba422-282">Modern POS kasutab riistvarajaamu tüübiga **Sihtotstarbeline** tuvastamiseks, et välisseadmed on ühendatud otse arvutiga, kus rakendust kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="ba422-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="ba422-283">Kuid tüüpi **Sihtotstarbeline** saab kasutada ka IIS-i riistvarajaamade jaoks.</span><span class="sxs-lookup"><span data-stu-id="ba422-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="ba422-284">Tavapärase fikseeritud kassa stsenaariumi puhul, kus kassarakendusena kasutatakse pilvekassat, kasutatakse riistvarajaama tüüpi **Sihtotstarbeline** IIS-i riistvarajaamade puhul, mis on juurutatud samas arvutis, kus pilvekassa töötab.</span><span class="sxs-lookup"><span data-stu-id="ba422-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="ba422-285">Jaemüügi välisseadmete vaatepunktist on sihtotstarbelisel IIS-i riistvarajaamal tavapäraste fikseeritud kassa stsenaariumide puhul parem jaemüügi välisseadmete tugi.</span><span class="sxs-lookup"><span data-stu-id="ba422-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="ba422-286">Sihtotstarbelised riistvarajaamad toetavad kõiki välisseadmeid, mida riistvaraprofiilis toetatakse.</span><span class="sxs-lookup"><span data-stu-id="ba422-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
 
-#### <a name="shared"></a>Ühine
+#### <a name="shared"></a><span data-ttu-id="ba422-287">Ühine</span><span class="sxs-lookup"><span data-stu-id="ba422-287">Shared</span></span>
 
-Ühiskasutuses riistvarajaamad on mõeldud kasutamiseks päeva jooksul mitmes kassaseadmes. Ühiskasutuses riistvarajaamad on optimeeritud toetama ainult sularahasahtleid, kviitungiprintereid ja makseterminale. Võimalik on ühendada otse autonoomsed vöötkoodiskannerid, MSR-id, ridade kuvarid, kaalud või muud seadmed. Muidu tekivad konfliktid, kui mitu kassaseadet püüab korraga neid välisseadmeid kätte saada. Toetatud seadmete konflikte käsitletakse järgmiselt.
+<span data-ttu-id="ba422-288">Ühiskasutuses riistvarajaamad on mõeldud kasutamiseks päeva jooksul mitmes kassaseadmes.</span><span class="sxs-lookup"><span data-stu-id="ba422-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="ba422-289">Ühiskasutuses riistvarajaamad on optimeeritud toetama ainult sularahasahtleid, kviitungiprintereid ja makseterminale.</span><span class="sxs-lookup"><span data-stu-id="ba422-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="ba422-290">Võimalik on ühendada otse autonoomsed vöötkoodiskannerid, MSR-id, ridade kuvarid, kaalud või muud seadmed.</span><span class="sxs-lookup"><span data-stu-id="ba422-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="ba422-291">Muidu tekivad konfliktid, kui mitu kassaseadet püüab korraga neid välisseadmeid kätte saada.</span><span class="sxs-lookup"><span data-stu-id="ba422-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="ba422-292">Toetatud seadmete konflikte käsitletakse järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="ba422-292">Here is how conflicts are managed for supported devices:</span></span>
 
--   **Sularahasahtel** – sularahasahtel avatakse seadmesse saadetava sündmuse kaudu. Ainus probleem, mis võib sularahasahtli kutsumisel ilmneda, ilmneb juhul, kui sularahasahtel on juba lahti. Ühiskasutuses riistvarajaamade puhul tuleb sularahasahtli väärtuseks riistvaraprofiilis määrata **Ühine**. Selle sätte korral ei kontrolli kassa avamiskäsu saatmisel, kas sularahasahtel on juba lahti.
--   **Kviitungiprinter** – kui korraga saadetakse riistvarajaama kaks kviitungi printimise käsku, võib seadmest olenevalt üks käsk kaotsi minna. Mõne seadme sisemälu või ühendamine võib seda probleemi vältida. Kui printimiskäsk ei õnnestu, saab kassapidaja tõrketeate ja võib printimiskäsku kassas uuesti proovida.
--   **Makseterminal** – kui kassapidaja püüab teha kannet makseterminalis, mis on juba kasutusel, kuvatakse talle teade, et terminal on kasutusel, ja palutakse tal hiljem uuesti proovida. Tavaliselt näevad kassapidajad, et terminal on juba kasutusel, ja ootavad enne uut katset, kuni teine tehing on lõpetatud.
+-   <span data-ttu-id="ba422-293">**Sularahasahtel** – sularahasahtel avatakse seadmesse saadetava sündmuse kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="ba422-294">Ainus probleem, mis võib sularahasahtli kutsumisel ilmneda, ilmneb juhul, kui sularahasahtel on juba lahti.</span><span class="sxs-lookup"><span data-stu-id="ba422-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="ba422-295">Ühiskasutuses riistvarajaamade puhul tuleb sularahasahtli väärtuseks riistvaraprofiilis määrata **Ühine**.</span><span class="sxs-lookup"><span data-stu-id="ba422-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="ba422-296">Selle sätte korral ei kontrolli kassa avamiskäsu saatmisel, kas sularahasahtel on juba lahti.</span><span class="sxs-lookup"><span data-stu-id="ba422-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+-   <span data-ttu-id="ba422-297">**Kviitungiprinter** – kui korraga saadetakse riistvarajaama kaks kviitungi printimise käsku, võib seadmest olenevalt üks käsk kaotsi minna.</span><span class="sxs-lookup"><span data-stu-id="ba422-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="ba422-298">Mõne seadme sisemälu või ühendamine võib seda probleemi vältida.</span><span class="sxs-lookup"><span data-stu-id="ba422-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="ba422-299">Kui printimiskäsk ei õnnestu, saab kassapidaja tõrketeate ja võib printimiskäsku kassas uuesti proovida.</span><span class="sxs-lookup"><span data-stu-id="ba422-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+-   <span data-ttu-id="ba422-300">**Makseterminal** – kui kassapidaja püüab teha kannet makseterminalis, mis on juba kasutusel, kuvatakse talle teade, et terminal on kasutusel, ja palutakse tal hiljem uuesti proovida.</span><span class="sxs-lookup"><span data-stu-id="ba422-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="ba422-301">Tavaliselt näevad kassapidajad, et terminal on juba kasutusel, ja ootavad enne uut katset, kuni teine tehing on lõpetatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
 
-Tulevases väljaandes on plaanis kontrollimine, mis tuvastab, kas ühiskasutuses riistvarajaamaga vastendatud riistvaraprofiilile on seadistatud toetuseta seadmeid. Kui tuvastatakse toetuseta seadmeid, saab kasutaja teate, mis ütleb, et neid seadmeid ei toetata ühiskasutuses riistvaraprofiilide puhul. Ühiskasutuses riistvarajaamade puhul on valiku **Valige maksmisel** väärtuseks määratud registri tasandil **Jah**. Kassa kasutajal palutakse seejärel valida riistvarajaam, kui kassas on kande jaoks maksevahend valitud. Kui riistvarajaam valitakse alles maksmise ajal, lisatakse riistvarajaam mobiilsete stsenaariumide puhul otse kassa töövoogu. Lisaeelisena ei kasutata ühiskasutuse stsenaariumide puhul makseterminali ridade kuvarit. Kui makseterminali kasutatakse ridade kuvarina, võidakse teistel kasutajatel blokeerida selle terminali kasutamine kande lõpetamiseni. Mobiilsete stsenaariumide puhul võidakse kandele pika aja jooksul ridu lisada. Seega on vajalik valik **Valige maksmisel**, et tagada optimaalne seadme kättesaadavus.
+<span data-ttu-id="ba422-302">Tulevases väljaandes on plaanis kontrollimine, mis tuvastab, kas ühiskasutuses riistvarajaamaga vastendatud riistvaraprofiilile on seadistatud toetuseta seadmeid.</span><span class="sxs-lookup"><span data-stu-id="ba422-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="ba422-303">Kui tuvastatakse toetuseta seadmeid, saab kasutaja teate, mis ütleb, et neid seadmeid ei toetata ühiskasutuses riistvaraprofiilide puhul.</span><span class="sxs-lookup"><span data-stu-id="ba422-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="ba422-304">Ühiskasutuses riistvarajaamade puhul on valiku **Valige maksmisel** väärtuseks määratud registri tasandil **Jah**.</span><span class="sxs-lookup"><span data-stu-id="ba422-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="ba422-305">Kassa kasutajal palutakse seejärel valida riistvarajaam, kui kassas on kande jaoks maksevahend valitud.</span><span class="sxs-lookup"><span data-stu-id="ba422-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="ba422-306">Kui riistvarajaam valitakse alles maksmise ajal, lisatakse riistvarajaam mobiilsete stsenaariumide puhul otse kassa töövoogu.</span><span class="sxs-lookup"><span data-stu-id="ba422-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="ba422-307">Lisaeelisena ei kasutata ühiskasutuse stsenaariumide puhul makseterminali ridade kuvarit.</span><span class="sxs-lookup"><span data-stu-id="ba422-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="ba422-308">Kui makseterminali kasutatakse ridade kuvarina, võidakse teistel kasutajatel blokeerida selle terminali kasutamine kande lõpetamiseni.</span><span class="sxs-lookup"><span data-stu-id="ba422-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="ba422-309">Mobiilsete stsenaariumide puhul võidakse kandele pika aja jooksul ridu lisada.</span><span class="sxs-lookup"><span data-stu-id="ba422-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="ba422-310">Seega on vajalik valik **Valige maksmisel**, et tagada optimaalne seadme kättesaadavus.</span><span class="sxs-lookup"><span data-stu-id="ba422-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
 
-### <a name="network-peripherals"></a>Võrgu välisseadmed
+### <a name="network-peripherals"></a><span data-ttu-id="ba422-311">Võrgu välisseadmed</span><span class="sxs-lookup"><span data-stu-id="ba422-311">Network peripherals</span></span>
 
-Riistvaraprofiili seadmete võrgutähistus võimaldab ühendada sularahasahtlid, kviitungiprinterid ja makseterminalid võrguühenduse kaudu.
+<span data-ttu-id="ba422-312">Riistvaraprofiili seadmete võrgutähistus võimaldab ühendada sularahasahtlid, kviitungiprinterid ja makseterminalid võrguühenduse kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
 
-#### <a name="modern-pos-for-windows"></a>Modern POS Windowsile
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="ba422-313">Modern POS Windowsile</span><span class="sxs-lookup"><span data-stu-id="ba422-313">Modern POS for Windows</span></span>
 
-Võrgu välisseadmetele saab määrata IP-aadresse kahest kohast. Kui Modern POS-i Windowsi klient kasutab ühte võrgu välisseadmete kogumit, tuleb neile seadmetele määrata IP-aadressid valikuga **IP konfigureerimine** registri enda toimingupaanil. Võrguseadmete puhul, mis on kassaregistrite seas ühiskasutuses, saab riistvaraprofiili, millele on määratud võrguseadmeid, vastendada otse ühiskasutuses riistvarajaamaga. IP-aadresside määramiseks valige lehelt **Jaekauplused** riistvarajaam ja kasutage siis valikut **IP konfigureerimine** jaotises **Riistvarajaamad** sellele riistvarajaamale määratud võrguseadmete määramiseks. Ainult võrguseadmetega riistvarajaamade puhul pole vaja riistvarajaama ennast juurutada. Sellisel juhul on riistvarajaam vajalik ainult võrguaadressiga seadmete põhimõtteliseks grupeerimiseks nende asukoha järgi jaekaupluses.
+<span data-ttu-id="ba422-314">Võrgu välisseadmetele saab määrata IP-aadresse kahest kohast.</span><span class="sxs-lookup"><span data-stu-id="ba422-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="ba422-315">Kui Modern POS-i Windowsi klient kasutab ühte võrgu välisseadmete kogumit, tuleb neile seadmetele määrata IP-aadressid valikuga **IP konfigureerimine** registri enda toimingupaanil.</span><span class="sxs-lookup"><span data-stu-id="ba422-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="ba422-316">Võrguseadmete puhul, mis on kassaregistrite seas ühiskasutuses, saab riistvaraprofiili, millele on määratud võrguseadmeid, vastendada otse ühiskasutuses riistvarajaamaga.</span><span class="sxs-lookup"><span data-stu-id="ba422-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="ba422-317">IP-aadresside määramiseks valige lehelt **Jaekauplused** riistvarajaam ja kasutage siis valikut **IP konfigureerimine** jaotises **Riistvarajaamad** sellele riistvarajaamale määratud võrguseadmete määramiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="ba422-318">Ainult võrguseadmetega riistvarajaamade puhul pole vaja riistvarajaama ennast juurutada.</span><span class="sxs-lookup"><span data-stu-id="ba422-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="ba422-319">Sellisel juhul on riistvarajaam vajalik ainult võrguaadressiga seadmete põhimõtteliseks grupeerimiseks nende asukoha järgi jaekaupluses.</span><span class="sxs-lookup"><span data-stu-id="ba422-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Pilvekassa, Modern POS iOS-ile ja Modern POS Androidile
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="ba422-320">Pilvekassa, Modern POS iOS-ile ja Modern POS Androidile</span><span class="sxs-lookup"><span data-stu-id="ba422-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
 
-Füüsiliselt ühendatud ja võrguaadressiga välisseadmete juhtimise loogika sisaldub riistvarajaamas. Seetõttu peab kõigi kassaklientide puhul, v.a Modern POS Windowsile, olema juurutatud ja aktiivne IIS-i riistvarajaam, et kassa saaks välisseadmetega suhelda, olenemata sellest, kas need välisseadmed on füüsiliselt riistvarajaamaga ühendatud või võrgu kaudu adresseeritud.
+<span data-ttu-id="ba422-321">Füüsiliselt ühendatud ja võrguaadressiga välisseadmete juhtimise loogika sisaldub riistvarajaamas.</span><span class="sxs-lookup"><span data-stu-id="ba422-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="ba422-322">Seetõttu peab kõigi kassaklientide puhul, v.a Modern POS Windowsile, olema juurutatud ja aktiivne IIS-i riistvarajaam, et kassa saaks välisseadmetega suhelda, olenemata sellest, kas need välisseadmed on füüsiliselt riistvarajaamaga ühendatud või võrgu kaudu adresseeritud.</span><span class="sxs-lookup"><span data-stu-id="ba422-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
 
-## <a name="setup-and-configuration"></a>Seadistamine ja konfigureerimine
-### <a name="hardware-station-installation"></a>Riistvarajaama paigaldamine
+## <a name="setup-and-configuration"></a><span data-ttu-id="ba422-323">Seadistamine ja konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ba422-323">Setup and configuration</span></span>
+### <a name="hardware-station-installation"></a><span data-ttu-id="ba422-324">Riistvarajaama paigaldamine</span><span class="sxs-lookup"><span data-stu-id="ba422-324">Hardware station installation</span></span>
 
-Lisateavet leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
+<span data-ttu-id="ba422-325">Lisateavet leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>Rakenduse Modern POS Windowsile seadistamine ja konfigureerimine
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="ba422-326">Rakenduse Modern POS Windowsile seadistamine ja konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ba422-326">Modern POS for Windows setup and configuration</span></span>
 
-Teavet leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
+<span data-ttu-id="ba422-327">Teavet leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
 
-### <a name="opos-device-setup-and-configuration"></a>OPOS-i seadme seadistamine ja konfigureerimine
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="ba422-328">OPOS-i seadme seadistamine ja konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ba422-328">OPOS device setup and configuration</span></span>
 
-Lisateavet OPOS-i komponentide kohta leiate selle dokumendi jaotisest „Toetatud liidesed”. Tavaliselt annab OPOS-i draiverid seadme tootja. Kui OPOS-i seadme draiver on installitud, lisab see Windowsi registrisse ühte järgmisse asukohta võtme.
+<span data-ttu-id="ba422-329">Lisateavet OPOS-i komponentide kohta leiate selle dokumendi jaotisest „Toetatud liidesed”.</span><span class="sxs-lookup"><span data-stu-id="ba422-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="ba422-330">Tavaliselt annab OPOS-i draiverid seadme tootja.</span><span class="sxs-lookup"><span data-stu-id="ba422-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="ba422-331">Kui OPOS-i seadme draiver on installitud, lisab see Windowsi registrisse ühte järgmisse asukohta võtme.</span><span class="sxs-lookup"><span data-stu-id="ba422-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
 
--   **32-bitine süsteem:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64-bitine süsteem:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   <span data-ttu-id="ba422-332">**32-bitine süsteem:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+-   <span data-ttu-id="ba422-333">**64-bitine süsteem:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
 
-Registri asukoha ServiceOPOS puhul korraldatakse konfigureeritud seadmed OPOS-i seadmeklassi järgi. Salvestatakse mitu seadmedraiverit.
+<span data-ttu-id="ba422-334">Registri asukoha ServiceOPOS puhul korraldatakse konfigureeritud seadmed OPOS-i seadmeklassi järgi.</span><span class="sxs-lookup"><span data-stu-id="ba422-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="ba422-335">Salvestatakse mitu seadmedraiverit.</span><span class="sxs-lookup"><span data-stu-id="ba422-335">Multiple device drivers are saved.</span></span>
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>Toetatud stsenaariumid riistvarajaama tüübi järgi
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>Klienditugi – IPC riistvarajaam võrreldes IIS-i riistvarajaamaga
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="ba422-336">Toetatud stsenaariumid riistvarajaama tüübi järgi</span><span class="sxs-lookup"><span data-stu-id="ba422-336">Supported scenarios by hardware station type</span></span>
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="ba422-337">Klienditugi – IPC riistvarajaam võrreldes IIS-i riistvarajaamaga</span><span class="sxs-lookup"><span data-stu-id="ba422-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
 
-Järgmises tabelis on näidatud toetatud topoloogiaid ja juurutusstsenaariume.
+<span data-ttu-id="ba422-338">Järgmises tabelis on näidatud toetatud topoloogiaid ja juurutusstsenaariume.</span><span class="sxs-lookup"><span data-stu-id="ba422-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
 
-| Klient      | IPC riistvarajaam | IIS-i riistvarajaam |
+| <span data-ttu-id="ba422-339">Klient</span><span class="sxs-lookup"><span data-stu-id="ba422-339">Client</span></span>      | <span data-ttu-id="ba422-340">IPC riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-340">IPC hardware station</span></span> | <span data-ttu-id="ba422-341">IIS-i riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-341">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Windowsi rakendus | Jah                  | Jah                  |
-| Cloud POS   | Ei                   | Jah                  |
-| Android     | Ei                   | Jah                  |
-| iOS         | Ei                   | Jah                  |
+| <span data-ttu-id="ba422-342">Windowsi rakendus</span><span class="sxs-lookup"><span data-stu-id="ba422-342">Windows app</span></span> | <span data-ttu-id="ba422-343">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-343">Yes</span></span>                  | <span data-ttu-id="ba422-344">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-344">Yes</span></span>                  |
+| <span data-ttu-id="ba422-345">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="ba422-345">Cloud POS</span></span>   | <span data-ttu-id="ba422-346">Ei</span><span class="sxs-lookup"><span data-stu-id="ba422-346">No</span></span>                   | <span data-ttu-id="ba422-347">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-347">Yes</span></span>                  |
+| <span data-ttu-id="ba422-348">Android</span><span class="sxs-lookup"><span data-stu-id="ba422-348">Android</span></span>     | <span data-ttu-id="ba422-349">Ei</span><span class="sxs-lookup"><span data-stu-id="ba422-349">No</span></span>                   | <span data-ttu-id="ba422-350">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-350">Yes</span></span>                  |
+| <span data-ttu-id="ba422-351">iOS</span><span class="sxs-lookup"><span data-stu-id="ba422-351">iOS</span></span>         | <span data-ttu-id="ba422-352">Ei</span><span class="sxs-lookup"><span data-stu-id="ba422-352">No</span></span>                   | <span data-ttu-id="ba422-353">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-353">Yes</span></span>                  |
 
-### <a name="network-peripherals"></a>Võrgu välisseadmed
+### <a name="network-peripherals"></a><span data-ttu-id="ba422-354">Võrgu välisseadmed</span><span class="sxs-lookup"><span data-stu-id="ba422-354">Network peripherals</span></span>
 
-Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integreeritud riistvarajaama kaudu. Kõigi teiste klientide puhul tuleb juurutada IIS-i riistvarajaam.
+<span data-ttu-id="ba422-355">Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integreeritud riistvarajaama kaudu.</span><span class="sxs-lookup"><span data-stu-id="ba422-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="ba422-356">Kõigi teiste klientide puhul tuleb juurutada IIS-i riistvarajaam.</span><span class="sxs-lookup"><span data-stu-id="ba422-356">For all other clients, you must deploy an IIS hardware station.</span></span>
 
-| Klient      | IPC riistvarajaam | IIS-i riistvarajaam |
+| <span data-ttu-id="ba422-357">Klient</span><span class="sxs-lookup"><span data-stu-id="ba422-357">Client</span></span>      | <span data-ttu-id="ba422-358">IPC riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-358">IPC hardware station</span></span> | <span data-ttu-id="ba422-359">IIS-i riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-359">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Windowsi rakendus | Jah                  | Jah                  |
-| Cloud POS   | Ei                   | Jah                  |
-| Android     | Ei                   | Jah                  |
-| iOS         | Ei                   | Jah                  |
+| <span data-ttu-id="ba422-360">Windowsi rakendus</span><span class="sxs-lookup"><span data-stu-id="ba422-360">Windows app</span></span> | <span data-ttu-id="ba422-361">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-361">Yes</span></span>                  | <span data-ttu-id="ba422-362">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-362">Yes</span></span>                  |
+| <span data-ttu-id="ba422-363">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="ba422-363">Cloud POS</span></span>   | <span data-ttu-id="ba422-364">Ei</span><span class="sxs-lookup"><span data-stu-id="ba422-364">No</span></span>                   | <span data-ttu-id="ba422-365">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-365">Yes</span></span>                  |
+| <span data-ttu-id="ba422-366">Android</span><span class="sxs-lookup"><span data-stu-id="ba422-366">Android</span></span>     | <span data-ttu-id="ba422-367">Ei</span><span class="sxs-lookup"><span data-stu-id="ba422-367">No</span></span>                   | <span data-ttu-id="ba422-368">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-368">Yes</span></span>                  |
+| <span data-ttu-id="ba422-369">iOS</span><span class="sxs-lookup"><span data-stu-id="ba422-369">iOS</span></span>         | <span data-ttu-id="ba422-370">Ei</span><span class="sxs-lookup"><span data-stu-id="ba422-370">No</span></span>                   | <span data-ttu-id="ba422-371">Jah</span><span class="sxs-lookup"><span data-stu-id="ba422-371">Yes</span></span>                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>Toetatud seadmetüübid riistvarajaama tüübi järgi
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaamaga Modern POS Windowsile
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Toetatud seadmeklass</th>
-<th>Toetatud liidesed</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Printer</td>
-<td><ul>
-<li>OPOS</li>
-<li>Windows draiver</li>
-<li>Seade</li>
-<li>Võrk</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Printer 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Windows draiver</li>
-<li>Seade</li>
-<li>Võrk</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Rea kuva</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Topeltkuva</td>
-<td>Windows draiver</td>
-</tr>
-<tr class="odd">
-<td>Magnetribalugeja</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Seadistus pole vajalik.)</li>
-<li>Klaviatuurikiil (Seadistus pole vajalik.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Koostaja</td>
-<td><ul>
-<li>OPOS</li>
-<li>Võrk <strong>Märkus.</strong> Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Koostaja 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Võrk <strong>Märkus.</strong> Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Skanner</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Seadistus pole vajalik.)</li>
-<li>Klaviatuurikiil (Seadistus pole vajalik.)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Skanner 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Seadistus pole vajalik.)</li>
-<li>Klaviatuurikiil (Seadistus pole vajalik.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Sobita</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>PIN-klahvistik</td>
-<td>OPOS (Tuge pakutakse makseliidese kohandamise kaudu.)</td>
-</tr>
-<tr class="even">
-<td>Allkirja hõivamine</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Makseterminal</td>
-<td><ul>
-<li>Kohandatud seadme tugi</li>
-<li>Võrk (Lisateavet leiate makseliidese dokumentidest.)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on sihtotstarbeline IIS-i riistvarajaam
-
-**Märkus.** Kui IIS-i riistvarajaam on sihtotstarbeline, on kassakliendi ja riistvarajaama vahel üks-ühele seos.
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="ba422-372">Toetatud seadmetüübid riistvarajaama tüübi järgi</span><span class="sxs-lookup"><span data-stu-id="ba422-372">Supported device types by hardware station type</span></span>
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="ba422-373">IPC (integreeritud) riistvarajaamaga Modern POS Windowsile</span><span class="sxs-lookup"><span data-stu-id="ba422-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
 <table>
 <colgroup>
@@ -341,82 +239,100 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 </colgroup>
 <thead>
 <tr class="header">
-<th>Toetatud seadmeklass</th>
-<th>Toetatud liidesed</th>
+<th><span data-ttu-id="ba422-374">Toetatud seadmeklass</span><span class="sxs-lookup"><span data-stu-id="ba422-374">Supported device class</span></span></th>
+<th><span data-ttu-id="ba422-375">Toetatud liidesed</span><span class="sxs-lookup"><span data-stu-id="ba422-375">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Printer</td>
+<td><span data-ttu-id="ba422-376">Printer</span><span class="sxs-lookup"><span data-stu-id="ba422-376">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windowsi draiver <strong>Märkus.</strong> Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</li>
-<li>Võrk</li>
+<li><span data-ttu-id="ba422-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-377">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-378">Windows draiver</span><span class="sxs-lookup"><span data-stu-id="ba422-378">Windows driver</span></span></li>
+<li><span data-ttu-id="ba422-379">Seade</span><span class="sxs-lookup"><span data-stu-id="ba422-379">Device</span></span></li>
+<li><span data-ttu-id="ba422-380">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-380">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Printer 2</td>
+<td><span data-ttu-id="ba422-381">Printer 2</span><span class="sxs-lookup"><span data-stu-id="ba422-381">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows draiver</li>
-<li>Võrk</li>
+<li><span data-ttu-id="ba422-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-382">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-383">Windows draiver</span><span class="sxs-lookup"><span data-stu-id="ba422-383">Windows driver</span></span></li>
+<li><span data-ttu-id="ba422-384">Seade</span><span class="sxs-lookup"><span data-stu-id="ba422-384">Device</span></span></li>
+<li><span data-ttu-id="ba422-385">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-385">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Rea kuva</td>
-<td>OPOS</td>
+<td><span data-ttu-id="ba422-386">Rea kuva</span><span class="sxs-lookup"><span data-stu-id="ba422-386">Line display</span></span></td>
+<td><span data-ttu-id="ba422-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-387">OPOS</span></span></td>
 </tr>
 <tr class="even">
-<td>Magnetribalugeja</td>
-<td>OPOS</td>
+<td><span data-ttu-id="ba422-388">Topeltkuva</span><span class="sxs-lookup"><span data-stu-id="ba422-388">Dual display</span></span></td>
+<td><span data-ttu-id="ba422-389">Windows draiver</span><span class="sxs-lookup"><span data-stu-id="ba422-389">Windows driver</span></span></td>
 </tr>
 <tr class="odd">
-<td>Koostaja</td>
+<td><span data-ttu-id="ba422-390">Magnetribalugeja</span><span class="sxs-lookup"><span data-stu-id="ba422-390">MSR</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Võrk <strong>Märkus.</strong> Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</li>
+<li><span data-ttu-id="ba422-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-391">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-392">UWP (Seadistus pole vajalik.)</span><span class="sxs-lookup"><span data-stu-id="ba422-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="ba422-393">Klaviatuurikiil (Seadistus pole vajalik.)</span><span class="sxs-lookup"><span data-stu-id="ba422-393">Keyboard wedge (No setup is required.)</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Koostaja 2</td>
+<td><span data-ttu-id="ba422-394">Koostaja</span><span class="sxs-lookup"><span data-stu-id="ba422-394">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Võrk</li>
+<li><span data-ttu-id="ba422-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-395">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-396">Võrk <strong>Märkus.</strong> Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</span><span class="sxs-lookup"><span data-stu-id="ba422-396">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Skanner</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Skanner 2</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Sobita</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>PIN-klahvistik</td>
-<td>OPOS (Tuge pakutakse makseliidese kohandamise kaudu.)</td>
-</tr>
-<tr class="odd">
-<td>Sig. hõivamine</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Makseterminal</td>
+<td><span data-ttu-id="ba422-397">Koostaja 2</span><span class="sxs-lookup"><span data-stu-id="ba422-397">Drawer 2</span></span></td>
 <td><ul>
-<li>Kohandatud seadme tugi</li>
-<li>Võrk (Lisateavet leiate makseliidese dokumentidest.)</li>
+<li><span data-ttu-id="ba422-398">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-398">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-399">Võrk <strong>Märkus.</strong> Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</span><span class="sxs-lookup"><span data-stu-id="ba422-399">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-400">Skanner</span><span class="sxs-lookup"><span data-stu-id="ba422-400">Scanner</span></span></td>
+<td><ul>
+<li><span data-ttu-id="ba422-401">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-401">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-402">UWP (Seadistus pole vajalik.)</span><span class="sxs-lookup"><span data-stu-id="ba422-402">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="ba422-403">Klaviatuurikiil (Seadistus pole vajalik.)</span><span class="sxs-lookup"><span data-stu-id="ba422-403">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba422-404">Skanner 2</span><span class="sxs-lookup"><span data-stu-id="ba422-404">Scanner 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="ba422-405">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-405">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-406">UWP (Seadistus pole vajalik.)</span><span class="sxs-lookup"><span data-stu-id="ba422-406">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="ba422-407">Klaviatuurikiil (Seadistus pole vajalik.)</span><span class="sxs-lookup"><span data-stu-id="ba422-407">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-408">Sobita</span><span class="sxs-lookup"><span data-stu-id="ba422-408">Scale</span></span></td>
+<td><span data-ttu-id="ba422-409">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-409">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba422-410">PIN-klahvistik</span><span class="sxs-lookup"><span data-stu-id="ba422-410">PIN pad</span></span></td>
+<td><span data-ttu-id="ba422-411">OPOS (Tuge pakutakse makseliidese kohandamise kaudu.)</span><span class="sxs-lookup"><span data-stu-id="ba422-411">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-412">Allkirja hõivamine</span><span class="sxs-lookup"><span data-stu-id="ba422-412">Signature capture</span></span></td>
+<td><span data-ttu-id="ba422-413">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-413">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba422-414">Makseterminal</span><span class="sxs-lookup"><span data-stu-id="ba422-414">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="ba422-415">Kohandatud seadme tugi</span><span class="sxs-lookup"><span data-stu-id="ba422-415">Custom device support</span></span></li>
+<li><span data-ttu-id="ba422-416">Võrk (Lisateavet leiate makseliidese dokumentidest.)</span><span class="sxs-lookup"><span data-stu-id="ba422-416">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on ühine IIS-i riistvarajaam
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="ba422-417">Kõik Modern POS-i kliendid, millel on sihtotstarbeline IIS-i riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-417">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-**Märkus.** Kui IIS-i riistvarajaam on ühine, saab seda kasutada korraga mitu seadet. Selle stsenaariumi puhul tuleks kasutada ainult järgmises tabelis loetletud seadmeid. Kui püüate anda ühiskasutusse seadmeid, mida siin kirjas ei ole (nt vöötkoodiskannereid ja MSR-e), tekivad tõrked, kui sama välisseadet püüab kasutada mitu seadet. Tulevikus on selline konfiguratsioon selgelt välistatud.
+<span data-ttu-id="ba422-418">**Märkus.** Kui IIS-i riistvarajaam on sihtotstarbeline, on kassakliendi ja riistvarajaama vahel üks-ühele seos.</span><span class="sxs-lookup"><span data-stu-id="ba422-418">**Note:** When the IIS hardware station is “dedicated,” there is a one-to-one relationship between the POS client and the hardware station.</span></span>
 
 <table>
 <colgroup>
@@ -425,386 +341,470 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 </colgroup>
 <thead>
 <tr class="header">
-<th>Toetatud seadmeklass</th>
-<th>Toetatud liidesed</th>
+<th><span data-ttu-id="ba422-419">Toetatud seadmeklass</span><span class="sxs-lookup"><span data-stu-id="ba422-419">Supported device class</span></span></th>
+<th><span data-ttu-id="ba422-420">Toetatud liidesed</span><span class="sxs-lookup"><span data-stu-id="ba422-420">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Printer</td>
+<td><span data-ttu-id="ba422-421">Printer</span><span class="sxs-lookup"><span data-stu-id="ba422-421">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windowsi draiver <strong>Märkus.</strong> Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</li>
-<li>Võrk</li>
+<li><span data-ttu-id="ba422-422">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-422">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-423">Windowsi draiver <strong>Märkus.</strong> Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</span><span class="sxs-lookup"><span data-stu-id="ba422-423">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="ba422-424">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-424">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Printer 2</td>
+<td><span data-ttu-id="ba422-425">Printer 2</span><span class="sxs-lookup"><span data-stu-id="ba422-425">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows draiver</li>
-<li>Võrk</li>
+<li><span data-ttu-id="ba422-426">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-426">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-427">Windows draiver</span><span class="sxs-lookup"><span data-stu-id="ba422-427">Windows driver</span></span></li>
+<li><span data-ttu-id="ba422-428">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-428">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Koostaja</td>
+<td><span data-ttu-id="ba422-429">Rea kuva</span><span class="sxs-lookup"><span data-stu-id="ba422-429">Line display</span></span></td>
+<td><span data-ttu-id="ba422-430">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-430">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-431">Magnetribalugeja</span><span class="sxs-lookup"><span data-stu-id="ba422-431">MSR</span></span></td>
+<td><span data-ttu-id="ba422-432">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-432">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba422-433">Koostaja</span><span class="sxs-lookup"><span data-stu-id="ba422-433">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Võrk <strong>Märkus.</strong> Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</li>
+<li><span data-ttu-id="ba422-434">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-434">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-435">Võrk <strong>Märkus.</strong> Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</span><span class="sxs-lookup"><span data-stu-id="ba422-435">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Koostaja 2</td>
+<td><span data-ttu-id="ba422-436">Koostaja 2</span><span class="sxs-lookup"><span data-stu-id="ba422-436">Drawer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Võrk</li>
+<li><span data-ttu-id="ba422-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-437">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-438">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-438">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Makseterminal</td>
+<td><span data-ttu-id="ba422-439">Skanner</span><span class="sxs-lookup"><span data-stu-id="ba422-439">Scanner</span></span></td>
+<td><span data-ttu-id="ba422-440">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-440">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-441">Skanner 2</span><span class="sxs-lookup"><span data-stu-id="ba422-441">Scanner 2</span></span></td>
+<td><span data-ttu-id="ba422-442">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-442">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba422-443">Sobita</span><span class="sxs-lookup"><span data-stu-id="ba422-443">Scale</span></span></td>
+<td><span data-ttu-id="ba422-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-444">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-445">PIN-klahvistik</span><span class="sxs-lookup"><span data-stu-id="ba422-445">PIN pad</span></span></td>
+<td><span data-ttu-id="ba422-446">OPOS (Tuge pakutakse makseliidese kohandamise kaudu.)</span><span class="sxs-lookup"><span data-stu-id="ba422-446">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba422-447">Sig.</span><span class="sxs-lookup"><span data-stu-id="ba422-447">Sig.</span></span> <span data-ttu-id="ba422-448">hõivamine</span><span class="sxs-lookup"><span data-stu-id="ba422-448">capture</span></span></td>
+<td><span data-ttu-id="ba422-449">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-449">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-450">Makseterminal</span><span class="sxs-lookup"><span data-stu-id="ba422-450">Payment terminal</span></span></td>
 <td><ul>
-<li>Kohandatud seadme tugi</li>
-<li>Võrk (Lisateavet leiate makseliidese dokumentidest.)</li>
+<li><span data-ttu-id="ba422-451">Kohandatud seadme tugi</span><span class="sxs-lookup"><span data-stu-id="ba422-451">Custom device support</span></span></li>
+<li><span data-ttu-id="ba422-452">Võrk (Lisateavet leiate makseliidese dokumentidest.)</span><span class="sxs-lookup"><span data-stu-id="ba422-452">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configuration-for-supported-scenarios"></a>Toetatud stsenaariumide konfigureerimine
-Lisateavet riistvaraprofiilide loomise kohta leiate jaotisest [Kanaliklientide (sh registrite ja riistvarajaamade) määratlemine ja haldamine](define-maintain-channel-clients-registers-hw-stations.md). **Märkus.** Microsoft Dynamics 365 for Retaili versiooni 1611 puhul ei kasutata enam riistvarajaama profiili. Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="ba422-453">Kõik Modern POS-i kliendid, millel on ühine IIS-i riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-453">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaamaga Modern POS Windowsile
+<span data-ttu-id="ba422-454">**Märkus.** Kui IIS-i riistvarajaam on ühine, saab seda kasutada korraga mitu seadet.</span><span class="sxs-lookup"><span data-stu-id="ba422-454">**Note:** When the IIS hardware station is “shared,” multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="ba422-455">Selle stsenaariumi puhul tuleks kasutada ainult järgmises tabelis loetletud seadmeid.</span><span class="sxs-lookup"><span data-stu-id="ba422-455">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="ba422-456">Kui püüate anda ühiskasutusse seadmeid, mida siin kirjas ei ole (nt vöötkoodiskannereid ja MSR-e), tekivad tõrked, kui sama välisseadet püüab kasutada mitu seadet.</span><span class="sxs-lookup"><span data-stu-id="ba422-456">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="ba422-457">Tulevikus on selline konfiguratsioon selgelt välistatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-457">In the future, such a configuration will be explicitly prevented.</span></span>
 
-See konfiguratsioon on tavapäraste fikseeritud kassaregistrite puhul kõige levinum. Selle stsenaariumi puhul on riistvaraprofiili teave vastendatud otse registri endaga. EFT terminali number tuleb samuti registril enesel määrata. Selle konfiguratsiooni seadistamiseks tehke järgmist.
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="ba422-458">Toetatud seadmeklass</span><span class="sxs-lookup"><span data-stu-id="ba422-458">Supported device class</span></span></th>
+<th><span data-ttu-id="ba422-459">Toetatud liidesed</span><span class="sxs-lookup"><span data-stu-id="ba422-459">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="ba422-460">Printer</span><span class="sxs-lookup"><span data-stu-id="ba422-460">Printer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="ba422-461">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-461">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-462">Windowsi draiver <strong>Märkus.</strong> Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</span><span class="sxs-lookup"><span data-stu-id="ba422-462">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="ba422-463">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-463">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-464">Printer 2</span><span class="sxs-lookup"><span data-stu-id="ba422-464">Printer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="ba422-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-465">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-466">Windows draiver</span><span class="sxs-lookup"><span data-stu-id="ba422-466">Windows driver</span></span></li>
+<li><span data-ttu-id="ba422-467">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-467">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba422-468">Koostaja</span><span class="sxs-lookup"><span data-stu-id="ba422-468">Drawer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="ba422-469">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-469">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-470">Võrk <strong>Märkus.</strong> Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</span><span class="sxs-lookup"><span data-stu-id="ba422-470">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba422-471">Koostaja 2</span><span class="sxs-lookup"><span data-stu-id="ba422-471">Drawer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="ba422-472">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-472">OPOS</span></span></li>
+<li><span data-ttu-id="ba422-473">Võrk</span><span class="sxs-lookup"><span data-stu-id="ba422-473">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba422-474">Makseterminal</span><span class="sxs-lookup"><span data-stu-id="ba422-474">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="ba422-475">Kohandatud seadme tugi</span><span class="sxs-lookup"><span data-stu-id="ba422-475">Custom device support</span></span></li>
+<li><span data-ttu-id="ba422-476">Võrk (Lisateavet leiate makseliidese dokumentidest.)</span><span class="sxs-lookup"><span data-stu-id="ba422-476">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-1.  Looge riistvaraprofiil, kus on konfigureeritud kõik vajalikud välisseadmed.
-2.  Vastendage riistvaraprofiil kassaregistriga.
-3.  Looge jaekauplusele, kus kassaregistrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**. Kirjeldus on vabatahtlik. **Märkus.** Te ei pea riistvarajaamale ühtegi muud atribuuti määrama. Kogu muu vajalik teave (nt riistvaraprofiil) tuleb registrist endast.
-4.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
-5.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
-6.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
-7.  Installige ja aktiveerige Modern POS Windowsile.
-8.  Käivitage Modern POS Windowsile ja alustage ühendatud välisseadmete kasutamist.
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="ba422-477">Toetatud stsenaariumide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ba422-477">Configuration for supported scenarios</span></span>
+<span data-ttu-id="ba422-478">Lisateavet riistvaraprofiilide loomise kohta leiate jaotisest [Kanaliklientide (sh registrite ja riistvarajaamade) määratlemine ja haldamine](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-478">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span> <span data-ttu-id="ba422-479">**Märkus.** Microsoft Dynamics 365 for Retaili versiooni 1611 puhul ei kasutata enam riistvarajaama profiili.</span><span class="sxs-lookup"><span data-stu-id="ba422-479">**Note:** For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="ba422-480">Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.</span><span class="sxs-lookup"><span data-stu-id="ba422-480">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on sihtotstarbeline IIS-i riistvarajaam
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="ba422-481">IPC (integreeritud) riistvarajaamaga Modern POS Windowsile</span><span class="sxs-lookup"><span data-stu-id="ba422-481">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
-Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, millel on riistvarajaam, mida kasutab ainult üks kassaregister. Selle konfiguratsiooni seadistamiseks tehke järgmist.
+<span data-ttu-id="ba422-482">See konfiguratsioon on tavapäraste fikseeritud kassaregistrite puhul kõige levinum.</span><span class="sxs-lookup"><span data-stu-id="ba422-482">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="ba422-483">Selle stsenaariumi puhul on riistvaraprofiili teave vastendatud otse registri endaga.</span><span class="sxs-lookup"><span data-stu-id="ba422-483">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="ba422-484">EFT terminali number tuleb samuti registril enesel määrata.</span><span class="sxs-lookup"><span data-stu-id="ba422-484">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="ba422-485">Selle konfiguratsiooni seadistamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="ba422-485">To set up this configuration, follow these steps.</span></span>
 
-1.  Looge riistvaraprofiil, kus on konfigureeritud kõik vajalikud välisseadmed.
-2.  Looge jaekauplusele, kus kassaregistrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**.
-3.  Määrake sihtotstarbelisel riistvarajaamal järgmised atribuudid.
-    -   **Hosti nimi** – hostarvuti nimi, kus riistvarajaam töötab. **Märkus.** Pilvekassa saab lahendada hosti **localhost**, et määrata kohalik arvuti, kus pilvekassa töötab. Kuid serdil, mis on vajalik pilvekassa sidumiseks riistvarajaamaga, peab samuti olema arvuti nimi „Localhost”. Probleemide vältimiseks soovitame loetleda kaupluse jaoks iga vajaliku sihtotstarbelise riistvarajaama eksemplari. Iga riistvarajaama puhul peab hosti nimi olema selle konkreetse arvuti nimi, kus riistvarajaam juurutatakse.
-    -   **Port** – port, mida riistvarajaam kasutab Modern POS-i kliendiga suhtlemiseks.
-    -   **Riistvaraprofiil** – kui riistvaraprofiili pole riistvarajaamal enesel antud, kasutatakse registrile määratud riistvaraprofiili.
-    -   **EFT kassa number** – EFT terminali ID, mida EFT volituste saatmisel kasutada. Selle ID annab krediitkaardiprotsessor.
-    -   **Paketi nimi** – riistvarajaama pakett, mida riistvarajaama juurutamisel kasutada.
+1.  <span data-ttu-id="ba422-486">Looge riistvaraprofiil, kus on konfigureeritud kõik vajalikud välisseadmed.</span><span class="sxs-lookup"><span data-stu-id="ba422-486">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="ba422-487">Vastendage riistvaraprofiil kassaregistriga.</span><span class="sxs-lookup"><span data-stu-id="ba422-487">Map the hardware profile to the POS register.</span></span>
+3.  <span data-ttu-id="ba422-488">Looge jaekauplusele, kus kassaregistrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**.</span><span class="sxs-lookup"><span data-stu-id="ba422-488">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="ba422-489">Kirjeldus on vabatahtlik.</span><span class="sxs-lookup"><span data-stu-id="ba422-489">A description is optional.</span></span> <span data-ttu-id="ba422-490">**Märkus.** Te ei pea riistvarajaamale ühtegi muud atribuuti määrama.</span><span class="sxs-lookup"><span data-stu-id="ba422-490">**Note:** You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="ba422-491">Kogu muu vajalik teave (nt riistvaraprofiil) tuleb registrist endast.</span><span class="sxs-lookup"><span data-stu-id="ba422-491">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+4.  <span data-ttu-id="ba422-492">Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.</span><span class="sxs-lookup"><span data-stu-id="ba422-492">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="ba422-493">Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega.</span><span class="sxs-lookup"><span data-stu-id="ba422-493">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="ba422-494">Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="ba422-494">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="ba422-495">Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega.</span><span class="sxs-lookup"><span data-stu-id="ba422-495">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="ba422-496">Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="ba422-496">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="ba422-497">Installige ja aktiveerige Modern POS Windowsile.</span><span class="sxs-lookup"><span data-stu-id="ba422-497">Install and activate Modern POS for Windows.</span></span>
+8.  <span data-ttu-id="ba422-498">Käivitage Modern POS Windowsile ja alustage ühendatud välisseadmete kasutamist.</span><span class="sxs-lookup"><span data-stu-id="ba422-498">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
 
-4.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
-5.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
-6.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
-7.  Riistvarajaama paigaldamine. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
-8.  Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
-9.  Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.
-10. Käivitage toiming **Riistvarajaamade haldamine**.
-11. Klõpsake käsku **Halda**.
-12. Määrake riistvarajaama haldamise lehel riistvarajaama sisselülitamise valik.
-13. Valige kasutatav riistvarajaam ja klõpsake siis nuppu **Seo**.
-14. Kui riistvarajaam on seotud, klõpsake nuppu **Sule**.
-15. Klõpsake riistvarajaama valimise lehel hiljuti valitud riistvarajaama, et muuta see aktiivseks.
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="ba422-499">Kõik Modern POS-i kliendid, millel on sihtotstarbeline IIS-i riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-499">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on ühine IIS-i riistvarajaam
+<span data-ttu-id="ba422-500">Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, millel on riistvarajaam, mida kasutab ainult üks kassaregister.</span><span class="sxs-lookup"><span data-stu-id="ba422-500">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="ba422-501">Selle konfiguratsiooni seadistamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="ba422-501">To set up this configuration, follow these steps.</span></span>
 
-Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kasutavad riistvarajaamu teiste seadmetega ühiselt. Selle konfiguratsiooni seadistamiseks tehke järgmist.
+1.  <span data-ttu-id="ba422-502">Looge riistvaraprofiil, kus on konfigureeritud kõik vajalikud välisseadmed.</span><span class="sxs-lookup"><span data-stu-id="ba422-502">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="ba422-503">Looge jaekauplusele, kus kassaregistrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**.</span><span class="sxs-lookup"><span data-stu-id="ba422-503">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="ba422-504">Määrake sihtotstarbelisel riistvarajaamal järgmised atribuudid.</span><span class="sxs-lookup"><span data-stu-id="ba422-504">On the dedicated hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="ba422-505">**Hosti nimi** – hostarvuti nimi, kus riistvarajaam töötab.</span><span class="sxs-lookup"><span data-stu-id="ba422-505">**Host name** – The name of the host computer where the hardware station will run.</span></span> <span data-ttu-id="ba422-506">**Märkus.** Pilvekassa saab lahendada hosti **localhost**, et määrata kohalik arvuti, kus pilvekassa töötab.</span><span class="sxs-lookup"><span data-stu-id="ba422-506">**Note:** Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="ba422-507">Kuid serdil, mis on vajalik pilvekassa sidumiseks riistvarajaamaga, peab samuti olema arvuti nimi „Localhost”.</span><span class="sxs-lookup"><span data-stu-id="ba422-507">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="ba422-508">Probleemide vältimiseks soovitame loetleda kaupluse jaoks iga vajaliku sihtotstarbelise riistvarajaama eksemplari.</span><span class="sxs-lookup"><span data-stu-id="ba422-508">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="ba422-509">Iga riistvarajaama puhul peab hosti nimi olema selle konkreetse arvuti nimi, kus riistvarajaam juurutatakse.</span><span class="sxs-lookup"><span data-stu-id="ba422-509">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+    -   <span data-ttu-id="ba422-510">**Port** – port, mida riistvarajaam kasutab Modern POS-i kliendiga suhtlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-510">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="ba422-511">**Riistvaraprofiil** – kui riistvaraprofiili pole riistvarajaamal enesel antud, kasutatakse registrile määratud riistvaraprofiili.</span><span class="sxs-lookup"><span data-stu-id="ba422-511">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    -   <span data-ttu-id="ba422-512">**EFT kassa number** – EFT terminali ID, mida EFT volituste saatmisel kasutada.</span><span class="sxs-lookup"><span data-stu-id="ba422-512">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="ba422-513">Selle ID annab krediitkaardiprotsessor.</span><span class="sxs-lookup"><span data-stu-id="ba422-513">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="ba422-514">**Paketi nimi** – riistvarajaama pakett, mida riistvarajaama juurutamisel kasutada.</span><span class="sxs-lookup"><span data-stu-id="ba422-514">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-1.  Looge riistvaraprofiil, kus on konfigureeritud vajalikud välisseadmed.
-2.  Looge jaekauplusele, kus kassaregistrit kasutatakse, riistvarajaam tüübiga **Ühine**.
-3.  Määrake ühisel riistvarajaamal järgmised atribuudid.
-    -   **Hosti nimi** – hostarvuti nimi, kus riistvarajaam töötab.
-    -   **Kirjeldus** – tekst, mis aitab riistvarajaama tuvastada, nt **Tagastused** või **Kaupluse ees**.
-    -   **Port** – port, mida riistvarajaam kasutab Modern POS-i kliendiga suhtlemiseks.
-    -   **Riistvaraprofiil** – ühiskasutuses riistvarajaamade puhul peab igal riistvarajaamal olema riistvaraprofiil. Riistvarajaamad võivad riistvaraprofiile ühiselt kasutada, kuid need peavad olema vastendatud iga riistvarajaamaga. Lisaks soovitame kasutada ühiseid vahetusi, kui sama ühist riistvarajaama kasutab mitu seadet. Ühise vahetuse seadistamiseks klõpsake valikuid **Jaemüük** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Valige iga ühise riistvaraprofiili jaoks sularahasahtel ja määrake valiku **Ühise vahetuse sahtel** väärtuseks **Jah**.
-    -   **EFT kassa number** – EFT terminali ID, mida EFT volituste saatmisel kasutada. Selle ID annab krediitkaardiprotsessor.
-    -   **Paketi nimi** – riistvarajaama pakett, mida riistvarajaama juurutamisel kasutada.
+4.  <span data-ttu-id="ba422-515">Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.</span><span class="sxs-lookup"><span data-stu-id="ba422-515">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="ba422-516">Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega.</span><span class="sxs-lookup"><span data-stu-id="ba422-516">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="ba422-517">Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="ba422-517">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="ba422-518">Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega.</span><span class="sxs-lookup"><span data-stu-id="ba422-518">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="ba422-519">Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="ba422-519">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="ba422-520">Riistvarajaama paigaldamine.</span><span class="sxs-lookup"><span data-stu-id="ba422-520">Install the hardware station.</span></span> <span data-ttu-id="ba422-521">Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-521">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8.  <span data-ttu-id="ba422-522">Installige ja aktiveerige Modern POS.</span><span class="sxs-lookup"><span data-stu-id="ba422-522">Install and activate Modern POS.</span></span> <span data-ttu-id="ba422-523">Lisateavet Modern POS-i installimise kohta leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-523">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9.  <span data-ttu-id="ba422-524">Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.</span><span class="sxs-lookup"><span data-stu-id="ba422-524">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="ba422-525">Käivitage toiming **Riistvarajaamade haldamine**.</span><span class="sxs-lookup"><span data-stu-id="ba422-525">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="ba422-526">Klõpsake käsku **Halda**.</span><span class="sxs-lookup"><span data-stu-id="ba422-526">Click **Manage**.</span></span>
+12. <span data-ttu-id="ba422-527">Määrake riistvarajaama haldamise lehel riistvarajaama sisselülitamise valik.</span><span class="sxs-lookup"><span data-stu-id="ba422-527">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="ba422-528">Valige kasutatav riistvarajaam ja klõpsake siis nuppu **Seo**.</span><span class="sxs-lookup"><span data-stu-id="ba422-528">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="ba422-529">Kui riistvarajaam on seotud, klõpsake nuppu **Sule**.</span><span class="sxs-lookup"><span data-stu-id="ba422-529">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="ba422-530">Klõpsake riistvarajaama valimise lehel hiljuti valitud riistvarajaama, et muuta see aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-530">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
 
-4.  Korrake samme 2 ja 3 iga täiendava riistvarajaamaga, mida kaupluses vaja on.
-5.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
-6.  Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
-7.  Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
-8.  Installige riistvarajaam igasse hostarvutisse, mille toimingutes 2 ja 3 seadistasite. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
-9.  Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
-10. Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.
-11. Käivitage toiming **Riistvarajaamade haldamine**.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="ba422-531">Kõik Modern POS-i kliendid, millel on ühine IIS-i riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-531">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-12. Klõpsake käsku **Halda**.
-13. Määrake riistvarajaama haldamise lehel riistvarajaama sisselülitamise valik.
-14. Valige kasutatav riistvarajaam ja klõpsake siis nuppu **Seo**.
-15. Korrake toimingut 14 iga riistvarajaamaga, mida Modern POS kasutab.
-16. Kui kõik vajalikud riistvarajaamad on seotud, klõpsake nuppu **Sule**.
-17. Klõpsake riistvarajaama valimise lehel hiljuti valitud riistvarajaama, et muuta see aktiivseks. **Märkus.** Kui seadmed kasutavad sageli erinevaid riistvarajaamu, siis soovitame konfigureerida Modern POS-i paluma kassapidajatel maksmisprotsessi alustamisel riistvarajaama valida. Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Valige register ja määrake siis valiku **Valige maksmisel** väärtuseks **Jah**. Kasutage jaotusgraafikut **1090** muudatuste sünkroonimiseks kanali andmebaasiga.
+<span data-ttu-id="ba422-532">Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kasutavad riistvarajaamu teiste seadmetega ühiselt.</span><span class="sxs-lookup"><span data-stu-id="ba422-532">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="ba422-533">Selle konfiguratsiooni seadistamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="ba422-533">To set up this configuration, follow these steps.</span></span>
 
-## <a name="extensibility"></a>Laiendatavus
-Teavet riistvarajaama laiendatavuse stsenaariumide kohta leiate jaotisest [Riistvarajaama laiendatavus](dev-itpro/hardware-station-extensibility.md).
+1.  <span data-ttu-id="ba422-534">Looge riistvaraprofiil, kus on konfigureeritud vajalikud välisseadmed.</span><span class="sxs-lookup"><span data-stu-id="ba422-534">Create a hardware profile where the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="ba422-535">Looge jaekauplusele, kus kassaregistrit kasutatakse, riistvarajaam tüübiga **Ühine**.</span><span class="sxs-lookup"><span data-stu-id="ba422-535">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="ba422-536">Määrake ühisel riistvarajaamal järgmised atribuudid.</span><span class="sxs-lookup"><span data-stu-id="ba422-536">On the shared hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="ba422-537">**Hosti nimi** – hostarvuti nimi, kus riistvarajaam töötab.</span><span class="sxs-lookup"><span data-stu-id="ba422-537">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    -   <span data-ttu-id="ba422-538">**Kirjeldus** – tekst, mis aitab riistvarajaama tuvastada, nt **Tagastused** või **Kaupluse ees**.</span><span class="sxs-lookup"><span data-stu-id="ba422-538">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    -   <span data-ttu-id="ba422-539">**Port** – port, mida riistvarajaam kasutab Modern POS-i kliendiga suhtlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-539">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="ba422-540">**Riistvaraprofiil** – ühiskasutuses riistvarajaamade puhul peab igal riistvarajaamal olema riistvaraprofiil.</span><span class="sxs-lookup"><span data-stu-id="ba422-540">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="ba422-541">Riistvarajaamad võivad riistvaraprofiile ühiselt kasutada, kuid need peavad olema vastendatud iga riistvarajaamaga.</span><span class="sxs-lookup"><span data-stu-id="ba422-541">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="ba422-542">Lisaks soovitame kasutada ühiseid vahetusi, kui sama ühist riistvarajaama kasutab mitu seadet.</span><span class="sxs-lookup"><span data-stu-id="ba422-542">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="ba422-543">Ühise vahetuse seadistamiseks klõpsake valikuid **Jaemüük** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**.</span><span class="sxs-lookup"><span data-stu-id="ba422-543">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="ba422-544">Valige iga ühise riistvaraprofiili jaoks sularahasahtel ja määrake valiku **Ühise vahetuse sahtel** väärtuseks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="ba422-544">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    -   <span data-ttu-id="ba422-545">**EFT kassa number** – EFT terminali ID, mida EFT volituste saatmisel kasutada.</span><span class="sxs-lookup"><span data-stu-id="ba422-545">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="ba422-546">Selle ID annab krediitkaardiprotsessor.</span><span class="sxs-lookup"><span data-stu-id="ba422-546">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="ba422-547">**Paketi nimi** – riistvarajaama pakett, mida riistvarajaama juurutamisel kasutada.</span><span class="sxs-lookup"><span data-stu-id="ba422-547">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-## <a name="security"></a>Turvalisus
-Kehtivate turbestandardite kohaselt tuleb tootmiskeskkonnas kasutada järgmisi sätteid. **Märkus.** Riistvarajaama installiprogramm teeb need registrimuudatused iseteeninduse kaudu installimisel automaatselt.
+4.  <span data-ttu-id="ba422-548">Korrake samme 2 ja 3 iga täiendava riistvarajaamaga, mida kaupluses vaja on.</span><span class="sxs-lookup"><span data-stu-id="ba422-548">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5.  <span data-ttu-id="ba422-549">Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.</span><span class="sxs-lookup"><span data-stu-id="ba422-549">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6.  <span data-ttu-id="ba422-550">Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega.</span><span class="sxs-lookup"><span data-stu-id="ba422-550">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="ba422-551">Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="ba422-551">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="ba422-552">Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega.</span><span class="sxs-lookup"><span data-stu-id="ba422-552">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="ba422-553">Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="ba422-553">Click **Run now** to sync changes to the POS.</span></span>
+8.  <span data-ttu-id="ba422-554">Installige riistvarajaam igasse hostarvutisse, mille toimingutes 2 ja 3 seadistasite.</span><span class="sxs-lookup"><span data-stu-id="ba422-554">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="ba422-555">Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-555">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9.  <span data-ttu-id="ba422-556">Installige ja aktiveerige Modern POS.</span><span class="sxs-lookup"><span data-stu-id="ba422-556">Install and activate Modern POS.</span></span> <span data-ttu-id="ba422-557">Lisateavet Modern POS-i installimise kohta leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-557">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="ba422-558">Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.</span><span class="sxs-lookup"><span data-stu-id="ba422-558">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="ba422-559">Käivitage toiming **Riistvarajaamade haldamine**.</span><span class="sxs-lookup"><span data-stu-id="ba422-559">Start the **Manage hardware stations** operation.</span></span>
 
--   Turvalinke soklikiht (SSL) peab olema keelatud.
--   Lubatud ja kasutusel tohib olla ainult transpordikihi turbe (TLS) versioon 1.2 (või kehtiv kõrgeim versioon). **Märkus.** Vaikimisi on SSL ja kõik TLS-i versioonid (v.a TLS 1.2) keelatud. Nende väärtuste muutmiseks või lubamiseks tehke järgmist.
-    1.  Vajutage Windowsi logo nuppu + R akna **Käivita** avamiseks.
-    2.  Sisestage väljale **Ava** tekst **Regedit** ja klõpsake siis nuppu **OK**.
-    3.  Kui kuvatakse teateaken **Kasutajakonto juhtelement**, siis klõpsake nuppu **Jah**.
-    4.  Minge aknas **Registriredaktor** asukohta **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Järgmised koodid on automaatselt sisestatud, et lubada ainult TLS 1.2:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   Rohkem ei tohi olla lahti ühtegi võrguporti, kui neid pole teadaolevatel, määratud põhjustel vaja.
--   Ressursside ühiskasutus lähtekohtade lõikes peab olema keelatud ja peab määratlema aktsepteeritavad lubatud lähtekohad.
--   Riistvarajaama käitavatel arvutitel kasutatavate sertide hankimiseks tuleb kasutada ainult usaldusväärseid sertifitseerimisasutusi.
+12. <span data-ttu-id="ba422-560">Klõpsake käsku **Halda**.</span><span class="sxs-lookup"><span data-stu-id="ba422-560">Click **Manage**.</span></span>
+13. <span data-ttu-id="ba422-561">Määrake riistvarajaama haldamise lehel riistvarajaama sisselülitamise valik.</span><span class="sxs-lookup"><span data-stu-id="ba422-561">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="ba422-562">Valige kasutatav riistvarajaam ja klõpsake siis nuppu **Seo**.</span><span class="sxs-lookup"><span data-stu-id="ba422-562">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="ba422-563">Korrake toimingut 14 iga riistvarajaamaga, mida Modern POS kasutab.</span><span class="sxs-lookup"><span data-stu-id="ba422-563">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="ba422-564">Kui kõik vajalikud riistvarajaamad on seotud, klõpsake nuppu **Sule**.</span><span class="sxs-lookup"><span data-stu-id="ba422-564">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="ba422-565">Klõpsake riistvarajaama valimise lehel hiljuti valitud riistvarajaama, et muuta see aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-565">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span> <span data-ttu-id="ba422-566">**Märkus.** Kui seadmed kasutavad sageli erinevaid riistvarajaamu, siis soovitame konfigureerida Modern POS-i paluma kassapidajatel maksmisprotsessi alustamisel riistvarajaama valida.</span><span class="sxs-lookup"><span data-stu-id="ba422-566">**Note:** If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="ba422-567">Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**.</span><span class="sxs-lookup"><span data-stu-id="ba422-567">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="ba422-568">Valige register ja määrake siis valiku **Valige maksmisel** väärtuseks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="ba422-568">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="ba422-569">Kasutage jaotusgraafikut **1090** muudatuste sünkroonimiseks kanali andmebaasiga.</span><span class="sxs-lookup"><span data-stu-id="ba422-569">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
 
-**Märkus.** On väga tähtis vaadata üle IIS-i ja Payment Card Industry (PCI) nõuete turbepõhimõtted.
+## <a name="extensibility"></a><span data-ttu-id="ba422-570">Laiendatavus</span><span class="sxs-lookup"><span data-stu-id="ba422-570">Extensibility</span></span>
+<span data-ttu-id="ba422-571">Teavet riistvarajaama laiendatavuse stsenaariumide kohta leiate jaotisest [Riistvarajaama laiendatavus](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-571">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
-## <a name="peripheral-simulator"></a>Välisseadme simulaator
-Teavet leiate jaotisest [Jaemüügi välisseadme stimulaator](dev-itpro/retail-peripheral-simulator.md).
+## <a name="security"></a><span data-ttu-id="ba422-572">Turvalisus</span><span class="sxs-lookup"><span data-stu-id="ba422-572">Security</span></span>
+<span data-ttu-id="ba422-573">Kehtivate turbestandardite kohaselt tuleb tootmiskeskkonnas kasutada järgmisi sätteid. **Märkus.** Riistvarajaama installiprogramm teeb need registrimuudatused iseteeninduse kaudu installimisel automaatselt.</span><span class="sxs-lookup"><span data-stu-id="ba422-573">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
-## <a name="microsofttested-peripheral-devices"></a>Microsofti testitud välisseadmed
-### <a name="ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaam
+-   <span data-ttu-id="ba422-574">Turvalinke soklikiht (SSL) peab olema keelatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-574">Secure Sockets Layer (SSL) should be disabled.</span></span>
+-   <span data-ttu-id="ba422-575">Lubatud ja kasutusel tohib olla ainult transpordikihi turbe (TLS) versioon 1.2 (või kehtiv kõrgeim versioon).</span><span class="sxs-lookup"><span data-stu-id="ba422-575">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="ba422-576">**Märkus.** Vaikimisi on SSL ja kõik TLS-i versioonid (v.a TLS 1.2) keelatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-576">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="ba422-577">Nende väärtuste muutmiseks või lubamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="ba422-577">To edit or enable these values, follow these steps:</span></span>
+    1.  <span data-ttu-id="ba422-578">Vajutage Windowsi logo nuppu + R akna **Käivita** avamiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-578">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2.  <span data-ttu-id="ba422-579">Sisestage väljale **Ava** tekst **Regedit** ja klõpsake siis nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="ba422-579">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="ba422-580">Kui kuvatakse teateaken **Kasutajakonto juhtelement**, siis klõpsake nuppu **Jah**.</span><span class="sxs-lookup"><span data-stu-id="ba422-580">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4.  <span data-ttu-id="ba422-581">Minge aknas **Registriredaktor** asukohta **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="ba422-581">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="ba422-582">Järgmised koodid on automaatselt sisestatud, et lubada ainult TLS 1.2:</span><span class="sxs-lookup"><span data-stu-id="ba422-582">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+        -   <span data-ttu-id="ba422-583">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="ba422-583">TLS 1.2Server:Enabled=1</span></span>
+        -   <span data-ttu-id="ba422-584">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="ba422-584">TLS 1.2Server:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="ba422-585">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="ba422-585">TLS 1.2Client:Enabled=1</span></span>
+        -   <span data-ttu-id="ba422-586">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="ba422-586">TLS 1.2Client:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="ba422-587">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="ba422-587">TLS 1.1Server:Enabled=0</span></span>
+        -   <span data-ttu-id="ba422-588">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="ba422-588">TLS 1.1Client:Enabled=0</span></span>
+        -   <span data-ttu-id="ba422-589">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="ba422-589">TLS 1.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="ba422-590">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="ba422-590">TLS 1.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="ba422-591">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="ba422-591">SSL 3.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="ba422-592">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="ba422-592">SSL 3.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="ba422-593">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="ba422-593">SSL 2.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="ba422-594">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="ba422-594">SSL 2.0Client:Enabled=0</span></span>
+-   <span data-ttu-id="ba422-595">Rohkem ei tohi olla lahti ühtegi võrguporti, kui neid pole teadaolevatel, määratud põhjustel vaja.</span><span class="sxs-lookup"><span data-stu-id="ba422-595">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+-   <span data-ttu-id="ba422-596">Ressursside ühiskasutus lähtekohtade lõikes peab olema keelatud ja peab määratlema aktsepteeritavad lubatud lähtekohad.</span><span class="sxs-lookup"><span data-stu-id="ba422-596">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+-   <span data-ttu-id="ba422-597">Riistvarajaama käitavatel arvutitel kasutatavate sertide hankimiseks tuleb kasutada ainult usaldusväärseid sertifitseerimisasutusi.</span><span class="sxs-lookup"><span data-stu-id="ba422-597">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
 
-Järgmisi välisseadmeid testiti rakendusse Modern POS Windowsile integreeritud IPC riistvarajaama abil.
+<span data-ttu-id="ba422-598">**Märkus.** On väga tähtis vaadata üle IIS-i ja Payment Card Industry (PCI) nõuete turbepõhimõtted.</span><span class="sxs-lookup"><span data-stu-id="ba422-598">**Note:** It’s very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
 
-#### <a name="printer"></a>Printer
+## <a name="peripheral-simulator"></a><span data-ttu-id="ba422-599">Välisseadme simulaator</span><span class="sxs-lookup"><span data-stu-id="ba422-599">Peripheral simulator</span></span>
+<span data-ttu-id="ba422-600">Teavet leiate jaotisest [Jaemüügi välisseadme stimulaator](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="ba422-600">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
 
-| Tootja | Mudel    | Liides | Kommentaarid                |
+## <a name="microsofttested-peripheral-devices"></a><span data-ttu-id="ba422-601">Microsofti testitud välisseadmed</span><span class="sxs-lookup"><span data-stu-id="ba422-601">Microsofttested peripheral devices</span></span>
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="ba422-602">IPC (integreeritud) riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-602">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="ba422-603">Järgmisi välisseadmeid testiti rakendusse Modern POS Windowsile integreeritud IPC riistvarajaama abil.</span><span class="sxs-lookup"><span data-stu-id="ba422-603">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="ba422-604">Printer</span><span class="sxs-lookup"><span data-stu-id="ba422-604">Printer</span></span>
+
+| <span data-ttu-id="ba422-605">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-605">Manufacturer</span></span> | <span data-ttu-id="ba422-606">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-606">Model</span></span>    | <span data-ttu-id="ba422-607">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-607">Interface</span></span> | <span data-ttu-id="ba422-608">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-608">Comments</span></span>                |
 |--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud   |
-| Star         | mPOP     | OPOS      | Bluetoothi kaudu ühendatud |
-| HP           | F7M67AA  | OPOS      | USB-toitel             |
+| <span data-ttu-id="ba422-609">Epson</span><span class="sxs-lookup"><span data-stu-id="ba422-609">Epson</span></span>        | <span data-ttu-id="ba422-610">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="ba422-610">Tm-T88IV</span></span> | <span data-ttu-id="ba422-611">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-611">OPOS</span></span>      |                         |
+| <span data-ttu-id="ba422-612">Epson</span><span class="sxs-lookup"><span data-stu-id="ba422-612">Epson</span></span>        | <span data-ttu-id="ba422-613">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="ba422-613">TM-T88V</span></span>  | <span data-ttu-id="ba422-614">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-614">OPOS</span></span>      |                         |
+| <span data-ttu-id="ba422-615">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-615">Star</span></span>         | <span data-ttu-id="ba422-616">TSP650II</span><span class="sxs-lookup"><span data-stu-id="ba422-616">TSP650II</span></span> | <span data-ttu-id="ba422-617">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-617">OPOS</span></span>      |                         |
+| <span data-ttu-id="ba422-618">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-618">Star</span></span>         | <span data-ttu-id="ba422-619">TSP650II</span><span class="sxs-lookup"><span data-stu-id="ba422-619">TSP650II</span></span> | <span data-ttu-id="ba422-620">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-620">Custom</span></span>    | <span data-ttu-id="ba422-621">Võrgu kaudu ühendatud</span><span class="sxs-lookup"><span data-stu-id="ba422-621">Connected via network</span></span>   |
+| <span data-ttu-id="ba422-622">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-622">Star</span></span>         | <span data-ttu-id="ba422-623">mPOP</span><span class="sxs-lookup"><span data-stu-id="ba422-623">mPOP</span></span>     | <span data-ttu-id="ba422-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-624">OPOS</span></span>      | <span data-ttu-id="ba422-625">Bluetoothi kaudu ühendatud</span><span class="sxs-lookup"><span data-stu-id="ba422-625">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="ba422-626">HP</span><span class="sxs-lookup"><span data-stu-id="ba422-626">HP</span></span>           | <span data-ttu-id="ba422-627">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="ba422-627">F7M67AA</span></span>  | <span data-ttu-id="ba422-628">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-628">OPOS</span></span>      | <span data-ttu-id="ba422-629">USB-toitel</span><span class="sxs-lookup"><span data-stu-id="ba422-629">Powered USB</span></span>             |
 
-#### <a name="bar-code-scanner"></a>Vöötkoodilugeja
+#### <a name="bar-code-scanner"></a><span data-ttu-id="ba422-630">Vöötkoodilugeja</span><span class="sxs-lookup"><span data-stu-id="ba422-630">Bar code scanner</span></span>
 
-| Tootja  | Mudel         | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-631">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-631">Manufacturer</span></span>  | <span data-ttu-id="ba422-632">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-632">Model</span></span>         | <span data-ttu-id="ba422-633">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-633">Interface</span></span> | <span data-ttu-id="ba422-634">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-634">Comments</span></span> |
 |---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Sümbol        | LS2208        | OPOS      |          |
-| HP integreeritud | E1L07AA       | OPOS      |          |
-| Datalogic     | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="ba422-635">Motorola</span><span class="sxs-lookup"><span data-stu-id="ba422-635">Motorola</span></span>      | <span data-ttu-id="ba422-636">DS9208</span><span class="sxs-lookup"><span data-stu-id="ba422-636">DS9208</span></span>        | <span data-ttu-id="ba422-637">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-637">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-638">Honeywell</span><span class="sxs-lookup"><span data-stu-id="ba422-638">Honeywell</span></span>     | <span data-ttu-id="ba422-639">1900</span><span class="sxs-lookup"><span data-stu-id="ba422-639">1900</span></span>          | <span data-ttu-id="ba422-640">UWP</span><span class="sxs-lookup"><span data-stu-id="ba422-640">UWP</span></span>       |          |
+| <span data-ttu-id="ba422-641">Sümbol</span><span class="sxs-lookup"><span data-stu-id="ba422-641">Symbol</span></span>        | <span data-ttu-id="ba422-642">LS2208</span><span class="sxs-lookup"><span data-stu-id="ba422-642">LS2208</span></span>        | <span data-ttu-id="ba422-643">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-643">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-644">HP integreeritud</span><span class="sxs-lookup"><span data-stu-id="ba422-644">HP Integrated</span></span> | <span data-ttu-id="ba422-645">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="ba422-645">E1L07AA</span></span>       | <span data-ttu-id="ba422-646">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-646">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-647">Datalogic</span><span class="sxs-lookup"><span data-stu-id="ba422-647">Datalogic</span></span>     | <span data-ttu-id="ba422-648">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="ba422-648">Magellan 8400</span></span> | <span data-ttu-id="ba422-649">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-649">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>PIN-klahvistik
+#### <a name="pin-pad"></a><span data-ttu-id="ba422-650">PIN-klahvistik</span><span class="sxs-lookup"><span data-stu-id="ba422-650">PIN pad</span></span>
 
-| Tootja | Mudel  | Liides | Kommentaarid                                        |
+| <span data-ttu-id="ba422-651">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-651">Manufacturer</span></span> | <span data-ttu-id="ba422-652">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-652">Model</span></span>  | <span data-ttu-id="ba422-653">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-653">Interface</span></span> | <span data-ttu-id="ba422-654">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-654">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Nõuab makseliidese kohandamist |
+| <span data-ttu-id="ba422-655">VeriFone</span><span class="sxs-lookup"><span data-stu-id="ba422-655">VeriFone</span></span>     | <span data-ttu-id="ba422-656">1000SE</span><span class="sxs-lookup"><span data-stu-id="ba422-656">1000SE</span></span> | <span data-ttu-id="ba422-657">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-657">OPOS</span></span>      | <span data-ttu-id="ba422-658">Nõuab makseliidese kohandamist</span><span class="sxs-lookup"><span data-stu-id="ba422-658">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Makseterminal
+#### <a name="payment-terminal"></a><span data-ttu-id="ba422-659">Makseterminal</span><span class="sxs-lookup"><span data-stu-id="ba422-659">Payment terminal</span></span>
 
-| Tootja | Mudel | Liides | Kommentaarid                                                                       |
+| <span data-ttu-id="ba422-660">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-660">Manufacturer</span></span> | <span data-ttu-id="ba422-661">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-661">Model</span></span> | <span data-ttu-id="ba422-662">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-662">Interface</span></span> | <span data-ttu-id="ba422-663">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-663">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Kohandatud    | Nõuab makseliidese kohandamist                                |
-| VeriFone     | MX925 | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
-| VeriFone     | MX915 | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
+| <span data-ttu-id="ba422-664">Equinox</span><span class="sxs-lookup"><span data-stu-id="ba422-664">Equinox</span></span>      | <span data-ttu-id="ba422-665">L5300</span><span class="sxs-lookup"><span data-stu-id="ba422-665">L5300</span></span> | <span data-ttu-id="ba422-666">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-666">Custom</span></span>    | <span data-ttu-id="ba422-667">Nõuab makseliidese kohandamist</span><span class="sxs-lookup"><span data-stu-id="ba422-667">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="ba422-668">VeriFone</span><span class="sxs-lookup"><span data-stu-id="ba422-668">VeriFone</span></span>     | <span data-ttu-id="ba422-669">MX925</span><span class="sxs-lookup"><span data-stu-id="ba422-669">MX925</span></span> | <span data-ttu-id="ba422-670">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-670">Custom</span></span>    | <span data-ttu-id="ba422-671">Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu</span><span class="sxs-lookup"><span data-stu-id="ba422-671">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="ba422-672">VeriFone</span><span class="sxs-lookup"><span data-stu-id="ba422-672">VeriFone</span></span>     | <span data-ttu-id="ba422-673">MX915</span><span class="sxs-lookup"><span data-stu-id="ba422-673">MX915</span></span> | <span data-ttu-id="ba422-674">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-674">Custom</span></span>    | <span data-ttu-id="ba422-675">Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu</span><span class="sxs-lookup"><span data-stu-id="ba422-675">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Sularahasahtel
+#### <a name="cash-drawer"></a><span data-ttu-id="ba422-676">Sularahasahtel</span><span class="sxs-lookup"><span data-stu-id="ba422-676">Cash drawer</span></span>
 
-| Tootja | Mudel     | Liides | Kommentaarid                |
+| <span data-ttu-id="ba422-677">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-677">Manufacturer</span></span> | <span data-ttu-id="ba422-678">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-678">Model</span></span>     | <span data-ttu-id="ba422-679">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-679">Interface</span></span> | <span data-ttu-id="ba422-680">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-680">Comments</span></span>                |
 |--------------|-----------|-----------|-------------------------|
-| Star         | mPOP      | OPOS      | Bluetoothi kaudu ühendatud |
-| APG          | Atwood    | Kohandatud    | Võrgu kaudu ühendatud   |
-| Star         | SMD2-1317 | OPOS      |                         |
-| HP           | QT457AA   | OPOS      |                         |
+| <span data-ttu-id="ba422-681">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-681">Star</span></span>         | <span data-ttu-id="ba422-682">mPOP</span><span class="sxs-lookup"><span data-stu-id="ba422-682">mPOP</span></span>      | <span data-ttu-id="ba422-683">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-683">OPOS</span></span>      | <span data-ttu-id="ba422-684">Bluetoothi kaudu ühendatud</span><span class="sxs-lookup"><span data-stu-id="ba422-684">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="ba422-685">APG</span><span class="sxs-lookup"><span data-stu-id="ba422-685">APG</span></span>          | <span data-ttu-id="ba422-686">Atwood</span><span class="sxs-lookup"><span data-stu-id="ba422-686">Atwood</span></span>    | <span data-ttu-id="ba422-687">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-687">Custom</span></span>    | <span data-ttu-id="ba422-688">Võrgu kaudu ühendatud</span><span class="sxs-lookup"><span data-stu-id="ba422-688">Connected via network</span></span>   |
+| <span data-ttu-id="ba422-689">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-689">Star</span></span>         | <span data-ttu-id="ba422-690">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="ba422-690">SMD2-1317</span></span> | <span data-ttu-id="ba422-691">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-691">OPOS</span></span>      |                         |
+| <span data-ttu-id="ba422-692">HP</span><span class="sxs-lookup"><span data-stu-id="ba422-692">HP</span></span>           | <span data-ttu-id="ba422-693">QT457AA</span><span class="sxs-lookup"><span data-stu-id="ba422-693">QT457AA</span></span>   | <span data-ttu-id="ba422-694">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-694">OPOS</span></span>      |                         |
 
-#### <a name="line-display"></a>Rea kuva
+#### <a name="line-display"></a><span data-ttu-id="ba422-695">Rea kuva</span><span class="sxs-lookup"><span data-stu-id="ba422-695">Line display</span></span>
 
-| Tootja  | Mudel   | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-696">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-696">Manufacturer</span></span>  | <span data-ttu-id="ba422-697">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-697">Model</span></span>   | <span data-ttu-id="ba422-698">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-698">Interface</span></span> | <span data-ttu-id="ba422-699">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-699">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integreeritud | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="ba422-700">HP integreeritud</span><span class="sxs-lookup"><span data-stu-id="ba422-700">HP integrated</span></span> | <span data-ttu-id="ba422-701">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="ba422-701">G6U79AA</span></span> | <span data-ttu-id="ba422-702">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-702">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-703">Epson</span><span class="sxs-lookup"><span data-stu-id="ba422-703">Epson</span></span>         | <span data-ttu-id="ba422-704">M58DC</span><span class="sxs-lookup"><span data-stu-id="ba422-704">M58DC</span></span>   | <span data-ttu-id="ba422-705">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-705">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Allkirja hõivamine
+#### <a name="signature-capture"></a><span data-ttu-id="ba422-706">Allkirja hõivamine</span><span class="sxs-lookup"><span data-stu-id="ba422-706">Signature capture</span></span>
 
-| Tootja | Mudel  | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-707">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-707">Manufacturer</span></span> | <span data-ttu-id="ba422-708">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-708">Model</span></span>  | <span data-ttu-id="ba422-709">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-709">Interface</span></span> | <span data-ttu-id="ba422-710">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-710">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="ba422-711">Scriptel</span><span class="sxs-lookup"><span data-stu-id="ba422-711">Scriptel</span></span>     | <span data-ttu-id="ba422-712">ST1550</span><span class="sxs-lookup"><span data-stu-id="ba422-712">ST1550</span></span> | <span data-ttu-id="ba422-713">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-713">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Sobita
+#### <a name="scale"></a><span data-ttu-id="ba422-714">Sobita</span><span class="sxs-lookup"><span data-stu-id="ba422-714">Scale</span></span>
 
-| Tootja | Mudel         | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-715">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-715">Manufacturer</span></span> | <span data-ttu-id="ba422-716">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-716">Model</span></span>         | <span data-ttu-id="ba422-717">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-717">Interface</span></span> | <span data-ttu-id="ba422-718">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-718">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="ba422-719">Datalogic</span><span class="sxs-lookup"><span data-stu-id="ba422-719">Datalogic</span></span>    | <span data-ttu-id="ba422-720">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="ba422-720">Magellan 8400</span></span> | <span data-ttu-id="ba422-721">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-721">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>Magnetribalugeja
+#### <a name="msr"></a><span data-ttu-id="ba422-722">Magnetribalugeja</span><span class="sxs-lookup"><span data-stu-id="ba422-722">MSR</span></span>
 
-| Tootja | Mudel       | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-723">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-723">Manufacturer</span></span> | <span data-ttu-id="ba422-724">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-724">Model</span></span>       | <span data-ttu-id="ba422-725">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-725">Interface</span></span> | <span data-ttu-id="ba422-726">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-726">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="ba422-727">Magtek</span><span class="sxs-lookup"><span data-stu-id="ba422-727">Magtek</span></span>       | <span data-ttu-id="ba422-728">21073075</span><span class="sxs-lookup"><span data-stu-id="ba422-728">21073075</span></span>    | <span data-ttu-id="ba422-729">UWP</span><span class="sxs-lookup"><span data-stu-id="ba422-729">UWP</span></span>       |          |
+| <span data-ttu-id="ba422-730">Magtek</span><span class="sxs-lookup"><span data-stu-id="ba422-730">Magtek</span></span>       | <span data-ttu-id="ba422-731">21073062</span><span class="sxs-lookup"><span data-stu-id="ba422-731">21073062</span></span>    | <span data-ttu-id="ba422-732">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-732">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-733">HP</span><span class="sxs-lookup"><span data-stu-id="ba422-733">HP</span></span>           | <span data-ttu-id="ba422-734">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="ba422-734">IDRA-334133</span></span> | <span data-ttu-id="ba422-735">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-735">OPOS</span></span>      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>Sihtotstarbeline IIS-i riistvarajaam
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="ba422-736">Sihtotstarbeline IIS-i riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-736">Dedicated IIS hardware station</span></span>
 
-Järgmisi välisseadmeid testiti, kasutades sihtotstarbelist (mitte ühist) IIS-i riistvarajaama koos Modern POS-iga Windowsile ja pilvekassaga.
+<span data-ttu-id="ba422-737">Järgmisi välisseadmeid testiti, kasutades sihtotstarbelist (mitte ühist) IIS-i riistvarajaama koos Modern POS-iga Windowsile ja pilvekassaga.</span><span class="sxs-lookup"><span data-stu-id="ba422-737">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
 
-#### <a name="printer"></a>Printer
+#### <a name="printer"></a><span data-ttu-id="ba422-738">Printer</span><span class="sxs-lookup"><span data-stu-id="ba422-738">Printer</span></span>
 
-| Tootja | Mudel    | Liides | Kommentaarid                  |
+| <span data-ttu-id="ba422-739">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-739">Manufacturer</span></span> | <span data-ttu-id="ba422-740">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-740">Model</span></span>    | <span data-ttu-id="ba422-741">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-741">Interface</span></span> | <span data-ttu-id="ba422-742">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-742">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud     |
-| Star         | TSP100   | OPOS      | Nõuab TSP650II draivereid |
-| HP           | F7M67AA  | OPOS      | USB-toitel               |
+| <span data-ttu-id="ba422-743">Epson</span><span class="sxs-lookup"><span data-stu-id="ba422-743">Epson</span></span>        | <span data-ttu-id="ba422-744">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="ba422-744">Tm-T88IV</span></span> | <span data-ttu-id="ba422-745">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-745">OPOS</span></span>      |                           |
+| <span data-ttu-id="ba422-746">Epson</span><span class="sxs-lookup"><span data-stu-id="ba422-746">Epson</span></span>        | <span data-ttu-id="ba422-747">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="ba422-747">TM-T88V</span></span>  | <span data-ttu-id="ba422-748">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-748">OPOS</span></span>      |                           |
+| <span data-ttu-id="ba422-749">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-749">Star</span></span>         | <span data-ttu-id="ba422-750">TSP650II</span><span class="sxs-lookup"><span data-stu-id="ba422-750">TSP650II</span></span> | <span data-ttu-id="ba422-751">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-751">OPOS</span></span>      |                           |
+| <span data-ttu-id="ba422-752">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-752">Star</span></span>         | <span data-ttu-id="ba422-753">TSP650II</span><span class="sxs-lookup"><span data-stu-id="ba422-753">TSP650II</span></span> | <span data-ttu-id="ba422-754">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-754">Custom</span></span>    | <span data-ttu-id="ba422-755">Võrgu kaudu ühendatud</span><span class="sxs-lookup"><span data-stu-id="ba422-755">Connected via network</span></span>     |
+| <span data-ttu-id="ba422-756">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-756">Star</span></span>         | <span data-ttu-id="ba422-757">TSP100</span><span class="sxs-lookup"><span data-stu-id="ba422-757">TSP100</span></span>   | <span data-ttu-id="ba422-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-758">OPOS</span></span>      | <span data-ttu-id="ba422-759">Nõuab TSP650II draivereid</span><span class="sxs-lookup"><span data-stu-id="ba422-759">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="ba422-760">HP</span><span class="sxs-lookup"><span data-stu-id="ba422-760">HP</span></span>           | <span data-ttu-id="ba422-761">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="ba422-761">F7M67AA</span></span>  | <span data-ttu-id="ba422-762">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-762">OPOS</span></span>      | <span data-ttu-id="ba422-763">USB-toitel</span><span class="sxs-lookup"><span data-stu-id="ba422-763">Powered USB</span></span>               |
 
-#### <a name="bar-code-scanner"></a>Vöötkoodilugeja
+#### <a name="bar-code-scanner"></a><span data-ttu-id="ba422-764">Vöötkoodilugeja</span><span class="sxs-lookup"><span data-stu-id="ba422-764">Bar code scanner</span></span>
 
-| Tootja  | Mudel   | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-765">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-765">Manufacturer</span></span>  | <span data-ttu-id="ba422-766">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-766">Model</span></span>   | <span data-ttu-id="ba422-767">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-767">Interface</span></span> | <span data-ttu-id="ba422-768">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-768">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Sümbol        | LS2208  | OPOS      |          |
-| HP integreeritud | E1L07AA | OPOS      |          |
+| <span data-ttu-id="ba422-769">Motorola</span><span class="sxs-lookup"><span data-stu-id="ba422-769">Motorola</span></span>      | <span data-ttu-id="ba422-770">DS9208</span><span class="sxs-lookup"><span data-stu-id="ba422-770">DS9208</span></span>  | <span data-ttu-id="ba422-771">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-771">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-772">Sümbol</span><span class="sxs-lookup"><span data-stu-id="ba422-772">Symbol</span></span>        | <span data-ttu-id="ba422-773">LS2208</span><span class="sxs-lookup"><span data-stu-id="ba422-773">LS2208</span></span>  | <span data-ttu-id="ba422-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-774">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-775">HP integreeritud</span><span class="sxs-lookup"><span data-stu-id="ba422-775">HP Integrated</span></span> | <span data-ttu-id="ba422-776">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="ba422-776">E1L07AA</span></span> | <span data-ttu-id="ba422-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-777">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>PIN-klahvistik
+#### <a name="pin-pad"></a><span data-ttu-id="ba422-778">PIN-klahvistik</span><span class="sxs-lookup"><span data-stu-id="ba422-778">PIN pad</span></span>
 
-| Tootja | Mudel  | Liides | Kommentaarid                                        |
+| <span data-ttu-id="ba422-779">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-779">Manufacturer</span></span> | <span data-ttu-id="ba422-780">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-780">Model</span></span>  | <span data-ttu-id="ba422-781">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-781">Interface</span></span> | <span data-ttu-id="ba422-782">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-782">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Nõuab makseliidese kohandamist |
+| <span data-ttu-id="ba422-783">VeriFone</span><span class="sxs-lookup"><span data-stu-id="ba422-783">VeriFone</span></span>     | <span data-ttu-id="ba422-784">1000SE</span><span class="sxs-lookup"><span data-stu-id="ba422-784">1000SE</span></span> | <span data-ttu-id="ba422-785">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-785">OPOS</span></span>      | <span data-ttu-id="ba422-786">Nõuab makseliidese kohandamist</span><span class="sxs-lookup"><span data-stu-id="ba422-786">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Makseterminal
+#### <a name="payment-terminal"></a><span data-ttu-id="ba422-787">Makseterminal</span><span class="sxs-lookup"><span data-stu-id="ba422-787">Payment terminal</span></span>
 
-| Tootja | Mudel | Liides | Kommentaarid                                                                       |
+| <span data-ttu-id="ba422-788">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-788">Manufacturer</span></span> | <span data-ttu-id="ba422-789">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-789">Model</span></span> | <span data-ttu-id="ba422-790">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-790">Interface</span></span> | <span data-ttu-id="ba422-791">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-791">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Kohandatud    | Nõuab makseliidese kohandamist                                |
-| VeriFone     | MX925 | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
-| VeriFone     | MX915 | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
+| <span data-ttu-id="ba422-792">Equinox</span><span class="sxs-lookup"><span data-stu-id="ba422-792">Equinox</span></span>      | <span data-ttu-id="ba422-793">L5300</span><span class="sxs-lookup"><span data-stu-id="ba422-793">L5300</span></span> | <span data-ttu-id="ba422-794">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-794">Custom</span></span>    | <span data-ttu-id="ba422-795">Nõuab makseliidese kohandamist</span><span class="sxs-lookup"><span data-stu-id="ba422-795">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="ba422-796">VeriFone</span><span class="sxs-lookup"><span data-stu-id="ba422-796">VeriFone</span></span>     | <span data-ttu-id="ba422-797">MX925</span><span class="sxs-lookup"><span data-stu-id="ba422-797">MX925</span></span> | <span data-ttu-id="ba422-798">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-798">Custom</span></span>    | <span data-ttu-id="ba422-799">Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu</span><span class="sxs-lookup"><span data-stu-id="ba422-799">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="ba422-800">VeriFone</span><span class="sxs-lookup"><span data-stu-id="ba422-800">VeriFone</span></span>     | <span data-ttu-id="ba422-801">MX915</span><span class="sxs-lookup"><span data-stu-id="ba422-801">MX915</span></span> | <span data-ttu-id="ba422-802">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-802">Custom</span></span>    | <span data-ttu-id="ba422-803">Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu</span><span class="sxs-lookup"><span data-stu-id="ba422-803">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Sularahasahtel
+#### <a name="cash-drawer"></a><span data-ttu-id="ba422-804">Sularahasahtel</span><span class="sxs-lookup"><span data-stu-id="ba422-804">Cash drawer</span></span>
 
-| Tootja | Mudel     | Liides | Kommentaarid              |
+| <span data-ttu-id="ba422-805">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-805">Manufacturer</span></span> | <span data-ttu-id="ba422-806">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-806">Model</span></span>     | <span data-ttu-id="ba422-807">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-807">Interface</span></span> | <span data-ttu-id="ba422-808">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-808">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Kohandatud    | Võrgu kaudu ühendatud |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="ba422-809">APG</span><span class="sxs-lookup"><span data-stu-id="ba422-809">APG</span></span>          | <span data-ttu-id="ba422-810">Atwood</span><span class="sxs-lookup"><span data-stu-id="ba422-810">Atwood</span></span>    | <span data-ttu-id="ba422-811">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-811">Custom</span></span>    | <span data-ttu-id="ba422-812">Võrgu kaudu ühendatud</span><span class="sxs-lookup"><span data-stu-id="ba422-812">Connected via network</span></span> |
+| <span data-ttu-id="ba422-813">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-813">Star</span></span>         | <span data-ttu-id="ba422-814">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="ba422-814">SMD2-1317</span></span> | <span data-ttu-id="ba422-815">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-815">OPOS</span></span>      |                       |
+| <span data-ttu-id="ba422-816">HP</span><span class="sxs-lookup"><span data-stu-id="ba422-816">HP</span></span>           | <span data-ttu-id="ba422-817">QT457AA</span><span class="sxs-lookup"><span data-stu-id="ba422-817">QT457AA</span></span>   | <span data-ttu-id="ba422-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-818">OPOS</span></span>      |                       |
 
-#### <a name="line-display"></a>Rea kuva
+#### <a name="line-display"></a><span data-ttu-id="ba422-819">Rea kuva</span><span class="sxs-lookup"><span data-stu-id="ba422-819">Line display</span></span>
 
-| Tootja  | Mudel   | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-820">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-820">Manufacturer</span></span>  | <span data-ttu-id="ba422-821">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-821">Model</span></span>   | <span data-ttu-id="ba422-822">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-822">Interface</span></span> | <span data-ttu-id="ba422-823">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-823">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integreeritud | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="ba422-824">HP integreeritud</span><span class="sxs-lookup"><span data-stu-id="ba422-824">HP integrated</span></span> | <span data-ttu-id="ba422-825">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="ba422-825">G6U79AA</span></span> | <span data-ttu-id="ba422-826">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-826">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-827">Epson</span><span class="sxs-lookup"><span data-stu-id="ba422-827">Epson</span></span>         | <span data-ttu-id="ba422-828">M58DC</span><span class="sxs-lookup"><span data-stu-id="ba422-828">M58DC</span></span>   | <span data-ttu-id="ba422-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-829">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Allkirja hõivamine
+#### <a name="signature-capture"></a><span data-ttu-id="ba422-830">Allkirja hõivamine</span><span class="sxs-lookup"><span data-stu-id="ba422-830">Signature capture</span></span>
 
-| Tootja | Mudel  | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-831">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-831">Manufacturer</span></span> | <span data-ttu-id="ba422-832">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-832">Model</span></span>  | <span data-ttu-id="ba422-833">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-833">Interface</span></span> | <span data-ttu-id="ba422-834">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-834">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="ba422-835">Scriptel</span><span class="sxs-lookup"><span data-stu-id="ba422-835">Scriptel</span></span>     | <span data-ttu-id="ba422-836">ST1550</span><span class="sxs-lookup"><span data-stu-id="ba422-836">ST1550</span></span> | <span data-ttu-id="ba422-837">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-837">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Sobita
+#### <a name="scale"></a><span data-ttu-id="ba422-838">Sobita</span><span class="sxs-lookup"><span data-stu-id="ba422-838">Scale</span></span>
 
-| Tootja | Mudel         | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-839">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-839">Manufacturer</span></span> | <span data-ttu-id="ba422-840">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-840">Model</span></span>         | <span data-ttu-id="ba422-841">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-841">Interface</span></span> | <span data-ttu-id="ba422-842">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-842">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="ba422-843">Datalogic</span><span class="sxs-lookup"><span data-stu-id="ba422-843">Datalogic</span></span>    | <span data-ttu-id="ba422-844">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="ba422-844">Magellan 8400</span></span> | <span data-ttu-id="ba422-845">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-845">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>Magnetribalugeja
+#### <a name="msr"></a><span data-ttu-id="ba422-846">Magnetribalugeja</span><span class="sxs-lookup"><span data-stu-id="ba422-846">MSR</span></span>
 
-| Tootja | Mudel       | Liides | Kommentaarid |
+| <span data-ttu-id="ba422-847">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-847">Manufacturer</span></span> | <span data-ttu-id="ba422-848">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-848">Model</span></span>       | <span data-ttu-id="ba422-849">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-849">Interface</span></span> | <span data-ttu-id="ba422-850">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-850">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="ba422-851">Magtek</span><span class="sxs-lookup"><span data-stu-id="ba422-851">Magtek</span></span>       | <span data-ttu-id="ba422-852">21073075</span><span class="sxs-lookup"><span data-stu-id="ba422-852">21073075</span></span>    | <span data-ttu-id="ba422-853">UWP</span><span class="sxs-lookup"><span data-stu-id="ba422-853">UWP</span></span>       |          |
+| <span data-ttu-id="ba422-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="ba422-854">Magtek</span></span>       | <span data-ttu-id="ba422-855">21073062</span><span class="sxs-lookup"><span data-stu-id="ba422-855">21073062</span></span>    | <span data-ttu-id="ba422-856">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-856">OPOS</span></span>      |          |
+| <span data-ttu-id="ba422-857">HP</span><span class="sxs-lookup"><span data-stu-id="ba422-857">HP</span></span>           | <span data-ttu-id="ba422-858">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="ba422-858">IDRA-334133</span></span> | <span data-ttu-id="ba422-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-859">OPOS</span></span>      |          |
 
-### <a name="shared-iis-hardware-station"></a>Ühiskasutuses IIS-i riistvarajaam
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="ba422-860">Ühiskasutuses IIS-i riistvarajaam</span><span class="sxs-lookup"><span data-stu-id="ba422-860">Shared IIS hardware station</span></span>
 
-Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Modern POS-iga Windowsile ja pilvekassaga. **Märkus.** Toetatakse ainult printerit, makseterminali ja sularahasahtlit.
+<span data-ttu-id="ba422-861">Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Modern POS-iga Windowsile ja pilvekassaga.</span><span class="sxs-lookup"><span data-stu-id="ba422-861">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="ba422-862">**Märkus.** Toetatakse ainult printerit, makseterminali ja sularahasahtlit.</span><span class="sxs-lookup"><span data-stu-id="ba422-862">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
-#### <a name="printer"></a>Printer
+#### <a name="printer"></a><span data-ttu-id="ba422-863">Printer</span><span class="sxs-lookup"><span data-stu-id="ba422-863">Printer</span></span>
 
-| Tootja | Mudel    | Liides | Kommentaarid                  |
+| <span data-ttu-id="ba422-864">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-864">Manufacturer</span></span> | <span data-ttu-id="ba422-865">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-865">Model</span></span>    | <span data-ttu-id="ba422-866">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-866">Interface</span></span> | <span data-ttu-id="ba422-867">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-867">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud     |
-| Star         | TSP100   | OPOS      | Nõuab TSP650II draivereid |
-| HP           | F7M67AA  | OPOS      | USB-toitel               |
+| <span data-ttu-id="ba422-868">Epson</span><span class="sxs-lookup"><span data-stu-id="ba422-868">Epson</span></span>        | <span data-ttu-id="ba422-869">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="ba422-869">Tm-T88IV</span></span> | <span data-ttu-id="ba422-870">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-870">OPOS</span></span>      |                           |
+| <span data-ttu-id="ba422-871">Epson</span><span class="sxs-lookup"><span data-stu-id="ba422-871">Epson</span></span>        | <span data-ttu-id="ba422-872">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="ba422-872">TM-T88V</span></span>  | <span data-ttu-id="ba422-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="ba422-874">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-874">Star</span></span>         | <span data-ttu-id="ba422-875">TSP650II</span><span class="sxs-lookup"><span data-stu-id="ba422-875">TSP650II</span></span> | <span data-ttu-id="ba422-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="ba422-877">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-877">Star</span></span>         | <span data-ttu-id="ba422-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="ba422-878">TSP650II</span></span> | <span data-ttu-id="ba422-879">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-879">Custom</span></span>    | <span data-ttu-id="ba422-880">Võrgu kaudu ühendatud</span><span class="sxs-lookup"><span data-stu-id="ba422-880">Connected via network</span></span>     |
+| <span data-ttu-id="ba422-881">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-881">Star</span></span>         | <span data-ttu-id="ba422-882">TSP100</span><span class="sxs-lookup"><span data-stu-id="ba422-882">TSP100</span></span>   | <span data-ttu-id="ba422-883">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-883">OPOS</span></span>      | <span data-ttu-id="ba422-884">Nõuab TSP650II draivereid</span><span class="sxs-lookup"><span data-stu-id="ba422-884">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="ba422-885">HP</span><span class="sxs-lookup"><span data-stu-id="ba422-885">HP</span></span>           | <span data-ttu-id="ba422-886">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="ba422-886">F7M67AA</span></span>  | <span data-ttu-id="ba422-887">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-887">OPOS</span></span>      | <span data-ttu-id="ba422-888">USB-toitel</span><span class="sxs-lookup"><span data-stu-id="ba422-888">Powered USB</span></span>               |
 
-#### <a name="payment-terminal"></a>Makseterminal
+#### <a name="payment-terminal"></a><span data-ttu-id="ba422-889">Makseterminal</span><span class="sxs-lookup"><span data-stu-id="ba422-889">Payment terminal</span></span>
 
-| Tootja | Mudel | Liides | Kommentaarid                                                                       |
+| <span data-ttu-id="ba422-890">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-890">Manufacturer</span></span> | <span data-ttu-id="ba422-891">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-891">Model</span></span> | <span data-ttu-id="ba422-892">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-892">Interface</span></span> | <span data-ttu-id="ba422-893">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-893">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
-| VeriFone     | MX915 | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
+| <span data-ttu-id="ba422-894">VeriFone</span><span class="sxs-lookup"><span data-stu-id="ba422-894">VeriFone</span></span>     | <span data-ttu-id="ba422-895">MX925</span><span class="sxs-lookup"><span data-stu-id="ba422-895">MX925</span></span> | <span data-ttu-id="ba422-896">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-896">Custom</span></span>    | <span data-ttu-id="ba422-897">Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu</span><span class="sxs-lookup"><span data-stu-id="ba422-897">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="ba422-898">VeriFone</span><span class="sxs-lookup"><span data-stu-id="ba422-898">VeriFone</span></span>     | <span data-ttu-id="ba422-899">MX915</span><span class="sxs-lookup"><span data-stu-id="ba422-899">MX915</span></span> | <span data-ttu-id="ba422-900">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-900">Custom</span></span>    | <span data-ttu-id="ba422-901">Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu</span><span class="sxs-lookup"><span data-stu-id="ba422-901">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Sularahasahtel
+#### <a name="cash-drawer"></a><span data-ttu-id="ba422-902">Sularahasahtel</span><span class="sxs-lookup"><span data-stu-id="ba422-902">Cash drawer</span></span>
 
-| Tootja | Mudel     | Liides | Kommentaarid              |
+| <span data-ttu-id="ba422-903">Tootja</span><span class="sxs-lookup"><span data-stu-id="ba422-903">Manufacturer</span></span> | <span data-ttu-id="ba422-904">Mudel</span><span class="sxs-lookup"><span data-stu-id="ba422-904">Model</span></span>     | <span data-ttu-id="ba422-905">Liides</span><span class="sxs-lookup"><span data-stu-id="ba422-905">Interface</span></span> | <span data-ttu-id="ba422-906">Kommentaarid</span><span class="sxs-lookup"><span data-stu-id="ba422-906">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Kohandatud    | Võrgu kaudu ühendatud |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="ba422-907">APG</span><span class="sxs-lookup"><span data-stu-id="ba422-907">APG</span></span>          | <span data-ttu-id="ba422-908">Atwood</span><span class="sxs-lookup"><span data-stu-id="ba422-908">Atwood</span></span>    | <span data-ttu-id="ba422-909">Kohandatud</span><span class="sxs-lookup"><span data-stu-id="ba422-909">Custom</span></span>    | <span data-ttu-id="ba422-910">Võrgu kaudu ühendatud</span><span class="sxs-lookup"><span data-stu-id="ba422-910">Connected via network</span></span> |
+| <span data-ttu-id="ba422-911">Star</span><span class="sxs-lookup"><span data-stu-id="ba422-911">Star</span></span>         | <span data-ttu-id="ba422-912">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="ba422-912">SMD2-1317</span></span> | <span data-ttu-id="ba422-913">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-913">OPOS</span></span>      |                       |
+| <span data-ttu-id="ba422-914">HP</span><span class="sxs-lookup"><span data-stu-id="ba422-914">HP</span></span>           | <span data-ttu-id="ba422-915">QT457AA</span><span class="sxs-lookup"><span data-stu-id="ba422-915">QT457AA</span></span>   | <span data-ttu-id="ba422-916">OPOS</span><span class="sxs-lookup"><span data-stu-id="ba422-916">OPOS</span></span>      |                       |
 
-## <a name="troubleshooting"></a>Tõrkeotsing
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS suudab tuvastada oma valikuloendis riistvarajaama, kuid ei suuda sidumist läbi viia.
+## <a name="troubleshooting"></a><span data-ttu-id="ba422-917">Tõrkeotsing</span><span class="sxs-lookup"><span data-stu-id="ba422-917">Troubleshooting</span></span>
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="ba422-918">Modern POS suudab tuvastada oma valikuloendis riistvarajaama, kuid ei suuda sidumist läbi viia.</span><span class="sxs-lookup"><span data-stu-id="ba422-918">Modern POS can detect the hardware station in its list for selection, but it can’t complete the pairing</span></span>
 
-**Lahendus.** Kontrollige järgmist võimalike probleemikohtade loendit.
+<span data-ttu-id="ba422-919">**Lahendus.** Kontrollige järgmist võimalike probleemikohtade loendit.</span><span class="sxs-lookup"><span data-stu-id="ba422-919">**Solution:** Verify the following list of potential failure points:</span></span>
 
--   Arvuti, millel Modern POS töötab, usaldab serti, mida kasutatakse riistvarajaama käitavas arvutis.
-    -   Selle seadistuse kontrollimiseks minge veebibrauseris järgmisele URL-ile: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.
-    -   See URL kasutab pingimist kontrollimiseks, et arvutile on võimalik juurde pääseda, ja brauser näitab, kas serti usaldatakse. (Näiteks Internet Exploreri aadressiribal kuvatakse lukuikoon. Selle ikooni klõpsamisel kontrollib Internet Explorer, kas serti usaldatakse. Serdi saab kohalikku arvutisse installida, vaadates kuvatud serdi üksikasju.)
--   Riistvarajaama käitavas arvuti tulemüüris avatakse port, mida riistvarajaam kasutab.
--   Riistvarajaamal on õigesti installitud kaupmehe konto andmed tööriista Kaupmehe teabe installimine kaudu, mis riistvarajaama installiprogrammi lõpus käivitub.
+-   <span data-ttu-id="ba422-920">Arvuti, millel Modern POS töötab, usaldab serti, mida kasutatakse riistvarajaama käitavas arvutis.</span><span class="sxs-lookup"><span data-stu-id="ba422-920">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+    -   <span data-ttu-id="ba422-921">Selle seadistuse kontrollimiseks minge veebibrauseris järgmisele URL-ile: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span><span class="sxs-lookup"><span data-stu-id="ba422-921">To verify this setup, in a web browser, go to the following URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span></span>
+    -   <span data-ttu-id="ba422-922">See URL kasutab pingimist kontrollimiseks, et arvutile on võimalik juurde pääseda, ja brauser näitab, kas serti usaldatakse.</span><span class="sxs-lookup"><span data-stu-id="ba422-922">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="ba422-923">(Näiteks Internet Exploreri aadressiribal kuvatakse lukuikoon.</span><span class="sxs-lookup"><span data-stu-id="ba422-923">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="ba422-924">Selle ikooni klõpsamisel kontrollib Internet Explorer, kas serti usaldatakse.</span><span class="sxs-lookup"><span data-stu-id="ba422-924">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="ba422-925">Serdi saab kohalikku arvutisse installida, vaadates kuvatud serdi üksikasju.)</span><span class="sxs-lookup"><span data-stu-id="ba422-925">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+-   <span data-ttu-id="ba422-926">Riistvarajaama käitavas arvuti tulemüüris avatakse port, mida riistvarajaam kasutab.</span><span class="sxs-lookup"><span data-stu-id="ba422-926">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+-   <span data-ttu-id="ba422-927">Riistvarajaamal on õigesti installitud kaupmehe konto andmed tööriista Kaupmehe teabe installimine kaudu, mis riistvarajaama installiprogrammi lõpus käivitub.</span><span class="sxs-lookup"><span data-stu-id="ba422-927">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS ei suuda oma valikuloendis riistvarajaama tuvastada.
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="ba422-928">Modern POS ei suuda oma valikuloendis riistvarajaama tuvastada.</span><span class="sxs-lookup"><span data-stu-id="ba422-928">Modern POS can’t detect the hardware station in its list for selection</span></span>
 
-**Lahendus.** Seda probleemi võib põhjustada kumbki järgmistest teguritest.
+<span data-ttu-id="ba422-929">**Lahendus.** Seda probleemi võib põhjustada kumbki järgmistest teguritest.</span><span class="sxs-lookup"><span data-stu-id="ba422-929">**Solution:** Either of the following factors can cause this issue:</span></span>
 
--   Riistvarajaama pole peakontoris õigesti seadistatud. Läbige selles teemas eespool kirjeldatud toimingud kontrollimiseks, et riistvarajaama profiil ja riistvarajaam on õigesti sisestatud.
--   Kanali konfiguratsiooni uuendamiseks pole töid käivitatud. Sellisel juhul käivitage töö 1070 kanali konfigureerimiseks.
+-   <span data-ttu-id="ba422-930">Riistvarajaama pole peakontoris õigesti seadistatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-930">The hardware station hasn’t been set up correctly in headquarters.</span></span> <span data-ttu-id="ba422-931">Läbige selles teemas eespool kirjeldatud toimingud kontrollimiseks, et riistvarajaama profiil ja riistvarajaam on õigesti sisestatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-931">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+-   <span data-ttu-id="ba422-932">Kanali konfiguratsiooni uuendamiseks pole töid käivitatud.</span><span class="sxs-lookup"><span data-stu-id="ba422-932">The jobs haven’t been run to update the channel configuration.</span></span> <span data-ttu-id="ba422-933">Sellisel juhul käivitage töö 1070 kanali konfigureerimiseks.</span><span class="sxs-lookup"><span data-stu-id="ba422-933">In this case, run the 1070 job for channel configuration.</span></span>
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS ei kajasta uusi sularahasahtli sätteid
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="ba422-934">Modern POS ei kajasta uusi sularahasahtli sätteid</span><span class="sxs-lookup"><span data-stu-id="ba422-934">Modern POS doesn't reflect new cash drawer settings</span></span>
 
-**Lahendus.** Sulgege see partii. Sularahasahtli muudatusi ei uuendata Modern POS-is enne praeguse partii sulgemist.
+<span data-ttu-id="ba422-935">**Lahendus.** Sulgege see partii.</span><span class="sxs-lookup"><span data-stu-id="ba422-935">**Solution:** Close the current batch.</span></span> <span data-ttu-id="ba422-936">Sularahasahtli muudatusi ei uuendata Modern POS-is enne praeguse partii sulgemist.</span><span class="sxs-lookup"><span data-stu-id="ba422-936">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS teatab probleemist jaemüügi välisseadmega
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="ba422-937">Modern POS teatab probleemist jaemüügi välisseadmega</span><span class="sxs-lookup"><span data-stu-id="ba422-937">Modern POS is reporting an issue with a retail peripheral</span></span>
 
-**Lahendus.** Siin on mõned selle probleemi tüüpilised põhjused.
+<span data-ttu-id="ba422-938">**Lahendus.** Siin on mõned selle probleemi tüüpilised põhjused.</span><span class="sxs-lookup"><span data-stu-id="ba422-938">**Solution:** Here are some typical causes of this issue:</span></span>
 
--   Veenduge, et muud seadmedraiveri konfiguratsiooniutiliidid oleksid suletud. Kui need utiliidid on avatud, võivad need takistada Modern POS-il või riistvarajaamal seadmele juurdepääsemist.
--   Kui jaemüügi välisseade on mitme kassaseadmega ühiskasutuses, siis veenduge, et see kuuluks ühte järgmistest kategooriatest.
-    -   Sularahasahtel
-    -   Kviitungiprinter
-    -   Makseterminal
+-   <span data-ttu-id="ba422-939">Veenduge, et muud seadmedraiveri konfiguratsiooniutiliidid oleksid suletud.</span><span class="sxs-lookup"><span data-stu-id="ba422-939">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="ba422-940">Kui need utiliidid on avatud, võivad need takistada Modern POS-il või riistvarajaamal seadmele juurdepääsemist.</span><span class="sxs-lookup"><span data-stu-id="ba422-940">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+-   <span data-ttu-id="ba422-941">Kui jaemüügi välisseade on mitme kassaseadmega ühiskasutuses, siis veenduge, et see kuuluks ühte järgmistest kategooriatest.</span><span class="sxs-lookup"><span data-stu-id="ba422-941">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+    -   <span data-ttu-id="ba422-942">Sularahasahtel</span><span class="sxs-lookup"><span data-stu-id="ba422-942">Cash drawer</span></span>
+    -   <span data-ttu-id="ba422-943">Kviitungiprinter</span><span class="sxs-lookup"><span data-stu-id="ba422-943">Receipt printer</span></span>
+    -   <span data-ttu-id="ba422-944">Makseterminal</span><span class="sxs-lookup"><span data-stu-id="ba422-944">Payment terminal</span></span>
 
-    Kui välisseade nendesse kategooriatesse ei kuulu, siis ei ole riistvarajaam mõeldud selle välisseadme ühiskasutuseks mitme kassaseadme hulgas.
--   Mõnikord võivad seadmedraiverid takistada üldiste juhtimisobjektide (CCO-de) õiget töötamist. Kui seade on hiljuti installitud, kuid ei tööta korralikult või märkate muid probleeme, saab selle probleemi sageli CCO-de uuesti installimisega lahendada. CCO-de allalaadimiseks minge aadressile <http://monroecs.com/oposccos_current.htm>.
--   Kui vahetate testimise või tõrkeotsingu ajal sageli välisseadmeid, siis võib olla vaja IIS lähtestada, selle asemel, et oodata, millal vahemälu end värskendab. IIS-i lähtestamiseks tehke järgmist.
-    1.  Sisestage menüüsse **Start** tekst **CMD**.
-    2.  Tehke otsingutulemustes paremklõps valikul **Käsuviip** ja klõpsake siis valikut **Käivita administraatorina**.
-    3.  Sisestage aknasse **Käsuviip** tekst **iisreset /Restart** ja vajutage siis klahvi Enter.
-    4.  Pärast IIS-i taaskäivitumist taaskäivitage Modern POS.
--   Kui muudate sageli välisseadmeid ja selle käigus POS-i klienti sageli käivitate ja sulete, võib eelmise kassaseansi protsess dllhost praegust seanssi häirida. Sellisel juhul ei pruugi seade olla kasutatav enne, kui sulgete dünaamilise lingiga teegi (DLL-i) hosti, mis eelmist seanssi haldab. DLL-i hosti sulgemiseks tehke järgmist.
-    1.  Sisestage menüüsse **Start** tekst **Tegumihaldur**.
-    2.  Klõpsake otsingutulemustes valikut **Tegumihaldur**.
-    3.  Klõpsake tegumihalduri vahekaardil **Üksikasjad** veerupäist sildiga **Nimi** tabeli sortimiseks nime alusel tähestiku järgi.
-    4.  Kerige alla, kui leiate nime dllhost.exe.
-    5.  Valige iga DLL-i host ja klõpsake siis valikut **Lõpeta ülesanne**.
-    6.  Kui DLL-i hostid on suletud, taaskäivitage Modern POS.
+    <span data-ttu-id="ba422-945">Kui välisseade nendesse kategooriatesse ei kuulu, siis ei ole riistvarajaam mõeldud selle välisseadme ühiskasutuseks mitme kassaseadme hulgas.</span><span class="sxs-lookup"><span data-stu-id="ba422-945">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+-   <span data-ttu-id="ba422-946">Mõnikord võivad seadmedraiverid takistada üldiste juhtimisobjektide (CCO-de) õiget töötamist.</span><span class="sxs-lookup"><span data-stu-id="ba422-946">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="ba422-947">Kui seade on hiljuti installitud, kuid ei tööta korralikult või märkate muid probleeme, saab selle probleemi sageli CCO-de uuesti installimisega lahendada.</span><span class="sxs-lookup"><span data-stu-id="ba422-947">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="ba422-948">CCO-de allalaadimiseks minge aadressile <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="ba422-948">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+-   <span data-ttu-id="ba422-949">Kui vahetate testimise või tõrkeotsingu ajal sageli välisseadmeid, siis võib olla vaja IIS lähtestada, selle asemel, et oodata, millal vahemälu end värskendab.</span><span class="sxs-lookup"><span data-stu-id="ba422-949">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="ba422-950">IIS-i lähtestamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="ba422-950">To reset IIS, follow these steps:</span></span>
+    1.  <span data-ttu-id="ba422-951">Sisestage menüüsse **Start** tekst **CMD**.</span><span class="sxs-lookup"><span data-stu-id="ba422-951">From the **Start** menu, type **CMD**.</span></span>
+    2.  <span data-ttu-id="ba422-952">Tehke otsingutulemustes paremklõps valikul **Käsuviip** ja klõpsake siis valikut **Käivita administraatorina**.</span><span class="sxs-lookup"><span data-stu-id="ba422-952">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3.  <span data-ttu-id="ba422-953">Sisestage aknasse **Käsuviip** tekst **iisreset /Restart** ja vajutage siis klahvi Enter.</span><span class="sxs-lookup"><span data-stu-id="ba422-953">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4.  <span data-ttu-id="ba422-954">Pärast IIS-i taaskäivitumist taaskäivitage Modern POS.</span><span class="sxs-lookup"><span data-stu-id="ba422-954">After IIS has restarted, restart Modern POS.</span></span>
+-   <span data-ttu-id="ba422-955">Kui muudate sageli välisseadmeid ja selle käigus POS-i klienti sageli käivitate ja sulete, võib eelmise kassaseansi protsess dllhost praegust seanssi häirida.</span><span class="sxs-lookup"><span data-stu-id="ba422-955">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="ba422-956">Sellisel juhul ei pruugi seade olla kasutatav enne, kui sulgete dünaamilise lingiga teegi (DLL-i) hosti, mis eelmist seanssi haldab.</span><span class="sxs-lookup"><span data-stu-id="ba422-956">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="ba422-957">DLL-i hosti sulgemiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="ba422-957">To close the DLL host, follow these steps:</span></span>
+    1.  <span data-ttu-id="ba422-958">Sisestage menüüsse **Start** tekst **Tegumihaldur**.</span><span class="sxs-lookup"><span data-stu-id="ba422-958">From the **Start** menu, type **Task manager**.</span></span>
+    2.  <span data-ttu-id="ba422-959">Klõpsake otsingutulemustes valikut **Tegumihaldur**.</span><span class="sxs-lookup"><span data-stu-id="ba422-959">In the search results, click **Task manager**.</span></span>
+    3.  <span data-ttu-id="ba422-960">Klõpsake tegumihalduri vahekaardil **Üksikasjad** veerupäist sildiga **Nimi** tabeli sortimiseks nime alusel tähestiku järgi.</span><span class="sxs-lookup"><span data-stu-id="ba422-960">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4.  <span data-ttu-id="ba422-961">Kerige alla, kui leiate nime dllhost.exe.</span><span class="sxs-lookup"><span data-stu-id="ba422-961">Scroll down until you find dllhost.exe.</span></span>
+    5.  <span data-ttu-id="ba422-962">Valige iga DLL-i host ja klõpsake siis valikut **Lõpeta ülesanne**.</span><span class="sxs-lookup"><span data-stu-id="ba422-962">Select each DLL host, and then click **End task**.</span></span>
+    6.  <span data-ttu-id="ba422-963">Kui DLL-i hostid on suletud, taaskäivitage Modern POS.</span><span class="sxs-lookup"><span data-stu-id="ba422-963">After the DLL hosts have been closed, restart Modern POS.</span></span>
 
 
-<a name="see-also"></a>Vt ka
+<a name="see-also"></a><span data-ttu-id="ba422-964">Vt ka</span><span class="sxs-lookup"><span data-stu-id="ba422-964">See also</span></span>
 --------
 
-[Jaemüügi välisseadme simulaator](dev-itpro/retail-peripheral-simulator.md)
+[<span data-ttu-id="ba422-965">Jaemüügi välisseadme simulaator</span><span class="sxs-lookup"><span data-stu-id="ba422-965">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
 
 
 

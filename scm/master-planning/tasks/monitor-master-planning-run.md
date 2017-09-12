@@ -16,42 +16,42 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 8eb19ac9ded4dc2a091ff733f2f43cb6cafa1b43
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e08d9fd3388561563e6fb982416186a652b4ce2
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="monitor-a-master-planning-run"></a>Koondplaneerimise käitamise jälgimine
+# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="39df2-103">Koondplaneerimise käitamise jälgimine</span><span class="sxs-lookup"><span data-stu-id="39df2-103">Monitor a master planning run</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Tootmise plaanija soovib näha, kui koondplaneerimise käitamine on pooleli. Kasutage protseduuri lõpuleviimiseks demoandmete ettevõtet USMF.
+<span data-ttu-id="39df2-104">Tootmise plaanija soovib näha, kui koondplaneerimise käitamine on pooleli.</span><span class="sxs-lookup"><span data-stu-id="39df2-104">The production planner wants to see if a master planning run is in progress.</span></span> <span data-ttu-id="39df2-105">Kasutage protseduuri lõpuleviimiseks demoandmete ettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="39df2-105">Use the demo data company USMF to complete this procedure.</span></span>
 
 
-## <a name="run-master-planning"></a>Koondplaneerimise käivitamine
-1. Klõpsake valikul Koondplaneerimine.
-    * Leiate selle vaikimisi armatuurlaualt.  
-2. Valige või sisestage väärtus väljal Plaan.
-    * Näide: StaticPlan  
-3. Klõpsake nuppu Käivita.
-4. Tehke väljal Töötlemisaja jälgimine valik Jah.
-    * Kui väli on juba valitud, jätke see etapp vahele.  
-5. Sisestage number väljale Lõimede arv.
-6. Jaotise kaasamiseks laiendage kirjeid.
-7. Klõpsake käsku Filtreeri.
-8. Märkige loendis valitud rida.
-    * Märkige rida, kus väli = kauba kood.  
-9. Sisestage või valige väärtus väljal Kriteeriumid.
-    * Näide: T0001.  
-10. Klõpsake nuppu OK.
-11. Klõpsake nuppu OK.
+## <a name="run-master-planning"></a><span data-ttu-id="39df2-106">Koondplaneerimise käivitamine</span><span class="sxs-lookup"><span data-stu-id="39df2-106">Run master planning</span></span>
+1. <span data-ttu-id="39df2-107">Klõpsake valikul Koondplaneerimine.</span><span class="sxs-lookup"><span data-stu-id="39df2-107">Click Master planning.</span></span>
+    * <span data-ttu-id="39df2-108">Leiate selle vaikimisi armatuurlaualt.</span><span class="sxs-lookup"><span data-stu-id="39df2-108">You'll find this on the default dashboard.</span></span>  
+2. <span data-ttu-id="39df2-109">Valige või sisestage väärtus väljal Plaan.</span><span class="sxs-lookup"><span data-stu-id="39df2-109">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="39df2-110">Näide: StaticPlan</span><span class="sxs-lookup"><span data-stu-id="39df2-110">Example: StaticPlan</span></span>  
+3. <span data-ttu-id="39df2-111">Klõpsake nuppu Käivita.</span><span class="sxs-lookup"><span data-stu-id="39df2-111">Click Run.</span></span>
+4. <span data-ttu-id="39df2-112">Tehke väljal Töötlemisaja jälgimine valik Jah.</span><span class="sxs-lookup"><span data-stu-id="39df2-112">Select Yes in the Track processing time field.</span></span>
+    * <span data-ttu-id="39df2-113">Kui väli on juba valitud, jätke see etapp vahele.</span><span class="sxs-lookup"><span data-stu-id="39df2-113">If the field is already selected, skip this step.</span></span>  
+5. <span data-ttu-id="39df2-114">Sisestage number väljale Lõimede arv.</span><span class="sxs-lookup"><span data-stu-id="39df2-114">In the Number of threads field, enter a number.</span></span>
+6. <span data-ttu-id="39df2-115">Jaotise kaasamiseks laiendage kirjeid.</span><span class="sxs-lookup"><span data-stu-id="39df2-115">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="39df2-116">Klõpsake käsku Filtreeri.</span><span class="sxs-lookup"><span data-stu-id="39df2-116">Click Filter.</span></span>
+8. <span data-ttu-id="39df2-117">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="39df2-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="39df2-118">Märkige rida, kus väli = kauba kood.</span><span class="sxs-lookup"><span data-stu-id="39df2-118">Mark the row where Field = Item number.</span></span>  
+9. <span data-ttu-id="39df2-119">Sisestage või valige väärtus väljal Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="39df2-119">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="39df2-120">Näide: T0001.</span><span class="sxs-lookup"><span data-stu-id="39df2-120">Example: T0001</span></span>  
+10. <span data-ttu-id="39df2-121">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="39df2-121">Click OK.</span></span>
+11. <span data-ttu-id="39df2-122">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="39df2-122">Click OK.</span></span>
 
-## <a name="monitor-the-master-planning-run"></a>Koondplaneerimise käitamise jälgimine
-1. Klõpsake nuppu Ajalugu.
-2. Klõpsake suvandit Päringud.
-3. Klõpsake suvandit Protsessiülesande kestus.
-4. Otsige loendist ja valige soovitud kirje.
-    * Iga kauba puhul saate ülevaate, kui kaua võttis aega iga planeerimise etapi lõpule viimine.  
+## <a name="monitor-the-master-planning-run"></a><span data-ttu-id="39df2-123">Koondplaneerimise käitamise jälgimine</span><span class="sxs-lookup"><span data-stu-id="39df2-123">Monitor the master planning run</span></span>
+1. <span data-ttu-id="39df2-124">Klõpsake nuppu Ajalugu.</span><span class="sxs-lookup"><span data-stu-id="39df2-124">Click History.</span></span>
+2. <span data-ttu-id="39df2-125">Klõpsake suvandit Päringud.</span><span class="sxs-lookup"><span data-stu-id="39df2-125">Click Inquiries.</span></span>
+3. <span data-ttu-id="39df2-126">Klõpsake suvandit Protsessiülesande kestus.</span><span class="sxs-lookup"><span data-stu-id="39df2-126">Click Process task duration.</span></span>
+4. <span data-ttu-id="39df2-127">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="39df2-127">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="39df2-128">Iga kauba puhul saate ülevaate, kui kaua võttis aega iga planeerimise etapi lõpule viimine.</span><span class="sxs-lookup"><span data-stu-id="39df2-128">For each item you can get an overview of how long it took to complete each planning step.</span></span>  
 
 

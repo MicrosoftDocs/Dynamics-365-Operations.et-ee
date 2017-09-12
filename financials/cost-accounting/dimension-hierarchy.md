@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>Dimensioonihierarhia
+# <a name="dimension-hierarchy"></a><span data-ttu-id="4667e-104">Dimensioonihierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Teema sisaldab teavet dimensioonihierarhiate kohta. Dimensioonihierarhiat saab kasutada aruandlusstruktuuri, kulupoliitikate ja turbeseadistuse määratlemiseks kuluarvestuses.  
+<span data-ttu-id="4667e-105">Teema sisaldab teavet dimensioonihierarhiate kohta.</span><span class="sxs-lookup"><span data-stu-id="4667e-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="4667e-106">Dimensioonihierarhiat saab kasutada aruandlusstruktuuri, kulupoliitikate ja turbeseadistuse määratlemiseks kuluarvestuses.</span><span class="sxs-lookup"><span data-stu-id="4667e-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>Ülevaade
+## <a name="overview"></a><span data-ttu-id="4667e-107">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="4667e-107">Overview</span></span>
 
-Dimensioonihierarhiaid kasutatakse kuluarvestuses mitmesugustes kohtades. Dimensioonihierarhia võimaldab määratleda järgmised andmed.
+<span data-ttu-id="4667e-108">Dimensioonihierarhiaid kasutatakse kuluarvestuses mitmesugustes kohtades.</span><span class="sxs-lookup"><span data-stu-id="4667e-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="4667e-109">Dimensioonihierarhia võimaldab määratleda järgmised andmed.</span><span class="sxs-lookup"><span data-stu-id="4667e-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  Aruandluse struktuur, mis sobib organisatsiooni vajadustega
--  Kulupoliitikad
--  Turvalisuse seadistus
+-  <span data-ttu-id="4667e-110">Aruandluse struktuur, mis sobib organisatsiooni vajadustega</span><span class="sxs-lookup"><span data-stu-id="4667e-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="4667e-111">Kulupoliitikad</span><span class="sxs-lookup"><span data-stu-id="4667e-111">Cost policies</span></span>
+-  <span data-ttu-id="4667e-112">Turvalisuse seadistus</span><span class="sxs-lookup"><span data-stu-id="4667e-112">The security setup</span></span>
 
-Siin on dimensioonihierarhia näide.
+<span data-ttu-id="4667e-113">Siin on dimensioonihierarhia näide.</span><span class="sxs-lookup"><span data-stu-id="4667e-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![Dimensioonihierarhia näide](./media/dimension-hierarchy.png)
 
-Dimensioonihierarhia saab luua järgmistele dimensioonitüüpidele.
+<span data-ttu-id="4667e-115">Dimensioonihierarhia saab luua järgmistele dimensioonitüüpidele.</span><span class="sxs-lookup"><span data-stu-id="4667e-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  Kuluelemendi dimensioonid
--  Kuluobjekti dimensioonid
--  Statistilised dimensioonid
+-  <span data-ttu-id="4667e-116">Kuluelemendi dimensioonid</span><span class="sxs-lookup"><span data-stu-id="4667e-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="4667e-117">Kuluobjekti dimensioonid</span><span class="sxs-lookup"><span data-stu-id="4667e-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="4667e-118">Statistilised dimensioonid</span><span class="sxs-lookup"><span data-stu-id="4667e-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - Kui on vaja erinevaid perspektiive, võite luua samale dimensioonile mitu dimensioonihierarhiat.
-> - Dimensioonihierarhia saab seostada ainult ühe dimensiooniga.
-> - Dimensioonihierarhia struktuuris võib olla piiramatu arv tasandeid. Kõik tasandid on saadaval **kulujuhtimise** tööruumis. Kui kasutate aruandluseks Microsoft Excelit või Microsoft Power BI-d, siis eksporditakse ainult esimesed 15 dimensioonihierarhia taset. See piirang on sellepärast, et nii Excel kui ka Power BI nõuavad fikseeritud skeemi.
-> - Dimensioonihierarhia ei sõltu kuupäevast. Seega salvestatakse dimensioonihierarhia muudatused kohe kirje juurde ja varasemat ning hilisemat kuupäeva ei saa võrrelda.
+> - <span data-ttu-id="4667e-119">Kui on vaja erinevaid perspektiive, võite luua samale dimensioonile mitu dimensioonihierarhiat.</span><span class="sxs-lookup"><span data-stu-id="4667e-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="4667e-120">Dimensioonihierarhia saab seostada ainult ühe dimensiooniga.</span><span class="sxs-lookup"><span data-stu-id="4667e-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="4667e-121">Dimensioonihierarhia struktuuris võib olla piiramatu arv tasandeid.</span><span class="sxs-lookup"><span data-stu-id="4667e-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="4667e-122">Kõik tasandid on saadaval **kulujuhtimise** tööruumis.</span><span class="sxs-lookup"><span data-stu-id="4667e-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="4667e-123">Kui kasutate aruandluseks Microsoft Excelit või Microsoft Power BI-d, siis eksporditakse ainult esimesed 15 dimensioonihierarhia taset.</span><span class="sxs-lookup"><span data-stu-id="4667e-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="4667e-124">See piirang on sellepärast, et nii Excel kui ka Power BI nõuavad fikseeritud skeemi.</span><span class="sxs-lookup"><span data-stu-id="4667e-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="4667e-125">Dimensioonihierarhia ei sõltu kuupäevast.</span><span class="sxs-lookup"><span data-stu-id="4667e-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="4667e-126">Seega salvestatakse dimensioonihierarhia muudatused kohe kirje juurde ja varasemat ning hilisemat kuupäeva ei saa võrrelda.</span><span class="sxs-lookup"><span data-stu-id="4667e-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>Dimensiooni hierarhia tüüp
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="4667e-127">Dimensiooni hierarhia tüüp</span><span class="sxs-lookup"><span data-stu-id="4667e-127">Dimension hierarchy type</span></span>
 
-Uue dimensioonihierarhia loomisel tuleb valida hierarhia tüüp. Avage **Kuluarvestus** > **Dimensioonid** > **Dimensioonihierarhiad**. Klõpsake nuppu **Uus** ja valige dimensioonihierarhia tüüp. Võite valida **Dimensiooni kategoriseerimishierarhia** või **Dimensiooni klassifitseerimishierarhia**.
+<span data-ttu-id="4667e-128">Uue dimensioonihierarhia loomisel tuleb valida hierarhia tüüp.</span><span class="sxs-lookup"><span data-stu-id="4667e-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="4667e-129">Avage **Kuluarvestus** > **Dimensioonid** > **Dimensioonihierarhiad**.</span><span class="sxs-lookup"><span data-stu-id="4667e-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="4667e-130">Klõpsake nuppu **Uus** ja valige dimensioonihierarhia tüüp.</span><span class="sxs-lookup"><span data-stu-id="4667e-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="4667e-131">Võite valida **Dimensiooni kategoriseerimishierarhia** või **Dimensiooni klassifitseerimishierarhia**.</span><span class="sxs-lookup"><span data-stu-id="4667e-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>Dimensiooni kategoriseerimishierarhia
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="4667e-132">Dimensiooni kategoriseerimishierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-132">Dimension categorization hierarchy</span></span>
 
-Tüüpi **Dimensiooni kategoriseerimishierarhia** kasutatakse aruandluseks. See toetab ainult kuluelemendi dimensioone. Kui valite selle tüübi, kehtivad järgmised reeglid.
+<span data-ttu-id="4667e-133">Tüüpi **Dimensiooni kategoriseerimishierarhia** kasutatakse aruandluseks.</span><span class="sxs-lookup"><span data-stu-id="4667e-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="4667e-134">See toetab ainult kuluelemendi dimensioone.</span><span class="sxs-lookup"><span data-stu-id="4667e-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="4667e-135">Kui valite selle tüübi, kehtivad järgmised reeglid.</span><span class="sxs-lookup"><span data-stu-id="4667e-135">When you select this type, the following rules apply:</span></span>
 
--  Dimensiooniliikme saab seostada hierarhia struktuuris mitu korda.
--  Kuluelemendi dimensiooniliikme saab paigutada erinevatesse sõlmedesse, määrates lehe sõlmele kulukäitumise.
+-  <span data-ttu-id="4667e-136">Dimensiooniliikme saab seostada hierarhia struktuuris mitu korda.</span><span class="sxs-lookup"><span data-stu-id="4667e-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="4667e-137">Kuluelemendi dimensiooniliikme saab paigutada erinevatesse sõlmedesse, määrates lehe sõlmele kulukäitumise.</span><span class="sxs-lookup"><span data-stu-id="4667e-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>Dimensiooni klassifitseerimishierarhia
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="4667e-138">Dimensiooni klassifitseerimishierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-138">Dimension classification hierarchy</span></span>
 
-Tüüpi **Dimensiooni klassifitseerimishierarhia** kasutatakse reeglite määratlemiseks ja aruandluseks. See toetab kõiki dimensioone, nt kuluobjekte, kuluelemente ja statistilisi dimensioone. Kui valite selle tüübi, saab dimensiooniliikme seostada hierarhia struktuuris ainult ühe korra.
+<span data-ttu-id="4667e-139">Tüüpi **Dimensiooni klassifitseerimishierarhia** kasutatakse reeglite määratlemiseks ja aruandluseks.</span><span class="sxs-lookup"><span data-stu-id="4667e-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="4667e-140">See toetab kõiki dimensioone, nt kuluobjekte, kuluelemente ja statistilisi dimensioone.</span><span class="sxs-lookup"><span data-stu-id="4667e-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="4667e-141">Kui valite selle tüübi, saab dimensiooniliikme seostada hierarhia struktuuris ainult ühe korra.</span><span class="sxs-lookup"><span data-stu-id="4667e-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>Dimensioonihierarhia loomine ja haldamine
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="4667e-142">Dimensioonihierarhia loomine ja haldamine</span><span class="sxs-lookup"><span data-stu-id="4667e-142">Create and maintain a dimension hierarchy</span></span>
 
-Dimensioonihierarhia luuakse puustruktuurina, millel on sõlme ja lehesõlme seosed.
+<span data-ttu-id="4667e-143">Dimensioonihierarhia luuakse puustruktuurina, millel on sõlme ja lehesõlme seosed.</span><span class="sxs-lookup"><span data-stu-id="4667e-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  Sõlmel võib olla 1:_n_ alamsõlme.
--  Sõlmele ei saa olla määratud nii alamsõlmi kui ka lehesõlmi.
--  Lehesõlme saab määrata hierarhias ainult madalaimale tasandile.
+-  <span data-ttu-id="4667e-144">Sõlmel võib olla 1:_n_ alamsõlme.</span><span class="sxs-lookup"><span data-stu-id="4667e-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="4667e-145">Sõlmele ei saa olla määratud nii alamsõlmi kui ka lehesõlmi.</span><span class="sxs-lookup"><span data-stu-id="4667e-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="4667e-146">Lehesõlme saab määrata hierarhias ainult madalaimale tasandile.</span><span class="sxs-lookup"><span data-stu-id="4667e-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>Näide
+### <a name="example"></a><span data-ttu-id="4667e-147">Näide</span><span class="sxs-lookup"><span data-stu-id="4667e-147">Example</span></span>
 
-Väikeettevõttel on järgmine organisatsiooni struktuur, kus finantsosakond ja personaliosakond on halduse alla kuuluvad osakonnad ja komplekteerimine ning pakkumine on tootmise alla kuuluvad osakonnad.
+<span data-ttu-id="4667e-148">Väikeettevõttel on järgmine organisatsiooni struktuur, kus finantsosakond ja personaliosakond on halduse alla kuuluvad osakonnad ja komplekteerimine ning pakkumine on tootmise alla kuuluvad osakonnad.</span><span class="sxs-lookup"><span data-stu-id="4667e-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![Organisatsiooni struktuuri näide](./media/dimension-hierarchy-org.png)
 
-Kuluobjekti dimensioon kajastab kõik organisatsiooni kulukeskusi.
+<span data-ttu-id="4667e-150">Kuluobjekti dimensioon kajastab kõik organisatsiooni kulukeskusi.</span><span class="sxs-lookup"><span data-stu-id="4667e-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- Kuluobjekti dimensioon
-    - Kulukeskused
+- <span data-ttu-id="4667e-151">Kuluobjekti dimensioon</span><span class="sxs-lookup"><span data-stu-id="4667e-151">Cost object dimension</span></span>
+    - <span data-ttu-id="4667e-152">Kulukeskused</span><span class="sxs-lookup"><span data-stu-id="4667e-152">Cost centers</span></span>
 
-Kuluobjekti dimensiooni, mis kajastab kõiki kulukeskusi, saab seadistada siin näidatud viisil.
+<span data-ttu-id="4667e-153">Kuluobjekti dimensiooni, mis kajastab kõiki kulukeskusi, saab seadistada siin näidatud viisil.</span><span class="sxs-lookup"><span data-stu-id="4667e-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| Kulukeskused | Kirjeldus |
+| <span data-ttu-id="4667e-154">Kulukeskused</span><span class="sxs-lookup"><span data-stu-id="4667e-154">Cost centers</span></span> | <span data-ttu-id="4667e-155">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="4667e-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | Personaliosakond          |
-| CC002        | Finantsid     |
-| CC003        | Maks         |
-| CC007        | AR/AP       |
-| CC005        | Assembler    |
-| CC006        | Pakendamine   |
+| <span data-ttu-id="4667e-156">CC001</span><span class="sxs-lookup"><span data-stu-id="4667e-156">CC001</span></span>        | <span data-ttu-id="4667e-157">Personaliosakond</span><span class="sxs-lookup"><span data-stu-id="4667e-157">HR</span></span>          |
+| <span data-ttu-id="4667e-158">CC002</span><span class="sxs-lookup"><span data-stu-id="4667e-158">CC002</span></span>        | <span data-ttu-id="4667e-159">Finantsid</span><span class="sxs-lookup"><span data-stu-id="4667e-159">Finance</span></span>     |
+| <span data-ttu-id="4667e-160">CC003</span><span class="sxs-lookup"><span data-stu-id="4667e-160">CC003</span></span>        | <span data-ttu-id="4667e-161">Maks</span><span class="sxs-lookup"><span data-stu-id="4667e-161">Tax</span></span>         |
+| <span data-ttu-id="4667e-162">CC007</span><span class="sxs-lookup"><span data-stu-id="4667e-162">CC007</span></span>        | <span data-ttu-id="4667e-163">AR/AP</span><span class="sxs-lookup"><span data-stu-id="4667e-163">AR/AP</span></span>       |
+| <span data-ttu-id="4667e-164">CC005</span><span class="sxs-lookup"><span data-stu-id="4667e-164">CC005</span></span>        | <span data-ttu-id="4667e-165">Assembler</span><span class="sxs-lookup"><span data-stu-id="4667e-165">Assembly</span></span>    |
+| <span data-ttu-id="4667e-166">CC006</span><span class="sxs-lookup"><span data-stu-id="4667e-166">CC006</span></span>        | <span data-ttu-id="4667e-167">Pakendamine</span><span class="sxs-lookup"><span data-stu-id="4667e-167">Packaging</span></span>   |
 
-Kuluelemendi dimensioon kajastab kõik organisatsiooni kuluelemente.
+<span data-ttu-id="4667e-168">Kuluelemendi dimensioon kajastab kõik organisatsiooni kuluelemente.</span><span class="sxs-lookup"><span data-stu-id="4667e-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- Kuluelemendi dimensioon
-    - Kuluelemendid
+- <span data-ttu-id="4667e-169">Kuluelemendi dimensioon</span><span class="sxs-lookup"><span data-stu-id="4667e-169">Cost element dimension</span></span>
+    - <span data-ttu-id="4667e-170">Kuluelemendid</span><span class="sxs-lookup"><span data-stu-id="4667e-170">Cost elements</span></span>
 
-Kuluelemendi dimensiooni, mis kajastab kõiki kuluelemente, saab seadistada siin näidatud viisil.
+<span data-ttu-id="4667e-171">Kuluelemendi dimensiooni, mis kajastab kõiki kuluelemente, saab seadistada siin näidatud viisil.</span><span class="sxs-lookup"><span data-stu-id="4667e-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| Kuluelemendid | Kirjeldus |
+| <span data-ttu-id="4667e-172">Kuluelemendid</span><span class="sxs-lookup"><span data-stu-id="4667e-172">Cost elements</span></span> | <span data-ttu-id="4667e-173">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="4667e-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | Elektrienergia |
-| 10010         | Koristamine    |
-| 10011         | Küte     |
-| 40001         | COGS        |
+| <span data-ttu-id="4667e-174">10001</span><span class="sxs-lookup"><span data-stu-id="4667e-174">10001</span></span>         | <span data-ttu-id="4667e-175">Elektrienergia</span><span class="sxs-lookup"><span data-stu-id="4667e-175">Electricity</span></span> |
+| <span data-ttu-id="4667e-176">10010</span><span class="sxs-lookup"><span data-stu-id="4667e-176">10010</span></span>         | <span data-ttu-id="4667e-177">Koristamine</span><span class="sxs-lookup"><span data-stu-id="4667e-177">Cleaning</span></span>    |
+| <span data-ttu-id="4667e-178">10011</span><span class="sxs-lookup"><span data-stu-id="4667e-178">10011</span></span>         | <span data-ttu-id="4667e-179">Küte</span><span class="sxs-lookup"><span data-stu-id="4667e-179">Heating</span></span>     |
+| <span data-ttu-id="4667e-180">40001</span><span class="sxs-lookup"><span data-stu-id="4667e-180">40001</span></span>         | <span data-ttu-id="4667e-181">COGS</span><span class="sxs-lookup"><span data-stu-id="4667e-181">COGS</span></span>        |
 
-Dimensioonihierarhia, mis rahuldab organisatsiooni aruandlusvajadused, saab seadistada siin näidatud viisil.
+<span data-ttu-id="4667e-182">Dimensioonihierarhia, mis rahuldab organisatsiooni aruandlusvajadused, saab seadistada siin näidatud viisil.</span><span class="sxs-lookup"><span data-stu-id="4667e-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**Dimensioonihierarhia üksikasjad**
+<span data-ttu-id="4667e-183">**Dimensioonihierarhia üksikasjad**</span><span class="sxs-lookup"><span data-stu-id="4667e-183">**Dimension hierarchy details**</span></span>
 
-| Dimensioonihierarhia nimi | Dimensioon    | Dimensiooni hierarhia tüübi nimi      | Juurdepääsuloendi hierarhia |
+| <span data-ttu-id="4667e-184">Dimensioonihierarhia nimi</span><span class="sxs-lookup"><span data-stu-id="4667e-184">Dimension hierarchy name</span></span> | <span data-ttu-id="4667e-185">Dimensioon</span><span class="sxs-lookup"><span data-stu-id="4667e-185">Dimension</span></span>    | <span data-ttu-id="4667e-186">Dimensiooni hierarhia tüübi nimi</span><span class="sxs-lookup"><span data-stu-id="4667e-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="4667e-187">Juurdepääsuloendi hierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organisatsioon             | Kulukeskused | Dimensiooni klassifitseerimishierarhia | Ei                    |
+| <span data-ttu-id="4667e-188">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-188">Organization</span></span>             | <span data-ttu-id="4667e-189">Kulukeskused</span><span class="sxs-lookup"><span data-stu-id="4667e-189">Cost centers</span></span> | <span data-ttu-id="4667e-190">Dimensiooni klassifitseerimishierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="4667e-191">Ei</span><span class="sxs-lookup"><span data-stu-id="4667e-191">No</span></span>                    |
 
-Aruandluse jaoks saab dimensioonihierarhia seadistada siin näidatud viisil.
+<span data-ttu-id="4667e-192">Aruandluse jaoks saab dimensioonihierarhia seadistada siin näidatud viisil.</span><span class="sxs-lookup"><span data-stu-id="4667e-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | Dimensiooniliikmete vahemikud   |                         |
+|                   | <span data-ttu-id="4667e-193">Dimensiooniliikmete vahemikud</span><span class="sxs-lookup"><span data-stu-id="4667e-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Sõlmed**         | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
-| Organisatsioon      |                           |                         |
-| &nbsp;&nbsp;Administraator         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Personaliosakond        | CC001                     | CC001                   |
-| &nbsp;&nbsp;Tootmine    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Pakendamine | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Assembler  | CC006                     | CC006                   |
+| <span data-ttu-id="4667e-194">**Sõlmed**</span><span class="sxs-lookup"><span data-stu-id="4667e-194">**Nodes**</span></span>         | <span data-ttu-id="4667e-195">**Lähtedimensiooni liige**</span><span class="sxs-lookup"><span data-stu-id="4667e-195">**From dimension member**</span></span> | <span data-ttu-id="4667e-196">**Sihtdimensiooni liige**</span><span class="sxs-lookup"><span data-stu-id="4667e-196">**To dimension member**</span></span> |
+| <span data-ttu-id="4667e-197">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="4667e-198">&nbsp;&nbsp;Administraator</span><span class="sxs-lookup"><span data-stu-id="4667e-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="4667e-199">&nbsp;&nbsp;&nbsp;&nbsp;Finantsid</span><span class="sxs-lookup"><span data-stu-id="4667e-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="4667e-200">CC002</span><span class="sxs-lookup"><span data-stu-id="4667e-200">CC002</span></span>                     | <span data-ttu-id="4667e-201">CC003</span><span class="sxs-lookup"><span data-stu-id="4667e-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="4667e-202">CC007</span><span class="sxs-lookup"><span data-stu-id="4667e-202">CC007</span></span>                     | <span data-ttu-id="4667e-203">CC007</span><span class="sxs-lookup"><span data-stu-id="4667e-203">CC007</span></span>                   |
+| <span data-ttu-id="4667e-204">&nbsp;&nbsp;&nbsp;&nbsp;Personaliosakond</span><span class="sxs-lookup"><span data-stu-id="4667e-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="4667e-205">CC001</span><span class="sxs-lookup"><span data-stu-id="4667e-205">CC001</span></span>                     | <span data-ttu-id="4667e-206">CC001</span><span class="sxs-lookup"><span data-stu-id="4667e-206">CC001</span></span>                   |
+| <span data-ttu-id="4667e-207">&nbsp;&nbsp;Tootmine</span><span class="sxs-lookup"><span data-stu-id="4667e-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="4667e-208">&nbsp;&nbsp;&nbsp;&nbsp;Pakendamine</span><span class="sxs-lookup"><span data-stu-id="4667e-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="4667e-209">CC005</span><span class="sxs-lookup"><span data-stu-id="4667e-209">CC005</span></span>                     | <span data-ttu-id="4667e-210">CC005</span><span class="sxs-lookup"><span data-stu-id="4667e-210">CC005</span></span>                   |
+| <span data-ttu-id="4667e-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembler</span><span class="sxs-lookup"><span data-stu-id="4667e-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="4667e-212">CC006</span><span class="sxs-lookup"><span data-stu-id="4667e-212">CC006</span></span>                     | <span data-ttu-id="4667e-213">CC006</span><span class="sxs-lookup"><span data-stu-id="4667e-213">CC006</span></span>                   |
 
-Dimensioonihierarhia, mis täidab poliitika nõude, saab seadistada siin näidatud viisil.
+<span data-ttu-id="4667e-214">Dimensioonihierarhia, mis täidab poliitika nõude, saab seadistada siin näidatud viisil.</span><span class="sxs-lookup"><span data-stu-id="4667e-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**Dimensioonihierarhia üksikasjad**
+<span data-ttu-id="4667e-215">**Dimensioonihierarhia üksikasjad**</span><span class="sxs-lookup"><span data-stu-id="4667e-215">**Dimension hierarchy details**</span></span>
 
-| Dimensioonihierarhia nimi | Dimensioon     | Dimensiooni hierarhia tüübi nimi      |
+| <span data-ttu-id="4667e-216">Dimensioonihierarhia nimi</span><span class="sxs-lookup"><span data-stu-id="4667e-216">Dimension hierarchy name</span></span> | <span data-ttu-id="4667e-217">Dimensioon</span><span class="sxs-lookup"><span data-stu-id="4667e-217">Dimension</span></span>     | <span data-ttu-id="4667e-218">Dimensiooni hierarhia tüübi nimi</span><span class="sxs-lookup"><span data-stu-id="4667e-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| Kulukäitumine            | Kuluelemendid | Dimensiooni klassifitseerimishierarhia |
+| <span data-ttu-id="4667e-219">Kulukäitumine</span><span class="sxs-lookup"><span data-stu-id="4667e-219">Cost behavior</span></span>            | <span data-ttu-id="4667e-220">Kuluelemendid</span><span class="sxs-lookup"><span data-stu-id="4667e-220">Cost elements</span></span> | <span data-ttu-id="4667e-221">Dimensiooni klassifitseerimishierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-221">Dimension classification hierarchy</span></span> |
 
-Poliitika jaoks saab dimensioonihierarhia seadistada siin näidatud viisil.
+<span data-ttu-id="4667e-222">Poliitika jaoks saab dimensioonihierarhia seadistada siin näidatud viisil.</span><span class="sxs-lookup"><span data-stu-id="4667e-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | Dimensiooniliikmete vahemikud   |                         |
+|                   | <span data-ttu-id="4667e-223">Dimensiooniliikmete vahemikud</span><span class="sxs-lookup"><span data-stu-id="4667e-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Sõlmed**         | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
-| Kulukäitumine     |                           |                         |
-| &nbsp;&nbsp;Fikseeritud kulu    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Muutuv kulu | 40001                     | 40010                   |
+| <span data-ttu-id="4667e-224">**Sõlmed**</span><span class="sxs-lookup"><span data-stu-id="4667e-224">**Nodes**</span></span>         | <span data-ttu-id="4667e-225">**Lähtedimensiooni liige**</span><span class="sxs-lookup"><span data-stu-id="4667e-225">**From dimension member**</span></span> | <span data-ttu-id="4667e-226">**Sihtdimensiooni liige**</span><span class="sxs-lookup"><span data-stu-id="4667e-226">**To dimension member**</span></span> |
+| <span data-ttu-id="4667e-227">Kulukäitumine</span><span class="sxs-lookup"><span data-stu-id="4667e-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="4667e-228">&nbsp;&nbsp;Fikseeritud kulu</span><span class="sxs-lookup"><span data-stu-id="4667e-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="4667e-229">10001</span><span class="sxs-lookup"><span data-stu-id="4667e-229">10001</span></span>                     | <span data-ttu-id="4667e-230">10011</span><span class="sxs-lookup"><span data-stu-id="4667e-230">10011</span></span>                   |
+|<span data-ttu-id="4667e-231">&nbsp;&nbsp;Muutuv kulu</span><span class="sxs-lookup"><span data-stu-id="4667e-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="4667e-232">40001</span><span class="sxs-lookup"><span data-stu-id="4667e-232">40001</span></span>                     | <span data-ttu-id="4667e-233">40010</span><span class="sxs-lookup"><span data-stu-id="4667e-233">40010</span></span>                   |
 
 > [!NOTE]
-> Jaotises **Dimensiooniliikmete vahemikud** võib sõlm sisaldada 1:_n_ dimensiooniliikmete vahemikku. Saate sisestada dimensiooniliikme ID-d, mida ei ole veel dimensiooni liikmetena olemas. See lähenemine muudab hierarhia tulevikku silmas pidades paindlikuks.  
+> <span data-ttu-id="4667e-234">Jaotises **Dimensiooniliikmete vahemikud** võib sõlm sisaldada 1:_n_ dimensiooniliikmete vahemikku.</span><span class="sxs-lookup"><span data-stu-id="4667e-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="4667e-235">Saate sisestada dimensiooniliikme ID-d, mida ei ole veel dimensiooni liikmetena olemas.</span><span class="sxs-lookup"><span data-stu-id="4667e-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="4667e-236">See lähenemine muudab hierarhia tulevikku silmas pidades paindlikuks.</span><span class="sxs-lookup"><span data-stu-id="4667e-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>Hierarhia kopeerimine
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="4667e-237">Hierarhia kopeerimine</span><span class="sxs-lookup"><span data-stu-id="4667e-237">Copy a hierarchy</span></span>
 
-Saate kopeerida praeguse dimensioonihierarhia uue dimensioonihierarhia lähtepunktiks. Selline lähenemine võib olla abiks, kui soovite võrrelda eelmist dimensioonihierarhiat uue dimensioonihierarhiaga.
+<span data-ttu-id="4667e-238">Saate kopeerida praeguse dimensioonihierarhia uue dimensioonihierarhia lähtepunktiks.</span><span class="sxs-lookup"><span data-stu-id="4667e-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="4667e-239">Selline lähenemine võib olla abiks, kui soovite võrrelda eelmist dimensioonihierarhiat uue dimensioonihierarhiaga.</span><span class="sxs-lookup"><span data-stu-id="4667e-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>Sõlmede ümberpaigutamine hierarhias
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="4667e-240">Sõlmede ümberpaigutamine hierarhias</span><span class="sxs-lookup"><span data-stu-id="4667e-240">Rearrange nodes in a hierarchy</span></span>
 
-Sõlme saab struktuuri praegusel tasemel üles ja alla liigutada. Sel viisil saate sõlmede järjestust tööruumis **Kulujuhtimine** aruandluse jaoks ümber korraldada.
+<span data-ttu-id="4667e-241">Sõlme saab struktuuri praegusel tasemel üles ja alla liigutada.</span><span class="sxs-lookup"><span data-stu-id="4667e-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="4667e-242">Sel viisil saate sõlmede järjestust tööruumis **Kulujuhtimine** aruandluse jaoks ümber korraldada.</span><span class="sxs-lookup"><span data-stu-id="4667e-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-Sõlme saab hierarhias uude kohta viia, valides sihtsõlme. Sõlme teisaldamiseks on kaks võimalust.
+<span data-ttu-id="4667e-243">Sõlme saab hierarhias uude kohta viia, valides sihtsõlme.</span><span class="sxs-lookup"><span data-stu-id="4667e-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="4667e-244">Sõlme teisaldamiseks on kaks võimalust.</span><span class="sxs-lookup"><span data-stu-id="4667e-244">There are two ways to move a node:</span></span>
 
-- **Nihuta alla** – saate valitud sõlme selle asukohast hierarhias eemaldada ja lisada valitud sihtsõlme **alla**.
-- **Nihuta järele** – saate valitud sõlme selle asukohast hierarhias eemaldada ja lisada valitud sihtsõlme **järele** selle hierarhiatasandil.
+- <span data-ttu-id="4667e-245">**Nihuta alla** – saate valitud sõlme selle asukohast hierarhias eemaldada ja lisada valitud sihtsõlme **alla**.</span><span class="sxs-lookup"><span data-stu-id="4667e-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="4667e-246">**Nihuta järele** – saate valitud sõlme selle asukohast hierarhias eemaldada ja lisada valitud sihtsõlme **järele** selle hierarhiatasandil.</span><span class="sxs-lookup"><span data-stu-id="4667e-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> Sõlmede järjekorda ei säilitata, kui ekspordite andmed Excelisse või Power BI-sse, kuna need tööriistad kasutavad vaikimisi tähtedest ja numbritest koosnevat sortimisjärjestust. Järjekord tuleb käsitsi ümber korraldada.
+> <span data-ttu-id="4667e-247">Sõlmede järjekorda ei säilitata, kui ekspordite andmed Excelisse või Power BI-sse, kuna need tööriistad kasutavad vaikimisi tähtedest ja numbritest koosnevat sortimisjärjestust.</span><span class="sxs-lookup"><span data-stu-id="4667e-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="4667e-248">Järjekord tuleb käsitsi ümber korraldada.</span><span class="sxs-lookup"><span data-stu-id="4667e-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>Dimensioonihierarhiate määratlemine aruandluseks
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="4667e-249">Dimensioonihierarhiate määratlemine aruandluseks</span><span class="sxs-lookup"><span data-stu-id="4667e-249">Define dimension hierarchies for reporting</span></span>
 
-Dimensioonihierarhiad on aruandluseks olulised. Nende abil saate määratleda kindla struktuuri, mis sobib eraldi organisatsioonile. Dimensioonihierarhia sõlme tasandil toimuvad liitmised võimaldavad organisatsiooni igasuguse tasandi sidusrühmadel näha igasuguse tasandi andmeid.
+<span data-ttu-id="4667e-250">Dimensioonihierarhiad on aruandluseks olulised.</span><span class="sxs-lookup"><span data-stu-id="4667e-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="4667e-251">Nende abil saate määratleda kindla struktuuri, mis sobib eraldi organisatsioonile.</span><span class="sxs-lookup"><span data-stu-id="4667e-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="4667e-252">Dimensioonihierarhia sõlme tasandil toimuvad liitmised võimaldavad organisatsiooni igasuguse tasandi sidusrühmadel näha igasuguse tasandi andmeid.</span><span class="sxs-lookup"><span data-stu-id="4667e-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-Dimensioonihierarhiad on saadaval järgmistes aruandlustööriistades. See lähenemine aitab tagada aruandlusstruktuuri järjepidevuse.
+<span data-ttu-id="4667e-253">Dimensioonihierarhiad on saadaval järgmistes aruandlustööriistades.</span><span class="sxs-lookup"><span data-stu-id="4667e-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="4667e-254">See lähenemine aitab tagada aruandlusstruktuuri järjepidevuse.</span><span class="sxs-lookup"><span data-stu-id="4667e-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- **Kulujuhtimise** tööruum (klient):
+- <span data-ttu-id="4667e-255">**Kulujuhtimise** tööruum (klient):</span><span class="sxs-lookup"><span data-stu-id="4667e-255">**Cost control** workspace (Client):</span></span>
 
-    - kontrollitakse konfiguratsiooniga.
+    - <span data-ttu-id="4667e-256">kontrollitakse konfiguratsiooniga.</span><span class="sxs-lookup"><span data-stu-id="4667e-256">Controlled by configuration.</span></span>
 
-- **Kulujuhtimise** tööruum (mobiilirakendus):
+- <span data-ttu-id="4667e-257">**Kulujuhtimise** tööruum (mobiilirakendus):</span><span class="sxs-lookup"><span data-stu-id="4667e-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - kontrollitakse konfiguratsiooniga.
+    - <span data-ttu-id="4667e-258">kontrollitakse konfiguratsiooniga.</span><span class="sxs-lookup"><span data-stu-id="4667e-258">Controlled by configuration.</span></span>
 
-- Excel
+- <span data-ttu-id="4667e-259">Excel</span><span class="sxs-lookup"><span data-stu-id="4667e-259">Excel</span></span>
 
-    - annab võimaluse valida konkreetsed dimensioonihierarhiad ekspordidefinitsiooni kohta.
+    - <span data-ttu-id="4667e-260">annab võimaluse valida konkreetsed dimensioonihierarhiad ekspordidefinitsiooni kohta.</span><span class="sxs-lookup"><span data-stu-id="4667e-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - Üks kuluelemendi dimensioonihierarhia (kohustuslik)
-        - Üks kuluobjekti dimensioonihierarhia (valikuline)
-        - Üks statistiline dimensioonihierarhia (valikuline)
+        - <span data-ttu-id="4667e-261">Üks kuluelemendi dimensioonihierarhia (kohustuslik)</span><span class="sxs-lookup"><span data-stu-id="4667e-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="4667e-262">Üks kuluobjekti dimensioonihierarhia (valikuline)</span><span class="sxs-lookup"><span data-stu-id="4667e-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="4667e-263">Üks statistiline dimensioonihierarhia (valikuline)</span><span class="sxs-lookup"><span data-stu-id="4667e-263">One statistical dimension hierarchy (optional)</span></span>
 
-- Power BI:
+- <span data-ttu-id="4667e-264">Power BI:</span><span class="sxs-lookup"><span data-stu-id="4667e-264">Power BI:</span></span>
 
-    - saadaval on kõik dimensioonihierarhiad.
+    - <span data-ttu-id="4667e-265">saadaval on kõik dimensioonihierarhiad.</span><span class="sxs-lookup"><span data-stu-id="4667e-265">All dimension hierarchies are available.</span></span>
     
-Kui koostate Exceli või Power BI abil aruandeid, siis eksporditakse ainult esimesed 15 dimensioonihierarhiate taset. See piirang on sellepärast, et nii Excelis kui ka Power BI-s on vaja fikseeritud skeemi. Kui hierarhias on üle 15 taseme, siis rohkem tasemeid ei ekspordita. Normeeritud tabel sisaldab kirjet iga dimensiooniliikme kohta hierarhias. Seetõttu toimub automaatne liitmine. See aitab tagada, et saldod kõigil 15 olemasoleval hierarhiatasandil on õiged.
+<span data-ttu-id="4667e-266">Kui koostate Exceli või Power BI abil aruandeid, siis eksporditakse ainult esimesed 15 dimensioonihierarhiate taset.</span><span class="sxs-lookup"><span data-stu-id="4667e-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="4667e-267">See piirang on sellepärast, et nii Excelis kui ka Power BI-s on vaja fikseeritud skeemi.</span><span class="sxs-lookup"><span data-stu-id="4667e-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="4667e-268">Kui hierarhias on üle 15 taseme, siis rohkem tasemeid ei ekspordita.</span><span class="sxs-lookup"><span data-stu-id="4667e-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="4667e-269">Normeeritud tabel sisaldab kirjet iga dimensiooniliikme kohta hierarhias.</span><span class="sxs-lookup"><span data-stu-id="4667e-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="4667e-270">Seetõttu toimub automaatne liitmine.</span><span class="sxs-lookup"><span data-stu-id="4667e-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="4667e-271">See aitab tagada, et saldod kõigil 15 olemasoleval hierarhiatasandil on õiged.</span><span class="sxs-lookup"><span data-stu-id="4667e-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-Järgmises näites näidatakse, milline dimensioonihierarhia aruandlusstruktuuris välja võib näha.
+<span data-ttu-id="4667e-272">Järgmises näites näidatakse, milline dimensioonihierarhia aruandlusstruktuuris välja võib näha.</span><span class="sxs-lookup"><span data-stu-id="4667e-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| Kuluobjekti dimensioonihierarhia – tase 1 | Kuluobjekti dimensioonihierarhia – tase 2 | Kuluobjekti dimensioonihierarhia – tase 3 | Kuluobjekti dimensioonihierarhia – tase 4 | Kuluobjekti dimensioonihierarhia – tase 15 |
+| <span data-ttu-id="4667e-273">Kuluobjekti dimensioonihierarhia – tase 1</span><span class="sxs-lookup"><span data-stu-id="4667e-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="4667e-274">Kuluobjekti dimensioonihierarhia – tase 2</span><span class="sxs-lookup"><span data-stu-id="4667e-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="4667e-275">Kuluobjekti dimensioonihierarhia – tase 3</span><span class="sxs-lookup"><span data-stu-id="4667e-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="4667e-276">Kuluobjekti dimensioonihierarhia – tase 4</span><span class="sxs-lookup"><span data-stu-id="4667e-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="4667e-277">Kuluobjekti dimensioonihierarhia – tase 15</span><span class="sxs-lookup"><span data-stu-id="4667e-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organisatsioon                              | Administraator                                     | Finantsid                                   | CC002                                     |                                            |
-| Organisatsioon                              | Administraator                                     | Finantsid                                   | CC003                                     |                                            |
-| Organisatsioon                              | Administraator                                     | Finantsid                                   | CC007                                     |                                            |
-| Organisatsioon                              | Administraator                                     | Personaliosakond                                        | CC001                                     |                                            |
-| Organisatsioon                              | Tootmine                                | Pakendamine                                 | CC005                                     |                                            |
-| Organisatsioon                              | Tootmine                                | Assembler                                  | CC006                                     |                                            |
+| <span data-ttu-id="4667e-278">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-278">Organization</span></span>                              | <span data-ttu-id="4667e-279">Administraator</span><span class="sxs-lookup"><span data-stu-id="4667e-279">Admin</span></span>                                     | <span data-ttu-id="4667e-280">Finantsid</span><span class="sxs-lookup"><span data-stu-id="4667e-280">Finance</span></span>                                   | <span data-ttu-id="4667e-281">CC002</span><span class="sxs-lookup"><span data-stu-id="4667e-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="4667e-282">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-282">Organization</span></span>                              | <span data-ttu-id="4667e-283">Administraator</span><span class="sxs-lookup"><span data-stu-id="4667e-283">Admin</span></span>                                     | <span data-ttu-id="4667e-284">Finantsid</span><span class="sxs-lookup"><span data-stu-id="4667e-284">Finance</span></span>                                   | <span data-ttu-id="4667e-285">CC003</span><span class="sxs-lookup"><span data-stu-id="4667e-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="4667e-286">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-286">Organization</span></span>                              | <span data-ttu-id="4667e-287">Administraator</span><span class="sxs-lookup"><span data-stu-id="4667e-287">Admin</span></span>                                     | <span data-ttu-id="4667e-288">Finantsid</span><span class="sxs-lookup"><span data-stu-id="4667e-288">Finance</span></span>                                   | <span data-ttu-id="4667e-289">CC007</span><span class="sxs-lookup"><span data-stu-id="4667e-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="4667e-290">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-290">Organization</span></span>                              | <span data-ttu-id="4667e-291">Administraator</span><span class="sxs-lookup"><span data-stu-id="4667e-291">Admin</span></span>                                     | <span data-ttu-id="4667e-292">Personaliosakond</span><span class="sxs-lookup"><span data-stu-id="4667e-292">HR</span></span>                                        | <span data-ttu-id="4667e-293">CC001</span><span class="sxs-lookup"><span data-stu-id="4667e-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="4667e-294">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-294">Organization</span></span>                              | <span data-ttu-id="4667e-295">Tootmine</span><span class="sxs-lookup"><span data-stu-id="4667e-295">Production</span></span>                                | <span data-ttu-id="4667e-296">Pakendamine</span><span class="sxs-lookup"><span data-stu-id="4667e-296">Packaging</span></span>                                 | <span data-ttu-id="4667e-297">CC005</span><span class="sxs-lookup"><span data-stu-id="4667e-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="4667e-298">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-298">Organization</span></span>                              | <span data-ttu-id="4667e-299">Tootmine</span><span class="sxs-lookup"><span data-stu-id="4667e-299">Production</span></span>                                | <span data-ttu-id="4667e-300">Assembler</span><span class="sxs-lookup"><span data-stu-id="4667e-300">Assembly</span></span>                                  | <span data-ttu-id="4667e-301">CC006</span><span class="sxs-lookup"><span data-stu-id="4667e-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Aruandluses kasutatavate dimensioonihierarhiate uuendamine 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="4667e-302">Aruandluses kasutatavate dimensioonihierarhiate uuendamine</span><span class="sxs-lookup"><span data-stu-id="4667e-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-Aja jooksul tuleb eespool mainitud aruandlustööriistades kasutatavaid dimensioonihierarhiaid uuendada. Dimensioonihierarhiaid saab uuendada, uuendades klienti.
+<span data-ttu-id="4667e-303">Aja jooksul tuleb eespool mainitud aruandlustööriistades kasutatavaid dimensioonihierarhiaid uuendada.</span><span class="sxs-lookup"><span data-stu-id="4667e-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="4667e-304">Dimensioonihierarhiaid saab uuendada, uuendades klienti.</span><span class="sxs-lookup"><span data-stu-id="4667e-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- **Kulujuhtimise** tööruum (klient)
-- **Kulujuhtimise** tööruum (mobiilirakendus)
+- <span data-ttu-id="4667e-305">**Kulujuhtimise** tööruum (klient)</span><span class="sxs-lookup"><span data-stu-id="4667e-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="4667e-306">**Kulujuhtimise** tööruum (mobiilirakendus)</span><span class="sxs-lookup"><span data-stu-id="4667e-306">**Cost control** workspace (Mobile application)</span></span>
 
-Dimensioonihierarhiate uuendused tuuakse eelnevalt vahemällu salvestatud töö puhul iga 24 tunni järel. Pärast eksporditud andmete uuendamist on uuendatud dimensioonihierarhiad saadaval järgmistes tööriistades.
+<span data-ttu-id="4667e-307">Dimensioonihierarhiate uuendused tuuakse eelnevalt vahemällu salvestatud töö puhul iga 24 tunni järel.</span><span class="sxs-lookup"><span data-stu-id="4667e-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="4667e-308">Pärast eksporditud andmete uuendamist on uuendatud dimensioonihierarhiad saadaval järgmistes tööriistades.</span><span class="sxs-lookup"><span data-stu-id="4667e-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- Excel
-- Power BI
+- <span data-ttu-id="4667e-309">Excel</span><span class="sxs-lookup"><span data-stu-id="4667e-309">Excel</span></span>
+- <span data-ttu-id="4667e-310">Power BI</span><span class="sxs-lookup"><span data-stu-id="4667e-310">Power BI</span></span>
 
 > [!NOTE] 
-> Dimensioonihierarhia vahemälu uuenduse käsitsi käivitamiseks võite uuendatava dimensioonihierarhia või -hierarhiate puhul luua uue ekspordi Excelisse
+> <span data-ttu-id="4667e-311">Dimensioonihierarhia vahemälu uuenduse käsitsi käivitamiseks võite uuendatava dimensioonihierarhia või -hierarhiate puhul luua uue ekspordi Excelisse</span><span class="sxs-lookup"><span data-stu-id="4667e-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>Dimensioonihierarhiate määratlemine kulupoliitikate jaoks
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="4667e-312">Dimensioonihierarhiate määratlemine kulupoliitikate jaoks</span><span class="sxs-lookup"><span data-stu-id="4667e-312">Define dimension hierarchies for cost policies</span></span>
 
-Kuluarvestus koosneb mitmest poliitikast, milles on määratletud üksikasjalikud reeglid. Määratleda tuleb vähemalt üks dimensioonihierarhia järgmiste poliitikate jaoks.
+<span data-ttu-id="4667e-313">Kuluarvestus koosneb mitmest poliitikast, milles on määratletud üksikasjalikud reeglid.</span><span class="sxs-lookup"><span data-stu-id="4667e-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="4667e-314">Määratleda tuleb vähemalt üks dimensioonihierarhia järgmiste poliitikate jaoks.</span><span class="sxs-lookup"><span data-stu-id="4667e-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- Kulukäitumine
-- Kulu jaotus
-- Kulude eraldamine
-- Kulukomplekt
+- <span data-ttu-id="4667e-315">Kulukäitumine</span><span class="sxs-lookup"><span data-stu-id="4667e-315">Cost behavior</span></span>
+- <span data-ttu-id="4667e-316">Kulu jaotus</span><span class="sxs-lookup"><span data-stu-id="4667e-316">Cost distribution</span></span>
+- <span data-ttu-id="4667e-317">Kulude eraldamine</span><span class="sxs-lookup"><span data-stu-id="4667e-317">Cost allocation</span></span>
+- <span data-ttu-id="4667e-318">Kulukomplekt</span><span class="sxs-lookup"><span data-stu-id="4667e-318">Cost rollup</span></span>
 
-Dimensioonihierarhiad muudavad reeglite loomise lihtsaks. Et poleks vaja igale dimensiooniliikmele reegleid luua, võite kasutada dimensiooniliikmete kogumeid dimensioonihierarhia tasandite kaudu. Kui teil on kattuvad reeglid, peate määratlema konkreetsed reeglid, mida süsteem üldkulude arvutamisel arvestab.
+<span data-ttu-id="4667e-319">Dimensioonihierarhiad muudavad reeglite loomise lihtsaks.</span><span class="sxs-lookup"><span data-stu-id="4667e-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="4667e-320">Et poleks vaja igale dimensiooniliikmele reegleid luua, võite kasutada dimensiooniliikmete kogumeid dimensioonihierarhia tasandite kaudu.</span><span class="sxs-lookup"><span data-stu-id="4667e-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="4667e-321">Kui teil on kattuvad reeglid, peate määratlema konkreetsed reeglid, mida süsteem üldkulude arvutamisel arvestab.</span><span class="sxs-lookup"><span data-stu-id="4667e-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>Näide: kulukäitumise poliitika määratlemine
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="4667e-322">Näide: kulukäitumise poliitika määratlemine</span><span class="sxs-lookup"><span data-stu-id="4667e-322">Example: Define a cost behavior policy</span></span>
 
-Luuakse uus kulukäitumise poliitika ja poliitikale määratakse siin näidatud viisil sobivad dimensioonihierarhiad.
+<span data-ttu-id="4667e-323">Luuakse uus kulukäitumise poliitika ja poliitikale määratakse siin näidatud viisil sobivad dimensioonihierarhiad.</span><span class="sxs-lookup"><span data-stu-id="4667e-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**Kulukäitumise poliitika**
+<span data-ttu-id="4667e-324">**Kulukäitumise poliitika**</span><span class="sxs-lookup"><span data-stu-id="4667e-324">**Cost behavior policy**</span></span>
 
-| Poliitika nimi   | Kuluelemendi dimensioonihierarhia | Kuluobjekti dimensioonihierarhia | Arvestusvaluuta |
+| <span data-ttu-id="4667e-325">Poliitika nimi</span><span class="sxs-lookup"><span data-stu-id="4667e-325">Policy name</span></span>   | <span data-ttu-id="4667e-326">Kuluelemendi dimensioonihierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="4667e-327">Kuluobjekti dimensioonihierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="4667e-328">Arvestusvaluuta</span><span class="sxs-lookup"><span data-stu-id="4667e-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| Kulukäitumine | Kulukäitumine                    | Organisatsioon                    | USA dollar                 |
+| <span data-ttu-id="4667e-329">Kulukäitumine</span><span class="sxs-lookup"><span data-stu-id="4667e-329">Cost behavior</span></span> | <span data-ttu-id="4667e-330">Kulukäitumine</span><span class="sxs-lookup"><span data-stu-id="4667e-330">Cost behavior</span></span>                    | <span data-ttu-id="4667e-331">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-331">Organization</span></span>                    | <span data-ttu-id="4667e-332">USA dollar</span><span class="sxs-lookup"><span data-stu-id="4667e-332">USD</span></span>                 |
 
-**Reeglid**
+<span data-ttu-id="4667e-333">**Reeglid**</span><span class="sxs-lookup"><span data-stu-id="4667e-333">**Rules**</span></span>
 
-| Kuluelemendi dimensioonihierarhia sõlm | Kuluobjekti dimensioonihierarhia sõlm | Fikseeritud protsent | Fikseeritud summa | Kehtiv alates | Kehtiv kuni |
+| <span data-ttu-id="4667e-334">Kuluelemendi dimensioonihierarhia sõlm</span><span class="sxs-lookup"><span data-stu-id="4667e-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="4667e-335">Kuluobjekti dimensioonihierarhia sõlm</span><span class="sxs-lookup"><span data-stu-id="4667e-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="4667e-336">Fikseeritud protsent</span><span class="sxs-lookup"><span data-stu-id="4667e-336">Fixed percentage</span></span> | <span data-ttu-id="4667e-337">Fikseeritud summa</span><span class="sxs-lookup"><span data-stu-id="4667e-337">Fixed amount</span></span> | <span data-ttu-id="4667e-338">Kehtiv alates</span><span class="sxs-lookup"><span data-stu-id="4667e-338">Valid from</span></span> | <span data-ttu-id="4667e-339">Kehtiv kuni</span><span class="sxs-lookup"><span data-stu-id="4667e-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| Fikseeritud kulu                            | Organisatsioon                         | 100,00           | 0,00         | 1/1/2017   | Mitte kunagi    |
-| 10001                                 | Organisatsioon                         | 0,00             | 150.00       | 1/1/2017   | Mitte kunagi    |
-| 10001 (\*)                             | Finantsid                              |                  | 50,00        | 1/1/2017   | Mitte kunagi    |
-| Kulukäitumine või muutuvkulu (\*\*)   | Organisatsioon                         | 0,00             | 0,00         | 1/1/2017   | Mitte kunagi    |
+| <span data-ttu-id="4667e-340">Fikseeritud kulu</span><span class="sxs-lookup"><span data-stu-id="4667e-340">Fixed cost</span></span>                            | <span data-ttu-id="4667e-341">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-341">Organization</span></span>                         | <span data-ttu-id="4667e-342">100,00</span><span class="sxs-lookup"><span data-stu-id="4667e-342">100.00</span></span>           | <span data-ttu-id="4667e-343">0,00</span><span class="sxs-lookup"><span data-stu-id="4667e-343">0.00</span></span>         | <span data-ttu-id="4667e-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-344">1/1/2017</span></span>   | <span data-ttu-id="4667e-345">Mitte kunagi</span><span class="sxs-lookup"><span data-stu-id="4667e-345">Never</span></span>    |
+| <span data-ttu-id="4667e-346">10001</span><span class="sxs-lookup"><span data-stu-id="4667e-346">10001</span></span>                                 | <span data-ttu-id="4667e-347">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-347">Organization</span></span>                         | <span data-ttu-id="4667e-348">0,00</span><span class="sxs-lookup"><span data-stu-id="4667e-348">0.00</span></span>             | <span data-ttu-id="4667e-349">150.00</span><span class="sxs-lookup"><span data-stu-id="4667e-349">150.00</span></span>       | <span data-ttu-id="4667e-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-350">1/1/2017</span></span>   | <span data-ttu-id="4667e-351">Mitte kunagi</span><span class="sxs-lookup"><span data-stu-id="4667e-351">Never</span></span>    |
+| <span data-ttu-id="4667e-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="4667e-352">10001 (\*)</span></span>                             | <span data-ttu-id="4667e-353">Finantsid</span><span class="sxs-lookup"><span data-stu-id="4667e-353">Finance</span></span>                              |                  | <span data-ttu-id="4667e-354">50,00</span><span class="sxs-lookup"><span data-stu-id="4667e-354">50.00</span></span>        | <span data-ttu-id="4667e-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-355">1/1/2017</span></span>   | <span data-ttu-id="4667e-356">Mitte kunagi</span><span class="sxs-lookup"><span data-stu-id="4667e-356">Never</span></span>    |
+| <span data-ttu-id="4667e-357">Kulukäitumine või muutuvkulu (\*\*)</span><span class="sxs-lookup"><span data-stu-id="4667e-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="4667e-358">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-358">Organization</span></span>                         | <span data-ttu-id="4667e-359">0,00</span><span class="sxs-lookup"><span data-stu-id="4667e-359">0.00</span></span>             | <span data-ttu-id="4667e-360">0,00</span><span class="sxs-lookup"><span data-stu-id="4667e-360">0.00</span></span>         | <span data-ttu-id="4667e-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-361">1/1/2017</span></span>   | <span data-ttu-id="4667e-362">Mitte kunagi</span><span class="sxs-lookup"><span data-stu-id="4667e-362">Never</span></span>    |
 
-\* Muutuvkulu sõlm pole nõutav. Kui kulu pole liigitatud fikseeritud kuluks, peab see olema muutuvkulu.
+<span data-ttu-id="4667e-363">\* Muutuvkulu sõlm pole nõutav.</span><span class="sxs-lookup"><span data-stu-id="4667e-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="4667e-364">Kui kulu pole liigitatud fikseeritud kuluks, peab see olema muutuvkulu.</span><span class="sxs-lookup"><span data-stu-id="4667e-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* Luuakse üksikasjalik reegel kuluelemendi liikme 10001 ja kõigi finantside hierarhiatasandi alla koondatud kuluobjekti liikmete kombinatsioonile (CC002, CC003, CC007).
+<span data-ttu-id="4667e-365">\*\* Luuakse üksikasjalik reegel kuluelemendi liikme 10001 ja kõigi finantside hierarhiatasandi alla koondatud kuluobjekti liikmete kombinatsioonile (CC002, CC003, CC007).</span><span class="sxs-lookup"><span data-stu-id="4667e-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-Eelnevad reeglid näitavad paindlikkust, mida dimensioonihierarhiad pakuvad. Kõrgetasemeliste reeglite määratlemisega saate hooldust vähendada. Seejärel saate määratleda üksikasjalikud reeglid, mis sobiksid konkreetse ärieesmärgiga.
+<span data-ttu-id="4667e-366">Eelnevad reeglid näitavad paindlikkust, mida dimensioonihierarhiad pakuvad.</span><span class="sxs-lookup"><span data-stu-id="4667e-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="4667e-367">Kõrgetasemeliste reeglite määratlemisega saate hooldust vähendada.</span><span class="sxs-lookup"><span data-stu-id="4667e-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="4667e-368">Seejärel saate määratleda üksikasjalikud reeglid, mis sobiksid konkreetse ärieesmärgiga.</span><span class="sxs-lookup"><span data-stu-id="4667e-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-Kui reeglites kasutatavaid dimensioonihierarhiaid muudetakse, toob süsteem need muudatused automaatselt esile.
+<span data-ttu-id="4667e-369">Kui reeglites kasutatavaid dimensioonihierarhiaid muudetakse, toob süsteem need muudatused automaatselt esile.</span><span class="sxs-lookup"><span data-stu-id="4667e-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-Kui reeglite granulaarsuse tase pole enam vajalik, võib lasta reeglil aeguda.
+<span data-ttu-id="4667e-370">Kui reeglite granulaarsuse tase pole enam vajalik, võib lasta reeglil aeguda.</span><span class="sxs-lookup"><span data-stu-id="4667e-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-Näiteks konkreetne kulukäitumise reegel finantside kuluobjekti dimensiooni hierarhiasõlmes pole enam vajalik. Sellisel juhul klõpsake reegli aeguda laskmiseks nuppu **Lase reeglil aeguda**.
+<span data-ttu-id="4667e-371">Näiteks konkreetne kulukäitumise reegel finantside kuluobjekti dimensiooni hierarhiasõlmes pole enam vajalik.</span><span class="sxs-lookup"><span data-stu-id="4667e-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="4667e-372">Sellisel juhul klõpsake reegli aeguda laskmiseks nuppu **Lase reeglil aeguda**.</span><span class="sxs-lookup"><span data-stu-id="4667e-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| Kuluelemendi dimensioonihierarhia sõlm | Kuluobjekti dimensioonihierarhia sõlm | Fikseeritud protsent | Fikseeritud summa | Kehtiv alates | Kehtiv kuni  |
+| <span data-ttu-id="4667e-373">Kuluelemendi dimensioonihierarhia sõlm</span><span class="sxs-lookup"><span data-stu-id="4667e-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="4667e-374">Kuluobjekti dimensioonihierarhia sõlm</span><span class="sxs-lookup"><span data-stu-id="4667e-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="4667e-375">Fikseeritud protsent</span><span class="sxs-lookup"><span data-stu-id="4667e-375">Fixed percentage</span></span> | <span data-ttu-id="4667e-376">Fikseeritud summa</span><span class="sxs-lookup"><span data-stu-id="4667e-376">Fixed amount</span></span> | <span data-ttu-id="4667e-377">Kehtiv alates</span><span class="sxs-lookup"><span data-stu-id="4667e-377">Valid from</span></span> | <span data-ttu-id="4667e-378">Kehtiv kuni</span><span class="sxs-lookup"><span data-stu-id="4667e-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| Fikseeritud kulu                            | Organisatsioon                         | 100,00           | 0,00         | 1/1/2017   | Mitte kunagi     |
-| 10001                                 | Organisatsioon                         | 0,00             | 150,00       | 1/1/2017   | Mitte kunagi     |
-| 10001                                 | Finantsid                              |                  | 50,00        | 1/1/2017   | 20/1/2017 |
-| Kulukäitumine või muutuvkulu        | Organisatsioon                         | 0,00             | 0,00         | 1/1/2017   | Mitte kunagi     |
+| <span data-ttu-id="4667e-379">Fikseeritud kulu</span><span class="sxs-lookup"><span data-stu-id="4667e-379">Fixed cost</span></span>                            | <span data-ttu-id="4667e-380">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-380">Organization</span></span>                         | <span data-ttu-id="4667e-381">100,00</span><span class="sxs-lookup"><span data-stu-id="4667e-381">100,00</span></span>           | <span data-ttu-id="4667e-382">0,00</span><span class="sxs-lookup"><span data-stu-id="4667e-382">0,00</span></span>         | <span data-ttu-id="4667e-383">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-383">1/1/2017</span></span>   | <span data-ttu-id="4667e-384">Mitte kunagi</span><span class="sxs-lookup"><span data-stu-id="4667e-384">Never</span></span>     |
+| <span data-ttu-id="4667e-385">10001</span><span class="sxs-lookup"><span data-stu-id="4667e-385">10001</span></span>                                 | <span data-ttu-id="4667e-386">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-386">Organization</span></span>                         | <span data-ttu-id="4667e-387">0,00</span><span class="sxs-lookup"><span data-stu-id="4667e-387">0,00</span></span>             | <span data-ttu-id="4667e-388">150,00</span><span class="sxs-lookup"><span data-stu-id="4667e-388">150,00</span></span>       | <span data-ttu-id="4667e-389">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-389">1/1/2017</span></span>   | <span data-ttu-id="4667e-390">Mitte kunagi</span><span class="sxs-lookup"><span data-stu-id="4667e-390">Never</span></span>     |
+| <span data-ttu-id="4667e-391">10001</span><span class="sxs-lookup"><span data-stu-id="4667e-391">10001</span></span>                                 | <span data-ttu-id="4667e-392">Finantsid</span><span class="sxs-lookup"><span data-stu-id="4667e-392">Finance</span></span>                              |                  | <span data-ttu-id="4667e-393">50,00</span><span class="sxs-lookup"><span data-stu-id="4667e-393">50,00</span></span>        | <span data-ttu-id="4667e-394">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-394">1/1/2017</span></span>   | <span data-ttu-id="4667e-395">20/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-395">20/1/2017</span></span> |
+| <span data-ttu-id="4667e-396">Kulukäitumine või muutuvkulu</span><span class="sxs-lookup"><span data-stu-id="4667e-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="4667e-397">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-397">Organization</span></span>                         | <span data-ttu-id="4667e-398">0,00</span><span class="sxs-lookup"><span data-stu-id="4667e-398">0,00</span></span>             | <span data-ttu-id="4667e-399">0,00</span><span class="sxs-lookup"><span data-stu-id="4667e-399">0,00</span></span>         | <span data-ttu-id="4667e-400">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4667e-400">1/1/2017</span></span>   | <span data-ttu-id="4667e-401">Mitte kunagi</span><span class="sxs-lookup"><span data-stu-id="4667e-401">Never</span></span>     |
 
-Ükski üldkulude arvutus, mis tehakse pärast 20. jaanuari 2017, ei arvesta enam seda reeglit.
+<span data-ttu-id="4667e-402">Ükski üldkulude arvutus, mis tehakse pärast 20. jaanuari 2017, ei arvesta enam seda reeglit.</span><span class="sxs-lookup"><span data-stu-id="4667e-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> Väljad **Kehtiv alates** ja **Kehtiv kuni** sõltuvad kuupäevast ja kellaajast. Saate lasta reeglil aeguda ja käivitada samal päeval uue üldkulude arvutuse.
+> <span data-ttu-id="4667e-403">Väljad **Kehtiv alates** ja **Kehtiv kuni** sõltuvad kuupäevast ja kellaajast.</span><span class="sxs-lookup"><span data-stu-id="4667e-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="4667e-404">Saate lasta reeglil aeguda ja käivitada samal päeval uue üldkulude arvutuse.</span><span class="sxs-lookup"><span data-stu-id="4667e-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>Dimensioonihierarhiate määratlemine turvalisuse seadistuse jaoks
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="4667e-405">Dimensioonihierarhiate määratlemine turvalisuse seadistuse jaoks</span><span class="sxs-lookup"><span data-stu-id="4667e-405">Define dimension hierarchies for security setup</span></span>
 
-Kuluarvestuse andmed tuleb teha kättesaadavaks kõigile aruandlusüksuse eest vastutavatele juhtidele. Kuluarvestuse terminoloogias kajastatakse aruandlusüksust kuluobjekti või kuluobjektide kogumina.
+<span data-ttu-id="4667e-406">Kuluarvestuse andmed tuleb teha kättesaadavaks kõigile aruandlusüksuse eest vastutavatele juhtidele.</span><span class="sxs-lookup"><span data-stu-id="4667e-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="4667e-407">Kuluarvestuse terminoloogias kajastatakse aruandlusüksust kuluobjekti või kuluobjektide kogumina.</span><span class="sxs-lookup"><span data-stu-id="4667e-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-Kõigil juhtidel võib olla juurdepääs väga tundlikele äriandmetele, nt tuludele ja marginaalidele. Seetõttu on oluline seadistada turvalisus, et juhid näeksid ainult enda jaoks olulisi andmeid. Andmete turvalisuse kontrollimiseks saate määratleda dimensioonihierarhiad.
+<span data-ttu-id="4667e-408">Kõigil juhtidel võib olla juurdepääs väga tundlikele äriandmetele, nt tuludele ja marginaalidele.</span><span class="sxs-lookup"><span data-stu-id="4667e-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="4667e-409">Seetõttu on oluline seadistada turvalisus, et juhid näeksid ainult enda jaoks olulisi andmeid.</span><span class="sxs-lookup"><span data-stu-id="4667e-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="4667e-410">Andmete turvalisuse kontrollimiseks saate määratleda dimensioonihierarhiad.</span><span class="sxs-lookup"><span data-stu-id="4667e-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- Dimensioonihierarhiate kasutamine kehtib ainult siis, kui dimensioonihierarhia viites valitud dimensiooniväärtus on kuluobjekti dimensioon.
-- Juurdepääsuloendi hierarhias saab kuluobjekti dimensioonil aktiveerida ainult ühe dimensioonihierarhia.
+- <span data-ttu-id="4667e-411">Dimensioonihierarhiate kasutamine kehtib ainult siis, kui dimensioonihierarhia viites valitud dimensiooniväärtus on kuluobjekti dimensioon.</span><span class="sxs-lookup"><span data-stu-id="4667e-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="4667e-412">Juurdepääsuloendi hierarhias saab kuluobjekti dimensioonil aktiveerida ainult ühe dimensioonihierarhia.</span><span class="sxs-lookup"><span data-stu-id="4667e-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**Dimensioonihierarhia üksikasjad**
+<span data-ttu-id="4667e-413">**Dimensioonihierarhia üksikasjad**</span><span class="sxs-lookup"><span data-stu-id="4667e-413">**Dimension hierarchy details**</span></span>
 
-| Dimensioonihierarhia nimi | Dimensioon    | Dimensiooni hierarhia tüübi nimi      | Juurdepääsuloendi hierarhia |
+| <span data-ttu-id="4667e-414">Dimensioonihierarhia nimi</span><span class="sxs-lookup"><span data-stu-id="4667e-414">Dimension hierarchy name</span></span> | <span data-ttu-id="4667e-415">Dimensioon</span><span class="sxs-lookup"><span data-stu-id="4667e-415">Dimension</span></span>    | <span data-ttu-id="4667e-416">Dimensiooni hierarhia tüübi nimi</span><span class="sxs-lookup"><span data-stu-id="4667e-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="4667e-417">Juurdepääsuloendi hierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organisatsioon             | Kulukeskused | Dimensiooni klassifitseerimishierarhia | **Jah**               |
+| <span data-ttu-id="4667e-418">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-418">Organization</span></span>             | <span data-ttu-id="4667e-419">Kulukeskused</span><span class="sxs-lookup"><span data-stu-id="4667e-419">Cost centers</span></span> | <span data-ttu-id="4667e-420">Dimensiooni klassifitseerimishierarhia</span><span class="sxs-lookup"><span data-stu-id="4667e-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="4667e-421">**Jah**</span><span class="sxs-lookup"><span data-stu-id="4667e-421">**Yes**</span></span>               |
 
-Hierarhiakujundajas saab kasutada uut kiirkaarti **Kasutajad**. Siin saate sisestada igasse hierarhiasõlme vähemalt ühe kasutaja ID.
+<span data-ttu-id="4667e-422">Hierarhiakujundajas saab kasutada uut kiirkaarti **Kasutajad**.</span><span class="sxs-lookup"><span data-stu-id="4667e-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="4667e-423">Siin saate sisestada igasse hierarhiasõlme vähemalt ühe kasutaja ID.</span><span class="sxs-lookup"><span data-stu-id="4667e-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | Kasutajad            | Dimensiooniliikmete vahemikud   |                         |
+|                 | <span data-ttu-id="4667e-424">Kasutajad</span><span class="sxs-lookup"><span data-stu-id="4667e-424">Users</span></span>            | <span data-ttu-id="4667e-425">Dimensiooniliikmete vahemikud</span><span class="sxs-lookup"><span data-stu-id="4667e-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Sõlmed**       | **Kasutaja ID**      | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
-| Organisatsioon    | Benjamin, Claire |                           |                         |
-| &nbsp;&nbsp;Administraator         | aprill            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | Alicia           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Personaliosakond        | Arnie            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Tootmine    | David            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Pakendamine | Ellen            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Assembler  | Chris            | CC006                     | CC006                   |
+| <span data-ttu-id="4667e-426">**Sõlmed**</span><span class="sxs-lookup"><span data-stu-id="4667e-426">**Nodes**</span></span>       | <span data-ttu-id="4667e-427">**Kasutaja ID**</span><span class="sxs-lookup"><span data-stu-id="4667e-427">**User ID**</span></span>      | <span data-ttu-id="4667e-428">**Lähtedimensiooni liige**</span><span class="sxs-lookup"><span data-stu-id="4667e-428">**From dimension member**</span></span> | <span data-ttu-id="4667e-429">**Sihtdimensiooni liige**</span><span class="sxs-lookup"><span data-stu-id="4667e-429">**To dimension member**</span></span> |
+| <span data-ttu-id="4667e-430">Organisatsioon</span><span class="sxs-lookup"><span data-stu-id="4667e-430">Organization</span></span>    | <span data-ttu-id="4667e-431">Benjamin, Claire</span><span class="sxs-lookup"><span data-stu-id="4667e-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="4667e-432">&nbsp;&nbsp;Administraator</span><span class="sxs-lookup"><span data-stu-id="4667e-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="4667e-433">aprill</span><span class="sxs-lookup"><span data-stu-id="4667e-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="4667e-434">&nbsp;&nbsp;&nbsp;&nbsp;Finantsid</span><span class="sxs-lookup"><span data-stu-id="4667e-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="4667e-435">Alicia</span><span class="sxs-lookup"><span data-stu-id="4667e-435">Alicia</span></span>           | <span data-ttu-id="4667e-436">CC002</span><span class="sxs-lookup"><span data-stu-id="4667e-436">CC002</span></span>                     | <span data-ttu-id="4667e-437">CC003</span><span class="sxs-lookup"><span data-stu-id="4667e-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="4667e-438">CC007</span><span class="sxs-lookup"><span data-stu-id="4667e-438">CC007</span></span>                     | <span data-ttu-id="4667e-439">CC007</span><span class="sxs-lookup"><span data-stu-id="4667e-439">CC007</span></span>                   |
+| <span data-ttu-id="4667e-440">&nbsp;&nbsp;&nbsp;&nbsp;Personaliosakond</span><span class="sxs-lookup"><span data-stu-id="4667e-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="4667e-441">Arnie</span><span class="sxs-lookup"><span data-stu-id="4667e-441">Arnie</span></span>            | <span data-ttu-id="4667e-442">CC001</span><span class="sxs-lookup"><span data-stu-id="4667e-442">CC001</span></span>                     | <span data-ttu-id="4667e-443">CC001</span><span class="sxs-lookup"><span data-stu-id="4667e-443">CC001</span></span>                   |
+| <span data-ttu-id="4667e-444">&nbsp;&nbsp;Tootmine</span><span class="sxs-lookup"><span data-stu-id="4667e-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="4667e-445">David</span><span class="sxs-lookup"><span data-stu-id="4667e-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="4667e-446">&nbsp;&nbsp;&nbsp;&nbsp;Pakendamine</span><span class="sxs-lookup"><span data-stu-id="4667e-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="4667e-447">Ellen</span><span class="sxs-lookup"><span data-stu-id="4667e-447">Ellen</span></span>            | <span data-ttu-id="4667e-448">CC005</span><span class="sxs-lookup"><span data-stu-id="4667e-448">CC005</span></span>                     | <span data-ttu-id="4667e-449">CC005</span><span class="sxs-lookup"><span data-stu-id="4667e-449">CC005</span></span>                   |
+| <span data-ttu-id="4667e-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembler</span><span class="sxs-lookup"><span data-stu-id="4667e-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="4667e-451">Chris</span><span class="sxs-lookup"><span data-stu-id="4667e-451">Chris</span></span>            | <span data-ttu-id="4667e-452">CC006</span><span class="sxs-lookup"><span data-stu-id="4667e-452">CC006</span></span>                     | <span data-ttu-id="4667e-453">CC006</span><span class="sxs-lookup"><span data-stu-id="4667e-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> Kuluarvestajad tuleks määrata hierarhia ülemisele tasandile, et nad näeksid kuluarvestuses kõiki kirjeid.
+> <span data-ttu-id="4667e-454">Kuluarvestajad tuleks määrata hierarhia ülemisele tasandile, et nad näeksid kuluarvestuses kõiki kirjeid.</span><span class="sxs-lookup"><span data-stu-id="4667e-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Juurdepääsuloendi hierarhia ja selle turbesätete lubamiseks avage **Kuluarvestus** > **Seadistus** > **Parameetrid** > **Üldine**. Valige parameeter **Luba kuvamise juurdepääs kuluobjekti dimensiooniliikmete jaoks**.
+<span data-ttu-id="4667e-455">Juurdepääsuloendi hierarhia ja selle turbesätete lubamiseks avage **Kuluarvestus** > **Seadistus** > **Parameetrid** > **Üldine**.</span><span class="sxs-lookup"><span data-stu-id="4667e-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="4667e-456">Valige parameeter **Luba kuvamise juurdepääs kuluobjekti dimensiooniliikmete jaoks**.</span><span class="sxs-lookup"><span data-stu-id="4667e-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate andmete juhtimiseks.
+<span data-ttu-id="4667e-457">Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate andmete juhtimiseks.</span><span class="sxs-lookup"><span data-stu-id="4667e-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- **Kulujuhtimise** tööruum (klient):
+- <span data-ttu-id="4667e-458">**Kulujuhtimise** tööruum (klient):</span><span class="sxs-lookup"><span data-stu-id="4667e-458">**Cost control** workspace (Client):</span></span>
 
-    - Andmed vormidel, mida kasutatakse süvitsimineku stsenaariumide puhul
+    - <span data-ttu-id="4667e-459">Andmed vormidel, mida kasutatakse süvitsimineku stsenaariumide puhul</span><span class="sxs-lookup"><span data-stu-id="4667e-459">Data in forms that are used to drill through scenarios</span></span>
 
-- **Kulujuhtimise** tööruum (mobiilirakendus):
+- <span data-ttu-id="4667e-460">**Kulujuhtimise** tööruum (mobiilirakendus):</span><span class="sxs-lookup"><span data-stu-id="4667e-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - Saldod kaartidel
+    - <span data-ttu-id="4667e-461">Saldod kaartidel</span><span class="sxs-lookup"><span data-stu-id="4667e-461">Balances in cards</span></span>
 
-- Power BI:
+- <span data-ttu-id="4667e-462">Power BI:</span><span class="sxs-lookup"><span data-stu-id="4667e-462">Power BI:</span></span>
 
-    - Power BI visualisatsioonidel kuvatavad andmed
-    - Andmete Power BI visualisatsioonid, mis on manustatud rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, klienti
+    - <span data-ttu-id="4667e-463">Power BI visualisatsioonidel kuvatavad andmed</span><span class="sxs-lookup"><span data-stu-id="4667e-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="4667e-464">Andmete Power BI visualisatsioonid, mis on manustatud rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, klienti</span><span class="sxs-lookup"><span data-stu-id="4667e-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - Juurdepääsuloendi hierarhia ei aita kaitsta andmete eksportimist Excelisse. Seetõttu peaksid seda aruandlustööriista kasutama ainult kuluarvestajad ja juhid, kellel on vaja andmete vaatamiseks täielikku juurdepääsu.
+> - <span data-ttu-id="4667e-465">Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda.</span><span class="sxs-lookup"><span data-stu-id="4667e-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="4667e-466">Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="4667e-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="4667e-467">Juurdepääsuloendi hierarhia ei aita kaitsta andmete eksportimist Excelisse.</span><span class="sxs-lookup"><span data-stu-id="4667e-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="4667e-468">Seetõttu peaksid seda aruandlustööriista kasutama ainult kuluarvestajad ja juhid, kellel on vaja andmete vaatamiseks täielikku juurdepääsu.</span><span class="sxs-lookup"><span data-stu-id="4667e-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

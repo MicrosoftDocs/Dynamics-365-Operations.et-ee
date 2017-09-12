@@ -1,4 +1,4 @@
---- 
+---
 title: "Varude jälgimisteabe korrigeerimine"
 description: "See protseduur juhib teid läbi varude üleviimistöölehe koostamise ja sisestamise protsessi, et parandada varude jälgimise teavet."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,50 +17,49 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: caf8c67d315666edfffe86e459bc7a4478697f07
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: e28d10646f01604098de8cedc30c8c7a7c89866b
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="correct-inventory-tracking-information"></a>Varude jälgimisteabe korrigeerimine
+# <a name="correct-inventory-tracking-information"></a><span data-ttu-id="98eb6-103">Varude jälgimisteabe korrigeerimine</span><span class="sxs-lookup"><span data-stu-id="98eb6-103">Correct inventory tracking information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur juhib teid läbi varude üleviimistöölehe koostamise ja sisestamise protsessi, et parandada varude jälgimise teavet. Selles näites muudame partiiga kontrollitava kauba teavet, muutes valesti registreeritud partii teiseks partiiks. Saate selle protseduuriga tutvuda demoettevõtte USPI või oma andmeid kasutades. Kui kasutate oma andmeid, peab teil olema lubatud partiiga kaup ja see ei tohi olla asukoha järgi kontrollitav. Samuti peate seadistama varude üleviimiste jaoks varude töölehe nime. Neid ülesandeid täidab üldjuhul laotöötaja.
+<span data-ttu-id="98eb6-104">See protseduur juhib teid läbi varude üleviimistöölehe koostamise ja sisestamise protsessi, et parandada varude jälgimise teavet.</span><span class="sxs-lookup"><span data-stu-id="98eb6-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to correct inventory tracking information.</span></span> <span data-ttu-id="98eb6-105">Selles näites muudame partiiga kontrollitava kauba teavet, muutes valesti registreeritud partii teiseks partiiks.</span><span class="sxs-lookup"><span data-stu-id="98eb6-105">In this example, we’ll update the information of a batch controlled item by changing an incorrectly registered batch to another batch.</span></span> <span data-ttu-id="98eb6-106">Saate selle protseduuriga tutvuda demoettevõtte USPI või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="98eb6-106">You can walk through this procedure in demo data company USPI, or using your own data.</span></span> <span data-ttu-id="98eb6-107">Kui kasutate oma andmeid, peab teil olema lubatud partiiga kaup ja see ei tohi olla asukoha järgi kontrollitav.</span><span class="sxs-lookup"><span data-stu-id="98eb6-107">If you use your own data, you need to have an item that’s batch-enabled, and it must not be location-controlled.</span></span> <span data-ttu-id="98eb6-108">Samuti peate seadistama varude üleviimiste jaoks varude töölehe nime.</span><span class="sxs-lookup"><span data-stu-id="98eb6-108">You also need to have an inventory journal name set up for inventory transfers.</span></span> <span data-ttu-id="98eb6-109">Neid ülesandeid täidab üldjuhul laotöötaja.</span><span class="sxs-lookup"><span data-stu-id="98eb6-109">These tasks would normally be carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-transfer-journal"></a>Lao üleviimistöölehe loomine
-1. Minge jaotisse Ülekanne.
-2. Klõpsake valikut Uus.
-3. Sisestage või valige väärtus väljal Nimi.
-4. Klõpsake nuppu OK.
+## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="98eb6-110">Lao üleviimistöölehe loomine</span><span class="sxs-lookup"><span data-stu-id="98eb6-110">Create an inventory transfer journal</span></span>
+1. <span data-ttu-id="98eb6-111">Minge jaotisse Ülekanne.</span><span class="sxs-lookup"><span data-stu-id="98eb6-111">Go to Transfer.</span></span>
+2. <span data-ttu-id="98eb6-112">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="98eb6-112">Click New.</span></span>
+3. <span data-ttu-id="98eb6-113">Sisestage või valige väärtus väljal Nimi.</span><span class="sxs-lookup"><span data-stu-id="98eb6-113">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="98eb6-114">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="98eb6-114">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a>Tööleheridade loomine
-1. Klõpsake valikut Uus.
-2. Sisestage või valige väärtus väljal Kaubakood.
-    * Kui kasutate USPI-d, võite valida üksuse M5003.  
-3. Sisestage arv väljale Kogus.
-4. Klõpsake vahekaarti Varude dimensioonid.
-5. Sisestage või valige väärtus väljal Partii number.
-6. Sisestage või valige väärtus väljal Koht.
-7. Sisestage või valige väärtus väljal Ladu.
-8. Sisestage või valige väärtus väljal Partii number.
+## <a name="create-journal-lines"></a><span data-ttu-id="98eb6-115">Tööleheridade loomine</span><span class="sxs-lookup"><span data-stu-id="98eb6-115">Create journal lines</span></span>
+1. <span data-ttu-id="98eb6-116">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="98eb6-116">Click New.</span></span>
+2. <span data-ttu-id="98eb6-117">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="98eb6-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="98eb6-118">Kui kasutate USPI-d, võite valida üksuse M5003.</span><span class="sxs-lookup"><span data-stu-id="98eb6-118">If you are using USPI, select item M5003.</span></span>  
+3. <span data-ttu-id="98eb6-119">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="98eb6-119">In the Quantity field, enter a number.</span></span>
+4. <span data-ttu-id="98eb6-120">Klõpsake vahekaarti Varude dimensioonid.</span><span class="sxs-lookup"><span data-stu-id="98eb6-120">Click the Inventory dimensions tab.</span></span>
+5. <span data-ttu-id="98eb6-121">Sisestage või valige väärtus väljal Partii number.</span><span class="sxs-lookup"><span data-stu-id="98eb6-121">In the Batch number field, enter or select a value.</span></span>
+6. <span data-ttu-id="98eb6-122">Sisestage või valige väärtus väljal Koht.</span><span class="sxs-lookup"><span data-stu-id="98eb6-122">In the Site field, enter or select a value.</span></span>
+7. <span data-ttu-id="98eb6-123">Sisestage või valige väärtus väljal Ladu.</span><span class="sxs-lookup"><span data-stu-id="98eb6-123">In the Warehouse field, enter or select a value.</span></span>
+8. <span data-ttu-id="98eb6-124">Sisestage või valige väärtus väljal Partii number.</span><span class="sxs-lookup"><span data-stu-id="98eb6-124">In the Batch number field, enter or select a value.</span></span>
 
-## <a name="post-the-journal"></a>Töölehe sisestamine
-1. Klõpsake valikut Sisesta.
-2. Klõpsake nuppu OK.
+## <a name="post-the-journal"></a><span data-ttu-id="98eb6-125">Töölehe sisestamine</span><span class="sxs-lookup"><span data-stu-id="98eb6-125">Post the journal</span></span>
+1. <span data-ttu-id="98eb6-126">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="98eb6-126">Click Post.</span></span>
+2. <span data-ttu-id="98eb6-127">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="98eb6-127">Click OK.</span></span>
 
-## <a name="check-tracing-information"></a>Jälgimisteabe vaatamine
-1. Klõpsake Ladu.
-2. Klõpsake käsku Jälgi.
-3. Klõpsake nuppu OK.
-    * Selle jälgimisteabe kasutamisel saate välja selgitada, millisest partiist varusid parandasite.  Võite kasutada selle teabe vaatamiseks ka kauba jälgimise lehte.  
-4. Sulgege leht.
+## <a name="check-tracing-information"></a><span data-ttu-id="98eb6-128">Jälgimisteabe vaatamine</span><span class="sxs-lookup"><span data-stu-id="98eb6-128">Check tracing information</span></span>
+1. <span data-ttu-id="98eb6-129">Klõpsake Ladu.</span><span class="sxs-lookup"><span data-stu-id="98eb6-129">Click Inventory.</span></span>
+2. <span data-ttu-id="98eb6-130">Klõpsake käsku Jälgi.</span><span class="sxs-lookup"><span data-stu-id="98eb6-130">Click Trace.</span></span>
+3. <span data-ttu-id="98eb6-131">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="98eb6-131">Click OK.</span></span>
+    * <span data-ttu-id="98eb6-132">Selle jälgimisteabe kasutamisel saate välja selgitada, millisest partiist varusid parandasite.</span><span class="sxs-lookup"><span data-stu-id="98eb6-132">Using this tracing information you can back trace which batch you corrected inventory from.</span></span>  <span data-ttu-id="98eb6-133">Võite kasutada selle teabe vaatamiseks ka kauba jälgimise lehte.</span><span class="sxs-lookup"><span data-stu-id="98eb6-133">You can also use the Item tracing page to see this information.</span></span>  
+4. <span data-ttu-id="98eb6-134">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="98eb6-134">Close the page.</span></span>
 
-## <a name="check-inventory-transactions"></a>Laokannete kontrollimine
-1. Klõpsake Ladu.
-2. Klõpsake suvandit Kanded.
-    * Siin näete kandeid, mis loodi, kui oma töölehe sisestasite.   
-
+## <a name="check-inventory-transactions"></a><span data-ttu-id="98eb6-135">Laokannete kontrollimine</span><span class="sxs-lookup"><span data-stu-id="98eb6-135">Check inventory transactions</span></span>
+1. <span data-ttu-id="98eb6-136">Klõpsake Ladu.</span><span class="sxs-lookup"><span data-stu-id="98eb6-136">Click Inventory.</span></span>
+2. <span data-ttu-id="98eb6-137">Klõpsake suvandit Kanded.</span><span class="sxs-lookup"><span data-stu-id="98eb6-137">Click Transactions.</span></span>
+    * <span data-ttu-id="98eb6-138">Siin näete kandeid, mis loodi, kui oma töölehe sisestasite.</span><span class="sxs-lookup"><span data-stu-id="98eb6-138">Here you can see the transactions that were created when you posted your journal.</span></span>   
 

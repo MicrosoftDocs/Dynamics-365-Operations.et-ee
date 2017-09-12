@@ -17,47 +17,47 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 28de4c720cd771f476f379d925e9500e41482aa6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 15148725664d839694ede8419213d881c7be83dd
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="reconcile-freight-manually"></a>Veose käsitsi vastavusseviimine
+# <a name="reconcile-freight-manually"></a><span data-ttu-id="1de2e-103">Veose käsitsi vastavusseviimine</span><span class="sxs-lookup"><span data-stu-id="1de2e-103">Reconcile freight manually</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas veost käsitsi tasakaalustada. Seda teeb üldjuhul transpordikoordinaator. Saate seda protseduuri kasutada demoandmete ettevõttes USMF.
+<span data-ttu-id="1de2e-104">See protseduur näitab, kuidas veost käsitsi tasakaalustada.</span><span class="sxs-lookup"><span data-stu-id="1de2e-104">This procedure shows how to reconcile freight manually.</span></span> <span data-ttu-id="1de2e-105">Seda teeb üldjuhul transpordikoordinaator.</span><span class="sxs-lookup"><span data-stu-id="1de2e-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="1de2e-106">Saate seda protseduuri kasutada demoandmete ettevõttes USMF.</span><span class="sxs-lookup"><span data-stu-id="1de2e-106">You can use this procedure in the USMF demo data company.</span></span>
 
 
-## <a name="select-a-load-to-reconcile"></a>Valige vastavusseviimiseks koorem
-1. Avage Transpordihaldus > Plaanimine > Koorma plaanimise töölaud.
-2. Tühjendage märkeruut Peida saadetud ja vastuvõetud. 
-3. Valige loendist koorem, mille koorma ID on 00006.
+## <a name="select-a-load-to-reconcile"></a><span data-ttu-id="1de2e-107">Valige vastavusseviimiseks koorem</span><span class="sxs-lookup"><span data-stu-id="1de2e-107">Select a load to reconcile</span></span>
+1. <span data-ttu-id="1de2e-108">Avage Transpordihaldus > Plaanimine > Koorma plaanimise töölaud.</span><span class="sxs-lookup"><span data-stu-id="1de2e-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="1de2e-109">Tühjendage märkeruut Peida saadetud ja vastuvõetud.</span><span class="sxs-lookup"><span data-stu-id="1de2e-109">Clear the Hide shipped and received check box.</span></span> 
+3. <span data-ttu-id="1de2e-110">Valige loendist koorem, mille koorma ID on 00006.</span><span class="sxs-lookup"><span data-stu-id="1de2e-110">In the list, select the load that has load ID 00006.</span></span>
 
-## <a name="create-a-carrier-invoice"></a>Vedaja arve loomine
-    * Kui viite veose käsitsi vastavusse ega saa automaatselt vedaja arveid, võite luua arve veoarve põhjal.  
-1. Klõpsake valikut Seostuv teave.
-2. Klõpsake valikut Veoarve üksikasjad.
-3. Klõpsake valikut Veoarve loomine.
-4. Sisestage väärtus väljale Arve.
-5. Klõpsake nuppu OK.
+## <a name="create-a-carrier-invoice"></a><span data-ttu-id="1de2e-111">Vedaja arve loomine</span><span class="sxs-lookup"><span data-stu-id="1de2e-111">Create a carrier invoice</span></span>
+    * <span data-ttu-id="1de2e-112">Kui viite veose käsitsi vastavusse ega saa automaatselt vedaja arveid, võite luua arve veoarve põhjal.</span><span class="sxs-lookup"><span data-stu-id="1de2e-112">If you reconcile freight manually and don’t receive carrier invoices automatically, you can create an invoice based on the freight bill.</span></span>  
+1. <span data-ttu-id="1de2e-113">Klõpsake valikut Seostuv teave.</span><span class="sxs-lookup"><span data-stu-id="1de2e-113">Click Related information.</span></span>
+2. <span data-ttu-id="1de2e-114">Klõpsake valikut Veoarve üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1de2e-114">Click Freight bill details.</span></span>
+3. <span data-ttu-id="1de2e-115">Klõpsake valikut Veoarve loomine.</span><span class="sxs-lookup"><span data-stu-id="1de2e-115">Click Generate freight bill invoice.</span></span>
+4. <span data-ttu-id="1de2e-116">Sisestage väärtus väljale Arve.</span><span class="sxs-lookup"><span data-stu-id="1de2e-116">In the Invoice field, type a value.</span></span>
+5. <span data-ttu-id="1de2e-117">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="1de2e-117">Click OK.</span></span>
 
-## <a name="reconcile-the-invoice"></a>Arve vastavusseviimine
-    * Vedaja arve ja veoarve tasakaalustamisel tehakse seda reakaupa.  
-1. Klõpsake valikut Vastenda veoarved ja arved.
-2. Laiendage jaotist Arve üksikasjad.
-3. Laiendage jaotist Vastendamata veoarve üksikasjad.
-4. Märkige loendis valitud rida.
-5. Klõpsake nuppu Vastenda.
-6. Laiendage jaotist Vastendatud veoarve üksikasjad.
+## <a name="reconcile-the-invoice"></a><span data-ttu-id="1de2e-118">Arve vastavusseviimine</span><span class="sxs-lookup"><span data-stu-id="1de2e-118">Reconcile the invoice</span></span>
+    * <span data-ttu-id="1de2e-119">Vedaja arve ja veoarve tasakaalustamisel tehakse seda reakaupa.</span><span class="sxs-lookup"><span data-stu-id="1de2e-119">When you reconcile a carrier invoice and a freight bill, this is done line by line.</span></span>  
+1. <span data-ttu-id="1de2e-120">Klõpsake valikut Vastenda veoarved ja arved.</span><span class="sxs-lookup"><span data-stu-id="1de2e-120">Click Match freight bills and invoices.</span></span>
+2. <span data-ttu-id="1de2e-121">Laiendage jaotist Arve üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1de2e-121">Expand the Invoice details section.</span></span>
+3. <span data-ttu-id="1de2e-122">Laiendage jaotist Vastendamata veoarve üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1de2e-122">Expand the Unmatched freight bill details section.</span></span>
+4. <span data-ttu-id="1de2e-123">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="1de2e-123">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="1de2e-124">Klõpsake nuppu Vastenda.</span><span class="sxs-lookup"><span data-stu-id="1de2e-124">Click Match.</span></span>
+6. <span data-ttu-id="1de2e-125">Laiendage jaotist Vastendatud veoarve üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1de2e-125">Expand the Matched freight bill details section.</span></span>
 
-## <a name="submit-the-invoice-for-approval"></a>Esita arve kinnitamiseks
-1. Klõpsake valikut Edasta kinnitamiseks.
-2. Sulgege leht.
-3. Tühjendage märkeruut Peida kinnitatud üksused. 
-4. Klõpsake nuppu Hankijaarvete töölehed.
-5. Klõpsake linki väljal Viitetöölehe number.
-6. Klõpsake valikut Read.
+## <a name="submit-the-invoice-for-approval"></a><span data-ttu-id="1de2e-126">Esita arve kinnitamiseks</span><span class="sxs-lookup"><span data-stu-id="1de2e-126">Submit the invoice for approval</span></span>
+1. <span data-ttu-id="1de2e-127">Klõpsake valikut Edasta kinnitamiseks.</span><span class="sxs-lookup"><span data-stu-id="1de2e-127">Click Submit for approval.</span></span>
+2. <span data-ttu-id="1de2e-128">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="1de2e-128">Close the page.</span></span>
+3. <span data-ttu-id="1de2e-129">Tühjendage märkeruut Peida kinnitatud üksused.</span><span class="sxs-lookup"><span data-stu-id="1de2e-129">Clear the Hide approved check box.</span></span> 
+4. <span data-ttu-id="1de2e-130">Klõpsake nuppu Hankijaarvete töölehed.</span><span class="sxs-lookup"><span data-stu-id="1de2e-130">Click Vendor invoice journals.</span></span>
+5. <span data-ttu-id="1de2e-131">Klõpsake linki väljal Viitetöölehe number.</span><span class="sxs-lookup"><span data-stu-id="1de2e-131">Click to follow the link in the Reference journal number field.</span></span>
+6. <span data-ttu-id="1de2e-132">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="1de2e-132">Click Lines.</span></span>
 
 

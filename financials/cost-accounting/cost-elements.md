@@ -16,27 +16,27 @@ ms.custom: 223204
 ms.assetid: 1eda0e62-760b-4737-9dfd-3c3c38d80c1a
 ms.search.region: global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c06f4f636a58ac8068415b1291bd8668e7a977d5
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: eb549d9314799924084c23d0e420fcd377ed8c33
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="cost-element-dimensions"></a>Kuluelemendi dimensioonid
+# <a name="cost-element-dimensions"></a><span data-ttu-id="20f17-103">Kuluelemendi dimensioonid</span><span class="sxs-lookup"><span data-stu-id="20f17-103">Cost element dimensions</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Ühe kuluarvestuse tuumsambana kasutatakse kuluelemendi dimensioone, et kategoriseerida ja jälgida, kuhu kulud voolavad. 
+<span data-ttu-id="20f17-104">Ühe kuluarvestuse tuumsambana kasutatakse kuluelemendi dimensioone, et kategoriseerida ja jälgida, kuhu kulud voolavad.</span><span class="sxs-lookup"><span data-stu-id="20f17-104">As one of the core pillars in Cost accounting, cost element dimensions are used to categorize and track where costs flow to.</span></span> 
 
-Kuluelement vastab kulu asjakohasele kaubale kontoplaanis. Põhimõtteliselt võib see olla mis tahes tüüpi element ettevõtte madalaimal tasandil, kuhu kulud saavad voolata. Kuluelemendid kontseptsioonina ulatuvad pearaamatukontost kõigi kulu asjakohaste ressurssideni. Praegu toetab kuluarvestus pearaamatukontosid.
+<span data-ttu-id="20f17-105">Kuluelement vastab kulu asjakohasele kaubale kontoplaanis.</span><span class="sxs-lookup"><span data-stu-id="20f17-105">A cost element corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="20f17-106">Põhimõtteliselt võib see olla mis tahes tüüpi element ettevõtte madalaimal tasandil, kuhu kulud saavad voolata.</span><span class="sxs-lookup"><span data-stu-id="20f17-106">Basically, it can be any type of element at the lowest level in a business where costs can flow to.</span></span> <span data-ttu-id="20f17-107">Kuluelemendid kontseptsioonina ulatuvad pearaamatukontost kõigi kulu asjakohaste ressurssideni.</span><span class="sxs-lookup"><span data-stu-id="20f17-107">Cost elements as a concept range from ledger accounts to all cost-relevant resources.</span></span> <span data-ttu-id="20f17-108">Praegu toetab kuluarvestus pearaamatukontosid.</span><span class="sxs-lookup"><span data-stu-id="20f17-108">Currently, Cost accounting supports ledger accounts.</span></span>
 
-## <a name="two-types-of-cost-elements"></a>Kahte tüüpi kuluelemendid
-On kahte tüüpi kuluelemente: esmased kuluelemendid ja teisesed kuluelemendid. Järgmine tabel kirjeldab erinevust nende kahe tüübi vahel.
+## <a name="two-types-of-cost-elements"></a><span data-ttu-id="20f17-109">Kahte tüüpi kuluelemendid</span><span class="sxs-lookup"><span data-stu-id="20f17-109">Two types of cost elements</span></span>
+<span data-ttu-id="20f17-110">On kahte tüüpi kuluelemente: esmased kuluelemendid ja teisesed kuluelemendid.</span><span class="sxs-lookup"><span data-stu-id="20f17-110">There are two types of cost elements: primary cost elements and secondary cost elements.</span></span> <span data-ttu-id="20f17-111">Järgmine tabel kirjeldab erinevust nende kahe tüübi vahel.</span><span class="sxs-lookup"><span data-stu-id="20f17-111">The following table describes the difference between the two types.</span></span>
 
 <table>
 <colgroup>
@@ -45,36 +45,36 @@ On kahte tüüpi kuluelemente: esmased kuluelemendid ja teisesed kuluelemendid. 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Esmased kuluelemendid</strong></td>
-<td><strong>Sekundaarsed kuluelemendid</strong></td>
+<td><span data-ttu-id="20f17-112"><strong>Esmased kuluelemendid</strong></span><span class="sxs-lookup"><span data-stu-id="20f17-112"><strong>Primary cost elements</strong></span></span></td>
+<td><span data-ttu-id="20f17-113"><strong>Sekundaarsed kuluelemendid</strong></span><span class="sxs-lookup"><span data-stu-id="20f17-113"><strong>Secondary cost elements</strong></span></span></td>
 </tr>
 <tr class="even">
-<td>Esmased kuluelemendid tähistavad kulude voogu finantsaruandlusest kuluarvestusse. Kuluelemendi struktuur vastab pearaamatus kasumi ja kahjumi kontostruktuurile, kus kuluelement võib vastata põhikontole. Mitte kõiki põhikontosid ei pea ilmtingimata ärinõuetest sõltuvalt tähistama kuluelementidena. Näiteid esmastest kuluelementidest.
+<td><span data-ttu-id="20f17-114">Esmased kuluelemendid tähistavad kulude voogu finantsaruandlusest kuluarvestusse.</span><span class="sxs-lookup"><span data-stu-id="20f17-114">The primary cost elements represent the flow of costs from financial accounting to cost accounting.</span></span> <span data-ttu-id="20f17-115">Kuluelemendi struktuur vastab pearaamatus kasumi ja kahjumi kontostruktuurile, kus kuluelement võib vastata põhikontole.</span><span class="sxs-lookup"><span data-stu-id="20f17-115">The cost element structure corresponds to the profit and loss account structure in the general ledger, where a cost element can correspond to a main account.</span></span> <span data-ttu-id="20f17-116">Mitte kõiki põhikontosid ei pea ilmtingimata ärinõuetest sõltuvalt tähistama kuluelementidena.</span><span class="sxs-lookup"><span data-stu-id="20f17-116">Not all main accounts may necessarily be represented as cost elements depending on the business needs.</span></span> <span data-ttu-id="20f17-117">Näiteid esmastest kuluelementidest.</span><span class="sxs-lookup"><span data-stu-id="20f17-117">Examples of primary cost elements include:</span></span>
 <ul>
-<li>Müüdud kaupade kulud</li>
-<li>Kaudsed materjalikulud</li>
-<li>Personalikulud</li>
-<li>Energiakulud</li>
+<li><span data-ttu-id="20f17-118">Müüdud kaupade kulud</span><span class="sxs-lookup"><span data-stu-id="20f17-118">Costs of goods sold (COGs)</span></span></li>
+<li><span data-ttu-id="20f17-119">Kaudsed materjalikulud</span><span class="sxs-lookup"><span data-stu-id="20f17-119">Indirect material costs</span></span></li>
+<li><span data-ttu-id="20f17-120">Personalikulud</span><span class="sxs-lookup"><span data-stu-id="20f17-120">Personnel costs</span></span></li>
+<li><span data-ttu-id="20f17-121">Energiakulud</span><span class="sxs-lookup"><span data-stu-id="20f17-121">Energy costs</span></span></li>
 </ul></td>
-<td>Teisesed kuluelemendid tähistavad kulude sisevoolu, kuna neid kulusid luuakse ja kasutatakse ainult kuluarvestuses. Neid kasutatakse tagamaks, et kulude allikat saab jälgida. Neid kuluelemente kasutatakse kulude eraldamises ja üldkulude arvutustes. Näiteid teisestest kuluelementidest.
+<td><span data-ttu-id="20f17-122">Teisesed kuluelemendid tähistavad kulude sisevoolu, kuna neid kulusid luuakse ja kasutatakse ainult kuluarvestuses.</span><span class="sxs-lookup"><span data-stu-id="20f17-122">The secondary cost elements represent the flow of costs internally because these costs are created and used only in Cost accounting.</span></span> <span data-ttu-id="20f17-123">Neid kasutatakse tagamaks, et kulude allikat saab jälgida.</span><span class="sxs-lookup"><span data-stu-id="20f17-123">They are used to secure that the source of costs can be traced.</span></span> <span data-ttu-id="20f17-124">Neid kuluelemente kasutatakse kulude eraldamises ja üldkulude arvutustes.</span><span class="sxs-lookup"><span data-stu-id="20f17-124">These cost elements are used in cost allocations and overhead calculations.</span></span> <span data-ttu-id="20f17-125">Näiteid teisestest kuluelementidest.</span><span class="sxs-lookup"><span data-stu-id="20f17-125">Examples of secondary cost elements include:</span></span>
 <ul>
-<li>Tootmiskulud</li>
-<li>Tootmine, materjal ja turustamise üldkulud</li>
+<li><span data-ttu-id="20f17-126">Tootmiskulud</span><span class="sxs-lookup"><span data-stu-id="20f17-126">Production costs</span></span></li>
+<li><span data-ttu-id="20f17-127">Tootmine, materjal ja turustamise üldkulud</span><span class="sxs-lookup"><span data-stu-id="20f17-127">Production, material, and marketing overheads</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Kuluelemendi dimensioonid ja kuluelemendi dimensiooni liikmed
-Kuluelemente nimetatakse *kuluelemendi dimensioonideks* . Individuaalseid dimensiooniväärtuseid nimetatakse *kuluelemendi dimensiooni liikmeteks*. Näiteks on teil USA kontoplaani struktuur (COA), mis on teie seadusliku aruandluse alus. Seda COA-d kasutatakse kuluelemendi dimensioonina. Kontosid, mis on esmased kuluelemendid, tähistatakse kuluarvestuses kuluelemendi dimensiooniliikmetena. Järgmine kuvatõmmis näitab näidet põhikontodest kuluelemendi dimensioonina, kus selle tegelikud põhikontod on kuluelemendi dimensiooni liikmed. 
+## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a><span data-ttu-id="20f17-128">Kuluelemendi dimensioonid ja kuluelemendi dimensiooni liikmed</span><span class="sxs-lookup"><span data-stu-id="20f17-128">Cost element dimensions and cost element dimension members</span></span>
+<span data-ttu-id="20f17-129">Kuluelemente nimetatakse *kuluelemendi dimensioonideks* .</span><span class="sxs-lookup"><span data-stu-id="20f17-129">Cost elements are referred to as *cost element dimensions* .</span></span> <span data-ttu-id="20f17-130">Individuaalseid dimensiooniväärtuseid nimetatakse *kuluelemendi dimensiooni liikmeteks*.</span><span class="sxs-lookup"><span data-stu-id="20f17-130">The individual dimension values are called *cost element dimension members*.</span></span> <span data-ttu-id="20f17-131">Näiteks on teil USA kontoplaani struktuur (COA), mis on teie seadusliku aruandluse alus.</span><span class="sxs-lookup"><span data-stu-id="20f17-131">For example, you have a US chart of accounts structure (COA) that is the base for your statutory reporting.</span></span> <span data-ttu-id="20f17-132">Seda COA-d kasutatakse kuluelemendi dimensioonina.</span><span class="sxs-lookup"><span data-stu-id="20f17-132">This COA is used as the cost element dimension.</span></span> <span data-ttu-id="20f17-133">Kontosid, mis on esmased kuluelemendid, tähistatakse kuluarvestuses kuluelemendi dimensiooniliikmetena.</span><span class="sxs-lookup"><span data-stu-id="20f17-133">The accounts, which are primary cost elements, are represented as the cost element dimension members in Cost accounting.</span></span> <span data-ttu-id="20f17-134">Järgmine kuvatõmmis näitab näidet põhikontodest kuluelemendi dimensioonina, kus selle tegelikud põhikontod on kuluelemendi dimensiooni liikmed.</span><span class="sxs-lookup"><span data-stu-id="20f17-134">The following screenshot shows an example of Main Accounts as the cost element dimension with its actual main accounts as the cost element dimension members.</span></span> 
 
-[![kuluelemendi-dimensioonid](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+<span data-ttu-id="20f17-135">[![kuluelemendi-dimensioonid](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="20f17-135">[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)</span></span>
 
-## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Kuluelemendi dimensiooni liikmete importimine andmekonnektorite kaudu
-Kuluelemendi dimensiooni liikmete seadistamise lihtsustamiseks kuluarvestuses saate kasutada andmekonnektoreid, mis on eelnevalt ehitatud või teie järgi kohandatud, et tuua esmased kuluelemendid ühest või mitmest lähtesüsteemist.
+## <a name="import-cost-element-dimension-members-through-data-connectors"></a><span data-ttu-id="20f17-136">Kuluelemendi dimensiooni liikmete importimine andmekonnektorite kaudu</span><span class="sxs-lookup"><span data-stu-id="20f17-136">Import cost element dimension members through data connectors</span></span>
+<span data-ttu-id="20f17-137">Kuluelemendi dimensiooni liikmete seadistamise lihtsustamiseks kuluarvestuses saate kasutada andmekonnektoreid, mis on eelnevalt ehitatud või teie järgi kohandatud, et tuua esmased kuluelemendid ühest või mitmest lähtesüsteemist.</span><span class="sxs-lookup"><span data-stu-id="20f17-137">To ease the setup of cost element dimension members in Cost accounting, you can use data connectors that are either pre-built or your custom build to retrieve the primary cost elements from one or more source systems.</span></span>
 
-## <a name="implementation-considerations"></a>Juurutamise kaalutlused
-Kuna kuluelemendid tähistavad kulu üksikasjade madalaimat tasanit, peaksite tagama, et kõik juhtimisaruandluse tegemiseks vajalikud kuluelemendi on kuluelemendi struktuuri juurutamisel kaasatud. See võib olla väljakutse, et leida kulujuhtimise jaoks kuluelementide sobiv number. Tuhandete kuluelementide omamine võib muuta iga kuluelemendi juhtimise keeruliseks. Alternatiivina saate kuluelemente grupeerida ja hallata kulu juhtimist koondtasemel.
+## <a name="implementation-considerations"></a><span data-ttu-id="20f17-138">Juurutamise kaalutlused</span><span class="sxs-lookup"><span data-stu-id="20f17-138">Implementation considerations</span></span>
+<span data-ttu-id="20f17-139">Kuna kuluelemendid tähistavad kulu üksikasjade madalaimat tasanit, peaksite tagama, et kõik juhtimisaruandluse tegemiseks vajalikud kuluelemendi on kuluelemendi struktuuri juurutamisel kaasatud.</span><span class="sxs-lookup"><span data-stu-id="20f17-139">As cost elements represent the lowest level of cost details, you should make sure that all the cost elements required to make the managerial reporting are included when you implement the cost elements structure.</span></span> <span data-ttu-id="20f17-140">See võib olla väljakutse, et leida kulujuhtimise jaoks kuluelementide sobiv number.</span><span class="sxs-lookup"><span data-stu-id="20f17-140">It can be a challenge to find an appropriate number of cost elements for cost control.</span></span> <span data-ttu-id="20f17-141">Tuhandete kuluelementide omamine võib muuta iga kuluelemendi juhtimise keeruliseks.</span><span class="sxs-lookup"><span data-stu-id="20f17-141">Having thousands of cost elements can make it difficult to control each cost element.</span></span> <span data-ttu-id="20f17-142">Alternatiivina saate kuluelemente grupeerida ja hallata kulu juhtimist koondtasemel.</span><span class="sxs-lookup"><span data-stu-id="20f17-142">As an alternative, you can group cost elements and manage cost control at an aggregated level.</span></span>
 
 
 

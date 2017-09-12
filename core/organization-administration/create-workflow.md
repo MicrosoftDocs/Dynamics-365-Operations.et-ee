@@ -15,70 +15,70 @@ ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4d57e47fe7f38a43ecfdfbdd701d7e6a7d7800d6
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="create-a-workflow"></a>Töövoo loomine
+# <a name="create-a-workflow"></a><span data-ttu-id="08623-103">Töövoo loomine</span><span class="sxs-lookup"><span data-stu-id="08623-103">Create a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-See teema selgitab, kuidas töövoogu luua.
+<span data-ttu-id="08623-104">See teema selgitab, kuidas töövoogu luua.</span><span class="sxs-lookup"><span data-stu-id="08623-104">This topics explains how to create a workflow.</span></span>
 
-<a name="open-the-workflow-editor"></a>Avage töövoo redaktor
+<a name="open-the-workflow-editor"></a><span data-ttu-id="08623-105">Avage töövoo redaktor</span><span class="sxs-lookup"><span data-stu-id="08623-105">Open the workflow editor</span></span>
 ------------------------
 
-Microsoft Dynamics 365 for Finance and Operationsi moodul, milles töötate, määrab töövootüübid, mida saate luua. Läbige need etapid töövoo tüübi valimiseks, et luua ja avada töövoo redaktor.
+<span data-ttu-id="08623-106">Microsoft Dynamics 365 for Finance and Operationsi moodul, milles töötate, määrab töövootüübid, mida saate luua.</span><span class="sxs-lookup"><span data-stu-id="08623-106">The Microsoft Dynamics 365 for Finance and Operations module that you're working in determines the types of workflow that you can create.</span></span> <span data-ttu-id="08623-107">Läbige need etapid töövoo tüübi valimiseks, et luua ja avada töövoo redaktor.</span><span class="sxs-lookup"><span data-stu-id="08623-107">Follow these steps to select the type of workflow to create and open the workflow editor.</span></span>
 
-1.  Avage moodul, mille jaoks soovite luua uue töövoo. Näiteks ostutaotluste jaoks töövoo loomiseks klõpsake valikut **Hanked**.
-2.  Klõpsake valikuid **Seadistus** &gt; **Mooduli \[mooduli nimi\] töövood**.
-3.  Ilmuva loendilehe tegumiribal klõpsake valikut **Uus**.
-4.  Lehel **Töövoo loomine** valige loomiseks töövoo tüüp ja klõpsake seejärel valikut **Töövoo loomine**. Ilmub töövooredaktor. Nüüd saate kasutada töövoo kujundamiseks järgmiseid protseduure.
+1.  <span data-ttu-id="08623-108">Avage moodul, mille jaoks soovite luua uue töövoo.</span><span class="sxs-lookup"><span data-stu-id="08623-108">Open the module that you want to create a new workflow for.</span></span> <span data-ttu-id="08623-109">Näiteks ostutaotluste jaoks töövoo loomiseks klõpsake valikut **Hanked**.</span><span class="sxs-lookup"><span data-stu-id="08623-109">For example, to create a workflow for purchase requisitions, click **Procurement and sourcing**.</span></span>
+2.  <span data-ttu-id="08623-110">Klõpsake valikuid **Seadistus** &gt; **Mooduli \[mooduli nimi\] töövood**.</span><span class="sxs-lookup"><span data-stu-id="08623-110">Click **Setup** &gt; **\[Module name\] workflows**.</span></span>
+3.  <span data-ttu-id="08623-111">Ilmuva loendilehe tegumiribal klõpsake valikut **Uus**.</span><span class="sxs-lookup"><span data-stu-id="08623-111">On the list page that appears, on the Action Pane, click **New**.</span></span>
+4.  <span data-ttu-id="08623-112">Lehel **Töövoo loomine** valige loomiseks töövoo tüüp ja klõpsake seejärel valikut **Töövoo loomine**.</span><span class="sxs-lookup"><span data-stu-id="08623-112">On the **Create workflow** page, select the type of workflow to create, and then click **Create workflow**.</span></span> <span data-ttu-id="08623-113">Ilmub töövooredaktor.</span><span class="sxs-lookup"><span data-stu-id="08623-113">The workflow editor appears.</span></span> <span data-ttu-id="08623-114">Nüüd saate kasutada töövoo kujundamiseks järgmiseid protseduure.</span><span class="sxs-lookup"><span data-stu-id="08623-114">You can now use the following procedures to design the workflow.</span></span>
 
-## <a name="drag-workflow-elements-onto-the-canvas"></a>Lohistage töövoo elemendid lõuend
-Töövooredaktori ala **Töövoo elemendid** sisaldab elemente, mida saate oma töövoole lisada. Töövoole elementide lisamiseks lohistage need lõuendile.
+## <a name="drag-workflow-elements-onto-the-canvas"></a><span data-ttu-id="08623-115">Lohistage töövoo elemendid lõuend</span><span class="sxs-lookup"><span data-stu-id="08623-115">Drag workflow elements onto the canvas</span></span>
+<span data-ttu-id="08623-116">Töövooredaktori ala **Töövoo elemendid** sisaldab elemente, mida saate oma töövoole lisada.</span><span class="sxs-lookup"><span data-stu-id="08623-116">The **Workflow elements** area of the workflow editor contains the elements that you can add to your workflow.</span></span> <span data-ttu-id="08623-117">Töövoole elementide lisamiseks lohistage need lõuendile.</span><span class="sxs-lookup"><span data-stu-id="08623-117">To add elements to the workflow, drag them onto the canvas.</span></span>
 
-## <a name="connect-the-elements"></a>Ühendage elemendid
-Ühe töövoo elemendi teisega ühendamiseks hoidke kursorit elemendi kohal, kuni ühenduspunktid kuvatakse. Klõpsake ühenduspunkti ja lohistage see teisele elemendile. Ühendage kindlasti kõik elemendid.
+## <a name="connect-the-elements"></a><span data-ttu-id="08623-118">Ühendage elemendid</span><span class="sxs-lookup"><span data-stu-id="08623-118">Connect the elements</span></span>
+<span data-ttu-id="08623-119">Ühe töövoo elemendi teisega ühendamiseks hoidke kursorit elemendi kohal, kuni ühenduspunktid kuvatakse.</span><span class="sxs-lookup"><span data-stu-id="08623-119">To connect one workflow element to another, hold the pointer over an element until connection points appear.</span></span> <span data-ttu-id="08623-120">Klõpsake ühenduspunkti ja lohistage see teisele elemendile.</span><span class="sxs-lookup"><span data-stu-id="08623-120">Click a connection point, and drag it to another element.</span></span> <span data-ttu-id="08623-121">Ühendage kindlasti kõik elemendid.</span><span class="sxs-lookup"><span data-stu-id="08623-121">Be sure to connect all the elements.</span></span>
 
-## <a name="configure-the-properties-of-the-workflow"></a>Konfigureerige töövoo atribuudid
-Järgige neid juhiseid töövoo atribuutide konfigureerimiseks.
+## <a name="configure-the-properties-of-the-workflow"></a><span data-ttu-id="08623-122">Konfigureerige töövoo atribuudid</span><span class="sxs-lookup"><span data-stu-id="08623-122">Configure the properties of the workflow</span></span>
+<span data-ttu-id="08623-123">Järgige neid juhiseid töövoo atribuutide konfigureerimiseks.</span><span class="sxs-lookup"><span data-stu-id="08623-123">Follow these steps to configure the properties of the workflow.</span></span>
 
-1.  Klõpsake lõuend veendumaks, et töövoo element pole valitud.
-2.  Klõpsake valikut **Atribuudid**, et avada töövoo leht **Atribuudid**.
-3.  Järgige teemas [Töövoo atribuutide konfigureerimine](configure-workflow-properties.md) kirjeldatud protseduure.
+1.  <span data-ttu-id="08623-124">Klõpsake lõuend veendumaks, et töövoo element pole valitud.</span><span class="sxs-lookup"><span data-stu-id="08623-124">Click the canvas to make sure that no workflow element is selected.</span></span>
+2.  <span data-ttu-id="08623-125">Klõpsake valikut **Atribuudid**, et avada töövoo leht **Atribuudid**.</span><span class="sxs-lookup"><span data-stu-id="08623-125">Click **Properties** to open the **Properties** page for the workflow.</span></span>
+3.  <span data-ttu-id="08623-126">Järgige teemas [Töövoo atribuutide konfigureerimine](configure-workflow-properties.md) kirjeldatud protseduure.</span><span class="sxs-lookup"><span data-stu-id="08623-126">Follow the procedures in the [Configure the properties of a workflow](configure-workflow-properties.md) topic.</span></span>
 
-## <a name="configure-the-elements-of-the-workflow"></a>Töövoo elementide konfigureerimine
-Konfigureerige iga elemendi läbite lõuendile. Iga töövooelemendi konfigureerimise kohta lisateabe saamiseks vaadake järgmisi teemasid.
+## <a name="configure-the-elements-of-the-workflow"></a><span data-ttu-id="08623-127">Töövoo elementide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-127">Configure the elements of the workflow</span></span>
+<span data-ttu-id="08623-128">Konfigureerige iga elemendi läbite lõuendile.</span><span class="sxs-lookup"><span data-stu-id="08623-128">Configure each element that you dragged onto the canvas.</span></span> <span data-ttu-id="08623-129">Iga töövooelemendi konfigureerimise kohta lisateabe saamiseks vaadake järgmisi teemasid.</span><span class="sxs-lookup"><span data-stu-id="08623-129">For information about how to configure each workflow element, see the following topics:</span></span>
 
--   [Käsitsi ülesande konfigureerimine](configure-manual-task-workflow.md)
--   [Automatiseeritud ülesande konfigureerimine](configure-automated-task-workflow.md)
--   [Kinnitusprotsessi konfigureerimine](configure-approval-process-workflow.md)
--   [Kinnitussammude konfigureerimine](configure-approval-step-workflow.md)
--   [Käsitsi otsuse konfigureerimine](configure-manual-decision-workflow.md)
--   [Tingimusliku otsuse konfigureerimine](configure-conditional-decision-workflow.md)
--   [Paralleeltegevuse konfigureerimine](configure-parallel-activity-workflow.md)
--   [Paralleelharu konfigureerimine](configure-parallel-branch-workflow.md)
--   [Reakauba töövoo konfigureerimine](configure-line-item-workflow.md)
+-   [<span data-ttu-id="08623-130">Käsitsi ülesande konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-130">Configure a manual task</span></span>](configure-manual-task-workflow.md)
+-   [<span data-ttu-id="08623-131">Automatiseeritud ülesande konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-131">Configure an automated task</span></span>](configure-automated-task-workflow.md)
+-   [<span data-ttu-id="08623-132">Kinnitusprotsessi konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-132">Configure an approval process</span></span>](configure-approval-process-workflow.md)
+-   [<span data-ttu-id="08623-133">Kinnitussammude konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-133">Configure an approval step</span></span>](configure-approval-step-workflow.md)
+-   [<span data-ttu-id="08623-134">Käsitsi otsuse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-134">Configure a manual decision</span></span>](configure-manual-decision-workflow.md)
+-   [<span data-ttu-id="08623-135">Tingimusliku otsuse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-135">Configure a conditional decision</span></span>](configure-conditional-decision-workflow.md)
+-   [<span data-ttu-id="08623-136">Paralleeltegevuse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-136">Configure a parallel activity</span></span>](configure-parallel-activity-workflow.md)
+-   [<span data-ttu-id="08623-137">Paralleelharu konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-137">Configure a parallel branch</span></span>](configure-parallel-branch-workflow.md)
+-   [<span data-ttu-id="08623-138">Reakauba töövoo konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="08623-138">Configure a line-item workflow</span></span>](configure-line-item-workflow.md)
 
-## <a name="resolve-any-errors-or-warnings"></a>Lahenda tõrkeid ja hoiatusi
-Töövooredaktori allservas olev paan **Tõrked ja hoiatused** näitab töövoo jaoks loodud teateid. Selle elemendi leidmiseks, kus tõrge või hoiatus ilmnes, topeltklõpsake tõrget või hoiatusteadet. Enne töövoo aktiivseks tegemist peate lahendama kõik tõrked ja hoiatused.
+## <a name="resolve-any-errors-or-warnings"></a><span data-ttu-id="08623-139">Lahenda tõrkeid ja hoiatusi</span><span class="sxs-lookup"><span data-stu-id="08623-139">Resolve any errors or warnings</span></span>
+<span data-ttu-id="08623-140">Töövooredaktori allservas olev paan **Tõrked ja hoiatused** näitab töövoo jaoks loodud teateid.</span><span class="sxs-lookup"><span data-stu-id="08623-140">The **Errors and warnings** pane at the bottom of the workflow editor shows messages that have been generated for the workflow.</span></span> <span data-ttu-id="08623-141">Selle elemendi leidmiseks, kus tõrge või hoiatus ilmnes, topeltklõpsake tõrget või hoiatusteadet.</span><span class="sxs-lookup"><span data-stu-id="08623-141">To find the element where an error or warning occurred, double-click the error or warning message.</span></span> <span data-ttu-id="08623-142">Enne töövoo aktiivseks tegemist peate lahendama kõik tõrked ja hoiatused.</span><span class="sxs-lookup"><span data-stu-id="08623-142">You must resolve all errors and warnings before you can make the workflow active.</span></span>
 
-## <a name="save-and-activate-the-workflow"></a>Salvestage ja aktiveerige töövoog
-Kui olete valmis töövoo salvestama ja aktiveerima, järgige neid juhiseid.
+## <a name="save-and-activate-the-workflow"></a><span data-ttu-id="08623-143">Salvestage ja aktiveerige töövoog</span><span class="sxs-lookup"><span data-stu-id="08623-143">Save and activate the workflow</span></span>
+<span data-ttu-id="08623-144">Kui olete valmis töövoo salvestama ja aktiveerima, järgige neid juhiseid.</span><span class="sxs-lookup"><span data-stu-id="08623-144">When you're ready to save and activate the workflow, follow these steps.</span></span>
 
-1.  Klõpsake valikut **Salvesta ja sule**, et sulgeda töövooredaktor ja avada leht **Salvesta töövoog**.
-2.  Sisestage kommentaarid töövoole tehtud muudatuste kohta ja klõpsake seejärel **OK**.
-3.  Kui kõik tõrked ja hoiatused on lahendatud, ilmub leht **Aktiveeri töövoog**. Tehke üks järgmistest valikutest:
-    -   Töövoo selle versiooni aktiveerimiseks klõpsake valikut **Aktiveeri uus versioon**. Kui töövoog on aktiivne, saavad kasutajad esitada töötlemiseks dokumente.
-    -   Kui te ei soovi seda versiooni aktiveerida, klõpsake valikut **Ära aktiveeri uut versiooni**. Saate töövoo hiljem aktiveerida.
+1.  <span data-ttu-id="08623-145">Klõpsake valikut **Salvesta ja sule**, et sulgeda töövooredaktor ja avada leht **Salvesta töövoog**.</span><span class="sxs-lookup"><span data-stu-id="08623-145">Click **Save and close** to close the workflow editor and open the **Save workflow** page.</span></span>
+2.  <span data-ttu-id="08623-146">Sisestage kommentaarid töövoole tehtud muudatuste kohta ja klõpsake seejärel **OK**.</span><span class="sxs-lookup"><span data-stu-id="08623-146">Enter comments about the changes that you've made to the workflow, and then click **OK**.</span></span>
+3.  <span data-ttu-id="08623-147">Kui kõik tõrked ja hoiatused on lahendatud, ilmub leht **Aktiveeri töövoog**.</span><span class="sxs-lookup"><span data-stu-id="08623-147">If all errors and warnings have been resolved, the **Activate workflow** page appears.</span></span> <span data-ttu-id="08623-148">Tehke üks järgmistest valikutest:</span><span class="sxs-lookup"><span data-stu-id="08623-148">Select one of the following options:</span></span>
+    -   <span data-ttu-id="08623-149">Töövoo selle versiooni aktiveerimiseks klõpsake valikut **Aktiveeri uus versioon**.</span><span class="sxs-lookup"><span data-stu-id="08623-149">To activate this version of the workflow, click **Activate the new version**.</span></span> <span data-ttu-id="08623-150">Kui töövoog on aktiivne, saavad kasutajad esitada töötlemiseks dokumente.</span><span class="sxs-lookup"><span data-stu-id="08623-150">When a workflow is active, users can submit documents to it for processing.</span></span>
+    -   <span data-ttu-id="08623-151">Kui te ei soovi seda versiooni aktiveerida, klõpsake valikut **Ära aktiveeri uut versiooni**.</span><span class="sxs-lookup"><span data-stu-id="08623-151">If you don't want to activate this version, click **Do not activate the new version**.</span></span> <span data-ttu-id="08623-152">Saate töövoo hiljem aktiveerida.</span><span class="sxs-lookup"><span data-stu-id="08623-152">You can activate the workflow later.</span></span>
 
 
 

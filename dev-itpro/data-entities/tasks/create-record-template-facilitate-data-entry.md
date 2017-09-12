@@ -16,37 +16,37 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e8f56b1e5ab0431eee95bbe4f6f11d22b56e77e8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6f8d804133f8e9c6f47420d41df8d9430381e2fe
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-record-template-to-facilitate-data-entry"></a>Andmesisestuse hõlbustamiseks kirje malli loomine
+# <a name="create-a-record-template-to-facilitate-data-entry"></a><span data-ttu-id="cd837-103">Andmesisestuse hõlbustamiseks kirje malli loomine</span><span class="sxs-lookup"><span data-stu-id="cd837-103">Create a record template to facilitate data entry</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas luua kirje malli nii, et sageli kasutatavaid välja väärtuseid ei pea iga uue kirje jaoks selgesõnaliselt sisestama. Selles protseduuris loote uue kirje uutele sülearvutitele, mis tuleks põhivaradele lisada. See protseduur kasutab USMF-i näidisettevõtet.
+<span data-ttu-id="cd837-104">See protseduur näitab, kuidas luua kirje malli nii, et sageli kasutatavaid välja väärtuseid ei pea iga uue kirje jaoks selgesõnaliselt sisestama.</span><span class="sxs-lookup"><span data-stu-id="cd837-104">This procedure demonstrates how to create a record template so that field values that are used often do not have to be entered explicitly for each new record.</span></span> <span data-ttu-id="cd837-105">Selles protseduuris loote uue kirje uutele sülearvutitele, mis tuleks põhivaradele lisada.</span><span class="sxs-lookup"><span data-stu-id="cd837-105">In this procedure, you’ll create a new record for new laptops that should be added to your fixed assets.</span></span> <span data-ttu-id="cd837-106">See protseduur kasutab USMF-i näidisettevõtet.</span><span class="sxs-lookup"><span data-stu-id="cd837-106">This procedure uses the USMF sample company.</span></span>
 
-1. Minge jaotisse Põhivarad > Põhivarad > Põhivarad.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Põhivara grupp või valige sellelt väljalt.
-4. Sisestage väärtus väljale Nimi.
-    * Näiteks sisestage „ettevõtte müügivihje sülearvuti”.  
-5. Sisestage väärtus väljale Otsingunimi.
-    * Näiteks sisestage „sülearvuti”.  
-6. Laiendage jaotist Tehniline teave.
-7. Sisestage väärtus väljale Mudel.
-8. Väljale Mudel sisestage väärtus.
-9. Sisestage väärtus väljale Ehitusaasta.
-10. Klõpsake toimingupaanil valikut Suvandid.
-11. Klõpsake nuppu Kirje teave.
-12. Klõpsake nuppu Kasutajamall.
-13. Sisestage väärtus väljale Nimi.
-    * Näiteks sisestage „ettevõtte müügivihje sülearvuti”.  
-14. Sisestage väljale Kirjeldus soovitud väärtus.
-    * Näiteks sisestage „ettevõtte sülearvuti”.  
-15. Klõpsake nuppu OK.
-16. Klõpsake valikut Sule.
+1. <span data-ttu-id="cd837-107">Minge jaotisse Põhivarad > Põhivarad > Põhivarad.</span><span class="sxs-lookup"><span data-stu-id="cd837-107">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
+2. <span data-ttu-id="cd837-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="cd837-108">Click New.</span></span>
+3. <span data-ttu-id="cd837-109">Sisestage väärtus väljale Põhivara grupp või valige sellelt väljalt.</span><span class="sxs-lookup"><span data-stu-id="cd837-109">In the Fixed asset group field, enter or select a value.</span></span>
+4. <span data-ttu-id="cd837-110">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="cd837-110">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="cd837-111">Näiteks sisestage „ettevõtte müügivihje sülearvuti”.</span><span class="sxs-lookup"><span data-stu-id="cd837-111">For example, enter 'Corporate lead laptop'.</span></span>  
+5. <span data-ttu-id="cd837-112">Sisestage väärtus väljale Otsingunimi.</span><span class="sxs-lookup"><span data-stu-id="cd837-112">In the Search name field, type a value.</span></span>
+    * <span data-ttu-id="cd837-113">Näiteks sisestage „sülearvuti”.</span><span class="sxs-lookup"><span data-stu-id="cd837-113">For example, enter 'laptop.'</span></span>  
+6. <span data-ttu-id="cd837-114">Laiendage jaotist Tehniline teave.</span><span class="sxs-lookup"><span data-stu-id="cd837-114">Expand the Technical information section.</span></span>
+7. <span data-ttu-id="cd837-115">Sisestage väärtus väljale Mudel.</span><span class="sxs-lookup"><span data-stu-id="cd837-115">In the Make field, type a value.</span></span>
+8. <span data-ttu-id="cd837-116">Väljale Mudel sisestage väärtus.</span><span class="sxs-lookup"><span data-stu-id="cd837-116">In the Model field, type a value.</span></span>
+9. <span data-ttu-id="cd837-117">Sisestage väärtus väljale Ehitusaasta.</span><span class="sxs-lookup"><span data-stu-id="cd837-117">In the Model year field, type a value.</span></span>
+10. <span data-ttu-id="cd837-118">Klõpsake toimingupaanil valikut Suvandid.</span><span class="sxs-lookup"><span data-stu-id="cd837-118">On the Action Pane, click Options.</span></span>
+11. <span data-ttu-id="cd837-119">Klõpsake nuppu Kirje teave.</span><span class="sxs-lookup"><span data-stu-id="cd837-119">Click Record info.</span></span>
+12. <span data-ttu-id="cd837-120">Klõpsake nuppu Kasutajamall.</span><span class="sxs-lookup"><span data-stu-id="cd837-120">Click User template.</span></span>
+13. <span data-ttu-id="cd837-121">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="cd837-121">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="cd837-122">Näiteks sisestage „ettevõtte müügivihje sülearvuti”.</span><span class="sxs-lookup"><span data-stu-id="cd837-122">For example, enter 'Corporate laptop.'</span></span>  
+14. <span data-ttu-id="cd837-123">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="cd837-123">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="cd837-124">Näiteks sisestage „ettevõtte sülearvuti”.</span><span class="sxs-lookup"><span data-stu-id="cd837-124">For example, enter 'Corporate laptop'.</span></span>  
+15. <span data-ttu-id="cd837-125">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="cd837-125">Click OK.</span></span>
+16. <span data-ttu-id="cd837-126">Klõpsake valikut Sule.</span><span class="sxs-lookup"><span data-stu-id="cd837-126">Click Close.</span></span>
 
 

@@ -16,50 +16,50 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f9b82db94d98fb19c67888a1f8a35b2fe62c98fe
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7cc024caa54db6629a1e573df295fe8333996647
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-governed-by-budget"></a>Eelarvekohase ostutellimuse loomine
+# <a name="create-a-purchase-order-governed-by-budget"></a><span data-ttu-id="22c42-103">Eelarvekohase ostutellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="22c42-103">Create a purchase order governed by budget</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Kasutage seda protseduuri, et luua ostutellimus, mida kontrollitakse saadaoleva eelarve osas. See salvestis kasutab USMF demoandmete ettevõtet.
+<span data-ttu-id="22c42-104">Kasutage seda protseduuri, et luua ostutellimus, mida kontrollitakse saadaoleva eelarve osas.</span><span class="sxs-lookup"><span data-stu-id="22c42-104">Use this procedure to create a purchase order that is checked for available budget.</span></span> <span data-ttu-id="22c42-105">See salvestis kasutab USMF demoandmete ettevõtet.</span><span class="sxs-lookup"><span data-stu-id="22c42-105">This recording uses the USMF demo data company.</span></span>
 
 
-## <a name="review-the-budget-control-configuration"></a>Vaadake üle eelarve juhtimise konfiguratsioon
-1. Avage Eelarve koostamine > Häälestamine > Eelarve juhtimine > Eelarve juhtimise konfiguratsioon.
-2. Klõpsake vahekaarti Saadaval eelarvefondid.
-3. Klõpsake vahekaarti Dokumendid ja töölehed.
-4. Klõpsake vahekaarti Eelarve juhtimise määratlemine.
-5. Klõpsake vahekaarti Eelarvegruppide määratlemine.
-6. Sulgege leht.
+## <a name="review-the-budget-control-configuration"></a><span data-ttu-id="22c42-106">Vaadake üle eelarve juhtimise konfiguratsioon</span><span class="sxs-lookup"><span data-stu-id="22c42-106">Review the budget control configuration</span></span>
+1. <span data-ttu-id="22c42-107">Avage Eelarve koostamine > Häälestamine > Eelarve juhtimine > Eelarve juhtimise konfiguratsioon.</span><span class="sxs-lookup"><span data-stu-id="22c42-107">Go to Budgeting > Setup > Budget control > Budget control configuration.</span></span>
+2. <span data-ttu-id="22c42-108">Klõpsake vahekaarti Saadaval eelarvefondid.</span><span class="sxs-lookup"><span data-stu-id="22c42-108">Click the Budget funds available tab.</span></span>
+3. <span data-ttu-id="22c42-109">Klõpsake vahekaarti Dokumendid ja töölehed.</span><span class="sxs-lookup"><span data-stu-id="22c42-109">Click the Documents and journals tab.</span></span>
+4. <span data-ttu-id="22c42-110">Klõpsake vahekaarti Eelarve juhtimise määratlemine.</span><span class="sxs-lookup"><span data-stu-id="22c42-110">Click the Define budget control rules tab.</span></span>
+5. <span data-ttu-id="22c42-111">Klõpsake vahekaarti Eelarvegruppide määratlemine.</span><span class="sxs-lookup"><span data-stu-id="22c42-111">Click the Define budget groups tab.</span></span>
+6. <span data-ttu-id="22c42-112">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="22c42-112">Close the page.</span></span>
 
-## <a name="create-the-purchase-order-header"></a>Ostutellimuse päise loomine
-1. Avage Hanked > Ostutellimused > Kõik ostutellimused.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Hankija konto või valige see.
-4. Laiendage jaotist Üldine.
-5. Määrake aruandluskuupäeva väljal kuupäev „2016-01-01”.
-6. Klõpsake nuppu OK.
+## <a name="create-the-purchase-order-header"></a><span data-ttu-id="22c42-113">Ostutellimuse päise loomine</span><span class="sxs-lookup"><span data-stu-id="22c42-113">Create the purchase order header</span></span>
+1. <span data-ttu-id="22c42-114">Avage Hanked > Ostutellimused > Kõik ostutellimused.</span><span class="sxs-lookup"><span data-stu-id="22c42-114">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="22c42-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="22c42-115">Click New.</span></span>
+3. <span data-ttu-id="22c42-116">Sisestage väärtus väljale Hankija konto või valige see.</span><span class="sxs-lookup"><span data-stu-id="22c42-116">In the Vendor account field, enter or select a value.</span></span>
+4. <span data-ttu-id="22c42-117">Laiendage jaotist Üldine.</span><span class="sxs-lookup"><span data-stu-id="22c42-117">Expand the General section.</span></span>
+5. <span data-ttu-id="22c42-118">Määrake aruandluskuupäeva väljal kuupäev „2016-01-01”.</span><span class="sxs-lookup"><span data-stu-id="22c42-118">In the Accounting date field, set the date to '2016-01-01'.</span></span>
+6. <span data-ttu-id="22c42-119">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="22c42-119">Click OK.</span></span>
 
-## <a name="add-a-purchase-order-line"></a>Ostutellimuse rea lisamine
-1. Sisestage või valige väärtus väljal Hanke kategooria.
-2. Valige välja Kogus väärtuseks 2.
-3. Sisestage või valige väärtus väljal Ühik.
-4. Määrake ühiku hinna väärtuseks „10000”.
-5. Klõpsake suvandit Finantsid.
-6. Klõpsake suvandit Summade jaotamine.
-7. Määrake pearaamatukonto väljal väärtus „601300-001-023--”.
-8. Sulgege leht.
+## <a name="add-a-purchase-order-line"></a><span data-ttu-id="22c42-120">Ostutellimuse rea lisamine</span><span class="sxs-lookup"><span data-stu-id="22c42-120">Add a purchase order line</span></span>
+1. <span data-ttu-id="22c42-121">Sisestage või valige väärtus väljal Hanke kategooria.</span><span class="sxs-lookup"><span data-stu-id="22c42-121">In the Procurement category field, enter or select a value.</span></span>
+2. <span data-ttu-id="22c42-122">Valige välja Kogus väärtuseks 2.</span><span class="sxs-lookup"><span data-stu-id="22c42-122">Set Quantity to '2'.</span></span>
+3. <span data-ttu-id="22c42-123">Sisestage või valige väärtus väljal Ühik.</span><span class="sxs-lookup"><span data-stu-id="22c42-123">In the Unit field, enter or select a value.</span></span>
+4. <span data-ttu-id="22c42-124">Määrake ühiku hinna väärtuseks „10000”.</span><span class="sxs-lookup"><span data-stu-id="22c42-124">Set Unit price to '10000'.</span></span>
+5. <span data-ttu-id="22c42-125">Klõpsake suvandit Finantsid.</span><span class="sxs-lookup"><span data-stu-id="22c42-125">Click Financials.</span></span>
+6. <span data-ttu-id="22c42-126">Klõpsake suvandit Summade jaotamine.</span><span class="sxs-lookup"><span data-stu-id="22c42-126">Click Distribute amounts.</span></span>
+7. <span data-ttu-id="22c42-127">Määrake pearaamatukonto väljal väärtus „601300-001-023--”.</span><span class="sxs-lookup"><span data-stu-id="22c42-127">In the Ledger account field, specify the value '601300-001-023--'.</span></span>
+8. <span data-ttu-id="22c42-128">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="22c42-128">Close the page.</span></span>
 
-## <a name="perform-budget-checking"></a>Eelarve kontrollimine
-1. Klõpsake suvandit Finantsid.
-2. Klõpsake valikut Eelarve kontrollimine.
-3. Klõpsake suvandit Finantsid.
-4. Klõpsake valikut Eelarvekontrolli tõrked ja hoiatused.
-5. Klõpsake valikut Sule.
+## <a name="perform-budget-checking"></a><span data-ttu-id="22c42-129">Eelarve kontrollimine</span><span class="sxs-lookup"><span data-stu-id="22c42-129">Perform budget checking</span></span>
+1. <span data-ttu-id="22c42-130">Klõpsake suvandit Finantsid.</span><span class="sxs-lookup"><span data-stu-id="22c42-130">Click Financials.</span></span>
+2. <span data-ttu-id="22c42-131">Klõpsake valikut Eelarve kontrollimine.</span><span class="sxs-lookup"><span data-stu-id="22c42-131">Click Perform budget checking.</span></span>
+3. <span data-ttu-id="22c42-132">Klõpsake suvandit Finantsid.</span><span class="sxs-lookup"><span data-stu-id="22c42-132">Click Financials.</span></span>
+4. <span data-ttu-id="22c42-133">Klõpsake valikut Eelarvekontrolli tõrked ja hoiatused.</span><span class="sxs-lookup"><span data-stu-id="22c42-133">Click Budget check errors or warnings.</span></span>
+5. <span data-ttu-id="22c42-134">Klõpsake valikut Sule.</span><span class="sxs-lookup"><span data-stu-id="22c42-134">Click Close.</span></span>
 
 

@@ -16,45 +16,45 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f14ee57564ad70bb7f28cd9274fc97d07974ec32
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6294e4608b31c37aa713e3a7a2028b409b5a8366
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-product-number-for-predefined-product-variants"></a>Tootenumbri loomine eelmääratletud tootevariantide jaoks
+# <a name="create-a-product-number-for-predefined-product-variants"></a><span data-ttu-id="f9098-103">Tootenumbri loomine eelmääratletud tootevariantide jaoks</span><span class="sxs-lookup"><span data-stu-id="f9098-103">Create a product number for predefined product variants</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See juhend näitab, kuidas seadistada eelmääratletud tootevariantidele tootenumbri nomenklatuuri ja kuidas määrata seda sobivale tootedimensioonigrupile. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Uus tootenumbri nomenklatuur on määratud tootedimensioonigrupile Värv ja Suurus. Enamasti teeb selle toimingu toote koostaja.
+<span data-ttu-id="f9098-104">See juhend näitab, kuidas seadistada eelmääratletud tootevariantidele tootenumbri nomenklatuuri ja kuidas määrata seda sobivale tootedimensioonigrupile.</span><span class="sxs-lookup"><span data-stu-id="f9098-104">This guide shows you how to set up a product number nomenclature for predefined product variants, and how you assign it to the appropriate product dimension group.</span></span> <span data-ttu-id="f9098-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="f9098-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f9098-106">Uus tootenumbri nomenklatuur on määratud tootedimensioonigrupile Värv ja Suurus.</span><span class="sxs-lookup"><span data-stu-id="f9098-106">The new product number nomenclature is assigned to the Color and Size product dimension group.</span></span> <span data-ttu-id="f9098-107">Enamasti teeb selle toimingu toote koostaja.</span><span class="sxs-lookup"><span data-stu-id="f9098-107">This task would typically be done by a product designer.</span></span>
 
 
-## <a name="create-a-product-number-nomenclature"></a>Tootenumbri nomenklatuuri loomine
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Tootenomenklatuur.
-3. Klõpsake valikut Uus.
-4. Sisestage väljale Nimi nomenklatuuri nimi, mis aitab tuvastada siht-tootedimensioonigruppi, nt ColorSize.
-5. Sisestage väljale Kirjeldus soovitud väärtus.
-6. Klõpsake vahekaarti Lisa.
-7. Klõpsake valikut Tooteetaloni number.
-8. Klõpsake vahekaarti Lisa.
-9. Klõpsake valikut Tekstikonstant.
-10. Sisestage väärtus väljale Tekst.
-11. Klõpsake vahekaarti Lisa.
-12. Klõpsake valikut Värv.
-13. Klõpsake vahekaarti Lisa.
-14. Klõpsake valikut Tekstikonstant.
-15. Sisestage väärtus väljale Tekst.
-16. Klõpsake vahekaarti Lisa.
-17. Klõpsake valikut Suurus.
-18. Sulgege leht.
+## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="f9098-108">Tootenumbri nomenklatuuri loomine</span><span class="sxs-lookup"><span data-stu-id="f9098-108">Create a product number nomenclature</span></span>
+1. <span data-ttu-id="f9098-109">Klõpsake valikut Tootevariandi mudeli määratlus.</span><span class="sxs-lookup"><span data-stu-id="f9098-109">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="f9098-110">Klõpsake valikut Tootenomenklatuur.</span><span class="sxs-lookup"><span data-stu-id="f9098-110">Click Product nomenclature.</span></span>
+3. <span data-ttu-id="f9098-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="f9098-111">Click New.</span></span>
+4. <span data-ttu-id="f9098-112">Sisestage väljale Nimi nomenklatuuri nimi, mis aitab tuvastada siht-tootedimensioonigruppi, nt ColorSize.</span><span class="sxs-lookup"><span data-stu-id="f9098-112">In the Name field, enter a nomenclature name that helps to identify the target product dimension group, for example, ColorSize..</span></span>
+5. <span data-ttu-id="f9098-113">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="f9098-113">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="f9098-114">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="f9098-114">Click Add.</span></span>
+7. <span data-ttu-id="f9098-115">Klõpsake valikut Tooteetaloni number.</span><span class="sxs-lookup"><span data-stu-id="f9098-115">Click Product master number.</span></span>
+8. <span data-ttu-id="f9098-116">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="f9098-116">Click Add.</span></span>
+9. <span data-ttu-id="f9098-117">Klõpsake valikut Tekstikonstant.</span><span class="sxs-lookup"><span data-stu-id="f9098-117">Click Text constant.</span></span>
+10. <span data-ttu-id="f9098-118">Sisestage väärtus väljale Tekst.</span><span class="sxs-lookup"><span data-stu-id="f9098-118">In the Text field, type a value.</span></span>
+11. <span data-ttu-id="f9098-119">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="f9098-119">Click Add.</span></span>
+12. <span data-ttu-id="f9098-120">Klõpsake valikut Värv.</span><span class="sxs-lookup"><span data-stu-id="f9098-120">Click Color.</span></span>
+13. <span data-ttu-id="f9098-121">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="f9098-121">Click Add.</span></span>
+14. <span data-ttu-id="f9098-122">Klõpsake valikut Tekstikonstant.</span><span class="sxs-lookup"><span data-stu-id="f9098-122">Click Text constant.</span></span>
+15. <span data-ttu-id="f9098-123">Sisestage väärtus väljale Tekst.</span><span class="sxs-lookup"><span data-stu-id="f9098-123">In the Text field, type a value.</span></span>
+16. <span data-ttu-id="f9098-124">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="f9098-124">Click Add.</span></span>
+17. <span data-ttu-id="f9098-125">Klõpsake valikut Suurus.</span><span class="sxs-lookup"><span data-stu-id="f9098-125">Click Size.</span></span>
+18. <span data-ttu-id="f9098-126">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="f9098-126">Close the page.</span></span>
 
-## <a name="assign-the-nomenclature-to-a-product-master"></a>Nomenklatuuri määramine tooteetalonile
-1. Klõpsake valikut Tootedimensioonigrupid.
-2. Valige tootedimensioonigrupp SizeCol.
-3. Klõpsake nuppu Redigeeri.
-4. Tehke väljal Kasuta nomenklatuuri valik Jah.
-5. Sisestage või valige väärtus väljal Tootevariandi numbri nomenklatuur.
-6. Sulgege leht.
+## <a name="assign-the-nomenclature-to-a-product-master"></a><span data-ttu-id="f9098-127">Nomenklatuuri määramine tooteetalonile</span><span class="sxs-lookup"><span data-stu-id="f9098-127">Assign the nomenclature to a product master</span></span>
+1. <span data-ttu-id="f9098-128">Klõpsake valikut Tootedimensioonigrupid.</span><span class="sxs-lookup"><span data-stu-id="f9098-128">Click Product dimension groups.</span></span>
+2. <span data-ttu-id="f9098-129">Valige tootedimensioonigrupp SizeCol.</span><span class="sxs-lookup"><span data-stu-id="f9098-129">Select the SizeCol product dimension group.</span></span>
+3. <span data-ttu-id="f9098-130">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="f9098-130">Click Edit.</span></span>
+4. <span data-ttu-id="f9098-131">Tehke väljal Kasuta nomenklatuuri valik Jah.</span><span class="sxs-lookup"><span data-stu-id="f9098-131">Select Yes in the Use nomenclature field.</span></span>
+5. <span data-ttu-id="f9098-132">Sisestage või valige väärtus väljal Tootevariandi numbri nomenklatuur.</span><span class="sxs-lookup"><span data-stu-id="f9098-132">In the Product variant number nomenclature field, enter or select a value.</span></span>
+6. <span data-ttu-id="f9098-133">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="f9098-133">Close the page.</span></span>
 
 

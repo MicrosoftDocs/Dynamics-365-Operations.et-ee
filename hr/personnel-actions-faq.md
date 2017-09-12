@@ -19,79 +19,79 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c17441b70a75f032c900c9360da6c0730cf89ba
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 0f88229d56a405211818e043a693991e64c16e5e
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="personnel-actions-faq"></a>Personalitoimingud [KKK]
-Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul. Personalitoimingute kasutamine võib olla vajalik näiteks uute ametikohtade loomisel, olemasolevate ametikohtade väärtuste muutmisel, uute töötajate palkamisel, töötajate üleviimisel, töötajate hüvituse muutmisel, ametikoha määramiste muutmisel või töötajate vallandamisel.
+# <a name="personnel-actions-faq"></a><span data-ttu-id="dd73a-104">Personalitoimingud [KKK]</span><span class="sxs-lookup"><span data-stu-id="dd73a-104">Personnel actions [FAQ]</span></span>
+<span data-ttu-id="dd73a-105">Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele.</span><span class="sxs-lookup"><span data-stu-id="dd73a-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="dd73a-106">Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul.</span><span class="sxs-lookup"><span data-stu-id="dd73a-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="dd73a-107">Personalitoimingute kasutamine võib olla vajalik näiteks uute ametikohtade loomisel, olemasolevate ametikohtade väärtuste muutmisel, uute töötajate palkamisel, töötajate üleviimisel, töötajate hüvituse muutmisel, ametikoha määramiste muutmisel või töötajate vallandamisel.</span><span class="sxs-lookup"><span data-stu-id="dd73a-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
-**Märkus.** Personalitoimingud on saadaval ainult juhul, kui on valitud personalitoimingute konfiguratsioonivõti. 
+<span data-ttu-id="dd73a-108">**Märkus.** Personalitoimingud on saadaval ainult juhul, kui on valitud personalitoimingute konfiguratsioonivõti.</span><span class="sxs-lookup"><span data-stu-id="dd73a-108">**Note:** Personnel actions are available only if the Personnel actions configuration key is selected.</span></span> 
 
-## <a name="how-can-i-tell-if-my-organization-requires-personnel-actions"></a>Kuidas saada teada, kas mu organisatsioon nõuab personalitoiminguid?
-Teie organisatsioon nõuab personalitoiminguid, kui teil palutakse valida personalitoiming uute ametikohtade loomisel, olemasolevate ametikohtade muutmisel, uute töötajate palkamisel, töötajate üleviimisel, töötajate hüvituse muutmisel, ametikoha määramiste muutmisel, töötajate vallandamisel või töötajate puhkuse sisestamisel. 
+## <a name="how-can-i-tell-if-my-organization-requires-personnel-actions"></a><span data-ttu-id="dd73a-109">Kuidas saada teada, kas mu organisatsioon nõuab personalitoiminguid?</span><span class="sxs-lookup"><span data-stu-id="dd73a-109">How can I tell if my organization requires personnel actions?</span></span>
+<span data-ttu-id="dd73a-110">Teie organisatsioon nõuab personalitoiminguid, kui teil palutakse valida personalitoiming uute ametikohtade loomisel, olemasolevate ametikohtade muutmisel, uute töötajate palkamisel, töötajate üleviimisel, töötajate hüvituse muutmisel, ametikoha määramiste muutmisel, töötajate vallandamisel või töötajate puhkuse sisestamisel.</span><span class="sxs-lookup"><span data-stu-id="dd73a-110">Personnel actions are required by your organization if you are asked to select a personnel action when you create new positions, change existing positions, hire new workers, transfer workers, change worker compensation, change position assignments, terminate workers, or enter leave for workers.</span></span> 
 
-## <a name="what-is-the-difference-between-a-position-action-and-a-worker-action"></a>Mille poolest erinevad ametikoha toimingud ja töötaja toimingud?
-Personalitoiminguid on kahte tüüpi.
+## <a name="what-is-the-difference-between-a-position-action-and-a-worker-action"></a><span data-ttu-id="dd73a-111">Mille poolest erinevad ametikoha toimingud ja töötaja toimingud?</span><span class="sxs-lookup"><span data-stu-id="dd73a-111">What is the difference between a position action and a worker action?</span></span>
+<span data-ttu-id="dd73a-112">Personalitoiminguid on kahte tüüpi.</span><span class="sxs-lookup"><span data-stu-id="dd73a-112">There are two types of personnel actions:</span></span>
 
-- Ametikoha toiming – ametikoha toiming tehakse olemasolevatele või uutele ametikohtadele. Näiteks võib ametikoha toiming olla nõutav, kui muudate olemasoleva ametikoha väärtust või loote uue hooajalise ametikoha. Üksikasjalikku teavet ametikoha toimingute kasutamise kohta leiate jaotistest Peamised ülesanded: olemasolevate töötajate ametikohad või Peamised ülesanded: uute töötajate ametikohad.
+- <span data-ttu-id="dd73a-113">Ametikoha toiming – ametikoha toiming tehakse olemasolevatele või uutele ametikohtadele.</span><span class="sxs-lookup"><span data-stu-id="dd73a-113">Position action – A position action is performed on existing positions or new positions.</span></span> <span data-ttu-id="dd73a-114">Näiteks võib ametikoha toiming olla nõutav, kui muudate olemasoleva ametikoha väärtust või loote uue hooajalise ametikoha.</span><span class="sxs-lookup"><span data-stu-id="dd73a-114">For example, a position action might be required if you change a value on an existing position or if you create a new seasonal position.</span></span> <span data-ttu-id="dd73a-115">Üksikasjalikku teavet ametikoha toimingute kasutamise kohta leiate jaotistest Peamised ülesanded: olemasolevate töötajate ametikohad või Peamised ülesanded: uute töötajate ametikohad.</span><span class="sxs-lookup"><span data-stu-id="dd73a-115">For detailed information about how to use position actions, see Key tasks: Existing worker positions or Key tasks: New worker positions.</span></span>
 
-- Töötaja toiming – töötaja toiming tehakse olemasolevatele või uutele töötajatele. Näiteks võib töötaja toiming olla nõutav uue töötaja palkamisel või olemasoleva töötaja edutamisel. Üksikasjaliku teabe töötaja toimingute kasutamise kohta leiate jaotisest Töötajatele personalitoimingute määramine.
+- <span data-ttu-id="dd73a-116">Töötaja toiming – töötaja toiming tehakse olemasolevatele või uutele töötajatele.</span><span class="sxs-lookup"><span data-stu-id="dd73a-116">Worker action – A worker action is performed on existing employees or new employees.</span></span> <span data-ttu-id="dd73a-117">Näiteks võib töötaja toiming olla nõutav uue töötaja palkamisel või olemasoleva töötaja edutamisel.</span><span class="sxs-lookup"><span data-stu-id="dd73a-117">For example, a worker action might be required when a new employee is hired or an existing employee is promoted.</span></span> <span data-ttu-id="dd73a-118">Üksikasjaliku teabe töötaja toimingute kasutamise kohta leiate jaotisest Töötajatele personalitoimingute määramine.</span><span class="sxs-lookup"><span data-stu-id="dd73a-118">For detailed information about how to use worker actions, see Assign personnel actions to workers.</span></span>
 
-## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>Mida personalitoimingute olekud tähendavad?
-Personalitoimingute olek võib olla järgmine.
+## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a><span data-ttu-id="dd73a-119">Mida personalitoimingute olekud tähendavad?</span><span class="sxs-lookup"><span data-stu-id="dd73a-119">What do the statuses of the personnel actions mean?</span></span>
+<span data-ttu-id="dd73a-120">Personalitoimingute olek võib olla järgmine.</span><span class="sxs-lookup"><span data-stu-id="dd73a-120">Personnel actions can have the following statuses:</span></span>
 
-- **Mustand** – kui kasutatakse töövoogu, ei ole toimingut esitatud. Kui töövoogu ei kasutata, ei ole toiming lõpule viidud.
-- **Ülevaatamisel** – personalitoiming on edastatud töövoogu, kuid töövoog ei ole lõpule viidud.
-- **Kinnituse ootel** – töövoog on lõpule viidud, kuid muudatused on veel pooleli. Tühistatud – töövoog tühistati või personalitoiming on tagasi kutsutud. Tagasi lükatud – kinnitaja lükkas toimingutaotluse tagasi.
-- **Toimingu töötlemine** – toimingutaotlus on kinnitatud ja muudatusi töödeldakse.
-- **Töövoog on lõpetatud** – töövoog on lõpule viidud ja muudatused on töödeldud. Nurjunud – töövoog nurjus, kuna teave on aegunud. Uusima teabe kuvamiseks ja jätkamiseks klõpsake käsku Aktiveeri uuesti.
-- **Lõpetatud** – ametikoha loomine või muutmine õnnestus või töötaja palkamine, üleviimine või vallandamine või töötaja tasu muutmine õnnestus. Tõrge – ilmnes teabe aegumisega mitteseotud probleem. Tõrke põhjuse tuvastamiseks avage personalitoimingute teadete logi.
-- **Keelatud** – kinnitaja keelas toimingutaotluse.
+- <span data-ttu-id="dd73a-121">**Mustand** – kui kasutatakse töövoogu, ei ole toimingut esitatud.</span><span class="sxs-lookup"><span data-stu-id="dd73a-121">**Draft** – If workflow is used, the action hasn’t been submitted.</span></span> <span data-ttu-id="dd73a-122">Kui töövoogu ei kasutata, ei ole toiming lõpule viidud.</span><span class="sxs-lookup"><span data-stu-id="dd73a-122">If workflow isn’t used, the action hasn’t been completed.</span></span>
+- <span data-ttu-id="dd73a-123">**Ülevaatamisel** – personalitoiming on edastatud töövoogu, kuid töövoog ei ole lõpule viidud.</span><span class="sxs-lookup"><span data-stu-id="dd73a-123">**In review** – The personnel action has been submitted to workflow, but the workflow is not completed.</span></span>
+- <span data-ttu-id="dd73a-124">**Kinnituse ootel** – töövoog on lõpule viidud, kuid muudatused on veel pooleli.</span><span class="sxs-lookup"><span data-stu-id="dd73a-124">**Approved waiting** – The workflow is completed, but the changes are still in process.</span></span> <span data-ttu-id="dd73a-125">Tühistatud – töövoog tühistati või personalitoiming on tagasi kutsutud.</span><span class="sxs-lookup"><span data-stu-id="dd73a-125">Canceled – The workflow was canceled or the personnel action was recalled.</span></span> <span data-ttu-id="dd73a-126">Tagasi lükatud – kinnitaja lükkas toimingutaotluse tagasi.</span><span class="sxs-lookup"><span data-stu-id="dd73a-126">Rejected – The action request was rejected by the approver.</span></span>
+- <span data-ttu-id="dd73a-127">**Toimingu töötlemine** – toimingutaotlus on kinnitatud ja muudatusi töödeldakse.</span><span class="sxs-lookup"><span data-stu-id="dd73a-127">**Processing action** – The action request has been approved and the changes are being processed.</span></span>
+- <span data-ttu-id="dd73a-128">**Töövoog on lõpetatud** – töövoog on lõpule viidud ja muudatused on töödeldud.</span><span class="sxs-lookup"><span data-stu-id="dd73a-128">**Workflow complete**  – The workflow is completed and the changes have been processed.</span></span> <span data-ttu-id="dd73a-129">Nurjunud – töövoog nurjus, kuna teave on aegunud.</span><span class="sxs-lookup"><span data-stu-id="dd73a-129">Failed – The workflow failed because the information is out of date.</span></span> <span data-ttu-id="dd73a-130">Uusima teabe kuvamiseks ja jätkamiseks klõpsake käsku Aktiveeri uuesti.</span><span class="sxs-lookup"><span data-stu-id="dd73a-130">Click Reactivate to display the latest information and continue.</span></span>
+- <span data-ttu-id="dd73a-131">**Lõpetatud** – ametikoha loomine või muutmine õnnestus või töötaja palkamine, üleviimine või vallandamine või töötaja tasu muutmine õnnestus.</span><span class="sxs-lookup"><span data-stu-id="dd73a-131">**Completed** – The position was successfully created or modified, or the employee was successfully hired, transferred, or terminated, or had their compensation changed.</span></span> <span data-ttu-id="dd73a-132">Tõrge – ilmnes teabe aegumisega mitteseotud probleem.</span><span class="sxs-lookup"><span data-stu-id="dd73a-132">Error – A problem occurred other than information being out of date.</span></span> <span data-ttu-id="dd73a-133">Tõrke põhjuse tuvastamiseks avage personalitoimingute teadete logi.</span><span class="sxs-lookup"><span data-stu-id="dd73a-133">Open the Personnel actions message log to determine the cause of the error.</span></span>
+- <span data-ttu-id="dd73a-134">**Keelatud** – kinnitaja keelas toimingutaotluse.</span><span class="sxs-lookup"><span data-stu-id="dd73a-134">**Denied** – The action request was denied by the approver.</span></span>
 
-## <a name="can-i-delete-a-personnel-action"></a>Kas saan personalitoimingu kustutada?
-Jah, saate kustutada personalitoimingud, mille olek on **Mustand**, **Tõrge**, **Nurjunud** või **Tühistatud**.
+## <a name="can-i-delete-a-personnel-action"></a><span data-ttu-id="dd73a-135">Kas saan personalitoimingu kustutada?</span><span class="sxs-lookup"><span data-stu-id="dd73a-135">Can I delete a personnel action?</span></span>
+<span data-ttu-id="dd73a-136">Jah, saate kustutada personalitoimingud, mille olek on **Mustand**, **Tõrge**, **Nurjunud** või **Tühistatud**.</span><span class="sxs-lookup"><span data-stu-id="dd73a-136">Yes, you can delete personnel actions that have a status of **Draft**, **Error**, **Failed**, or **Canceled**.</span></span>
 
-## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Kuidas kõige kiiremini personalitoimingu taotluse olekut kontrollida?
-Avage soovitud personalitoimingute loendileht ja valige personalitoiming.
+## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a><span data-ttu-id="dd73a-137">Kuidas kõige kiiremini personalitoimingu taotluse olekut kontrollida?</span><span class="sxs-lookup"><span data-stu-id="dd73a-137">What is the fastest way to check the status of a personnel action request?</span></span>
+<span data-ttu-id="dd73a-138">Avage soovitud personalitoimingute loendileht ja valige personalitoiming.</span><span class="sxs-lookup"><span data-stu-id="dd73a-138">Open any of the personnel action list pages and select a personnel action.</span></span>
 
-## <a name="what-should-i-do-if-a-personnel-action-request-fails"></a>Mida teha, kui personalitoimingu taotlus nurjub?
-Kui personalitoimingu taotlus nurjub, siis tehke tõrke lahendamiseks ja taotluse uuesti saatmiseks järgmist.
+## <a name="what-should-i-do-if-a-personnel-action-request-fails"></a><span data-ttu-id="dd73a-139">Mida teha, kui personalitoimingu taotlus nurjub?</span><span class="sxs-lookup"><span data-stu-id="dd73a-139">What should I do if a personnel action request fails?</span></span>
+<span data-ttu-id="dd73a-140">Kui personalitoimingu taotlus nurjub, siis tehke tõrke lahendamiseks ja taotluse uuesti saatmiseks järgmist.</span><span class="sxs-lookup"><span data-stu-id="dd73a-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
-> 1. Klõpsake jaotises **Toimingupaan** nuppu **Tõrke tekst**, et vaadata probleemi kirjeldava teate teksti.
+> 1. <span data-ttu-id="dd73a-141">Klõpsake jaotises **Toimingupaan** nuppu **Tõrke tekst**, et vaadata probleemi kirjeldava teate teksti.</span><span class="sxs-lookup"><span data-stu-id="dd73a-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
 
-> 2. Klõpsake jaotises **Toimingupaan** käsku **Aktiveeri uuesti**, et laadida uusim teave ja määrata personalitoimingu olekuks taas **Mustand**.
+> 2. <span data-ttu-id="dd73a-142">Klõpsake jaotises **Toimingupaan** käsku **Aktiveeri uuesti**, et laadida uusim teave ja määrata personalitoimingu olekuks taas **Mustand**.</span><span class="sxs-lookup"><span data-stu-id="dd73a-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
 
-> 3. Lahendage tõrge ja seejärel klõpsake valikut **Valmis** või **Esita**.
+> 3. <span data-ttu-id="dd73a-143">Lahendage tõrge ja seejärel klõpsake valikut **Valmis** või **Esita**.</span><span class="sxs-lookup"><span data-stu-id="dd73a-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
-## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Mis juhtub töövoogu kasutava personalitoiminguga pärast lõplikku kinnitamist?
-Kui tõrkeid ei ole, muutub personalitoiming kirjutuskaitstuks. (Saate vaadata ajalugu loendilehel **Kõik töötaja tegevused**, kuid te ei saa personalitoimingut muuta.) Kui personalitoimingu olek on **Lõpetatud**, on ametikoht või töötaja kirje juba muudetud. Tehtud muudatuste vaatamiseks avage loendileht **Ametikohad** või **Töötajad**.
+## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="dd73a-144">Mis juhtub töövoogu kasutava personalitoiminguga pärast lõplikku kinnitamist?</span><span class="sxs-lookup"><span data-stu-id="dd73a-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>
+<span data-ttu-id="dd73a-145">Kui tõrkeid ei ole, muutub personalitoiming kirjutuskaitstuks.</span><span class="sxs-lookup"><span data-stu-id="dd73a-145">If there are no errors, the personnel action becomes read-only.</span></span> <span data-ttu-id="dd73a-146">(Saate vaadata ajalugu loendilehel **Kõik töötaja tegevused**, kuid te ei saa personalitoimingut muuta.) Kui personalitoimingu olek on **Lõpetatud**, on ametikoht või töötaja kirje juba muudetud.</span><span class="sxs-lookup"><span data-stu-id="dd73a-146">(You can view the history on the **All worker actions** list page, but you can’t change the personnel action.) When the status of a personnel action is **Completed**, the position or worker record has already been updated.</span></span> <span data-ttu-id="dd73a-147">Tehtud muudatuste vaatamiseks avage loendileht **Ametikohad** või **Töötajad**.</span><span class="sxs-lookup"><span data-stu-id="dd73a-147">To view the changes that were performed, open the **Positions** or **Workers** list page.</span></span>
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Miks ilmub järgmine tõrge, kui sisestan väljale Palgamäär väärtuse, mis ei ole null? „Väärtus on väljaspool kehtivat vahemikku. See peab jääma vahemikku 0,00 kuni 0,00”
-See teade ilmub, kuna valitud ametikohaga seostatud töö vormi väli Tase on tühi.
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a><span data-ttu-id="dd73a-148">Miks ilmub järgmine tõrge, kui sisestan väljale Palgamäär väärtuse, mis ei ole null?</span><span class="sxs-lookup"><span data-stu-id="dd73a-148">Why do I receive the following error when I enter a non-zero value in the Pay rate field?</span></span> <span data-ttu-id="dd73a-149">„Väärtus on väljaspool kehtivat vahemikku. See peab jääma vahemikku 0,00 kuni 0,00”</span><span class="sxs-lookup"><span data-stu-id="dd73a-149">“The value is out of its valid range – it much be between 0.00 and 0.00”</span></span>
+<span data-ttu-id="dd73a-150">See teade ilmub, kuna valitud ametikohaga seostatud töö vormi väli Tase on tühi.</span><span class="sxs-lookup"><span data-stu-id="dd73a-150">You receive this message because the Level field in the Job form is blank for the job that is associated with the selected position.</span></span>
 
-Tõrke lahendamiseks tehke järgmist.
+<span data-ttu-id="dd73a-151">Tõrke lahendamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="dd73a-151">To resolve this error, follow these steps:</span></span>
 
-> 1. Klõpsake vormil Töötaja ametikoha määrangud välja Ametikoht.  
-> 2. Klõpsake välja Töö väärtust lehe Töö avamiseks.
-> 3. Klõpsake toimingupaanil käsku Redigeeri.
-> 4. Klõpsake vahekaarti Tasu.
-> 5. Valige tase väljal Tase.
-> 6. Sulgege töö leht.
-> 7. Sulgege ametikoha leht.
-> 8. Naaske lehel Töötaja vahekaardile Tasu, valige Põhipalk.  Valige Uus ja sisestage töötaja ametikoht väljale Ametikoht.  Sisestage väärtus väljale Plaan ja sisestage siis töötaja tasu väljale Palgamäär.
+> 1. <span data-ttu-id="dd73a-152">Klõpsake vormil Töötaja ametikoha määrangud välja Ametikoht.</span><span class="sxs-lookup"><span data-stu-id="dd73a-152">On the Worker position assignments form, click on Position field.</span></span>  
+> 2. <span data-ttu-id="dd73a-153">Klõpsake välja Töö väärtust lehe Töö avamiseks.</span><span class="sxs-lookup"><span data-stu-id="dd73a-153">Click the Job field value to open the Job page.</span></span>
+> 3. <span data-ttu-id="dd73a-154">Klõpsake toimingupaanil käsku Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="dd73a-154">On the Action pane, click Edit.</span></span>
+> 4. <span data-ttu-id="dd73a-155">Klõpsake vahekaarti Tasu.</span><span class="sxs-lookup"><span data-stu-id="dd73a-155">Click the Compensation tab.</span></span>
+> 5. <span data-ttu-id="dd73a-156">Valige tase väljal Tase.</span><span class="sxs-lookup"><span data-stu-id="dd73a-156">In the Level field, select a level.</span></span>
+> 6. <span data-ttu-id="dd73a-157">Sulgege töö leht.</span><span class="sxs-lookup"><span data-stu-id="dd73a-157">Close the Job page.</span></span>
+> 7. <span data-ttu-id="dd73a-158">Sulgege ametikoha leht.</span><span class="sxs-lookup"><span data-stu-id="dd73a-158">Close the Position page.</span></span>
+> 8. <span data-ttu-id="dd73a-159">Naaske lehel Töötaja vahekaardile Tasu, valige Põhipalk.</span><span class="sxs-lookup"><span data-stu-id="dd73a-159">Return to the Compensation tab on the Worker page, select Fixed compensation.</span></span>  <span data-ttu-id="dd73a-160">Valige Uus ja sisestage töötaja ametikoht väljale Ametikoht.</span><span class="sxs-lookup"><span data-stu-id="dd73a-160">Select New and enter the employee’s position in the Position field.</span></span>  <span data-ttu-id="dd73a-161">Sisestage väärtus väljale Plaan ja sisestage siis töötaja tasu väljale Palgamäär.</span><span class="sxs-lookup"><span data-stu-id="dd73a-161">Enter a value in the Plan field, and then enter the employee’s compensation in the Pay rate field.</span></span>
 
-## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Miks ma ei saa muuta kehtivat kuupäeva töötaja toimingu vormi päises?
-Te ei saa kehtivat kuupäeva muuta, kuna väljale sisestatakse kõige loogilisem kuupäev toimingu tüübi alusel.
+## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a><span data-ttu-id="dd73a-162">Miks ma ei saa muuta kehtivat kuupäeva töötaja toimingu vormi päises?</span><span class="sxs-lookup"><span data-stu-id="dd73a-162">Why can’t I change the effective date in the header of the Worker action form?</span></span>
+<span data-ttu-id="dd73a-163">Te ei saa kehtivat kuupäeva muuta, kuna väljale sisestatakse kõige loogilisem kuupäev toimingu tüübi alusel.</span><span class="sxs-lookup"><span data-stu-id="dd73a-163">You can’t change the effective date because the field is populated with the most logical date for the action type.</span></span>
 
-Näide.
+<span data-ttu-id="dd73a-164">Näide.</span><span class="sxs-lookup"><span data-stu-id="dd73a-164">For example:</span></span>
 
-- Toimingu **Töötajaga töösuhte lõpetamine** päises olev kehtiv kuupäev kattub väljale **Lõpetamise kuupäev** sisestatud kuupäevaga.
-- Toimingu **Töötaja palkamine** päises olev kehtiv kuupäev kattub väljale **Töösuhte alguskuupäev** sisestatud kuupäevaga.
-- Toimingu **Töötaja üleviimine** päises olev kehtiv kuupäev kattub töötaja väljale **Määramise alguskuupäev** sisestatud kuupäevaga.
+- <span data-ttu-id="dd73a-165">Toimingu **Töötajaga töösuhte lõpetamine** päises olev kehtiv kuupäev kattub väljale **Lõpetamise kuupäev** sisestatud kuupäevaga.</span><span class="sxs-lookup"><span data-stu-id="dd73a-165">The effective date in the header of a **Terminate a worker** action is the date you entered in the **Termination date** field.</span></span>
+- <span data-ttu-id="dd73a-166">Toimingu **Töötaja palkamine** päises olev kehtiv kuupäev kattub väljale **Töösuhte alguskuupäev** sisestatud kuupäevaga.</span><span class="sxs-lookup"><span data-stu-id="dd73a-166">The effective date of a **Hire a worker** action is the date that you entered in the **Employment start date** field.</span></span>
+- <span data-ttu-id="dd73a-167">Toimingu **Töötaja üleviimine** päises olev kehtiv kuupäev kattub töötaja väljale **Määramise alguskuupäev** sisestatud kuupäevaga.</span><span class="sxs-lookup"><span data-stu-id="dd73a-167">The effective date of a **Transfer a worker** action is the date that you entered in the **Assignment start date** field for the worker.</span></span>
 
 

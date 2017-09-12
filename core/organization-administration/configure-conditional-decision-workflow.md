@@ -15,41 +15,41 @@ ms.custom: 195703
 ms.assetid: cd5554a4-210c-4c20-a7d3-4b1563c2b5df
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c21c8e33ab3a88e1b93ca81d6f0770f1c77fe139
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: e9d5c8add546cad0446e863f64cac8f9cb603cbb
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Töövoos tingimusliku otsuse konfigureerimine
+# <a name="configure-a-conditional-decision-in-a-workflow"></a><span data-ttu-id="1897a-103">Töövoos tingimusliku otsuse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="1897a-103">Configure a conditional decision in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Kasutage järgmist protseduuri, et konfigureerida tingimusliku otsuse atribuudid.
+<span data-ttu-id="1897a-104">Kasutage järgmist protseduuri, et konfigureerida tingimusliku otsuse atribuudid.</span><span class="sxs-lookup"><span data-stu-id="1897a-104">Use the following procedure to configure the properties of a conditional decision.</span></span>
 
-Tingimuslik otsus on punkt, milles töövoog jaguneb kaheks haruks. Töövoo redaktoris tingimusliku otsuse loomiseks paremklõpsake tingimuslikku otsust ja seejärel klõpsake valikut **Atribuudid**, et avada vorm **Atribuudid**.
+<span data-ttu-id="1897a-105">Tingimuslik otsus on punkt, milles töövoog jaguneb kaheks haruks.</span><span class="sxs-lookup"><span data-stu-id="1897a-105">A conditional decision is a point at which a workflow divides into two branches.</span></span> <span data-ttu-id="1897a-106">Töövoo redaktoris tingimusliku otsuse loomiseks paremklõpsake tingimuslikku otsust ja seejärel klõpsake valikut **Atribuudid**, et avada vorm **Atribuudid**.</span><span class="sxs-lookup"><span data-stu-id="1897a-106">To configure a conditional decision, in the workflow editor, right-click the conditional decision, and then click **Properties** to open the **Properties** form.</span></span>
 
-## <a name="name-a-decision"></a>Otsusele nime andmine
-Tingimuslikule otsusele nime sisestamiseks tehke järgmist.
-1.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
-2.  Väljal **Nimi** sisestage tingimuslikule otsusele kordumatu nimi.
+## <a name="name-a-decision"></a><span data-ttu-id="1897a-107">Otsusele nime andmine</span><span class="sxs-lookup"><span data-stu-id="1897a-107">Name a decision</span></span>
+<span data-ttu-id="1897a-108">Tingimuslikule otsusele nime sisestamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="1897a-108">Follow these steps to enter a name for a conditional decision.</span></span>
+1.  <span data-ttu-id="1897a-109">Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.</span><span class="sxs-lookup"><span data-stu-id="1897a-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="1897a-110">Väljal **Nimi** sisestage tingimuslikule otsusele kordumatu nimi.</span><span class="sxs-lookup"><span data-stu-id="1897a-110">In the **Name** field, enter a unique name for the conditional decision.</span></span>
 
-## <a name="set-conditions"></a> Tingimuste määramine
-Süsteem määrab, haru kasutada, hinnates edastatud dokumenti ja otsustades, kas see vastab kindlatele tingimustele.
-1.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
-2.  Klõpsake valikut **Lisa tingimus**.
-3.  Sisestage tingimus.
-4.  Sisestage lisatingimused, kui need on nõutavad.
-5.  Kontrollimaks, kas teie sisestatud tingimused on õigesti konfigureeritud, tehke järgmist.
-    1.  Klõpsake valikut **Katseta**, et avada leht **Katseta töövoo tingimust**.
-    2.  Valige vormi alal kirje **Kontrolli tingimust**.
-    3.  Klõpsake nuppu **Test**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.
-    4.  Klõpsake valikut **OK** või **Tühista**, et naasta vormile **Atribuudid**.
+## <a name="set-conditions"></a><span data-ttu-id="1897a-111"> Tingimuste määramine</span><span class="sxs-lookup"><span data-stu-id="1897a-111">Set conditions</span></span>
+<span data-ttu-id="1897a-112">Süsteem määrab, haru kasutada, hinnates edastatud dokumenti ja otsustades, kas see vastab kindlatele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="1897a-112">The system determines which branch is used by evaluating the submitted document to determine whether it meets specific conditions.</span></span>
+1.  <span data-ttu-id="1897a-113">Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.</span><span class="sxs-lookup"><span data-stu-id="1897a-113">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="1897a-114">Klõpsake valikut **Lisa tingimus**.</span><span class="sxs-lookup"><span data-stu-id="1897a-114">Click **Add condition**.</span></span>
+3.  <span data-ttu-id="1897a-115">Sisestage tingimus.</span><span class="sxs-lookup"><span data-stu-id="1897a-115">Enter a condition.</span></span>
+4.  <span data-ttu-id="1897a-116">Sisestage lisatingimused, kui need on nõutavad.</span><span class="sxs-lookup"><span data-stu-id="1897a-116">Enter additional conditions, if they are required.</span></span>
+5.  <span data-ttu-id="1897a-117">Kontrollimaks, kas teie sisestatud tingimused on õigesti konfigureeritud, tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="1897a-117">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
+    1.  <span data-ttu-id="1897a-118">Klõpsake valikut **Katseta**, et avada leht **Katseta töövoo tingimust**.</span><span class="sxs-lookup"><span data-stu-id="1897a-118">Click **Test** to open the **Test workflow condition** form.</span></span>
+    2.  <span data-ttu-id="1897a-119">Valige vormi alal kirje **Kontrolli tingimust**.</span><span class="sxs-lookup"><span data-stu-id="1897a-119">Select a record in the **Validate condition** area of the form.</span></span>
+    3.  <span data-ttu-id="1897a-120">Klõpsake nuppu **Test**.</span><span class="sxs-lookup"><span data-stu-id="1897a-120">Click **Test**.</span></span> <span data-ttu-id="1897a-121">Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.</span><span class="sxs-lookup"><span data-stu-id="1897a-121">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4.  <span data-ttu-id="1897a-122">Klõpsake valikut **OK** või **Tühista**, et naasta vormile **Atribuudid**.</span><span class="sxs-lookup"><span data-stu-id="1897a-122">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
 
 
 

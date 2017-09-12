@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -19,83 +19,80 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 63244357ab9c12d42dbd5dba6f0229128a3971de
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="inventory-journals"></a>Laotöölehed
+# <a name="inventory-journals"></a><span data-ttu-id="766c3-103">Laotöölehed</span><span class="sxs-lookup"><span data-stu-id="766c3-103">Inventory journals</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 [!include[retail name](../includes/retail-name.md)]
 
 
-Selles artiklis kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks. 
+<span data-ttu-id="766c3-104">Selles artiklis kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks.</span><span class="sxs-lookup"><span data-stu-id="766c3-104">This article describes how you can use inventory journals to post various types of physical inventory transactions.</span></span>
 
-Laotöölehti kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operationsis mitmesuguste füüsiliste laokannete sisestamiseks, nt väljaminekute ja sissetulekuste, varude liikumiste, koosluste loomise ja füüsiliste varude vastavusseviimise sisestamiseks. Kõiki neid laotöölehti kasutatakse sarnasel viisil, kuid need on jagatud erinevateks tüüpideks.
+<span data-ttu-id="766c3-105">Laotöölehti kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operationsis mitmesuguste füüsiliste laokannete sisestamiseks, nt väljaminekute ja sissetulekuste, varude liikumiste, koosluste loomise ja füüsiliste varude vastavusseviimise sisestamiseks.</span><span class="sxs-lookup"><span data-stu-id="766c3-105">The inventory journals in Microsoft Dynamics 365 for Finance and Operations are used to post physical inventory transactions of various types, such as the posting of issues and receipts, inventory movements, the creation of bills of materials (BOMs), and the reconciliation of physical inventory.</span></span> <span data-ttu-id="766c3-106">Kõiki neid laotöölehti kasutatakse sarnasel viisil, kuid need on jagatud erinevateks tüüpideks.</span><span class="sxs-lookup"><span data-stu-id="766c3-106">All these inventory journals are used in a similar way, but they are divided into different types.</span></span>
 
-## <a name="types-of-inventory-journals"></a>Laotöölehtede tüübid
-Saadaval on järgmist tüüpi laotöölehti.
+## <a name="types-of-inventory-journals"></a><span data-ttu-id="766c3-107">Laotöölehtede tüübid</span><span class="sxs-lookup"><span data-stu-id="766c3-107">Types of inventory journals</span></span>
+<span data-ttu-id="766c3-108">Saadaval on järgmist tüüpi laotöölehti.</span><span class="sxs-lookup"><span data-stu-id="766c3-108">The following types of inventory journals are available:</span></span>
 
--   Liikumine
--   Lao korrigeerimine
--   Ülekanne
--   Kooslus
--   Kauba saabumine
--   Materjalid tootmisse
--   Inventuur
--   Märgistusega inventuur
+-   <span data-ttu-id="766c3-109">Liikumine</span><span class="sxs-lookup"><span data-stu-id="766c3-109">Movement</span></span>
+-   <span data-ttu-id="766c3-110">Lao korrigeerimine</span><span class="sxs-lookup"><span data-stu-id="766c3-110">Inventory adjustment</span></span>
+-   <span data-ttu-id="766c3-111">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="766c3-111">Transfer</span></span>
+-   <span data-ttu-id="766c3-112">Kooslus</span><span class="sxs-lookup"><span data-stu-id="766c3-112">BOM</span></span>
+-   <span data-ttu-id="766c3-113">Kauba saabumine</span><span class="sxs-lookup"><span data-stu-id="766c3-113">Item arrival</span></span>
+-   <span data-ttu-id="766c3-114">Materjalid tootmisse</span><span class="sxs-lookup"><span data-stu-id="766c3-114">Production input</span></span>
+-   <span data-ttu-id="766c3-115">Inventuur</span><span class="sxs-lookup"><span data-stu-id="766c3-115">Counting</span></span>
+-   <span data-ttu-id="766c3-116">Märgistusega inventuur</span><span class="sxs-lookup"><span data-stu-id="766c3-116">Tag counting</span></span>
 
-### <a name="movement"></a>Liikumine
+### <a name="movement"></a><span data-ttu-id="766c3-117">Liikumine</span><span class="sxs-lookup"><span data-stu-id="766c3-117">Movement</span></span>
 
-Varude liikumise töölehe kasutamisel saate lisada kaubale varude lisamisel maksumuse, kuid peate eraldama lisakulu käsitsi konkreetsele pearaamatukontole, määrates töölehe loomisel pearaamatu vastaskonto. Varude töölehe tüüp on abiks, kui soovite kanda kauba teise osakonna kuludesse või kui soovite eemaldada kaupu varudest kuludesse kandmiseks.
+<span data-ttu-id="766c3-118">Varude liikumise töölehe kasutamisel saate lisada kaubale varude lisamisel maksumuse, kuid peate eraldama lisakulu käsitsi konkreetsele pearaamatukontole, määrates töölehe loomisel pearaamatu vastaskonto.</span><span class="sxs-lookup"><span data-stu-id="766c3-118">When you use an inventory movement journal, you can add cost to an item when you add inventory, but you must manually allocate the additional cost to a particular general ledger account by specifying a general ledger offset account when you create the journal.</span></span> <span data-ttu-id="766c3-119">Varude töölehe tüüp on abiks, kui soovite kanda kauba teise osakonna kuludesse või kui soovite eemaldada kaupu varudest kuludesse kandmiseks.</span><span class="sxs-lookup"><span data-stu-id="766c3-119">This inventory journal type is useful if you want to expense an item against a different department, or if you want to remove items from inventory for expense purposes.</span></span>
 
-### <a name="inventory-adjustment"></a>Lao korrigeerimine
+### <a name="inventory-adjustment"></a><span data-ttu-id="766c3-120">Lao korrigeerimine</span><span class="sxs-lookup"><span data-stu-id="766c3-120">Inventory adjustment</span></span>
 
-Varude korrigeerimistöölehe kasutamisel saate lisada kaubale kulu varude lisamisel. Lisakulud sisestatakse automaatselt konkreetsele pearaamatukontole kaubagrupi sisestusreeglite seadistuse alusel. Kasutage seda varude töölehe tüüpi laokoguste kasumite ja kahjumite uuendamiseks, kui kaup peaks säilitama oma pearaamatu vastaskonto vaikeväärtuse. Varude korrigeerimise töölehe sisestamisel sisestatakse lao sissetulek või väljaminek, muudetakse laoväärtusi ja luuakse pearaamatu kanded.
+<span data-ttu-id="766c3-121">Varude korrigeerimistöölehe kasutamisel saate lisada kaubale kulu varude lisamisel.</span><span class="sxs-lookup"><span data-stu-id="766c3-121">When you use an inventory adjustment journal, you can add cost to an item when you add inventory.</span></span> <span data-ttu-id="766c3-122">Lisakulud sisestatakse automaatselt konkreetsele pearaamatukontole kaubagrupi sisestusreeglite seadistuse alusel.</span><span class="sxs-lookup"><span data-stu-id="766c3-122">The additional cost is automatically posted to a specific general ledger account, based on the setup of the item group posting profile.</span></span> <span data-ttu-id="766c3-123">Kasutage seda varude töölehe tüüpi laokoguste kasumite ja kahjumite uuendamiseks, kui kaup peaks säilitama oma pearaamatu vastaskonto vaikeväärtuse.</span><span class="sxs-lookup"><span data-stu-id="766c3-123">Use this inventory journal type to update gains and losses to inventory quantities when the item should keep its default general ledger offset account.</span></span> <span data-ttu-id="766c3-124">Varude korrigeerimise töölehe sisestamisel sisestatakse lao sissetulek või väljaminek, muudetakse laoväärtusi ja luuakse pearaamatu kanded.</span><span class="sxs-lookup"><span data-stu-id="766c3-124">When you post an inventory adjustment journal, an inventory receipt or issue is posted, the inventory values are changed, and ledger transactions are created.</span></span>
 
-### <a name="transfer"></a>Ülekanne
+### <a name="transfer"></a><span data-ttu-id="766c3-125">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="766c3-125">Transfer</span></span>
 
-Üleviimistöölehti saab kasutada kaupade üleviimiseks ladustamiskohtade, partiide või tootevariantide vahel ilma kulusid seostamata. Näiteks võite viia kaupu ühest laost teise sama ettevõtte raames. Üleviimistöölehe kasutamisel tuleb määrata varude dimensioonid „kust” ja „kuhu” (nt väärtuste Laoala ja Ladu puhul). Määratletud varude dimensioonide vaba kaubavaru muudetakse vastavalt. Varude üleviimised kajastavad materjali viivitamatut liikumist. Transiidis olevaid varusid ei jälgita. Kui transiidis olevaid varusid tuleb jälgida, tuleb selle asemel kasutada üleviimistellimust. Üleviimistöölehe sisestamisel luuakse iga töölehe rea jaoks kaks varude kannet.
+<span data-ttu-id="766c3-126">Üleviimistöölehti saab kasutada kaupade üleviimiseks ladustamiskohtade, partiide või tootevariantide vahel ilma kulusid seostamata.</span><span class="sxs-lookup"><span data-stu-id="766c3-126">You can use transfer journals to transfer items between stocking locations, batches, or product variants without associating any cost implications.</span></span> <span data-ttu-id="766c3-127">Näiteks võite viia kaupu ühest laost teise sama ettevõtte raames.</span><span class="sxs-lookup"><span data-stu-id="766c3-127">For example, you can transfer items from one warehouse to another warehouse within the same company.</span></span> <span data-ttu-id="766c3-128">Üleviimistöölehe kasutamisel tuleb määrata varude dimensioonid „kust” ja „kuhu” (nt väärtuste Laoala ja Ladu puhul).</span><span class="sxs-lookup"><span data-stu-id="766c3-128">When you use a transfer journal, you must specify both the "from" and "to" inventory dimensions (for example, for Site and Warehouse).</span></span> <span data-ttu-id="766c3-129">Määratletud varude dimensioonide vaba kaubavaru muudetakse vastavalt.</span><span class="sxs-lookup"><span data-stu-id="766c3-129">The on-hand inventory for the defined inventory dimensions is changed accordingly.</span></span> <span data-ttu-id="766c3-130">Varude üleviimised kajastavad materjali viivitamatut liikumist.</span><span class="sxs-lookup"><span data-stu-id="766c3-130">Inventory transfers reflect the immediate movement of material.</span></span> <span data-ttu-id="766c3-131">Transiidis olevaid varusid ei jälgita.</span><span class="sxs-lookup"><span data-stu-id="766c3-131">In-transit inventory isn't tracked.</span></span> <span data-ttu-id="766c3-132">Kui transiidis olevaid varusid tuleb jälgida, tuleb selle asemel kasutada üleviimistellimust.</span><span class="sxs-lookup"><span data-stu-id="766c3-132">If in-transit inventory must be tracked, you should use a transfer order instead.</span></span> <span data-ttu-id="766c3-133">Üleviimistöölehe sisestamisel luuakse iga töölehe rea jaoks kaks varude kannet.</span><span class="sxs-lookup"><span data-stu-id="766c3-133">When you post a transfer journal, two inventory transactions are created for each journal line:</span></span>
 
--   Lao väljaminek asukohast „kust”
--   Lao sissetulek asukohas „kuhu”
+-   <span data-ttu-id="766c3-134">Lao väljaminek asukohast „kust”</span><span class="sxs-lookup"><span data-stu-id="766c3-134">An inventory issue at the "from" location</span></span>
+-   <span data-ttu-id="766c3-135">Lao sissetulek asukohas „kuhu”</span><span class="sxs-lookup"><span data-stu-id="766c3-135">An inventory receipt at the "to" location</span></span>
 
-### <a name="bom"></a>Kooslus
+### <a name="bom"></a><span data-ttu-id="766c3-136">Kooslus</span><span class="sxs-lookup"><span data-stu-id="766c3-136">BOM</span></span>
 
-Kui kinnitate koosluse lõpetatuks, saate luua koosluse töölehe. Koosluse töölehe kasutamisel saate kooslust otse sisestada. Sisestamine loob tootele lao sissetuleku koos seotud koosluse ja koosluses sisalduvate toodete lao väljaminekuga. See varude töölehe tüüp on abiks lihtsate või mahukate tootmisstsenaariumide korral, kui protsesse ei vajata.
+<span data-ttu-id="766c3-137">Kui kinnitate koosluse lõpetatuks, saate luua koosluse töölehe.</span><span class="sxs-lookup"><span data-stu-id="766c3-137">When you report a BOM as finished, you can create a BOM journal.</span></span> <span data-ttu-id="766c3-138">Koosluse töölehe kasutamisel saate kooslust otse sisestada.</span><span class="sxs-lookup"><span data-stu-id="766c3-138">By using a BOM journal, you can post the BOM directly.</span></span> <span data-ttu-id="766c3-139">Sisestamine loob tootele lao sissetuleku koos seotud koosluse ja koosluses sisalduvate toodete lao väljaminekuga.</span><span class="sxs-lookup"><span data-stu-id="766c3-139">This posting generates an inventory receipt of the product, together with an associated BOM and an inventory issue of the products that are included in the BOM.</span></span> <span data-ttu-id="766c3-140">See varude töölehe tüüp on abiks lihtsate või mahukate tootmisstsenaariumide korral, kui protsesse ei vajata.</span><span class="sxs-lookup"><span data-stu-id="766c3-140">This inventory journal type is useful in simple or high-volume production scenarios where routes aren't required.</span></span>
 
-### <a name="item-arrival"></a>Kauba saabumine
+### <a name="item-arrival"></a><span data-ttu-id="766c3-141">Kauba saabumine</span><span class="sxs-lookup"><span data-stu-id="766c3-141">Item arrival</span></span>
 
-Saate kasutada kauba saabumistöölehte kaupade sissetuleku registreerimiseks (nt ostutellimustelt). Kauba saabumistöölehe saab luua saabumise haldamise käigus lehelt **Saabumisülevaade** või töölehe sisestuse saab luua käsitsi lehelt **Kauba saabumine**. Kui lubate kauba saabumise töölehe nime puhul komplekteerimiskohtade otsimise, otsib Finance and Operations saadud kaupade asukohta ja kui ruumi on, loob sissetulevatele kaupadele sihtkohad.
+<span data-ttu-id="766c3-142">Saate kasutada kauba saabumistöölehte kaupade sissetuleku registreerimiseks (nt ostutellimustelt).</span><span class="sxs-lookup"><span data-stu-id="766c3-142">You can use the item arrival journal to register the receipt of items (for example, from purchase orders).</span></span> <span data-ttu-id="766c3-143">Kauba saabumistöölehe saab luua saabumise haldamise käigus lehelt **Saabumisülevaade** või töölehe sisestuse saab luua käsitsi lehelt **Kauba saabumine**.</span><span class="sxs-lookup"><span data-stu-id="766c3-143">An item arrival journal can be created as part of arrival management from the **Arrival overview** page, or you can manually create a journal entry from the **Item arrival** page.</span></span> <span data-ttu-id="766c3-144">Kui lubate kauba saabumise töölehe nime puhul komplekteerimiskohtade otsimise, otsib Finance and Operations saadud kaupade asukohta ja kui ruumi on, loob sissetulevatele kaupadele sihtkohad.</span><span class="sxs-lookup"><span data-stu-id="766c3-144">If you enable the item arrival journal name to check for picking locations, Finance and Operations looks for a location for received items and, if there is room, generates location destinations for the incoming items.</span></span>
 
-### <a name="production-input"></a>Materjalid tootmisse
+### <a name="production-input"></a><span data-ttu-id="766c3-145">Materjalid tootmisse</span><span class="sxs-lookup"><span data-stu-id="766c3-145">Production input</span></span>
 
-Tootmise sisendtöölehed toimivad kauba saabumistöölehtede sarnaselt, kuid neid kasutatakse tootmistellimuste puhul.
+<span data-ttu-id="766c3-146">Tootmise sisendtöölehed toimivad kauba saabumistöölehtede sarnaselt, kuid neid kasutatakse tootmistellimuste puhul.</span><span class="sxs-lookup"><span data-stu-id="766c3-146">Production input journals work like the item arrival journals but are used for production orders.</span></span>
 
-### <a name="counting"></a>Inventuur
+### <a name="counting"></a><span data-ttu-id="766c3-147">Inventuur</span><span class="sxs-lookup"><span data-stu-id="766c3-147">Counting</span></span>
 
-Inventuuritöölehtede abil saate korrigeerida praegust vaba kaubavaru, mis on kaupade või kaubagruppide puhul registreeritud, ja seejärel sisestada tegeliku füüsilise inventuuri nii, et saate teha vajalikke korrigeerimisi erinevuste tasakaalustamiseks. Saate seostada inventuuripoliitikad inventuurigruppidega, et aidata rühmitada erinevate omadustega kaupu, nii et need kaubad saaks lisada inventuuri töölehele. Näiteks saate seadistada inventuurigrupid nii, et need loeksid kaupu, millel on konkreetne sagedus, või loeksid kaupu siis, kui varud langevad teatud tasemele. Teavet inventuurigruppide määratlemise kohta leiate jaotisest [Laoinventuuri protsesside määratlemine (tegevuse juhis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
+<span data-ttu-id="766c3-148">Inventuuritöölehtede abil saate korrigeerida praegust vaba kaubavaru, mis on kaupade või kaubagruppide puhul registreeritud, ja seejärel sisestada tegeliku füüsilise inventuuri nii, et saate teha vajalikke korrigeerimisi erinevuste tasakaalustamiseks.</span><span class="sxs-lookup"><span data-stu-id="766c3-148">Counting journals let you correct the current on-hand inventory that is registered for items or groups of items, and then post the actual physical count, so that you can make the adjustments that are required in order to reconcile the differences.</span></span> <span data-ttu-id="766c3-149">Saate seostada inventuuripoliitikad inventuurigruppidega, et aidata rühmitada erinevate omadustega kaupu, nii et need kaubad saaks lisada inventuuri töölehele.</span><span class="sxs-lookup"><span data-stu-id="766c3-149">You can associate counting policies with counting groups to help group items that have various characteristics, so that those items can be included in a counting journal.</span></span> <span data-ttu-id="766c3-150">Näiteks saate seadistada inventuurigrupid nii, et need loeksid kaupu, millel on konkreetne sagedus, või loeksid kaupu siis, kui varud langevad teatud tasemele.</span><span class="sxs-lookup"><span data-stu-id="766c3-150">For example, you can set up counting groups to count items that have a specific frequency, or to count items when stock falls to a particular level.</span></span> <span data-ttu-id="766c3-151">Teavet inventuurigruppide määratlemise kohta leiate jaotisest [Laoinventuuri protsesside määratlemine (tegevuse juhis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).</span><span class="sxs-lookup"><span data-stu-id="766c3-151">For information about how to define counting groups, see [Define inventory counting processes (Task guide)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).</span></span>
 
-### <a name="tag-counting"></a>Märgistusega inventuur
+### <a name="tag-counting"></a><span data-ttu-id="766c3-152">Märgistusega inventuur</span><span class="sxs-lookup"><span data-stu-id="766c3-152">Tag counting</span></span>
 
-Märgistusega inventuuritöölehti kasutatakse inventuuripartiile numbrisildi määramiseks. Sildil peaks olema sildi number, kaubakood ja kauba kogus. Et tagada sildi ühekordne kasutamine ja kõigi siltide kasutamine, peaks igal kaubakoodil olema oma numbriseeriaga kordumatu sildikomplekt. Igale sildile saab määrata olekuväärtused.
+<span data-ttu-id="766c3-153">Märgistusega inventuuritöölehti kasutatakse inventuuripartiile numbrisildi määramiseks.</span><span class="sxs-lookup"><span data-stu-id="766c3-153">Tag counting journals are used to assign a numbered tag to a count lot.</span></span> <span data-ttu-id="766c3-154">Sildil peaks olema sildi number, kaubakood ja kauba kogus.</span><span class="sxs-lookup"><span data-stu-id="766c3-154">The tag should contain a tag number, item number, and item quantity.</span></span> <span data-ttu-id="766c3-155">Et tagada sildi ühekordne kasutamine ja kõigi siltide kasutamine, peaks igal kaubakoodil olema oma numbriseeriaga kordumatu sildikomplekt.</span><span class="sxs-lookup"><span data-stu-id="766c3-155">To help guarantee that a tag is used only one time, and that all tags are used, every item number should have a unique set of tags that has its own number sequence.</span></span> <span data-ttu-id="766c3-156">Igale sildile saab määrata olekuväärtused.</span><span class="sxs-lookup"><span data-stu-id="766c3-156">Three status values can be set for each tag:</span></span>
 
--   **Kasutatud** – selle sildi kaubakoodi loetakse.
--   **Tühistatud** – selle sildi kaubakood on tühistatud.
--   **Puudub** – selle sildi kaubakood puudub.
+-   <span data-ttu-id="766c3-157">**Kasutatud** – selle sildi kaubakoodi loetakse.</span><span class="sxs-lookup"><span data-stu-id="766c3-157">**Used** – The item number is counted for this tag.</span></span>
+-   <span data-ttu-id="766c3-158">**Tühistatud** – selle sildi kaubakood on tühistatud.</span><span class="sxs-lookup"><span data-stu-id="766c3-158">**Voided** – The item number is voided for this tag.</span></span>
+-   <span data-ttu-id="766c3-159">**Puudub** – selle sildi kaubakood puudub.</span><span class="sxs-lookup"><span data-stu-id="766c3-159">**Missing** – The item number is missing for this tag.</span></span>
 
-Märgistusega inventuuritöölehe sisestamisel luuakse märgistusega inventuuri tööleheridade põhjal uus inventuuritööleht. Märgistusega inventuuri kohta leiate lisateavet jaotisest [Märgistusega inventuur](inventory-tag-counting.md).
+<span data-ttu-id="766c3-160">Märgistusega inventuuritöölehe sisestamisel luuakse märgistusega inventuuri tööleheridade põhjal uus inventuuritööleht.</span><span class="sxs-lookup"><span data-stu-id="766c3-160">When you post a tag counting journal, a new counting journal is created, based on the tag counting journal lines.</span></span> <span data-ttu-id="766c3-161">Märgistusega inventuuri kohta leiate lisateavet jaotisest [Märgistusega inventuur](inventory-tag-counting.md).</span><span class="sxs-lookup"><span data-stu-id="766c3-161">For more information about tag counting, see [Inventory tag counting](inventory-tag-counting.md).</span></span>
 
-## <a name="working-with-journals"></a>Töölehtedega töötamine
-Töölehele pääseb korraga juurde ainult üks kasutaja. Kui mitu kasutajat peab töölehe ridade loomiseks samal ajal töölehtedele juurde pääsema, peavad kasutajad valima töölehed, mida hetkel ei kasutata, et vältida teabe ülekirjutamist. Olukordades, kus mitu osakonda kasutavad sama töölehe tüüpi, on kasulik luua mitu töölehe nime (nt üks osakonna kohta). Abiks võib olla ka töölehtede jagamine nii, et iga sisestusprotsess sisestatakse eraldi kordumatule laotöölehele. Laokannetega seostuvate sisestusprotsesside puhul saab luua ühe töölehe perioodiliste laokorrektsioonide tarvis ja teise töölehe inventuuri tegemiseks.
+## <a name="working-with-journals"></a><span data-ttu-id="766c3-162">Töölehtedega töötamine</span><span class="sxs-lookup"><span data-stu-id="766c3-162">Working with journals</span></span>
+<span data-ttu-id="766c3-163">Töölehele pääseb korraga juurde ainult üks kasutaja.</span><span class="sxs-lookup"><span data-stu-id="766c3-163">A journal can be accessed by only one user at a time.</span></span> <span data-ttu-id="766c3-164">Kui mitu kasutajat peab töölehe ridade loomiseks samal ajal töölehtedele juurde pääsema, peavad kasutajad valima töölehed, mida hetkel ei kasutata, et vältida teabe ülekirjutamist.</span><span class="sxs-lookup"><span data-stu-id="766c3-164">If several users must access journals at the same time to create journal lines, those users must select journals that aren't currently being used, to prevent information from being overwritten.</span></span> <span data-ttu-id="766c3-165">Olukordades, kus mitu osakonda kasutavad sama töölehe tüüpi, on kasulik luua mitu töölehe nime (nt üks osakonna kohta).</span><span class="sxs-lookup"><span data-stu-id="766c3-165">In situations where multiple departments use the same journal type, it's helpful to create multiple journal names (for example, one per department).</span></span> <span data-ttu-id="766c3-166">Abiks võib olla ka töölehtede jagamine nii, et iga sisestusprotsess sisestatakse eraldi kordumatule laotöölehele.</span><span class="sxs-lookup"><span data-stu-id="766c3-166">It can also be helpful to divide journals so that each posting routine is entered in its own unique inventory journal.</span></span> <span data-ttu-id="766c3-167">Laokannetega seostuvate sisestusprotsesside puhul saab luua ühe töölehe perioodiliste laokorrektsioonide tarvis ja teise töölehe inventuuri tegemiseks.</span><span class="sxs-lookup"><span data-stu-id="766c3-167">For posting routines that are associated with inventory transactions, create one journal for periodic inventory adjustments and another for inventory counting.</span></span>
 
-## <a name="posting-journal-lines"></a>Töölehe ridade sisestamine
-Saate enda loodud tööleheread igal ajal sisestada, kuni olete lukustanud kauba täiendavate kannete eest. Töölehele sisestatud andmed jäävad sellele töölehele isegi juhul, kui sulgete töölehe ilma ridu sisestamata.
-
-
-
+## <a name="posting-journal-lines"></a><span data-ttu-id="766c3-168">Töölehe ridade sisestamine</span><span class="sxs-lookup"><span data-stu-id="766c3-168">Posting journal lines</span></span>
+<span data-ttu-id="766c3-169">Saate enda loodud tööleheread igal ajal sisestada, kuni olete lukustanud kauba täiendavate kannete eest.</span><span class="sxs-lookup"><span data-stu-id="766c3-169">You can post the journal lines that you create at any time until you've locked an item from additional transactions.</span></span> <span data-ttu-id="766c3-170">Töölehele sisestatud andmed jäävad sellele töölehele isegi juhul, kui sulgete töölehe ilma ridu sisestamata.</span><span class="sxs-lookup"><span data-stu-id="766c3-170">The data that you enter in a journal remains in that journal, even if you close the journal without posting the lines.</span></span>
 

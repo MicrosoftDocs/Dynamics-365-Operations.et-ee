@@ -17,30 +17,30 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 604669853f5b86fbfe1608083e1a0c08d54b391b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: eef5844ade45b0c7fdd38624d842c1a96efcd639
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-working-time-scheduling-properties"></a>Tööaegade plaanimisatribuutide loomine
+# <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="fec00-103">Tööaegade plaanimisatribuutide loomine</span><span class="sxs-lookup"><span data-stu-id="fec00-103">Create working time scheduling properties</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Tööaja planeerimisatribuute kasutatakse tööaja intervallide kategoriseerimiseks ja sätete, mida operaatorid peavad arvestama, määratlemiseks. Selles protseduuris näitlikustatakse, kuidas määratleda tööaja planeerimisatribuudi ja seostatud atribuudi väärtusi. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.
+<span data-ttu-id="fec00-104">Tööaja planeerimisatribuute kasutatakse tööaja intervallide kategoriseerimiseks ja sätete, mida operaatorid peavad arvestama, määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="fec00-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="fec00-105">Selles protseduuris näitlikustatakse, kuidas määratleda tööaja planeerimisatribuudi ja seostatud atribuudi väärtusi.</span><span class="sxs-lookup"><span data-stu-id="fec00-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="fec00-106">Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="fec00-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. Avage Kõik tööruumid > Ressursi elutsükli haldus.
-2. Klõpsake valikul Atribuudid.
+1. <span data-ttu-id="fec00-107">Avage Kõik tööruumid > Ressursi elutsükli haldus.</span><span class="sxs-lookup"><span data-stu-id="fec00-107">Go to All workspaces > Resource lifecycle management.</span></span>
+2. <span data-ttu-id="fec00-108">Klõpsake valikul Atribuudid.</span><span class="sxs-lookup"><span data-stu-id="fec00-108">Click Properties.</span></span>
 
-## <a name="create-property"></a>Atribuudi loomine
-1. Klõpsake valikut Uus.
-2. Sisestage väärtus väljale Atribuut.
-3. Sisestage väärtus väljale Nimi.
+## <a name="create-property"></a><span data-ttu-id="fec00-109">Atribuudi loomine</span><span class="sxs-lookup"><span data-stu-id="fec00-109">Create property</span></span>
+1. <span data-ttu-id="fec00-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="fec00-110">Click New.</span></span>
+2. <span data-ttu-id="fec00-111">Sisestage väärtus väljale Atribuut.</span><span class="sxs-lookup"><span data-stu-id="fec00-111">In the Property field, type a value.</span></span>
+3. <span data-ttu-id="fec00-112">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="fec00-112">In the Name field, type a value.</span></span>
 
-## <a name="create-property-values"></a>Atribuudiväärtuste loomine
-1. Märkige loendis valitud rida.
-2. Sisestage väärtus väljale Nimi.
-3. Sisestage väärtus väljale Väärtus.
-4. Klõpsake nuppu Salvesta.
+## <a name="create-property-values"></a><span data-ttu-id="fec00-113">Atribuudiväärtuste loomine</span><span class="sxs-lookup"><span data-stu-id="fec00-113">Create property values</span></span>
+1. <span data-ttu-id="fec00-114">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="fec00-114">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="fec00-115">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="fec00-115">In the Name field, type a value.</span></span>
+3. <span data-ttu-id="fec00-116">Sisestage väärtus väljale Väärtus.</span><span class="sxs-lookup"><span data-stu-id="fec00-116">In the Value field, type a value.</span></span>
+4. <span data-ttu-id="fec00-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="fec00-117">Click Save.</span></span>
 
 

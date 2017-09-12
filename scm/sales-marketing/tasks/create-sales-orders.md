@@ -16,56 +16,56 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 62276765e1cc76b2328a7b5b57bd18593d93e4ab
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1308490140542d5159358173cfe59079b9483bb4
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-sales-orders"></a>luua müügitellimusi;
+# <a name="create-sales-orders"></a><span data-ttu-id="0601b-103">luua müügitellimusi;</span><span class="sxs-lookup"><span data-stu-id="0601b-103">Create sales orders</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris näitlikustatakse, kuidas luua müügitellimust. Saate selleks protseduuriks kasutada demoettevõtte USMF-i andmeid. Müügitellimusi loob tavaliselt müügitellimuse töötleja. 
+<span data-ttu-id="0601b-104">Selles protseduuris näitlikustatakse, kuidas luua müügitellimust.</span><span class="sxs-lookup"><span data-stu-id="0601b-104">This procedure shows you how to create a sales order.</span></span> <span data-ttu-id="0601b-105">Saate selleks protseduuriks kasutada demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="0601b-105">You can use the procedure in demo data company USMF.</span></span> <span data-ttu-id="0601b-106">Müügitellimusi loob tavaliselt müügitellimuse töötleja.</span><span class="sxs-lookup"><span data-stu-id="0601b-106">Sales orders are typically created by a sales order processor.</span></span> 
 
 
 
 
-## <a name="enter-sales-order-header-details"></a>Müügitellimuse päise üksikasjade sisestamine
-1. Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Kliendi konto otsingu avamiseks ripploendi nuppu.
-4. Leidke loendist ja valige soovitud kliendikirje.
-    * Selle näite puhul valige kliendikood US-004.  
-5. Klõpsake loendis valitud real olevat linki.
-6. Klõpsake nuppu OK.
+## <a name="enter-sales-order-header-details"></a><span data-ttu-id="0601b-107">Müügitellimuse päise üksikasjade sisestamine</span><span class="sxs-lookup"><span data-stu-id="0601b-107">Enter sales order header details</span></span>
+1. <span data-ttu-id="0601b-108">Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="0601b-108">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="0601b-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="0601b-109">Click New.</span></span>
+3. <span data-ttu-id="0601b-110">Klõpsake väljal Kliendi konto otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="0601b-110">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="0601b-111">Leidke loendist ja valige soovitud kliendikirje.</span><span class="sxs-lookup"><span data-stu-id="0601b-111">In the list, find and select the customer record.</span></span>
+    * <span data-ttu-id="0601b-112">Selle näite puhul valige kliendikood US-004.</span><span class="sxs-lookup"><span data-stu-id="0601b-112">For this example, select customer number US-004.</span></span>  
+5. <span data-ttu-id="0601b-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0601b-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="0601b-114">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="0601b-114">Click OK.</span></span>
 
-## <a name="enter-sales-order-line-details"></a>Müügitellimuse rea üksikasjade sisestamine
-    * Organisatsiooni müüdavate toodete variante saate eristada dimensioonide, nagu konfiguratsioon, värv, suurus ja stiil, kaupa. Tooted võivad olla seadistatud kasutama ladustamisdimensioone, nagu koht, ladu ja kaubaalus, või jälgimisdimensioone, nagu partii- ja seerianumbrid. Kui need dimensioonid on määratud, tuleks neile tellimuse real väärtused valida. Tellimuse sisestamise efektiivsuse parandamiseks võite lisada vastavad dimensiooniväljad tellimuse ruudustikule.  
-1. Klõpsake valikut Müügitellimuse rida.
-2. Klõpsake valikut Dimensioonid.
-    * Selle näite puhul valige dimensioonid Värv, Koht ja Ladu. Siin valitud dimensioonid kuvatakse müügitellimuse ruudustikus. Kui soovitite, et teie valikud oleksid püsivad, seadke valiku Salvesta seadistus suvand olekusse Jah.   
-3. Klõpsake nuppu OK.
-4. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-5. Selle näite puhul valige kaubakood T0004.
-6. Klõpsake loendis valitud real olevat linki.
-    * Kui kaup on müügikategooria osa, ilmub kauba nimi automaatselt väljale Müügikategooria.  
-    * Kui tootedimensiooni väljadel on juba väärtus, on see väärtus kopeeritud toote kirjest, kus see on määratletud kui toote vaikedimensioon. Vaikeväärtust saate alati muuta.   
-7. Klõpsake väljal Värv otsingu avamiseks ripploendi nuppu.
-8. Otsige loendist ja valige soovitud kirje.
-9. Klõpsake loendis valitud real olevat linki.
-10. Sisestage arv väljale Kogus.
-    * Kui kaupa müüakse ostetavast, toodetavast või ladustatavast kaubast erineva ühikuga ning müügi mõõtühik on seatud toote kirjes, näidatakse seda väärtust väljal Ühik. Väärtust saab alati muuta.   
-    * Kui väli Koht sisaldab juba väärtust, kopeeriti see tellimuse päisest või tootega seostatud tellimuse sätetest . Väärtust saab alati muuta. Kui väli on tühi, valige väärtus.   
-    * Kui väli Ühiku hind sisaldab juba väärtust, kopeeriti see kehtivast kaubandusleppest või toote kirjest. (Ühiku hind võib tuleneda ka müügilepingust, kuid müügilepingu põhjal müügitellimuse loomise protsess erineb siin näidatust.) Kui väli on tühi, sisestage väärtus.   
-    * Väli Allahindlus sisaldab allahindluse summat tooteühiku kohta. Rea allahindluse kogusumma arvutamiseks korrutatakse allahindluse väärtus rea kogusega.    Kui väli Allahindlus sisaldab juba väärtust, kopeeriti see kehtivast kaubandusleppest. Kui väli on tühi, ent soovite kliendile rea allahindlust anda, sisestage väärtus.  
-    * Väli Allahindluse protsent sisaldab protsentväärtust, mille alusel rea brutosummat vähendatakse.  Kui väli Allahindluse protsent sisaldab juba väärtust, kopeeriti see kehtivast kaubandusleppest. Kui väli on tühi, ent soovite kliendile rea allahindlust anda, sisestage väärtus.  
-    * Väljal Netosumma on väärtus, mis arvutatakse rea koguse ja allahindlusest lähtuvalt korrigeeritud ühikuhinna põhjal.  Saate arvutatud väärtuse tühistada ja muuga asendada.  
+## <a name="enter-sales-order-line-details"></a><span data-ttu-id="0601b-115">Müügitellimuse rea üksikasjade sisestamine</span><span class="sxs-lookup"><span data-stu-id="0601b-115">Enter sales order line details</span></span>
+    * <span data-ttu-id="0601b-116">Organisatsiooni müüdavate toodete variante saate eristada dimensioonide, nagu konfiguratsioon, värv, suurus ja stiil, kaupa.</span><span class="sxs-lookup"><span data-stu-id="0601b-116">The products sold by your organization may come in variants differentiated by dimensions, such as configuration, color, size, and style.</span></span> <span data-ttu-id="0601b-117">Tooted võivad olla seadistatud kasutama ladustamisdimensioone, nagu koht, ladu ja kaubaalus, või jälgimisdimensioone, nagu partii- ja seerianumbrid.</span><span class="sxs-lookup"><span data-stu-id="0601b-117">Also, products may be set up to use storage dimensions, such as site, warehouse, and pallet, and racking dimensions, such as batch and serial numbers.</span></span> <span data-ttu-id="0601b-118">Kui need dimensioonid on määratud, tuleks neile tellimuse real väärtused valida.</span><span class="sxs-lookup"><span data-stu-id="0601b-118">When these dimensions are assigned, you must select the values for those dimensions on the order line.</span></span> <span data-ttu-id="0601b-119">Tellimuse sisestamise efektiivsuse parandamiseks võite lisada vastavad dimensiooniväljad tellimuse ruudustikule.</span><span class="sxs-lookup"><span data-stu-id="0601b-119">To improve order entry efficiency, you may want to add the respective dimension fields to the order grid.</span></span>  
+1. <span data-ttu-id="0601b-120">Klõpsake valikut Müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="0601b-120">Click Sales order line.</span></span>
+2. <span data-ttu-id="0601b-121">Klõpsake valikut Dimensioonid.</span><span class="sxs-lookup"><span data-stu-id="0601b-121">Click Dimensions.</span></span>
+    * <span data-ttu-id="0601b-122">Selle näite puhul valige dimensioonid Värv, Koht ja Ladu.</span><span class="sxs-lookup"><span data-stu-id="0601b-122">For this example, select the Color, Site and Warehouse dimensions.</span></span> <span data-ttu-id="0601b-123">Siin valitud dimensioonid kuvatakse müügitellimuse ruudustikus.</span><span class="sxs-lookup"><span data-stu-id="0601b-123">The dimensions you select here will appear in the sales order grid.</span></span> <span data-ttu-id="0601b-124">Kui soovitite, et teie valikud oleksid püsivad, seadke valiku Salvesta seadistus suvand olekusse Jah.</span><span class="sxs-lookup"><span data-stu-id="0601b-124">If you want your selections to persist, set the Save setup option to Yes.</span></span>   
+3. <span data-ttu-id="0601b-125">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="0601b-125">Click OK.</span></span>
+4. <span data-ttu-id="0601b-126">Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="0601b-126">In the Item number field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="0601b-127">Selle näite puhul valige kaubakood T0004.</span><span class="sxs-lookup"><span data-stu-id="0601b-127">For this example, select item number T0004.</span></span>
+6. <span data-ttu-id="0601b-128">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0601b-128">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="0601b-129">Kui kaup on müügikategooria osa, ilmub kauba nimi automaatselt väljale Müügikategooria.</span><span class="sxs-lookup"><span data-stu-id="0601b-129">If the item is part of a sales category, the item name will automatically appear in the Sales category field.</span></span>  
+    * <span data-ttu-id="0601b-130">Kui tootedimensiooni väljadel on juba väärtus, on see väärtus kopeeritud toote kirjest, kus see on määratletud kui toote vaikedimensioon.</span><span class="sxs-lookup"><span data-stu-id="0601b-130">If product dimension fields already contain a value, this is because the value was copied from the product record where it is defined as a default product dimension.</span></span> <span data-ttu-id="0601b-131">Vaikeväärtust saate alati muuta.</span><span class="sxs-lookup"><span data-stu-id="0601b-131">You can change the default value at any time.</span></span>   
+7. <span data-ttu-id="0601b-132">Klõpsake väljal Värv otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="0601b-132">In the Color field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="0601b-133">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="0601b-133">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="0601b-134">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0601b-134">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="0601b-135">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="0601b-135">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="0601b-136">Kui kaupa müüakse ostetavast, toodetavast või ladustatavast kaubast erineva ühikuga ning müügi mõõtühik on seatud toote kirjes, näidatakse seda väärtust väljal Ühik.</span><span class="sxs-lookup"><span data-stu-id="0601b-136">If the item is sold in different units than when it’s purchased, produced, and stored, and a sales unit of measure is set on the product record, this value will be shown in the Unit field.</span></span> <span data-ttu-id="0601b-137">Väärtust saab alati muuta.</span><span class="sxs-lookup"><span data-stu-id="0601b-137">You can change the value at any time.</span></span>   
+    * <span data-ttu-id="0601b-138">Kui väli Koht sisaldab juba väärtust, kopeeriti see tellimuse päisest või tootega seostatud tellimuse sätetest .</span><span class="sxs-lookup"><span data-stu-id="0601b-138">If the Site field already contains a value, the value was copied from the order header or from the order settings that are associated with the product.</span></span> <span data-ttu-id="0601b-139">Väärtust saab alati muuta.</span><span class="sxs-lookup"><span data-stu-id="0601b-139">You can change the value at any time.</span></span> <span data-ttu-id="0601b-140">Kui väli on tühi, valige väärtus.</span><span class="sxs-lookup"><span data-stu-id="0601b-140">If the field is empty, select a value.</span></span>   
+    * <span data-ttu-id="0601b-141">Kui väli Ühiku hind sisaldab juba väärtust, kopeeriti see kehtivast kaubandusleppest või toote kirjest.</span><span class="sxs-lookup"><span data-stu-id="0601b-141">If the Unit price field already contains a value, the value was copied from a valid trade agreement, or from the product record.</span></span> <span data-ttu-id="0601b-142">(Ühiku hind võib tuleneda ka müügilepingust, kuid müügilepingu põhjal müügitellimuse loomise protsess erineb siin näidatust.) Kui väli on tühi, sisestage väärtus.</span><span class="sxs-lookup"><span data-stu-id="0601b-142">(The unit price can also originate from a sales agreement, but the process for creating sales orders from sales agreements is different to the one shown here.) If the field is empty, enter a value.</span></span>   
+    * <span data-ttu-id="0601b-143">Väli Allahindlus sisaldab allahindluse summat tooteühiku kohta.</span><span class="sxs-lookup"><span data-stu-id="0601b-143">The Discount field contains a discount amount per product unit.</span></span> <span data-ttu-id="0601b-144">Rea allahindluse kogusumma arvutamiseks korrutatakse allahindluse väärtus rea kogusega.</span><span class="sxs-lookup"><span data-stu-id="0601b-144">To calculate the total line discount amount, the discount value is multiplied by line quantity.</span></span>    <span data-ttu-id="0601b-145">Kui väli Allahindlus sisaldab juba väärtust, kopeeriti see kehtivast kaubandusleppest.</span><span class="sxs-lookup"><span data-stu-id="0601b-145">If the Discount field already contains a value, the value was copied from a valid trade agreement.</span></span> <span data-ttu-id="0601b-146">Kui väli on tühi, ent soovite kliendile rea allahindlust anda, sisestage väärtus.</span><span class="sxs-lookup"><span data-stu-id="0601b-146">If the field is empty, and you want to give the customer a line discount, enter a value.</span></span>  
+    * <span data-ttu-id="0601b-147">Väli Allahindluse protsent sisaldab protsentväärtust, mille alusel rea brutosummat vähendatakse.</span><span class="sxs-lookup"><span data-stu-id="0601b-147">The Discount percent field contains a percentage value by which the total line gross amount is to be reduced.</span></span>  <span data-ttu-id="0601b-148">Kui väli Allahindluse protsent sisaldab juba väärtust, kopeeriti see kehtivast kaubandusleppest.</span><span class="sxs-lookup"><span data-stu-id="0601b-148">If the Discount percent field already contains a value, it was copied from a valid trade agreement.</span></span> <span data-ttu-id="0601b-149">Kui väli on tühi, ent soovite kliendile rea allahindlust anda, sisestage väärtus.</span><span class="sxs-lookup"><span data-stu-id="0601b-149">If the field is empty, and you want to give the customer a line discount, enter a value.</span></span>  
+    * <span data-ttu-id="0601b-150">Väljal Netosumma on väärtus, mis arvutatakse rea koguse ja allahindlusest lähtuvalt korrigeeritud ühikuhinna põhjal.</span><span class="sxs-lookup"><span data-stu-id="0601b-150">The Net amount field contains a value that is calculated based on the line's quantity and unit price adjusted by discounts.</span></span>  <span data-ttu-id="0601b-151">Saate arvutatud väärtuse tühistada ja muuga asendada.</span><span class="sxs-lookup"><span data-stu-id="0601b-151">You can override the calculated value to a different one.</span></span>  
 
-## <a name="review-the-order-totals"></a>Müügitellimuse kogusummade ülevaatamine
-1. Klõpsake toimingupaanil valikut Müügitellimus.
-2. Klõpsake valikut Kogusummad.
-    * Leheküljel Kogusummad kuvatakse kogu tellimuse üksikasjad. See sisaldab vahesummat, mis on kõigi lõplike rea allahindluste võrra korrigeeritud rea netosummade summa, ning arve kogusummat, mis on lõpliku tellimuse taseme allahindluse, tasude, käibemaksu, kliendi krediidilimiidi jms alusel korrigeeritud vahesumma.  Arve summa on summa, mis kuvatakse kliendi arvedokumendil.  
-3. Klõpsake nuppu OK.
+## <a name="review-the-order-totals"></a><span data-ttu-id="0601b-152">Müügitellimuse kogusummade ülevaatamine</span><span class="sxs-lookup"><span data-stu-id="0601b-152">Review the order totals</span></span>
+1. <span data-ttu-id="0601b-153">Klõpsake toimingupaanil valikut Müügitellimus.</span><span class="sxs-lookup"><span data-stu-id="0601b-153">On the Action Pane, click Sales order.</span></span>
+2. <span data-ttu-id="0601b-154">Klõpsake valikut Kogusummad.</span><span class="sxs-lookup"><span data-stu-id="0601b-154">Click Totals.</span></span>
+    * <span data-ttu-id="0601b-155">Leheküljel Kogusummad kuvatakse kogu tellimuse üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="0601b-155">The Totals page displays details about the entire order.</span></span> <span data-ttu-id="0601b-156">See sisaldab vahesummat, mis on kõigi lõplike rea allahindluste võrra korrigeeritud rea netosummade summa, ning arve kogusummat, mis on lõpliku tellimuse taseme allahindluse, tasude, käibemaksu, kliendi krediidilimiidi jms alusel korrigeeritud vahesumma.</span><span class="sxs-lookup"><span data-stu-id="0601b-156">This includes the subtotal amount, which is a sum of all line net amounts adjusted for eventual line discounts, the total invoice amount, which is a subtotal amount adjusted for eventual order-level discount, charges, and sales tax, the customer credit limit situation, and more.</span></span>  <span data-ttu-id="0601b-157">Arve summa on summa, mis kuvatakse kliendi arvedokumendil.</span><span class="sxs-lookup"><span data-stu-id="0601b-157">The invoice amount is the amount that will appear on the customer's invoice document.</span></span>  
+3. <span data-ttu-id="0601b-158">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="0601b-158">Click OK.</span></span>
 
 

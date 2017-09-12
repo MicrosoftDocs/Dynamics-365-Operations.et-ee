@@ -16,69 +16,69 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f831288866af0fbe731c40a7a25c871d4313f8b5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 210bf36f0e989ce0e6ceda046f02d1091592a3c1
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-account-structures"></a>Kontostruktuuride loomine
+# <a name="create-account-structures"></a><span data-ttu-id="64586-103">Kontostruktuuride loomine</span><span class="sxs-lookup"><span data-stu-id="64586-103">Create account structures</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesandejuhend kirjeldab konto struktuuri loomise etappe. Etapid kasutavad demoandmete ettevõtet USMF.
+<span data-ttu-id="64586-104">See ülesandejuhend kirjeldab konto struktuuri loomise etappe.</span><span class="sxs-lookup"><span data-stu-id="64586-104">This task guide steps through creating an account structure.</span></span> <span data-ttu-id="64586-105">Etapid kasutavad demoandmete ettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="64586-105">The steps use demo data company USMF.</span></span>
 
-1. Minge jaotisse Pearaamat > Kontoplaan > Struktuurid > Konto struktuuride konfigureerimine.
-2. Rippdialoogi avamiseks klõpsake valikut Uus.
-3. Sisestage väljale Konto struktuur nimi, mis kirjeldab konto struktuuri eesmärki.
-4. Sisestage väljale Kirjeldus kirjeldus, mis määrab konto struktuuri eesmärgi.
-5. Klõpsake käsku Loo.
-6. Klõpsake suvandit Segmendi lisamine.
-7. Valige loendist Dimensioon konto struktuurile lisatav dimensioon.
-8. Klõpsake suvandit Segmendi lisamine.
-9. Klõpsake suvandit Segmendi lisamine.
-10. Valige loendist Dimensioon konto struktuurile lisatav dimensioon.
-11. Klõpsake suvandit Segmendi lisamine.
-12. Klõpsake suvandit Segmendi lisamine.
-13. Valige loendist Dimensioon konto struktuurile lisatav dimensioon.
-14. Klõpsake suvandit Segmendi lisamine.
-15. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.
-    * Klõpsake näiteks suvandit Põhikonto.  
-16. Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.
-17. Sisestage väärtus väljale Väärtus.
-    * Näiteks 600 000.  
-18. Sisestage väärtus väljale Kuni.
-    * Näiteks 699 999.  
-19. Klõpsake käsku Apply (Rakenda).
-20. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.
-    * Näiteks Osakond.  
-21. Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.
-22. Sisestage väärtus väljale Väärtus.
-    * Näiteks 022.  
-23. Sisestage väärtus väljale Kuni.
-    * Näiteks 031.  
-24. Klõpsake suvandit Uute kriteeriumide lisamine.
-25. Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.
-26. Sisestage väärtus väljale Väärtus.
-    * Näiteks 033.  
-27. Sisestage väärtus väljale Kuni.
-    * Näiteks 034.  
-28. Klõpsake käsku Apply (Rakenda).
-29. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.
-    * Näiteks Kulukeskus.  
-30. Sisestage väärtus väljale CostCenter.
-    * Näiteks 007 … 021.  
-31. Klõpsake vahekaarti Lisa.
-32. Sisestage väärtus väljale MainAccount.
-    * Näiteks 600 000 … 699 999  
-33. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.
-    * Näiteks Osakond.  
-34. Sisestage väärtus väljale Department.
-    * Näiteks 032.  
-35. Sisestage väärtus väljale CostCenter.
-    * Näiteks 086.  
-36. Klõpsake suvandit Kinnita.
-37. Klõpsake käsku Aktiveeri.
-38. Klõpsake käsku Aktiveeri.
+1. <span data-ttu-id="64586-106">Minge jaotisse Pearaamat > Kontoplaan > Struktuurid > Konto struktuuride konfigureerimine.</span><span class="sxs-lookup"><span data-stu-id="64586-106">Go to General ledger > Chart of accounts > Structures > Configure account structures.</span></span>
+2. <span data-ttu-id="64586-107">Rippdialoogi avamiseks klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="64586-107">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="64586-108">Sisestage väljale Konto struktuur nimi, mis kirjeldab konto struktuuri eesmärki.</span><span class="sxs-lookup"><span data-stu-id="64586-108">In the Account structure field, type a name to describe the purpose of the account structure.</span></span>
+4. <span data-ttu-id="64586-109">Sisestage väljale Kirjeldus kirjeldus, mis määrab konto struktuuri eesmärgi.</span><span class="sxs-lookup"><span data-stu-id="64586-109">In the Description field, type a description to specify the purpose of the account structure.</span></span>
+5. <span data-ttu-id="64586-110">Klõpsake käsku Loo.</span><span class="sxs-lookup"><span data-stu-id="64586-110">Click Create.</span></span>
+6. <span data-ttu-id="64586-111">Klõpsake suvandit Segmendi lisamine.</span><span class="sxs-lookup"><span data-stu-id="64586-111">Click Add segment.</span></span>
+7. <span data-ttu-id="64586-112">Valige loendist Dimensioon konto struktuurile lisatav dimensioon.</span><span class="sxs-lookup"><span data-stu-id="64586-112">In the Dimensions list, select the dimension to add to the account structure.</span></span>
+8. <span data-ttu-id="64586-113">Klõpsake suvandit Segmendi lisamine.</span><span class="sxs-lookup"><span data-stu-id="64586-113">Click Add segment.</span></span>
+9. <span data-ttu-id="64586-114">Klõpsake suvandit Segmendi lisamine.</span><span class="sxs-lookup"><span data-stu-id="64586-114">Click Add segment.</span></span>
+10. <span data-ttu-id="64586-115">Valige loendist Dimensioon konto struktuurile lisatav dimensioon.</span><span class="sxs-lookup"><span data-stu-id="64586-115">In the Dimensions list, select the dimension to add to the account structure.</span></span>
+11. <span data-ttu-id="64586-116">Klõpsake suvandit Segmendi lisamine.</span><span class="sxs-lookup"><span data-stu-id="64586-116">Click Add segment.</span></span>
+12. <span data-ttu-id="64586-117">Klõpsake suvandit Segmendi lisamine.</span><span class="sxs-lookup"><span data-stu-id="64586-117">Click Add segment.</span></span>
+13. <span data-ttu-id="64586-118">Valige loendist Dimensioon konto struktuurile lisatav dimensioon.</span><span class="sxs-lookup"><span data-stu-id="64586-118">In the Dimensions list, select the dimension to add to the account structure.</span></span>
+14. <span data-ttu-id="64586-119">Klõpsake suvandit Segmendi lisamine.</span><span class="sxs-lookup"><span data-stu-id="64586-119">Click Add segment.</span></span>
+15. <span data-ttu-id="64586-120">Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.</span><span class="sxs-lookup"><span data-stu-id="64586-120">In the grid, select the segment to edit the allowed values.</span></span>
+    * <span data-ttu-id="64586-121">Klõpsake näiteks suvandit Põhikonto.</span><span class="sxs-lookup"><span data-stu-id="64586-121">For example, click in Main Account.</span></span>  
+16. <span data-ttu-id="64586-122">Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.</span><span class="sxs-lookup"><span data-stu-id="64586-122">In the Operator field, select an option, such as is between and includes.</span></span>
+17. <span data-ttu-id="64586-123">Sisestage väärtus väljale Väärtus.</span><span class="sxs-lookup"><span data-stu-id="64586-123">In the Value field, type a value.</span></span>
+    * <span data-ttu-id="64586-124">Näiteks 600 000.</span><span class="sxs-lookup"><span data-stu-id="64586-124">For example, 600000.</span></span>  
+18. <span data-ttu-id="64586-125">Sisestage väärtus väljale Kuni.</span><span class="sxs-lookup"><span data-stu-id="64586-125">In the through field, type a value.</span></span>
+    * <span data-ttu-id="64586-126">Näiteks 699 999.</span><span class="sxs-lookup"><span data-stu-id="64586-126">For example, 699999.</span></span>  
+19. <span data-ttu-id="64586-127">Klõpsake käsku Apply (Rakenda).</span><span class="sxs-lookup"><span data-stu-id="64586-127">Click Apply.</span></span>
+20. <span data-ttu-id="64586-128">Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.</span><span class="sxs-lookup"><span data-stu-id="64586-128">In the grid, select the segment to edit the allowed values.</span></span>
+    * <span data-ttu-id="64586-129">Näiteks Osakond.</span><span class="sxs-lookup"><span data-stu-id="64586-129">For example, Department.</span></span>  
+21. <span data-ttu-id="64586-130">Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.</span><span class="sxs-lookup"><span data-stu-id="64586-130">In the Operator field, select an option, such as is between and includes.</span></span>
+22. <span data-ttu-id="64586-131">Sisestage väärtus väljale Väärtus.</span><span class="sxs-lookup"><span data-stu-id="64586-131">In the Value field, type a value.</span></span>
+    * <span data-ttu-id="64586-132">Näiteks 022.</span><span class="sxs-lookup"><span data-stu-id="64586-132">For example, 022.</span></span>  
+23. <span data-ttu-id="64586-133">Sisestage väärtus väljale Kuni.</span><span class="sxs-lookup"><span data-stu-id="64586-133">In the through field, type a value.</span></span>
+    * <span data-ttu-id="64586-134">Näiteks 031.</span><span class="sxs-lookup"><span data-stu-id="64586-134">For example, 031.</span></span>  
+24. <span data-ttu-id="64586-135">Klõpsake suvandit Uute kriteeriumide lisamine.</span><span class="sxs-lookup"><span data-stu-id="64586-135">Click Add new criteria.</span></span>
+25. <span data-ttu-id="64586-136">Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.</span><span class="sxs-lookup"><span data-stu-id="64586-136">In the Operator field, select an option, such as is between and includes.</span></span>
+26. <span data-ttu-id="64586-137">Sisestage väärtus väljale Väärtus.</span><span class="sxs-lookup"><span data-stu-id="64586-137">In the Value field, type a value.</span></span>
+    * <span data-ttu-id="64586-138">Näiteks 033.</span><span class="sxs-lookup"><span data-stu-id="64586-138">For example, 033.</span></span>  
+27. <span data-ttu-id="64586-139">Sisestage väärtus väljale Kuni.</span><span class="sxs-lookup"><span data-stu-id="64586-139">In the through field, type a value.</span></span>
+    * <span data-ttu-id="64586-140">Näiteks 034.</span><span class="sxs-lookup"><span data-stu-id="64586-140">For example, 034.</span></span>  
+28. <span data-ttu-id="64586-141">Klõpsake käsku Apply (Rakenda).</span><span class="sxs-lookup"><span data-stu-id="64586-141">Click Apply.</span></span>
+29. <span data-ttu-id="64586-142">Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.</span><span class="sxs-lookup"><span data-stu-id="64586-142">In the grid, select the segment to edit the allowed values.</span></span>
+    * <span data-ttu-id="64586-143">Näiteks Kulukeskus.</span><span class="sxs-lookup"><span data-stu-id="64586-143">For example, Cost Center.</span></span>  
+30. <span data-ttu-id="64586-144">Sisestage väärtus väljale CostCenter.</span><span class="sxs-lookup"><span data-stu-id="64586-144">In the CostCenter field, type a value.</span></span>
+    * <span data-ttu-id="64586-145">Näiteks 007 … 021.</span><span class="sxs-lookup"><span data-stu-id="64586-145">For example, 007..021.</span></span>  
+31. <span data-ttu-id="64586-146">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="64586-146">Click Add.</span></span>
+32. <span data-ttu-id="64586-147">Sisestage väärtus väljale MainAccount.</span><span class="sxs-lookup"><span data-stu-id="64586-147">In the MainAccount field, type a value.</span></span>
+    * <span data-ttu-id="64586-148">Näiteks 600 000 … 699 999</span><span class="sxs-lookup"><span data-stu-id="64586-148">For example, 600000..699999</span></span>  
+33. <span data-ttu-id="64586-149">Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.</span><span class="sxs-lookup"><span data-stu-id="64586-149">In the grid, select the segment to edit the allowed values.</span></span>
+    * <span data-ttu-id="64586-150">Näiteks Osakond.</span><span class="sxs-lookup"><span data-stu-id="64586-150">For example, Department.</span></span>  
+34. <span data-ttu-id="64586-151">Sisestage väärtus väljale Department.</span><span class="sxs-lookup"><span data-stu-id="64586-151">In the Department field, type a value.</span></span>
+    * <span data-ttu-id="64586-152">Näiteks 032.</span><span class="sxs-lookup"><span data-stu-id="64586-152">For example, 032.</span></span>  
+35. <span data-ttu-id="64586-153">Sisestage väärtus väljale CostCenter.</span><span class="sxs-lookup"><span data-stu-id="64586-153">In the CostCenter field, type a value.</span></span>
+    * <span data-ttu-id="64586-154">Näiteks 086.</span><span class="sxs-lookup"><span data-stu-id="64586-154">For example, 086.</span></span>  
+36. <span data-ttu-id="64586-155">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="64586-155">Click Validate.</span></span>
+37. <span data-ttu-id="64586-156">Klõpsake käsku Aktiveeri.</span><span class="sxs-lookup"><span data-stu-id="64586-156">Click Activate.</span></span>
+38. <span data-ttu-id="64586-157">Klõpsake käsku Aktiveeri.</span><span class="sxs-lookup"><span data-stu-id="64586-157">Click Activate.</span></span>
 
 

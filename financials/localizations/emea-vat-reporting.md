@@ -15,56 +15,56 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: 7dc6a32a9babc95cfa4ad031534404cae6fa37ea
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: c0be253e80636d659027f69cbac58062cb28269e
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 07/21/2017
 
 ---
 
-# <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
+# <a name="vat-reporting-for-europe"></a><span data-ttu-id="e45d6-103">Euroopa käibemaksuaruandlus</span><span class="sxs-lookup"><span data-stu-id="e45d6-103">VAT reporting for Europe</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides.
+<span data-ttu-id="e45d6-104">Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides.</span><span class="sxs-lookup"><span data-stu-id="e45d6-104">This topic provides general information about setting up and generating the value-added tax (VAT) statement for some European countries.</span></span>
 
-See teema käsitleb üldiselt KM-aruande seadistamist ja koostamist. See lähenemine on tavapärane kasutajate puhul järgmiste riikide/regioonide juriidiliste isikute puhul:
+<span data-ttu-id="e45d6-105">See teema käsitleb üldiselt KM-aruande seadistamist ja koostamist.</span><span class="sxs-lookup"><span data-stu-id="e45d6-105">This topic provides a generic approach to setting up and generating the VAT statement.</span></span> <span data-ttu-id="e45d6-106">See lähenemine on tavapärane kasutajate puhul järgmiste riikide/regioonide juriidiliste isikute puhul:</span><span class="sxs-lookup"><span data-stu-id="e45d6-106">This approach is common for users in legal entities in the following countries/regions:</span></span>
 
--   Austria
--   Belgia
--   Tšehhi Vabariik
--   Eesti
--   Soome
--   Saksamaa
--   Läti
--   Leedu
--   Holland
--   Rootsi
+-   <span data-ttu-id="e45d6-107">Austria</span><span class="sxs-lookup"><span data-stu-id="e45d6-107">Austria</span></span>
+-   <span data-ttu-id="e45d6-108">Belgia</span><span class="sxs-lookup"><span data-stu-id="e45d6-108">Belgium</span></span>
+-   <span data-ttu-id="e45d6-109">Tšehhi Vabariik</span><span class="sxs-lookup"><span data-stu-id="e45d6-109">Czech Republic</span></span>
+-   <span data-ttu-id="e45d6-110">Eesti</span><span class="sxs-lookup"><span data-stu-id="e45d6-110">Estonia</span></span>
+-   <span data-ttu-id="e45d6-111">Soome</span><span class="sxs-lookup"><span data-stu-id="e45d6-111">Finland</span></span>
+-   <span data-ttu-id="e45d6-112">Saksamaa</span><span class="sxs-lookup"><span data-stu-id="e45d6-112">Germany</span></span>
+-   <span data-ttu-id="e45d6-113">Läti</span><span class="sxs-lookup"><span data-stu-id="e45d6-113">Latvia</span></span>
+-   <span data-ttu-id="e45d6-114">Leedu</span><span class="sxs-lookup"><span data-stu-id="e45d6-114">Lithuania</span></span>
+-   <span data-ttu-id="e45d6-115">Holland</span><span class="sxs-lookup"><span data-stu-id="e45d6-115">Netherlands</span></span>
+-   <span data-ttu-id="e45d6-116">Rootsi</span><span class="sxs-lookup"><span data-stu-id="e45d6-116">Sweden</span></span>
 
-## <a name="vat-statement-overview"></a>KM-aruande ülevaade
-KM-aruanne põhineb maksukannete summadel. KM-aruande koostamise protsess kuulub käibemaksu tasumise protsessi juurde, mida rakendatakse funktsiooni Käibemaksu tasakaalustamine ja sisestamine kaudu. See funktsioon arvutab käibemaksu, mille tähtaeg jääb antud perioodi sisse. Tasakaalustuse arvutamine sisaldab maksukannete valitud tasakaalustusperioodil sisestatud käibemaksu. KM-aruande andmete arvutusprotsess põhineb käibemaksukoodide ja käibemaksuaruandluse koodide vahelisel seosel, mille alusel käibemaksuaruandluse koodid vastavad käibemaksuaruannete väljadele (või XML-i siltidele). Iga käibemaksukoodi puhul tuleb seadistada igale kandetüübile (nt maksustatav müügikäive, maksustatavad ostud, maksustatav import) käibemaksuaruandluse koodid. Seda liiki kandeid on kirjeldatud selle teema edasises jaotises KM-koodid KM-aruandluse jaoks.
+## <a name="vat-statement-overview"></a><span data-ttu-id="e45d6-117">KM-aruande ülevaade</span><span class="sxs-lookup"><span data-stu-id="e45d6-117">VAT statement overview</span></span>
+<span data-ttu-id="e45d6-118">KM-aruanne põhineb maksukannete summadel.</span><span class="sxs-lookup"><span data-stu-id="e45d6-118">The VAT statement is based on tax transactions’ amounts.</span></span> <span data-ttu-id="e45d6-119">KM-aruande koostamise protsess kuulub käibemaksu tasumise protsessi juurde, mida rakendatakse funktsiooni Käibemaksu tasakaalustamine ja sisestamine kaudu.</span><span class="sxs-lookup"><span data-stu-id="e45d6-119">The process of generating a VAT statement is part of the Sales tax payment process, which is implemented through the Settle and post sales tax function.</span></span> <span data-ttu-id="e45d6-120">See funktsioon arvutab käibemaksu, mille tähtaeg jääb antud perioodi sisse.</span><span class="sxs-lookup"><span data-stu-id="e45d6-120">This function calculates the sales tax that is due for a given period.</span></span> <span data-ttu-id="e45d6-121">Tasakaalustuse arvutamine sisaldab maksukannete valitud tasakaalustusperioodil sisestatud käibemaksu.</span><span class="sxs-lookup"><span data-stu-id="e45d6-121">The settlement calculation includes the posted sales tax for the selected settlement period for the tax transactions.</span></span> <span data-ttu-id="e45d6-122">KM-aruande andmete arvutusprotsess põhineb käibemaksukoodide ja käibemaksuaruandluse koodide vahelisel seosel, mille alusel käibemaksuaruandluse koodid vastavad käibemaksuaruannete väljadele (või XML-i siltidele).</span><span class="sxs-lookup"><span data-stu-id="e45d6-122">The process for calculating data for a VAT statement is based on the relationship between sales tax codes and sales tax reporting codes, where sales tax reporting codes match the VAT statements boxes (or tags in XML).</span></span> <span data-ttu-id="e45d6-123">Iga käibemaksukoodi puhul tuleb seadistada igale kandetüübile (nt maksustatav müügikäive, maksustatavad ostud, maksustatav import) käibemaksuaruandluse koodid.</span><span class="sxs-lookup"><span data-stu-id="e45d6-123">For each sales tax code, sales tax reporting codes should be set up for each type of transaction, such as taxable sales, taxable purchases, taxable import.</span></span> <span data-ttu-id="e45d6-124">Seda liiki kandeid on kirjeldatud selle teema edasises jaotises KM-koodid KM-aruandluse jaoks.</span><span class="sxs-lookup"><span data-stu-id="e45d6-124">These type of transactions are described in the Sales tax codes for VAT reporting section later in this topic.</span></span>
 
-Iga käibemaksuaruandluse koodi puhul tuleb määrata konkreetne aruande paigutus. Samal ajal on käibemaksukoodid seotud käibemaksu tasakaalustamise perioodide kaudu konkreetse käibemaksuasutusega. Iga käibemaksuasutuse puhul tuleb määrata aruande paigutus. Seega saab käibemaksukoodi aruande seadistuses valida ainult sama aruande paigutusega KM-aruandluse koode, mis on seadistatud käibemaksuasutuse jaoks käibemaksukoodi käibemaksu tasakaalustusperioodil. Tellimuse või töölehe sisestamisel loodud käibemaksukanne sisaldab käibemaksukoodi, käibemaksu allikat, käibemaksu suunda ja kandesummasid (maksu põhisumma ja maksusumma arvestusvaluutas, käibemaksu valuuta ja kande valuuta). Maksukannete atribuutide kombinatsiooni põhjal koostavad kandesummad käibemaksukoodidele määratud käibemaksuaruandluse koodide koondsummad. Järgmine illustratsioon näitab andmete seost.
+<span data-ttu-id="e45d6-125">Iga käibemaksuaruandluse koodi puhul tuleb määrata konkreetne aruande paigutus.</span><span class="sxs-lookup"><span data-stu-id="e45d6-125">For each sales tax reporting code, a specific report layout should be determined.</span></span> <span data-ttu-id="e45d6-126">Samal ajal on käibemaksukoodid seotud käibemaksu tasakaalustamise perioodide kaudu konkreetse käibemaksuasutusega.</span><span class="sxs-lookup"><span data-stu-id="e45d6-126">At the same time, sales tax codes are linked to a specific sales tax authority through sales tax settlement periods.</span></span> <span data-ttu-id="e45d6-127">Iga käibemaksuasutuse puhul tuleb määrata aruande paigutus.</span><span class="sxs-lookup"><span data-stu-id="e45d6-127">For every sales tax authority, a report layout should be determined.</span></span> <span data-ttu-id="e45d6-128">Seega saab käibemaksukoodi aruande seadistuses valida ainult sama aruande paigutusega KM-aruandluse koode, mis on seadistatud käibemaksuasutuse jaoks käibemaksukoodi käibemaksu tasakaalustusperioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-128">Thus, only sales tax reporting codes with the same report layout that is set up for a sales tax authority in sales tax settlement periods for the sales tax code can be selected in the report setup of the sales tax code.</span></span> <span data-ttu-id="e45d6-129">Tellimuse või töölehe sisestamisel loodud käibemaksukanne sisaldab käibemaksukoodi, käibemaksu allikat, käibemaksu suunda ja kandesummasid (maksu põhisumma ja maksusumma arvestusvaluutas, käibemaksu valuuta ja kande valuuta).</span><span class="sxs-lookup"><span data-stu-id="e45d6-129">A sales tax transaction generated upon posting an order or a journal, contains a sales tax code, sales tax source, sales tax direction, and transaction amounts (tax base amount and tax amount in accounting currency, sales-tax currency, and transaction currency).</span></span> <span data-ttu-id="e45d6-130">Maksukannete atribuutide kombinatsiooni põhjal koostavad kandesummad käibemaksukoodidele määratud käibemaksuaruandluse koodide koondsummad.</span><span class="sxs-lookup"><span data-stu-id="e45d6-130">Based on the combination of tax transaction attributes, transaction amounts compose total amounts for sales tax reporting codes specified for sales tax codes.</span></span> <span data-ttu-id="e45d6-131">Järgmine illustratsioon näitab andmete seost.</span><span class="sxs-lookup"><span data-stu-id="e45d6-131">The following illustration shows the data relationship.</span></span>
 
 ![diagramm](./media/diagram4.jpg)
 
-## <a name="vat-statement-setup"></a>KM-aruande seadistus
-KM-aruande koostamiseks tuleb seadistada järgmine.
+## <a name="vat-statement-setup"></a><span data-ttu-id="e45d6-133">KM-aruande seadistus</span><span class="sxs-lookup"><span data-stu-id="e45d6-133">VAT statement setup</span></span>
+<span data-ttu-id="e45d6-134">KM-aruande koostamiseks tuleb seadistada järgmine.</span><span class="sxs-lookup"><span data-stu-id="e45d6-134">To generate a VAT statement you must set up the following.</span></span>
 
-### <a name="sales-tax-authorities-for-vat-reporting"></a>KM-asutused KM-aruandluse jaoks
+### <a name="sales-tax-authorities-for-vat-reporting"></a><span data-ttu-id="e45d6-135">KM-asutused KM-aruandluse jaoks</span><span class="sxs-lookup"><span data-stu-id="e45d6-135">Sales tax authorities for VAT reporting</span></span>
 
 <!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-authorities). -->
-Enne käibemaksuaruandluse koodide seadistamist tuleb valida käibemaksuasutuse jaoks õige aruande paigutus. Tehke lehel **Käibemaksuasutused** jaotises **Üldine** valik **Aruande paigutus**. Seda paigutust kasutatakse käibemaksuaruandluse koodide seadistamisel.
+<span data-ttu-id="e45d6-136">Enne käibemaksuaruandluse koodide seadistamist tuleb valida käibemaksuasutuse jaoks õige aruande paigutus.</span><span class="sxs-lookup"><span data-stu-id="e45d6-136">Before you can set up sales tax reporting codes, you must select the correct report layout for the sales tax authority.</span></span> <span data-ttu-id="e45d6-137">Tehke lehel **Käibemaksuasutused** jaotises **Üldine** valik **Aruande paigutus**.</span><span class="sxs-lookup"><span data-stu-id="e45d6-137">On the **Sales tax authorities** page, in the **General** section, select a **Report layout**.</span></span> <span data-ttu-id="e45d6-138">Seda paigutust kasutatakse käibemaksuaruandluse koodide seadistamisel.</span><span class="sxs-lookup"><span data-stu-id="e45d6-138">This layout will be used when you set up sales tax reporting codes.</span></span>
 
-### <a name="sales-tax-reporting-codes"></a>Käibemaksuaruandluse koodid
+### <a name="sales-tax-reporting-codes"></a><span data-ttu-id="e45d6-139">Käibemaksuaruandluse koodid</span><span class="sxs-lookup"><span data-stu-id="e45d6-139">Sales tax reporting codes</span></span>
 
-Käibemaksuaruandluse koodid on väljade koodid KM-aruandes või siltide nimed XML-vormingus. Neid koode kasutatakse aruande summade liitmiseks ja ettevalmistamiseks. KM-aruande elektroonilise aruandluse vormingu konfigureerimisel kasutatakse saadud summade nimesid. Käibemaksuaruandluse koode saab luua ja hallata lehel **Käibemaksuaruandluse koodid**. Igale koodile tuleb määrata aruande paigutus. Pärast käibemaksuaruandluse koodide loomist saate valida koodid jaotisest **Aruande seadistus** lehel **Käibemaksukoodid**. <!---For more information, see [Set up sales tax reporting codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-reporting-codes).-->
+<span data-ttu-id="e45d6-140">Käibemaksuaruandluse koodid on väljade koodid KM-aruandes või siltide nimed XML-vormingus.</span><span class="sxs-lookup"><span data-stu-id="e45d6-140">Sales tax reporting codes are box codes in the VAT statement or tag names in XML format.</span></span> <span data-ttu-id="e45d6-141">Neid koode kasutatakse aruande summade liitmiseks ja ettevalmistamiseks.</span><span class="sxs-lookup"><span data-stu-id="e45d6-141">These codes are used to aggregate and prepare amounts for the report.</span></span> <span data-ttu-id="e45d6-142">KM-aruande elektroonilise aruandluse vormingu konfigureerimisel kasutatakse saadud summade nimesid.</span><span class="sxs-lookup"><span data-stu-id="e45d6-142">When you configure the electronic reporting format of the VAT statement, the names of the result amounts will be used.</span></span> <span data-ttu-id="e45d6-143">Käibemaksuaruandluse koode saab luua ja hallata lehel **Käibemaksuaruandluse koodid**.</span><span class="sxs-lookup"><span data-stu-id="e45d6-143">You can create and maintain sales tax reporting codes on the **Sales tax reporting codes** page.</span></span> <span data-ttu-id="e45d6-144">Igale koodile tuleb määrata aruande paigutus.</span><span class="sxs-lookup"><span data-stu-id="e45d6-144">You must assign each code a report layout.</span></span> <span data-ttu-id="e45d6-145">Pärast käibemaksuaruandluse koodide loomist saate valida koodid jaotisest **Aruande seadistus** lehel **Käibemaksukoodid**.</span><span class="sxs-lookup"><span data-stu-id="e45d6-145">After you create the sales tax reporting codes, you can choose the codes in the **Report setup** section on the **Sales tax codes** page.</span></span> <!---For more information, see [Set up sales tax reporting codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-reporting-codes).-->
 
-### <a name="sales-tax-codes-for-vat-reporting"></a>Käibemaksukoodid KM-aruandluse jaoks
+### <a name="sales-tax-codes-for-vat-reporting"></a><span data-ttu-id="e45d6-146">Käibemaksukoodid KM-aruandluse jaoks</span><span class="sxs-lookup"><span data-stu-id="e45d6-146">Sales tax codes for VAT reporting</span></span>
 
 <!---For general information about setting up sales tax codes, see [Set up sales tax codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-codes).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
 
@@ -75,204 +75,204 @@ Käibemaksuaruandluse koodid on väljade koodid KM-aruandes või siltide nimed X
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Kande tüüp</strong></td>
-<td><strong>Kande tüübi all arvestatud kannete ja summade kirjeldus</strong></td>
+<td><span data-ttu-id="e45d6-147"><strong>Kande tüüp</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-147"><strong>Transaction type</strong></span></span></td>
+<td><span data-ttu-id="e45d6-148"><strong>Kande tüübi all arvestatud kannete ja summade kirjeldus</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-148"><strong>Description of transactions and amounts to be counted on the transaction type</strong></span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Maksustatav müük</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-149"><strong>Maksustatav müük</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-149"><strong>Taxable Sales</strong></span></span></td>
+<td><span data-ttu-id="e45d6-150">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-150">Sum of <strong>Tax base amounts</strong> of tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil /</li>
-<li>Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
+<li><span data-ttu-id="e45d6-151">Kande kuupäev on valitud perioodil /</span><span class="sxs-lookup"><span data-stu-id="e45d6-151">Transaction date is in the selected period/</span></span></li>
+<li><span data-ttu-id="e45d6-152">Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-152">The sale is domestic (<strong>Tax direction</strong> is <strong>Sales tax payable</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-153">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-153">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &lt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Maksuvaba müük</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-154"><strong>Maksuvaba müük</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-154"><strong>Tax-free sales</strong></span></span></td>
+<td><span data-ttu-id="e45d6-155">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-155">Sum of <strong>Tax base amounts</strong> of tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Müük on eksport (<strong>Maksu suund</strong> on <strong>Maksuvaba müük</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
+<li><span data-ttu-id="e45d6-156">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-156">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-157">Müük on eksport (<strong>Maksu suund</strong> on <strong>Maksuvaba müük</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-157">The sale is export (<strong>Tax direction</strong> is <strong>Tax-free sale</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-158">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-158">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &lt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Tasumisele kuuluv käibemaks</strong></td>
-<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-159"><strong>Tasumisele kuuluv käibemaks</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-159"><strong>Sales tax payable</strong></span></span></td>
+<td><span data-ttu-id="e45d6-160">Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-160">Sum of <strong>Tax amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
+<li><span data-ttu-id="e45d6-161">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-161">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-162">Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-162">The sale is domestic (<strong>Tax direction</strong> is <strong>Sales tax payable</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-163">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-163">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &lt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Maksustatava müügi kreeditarve</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-164"><strong>Maksustatava müügi kreeditarve</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-164"><strong>Taxable sales credit note</strong></span></span></td>
+<td><span data-ttu-id="e45d6-165">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-165">Sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-166">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-166">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-167">Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-167">The sale is domestic (<strong>Tax direction</strong> is <strong>Sales tax payable</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-168">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-168">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Maksuvaba müügi kreeditarve</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-169"><strong>Maksuvaba müügi kreeditarve</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-169"><strong>Fax exempt sales credit note</strong></span></span></td>
+<td><span data-ttu-id="e45d6-170">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-170">Sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Müük on eksport (<strong>Maksu suund</strong> on <strong>Maksuvaba müük</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-171">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-171">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-172">Müük on eksport (<strong>Maksu suund</strong> on <strong>Maksuvaba müük</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-172">The sale is export (<strong>Tax direction</strong> is <strong>Tax-free sale</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-173">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-173">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Käibemaks müügi kreeditarvel</strong></td>
-<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-174"><strong>Käibemaks müügi kreeditarvel</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-174"><strong>Sales tax on sales credit note</strong></span></span></td>
+<td><span data-ttu-id="e45d6-175">Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-175">Sum of <strong>Tax amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-176">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-176">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-177">Müük on siseriiklik (<strong>Maksu suund</strong> on <strong>Tasumisele kuuluv käibemaks</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-177">The sale is domestic (<strong>Tax direction</strong> is <strong>Sales tax payable</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-178">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-178">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Maksustatavad ostud</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-179"><strong>Maksustatavad ostud</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-179"><strong>Taxable purchases</strong></span></span></td>
+<td><span data-ttu-id="e45d6-180">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-180">Sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-181">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-181">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-182">Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-182">The purchase is domestic (<strong>Tax direction</strong> is <strong>Sales tax receivable</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-183">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-183">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Maksuvaba ost</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-184"><strong>Maksuvaba ost</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-184"><strong>Tax-free purchase</strong></span></span></td>
+<td><span data-ttu-id="e45d6-185">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-185">Sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Ost on import (<strong>Maksu suund</strong> on <strong>Maksuvaba ost</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-186">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-186">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-187">Ost on import (<strong>Maksu suund</strong> on <strong>Maksuvaba ost</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-187">The purchase is import (<strong>Tax direction</strong> is <strong>Tax-free purchase</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-188">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-188">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Saadaolev käibemaks</strong></td>
-<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-189"><strong>Saadaolev käibemaks</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-189"><strong>Sales tax receivable</strong></span></span></td>
+<td><span data-ttu-id="e45d6-190">Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-190">Sum of <strong>Tax amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-191">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-191">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-192">Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-192">The purchase is domestic (<strong>Tax direction</strong> is <strong>Sales tax receivable</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-193">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-193">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Maksustatav ostu kreeditarve</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-194"><strong>Maksustatav ostu kreeditarve</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-194"><strong>Taxable purchase credit note</strong></span></span></td>
+<td><span data-ttu-id="e45d6-195">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-195">Sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
+<li><span data-ttu-id="e45d6-196">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-196">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-197">Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-197">The purchase is domestic (<strong>Tax direction</strong> is <strong>Sales tax receivable</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-198">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-198">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &lt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Maksuvaba ostu kreeditarve</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-199"><strong>Maksuvaba ostu kreeditarve</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-199"><strong>Tax exempt purchase credit note</strong></span></span></td>
+<td><span data-ttu-id="e45d6-200">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-200">Sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Ost on import (<strong>Maksu suund</strong> on <strong>Maksuvaba ost</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
+<li><span data-ttu-id="e45d6-201">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-201">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-202">Ost on import (<strong>Maksu suund</strong> on <strong>Maksuvaba ost</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-202">The purchase is import (<strong>Tax direction</strong> is <strong>Tax-free purchase</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-203">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-203">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &lt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Käibemaks ostu kreeditarvel</strong></td>
-<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-204"><strong>Käibemaks ostu kreeditarvel</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-204"><strong>Sales tax on purchase credit note</strong></span></span></td>
+<td><span data-ttu-id="e45d6-205">Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-205">Sum of <strong>Tax amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
+<li><span data-ttu-id="e45d6-206">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-206">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-207">Ost on siseriiklik (<strong>Maksu suund</strong> on <strong>Saadaolev käibemaks</strong>).</span><span class="sxs-lookup"><span data-stu-id="e45d6-207">The purchase is domestic (<strong>Tax direction</strong> is <strong>Sales tax receivable</strong>).</span></span></li>
+<li><span data-ttu-id="e45d6-208">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-208">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &lt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Maksustatav import</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-209"><strong>Maksustatav import</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-209"><strong>Taxable import</strong></span></span></td>
+<td><span data-ttu-id="e45d6-210">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-210">Sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong></li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-211">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-211">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-212"><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-212"><strong>Tax direction</strong> is <strong>Use tax</strong></span></span></li>
+<li><span data-ttu-id="e45d6-213">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-213">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Tasakaalusta maksustatav import</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-214"><strong>Tasakaalusta maksustatav import</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-214"><strong>Offset taxable import</strong></span></span></td>
+<td><span data-ttu-id="e45d6-215">Väärtuste <strong>Maksu baassummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-215">Reversed sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-216">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-216">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-217"><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</span><span class="sxs-lookup"><span data-stu-id="e45d6-217"><strong>Tax direction</strong> is <strong>Use tax</strong>.</span></span></li>
+<li><span data-ttu-id="e45d6-218">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-218">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Maksustatava impordi kreeditarve</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-219"><strong>Maksustatava impordi kreeditarve</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-219"><strong>Taxable import credit note</strong></span></span></td>
+<td><span data-ttu-id="e45d6-220">Väärtuste <strong>Maksu baassummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-220">Sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-e<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
+<li><span data-ttu-id="e45d6-221">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-221">Transaction date is in the selected period.</span></span></li>
+<span data-ttu-id="e45d6-222">e</span><span class="sxs-lookup"><span data-stu-id="e45d6-222">e</span></span><li><span data-ttu-id="e45d6-223"><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</span><span class="sxs-lookup"><span data-stu-id="e45d6-223"><strong>Tax direction</strong> is <strong>Use tax</strong>.</span></span></li>
+<li><span data-ttu-id="e45d6-224">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-224">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &lt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Tasakaalusta maksustatav impordi kreeditarve</strong></td>
-<td>Väärtuste <strong>Maksu baassummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-225"><strong>Tasakaalusta maksustatav impordi kreeditarve</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-225"><strong>Offset taxable import credit note</strong></span></span></td>
+<td><span data-ttu-id="e45d6-226">Väärtuste <strong>Maksu baassummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-226">Reversed sum of <strong>Tax base amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li>Maksusuund on <strong>Kasutusmaks</strong>.</li>
-d<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</li>
+<li><span data-ttu-id="e45d6-227">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-227">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-228">Maksusuund on <strong>Kasutusmaks</strong>.</span><span class="sxs-lookup"><span data-stu-id="e45d6-228">Tax direction is <strong>Use tax</strong>.</span></span></li>
+<span data-ttu-id="e45d6-229">d</span><span class="sxs-lookup"><span data-stu-id="e45d6-229">d</span></span><li><span data-ttu-id="e45d6-230">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &lt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-230">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &lt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Kasutusmaks</strong></td>
-<td>Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-231"><strong>Kasutusmaks</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-231"><strong>Use tax</strong></span></span></td>
+<td><span data-ttu-id="e45d6-232">Väärtuste <strong>Maksusummad</strong> summa kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-232">Sum of <strong>Tax amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-233">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-233">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-234"><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</span><span class="sxs-lookup"><span data-stu-id="e45d6-234"><strong>Tax direction</strong> is <strong>Use tax</strong>.</span></span></li>
+<li><span data-ttu-id="e45d6-235">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-235">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Kasutusmaksu vastasmaks</strong></td>
-<td>Väärtuste <strong>Maksusummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.
+<td><span data-ttu-id="e45d6-236"><strong>Kasutusmaksu vastasmaks</strong></span><span class="sxs-lookup"><span data-stu-id="e45d6-236"><strong>Offset use tax</strong></span></span></td>
+<td><span data-ttu-id="e45d6-237">Väärtuste <strong>Maksusummad</strong> pöördsumma kannete puhul, mis vastavad järgmistele tingimustele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-237">Reversed sum of <strong>Tax amounts</strong> of the tax transactions which satisfy the following conditions:</span></span>
 <ul>
-<li>Kande kuupäev on valitud perioodil.</li>
-<li><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</li>
-<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</li>
+<li><span data-ttu-id="e45d6-238">Kande kuupäev on valitud perioodil.</span><span class="sxs-lookup"><span data-stu-id="e45d6-238">Transaction date is in the selected period.</span></span></li>
+<li><span data-ttu-id="e45d6-239"><strong>Maksusuund</strong> on <strong>Kasutusmaks</strong>.</span><span class="sxs-lookup"><span data-stu-id="e45d6-239"><strong>Tax direction</strong> is <strong>Use tax</strong>.</span></span></li>
+<li><span data-ttu-id="e45d6-240">Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &gt; 0.</span><span class="sxs-lookup"><span data-stu-id="e45d6-240">The transaction <strong>Tax base amount</strong> or <strong>Tax amount</strong> &gt; 0.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Ülal antud tabeli puhul eeldatakse, et täidetud on järgmised tingimused. 
-> -   Maksu baassumma on kande summa väljalt **Päritolu arvestusvaluutas**.
-> -   Maksu baassumma on üleviidav summa väljalt **Tegelik käibemaksusumma arvestusvaluutas**.
+> <span data-ttu-id="e45d6-241">Ülal antud tabeli puhul eeldatakse, et täidetud on järgmised tingimused.</span><span class="sxs-lookup"><span data-stu-id="e45d6-241">For the table above, it is assumed that the following criteria are met:</span></span> 
+> -   <span data-ttu-id="e45d6-242">Maksu baassumma on kande summa väljalt **Päritolu arvestusvaluutas**.</span><span class="sxs-lookup"><span data-stu-id="e45d6-242">The tax base amount is a transaction amount from the **Origin in Accounting currency** field.</span></span>
+> -   <span data-ttu-id="e45d6-243">Maksu baassumma on üleviidav summa väljalt **Tegelik käibemaksusumma arvestusvaluutas**.</span><span class="sxs-lookup"><span data-stu-id="e45d6-243">The tax amount is a transition amount from the **Actual sales tax amount in Accounting currency** field.</span></span>
 
-### <a name="configure-the-er-model-and-format-for-the-report"></a>ER-mudeli ja aruande vormingu konfigureerimine
+### <a name="configure-the-er-model-and-format-for-the-report"></a><span data-ttu-id="e45d6-244">ER-mudeli ja aruande vormingu konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="e45d6-244">Configure the ER model and format for the report</span></span>
 
-Elektroonilist aruandlust (ER) saab kasutada väljavõtete ja aruande konfigureerimiseks ning andmete eksportimiseks erinevates elektroonilistes vormingutes, X++ koodi muutmata. Lisateave:
+<span data-ttu-id="e45d6-245">Elektroonilist aruandlust (ER) saab kasutada väljavõtete ja aruande konfigureerimiseks ning andmete eksportimiseks erinevates elektroonilistes vormingutes, X++ koodi muutmata.</span><span class="sxs-lookup"><span data-stu-id="e45d6-245">You can use Electronic Reporting (ER) to configure statements and report, and to export data different electronic formats without changing X++ code.</span></span> <span data-ttu-id="e45d6-246">Lisateave:</span><span class="sxs-lookup"><span data-stu-id="e45d6-246">For additional information:</span></span>
 
--   [Elektroonilise aruandluse ülevaade](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)
--   [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Lokaliseerimisnõuded – GER-i konfiguratsiooni loomine](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [<span data-ttu-id="e45d6-247">Elektroonilise aruandluse ülevaade</span><span class="sxs-lookup"><span data-stu-id="e45d6-247">Electronic reporting overview</span></span>](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)
+-   [<span data-ttu-id="e45d6-248">Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="e45d6-248">Download Electronic reporting configurations from Lifecycle Services</span></span>](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   [<span data-ttu-id="e45d6-249">Lokaliseerimisnõuded – GER-i konfiguratsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="e45d6-249">Localization requirements – Create a GER configuration</span></span>](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
 
-## <a name="countryspecific-resources-for-vat-statements"></a>Riigipõhised ressursid KM-aruannete puhul
-Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele. Järgmises tabelis loetletud riikide puhul on olemas KM-aruannete eelmääratud üldised mudelid ja vormingud.
+## <a name="countryspecific-resources-for-vat-statements"></a><span data-ttu-id="e45d6-250">Riigipõhised ressursid KM-aruannete puhul</span><span class="sxs-lookup"><span data-stu-id="e45d6-250">Countryspecific resources for VAT statements</span></span>
+<span data-ttu-id="e45d6-251">Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele.</span><span class="sxs-lookup"><span data-stu-id="e45d6-251">The VAT statement for each country must meet the requirements of the country’s legislation.</span></span> <span data-ttu-id="e45d6-252">Järgmises tabelis loetletud riikide puhul on olemas KM-aruannete eelmääratud üldised mudelid ja vormingud.</span><span class="sxs-lookup"><span data-stu-id="e45d6-252">There are predefined general models and formats of VAT statements for the countries listed in the following table.</span></span>
 
 
-| Riik        | Lisateave                                                          |
+| <span data-ttu-id="e45d6-253">Riik</span><span class="sxs-lookup"><span data-stu-id="e45d6-253">Country</span></span>        | <span data-ttu-id="e45d6-254">Lisateave</span><span class="sxs-lookup"><span data-stu-id="e45d6-254">Additional information</span></span>                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Austria        |  [KM-aruande üksikasjad Austria puhul](emea-aut-vat-statement-details.md)         |
-| Belgia        |                                                                                 |
-| Tšehhi Vabariik |  [KM-aruande üksikasjad Tšehhi Vabariigi puhul](emea-cze-vat-statement-details.md)   |
-| Eesti        |  [KM-aruande üksikasjad Eesti puhul](emea-est-vat-statement-details.md) |
-| Soome        |                                                                                 |
-| Saksamaa        |                                                                                 |
-| Itaalia          | [KM-aruande üksikasjad Itaalia puhul](emea-ita-vat-statements-details.md)            |
-| Läti         | [KM-aruande üksikasjad Läti puhul](emea-lva-vat-statement-details.md)           |
-| Leedu      | [KM-aruande üksikasjad Leedu puhul](emea-ltu-vat-statement-details.md)         |
-| Holland    |                                                                                 |
-| Rootsi         |                                                                                 |
+| <span data-ttu-id="e45d6-255">Austria</span><span class="sxs-lookup"><span data-stu-id="e45d6-255">Austria</span></span>        |  [<span data-ttu-id="e45d6-256">KM-aruande üksikasjad Austria puhul</span><span class="sxs-lookup"><span data-stu-id="e45d6-256">VAT statement details for Austria</span></span>](emea-aut-vat-statement-details.md)         |
+| <span data-ttu-id="e45d6-257">Belgia</span><span class="sxs-lookup"><span data-stu-id="e45d6-257">Belgium</span></span>        |                                                                                 |
+| <span data-ttu-id="e45d6-258">Tšehhi Vabariik</span><span class="sxs-lookup"><span data-stu-id="e45d6-258">Czech Republic</span></span> |  [<span data-ttu-id="e45d6-259">KM-aruande üksikasjad Tšehhi Vabariigi puhul</span><span class="sxs-lookup"><span data-stu-id="e45d6-259">VAT statement details for Czech Republic</span></span>](emea-cze-vat-statement-details.md)   |
+| <span data-ttu-id="e45d6-260">Eesti</span><span class="sxs-lookup"><span data-stu-id="e45d6-260">Estonia</span></span>        |  [<span data-ttu-id="e45d6-261">KM-aruande üksikasjad Eesti puhul</span><span class="sxs-lookup"><span data-stu-id="e45d6-261">VAT statement details for Estonia</span></span>](emea-est-vat-statement-details.md) |
+| <span data-ttu-id="e45d6-262">Soome</span><span class="sxs-lookup"><span data-stu-id="e45d6-262">Finland</span></span>        |                                                                                 |
+| <span data-ttu-id="e45d6-263">Saksamaa</span><span class="sxs-lookup"><span data-stu-id="e45d6-263">Germany</span></span>        |                                                                                 |
+| <span data-ttu-id="e45d6-264">Itaalia</span><span class="sxs-lookup"><span data-stu-id="e45d6-264">Italy</span></span>          | [<span data-ttu-id="e45d6-265">KM-aruande üksikasjad Itaalia puhul</span><span class="sxs-lookup"><span data-stu-id="e45d6-265">VAT statement details for Italy</span></span>](emea-ita-vat-statements-details.md)            |
+| <span data-ttu-id="e45d6-266">Läti</span><span class="sxs-lookup"><span data-stu-id="e45d6-266">Latvia</span></span>         | [<span data-ttu-id="e45d6-267">KM-aruande üksikasjad Läti puhul</span><span class="sxs-lookup"><span data-stu-id="e45d6-267">VAT statement details for Latvia</span></span>](emea-lva-vat-statement-details.md)           |
+| <span data-ttu-id="e45d6-268">Leedu</span><span class="sxs-lookup"><span data-stu-id="e45d6-268">Lithuania</span></span>      | [<span data-ttu-id="e45d6-269">KM-aruande üksikasjad Leedu puhul</span><span class="sxs-lookup"><span data-stu-id="e45d6-269">VAT statement details for Lithuania</span></span>](emea-ltu-vat-statement-details.md)         |
+| <span data-ttu-id="e45d6-270">Holland</span><span class="sxs-lookup"><span data-stu-id="e45d6-270">Netherlands</span></span>    |                                                                                 |
+| <span data-ttu-id="e45d6-271">Rootsi</span><span class="sxs-lookup"><span data-stu-id="e45d6-271">Sweden</span></span>         |                                                                                 |
 
 
 

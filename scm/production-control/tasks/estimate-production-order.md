@@ -17,30 +17,30 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 421b2e8b0ae1841be5dab6129f4f98252df3aa10
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1d34a891a5b655f801e46b8c07525cdcbc7a65c8
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="estimate-a-production-order"></a>Tootmistellimuse hindamine
+# <a name="estimate-a-production-order"></a><span data-ttu-id="4645a-103">Tootmistellimuse hindamine</span><span class="sxs-lookup"><span data-stu-id="4645a-103">Estimate a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Saate seda protseduuri käitada demoettevõtte USMF või oma andmeid kasutades. Mõlemal juhul peab teil olema avatud tootmistellimus, mis on olekus Loodud. See on teine protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.
+<span data-ttu-id="4645a-104">Saate seda protseduuri käitada demoettevõtte USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="4645a-104">You can run this procedure by using the USMF demo data company or your own data set.</span></span> <span data-ttu-id="4645a-105">Mõlemal juhul peab teil olema avatud tootmistellimus, mis on olekus Loodud.</span><span class="sxs-lookup"><span data-stu-id="4645a-105">In both cases, you need to have an open production order that has the Created status.</span></span> <span data-ttu-id="4645a-106">See on teine protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.</span><span class="sxs-lookup"><span data-stu-id="4645a-106">This is the second procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="estimate-a-production-order"></a>Tootmistellimuse hindamine
-1. Avage Tootmise juhtimine > Tootmistellimused > Kõik tootmistellimused.
-2. Valige ruudustikus tellimus, mille olek on Loodud.
-3. Klõpsake toimingupaanil valikut Tootmistellimus.
-4. Klõpsake suvandit Hinnang.
-    * Selles etapis arvutatakse ühe tootmistellimuse eeldatavad kulud.   
-5. Klõpsake nuppu OK.
+## <a name="estimate-a-production-order"></a><span data-ttu-id="4645a-107">Tootmistellimuse hindamine</span><span class="sxs-lookup"><span data-stu-id="4645a-107">Estimate a production order</span></span>
+1. <span data-ttu-id="4645a-108">Avage Tootmise juhtimine > Tootmistellimused > Kõik tootmistellimused.</span><span class="sxs-lookup"><span data-stu-id="4645a-108">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="4645a-109">Valige ruudustikus tellimus, mille olek on Loodud.</span><span class="sxs-lookup"><span data-stu-id="4645a-109">Select an order that has the Created status in the grid.</span></span>
+3. <span data-ttu-id="4645a-110">Klõpsake toimingupaanil valikut Tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="4645a-110">On the Action Pane, click Production order.</span></span>
+4. <span data-ttu-id="4645a-111">Klõpsake suvandit Hinnang.</span><span class="sxs-lookup"><span data-stu-id="4645a-111">Click Estimate.</span></span>
+    * <span data-ttu-id="4645a-112">Selles etapis arvutatakse ühe tootmistellimuse eeldatavad kulud.</span><span class="sxs-lookup"><span data-stu-id="4645a-112">In this step, the estimated costs of a single production order is calculated.</span></span>   
+5. <span data-ttu-id="4645a-113">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4645a-113">Click OK.</span></span>
 
-## <a name="view-the-calculation-details"></a>Kuva arvutamise üksikasjad
-1. Klõpsake toimingupaanil valikut Kulude haldamine.
-2. Klõpsake suvandit Kuva arvutamise üksikasjad.
-    * Sellel lehel kuvatakse kulude jaotus. Näiteks saate vaadata esimese rea valmistoote kogu omahinda ühiku kohta. Järgnevad read sisaldavad vastavalt kooslusel, tootmisprotsessi ja kaudsete kulude kulusid.  
+## <a name="view-the-calculation-details"></a><span data-ttu-id="4645a-114">Kuva arvutamise üksikasjad</span><span class="sxs-lookup"><span data-stu-id="4645a-114">View the calculation details</span></span>
+1. <span data-ttu-id="4645a-115">Klõpsake toimingupaanil valikut Kulude haldamine.</span><span class="sxs-lookup"><span data-stu-id="4645a-115">On the Action Pane, click Manage costs.</span></span>
+2. <span data-ttu-id="4645a-116">Klõpsake suvandit Kuva arvutamise üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="4645a-116">Click View calculation details.</span></span>
+    * <span data-ttu-id="4645a-117">Sellel lehel kuvatakse kulude jaotus.</span><span class="sxs-lookup"><span data-stu-id="4645a-117">This page displays the cost breakdown.</span></span> <span data-ttu-id="4645a-118">Näiteks saate vaadata esimese rea valmistoote kogu omahinda ühiku kohta.</span><span class="sxs-lookup"><span data-stu-id="4645a-118">For example, you can view the total cost price per unit for the finished product in the first row.</span></span> <span data-ttu-id="4645a-119">Järgnevad read sisaldavad vastavalt kooslusel, tootmisprotsessi ja kaudsete kulude kulusid.</span><span class="sxs-lookup"><span data-stu-id="4645a-119">The subsequent rows contain costs according to the bill of materials, production route, and indirect costs.</span></span>  
 
 

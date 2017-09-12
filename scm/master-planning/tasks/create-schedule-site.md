@@ -16,43 +16,43 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a611cb773919284b2bbe55395a7ec2b947d5c0b4
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 775428bf84a752c03c492e764fa9ed576ab64fb8
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-schedule-for-a-site"></a>Tegevuskoha jaoks graafiku loomine
+# <a name="create-a-schedule-for-a-site"></a><span data-ttu-id="6bb0b-103">Tegevuskoha jaoks graafiku loomine</span><span class="sxs-lookup"><span data-stu-id="6bb0b-103">Create a schedule for a site</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur selgitab, kuidas ajastada tootmistellimusi, mida ei ole tegevuskoha jaoks veel alustatud.  Selle protseduuri lõpuleviimiseks kasutatakse demoandmete ettevõtet USMF.
+<span data-ttu-id="6bb0b-104">See protseduur selgitab, kuidas ajastada tootmistellimusi, mida ei ole tegevuskoha jaoks veel alustatud.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-104">This procedure shows how to schedule production orders that are not yet started for a site.</span></span>  <span data-ttu-id="6bb0b-105">Selle protseduuri lõpuleviimiseks kasutatakse demoandmete ettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-105">The demo data company USMF is used to complete this procedure.</span></span>
 
 
-## <a name="identify-production-orders-that-are-not-started"></a>Käivitamata tootmistellimuste tuvastamine
-1. Avage Tootmise juhtimine > Tootmistellimused > Kõik tootmistellimused.
-2. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks filtreerige väljal Tegevuskoht väärtusega 1.
-    * 1 tähistab tegevuskohta USMF-is. Kui te ei kasuta USMF-i, valige tegevuskoht oma ettevõttest.  
-3. Avage veeru Olek filter.
-4. Rakendage filtrit väljal Olek koos väärtusega Plaanitud, kasutades filtrit väärtusega „on täpselt”.
+## <a name="identify-production-orders-that-are-not-started"></a><span data-ttu-id="6bb0b-106">Käivitamata tootmistellimuste tuvastamine</span><span class="sxs-lookup"><span data-stu-id="6bb0b-106">Identify production orders that are not started</span></span>
+1. <span data-ttu-id="6bb0b-107">Avage Tootmise juhtimine > Tootmistellimused > Kõik tootmistellimused.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-107">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="6bb0b-108">Saate kirjete leidmiseks kasutada valikut Kiirfilter.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="6bb0b-109">Näiteks filtreerige väljal Tegevuskoht väärtusega 1.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-109">For example, filter on the Site field with a value of '1'.</span></span>
+    * <span data-ttu-id="6bb0b-110">1 tähistab tegevuskohta USMF-is.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-110">1 represents a site in USMF.</span></span> <span data-ttu-id="6bb0b-111">Kui te ei kasuta USMF-i, valige tegevuskoht oma ettevõttest.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-111">If you are not using USMF, select a site from your own company.</span></span>  
+3. <span data-ttu-id="6bb0b-112">Avage veeru Olek filter.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-112">Open the Status column filter.</span></span>
+4. <span data-ttu-id="6bb0b-113">Rakendage filtrit väljal Olek koos väärtusega Plaanitud, kasutades filtrit väärtusega „on täpselt”.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-113">Apply a filter on the "Status" field, with a value of "Scheduled", using the "is exactly" filter operator.</span></span>
 
-## <a name="create-a-schedule"></a>Graafiku loomine
-1. Märkige või tühjendage loendis kõik read.
-2. Klõpsake tegumiribal valikut Graafik.
-3. Klõpsake valikut Tööde plaanimine.
-4. Valige väljal Planeerimissuund üksus Tarnekuupäevast tagasi.
-5. Tehke väljal Piiratud võimsus valik Ei.
-6. Tehke väljal Piiratud materjal valik Ei.
-7. Klõpsake nuppu OK.
-    * See võib veidi aega võtta.  
+## <a name="create-a-schedule"></a><span data-ttu-id="6bb0b-114">Graafiku loomine</span><span class="sxs-lookup"><span data-stu-id="6bb0b-114">Create a schedule</span></span>
+1. <span data-ttu-id="6bb0b-115">Märkige või tühjendage loendis kõik read.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-115">In the list, mark or unmark all rows.</span></span>
+2. <span data-ttu-id="6bb0b-116">Klõpsake tegumiribal valikut Graafik.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-116">On the Action Pane, click Schedule.</span></span>
+3. <span data-ttu-id="6bb0b-117">Klõpsake valikut Tööde plaanimine.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-117">Click Schedule jobs.</span></span>
+4. <span data-ttu-id="6bb0b-118">Valige väljal Planeerimissuund üksus Tarnekuupäevast tagasi.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-118">In the Scheduling direction field, select 'Backward from delivery date'.</span></span>
+5. <span data-ttu-id="6bb0b-119">Tehke väljal Piiratud võimsus valik Ei.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-119">Select No in the Finite capacity field.</span></span>
+6. <span data-ttu-id="6bb0b-120">Tehke väljal Piiratud materjal valik Ei.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-120">Select No in the Finite material field.</span></span>
+7. <span data-ttu-id="6bb0b-121">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-121">Click OK.</span></span>
+    * <span data-ttu-id="6bb0b-122">See võib veidi aega võtta.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-122">This may take a while.</span></span>  
 
-## <a name="view-the-result-of-scheduled-production-orders"></a>Plaanitud tootmistellimuste tulemite vaatamine
-1. Märkige loendis valitud rida.
-    * Saate märkida mis tahes rea.  
-2. Klõpsake toimingupaanil valikut Tootmistellimus.
-3. Klõpsake valikut Kõik tööd.
-    * Sellel lehel saate vaadata tööde loendit. Vahekaardil Plaanimine saate vaadata töö algus- ja lõppkuupäeva.  
-4. Klõpsake suvandit Materjalid.
-    * Sellel lehel saate vaadata tootmistellimuse toimingute eeldatavat materjalikulu ja praegust saadaolevat kaubavaru.  
+## <a name="view-the-result-of-scheduled-production-orders"></a><span data-ttu-id="6bb0b-123">Plaanitud tootmistellimuste tulemite vaatamine</span><span class="sxs-lookup"><span data-stu-id="6bb0b-123">View the result of scheduled production orders</span></span>
+1. <span data-ttu-id="6bb0b-124">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-124">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="6bb0b-125">Saate märkida mis tahes rea.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-125">You can mark any row.</span></span>  
+2. <span data-ttu-id="6bb0b-126">Klõpsake toimingupaanil valikut Tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-126">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="6bb0b-127">Klõpsake valikut Kõik tööd.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-127">Click All jobs.</span></span>
+    * <span data-ttu-id="6bb0b-128">Sellel lehel saate vaadata tööde loendit.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-128">On this page, you can see the list of jobs.</span></span> <span data-ttu-id="6bb0b-129">Vahekaardil Plaanimine saate vaadata töö algus- ja lõppkuupäeva.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-129">On the Scheduling tab, you can see the Start date and End date for a job.</span></span>  
+4. <span data-ttu-id="6bb0b-130">Klõpsake suvandit Materjalid.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-130">Click Materials.</span></span>
+    * <span data-ttu-id="6bb0b-131">Sellel lehel saate vaadata tootmistellimuse toimingute eeldatavat materjalikulu ja praegust saadaolevat kaubavaru.</span><span class="sxs-lookup"><span data-stu-id="6bb0b-131">On this page, you can see the estimated material consumption for the operations on the production order and the current available inventory.</span></span>  
 
 

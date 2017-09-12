@@ -16,32 +16,32 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 52d502a53deb6defa619af4ca8cdc3158e086bae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="import-iso20022-credit-transfer-configuration"></a>ISO20022 kreeditiülekande konfiguratsiooni importimine
+# <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="432da-103">ISO20022 kreeditiülekande konfiguratsiooni importimine</span><span class="sxs-lookup"><span data-stu-id="432da-103">Import ISO20022 credit transfer configuration</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas importida hankija makse elektroonilise aruandluse konfiguratsiooni. Näitena on kasutatud Saksamaa ISO 20022 kreeditülekande vormingut. Seda protseduuri saab kasutada teiste saadaolevate elektroonilise aruandluse vormingute puhul. 
+<span data-ttu-id="432da-104">See protseduur näitab, kuidas importida hankija makse elektroonilise aruandluse konfiguratsiooni.</span><span class="sxs-lookup"><span data-stu-id="432da-104">This procedure shows how to import a vendor payment electronic reporting configuration.</span></span> <span data-ttu-id="432da-105">Näitena on kasutatud Saksamaa ISO 20022 kreeditülekande vormingut.</span><span class="sxs-lookup"><span data-stu-id="432da-105">The German ISO 20022 credit transfer format is used as an example.</span></span> <span data-ttu-id="432da-106">Seda protseduuri saab kasutada teiste saadaolevate elektroonilise aruandluse vormingute puhul.</span><span class="sxs-lookup"><span data-stu-id="432da-106">This procedure can be used for other available electronic reporting format.</span></span> 
 
-See ülesanne loodi, kasutades demoettevõtte DEMF andmeid, kuid võite kasutada selle ülesande täitmiseks mis tahes demoettevõtet.
+<span data-ttu-id="432da-107">See ülesanne loodi, kasutades demoettevõtte DEMF andmeid, kuid võite kasutada selle ülesande täitmiseks mis tahes demoettevõtet.</span><span class="sxs-lookup"><span data-stu-id="432da-107">This task was created using the demo data company DEMF but you can use any demo data company to complete this task.</span></span>
 
-See on esimene viiest ülesandest, mis illustreerivad koos hankija makseprotsessi, kasutades elektroonilise aruandluse konfiguratsioone. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
+<span data-ttu-id="432da-108">See on esimene viiest ülesandest, mis illustreerivad koos hankija makseprotsessi, kasutades elektroonilise aruandluse konfiguratsioone.</span><span class="sxs-lookup"><span data-stu-id="432da-108">This is the first of five tasks, that together illustrate the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="432da-109">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="432da-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-2. Valige saadaolevate konfiguratsiooni pakkujate loendist Microsoft.
-3. Klõpsake valikut Määra aktiivseks.
-4. Klõpsake valikut Hoidlad.
-5. Klõpsake valikut Ava.
-6. Klõpsake suvandit Näita filtreid.
-7. Rakendage järgmised filtrid: sisestage filtri väärtus „ISO20022 kreeditülekanne (DE)” väljale „Konfiguratsiooni nimi”, kasutades filtri tehtemärki „algab üksusega”
-    * Teine võimalus on otsida konfiguratsioon loendist üles, valida see ja teisaldada see siis importimisülesandesse.  
-8. Klõpsake Import.
-    * Kui nupp Impordi pole saadaval, tähendab see, et see konfiguratsioon on juba imporditud.  
-9. Klõpsake nuppu Jah.
+1. <span data-ttu-id="432da-110">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="432da-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="432da-111">Valige saadaolevate konfiguratsiooni pakkujate loendist Microsoft.</span><span class="sxs-lookup"><span data-stu-id="432da-111">In the list of available configuration providers, select Microsoft.</span></span>
+3. <span data-ttu-id="432da-112">Klõpsake valikut Määra aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="432da-112">Click Set active.</span></span>
+4. <span data-ttu-id="432da-113">Klõpsake valikut Hoidlad.</span><span class="sxs-lookup"><span data-stu-id="432da-113">Click Repositories.</span></span>
+5. <span data-ttu-id="432da-114">Klõpsake valikut Ava.</span><span class="sxs-lookup"><span data-stu-id="432da-114">Click Open.</span></span>
+6. <span data-ttu-id="432da-115">Klõpsake suvandit Näita filtreid.</span><span class="sxs-lookup"><span data-stu-id="432da-115">Click Show filters.</span></span>
+7. <span data-ttu-id="432da-116">Rakendage järgmised filtrid: sisestage filtri väärtus „ISO20022 kreeditülekanne (DE)” väljale „Konfiguratsiooni nimi”, kasutades filtri tehtemärki „algab üksusega”</span><span class="sxs-lookup"><span data-stu-id="432da-116">Apply the following filters: Enter a filter value of "ISO20022 Credit transfer (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="432da-117">Teine võimalus on otsida konfiguratsioon loendist üles, valida see ja teisaldada see siis importimisülesandesse.</span><span class="sxs-lookup"><span data-stu-id="432da-117">Alternatively, you can find the configuration in the list, select it, and then move it to the Import task.</span></span>  
+8. <span data-ttu-id="432da-118">Klõpsake Import.</span><span class="sxs-lookup"><span data-stu-id="432da-118">Click Import.</span></span>
+    * <span data-ttu-id="432da-119">Kui nupp Impordi pole saadaval, tähendab see, et see konfiguratsioon on juba imporditud.</span><span class="sxs-lookup"><span data-stu-id="432da-119">If the Import button is not available, it means that the configuration has  already been imported.</span></span>  
+9. <span data-ttu-id="432da-120">Klõpsake nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="432da-120">Click Yes.</span></span>
 
 

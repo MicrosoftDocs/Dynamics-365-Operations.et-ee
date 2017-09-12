@@ -16,33 +16,33 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: c0ad052ac0237f4da463ee80197a019df071f827
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 42d37079eeea99aeea062168f4dd5462a8da8016
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-configuration-routes"></a>Konfigureerimisprotsesside määratlemine
+# <a name="define-configuration-routes"></a><span data-ttu-id="1cbee-103">Konfigureerimisprotsesside määratlemine</span><span class="sxs-lookup"><span data-stu-id="1cbee-103">Define configuration routes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur keskendub konfiguratsiooniprotsessi määratlemisele, mis määrab konfiguratsioonigruppide esitamise järjestuse. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on kuues protseduur kaheksast, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks.
+<span data-ttu-id="1cbee-104">See protseduur keskendub konfiguratsiooniprotsessi määratlemisele, mis määrab konfiguratsioonigruppide esitamise järjestuse.</span><span class="sxs-lookup"><span data-stu-id="1cbee-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="1cbee-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="1cbee-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1cbee-106">See on kuues protseduur kaheksast, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks.</span><span class="sxs-lookup"><span data-stu-id="1cbee-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. Minge jaotisse Tooteteabe haldus > Kooslused ja valemid > Kooslused.
-2. Otsige loendist ja valige soovitud kirje.
-3. Klõpsake toimingupaanil valikut Suvandid.
-4. Klõpsake suvandit Muuda vaadet.
-5. Klõpsake suvandit Päisevaade.
-6. Laiendage või ahendage jaotist Konfiguratsiooniprotsess.
-7. Klõpsake vahekaarti Lisa.
-8. Märkige loendis valitud rida.
-9. Klõpsake väljal Konfiguratsioonigrupp otsingu avamiseks ripploendi nuppu.
-10. Klõpsake loendis valitud real olevat linki.
-11. Klõpsake vahekaarti Lisa.
-12. Märkige loendis valitud rida.
-13. Klõpsake väljal Konfiguratsioonigrupp otsingu avamiseks ripploendi nuppu.
-14. Otsige loendist ja valige soovitud kirje.
-15. Klõpsake loendis valitud real olevat linki.
-16. Klõpsake nuppu Salvesta.
+1. <span data-ttu-id="1cbee-107">Minge jaotisse Tooteteabe haldus > Kooslused ja valemid > Kooslused.</span><span class="sxs-lookup"><span data-stu-id="1cbee-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="1cbee-108">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="1cbee-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="1cbee-109">Klõpsake toimingupaanil valikut Suvandid.</span><span class="sxs-lookup"><span data-stu-id="1cbee-109">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="1cbee-110">Klõpsake suvandit Muuda vaadet.</span><span class="sxs-lookup"><span data-stu-id="1cbee-110">Click Change view.</span></span>
+5. <span data-ttu-id="1cbee-111">Klõpsake suvandit Päisevaade.</span><span class="sxs-lookup"><span data-stu-id="1cbee-111">Click Header view.</span></span>
+6. <span data-ttu-id="1cbee-112">Laiendage või ahendage jaotist Konfiguratsiooniprotsess.</span><span class="sxs-lookup"><span data-stu-id="1cbee-112">Expand or collapse the Configuration route section.</span></span>
+7. <span data-ttu-id="1cbee-113">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="1cbee-113">Click Add.</span></span>
+8. <span data-ttu-id="1cbee-114">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="1cbee-114">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="1cbee-115">Klõpsake väljal Konfiguratsioonigrupp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="1cbee-115">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="1cbee-116">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="1cbee-116">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="1cbee-117">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="1cbee-117">Click Add.</span></span>
+12. <span data-ttu-id="1cbee-118">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="1cbee-118">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="1cbee-119">Klõpsake väljal Konfiguratsioonigrupp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="1cbee-119">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="1cbee-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="1cbee-120">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="1cbee-121">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="1cbee-121">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="1cbee-122">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="1cbee-122">Click Save.</span></span>
 
 

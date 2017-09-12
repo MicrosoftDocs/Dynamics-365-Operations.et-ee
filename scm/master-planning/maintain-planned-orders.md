@@ -20,38 +20,38 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 94f6f28ec4b255930f84a27eb5394503ff59e4c0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ec45e7426f65827f161245870f9114e52e035ab
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="maintain-planned-orders"></a>Plaanitud tellimuste haldamine
+# <a name="maintain-planned-orders"></a><span data-ttu-id="1bbae-104">Plaanitud tellimuste haldamine</span><span class="sxs-lookup"><span data-stu-id="1bbae-104">Maintain planned orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel pakub teavet plaanitud tellimuste haldamise kohta. See kirjeldab, kuidas plaanitud tellimuste olekut värskendada, neid kinnitada ja filtreerida plaanitud tellimusi, millel on sama olek, nagu valitud plaanitud tellimusel.
+<span data-ttu-id="1bbae-105">See artikkel pakub teavet plaanitud tellimuste haldamise kohta.</span><span class="sxs-lookup"><span data-stu-id="1bbae-105">This article provides information about how to manage planned orders.</span></span> <span data-ttu-id="1bbae-106">See kirjeldab, kuidas plaanitud tellimuste olekut värskendada, neid kinnitada ja filtreerida plaanitud tellimusi, millel on sama olek, nagu valitud plaanitud tellimusel.</span><span class="sxs-lookup"><span data-stu-id="1bbae-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-Saate planeeritud tellimusi hallata tööruumis **Koondplaneerimine**, loendis **Plaanitud tellimus** või loendites **Plaanitud tootmistellimused**, **Plaanitud ostutellimused** ja **Plaanitud üleviimised**. Saate edenemist jälgida välja **Olek** abil. Kasutatakse järgmisi väärtusi.
+<span data-ttu-id="1bbae-107">Saate planeeritud tellimusi hallata tööruumis **Koondplaneerimine**, loendis **Plaanitud tellimus** või loendites **Plaanitud tootmistellimused**, **Plaanitud ostutellimused** ja **Plaanitud üleviimised**.</span><span class="sxs-lookup"><span data-stu-id="1bbae-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="1bbae-108">Saate edenemist jälgida välja **Olek** abil.</span><span class="sxs-lookup"><span data-stu-id="1bbae-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="1bbae-109">Kasutatakse järgmisi väärtusi.</span><span class="sxs-lookup"><span data-stu-id="1bbae-109">The following values are used:</span></span>
 
--   Kui koondplaneerimine loob plaanitud tellimused, on nende olek **Töötlemata**.
--   Kui otsustate plaanitud tellimust mitte kinnitada, saate sellele määrata oleku **Lõpule viidud**.
--   Kui otsustate plaanitud tellimuse kinnitada, saate sellele määrata oleku **Heaks kiidetud**. See olek näitab, et olete plaanitud tellimuse kinnitamisega nõus, kuid see pole veel kinnitatud.
+-   <span data-ttu-id="1bbae-110">Kui koondplaneerimine loob plaanitud tellimused, on nende olek **Töötlemata**.</span><span class="sxs-lookup"><span data-stu-id="1bbae-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="1bbae-111">Kui otsustate plaanitud tellimust mitte kinnitada, saate sellele määrata oleku **Lõpule viidud**.</span><span class="sxs-lookup"><span data-stu-id="1bbae-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="1bbae-112">Kui otsustate plaanitud tellimuse kinnitada, saate sellele määrata oleku **Heaks kiidetud**.</span><span class="sxs-lookup"><span data-stu-id="1bbae-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="1bbae-113">See olek näitab, et olete plaanitud tellimuse kinnitamisega nõus, kuid see pole veel kinnitatud.</span><span class="sxs-lookup"><span data-stu-id="1bbae-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-**Märkus.** Kinnitatud plaanitud tellimus kantakse järgmise koondplaani arvutamisse üle praeguses olekus. Plaanitud tellimused saate kinnitada, klõpsates käsku **Kinnita**. Kinnitada saab järgmisi plaanitud tellimusi:
+<span data-ttu-id="1bbae-114">**Märkus.** Kinnitatud plaanitud tellimus kantakse järgmise koondplaani arvutamisse üle praeguses olekus.</span><span class="sxs-lookup"><span data-stu-id="1bbae-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="1bbae-115">Plaanitud tellimused saate kinnitada, klõpsates käsku **Kinnita**.</span><span class="sxs-lookup"><span data-stu-id="1bbae-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="1bbae-116">Kinnitada saab järgmisi plaanitud tellimusi:</span><span class="sxs-lookup"><span data-stu-id="1bbae-116">You can firm the following planned orders:</span></span>
 
--   Valitud plaanitud tellimus.
--   Mitu plaanitud tellimust.
--   Lehel **Koosnevusarvutus** tehtud koosnevusarvutusega loodud plaanitud tellimused. Klõpsake nuppu **Plaanitud tellimused**, valige plaanitud tellimus ja seejärel klõpsake käsku **Kinnita**.
+-   <span data-ttu-id="1bbae-117">Valitud plaanitud tellimus.</span><span class="sxs-lookup"><span data-stu-id="1bbae-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="1bbae-118">Mitu plaanitud tellimust.</span><span class="sxs-lookup"><span data-stu-id="1bbae-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="1bbae-119">Lehel **Koosnevusarvutus** tehtud koosnevusarvutusega loodud plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="1bbae-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="1bbae-120">Klõpsake nuppu **Plaanitud tellimused**, valige plaanitud tellimus ja seejärel klõpsake käsku **Kinnita**.</span><span class="sxs-lookup"><span data-stu-id="1bbae-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-Kui plaanitud tellimus on kinnitatud, teisaldatakse see asjakohase mooduli tellimuste jaotisse. **Märkus.** Saate paremklõpsata teatud olekuga plaanitud tellimusel ja filtreerida teisi sama olekuga plaanitud tellimusi. See funktsioon on kasulik, kui soovite näiteks filtreerida kõik plaanitud tellimused, mille olek on **Heaks kiidetud**, et saaksite need seejärel kinnitada.
+<span data-ttu-id="1bbae-121">Kui plaanitud tellimus on kinnitatud, teisaldatakse see asjakohase mooduli tellimuste jaotisse.</span><span class="sxs-lookup"><span data-stu-id="1bbae-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> <span data-ttu-id="1bbae-122">**Märkus.** Saate paremklõpsata teatud olekuga plaanitud tellimusel ja filtreerida teisi sama olekuga plaanitud tellimusi.</span><span class="sxs-lookup"><span data-stu-id="1bbae-122">**Note:** You can right-click a planned order that has a particular status and filter for other planned orders that have the same status.</span></span> <span data-ttu-id="1bbae-123">See funktsioon on kasulik, kui soovite näiteks filtreerida kõik plaanitud tellimused, mille olek on **Heaks kiidetud**, et saaksite need seejärel kinnitada.</span><span class="sxs-lookup"><span data-stu-id="1bbae-123">This functionality is useful if, for example, you want to filter for all planned orders that have a status of **Approved**, so that you can then firm them.</span></span>
 
-<a name="see-also"></a>Vt ka
+<a name="see-also"></a><span data-ttu-id="1bbae-124">Vt ka</span><span class="sxs-lookup"><span data-stu-id="1bbae-124">See also</span></span>
 --------
 
-[Koondplaanid](master-plans.md)
+[<span data-ttu-id="1bbae-125">Koondplaanid</span><span class="sxs-lookup"><span data-stu-id="1bbae-125">Master plans</span></span>](master-plans.md)
 
 
 

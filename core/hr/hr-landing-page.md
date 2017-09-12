@@ -24,78 +24,78 @@ ms.lasthandoff: 08/02/2017
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Tere tulemast inimressursside lehele
+# <a name="welcome-to-human-resources"></a><span data-ttu-id="afd2b-105">Tere tulemast inimressursside lehele</span><span class="sxs-lookup"><span data-stu-id="afd2b-105">Welcome to human resources</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Inimressursside moodul hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib teie organisatsiooni personalitegevuste protsesse. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks. Need valdkonnad on töötajate töölevõtmine ja hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine.
+<span data-ttu-id="afd2b-106">Inimressursside moodul hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib teie organisatsiooni personalitegevuste protsesse.</span><span class="sxs-lookup"><span data-stu-id="afd2b-106">Human resources streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="afd2b-107">Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks.</span><span class="sxs-lookup"><span data-stu-id="afd2b-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span> <span data-ttu-id="afd2b-108">Need valdkonnad on töötajate töölevõtmine ja hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine.</span><span class="sxs-lookup"><span data-stu-id="afd2b-108">These areas include employee recruitment and retention, benefits administration, training, performance reviews, and change management.</span></span>
 
-Saate inimressursse kasutada, et teha järgmist.
+<span data-ttu-id="afd2b-109">Saate inimressursse kasutada, et teha järgmist.</span><span class="sxs-lookup"><span data-stu-id="afd2b-109">You can use Human resources to complete these tasks:</span></span>
 
-> + Hallata organisatsiooni struktuure.
-> + Säilitada põhjalikku teavet töötajate kohta alates töölevõtmisest kuni pensionini.
-> + Määratleda ja hallata soodustusplaane, registreerida töötajaid, määrata sõltuvaid katvusi ja tulusaajaid.
-> + Luua ja jälgida puudumispoliitikaid.
-> + Rakendada ja jälgida profiilipõhist aja juhtimist ning luua palgaandmeid palgasüsteemi eksportimiseks.
-> + Hallata töötaja pädevusi.
-> + Vaadata üle tulemusi ja seada töötajale eesmärke.
-> + Seadistada, pakkuda ja analüüsida koolituskursusi, k.a päevakavasid, seansse ja jälgimisi.
-> + Võtta tööle töötajaid ja jälgida kandidaate.
+> + <span data-ttu-id="afd2b-110">Hallata organisatsiooni struktuure.</span><span class="sxs-lookup"><span data-stu-id="afd2b-110">Administer organizational structures.</span></span>
+> + <span data-ttu-id="afd2b-111">Säilitada põhjalikku teavet töötajate kohta alates töölevõtmisest kuni pensionini.</span><span class="sxs-lookup"><span data-stu-id="afd2b-111">Maintain comprehensive worker information from hire to retire.</span></span>
+> + <span data-ttu-id="afd2b-112">Määratleda ja hallata soodustusplaane, registreerida töötajaid, määrata sõltuvaid katvusi ja tulusaajaid.</span><span class="sxs-lookup"><span data-stu-id="afd2b-112">Define and administer benefit plans, enroll workers, assign dependent coverage, and designate beneficiaries.</span></span>
+> + <span data-ttu-id="afd2b-113">Luua ja jälgida puudumispoliitikaid.</span><span class="sxs-lookup"><span data-stu-id="afd2b-113">Establish and monitor absence policies.</span></span>
+> + <span data-ttu-id="afd2b-114">Rakendada ja jälgida profiilipõhist aja juhtimist ning luua palgaandmeid palgasüsteemi eksportimiseks.</span><span class="sxs-lookup"><span data-stu-id="afd2b-114">Implement and track profile-based time management and generate pay information to export to a payroll system.</span></span>
+> + <span data-ttu-id="afd2b-115">Hallata töötaja pädevusi.</span><span class="sxs-lookup"><span data-stu-id="afd2b-115">Manage worker competencies.</span></span>
+> + <span data-ttu-id="afd2b-116">Vaadata üle tulemusi ja seada töötajale eesmärke.</span><span class="sxs-lookup"><span data-stu-id="afd2b-116">Review performance and implement worker goals.</span></span>
+> + <span data-ttu-id="afd2b-117">Seadistada, pakkuda ja analüüsida koolituskursusi, k.a päevakavasid, seansse ja jälgimisi.</span><span class="sxs-lookup"><span data-stu-id="afd2b-117">Set up, deliver, and analyze training courses that include agendas, sessions, and tracks.</span></span>
+> + <span data-ttu-id="afd2b-118">Võtta tööle töötajaid ja jälgida kandidaate.</span><span class="sxs-lookup"><span data-stu-id="afd2b-118">Recruit workers and track applicants.</span></span>
 
-<a name="develop-a-human-resources-strategy"></a>Arendada inimressursside strateegiat.
+<a name="develop-a-human-resources-strategy"></a><span data-ttu-id="afd2b-119">Arendada inimressursside strateegiat.</span><span class="sxs-lookup"><span data-stu-id="afd2b-119">Develop a human resources strategy</span></span>
 ---------------------------------------------------------
 
-Inimressurssidega töötamisel saate otsustada kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad. Need kuuluvad põhielementide hulka, mida saate inimressurssides konfigureerida. Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.
+<span data-ttu-id="afd2b-120">Inimressurssidega töötamisel saate otsustada kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad.</span><span class="sxs-lookup"><span data-stu-id="afd2b-120">As you work with Human resources, you'll decide how to structure your organization, using elements, such as departments, jobs, and positions.</span></span> <span data-ttu-id="afd2b-121">Need kuuluvad põhielementide hulka, mida saate inimressurssides konfigureerida.</span><span class="sxs-lookup"><span data-stu-id="afd2b-121">These are among the foundational elements that you'll configure in Human resources.</span></span> <span data-ttu-id="afd2b-122">Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.</span><span class="sxs-lookup"><span data-stu-id="afd2b-122">Individual employees are assigned to positions which are associated with jobs.</span></span>
 
--   [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](/dynamics365/unified-operations/talent/departments-jobs-positions)
--   [Ettevõttekohaste inimressursside parameetrite seadistamine](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters)
--   [Juriidilistele isikutele inimressursside parameetrite seadistamine](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities) 
+-   [<span data-ttu-id="afd2b-123">Tööjõu korraldamine osakondade, tööde ja ametikohtade abil</span><span class="sxs-lookup"><span data-stu-id="afd2b-123">Organize your workforce using departments, jobs, and positions</span></span>](/dynamics365/unified-operations/talent/departments-jobs-positions)
+-   [<span data-ttu-id="afd2b-124">Ettevõttekohaste inimressursside parameetrite seadistamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-124">Set up company-specific HR parameters</span></span>](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters)
+-   [<span data-ttu-id="afd2b-125">Juriidilistele isikutele inimressursside parameetrite seadistamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-125">Set up HR parameters across legal entities</span></span>](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Töötajate värbamine, palkamine ja motiveerimine
+## <a name="recruit-hire-and-motivate-employees"></a><span data-ttu-id="afd2b-126">Töötajate värbamine, palkamine ja motiveerimine</span><span class="sxs-lookup"><span data-stu-id="afd2b-126">Recruit, hire, and motivate employees</span></span>
 
-Värbamisprojektid haldavad sisu, mida kasutatakse vabade töökohtade reklaamides ja mis võivad aidata teil vabade töökohtade puhul kandideerimisi hallata. Saate kasutada neid töösisestuste vastuste jälgimiseks teatud värbamisprojekti või konkreetsete kandidaatide kohta ja vabade ametikohtade oleku värskendamiseks. Saate palgata ka üksikuid kandidaate või hallata „hulgivärbamise projekte”, mis hõlbustavad mitme töötaja palkamist, nt selleks, et täita hooajalisi ärivajadusi.
+<span data-ttu-id="afd2b-127">Värbamisprojektid haldavad sisu, mida kasutatakse vabade töökohtade reklaamides ja mis võivad aidata teil vabade töökohtade puhul kandideerimisi hallata.</span><span class="sxs-lookup"><span data-stu-id="afd2b-127">Recruitment projects manage the content used in advertisements for open positions, and can help you manage applications for job openings.</span></span> <span data-ttu-id="afd2b-128">Saate kasutada neid töösisestuste vastuste jälgimiseks teatud värbamisprojekti või konkreetsete kandidaatide kohta ja vabade ametikohtade oleku värskendamiseks.</span><span class="sxs-lookup"><span data-stu-id="afd2b-128">You can use them to track responses to job postings for a specific recruitment project, or specific applicants, and update the status of open positions.</span></span> <span data-ttu-id="afd2b-129">Saate palgata ka üksikuid kandidaate või hallata „hulgivärbamise projekte”, mis hõlbustavad mitme töötaja palkamist, nt selleks, et täita hooajalisi ärivajadusi.</span><span class="sxs-lookup"><span data-stu-id="afd2b-129">You can also hire single applicants or manage "mass hire projects," that facilitate hiring multiple workers, for example, to meet seasonal business needs.</span></span>
 
--   [Värbamisprotsessi haldus](/dynamics365/unified-operations/talent/manage-recruiting-process)
--   [Hulgivärbamisprojektid](/dynamics365/unified-operations/talent/mass-hire-projects) 
+-   [<span data-ttu-id="afd2b-130">Värbamisprotsessi haldus</span><span class="sxs-lookup"><span data-stu-id="afd2b-130">Manage a recruiting process</span></span>](/dynamics365/unified-operations/talent/manage-recruiting-process)
+-   [<span data-ttu-id="afd2b-131">Hulgivärbamisprojektid</span><span class="sxs-lookup"><span data-stu-id="afd2b-131">Mass hire projects</span></span>](/dynamics365/unified-operations/talent/mass-hire-projects) 
 
-Kui olete töötajad palganud, saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks, et hallata üksusi nagu arvutid või telefonid, mida teie organisatsioon oma töötajatele laenab. Saate luua põhipalga ja ergutussüsteemi plaane ning määratleda reegleid, mis kehtivad tasuplaanile selle plaani kriteeriumide täitmiseks.
+<span data-ttu-id="afd2b-132">Kui olete töötajad palganud, saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks, et hallata üksusi nagu arvutid või telefonid, mida teie organisatsioon oma töötajatele laenab.</span><span class="sxs-lookup"><span data-stu-id="afd2b-132">After you've hired staff, you can set up plans to effectively and equitably manage compensation, as well as manage items, such as computers or phones, that your organization lends to its employees.</span></span> <span data-ttu-id="afd2b-133">Saate luua põhipalga ja ergutussüsteemi plaane ning määratleda reegleid, mis kehtivad tasuplaanile selle plaani kriteeriumide täitmiseks.</span><span class="sxs-lookup"><span data-stu-id="afd2b-133">You can create fixed and variable compensation plans, as well as define rules that apply the compensation plan to meet the criteria for that plan.</span></span>
 
--   [Hüvitusplaanid](/dynamics365/unified-operations/talent/compensation-plans)
--   [Fikseeritud hüvitusplaanide loomine](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
--   [Ergutussüsteemi plaanide loomine](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+-   [<span data-ttu-id="afd2b-134">Hüvitusplaanid</span><span class="sxs-lookup"><span data-stu-id="afd2b-134">Compensation plans</span></span>](/dynamics365/unified-operations/talent/compensation-plans)
+-   [<span data-ttu-id="afd2b-135">Fikseeritud hüvitusplaanide loomine</span><span class="sxs-lookup"><span data-stu-id="afd2b-135">Create fixed compensation plans</span></span>](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+-   [<span data-ttu-id="afd2b-136">Ergutussüsteemi plaanide loomine</span><span class="sxs-lookup"><span data-stu-id="afd2b-136">Create variable compensation plans</span></span>](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
-## <a name="develop-and-train-employees"></a>Töötajate arendamine ja koolitamine
+## <a name="develop-and-train-employees"></a><span data-ttu-id="afd2b-137">Töötajate arendamine ja koolitamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-137">Develop and train employees</span></span>
 
-Selleks et aidata oma töötajatel jõuda nende karjäärieesmärkideni, täites samas oma tähtsaid äriülesandeid, saate seadistada eesmärke, luua jõudluse ülevaatusi ning jälgida tagasisidet. Selleks et aidata töötajatel arendada vajalikke oskusi, saate enne kursusele juhendaja määramist või kellegi registreerimist kursusele seadistada ka juhendajaid, kursusetüüpe, kursuseid, kursusekirjeldusi, päevakordi, teid ja seansse. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
+<span data-ttu-id="afd2b-138">Selleks et aidata oma töötajatel jõuda nende karjäärieesmärkideni, täites samas oma tähtsaid äriülesandeid, saate seadistada eesmärke, luua jõudluse ülevaatusi ning jälgida tagasisidet. Selleks et aidata töötajatel arendada vajalikke oskusi, saate enne kursusele juhendaja määramist või kellegi registreerimist kursusele seadistada ka juhendajaid, kursusetüüpe, kursuseid, kursusekirjeldusi, päevakordi, teid ja seansse.</span><span class="sxs-lookup"><span data-stu-id="afd2b-138">To help your employees reach their career objectives while delivering critical business needs you can set up goals, create performance reviews and track feedback To help employees develop needed skills, you can also set up instructors, course types, courses, course descriptions, agendas, tracks, and sessions before you assign an instructor to a course, or register someone for a course.</span></span> <span data-ttu-id="afd2b-139">Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.</span><span class="sxs-lookup"><span data-stu-id="afd2b-139">Instructors must already exist as workers, applicants, or contacts.</span></span>
 
--   [Jõudlushaldus](/dynamics365/unified-operations/talent/performance-management-overview)
--   [Töötajate oskuste ja ärivajaduste joondamine](/dynamics365/unified-operations/talent/skills)
--   [Koolituste läbiviimine kursuste kaudu](/dynamics365/unified-operations/talent/courses)
+-   [<span data-ttu-id="afd2b-140">Jõudlushaldus</span><span class="sxs-lookup"><span data-stu-id="afd2b-140">Performance management</span></span>](/dynamics365/unified-operations/talent/performance-management-overview)
+-   [<span data-ttu-id="afd2b-141">Töötajate oskuste ja ärivajaduste joondamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-141">Align workforce skills and business needs</span></span>](/dynamics365/unified-operations/talent/skills)
+-   [<span data-ttu-id="afd2b-142">Koolituste läbiviimine kursuste kaudu</span><span class="sxs-lookup"><span data-stu-id="afd2b-142">Administer training through courses</span></span>](/dynamics365/unified-operations/talent/courses)
 
-## <a name="create-and-maintain-benefits"></a>Soodustuste loomine ja haldamine
+## <a name="create-and-maintain-benefits"></a><span data-ttu-id="afd2b-143">Soodustuste loomine ja haldamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-143">Create and maintain benefits</span></span>
 
-Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodustuste programme, nt tervisekindlustuse ja pensioni plaane. Samuti saate hallata soodustusi, nt laenuprogrammid, mille puhul ettevõte laenab oma töötajatele artikleid, nt arvutid või telefonid.
+<span data-ttu-id="afd2b-144">Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodustuste programme, nt tervisekindlustuse ja pensioni plaane.</span><span class="sxs-lookup"><span data-stu-id="afd2b-144">In addition to compensating your staff with wages, salaries, and bonuses, you can develop benefit programs such as health insurance and retirement plans.</span></span> <span data-ttu-id="afd2b-145">Samuti saate hallata soodustusi, nt laenuprogrammid, mille puhul ettevõte laenab oma töötajatele artikleid, nt arvutid või telefonid.</span><span class="sxs-lookup"><span data-stu-id="afd2b-145">You can also manage benefits such as loan programs, in which your company lends items, such as computers or phones, to its employees.</span></span>
 
--   [Soodustusprogrammi haldamine](/dynamics365/unified-operations/talent/manage-benefit-program)
--   [Soodustuse saamise õiguse eeskirjad](/dynamics365/unified-operations/talent/benefit-eligibility-policies)
--   [Töötajatele laenatud artiklite haldamine](/dynamics365/unified-operations/talent/loan-items)
+-   [<span data-ttu-id="afd2b-146">Soodustusprogrammi haldamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-146">Manage a benefit program</span></span>](/dynamics365/unified-operations/talent/manage-benefit-program)
+-   [<span data-ttu-id="afd2b-147">Soodustuse saamise õiguse eeskirjad</span><span class="sxs-lookup"><span data-stu-id="afd2b-147">Benefit eligibility policies</span></span>](/dynamics365/unified-operations/talent/benefit-eligibility-policies)
+-   [<span data-ttu-id="afd2b-148">Töötajatele laenatud artiklite haldamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-148">Manage items lent to workers</span></span>](/dynamics365/unified-operations/talent/loan-items)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Töökoha ohutuse ja nõuetele vastavuse haldamine
+## <a name="maintain-workplace-safety-and-compliance"></a><span data-ttu-id="afd2b-149">Töökoha ohutuse ja nõuetele vastavuse haldamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-149">Maintain workplace safety and compliance</span></span>
 
-Microsoft Dynamics AX-i abil saate hoida ohutut töökeskkonda, mis järgib kehtivaid seadusi, sh puuetega ameeriklaste seadust ning sisserände ja naturalisatsiooni seadused. Näiteks saate hallata konkreetsete tööde füüsilisi nõudeid ning jälgida majutustaotlusi, mis võivad aidata teie organisatsioonil oma tööjõu oskusi optimeerida.
+<span data-ttu-id="afd2b-150">Microsoft Dynamics AX-i abil saate hoida ohutut töökeskkonda, mis järgib kehtivaid seadusi, sh puuetega ameeriklaste seadust ning sisserände ja naturalisatsiooni seadused.</span><span class="sxs-lookup"><span data-stu-id="afd2b-150">Microsoft Dynamics AX can help you maintain a safe work environment that’s in compliance with applicable laws, including the Americans with Disabilities Act and immigration and naturalization laws, among others.</span></span> <span data-ttu-id="afd2b-151">Näiteks saate hallata konkreetsete tööde füüsilisi nõudeid ning jälgida majutustaotlusi, mis võivad aidata teie organisatsioonil oma tööjõu oskusi optimeerida.</span><span class="sxs-lookup"><span data-stu-id="afd2b-151">For example, you can manage the physical requirements for specific jobs, as well as track requests for accommodations that can help your organization optimize the skills of its workforce.</span></span>
 
--   [Vorm I-9 töökohale sobivuse kontrollimine](localizations/noam-usa-form-i-9-verification.md)
--   [Ameerika võimetusakti järgimine](localizations/noam-usa-comply-ada.md)
--   [FMLA vaba aja jälgimine](localizations/noam-usa-track-time-for-fmla.md)
+-   [<span data-ttu-id="afd2b-152">Vorm I-9 töökohale sobivuse kontrollimine</span><span class="sxs-lookup"><span data-stu-id="afd2b-152">Form I-9 employment verification</span></span>](localizations/noam-usa-form-i-9-verification.md)
+-   [<span data-ttu-id="afd2b-153">Ameerika võimetusakti järgimine</span><span class="sxs-lookup"><span data-stu-id="afd2b-153">Comply with the Americans with Disabilities Act</span></span>](localizations/noam-usa-comply-ada.md)
+-   [<span data-ttu-id="afd2b-154">FMLA vaba aja jälgimine</span><span class="sxs-lookup"><span data-stu-id="afd2b-154">Track time off for FMLA</span></span>](localizations/noam-usa-track-time-for-fmla.md)
 
-## <a name="gather-information-using-questionnaires"></a>Teabe kogumine küsimustike abil
+## <a name="gather-information-using-questionnaires"></a><span data-ttu-id="afd2b-155">Teabe kogumine küsimustike abil</span><span class="sxs-lookup"><span data-stu-id="afd2b-155">Gather information using questionnaires</span></span>
 
-Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmärkidel. Küsimustiku funktsiooni abil saate koostada ja luua küsimustikke. Kui küsimustik on valmis, võite edastada selle täitmiseks laiemalt või konkreetsele vastajate kogumile. Pärast seda, kui vastajad on oma vastused andnud, saate vaadata ja analüüsida tulemusi.
+<span data-ttu-id="afd2b-156">Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmärkidel.</span><span class="sxs-lookup"><span data-stu-id="afd2b-156">You can design and administer questionnaires to gather information that’s used for a variety of purposes.</span></span> <span data-ttu-id="afd2b-157">Küsimustiku funktsiooni abil saate koostada ja luua küsimustikke.</span><span class="sxs-lookup"><span data-stu-id="afd2b-157">The Questionnaire feature lets you design and create questionnaires.</span></span> <span data-ttu-id="afd2b-158">Kui küsimustik on valmis, võite edastada selle täitmiseks laiemalt või konkreetsele vastajate kogumile.</span><span class="sxs-lookup"><span data-stu-id="afd2b-158">When a questionnaire is ready, you distribute it broadly or to a specific set of respondents to complete.</span></span> <span data-ttu-id="afd2b-159">Pärast seda, kui vastajad on oma vastused andnud, saate vaadata ja analüüsida tulemusi.</span><span class="sxs-lookup"><span data-stu-id="afd2b-159">After the respondents provide their answers, you can review and analyze the results.</span></span>
 
--   [Küsimustikud](/dynamics365/unified-operations/talent/questionnaires)
--   [Küsimustiku kujundamine](/dynamics365/unified-operations/talent/design-questionnaires)
--   [Küsimustiku laialisaatmine ja täitmine](/dynamics365/unified-operations/talent/distribute-questionnaires)
--   [Küsimustiku tulemuste vaatamine ja hindamine](/dynamics365/unified-operations/talent/evaluate-questionnaire-results)
+-   [<span data-ttu-id="afd2b-160">Küsimustikud</span><span class="sxs-lookup"><span data-stu-id="afd2b-160">Questionnaires</span></span>](/dynamics365/unified-operations/talent/questionnaires)
+-   [<span data-ttu-id="afd2b-161">Küsimustiku kujundamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-161">Design a questionnaire</span></span>](/dynamics365/unified-operations/talent/design-questionnaires)
+-   [<span data-ttu-id="afd2b-162">Küsimustiku laialisaatmine ja täitmine</span><span class="sxs-lookup"><span data-stu-id="afd2b-162">Distribute and complete a questionnaire</span></span>](/dynamics365/unified-operations/talent/distribute-questionnaires)
+-   [<span data-ttu-id="afd2b-163">Küsimustiku tulemuste vaatamine ja hindamine</span><span class="sxs-lookup"><span data-stu-id="afd2b-163">View and evaluate the results of a questionnaire</span></span>](/dynamics365/unified-operations/talent/evaluate-questionnaire-results)
 
 
 

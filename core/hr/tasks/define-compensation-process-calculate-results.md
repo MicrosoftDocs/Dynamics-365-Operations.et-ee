@@ -16,89 +16,89 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 34a6485c6f4c11d794fbdb5f4d33f22c0e577221
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Hüvitusprotsessi määratlemine ja tulemuste arvutamine
+# <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="7c7e8-103">Hüvitusprotsessi määratlemine ja tulemuste arvutamine</span><span class="sxs-lookup"><span data-stu-id="7c7e8-103">Define compensation process and calculate results</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga ja ergutussüsteemi plaanides registreeritud töötajatele. Tasuprotsessi saab käitada mitu korda, et teha tegurite mõju analüüsi, kontrollimaks, et kõik muudatused ja sätted on õiged. See protseduur loob tasuprotsessi, käitab protsessi ja kuvab tulemused. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+<span data-ttu-id="7c7e8-104">Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga ja ergutussüsteemi plaanides registreeritud töötajatele.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="7c7e8-105">Tasuprotsessi saab käitada mitu korda, et teha tegurite mõju analüüsi, kontrollimaks, et kõik muudatused ja sätted on õiged.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="7c7e8-106">See protseduur loob tasuprotsessi, käitab protsessi ja kuvab tulemused.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="7c7e8-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-compensation-process"></a>Tasuprotsessi loomine
-1. Avage Inimressursid > Tasu > Protsess > Tasuprotsessid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Protsess.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Valige suvand väljal Protsessi tüüp.
-    * Tsükkel määrab tasu määramiseks hinnatava ajavahemiku. Hindamisel arvestatakse, millistel ametikohtadel töötajad olid, milliseid tulemuste hinnanguid kaasata, ajaprotsendi arvutust, mille jooksul töötaja tsükli ajal töötas jne. Tsükli alguskuupäeva näide võib olla eelmise finantsaasta esimene päev.  
-6. Sisestage kuupäev väljale Tsükli algus.
-    * Tsükli lõppkuupäev on oluline, kuna see on kuupäev, mida kasutatakse määramiseks, millised töötajad aktiivselt töötasid ja registreerusid ühes või mitmes tasuplaanis.  
-7. Sisestage kuupäev väljale Tsükli lõpp.
-    * Kande jõustumise kuupäev on kuupäev, millal uued tasumäärad jõustuma peaksid. Paljud ettevõtted lisavad mõned kuud tsükli lõpu ja uute tasumäärade jõustumisaja vahele. Lisaaega kasutatakse uue tasu töötlemiseks ja ülevaatamiseks.  
-8. Sisestage kuupäev väljale Kande aktiivne kuupäev.
-    * Seda ajahetke kuupäeva kasutatakse ergutussüsteemi plaanide puhul, mis määravad töötaja preemiasumma tema tasumäära põhjal sellel ajahetkel.  
-    * Palkamise kuupäevaga proportsionaalset põhipalka kasutatakse põhipalga plaanidega, mille palkamisreegel on protsent.  Töötajad, kes palgatakse tsükli alguse ja palkamise kuupäevaga proportsionaalse põhipalga kuupäeva vahel, saavad proportsionaalse protsendi asemel 100% oma arvestuslikust palgatõusust.  
-9. Sisestage kuupäev väljale Fikseeritud palk proportsionaalselt palkamise kuupäevaga.
-    * Ülevaatamise tähtaeg on kuupäev, milleks kõik protsessi tulemused tuleb üle vaadata, et need saaks laadida töötaja tasukirjesse enne kande jõustumise kuupäeva. See väli on üksnes teavituslik.  
-10. Sisestage lõpukuupäev väljale Ülevaatamise tähtaeg.
-11. Klõpsake nuppu Salvesta.
+## <a name="create-a-compensation-process"></a><span data-ttu-id="7c7e8-108">Tasuprotsessi loomine</span><span class="sxs-lookup"><span data-stu-id="7c7e8-108">Create a compensation process</span></span>
+1. <span data-ttu-id="7c7e8-109">Avage Inimressursid > Tasu > Protsess > Tasuprotsessid.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-109">Go to Human resources > Compensation > Process > Compensation processes.</span></span>
+2. <span data-ttu-id="7c7e8-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-110">Click New.</span></span>
+3. <span data-ttu-id="7c7e8-111">Sisestage väärtus väljale Protsess.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-111">In the Process field, type a value.</span></span>
+4. <span data-ttu-id="7c7e8-112">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="7c7e8-113">Valige suvand väljal Protsessi tüüp.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-113">In the Process type field, select an option.</span></span>
+    * <span data-ttu-id="7c7e8-114">Tsükkel määrab tasu määramiseks hinnatava ajavahemiku.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-114">A cycle specifies the time period evaluated to determine compensation.</span></span> <span data-ttu-id="7c7e8-115">Hindamisel arvestatakse, millistel ametikohtadel töötajad olid, milliseid tulemuste hinnanguid kaasata, ajaprotsendi arvutust, mille jooksul töötaja tsükli ajal töötas jne.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-115">The evaluation considers which positions were held by employees, which performance ratings to include, calculation of the percentage of time the employee was employed during the cycle, and more.</span></span> <span data-ttu-id="7c7e8-116">Tsükli alguskuupäeva näide võib olla eelmise finantsaasta esimene päev.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-116">An example of a cycle start date might be the first day of the past fiscal year.</span></span>  
+6. <span data-ttu-id="7c7e8-117">Sisestage kuupäev väljale Tsükli algus.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-117">In the Cycle start field, enter a date.</span></span>
+    * <span data-ttu-id="7c7e8-118">Tsükli lõppkuupäev on oluline, kuna see on kuupäev, mida kasutatakse määramiseks, millised töötajad aktiivselt töötasid ja registreerusid ühes või mitmes tasuplaanis.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-118">The cycle end date is  important because it is the date used to determine which employees were actively employed and enrolled in one or more compensation plans.</span></span>  
+7. <span data-ttu-id="7c7e8-119">Sisestage kuupäev väljale Tsükli lõpp.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-119">In the Cycle end field, enter a date.</span></span>
+    * <span data-ttu-id="7c7e8-120">Kande jõustumise kuupäev on kuupäev, millal uued tasumäärad jõustuma peaksid.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-120">The transaction active date is the date the new compensation rates should take effect.</span></span> <span data-ttu-id="7c7e8-121">Paljud ettevõtted lisavad mõned kuud tsükli lõpu ja uute tasumäärade jõustumisaja vahele.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-121">Many companies include a few months between their end of a cycle and the time the new compensation rates go into effect.</span></span> <span data-ttu-id="7c7e8-122">Lisaaega kasutatakse uue tasu töötlemiseks ja ülevaatamiseks.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-122">The additional time is used for processing and reviewing the new compensation.</span></span>  
+8. <span data-ttu-id="7c7e8-123">Sisestage kuupäev väljale Kande aktiivne kuupäev.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-123">In the Transaction active date field, enter a date.</span></span>
+    * <span data-ttu-id="7c7e8-124">Seda ajahetke kuupäeva kasutatakse ergutussüsteemi plaanide puhul, mis määravad töötaja preemiasumma tema tasumäära põhjal sellel ajahetkel.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-124">The point-in-time date is used for variable compensation plans that determine an employee's award amount based on their compensation rate at this point in time.</span></span>  
+    * <span data-ttu-id="7c7e8-125">Palkamise kuupäevaga proportsionaalset põhipalka kasutatakse põhipalga plaanidega, mille palkamisreegel on protsent.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-125">The fixed pay pro rated hire date is used with fixed compensation plans with a hire rule of Percent.</span></span>  <span data-ttu-id="7c7e8-126">Töötajad, kes palgatakse tsükli alguse ja palkamise kuupäevaga proportsionaalse põhipalga kuupäeva vahel, saavad proportsionaalse protsendi asemel 100% oma arvestuslikust palgatõusust.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-126">Employees who are hired between the cycle start and the fixed pay pro rated hire date will receive 100% of their calculated compensation increase, instead of pro-rated percentage.</span></span>  
+9. <span data-ttu-id="7c7e8-127">Sisestage kuupäev väljale Fikseeritud palk proportsionaalselt palkamise kuupäevaga.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-127">In the Fixed pay pro rated hire date field, enter a date.</span></span>
+    * <span data-ttu-id="7c7e8-128">Ülevaatamise tähtaeg on kuupäev, milleks kõik protsessi tulemused tuleb üle vaadata, et need saaks laadida töötaja tasukirjesse enne kande jõustumise kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-128">The review deadline is the date by which all process results should be reviewed so that they can be loaded into an employee's compensation record before the transaction active date.</span></span> <span data-ttu-id="7c7e8-129">See väli on üksnes teavituslik.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-129">This field is informational only.</span></span>  
+10. <span data-ttu-id="7c7e8-130">Sisestage lõpukuupäev väljale Ülevaatamise tähtaeg.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-130">In the Review deadline field, enter a date.</span></span>
+11. <span data-ttu-id="7c7e8-131">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-131">Click Save.</span></span>
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Tasuprotsessi tasuplaanide ja toimingute seadistamine
-1. Klõpsake valikut Seadistus.
-    * Seadistamise lehte kasutatakse valimiseks, milliseid plaane selle tasuprotsessi raames töödelda ja milliseid toiminguid iga plaani puhul teha tuleks.  
-2. Valige või sisestage väärtus väljal Plaan.
-3. Klõpsake nuppu Salvesta.
-4. Klõpsake vahekaarti Lisa.
-5. Valige väljal Toiming toimingu tüüp Omakapital.
-6. Klõpsake vahekaarti Lisa.
-7. Valige väljal Toiming toimingu tüüp Teene.
-    * Tasutoimingud saab kokku liita, kasutades välja Kasuta eelmist tulemust näitamiseks, kas valitud toiming peaks kasutama selle toimingu arvutuse lähtepunktina töötajate põhipalka või eelmise toimingu tulemust.  
-8. Tehke väljal Kasuta eelmist tulemust valik Jah.
-9. Klõpsake vahekaarti Lisa.
-10. Valige väljal Toiming toimingu tüüp Üldine.
-    * Erinevad tasutoimingute tüübid aktiveerivad erinevad väljad. Üldise tasutoimingu tüübi puhul saab määrata kasvuprotsendi või kasvusumma.  
-11. Tehke valik Vali kasvu summa.
-12. Sisestage number väljale Kasvu summa.
-13. Klõpsake vahekaarti Lisa.
-14. Valige väljal Toiming toimingu tüüp Edutamine.
-    * Toimingutüübid Edutamine ja Muu taseme muutus võimaldavad kasutajatel töötaja tasu käsitsi kohandada. Nende toimingutüüpide ja muude toimingutüüpide puhul saab lubada soovitusi, et saaksite sisestada töötajale uue soovitusliku tasuväärtuse.  
-15. Klõpsake vahekaarti Lisa.
-16. Valige suvand väljalt Tüüp.
-    * Põhipalga ja ergutussüsteemi plaane saab käitada samas tasuprotsessis.  
-17. Valige või sisestage väärtus väljal Plaan.
-    * Kasutage märkeruutu Luba tulemuspalk määramiseks, kas põhipalga ja ergutussüsteemi summasid tuleks kohandada töötaja tulemusnäitajate alusel.  
-    * Ergutussüsteemi plaanidel saab selle mõju alistada.  
-18. Klõpsake nuppu Salvesta.
-19. Klõpsake vahekaarti Lisa.
-20. Sulgege leht.
+## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a><span data-ttu-id="7c7e8-132">Tasuprotsessi tasuplaanide ja toimingute seadistamine</span><span class="sxs-lookup"><span data-stu-id="7c7e8-132">Setup the compensation plans and actions for a compensation process</span></span>
+1. <span data-ttu-id="7c7e8-133">Klõpsake valikut Seadistus.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-133">Click Setup.</span></span>
+    * <span data-ttu-id="7c7e8-134">Seadistamise lehte kasutatakse valimiseks, milliseid plaane selle tasuprotsessi raames töödelda ja milliseid toiminguid iga plaani puhul teha tuleks.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-134">The Setup page is used to select which plans to process as part of this compensation process, as well as which actions should be taken against each plan.</span></span>  
+2. <span data-ttu-id="7c7e8-135">Valige või sisestage väärtus väljal Plaan.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-135">In the Plan field, enter or select a value.</span></span>
+3. <span data-ttu-id="7c7e8-136">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-136">Click Save.</span></span>
+4. <span data-ttu-id="7c7e8-137">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-137">Click Add.</span></span>
+5. <span data-ttu-id="7c7e8-138">Valige väljal Toiming toimingu tüüp Omakapital.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-138">In the Action field, select an Equity type of action.</span></span>
+6. <span data-ttu-id="7c7e8-139">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-139">Click Add.</span></span>
+7. <span data-ttu-id="7c7e8-140">Valige väljal Toiming toimingu tüüp Teene.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-140">In the Action field, select a Merit type of action.</span></span>
+    * <span data-ttu-id="7c7e8-141">Tasutoimingud saab kokku liita, kasutades välja Kasuta eelmist tulemust näitamiseks, kas valitud toiming peaks kasutama selle toimingu arvutuse lähtepunktina töötajate põhipalka või eelmise toimingu tulemust.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-141">Compensation actions can be "chained" together using the Use previous result field to indicate whether the selected action should use the employees base pay or the result of the previous action as the starting point for this action's calculation.</span></span>  
+8. <span data-ttu-id="7c7e8-142">Tehke väljal Kasuta eelmist tulemust valik Jah.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-142">Select Yes in the Use previous result field.</span></span>
+9. <span data-ttu-id="7c7e8-143">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-143">Click Add.</span></span>
+10. <span data-ttu-id="7c7e8-144">Valige väljal Toiming toimingu tüüp Üldine.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-144">In the Action field, select a General type of Action.</span></span>
+    * <span data-ttu-id="7c7e8-145">Erinevad tasutoimingute tüübid aktiveerivad erinevad väljad.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-145">Different compensation action types enable different fields.</span></span> <span data-ttu-id="7c7e8-146">Üldise tasutoimingu tüübi puhul saab määrata kasvuprotsendi või kasvusumma.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-146">For a General compensation action type, an increase percent or increase amount can be specified.</span></span>  
+11. <span data-ttu-id="7c7e8-147">Tehke valik Vali kasvu summa.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-147">Select the Select increase amount option.</span></span>
+12. <span data-ttu-id="7c7e8-148">Sisestage number väljale Kasvu summa.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-148">In the Increase amount field, enter a number.</span></span>
+13. <span data-ttu-id="7c7e8-149">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-149">Click Add.</span></span>
+14. <span data-ttu-id="7c7e8-150">Valige väljal Toiming toimingu tüüp Edutamine.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-150">In the Action field, select a Promotion type of Action.</span></span>
+    * <span data-ttu-id="7c7e8-151">Toimingutüübid Edutamine ja Muu taseme muutus võimaldavad kasutajatel töötaja tasu käsitsi kohandada.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-151">Promotion and Other level change action types enable users to make manual adjustments to employee compensation.</span></span> <span data-ttu-id="7c7e8-152">Nende toimingutüüpide ja muude toimingutüüpide puhul saab lubada soovitusi, et saaksite sisestada töötajale uue soovitusliku tasuväärtuse.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-152">Recommendations can be enabled for these action types, as well as other action types to enable you to enter a new recommended compensation value for an employee.</span></span>  
+15. <span data-ttu-id="7c7e8-153">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-153">Click Add.</span></span>
+16. <span data-ttu-id="7c7e8-154">Valige suvand väljalt Tüüp.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-154">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="7c7e8-155">Põhipalga ja ergutussüsteemi plaane saab käitada samas tasuprotsessis.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-155">Fixed and variable compensation plans can be run in the same compensation process.</span></span>  
+17. <span data-ttu-id="7c7e8-156">Valige või sisestage väärtus väljal Plaan.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-156">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="7c7e8-157">Kasutage märkeruutu Luba tulemuspalk määramiseks, kas põhipalga ja ergutussüsteemi summasid tuleks kohandada töötaja tulemusnäitajate alusel.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-157">Use the Enable pay for performance check box to determined whether fixed and variable compensation amounts should be adjusted based on the employee's performance rating.</span></span>  
+    * <span data-ttu-id="7c7e8-158">Ergutussüsteemi plaanidel saab selle mõju alistada.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-158">Leverage can be overridden on variable compensation plans.</span></span>  
+18. <span data-ttu-id="7c7e8-159">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-159">Click Save.</span></span>
+19. <span data-ttu-id="7c7e8-160">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-160">Click Add.</span></span>
+20. <span data-ttu-id="7c7e8-161">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-161">Close the page.</span></span>
 
-## <a name="run-the-compensation-process"></a>Tasuprotsessi käitamine
-1. Klõpsake käsku Käivita protsess.
-    * Nupp Töötlemise tulemuste näitamine võimaldab vaadata kogu tasuprotsessi töötlemissõnumeid, kui töötlemine on lõppenud.  
-2. Tehke väljal Töötlemise tulemuste näitamine valik Jah.
-3. Klõpsake nuppu OK.
+## <a name="run-the-compensation-process"></a><span data-ttu-id="7c7e8-162">Tasuprotsessi käitamine</span><span class="sxs-lookup"><span data-stu-id="7c7e8-162">Run the compensation process</span></span>
+1. <span data-ttu-id="7c7e8-163">Klõpsake käsku Käivita protsess.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-163">Click Run process.</span></span>
+    * <span data-ttu-id="7c7e8-164">Nupp Töötlemise tulemuste näitamine võimaldab vaadata kogu tasuprotsessi töötlemissõnumeid, kui töötlemine on lõppenud.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-164">The Show processing results control lets you view processing messages for the complete compensation process when processing has finished.</span></span>  
+2. <span data-ttu-id="7c7e8-165">Tehke väljal Töötlemise tulemuste näitamine valik Jah.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-165">Select Yes in the Show processing results field.</span></span>
+3. <span data-ttu-id="7c7e8-166">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-166">Click OK.</span></span>
 
-## <a name="view-the-results"></a>Tulemuste vaatamine
-1. Klõpsake valikut Protsessi tulemused.
-2. Klõpsake valikut Töötaja tulemused.
-3. Otsige loendist ja valige soovitud kirje.
-4. Laiendage jaotist Põhipalk.
-    * Laiendage protsessi tulemuste vaatamiseks kiirkaarte. Kui tasutegevuse puhul märgiti valik Soovituste lubamine, lubatakse selle toimingu puhul soovituse väljad.  
-5. Otsige loendist ja valige soovitud kirje.
-    * Ühe töötaja tulemused saab kuvada, klõpsates nuppu Tulemuste kuvamine.  
-    * Saate arvutatud tasusumma üle kirjutada, kohandades kasvusumma protsenti väljadel Soovitused.  
-6. Sisestage arv väljale Soovitatav protsent.
-7. Otsige loendist ja valige soovitud kirje.
-8. Sisestage arv väljale Soovitatav protsent.
-    * Ümberarvutamise abil saab eirata olemasoleva kirje muudatusi ja luua valitud töötajale uue tasutulemuse.  
-    * Kui kõik töötaja muudatused on tehtud, määrake olekuks Kinnitatud.  
-9. Klõpsake valikut Muuda olekut.
-10. Klõpsake nuppu Kinnitatud.
-    * Pärast kirje kinnitamist saab selle laadida töötaja ametlikku tasukirjesse. Uus tasu jõustub tasuprotsessis määratud kande kuupäevast.  
+## <a name="view-the-results"></a><span data-ttu-id="7c7e8-167">Tulemuste vaatamine</span><span class="sxs-lookup"><span data-stu-id="7c7e8-167">View the results</span></span>
+1. <span data-ttu-id="7c7e8-168">Klõpsake valikut Protsessi tulemused.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-168">Click Process results.</span></span>
+2. <span data-ttu-id="7c7e8-169">Klõpsake valikut Töötaja tulemused.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-169">Click Employee results.</span></span>
+3. <span data-ttu-id="7c7e8-170">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-170">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="7c7e8-171">Laiendage jaotist Põhipalk.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-171">Expand the Fixed compensation section.</span></span>
+    * <span data-ttu-id="7c7e8-172">Laiendage protsessi tulemuste vaatamiseks kiirkaarte.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-172">Expand the FastTabs to view the results of the process.</span></span> <span data-ttu-id="7c7e8-173">Kui tasutegevuse puhul märgiti valik Soovituste lubamine, lubatakse selle toimingu puhul soovituse väljad.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-173">If Enable recommendations was marked for a compensation action, the Recommendation fields will be enabled for that action.</span></span>  
+5. <span data-ttu-id="7c7e8-174">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-174">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7c7e8-175">Ühe töötaja tulemused saab kuvada, klõpsates nuppu Tulemuste kuvamine.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-175">The results for a single employee can be viewed by clicking the View results button.</span></span>  
+    * <span data-ttu-id="7c7e8-176">Saate arvutatud tasusumma üle kirjutada, kohandades kasvusumma protsenti väljadel Soovitused.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-176">You can overwrite the calculated compensation amount by adjusting the percent or the increase amount in the Recommendation fields.</span></span>  
+6. <span data-ttu-id="7c7e8-177">Sisestage arv väljale Soovitatav protsent.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-177">In the percent recommended field, enter a number.</span></span>
+7. <span data-ttu-id="7c7e8-178">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-178">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="7c7e8-179">Sisestage arv väljale Soovitatav protsent.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-179">In the percent recommended field, enter a number.</span></span>
+    * <span data-ttu-id="7c7e8-180">Ümberarvutamise abil saab eirata olemasoleva kirje muudatusi ja luua valitud töötajale uue tasutulemuse.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-180">Recalculate can be used to ignore any changes made to the existing record and generate a new compensation result for the selected employee.</span></span>  
+    * <span data-ttu-id="7c7e8-181">Kui kõik töötaja muudatused on tehtud, määrake olekuks Kinnitatud.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-181">When all changes are complete for an employee, change the status to Approved.</span></span>  
+9. <span data-ttu-id="7c7e8-182">Klõpsake valikut Muuda olekut.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-182">Click Change status.</span></span>
+10. <span data-ttu-id="7c7e8-183">Klõpsake nuppu Kinnitatud.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-183">Click Approved.</span></span>
+    * <span data-ttu-id="7c7e8-184">Pärast kirje kinnitamist saab selle laadida töötaja ametlikku tasukirjesse.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-184">After the record has been approved it can be loaded to the employee's official compensation record.</span></span> <span data-ttu-id="7c7e8-185">Uus tasu jõustub tasuprotsessis määratud kande kuupäevast.</span><span class="sxs-lookup"><span data-stu-id="7c7e8-185">The new compensation will be effective as of the transaction date set on the compensation process.</span></span>  
 
 

@@ -14,7 +14,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -24,29 +24,29 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="mixed-license-plate-receiving"></a>Kombineeritud litsentsiplaadi vastuvõtmine
+# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="e969f-103">Kombineeritud litsentsiplaadi vastuvõtmine</span><span class="sxs-lookup"><span data-stu-id="e969f-103">Mixed license plate receiving</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Kombineeritud litsentsiplaadi vastuvõtmine võimaldab koostada mitmest kaubast koosneva litsentsiplaadi enne registreerimist ja paigutamistöö loomist. 
+<span data-ttu-id="e969f-104">Kombineeritud litsentsiplaadi vastuvõtmine võimaldab koostada mitmest kaubast koosneva litsentsiplaadi enne registreerimist ja paigutamistöö loomist.</span><span class="sxs-lookup"><span data-stu-id="e969f-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
 
-Mitmest kaubast koosnevat litsentsiplaati pole vaja iga kauba registreerimiseks vastuvõtudokis jagada. 
+<span data-ttu-id="e969f-105">Mitmest kaubast koosnevat litsentsiplaati pole vaja iga kauba registreerimiseks vastuvõtudokis jagada.</span><span class="sxs-lookup"><span data-stu-id="e969f-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
 
-Kaubaga seotud voo kasutamisel lähtedokumendi ridade tuvastamiseks võite skannida kauba juhtelemendil vöötkoodid. Kui vöötkoodile on konfigureeritud kogus ja mõõtühik, siis lisatakse kaup ja kogus automaatselt kombineeritud litsentsiplaadile ja teid suunatakse teise kauba skannimiseks ekraanile tagasi. See võimaldab skannida kiiresti kõiki kaupu, ilma et oleks vaja iga etapi puhul kinnitada. 
+<span data-ttu-id="e969f-106">Kaubaga seotud voo kasutamisel lähtedokumendi ridade tuvastamiseks võite skannida kauba juhtelemendil vöötkoodid.</span><span class="sxs-lookup"><span data-stu-id="e969f-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="e969f-107">Kui vöötkoodile on konfigureeritud kogus ja mõõtühik, siis lisatakse kaup ja kogus automaatselt kombineeritud litsentsiplaadile ja teid suunatakse teise kauba skannimiseks ekraanile tagasi.</span><span class="sxs-lookup"><span data-stu-id="e969f-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="e969f-108">See võimaldab skannida kiiresti kõiki kaupu, ilma et oleks vaja iga etapi puhul kinnitada.</span><span class="sxs-lookup"><span data-stu-id="e969f-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
 
-Kombineeritud litsentsiplaadi vastuvõtuvoos võite kuvada juba litsentsiplaadile skannitud kaupade loendi ja siit saab kauba kogust muuta või parandada.
+<span data-ttu-id="e969f-109">Kombineeritud litsentsiplaadi vastuvõtuvoos võite kuvada juba litsentsiplaadile skannitud kaupade loendi ja siit saab kauba kogust muuta või parandada.</span><span class="sxs-lookup"><span data-stu-id="e969f-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
 
-## <a name="where-it-applies"></a>Kus see kehtib
+## <a name="where-it-applies"></a><span data-ttu-id="e969f-110">Kus see kehtib</span><span class="sxs-lookup"><span data-stu-id="e969f-110">Where it applies</span></span>
 
-Kombineeritud litsentsiplaadi vastuvõtmine on mobiilse seadme vastuvõtuvoog töö registreerimiseks ja loomiseks korraga mitmele reale/kaubale. Sellest on abi, kui võtate vastu mitme kaubaga sissetulevaid litsentsiplaate. 
+<span data-ttu-id="e969f-111">Kombineeritud litsentsiplaadi vastuvõtmine on mobiilse seadme vastuvõtuvoog töö registreerimiseks ja loomiseks korraga mitmele reale/kaubale.</span><span class="sxs-lookup"><span data-stu-id="e969f-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="e969f-112">Sellest on abi, kui võtate vastu mitme kaubaga sissetulevaid litsentsiplaate.</span><span class="sxs-lookup"><span data-stu-id="e969f-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
 
-## <a name="how-to-set-up-mixed-license-plate-receiving"></a>Kombineeritud litsentsiplaadi vastuvõtu seadistamine
-Kombineeritud litsentsiplaadi vastuvõtmine on seadistatud mobiilse seadme menüüelemendina.
+## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="e969f-113">Kombineeritud litsentsiplaadi vastuvõtu seadistamine</span><span class="sxs-lookup"><span data-stu-id="e969f-113">How to set up mixed license plate receiving</span></span>
+<span data-ttu-id="e969f-114">Kombineeritud litsentsiplaadi vastuvõtmine on seadistatud mobiilse seadme menüüelemendina.</span><span class="sxs-lookup"><span data-stu-id="e969f-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
 
-Peate looma uue menüüelemendi sellise töörežiimiga, mis ei kasuta olemasolevat tööd, ja kasutama ühte järgmistest meetoditest.
+<span data-ttu-id="e969f-115">Peate looma uue menüüelemendi sellise töörežiimiga, mis ei kasuta olemasolevat tööd, ja kasutama ühte järgmistest meetoditest.</span><span class="sxs-lookup"><span data-stu-id="e969f-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
 
-- Kombineeritud litsentsiplaadi vastuvõtmine
-- Kombineeritud litsentsiplaadi vastuvõtt ja kõrvaleseadmine
+- <span data-ttu-id="e969f-116">Kombineeritud litsentsiplaadi vastuvõtmine</span><span class="sxs-lookup"><span data-stu-id="e969f-116">Mixed license plate receiving</span></span>
+- <span data-ttu-id="e969f-117">Kombineeritud litsentsiplaadi vastuvõtt ja kõrvaleseadmine</span><span class="sxs-lookup"><span data-stu-id="e969f-117">Mixed license plate receiving and put away</span></span>
 
-Valikud lähtedokumendi ridade tuvastamiseks on ostutellimuse kaup, ostutellimuse rida, tagastustellimus, üleviimistellimuse kaup ja üleviimistellimuse rida. Nende valikutega saab vastuvõetavat tellimust ühel litsentsiplaadil muuta. Viimane valik on koormakauba järgi. Litsentsiplaadile saab lisada mitu kaupa, kuid mitme koorma vahel ei saa liikuda.
+<span data-ttu-id="e969f-118">Valikud lähtedokumendi ridade tuvastamiseks on ostutellimuse kaup, ostutellimuse rida, tagastustellimus, üleviimistellimuse kaup ja üleviimistellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="e969f-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="e969f-119">Nende valikutega saab vastuvõetavat tellimust ühel litsentsiplaadil muuta.</span><span class="sxs-lookup"><span data-stu-id="e969f-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="e969f-120">Viimane valik on koormakauba järgi.</span><span class="sxs-lookup"><span data-stu-id="e969f-120">The last option is by load item.</span></span> <span data-ttu-id="e969f-121">Litsentsiplaadile saab lisada mitu kaupa, kuid mitme koorma vahel ei saa liikuda.</span><span class="sxs-lookup"><span data-stu-id="e969f-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>
 

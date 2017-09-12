@@ -1,4 +1,4 @@
---- 
+---
 title: Kvaliteettellimuste seadistamine
 description: "See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui sissetulevaid varusid tuleb kontrollida kohe pärast saabumise registreerimist."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,130 +17,129 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 0bd8bc73a3cbb42cb7e6d42a07d58c0b02673ba1
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 73981313fc662094ee4f8bb15a88271e16d41193
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="set-up-quality-orders"></a>Kvaliteettellimuste seadistamine
+# <a name="set-up-quality-orders"></a><span data-ttu-id="574f3-103">Kvaliteettellimuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="574f3-103">Set up quality orders</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui sissetulevaid varusid tuleb kontrollida kohe pärast saabumise registreerimist. Protseduuri täidab üldjuhul kvaliteedijuht. Protsess hõlmab kvaliteedigrupi loomist näidise võtmiseks kasutatavate kaupade määratlemiseks ja katsegrupi loomist kvaliteedigrupi kaupade puhul tehtavate katsete grupeerimiseks. Saate seda juhendit käitada demoettevõtte USMF andmetega.
+<span data-ttu-id="574f3-104">See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui sissetulevaid varusid tuleb kontrollida kohe pärast saabumise registreerimist.</span><span class="sxs-lookup"><span data-stu-id="574f3-104">This procedure shows you how to enable a quality management process where incoming inventory must be inspected immediately after arrival registration.</span></span> <span data-ttu-id="574f3-105">Protseduuri täidab üldjuhul kvaliteedijuht.</span><span class="sxs-lookup"><span data-stu-id="574f3-105">The procedure will typically be carried out by a quality manager.</span></span> <span data-ttu-id="574f3-106">Protsess hõlmab kvaliteedigrupi loomist näidise võtmiseks kasutatavate kaupade määratlemiseks ja katsegrupi loomist kvaliteedigrupi kaupade puhul tehtavate katsete grupeerimiseks.</span><span class="sxs-lookup"><span data-stu-id="574f3-106">The process includes the creation of a quality group, to define the items that are going to be sampled, and a test group to group the tests that are to be performed on items in the quality group.</span></span> <span data-ttu-id="574f3-107">Saate seda juhendit käitada demoettevõtte USMF andmetega.</span><span class="sxs-lookup"><span data-stu-id="574f3-107">You can run this guide in the USMF demo data company.</span></span>
 
 
-## <a name="enable-quality-management"></a>Kvaliteedijuhtimise lubamine
-1. Avage Varude haldus > Seadistus > Varude ja lao halduse parameetrid.
-2. Klõpsake vahekaarti Kvaliteedijuhtimine.
-3. Määrake suvandi Kasuta kvaliteedijuhtimist sätteks Jah.
-4. Klõpsake suvandit Aruande seadistus.
-    * USMF-is on kvaliteedijuhtimise aruande seadistus juba määratletud. Kui seda pole tehtud, tuleks lisada siia uued read erinevate aruandetüüpide jaoks ja valida iga aruande jaoks kasutatav dokumenditüüp.  
-5. Sulgege leht.
-6. Sulgege leht.
+## <a name="enable-quality-management"></a><span data-ttu-id="574f3-108">Kvaliteedijuhtimise lubamine</span><span class="sxs-lookup"><span data-stu-id="574f3-108">Enable quality management</span></span>
+1. <span data-ttu-id="574f3-109">Avage Varude haldus > Seadistus > Varude ja lao halduse parameetrid.</span><span class="sxs-lookup"><span data-stu-id="574f3-109">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="574f3-110">Klõpsake vahekaarti Kvaliteedijuhtimine.</span><span class="sxs-lookup"><span data-stu-id="574f3-110">Click the Quality management tab.</span></span>
+3. <span data-ttu-id="574f3-111">Määrake suvandi Kasuta kvaliteedijuhtimist sätteks Jah.</span><span class="sxs-lookup"><span data-stu-id="574f3-111">Set the Use quality management option to Yes.</span></span>
+4. <span data-ttu-id="574f3-112">Klõpsake suvandit Aruande seadistus.</span><span class="sxs-lookup"><span data-stu-id="574f3-112">Click Report setup.</span></span>
+    * <span data-ttu-id="574f3-113">USMF-is on kvaliteedijuhtimise aruande seadistus juba määratletud.</span><span class="sxs-lookup"><span data-stu-id="574f3-113">In USMF, the report setup for quality management is already defined.</span></span> <span data-ttu-id="574f3-114">Kui seda pole tehtud, tuleks lisada siia uued read erinevate aruandetüüpide jaoks ja valida iga aruande jaoks kasutatav dokumenditüüp.</span><span class="sxs-lookup"><span data-stu-id="574f3-114">If this wasn’t done, you’d add new lines here for the different report types, and select the type of document to be used for each report.</span></span>  
+5. <span data-ttu-id="574f3-115">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-115">Close the page.</span></span>
+6. <span data-ttu-id="574f3-116">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-116">Close the page.</span></span>
 
-## <a name="create-a-test"></a>Katse loomine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katsed.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Katse.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Valige väljalt Tüüp valik Suvand.
-    * Selles näites valime valiku Suvand, mis võimaldab määrata katsetulemused eelmääratletud väärtuste alusel.  
-6. Klõpsake nuppu Salvesta.
-7. Sulgege leht.
+## <a name="create-a-test"></a><span data-ttu-id="574f3-117">Katse loomine</span><span class="sxs-lookup"><span data-stu-id="574f3-117">Create a test</span></span>
+1. <span data-ttu-id="574f3-118">Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katsed.</span><span class="sxs-lookup"><span data-stu-id="574f3-118">Go to Inventory management > Setup > Quality control > Tests.</span></span>
+2. <span data-ttu-id="574f3-119">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="574f3-119">Click New.</span></span>
+3. <span data-ttu-id="574f3-120">Sisestage väärtus väljale Katse.</span><span class="sxs-lookup"><span data-stu-id="574f3-120">In the Test field, type a value.</span></span>
+4. <span data-ttu-id="574f3-121">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="574f3-121">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="574f3-122">Valige väljalt Tüüp valik Suvand.</span><span class="sxs-lookup"><span data-stu-id="574f3-122">In the Type field, select 'Option'.</span></span>
+    * <span data-ttu-id="574f3-123">Selles näites valime valiku Suvand, mis võimaldab määrata katsetulemused eelmääratletud väärtuste alusel.</span><span class="sxs-lookup"><span data-stu-id="574f3-123">In this example, we'll select "Option" which will make it possible to assign the test results based on pre-defined values.</span></span>  
+6. <span data-ttu-id="574f3-124">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="574f3-124">Click Save.</span></span>
+7. <span data-ttu-id="574f3-125">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-125">Close the page.</span></span>
 
-## <a name="create-test-variables-to-define-the-way-test-results-are-recorded"></a>Katse muutujate loomine katsetulemuste salvestamise viisi määratlemiseks
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katse muutujad.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Muutuja.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake nuppu Salvesta.
-6. Klõpsake suvandit Tulemused.
-7. Klõpsake valikut Uus.
-8. Sisestage väärtus väljale Tulemus.
-9. Sisestage väljale Kirjeldus soovitud väärtus.
-10. Valige väljalt Tulemuse olek suvand Läbinud.
-11. Klõpsake nuppu Salvesta.
-12. Klõpsake valikut Uus.
-13. Sisestage väärtus väljale Tulemus.
-14. Sisestage väljale Kirjeldus soovitud väärtus.
-15. Klõpsake nuppu Salvesta.
-16. Sulgege leht.
-17. Sulgege leht.
+## <a name="create-test-variables-to-define-the-way-test-results-are-recorded"></a><span data-ttu-id="574f3-126">Katse muutujate loomine katsetulemuste salvestamise viisi määratlemiseks</span><span class="sxs-lookup"><span data-stu-id="574f3-126">Create Test variables to define the way test results are recorded</span></span>
+1. <span data-ttu-id="574f3-127">Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katse muutujad.</span><span class="sxs-lookup"><span data-stu-id="574f3-127">Go to Inventory management > Setup > Quality control > Test variables.</span></span>
+2. <span data-ttu-id="574f3-128">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="574f3-128">Click New.</span></span>
+3. <span data-ttu-id="574f3-129">Sisestage väärtus väljale Muutuja.</span><span class="sxs-lookup"><span data-stu-id="574f3-129">In the Variable field, type a value.</span></span>
+4. <span data-ttu-id="574f3-130">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="574f3-130">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="574f3-131">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="574f3-131">Click Save.</span></span>
+6. <span data-ttu-id="574f3-132">Klõpsake suvandit Tulemused.</span><span class="sxs-lookup"><span data-stu-id="574f3-132">Click Outcomes.</span></span>
+7. <span data-ttu-id="574f3-133">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="574f3-133">Click New.</span></span>
+8. <span data-ttu-id="574f3-134">Sisestage väärtus väljale Tulemus.</span><span class="sxs-lookup"><span data-stu-id="574f3-134">In the Outcome field, type a value.</span></span>
+9. <span data-ttu-id="574f3-135">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="574f3-135">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="574f3-136">Valige väljalt Tulemuse olek suvand Läbinud.</span><span class="sxs-lookup"><span data-stu-id="574f3-136">In the Outcome status field, select 'Pass'.</span></span>
+11. <span data-ttu-id="574f3-137">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="574f3-137">Click Save.</span></span>
+12. <span data-ttu-id="574f3-138">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="574f3-138">Click New.</span></span>
+13. <span data-ttu-id="574f3-139">Sisestage väärtus väljale Tulemus.</span><span class="sxs-lookup"><span data-stu-id="574f3-139">In the Outcome field, type a value.</span></span>
+14. <span data-ttu-id="574f3-140">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="574f3-140">In the Description field, type a value.</span></span>
+15. <span data-ttu-id="574f3-141">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="574f3-141">Click Save.</span></span>
+16. <span data-ttu-id="574f3-142">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-142">Close the page.</span></span>
+17. <span data-ttu-id="574f3-143">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-143">Close the page.</span></span>
 
-## <a name="set-up-item-sampling"></a>Kauba valimi seadistamine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kaubanäidised.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Kauba valim.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Sisestage number väljale Väärtus.
-    * See väärtus on seotud kõrvalväljal valitud koguse spetsifikatsiooniga.  
-6. Laiendage või ahendage jaotist Protsess.
-7. Märkige või tühjendage ruut Täielik blokeerimine.
-    * Selle suvandi valimisel blokeeritakse katse nurjumisel kogu saatepartii või tellimuse rea kogus. Selle mittevalimisel blokeeritakse ainult kvaliteettellimuse kaubad.  
-8. Klõpsake nuppu Salvesta.
-9. Sulgege leht.
+## <a name="set-up-item-sampling"></a><span data-ttu-id="574f3-144">Kauba valimi seadistamine</span><span class="sxs-lookup"><span data-stu-id="574f3-144">Set up item sampling</span></span>
+1. <span data-ttu-id="574f3-145">Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kaubanäidised.</span><span class="sxs-lookup"><span data-stu-id="574f3-145">Go to Inventory management > Setup > Quality control > Item sampling.</span></span>
+2. <span data-ttu-id="574f3-146">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="574f3-146">Click New.</span></span>
+3. <span data-ttu-id="574f3-147">Sisestage väärtus väljale Kauba valim.</span><span class="sxs-lookup"><span data-stu-id="574f3-147">In the Item sampling field, type a value.</span></span>
+4. <span data-ttu-id="574f3-148">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="574f3-148">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="574f3-149">Sisestage number väljale Väärtus.</span><span class="sxs-lookup"><span data-stu-id="574f3-149">In the Value field, enter a number.</span></span>
+    * <span data-ttu-id="574f3-150">See väärtus on seotud kõrvalväljal valitud koguse spetsifikatsiooniga.</span><span class="sxs-lookup"><span data-stu-id="574f3-150">This value relates to the Quantity specification that’s selected in the adjacent field.</span></span>  
+6. <span data-ttu-id="574f3-151">Laiendage või ahendage jaotist Protsess.</span><span class="sxs-lookup"><span data-stu-id="574f3-151">Expand or collapse the Process section.</span></span>
+7. <span data-ttu-id="574f3-152">Märkige või tühjendage ruut Täielik blokeerimine.</span><span class="sxs-lookup"><span data-stu-id="574f3-152">Select or clear the Full blocking check box.</span></span>
+    * <span data-ttu-id="574f3-153">Selle suvandi valimisel blokeeritakse katse nurjumisel kogu saatepartii või tellimuse rea kogus.</span><span class="sxs-lookup"><span data-stu-id="574f3-153">If you select this option, the whole lot or order line quantity is blocked if a test is failed.</span></span> <span data-ttu-id="574f3-154">Selle mittevalimisel blokeeritakse ainult kvaliteettellimuse kaubad.</span><span class="sxs-lookup"><span data-stu-id="574f3-154">If you don't select it, only the items in the quality order are blocked.</span></span>  
+8. <span data-ttu-id="574f3-155">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="574f3-155">Click Save.</span></span>
+9. <span data-ttu-id="574f3-156">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-156">Close the page.</span></span>
 
-## <a name="create-a-quality-group"></a>Kvaliteedigrupi loomine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kvaliteedigrupid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Kvaliteedigrupp.
-    * Kasutage kirjeldavat nime, mis aitab teil tuvastada, millist tüüpi kaupu grupp sisaldab (valimi kriteeriumid).  
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake nuppu Salvesta.
-6. Klõpsake käsku Lisa kaupu.
-7. Kaubakoodi rea valimine
-    * Selles näites käivitatakse filtrimine kaubakoodi põhjal.  
-8. Sisestage väärtus väljale Kriteeriumid.
-    * Näiteks sisestage T* kaubakoodide filtrimiseks, mis algavad T-ga.  
-9. Klõpsake nuppu OK.
-10. Klõpsake nuppu OK.
-11. Klõpsake suvandit Kauba kvaliteedigrupid.
-12. Sulgege leht.
-13. Sulgege leht.
+## <a name="create-a-quality-group"></a><span data-ttu-id="574f3-157">Kvaliteedigrupi loomine</span><span class="sxs-lookup"><span data-stu-id="574f3-157">Create a quality group</span></span>
+1. <span data-ttu-id="574f3-158">Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kvaliteedigrupid.</span><span class="sxs-lookup"><span data-stu-id="574f3-158">Go to Inventory management > Setup > Quality control > Quality groups.</span></span>
+2. <span data-ttu-id="574f3-159">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="574f3-159">Click New.</span></span>
+3. <span data-ttu-id="574f3-160">Sisestage väärtus väljale Kvaliteedigrupp.</span><span class="sxs-lookup"><span data-stu-id="574f3-160">In the Quality group field, type a value.</span></span>
+    * <span data-ttu-id="574f3-161">Kasutage kirjeldavat nime, mis aitab teil tuvastada, millist tüüpi kaupu grupp sisaldab (valimi kriteeriumid).</span><span class="sxs-lookup"><span data-stu-id="574f3-161">Use a descriptive name to help you identify which kind of items the group will contain (your sampling criteria).</span></span>  
+4. <span data-ttu-id="574f3-162">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="574f3-162">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="574f3-163">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="574f3-163">Click Save.</span></span>
+6. <span data-ttu-id="574f3-164">Klõpsake käsku Lisa kaupu.</span><span class="sxs-lookup"><span data-stu-id="574f3-164">Click Add items.</span></span>
+7. <span data-ttu-id="574f3-165">Kaubakoodi rea valimine</span><span class="sxs-lookup"><span data-stu-id="574f3-165">Select the Item number row</span></span>
+    * <span data-ttu-id="574f3-166">Selles näites käivitatakse filtrimine kaubakoodi põhjal.</span><span class="sxs-lookup"><span data-stu-id="574f3-166">In this example the filtering will be run based on  the item number.</span></span>  
+8. <span data-ttu-id="574f3-167">Sisestage väärtus väljale Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="574f3-167">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="574f3-168">Näiteks sisestage T* kaubakoodide filtrimiseks, mis algavad T-ga.</span><span class="sxs-lookup"><span data-stu-id="574f3-168">For example, type T* to filter on the item numbers that start with T.</span></span>  
+9. <span data-ttu-id="574f3-169">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="574f3-169">Click OK.</span></span>
+10. <span data-ttu-id="574f3-170">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="574f3-170">Click OK.</span></span>
+11. <span data-ttu-id="574f3-171">Klõpsake suvandit Kauba kvaliteedigrupid.</span><span class="sxs-lookup"><span data-stu-id="574f3-171">Click Item quality groups.</span></span>
+12. <span data-ttu-id="574f3-172">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-172">Close the page.</span></span>
+13. <span data-ttu-id="574f3-173">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-173">Close the page.</span></span>
 
-## <a name="create-a-test-group"></a>Katsegrupi loomine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katsegrupid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Katsegrupp.
-    * Andke katsegrupile nimi, mis aitab teil meeles pidada, milliseid katseid tehakse ja millise kvaliteedigrupiga peaks need seostatud olema. Näiteks kui seda kasutatakse kvaliteedigrupiga, mis valib T-ga algavaid kaupu, võite selle nimeks panna T-kauba katsed.  
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Valige väljalt Kauba näidised varem loodud kauba näidiste rida.
-6. Otsige loendist ja valige soovitud kirje.
-7. Klõpsake vahekaarti Lisa.
-8. Sisestage number väljale Seerianumber.
-9. Valige väljalt Katse varem loodud katse.
-10. Otsige loendist ja valige soovitud kirje.
-11. Klõpsake vahekaarti Katsetamine.
-12. Valige väljalt Muutuja varem loodud katse muutuja.
-13. Otsige loendist ja valige soovitud kirje.
-14. Klõpsake väljal Vaiketulemus otsingu avamiseks ripploendi nuppu.
-15. Klõpsake loendis valitud real olevat linki.
-16. Klõpsake nuppu Salvesta.
-17. Sulgege leht.
+## <a name="create-a-test-group"></a><span data-ttu-id="574f3-174">Katsegrupi loomine</span><span class="sxs-lookup"><span data-stu-id="574f3-174">Create a test group</span></span>
+1. <span data-ttu-id="574f3-175">Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katsegrupid.</span><span class="sxs-lookup"><span data-stu-id="574f3-175">Go to Inventory management > Setup > Quality control > Test groups.</span></span>
+2. <span data-ttu-id="574f3-176">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="574f3-176">Click New.</span></span>
+3. <span data-ttu-id="574f3-177">Sisestage väärtus väljale Katsegrupp.</span><span class="sxs-lookup"><span data-stu-id="574f3-177">In the Test group field, type a value.</span></span>
+    * <span data-ttu-id="574f3-178">Andke katsegrupile nimi, mis aitab teil meeles pidada, milliseid katseid tehakse ja millise kvaliteedigrupiga peaks need seostatud olema.</span><span class="sxs-lookup"><span data-stu-id="574f3-178">Give the Test group a name that will help you remember what kind of tests are being run, and which quality group it should be associated with.</span></span> <span data-ttu-id="574f3-179">Näiteks kui seda kasutatakse kvaliteedigrupiga, mis valib T-ga algavaid kaupu, võite selle nimeks panna T-kauba katsed.</span><span class="sxs-lookup"><span data-stu-id="574f3-179">For example, it it’s to be used with a quality group that selects items starting with “T”, you could call it “T-item tests”.</span></span>  
+4. <span data-ttu-id="574f3-180">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="574f3-180">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="574f3-181">Valige väljalt Kauba näidised varem loodud kauba näidiste rida.</span><span class="sxs-lookup"><span data-stu-id="574f3-181">In the Item sampling field, select the item sampling line that you created before.</span></span>
+6. <span data-ttu-id="574f3-182">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="574f3-182">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="574f3-183">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="574f3-183">Click Add.</span></span>
+8. <span data-ttu-id="574f3-184">Sisestage number väljale Seerianumber.</span><span class="sxs-lookup"><span data-stu-id="574f3-184">In the Sequence number field, enter a number.</span></span>
+9. <span data-ttu-id="574f3-185">Valige väljalt Katse varem loodud katse.</span><span class="sxs-lookup"><span data-stu-id="574f3-185">In the Test field, select the test that you created earlier.</span></span>
+10. <span data-ttu-id="574f3-186">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="574f3-186">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="574f3-187">Klõpsake vahekaarti Katsetamine.</span><span class="sxs-lookup"><span data-stu-id="574f3-187">Click the Test tab.</span></span>
+12. <span data-ttu-id="574f3-188">Valige väljalt Muutuja varem loodud katse muutuja.</span><span class="sxs-lookup"><span data-stu-id="574f3-188">In the Variable field, select the test variable that you created before</span></span>
+13. <span data-ttu-id="574f3-189">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="574f3-189">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="574f3-190">Klõpsake väljal Vaiketulemus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="574f3-190">In the Default outcome field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="574f3-191">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="574f3-191">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="574f3-192">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="574f3-192">Click Save.</span></span>
+17. <span data-ttu-id="574f3-193">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-193">Close the page.</span></span>
 
-## <a name="define-when-quality-orders-will-be-created"></a>Kvaliteettellimuste loomise aja määratlemine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kvaliteediseosed.
-2. Klõpsake valikut Uus.
-3. Valige suvand väljalt Viite tüüp.
-4. Valige väljalt Kaubakood suvand Grupp.
-    * Selles näites valime suvandi Grupp ja kasutame varem loodud kvaliteedigruppi. Võite selle seada ka valikule Tabel, et määrata kaupu käsitsi, või valida suvandi Kõik kõikide kaupade lisamiseks kvaliteettellimusse.  
-5. Valige väljalt Kaup varem loodud kvaliteedigrupp.
-    * Väljal Kaup saadaolevad suvandid olenevad sellest, mille määrate väljal Kauba kood.  
-6. Otsige loendist ja valige soovitud kirje.
-7. Laiendage või ahendage jaotist Protsess.
-8. Valige suvand väljalt Sündmuse tüüp.
-    * See on katse käivitav sündmus. Siin saadaolevad suvandid olenevad protsessist, mille valisite väljal Viite tüüp.  
-9. Valige suvand väljalt Käivitamine.
-10. Laiendage või ahendage jaotist Kvaliteettellimuse protsess.
-11. Klõpsake väljal Sündmuse blokeerimine otsingu avamiseks ripploendi nuppu.
-    * Sellel väljal kuvatakse protsesside loend, mida on võimalik blokeerida, kui kvaliteettellimus on veel avatud. Suvandid olenevad sellest, mille valisite väljal Sündmuse tüüp.  
-12. Klõpsake loendis valitud real olevat linki.
-    * See oleneb eelmistest valitud väärtustest. Valige, kui blokeerida tuleb järgmised protsessid, kui lähtedokumendi reaga on seotud avatud kvaliteettellimused.  
-13. Laiendage või ahendage jaotist Tehnilised andmed.
-14. Valige väljalt Katsegrupp varem loodud katsegrupp.
-15. Otsige loendist ja valige soovitud kirje.
-16. Klõpsake nuppu Salvesta.
-17. Sulgege leht.
-
+## <a name="define-when-quality-orders-will-be-created"></a><span data-ttu-id="574f3-194">Kvaliteettellimuste loomise aja määratlemine</span><span class="sxs-lookup"><span data-stu-id="574f3-194">Define when quality orders will be created</span></span>
+1. <span data-ttu-id="574f3-195">Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kvaliteediseosed.</span><span class="sxs-lookup"><span data-stu-id="574f3-195">Go to Inventory management > Setup > Quality control > Quality associations.</span></span>
+2. <span data-ttu-id="574f3-196">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="574f3-196">Click New.</span></span>
+3. <span data-ttu-id="574f3-197">Valige suvand väljalt Viite tüüp.</span><span class="sxs-lookup"><span data-stu-id="574f3-197">In the Reference type field, select an option.</span></span>
+4. <span data-ttu-id="574f3-198">Valige väljalt Kaubakood suvand Grupp.</span><span class="sxs-lookup"><span data-stu-id="574f3-198">In the Item code field, select 'Group'.</span></span>
+    * <span data-ttu-id="574f3-199">Selles näites valime suvandi Grupp ja kasutame varem loodud kvaliteedigruppi.</span><span class="sxs-lookup"><span data-stu-id="574f3-199">In this example, we’ll select "Group" and use the quality group we created before.</span></span> <span data-ttu-id="574f3-200">Võite selle seada ka valikule Tabel, et määrata kaupu käsitsi, või valida suvandi Kõik kõikide kaupade lisamiseks kvaliteettellimusse.</span><span class="sxs-lookup"><span data-stu-id="574f3-200">You could also set this to "Table" to specify the items manually, or select "All" to add all items to the quality order.</span></span>  
+5. <span data-ttu-id="574f3-201">Valige väljalt Kaup varem loodud kvaliteedigrupp.</span><span class="sxs-lookup"><span data-stu-id="574f3-201">In the Item field, select the quality group that you created before.</span></span>
+    * <span data-ttu-id="574f3-202">Väljal Kaup saadaolevad suvandid olenevad sellest, mille määrate väljal Kauba kood.</span><span class="sxs-lookup"><span data-stu-id="574f3-202">The options available in the Item field depend on what you set in the Item code field.</span></span>  
+6. <span data-ttu-id="574f3-203">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="574f3-203">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="574f3-204">Laiendage või ahendage jaotist Protsess.</span><span class="sxs-lookup"><span data-stu-id="574f3-204">Expand or collapse the Process section.</span></span>
+8. <span data-ttu-id="574f3-205">Valige suvand väljalt Sündmuse tüüp.</span><span class="sxs-lookup"><span data-stu-id="574f3-205">In the Event type field, select an option.</span></span>
+    * <span data-ttu-id="574f3-206">See on katse käivitav sündmus.</span><span class="sxs-lookup"><span data-stu-id="574f3-206">This is the event that triggers the test.</span></span> <span data-ttu-id="574f3-207">Siin saadaolevad suvandid olenevad protsessist, mille valisite väljal Viite tüüp.</span><span class="sxs-lookup"><span data-stu-id="574f3-207">The options available here depend on which process you selected in the Reference type field.</span></span>  
+9. <span data-ttu-id="574f3-208">Valige suvand väljalt Käivitamine.</span><span class="sxs-lookup"><span data-stu-id="574f3-208">In the Execution field, select an option.</span></span>
+10. <span data-ttu-id="574f3-209">Laiendage või ahendage jaotist Kvaliteettellimuse protsess.</span><span class="sxs-lookup"><span data-stu-id="574f3-209">Expand or collapse the Quality order process section.</span></span>
+11. <span data-ttu-id="574f3-210">Klõpsake väljal Sündmuse blokeerimine otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="574f3-210">In the Event blocking field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="574f3-211">Sellel väljal kuvatakse protsesside loend, mida on võimalik blokeerida, kui kvaliteettellimus on veel avatud.</span><span class="sxs-lookup"><span data-stu-id="574f3-211">This field shows the list of processes that it’s possible to block if the quality order is still open.</span></span> <span data-ttu-id="574f3-212">Suvandid olenevad sellest, mille valisite väljal Sündmuse tüüp.</span><span class="sxs-lookup"><span data-stu-id="574f3-212">The options depend on what you selected in the Event type field.</span></span>  
+12. <span data-ttu-id="574f3-213">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="574f3-213">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="574f3-214">See oleneb eelmistest valitud väärtustest.</span><span class="sxs-lookup"><span data-stu-id="574f3-214">This will be depending on the previous selected values.</span></span> <span data-ttu-id="574f3-215">Valige, kui blokeerida tuleb järgmised protsessid, kui lähtedokumendi reaga on seotud avatud kvaliteettellimused.</span><span class="sxs-lookup"><span data-stu-id="574f3-215">Select if the following processes must be blocked while having open quality orders linked to a source document line.</span></span>  
+13. <span data-ttu-id="574f3-216">Laiendage või ahendage jaotist Tehnilised andmed.</span><span class="sxs-lookup"><span data-stu-id="574f3-216">Expand or collapse the Specifications section.</span></span>
+14. <span data-ttu-id="574f3-217">Valige väljalt Katsegrupp varem loodud katsegrupp.</span><span class="sxs-lookup"><span data-stu-id="574f3-217">In the Test group field, select the test group that you created before.</span></span>
+15. <span data-ttu-id="574f3-218">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="574f3-218">In the list, find and select the desired record.</span></span>
+16. <span data-ttu-id="574f3-219">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="574f3-219">Click Save.</span></span>
+17. <span data-ttu-id="574f3-220">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="574f3-220">Close the page.</span></span>
 

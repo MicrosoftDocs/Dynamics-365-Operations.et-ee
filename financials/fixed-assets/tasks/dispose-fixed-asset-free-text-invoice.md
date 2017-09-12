@@ -16,34 +16,34 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: baf8a55deed8f3a844954f7e7ba31391cc4741c1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Põhivara käibelt kõrvaldamine vabas vormis arve abil
+# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="8791e-103">Põhivara käibelt kõrvaldamine vabas vormis arve abil</span><span class="sxs-lookup"><span data-stu-id="8791e-103">Dispose of a fixed asset using a free text invoice</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas soetada põhivara, kasutades põhivara töölehe soetussoovitust. See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
+<span data-ttu-id="8791e-104">See protseduur näitab, kuidas soetada põhivara, kasutades põhivara töölehe soetussoovitust.</span><span class="sxs-lookup"><span data-stu-id="8791e-104">This procedure shows how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="8791e-105">See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.</span><span class="sxs-lookup"><span data-stu-id="8791e-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
-1. Avage Põhivarad > Töölehe sisestused > Põhivarade tööleht.
-2. Klõpsake valikut Uus.
-3. Sisestage või valige väärtus väljal Nimi.
-4. Klõpsake valikut Read.
-5. Klõpsake suvandit Soovitused.
-6. Klõpsake suvandit Soetussoovitus.
-7. Klõpsake käsku Filtreeri.
-8. Eelmiste väärtuste eemaldamiseks klõpsake nuppu Lähtesta.
-9. Valige rida Põhivara kood.
-10. Sisestage või valige väärtus väljal Kriteeriumid.
-    * Seadistage ülejäänud kriteeriumid põhivarade puhul, mida soovite selle soovitusega soetada.  
-11. Klõpsake nuppu OK.
-12. Klõpsake nuppu OK.
-    * Kontrollige loodud kande ridu.  
-    * Soetussoovitusse kaasatakse ainult põhivarad, mille soetamiskuupäev ja soetusmaksumus on raamatus seadistatud.  
-13. Klõpsake vahekaarti Raamatud.
-14. Klõpsake valikut Sisesta.
+1. <span data-ttu-id="8791e-106">Avage Põhivarad > Töölehe sisestused > Põhivarade tööleht.</span><span class="sxs-lookup"><span data-stu-id="8791e-106">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
+2. <span data-ttu-id="8791e-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="8791e-107">Click New.</span></span>
+3. <span data-ttu-id="8791e-108">Sisestage või valige väärtus väljal Nimi.</span><span class="sxs-lookup"><span data-stu-id="8791e-108">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="8791e-109">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="8791e-109">Click Lines.</span></span>
+5. <span data-ttu-id="8791e-110">Klõpsake suvandit Soovitused.</span><span class="sxs-lookup"><span data-stu-id="8791e-110">Click Proposals.</span></span>
+6. <span data-ttu-id="8791e-111">Klõpsake suvandit Soetussoovitus.</span><span class="sxs-lookup"><span data-stu-id="8791e-111">Click Acquisition proposal.</span></span>
+7. <span data-ttu-id="8791e-112">Klõpsake käsku Filtreeri.</span><span class="sxs-lookup"><span data-stu-id="8791e-112">Click Filter.</span></span>
+8. <span data-ttu-id="8791e-113">Eelmiste väärtuste eemaldamiseks klõpsake nuppu Lähtesta.</span><span class="sxs-lookup"><span data-stu-id="8791e-113">Click Reset to clear out previous values.</span></span>
+9. <span data-ttu-id="8791e-114">Valige rida Põhivara kood.</span><span class="sxs-lookup"><span data-stu-id="8791e-114">Select the Fixed asset number row.</span></span>
+10. <span data-ttu-id="8791e-115">Sisestage või valige väärtus väljal Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="8791e-115">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="8791e-116">Seadistage ülejäänud kriteeriumid põhivarade puhul, mida soovite selle soovitusega soetada.</span><span class="sxs-lookup"><span data-stu-id="8791e-116">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
+11. <span data-ttu-id="8791e-117">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="8791e-117">Click OK.</span></span>
+12. <span data-ttu-id="8791e-118">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="8791e-118">Click OK.</span></span>
+    * <span data-ttu-id="8791e-119">Kontrollige loodud kande ridu.</span><span class="sxs-lookup"><span data-stu-id="8791e-119">Verify the transaction lines created.</span></span>  
+    * <span data-ttu-id="8791e-120">Soetussoovitusse kaasatakse ainult põhivarad, mille soetamiskuupäev ja soetusmaksumus on raamatus seadistatud.</span><span class="sxs-lookup"><span data-stu-id="8791e-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
+13. <span data-ttu-id="8791e-121">Klõpsake vahekaarti Raamatud.</span><span class="sxs-lookup"><span data-stu-id="8791e-121">Click the Books tab.</span></span>
+14. <span data-ttu-id="8791e-122">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="8791e-122">Click Post.</span></span>
 
 

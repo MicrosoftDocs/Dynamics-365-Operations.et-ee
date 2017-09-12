@@ -16,165 +16,165 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c46b222cb12d0432609c47f89afc522e02c41ab6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04817d1f1851e43679995641e8b0ff99edaa83ad
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-format-configuration-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) vormingukonfiguratsiooni loomine
+# <a name="create-a-format-configuration-for-electronic-reporting-er"></a><span data-ttu-id="757f6-103">Elektroonilise aruandluse (ER) vormingukonfiguratsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="757f6-103">Create a format configuration for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad vormindada konfiguratsiooni elektroonilise aruandluse (ER) puhul. See vormingu konfiguratsioon määrab elektrooniliste dokumentide vormingu, mida maksete töötlemisel kasutatakse. Selles näites loote vormingu konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Nende etappide lõpuleviimiseks peate kõigepealt läbima etapid protseduuris Andmemudeli vastendamine valitud andmeallikatega.
+<span data-ttu-id="757f6-104">Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad vormindada konfiguratsiooni elektroonilise aruandluse (ER) puhul.</span><span class="sxs-lookup"><span data-stu-id="757f6-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a format configuration for Electronic reporting (ER).</span></span> <span data-ttu-id="757f6-105">See vormingu konfiguratsioon määrab elektrooniliste dokumentide vormingu, mida maksete töötlemisel kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="757f6-105">This format configuration will define the format of electronic documents that are used for processing payments.</span></span> <span data-ttu-id="757f6-106">Selles näites loote vormingu konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Nende etappide lõpuleviimiseks peate kõigepealt läbima etapid protseduuris Andmemudeli vastendamine valitud andmeallikatega.</span><span class="sxs-lookup"><span data-stu-id="757f6-106">In this example, you will create a format configuration for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Map model to selected datasources” procedure.</span></span>
 
 
-## <a name="create-a-new-format-configuration"></a>Uue vormingu konfiguratsiooni loomine
-1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-2. Klõpsake valikut Aruandluse konfiguratsioonid.
-3. Valige puul suvand Maksed (lihtsustatud mudel).
-4. Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.
-5. Sisestage väljale Uus suvand Andmemudelil PaymentModel põhinev vorming.
-6. Sisestage väljale Nimi suvand BACS (UK fiktiivne).
-    * BACS (UK fiktiivne)  
-7. Sisestage väljale Kirjeldus suvand BACS-i hankija maksevorming (UK fiktiivne).
-    * BACS-i hankija maksevorming (UK fiktiivne)  
-    * Aktiivne konfiguratsiooni pakkuja sisestatakse siia automaatselt. See pakkuja saab seda konfiguratsiooni hallata. Muud pakkujad saavad seda konfiguratsiooni kasutada, kuid ei saa seda hallata.  
-    * Määratleda saab elektroonilise dokumendi kindla vormingu. Jätke see väli tühjaks, kui soovite valida vormingu käitusajal.  
-8. Sisestage või valige väärtus väljal Andmemudeli definitsioon.
-9. Klõpsake Loo konfiguratsioon.
-    * Uus konfiguratsioon on loodud. Mustandversiooni saab kasutada vormingu kujunduse salvestamiseks elektrooniliste dokumentide haldamise puhul.  
+## <a name="create-a-new-format-configuration"></a><span data-ttu-id="757f6-107">Uue vormingu konfiguratsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="757f6-107">Create a new format configuration</span></span>
+1. <span data-ttu-id="757f6-108">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="757f6-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="757f6-109">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="757f6-109">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="757f6-110">Valige puul suvand Maksed (lihtsustatud mudel).</span><span class="sxs-lookup"><span data-stu-id="757f6-110">In the tree, select 'Payments (simplified model)'.</span></span>
+4. <span data-ttu-id="757f6-111">Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="757f6-111">Click Create configuration to open the drop dialog.</span></span>
+5. <span data-ttu-id="757f6-112">Sisestage väljale Uus suvand Andmemudelil PaymentModel põhinev vorming.</span><span class="sxs-lookup"><span data-stu-id="757f6-112">In the New field, enter 'Format based on data model PaymentModel'.</span></span>
+6. <span data-ttu-id="757f6-113">Sisestage väljale Nimi suvand BACS (UK fiktiivne).</span><span class="sxs-lookup"><span data-stu-id="757f6-113">In the Name field, type 'BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="757f6-114">BACS (UK fiktiivne)</span><span class="sxs-lookup"><span data-stu-id="757f6-114">BACS (UK fictitious)</span></span>  
+7. <span data-ttu-id="757f6-115">Sisestage väljale Kirjeldus suvand BACS-i hankija maksevorming (UK fiktiivne).</span><span class="sxs-lookup"><span data-stu-id="757f6-115">In the Description field, type 'BACS vendor payment format (UK fictitious)'.</span></span>
+    * <span data-ttu-id="757f6-116">BACS-i hankija maksevorming (UK fiktiivne)</span><span class="sxs-lookup"><span data-stu-id="757f6-116">BACS vendor payment format (UK fictitious)</span></span>  
+    * <span data-ttu-id="757f6-117">Aktiivne konfiguratsiooni pakkuja sisestatakse siia automaatselt.</span><span class="sxs-lookup"><span data-stu-id="757f6-117">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="757f6-118">See pakkuja saab seda konfiguratsiooni hallata.</span><span class="sxs-lookup"><span data-stu-id="757f6-118">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="757f6-119">Muud pakkujad saavad seda konfiguratsiooni kasutada, kuid ei saa seda hallata.</span><span class="sxs-lookup"><span data-stu-id="757f6-119">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+    * <span data-ttu-id="757f6-120">Määratleda saab elektroonilise dokumendi kindla vormingu.</span><span class="sxs-lookup"><span data-stu-id="757f6-120">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="757f6-121">Jätke see väli tühjaks, kui soovite valida vormingu käitusajal.</span><span class="sxs-lookup"><span data-stu-id="757f6-121">Leave this field blank if you want to select a format at run-time.</span></span>  
+8. <span data-ttu-id="757f6-122">Sisestage või valige väärtus väljal Andmemudeli definitsioon.</span><span class="sxs-lookup"><span data-stu-id="757f6-122">In the Data model definition field, enter or select a value.</span></span>
+9. <span data-ttu-id="757f6-123">Klõpsake Loo konfiguratsioon.</span><span class="sxs-lookup"><span data-stu-id="757f6-123">Click Create configuration.</span></span>
+    * <span data-ttu-id="757f6-124">Uus konfiguratsioon on loodud.</span><span class="sxs-lookup"><span data-stu-id="757f6-124">A new configuration has been created.</span></span> <span data-ttu-id="757f6-125">Mustandversiooni saab kasutada vormingu kujunduse salvestamiseks elektrooniliste dokumentide haldamise puhul.</span><span class="sxs-lookup"><span data-stu-id="757f6-125">The draft version can be used to store the design format for managing electronic documents.</span></span>  
 
-## <a name="design-format-of-electronic-document"></a>Elektroonilise dokumendi vormingu kujundus
-1. Klõpsake valikut Kujundaja.
-2. Klõpsake suvandit Lisa juur rippdialoogi avamiseks.
-3. Valige puul suvand Common\File.
-4. Sisestage väljale Nimi suvand XML.
-    * Xml  
-5. Sisestage väljale Kodeerimine suvand UTF-8.
-    * UTF-8  
-6. Klõpsake nuppu OK.
-7. Klõpsake valikut Lisa rippdialoogi avamiseks.
-8. Valige puul suvand XML\Element.
-9. Sisestage väljale Nimi suvand Teade.
-    * Teade  
-10. Klõpsake nuppu OK.
-11. Puuvaates valige „Xml\Teade”
-12. Klõpsake käsku Lisa element.
-13. Sisestage väljale Nimi suvand ProcessingDate.
-    * ProcessingDate  
-14. Klõpsake nuppu OK.
-15. Klõpsake käsku Lisa element.
-16. Sisestage väljale Nimi suvand MessageId.
-    * MessageId  
-17. Klõpsake nuppu OK.
-18. Klõpsake käsku Lisa element.
-19. Sisestage väljale Nimi suvand Maksed.
-    * Maksed  
-20. Klõpsake nuppu OK.
-21. Puuvaates valige „Xml\Teade\Maksed”.
-22. Klõpsake käsku Lisa element.
-23. Sisestage väljale Nimi suvand Kaup.
-    * Kaup  
-24. Klõpsake nuppu OK.
-25. Puuvaates valige „Xml\Teade\Maksed\Kaup”.
-26. Klõpsake valikut Lisa rippdialoogi avamiseks.
-27. Valige puul suvand XML\Attribute.
-28. Sisestage väljale Nimi suvand Id.
-    * ID  
-29. Klõpsake nuppu OK.
-30. Klõpsake valikut Lisa rippdialoogi avamiseks.
-31. Valige puul suvand XML\Element.
-32. Sisestage väljale Nimi suvand Hankija.
-    * Tarnija  
-33. Klõpsake nuppu OK.
-34. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija”.
-35. Klõpsake käsku Lisa element.
-36. Sisestage väljale Nimi suvand Nimi.
-    * Nimi  
-37. Klõpsake nuppu OK.
-38. Klõpsake käsku Lisa element.
-39. Sisestage väljale Nimi suvand Pank.
-    * Pank  
-40. Klõpsake nuppu OK.
-41. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.
-42. Klõpsake käsku Lisa element.
-43. Sisestage väljale Nimi suvand RoutingNumber.
-    * RoutingNumber  
-44. Klõpsake nuppu OK.
-45. Klõpsake käsku Lisa element.
-46. Sisestage väljale Nimi suvand AccountNumber.
-    * AccountNumber  
-47. Klõpsake nuppu OK.
-48. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija”.
-49. Klõpsake käsku Kopeeri.
-50. Puuvaates valige „Xml\Teade\Maksed\Kaup”.
-51. Klõpsake käsku Kleebi.
-52. Sisestage väljale Nimi suvand Maksja.
-    * Maksja  
-53. Puuvaates valige „Xml\Teade\Maksed\Kaup”.
-54. Klõpsake käsku Lisa element.
-55. Sisestage väljale Nimi suvand Valuuta.
-    * Valuuta  
-56. Klõpsake nuppu OK.
-57. Klõpsake käsku Lisa element.
-58. Sisestage väljale Nimi suvand Kirjeldus.
-    * Kirjeldus  
-59. Klõpsake nuppu OK.
-60. Klõpsake käsku Lisa element.
-61. Sisestage väljale Nimi suvand TransDate.
-    * TransDate  
-62. Klõpsake nuppu OK.
-63. Klõpsake käsku Lisa element.
-64. Sisestage väljale Nimi suvand Summa.
-    * Summa  
-65. Klõpsake nuppu OK.
+## <a name="design-format-of-electronic-document"></a><span data-ttu-id="757f6-126">Elektroonilise dokumendi vormingu kujundus</span><span class="sxs-lookup"><span data-stu-id="757f6-126">Design format of electronic document</span></span>
+1. <span data-ttu-id="757f6-127">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="757f6-127">Click Designer.</span></span>
+2. <span data-ttu-id="757f6-128">Klõpsake suvandit Lisa juur rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="757f6-128">Click Add root to open the drop dialog.</span></span>
+3. <span data-ttu-id="757f6-129">Valige puul suvand Common\File.</span><span class="sxs-lookup"><span data-stu-id="757f6-129">In the tree, select 'Common\File'.</span></span>
+4. <span data-ttu-id="757f6-130">Sisestage väljale Nimi suvand XML.</span><span class="sxs-lookup"><span data-stu-id="757f6-130">In the Name field, type 'Xml'.</span></span>
+    * <span data-ttu-id="757f6-131">Xml</span><span class="sxs-lookup"><span data-stu-id="757f6-131">Xml</span></span>  
+5. <span data-ttu-id="757f6-132">Sisestage väljale Kodeerimine suvand UTF-8.</span><span class="sxs-lookup"><span data-stu-id="757f6-132">In the Encoding field, type 'UTF-8'.</span></span>
+    * <span data-ttu-id="757f6-133">UTF-8</span><span class="sxs-lookup"><span data-stu-id="757f6-133">UTF-8</span></span>  
+6. <span data-ttu-id="757f6-134">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-134">Click OK.</span></span>
+7. <span data-ttu-id="757f6-135">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="757f6-135">Click Add to open the drop dialog.</span></span>
+8. <span data-ttu-id="757f6-136">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="757f6-136">In the tree, select 'XML\Element'.</span></span>
+9. <span data-ttu-id="757f6-137">Sisestage väljale Nimi suvand Teade.</span><span class="sxs-lookup"><span data-stu-id="757f6-137">In the Name field, type 'Message'.</span></span>
+    * <span data-ttu-id="757f6-138">Teade</span><span class="sxs-lookup"><span data-stu-id="757f6-138">Message</span></span>  
+10. <span data-ttu-id="757f6-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-139">Click OK.</span></span>
+11. <span data-ttu-id="757f6-140">Puuvaates valige „Xml\Teade”</span><span class="sxs-lookup"><span data-stu-id="757f6-140">In the tree, select 'Xml\Message'.</span></span>
+12. <span data-ttu-id="757f6-141">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-141">Click Add Element.</span></span>
+13. <span data-ttu-id="757f6-142">Sisestage väljale Nimi suvand ProcessingDate.</span><span class="sxs-lookup"><span data-stu-id="757f6-142">In the Name field, type 'ProcessingDate'.</span></span>
+    * <span data-ttu-id="757f6-143">ProcessingDate</span><span class="sxs-lookup"><span data-stu-id="757f6-143">ProcessingDate</span></span>  
+14. <span data-ttu-id="757f6-144">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-144">Click OK.</span></span>
+15. <span data-ttu-id="757f6-145">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-145">Click Add Element.</span></span>
+16. <span data-ttu-id="757f6-146">Sisestage väljale Nimi suvand MessageId.</span><span class="sxs-lookup"><span data-stu-id="757f6-146">In the Name field, type 'MessageId'.</span></span>
+    * <span data-ttu-id="757f6-147">MessageId</span><span class="sxs-lookup"><span data-stu-id="757f6-147">MessageId</span></span>  
+17. <span data-ttu-id="757f6-148">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-148">Click OK.</span></span>
+18. <span data-ttu-id="757f6-149">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-149">Click Add Element.</span></span>
+19. <span data-ttu-id="757f6-150">Sisestage väljale Nimi suvand Maksed.</span><span class="sxs-lookup"><span data-stu-id="757f6-150">In the Name field, type 'Payments'.</span></span>
+    * <span data-ttu-id="757f6-151">Maksed</span><span class="sxs-lookup"><span data-stu-id="757f6-151">Payments</span></span>  
+20. <span data-ttu-id="757f6-152">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-152">Click OK.</span></span>
+21. <span data-ttu-id="757f6-153">Puuvaates valige „Xml\Teade\Maksed”.</span><span class="sxs-lookup"><span data-stu-id="757f6-153">In the tree, select 'Xml\Message\Payments'.</span></span>
+22. <span data-ttu-id="757f6-154">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-154">Click Add Element.</span></span>
+23. <span data-ttu-id="757f6-155">Sisestage väljale Nimi suvand Kaup.</span><span class="sxs-lookup"><span data-stu-id="757f6-155">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="757f6-156">Kaup</span><span class="sxs-lookup"><span data-stu-id="757f6-156">Item</span></span>  
+24. <span data-ttu-id="757f6-157">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-157">Click OK.</span></span>
+25. <span data-ttu-id="757f6-158">Puuvaates valige „Xml\Teade\Maksed\Kaup”.</span><span class="sxs-lookup"><span data-stu-id="757f6-158">In the tree, select 'Xml\Message\Payments\Item'.</span></span>
+26. <span data-ttu-id="757f6-159">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="757f6-159">Click Add to open the drop dialog.</span></span>
+27. <span data-ttu-id="757f6-160">Valige puul suvand XML\Attribute.</span><span class="sxs-lookup"><span data-stu-id="757f6-160">In the tree, select 'XML\Attribute'.</span></span>
+28. <span data-ttu-id="757f6-161">Sisestage väljale Nimi suvand Id.</span><span class="sxs-lookup"><span data-stu-id="757f6-161">In the Name field, type 'Id'.</span></span>
+    * <span data-ttu-id="757f6-162">ID</span><span class="sxs-lookup"><span data-stu-id="757f6-162">Id</span></span>  
+29. <span data-ttu-id="757f6-163">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-163">Click OK.</span></span>
+30. <span data-ttu-id="757f6-164">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="757f6-164">Click Add to open the drop dialog.</span></span>
+31. <span data-ttu-id="757f6-165">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="757f6-165">In the tree, select 'XML\Element'.</span></span>
+32. <span data-ttu-id="757f6-166">Sisestage väljale Nimi suvand Hankija.</span><span class="sxs-lookup"><span data-stu-id="757f6-166">In the Name field, type 'Vendor'.</span></span>
+    * <span data-ttu-id="757f6-167">Tarnija</span><span class="sxs-lookup"><span data-stu-id="757f6-167">Vendor</span></span>  
+33. <span data-ttu-id="757f6-168">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-168">Click OK.</span></span>
+34. <span data-ttu-id="757f6-169">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija”.</span><span class="sxs-lookup"><span data-stu-id="757f6-169">In the tree, select 'Xml\Message\Payments\Item\Vendor'.</span></span>
+35. <span data-ttu-id="757f6-170">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-170">Click Add Element.</span></span>
+36. <span data-ttu-id="757f6-171">Sisestage väljale Nimi suvand Nimi.</span><span class="sxs-lookup"><span data-stu-id="757f6-171">In the Name field, type 'Name'.</span></span>
+    * <span data-ttu-id="757f6-172">Nimi</span><span class="sxs-lookup"><span data-stu-id="757f6-172">Name</span></span>  
+37. <span data-ttu-id="757f6-173">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-173">Click OK.</span></span>
+38. <span data-ttu-id="757f6-174">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-174">Click Add Element.</span></span>
+39. <span data-ttu-id="757f6-175">Sisestage väljale Nimi suvand Pank.</span><span class="sxs-lookup"><span data-stu-id="757f6-175">In the Name field, type 'Bank'.</span></span>
+    * <span data-ttu-id="757f6-176">Pank</span><span class="sxs-lookup"><span data-stu-id="757f6-176">Bank</span></span>  
+40. <span data-ttu-id="757f6-177">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-177">Click OK.</span></span>
+41. <span data-ttu-id="757f6-178">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.</span><span class="sxs-lookup"><span data-stu-id="757f6-178">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+42. <span data-ttu-id="757f6-179">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-179">Click Add Element.</span></span>
+43. <span data-ttu-id="757f6-180">Sisestage väljale Nimi suvand RoutingNumber.</span><span class="sxs-lookup"><span data-stu-id="757f6-180">In the Name field, type 'RoutingNumber'.</span></span>
+    * <span data-ttu-id="757f6-181">RoutingNumber</span><span class="sxs-lookup"><span data-stu-id="757f6-181">RoutingNumber</span></span>  
+44. <span data-ttu-id="757f6-182">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-182">Click OK.</span></span>
+45. <span data-ttu-id="757f6-183">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-183">Click Add Element.</span></span>
+46. <span data-ttu-id="757f6-184">Sisestage väljale Nimi suvand AccountNumber.</span><span class="sxs-lookup"><span data-stu-id="757f6-184">In the Name field, type 'AccountNumber'.</span></span>
+    * <span data-ttu-id="757f6-185">AccountNumber</span><span class="sxs-lookup"><span data-stu-id="757f6-185">AccountNumber</span></span>  
+47. <span data-ttu-id="757f6-186">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-186">Click OK.</span></span>
+48. <span data-ttu-id="757f6-187">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija”.</span><span class="sxs-lookup"><span data-stu-id="757f6-187">In the tree, select 'Xml\Message\Payments\Item\Vendor'.</span></span>
+49. <span data-ttu-id="757f6-188">Klõpsake käsku Kopeeri.</span><span class="sxs-lookup"><span data-stu-id="757f6-188">Click Copy.</span></span>
+50. <span data-ttu-id="757f6-189">Puuvaates valige „Xml\Teade\Maksed\Kaup”.</span><span class="sxs-lookup"><span data-stu-id="757f6-189">In the tree, select 'Xml\Message\Payments\Item'.</span></span>
+51. <span data-ttu-id="757f6-190">Klõpsake käsku Kleebi.</span><span class="sxs-lookup"><span data-stu-id="757f6-190">Click Paste.</span></span>
+52. <span data-ttu-id="757f6-191">Sisestage väljale Nimi suvand Maksja.</span><span class="sxs-lookup"><span data-stu-id="757f6-191">In the Name field, type 'Payer'.</span></span>
+    * <span data-ttu-id="757f6-192">Maksja</span><span class="sxs-lookup"><span data-stu-id="757f6-192">Payer</span></span>  
+53. <span data-ttu-id="757f6-193">Puuvaates valige „Xml\Teade\Maksed\Kaup”.</span><span class="sxs-lookup"><span data-stu-id="757f6-193">In the tree, select 'Xml\Message\Payments\Item'.</span></span>
+54. <span data-ttu-id="757f6-194">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-194">Click Add Element.</span></span>
+55. <span data-ttu-id="757f6-195">Sisestage väljale Nimi suvand Valuuta.</span><span class="sxs-lookup"><span data-stu-id="757f6-195">In the Name field, type 'Currency'.</span></span>
+    * <span data-ttu-id="757f6-196">Valuuta</span><span class="sxs-lookup"><span data-stu-id="757f6-196">Currency</span></span>  
+56. <span data-ttu-id="757f6-197">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-197">Click OK.</span></span>
+57. <span data-ttu-id="757f6-198">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-198">Click Add Element.</span></span>
+58. <span data-ttu-id="757f6-199">Sisestage väljale Nimi suvand Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="757f6-199">In the Name field, type 'Description'.</span></span>
+    * <span data-ttu-id="757f6-200">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="757f6-200">Description</span></span>  
+59. <span data-ttu-id="757f6-201">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-201">Click OK.</span></span>
+60. <span data-ttu-id="757f6-202">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-202">Click Add Element.</span></span>
+61. <span data-ttu-id="757f6-203">Sisestage väljale Nimi suvand TransDate.</span><span class="sxs-lookup"><span data-stu-id="757f6-203">In the Name field, type 'TransDate'.</span></span>
+    * <span data-ttu-id="757f6-204">TransDate</span><span class="sxs-lookup"><span data-stu-id="757f6-204">TransDate</span></span>  
+62. <span data-ttu-id="757f6-205">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-205">Click OK.</span></span>
+63. <span data-ttu-id="757f6-206">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="757f6-206">Click Add Element.</span></span>
+64. <span data-ttu-id="757f6-207">Sisestage väljale Nimi suvand Summa.</span><span class="sxs-lookup"><span data-stu-id="757f6-207">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="757f6-208">Summa</span><span class="sxs-lookup"><span data-stu-id="757f6-208">Amount</span></span>  
+65. <span data-ttu-id="757f6-209">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-209">Click OK.</span></span>
 
-## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a>Vormingu komponentide ettevalmistamine andmemudeli elementidega vastendamiseks
-1. Puuvaates valige „Xml\Teade\ProcessingDate”.
-2. Klõpsake valikut Lisa rippdialoogi avamiseks.
-3. Puuvaates valige „Tekst\DateTime”.
-4. Sisestage väljale Vorming suvand aaaa-KK-pp.
-    * aaaa-KK-pp  
-5. Klõpsake nuppu OK.
-6. Puuvaates valige „Xml\Teade\Maksed\Kaup\TransDate”
-7. Klõpsake valikut Add DateTime.
-8. Sisestage väljale Vorming suvand aaaa-KK-pp.
-    * aaaa-KK-pp  
-9. Tüübi väljal DateTime valige „Kuupäev”.
-10. Klõpsake nuppu OK.
-11. Puuvaates valige „Xml\Teade\MessageId”
-12. Klõpsake valikut Lisa rippdialoogi avamiseks.
-13. Valige puul suvand Tekst\String.
-14. Klõpsake nuppu OK.
-15. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi”.
-16. Klõpsake käsku Lisa string.
-17. Klõpsake nuppu OK.
-18. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\RoutingNumber”.
-19. Klõpsake käsku Lisa string.
-20. Klõpsake nuppu OK.
-21. Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\AccountNumber”.
-22. Klõpsake käsku Lisa string.
-23. Klõpsake nuppu OK.
-24. Puuvaates valige „Xml\Teade\Maksed\Kaup\Maksed\Nimi”.
-25. Klõpsake käsku Lisa string.
-26. Klõpsake nuppu OK.
-27. Puuvaates valige „Xml\Teade\Maksed\Kaup\Maksja\Pank\RoutingNumber”.
-28. Klõpsake käsku Lisa string.
-29. Klõpsake nuppu OK.
-30. Puuvaates valige „Xml\Teade\Maksed\Kaup\Maksja\Pank\AccountNumber”.
-31. Klõpsake käsku Lisa string.
-32. Klõpsake nuppu OK.
-33. Puuvaates valige „Xml\Teade\Maksed\Kaup\Valuuta”.
-34. Klõpsake käsku Lisa string.
-35. Klõpsake nuppu OK.
-36. Puuvaates valige „Xml\Teade\Maksed\Kaup\Kirjeldus”.
-37. Klõpsake käsku Lisa string.
-38. Klõpsake nuppu OK.
-39. Puuvaates valige „Xml\Teade\Maksed\Kaup\Summa”.
-40. Klõpsake käsku Lisa string.
-41. Klõpsake nuppu OK.
-42. Klõpsake nuppu Salvesta.
-43. Sulgege leht.
+## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a><span data-ttu-id="757f6-210">Vormingu komponentide ettevalmistamine andmemudeli elementidega vastendamiseks</span><span class="sxs-lookup"><span data-stu-id="757f6-210">Prepare format components for mapping to data model elements</span></span>
+1. <span data-ttu-id="757f6-211">Puuvaates valige „Xml\Teade\ProcessingDate”.</span><span class="sxs-lookup"><span data-stu-id="757f6-211">In the tree, select 'Xml\Message\ProcessingDate'.</span></span>
+2. <span data-ttu-id="757f6-212">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="757f6-212">Click Add to open the drop dialog.</span></span>
+3. <span data-ttu-id="757f6-213">Puuvaates valige „Tekst\DateTime”.</span><span class="sxs-lookup"><span data-stu-id="757f6-213">In the tree, select 'Text\DateTime'.</span></span>
+4. <span data-ttu-id="757f6-214">Sisestage väljale Vorming suvand aaaa-KK-pp.</span><span class="sxs-lookup"><span data-stu-id="757f6-214">In the Format field, type 'yyyy-MM-dd'.</span></span>
+    * <span data-ttu-id="757f6-215">aaaa-KK-pp</span><span class="sxs-lookup"><span data-stu-id="757f6-215">yyyy-MM-dd</span></span>  
+5. <span data-ttu-id="757f6-216">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-216">Click OK.</span></span>
+6. <span data-ttu-id="757f6-217">Puuvaates valige „Xml\Teade\Maksed\Kaup\TransDate”</span><span class="sxs-lookup"><span data-stu-id="757f6-217">In the tree, select 'Xml\Message\Payments\Item\TransDate'.</span></span>
+7. <span data-ttu-id="757f6-218">Klõpsake valikut Add DateTime.</span><span class="sxs-lookup"><span data-stu-id="757f6-218">Click Add DateTime.</span></span>
+8. <span data-ttu-id="757f6-219">Sisestage väljale Vorming suvand aaaa-KK-pp.</span><span class="sxs-lookup"><span data-stu-id="757f6-219">In the Format field, type 'yyyy-MM-dd'.</span></span>
+    * <span data-ttu-id="757f6-220">aaaa-KK-pp</span><span class="sxs-lookup"><span data-stu-id="757f6-220">yyyy-MM-dd</span></span>  
+9. <span data-ttu-id="757f6-221">Tüübi väljal DateTime valige „Kuupäev”.</span><span class="sxs-lookup"><span data-stu-id="757f6-221">In the DateTime type field, select 'Date'.</span></span>
+10. <span data-ttu-id="757f6-222">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-222">Click OK.</span></span>
+11. <span data-ttu-id="757f6-223">Puuvaates valige „Xml\Teade\MessageId”</span><span class="sxs-lookup"><span data-stu-id="757f6-223">In the tree, select 'Xml\Message\MessageId'.</span></span>
+12. <span data-ttu-id="757f6-224">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="757f6-224">Click Add to open the drop dialog.</span></span>
+13. <span data-ttu-id="757f6-225">Valige puul suvand Tekst\String.</span><span class="sxs-lookup"><span data-stu-id="757f6-225">In the tree, select 'Text\String'.</span></span>
+14. <span data-ttu-id="757f6-226">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-226">Click OK.</span></span>
+15. <span data-ttu-id="757f6-227">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi”.</span><span class="sxs-lookup"><span data-stu-id="757f6-227">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name'.</span></span>
+16. <span data-ttu-id="757f6-228">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-228">Click Add String.</span></span>
+17. <span data-ttu-id="757f6-229">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-229">Click OK.</span></span>
+18. <span data-ttu-id="757f6-230">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\RoutingNumber”.</span><span class="sxs-lookup"><span data-stu-id="757f6-230">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber'.</span></span>
+19. <span data-ttu-id="757f6-231">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-231">Click Add String.</span></span>
+20. <span data-ttu-id="757f6-232">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-232">Click OK.</span></span>
+21. <span data-ttu-id="757f6-233">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\AccountNumber”.</span><span class="sxs-lookup"><span data-stu-id="757f6-233">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\AccountNumber'.</span></span>
+22. <span data-ttu-id="757f6-234">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-234">Click Add String.</span></span>
+23. <span data-ttu-id="757f6-235">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-235">Click OK.</span></span>
+24. <span data-ttu-id="757f6-236">Puuvaates valige „Xml\Teade\Maksed\Kaup\Maksed\Nimi”.</span><span class="sxs-lookup"><span data-stu-id="757f6-236">In the tree, select 'Xml\Message\Payments\Item\Payer\Name'.</span></span>
+25. <span data-ttu-id="757f6-237">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-237">Click Add String.</span></span>
+26. <span data-ttu-id="757f6-238">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-238">Click OK.</span></span>
+27. <span data-ttu-id="757f6-239">Puuvaates valige „Xml\Teade\Maksed\Kaup\Maksja\Pank\RoutingNumber”.</span><span class="sxs-lookup"><span data-stu-id="757f6-239">In the tree, select 'Xml\Message\Payments\Item\Payer\Bank\RoutingNumber'.</span></span>
+28. <span data-ttu-id="757f6-240">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-240">Click Add String.</span></span>
+29. <span data-ttu-id="757f6-241">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-241">Click OK.</span></span>
+30. <span data-ttu-id="757f6-242">Puuvaates valige „Xml\Teade\Maksed\Kaup\Maksja\Pank\AccountNumber”.</span><span class="sxs-lookup"><span data-stu-id="757f6-242">In the tree, select 'Xml\Message\Payments\Item\Payer\Bank\AccountNumber'.</span></span>
+31. <span data-ttu-id="757f6-243">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-243">Click Add String.</span></span>
+32. <span data-ttu-id="757f6-244">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-244">Click OK.</span></span>
+33. <span data-ttu-id="757f6-245">Puuvaates valige „Xml\Teade\Maksed\Kaup\Valuuta”.</span><span class="sxs-lookup"><span data-stu-id="757f6-245">In the tree, select 'Xml\Message\Payments\Item\Currency'.</span></span>
+34. <span data-ttu-id="757f6-246">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-246">Click Add String.</span></span>
+35. <span data-ttu-id="757f6-247">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-247">Click OK.</span></span>
+36. <span data-ttu-id="757f6-248">Puuvaates valige „Xml\Teade\Maksed\Kaup\Kirjeldus”.</span><span class="sxs-lookup"><span data-stu-id="757f6-248">In the tree, select 'Xml\Message\Payments\Item\Description'.</span></span>
+37. <span data-ttu-id="757f6-249">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-249">Click Add String.</span></span>
+38. <span data-ttu-id="757f6-250">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-250">Click OK.</span></span>
+39. <span data-ttu-id="757f6-251">Puuvaates valige „Xml\Teade\Maksed\Kaup\Summa”.</span><span class="sxs-lookup"><span data-stu-id="757f6-251">In the tree, select 'Xml\Message\Payments\Item\Amount'.</span></span>
+40. <span data-ttu-id="757f6-252">Klõpsake käsku Lisa string.</span><span class="sxs-lookup"><span data-stu-id="757f6-252">Click Add String.</span></span>
+41. <span data-ttu-id="757f6-253">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="757f6-253">Click OK.</span></span>
+42. <span data-ttu-id="757f6-254">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="757f6-254">Click Save.</span></span>
+43. <span data-ttu-id="757f6-255">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="757f6-255">Close the page.</span></span>
 
 

@@ -16,37 +16,37 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a7edb946dbc19ab6734c4b3dc2aafea3c29c91b1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4d7f1093edcfff65fd466fa8138b1bb5203648b3
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Käibemaksugruppide ja kauba käibemaksugruppide seadistamine
+# <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="0c4fc-103">Käibemaksugruppide ja kauba käibemaksugruppide seadistamine</span><span class="sxs-lookup"><span data-stu-id="0c4fc-103">Set up sales tax groups and item sales tax groups</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesande salvestis annab teile ülevaate käibemaksu ja kauba käibemaksugruppide seadistamise kohta. Käibemaksugrupid on käibemaksukoodide grupid, mis on seotud klientide ja hankijatega. Need on seotud ka pearaamatukontodega kannete puhul, mis pole konkreetse hankija või kliendi puhul sisestatud.  Kauba käibemaksugrupid on käibemaksukoodide grupid, mis on seotud ressurssidega, nagu tooted.  Konkreetse kande korral kehtivad käibemaksud määratletakse käibemaksukoodidega, mida sisaldavad nii kande käibemaksugrupp kui ka kauba käibemaksugrupp.  Käibemaksu saab arvutada vaid juhul, kui käibemaksugrupp ja kauba käibemaksugrupp valitakse iga kande puhul, mille puhul tuleb käibemaks arvutada või salvestada.  
+<span data-ttu-id="0c4fc-104">See ülesande salvestis annab teile ülevaate käibemaksu ja kauba käibemaksugruppide seadistamise kohta.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-104">This task recording walks you through the setup of Sales tax and Item sales tax groups.</span></span> <span data-ttu-id="0c4fc-105">Käibemaksugrupid on käibemaksukoodide grupid, mis on seotud klientide ja hankijatega.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-105">Sales tax groups are groups of sales tax codes that are attached to customers and vendors.</span></span> <span data-ttu-id="0c4fc-106">Need on seotud ka pearaamatukontodega kannete puhul, mis pole konkreetse hankija või kliendi puhul sisestatud.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-106">They are also attached to ledger accounts for transactions that are not posted to a particular vendor or customer.</span></span>  <span data-ttu-id="0c4fc-107">Kauba käibemaksugrupid on käibemaksukoodide grupid, mis on seotud ressurssidega, nagu tooted.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-107">Item sales tax groups are groups of sales tax codes that are attached to resources like products.</span></span>  <span data-ttu-id="0c4fc-108">Konkreetse kande korral kehtivad käibemaksud määratletakse käibemaksukoodidega, mida sisaldavad nii kande käibemaksugrupp kui ka kauba käibemaksugrupp.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-108">The sales taxes that apply to a particular transaction are determined by the sales tax codes that are included both in the sales tax group and in the item sales tax group of the transaction.</span></span>  <span data-ttu-id="0c4fc-109">Käibemaksu saab arvutada vaid juhul, kui käibemaksugrupp ja kauba käibemaksugrupp valitakse iga kande puhul, mille puhul tuleb käibemaks arvutada või salvestada.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-109">Sales tax can be calculated only if a sales tax group and an item sales tax group are selected for each transaction for which sales tax must be calculated or recorded.</span></span>  
 
-1. Avage Maks > Kaudsed maksud > Käibemaks > Käibemaksu grupid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Käibemaksugrupp.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Lülitage jaotise Seadistus laiendamist.
-6. Klõpsake vahekaarti Lisa.
-7. Märkige loendis valitud rida.
-8. Klõpsake väljal Käibemaksukood otsingu avamiseks ripploendi nuppu.
-9. Klõpsake loendis valitud real olevat linki.
-10. Klõpsake nuppu Salvesta.
-11. Sulgege leht.
-12. Avage Maks > Kaudsed maksud > Käibemaks > Käibemaksukoodid.
-13. Klõpsake valikut Uus.
-14. Sisestage väärtus väljale Kauba käibemaksugrupp.
-15. Sisestage väljale Kirjeldus soovitud väärtus.
-16. Klõpsake vahekaarti Lisa.
-17. Märkige loendis valitud rida.
-18. Klõpsake väljal Käibemaksukood otsingu avamiseks ripploendi nuppu.
-19. Klõpsake loendis valitud real olevat linki.
-20. Klõpsake nuppu Salvesta.
+1. <span data-ttu-id="0c4fc-110">Avage Maks > Kaudsed maksud > Käibemaks > Käibemaksu grupid.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-110">Go to Tax > Indirect taxes > Sales tax > Sales tax groups.</span></span>
+2. <span data-ttu-id="0c4fc-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-111">Click New.</span></span>
+3. <span data-ttu-id="0c4fc-112">Sisestage väärtus väljale Käibemaksugrupp.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-112">In the Sales tax group field, type a value.</span></span>
+4. <span data-ttu-id="0c4fc-113">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="0c4fc-114">Lülitage jaotise Seadistus laiendamist.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-114">Toggle the expansion of the Setup section.</span></span>
+6. <span data-ttu-id="0c4fc-115">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-115">Click Add.</span></span>
+7. <span data-ttu-id="0c4fc-116">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-116">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="0c4fc-117">Klõpsake väljal Käibemaksukood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-117">In the Sales tax code field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="0c4fc-118">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-118">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="0c4fc-119">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-119">Click Save.</span></span>
+11. <span data-ttu-id="0c4fc-120">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-120">Close the page.</span></span>
+12. <span data-ttu-id="0c4fc-121">Avage Maks > Kaudsed maksud > Käibemaks > Käibemaksukoodid.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-121">Go to Tax > Indirect taxes > Sales tax > Item sales tax groups.</span></span>
+13. <span data-ttu-id="0c4fc-122">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-122">Click New.</span></span>
+14. <span data-ttu-id="0c4fc-123">Sisestage väärtus väljale Kauba käibemaksugrupp.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-123">In the Item sales tax group field, type a value.</span></span>
+15. <span data-ttu-id="0c4fc-124">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-124">In the Description field, type a value.</span></span>
+16. <span data-ttu-id="0c4fc-125">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-125">Click Add.</span></span>
+17. <span data-ttu-id="0c4fc-126">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-126">In the list, mark the selected row.</span></span>
+18. <span data-ttu-id="0c4fc-127">Klõpsake väljal Käibemaksukood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-127">In the Sales tax code field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="0c4fc-128">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-128">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="0c4fc-129">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="0c4fc-129">Click Save.</span></span>
 
 

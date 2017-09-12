@@ -17,52 +17,52 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: eafa45ef371c6b327a31e2c591a723e72d0e8479
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 036bd9f592ca584afad9d4b9b7a49a9787076056
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="copy-a-formula"></a>Valemi kopeerimine
+# <a name="copy-a-formula"></a><span data-ttu-id="dba1d-103">Valemi kopeerimine</span><span class="sxs-lookup"><span data-stu-id="dba1d-103">Copy a formula</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur keskendub valemi loomisele, mis sisaldab samu koostisosi kui olemasolev valem, kuid väikese erinevusega. Valemi ridade loomiseks saate kasutada funktsiooni Kopeeri, et kopeerida olemasolev valem, millel on enamik koostisainetest, mida vajate. Seejärel saate uue versiooni üksikutele ridadele mis tahes vajalikke muudatusi teha. Funktsiooni Kopeeri kasutades ei pea te mitut peaaegu ühesugust valemit looma. Selle ülesande loomiseks kasutati demoettevõtte USP2 andmeid.
+<span data-ttu-id="dba1d-104">See protseduur keskendub valemi loomisele, mis sisaldab samu koostisosi kui olemasolev valem, kuid väikese erinevusega.</span><span class="sxs-lookup"><span data-stu-id="dba1d-104">This procedure focuses on creating a formula that includes the same ingredients as an existing formula, but with minor differences.</span></span> <span data-ttu-id="dba1d-105">Valemi ridade loomiseks saate kasutada funktsiooni Kopeeri, et kopeerida olemasolev valem, millel on enamik koostisainetest, mida vajate.</span><span class="sxs-lookup"><span data-stu-id="dba1d-105">To create the formula lines, you can use the Copy function to copy an existing formula that has most of the ingredients that you need.</span></span> <span data-ttu-id="dba1d-106">Seejärel saate uue versiooni üksikutele ridadele mis tahes vajalikke muudatusi teha.</span><span class="sxs-lookup"><span data-stu-id="dba1d-106">You can then make any necessary changes to the individual lines in the new version.</span></span> <span data-ttu-id="dba1d-107">Funktsiooni Kopeeri kasutades ei pea te mitut peaaegu ühesugust valemit looma.</span><span class="sxs-lookup"><span data-stu-id="dba1d-107">By using the Copy function, you do not have to create multiple formulas that are almost identical.</span></span> <span data-ttu-id="dba1d-108">Selle ülesande loomiseks kasutati demoettevõtte USP2 andmeid.</span><span class="sxs-lookup"><span data-stu-id="dba1d-108">The demo data company used to create this task is USP2.</span></span>
 
 
-## <a name="create-a-formula"></a>Valemi loomine
-1. Avage Tooteteabe haldus > Kooslused ja valemid > Valemid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Valem.
-4. Sisestage väärtus väljale Nimi.
-    * Sisestage valemile tähenduslik nimi.  
-5. Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.
-6. Klõpsake loendis valitud real olevat linki.
-7. Klõpsake väljal Kaubagrupp otsingu avamiseks ripploendi nuppu.
-8. Otsige loendist ja valige soovitud kirje.
-9. Klõpsake loendis valitud real olevat linki.
-10. Klõpsake nuppu Salvesta.
+## <a name="create-a-formula"></a><span data-ttu-id="dba1d-109">Valemi loomine</span><span class="sxs-lookup"><span data-stu-id="dba1d-109">Create a formula</span></span>
+1. <span data-ttu-id="dba1d-110">Avage Tooteteabe haldus > Kooslused ja valemid > Valemid.</span><span class="sxs-lookup"><span data-stu-id="dba1d-110">Go to Product information management > Bills of materials and formulas > Formulas.</span></span>
+2. <span data-ttu-id="dba1d-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="dba1d-111">Click New.</span></span>
+3. <span data-ttu-id="dba1d-112">Sisestage väärtus väljale Valem.</span><span class="sxs-lookup"><span data-stu-id="dba1d-112">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="dba1d-113">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="dba1d-113">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="dba1d-114">Sisestage valemile tähenduslik nimi.</span><span class="sxs-lookup"><span data-stu-id="dba1d-114">Type a meaningful name for the formula.</span></span>  
+5. <span data-ttu-id="dba1d-115">Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="dba1d-115">In the Site field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="dba1d-116">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="dba1d-116">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="dba1d-117">Klõpsake väljal Kaubagrupp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="dba1d-117">In the Item group field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="dba1d-118">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="dba1d-118">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="dba1d-119">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="dba1d-119">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="dba1d-120">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="dba1d-120">Click Save.</span></span>
 
-## <a name="copy-formula-lines"></a>Valemiridade kopeerimine
-1. Klõpsake toimingupaanil suvandit Valem.
-2. Klõpsake käsku Kopeeri.
-3. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-4. Klõpsake loendis valitud real olevat linki.
-5. Klõpsake väljal Valemiversioon otsingu avamiseks ripploendi nuppu.
-6. Klõpsake loendis valitud real olevat linki.
-7. Klõpsake nuppu OK.
+## <a name="copy-formula-lines"></a><span data-ttu-id="dba1d-121">Valemiridade kopeerimine</span><span class="sxs-lookup"><span data-stu-id="dba1d-121">Copy formula lines</span></span>
+1. <span data-ttu-id="dba1d-122">Klõpsake toimingupaanil suvandit Valem.</span><span class="sxs-lookup"><span data-stu-id="dba1d-122">On the Action Pane, click Formula.</span></span>
+2. <span data-ttu-id="dba1d-123">Klõpsake käsku Kopeeri.</span><span class="sxs-lookup"><span data-stu-id="dba1d-123">Click Copy.</span></span>
+3. <span data-ttu-id="dba1d-124">Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="dba1d-124">In the Item number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="dba1d-125">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="dba1d-125">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="dba1d-126">Klõpsake väljal Valemiversioon otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="dba1d-126">In the Formula version field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="dba1d-127">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="dba1d-127">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="dba1d-128">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="dba1d-128">Click OK.</span></span>
 
-## <a name="adjust-copied-formula-lines"></a>Kopeeritud valemiridade korrigeerimine
-1. Märkige loendis valitud rida.
-2. Klõpsake  Kustuta.
-3. Klõpsake nuppu Jah.
+## <a name="adjust-copied-formula-lines"></a><span data-ttu-id="dba1d-129">Kopeeritud valemiridade korrigeerimine</span><span class="sxs-lookup"><span data-stu-id="dba1d-129">Adjust copied formula lines</span></span>
+1. <span data-ttu-id="dba1d-130">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="dba1d-130">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="dba1d-131">Klõpsake  Kustuta.</span><span class="sxs-lookup"><span data-stu-id="dba1d-131">Click Delete.</span></span>
+3. <span data-ttu-id="dba1d-132">Klõpsake nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="dba1d-132">Click Yes.</span></span>
 
-## <a name="approve-formula"></a>Kinnita valem
-1. Klõpsake toimingupaanil suvandit Valem.
-2. Klõpsake suvandit Kinnita valem.
-3. Klõpsake väljal Kinnitaja otsingu avamiseks ripploendi nuppu.
-4. Klõpsake loendis valitud real olevat linki.
-5. Klõpsake Vali.
-6. Klõpsake nuppu OK.
+## <a name="approve-formula"></a><span data-ttu-id="dba1d-133">Kinnita valem</span><span class="sxs-lookup"><span data-stu-id="dba1d-133">Approve formula</span></span>
+1. <span data-ttu-id="dba1d-134">Klõpsake toimingupaanil suvandit Valem.</span><span class="sxs-lookup"><span data-stu-id="dba1d-134">On the Action Pane, click Formula.</span></span>
+2. <span data-ttu-id="dba1d-135">Klõpsake suvandit Kinnita valem.</span><span class="sxs-lookup"><span data-stu-id="dba1d-135">Click Approve formula.</span></span>
+3. <span data-ttu-id="dba1d-136">Klõpsake väljal Kinnitaja otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="dba1d-136">In the Approved by field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="dba1d-137">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="dba1d-137">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="dba1d-138">Klõpsake Vali.</span><span class="sxs-lookup"><span data-stu-id="dba1d-138">Click Select.</span></span>
+6. <span data-ttu-id="dba1d-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="dba1d-139">Click OK.</span></span>
 
 

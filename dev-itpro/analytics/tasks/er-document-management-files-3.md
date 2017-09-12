@@ -16,107 +16,107 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 47c7bea976d1052f537068b6bcf79c78ac3befbf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5548839c4d394d45cfb39da50ca78dab4b4e08e4
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) vormingu loomine dokumendihalduse failide kasutamiseks vormingu väljundites
+# <a name="create-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a><span data-ttu-id="79d21-103">Elektroonilise aruandluse (ER) vormingu loomine dokumendihalduse failide kasutamiseks vormingu väljundites</span><span class="sxs-lookup"><span data-stu-id="79d21-103">Create format to use Document Management files in format outputs for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu dokumendihalduse failide (manuste) kasutamiseks elektroonilise aruandluse väljundis. Neid toiminguid saab teha igas ettevõttes.
+<span data-ttu-id="79d21-104">Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu dokumendihalduse failide (manuste) kasutamiseks elektroonilise aruandluse väljundis.</span><span class="sxs-lookup"><span data-stu-id="79d21-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="79d21-105">Neid toiminguid saab teha igas ettevõttes.</span><span class="sxs-lookup"><span data-stu-id="79d21-105">These steps can be performed in any company.</span></span>
 
-Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektrooniline aruandlus Dokumendihalduse failide kasutamine vormingu väljundites (2. osa: andmemudeli laiendamine).
+<span data-ttu-id="79d21-106">Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektrooniline aruandlus Dokumendihalduse failide kasutamine vormingu väljundites (2. osa: andmemudeli laiendamine).</span><span class="sxs-lookup"><span data-stu-id="79d21-106">To complete these steps, you must first complete the steps in the “ER Use Document Management files in format outputs (Part 2: Extend data model” procedure.</span></span>
 
-See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
+<span data-ttu-id="79d21-107">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="79d21-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-format-to-process-invoices"></a>Vormingu loomine arvete töötlemiseks
-1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-2. Klõpsake valikut Aruandluse konfiguratsioonid.
-3. Laiendage puul valikut Kliendiarve mudel.
-4. Valige puult Kliendiarve mudel \ Kliendiarve mudel (kohandatud).
-    * Saate luua vormi elektrooniliste sõnumite loomiseks teabega mis tahes failide kohta, mis on manustatud müügitellimusele, mis on seotud elektrooniliselt töödeldava arvega.  
-5. Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.
-6. Sisestage väljale Uus valik Vorming põhineb andmemudelil Kliendiarve mudel (kohandatud).
-7. Tippige väljale Nimi tekst Elektroonilise arve näidissõnum.
-    * Elektroonilise arve näidissõnum  
-8. Sisestage või valige väärtus väljal Andmemudeli definitsioon.
-    * InvoiceCustomer  
-9. Klõpsake Loo konfiguratsioon.
+## <a name="create-a-format-to-process-invoices"></a><span data-ttu-id="79d21-108">Vormingu loomine arvete töötlemiseks</span><span class="sxs-lookup"><span data-stu-id="79d21-108">Create a format to process invoices</span></span>
+1. <span data-ttu-id="79d21-109">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="79d21-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="79d21-110">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="79d21-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="79d21-111">Laiendage puul valikut Kliendiarve mudel.</span><span class="sxs-lookup"><span data-stu-id="79d21-111">In the tree, expand 'Customer invoice model'.</span></span>
+4. <span data-ttu-id="79d21-112">Valige puult Kliendiarve mudel \ Kliendiarve mudel (kohandatud).</span><span class="sxs-lookup"><span data-stu-id="79d21-112">In the tree, select 'Customer invoice model\Customer invoice model (custom)'.</span></span>
+    * <span data-ttu-id="79d21-113">Saate luua vormi elektrooniliste sõnumite loomiseks teabega mis tahes failide kohta, mis on manustatud müügitellimusele, mis on seotud elektrooniliselt töödeldava arvega.</span><span class="sxs-lookup"><span data-stu-id="79d21-113">You will create a format to generate electronic messages with information about any files that have been attached to a sales order that is related to an electronically processing invoice.</span></span>  
+5. <span data-ttu-id="79d21-114">Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="79d21-114">Click Create configuration to open the drop dialog.</span></span>
+6. <span data-ttu-id="79d21-115">Sisestage väljale Uus valik Vorming põhineb andmemudelil Kliendiarve mudel (kohandatud).</span><span class="sxs-lookup"><span data-stu-id="79d21-115">In the New field, enter 'Format based on data model Customer invoice model (custom)'.</span></span>
+7. <span data-ttu-id="79d21-116">Tippige väljale Nimi tekst Elektroonilise arve näidissõnum.</span><span class="sxs-lookup"><span data-stu-id="79d21-116">In the Name field, type 'Electronic invoice sample message'.</span></span>
+    * <span data-ttu-id="79d21-117">Elektroonilise arve näidissõnum</span><span class="sxs-lookup"><span data-stu-id="79d21-117">Electronic invoice sample message</span></span>  
+8. <span data-ttu-id="79d21-118">Sisestage või valige väärtus väljal Andmemudeli definitsioon.</span><span class="sxs-lookup"><span data-stu-id="79d21-118">In the Data model definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="79d21-119">InvoiceCustomer</span><span class="sxs-lookup"><span data-stu-id="79d21-119">InvoiceCustomer</span></span>  
+9. <span data-ttu-id="79d21-120">Klõpsake Loo konfiguratsioon.</span><span class="sxs-lookup"><span data-stu-id="79d21-120">Click Create configuration.</span></span>
 
-## <a name="design-a-format-to-populate-attachments-into-generating-a-message-in-mime-format"></a>Kujundage vorming manuste lisamiseks, tekitades MIME-vormingus sõnumi
-1. Klõpsake valikut Kujundaja.
-2. Klõpsake suvandit Lisa juur rippdialoogi avamiseks.
-3. Valige puul suvand XML\Element.
-4. Tippige Arve väljale Nimi.
-    * Arve  
-5. Klõpsake nuppu OK.
-6. Klõpsake valikut Lisa rippdialoogi avamiseks.
-7. Valige puul suvand XML\Attribute.
-8. Tippige SalesOrder väljale Nimi.
-    * SalesOrder  
-9. Klõpsake nuppu OK.
-10. Klõpsake valikut Lisa atribuut.
-11. Tippige InvoiceNumber väljale Nimi.
-    * InvoiceNumber  
-12. Klõpsake nuppu OK.
-13. Klõpsake valikut Lisa atribuut.
-14. Tippige InvoiceAmount väljale Nimi.
-    * InvoiceAmount  
-15. Klõpsake nuppu OK.
-16. Klõpsake valikut Lisa rippdialoogi avamiseks.
-17. Valige puul suvand XML\Element.
-18. Tippige EnclosedDocs väljale Nimi.
-    * EnclosedDocs  
-19. Klõpsake nuppu OK.
-20. Valige puult Arve \ EnclosedDocs.
-21. Klõpsake käsku Lisa element.
-22. Tippige Dokument väljale Nimi.
-    * Dokument   
-23. Klõpsake nuppu OK.
-24. Valige puult Arve \ EnclosedDocs \ Dokument.
-25. Klõpsake valikut Lisa rippdialoogi avamiseks.
-26. Valige puul suvand XML\Attribute.
-27. Tippige FileName väljale Nimi.
-    * FileName  
-28. Klõpsake nuppu OK.
-29. Klõpsake valikut Lisa rippdialoogi avamiseks.
-30. Valige puul suvand XML\Element.
-31. Tippige FileContent väljale Nimi.
-    * FileContent  
-32. Klõpsake nuppu OK.
-33. Valige puult Arve \ EnclosedDocs \ Dokument \ FileContent.
-34. Klõpsake valikut Lisa rippdialoogi avamiseks.
-35. Valige puul väärtus Tekst \ Base64.
-36. Klõpsake nuppu OK.
+## <a name="design-a-format-to-populate-attachments-into-generating-a-message-in-mime-format"></a><span data-ttu-id="79d21-121">Kujundage vorming manuste lisamiseks, tekitades MIME-vormingus sõnumi</span><span class="sxs-lookup"><span data-stu-id="79d21-121">Design a format to populate attachments into generating a message in MIME format</span></span>
+1. <span data-ttu-id="79d21-122">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="79d21-122">Click Designer.</span></span>
+2. <span data-ttu-id="79d21-123">Klõpsake suvandit Lisa juur rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="79d21-123">Click Add root to open the drop dialog.</span></span>
+3. <span data-ttu-id="79d21-124">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="79d21-124">In the tree, select 'XML\Element'.</span></span>
+4. <span data-ttu-id="79d21-125">Tippige Arve väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-125">In the Name field, type 'Invoice'.</span></span>
+    * <span data-ttu-id="79d21-126">Arve</span><span class="sxs-lookup"><span data-stu-id="79d21-126">Invoice</span></span>  
+5. <span data-ttu-id="79d21-127">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-127">Click OK.</span></span>
+6. <span data-ttu-id="79d21-128">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="79d21-128">Click Add to open the drop dialog.</span></span>
+7. <span data-ttu-id="79d21-129">Valige puul suvand XML\Attribute.</span><span class="sxs-lookup"><span data-stu-id="79d21-129">In the tree, select 'XML\Attribute'.</span></span>
+8. <span data-ttu-id="79d21-130">Tippige SalesOrder väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-130">In the Name field, type 'SalesOrder'.</span></span>
+    * <span data-ttu-id="79d21-131">SalesOrder</span><span class="sxs-lookup"><span data-stu-id="79d21-131">SalesOrder</span></span>  
+9. <span data-ttu-id="79d21-132">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-132">Click OK.</span></span>
+10. <span data-ttu-id="79d21-133">Klõpsake valikut Lisa atribuut.</span><span class="sxs-lookup"><span data-stu-id="79d21-133">Click Add Attribute.</span></span>
+11. <span data-ttu-id="79d21-134">Tippige InvoiceNumber väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-134">In the Name field, type 'InvoiceNumber'.</span></span>
+    * <span data-ttu-id="79d21-135">InvoiceNumber</span><span class="sxs-lookup"><span data-stu-id="79d21-135">InvoiceNumber</span></span>  
+12. <span data-ttu-id="79d21-136">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-136">Click OK.</span></span>
+13. <span data-ttu-id="79d21-137">Klõpsake valikut Lisa atribuut.</span><span class="sxs-lookup"><span data-stu-id="79d21-137">Click Add Attribute.</span></span>
+14. <span data-ttu-id="79d21-138">Tippige InvoiceAmount väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-138">In the Name field, type 'InvoiceAmount'.</span></span>
+    * <span data-ttu-id="79d21-139">InvoiceAmount</span><span class="sxs-lookup"><span data-stu-id="79d21-139">InvoiceAmount</span></span>  
+15. <span data-ttu-id="79d21-140">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-140">Click OK.</span></span>
+16. <span data-ttu-id="79d21-141">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="79d21-141">Click Add to open the drop dialog.</span></span>
+17. <span data-ttu-id="79d21-142">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="79d21-142">In the tree, select 'XML\Element'.</span></span>
+18. <span data-ttu-id="79d21-143">Tippige EnclosedDocs väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-143">In the Name field, type 'EnclosedDocs'.</span></span>
+    * <span data-ttu-id="79d21-144">EnclosedDocs</span><span class="sxs-lookup"><span data-stu-id="79d21-144">EnclosedDocs</span></span>  
+19. <span data-ttu-id="79d21-145">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-145">Click OK.</span></span>
+20. <span data-ttu-id="79d21-146">Valige puult Arve \ EnclosedDocs.</span><span class="sxs-lookup"><span data-stu-id="79d21-146">In the tree, select 'Invoice\EnclosedDocs'.</span></span>
+21. <span data-ttu-id="79d21-147">Klõpsake käsku Lisa element.</span><span class="sxs-lookup"><span data-stu-id="79d21-147">Click Add Element.</span></span>
+22. <span data-ttu-id="79d21-148">Tippige Dokument väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-148">In the Name field, type 'Document'.</span></span>
+    * <span data-ttu-id="79d21-149">Dokument </span><span class="sxs-lookup"><span data-stu-id="79d21-149">Document</span></span>  
+23. <span data-ttu-id="79d21-150">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-150">Click OK.</span></span>
+24. <span data-ttu-id="79d21-151">Valige puult Arve \ EnclosedDocs \ Dokument.</span><span class="sxs-lookup"><span data-stu-id="79d21-151">In the tree, select 'Invoice\EnclosedDocs\Document'.</span></span>
+25. <span data-ttu-id="79d21-152">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="79d21-152">Click Add to open the drop dialog.</span></span>
+26. <span data-ttu-id="79d21-153">Valige puul suvand XML\Attribute.</span><span class="sxs-lookup"><span data-stu-id="79d21-153">In the tree, select 'XML\Attribute'.</span></span>
+27. <span data-ttu-id="79d21-154">Tippige FileName väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-154">In the Name field, type 'FileName'.</span></span>
+    * <span data-ttu-id="79d21-155">FileName</span><span class="sxs-lookup"><span data-stu-id="79d21-155">FileName</span></span>  
+28. <span data-ttu-id="79d21-156">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-156">Click OK.</span></span>
+29. <span data-ttu-id="79d21-157">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="79d21-157">Click Add to open the drop dialog.</span></span>
+30. <span data-ttu-id="79d21-158">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="79d21-158">In the tree, select 'XML\Element'.</span></span>
+31. <span data-ttu-id="79d21-159">Tippige FileContent väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-159">In the Name field, type 'FileContent'.</span></span>
+    * <span data-ttu-id="79d21-160">FileContent</span><span class="sxs-lookup"><span data-stu-id="79d21-160">FileContent</span></span>  
+32. <span data-ttu-id="79d21-161">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-161">Click OK.</span></span>
+33. <span data-ttu-id="79d21-162">Valige puult Arve \ EnclosedDocs \ Dokument \ FileContent.</span><span class="sxs-lookup"><span data-stu-id="79d21-162">In the tree, select 'Invoice\EnclosedDocs\Document\FileContent'.</span></span>
+34. <span data-ttu-id="79d21-163">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="79d21-163">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="79d21-164">Valige puul väärtus Tekst \ Base64.</span><span class="sxs-lookup"><span data-stu-id="79d21-164">In the tree, select 'Text\Base64'.</span></span>
+36. <span data-ttu-id="79d21-165">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="79d21-165">Click OK.</span></span>
 
-## <a name="map-format-elements-to-data-model-as-data-source"></a>Vorminguelementide vastendamine andmemudeliga andmeallikana
-1. Valige puult Arve \ SalesOrder.
-2. Klõpsake vahekaarti Vastendus.
-3. Laiendage puus sõlme „model”.
-4. Valige puult mudel \ Müügitellimuse number (SalesId).
-5. Klõpsake valikut Seo.
-6. Valige puult Arve \ InvoiceNumber.
-7. Laiendage puul valikut mudel \ Alusarve (InvoiceBase).
-8. Valige puult mudel \ Alusarve (InvoiceBase) \ Arve number (Id).
-9. Klõpsake valikut Seo.
-10. Valige puult Arve \ InvoiceAmount.
-11. Valige puult mudel \ Alusarve (InvoiceBase) \ Arve summa (summa).
-12. Klõpsake valikut Seo.
-13. Laiendage puul valikut mudel \ Arve manused.
-14. Valige puult mudel \ Arve manused \ Faili sisu.
-15. Valige puult Arve \ EnclosedDocs \ Dokument \ FileContent \Base64.
-16. Klõpsake valikut Seo.
-17. Valige puult mudel \ Arve manused \ Faili nimi.
-18. Valige puult Arve \ EnclosedDocs \ Dokument \ FileName.
-19. Klõpsake valikut Seo.
-20. Valige puult mudel \ Arve manused.
-21. Valige puult Arve \ EnclosedDocs \ Dokument.
-22. Klõpsake valikut Seo.
-23. Klõpsake nuppu Salvesta.
-24. Sulgege leht.
+## <a name="map-format-elements-to-data-model-as-data-source"></a><span data-ttu-id="79d21-166">Vorminguelementide vastendamine andmemudeliga andmeallikana</span><span class="sxs-lookup"><span data-stu-id="79d21-166">Map format elements to data model as data source</span></span>
+1. <span data-ttu-id="79d21-167">Valige puult Arve \ SalesOrder.</span><span class="sxs-lookup"><span data-stu-id="79d21-167">In the tree, select 'Invoice\SalesOrder'.</span></span>
+2. <span data-ttu-id="79d21-168">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="79d21-168">Click the Mapping tab.</span></span>
+3. <span data-ttu-id="79d21-169">Laiendage puus sõlme „model”.</span><span class="sxs-lookup"><span data-stu-id="79d21-169">In the tree, expand 'model'.</span></span>
+4. <span data-ttu-id="79d21-170">Valige puult mudel \ Müügitellimuse number (SalesId).</span><span class="sxs-lookup"><span data-stu-id="79d21-170">In the tree, select 'model\Sales order number(SalesId)'.</span></span>
+5. <span data-ttu-id="79d21-171">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="79d21-171">Click Bind.</span></span>
+6. <span data-ttu-id="79d21-172">Valige puult Arve \ InvoiceNumber.</span><span class="sxs-lookup"><span data-stu-id="79d21-172">In the tree, select 'Invoice\InvoiceNumber'.</span></span>
+7. <span data-ttu-id="79d21-173">Laiendage puul valikut mudel \ Alusarve (InvoiceBase).</span><span class="sxs-lookup"><span data-stu-id="79d21-173">In the tree, expand 'model\Base invoice(InvoiceBase)'.</span></span>
+8. <span data-ttu-id="79d21-174">Valige puult mudel \ Alusarve (InvoiceBase) \ Arve number (Id).</span><span class="sxs-lookup"><span data-stu-id="79d21-174">In the tree, select 'model\Base invoice(InvoiceBase)\Invoice number(Id)'.</span></span>
+9. <span data-ttu-id="79d21-175">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="79d21-175">Click Bind.</span></span>
+10. <span data-ttu-id="79d21-176">Valige puult Arve \ InvoiceAmount.</span><span class="sxs-lookup"><span data-stu-id="79d21-176">In the tree, select 'Invoice\InvoiceAmount'.</span></span>
+11. <span data-ttu-id="79d21-177">Valige puult mudel \ Alusarve (InvoiceBase) \ Arve summa (summa).</span><span class="sxs-lookup"><span data-stu-id="79d21-177">In the tree, select 'model\Base invoice(InvoiceBase)\Invoice amount(Amount)'.</span></span>
+12. <span data-ttu-id="79d21-178">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="79d21-178">Click Bind.</span></span>
+13. <span data-ttu-id="79d21-179">Laiendage puul valikut mudel \ Arve manused.</span><span class="sxs-lookup"><span data-stu-id="79d21-179">In the tree, expand 'model\Invoice attachments'.</span></span>
+14. <span data-ttu-id="79d21-180">Valige puult mudel \ Arve manused \ Faili sisu.</span><span class="sxs-lookup"><span data-stu-id="79d21-180">In the tree, select 'model\Invoice attachments\File content'.</span></span>
+15. <span data-ttu-id="79d21-181">Valige puult Arve \ EnclosedDocs \ Dokument \ FileContent \Base64.</span><span class="sxs-lookup"><span data-stu-id="79d21-181">In the tree, select 'Invoice\EnclosedDocs\Document\FileContent\Base64'.</span></span>
+16. <span data-ttu-id="79d21-182">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="79d21-182">Click Bind.</span></span>
+17. <span data-ttu-id="79d21-183">Valige puult mudel \ Arve manused \ Faili nimi.</span><span class="sxs-lookup"><span data-stu-id="79d21-183">In the tree, select 'model\Invoice attachments\File name'.</span></span>
+18. <span data-ttu-id="79d21-184">Valige puult Arve \ EnclosedDocs \ Dokument \ FileName.</span><span class="sxs-lookup"><span data-stu-id="79d21-184">In the tree, select 'Invoice\EnclosedDocs\Document\FileName'.</span></span>
+19. <span data-ttu-id="79d21-185">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="79d21-185">Click Bind.</span></span>
+20. <span data-ttu-id="79d21-186">Valige puult mudel \ Arve manused.</span><span class="sxs-lookup"><span data-stu-id="79d21-186">In the tree, select 'model\Invoice attachments'.</span></span>
+21. <span data-ttu-id="79d21-187">Valige puult Arve \ EnclosedDocs \ Dokument.</span><span class="sxs-lookup"><span data-stu-id="79d21-187">In the tree, select 'Invoice\EnclosedDocs\Document'.</span></span>
+22. <span data-ttu-id="79d21-188">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="79d21-188">Click Bind.</span></span>
+23. <span data-ttu-id="79d21-189">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="79d21-189">Click Save.</span></span>
+24. <span data-ttu-id="79d21-190">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="79d21-190">Close the page.</span></span>
 
 

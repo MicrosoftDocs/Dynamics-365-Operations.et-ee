@@ -16,7 +16,7 @@ ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
@@ -26,38 +26,38 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Sisestamine tuletatud raamatute kaudu
+# <a name="post-with-derived-books"></a><span data-ttu-id="9996e-103">Sisestamine tuletatud raamatute kaudu</span><span class="sxs-lookup"><span data-stu-id="9996e-103">Post with derived books</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse tuletatud raamatute kasutamist.
+<span data-ttu-id="9996e-104">Selles artiklis kirjeldatakse tuletatud raamatute kasutamist.</span><span class="sxs-lookup"><span data-stu-id="9996e-104">This article describes how to use derived books.</span></span>
 
-Kui sisestate tuletatud raamatuid sisaldava raamatu kandeid, sisestatakse tuletatud raamatu kanded töölehtedele, ostutellimustele või vabas vormis arvetele automaatselt. Kui aga valmistate põhivara töölehele sisestamiseks ette esmase raamatu kandeid, saate enne sisestamist vaadata ja muuta ka tuletatud kannete summasid.
--   Kindlaid kontosid, nagu käibemaksu- või kliendi- ja hankijakontod, värskendatakse esmase raamatu sisestamisel vaid üks kord. Tuletatud raamatu kanded sisestatakse neile kontodele, mis on lehel Põhivara sisestusreeglid tuletatud raamatu jaoks määratletud.
--   Tuletatud raamatute puhul on kande tüüp sageli Soetamine. Kasutage seda varianti, kui see raamat ja tuletatud raamat määratakse põhivarale alates selle soetusest.
--   Kande tüüp võib olla ka muu väärtusega. Näiteks kui esmasel raamatul ja tuletatud raamatul on samad müügi- ja likvideerimisintervallid, saab tuletatud raamatu seadistamisel kasutada kõiki põhivara kandetüüpe.
+<span data-ttu-id="9996e-105">Kui sisestate tuletatud raamatuid sisaldava raamatu kandeid, sisestatakse tuletatud raamatu kanded töölehtedele, ostutellimustele või vabas vormis arvetele automaatselt.</span><span class="sxs-lookup"><span data-stu-id="9996e-105">When you post transactions for a book that contains derived books, the derived book transactions are posted automatically in journals, purchase orders, or free text invoices.</span></span> <span data-ttu-id="9996e-106">Kui aga valmistate põhivara töölehele sisestamiseks ette esmase raamatu kandeid, saate enne sisestamist vaadata ja muuta ka tuletatud kannete summasid.</span><span class="sxs-lookup"><span data-stu-id="9996e-106">However, if you prepare the primary book transactions in the Fixed assets journal, you can view and modify the amounts of the derived transactions before you post them.</span></span>
+-   <span data-ttu-id="9996e-107">Kindlaid kontosid, nagu käibemaksu- või kliendi- ja hankijakontod, värskendatakse esmase raamatu sisestamisel vaid üks kord.</span><span class="sxs-lookup"><span data-stu-id="9996e-107">Certain accounts, such as sales tax and customer or vendor accounts, are updated only once by postings of the primary book.</span></span> <span data-ttu-id="9996e-108">Tuletatud raamatu kanded sisestatakse neile kontodele, mis on lehel Põhivara sisestusreeglid tuletatud raamatu jaoks määratletud.</span><span class="sxs-lookup"><span data-stu-id="9996e-108">The derived book transactions are posted to the accounts that have been defined for the derived book in the Fixed asset posting profiles page.</span></span>
+-   <span data-ttu-id="9996e-109">Tuletatud raamatute puhul on kande tüüp sageli Soetamine.</span><span class="sxs-lookup"><span data-stu-id="9996e-109">Acquisition is often used as the transaction type for the derived books.</span></span> <span data-ttu-id="9996e-110">Kasutage seda varianti, kui see raamat ja tuletatud raamat määratakse põhivarale alates selle soetusest.</span><span class="sxs-lookup"><span data-stu-id="9996e-110">You use this when the book and the derived book should be applied to the fixed asset from the time of the acquisition of the fixed asset.</span></span>
+-   <span data-ttu-id="9996e-111">Kande tüüp võib olla ka muu väärtusega.</span><span class="sxs-lookup"><span data-stu-id="9996e-111">Other values for the transaction type can also apply.</span></span> <span data-ttu-id="9996e-112">Näiteks kui esmasel raamatul ja tuletatud raamatul on samad müügi- ja likvideerimisintervallid, saab tuletatud raamatu seadistamisel kasutada kõiki põhivara kandetüüpe.</span><span class="sxs-lookup"><span data-stu-id="9996e-112">For example, if the primary book and the derived books have the same intervals regarding sale or disposal, all fixed asset transaction types are available for the setup of a derived book.</span></span>
 
 > [!WARNING]
-> Tuletatud raamatusse sisestatava kulumi summa on sama, mis sisestati esmase raamatu puhul. Kui raamatute puhul kasutatakse erinevaid kulumiarvestuse meetodeid, ei tohi kulumikandeid tuletatud protsessi abil luua. |
+> <span data-ttu-id="9996e-113">Tuletatud raamatusse sisestatava kulumi summa on sama, mis sisestati esmase raamatu puhul.</span><span class="sxs-lookup"><span data-stu-id="9996e-113">Depreciation posted in the derived book will be the same amount as was posted for the primary book.</span></span> <span data-ttu-id="9996e-114">Kui raamatute puhul kasutatakse erinevaid kulumiarvestuse meetodeid, ei tohi kulumikandeid tuletatud protsessi abil luua.</span><span class="sxs-lookup"><span data-stu-id="9996e-114">If the depreciation methods are different between the books, you should not generate depreciation transactions using the derived process.</span></span> |
 
-## <a name="example"></a>Näide 
-Järgmine teave kirjeldab, kuidas seadistada tuletatud raamatu funktsiooni abil soetamiskandeid.
+## <a name="example"></a><span data-ttu-id="9996e-115">Näide</span><span class="sxs-lookup"><span data-stu-id="9996e-115">Example</span></span> 
+<span data-ttu-id="9996e-116">Järgmine teave kirjeldab, kuidas seadistada tuletatud raamatu funktsiooni abil soetamiskandeid.</span><span class="sxs-lookup"><span data-stu-id="9996e-116">The following information describes how to set up acquisition transactions with the derived book functionality.</span></span>
 
-1.  Looge raamatud lehel Raamatud.
-    -   Raamatupidamise raamat: VM 1, praegune sisestuskiht
-    -   Maksu raamat: VM 2, maksu sisestuskiht
+1.  <span data-ttu-id="9996e-117">Looge raamatud lehel Raamatud.</span><span class="sxs-lookup"><span data-stu-id="9996e-117">Create the books on the Books page.</span></span>
+    -   <span data-ttu-id="9996e-118">Raamatupidamise raamat: VM 1, praegune sisestuskiht</span><span class="sxs-lookup"><span data-stu-id="9996e-118">The book for accounting: VM 1, Current posting layer</span></span>
+    -   <span data-ttu-id="9996e-119">Maksu raamat: VM 2, maksu sisestuskiht</span><span class="sxs-lookup"><span data-stu-id="9996e-119">The book for tax purposes: VM 2, Tax posting layer</span></span>
 
-2.  Klõpsake jaotises VM 1 vahekaarti Tuletatud raamatud. Valige väljal Raamat suvand VM 2 ja väljal Kande tüüp suvand Soetamine.
+2.  <span data-ttu-id="9996e-120">Klõpsake jaotises VM 1 vahekaarti Tuletatud raamatud.</span><span class="sxs-lookup"><span data-stu-id="9996e-120">On VM 1, click the Derived books tab.</span></span> <span data-ttu-id="9996e-121">Valige väljal Raamat suvand VM 2 ja väljal Kande tüüp suvand Soetamine.</span><span class="sxs-lookup"><span data-stu-id="9996e-121">Select VM 2 in the Book field, and Acquisition in the Transaction type field.</span></span>
 
-Seejärel saab raamatud kindlate põhivaradega siduda. 
+<span data-ttu-id="9996e-122">Seejärel saab raamatud kindlate põhivaradega siduda.</span><span class="sxs-lookup"><span data-stu-id="9996e-122">The books then can be attached to specific fixed assets.</span></span> 
 
-Raamatuga VM 1 põhivara soetamise sisestamisel sisestatakse see mitte ainult raamatusse VM 1, vaid ka tuletatud raamatusse VM 2. Mõlema põhivara raamatu olekuks muutub Avatud.
+<span data-ttu-id="9996e-123">Raamatuga VM 1 põhivara soetamise sisestamisel sisestatakse see mitte ainult raamatusse VM 1, vaid ka tuletatud raamatusse VM 2.</span><span class="sxs-lookup"><span data-stu-id="9996e-123">When an acquisition is posted for a fixed asset with book VM 1, the acquisition is posted not only on VM 1, but also on the derived book VM 2.</span></span> <span data-ttu-id="9996e-124">Mõlema põhivara raamatu olekuks muutub Avatud.</span><span class="sxs-lookup"><span data-stu-id="9996e-124">The status of both fixed asset books is updated to Open.</span></span>
 
 > [!NOTE]                                                                                                         
-> Kui te tuletatud raamatuid ei kasuta, tuleb teil soetamine sisestada nii raamatu VM 1 kui raamatu VM 2 kohta.
+> <span data-ttu-id="9996e-125">Kui te tuletatud raamatuid ei kasuta, tuleb teil soetamine sisestada nii raamatu VM 1 kui raamatu VM 2 kohta.</span><span class="sxs-lookup"><span data-stu-id="9996e-125">If you do not use derived books, you must post the acquisition of the fixed asset both for book VM 1 and book VM 2.</span></span>
 
-Lisateavet vt teemast [Tuletatud raamatud](derived-books.md)
+<span data-ttu-id="9996e-126">Lisateavet vt teemast [Tuletatud raamatud](derived-books.md)</span><span class="sxs-lookup"><span data-stu-id="9996e-126">For more information, see [Derived books](derived-books.md)</span></span>
 
 
 

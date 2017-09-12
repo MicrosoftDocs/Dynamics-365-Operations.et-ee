@@ -16,7 +16,7 @@ ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: b2b1b99fd4c7c439ad89440827ad78173d371855
@@ -26,242 +26,242 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="distribute-and-complete-a-questionnaire"></a>Küsimustiku laialisaatmine ja täitmine
+# <a name="distribute-and-complete-a-questionnaire"></a><span data-ttu-id="08ea2-103">Küsimustiku laialisaatmine ja täitmine</span><span class="sxs-lookup"><span data-stu-id="08ea2-103">Distribute and complete a questionnaire</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. 
+<span data-ttu-id="08ea2-104">See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad.</span><span class="sxs-lookup"><span data-stu-id="08ea2-104">This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> 
 
-Küsimustiku laialisaatmiseks on mitu võimalust.
+<span data-ttu-id="08ea2-105">Küsimustiku laialisaatmiseks on mitu võimalust.</span><span class="sxs-lookup"><span data-stu-id="08ea2-105">There are multiple ways to distribute a questionnaire:</span></span>
 
--   Saate märkida küsimustiku aktiivseks. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
--   Saate määrata õigused küsimustike grupile. Küsimustik on siis saadaval valitud grupi liikmetele.
--   Saate luua plaanitud vastamissessioone. Küsimustik on siis saadaval ainult kindlale isikule.
--   Saate luua graafiku. Küsimustik võib siis olla saadaval mitmele inimesele.
+-   <span data-ttu-id="08ea2-106">Saate märkida küsimustiku aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-106">Mark the questionnaire as active.</span></span> <span data-ttu-id="08ea2-107">Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.</span><span class="sxs-lookup"><span data-stu-id="08ea2-107">The questionnaire is then available to all employees, unless a questionnaire group is set up to restrict access to it.</span></span>
+-   <span data-ttu-id="08ea2-108">Saate määrata õigused küsimustike grupile.</span><span class="sxs-lookup"><span data-stu-id="08ea2-108">Assign rights to a questionnaire group.</span></span> <span data-ttu-id="08ea2-109">Küsimustik on siis saadaval valitud grupi liikmetele.</span><span class="sxs-lookup"><span data-stu-id="08ea2-109">The questionnaire is then available to all members of the selected group.</span></span>
+-   <span data-ttu-id="08ea2-110">Saate luua plaanitud vastamissessioone.</span><span class="sxs-lookup"><span data-stu-id="08ea2-110">Create planned answer sessions.</span></span> <span data-ttu-id="08ea2-111">Küsimustik on siis saadaval ainult kindlale isikule.</span><span class="sxs-lookup"><span data-stu-id="08ea2-111">The questionnaire is then available only to a particular person.</span></span>
+-   <span data-ttu-id="08ea2-112">Saate luua graafiku.</span><span class="sxs-lookup"><span data-stu-id="08ea2-112">Create a schedule.</span></span> <span data-ttu-id="08ea2-113">Küsimustik võib siis olla saadaval mitmele inimesele.</span><span class="sxs-lookup"><span data-stu-id="08ea2-113">The questionnaire can then be available to multiple people.</span></span>
 
-## <a name="marking-a-questionnaire-as-active"></a>Küsimustiku aktiivseks märkimine
-Määrates lehel **Küsimustikud** välja **Aktiivne** sätteks **Jah**, teete küsimustiku kõigile töövõtjatele täitmiseks kättesaadavaks. Vastajad võivad täita küsimustikku mitu korda. See funktsioon on abiks, kui soovite koguda terve aasta jooksul pidevat tagasisidet. Näiteks võite koostada küsimustiku, mille kaudu töötajad saavad anda kohviku lõunateenuse kohta tagasisidet.
+## <a name="marking-a-questionnaire-as-active"></a><span data-ttu-id="08ea2-114">Küsimustiku aktiivseks märkimine</span><span class="sxs-lookup"><span data-stu-id="08ea2-114">Marking a questionnaire as active</span></span>
+<span data-ttu-id="08ea2-115">Määrates lehel **Küsimustikud** välja **Aktiivne** sätteks **Jah**, teete küsimustiku kõigile töövõtjatele täitmiseks kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-115">By setting the **Active** field to **Yes** on the **Questionnaires** page, you make the questionnaire available for all employees to complete.</span></span> <span data-ttu-id="08ea2-116">Vastajad võivad täita küsimustikku mitu korda.</span><span class="sxs-lookup"><span data-stu-id="08ea2-116">Respondents can complete the questionnaire multiple times.</span></span> <span data-ttu-id="08ea2-117">See funktsioon on abiks, kui soovite koguda terve aasta jooksul pidevat tagasisidet.</span><span class="sxs-lookup"><span data-stu-id="08ea2-117">This functionality is useful if you want to gather continual feedback throughout the year.</span></span> <span data-ttu-id="08ea2-118">Näiteks võite koostada küsimustiku, mille kaudu töötajad saavad anda kohviku lõunateenuse kohta tagasisidet.</span><span class="sxs-lookup"><span data-stu-id="08ea2-118">For example, you can make a questionnaire that employees use to give feedback about the lunch service in the cafeteria.</span></span>
 
-## <a name="questionnaire-groups"></a>Küsimustikugrupid
-Saate seadistada küsimustikugrupid ja lisada sinna siis vastavad, kellele küsimustik tuleks saata. 
+## <a name="questionnaire-groups"></a><span data-ttu-id="08ea2-119">Küsimustikugrupid</span><span class="sxs-lookup"><span data-stu-id="08ea2-119">Questionnaire groups</span></span>
+<span data-ttu-id="08ea2-120">Saate seadistada küsimustikugrupid ja lisada sinna siis vastavad, kellele küsimustik tuleks saata.</span><span class="sxs-lookup"><span data-stu-id="08ea2-120">You can set up questionnaire groups and then include the respondents that a questionnaire should be distributed to.</span></span> 
 
-Saate luua küsimustikugruppe järgmistelt lehtedelt.
+<span data-ttu-id="08ea2-121">Saate luua küsimustikugruppe järgmistelt lehtedelt.</span><span class="sxs-lookup"><span data-stu-id="08ea2-121">You can create questionnaire groups from the following pages:</span></span>
 
--   **Küsimustikugrupid**– valitud küsimustikku saavad täita ainult küsimustikugrupis olevad inimesed. Näiteks on teie sihtrühm töövõtjad, seega koostate neile vastajatele mõeldud küsimustikugrupi.
--   **Küsimustikugrupi liikmed** – saate lisada küsimustikugruppidesse inimesi.
+-   <span data-ttu-id="08ea2-122">**Küsimustikugrupid**– valitud küsimustikku saavad täita ainult küsimustikugrupis olevad inimesed.</span><span class="sxs-lookup"><span data-stu-id="08ea2-122">**Questionnaire groups** – Only individuals in a questionnaire group can complete a selected questionnaire.</span></span> <span data-ttu-id="08ea2-123">Näiteks on teie sihtrühm töövõtjad, seega koostate neile vastajatele mõeldud küsimustikugrupi.</span><span class="sxs-lookup"><span data-stu-id="08ea2-123">For example, your intended audience is contractors, so you create a questionnaire group that is specific to those respondents.</span></span>
+-   <span data-ttu-id="08ea2-124">**Küsimustikugrupi liikmed** – saate lisada küsimustikugruppidesse inimesi.</span><span class="sxs-lookup"><span data-stu-id="08ea2-124">**Questionnaire group members** – You can add people to the questionnaire groups.</span></span>
 
-Küsimustikule küsimustikugrupi määramiseks klõpsake lehel **Küsimustikud** valikut **Kasutajaõigused**. Pärast küsimustiku aktiivsena salvestamist saavad küsimustikugrupi liikmed küsimustiku täita. See funktsioon on abiks, kui soovite testida küsimustikku valitud inimeste grupil, enne kui edastate selle suuremale grupile, või kui soovite suunata küsimustiku väga konkreetsele sihtrühmale.
+<span data-ttu-id="08ea2-125">Küsimustikule küsimustikugrupi määramiseks klõpsake lehel **Küsimustikud** valikut **Kasutajaõigused**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-125">To assign a questionnaire group to a questionnaire, on the **Questionnaires** page, click **User rights**.</span></span> <span data-ttu-id="08ea2-126">Pärast küsimustiku aktiivsena salvestamist saavad küsimustikugrupi liikmed küsimustiku täita.</span><span class="sxs-lookup"><span data-stu-id="08ea2-126">After the questionnaire is saved as active, the members of the questionnaire group can complete the questionnaire.</span></span> <span data-ttu-id="08ea2-127">See funktsioon on abiks, kui soovite testida küsimustikku valitud inimeste grupil, enne kui edastate selle suuremale grupile, või kui soovite suunata küsimustiku väga konkreetsele sihtrühmale.</span><span class="sxs-lookup"><span data-stu-id="08ea2-127">This functionality is helpful if you want to test a questionnaire on a select group of people before you roll it out to a larger group, or if you want to target a questionnaire to a very specific audience.</span></span>
 
-## <a name="planned-answer-sessions-in-a-questionnaire"></a>Plaanitud vastamisseansid küsimustiku kohta
-Plaanitud vastamisseansid on küsimustikud, mille olete kavandanud ja millele vastajad valinud. 
+## <a name="planned-answer-sessions-in-a-questionnaire"></a><span data-ttu-id="08ea2-128">Plaanitud vastamisseansid küsimustiku kohta</span><span class="sxs-lookup"><span data-stu-id="08ea2-128">Planned answer sessions in a questionnaire</span></span>
+<span data-ttu-id="08ea2-129">Plaanitud vastamisseansid on küsimustikud, mille olete kavandanud ja millele vastajad valinud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-129">Planned answer sessions are questionnaires that you've designed and selected the respondents for.</span></span> 
 
-> **Märkus.** Enne plaanitud vastamisseansside seadistamist tuleb kavandada küsimustik. 
+> <span data-ttu-id="08ea2-130">**Märkus.** Enne plaanitud vastamisseansside seadistamist tuleb kavandada küsimustik.</span><span class="sxs-lookup"><span data-stu-id="08ea2-130">**Note** Before you can set up planned answer sessions, you must design a questionnaire.</span></span> 
 
-Lehel **Plaanitud vastamisseanss** saate luua üksiku töötaja jaoks plaanitud vastamisseansi. Lehe loendis kuvatakse kõik kavandatud küsimustikud. 
+<span data-ttu-id="08ea2-131">Lehel **Plaanitud vastamisseanss** saate luua üksiku töötaja jaoks plaanitud vastamisseansi.</span><span class="sxs-lookup"><span data-stu-id="08ea2-131">On the **Planned answer session** page, you can create a planned answer session for an individual employee.</span></span> <span data-ttu-id="08ea2-132">Lehe loendis kuvatakse kõik kavandatud küsimustikud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-132">The list on the page displays all planned questionnaires.</span></span> 
 
-Plaanitud vastuseseansse kasutatakse ka lehel **Küsimustikugraafikud**, kus saate küsimustikke plaanida mitme inimese jaoks.
+<span data-ttu-id="08ea2-133">Plaanitud vastuseseansse kasutatakse ka lehel **Küsimustikugraafikud**, kus saate küsimustikke plaanida mitme inimese jaoks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-133">Planned answer sessions are also used on the **Questionnaire schedules** page, where you can plan questionnaires for multiple people:</span></span>
 
--   Töötajad
--   Kursusel osalejad
--   organisatsiooniühikud
+-   <span data-ttu-id="08ea2-134">Töötajad</span><span class="sxs-lookup"><span data-stu-id="08ea2-134">Employees</span></span>
+-   <span data-ttu-id="08ea2-135">Kursusel osalejad</span><span class="sxs-lookup"><span data-stu-id="08ea2-135">Course participants</span></span>
+-   <span data-ttu-id="08ea2-136">organisatsiooniühikud</span><span class="sxs-lookup"><span data-stu-id="08ea2-136">Organizational units</span></span>
 
-Iga inimene saab vastata küsimustikule ainult üks kord.
+<span data-ttu-id="08ea2-137">Iga inimene saab vastata küsimustikule ainult üks kord.</span><span class="sxs-lookup"><span data-stu-id="08ea2-137">Each person can answer the questionnaire only one time.</span></span>
 
-## <a name="scheduling-a-questionnaire"></a>Küsimustiku plaanimine
-Soovi korral saate plaanida küsimustiku mitme vastaja jaoks.
+## <a name="scheduling-a-questionnaire"></a><span data-ttu-id="08ea2-138">Küsimustiku plaanimine</span><span class="sxs-lookup"><span data-stu-id="08ea2-138">Scheduling a questionnaire</span></span>
+<span data-ttu-id="08ea2-139">Soovi korral saate plaanida küsimustiku mitme vastaja jaoks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-139">You can optionally schedule a questionnaire for multiple respondents.</span></span>
 
-### <a name="planning-types"></a>Planeerimise tüübid
+### <a name="planning-types"></a><span data-ttu-id="08ea2-140">Planeerimise tüübid</span><span class="sxs-lookup"><span data-stu-id="08ea2-140">Planning types</span></span>
 
-Plaanimise tüübid on vajalikud, kui soovite plaanida vastusesessioonid mitmele vastajale. Plaanimise tüüpe kasutatakse küsimustiku graafikute klassifitseerimiseks. Näiteks võite plaanida küsimustikke järgmistel eesmärkidel.
+<span data-ttu-id="08ea2-141">Plaanimise tüübid on vajalikud, kui soovite plaanida vastusesessioonid mitmele vastajale.</span><span class="sxs-lookup"><span data-stu-id="08ea2-141">Planning types are required if you want to schedule planned answer sessions for multiple respondents.</span></span> <span data-ttu-id="08ea2-142">Plaanimise tüüpe kasutatakse küsimustiku graafikute klassifitseerimiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-142">Planning types are used to classify questionnaire schedules.</span></span> <span data-ttu-id="08ea2-143">Näiteks võite plaanida küsimustikke järgmistel eesmärkidel.</span><span class="sxs-lookup"><span data-stu-id="08ea2-143">For example, you can schedule questionnaires for the following purposes:</span></span>
 
--   Hindamine
--   Uuring
--   Testimine
+-   <span data-ttu-id="08ea2-144">Hindamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-144">Evaluation</span></span>
+-   <span data-ttu-id="08ea2-145">Uuring</span><span class="sxs-lookup"><span data-stu-id="08ea2-145">Survey</span></span>
+-   <span data-ttu-id="08ea2-146">Testimine</span><span class="sxs-lookup"><span data-stu-id="08ea2-146">Testing</span></span>
 
-Küsimustiku graafiku plaanimise tüüpe saab määrata lehel **Küsimustikugraafikud**.
+<span data-ttu-id="08ea2-147">Küsimustiku graafiku plaanimise tüüpe saab määrata lehel **Küsimustikugraafikud**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-147">You can specify planning types for a questionnaire schedule on the **Questionnaire schedules** page.</span></span>
 
-### <a name="reference-types-for-questionnaire"></a>Küsimustiku viitetüübid
+### <a name="reference-types-for-questionnaire"></a><span data-ttu-id="08ea2-148">Küsimustiku viitetüübid</span><span class="sxs-lookup"><span data-stu-id="08ea2-148">Reference types for questionnaire</span></span>
 
-Võite kasutada viitetüüpe vastajate kriteeriumide sisestamiseks, mida saab küsimustiku plaanimisel valida. 
+<span data-ttu-id="08ea2-149">Võite kasutada viitetüüpe vastajate kriteeriumide sisestamiseks, mida saab küsimustiku plaanimisel valida.</span><span class="sxs-lookup"><span data-stu-id="08ea2-149">You can use reference types to enter criteria for the respondents that you might select when you schedule a questionnaire.</span></span> 
 
-Kasutage lehte **Viitetüübid** küsimustiku viitetüüpide seadistamiseks. Iga viitetüüp vastab Microsoft Dynamics 365 for Finance and Operationsi tabelile. Küsimustikugraafikute loomisel saate määrata eraldi tabelikirjeid või kirjete vahemikku, millega küsimustik seostatakse. 
+<span data-ttu-id="08ea2-150">Kasutage lehte **Viitetüübid** küsimustiku viitetüüpide seadistamiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-150">Use the **Reference types** page to set up reference types for a questionnaire.</span></span> <span data-ttu-id="08ea2-151">Iga viitetüüp vastab Microsoft Dynamics 365 for Finance and Operationsi tabelile.</span><span class="sxs-lookup"><span data-stu-id="08ea2-151">Each reference type corresponds to a table in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="08ea2-152">Küsimustikugraafikute loomisel saate määrata eraldi tabelikirjeid või kirjete vahemikku, millega küsimustik seostatakse.</span><span class="sxs-lookup"><span data-stu-id="08ea2-152">When you create questionnaire schedules, you can specify individual records in the table or a range of records that the questionnaire will be associated with.</span></span> 
 
-Näiteks kui valite tabeli Kursused, saate määrata, millise konkreetse kursuse jaoks küsimustik on mõeldud. Kui seadistate viite kursuse tabelile, muutuvad mõned väljad ja nupud väljal **Kursused** kättesaadavaks.
+<span data-ttu-id="08ea2-153">Näiteks kui valite tabeli Kursused, saate määrata, millise konkreetse kursuse jaoks küsimustik on mõeldud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-153">For example, if you select the Courses table, you can decide which specific course the questionnaire will be for.</span></span> <span data-ttu-id="08ea2-154">Kui seadistate viite kursuse tabelile, muutuvad mõned väljad ja nupud väljal **Kursused** kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-154">When you set up a reference for the Courses table, some fields and buttons on the **Courses** page become available.</span></span>
 
-### <a name="questionnaire-schedules"></a>Küsimustiku graafikud
+### <a name="questionnaire-schedules"></a><span data-ttu-id="08ea2-155">Küsimustiku graafikud</span><span class="sxs-lookup"><span data-stu-id="08ea2-155">Questionnaire schedules</span></span>
 
-Võite kasutada küsimustikugraafikuid mitme plaanitud vastusesessiooni loomiseks kasutajagrupile viitetüübi põhjal. Looge graafik lehel **Küsimustikugraafikud**. Valige graafiku kategoriseerimiseks plaanimise tüüp ja valige ka viitetüüp, mida tuleb konkreetsete kasutajate puhul süsteemi päringute edastamisel kasutada. Näiteks kui määrate viitetüübiks kursuse tabeli, saate valida konkreetse kursuse väljal **Viide**. 
+<span data-ttu-id="08ea2-156">Võite kasutada küsimustikugraafikuid mitme plaanitud vastusesessiooni loomiseks kasutajagrupile viitetüübi põhjal.</span><span class="sxs-lookup"><span data-stu-id="08ea2-156">You can use questionnaire schedules to generate multiple planned answer sessions for a group of users, based on a reference type.</span></span> <span data-ttu-id="08ea2-157">Looge graafik lehel **Küsimustikugraafikud**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-157">Create a schedule on the **Questionnaire schedules** page.</span></span> <span data-ttu-id="08ea2-158">Valige graafiku kategoriseerimiseks plaanimise tüüp ja valige ka viitetüüp, mida tuleb konkreetsete kasutajate puhul süsteemi päringute edastamisel kasutada.</span><span class="sxs-lookup"><span data-stu-id="08ea2-158">Select the planning type to categorize the schedule, and also select the reference type that should be used to query the system for specific users.</span></span> <span data-ttu-id="08ea2-159">Näiteks kui määrate viitetüübiks kursuse tabeli, saate valida konkreetse kursuse väljal **Viide**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-159">For example, if you set the reference type to the Courses table, you can select a specific course in the **Reference** field.</span></span> 
 
-Klõpsake valikut **Seadistuse üksikasjad** küsimustiku ja muude kriteeriumide valimiseks. Näiteks saate määrata kriteeriumiks juhendaja nime, kui küsimustik on juhendaja hindamiseks. Pärast seadistuse üksikasjade sisestamist loob süsteem päringusse lisatud vastajatele plaanitud vastusesessioonid. 
+<span data-ttu-id="08ea2-160">Klõpsake valikut **Seadistuse üksikasjad** küsimustiku ja muude kriteeriumide valimiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-160">Click **Setup details** to select the questionnaire and other criteria.</span></span> <span data-ttu-id="08ea2-161">Näiteks saate määrata kriteeriumiks juhendaja nime, kui küsimustik on juhendaja hindamiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-161">For example, specify the instructor's name as a criterion if the questionnaire is an evaluation of the instructor.</span></span> <span data-ttu-id="08ea2-162">Pärast seadistuse üksikasjade sisestamist loob süsteem päringusse lisatud vastajatele plaanitud vastusesessioonid.</span><span class="sxs-lookup"><span data-stu-id="08ea2-162">After you've finished entering the setup details, the system generates planned answer sessions for the users that are included in the query.</span></span> 
 
-Klõpsake valikut **Plaanitud vastusesessioonid** graafiku vastusesessioonide vaatamiseks. Seejärel saate luua käsitsi täiendavaid plaanitud vastamisseansse või vastusteta plaanitud vastuseseansse kustutada. 
+<span data-ttu-id="08ea2-163">Klõpsake valikut **Plaanitud vastusesessioonid** graafiku vastusesessioonide vaatamiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-163">Click **Planned answer sessions** to view the answer sessions for the schedule.</span></span> <span data-ttu-id="08ea2-164">Seejärel saate luua käsitsi täiendavaid plaanitud vastamisseansse või vastusteta plaanitud vastuseseansse kustutada.</span><span class="sxs-lookup"><span data-stu-id="08ea2-164">You can then manually create additional planned answer sessions or delete planned answer sessions that haven't been answered.</span></span> 
 
-Klõpsake valikuid **Funktsioonid** &gt; **Käivita**, et teha küsimustik seotud plaanitud vastuseseanssides kasutajatele kättesaadavaks. Klõpsake valikut **Vastused** küsimustiku täidetud vastuste vaatamiseks. Soovi korral saate kopeerida küsimustiku graafiku sätteid, plaanitud vastamisseansse ja vastuseid uue küsimustiku graafikusse.
+<span data-ttu-id="08ea2-165">Klõpsake valikuid **Funktsioonid** &gt; **Käivita**, et teha küsimustik seotud plaanitud vastuseseanssides kasutajatele kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-165">Click **Functions** &gt; **Start** to make the questionnaire available to the users in related planned answer sessions.</span></span> <span data-ttu-id="08ea2-166">Klõpsake valikut **Vastused** küsimustiku täidetud vastuste vaatamiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-166">Click **Answers** to view the completed responses to the questionnaire.</span></span> <span data-ttu-id="08ea2-167">Soovi korral saate kopeerida küsimustiku graafiku sätteid, plaanitud vastamisseansse ja vastuseid uue küsimustiku graafikusse.</span><span class="sxs-lookup"><span data-stu-id="08ea2-167">You can optionally copy the questionnaire schedule settings, planned answer sessions, and answers to a new questionnaire schedule.</span></span>
 
-## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Vastajate teavitamine neile saadaolevatest küsimustikest
-Kui küsimustiku laiali saadate, peate vastajatele teatama, et küsimustikud on neile kättesaadavad. 
+## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a><span data-ttu-id="08ea2-168">Vastajate teavitamine neile saadaolevatest küsimustikest</span><span class="sxs-lookup"><span data-stu-id="08ea2-168">Notifying respondents about questionnaires that are available to them</span></span>
+<span data-ttu-id="08ea2-169">Kui küsimustiku laiali saadate, peate vastajatele teatama, et küsimustikud on neile kättesaadavad.</span><span class="sxs-lookup"><span data-stu-id="08ea2-169">When you distribute a questionnaire, you must notify respondents that questionnaires are available to them.</span></span> 
 
-### <a name="notifying-respondents-about-a-planned-answer-session"></a>Vastajate teavitamine plaanitud vastamissessioonist
+### <a name="notifying-respondents-about-a-planned-answer-session"></a><span data-ttu-id="08ea2-170">Vastajate teavitamine plaanitud vastamissessioonist</span><span class="sxs-lookup"><span data-stu-id="08ea2-170">Notifying respondents about a planned answer session</span></span>
 
-Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefoni või meili teel).
+<span data-ttu-id="08ea2-171">Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefoni või meili teel).</span><span class="sxs-lookup"><span data-stu-id="08ea2-171">If you use a planned answer session, you must notify the person directly, such as by telephone or email.</span></span>
 
-### <a name="notifying-respondents-about-a-scheduling"></a>Vastajate teavitamine plaanimisest
+### <a name="notifying-respondents-about-a-scheduling"></a><span data-ttu-id="08ea2-172">Vastajate teavitamine plaanimisest</span><span class="sxs-lookup"><span data-stu-id="08ea2-172">Notifying respondents about a scheduling</span></span>
 
-Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**. Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
+<span data-ttu-id="08ea2-173">Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-173">Use the **Questionnaire schedules** page to prepare and send email to all respondents who are assigned to the questionnaire.</span></span> <span data-ttu-id="08ea2-174">Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-174">Enter the email text on the **E-mail for employee self service** tab.</span></span> <span data-ttu-id="08ea2-175">Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-175">After the schedule has been started, click **Functions** &gt; **Send e-mail** to generate and send the email to the respondents.</span></span> <span data-ttu-id="08ea2-176">Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita.</span><span class="sxs-lookup"><span data-stu-id="08ea2-176">Respondents can then sign in to the website and complete the questionnaire.</span></span> 
 
-> **Märkus.** Enne, kui saate meilifunktsiooni kasutada, peab teie IT-administraator sisestama meilisätted lehele **Meiliparameetrid**.
+> <span data-ttu-id="08ea2-177">**Märkus.** Enne, kui saate meilifunktsiooni kasutada, peab teie IT-administraator sisestama meilisätted lehele **Meiliparameetrid**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-177">**Note** Before you can use the email functionality, your IT administrator must enter the email settings on the **E-mail parameters** page.</span></span>
 
-## <a name="ending-a-scheduled-questionnaire"></a>Plaanitud küsimustiku lõpetamine
-Plaanitud küsimustiku saate lõpetada pärast seda, kui kõik vastajad on neile määratud vastuseseansid sooritanud. Pärast plaanitud küsimustiku lõpetamist ei saa selle sätteid uude graafikusse kopeerida. 
+## <a name="ending-a-scheduled-questionnaire"></a><span data-ttu-id="08ea2-178">Plaanitud küsimustiku lõpetamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-178">Ending a scheduled questionnaire</span></span>
+<span data-ttu-id="08ea2-179">Plaanitud küsimustiku saate lõpetada pärast seda, kui kõik vastajad on neile määratud vastuseseansid sooritanud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-179">You can end a scheduled questionnaire after all respondents have completed their assigned answer sessions.</span></span> <span data-ttu-id="08ea2-180">Pärast plaanitud küsimustiku lõpetamist ei saa selle sätteid uude graafikusse kopeerida.</span><span class="sxs-lookup"><span data-stu-id="08ea2-180">After a scheduled questionnaire is ended, you can't copy its settings to a new schedule.</span></span> 
 
-> **Märkus.** Kui vähemalt üks vastaja pole küsimustikku täitnud, kuid soovite siiski plaanimise lõpetada, peate esmalt kustutama need vastajad loendist lehel **Plaanitud vastamissessioon**. Seejärel saate graafiku lõpetada.
+> <span data-ttu-id="08ea2-181">**Märkus.** Kui vähemalt üks vastaja pole küsimustikku täitnud, kuid soovite siiski plaanimise lõpetada, peate esmalt kustutama need vastajad loendist lehel **Plaanitud vastamissessioon**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-181">**Note** If one or more respondents haven't completed the questionnaire, but you still want to end the scheduling, you must first delete those respondents from the list on the **Planned answer session** page.</span></span> <span data-ttu-id="08ea2-182">Seejärel saate graafiku lõpetada.</span><span class="sxs-lookup"><span data-stu-id="08ea2-182">You can then end the schedule.</span></span>
 
-## <a name="completing-questionnaires"></a>Küsimustike täitmine
-Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad selle täita. Saate täita küsimustikud, mis on saadaval kahes kohas:
+## <a name="completing-questionnaires"></a><span data-ttu-id="08ea2-183">Küsimustike täitmine</span><span class="sxs-lookup"><span data-stu-id="08ea2-183">Completing questionnaires</span></span>
+<span data-ttu-id="08ea2-184">Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad selle täita.</span><span class="sxs-lookup"><span data-stu-id="08ea2-184">After you've designed and distributed a questionnaire, the questionnaire can be completed by selected respondents.</span></span> <span data-ttu-id="08ea2-185">Saate täita küsimustikud, mis on saadaval kahes kohas:</span><span class="sxs-lookup"><span data-stu-id="08ea2-185">You can complete the questionnaires that are available to you from two locations:</span></span>
 
--   Klõpsake navigeerimispaanil valikuid **Küsimustikud** &gt; **Laialisaatmine** &gt; **Küsimustiku täitmine**.
--   Klõpsake töötaja iseteeninduses valikut **Täidetavad küsimustikud**.
+-   <span data-ttu-id="08ea2-186">Klõpsake navigeerimispaanil valikuid **Küsimustikud** &gt; **Laialisaatmine** &gt; **Küsimustiku täitmine**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-186">In the navigation pane, click **Questionnaires** &gt; **Distribute** &gt; **Complete a questionnaire**.</span></span>
+-   <span data-ttu-id="08ea2-187">Klõpsake töötaja iseteeninduses valikut **Täidetavad küsimustikud**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-187">In Employee self-service, click **Questionnaires to complete**.</span></span>
 
-Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagruppidele või kõigile kasutajatele võrgus.
+<span data-ttu-id="08ea2-188">Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagruppidele või kõigile kasutajatele võrgus.</span><span class="sxs-lookup"><span data-stu-id="08ea2-188">Questionnaires can made be available to specific users or groups of users, or to all users in a network.</span></span>
 
-<a name="see-also"></a>Vt ka
+<a name="see-also"></a><span data-ttu-id="08ea2-189">Vt ka</span><span class="sxs-lookup"><span data-stu-id="08ea2-189">See also</span></span>
 --------
 
-[Küsimustike kavandamine](design-questionnaires.md)
+[<span data-ttu-id="08ea2-190">Küsimustike kavandamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-190">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[Küsimustike kasutamine](questionnaires.md)
+[<span data-ttu-id="08ea2-191">Küsimustike kasutamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-191">Using questionnaires</span></span>](questionnaires.md)
 
-[Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
+[<span data-ttu-id="08ea2-192">Küsimustike tulemuste vaatamine ja hindamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-192">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
 
 
 <a name=""></a>=======
 ---
-# <a name="required-metadata"></a>nõutavad metaandmed
+# <a name="required-metadata"></a><span data-ttu-id="08ea2-193">nõutavad metaandmed</span><span class="sxs-lookup"><span data-stu-id="08ea2-193">required metadata</span></span>
 
-pealkiri: Küsimustiku kirjelduse levitamine ja täitmine: see teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. autor: twheeloc haldur: AnnBe ms.kuupäev: 06/20/2017 ms.teema: artikkel ms.toode: ms.teenus: Dynamics365Operations ms.tehnoloogia:  
+<span data-ttu-id="08ea2-194">pealkiri: Küsimustiku kirjelduse levitamine ja täitmine: see teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad.</span><span class="sxs-lookup"><span data-stu-id="08ea2-194">title: Distribute and complete a questionnaire description: This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> <span data-ttu-id="08ea2-195">autor: twheeloc haldur: AnnBe ms.kuupäev: 06/20/2017 ms.teema: artikkel ms.toode: ms.teenus: Dynamics365Operations ms.tehnoloogia: </span><span class="sxs-lookup"><span data-stu-id="08ea2-195">author: twheeloc manager: AnnBe ms.date: 06/20/2017 ms.topic: article ms.prod: ms.service: Dynamics365Operations ms.technology:</span></span> 
 
-# <a name="optional-metadata"></a>valikulised metaandmed
+# <a name="optional-metadata"></a><span data-ttu-id="08ea2-196">valikulised metaandmed</span><span class="sxs-lookup"><span data-stu-id="08ea2-196">optional metadata</span></span>
 
-ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters
-# <a name="robots"></a>ROBOTID: 
-publik: rakenduse kasutaja
-# <a name="msdevlang"></a>ms.devlang: 
-ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
-# <a name="mstgtpltfrm"></a>ms.tgt_pltfrm: 
-ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global
-# <a name="mssearchindustry"></a>ms.search.industry: 
-ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+<span data-ttu-id="08ea2-197">ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters</span><span class="sxs-lookup"><span data-stu-id="08ea2-197">ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters</span></span>
+# <a name="robots"></a><span data-ttu-id="08ea2-198">ROBOTID:</span><span class="sxs-lookup"><span data-stu-id="08ea2-198">ROBOTS:</span></span> 
+<span data-ttu-id="08ea2-199">publik: rakenduse kasutaja</span><span class="sxs-lookup"><span data-stu-id="08ea2-199">audience: Application User</span></span>
+# <a name="msdevlang"></a><span data-ttu-id="08ea2-200">ms.devlang:</span><span class="sxs-lookup"><span data-stu-id="08ea2-200">ms.devlang:</span></span> 
+<span data-ttu-id="08ea2-201">ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations</span><span class="sxs-lookup"><span data-stu-id="08ea2-201">ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations</span></span>
+# <a name="mstgtpltfrm"></a><span data-ttu-id="08ea2-202">ms.tgt_pltfrm:</span><span class="sxs-lookup"><span data-stu-id="08ea2-202">ms.tgt_pltfrm:</span></span> 
+<span data-ttu-id="08ea2-203">ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global</span><span class="sxs-lookup"><span data-stu-id="08ea2-203">ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global</span></span>
+# <a name="mssearchindustry"></a><span data-ttu-id="08ea2-204">ms.search.industry:</span><span class="sxs-lookup"><span data-stu-id="08ea2-204">ms.search.industry:</span></span> 
+<span data-ttu-id="08ea2-205">ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update</span><span class="sxs-lookup"><span data-stu-id="08ea2-205">ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update</span></span>
 
 ---
 
-# <a name="distribute-and-complete-a-questionnaire"></a>Küsimustiku laialisaatmine ja täitmine
+# <a name="distribute-and-complete-a-questionnaire"></a><span data-ttu-id="08ea2-206">Küsimustiku laialisaatmine ja täitmine</span><span class="sxs-lookup"><span data-stu-id="08ea2-206">Distribute and complete a questionnaire</span></span>
 
-See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. 
+<span data-ttu-id="08ea2-207">See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad.</span><span class="sxs-lookup"><span data-stu-id="08ea2-207">This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> 
 
-Küsimustiku laialisaatmiseks on mitu võimalust.
+<span data-ttu-id="08ea2-208">Küsimustiku laialisaatmiseks on mitu võimalust.</span><span class="sxs-lookup"><span data-stu-id="08ea2-208">There are multiple ways to distribute a questionnaire:</span></span>
 
--   Saate märkida küsimustiku aktiivseks. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
--   Saate määrata õigused küsimustike grupile. Küsimustik on siis saadaval valitud grupi liikmetele.
--   Saate luua plaanitud vastamissessioone. Küsimustik on siis saadaval ainult kindlale isikule.
--   Saate luua graafiku. Küsimustik võib siis olla saadaval mitmele inimesele.
+-   <span data-ttu-id="08ea2-209">Saate märkida küsimustiku aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-209">Mark the questionnaire as active.</span></span> <span data-ttu-id="08ea2-210">Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.</span><span class="sxs-lookup"><span data-stu-id="08ea2-210">The questionnaire is then available to all employees, unless a questionnaire group is set up to restrict access to it.</span></span>
+-   <span data-ttu-id="08ea2-211">Saate määrata õigused küsimustike grupile.</span><span class="sxs-lookup"><span data-stu-id="08ea2-211">Assign rights to a questionnaire group.</span></span> <span data-ttu-id="08ea2-212">Küsimustik on siis saadaval valitud grupi liikmetele.</span><span class="sxs-lookup"><span data-stu-id="08ea2-212">The questionnaire is then available to all members of the selected group.</span></span>
+-   <span data-ttu-id="08ea2-213">Saate luua plaanitud vastamissessioone.</span><span class="sxs-lookup"><span data-stu-id="08ea2-213">Create planned answer sessions.</span></span> <span data-ttu-id="08ea2-214">Küsimustik on siis saadaval ainult kindlale isikule.</span><span class="sxs-lookup"><span data-stu-id="08ea2-214">The questionnaire is then available only to a particular person.</span></span>
+-   <span data-ttu-id="08ea2-215">Saate luua graafiku.</span><span class="sxs-lookup"><span data-stu-id="08ea2-215">Create a schedule.</span></span> <span data-ttu-id="08ea2-216">Küsimustik võib siis olla saadaval mitmele inimesele.</span><span class="sxs-lookup"><span data-stu-id="08ea2-216">The questionnaire can then be available to multiple people.</span></span>
 
-## <a name="marking-a-questionnaire-as-active"></a>Küsimustiku aktiivseks märkimine
-Määrates lehel **Küsimustikud** välja **Aktiivne** sätteks **Jah**, teete küsimustiku kõigile töövõtjatele täitmiseks kättesaadavaks. Vastajad võivad täita küsimustikku mitu korda. See funktsioon on abiks, kui soovite koguda terve aasta jooksul pidevat tagasisidet. Näiteks võite koostada küsimustiku, mille kaudu töötajad saavad anda kohviku lõunateenuse kohta tagasisidet.
+## <a name="marking-a-questionnaire-as-active"></a><span data-ttu-id="08ea2-217">Küsimustiku aktiivseks märkimine</span><span class="sxs-lookup"><span data-stu-id="08ea2-217">Marking a questionnaire as active</span></span>
+<span data-ttu-id="08ea2-218">Määrates lehel **Küsimustikud** välja **Aktiivne** sätteks **Jah**, teete küsimustiku kõigile töövõtjatele täitmiseks kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-218">By setting the **Active** field to **Yes** on the **Questionnaires** page, you make the questionnaire available for all employees to complete.</span></span> <span data-ttu-id="08ea2-219">Vastajad võivad täita küsimustikku mitu korda.</span><span class="sxs-lookup"><span data-stu-id="08ea2-219">Respondents can complete the questionnaire multiple times.</span></span> <span data-ttu-id="08ea2-220">See funktsioon on abiks, kui soovite koguda terve aasta jooksul pidevat tagasisidet.</span><span class="sxs-lookup"><span data-stu-id="08ea2-220">This functionality is useful if you want to gather continual feedback throughout the year.</span></span> <span data-ttu-id="08ea2-221">Näiteks võite koostada küsimustiku, mille kaudu töötajad saavad anda kohviku lõunateenuse kohta tagasisidet.</span><span class="sxs-lookup"><span data-stu-id="08ea2-221">For example, you can make a questionnaire that employees use to give feedback about the lunch service in the cafeteria.</span></span>
 
-## <a name="questionnaire-groups"></a>Küsimustikugrupid
-Saate seadistada küsimustikugrupid ja lisada sinna siis vastavad, kellele küsimustik tuleks saata. 
+## <a name="questionnaire-groups"></a><span data-ttu-id="08ea2-222">Küsimustikugrupid</span><span class="sxs-lookup"><span data-stu-id="08ea2-222">Questionnaire groups</span></span>
+<span data-ttu-id="08ea2-223">Saate seadistada küsimustikugrupid ja lisada sinna siis vastavad, kellele küsimustik tuleks saata.</span><span class="sxs-lookup"><span data-stu-id="08ea2-223">You can set up questionnaire groups and then include the respondents that a questionnaire should be distributed to.</span></span> 
 
-Saate luua küsimustikugruppe järgmistelt lehtedelt.
+<span data-ttu-id="08ea2-224">Saate luua küsimustikugruppe järgmistelt lehtedelt.</span><span class="sxs-lookup"><span data-stu-id="08ea2-224">You can create questionnaire groups from the following pages:</span></span>
 
--   **Küsimustikugrupid**– valitud küsimustikku saavad täita ainult küsimustikugrupis olevad inimesed. Näiteks on teie sihtrühm töövõtjad, seega koostate neile vastajatele mõeldud küsimustikugrupi.
--   **Küsimustikugrupi liikmed** – saate lisada küsimustikugruppidesse inimesi.
+-   <span data-ttu-id="08ea2-225">**Küsimustikugrupid**– valitud küsimustikku saavad täita ainult küsimustikugrupis olevad inimesed.</span><span class="sxs-lookup"><span data-stu-id="08ea2-225">**Questionnaire groups** – Only individuals in a questionnaire group can complete a selected questionnaire.</span></span> <span data-ttu-id="08ea2-226">Näiteks on teie sihtrühm töövõtjad, seega koostate neile vastajatele mõeldud küsimustikugrupi.</span><span class="sxs-lookup"><span data-stu-id="08ea2-226">For example, your intended audience is contractors, so you create a questionnaire group that is specific to those respondents.</span></span>
+-   <span data-ttu-id="08ea2-227">**Küsimustikugrupi liikmed** – saate lisada küsimustikugruppidesse inimesi.</span><span class="sxs-lookup"><span data-stu-id="08ea2-227">**Questionnaire group members** – You can add people to the questionnaire groups.</span></span>
 
-Küsimustikule küsimustikugrupi määramiseks klõpsake lehel **Küsimustikud** valikut **Kasutajaõigused**. Pärast küsimustiku aktiivsena salvestamist saavad küsimustikugrupi liikmed küsimustiku täita. See funktsioon on abiks, kui soovite testida küsimustikku valitud inimeste grupil, enne kui edastate selle suuremale grupile, või kui soovite suunata küsimustiku väga konkreetsele sihtrühmale.
+<span data-ttu-id="08ea2-228">Küsimustikule küsimustikugrupi määramiseks klõpsake lehel **Küsimustikud** valikut **Kasutajaõigused**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-228">To assign a questionnaire group to a questionnaire, on the **Questionnaires** page, click **User rights**.</span></span> <span data-ttu-id="08ea2-229">Pärast küsimustiku aktiivsena salvestamist saavad küsimustikugrupi liikmed küsimustiku täita.</span><span class="sxs-lookup"><span data-stu-id="08ea2-229">After the questionnaire is saved as active, the members of the questionnaire group can complete the questionnaire.</span></span> <span data-ttu-id="08ea2-230">See funktsioon on abiks, kui soovite testida küsimustikku valitud inimeste grupil, enne kui edastate selle suuremale grupile, või kui soovite suunata küsimustiku väga konkreetsele sihtrühmale.</span><span class="sxs-lookup"><span data-stu-id="08ea2-230">This functionality is helpful if you want to test a questionnaire on a select group of people before you roll it out to a larger group, or if you want to target a questionnaire to a very specific audience.</span></span>
 
-## <a name="planned-answer-sessions-in-a-questionnaire"></a>Plaanitud vastamisseansid küsimustiku kohta
-Plaanitud vastamisseansid on küsimustikud, mille olete kavandanud ja millele vastajad valinud. 
+## <a name="planned-answer-sessions-in-a-questionnaire"></a><span data-ttu-id="08ea2-231">Plaanitud vastamisseansid küsimustiku kohta</span><span class="sxs-lookup"><span data-stu-id="08ea2-231">Planned answer sessions in a questionnaire</span></span>
+<span data-ttu-id="08ea2-232">Plaanitud vastamisseansid on küsimustikud, mille olete kavandanud ja millele vastajad valinud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-232">Planned answer sessions are questionnaires that you've designed and selected the respondents for.</span></span> 
 
-**Märkus.** Enne plaanitud vastamisseansside seadistamist tuleb kavandada küsimustik. 
+<span data-ttu-id="08ea2-233">**Märkus.** Enne plaanitud vastamisseansside seadistamist tuleb kavandada küsimustik.</span><span class="sxs-lookup"><span data-stu-id="08ea2-233">**Note:** Before you can set up planned answer sessions, you must design a questionnaire.</span></span> 
 
-Lehel **Plaanitud vastamisseanss** saate luua üksiku töötaja jaoks plaanitud vastamisseansi. Lehe loendis kuvatakse kõik kavandatud küsimustikud. 
+<span data-ttu-id="08ea2-234">Lehel **Plaanitud vastamisseanss** saate luua üksiku töötaja jaoks plaanitud vastamisseansi.</span><span class="sxs-lookup"><span data-stu-id="08ea2-234">On the **Planned answer session** page, you can create a planned answer session for an individual employee.</span></span> <span data-ttu-id="08ea2-235">Lehe loendis kuvatakse kõik kavandatud küsimustikud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-235">The list on the page displays all planned questionnaires.</span></span> 
 
-Plaanitud vastuseseansse kasutatakse ka lehel **Küsimustikugraafikud**, kus saate küsimustikke plaanida mitme inimese jaoks.
+<span data-ttu-id="08ea2-236">Plaanitud vastuseseansse kasutatakse ka lehel **Küsimustikugraafikud**, kus saate küsimustikke plaanida mitme inimese jaoks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-236">Planned answer sessions are also used on the **Questionnaire schedules** page, where you can plan questionnaires for multiple people:</span></span>
 
--   Töötajad
--   Kursusel osalejad
--   organisatsiooniühikud
+-   <span data-ttu-id="08ea2-237">Töötajad</span><span class="sxs-lookup"><span data-stu-id="08ea2-237">Employees</span></span>
+-   <span data-ttu-id="08ea2-238">Kursusel osalejad</span><span class="sxs-lookup"><span data-stu-id="08ea2-238">Course participants</span></span>
+-   <span data-ttu-id="08ea2-239">organisatsiooniühikud</span><span class="sxs-lookup"><span data-stu-id="08ea2-239">Organizational units</span></span>
 
-Iga inimene saab vastata küsimustikule ainult üks kord.
+<span data-ttu-id="08ea2-240">Iga inimene saab vastata küsimustikule ainult üks kord.</span><span class="sxs-lookup"><span data-stu-id="08ea2-240">Each person can answer the questionnaire only one time.</span></span>
 
-## <a name="scheduling-a-questionnaire"></a>Küsimustiku plaanimine
-Soovi korral saate plaanida küsimustiku mitme vastaja jaoks.
+## <a name="scheduling-a-questionnaire"></a><span data-ttu-id="08ea2-241">Küsimustiku plaanimine</span><span class="sxs-lookup"><span data-stu-id="08ea2-241">Scheduling a questionnaire</span></span>
+<span data-ttu-id="08ea2-242">Soovi korral saate plaanida küsimustiku mitme vastaja jaoks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-242">You can optionally schedule a questionnaire for multiple respondents.</span></span>
 
-### <a name="planning-types"></a>Planeerimise tüübid
+### <a name="planning-types"></a><span data-ttu-id="08ea2-243">Planeerimise tüübid</span><span class="sxs-lookup"><span data-stu-id="08ea2-243">Planning types</span></span>
 
-Plaanimise tüübid on vajalikud, kui soovite plaanida vastusesessioonid mitmele vastajale. Plaanimise tüüpe kasutatakse küsimustiku graafikute klassifitseerimiseks. Näiteks võite plaanida küsimustikke järgmistel eesmärkidel.
+<span data-ttu-id="08ea2-244">Plaanimise tüübid on vajalikud, kui soovite plaanida vastusesessioonid mitmele vastajale.</span><span class="sxs-lookup"><span data-stu-id="08ea2-244">Planning types are required if you want to schedule planned answer sessions for multiple respondents.</span></span> <span data-ttu-id="08ea2-245">Plaanimise tüüpe kasutatakse küsimustiku graafikute klassifitseerimiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-245">Planning types are used to classify questionnaire schedules.</span></span> <span data-ttu-id="08ea2-246">Näiteks võite plaanida küsimustikke järgmistel eesmärkidel.</span><span class="sxs-lookup"><span data-stu-id="08ea2-246">For example, you can schedule questionnaires for the following purposes:</span></span>
 
--   Hindamine
--   Uuring
--   Testimine
+-   <span data-ttu-id="08ea2-247">Hindamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-247">Evaluation</span></span>
+-   <span data-ttu-id="08ea2-248">Uuring</span><span class="sxs-lookup"><span data-stu-id="08ea2-248">Survey</span></span>
+-   <span data-ttu-id="08ea2-249">Testimine</span><span class="sxs-lookup"><span data-stu-id="08ea2-249">Testing</span></span>
 
-Küsimustiku graafiku plaanimise tüüpe saab määrata lehel **Küsimustikugraafikud**.
+<span data-ttu-id="08ea2-250">Küsimustiku graafiku plaanimise tüüpe saab määrata lehel **Küsimustikugraafikud**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-250">You can specify planning types for a questionnaire schedule on the **Questionnaire schedules** page.</span></span>
 
-### <a name="reference-types-for-questionnaire"></a>Küsimustiku viitetüübid
+### <a name="reference-types-for-questionnaire"></a><span data-ttu-id="08ea2-251">Küsimustiku viitetüübid</span><span class="sxs-lookup"><span data-stu-id="08ea2-251">Reference types for questionnaire</span></span>
 
-Võite kasutada viitetüüpe vastajate kriteeriumide sisestamiseks, mida saab küsimustiku plaanimisel valida. 
+<span data-ttu-id="08ea2-252">Võite kasutada viitetüüpe vastajate kriteeriumide sisestamiseks, mida saab küsimustiku plaanimisel valida.</span><span class="sxs-lookup"><span data-stu-id="08ea2-252">You can use reference types to enter criteria for the respondents that you might select when you schedule a questionnaire.</span></span> 
 
-Kasutage lehte **Viitetüübid** küsimustiku viitetüüpide seadistamiseks. Iga viitetüüp vastab Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni tabelile. Küsimustikugraafikute loomisel saate määrata eraldi tabelikirjeid või kirjete vahemikku, millega küsimustik seostatakse. 
+<span data-ttu-id="08ea2-253">Kasutage lehte **Viitetüübid** küsimustiku viitetüüpide seadistamiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-253">Use the **Reference types** page to set up reference types for a questionnaire.</span></span> <span data-ttu-id="08ea2-254">Iga viitetüüp vastab Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni tabelile.</span><span class="sxs-lookup"><span data-stu-id="08ea2-254">Each reference type corresponds to a table in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span></span> <span data-ttu-id="08ea2-255">Küsimustikugraafikute loomisel saate määrata eraldi tabelikirjeid või kirjete vahemikku, millega küsimustik seostatakse.</span><span class="sxs-lookup"><span data-stu-id="08ea2-255">When you create questionnaire schedules, you can specify individual records in the table or a range of records that the questionnaire will be associated with.</span></span> 
 
-Näiteks kui valite tabeli Kursused, saate määrata, millise konkreetse kursuse jaoks küsimustik on mõeldud. Kui seadistate viite kursuse tabelile, muutuvad mõned väljad ja nupud väljal **Kursused** kättesaadavaks.
+<span data-ttu-id="08ea2-256">Näiteks kui valite tabeli Kursused, saate määrata, millise konkreetse kursuse jaoks küsimustik on mõeldud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-256">For example, if you select the Courses table, you can decide which specific course the questionnaire will be for.</span></span> <span data-ttu-id="08ea2-257">Kui seadistate viite kursuse tabelile, muutuvad mõned väljad ja nupud väljal **Kursused** kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-257">When you set up a reference for the Courses table, some fields and buttons on the **Courses** page become available.</span></span>
 
-### <a name="questionnaire-schedules"></a>Küsimustiku graafikud
+### <a name="questionnaire-schedules"></a><span data-ttu-id="08ea2-258">Küsimustiku graafikud</span><span class="sxs-lookup"><span data-stu-id="08ea2-258">Questionnaire schedules</span></span>
 
-Võite kasutada küsimustikugraafikuid mitme plaanitud vastusesessiooni loomiseks kasutajagrupile viitetüübi põhjal. Looge graafik lehel **Küsimustikugraafikud**. Valige graafiku kategoriseerimiseks plaanimise tüüp ja valige ka viitetüüp, mida tuleb konkreetsete kasutajate puhul süsteemi päringute edastamisel kasutada. Näiteks kui määrate viitetüübiks kursuse tabeli, saate valida konkreetse kursuse väljal **Viide**. 
+<span data-ttu-id="08ea2-259">Võite kasutada küsimustikugraafikuid mitme plaanitud vastusesessiooni loomiseks kasutajagrupile viitetüübi põhjal.</span><span class="sxs-lookup"><span data-stu-id="08ea2-259">You can use questionnaire schedules to generate multiple planned answer sessions for a group of users, based on a reference type.</span></span> <span data-ttu-id="08ea2-260">Looge graafik lehel **Küsimustikugraafikud**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-260">Create a schedule on the **Questionnaire schedules** page.</span></span> <span data-ttu-id="08ea2-261">Valige graafiku kategoriseerimiseks plaanimise tüüp ja valige ka viitetüüp, mida tuleb konkreetsete kasutajate puhul süsteemi päringute edastamisel kasutada.</span><span class="sxs-lookup"><span data-stu-id="08ea2-261">Select the planning type to categorize the schedule, and also select the reference type that should be used to query the system for specific users.</span></span> <span data-ttu-id="08ea2-262">Näiteks kui määrate viitetüübiks kursuse tabeli, saate valida konkreetse kursuse väljal **Viide**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-262">For example, if you set the reference type to the Courses table, you can select a specific course in the **Reference** field.</span></span> 
 
-Klõpsake valikut **Seadistuse üksikasjad** küsimustiku ja muude kriteeriumide valimiseks. Näiteks saate määrata kriteeriumiks juhendaja nime, kui küsimustik on juhendaja hindamiseks. Pärast seadistuse üksikasjade sisestamist loob süsteem päringusse lisatud vastajatele plaanitud vastusesessioonid. 
+<span data-ttu-id="08ea2-263">Klõpsake valikut **Seadistuse üksikasjad** küsimustiku ja muude kriteeriumide valimiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-263">Click **Setup details** to select the questionnaire and other criteria.</span></span> <span data-ttu-id="08ea2-264">Näiteks saate määrata kriteeriumiks juhendaja nime, kui küsimustik on juhendaja hindamiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-264">For example, specify the instructor's name as a criterion if the questionnaire is an evaluation of the instructor.</span></span> <span data-ttu-id="08ea2-265">Pärast seadistuse üksikasjade sisestamist loob süsteem päringusse lisatud vastajatele plaanitud vastusesessioonid.</span><span class="sxs-lookup"><span data-stu-id="08ea2-265">After you've finished entering the setup details, the system generates planned answer sessions for the users that are included in the query.</span></span> 
 
-Klõpsake valikut **Plaanitud vastusesessioonid** graafiku vastusesessioonide vaatamiseks. Seejärel saate luua käsitsi täiendavaid plaanitud vastamisseansse või vastusteta plaanitud vastuseseansse kustutada. 
+<span data-ttu-id="08ea2-266">Klõpsake valikut **Plaanitud vastusesessioonid** graafiku vastusesessioonide vaatamiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-266">Click **Planned answer sessions** to view the answer sessions for the schedule.</span></span> <span data-ttu-id="08ea2-267">Seejärel saate luua käsitsi täiendavaid plaanitud vastamisseansse või vastusteta plaanitud vastuseseansse kustutada.</span><span class="sxs-lookup"><span data-stu-id="08ea2-267">You can then manually create additional planned answer sessions or delete planned answer sessions that haven't been answered.</span></span> 
 
-Klõpsake valikuid **Funktsioonid** &gt; **Käivita**, et teha küsimustik seotud plaanitud vastuseseanssides kasutajatele kättesaadavaks. Klõpsake valikut **Vastused** küsimustiku täidetud vastuste vaatamiseks. Soovi korral saate kopeerida küsimustiku graafiku sätteid, plaanitud vastamisseansse ja vastuseid uue küsimustiku graafikusse.
+<span data-ttu-id="08ea2-268">Klõpsake valikuid **Funktsioonid** &gt; **Käivita**, et teha küsimustik seotud plaanitud vastuseseanssides kasutajatele kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-268">Click **Functions** &gt; **Start** to make the questionnaire available to the users in related planned answer sessions.</span></span> <span data-ttu-id="08ea2-269">Klõpsake valikut **Vastused** küsimustiku täidetud vastuste vaatamiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-269">Click **Answers** to view the completed responses to the questionnaire.</span></span> <span data-ttu-id="08ea2-270">Soovi korral saate kopeerida küsimustiku graafiku sätteid, plaanitud vastamisseansse ja vastuseid uue küsimustiku graafikusse.</span><span class="sxs-lookup"><span data-stu-id="08ea2-270">You can optionally copy the questionnaire schedule settings, planned answer sessions, and answers to a new questionnaire schedule.</span></span>
 
-## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Vastajate teavitamine neile saadaolevatest küsimustikest
-Kui küsimustiku laiali saadate, peate vastajatele teatama, et küsimustikud on neile kättesaadavad. 
+## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a><span data-ttu-id="08ea2-271">Vastajate teavitamine neile saadaolevatest küsimustikest</span><span class="sxs-lookup"><span data-stu-id="08ea2-271">Notifying respondents about questionnaires that are available to them</span></span>
+<span data-ttu-id="08ea2-272">Kui küsimustiku laiali saadate, peate vastajatele teatama, et küsimustikud on neile kättesaadavad.</span><span class="sxs-lookup"><span data-stu-id="08ea2-272">When you distribute a questionnaire, you must notify respondents that questionnaires are available to them.</span></span> 
 
-**Märkus.** Küsimustiku täitmiseks peavad vastajad olema Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni kasutajad.
+<span data-ttu-id="08ea2-273">**Märkus.** Küsimustiku täitmiseks peavad vastajad olema Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni kasutajad.</span><span class="sxs-lookup"><span data-stu-id="08ea2-273">**Note:** Respondents must be users in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition to complete a questionnaire.</span></span>
 
-### <a name="notifying-respondents-about-a-planned-answer-session"></a>Vastajate teavitamine plaanitud vastamissessioonist
+### <a name="notifying-respondents-about-a-planned-answer-session"></a><span data-ttu-id="08ea2-274">Vastajate teavitamine plaanitud vastamissessioonist</span><span class="sxs-lookup"><span data-stu-id="08ea2-274">Notifying respondents about a planned answer session</span></span>
 
-Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefoni või meili teel).
+<span data-ttu-id="08ea2-275">Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefoni või meili teel).</span><span class="sxs-lookup"><span data-stu-id="08ea2-275">If you use a planned answer session, you must notify the person directly, such as by telephone or email.</span></span>
 
-### <a name="notifying-respondents-about-a-scheduling"></a>Vastajate teavitamine plaanimisest
+### <a name="notifying-respondents-about-a-scheduling"></a><span data-ttu-id="08ea2-276">Vastajate teavitamine plaanimisest</span><span class="sxs-lookup"><span data-stu-id="08ea2-276">Notifying respondents about a scheduling</span></span>
 
-Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**. Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
+<span data-ttu-id="08ea2-277">Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-277">Use the **Questionnaire schedules** page to prepare and send email to all respondents who are assigned to the questionnaire.</span></span> <span data-ttu-id="08ea2-278">Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-278">Enter the email text on the **E-mail for employee self service** tab.</span></span> <span data-ttu-id="08ea2-279">Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks.</span><span class="sxs-lookup"><span data-stu-id="08ea2-279">After the schedule has been started, click **Functions** &gt; **Send e-mail** to generate and send the email to the respondents.</span></span> <span data-ttu-id="08ea2-280">Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita.</span><span class="sxs-lookup"><span data-stu-id="08ea2-280">Respondents can then sign in to the website and complete the questionnaire.</span></span> 
 
-**Märkus.** Enne, kui saate meilifunktsiooni kasutada, peab teie IT-administraator sisestama meilisätted lehele **Meiliparameetrid**.
+<span data-ttu-id="08ea2-281">**Märkus.** Enne, kui saate meilifunktsiooni kasutada, peab teie IT-administraator sisestama meilisätted lehele **Meiliparameetrid**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-281">**Note:** Before you can use the email functionality, your IT administrator must enter the email settings on the **E-mail parameters** page.</span></span>
 
-## <a name="ending-a-scheduled-questionnaire"></a>Plaanitud küsimustiku lõpetamine
-Plaanitud küsimustiku saate lõpetada pärast seda, kui kõik vastajad on neile määratud vastuseseansid sooritanud. Pärast plaanitud küsimustiku lõpetamist ei saa selle sätteid uude graafikusse kopeerida. 
+## <a name="ending-a-scheduled-questionnaire"></a><span data-ttu-id="08ea2-282">Plaanitud küsimustiku lõpetamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-282">Ending a scheduled questionnaire</span></span>
+<span data-ttu-id="08ea2-283">Plaanitud küsimustiku saate lõpetada pärast seda, kui kõik vastajad on neile määratud vastuseseansid sooritanud.</span><span class="sxs-lookup"><span data-stu-id="08ea2-283">You can end a scheduled questionnaire after all respondents have completed their assigned answer sessions.</span></span> <span data-ttu-id="08ea2-284">Pärast plaanitud küsimustiku lõpetamist ei saa selle sätteid uude graafikusse kopeerida.</span><span class="sxs-lookup"><span data-stu-id="08ea2-284">After a scheduled questionnaire is ended, you can't copy its settings to a new schedule.</span></span> 
 
-**Märkus.** Kui vähemalt üks vastaja pole küsimustikku täitnud, kuid soovite siiski plaanimise lõpetada, peate esmalt kustutama need vastajad loendist lehel **Plaanitud vastamissessioon**. Seejärel saate graafiku lõpetada.
+<span data-ttu-id="08ea2-285">**Märkus.** Kui vähemalt üks vastaja pole küsimustikku täitnud, kuid soovite siiski plaanimise lõpetada, peate esmalt kustutama need vastajad loendist lehel **Plaanitud vastamissessioon**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-285">**Note:** If one or more respondents haven't completed the questionnaire, but you still want to end the scheduling, you must first delete those respondents from the list on the **Planned answer session** page.</span></span> <span data-ttu-id="08ea2-286">Seejärel saate graafiku lõpetada.</span><span class="sxs-lookup"><span data-stu-id="08ea2-286">You can then end the schedule.</span></span>
 
-## <a name="completing-questionnaires"></a>Küsimustike täitmine
-Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad selle täita. Saate täita küsimustikud, mis on saadaval kahes kohas:
+## <a name="completing-questionnaires"></a><span data-ttu-id="08ea2-287">Küsimustike täitmine</span><span class="sxs-lookup"><span data-stu-id="08ea2-287">Completing questionnaires</span></span>
+<span data-ttu-id="08ea2-288">Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad selle täita.</span><span class="sxs-lookup"><span data-stu-id="08ea2-288">After you've designed and distributed a questionnaire, the questionnaire can be completed by selected respondents.</span></span> <span data-ttu-id="08ea2-289">Saate täita küsimustikud, mis on saadaval kahes kohas:</span><span class="sxs-lookup"><span data-stu-id="08ea2-289">You can complete the questionnaires that are available to you from two locations:</span></span>
 
--   Klõpsake navigeerimispaanil valikuid **Küsimustikud** &gt; **Laialisaatmine** &gt; **Küsimustiku täitmine**.
--   Klõpsake töötaja iseteeninduses valikut **Täidetavad küsimustikud**.
+-   <span data-ttu-id="08ea2-290">Klõpsake navigeerimispaanil valikuid **Küsimustikud** &gt; **Laialisaatmine** &gt; **Küsimustiku täitmine**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-290">In the navigation pane, click **Questionnaires** &gt; **Distribute** &gt; **Complete a questionnaire**.</span></span>
+-   <span data-ttu-id="08ea2-291">Klõpsake töötaja iseteeninduses valikut **Täidetavad küsimustikud**.</span><span class="sxs-lookup"><span data-stu-id="08ea2-291">In Employee self-service, click **Questionnaires to complete**.</span></span>
 
-Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagruppidele või kõigile kasutajatele võrgus.
+<span data-ttu-id="08ea2-292">Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagruppidele või kõigile kasutajatele võrgus.</span><span class="sxs-lookup"><span data-stu-id="08ea2-292">Questionnaires can made be available to specific users or groups of users, or to all users in a network.</span></span>
 
-<a name="see-also"></a>Vt ka
+<a name="see-also"></a><span data-ttu-id="08ea2-293">Vt ka</span><span class="sxs-lookup"><span data-stu-id="08ea2-293">See also</span></span>
 --------
 
-[Küsimustike kavandamine](design-questionnaires.md)
+[<span data-ttu-id="08ea2-294">Küsimustike kavandamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-294">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[Küsimustike kasutamine](questionnaires.md)
+[<span data-ttu-id="08ea2-295">Küsimustike kasutamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-295">Using questionnaires</span></span>](questionnaires.md)
 
-[Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
+[<span data-ttu-id="08ea2-296">Küsimustike tulemuste vaatamine ja hindamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-296">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
-peamine
+<span data-ttu-id="08ea2-297">peamine</span><span class="sxs-lookup"><span data-stu-id="08ea2-297">master</span></span>
 

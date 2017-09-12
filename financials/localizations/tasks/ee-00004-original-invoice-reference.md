@@ -16,58 +16,58 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: ed280cebdd568c3ff60b1537b8902b23c4c14743
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 023a23410acf4133658b7954ee41aa196d78ede6
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="original-invoice-reference-eastern-europe"></a>Algse arve viide (Ida-Euroopa)
+# <a name="original-invoice-reference-eastern-europe"></a><span data-ttu-id="e541c-103">Algse arve viide (Ida-Euroopa)</span><span class="sxs-lookup"><span data-stu-id="e541c-103">Original invoice reference (Eastern Europe)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesanne näitab teile, kuidas luua parandusridu müügitellimuse kreeditarvele. Ülesande loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Poola, andmeid.
+<span data-ttu-id="e541c-104">See ülesanne näitab teile, kuidas luua parandusridu müügitellimuse kreeditarvele.</span><span class="sxs-lookup"><span data-stu-id="e541c-104">This task walks you through creating corrective lines in a credit note for a sales order.</span></span> <span data-ttu-id="e541c-105">Ülesande loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Poola, andmeid.</span><span class="sxs-lookup"><span data-stu-id="e541c-105">This task was created using the demo data company DEMF with a primary address in Poland.</span></span>
 
 
-## <a name="create-a-sales-order"></a>Loo müügitellimus
-1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
-2. Klõpsake valikut Uus.
-3. Valige või sisestage väärtus väljal Kliendi konto.
-4. Klõpsake nuppu OK.
-5. Märkige loendis valitud rida.
-6. Sisestage või valige väärtus väljal Kaubakood.
-7. Sisestage arv väljale Kogus.
-8. Klõpsake nuppu Salvesta.
-9. Klõpsake toimingupaanil valikut Arve.
-10. Klõpsake valikut Arve.
-11. Laiendage jaotis Parameetrid.
-12. Valige suvand väljal Kogus.
-13. Laiendage jaotist Seadistus.
-14. Sisestage kuupäev väljale Müügikuupäev.
-15. Märkige loendis valitud rida.
-16. Klõpsake nuppu OK.
-17. Klõpsake nuppu OK.
+## <a name="create-a-sales-order"></a><span data-ttu-id="e541c-106">Loo müügitellimus</span><span class="sxs-lookup"><span data-stu-id="e541c-106">Create a sales order</span></span>
+1. <span data-ttu-id="e541c-107">Avage Müügireskontro > Tellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="e541c-107">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="e541c-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e541c-108">Click New.</span></span>
+3. <span data-ttu-id="e541c-109">Valige või sisestage väärtus väljal Kliendi konto.</span><span class="sxs-lookup"><span data-stu-id="e541c-109">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="e541c-110">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e541c-110">Click OK.</span></span>
+5. <span data-ttu-id="e541c-111">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="e541c-111">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="e541c-112">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="e541c-112">In the Item number field, enter or select a value.</span></span>
+7. <span data-ttu-id="e541c-113">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="e541c-113">In the Quantity field, enter a number.</span></span>
+8. <span data-ttu-id="e541c-114">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e541c-114">Click Save.</span></span>
+9. <span data-ttu-id="e541c-115">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="e541c-115">On the Action Pane, click Invoice.</span></span>
+10. <span data-ttu-id="e541c-116">Klõpsake valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="e541c-116">Click Invoice.</span></span>
+11. <span data-ttu-id="e541c-117">Laiendage jaotis Parameetrid.</span><span class="sxs-lookup"><span data-stu-id="e541c-117">Expand the Parameters section.</span></span>
+12. <span data-ttu-id="e541c-118">Valige suvand väljal Kogus.</span><span class="sxs-lookup"><span data-stu-id="e541c-118">In the Quantity field, select an option.</span></span>
+13. <span data-ttu-id="e541c-119">Laiendage jaotist Seadistus.</span><span class="sxs-lookup"><span data-stu-id="e541c-119">Expand the Setup section.</span></span>
+14. <span data-ttu-id="e541c-120">Sisestage kuupäev väljale Müügikuupäev.</span><span class="sxs-lookup"><span data-stu-id="e541c-120">In the Sales date field, enter a date.</span></span>
+15. <span data-ttu-id="e541c-121">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="e541c-121">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="e541c-122">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e541c-122">Click OK.</span></span>
+17. <span data-ttu-id="e541c-123">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e541c-123">Click OK.</span></span>
 
-## <a name="create-a-credit-note"></a>Kreeditarve loomine
-1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
-2. Klõpsake valikut Uus.
-3. Valige või sisestage väärtus väljal Kliendi konto.
-4. Klõpsake nuppu OK.
-5. Klõpsake toimingupaanil suvandit Müük.
-6. Klõpsake valikut Kreeditarve.
-7. Märkige ruut Vali kõik.
-8. Laiendage jaotis Parameetrid.
-9. Sisestage või valige väärtus väljal Põhjuse kood.
-10. Klõpsake nuppu OK.
-11. Märkige loendis valitud rida.
-12. Otsige loendist ja valige soovitud kirje.
-13. Sisestage arv väljale Kogus.
-14. Klõpsake nuppu OK.
-15. Klõpsake nuppu Salvesta.
-16. Klõpsake toimingupaanil valikut Arve.
-17. Klõpsake valikut Arve.
-18. Otsige loendist ja valige soovitud kirje.
-19. Klõpsake nuppu OK.
-20. Klõpsake nuppu OK.
+## <a name="create-a-credit-note"></a><span data-ttu-id="e541c-124">Kreeditarve loomine</span><span class="sxs-lookup"><span data-stu-id="e541c-124">Create a credit note</span></span>
+1. <span data-ttu-id="e541c-125">Avage Müügireskontro > Tellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="e541c-125">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="e541c-126">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e541c-126">Click New.</span></span>
+3. <span data-ttu-id="e541c-127">Valige või sisestage väärtus väljal Kliendi konto.</span><span class="sxs-lookup"><span data-stu-id="e541c-127">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="e541c-128">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e541c-128">Click OK.</span></span>
+5. <span data-ttu-id="e541c-129">Klõpsake toimingupaanil suvandit Müük.</span><span class="sxs-lookup"><span data-stu-id="e541c-129">On the Action Pane, click Sell.</span></span>
+6. <span data-ttu-id="e541c-130">Klõpsake valikut Kreeditarve.</span><span class="sxs-lookup"><span data-stu-id="e541c-130">Click Credit note.</span></span>
+7. <span data-ttu-id="e541c-131">Märkige ruut Vali kõik.</span><span class="sxs-lookup"><span data-stu-id="e541c-131">Select the Select all check box.</span></span>
+8. <span data-ttu-id="e541c-132">Laiendage jaotis Parameetrid.</span><span class="sxs-lookup"><span data-stu-id="e541c-132">Expand the Parameters section.</span></span>
+9. <span data-ttu-id="e541c-133">Sisestage või valige väärtus väljal Põhjuse kood.</span><span class="sxs-lookup"><span data-stu-id="e541c-133">In the Reason code field, enter or select a value.</span></span>
+10. <span data-ttu-id="e541c-134">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e541c-134">Click OK.</span></span>
+11. <span data-ttu-id="e541c-135">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="e541c-135">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="e541c-136">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="e541c-136">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="e541c-137">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="e541c-137">In the Quantity field, enter a number.</span></span>
+14. <span data-ttu-id="e541c-138">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e541c-138">Click OK.</span></span>
+15. <span data-ttu-id="e541c-139">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e541c-139">Click Save.</span></span>
+16. <span data-ttu-id="e541c-140">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="e541c-140">On the Action Pane, click Invoice.</span></span>
+17. <span data-ttu-id="e541c-141">Klõpsake valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="e541c-141">Click Invoice.</span></span>
+18. <span data-ttu-id="e541c-142">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="e541c-142">In the list, find and select the desired record.</span></span>
+19. <span data-ttu-id="e541c-143">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e541c-143">Click OK.</span></span>
+20. <span data-ttu-id="e541c-144">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e541c-144">Click OK.</span></span>
 
 

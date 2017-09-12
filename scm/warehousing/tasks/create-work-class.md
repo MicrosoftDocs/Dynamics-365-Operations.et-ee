@@ -17,26 +17,26 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 50b8ee1825391d7e5977f758628b559d006a334e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9a775366bdaecb59a375f245f7a4d17a659cab11
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-work-class"></a>Tööklassi loomine
+# <a name="create-a-work-class"></a><span data-ttu-id="b05c6-103">Tööklassi loomine</span><span class="sxs-lookup"><span data-stu-id="b05c6-103">Create a work class</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas seadistada tööklassi. Tööklassidega suunatakse ja/või piiratakse töötellimuse ridade tüüpi, mida laotöötaja saab mobiilses seadmes töödelda. Read, mida töötaja saab töödelda, määratakse mobiilse seadme menüü-üksustes, millele laotöötajal on juurdepääs, tööklassidest ja tööridadel määratud tööklassist. Tööklasse saab kasutada ka mahapaneku asukoha kinnitamiseks töötellimuse rea puhul. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. See protseduur on mõeldud laohaldurile.
+<span data-ttu-id="b05c6-104">See protseduur näitab, kuidas seadistada tööklassi.</span><span class="sxs-lookup"><span data-stu-id="b05c6-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="b05c6-105">Tööklassidega suunatakse ja/või piiratakse töötellimuse ridade tüüpi, mida laotöötaja saab mobiilses seadmes töödelda.</span><span class="sxs-lookup"><span data-stu-id="b05c6-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="b05c6-106">Read, mida töötaja saab töödelda, määratakse mobiilse seadme menüü-üksustes, millele laotöötajal on juurdepääs, tööklassidest ja tööridadel määratud tööklassist.</span><span class="sxs-lookup"><span data-stu-id="b05c6-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that’s specified on the work lines.</span></span> <span data-ttu-id="b05c6-107">Tööklasse saab kasutada ka mahapaneku asukoha kinnitamiseks töötellimuse rea puhul.</span><span class="sxs-lookup"><span data-stu-id="b05c6-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="b05c6-108">Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega.</span><span class="sxs-lookup"><span data-stu-id="b05c6-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="b05c6-109">See protseduur on mõeldud laohaldurile.</span><span class="sxs-lookup"><span data-stu-id="b05c6-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. Avage Laohaldus > Seadistus > Töö > Tööklassid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Tööklassi ID.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Valige suvand väljal Töökäsu tüüp.
-6. Klõpsake valikut Uus.
-7. Sisestage väärtus väljale Asukoha tüüp.
-    * Asukoha tüübi valimisel piirab see asukohta, kuhu kaubad saab pärast komplekteerimist panna. Seda sätet kasutatakse, kui asukohakorraldus püüab asukohta lahendada või kui laotöötaja esitab mobiilse seadme menüü-üksuse jaoks asukoha käsitsi.  
-8. Sulgege leht.
+1. <span data-ttu-id="b05c6-110">Avage Laohaldus > Seadistus > Töö > Tööklassid.</span><span class="sxs-lookup"><span data-stu-id="b05c6-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="b05c6-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b05c6-111">Click New.</span></span>
+3. <span data-ttu-id="b05c6-112">Sisestage väärtus väljale Tööklassi ID.</span><span class="sxs-lookup"><span data-stu-id="b05c6-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="b05c6-113">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="b05c6-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="b05c6-114">Valige suvand väljal Töökäsu tüüp.</span><span class="sxs-lookup"><span data-stu-id="b05c6-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="b05c6-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b05c6-115">Click New.</span></span>
+7. <span data-ttu-id="b05c6-116">Sisestage väärtus väljale Asukoha tüüp.</span><span class="sxs-lookup"><span data-stu-id="b05c6-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="b05c6-117">Asukoha tüübi valimisel piirab see asukohta, kuhu kaubad saab pärast komplekteerimist panna.</span><span class="sxs-lookup"><span data-stu-id="b05c6-117">If you select a location type, this sets a restriction on where items can be put after they’ve been picked.</span></span> <span data-ttu-id="b05c6-118">Seda sätet kasutatakse, kui asukohakorraldus püüab asukohta lahendada või kui laotöötaja esitab mobiilse seadme menüü-üksuse jaoks asukoha käsitsi.</span><span class="sxs-lookup"><span data-stu-id="b05c6-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="b05c6-119">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="b05c6-119">Close the page.</span></span>
 
 

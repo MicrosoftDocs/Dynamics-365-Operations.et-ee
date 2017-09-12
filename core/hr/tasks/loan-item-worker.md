@@ -16,31 +16,31 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 38fb707622e9cc5b66376715d41bb79975e9a64a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 665dd5868b9a731caf9c847b7ca33f039fe083e3
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="loan-items-to-a-worker"></a>Töötajale asjade laenamine
+# <a name="loan-items-to-a-worker"></a><span data-ttu-id="a41a5-103">Töötajale asjade laenamine</span><span class="sxs-lookup"><span data-stu-id="a41a5-103">Loan items to a worker</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas laenata kaupa töötajale ja kirjendada töötaja kauba tagastamist. Töötajad saavad taotleda ka kaupade laenamist lehtede Töötaja iseteenindus kaudu. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+<span data-ttu-id="a41a5-104">See protseduur näitab, kuidas laenata kaupa töötajale ja kirjendada töötaja kauba tagastamist.</span><span class="sxs-lookup"><span data-stu-id="a41a5-104">This procedure shows how to loan an item to a worker and record the worker returning an item.</span></span> <span data-ttu-id="a41a5-105">Töötajad saavad taotleda ka kaupade laenamist lehtede Töötaja iseteenindus kaudu.</span><span class="sxs-lookup"><span data-stu-id="a41a5-105">Workers can also request loan items through their Employee self-service pages.</span></span> <span data-ttu-id="a41a5-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="a41a5-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="loan-item-to-a-worker"></a>Kauba laenamine töötajale
-1. Avage Personaliarvestus > Töötajad > Laenuartiklid > Laenatud seadmed.
-2. Klõpsake valikut Uus.
-3. Sisestage või valige väärtus väljal Isik.
-4. Sisestage või valige väärtus väljal Laenuartikkel.
-5. Sisestage väljale Plaanitud tagastus kuupäev, mil töötaja peab laenuartikli tagastama.
-6. Klõpsake nuppu Salvesta.
-7. Sulgege leht.
+## <a name="loan-item-to-a-worker"></a><span data-ttu-id="a41a5-107">Kauba laenamine töötajale</span><span class="sxs-lookup"><span data-stu-id="a41a5-107">Loan item to a worker</span></span>
+1. <span data-ttu-id="a41a5-108">Avage Personaliarvestus > Töötajad > Laenuartiklid > Laenatud seadmed.</span><span class="sxs-lookup"><span data-stu-id="a41a5-108">Go to Human resources > Workers > Loan items > Loaned equipment.</span></span>
+2. <span data-ttu-id="a41a5-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="a41a5-109">Click New.</span></span>
+3. <span data-ttu-id="a41a5-110">Sisestage või valige väärtus väljal Isik.</span><span class="sxs-lookup"><span data-stu-id="a41a5-110">In the Person field, enter or select a value.</span></span>
+4. <span data-ttu-id="a41a5-111">Sisestage või valige väärtus väljal Laenuartikkel.</span><span class="sxs-lookup"><span data-stu-id="a41a5-111">In the Loan item field, enter or select a value.</span></span>
+5. <span data-ttu-id="a41a5-112">Sisestage väljale Plaanitud tagastus kuupäev, mil töötaja peab laenuartikli tagastama.</span><span class="sxs-lookup"><span data-stu-id="a41a5-112">In the Planned return field, enter the date the employee needs to return the loan item.</span></span>
+6. <span data-ttu-id="a41a5-113">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="a41a5-113">Click Save.</span></span>
+7. <span data-ttu-id="a41a5-114">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="a41a5-114">Close the page.</span></span>
 
-## <a name="return-a-loan-item"></a>Laenuartikli tagastamine
-1. Avage Personaliarvestus > Töötajad > Laenuartiklid > Laenatud seadmed.
-2. Klõpsake nuppu Redigeeri.
-3. Sisestage kuupäev väljale Tegelik tagastus.
+## <a name="return-a-loan-item"></a><span data-ttu-id="a41a5-115">Laenuartikli tagastamine</span><span class="sxs-lookup"><span data-stu-id="a41a5-115">Return a loan item</span></span>
+1. <span data-ttu-id="a41a5-116">Avage Personaliarvestus > Töötajad > Laenuartiklid > Laenatud seadmed.</span><span class="sxs-lookup"><span data-stu-id="a41a5-116">Go to Human resources > Workers > Loan items > Loaned equipment.</span></span>
+2. <span data-ttu-id="a41a5-117">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="a41a5-117">Click Edit.</span></span>
+3. <span data-ttu-id="a41a5-118">Sisestage kuupäev väljale Tegelik tagastus.</span><span class="sxs-lookup"><span data-stu-id="a41a5-118">In the Actual return field, enter a date.</span></span>
 
 

@@ -23,24 +23,24 @@ ms.contentlocale: et-ee
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="set-up-transportation-constraints-for-an-item"></a>Kauba transpordipiirangute seadistamine
+# <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="2f075-103">Kauba transpordipiirangute seadistamine</span><span class="sxs-lookup"><span data-stu-id="2f075-103">Set up transportation constraints for an item</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selle protseduuri saab seadistada transpordipiirangu, et vältida valitud kauba transportimist valitud keskuse kaudu. Seda ülesannet täidab tavaliselt transpordi koordinaator. Saate seda protseduuri kasutada demoettevõttes USMF või oma andmeid kasutades.
+<span data-ttu-id="2f075-104">Selle protseduuri saab seadistada transpordipiirangu, et vältida valitud kauba transportimist valitud keskuse kaudu.</span><span class="sxs-lookup"><span data-stu-id="2f075-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="2f075-105">Seda ülesannet täidab tavaliselt transpordi koordinaator.</span><span class="sxs-lookup"><span data-stu-id="2f075-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="2f075-106">Saate seda protseduuri kasutada demoettevõttes USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="2f075-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
 
 
-## <a name="create-an-item-constaint"></a>Kauba piirangu loomine
-1. Minge asukohta Piirangud.
-2. Klõpsake valikut Uus.
-3. Tippige väärtus väljale Kauba piirang.
-4. Sisestage väärtus väljale Nimi.
-5. Sisestage või valige väärtus väljal Koht.
-6. Sisestage või valige väärtus väljal Ladu.
-7. Sisestage või valige väärtus väljal Kaubakood.
-8. Sisestage või valige väärtus väljal Keskus.
-9. Valige suvand väljal Piirangu tegevus.
-10. Klõpsake nuppu Salvesta.
-11. Sulgege leht.
+## <a name="create-an-item-constaint"></a><span data-ttu-id="2f075-107">Kauba piirangu loomine</span><span class="sxs-lookup"><span data-stu-id="2f075-107">Create an item constaint</span></span>
+1. <span data-ttu-id="2f075-108">Minge asukohta Piirangud.</span><span class="sxs-lookup"><span data-stu-id="2f075-108">Go to Constraints.</span></span>
+2. <span data-ttu-id="2f075-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2f075-109">Click New.</span></span>
+3. <span data-ttu-id="2f075-110">Tippige väärtus väljale Kauba piirang.</span><span class="sxs-lookup"><span data-stu-id="2f075-110">In the Item constraint field, type a value.</span></span>
+4. <span data-ttu-id="2f075-111">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="2f075-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="2f075-112">Sisestage või valige väärtus väljal Koht.</span><span class="sxs-lookup"><span data-stu-id="2f075-112">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="2f075-113">Sisestage või valige väärtus väljal Ladu.</span><span class="sxs-lookup"><span data-stu-id="2f075-113">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="2f075-114">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="2f075-114">In the Item number field, enter or select a value.</span></span>
+8. <span data-ttu-id="2f075-115">Sisestage või valige väärtus väljal Keskus.</span><span class="sxs-lookup"><span data-stu-id="2f075-115">In the Hub field, enter or select a value.</span></span>
+9. <span data-ttu-id="2f075-116">Valige suvand väljal Piirangu tegevus.</span><span class="sxs-lookup"><span data-stu-id="2f075-116">In the Constraint action field, select an option.</span></span>
+10. <span data-ttu-id="2f075-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2f075-117">Click Save.</span></span>
+11. <span data-ttu-id="2f075-118">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2f075-118">Close the page.</span></span>
 
 

@@ -16,32 +16,32 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e19022ee497148a90bbbf96d10c1c024cb02cdbf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 928fe98c089ec907a5b59864f902910f51ce1fd1
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-validate-journals"></a>Töölehtede loomine ja kinnitamine
+# <a name="create-and-validate-journals"></a><span data-ttu-id="fa0e9-103">Töölehtede loomine ja kinnitamine</span><span class="sxs-lookup"><span data-stu-id="fa0e9-103">Create and validate journals</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selles ülesandejuhendis luuakse ja kinnitatakse töölehed ning tööleheread. Ülesandes kasutatakse demoettevõtte USMF andmeid.  
+<span data-ttu-id="fa0e9-104">Selles ülesandejuhendis luuakse ja kinnitatakse töölehed ning tööleheread.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="fa0e9-105">Ülesandes kasutatakse demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-105">This tasks uses the USMF demo company.</span></span>  
 
 
 
-1. Avage Pearaamat > Töölehe sisestused > Päevaraamatud.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.
-4. Otsige loendist ja valige soovitud kirje.
-5. Klõpsake valikut Read.
-6. Sisestage konto tüübi põhjal väljale Konto sobiv konto.
-7. Sisestage väärtus väljale Kirjeldus.
-8. Sisestage jaotises Deebet või Kreedit väljale Konto soovitud summa. Selles ülesandejuhendis eeldatakse deebetsummat.
-9. Sisestage vastaskonto tüübi põhjal väljale Vastaskonto sobiv konto.
-10. Klõpsake suvandit Kinnita.
-11. Klõpsake suvandit Kinnita.
-12. Klõpsake valikut Sisesta.
-13. Klõpsake suvandit Kanne.
+1. <span data-ttu-id="fa0e9-106">Avage Pearaamat > Töölehe sisestused > Päevaraamatud.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-106">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="fa0e9-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-107">Click New.</span></span>
+3. <span data-ttu-id="fa0e9-108">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="fa0e9-109">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="fa0e9-110">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-110">Click Lines.</span></span>
+6. <span data-ttu-id="fa0e9-111">Sisestage konto tüübi põhjal väljale Konto sobiv konto.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-111">In the Account field enter an appropriate account based on the Account type.</span></span>
+7. <span data-ttu-id="fa0e9-112">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-112">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="fa0e9-113">Sisestage jaotises Deebet või Kreedit väljale Konto soovitud summa.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="fa0e9-114">Selles ülesandejuhendis eeldatakse deebetsummat.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-114">This task guide is assuming a debit amount.</span></span>
+9. <span data-ttu-id="fa0e9-115">Sisestage vastaskonto tüübi põhjal väljale Vastaskonto sobiv konto.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
+10. <span data-ttu-id="fa0e9-116">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-116">Click Validate.</span></span>
+11. <span data-ttu-id="fa0e9-117">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-117">Click Validate.</span></span>
+12. <span data-ttu-id="fa0e9-118">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-118">Click Post.</span></span>
+13. <span data-ttu-id="fa0e9-119">Klõpsake suvandit Kanne.</span><span class="sxs-lookup"><span data-stu-id="fa0e9-119">Click Voucher.</span></span>
 
 

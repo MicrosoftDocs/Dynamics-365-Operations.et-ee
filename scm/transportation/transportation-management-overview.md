@@ -15,24 +15,24 @@ ms.custom: 30251
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2fbea4f5e86a6bef98be5df3a2b69aac36e371e5
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: ccd167b2c90b2602a79dcb1cc8577020a60327b8
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="transportation-management-overview"></a>Transpordihalduse ülevaade
+# <a name="transportation-management-overview"></a><span data-ttu-id="74bd1-103">Transpordihalduse ülevaade</span><span class="sxs-lookup"><span data-stu-id="74bd1-103">Transportation management overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas antakse ülevaade transpordihalduse funktsioonidest rakenduses Microsoft Dynamics 365 for Finance and Operations.
+<span data-ttu-id="74bd1-104">Selles teemas antakse ülevaade transpordihalduse funktsioonidest rakenduses Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="74bd1-104">This topic gives an overview of the transportation management functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-Moodul Transpordihaldus võimaldab hallata ettevõtte transporti ning tuvastada ka hankijat ja marsruudilahendusi nii sissetulevate kui ka väljaminevate tellimuste puhul. Näiteks saate tuvastada kiireima marsruudi või soodsaima transpordihinna. Järgmine tabel kirjeldab peamisi stsenaariume transpordihalduse kasutamiseks rakenduses Microsoft Dynamics 365 for Finance and Operations.
+<span data-ttu-id="74bd1-105">Moodul Transpordihaldus võimaldab hallata ettevõtte transporti ning tuvastada ka hankijat ja marsruudilahendusi nii sissetulevate kui ka väljaminevate tellimuste puhul.</span><span class="sxs-lookup"><span data-stu-id="74bd1-105">Transportation management lets you use manage your company’s transportation, and also lets you identify vendor and routing solutions for inbound and outbound orders.</span></span> <span data-ttu-id="74bd1-106">Näiteks saate tuvastada kiireima marsruudi või soodsaima transpordihinna.</span><span class="sxs-lookup"><span data-stu-id="74bd1-106">For example, you can identify the fastest route or the least expensive rate for a shipment.</span></span> <span data-ttu-id="74bd1-107">Järgmine tabel kirjeldab peamisi stsenaariume transpordihalduse kasutamiseks rakenduses Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="74bd1-107">The following table describes the main scenarios for using Transportation management in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
 <table>
 <colgroup>
@@ -41,50 +41,50 @@ Moodul Transpordihaldus võimaldab hallata ettevõtte transporti ning tuvastada 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stsenaarium</th>
-<th>Kuidas transpordihaldus võib abiks olla</th>
+<th><span data-ttu-id="74bd1-108">Stsenaarium</span><span class="sxs-lookup"><span data-stu-id="74bd1-108">Scenario</span></span></th>
+<th><span data-ttu-id="74bd1-109">Kuidas transpordihaldus võib abiks olla</span><span class="sxs-lookup"><span data-stu-id="74bd1-109">How Transportation management can help</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Saate kasutada transporditegevuste puhul väliseid logistikateenuste osutajaid.</td>
-<td>Transpordihaldust saab kasutada sissetuleva ja väljamineva transpordi jaoks.</td>
+<td><span data-ttu-id="74bd1-110">Saate kasutada transporditegevuste puhul väliseid logistikateenuste osutajaid.</span><span class="sxs-lookup"><span data-stu-id="74bd1-110">Use external logistics providers for transportation activities.</span></span></td>
+<td><span data-ttu-id="74bd1-111">Transpordihaldust saab kasutada sissetuleva ja väljamineva transpordi jaoks.</span><span class="sxs-lookup"><span data-stu-id="74bd1-111">Use Transportation management for inbound and/or outbound transportation.</span></span></td>
 </tr>
 <tr class="even">
-<td>Ettevõtte enda autopark on kohaletoimetamiseks/pealevõtmiseks kättesaadav ja transpordikulude eest esitatakse arve kliendile.</td>
-<td>Väljaminevate protsesside puhul võib kasutada transpordihalduse moodulit transporditasude määratlemiseks ja nende eest klientidele arve esitamiseks. Kuid vedaja arve vastavusseviimise protsessi pole vaja.</td>
+<td><span data-ttu-id="74bd1-112">Ettevõtte enda autopark on kohaletoimetamiseks/pealevõtmiseks kättesaadav ja transpordikulude eest esitatakse arve kliendile.</span><span class="sxs-lookup"><span data-stu-id="74bd1-112">The company's own fleet is available for delivery/pickup, and delivery charges are passed on to customers.</span></span></td>
+<td><span data-ttu-id="74bd1-113">Väljaminevate protsesside puhul võib kasutada transpordihalduse moodulit transporditasude määratlemiseks ja nende eest klientidele arve esitamiseks.</span><span class="sxs-lookup"><span data-stu-id="74bd1-113">For the outbound processes, you can use Transportation management to determine the transportation charges and pass them on to customers.</span></span> <span data-ttu-id="74bd1-114">Kuid vedaja arve vastavusseviimise protsessi pole vaja.</span><span class="sxs-lookup"><span data-stu-id="74bd1-114">However, the carrier invoice reconciliation process isn't required.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Ettevõtte oma autopark on kohaletoimetamiseks/pealevõtmiseks kättesaadav, kuid transporditasude eest ei esitata klientidele arveid, kuna transport sisaldub toodete hinnas.</td>
-<td>Paljusid transpordihalduse mooduli funktsioone pole vaja. Kuid võite kasutada transpordihaldust transpordihindade määratlemiseks ja müügihinna vastavaks korrigeerimiseks.</td>
+<td><span data-ttu-id="74bd1-115">Ettevõtte oma autopark on kohaletoimetamiseks/pealevõtmiseks kättesaadav, kuid transporditasude eest ei esitata klientidele arveid, kuna transport sisaldub toodete hinnas.</span><span class="sxs-lookup"><span data-stu-id="74bd1-115">The company's own fleet is available for delivery/pickup, but delivery charges aren't passed on to customers, because product prices include transportation.</span></span></td>
+<td><span data-ttu-id="74bd1-116">Paljusid transpordihalduse mooduli funktsioone pole vaja.</span><span class="sxs-lookup"><span data-stu-id="74bd1-116">A lot of the Transportation management functionality isn't required.</span></span> <span data-ttu-id="74bd1-117">Kuid võite kasutada transpordihaldust transpordihindade määratlemiseks ja müügihinna vastavaks korrigeerimiseks.</span><span class="sxs-lookup"><span data-stu-id="74bd1-117">However, you can use Transportation management to determine the transportation rates and adjust the sales price accordingly.</span></span></td>
 </tr>
 <tr class="even">
-<td>Logistikateenust osutab samas firmas teine juriidiline isik.</td>
+<td><span data-ttu-id="74bd1-118">Logistikateenust osutab samas firmas teine juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="74bd1-118">Logistics service is provided by another legal entity in the same company.</span></span></td>
 <td><ul>
-<li>Transpordihaldust saab kasutada, käsitledes teist juriidilist isikut sarnaselt igale muule vedajale. Juriidiliste isikute vahelisi majanduskandeid ei saa automatiseerida. Seetõttu tuleb need kanded käsitsi töödelda (nt luues ostutellimuse).</li>
-<li>Logistikateenuseid osutavad juriidilises isikus saab transpordihalduse moodulit kasutada transpordihindade määratlemiseks.</li>
+<li><span data-ttu-id="74bd1-119">Transpordihaldust saab kasutada, käsitledes teist juriidilist isikut sarnaselt igale muule vedajale.</span><span class="sxs-lookup"><span data-stu-id="74bd1-119">You can use Transportation management by treating the other legal entity like any other shipping carrier.</span></span> <span data-ttu-id="74bd1-120">Juriidiliste isikute vahelisi majanduskandeid ei saa automatiseerida.</span><span class="sxs-lookup"><span data-stu-id="74bd1-120">You can't automate the economic transactions between legal entities.</span></span> <span data-ttu-id="74bd1-121">Seetõttu tuleb need kanded käsitsi töödelda (nt luues ostutellimuse).</span><span class="sxs-lookup"><span data-stu-id="74bd1-121">Therefore, you must handle these transactions manually (for example, by creating a purchase order).</span></span></li>
+<li><span data-ttu-id="74bd1-122">Logistikateenuseid osutavad juriidilises isikus saab transpordihalduse moodulit kasutada transpordihindade määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="74bd1-122">In the legal entity that provides the logistics services, Transportation management can be used to determine transportation rates.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-finance-and-operations"></a>Transpordi plaanimine rakenduses Finance and Operations
-Transpordihalduse moodulis võib transpordi plaanimine põhineda tellimustel või saadetistel, mis nende tellimuste põhjal luuakse. Saadetised on alati mingil ajahetkel olemas, kuid neid pole transpordi plaanimiseks vaja. Üleviimistellimused kuuluvad väljamineva transpordi stsenaariumi ja neid saab plaanida koos müügitellimustega. 
+## <a name="planning-transportation-in-finance-and-operations"></a><span data-ttu-id="74bd1-123">Transpordi plaanimine rakenduses Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="74bd1-123">Planning transportation in Finance and Operations</span></span>
+<span data-ttu-id="74bd1-124">Transpordihalduse moodulis võib transpordi plaanimine põhineda tellimustel või saadetistel, mis nende tellimuste põhjal luuakse.</span><span class="sxs-lookup"><span data-stu-id="74bd1-124">In Transportation management, transportation planning can be based either on orders or on the shipments that are created based on those orders.</span></span> <span data-ttu-id="74bd1-125">Saadetised on alati mingil ajahetkel olemas, kuid neid pole transpordi plaanimiseks vaja.</span><span class="sxs-lookup"><span data-stu-id="74bd1-125">The shipments always exist at some point in time but aren't required for transportation planning.</span></span> <span data-ttu-id="74bd1-126">Üleviimistellimused kuuluvad väljamineva transpordi stsenaariumi ja neid saab plaanida koos müügitellimustega.</span><span class="sxs-lookup"><span data-stu-id="74bd1-126">Transfer orders are part of the outbound scenario and can be planned together with sales orders.</span></span> 
 
 ![Koorma joonis](./media/Load-drawing1-1024x477.jpg)
 
-## <a name="inbound-transportation"></a>Sissetulev transport
-Kui tellite hankijalt tellimuse kaubad ja kaubad tuleb lattu tarnida, peate soovi korral ise kaupade transpordi korraldama. Rakendust Finance and Operations saab kasutada transpordi ja sissetuleva koorma vastuvõtmise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog sissetuleva koorma transpordi planeerimiseks. 
+## <a name="inbound-transportation"></a><span data-ttu-id="74bd1-128">Sissetulev transport</span><span class="sxs-lookup"><span data-stu-id="74bd1-128">Inbound transportation</span></span>
+<span data-ttu-id="74bd1-129">Kui tellite hankijalt tellimuse kaubad ja kaubad tuleb lattu tarnida, peate soovi korral ise kaupade transpordi korraldama.</span><span class="sxs-lookup"><span data-stu-id="74bd1-129">When you order items from a vendor, and the items must be delivered to your warehouse, you might want to arrange the transport of the items yourself.</span></span> <span data-ttu-id="74bd1-130">Rakendust Finance and Operations saab kasutada transpordi ja sissetuleva koorma vastuvõtmise plaanimiseks.</span><span class="sxs-lookup"><span data-stu-id="74bd1-130">You can use Finance and Operations to plan the transportation and receipt of the inbound load.</span></span> <span data-ttu-id="74bd1-131">Järgmisel joonisel on näidatud äriprotsessi voog sissetuleva koorma transpordi planeerimiseks.</span><span class="sxs-lookup"><span data-stu-id="74bd1-131">The following illustration shows the business process flow for planning transportation for an inbound load.</span></span> 
 
 ![Äriprotsessi voog sissetulevate koormate transportimiseks](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
-## <a name="outbound-transportation"></a>Väljaminev transport
-Saate planeerida ja töödelda väljaminevat koormat konkreetsete kaupade saatmiseks ettevõtte laost kliendile. Rakendust Finance and Operations saab kasutada transpordi ja väljamineva koorma lähetamise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog väljaminevate koormate planeerimiseks ja töötlemiseks. 
+## <a name="outbound-transportation"></a><span data-ttu-id="74bd1-133">Väljaminev transport</span><span class="sxs-lookup"><span data-stu-id="74bd1-133">Outbound transportation</span></span>
+<span data-ttu-id="74bd1-134">Saate planeerida ja töödelda väljaminevat koormat konkreetsete kaupade saatmiseks ettevõtte laost kliendile.</span><span class="sxs-lookup"><span data-stu-id="74bd1-134">You can plan and process an outbound load to ship specific items from a company’s warehouse to a customer.</span></span> <span data-ttu-id="74bd1-135">Rakendust Finance and Operations saab kasutada transpordi ja väljamineva koorma lähetamise plaanimiseks.</span><span class="sxs-lookup"><span data-stu-id="74bd1-135">You can use Finance and Operations to plan the transportation and shipping of an outbound load.</span></span> <span data-ttu-id="74bd1-136">Järgmisel joonisel on näidatud äriprotsessi voog väljaminevate koormate planeerimiseks ja töötlemiseks.</span><span class="sxs-lookup"><span data-stu-id="74bd1-136">The following illustration shows the business process flow for planning and processing outbound loads for shipping.</span></span> 
 
 ![Väljaminevate koormate plaanimine ja töötlemine](./media/Planningandprocessingoutboundloads.jpg)
 
-## <a name="load-building"></a>Koorma koostamine
-Finance and Operations pakub koorma koostamise strateegiat, mille nimi on Mahupõhine koorma koostamise strateegia. See strateegia võimaldab kasutada koorma mallil kõrguse ja kaalu kohta määratud maksimumväärtusi või alistada sätted, sisestades uusi väärtusi. Selle strateegia kasutamiseks valige see väljalt **Koorma koostamise strateegia** kiirkaardil **Seadistus** lehel **Koorma koostamise töölaud**. Lisaks saate lisada oma koorma koostamise strateegiaid, luues rakendusobjektide puul (AOT) uue klassi.
+## <a name="load-building"></a><span data-ttu-id="74bd1-138">Koorma koostamine</span><span class="sxs-lookup"><span data-stu-id="74bd1-138">Load building</span></span>
+<span data-ttu-id="74bd1-139">Finance and Operations pakub koorma koostamise strateegiat, mille nimi on Mahupõhine koorma koostamise strateegia.</span><span class="sxs-lookup"><span data-stu-id="74bd1-139">Finance and Operations provides a load building strategy that is named the Volume-based load building strategy.</span></span> <span data-ttu-id="74bd1-140">See strateegia võimaldab kasutada koorma mallil kõrguse ja kaalu kohta määratud maksimumväärtusi või alistada sätted, sisestades uusi väärtusi.</span><span class="sxs-lookup"><span data-stu-id="74bd1-140">This strategy lets you use the maximum values that are specified for height and weight in the load template, or you can override the settings by entering new values.</span></span> <span data-ttu-id="74bd1-141">Selle strateegia kasutamiseks valige see väljalt **Koorma koostamise strateegia** kiirkaardil **Seadistus** lehel **Koorma koostamise töölaud**.</span><span class="sxs-lookup"><span data-stu-id="74bd1-141">To use this strategy, select it in the **Load building strategy** field on the **Setup** FastTab on the **Load building workbench** page.</span></span> <span data-ttu-id="74bd1-142">Lisaks saate lisada oma koorma koostamise strateegiaid, luues rakendusobjektide puul (AOT) uue klassi.</span><span class="sxs-lookup"><span data-stu-id="74bd1-142">In addition, you can add your own load-building strategies by creating a new class in the Application Object Tree (AOT).</span></span>
 
 
 

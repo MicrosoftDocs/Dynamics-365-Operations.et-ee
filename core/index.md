@@ -16,19 +16,19 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
-ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: d38ad734d7e44c981304dd1c1c7cf61a60759285
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="introduction-to-dynamics-365-for-finance-and-operations"></a>Sissejuhatus rakendusse Dynamics 365 for Finance and Operations
+# <a name="introduction-to-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="811c6-104">Sissejuhatus rakendusse Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="811c6-104">Introduction to Dynamics 365 for Finance and Operations</span></span>
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations on Microsofti ärirakendus ettevõtetele. See võimaldab inimestel kiiresti teha targemaid otsuseid nutika kasutajaliidese kaudu, mis annab juurdepääsu reaalajas ülevaadetele ja andmetele. See võimaldab ettevõtetel areneda ja teha uuendusi, pakkudes tõestatud äriloogikat, mis võimaldab neil äriprotsesse kiiremini ümber kujundada. See annab ettevõtetele paindlikkuse kasvada omas tempos ja tegeleda ettevõtlusega peaaegu kõikjal ning igal ajal, võimaldades skaleerida toiminguid ärivajaduste rahuldamiseks üleilmselt. 
+<span data-ttu-id="811c6-105">Microsoft Dynamics 365 for Finance and Operations on Microsofti ärirakendus ettevõtetele.</span><span class="sxs-lookup"><span data-stu-id="811c6-105">Microsoft Dynamics 365 for Finance and Operations is Microsoft’s business application for enterprises.</span></span> <span data-ttu-id="811c6-106">See võimaldab inimestel kiiresti teha targemaid otsuseid nutika kasutajaliidese kaudu, mis annab juurdepääsu reaalajas ülevaadetele ja andmetele.</span><span class="sxs-lookup"><span data-stu-id="811c6-106">It enables people to quickly make smarter decisions through an intelligent user interface that provides access to real-time insights and data.</span></span> <span data-ttu-id="811c6-107">See võimaldab ettevõtetel areneda ja teha uuendusi, pakkudes tõestatud äriloogikat, mis võimaldab neil äriprotsesse kiiremini ümber kujundada.</span><span class="sxs-lookup"><span data-stu-id="811c6-107">It enables businesses to transform and innovate by delivering proven business logic that allows them to redesign their business processes faster.</span></span> <span data-ttu-id="811c6-108">See annab ettevõtetele paindlikkuse kasvada omas tempos ja tegeleda ettevõtlusega peaaegu kõikjal ning igal ajal, võimaldades skaleerida toiminguid ärivajaduste rahuldamiseks üleilmselt.</span><span class="sxs-lookup"><span data-stu-id="811c6-108">It gives businesses the flexibility to grow at their own pace and do business nearly anywhere, anytime, allowing them to scale their operations globally to meet business needs.</span></span> 
 
-See dokumentatsioon annab teile teada, kuidas rakendust Dynamics 365 for Finance and Operations oma ettevõttes tõhusalt ära kasutada. Dokumentatsioon on ühendatud seotud toodete Dynamics 365 for Retail ja Dynamics 365 for Talent dokumentatsiooniga. 
+<span data-ttu-id="811c6-109">See dokumentatsioon annab teile teada, kuidas rakendust Dynamics 365 for Finance and Operations oma ettevõttes tõhusalt ära kasutada.</span><span class="sxs-lookup"><span data-stu-id="811c6-109">This documentation can help you learn how to make Dynamics 365 for Finance and Operations work for your business.</span></span> <span data-ttu-id="811c6-110">Dokumentatsioon on ühendatud seotud toodete Dynamics 365 for Retail ja Dynamics 365 for Talent dokumentatsiooniga.</span><span class="sxs-lookup"><span data-stu-id="811c6-110">It is connected to documentation for the related products: Dynamics 365 for Retail, and Dynamics 365 for Talent.</span></span> 
 
 <table>
 <colgroup>
@@ -39,85 +39,85 @@ See dokumentatsioon annab teile teada, kuidas rakendust Dynamics 365 for Finance
 <tbody>
 <tr class="odd">
 <td>
-<h3><a href="../fin-and-ops/get-started/before-you-buy">Enne ostmist</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">Eelvaatetellimuse saajaks registreerumine</a></p>
- <p><a href="../dev-itpro/deployment/choose-deployment-type">Juurutamissuvandi valimine</a></p>
-<p>Rakenduse Finance and Operations ostmine</p>
+<h3><span data-ttu-id="811c6-111"><a href="../fin-and-ops/get-started/before-you-buy">Enne ostmist</a></span><span class="sxs-lookup"><span data-stu-id="811c6-111"><a href="../fin-and-ops/get-started/before-you-buy">Before you buy</a></span></span></h3>
+<p><span data-ttu-id="811c6-112"><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">Eelvaatetellimuse saajaks registreerumine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-112"><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">Sign up for a preview subscription</a></span></span></p>
+ <p><span data-ttu-id="811c6-113"><a href="../dev-itpro/deployment/choose-deployment-type">Juurutamissuvandi valimine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-113"><a href="../dev-itpro/deployment/choose-deployment-type">Choose a deployment option</a></span></span></p>
+<p><span data-ttu-id="811c6-114">Rakenduse Finance and Operations ostmine</span><span class="sxs-lookup"><span data-stu-id="811c6-114">Buy Finance and Operations</span></span></p>
  <ul style="list-style-type:none">
-  <p><a href="../fin-and-ops/get-started/fasttrack-dynamics-365-overview">FastTrack for Dynamics 365</a></p>
-  <p><a href="../dev-itpro/get-started/purchase-on-premises">Rakenduse Finance and Operations kohapealse versiooni hankimine</a></p></ul>
+  <p><span data-ttu-id="811c6-115"><a href="../fin-and-ops/get-started/fasttrack-dynamics-365-overview">FastTrack for Dynamics 365</a></span><span class="sxs-lookup"><span data-stu-id="811c6-115"><a href="../fin-and-ops/get-started/fasttrack-dynamics-365-overview">FastTrack for Dynamics 365</a></span></span></p>
+  <p><span data-ttu-id="811c6-116"><a href="../dev-itpro/get-started/purchase-on-premises">Rakenduse Finance and Operations kohapealse versiooni hankimine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-116"><a href="../dev-itpro/get-started/purchase-on-premises">Get the on-premises version of Finance and Operations</a></span></span></p></ul>
 
-<h3><a href="../financials/index">Financials</a></h3>
-<p><a href="../financials/accounts-payable/accounts-payable">Ostureskontro</a></p>
-<p><a href="../financials/accounts-receivable/accounts-receivable">Müügireskontro</a></p>
-<p><a href="../financials/budgeting/budgeting-overview">Eelarvestamine</a></p>
-<p><a href="../financials/cash-bank-management/cash-bank-management">Sularaha- ja pangahaldus</a></p>
-<p><a href="../financials/general-ledger/audit-policy-rules">Vastavus</a></p>
-<p><a href="../financials/cost-accounting/cost-accounting-home-page">Kuluarvestus</a></p>
-<p><a href="../financials/fixed-assets/fixed-assets">Põhivarad</a></p>
-<p><a href="../financials/general-ledger/general-ledger">Pearaamat</a></p>
-<p><a href="../financials/project-management/overview-project-management-accounting">Projektihaldus</a></p>
-<p><a href="../financials/public-sector/public-sector-functionality">Avalik sektor</a></p>
-<p><a href="../dev-itpro/lcs-solutions/country-region">Regionaalsed regulatiivsed funktsioonid</a></p>
+<h3><span data-ttu-id="811c6-117"><a href="../financials/index">Financials</a></span><span class="sxs-lookup"><span data-stu-id="811c6-117"><a href="../financials/index">Financials</a></span></span></h3>
+<p><span data-ttu-id="811c6-118"><a href="../financials/accounts-payable/accounts-payable">Ostureskontro</a></span><span class="sxs-lookup"><span data-stu-id="811c6-118"><a href="../financials/accounts-payable/accounts-payable">Accounts payable</a></span></span></p>
+<p><span data-ttu-id="811c6-119"><a href="../financials/accounts-receivable/accounts-receivable">Müügireskontro</a></span><span class="sxs-lookup"><span data-stu-id="811c6-119"><a href="../financials/accounts-receivable/accounts-receivable">Accounts receivable</a></span></span></p>
+<p><span data-ttu-id="811c6-120"><a href="../financials/budgeting/budgeting-overview">Eelarvestamine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-120"><a href="../financials/budgeting/budgeting-overview">Budgeting</a></span></span></p>
+<p><span data-ttu-id="811c6-121"><a href="../financials/cash-bank-management/cash-bank-management">Sularaha- ja pangahaldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-121"><a href="../financials/cash-bank-management/cash-bank-management">Cash and bank management</a></span></span></p>
+<p><span data-ttu-id="811c6-122"><a href="../financials/general-ledger/audit-policy-rules">Vastavus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-122"><a href="../financials/general-ledger/audit-policy-rules">Compliance</a></span></span></p>
+<p><span data-ttu-id="811c6-123"><a href="../financials/cost-accounting/cost-accounting-home-page">Kuluarvestus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-123"><a href="../financials/cost-accounting/cost-accounting-home-page">Cost accounting</a></span></span></p>
+<p><span data-ttu-id="811c6-124"><a href="../financials/fixed-assets/fixed-assets">Põhivarad</a></span><span class="sxs-lookup"><span data-stu-id="811c6-124"><a href="../financials/fixed-assets/fixed-assets">Fixed assets</a></span></span></p>
+<p><span data-ttu-id="811c6-125"><a href="../financials/general-ledger/general-ledger">Pearaamat</a></span><span class="sxs-lookup"><span data-stu-id="811c6-125"><a href="../financials/general-ledger/general-ledger">General ledger</a></span></span></p>
+<p><span data-ttu-id="811c6-126"><a href="../financials/project-management/overview-project-management-accounting">Projektihaldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-126"><a href="../financials/project-management/overview-project-management-accounting">Project management</a></span></span></p>
+<p><span data-ttu-id="811c6-127"><a href="../financials/public-sector/public-sector-functionality">Avalik sektor</a></span><span class="sxs-lookup"><span data-stu-id="811c6-127"><a href="../financials/public-sector/public-sector-functionality">Public sector</a></span></span></p>
+<p><span data-ttu-id="811c6-128"><a href="../dev-itpro/lcs-solutions/country-region">Regionaalsed regulatiivsed funktsioonid</a></span><span class="sxs-lookup"><span data-stu-id="811c6-128"><a href="../dev-itpro/lcs-solutions/country-region">Regional regulatory features</a></span></span></p>
 
-<H3><a href="hr/hr-landing-page">Inimressursid</a></h3>
-<p><a href="hr/manage-recruiting-process">Värbamine</a></p>
-<p><a href="hr/localizations/noam-usa-payroll">USA palk</a></p>
+<H3><span data-ttu-id="811c6-129"><a href="hr/hr-landing-page">Inimressursid</a></span><span class="sxs-lookup"><span data-stu-id="811c6-129"><a href="hr/hr-landing-page">Human resources</a></span></span></h3>
+<p><span data-ttu-id="811c6-130"><a href="hr/manage-recruiting-process">Värbamine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-130"><a href="hr/manage-recruiting-process">Recruiting</a></span></span></p>
+<p><span data-ttu-id="811c6-131"><a href="hr/localizations/noam-usa-payroll">USA palk</a></span><span class="sxs-lookup"><span data-stu-id="811c6-131"><a href="hr/localizations/noam-usa-payroll">US payroll</a></span></span></p>
 
-<h3><a href="../supply-chain/index">Hankeahela haldamine</a></h3>
-<p><a href="../supply-chain/cost-management/costing-sheets">Kuluhaldus</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations">Varude haldus</a></p>
-<p>Logistika</p>
+<h3><span data-ttu-id="811c6-132"><a href="../supply-chain/index">Hankeahela haldamine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-132"><a href="../supply-chain/index">Supply chain management</a></span></span></h3>
+<p><span data-ttu-id="811c6-133"><a href="../supply-chain/cost-management/costing-sheets">Kuluhaldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-133"><a href="../supply-chain/cost-management/costing-sheets">Cost management</a></span></span></p>
+<p><span data-ttu-id="811c6-134"><a href="../supply-chain/inventory/inventory-locations">Varude haldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-134"><a href="../supply-chain/inventory/inventory-locations">Inventory management</a></span></span></p>
+<p><span data-ttu-id="811c6-135">Logistika</span><span class="sxs-lookup"><span data-stu-id="811c6-135">Logistics</span></span></p>
 <ul style="list-style-type:none">
-<p><a href="../supply-chain/transportation/transportation-management-overview">Transpordihaldus</a></p>
-<p><a href="../supply-chain/warehousing/warehouse-configuration">Laohaldus</a></p></ul>
-<p><a href="../supply-chain/master-planning/master-plans">Planeerimine</a></p>
-<p><a href="../supply-chain/pim/product-information">Tooteteabe haldus</a></p>
-<p><a href="../supply-chain/production-control/create-production-orders">Tootmise juhtimine</a></p>
-<p>Tellimuste haldus</p>
+<p><span data-ttu-id="811c6-136"><a href="../supply-chain/transportation/transportation-management-overview">Transpordihaldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-136"><a href="../supply-chain/transportation/transportation-management-overview">Transportation management</a></span></span></p>
+<p><span data-ttu-id="811c6-137"><a href="../supply-chain/warehousing/warehouse-configuration">Laohaldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-137"><a href="../supply-chain/warehousing/warehouse-configuration">Warehouse management</a></span></span></p></ul>
+<p><span data-ttu-id="811c6-138"><a href="../supply-chain/master-planning/master-plans">Planeerimine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-138"><a href="../supply-chain/master-planning/master-plans">Planning</a></span></span></p>
+<p><span data-ttu-id="811c6-139"><a href="../supply-chain/pim/product-information">Tooteteabe haldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-139"><a href="../supply-chain/pim/product-information">Product information management</a></span></span></p>
+<p><span data-ttu-id="811c6-140"><a href="../supply-chain/production-control/create-production-orders">Tootmise juhtimine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-140"><a href="../supply-chain/production-control/create-production-orders">Production control</a></span></span></p>
+<p><span data-ttu-id="811c6-141">Tellimuste haldus</span><span class="sxs-lookup"><span data-stu-id="811c6-141">Order management</span></span></p>
   <ul style="list-style-type:none">
-  <p><a href="../supply-chain/procurement/procurement-sourcing-overview">Hanked</a></p>
-  <p><a href="../supply-chain/sales-marketing/overview-sales-marketing">Müük ja turundus</a></p></ul>
+  <p><span data-ttu-id="811c6-142"><a href="../supply-chain/procurement/procurement-sourcing-overview">Hanked</a></span><span class="sxs-lookup"><span data-stu-id="811c6-142"><a href="../supply-chain/procurement/procurement-sourcing-overview">Procurement and sourcing</a></span></span></p>
+  <p><span data-ttu-id="811c6-143"><a href="../supply-chain/sales-marketing/overview-sales-marketing">Müük ja turundus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-143"><a href="../supply-chain/sales-marketing/overview-sales-marketing">Sales and marketing</a></span></span></p></ul>
 </td>
 <td>
-<h3><a href="../dev-itpro/analytics/information-access-reporting">Äriteave</a></h3>
-<p><a href="../dev-itpro/analytics/analytics">Analüütika</a></p>
- <p><a href="../dev-itpro/analytics/document-reporting-services">Äridokumendid</a></p>
-<p><a href="../dev-itpro/analytics/financial-reporting-intro">Finantsaruandlus</a></p>
-<p><a href="../dev-itpro/analytics/general-electronic-reporting">Regulatiivne aruandlus</a></p>
+<h3><span data-ttu-id="811c6-144"><a href="../dev-itpro/analytics/information-access-reporting">Äriteave</a></span><span class="sxs-lookup"><span data-stu-id="811c6-144"><a href="../dev-itpro/analytics/information-access-reporting">Intelligence</a></span></span></h3>
+<p><span data-ttu-id="811c6-145"><a href="../dev-itpro/analytics/analytics">Analüütika</a></span><span class="sxs-lookup"><span data-stu-id="811c6-145"><a href="../dev-itpro/analytics/analytics">Analytics</a></span></span></p>
+ <p><span data-ttu-id="811c6-146"><a href="../dev-itpro/analytics/document-reporting-services">Äridokumendid</a></span><span class="sxs-lookup"><span data-stu-id="811c6-146"><a href="../dev-itpro/analytics/document-reporting-services">Business documents</a></span></span></p>
+<p><span data-ttu-id="811c6-147"><a href="../dev-itpro/analytics/financial-reporting-intro">Finantsaruandlus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-147"><a href="../dev-itpro/analytics/financial-reporting-intro">Financial reporting</a></span></span></p>
+<p><span data-ttu-id="811c6-148"><a href="../dev-itpro/analytics/general-electronic-reporting">Regulatiivne aruandlus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-148"><a href="../dev-itpro/analytics/general-electronic-reporting">Regulatory reporting</a></span></span></p>
 
-<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobiilne platvorm</a></h3>
+<h3><span data-ttu-id="811c6-149"><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobiilne platvorm</a></span><span class="sxs-lookup"><span data-stu-id="811c6-149"><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobile platform</a></span></span></h3>
 
-<h3>Arendaja funktsioonid</h3>
-<p><a href="../dev-itpro/dev-tools/developer-home-page">Arendaja koduleht</a></p>
-<p><a href="../dev-itpro/extensibility/extensibility-home-page">Laiendatavus</a></p>
-<p>Integratsioon</p>
-<ul style="list-style-type:none"><p><a href="../dev-itpro/data-entities/data-entities">Andmeüksused</a></p>
-<p><a href="../dev-itpro/office-integration/office-integration">Office’i integreerimine</a></p></ul></p>
-<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Pidev tarne</a></p>
-<p><a href="../dev-itpro/get-started/demo-data">Demoandmed</a></p>
+<h3><span data-ttu-id="811c6-150">Arendaja funktsioonid</span><span class="sxs-lookup"><span data-stu-id="811c6-150">Developer functionality</span></span></h3>
+<p><span data-ttu-id="811c6-151"><a href="../dev-itpro/dev-tools/developer-home-page">Arendaja koduleht</a></span><span class="sxs-lookup"><span data-stu-id="811c6-151"><a href="../dev-itpro/dev-tools/developer-home-page">Developer home page</a></span></span></p>
+<p><span data-ttu-id="811c6-152"><a href="../dev-itpro/extensibility/extensibility-home-page">Laiendatavus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-152"><a href="../dev-itpro/extensibility/extensibility-home-page">Extensibility</a></span></span></p>
+<p><span data-ttu-id="811c6-153">Integratsioon</span><span class="sxs-lookup"><span data-stu-id="811c6-153">Integration</span></span></p>
+<ul style="list-style-type:none"><p><span data-ttu-id="811c6-154"><a href="../dev-itpro/data-entities/data-entities">Andmeüksused</a></span><span class="sxs-lookup"><span data-stu-id="811c6-154"><a href="../dev-itpro/data-entities/data-entities">Data entities</a></span></span></p>
+<p><span data-ttu-id="811c6-155"><a href="../dev-itpro/office-integration/office-integration">Office’i integreerimine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-155"><a href="../dev-itpro/office-integration/office-integration">Office integration</a></span></span></p></ul></p>
+<p><span data-ttu-id="811c6-156"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Pidev tarne</a></span><span class="sxs-lookup"><span data-stu-id="811c6-156"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Continuous delivery</a></span></span></p>
+<p><span data-ttu-id="811c6-157"><a href="../dev-itpro/get-started/demo-data">Demoandmed</a></span><span class="sxs-lookup"><span data-stu-id="811c6-157"><a href="../dev-itpro/get-started/demo-data">Demo data</a></span></span></p>
 
-<h3>Administraatori funktsioonid</h3>
-<p><a href="../fin-and-ops/get-started/onboarding-home">Kasutuselevõtt organisatsioonis</a></p>
-<p><a href="../dev-itpro/deployment/deploy-demo-environment">Juurutamine ja hooldus</a></p>
-<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Täiendamine</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Andmehaldus</a></p>
-<p><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></p>
-<p><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organisatsioonihaldus</a></p>
-<p><a href="../dev-itpro/sysadmin/system-administration-home-page">Süsteemihaldus</a></p>
+<h3><span data-ttu-id="811c6-158">Administraatori funktsioonid</span><span class="sxs-lookup"><span data-stu-id="811c6-158">Administrator functionality</span></span></h3>
+<p><span data-ttu-id="811c6-159"><a href="../fin-and-ops/get-started/onboarding-home">Kasutuselevõtt organisatsioonis</a></span><span class="sxs-lookup"><span data-stu-id="811c6-159"><a href="../fin-and-ops/get-started/onboarding-home">Onboarding your organization</a></span></span></p>
+<p><span data-ttu-id="811c6-160"><a href="../dev-itpro/deployment/deploy-demo-environment">Juurutamine ja hooldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-160"><a href="../dev-itpro/deployment/deploy-demo-environment">Deployment and servicing</a></span></span></p>
+<p><span data-ttu-id="811c6-161"><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Täiendamine</a></span><span class="sxs-lookup"><span data-stu-id="811c6-161"><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Upgrade</a></span></span></p>
+<p><span data-ttu-id="811c6-162"><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Andmehaldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-162"><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Data management</a></span></span></p>
+<p><span data-ttu-id="811c6-163"><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></span><span class="sxs-lookup"><span data-stu-id="811c6-163"><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></span></span></p>
+<p><span data-ttu-id="811c6-164"><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organisatsioonihaldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-164"><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organization administration</a></span></span></p>
+<p><span data-ttu-id="811c6-165"><a href="../dev-itpro/sysadmin/system-administration-home-page">Süsteemihaldus</a></span><span class="sxs-lookup"><span data-stu-id="811c6-165"><a href="../dev-itpro/sysadmin/system-administration-home-page">System administration</a></span></span></p>
 </td>
 <td>
-<h3>Seotud tooted</h3>
-<h4><a href="../talent/index">Dynamics 365 for Talent</a></h4>
-<p><a href="../talent/manage-benefit-program">Soodustused</a></p>
-<p><a href="../talent/performance-management-overview">Töövõtja areng ja koolitused</a></p>
-<p><a href="../talent/questionnaires">Küsimustik</a></p>
+<h3><span data-ttu-id="811c6-166">Seotud tooted</span><span class="sxs-lookup"><span data-stu-id="811c6-166">Related products</span></span></h3>
+<h4><span data-ttu-id="811c6-167"><a href="../talent/index">Dynamics 365 for Talent</a></span><span class="sxs-lookup"><span data-stu-id="811c6-167"><a href="../talent/index">Dynamics 365 for Talent</a></span></span></h4>
+<p><span data-ttu-id="811c6-168"><a href="../talent/manage-benefit-program">Soodustused</a></span><span class="sxs-lookup"><span data-stu-id="811c6-168"><a href="../talent/manage-benefit-program">Benefits</a></span></span></p>
+<p><span data-ttu-id="811c6-169"><a href="../talent/performance-management-overview">Töövõtja areng ja koolitused</a></span><span class="sxs-lookup"><span data-stu-id="811c6-169"><a href="../talent/performance-management-overview">Employee development and training</a></span></span></p>
+<p><span data-ttu-id="811c6-170"><a href="../talent/questionnaires">Küsimustik</a></span><span class="sxs-lookup"><span data-stu-id="811c6-170"><a href="../talent/questionnaires">Questionnaire</a></span></span></p>
 
-<h4><a href="../retail/index">Dynamics 365 for Retail</a></h4>
-<p><a href="../retail/call-center-functionality">Kõnekeskus</p>
-<p><a href="../retail/define-maintain-retail-channels">Kanali seadistus ja haldamine</p>
-<p><a href="../retail/retail-peripherals-overview">MPOS ja pilve kassa</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Retaili arendaja ja haldus</p>
+<h4><span data-ttu-id="811c6-171"><a href="../retail/index">Dynamics 365 for Retail</a></span><span class="sxs-lookup"><span data-stu-id="811c6-171"><a href="../retail/index">Dynamics 365 for Retail</a></span></span></h4>
+<p><span data-ttu-id="811c6-172"><a href="../retail/call-center-functionality">Kõnekeskus</span><span class="sxs-lookup"><span data-stu-id="811c6-172"><a href="../retail/call-center-functionality">Call center</span></span></p>
+<p><span data-ttu-id="811c6-173"><a href="../retail/define-maintain-retail-channels">Kanali seadistus ja haldamine</span><span class="sxs-lookup"><span data-stu-id="811c6-173"><a href="../retail/define-maintain-retail-channels">Channel setup and management</span></span></p>
+<p><span data-ttu-id="811c6-174"><a href="../retail/retail-peripherals-overview">MPOS ja pilve kassa</span><span class="sxs-lookup"><span data-stu-id="811c6-174"><a href="../retail/retail-peripherals-overview">MPOS and Cloud POS</span></span></p>
+<p><span data-ttu-id="811c6-175"><a href="../retail/dev-itpro/dev-retail-home-page">Retaili arendaja ja haldus</span><span class="sxs-lookup"><span data-stu-id="811c6-175"><a href="../retail/dev-itpro/dev-retail-home-page">Retail developer and administration</span></span></p>
 
 </td>
 </tr>

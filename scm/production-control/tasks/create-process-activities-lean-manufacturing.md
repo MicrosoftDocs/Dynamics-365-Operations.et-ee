@@ -17,80 +17,80 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 31349983d6f21425a2da8bb19c961f05cf1ee031
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: dbedbf6cd5d366d10726a9c10846c171a297a07f
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-process-activities-for-lean-manufacturing"></a>Protsessitegevuste loomine: lean manufacturing
+# <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="b69d7-103">Protsessitegevuste loomine: lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="b69d7-103">Create process activities for lean manufacturing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Protsessitegevuse loomine lean manufacturingi jaoks. 
+<span data-ttu-id="b69d7-104">Protsessitegevuse loomine lean manufacturingi jaoks.</span><span class="sxs-lookup"><span data-stu-id="b69d7-104">Create a process activity for lean manufacturing.</span></span> 
 
-Eeltingimused: 
+<span data-ttu-id="b69d7-105">Eeltingimused:</span><span class="sxs-lookup"><span data-stu-id="b69d7-105">Prerequisites:</span></span> 
 
-1. Tuleb luua tootmisvoog ja mitteaktiivne versioon.
+1. <span data-ttu-id="b69d7-106">Tuleb luua tootmisvoog ja mitteaktiivne versioon.</span><span class="sxs-lookup"><span data-stu-id="b69d7-106">A production flow and version that is not active must be created.</span></span>
 
-2. Tuleb luua töörakk.
+2. <span data-ttu-id="b69d7-107">Tuleb luua töörakk.</span><span class="sxs-lookup"><span data-stu-id="b69d7-107">A work cell must be created.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a>Tootmisvoo versiooni leidmine
-1. Minge jaotisse Tootmise juhtimine > Seadistus > Kulusäästlik tootmisvoog > Tootmisvood.
-2. Otsige loendist ja valige soovitud kirje.
-3. Klõpsake loendis valitud real olevat linki.
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="b69d7-108">Tootmisvoo versiooni leidmine</span><span class="sxs-lookup"><span data-stu-id="b69d7-108">Find the production flow version</span></span>
+1. <span data-ttu-id="b69d7-109">Minge jaotisse Tootmise juhtimine > Seadistus > Kulusäästlik tootmisvoog > Tootmisvood.</span><span class="sxs-lookup"><span data-stu-id="b69d7-109">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="b69d7-110">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="b69d7-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="b69d7-111">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="b69d7-111">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-a-new-activity"></a>Uue tegevuse loomine
-1. Klõpsake suvandit Tegevused.
-    * Veenduge, et valitud tootmisvool oleks mustandversioon, ja valige see versioon.  
-2. Klõpsake suvandit Uue plaanitegevuse loomine.
-3. Klõpsake käsku Edasi.
-4. Sisestage väärtus väljale Nimi.
-5. Sisestage väärtus väljale Nimi.
-    * Pange tähele, et nimi peab kõnealuse tootmisvoo kõigi versioonide puhul olema kordumatu.  
-6. Sisestage number väljale Protsessikogus.
-    * Pange tähele, et olenemata töödeldavast töökogusest on see tööjõukulu arvutamiseks minimaalne kogus iga töö kohta. Kui töökogused sellest kogusest hälbivad, luuakse tööjõuhälve.  
-7. Klõpsake käsku Edasi.
+## <a name="create-a-new-activity"></a><span data-ttu-id="b69d7-112">Uue tegevuse loomine</span><span class="sxs-lookup"><span data-stu-id="b69d7-112">Create a new activity</span></span>
+1. <span data-ttu-id="b69d7-113">Klõpsake suvandit Tegevused.</span><span class="sxs-lookup"><span data-stu-id="b69d7-113">Click Activities.</span></span>
+    * <span data-ttu-id="b69d7-114">Veenduge, et valitud tootmisvool oleks mustandversioon, ja valige see versioon.</span><span class="sxs-lookup"><span data-stu-id="b69d7-114">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
+2. <span data-ttu-id="b69d7-115">Klõpsake suvandit Uue plaanitegevuse loomine.</span><span class="sxs-lookup"><span data-stu-id="b69d7-115">Click Create new plan activity.</span></span>
+3. <span data-ttu-id="b69d7-116">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="b69d7-116">Click Next.</span></span>
+4. <span data-ttu-id="b69d7-117">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="b69d7-117">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="b69d7-118">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="b69d7-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="b69d7-119">Pange tähele, et nimi peab kõnealuse tootmisvoo kõigi versioonide puhul olema kordumatu.</span><span class="sxs-lookup"><span data-stu-id="b69d7-119">Note that the name must be unique for a given production flow for all versions.</span></span>  
+6. <span data-ttu-id="b69d7-120">Sisestage number väljale Protsessikogus.</span><span class="sxs-lookup"><span data-stu-id="b69d7-120">In the Process quantity field, enter a number.</span></span>
+    * <span data-ttu-id="b69d7-121">Pange tähele, et olenemata töödeldavast töökogusest on see tööjõukulu arvutamiseks minimaalne kogus iga töö kohta.</span><span class="sxs-lookup"><span data-stu-id="b69d7-121">Note that no matter what job quantity will be processed, this is the minimum quantity per job to calculate the labor cost.</span></span> <span data-ttu-id="b69d7-122">Kui töökogused sellest kogusest hälbivad, luuakse tööjõuhälve.</span><span class="sxs-lookup"><span data-stu-id="b69d7-122">If job quantities deviate from this quantity, labor cost variance will be created.</span></span>  
+7. <span data-ttu-id="b69d7-123">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="b69d7-123">Click Next.</span></span>
 
-## <a name="select-the-work-cell"></a>Tööraku valimine
-1. Klõpsake väljal Töörakk otsingu avamiseks ripploendi nuppu.
-2. Klõpsake loendis valitud real olevat linki.
+## <a name="select-the-work-cell"></a><span data-ttu-id="b69d7-124">Tööraku valimine</span><span class="sxs-lookup"><span data-stu-id="b69d7-124">Select the work cell</span></span>
+1. <span data-ttu-id="b69d7-125">Klõpsake väljal Töörakk otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="b69d7-125">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="b69d7-126">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="b69d7-126">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-the-inventory-updates"></a>Laovarude värskenduste määratlemine
-1. Märkige või tühjendage ruut Värskenda laoseisu sissetulekut.
-    * Kui suvandi Laoseisu värskendamine sätteks on valitud Ei, saate määratleda tegevuse vastu võtma pooltoodet (tegevus ei jõua järgmisele kooslusetasemele).    Saate valida ka pooltoodete tarbimise.  
+## <a name="define-the-inventory-updates"></a><span data-ttu-id="b69d7-127">Laovarude värskenduste määratlemine</span><span class="sxs-lookup"><span data-stu-id="b69d7-127">Define the inventory updates</span></span>
+1. <span data-ttu-id="b69d7-128">Märkige või tühjendage ruut Värskenda laoseisu sissetulekut.</span><span class="sxs-lookup"><span data-stu-id="b69d7-128">Select or clear the Update on hand receipt check box.</span></span>
+    * <span data-ttu-id="b69d7-129">Kui suvandi Laoseisu värskendamine sätteks on valitud Ei, saate määratleda tegevuse vastu võtma pooltoodet (tegevus ei jõua järgmisele kooslusetasemele).</span><span class="sxs-lookup"><span data-stu-id="b69d7-129">If Update On hand = No, you can define the activity to receive a semi-finished product (the activity does not reach the next BOM level).</span></span>    <span data-ttu-id="b69d7-130">Saate valida ka pooltoodete tarbimise.</span><span class="sxs-lookup"><span data-stu-id="b69d7-130">You can also select to consume semi-finished products.</span></span>  
 
-## <a name="define-the-picking-activities"></a>Komplekteerimistegevuste määratlemine
-1. Klõpsake käsku Edasi.
-2. Märkige loendis valitud rida.
-    * Valitud tööraku sisendasukoha kohta luuakse vaikekomplekteerimistegevus.  
-3. Klõpsake vahekaarti Lisa.
-    * Saate luua kindlate toodete puhul täiendavaid komplekteerimistegevusi, mis ei ole tööraku sisendtegevuses etapiviisilised.  
-4. Otsige loendist ja valige soovitud kirje.
-5. Sisestage väärtus väljale Kaubakood.
-6. Klõpsake väljal Ladu otsingu avamiseks ripploendi nuppu.
-    * Selle määratlusega komplekteeritakse kõik tegevuses tarbitavad materjalid vaikesisendlaost ja -asukohast, v.a kaup, mis määratletakse teises komplekteerimistegevuses. See kaup komplekteeritakse teisest laost ja asukohast.  
-7. Otsige loendist ja valige soovitud kirje.
-8. Klõpsake loendis valitud real olevat linki.
-9. Märkige või tühjendage ruut Registreeri praak.
-10. Klõpsake käsku Edasi.
+## <a name="define-the-picking-activities"></a><span data-ttu-id="b69d7-131">Komplekteerimistegevuste määratlemine</span><span class="sxs-lookup"><span data-stu-id="b69d7-131">Define the picking activities</span></span>
+1. <span data-ttu-id="b69d7-132">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="b69d7-132">Click Next.</span></span>
+2. <span data-ttu-id="b69d7-133">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="b69d7-133">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="b69d7-134">Valitud tööraku sisendasukoha kohta luuakse vaikekomplekteerimistegevus.</span><span class="sxs-lookup"><span data-stu-id="b69d7-134">A default picking activity is created for the input location of the selected work cell.</span></span>  
+3. <span data-ttu-id="b69d7-135">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="b69d7-135">Click Add.</span></span>
+    * <span data-ttu-id="b69d7-136">Saate luua kindlate toodete puhul täiendavaid komplekteerimistegevusi, mis ei ole tööraku sisendtegevuses etapiviisilised.</span><span class="sxs-lookup"><span data-stu-id="b69d7-136">You can create additional picking activities for specific products, that are not staged at the work cell input activity.</span></span>  
+4. <span data-ttu-id="b69d7-137">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="b69d7-137">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="b69d7-138">Sisestage väärtus väljale Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="b69d7-138">In the Item number field, type a value.</span></span>
+6. <span data-ttu-id="b69d7-139">Klõpsake väljal Ladu otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="b69d7-139">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="b69d7-140">Selle määratlusega komplekteeritakse kõik tegevuses tarbitavad materjalid vaikesisendlaost ja -asukohast, v.a kaup, mis määratletakse teises komplekteerimistegevuses.</span><span class="sxs-lookup"><span data-stu-id="b69d7-140">With this definition, all materials consumed in the activity are picked from the default input warehouse and location except the item that is defined in the second picking activity.</span></span> <span data-ttu-id="b69d7-141">See kaup komplekteeritakse teisest laost ja asukohast.</span><span class="sxs-lookup"><span data-stu-id="b69d7-141">This item will be picked from a different warehouse and location.</span></span>  
+7. <span data-ttu-id="b69d7-142">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="b69d7-142">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="b69d7-143">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="b69d7-143">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="b69d7-144">Märkige või tühjendage ruut Registreeri praak.</span><span class="sxs-lookup"><span data-stu-id="b69d7-144">Select or clear the Register scrap check box.</span></span>
+10. <span data-ttu-id="b69d7-145">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="b69d7-145">Click Next.</span></span>
 
-## <a name="define-the-activity-times"></a>Tegevusaegade määratlemine
-1. Otsige loendist ja valige soovitud kirje.
-    * Vajalik on Käitusaja määratlus. Käitusaega kasutatakse kanban-tööde maksumuse ja läbilaskeaegade arvutamiseks. Käitusaegu ei kasutata täiskoormuse ja tarbimise arvutamiseks; neid arvutatakse tsükliaja järgi, mis saadakse tootmisvoo versiooni ülesandest.  
-2. Sisestage number väljale Kellaaeg.
-3. Sisestage väärtus väljale Ühik.
-4. Valige ajaühik.
-5. Sisestage number väljale Koguse kohta.
-6. Otsige loendist ja valige soovitud kirje.
-    * Ooteajad on valikulised.  
-7. Sisestage number väljale Kellaaeg.
-8. Sisestage väärtus väljale Ühik.
-9. Valige ajaühik.
-10. Sisestage number väljale Koguse kohta.
-11. Klõpsake käsku Edasi.
-12. Klõpsake Lõpeta.
-13. Sulgege leht.
+## <a name="define-the-activity-times"></a><span data-ttu-id="b69d7-146">Tegevusaegade määratlemine</span><span class="sxs-lookup"><span data-stu-id="b69d7-146">Define the activity times</span></span>
+1. <span data-ttu-id="b69d7-147">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="b69d7-147">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b69d7-148">Vajalik on Käitusaja määratlus.</span><span class="sxs-lookup"><span data-stu-id="b69d7-148">The definition of a Runtime is required.</span></span> <span data-ttu-id="b69d7-149">Käitusaega kasutatakse kanban-tööde maksumuse ja läbilaskeaegade arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="b69d7-149">The Runtime is used to calculate costs and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="b69d7-150">Käitusaegu ei kasutata täiskoormuse ja tarbimise arvutamiseks; neid arvutatakse tsükliaja järgi, mis saadakse tootmisvoo versiooni ülesandest.</span><span class="sxs-lookup"><span data-stu-id="b69d7-150">Runtimes are not used to calculate capacity load and consumption, this is calculated by cycle time, derived from the production flow version task.</span></span>  
+2. <span data-ttu-id="b69d7-151">Sisestage number väljale Kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="b69d7-151">In the Time field, enter a number.</span></span>
+3. <span data-ttu-id="b69d7-152">Sisestage väärtus väljale Ühik.</span><span class="sxs-lookup"><span data-stu-id="b69d7-152">In the Unit field, type a value.</span></span>
+4. <span data-ttu-id="b69d7-153">Valige ajaühik.</span><span class="sxs-lookup"><span data-stu-id="b69d7-153">Select the Time unit.</span></span>
+5. <span data-ttu-id="b69d7-154">Sisestage number väljale Koguse kohta.</span><span class="sxs-lookup"><span data-stu-id="b69d7-154">In the Per quantity field, enter a number.</span></span>
+6. <span data-ttu-id="b69d7-155">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="b69d7-155">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b69d7-156">Ooteajad on valikulised.</span><span class="sxs-lookup"><span data-stu-id="b69d7-156">Queue times are optional.</span></span>  
+7. <span data-ttu-id="b69d7-157">Sisestage number väljale Kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="b69d7-157">In the Time field, enter a number.</span></span>
+8. <span data-ttu-id="b69d7-158">Sisestage väärtus väljale Ühik.</span><span class="sxs-lookup"><span data-stu-id="b69d7-158">In the Unit field, type a value.</span></span>
+9. <span data-ttu-id="b69d7-159">Valige ajaühik.</span><span class="sxs-lookup"><span data-stu-id="b69d7-159">Select the Time unit.</span></span>
+10. <span data-ttu-id="b69d7-160">Sisestage number väljale Koguse kohta.</span><span class="sxs-lookup"><span data-stu-id="b69d7-160">In the Per quantity field, enter a number.</span></span>
+11. <span data-ttu-id="b69d7-161">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="b69d7-161">Click Next.</span></span>
+12. <span data-ttu-id="b69d7-162">Klõpsake Lõpeta.</span><span class="sxs-lookup"><span data-stu-id="b69d7-162">Click Finish.</span></span>
+13. <span data-ttu-id="b69d7-163">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="b69d7-163">Close the page.</span></span>
 
 

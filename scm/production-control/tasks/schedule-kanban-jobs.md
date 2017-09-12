@@ -16,49 +16,49 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 88399f70a3c286d536637e166e8428eae50a561d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="schedule-kanban-jobs"></a>Kanban-tööde plaanimine
+# <a name="schedule-kanban-jobs"></a><span data-ttu-id="0be96-103">Kanban-tööde plaanimine</span><span class="sxs-lookup"><span data-stu-id="0be96-103">Schedule kanban jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur keskendub protsessi kanban-tööde plaanimisele kindla tööraku puhul. Protseduur Protsessi kanban-töö ettevalmistamine materjalide mittesaadavusel tööraku puhul on selle protseduuri loomise eeltingimus. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud kanbanidega töötavale tööde järelevaatajale ja tootmise planeerijale.
+<span data-ttu-id="0be96-104">See protseduur keskendub protsessi kanban-tööde plaanimisele kindla tööraku puhul.</span><span class="sxs-lookup"><span data-stu-id="0be96-104">This procedure focuses on scheduling process kanban jobs for a specific work cell.</span></span> <span data-ttu-id="0be96-105">Protseduur Protsessi kanban-töö ettevalmistamine materjalide mittesaadavusel tööraku puhul on selle protseduuri loomise eeltingimus.</span><span class="sxs-lookup"><span data-stu-id="0be96-105">The procedure "Prepare a process kanban job when materials are not available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="0be96-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="0be96-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0be96-107">See ülesanne on mõeldud kanbanidega töötavale tööde järelevaatajale ja tootmise planeerijale.</span><span class="sxs-lookup"><span data-stu-id="0be96-107">This task is intended for the shop floor supervisor and production planner working with kanbans.</span></span>
 
 
-## <a name="select-kanban-jobs-for-a-work-cell"></a>Kanban-tööde valimine tööraku puhul
-1. Avage Tootmise juhtimine > Kanban > Kanban-tööde plaanimine.
-2. Kiirinfo Perioodi võimsus laiendamine
-    * Laiendage kiirinfot Kanban.  
-3. Klõpsake väljal Töörakk otsingu avamiseks ripploendi nuppu.
-4. Märkige loendis valitud rida.
-    * Valige töörakk 1250. See filtrib vaate kuvama ainult tööraku 1250 töid.  
-5. Klõpsake loendis valitud real olevat linki.
-6. Klõpsake Vali.
+## <a name="select-kanban-jobs-for-a-work-cell"></a><span data-ttu-id="0be96-108">Kanban-tööde valimine tööraku puhul</span><span class="sxs-lookup"><span data-stu-id="0be96-108">Select kanban jobs for a work cell</span></span>
+1. <span data-ttu-id="0be96-109">Avage Tootmise juhtimine > Kanban > Kanban-tööde plaanimine.</span><span class="sxs-lookup"><span data-stu-id="0be96-109">Go to Production control > Kanban > Kanban job scheduling.</span></span>
+2. <span data-ttu-id="0be96-110">Kiirinfo Perioodi võimsus laiendamine</span><span class="sxs-lookup"><span data-stu-id="0be96-110">Expand the Period capacity fact box</span></span>
+    * <span data-ttu-id="0be96-111">Laiendage kiirinfot Kanban.</span><span class="sxs-lookup"><span data-stu-id="0be96-111">Expand the Kanban FactBox.</span></span>  
+3. <span data-ttu-id="0be96-112">Klõpsake väljal Töörakk otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="0be96-112">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="0be96-113">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="0be96-113">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="0be96-114">Valige töörakk 1250.</span><span class="sxs-lookup"><span data-stu-id="0be96-114">Select work cell 1250.</span></span> <span data-ttu-id="0be96-115">See filtrib vaate kuvama ainult tööraku 1250 töid.</span><span class="sxs-lookup"><span data-stu-id="0be96-115">This will filter the view to display only the jobs for work cell 1250.</span></span>  
+5. <span data-ttu-id="0be96-116">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0be96-116">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="0be96-117">Klõpsake Vali.</span><span class="sxs-lookup"><span data-stu-id="0be96-117">Click Select.</span></span>
 
-## <a name="schedule-a-kanban-job-in-the-first-available-period"></a>Kanban-töö plaanimine esimeses saadaolevas perioodis
-1. Märkige loendis valitud rida.
-    * Valige esimene rida loendist, mille olek on Plaanimata. Punktiirikoon väljal Töö olek näitab plaanimatust.  
-2. Klõpsake suvandit Graafik.
-    * See kavandab kanban-töö esimeses saadaolevas perioodis.  
-    * Pange tähele, et kanban-töö teisaldatakse loendi lõppu, kuna see on lisatud perioodi alates tänasest.  
-    * Kui periood alates tänasest on täis, teisaldatakse töö esimesse saadaolevasse perioodi.  
+## <a name="schedule-a-kanban-job-in-the-first-available-period"></a><span data-ttu-id="0be96-118">Kanban-töö plaanimine esimeses saadaolevas perioodis</span><span class="sxs-lookup"><span data-stu-id="0be96-118">Schedule a kanban job in the first available period</span></span>
+1. <span data-ttu-id="0be96-119">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="0be96-119">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="0be96-120">Valige esimene rida loendist, mille olek on Plaanimata.</span><span class="sxs-lookup"><span data-stu-id="0be96-120">Select the first row in the list that has the Not planned status.</span></span> <span data-ttu-id="0be96-121">Punktiirikoon väljal Töö olek näitab plaanimatust.</span><span class="sxs-lookup"><span data-stu-id="0be96-121">The dotted icon in the Job status field indicates not planned.</span></span>  
+2. <span data-ttu-id="0be96-122">Klõpsake suvandit Graafik.</span><span class="sxs-lookup"><span data-stu-id="0be96-122">Click Schedule.</span></span>
+    * <span data-ttu-id="0be96-123">See kavandab kanban-töö esimeses saadaolevas perioodis.</span><span class="sxs-lookup"><span data-stu-id="0be96-123">This will schedule the kanban job in the first available period.</span></span>  
+    * <span data-ttu-id="0be96-124">Pange tähele, et kanban-töö teisaldatakse loendi lõppu, kuna see on lisatud perioodi alates tänasest.</span><span class="sxs-lookup"><span data-stu-id="0be96-124">Notice that the kanban job is moved to the end of the list because it has been added to the period starting from today.</span></span>  
+    * <span data-ttu-id="0be96-125">Kui periood alates tänasest on täis, teisaldatakse töö esimesse saadaolevasse perioodi.</span><span class="sxs-lookup"><span data-stu-id="0be96-125">If the period starting from today is fully booked, the job will be moved to the first available period.</span></span>  
 
-## <a name="schedule-two-kanban-jobs-for-a-specific-day"></a>Kahe kanban-töö plaanimine kindlaks päevaks
-1. Valige loendist rida 1.
-    * Peaksite nägema, et esimesel real on väljal Töö olek suvandiks Plaanimata.  
-2. Valige loendist rida 2.
-    * Peaksite nägema, et teisel real on väljal Töö olek suvandiks Plaanimata. Nüüd on teil kaks esimest tööd valitud.  
-3. Rippdialoogi avamiseks klõpsake suvandit Plaani alates kuupäevast.
-4. Märkige või tühjendage ruut Alista mahu puudujäägi reaktsioon.
-    * See suvand võimaldab teil vaikimisi mahu puudujäägi reaktsiooni alistada.  
-5. Valige väljalt Võimsuse puudujäägi reaktsioon suvand Lisa taotletud perioodile.
-    * See suvand tagab töö lisamise taotletud perioodi olenemata sellest, kas töörakk võib olla ülekoormatud.  
-6. Klõpsake suvandit Graafik.
-    * Pange tähele, et mõlemad tööd lisatakse soovitud perioodi.  
-    * Jaotises Perioodi võimsus saate vaadata iga perioodi koormust. Väli Tarbimine kuvab plaanitud tarbimise sellel perioodil. Kui plaanitud tarbimine selles perioodis on saadaolevast võimsusest suurem, valitakse ülekoormatud tarbimine.  
+## <a name="schedule-two-kanban-jobs-for-a-specific-day"></a><span data-ttu-id="0be96-126">Kahe kanban-töö plaanimine kindlaks päevaks</span><span class="sxs-lookup"><span data-stu-id="0be96-126">Schedule two kanban jobs for a specific day</span></span>
+1. <span data-ttu-id="0be96-127">Valige loendist rida 1.</span><span class="sxs-lookup"><span data-stu-id="0be96-127">In the list, select row 1.</span></span>
+    * <span data-ttu-id="0be96-128">Peaksite nägema, et esimesel real on väljal Töö olek suvandiks Plaanimata.</span><span class="sxs-lookup"><span data-stu-id="0be96-128">You should see that the first row has the Not planned status in the Job status field.</span></span>  
+2. <span data-ttu-id="0be96-129">Valige loendist rida 2.</span><span class="sxs-lookup"><span data-stu-id="0be96-129">In the list, select row 2.</span></span>
+    * <span data-ttu-id="0be96-130">Peaksite nägema, et teisel real on väljal Töö olek suvandiks Plaanimata.</span><span class="sxs-lookup"><span data-stu-id="0be96-130">You should see that the second row has the Not planned status in the Job status field.</span></span> <span data-ttu-id="0be96-131">Nüüd on teil kaks esimest tööd valitud.</span><span class="sxs-lookup"><span data-stu-id="0be96-131">Now you have the first two jobs selected.</span></span>  
+3. <span data-ttu-id="0be96-132">Rippdialoogi avamiseks klõpsake suvandit Plaani alates kuupäevast.</span><span class="sxs-lookup"><span data-stu-id="0be96-132">Click Schedule from date to open the drop dialog.</span></span>
+4. <span data-ttu-id="0be96-133">Märkige või tühjendage ruut Alista mahu puudujäägi reaktsioon.</span><span class="sxs-lookup"><span data-stu-id="0be96-133">Check or uncheck the Override capacity shortage reaction box.</span></span>
+    * <span data-ttu-id="0be96-134">See suvand võimaldab teil vaikimisi mahu puudujäägi reaktsiooni alistada.</span><span class="sxs-lookup"><span data-stu-id="0be96-134">This option allows you to override the default capacity shortage reaction.</span></span>  
+5. <span data-ttu-id="0be96-135">Valige väljalt Võimsuse puudujäägi reaktsioon suvand Lisa taotletud perioodile.</span><span class="sxs-lookup"><span data-stu-id="0be96-135">In the Capacity shortage reaction field, select 'Add to the requested period'.</span></span>
+    * <span data-ttu-id="0be96-136">See suvand tagab töö lisamise taotletud perioodi olenemata sellest, kas töörakk võib olla ülekoormatud.</span><span class="sxs-lookup"><span data-stu-id="0be96-136">This option will ensure that the job is added to the requested period, regardless if the work cell might be overloaded.</span></span>  
+6. <span data-ttu-id="0be96-137">Klõpsake suvandit Graafik.</span><span class="sxs-lookup"><span data-stu-id="0be96-137">Click Schedule.</span></span>
+    * <span data-ttu-id="0be96-138">Pange tähele, et mõlemad tööd lisatakse soovitud perioodi.</span><span class="sxs-lookup"><span data-stu-id="0be96-138">Notice that both jobs are added to the desired period.</span></span>  
+    * <span data-ttu-id="0be96-139">Jaotises Perioodi võimsus saate vaadata iga perioodi koormust.</span><span class="sxs-lookup"><span data-stu-id="0be96-139">In the Period capacity section, you can see the load for each period.</span></span> <span data-ttu-id="0be96-140">Väli Tarbimine kuvab plaanitud tarbimise sellel perioodil.</span><span class="sxs-lookup"><span data-stu-id="0be96-140">The Consumption field shows the scheduled consumption in this period.</span></span> <span data-ttu-id="0be96-141">Kui plaanitud tarbimine selles perioodis on saadaolevast võimsusest suurem, valitakse ülekoormatud tarbimine.</span><span class="sxs-lookup"><span data-stu-id="0be96-141">If the scheduled consumption is higher than the available capacity in this period, the overloaded consumption will be selected.</span></span>  
 
 

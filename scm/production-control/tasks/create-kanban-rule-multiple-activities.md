@@ -17,45 +17,45 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 5b4c6f919072dd6497b0eab548077f68fc46dbf5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d6d0c50da3124553124b65f6ba0e1c5ed35e8613
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-kanban-rule-for-multiple-activities"></a>Mitme tegevuse kanban-reegli loomine
+# <a name="create-a-kanban-rule-for-multiple-activities"></a><span data-ttu-id="c3a11-103">Mitme tegevuse kanban-reegli loomine</span><span class="sxs-lookup"><span data-stu-id="c3a11-103">Create a kanban rule for multiple activities</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas luua kanban-reeglit, mis sisaldab tootmisvoost mitut tegevust. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See toiming on mõeldud protsessiinsenerile või väärtuse voo haldurile, kuna nad valmistavad ette uue või muudetud toote tootmist säästlikus keskkonnas.
+<span data-ttu-id="c3a11-104">See protseduur näitab, kuidas luua kanban-reeglit, mis sisaldab tootmisvoost mitut tegevust.</span><span class="sxs-lookup"><span data-stu-id="c3a11-104">This procedure shows how to create a kanban rule that includes multiple activities from a production flow.</span></span> <span data-ttu-id="c3a11-105">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="c3a11-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="c3a11-106">See toiming on mõeldud protsessiinsenerile või väärtuse voo haldurile, kuna nad valmistavad ette uue või muudetud toote tootmist säästlikus keskkonnas.</span><span class="sxs-lookup"><span data-stu-id="c3a11-106">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## <a name="create-a-new-kanban-rule"></a>Looge uus kanban-reegel.
-1. Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.
-2. Klõpsake valikut Uus.
-3. Valige väljalt Täiendusstrateegia väärtus Plaanitud.
-4. Sisestage või valige väärtus väljal Esimene plaanitegevus.
-    * Valige SpeakerAssemblyAndPolish.  
-5. Märkige ruut Mitu tegevust.
-    * Eesmärk on kaasata kanban-reeglisse mitu tegevust. Tootmisvoos valitakse tee viimase plaani tegevuse valimisel.  
-6. Sisestage või valige väärtus väljal Viimane plaanitegevus.
-    * Valige SpeakerTestAndPackaging. Pärast selle väärtuse valimist avaneb leht automaatselt. Valige kanban-voog SpeakerAssemblyAndPolish > SpeakerTestAndPackaging. Klõpsake nuppu OK.  
-7. Laiendage jaotist Üksikasjad.
-8. Sisestage või valige väärtus väljal Toode.
-    * Valige kaup L0006.  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="c3a11-107">Looge uus kanban-reegel.</span><span class="sxs-lookup"><span data-stu-id="c3a11-107">Create a new kanban rule</span></span>
+1. <span data-ttu-id="c3a11-108">Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.</span><span class="sxs-lookup"><span data-stu-id="c3a11-108">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="c3a11-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="c3a11-109">Click New.</span></span>
+3. <span data-ttu-id="c3a11-110">Valige väljalt Täiendusstrateegia väärtus Plaanitud.</span><span class="sxs-lookup"><span data-stu-id="c3a11-110">In the Replenishment strategy field, select 'Scheduled'.</span></span>
+4. <span data-ttu-id="c3a11-111">Sisestage või valige väärtus väljal Esimene plaanitegevus.</span><span class="sxs-lookup"><span data-stu-id="c3a11-111">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="c3a11-112">Valige SpeakerAssemblyAndPolish.</span><span class="sxs-lookup"><span data-stu-id="c3a11-112">Select SpeakerAssemblyAndPolish.</span></span>  
+5. <span data-ttu-id="c3a11-113">Märkige ruut Mitu tegevust.</span><span class="sxs-lookup"><span data-stu-id="c3a11-113">Select the Multiple activities check box.</span></span>
+    * <span data-ttu-id="c3a11-114">Eesmärk on kaasata kanban-reeglisse mitu tegevust.</span><span class="sxs-lookup"><span data-stu-id="c3a11-114">The purpose is to include more than one activity in the kanban rule.</span></span> <span data-ttu-id="c3a11-115">Tootmisvoos valitakse tee viimase plaani tegevuse valimisel.</span><span class="sxs-lookup"><span data-stu-id="c3a11-115">You choose a path in the production flow when you select the last plan activity.</span></span>  
+6. <span data-ttu-id="c3a11-116">Sisestage või valige väärtus väljal Viimane plaanitegevus.</span><span class="sxs-lookup"><span data-stu-id="c3a11-116">In the Last plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="c3a11-117">Valige SpeakerTestAndPackaging.</span><span class="sxs-lookup"><span data-stu-id="c3a11-117">Select SpeakerTestAndPackaging.</span></span> <span data-ttu-id="c3a11-118">Pärast selle väärtuse valimist avaneb leht automaatselt.</span><span class="sxs-lookup"><span data-stu-id="c3a11-118">After you select the value, a page automatically opens.</span></span> <span data-ttu-id="c3a11-119">Valige kanban-voog SpeakerAssemblyAndPolish > SpeakerTestAndPackaging.</span><span class="sxs-lookup"><span data-stu-id="c3a11-119">Select the kanban flow SpeakerAssemblyAndPolish > SpeakerTestAndPackaging.</span></span> <span data-ttu-id="c3a11-120">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="c3a11-120">Click OK.</span></span>  
+7. <span data-ttu-id="c3a11-121">Laiendage jaotist Üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="c3a11-121">Expand the Details section.</span></span>
+8. <span data-ttu-id="c3a11-122">Sisestage või valige väärtus väljal Toode.</span><span class="sxs-lookup"><span data-stu-id="c3a11-122">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="c3a11-123">Valige kaup L0006.</span><span class="sxs-lookup"><span data-stu-id="c3a11-123">Select Item L0006.</span></span>  
 
-## <a name="create-kanban-and-view-jobs"></a>Kanbani loomine ja tööde vaatamine
-1. Laiendage jaotist Kanbanid.
-2. Klõpsake vahekaarti Lisa.
-3. Sisestage väljale Uute kanbanide arv väärtus 1.
-    * See loob ühe kanbani.  
-4. Määrake toote koguseks 3.
-    * Kanban töötleb 3 toodet.  
-5. Sisestage kuupäev ja kellaaeg väljale Tähtaja kuupäev/kellaaeg.
-    * Võite sisestada väärtuse Täna.  
-6. Klõpsake käsku Loo.
-7. Klõpsake käsku Details (Üksikasjad).
-    * Pange tähele, et kanbanil on tootmisvoost kaks protsessitööd. Esimene on SpeakerAssemblyAndPolish ja teine on SpeakerTestAndPackaging.  
-    * See on viimane etapp!  
+## <a name="create-kanban-and-view-jobs"></a><span data-ttu-id="c3a11-124">Kanbani loomine ja tööde vaatamine</span><span class="sxs-lookup"><span data-stu-id="c3a11-124">Create kanban and view jobs</span></span>
+1. <span data-ttu-id="c3a11-125">Laiendage jaotist Kanbanid.</span><span class="sxs-lookup"><span data-stu-id="c3a11-125">Expand the Kanbans section.</span></span>
+2. <span data-ttu-id="c3a11-126">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="c3a11-126">Click Add.</span></span>
+3. <span data-ttu-id="c3a11-127">Sisestage väljale Uute kanbanide arv väärtus 1.</span><span class="sxs-lookup"><span data-stu-id="c3a11-127">In the Number of new kanbans field, enter '1'.</span></span>
+    * <span data-ttu-id="c3a11-128">See loob ühe kanbani.</span><span class="sxs-lookup"><span data-stu-id="c3a11-128">This will create one kanban.</span></span>  
+4. <span data-ttu-id="c3a11-129">Määrake toote koguseks 3.</span><span class="sxs-lookup"><span data-stu-id="c3a11-129">Set Product quantity to '3'.</span></span>
+    * <span data-ttu-id="c3a11-130">Kanban töötleb 3 toodet.</span><span class="sxs-lookup"><span data-stu-id="c3a11-130">Kanban will process 3 products.</span></span>  
+5. <span data-ttu-id="c3a11-131">Sisestage kuupäev ja kellaaeg väljale Tähtaja kuupäev/kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="c3a11-131">In the Due date/time field, enter a date and time.</span></span>
+    * <span data-ttu-id="c3a11-132">Võite sisestada väärtuse Täna.</span><span class="sxs-lookup"><span data-stu-id="c3a11-132">You can enter Today.</span></span>  
+6. <span data-ttu-id="c3a11-133">Klõpsake käsku Loo.</span><span class="sxs-lookup"><span data-stu-id="c3a11-133">Click Create.</span></span>
+7. <span data-ttu-id="c3a11-134">Klõpsake käsku Details (Üksikasjad).</span><span class="sxs-lookup"><span data-stu-id="c3a11-134">Click Details.</span></span>
+    * <span data-ttu-id="c3a11-135">Pange tähele, et kanbanil on tootmisvoost kaks protsessitööd.</span><span class="sxs-lookup"><span data-stu-id="c3a11-135">Notice that the kanban has two process jobs from the production flow.</span></span> <span data-ttu-id="c3a11-136">Esimene on SpeakerAssemblyAndPolish ja teine on SpeakerTestAndPackaging.</span><span class="sxs-lookup"><span data-stu-id="c3a11-136">The first one is SpeakerAssemblyAndPolish, and the second one is SpeakerTestAndPackaging.</span></span>  
+    * <span data-ttu-id="c3a11-137">See on viimane etapp!</span><span class="sxs-lookup"><span data-stu-id="c3a11-137">This is the last step!</span></span>  
 
 

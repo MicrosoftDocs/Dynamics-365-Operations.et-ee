@@ -16,35 +16,35 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 127875443da1d43783440083b11afd423f2a12fe
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 42f93e6d8fcf62babc3e3244bc1fe76d1efd9d13
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Hankija arve kirjendamine arvete töölehele
+# <a name="record-a-vendor-invoice-in-the-invoice-journal"></a><span data-ttu-id="dc87b-103">Hankija arve kirjendamine arvete töölehele</span><span class="sxs-lookup"><span data-stu-id="dc87b-103">Record a vendor invoice in the invoice journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selles tegevuse juhises näitlikustatakse, kuidas salvestada hankija arveid, mis ei ole seostatud ostutellimustega. Selle arve tüübi näited sisaldavad varude või teenuste kulusid.  Salvestamisel kasutatakse demoettevõtte USMF-i.
+<span data-ttu-id="dc87b-104">Selles tegevuse juhises näitlikustatakse, kuidas salvestada hankija arveid, mis ei ole seostatud ostutellimustega.</span><span class="sxs-lookup"><span data-stu-id="dc87b-104">This task guide will show how to record vendor invoices that are not associated with purchase orders.</span></span> <span data-ttu-id="dc87b-105">Selle arve tüübi näited sisaldavad varude või teenuste kulusid.</span><span class="sxs-lookup"><span data-stu-id="dc87b-105">Examples of this type of invoice include expenses for supplies or services.</span></span>  <span data-ttu-id="dc87b-106">Salvestamisel kasutatakse demoettevõtte USMF-i.</span><span class="sxs-lookup"><span data-stu-id="dc87b-106">This recording uses the USMF demo company.</span></span>
 
-1. Avage Ostureskontro > Tööruumid > Hankija arved.
-2. Klõpsake valikut Uus arve tööleht.
-3. Klõpsake valikut Uus.
-4. Sisestage töölehe nimi väljale Nimi või klõpsake otsingu avamiseks ripploendi nuppu.
-5. Sisestage väljale Kirjeldus soovitud väärtus.
-6. Klõpsake valikut Read.
-    * Sisestage sisestuskuupäev, mis ühtlasi värskendab pearaamatut, väljale Kuupäev.  
-7. Täpsustage Hankija kontot väljal Konto.
-8. Sisestage arve number väljale Arve.
-9. Sisestage väärtus väljale Kirjeldus.
-10. Sisestage arv väljale Kreedit.
-11. Sisestage kontonumber väljale Vastaskonto või klõpsake otsingu avamiseks ripploendi nuppu
-    * Käibemaksugrupp pärineb vaikimisi hankija kontolt.  
-    * Kauba käibemaksugrupp pärineb vaikimisi väljal Vastaskonto määratud põhikontolt.  
-    * Tähtaeg arvutatakse maksetingimuste alusel.  
-    * Skonto pärineb hankija kontolt.  
-12. Klõpsake valikut Sisesta.
-13. Sulgege leht.
+1. <span data-ttu-id="dc87b-107">Avage Ostureskontro > Tööruumid > Hankija arved.</span><span class="sxs-lookup"><span data-stu-id="dc87b-107">Go to Accounts payable > Workspaces > Vendor invoice entry.</span></span>
+2. <span data-ttu-id="dc87b-108">Klõpsake valikut Uus arve tööleht.</span><span class="sxs-lookup"><span data-stu-id="dc87b-108">Click New invoice journal.</span></span>
+3. <span data-ttu-id="dc87b-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="dc87b-109">Click New.</span></span>
+4. <span data-ttu-id="dc87b-110">Sisestage töölehe nimi väljale Nimi või klõpsake otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="dc87b-110">In the Name field, enter the journal name or click the drop down button to open the lookup.</span></span>
+5. <span data-ttu-id="dc87b-111">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="dc87b-111">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="dc87b-112">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="dc87b-112">Click Lines.</span></span>
+    * <span data-ttu-id="dc87b-113">Sisestage sisestuskuupäev, mis ühtlasi värskendab pearaamatut, väljale Kuupäev.</span><span class="sxs-lookup"><span data-stu-id="dc87b-113">In the Date field, enter the posting date that will update General Ledger.</span></span>  
+7. <span data-ttu-id="dc87b-114">Täpsustage Hankija kontot väljal Konto.</span><span class="sxs-lookup"><span data-stu-id="dc87b-114">In the Account field, specify the Vendor account.</span></span>
+8. <span data-ttu-id="dc87b-115">Sisestage arve number väljale Arve.</span><span class="sxs-lookup"><span data-stu-id="dc87b-115">In the Invoice field, enter the invoice number.</span></span>
+9. <span data-ttu-id="dc87b-116">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="dc87b-116">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="dc87b-117">Sisestage arv väljale Kreedit.</span><span class="sxs-lookup"><span data-stu-id="dc87b-117">In the Credit field, enter a number.</span></span>
+11. <span data-ttu-id="dc87b-118">Sisestage kontonumber väljale Vastaskonto või klõpsake otsingu avamiseks ripploendi nuppu</span><span class="sxs-lookup"><span data-stu-id="dc87b-118">In the Offset account field, enter the account number or click the drop down button to open the lookup</span></span>
+    * <span data-ttu-id="dc87b-119">Käibemaksugrupp pärineb vaikimisi hankija kontolt.</span><span class="sxs-lookup"><span data-stu-id="dc87b-119">The Sales tax group will default from the vendor account.</span></span>  
+    * <span data-ttu-id="dc87b-120">Kauba käibemaksugrupp pärineb vaikimisi väljal Vastaskonto määratud põhikontolt.</span><span class="sxs-lookup"><span data-stu-id="dc87b-120">The Item sales tax group will default from the main account specified in the Offset account field.</span></span>  
+    * <span data-ttu-id="dc87b-121">Tähtaeg arvutatakse maksetingimuste alusel.</span><span class="sxs-lookup"><span data-stu-id="dc87b-121">The Due date will be calculated based on the Terms of payment.</span></span>  
+    * <span data-ttu-id="dc87b-122">Skonto pärineb hankija kontolt.</span><span class="sxs-lookup"><span data-stu-id="dc87b-122">The Cash discount will default from the Vendor account.</span></span>  
+12. <span data-ttu-id="dc87b-123">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="dc87b-123">Click Post.</span></span>
+13. <span data-ttu-id="dc87b-124">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="dc87b-124">Close the page.</span></span>
 
 

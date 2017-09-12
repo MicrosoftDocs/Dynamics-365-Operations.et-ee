@@ -16,91 +16,91 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 14eed7982041b7af7dad5453b10f07f063ba1855
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d97ccd15031b2f7398486eee4a716ecef5e9dafd
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-requisition-that-uses-an-rfq"></a>Pakkumiskutset kasutava taotluse loomine
+# <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="81c0a-103">Pakkumiskutset kasutava taotluse loomine</span><span class="sxs-lookup"><span data-stu-id="81c0a-103">Create a requisition that uses an RFQ</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See juhend näitab, kuidas lisada ostutaotlusele pakkumiskutse protsessist hinda ja hankija teavet. Selles juhendis olevat näidet saab kasutada demoandmete ettevõttes USMF ja kõigi etappide läbimiseks peate olema administraatorina sisse loginud. Selle juhendi ülesandeid täidavad tavaliselt hankespetsialistid.
+<span data-ttu-id="81c0a-104">See juhend näitab, kuidas lisada ostutaotlusele pakkumiskutse protsessist hinda ja hankija teavet.</span><span class="sxs-lookup"><span data-stu-id="81c0a-104">This guide shows how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="81c0a-105">Selles juhendis olevat näidet saab kasutada demoandmete ettevõttes USMF ja kõigi etappide läbimiseks peate olema administraatorina sisse loginud.</span><span class="sxs-lookup"><span data-stu-id="81c0a-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="81c0a-106">Selle juhendi ülesandeid täidavad tavaliselt hankespetsialistid.</span><span class="sxs-lookup"><span data-stu-id="81c0a-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 
 
-## <a name="create-a-requisition"></a>Taotluse loomine
-1. Tehke valik Hanked > Ostutaotlused > Minu ettevalmistatud ostutaotlused.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Nimi.
-4. Sisestage kuupäev väljale Nõutav kuupäev.
-5. Sisestage kuupäev väljale Aruandluskuupäev.
-6. Klõpsake nuppu OK.
-7. Valige või sisestage väärtus väljal Põhjus.
-8. Klõpsake käsku Lisa rida.
-9. Valige väljalt Hankekategooria puult kategooria ja klõpsake siis nuppu OK.
-10. Sisestage väärtus väljale Toote nimi.
-11. Sisestage arv väljale Kogus.
-12. Sisestage või valige väärtus väljal Ühik.
-13. Klõpsake nuppu Salvesta.
-14. Klõpsake suvandit Töövoog rippdialoogi avamiseks.
-15. Klõpsake Edasta.
-16. Sulgege leht.
-17. Klõpsake Edasta.
+## <a name="create-a-requisition"></a><span data-ttu-id="81c0a-107">Taotluse loomine</span><span class="sxs-lookup"><span data-stu-id="81c0a-107">Create a requisition</span></span>
+1. <span data-ttu-id="81c0a-108">Tehke valik Hanked > Ostutaotlused > Minu ettevalmistatud ostutaotlused.</span><span class="sxs-lookup"><span data-stu-id="81c0a-108">Go to Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me.</span></span>
+2. <span data-ttu-id="81c0a-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="81c0a-109">Click New.</span></span>
+3. <span data-ttu-id="81c0a-110">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="81c0a-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="81c0a-111">Sisestage kuupäev väljale Nõutav kuupäev.</span><span class="sxs-lookup"><span data-stu-id="81c0a-111">In the Requested date field, enter a date.</span></span>
+5. <span data-ttu-id="81c0a-112">Sisestage kuupäev väljale Aruandluskuupäev.</span><span class="sxs-lookup"><span data-stu-id="81c0a-112">In the Accounting date field, enter a date.</span></span>
+6. <span data-ttu-id="81c0a-113">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="81c0a-113">Click OK.</span></span>
+7. <span data-ttu-id="81c0a-114">Valige või sisestage väärtus väljal Põhjus.</span><span class="sxs-lookup"><span data-stu-id="81c0a-114">In the Reason field, enter or select a value.</span></span>
+8. <span data-ttu-id="81c0a-115">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="81c0a-115">Click Add line.</span></span>
+9. <span data-ttu-id="81c0a-116">Valige väljalt Hankekategooria puult kategooria ja klõpsake siis nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="81c0a-116">In the Procurement category field, select a category in the tree, and then click OK.</span></span>
+10. <span data-ttu-id="81c0a-117">Sisestage väärtus väljale Toote nimi.</span><span class="sxs-lookup"><span data-stu-id="81c0a-117">In the Product name field, type a value.</span></span>
+11. <span data-ttu-id="81c0a-118">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="81c0a-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="81c0a-119">Sisestage või valige väärtus väljal Ühik.</span><span class="sxs-lookup"><span data-stu-id="81c0a-119">In the Unit field, enter or select a value.</span></span>
+13. <span data-ttu-id="81c0a-120">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="81c0a-120">Click Save.</span></span>
+14. <span data-ttu-id="81c0a-121">Klõpsake suvandit Töövoog rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="81c0a-121">Click Workflow to open the drop dialog.</span></span>
+15. <span data-ttu-id="81c0a-122">Klõpsake Edasta.</span><span class="sxs-lookup"><span data-stu-id="81c0a-122">Click Submit.</span></span>
+16. <span data-ttu-id="81c0a-123">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="81c0a-123">Close the page.</span></span>
+17. <span data-ttu-id="81c0a-124">Klõpsake Edasta.</span><span class="sxs-lookup"><span data-stu-id="81c0a-124">Click Submit.</span></span>
 
-## <a name="reassign-a-workflow-task"></a>Töövoo ülesande ümber määramine
-    * Järgmine ülesanne on luua pakkumiskutse hankijatelt tootele pakkumiste saamiseks. USMF-i demoandmetes seadistatakse taotluse töövoog reegliga, nii et kui hankijat pole valitud või kui ühiku hind on real 0, määratakse ülesanne konkreetsele töötajale, kes koostab pakkumiskutse. Selle juhendiga jätkamiseks peate määrama selle ülesande ümber teisele kasutajale (endale). Seda saate teha ainult siis, kui olete administraatorina sisse loginud.  
-1. Klõpsake suvandit Töövoog rippdialoogi avamiseks.
-2. Klõpsake valikut Kuva ajalugu.
-3. Värskendage lehte.
-4. Laiendage jaotist Jälgimise üksikasjad.
-5. Valige puult rida, mis algab sõnadega Rea töövoog aktiveeritud kuupäeval.
-6. Klõpsake valikut Kuva töövoo üksikasjad.
-7. Laiendage jaotist Tööüksused.
-8. Klõpsake käsku Määra uuesti.
-9. Tehke väljal Kasutaja valik Administraator.
-10. Klõpsake käsku Määra uuesti.
-11. Sulgege leht.
-12. Sulgege leht.
+## <a name="reassign-a-workflow-task"></a><span data-ttu-id="81c0a-125">Töövoo ülesande ümber määramine</span><span class="sxs-lookup"><span data-stu-id="81c0a-125">Reassign a workflow task</span></span>
+    * <span data-ttu-id="81c0a-126">Järgmine ülesanne on luua pakkumiskutse hankijatelt tootele pakkumiste saamiseks.</span><span class="sxs-lookup"><span data-stu-id="81c0a-126">The next task is to create an RFQ to get bids from vendors for the product.</span></span> <span data-ttu-id="81c0a-127">USMF-i demoandmetes seadistatakse taotluse töövoog reegliga, nii et kui hankijat pole valitud või kui ühiku hind on real 0, määratakse ülesanne konkreetsele töötajale, kes koostab pakkumiskutse.</span><span class="sxs-lookup"><span data-stu-id="81c0a-127">In USMF demo data, the requisition workflow is set up with a rule so that if a vendor is not selected, or the unit price is 0 for a line, a task is assigned to a specific worker to create an RFQ.</span></span> <span data-ttu-id="81c0a-128">Selle juhendiga jätkamiseks peate määrama selle ülesande ümber teisele kasutajale (endale).</span><span class="sxs-lookup"><span data-stu-id="81c0a-128">To continue with this guide, you need to re-assign that task to another user (yourself).</span></span> <span data-ttu-id="81c0a-129">Seda saate teha ainult siis, kui olete administraatorina sisse loginud.</span><span class="sxs-lookup"><span data-stu-id="81c0a-129">You can only do this if you are logged in as an Admin.</span></span>  
+1. <span data-ttu-id="81c0a-130">Klõpsake suvandit Töövoog rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="81c0a-130">Click Workflow to open the drop dialog.</span></span>
+2. <span data-ttu-id="81c0a-131">Klõpsake valikut Kuva ajalugu.</span><span class="sxs-lookup"><span data-stu-id="81c0a-131">Click View history.</span></span>
+3. <span data-ttu-id="81c0a-132">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="81c0a-132">Refresh the page.</span></span>
+4. <span data-ttu-id="81c0a-133">Laiendage jaotist Jälgimise üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="81c0a-133">Expand the Tracking details section.</span></span>
+5. <span data-ttu-id="81c0a-134">Valige puult rida, mis algab sõnadega Rea töövoog aktiveeritud kuupäeval.</span><span class="sxs-lookup"><span data-stu-id="81c0a-134">In the tree, select 'the line that starts with “Line workflow activated on”'.</span></span>
+6. <span data-ttu-id="81c0a-135">Klõpsake valikut Kuva töövoo üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="81c0a-135">Click View workflow details.</span></span>
+7. <span data-ttu-id="81c0a-136">Laiendage jaotist Tööüksused.</span><span class="sxs-lookup"><span data-stu-id="81c0a-136">Expand the Work items section.</span></span>
+8. <span data-ttu-id="81c0a-137">Klõpsake käsku Määra uuesti.</span><span class="sxs-lookup"><span data-stu-id="81c0a-137">Click Reassign.</span></span>
+9. <span data-ttu-id="81c0a-138">Tehke väljal Kasutaja valik Administraator.</span><span class="sxs-lookup"><span data-stu-id="81c0a-138">In the User field, select Admin.</span></span>
+10. <span data-ttu-id="81c0a-139">Klõpsake käsku Määra uuesti.</span><span class="sxs-lookup"><span data-stu-id="81c0a-139">Click Reassign.</span></span>
+11. <span data-ttu-id="81c0a-140">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="81c0a-140">Close the page.</span></span>
+12. <span data-ttu-id="81c0a-141">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="81c0a-141">Close the page.</span></span>
 
-## <a name="create-an-rfq"></a>Pakkumiskutse loomine
-1. Värskendage lehte.
-2. Klõpsake valikut Pakkumiskutse vastus.
-3. Tehke väljal Ostev juriidiline isik valik USMF.
-    * Peate valima sama juriidilise isiku, kes on taotluse real.  
-4. Märkige loendis valitud rida.
-    * Kui ostutaotlusel oli mitu rida, valige kõik read, mida soovite pakkumiskutsesse lisada.  
-5. Klõpsake nuppu OK.
-6. Värskendage lehte.
-7. Avage kiirinfo ja laiendage siis jaotist Seotud dokumendid.
-    * Teil võib kiirinfo juba lahti olla. Otsige noolega ikooni nuppudest Read/päis paremal. Kui nool osutab paremale, on kiirinfo juba avatud. Kui nool osutab vasakule, klõpsake seda kiirinfo avamiseks.  
-8. Klõpsake linki väljal Pakkumiskutse äsja loodud pakkumiskutse avamiseks.
-9. Klõpsake päist.
-10. Klõpsake vahekaarti Lisa.
-11. Sisestage väärtus väljale Hankija konto või valige see.
-12. Klõpsake vahekaarti Lisa.
-13. Sisestage väärtus väljale Hankija konto või valige see.
-14. Klõpsake käsku Saada.
-15. Klõpsake nuppu OK.
-16. Klõpsake nuppu Sisesta vastus.
-17. Klõpsake toimingupaanil käsku Vasta.
-18. Klõpsake käsku Kopeeri andmed vastuseväljadele.
-    * Sellega kopeeritakse andmed nagu kogus ja kuupäevad pakkumiskutselt vastusele.  
-19. Sisestage arv väljale Ühiku hind.
-    * See on hind, mille hankijalt saite. Teil võib olla vaja sisestada ka hankijalt saadud lisateavet.  
-20. Klõpsake suvandit Nõustu.
-21. Klõpsake nuppu OK.
+## <a name="create-an-rfq"></a><span data-ttu-id="81c0a-142">Pakkumiskutse loomine</span><span class="sxs-lookup"><span data-stu-id="81c0a-142">Create an RFQ</span></span>
+1. <span data-ttu-id="81c0a-143">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="81c0a-143">Refresh the page.</span></span>
+2. <span data-ttu-id="81c0a-144">Klõpsake valikut Pakkumiskutse vastus.</span><span class="sxs-lookup"><span data-stu-id="81c0a-144">Click Request for quotation.</span></span>
+3. <span data-ttu-id="81c0a-145">Tehke väljal Ostev juriidiline isik valik USMF.</span><span class="sxs-lookup"><span data-stu-id="81c0a-145">In the Buying legal entity field, select USMF.</span></span>
+    * <span data-ttu-id="81c0a-146">Peate valima sama juriidilise isiku, kes on taotluse real.</span><span class="sxs-lookup"><span data-stu-id="81c0a-146">You must select the same legal entity that’s on the requisition line.</span></span>  
+4. <span data-ttu-id="81c0a-147">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="81c0a-147">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="81c0a-148">Kui ostutaotlusel oli mitu rida, valige kõik read, mida soovite pakkumiskutsesse lisada.</span><span class="sxs-lookup"><span data-stu-id="81c0a-148">If you had multiple lines on your purchase requisition, select all the lines that you want to add to the RFQ.</span></span>  
+5. <span data-ttu-id="81c0a-149">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="81c0a-149">Click OK.</span></span>
+6. <span data-ttu-id="81c0a-150">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="81c0a-150">Refresh the page.</span></span>
+7. <span data-ttu-id="81c0a-151">Avage kiirinfo ja laiendage siis jaotist Seotud dokumendid.</span><span class="sxs-lookup"><span data-stu-id="81c0a-151">Open the FactBox and then expand the Related documents section.</span></span>
+    * <span data-ttu-id="81c0a-152">Teil võib kiirinfo juba lahti olla.</span><span class="sxs-lookup"><span data-stu-id="81c0a-152">You may already have the FactBox open.</span></span> <span data-ttu-id="81c0a-153">Otsige noolega ikooni nuppudest Read/päis paremal.</span><span class="sxs-lookup"><span data-stu-id="81c0a-153">Look for the icon with an arrow on it, to the right of the Lines/Header toggle buttons.</span></span> <span data-ttu-id="81c0a-154">Kui nool osutab paremale, on kiirinfo juba avatud.</span><span class="sxs-lookup"><span data-stu-id="81c0a-154">If the arrow is pointing to the right, the FactBox is already open.</span></span> <span data-ttu-id="81c0a-155">Kui nool osutab vasakule, klõpsake seda kiirinfo avamiseks.</span><span class="sxs-lookup"><span data-stu-id="81c0a-155">If the arrow points to the left, click it to open the FactBox.</span></span>  
+8. <span data-ttu-id="81c0a-156">Klõpsake linki väljal Pakkumiskutse äsja loodud pakkumiskutse avamiseks.</span><span class="sxs-lookup"><span data-stu-id="81c0a-156">Click the link in the Request for quotation field to open the RFQ that was just created.</span></span>
+9. <span data-ttu-id="81c0a-157">Klõpsake päist.</span><span class="sxs-lookup"><span data-stu-id="81c0a-157">Click Header.</span></span>
+10. <span data-ttu-id="81c0a-158">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="81c0a-158">Click Add.</span></span>
+11. <span data-ttu-id="81c0a-159">Sisestage väärtus väljale Hankija konto või valige see.</span><span class="sxs-lookup"><span data-stu-id="81c0a-159">In the Vendor account field, enter or select a value.</span></span>
+12. <span data-ttu-id="81c0a-160">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="81c0a-160">Click Add.</span></span>
+13. <span data-ttu-id="81c0a-161">Sisestage väärtus väljale Hankija konto või valige see.</span><span class="sxs-lookup"><span data-stu-id="81c0a-161">In the Vendor account field, enter or select a value.</span></span>
+14. <span data-ttu-id="81c0a-162">Klõpsake käsku Saada.</span><span class="sxs-lookup"><span data-stu-id="81c0a-162">Click Send.</span></span>
+15. <span data-ttu-id="81c0a-163">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="81c0a-163">Click OK.</span></span>
+16. <span data-ttu-id="81c0a-164">Klõpsake nuppu Sisesta vastus.</span><span class="sxs-lookup"><span data-stu-id="81c0a-164">Click Enter reply.</span></span>
+17. <span data-ttu-id="81c0a-165">Klõpsake toimingupaanil käsku Vasta.</span><span class="sxs-lookup"><span data-stu-id="81c0a-165">On the Action Pane, click Reply.</span></span>
+18. <span data-ttu-id="81c0a-166">Klõpsake käsku Kopeeri andmed vastuseväljadele.</span><span class="sxs-lookup"><span data-stu-id="81c0a-166">Click Copy data to reply.</span></span>
+    * <span data-ttu-id="81c0a-167">Sellega kopeeritakse andmed nagu kogus ja kuupäevad pakkumiskutselt vastusele.</span><span class="sxs-lookup"><span data-stu-id="81c0a-167">This copies data, such as the quantity and dates, from the RFQ to the reply .</span></span>  
+19. <span data-ttu-id="81c0a-168">Sisestage arv väljale Ühiku hind.</span><span class="sxs-lookup"><span data-stu-id="81c0a-168">In the Unit price field, enter a number.</span></span>
+    * <span data-ttu-id="81c0a-169">See on hind, mille hankijalt saite.</span><span class="sxs-lookup"><span data-stu-id="81c0a-169">This is the price that you’ve received from the vendor.</span></span> <span data-ttu-id="81c0a-170">Teil võib olla vaja sisestada ka hankijalt saadud lisateavet.</span><span class="sxs-lookup"><span data-stu-id="81c0a-170">You might also want to enter additional information from the vendor.</span></span>  
+20. <span data-ttu-id="81c0a-171">Klõpsake suvandit Nõustu.</span><span class="sxs-lookup"><span data-stu-id="81c0a-171">Click Accept.</span></span>
+21. <span data-ttu-id="81c0a-172">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="81c0a-172">Click OK.</span></span>
 
-## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a>Veenduge, et hankija ja hind oleksid taotlusele üle viidud
-1. Sulgege leht.
-2. Klõpsake valikut Read.
-3. Klõpsake valikut Seostuv teave.
-4. Klõpsake valikut Ostutaotlus.
-5. Valige rida, mis pakkumiskutsele üle viidi.
-    * Veenduge, et hind ja hankija oleksid taotlusele kopeeritud.  
-6. Klõpsake suvandit Töövoog rippdialoogi avamiseks.
-7. Klõpsake valikut Valmis.
-8. Sulgege leht.
-9. Klõpsake valikut Valmis.
+## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a><span data-ttu-id="81c0a-173">Veenduge, et hankija ja hind oleksid taotlusele üle viidud</span><span class="sxs-lookup"><span data-stu-id="81c0a-173">Verify that vendor and price have been transferred to the requisition</span></span>
+1. <span data-ttu-id="81c0a-174">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="81c0a-174">Close the page.</span></span>
+2. <span data-ttu-id="81c0a-175">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="81c0a-175">Click Lines.</span></span>
+3. <span data-ttu-id="81c0a-176">Klõpsake valikut Seostuv teave.</span><span class="sxs-lookup"><span data-stu-id="81c0a-176">Click Related information.</span></span>
+4. <span data-ttu-id="81c0a-177">Klõpsake valikut Ostutaotlus.</span><span class="sxs-lookup"><span data-stu-id="81c0a-177">Click Purchase requisition.</span></span>
+5. <span data-ttu-id="81c0a-178">Valige rida, mis pakkumiskutsele üle viidi.</span><span class="sxs-lookup"><span data-stu-id="81c0a-178">Select the line that was transferred to the RFQ.</span></span>
+    * <span data-ttu-id="81c0a-179">Veenduge, et hind ja hankija oleksid taotlusele kopeeritud.</span><span class="sxs-lookup"><span data-stu-id="81c0a-179">Verify that the price and vendor have been copied to the requisition.</span></span>  
+6. <span data-ttu-id="81c0a-180">Klõpsake suvandit Töövoog rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="81c0a-180">Click Workflow to open the drop dialog.</span></span>
+7. <span data-ttu-id="81c0a-181">Klõpsake valikut Valmis.</span><span class="sxs-lookup"><span data-stu-id="81c0a-181">Click Complete.</span></span>
+8. <span data-ttu-id="81c0a-182">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="81c0a-182">Close the page.</span></span>
+9. <span data-ttu-id="81c0a-183">Klõpsake valikut Valmis.</span><span class="sxs-lookup"><span data-stu-id="81c0a-183">Click Complete.</span></span>
 
 

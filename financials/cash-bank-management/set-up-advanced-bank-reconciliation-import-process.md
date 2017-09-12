@@ -18,165 +18,165 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 785da18a851c4d040843f49ca9f1b9ae12d701d3
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Täpsema panga vastavusseviimise importimisprotsessi seadistamine
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="46f59-104">Täpsema panga vastavusseviimise importimisprotsessi seadistamine</span><span class="sxs-lookup"><span data-stu-id="46f59-104">Set up the advanced bank reconciliation import process</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Pangakonto täpsema vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis automaatselt pangakannetega vastavusse viia. Selles artiklis selgitatakse, kuidas seadistada pangaväljavõtete impordifunktsiooni. 
+<span data-ttu-id="46f59-105">Pangakonto täpsema vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis automaatselt pangakannetega vastavusse viia.</span><span class="sxs-lookup"><span data-stu-id="46f59-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="46f59-106">Selles artiklis selgitatakse, kuidas seadistada pangaväljavõtete impordifunktsiooni.</span><span class="sxs-lookup"><span data-stu-id="46f59-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
-Pangaväljavõtte importimise seadistus erineb, olenevalt teie elektroonilise pangaväljavõtte vormingust. Finance and Operations toetab kolme valmis pangaväljavõtte vormingut: ISO20022, MT940 ja BAI2.
+<span data-ttu-id="46f59-107">Pangaväljavõtte importimise seadistus erineb, olenevalt teie elektroonilise pangaväljavõtte vormingust.</span><span class="sxs-lookup"><span data-stu-id="46f59-107">The setup for bank statement import varies, depending on the format of your electronic bank statement.</span></span> <span data-ttu-id="46f59-108">Finance and Operations toetab kolme valmis pangaväljavõtte vormingut: ISO20022, MT940 ja BAI2.</span><span class="sxs-lookup"><span data-stu-id="46f59-108">Finance and Operations supports three bank statement formats out of the box: ISO20022, MT940, and BAI2.</span></span>
 
-## <a name="sample-files"></a>Näidisfailid
-Kõigi kolme vormingu puhul peavad teil olema failid, mis tõlgivad elektroonilised pangaväljavõtted algsest vormingust vormingusse, mida Finance and Operations saab kasutada. Vajalikud ressursifailid leiate sõlmest **Ressursid** Microsoft Visual Studio Application Exploreris. Pärast failide leidmist kopeerige need ühte teadaolevasse asukohta, et saaksite need seadistusprotsessi ajal hõlpsamini üles laadida.
+## <a name="sample-files"></a><span data-ttu-id="46f59-109">Näidisfailid</span><span class="sxs-lookup"><span data-stu-id="46f59-109">Sample files</span></span>
+<span data-ttu-id="46f59-110">Kõigi kolme vormingu puhul peavad teil olema failid, mis tõlgivad elektroonilised pangaväljavõtted algsest vormingust vormingusse, mida Finance and Operations saab kasutada.</span><span class="sxs-lookup"><span data-stu-id="46f59-110">For all three formats, you must have files that translate the electronic bank statement from the original format to a format that Finance and Operations can use.</span></span> <span data-ttu-id="46f59-111">Vajalikud ressursifailid leiate sõlmest **Ressursid** Microsoft Visual Studio Application Exploreris.</span><span class="sxs-lookup"><span data-stu-id="46f59-111">You can find the required resource files under the **Resources** node in Application Explorer in Microsoft Visual Studio.</span></span> <span data-ttu-id="46f59-112">Pärast failide leidmist kopeerige need ühte teadaolevasse asukohta, et saaksite need seadistusprotsessi ajal hõlpsamini üles laadida.</span><span class="sxs-lookup"><span data-stu-id="46f59-112">After you find the files, copy them to a single known location, so that you can more easily upload them during the setup process.</span></span>
 
-| Ressursi nimi                                           | Faili nimi                            |
+| <span data-ttu-id="46f59-113">Ressursi nimi</span><span class="sxs-lookup"><span data-stu-id="46f59-113">Resource name</span></span>                                           | <span data-ttu-id="46f59-114">Faili nimi</span><span class="sxs-lookup"><span data-stu-id="46f59-114">File name</span></span>                            |
 |---------------------------------------------------------|--------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt              | BAI2CSV-to-BAI2XML.xslt              |
-| BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt       | BAI2XML-to-Reconciliation.xslt       |
-| BankStmtImport\_BankReconciliation\_to\_Composite\_xslt | BankReconciliation-to-Composite.xslt |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt   | ISO20022XML-to-Reconciliation.xslt   |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt            | MT940TXT-to-MT940XML.xslt            |
-| BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
-| BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
+| <span data-ttu-id="46f59-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>              | <span data-ttu-id="46f59-116">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-116">BAI2CSV-to-BAI2XML.xslt</span></span>              |
+| <span data-ttu-id="46f59-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span></span>       | <span data-ttu-id="46f59-118">BAI2XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-118">BAI2XML-to-Reconciliation.xslt</span></span>       |
+| <span data-ttu-id="46f59-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span></span> | <span data-ttu-id="46f59-120">BankReconciliation-to-Composite.xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-120">BankReconciliation-to-Composite.xslt</span></span> |
+| <span data-ttu-id="46f59-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span>   | <span data-ttu-id="46f59-122">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-122">ISO20022XML-to-Reconciliation.xslt</span></span>   |
+| <span data-ttu-id="46f59-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>            | <span data-ttu-id="46f59-124">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-124">MT940TXT-to-MT940XML.xslt</span></span>            |
+| <span data-ttu-id="46f59-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span></span>      | <span data-ttu-id="46f59-126">MT940XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="46f59-126">MT940XML-to-Reconciliation.xslt</span></span>      |
+| <span data-ttu-id="46f59-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span><span class="sxs-lookup"><span data-stu-id="46f59-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span></span>          | <span data-ttu-id="46f59-128">SampleBankCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="46f59-128">SampleBankCompositeEntity.xml</span></span>        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Näited pangaväljavõtte vormingutest ja tehnilistest paigutustest
-Allpool on näited täpsemast panga vastavusseviimise impordifaili tehnilise paigutuse määratlustest ja kolmest seotud pangaväljavõtte näidisfailist: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="46f59-129">Näited pangaväljavõtte vormingutest ja tehnilistest paigutustest</span><span class="sxs-lookup"><span data-stu-id="46f59-129">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="46f59-130">Allpool on näited täpsemast panga vastavusseviimise impordifaili tehnilise paigutuse määratlustest ja kolmest seotud pangaväljavõtte näidisfailist: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="46f59-130">Below are examples of the advanced bank reconciliation import file technical layout definitions and three related bank statement example files: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
-| Tehnilise paigutuse määratlus                             | Pangaväljavõtte näidisfail          |
+| <span data-ttu-id="46f59-131">Tehnilise paigutuse määratlus</span><span class="sxs-lookup"><span data-stu-id="46f59-131">Technical layout definition</span></span>                             | <span data-ttu-id="46f59-132">Pangaväljavõtte näidisfail</span><span class="sxs-lookup"><span data-stu-id="46f59-132">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="46f59-133">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="46f59-133">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="46f59-134">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="46f59-134">MT940StatementExample</span></span>                |
+| <span data-ttu-id="46f59-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="46f59-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="46f59-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="46f59-136">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="46f59-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="46f59-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="46f59-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="46f59-138">BAI2StatementExample</span></span>                 |
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>ISO20022 pangaväljavõtete impordi seadistamine
-Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi ISO20022 pangaväljavõtetele, kasutades andmeüksuse raamistikku.
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="46f59-139">ISO20022 pangaväljavõtete impordi seadistamine</span><span class="sxs-lookup"><span data-stu-id="46f59-139">Set up the import of ISO20022 bank statements</span></span>
+<span data-ttu-id="46f59-140">Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi ISO20022 pangaväljavõtetele, kasutades andmeüksuse raamistikku.</span><span class="sxs-lookup"><span data-stu-id="46f59-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>
 
-1.  Avage **Tööruumid** &gt; **Andmehaldus**.
-2.  Klõpsake nuppu **Impordi**.
-3.  Sisestage vormingu nimi, nt **ISO20022**.
-4.  Määrake välja **Lähteandmete vorming** väärtuseks **XML-element**.
-5.  Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.
-6.  Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.
-7.  Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.
-8.  Pangaväljavõtte üksus on liitüksus, mis koosneb neljast eraldi üksusest. Valige loendist **BankStatementDocumentEntity** ja klõpsake siis toimingut **Kuva kaart**.
-9.  Klõpsake vahekaardil **Teisendused** valikut **Uus**.
-10. Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail **ISO20022XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Finance and Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale, tuleb teil vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
-11. Klõpsake nuppu **Uus**.
-12. Järjekorranumbri 2 puhul klõpsake valikut **Laadi fail üles** ja valige fail **BankReconciliation-to-Composite.xslt**, mille varem salvestasite.
-13. Klõpsake valikut **Rakenda teisendused**.
+1.  <span data-ttu-id="46f59-141">Avage **Tööruumid** &gt; **Andmehaldus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-141">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="46f59-142">Klõpsake nuppu **Impordi**.</span><span class="sxs-lookup"><span data-stu-id="46f59-142">Click **Import**.</span></span>
+3.  <span data-ttu-id="46f59-143">Sisestage vormingu nimi, nt **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="46f59-143">Enter a name for the format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="46f59-144">Määrake välja **Lähteandmete vorming** väärtuseks **XML-element**.</span><span class="sxs-lookup"><span data-stu-id="46f59-144">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="46f59-145">Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.</span><span class="sxs-lookup"><span data-stu-id="46f59-145">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="46f59-146">Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-146">To upload the import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="46f59-147">Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.</span><span class="sxs-lookup"><span data-stu-id="46f59-147">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="46f59-148">Pangaväljavõtte üksus on liitüksus, mis koosneb neljast eraldi üksusest.</span><span class="sxs-lookup"><span data-stu-id="46f59-148">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="46f59-149">Valige loendist **BankStatementDocumentEntity** ja klõpsake siis toimingut **Kuva kaart**.</span><span class="sxs-lookup"><span data-stu-id="46f59-149">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="46f59-150">Klõpsake vahekaardil **Teisendused** valikut **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-150">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="46f59-151">Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail **ISO20022XML-to-Reconciliation.xslt**, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-151">For sequence number 1, click **Upload file**, and select the **ISO20022XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="46f59-152">**Märkus.** Finance and Operationsi teisendusfailid on loodud standardse vormingu jaoks.</span><span class="sxs-lookup"><span data-stu-id="46f59-152">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="46f59-153">Kuna pangad kalduvad sellest vormingust sageli kõrvale, tuleb teil vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks.</span><span class="sxs-lookup"><span data-stu-id="46f59-153">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+11. <span data-ttu-id="46f59-154">Klõpsake nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-154">Click **New**.</span></span>
+12. <span data-ttu-id="46f59-155">Järjekorranumbri 2 puhul klõpsake valikut **Laadi fail üles** ja valige fail **BankReconciliation-to-Composite.xslt**, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-155">For sequence number 2, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+13. <span data-ttu-id="46f59-156">Klõpsake valikut **Rakenda teisendused**.</span><span class="sxs-lookup"><span data-stu-id="46f59-156">Click **Apply transforms**.</span></span>
 
-Pärast vormingu töötlemise grupi seadistamist on järgmine samm määratleda ISO20022 pangaväljavõtetele vormingureeglid.
+<span data-ttu-id="46f59-157">Pärast vormingu töötlemise grupi seadistamist on järgmine samm määratleda ISO20022 pangaväljavõtetele vormingureeglid.</span><span class="sxs-lookup"><span data-stu-id="46f59-157">After the format processing group is set up, the next step is to define the bank statement format rules for ISO20022 bank statements.</span></span>
 
-1.  Valige **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Pangakonto täpsema vastavusseviimise seadistus** &gt; **Pangaväljavõtte vorming**.
-2.  Klõpsake nuppu **Uus**.
-3.  Määratlege väljavõtte vorming, nt **ISO20022**.
-4.  Sisestage vormingu nimi.
-5.  Määrake väljal **Töötlemisgrupp** varem määratletud grupp, nt **ISO20022**.
-6.  Märkige ruut **XML-fail**.
+1.  <span data-ttu-id="46f59-158">Valige **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Pangakonto täpsema vastavusseviimise seadistus** &gt; **Pangaväljavõtte vorming**.</span><span class="sxs-lookup"><span data-stu-id="46f59-158">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="46f59-159">Klõpsake nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-159">Click **New**.</span></span>
+3.  <span data-ttu-id="46f59-160">Määratlege väljavõtte vorming, nt **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="46f59-160">Specify a statement format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="46f59-161">Sisestage vormingu nimi.</span><span class="sxs-lookup"><span data-stu-id="46f59-161">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="46f59-162">Määrake väljal **Töötlemisgrupp** varem määratletud grupp, nt **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="46f59-162">Set the **Processing group** field to the group that you defined earlier, such as **ISO20022**.</span></span>
+6.  <span data-ttu-id="46f59-163">Märkige ruut **XML-fail**.</span><span class="sxs-lookup"><span data-stu-id="46f59-163">Select the **XML file** check box.</span></span>
 
-Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakontol väljavõtte vorming.
+<span data-ttu-id="46f59-164">Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakontol väljavõtte vorming.</span><span class="sxs-lookup"><span data-stu-id="46f59-164">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.
-2.  Valige pangakonto ja avage see üksikasjade vaatamiseks.
-3.  Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine** väärtuseks **Jah**.
-4.  Määrake väljal **Väljavõtte vorming** varem loodud vorming, nt **ISO20022**.
+1.  <span data-ttu-id="46f59-165">Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.</span><span class="sxs-lookup"><span data-stu-id="46f59-165">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="46f59-166">Valige pangakonto ja avage see üksikasjade vaatamiseks.</span><span class="sxs-lookup"><span data-stu-id="46f59-166">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="46f59-167">Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine** väärtuseks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="46f59-167">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="46f59-168">Määrake väljal **Väljavõtte vorming** varem loodud vorming, nt **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="46f59-168">Set the **Statement format** field to the format that you created earlier, such as **ISO20022**.</span></span>
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>MT940 pangaväljavõtete impordi seadistamine
-Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi MT940 pangaväljavõtetele, kasutades andmeüksuse raamistikku.
+## <a name="set-up-the-import-of-mt940-bank-statements"></a><span data-ttu-id="46f59-169">MT940 pangaväljavõtete impordi seadistamine</span><span class="sxs-lookup"><span data-stu-id="46f59-169">Set up the import of MT940 bank statements</span></span>
+<span data-ttu-id="46f59-170">Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi MT940 pangaväljavõtetele, kasutades andmeüksuse raamistikku.</span><span class="sxs-lookup"><span data-stu-id="46f59-170">First, you must define the bank statement format processing group for MT940 bank statements by using the data entity framework.</span></span>
 
-1.  Avage **Tööruumid** &gt; **Andmehaldus**.
-2.  Klõpsake nuppu **Impordi**.
-3.  Sisestage vormingu nimi, nt **MT940**.
-4.  Määrake välja **Lähteandmete vorming** väärtuseks **XML-element**.
-5.  Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.
-6.  Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.
-7.  Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.
-8.  Pangaväljavõtte üksus on liitüksus, mis koosneb neljast eraldi üksusest. Valige loendist **BankStatementDocumentEntity** ja klõpsake siis toimingut **Kuva kaart**.
-9.  Klõpsake vahekaardil **Teisendused** valikut **Uus**.
-10. Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail **MT940TXT-to-MT940XML.xslt**, mille varem salvestasite.
-11. Klõpsake **Uus**.
-12. Klõpsake järjekorranumbri 2 puhul valikut **Laadi fail üles** ja valige fail **MT940XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Finance and Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale, tuleb teil vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
-13. Klõpsake nuppu **Uus**.
-14. Järjekorranumbri 3 puhul klõpsake valikut **Laadi fail üles** ja valige fail **BankReconciliation-to-Composite.xslt**, mille varem salvestasite.
-15. Klõpsake valikut **Rakenda teisendused**.
+1.  <span data-ttu-id="46f59-171">Avage **Tööruumid** &gt; **Andmehaldus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-171">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="46f59-172">Klõpsake nuppu **Impordi**.</span><span class="sxs-lookup"><span data-stu-id="46f59-172">Click **Import**.</span></span>
+3.  <span data-ttu-id="46f59-173">Sisestage vormingu nimi, nt **MT940**.</span><span class="sxs-lookup"><span data-stu-id="46f59-173">Enter a name for the format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="46f59-174">Määrake välja **Lähteandmete vorming** väärtuseks **XML-element**.</span><span class="sxs-lookup"><span data-stu-id="46f59-174">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="46f59-175">Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.</span><span class="sxs-lookup"><span data-stu-id="46f59-175">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="46f59-176">Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-176">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="46f59-177">Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.</span><span class="sxs-lookup"><span data-stu-id="46f59-177">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="46f59-178">Pangaväljavõtte üksus on liitüksus, mis koosneb neljast eraldi üksusest.</span><span class="sxs-lookup"><span data-stu-id="46f59-178">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="46f59-179">Valige loendist **BankStatementDocumentEntity** ja klõpsake siis toimingut **Kuva kaart**.</span><span class="sxs-lookup"><span data-stu-id="46f59-179">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="46f59-180">Klõpsake vahekaardil **Teisendused** valikut **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-180">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="46f59-181">Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail **MT940TXT-to-MT940XML.xslt**, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-181">For sequence number 1, click **Upload file**, and select the **MT940TXT-to-MT940XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="46f59-182">Klõpsake **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-182">Click **New**.</span></span>
+12. <span data-ttu-id="46f59-183">Klõpsake järjekorranumbri 2 puhul valikut **Laadi fail üles** ja valige fail **MT940XML-to-Reconciliation.xslt**, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-183">For sequence number 2, click **Upload file**, and select the **MT940XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="46f59-184">**Märkus.** Finance and Operationsi teisendusfailid on loodud standardse vormingu jaoks.</span><span class="sxs-lookup"><span data-stu-id="46f59-184">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="46f59-185">Kuna pangad kalduvad sellest vormingust sageli kõrvale, tuleb teil vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks.</span><span class="sxs-lookup"><span data-stu-id="46f59-185">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+13. <span data-ttu-id="46f59-186">Klõpsake nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-186">Click **New**.</span></span>
+14. <span data-ttu-id="46f59-187">Järjekorranumbri 3 puhul klõpsake valikut **Laadi fail üles** ja valige fail **BankReconciliation-to-Composite.xslt**, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-187">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="46f59-188">Klõpsake valikut **Rakenda teisendused**.</span><span class="sxs-lookup"><span data-stu-id="46f59-188">Click **Apply transforms**.</span></span>
 
-Pärast vormingu töötlemise grupi seadistamist on järgmine samm määratleda MT940 pangaväljavõtetele vormingureeglid.
+<span data-ttu-id="46f59-189">Pärast vormingu töötlemise grupi seadistamist on järgmine samm määratleda MT940 pangaväljavõtetele vormingureeglid.</span><span class="sxs-lookup"><span data-stu-id="46f59-189">After the format processing group is set up, the next step is to define the bank statement format rules for MT940 bank statements.</span></span>
 
-1.  Valige **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Pangakonto täpsema vastavusseviimise seadistus** &gt; **Pangaväljavõtte vorming**.
-2.  Klõpsake nuppu **Uus**.
-3.  Määratlege väljavõtte vorming, nt **MT940**.
-4.  Sisestage vormingu nimi.
-5.  Määrake väljal **Töötlemisgrupp** varem määratletud grupp, nt **MT940**.
-6.  Määrake välja **Faili tüüp** väärtuseks **txt**.
+1.  <span data-ttu-id="46f59-190">Valige **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Pangakonto täpsema vastavusseviimise seadistus** &gt; **Pangaväljavõtte vorming**.</span><span class="sxs-lookup"><span data-stu-id="46f59-190">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="46f59-191">Klõpsake nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-191">Click **New**.</span></span>
+3.  <span data-ttu-id="46f59-192">Määratlege väljavõtte vorming, nt **MT940**.</span><span class="sxs-lookup"><span data-stu-id="46f59-192">Specify a statement format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="46f59-193">Sisestage vormingu nimi.</span><span class="sxs-lookup"><span data-stu-id="46f59-193">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="46f59-194">Määrake väljal **Töötlemisgrupp** varem määratletud grupp, nt **MT940**.</span><span class="sxs-lookup"><span data-stu-id="46f59-194">Set the **Processing group** field to the group that you defined earlier, such as **MT940**.</span></span>
+6.  <span data-ttu-id="46f59-195">Määrake välja **Faili tüüp** väärtuseks **txt**.</span><span class="sxs-lookup"><span data-stu-id="46f59-195">Set the **File type** field to **txt**.</span></span>
 
-Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakontol väljavõtte vorming.
+<span data-ttu-id="46f59-196">Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakontol väljavõtte vorming.</span><span class="sxs-lookup"><span data-stu-id="46f59-196">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.
-2.  Valige pangakonto ja avage see üksikasjade vaatamiseks.
-3.  Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine** väärtuseks **Jah**.
-4.  Kui teil palutakse oma valik kinnitada ja lubada täpsem pangakonto vastavusseviimine, klõpsake **OK**.
-5.  Määrake väljal **Väljavõtte vorming** varem loodud vorming, nt **MT940**.
+1.  <span data-ttu-id="46f59-197">Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.</span><span class="sxs-lookup"><span data-stu-id="46f59-197">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="46f59-198">Valige pangakonto ja avage see üksikasjade vaatamiseks.</span><span class="sxs-lookup"><span data-stu-id="46f59-198">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="46f59-199">Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine** väärtuseks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="46f59-199">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="46f59-200">Kui teil palutakse oma valik kinnitada ja lubada täpsem pangakonto vastavusseviimine, klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="46f59-200">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="46f59-201">Määrake väljal **Väljavõtte vorming** varem loodud vorming, nt **MT940**.</span><span class="sxs-lookup"><span data-stu-id="46f59-201">Set the **Statement format** field to the format that you created earlier, such as **MT940**.</span></span>
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>BAI2 pangaväljavõtete impordi seadistamine
-Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi BAI2 pangaväljavõtetele, kasutades andmeüksuse raamistikku.
+## <a name="set-up-the-import-of-bai2-bank-statements"></a><span data-ttu-id="46f59-202">BAI2 pangaväljavõtete impordi seadistamine</span><span class="sxs-lookup"><span data-stu-id="46f59-202">Set up the import of BAI2 bank statements</span></span>
+<span data-ttu-id="46f59-203">Esiteks peate määratlema pangaväljavõtte vormi töötlemisgrupi BAI2 pangaväljavõtetele, kasutades andmeüksuse raamistikku.</span><span class="sxs-lookup"><span data-stu-id="46f59-203">First, you must define the bank statement format processing group for BAI2 bank statements by using the data entity framework.</span></span>
 
-1.  Avage **Tööruumid** &gt; **Andmehaldus**.
-2.  Klõpsake nuppu **Impordi**.
-3.  Sisestage vormingu nimi, nt **BAI2**.
-4.  Määrake välja **Lähteandmete vorming** väärtuseks **XML-element**.
-5.  Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.
-6.  Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.
-7.  Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.
-8.  Pangaväljavõtte üksus on liitüksus, mis koosneb neljast eraldi üksusest. Valige loendist **BankStatementDocumentEntity** ja klõpsake siis toimingut **Kuva kaart**.
-9.  Klõpsake vahekaardil **Teisendused** valikut **Uus**.
-10. Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail **BAI2CSV-to-BAI2XML.xslt**, mille varem salvestasite.
-11. Klõpsake **Uus**.
-12. Klõpsake järjekorranumbri 2 puhul valikut **Laadi fail üles** ja valige fail **BAI2XML-to-Reconciliation.xslt**, mille varem salvestasite. **Märkus.** Finance and Operationsi teisendusfailid on loodud standardse vormingu jaoks. Kuna pangad kalduvad sellest vormingust sageli kõrvale ja teil tuleb vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
-13. Klõpsake nuppu **Uus**.
-14. Järjekorranumbri 3 puhul klõpsake valikut **Laadi fail üles** ja valige fail **BankReconciliation-to-Composite.xslt**, mille varem salvestasite.
-15. Klõpsake valikut **Rakenda teisendused**.
+1.  <span data-ttu-id="46f59-204">Avage **Tööruumid** &gt; **Andmehaldus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-204">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="46f59-205">Klõpsake nuppu **Impordi**.</span><span class="sxs-lookup"><span data-stu-id="46f59-205">Click **Import**.</span></span>
+3.  <span data-ttu-id="46f59-206">Sisestage vormingu nimi, nt **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="46f59-206">Enter a name for the format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="46f59-207">Määrake välja **Lähteandmete vorming** väärtuseks **XML-element**.</span><span class="sxs-lookup"><span data-stu-id="46f59-207">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="46f59-208">Määrake väljale **Üksuse nimi** väärtus **Pangaväljavõtted**.</span><span class="sxs-lookup"><span data-stu-id="46f59-208">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="46f59-209">Impordifailide üleslaadimiseks klõpsake valikut **Üleslaadimine** ja minge siis faili **SampleBankCompositeEntity.xml** juurde, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-209">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="46f59-210">Pärast pangaväljavõtete olemi üleslaadimist ja vastendamise lõpetamist klõpsake üksuse toimingut **Kuva kaart**.</span><span class="sxs-lookup"><span data-stu-id="46f59-210">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="46f59-211">Pangaväljavõtte üksus on liitüksus, mis koosneb neljast eraldi üksusest.</span><span class="sxs-lookup"><span data-stu-id="46f59-211">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="46f59-212">Valige loendist **BankStatementDocumentEntity** ja klõpsake siis toimingut **Kuva kaart**.</span><span class="sxs-lookup"><span data-stu-id="46f59-212">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="46f59-213">Klõpsake vahekaardil **Teisendused** valikut **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-213">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="46f59-214">Klõpsake järjekorranumbri 1 puhul valikut **Laadi fail üles** ja valige fail **BAI2CSV-to-BAI2XML.xslt**, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-214">For sequence number 1, click **Upload file**, and select the **BAI2CSV-to-BAI2XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="46f59-215">Klõpsake **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-215">Click **New**.</span></span>
+12. <span data-ttu-id="46f59-216">Klõpsake järjekorranumbri 2 puhul valikut **Laadi fail üles** ja valige fail **BAI2XML-to-Reconciliation.xslt**, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-216">For sequence number 2, click **Upload file**, and select the **BAI2XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="46f59-217">**Märkus.** Finance and Operationsi teisendusfailid on loodud standardse vormingu jaoks.</span><span class="sxs-lookup"><span data-stu-id="46f59-217">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="46f59-218">Kuna pangad kalduvad sellest vormingust sageli kõrvale ja teil tuleb vajaduse korral värskendada teisendusfaili teie pangaväljavõtte vorminguga vastendamiseks.</span><span class="sxs-lookup"><span data-stu-id="46f59-218">Because banks often diverge from this format, and you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+13. <span data-ttu-id="46f59-219">Klõpsake nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-219">Click **New**.</span></span>
+14. <span data-ttu-id="46f59-220">Järjekorranumbri 3 puhul klõpsake valikut **Laadi fail üles** ja valige fail **BankReconciliation-to-Composite.xslt**, mille varem salvestasite.</span><span class="sxs-lookup"><span data-stu-id="46f59-220">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="46f59-221">Klõpsake valikut **Rakenda teisendused**.</span><span class="sxs-lookup"><span data-stu-id="46f59-221">Click **Apply transforms**.</span></span>
 
-Pärast vormingu töötlemise grupi seadistamist on järgmine samm määratleda BAI2 pangaväljavõtetele vormingureeglid.
+<span data-ttu-id="46f59-222">Pärast vormingu töötlemise grupi seadistamist on järgmine samm määratleda BAI2 pangaväljavõtetele vormingureeglid.</span><span class="sxs-lookup"><span data-stu-id="46f59-222">After the format processing group is set up, the next step is to define the bank statement format rules for BAI2 bank statements.</span></span>
 
-1.  Valige **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Pangakonto täpsema vastavusseviimise seadistus** &gt; **Pangaväljavõtte vorming**.
-2.  Klõpsake nuppu **Uus**.
-3.  Määratlege väljavõtte vorming, nt **BAI2**.
-4.  Sisestage vormingu nimi.
-5.  Määrake väljal **Töötlemisgrupp** varem määratletud grupp, nt **BAI2**.
-6.  Määrake välja **Faili tüüp** väärtuseks **txt**.
+1.  <span data-ttu-id="46f59-223">Valige **Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Pangakonto täpsema vastavusseviimise seadistus** &gt; **Pangaväljavõtte vorming**.</span><span class="sxs-lookup"><span data-stu-id="46f59-223">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="46f59-224">Klõpsake nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="46f59-224">Click **New**.</span></span>
+3.  <span data-ttu-id="46f59-225">Määratlege väljavõtte vorming, nt **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="46f59-225">Specify a statement format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="46f59-226">Sisestage vormingu nimi.</span><span class="sxs-lookup"><span data-stu-id="46f59-226">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="46f59-227">Määrake väljal **Töötlemisgrupp** varem määratletud grupp, nt **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="46f59-227">Set the **Processing group** field to the group that you defined earlier, such as **BAI2**.</span></span>
+6.  <span data-ttu-id="46f59-228">Määrake välja **Faili tüüp** väärtuseks **txt**.</span><span class="sxs-lookup"><span data-stu-id="46f59-228">Set the **File type** field to **txt**.</span></span>
 
-Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakontol väljavõtte vorming.
+<span data-ttu-id="46f59-229">Viimane toiming on lubada täpsem panga vastavusseviimine ja määrata pangakontol väljavõtte vorming.</span><span class="sxs-lookup"><span data-stu-id="46f59-229">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.
-2.  Valige pangakonto ja avage see üksikasjade vaatamiseks.
-3.  Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine** väärtuseks **Jah**.
-4.  Kui teil palutakse oma valik kinnitada ja lubada täpsem pangakonto vastavusseviimine, klõpsake **OK**.
-5.  Määrake väljal **Väljavõtte vorming** varem loodud vorming, nt **BAI2**.
+1.  <span data-ttu-id="46f59-230">Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.</span><span class="sxs-lookup"><span data-stu-id="46f59-230">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="46f59-231">Valige pangakonto ja avage see üksikasjade vaatamiseks.</span><span class="sxs-lookup"><span data-stu-id="46f59-231">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="46f59-232">Määrake vahekaardil **Vastavusseviimine** valiku **Pangakonto täpsem vastavusseviimine** väärtuseks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="46f59-232">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="46f59-233">Kui teil palutakse oma valik kinnitada ja lubada täpsem pangakonto vastavusseviimine, klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="46f59-233">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="46f59-234">Määrake väljal **Väljavõtte vorming** varem loodud vorming, nt **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="46f59-234">Set the **Statement format** field to the format that you created earlier, such as **BAI2**.</span></span>
 
-## <a name="test-the-bank-statement-import"></a>Pangaväljavõtte impordi proovimine
-Viimane toiming on proovimine, kas saate oma pangaväljavõtte importida.
+## <a name="test-the-bank-statement-import"></a><span data-ttu-id="46f59-235">Pangaväljavõtte impordi proovimine</span><span class="sxs-lookup"><span data-stu-id="46f59-235">Test the bank statement import</span></span>
+<span data-ttu-id="46f59-236">Viimane toiming on proovimine, kas saate oma pangaväljavõtte importida.</span><span class="sxs-lookup"><span data-stu-id="46f59-236">The final step is to test that you can import your bank statement.</span></span>
 
-1.  Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.
-2.  Valige pangakonto, millel täpsem panga vastavusseviimise funktsioon on lubatud.
-3.  Klõpsake vahekaardil **Vii vastavusse** valikut **Pangaväljavõtted**.
-4.  Klõpsake lehel **Pangaväljavõte** valikut **Väljavõtte importimine**.
-5.  Määrake väljale **Pangakonto** valitud pangakonto. Väli **Väljavõtte vorming** määratakse automaatselt pangakonto seadistuse põhjal.
-6.  Klõpsake valikut **Sirvi** ja valige elektroonilise pangaväljavõtte fail.
-7.  Klõpsake **Üleslaadimine**.
-8.  Klõpsake nupul **OK**.
+1.  <span data-ttu-id="46f59-237">Avage **Sularaha- ja pangahaldus** &gt; **Pangakontod**.</span><span class="sxs-lookup"><span data-stu-id="46f59-237">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="46f59-238">Valige pangakonto, millel täpsem panga vastavusseviimise funktsioon on lubatud.</span><span class="sxs-lookup"><span data-stu-id="46f59-238">Select the bank account that Advanced bank reconciliation functionality is enabled for.</span></span>
+3.  <span data-ttu-id="46f59-239">Klõpsake vahekaardil **Vii vastavusse** valikut **Pangaväljavõtted**.</span><span class="sxs-lookup"><span data-stu-id="46f59-239">On the **Reconcile** tab, click **Bank statements**.</span></span>
+4.  <span data-ttu-id="46f59-240">Klõpsake lehel **Pangaväljavõte** valikut **Väljavõtte importimine**.</span><span class="sxs-lookup"><span data-stu-id="46f59-240">On the **Bank statement** page, click **Import statement**.</span></span>
+5.  <span data-ttu-id="46f59-241">Määrake väljale **Pangakonto** valitud pangakonto.</span><span class="sxs-lookup"><span data-stu-id="46f59-241">Set the **Bank account** field to the selected bank account.</span></span> <span data-ttu-id="46f59-242">Väli **Väljavõtte vorming** määratakse automaatselt pangakonto seadistuse põhjal.</span><span class="sxs-lookup"><span data-stu-id="46f59-242">The **Statement format** field will be set automatically, based on the setting on the bank account.</span></span>
+6.  <span data-ttu-id="46f59-243">Klõpsake valikut **Sirvi** ja valige elektroonilise pangaväljavõtte fail.</span><span class="sxs-lookup"><span data-stu-id="46f59-243">Click **Browse**, and select your electronic bank statement file.</span></span>
+7.  <span data-ttu-id="46f59-244">Klõpsake **Üleslaadimine**.</span><span class="sxs-lookup"><span data-stu-id="46f59-244">Click **Upload**.</span></span>
+8.  <span data-ttu-id="46f59-245">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="46f59-245">Click **OK**.</span></span>
 
-Kui importimine õnnestub, saate teate, milles on öeldud, et teie väljavõte on imporditud. Kui importimine ei õnnestunud, otsige tööruumist **Andmehaldus** jaotises **Tööde ajalugu** töö üles. Klõpsake töö kohta valikut **Käivitamise üksikasjad** lehe **Käivitamise kokkuvõte** avamiseks ja seejärel klõpsake imporditõrgete kuvamiseks valikut **Kuva käivituslogi**.
+<span data-ttu-id="46f59-246">Kui importimine õnnestub, saate teate, milles on öeldud, et teie väljavõte on imporditud.</span><span class="sxs-lookup"><span data-stu-id="46f59-246">If the import is successful, you will receive a message that states that your statement was imported.</span></span> <span data-ttu-id="46f59-247">Kui importimine ei õnnestunud, otsige tööruumist **Andmehaldus** jaotises **Tööde ajalugu** töö üles.</span><span class="sxs-lookup"><span data-stu-id="46f59-247">If the import wasn't successful, in the **Data management** workspace, in the **Job history** section, find the job.</span></span> <span data-ttu-id="46f59-248">Klõpsake töö kohta valikut **Käivitamise üksikasjad** lehe **Käivitamise kokkuvõte** avamiseks ja seejärel klõpsake imporditõrgete kuvamiseks valikut **Kuva käivituslogi**.</span><span class="sxs-lookup"><span data-stu-id="46f59-248">Click **Execution details** for the job to open the **Execution summary** page, and then click **View execution log** to view the import errors.</span></span>
 
 
 

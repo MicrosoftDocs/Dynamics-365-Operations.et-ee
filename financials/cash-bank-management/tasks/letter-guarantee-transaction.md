@@ -16,135 +16,135 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5835469cff8295bc6486c097eaf26114fa547c00
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 21895bcda8f0fe46e9b7c4b2189ca8b13e0dc012
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="letter-of-guarantee-transaction"></a>Garantiikirja kanne
+# <a name="letter-of-guarantee-transaction"></a><span data-ttu-id="eb49a-103">Garantiikirja kanne</span><span class="sxs-lookup"><span data-stu-id="eb49a-103">Letter of guarantee transaction</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur selgitab garantiikirja töötlemist.
+<span data-ttu-id="eb49a-104">See protseduur selgitab garantiikirja töötlemist.</span><span class="sxs-lookup"><span data-stu-id="eb49a-104">This procedure walks through the Letter of guarantee process.</span></span>
 
 
 
-Enne selle toimingu tegemist peavad olema tehtud järgmised toimingud.
+<span data-ttu-id="eb49a-105">Enne selle toimingu tegemist peavad olema tehtud järgmised toimingud.</span><span class="sxs-lookup"><span data-stu-id="eb49a-105">The following tasks must be complete before completing this procedure:</span></span>
 
-- Pangateenuste ja garantiikirjade sisestusreeglite häälestamine.
+- <span data-ttu-id="eb49a-106">Pangateenuste ja garantiikirjade sisestusreeglite häälestamine.</span><span class="sxs-lookup"><span data-stu-id="eb49a-106">Set up bank facilities and posting profiles for a letter of guarantee.</span></span>
 
-- Garantiikirja jaoks panga süsteemiteenuse leppe loomine.
-
-
-
-See protsess kasutab demoettevõtte USMF-i andmeid.
+- <span data-ttu-id="eb49a-107">Garantiikirja jaoks panga süsteemiteenuse leppe loomine.</span><span class="sxs-lookup"><span data-stu-id="eb49a-107">Create a bank facility agreement for a letter of guarantee.</span></span>
 
 
-## <a name="create-sales-order-with-letter-of-guarantee"></a>Garantiikirjaga müügitellimuse loomine
-1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
-2. Klõpsake valikut Uus.
-3. Valige või sisestage väärtus väljal Kliendi konto.
-4. Laiendage jaotist Üldine.
-5. Sisestage või valige väärtus väljal Koht.
-6. Klõpsake loendis valitud real olevat linki.
-7. Sisestage või valige väärtus väljal Ladu.
-8. Klõpsake loendis valitud real olevat linki.
-9. Valige väljal Pangadokumendi tüüp suvand Garantiikiri.
-10. Klõpsake nuppu OK.
-11. Sisestage või valige väärtus väljal Kaubakood.
-12. Sisestage arv väljale Ühiku hind.
-13. Laiendage jaotis Rea üksikasjad.
-14. Klõpsake vahekaarti Tarne.
-    * Märkus. Valige suvandi Tarnekuupäeva kontroll sätteks Puudub  
-15. Sisestage kuupäev väljale Nõutav lähetuskuupäev.
-16. Sisestage kuupäev väljale Kinnitatud lähetuskuupäev.
 
-## <a name="process-letter-of-guaranteerequest"></a>Garantiikirja protsess Taotlemine
-1. Klõpsake tegumiribal valikut Haldamine.
-2. Klõpsake suvandit Garantiikiri.
-3. Klõpsake tegevuspaanil suvandit Garantiikiri.
-4. Klõpsake suvandit Taotlus rippdialoogi avamiseks.
-5. Sisestage või valige väärtus väljal Tüüp.
-6. Klõpsake loendis valitud real olevat linki.
-7. Sisestage number väljale Väärtus.
-8. Sisestage kuupäev ja kellaaeg väljale Aegumiskuupäev.
-9. Klõpsake nuppu OK.
-10. Sulgege leht.
+<span data-ttu-id="eb49a-108">See protsess kasutab demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="eb49a-108">This procedure uses the USMF demo company.</span></span>
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Garantiikirja protsess Edasta panka
-1. Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.
-2. Otsige loendist ja valige soovitud kirje.
-3. Klõpsake suvandit Edasta panka, et avada rippdialoog.
-4. Sisestage väärtus väljale Pangakonto või valige see.
-5. Klõpsake loendis valitud real olevat linki.
-6. Klõpsake nuppu OK.
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Garantiikirja Protsess Võta pangalt vastu
-1. Klõpsake suvandit Võta pangalt vastu, et avada rippdialoog.
-2. Sisestage väärtus väljale Panga number.
-    * Kontrollige arvutatud väärtusi väljadel Marginaal ja Kulu.  
-3. Klõpsake nuppu OK.
-4. Laiendage jaotist Tegevused.
-    * Kontrollige kirjet Võta pangalt vastu.  
-5. Klõpsake linki väljal Töölehe partiinumber.
-6. Klõpsake valikut Read.
-    * Kontrollige töölehekannete sisestamist.  
-7. Sulgege leht.
+## <a name="create-sales-order-with-letter-of-guarantee"></a><span data-ttu-id="eb49a-109">Garantiikirjaga müügitellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="eb49a-109">Create Sales Order with Letter of Guarantee</span></span>
+1. <span data-ttu-id="eb49a-110">Avage Müügireskontro > Tellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="eb49a-110">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="eb49a-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="eb49a-111">Click New.</span></span>
+3. <span data-ttu-id="eb49a-112">Valige või sisestage väärtus väljal Kliendi konto.</span><span class="sxs-lookup"><span data-stu-id="eb49a-112">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="eb49a-113">Laiendage jaotist Üldine.</span><span class="sxs-lookup"><span data-stu-id="eb49a-113">Expand the General section.</span></span>
+5. <span data-ttu-id="eb49a-114">Sisestage või valige väärtus väljal Koht.</span><span class="sxs-lookup"><span data-stu-id="eb49a-114">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="eb49a-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="eb49a-115">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="eb49a-116">Sisestage või valige väärtus väljal Ladu.</span><span class="sxs-lookup"><span data-stu-id="eb49a-116">In the Warehouse field, enter or select a value.</span></span>
+8. <span data-ttu-id="eb49a-117">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="eb49a-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="eb49a-118">Valige väljal Pangadokumendi tüüp suvand Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-118">In the Bank document type field, select 'Letter of guarantee'.</span></span>
+10. <span data-ttu-id="eb49a-119">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-119">Click OK.</span></span>
+11. <span data-ttu-id="eb49a-120">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="eb49a-120">In the Item number field, enter or select a value.</span></span>
+12. <span data-ttu-id="eb49a-121">Sisestage arv väljale Ühiku hind.</span><span class="sxs-lookup"><span data-stu-id="eb49a-121">In the Unit price field, enter a number.</span></span>
+13. <span data-ttu-id="eb49a-122">Laiendage jaotis Rea üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="eb49a-122">Expand the Line details section.</span></span>
+14. <span data-ttu-id="eb49a-123">Klõpsake vahekaarti Tarne.</span><span class="sxs-lookup"><span data-stu-id="eb49a-123">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="eb49a-124">Märkus. Valige suvandi Tarnekuupäeva kontroll sätteks Puudub</span><span class="sxs-lookup"><span data-stu-id="eb49a-124">Note: Select Delivery date control = None</span></span>  
+15. <span data-ttu-id="eb49a-125">Sisestage kuupäev väljale Nõutav lähetuskuupäev.</span><span class="sxs-lookup"><span data-stu-id="eb49a-125">In the Requested ship date field, enter a date.</span></span>
+16. <span data-ttu-id="eb49a-126">Sisestage kuupäev väljale Kinnitatud lähetuskuupäev.</span><span class="sxs-lookup"><span data-stu-id="eb49a-126">In the Confirmed ship date field, enter a date.</span></span>
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Garantiikirja protsess Anna kasusaajale
-1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
-2. Klõpsake loendis valitud real olevat linki.
-3. Klõpsake tegumiribal valikut Haldamine.
-4. Klõpsake suvandit Garantiikiri.
-5. Klõpsake tegevuspaanil suvandit Garantiikiri.
-6. Klõpsake suvandit Anna kasusaajale, et avada rippdialoog.
-7. Klõpsake nuppu OK.
-8. Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.
-9. Otsige loendist ja valige soovitud kirje.
-10. Klõpsake suvandit Anna kasusaajale, et avada rippdialoog.
-11. Klõpsake nuppu OK.
-12. Laiendage jaotist Tegevused.
-    * Kinnitage kirje Anna kasusaajale.  
+## <a name="process-letter-of-guaranteerequest"></a><span data-ttu-id="eb49a-127">Garantiikirja protsess Taotlemine</span><span class="sxs-lookup"><span data-stu-id="eb49a-127">Process letter of guarantee_Request</span></span>
+1. <span data-ttu-id="eb49a-128">Klõpsake tegumiribal valikut Haldamine.</span><span class="sxs-lookup"><span data-stu-id="eb49a-128">On the Action Pane, click Manage.</span></span>
+2. <span data-ttu-id="eb49a-129">Klõpsake suvandit Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-129">Click Letter of guarantee.</span></span>
+3. <span data-ttu-id="eb49a-130">Klõpsake tegevuspaanil suvandit Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-130">On the Action Pane, click Letter of guarantee.</span></span>
+4. <span data-ttu-id="eb49a-131">Klõpsake suvandit Taotlus rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="eb49a-131">Click Request to open the drop dialog.</span></span>
+5. <span data-ttu-id="eb49a-132">Sisestage või valige väärtus väljal Tüüp.</span><span class="sxs-lookup"><span data-stu-id="eb49a-132">In the Type field, enter or select a value.</span></span>
+6. <span data-ttu-id="eb49a-133">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="eb49a-133">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="eb49a-134">Sisestage number väljale Väärtus.</span><span class="sxs-lookup"><span data-stu-id="eb49a-134">In the Value field, enter a number.</span></span>
+8. <span data-ttu-id="eb49a-135">Sisestage kuupäev ja kellaaeg väljale Aegumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="eb49a-135">In the Expiration date field, enter a date and time.</span></span>
+9. <span data-ttu-id="eb49a-136">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-136">Click OK.</span></span>
+10. <span data-ttu-id="eb49a-137">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="eb49a-137">Close the page.</span></span>
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Garantiikirja protsess Suurenda väärtust
-1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
-2. Klõpsake loendis valitud real olevat linki.
-3. Klõpsake tegumiribal valikut Haldamine.
-4. Klõpsake suvandit Garantiikiri.
-5. Klõpsake tegevuspaanil suvandit Garantiikiri.
-6. Klõpsake suvandit suurenda väärtust rippdialoogi avamiseks.
-7. Sisestage arv väljale Lisatav väärtus.
-8. Klõpsake nuppu OK.
-9. Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.
-10. Otsige loendist ja valige soovitud kirje.
-11. Klõpsake suvandit suurenda väärtust rippdialoogi avamiseks.
-12. Klõpsake nuppu OK.
-13. Laiendage jaotist Tegevused.
-    * Kontrollige kirjet Suurenda väärtust.  
-14. Otsige loendist ja valige soovitud kirje.
-15. Klõpsake linki väljal Töölehe partiinumber.
-16. Klõpsake valikut Read.
-    * Kontrollige sisestatud töölehekandeid.  
+## <a name="process-letter-of-guaranteesubmit-to-bank"></a><span data-ttu-id="eb49a-138">Garantiikirja protsess Edasta panka</span><span class="sxs-lookup"><span data-stu-id="eb49a-138">Process letter of guarantee_Submit to bank</span></span>
+1. <span data-ttu-id="eb49a-139">Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.</span><span class="sxs-lookup"><span data-stu-id="eb49a-139">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
+2. <span data-ttu-id="eb49a-140">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="eb49a-140">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="eb49a-141">Klõpsake suvandit Edasta panka, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="eb49a-141">Click Submit to bank to open the drop dialog.</span></span>
+4. <span data-ttu-id="eb49a-142">Sisestage väärtus väljale Pangakonto või valige see.</span><span class="sxs-lookup"><span data-stu-id="eb49a-142">In the Bank account field, enter or select a value.</span></span>
+5. <span data-ttu-id="eb49a-143">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="eb49a-143">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="eb49a-144">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-144">Click OK.</span></span>
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Garantiikirja protsess Likvideeri
-1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
-2. Klõpsake loendis valitud real olevat linki.
-3. Klõpsake tegumiribal valikut Haldamine.
-4. Klõpsake suvandit Garantiikiri.
-5. Klõpsake tegevuspaanil suvandit Garantiikiri.
-6. Klõpsake suvandit Likvideeri, et avada rippdialoog.
-7. Klõpsake nuppu OK.
-8. Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.
-9. Otsige loendist ja valige soovitud kirje.
-10. Klõpsake suvandit Likvideeri, et avada rippdialoog.
-11. Klõpsake nuppu OK.
-12. Laiendage jaotist Tegevused.
-    * Kontrollige kirjet Likvideeri.  
-13. Otsige loendist ja valige soovitud kirje.
-14. Klõpsake linki väljal Töölehe partiinumber.
-15. Klõpsake valikut Read.
-    * Kontrollige sisestatud töölehekandeid.  
-16. Sulgege leht.
+## <a name="process-letter-of-guaranteereceive-from-bank"></a><span data-ttu-id="eb49a-145">Garantiikirja Protsess Võta pangalt vastu</span><span class="sxs-lookup"><span data-stu-id="eb49a-145">Process letter of guarantee_Receive from bank</span></span>
+1. <span data-ttu-id="eb49a-146">Klõpsake suvandit Võta pangalt vastu, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="eb49a-146">Click Receive from bank to open the drop dialog.</span></span>
+2. <span data-ttu-id="eb49a-147">Sisestage väärtus väljale Panga number.</span><span class="sxs-lookup"><span data-stu-id="eb49a-147">In the Bank number field, type a value.</span></span>
+    * <span data-ttu-id="eb49a-148">Kontrollige arvutatud väärtusi väljadel Marginaal ja Kulu.</span><span class="sxs-lookup"><span data-stu-id="eb49a-148">Verify the values in the calculated Margin and Expense fields.</span></span>  
+3. <span data-ttu-id="eb49a-149">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-149">Click OK.</span></span>
+4. <span data-ttu-id="eb49a-150">Laiendage jaotist Tegevused.</span><span class="sxs-lookup"><span data-stu-id="eb49a-150">Expand the Actions section.</span></span>
+    * <span data-ttu-id="eb49a-151">Kontrollige kirjet Võta pangalt vastu.</span><span class="sxs-lookup"><span data-stu-id="eb49a-151">Verify the 'Receive from bank' record.</span></span>  
+5. <span data-ttu-id="eb49a-152">Klõpsake linki väljal Töölehe partiinumber.</span><span class="sxs-lookup"><span data-stu-id="eb49a-152">Click to follow the link in the Journal batch number field.</span></span>
+6. <span data-ttu-id="eb49a-153">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="eb49a-153">Click Lines.</span></span>
+    * <span data-ttu-id="eb49a-154">Kontrollige töölehekannete sisestamist.</span><span class="sxs-lookup"><span data-stu-id="eb49a-154">Verify the posting of journal entries.</span></span>  
+7. <span data-ttu-id="eb49a-155">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="eb49a-155">Close the page.</span></span>
+
+## <a name="process-letter-of-guaranteegive-to-beneficiary"></a><span data-ttu-id="eb49a-156">Garantiikirja protsess Anna kasusaajale</span><span class="sxs-lookup"><span data-stu-id="eb49a-156">Process letter of guarantee_Give to beneficiary</span></span>
+1. <span data-ttu-id="eb49a-157">Avage Müügireskontro > Tellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="eb49a-157">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="eb49a-158">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="eb49a-158">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="eb49a-159">Klõpsake tegumiribal valikut Haldamine.</span><span class="sxs-lookup"><span data-stu-id="eb49a-159">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="eb49a-160">Klõpsake suvandit Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-160">Click Letter of guarantee.</span></span>
+5. <span data-ttu-id="eb49a-161">Klõpsake tegevuspaanil suvandit Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-161">On the Action Pane, click Letter of guarantee.</span></span>
+6. <span data-ttu-id="eb49a-162">Klõpsake suvandit Anna kasusaajale, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="eb49a-162">Click Give to beneficiary to open the drop dialog.</span></span>
+7. <span data-ttu-id="eb49a-163">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-163">Click OK.</span></span>
+8. <span data-ttu-id="eb49a-164">Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.</span><span class="sxs-lookup"><span data-stu-id="eb49a-164">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
+9. <span data-ttu-id="eb49a-165">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="eb49a-165">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="eb49a-166">Klõpsake suvandit Anna kasusaajale, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="eb49a-166">Click Give to beneficiary to open the drop dialog.</span></span>
+11. <span data-ttu-id="eb49a-167">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-167">Click OK.</span></span>
+12. <span data-ttu-id="eb49a-168">Laiendage jaotist Tegevused.</span><span class="sxs-lookup"><span data-stu-id="eb49a-168">Expand the Actions section.</span></span>
+    * <span data-ttu-id="eb49a-169">Kinnitage kirje Anna kasusaajale.</span><span class="sxs-lookup"><span data-stu-id="eb49a-169">Validate the 'Give to beneficiary' record.</span></span>  
+
+## <a name="process-letter-of-guaranteeincrease-value"></a><span data-ttu-id="eb49a-170">Garantiikirja protsess Suurenda väärtust</span><span class="sxs-lookup"><span data-stu-id="eb49a-170">Process letter of guarantee_Increase value</span></span>
+1. <span data-ttu-id="eb49a-171">Avage Müügireskontro > Tellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="eb49a-171">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="eb49a-172">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="eb49a-172">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="eb49a-173">Klõpsake tegumiribal valikut Haldamine.</span><span class="sxs-lookup"><span data-stu-id="eb49a-173">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="eb49a-174">Klõpsake suvandit Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-174">Click Letter of guarantee.</span></span>
+5. <span data-ttu-id="eb49a-175">Klõpsake tegevuspaanil suvandit Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-175">On the Action Pane, click Letter of guarantee.</span></span>
+6. <span data-ttu-id="eb49a-176">Klõpsake suvandit suurenda väärtust rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="eb49a-176">Click Increase value to open the drop dialog.</span></span>
+7. <span data-ttu-id="eb49a-177">Sisestage arv väljale Lisatav väärtus.</span><span class="sxs-lookup"><span data-stu-id="eb49a-177">In the Value to add field, enter a number.</span></span>
+8. <span data-ttu-id="eb49a-178">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-178">Click OK.</span></span>
+9. <span data-ttu-id="eb49a-179">Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.</span><span class="sxs-lookup"><span data-stu-id="eb49a-179">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
+10. <span data-ttu-id="eb49a-180">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="eb49a-180">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="eb49a-181">Klõpsake suvandit suurenda väärtust rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="eb49a-181">Click Increase value to open the drop dialog.</span></span>
+12. <span data-ttu-id="eb49a-182">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-182">Click OK.</span></span>
+13. <span data-ttu-id="eb49a-183">Laiendage jaotist Tegevused.</span><span class="sxs-lookup"><span data-stu-id="eb49a-183">Expand the Actions section.</span></span>
+    * <span data-ttu-id="eb49a-184">Kontrollige kirjet Suurenda väärtust.</span><span class="sxs-lookup"><span data-stu-id="eb49a-184">Verify the 'Increase value' record.</span></span>  
+14. <span data-ttu-id="eb49a-185">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="eb49a-185">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="eb49a-186">Klõpsake linki väljal Töölehe partiinumber.</span><span class="sxs-lookup"><span data-stu-id="eb49a-186">Click to follow the link in the Journal batch number field.</span></span>
+16. <span data-ttu-id="eb49a-187">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="eb49a-187">Click Lines.</span></span>
+    * <span data-ttu-id="eb49a-188">Kontrollige sisestatud töölehekandeid.</span><span class="sxs-lookup"><span data-stu-id="eb49a-188">Verify the posted journal entries.</span></span>  
+
+## <a name="process-letter-of-guaranteeliquidate"></a><span data-ttu-id="eb49a-189">Garantiikirja protsess Likvideeri</span><span class="sxs-lookup"><span data-stu-id="eb49a-189">Process letter of guarantee_Liquidate</span></span>
+1. <span data-ttu-id="eb49a-190">Avage Müügireskontro > Tellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="eb49a-190">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="eb49a-191">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="eb49a-191">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="eb49a-192">Klõpsake tegumiribal valikut Haldamine.</span><span class="sxs-lookup"><span data-stu-id="eb49a-192">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="eb49a-193">Klõpsake suvandit Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-193">Click Letter of guarantee.</span></span>
+5. <span data-ttu-id="eb49a-194">Klõpsake tegevuspaanil suvandit Garantiikiri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-194">On the Action Pane, click Letter of guarantee.</span></span>
+6. <span data-ttu-id="eb49a-195">Klõpsake suvandit Likvideeri, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="eb49a-195">Click Liquidate to open the drop dialog.</span></span>
+7. <span data-ttu-id="eb49a-196">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-196">Click OK.</span></span>
+8. <span data-ttu-id="eb49a-197">Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.</span><span class="sxs-lookup"><span data-stu-id="eb49a-197">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
+9. <span data-ttu-id="eb49a-198">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="eb49a-198">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="eb49a-199">Klõpsake suvandit Likvideeri, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="eb49a-199">Click Liquidate to open the drop dialog.</span></span>
+11. <span data-ttu-id="eb49a-200">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eb49a-200">Click OK.</span></span>
+12. <span data-ttu-id="eb49a-201">Laiendage jaotist Tegevused.</span><span class="sxs-lookup"><span data-stu-id="eb49a-201">Expand the Actions section.</span></span>
+    * <span data-ttu-id="eb49a-202">Kontrollige kirjet Likvideeri.</span><span class="sxs-lookup"><span data-stu-id="eb49a-202">Verify the 'Liquidate' record.</span></span>  
+13. <span data-ttu-id="eb49a-203">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="eb49a-203">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="eb49a-204">Klõpsake linki väljal Töölehe partiinumber.</span><span class="sxs-lookup"><span data-stu-id="eb49a-204">Click to follow the link in the Journal batch number field.</span></span>
+15. <span data-ttu-id="eb49a-205">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="eb49a-205">Click Lines.</span></span>
+    * <span data-ttu-id="eb49a-206">Kontrollige sisestatud töölehekandeid.</span><span class="sxs-lookup"><span data-stu-id="eb49a-206">Verify the posted journal entries.</span></span>  
+16. <span data-ttu-id="eb49a-207">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="eb49a-207">Close the page.</span></span>
 
 

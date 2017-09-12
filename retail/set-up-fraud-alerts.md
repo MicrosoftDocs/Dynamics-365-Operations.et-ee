@@ -19,28 +19,28 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7255f2b7e49f56a731d0e3745b4752091013668b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 09d80015298c3d0219b6ffb290dc456990536a62
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 
 ---
 
-# <a name="set-up-fraud-alerts"></a>Pettuseteatiste seadistamine
+# <a name="set-up-fraud-alerts"></a><span data-ttu-id="b43a5-104">Pettuseteatiste seadistamine</span><span class="sxs-lookup"><span data-stu-id="b43a5-104">Set up fraud alerts</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Selles teemas kirjeldatakse, kuidas seadistada reegleid, et tellimuste töötlemise käigus teavitada klienditeeninduse esindajaid potentsiaalsetest valeandmetest. Saate määratleda spetsiaalsed koodid, mida kasutatakse kahtlaste tellimust automaatselt või manuaalselt ootele panekuks. 
+<span data-ttu-id="b43a5-105">Selles teemas kirjeldatakse, kuidas seadistada reegleid, et tellimuste töötlemise käigus teavitada klienditeeninduse esindajaid potentsiaalsetest valeandmetest.</span><span class="sxs-lookup"><span data-stu-id="b43a5-105">This topic explains how to set up rules to alert customer service representatives of potentially fraudulent information when orders are processed.</span></span> <span data-ttu-id="b43a5-106">Saate määratleda spetsiaalsed koodid, mida kasutatakse kahtlaste tellimust automaatselt või manuaalselt ootele panekuks.</span><span class="sxs-lookup"><span data-stu-id="b43a5-106">You can define specific codes to use to automatically or manually put suspicious orders on hold.</span></span> 
 
-Enne kui saate seadistada ja kasutada pettuse kontrollimise reegleid, peate aktiveerima kõnekeskuse parameetrites pettuse kontrollimise ja määratlema põhilised pettuse kontrollimise väärtused. Pettuse reegleid on kaht tüüpi.
+<span data-ttu-id="b43a5-107">Enne kui saate seadistada ja kasutada pettuse kontrollimise reegleid, peate aktiveerima kõnekeskuse parameetrites pettuse kontrollimise ja määratlema põhilised pettuse kontrollimise väärtused.</span><span class="sxs-lookup"><span data-stu-id="b43a5-107">Before you set up and use fraud checking rules, you must enable fraud checking and define the basic fraud checking values in the call center parameters.</span></span> <span data-ttu-id="b43a5-108">Pettuse reegleid on kaht tüüpi.</span><span class="sxs-lookup"><span data-stu-id="b43a5-108">There are two types of fraud rules:</span></span>
 
--   **Staatilised reeglid** kasutavad kindlat väärtust, nagu telefoninumber, mis on kantud musta nimekirja.
--   **Dünaamilised reeglid** saab koostada muutujatest ja tingimustest.
+-   <span data-ttu-id="b43a5-109">**Staatilised reeglid** kasutavad kindlat väärtust, nagu telefoninumber, mis on kantud musta nimekirja.</span><span class="sxs-lookup"><span data-stu-id="b43a5-109">**Static rules** use a specific value, such as a phone number that has been blacklisted.</span></span>
+-   <span data-ttu-id="b43a5-110">**Dünaamilised reeglid** saab koostada muutujatest ja tingimustest.</span><span class="sxs-lookup"><span data-stu-id="b43a5-110">**Dynamic rules** can be composed from variables and conditions.</span></span>
 
-Enne dünaamilise reegli loomist peate looma muutujad ja tingimused, mis määravad, kellele reegel rakendub ja millal tuleb reegel rakendada. Näiteks soovite luua reegli, mis nõuab, et mis tahes müügitellimus, mille klient 1202 esitab väärtusega 1000,00 või rohkem, tuleb panna ootele, kuni kliendimakset saab kontrollida. Sel juhul on muutujateks klient 1202 ja tellimuse kogusumma 1000,00. Tingimus määrab, et kui klient 1202 esitab tellimuse ja tellimuse kogusumma on 1000,00 või suurem, tuleb müügitellimus ootele panna, kuni kliendi makset saab kontrollida.
+<span data-ttu-id="b43a5-111">Enne dünaamilise reegli loomist peate looma muutujad ja tingimused, mis määravad, kellele reegel rakendub ja millal tuleb reegel rakendada.</span><span class="sxs-lookup"><span data-stu-id="b43a5-111">Before you create a dynamic rule, you must create the variables and conditions that define who the rule applies to and when the rule should be applied.</span></span> <span data-ttu-id="b43a5-112">Näiteks soovite luua reegli, mis nõuab, et mis tahes müügitellimus, mille klient 1202 esitab väärtusega 1000,00 või rohkem, tuleb panna ootele, kuni kliendimakset saab kontrollida.</span><span class="sxs-lookup"><span data-stu-id="b43a5-112">For example, you want to create a rule to require that any sales order that customer 1202 places that is worth 1,000.00 or more be put on hold until the customer payment can be verified.</span></span> <span data-ttu-id="b43a5-113">Sel juhul on muutujateks klient 1202 ja tellimuse kogusumma 1000,00.</span><span class="sxs-lookup"><span data-stu-id="b43a5-113">In this case, the variables are customer 1202 and an order total of 1,000.00.</span></span> <span data-ttu-id="b43a5-114">Tingimus määrab, et kui klient 1202 esitab tellimuse ja tellimuse kogusumma on 1000,00 või suurem, tuleb müügitellimus ootele panna, kuni kliendi makset saab kontrollida.</span><span class="sxs-lookup"><span data-stu-id="b43a5-114">The condition specifies that if customer 1202 places an order, and the total amount of the order is equal to or more than 1,000.00, the sales order must be put on hold until the customer payment can be verified.</span></span>
 
 
 

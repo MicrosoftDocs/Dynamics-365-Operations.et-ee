@@ -20,33 +20,33 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52607d645c6eaf4ff97d2c4bf8abc6ec1374fd7e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f8adcbcc2157058151c26179eb2eb925b0092d2d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="report-production-orders-as-finished"></a>Tootmistellimuste lõpetatuks kinnitamine
+# <a name="report-production-orders-as-finished"></a><span data-ttu-id="3483e-104">Tootmistellimuste lõpetatuks kinnitamine</span><span class="sxs-lookup"><span data-stu-id="3483e-104">Report production orders as finished</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Lõpetatuks kinnitamine on tootmisetapp. Selles etapid kinnitatakse valmistoode ja see teisaldatakse tootmistellimusest varudesse.
+<span data-ttu-id="3483e-105">Lõpetatuks kinnitamine on tootmisetapp.</span><span class="sxs-lookup"><span data-stu-id="3483e-105">Report as finished is a production stage.</span></span> <span data-ttu-id="3483e-106">Selles etapid kinnitatakse valmistoode ja see teisaldatakse tootmistellimusest varudesse.</span><span class="sxs-lookup"><span data-stu-id="3483e-106">At this stage, a finished product is reported and moved from the production order to the inventory.</span></span>
 
-Kui lõpetatud kaupade kogus on kinnitatud tootmistellimusel lõpetatuks, uuendatakse see varudes laoseisuna. Algselt plaanitud tellimuse koguse osalised kogused saab kinnitada lõpetatuks. Samuti on võimalik kinnitada vigased kogused koos seostatud vea põhjusega, kui koguste lõpetamist kinnitatakse. Kui tootmistellimus jõuab etappi Lõpetamine kinnitatud, näitab see, et tootmistellimuses rohkem koguseid ei kinnitata.
-Järgmised omadused seostatakse ka protsessiga **Kinnita lõpetamine**.
--   On võimalik seadistada toormaterjali tarbimine ja kinnitatud kogusega proportsionaalne aeg (tagantjärele)
--   Laoprotsessideks lubatud kaupadele saab luua ladustamistöö.
--   Saab seadistada, et pearaamatukontodele teatatakse lõpetatud kaupade plaanitud või standardne kuluväärtus.
--   Kinnitatud kogusele saab luua kvaliteettellimuse kvaliteediseose seadistuse alusel.
+<span data-ttu-id="3483e-107">Kui lõpetatud kaupade kogus on kinnitatud tootmistellimusel lõpetatuks, uuendatakse see varudes laoseisuna.</span><span class="sxs-lookup"><span data-stu-id="3483e-107">When a quantity of the finished goods is reported as finished on a production order it is updated as on-hand in the inventory.</span></span> <span data-ttu-id="3483e-108">Algselt plaanitud tellimuse koguse osalised kogused saab kinnitada lõpetatuks.</span><span class="sxs-lookup"><span data-stu-id="3483e-108">Partial quantities of the originally planned order quantity can be reported as finished.</span></span> <span data-ttu-id="3483e-109">Samuti on võimalik kinnitada vigased kogused koos seostatud vea põhjusega, kui koguste lõpetamist kinnitatakse.</span><span class="sxs-lookup"><span data-stu-id="3483e-109">It is also possible to report error quantities with an associated error reason when reporting quantities as finished.</span></span> <span data-ttu-id="3483e-110">Kui tootmistellimus jõuab etappi Lõpetamine kinnitatud, näitab see, et tootmistellimuses rohkem koguseid ei kinnitata.</span><span class="sxs-lookup"><span data-stu-id="3483e-110">When the production order reach the stage Reported as finished it indicates that no more quantity is going to be reported at the production  order.</span></span>
+<span data-ttu-id="3483e-111">Järgmised omadused seostatakse ka protsessiga **Kinnita lõpetamine**.</span><span class="sxs-lookup"><span data-stu-id="3483e-111">The following characteristics are also associated with the **Report as finished** process:</span></span>
+-   <span data-ttu-id="3483e-112">On võimalik seadistada toormaterjali tarbimine ja kinnitatud kogusega proportsionaalne aeg (tagantjärele)</span><span class="sxs-lookup"><span data-stu-id="3483e-112">It is possible to set up consumption of raw material and time that are proportional to the reported quantity (back-flushing)</span></span>
+-   <span data-ttu-id="3483e-113">Laoprotsessideks lubatud kaupadele saab luua ladustamistöö.</span><span class="sxs-lookup"><span data-stu-id="3483e-113">Put-away work can be generated for items that are enabled for warehouse processes.</span></span>
+-   <span data-ttu-id="3483e-114">Saab seadistada, et pearaamatukontodele teatatakse lõpetatud kaupade plaanitud või standardne kuluväärtus.</span><span class="sxs-lookup"><span data-stu-id="3483e-114">The planned or standard cost value of the finished goods can be set up to be reported to ledger accounts.</span></span>
+-   <span data-ttu-id="3483e-115">Kinnitatud kogusele saab luua kvaliteettellimuse kvaliteediseose seadistuse alusel.</span><span class="sxs-lookup"><span data-stu-id="3483e-115">A quality order can be created for the reported quantity based on the setup of a quality association.</span></span>
 
-Kogus kinnitatakse väljastuskohta. Seejärel luuakse laotöö, et teisaldada kogus väljastuskohast selle lõppsihtkohta, mille määratleb ladustamistöö asukoha korraldus.
+<span data-ttu-id="3483e-116">Kogus kinnitatakse väljastuskohta.</span><span class="sxs-lookup"><span data-stu-id="3483e-116">The quantity is reported to the output location.</span></span> <span data-ttu-id="3483e-117">Seejärel luuakse laotöö, et teisaldada kogus väljastuskohast selle lõppsihtkohta, mille määratleb ladustamistöö asukoha korraldus.</span><span class="sxs-lookup"><span data-stu-id="3483e-117">Warehouse work is then generated to move the quantity from the output location to its final destination defined by the location directive for the put-away work.</span></span>
 
--   Kvaliteettellimuse saab luua, kui tootmistellimuse kinnitatakse lõpetatuks, kui kvaliteediseos on seadistatud.
+-   <span data-ttu-id="3483e-118">Kvaliteettellimuse saab luua, kui tootmistellimuse kinnitatakse lõpetatuks, kui kvaliteediseos on seadistatud.</span><span class="sxs-lookup"><span data-stu-id="3483e-118">A quality order can be created when a production order is reported as finished if a quality association has been set up.</span></span>
 
-## <a name="set-a-production-order-to-reporting-as-finished"></a>Tootmistellimuse lõpetatuks kinnitamise määramine
-Saate määrata tootmistellimuse väärtuseks **Kinnita lõpetamine** standardse tootmistellimuse värskendamisfunktsiooni kaudu või protsessikaardi ja töökaardi töölehtede kaudu või töölehe **Kinnita lõpetamine** kaudu. Saate oleku värskendada ka väärtusele **Kinnita lõpetamine** töökaardi terminali ja töökaardi seadme lehtede kaudu, kui kinnitate tootmistellimuse viimase töö. Lõpuks saate lubada suvandi **Kinnita lõpetamine** kaasaskantava laoseadme lahenduse protsessina.  
+## <a name="set-a-production-order-to-reporting-as-finished"></a><span data-ttu-id="3483e-119">Tootmistellimuse lõpetatuks kinnitamise määramine</span><span class="sxs-lookup"><span data-stu-id="3483e-119">Set a production order to Reporting as finished</span></span>
+<span data-ttu-id="3483e-120">Saate määrata tootmistellimuse väärtuseks **Kinnita lõpetamine** standardse tootmistellimuse värskendamisfunktsiooni kaudu või protsessikaardi ja töökaardi töölehtede kaudu või töölehe **Kinnita lõpetamine** kaudu.</span><span class="sxs-lookup"><span data-stu-id="3483e-120">You can set a production order to **Report as finished** through the standard production order update function, or through the route and job card journals, or through the journal **Report as finished**.</span></span> <span data-ttu-id="3483e-121">Saate oleku värskendada ka väärtusele **Kinnita lõpetamine** töökaardi terminali ja töökaardi seadme lehtede kaudu, kui kinnitate tootmistellimuse viimase töö.</span><span class="sxs-lookup"><span data-stu-id="3483e-121">You can also update the stage to **Report as finished** through the job card terminal and job card device pages, when you report on the last job of the production order.</span></span> <span data-ttu-id="3483e-122">Lõpuks saate lubada suvandi **Kinnita lõpetamine** kaasaskantava laoseadme lahenduse protsessina.</span><span class="sxs-lookup"><span data-stu-id="3483e-122">Finally, you can enable the **Report as finished** option as a process for the handheld warehouse device solution.</span></span>  
 
 
 

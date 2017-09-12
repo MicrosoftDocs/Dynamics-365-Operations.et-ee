@@ -16,34 +16,34 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3bc3655fc47f90f84dc780615143815440bb51b5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ee28b91d21050b08909ef701901398043d32abce
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine
+# <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="d0b84-103">Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine</span><span class="sxs-lookup"><span data-stu-id="d0b84-103">Create consolidation groups and additional consolidation accounts</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris kirjeldatakse konsolideerimiskontode grupi loomist ja seejärel grupile kontode lisamist. Protseduur kasutab demoettevõtte USMF andmeid.
+<span data-ttu-id="d0b84-104">Selles protseduuris kirjeldatakse konsolideerimiskontode grupi loomist ja seejärel grupile kontode lisamist.</span><span class="sxs-lookup"><span data-stu-id="d0b84-104">This procedure shows how to create a consolidation account group and then add accounts to the group.</span></span> <span data-ttu-id="d0b84-105">Protseduur kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="d0b84-105">This procedure uses the demo data company USMF.</span></span>
 
 
-## <a name="create-a-consolidation-account-group"></a>Konsolideerimiskonto grupi loomine
-1. Minge jaotisse Pearaamat > Kontoplaan > Kontod > Konsolideerimiskontode grupid.
-2. Klõpsake valikut Uus.
-3. Sisestage väljale Konsolideerimiskontode grupp konsolideerimiskontode grupi ainuidentifikaator.
-4. Sisestage väärtus väljale Nimi.
+## <a name="create-a-consolidation-account-group"></a><span data-ttu-id="d0b84-106">Konsolideerimiskonto grupi loomine</span><span class="sxs-lookup"><span data-stu-id="d0b84-106">Create a consolidation account group</span></span>
+1. <span data-ttu-id="d0b84-107">Minge jaotisse Pearaamat > Kontoplaan > Kontod > Konsolideerimiskontode grupid.</span><span class="sxs-lookup"><span data-stu-id="d0b84-107">Go to General ledger > Chart of accounts > Accounts > Consolidation account groups.</span></span>
+2. <span data-ttu-id="d0b84-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="d0b84-108">Click New.</span></span>
+3. <span data-ttu-id="d0b84-109">Sisestage väljale Konsolideerimiskontode grupp konsolideerimiskontode grupi ainuidentifikaator.</span><span class="sxs-lookup"><span data-stu-id="d0b84-109">In the Consolidation account group field, enter a unique identifier for the consolidation account group.</span></span>
+4. <span data-ttu-id="d0b84-110">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="d0b84-110">In the Name field, type a value.</span></span>
 
-## <a name="add-accounts-to-consolidation-account-group"></a>Kontode lisamine konsolideerimiskonto gruppi
-1. Sulgege leht.
-2. Minge jaotisse Pearaamat > Kontoplaan > Kontod > Täiendavad konsolideerimiskontod.
-3. Klõpsake valikut Uus.
-4. Klõpsake väljal Põhikonto otsingu avamiseks ripploendi nuppu.
-5. Klõpsake loendis põhikontot, mille soovite vastendada.
-6. Klõpsake väljal Konsolideerimiskontode grupp otsingu avamiseks ripploendi nuppu.
-7. Klõpsake loendis konsolideerimiskontode gruppi.
-8. Sisestage väärtus väljale Konsolideerimiskonto.
-9. Sisestage väärtus väljale Konsolideerimiskonto nimi.
+## <a name="add-accounts-to-consolidation-account-group"></a><span data-ttu-id="d0b84-111">Kontode lisamine konsolideerimiskonto gruppi</span><span class="sxs-lookup"><span data-stu-id="d0b84-111">Add accounts to consolidation account group</span></span>
+1. <span data-ttu-id="d0b84-112">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="d0b84-112">Close the page.</span></span>
+2. <span data-ttu-id="d0b84-113">Minge jaotisse Pearaamat > Kontoplaan > Kontod > Täiendavad konsolideerimiskontod.</span><span class="sxs-lookup"><span data-stu-id="d0b84-113">Go to General ledger > Chart of accounts > Accounts > Additional consolidation accounts.</span></span>
+3. <span data-ttu-id="d0b84-114">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="d0b84-114">Click New.</span></span>
+4. <span data-ttu-id="d0b84-115">Klõpsake väljal Põhikonto otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="d0b84-115">In the Main account field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="d0b84-116">Klõpsake loendis põhikontot, mille soovite vastendada.</span><span class="sxs-lookup"><span data-stu-id="d0b84-116">In the list, click the main account that you want to map.</span></span>
+6. <span data-ttu-id="d0b84-117">Klõpsake väljal Konsolideerimiskontode grupp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="d0b84-117">In the Consolidation account group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="d0b84-118">Klõpsake loendis konsolideerimiskontode gruppi.</span><span class="sxs-lookup"><span data-stu-id="d0b84-118">In the list, click the consolidation account group.</span></span>
+8. <span data-ttu-id="d0b84-119">Sisestage väärtus väljale Konsolideerimiskonto.</span><span class="sxs-lookup"><span data-stu-id="d0b84-119">In the Consolidation account field, type a value.</span></span>
+9. <span data-ttu-id="d0b84-120">Sisestage väärtus väljale Konsolideerimiskonto nimi.</span><span class="sxs-lookup"><span data-stu-id="d0b84-120">In the Consolidation account name field, type a value.</span></span>
 
 

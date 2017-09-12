@@ -16,91 +16,91 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 90a0dc0fc32a448d859fbb0933ea6f12ea16668f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 60a34e35a376635669b764457617cb997822bdcd
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="run-the-format-to-do-counting-and-summing-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) vormingu käitamine loendamiseks ja liitmiseks
+# <a name="run-the-format-to-do-counting-and-summing-for-electronic-reporting-er"></a><span data-ttu-id="4371e-103">Elektroonilise aruandluse (ER) vormingu käitamine loendamiseks ja liitmiseks</span><span class="sxs-lookup"><span data-stu-id="4371e-103">Run the format to do counting and summing for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu loendamiseks ja liitmiseks juba loodud tekstiväljundi andmete põhjal. Neid toiminguid saab teha DEMF ettevõttes.
+<span data-ttu-id="4371e-104">Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu loendamiseks ja liitmiseks juba loodud tekstiväljundi andmete põhjal.</span><span class="sxs-lookup"><span data-stu-id="4371e-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="4371e-105">Neid toiminguid saab teha DEMF ettevõttes.</span><span class="sxs-lookup"><span data-stu-id="4371e-105">These steps can be performed in the DEMF company.</span></span>
 
-Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektrooniline aruandlus Vormingu konfigureerimine loendamiseks ja liitmiseks (3. osa: arvutuste kasutamine väljundi koostamiseks).
+<span data-ttu-id="4371e-106">Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektrooniline aruandlus Vormingu konfigureerimine loendamiseks ja liitmiseks (3. osa: arvutuste kasutamine väljundi koostamiseks).</span><span class="sxs-lookup"><span data-stu-id="4371e-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 3: Use computations to make the output)” procedure.</span></span>
 
-See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
+<span data-ttu-id="4371e-107">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="4371e-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="test-this-configuration-for-generation-of-the-intrastat-reports"></a>Proovige seda konfiguratsiooni intrastati aruannete koostamiseks
-1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-2. Klõpsake valikut Aruandluse konfiguratsioonid.
-3. Laiendage puul valikut Intrastati mudel.
-4. Laiendage puul valikut Intrastati mudel \ Intrastat (DE).
-5. Valige puult „Intrastati mudel\Intrastat (DE)\Intrastat (DE) koos loendamise ja liitmisega“.
-6. Klõpsake tegumiribal valikut Konfiguratsioonid.
-7. Klõpsake valikut Kasutaja parameetrid.
-8. Tehke väljal Käivita sätted valik Jah.
-9. Klõpsake nuppu OK.
-10. Klõpsake nuppu Redigeeri.
-11. Tehke väljal Käivita mustand valik Jah.
-12. Klõpsake nuppu Salvesta.
-13. Minge jaotisse Maks > Seadistus > Väliskaubandus > Väliskaubanduse parameetrid.
-14. Laiendage jaotist Elektrooniline aruandlus.
-15. Valige konfiguratsioon „Intrastat (DE) koos loendamise ja liitmisega”.
-16. Valige konfiguratsioon „Intrastat (DE) koos loendamise ja liitmisega”.
-17. Klõpsake nuppu Salvesta.
-18. Sulgege leht.
-19. Avage Maks > Deklaratsioonid > Väliskaubandus > Intrastat.
-20. Klõpsake suvandit Väljund.
-21. Klõpsake vahekaarti Aruanne.
-    * Käivitage intrastati aruande koostamise protsess.  
-22. Määrake väljal Alguskuupäev kuupäevaks 2000/01/01.
-    * Määratlege aruandeperioodi algus- ja lõpukuupäevad, mis hõlmavad vormil olevaid kandeid.  
-23. Määrake väljal Lõppkuupäev kuupäevaks 31.12.2022.
-    * Määratlege aruandeperioodi algus- ja lõpukuupäevad, mis hõlmavad vormil olevaid kandeid.  
-24. Valige Saabumised väljalt Suund.
-25. Valige Jah väljal Loo fail.
-26. Klõpsake nuppu OK.
-    * Vaadake loodud väljund ja lõpus olevad kokkuvõtteread üle.  
-27. Klõpsake valikut Uus.
-28. Märkige loendis valitud rida.
-29. Valige Lähetused väljalt Suund.
-30. Sisestage või valige väärtus väljal Kaubakood.
-31. Sisestage või valige väärtus väljal Kaup.
-32. Määrake valiku Kaal väärtuseks 10.
-33. Määrake valiku Arve summa väärtuseks 10 000.
-34. Määrake valiku Statistiline summa väärtuseks 10 000.
-35. Klõpsake suvandit Väljund.
-36. Klõpsake vahekaarti Aruanne.
-37. Valige Lähetused väljalt Suund.
-38. Klõpsake nuppu OK.
-    * Vaadake loodud väljund ja lõpus olevad kokkuvõtteread üle. Pange tähele, et seda on esimese tsükliga võrreldes muudetud.  
+## <a name="test-this-configuration-for-generation-of-the-intrastat-reports"></a><span data-ttu-id="4371e-108">Proovige seda konfiguratsiooni intrastati aruannete koostamiseks</span><span class="sxs-lookup"><span data-stu-id="4371e-108">Test this configuration for generation of the Intrastat reports</span></span>
+1. <span data-ttu-id="4371e-109">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="4371e-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="4371e-110">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="4371e-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="4371e-111">Laiendage puul valikut Intrastati mudel.</span><span class="sxs-lookup"><span data-stu-id="4371e-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="4371e-112">Laiendage puul valikut Intrastati mudel \ Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="4371e-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+5. <span data-ttu-id="4371e-113">Valige puult „Intrastati mudel\Intrastat (DE)\Intrastat (DE) koos loendamise ja liitmisega“.</span><span class="sxs-lookup"><span data-stu-id="4371e-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+6. <span data-ttu-id="4371e-114">Klõpsake tegumiribal valikut Konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="4371e-114">On the Action Pane, click Configurations.</span></span>
+7. <span data-ttu-id="4371e-115">Klõpsake valikut Kasutaja parameetrid.</span><span class="sxs-lookup"><span data-stu-id="4371e-115">Click User parameters.</span></span>
+8. <span data-ttu-id="4371e-116">Tehke väljal Käivita sätted valik Jah.</span><span class="sxs-lookup"><span data-stu-id="4371e-116">Select Yes in the Run settings field.</span></span>
+9. <span data-ttu-id="4371e-117">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4371e-117">Click OK.</span></span>
+10. <span data-ttu-id="4371e-118">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="4371e-118">Click Edit.</span></span>
+11. <span data-ttu-id="4371e-119">Tehke väljal Käivita mustand valik Jah.</span><span class="sxs-lookup"><span data-stu-id="4371e-119">Select Yes in the Run Draft field.</span></span>
+12. <span data-ttu-id="4371e-120">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="4371e-120">Click Save.</span></span>
+13. <span data-ttu-id="4371e-121">Minge jaotisse Maks > Seadistus > Väliskaubandus > Väliskaubanduse parameetrid.</span><span class="sxs-lookup"><span data-stu-id="4371e-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
+14. <span data-ttu-id="4371e-122">Laiendage jaotist Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="4371e-122">Expand the Electronic reporting section.</span></span>
+15. <span data-ttu-id="4371e-123">Valige konfiguratsioon „Intrastat (DE) koos loendamise ja liitmisega”.</span><span class="sxs-lookup"><span data-stu-id="4371e-123">Select the “Intrastat (DE) with counting & summing” configuration.</span></span>
+16. <span data-ttu-id="4371e-124">Valige konfiguratsioon „Intrastat (DE) koos loendamise ja liitmisega”.</span><span class="sxs-lookup"><span data-stu-id="4371e-124">Select the “Intrastat (DE) with counting & summing” configuration.</span></span>
+17. <span data-ttu-id="4371e-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="4371e-125">Click Save.</span></span>
+18. <span data-ttu-id="4371e-126">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="4371e-126">Close the page.</span></span>
+19. <span data-ttu-id="4371e-127">Avage Maks > Deklaratsioonid > Väliskaubandus > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="4371e-127">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+20. <span data-ttu-id="4371e-128">Klõpsake suvandit Väljund.</span><span class="sxs-lookup"><span data-stu-id="4371e-128">Click Output.</span></span>
+21. <span data-ttu-id="4371e-129">Klõpsake vahekaarti Aruanne.</span><span class="sxs-lookup"><span data-stu-id="4371e-129">Click Report.</span></span>
+    * <span data-ttu-id="4371e-130">Käivitage intrastati aruande koostamise protsess.</span><span class="sxs-lookup"><span data-stu-id="4371e-130">Run the Intrastat report generation process.</span></span>  
+22. <span data-ttu-id="4371e-131">Määrake väljal Alguskuupäev kuupäevaks 2000/01/01.</span><span class="sxs-lookup"><span data-stu-id="4371e-131">In the From date field, set the date to '2000-01-01'.</span></span>
+    * <span data-ttu-id="4371e-132">Määratlege aruandeperioodi algus- ja lõpukuupäevad, mis hõlmavad vormil olevaid kandeid.</span><span class="sxs-lookup"><span data-stu-id="4371e-132">Define start and end dates for the reporting period that include the existing on the form transactions.</span></span>  
+23. <span data-ttu-id="4371e-133">Määrake väljal Lõppkuupäev kuupäevaks 31.12.2022.</span><span class="sxs-lookup"><span data-stu-id="4371e-133">In the To date field, set the date to '2022-12-31'.</span></span>
+    * <span data-ttu-id="4371e-134">Määratlege aruandeperioodi algus- ja lõpukuupäevad, mis hõlmavad vormil olevaid kandeid.</span><span class="sxs-lookup"><span data-stu-id="4371e-134">Define start and end dates for the reporting period that include the existing on the form transactions.</span></span>  
+24. <span data-ttu-id="4371e-135">Valige Saabumised väljalt Suund.</span><span class="sxs-lookup"><span data-stu-id="4371e-135">In the Direction field, select 'Arrivals'.</span></span>
+25. <span data-ttu-id="4371e-136">Valige Jah väljal Loo fail.</span><span class="sxs-lookup"><span data-stu-id="4371e-136">Select Yes in the Generate file field.</span></span>
+26. <span data-ttu-id="4371e-137">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4371e-137">Click OK.</span></span>
+    * <span data-ttu-id="4371e-138">Vaadake loodud väljund ja lõpus olevad kokkuvõtteread üle.</span><span class="sxs-lookup"><span data-stu-id="4371e-138">Review the created output with the summary lines in the end.</span></span>  
+27. <span data-ttu-id="4371e-139">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="4371e-139">Click New.</span></span>
+28. <span data-ttu-id="4371e-140">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="4371e-140">In the list, mark the selected row.</span></span>
+29. <span data-ttu-id="4371e-141">Valige Lähetused väljalt Suund.</span><span class="sxs-lookup"><span data-stu-id="4371e-141">In the Direction field, select 'Dispatches'.</span></span>
+30. <span data-ttu-id="4371e-142">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="4371e-142">In the Item number field, enter or select a value.</span></span>
+31. <span data-ttu-id="4371e-143">Sisestage või valige väärtus väljal Kaup.</span><span class="sxs-lookup"><span data-stu-id="4371e-143">In the Commodity field, enter or select a value.</span></span>
+32. <span data-ttu-id="4371e-144">Määrake valiku Kaal väärtuseks 10.</span><span class="sxs-lookup"><span data-stu-id="4371e-144">Set Weight to '10'.</span></span>
+33. <span data-ttu-id="4371e-145">Määrake valiku Arve summa väärtuseks 10 000.</span><span class="sxs-lookup"><span data-stu-id="4371e-145">Set Invoice amount to '10000'.</span></span>
+34. <span data-ttu-id="4371e-146">Määrake valiku Statistiline summa väärtuseks 10 000.</span><span class="sxs-lookup"><span data-stu-id="4371e-146">Set Statistical amount to '10000'.</span></span>
+35. <span data-ttu-id="4371e-147">Klõpsake suvandit Väljund.</span><span class="sxs-lookup"><span data-stu-id="4371e-147">Click Output.</span></span>
+36. <span data-ttu-id="4371e-148">Klõpsake vahekaarti Aruanne.</span><span class="sxs-lookup"><span data-stu-id="4371e-148">Click Report.</span></span>
+37. <span data-ttu-id="4371e-149">Valige Lähetused väljalt Suund.</span><span class="sxs-lookup"><span data-stu-id="4371e-149">In the Direction field, select 'Dispatches'.</span></span>
+38. <span data-ttu-id="4371e-150">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4371e-150">Click OK.</span></span>
+    * <span data-ttu-id="4371e-151">Vaadake loodud väljund ja lõpus olevad kokkuvõtteread üle.</span><span class="sxs-lookup"><span data-stu-id="4371e-151">Review the created output with the summary lines in the end.</span></span> <span data-ttu-id="4371e-152">Pange tähele, et seda on esimese tsükliga võrreldes muudetud.</span><span class="sxs-lookup"><span data-stu-id="4371e-152">Note that it has been changed in comparison to the first run.</span></span>  
 
-## <a name="run-this-configuration-in-debug-mode-to-review-the-collected-counting--summing-data"></a>Käivitage konfiguratsioon silumisrežiimis kogutud loendamise ja liitmise andmete ülevaatamiseks
-1. Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.
-2. Laiendage puul valikut Intrastati mudel.
-3. Laiendage puul valikut Intrastati mudel \ Intrastat (DE).
-4. Valige puult „Intrastati mudel\Intrastat (DE)\Intrastat (DE) koos loendamise ja liitmisega“.
-5. Klõpsake tegumiribal valikut Konfiguratsioonid.
-6. Klõpsake valikut Kasutaja parameetrid.
-7. Valige välja Käivita silumisrežiimis väärtuseks Jah.
-8. Klõpsake nuppu OK.
-9. Sulgege leht.
-10. Avage Maks > Deklaratsioonid > Väliskaubandus > Intrastat.
-11. Klõpsake suvandit Väljund.
-12. Klõpsake vahekaarti Aruanne.
-13. Klõpsake nuppu OK.
-14. Sulgege leht.
-15. Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.
-16. Laiendage puul valikut Intrastati mudel.
-17. Laiendage puul valikut Intrastati mudel \ Intrastat (DE).
-18. Valige puult „Intrastati mudel\Intrastat (DE)\Intrastat (DE) koos loendamise ja liitmisega“.
-19. Klõpsake nuppu Silumislogid.
-    * Pange tähele, et valitud konfiguratsiooni käivitamiseks on loodud siluri logikirje.  
-20. Klõpsake suvandit Manusta.
-21. Klõpsake valikut Ava.
-    * Vaadake üle loodud XML-fail, mis sisaldab valitud konfiguratsiooni käitamise ajal kogutud loendamise ja liitmise üksikasju.  
+## <a name="run-this-configuration-in-debug-mode-to-review-the-collected-counting--summing-data"></a><span data-ttu-id="4371e-153">Käivitage konfiguratsioon silumisrežiimis kogutud loendamise ja liitmise andmete ülevaatamiseks</span><span class="sxs-lookup"><span data-stu-id="4371e-153">Run this configuration in debug mode to review the collected counting & summing data</span></span>
+1. <span data-ttu-id="4371e-154">Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="4371e-154">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="4371e-155">Laiendage puul valikut Intrastati mudel.</span><span class="sxs-lookup"><span data-stu-id="4371e-155">In the tree, expand 'Intrastat model'.</span></span>
+3. <span data-ttu-id="4371e-156">Laiendage puul valikut Intrastati mudel \ Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="4371e-156">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+4. <span data-ttu-id="4371e-157">Valige puult „Intrastati mudel\Intrastat (DE)\Intrastat (DE) koos loendamise ja liitmisega“.</span><span class="sxs-lookup"><span data-stu-id="4371e-157">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+5. <span data-ttu-id="4371e-158">Klõpsake tegumiribal valikut Konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="4371e-158">On the Action Pane, click Configurations.</span></span>
+6. <span data-ttu-id="4371e-159">Klõpsake valikut Kasutaja parameetrid.</span><span class="sxs-lookup"><span data-stu-id="4371e-159">Click User parameters.</span></span>
+7. <span data-ttu-id="4371e-160">Valige välja Käivita silumisrežiimis väärtuseks Jah.</span><span class="sxs-lookup"><span data-stu-id="4371e-160">Select Yes in the Run in debug mode field.</span></span>
+8. <span data-ttu-id="4371e-161">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4371e-161">Click OK.</span></span>
+9. <span data-ttu-id="4371e-162">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="4371e-162">Close the page.</span></span>
+10. <span data-ttu-id="4371e-163">Avage Maks > Deklaratsioonid > Väliskaubandus > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="4371e-163">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+11. <span data-ttu-id="4371e-164">Klõpsake suvandit Väljund.</span><span class="sxs-lookup"><span data-stu-id="4371e-164">Click Output.</span></span>
+12. <span data-ttu-id="4371e-165">Klõpsake vahekaarti Aruanne.</span><span class="sxs-lookup"><span data-stu-id="4371e-165">Click Report.</span></span>
+13. <span data-ttu-id="4371e-166">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4371e-166">Click OK.</span></span>
+14. <span data-ttu-id="4371e-167">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="4371e-167">Close the page.</span></span>
+15. <span data-ttu-id="4371e-168">Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="4371e-168">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+16. <span data-ttu-id="4371e-169">Laiendage puul valikut Intrastati mudel.</span><span class="sxs-lookup"><span data-stu-id="4371e-169">In the tree, expand 'Intrastat model'.</span></span>
+17. <span data-ttu-id="4371e-170">Laiendage puul valikut Intrastati mudel \ Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="4371e-170">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+18. <span data-ttu-id="4371e-171">Valige puult „Intrastati mudel\Intrastat (DE)\Intrastat (DE) koos loendamise ja liitmisega“.</span><span class="sxs-lookup"><span data-stu-id="4371e-171">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+19. <span data-ttu-id="4371e-172">Klõpsake nuppu Silumislogid.</span><span class="sxs-lookup"><span data-stu-id="4371e-172">Click Debug logs.</span></span>
+    * <span data-ttu-id="4371e-173">Pange tähele, et valitud konfiguratsiooni käivitamiseks on loodud siluri logikirje.</span><span class="sxs-lookup"><span data-stu-id="4371e-173">Note that a debug log record has been created for the execution process of the selected configuration.</span></span>  
+20. <span data-ttu-id="4371e-174">Klõpsake suvandit Manusta.</span><span class="sxs-lookup"><span data-stu-id="4371e-174">Click Attach.</span></span>
+21. <span data-ttu-id="4371e-175">Klõpsake valikut Ava.</span><span class="sxs-lookup"><span data-stu-id="4371e-175">Click Open.</span></span>
+    * <span data-ttu-id="4371e-176">Vaadake üle loodud XML-fail, mis sisaldab valitud konfiguratsiooni käitamise ajal kogutud loendamise ja liitmise üksikasju.</span><span class="sxs-lookup"><span data-stu-id="4371e-176">Review the created XML file that contains counting and summing details that were collected during the execution of the selected configuration.</span></span>  
 
 

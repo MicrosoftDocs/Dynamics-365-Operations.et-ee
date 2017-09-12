@@ -16,46 +16,46 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 51486712d732bba064fd6c9b64dbccb730603877
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c2b3a66443394f5bfbe51b6685513281025d68fd
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-purchasing-policies"></a>Ostupoliitikate loomine
+# <a name="create-purchasing-policies"></a><span data-ttu-id="1d8ee-103">Ostupoliitikate loomine</span><span class="sxs-lookup"><span data-stu-id="1d8ee-103">Create purchasing policies</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas luua ostupoliitikaid, mis sobiksid teie ostu äriprotsessidega. Enne ostupoliitikate loomist peate seadistama ostupoliitika parameetrid. Ostupoliitikat on võimalik luua, muuta ja aegunuks määrata, kuid ostupoliitikat ei saa kustutada. Seda protseduuri viib tavaliselt läbi ostujuht. Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.
+<span data-ttu-id="1d8ee-104">See protseduur näitab, kuidas luua ostupoliitikaid, mis sobiksid teie ostu äriprotsessidega.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-104">This procedure shows you how to create purchasing policies to align with your business processes for purchasing.</span></span> <span data-ttu-id="1d8ee-105">Enne ostupoliitikate loomist peate seadistama ostupoliitika parameetrid.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-105">Before you can create purchasing policies, you must set up the purchasing policy parameters.</span></span> <span data-ttu-id="1d8ee-106">Ostupoliitikat on võimalik luua, muuta ja aegunuks määrata, kuid ostupoliitikat ei saa kustutada.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-106">It’s possible to create, modify, and retire a purchasing policy, but you can’t delete a purchasing policy.</span></span> <span data-ttu-id="1d8ee-107">Seda protseduuri viib tavaliselt läbi ostujuht.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-107">This procedure would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="1d8ee-108">Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-108">You can use this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="set-up-policy-parameters"></a>Saate häälestada poliitikaparameetrid
-1. Avage jaotis Ostupoliitikad.
-2. Klõpsake valikut Parameetrid.
-    * Poliitika tähtsusjärjestuse reeglid kehtivad teie organisatsiooni erinevatele tasanditele. Kuvatavad organisatsiooniüksused olenevad teie organisatsiooni hierarhiast ja sellest, millistele hierarhia tasanditele on hanke sisekontrolli eesmärk määratud. Näiteks võib teie organisatsioonil olla juriidilisi isikuid, kulukeskusi, regioone ja osakondi, kuid vaid mõnel neist võib olla hanke sisekontrolli hierarhia eesmärk. Vaikimisi on saadaval organisatsiooni tüüp Ettevõte.  
-3. Klõpsake vahekaarti Poliitika reegli tüübi parameetrid.
-4. Valige puult Ostupoliitika \ Ostutaotluse juhtimisreegel.
-    * Teie määrate poliitika tasandil poliitika otsuste tähtsuse järjekorra. Kuid mõne poliitika tüübi puhul saate alistada üksiku poliitikareegli tüüpide tähtsuse järjekorra. Näiteks võite määratleda ostupoliitikate tähtsuse järjekorraks: kulukeskus, osakond, ettevõte. Kataloogipoliitika reegli puhul võib tähtsuse järjekord olla: osakond, kulukeskus, ettevõte. Tähtsuse järjekorda saab muuta ainult kataloogipoliitika reeglite puhul. Kui töötaja taotluse loob, määratakse kuvatav kataloog töötaja osakonna, seejärel tema kulukeskuse ja seejärel tema ettevõttega seotud poliitikate alusel.  
-    * Kui loetelus on mitu organisatsiooni tasandit, võite kasutada üles-/allanoolt ostutaotluse juhtimisreeglis tähtsusjärjestuse määramiseks.  
-5. Sulgege leht.
+## <a name="set-up-policy-parameters"></a><span data-ttu-id="1d8ee-109">Saate häälestada poliitikaparameetrid</span><span class="sxs-lookup"><span data-stu-id="1d8ee-109">Set up policy parameters</span></span>
+1. <span data-ttu-id="1d8ee-110">Avage jaotis Ostupoliitikad.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-110">Go to Purchasing policies.</span></span>
+2. <span data-ttu-id="1d8ee-111">Klõpsake valikut Parameetrid.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-111">Click Parameters.</span></span>
+    * <span data-ttu-id="1d8ee-112">Poliitika tähtsusjärjestuse reeglid kehtivad teie organisatsiooni erinevatele tasanditele.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-112">Policy precedence rules apply to different levels in your organization.</span></span> <span data-ttu-id="1d8ee-113">Kuvatavad organisatsiooniüksused olenevad teie organisatsiooni hierarhiast ja sellest, millistele hierarhia tasanditele on hanke sisekontrolli eesmärk määratud.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-113">The organizational units that are shown depend on your organizational hierarchy, and on which levels in the hierarchy have been assigned the purpose of Procurement internal control.</span></span> <span data-ttu-id="1d8ee-114">Näiteks võib teie organisatsioonil olla juriidilisi isikuid, kulukeskusi, regioone ja osakondi, kuid vaid mõnel neist võib olla hanke sisekontrolli hierarhia eesmärk.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-114">For example, your organization might have legal entities, cost centers, regions, and departments, but it may be that only some of these have a hierarchy purpose of Procurement internal control.</span></span> <span data-ttu-id="1d8ee-115">Vaikimisi on saadaval organisatsiooni tüüp Ettevõte.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-115">As a default, the organization of type Company is available.</span></span>  
+3. <span data-ttu-id="1d8ee-116">Klõpsake vahekaarti Poliitika reegli tüübi parameetrid.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-116">Click the Policy rule type parameters tab.</span></span>
+4. <span data-ttu-id="1d8ee-117">Valige puult Ostupoliitika \ Ostutaotluse juhtimisreegel.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-117">In the tree, select 'Purchasing policy\Purchase requisition control rule'.</span></span>
+    * <span data-ttu-id="1d8ee-118">Teie määrate poliitika tasandil poliitika otsuste tähtsuse järjekorra.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-118">You define the order of precedence for policy resolution at the policy level.</span></span> <span data-ttu-id="1d8ee-119">Kuid mõne poliitika tüübi puhul saate alistada üksiku poliitikareegli tüüpide tähtsuse järjekorra.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-119">However, for some policy types, you can override the order of precedence for individual policy rule types.</span></span> <span data-ttu-id="1d8ee-120">Näiteks võite määratleda ostupoliitikate tähtsuse järjekorraks: kulukeskus, osakond, ettevõte.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-120">For example, you might define the order of precedence for purchasing policies to be: cost center, department, company.</span></span> <span data-ttu-id="1d8ee-121">Kataloogipoliitika reegli puhul võib tähtsuse järjekord olla: osakond, kulukeskus, ettevõte.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-121">For the catalog policy rule, you might want the order of precedence to be: department, cost center, company.</span></span> <span data-ttu-id="1d8ee-122">Tähtsuse järjekorda saab muuta ainult kataloogipoliitika reeglite puhul.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-122">You can change the order of precedence for the Catalog policy rule.</span></span> <span data-ttu-id="1d8ee-123">Kui töötaja taotluse loob, määratakse kuvatav kataloog töötaja osakonna, seejärel tema kulukeskuse ja seejärel tema ettevõttega seotud poliitikate alusel.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-123">When a worker creates a requisition, the catalog that is displayed is determined by the policies that are associated with the worker’s department, then their cost center, and then their company.</span></span>  
+    * <span data-ttu-id="1d8ee-124">Kui loetelus on mitu organisatsiooni tasandit, võite kasutada üles-/allanoolt ostutaotluse juhtimisreeglis tähtsusjärjestuse määramiseks.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-124">If there’s more than one organizational level listed, you can use the Up/Down arrows to set the order of precedence for the Purchase requisition control rule.</span></span>  
+5. <span data-ttu-id="1d8ee-125">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-125">Close the page.</span></span>
 
-## <a name="create-a-new-policy"></a>Looge uus poliitika.
-1. Klõpsake valikut Uus.
-2. Sisestage väärtus väljale Nimi.
-3. Sisestage väljale Kirjeldus soovitud väärtus.
-    * Ühe ostupoliitika saab rakendada ainult ühele organisatsiooni hierarhiale. Näiteks võib teil olla üks hierarhia nimega Geograafiline ja üks nimega Osakond ja kummalgi võib olla erinev ostupoliitika.  
-    * Valige organisatsioon, millele poliitika peaks kehtima.  
-4. Klõpsake noolt valitud organisatsiooni lisamiseks.
-    * Seda protsessi saab korrata, lisades veel organisatsioone.  
+## <a name="create-a-new-policy"></a><span data-ttu-id="1d8ee-126">Looge uus poliitika.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-126">Create a new policy</span></span>
+1. <span data-ttu-id="1d8ee-127">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-127">Click New.</span></span>
+2. <span data-ttu-id="1d8ee-128">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-128">In the Name field, type a value.</span></span>
+3. <span data-ttu-id="1d8ee-129">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-129">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="1d8ee-130">Ühe ostupoliitika saab rakendada ainult ühele organisatsiooni hierarhiale.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-130">A single purchasing policy can only apply to one organization hierarchy.</span></span> <span data-ttu-id="1d8ee-131">Näiteks võib teil olla üks hierarhia nimega Geograafiline ja üks nimega Osakond ja kummalgi võib olla erinev ostupoliitika.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-131">For example, you could have one hierarchy called “Geographic” and one called “Department”, and have a different purchasing policy for each.</span></span>  
+    * <span data-ttu-id="1d8ee-132">Valige organisatsioon, millele poliitika peaks kehtima.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-132">Select an organization that the policy should apply to.</span></span>  
+4. <span data-ttu-id="1d8ee-133">Klõpsake noolt valitud organisatsiooni lisamiseks.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-133">Click the arrow to add the selected organization.</span></span>
+    * <span data-ttu-id="1d8ee-134">Seda protsessi saab korrata, lisades veel organisatsioone.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-134">You can repeat this process to add more organizations.</span></span>  
 
-## <a name="add-a-policy-rule"></a>Poliitikareegli lisamine
-1. Tehke loendis Poliitikareegli tüüp valik Taotluse eesmärgi reegel.
-    * Saate luua reegli, mis määrab taotluse vaike-eesmärgi tüübiks tarbimise, kuid laseb selle asemel valida tüübi Täiendamine.  
-2. Klõpsake valikut Loo poliitika reegel.
-3. Tehke väljal Luba käsitsi alistamine valik Jah.
-4. Klõpsake valikut Sule.
-    * Nüüd saate seadistada ostupoliitikale teisi poliitikareegleid.   Pange tähele, et poliitikareegli tüübil ei saa olla kattuvaid reegleid, mis on ühes hankepoliitikas korraga aktiivsed.  
-5. Sulgege leht.
-6. Sulgege leht.
+## <a name="add-a-policy-rule"></a><span data-ttu-id="1d8ee-135">Poliitikareegli lisamine</span><span class="sxs-lookup"><span data-stu-id="1d8ee-135">Add a policy rule</span></span>
+1. <span data-ttu-id="1d8ee-136">Tehke loendis Poliitikareegli tüüp valik Taotluse eesmärgi reegel.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-136">In the Policy rule type list, select Requisition purpose rule.</span></span>
+    * <span data-ttu-id="1d8ee-137">Saate luua reegli, mis määrab taotluse vaike-eesmärgi tüübiks tarbimise, kuid laseb selle asemel valida tüübi Täiendamine.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-137">You’ll create a rule that sets the default requisition purpose to type Consumption but allows the Replenishment type to be selected instead.</span></span>  
+2. <span data-ttu-id="1d8ee-138">Klõpsake valikut Loo poliitika reegel.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-138">Click Create policy rule.</span></span>
+3. <span data-ttu-id="1d8ee-139">Tehke väljal Luba käsitsi alistamine valik Jah.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-139">Select Yes in the Allow manual override field.</span></span>
+4. <span data-ttu-id="1d8ee-140">Klõpsake valikut Sule.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-140">Click Close.</span></span>
+    * <span data-ttu-id="1d8ee-141">Nüüd saate seadistada ostupoliitikale teisi poliitikareegleid.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-141">Now you can set up other policy rules for the purchasing policy.</span></span>   <span data-ttu-id="1d8ee-142">Pange tähele, et poliitikareegli tüübil ei saa olla kattuvaid reegleid, mis on ühes hankepoliitikas korraga aktiivsed.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-142">Note that a Policy rule type cannot have overlapping rules that are active at the same time within a single procurement policy.</span></span>  
+5. <span data-ttu-id="1d8ee-143">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-143">Close the page.</span></span>
+6. <span data-ttu-id="1d8ee-144">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="1d8ee-144">Close the page.</span></span>
 
 

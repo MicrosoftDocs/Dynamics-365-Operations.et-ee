@@ -16,101 +16,101 @@ ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bf6f564ab19347f29476f02e51a690b1a27ba454
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f74da78232c477224c8fa753e9755b7f9d13174d
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-an-eu-intrastat-declaration"></a>EL-i Intrastati deklaratsiooni koostamine
+# <a name="generate-an-eu-intrastat-declaration"></a><span data-ttu-id="4744f-103">EL-i Intrastati deklaratsiooni koostamine</span><span class="sxs-lookup"><span data-stu-id="4744f-103">Generate an EU Intrastat declaration</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris selgitatakse vajalikke toiminguid Intrastati deklaratsiooni eksportimise kohta elektroonilises failivormingus ja deklaratsiooni andmete eelvaatamist Exceli vormingus. 
+<span data-ttu-id="4744f-104">Selles protseduuris selgitatakse vajalikke toiminguid Intrastati deklaratsiooni eksportimise kohta elektroonilises failivormingus ja deklaratsiooni andmete eelvaatamist Exceli vormingus.</span><span class="sxs-lookup"><span data-stu-id="4744f-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
 
-Enne kui saate selle protseduuri lõpule viia, peate kandma kanded Intrastati. 
+<span data-ttu-id="4744f-105">Enne kui saate selle protseduuri lõpule viia, peate kandma kanded Intrastati.</span><span class="sxs-lookup"><span data-stu-id="4744f-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
 
-Protseduuri loomisel kasutati demoettevõtte DEMF andmeid.
+<span data-ttu-id="4744f-106">Protseduuri loomisel kasutati demoettevõtte DEMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="4744f-106">This procedure was created using the demo data company DEMF.</span></span>
 
 
-## <a name="import-configurations-with-settings"></a>Konfiguratsioonide importimine sätetega
-1. Avage Tööruumid > Elektrooniline aruandlus
-2. Klõpsake valikut Määra aktiivseks.
-3. Klõpsake valikut Hoidlad.
-4. Klõpsake valikut Ava.
-5. Avage veeru filter Konfiguratsiooni nimi.
-6. Rakendage väljal Konfiguratsiooni nimi filtrit väärtusega Intrastat (DE), kasutades filtri tehtemärki „algab üksusega”.
-    * Peate valima konfiguratsiooni nime, mis on rakendatav teie juriidilise isiku riigile. Selles protseduuris kasutatakse näitena Saksamaa juriidilist isikut (DEMF), seetõttu tuleks teha valik Intrastat (DE).  
-    * Klõpsake nuppu Impordi ja seejärel nuppu Jah.  
-7. Avage veeru filter Konfiguratsiooni nimi.
-8. Rakendage väljal Konfiguratsiooni nimi filtrit väärtusega Intrastati aruanne kasutades filtri tehtemärki „algab üksusega”.
-    * Klõpsake nuppu Impordi ja seejärel nuppu Jah.  
+## <a name="import-configurations-with-settings"></a><span data-ttu-id="4744f-107">Konfiguratsioonide importimine sätetega</span><span class="sxs-lookup"><span data-stu-id="4744f-107">Import configurations with settings</span></span>
+1. <span data-ttu-id="4744f-108">Avage Tööruumid > Elektrooniline aruandlus</span><span class="sxs-lookup"><span data-stu-id="4744f-108">Go to Workspaces > Electronic reporting</span></span>
+2. <span data-ttu-id="4744f-109">Klõpsake valikut Määra aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="4744f-109">Click Set active.</span></span>
+3. <span data-ttu-id="4744f-110">Klõpsake valikut Hoidlad.</span><span class="sxs-lookup"><span data-stu-id="4744f-110">Click Repositories.</span></span>
+4. <span data-ttu-id="4744f-111">Klõpsake valikut Ava.</span><span class="sxs-lookup"><span data-stu-id="4744f-111">Click Open.</span></span>
+5. <span data-ttu-id="4744f-112">Avage veeru filter Konfiguratsiooni nimi.</span><span class="sxs-lookup"><span data-stu-id="4744f-112">Open Configuration name column filter.</span></span>
+6. <span data-ttu-id="4744f-113">Rakendage väljal Konfiguratsiooni nimi filtrit väärtusega Intrastat (DE), kasutades filtri tehtemärki „algab üksusega”.</span><span class="sxs-lookup"><span data-stu-id="4744f-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="4744f-114">Peate valima konfiguratsiooni nime, mis on rakendatav teie juriidilise isiku riigile.</span><span class="sxs-lookup"><span data-stu-id="4744f-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="4744f-115">Selles protseduuris kasutatakse näitena Saksamaa juriidilist isikut (DEMF), seetõttu tuleks teha valik Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="4744f-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
+    * <span data-ttu-id="4744f-116">Klõpsake nuppu Impordi ja seejärel nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="4744f-116">Click Import and then click Yes.</span></span>  
+7. <span data-ttu-id="4744f-117">Avage veeru filter Konfiguratsiooni nimi.</span><span class="sxs-lookup"><span data-stu-id="4744f-117">Open Configuration name column filter.</span></span>
+8. <span data-ttu-id="4744f-118">Rakendage väljal Konfiguratsiooni nimi filtrit väärtusega Intrastati aruanne kasutades filtri tehtemärki „algab üksusega”.</span><span class="sxs-lookup"><span data-stu-id="4744f-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="4744f-119">Klõpsake nuppu Impordi ja seejärel nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="4744f-119">Click Import and then click Yes.</span></span>  
 
-## <a name="set-up-foreign-trade-parameters"></a>Väliskaubanduse parameetrite seadistamine
-1. Avage Maks > Seadistus > Väliskaubandus > Väliskaubanduse parameetrid
-2. Laiendage jaotist Elektrooniline aruandlus.
-3. Sisestage või valige väärtus Intrastat (DE) väljal Failivormingu vastendamine
-4. Sisestage või valige väärtus Intrastati aruanne väljal Aruandevormingu vastendamine
-5. Laiendage jaotist Ümardamisreeglid.
-    * Peate seadistama ümardamisreeglid, mis kehtivad teie riigis/regioonis Intrastati aruandluse puhul.  
-6. Sisestage number väljale Ümardamisreegel
-    * Sisestage ümardamistäpsus, näiteks 0,01.  
-7. Sisestage number väljale Summa kümnendkohtade arv.
-    * Sisestage näiteks 2.  
-8. Valige suvand väljal Ümardamine alla 1 kg.
-    * Valige näiteks Ümardamine kuni 1 kg-ni.  
-9. Sisestage number väljale Ümardamisreegel
-    * Sisestage näiteks 1 kaalu ümardamise kohta täisarvuni.  
-10. Laiendage jaotist Alampiir.
-11. Sisestage number väljale Kaal.
-    * Sisestage minimaalseks kaaluks näiteks 10.  
-12. Sisestage number väljale Summa.
-    * Sisestage miinimumsummaks näiteks 200.  
-13. Sisestage või valige väärtus väljal Kaup.
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="4744f-120">Väliskaubanduse parameetrite seadistamine</span><span class="sxs-lookup"><span data-stu-id="4744f-120">Set up Foreign trade parameters</span></span>
+1. <span data-ttu-id="4744f-121">Avage Maks > Seadistus > Väliskaubandus > Väliskaubanduse parameetrid</span><span class="sxs-lookup"><span data-stu-id="4744f-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
+2. <span data-ttu-id="4744f-122">Laiendage jaotist Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="4744f-122">Expand the Electronic reporting section.</span></span>
+3. <span data-ttu-id="4744f-123">Sisestage või valige väärtus Intrastat (DE) väljal Failivormingu vastendamine</span><span class="sxs-lookup"><span data-stu-id="4744f-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
+4. <span data-ttu-id="4744f-124">Sisestage või valige väärtus Intrastati aruanne väljal Aruandevormingu vastendamine</span><span class="sxs-lookup"><span data-stu-id="4744f-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
+5. <span data-ttu-id="4744f-125">Laiendage jaotist Ümardamisreeglid.</span><span class="sxs-lookup"><span data-stu-id="4744f-125">Expand the Rounding rules section.</span></span>
+    * <span data-ttu-id="4744f-126">Peate seadistama ümardamisreeglid, mis kehtivad teie riigis/regioonis Intrastati aruandluse puhul.</span><span class="sxs-lookup"><span data-stu-id="4744f-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
+6. <span data-ttu-id="4744f-127">Sisestage number väljale Ümardamisreegel</span><span class="sxs-lookup"><span data-stu-id="4744f-127">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="4744f-128">Sisestage ümardamistäpsus, näiteks 0,01.</span><span class="sxs-lookup"><span data-stu-id="4744f-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
+7. <span data-ttu-id="4744f-129">Sisestage number väljale Summa kümnendkohtade arv.</span><span class="sxs-lookup"><span data-stu-id="4744f-129">In the Number of decimals for amount field, enter a number.</span></span>
+    * <span data-ttu-id="4744f-130">Sisestage näiteks 2.</span><span class="sxs-lookup"><span data-stu-id="4744f-130">For example, enter '2'.</span></span>  
+8. <span data-ttu-id="4744f-131">Valige suvand väljal Ümardamine alla 1 kg.</span><span class="sxs-lookup"><span data-stu-id="4744f-131">In the Rounding below 1 kg field, select an option.</span></span>
+    * <span data-ttu-id="4744f-132">Valige näiteks Ümardamine kuni 1 kg-ni.</span><span class="sxs-lookup"><span data-stu-id="4744f-132">For example, select 'Rounding up to 1 kg'.</span></span>  
+9. <span data-ttu-id="4744f-133">Sisestage number väljale Ümardamisreegel</span><span class="sxs-lookup"><span data-stu-id="4744f-133">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="4744f-134">Sisestage näiteks 1 kaalu ümardamise kohta täisarvuni.</span><span class="sxs-lookup"><span data-stu-id="4744f-134">For example, enter '1' for rounding weight to the integer.</span></span>  
+10. <span data-ttu-id="4744f-135">Laiendage jaotist Alampiir.</span><span class="sxs-lookup"><span data-stu-id="4744f-135">Expand the Minimum limit section.</span></span>
+11. <span data-ttu-id="4744f-136">Sisestage number väljale Kaal.</span><span class="sxs-lookup"><span data-stu-id="4744f-136">In the Weight field, enter a number.</span></span>
+    * <span data-ttu-id="4744f-137">Sisestage minimaalseks kaaluks näiteks 10.</span><span class="sxs-lookup"><span data-stu-id="4744f-137">For example, enter '10' as the minimum weight.</span></span>  
+12. <span data-ttu-id="4744f-138">Sisestage number väljale Summa.</span><span class="sxs-lookup"><span data-stu-id="4744f-138">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="4744f-139">Sisestage miinimumsummaks näiteks 200.</span><span class="sxs-lookup"><span data-stu-id="4744f-139">For example, enter '200' as the minimum amount.</span></span>  
+13. <span data-ttu-id="4744f-140">Sisestage või valige väärtus väljal Kaup.</span><span class="sxs-lookup"><span data-stu-id="4744f-140">In the Commodity field, enter or select a value.</span></span>
 
-## <a name="set-up-compression-of-intrastat"></a>Intrastati tihendamise seadistamine
-1. Avage Maks > Seadistus > Väliskaubandus > Intrastati tihendamine.
-2. Klõpsake nuppu Eemalda.
-3. Otsige loendist ja valige soovitud kirje.
-    * Valige jaotises Saadaval näiteks Kaup.  
-4. Klõpsake vahekaarti Lisa.
+## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="4744f-141">Intrastati tihendamise seadistamine</span><span class="sxs-lookup"><span data-stu-id="4744f-141">Set up Compression of Intrastat</span></span>
+1. <span data-ttu-id="4744f-142">Avage Maks > Seadistus > Väliskaubandus > Intrastati tihendamine.</span><span class="sxs-lookup"><span data-stu-id="4744f-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
+2. <span data-ttu-id="4744f-143">Klõpsake nuppu Eemalda.</span><span class="sxs-lookup"><span data-stu-id="4744f-143">Click Remove.</span></span>
+3. <span data-ttu-id="4744f-144">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="4744f-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4744f-145">Valige jaotises Saadaval näiteks Kaup.</span><span class="sxs-lookup"><span data-stu-id="4744f-145">For example, select Commodity in the Available section.</span></span>  
+4. <span data-ttu-id="4744f-146">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="4744f-146">Click Add.</span></span>
 
-## <a name="generate-intrastat-declaration"></a>Intrastati deklaratsiooni loomine
-1. Avage Maks > Deklaratsioonid > Väliskaubandus > Intrastat
-2. Klõpsake suvandit Kinnita.
-    * Kinnitamine tehakse vastavalt väljale Kontrolli seadistust lehel Väliskaubanduse parameetrid.  
-3. Klõpsake nuppu OK.
-4. Klõpsake käsku Uuenda.
-5. Klõpsake suvandit Alampiir.
-6. Sisestage kuupäev väljale Alguskuupäev.
-    * Sisestage näiteks 1. jaanuar 2015.  
-7. Tehke väljal Tihendamine valik Jah.
-8. Sisestage kuupäev väljale Lõppkuupäev.
-    * Sisestage näiteks 31. jaanuar 2015.  
-9. Klõpsake nuppu OK.
-10. Klõpsake käsku Uuenda.
-11. Klõpsake käsku Tihenda.
-    * See tihendamine toimub vastavalt sellele, kuidas te seadistate Intrastati tiheduse sätted.  
-12. Sisestage kuupäev väljale Alguskuupäev.
-    * Sisestage näiteks 1. jaanuar 2015.  
-13. Sisestage kuupäev väljale Lõppkuupäev.
-    * Sisestage näiteks 31. jaanuar 2015.  
-14. Klõpsake nuppu OK.
-15. Klõpsake käsku Uuenda.
-16. Klõpsake käsku Loo uued järjekorranumbrid.
-17. Klõpsake nuppu OK.
-18. Klõpsake suvandit Väljund.
-19. Klõpsake vahekaarti Aruanne.
-20. Sisestage väljale Alates kuupäevast aruandlusperioodi esimene kuupäev.
-    * Määrake kuupäevaks näiteks 1. jaanuar 2015.  
-21. Sisestage kuupäev väljale Lõpukuupäev.
-    * Sisestage näiteks 31. jaanuar 2015.  
-22. Valige Jah väljal Loo fail.
-23. Sisestage väärtus väljale Faili nimi.
-24. Valige Jah väljal Loo aruanne.
-25. Tippige väärtus väljale Aruandefaili nimi.
-26. Valige suvand väljal Suund.
-    * Tehke näiteks valik Kauba lähetamine.  
-27. Klõpsake nuppu OK.
+## <a name="generate-intrastat-declaration"></a><span data-ttu-id="4744f-147">Intrastati deklaratsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="4744f-147">Generate Intrastat declaration</span></span>
+1. <span data-ttu-id="4744f-148">Avage Maks > Deklaratsioonid > Väliskaubandus > Intrastat</span><span class="sxs-lookup"><span data-stu-id="4744f-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
+2. <span data-ttu-id="4744f-149">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="4744f-149">Click Validate.</span></span>
+    * <span data-ttu-id="4744f-150">Kinnitamine tehakse vastavalt väljale Kontrolli seadistust lehel Väliskaubanduse parameetrid.</span><span class="sxs-lookup"><span data-stu-id="4744f-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
+3. <span data-ttu-id="4744f-151">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4744f-151">Click OK.</span></span>
+4. <span data-ttu-id="4744f-152">Klõpsake käsku Uuenda.</span><span class="sxs-lookup"><span data-stu-id="4744f-152">Click Update.</span></span>
+5. <span data-ttu-id="4744f-153">Klõpsake suvandit Alampiir.</span><span class="sxs-lookup"><span data-stu-id="4744f-153">Click Minimum limit.</span></span>
+6. <span data-ttu-id="4744f-154">Sisestage kuupäev väljale Alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="4744f-154">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="4744f-155">Sisestage näiteks 1. jaanuar 2015.</span><span class="sxs-lookup"><span data-stu-id="4744f-155">For example, enter January 1, 2015.</span></span>  
+7. <span data-ttu-id="4744f-156">Tehke väljal Tihendamine valik Jah.</span><span class="sxs-lookup"><span data-stu-id="4744f-156">Select Yes in the Compress field.</span></span>
+8. <span data-ttu-id="4744f-157">Sisestage kuupäev väljale Lõppkuupäev.</span><span class="sxs-lookup"><span data-stu-id="4744f-157">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="4744f-158">Sisestage näiteks 31. jaanuar 2015.</span><span class="sxs-lookup"><span data-stu-id="4744f-158">For example, enter January 31, 2015.</span></span>  
+9. <span data-ttu-id="4744f-159">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4744f-159">Click OK.</span></span>
+10. <span data-ttu-id="4744f-160">Klõpsake käsku Uuenda.</span><span class="sxs-lookup"><span data-stu-id="4744f-160">Click Update.</span></span>
+11. <span data-ttu-id="4744f-161">Klõpsake käsku Tihenda.</span><span class="sxs-lookup"><span data-stu-id="4744f-161">Click Compress.</span></span>
+    * <span data-ttu-id="4744f-162">See tihendamine toimub vastavalt sellele, kuidas te seadistate Intrastati tiheduse sätted.</span><span class="sxs-lookup"><span data-stu-id="4744f-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
+12. <span data-ttu-id="4744f-163">Sisestage kuupäev väljale Alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="4744f-163">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="4744f-164">Sisestage näiteks 1. jaanuar 2015.</span><span class="sxs-lookup"><span data-stu-id="4744f-164">For example, enter January 1, 2015.</span></span>  
+13. <span data-ttu-id="4744f-165">Sisestage kuupäev väljale Lõppkuupäev.</span><span class="sxs-lookup"><span data-stu-id="4744f-165">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="4744f-166">Sisestage näiteks 31. jaanuar 2015.</span><span class="sxs-lookup"><span data-stu-id="4744f-166">For example, enter 31st January 2015.</span></span>  
+14. <span data-ttu-id="4744f-167">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4744f-167">Click OK.</span></span>
+15. <span data-ttu-id="4744f-168">Klõpsake käsku Uuenda.</span><span class="sxs-lookup"><span data-stu-id="4744f-168">Click Update.</span></span>
+16. <span data-ttu-id="4744f-169">Klõpsake käsku Loo uued järjekorranumbrid.</span><span class="sxs-lookup"><span data-stu-id="4744f-169">Click Regenerate sequence numbers.</span></span>
+17. <span data-ttu-id="4744f-170">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4744f-170">Click OK.</span></span>
+18. <span data-ttu-id="4744f-171">Klõpsake suvandit Väljund.</span><span class="sxs-lookup"><span data-stu-id="4744f-171">Click Output.</span></span>
+19. <span data-ttu-id="4744f-172">Klõpsake vahekaarti Aruanne.</span><span class="sxs-lookup"><span data-stu-id="4744f-172">Click Report.</span></span>
+20. <span data-ttu-id="4744f-173">Sisestage väljale Alates kuupäevast aruandlusperioodi esimene kuupäev.</span><span class="sxs-lookup"><span data-stu-id="4744f-173">In the From date field, enter the first date of the reporting period.</span></span>
+    * <span data-ttu-id="4744f-174">Määrake kuupäevaks näiteks 1. jaanuar 2015.</span><span class="sxs-lookup"><span data-stu-id="4744f-174">For example, set the date to January 1, 2015.</span></span>  
+21. <span data-ttu-id="4744f-175">Sisestage kuupäev väljale Lõpukuupäev.</span><span class="sxs-lookup"><span data-stu-id="4744f-175">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="4744f-176">Sisestage näiteks 31. jaanuar 2015.</span><span class="sxs-lookup"><span data-stu-id="4744f-176">For example, enter January 31, 2015.</span></span>  
+22. <span data-ttu-id="4744f-177">Valige Jah väljal Loo fail.</span><span class="sxs-lookup"><span data-stu-id="4744f-177">Select Yes in the Generate file field.</span></span>
+23. <span data-ttu-id="4744f-178">Sisestage väärtus väljale Faili nimi.</span><span class="sxs-lookup"><span data-stu-id="4744f-178">In the File name field, type a value.</span></span>
+24. <span data-ttu-id="4744f-179">Valige Jah väljal Loo aruanne.</span><span class="sxs-lookup"><span data-stu-id="4744f-179">Select Yes in the Generate report field.</span></span>
+25. <span data-ttu-id="4744f-180">Tippige väärtus väljale Aruandefaili nimi.</span><span class="sxs-lookup"><span data-stu-id="4744f-180">In the Report file name field, type a value.</span></span>
+26. <span data-ttu-id="4744f-181">Valige suvand väljal Suund.</span><span class="sxs-lookup"><span data-stu-id="4744f-181">In the Direction field, select an option.</span></span>
+    * <span data-ttu-id="4744f-182">Tehke näiteks valik Kauba lähetamine.</span><span class="sxs-lookup"><span data-stu-id="4744f-182">For example, select 'Dispatches'.</span></span>  
+27. <span data-ttu-id="4744f-183">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4744f-183">Click OK.</span></span>
 
 

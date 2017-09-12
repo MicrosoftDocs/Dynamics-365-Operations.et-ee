@@ -16,42 +16,42 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f42a6a3f2bfec0bd2df77bc5bbc1156f820aa772
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c901ebea4fd7423db61ef2c33689e606e33e2434
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-configuration-rules"></a>Konfiguratsioonireeglite loomine
+# <a name="create-configuration-rules"></a><span data-ttu-id="95b14-103">Konfiguratsioonireeglite loomine</span><span class="sxs-lookup"><span data-stu-id="95b14-103">Create configuration rules</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur loob konfiguratsioonireeglid, mida saab kasutada dimensioonipõhise konfiguratsiooni jaoks, et koosluseridade teatud kombinatsioone jõustada või takistada. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on seitsmes protseduur kaheksast, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks.
+<span data-ttu-id="95b14-104">See protseduur loob konfiguratsioonireeglid, mida saab kasutada dimensioonipõhise konfiguratsiooni jaoks, et koosluseridade teatud kombinatsioone jõustada või takistada.</span><span class="sxs-lookup"><span data-stu-id="95b14-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="95b14-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="95b14-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="95b14-106">See on seitsmes protseduur kaheksast, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks.</span><span class="sxs-lookup"><span data-stu-id="95b14-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. Minge jaotisse Tooteteabe haldus > Kooslused ja valemid > Kooslused.
-2. Otsige loendist ja valige soovitud kirje.
-    * Leidke ja valige kooslus dimensioonipõhise konfiguratsiooni jaoks.  
-3. Klõpsake toimingupaanil valikut Suvandid.
-4. Klõpsake suvandit Muuda vaadet.
-5. Klõpsake suvandit Päisevaade.
-    * Avage päisevaade, et pääseda juurde kiirkaardile Konfiguratsiooniprotsess.  
-6. Laiendage või ahendage jaotist Konfiguratsiooniprotsess.
-    * Kiirkaart Konfiguratsiooniprotsess peab olema laiendatud režiimis.  
-7. Klõpsake suvandit Konfiguratsioonireeglid.
-8. Klõpsake valikut Uus.
-9. Märkige loendis valitud rida.
-10. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-    * Kuvatakse praeguses konfiguratsioonigrupis olevad kaubad. Valige see, mis kujutab reeglis olevat tingimust.  
-11. Klõpsake loendis valitud real olevat linki.
-12. Valige suvand väljalt Meetod.
-    * Võimalik on jõustada kas teisest konfiguratsioonigrupist pärit kauba valik või valiku tühistamine.  
-13. Klõpsake väljal Tuletatud grupp otsingu avamiseks ripploendi nuppu.
-14. Otsige loendist ja valige soovitud kirje.
-15. Klõpsake loendis valitud real olevat linki.
-    * Valige soovitud konfiguratsioonigrupp.  
-16. Klõpsake väljal Tuletatud kaubakood otsingu avamiseks ripploendi nuppu.
-17. Klõpsake loendis valitud real olevat linki.
-    * Valige kaubakood, mis olenevalt valitud meetodist kas valitakse või mille valik tühistatakse.  
-18. Sulgege leht.
+1. <span data-ttu-id="95b14-107">Minge jaotisse Tooteteabe haldus > Kooslused ja valemid > Kooslused.</span><span class="sxs-lookup"><span data-stu-id="95b14-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="95b14-108">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="95b14-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="95b14-109">Leidke ja valige kooslus dimensioonipõhise konfiguratsiooni jaoks.</span><span class="sxs-lookup"><span data-stu-id="95b14-109">Find and select the BOM for the dimension-based configuration.</span></span>  
+3. <span data-ttu-id="95b14-110">Klõpsake toimingupaanil valikut Suvandid.</span><span class="sxs-lookup"><span data-stu-id="95b14-110">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="95b14-111">Klõpsake suvandit Muuda vaadet.</span><span class="sxs-lookup"><span data-stu-id="95b14-111">Click Change view.</span></span>
+5. <span data-ttu-id="95b14-112">Klõpsake suvandit Päisevaade.</span><span class="sxs-lookup"><span data-stu-id="95b14-112">Click Header view.</span></span>
+    * <span data-ttu-id="95b14-113">Avage päisevaade, et pääseda juurde kiirkaardile Konfiguratsiooniprotsess.</span><span class="sxs-lookup"><span data-stu-id="95b14-113">Open the header view to access the Configuration route FastTab.</span></span>  
+6. <span data-ttu-id="95b14-114">Laiendage või ahendage jaotist Konfiguratsiooniprotsess.</span><span class="sxs-lookup"><span data-stu-id="95b14-114">Expand or collapse the Configuration route section.</span></span>
+    * <span data-ttu-id="95b14-115">Kiirkaart Konfiguratsiooniprotsess peab olema laiendatud režiimis.</span><span class="sxs-lookup"><span data-stu-id="95b14-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
+7. <span data-ttu-id="95b14-116">Klõpsake suvandit Konfiguratsioonireeglid.</span><span class="sxs-lookup"><span data-stu-id="95b14-116">Click Configuration rules.</span></span>
+8. <span data-ttu-id="95b14-117">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="95b14-117">Click New.</span></span>
+9. <span data-ttu-id="95b14-118">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="95b14-118">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="95b14-119">Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="95b14-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="95b14-120">Kuvatakse praeguses konfiguratsioonigrupis olevad kaubad.</span><span class="sxs-lookup"><span data-stu-id="95b14-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="95b14-121">Valige see, mis kujutab reeglis olevat tingimust.</span><span class="sxs-lookup"><span data-stu-id="95b14-121">Select the one that represents the condition in the rule.</span></span>  
+11. <span data-ttu-id="95b14-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="95b14-122">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="95b14-123">Valige suvand väljalt Meetod.</span><span class="sxs-lookup"><span data-stu-id="95b14-123">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="95b14-124">Võimalik on jõustada kas teisest konfiguratsioonigrupist pärit kauba valik või valiku tühistamine.</span><span class="sxs-lookup"><span data-stu-id="95b14-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
+13. <span data-ttu-id="95b14-125">Klõpsake väljal Tuletatud grupp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="95b14-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="95b14-126">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="95b14-126">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="95b14-127">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="95b14-127">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="95b14-128">Valige soovitud konfiguratsioonigrupp.</span><span class="sxs-lookup"><span data-stu-id="95b14-128">Select the desired configuration group.</span></span>  
+16. <span data-ttu-id="95b14-129">Klõpsake väljal Tuletatud kaubakood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="95b14-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="95b14-130">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="95b14-130">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="95b14-131">Valige kaubakood, mis olenevalt valitud meetodist kas valitakse või mille valik tühistatakse.</span><span class="sxs-lookup"><span data-stu-id="95b14-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
+18. <span data-ttu-id="95b14-132">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="95b14-132">Close the page.</span></span>
 
 

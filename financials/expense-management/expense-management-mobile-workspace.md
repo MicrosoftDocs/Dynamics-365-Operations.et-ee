@@ -25,222 +25,222 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="expense-management-mobile-workspace"></a>Kuluhalduse mobiilne tööruum
+# <a name="expense-management-mobile-workspace"></a><span data-ttu-id="4cffa-105">Kuluhalduse mobiilne tööruum</span><span class="sxs-lookup"><span data-stu-id="4cffa-105">Expense management mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-See teema annab teavet mobiilse tööruumi **Kulude haldamine** kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Kasutajad saavad ka kiiresti luua kuluridu, kasutades lisatud kviitungit, ning luua ja hallata oma kuluaruandeid. Samuti saavad kinnitajad kasutada mobiilset tööruumi **Kulude haldamine** endale määratud kuluaruannete vaatamiseks ning nende kuluaruannete kinnitamiseks või tagasilükkamiseks.
+<span data-ttu-id="4cffa-106">See teema annab teavet mobiilse tööruumi **Kulude haldamine** kohta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="4cffa-107">See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada.</span><span class="sxs-lookup"><span data-stu-id="4cffa-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="4cffa-108">Kasutajad saavad ka kiiresti luua kuluridu, kasutades lisatud kviitungit, ning luua ja hallata oma kuluaruandeid.</span><span class="sxs-lookup"><span data-stu-id="4cffa-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="4cffa-109">Samuti saavad kinnitajad kasutada mobiilset tööruumi **Kulude haldamine** endale määratud kuluaruannete vaatamiseks ning nende kuluaruannete kinnitamiseks või tagasilükkamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
 
-See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="4cffa-110">See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="4cffa-110">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
 
-## <a name="overview"></a>Ülevaade
+## <a name="overview"></a><span data-ttu-id="4cffa-111">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="4cffa-111">Overview</span></span>
 
-Paljud ettevõtted nõuavad, et reisiga seotud või äriga seotud kuluaruandele, mille töövõtja korvamiseks esitab, lisatakse kviitungi koopia. Mobiilne tööruum **Kulude haldus** võimaldab kasutajatel kiiresti luua oma valitud mobiilses seadmes uusi kuluridu, kasutades lisatud fotot kviitungist. Teise võimalusena saavad kasutajad jäädvustada kviitungist foto ja lisada selle kuluaruandele hiljem. Töötajad saavad ka luua ja hallata oma kuluaruandeid ning edastada need kinnitamiseks ja korvamiseks, kasutades oma mobiilset seadet.
+<span data-ttu-id="4cffa-112">Paljud ettevõtted nõuavad, et reisiga seotud või äriga seotud kuluaruandele, mille töövõtja korvamiseks esitab, lisatakse kviitungi koopia.</span><span class="sxs-lookup"><span data-stu-id="4cffa-112">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="4cffa-113">Mobiilne tööruum **Kulude haldus** võimaldab kasutajatel kiiresti luua oma valitud mobiilses seadmes uusi kuluridu, kasutades lisatud fotot kviitungist.</span><span class="sxs-lookup"><span data-stu-id="4cffa-113">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="4cffa-114">Teise võimalusena saavad kasutajad jäädvustada kviitungist foto ja lisada selle kuluaruandele hiljem.</span><span class="sxs-lookup"><span data-stu-id="4cffa-114">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="4cffa-115">Töötajad saavad ka luua ja hallata oma kuluaruandeid ning edastada need kinnitamiseks ja korvamiseks, kasutades oma mobiilset seadet.</span><span class="sxs-lookup"><span data-stu-id="4cffa-115">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
 
-Täpsemalt võimaldab mobiilne tööruum **Kulude haldamine** teha kasutajatel järgmist.
+<span data-ttu-id="4cffa-116">Täpsemalt võimaldab mobiilne tööruum **Kulude haldamine** teha kasutajatel järgmist.</span><span class="sxs-lookup"><span data-stu-id="4cffa-116">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Kviitungist foto tegemine ja selle üleslaadimine rakendusse Microsoft Dynamicsi 365 for Finance and Operations, Enterprise edition. Seejärel saab lisada selle foto hiljem kuluaruandele.
-- Faili üleslaadimine salvestatud kviitungina. Seejärel saab lisada selle faili hiljem kuluaruandele.
-- Uue kulurea loomine, kasutades lisatud kviitungit. Seejärel saab lisada selle reaüksuse hiljem kuluaruandele ning esitada selle heakskiitmiseks ja korvamiseks.
+- <span data-ttu-id="4cffa-117">Kviitungist foto tegemine ja selle üleslaadimine rakendusse Microsoft Dynamicsi 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="4cffa-117">Take a photo of a receipt, and upload it to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="4cffa-118">Seejärel saab lisada selle foto hiljem kuluaruandele.</span><span class="sxs-lookup"><span data-stu-id="4cffa-118">You can then attach that photo to an expense report later.</span></span>
+- <span data-ttu-id="4cffa-119">Faili üleslaadimine salvestatud kviitungina.</span><span class="sxs-lookup"><span data-stu-id="4cffa-119">Upload a file as a captured receipt.</span></span> <span data-ttu-id="4cffa-120">Seejärel saab lisada selle faili hiljem kuluaruandele.</span><span class="sxs-lookup"><span data-stu-id="4cffa-120">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="4cffa-121">Uue kulurea loomine, kasutades lisatud kviitungit.</span><span class="sxs-lookup"><span data-stu-id="4cffa-121">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="4cffa-122">Seejärel saab lisada selle reaüksuse hiljem kuluaruandele ning esitada selle heakskiitmiseks ja korvamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-122">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendust, saate kasutada ka järgmisi funktsioone.
+<span data-ttu-id="4cffa-123">Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendust, saate kasutada ka järgmisi funktsioone.</span><span class="sxs-lookup"><span data-stu-id="4cffa-123">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can also use these features:</span></span>
 
-- Uue kuluaruande loomine.
-- Kuluaruandele krediitkaardikannete ja muude varem loodud kulude lisamine.
-- Kuluaruande jaoks uute kulude loomine.
-- Kuluaruande jaoks mis tahes kulule kviitungi lisamine, tehes kviitungist foto või laadides jäädvustatud kviitungi failina üles.
-- Olenevalt ettevõtte kulude poliitikast saab lisada kulule külaliste nimekirja.
-- Olenevalt ettevõtte kulude poliitikast saab kulud täpsustada.
-- Kuluaruande esitamine kinnitamiseks ja korvamiseks.
-- Nende kuluaruannete kinnitamine või tagasilükkamine, mille kinnitajaks teid on määratud.
+- <span data-ttu-id="4cffa-124">Uue kuluaruande loomine.</span><span class="sxs-lookup"><span data-stu-id="4cffa-124">Create a new expense report.</span></span>
+- <span data-ttu-id="4cffa-125">Kuluaruandele krediitkaardikannete ja muude varem loodud kulude lisamine.</span><span class="sxs-lookup"><span data-stu-id="4cffa-125">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="4cffa-126">Kuluaruande jaoks uute kulude loomine.</span><span class="sxs-lookup"><span data-stu-id="4cffa-126">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="4cffa-127">Kuluaruande jaoks mis tahes kulule kviitungi lisamine, tehes kviitungist foto või laadides jäädvustatud kviitungi failina üles.</span><span class="sxs-lookup"><span data-stu-id="4cffa-127">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="4cffa-128">Olenevalt ettevõtte kulude poliitikast saab lisada kulule külaliste nimekirja.</span><span class="sxs-lookup"><span data-stu-id="4cffa-128">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="4cffa-129">Olenevalt ettevõtte kulude poliitikast saab kulud täpsustada.</span><span class="sxs-lookup"><span data-stu-id="4cffa-129">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="4cffa-130">Kuluaruande esitamine kinnitamiseks ja korvamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-130">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="4cffa-131">Nende kuluaruannete kinnitamine või tagasilükkamine, mille kinnitajaks teid on määratud.</span><span class="sxs-lookup"><span data-stu-id="4cffa-131">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Eeltingimused
-Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
+## <a name="prerequisites"></a><span data-ttu-id="4cffa-132">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="4cffa-132">Prerequisites</span></span>
+<span data-ttu-id="4cffa-133">Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.</span><span class="sxs-lookup"><span data-stu-id="4cffa-133">The prerequisites vary, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Eeltingimused lahenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni 2017. aasta juuli värskenduse kasutamisel 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendus, peab süsteemiadministraator avaldama mobiilse tööruumi **Kulude haldamine**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="4cffa-134">Eeltingimused lahenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni 2017. aasta juuli värskenduse kasutamisel</span><span class="sxs-lookup"><span data-stu-id="4cffa-134">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="4cffa-135">Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendus, peab süsteemiadministraator avaldama mobiilse tööruumi **Kulude haldamine**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-135">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> <span data-ttu-id="4cffa-136">Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="4cffa-136">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="4cffa-137">Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel</span><span class="sxs-lookup"><span data-stu-id="4cffa-137">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="4cffa-138">Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused.</span><span class="sxs-lookup"><span data-stu-id="4cffa-138">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Eeltingimus</th>
-<th>Roll</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="4cffa-139">Eeltingimus</span><span class="sxs-lookup"><span data-stu-id="4cffa-139">Prerequisite</span></span></th>
+<th><span data-ttu-id="4cffa-140">Roll</span><span class="sxs-lookup"><span data-stu-id="4cffa-140">Role</span></span></th>
+<th><span data-ttu-id="4cffa-141">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="4cffa-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Rakendage KB 4019015.</td>
-<td>Süsteemiadministraator</td>
-<td>KB 4019015 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Kulude haldamine</strong>. KB 4019015 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
+<td><span data-ttu-id="4cffa-142">Rakendage KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="4cffa-142">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="4cffa-143">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="4cffa-143">System administrator</span></span></td>
+<td><span data-ttu-id="4cffa-144">KB 4019015 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Kulude haldamine</strong>.</span><span class="sxs-lookup"><span data-stu-id="4cffa-144">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="4cffa-145">KB 4019015 juurutamiseks peab süsteemiadministraator toimima järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-145">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Laadige alla metaandmete kiirparandus teenusest Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ExpenseMobile</strong>, ning seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
+<li><span data-ttu-id="4cffa-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Laadige alla metaandmete kiirparandus teenusest Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="4cffa-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="4cffa-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</span><span class="sxs-lookup"><span data-stu-id="4cffa-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="4cffa-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ExpenseMobile</strong>, ning seejärel laadima juurutatava paketi LCS-i üles.</span><span class="sxs-lookup"><span data-stu-id="4cffa-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="4cffa-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</span><span class="sxs-lookup"><span data-stu-id="4cffa-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Avaldama mobiilse tööruumi <strong>Kulude haldamine</strong>.</td>
-<td>Süsteemiadministraator</td>
-<td>Vt jaotist <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
+<td><span data-ttu-id="4cffa-150">Avaldama mobiilse tööruumi <strong>Kulude haldamine</strong>.</span><span class="sxs-lookup"><span data-stu-id="4cffa-150">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="4cffa-151">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="4cffa-151">System administrator</span></span></td>
+<td><span data-ttu-id="4cffa-152">Vt jaotist <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</span><span class="sxs-lookup"><span data-stu-id="4cffa-152">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operationsi mobiilirakenduse alla laadimine ja installimine
-Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a><span data-ttu-id="4cffa-153">Dynamics 365 for Operationsi mobiilirakenduse alla laadimine ja installimine</span><span class="sxs-lookup"><span data-stu-id="4cffa-153">Download and install the Dynamics 365 for Operations mobile app</span></span>
+<span data-ttu-id="4cffa-154">Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.</span><span class="sxs-lookup"><span data-stu-id="4cffa-154">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
-- [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
-- [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="4cffa-155">Androidi telefonidele</span><span class="sxs-lookup"><span data-stu-id="4cffa-155">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="4cffa-156">iPhone’idele</span><span class="sxs-lookup"><span data-stu-id="4cffa-156">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
-1. Käivitage rakendus oma mobiilses seadmes.
-2. Sisestage Dynamics 365 URL.
-4. Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
-5. Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="4cffa-157">Logige mobiilirakendusse sisse</span><span class="sxs-lookup"><span data-stu-id="4cffa-157">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="4cffa-158">Käivitage rakendus oma mobiilses seadmes.</span><span class="sxs-lookup"><span data-stu-id="4cffa-158">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="4cffa-159">Sisestage Dynamics 365 URL.</span><span class="sxs-lookup"><span data-stu-id="4cffa-159">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="4cffa-160">Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli.</span><span class="sxs-lookup"><span data-stu-id="4cffa-160">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="4cffa-161">Sisestage oma identimisteave.</span><span class="sxs-lookup"><span data-stu-id="4cffa-161">Enter your credentials.</span></span>
+5. <span data-ttu-id="4cffa-162">Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid.</span><span class="sxs-lookup"><span data-stu-id="4cffa-162">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="4cffa-163">Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.</span><span class="sxs-lookup"><span data-stu-id="4cffa-163">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
 
-[![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="4cffa-164">[![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="4cffa-164">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Kviitungi salvestamine, kasutades kulude haldamise mobiilset tööruumi
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="4cffa-165">Kviitungi salvestamine, kasutades kulude haldamise mobiilset tööruumi</span><span class="sxs-lookup"><span data-stu-id="4cffa-165">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Avage oma mobiilses seadmes tööruum **Kulude haldamine**.
-2. Valige suvand **Salvesta kviitung**.
-3. Valige suvand **Tee foto** või **Vali pilt**.
-4. Järgige üht neist sammudest.
+1. <span data-ttu-id="4cffa-166">Avage oma mobiilses seadmes tööruum **Kulude haldamine**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-166">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="4cffa-167">Valige suvand **Salvesta kviitung**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-167">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="4cffa-168">Valige suvand **Tee foto** või **Vali pilt**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-168">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="4cffa-169">Järgige üht neist sammudest.</span><span class="sxs-lookup"><span data-stu-id="4cffa-169">Follow one of these steps:</span></span>
 
-    - Kui valisite suvandi **Tee foto**, toimige järgmiselt.
+    - <span data-ttu-id="4cffa-170">Kui valisite suvandi **Tee foto**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-170">If you selected **Take photo**, follow these steps:</span></span>
 
-        1. Avaneb teie mobiilse seadme kaamera, et saaksite kviitungist foto jäädvustada. Kui foto on tehtud, valige selle aktsepteerimiseks nupp **OK**.
-        2. Valikuline: saate sisestada fotole pealkirja ja märkused.
+        1. <span data-ttu-id="4cffa-171">Avaneb teie mobiilse seadme kaamera, et saaksite kviitungist foto jäädvustada.</span><span class="sxs-lookup"><span data-stu-id="4cffa-171">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="4cffa-172">Kui foto on tehtud, valige selle aktsepteerimiseks nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-172">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+        2. <span data-ttu-id="4cffa-173">Valikuline: saate sisestada fotole pealkirja ja märkused.</span><span class="sxs-lookup"><span data-stu-id="4cffa-173">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Kui valisite suvandi **Vali pilt**, toimige järgmiselt.
+    - <span data-ttu-id="4cffa-174">Kui valisite suvandi **Vali pilt**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-174">If you selected **Choose image**, follow these steps:</span></span>
 
-        1. Valige loendist pilt.
-        2. Valikuline: saate sisestada pildile pealkirja ja märkused.
+        1. <span data-ttu-id="4cffa-175">Valige loendist pilt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-175">Select an image in the list.</span></span>
+        2. <span data-ttu-id="4cffa-176">Valikuline: saate sisestada pildile pealkirja ja märkused.</span><span class="sxs-lookup"><span data-stu-id="4cffa-176">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Valige suvand **Valmis**.
+5. <span data-ttu-id="4cffa-177">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-177">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Kulude kiire sisestamine, kasutades mobiilset tööruumi Kulude haldamine
-1. Avage oma mobiilses seadmes tööruum **Kulude haldamine**.
-2. Valige suvand **Kiire kulusisestus**.
-3. Valige kulu kategooria. Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie kategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.
-4. Sisestage kulu kande kuupäev.
-5. Valikuline: saate sisestada kaupmehe kulu.
-6. Sisestage kulu summa.
-7. Saate valida kulu valuuta. Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie valuutat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida valuuta järgi või lülituda nime järgi otsingule.
-8. Valige suvand **Tee foto** või **Vali pilt**.
-9. Järgige üht neist sammudest.
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="4cffa-178">Kulude kiire sisestamine, kasutades mobiilset tööruumi Kulude haldamine</span><span class="sxs-lookup"><span data-stu-id="4cffa-178">Quickly enter expenses by using the Expense management mobile workspace</span></span>
+1. <span data-ttu-id="4cffa-179">Avage oma mobiilses seadmes tööruum **Kulude haldamine**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-179">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="4cffa-180">Valige suvand **Kiire kulusisestus**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-180">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="4cffa-181">Valige kulu kategooria.</span><span class="sxs-lookup"><span data-stu-id="4cffa-181">Select the category for the expense.</span></span> <span data-ttu-id="4cffa-182">Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-182">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="4cffa-183">Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-183">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="4cffa-184">Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="4cffa-184">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="4cffa-185">Kui teie kategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-185">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="4cffa-186">Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.</span><span class="sxs-lookup"><span data-stu-id="4cffa-186">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="4cffa-187">Sisestage kulu kande kuupäev.</span><span class="sxs-lookup"><span data-stu-id="4cffa-187">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="4cffa-188">Valikuline: saate sisestada kaupmehe kulu.</span><span class="sxs-lookup"><span data-stu-id="4cffa-188">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="4cffa-189">Sisestage kulu summa.</span><span class="sxs-lookup"><span data-stu-id="4cffa-189">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="4cffa-190">Saate valida kulu valuuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-190">Select the currency of the expense.</span></span> <span data-ttu-id="4cffa-191">Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-191">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="4cffa-192">Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda arvu muuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-192">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="4cffa-193">Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="4cffa-193">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="4cffa-194">Kui teie valuutat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-194">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="4cffa-195">Saate otsida valuuta järgi või lülituda nime järgi otsingule.</span><span class="sxs-lookup"><span data-stu-id="4cffa-195">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="4cffa-196">Valige suvand **Tee foto** või **Vali pilt**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-196">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="4cffa-197">Järgige üht neist sammudest.</span><span class="sxs-lookup"><span data-stu-id="4cffa-197">Follow one of these steps:</span></span>
 
-    - Kui valisite suvandi **Tee foto**, avaneb teie mobiilse seadme kaamera, et saaksite kviitungist foto jäädvustada. Kui foto on tehtud, valige selle aktsepteerimiseks nupp **OK**.
-    - Kui valisite suvandi **Vali pilt**, valige loendist pilt.
+    - <span data-ttu-id="4cffa-198">Kui valisite suvandi **Tee foto**, avaneb teie mobiilse seadme kaamera, et saaksite kviitungist foto jäädvustada.</span><span class="sxs-lookup"><span data-stu-id="4cffa-198">If you selected **Take photo**, you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="4cffa-199">Kui foto on tehtud, valige selle aktsepteerimiseks nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-199">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="4cffa-200">Kui valisite suvandi **Vali pilt**, valige loendist pilt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-200">If you selected **Choose image**, select an image in the list.</span></span>
 
-10. Valige suvand **Valmis**.
+10. <span data-ttu-id="4cffa-201">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-201">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Kuluaruande kinnitamine, kasutades mobiilset tööruumi Kulude haldamine (kui kasutate 2017. aasta juulivärskendust)
-1. Avage oma mobiilses seadmes tööruum **Kulude haldamine**.
-2. **Kulu kinnitamised** kuvab teile kinnitamiseks määratud kuluaruannete arvu. Arvu värskendatakse umbes iga 30 minuti järel. Valige suvand **Kulu kinnitamised**.
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="4cffa-202">Kuluaruande kinnitamine, kasutades mobiilset tööruumi Kulude haldamine (kui kasutate 2017. aasta juulivärskendust)</span><span class="sxs-lookup"><span data-stu-id="4cffa-202">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="4cffa-203">Avage oma mobiilses seadmes tööruum **Kulude haldamine**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-203">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="4cffa-204">**Kulu kinnitamised** kuvab teile kinnitamiseks määratud kuluaruannete arvu.</span><span class="sxs-lookup"><span data-stu-id="4cffa-204">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="4cffa-205">Arvu värskendatakse umbes iga 30 minuti järel.</span><span class="sxs-lookup"><span data-stu-id="4cffa-205">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="4cffa-206">Valige suvand **Kulu kinnitamised**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-206">Select **Expense approvals**.</span></span>
 
-    Kuvatakse teile kinnitamiseks määratud kuluaruannete loend.
+    <span data-ttu-id="4cffa-207">Kuvatakse teile kinnitamiseks määratud kuluaruannete loend.</span><span class="sxs-lookup"><span data-stu-id="4cffa-207">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Valige kuluaruanne, mille kulude üksikasju soovite vaadata.
-4. Valige kulu, mille üksikasju soovite vaadata. Kulu puhul kuvatav teave hõlmab kõiki kviitungite, külaliste ja täpsustuste andmeid.
-5. Naaske lehele **Kuluaruanne** ja valige, kas kuluaruanne kinnitada või tagasi lükata.
-6. Soovi korral sisestage kinnitustegevuse kohta kommentaarid.
-7. Valige suvand **Valmis**.
+3. <span data-ttu-id="4cffa-208">Valige kuluaruanne, mille kulude üksikasju soovite vaadata.</span><span class="sxs-lookup"><span data-stu-id="4cffa-208">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="4cffa-209">Valige kulu, mille üksikasju soovite vaadata.</span><span class="sxs-lookup"><span data-stu-id="4cffa-209">Select an expense to view the details for it.</span></span> <span data-ttu-id="4cffa-210">Kulu puhul kuvatav teave hõlmab kõiki kviitungite, külaliste ja täpsustuste andmeid.</span><span class="sxs-lookup"><span data-stu-id="4cffa-210">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="4cffa-211">Naaske lehele **Kuluaruanne** ja valige, kas kuluaruanne kinnitada või tagasi lükata.</span><span class="sxs-lookup"><span data-stu-id="4cffa-211">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="4cffa-212">Soovi korral sisestage kinnitustegevuse kohta kommentaarid.</span><span class="sxs-lookup"><span data-stu-id="4cffa-212">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="4cffa-213">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-213">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Uue kuluaruande loomine ja kinnitamiseks esitamine, kasutades mobiilset tööruumi Kulude haldamine (kui kasutate 2017. aasta juulivärskendust)
-1. Avage oma mobiilses seadmes tööruum **Kulude haldamine**.
-2. Valige suvand **Kulukanne**.
-3. Valige **Uusaruanne** või valige loendist olemasolev kuluaruanne.
-4. Sisestage uue kuluaruande eesmärk ja muu saadaolev lisateave. See teave erineb olenevalt sellest, kuidas on kulude haldamine teie ettevõtte puhul konfigureeritud.
-5. Valige suvand **Valmis**.
-6. Olemasolevate kulude, nagu krediitkaardikanded, lisamiseks kuluaruandesse valige käsk **Manusta**.
-7. Valige loendist üks või mitu kulu.
-8. Valige suvand **Valmis**.
-9. Kuluaruandesse uue kulu lisamiseks valige suvand **Uus kulu**.
-10. Valige kulu kategooria. Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie kategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.
-11. Valikuline: saate sisestada kaupmehe kulu.
-12. Sisestage kulu kande kuupäev.
-13. Sisestage kulu summa.
-14. Saate valida kulu valuuta. Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie valuutat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida valuuta järgi või lülituda nime järgi otsingule.
-15. Valige suvand **Valmis**.
-16. Kulu üksikasjade lisamiseks valige **Üksikasjade lisamine**. Saadaolevad väljad sõltuvad teie ettevõtte kuluhalduse konfiguratsioonist.
-17. Kui ettevõtte poliitika nõuab kulu puhul kviitungit, valige suvand **Kviitungid** ja seejärel toimige järgmiselt.
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="4cffa-214">Uue kuluaruande loomine ja kinnitamiseks esitamine, kasutades mobiilset tööruumi Kulude haldamine (kui kasutate 2017. aasta juulivärskendust)</span><span class="sxs-lookup"><span data-stu-id="4cffa-214">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="4cffa-215">Avage oma mobiilses seadmes tööruum **Kulude haldamine**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-215">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="4cffa-216">Valige suvand **Kulukanne**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-216">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="4cffa-217">Valige **Uusaruanne** või valige loendist olemasolev kuluaruanne.</span><span class="sxs-lookup"><span data-stu-id="4cffa-217">Select **New report**, or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="4cffa-218">Sisestage uue kuluaruande eesmärk ja muu saadaolev lisateave.</span><span class="sxs-lookup"><span data-stu-id="4cffa-218">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="4cffa-219">See teave erineb olenevalt sellest, kuidas on kulude haldamine teie ettevõtte puhul konfigureeritud.</span><span class="sxs-lookup"><span data-stu-id="4cffa-219">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="4cffa-220">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-220">Select **Done**.</span></span>
+6. <span data-ttu-id="4cffa-221">Olemasolevate kulude, nagu krediitkaardikanded, lisamiseks kuluaruandesse valige käsk **Manusta**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-221">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="4cffa-222">Valige loendist üks või mitu kulu.</span><span class="sxs-lookup"><span data-stu-id="4cffa-222">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="4cffa-223">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-223">Select **Done**.</span></span>
+9. <span data-ttu-id="4cffa-224">Kuluaruandesse uue kulu lisamiseks valige suvand **Uus kulu**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-224">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="4cffa-225">Valige kulu kategooria.</span><span class="sxs-lookup"><span data-stu-id="4cffa-225">Select the category for the expense.</span></span> <span data-ttu-id="4cffa-226">Näete loendit kulukategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-226">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="4cffa-227">Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-227">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="4cffa-228">Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="4cffa-228">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="4cffa-229">Kui teie kategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-229">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="4cffa-230">Saate otsida kulukategooria järgi või lülituda kulutüübi järgi otsingule.</span><span class="sxs-lookup"><span data-stu-id="4cffa-230">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="4cffa-231">Valikuline: saate sisestada kaupmehe kulu.</span><span class="sxs-lookup"><span data-stu-id="4cffa-231">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="4cffa-232">Sisestage kulu kande kuupäev.</span><span class="sxs-lookup"><span data-stu-id="4cffa-232">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="4cffa-233">Sisestage kulu summa.</span><span class="sxs-lookup"><span data-stu-id="4cffa-233">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="4cffa-234">Saate valida kulu valuuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-234">Select the currency of the expense.</span></span> <span data-ttu-id="4cffa-235">Näete loendit valuutakoodidest, mis on laaditud teie rakendusse ühenduseta kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-235">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="4cffa-236">Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda arvu muuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-236">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="4cffa-237">Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="4cffa-237">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="4cffa-238">Kui teie valuutat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-238">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="4cffa-239">Saate otsida valuuta järgi või lülituda nime järgi otsingule.</span><span class="sxs-lookup"><span data-stu-id="4cffa-239">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="4cffa-240">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-240">Select **Done**.</span></span>
+16. <span data-ttu-id="4cffa-241">Kulu üksikasjade lisamiseks valige **Üksikasjade lisamine**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-241">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="4cffa-242">Saadaolevad väljad sõltuvad teie ettevõtte kuluhalduse konfiguratsioonist.</span><span class="sxs-lookup"><span data-stu-id="4cffa-242">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="4cffa-243">Kui ettevõtte poliitika nõuab kulu puhul kviitungit, valige suvand **Kviitungid** ja seejärel toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-243">If company policy requires a receipt for the expense, select **Receipts**, and then follow these steps:</span></span>
 
-    1. Valige suvand **Salvesta kviitung** või **Manusta kviitung**.
-    2. Järgige üht neist sammudest.
+    1. <span data-ttu-id="4cffa-244">Valige suvand **Salvesta kviitung** või **Manusta kviitung**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-244">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="4cffa-245">Järgige üht neist sammudest.</span><span class="sxs-lookup"><span data-stu-id="4cffa-245">Follow one of these steps:</span></span>
 
-        - Kui valisite suvandi **Salvesta kviitung**, toimige järgmiselt.
+        - <span data-ttu-id="4cffa-246">Kui valisite suvandi **Salvesta kviitung**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-246">If you selected **Capture receipt**, follow these steps:</span></span>
 
-            1. Valige suvand **Tee foto** või **Vali pilt**.
-            2. Järgige üht neist sammudest.
+            1. <span data-ttu-id="4cffa-247">Valige suvand **Tee foto** või **Vali pilt**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-247">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="4cffa-248">Järgige üht neist sammudest.</span><span class="sxs-lookup"><span data-stu-id="4cffa-248">Follow one of these steps:</span></span>
 
-                - Kui valisite suvandi **Tee foto**, toimige järgmiselt.
+                - <span data-ttu-id="4cffa-249">Kui valisite suvandi **Tee foto**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-249">If you selected **Take photo**, follow these steps:</span></span>
 
-                    1. Avaneb teie mobiilse seadme kaamera, et saaksite kviitungist foto jäädvustada. Kui foto on tehtud, valige selle aktsepteerimiseks nupp **OK**.
-                    2. Valikuline: saate sisestada fotole pealkirja ja märkused.
+                    1. <span data-ttu-id="4cffa-250">Avaneb teie mobiilse seadme kaamera, et saaksite kviitungist foto jäädvustada.</span><span class="sxs-lookup"><span data-stu-id="4cffa-250">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="4cffa-251">Kui foto on tehtud, valige selle aktsepteerimiseks nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-251">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="4cffa-252">Valikuline: saate sisestada fotole pealkirja ja märkused.</span><span class="sxs-lookup"><span data-stu-id="4cffa-252">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Kui valisite suvandi **Vali pilt**, toimige järgmiselt.
+                - <span data-ttu-id="4cffa-253">Kui valisite suvandi **Vali pilt**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-253">If you selected **Choose image**, follow these steps:</span></span>
 
-                    1. Valige loendist pilt.
-                    2. Valikuline: saate sisestada pildile pealkirja ja märkused.
+                    1. <span data-ttu-id="4cffa-254">Valige loendist pilt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-254">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="4cffa-255">Valikuline: saate sisestada pildile pealkirja ja märkused.</span><span class="sxs-lookup"><span data-stu-id="4cffa-255">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Valige suvand **Valmis**.
+            3.  <span data-ttu-id="4cffa-256">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-256">Select **Done**.</span></span>
 
-        - Kui valisite suvandi **Manusta kviitung**, toimige järgmiselt.
+        - <span data-ttu-id="4cffa-257">Kui valisite suvandi **Manusta kviitung**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-257">If you selected **Attach receipt**, follow these steps:</span></span>
 
-            1.  Valige loendist üks või mitu pilti.
-            2.  Valige suvand **Valmis**.
+            1.  <span data-ttu-id="4cffa-258">Valige loendist üks või mitu pilti.</span><span class="sxs-lookup"><span data-stu-id="4cffa-258">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="4cffa-259">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-259">Select **Done**.</span></span>
 
-    3. Valige kulu üksikasjade juurde naasmiseks nupp **Tagasi**.
+    3. <span data-ttu-id="4cffa-260">Valige kulu üksikasjade juurde naasmiseks nupp **Tagasi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-260">Select the **Back** button to return to the expense details.</span></span>
 
-18. Kui ettevõtte poliitika nõuab kulu puhul külaliste märkimist, valige suvand **Külalised** ja seejärel toimige järgmiselt.
+18. <span data-ttu-id="4cffa-261">Kui ettevõtte poliitika nõuab kulu puhul külaliste märkimist, valige suvand **Külalised** ja seejärel toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-261">If company policy requires guests for the expense, select **Guests**, and then follow these steps:</span></span>
 
-    1. Valige suvand **Külaline**, **Eelmised külalised** või **Kaastöötajad**.
-    2. Järgige üht neist sammudest.
+    1. <span data-ttu-id="4cffa-262">Valige suvand **Külaline**, **Eelmised külalised** või **Kaastöötajad**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-262">Select **Guest**, **Previous guests**, or **Coworkers**.</span></span>
+    2. <span data-ttu-id="4cffa-263">Järgige üht neist sammudest.</span><span class="sxs-lookup"><span data-stu-id="4cffa-263">Follow one of these steps:</span></span>
 
-        - Kui valisite suvandi **Külaline**, toimige järgmiselt.
+        - <span data-ttu-id="4cffa-264">Kui valisite suvandi **Külaline**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-264">If you selected **Guest**, follow these steps:</span></span>
 
-            1. Sisestage külalise nimi.
-            2. Valikuline: sisestage külalise organisatsioon ja/või riik.
-            3. Valikuline: sisestage külalise ametinimetus.
-            4. Valige suvand **Valmis**.
+            1. <span data-ttu-id="4cffa-265">Sisestage külalise nimi.</span><span class="sxs-lookup"><span data-stu-id="4cffa-265">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="4cffa-266">Valikuline: sisestage külalise organisatsioon ja/või riik.</span><span class="sxs-lookup"><span data-stu-id="4cffa-266">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="4cffa-267">Valikuline: sisestage külalise ametinimetus.</span><span class="sxs-lookup"><span data-stu-id="4cffa-267">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="4cffa-268">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-268">Select **Done**.</span></span>
 
-        - Kui valisite suvandi **Eelmised külalised**, toimige järgmiselt.
+        - <span data-ttu-id="4cffa-269">Kui valisite suvandi **Eelmised külalised**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-269">If you selected **Previous guests**, follow these steps:</span></span>
 
-            1. Valige loendist üks või mitu eelmist külalist. Kuvatakse loend eelmistest külalistest, kelle olete lisanud eelmistesse kuluaruannetesse, mis on laaditud teie rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie eelmist külalist pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida nime järgi või lülituda otsingule organisatsiooni, riigi või ametinimetuse järgi.
-            2. Valige suvand **Valmis**.
+            1. <span data-ttu-id="4cffa-270">Valige loendist üks või mitu eelmist külalist.</span><span class="sxs-lookup"><span data-stu-id="4cffa-270">Select one or more previous guests in the list.</span></span> <span data-ttu-id="4cffa-271">Kuvatakse loend eelmistest külalistest, kelle olete lisanud eelmistesse kuluaruannetesse, mis on laaditud teie rakendusse võrguühenduseta kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-271">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="4cffa-272">Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-272">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="4cffa-273">Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="4cffa-273">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="4cffa-274">Kui teie eelmist külalist pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-274">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="4cffa-275">Saate otsida nime järgi või lülituda otsingule organisatsiooni, riigi või ametinimetuse järgi.</span><span class="sxs-lookup"><span data-stu-id="4cffa-275">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="4cffa-276">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-276">Select **Done**.</span></span>
 
-        - Kui valisite suvandi **Kaastöötajad**, toimige järgmiselt.
+        - <span data-ttu-id="4cffa-277">Kui valisite suvandi **Kaastöötajad**, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-277">If you selected **Coworkers**, follow these steps:</span></span>
 
-            1. Valige loendist üks või mitu kaastöötajat. Näete loendit kaastöötajatest, kes on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie kaastöötajat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Saate otsida nime järgi või lülituda otsingule ettevõtte või ametinimetuse järgi.
-            2. Valige suvand **Valmis**.
+            1. <span data-ttu-id="4cffa-278">Valige loendist üks või mitu kaastöötajat.</span><span class="sxs-lookup"><span data-stu-id="4cffa-278">Select one or more coworkers in the list.</span></span> <span data-ttu-id="4cffa-279">Näete loendit kaastöötajatest, kes on laaditud teie rakendusse ühenduseta kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-279">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="4cffa-280">Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-280">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="4cffa-281">Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="4cffa-281">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="4cffa-282">Kui teie kaastöötajat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-282">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="4cffa-283">Saate otsida nime järgi või lülituda otsingule ettevõtte või ametinimetuse järgi.</span><span class="sxs-lookup"><span data-stu-id="4cffa-283">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="4cffa-284">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-284">Select **Done**.</span></span>
 
-    3. Valige kulu üksikasjade juurde naasmiseks nupp **Tagasi**.
+    3. <span data-ttu-id="4cffa-285">Valige kulu üksikasjade juurde naasmiseks nupp **Tagasi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-285">Select the **Back** button to return to the expense details.</span></span>
 
-19. Kui ettevõtte poliitika nõuab kulu täpsustamist, valige suvand **Täpsusta** ja seejärel toimige järgmiselt.
+19. <span data-ttu-id="4cffa-286">Kui ettevõtte poliitika nõuab kulu täpsustamist, valige suvand **Täpsusta** ja seejärel toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="4cffa-286">If company policy requires that the expense be itemized, select **Itemize**, and then follow these steps:</span></span>
 
-    1. Valige täpsustamiseks alguskuupäev.
-    2. Valige suvand **Lisa täpsustus**.
-    3. Valige kulu täpsustuse alamkategooria. Näete loendit kulu alamkategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks. Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta. Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kui teie alamkategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**. Tehke otsing kulu alamkategooria nime järgi.
-    4. Sisestage täpsustuseks kande summa.
-    5. Vajaduse korral redigeerige kande kuupäeva.
-    6. Valige suvand **Valmis**.
-    7. Korrake eelnevaid etappe seni, kuni olete valitud kuupäeva kohta kõik täpsustused lisanud.
-    8. Järgmiste päevade puhul saate valida käsu **Kopeeri järgmisele päevale**, et kopeerida täpsustused järgmisele päevale. Teise võimalusena saate valida täpsustamiseks kuupäeva ja seejärel lisada täpsustused samamoodi, nagu esimese kuupäeva puhul.
-    9. Kui olete kulu täpsustamise lõpetanud, valige kulu üksikasjade juurde naasmiseks nupp **Tagasi**.
+    1. <span data-ttu-id="4cffa-287">Valige täpsustamiseks alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="4cffa-287">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="4cffa-288">Valige suvand **Lisa täpsustus**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-288">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="4cffa-289">Valige kulu täpsustuse alamkategooria.</span><span class="sxs-lookup"><span data-stu-id="4cffa-289">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="4cffa-290">Näete loendit kulu alamkategooriatest, mis on laaditud teie rakendusse ühenduseta kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="4cffa-290">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="4cffa-291">Vaikimisi laaditakse 50 kaupa, kuid arendaja saab seda arvu muuta.</span><span class="sxs-lookup"><span data-stu-id="4cffa-291">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="4cffa-292">Lisateabe saamiseks peaksite arendajad vaatama teemat [Mobiiliplatvorm](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="4cffa-292">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="4cffa-293">Kui teie alamkategooriat pole loendis, valige veebiotsingu tegemiseks käsk **Otsi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-293">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="4cffa-294">Tehke otsing kulu alamkategooria nime järgi.</span><span class="sxs-lookup"><span data-stu-id="4cffa-294">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="4cffa-295">Sisestage täpsustuseks kande summa.</span><span class="sxs-lookup"><span data-stu-id="4cffa-295">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="4cffa-296">Vajaduse korral redigeerige kande kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="4cffa-296">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="4cffa-297">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-297">Select **Done**.</span></span>
+    7. <span data-ttu-id="4cffa-298">Korrake eelnevaid etappe seni, kuni olete valitud kuupäeva kohta kõik täpsustused lisanud.</span><span class="sxs-lookup"><span data-stu-id="4cffa-298">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="4cffa-299">Järgmiste päevade puhul saate valida käsu **Kopeeri järgmisele päevale**, et kopeerida täpsustused järgmisele päevale.</span><span class="sxs-lookup"><span data-stu-id="4cffa-299">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="4cffa-300">Teise võimalusena saate valida täpsustamiseks kuupäeva ja seejärel lisada täpsustused samamoodi, nagu esimese kuupäeva puhul.</span><span class="sxs-lookup"><span data-stu-id="4cffa-300">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="4cffa-301">Kui olete kulu täpsustamise lõpetanud, valige kulu üksikasjade juurde naasmiseks nupp **Tagasi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-301">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Valige lehele **Kuluaruanne** naasmiseks nupp **Tagasi**.
-21. Korrake eelnevaid etappe, kuni olete kõik kulud lisanud.
-22. Valige käsk **Esita**.
-23. Soovi korral sisestage kinnitajale kommentaarid.
-24. Valige suvand **Valmis**.
+20. <span data-ttu-id="4cffa-302">Valige lehele **Kuluaruanne** naasmiseks nupp **Tagasi**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-302">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="4cffa-303">Korrake eelnevaid etappe, kuni olete kõik kulud lisanud.</span><span class="sxs-lookup"><span data-stu-id="4cffa-303">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="4cffa-304">Valige käsk **Esita**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-304">Select **Submit**.</span></span>
+23. <span data-ttu-id="4cffa-305">Soovi korral sisestage kinnitajale kommentaarid.</span><span class="sxs-lookup"><span data-stu-id="4cffa-305">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="4cffa-306">Valige suvand **Valmis**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-306">Select **Done**.</span></span>
 

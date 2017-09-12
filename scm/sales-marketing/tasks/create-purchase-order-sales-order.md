@@ -16,62 +16,62 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5c569b6e58507e3b7707e4a56b22d2d60660f144
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 412a8c7acca06fc1be073019f91144e2a3f1c94b
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-from-a-sales-order"></a>Ostutellimuse loomine müügitellimuselt
+# <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="bcd2f-103">Ostutellimuse loomine müügitellimuselt</span><span class="sxs-lookup"><span data-stu-id="bcd2f-103">Create a purchase order from a sales order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas koostada müügitellimusel põhinevat ostutellimust. Tootekogused ostutellimusel määratakse siis nii, et need täidaksid algse müügitellimuse nõudluse. Selline müüginõudluse rahuldamine on alternatiiv põhjalikumale ja optimeeritud meetodile nimega jaotusnõuete plaanimine. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega.
+<span data-ttu-id="bcd2f-104">See protseduur näitab, kuidas koostada müügitellimusel põhinevat ostutellimust.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-104">This procedure shows you how to create a purchase order that is based on a sales order.</span></span> <span data-ttu-id="bcd2f-105">Tootekogused ostutellimusel määratakse siis nii, et need täidaksid algse müügitellimuse nõudluse.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-105">The product's quantities on the purchase order are then designated to fulfill the demand of the originating sales order.</span></span> <span data-ttu-id="bcd2f-106">Selline müüginõudluse rahuldamine on alternatiiv põhjalikumale ja optimeeritud meetodile nimega jaotusnõuete plaanimine.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-106">Fulfilling sales demand this way is an alternative to a more comprehensive and optimized method of Distribution Requirements Planning.</span></span> <span data-ttu-id="bcd2f-107">Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-107">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="create-a-purchase-order-from-a-sales-order"></a>Ostutellimuse loomine müügitellimuselt
-1. Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Kliendi konto otsingu avamiseks ripploendi nuppu.
-4. Otsige loendist ja valige soovitud kirje.
-5. Klõpsake nuppu OK.
-6. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-7. Otsige loendist ja valige soovitud kirje.
-    * USMF-i kasutamisel võite valida väärtuse D0001.  
-8. Sisestage arv väljale Kogus.
-9. Klõpsake käsku Lisa rida.
-10. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-11. Otsige loendist ja valige soovitud kirje.
-    * USMF-i kasutamisel võite valida väärtuse T0020.  
-12. Klõpsake loendis valitud real olevat linki.
-13. Sisestage arv väljale Kogus.
-14. Klõpsake nuppu Salvesta.
-15. Klõpsake toimingupaanil valikut Müügitellimus.
-16. Klõpsake valikut Ostutellimus.
-    * Lehel Ostutellimuse loomine on kõik avatud müügitellimuse read, mis on müügitellimuselt kopeeritud. Saate vaadata tellimuse üksikasju ja vajaduse korral muuta valitud üksikasju nagu ostu kogus ja hinnatingimused, enne ostude loomist.  
-17. Valige suvand Lisa kõik.
-    * Kui soovite luua ostutellimused ainult müügitellimuse ridade alamkogumile, valige need eraldi.  
-    * Hankija konto väljal võib juba olla või mitte olla hankija number. Kui tootele on (seotud kauba laovarudes) seadistatud vaikehankija, kopeeritakse reale see hankija. Vastasel korral tuleb hankija sisestada käsitsi.  Selles juhendis, olenemata sellest, kas väljal Hankija konto on juba väärtus või mitte, juhendavad järgmised toimingud teid valima uut hankijat, kes on iga rea puhul erinev.  
-18. Klõpsake väljal Hankija konto otsingu avamiseks ripploendi nuppu.
-19. Otsige loendist ja valige soovitud kirje.
-20. Klõpsake loendis valitud real olevat linki.
-21. Valige teine tellimuserida.
-22. Klõpsake väljal Hankija konto otsingu avamiseks ripploendi nuppu.
-23. Otsige loendist ja valige soovitud kirje.
-24. Klõpsake loendis valitud real olevat linki.
-25. Klõpsake suvandit Kinnita.
-26. Klõpsake nuppu OK.
-    * Sõnum teavitab teid, et loodud on vähemalt üks ostutellimus. Süsteem koostab eraldi ostutellimuse iga hankija puhul, kelle müügitellimuse ridadel määrasite. See tähendab, et kui sama hankija peab tarnima mitu müügitellimuse rida, koostatakse üks mitme reaga ostutellimus.  
+## <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="bcd2f-108">Ostutellimuse loomine müügitellimuselt</span><span class="sxs-lookup"><span data-stu-id="bcd2f-108">Create a purchase order from a sales order</span></span>
+1. <span data-ttu-id="bcd2f-109">Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-109">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="bcd2f-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-110">Click New.</span></span>
+3. <span data-ttu-id="bcd2f-111">Klõpsake väljal Kliendi konto otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="bcd2f-112">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-112">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="bcd2f-113">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-113">Click OK.</span></span>
+6. <span data-ttu-id="bcd2f-114">Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="bcd2f-115">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-115">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="bcd2f-116">USMF-i kasutamisel võite valida väärtuse D0001.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-116">If you're using USMF, you could select D0001.</span></span>  
+8. <span data-ttu-id="bcd2f-117">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-117">In the Quantity field, enter a number.</span></span>
+9. <span data-ttu-id="bcd2f-118">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-118">Click Add line.</span></span>
+10. <span data-ttu-id="bcd2f-119">Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="bcd2f-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="bcd2f-121">USMF-i kasutamisel võite valida väärtuse T0020.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-121">If you're using USMF, you could select T0020.</span></span>  
+12. <span data-ttu-id="bcd2f-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-122">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="bcd2f-123">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-123">In the Quantity field, enter a number.</span></span>
+14. <span data-ttu-id="bcd2f-124">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-124">Click Save.</span></span>
+15. <span data-ttu-id="bcd2f-125">Klõpsake toimingupaanil valikut Müügitellimus.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-125">On the Action Pane, click Sales order.</span></span>
+16. <span data-ttu-id="bcd2f-126">Klõpsake valikut Ostutellimus.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-126">Click Purchase order.</span></span>
+    * <span data-ttu-id="bcd2f-127">Lehel Ostutellimuse loomine on kõik avatud müügitellimuse read, mis on müügitellimuselt kopeeritud.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-127">The Create purchase order page lists all the open sales order lines which have been copied from the sales order.</span></span> <span data-ttu-id="bcd2f-128">Saate vaadata tellimuse üksikasju ja vajaduse korral muuta valitud üksikasju nagu ostu kogus ja hinnatingimused, enne ostude loomist.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-128">You can review the order details, and if required, you can modify selected details such purchase quantity and pricing terms, before you create the purchases.</span></span>  
+17. <span data-ttu-id="bcd2f-129">Valige suvand Lisa kõik.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-129">Select the Include all option.</span></span>
+    * <span data-ttu-id="bcd2f-130">Kui soovite luua ostutellimused ainult müügitellimuse ridade alamkogumile, valige need eraldi.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-130">If you want to generate purchase orders for only a subset of the sales order lines, select these individually.</span></span>  
+    * <span data-ttu-id="bcd2f-131">Hankija konto väljal võib juba olla või mitte olla hankija number.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-131">The Vendor account field may or may not already be populated with a vendor number.</span></span> <span data-ttu-id="bcd2f-132">Kui tootele on (seotud kauba laovarudes) seadistatud vaikehankija, kopeeritakse reale see hankija.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-132">If the default vendor is set up for the product (on the associated Item coverage) then this vendor will be copied  to the line.</span></span> <span data-ttu-id="bcd2f-133">Vastasel korral tuleb hankija sisestada käsitsi.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-133">Otherwise, you must enter a vendor manually.</span></span>  <span data-ttu-id="bcd2f-134">Selles juhendis, olenemata sellest, kas väljal Hankija konto on juba väärtus või mitte, juhendavad järgmised toimingud teid valima uut hankijat, kes on iga rea puhul erinev.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-134">In this guide, regardless of whether the Vendor account field already contains a value or not, the following steps instruct you to select a new vendor which is different for each line.</span></span>  
+18. <span data-ttu-id="bcd2f-135">Klõpsake väljal Hankija konto otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-135">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="bcd2f-136">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-136">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="bcd2f-137">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-137">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="bcd2f-138">Valige teine tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-138">Select the second order line.</span></span>
+22. <span data-ttu-id="bcd2f-139">Klõpsake väljal Hankija konto otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-139">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="bcd2f-140">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-140">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="bcd2f-141">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-141">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="bcd2f-142">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-142">Click Validate.</span></span>
+26. <span data-ttu-id="bcd2f-143">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-143">Click OK.</span></span>
+    * <span data-ttu-id="bcd2f-144">Sõnum teavitab teid, et loodud on vähemalt üks ostutellimus.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-144">The message informs you that one or more purchase orders have been created.</span></span> <span data-ttu-id="bcd2f-145">Süsteem koostab eraldi ostutellimuse iga hankija puhul, kelle müügitellimuse ridadel määrasite.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-145">The system generates a separate purchase order for each vendor that you specified for the sales order lines.</span></span> <span data-ttu-id="bcd2f-146">See tähendab, et kui sama hankija peab tarnima mitu müügitellimuse rida, koostatakse üks mitme reaga ostutellimus.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-146">This means that if several sales order lines are to be supplied by the same vendor, a single purchase order with multiple lines will be generated.</span></span>  
 
-## <a name="review-purchase-orders-created-from-sales-orders"></a>Vaadake müügitellimustest loodud ostutellimused üle.
-1. Klõpsake toimingupaanil valikut Üldine.
-2. Klõpsake valikut Seotud tellimused.
-    * Lehel Seotud tellimused on kõik tellimused, mis müügitellimusest loodi. Selles näites on kaks ostutellimust, mis on koostatud vastavalt kahele hankijale.  
-3. Klõpsake, et järgida linki väljal Ostutellimus.
-    * Iga ostutellimuse rida on seotud müügitellimuse reaga, mis viis ostuni. Seos müügitellimusega on näidatud vahekaardil Toode kiirkaardil Rea üksikasjad väljadel Viite tüüp, Viitenumber ja Viitepartii.  
-4. Laiendage või ahendage jaotist Rea üksikasjad.
-5. Klõpsake vahekaarti Toode.
-    * Viitepartii tagab, et selle ostu kulud kantakse manustatud müügitellimusele.  
-    * Saate liikuda algse müügitellimuse juurde, avades lingi väljal Viitenumber.  
+## <a name="review-purchase-orders-created-from-sales-orders"></a><span data-ttu-id="bcd2f-147">Vaadake müügitellimustest loodud ostutellimused üle.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-147">Review purchase orders created from sales orders</span></span>
+1. <span data-ttu-id="bcd2f-148">Klõpsake toimingupaanil valikut Üldine.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-148">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="bcd2f-149">Klõpsake valikut Seotud tellimused.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-149">Click Related orders.</span></span>
+    * <span data-ttu-id="bcd2f-150">Lehel Seotud tellimused on kõik tellimused, mis müügitellimusest loodi.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-150">The Related orders page lists all the orders that were created from the sales order.</span></span> <span data-ttu-id="bcd2f-151">Selles näites on kaks ostutellimust, mis on koostatud vastavalt kahele hankijale.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-151">In this example, there are two purchase orders generated for two different vendors respectively.</span></span>  
+3. <span data-ttu-id="bcd2f-152">Klõpsake, et järgida linki väljal Ostutellimus.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-152">Click to follow the link in the Purchase order field.</span></span>
+    * <span data-ttu-id="bcd2f-153">Iga ostutellimuse rida on seotud müügitellimuse reaga, mis viis ostuni.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-153">Each purchase order line is associated with the sales order line that led to the purchase.</span></span> <span data-ttu-id="bcd2f-154">Seos müügitellimusega on näidatud vahekaardil Toode kiirkaardil Rea üksikasjad väljadel Viite tüüp, Viitenumber ja Viitepartii.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-154">The relation to the sales order is indicated on the Product tab in the Line details FastTab, in the Reference type, Reference number, and Reference lot fields.</span></span>  
+4. <span data-ttu-id="bcd2f-155">Laiendage või ahendage jaotist Rea üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-155">Expand or collapse the Line details section.</span></span>
+5. <span data-ttu-id="bcd2f-156">Klõpsake vahekaarti Toode.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-156">Click the Product tab.</span></span>
+    * <span data-ttu-id="bcd2f-157">Viitepartii tagab, et selle ostu kulud kantakse manustatud müügitellimusele.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-157">The Reference lot guarantees that the costs from the current purchase are charged on the attached sales order.</span></span>  
+    * <span data-ttu-id="bcd2f-158">Saate liikuda algse müügitellimuse juurde, avades lingi väljal Viitenumber.</span><span class="sxs-lookup"><span data-stu-id="bcd2f-158">You can navigate to the originating sales order by opening the link in the Reference number field.</span></span>  
 
 

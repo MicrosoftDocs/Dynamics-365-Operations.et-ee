@@ -16,35 +16,35 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3003a0dfa30c981eacfd5a643a1c5e902c2ba45d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Kuluarvestuse pearaamatu andmeallika haldamine
+# <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a><span data-ttu-id="9bb92-103">Kuluarvestuse pearaamatu andmeallika haldamine</span><span class="sxs-lookup"><span data-stu-id="9bb92-103">Manage a data source for the cost accounting ledger</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Selle toimingu abil saate hallata kuluarvestuse pearaamatu andmeallikat. Enne selle ülesande täitmist veenduge, et tutvute ülesandejuhenditega Kuluarvestuse pearaamatu loomine ja Kulu juhtseadmete määratlemine. See salvestis kasutab USP2 demoandmete ettevõtet.
+<span data-ttu-id="9bb92-104">Selle toimingu abil saate hallata kuluarvestuse pearaamatu andmeallikat.</span><span class="sxs-lookup"><span data-stu-id="9bb92-104">Use this procedure to manage the general ledger data source for a cost accounting ledger.</span></span> <span data-ttu-id="9bb92-105">Enne selle ülesande täitmist veenduge, et tutvute ülesandejuhenditega Kuluarvestuse pearaamatu loomine ja Kulu juhtseadmete määratlemine.</span><span class="sxs-lookup"><span data-stu-id="9bb92-105">Before you complete this task, make sure that you play the "Create a cost accounting ledger" and "Define cost control units" task guides.</span></span> <span data-ttu-id="9bb92-106">See salvestis kasutab USP2 demoandmete ettevõtet.</span><span class="sxs-lookup"><span data-stu-id="9bb92-106">This recording uses the USP2 demo data company.</span></span>
 
-1. Avage Kuluarvestus > Pearaamatu häälestamine > Kuluarvestuse pearaamatud.
-2. Otsige loendist ja valige soovitud kirje.
-3. Klõpsake suvandit Tegelikud versioonid.
-4. Klõpsake tegumiribal valikut Haldamine.
-5. Klõpsake suvandit Pearaamat.
-6. Klõpsake valikut Uus.
-7. Sisestage väärtus väljale Nimi.
-8. Sisestage või valige väärtus väljal Andmepakkuja.
-    * Selle näite puhul avage Dynamics 365 for Finance and Operations – Pearaamatu kanded.  
-9. Sisestage või valige väärtus väljal Kuluelemendi dimensioon.
-    * Selles näites valige Kuluelemendid.  
-10. Klõpsake nuppu Salvesta.
-11. Klõpsake suvandit Andmepakkuja konfigureerimine.
-12. Sisestage või valige väärtus väljal Juriidiline isik.
-    * Selles näites valige USP2.  
-13. Klõpsake valikut Uus.
-14. Valige väljal Sisestamiskiht väärtus Praegune.
-15. Klõpsake nuppu OK.
+1. <span data-ttu-id="9bb92-107">Avage Kuluarvestus > Pearaamatu häälestamine > Kuluarvestuse pearaamatud.</span><span class="sxs-lookup"><span data-stu-id="9bb92-107">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="9bb92-108">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="9bb92-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="9bb92-109">Klõpsake suvandit Tegelikud versioonid.</span><span class="sxs-lookup"><span data-stu-id="9bb92-109">Click Actual versions.</span></span>
+4. <span data-ttu-id="9bb92-110">Klõpsake tegumiribal valikut Haldamine.</span><span class="sxs-lookup"><span data-stu-id="9bb92-110">On the Action Pane, click Manage.</span></span>
+5. <span data-ttu-id="9bb92-111">Klõpsake suvandit Pearaamat.</span><span class="sxs-lookup"><span data-stu-id="9bb92-111">Click General ledger.</span></span>
+6. <span data-ttu-id="9bb92-112">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9bb92-112">Click New.</span></span>
+7. <span data-ttu-id="9bb92-113">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="9bb92-113">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="9bb92-114">Sisestage või valige väärtus väljal Andmepakkuja.</span><span class="sxs-lookup"><span data-stu-id="9bb92-114">In the Data provider field, enter or select a value.</span></span>
+    * <span data-ttu-id="9bb92-115">Selle näite puhul avage Dynamics 365 for Finance and Operations – Pearaamatu kanded.</span><span class="sxs-lookup"><span data-stu-id="9bb92-115">For this example, select Dynamics 365 for Finance and Operations - General ledger entries.</span></span>  
+9. <span data-ttu-id="9bb92-116">Sisestage või valige väärtus väljal Kuluelemendi dimensioon.</span><span class="sxs-lookup"><span data-stu-id="9bb92-116">In the Cost element dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="9bb92-117">Selles näites valige Kuluelemendid.</span><span class="sxs-lookup"><span data-stu-id="9bb92-117">For this example, select Cost elements.</span></span>  
+10. <span data-ttu-id="9bb92-118">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9bb92-118">Click Save.</span></span>
+11. <span data-ttu-id="9bb92-119">Klõpsake suvandit Andmepakkuja konfigureerimine.</span><span class="sxs-lookup"><span data-stu-id="9bb92-119">Click Configure data provider.</span></span>
+12. <span data-ttu-id="9bb92-120">Sisestage või valige väärtus väljal Juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="9bb92-120">In the Legal entity field, enter or select a value.</span></span>
+    * <span data-ttu-id="9bb92-121">Selles näites valige USP2.</span><span class="sxs-lookup"><span data-stu-id="9bb92-121">For this example, select USP2.</span></span>  
+13. <span data-ttu-id="9bb92-122">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9bb92-122">Click New.</span></span>
+14. <span data-ttu-id="9bb92-123">Valige väljal Sisestamiskiht väärtus Praegune.</span><span class="sxs-lookup"><span data-stu-id="9bb92-123">In the Posting layer field, select Current.</span></span>
+15. <span data-ttu-id="9bb92-124">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9bb92-124">Click OK.</span></span>
 
 

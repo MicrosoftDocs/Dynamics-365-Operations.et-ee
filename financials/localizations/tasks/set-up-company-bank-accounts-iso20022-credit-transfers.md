@@ -16,39 +16,39 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4e55a4727555f781b6880103abb1a38c5d0d5b78
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1d0eabdfdeb5ed7d0bdb6df87ebdfa0d41e87492
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>Ettevõtte pangakontode seadistamine ISO20022 kreeditkorralduste jaoks
+# <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="56e69-103">Ettevõtte pangakontode seadistamine ISO20022 kreeditkorralduste jaoks</span><span class="sxs-lookup"><span data-stu-id="56e69-103">Set up company bank accounts for ISO20022 credit transfers</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas seadistada ettevõttekohase pangakonto teavet, mis on nõutav maksefaili loomiseks. Saate seadistada teabe, mis on vajalik ISO 20022 kreeditülekande vormingu loomiseks, kuid olenevalt vormingust võib olla vaja muud teavet, nt ettevõtte ID-d või sortimiskoodi. 
+<span data-ttu-id="56e69-104">See protseduur näitab, kuidas seadistada ettevõttekohase pangakonto teavet, mis on nõutav maksefaili loomiseks.</span><span class="sxs-lookup"><span data-stu-id="56e69-104">This procedure shows how to set up company-specific bank account information that is required for payment file generation.</span></span> <span data-ttu-id="56e69-105">Saate seadistada teabe, mis on vajalik ISO 20022 kreeditülekande vormingu loomiseks, kuid olenevalt vormingust võib olla vaja muud teavet, nt ettevõtte ID-d või sortimiskoodi.</span><span class="sxs-lookup"><span data-stu-id="56e69-105">You set up information required to generate ISO 20022 credit transfer format but depending on the format there might be other information required, such as the Company ID or the Sort code.</span></span> 
 
-Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF.
+<span data-ttu-id="56e69-106">Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF.</span><span class="sxs-lookup"><span data-stu-id="56e69-106">The demo data company used to create this procedure is DEMF.</span></span>
 
-See on teine viiest protseduurist, mis illustreerib hankija makseprotsessi, kasutades elektroonilise aruandluse konfiguratsioone. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
+<span data-ttu-id="56e69-107">See on teine viiest protseduurist, mis illustreerib hankija makseprotsessi, kasutades elektroonilise aruandluse konfiguratsioone.</span><span class="sxs-lookup"><span data-stu-id="56e69-107">This is the second procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="56e69-108">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="56e69-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="set-up-iban-and-swift-code"></a>IBAN- ja SWIFT-koodi seadistamine
-1. Avage Sularaha- ja pangahaldus > Pangakontod.
-2. Kasutage kiirfiltrit, et filtrida välja Pangakonto väärtusega DEMF OPER.
-3. Klõpsake pangakonto üksikasjade avamiseks valikut DEMF OPER.
-4. Klõpsake nuppu Redigeeri.
-5. Laiendage jaotist Täiendav identifitseerimine.
-6. Sisestage väljale IBAN väärtus DE89370400440532013000.
-7. Sisestage väljale SWIFT-kood väärtus DEUTDEFF.
-    * Pange tähele, et SWIFT\BIC pole paljude maksevormingute puhul nõutav, kuid soovitatav on see pangakonto jaoks registreerida.  
-8. Klõpsake nuppu Salvesta.
+## <a name="set-up-iban-and-swift-code"></a><span data-ttu-id="56e69-109">IBAN- ja SWIFT-koodi seadistamine</span><span class="sxs-lookup"><span data-stu-id="56e69-109">Set up IBAN and SWIFT code</span></span>
+1. <span data-ttu-id="56e69-110">Avage Sularaha- ja pangahaldus > Pangakontod.</span><span class="sxs-lookup"><span data-stu-id="56e69-110">Go to Cash and bank management > Bank accounts.</span></span>
+2. <span data-ttu-id="56e69-111">Kasutage kiirfiltrit, et filtrida välja Pangakonto väärtusega DEMF OPER.</span><span class="sxs-lookup"><span data-stu-id="56e69-111">Use the Quick Filter to filter on the Bank account field with a value of 'DEMF OPER'.</span></span>
+3. <span data-ttu-id="56e69-112">Klõpsake pangakonto üksikasjade avamiseks valikut DEMF OPER.</span><span class="sxs-lookup"><span data-stu-id="56e69-112">Click DEMF OPER to open bank account details.</span></span>
+4. <span data-ttu-id="56e69-113">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="56e69-113">Click Edit.</span></span>
+5. <span data-ttu-id="56e69-114">Laiendage jaotist Täiendav identifitseerimine.</span><span class="sxs-lookup"><span data-stu-id="56e69-114">Expand the Additional identification section.</span></span>
+6. <span data-ttu-id="56e69-115">Sisestage väljale IBAN väärtus DE89370400440532013000.</span><span class="sxs-lookup"><span data-stu-id="56e69-115">In the IBAN field, type 'DE89370400440532013000'.</span></span>
+7. <span data-ttu-id="56e69-116">Sisestage väljale SWIFT-kood väärtus DEUTDEFF.</span><span class="sxs-lookup"><span data-stu-id="56e69-116">In the SWIFT code field, type 'DEUTDEFF'.</span></span>
+    * <span data-ttu-id="56e69-117">Pange tähele, et SWIFT\BIC pole paljude maksevormingute puhul nõutav, kuid soovitatav on see pangakonto jaoks registreerida.</span><span class="sxs-lookup"><span data-stu-id="56e69-117">Note that SWIFT\BIC is not required for many payment formats, however it is recommended to have it registered for a bank account.</span></span>  
+8. <span data-ttu-id="56e69-118">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="56e69-118">Click Save.</span></span>
 
-## <a name="set-up-bank-account-for-the-legal-entity"></a>Juriidilise isiku pangakonto seadistamine
-1. Avage Organisatsiooni haldus > Organisatsioonid > Juriidilised isikud.
-2. Klõpsake nuppu Redigeeri.
-3. Laiendage jaotist Pangakonto teave.
-4. Sisestage väärtus väljale Pangakonto või valige see.
-5. Klõpsake nuppu Salvesta.
+## <a name="set-up-bank-account-for-the-legal-entity"></a><span data-ttu-id="56e69-119">Juriidilise isiku pangakonto seadistamine</span><span class="sxs-lookup"><span data-stu-id="56e69-119">Set up bank account for the legal entity</span></span>
+1. <span data-ttu-id="56e69-120">Avage Organisatsiooni haldus > Organisatsioonid > Juriidilised isikud.</span><span class="sxs-lookup"><span data-stu-id="56e69-120">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="56e69-121">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="56e69-121">Click Edit.</span></span>
+3. <span data-ttu-id="56e69-122">Laiendage jaotist Pangakonto teave.</span><span class="sxs-lookup"><span data-stu-id="56e69-122">Expand the Bank account information section.</span></span>
+4. <span data-ttu-id="56e69-123">Sisestage väärtus väljale Pangakonto või valige see.</span><span class="sxs-lookup"><span data-stu-id="56e69-123">In the Bank account field, enter or select a value.</span></span>
+5. <span data-ttu-id="56e69-124">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="56e69-124">Click Save.</span></span>
 
 

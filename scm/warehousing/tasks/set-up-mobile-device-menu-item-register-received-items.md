@@ -17,51 +17,51 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 642e2b05c9f9a59f6b47a22f3d92f2f6ae245039
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: de976f6bafbb3d4e2915ab56cdff625877f754f7
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
+# <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a><span data-ttu-id="c1775-103">Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks</span><span class="sxs-lookup"><span data-stu-id="c1775-103">Set up a mobile device menu item to register received items</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesanne keskendub mobiilse seadme menüü-üksuse seadistamisele. Seda menüü-üksust kasutatakse ostutellimuste kaudu tellitud kaupade vastuvõtu registreerimiseks. 
+<span data-ttu-id="c1775-104">See ülesanne keskendub mobiilse seadme menüü-üksuse seadistamisele.</span><span class="sxs-lookup"><span data-stu-id="c1775-104">This task focuses on the setup of a mobile device menu item.</span></span> <span data-ttu-id="c1775-105">Seda menüü-üksust kasutatakse ostutellimuste kaudu tellitud kaupade vastuvõtu registreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="c1775-105">This menu item is used for registration of the receipt of items ordered via purchase orders.</span></span> 
 
-Saate seda juhendit kasutada demoettevõtte USMF andmetega. See protseduur on mõeldud laohaldurile.
+<span data-ttu-id="c1775-106">Saate seda juhendit kasutada demoettevõtte USMF andmetega.</span><span class="sxs-lookup"><span data-stu-id="c1775-106">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="c1775-107">See protseduur on mõeldud laohaldurile.</span><span class="sxs-lookup"><span data-stu-id="c1775-107">This procedure is intended for the warehouse manager.</span></span>
 
 
-## <a name="create-a-mobile-device-menu-item"></a>Mobiilse seadme menüü-üksuse loomine
-1. Avage Laohaldus > Seadistus > Mobiilne seade > Mobiilse seadme menüü-üksused.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Menüü-üksuse nimi.
-    * See on selle mobiilse seadme menüü-üksuse ainuidentifikaator. Näiteks võite sisestada teksti „Minu ostutellimuse registreerimine”.  
-4. Sisestage väärtus väljale Pealkiri.
-    * See on pealkiri, mis kuvatakse kasutajale mobiilses seadmes. Näiteks võite sisestada teksti „Ostutellimuse registreerimine”.  
-5. Valige väljal Režiim suvand Töö.
-    * Ostutellimuse rea jaoks vastu võetud vaba kaubavaru koguste registreerimine loob töö kaupade teisaldamiseks vastuvõtualast varudesse. Tööd ei looda enne, kui kaubad on registreeritud.  Seetõttu jätke suvandi Kasuta olemasolevat tööd sätteks Ei.  
-6. Laiendage või ahendage jaotist Üldine.
-7. Valige väljal Töö loomise protsess suvand Ostutellimuse kauba vastuvõtmine.
-    * Ostutellimuse rida peab olema üheselt identifitseeritud, enne kui vaba kaubavaru saab laos registreerida. Selles stsenaariumis registreerib mobiilne seade ostutellimuse numbri ja kaubakoodi ning see võimaldab süsteemil tuvastada ostutellimuse rea. Luuakse paigutamistöö ja selle saab võtta teine töötaja.    Teie valitud töö loomismeetod määratleb, millised väljad on kiirkaardil Üldine saadaval.  
-    * Kui valite suvandi Kasuta vaikeandmeid, lubatakse nupp Vaikeandmed. siin saate valida väljad nende andmete kuvamiseks, mida töötajal enamasti igapäevases töös vaja läheb, nii et need väärtused kuvatakse mobiilses seadmes.  
-    * Litsentsiplaadi grupeerimise parameeter toimib koos vastuvõetavale kaubale määratud ühiku seeriagrupiga. Saate määrata, kas vähema või rohkema kui ühe kaubaaluse sissetulekud rühmitatakse ühele litsentsiplaadile või luuakse iga ühiku kohta eraldi litsentsiplaat.  
-    * Kui valite suvandi Loo litsentsiplaat, luuakse numbriseeria valiku põhjal kordumatu identifitseerimisnumber.   
-    * Saate valida malli, mida kasutatakse töö loomisel. Näiteks kui registreerite ostutellimuse jaoks kauba, luuakse töömalli alusel paigutamistöö. Kui te siin töömalli ei vali, määrab süsteem malli mallidega seostatud päringukriteeriumite alusel.  
-    * Kui mobiilses seadmes kuvatakse likvideerimiskoodid, saavad töötajad hinnata kaupade olekut või kvaliteeti ja valida sobiva koodi. Likvideerimiskoodi reeglid määratlevad, kas kaup on saadaval teiste laoprotsesside jaoks. Reeglid määratlevad ka selle, millist asukohakorraldust loodud töö jaoks kasutatakse.   
-    * Kui valite suvandi Partii likvideerimiskoodid, saavad töötajad hinnata partii olekut või kvaliteeti ja valida sobiva likvideerimiskoodi.  Partii likvideerimiskoodile määratud reeglid määratlevad, kas partii on saadaval teiste laoprotsesside jaoks.  
-    * Kui valite suvandi Prindi sildid, prinditakse kaupade vastuvõtmisel automaatselt litsentsiplaat.  
-8. Klõpsake nuppu Salvesta.
-9. Sulgege leht.
+## <a name="create-a-mobile-device-menu-item"></a><span data-ttu-id="c1775-108">Mobiilse seadme menüü-üksuse loomine</span><span class="sxs-lookup"><span data-stu-id="c1775-108">Create a mobile device menu item</span></span>
+1. <span data-ttu-id="c1775-109">Avage Laohaldus > Seadistus > Mobiilne seade > Mobiilse seadme menüü-üksused.</span><span class="sxs-lookup"><span data-stu-id="c1775-109">Go to Warehouse management > Setup > Mobile device > Mobile device menu items.</span></span>
+2. <span data-ttu-id="c1775-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="c1775-110">Click New.</span></span>
+3. <span data-ttu-id="c1775-111">Sisestage väärtus väljale Menüü-üksuse nimi.</span><span class="sxs-lookup"><span data-stu-id="c1775-111">In the Menu item name field, type a value.</span></span>
+    * <span data-ttu-id="c1775-112">See on selle mobiilse seadme menüü-üksuse ainuidentifikaator.</span><span class="sxs-lookup"><span data-stu-id="c1775-112">This is the unique identifier for this mobile device menu item.</span></span> <span data-ttu-id="c1775-113">Näiteks võite sisestada teksti „Minu ostutellimuse registreerimine”.</span><span class="sxs-lookup"><span data-stu-id="c1775-113">For example, you could type 'My PO registration'.</span></span>  
+4. <span data-ttu-id="c1775-114">Sisestage väärtus väljale Pealkiri.</span><span class="sxs-lookup"><span data-stu-id="c1775-114">In the Title field, type a value.</span></span>
+    * <span data-ttu-id="c1775-115">See on pealkiri, mis kuvatakse kasutajale mobiilses seadmes.</span><span class="sxs-lookup"><span data-stu-id="c1775-115">This is the title, which will be displayed to the user on the mobile device.</span></span> <span data-ttu-id="c1775-116">Näiteks võite sisestada teksti „Ostutellimuse registreerimine”.</span><span class="sxs-lookup"><span data-stu-id="c1775-116">For example, you could type 'PO registration'.</span></span>  
+5. <span data-ttu-id="c1775-117">Valige väljal Režiim suvand Töö.</span><span class="sxs-lookup"><span data-stu-id="c1775-117">In the Mode field, select 'Work'.</span></span>
+    * <span data-ttu-id="c1775-118">Ostutellimuse rea jaoks vastu võetud vaba kaubavaru koguste registreerimine loob töö kaupade teisaldamiseks vastuvõtualast varudesse.</span><span class="sxs-lookup"><span data-stu-id="c1775-118">Registration of on-hand quantities received for a purchase order line will create work to move the items from the receiving area into the inventory.</span></span> <span data-ttu-id="c1775-119">Tööd ei looda enne, kui kaubad on registreeritud.</span><span class="sxs-lookup"><span data-stu-id="c1775-119">Work isn’t created until the items are registered.</span></span>  <span data-ttu-id="c1775-120">Seetõttu jätke suvandi Kasuta olemasolevat tööd sätteks Ei.</span><span class="sxs-lookup"><span data-stu-id="c1775-120">Therefore, leave the Use existing work option set to No.</span></span>  
+6. <span data-ttu-id="c1775-121">Laiendage või ahendage jaotist Üldine.</span><span class="sxs-lookup"><span data-stu-id="c1775-121">Expand or collapse the General section.</span></span>
+7. <span data-ttu-id="c1775-122">Valige väljal Töö loomise protsess suvand Ostutellimuse kauba vastuvõtmine.</span><span class="sxs-lookup"><span data-stu-id="c1775-122">In the Work creation process field, select 'Purchase order item receiving'.</span></span>
+    * <span data-ttu-id="c1775-123">Ostutellimuse rida peab olema üheselt identifitseeritud, enne kui vaba kaubavaru saab laos registreerida.</span><span class="sxs-lookup"><span data-stu-id="c1775-123">A purchase order line must be uniquely identified before on-hand can be registered in the warehouse.</span></span> <span data-ttu-id="c1775-124">Selles stsenaariumis registreerib mobiilne seade ostutellimuse numbri ja kaubakoodi ning see võimaldab süsteemil tuvastada ostutellimuse rea.</span><span class="sxs-lookup"><span data-stu-id="c1775-124">In this scenario, the mobile device will register the purchase order number and item number, and this will allow the system to identify the PO line.</span></span> <span data-ttu-id="c1775-125">Luuakse paigutamistöö ja selle saab võtta teine töötaja.</span><span class="sxs-lookup"><span data-stu-id="c1775-125">Put away work will be created and can be picked up by another worker.</span></span>    <span data-ttu-id="c1775-126">Teie valitud töö loomismeetod määratleb, millised väljad on kiirkaardil Üldine saadaval.</span><span class="sxs-lookup"><span data-stu-id="c1775-126">The work creation method that you select determines which fields become available on the General fast tab.</span></span>  
+    * <span data-ttu-id="c1775-127">Kui valite suvandi Kasuta vaikeandmeid, lubatakse nupp Vaikeandmed.</span><span class="sxs-lookup"><span data-stu-id="c1775-127">If you select the Use default data option, the Default data button is enabled.</span></span> <span data-ttu-id="c1775-128">siin saate valida väljad nende andmete kuvamiseks, mida töötajal enamasti igapäevases töös vaja läheb, nii et need väärtused kuvatakse mobiilses seadmes.</span><span class="sxs-lookup"><span data-stu-id="c1775-128">Here you can select fields to display data that a worker typically needs in their daily work, so that these values are shown on the mobile device.</span></span>  
+    * <span data-ttu-id="c1775-129">Litsentsiplaadi grupeerimise parameeter toimib koos vastuvõetavale kaubale määratud ühiku seeriagrupiga.</span><span class="sxs-lookup"><span data-stu-id="c1775-129">The License plate grouping parameter  works in combination with the unit sequence group that’s assigned to the item that’s being received.</span></span> <span data-ttu-id="c1775-130">Saate määrata, kas vähema või rohkema kui ühe kaubaaluse sissetulekud rühmitatakse ühele litsentsiplaadile või luuakse iga ühiku kohta eraldi litsentsiplaat.</span><span class="sxs-lookup"><span data-stu-id="c1775-130">You can specify whether receipts of less than or more than one pallet should be grouped into one license plate, or divided into a separate license plate for each unit.</span></span>  
+    * <span data-ttu-id="c1775-131">Kui valite suvandi Loo litsentsiplaat, luuakse numbriseeria valiku põhjal kordumatu identifitseerimisnumber.</span><span class="sxs-lookup"><span data-stu-id="c1775-131">If you select the Generate license plate  option, this generates a unique license plate number based on the number sequence selection.</span></span>   
+    * <span data-ttu-id="c1775-132">Saate valida malli, mida kasutatakse töö loomisel.</span><span class="sxs-lookup"><span data-stu-id="c1775-132">You can select the template that will be used when work is created.</span></span> <span data-ttu-id="c1775-133">Näiteks kui registreerite ostutellimuse jaoks kauba, luuakse töömalli alusel paigutamistöö.</span><span class="sxs-lookup"><span data-stu-id="c1775-133">For example, if you register an item for a purchase order, the put away work will be generated based on the work template.</span></span> <span data-ttu-id="c1775-134">Kui te siin töömalli ei vali, määrab süsteem malli mallidega seostatud päringukriteeriumite alusel.</span><span class="sxs-lookup"><span data-stu-id="c1775-134">If you don’t select a work template here, the system will assign a template based on the query criteria that are associated with the templates.</span></span>  
+    * <span data-ttu-id="c1775-135">Kui mobiilses seadmes kuvatakse likvideerimiskoodid, saavad töötajad hinnata kaupade olekut või kvaliteeti ja valida sobiva koodi.</span><span class="sxs-lookup"><span data-stu-id="c1775-135">If disposition codes are displayed on the mobile device, workers can evaluate the status or quality of the items, and select the appropriate code.</span></span> <span data-ttu-id="c1775-136">Likvideerimiskoodi reeglid määratlevad, kas kaup on saadaval teiste laoprotsesside jaoks.</span><span class="sxs-lookup"><span data-stu-id="c1775-136">The rules for  the disposition code determine whether the items will be available to other warehouse processes.</span></span> <span data-ttu-id="c1775-137">Reeglid määratlevad ka selle, millist asukohakorraldust loodud töö jaoks kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="c1775-137">The rules also determine which location directive is used for the work that’s created.</span></span>   
+    * <span data-ttu-id="c1775-138">Kui valite suvandi Partii likvideerimiskoodid, saavad töötajad hinnata partii olekut või kvaliteeti ja valida sobiva likvideerimiskoodi.</span><span class="sxs-lookup"><span data-stu-id="c1775-138">If you select the Batch disposition codes option, workers can evaluate the status or quality of a batch, and select the appropriate disposition code.</span></span>  <span data-ttu-id="c1775-139">Partii likvideerimiskoodile määratud reeglid määratlevad, kas partii on saadaval teiste laoprotsesside jaoks.</span><span class="sxs-lookup"><span data-stu-id="c1775-139">The rules that are set on the batch disposition code determine whether the batch will be available to other warehouse processes.</span></span>  
+    * <span data-ttu-id="c1775-140">Kui valite suvandi Prindi sildid, prinditakse kaupade vastuvõtmisel automaatselt litsentsiplaat.</span><span class="sxs-lookup"><span data-stu-id="c1775-140">If you select the Print labels option a license plate label will be printed automatically when items are received.</span></span>  
+8. <span data-ttu-id="c1775-141">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="c1775-141">Click Save.</span></span>
+9. <span data-ttu-id="c1775-142">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="c1775-142">Close the page.</span></span>
 
-## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Menüü-üksuse lisamine mobiilse seadme menüüsse
-1. Avage Laohaldus > Seadistus > Mobiilne seade > Mobiilse seadme menüü.
-2. Kasutage kiirfiltrit, et filtreerida välja Nimi väärtuse Sissetulev järgi.
-3. Klõpsake nuppu Redigeeri.
-4. Valige puul suvand „Valige saadaoleva menüü ja kaupade puul varem loodud menüü-üksus.”.
-    * Valige varem loodud menüü-üksus.  
-5. Klõpsake paremale suunatud noolt.
-6. Klõpsake nuppu Salvesta.
-7. Sulgege leht.
+## <a name="add-the-menu-item-to-a-mobile-device-menu"></a><span data-ttu-id="c1775-143">Menüü-üksuse lisamine mobiilse seadme menüüsse</span><span class="sxs-lookup"><span data-stu-id="c1775-143">Add the menu item to a mobile device menu</span></span>
+1. <span data-ttu-id="c1775-144">Avage Laohaldus > Seadistus > Mobiilne seade > Mobiilse seadme menüü.</span><span class="sxs-lookup"><span data-stu-id="c1775-144">Go to Warehouse management > Setup > Mobile device > Mobile device menu.</span></span>
+2. <span data-ttu-id="c1775-145">Kasutage kiirfiltrit, et filtreerida välja Nimi väärtuse Sissetulev järgi.</span><span class="sxs-lookup"><span data-stu-id="c1775-145">Use the Quick Filter to filter on the Name field with a value of 'inbound'.</span></span>
+3. <span data-ttu-id="c1775-146">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="c1775-146">Click Edit.</span></span>
+4. <span data-ttu-id="c1775-147">Valige puul suvand „Valige saadaoleva menüü ja kaupade puul varem loodud menüü-üksus.”.</span><span class="sxs-lookup"><span data-stu-id="c1775-147">In the tree, select 'In the Available menu's and items tree, select the menu item that you created before.'.</span></span>
+    * <span data-ttu-id="c1775-148">Valige varem loodud menüü-üksus.</span><span class="sxs-lookup"><span data-stu-id="c1775-148">Select the menu item that you created before.</span></span>  
+5. <span data-ttu-id="c1775-149">Klõpsake paremale suunatud noolt.</span><span class="sxs-lookup"><span data-stu-id="c1775-149">Click on the arrow that points to the right.</span></span>
+6. <span data-ttu-id="c1775-150">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="c1775-150">Click Save.</span></span>
+7. <span data-ttu-id="c1775-151">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="c1775-151">Close the page.</span></span>
 
 

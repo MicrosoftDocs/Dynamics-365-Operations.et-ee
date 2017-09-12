@@ -16,61 +16,61 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f1e22f15e98b563f7d2aae812aee3df1d454524c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f195f9e466eab3cf87afea2b5d430d0ea25c5a83
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="register-sales-commissions"></a>Müügi komisjonitasude registreerimine
+# <a name="register-sales-commissions"></a><span data-ttu-id="2101b-103">Müügi komisjonitasude registreerimine</span><span class="sxs-lookup"><span data-stu-id="2101b-103">Register sales commissions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur selgitab müügi komisjonitasude arvutamist ja registreerimist. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. Enne selle juhendi avamist käivitage juhend „Müügi komisjonitasu reeglite seadistamine” veendumaks, et teil on kõik vajalikud komisjonitasu arvutused seadistatud.
+<span data-ttu-id="2101b-104">See protseduur selgitab müügi komisjonitasude arvutamist ja registreerimist.</span><span class="sxs-lookup"><span data-stu-id="2101b-104">This procedure shows you how sales commissions are calculated and registered.</span></span> <span data-ttu-id="2101b-105">Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega.</span><span class="sxs-lookup"><span data-stu-id="2101b-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="2101b-106">Enne selle juhendi avamist käivitage juhend „Müügi komisjonitasu reeglite seadistamine” veendumaks, et teil on kõik vajalikud komisjonitasu arvutused seadistatud.</span><span class="sxs-lookup"><span data-stu-id="2101b-106">Before starting this guide, run the guide called "Set up sales commission rules" to make sure that you have all the necessary commission calculation setup.</span></span>
 
-Märkige üles komisjonitasu töötlemiseks valitud kliendi ja kauba koodid ning kasutage neid, kui teil palutakse selles juhendis luua müügitellimus.
+<span data-ttu-id="2101b-107">Märkige üles komisjonitasu töötlemiseks valitud kliendi ja kauba koodid ning kasutage neid, kui teil palutakse selles juhendis luua müügitellimus.</span><span class="sxs-lookup"><span data-stu-id="2101b-107">Take note of the customer and item numbers that you have chosen for the commission process and use them when asked to create a sales order in this guide.</span></span>
 
 
-## <a name="invoice-a-sales-order-that-qualifies-a-salesperson-for-a-commission"></a>Müügiisikule komisjonitasu kvalifitseeriva müügitellimuse arveldamine
-1. Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Kliendi konto otsingu avamiseks ripploendi nuppu.
-4. Otsige loendist ja valige soovitud kirje.
-5. Klõpsake loendis valitud real olevat linki.
-6. Klõpsake nuppu OK.
-7. Klõpsake toimingupaanil valikut Suvandid.
-8. Klõpsake suvandit Muuda vaadet.
-9. Klõpsake suvandit Päisevaade.
-10. Laiendage jaotist Seadistus.
-    * Väljal Müügigrupp olev väärtus tähistab gruppi koos ühe või mitme sellele määratud müügiesindajaga. Grupis olevad inimesed on need, kes saavad tellimuse arveldamisel komisjonitasu eelmääratletud määrade ja jaotuse järgi.   Väärtus kopeeritakse kliendikaardilt, kuid seda saab soovi korral muuta.  Müügigrupp kopeeritakse ka müügitellimuse reale. Saate seda muuta, nii et see võib päise ja/või ridade vahel erineda.  
-    * Välja Komisjonitasu grupp väärtus tähistab gruppi, mille olete loonud ühe või mitme kliendi jaoks komisjonitasude jälgimise eesmärgil.   Väärtus kopeeritakse kliendikaardilt, kuid seda saab soovi korral muuta.   
-11. Klõpsake toimingupaanil valikut Suvandid.
-12. Klõpsake suvandit Muuda vaadet.
-13. Klõpsake suvandit Reavaade.
-14. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-15. Valige loendist komisjonitasude jaoks seadistatud kaup. 
-16. Sisestage arv väljale Kogus.
-    * Märkige üles rea netosumma. See tähistab müügitulu, mis siintoodud näites on komisjonitasu arvutamise aluseks.  
-17. Klõpsake nuppu Salvesta.
-18. Klõpsake toimingupaanil valikut Arve.
-19. Klõpsake valikut Arve.
-20. Laiendage jaotis Parameetrid.
-21. Valige väljal Kogus väärtus Kõik.
-22. Valige väljal Sisestamine suvand Jah.
-23. Klõpsake nuppu OK.
-24. Klõpsake nuppu OK.
-    * Kande sisestamiseks võib kuluda ligikaudu minut. Oodake, kuni töötlemine on lõpule jõudnud, ja ärge lehte sulgege.  
+## <a name="invoice-a-sales-order-that-qualifies-a-salesperson-for-a-commission"></a><span data-ttu-id="2101b-108">Müügiisikule komisjonitasu kvalifitseeriva müügitellimuse arveldamine</span><span class="sxs-lookup"><span data-stu-id="2101b-108">Invoice a sales order that qualifies a salesperson for a commission</span></span>
+1. <span data-ttu-id="2101b-109">Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="2101b-109">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="2101b-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2101b-110">Click New.</span></span>
+3. <span data-ttu-id="2101b-111">Klõpsake väljal Kliendi konto otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="2101b-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="2101b-112">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="2101b-112">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="2101b-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="2101b-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="2101b-114">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="2101b-114">Click OK.</span></span>
+7. <span data-ttu-id="2101b-115">Klõpsake toimingupaanil valikut Suvandid.</span><span class="sxs-lookup"><span data-stu-id="2101b-115">On the Action Pane, click Options.</span></span>
+8. <span data-ttu-id="2101b-116">Klõpsake suvandit Muuda vaadet.</span><span class="sxs-lookup"><span data-stu-id="2101b-116">Click Change view.</span></span>
+9. <span data-ttu-id="2101b-117">Klõpsake suvandit Päisevaade.</span><span class="sxs-lookup"><span data-stu-id="2101b-117">Click Header view.</span></span>
+10. <span data-ttu-id="2101b-118">Laiendage jaotist Seadistus.</span><span class="sxs-lookup"><span data-stu-id="2101b-118">Expand the Setup section.</span></span>
+    * <span data-ttu-id="2101b-119">Väljal Müügigrupp olev väärtus tähistab gruppi koos ühe või mitme sellele määratud müügiesindajaga.</span><span class="sxs-lookup"><span data-stu-id="2101b-119">The value in the Sales group field represents a group with one or more sales representatives assigned to it.</span></span> <span data-ttu-id="2101b-120">Grupis olevad inimesed on need, kes saavad tellimuse arveldamisel komisjonitasu eelmääratletud määrade ja jaotuse järgi.</span><span class="sxs-lookup"><span data-stu-id="2101b-120">The people in the group are the ones who will receive commissions when the order is invoiced, as per predefined rates and distribution.</span></span>   <span data-ttu-id="2101b-121">Väärtus kopeeritakse kliendikaardilt, kuid seda saab soovi korral muuta.</span><span class="sxs-lookup"><span data-stu-id="2101b-121">The value is copied from the Customer card, but you can change it if you wish.</span></span>  <span data-ttu-id="2101b-122">Müügigrupp kopeeritakse ka müügitellimuse reale.</span><span class="sxs-lookup"><span data-stu-id="2101b-122">The Sales group is also copied to the sales order line.</span></span> <span data-ttu-id="2101b-123">Saate seda muuta, nii et see võib päise ja/või ridade vahel erineda.</span><span class="sxs-lookup"><span data-stu-id="2101b-123">You can change it so that it can differ from the one in the header and/or between lines.</span></span>  
+    * <span data-ttu-id="2101b-124">Välja Komisjonitasu grupp väärtus tähistab gruppi, mille olete loonud ühe või mitme kliendi jaoks komisjonitasude jälgimise eesmärgil.</span><span class="sxs-lookup"><span data-stu-id="2101b-124">The value in the Commission group field represents a group that you have created for one or more customers with the purpose of tracking commissions.</span></span>   <span data-ttu-id="2101b-125">Väärtus kopeeritakse kliendikaardilt, kuid seda saab soovi korral muuta.</span><span class="sxs-lookup"><span data-stu-id="2101b-125">The value is copied from the Customer card, but you can change it if you wish.</span></span>   
+11. <span data-ttu-id="2101b-126">Klõpsake toimingupaanil valikut Suvandid.</span><span class="sxs-lookup"><span data-stu-id="2101b-126">On the Action Pane, click Options.</span></span>
+12. <span data-ttu-id="2101b-127">Klõpsake suvandit Muuda vaadet.</span><span class="sxs-lookup"><span data-stu-id="2101b-127">Click Change view.</span></span>
+13. <span data-ttu-id="2101b-128">Klõpsake suvandit Reavaade.</span><span class="sxs-lookup"><span data-stu-id="2101b-128">Click Line view.</span></span>
+14. <span data-ttu-id="2101b-129">Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="2101b-129">In the Item number field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="2101b-130">Valige loendist komisjonitasude jaoks seadistatud kaup.</span><span class="sxs-lookup"><span data-stu-id="2101b-130">In the list, select the item you have set up for commissions.</span></span> 
+16. <span data-ttu-id="2101b-131">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="2101b-131">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="2101b-132">Märkige üles rea netosumma.</span><span class="sxs-lookup"><span data-stu-id="2101b-132">Take note of the line's Net amount.</span></span> <span data-ttu-id="2101b-133">See tähistab müügitulu, mis siintoodud näites on komisjonitasu arvutamise aluseks.</span><span class="sxs-lookup"><span data-stu-id="2101b-133">It represents the sales revenue, which in this example is the basis for commission calculation.</span></span>  
+17. <span data-ttu-id="2101b-134">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2101b-134">Click Save.</span></span>
+18. <span data-ttu-id="2101b-135">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="2101b-135">On the Action Pane, click Invoice.</span></span>
+19. <span data-ttu-id="2101b-136">Klõpsake valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="2101b-136">Click Invoice.</span></span>
+20. <span data-ttu-id="2101b-137">Laiendage jaotis Parameetrid.</span><span class="sxs-lookup"><span data-stu-id="2101b-137">Expand the Parameters section.</span></span>
+21. <span data-ttu-id="2101b-138">Valige väljal Kogus väärtus Kõik.</span><span class="sxs-lookup"><span data-stu-id="2101b-138">In the Quantity field, select 'All'.</span></span>
+22. <span data-ttu-id="2101b-139">Valige väljal Sisestamine suvand Jah.</span><span class="sxs-lookup"><span data-stu-id="2101b-139">Select Yes in the Posting field.</span></span>
+23. <span data-ttu-id="2101b-140">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="2101b-140">Click OK.</span></span>
+24. <span data-ttu-id="2101b-141">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="2101b-141">Click OK.</span></span>
+    * <span data-ttu-id="2101b-142">Kande sisestamiseks võib kuluda ligikaudu minut.</span><span class="sxs-lookup"><span data-stu-id="2101b-142">It may take a minute or so to post the transaction.</span></span> <span data-ttu-id="2101b-143">Oodake, kuni töötlemine on lõpule jõudnud, ja ärge lehte sulgege.</span><span class="sxs-lookup"><span data-stu-id="2101b-143">Allow the processing to complete and don’t close the page.</span></span>  
 
-## <a name="review-the-registered-sales-commissions"></a>Registreeritud müügi komisjonitasude ülevaatamine
-1. Klõpsake toimingupaanil valikut Arve.
-2. Klõpsake valikut Arve.
-3. Klõpsake toimingupaanil valikut Arve.
-4. Klõpsake suvandit Komisjonitasu kanded.
-    * Vahekaardil Ülevaade kuvatakse read, mis tähistavad arveldatud müügitellimusega seostatud müügiesindajatele makstavaid komisjonitasu summasid. Vaadakem üksikasjad üle.     
-    * Kui kasutasite komisjonitasu müügigrupi seadistamiseks juhendit „Müügi komisjonitasu reeglite seadistamine”, saab müügi komisjonitasu kaks müügiisikut ja komisjonitasu jaotatakse nende vahel võrdselt.  
-    * Selle näite puhul arvutatakse komisjonitasu kogusumma protsendina müügitulust (tellimuserea netosummast).   
-5. Sulgege leht.
-6. Klõpsake suvandit Kanne.
-    * Saate üle vaadata komisjonitasu summade kandeid, mis on sisestatud eelmääratletud komisjonitasu kulukontodele ja komisjonitasu ostureskontrotele.  
+## <a name="review-the-registered-sales-commissions"></a><span data-ttu-id="2101b-144">Registreeritud müügi komisjonitasude ülevaatamine</span><span class="sxs-lookup"><span data-stu-id="2101b-144">Review the registered sales commissions</span></span>
+1. <span data-ttu-id="2101b-145">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="2101b-145">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="2101b-146">Klõpsake valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="2101b-146">Click Invoice.</span></span>
+3. <span data-ttu-id="2101b-147">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="2101b-147">On the Action Pane, click Invoice.</span></span>
+4. <span data-ttu-id="2101b-148">Klõpsake suvandit Komisjonitasu kanded.</span><span class="sxs-lookup"><span data-stu-id="2101b-148">Click Commission transactions.</span></span>
+    * <span data-ttu-id="2101b-149">Vahekaardil Ülevaade kuvatakse read, mis tähistavad arveldatud müügitellimusega seostatud müügiesindajatele makstavaid komisjonitasu summasid.</span><span class="sxs-lookup"><span data-stu-id="2101b-149">The Overview tab displays lines representing the commission amounts payable to sales representatives who are associated with the invoiced sales order.</span></span> <span data-ttu-id="2101b-150">Vaadakem üksikasjad üle.</span><span class="sxs-lookup"><span data-stu-id="2101b-150">Let's review the details.</span></span>     
+    * <span data-ttu-id="2101b-151">Kui kasutasite komisjonitasu müügigrupi seadistamiseks juhendit „Müügi komisjonitasu reeglite seadistamine”, saab müügi komisjonitasu kaks müügiisikut ja komisjonitasu jaotatakse nende vahel võrdselt.</span><span class="sxs-lookup"><span data-stu-id="2101b-151">If you used the "Set up sales commission rules" guide to set up the Commission sales group, there are two sales people to receive a sales commissions, and the commission is split equally between them.</span></span>  
+    * <span data-ttu-id="2101b-152">Selle näite puhul arvutatakse komisjonitasu kogusumma protsendina müügitulust (tellimuserea netosummast).</span><span class="sxs-lookup"><span data-stu-id="2101b-152">In this example, the total amount of the commission is calculated as a percentage of the sales revenue (the net amount of order line).</span></span>   
+5. <span data-ttu-id="2101b-153">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2101b-153">Close the page.</span></span>
+6. <span data-ttu-id="2101b-154">Klõpsake suvandit Kanne.</span><span class="sxs-lookup"><span data-stu-id="2101b-154">Click Voucher.</span></span>
+    * <span data-ttu-id="2101b-155">Saate üle vaadata komisjonitasu summade kandeid, mis on sisestatud eelmääratletud komisjonitasu kulukontodele ja komisjonitasu ostureskontrotele.</span><span class="sxs-lookup"><span data-stu-id="2101b-155">You can review the voucher transactions for the commission amounts that have been posted to the predefined commission expense and commission payable accounts.</span></span>  
 
 

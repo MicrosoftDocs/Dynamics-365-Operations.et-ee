@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>Kuluhalduse konfigureerimine
+# <a name="configure-expense-management"></a><span data-ttu-id="61f7a-104">Kuluhalduse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="61f7a-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis kuluhaldust konfigureerite. Kuluhalduse alal saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jm kohta. 
+<span data-ttu-id="61f7a-105">Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis kuluhaldust konfigureerite.</span><span class="sxs-lookup"><span data-stu-id="61f7a-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="61f7a-106">Kuluhalduse alal saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jm kohta.</span><span class="sxs-lookup"><span data-stu-id="61f7a-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-Kuna paljud otsused, mida kuluhalduse konfiguratsiooni plaanimisel langetate, põhinevad organisatsiooni hierarhial ja finantsstruktuuril, tuleb juhinduda nende valdkondade plaanimisdokumentidest.
+<span data-ttu-id="61f7a-107">Kuna paljud otsused, mida kuluhalduse konfiguratsiooni plaanimisel langetate, põhinevad organisatsiooni hierarhial ja finantsstruktuuril, tuleb juhinduda nende valdkondade plaanimisdokumentidest.</span><span class="sxs-lookup"><span data-stu-id="61f7a-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>Kontsernisisesed kulud
-Kui lubate ettevõttesisesed kulud, lubate juriidilistele isikutel ja töötajatel kanda kulusid teise teie organisatsiooni kuuluva juriidilise isiku nimel ja koguda temalt makseid. Näiteks täidab juriidilise isiku A töötaja projekti juriidilisele isikule B. Kui ettevõttesisesed kulud on lubatud, võib töötaja siis esitada juriidilisele isikule B ajatabeli ja saada temalt tasu. Kui teie organisatsioonis pole mitut juriidilist isikut, pole vaja ettevõttesiseseid kulusid lubada. **Otsus:** kas soovite lubada ettevõttesisesed kulud?
+## <a name="intercompany-expenses"></a><span data-ttu-id="61f7a-108">Kontsernisisesed kulud</span><span class="sxs-lookup"><span data-stu-id="61f7a-108">Intercompany expenses</span></span>
+<span data-ttu-id="61f7a-109">Kui lubate ettevõttesisesed kulud, lubate juriidilistele isikutel ja töötajatel kanda kulusid teise teie organisatsiooni kuuluva juriidilise isiku nimel ja koguda temalt makseid.</span><span class="sxs-lookup"><span data-stu-id="61f7a-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="61f7a-110">Näiteks täidab juriidilise isiku A töötaja projekti juriidilisele isikule B. Kui ettevõttesisesed kulud on lubatud, võib töötaja siis esitada juriidilisele isikule B ajatabeli ja saada temalt tasu. Kui teie organisatsioonis pole mitut juriidilist isikut, pole vaja ettevõttesiseseid kulusid lubada.</span><span class="sxs-lookup"><span data-stu-id="61f7a-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="61f7a-111">**Otsus:** kas soovite lubada ettevõttesisesed kulud?</span><span class="sxs-lookup"><span data-stu-id="61f7a-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>Finantshaldus
-Kuluhaldus on tihedalt seotud organisatsiooni finantshaldusega. Suur osa kuluhalduse konfiguratsioonist põhineb otsustel, mille olete oma organisatsiooni finantside kohta langetanud. Järgmised jaotised kirjeldavad erinevaid valdkondi, kus on vajalik plaanimine ja otsustamine organisatsiooni rahaliste otsuste ja juhtkonna juhiste põhjal.
+## <a name="financial-management"></a><span data-ttu-id="61f7a-112">Finantshaldus</span><span class="sxs-lookup"><span data-stu-id="61f7a-112">Financial management</span></span>
+<span data-ttu-id="61f7a-113">Kuluhaldus on tihedalt seotud organisatsiooni finantshaldusega.</span><span class="sxs-lookup"><span data-stu-id="61f7a-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="61f7a-114">Suur osa kuluhalduse konfiguratsioonist põhineb otsustel, mille olete oma organisatsiooni finantside kohta langetanud.</span><span class="sxs-lookup"><span data-stu-id="61f7a-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="61f7a-115">Järgmised jaotised kirjeldavad erinevaid valdkondi, kus on vajalik plaanimine ja otsustamine organisatsiooni rahaliste otsuste ja juhtkonna juhiste põhjal.</span><span class="sxs-lookup"><span data-stu-id="61f7a-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>Päevarahad
+### <a name="per-diems"></a><span data-ttu-id="61f7a-116">Päevarahad</span><span class="sxs-lookup"><span data-stu-id="61f7a-116">Per diems</span></span>
 
-Peate määratlema töötajate päevarahad, mida teie organisatsioon maksab. Kuna päevarahasid kasutatakse tavaliselt selliste kulude katmiseks nagu toitlustus, majutus ja muud ettenägematud kulud, saate koostada ettevõtte makstavate päevarahade reeglid. Päevaraha määrade aluseks võib olla aastaaeg, reisisiht või mõlemad. Päevaraha reegli määratlemisel saate valida päevaraha määrast mingi protsendi kinnipidamise, kui töötaja saab tasuta eineid või teenuseid. Saate määratleda ka päevaraha määrade järgud, määrates minimaalse ja maksimaalse tundide arvu, millele päevaraha määr töötaja reisi ajal rakendatakse. **Otsused.**
+<span data-ttu-id="61f7a-117">Peate määratlema töötajate päevarahad, mida teie organisatsioon maksab.</span><span class="sxs-lookup"><span data-stu-id="61f7a-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="61f7a-118">Kuna päevarahasid kasutatakse tavaliselt selliste kulude katmiseks nagu toitlustus, majutus ja muud ettenägematud kulud, saate koostada ettevõtte makstavate päevarahade reeglid.</span><span class="sxs-lookup"><span data-stu-id="61f7a-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="61f7a-119">Päevaraha määrade aluseks võib olla aastaaeg, reisisiht või mõlemad.</span><span class="sxs-lookup"><span data-stu-id="61f7a-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="61f7a-120">Päevaraha reegli määratlemisel saate valida päevaraha määrast mingi protsendi kinnipidamise, kui töötaja saab tasuta eineid või teenuseid.</span><span class="sxs-lookup"><span data-stu-id="61f7a-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="61f7a-121">Saate määratleda ka päevaraha määrade järgud, määrates minimaalse ja maksimaalse tundide arvu, millele päevaraha määr töötaja reisi ajal rakendatakse.</span><span class="sxs-lookup"><span data-stu-id="61f7a-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="61f7a-122">**Otsused.**</span><span class="sxs-lookup"><span data-stu-id="61f7a-122">**Decisions:**</span></span>
 
--   Esimese ja viimase päeva vaikepäevaraha reeglid:
-    -   Milline on minimaalne tundide arv, mida töötaja saab ühes päevas taotleda ja siiski päevaraha saada?
-    -   Kas esimese ja viimase päeva puhul vähendatakse toitlustusele kuluvat summat? Kui nii, siis milline on vähendamise protsent?
-    -   Kas esimese ja viimase päeva puhul vähendatakse hotellile kuluvat summat? Kui nii, siis milline on vähendamise protsent?
-    -   Kas esimese ja viimase päeva puhul vähendatakse muude kulude summat? Kui nii, siis milline on vähendamise protsent?
--   Päevaraha vaikereeglid:
-    -   Kas päevaraha vähendatakse protsentuaalselt iga toidukorra kohta, kui näiteks tasuta toitlustust pakutakse? Kui nii, siis milline on iga toidukorra vähendamise protsent?
-    -   Kas toitlustamisega seotud vähendamine arvutatakse päeva, reisi või päevase toidukordade arvu alusel?
-    -   Kas päevaraha summad tuleks ümardada tavaliselt või ülespoole?
-    -   Kas päevarahade arvutused põhinevad 24-tunnisel perioodil või kalendripäeval?
--   Päevaraha reeglid asukoha alusel:
-    -   Kas päevaraha määrad erinevad asukohtade põhjal ja milliseid asukohti arvestatakse?
-    -   Kui päevaraha määr erineb asukoha põhjal, siis milline protsendimäär eraldatakse iga asukoha puhul:
-        -   toitlustusele
-        -   hotellile
-        -   muudele kuludele
+-   <span data-ttu-id="61f7a-123">Esimese ja viimase päeva vaikepäevaraha reeglid:</span><span class="sxs-lookup"><span data-stu-id="61f7a-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="61f7a-124">Milline on minimaalne tundide arv, mida töötaja saab ühes päevas taotleda ja siiski päevaraha saada?</span><span class="sxs-lookup"><span data-stu-id="61f7a-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="61f7a-125">Kas esimese ja viimase päeva puhul vähendatakse toitlustusele kuluvat summat?</span><span class="sxs-lookup"><span data-stu-id="61f7a-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="61f7a-126">Kui nii, siis milline on vähendamise protsent?</span><span class="sxs-lookup"><span data-stu-id="61f7a-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="61f7a-127">Kas esimese ja viimase päeva puhul vähendatakse hotellile kuluvat summat?</span><span class="sxs-lookup"><span data-stu-id="61f7a-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="61f7a-128">Kui nii, siis milline on vähendamise protsent?</span><span class="sxs-lookup"><span data-stu-id="61f7a-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="61f7a-129">Kas esimese ja viimase päeva puhul vähendatakse muude kulude summat?</span><span class="sxs-lookup"><span data-stu-id="61f7a-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="61f7a-130">Kui nii, siis milline on vähendamise protsent?</span><span class="sxs-lookup"><span data-stu-id="61f7a-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="61f7a-131">Päevaraha vaikereeglid:</span><span class="sxs-lookup"><span data-stu-id="61f7a-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="61f7a-132">Kas päevaraha vähendatakse protsentuaalselt iga toidukorra kohta, kui näiteks tasuta toitlustust pakutakse?</span><span class="sxs-lookup"><span data-stu-id="61f7a-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="61f7a-133">Kui nii, siis milline on iga toidukorra vähendamise protsent?</span><span class="sxs-lookup"><span data-stu-id="61f7a-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="61f7a-134">Kas toitlustamisega seotud vähendamine arvutatakse päeva, reisi või päevase toidukordade arvu alusel?</span><span class="sxs-lookup"><span data-stu-id="61f7a-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="61f7a-135">Kas päevaraha summad tuleks ümardada tavaliselt või ülespoole?</span><span class="sxs-lookup"><span data-stu-id="61f7a-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="61f7a-136">Kas päevarahade arvutused põhinevad 24-tunnisel perioodil või kalendripäeval?</span><span class="sxs-lookup"><span data-stu-id="61f7a-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="61f7a-137">Päevaraha reeglid asukoha alusel:</span><span class="sxs-lookup"><span data-stu-id="61f7a-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="61f7a-138">Kas päevaraha määrad erinevad asukohtade põhjal ja milliseid asukohti arvestatakse?</span><span class="sxs-lookup"><span data-stu-id="61f7a-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="61f7a-139">Kui päevaraha määr erineb asukoha põhjal, siis milline protsendimäär eraldatakse iga asukoha puhul:</span><span class="sxs-lookup"><span data-stu-id="61f7a-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="61f7a-140">toitlustusele</span><span class="sxs-lookup"><span data-stu-id="61f7a-140">meals</span></span>
+        -   <span data-ttu-id="61f7a-141">hotellile</span><span class="sxs-lookup"><span data-stu-id="61f7a-141">hotel</span></span>
+        -   <span data-ttu-id="61f7a-142">muudele kuludele</span><span class="sxs-lookup"><span data-stu-id="61f7a-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>Kuluhalduse töölehed ja kontod
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="61f7a-143">Kuluhalduse töölehed ja kontod</span><span class="sxs-lookup"><span data-stu-id="61f7a-143">Expense management journals and accounts</span></span>
 
-Kuluhaldus nõuab, et kasutaksite mitut töölehte ja kontot. Peate näiteks otsustama, kas avansimaksete ja krediitkaardivaidluste jaoks kasutatakse sama kontot. **Otsused.**
+<span data-ttu-id="61f7a-144">Kuluhaldus nõuab, et kasutaksite mitut töölehte ja kontot.</span><span class="sxs-lookup"><span data-stu-id="61f7a-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="61f7a-145">Peate näiteks otsustama, kas avansimaksete ja krediitkaardivaidluste jaoks kasutatakse sama kontot.</span><span class="sxs-lookup"><span data-stu-id="61f7a-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="61f7a-146">**Otsused.**</span><span class="sxs-lookup"><span data-stu-id="61f7a-146">**Decisions:**</span></span>
 
--   Millistele pearaamatukontodele kinnitatud kuluaruanded sisestatakse?
--   Millist kontot kasutatakse avansimaksete puhul?
--   Kas avansimaksed tuleks kohe sisestada?
+-   <span data-ttu-id="61f7a-147">Millistele pearaamatukontodele kinnitatud kuluaruanded sisestatakse?</span><span class="sxs-lookup"><span data-stu-id="61f7a-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="61f7a-148">Millist kontot kasutatakse avansimaksete puhul?</span><span class="sxs-lookup"><span data-stu-id="61f7a-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="61f7a-149">Kas avansimaksed tuleks kohe sisestada?</span><span class="sxs-lookup"><span data-stu-id="61f7a-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>Makseviisid
+### <a name="payment-methods"></a><span data-ttu-id="61f7a-150">Makseviisid</span><span class="sxs-lookup"><span data-stu-id="61f7a-150">Payment methods</span></span>
 
-Kui lubate töötajatel ettevõtte nimel kulusid tekitada, peate määratlema makseviisid, mida töötajatel on lubatud kasutada. Näiteks võite lubada töötajatel kasutada sularaha või ettevõtte krediitkaarti. Võib lubada töötajatel kasutada ka isiklikku krediitkaarti ja seejärel töötajatele kulud korvata. Iga lubatud makseviisi puhul tuleb teha järgmised otsused. **Otsused:**
+<span data-ttu-id="61f7a-151">Kui lubate töötajatel ettevõtte nimel kulusid tekitada, peate määratlema makseviisid, mida töötajatel on lubatud kasutada.</span><span class="sxs-lookup"><span data-stu-id="61f7a-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="61f7a-152">Näiteks võite lubada töötajatel kasutada sularaha või ettevõtte krediitkaarti.</span><span class="sxs-lookup"><span data-stu-id="61f7a-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="61f7a-153">Võib lubada töötajatel kasutada ka isiklikku krediitkaarti ja seejärel töötajatele kulud korvata.</span><span class="sxs-lookup"><span data-stu-id="61f7a-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="61f7a-154">Iga lubatud makseviisi puhul tuleb teha järgmised otsused.</span><span class="sxs-lookup"><span data-stu-id="61f7a-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="61f7a-155">**Otsused:**</span><span class="sxs-lookup"><span data-stu-id="61f7a-155">**Decisions:**</span></span>
 
--   Millised makseviisid on lubatud?
--   Kellele kuuluvad makseviisi kulud?
--   Kas on olemas vastaskonto tüüp? Kui nii, siis milline see on?
--   Kui on olemas vastaskonto, milline see konto on?
--   Kui makseviis on krediitkaart, kas makseviisi tuleks kasutada ainult imporditud kannetega?
+-   <span data-ttu-id="61f7a-156">Millised makseviisid on lubatud?</span><span class="sxs-lookup"><span data-stu-id="61f7a-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="61f7a-157">Kellele kuuluvad makseviisi kulud?</span><span class="sxs-lookup"><span data-stu-id="61f7a-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="61f7a-158">Kas on olemas vastaskonto tüüp?</span><span class="sxs-lookup"><span data-stu-id="61f7a-158">Is there an offset account type?</span></span> <span data-ttu-id="61f7a-159">Kui nii, siis milline see on?</span><span class="sxs-lookup"><span data-stu-id="61f7a-159">If so, what is it?</span></span>
+-   <span data-ttu-id="61f7a-160">Kui on olemas vastaskonto, milline see konto on?</span><span class="sxs-lookup"><span data-stu-id="61f7a-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="61f7a-161">Kui makseviis on krediitkaart, kas makseviisi tuleks kasutada ainult imporditud kannetega?</span><span class="sxs-lookup"><span data-stu-id="61f7a-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>Kulukategooriad ja jagatud kategooriad
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="61f7a-162">Kulukategooriad ja jagatud kategooriad</span><span class="sxs-lookup"><span data-stu-id="61f7a-162">Expense categories and shared categories</span></span>
 
-Kui töötajad koostavad kuluaruande, tuleb iga kulu, mille nad seal kajastavad, seostada kulukategooriaga. Kulukategooriad on tuletatud jagatud kategooriatest, mida saab jagada kõigi organisatsiooni juriidiliste isikute vahel. Neid kategooriaid saab jagada ka projektijuhtimise ja raamatupidamise moodulites, olenevalt sellest, kuidas teie organisatsioon on määratletud. Organisatsiooni määratluse ja rakendustöörühma juhtimise alusel saate määrata, kas kuluhalduses kasutatavaid kategooriaid kasutatakse ainult kuludes või neid tuleks projekti ja kulude vahel jagada. Arvestage, et neid kategooriaid saab jagada projekti ja kulu või projekti ja tootmise vahel, kuid mitte kulu ja tootmise vahel. Peate langetama iga kulukategooria kohta järgmised otsused. **Otsused.**
+<span data-ttu-id="61f7a-163">Kui töötajad koostavad kuluaruande, tuleb iga kulu, mille nad seal kajastavad, seostada kulukategooriaga.</span><span class="sxs-lookup"><span data-stu-id="61f7a-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="61f7a-164">Kulukategooriad on tuletatud jagatud kategooriatest, mida saab jagada kõigi organisatsiooni juriidiliste isikute vahel.</span><span class="sxs-lookup"><span data-stu-id="61f7a-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="61f7a-165">Neid kategooriaid saab jagada ka projektijuhtimise ja raamatupidamise moodulites, olenevalt sellest, kuidas teie organisatsioon on määratletud.</span><span class="sxs-lookup"><span data-stu-id="61f7a-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="61f7a-166">Organisatsiooni määratluse ja rakendustöörühma juhtimise alusel saate määrata, kas kuluhalduses kasutatavaid kategooriaid kasutatakse ainult kuludes või neid tuleks projekti ja kulude vahel jagada.</span><span class="sxs-lookup"><span data-stu-id="61f7a-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="61f7a-167">Arvestage, et neid kategooriaid saab jagada projekti ja kulu või projekti ja tootmise vahel, kuid mitte kulu ja tootmise vahel.</span><span class="sxs-lookup"><span data-stu-id="61f7a-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="61f7a-168">Peate langetama iga kulukategooria kohta järgmised otsused.</span><span class="sxs-lookup"><span data-stu-id="61f7a-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="61f7a-169">**Otsused.**</span><span class="sxs-lookup"><span data-stu-id="61f7a-169">**Decisions:**</span></span>
 
--   Milline on kulukategooria? Näiteks lennukipiletid, hotell või läbisõit.
--   Kas seda kulukategooriat saab kasutada ka moodulis Projektihaldus ja raamatupidamine?
--   Milline on kulutüüp?
--   Milline on kulukategooria vaikemakseviis?
--   Kas selle kategooria kulud tuleb üksikasjalikult loetleda?
--   Milline on kulukategooria peamine vaikekonto?
--   Mis on selle kulukategooria kauba käibemaksu vaikegrupp?
--   Kas selle kulukategooria puhul on lubatud täiendavad makseviisid? Kui nii, siis millised?
--   Kas selles kulukategoorias on alamkategooriaid? Kui nii, siis
-    -   kas mõni alamkategooria on maksu korvamisest välja jäetud?
-    -   Milline on alamkategooriate kauba käibemaksugrupp?
+-   <span data-ttu-id="61f7a-170">Milline on kulukategooria?</span><span class="sxs-lookup"><span data-stu-id="61f7a-170">What is the expense category?</span></span> <span data-ttu-id="61f7a-171">Näiteks lennukipiletid, hotell või läbisõit.</span><span class="sxs-lookup"><span data-stu-id="61f7a-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="61f7a-172">Kas seda kulukategooriat saab kasutada ka moodulis Projektihaldus ja raamatupidamine?</span><span class="sxs-lookup"><span data-stu-id="61f7a-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="61f7a-173">Milline on kulutüüp?</span><span class="sxs-lookup"><span data-stu-id="61f7a-173">What is the expense type?</span></span>
+-   <span data-ttu-id="61f7a-174">Milline on kulukategooria vaikemakseviis?</span><span class="sxs-lookup"><span data-stu-id="61f7a-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="61f7a-175">Kas selle kategooria kulud tuleb üksikasjalikult loetleda?</span><span class="sxs-lookup"><span data-stu-id="61f7a-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="61f7a-176">Milline on kulukategooria peamine vaikekonto?</span><span class="sxs-lookup"><span data-stu-id="61f7a-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="61f7a-177">Mis on selle kulukategooria kauba käibemaksu vaikegrupp?</span><span class="sxs-lookup"><span data-stu-id="61f7a-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="61f7a-178">Kas selle kulukategooria puhul on lubatud täiendavad makseviisid?</span><span class="sxs-lookup"><span data-stu-id="61f7a-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="61f7a-179">Kui nii, siis millised?</span><span class="sxs-lookup"><span data-stu-id="61f7a-179">If so, what are they?</span></span>
+-   <span data-ttu-id="61f7a-180">Kas selles kulukategoorias on alamkategooriaid?</span><span class="sxs-lookup"><span data-stu-id="61f7a-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="61f7a-181">Kui nii, siis</span><span class="sxs-lookup"><span data-stu-id="61f7a-181">If so:</span></span>
+    -   <span data-ttu-id="61f7a-182">kas mõni alamkategooria on maksu korvamisest välja jäetud?</span><span class="sxs-lookup"><span data-stu-id="61f7a-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="61f7a-183">Milline on alamkategooriate kauba käibemaksugrupp?</span><span class="sxs-lookup"><span data-stu-id="61f7a-183">What is the item sales tax group of the subcategories?</span></span>
 
-    Kui seda kulukategooriat kasutatakse ka moodulis Projektihaldus ja raamatupidamine, siis vastake ülejäänud küsimustele. Vastasel korral olete selle osaga lõpetanud.
--   Milliseid kulukontosid järgmiste puhul kasutatakse?
-    -   Kulu
-    -   Palga eraldamine
-    -   Lõpetamata toodang – omahind
-    -   Kulu – kaup
-    -   Lõpetamata toodang – Omahind – Kaup
-    -   Tekkepõhine kahjum
-    -   Lõpetamata toodang – Tekkepõhine kahjum
--   Milliseid tulukontosid järgmiste puhul kasutatakse?
-    -   Arveldatud tulu
-    -   Viittulu – müügihind
-    -   Lõpetamata toodang – müügihind
-    -   Viittulu – tootmine
-    -   Lõpetamata toodang – tootmine
-    -   Viittulu – kasum
-    -   Lõpetamata toodang – kasum
-    -   Viittulu – kordustellimus
-    -   Lõpetamata toodang – kordustellimus
+    <span data-ttu-id="61f7a-184">Kui seda kulukategooriat kasutatakse ka moodulis Projektihaldus ja raamatupidamine, siis vastake ülejäänud küsimustele.</span><span class="sxs-lookup"><span data-stu-id="61f7a-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="61f7a-185">Vastasel korral olete selle osaga lõpetanud.</span><span class="sxs-lookup"><span data-stu-id="61f7a-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="61f7a-186">Milliseid kulukontosid järgmiste puhul kasutatakse?</span><span class="sxs-lookup"><span data-stu-id="61f7a-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="61f7a-187">Kulu</span><span class="sxs-lookup"><span data-stu-id="61f7a-187">Cost</span></span>
+    -   <span data-ttu-id="61f7a-188">Palga eraldamine</span><span class="sxs-lookup"><span data-stu-id="61f7a-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="61f7a-189">Lõpetamata toodang – omahind</span><span class="sxs-lookup"><span data-stu-id="61f7a-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="61f7a-190">Kulu – kaup</span><span class="sxs-lookup"><span data-stu-id="61f7a-190">Cost-item</span></span>
+    -   <span data-ttu-id="61f7a-191">Lõpetamata toodang – Omahind – Kaup</span><span class="sxs-lookup"><span data-stu-id="61f7a-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="61f7a-192">Tekkepõhine kahjum</span><span class="sxs-lookup"><span data-stu-id="61f7a-192">Accrued loss</span></span>
+    -   <span data-ttu-id="61f7a-193">Lõpetamata toodang – Tekkepõhine kahjum</span><span class="sxs-lookup"><span data-stu-id="61f7a-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="61f7a-194">Milliseid tulukontosid järgmiste puhul kasutatakse?</span><span class="sxs-lookup"><span data-stu-id="61f7a-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="61f7a-195">Arveldatud tulu</span><span class="sxs-lookup"><span data-stu-id="61f7a-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="61f7a-196">Viittulu – müügihind</span><span class="sxs-lookup"><span data-stu-id="61f7a-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="61f7a-197">Lõpetamata toodang – müügihind</span><span class="sxs-lookup"><span data-stu-id="61f7a-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="61f7a-198">Viittulu – tootmine</span><span class="sxs-lookup"><span data-stu-id="61f7a-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="61f7a-199">Lõpetamata toodang – tootmine</span><span class="sxs-lookup"><span data-stu-id="61f7a-199">WIP-production</span></span>
+    -   <span data-ttu-id="61f7a-200">Viittulu – kasum</span><span class="sxs-lookup"><span data-stu-id="61f7a-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="61f7a-201">Lõpetamata toodang – kasum</span><span class="sxs-lookup"><span data-stu-id="61f7a-201">WIP-profit</span></span>
+    -   <span data-ttu-id="61f7a-202">Viittulu – kordustellimus</span><span class="sxs-lookup"><span data-stu-id="61f7a-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="61f7a-203">Lõpetamata toodang – kordustellimus</span><span class="sxs-lookup"><span data-stu-id="61f7a-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>Maksud
+### <a name="taxes"></a><span data-ttu-id="61f7a-204">Maksud</span><span class="sxs-lookup"><span data-stu-id="61f7a-204">Taxes</span></span>
 
-Kuludega seotud maksude puhul tuleb määratleda, mis kuluaruannetes sisaldub või seal lubatud on. **Otsused.**
+<span data-ttu-id="61f7a-205">Kuludega seotud maksude puhul tuleb määratleda, mis kuluaruannetes sisaldub või seal lubatud on.</span><span class="sxs-lookup"><span data-stu-id="61f7a-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="61f7a-206">**Otsused.**</span><span class="sxs-lookup"><span data-stu-id="61f7a-206">**Decisions:**</span></span>
 
--   Kas kulusummades sisaldub käibemaks?
--   Kas kulude puhul tuleks maksu korvamine lubada?
+-   <span data-ttu-id="61f7a-207">Kas kulusummades sisaldub käibemaks?</span><span class="sxs-lookup"><span data-stu-id="61f7a-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="61f7a-208">Kas kulude puhul tuleks maksu korvamine lubada?</span><span class="sxs-lookup"><span data-stu-id="61f7a-208">Should tax recovery be enabled on expenses?</span></span>
 
-Arvestage, et kui otsustasite pearaamatu plaanimise ajal rakendada USA käibemaksu ja kasutada maksureegleid, määrates välja **Rakenda käibemaksu maksustamisreeglid** olekuks Jah, ei saa kuludelt maksu korvamist lubada.
+<span data-ttu-id="61f7a-209">Arvestage, et kui otsustasite pearaamatu plaanimise ajal rakendada USA käibemaksu ja kasutada maksureegleid, määrates välja **Rakenda käibemaksu maksustamisreeglid** olekuks Jah, ei saa kuludelt maksu korvamist lubada.</span><span class="sxs-lookup"><span data-stu-id="61f7a-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>Poliitikad
-Saate luua kuluaruande poliitikaid, et teie organisatsioon saaks säästa aega ja raha, kui töötajatel organisatsiooni nimel tegutsedes kulud tekivad. Poliitikate abil saab tagada, et töötajad püsivad eelarves, esitavad kõik vajaliku teabe ja kulutavad raha ainult vajalikul viisil. Iga loodava kuluaruande poliitika ja iga kuluaruande kinnitamispoliitika puhul tuleb teha järgmised otsused. **Otsused.**
+## <a name="policies"></a><span data-ttu-id="61f7a-210">Poliitikad</span><span class="sxs-lookup"><span data-stu-id="61f7a-210">Policies</span></span>
+<span data-ttu-id="61f7a-211">Saate luua kuluaruande poliitikaid, et teie organisatsioon saaks säästa aega ja raha, kui töötajatel organisatsiooni nimel tegutsedes kulud tekivad.</span><span class="sxs-lookup"><span data-stu-id="61f7a-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="61f7a-212">Poliitikate abil saab tagada, et töötajad püsivad eelarves, esitavad kõik vajaliku teabe ja kulutavad raha ainult vajalikul viisil.</span><span class="sxs-lookup"><span data-stu-id="61f7a-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="61f7a-213">Iga loodava kuluaruande poliitika ja iga kuluaruande kinnitamispoliitika puhul tuleb teha järgmised otsused.</span><span class="sxs-lookup"><span data-stu-id="61f7a-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="61f7a-214">**Otsused.**</span><span class="sxs-lookup"><span data-stu-id="61f7a-214">**Decisions:**</span></span>
 
--   Mis on poliitika nimi?
--   Mille jaoks kulupoliitika mõeldud on?
--   Kui otsustasite eelnevalt lubada ettevõttesiseseid kulusid, siis millistele teie organisatsiooni ettevõtetele poliitika kehtib?
--   Millal poliitika jõustub?
--   Millal poliitika aegub?
--   Mis see poliitikareegel on?
--   Mis on selle poliitikareegli tulemus?
+-   <span data-ttu-id="61f7a-215">Mis on poliitika nimi?</span><span class="sxs-lookup"><span data-stu-id="61f7a-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="61f7a-216">Mille jaoks kulupoliitika mõeldud on?</span><span class="sxs-lookup"><span data-stu-id="61f7a-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="61f7a-217">Kui otsustasite eelnevalt lubada ettevõttesiseseid kulusid, siis millistele teie organisatsiooni ettevõtetele poliitika kehtib?</span><span class="sxs-lookup"><span data-stu-id="61f7a-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="61f7a-218">Millal poliitika jõustub?</span><span class="sxs-lookup"><span data-stu-id="61f7a-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="61f7a-219">Millal poliitika aegub?</span><span class="sxs-lookup"><span data-stu-id="61f7a-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="61f7a-220">Mis see poliitikareegel on?</span><span class="sxs-lookup"><span data-stu-id="61f7a-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="61f7a-221">Mis on selle poliitikareegli tulemus?</span><span class="sxs-lookup"><span data-stu-id="61f7a-221">What is the outcome of the policy rule?</span></span>
 
 
 

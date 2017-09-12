@@ -18,44 +18,44 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 6d1141d597e95b0d5cabf77c0248697d256b102a
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: f54bf30a5f7666818757e6f89e8c01b7d54a266b
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="intrastat"></a>Intrastat
+# <a name="intrastat"></a><span data-ttu-id="313de-104">Intrastat</span><span class="sxs-lookup"><span data-stu-id="313de-104">Intrastat</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis antakse teavet Euroopa Liidu (EL-i) riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse Intrastati aruandluse kohta. Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi.
+<span data-ttu-id="313de-105">Selles artiklis antakse teavet Euroopa Liidu (EL-i) riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse Intrastati aruandluse kohta.</span><span class="sxs-lookup"><span data-stu-id="313de-105">This article provides information about Intrastat reporting for the trade of goods and, in some cases, services among countries/regions of the European Union (EU).</span></span> <span data-ttu-id="313de-106">Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi.</span><span class="sxs-lookup"><span data-stu-id="313de-106">It provides an overview of the reporting process, and describes the required settings and prerequisites.</span></span>
 
-Intrastat on Euroopa Liidu (EL-i) riikide/regioonide vahelise kaubavahetuse teabe kogumise ja statistika koostamise süsteem. Intrastat-aruandlus on nõutav, kui toote ületab teise ELi riigi/regiooni piiri. Mitmes riigis/regioonis kehtib Intrastat-aruandlus ka teenustele. Intrastat-aruandluses võidakse koguda kohustuslikke ja valikulisi elemente. Järgmised elemendid on kohustuslikud: teabe esitamise eest vastutava osapoole käibemaksukohustuslase number, viiteperiood, voog (saabumine või lähetamine), kaheksakohaline kaubakood, partneri liikmesriik (saatmise liikmesriik saabumise puhul ja lähetuste puhul sihtliikmesriik), kauba väärtus, kaubakogus (netomass ja täiendav ühik) ning kande iseloom. Riigid/regioonid võivad koguda mitmesugustel tingimustel ka valikulisi elemente. Mõned valikulised elemendid on päritoluriik/-regioon, tarnetingimused, transpordiliik, üksikasjalikum kaubakood kui CN8, lähetuste puhul lähtepiirkond ja saabumiste puhul sihtpiirkond, statistiline protseduur, statistiline väärtus, kauba kirjeldus ja laadimise/mahalaadimise sadam/lennujaam.
+<span data-ttu-id="313de-107">Intrastat on Euroopa Liidu (EL-i) riikide/regioonide vahelise kaubavahetuse teabe kogumise ja statistika koostamise süsteem.</span><span class="sxs-lookup"><span data-stu-id="313de-107">Intrastat is the system for collecting information and generating statistics about the trade of goods among countries/regions of the European Union (EU).</span></span> <span data-ttu-id="313de-108">Intrastat-aruandlus on nõutav, kui toote ületab teise ELi riigi/regiooni piiri.</span><span class="sxs-lookup"><span data-stu-id="313de-108">Intrastat reporting is required whenever a product crosses the border of another EU country/region.</span></span> <span data-ttu-id="313de-109">Mitmes riigis/regioonis kehtib Intrastat-aruandlus ka teenustele.</span><span class="sxs-lookup"><span data-stu-id="313de-109">In several countries/regions, Intrastat reporting also applies to services.</span></span> <span data-ttu-id="313de-110">Intrastat-aruandluses võidakse koguda kohustuslikke ja valikulisi elemente.</span><span class="sxs-lookup"><span data-stu-id="313de-110">Mandatory and optional elements can be collected in Intrastat reporting.</span></span> <span data-ttu-id="313de-111">Järgmised elemendid on kohustuslikud: teabe esitamise eest vastutava osapoole käibemaksukohustuslase number, viiteperiood, voog (saabumine või lähetamine), kaheksakohaline kaubakood, partneri liikmesriik (saatmise liikmesriik saabumise puhul ja lähetuste puhul sihtliikmesriik), kauba väärtus, kaubakogus (netomass ja täiendav ühik) ning kande iseloom.</span><span class="sxs-lookup"><span data-stu-id="313de-111">The following elements are mandatory: the value-added tax (VAT) number of the party that is responsible for providing information, the reference period, the flow (arrival or dispatch), the eight-digit commodity code, the partner member state (member state of consignment on arrivals and member state of destination on dispatches), the value of the goods, the quantity of the goods (net mass and supplementary unit), and the nature of the transaction.</span></span> <span data-ttu-id="313de-112">Riigid/regioonid võivad koguda mitmesugustel tingimustel ka valikulisi elemente.</span><span class="sxs-lookup"><span data-stu-id="313de-112">Countries/regions can also collect optional elements under various conditions.</span></span> <span data-ttu-id="313de-113">Mõned valikulised elemendid on päritoluriik/-regioon, tarnetingimused, transpordiliik, üksikasjalikum kaubakood kui CN8, lähetuste puhul lähtepiirkond ja saabumiste puhul sihtpiirkond, statistiline protseduur, statistiline väärtus, kauba kirjeldus ja laadimise/mahalaadimise sadam/lennujaam.</span><span class="sxs-lookup"><span data-stu-id="313de-113">Some optional elements are the country/region of origin, the delivery terms, the mode of transport, a more detailed commodity code than CN8, the region of origin on dispatches and the region of destination on arrivals, the statistical procedure, the statistical value, a description of the goods, and the port/airport of loading/unloading.</span></span>
 
-## <a name="overview-of-the-intrastat-reporting-process"></a>Intrastat-aruandluse protsessi ülevaade
-Järgmised jaotised kirjeldavad üldist teabevoogu, mida Intrastat-aruandluses kasutatakse.
+## <a name="overview-of-the-intrastat-reporting-process"></a><span data-ttu-id="313de-114">Intrastat-aruandluse protsessi ülevaade</span><span class="sxs-lookup"><span data-stu-id="313de-114">Overview of the Intrastat reporting process</span></span>
+<span data-ttu-id="313de-115">Järgmised jaotised kirjeldavad üldist teabevoogu, mida Intrastat-aruandluses kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="313de-115">The following sections describe the overall flow of information that is used for Intrastat reporting.</span></span>
 
-### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Sisestage kanne, mis ületab teise ELi riigi/regiooni piiri
+### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a><span data-ttu-id="313de-116">1. Sisestage kanne, mis ületab teise ELi riigi/regiooni piiri</span><span class="sxs-lookup"><span data-stu-id="313de-116">1. Enter a transaction that crosses the border of another EU country/region</span></span>
 
-Kliendiarve, vabas vormis arve, ostuarve, projektiarve, kliendi saateleht, hankija toote sissetulek või üleviimistellimus edastatakse Intrastati töölehele ainult juhul, kui sihtkoha (lähetuste puhul) või lähtekoha (saabumiste puhul) riigi/regiooni sihtkoha tüüp on **EU**. Seda funktsiooni laiendati Microsoft Dynamics 365 for Operationsile (1611) ja see võimaldab teil määrata laadimisaadressid ELi-siseste kannete jaoks. Kui laadimisaadress erineb hankija ettevõtte aadressist (või kliendi ettevõtte aadressist tagastustellimuse puhul), kasutab Intrastati aruandlus seda teavet. Kui loote müügitellimuse, vabas vormis arve, ostutellimuse, hankijaarve, projektiarve või üleviimistellimuse, on mõnel väliskaubandusega seotud väljal dokumendi päises või real vaikeväärtused. Kandekoodi vaikeväärtus võetakse lehe **Väliskaubanduse parameetrid** vastavalt väljalt. Kaubakoodi, päritoluriigi/-regiooni ja päritolumaakonna/-provintsi vaikeväärtused võetakse kaubalt. Vaikeväärtusi saab muuta ja lisada saab ka muud väliskaubandusega seotud teavet: statistikaprotseduuri, transporti ja sadamat.
+<span data-ttu-id="313de-117">Kliendiarve, vabas vormis arve, ostuarve, projektiarve, kliendi saateleht, hankija toote sissetulek või üleviimistellimus edastatakse Intrastati töölehele ainult juhul, kui sihtkoha (lähetuste puhul) või lähtekoha (saabumiste puhul) riigi/regiooni sihtkoha tüüp on **EU**.</span><span class="sxs-lookup"><span data-stu-id="313de-117">A customer invoice, free text invoice, purchase invoice, project invoice, customer packing slip, vendor product receipt, or transfer order is transferred to the Intrastat journal only if the country/region type of the destination (on dispatches) or consignment (on arrivals) is **EU**.</span></span> <span data-ttu-id="313de-118">Seda funktsiooni laiendati Microsoft Dynamics 365 for Operationsile (1611) ja see võimaldab teil määrata laadimisaadressid ELi-siseste kannete jaoks.</span><span class="sxs-lookup"><span data-stu-id="313de-118">This feature was extended for Microsoft Dynamics 365 for Operations (1611) and allows you to specify lading addresses for an intra-community transaction.</span></span> <span data-ttu-id="313de-119">Kui laadimisaadress erineb hankija ettevõtte aadressist (või kliendi ettevõtte aadressist tagastustellimuse puhul), kasutab Intrastati aruandlus seda teavet.</span><span class="sxs-lookup"><span data-stu-id="313de-119">If a lading address differs with a vendor business address (or customer business address for return order) the Intrastat reporting will operate with this information.</span></span> <span data-ttu-id="313de-120">Kui loote müügitellimuse, vabas vormis arve, ostutellimuse, hankijaarve, projektiarve või üleviimistellimuse, on mõnel väliskaubandusega seotud väljal dokumendi päises või real vaikeväärtused.</span><span class="sxs-lookup"><span data-stu-id="313de-120">When you create a sales order, free text invoice, purchase order, vendor invoice, project invoice, or transfer order, some fields that are related to foreign trade have default values in the document header or on the line.</span></span> <span data-ttu-id="313de-121">Kandekoodi vaikeväärtus võetakse lehe **Väliskaubanduse parameetrid** vastavalt väljalt.</span><span class="sxs-lookup"><span data-stu-id="313de-121">The default transaction code is taken from the corresponding field on the **Foreign trade parameters** page.</span></span> <span data-ttu-id="313de-122">Kaubakoodi, päritoluriigi/-regiooni ja päritolumaakonna/-provintsi vaikeväärtused võetakse kaubalt.</span><span class="sxs-lookup"><span data-stu-id="313de-122">The default commodity code, country/region of origin, and state/province of origin are taken from the item.</span></span> <span data-ttu-id="313de-123">Vaikeväärtusi saab muuta ja lisada saab ka muud väliskaubandusega seotud teavet: statistikaprotseduuri, transporti ja sadamat.</span><span class="sxs-lookup"><span data-stu-id="313de-123">You can change the default values and can also fill in other foreign trade–related information: the statistics procedure, transport method, and port.</span></span>
 
-### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Looge Intrastati töölehe abil ELi riikide/regioonide vahelise kaubavahetuse teave.
+### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a><span data-ttu-id="313de-124">2. Looge Intrastati töölehe abil ELi riikide/regioonide vahelise kaubavahetuse teave.</span><span class="sxs-lookup"><span data-stu-id="313de-124">2. Use the Intrastat journal to generate information about trade among EU countries/regions</span></span>
 
-Statistilistel eesmärkidel luuakse ELi riikide/regioonide vahelise kaubavahetuse teave iga kuu. Kandeid saab edastada vabas vormis arvelt, kliendiarvelt, kliendi saatelehelt, hankija arvelt, hankija saatelehelt, projekti arvelt või üleviimistellimuselt, lehel **Väliskaubanduse parameetrid** seadistatud edastuskriteeriumide alusel. Kandeid saab sisestada ka käsitsi. Saate edastatud kandeid Intrastati töölehel käsitsi muuta, kui muutmine on vajalik. Konkreetsete tingimuste alusel, mis on seadistatud lehel **Intrastati tihendamine**, saate tihendada Intrastati töölehe kandeid. Mõnes riigis/regioonis on teil lubatud kohaldada väikest kande läve. Seejärel saate edastada aruandesse kandeid, mis jäävad määratud kaubakoodi all sellest lävest allapoole. Saate muuta kaubakoodi vastavatel Intrastati töölehe ridadel, tuginedes sättele **Alampiir** lehel **Väliskaubanduse parameetrid**. Saate neid kandeid sätte **Intrastati tihendamine** alusel ka tihendada. Saate kinnitada Intrastati töölehel olevate kannete terviklikkuse sätte **Kontrolli seadistust** põhjal lehel **Väliskaubanduse parameetrid**. Vastavatel väljadel olevate andmete terviklikkust saab kontrollida: riik/regioon, maakond või provints, kaal, kaubakood, kande kood, täiendav ühik, sadam, lähtekoht, tarnetingimus, transpordiliik ja maksuvabastuse number. Kanded, mida ei ole lõpule viidud, märgitakse kehtetuks.
+<span data-ttu-id="313de-125">Statistilistel eesmärkidel luuakse ELi riikide/regioonide vahelise kaubavahetuse teave iga kuu.</span><span class="sxs-lookup"><span data-stu-id="313de-125">For statistical purposes, you generate information about trade among EU countries/regions every month.</span></span> <span data-ttu-id="313de-126">Kandeid saab edastada vabas vormis arvelt, kliendiarvelt, kliendi saatelehelt, hankija arvelt, hankija saatelehelt, projekti arvelt või üleviimistellimuselt, lehel **Väliskaubanduse parameetrid** seadistatud edastuskriteeriumide alusel.</span><span class="sxs-lookup"><span data-stu-id="313de-126">You can transfer transactions from a free text invoice, customer invoice, customer packing slip, vendor invoice, vendor packing slip, project invoice, or transfer order, according to the transfer criteria that are set up on the **Foreign trade parameters** page.</span></span> <span data-ttu-id="313de-127">Kandeid saab sisestada ka käsitsi.</span><span class="sxs-lookup"><span data-stu-id="313de-127">Alternatively, you can enter transactions manually.</span></span> <span data-ttu-id="313de-128">Saate edastatud kandeid Intrastati töölehel käsitsi muuta, kui muutmine on vajalik.</span><span class="sxs-lookup"><span data-stu-id="313de-128">You can manually update transferred transactions in the Intrastat journal, if any updates are required.</span></span> <span data-ttu-id="313de-129">Konkreetsete tingimuste alusel, mis on seadistatud lehel **Intrastati tihendamine**, saate tihendada Intrastati töölehe kandeid.</span><span class="sxs-lookup"><span data-stu-id="313de-129">Under specific conditions that are set up on the **Compression of Intrastat** page, you can compress the transactions in the Intrastat journal.</span></span> <span data-ttu-id="313de-130">Mõnes riigis/regioonis on teil lubatud kohaldada väikest kande läve.</span><span class="sxs-lookup"><span data-stu-id="313de-130">Some countries/regions let you apply a small transaction threshold.</span></span> <span data-ttu-id="313de-131">Seejärel saate edastada aruandesse kandeid, mis jäävad määratud kaubakoodi all sellest lävest allapoole.</span><span class="sxs-lookup"><span data-stu-id="313de-131">You can then report transactions that are below that threshold under the specified commodity code.</span></span> <span data-ttu-id="313de-132">Saate muuta kaubakoodi vastavatel Intrastati töölehe ridadel, tuginedes sättele **Alampiir** lehel **Väliskaubanduse parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="313de-132">You can update the commodity code on the corresponding Intrastat journal lines, based on the **Minimum limit** setting on the **Foreign trade parameters** page.</span></span> <span data-ttu-id="313de-133">Saate neid kandeid sätte **Intrastati tihendamine** alusel ka tihendada.</span><span class="sxs-lookup"><span data-stu-id="313de-133">You can also compress those transactions, based on the **Compression of Intrastat** setting.</span></span> <span data-ttu-id="313de-134">Saate kinnitada Intrastati töölehel olevate kannete terviklikkuse sätte **Kontrolli seadistust** põhjal lehel **Väliskaubanduse parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="313de-134">You can validate the completeness of the transactions in the Intrastat journal, based on the **Check setup** setting on the **Foreign trade parameters** page.</span></span> <span data-ttu-id="313de-135">Vastavatel väljadel olevate andmete terviklikkust saab kontrollida: riik/regioon, maakond või provints, kaal, kaubakood, kande kood, täiendav ühik, sadam, lähtekoht, tarnetingimus, transpordiliik ja maksuvabastuse number.</span><span class="sxs-lookup"><span data-stu-id="313de-135">The data in corresponding fields might be validated for completeness: country/region, state or province, weight, commodity code, transaction code, additional unit, port, origin, terms of delivery, transport method, and tax exempt number.</span></span> <span data-ttu-id="313de-136">Kanded, mida ei ole lõpule viidud, märgitakse kehtetuks.</span><span class="sxs-lookup"><span data-stu-id="313de-136">Transactions that aren't completed will be marked as not valid.</span></span>
 
-### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Koostage Intrastati töölehe abil ELi riikide/regioonide vahelise kaubavahetuse aruanne.
+### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a><span data-ttu-id="313de-137">3. Koostage Intrastati töölehe abil ELi riikide/regioonide vahelise kaubavahetuse aruanne.</span><span class="sxs-lookup"><span data-stu-id="313de-137">3. Use the Intrastat journal to report information about trade among EU countries/regions</span></span>
 
-Statistilistel eesmärkidel koostatakse ELi riikide/regioonide vahelise kaubavahetuse aruanne iga kuu. Saate Intrastat-aruande välja printida, tuginedes lehe **Aruande vormingu vastendamine** sätetele lehel **Väliskaubanduse parameetrid**. Saate luua ka elektroonilise faili, tuginedes lehe **Failivormingu vastendamine** sätetele lehel **Väliskaubanduse parameetrid**. Lisateavet Intrastati aruandluse, sh nõutavate eeltingimuste kohta vaadake Intrastati aruandluse tegevuse salvestistest.
+<span data-ttu-id="313de-138">Statistilistel eesmärkidel koostatakse ELi riikide/regioonide vahelise kaubavahetuse aruanne iga kuu.</span><span class="sxs-lookup"><span data-stu-id="313de-138">For statistical purposes, you report information about trade among EU countries/regions every month.</span></span> <span data-ttu-id="313de-139">Saate Intrastat-aruande välja printida, tuginedes lehe **Aruande vormingu vastendamine** sätetele lehel **Väliskaubanduse parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="313de-139">You can print the Intrastat report, based on the **Report format mapping** settings on the **Foreign trade parameters** page.</span></span> <span data-ttu-id="313de-140">Saate luua ka elektroonilise faili, tuginedes lehe **Failivormingu vastendamine** sätetele lehel **Väliskaubanduse parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="313de-140">You can also generate an electronic file, based on the **File format mapping** settings on the **Foreign trade parameters** page.</span></span> <span data-ttu-id="313de-141">Lisateavet Intrastati aruandluse, sh nõutavate eeltingimuste kohta vaadake Intrastati aruandluse tegevuse salvestistest.</span><span class="sxs-lookup"><span data-stu-id="313de-141">For more information about Intrastat reporting, including required prerequisites, see the Intrastat reporting task recordings:</span></span>
 
--   EL-i Intrastati deklaratsiooni loomine.
--   Kannete ülekandmine Intrastati.
--   Laadimisaadressi määramine ühendusesisesele kandele.
+-   <span data-ttu-id="313de-142">EL-i Intrastati deklaratsiooni loomine.</span><span class="sxs-lookup"><span data-stu-id="313de-142">Generate an EU Intrastat declaration,</span></span>
+-   <span data-ttu-id="313de-143">Kannete ülekandmine Intrastati.</span><span class="sxs-lookup"><span data-stu-id="313de-143">Transfer transactions to the Intrastat,</span></span>
+-   <span data-ttu-id="313de-144">Laadimisaadressi määramine ühendusesisesele kandele.</span><span class="sxs-lookup"><span data-stu-id="313de-144">Specifying lading address for an intra-community transaction.</span></span>
 
-## <a name="prerequisites"></a>Eeltingimused
-Järgmises tabelis on loetletud Intrastati aruandluse eeltingimused.
+## <a name="prerequisites"></a><span data-ttu-id="313de-145">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="313de-145">Prerequisites</span></span>
+<span data-ttu-id="313de-146">Järgmises tabelis on loetletud Intrastati aruandluse eeltingimused.</span><span class="sxs-lookup"><span data-stu-id="313de-146">The following table lists the prerequisites for Intrastat reporting.</span></span>
 
 <table>
 <colgroup>
@@ -64,57 +64,57 @@ Järgmises tabelis on loetletud Intrastati aruandluse eeltingimused.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Eeltingimus</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="313de-147">Eeltingimus</span><span class="sxs-lookup"><span data-stu-id="313de-147">Prerequisite</span></span></th>
+<th><span data-ttu-id="313de-148">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="313de-148">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Aadressi häälestamine</td>
-<td>Saate seadistada riikide/regioonide ISO (Rahvusvahelise Standardiorganisatsiooni) koodid.</td>
+<td><span data-ttu-id="313de-149">Aadressi häälestamine</span><span class="sxs-lookup"><span data-stu-id="313de-149">Address setup</span></span></td>
+<td><span data-ttu-id="313de-150">Saate seadistada riikide/regioonide ISO (Rahvusvahelise Standardiorganisatsiooni) koodid.</span><span class="sxs-lookup"><span data-stu-id="313de-150">Set up International Organization for Standardization (ISO) codes for countries/regions.</span></span></td>
 </tr>
 <tr class="even">
-<td>Juriidiline isik</td>
-<td>Saate seadistada impordi/ekspordi maksuvabastuse numbrid, impordi/ekspordi filiaali koodi laiendi ja juriidilisele isikule määratud Intrastati koodi.</td>
+<td><span data-ttu-id="313de-151">Juriidiline isik</span><span class="sxs-lookup"><span data-stu-id="313de-151">Legal entity</span></span></td>
+<td><span data-ttu-id="313de-152">Saate seadistada impordi/ekspordi maksuvabastuse numbrid, impordi/ekspordi filiaali koodi laiendi ja juriidilisele isikule määratud Intrastati koodi.</span><span class="sxs-lookup"><span data-stu-id="313de-152">Set up tax exempt numbers for import/export, the branch number extension for import/export, and the Intrastat code that is assigned to the legal entity.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Toote kategooriahierarhia (müügihierarhia, hankehierarhia)</td>
-<td>Saate määrata Intrastati kaubakoodid kategooriasõlmedele vahekaardil <strong>Kaubakoodid</strong> lehel <strong>Kategooriahierarhia</strong>. Kui määrate kaubakoodi peamisele kategooriasõlmele, kehtib see kood kõigile kategooria alamsõlmedele. Valitud kaubakoodid on saadaval vaates <strong>Valitud</strong>, kui valite väljastatud toote üksikasjades ja müügitellimuse, ostutellimuse ja üleviimistellimuse ridadel kaubakoodi.</td>
+<td><span data-ttu-id="313de-153">Toote kategooriahierarhia (müügihierarhia, hankehierarhia)</span><span class="sxs-lookup"><span data-stu-id="313de-153">Product category hierarchy (sales hierarchy, procurement hierarchy)</span></span></td>
+<td><span data-ttu-id="313de-154">Saate määrata Intrastati kaubakoodid kategooriasõlmedele vahekaardil <strong>Kaubakoodid</strong> lehel <strong>Kategooriahierarhia</strong>.</span><span class="sxs-lookup"><span data-stu-id="313de-154">Assign the Intrastat commodity codes to the category nodes on the <strong>Commodity codes</strong> tab of the <strong>Category hierarchy</strong> page.</span></span> <span data-ttu-id="313de-155">Kui määrate kaubakoodi peamisele kategooriasõlmele, kehtib see kood kõigile kategooria alamsõlmedele.</span><span class="sxs-lookup"><span data-stu-id="313de-155">When you assign a commodity code to a parent category node, that code is applicable to all child category nodes.</span></span> <span data-ttu-id="313de-156">Valitud kaubakoodid on saadaval vaates <strong>Valitud</strong>, kui valite väljastatud toote üksikasjades ja müügitellimuse, ostutellimuse ja üleviimistellimuse ridadel kaubakoodi.</span><span class="sxs-lookup"><span data-stu-id="313de-156">The selected commodity codes will be available in the <strong>Selected</strong> view when you select a commodity code in the released product details, and on sales order, purchase order, and transfer order lines.</span></span></td>
 </tr>
 <tr class="even">
-<td>Väljastatud toote üksikasjad</td>
-<td>Saate seadistada järgmised väljastatud toodete väliskaubanduse andmed.
+<td><span data-ttu-id="313de-157">Väljastatud toote üksikasjad</span><span class="sxs-lookup"><span data-stu-id="313de-157">Released product details</span></span></td>
+<td><span data-ttu-id="313de-158">Saate seadistada järgmised väljastatud toodete väliskaubanduse andmed.</span><span class="sxs-lookup"><span data-stu-id="313de-158">Set up the following foreign trade data for released products:</span></span>
 <ul>
-<li><strong>Kaubakood</strong> – valige määratud tootekategooriatest toodud valitud kaupade loendist või Intrastati kaubakoodide tervikloendist.</li>
-<li><strong>Statistiliste tasude protsent</strong></li>
-<li><strong>Päritoluriik/-regioon</strong> – saate valida vaikeriigi/-regiooni, kust kaup täielikult hangiti või kus see toodeti.</li>
-<li><strong>Lähte-/sihtmaakond/-provints</strong> – valige sihtmaakonna/-provintsi vaikeväärtus saabumiste puhul ja lähtemaakond/-provints lähetuste puhul.</li>
-<li><strong>Netokaal (kg)</strong></li>
+<li><span data-ttu-id="313de-159"><strong>Kaubakood</strong> – valige määratud tootekategooriatest toodud valitud kaupade loendist või Intrastati kaubakoodide tervikloendist.</span><span class="sxs-lookup"><span data-stu-id="313de-159"><strong>Commodity code</strong> – Select from either the list of selected commodities that is retrieved from assigned product categories or the full list of Intrastat commodity codes.</span></span></li>
+<li><span data-ttu-id="313de-160"><strong>Statistiliste tasude protsent</strong></span><span class="sxs-lookup"><span data-stu-id="313de-160"><strong>Statistical charges percentage</strong></span></span></li>
+<li><span data-ttu-id="313de-161"><strong>Päritoluriik/-regioon</strong> – saate valida vaikeriigi/-regiooni, kust kaup täielikult hangiti või kus see toodeti.</span><span class="sxs-lookup"><span data-stu-id="313de-161"><strong>Country/region of origin</strong> – Select the default country/region where the goods were completely obtained or produced.</span></span></li>
+<li><span data-ttu-id="313de-162"><strong>Lähte-/sihtmaakond/-provints</strong> – valige sihtmaakonna/-provintsi vaikeväärtus saabumiste puhul ja lähtemaakond/-provints lähetuste puhul.</span><span class="sxs-lookup"><span data-stu-id="313de-162"><strong>State/province of origin/destination</strong> – Select the default state/province of destination for arrivals and the state/province of origin for dispatches.</span></span></li>
+<li><span data-ttu-id="313de-163"><strong>Netokaal (kg)</strong></span><span class="sxs-lookup"><span data-stu-id="313de-163"><strong>Net weight in kg</strong></span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Kliendid</td>
-<td>Saate seadistada kliendi tarneaadressi ELi riigis/regioonis.</td>
+<td><span data-ttu-id="313de-164">Kliendid</span><span class="sxs-lookup"><span data-stu-id="313de-164">Customers</span></span></td>
+<td><span data-ttu-id="313de-165">Saate seadistada kliendi tarneaadressi ELi riigis/regioonis.</span><span class="sxs-lookup"><span data-stu-id="313de-165">Set up the customer delivery address in the EU country/region.</span></span></td>
 </tr>
 <tr class="even">
-<td>Hankijad</td>
-<td>Saate seadistada hankija aadressi ELi riigis/regioonis.</td>
+<td><span data-ttu-id="313de-166">Hankijad</span><span class="sxs-lookup"><span data-stu-id="313de-166">Vendors</span></span></td>
+<td><span data-ttu-id="313de-167">Saate seadistada hankija aadressi ELi riigis/regioonis.</span><span class="sxs-lookup"><span data-stu-id="313de-167">Set up the vendor address in the EU country/region.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Mitmesugused tasud</td>
-<td>Saate seadistada lisakulude koodi arve summale, statistilisele summale või mõlemale lisamiseks. Aktiveerige lehel <strong>Tasukoodid</strong> vahekaardil <strong>Väliskaubandus</strong> valik <strong>Intrastati arve väärtus</strong>, et kaasata tasusumma arve väärtusse, ja aktiveerige valik <strong>Intrastati statistiline väärtus</strong> tasusumma kaasamiseks statistilisse väärtusse.</td>
+<td><span data-ttu-id="313de-168">Mitmesugused tasud</span><span class="sxs-lookup"><span data-stu-id="313de-168">Miscellaneous charges</span></span></td>
+<td><span data-ttu-id="313de-169">Saate seadistada lisakulude koodi arve summale, statistilisele summale või mõlemale lisamiseks.</span><span class="sxs-lookup"><span data-stu-id="313de-169">Set up the miscellaneous charges code to include in the invoice amount, the statistical amount, or both.</span></span> <span data-ttu-id="313de-170">Aktiveerige lehel <strong>Tasukoodid</strong> vahekaardil <strong>Väliskaubandus</strong> valik <strong>Intrastati arve väärtus</strong>, et kaasata tasusumma arve väärtusse, ja aktiveerige valik <strong>Intrastati statistiline väärtus</strong> tasusumma kaasamiseks statistilisse väärtusse.</span><span class="sxs-lookup"><span data-stu-id="313de-170">On the <strong>Charges codes</strong> page, on the <strong>Foreign trade</strong> tab, enable <strong>Intrastat invoice value</strong> to include the charges amount in the invoice value, and enable <strong>Intrastat statistical value</strong> to include the charges amount in the statistical value.</span></span></td>
 </tr>
 <tr class="even">
-<td>Elektrooniline aruandlus</td>
-<td>Saate seadistada elektroonilise aruandluse konfiguratsioonid Intrastati andmete eksportimiseks elektroonilisse faili, mis on vastavate asutuste nõutavas vormingus, ja Intrastati andmete eelvaate kuvamiseks kasutajasõbralikus, loetavas vormingus (nt Microsoft Excelis).</td>
+<td><span data-ttu-id="313de-171">Elektrooniline aruandlus</span><span class="sxs-lookup"><span data-stu-id="313de-171">Electronic reporting</span></span></td>
+<td><span data-ttu-id="313de-172">Saate seadistada elektroonilise aruandluse konfiguratsioonid Intrastati andmete eksportimiseks elektroonilisse faili, mis on vastavate asutuste nõutavas vormingus, ja Intrastati andmete eelvaate kuvamiseks kasutajasõbralikus, loetavas vormingus (nt Microsoft Excelis).</span><span class="sxs-lookup"><span data-stu-id="313de-172">Set up electronic reporting configurations to export Intrastat data in an electronic file that has the format that is requested by the relevant authorities, and to preview Intrastat data in a user-friendly, readable format (for example, in Microsoft Excel).</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="setup"></a>Häälestus
-Järgmised jaotised kirjeldavad sätteid, mida on Intrastat-aruandluse jaoks vaja.
+## <a name="setup"></a><span data-ttu-id="313de-173">Häälestus</span><span class="sxs-lookup"><span data-stu-id="313de-173">Setup</span></span>
+<span data-ttu-id="313de-174">Järgmised jaotised kirjeldavad sätteid, mida on Intrastat-aruandluse jaoks vaja.</span><span class="sxs-lookup"><span data-stu-id="313de-174">The following sections describe the settings that are required for Intrastat reporting.</span></span>
 
-### <a name="set-up-all-required-intrastat-related-lists"></a>Kõigi vajalike Intrastatiga seotud loendite seadistamine
+### <a name="set-up-all-required-intrastat-related-lists"></a><span data-ttu-id="313de-175">Kõigi vajalike Intrastatiga seotud loendite seadistamine</span><span class="sxs-lookup"><span data-stu-id="313de-175">Set up all required Intrastat-related lists</span></span>
 
 <table>
 <colgroup>
@@ -123,61 +123,61 @@ Järgmised jaotised kirjeldavad sätteid, mida on Intrastat-aruandluse jaoks vaj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Loend</th>
-<th>Lisateave</th>
+<th><span data-ttu-id="313de-176">Loend</span><span class="sxs-lookup"><span data-stu-id="313de-176">List</span></span></th>
+<th><span data-ttu-id="313de-177">Lisateave</span><span class="sxs-lookup"><span data-stu-id="313de-177">Additional information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kaubaartiklite koodid</td>
-<td>Saate seadistada kategooriahierarhia tüübiga <strong>Kaubakood</strong> ja sisestada kõik kaubakoodid kombineeritud nomenklatuuriloendi alusel. Iga kauba kohta saate seadistada järgmise teabe.
+<td><span data-ttu-id="313de-178">Kaubaartiklite koodid</span><span class="sxs-lookup"><span data-stu-id="313de-178">Commodity codes</span></span></td>
+<td><span data-ttu-id="313de-179">Saate seadistada kategooriahierarhia tüübiga <strong>Kaubakood</strong> ja sisestada kõik kaubakoodid kombineeritud nomenklatuuriloendi alusel.</span><span class="sxs-lookup"><span data-stu-id="313de-179">Set up a category hierarchy of type <strong>Commodity code</strong>, and enter all commodity codes according to the combined nomenclature list.</span></span> <span data-ttu-id="313de-180">Iga kauba kohta saate seadistada järgmise teabe.</span><span class="sxs-lookup"><span data-stu-id="313de-180">For each commodity, you set up the following information:</span></span>
 <ul>
-<li>Kauba nimi ja kaubakood</li>
-<li>Hüüdnimi ja/või tõlgitud nimi</li>
-<li>Lisaühikute (täiendavate ühikute) aruandluse sätted vahekaardil <strong>Väliskaubandus</strong>. Lisaühiku saab valida ühikute loendist. Samuti saate määrata, kas kaupade kaal tuleb lisaks valitud lisaühikule aruandesse lisada.</li>
+<li><span data-ttu-id="313de-181">Kauba nimi ja kaubakood</span><span class="sxs-lookup"><span data-stu-id="313de-181">The name of the commodity and the commodity code</span></span></li>
+<li><span data-ttu-id="313de-182">Hüüdnimi ja/või tõlgitud nimi</span><span class="sxs-lookup"><span data-stu-id="313de-182">The friendly name and/or translated name</span></span></li>
+<li><span data-ttu-id="313de-183">Lisaühikute (täiendavate ühikute) aruandluse sätted vahekaardil <strong>Väliskaubandus</strong>.</span><span class="sxs-lookup"><span data-stu-id="313de-183">Settings for reporting additional (supplementary) units on the <strong>Foreign trade</strong> tab.</span></span> <span data-ttu-id="313de-184">Lisaühiku saab valida ühikute loendist.</span><span class="sxs-lookup"><span data-stu-id="313de-184">You can select the additional unit in the unit list.</span></span> <span data-ttu-id="313de-185">Samuti saate määrata, kas kaupade kaal tuleb lisaks valitud lisaühikule aruandesse lisada.</span><span class="sxs-lookup"><span data-stu-id="313de-185">You can also specify whether the weight of commodities must be reported in addition to the selected additional unit.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Kandekoodid</td>
-<td>Saate seadistada kande iseloomu teie riigi/regiooni nõuete kohaselt. Iga seadistatava kandekoodi puhul peate seadistama reeglid üleviimistellimuste ja müügi-/ostutellimuste arvesummade ja statistiliste summade arvutamiseks.
+<td><span data-ttu-id="313de-186">Kandekoodid</span><span class="sxs-lookup"><span data-stu-id="313de-186">Transaction codes</span></span></td>
+<td><span data-ttu-id="313de-187">Saate seadistada kande iseloomu teie riigi/regiooni nõuete kohaselt.</span><span class="sxs-lookup"><span data-stu-id="313de-187">Set up the nature of the transaction according to your country's/region's requirements.</span></span> <span data-ttu-id="313de-188">Iga seadistatava kandekoodi puhul peate seadistama reeglid üleviimistellimuste ja müügi-/ostutellimuste arvesummade ja statistiliste summade arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="313de-188">For each transaction code that you set up, you must set up the rules for calculating invoice amounts and statistical amounts for transfer orders and sales/purchase orders.</span></span>
 <ul>
-<li>Üleviimistellimuste puhul saate seadistada arvesummade ja statistiliste summade arvutamiseks ühe järgmistest reeglitest.
+<li><span data-ttu-id="313de-189">Üleviimistellimuste puhul saate seadistada arvesummade ja statistiliste summade arvutamiseks ühe järgmistest reeglitest.</span><span class="sxs-lookup"><span data-stu-id="313de-189">For transfer orders, you set up one of the following rules for calculating invoice amounts and statistical amounts:</span></span>
 <ul>
-<li><strong>Tühi</strong> – summa on 0 (null).</li>
-<li><strong>Finantsomahind</strong> – summa on võrdne finantsomahinnaga.</li>
-<li><strong>Kogumaksumus</strong> – summa on võrdne kande kogumaksumusega.</li>
-<li><strong>Käsitsi</strong> – summa on võrdne üleviimistellimuse käsitsi määratud summaga.</li>
+<li><span data-ttu-id="313de-190"><strong>Tühi</strong> – summa on 0 (null).</span><span class="sxs-lookup"><span data-stu-id="313de-190"><strong>Empty</strong> – The amount will be 0 (zero).</span></span></li>
+<li><span data-ttu-id="313de-191"><strong>Finantsomahind</strong> – summa on võrdne finantsomahinnaga.</span><span class="sxs-lookup"><span data-stu-id="313de-191"><strong>Financial cost amount</strong> – The amount will be equal to the financial cost.</span></span></li>
+<li><span data-ttu-id="313de-192"><strong>Kogumaksumus</strong> – summa on võrdne kande kogumaksumusega.</span><span class="sxs-lookup"><span data-stu-id="313de-192"><strong>Total cost</strong> – The amount will be equal to the total cost of the transaction.</span></span></li>
+<li><span data-ttu-id="313de-193"><strong>Käsitsi</strong> – summa on võrdne üleviimistellimuse käsitsi määratud summaga.</span><span class="sxs-lookup"><span data-stu-id="313de-193"><strong>Manual</strong> – The amount will be equal to the amount that is manually specified on the transfer order line.</span></span></li>
 </ul></li>
-<li>Müügi- ja ostutellimuste puhul saate seadistada arvesummade ja statistiliste summade arvutamiseks ühe järgmistest reeglitest.
+<li><span data-ttu-id="313de-194">Müügi- ja ostutellimuste puhul saate seadistada arvesummade ja statistiliste summade arvutamiseks ühe järgmistest reeglitest.</span><span class="sxs-lookup"><span data-stu-id="313de-194">For sales orders and purchase orders, you set up one of the following rules for calculating invoice amounts and statistical amounts:</span></span>
 <ul>
-<li><strong>Tühi</strong> – summa on 0 (null).</li>
-<li><strong>Arve summa</strong> – summa on võrdne kauba eest esitatud arvel oleva summaga.</li>
-<li><strong>Baassumma</strong> – summa on võrdne enne allahindluse rakendamist arvel oleva summaga.</li>
+<li><span data-ttu-id="313de-195"><strong>Tühi</strong> – summa on 0 (null).</span><span class="sxs-lookup"><span data-stu-id="313de-195"><strong>Empty</strong> – The amount will be 0 (zero).</span></span></li>
+<li><span data-ttu-id="313de-196"><strong>Arve summa</strong> – summa on võrdne kauba eest esitatud arvel oleva summaga.</span><span class="sxs-lookup"><span data-stu-id="313de-196"><strong>Invoice amount</strong> – The amount will be equal to the amount that is invoiced for the commodity.</span></span></li>
+<li><span data-ttu-id="313de-197"><strong>Baassumma</strong> – summa on võrdne enne allahindluse rakendamist arvel oleva summaga.</span><span class="sxs-lookup"><span data-stu-id="313de-197"><strong>Base amount</strong> – The amount will be equal to the amount that would be invoiced before any discount is applied.</span></span></li>
 </ul></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Transpordimeetodid</td>
-<td>Saate seadistada transpordiliigi teie riigi/regiooni nõuete kohaselt. Saate määrata iga tarneviisi jaoks vahekaardil <strong>Väliskaubandus</strong> vaike-transpordiliigi.</td>
+<td><span data-ttu-id="313de-198">Transpordimeetodid</span><span class="sxs-lookup"><span data-stu-id="313de-198">Transport methods</span></span></td>
+<td><span data-ttu-id="313de-199">Saate seadistada transpordiliigi teie riigi/regiooni nõuete kohaselt.</span><span class="sxs-lookup"><span data-stu-id="313de-199">Set up the transport mode according to your country's/region's requirements.</span></span> <span data-ttu-id="313de-200">Saate määrata iga tarneviisi jaoks vahekaardil <strong>Väliskaubandus</strong> vaike-transpordiliigi.</span><span class="sxs-lookup"><span data-stu-id="313de-200">For each delivery mode, you can set up a default transport method on the <strong>Foreign trade</strong> tab.</span></span></td>
 </tr>
 <tr class="even">
-<td>Sadamad</td>
-<td>Saate seadistada laadimise/mahalaadimise sadama/lennujaama, kui teie riigis/regioonis neid andmeid kogutakse.</td>
+<td><span data-ttu-id="313de-201">Sadamad</span><span class="sxs-lookup"><span data-stu-id="313de-201">Ports</span></span></td>
+<td><span data-ttu-id="313de-202">Saate seadistada laadimise/mahalaadimise sadama/lennujaama, kui teie riigis/regioonis neid andmeid kogutakse.</span><span class="sxs-lookup"><span data-stu-id="313de-202">Set up the port/airport of loading/unloading if this information is collected by your country/region.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Statistikaprotseduurid</td>
-<td>Saate seadistada statistilise protseduuri, kui seda teavet teie riigis/regioonis kogutakse.</td>
+<td><span data-ttu-id="313de-203">Statistikaprotseduurid</span><span class="sxs-lookup"><span data-stu-id="313de-203">Statistics procedures</span></span></td>
+<td><span data-ttu-id="313de-204">Saate seadistada statistilise protseduuri, kui seda teavet teie riigis/regioonis kogutakse.</span><span class="sxs-lookup"><span data-stu-id="313de-204">Set up the statistical procedure if this information is collected by your country/region.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="set-up-rules-for-compressing-intrastat-transactions"></a>Intrastati kannete tihendamise reeglite seadistamine
+### <a name="set-up-rules-for-compressing-intrastat-transactions"></a><span data-ttu-id="313de-205">Intrastati kannete tihendamise reeglite seadistamine</span><span class="sxs-lookup"><span data-stu-id="313de-205">Set up rules for compressing Intrastat transactions</span></span>
 
-Lehel **Intrastati tihendamine** saate valida tihendamiseks kasutatavad väljad. Kõik kanded, millel on Intrastati töölehel valitud väljadel sama väärtuste kombinatsioon, tihendatakse üheks kandeks, kui kasutate Intrastati töölehel tihendamise funktsiooni.
+<span data-ttu-id="313de-206">Lehel **Intrastati tihendamine** saate valida tihendamiseks kasutatavad väljad.</span><span class="sxs-lookup"><span data-stu-id="313de-206">On the **Compression of Intrastat** page, you can select the fields to use for compression.</span></span> <span data-ttu-id="313de-207">Kõik kanded, millel on Intrastati töölehel valitud väljadel sama väärtuste kombinatsioon, tihendatakse üheks kandeks, kui kasutate Intrastati töölehel tihendamise funktsiooni.</span><span class="sxs-lookup"><span data-stu-id="313de-207">All transactions that have the same combination of values for the selected fields in the Intrastat journal will be compressed into a single transaction when you run the Compress function in the Intrastat journal.</span></span>
 
-### <a name="set-up-foreign-trade-parameters"></a>Väliskaubanduse parameetrite häälestamine
+### <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="313de-208">Väliskaubanduse parameetrite häälestamine</span><span class="sxs-lookup"><span data-stu-id="313de-208">Set up foreign trade parameters</span></span>
 
-Kasutage lehte **Väliskaubanduse parameetrid** parameetrite seadistamiseks järgmises tabelis.
+<span data-ttu-id="313de-209">Kasutage lehte **Väliskaubanduse parameetrid** parameetrite seadistamiseks järgmises tabelis.</span><span class="sxs-lookup"><span data-stu-id="313de-209">Use the **Foreign trade parameters** page to set up the parameters in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -186,54 +186,54 @@ Kasutage lehte **Väliskaubanduse parameetrid** parameetrite seadistamiseks jär
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vahekaart</th>
-<th>Parameetrid</th>
+<th><span data-ttu-id="313de-210">Vahekaart</span><span class="sxs-lookup"><span data-stu-id="313de-210">Tab</span></span></th>
+<th><span data-ttu-id="313de-211">Parameetrid</span><span class="sxs-lookup"><span data-stu-id="313de-211">Parameters</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Üldine</td>
+<td><span data-ttu-id="313de-212">Üldine</span><span class="sxs-lookup"><span data-stu-id="313de-212">General</span></span></td>
 <td><ul>
-<li><strong>Üldine</strong> – määrake järgmised andmed.
+<li><span data-ttu-id="313de-213"><strong>Üldine</strong> – määrake järgmised andmed.</span><span class="sxs-lookup"><span data-stu-id="313de-213"><strong>General</strong> – Specify the following information:</span></span>
 <ul>
-<li>Müügi- ja ostutellimuste, kreeditarvete ja üleviimistellimuste kandekoodide vaikeväärtus. Kreeditarvetele seadistatud kandekoodi kasutatakse ka füüsiliste kaupade tagastamise koodina ning seda kasutatakse füüsiliste tagastuste ja parandamise kreeditarvete hälbe puhul.</li>
-<li>Töötaja, kes vastutab Intrastati aruannete koostamise eest.</li>
+<li><span data-ttu-id="313de-214">Müügi- ja ostutellimuste, kreeditarvete ja üleviimistellimuste kandekoodide vaikeväärtus.</span><span class="sxs-lookup"><span data-stu-id="313de-214">The default transaction codes for sales orders, purchase orders, credit notes, and transfer orders.</span></span> <span data-ttu-id="313de-215">Kreeditarvetele seadistatud kandekoodi kasutatakse ka füüsiliste kaupade tagastamise koodina ning seda kasutatakse füüsiliste tagastuste ja parandamise kreeditarvete hälbe puhul.</span><span class="sxs-lookup"><span data-stu-id="313de-215">The transaction code that is set up for credit notes is also used as the code for physical goods return and is used for deviating physical returns versus correction credit notes.</span></span></li>
+<li><span data-ttu-id="313de-216">Töötaja, kes vastutab Intrastati aruannete koostamise eest.</span><span class="sxs-lookup"><span data-stu-id="313de-216">The employee who is responsible for preparing Intrastat reports.</span></span></li>
 </ul></li>
-<li><strong>Alampiir</strong> – määrake lävest allapoole jäävate kannete muutmise sätted.
+<li><span data-ttu-id="313de-217"><strong>Alampiir</strong> – määrake lävest allapoole jäävate kannete muutmise sätted.</span><span class="sxs-lookup"><span data-stu-id="313de-217"><strong>Minimum limit</strong> – Specify the settings for updating transactions that are below the threshold:</span></span>
 <ul>
-<li>Läve summa ja kaal</li>
-<li>Lävest allapoole jäävate kannete puhul kohaldatav kaubakood</li>
+<li><span data-ttu-id="313de-218">Läve summa ja kaal</span><span class="sxs-lookup"><span data-stu-id="313de-218">The threshold amount and weight</span></span></li>
+<li><span data-ttu-id="313de-219">Lävest allapoole jäävate kannete puhul kohaldatav kaubakood</span><span class="sxs-lookup"><span data-stu-id="313de-219">The commodity code to apply to transactions that are under the threshold</span></span></li>
 </ul></li>
-<li><strong>Ülekanne</strong> – määrake kriteeriumid kannete ülekandmiseks Intrastati töölehele. Saate määrata, et kanded kantakse üle ainult siis, kui kaubad vastavad ühele või kõigile järgmistele kriteeriumidele.
+<li><span data-ttu-id="313de-220"><strong>Ülekanne</strong> – määrake kriteeriumid kannete ülekandmiseks Intrastati töölehele.</span><span class="sxs-lookup"><span data-stu-id="313de-220"><strong>Transfer</strong> – Specify the criteria for transferring transactions to the Intrastat journal.</span></span> <span data-ttu-id="313de-221">Saate määrata, et kanded kantakse üle ainult siis, kui kaubad vastavad ühele või kõigile järgmistele kriteeriumidele.</span><span class="sxs-lookup"><span data-stu-id="313de-221">You can specify that transactions are transferred only when the items meet one or all of the following criteria:</span></span>
 <ul>
-<li>Kaubad ei ole teenusüksused.</li>
-<li>Kaupadel on kaubakood.</li>
-<li>Kaupadel on kaal.</li>
-<li>Kaupadel on lisaühikud.</li>
+<li><span data-ttu-id="313de-222">Kaubad ei ole teenusüksused.</span><span class="sxs-lookup"><span data-stu-id="313de-222">The items aren't service items.</span></span></li>
+<li><span data-ttu-id="313de-223">Kaupadel on kaubakood.</span><span class="sxs-lookup"><span data-stu-id="313de-223">The items have a commodity code.</span></span></li>
+<li><span data-ttu-id="313de-224">Kaupadel on kaal.</span><span class="sxs-lookup"><span data-stu-id="313de-224">The items have a weight.</span></span></li>
+<li><span data-ttu-id="313de-225">Kaupadel on lisaühikud.</span><span class="sxs-lookup"><span data-stu-id="313de-225">The items have additional units.</span></span></li>
 </ul></li>
-<li><strong>Seadistuse kontrollimine</strong> – määrake reeglid Intrastati andmete terviklikkuse kontrollimiseks. Saate valida, milliseid andmeid kontrollitakse.</li>
-<li><strong>Ümardamisreeglid</strong> – määrake järgmised sätted summade ja kaalude ümardamiseks Intrastati aruandes.
+<li><span data-ttu-id="313de-226"><strong>Seadistuse kontrollimine</strong> – määrake reeglid Intrastati andmete terviklikkuse kontrollimiseks.</span><span class="sxs-lookup"><span data-stu-id="313de-226"><strong>Check setup</strong> – Specify the rules for validating the completeness of Intrastat data.</span></span> <span data-ttu-id="313de-227">Saate valida, milliseid andmeid kontrollitakse.</span><span class="sxs-lookup"><span data-stu-id="313de-227">You can select which data is validated.</span></span></li>
+<li><span data-ttu-id="313de-228"><strong>Ümardamisreeglid</strong> – määrake järgmised sätted summade ja kaalude ümardamiseks Intrastati aruandes.</span><span class="sxs-lookup"><span data-stu-id="313de-228"><strong>Rounding rules</strong> – Specify the following settings for rounding amounts and weights in Intrastat reporting:</span></span>
 <ul>
-<li>Ümardamisreegel (täpsus)</li>
-<li>Ümardamismeetod: üles, alla või tavaline</li>
-<li>Summade ja kaalude kümnendkohtade arv</li>
-<li>Juhised alla 1 kilogrammi (kg) suuruste kaalude ümardamiseks: üles 1 kg-ni, tavaline või ilma ümardamiseta</li>
+<li><span data-ttu-id="313de-229">Ümardamisreegel (täpsus)</span><span class="sxs-lookup"><span data-stu-id="313de-229">The rounding rule (precision)</span></span></li>
+<li><span data-ttu-id="313de-230">Ümardamismeetod: üles, alla või tavaline</span><span class="sxs-lookup"><span data-stu-id="313de-230">The rounding method: up, down, or normal</span></span></li>
+<li><span data-ttu-id="313de-231">Summade ja kaalude kümnendkohtade arv</span><span class="sxs-lookup"><span data-stu-id="313de-231">The number of decimal places for amounts and weights</span></span></li>
+<li><span data-ttu-id="313de-232">Juhised alla 1 kilogrammi (kg) suuruste kaalude ümardamiseks: üles 1 kg-ni, tavaline või ilma ümardamiseta</span><span class="sxs-lookup"><span data-stu-id="313de-232">Instructions for rounding weights that are less than 1 kilogram (kg): up to 1 kg, normal, or no rounding</span></span></li>
 </ul></li>
-<li><strong>Elektrooniline aruandlus</strong> – määrake elektroonilise aruandluse konfiguratsioonide viited, et saaksite luua elektroonilise faili ja aruande.</li>
-<li><strong>Kaubakoodide hierarhia</strong> – määrake kategooriahierarhia <strong>Kaubakoodi</strong> tüübile, mis kajastab Intrastati kaubakoodi CN8.</li>
+<li><span data-ttu-id="313de-233"><strong>Elektrooniline aruandlus</strong> – määrake elektroonilise aruandluse konfiguratsioonide viited, et saaksite luua elektroonilise faili ja aruande.</span><span class="sxs-lookup"><span data-stu-id="313de-233"><strong>Electronic reporting</strong> – Specify references to electronic reporting configurations, so that you can generate an electronic file and report.</span></span></li>
+<li><span data-ttu-id="313de-234"><strong>Kaubakoodide hierarhia</strong> – määrake kategooriahierarhia <strong>Kaubakoodi</strong> tüübile, mis kajastab Intrastati kaubakoodi CN8.</span><span class="sxs-lookup"><span data-stu-id="313de-234"><strong>Commodity code hierarchy</strong> – Specify the category hierarchy of the <strong>Commodity code</strong> type that represents Intrastat commodity code CN8.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Agendi kontaktandmed</td>
-<td>Määrake agendi nimi, aadress, maksukohustuslase kood, telefoninumber ja faksinumber.</td>
+<td><span data-ttu-id="313de-235">Agendi kontaktandmed</span><span class="sxs-lookup"><span data-stu-id="313de-235">Agent contact information</span></span></td>
+<td><span data-ttu-id="313de-236">Määrake agendi nimi, aadress, maksukohustuslase kood, telefoninumber ja faksinumber.</span><span class="sxs-lookup"><span data-stu-id="313de-236">Specify the agent's name, address, tax exempt number, telephone number, and fax number.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Riigi/regiooni atribuudid</td>
-<td>Määrake praeguse juriidilise isiku riigiks/regiooniks <strong>Kodumaine</strong>. Määrake praeguse juriidilise isikuga ELi kaubanduses osalevate ELi riikide/regioonide riigiks/koodiks <strong>EL</strong>. Iga riigi/regiooni puhul saate määrata ka riigi/regiooni koodi väliskaubanduse eesmärgil.</td>
+<td><span data-ttu-id="313de-237">Riigi/regiooni atribuudid</span><span class="sxs-lookup"><span data-stu-id="313de-237">Country/region properties</span></span></td>
+<td><span data-ttu-id="313de-238">Määrake praeguse juriidilise isiku riigiks/regiooniks <strong>Kodumaine</strong>.</span><span class="sxs-lookup"><span data-stu-id="313de-238">Set the country/region of the current legal entity to <strong>Domestic</strong>.</span></span> <span data-ttu-id="313de-239">Määrake praeguse juriidilise isikuga ELi kaubanduses osalevate ELi riikide/regioonide riigiks/koodiks <strong>EL</strong>.</span><span class="sxs-lookup"><span data-stu-id="313de-239">Set the country/region of EU countries/regions that participate in EU trade with the current legal entity to <strong>EU</strong>.</span></span> <span data-ttu-id="313de-240">Iga riigi/regiooni puhul saate määrata ka riigi/regiooni koodi väliskaubanduse eesmärgil.</span><span class="sxs-lookup"><span data-stu-id="313de-240">For each country/region, you also identify country/region code for foreign trade purposes.</span></span></td>
 </tr>
 <tr class="even">
-<td>Numbriseeria</td>
-<td>Saate määrata Intrastati töölehe numbriseeria.</td>
+<td><span data-ttu-id="313de-241">Numbriseeria</span><span class="sxs-lookup"><span data-stu-id="313de-241">Number sequence</span></span></td>
+<td><span data-ttu-id="313de-242">Saate määrata Intrastati töölehe numbriseeria.</span><span class="sxs-lookup"><span data-stu-id="313de-242">Specify the number sequence for the Intrastat journal.</span></span></td>
 </tr>
 </tbody>
 </table>

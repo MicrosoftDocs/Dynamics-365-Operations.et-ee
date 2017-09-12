@@ -16,32 +16,32 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 27e907d1f9bfafb1df140b6b6d260a2a45809bae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 94e17d7cbcc8f826e806a8d4bc026a9d7844e910
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-main-account-categories"></a>Põhikonto kategooriate seadistamine
+# <a name="set-up-main-account-categories"></a><span data-ttu-id="904e4-103">Põhikonto kategooriate seadistamine</span><span class="sxs-lookup"><span data-stu-id="904e4-103">Set up main account categories</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Põhikonto kategooriaid kasutatakse vaikearuanneteks finantsaruandlusel ja Power BI-s. Vaikimisi loodud põhikonto kategooriaid saab ümber nimetada, kuid mitte kustutada. Luua saab täiendavaid kontokategooriaid ning kasutada neid aruandluseks ja analüüsiks. See ülesanne kasutab demoettevõtte USMF andmeid.
+<span data-ttu-id="904e4-104">Põhikonto kategooriaid kasutatakse vaikearuanneteks finantsaruandlusel ja Power BI-s.</span><span class="sxs-lookup"><span data-stu-id="904e4-104">Main account categories are used for the default reports in financial reporting and in Power BI.</span></span> <span data-ttu-id="904e4-105">Vaikimisi loodud põhikonto kategooriaid saab ümber nimetada, kuid mitte kustutada.</span><span class="sxs-lookup"><span data-stu-id="904e4-105">Main account categories that are created by default can be renamed but not deleted.</span></span> <span data-ttu-id="904e4-106">Luua saab täiendavaid kontokategooriaid ning kasutada neid aruandluseks ja analüüsiks.</span><span class="sxs-lookup"><span data-stu-id="904e4-106">Additional account categories can be created and used for reporting and analysis purposes.</span></span> <span data-ttu-id="904e4-107">See ülesanne kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="904e4-107">This task uses the USMF demo company.</span></span>
 
 
-## <a name="create-a-main-account-category"></a>Põhikonto kategooria loomine
-1. Minge jaotisse Pearaamat > Kontoplaan > Kontod > Põhikonto kategooriad.
-2. Klõpsake valikut Uus.
-3. Sisestage kordumatu nimi väljale Põhikonto kategooria.
-4. Sisestage väljale Kirjeldus põhikonto kategooria kirjeldus.
-5. Valige väljal Põhikonto tüüp kategooriaga seotav põhikonto tüüp.
+## <a name="create-a-main-account-category"></a><span data-ttu-id="904e4-108">Põhikonto kategooria loomine</span><span class="sxs-lookup"><span data-stu-id="904e4-108">Create a main account category</span></span>
+1. <span data-ttu-id="904e4-109">Minge jaotisse Pearaamat > Kontoplaan > Kontod > Põhikonto kategooriad.</span><span class="sxs-lookup"><span data-stu-id="904e4-109">Go to General ledger > Chart of accounts > Accounts > Main account categories.</span></span>
+2. <span data-ttu-id="904e4-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="904e4-110">Click New.</span></span>
+3. <span data-ttu-id="904e4-111">Sisestage kordumatu nimi väljale Põhikonto kategooria.</span><span class="sxs-lookup"><span data-stu-id="904e4-111">In the Main account category field, enter a unique name.</span></span>
+4. <span data-ttu-id="904e4-112">Sisestage väljale Kirjeldus põhikonto kategooria kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="904e4-112">In the Description field, enter a description for the main account category.</span></span>
+5. <span data-ttu-id="904e4-113">Valige väljal Põhikonto tüüp kategooriaga seotav põhikonto tüüp.</span><span class="sxs-lookup"><span data-stu-id="904e4-113">In the Main account type field, select the main account type that will be linked to the category.</span></span>
 
-## <a name="link-main-accounts-to-account-category"></a>Põhikontode linkimine kontokategooriaga
-1. Klõpsake suvandit Põhikontode linkimine.
-2. Valige loendist põhikonto, mille soovite määrata põhikonto kategooriale.
-    * Põhikontode määramine põhikontode kategooriasse koondab kontode saldod, kui seda kategooriat kasutatakse finantsaruandluseks ja analüüsiks.  
-3. Põhikontode valimiseks märkige või tühjendage suvand Lingitud.
-4. Klõpsake nuppu OK.
-5. Klõpsake nuppu Jah.
+## <a name="link-main-accounts-to-account-category"></a><span data-ttu-id="904e4-114">Põhikontode linkimine kontokategooriaga</span><span class="sxs-lookup"><span data-stu-id="904e4-114">Link main accounts to account category</span></span>
+1. <span data-ttu-id="904e4-115">Klõpsake suvandit Põhikontode linkimine.</span><span class="sxs-lookup"><span data-stu-id="904e4-115">Click Link main accounts.</span></span>
+2. <span data-ttu-id="904e4-116">Valige loendist põhikonto, mille soovite määrata põhikonto kategooriale.</span><span class="sxs-lookup"><span data-stu-id="904e4-116">In the list, select the main accounts to assign to the main account category.</span></span>
+    * <span data-ttu-id="904e4-117">Põhikontode määramine põhikontode kategooriasse koondab kontode saldod, kui seda kategooriat kasutatakse finantsaruandluseks ja analüüsiks.</span><span class="sxs-lookup"><span data-stu-id="904e4-117">Assigning main accounts to a main account category will aggregate the balances of the accounts when that category is used for financial reporting and analysis.</span></span>  
+3. <span data-ttu-id="904e4-118">Põhikontode valimiseks märkige või tühjendage suvand Lingitud.</span><span class="sxs-lookup"><span data-stu-id="904e4-118">Select or clear the Linked option to choose the main accounts.</span></span>
+4. <span data-ttu-id="904e4-119">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="904e4-119">Click OK.</span></span>
+5. <span data-ttu-id="904e4-120">Klõpsake nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="904e4-120">Click Yes.</span></span>
 
 

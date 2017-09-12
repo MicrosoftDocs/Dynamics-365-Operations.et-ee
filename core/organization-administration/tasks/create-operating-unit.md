@@ -16,30 +16,30 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 83e2f3f07482b6b32e3bfa33e63165d4160dba9c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-operating-unit"></a>Tootmisüksuse loomine
+# <a name="create-an-operating-unit"></a><span data-ttu-id="32d5a-103">Tootmisüksuse loomine</span><span class="sxs-lookup"><span data-stu-id="32d5a-103">Create an operating unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks. Inimestel tootmisüksuses on kohustus maksimeerida nappide ressursside kasutamist, täiustada protsesse ja vastutada nende toimivuse eest. Tootmisüksuste tüübid on kulukeskused, äriüksused, osakonnad ja väärtusevood. Kasutage tootmisüksuse loomiseks järgmist protseduuri. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+<span data-ttu-id="32d5a-104">Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks.</span><span class="sxs-lookup"><span data-stu-id="32d5a-104">An operating unit is an organization that is used to divide the control of economic resources and operational processes in a business.</span></span> <span data-ttu-id="32d5a-105">Inimestel tootmisüksuses on kohustus maksimeerida nappide ressursside kasutamist, täiustada protsesse ja vastutada nende toimivuse eest.</span><span class="sxs-lookup"><span data-stu-id="32d5a-105">People in an operating unit have a duty to maximize the use of scarce resources, improve processes, and account for their performance.</span></span> <span data-ttu-id="32d5a-106">Tootmisüksuste tüübid on kulukeskused, äriüksused, osakonnad ja väärtusevood.</span><span class="sxs-lookup"><span data-stu-id="32d5a-106">The types of operating units include cost centers, business units, departments, and value streams.</span></span> <span data-ttu-id="32d5a-107">Kasutage tootmisüksuse loomiseks järgmist protseduuri.</span><span class="sxs-lookup"><span data-stu-id="32d5a-107">Use the following procedure to create an operating unit.</span></span> <span data-ttu-id="32d5a-108">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="32d5a-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Avage Organisatsiooni haldamine > Organisatsioonid > Tootmisüksused.
-2. Rippdialoogi avamiseks klõpsake valikut Uus.
-3. Otsige loendist ja valige soovitud kirje.
-    * Saate valida loodava tootmisüksuse tüübi.  
-4. Klõpsake loendis valitud real olevat linki.
-5. Sisestage väärtus väljale Nimi.
-    * Vajaduse korral laiendage jaotist Üldine.  
-    * Sisestage tootmisüksuse kohta üldine teave, nagu ID-kood, DUNS-number ja haldur.    
-    * Vajaduse korral laiendage jaotist Aadressid.  
-    * Sisestage aadressiteave, nt tänavanimi, majanumber, sihtnumber ja linn. Klõpsake Suvandit Lisa, et sisestada uus aadressikirje, või suvandit Redigeeri , et muuta olemasolevat aadressikirjet.   
-    * Vajaduse korral laiendage jaotist Kontaktteave.  
-    * Sisestage teave selliste sidepidamisviiside kohta nagu meiliaadressid, URL-id ja telefoninumbrid. Uue sidekirje sisestamiseks klõpsake suvandit Uus. Olemasoleva sidekirje muutmiseks klõpsake suvandit Rohkem suvandeid > Täpsem.   
-6. Klõpsake nuppu Salvesta.
+1. <span data-ttu-id="32d5a-109">Avage Organisatsiooni haldamine > Organisatsioonid > Tootmisüksused.</span><span class="sxs-lookup"><span data-stu-id="32d5a-109">Go to Organization administration > Organizations > Operating units.</span></span>
+2. <span data-ttu-id="32d5a-110">Rippdialoogi avamiseks klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="32d5a-110">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="32d5a-111">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="32d5a-111">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="32d5a-112">Saate valida loodava tootmisüksuse tüübi.</span><span class="sxs-lookup"><span data-stu-id="32d5a-112">Select the type of operating unit you want to create.</span></span>  
+4. <span data-ttu-id="32d5a-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="32d5a-113">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="32d5a-114">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="32d5a-114">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="32d5a-115">Vajaduse korral laiendage jaotist Üldine.</span><span class="sxs-lookup"><span data-stu-id="32d5a-115">Expand the General section, if necessary.</span></span>  
+    * <span data-ttu-id="32d5a-116">Sisestage tootmisüksuse kohta üldine teave, nagu ID-kood, DUNS-number ja haldur.</span><span class="sxs-lookup"><span data-stu-id="32d5a-116">Provide general information about the operating unit, such as an identification number, DUNS number, and manager.</span></span>    
+    * <span data-ttu-id="32d5a-117">Vajaduse korral laiendage jaotist Aadressid.</span><span class="sxs-lookup"><span data-stu-id="32d5a-117">Expand the Addresses section, if necessary.</span></span>  
+    * <span data-ttu-id="32d5a-118">Sisestage aadressiteave, nt tänavanimi, majanumber, sihtnumber ja linn.</span><span class="sxs-lookup"><span data-stu-id="32d5a-118">Enter address information, such as the street name and number, postal code, and city.</span></span> <span data-ttu-id="32d5a-119">Klõpsake Suvandit Lisa, et sisestada uus aadressikirje, või suvandit Redigeeri , et muuta olemasolevat aadressikirjet.</span><span class="sxs-lookup"><span data-stu-id="32d5a-119">Click Add to enter a new address record, or click Edit to modify an existing address record.</span></span>   
+    * <span data-ttu-id="32d5a-120">Vajaduse korral laiendage jaotist Kontaktteave.</span><span class="sxs-lookup"><span data-stu-id="32d5a-120">Expand the Contact information section, if necessary.</span></span>  
+    * <span data-ttu-id="32d5a-121">Sisestage teave selliste sidepidamisviiside kohta nagu meiliaadressid, URL-id ja telefoninumbrid.</span><span class="sxs-lookup"><span data-stu-id="32d5a-121">Enter information about methods of communication, such as email addresses, URLs, and telephone numbers.</span></span> <span data-ttu-id="32d5a-122">Uue sidekirje sisestamiseks klõpsake suvandit Uus.</span><span class="sxs-lookup"><span data-stu-id="32d5a-122">To enter a new communication record, click New.</span></span> <span data-ttu-id="32d5a-123">Olemasoleva sidekirje muutmiseks klõpsake suvandit Rohkem suvandeid > Täpsem.</span><span class="sxs-lookup"><span data-stu-id="32d5a-123">To modify an existing communication record, click More options > Advanced.</span></span>   
+6. <span data-ttu-id="32d5a-124">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="32d5a-124">Click Save.</span></span>
 
 

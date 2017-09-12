@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Teema kehtib rakenduste Dynamics 365 for Retail, Dynamics 365 for Finance and Operations, Enterprise’i väljaanne ja Dynamics 365 for Talent kohta.
+> <span data-ttu-id="7e988-101">Teema kehtib rakenduste Dynamics 365 for Retail, Dynamics 365 for Finance and Operations, Enterprise’i väljaanne ja Dynamics 365 for Talent kohta.</span><span class="sxs-lookup"><span data-stu-id="7e988-101">This topic applies to Dynamics 365 for Retail, Dynamics 365 for Finance and Operations, Enterprise edition, and Dynamics 365 for Talent.</span></span>

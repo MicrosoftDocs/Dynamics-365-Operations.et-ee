@@ -17,34 +17,34 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: a452f875622dde748d3d1c518212a9a35e498d71
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5023ca589b3ab25d808a52a9162f27430bd69241
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-project-purchase-order"></a>Projekti ostutellimuse loomine
+# <a name="create-project-purchase-order"></a><span data-ttu-id="5e435-103">Projekti ostutellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="5e435-103">Create project purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas luua projekti ostutellimust. Ülesandes kasutatakse USSI andmekomplekti.
+<span data-ttu-id="5e435-104">See protseduur näitab, kuidas luua projekti ostutellimust.</span><span class="sxs-lookup"><span data-stu-id="5e435-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="5e435-105">Ülesandes kasutatakse USSI andmekomplekti.</span><span class="sxs-lookup"><span data-stu-id="5e435-105">This task uses the USSI data set.</span></span>
 
-1. Avage Projektihaldus ja -arvestus > Projektid > Kõik projektid.
-2. Klõpsake loendis valitud real olevat linki.
-3. Klõpsake tegumiribal valikut Haldamine.
-4. Klõpsake Kauba toiming.
-5. Klõpsake valikut Ostutellimus.
-6. Sisestage väärtus väljale Hankija konto või valige see.
-7. Sisestage või valige väärtus väljal Koht.
-    * Need toimingud ei ole kohustuslikud, kuid need lihtsustavad ostutellimust, häälestades ostutellimuste jaoks vaikimisi tegevuskoha või lao.  
-8. Sisestage või valige väärtus väljal Ladu.
-9. Klõpsake nuppu OK.
-10. Märkige loendis valitud rida.
-11. Sisestage või valige väärtus väljal Kaubakood.
-    * See saab olla kaubakood või hankekategooria.  
-12. Laiendage jaotis Rea üksikasjad.
-13. Klõpsake vahekaart Projekt.
-    * Kontrollige, kas müügi- ja kuluhinnad on saadaval. Kui need pole saadaval, kuid on vajalikud, sisestage teave.  
-14. Klõpsake nuppu Salvesta.
+1. <span data-ttu-id="5e435-106">Avage Projektihaldus ja -arvestus > Projektid > Kõik projektid.</span><span class="sxs-lookup"><span data-stu-id="5e435-106">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="5e435-107">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="5e435-107">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="5e435-108">Klõpsake tegumiribal valikut Haldamine.</span><span class="sxs-lookup"><span data-stu-id="5e435-108">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="5e435-109">Klõpsake Kauba toiming.</span><span class="sxs-lookup"><span data-stu-id="5e435-109">Click Item task.</span></span>
+5. <span data-ttu-id="5e435-110">Klõpsake valikut Ostutellimus.</span><span class="sxs-lookup"><span data-stu-id="5e435-110">Click Purchase order.</span></span>
+6. <span data-ttu-id="5e435-111">Sisestage väärtus väljale Hankija konto või valige see.</span><span class="sxs-lookup"><span data-stu-id="5e435-111">In the Vendor account field, enter or select a value.</span></span>
+7. <span data-ttu-id="5e435-112">Sisestage või valige väärtus väljal Koht.</span><span class="sxs-lookup"><span data-stu-id="5e435-112">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="5e435-113">Need toimingud ei ole kohustuslikud, kuid need lihtsustavad ostutellimust, häälestades ostutellimuste jaoks vaikimisi tegevuskoha või lao.</span><span class="sxs-lookup"><span data-stu-id="5e435-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
+8. <span data-ttu-id="5e435-114">Sisestage või valige väärtus väljal Ladu.</span><span class="sxs-lookup"><span data-stu-id="5e435-114">In the Warehouse field, enter or select a value.</span></span>
+9. <span data-ttu-id="5e435-115">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="5e435-115">Click OK.</span></span>
+10. <span data-ttu-id="5e435-116">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="5e435-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="5e435-117">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="5e435-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="5e435-118">See saab olla kaubakood või hankekategooria.</span><span class="sxs-lookup"><span data-stu-id="5e435-118">This can be the item number or a procurement category.</span></span>  
+12. <span data-ttu-id="5e435-119">Laiendage jaotis Rea üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="5e435-119">Expand the Line details section.</span></span>
+13. <span data-ttu-id="5e435-120">Klõpsake vahekaart Projekt.</span><span class="sxs-lookup"><span data-stu-id="5e435-120">Click the Project tab.</span></span>
+    * <span data-ttu-id="5e435-121">Kontrollige, kas müügi- ja kuluhinnad on saadaval.</span><span class="sxs-lookup"><span data-stu-id="5e435-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="5e435-122">Kui need pole saadaval, kuid on vajalikud, sisestage teave.</span><span class="sxs-lookup"><span data-stu-id="5e435-122">If they are not available but needed, enter the information.</span></span>  
+14. <span data-ttu-id="5e435-123">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="5e435-123">Click Save.</span></span>
 
 

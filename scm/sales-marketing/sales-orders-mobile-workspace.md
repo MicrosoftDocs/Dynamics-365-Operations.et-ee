@@ -19,129 +19,129 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: 1a05c6c12d4b6d98886e418aadcc0bdb2c2fc8ef
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 88535eeda32e0fd176959437f014691db048ef46
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="sales-orders-mobile-workspace"></a>Müügitellimuste mobiilne tööruum
+# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="d3746-104">Müügitellimuste mobiilne tööruum</span><span class="sxs-lookup"><span data-stu-id="d3746-104">Sales orders mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Teema annab teavet **müügitellimuste** mobiilse tööruumi kohta. See tööruum aitab teil olla oma müügitellimustega alati kõikjal kursis. 
+<span data-ttu-id="d3746-105">Teema annab teavet **müügitellimuste** mobiilse tööruumi kohta.</span><span class="sxs-lookup"><span data-stu-id="d3746-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="d3746-106">See tööruum aitab teil olla oma müügitellimustega alati kõikjal kursis.</span><span class="sxs-lookup"><span data-stu-id="d3746-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 
-See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="d3746-107">See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="d3746-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a>Ülevaade
-**Müügitellimuste** mobiilne tööruum võimaldab vaadata üksikasjalikku teavet iga müügitellimuse kohta. See teave hõlmab tellimuse olekut, kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet. Mobiilne tööruum **Müügitellimused** annab müügitellimustest kiirülevaate. Saate vaadata kõiki müügitellimusi, müügitellimusi klientide kaupa või konkreetse müügitellimuse andmeid. 
+## <a name="overview"></a><span data-ttu-id="d3746-108">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="d3746-108">Overview</span></span>
+<span data-ttu-id="d3746-109">**Müügitellimuste** mobiilne tööruum võimaldab vaadata üksikasjalikku teavet iga müügitellimuse kohta.</span><span class="sxs-lookup"><span data-stu-id="d3746-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="d3746-110">See teave hõlmab tellimuse olekut, kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet.</span><span class="sxs-lookup"><span data-stu-id="d3746-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="d3746-111">Mobiilne tööruum **Müügitellimused** annab müügitellimustest kiirülevaate.</span><span class="sxs-lookup"><span data-stu-id="d3746-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="d3746-112">Saate vaadata kõiki müügitellimusi, müügitellimusi klientide kaupa või konkreetse müügitellimuse andmeid.</span><span class="sxs-lookup"><span data-stu-id="d3746-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
 
-Mobiilne tööruum pakub kahte vaadet, mis aitavad teil müügitellimusi põhjalikult analüüsida.
+<span data-ttu-id="d3746-113">Mobiilne tööruum pakub kahte vaadet, mis aitavad teil müügitellimusi põhjalikult analüüsida.</span><span class="sxs-lookup"><span data-stu-id="d3746-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
 
-### <a name="view-all-sales-orders"></a>Kõigi müügitellimuste kuvamine
-Selles vaates loetletakse kõik müügitellimused.
+### <a name="view-all-sales-orders"></a><span data-ttu-id="d3746-114">Kõigi müügitellimuste kuvamine</span><span class="sxs-lookup"><span data-stu-id="d3746-114">View all sales orders</span></span>
+<span data-ttu-id="d3746-115">Selles vaates loetletakse kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="d3746-115">This view lists all sales orders.</span></span>
 
--   Saate soovitud müügitellimuste valimiseks kasutada järgmisi filtreid.
+-   <span data-ttu-id="d3746-116">Saate soovitud müügitellimuste valimiseks kasutada järgmisi filtreid.</span><span class="sxs-lookup"><span data-stu-id="d3746-116">Use one of the following filters to select the sales orders to view:</span></span>
 
-    -   Otsing müügitellimuse alusel
-    -   Otsing kliendikonto järgi
-    -   Otsing kliendi nime järgi
-    -   Otsing oleku järgi
-    -   Otsing väljastamisoleku järgi
-    -   Otsing loomise kuupäeva ja kellaaja järgi
+    -   <span data-ttu-id="d3746-117">Otsing müügitellimuse alusel</span><span class="sxs-lookup"><span data-stu-id="d3746-117">Search by sales order</span></span>
+    -   <span data-ttu-id="d3746-118">Otsing kliendikonto järgi</span><span class="sxs-lookup"><span data-stu-id="d3746-118">Search by customer account</span></span>
+    -   <span data-ttu-id="d3746-119">Otsing kliendi nime järgi</span><span class="sxs-lookup"><span data-stu-id="d3746-119">Search by customer name</span></span>
+    -   <span data-ttu-id="d3746-120">Otsing oleku järgi</span><span class="sxs-lookup"><span data-stu-id="d3746-120">Search by status</span></span>
+    -   <span data-ttu-id="d3746-121">Otsing väljastamisoleku järgi</span><span class="sxs-lookup"><span data-stu-id="d3746-121">Search by release status</span></span>
+    -   <span data-ttu-id="d3746-122">Otsing loomise kuupäeva ja kellaaja järgi</span><span class="sxs-lookup"><span data-stu-id="d3746-122">Search by created date and time</span></span>
     
--   Pärast müügitellimuste valimist saate konkreetsete tellimuste andmeid vaadata. Täpsemalt saate vaadata järgmist teavet.
+-   <span data-ttu-id="d3746-123">Pärast müügitellimuste valimist saate konkreetsete tellimuste andmeid vaadata.</span><span class="sxs-lookup"><span data-stu-id="d3746-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="d3746-124">Täpsemalt saate vaadata järgmist teavet.</span><span class="sxs-lookup"><span data-stu-id="d3746-124">Specifically, you can view the following information:</span></span>
 
-    -   Kliendi nimi ja aadressiandmed
-    -   Müügitellimuse erinevad kuupäevad, nagu nõutav lähetuskuupäev ja kinnitatud lähetuskuupäev.
-    -   Tellimuse vastuvõtja kontaktteave
-    -   Kliendi kontaktandmed
-    -   Tellimuse read
-    -   Saadetised, mis näitavad, kuidas ja millal müügitellimus on teele pandud
+    -   <span data-ttu-id="d3746-125">Kliendi nimi ja aadressiandmed</span><span class="sxs-lookup"><span data-stu-id="d3746-125">Customer name and address information</span></span>
+    -   <span data-ttu-id="d3746-126">Müügitellimuse erinevad kuupäevad, nagu nõutav lähetuskuupäev ja kinnitatud lähetuskuupäev.</span><span class="sxs-lookup"><span data-stu-id="d3746-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
+    -   <span data-ttu-id="d3746-127">Tellimuse vastuvõtja kontaktteave</span><span class="sxs-lookup"><span data-stu-id="d3746-127">Contact information for the order taker</span></span>
+    -   <span data-ttu-id="d3746-128">Kliendi kontaktandmed</span><span class="sxs-lookup"><span data-stu-id="d3746-128">Customer contact information</span></span>
+    -   <span data-ttu-id="d3746-129">Tellimuse read</span><span class="sxs-lookup"><span data-stu-id="d3746-129">Order lines</span></span>
+    -   <span data-ttu-id="d3746-130">Saadetised, mis näitavad, kuidas ja millal müügitellimus on teele pandud</span><span class="sxs-lookup"><span data-stu-id="d3746-130">Shipments that show how and when a sales order was shipped</span></span>
 
-### <a name="view-orders-for-a-customer"></a>Kliendi tellimuste kuvamine
-Selles vaates on loetletud müügitellimused kliendi järgi.
+### <a name="view-orders-for-a-customer"></a><span data-ttu-id="d3746-131">Kliendi tellimuste kuvamine</span><span class="sxs-lookup"><span data-stu-id="d3746-131">View orders for a customer</span></span>
+<span data-ttu-id="d3746-132">Selles vaates on loetletud müügitellimused kliendi järgi.</span><span class="sxs-lookup"><span data-stu-id="d3746-132">This view lists sales orders by customer.</span></span>
 
--   Saate kliendi tellimuste kuvamiseks kasutada järgmisi filtreid.
+-   <span data-ttu-id="d3746-133">Saate kliendi tellimuste kuvamiseks kasutada järgmisi filtreid.</span><span class="sxs-lookup"><span data-stu-id="d3746-133">Use one of the following filters to view orders for a customer:</span></span>
 
-    -   Otsing nime alusel
-    -   Otsing konto alusel
+    -   <span data-ttu-id="d3746-134">Otsing nime alusel</span><span class="sxs-lookup"><span data-stu-id="d3746-134">Search by name</span></span>
+    -   <span data-ttu-id="d3746-135">Otsing konto alusel</span><span class="sxs-lookup"><span data-stu-id="d3746-135">Search by account</span></span>
 
--   Pärast kliendi valimist saate vaadata järgmist teavet.
+-   <span data-ttu-id="d3746-136">Pärast kliendi valimist saate vaadata järgmist teavet.</span><span class="sxs-lookup"><span data-stu-id="d3746-136">After you select a customer, you can view the following information:</span></span>
 
-    -   Kliendi nimi ja grupp
-    -   Kliendi kontaktandmed
-    -   Kliendi müügitellimused ja nende üksikasjad.
+    -   <span data-ttu-id="d3746-137">Kliendi nimi ja grupp</span><span class="sxs-lookup"><span data-stu-id="d3746-137">Customer name and group</span></span>
+    -   <span data-ttu-id="d3746-138">Kliendi kontaktandmed</span><span class="sxs-lookup"><span data-stu-id="d3746-138">Customer contact information</span></span>
+    -   <span data-ttu-id="d3746-139">Kliendi müügitellimused ja nende üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="d3746-139">Customer sales orders and details about those sales orders:</span></span>
     
-        -   Kliendi nimi ja aadressiandmed
-        -   Erinevad müügitellimuse kuupäevad
-        -   Tellimuse vastuvõtja kontaktteave
-        -   Kliendi kontaktandmed
-        -   Tellimuse read
-        -   Saadetised, mis näitavad, kuidas ja millal müügitellimus on teele pandud
+        -   <span data-ttu-id="d3746-140">Kliendi nimi ja aadressiandmed</span><span class="sxs-lookup"><span data-stu-id="d3746-140">Customer name and address information</span></span>
+        -   <span data-ttu-id="d3746-141">Erinevad müügitellimuse kuupäevad</span><span class="sxs-lookup"><span data-stu-id="d3746-141">Various sales order dates</span></span>
+        -   <span data-ttu-id="d3746-142">Tellimuse vastuvõtja kontaktteave</span><span class="sxs-lookup"><span data-stu-id="d3746-142">Contact information for the order taker</span></span>
+        -   <span data-ttu-id="d3746-143">Kliendi kontaktandmed</span><span class="sxs-lookup"><span data-stu-id="d3746-143">Customer contact information</span></span>
+        -   <span data-ttu-id="d3746-144">Tellimuse read</span><span class="sxs-lookup"><span data-stu-id="d3746-144">Order lines</span></span>
+        -   <span data-ttu-id="d3746-145">Saadetised, mis näitavad, kuidas ja millal müügitellimus on teele pandud</span><span class="sxs-lookup"><span data-stu-id="d3746-145">Shipments that show how and when a sales order was shipped</span></span>
 
-## <a name="prerequisites"></a>Eeltingimused
-Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
+## <a name="prerequisites"></a><span data-ttu-id="d3746-146">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="d3746-146">Prerequisites</span></span>
+<span data-ttu-id="d3746-147">Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.</span><span class="sxs-lookup"><span data-stu-id="d3746-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Eeltingimused lahenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni 2017. aasta juuli värskenduse kasutamisel 
-Kui teie organisatsioonis on juurutatud Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendus, peab süsteemiadministraator avaldama **müügitellimiste** mobiilse tööruumi. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="d3746-148">Eeltingimused lahenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni 2017. aasta juuli värskenduse kasutamisel</span><span class="sxs-lookup"><span data-stu-id="d3746-148">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="d3746-149">Kui teie organisatsioonis on juurutatud Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendus, peab süsteemiadministraator avaldama **müügitellimiste** mobiilse tööruumi.</span><span class="sxs-lookup"><span data-stu-id="d3746-149">If the Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="d3746-150">Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="d3746-150">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
-Kui teie organisatsioonis on juurutatud Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="d3746-151">Eeltingimused Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel</span><span class="sxs-lookup"><span data-stu-id="d3746-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="d3746-152">Kui teie organisatsioonis on juurutatud Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused.</span><span class="sxs-lookup"><span data-stu-id="d3746-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Eeltingimus</th>
-<th>Roll</th>
-<th>Kirjeldus</th>
+<th><span data-ttu-id="d3746-153">Eeltingimus</span><span class="sxs-lookup"><span data-stu-id="d3746-153">Prerequisite</span></span></th>
+<th><span data-ttu-id="d3746-154">Roll</span><span class="sxs-lookup"><span data-stu-id="d3746-154">Role</span></span></th>
+<th><span data-ttu-id="d3746-155">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="d3746-155">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Rakendage KB 4013633.</td>
-<td>Süsteemiadministraator</td>
+<td><span data-ttu-id="d3746-156">Rakendage KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="d3746-156">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="d3746-157">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="d3746-157">System administrator</span></span></td>
 
-<td>KB 4013633 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Müügitellimused</strong>. KB 4013633 juurutamiseks peab süsteemiadministraator toimima järgmiselt.
+<td><span data-ttu-id="d3746-158">KB 4013633 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Müügitellimused</strong>.</span><span class="sxs-lookup"><span data-stu-id="d3746-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="d3746-159">KB 4013633 juurutamiseks peab süsteemiadministraator toimima järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="d3746-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Laadige alla metaandmete kiirparandus teenusest Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
+<li><span data-ttu-id="d3746-160"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Laadige alla metaandmete kiirparandus teenusest Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="d3746-160"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="d3746-161"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installima metaandmete kiirparanduse</a>.</span><span class="sxs-lookup"><span data-stu-id="d3746-161"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="d3746-162"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudelit <strong>SCMMobile</strong>, ja seejärel laadima juurutatava paketi LCS-i üles.</span><span class="sxs-lookup"><span data-stu-id="d3746-162"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="d3746-163"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</span><span class="sxs-lookup"><span data-stu-id="d3746-163"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td>Avaldage mobiilne tööruum <strong>Müügitellimused</strong>.</td>
-<td>Süsteemiadministraator</td>
-<td>Vt jaotist <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
+<td><span data-ttu-id="d3746-164">Avaldage mobiilne tööruum <strong>Müügitellimused</strong>.</span><span class="sxs-lookup"><span data-stu-id="d3746-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="d3746-165">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="d3746-165">System administrator</span></span></td>
+<td><span data-ttu-id="d3746-166">Vt jaotist <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</span><span class="sxs-lookup"><span data-stu-id="d3746-166">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
-Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="d3746-167">Laadige alla ja installige mobiilirakendus</span><span class="sxs-lookup"><span data-stu-id="d3746-167">Download and install the mobile app</span></span>
+<span data-ttu-id="d3746-168">Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.</span><span class="sxs-lookup"><span data-stu-id="d3746-168">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
--   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="d3746-169">Androidi telefonidele</span><span class="sxs-lookup"><span data-stu-id="d3746-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="d3746-170">iPhone’idele</span><span class="sxs-lookup"><span data-stu-id="d3746-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="d3746-171">Logige mobiilirakendusse sisse</span><span class="sxs-lookup"><span data-stu-id="d3746-171">Sign in to the mobile app</span></span>
 
-1.  Käivitage rakendus oma mobiilses seadmes.
-2.  Sisestage Dynamics 365 URL.
-3.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
-4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
+1.  <span data-ttu-id="d3746-172">Käivitage rakendus oma mobiilses seadmes.</span><span class="sxs-lookup"><span data-stu-id="d3746-172">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="d3746-173">Sisestage Dynamics 365 URL.</span><span class="sxs-lookup"><span data-stu-id="d3746-173">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="d3746-174">Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli.</span><span class="sxs-lookup"><span data-stu-id="d3746-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="d3746-175">Sisestage oma identimisteave.</span><span class="sxs-lookup"><span data-stu-id="d3746-175">Enter your credentials.</span></span>
+4.  <span data-ttu-id="d3746-176">Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid.</span><span class="sxs-lookup"><span data-stu-id="d3746-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="d3746-177">Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.</span><span class="sxs-lookup"><span data-stu-id="d3746-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-[![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="d3746-178">[![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="d3746-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a>Teabe kuvamine kliendi müügitellimuste kohta, kasutades müügitellimuse mobiilset tööruumi
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="d3746-179">Teabe kuvamine kliendi müügitellimuste kohta, kasutades müügitellimuse mobiilset tööruumi</span><span class="sxs-lookup"><span data-stu-id="d3746-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
 
-1.  Valige oma mobiilses seadmes tööruum **Müügitellimused**.
-2.  Valige **Kuva kliendi tellimused**.
-3.  Saate kliendi leidmiseks kasutada konto või kliendi nime teavet.
-4.  Valige klient.
-5.  Valige **Kontaktandmed** või **Müügitellimused**. Kui valite suvandi **Müügitellimused**, kuvatakse kliendi müügitellimuste loend.
-6.  Valige **Müügitellimus**. Nüüd saate vaadata teavet müügitellimuste ja saadetiste kohta ning kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet.
+1.  <span data-ttu-id="d3746-180">Valige oma mobiilses seadmes tööruum **Müügitellimused**.</span><span class="sxs-lookup"><span data-stu-id="d3746-180">On your mobile device, select the **Sales orders** workspace.</span></span>
+2.  <span data-ttu-id="d3746-181">Valige **Kuva kliendi tellimused**.</span><span class="sxs-lookup"><span data-stu-id="d3746-181">Select **View orders for a customer**.</span></span>
+3.  <span data-ttu-id="d3746-182">Saate kliendi leidmiseks kasutada konto või kliendi nime teavet.</span><span class="sxs-lookup"><span data-stu-id="d3746-182">Use account or customer name information to find the customer.</span></span>
+4.  <span data-ttu-id="d3746-183">Valige klient.</span><span class="sxs-lookup"><span data-stu-id="d3746-183">Select the customer.</span></span>
+5.  <span data-ttu-id="d3746-184">Valige **Kontaktandmed** või **Müügitellimused**.</span><span class="sxs-lookup"><span data-stu-id="d3746-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="d3746-185">Kui valite suvandi **Müügitellimused**, kuvatakse kliendi müügitellimuste loend.</span><span class="sxs-lookup"><span data-stu-id="d3746-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
+6.  <span data-ttu-id="d3746-186">Valige **Müügitellimus**.</span><span class="sxs-lookup"><span data-stu-id="d3746-186">Select **Sales order**.</span></span> <span data-ttu-id="d3746-187">Nüüd saate vaadata teavet müügitellimuste ja saadetiste kohta ning kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet.</span><span class="sxs-lookup"><span data-stu-id="d3746-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
 

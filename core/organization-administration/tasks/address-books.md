@@ -16,29 +16,29 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 1055d60b2a23c3124398b0e13cfa911f6ab68c6b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c600b7ac56b970a3fdb592eb0fc42865ee3e2dec
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-address-books"></a>Aadressiraamatute konfigureerimine
+# <a name="configure-address-books"></a><span data-ttu-id="7d9b8-103">Aadressiraamatute konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="7d9b8-103">Configure address books</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Kasutage seda protseduuri ning teemas Globaalse aadressiraamatu ja täiendavate aadressiraamatute konfigureerimise planeerimine tehtud otsuseid oma organisatsiooni jaoks täiendavate aadressiraamatute seadistamiseks.
+<span data-ttu-id="7d9b8-104">Kasutage seda protseduuri ning teemas Globaalse aadressiraamatu ja täiendavate aadressiraamatute konfigureerimise planeerimine tehtud otsuseid oma organisatsiooni jaoks täiendavate aadressiraamatute seadistamiseks.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-104">Use this procedure, and the decisions that you made in the Planning the configuration of the global address book and additional address books topic, to set up additional address books for your organization.</span></span>
 
-Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See salvestis on mõeldud planeerimise ja konfigureerimise töörühma liikmetele.
+<span data-ttu-id="7d9b8-105">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="7d9b8-106">See salvestis on mõeldud planeerimise ja konfigureerimise töörühma liikmetele.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-106">This recording is intended for the Planning and configuration team members.</span></span>
 
 
-## <a name="configure-address-books"></a>Aadressiraamatute konfigureerimine
-1. Avage Organisatsiooni haldus > Globaalne aadressiraamat > Aadressiraamatud.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Nimi.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake nuppu Salvesta.
-6. Otsige loendist ja valige soovitud kirje.
-7. Klõpsake noolt, et lisada valitud saadaolevad töörühmad aadressiraamatusse.
-8. Klõpsake nuppu Salvesta.
+## <a name="configure-address-books"></a><span data-ttu-id="7d9b8-107">Aadressiraamatute konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="7d9b8-107">Configure address books</span></span>
+1. <span data-ttu-id="7d9b8-108">Avage Organisatsiooni haldus > Globaalne aadressiraamat > Aadressiraamatud.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-108">Go to Organization administration > Global address book > Address books.</span></span>
+2. <span data-ttu-id="7d9b8-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-109">Click New.</span></span>
+3. <span data-ttu-id="7d9b8-110">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="7d9b8-111">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="7d9b8-112">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-112">Click Save.</span></span>
+6. <span data-ttu-id="7d9b8-113">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-113">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="7d9b8-114">Klõpsake noolt, et lisada valitud saadaolevad töörühmad aadressiraamatusse.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-114">Click the arrow to add the selected available teams to the address book.</span></span>
+8. <span data-ttu-id="7d9b8-115">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7d9b8-115">Click Save.</span></span>
 
 
