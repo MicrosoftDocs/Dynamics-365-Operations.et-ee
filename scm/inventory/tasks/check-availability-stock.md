@@ -1,4 +1,4 @@
---- 
+---
 title: Varude saadavuse kontrollimine
 description: "See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba kaubavaru kindla kaubakoodi puhul."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba ka
 4. Klõpsake suvandit Dimensioonide kuvamine.
 5. Klõpsake nuppu OK.
 6. Sulgege leht.
-
 

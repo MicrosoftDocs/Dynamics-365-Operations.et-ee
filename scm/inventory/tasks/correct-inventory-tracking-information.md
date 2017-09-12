@@ -1,4 +1,4 @@
---- 
+---
 title: "Varude jälgimisteabe korrigeerimine"
 description: "See protseduur juhib teid läbi varude üleviimistöölehe koostamise ja sisestamise protsessi, et parandada varude jälgimise teavet."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ See protseduur juhib teid läbi varude üleviimistöölehe koostamise ja sisesta
 1. Klõpsake Ladu.
 2. Klõpsake suvandit Kanded.
     * Siin näete kandeid, mis loodi, kui oma töölehe sisestasite.   
-
 

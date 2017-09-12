@@ -1,7 +1,7 @@
 ---
 title: "Saabumise ülevaade"
 description: "Selles teemas kirjeldatakse funktsiooni saabumisülevaade. Saabumisülevaate leht on selle funktsiooni osa ja annab ülevaate kõikidest kaupadest, mille saabumist sissetuleva kaubana eeldatakse."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ Selles teemas kirjeldatakse funktsiooni saabumisülevaade. Saabumisülevaate leh
 Leht **Saabumisülevaade** annab ülevaate kõikide eeldatute sissetulevate kaupade kohta. Samuti näitab see saabumisi, mida saab lähtestada ülevaate põhjal. Selles teemas käsitletakse vastuvõtmisprotsessi.
 
 ## <a name="business-scenario"></a>Äristsenaarium
-Kaaluge järgmist sissetulevate protsesside stsenaariumit. 
+Kaaluge järgmist sissetulevate protsesside stsenaariumit.
 
-[![Äristsenaarium](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Äristsenaarium](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Vastuvõtuametnik Sammy soovib teada, mille saabumist eeldatakse jooksval päeval. Lehel **Saabumisülevaate** näeb Sammy praeguste ülesannete ülevaadet ja ligikaudset hinnangut tellimuste koguse, mahu, kaalu, tüübi ja muude kohta. Hiljem saabub saabumisalale tarne ja Sammy saab tarne loendi. Lehel **Saabumisülevaade** saab Sammy sooritada järgmisi toiminguid.
 
@@ -69,7 +69,7 @@ Selles näites on väli **Saabumisülevaate profiili nimi**, mis asub lehe **Saa
 
 Saabumistöölehtede automaatseks loomiseks lehelt **Saabumisülevaade** peate määratlema asjakohast teavet kiirkaardi **Saabumisvalikud** väljarühmas **Tööleht**.
 
--   Töölehe loomiseks peate määrama töölehele nime. 
+-   Töölehe loomiseks peate määrama töölehele nime.
 
 [![Töölehe nime määramine](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Kui kõik kaubad on registreeritud, saab laojuhataja või ostujuht värskendada 
 
 ## <a name="summary"></a>Kokkuvõte
 Leht **Saabumisülevaade** annab laojuhatajale ja laotöölistele ülevaate eeldatava töö kohta, mida tuleb sissetulekute protsessi käigus teha. Seda lehte saab kasutada ka kauba saabumisprotsessi käivitamiseks, et tagada kaupade jälgimist esimesel lattu sisenemisel.
-
-
-
 

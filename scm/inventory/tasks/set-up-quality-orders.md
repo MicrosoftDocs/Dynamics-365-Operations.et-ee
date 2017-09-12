@@ -1,4 +1,4 @@
---- 
+---
 title: Kvaliteettellimuste seadistamine
 description: "See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui sissetulevaid varusid tuleb kontrollida kohe pärast saabumise registreerimist."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui si
 15. Otsige loendist ja valige soovitud kirje.
 16. Klõpsake nuppu Salvesta.
 17. Sulgege leht.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal"
 description: "See protseduur näitab, kuidas määrata saadetise varude omanikuks hankija asemel teie juriidiline isik, kui on olemas nõudlus tootmises olevate varude järele."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -51,5 +51,4 @@ See protseduur näitab, kuidas määrata saadetise varude omanikuks hankija asem
     * Töölehe sisestamisel vabastatakse hankijale kuuluvad varud, kasutades viidet Omanikuvahetus. Seejärel saadakse varud vabade varudena, kasutades laokannet, mida uuendatakse ostutellimuse toote sissetulekuga. Pange tähele, et luuakse ainult sisestatud töölehega seotud kanded. Ühtegi eeldatavat laokannet ei looda.  
 2. Klõpsake nuppu OK.
 3. Sulgege leht.
-
 

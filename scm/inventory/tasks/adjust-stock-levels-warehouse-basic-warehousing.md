@@ -1,4 +1,4 @@
---- 
+---
 title: "Laovaru tasemete korrigeerimine laos (üldine ladustamine)"
 description: "See protseduur selgitab varude korrigeerimise töölehe loomise ja sisestamise protsessi laos olevate toodete laovarude korrigeerimiseks."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ See protseduur selgitab varude korrigeerimise töölehe loomise ja sisestamise p
 4. Klõpsake nuppu OK.
 5. Sulgege vorm.
 6. Sulgege leht.
-
 

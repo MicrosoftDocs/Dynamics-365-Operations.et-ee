@@ -1,7 +1,7 @@
---- 
+---
 title: "Kauba saabumise ülevaateprofiili seadistamine"
 description: "See ülesanne keskendub saabumisülevaate profiili seadistusele."
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ See ülesanne keskendub saabumisülevaate profiili seadistusele. Saabumisülevaa
     * Saate valida sissetulekuridu üleviimistellimustest.  
 17. Klõpsake nuppu Salvesta.
 18. Sulgege leht.
-
 

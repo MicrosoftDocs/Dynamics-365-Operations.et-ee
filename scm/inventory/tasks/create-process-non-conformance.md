@@ -1,4 +1,4 @@
---- 
+---
 title: "Vastavuse loomine ja töötlemine"
 description: "Kasutage seda protseduuri mittevastavuse haldamiseks olemasoleva kvaliteettellimuse põhjal."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Kasutage seda protseduuri mittevastavuse haldamiseks olemasoleva kvaliteettellimuse põhjal. Saate käivitada selle salvestise demoettevõttes USMF ja kasutada soovitatud väärtusi. Tavaliselt teostab selle protseduuri kvaliteediametnik.  Eeltingimusena käivitage ülesandesalvestis „Kaupade kvaliteedi kontrollimine”. Mittevastavuse kinnitamise töötlemiseks peab ülesandesalvestist käitavale kasutajale olema lehel Kasutajad määratud väärtus Nimi. Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus. 
+Kasutage seda protseduuri mittevastavuse haldamiseks olemasoleva kvaliteettellimuse põhjal. Saate käivitada selle salvestise demoettevõttes USMF ja kasutada soovitatud väärtusi. Tavaliselt teostab selle protseduuri kvaliteediametnik.  Eeltingimusena käivitage ülesandesalvestis „Kaupade kvaliteedi kontrollimine”. Mittevastavuse kinnitamise töötlemiseks peab ülesandesalvestist käitavale kasutajale olema lehel Kasutajad määratud väärtus Nimi. Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus.
 
 
 ## <a name="select-a-quality-order"></a>Kvaliteettellimuse valimine
@@ -78,5 +78,4 @@ Kasutage seda protseduuri mittevastavuse haldamiseks olemasoleva kvaliteettellim
 3. Klõpsake nuppu Jah.
 4. Sulgege leht.
 5. Sulgege leht.
-
 

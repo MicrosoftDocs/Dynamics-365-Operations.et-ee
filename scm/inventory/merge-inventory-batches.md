@@ -1,7 +1,7 @@
 ---
 title: "Varupartiide ühendamine"
 description: "Selles artiklis kirjeldatakse kahe või enama varude partii konsolideerimist ühendatud partiisse."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse kahe või enama varude partii konsolideerimist ühendatud partiisse. 
+Selles artiklis kirjeldatakse kahe või enama varude partii konsolideerimist ühendatud partiisse.
 
 Partiide ühendamisel aitavad arvutused optimeerida ühendatud partii tunnuseid ja partiiatribuute. Kui lähtepartiid on valitud, saab ühendatud partiid enne sisestamist üle vaadata ja muuta. Partii ühendamise saab kinnitamiseks ka varude töölehele edastada. Seejärel saab varud sellelt varude töölehelt otse reserveerida või sisestada. Ühendatud partii sisestamisel korrigeeritakse varud lähtepartiidele ja ühendatud partiile.
 
@@ -142,7 +142,4 @@ Varude töölehe saate partiide ühendamiseks kinnitada loendilehelt **Kõik par
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Miks ma ei näe pärast tegeliku kaaluga kauba ühendamist tegeliku kaalu teavet varude töölehel?
 Tegeliku kaaluga kaupade partiisid saate ühendada samamoodi kui kõiki teisi kaupu. Kuid tegeliku kaalu teavet varude töölehel ei kuvata. Soovitame teil enne ühendatud partii ülekandmist varude töölehele tegeliku kaalu teavet kontrollida.
-
-
-
 

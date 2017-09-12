@@ -1,4 +1,4 @@
---- 
+---
 title: Halduse eeltingimuste seadistamine
 description: Kasutage seda protseduuri, et lubada mittevastavuse haldamise protsessid.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Kasutage seda protseduuri, et lubada mittevastavuse haldamise protsessid. Mittev
 3. Tippige väärtus väljale Vahelao tsoon.
 4. Sisestage väljale Kirjeldus soovitud väärtus.
 5. Sulgege leht.
-
 

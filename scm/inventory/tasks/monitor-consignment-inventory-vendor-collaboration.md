@@ -1,4 +1,4 @@
---- 
+---
 title: "Veose varude jälgimine hankija koostöö abil"
 description: "See protseduur näitab, kuidas kasutada hankija koostööd teabe nägemiseks toote varude taseme kohta, mille olete kliendi juures olevasse saadetisse paigutanud."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ See protseduur näitab, kuidas kasutada hankija koostööd teabe nägemiseks too
 ## <a name="view-on-hand-inventory"></a>Vabade kaubavarude vaatamine
 1. Avage Hankija koostöö > Veose varud > Veose vaba kaubavaru.
     * Veose vaba kaubavaru lehel on näidatud teile kuuluvad varud kliendi laos. Saate kuvada lisadimensioone nagu tegevuskoht ja ladu, klõpsates vahekaarti Kuva dimensioonid.   
-
 

@@ -1,7 +1,7 @@
 ---
 title: "Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul"
 description: "Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama. 
+Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama.
 
 Kauba jälgimise funktsioon on saadaval lehel **Kauba jälgimine**. Järgmised jaotised kirjeldavad, kuidas kauba jälgimist saab kasutada ja millised on valikud ning piirangud.
 
@@ -142,7 +142,4 @@ Saate luua aruande **Klientidele saadetud**, et tuvastada tarnitud kauba või to
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Kas ma saan jälgida kaastooteid ja kõrvalsaaduseid?
 Saate jälgida kaastooteid, kuid te ei saa jälgida kõrvalsaadusi, sest tavaliselt ei ole kõrvalsaadustele määratud jälgimisdimensioone. Kaupa jälgides lisatakse jälgimise üksikasjadele kõik seotud kaastooted. Kaastoodet sisaldava sõlme üksikasjadesse on lisatud sõna „kaastoode”. Saate vaadata ka kaastoote üksikasju, valides jälgimise üksikasjades sõlme ja klõpsates siis kiirkaarti **Tootmine**.
-
-
-
 

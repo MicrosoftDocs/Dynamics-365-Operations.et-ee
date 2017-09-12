@@ -1,4 +1,4 @@
---- 
+---
 title: "Kauba või toormaterjali jälgimine"
 description: "See protseduur näitab, kuidas kasutada kauba jälgimist tuvastamiseks, kus kaupu või toormaterjale on kasutatud või kasutatakse."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ See protseduur näitab, kuidas kasutada kauba jälgimist tuvastamiseks, kus kaup
 8. Klõpsake tegumiribal valikut Jälgimine.
 9. Klõpsake nuppu Saadetud müügitellimused.
 10. Sulgege leht.
-
 

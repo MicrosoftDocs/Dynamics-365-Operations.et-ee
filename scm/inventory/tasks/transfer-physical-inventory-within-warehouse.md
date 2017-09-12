@@ -1,4 +1,4 @@
---- 
+---
 title: "Füüsiliste laovarude ülekandmine laos"
 description: "See protseduur juhatab teid läbi lao üleviimistöölehe loomise ja sisestamise protsessi, et registreerida kauba liikumine ühest lao asukohast teise."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ See protseduur juhatab teid läbi lao üleviimistöölehe loomise ja sisestamise
 1. Klõpsake Ladu.
 2. Klõpsake suvandit Kanded.
     * Siin näete kandeid, mis loodi, kui oma töölehe sisestasite.  
-
 

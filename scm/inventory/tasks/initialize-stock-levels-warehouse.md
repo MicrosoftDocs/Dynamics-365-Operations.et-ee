@@ -1,4 +1,4 @@
---- 
+---
 title: "Laovaru tasemete lähtestamine laos"
 description: "See protseduur näitab, kuidas värskendada vabu kaubavarusid käsitsi, kasutades varude liikumise töölehte."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ See protseduur näitab, kuidas värskendada vabu kaubavarusid käsitsi, kasutade
 24. Klõpsake nuppu OK.
 25. Sulgege leht.
 26. Sulgege leht.
-
 

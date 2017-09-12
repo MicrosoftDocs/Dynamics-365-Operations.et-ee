@@ -1,4 +1,4 @@
---- 
+---
 title: Varude blokeerimise loomine ja haldamine
 description: "See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimist teiste väljaminevate lähtedokumentidega, kasutades varude blokeerimist."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimis
 1. Avage Varude haldus > Perioodilised ülesanded > Varude blokeerimine.
 2. Klõpsake valikut Uus.
 3. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-4. Valige loendist kaup, mille soovite valida. 
+4. Valige loendist kaup, mille soovite valida.
     * Valige kauba number koos füüsilise vaba kaubavaruga, mida soovite blokeerida. USMF-i kasutamisel saate valida kauba M9201.  
 5. Sisestage arv väljale Kogus.
     * Kauba M9201 kasutamisel peate valima alla 200.  
@@ -55,5 +55,4 @@ See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimis
 1. Klõpsake  Kustuta.
 2. Klõpsake nuppu Jah.
 3. Sulgege leht.
-
 

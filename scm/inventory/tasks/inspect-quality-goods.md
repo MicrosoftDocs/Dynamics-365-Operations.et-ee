@@ -1,4 +1,4 @@
---- 
+---
 title: Kaupade kvaliteedi kontrollimine
 description: "See protseduur näitab, kuidas kvaliteettellimust töödelda."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -55,5 +55,4 @@ See protseduur näitab, kuidas kvaliteettellimust töödelda. Saate selle juhend
 4. Klõpsake Vali.
 5. Klõpsake nuppu OK.
 6. Sulgege leht.
-
 

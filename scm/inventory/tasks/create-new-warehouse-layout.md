@@ -1,4 +1,4 @@
---- 
+---
 title: Uue laopaigutuse loomine
 description: "Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet. 
 7. Lülitage ümber jaotis Asukoha nimed.
     * Selle jaotise suvandites saate määratleda asukohanimede vaikevormingu. Selles näites on kasutatud riiulirea, sektsiooni ja riiuli numbrit.  
 8. Seadistage suvand Kaasa riiulirida väärtusele Jah.
-9. Seadistage suvand Kaasa sektsioon väärtusele Jah. 
+9. Seadistage suvand Kaasa sektsioon väärtusele Jah.
 10. Sisestage sektsiooni jaoks väärtus väljale Vorming.
     * Näide: ‑##  
 11. Seadistage suvand Kaasa riiul väärtusele Jah.
@@ -74,5 +74,4 @@ Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet. 
 14. Klõpsake Lõpeta.
 15. Sulgege leht.
 16. Värskendage lehte.
-
 

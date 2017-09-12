@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Selles artiklis kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks. 
+Selles artiklis kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks.
 
 Laotöölehti kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operationsis mitmesuguste füüsiliste laokannete sisestamiseks, nt väljaminekute ja sissetulekuste, varude liikumiste, koosluste loomise ja füüsiliste varude vastavusseviimise sisestamiseks. Kõiki neid laotöölehti kasutatakse sarnasel viisil, kuid need on jagatud erinevateks tüüpideks.
 
@@ -95,7 +95,4 @@ Töölehele pääseb korraga juurde ainult üks kasutaja. Kui mitu kasutajat pea
 
 ## <a name="posting-journal-lines"></a>Töölehe ridade sisestamine
 Saate enda loodud tööleheread igal ajal sisestada, kuni olete lukustanud kauba täiendavate kannete eest. Töölehele sisestatud andmed jäävad sellele töölehele isegi juhul, kui sulgete töölehe ilma ridu sisestamata.
-
-
-
 

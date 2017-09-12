@@ -1,4 +1,4 @@
---- 
+---
 title: "Veose täiendustellimuse loomine"
 description: "See protseduur näitab, kuidas koostada veose täiendustellimust, kus saate jälgida hankija eeldatavat tarnet oma veose varudesse."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ See protseduur näitab, kuidas koostada veose täiendustellimust, kus saate jäl
 ## <a name="receive-items"></a>Võta kaubad vastu
 1. Klõpsake valikut Toote sissetulek.
 2. Tippige väärtus väljale Väline toote sissetulek.
-3. Sisestage väljale Kogus seal kuvatud numbrist väiksem number. 
+3. Sisestage väljale Kogus seal kuvatud numbrist väiksem number.
 4. Klõpsake nuppu OK.
 
 ## <a name="check-the-on-hand-inventory"></a>Kontrollige vaba kaubavaru
@@ -70,5 +70,4 @@ See protseduur näitab, kuidas koostada veose täiendustellimust, kus saate jäl
     * Kaubad, mis on saadud hankijale kuuluva veose kaubavaruna, on vaba varuna saadaval. Ülejäänud kogus veose täiendustellimusel on näidatud väljal Tellitud kokku.  
 4. Sulgege leht.
 5. Klõpsake valikut Sule.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Inventuuriprotsesside määratlemine"
 description: "See protseduur annab ülevaate peamiste varude inventuuriprotsesside konfiguratsioonist, luues inventuurigrupi ja inventuuri töölehe."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ See protseduur annab ülevaate peamiste varude inventuuriprotsesside konfigurats
 7. Valige loendist inventuurigrupp.
     * Siin saate valida konkreetse inventuurigrupi, mis tuleks teie valitud konkreetses laos oleva kauba puhul rakendada. Selles laos inventuuri tegemisel alistab see inventuuripoliitika kauba üldise inventuuripoliitika.  
 8. Klõpsake nuppu Salvesta.
-
 
