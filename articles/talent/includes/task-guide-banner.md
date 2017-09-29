@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="b9e5f-101">Me ei aktsepteeri selle teema muudatusi, kuna see on loodud teenuse Lifecycle Services äriprotsessi kaudu.</span><span class="sxs-lookup"><span data-stu-id="b9e5f-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
