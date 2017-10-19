@@ -451,6 +451,7 @@
 ### [Tükeldatavad mudelid](dev-tools/model-split.md)
 ### [Delegaatide kasutamine mudelitevaheliste sõltuvuste lahendamiseks](migration-upgrade/delegates-migration.md)
 
+
 ## Uusimale värskendusele täiendamine
 ### [Viimatise värskenduse kasutamisele ülemineku protsess](migration-upgrade/upgrade-latest-update.md)
 ### [Elutsükli poliitika](migration-upgrade/versions-update-policy.md)
@@ -509,8 +510,10 @@
 ## [BPM-i teegi sünkroonimine teenusega Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
 ## [Äriprotsesside modelleerija vooskeemid](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Kohandatud äriprotsesside üleslaadimine](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
-## [Jälgimine ja diagnostika](lifecycle-services/monitoring-diagnostics.md)
+## [Jälgimine ja diagnostika ](lifecycle-services/monitoring-diagnostics.md)
 ## [Varateek](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 – tõlketeenuse ülevaade](lifecycle-services/translation-service-overview.md)
+### [Microsoft Dynamics 365 – tõlketeenuse kasutusjuhend  ](lifecycle-services/use-translation-service.md)
 
 ## Teenuse Dynamics AX 2012 Lifecycle Services funktsioonid
 ### Juurutamine
