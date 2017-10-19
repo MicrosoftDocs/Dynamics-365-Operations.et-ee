@@ -1,5 +1,8 @@
 # [Tere tulemast rakendusse Dynamics 365 for Retail](index.md)
 
+# Alustamine
+## [Mis on uut või mida on muudetud](get-started/whats-new.md)
+
 # Maksed
 ## [Makseviisid](payment-methods.md)
 ## [Krediitkaardi seadistamine, autoriseerimine ja hõivamine](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -173,9 +176,10 @@
 ### [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
 #### [Jaemüügikontode ja -seadmete haldamine peakontorist](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS-i seadme aktiveerimine](dev-itpro/retail-device-activation.md)
-#### [Jaemüügi pilve kassa turve](dev-itpro/secure-retail-cloud-pos.md)
-### [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
-### [Jaemüügikomponentide sündmused diagnostika ja tõrkeotsingu jaoks](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+#### [Retaili pilve kassa turve](dev-itpro/secure-retail-cloud-pos.md)
+### [Retaili riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
+### [Retaili iseteeninduse komponentide hulgijuurutus](dev-itpro/retail-mass-deployment.md)
+### [Retaili komponentide sündmused diagnostika ja tõrkeotsingu jaoks](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Juurutatava paketi rakendamine](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## Täiendus ja N-1 tugi
