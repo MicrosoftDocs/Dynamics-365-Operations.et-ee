@@ -1,0 +1,54 @@
+---
+title: "CFO ülevaate Power BI sisu"
+description: "Selles teemas kirjeldatakse CFO ülevaate Microsoft Power BI sisu."
+author: kweekley
+manager: AnnBe
+ms.date: 06/16/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application user, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: dfc5b5f1ced098a445762653f98c672eb896a104
+ms.contentlocale: et-ee
+ms.lasthandoff: 09/29/2017
+
+---
+
+# <a name="cfo-overview-power-bi-content"></a><span data-ttu-id="31aa5-103">CFO ülevaate Power BI sisu</span><span class="sxs-lookup"><span data-stu-id="31aa5-103">CFO overview Power BI content</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+
+<span data-ttu-id="31aa5-104">Selles teemas kirjeldatakse **CFO ülevaate** Microsoft Power BI sisu.</span><span class="sxs-lookup"><span data-stu-id="31aa5-104">This topic describes the **CFO overview** Microsoft Power BI content.</span></span> 
+
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="31aa5-105">Juurdepääs Power BI sisule</span><span class="sxs-lookup"><span data-stu-id="31aa5-105">Accessing the Power BI content</span></span>
+
+<span data-ttu-id="31aa5-106">Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), kuvatakse **CFO ülevaate** Power BI sisu aruanded tööruumis **CFO ülevaade**.</span><span class="sxs-lookup"><span data-stu-id="31aa5-106">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017), reports from the **CFO overview** Power BI content are shown in the **CFO overview** workspace.</span></span>
+
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="31aa5-107">Power BI sisu hulka kuuluvad aruanded</span><span class="sxs-lookup"><span data-stu-id="31aa5-107">Reports that are included in the Power BI content</span></span>
+<span data-ttu-id="31aa5-108">**CFO ülevaate** Power BI sisu koosneb mitmesuguse muu Power BI sisu aruannetest koos mõne tegeliku ja eelarvesaldoga pearaamatust.</span><span class="sxs-lookup"><span data-stu-id="31aa5-108">The **CFO overview** Power BI content is a composite of reports from various other Power BI content, together with some actual and budget balances from General ledger.</span></span> <span data-ttu-id="31aa5-109">Seetõttu annab see Power BI sisu finantsjuhile (CFO) organisatsioonist ülevaate.</span><span class="sxs-lookup"><span data-stu-id="31aa5-109">Therefore, this Power BI content gives the chief financial officer (CFO) an overview of the organization.</span></span>
+
+<span data-ttu-id="31aa5-110">Järgmises tabelis on Power BI sisu, millest kopeeritakse aruandeid, ja aruanded, mis kuvatakse tööruumis **CFO ülevaade**.</span><span class="sxs-lookup"><span data-stu-id="31aa5-110">The following table shows the Power BI content that the reports are copied from and the reports that are provided in the **CFO overview** workspace.</span></span> <span data-ttu-id="31aa5-111">Antud on lingid mitmesuguste Power BI sisu dokumentide juurde.</span><span class="sxs-lookup"><span data-stu-id="31aa5-111">Links are provided to the documentation for the various Power BI content.</span></span>
+
+| <span data-ttu-id="31aa5-112">Power BI sisu, mis on lisatud</span><span class="sxs-lookup"><span data-stu-id="31aa5-112">Power BI content that is included</span></span>     | <span data-ttu-id="31aa5-113">Aruanded</span><span class="sxs-lookup"><span data-stu-id="31aa5-113">Reports</span></span> |
+|---------------------------------------|---------|
+| [<span data-ttu-id="31aa5-114">Finantstulemused</span><span class="sxs-lookup"><span data-stu-id="31aa5-114">Financial performance</span></span>](financial-performance-power-bi-content-pack.md) | <ul><li><span data-ttu-id="31aa5-115">Tulu</span><span class="sxs-lookup"><span data-stu-id="31aa5-115">Revenue</span></span></li><li><span data-ttu-id="31aa5-116">Kulud</span><span class="sxs-lookup"><span data-stu-id="31aa5-116">Expenses</span></span></li><li><span data-ttu-id="31aa5-117">Netotulu</span><span class="sxs-lookup"><span data-stu-id="31aa5-117">Net income</span></span></li><li><span data-ttu-id="31aa5-118">Kogutulu</span><span class="sxs-lookup"><span data-stu-id="31aa5-118">Gross margin</span></span></li><li><span data-ttu-id="31aa5-119">Lühiajalise kohustuse kattekordaja</span><span class="sxs-lookup"><span data-stu-id="31aa5-119">Current ratio</span></span></li><li><span data-ttu-id="31aa5-120">Ostureskontro kogusumma</span><span class="sxs-lookup"><span data-stu-id="31aa5-120">Total accounts payable</span></span></li><li><span data-ttu-id="31aa5-121">Müügireskontro kogusumma</span><span class="sxs-lookup"><span data-stu-id="31aa5-121">Total accounts receivable</span></span></li><li><span data-ttu-id="31aa5-122">Kulud kontokategooriate kaupa</span><span class="sxs-lookup"><span data-stu-id="31aa5-122">Expenses by account category</span></span></li><li><span data-ttu-id="31aa5-123">Kulud – tegelik võrreldes eelarvega</span><span class="sxs-lookup"><span data-stu-id="31aa5-123">Expenses - Actual vs budget</span></span></li><li><span data-ttu-id="31aa5-124">Tulu – tegelik võrreldes eelarvega</span><span class="sxs-lookup"><span data-stu-id="31aa5-124">Revenue - Actual vs budget</span></span></li></ul> |
+| [<span data-ttu-id="31aa5-125">Kassa ülevaade</span><span class="sxs-lookup"><span data-stu-id="31aa5-125">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li><span data-ttu-id="31aa5-126">Likviidsuse planeerimine</span><span class="sxs-lookup"><span data-stu-id="31aa5-126">Cash flow forecast</span></span></li><li><span data-ttu-id="31aa5-127">Pangakonto bilanss</span><span class="sxs-lookup"><span data-stu-id="31aa5-127">Bank account balance</span></span></li><li><span data-ttu-id="31aa5-128">Saldo valuuta järgi</span><span class="sxs-lookup"><span data-stu-id="31aa5-128">Balance by currency</span></span></li></ul> |
+| [<span data-ttu-id="31aa5-129">Müük ja tulusus</span><span class="sxs-lookup"><span data-stu-id="31aa5-129">Sales and profitability</span></span>](sales-profitability-performance-content-pack.md) | <ul><li><span data-ttu-id="31aa5-130">Tulu piirkonna alusel</span><span class="sxs-lookup"><span data-stu-id="31aa5-130">Revenue by region</span></span></li><li><span data-ttu-id="31aa5-131">10 parimat klienti tulu alusel</span><span class="sxs-lookup"><span data-stu-id="31aa5-131">Top 10 customers by revenue</span></span></li><li><span data-ttu-id="31aa5-132">10 parimat toodet tulu alusel</span><span class="sxs-lookup"><span data-stu-id="31aa5-132">Top 10 products by revenue</span></span></li></ul> |
+| [<span data-ttu-id="31aa5-133">Krediidihaldus ja võlanõuded</span><span class="sxs-lookup"><span data-stu-id="31aa5-133">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li><span data-ttu-id="31aa5-134">Tähtaja ületanud klient</span><span class="sxs-lookup"><span data-stu-id="31aa5-134">Customer past due</span></span></li><li><span data-ttu-id="31aa5-135">Krediidilimiiti ületavad kliendid</span><span class="sxs-lookup"><span data-stu-id="31aa5-135">Customers over credit limit</span></span></li><li><span data-ttu-id="31aa5-136">Aegunud saldod</span><span class="sxs-lookup"><span data-stu-id="31aa5-136">Aged balances</span></span></li></ul> |
+| [<span data-ttu-id="31aa5-137">Ostukulutuste analüüs</span><span class="sxs-lookup"><span data-stu-id="31aa5-137">Purchase spend analysis</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li><span data-ttu-id="31aa5-138">Ostud kuu/päeva kaupa</span><span class="sxs-lookup"><span data-stu-id="31aa5-138">Purchases by month/day</span></span></li><li><span data-ttu-id="31aa5-139">10 tipptarnijat ostude alusel</span><span class="sxs-lookup"><span data-stu-id="31aa5-139">Top 10 vendors by purchases</span></span></li><li><span data-ttu-id="31aa5-140">10 tipptoodet ostude alusel</span><span class="sxs-lookup"><span data-stu-id="31aa5-140">Top 10 products by purchases</span></span></li></ul> |
+
+## <a name="extending-the-power-bi-content"></a><span data-ttu-id="31aa5-141">Power BI sisu laiendamine</span><span class="sxs-lookup"><span data-stu-id="31aa5-141">Extending the Power BI content</span></span>
+<span data-ttu-id="31aa5-142">Kasutades teenuses Microsoft Dynamics Lifecycle Services (LCS) olevaid sisupakette, saate pakkuda suurepäraseid analüüsivõimalusi inimestele, kes rakendusse Microsoft Dynamics 365 sisse ei logi.</span><span class="sxs-lookup"><span data-stu-id="31aa5-142">By using the content packs that are available in Microsoft Dynamics Lifecycle Services (LCS), you can provide great analytics to people who don't sign in to Microsoft Dynamics 365.</span></span> <span data-ttu-id="31aa5-143">Neid sisupakette saab muuta nii, et need sisaldaksid teisi aruandeid või visuaale, ja avaldada siis sisupaketid analüüsimiseks Power BI.com-i rentnikus.</span><span class="sxs-lookup"><span data-stu-id="31aa5-143">You can modify these content packs so that they include other reports or visuals, and then publish the content packs to your Power BI.com tenant for analysis.</span></span>
+
+<span data-ttu-id="31aa5-144">**CFO ülevaate** Power BI sisu leiate LCS-i ühiste vahendite teegist.</span><span class="sxs-lookup"><span data-stu-id="31aa5-144">You can find the **CFO overview** Power BI content in the Shared assets library in LCS.</span></span> <span data-ttu-id="31aa5-145">Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).</span><span class="sxs-lookup"><span data-stu-id="31aa5-145">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="31aa5-146">Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).</span><span class="sxs-lookup"><span data-stu-id="31aa5-146">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
+

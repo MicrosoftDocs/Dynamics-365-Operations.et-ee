@@ -17,82 +17,82 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e27be049bebd63c9266029b8981874417a9f0a8c
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="set-up-shipping-carriers"></a><span data-ttu-id="51373-103">Kättetoimetamisettevõtte seadistus</span><span class="sxs-lookup"><span data-stu-id="51373-103">Set up shipping carriers</span></span>
+# <a name="set-up-shipping-carriers"></a><span data-ttu-id="23d05-103">Kättetoimetamisettevõtte seadistus</span><span class="sxs-lookup"><span data-stu-id="23d05-103">Set up shipping carriers</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="51373-104">See protseduur näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, nt teenus, saadetise režiim, transpordi maksevahend, transpordi piirangud ja tarnekulu.</span><span class="sxs-lookup"><span data-stu-id="51373-104">This procedure shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="51373-105">Transpordi koordinaator saab seejärel määrata saadetise vedaja sissetulevale või väljaminevale koormale.</span><span class="sxs-lookup"><span data-stu-id="51373-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
+<span data-ttu-id="23d05-104">See protseduur näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, nt teenus, saadetise režiim, transpordi maksevahend, transpordi piirangud ja tarnekulu.</span><span class="sxs-lookup"><span data-stu-id="23d05-104">This procedure shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="23d05-105">Transpordi koordinaator saab seejärel määrata saadetise vedaja sissetulevale või väljaminevale koormale.</span><span class="sxs-lookup"><span data-stu-id="23d05-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
 
 
-## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="51373-106">Uue kättetoimetaja loomine</span><span class="sxs-lookup"><span data-stu-id="51373-106">Create a new shipping carrier</span></span>
-1. <span data-ttu-id="51373-107">Tehke valik Transpordi haldus > Seadistus > Vedajad > Kättetoimetajad.</span><span class="sxs-lookup"><span data-stu-id="51373-107">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
-2. <span data-ttu-id="51373-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="51373-108">Click New.</span></span>
-3. <span data-ttu-id="51373-109">Sisestage väärtus väljale Kättetoimetaja.</span><span class="sxs-lookup"><span data-stu-id="51373-109">In the Shipping carrier field, type a value.</span></span>
-4. <span data-ttu-id="51373-110">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="51373-110">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="51373-111">Klõpsake väljal Režiim otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-111">In the Mode field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="51373-112">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="51373-112">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="51373-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-113">In the list, click the link in the selected row.</span></span>
+## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="23d05-106">Uue kättetoimetaja loomine</span><span class="sxs-lookup"><span data-stu-id="23d05-106">Create a new shipping carrier</span></span>
+1. <span data-ttu-id="23d05-107">Tehke valik Transpordi haldus > Seadistus > Vedajad > Kättetoimetajad.</span><span class="sxs-lookup"><span data-stu-id="23d05-107">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="23d05-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="23d05-108">Click New.</span></span>
+3. <span data-ttu-id="23d05-109">Sisestage väärtus väljale Kättetoimetaja.</span><span class="sxs-lookup"><span data-stu-id="23d05-109">In the Shipping carrier field, type a value.</span></span>
+4. <span data-ttu-id="23d05-110">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="23d05-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="23d05-111">Klõpsake väljal Režiim otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-111">In the Mode field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="23d05-112">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="23d05-112">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="23d05-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-113">In the list, click the link in the selected row.</span></span>
 
-## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="51373-114">Kättetoimetaja üldise teabe sisestamine</span><span class="sxs-lookup"><span data-stu-id="51373-114">Fill in the general information for the shipping carrier</span></span>
-1. <span data-ttu-id="51373-115">Laiendage jaotist Ülevaade.</span><span class="sxs-lookup"><span data-stu-id="51373-115">Toggle the expansion of the Overview section.</span></span>
-2. <span data-ttu-id="51373-116">Märkige või tühjendage ruut Aktiveeri saadetise vedaja.</span><span class="sxs-lookup"><span data-stu-id="51373-116">Check or uncheck the Activate shipping carrier checkbox.</span></span>
-3. <span data-ttu-id="51373-117">Klõpsake väljal Hankija otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-117">In the Vendor field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="51373-118">Valige hankija konto, millele tarne vedaja määrata.</span><span class="sxs-lookup"><span data-stu-id="51373-118">Select the vendor account to assign the shipping carrier to.</span></span>  
-4. <span data-ttu-id="51373-119">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="51373-119">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="51373-120">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-120">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="51373-121">Valige suvand väljalt Transpordi maksevahendi tüüp.</span><span class="sxs-lookup"><span data-stu-id="51373-121">In the Transportation tender type field, select an option.</span></span>
-    * <span data-ttu-id="51373-122">Valige leht Transpordi maksevahendi kasutamise juhend või valige EDI pakkumise värskendamiseks elektroonilise andmevahetuse (EDI) abil.</span><span class="sxs-lookup"><span data-stu-id="51373-122">Select Manual to use the Transportation Tender page, or select EDI to update the tender by using Electronic Data Interchange (EDI).</span></span>  
-7. <span data-ttu-id="51373-123">Märkige või tühjendage ruut Aktiveeri vedaja hinnang.</span><span class="sxs-lookup"><span data-stu-id="51373-123">Check or uncheck the Activate carrier rating checkbox.</span></span>
+## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="23d05-114">Kättetoimetaja üldise teabe sisestamine</span><span class="sxs-lookup"><span data-stu-id="23d05-114">Fill in the general information for the shipping carrier</span></span>
+1. <span data-ttu-id="23d05-115">Laiendage jaotist Ülevaade.</span><span class="sxs-lookup"><span data-stu-id="23d05-115">Toggle the expansion of the Overview section.</span></span>
+2. <span data-ttu-id="23d05-116">Märkige või tühjendage ruut Aktiveeri saadetise vedaja.</span><span class="sxs-lookup"><span data-stu-id="23d05-116">Check or uncheck the Activate shipping carrier checkbox.</span></span>
+3. <span data-ttu-id="23d05-117">Klõpsake väljal Hankija otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-117">In the Vendor field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="23d05-118">Valige hankija konto, millele tarne vedaja määrata.</span><span class="sxs-lookup"><span data-stu-id="23d05-118">Select the vendor account to assign the shipping carrier to.</span></span>  
+4. <span data-ttu-id="23d05-119">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="23d05-119">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="23d05-120">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-120">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="23d05-121">Valige suvand väljalt Transpordi maksevahendi tüüp.</span><span class="sxs-lookup"><span data-stu-id="23d05-121">In the Transportation tender type field, select an option.</span></span>
+    * <span data-ttu-id="23d05-122">Valige leht Transpordi maksevahendi kasutamise juhend või valige EDI pakkumise värskendamiseks elektroonilise andmevahetuse (EDI) abil.</span><span class="sxs-lookup"><span data-stu-id="23d05-122">Select Manual to use the Transportation Tender page, or select EDI to update the tender by using Electronic Data Interchange (EDI).</span></span>  
+7. <span data-ttu-id="23d05-123">Märkige või tühjendage ruut Aktiveeri vedaja hinnang.</span><span class="sxs-lookup"><span data-stu-id="23d05-123">Check or uncheck the Activate carrier rating checkbox.</span></span>
 
-## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="51373-124">Kättetoimetaja vajalike teenuste loomine</span><span class="sxs-lookup"><span data-stu-id="51373-124">Create the necessary services for the shipping carrier</span></span>
-1. <span data-ttu-id="51373-125">Laiendage jaotist Teenused.</span><span class="sxs-lookup"><span data-stu-id="51373-125">Toggle the expansion of the Services section.</span></span>
-2. <span data-ttu-id="51373-126">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="51373-126">Click New.</span></span>
-3. <span data-ttu-id="51373-127">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="51373-127">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="51373-128">Sisestage väärtus väljale Vedaja teenus.</span><span class="sxs-lookup"><span data-stu-id="51373-128">In the Carrier service field, type a value.</span></span>
-5. <span data-ttu-id="51373-129">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="51373-129">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="51373-130">Klõpsake väljal Transpordiviis otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-130">In the Transportation method field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="51373-131">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="51373-131">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="51373-132">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-132">In the list, click the link in the selected row.</span></span>
+## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="23d05-124">Kättetoimetaja vajalike teenuste loomine</span><span class="sxs-lookup"><span data-stu-id="23d05-124">Create the necessary services for the shipping carrier</span></span>
+1. <span data-ttu-id="23d05-125">Laiendage jaotist Teenused.</span><span class="sxs-lookup"><span data-stu-id="23d05-125">Toggle the expansion of the Services section.</span></span>
+2. <span data-ttu-id="23d05-126">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="23d05-126">Click New.</span></span>
+3. <span data-ttu-id="23d05-127">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="23d05-127">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="23d05-128">Sisestage väärtus väljale Vedaja teenus.</span><span class="sxs-lookup"><span data-stu-id="23d05-128">In the Carrier service field, type a value.</span></span>
+5. <span data-ttu-id="23d05-129">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="23d05-129">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="23d05-130">Klõpsake väljal Transpordiviis otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-130">In the Transportation method field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="23d05-131">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="23d05-131">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="23d05-132">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-132">In the list, click the link in the selected row.</span></span>
 
-## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="51373-133">Vedaja aadressi seadistamine (valikuline)</span><span class="sxs-lookup"><span data-stu-id="51373-133">Set up the address for the carrier (optional)</span></span>
-1. <span data-ttu-id="51373-134">Lülitage ümber jaotis Aadressid.</span><span class="sxs-lookup"><span data-stu-id="51373-134">Toggle the expansion of the Addresses section.</span></span>
-2. <span data-ttu-id="51373-135">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="51373-135">Click New.</span></span>
-3. <span data-ttu-id="51373-136">Sisestage väärtus väljale Nimi või kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="51373-136">In the Name or description field, type a value.</span></span>
-4. <span data-ttu-id="51373-137">Klõpsake väljal Riik/regioon otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-137">In the Country/region field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="51373-138">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-138">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="51373-139">Klõpsake väljal Sihtnumber otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-139">In the ZIP/postal code field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="51373-140">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="51373-140">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="51373-141">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-141">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="51373-142">Sisestage väärtus väljale Tänav.</span><span class="sxs-lookup"><span data-stu-id="51373-142">In the Street field, type a value.</span></span>
-10. <span data-ttu-id="51373-143">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="51373-143">Click OK.</span></span>
+## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="23d05-133">Vedaja aadressi seadistamine (valikuline)</span><span class="sxs-lookup"><span data-stu-id="23d05-133">Set up the address for the carrier (optional)</span></span>
+1. <span data-ttu-id="23d05-134">Lülitage ümber jaotis Aadressid.</span><span class="sxs-lookup"><span data-stu-id="23d05-134">Toggle the expansion of the Addresses section.</span></span>
+2. <span data-ttu-id="23d05-135">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="23d05-135">Click New.</span></span>
+3. <span data-ttu-id="23d05-136">Sisestage väärtus väljale Nimi või kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="23d05-136">In the Name or description field, type a value.</span></span>
+4. <span data-ttu-id="23d05-137">Klõpsake väljal Riik/regioon otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-137">In the Country/region field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="23d05-138">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-138">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="23d05-139">Klõpsake väljal Sihtnumber otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-139">In the ZIP/postal code field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="23d05-140">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="23d05-140">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="23d05-141">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-141">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="23d05-142">Sisestage väärtus väljale Tänav.</span><span class="sxs-lookup"><span data-stu-id="23d05-142">In the Street field, type a value.</span></span>
+10. <span data-ttu-id="23d05-143">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="23d05-143">Click OK.</span></span>
 
-## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="51373-144">Kättetoimetaja hinnanguprofiili seadistamine</span><span class="sxs-lookup"><span data-stu-id="51373-144">Set up the rating profile for the shipping carrier</span></span>
-1. <span data-ttu-id="51373-145">Laiendage jaotist Hinnanguprofiilid.</span><span class="sxs-lookup"><span data-stu-id="51373-145">Toggle the expansion of the Rating profiles section.</span></span>
-2. <span data-ttu-id="51373-146">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="51373-146">Click New.</span></span>
-3. <span data-ttu-id="51373-147">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="51373-147">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="51373-148">Sisestage väärtus väljale Hinnanguprofiil.</span><span class="sxs-lookup"><span data-stu-id="51373-148">In the Rating profile field, type a value.</span></span>
-5. <span data-ttu-id="51373-149">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="51373-149">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="51373-150">Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-150">In the Site field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="51373-151">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="51373-151">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="51373-152">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-152">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="51373-153">Klõpsake väljal Ladu otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-153">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="51373-154">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="51373-154">In the list, find and select the desired record.</span></span>
-11. <span data-ttu-id="51373-155">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-155">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="51373-156">Klõpsake väljal Määra mootor otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-156">In the Rate engine field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="51373-157">Valige Määra mootor, mis on kooskõlas vedaja lepinguga.</span><span class="sxs-lookup"><span data-stu-id="51373-157">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
-13. <span data-ttu-id="51373-158">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="51373-158">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="51373-159">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-159">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="51373-160">Klõpsake väljal Koondmäär otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-160">In the Rate master field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="51373-161">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="51373-161">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="51373-162">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-162">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="51373-163">Klõpsake väljal Transiitaja mootor otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="51373-163">In the Transit time engine field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="51373-164">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="51373-164">In the list, click the link in the selected row.</span></span>
-20. <span data-ttu-id="51373-165">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="51373-165">Click Save.</span></span>
+## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="23d05-144">Kättetoimetaja hinnanguprofiili seadistamine</span><span class="sxs-lookup"><span data-stu-id="23d05-144">Set up the rating profile for the shipping carrier</span></span>
+1. <span data-ttu-id="23d05-145">Laiendage jaotist Hinnanguprofiilid.</span><span class="sxs-lookup"><span data-stu-id="23d05-145">Toggle the expansion of the Rating profiles section.</span></span>
+2. <span data-ttu-id="23d05-146">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="23d05-146">Click New.</span></span>
+3. <span data-ttu-id="23d05-147">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="23d05-147">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="23d05-148">Sisestage väärtus väljale Hinnanguprofiil.</span><span class="sxs-lookup"><span data-stu-id="23d05-148">In the Rating profile field, type a value.</span></span>
+5. <span data-ttu-id="23d05-149">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="23d05-149">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="23d05-150">Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-150">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="23d05-151">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="23d05-151">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="23d05-152">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-152">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="23d05-153">Klõpsake väljal Ladu otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-153">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="23d05-154">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="23d05-154">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="23d05-155">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-155">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="23d05-156">Klõpsake väljal Määra mootor otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-156">In the Rate engine field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="23d05-157">Valige Määra mootor, mis on kooskõlas vedaja lepinguga.</span><span class="sxs-lookup"><span data-stu-id="23d05-157">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
+13. <span data-ttu-id="23d05-158">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="23d05-158">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="23d05-159">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-159">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="23d05-160">Klõpsake väljal Koondmäär otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-160">In the Rate master field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="23d05-161">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="23d05-161">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="23d05-162">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-162">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="23d05-163">Klõpsake väljal Transiitaja mootor otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="23d05-163">In the Transit time engine field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="23d05-164">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="23d05-164">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="23d05-165">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="23d05-165">Click Save.</span></span>
 
 

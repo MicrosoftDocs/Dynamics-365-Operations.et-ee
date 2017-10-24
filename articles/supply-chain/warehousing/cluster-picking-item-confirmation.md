@@ -16,27 +16,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 17f5761df4294abfea28e7cb8d50c86f1e3e136f
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 [!include[banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="d1d6e-103">Toote kinnitamine kogumi komplekteerimise jaoks</span><span class="sxs-lookup"><span data-stu-id="d1d6e-103">Product confirmation for cluster picking</span></span>
-<span data-ttu-id="d1d6e-104">Kogumi komplekteerimisel saate komplekteerida kaupu korraga mitme tellimuse jaoks.</span><span class="sxs-lookup"><span data-stu-id="d1d6e-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="d1d6e-105">Kogumi komplekteerimise rakendamiseks on kinnitamine väga oluline, et kontrollida kogumitesse lisatud kaupu.</span><span class="sxs-lookup"><span data-stu-id="d1d6e-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="d1d6e-106">Kogumi komplekteerimisprotsessi ajal saab kaupu kogumi komplekteerimisel kontrollida.</span><span class="sxs-lookup"><span data-stu-id="d1d6e-106">You can verify items in cluster picking during the cluster picking process.</span></span>
+# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="dc229-103">Toote kinnitamine kogumi komplekteerimise jaoks</span><span class="sxs-lookup"><span data-stu-id="dc229-103">Product confirmation for cluster picking</span></span>
+<span data-ttu-id="dc229-104">Kogumi komplekteerimisel saate komplekteerida kaupu korraga mitme tellimuse jaoks.</span><span class="sxs-lookup"><span data-stu-id="dc229-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="dc229-105">Kogumi komplekteerimise rakendamiseks on kinnitamine väga oluline, et kontrollida kogumitesse lisatud kaupu.</span><span class="sxs-lookup"><span data-stu-id="dc229-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="dc229-106">Kogumi komplekteerimisprotsessi ajal saab kaupu kogumi komplekteerimisel kontrollida.</span><span class="sxs-lookup"><span data-stu-id="dc229-106">You can verify items in cluster picking during the cluster picking process.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="d1d6e-107">Kus see kehtib</span><span class="sxs-lookup"><span data-stu-id="d1d6e-107">Where it applies</span></span>
-<span data-ttu-id="d1d6e-108">Kauba kontrollimine kogumi komplekteerimiseks toimib samamoodi, nagu kaupade kontrollimine mitte-kogumi komplekteerimisprotsesside korral.</span><span class="sxs-lookup"><span data-stu-id="d1d6e-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="d1d6e-109">Seadistus põhineb toote vöötkoodi seadistusel.</span><span class="sxs-lookup"><span data-stu-id="d1d6e-109">The setup is based on the product bar code setup.</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="dc229-107">Kus see kehtib</span><span class="sxs-lookup"><span data-stu-id="dc229-107">Where it applies</span></span>
+<span data-ttu-id="dc229-108">Kauba kontrollimine kogumi komplekteerimiseks toimib samamoodi, nagu kaupade kontrollimine mitte-kogumi komplekteerimisprotsesside korral.</span><span class="sxs-lookup"><span data-stu-id="dc229-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="dc229-109">Seadistus põhineb toote vöötkoodi seadistusel.</span><span class="sxs-lookup"><span data-stu-id="dc229-109">The setup is based on the product bar code setup.</span></span>
 
-## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="d1d6e-110">Kauba kontrollimise seadistamine kogumi komplekteerimisega</span><span class="sxs-lookup"><span data-stu-id="d1d6e-110">Set up item verification with cluster picking</span></span>
-1.  <span data-ttu-id="d1d6e-111">Avage mobiilse seadme menüüelemendis seadistusvorm töö kinnitamiseks: **Laohaldus** > **Laohaldus** > **Seadistus** > **Mobiilne seade** > **Mobiilse seadme menüüelemendid**.</span><span class="sxs-lookup"><span data-stu-id="d1d6e-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
-2.  <span data-ttu-id="d1d6e-112">Avage mobiilse seadme menüüelemendist jaotis **Töö kinnituse häälestus**.</span><span class="sxs-lookup"><span data-stu-id="d1d6e-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
+## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="dc229-110">Kauba kontrollimise seadistamine kogumi komplekteerimisega</span><span class="sxs-lookup"><span data-stu-id="dc229-110">Set up item verification with cluster picking</span></span>
+1.  <span data-ttu-id="dc229-111">Avage mobiilse seadme menüüelemendis seadistusvorm töö kinnitamiseks: **Laohaldus** > **Laohaldus** > **Seadistus** > **Mobiilne seade** > **Mobiilse seadme menüüelemendid**.</span><span class="sxs-lookup"><span data-stu-id="dc229-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
+2.  <span data-ttu-id="dc229-112">Avage mobiilse seadme menüüelemendist jaotis **Töö kinnituse häälestus**.</span><span class="sxs-lookup"><span data-stu-id="dc229-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-| <span data-ttu-id="d1d6e-113">Suvand</span><span class="sxs-lookup"><span data-stu-id="d1d6e-113">Option</span></span>        | <span data-ttu-id="d1d6e-114">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="d1d6e-114">Description</span></span>   | 
+| <span data-ttu-id="dc229-113">Suvand</span><span class="sxs-lookup"><span data-stu-id="dc229-113">Option</span></span>        | <span data-ttu-id="dc229-114">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="dc229-114">Description</span></span>   | 
 | ------------- | ------------- |
-|<span data-ttu-id="d1d6e-115">Toote kinnitus</span><span class="sxs-lookup"><span data-stu-id="d1d6e-115">Product confirmation</span></span> | <span data-ttu-id="d1d6e-116">Võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida.</span><span class="sxs-lookup"><span data-stu-id="d1d6e-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span>|
+|<span data-ttu-id="dc229-115">Toote kinnitus</span><span class="sxs-lookup"><span data-stu-id="dc229-115">Product confirmation</span></span> | <span data-ttu-id="dc229-116">Võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida.</span><span class="sxs-lookup"><span data-stu-id="dc229-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span>|
 

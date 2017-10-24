@@ -17,34 +17,34 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 75b91ea330258a5b57e9e58cb32539d57e458f28
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="end-a-production-order"></a><span data-ttu-id="01128-103">Tootmistellimuse lõpetamine</span><span class="sxs-lookup"><span data-stu-id="01128-103">End a production order</span></span>
+# <a name="end-a-production-order"></a><span data-ttu-id="a86ac-103">Tootmistellimuse lõpetamine</span><span class="sxs-lookup"><span data-stu-id="a86ac-103">End a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="01128-104">See protseduur näitab, kuidas tootmistellimust lõpetada.</span><span class="sxs-lookup"><span data-stu-id="01128-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="01128-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="01128-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="01128-106">See on viimane protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.</span><span class="sxs-lookup"><span data-stu-id="01128-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="a86ac-104">See protseduur näitab, kuidas tootmistellimust lõpetada.</span><span class="sxs-lookup"><span data-stu-id="a86ac-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="a86ac-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="a86ac-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a86ac-106">See on viimane protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.</span><span class="sxs-lookup"><span data-stu-id="a86ac-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="end-a-production-order"></a><span data-ttu-id="01128-107">Tootmistellimuse lõpetamine</span><span class="sxs-lookup"><span data-stu-id="01128-107">End a production order</span></span>
-1. <span data-ttu-id="01128-108">Avage Tootmise juhtimine > Tootmistellimused > Kõik tootmistellimused.</span><span class="sxs-lookup"><span data-stu-id="01128-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="01128-109">Valige tootmistellimus, mille olek on Lõpetatuna kinnitatud.</span><span class="sxs-lookup"><span data-stu-id="01128-109">Select a production order that has the status Reported as finished.</span></span>  
-2. <span data-ttu-id="01128-110">Klõpsake toimingupaanil valikut Tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="01128-110">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="01128-111">Klõpsake suvandit Lõpeta.</span><span class="sxs-lookup"><span data-stu-id="01128-111">Click End.</span></span>
-    * <span data-ttu-id="01128-112">Sellel lehel saate kinnitada tootmistellimuse lõpetamise.</span><span class="sxs-lookup"><span data-stu-id="01128-112">On this page, you can confirm that you want to end the production order.</span></span>  
-4. <span data-ttu-id="01128-113">Klõpsake vahekaarti Üldine.</span><span class="sxs-lookup"><span data-stu-id="01128-113">Click the General tab.</span></span>
-5. <span data-ttu-id="01128-114">Sisestage kuupäev väljale Kuupäev.</span><span class="sxs-lookup"><span data-stu-id="01128-114">In the Date field, enter a date.</span></span>
-6. <span data-ttu-id="01128-115">Valige väljal Praagimeetod suvand Eraldamine.</span><span class="sxs-lookup"><span data-stu-id="01128-115">In the Scrap method field, select 'Allocation'.</span></span>
-    * <span data-ttu-id="01128-116">Kui valite suvandi Eraldamismeetod, lisatakse lõpetatud kaupadele kulud mahakantud materjalide kulud.</span><span class="sxs-lookup"><span data-stu-id="01128-116">When you select the Allocation method, costs from the scrapped materials are added to the finished goods.</span></span>  
-7. <span data-ttu-id="01128-117">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="01128-117">Click OK.</span></span>
+## <a name="end-a-production-order"></a><span data-ttu-id="a86ac-107">Tootmistellimuse lõpetamine</span><span class="sxs-lookup"><span data-stu-id="a86ac-107">End a production order</span></span>
+1. <span data-ttu-id="a86ac-108">Avage Tootmise juhtimine > Tootmistellimused > Kõik tootmistellimused.</span><span class="sxs-lookup"><span data-stu-id="a86ac-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="a86ac-109">Valige tootmistellimus, mille olek on Lõpetatuna kinnitatud.</span><span class="sxs-lookup"><span data-stu-id="a86ac-109">Select a production order that has the status Reported as finished.</span></span>  
+2. <span data-ttu-id="a86ac-110">Klõpsake toimingupaanil valikut Tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="a86ac-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="a86ac-111">Klõpsake suvandit Lõpeta.</span><span class="sxs-lookup"><span data-stu-id="a86ac-111">Click End.</span></span>
+    * <span data-ttu-id="a86ac-112">Sellel lehel saate kinnitada tootmistellimuse lõpetamise.</span><span class="sxs-lookup"><span data-stu-id="a86ac-112">On this page, you can confirm that you want to end the production order.</span></span>  
+4. <span data-ttu-id="a86ac-113">Klõpsake vahekaarti Üldine.</span><span class="sxs-lookup"><span data-stu-id="a86ac-113">Click the General tab.</span></span>
+5. <span data-ttu-id="a86ac-114">Sisestage kuupäev väljale Kuupäev.</span><span class="sxs-lookup"><span data-stu-id="a86ac-114">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="a86ac-115">Valige väljal Praagimeetod suvand Eraldamine.</span><span class="sxs-lookup"><span data-stu-id="a86ac-115">In the Scrap method field, select 'Allocation'.</span></span>
+    * <span data-ttu-id="a86ac-116">Kui valite suvandi Eraldamismeetod, lisatakse lõpetatud kaupadele kulud mahakantud materjalide kulud.</span><span class="sxs-lookup"><span data-stu-id="a86ac-116">When you select the Allocation method, costs from the scrapped materials are added to the finished goods.</span></span>  
+7. <span data-ttu-id="a86ac-117">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a86ac-117">Click OK.</span></span>
 
-## <a name="validate-calculation-results"></a><span data-ttu-id="01128-118">arvutustulemuste kinnitamine</span><span class="sxs-lookup"><span data-stu-id="01128-118">Validate calculation results</span></span>
-1. <span data-ttu-id="01128-119">Klõpsake toimingupaanil valikut Kulude haldamine.</span><span class="sxs-lookup"><span data-stu-id="01128-119">On the Action Pane, click Manage costs.</span></span>
-2. <span data-ttu-id="01128-120">Klõpsake käsku Kuva kulu võrdlus.</span><span class="sxs-lookup"><span data-stu-id="01128-120">Click View cost comparison.</span></span>
-    * <span data-ttu-id="01128-121">Pärast seda, kui tootmistellimus on lõpetatud, saate võrrelda eeldatavat omahinda realiseeritud omahinnaga, et saada ülevaade tootmishälvetest.</span><span class="sxs-lookup"><span data-stu-id="01128-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  
+## <a name="validate-calculation-results"></a><span data-ttu-id="a86ac-118">arvutustulemuste kinnitamine</span><span class="sxs-lookup"><span data-stu-id="a86ac-118">Validate calculation results</span></span>
+1. <span data-ttu-id="a86ac-119">Klõpsake toimingupaanil valikut Kulude haldamine.</span><span class="sxs-lookup"><span data-stu-id="a86ac-119">On the Action Pane, click Manage costs.</span></span>
+2. <span data-ttu-id="a86ac-120">Klõpsake käsku Kuva kulu võrdlus.</span><span class="sxs-lookup"><span data-stu-id="a86ac-120">Click View cost comparison.</span></span>
+    * <span data-ttu-id="a86ac-121">Pärast seda, kui tootmistellimus on lõpetatud, saate võrrelda eeldatavat omahinda realiseeritud omahinnaga, et saada ülevaade tootmishälvetest.</span><span class="sxs-lookup"><span data-stu-id="a86ac-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  
 
 

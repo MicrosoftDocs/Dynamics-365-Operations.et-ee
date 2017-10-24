@@ -16,29 +16,29 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 490e9a4beda43f6e32b87792b11153c3e8e322d6
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="journalize-posted-journal-entries"></a><span data-ttu-id="e0ad9-103">Sisestatud töölehekirjete töölehele paigutamine</span><span class="sxs-lookup"><span data-stu-id="e0ad9-103">Journalize posted journal entries</span></span>
+# <a name="journalize-posted-journal-entries"></a><span data-ttu-id="96da4-103">Sisestatud töölehekirjete töölehele paigutamine</span><span class="sxs-lookup"><span data-stu-id="96da4-103">Journalize posted journal entries</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e0ad9-104">See protseduur näitab, kuidas sisestatud töölehe kandeid töölehele paigutada.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="e0ad9-105">Protseduur kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-105">This procedure uses the USMF demo data company.</span></span>
+<span data-ttu-id="96da4-104">See protseduur näitab, kuidas sisestatud töölehe kandeid töölehele paigutada.</span><span class="sxs-lookup"><span data-stu-id="96da4-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="96da4-105">Protseduur kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="96da4-105">This procedure uses the USMF demo data company.</span></span>
 
-1. <span data-ttu-id="e0ad9-106">Kontrollige töölehele paigutamise sätteid jaotises Pearaamat > Pearaamatu seadistamine > Pearaamatu parameetrid.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-106">Validate the settings for journalizing under General ledger > Ledger setup > General ledger parameters.</span></span>
-2. <span data-ttu-id="e0ad9-107">Välja Laiendatud pearaamatu tööleht sätteks võib määrata Jah või Ei.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-107">The Extended ledger journal field can be set to Yes or No.</span></span> <span data-ttu-id="e0ad9-108">Kui see on Jah, on aruande väljund teistsugune.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-108">If Yes, the report output will be different.</span></span>
-3. <span data-ttu-id="e0ad9-109">Valige, kas perioodi saab sulgeda, kui töölehele paigutamise protsessi pole käivitatud.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-109">Select whether the period can be closed if the journalizing process hasn't been run.</span></span>
-    * <span data-ttu-id="e0ad9-110">Kui selle suvandi säte on Jah, ei saa perioodi sulgeda enne, kui selle perioodi puhul on töölehele paigutamise protsess lõpule viidud.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-110">If this option is set to Yes, the period cannot be closed until the journalizing process has been completed for that period.</span></span>  
-4. <span data-ttu-id="e0ad9-111">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-111">Close the page.</span></span>
-5. <span data-ttu-id="e0ad9-112">Minge jaotisse Pearaamat > Perioodilised ülesanded > Töölehele paigutamine.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-112">Go to General ledger > Periodic tasks > Journalizing.</span></span>
-6. <span data-ttu-id="e0ad9-113">Klõpsake käsku Filtreeri.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-113">Click Filter.</span></span>
-7. <span data-ttu-id="e0ad9-114">Tõstke esile rida, mille filtri kriteeriume soovite määratleda.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-114">Highlight the row with the filter criteria that you want to define.</span></span>
-8. <span data-ttu-id="e0ad9-115">Sisestage või valige filtri kriteeriumid väljal Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-115">In the Criteria field, enter or select the filter criteria..</span></span>
-9. <span data-ttu-id="e0ad9-116">Klõpsake filtri lehe sulgemiseks nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-116">Click OK to close the filter page.</span></span>
-10. <span data-ttu-id="e0ad9-117">Klõpsake töölehele paigutamise protsessi käivitamiseks nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-117">Click OK to start the journalizing process.</span></span>
-    * <span data-ttu-id="e0ad9-118">Pärast protsessi lõpetamist koostatakse aruanne.</span><span class="sxs-lookup"><span data-stu-id="e0ad9-118">A report will be generated after the process is complete.</span></span>  
+1. <span data-ttu-id="96da4-106">Kontrollige töölehele paigutamise sätteid jaotises Pearaamat > Pearaamatu seadistamine > Pearaamatu parameetrid.</span><span class="sxs-lookup"><span data-stu-id="96da4-106">Validate the settings for journalizing under General ledger > Ledger setup > General ledger parameters.</span></span>
+2. <span data-ttu-id="96da4-107">Välja Laiendatud pearaamatu tööleht sätteks võib määrata Jah või Ei.</span><span class="sxs-lookup"><span data-stu-id="96da4-107">The Extended ledger journal field can be set to Yes or No.</span></span> <span data-ttu-id="96da4-108">Kui see on Jah, on aruande väljund teistsugune.</span><span class="sxs-lookup"><span data-stu-id="96da4-108">If Yes, the report output will be different.</span></span>
+3. <span data-ttu-id="96da4-109">Valige, kas perioodi saab sulgeda, kui töölehele paigutamise protsessi pole käivitatud.</span><span class="sxs-lookup"><span data-stu-id="96da4-109">Select whether the period can be closed if the journalizing process hasn't been run.</span></span>
+    * <span data-ttu-id="96da4-110">Kui selle suvandi säte on Jah, ei saa perioodi sulgeda enne, kui selle perioodi puhul on töölehele paigutamise protsess lõpule viidud.</span><span class="sxs-lookup"><span data-stu-id="96da4-110">If this option is set to Yes, the period cannot be closed until the journalizing process has been completed for that period.</span></span>  
+4. <span data-ttu-id="96da4-111">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="96da4-111">Close the page.</span></span>
+5. <span data-ttu-id="96da4-112">Minge jaotisse Pearaamat > Perioodilised ülesanded > Töölehele paigutamine.</span><span class="sxs-lookup"><span data-stu-id="96da4-112">Go to General ledger > Periodic tasks > Journalizing.</span></span>
+6. <span data-ttu-id="96da4-113">Klõpsake käsku Filtreeri.</span><span class="sxs-lookup"><span data-stu-id="96da4-113">Click Filter.</span></span>
+7. <span data-ttu-id="96da4-114">Tõstke esile rida, mille filtri kriteeriume soovite määratleda.</span><span class="sxs-lookup"><span data-stu-id="96da4-114">Highlight the row with the filter criteria that you want to define.</span></span>
+8. <span data-ttu-id="96da4-115">Sisestage või valige filtri kriteeriumid väljal Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="96da4-115">In the Criteria field, enter or select the filter criteria..</span></span>
+9. <span data-ttu-id="96da4-116">Klõpsake filtri lehe sulgemiseks nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="96da4-116">Click OK to close the filter page.</span></span>
+10. <span data-ttu-id="96da4-117">Klõpsake töölehele paigutamise protsessi käivitamiseks nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="96da4-117">Click OK to start the journalizing process.</span></span>
+    * <span data-ttu-id="96da4-118">Pärast protsessi lõpetamist koostatakse aruanne.</span><span class="sxs-lookup"><span data-stu-id="96da4-118">A report will be generated after the process is complete.</span></span>  
 
 
