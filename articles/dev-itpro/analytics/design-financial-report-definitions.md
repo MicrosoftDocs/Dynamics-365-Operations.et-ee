@@ -16,13 +16,13 @@ ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86b527b72ef0c9af71e70fe280bcdfe3992a36b1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 96090a3ae15294d98d6207c8eb4a1e58429ca9eb
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 See artikkel käsitleb aruande definitsioone. Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande loomiseks readefinitsiooni, veeru definitsiooni ja valikulist aruandluspuu definitsiooni. Aruande definitsioon annab valikud ja sätted ka aruande kohandamiseks. 
 
-Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande loomiseks readefinitsiooni, veeru definitsiooni ja valikulist aruandluspuu definitsiooni. Aruande definitsioon sisaldab ka täiendavaid suvandeid ja sätteid, mida saab aruande kohandamiseks kasutada. Pärast rea ja veeru definitsioonide määratlemist peate need aruande definitsiooni kombineerima. Saate määratleda ka definitsioonide muid aspekte, nagu üksikasjade tase ja aruande kuupäev. Seejärel saate salvestada ja aruande luua. Finantsaruandlus pakub järgmisi üksikasjade tasemeid.
+Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande loomiseks readefinitsiooni, veeru definitsiooni ja valikulist aruandluspuu definitsiooni. Aruande määratlus pakub suvandeid ja sätteid, mida saate aruande kohandamiseks kasutada. Pärast rea ja veeru definitsioonide määratlemist peate need aruande definitsiooni kombineerima. Saate määratleda ka definitsioonide muid aspekte, nagu üksikasjade tase ja aruande kuupäev. Seejärel saate salvestada ja aruande luua. Finantsaruandlus pakub järgmisi üksikasjade tasemeid.
 
 -   Rahandus
 -   Rahaline ja Konto
@@ -55,7 +55,7 @@ Järgmises tabelis kirjeldatakse aruande definitsiooni vahekaarte ja seda, kuida
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vahekaart</th>
+<th>Väli</th>
 <th>Kirjeldus</th>
 </tr>
 </thead>

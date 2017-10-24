@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Selged isikupärastamised on isikupärastamised, mille teete selgelt kavatsusega
 
 Saate isikupärastada oma lehel oleva elemendi sel viisil, kui soovite lihtsalt muuta elemendi silti, peita elementi, et seda lehel ei kuvataks (see ei muuda andmeid, teile lihtsalt ei kuvata neid), lisada andmed kirikaardi kokkuvõtte ossa (kui element on kiirkaardil), jätta selle välja tabeldusklahviga vahele või teha nii, et andmeid ei saaks muuta, märkides need valikuga Ära muuda. 
 
-Kui soovite elemente teisaldada või peita või teha mitu muudatust, saate kasutada tööriistariba Isikupärastamine, mis on saadaval elementide aknas Atribuut, kui valite suvandi **Vormi isikupärastamine**. Tööriistariba Isikupärastamine on saadaval ka vormi tegevuspaanil, vahekaardi **Suvandid** jaotises Isikupärastamisgrupp. Valige suvand **Vormi isikupärastamine** ja näete tööriistariba Isikupärastamine. 
+Kui soovite elemente teisaldada või peita või teha mitu muudatust, saate kasutada tööriistariba Isikupärastamine, mis on saadaval elementide aknas Atribuut, kui valite suvandi **Vormi isikupärastamine**. Tööriistariba Isikupärastamine on saadaval ka vormi tegevuspaanil, vahekaardi **Suvandid** jaotises Isikupärastamisgrupp. Valige **Vormi isikupärastamine** ja näete tööriistariba Isikupärastamine. 
 
 [![Isikupärastamise tööriistariba](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 

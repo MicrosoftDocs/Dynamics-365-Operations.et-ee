@@ -16,13 +16,13 @@ ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -71,7 +71,7 @@ Koosteüksused on aruande puhul loodavad readefinitsioonid, veeru definitsioonid
 ### <a name="create-a-building-block-group"></a>Koosteüksuste grupi loomine
 
 1.  Klõpsake aruandekoosturi menüüs **Ettevõte** valikut **Koosteüksuste grupid**.
-2.  Klõpsake dialoogiboksis **Koosteüksuste grupid** valikut **Uus**.
+2.  Klõpsake dialoogiboksis **Koosteüksuste rühmad** suvandit **Uus**.
 3.  Sisestage koosteüksuste grupi kordumatu nimi ja kirjeldus. Iga väli võib sisaldada kuni 256 märki. (See number sisaldab tühikuid.)
 4.  Uue koosteüksuste grupi loomiseks klõpsake nuppu **OK**.
 
@@ -79,8 +79,8 @@ Koosteüksused on aruande puhul loodavad readefinitsioonid, veeru definitsioonid
 
 Pärast üksuste grupi loomist tuleb määrata see vähemalt ühele ettevõttele. Seejärel saate luua aruande, rea, veeru ja aruandluspuu definitsioonid ja need koosteüksuste gruppi salvestada. Enne järgmise protseduuri alustamist peate kõik koosteüksused sulgema.
 1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Ettevõtted**.
-2.  Valige dialoogiboksis **Ettevõtted** ettevõte, millele koosteüksuste grupi määrate.
-3.  Klõpsake käsku **Muuda**.
+2.  Valige dialoogiboksis **Ettevõtted** mõni ettevõte, millele koosteüksuste rühm määrata.
+3.  Klõpsake nuppu **Muuda**.
 4.  Valige dialoogiboksi **Ettevõtte muutmine** väljalt **Koosteüksuste grupp** ettevõttele määratav koosteüksuste grupp või klõpsake uue koosteüksuste grupi loomiseks suvandit **Uus**.
 5.  Koosteüksuste grupi määramiseks klõpsake nuppu **OK**.
 6.  Klõpsake käsku **Sule** dialoogiboksi **Ettevõtted** sulgemiseks. Teie valitud koosteüksuste grupp määratakse nüüd ettevõttele. Nüüd kuuluvad kõik loodud uued readefinitsioonid, veeru definitsioonid jm sellele ettevõttele määratud koosteüksuste gruppi. Saate importida ka faili .TDBX või esitada aruande teisest süsteemist.
@@ -96,7 +96,7 @@ Pärast koosteüksuste grupi loomist ja kasutusele võtmist saate vaadata kõiki
 ### <a name="save-a-building-block-group-under-a-new-name"></a>Koosteüksuste grupi salvestamine uue nimega
 
 Saate olemasoleva koosteüksuste grupi uue nimega salvestada. Seejärel saate uut koosteüksuste gruppi muuta ilma algset koosteüksuste gruppi muutmata.
-1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Koosteüksuste grupid**.
+1.  Klõpsake aruandekoosturis menüü **Ettevõte** suvandit **Koosteüksuste rühmad**.
 2.  Valige dialoogiboksist **Koosteüksuste grupid** uue nimega salvestatav koosteüksuste grupp.
 3.  Klõpsake käsku **Salvesta nimega**.
 4.  Sisestage koosteüksuste grupi uus nimi ja kirjeldus.
@@ -104,12 +104,12 @@ Saate olemasoleva koosteüksuste grupi uue nimega salvestada. Seejärel saate uu
 
 ### <a name="export-a-building-block-group"></a> Koosteüksuste grupi eksportimine
 
-Saate koosteüksuste grupi või selle kindla aruande koosteüksused eksportida. Eksporditud koosteüksuste gruppi saab kasutada varundamiseks. Saate eksporditud andmeid ka koosteüksuse gruppide või rakenduse Finance and Operations seadmete vahel kopeerida. Aruandekoostur sisaldab viidatud fondilaade ja dimensioongruppe koos koosteüksuste grupiga.
+Saate koosteüksuste rühma või koosteüksuste rühma kuuluvaid kindlaid aruande koosteüksusi eksportida. Eksporditud koosteüksuste rühma saate kasutada varukoopiana. Saate eksporditud andmeid ka koosteüksuse gruppide või rakenduse Finance and Operations seadmete vahel kopeerida. Aruandekoostur sisaldab viidatud fondilaade ja dimensioongruppe koos koosteüksuste grupiga.
 1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Koosteüksuste grupid**.
-2.  Valige dialoogiboksist **Koosteüksuste grupid** eksporditav koosteüksuste grupp ja klõpsake seejärel käsku **Ekspordi**.
+2.  Valige dialoogiboksis **Koosteüksuste rühmad** eksporditav koosteüksuste rühm ning klõpsake seejärel suvandit **Ekspordi**.
 3.  Valige dialoogiboksist **Eksport** eksporditavad aruande definitsioonid.
     -   Kõikide aruande definitsioonide ja seotud koosteüksuste eksportimiseks klõpsake suvandit **Vali kõik**.
-    -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite eksportimiseks klõpsake vastavat vahekaarti ja valige eksporditavad üksused. Vahekaardil mitme üksuse valimiseks vajutage ja hoidke all klahvi Ctrl. **Märkus.** Eksporditavate aruannete valimisel valitakse seotud read, veerud, puud ja dimensioonikogumid.
+    -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite eksportimiseks klõpsake vastavat vahekaarti ja valige eksporditavad üksused. Vahekaardil mitme üksuse valimiseks vajutage ja hoidke all klahvi Ctrl. **Märkus.** Eksporditavate aruannete valimisel valitakse nendega seotud read, veerud, puud ja dimensioonikogumid.
 
 4.  Kui olete eksporditavate üksuste valimise lõpetanud, klõpsake käsku **Ekspordi**.
 5.  Valige dialoogiboksist **Salvesta nimega** koht, kuhu koosteüksuste grupp eksportida.
@@ -120,8 +120,8 @@ Saate koosteüksuste grupi või selle kindla aruande koosteüksused eksportida. 
 
 Saate importida koosteüksuste grupi olemasolevasse koosteüksuste gruppi või luua andmetele uue koosteüksuste grupi. Kõik imporditud koosteüksuste grupid säilitavad algsed fondilaadid ja ettevõtteviited ning sisaldavad vastavaid dimensioonikogumeid.
 1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Koosteüksuste grupid**.
-2.  Valige dialoogiboksist **Koosteüksuste grupid** koosteüksus, kuhu koosteüksuste grupp importida ja klõpsake seejärel käsku **Impordi**.
-3.  Valige dialoogiboksist **Avatud** imporditav koosteüksuste grupp ja seejärel klõpsake suvandit **Avatud**.
+2.  Valige dialoogiboksis **Koosteüksuste rühmad** koosteüksuste rühm, millesse soovite teise koosteüksuste rühma importida, ning klõpsake seejärel suvandit **Impordi**.
+3.  Valige dialoogiboksis **Avamine** imporditav koosteüksuste rühm ning klõpsake seejärel suvandit **Ava**.
 4.  Valige dialoogiboksist **Import** imporditavad aruande definitsioonid.
     -   Kõikide aruande definitsioonide ja seotud koosteüksuste importimiseks klõpsake valikut **Vali kõik**.
     -   Kindlate aruannete, ridade, veergude, puude või dimensioonikogumite importimiseks valige imporditavad aruanded, read, veerud, puud või dimensioonikogumid.
@@ -132,7 +132,7 @@ Saate importida koosteüksuste grupi olemasolevasse koosteüksuste gruppi või l
 
 Koosteüksuse avamisel pääsevad teised kasutajad selle koosteüksuse juurde kirjutuskaitstud režiimis. Mõnikord unustavad kasutajad koosteüksuse sulgeda või sulevad süsteemi ilma koosteüksust sulgemata. Sel juhul jääb koosteüksus välja registreerituks ja ükski teine kasutaja ei saa seda avada. Sellistel juhtudel saab finantsaruandluse administraator kasutada dialoogiboksi **Väljaregistreeritud üksused** koosteüksuste sisseregistreerimiseks, mille kasutajad on jätnud väljaregistreeritud olekusse. **Märkus.** Koosteüksuste sisseregistreerimiseks dialoogiboksist **Väljaregistreeritud üksused** peab teil olema administraatori roll.
 1.  Valige aruande kujundaja menüüst **Tööriistad** suvand **Väljaregistreeritud üksused**.
-2.  Valige dialoogiboksist **Väljaregistreeritud üksused** suvand **Kuva kõikide kasutajate üksused**. Loendit värskendatakse kuvama kõiki väljaregistreeritud koosteüksusi ja need välja registreerinud kasutajaid.
+2.  Valige dialoogiboksis **Välja registreeritud üksused** suvand **Kuva kõikide kasutajate üksused**. Loendit värskendatakse ning see kuvab kõik välja registreeritud koosteüksused ja kasutajad, kes need välja on registreerinud.
 3.  Valige koosteüksus ja seejärel klõpsake suvandit **Tühista väljaregistreerimine**.
 4.  Koosteüksuse sisseregistreerimiseks klõpsake **Jah**.
 

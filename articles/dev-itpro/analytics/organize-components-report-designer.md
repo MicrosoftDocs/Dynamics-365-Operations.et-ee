@@ -16,13 +16,13 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -53,7 +53,7 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 
 1.  Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
 2.  Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas. Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Aruandegrupp").
-3.  Klõpsake vahekaarti **Aruandegrupp**. Individuaalsete aruande definitsioonide teabe tühistamiseks selle aruande loomise puhul valige märkeruut **Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine individuaalsetest aruande definitsioonidest**. Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.
+3.  Klõpsake vahekaarti **Aruandegrupp**. Eraldi aruande definitsioonide teabe tühistamiseks selle aruande loomise puhul märkige ruut **Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine** eraldi aruande definitsioonidest. Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.
 4.  Mitme arvestusvaluutasid näitava aruande koostamiseks märkige ruut **Kaasa kõik aruandlusvaluutad**. Seejärel pääsete mitmesse vaatesse, klõpsates aruande vaatamisel veebivaaturis nuppu **Valuuta**.
 5.  Aruandegruppi kaasatavate aruannete valimiseks klõpsake väljal **Grupi aruanded** valikut **Lisa**. Mitme aruande valimiseks dialoogiboksis **Lisa** hoidke aruannete valimisel all klahvi Ctrl. Kui olete aruannete valimise lõpetanud, klõpsake **OK**.
 6.  Uue aruandegrupi salvestamiseks klõpsake **Fail** &gt; **Salvesta**.
@@ -106,7 +106,7 @@ Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
 <td>Üksikasjatase</td>
 <td>Määrake aruannete üksikasjatase.
 <ul>
-<li><strong>Rahaline</strong>− kõrgetasemeline koondaruanne. Te ei saa kontodes ja dimensioonides süvitsi minna, välja arvatud aruandluspuu kaudu lisatud kontode ja dimensioonide puhul.</li>
+<li><strong>Finantsid</strong> – kõrgetasemeline kokkuvõttev aruanne. Te ei saa kontodes ja dimensioonides süvitsi minna, välja arvatud aruandluspuu kaudu lisatud kontode ja dimensioonide puhul.</li>
 <li><strong>Rahaline &amp; Konto</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja konto üksikasju.</li>
 <li><strong>Rahaline, Konto &amp; Kanne</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja kande üksikasju..</li>
 </ul></td>
@@ -115,14 +115,14 @@ Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
 <td>Tinglik</td>
 <td>Määrake aruannete tegevuste tüübid.
 <ul>
-<li><strong>Ainult sisestatud tegevus</strong> − sisaldavad ainult teie finantsandmetesse kirjendatud kandeid ja saldosid.</li>
-<li><strong>Sisestatud ja sisestamata tegevus</strong> − sisaldavad kõiki teie finantsandmetesse sisestatud ja kirjendatud kandeid ja saldosid.</li>
-<li><strong>Ainult sisestamata tegevus</strong> − sisaldavad ainult teie finantsandmetesse sisestatud, kuid veel kirjendamata kandeid ja saldosid.</li>
+<li><strong>Ainult sisestatud toiming</strong> – kaasake ainult finantsandmetes sisestatud kanded ja saldod.</li>
+<li><strong>Sisestatud ja sisestamata toiming</strong> – kaasake kõik finantsandmetesse sisestatud ja saadetud kanded ja saldod.</li>
+<li><strong>Ainult sisestamata toiming</strong> – kaasake ainult finantsandmetesse sisestatud, kuid veel saatmata kanded.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Kõigi aruandlusvaluutade kaasamine</td>
-<td>Kui teie Microsoft Dynamics ERP süsteemis on konfigureeritud täiendavaid aruandlusvaluutasid, loetletakse need siin. Märkige see ruut lisaaruannete koostamiseks näidatud valuutades. Nende aruannete kuvamiseks veebivaaturis klõpsake nuppu <strong>Valuuta</strong> ja valige siis valuuta.</td>
+<td>Kui teie Microsoft Dynamics ERP süsteemis on konfigureeritud täiendavaid aruandlusvaluutasid, loetletakse need siin. Märkige see ruut lisaaruannete koostamiseks näidatud valuutades. Aruannete vaatamiseks veebivaaturis klõpsake nuppu <strong>Valuuta</strong> ja valige valuuta.</td>
 </tr>
 <tr class="even">
 <td>Aruande definitsiooni ei salvestatud kuupäevateavet</td>
@@ -144,8 +144,8 @@ Aruande definitsiooni salvestatakse ainult baasperioodi vaikesätted.</td>
 <td>Rühma aruanded</td>
 <td>Aruandegrupi aruannete lisamine, eemaldamine ja ümberkorraldamine.
 <ul>
-<li>Aruande definitsioonide lisamiseks aruandegruppi topeltklõpsake aruandegruppi selle avamiseks ja seejärel klõpsake suvandit <strong>Lisa</strong>. Valige aruandegruppi kaasatavad aruanded ja seejärel klõpsake nuppu <strong>OK</strong>.</li>
-<li>Aruande eemaldamiseks aruandegrupist valige see ja seejärel klõpsake suvandit <strong>Eemalda</strong>.</li>
+<li>Aruandedefinitsioonide lisamiseks aruanderühma topeltklõpsake aruanderühma, et see avada, ning klõpsake seejärel suvandit <strong>Lisa</strong>. Valige aruanderühma kaasatavad aruanded ning klõpsake seejärel <strong>OK</strong>.</li>
+<li>Aruande eemaldamiseks aruanderühmast valige see ja klõpsake seejärel käsku <strong>Eemalda</strong>.</li>
 <li>Aruannete loomise järjestuse muutmiseks valige loendist aruanne ja seejärel klõpsake valikut <strong>Liigu üles</strong> või <strong>Liigu alla</strong>.</li>
 </ul></td>
 </tr>

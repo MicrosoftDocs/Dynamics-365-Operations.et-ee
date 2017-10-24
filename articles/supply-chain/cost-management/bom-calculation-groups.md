@@ -1,7 +1,7 @@
 ---
 title: Koosluse arvutusgrupid
 description: "Selles artiklis antakse teavet koosluste arvutusgruppide ja nende seadistamise kohta. Koosluse arvutuse käivitamiseks tuleb seadistada arvutusgrupid ja määrata need eraldi üksustele või määrata vaike-arvutusgrupp. Arvutusgrupi arvutussätteid kasutatakse siis koosluse arvutamise ajal lehel Koosluse arvutamine vaikeväärtustena."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ Märkeruutu **Peata koosnevusarvutus** kasutatakse näitamiseks, millal toodetud
 
 ### <a name="warnings"></a>Hoiatused
 
-Kiirkaardil **Hoiatused** saate teha valikud igasuguste hoiatusteadete kohta, mille kasutajad peaksid saama, kui nad koosluse arvutusi teevad. Näiteks kui märgite ruudu **Kooslust pole**, saab kasutaja hoiatuse, kui mõne komponendi või põhiüksuse puhul, mille koosluse arvutust käitatakse, ei leita ühtegi aktiivset koosluse versiooni. Kui märgite ruudu **Marsruut puudub**, saab kasutaja hoiatuse, kui ühtegi aktiivset marsruudi versiooni ei leita. Kui kasutate marsruutidel ja toimingutes ressursse, võite juhendada süsteemi neid ressursse otsima. Siis, kui aktiivse marsruudi igal real ressurssi ei leita, saab kasutaja hoiatuse. Samuti saate kinnitada ja kontrollida tarbimist. Tarbimine on konkreetse marsruudi kogus. Tavaliselt kajastab see aja hulka, mis on vajalik tootmisprotsessi konkreetse toimingu tegemiseks. Saate kontrollida, kas kaubal puudub omahind. Kui kaubal pole aktiivset omahinda, ei lisata koosluse arvutusse kulu. Samuti saab omahinna vanust kontrollida ja kinnitada. Näiteks sisestage **60**, näitamaks, et ühiku omahind tuleb 60 päeva pärast ümber hinnata. Kui see piir on saavutatud, annab süsteem hoiatuse. Näiteks oletame, et kaubale sisestati omahind selle aasta jaanuaris. Kui praegu on august, mis on rohkem kui 60 päeva pärast omahinna sisestamist, saab kasutaja koosluse arvutuse käivitamisel hoiatuse. Võite sisestada protsendi väljale **Minimaalne brutokasum**. See väärtus näitab punkti, kus minimaalne brutokasum pole nõuetekohane. Kui konkreetse komponendi brutokasum pole nõuetekohane, saab kasutaja hoiatuse. Seega aitab see väli tagada, et kaupade puhul vajalikke kulusid ja täiendavaid veokulusid liigselt ei kärbitaks.
-Vaikeseadistus varude ja laohaldusmooduli parameetrites
---------------------------------------------------------------
+Kiirkaardil **Hoiatused** saate teha valikud igasuguste hoiatusteadete kohta, mille kasutajad peaksid saama, kui nad koosluse arvutusi teevad. 
 
-Kuna arvutusgrupid on arvutuste tegemiseks nõutavad, tuleb laohalduse parameetrite moodulis seadistada vaike-arvutusgrupp. See seadistus võimaldab ettevõtetel kasutada kõigi kaupade puhul standardset kulugrupi ja kasumi seadistust. Siis, kui konkreetsel kaubal on arvutamise erinõuded, saab kasutaja määrata sellele kaubale teise arvutusgrupi. Tavaliselt saate määrata arvutusgruppe kooslusekaupade asemel koosluse koostiskaupadele. Kuid kui kuvatakse hoiatusteated, saab arvutusgruppe rakendada. Kaupadele määratud arvutusgrupp alistab laohalduse parameetrites seadistatud vaikeväärtuse. Vaikeparameetri saate seadistada asukohas **Kuluhaldus** &gt; **Laoarvestuse poliitikate seadistus** &gt; **Parameetrid** &gt; **Laoarvestus** &gt; **Arvutusgrupp**. Vaikekonfiguratsioonigrupi seadistamisega saate konfigureerida ka hoiatamistingimusi, mis kasutajatele koosluse arvutusprotsessi ajal teateid kuvavad, kui valitud komponendid võiksid põhjustada arvutusvigu.
-Hoiatusteadete vaatamine lehel Lõpetatud
-------------------------------------------
+Näiteks kui märgite ruudu **Kooslust pole**, saab kasutaja hoiatuse, kui mõne komponendi või põhiüksuse puhul, mille koosluse arvutust käitatakse, ei leita ühtegi aktiivset koosluse versiooni. Kui märgite ruudu **Marsruut puudub**, saab kasutaja hoiatuse, kui ühtegi aktiivset marsruudi versiooni ei leita. Kui kasutate marsruutidel ja toimingutes ressursse, võite juhendada süsteemi neid ressursse otsima. Siis, kui aktiivse marsruudi igal real ressurssi ei leita, saab kasutaja hoiatuse. 
+
+Samuti saate kinnitada ja kontrollida tarbimist. Tarbimine on konkreetse marsruudi kogus. Tavaliselt kajastab see aja hulka, mis on vajalik tootmisprotsessi konkreetse toimingu tegemiseks. Saate kontrollida, kas kaubal puudub omahind. Kui kaubal pole aktiivset omahinda, ei lisata koosluse arvutusse kulu. 
+
+Samuti saab omahinna vanust kontrollida ja kinnitada. Näiteks sisestage **60**, näitamaks, et ühiku omahind tuleb 60 päeva pärast ümber hinnata. Kui see piir on saavutatud, annab süsteem hoiatuse. Näiteks oletame, et kaubale sisestati omahind selle aasta jaanuaris. Kui praegu on august, mis on rohkem kui 60 päeva pärast omahinna sisestamist, saab kasutaja koosluse arvutuse käivitamisel hoiatuse. Võite sisestada protsendi väljale **Minimaalne brutokasum**. See väärtus näitab punkti, kus minimaalne brutokasum pole nõuetekohane. Kui konkreetse komponendi brutokasum pole nõuetekohane, saab kasutaja hoiatuse. Seega aitab see väli tagada, et kaupade puhul vajalikke kulusid ja täiendavaid veokulusid liigselt ei kärbitaks.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Vaikeseadistus varude ja laohaldusmooduli parameetrites
+
+Kuna arvutusgrupid on arvutuste tegemiseks nõutavad, tuleb laohalduse parameetrite moodulis seadistada vaike-arvutusgrupp. See seadistus võimaldab ettevõtetel kasutada kõigi kaupade puhul standardset kulugrupi ja kasumi seadistust. Siis, kui konkreetsel kaubal on arvutamise erinõuded, saab kasutaja määrata sellele kaubale teise arvutusgrupi. Tavaliselt saate määrata arvutusgruppe kooslusekaupade asemel koosluse koostiskaupadele. Kuid kui kuvatakse hoiatusteated, saab arvutusgruppe rakendada. Kaupadele määratud arvutusgrupp alistab laohalduse parameetrites seadistatud vaikeväärtuse. 
+
+Vaikeparameetri saate seadistada asukohas **Kuluhaldus** &gt; **Laoarvestuse poliitikate seadistus** &gt; **Parameetrid** &gt; **Laoarvestus** &gt; **Arvutusgrupp**. Vaikekonfiguratsioonigrupi seadistamisega saate konfigureerida ka hoiatamistingimusi, mis kasutajatele koosluse arvutusprotsessi ajal teateid kuvavad, kui valitud komponendid võiksid põhjustada arvutusvigu.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Hoiatusteadete vaatamine lehel Lõpetatud
 
 Koosluse arvutus loob hoiatusteated. Saate vaadata valitud kauba hoiatusi. Näiteks looge jaotises Müük ja turundus uus müügitellimus kaubale D0001. Seejärel klõpsake müügitellimuse rea menüüs **Uuenda rida** valikut **Arvuta koosluse/valemi põhjal** arvutuse üksikasjade ja hoiatuste vaatamiseks. Koosluse arvutustulemusi saab vaadata ka lehel **Lõpule viidud**. Hoiatusteadete puhul puudutab toodetud kaupu ainult kaks hoiatustingimust, samas kui kõigile kaupadele kehtib neli hoiatustingimust.
 -   Tuvastage, kui toodetud kaubal puudub aktiivne kooslus.

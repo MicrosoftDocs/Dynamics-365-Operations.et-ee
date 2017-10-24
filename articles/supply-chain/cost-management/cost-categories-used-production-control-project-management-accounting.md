@@ -1,7 +1,7 @@
 ---
 title: Kulukategooriad, mida kasutatakse moodulites Tootmise juhtimine ja Projektihalduse raamatupidamine
 description: "Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. See artikkel annab teavet kulukategooriate kohta, mis tuleb määratleda tootmise ja projekti puhul nende tootmistöö tüüpide jaoks."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 712406f1a47d3b0b6b8302cd7337a594a3818f95
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,7 +34,9 @@ ms.lasthandoff: 05/25/2017
 
 Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. See artikkel annab teavet kulukategooriate kohta, mis tuleb määratleda tootmise ja projekti puhul nende tootmistöö tüüpide jaoks.
 
-Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. Sellisel juhul on tootmise ja projekti jaoks vaja kulukategooriat. Kui tootmises ja projektides kasutatakse kulukategooriat, tuleb määratleda täiendav projektiga seotud teave. Näiteks projektidega seotud tunnikulud võivad erineda tootmisega seotud tunnikuludest. Lehte **Kulukategooriad** saab kasutada tootmise juhtimises ja projektihalduse raamatupidamises kasutatava kulukategooria määratlemiseks. **Märkus:** kuluarvestusel on leht **Projekti kategooriad**, kuid sellel lehel puudub seos selles teemas kirjeldatud funktsioonidega. Kulukategooria kasutamisel projektides on lehel **Kulukategooriad** täiendavad vahekaardid, mis kuvavad täiendava projektiga seotud teabe. See teave hõlmab kategooriagruppi, rea atribuuti ja pearaamatukontosid, mis on määratud kulukategooriale.
+Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandlusele. Sellisel juhul on tootmise ja projekti jaoks vaja kulukategooriat. Kui tootmises ja projektides kasutatakse kulukategooriat, tuleb määratleda täiendav projektiga seotud teave. Näiteks projektidega seotud tunnikulud võivad erineda tootmisega seotud tunnikuludest. Lehte **Kulukategooriad** saab kasutada tootmise juhtimises ja projektihalduse raamatupidamises kasutatava kulukategooria määratlemiseks. 
+
+**Märkus:** kuluarvestusel on leht **Projekti kategooriad**, kuid sellel lehel puudub seos selles teemas kirjeldatud funktsioonidega. Kulukategooria kasutamisel projektides on lehel **Kulukategooriad** täiendavad vahekaardid, mis kuvavad täiendava projektiga seotud teabe. See teave hõlmab kategooriagruppi, rea atribuuti ja pearaamatukontosid, mis on määratud kulukategooriale.
 
 -   Kulukategooria peab olema määratud kategooriagrupile, mis toetab kandetüüpi **Tunnid**.
 -   Rea atribuut näitab vaiketeavet selle kohta, kuidas teavitatud aeg on projektile arveldatav.

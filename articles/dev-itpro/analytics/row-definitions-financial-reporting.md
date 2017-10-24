@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ Dimensioon on andmete ja väärtuste ühisosa. Aruandekoosturis saab andmeid ja 
 | Suvand                | Kirjeldus                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dimensioon             | Muster, mis tuvastab readefinitsiooni lisatava dimensiooni. See muster sisaldab ühte ampersandi (&) või numbrimärki (\#) iga koha puhul dimensioonides. Üldiselt kasutatakse kõiki ampersande põhikonto dimensiooni ja kõiki numbrimärke muude dimensioonide puhul. |
-| Dimensioonivahemiku algus | Esimene selle dimensiooni puhul readefinitsiooni lisatav väärtus.                                                                                                                                                                                                                 |
+| Dimensioonivahemiku algus | Readefinitsiooni lisatava dimensiooni esimene väärtus.                                                                                                                                                                                                                 |
 | Dimensioonivahemiku lõpp   | Viimane selle dimensiooni puhul readefinitsiooni lisatav väärtus.                                                                                                                                                                                                                  |
 
 Readefinitsiooni dimensioonide lisamiseks tehke järgmist.
@@ -93,7 +93,7 @@ Readefinitsiooni dimensioonide lisamiseks tehke järgmist.
 Bilansi ümardamise korrigeerimiseks tehke järgmist.
 
 1.  Klõpsake aruande kujundajas suvandit **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
-2.  Klõpsake menüüs **Redigeerimine** suvandit **Ümardamise korrigeerimine**.
+2.  Klõpsake menüüs **Redigeeri** suvandit **Ümardusparandus**.
 3.  Sisestage dialoogiboksi **Ümardamise korrigeerimised** järgmised väärtused.
     -   **Ümardamise korrigeerimise rida** – bilansi tasakaalustamiseks korrigeeritava rea reakood.
     -   **Koguvarade rida** – bilansis koguvarasid sisaldava rea reakood.
@@ -121,23 +121,23 @@ Saate aruande fondilaade luua ja muuta. Seejärel saab rakendada need laadid dok
 <td>Kirjatüübi loomine</td>
 <td><ol>
 <li>Klõpsake aruande kujundaja menüüs <strong>Vorming </strong>suvandit <strong>Laadid ja vorming</strong>.</li>
-<li>Klõpsake dialoogiboksis <strong>Laadid ja vorming</strong> valikut <strong>Uus</strong> ja seejärel sisestage uue laadi kordumatu nimi.</li>
-<li>Tehke laadi valikud ja seejärel klõpsake nuppu <strong>OK</strong>.</li>
+<li>Klõpsake dialoogiboksis <strong>Laadid ja vormindamine</strong> suvandit <strong>Uus</strong> ning seejärel sisestage uuele laadile kordumatu nimi.</li>
+<li>Tehke fondivalikud ja seejärel klõpsake suvandit <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Kirjatüübi muutmine</td>
+<td>Fondi laadi muutmine</td>
 <td><ol>
 <li>Klõpsake aruande kujundaja menüüs <strong>Vorming </strong>suvandit <strong>Laadid ja vorming</strong>.</li>
-<li>Valige dialoogiboksist <strong>Laadid ja vorming</strong> muudetav laad ja klõpsake seejärel valikut <strong>Muuda</strong>.</li>
-<li>Tehke laadi valikud ja seejärel klõpsake nuppu <strong>OK</strong>.</li>
+<li>Valige muudetav laad dialoogiboksist <strong>Laadid ja vormindamine</strong> ja klõpsake seejärel suvandit <strong>Muuda</strong>.</li>
+<li>Tehke fondivalikud ja seejärel klõpsake suvandit <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Kirjatüübi rakendamine</td>
 <td><ol>
 <li>Valige aruandekoosturi definitsioonis või veeru definitsioonis või päistes ja jalustes vähemalt üks lahter.</li>
-<li>Valige kirjatüüp tööriistariba loendist <strong>Laad</strong>.</li>
+<li>Valige tööriistaribal olevast loendist <strong>Laad</strong> fondi laad.</li>
 </ol></td>
 </tr>
 </tbody>
@@ -164,7 +164,7 @@ Nende veergude vaatamise lihtsustamiseks, mille kallal readefinitsioonis tööta
 ### <a name="hide-columns-in-the-view-pane"></a>Veergude peitmine vaatepaanil
 
 1.  Avage aruande kujundajas muudetav readefinitsioon.
-2.  Valige veerg või veerud, mida minimeerida.
+2.  Valige minimeeritav(ad) veerg (veerud).
 3.  Paremklõpsake ja seejärel klõpsake suvandit **Peida**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Kõikide peidetud veergude kuvamine vaatepaanil

@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
+ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
+ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 
@@ -34,9 +34,9 @@ See teema kirjeldab, kuidas ostuagendid saavad teha koostööd väliste hankijat
 
 Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 for Finance and Operations. See võimaldab hankijatel töötada ostutellimuse, arve ja veose varude teabega. See teema kirjeldab, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostöö liidest ostutellimuste ja veoste varudega töötamiseks. See kirjeldab ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad ostutellimusele. Lisateavet selle kohta, mida välised hankijad saavad hankija koostöö liideses teha, leiate teemast [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
+Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
-Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). 
 
 Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
@@ -131,7 +131,7 @@ Juba vastatud ostutellimuse muutmiseks peate hankijale saatma ostutellimuse uue 
 
 ### <a name="cancelling-a-po"></a>Ostutellimuse tühistamine
 
-Ostutellimuse tühistamisel muudetakse olekuks uuesti **Aktsepteeritud**. Peate ostutellimuse hankija portaali kaudu hankijale tagasi saatma, et hankija saaks tühistamise kinnitada või tagasi lükata. Pärast tühistamise kinnitamist ilmub ostutellimus kinnitatud ostutellimuste hankija loendis kui **Tühistatud**.
+Ostutellimuse tühistamisel muudetakse olekuks uuesti **Aktsepteeritud**. Peate ostutellimuse hankijale tagasi saatma, et ta saaks tühistamise kinnitada või tagasi lükata. Pärast tühistamise kinnitamist ilmub ostutellimus kinnitatud ostutellimuste hankija loendis kui **Tühistatud**.
 
 ### <a name="adding-attachments-to-a-po"></a>Ostutellimusele manuste lisamine
 

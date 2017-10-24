@@ -19,11 +19,11 @@ ms.search.industry: Product information
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d232473a1df0b821c6f39553ad826c61ff9ecff8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -96,7 +96,7 @@ Klient soovib osta mõned väikesed, punane t-särgid ja t-särgi nimi peab arve
 <tr class="odd">
 <td>Kliendi eelistatud keel toimige järgmiselt.
 <ol>  
-<li>Klõpsake nuppu <strong>Müük ja turundus</strong> &gt; <strong>Üldine</strong> &gt; <strong>Kliendid</strong> &gt; <strong>Kõik</strong> <strong>kliendid</strong>.</li>
+<li>Klõpsake valikuid <strong>Müük ja turundus</strong> &gt; <strong>Üldine</strong> &gt; <strong>Kliendid</strong> &gt; <strong>Kõik</strong> <strong>kliendid</strong>.</li>
 <li>Topeltklõpsake klienti, et avada leht <strong>Kliendid</strong> . Vahekaardil <strong>Üldine</strong> väljal <strong>Keel</strong> valige soovitud <strong>keel</strong>.</li>
 </ol></td>
 </tr>

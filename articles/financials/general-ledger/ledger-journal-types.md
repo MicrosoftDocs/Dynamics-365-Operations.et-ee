@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f665f34055e36775c8bb41be4aae9c4577639d7
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -59,7 +58,7 @@ Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede
 | Hankija pangaülekanne            | Looge võlatähe ülekandefail, mida saab saata teie organisatsiooni panka.                                                                                                                                                                                                                                                                      | Rahaülekande tööleht                                             |
 | Maksed hankijale               | Looge hankija väljaminekukanne.                                                                                                                                                                                                                                                                                                                    | Maksetööleht                                                |
 | Hankija koostatud võlatäht       | Koostage hankija võlatäht makseviisina. Selle töölehe tüübi kasutamiseks kustutage suvand **Koostamise töölehe automaatne loomine ja sisestamine arvete sisestamisel** lehel **Makseviisid – hankijad**.                                                                                                                                          | Koosta võlatähe tööleht                                   |
-| Hankija arvete kaust, v.a sisestamine | Looge hankija arve kanded, mida ei ole veel ajutisele saabumiskontole sisestatud.                                                                                                                                                                                                                                                             | Hankija arve kaust ilma sisestamise üksikasjadeta                  |
+| Hankijaarvete kaust ilma sisestuseta | Looge hankija arve kanded, mida ei ole veel ajutisele saabumiskontole sisestatud.                                                                                                                                                                                                                                                             | Hankija arve kaust ilma sisestamise üksikasjadeta                  |
 | Hankija arvete kaust               | Looge hankija arve kausta kanded.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Hankijaarvete kirjendamine          | Sisestage hankija arved, mis on töölehel.                                                                                                                                                                                                                                                                                                                 | Arve tööleht                                                |
 | Hankija uuesti koostatud võlatäht     | Koostage uuesti võlatäht, mille teie organisatsiooni pank on eelnevalt tasunud.                                                                                                                                                                                                                                                                      | Koosta võlatähe tööleht uuesti                                 |
