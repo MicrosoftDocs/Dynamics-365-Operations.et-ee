@@ -17,12 +17,11 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7acabdec9133b4b4cc8fc8861ee097aa2a00e191
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3ed41a57e40e8d90ebfd996f855a8dc8dc16de13
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -413,7 +412,7 @@ Sularahakannete loomiseks pearaamatu töölehe kaudu avage **Pearaamat** &gt; **
 </tbody>
 </table>
 
-Vahekaardil **Arve** saate määrata valitud konto ja vastaskonto sisestusreeglid. Kui registreeritud kanne on ettemakse, märkige vahekaardil **Makse** ruut **Ettemakse**. Täitke väljagrupis **Esindaja** väljad, nagu saatelehe töölehtede puhul, et printida välja **Sularahaaruanne**. Töölehekannete vaatamiseks klõpsake toimingupaanil nuppu **Kinnita**.
+Vahekaardil **Arve** saate määrata valitud konto ja vastaskonto sisestusreeglid. Kui registreeritud kanne on ettemakse, märkige ruut **Ettemakse** vahekaardil **Makse**. Täitke väljagrupis **Esindaja** väljad, nagu saatelehe töölehtede puhul, et printida välja aruanne **Sularaha**. Töölehekannete vaatamiseks klõpsake toimingupaanil nuppu **Kinnita**.
 
 ## <a name="cash-transaction-approval-and-posting"></a>Sularahakande kinnitamine ja sisestamine
 Sularahakannete puhul saab rakendada järgmisi olekuid: **Pole**, **Kinnitatud**, **Heaks kiidetud**, **Tagasi lükatud**. Parameeter **Kasuta kinnituse olekut** vahekaardi **Sularaha** kiirkaardil **Kinnitamine** (**Sularaha- ja pangahaldus** &gt; **Seadistus** &gt; **Sularaha- ja pangahalduse parameetrid**) võimaldab aktiveerida kaks lisaolekut: **Kinnitatud** ja **Tagasi lükatud**. Kinnitus on asjakohane, kui kassadokumendid on väljastatud ning kaks töövõtjat – raamatupidaja ja kassiir – kasutavad ühiselt kassaordereid või kulusid. Funktsioon **Lähtesta olek** muudab kande praegust olekut. Olek **Heaks kiidetud** muutub olekuks **Kinnitatud** ja olek **Kinnitatud** muutub olekuks **Pole**. Sularahatöölehe sisestusi saab redigeerida ainult siis, kui olek on **Pole**. Sularahakandeid saab tagasi lükata ainult siis, kui kande olek on **Kinnitatud**. Tagasi lüktatud kassadokumendid kaasatakse aruandesse **Kassadokumentide registreerimise tööleht**, kuid need ei kajastu aruandes **Kassaraamat**. Kande kinnitamiseks valige vastav saatelehe töölehe rida ja klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Kinnita**. Luuakse tellimuse number, võttes aluseks määratud numbriseeria. Kande olekuks muutub **Kinnitatud** ja töölehe rida ei saa enam redigeerida. Sularahakonto saldo jääb muutumatuks. Kassadokumendi tagasilükkamiseks klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Lükka tagasi**. See suvand on saadaval ainult dokumentide puhul, mille olek on **Kinnitatud**. Kande heakskiitmiseks valige vastav saatelehe töölehe rida ja klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Kiida heaks**. Olek **Heaks kiidetud** näitab, et sularaha on vastu võetud või kulutatud. Kassasaldo on muutunud. Sularahakannet saab sisestada. Oleku **Heaks kiidetud** tühistamiseks ja ennistamiseks väärtusele **Pole** klõpsake valikuid **Dokumentide heakskiitmine** &gt; **Lähtesta olek**. Sisestada saab ainult heakskiidetud sularahakandeid. Töölehe sisestamiseks klõpsake valikuid **Sisesta** &gt; **Sisesta**.

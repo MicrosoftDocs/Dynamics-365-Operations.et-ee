@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 12fd8e11211b701304f9f4a68ff31f3b42e3e8ee
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -54,7 +54,7 @@ Power BI-le juurdepääsutaseme turbe levitamiseks peab Power BI sisu omanik jä
 Kasutajad, kes lisatakse rollile **Kuluobjekti kontroller**, näevad ainult neid andmeid, mida neil on kuluarvestuse juurdepääsutaseme organisatsioonihierarhia määratluse järgi lubatud näha. **Märkus** Reatasemel turve kehtib rakenduses Microsoft Dynamics 365 for Finance and Operations olevatele paanidele ja aruannetele, mis manustatakse Power BI kaudu.
 
 ## <a name="updating-security"></a>Turbe värskendamine
-Kui värskendused tehakse kuluarvestuses juurdepääsutasemel turbele ja soovite, et Power BI kajastaks neid värskendusi, peate värskendama kogu kauplust **kuluarvestuse analüüsi** Power BI sisu jaoks. Pärast rakenduse Dynamics 365 for Finance and Operations kaudu üksuse kaupluse uuenduse lõpuleviimist peate uuendama artefaktid saidil PowerBI.com. Üksuse kaupluse värskenduse kohta lisateabe saamiseks vaadake teemat [Üksuse kaupluse värskendamine](power-bi-integration-entity-store.md#update-entity-store). Kui uutele kasutajatele antakse juurdepääs organisatsioonihierarhiale, peab **kuluarvestuse analüüsi** Power BI sisu omanik tegema ka üksuse kaupluse värskenduse. Lisaks peab omanik saidil PowerBI.com lisama rollile **Kuluobjekti kontroller** uusi kasutajaid, et neile rakendataks reatasemel turvet.
+Kui värskendused tehakse kuluarvestuses juurdepääsutasemel turbele ja soovite, et Power BI kajastaks neid värskendusi, peate värskendama kogu kauplust **kuluarvestuse analüüsi** Power BI sisu jaoks. Pärast rakenduse Finance and Operations kaudu üksuse kaupluse uuenduse lõpuleviimist peate uuendama artefaktid saidil PowerBI.com. Üksuse kaupluse värskenduse kohta lisateabe saamiseks vaadake teemat [Üksuse kaupluse värskendamine](power-bi-integration-entity-store.md#update-entity-store). Kui uutele kasutajatele antakse juurdepääs organisatsioonihierarhiale, peab **kuluarvestuse analüüsi** Power BI sisu omanik tegema ka üksuse kaupluse värskenduse. Lisaks peab omanik saidil PowerBI.com lisama rollile **Kuluobjekti kontroller** uusi kasutajaid, et neile rakendataks reatasemel turvet.
 
 ## <a name="disabling-security"></a>Turbe keelamine
 Eeldame, et teie organisatsioon soovib andmetele juurdepääsu piirata. Kui turbeparameetrid mingil põhjusel kuluaruandluse käitamisel keelatakse, peab omanik Power BI-s rollile **Kuluarvestaja** kasutajaid lisama. Kui muudate turbe lubatud olekust keelatud olekusse, on mõttekas eemaldada kasutajad rollist **Kuluobjekti kontroller**. Ja vastupidi, kui turbe uuesti lubate. Kasutajad saavad mõlemasse rolli kuuluda. Ühine juurdepääs on mõlema rolli liit. **Kuluarvestuse analüüsi** Power BI sisu korral on ühise juurdepääsuga kasutajatel piiramatu andmetele juurdepääs. Kui teie eesmärk on rakendada piiratud juurdepääsu, tuleb kasutajad määrata ainult rollile **Kuluobjekti kontroller**. Need reatasemel turbevärskendused jõustuvad koheselt. Asjassepuutuvad kasutajad peaksid värskendama oma brausereid.

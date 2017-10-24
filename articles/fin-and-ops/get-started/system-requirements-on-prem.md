@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -87,7 +87,7 @@ Riistvaranõuded erinevad olenevalt süsteemi konfiguratsioonist, andmete koosse
 - Samaaegsete kasutajate arv
 
 ## <a name="minimum-infrastructure-requirements"></a>Minimaalsed taristunõuded
-Finance and Operations (kohapealne) kasutab AOS-i, partii, andmehalduse, halduse aruandja ja keskkonna korraldusteenuste majutamiseks Service Fabricit. Microsoft SQL Serveri aruandlusteenuseid (SSRS) ei majutata Service Fabrici kogumis.
+Finance and Operations (kohapealne) kasutab AOS-i, partii, andmehalduse, halduse aruandja ja keskkonna korraldusteenuste majutamiseks Service Fabricit. 
 
 SQL Server peab olema seadistatud suure kättesaadavuse HADRON-i seadistuses, millel on tootmises kasutamiseks vähemalt kaks režiimi.
 
@@ -225,6 +225,12 @@ Järgmises tabelis on toodud SQL Serveri versioonid, mida rakenduse Finance and 
 |------------------------------------------------------------------|-------|
 | Microsoft SQL Server 2016 Standard Edition või Enterprise Edition | SQL Server 2016 riistvaranõudeid vaadake jaotisest [Riist- ja tarkvaranõuded SQL Server 2016 installimiseks](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>Tarkvaranõuded rakendusobjekti serverile (AOS) 
+- SQL Serveri integreerimisteenused (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>Tarkvaranõuded aruandlusserverile (BI)
+- SQL Serveri aruandlusteenused (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>Klientarvutite tarkvaranõuded
 Veebirakendust Finance and Operations saab käitada igas seadmes, milles on HTML 5.0-ga ühilduv veebibrauser. Kindlad Microsofti kinnitatud seadme/brauseri kombinatsioonid on järgmised.
 
@@ -244,7 +250,7 @@ Domeenikontroller peab olema Microsoft Windows Server 2012 R2 või uuem ja domee
 ## <a name="supported-microsoft-office-applications"></a>Toetatud Microsoft Office’i rakendused
 Rakenduse Finance and Operations pilve- ja kohapealsetes juurutustes toetatakse järgmisi Microsoft Office’i rakendusi.
 
--   Microsoft Exceli ja Microsoft Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Microsoft Exceli ja Microsoft Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Funktsiooniga Ekspordi Excelisse või Ekspordi Wordi loodud dokumentide vaatamiseks peab teil olema installitud Microsoft Office 2007 või uuem versioon.
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>Jaemüügikomponentide riist- ja tarkvaranõuded
