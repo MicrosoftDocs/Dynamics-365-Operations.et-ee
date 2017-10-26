@@ -17,10 +17,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
-ms.openlocfilehash: 49f7a8f69729002812e78de757ae889266327ff4
+ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
+ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,38 +47,38 @@ Saate inimressursse kasutada, et teha järgmist.
 
 Inimressurssidega töötamisel saate otsustada kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad. Need kuuluvad põhielementide hulka, mida saate inimressurssides konfigureerida. Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.
 
--   [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](/dynamics365/unified-operations/talent/departments-jobs-positions)
--   [Ettevõttekohaste inimressursside parameetrite seadistamine](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters)
--   [Juriidilistele isikutele inimressursside parameetrite seadistamine](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities) 
+-   [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](../../talent/departments-jobs-positions.md)
+-   [Ettevõttekohaste inimressursside parameetrite seadistamine](../../talent/set-up-company-specific-hr-parameters.md)
+-   [Juriidilistele isikutele inimressursside parameetrite seadistamine](../../talent/set-up-hr-parameters-across-legal-entities.md) 
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Töötajate värbamine, palkamine ja motiveerimine
 
 Värbamisprojektid haldavad sisu, mida kasutatakse vabade töökohtade reklaamides ja mis võivad aidata teil vabade töökohtade puhul kandideerimisi hallata. Saate kasutada neid töösisestuste vastuste jälgimiseks teatud värbamisprojekti või konkreetsete kandidaatide kohta ja vabade ametikohtade oleku värskendamiseks. Saate palgata ka üksikuid kandidaate või hallata „hulgivärbamise projekte”, mis hõlbustavad mitme töötaja palkamist, nt selleks, et täita hooajalisi ärivajadusi.
 
--   [Värbamisprotsessi haldus](/dynamics365/unified-operations/talent/manage-recruiting-process)
--   [Hulgivärbamisprojektid](/dynamics365/unified-operations/talent/mass-hire-projects) 
+-   [Värbamisprotsessi haldus](manage-recruiting-process.md)
+-   [Hulgivärbamisprojektid](mass-hire-projects.md) 
 
 Kui olete töötajad palganud, saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks, et hallata üksusi nagu arvutid või telefonid, mida teie organisatsioon oma töötajatele laenab. Saate luua põhipalga ja ergutussüsteemi plaane ning määratleda reegleid, mis kehtivad tasuplaanile selle plaani kriteeriumide täitmiseks.
 
--   [Hüvitusplaanid](/dynamics365/unified-operations/talent/compensation-plans)
--   [Fikseeritud hüvitusplaanide loomine](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
--   [Ergutussüsteemi plaanide loomine](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+-   [Hüvitusplaanid](../../talent/compensation-plans.md)
+-   [Fikseeritud hüvitusplaanide loomine](../../talent/create-fixed-compensation-plans.md)
+-   [Ergutussüsteemi plaanide loomine](../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Töötajate arendamine ja koolitamine
 
 Selleks et aidata oma töötajatel jõuda nende karjäärieesmärkideni, täites samas oma tähtsaid äriülesandeid, saate seadistada eesmärke, luua jõudluse ülevaatusi ning jälgida tagasisidet. Selleks et aidata töötajatel arendada vajalikke oskusi, saate enne kursusele juhendaja määramist või kellegi registreerimist kursusele seadistada ka juhendajaid, kursusetüüpe, kursuseid, kursusekirjeldusi, päevakordi, teid ja seansse. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
 
--   [Jõudlushaldus](/dynamics365/unified-operations/talent/performance-management-overview)
--   [Töötajate oskuste ja ärivajaduste joondamine](/dynamics365/unified-operations/talent/skills)
--   [Koolituste läbiviimine kursuste kaudu](/dynamics365/unified-operations/talent/courses)
+-   [Jõudlushaldus](../../talent/performance-management-overview.md)
+-   [Töötajate oskuste ja ärivajaduste joondamine](../../talent/skills.md)
+-   [Koolituste läbiviimine kursuste kaudu](../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Soodustuste loomine ja haldamine
 
 Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodustuste programme, nt tervisekindlustuse ja pensioni plaane. Samuti saate hallata soodustusi, nt laenuprogrammid, mille puhul ettevõte laenab oma töötajatele artikleid, nt arvutid või telefonid.
 
--   [Soodustusprogrammi haldamine](/dynamics365/unified-operations/talent/manage-benefit-program)
--   [Soodustuse saamise õiguse eeskirjad](/dynamics365/unified-operations/talent/benefit-eligibility-policies)
--   [Töötajatele laenatud artiklite haldamine](/dynamics365/unified-operations/talent/loan-items)
+-   [Soodustusprogrammi haldamine](../../talent/manage-benefit-program.md)
+-   [Soodustuse saamise õiguse eeskirjad](../../talent/benefit-eligibility-policies.md)
+-   [Töötajatele laenatud artiklite haldamine](../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Töökoha ohutuse ja nõuetele vastavuse haldamine
 
@@ -92,10 +92,10 @@ Microsoft Dynamics AX-i abil saate hoida ohutut töökeskkonda, mis järgib keht
 
 Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmärkidel. Küsimustiku funktsiooni abil saate koostada ja luua küsimustikke. Kui küsimustik on valmis, võite edastada selle täitmiseks laiemalt või konkreetsele vastajate kogumile. Pärast seda, kui vastajad on oma vastused andnud, saate vaadata ja analüüsida tulemusi.
 
--   [Küsimustikud](/dynamics365/unified-operations/talent/questionnaires)
--   [Küsimustiku kujundamine](/dynamics365/unified-operations/talent/design-questionnaires)
--   [Küsimustiku laialisaatmine ja täitmine](/dynamics365/unified-operations/talent/distribute-questionnaires)
--   [Küsimustiku tulemuste vaatamine ja hindamine](/dynamics365/unified-operations/talent/evaluate-questionnaire-results)
+-   [Küsimustikud](../../talent/questionnaires.md)
+-   [Küsimustiku kujundamine](../../talent/design-questionnaires.md)
+-   [Küsimustiku laialisaatmine ja täitmine](../../talent/distribute-questionnaires.md)
+-   [Küsimustiku tulemuste vaatamine ja hindamine](../../talent/evaluate-questionnaire-results.md)
 
 
 

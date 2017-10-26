@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: cef54fa8109ebce0f8a6ca67c93afc30ec8a6781
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -332,6 +332,6 @@ Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate
     - Andmete Power BI visualisatsioonid, mis on manustatud rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, klienti
 
 > [!NOTE] 
-> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
+> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Juurdepääsuloendi hierarhia ei aita kaitsta andmete eksportimist Excelisse. Seetõttu peaksid seda aruandlustööriista kasutama ainult kuluarvestajad ja juhid, kellel on vaja andmete vaatamiseks täielikku juurdepääsu.
 

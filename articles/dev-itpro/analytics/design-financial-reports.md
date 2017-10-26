@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +49,7 @@ Selle harjutuse puhul loote ja uurite olemasolevat vaikearuannet. See aruanne si
 4.  Avage **Finantsaruanded** pearaamatu osas **Päringud ja aruanded**.
 5.  Valige rida aruande puhul, mille nimi on **Pearaamatu üksikasjad – vaikimisi.**
 6.  Valige suvand **Redigeeri.** Märkus. Teil palutakse korra klõpsatav aruandekujundaja alla laadima ja sisse logima. Kasutage sisselogimiseks oma identimisteavet.
-7.  Muutke baasaastaks 2012 ja valige **Loo**. Kui aruanne on aruande kujundajas loodud, avatakse see uuel brauseri vahekaardil. Saate aruannet uurida kas brauseri vahekaardil või minna oma algse brauseri vahekaardile ja avada aruande sealt, valides selle loendist **Finantsaruanded**.
+7.  Muutke baasaastaks 2012 ja valige **Loo**. Kui aruanne on aruandekoosturis loodud, avatakse see uuel brauseri vahekaardil. Saate aruannet uurida kas brauseri vahekaardil või minna oma algse brauseri vahekaardile ja avada aruande sealt, valides selle loendist **Finantsaruanded**.
 8.  Valige avatud aruandes üks summadest, et minna aruande konto üksikasjadesse süvitsi.
 9.  Kui olete konto üksikasjades, valige konto andmetega ja **minge süvitsi aruande kande tasemele**. Aruande kande tasemel näete selle aruande kujundusse kaasatud atribuute. Kandest ja kontost olenevalt võidakse kuvada mõni atribuut või kõik atribuudid.
 10. Sulgege aruande kande tasand.
@@ -183,8 +182,8 @@ Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruann
 18. **Salvesta** muudatused ja **loo**. Pärast aruande loomist ja avamist saate aruannet uurida.
 
 ## <a name="additional-resources"></a>Lisaressursid
-[Finantsaruandlus](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[Finantsaruannete kuvamine](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[Finantsaruandlus](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[Finantsaruannete kuvamine](../../financials/general-ledger/view-financial-reports.md) 
 [Dynamicsi finantsaruandluse ajaveeb](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

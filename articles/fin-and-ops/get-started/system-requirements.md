@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ Veebirakenduse võib töötada kõigis järgmistes veebibrauserites, mis tööta
 Iga veebibrauseri uusima versiooni leidmiseks minge tarkvaratootja veebisaidile. 
 
 > [!NOTE]
-> -   Peate installima väljalaske-eelse Chrome’i versiooni, et lubada kuvatõmmise piltide salvestamine tegevuse salvestajas ja nende lisamine loodud Microsoft Wordi dokumentidesse. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   Peate installima väljalaske-eelse Chrome’i versiooni, et lubada kuvatõmmise piltide salvestamine tegevuse salvestajas ja nende lisamine loodud Microsoft Wordi dokumentidesse. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   Töövooredaktor käivitatakse ClickOnce’i rakendusena. Ainult Microsoft Edge ja Internet Explorer (Microsoft Windowsi toetatud versioonis) toetavad ClickOnce’i rakendusi. Töövooredaktori ClickOnce rakendus nõuab ühilduvat 64-bitist operatsioonisüsteemi.
 > -   Finantsaruandluse jaoks mõeldud aruandekujundaja käivitatakse ClickOnce’i rakendusena. See nõuab ühilduvat 64-bitist operatsioonisüsteemi. Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce. Kui kasutate Chrome’i inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks samuti aktiveeritud.
 > -   PDF-failide eelvaateks soovitame kasutada brausereid, nagu Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s või Google Chrome (viimane avalikult saadaolev versioon) Windows 10-s, Windows 8.1-s, Windows 8-s, Windows 7-s või tahvelarvutis Google Nexus 10.
@@ -70,7 +70,7 @@ Finance and Operations nõuab Microsoft .NET Frameworki versiooni 4.6.2 kõikide
 ## <a name="supported-microsoft-office-applications"></a>Toetatud Microsoft Office’i rakendused
 Rakenduse Finance and Operations pilve- ja kohapealsetes juurutustes toetatakse järgmisi Microsoft Office’i rakendusi.
 
--   Microsoft Exceli ja Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Microsoft Exceli ja Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Funktsiooniga Ekspordi Excelisse või Ekspordi Wordi loodud dokumentide vaatamiseks peab teil olema installitud Microsoft Office 2007 või uuem versioon.
 
 ## <a name="retail-modern-pos-requirements"></a>Retail Modern POS-i nõuded
@@ -153,10 +153,10 @@ Arvuti peab vastama kõigile järgmiste üksuste installimist ja kasutamist puud
 -   Vähemalt 10 GB vaba ruumi (kanali andmebaas võib nõuda suurel hulgal ruumi)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Arenduse nõuded kohalikes VM-ides
-Kohalikes virtuaalmasinates (VM-id) arenduse nõuete kohta lisateabe saamiseks vaadake teemat [Asutusesiseselt töötav virtuaalmasin](../dev-tools/access-instances.md).
+Kohalikes virtuaalmasinates (VM-id) arenduse nõuete kohta lisateabe saamiseks vaadake teemat [Asutusesiseselt töötav virtuaalmasin](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>Vt ka
 
-[Rakenduse Dynamics 365 for Finance and Operations, Enterprise Editioni hindamiskoopia hankimine](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Rakenduse Dynamics 365 for Finance and Operations, Enterprise Editioni hindamiskoopia hankimine](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 

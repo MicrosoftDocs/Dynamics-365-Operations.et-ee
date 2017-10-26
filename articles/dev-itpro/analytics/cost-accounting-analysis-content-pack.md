@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: f596f84463f46fc37b14b77bd335b9ed8a62eea9
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Kuna **kuluarvestuse analüüsi** sisu tõstab esile hälbed tegelike ja eelarve
 
 **Kuluarvestuse analüüsi** sisu võimaldab kuluarvestajatel analüüsida kulude voogu läbi kogu organisatsiooni kuluobjektide. 
 
-Lisateavet kuluarvestuse kohta vt teemast [Kuluarvestuse koduleht](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+Lisateavet kuluarvestuse kohta vt teemast [Kuluarvestuse koduleht](../../financials/cost-accounting/cost-accounting-home-page.md). 
 
 Määratledes juurdepääsutasemel turvalisuse kuluarvestuses ja kombineerides selle reatasemel turvalisusega Power BI-s, saate anda kõigile kuluobjektide omanikele juurdepääsu **kuluarvestuse analüüsi** Power BI sisule. Kõik andmed visualisatsioonis filtreeritakse seejärel kuluarvestuses juhitava juurdepääsutaseme alusel. Lisateavet juurdepääsutasemel turvalisuse ja reatasemel turvalisuse kohta vt teemast [Turbe seadistamine kuluarvestuse sisu jaoks Power BI puhul](setup-security-cost-accounting-content-pack.md).
 

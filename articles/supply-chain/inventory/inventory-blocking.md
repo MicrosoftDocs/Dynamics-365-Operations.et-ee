@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7d00aaa272de32d4ef2082bf1822125800ca8a1e
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: a59a382f90cb34c9479d64931790137f00040c6b
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -64,9 +64,9 @@ Saate määrata, millised varude olekud on blokeerivad olekud, kasutades lehe **
 <a name="see-also"></a>Vt ka
 --------
 
-[Varude blokeerimise loomine ja haldamine (tegevuse juhis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-maintain-inventory-blocking)
+[Varude blokeerimise loomine ja haldamine (tegevuse juhis)](tasks/create-maintain-inventory-blocking.md
 
 [Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 
-[Kaupade kvaliteedi kontrollimine (tegevuse juhis)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
+[Kaupade kvaliteedi kontrollimine (tegevuse juhis)](tasks/inspect-quality-goods.md)
 
