@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ See artikkel annab üldist teavet ISO 20022 krediidiedastuste kohta, mis hõlmab
 
 ## <a name="what-is-a-credit-transfer-message"></a>Mis on kreeditiülekande sõnum?
 Kreeditiülekande sõnum on taotlus, mille algatav osapool (teie ettevõte) saadab fondide liigutamiseks oma enda kontolt kreeditorile. On palju kreeditiülekande sõnumite riigi-/piirkonna- ja pangaspetsiifilisi rakendusi. Mõnda neist kasutatakse ühe riigi/piirkonna piires ja mõned muutuvad standarditeks. Üks hästi loodud globaalne standard on ISO 20022 ja selle algatamise sõnumid, nagu kreeditiülekanne. Järgmine joonis näitab valitud kreeditiülekande sõnumite seoseid ja hõlmavust. 
-![Kreeditiülekanne](./media/credit-transfer.jpg) Kreeditiülekande sõnumid\[/pealdis\] 
+![Kreeditiülekanne](./media/credit-transfer.jpg) Kreeditiülekande sõnumid 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Mis on ISO 20022 ja SEPA-maksed?
 Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklikel maksetel ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema. Euroopa Komisjon määras SEPA maksetele juriidilise aluse makseteenuste direktiiviga (PSD). Euroopa Maksenõukogu (EPC) toetab SEPA-d läbi järgmiste tegevuste.
@@ -59,7 +59,7 @@ Euroopa riikide puhul kasutatakse kreeditiülekande maksevormingu rakendamiseks 
 Saate alati minna Microsoft Dynamicsi elutsükli teenustes (LCS) olevasse ühiste varade teeki ja vaadata kõige ajakohasemat loendit saadaolevatest failidest, millel on vara tüüp **GER-i konfiguratsioon**. Järgmine jaotis „Mida pean seadistamiseks tegema?” annab lingi teemale, mis selgitab, kuidas luua LCS-hoidlat, et saadaolevaid konfiguratsioone üle vaadata ja valitud konfiguratsioone importida.
 
 ## <a name="what-do-i-have-to-set-up"></a>Mida pean seadistamiseks tegema?
--   Enne kui saate kreeditiülekande faile luua, tuleb teie elektroonilise aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne kreeditiülekande konfiguratsioon. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Enne kui saate kreeditiülekande faile luua, tuleb teie elektroonilise aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne kreeditiülekande konfiguratsioon. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Kui konfigureerite ostureskontro makseviise, märkige ruut **Üldine elektrooniline aruandlus** ja valige ekspordivormingu konfiguratsioonina sobiv kreeditülekande vorming (näiteks **ISO 20022 kreeditiülekanne (AT)**).
 -   Samuti tuleb seadistada Finance and Operationsis juriidilise isiku ja pangakonto andmed.
 -   Kehtivate kreeditiülekande maksete loomiseks on vaja pangakonto numbreid, IBAN-sid ja mõnikord SWIFT-koode (BIC-id). Seega tuleb need seadistada nii hankija pangakonto kui ka ülekannet taotleva organisatsiooni pangakonto jaoks.

@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c2c625e9c4f0df762abd6120201a2623ac756bf9
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -61,7 +60,7 @@ Registreerimiskategooria on riigi/regiooni registreerimise identifikaator, mis o
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Sisestage registreerimise ID-d globaalse aadressiraamatu kirjete puhul
 
-Rakenduse Microsoft Finance and Operations globaalne aadressiraamat (GAB) sisaldab konsolideeritud aadressiteavet klientide, hankijate, kontaktide, ärisuhete ja juriidiliste isikute kohta. Lisateavet vt teemast [Globaalse aadressiraamatu ülevaade](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). Osapoole kirjed, mis on salvestatud globaalsesse aadressiraamatusse, võivad sisaldada üht või mitut aadressikirjet. Neid aadresse kasutatakse erinevatel eesmärkidel, näiteks arvete või tarnimise jaoks. Saate määrata aadressiteabe jaoks registreerimise ID-d klientidele, hankijatele, töötajatele ja juriidilistele isikutele. Leidke osapoole (juriidiline isik, hankija, klient, töötaja) kirje, mille jaoks soovite registreerimise ID-d sisestada, ja klõpsake osapoole, juriidilise isiku, hankija, kliendi või töötajaga seotud vormidel valikut **Registreerimise ID-d**, et avada leht **Aadresside haldamine**. Klõpsake vahekaardil **Maksu registreerimine** nuppu **Lisa** ja sisestage registreerimise ID kohta järgmine teave.
+Rakenduse Microsoft Finance and Operations globaalne aadressiraamat (GAB) sisaldab konsolideeritud aadressiteavet klientide, hankijate, kontaktide, ärisuhete ja juriidiliste isikute kohta. Lisateavet vt teemast [Globaalse aadressiraamatu ülevaade](../../fin-and-ops/organization-administration/overview-global-address-book.md). Osapoole kirjed, mis on salvestatud globaalsesse aadressiraamatusse, võivad sisaldada üht või mitut aadressikirjet. Neid aadresse kasutatakse erinevatel eesmärkidel, näiteks arvete või tarnimise jaoks. Saate määrata aadressiteabe jaoks registreerimise ID-d klientidele, hankijatele, töötajatele ja juriidilistele isikutele. Leidke osapoole (juriidiline isik, hankija, klient, töötaja) kirje, mille jaoks soovite registreerimise ID-d sisestada, ja klõpsake osapoole, juriidilise isiku, hankija, kliendi või töötajaga seotud vormidel valikut **Registreerimise ID-d**, et avada leht **Aadresside haldamine**. Klõpsake vahekaardil **Maksu registreerimine** nuppu **Lisa** ja sisestage registreerimise ID kohta järgmine teave.
 
 
 |Väli                |Kirjeldus                                                |

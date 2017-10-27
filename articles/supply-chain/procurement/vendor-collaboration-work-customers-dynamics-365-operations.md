@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 See teema kirjeldab, kuidas saate kasutada hankija koostööd rakenduses Finance and Operations, et töötada ostutellimustega ja jälgida veose varusid.
 
-See teema kirjeldab, kuidas saate kasutada hankija koostööd, et töötada klientidega rakenduses Microsoft Finance and Operations. See hõlmab teavet selle kohta, kuidas ostutellimusi jälgida ja neile vastata ning kuidas jälgida veose varusid. Samuti on võimalik arvetega töötamiseks hankija koostööd kasutada. Lisateabe saamiseks vaadake teemat [Hankija koostöö arve tööruum](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+See teema kirjeldab, kuidas saate kasutada hankija koostööd, et töötada klientidega rakenduses Microsoft Finance and Operations. See hõlmab teavet selle kohta, kuidas ostutellimusi jälgida ja neile vastata ning kuidas jälgida veose varusid. Samuti on võimalik arvetega töötamiseks hankija koostööd kasutada. Lisateabe saamiseks vaadake teemat [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 ## <a name="working-with-purchase-orders"></a>Töötamine ostutellimustega
 Tööruum **Ostutellimuse kinnitus** võimaldab teil vastata ostutellimusele, mis on saadetud teile ülevaatamiseks. See võimaldab teil vaadata teavet ostutellimuste kohta, mis ootavad kliendipoolset tegevust, ja selliste ostutellimuste kohta, mis on kinnitatud, kuid ikka avatud. Tööruumis **Ostutellimuse kinnitus** on kolm loendit.

@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ Selle konfiguratsiooni kasutamisel koostatakse seotud teenusetootele ostutellimu
 Tootmistellimusel võib olla mitu operatsiooni ja iga operatsiooni saab määrata erinevale hankijale. Seega võib terve tootmistellimus käivitada mitu ostutellimust.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Tootmisvoo tegevuste allhange
-[Lean manufacturingi](lean-manufacturing-overview.md)lahendus modelleerib allhanketööd teenusena, mis on seotud [tootmisvoo](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) tegevusega (tegevuse juhise teema). Seetõttu nimetatakse seda tüüpi allhanget ka [tegevusepõhiseks allhankeks.](activity-based-subcontracting.md) Kasutusele on võetud kulugrupi eritüüp **Otse sisseostmine** ja allhanketeenused ei ole enam valmis kauba koosluse osa. Lean manufacturingi kasutamisel määratletakse kõik tegevused kanbanidega, mille saab seostada vähemalt ühe tootmisvoo tegevusega. Siiamaani kõlab see selgitud täpselt nagu tootmistellimuste selgitus. Kuid kui tootmistellimused peavad alati lõppema valmis tootega, siis kanbane saab luua pooltoote tarnimiseks. Uut toodet ja koosluse taset pole vaja tekitada.  
+[Lean manufacturingi](lean-manufacturing-overview.md)lahendus modelleerib allhanketööd teenusena, mis on seotud [tootmisvoo](tasks/create-production-flow-version.md) tegevusega (tegevuse juhise teema). Seetõttu nimetatakse seda tüüpi allhanget ka [tegevusepõhiseks allhankeks.](activity-based-subcontracting.md) Kasutusele on võetud kulugrupi eritüüp **Otse sisseostmine** ja allhanketeenused ei ole enam valmis kauba koosluse osa. Lean manufacturingi kasutamisel määratletakse kõik tegevused kanbanidega, mille saab seostada vähemalt ühe tootmisvoo tegevusega. Siiamaani kõlab see selgitud täpselt nagu tootmistellimuste selgitus. Kuid kui tootmistellimused peavad alati lõppema valmis tootega, siis kanbane saab luua pooltoote tarnimiseks. Uut toodet ja koosluse taset pole vaja tekitada.  
 
 Kuna kanbani reeglid võivad olla väga dünaamilised, saate modelleerida sama toote jaoks tootmisvoos erinevaid tarnevariante. Säästliku allhanke kasutamisel on materjalivoog ja finantsvoog rangelt eraldatud. Kogu materjalivoog kajastatakse kanban-tegevustega. Teenusetoodete ostutellimused ja nende teenuste kviitungite sisestamised saab automatiseerida, tuginedes kanban-tööde olekule tootmisvoos. Kanban-töid saab alustada ja lõpetada isegi enne ostutellimuste loomist. Allhankedokumendid (ostutellimus ja teenuse ostukviitung) saab koondada perioodi ja teenuse järgi. Seega saab ostudokumentide ja ridade arvu väiksena hoida, isegi rohkete korduvate operatsioonide puhul, kui hankijad osutavad allhanketeenuseid üheosalises voos.
 

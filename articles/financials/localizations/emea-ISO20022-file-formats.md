@@ -16,10 +16,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
-ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: fcab30f03aebf7dbe76d5b3b64260f726f291fb8
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/31/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -118,7 +118,7 @@ LCS-ist vormingu konfiguratsiooni importimisel impordite kogu konfiguratsioonipu
  - **Pain.002** – seda vormingut kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et importida pain.002-fail hankija makseülekannete töölehele
  - **Camt.054** – seda vormingut kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et importida camt.054-fail hankija makseülekannete töölehele Sama vormingukonfiguratsiooni kasutatakse kliendimaksete impordi funktsiooni puhul, kuid konfiguratsiooni Maksemudeli vastendamine sihtkohta ISO20022 puhul kasutatakse teistsugust vastendamist.
 
-Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonilise aruandluse ülevaade](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonilise aruandluse ülevaade](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 - [Hankijamaksete loomine ja eksportimine ISO20022 maksevormingu abil](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

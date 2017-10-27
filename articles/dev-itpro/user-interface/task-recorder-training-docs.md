@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ Saate Microsofti tegevuse salvestised alla laadida ja neid redigeerida, et kasut
 11. Valige, kuidas tegevuse salvestist salvestada soovite.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Tegevuse salvestiste lisamine spikripaanis
-Oma kohandatud tegevuse salvestiste kuvamiseks spikripaanil, et neid saaks tegevuse juhistena taasesitada või tekstina kuvada, tuleb salvestada tegevuse salvestised oma BPM-i teeki ja seejärel uuendada oma spikrisüsteemi parameetreid nii, et need osutaksid teie BPM-i teegile. Lisateabe saamiseks vaadake teemat [Spikrisüsteemi ühendamine](../get-started/help-connect.md).
+Oma kohandatud tegevuse salvestiste kuvamiseks spikripaanil, et neid saaks tegevuse juhistena taasesitada või tekstina kuvada, tuleb salvestada tegevuse salvestised oma BPM-i teeki ja seejärel uuendada oma spikrisüsteemi parameetreid nii, et need osutaksid teie BPM-i teegile. Lisateabe saamiseks vaadake teemat [Spikrisüsteemi ühendamine](../../fin-and-ops/get-started/help-connect.md).
 
 <a name="see-also"></a>Vt ka
 --------
 
-[Spikri ülevaade](..\get-started\help-overview.md)
+[Spikri ülevaade](../../fin-and-ops/get-started/help-overview.md)
 
-[Ühendamise spikker](..\get-started\help-connect.md)
+[Ühendamise spikker](../../fin-and-ops/get-started/help-connect.md)
 
 [Tegevuse salvestaja](task-recorder.md)
 

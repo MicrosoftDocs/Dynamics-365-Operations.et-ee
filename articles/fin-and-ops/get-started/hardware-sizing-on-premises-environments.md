@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Riistvara suuruse muutmine kohapealsetes keskkondades
-Enne kui alustate kohapealses keskkonnas riistvara ja taristu suuruse muutmise protsessi, tutvuge [süsteeminõuete](../get-started/system-requirements.md) ning [seadistus- ja juurutusjuhistega](../deployment/setup-deploy-on-premises-environments.md), et aluseks olev taristu endale hästi selgeks teha. 
+Enne kui alustate kohapealses keskkonnas riistvara ja taristu suuruse muutmise protsessi, tutvuge [süsteeminõuete](system-requirements.md) ning [seadistus- ja juurutusjuhistega](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), et aluseks olev taristu endale hästi selgeks teha. 
 
   **Märkus.** Optimaalse jõudluse saavutamiseks pöörake tähelepanu süsteemi seadistamise parimatele tavadele. 
 
@@ -89,7 +89,7 @@ Suuruse muutmise nõuete mõistmiseks peate teadma kannete maksimaalset mahtu, m
 Soovitame kogumi või peegelduse seadistamisel kasutada alati SQL Serverit. SQL-i teisel sõlmel peab olema sama arv tuumi mis primaarsel sõlmel. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Active Directory Federation Services (AD FS)
-AD FS-i suuruse muutmiseks vaadake [AD FS-i serveri jõudluse dokumentatsiooni](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+AD FS-i suuruse muutmiseks vaadake [AD FS-i serveri jõudluse dokumentatsiooni](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 Teie juurutuses eksemplaride arvu kavandamiseks on saadaval [suuruse muutmise tabel](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx).
 
