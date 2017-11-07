@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxPeriod, TaxReportCollection, TaxReportVoucher
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 266904
 ms.search.region: Estonia
 ms.author: v-elgolu
