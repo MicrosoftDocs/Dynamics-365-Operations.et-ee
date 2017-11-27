@@ -1,16 +1,16 @@
 ---
 title: Kulude haldus
-description: 
+description: "Kuluhalduse abil saate luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad."
 author: twheeloc
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15001
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
@@ -18,41 +18,41 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e49c2671555fafbc07d300be711b654ff3d2ffab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 65aedce1aef92a56b3f48df02446471c26a3bfce
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="expense-management"></a><span data-ttu-id="a0622-102">Kulude haldus</span><span class="sxs-lookup"><span data-stu-id="a0622-102">Expense management</span></span>
+# <a name="expense-management"></a><span data-ttu-id="ed6b7-103">Kulude haldus</span><span class="sxs-lookup"><span data-stu-id="ed6b7-103">Expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="a0622-103">Kuluhalduse abil saate luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad.</span><span class="sxs-lookup"><span data-stu-id="a0622-103">Use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees are spending when they incur expenses for your business.</span></span> <span data-ttu-id="a0622-104">Saate ka määrata kulupoliitikad ja automatiseerida reisikulude hüvitamise.</span><span class="sxs-lookup"><span data-stu-id="a0622-104">You can also define expense policies and automate the reimbursement of travel expenses.</span></span> 
+<span data-ttu-id="ed6b7-104">Kuluhalduse abil saate luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad.</span><span class="sxs-lookup"><span data-stu-id="ed6b7-104">Use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees are spending when they incur expenses for your business.</span></span> <span data-ttu-id="ed6b7-105">Saate ka määrata kulupoliitikad ja automatiseerida reisikulude hüvitamise.</span><span class="sxs-lookup"><span data-stu-id="ed6b7-105">You can also define expense policies and automate the reimbursement of travel expenses.</span></span> 
 
-[<span data-ttu-id="a0622-105">Kuluhalduse plaanimine</span><span class="sxs-lookup"><span data-stu-id="a0622-105">Planning expense management</span></span>](plan-expense-management.md) 
+[<span data-ttu-id="ed6b7-106">Kuluhalduse plaanimine</span><span class="sxs-lookup"><span data-stu-id="ed6b7-106">Planning expense management</span></span>](plan-expense-management.md) 
 
-### <a name="additional-resources"></a><span data-ttu-id="a0622-106">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="a0622-106">Additional resources</span></span>
+### <a name="additional-resources"></a><span data-ttu-id="ed6b7-107">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="ed6b7-107">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="a0622-107">Mis on uut ja mis on arendamisel</span><span class="sxs-lookup"><span data-stu-id="a0622-107">What's new and in development</span></span>
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="ed6b7-108">Mis on uut ja mis on arendamisel</span><span class="sxs-lookup"><span data-stu-id="ed6b7-108">What's new and in development</span></span>
 
-<span data-ttu-id="a0622-108">Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel.</span><span class="sxs-lookup"><span data-stu-id="a0622-108">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span> 
+<span data-ttu-id="ed6b7-109">Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel.</span><span class="sxs-lookup"><span data-stu-id="ed6b7-109">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="a0622-109">Ajaveebid</span><span class="sxs-lookup"><span data-stu-id="a0622-109">Blogs</span></span>
+#### <a name="blogs"></a><span data-ttu-id="ed6b7-110">Ajaveebid</span><span class="sxs-lookup"><span data-stu-id="ed6b7-110">Blogs</span></span>
 
-<span data-ttu-id="a0622-110">Müügireskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span><span class="sxs-lookup"><span data-stu-id="a0622-110">You can find opinions, news, and other information about Accounts receivable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
+<span data-ttu-id="ed6b7-111">Müügireskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span><span class="sxs-lookup"><span data-stu-id="ed6b7-111">You can find opinions, news, and other information about Accounts receivable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
 
-<span data-ttu-id="a0622-111">Palju postitusi müügireskontro kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/).</span><span class="sxs-lookup"><span data-stu-id="a0622-111">There are many posts about Accounts receivable on the [Microsoft Dynamics AX product team blog](https://blogs.msdn.microsoft.com/dax/).</span></span> <span data-ttu-id="a0622-112">Kuigi mõned neist postitustest kirjutati müügireskontro eelmisele versioonile, on põhimõtted endiselt samad.</span><span class="sxs-lookup"><span data-stu-id="a0622-112">Although some of these posts were written for the previous version of Accounts receivable, the same concepts still apply.</span></span> <span data-ttu-id="a0622-113">Ka protseduurid on praeguses versioonis sarnased.</span><span class="sxs-lookup"><span data-stu-id="a0622-113">and the procedures are also similar in the current version.</span></span>
+<span data-ttu-id="ed6b7-112">Palju postitusi müügireskontro kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/).</span><span class="sxs-lookup"><span data-stu-id="ed6b7-112">There are many posts about Accounts receivable on the [Microsoft Dynamics AX product team blog](https://blogs.msdn.microsoft.com/dax/).</span></span> <span data-ttu-id="ed6b7-113">Kuigi mõned neist postitustest kirjutati müügireskontro eelmisele versioonile, on põhimõtted endiselt samad.</span><span class="sxs-lookup"><span data-stu-id="ed6b7-113">Although some of these posts were written for the previous version of Accounts receivable, the same concepts still apply.</span></span> <span data-ttu-id="ed6b7-114">Ka protseduurid on praeguses versioonis sarnased.</span><span class="sxs-lookup"><span data-stu-id="ed6b7-114">and the procedures are also similar in the current version.</span></span>
 
-<span data-ttu-id="a0622-114">[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.</span><span class="sxs-lookup"><span data-stu-id="a0622-114">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+<span data-ttu-id="ed6b7-115">[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.</span><span class="sxs-lookup"><span data-stu-id="ed6b7-115">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
 
-#### <a name="task-guides"></a><span data-ttu-id="a0622-115">Tegevuse juhised</span><span class="sxs-lookup"><span data-stu-id="a0622-115">Task guides</span></span>
-<span data-ttu-id="a0622-116">Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a0622-116">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="a0622-117">Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.</span><span class="sxs-lookup"><span data-stu-id="a0622-117">To access task guides, click the Help button on any page.</span></span>
+#### <a name="task-guides"></a><span data-ttu-id="ed6b7-116">Tegevuse juhised</span><span class="sxs-lookup"><span data-stu-id="ed6b7-116">Task guides</span></span>
+<span data-ttu-id="ed6b7-117">Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ed6b7-117">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="ed6b7-118">Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.</span><span class="sxs-lookup"><span data-stu-id="ed6b7-118">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="a0622-118">Videod</span><span class="sxs-lookup"><span data-stu-id="a0622-118">Videos</span></span>
+#### <a name="videos"></a><span data-ttu-id="ed6b7-119">Videod</span><span class="sxs-lookup"><span data-stu-id="ed6b7-119">Videos</span></span>
 
-<span data-ttu-id="a0622-119">Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="a0622-119">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="ed6b7-120">Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="ed6b7-120">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 

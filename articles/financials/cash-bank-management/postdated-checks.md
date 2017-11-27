@@ -25,14 +25,14 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="postdated-checks"></a><span data-ttu-id="5af16-105">Hilisema kuupäevaga dateeritud tšekid</span><span class="sxs-lookup"><span data-stu-id="5af16-105">Postdated checks</span></span>
+# <a name="postdated-checks"></a><span data-ttu-id="60ff6-105">Hilisema kuupäevaga dateeritud tšekid</span><span class="sxs-lookup"><span data-stu-id="60ff6-105">Postdated checks</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="5af16-106">Selles artiklis antakse teavet hilisema kuupäevaga tšekkide toe kohta Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis.</span><span class="sxs-lookup"><span data-stu-id="5af16-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="5af16-107">Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil.</span><span class="sxs-lookup"><span data-stu-id="5af16-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="5af16-108">Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada.</span><span class="sxs-lookup"><span data-stu-id="5af16-108">Therefore, the check can't be cashed until the specified date.</span></span>
+<span data-ttu-id="60ff6-106">Selles artiklis antakse teavet hilisema kuupäevaga tšekkide toe kohta Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis.</span><span class="sxs-lookup"><span data-stu-id="60ff6-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="60ff6-107">Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil.</span><span class="sxs-lookup"><span data-stu-id="60ff6-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="60ff6-108">Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada.</span><span class="sxs-lookup"><span data-stu-id="60ff6-108">Therefore, the check can't be cashed until the specified date.</span></span>
 
-<span data-ttu-id="5af16-109">Microsoft Dynamics 365 for Finance and Operations toetab hilisema kuupäevaga dateeritud tšekkide täielikku haldustsüklit nii müügireskontros kui ka ostureskontros, nagu on näidatud järgmises tabelis.</span><span class="sxs-lookup"><span data-stu-id="5af16-109">Microsoft Dynamics 365 for Finance and Operations supports the full management cycle for postdated checks in both Accounts receivable and Accounts payable, as shown in the following table.</span></span>
+<span data-ttu-id="60ff6-109">Microsoft Dynamics 365 for Finance and Operations toetab hilisema kuupäevaga dateeritud tšekkide täielikku haldustsüklit nii müügireskontros kui ka ostureskontros, nagu on näidatud järgmises tabelis.</span><span class="sxs-lookup"><span data-stu-id="60ff6-109">Microsoft Dynamics 365 for Finance and Operations supports the full management cycle for postdated checks in both Accounts receivable and Accounts payable, as shown in the following table.</span></span>
 <table>
 <colgroup>
 <col width="50%" />
@@ -40,63 +40,63 @@ ms.lasthandoff: 11/03/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5af16-110">Stsenaarium</span><span class="sxs-lookup"><span data-stu-id="5af16-110">Scenario</span></span></th>
-<th><span data-ttu-id="5af16-111">Üksikasjad</span><span class="sxs-lookup"><span data-stu-id="5af16-111">Details</span></span></th>
+<th><span data-ttu-id="60ff6-110">Stsenaarium</span><span class="sxs-lookup"><span data-stu-id="60ff6-110">Scenario</span></span></th>
+<th><span data-ttu-id="60ff6-111">Üksikasjad</span><span class="sxs-lookup"><span data-stu-id="60ff6-111">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="5af16-112">Hilisema kuupäevaga tšekkide seadistamine</span><span class="sxs-lookup"><span data-stu-id="5af16-112">Set up postdated checks</span></span></td>
-<td><span data-ttu-id="5af16-113">Peate seadistama uue makseviisi ja määrama makserutiini väljastatud tšekkide, vastuvõetud tšekkide ja kinnipeetava maksu kliiringukontodele.</span><span class="sxs-lookup"><span data-stu-id="5af16-113">You must set up a new payment method, and specify the payment routine for clearing accounts for issued checks, received checks, and withholding tax.</span></span></td>
+<td><span data-ttu-id="60ff6-112">Hilisema kuupäevaga tšekkide seadistamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-112">Set up postdated checks</span></span></td>
+<td><span data-ttu-id="60ff6-113">Peate seadistama uue makseviisi ja määrama makserutiini väljastatud tšekkide, vastuvõetud tšekkide ja kinnipeetava maksu kliiringukontodele.</span><span class="sxs-lookup"><span data-stu-id="60ff6-113">You must set up a new payment method, and specify the payment routine for clearing accounts for issued checks, received checks, and withholding tax.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="5af16-114">Registreeri ja postita hankija hilisema kuupäevaga tšekk</span><span class="sxs-lookup"><span data-stu-id="5af16-114">Register and post a postdated check for a vendor</span></span></td>
-<td><span data-ttu-id="5af16-115">Registreerige hankijale väljastatava hilisema kuupäevaga tšeki üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="5af16-115">Register the details of a postdated check that you issue to a vendor.</span></span> <span data-ttu-id="5af16-116">Kui makse on sisestatud, siis tuvastatakse hankija kohustus, kuid pangakonto ei ole veel krediteeritud.</span><span class="sxs-lookup"><span data-stu-id="5af16-116">When the payment is posted, the vendor liability is recognized, but the bank account isn’t yet credit.</span></span> <span data-ttu-id="5af16-117">Selle asemel kasutatakse selleks kliiringukontot.</span><span class="sxs-lookup"><span data-stu-id="5af16-117">Instead, a clearing account is used for this purpose.</span></span> </td>
+<td><span data-ttu-id="60ff6-114">Registreeri ja postita hankija hilisema kuupäevaga tšekk</span><span class="sxs-lookup"><span data-stu-id="60ff6-114">Register and post a postdated check for a vendor</span></span></td>
+<td><span data-ttu-id="60ff6-115">Registreerige hankijale väljastatava hilisema kuupäevaga tšeki üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="60ff6-115">Register the details of a postdated check that you issue to a vendor.</span></span> <span data-ttu-id="60ff6-116">Kui makse on sisestatud, siis tuvastatakse hankija kohustus, kuid pangakonto ei ole veel krediteeritud.</span><span class="sxs-lookup"><span data-stu-id="60ff6-116">When the payment is posted, the vendor liability is recognized, but the bank account isn’t yet credit.</span></span> <span data-ttu-id="60ff6-117">Selle asemel kasutatakse selleks kliiringukontot.</span><span class="sxs-lookup"><span data-stu-id="60ff6-117">Instead, a clearing account is used for this purpose.</span></span> </td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="5af16-118">Kliendi hilisema kuupäevaga tšeki registreerimine ja postitamine</span><span class="sxs-lookup"><span data-stu-id="5af16-118">Register and post a postdated check for a customer</span></span></td>
-<td><span data-ttu-id="5af16-119">Regitreerige kliendilt saadud hilisema kuupäevaga tšeki üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="5af16-119">Register the details of a postdated check that you receive from a customer.</span></span> <span data-ttu-id="5af16-120">Kui makse on sisestatud, siis on kliendi nõue krediteeritud, kuid pangakontot ei ole veel debiteeritud.</span><span class="sxs-lookup"><span data-stu-id="5af16-120">When the payment is posted, the customer receivable is credit, but the bank account isn’t yet debit.</span></span> <span data-ttu-id="5af16-121">Selle asemel kasutatakse selleks kliiringukontot.</span><span class="sxs-lookup"><span data-stu-id="5af16-121">Instead, a clearing account is used for this purpose.</span></span></td>
+<td><span data-ttu-id="60ff6-118">Kliendi hilisema kuupäevaga tšeki registreerimine ja postitamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-118">Register and post a postdated check for a customer</span></span></td>
+<td><span data-ttu-id="60ff6-119">Regitreerige kliendilt saadud hilisema kuupäevaga tšeki üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="60ff6-119">Register the details of a postdated check that you receive from a customer.</span></span> <span data-ttu-id="60ff6-120">Kui makse on sisestatud, siis on kliendi nõue krediteeritud, kuid pangakontot ei ole veel debiteeritud.</span><span class="sxs-lookup"><span data-stu-id="60ff6-120">When the payment is posted, the customer receivable is credit, but the bank account isn’t yet debit.</span></span> <span data-ttu-id="60ff6-121">Selle asemel kasutatakse selleks kliiringukontot.</span><span class="sxs-lookup"><span data-stu-id="60ff6-121">Instead, a clearing account is used for this purpose.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="5af16-122">Registreerige ja postitage kliendi või hankija hilisema kuupäevaga asendustšekk.</span><span class="sxs-lookup"><span data-stu-id="5af16-122">Register and post a replacement postdated check for a customer or a vendor</span></span></td>
+<td><span data-ttu-id="60ff6-122">Registreerige ja postitage kliendi või hankija hilisema kuupäevaga asendustšekk.</span><span class="sxs-lookup"><span data-stu-id="60ff6-122">Register and post a replacement postdated check for a customer or a vendor</span></span></td>
 <td>
-<span data-ttu-id="5af16-123">Kui teie algne tšekk hankijale või kliendilt on kadunud või kahjustatud, siis saate hankijale väljastada hilise kuupäevaga dateeritud asendustšeki.</span><span class="sxs-lookup"><span data-stu-id="5af16-123">If your original check to a vendor or from a customer is lost or damaged, you can issue a replacement postdated check.</span></span> <span data-ttu-id="5af16-124">Tšeki üksikasjade registreerimisel lisage viide esialgsele tšekile ja näidake, et uus tšekk on originaali asendaja.</span><span class="sxs-lookup"><span data-stu-id="5af16-124">When you register the check details, provide a reference to the original check, and indicate that the new check is a replacement for the original.</span></span> <span data-ttu-id="5af16-125">Asendustšeki saate ka sisestada.</span><span class="sxs-lookup"><span data-stu-id="5af16-125">You can also post the replacement check.</span></span></td>
+<span data-ttu-id="60ff6-123">Kui teie algne tšekk hankijale või kliendilt on kadunud või kahjustatud, siis saate hankijale väljastada hilise kuupäevaga dateeritud asendustšeki.</span><span class="sxs-lookup"><span data-stu-id="60ff6-123">If your original check to a vendor or from a customer is lost or damaged, you can issue a replacement postdated check.</span></span> <span data-ttu-id="60ff6-124">Tšeki üksikasjade registreerimisel lisage viide esialgsele tšekile ja näidake, et uus tšekk on originaali asendaja.</span><span class="sxs-lookup"><span data-stu-id="60ff6-124">When you register the check details, provide a reference to the original check, and indicate that the new check is a replacement for the original.</span></span> <span data-ttu-id="60ff6-125">Asendustšeki saate ka sisestada.</span><span class="sxs-lookup"><span data-stu-id="60ff6-125">You can also post the replacement check.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="5af16-126">Kliendi hilisema kuupäevaga tšeki ülekandmine hankijale</span><span class="sxs-lookup"><span data-stu-id="5af16-126">Transfer a customer postdated check to a vendor</span></span></td>
-<td><span data-ttu-id="5af16-127">Kui saate kliendilt hilisema kuupäevaga dateeritud tšeki, saate tšeki hankijale maksena üle kanda.</span><span class="sxs-lookup"><span data-stu-id="5af16-127">When you receive a postdated check from a customer, you can transfer that check to a vendor as a payment.</span></span></td>
+<td><span data-ttu-id="60ff6-126">Kliendi hilisema kuupäevaga tšeki ülekandmine hankijale</span><span class="sxs-lookup"><span data-stu-id="60ff6-126">Transfer a customer postdated check to a vendor</span></span></td>
+<td><span data-ttu-id="60ff6-127">Kui saate kliendilt hilisema kuupäevaga dateeritud tšeki, saate tšeki hankijale maksena üle kanda.</span><span class="sxs-lookup"><span data-stu-id="60ff6-127">When you receive a postdated check from a customer, you can transfer that check to a vendor as a payment.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="5af16-128">Kliendi või hankija hilisema kuupäevaga tšeki tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="5af16-128">Settle a postdated check for a customer or a vendor</span></span></td>
-<td><span data-ttu-id="5af16-129">Tasakaalustage hilise kuupäevaga tšekk, mis sisestatakse kliendi või hankija vahekontole, kui tšekk lõpuks valmis on.</span><span class="sxs-lookup"><span data-stu-id="5af16-129">Settle a postdated check that is posted to a bridging account for a customer or a vendor when the check finally matures.</span></span> <span data-ttu-id="5af16-130">Tšeki tasakaalustamisel pank lõpuks debiteerib või krediteerib varem kasutatud kliiringukonto.</span><span class="sxs-lookup"><span data-stu-id="5af16-130">When the check is settled, the bank is finally debit or credit against the clearing account that was used earlier.</span></span></td>
+<td><span data-ttu-id="60ff6-128">Kliendi või hankija hilisema kuupäevaga tšeki tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-128">Settle a postdated check for a customer or a vendor</span></span></td>
+<td><span data-ttu-id="60ff6-129">Tasakaalustage hilise kuupäevaga tšekk, mis sisestatakse kliendi või hankija vahekontole, kui tšekk lõpuks valmis on.</span><span class="sxs-lookup"><span data-stu-id="60ff6-129">Settle a postdated check that is posted to a bridging account for a customer or a vendor when the check finally matures.</span></span> <span data-ttu-id="60ff6-130">Tšeki tasakaalustamisel pank lõpuks debiteerib või krediteerib varem kasutatud kliiringukonto.</span><span class="sxs-lookup"><span data-stu-id="60ff6-130">When the check is settled, the bank is finally debit or credit against the clearing account that was used earlier.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="5af16-131">Hankija hilisema kuupäevaga tšeki tühistamine</span><span class="sxs-lookup"><span data-stu-id="5af16-131">Cancel a postdated check for a vendor</span></span></td>
-<td><span data-ttu-id="5af16-132">Sisestatud hilisema kuupäevaga tšeki saate tühistada järgmistes olukordades. - Pank tagastab tšeki.</span><span class="sxs-lookup"><span data-stu-id="5af16-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
-<span data-ttu-id="5af16-133">- Tšekk on rakendatud valele arvele.</span><span class="sxs-lookup"><span data-stu-id="5af16-133">- The check is applied to an incorrect invoice.</span></span>
-<span data-ttu-id="5af16-134">- Tšeki põhjal tehakse sularahamakse.</span><span class="sxs-lookup"><span data-stu-id="5af16-134">- A cash payment is made against the check.</span></span>
+<td><span data-ttu-id="60ff6-131">Hankija hilisema kuupäevaga tšeki tühistamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-131">Cancel a postdated check for a vendor</span></span></td>
+<td><span data-ttu-id="60ff6-132">Sisestatud hilisema kuupäevaga tšeki saate tühistada järgmistes olukordades. - Pank tagastab tšeki.</span><span class="sxs-lookup"><span data-stu-id="60ff6-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
+<span data-ttu-id="60ff6-133">- Tšekk on rakendatud valele arvele.</span><span class="sxs-lookup"><span data-stu-id="60ff6-133">- The check is applied to an incorrect invoice.</span></span>
+<span data-ttu-id="60ff6-134">- Tšeki põhjal tehakse sularahamakse.</span><span class="sxs-lookup"><span data-stu-id="60ff6-134">- A cash payment is made against the check.</span></span>
 </td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="5af16-135">Hilisema kuupäevaga tšeki makse peatamine</span><span class="sxs-lookup"><span data-stu-id="5af16-135">Stop payment for a postdated check</span></span></td>
-<td><span data-ttu-id="5af16-136">Saate peatada hankijale väljastatud hilisema kuupäevaga dateeritud tšeki põhjustel, nagu ebapiisavad vahendid, muudatused hankijaga sõlmitud lepingu tingimustes, hankija tarnitud defektsed kaubad või kaupade tagastamine hankijale.</span><span class="sxs-lookup"><span data-stu-id="5af16-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="5af16-137">Makse saate peatada ainult tasaarvestamata tšekkide puhul.</span><span class="sxs-lookup"><span data-stu-id="5af16-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
+<td><span data-ttu-id="60ff6-135">Hilisema kuupäevaga tšeki makse peatamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-135">Stop payment for a postdated check</span></span></td>
+<td><span data-ttu-id="60ff6-136">Saate peatada hankijale väljastatud hilisema kuupäevaga dateeritud tšeki põhjustel, nagu ebapiisavad vahendid, muudatused hankijaga sõlmitud lepingu tingimustes, hankija tarnitud defektsed kaubad või kaupade tagastamine hankijale.</span><span class="sxs-lookup"><span data-stu-id="60ff6-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="60ff6-137">Makse saate peatada ainult tasaarvestamata tšekkide puhul.</span><span class="sxs-lookup"><span data-stu-id="60ff6-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<span data-ttu-id="5af16-138">Lisateavet vt järgmistest teemadest:</span><span class="sxs-lookup"><span data-stu-id="5af16-138">For more information, see the following topics:</span></span>
+<span data-ttu-id="60ff6-138">Lisateavet vt järgmistest teemadest:</span><span class="sxs-lookup"><span data-stu-id="60ff6-138">For more information, see the following topics:</span></span>
 
-[<span data-ttu-id="5af16-139">Hilisema kuupäevaga tšekkide seadistamine</span><span class="sxs-lookup"><span data-stu-id="5af16-139">Set up postdated checks</span></span>](tasks/set-up-postdated-checks.md)
+[<span data-ttu-id="60ff6-139">Hilisema kuupäevaga tšekkide seadistamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-139">Set up postdated checks</span></span>](tasks/set-up-postdated-checks.md)
 
-[<span data-ttu-id="5af16-140">Kliendi hilisema kuupäevaga tšeki registreerimine ja sisestamine</span><span class="sxs-lookup"><span data-stu-id="5af16-140">Register and post a postdated check for a customer</span></span>](tasks/register-post-postdated-check-customer.md)
+[<span data-ttu-id="60ff6-140">Kliendi hilisema kuupäevaga tšeki registreerimine ja sisestamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-140">Register and post a postdated check for a customer</span></span>](tasks/register-post-postdated-check-customer.md)
 
-[<span data-ttu-id="5af16-141">Kliendi hilisema kuupäevaga tšeki tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="5af16-141">Settle a postdated check from a customer</span></span>](tasks/settle-postdated-check-customer.md)
+[<span data-ttu-id="60ff6-141">Kliendi hilisema kuupäevaga tšeki tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-141">Settle a postdated check from a customer</span></span>](tasks/settle-postdated-check-customer.md)
 
-[<span data-ttu-id="5af16-142">Hankija hilisema kuupäevaga tšeki registreerimine ja sisestamine</span><span class="sxs-lookup"><span data-stu-id="5af16-142">Register and post a postdated check for a vendor</span></span>](tasks/register-post-postdated-check-vendor.md) 
+[<span data-ttu-id="60ff6-142">Hankija hilisema kuupäevaga tšeki registreerimine ja sisestamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-142">Register and post a postdated check for a vendor</span></span>](tasks/register-post-postdated-check-vendor.md) 
 
-[<span data-ttu-id="5af16-143">Hankija hilisema kuupäevaga tšeki tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="5af16-143">Settle a postdated check for a vendor</span></span>](tasks/settle-postdated-check-vendor.md)
+[<span data-ttu-id="60ff6-143">Hankija hilisema kuupäevaga tšeki tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="60ff6-143">Settle a postdated check for a vendor</span></span>](tasks/settle-postdated-check-vendor.md)
 
 
 
