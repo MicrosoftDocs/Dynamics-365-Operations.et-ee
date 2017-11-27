@@ -18,89 +18,89 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cd36663eddbd54a11b7f7c127631d249fb63227b
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 449643cc34e67388210e0b4e9d04d615d2420610
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Tere tulemast rakendusse Microsoft Dynamics 365 for Talent
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="a6c25-104">Tere tulemast rakendusse Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="a6c25-104">Welcome to Microsoft Dynamics 365 for Talent</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib mitmeid teie organisatsiooni personalitegevuste protsesse. Need protsessid on töötajate hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks.
+<span data-ttu-id="a6c25-105">Microsoft Dynamics 365 for Talent hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib mitmeid teie organisatsiooni personalitegevuste protsesse.</span><span class="sxs-lookup"><span data-stu-id="a6c25-105">Microsoft Dynamics 365 for Talent streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="a6c25-106">Need protsessid on töötajate hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine.</span><span class="sxs-lookup"><span data-stu-id="a6c25-106">These processes include employee retention, benefits administration, training, performance reviews, and change management.</span></span> <span data-ttu-id="a6c25-107">Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks.</span><span class="sxs-lookup"><span data-stu-id="a6c25-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span>
 
-Saate rakendust Talent kasutada, et teha järgmist.
+<span data-ttu-id="a6c25-108">Saate rakendust Talent kasutada, et teha järgmist.</span><span class="sxs-lookup"><span data-stu-id="a6c25-108">You can use Talent to complete these tasks:</span></span>
 
-+ Hallata organisatsiooni struktuure.
-+ Säilitada põhjalikku teavet töötajate kohta alates töölevõtmisest kuni pensionini.
-+ Määratleda ja hallata soodustusplaane, registreerida töötajaid, määrata sõltuvaid katvusi ja tulusaajaid.
-+ Luua ja jälgida puudumispoliitikaid.
-+ Rakendada ja jälgida profiilipõhist aja juhtimist ning luua palgaandmeid palgasüsteemi eksportimiseks.
-+ Hallata töötaja pädevusi.
-+ Vaadata üle tulemusi ja seada töötajale eesmärke.
-+ Seadistada, pakkuda ja analüüsida koolituskursusi, mis sisaldavad päevakavasid, seansse ja jälgimisi.
++ <span data-ttu-id="a6c25-109">Hallata organisatsiooni struktuure.</span><span class="sxs-lookup"><span data-stu-id="a6c25-109">Administer organizational structures.</span></span>
++ <span data-ttu-id="a6c25-110">Säilitada põhjalikku teavet töötajate kohta alates töölevõtmisest kuni pensionini.</span><span class="sxs-lookup"><span data-stu-id="a6c25-110">Maintain comprehensive worker information from hire to retire.</span></span>
++ <span data-ttu-id="a6c25-111">Määratleda ja hallata soodustusplaane, registreerida töötajaid, määrata sõltuvaid katvusi ja tulusaajaid.</span><span class="sxs-lookup"><span data-stu-id="a6c25-111">Define and administer benefit plans, enroll workers, assign dependent coverage, and designate beneficiaries.</span></span>
++ <span data-ttu-id="a6c25-112">Luua ja jälgida puudumispoliitikaid.</span><span class="sxs-lookup"><span data-stu-id="a6c25-112">Establish and monitor absence policies.</span></span>
++ <span data-ttu-id="a6c25-113">Rakendada ja jälgida profiilipõhist aja juhtimist ning luua palgaandmeid palgasüsteemi eksportimiseks.</span><span class="sxs-lookup"><span data-stu-id="a6c25-113">Implement and track profile-based time management and generate pay information to export to a payroll system.</span></span>
++ <span data-ttu-id="a6c25-114">Hallata töötaja pädevusi.</span><span class="sxs-lookup"><span data-stu-id="a6c25-114">Manage worker competencies.</span></span>
++ <span data-ttu-id="a6c25-115">Vaadata üle tulemusi ja seada töötajale eesmärke.</span><span class="sxs-lookup"><span data-stu-id="a6c25-115">Review performance and implement worker goals.</span></span>
++ <span data-ttu-id="a6c25-116">Seadistada, pakkuda ja analüüsida koolituskursusi, mis sisaldavad päevakavasid, seansse ja jälgimisi.</span><span class="sxs-lookup"><span data-stu-id="a6c25-116">Set up, deliver, and analyze training courses that include agendas, sessions, and tracks.</span></span>
 
 > [!NOTE] 
-> Dynamics 365 for Talent on tihedalt seotud rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition inimressurssidega. Mõlemas tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud inimressurssidega, toote nimeks Dynamics 365 for Finance and Operations, Enterprise Edition; ja teemades, mis on peamiselt seotud Talentiga, on toote nimeks Dynamics 365 for Talent. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
+> <span data-ttu-id="a6c25-117">Dynamics 365 for Talent on tihedalt seotud rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition inimressurssidega.</span><span class="sxs-lookup"><span data-stu-id="a6c25-117">Dynamics 365 for Talent is closely related to Human resources in Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="a6c25-118">Mõlemas tootes võivad esineda samad funktsioonid.</span><span class="sxs-lookup"><span data-stu-id="a6c25-118">The same functionality may appear in both products.</span></span> <span data-ttu-id="a6c25-119">Seetõttu on teemades, mis on peamiselt seotud inimressurssidega, toote nimeks Dynamics 365 for Finance and Operations, Enterprise Edition; ja teemades, mis on peamiselt seotud Talentiga, on toote nimeks Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="a6c25-119">As a result, in topics that are primarily related Human resources, the product name will be Dynamics 365 for Finance and Operations, Enterprise Edition; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent.</span></span> <span data-ttu-id="a6c25-120">Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.</span><span class="sxs-lookup"><span data-stu-id="a6c25-120">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-<a name="develop-a-strategy-for-managing-your-human-resources"></a>Arendada strateegiat inimressursside haldamiseks.
+<a name="develop-a-strategy-for-managing-your-human-resources"></a><span data-ttu-id="a6c25-121">Arendada strateegiat inimressursside haldamiseks.</span><span class="sxs-lookup"><span data-stu-id="a6c25-121">Develop a strategy for managing your human resources</span></span>
 ---------------------------------------------------------
 
-Rakendusega Talent töötamisel saate otsustada, kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad. Need kuuluvad põhielementide hulka, mida saate konfigureerida. Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.
+<span data-ttu-id="a6c25-122">Rakendusega Talent töötamisel saate otsustada, kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad.</span><span class="sxs-lookup"><span data-stu-id="a6c25-122">As you work with Talent, you'll decide how to structure your organization, using elements, such as departments, jobs, and positions.</span></span> <span data-ttu-id="a6c25-123">Need kuuluvad põhielementide hulka, mida saate konfigureerida.</span><span class="sxs-lookup"><span data-stu-id="a6c25-123">These are among the foundational elements that you'll configure.</span></span> <span data-ttu-id="a6c25-124">Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.</span><span class="sxs-lookup"><span data-stu-id="a6c25-124">Individual employees are assigned to positions which are associated with jobs.</span></span>
 
--   [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](departments-jobs-positions.md)
--   [Ettevõttekohaste inimressursside parameetrite seadistamine](set-up-company-specific-hr-parameters.md)
--   [Juriidilistele isikutele inimressursside parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md) 
--   [Personalitegevuste KKK](personnel-actions-faq.md)
--   [Puhkuste ja puudumiste ülevaade](leave-absence-overview.md)
+-   [<span data-ttu-id="a6c25-125">Tööjõu korraldamine osakondade, tööde ja ametikohtade abil</span><span class="sxs-lookup"><span data-stu-id="a6c25-125">Organize your workforce using departments, jobs, and positions</span></span>](departments-jobs-positions.md)
+-   [<span data-ttu-id="a6c25-126">Ettevõttekohaste inimressursside parameetrite seadistamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-126">Set up company-specific HR parameters</span></span>](set-up-company-specific-hr-parameters.md)
+-   [<span data-ttu-id="a6c25-127">Juriidilistele isikutele inimressursside parameetrite seadistamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-127">Set up HR parameters across legal entities</span></span>](set-up-hr-parameters-across-legal-entities.md) 
+-   [<span data-ttu-id="a6c25-128">Personalitegevuste KKK</span><span class="sxs-lookup"><span data-stu-id="a6c25-128">Personnel actions FAQ</span></span>](personnel-actions-faq.md)
+-   [<span data-ttu-id="a6c25-129">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="a6c25-129">Leave and absence overview</span></span>](leave-absence-overview.md)
 
-## <a name="staffing-your-organization"></a>Organisatsiooni personal
+## <a name="staffing-your-organization"></a><span data-ttu-id="a6c25-130">Organisatsiooni personal</span><span class="sxs-lookup"><span data-stu-id="a6c25-130">Staffing your organization</span></span>
 
-Dynamics 365 for Talent hõlmab rakendust Attract, mis aitab teil tuvastada, intervjueerida ja tööle võtta kandidaate, kelle oskusi teie organisatsioon vajab. Pärast värbamise kaudu palkamist saate rakenduse Onboard abil uue töötaja oma organisatsiooni tuua. Rakendus võimaldab määrata täpsed ootused ja jagada teavet, mida töötajal alustamiseks vaja on, ühendada ta kolleegidega ja luua talle tingimused uues rollis edu saavutamiseks.  
+<span data-ttu-id="a6c25-131">Dynamics 365 for Talent hõlmab rakendust Attract, mis aitab teil tuvastada, intervjueerida ja tööle võtta kandidaate, kelle oskusi teie organisatsioon vajab.</span><span class="sxs-lookup"><span data-stu-id="a6c25-131">Dynamics 365 for Talent includes the Attract app, which can help you identify, interview, and hire candidates that hold the skills your organization needs.</span></span> <span data-ttu-id="a6c25-132">Pärast värbamise kaudu palkamist saate rakenduse Onboard abil uue töötaja oma organisatsiooni tuua. Rakendus võimaldab määrata täpsed ootused ja jagada teavet, mida töötajal alustamiseks vaja on, ühendada ta kolleegidega ja luua talle tingimused uues rollis edu saavutamiseks.</span><span class="sxs-lookup"><span data-stu-id="a6c25-132">As you move from recruiting through hiring, the Onboard app can help you bring your new employee into your organization by setting accurate expectations, providing information they need to get started, connecting them with colleagues, and set them up for success in their new role.</span></span>  
 
-- [Attracti ülevaade](attract-overview.md)
-- [Onboardi ülevaade](create-onboarding-experience.md)
+- [<span data-ttu-id="a6c25-133">Attracti ülevaade</span><span class="sxs-lookup"><span data-stu-id="a6c25-133">Attract overview</span></span>](attract-overview.md)
+- [<span data-ttu-id="a6c25-134">Onboardi ülevaade</span><span class="sxs-lookup"><span data-stu-id="a6c25-134">Onboard overview</span></span>](create-onboarding-experience.md)
 
-## <a name="retain-and-motivate-employees"></a>Töötajate hoidmine ja motiveerimine
+## <a name="retain-and-motivate-employees"></a><span data-ttu-id="a6c25-135">Töötajate hoidmine ja motiveerimine</span><span class="sxs-lookup"><span data-stu-id="a6c25-135">Retain and motivate employees</span></span>
 
-Saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks, et hallata üksusi nagu arvutid või telefonid, mida teie organisatsioon oma töötajatele laenab. Saate luua põhipalga ja ergutussüsteemi plaane ning määratleda reegleid, mis kehtivad tasuplaanile selle plaani kriteeriumide täitmiseks.
+<span data-ttu-id="a6c25-136">Saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks, et hallata üksusi nagu arvutid või telefonid, mida teie organisatsioon oma töötajatele laenab.</span><span class="sxs-lookup"><span data-stu-id="a6c25-136">You can set up plans to effectively and equitably manage compensation, as well as manage items, such as computers or phones, that your organization lends to its employees.</span></span> <span data-ttu-id="a6c25-137">Saate luua põhipalga ja ergutussüsteemi plaane ning määratleda reegleid, mis kehtivad tasuplaanile selle plaani kriteeriumide täitmiseks.</span><span class="sxs-lookup"><span data-stu-id="a6c25-137">You can create fixed and variable compensation plans, as well as define rules that apply the compensation plan to meet the criteria for that plan.</span></span>
 
--   [Hüvitusplaanid](compensation-plans.md)
--   [Hüvitusprotsess](process-compensation.md)
--   [Põhipalga plaanide loomine](create-fixed-compensation-plans.md)
--   [Ergutussüsteemi plaanide loomine](create-variable-compensation-plans.md)
+-   [<span data-ttu-id="a6c25-138">Hüvitusplaanid</span><span class="sxs-lookup"><span data-stu-id="a6c25-138">Compensation plans</span></span>](compensation-plans.md)
+-   [<span data-ttu-id="a6c25-139">Hüvitusprotsess</span><span class="sxs-lookup"><span data-stu-id="a6c25-139">Process compensation</span></span>](process-compensation.md)
+-   [<span data-ttu-id="a6c25-140">Põhipalga plaanide loomine</span><span class="sxs-lookup"><span data-stu-id="a6c25-140">Create fixed compensation plans</span></span>](create-fixed-compensation-plans.md)
+-   [<span data-ttu-id="a6c25-141">Ergutussüsteemi plaanide loomine</span><span class="sxs-lookup"><span data-stu-id="a6c25-141">Create variable compensation plans</span></span>](create-variable-compensation-plans.md)
 
-## <a name="develop-and-train-employees"></a>Töötajate arendamine ja koolitamine
+## <a name="develop-and-train-employees"></a><span data-ttu-id="a6c25-142">Töötajate arendamine ja koolitamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-142">Develop and train employees</span></span>
 
-Selleks et aidata oma töötajatel jõuda nende karjäärieesmärkideni, täites samas oma tähtsaid äriülesandeid, saate seadistada eesmärke, luua jõudluse ülevaatusi ning jälgida tagasisidet. Selleks et aidata töötajatel arendada vajalikke oskusi, saate enne kursusele juhendaja määramist või kellegi registreerimist kursusele seadistada ka juhendajaid, kursusetüüpe, kursuseid, kursusekirjeldusi, päevakordi, teid ja seansse. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
+<span data-ttu-id="a6c25-143">Selleks et aidata oma töötajatel jõuda nende karjäärieesmärkideni, täites samas oma tähtsaid äriülesandeid, saate seadistada eesmärke, luua jõudluse ülevaatusi ning jälgida tagasisidet. Selleks et aidata töötajatel arendada vajalikke oskusi, saate enne kursusele juhendaja määramist või kellegi registreerimist kursusele seadistada ka juhendajaid, kursusetüüpe, kursuseid, kursusekirjeldusi, päevakordi, teid ja seansse.</span><span class="sxs-lookup"><span data-stu-id="a6c25-143">To help your employees reach their career objectives while delivering critical business needs you can set up goals, create performance reviews and track feedback To help employees develop needed skills, you can also set up instructors, course types, courses, course descriptions, agendas, tracks, and sessions before you assign an instructor to a course, or register someone for a course.</span></span> <span data-ttu-id="a6c25-144">Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.</span><span class="sxs-lookup"><span data-stu-id="a6c25-144">Instructors must already exist as workers, applicants, or contacts.</span></span>
 
--   [Jõudlushaldus](performance-management-overview.md)
--   [Töötajate oskuste ja ärivajaduste joondamine](skills.md)
--   [Koolituste läbiviimine kursuste kaudu](courses.md)
+-   [<span data-ttu-id="a6c25-145">Jõudlushaldus</span><span class="sxs-lookup"><span data-stu-id="a6c25-145">Performance management</span></span>](performance-management-overview.md)
+-   [<span data-ttu-id="a6c25-146">Töötajate oskuste ja ärivajaduste joondamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-146">Align workforce skills and business needs</span></span>](skills.md)
+-   [<span data-ttu-id="a6c25-147">Koolituste läbiviimine kursuste kaudu</span><span class="sxs-lookup"><span data-stu-id="a6c25-147">Administer training through courses</span></span>](courses.md)
 
-## <a name="create-and-maintain-benefits"></a>Soodustuste loomine ja haldamine
+## <a name="create-and-maintain-benefits"></a><span data-ttu-id="a6c25-148">Soodustuste loomine ja haldamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-148">Create and maintain benefits</span></span>
 
-Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodustuste programme, nt tervisekindlustuse ja pensioni plaane. Samuti saate hallata soodustusi, nt laenuprogrammid, mille puhul ettevõte laenab oma töötajatele artikleid, nt arvutid või telefonid.
+<span data-ttu-id="a6c25-149">Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodustuste programme, nt tervisekindlustuse ja pensioni plaane.</span><span class="sxs-lookup"><span data-stu-id="a6c25-149">In addition to compensating your staff with wages, salaries, and bonuses, you can develop benefit programs such as health insurance and retirement plans.</span></span> <span data-ttu-id="a6c25-150">Samuti saate hallata soodustusi, nt laenuprogrammid, mille puhul ettevõte laenab oma töötajatele artikleid, nt arvutid või telefonid.</span><span class="sxs-lookup"><span data-stu-id="a6c25-150">You can also manage benefits such as loan programs, in which your company lends items, such as computers or phones, to its employees.</span></span>
 
--   [Soodustusprogrammi haldamine](manage-benefit-program.md)
--   [Soodustuse saamise õiguse eeskirjad](benefit-eligibility-policies.md)
--   [Töötajatele laenatud artiklite haldamine](loan-items.md)
+-   [<span data-ttu-id="a6c25-151">Soodustusprogrammi haldamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-151">Manage a benefit program</span></span>](manage-benefit-program.md)
+-   [<span data-ttu-id="a6c25-152">Soodustuse saamise õiguse eeskirjad</span><span class="sxs-lookup"><span data-stu-id="a6c25-152">Benefit eligibility policies</span></span>](benefit-eligibility-policies.md)
+-   [<span data-ttu-id="a6c25-153">Töötajatele laenatud artiklite haldamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-153">Manage items lent to workers</span></span>](loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Töökoha ohutuse ja nõuetele vastavuse haldamine
+## <a name="maintain-workplace-safety-and-compliance"></a><span data-ttu-id="a6c25-154">Töökoha ohutuse ja nõuetele vastavuse haldamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-154">Maintain workplace safety and compliance</span></span>
 
-Rakenduse Talent abil saate hoida ohutut töökeskkonda, mis järgib kehtivaid seadusi, sh puuetega ameeriklaste seadust ning sisserände ja naturalisatsiooni seadused. Näiteks saate hallata konkreetsete tööde füüsilisi nõudeid ning jälgida majutustaotlusi, mis võivad aidata teie organisatsioonil oma tööjõu oskusi optimeerida.
+<span data-ttu-id="a6c25-155">Rakenduse Talent abil saate hoida ohutut töökeskkonda, mis järgib kehtivaid seadusi, sh puuetega ameeriklaste seadust ning sisserände ja naturalisatsiooni seadused.</span><span class="sxs-lookup"><span data-stu-id="a6c25-155">Talent can help you maintain a safe work environment that’s in compliance with applicable laws, including the Americans with Disabilities Act and immigration and naturalization laws, among others.</span></span> <span data-ttu-id="a6c25-156">Näiteks saate hallata konkreetsete tööde füüsilisi nõudeid ning jälgida majutustaotlusi, mis võivad aidata teie organisatsioonil oma tööjõu oskusi optimeerida.</span><span class="sxs-lookup"><span data-stu-id="a6c25-156">For example, you can manage the physical requirements for specific jobs, as well as track requests for accommodations that can help your organization optimize the skills of its workforce.</span></span>
 
--   [Vorm I-9 töökohale sobivuse kontrollimine](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
--   [Ameerika võimetusakti järgimine](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+-   [<span data-ttu-id="a6c25-157">Vorm I-9 töökohale sobivuse kontrollimine</span><span class="sxs-lookup"><span data-stu-id="a6c25-157">Form I-9 employment verification</span></span>](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [<span data-ttu-id="a6c25-158">Ameerika võimetusakti järgimine</span><span class="sxs-lookup"><span data-stu-id="a6c25-158">Comply with the Americans with Disabilities Act</span></span>](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
 
-## <a name="gather-information-using-questionnaires"></a>Teabe kogumine küsimustike abil
+## <a name="gather-information-using-questionnaires"></a><span data-ttu-id="a6c25-159">Teabe kogumine küsimustike abil</span><span class="sxs-lookup"><span data-stu-id="a6c25-159">Gather information using questionnaires</span></span>
 
-Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmärkidel. Küsimustiku funktsiooni abil saate koostada ja luua küsimustikke. Kui küsimustik on valmis, võite edastada selle täitmiseks laiemalt või konkreetsele vastajate kogumile. Pärast seda, kui vastajad on oma vastused andnud, saate vaadata ja analüüsida tulemusi.
+<span data-ttu-id="a6c25-160">Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmärkidel.</span><span class="sxs-lookup"><span data-stu-id="a6c25-160">You can design and administer questionnaires to gather information that’s used for a variety of purposes.</span></span> <span data-ttu-id="a6c25-161">Küsimustiku funktsiooni abil saate koostada ja luua küsimustikke.</span><span class="sxs-lookup"><span data-stu-id="a6c25-161">The Questionnaire feature lets you design and create questionnaires.</span></span> <span data-ttu-id="a6c25-162">Kui küsimustik on valmis, võite edastada selle täitmiseks laiemalt või konkreetsele vastajate kogumile.</span><span class="sxs-lookup"><span data-stu-id="a6c25-162">When a questionnaire is ready, you distribute it broadly or to a specific set of respondents to complete.</span></span> <span data-ttu-id="a6c25-163">Pärast seda, kui vastajad on oma vastused andnud, saate vaadata ja analüüsida tulemusi.</span><span class="sxs-lookup"><span data-stu-id="a6c25-163">After the respondents provide their answers, you can review and analyze the results.</span></span>
 
--   [Küsimustikud](questionnaires.md)
--   [Küsimustiku kujundamine](design-questionnaires.md)
--   [Küsimustiku laialisaatmine ja täitmine](distribute-questionnaires.md)
--   [Küsimustiku tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
+-   [<span data-ttu-id="a6c25-164">Küsimustikud</span><span class="sxs-lookup"><span data-stu-id="a6c25-164">Questionnaires</span></span>](questionnaires.md)
+-   [<span data-ttu-id="a6c25-165">Küsimustiku kujundamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-165">Design a questionnaire</span></span>](design-questionnaires.md)
+-   [<span data-ttu-id="a6c25-166">Küsimustiku laialisaatmine ja täitmine</span><span class="sxs-lookup"><span data-stu-id="a6c25-166">Distribute and complete a questionnaire</span></span>](distribute-questionnaires.md)
+-   [<span data-ttu-id="a6c25-167">Küsimustiku tulemuste vaatamine ja hindamine</span><span class="sxs-lookup"><span data-stu-id="a6c25-167">View and evaluate the results of a questionnaire</span></span>](evaluate-questionnaire-results.md)
 

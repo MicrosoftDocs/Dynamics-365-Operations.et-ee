@@ -1,7 +1,12 @@
 # [Tere tulemast rakendusse Dynamics 365 for Retail](index.md)
 
 # Alustamine
-## [Mis on uut või mida on muudetud](get-started/whats-new.md)
+## [Mis on uut või mida on muudetud?](get-started/whats-new.md)
+## [Enne rakenduse Dynamics 365 for Retail ostmist](get-started/before-you-buy.md)
+## [Eelvaatetellimuse saajaks registreerumine](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [Demokeskkonna juurutamine](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Juurutamissuvandid](dev-itpro/choose-deployment.md)
+
 
 # Maksed
 ## [Makseviisid](payment-methods.md)
@@ -38,7 +43,9 @@
 ## [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
 ## [Jaemüügi aeg ja kohalviibimine](retail-time-attendance.md)
 
-# Moodne kassa (MPOS) ja pilve kassa
+# Modern Point of Sale (MPOS) ja Cloud POS
+## [Kassatoimingud](POS-operations.md)
+## [Demoandmete ekraanipaigutused MPOS-is/CPOS-is](demo-data.md)
 ## Riistvara välisseadmed
 ### [Jaemüügi välisseadmete ülevaade](retail-peripherals-overview.md)
 ### [Microsofti testitud kassa riistvara välisseadmed](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +67,7 @@
 ### [Hübriidkliendi tellimused](hybrid-customer-orders.md)
 ## Müügi koostööpartnerid
 ### [Komisjonitasude jälgimine kassas müügigruppide abil](pos-sales-groups-track-commissions.md)
+## [Tellimuse saatmine teisest kauplusest](charge-send.md)
 ## Seadme aktiveerimine
 ### [MPOS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
 ### [Pilve kassasse ja MPOS‑i laiendatud sisselogimise seadistamine](extended-logon.md)
@@ -168,11 +176,11 @@
 ### [Jaemüügikanali side](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS-i ülesehitus](dev-itpro/retail-modern-pos-architecture.md)
 ### [Jaemüügi võrgupoe avaldamise ülesehitus](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Jaemüügikanali näitajate Power BI sisu](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Sisupaketi Retail Channel Performance Power BI content](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## Juurutamine ja kiirparandused
-### [Jaemüügi kaupluse skaala üksuse konfigureerimine ja installimine](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [Jaekaupluse süsteem enne alustamist](dev-itpro/retail-store-system-begin.md)
+### [Retail Store Scale Uniti ülevaade](dev-itpro/retail-store-system-begin.md)
+#### [Retail Store Scale Uniti konfigureerimine ja installimine](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
 #### [Jaemüügikontode ja -seadmete haldamine peakontorist](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS-i seadme aktiveerimine](dev-itpro/retail-device-activation.md)
@@ -187,6 +195,7 @@
 ### [N-1 komponentide installimine](dev-itpro/n-1-installation-configuration.md)
 
 ## Keskkonna konfiguratsioon
+### [Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Bingi kaartide haldamine](dev-itpro/manage-bing-maps.md)
 
 ## Laiendatavus
@@ -197,7 +206,8 @@
 #### [MPOS-i ja pilve kassa käivitaja laiendatavus](dev-itpro/modern-pos-trigger-extensibility.md)
 #### [Kohandatud juhtelemendi lisamine kassakuvale](dev-itpro/pos-custom-control.md)
 #### [Kassa makse selgitus](dev-itpro/pos-payment-extension.md)
-### [Jaemüügikogemuse rakenduse loomine](dev-itpro/create-retail-experience-app.md)
+#### [Väline kinkekaardi tugi](dev-itpro/gift-card.md)
+### [Rakenduse Retail Experience loomine](dev-itpro/create-retail-experience-app.md)
 ### [Riistvarajaama ülevaade ja laiendatavus](dev-itpro/hardware-station-extensibility.md)
 
 ### Jaemüügiserver
@@ -230,10 +240,16 @@
 ### [Retail SDK laiendatavuse näited](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Rootsi kassaaparaadid](localizations/emea-swe-cash-registers.md)
 ### [Retail POS-i juhtseadmetega integreerimise näide Rootsile](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+### [Norra kassaaparaadid](localizations/emea-nor-cash-registers.md)
+### [Norra kassaaparaatide juurutamise juhised](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Retail SDK pakend](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK näited ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Kanali andmebaasi (DB) laiendid](dev-itpro/channel-db-extensions.md)
 ### [CDX-i laiendatavus](dev-itpro/cdx-extensibility.md)
+### [Tellimuse atribuudid](dev-itpro/order-attributes.md)
+### [Kliendi atribuudid](dev-itpro/customer-attributes.md)
+### [Retail Typescript ja C# proxy](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## Kaubanduse käitusaeg
 ### [Püsikliendi laiend](dev-itpro/retail-sdk/loyalty-extension-sample.md)
