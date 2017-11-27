@@ -1,9 +1,9 @@
 ---
 title: Koosluse koostaja funktsioon
-description: "Selles artiklis kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks. Klõpsake nuppu Seadistus erinevate konfiguratsioonide valimiseks ja määramaks, milline teave puu ridadel ilmub."
+description: "Selles teemas kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks. Klõpsake nuppu Seadistus erinevate konfiguratsioonide valimiseks ja määramaks, milline teave puu ridadel ilmub.
+Selles teemas kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks. Klõpsake nuppu Seadistus erinevate konfiguratsioonide valimiseks ja määramaks, milline teave puu ridadel ilmub.
 
 Kui avate lehe **Koosluse koostaja** lehe **Väljastatud tooted** kaudu, kuvatakse valitud kauba jaoks aktiivsed ja kinnitatud koosluste hierarhia, kauba vaiketellimisleht ning tegelik kuupäev.  
 
@@ -66,7 +66,7 @@ Kooslusele ja protsessile rakendatud filter kuvatakse koosluse koostaja päises.
 <tbody>
 <tr class="odd">
 <td>Tootedimensioonid</td>
-<td>Kui valitud valmistoodang on tooteetalon, saate määratleda põhivalikule aktiivsed tootedimensioonid.<strong>Märkus.</strong> Kui avate koosluse koostaja toote puhul, mis ei ole tooteetalon, ei saa dialoogikastis <strong>Filtreeri</strong> tootedimensiooni valida.</td>
+<td>Kui valitud valmistoode on tooteetalon, saate määratleda peamise valiku aktiivsed tootedimensioonid. <strong>Märkus.</strong> Kui avate koosluse koostaja toote puhul, mis ei ole tooteetalon, ei saa dialoogiboksis <strong>Filter</strong> ühtegi tootedimensiooni valida.</td>
 </tr>
 <tr class="even">
 <td>Laoala</td>

@@ -3,7 +3,7 @@ title: Pakkematerjalid ja tasud
 description: "Pakkematerjalitasud makstakse jäätmekäitlusfirmale kindlate perioodide kaupa. Iga materjali eest, millest pakkimisühik koosneb, tuleb maksta summa kaaluühiku kohta. Pakkematerjalitasud arvutatakse ja esitatakse, kuid ühtegi pearaamatukannet ei sisestata, sest need tasud ei ole riigile makstavad maksud."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ Müügitellimuse rea loomisel kontrollib süsteem, kas kaubale on määratud pak
 ## <a name="packing-units-on-purchase-order-lines"></a>Pakkimisühikud ostutellimuse ridadel
 Süsteem ei loo ostutellimuse rea pakkematerjali kandeid. Arveldatud ostutellimuse ridade kanded luuakse käsitsi lehel **Pakkematerjali kanded**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Kliendi pakkematerjali tasude litsentsinumbri seadistamine
+## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>Kliendi pakkematerjali tasude litsentsinumbri seadistamine
 Kui kliendid maksavad pakkematerjali tasud, määrake klientide pakkematerjali tasu litsentsinumber lehel **Kliendid**. Kui kliendile on määratud litsentsinumber, arvutatakse pakkematerjali tasud müügitellimuste arveldamisel automaatselt. Pärast arve esitamist tühjendatakse märkeruut **Arvuta tasu** lehel **Pakkematerjali kanded**, kuna teil pole vaja aruannet arvutada ja printida. Saate valida pakkematerjali kaalu printimise arvele ja teavitada kliente, et nemad maksavad tasud. 
 
 Kui teie ettevõte maksab pakkematerjali tasusid, siis ärge kliendi litsentsinumbreid määrake. Pärast arveldamist märgitakse ruut **Arvuta tasu** lehel **Pakkematerjali kanded**. See näitab, et tasud arvutatakse aruande loomisel. Saate printida arvele kaalud ja näidata, et teie ettevõte maksab tasud.

@@ -3,7 +3,7 @@ title: Operationsi ressursid
 description: "Operatsiooniressurssid sooritavad projekti või tootmisprotsessi tegevusi. Need võivad olla erinevat tüüpi ja erinevate võimalustega."
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Operatsiooniressurssid määratakse tegevustele projekti või tootmise planeerim
 
 -   **Võimsus** – saate määrata operatsiooniressursi võimsuse tunnis võimsuse mõõtühikutes.
 -   **Partii võimsus** – saate määrata tükkide maksimaalse arvu, mida operatsiooniressurss suudab ühes käituses töödelda.
--   **Efektiivsusprotsent** – saate määrata operatsiooniressurssi oodatava efektiivsuse. Efektiivsusprotsent reguleerib operatsiooniressursside läbilaskevõimet ja mõjutab ressursile reserveeritud aega. Selle järgi reguleeritakse ka operatsiooniressurssi kasutavate operatsioonide täitmisaegu. Arvutamiseks kasutatakse järgmist valemit: planeerimisaeg = aeg × 100 ÷ efektiivsusprotsent. Selles valemis hõlmab *aeg* nii käitamisaega kui ka häälestusaega.
+-   **Efektiivsusprotsent** – saate määrata operatsiooniressurssi oodatava efektiivsuse. Efektiivsusprotsent reguleerib operatsiooniressursside läbilaskevõimet ja mõjutab ressursile reserveeritud aega. Selle järgi reguleeritakse ka operatsiooniressurssi kasutavate operatsioonide täitmisaegu. Siin on arvutamiseks kasutatav valem: planeerimisaeg = aeg × 100 ÷ efektiivsuse protsent. *Aeg* hõlmab nii käitus- kui ka seadistusaega.
 -   **Operatsioonide planeerimise protsent**– saate määrata operatsioonide planeerimisel kasutatava operatsiooniressursi suurima võimsuse protsendi. Tööde planeerimisel paindliku võimsuse lubamiseks peaks selle väärtus olema väiksem kui 100 protsenti.
 -   **Piiratud võimsus** – seadke see suvandile **Jah**, kui operatsiooniressurss tuleks planeerida tegeliku saadavaloleva võimsuse alusel ja kui arvesse tuleks võtta olemasolevaid võimsuse reserveeringuid. Kui valitud on suvand **Ei**, siis eeldatakse, et operatsiooniressursil on piiramatu võimsus, mistõttu ressurss võib olla üle broneeritud.
 -   **Piiratud omadus** – seadke see suvandile **Jah**, kui soovite operatsiooniressursi planeerida nõutava tööaja planeerimise omaduste suhtes saadaoleva tegeliku võimsuse alusel.

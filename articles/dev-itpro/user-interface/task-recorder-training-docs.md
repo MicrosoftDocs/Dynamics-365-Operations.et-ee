@@ -3,7 +3,7 @@ title: "Dokumentide või koolituse loomine tegevuse salvestiste abil"
 description: See teema selgitab, mis asjad on tegevuse salvestaja ja tegevuse juhised, kuidas luua tegevuse salvestisi ja kuidas kohandada Microsoft tegevuse juhiseid ja kaasata neid oma spikrisse.
 author: josaw1
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -85,7 +85,7 @@ Selline näeb välja märkuste marginaal tegevusjuhises mullina.
 
 [![kuva4](./media/screen4.png)](./media/screen4.png)
 
--   **Teabeetapp**: nende marginaalide loomiseks paremklõpsake juhtelemendil või kõikjal vormis &lt; **Tegevuse salvestaja** &lt; **Lisa teabeetapp. **Teabeetapid kuvatakse nummerdatud etapina igas punktis, kuhu selle sisestate, isegi kui kasutajaliideses ei salvestatud ühtki tegevust. Saate lisada vormi-taseme teabeetapi või juhtelemendiga seotud teabeetapi. Kui teabeetapp on vormiga seotud, ilmub vormile tegevuse juhise esitamisel tegevuse juhise „mull” ilma kursorita. Kui teabeetapp on seotud juhtelemendiga, osutab tegevuse juhise „mull” tegevuse juhise esitamisel juhtelemendina. Spikripaanis kuvatakse teabeetapi mis tahes sisestatud tekstiga marginaal nummerdatud etapina. Kasutage teabeetappe kasutaja ettevalmistamiseks järgmisteks toiminguteks, väljaspool Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni tehtavate toimingute kirjeldamiseks või teistele salvestistele viitamiseks (kuigi marginaalides ei saa hüperlinke luua).
+-   **Teabeetapp**: nende marginaalide loomiseks paremklõpsake juhtelemendil või kõikjal vormis &lt; **Tegevuse salvestaja** &lt; **Lisa teabeetapp. **Teabeetapid kuvatakse nummerdatud etapina igas punktis, kuhu selle sisestate, isegi kui kasutajaliideses ei salvestatud ühtki tegevust. Saate lisada vormi-taseme teabeetapi või juhtelemendiga seotud teabeetapi. Kui teabeetapp on vormiga seotud, ilmub vormile tegevuse juhise esitamisel tegevuse juhise „mull” ilma kursorita. Kui teabeetapp on seotud juhtelemendiga, osutab tegevuse juhise „mull” tegevuse juhise esitamisel juhtelemendina. Spikripaanis kuvatakse teabeetapi mis tahes sisestatud tekstiga marginaal nummerdatud etapina. Kasutage teabeetappe kasutaja ettevalmistamiseks järgmisteks toiminguteks, väljaspool Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni tehtavate toimingute kirjeldamiseks või teistele salvestistele viitamiseks (kuigi marginaalides ei saa hüperlinke luua).
 
 **Määrake, kui pika salvestise teete**
 

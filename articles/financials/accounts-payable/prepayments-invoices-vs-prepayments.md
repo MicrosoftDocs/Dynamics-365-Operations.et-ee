@@ -1,9 +1,9 @@
 ---
-title: Ettemaksuarved vs ettemaksed
-description: "See artikkel kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks."
+title: Ettemaksuarved vs. ettemaksed
+description: "See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6bf67fb17363f7b61e782ed6d8e7b6310433ffd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs ettemaksed
+# <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
+See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
 
 Organisatsioonid võivad väljastada hankijatele ettemakseid kaupade või teenuste eest enne nende täitmist. Hankijatele ettemaksete väljastamiseks on kaks võimalust. Riski vähendamiseks saate ettemakseid jälgida, määratledes ettemakse ostutellimusel. Selle meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Seda meetodit nimetatakse ettemaksuarvelduseks. Organisatsioonid, mis ei soovi ettemakseid nii täpselt jälgida või ei saa hankijalt ettemaksearvet, saavad ettemaksuarvelduse meetodi asemel kasutada ettemakse töölehekandeid. Ettemakse töölehekannete loomiseks looge töölehekanded ja märkige need ettemakse töölehekanneteks. Selle meetodi puhul ei saa te jälgida, millised hankija ettemaksed milliste ostutellimustega on seotud. Siiski saate märkida sisestatud makse tasakaalustamiseks ostutellimuse suhtes.
 

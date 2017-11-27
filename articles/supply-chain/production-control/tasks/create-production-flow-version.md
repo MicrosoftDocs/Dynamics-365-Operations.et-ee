@@ -3,7 +3,7 @@ title: Tootmisvoo versiooni loomine
 description: See protseduur keskendub uue tootmisvoo versiooni loomisele.
 author: cvocph
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 58b3c9cd265b97a814541315e4ba8378010eb2b2
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-production-flow-version"></a>Tootmisvoo versiooni loomine
@@ -40,7 +40,7 @@ See protseduur keskendub uue tootmisvoo versiooni loomisele. Selle protseduuri p
     * Valige väärtuse voo tüüpi tootmisüksus. Väärtuse voog on tootmisüksus, mis hõlmab kõiki väärtuse voo tegevusi ja voogusid. Selles etapis on tootmisüksused piiratud juriidilise isikuga ja muid funktsioone neil pole.  
 7. Klõpsake väljal Tootmisgrupp otsingu avamiseks ripploendi nuppu.
 8. Klõpsake loendis valitud real olevat linki.
-    * Valige tootmisvoole tootmisgrupp. Tootmisgrupid võimaldavad tootmisprotsessi jaoks materjali, tööjõu ja lõpetamata toodangu kontode määratlemise. Raamatupidamise konteksti seostamiseks tootmisvooga tuleb valida tootmisgrupp.  
+    * Valige tootmisvoole tootmisgrupp. Tootmisgrupid võimaldavad tootmisprotsessi jaoks materjali, tööjõu ja lõpetamata toodangu kontode määratlemist. Raamatupidamise konteksti seostamiseks tootmisvooga tuleb valida tootmisgrupp.  
 9. Klõpsake nuppu Salvesta.
 
 ## <a name="create-a-production-flow-version"></a>Tootmisvoo versiooni loomine

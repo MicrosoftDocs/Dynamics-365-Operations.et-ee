@@ -1,9 +1,9 @@
 ---
 title: "Kaalutud keskmine füüsilise väärtuse ja märgistusega"
-description: 
+description: "Kaalutud keskmine on laomudel, mis põhineb kaalutud keskmise põhimõttel, kus lao väljaminekuid hinnatakse kauba keskmise väärtuse järgi, mis võetakse lattu vastu lao sulgemise perioodil, samuti iga vaba kaubavaru järgi eelmisest perioodist."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+Kaalutud keskmine on laomudel, mis põhineb kaalutud keskmise põhimõttel, kus lao väljaminekuid hinnatakse kauba keskmise väärtuse järgi, mis võetakse lattu vastu lao sulgemise perioodil, samuti iga vaba kaubavaru järgi eelmisest perioodist.
 
 Kui käitate laoseisu sulgemist, tasakaalustatakse kõik sissetulekud virtuaalse väljaminekuga, mis hoiab kogu vastuvõetud kogust ja väärtust. Sel virtuaalsel väljaminekul on vastav virtuaalne sissetulek, millest väljaminekud tasakaalustatakse. Sel viisil on kõigil väljaminekutel sama keskmine kulu. Virtuaalset väljaminekut ja sissetulekut võib vaadata kui virtuaalset ülekannet nimega „kaalutud keskmise lao sulgemise ülekanne”.
 
@@ -196,7 +196,7 @@ Sissetulekukanne märgitakse väljastuskandele. Seejärel eiratakse kauba mudeli
 
 Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Saate seda teha müügitellimuse realt lehel Müügitellimuse üksikasjad. Avatud sissetulekukandeid saab vaadata lehel Märkimine. 
 
-Saate pärast kande sisestamist märkida väljaminekukande sissetulekule. Saate väljaminekukande märkida või vastendada varude korrigeerimistöölehel sisestatud laokauba avatud sissetulekukandega. 
+Saate pärast kande sisestamist märkida väljaminekukande sissetulekule. Väljaminekukande saate märkida või vastendada varude korrigeerimistöölehel sisestatud laokauba avatud sissetulekukandega. 
 
 Järgmisi kandeid illustreeritakse alloleval pildil:
 -   1a. Lao füüsiline sissetulek kogusele 1 hinnaga 10,00 USD tükk.

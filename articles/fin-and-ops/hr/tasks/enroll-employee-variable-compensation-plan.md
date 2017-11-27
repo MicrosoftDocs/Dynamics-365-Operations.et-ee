@@ -1,9 +1,9 @@
 --- 
 title: "Töötaja liitmine tulemustasu plaaniga"
-description: "Hüvituse ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanidesse töötajate rahaliste ja mitterahaliste preemiate arvutamiseks."
+description: "Lisatasu ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanidesse töötajate rahaliste ja mitterahaliste preemiate arvutamiseks."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb162e22276fc19cf11999380d551b29ba6a6d45
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: ebb92d5ce05f2891d25fb38f6200a10f02bcc948
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Töötaja liitmine tulemustasu plaaniga
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Hüvituse ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanidesse töötajate rahaliste ja mitterahaliste preemiate arvutamiseks. See protseduur eeldab, et ergutussüsteemi plaan on loodud nii, et väli Võimalda registreerimine on seatud suvandile Jah ja sobivuse reeglid on selle ergutussüsteemi plaani puhul loodud. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Selle protseduuri alustamiseks avage Personaliarvestus > Töötajad > Töötajad > Hüvitus > Muutuva plaaniga registreerimine
+Lisatasu ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanidesse töötajate rahaliste ja mitterahaliste preemiate arvutamiseks. See protseduur eeldab, et ergutussüsteemi plaan on loodud nii, et väli Võimalda registreerimine on seatud suvandile Jah ja sobivuse reeglid on selle ergutussüsteemi plaani puhul loodud. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Selle protseduuri alustamiseks avage Personaliarvestus > Töötajad > Töötajad > Hüvitus > Muutuva plaaniga registreerimine
 
 1. Klõpsake valikut Uus.
 2. Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.

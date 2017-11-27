@@ -3,7 +3,7 @@ title: "Tootmistööde järjestamine tootmisprotsessiks"
 description: "See protseduur kasutab värvitooteid näitena näitamaks, kuidas järjestada plaanitud tellimusi vastavalt värvi ja suuruse prioriteedile."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 87e35de4744a0728cd41192b4afc750b575a1324
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Tootmistööde järjestamine tootmisprotsessiks
@@ -68,6 +68,6 @@ See protseduur kasutab värvitooteid näitena näitamaks, kuidas järjestada pla
     * Tehke valik MasterPlan.  
 7. Klõpsake loendis valitud real olevat linki.
 8. Kasutage kiirfiltrit, et filtreerida väli Kaubakood väärtuse P300 alusel.
-    * Pange tähele, et tellimused on nüüd järjestatud vastavalt värvi ja suuruse prioriteedile ning plaanitud tellimused algavad varaseimal tellimuse kuupäeval ja tarnekuupäeval. Kinnitage veerg Tellimuse kuupäev või Alguskuupäev kiiinfos Graafiku üksikasjad.  
+    * Pange tähele, et tellimused on nüüd järjestatud vastavalt värvi ja suuruse prioriteedile ning plaanitud tellimused algavad varaseimal tellimuse kuupäeval ja tarnekuupäeval. Kinnitage veerg Tellimuse kuupäev või Alguskuupäev kiirinfos Graafiku üksikasjad.  
 
 

@@ -3,7 +3,7 @@ title: " Jaemüügi väljavõtete maksekonfiguratsioonid"
 description: "See protseduur selgitab jaekaupluse makseviiside konfiguratsioone, mis mõjutavad jaemüügi väljavõtete loomise ja sisestamise viisi."
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f12d8ac9be11b92eaef4acce094ae183906278d4
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 19f9c0b1c3a93ed9c84d66041814fd64951744b0
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Jaemüügi väljavõtete maksekonfiguratsioonid
@@ -43,11 +43,11 @@ Salvestamisel kasutatakse demoettevõtte USRT-i.
     * Valige konto, kuhu sisestada võimalikud erinevused vastuvõetud kannete kogusumma ja selle makseviisi puhul arvutatud summa vahel.  
     * Sellele väljale saate sisestada summa, mida kontrollida, kui erinevuse summa tuleb sisestada teisele erinevusekontole. Selle abil saate jälgida suuri erinevusi.  
     * Valige konto, kuhu sisestada võimalikud erinevused vastuvõetud kannete kogusumma ja arvestatud summa vahel, kui see ületab väljal Suurim erinevuse summa määratletud väärtust.  
-    * Valige suvand Jah, kui soovite sisetada panka hoiustatava raha summad eraldi kontole.  
+    * Valige suvand Jah, kui soovite sisestada panka hoiustatava raha summad eraldi kontole.  
     * Sellel väljal saate valida, kas panka hoiustatava raha summad tuleks sisestada pearaamatukontole või pangakontole.  
     * Valige konto, millele tuleks panka hoiustatava raha summad sisestada.  
     * Valige pangakande tüüp, mida kasutada panka hoiustatava raha summade sisestamisel pangakontole.  
-    * Valige suvand Jah, kui soovite sisetada seifi viidava raha summad eraldi kontole.  
+    * Valige suvand Jah, kui soovite sisestada seifi viidava raha summad eraldi kontole.  
     * Valige, kas seifi viidava raha summad tuleks sisestada pearaamatukontole või pangakontole.  
     * Valige konto, millele tuleks seifi viidava raha summad sisestada.  
 8. Klõpsake nuppu Salvesta.

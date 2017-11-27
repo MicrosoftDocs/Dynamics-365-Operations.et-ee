@@ -1,9 +1,9 @@
 ---
 title: Automaatne tasakaalustus ja prioritiseerimine
-description: "See artikkel kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada."
+description: "See teema kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a0f87aca78f1263f1f6ce65e2629b91312716cb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada.
+See teema kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada.
 
 Maksete tasakaalustamisel arvete ja muude kannetega on kaks võimalust. Saate valida tasakaalustatavad kanded käsitsi või Microsoft Dynamics 365 for Finance and Operations võib valida kanded automaatselt, kasutades automaatse tasakaalustamise funktsiooni. Saate kohandada ka automaatsete tasakaalustuste töötlemise viisi, kasutades suvandit **Tasakaalustuse prioriseerimine**. Kõik need suvandid on osa tasakaalustuse parameetritest, mis on määratletud lehel **Müügireskontro parameetrid**. Kannete automaatse tasakaalustamise viis võib erineda, sõltuvalt meetodist, mida automaatseks tasakaalustamiseks kasutate. Saadaval on järgmised meetodid:
 
@@ -50,7 +50,7 @@ Selles artiklis allpool toodud tasakaalustuste näited põhinevad järgmistel ka
 | Arve 3     | 15. oktoober  | 500,00 | 2% 14/neto 30        | 29. oktoober         |                                                                                                                                                                                               |
 | Viivisearve | 15. oktoober  | 7,00   |                     |                    | Viivisearve on 1. ja 2. arve kohta. Summa arvutatakse kaheprotsendilise intressina summadelt, mis on vähemalt 30 päeva üle tähtaja. Näide: 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Kasutaja määratletud tasakaalustuse prioriteet
+## <a name="user-defined-settlement-priority"></a>Kasutaja määratletud tasakaalustuse prioriteet
 Kui valite lehel **Müügireskontro parameetrid** suvandi **Kasuta automaatseteks tasakaalustusteks prioriteeti** sätteks **Jah**, kasutatakse kannete automaatseks tasakaalustamiseks valimisel tasakaalustusprioriteeti, mille määratlete lehel **Tasakaalustuse prioriteet**. Selle näite puhul on määratletud järgmine tasakaalustusprioriteet.
 
 1.  Kande tüüp

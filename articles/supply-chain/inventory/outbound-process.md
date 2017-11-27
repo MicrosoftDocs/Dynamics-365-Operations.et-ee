@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Avage **Varude haldus** \> **Seadistus** \> **Varude ja laohalduse parameetrid**
 
 [![Valik Lõpeta väljamineku laoorder](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Mõnikord ei saa varude hulgas mõningaid kaupu komplekteerimislehe protsessi käigus komplekteerida. Näiteks võib selline olukord tekkida juhul, kui laotöötaja vähendab komplekteerimisridadel olevaid koguseid ja töötleb komplekteerimislehte. Kui valiku **Lõpeta väljamineku laoorder** väärtuseks on määratud **Jah**, registreeritakse ülejäänud komplekteerimata kogused uuesti tellimuse tasandil. Kui valiku väärtuseks on määratud **Ei**, hoitakse ülejäänud komplekteerimata koguseid avatud väljaminekuorderi kogusena. Sellisel juhul jäävad need kogused lattu väljastatuks ja need tuleb lisada uuele komplekteerimislehele funktsiooni **Ava väljaminekuorderid** osana.
+Kui laotöötaja vähendab komplekteerimislehe koguseid, eemaldatakse vastavad laoorderi kogused saadetisest. Kui komplekteerimislehte uuendatakse teatud ajahetkel, registreeritakse ülejäänud kogused uuesti tellimuse tasandil, kui suvand **Lõpeta väljamineku laoorder** on seatud väärtusele **Jah**. Kui suvand **Lõpeta väljamineku laoorder** on seatud väärtusele **Ei**, hoitakse ülejäänud koguseid avatud väljaminekuorderi kogusena ja need tuleb uuele komplekteerimislehele lisada funktsiooni **Ava väljaminekuorderid** osana. 
 
 [![Käsk Ava väljaminekuorderid menüüs Funktsioonid](./media/open-output-order.png)](./media/open-output-order.png)
 

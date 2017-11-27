@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 262554
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb5ab0e64b2a663af627d4d46e3a74aa526058b8
-ms.openlocfilehash: fba13326ba5b73405dd91d220ab2f4ff1aa55435
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0983e9738e2efade14307cf366efc341031714af
 ms.contentlocale: et-ee
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -35,9 +35,9 @@ Vaadake, kuidas töötada avansisaaja kannetega Microsoft Dynamics 365 for Finan
 Avansisaajast töötajate kandeid saab sisestada avansisaaja kontode abil. Igale avansisaajale määratud töötaja ID alusel saab jälgida kõiki avansisaajate kandeid. See number tuuakse avansisaaja kannete jaoks kontonumbrina lehtedel **Päevaraamatud** ja **Avansisaajate kanded**.
 
 ## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Ostutellimuse loomine ja sisestamine avansisaaja andmetega
-Täpsemat teavet ostutellimuste kohta vt teemast [Ostutellimuse ülevaade](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview). Hankija arve loomisel ja sisestamisel avansisaaja andmetega sisestatakse avansisaaja saldod töövõtja saldokontole, mitte hankija saldokontole. Ostutellimusele avansisaaja andmete lisamiseks tehke järgmist.
+Täpsemat teavet ostutellimuste kohta vt teemast [Ostutellimuse ülevaade](../../supply-chain/procurement/purchase-order-overview.md). Hankija arve loomisel ja sisestamisel avansisaaja andmetega sisestatakse avansisaaja saldod töövõtja saldokontole, mitte hankija saldokontole. Ostutellimusele avansisaaja andmete lisamiseks tehke järgmist.
 
--   Valige jaotises **Hind ja allahindlus** väljal **Maksetingimused** maksetingimus. <!---For more information about **Terms of payment**, see [Define vendor payment terms](/dynamics365/unified-operations/financials/accounts-payable/tasks/define-vendor-payment-terms).--> Valige maksetingimus, millel on lehel **Maksetingimused** valitud suvand **Avansisaajalt**. Lisateavet avansisaajate maksetingimuste seadistamise kohta vt teemast [Avansisaajad](emea-advance-holders.md).
+-   Valige jaotises **Hind ja allahindlus** väljal **Maksetingimused** maksetingimus. <!---For more information about **Terms of payment**, see [Define vendor payment terms](../accounts-payable/tasks/define-vendor-payment-terms.md).--> Valige maksetingimus, millel on lehel **Maksetingimused** valitud suvand **Avansisaajalt**. Lisateavet avansisaajate maksetingimuste seadistamise kohta vt teemast [Avansisaajad](emea-advance-holders.md).
 -   Valige kiirkaardi **Hind ja allahindlus** väljal **Avansisaaja** ostutellimuse avansisaaja.
 
 Ostutellimuse sisestusprotsess loob kaks hankija kannet vastandsummadega ja ühe avansisaaja kande. Ilma avansisaaja andmetega luuakse ainult üks hankija kanne.
@@ -64,6 +64,6 @@ Kui summa väljal **Ülekantav summa** on negatiivne. luuakse pärast saatelehe 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Avansimakse töötajale (Ida-Euroopa)](./tasks/advance-payment-employee.md)
+- [Avansimakse töötajale (Ida-Euroopa)](tasks/advance-payment-employee.md)
 
 

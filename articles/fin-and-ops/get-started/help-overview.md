@@ -1,16 +1,16 @@
 ---
 title: "Spikri ülevaade"
-description: "Selles artiklis antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile."
+description: "Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile."
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>Spikri ülevaade
+# <a name="help-system-overview"></a>Spikrisüsteemi ülevaade
 
 [!include[banner](../includes/banner.md)]
 
-Selles artiklis antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile. 
+Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile. 
 
 > [!NOTE] 
 > Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
@@ -69,16 +69,17 @@ Saame palju küsimusi selle kohta, kuidas meie sisu otsida. Kui alustate meie sa
 
 Leiate meie sisu ka igasuguse otsingumootoriga. Soovitame kasutada parimate tulemuste saamiseks saidiotsingut, nt sait: docs.microsoft.com dynamics 365 "otsingusõna".  
 
-![Saidiotsing](./media/site-search-1.png)
-
-![Saidiotsingu tulemused](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>Sisukord lehel docs.microsoft.com
-Kõigil toodetel on dokumentide saidil üks sisukord, mis võimaldab klientidel näha selle teema konteksti, milles nad on. Samuti võimaldab see kasutada filtri juhtelementi otsitavate teemade leidmiseks.
+Rakendustel Finance and Operations, Retail ja Talent on dokumentide saidil ühine sisukord, mis võimaldab klientidel näha selle teema konteksti, millesse nad kuuluvad. Samuti võimaldab see kasutada sisukorra kohal olevat filtri juhtelementi otsitavate teemade leidmiseks.
 
-### <a name="how-can-i-contribute"></a>Kuidas saan kaasa aidata? 
+### <a name="follow-a-topic"></a>Teema jälgimine
+Teema jälgimiseks klõpsake kommentaarivälja all olevat nuppu +Jälgi. Teema jälgimiseks peate sisse logima. Vaadake üksikasju jaotisest [Jätke meile kommentaar](#leave-us-a-comment).  
 
-Jätke meile kommentaar! 
+### <a name="give-feedback"></a>Tagasiside andmine 
+Meil on klientide tagasiside üle alati hea meel. Saate GitHubi kaudu lisada meie sisu kohta kommentaare või soovitada muudatusi.
+
+##### <a name="leave-us-a-comment"></a>Jätke meile kommentaar 
+Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.  
 
 1 Klõpsake valikut **Kommentaarid** kommentaaride nägemiseks lehe alumises osas.
 
@@ -96,6 +97,19 @@ Või
 Sisestage paremale meiliaadress ja uus parool saidi jaoks uue konto loomiseks. 
 
 ![Sisselogimisvalikud](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Soovitage muudatusi või lisage sisu GitHubi kaudu
+Muudatuse soovitamiseks peab teil olema GitHubi konto ja teil tuleb allkirjastada kaasautori litsentsileping.  Pärast tõmbamistaotluse esitamist vaatame teie soovitatud muudatused üle. Vajaduse korral arutleme neid ja seejärel võtame teiega ühendust.  
+
+Alustamiseks klõpsake teemas nuppu **Redigeeri** (pliiats) või vaadake meie repolepingut aadressil https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+
+Lisateabe saamiseks vaadake meie kaasautori juhendit: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> Praegu aktsepteerime panuseid ainult ingliskeelsetesse hoidlatesse.  
+> Me ei aktsepteeri GitHubi kaudu teatatud probleeme – kasutage sisusoovituste jaoks kindlasti tõmbamistaotlust. Toote ja funktsioonidega seotud tagasisidet on kõige mugavam hallata Dynamics 365 ideeportaali kaudu: https://ideas.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Tegevuse juhised
@@ -196,9 +210,4 @@ Järgmises tabelis esitatakse meie veebilehed. Meie sisuveebisaidid on korraldat
 [Uued või värskendatud tegevuse juhised (august 2016)](new-updated-task-guides-available-august-2016.md)
 [Uued või värskendatud tegevuse juhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 [Uued või värskendatud tegevuse juhised (veebruar 2016)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

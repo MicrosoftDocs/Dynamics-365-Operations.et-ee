@@ -3,7 +3,7 @@ title: "Kliendimaksete ülevaade"
 description: "Sellest tegevusejuhisest leiate ülevaate klindimaksete sisestamiseks kasutatavate eri meetodite kohta."
 author: kweekley
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
+ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
+ms.openlocfilehash: de2526d5c674de9505174d3f40f9ae597b8a0a6b
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="customer-payment-overview"></a>Kliendimaksete ülevaade
@@ -53,7 +53,7 @@ Sellest tegevusejuhisest leiate ülevaate klindimaksete sisestamiseks kasutatava
 15. Teise makse loomiseks klõpsake nuppu Uus. 
 16. Valige klient, kellelt makse saite.
     * Kui te klienti ei tea, kuid teate maksega tasutud arvet, kasutage arve käsitsi sisestamiseks või valimiseks välja Arve. Klient tuuakse vaikimisi pärast arve valimist.  
-17. Klõpsake tasutud arvete märkimiseks valikut Kannete tasakaalustamine.
+17. Klõpsake tasutud arvete märkimiseks Kannete tasakaalustamine.
     * Te ei pea makset mis tahes arvetel tasakaalustama. Kui tegemist on ettemaksuga või kui te ei tea, milline arve on tasutud, saate makse sisestada. Makse saab arvel tasakaalustada hiljem.  
 18. Märkige maksega tasutud arved. 
 19. Sisestage maksesumma, mis arvel tasakaalustatakse.

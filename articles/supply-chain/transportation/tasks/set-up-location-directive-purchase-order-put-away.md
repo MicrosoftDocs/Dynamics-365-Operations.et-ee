@@ -3,7 +3,7 @@ title: "Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks"
 description: "See protseduur näitab, kuidas seadistada lihtsat asukohakorraldust."
 author: BibiSp
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
+ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
+ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks
@@ -61,7 +61,7 @@ See protseduur näitab, kuidas seadistada lihtsat asukohakorraldust. Toodud näi
 4. Sisestage väärtus väljale Ühik.
     * Väljade Alates kogusest ja Kuni koguseni väärtuse ühik. Kui jätate selle välja tühjaks, kasutatakse kauba varudeühikut.  
 5. Valige suvand väljal Koguse asukoha leidmine.
-    * Puudub või Litsentsiplaadi kogus: igale litsentsiplaadile registreeritud kogus. Ühikuna määratud kogus: kogu registreeritud kogus. Järelejäänud kogus: ostutellimuse realt veel registreeritav kogus. Oodatav kogus: kogu ostutellimuse real määratud kogus.  
+    * Puudub või litsentsiplaadi kogus: igale litsentsiplaadile registreeritud kogus. Ühikuna määratud kogus: kogu registreeritud kogus. Järelejäänud kogus: ostutellimuse realt veel registreeritav kogus. Oodatav kogus: kogu ostutellimuse real määratud kogus.  
 6. Märkige või tühjendage ruut Piira ühiku alusel.
     * Kui valite selle suvandi ja määrate lehel Piiramine ühiku alusel soovitud ühiku, saab asukohta panna ainult selle mõõtühikuga kaubad. Näiteks kui mõõtühikuks on kaubaalused, saab määratud asukohta maha panna ainult kaubaalustel kaupu.  
 7. Märkige või tühjenadge ruut Luba tükeldamine.

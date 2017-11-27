@@ -1,9 +1,9 @@
 ---
 title: Tootevariandi numbrite ja nimede nomenklatuur
-description: "See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud vormingu [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] asendamiseks. Uuel nomenklatuuril on sihipärane vorming, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja teie valitud teksti eraldajaid. Nomenklatuuri saab luua ka tootenimede kohta. Lõpuks saab koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute."
+description: "See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud vormingu [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] asendamiseks."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ T-särki (TS1234) toodetakse kolmes suuruses (S, M, L), nelja värvi (punane, ro
 
 Sellisel juhul on tootevariandi number punase väikese polosärgi puhul TS1234-punane-väike-polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Piirangupõhiste konfiguratsioonide nomenklatuur
+## <a name="nomenclature-of-constraint-based-configurations"></a>Piirangupõhiste konfiguratsioonide nomenklatuur
 Piirangupõhiste konfiguratsioonide puhul saab tootedimensiooni konfigureerimiseks luua spetsiaalse nomenklatuuri. Saate valida lehel **Toote nomenklatuur** järgmisi segmente.
 
 -   Numbriseeria väärtus
@@ -92,7 +92,7 @@ Loote konfiguratsiooni nomenklatuuri, millel on järgmised segmendid.
 
 Sellisel juhul on konfiguratsiooni ID puitmaterjali puhul pikkusega 78 PuitAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Dimensioonipõhiste konfiguratsioonide nomenklatuur
+## <a name="nomenclature-of-dimension-based-configurations"></a>Dimensioonipõhiste konfiguratsioonide nomenklatuur
 Dimensioonipõhiste konfiguratsioonide puhul saab tootedimensiooni konfigureerimiseks luua spetsiaalse nomenklatuuri. Saate valida lehel **Toote nomenklatuur** järgmisi segmente.
 
 -   Numbriseeria väärtus

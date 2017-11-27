@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 184f38347e2525f3efef9b0d55003a94a75380d4
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: c7148bd807ef29b0dd89204a0fbe9b8480095aba
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
@@ -34,7 +34,7 @@ Selle protseduuriga selgitatakse kaupade registreerimist, kasutades kauba saabum
 1. Avage Varude haldus > Töölehe sisestused > Kauba saabumine > Kauba saabumine.
 2. Klõpsake valikut Uus.
 3. Sisestage väärtus väljale Nimi.
-    * Kui kasutate USMF-i, saate sisestada WHS-i. Kui kasutate muid andmeid, peavad töölehel, mille nime valite, olema järgmised atribuudid: Kontrolli komplekteerimiskohta peab olema seatud valikule Ei ja Vahelao haldus peab olema seatud valikule Ei.  
+    * Kui kasutate USMF-i, saate sisestada WHS-i. Kui kasutate muid andmeid, peavad töölehel, mille nime valite, olema järgmised atribuudid: suvand Kontrolli komplekteerimiskohta peab olema seatud valikule Ei ja suvand Vahelao haldus peab olema seatud valikule Ei.  
 4. Sisestage väärtus väljale Saateleht.
     * See on hankija väljastatud saatelehelt pärinev saatelehe ID. Lisage kordumatu number.  
 5. Valige ostutellimus väljalt Number.

@@ -3,7 +3,7 @@ title: "Pearaamatu tekkepõhiste kannete loomine"
 description: "See ülesandejuhend hõlmab pearaamatu tekkepõhiste kannete, mille aluseks on viitvõlgade skeemid, loomise etappe."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 10/26/2016
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 368614ff447ae9f5cb6e74274558b92a0873ec7a
+ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
+ms.openlocfilehash: a05f0777a14d627dc57ef4f4666abb6f92eee59a
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="create-ledger-accrual-transactions"></a>Pearaamatu tekkepõhiste kannete loomine
@@ -40,7 +40,7 @@ See ülesandejuhend hõlmab pearaamatu tekkepõhiste kannete, mille aluseks on v
 9. Klõpsake suvandit Funktsioonid.
 10. Klõpsake suvandit Pearaamatu viitvõlad.
 11. Klõpsake väljal Viitvõla ID otsingu avamiseks ripploendi nuppu.
-12. Leidke ja valige loendist viitvõlaskeem, mille soovite rakendada.
+12. Leidke ja valige loendist viitvõlaskeem, mida soovite rakendada.
 13. Klõpsake loendis valitud real olevat linki.
 14. Sisestage kuupäev väljale Alguskuupäev.
 15. Klõpsake suvandit Kanded.

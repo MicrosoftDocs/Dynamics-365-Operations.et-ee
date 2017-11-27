@@ -3,7 +3,7 @@ title: "Kreedit ja sissenõuded moodulis Müügireskontro"
 description: "Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates, kasutades Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni sissenõuete lehte. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriume kasutades, või lehelt Kliendid.."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62f659d6e4529adce10e6eb2699dfc84a7329143
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -69,7 +69,7 @@ Järgmiste loendilehtede abil saate sissenõuete teavet korraldada.
 -   Sissenõuete juhtumid – loendilehe veerud, kus kuvatakse teavet juhtumite kohta, millel on juhtumikategooria juhtumitüübiga Sissenõuded.
 
 > [!NOTE]
-> Enne kui saate teavet neil loendilehtedel vaadata, tuleb luua aegumise hetktõmmis. Teave kuvatakse ainult klientide puhul, kelle kohta on loodud aegumise hetktõmmis. Loendilehel kuvatavaid kirjeid saab täiendavalt filtreerida järgmiselt.
+> Enne kui saate teavet neil loendilehtedel vaadata, tuleb luua aegumise hetktõmmis. Teavet kuvatakse vaid püsiklientidele, kelle jaoks on aegumise hetktõmmis loodud. Loendilehel kuvatavaid kirjeid saab täiendavalt filtreerida järgmiselt.
 <li>Vaikimisi on Finance and Operationsi kasutajal juurdepääs kõigile klientidele, kel on aegumise hetktõmmis.</li>
 <li>Kliendikaustade olemasolul peab kasutaja olema seadistatud inkasaatorina, et kasutada kaustu sissenõuete loendilehtedel oleva teabe filtreerimiseks. Teave on piiratud klientidega, kes kuuluvad valitud kliendikausta.</li>
 <li>Kui kasutaja on seadistatud inkassaatorina, on loendilehel saadaval ainult selle inkassaatori jaoks valitud kaustad. Kui inkassaatori puhul on lehel Inkassaator märgitud ruut Luba inkassaatoril vaadata kõiki kliendikaustu, on kõik kaustad selle inkassaatori jaoks saadaval.</li>

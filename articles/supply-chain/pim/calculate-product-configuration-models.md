@@ -1,9 +1,9 @@
 ---
 title: Toote konfiguratsioonimudelite arvutuste KKK
-description: Selles artiklis kirjeldatakse tootekonfiguratsiooni mudelite arvutusi ja selgitatakse arvutuste kasutamist koos piirangutega.
+description: Selles teemas kirjeldatakse tootekonfiguratsiooni mudelite arvutusi ja selgitatakse arvutuste kasutamist koos piirangutega.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse tootekonfiguratsiooni mudelite arvutusi ja selgitatakse arvutuste kasutamist koos piirangutega.
+Selles teemas kirjeldatakse tootekonfiguratsiooni mudelite arvutusi ja selgitatakse arvutuste kasutamist koos piirangutega.
 
 Arvutusi saab kasutada aritmeetiliste või loogiliste operatsioonide puhul. Need täiendavad avaldise piiranguid toote konfiguratsioonimudelites. Saate määratleda arvutused lehel **Piirangupõhise toote konfiguratsioonimudeli üksikasjad** ja luua seejärel arvutuste jaoks avaldisi avaldiseredaktoris. Lisateabe saamiseks vt jaotist Arvutuste loomine.
 
@@ -75,7 +75,7 @@ Arvutused toimuvad, kui on esitatud kõigi sisendatribuutide väärtus.
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Kas saan sihtatribuudile arvutatud väärtuse üle kirjutada?
 Saate sihtatribuudile arvutatud väärtuse üle kirjutada, kui sihtatribuut pole määratud peidetuks või kirjutuskaitstuks.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Kuidas määrata sihtatribuut peidetuks või kirjutuskaitstuks?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Kuidas määrata sihtatribuut peidetuks või kirjutuskaitstuks?
 Atribuudi määramiseks peidetuks või kirjutuskaitstuks tehke järgmist.
 
 1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Toote konfiguratsioonimudelid**.

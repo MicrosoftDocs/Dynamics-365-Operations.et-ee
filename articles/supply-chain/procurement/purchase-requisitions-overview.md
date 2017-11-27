@@ -1,9 +1,9 @@
 ---
 title: "Ostutaotluse ülevaade"
-description: "See artikkel kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel võivad olla."
+description: "Teema kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel olla võivad."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel võivad olla.
+Teema kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel olla võivad.
 
 Olenevalt organisatsiooni seadistusest, saate luua organisatsiooni kasutatavatele toodetele ostutaotlusi. Ostutaotlus on sisedokument, mis annab ostuosakonnale volituse kaupu või teenuseid osta.  
 
@@ -70,7 +70,7 @@ Ostutaotluse üldise oleku määrab ostutaotluse ridade olek. Seepärast tuleb k
 <tr class="odd">
 <td>Mustand</td>
 <td>Mustand</td>
-<td>Ostutaotlus ja ostutaotluse rida on loodud, kuid need pole ülevaatuseks esitatud. Ostutellimusi ja ostutellimuse ridu, mille olek on <strong>Mustand</strong>, saab muuta. Ostutellimuse või ostutellimuse rea olek on <strong>Mustand</strong> ka sel juhul, kui see on tühistatud, kuid pole enne tühistamist ülevaatuseks esitatud. <strong>Märkus.</strong> Ostutaotluse saate esitada või tühistada dokumendi tasemel. Esitada või tühistada ei ole võimalik üksikut ostutaotluse rida.</td>
+<td>Ostutaotlus ja ostutaotluse rida on loodud, kuid need pole ülevaatuseks esitatud. Tagasilükatud ostutaotlusi ja ostutaotluse ridu, mille olek on <strong>Mustand</strong>, saab muuta. Ostutellimuse või ostutellimuse rea olek on <strong>Mustand</strong> ka siis, kui see on tagasi kutsutud, kuid pole veel ülevaatamiseks uuesti esitatud. <strong>Märkus.</strong> Saate ostutellimuse esitada või tagasi kutsuda dokumendi tasemel. Esitada või tühistada ei ole võimalik üksikut ostutaotluse rida.</td>
 </tr>
 <tr class="even">
 <td>Ülevaatamisel</td>
@@ -111,7 +111,7 @@ Tagasilükatud ostutaotluse rea uuesti esitamisel algab kõigi ülevaatusel olev
 <tr class="odd">
 <td>Tühistatud</td>
 <td>Tühistatud</td>
-<td>Ostutaotlus ja kõik ostutaotluse read on tühistatud.<strong>Märkus.</strong> Kui te ei vaja enam ostutaotluse real olnud kaupa, kuid ostutaotluse rida on juba kinnitatud, peate selle ostutaotluse rea tühistama. Tühistada saab ainult kinnitatud ostutaotluse ridu. Kui mõni ostutaotluse rida on ülevaatusel, on ostutaotluse olek <strong>Ülevaatusel</strong>. Sellisel juhul saate ostutaotluse tühistada ja vastava ostutaotluse rea kustutada.</td>
+<td>Ostutaotlus ja kõik ostutaotluse read on tühistatud. <strong>Märkus.</strong> Kui te ei vaja enam ostutaotluse real olnud kaupa, kuid ostutaotluse rida on juba kinnitatud, peate selle ostutaotluse rea tühistama. Tühistada saab ainult kinnitatud ostutaotluse ridu. Kui mõni ostutaotluse rida on ülevaatusel, on ostutaotluse olek <strong>Ülevaatusel</strong>. Sellisel juhul saate ostutaotluse tühistada ja vastava ostutaotluse rea kustutada.</td>
 </tr>
 <tr class="even">
 <td>Suletud</td>
