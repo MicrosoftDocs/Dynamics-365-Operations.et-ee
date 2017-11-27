@@ -1,16 +1,16 @@
 ---
-title: Tarneahela halduse koguleht
-description: "Leht viitab ressurssidele, mis aitavad teil rakendust Microsoft Dynamics 365 for Finance and Operations – tarneahela juhtimine tõhusamalt kasutada."
+title: Tarneahela juhtimise avaleht
+description: See teema annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Leht viitab ressurssidele, mis aitavad teil rakendust Microsoft Dynamics 365 for Finance and Operations – tarneahela juhtimine tõhusamalt kasutada. 
+See teema annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
-## <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
+## <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>, et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
 
 ## <a name="core-concepts-and-tasks"></a>Põhimõisted ja ülesanded
@@ -41,7 +41,7 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
 - [Kuluarvestus](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Kuluhaldus](cost-management/costing-sheets.md)  
-- [Varude haldus](inventory/consignment.md)
+- [Varude haldus](inventory/inventory-home-page.md)
 - [Koondplaneerimine](master-planning/introduction-demand-forecasting.md)
 - [Hanked](procurement/procurement-sourcing-overview.md)
 - [Tooteteabe haldus](pim/product-information.md)
