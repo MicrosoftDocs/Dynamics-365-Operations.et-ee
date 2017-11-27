@@ -3,7 +3,7 @@ title: Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise E
 description: Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition dokumentatsioon.
 author: margoc
 manager: AnnBe
-ms.date: 09/29/2017
+ms.date: 11/13/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb040b28078e5072fdb695e7b39e82557219addc
-ms.openlocfilehash: ca1658a9dc7594168476298132274b2c5910b012
+ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
+ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 11/13/2017
 
 ---
 
@@ -67,7 +67,7 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 
 <h3><a href="../supply-chain/index.md">Hankeahela haldamine</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Kuluhaldus</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations.md">Varude haldus</a></p>
+<p><a href="../supply-chain/inventory/inventory-home-page.md">Varude haldus</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Koondplaneerimine</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Hanked</a></p>
 <p><a href="../supply-chain/pim/product-information.md">Tooteteabe haldus</a></p>
@@ -88,7 +88,10 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Arendus</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Laiendatavus</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Andmete haldus ja integreerimine</a></p>
+
+<p><a href="../dev-itpro/data-entities/integration-overview.md">Andmete integratsioon</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Andmehaldus</a></p>
+
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office’i integreerimine</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Pidev tarne</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiilne platvorm</a></p>
@@ -97,8 +100,8 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administreerimine</h3>
 <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Juurutamine</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Täiendamine</a></p>
-<p><a href="../dev-itpro/dev-tools/developer-home-page.md#service-environments">Hooldus</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity.md">Andmehaldus</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Hooldus</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Andmehaldusraamistik</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Organisatsiooni haldus</a></p>
 </td>

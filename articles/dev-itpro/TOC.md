@@ -54,57 +54,54 @@
 #### [X++ atribuudiklassid](dev-ref/xpp-attribute-classes.md)
 #### [X++ ja C\# võrdlus](dev-ref/xpp-cs-comparison.md)
 #### [X++ süntaks](dev-ref/xpp-syntax.md)
-## Kompileerimisaja funktsioonid
+## [API, klassi ja tabeli viide](dev-ref/api-reference.md)
 ### [X++ kompileerimisaja funktsioonid](dev-ref/xpp-compile-time-functions.md)
-## Käitusaja funktsioonid
-### [X++ ärilahenduse käitusaja funktsioonid](dev-ref/xpp-business-run-time-functions.md)
-### [X++ konteineri käitusaja funktsioonid](dev-ref/xpp-container-run-time-functions.md)
-### [X++ teisendamise käitusaja funktsioonid](dev-ref/xpp-conversion-run-time-functions.md)
-### [X++ kuupäeva käitusaja funktsioonid](dev-ref/xpp-date-run-time-functions.md)
-### [X++ valemi käitusaja funktsioonid](dev-ref/xpp-math-run-time-functions.md)
-### [X++ peegeldamise käitusaja funktsioonid](dev-ref/xpp-reflection-run-time-functions.md)
 ### [X++ käitusaja funktsioonid](dev-ref/xpp-run-time-functions.md)
-### [X++ seansi käitusaja funktsioonid](dev-ref/xpp-session-run-time-functions.md)
-### [X++ stringi käitusaja funktsioonid](dev-ref/xpp-string-run-time-functions.md)
-## Süsteemitabelid
+#### [X++ ärilahenduse käitusaja funktsioonid](dev-ref/xpp-business-run-time-functions.md)
+#### [X++ konteineri käitusaja funktsioonid](dev-ref/xpp-container-run-time-functions.md)
+#### [X++ teisendamise käitusaja funktsioonid](dev-ref/xpp-conversion-run-time-functions.md)
+#### [X++ kuupäeva käitusaja funktsioonid](dev-ref/xpp-date-run-time-functions.md)
+#### [X++ valemi käitusaja funktsioonid](dev-ref/xpp-math-run-time-functions.md)
+#### [X++ peegeldamise käitusaja funktsioonid](dev-ref/xpp-reflection-run-time-functions.md)
+#### [X++ seansi käitusaja funktsioonid](dev-ref/xpp-session-run-time-functions.md)
+#### [X++ stringi käitusaja funktsioonid](dev-ref/xpp-string-run-time-functions.md)
 ### [Süsteemitabelid](dev-ref/system-tables.md)
-## Süsteemiklassid
-### [API, klassi ja tabeli viide](dev-ref/api-reference.md)
-### [A klassid](dev-ref/a-classes.md)
-### [B klassid](dev-ref/b-classes.md)
-### [C klassid](dev-ref/c-classes.md)
-### [D klassid](dev-ref/d-classes.md)
-### [E klassid](dev-ref/e-classes.md)
-### [F klassid: FieldBinding kuni FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
-### [F klassid: FormBuildButtonControl kuni FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
-### [F klassid: FormBuildFilterPaneControl kuni FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
-### [F klassid: FormBuildReferenceControl kuni FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
-### [F klassid: FormChangeTracker kuni FormControlEventArgs](dev-ref/formchangetracker-classes.md)
-### [F klassid: FormDataObject kuni FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
-### [F klassid: FormFastTabSummarySeparator kuni FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
-### [F klassid: FormGroupControl kuni FormIntControl](dev-ref/formgroupcontrol-classes.md)
-### [F klassid: FormListBoxControl kuni FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
-### [F klassid: FormObject kuni FormRealControl](dev-ref/formobject-classes.md)
-### [F klassid: FormReferenceControl kuni FormStringControl](dev-ref/formreferencecontrol-classes.md)
-### [F klassid: FormTabControl kuni FormWindowControl](dev-ref/formtabcontrol-classes.md)
-### [G klassid](dev-ref/g-classes.md)
-### [H klassid](dev-ref/h-classes.md)
-### [I klassid](dev-ref/i-classes.md)
-### [J klassid](dev-ref/j-classes.md)
-### [K klassid](dev-ref/k-classes.md)
-### [L klassid](dev-ref/l-classes.md)
-### [M klassid](dev-ref/m-classes.md)
-### [N klassid](dev-ref/n-classes.md)
-### [O klassid](dev-ref/o-classes.md)
-### [P klassid](dev-ref/p-classes.md)
-### [Q klassid](dev-ref/q-classes.md)
-### [R klassid](dev-ref/r-classes.md)
-### [S klassid](dev-ref/s-classes.md)
-### [T klassid](dev-ref/t-classes.md)
-### [U klassid](dev-ref/u-classes.md)
-### [V klassid](dev-ref/v-classes.md)
-### [W klassid](dev-ref/w-classes.md)
-### [X klassid](dev-ref/x-classes.md)
+### Süsteemiklassid
+#### [A klassid](dev-ref/a-classes.md)
+#### [B klassid](dev-ref/b-classes.md)
+#### [C klassid](dev-ref/c-classes.md)
+#### [D klassid](dev-ref/d-classes.md)
+#### [E klassid](dev-ref/e-classes.md)
+#### [F klassid: FieldBinding kuni FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
+#### [F klassid: FormBuildButtonControl kuni FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
+#### [F klassid: FormBuildFilterPaneControl kuni FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
+#### [F klassid: FormBuildReferenceControl kuni FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
+#### [F klassid: FormChangeTracker kuni FormControlEventArgs](dev-ref/formchangetracker-classes.md)
+#### [F klassid: FormDataObject kuni FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
+#### [F klassid: FormFastTabSummarySeparator kuni FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
+#### [F klassid: FormGroupControl kuni FormIntControl](dev-ref/formgroupcontrol-classes.md)
+#### [F klassid: FormListBoxControl kuni FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
+#### [F klassid: FormObject kuni FormRealControl](dev-ref/formobject-classes.md)
+#### [F klassid: FormReferenceControl kuni FormStringControl](dev-ref/formreferencecontrol-classes.md)
+#### [F klassid: FormTabControl kuni FormWindowControl](dev-ref/formtabcontrol-classes.md)
+#### [G klassid](dev-ref/g-classes.md)
+#### [H klassid](dev-ref/h-classes.md)
+#### [I klassid](dev-ref/i-classes.md)
+#### [J klassid](dev-ref/j-classes.md)
+#### [K klassid](dev-ref/k-classes.md)
+#### [L klassid](dev-ref/l-classes.md)
+#### [M klassid](dev-ref/m-classes.md)
+#### [N klassid](dev-ref/n-classes.md)
+#### [O klassid](dev-ref/o-classes.md)
+#### [P klassid](dev-ref/p-classes.md)
+#### [Q klassid](dev-ref/q-classes.md)
+#### [R klassid](dev-ref/r-classes.md)
+#### [S klassid](dev-ref/s-classes.md)
+#### [T klassid](dev-ref/t-classes.md)
+#### [U klassid](dev-ref/u-classes.md)
+#### [V klassid](dev-ref/v-classes.md)
+#### [W klassid](dev-ref/w-classes.md)
+#### [X klassid](dev-ref/x-classes.md)
 
 ## [Laiendatavus - avaleht](extensibility/extensibility-home-page.md)
 ### Sissejuhatus ja alustamine
@@ -140,13 +137,10 @@
 #### [Sildi muutmine](extensibility/change-label.md)
 #### [Numbriseeria ulatuse laiendamine](extensibility/extend-number-sequence-scope.md)
 
-## [Pideva tarne kodulehekülg](dev-tools/continuous-delivery-home-page.md)
-### [Arenduse ja pideva tarne KKK](dev-tools/continuous-delivery-faq.md)
-### [Proovipakendite välja arvamine koosteväljundist](dev-tools/exclude-test-packages.md)
-### [Kolmanda osapoole mudelite ja käitusaja pakendite haldus allikakontrolli abil](dev-tools/manage-runtime-packages.md)
-### [Versiooni mudelid automatiseeritud koostes](dev-tools/version-models-build.md)
 
-## Jõudluse avaleht
+
+
+## Jõudlus
 ### [Jälitamine Trace Parseri abil](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK ja mitme kasutajaga testimine teenusega Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
 ### [Probleemide diagnoosimine ja jõudlusprobleemide analüüsimine Trace Parseri abil](perf-test/trace-parser.md)
@@ -155,10 +149,8 @@
 ### [Testimine ja kinnitamine](perf-test/testing-validation.md)
 ### [Projektide testimine Visual Studios](perf-test/testing-support.md)
 ### [Juurutamine pideva järgu ja testimise automaatikaga](perf-test/continuous-build-test-automation.md)
-## Kuupäevad
-### [Kuupäeva jõustumine](dev-tools/date-effectivity.md)
-## Litsentsimine
-### [ISV litsentsimine](dev-tools/isv-licensing.md)
+## [Kuupäeva jõustumine](dev-tools/date-effectivity.md)
+## [ISV litsentsimine](dev-tools/isv-licensing.md)
 
 # [Kasutajaliidese arendus](user-interface/user-interface-development-home-page.md)
 ## Õppetükid
@@ -359,6 +351,104 @@
 #### [ValueDesigni tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [ValueMetadata tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
+# Andmete integratsioon
+## [Integreerimismustrid](data-entities/integration-overview.md)
+
+## Andmete integratsiooni API-d
+### [Andmehalduse paketi API](data-entities/data-management-api.md)
+### [Teenuse lõpp-punktid](data-entities/services-home-page.md)
+#### [Teenuste autentimise tõrkeotsing](data-entities/troubleshoot-service-authentication.md)
+### [OData](data-entities/odata.md)
+### [Kohandatud teenused](data-entities/custom-services.md)
+### [Korduvad integreerimised](data-entities/recurring-integrations.md)
+
+## Arendus integreerimiseks
+### [Andmete integreerimine andmeüksuste abil](data-entities/data-management-integration-data-entity.md)
+#### [Üksuse arendamine andmemigratsiooni jaoks](data-entities/develop-entity-for-data-migration.md)
+#### [Liit-andmeüksuste arendamine](data-entities/develop-composite-data-entities.md)
+#### [Kontsernisisese finantsandmete ühiskasutuse konfigureerimine](data-entities/tasks/configure-financial-cross-company-data-sharing.md)
+#### [Andmesisestuse hõlbustamiseks kirje malli loomine](data-entities/tasks/create-record-template-facilitate-data-entry.md)
+#### [Kirje malli abil uue kirje loomine](data-entities/tasks/use-record-template-new-record.md)
+
+### [Andmete integreerimine teenus Common Data Service abil](data-entities/data-integration-cds.md) 
+#### [Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine](../supply-chain/sales-marketing/prospect-to-cash.md)
+##### [Rakenduse Finance and Operations toodete sünkroonimine rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping.md)
+##### [Rakenduse Sales kontode sünkroonimine rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping.md)
+##### [Rakenduse Sales kontaktide sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping.md)
+##### [Rakenduse Sales müügipakkumise päiste ja ridade sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+##### [Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+##### [Rakenduse Finance and Operations müügiarve päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine otse rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+
+### [Väliste veebiteenuste tarbimine](data-entities/consume-external-web-service.md)
+
+
+# [Andmehaldus](data-entities/data-entities-data-packages.md)
+
+## [Andmeüksused](data-entities/data-entities.md)
+
+### [Konfigureerimisandmete projektid](data-entities/configuration-data-projects.md)
+### [Konfigureerimisandmete paketid](data-entities/configuration-data-packages.md)
+### [Konfigureerimisandmete kopeerimine ettevõtete vahel](data-entities/copy-configuration.md)
+### [Konfigureerimisandmete mallid](data-entities/configuration-data-templates.md)
+### [Üksuse muudatuste jälgimine.](data-entities/entity-change-track.md)
+
+## Standardsed andmeüksused
+### [Andmeüksuste aruanne](data-entities/data-entities-report.md)
+### [Andmeüksused: ostureskontro ja maksud](data-entities/data-entities-accounts-payable-taxes.md)
+### [Andmeüksused: müügireskontro](data-entities/data-entities-accounts-receivable.md)
+### [Andmeüksused: pank](data-entities/data-entities-bank.md)
+### [Andmeüksused: algsaldod](data-entities/data-entities-beginning-balances.md)
+### [Andmeüksused: eelarve plaanimine](data-entities/data-entities-budget-plan.md)
+### [Andmeüksused: eelarvestamine](data-entities/data-entities-budgeting.md)
+### [Andmeüksused: kuluarvutus](data-entities/data-entities-costing.md)
+### [Andmeüksused: kulude haldus](data-entities/data-entities-expense-management.md)
+### [Andmeüksused: põhivara](data-entities/data-entities-fixed-assets.md)
+### [Andmeüksused: pearaamat](data-entities/data-entities-general-ledger.md)
+### [Andmeüksused: globaalne aadressiraamat](data-entities/data-entities-global-address-book.md)
+### [Andmeüksused: inimressurssid](data-entities/data-entities-human-resources.md)
+### [Andmeüksused: varude haldus](data-entities/data-entities-inventory-management.md)
+### [Andmeüksused: koondplaanimine](data-entities/data-entities-master-plan.md)
+### [Andmeüksused: hanked](data-entities/data-entities-procurement-sourcing.md)
+### [Andmeüksused: tooteteabe haldus](data-entities/data-entities-product-information-management.md)
+### [Andmeüksused: tootmise juhtimine](data-entities/data-entities-production-control.md)
+### [Andmeüksused: projekti raamatupidamine](data-entities/data-entities-project-accounting.md)
+### [Andmeüksused: avalik sektor](data-entities/data-entities-public-sector.md)
+### [Andmeüksused: jaemüük](data-entities/data-entities-retail.md)
+### [Andmeüksused: müügi ja turunduse käivitamine](data-entities/data-entities-sales-marketing.md)
+### [Andmeüksused: müügi ja turunduse müügieelne tegevus](data-entities/data-entities-sales-marketing-pre-sales.md)
+### [Andmeüksused: süsteemihaldus](data-entities/data-entities-system-administration.md)
+### [Andmeüksused: töövoog](data-entities/data-entities-workflow.md)
+
+## [Andmete importimis- ja eksportimistööd](data-entities/data-import-export-job.md)
+
+### [Üldise töölehe üksuse abil kannete importimise head tavad](data-entities/tips-tricks-import-general-journal-entity.md)
+
+## Andmeüksuste arendamine
+### [Uute andmeüksuste loomine](data-entities/build-consuming-data-entities.md)
+### [Andmeüksuse atribuudid](data-entities/behavioral-properties-data-entities.md)
+### [Arvutusveergute ja virtuaalsete väljade loomine](data-entities/data-entity-computed-columns-virtual-fields.md)
+### [Kontsernisisene käitumine](data-entities/cross-company-behavior.md)
+### [Riigi-/regioonikoodide haldamine](data-entities/countryregion-codes-configuration-keys.md)
+### [Päriluse mustrid](data-entities/support-super-type-sub-type.md)
+### [Andmeüksuse viisardi reeglid](data-entities/data-entity-wizard-rules.md)
+### [Metaandmete atribuudid](data-entities/behavioral-properties-data-entities.md)
+### [Kinnitamised, vaikeväärtused ja vastendamata väljad](data-entities/validations-defaults-unmapped-fields.md)
+### [Turve ja andmeüksused](data-entities/security-data-entities.md)
+
+## [Oma andmebaasi toomine](analytics/export-entities-to-your-own-database.md)
+
+# [Pideva tarne kodulehekülg](dev-tools/continuous-delivery-home-page.md)
+## [Arenduse ja pideva tarne KKK](dev-tools/continuous-delivery-faq.md)
+## [Proovipakendite välja arvamine koosteväljundist](dev-tools/exclude-test-packages.md)
+## [Kolmanda osapoole mudelite ja käitusaja pakendite haldus allikakontrolli abil](dev-tools/manage-runtime-packages.md)
+## [Versiooni mudelid automatiseeritud koostes](dev-tools/version-models-build.md)
+
+
 # Teenusega Lifecycle Services lahenduste väljastamine
 ## [Arendamine ja vabastamine](lcs-solutions/lcs-solutions-app-source.md)
 ## [Ajastamine ja avaldamine](lcs-solutions/marketing-content-lcs-solutions.md)
@@ -377,9 +467,7 @@
 ### [Eraldi lokaliseerimismudelid](lcs-solutions/separate-localization-models.md)
 ### [Regulatiivse teatise edastamine](lcs-solutions/submit-localization-alerts.md)
 
-
-
-# Finantside arendamine
+# [Finantside arendamine](financial/financial-dev-home-page.md)
 ## [Dimensioonid](financial/dimensions.md)
 ## [Exceli mallile dimensioonide lisamine](financial/dimensions-overview.md)
 ## [Dimensiooni kirje juhtelemendi dialoogi tugi](financial/dimension-entry-control-dialog-support.md)
@@ -416,6 +504,7 @@
 ### [Kohapealse projekti loomine](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Kohapealsete keskkondade seadistamine ja juurutamine](deployment/setup-deploy-on-premises-environments.md)
 ### [Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse](deployment/develop-deploy-custom-models-on-premises.md)
+### [Värskenduste rakendamine kohapealsele juurutamisele](deployment/apply-updates-on-premises.md)
 
 ## Kohandatud koodi juurutamine
 ### [Juurutatava paketi loomine](deployment/create-apply-deployable-package.md)
@@ -445,7 +534,7 @@
 #### [Täiendatud müügikuubi migreerimine üksuse poodi](migration-upgrade/migrate-upgraded-cube-entity-store.md)
 #### [Eelarve plaanimise täiendamine](migration-upgrade/upgrade-budget-planning.md)
 
-## Koodi migreerimine ja täiendamine
+## [Koodi migreerimine ja täiendamine](migration-upgrade/code-migration-home-page.md)
 ### [Ettevalmistamine koodi migreerimiseks](migration-upgrade/prepare-migration.md)
 ### [Teenuse Visual Studio Team Services koodimigratsiooni ajal vastendamise konfigureerimine](migration-upgrade/configure-vso-solution.md)
 ### [Tükeldatavad mudelid](dev-tools/model-split.md)
@@ -476,6 +565,7 @@
 ## [Litsentsikoodide ja konfiguratsioonivõtmete aruanne](sysadmin/license-codes-configuration-keys-report.md)
 ## [Kontsernisisene andmete ühiskasutus](sysadmin/cross-company-data-sharing.md)
 ## [Hooldusrežiim](sysadmin/maintenance-mode.md)
+## [Eelkonfigureeritud süsteemikontod](sysadmin/pre-configured-system-accounts.md)
 ## [Rollipõhine turve](sysadmin/role-based-security.md)
 ### [Turbe ülesehitus](sysadmin/security-architecture.md)
 ### [Turvaaruanded](sysadmin/security-reports.md)
@@ -496,10 +586,11 @@
 ### [Mis on uut?](lifecycle-services/whats-new-lcs.md)
 ### [Teadaolevad probleemid](lifecycle-services/known-issues.md)
 ## [Dynamicsi teenuse Lifecycle Services kasutusjuhend](lifecycle-services/lcs-user-guide.md)
+## [Tellimuskalkulaator](lifecycle-services/subscription-estimator.md)
 ## [Turbe konfigureerimine](lifecycle-services/configure-lcs-security.md)
 ## [Teema otsing](lifecycle-services/issue-search-lcs.md)
 ## [Konfiguratsioonihaldur](lifecycle-services/configuration-manager-lcs.md)
-### [Konfiguratsioonihalduri häälestamine ](lifecycle-services/set-up-configuration-manager-lcs.md)
+### [Konfiguratsioonihalduri häälestamine](lifecycle-services/set-up-configuration-manager-lcs.md)
 ## [Koodiuuenduse teenuse konfigureerimine](lifecycle-services/configure-execute-code-upgrade.md)
 ## [Metoodika loomine ](lifecycle-services/create-methodology.md)
 ## [Äriprotsesside modelleerija](lifecycle-services/bpm-overview.md)
@@ -511,6 +602,7 @@
 ## [Äriprotsesside modelleerija vooskeemid](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Kohandatud äriprotsesside üleslaadimine](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Jälgimine ja diagnostika ](lifecycle-services/monitoring-diagnostics.md)
+## [Kasutaja sisselogimiste jälgimine](lifecycle-services/user-logins.md)
 ## [Varateek](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 – tõlketeenuse ülevaade](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 – tõlketeenuse kasutusjuhend  ](lifecycle-services/use-translation-service.md)
@@ -592,8 +684,9 @@
 # Andmebaasi haldamine
 ## [Andmebaasi kopeerimine Azure’i SQL-andmebaasist SQL Serveri keskkonda](database/copy-database-from-azure-sql-to-sql-server.md)
 ## [Andmebaasi kopeerimine SQL Serverist Azure’i SQL-tootmisandmebaasi keskkonda](database/copy-database-from-sql-server-to-azure-sql.md)
-## [Andmebaasi taastamine mitte-tootmiskeskkonnast](database/request-point-in-time-restore.md)
+## [Andmebaasi taastamine mittetootmiskeskkonnast](database/request-point-in-time-restore.md)
 ## [Andmebaasi koopia eksportimine hilisemaks taastamiseks](database/copy-operations-database.md)
+## [Liivakasti andmebaasi värskendamise taotlus](database/database-refresh.md)
 
 # Tugi
 ## [Toetuse saamine lahenduste Dynamics 365 for Finance and Operations, Enterprise Edition ja Lifecycle Sevices jaoks](lifecycle-services/lcs-support.md)
