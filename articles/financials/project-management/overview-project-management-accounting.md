@@ -3,7 +3,7 @@ title: Projektihaldus ja -arvestus
 description: "Projektihaduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas teenuse pakkumiseks, toote tootmiseks või tulemuse saavutamiseks."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -228,7 +228,7 @@ Järgmises tabelis kirjeldatakse projekti täitmiskulu arvutamise meetodeid.
 <tbody>
 <tr class="odd">
 <td>Tegelik kulu kogusumma</td>
-<td>Hinnangulised kulud tuleb sisestada käsitsi. Pärast seda, kui on täidetud veerg <strong>Kulu kokku</strong> või <strong>Kogus kokku</strong> lehel <strong>Kuluhinnang</strong>, lahutatakse tegelikud kulud kasutaja sisestatud koondsummadest. Tulemus on projekt täitmiskulu. Tavaliselt ei jälgita kulude edenemist näiteks hotellis peatumiste ja igal perioodil kajastatud einete arvu põhjal. Selle asemel tehakse järgmist. Tavaliselt põhineb jälgimine võrdlemisel hinnanguliste tundide koguarvuga. Selle lähenemisviisi puhul ei ole eelarvemudelit vaja ja kulu või kogust kokku saab käsitsi muuta. Kui väljale <strong>Kulu kokku</strong> või <strong>Kogus kokku</strong> sisestatakse väärtus, võrdleb Finance and Operations seda väärtust tegelike perioodi sisestatud kannetega ja vähendab siis väärtust veerus <strong>Täitmise kogus</strong> või <strong>Täitmise kulu</strong>.</td>
+<td>Hinnangulised kulud tuleb sisestada käsitsi. Pärast seda, kui on täidetud veerg <strong>Kulu kokku</strong> või <strong>Kogus kokku</strong> lehel <strong>Kuluhinnang</strong>, lahutatakse tegelikud kulud kasutaja sisestatud koondsummadest. Tulemus on projekti lõpuleviimise kulu. Tavaliselt ei jälgita kulude edenemist näiteks hotellis peatumiste ja igal perioodil kajastatud einete arvu põhjal. Selle asemel tehakse järgmist. Tavaliselt põhineb jälgimine võrdlemisel hinnanguliste tundide koguarvuga. Selle lähenemisviisi puhul ei ole eelarvemudelit vaja ja kulu või kogust kokku saab käsitsi muuta. Kui väljale <strong>Kulu kokku</strong> või <strong>Kogus kokku</strong> sisestatakse väärtus, võrdleb Finance and Operations seda väärtust tegelike perioodi sisestatud kannetega ja vähendab siis väärtust veerus <strong>Täitmise kogus</strong> või <strong>Täitmise kulu</strong>.</td>
 </tr>
 <tr class="even">
 <td>Tegelik eelarve kogusumma</td>
@@ -243,11 +243,11 @@ Finance and Operations ei vähenda automaatselt prognoositud väärtusi. Seetõt
 > </tr>
 <tr class="odd">
 <td>Eelarvejääk</td>
-<td>See meetod kasutab projekti täitmiskulu arvutamiseks järelejäänud eelarve mudelit. Selle meetodi kasutamisel liidetakse tegelikud kulud ja järelejäänud eelarvemudeli prognoositud summad. Tulemuseks on kulu kokku. Enne selle meetodi kasutamist tuleb seadistada järelejäänud eelarvemudel kannete mahaarvamiseks tegelike süsteemis kajastatud kannete põhjal. Kontrollige lehelt <strong>Prognoosimudelid</strong>, et grupis <strong>Automaatne prognoosi vähendamine</strong> oleksid väljad märgitud. Tavaliselt kopeeritakse järelejäänud eelarve algsest eelarvest. Kannete sisestamisel vähendatakse järelejäänud eelarve kandeid. Projekti edenedes, kui määrate, et järelejäänud eelarvet tuleb kohandada, võtate prognoositavad kanded järelejäänud eelarvest. <strong>Märkus.</strong> Seda meetodit saab rakendada ainult siis, kui prognoosile on lisatud prognoosimudel.</td>
+<td>See meetod kasutab projekti täitmiskulu arvutamiseks järelejäänud eelarve mudelit. Selle meetodi kasutamisel liidetakse tegelikud kulud ja järelejäänud eelarvemudeli prognoositud summad. Tulemuseks on kogukulu. Enne selle meetodi kasutamist tuleb seadistada järelejäänud eelarvemudel kannete mahaarvamiseks tegelike süsteemis kajastatud kannete põhjal. Kontrollige lehelt <strong>Prognoosimudelid</strong>, et grupis <strong>Automaatne prognoosi vähendamine</strong> oleksid väljad märgitud. Tavaliselt kopeeritakse järelejäänud eelarve algsest eelarvest. Kannete sisestamisel vähendatakse järelejäänud eelarve kandeid. Projekti edenedes, kui määrate, et järelejäänud eelarvet tuleb kohandada, võtate prognoositavad kanded järelejäänud eelarvest. <strong>Märkus.</strong> Seda meetodit saab rakendada ainult siis, kui prognoosile on lisatud prognoosimudel.</td>
 </tr>
 <tr class="even">
 <td>Eelmise hinnanguna</td>
-<td>Rakendatakse sama prognoosimeetodit, mida kasutati eelmisel perioodil. See meetod nõuab prognoosimudelit, kui eelmine periood nõudis prognoosimudelit.</td>
+<td>Kasutatakse sama hindamismeetodit mis eelmisel perioodil. Meetodi jaoks on vaja eelarvemudelit, kui eelmise perioodi jaoks oli eelarvemudel nõutav.</td>
 </tr>
 <tr class="odd">
 <td>Sea lõpetatav kulu nulliks</td>

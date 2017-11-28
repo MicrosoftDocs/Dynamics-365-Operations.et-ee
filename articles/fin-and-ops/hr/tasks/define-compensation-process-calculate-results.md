@@ -3,7 +3,7 @@ title: "Hüvitusprotsessi määratlemine ja tulemuste arvutamine"
 description: "Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga ja ergutussüsteemi plaanides registreeritud töötajatele."
 author: kherr75
 manager: AnnBe
-ms.date: 06/10/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
+ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
+ms.openlocfilehash: 9705f3fd7076e010ec4d497c4d933364f3cfcc8f
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Hüvitusprotsessi määratlemine ja tulemuste arvutamine
@@ -71,7 +71,7 @@ Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga
 16. Valige suvand väljalt Tüüp.
     * Põhipalga ja ergutussüsteemi plaane saab käitada samas tasuprotsessis.  
 17. Valige või sisestage väärtus väljal Plaan.
-    * Kasutage märkeruutu Luba tulemuspalk määramiseks, kas põhipalga ja ergutussüsteemi summasid tuleks kohandada töötaja tulemusnäitajate alusel.  
+    * Märkeruuduga Luba tulemuspalk saate määrata, kas põhipalga ja ergutussüsteemi summasid tuleks kohandada töötaja tulemusnäitajate alusel.  
     * Ergutussüsteemi plaanidel saab selle mõju alistada.  
 18. Klõpsake nuppu Salvesta.
 19. Klõpsake vahekaarti Lisa.

@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -138,7 +138,7 @@ Saate vaadata, kas väljastatud toodet saab kasutada komponendi või alamkompone
 </tr>
 <tr class="odd">
 <td>Kasutaja nõuded</td>
-<td>Kasutajanõuded tähistavad abstraktsiooni kasutajanõuete ning spetsiifiliste kompontide ja atribuutide vahel. Kasutajanõuet ei saa kaubaga vastendada. Näiteks klient soovib osta kodukinosüsteemi. Müügiesindaja võib küsida ruumi suuruse kohta, kuhu klient plaanib süsteemi paigaldada, et määrata, kui palju vatte on vaja. Selles näites võib ruumi suurus olla kasutajanõue, mis aitab määratleda konkreetse komponendi sobivat atribuudi väärtust. Saate peita kasutajanõuded nii, et neid ei kuvata kasutajale konfiguratsiooniseansi ajal. Atribuudid, alamkomponendid ja kasutajanõuded, mis on seotud kasutajanõuetega, on ka peidetud. Saate kirjutada tingimuse, et kontrollida, kas kasutajanõue võib olla peidetud. Peate kirjutama tingimuse, kasutades optimeerimise modelleerimiskeele (OML) süntaksit.</td>
+<td>Kasutajanõuded tähistavad abstraktsiooni kasutajanõuete ning spetsiifiliste kompontide ja atribuutide vahel. Kasutajanõuet ei saa kaubaga vastendada. Näiteks klient soovib osta kodukinosüsteemi. Müügiesindaja võib küsida ruumi suuruse kohta, kuhu klient plaanib süsteemi paigaldada, et määrata, kui palju vatte on vaja. Selle näite puhul võib ruumi suurus olla kasutajanõue, mis aitab määrata sobivat atribuudi väärtust konkreetsele komponendile. Kasutajanõudeid saab peita nii, et neid ei kuvata kasutajale konfiguratsiooniseansi ajal. Atribuudid, alamkomponendid ja kasutajanõuded, mis on seotud kasutajanõuetega, on ka peidetud. Saate kirjutada tingimuse, et kontrollida, kas kasutajanõue võib olla peidetud. Peate kirjutama tingimuse, kasutades optimeerimise modelleerimiskeele (OML) süntaksit.</td>
 </tr>
 <tr class="even">
 <td>Koosluseread</td>

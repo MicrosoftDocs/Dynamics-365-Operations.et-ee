@@ -3,24 +3,24 @@ title: Inimressursid
 description: "Inimressursside moodul hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib teie organisatsiooni personalitegevuste protsesse. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks. Need valdkonnad on töötajate töölevõtmine ja hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine."
 author: rschloma
 manager: AnnBe
-ms.date: 07/06/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 20931
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 217eef722383cf0ad9dfdfbe5ca2973eb1337fe1
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -66,7 +66,7 @@ Kui olete töötajad palganud, saate koostada plaane tasu tulemuslikuks ja õigl
 
 ## <a name="develop-and-train-employees"></a>Töötajate arendamine ja koolitamine
 
-Selleks et aidata oma töötajatel jõuda nende karjäärieesmärkideni, täites samas oma tähtsaid äriülesandeid, saate seadistada eesmärke, luua jõudluse ülevaatusi ning jälgida tagasisidet. Selleks et aidata töötajatel arendada vajalikke oskusi, saate enne kursusele juhendaja määramist või kellegi registreerimist kursusele seadistada ka juhendajaid, kursusetüüpe, kursuseid, kursusekirjeldusi, päevakordi, teid ja seansse. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
+Saate seadistada eesmärke, luua tulemuste ülevaatusi ja jälgida tagasisidet, et aidata töövõtjatel saavutada karjäärieesmärke, täites samas äriliselt kriitilisi ülesandeid. Selleks et aidata töövõtjatel vajalikke oskusi arendada, saate ka seadistada juhendajad, kursusetüübid, kursused, kursusekirjeldused, päevakorrad, teed ja sessioonid enne kursusele juhendaja määramist või kellegi registreerimist kursusele. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
 
 -   [Jõudlushaldus](../../talent/performance-management-overview.md)
 -   [Töötajate oskuste ja ärivajaduste joondamine](../../talent/skills.md)

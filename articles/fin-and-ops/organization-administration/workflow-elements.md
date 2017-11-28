@@ -1,27 +1,27 @@
 ---
 title: "Töövoo elemendid"
-description: "Selles artiklis kirjeldatakse mitmesuguseid elemente, millest töövoog koosneb."
+description: "Selles teemas kirjeldatakse mitmesuguseid elemente, millest töövoog koosneb."
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse mitmesuguseid elemente, millest töövoog koosneb.
+Selles teemas kirjeldatakse mitmesuguseid elemente, millest töövoog koosneb.
 
 Töövoog koosneb elementidest. Järgmised jaotised kirjeldavad iga elemenditüüpi.
 
@@ -59,7 +59,7 @@ Töövoog koosneb elementidest. Järgmised jaotised kirjeldavad iga elemenditü�
 -   Taotlege dokumendi muutmist.
 -   Määrake dokument teisele kasutajale kinnitamiseks.
 
-## <a name="lineitem-workflow-elements"></a>Lineitemi töövoo elemendid
+## <a name="line-item-workflow-elements"></a>Rea kauba töövoo elemendid
 Töövoo saab luua kas dokumentide või dokumendi reakaupade töötlemiseks. Näiteks olete loonud kinnitustöövoo ajatabelite jaoks. (Viitame sellele töövoole kui *dokumenditöövoole*.) Saate sellele dokumendi töövoo elemendile lisada *rea kauba töövoo*. Rea kauba elemendi käitamisel esitatakse dokumendi iga reakaup töötlemiseks. Võite lasta kõiki rea kaupu töödelda sama rea kauba töövooga või lasta iga reakaupa töödelda eraldi rea kauba töövooga. Oletagem, et töötaja on esitanud ajatabeli, mis sarnaneb järgmisel joonisel toodule.
 
 ![Töövoog rea kaupadega](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ Selles stsenaariumis võib olla vaja luua järgmised reaüksuse töövood.
 -   **Rea kauba töövoog 2** – seda töövoogu kasutatakse rea kaupade töötlemiseks, kui projekti ID on 2222.
 -   **Rea kauba töövoog 3** – seda töövoogu kasutatakse rea kaupade töötlemiseks, kui projekti ID on 3333.
 
-## <a name="flowcontrol-elements"></a>Voo juhtelemendid
+## <a name="flow-control-elements"></a>Voo juhtelemendid
 Järgmised elemendid võimaldavad teil kujundada töövood, mis on alternatiivsed harud või samal ajal töötavad harud.
 
 ### <a name="manual-decision"></a>Käsitsi otsus

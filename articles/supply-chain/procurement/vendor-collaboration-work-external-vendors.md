@@ -3,14 +3,14 @@ title: "Hankija koostöö väliste hankijatega"
 description: "See teema kirjeldab, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
-ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,6 +33,8 @@ ms.lasthandoff: 10/05/2017
 See teema kirjeldab, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta.
 
 Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 for Finance and Operations. See võimaldab hankijatel töötada ostutellimuse, arve ja veose varude teabega. See teema kirjeldab, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostöö liidest ostutellimuste ja veoste varudega töötamiseks. See kirjeldab ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad ostutellimusele. Lisateavet selle kohta, mida välised hankijad saavad hankija koostöö liideses teha, leiate teemast [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+
+Teemas kirjeldatud teave hankija koostöö kohta kehtib ainult Dynamics 365 for Finance and Operationsi praeguse versiooni puhul. Microsoft Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonis kasutate hankijatega koostöö tegemiseks hankijaportaali moodulit. Hankijaportaali mooduli kohta teabe saamiseks vt [Hankijatega koostöö tegemine hankijaportaali abil](collaborate-vendors-vendor-portal.md).
 
 Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
@@ -161,7 +163,7 @@ Vastusel näete varem nimetatud reaolekuid, mis näitavad hankija tehtud muudatu
 
 Saate ostutellimust uuendada, klõpsates vastusel või ühel real korraga tegevust **Töötle ostutellimuse uuendust**. Päises ja ridadel olev tähis **Kas ostutellimuse uuendus on töödeldud?** võimaldab näha, kas süsteem on päist või ridu töödelnud, et uuendada ostutellimust mis tahes võimalike vastusest pärinevate muudatustega. Protsessi **Töötle ostutellimuse uuendust** saab käivitada päise või rea kohta ainult ühe korra.
 
-Kõiki soovituslikke muudatusi ei saa ostutellimusel muuta. Ostutellimusel saab automaatselt teha ainult päise uuendusi ning kuupäevade ja koguste uuendusi ridadel. Teiste muudatuste puhul tuleb ostutellimust käsitsi uuendada. Praegusel juhul näitab tähis **Kas ostutellimuse uuendus on töödeldud?** olekut **Käsitsi uuendamine**. Näide muudatuse kohta, mida tuleb teha käsitsi, on see, kui hankija soovitab graafiku jaoks rea ära jagada.
+Kõiki soovituslikke muudatusi ei saa ostutellimusel muuta. Ostutellimusel saab automaatselt teha ainult päise uuendusi ning kuupäevade ja koguste uuendusi ridadel. Teiste muudatuste puhul tuleb ostutellimust käsitsi uuendada. Praegusel juhul näitab tähis **Kas ostutellimuse uuendus on töödeldud?** olekut **Käsitsi uuendamine**. Näide muudatuse kohta, mida tuleb teha käsitsi, on see, kui hankija soovitab tükeldada rea graafikuks.
 
 Real, mille olek on **Aktsepteeritud**, on kinnitatud tarnekuupäev, mis uuendatakse ostutellimusel, kui käivitate käsu **Töötle ostutellimuse uuendust**. Märkusi ja manuseid ei edastata automaatselt praegusse ostutellimusse. Pange tähele, et kui uuendate praegust ostutellimust toiminguga **Töötle ostutellimuse uuendust**, ei hinnata kaubandusleppeid ostutellimuse ridadel ümber.
 

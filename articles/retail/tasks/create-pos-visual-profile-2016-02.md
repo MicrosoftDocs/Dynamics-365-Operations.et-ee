@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b70bc95f56839da76612df2be3b35362925b977
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: 151250ed0ad68a0e5827a74918ef6323a4c4279e
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="create-a-pos-visual-profile"></a> Kassa visuaalse profiili loomine  
@@ -37,7 +37,7 @@ See protseduur selgitab uue kassa visuaalse profiili loomist. Visuaalne profiil 
 6. Klõpsake loendis valitud real olevat linki.
 7. Klõpsake väljal Kujundus otsingu avamiseks ripploendi nuppu.
 8. Klõpsake loendis valitud real olevat linki.
-9. Otsingu avamiseks klõpsake väljal Rõhuvärv ripploendi nuppu.
+9. Klõpsake väljal Rõhuvärv otsingu avamiseks ripploendi nuppu.
 10. Otsige loendist ja valige soovitud kirje.
 11. Klõpsake loendis valitud real olevat linki.
 12. Laiendage jaotist Sisselogimise taust.

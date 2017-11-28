@@ -16,17 +16,17 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07fe007005fcbbac1beecadb14dbd752376a0bd4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Tarbimistaotluse loomine
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur selgitab ostutaotluse loomise protsessi. See näitab erinevaid viise toodete otsimiseks hankekataloogist ja selliste toodete lisamiseks, mida kataloogis ei ole. Enne selle protseduuri alustamist peab teil olema seadistatud ostupoliitika, mille ostutaotluse vaiketüübiks on Tarbimine. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Protseduuri saab teha ainult kasutajaprofiiliga, mis on seadistatud töötaja profiilina.  Seda ülesannet teeb tavaliselt töötaja. Töötaja turberoll võimaldab ülesandeid teha; või juhul, kui kasutate USMF-i, saate sisse logida nime Alicia alt.
+See protseduur selgitab ostutaotluse loomise protsessi. See näitab erinevaid viise toodete otsimiseks hankekataloogist ja toodete lisamiseks, mis ei ole kataloogis. Enne selle protseduuri alustamist peab teil olema seadistatud ostupoliitika, mille ostutaotluse vaiketüübiks on Tarbimine. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Protseduuri saab teha ainult kasutajaprofiiliga, mis on seadistatud töötaja profiilina.  Seda ülesannet teeb tavaliselt töötaja. Töötaja turberoll võimaldab ülesandeid teha; või juhul, kui kasutate USMF-i, saate sisse logida nime Alicia alt.
 
 
 ## <a name="create-a-new-requisition"></a>Uue tellimuse loomine
@@ -46,12 +46,12 @@ See protseduur selgitab ostutaotluse loomise protsessi. See näitab erinevaid vi
 
 ## <a name="add-a-line-to-the-requisition"></a>Tellimusele rea lisamine
 1. Klõpsake käsku Lisa rida.
-    * Ostutaotlusele ridade lisamiseks on kaks võimalust. Kui teate juba tootenumbrit või teate, et taotlete toodet, mida ei ole tootekataloogis, saate rea lisada otse valiku „Lisa rida” abil. Teine võimalus on kasutada suvandit „Lisa tooteid”, mille puhul saate kaupade tootekataloogist otsimiseks kasutada otsingut ja filtreerimist.    
+    * Ostutaotlusele ridade lisamiseks on kaks võimalust. Kui teate juba tootenumbrit või teate, et taotlete toodet, mis ei ole tootekataloogis, saate rea lisada otse suvandiga „Lisa rida”. Teine võimalus on kasutada suvandit „Lisa tooteid”, mille puhul saate kaupade tootekataloogist otsimiseks kasutada otsingut ja filtreerimist.    
 2. Klõpsake äsja loodud rida.
     * Nõude esitaja on töötaja, kes esitas tellimuse.   
     * Vaikimisi on tellimuse koostaja töötaja, kes selle esitab. Teile peab olema antud õigus teise töötaja nimel tellimuserida ette valmistada. Kui teil on see õigus olemas, kuvatakse selles otsingus teised töötajad.  
 3. Sisestage väärtus väljale Kaubakood.
-    * Teile valimiseks saadaolevad kaubad on piiratud kategooria juurdepääsupoliitika ja ostva juriidilise isiku hankekataloogiga.   
+    * Teile valimiseks saada olevad kaubad on piiratud kategooria juurdepääsupoliitika ja ostva juriidilise isiku hankekataloogiga.   
 4. Sisestage arv väljale Kogus.
 
 ## <a name="add-more-products-to-the-requisition"></a>Tellimusele lisatoodete lisamine

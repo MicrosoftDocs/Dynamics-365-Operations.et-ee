@@ -1,9 +1,9 @@
 ---
 title: "Kaalutud keskmine kuupäev"
-description: 
+description: "Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel, milles laos olevaid kaupu hinnatakse lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel. Kaalutud keskmise põhimõtte järgi hinnatakse varude väljaminekuid lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes. 
 
-Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel. Kaalutud keskmise põhimõtte järgi hinnatakse varude väljaminekuid lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes. Kui käitate lao sulgemist kaalutud keskmist kuupäeva kasutades, tasakaalustatakse kõik igapäevased sissetulekud virtuaalse väljaminekuga. See virtuaalne väljamineku hoiab kogu vastuvõetud kogust ja väärtust. Sel virtuaalsel väljaminekul on vastav virtuaalne sissetulek, millega väljaminekud tasakaalustatakse. Seega on kõigil väljaminekutel sama keskmine kulu. Virtuaalset väljaminekut ja sissetulekut saab vaadelda kui virtuaalset ülekannet nimega *kaalutud keskmise lao sulgemise ülekanne*. 
+Kui käitate lao sulgemist kaalutud keskmist kuupäeva kasutades, tasakaalustatakse kõik igapäevased sissetulekud virtuaalse väljaminekuga. See virtuaalne väljamineku hoiab kogu vastuvõetud kogust ja väärtust. Sel virtuaalsel väljaminekul on vastav virtuaalne sissetulek, millega väljaminekud tasakaalustatakse. Seega on kõigil väljaminekutel sama keskmine kulu. Virtuaalset väljaminekut ja sissetulekut saab vaadelda kui virtuaalset ülekannet nimega *kaalutud keskmise lao sulgemise ülekanne*. 
 
 Kui sellel kuupäeval või enne seda on toimunud ainult üks sissetulek, ei ole keskmist tarvis hinnata. kõik kaubad on sealt tasakaalustatud ja virtuaalset ülekannet ei looda. Juhul kui antud kuupäeval toimuvad ainult väljaminekud, ei ole ühtegi sissetulekut, mille alusel keskmist hinnata ja virtuaalset ülekannet ei looda. Kaalutud keskmist kuupäeva kasutades saate märkida laokanded nii, et konkreetse kauba sissetulek tasakaalustatakse konkreetse väljamineku suhtes. Sel juhul ei kasutata kaalutud keskmise kuupäeva reeglit. Kui kasutate kaalutud keskmise kuupäeva laomudelit, soovitame igakuist lao sulgemist. 
 

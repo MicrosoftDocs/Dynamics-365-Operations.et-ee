@@ -1,9 +1,9 @@
 ---
 title: Liikuv keskmine
-description: 
+description: "Liikuv keskmine on pidev keskmise põhimõttel tuginev kuluarvestusmeetod, mille puhul ostuhinna muutumisel lao väljaminekute kulud ei muutu. Erinevus on kapitaliseeritud ja põhineb proportsionaalsel arvutusel. Ülejäänud summa kantakse kuludesse."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+Liikuv keskmine on pidev keskmise põhimõttel tuginev kuluarvestusmeetod, mille puhul ostuhinna muutumisel lao väljaminekute kulud ei muutu. Erinevus on kapitaliseeritud ja põhineb proportsionaalsel arvutusel. Ülejäänud summa kantakse kuludesse. 
+
+Kui kasutate liikuvat keskmist, ei toetata varude tasakaalustusi ega varude märkimist. Varude sulgemine ei mõjuta liikuval keskmisel põhineva laomudeligrupiga tooteid ja see ei loo kannete vahel tasakaalustusi.
 
 Allpool on toodud eeltingimused, kui kasutate kulumeetodina liikuvat keskmist kulu.
+
 1.  Seadistage lehel **Kauba mudelgrupid** kauba mudeligrupp, mille väljal **Laomudel** on valitud suvand Liikuv keskmine. **Märkus.** Kui valitud on suvand Liikuv keskmine, on vaikimisi valitud ka väljad **Sisesta füüsilised varud** ja **Sisesta finantsilised varud**. 
 
 2.  Määrake lehel **Sisestamine** vahekaardil **Varud** kontod suvandites **Liikuva keskmise hinnaerinevus** ja **Liikuva keskmise kulu ümberhindamine**. Kui kulu tuleb proportsionaalselt jaotada, kasutage kontot **Liikuva keskmise hinnaerinevus**. Selle põhjuseks on kulude erinevus ostu sissetuleku ja ostuarve vahel ning erinevus algse varude koguse ja praegu laos oleva koguse vahel. Kasutage kontot **Liikuva keskmise kulu ümberhindamine**, kui soovite korrigeerida toote liikuvat keskmist kulu uuele ühikuhinnale.
@@ -83,7 +87,7 @@ Selles näites korrigeeritakse toote liikuva keskmise kulu.
 Lehel **Kande tasakaalustamised** näete korrektsiooni 4,00 kontol Liikuva keskmise kulu ümberarvutamine.
 
 ## <a name="moving-average-with-production"></a>Liikuv keskmine koos tootmisega
-Liikuv keskmine toetab toodetud kaupu. Kui kavatsete kasutada liikuvat keskmist tootmiskeskkonnas, tuleb valida lehel **Tootmise juhtimise parameetrid**liugur **Kasuta eeldatavat omahinda**. See tähendab, et tegeliku koosluse arvutuse omahinna asemel kasutatakse hindamise ajal arvutatud omahinda.
+Liikuv keskmine toetab toodetud kaupu. Kui kavatsete kasutada liikuvat keskmist tootmiskeskkonnas, tuleb valida lehel **Tootmise juhtimise parameetrid** liugur **Kasuta eeldatavat omahinda**. See tähendab, et tegeliku koosluse arvutuse omahinna asemel kasutatakse hindamise ajal arvutatud omahinda.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Liikuva keskmise tagasiulatuva kandega
 Tagasiulatuvad kanded määratakse praegusele liikuva keskmise kulule ja toote füüsilist kogust värskendatakse, kuid toote liikuva keskmise kulu see ei mõjuta. Selles liikuva keskmise näites sisestatakse liikuva keskmise toote tagasiulatuv kanne.

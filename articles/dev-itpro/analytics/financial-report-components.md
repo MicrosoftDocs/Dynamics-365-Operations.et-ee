@@ -1,17 +1,17 @@
 ---
 title: Finantsaruande komponendid
 description: "Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse. Nende koosteüksuste hulka kuuluvad readefinitsioonid, veerudefinitsioonid ja aruandluspuu definitsioonid. Artikkel selgitab, kuidas koosteüksusi korraldada ja lukustada ning kuidas koosteüksuste gruppidega töötada."
-author: ShylaThompson
+author: aolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse. Nende koosteüksuste hulka kuuluvad readefinitsioonid, veerudefinitsioonid ja aruandluspuu definitsioonid. Artikkel selgitab, kuidas koosteüksusi korraldada ja lukustada ning kuidas koosteüksuste gruppidega töötada. 
+Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse. Nende koosteüksuste hulka kuuluvad readefinitsioonid, veerudefinitsioonid ja aruandluspuu definitsioonid. Artiklis selgitatakse, kuidas koosteüksusi korraldada ja lukustada. 
 
-Finantsaruannete koosturi ülesehituse filosoofia on suunatud teabe jagamisele vähimateks osadeks ehk koosteüksusteks ja siis nende osade segamine ja sobitamine vajalikul viisil. Seetõttu on teie aruande vormindamine finantsandmetest eraldi ja saate muuta aruande ülesehitust, muutmata finantsandmeid oma Microsoft Dynamics ERP süsteemis. Selle koosteüksuste lähenemisviisi abil saate vajalike aruannete loomiseks kombineerida teksti, summasid ja arvutusi. Lisaks toetab selline paindlikkus loovust, lihtsustades teil oma tegevuse vaatamist mitmesugusel viisil. Aruande definitsiooni üksikud koosteüksused sarnanevad kolmemõõtmelise arvutustabeliga, kuid on võimsamad. Aruande definitsioon määrab aruande puhul kasutatava readefinitsiooni, veeru definitsiooni ja valikulise aruandluspuu definitsiooni. See hõlmab ka teavet selle kohta, kuhu loodud aruanne salvestada ja kuidas seda vormindada. Paremaks korduvaks kasutamiseks ja jagamiseks saate luua koosteüksuste grupi, mis on olemasoleva aruande definitsioonide, readefinitsioonide, veeru definitsioonide, aruandluspuu definitsioonide ja dimensioonikogumite kollektsioon, mis on ettevõttega seotud.
+Finantsaruannete koosturi ülesehituse filosoofia on suunatud teabe jagamisele vähimateks osadeks ehk koosteüksusteks ja siis nende osade segamine ja sobitamine vajalikul viisil. Seetõttu on teie aruande vormindamine finantsandmetest eraldi ja saate muuta aruande ülesehitust, muutmata finantsandmeid oma Microsoft Dynamics ERP süsteemis. Selle koosteüksuste lähenemisviisi abil saate vajalike aruannete loomiseks kombineerida teksti, summasid ja arvutusi. Lisaks toetab selline paindlikkus loovust, lihtsustades teil oma tegevuse vaatamist mitmesugusel viisil. Aruande definitsiooni üksikud koosteüksused sarnanevad kolmemõõtmelise arvutustabeliga, kuid on võimsamad. Aruande definitsioon määrab aruande puhul kasutatava readefinitsiooni, veeru definitsiooni ja valikulise aruandluspuu definitsiooni. See hõlmab ka teavet selle kohta, kuhu loodud aruanne salvestada ja kuidas seda vormindada. 
 
-## <a name="building-blocks-of-a-report"></a> Aruande koosteüksused
-| Koosteüksus            | Kirjeldus                                                                                                                                                                                                                                                                              | Lisateave                                                                                                 |
-|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+## <a name="building-blocks-of-a-report"></a>Aruande koosteüksused
+| Koosteüksus            | Kirjeldus                     | Lisateave                                    |
+|---------------------------|---------------------------------|---------------------------------------------------------|
 | Rea definitsioon            | Readefinitsioon määratleb kirjeldavad read (näiteks palga või müügi) aruandel. See loetleb ka segmendi väärtused või dimensioonid, mis sisaldavad iga reaüksuse väärtusi, ja hõlmab rea vormindamist ning arvutusi.                                                    | [Readefinitsioonid](row-definitions-financial-reporting.md)                       |
 | Veeru määratlus         | Veeru definitsioon määratleb finantsdimensioonidest andmete ekstraktimisel kasutatava perioodi. See hõlmab ka veeru vormindamist ja arvutusi.                                                                                                                                 | [Veeru definitsioonid](column-definitions-financial-reports.md)         |
 | Aruandluspuu definitsioon | Aruandluspuu definitsioon sarnaneb organisatsiooni skeemiga. See sisaldab üksikuid aruandlusüksusi, mis tähistavad diagrammi igat välja. Üksusteks võivad olla kas finantsandmete üksikud osakonnad või kõrgema taseme üksused, mis koondavad muude aruandlusüksuste andmeid. | [Aruandluspuu definitsioonid](financial-reporting-tree-definitions.md) |
@@ -67,44 +67,20 @@ Lukustatud koosteüksuse avamiseks avage koosteüksus ja seejärel klõpsake tö
 
 ## <a name="building-block-groups"></a>Koosteüksuste grupid
 
-Koosteüksused on aruande puhul loodavad readefinitsioonid, veeru definitsioonid, aruandluspuu definitsioonid ja aruande definitsioonid. Koosteüksuste grupid on ettevõttega seotud definitsioonide ja dimensioonikogumite kogud. Koosteüksuste grupid võivad olla ettevõttepõhised või mitu ettevõtet võivad sama koosteüksuste kogumit jagada. Kui mõnel ettevõtetest on teistsugune kontoplaan, võite kasutada iga ettevõtte puhul erinevat koosteüksuste gruppi. Teise võimalusena võib anda kõigile koosteüksustele nime, mis kajastab ettevõtet, millega need sobivad.
-### <a name="create-a-building-block-group"></a>Koosteüksuste grupi loomine
+Koosteüksused on aruande puhul loodavad readefinitsioonid, veeru definitsioonid, aruandluspuu definitsioonid ja aruande definitsioonid. Koosteüksuse grupid on definitsioonide ja dimensioonikogumid. 
 
-1.  Klõpsake aruandekoosturi menüüs **Ettevõte** valikut **Koosteüksuste grupid**.
-2.  Klõpsake dialoogiboksis **Koosteüksuste rühmad** suvandit **Uus**.
-3.  Sisestage koosteüksuste grupi kordumatu nimi ja kirjeldus. Iga väli võib sisaldada kuni 256 märki. (See number sisaldab tühikuid.)
-4.  Uue koosteüksuste grupi loomiseks klõpsake nuppu **OK**.
 
-### <a name="assign-a-building-block-group"></a>Koosteüksuste grupi määramine
+### <a name="view-a-building-block-group"></a>Koosteüksuste rühma vaatamine
 
-Pärast üksuste grupi loomist tuleb määrata see vähemalt ühele ettevõttele. Seejärel saate luua aruande, rea, veeru ja aruandluspuu definitsioonid ja need koosteüksuste gruppi salvestada. Enne järgmise protseduuri alustamist peate kõik koosteüksused sulgema.
-1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Ettevõtted**.
-2.  Valige dialoogiboksis **Ettevõtted** mõni ettevõte, millele koosteüksuste rühm määrata.
-3.  Klõpsake nuppu **Muuda**.
-4.  Valige dialoogiboksi **Ettevõtte muutmine** väljalt **Koosteüksuste grupp** ettevõttele määratav koosteüksuste grupp või klõpsake uue koosteüksuste grupi loomiseks suvandit **Uus**.
-5.  Koosteüksuste grupi määramiseks klõpsake nuppu **OK**.
-6.  Klõpsake käsku **Sule** dialoogiboksi **Ettevõtted** sulgemiseks. Teie valitud koosteüksuste grupp määratakse nüüd ettevõttele. Nüüd kuuluvad kõik loodud uued readefinitsioonid, veeru definitsioonid jm sellele ettevõttele määratud koosteüksuste gruppi. Saate importida ka faili .TDBX või esitada aruande teisest süsteemist.
-
-### <a name="view-a-building-block-group"></a> Koosteüksuste grupi kuvamine
-
-Pärast koosteüksuste grupi loomist ja kasutusele võtmist saate vaadata kõiki sellele määratud koosteüksusi. Samuti saate koosteüksuste gruppi eksportida või importida ja koosteüksuste gruppidele täiendavat hooldust teha.
-1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Koosteüksuste grupid**.
+Saate vaadata kõiki koosteüksusi, mis on määratud koosteüksuste rühmale. Saate koosteüksuste rühma eksportida või importida.
+1.  Klõpsake aruandekoosturis menüü **Ettevõte** suvandit **Koosteüksuste rühmad**.
 2.  Valige dialoogiboksist **Koosteüksuste grupid** kuvatav koosteüksus.
 3.  Klõpsake käsku **Kuva** dialoogiboksi **Koosteüksuste grupi kuvamine** avamiseks, kus saate koosteüksuste grupi sisu kuvada.
-4.  Dialoogibokside sulgemiseks klõpsake käsku **Sule**.
+4.  Klõpsake dialoogibokside sulgemiseks suvandit **Sulge**.
 
-### <a name="save-a-building-block-group-under-a-new-name"></a>Koosteüksuste grupi salvestamine uue nimega
+### <a name="export-a-building-block-group"></a>Koosteüksuste rühma eksportimine
 
-Saate olemasoleva koosteüksuste grupi uue nimega salvestada. Seejärel saate uut koosteüksuste gruppi muuta ilma algset koosteüksuste gruppi muutmata.
-1.  Klõpsake aruandekoosturis menüü **Ettevõte** suvandit **Koosteüksuste rühmad**.
-2.  Valige dialoogiboksist **Koosteüksuste grupid** uue nimega salvestatav koosteüksuste grupp.
-3.  Klõpsake käsku **Salvesta nimega**.
-4.  Sisestage koosteüksuste grupi uus nimi ja kirjeldus.
-5.  Klõpsake nupul **OK**. Uus koosteüksuste grupp kuvatakse dialoogiboksis **Koosteüksuste grupid**.
-
-### <a name="export-a-building-block-group"></a> Koosteüksuste grupi eksportimine
-
-Saate koosteüksuste rühma või koosteüksuste rühma kuuluvaid kindlaid aruande koosteüksusi eksportida. Eksporditud koosteüksuste rühma saate kasutada varukoopiana. Saate eksporditud andmeid ka koosteüksuse gruppide või rakenduse Finance and Operations seadmete vahel kopeerida. Aruandekoostur sisaldab viidatud fondilaade ja dimensioongruppe koos koosteüksuste grupiga.
+Saate koosteüksuste rühma või koosteüksuste rühma kuuluvaid kindlaid aruande koosteüksusi eksportida. Eksporditud koosteüksuste rühma saate kasutada varukoopiana. Saate eksporditud andmeid ka rakenduse Finance and Operations installide vahel kopeerida. Aruandekoostur sisaldab viidatud fondilaade ja dimensioongruppe koos koosteüksuste grupiga.
 1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Koosteüksuste grupid**.
 2.  Valige dialoogiboksis **Koosteüksuste rühmad** eksporditav koosteüksuste rühm ning klõpsake seejärel suvandit **Ekspordi**.
 3.  Valige dialoogiboksist **Eksport** eksporditavad aruande definitsioonid.
@@ -118,7 +94,7 @@ Saate koosteüksuste rühma või koosteüksuste rühma kuuluvaid kindlaid aruand
 
 ### <a name="import-a-building-block-group"></a> Koosteüksuste grupi importimine
 
-Saate importida koosteüksuste grupi olemasolevasse koosteüksuste gruppi või luua andmetele uue koosteüksuste grupi. Kõik imporditud koosteüksuste grupid säilitavad algsed fondilaadid ja ettevõtteviited ning sisaldavad vastavaid dimensioonikogumeid.
+Saate koosteüksuste rühma importida olemasolevasse koosteüksuste rühma. Kõik imporditud koosteüksuste grupid säilitavad algsed fondilaadid ja ettevõtteviited ning sisaldavad vastavaid dimensioonikogumeid.
 1.  Klõpsake aruande kujundaja menüüs **Ettevõte** suvandit **Koosteüksuste grupid**.
 2.  Valige dialoogiboksis **Koosteüksuste rühmad** koosteüksuste rühm, millesse soovite teise koosteüksuste rühma importida, ning klõpsake seejärel suvandit **Impordi**.
 3.  Valige dialoogiboksis **Avamine** imporditav koosteüksuste rühm ning klõpsake seejärel suvandit **Ava**.

@@ -1,9 +1,9 @@
 ---
 title: Projektilepingud
-description: "Artikkel kirjeldab projektilepinguid ja toob näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näitab, kuidas hallata Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis lepinguid ja arveprojekti kliente."
+description: "Teema kirjeldab projektilepinguid ja toob näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näitab, kuidas hallata lepinguid ja arveprojekti kliente rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Artikkel kirjeldab projektilepinguid ja toob näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näitab, kuidas hallata Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis lepinguid ja arveprojekti kliente.
+Artikkel kirjeldab projektilepinguid ja toob näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näitab, kuidas hallata lepinguid ja arveprojekti kliente rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Projektilepingu jaoks loodav projekti tüüp määratleb meetodi, mida kasutatakse projekti klientidele arvete esitamiseks. Projekti lepingut ja seotud projekti saab muuta, kuid projekti tüüpi ei saa muuta. 
 
@@ -224,7 +224,7 @@ Järgmises tabelis käsitletakse seda stsenaariumi täpsemalt.
 </tr>
 <tr class="odd">
 <td>Kanne 2</td>
-<td><strong>Kande summa:</strong> 5000.00<strong>Rahastamine:</strong> Kande eest makstakse kõigi kolme reegli alusel.<strong>Reegel 1</strong>
+<td><strong>Kande summa:</strong> 5000.00<strong>Rahastamine:</strong> Kande eest makstakse kõigi kolme reegli alusel. <strong>Reegel 1</strong>
 <ul>
 <li>Rahastamise allikas 2: 450.00</li>
 <li>Rahastamise allikas 3: 450.00</li>

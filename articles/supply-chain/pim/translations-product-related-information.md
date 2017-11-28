@@ -3,7 +3,7 @@ title: "Tootega seotud tõlgete KKK"
 description: "Selles teemas kirjeldatakse tõlkeid toote atribuutide tooted ja dimensiooniväärtuste haldamiseks."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ Saate tõlkida tootega seotud teavet mis tahes keelde, mis on lehel **Teksti tõ
 ## <a name="where-can-i-view-the-translated-information"></a>Kui saate vaadata teisendatud teavet?
 Saate vaadata mis tahes välise dokumendi, nt arve, mis kasutab keelt, kui tõlge on olemas tõlked seotud teave.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Kuidas luua tootega seotud teabe tõlkeid?
+## <a name="how-do-i-create-translations-for-product-related-information"></a>Kuidas luua tootega seotud teabe tõlkeid?
 Tootele tõlke loomiseks tehke järgmist.
 1.  Klõpsake valikuid **Tooteteabe haldus** &gt; **Üldine** &gt; **Väljastatud tooted**.
 2.  Valige toode ja klõpsake tegumiribal grupis **Keeled** nuppu **Tõlked**.
@@ -124,7 +124,7 @@ Dimensioonigrupp väärtus väärtuste tõlked haldamiseks toimige järgmiselt:
 1.  Järgige eelmist protseduuri dimensiooniväärtuse grupi loomise kohta, et avada leht **Suurusgrupi read**, **Värvigrupi read** või **Stiiligrupi read**.
 2.  Klõpsake valikut **Teksti tõlge**. Lehel **Teksti tõlge** grupis **Tõlgitud tekst** sisestage tõlked väljadele **Nimi** ja **Kirjeldus**.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Millal saab tootega seotud teabe tõlkeid hallata?
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>Kui teabe tõlked hallatud?
 Tootega seotud teabe tõlkeid saab mis tahes ajal hallata. Dimensiooniväärtuse seostatud toote tõlked uuendamisel uuendatakse tootekirjelduse sõltumata sellest, kas toode on kandeid.
 
 

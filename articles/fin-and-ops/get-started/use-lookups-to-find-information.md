@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 76f4fa558dca2964d898975f004ebdccdee5e998
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 013901724864092571099835b2c71b297710ff03
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -75,7 +75,7 @@ Eelmises kahes jaotises kirjeldatud otsingu täiustused parandavad suuresti kasu
 
 ![emptyitemlookup](./media/emptyitemlookup.png) 
 
-Selle asemel peab kasutaja eemaldama otsingu juhtelemendi väärtuse, avama otsingu rippmenüü ja filtreerima rippmenüü, kasutades ruudustiku veeru päist, nagu allpool on näidatud. Hiirt (või puudutamist) kasutav kasutaja saab lihtsalt klõpsata (või puudutada) mis tahes veerupäist, et saada juurdepääs selle veeru filtreerimise ja sortimise suvanditele. Klaviatuuri kasutaja peab lihtsalt vajutama teist korda klahvikombinatsiooni **Alt**+**Allanool** ****, et liigutada fookus rippmenüüle, pärast mida saab kasutaja tabeldusklahvi abil õigesse veergu liikuda ja vajutada seejärel klahvikombinatsiooni **Ctrl**+**G**, et avada ruudustiku veeru päise rippmenüüd. 
+Selle asemel peab kasutaja eemaldama otsingu juhtelemendi väärtuse, avama otsingu rippmenüü ja filtreerima rippmenüü, kasutades ruudustiku veeru päist, nagu allpool on näidatud. Hiirt (või puudutamist) kasutav kasutaja saab lihtsalt klõpsata (või puudutada) mis tahes veerupäist, et saada juurdepääs selle veeru filtreerimise ja sortimise suvanditele. Klaviatuuri kasutaja peab lihtsalt vajutama teist korda klahvikombinatsiooni **Alt**+**Allanool**, et liigutada fookus rippmenüüle, pärast mida saab kasutaja tabeldusklahvi abil õigesse veergu liikuda ja vajutada seejärel klahvikombinatsiooni **Ctrl**+**G**, et avada ruudustiku veeru päise rippmenüüd. 
 
 [![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png) 
 

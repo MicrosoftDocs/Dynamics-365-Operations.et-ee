@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 09/29/2017
 
 See teema sisaldab finantsaruande koostamise üldteavet. 
 
-Aruande loomiseks avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo. Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne veebivaaturis.
-| ![Märkus](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Märkus")**Märkus**        |
-|------------------------------------------------------------------------------------------------|
-| Saate luua aruandeid ainult kaustadesse ja asukohtadesse, millele teil on juurdepääsuluba. |
+Aruande loomiseks avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo. Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne Web Vieweris.
+
+> [!NOTE]
+> Saate luua aruandeid ainult kaustadesse ja asukohtadesse, millele teil on juurdepääsuluba.
 
 Järgmises tabelis selgitatakse aruannete loomiseks saadaolevaid suvandeid.
 
@@ -50,10 +50,11 @@ Aruande loomisel kasutatakse valikuid, mille olete määranud valiku Aruande def
 ## <a name="schedule-report-generation"></a> Aruande graafiku loomine
 Paljudel ettevõtetel on tuumik aruandeid, mida käivitatakse plaanitud ajavahemike järel äriprotsessidega kooskõlastamiseks. Saate plaanida aruande regulaarselt loomise, näiteks iga päev, nädal, kuu või aasta. Tegemist võib olla ühe aruandega või mitut ettevõtet hõlmava aruannete rühmaga. Peate sisestama iga määratletud ettevõtte mandaadid, nagu aruandluspuu definitsiooniski. Kui mandaadid on kehtetud, kuvatakse aruandes ainult teave, millele teil on juurdepääsuõigus, nt ettevõte, kuhu olete sisse logitud. Väljundi teavet loetakse esmalt aruannete grupist ja seejärel üksikutest aruannetest.
 
-Aruande graafikute loomisel ja salvestamisel kuvatakse need navigeerimispaanil suvandi Aruande graafikud all. Saate aruannete korraldamiseks kaustu luua. Kui graafiku üks aruanne ei käivitu, jätkatakse kõigi teiste aruannete käivitamist.
-| ![Tähtis](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Tähtis")**Tähtis**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aruande graafikute loomiseks, muutmiseks ja kustutamiseks peab teil olema kujundaja või administraatori roll. Aruande käivitamisel kasutatakse aruande loomiseks graafiku loonud kasutaja mandaate. |
+Aruande graafikute loomisel ja salvestamisel kuvatakse need navigeerimispaanil suvandi Aruande graafikud all. Saate aruannete korraldamiseks kaustu luua. Kui üht graafikus olevat aruannet ei käitata, siis kõiki teisi aruandeid käitatakse endiselt.
+
+> [!IMPORTANT]
+> Graafikute loomiseks, muutmiseks ja kustutamiseks peab teil olema kujundaja või administraatori roll. Aruande käivitamisel kasutatakse aruande loomiseks graafiku loonud kasutaja mandaate.
+
 
 ### <a name="create-a-report-schedule"></a>Aruande graafiku loomine
 
@@ -99,15 +100,16 @@ Jätkamiseks klõpsake nuppu Load dialoogiboksis Aruande plaanimine ja seejärel
 ## <a name="missing-account-analysis-feature"></a>Puuduvate kontode analüüsi funktsioon
 Saate otsida finantskontosid ja dimensioone, mis võivad olla puudu koosteüksuste grupi kõigis readefinitsioonides, aruandluspuu definitsioonides ja aruande definitsioonides. See on kasulik mitme konto või koosteüksuse loomisel või värskendamisel lühikese aja jooksul ja kui soovite kontrollida, kas kogu teave on aruannetesse kaasatud.
 
-Puuduvad kontod määratakse, kasutades readefinitsiooni või aruandluspuu definitsiooni kõige madalamaid ja kõrgemaid väärtusi ja seejärel kuvatakse loend kontodest, mida pole readefinitsioonis või aruandluspuu definitsioonis, kuid on finantsandmetes. Kui puuduv konto on readefinitsiooni väärtustest suurem või väiksem, ei kaasata seda kontot puuduvate kontode loendisse.
-| ![Näpunäide](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Näpunäide")**Näpunäide**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Kinnitamise eesmärgil tuleks see protsess käivitada enne igakuiste aruannete loomist ja uute koosteüksuste loomisel. |
+Puuduvad kontod määratakse, kasutades readefinitsiooni või aruandluspuu definitsiooni kõige madalamaid ja kõrgemaid väärtusi ja seejärel kuvatakse loend kontodest, mida pole readefinitsioonis või aruandluspuu definitsioonis, kuid on finantsandmetes. Kui puuduv konto on reamääratluse väärtustest suurem või väiksem, siis ei lisata kontot puuduvate kontode loendisse.
+
+> [!TIP]
+> Protsessi tuleb kinnitamiseks käitada enne igakuiste aruannete ja uute koosteüksuste loomist.
 
 Väärtuste vahemikega aruannete puhul on kontode puudumine vähem tõenäoline. Võimaluse korral kasutage koosteüksuse vahemikke uute kontode lisamiseks nende loomisel. Kui mis tahes aruande definitsioon on määratud ettevõttele @ANY, saate konkreetsesse ettevõttesse sisse logida ja selle ettevõtte puhul puuduva konto analüüsi käivitada.
-| ![Märkus](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Märkus")**Märkus**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kui on lisatud uus ettevõte, peate lisama uue ettevõtte mis tahes olemasolevate aruannete aruandluspuudesse, vastasel korral ettevõtet puuduva konto analüüsi ei kaasata. |
+
+> [!NOTE]
+> Kui on lisatud uus ettevõte, peate lisama uue ettevõtte mis tahes olemasolevate aruannete aruandluspuudesse, vastasel korral ettevõtet puuduva konto analüüsi ei kaasata.
+
 
 ### <a name="run-missing-account-analysis"></a>Puuduva konto analüüsi käivitamine
 
@@ -117,11 +119,11 @@ Väärtuste vahemikega aruannete puhul on kontode puudumine vähem tõenäoline.
 4.  Valige väljal Rühmitusalus suvand tulemuste sortimiseks. Võite sortida tulemusi asjakohase koosteüksuse alusel või dimensioonide ja väärtuste kogumite järgi.
 5.  Vaadake kuvatavad tulemused üle. Kui valite ülemisel paanil üksuse, kuvatakse alumisel paanil lisateavet erandi kohta. See hõlmab seotud dimensioone, väärtusi ja aruandeid.
 6.  Seotud üksuse avamiseks klõpsake loendi paanil kuvatavat seotud ikooni või paremklõpsake üksust ja valige käsk Ava. Mitme üksuse valimiseks hoidke alumisel paanil üksuste valimisel all klahvi Ctrl.
-7.  Mis tahes väärtuste, koosteüksuste või aruannete tagastamisel, mis ei tohiks aruandesse kaasatud olla, paremklõpsake üksust ja valige üksuse loendist eemaldamiseks käsk Välista või valige üksuse kõrval olev märkeruut Välista. Loendi värskendamisel välistatud üksusi ei kaasata. Mitme üksuse valimiseks hoidke alumisel paanil üksuste valimisel all klahvi Ctrl. Kõigi üksuste, sh eelnevalt analüüsist välistamiseks valitud mis tahes üksuste kuvamiseks valige märkeruut Kuva välistatud koosteüksused ja väärtused ja seejärel klõpsake käsku Värskenda.
-8.  Klõpsake käsku Värskenda, et värskendada erandeid, mida olete hallanud. Kõigi tulemuste täielikuks värskendamiseks klõpsake suvandit Jah või klõpsake osutatud üksuste osaliseks värskendamiseks suvandit Ei.
-    | ![Märkus](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Märkus")**Märkus**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | Vormi värskendatakse automaatselt selle avamisel, v.a juhul, kui vorm on olnud avatud viimased 15 minutit. |
+7.  Mis tahes väärtuste, koosteüksuste või aruannete tagastamisel, mis ei tohiks aruandesse kaasatud olla, paremklõpsake üksust ja valige üksuse loendist eemaldamiseks käsk Välista või valige üksuse kõrval olev märkeruut Välista. Loendi värskendamisel välistatud üksusi ei kaasata. Alumisel paanil mitme üksuse valimiseks hoidke all klahvi Ctrl. Kõikide, sealhulgas varem analüüsist välistatud üksuste vaatamiseks valige märkeruut Kuva väljajäetud koosteüksused ja väärtused ning klõpsake käsku Värskenda.
+8.  Klõpsake käsku Värskenda, et värskendada erandeid, mida olete hallanud. Kõikide tulemuste värskendamiseks klõpsake valikut Jah, ainult hallatud üksuste värskendamiseks klõpsake valikut Ei.
+
+    > [!NOTE]
+    > Avamisel värskendatakse vormi automaatselt, v.a juhul kui vormi on avatud viimase 15 minuti jooksul.
 
 9.  Probleemide lahendamisel klõpsake dialoogiboksi sulgemiseks nuppu OK.
 

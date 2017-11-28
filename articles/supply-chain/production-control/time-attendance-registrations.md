@@ -1,9 +1,9 @@
 ---
 title: "Tööajaarvestuse registreerimine"
-description: "Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See artikkel kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks."
+description: "Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See teema kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See artikkel kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks. 
+Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See teema kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks. 
 
 <a name="registrations"></a>Registreerimised
 -------------
@@ -66,7 +66,7 @@ Pärast seadistamist saavad töötajad sisestada erinevat tüüpi registreerimis
 -   Kaudsed tootmisega mitteseotud tegevused, millega töötaja võib tööpäeva jooksul tegeleda. Need tegevused on näiteks koosolekud või töökoha koristamine.
 -   Ületunnitöö, mille saab registreerida kas lisatundide, paindaja või ületunnitööna.
 
-## <a name="adding-clockout-registrations"></a>Väljaregistreerimiste lisamine
+## <a name="adding-clock-out-registrations"></a>Väljaregistreerimiste lisamine
 Kui töötaja unustab tööpäeva lõpul välja registreeruda, saab puuduva registreerimise lisada pakett-töö käitamisega. Süsteemi võrdleb sisseregistreerimise ja väljaregistreerimise aega töötaja seostatud profiiliga ning sisestab puuduva väljaregistreerimisaja automaatselt, et ühitada see profiili lõppajaga. Nii sisse- kui ka väljaregistreerimised on väga olulised järgnevaks arvutuseks ja ajaliste registreerimiste kinnitamiseks, enne kui need saab palgaarvestusse üle kanda.
 
 ## <a name="calculating-registrations"></a>Registreerimiste arvutamine

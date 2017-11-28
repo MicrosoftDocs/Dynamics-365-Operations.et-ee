@@ -3,7 +3,7 @@ title: "Hankija maksete ülevaade"
 description: "See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri meetodite, sh selle kohta, kuidas kasutada maksesoovitust või sisestada ühekordset makset käsitsi."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
+ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
+ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="vendor-payment-overview"></a>Hankija maksete ülevaade
@@ -43,7 +43,7 @@ See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri 
 11. Valikuline: sisestage varaseim maksekuupäev, mida võib maksekuupäevana kasutada.
     * Varaseim maksekuupäev on maksete loomisel kasutatav varaseim kuupäev. Näiteks kui arve tähtaeg on pärast varaseimat maksekuupäeva, muutub tähtaeg varaseima maksekuupäeva asemel maksekuupäevaks, et võimaldada arve maksmist võimalikult hilisel kuupäeval.  
 12. Sisestage täiendavad päringu piirangud suvandis Kaasatavad kirjed.
-    * Filtrit kasutatakse sageli hankijagrupi või makseviisi makse puhul valitud arvete piiramiseks. Näiteks võite lisada filtri, et maksta selle arvestusperioodi arveid ainult tšekiga.  
+    * Filtrit kasutatakse sageli hankijagrupi või makseviisi makse puhul valitud arvete piiramiseks. Näiteks võite lisada filtri, et maksta arveid ainult selle palgaarvestusperioodi registreerimise järgi.  
 13. Sisestage täiendav päringu piirang või makse vaikesätted. 
     * Täiendavaid parameetreid saab kasutada makse valuuta määratlemiseks või selle palgaarvestusperioodi tsentraliseeritud maksete võimaldamiseks.  
 14. Klõpsake nuppu OK.

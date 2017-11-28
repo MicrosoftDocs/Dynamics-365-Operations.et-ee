@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 000bfcf5c3daea75fc257374dd471c62e94fbc16
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -45,7 +45,7 @@ Näiteks töötab allhankija oma asukoha lõpplaost väljaspool. Kui materjali k
 
 Allhankijat saab kasutada tootmisvoo üldvõimsuse koormuse tasakaalustamiseks. Näiteks kujundatakse tootmisvoog plaanitud kanban-reegleid kasutades. Plaanija kasutab mõlema tööraku nõudepõhiseks plaanimiseks ja tasakaalustamsieks kanbani plaanimistahvlit. Plaanija jälgib ka lõpplao konsolideeritud tarnegraafikut lehel **Tarnegraafik**. Mitu allhankijat saab kujundada ühes või mitmes tootmisvoos ja sama toote tarnimiseks samasse asukohta erinevate tegevuste kaudu võib kehtestatud olla mitu kanban-reeglit. Plaanija saab teisendada kanbanid alternatiivseks kanban-reegliks, et algselt sisemise tootmise jaoks loodud kanban alternatiivse protsessi jaoks ümber plaanida. Tööraku allhankeline loomus ei mõjuta mingil moel tootmisvoogu. Sama tööpõhimõte kehtib kahe paralleelse sisemise tööraku või kahe allhankeraku puhul.   
 
-Nagu mis tahes muu tegevus tootmisvoos, võivad allhanketegevused tarbija ja tarnida inventeeritud, inventeerimata (lõpetamata töö \[\]) ja poolvalmis materjale ning tooteid, Kõigil juhtudel on allhanketegevuste plaanimise ja käivitamise protsessid samad. Samuti on need protsessid samad mis sisetöö puhul.
+Nagu mis tahes muu tegevus tootmisvoos, võivad allhanketegevused tarbija ja tarnida inventeeritud, inventeerimata (lõpetamata töö \[WIP\]) ja poolvalmis materjale ning tooteid, Kõigil juhtudel on allhanketegevuste plaanimise ja käivitamise protsessid samad. Samuti on need protsessid samad mis sisetöö puhul.
 
 ## <a name="purchase-process-for-subcontracted-activities-services"></a>Allhanketegevuste (teenuste) ostuprotsess
 Allhanketegevuste ostuprotsess põhineb füüsilisel materjalivool, mis on registreeritud kanban-töö edenemisega, näiteks Alustatud või Lõpetatud. Finantsvoog, näiteks allhanketöö kulu, on teine voog, mis järgneb füüsilisele voole. Samal ajal on ostuprotsess sõltumatu protsess, mis võimaldab ostudokumente igas etapis käsitsi korrigeerida. Allhanketegevuste ostuprotsess on järgmine.

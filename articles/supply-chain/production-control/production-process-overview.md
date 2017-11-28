@@ -1,9 +1,9 @@
 ---
 title: "Tootmisprotsessi ülevaade"
-description: "See artikkel annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni."
+description: "See teema annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50e64057d19d0e1fbf5645c2abc31fbd19ea43a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni. 
+See teema annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni. 
 
 Toodete tootmine, protsess, mida nimetatakse ka tootmise töötsükliks, järgib kindlaid etappe, mis on nõutavad kauba tootmiseks. Töötsükkel algab tootmistellimuse, partiitellimuse või kanbani loomisega. See lõpeb lõpetatud kaubaga, mis on valmis kas kliendi või tootmise teise faasi jaoks. Igal töötsükli sammul vajatakse protsessi lõpule viimiseks erinevat laadi teavet. Iga etapi lõpulejõudmisel kuvatakse tootmistellimuses, partii tellimuses või kanbanis tootmise oleku muudatus. Erinevat tüüpi tooted nõuavad erinevaid tootmisprotsesse.  
 
@@ -56,7 +56,7 @@ Kindlale tootele ja seotud turule kõige paremini sobiva tootmispõhimõtte vali
 -   **Valmistamine lattu** – see on klassikaline tootmispõhimõte, kus tooted toodetakse lao jaoks, võttes aluseks prognoosi või lao minimaalse täitmise (viimane arvutatakse tavaliselt prognoosi või tarbimisajaloo põhjal).
 -   **Valmistamine tellimiseks** – standardtooted valmistatakse või lõpetatakse tellimiseks. Kuigi põhimõtte „Valmistamine lattu” alusel võib teha eeltootmist, käivitatakse väärtusahela kulukad etapid või variante loovad etapid müügitellimus või üleviimistellimus.
 -   **Konfigureerimine tellimiseks** – samamoodi kui põhimõtte „Valmistamine lattu” puhul, tehakse väärtusahela lõplikud operatsioonid tellimise jaoks. Tegelik toodetud tootevariant pole eelnevalt määratletud, kuid luuakse tellimuse sisestamise ajal müügitoote konfiguratsioonimudeli põhjal. Põhimõte „Konfigureerimine tellimiseks” nõuab antud tootmisliini jaoks teatud tasemel protsessi ühtlustamist.
--   **Projekteeri tellimiseks** – tellimiseks projekteerimise protsessid määratleb tavaliselt projekt ja need algavad harilikult projekteerimisfaasiga. Projekteerimisfaasis tuleb tellimuse täitmiseks nõutavad tegelikud tooted kujundada ja kirjeldada. Seejärel saab toodete tootmiseks luua tootmistellimused, partiitellimused või kanbanid.
+-   **Projekteeri tellimiseks**: tellimiseks projekteerimise protsessid määratleb tavaliselt projekt ja need algavad harilikult projekteerimisfaasiga. Projekteerimisfaasis tuleb tellimuse täitmiseks nõutavad tegelikud tooted kujundada ja kirjeldada. Seejärel saab toodete tootmiseks luua tootmistellimused, partiitellimused või kanbanid.
 
 ## <a name="overview-of-the-production-life-cycle"></a>Tootmise töötsükli ülevaade
 Tootmistsükli järgmised etapid võivad esineda kõigi tellimusetüüpide või segarežiimis tootmise korral. Siiski ei esitata neist kõiki sõnaselge tellimuse olekuna.

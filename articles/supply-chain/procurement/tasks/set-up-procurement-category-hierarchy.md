@@ -3,7 +3,7 @@ title: Hankekategooria hierarhia seadistamine
 description: "See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja konfigureerida hankeprotsessis kasutatavat hankekategooriat."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Hankekategooria hierarhia seadistamine
@@ -30,7 +30,7 @@ See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja ko
 
 
 ## <a name="add-a-new-procurement-category"></a>Uue hankekategooria lisamine
-1. Tehke valik Hanked > .. > Hankekategooriad.
+1. Tehke valik Hanked > Hankekategooriad.
 2. Klõpsake suvandit Kategooriahierarhia redigeerimine.
     * Lehe vasakus servas kuvatakse praegune hankekategooria hierarhia. Hakkate seda hierarhiat muutma.  
 3. Klõpsake suvandit Uus kategooriasõlm.
@@ -42,7 +42,7 @@ See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja ko
 7. Klõpsake nuppu Salvesta.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Toodete lisamine uude hankekategooriasse
-1. Tehke valik Hanked > .. > Hankekategooriad.
+1. Tehke valik Hanked > Hankekategooriad.
     * Valige äsjalisatud sõlm. Kui käitate seda protseduuri ülesandejuhendina, peate sõlme valimiseks võib-olla ülesandejuhendi avama.  
 2. Laiendage jaotist Tooted.
 3. Klõpsake suvandit Lisa, et seostada tooted hankekategooriaga.

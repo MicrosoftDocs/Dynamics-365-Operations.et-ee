@@ -1,9 +1,9 @@
 ---
 title: "Segarežiimis plaanimine: diskreetse, protsessi- ja säästliku hanke kombineerimine"
-description: "Selles artiklis antakse teavet segarežiimis plaanimise kohta. Segarežiimis plaanimisel saate tarneahelat materjali voo alusel mudeldada. Microsoft Dynamics 365 for Finance and Operations tagab, et materjali voog järgib teie mudeleid olenemata valitud tarnepoliitikast (kanbanid, tootmistellimused, ostutellimused, partiitellimused või üleviimistellimused)."
+description: "Selles teemas antakse teavet segarežiimis plaanimise kohta."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis antakse teavet segarežiimis plaanimise kohta. Segarežiimis plaanimisel saate tarneahelat materjali voo alusel mudeldada. Microsoft Dynamics 365 for Finance and Operations tagab, et materjali voog järgib teie mudeleid olenemata valitud tarnepoliitikast (kanbanid, tootmistellimused, ostutellimused, partiitellimused või üleviimistellimused). 
+Selles teemas antakse teavet segarežiimis plaanimise kohta. Segarežiimis plaanimisel saate tarneahelat materjali voo alusel mudeldada. Microsoft Dynamics 365 for Finance and Operations tagab, et materjali voog järgib teie mudeleid olenemata valitud tarnepoliitikast (kanbanid, tootmistellimused, ostutellimused, partiitellimused või üleviimistellimused). 
 
 Saate valuda üleüldise toote tarnimise strateegia olenemata toote struktuurist.  
 
@@ -59,7 +59,7 @@ Tavaliselt ei looda kanbane tulevaste kuupäevadega, sest kanbanil on lühike el
 
 Sama loogika kehtib kõikide muude tarnepoliitika tüüpide puhul. Seega põhineb pikaajaline materjalide plaanimine samal loogikal, mida eeldate käitada tegelike tellimuste puhul pärast tootmise ja tarnimise kinnitamist.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Materjalide eraldamise tarnetevaheline poliitika – koosluste ressursi tarbimine
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Materjalide raldamise tarnetevaheline poliitika – koosluste ressursi tarbimine
 Ressursi tarbimine on oluline funktsioon. Ressursi tarbimine võimaldab laol komplekteeritavate materjalide dünaamilist valimist, mis põhineb tarnepoliitikal (tellimuse tüüp), ja muudab alusandmete säilitamise lihtsamaks.  
 
 Ressursi tarbimine nõuab, et laod, kust materjalid komplekteeritakse, määratakse selle alusel, kuidas toodet tarnitakse. Teisisõnu otsib süsteem käitamisel ressursid, mida tuleks tootmiseks kasutada. Nende ressursside alusel otsib süsteem komplekteerimislao.  
