@@ -180,11 +180,11 @@
 
 ## Juurutamine ja kiirparandused
 ### [Retail Store Scale Uniti ülevaade](dev-itpro/retail-store-system-begin.md)
-#### [Retail Store Scale Uniti konfigureerimine ja installimine](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Retail Store Scale Uniti konfigureerimine ja installimine](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
-#### [Jaemüügikontode ja -seadmete haldamine peakontorist](set-up-activation-accounts-validate-devices-hq.md)
-#### [Retail POS-i seadme aktiveerimine](dev-itpro/retail-device-activation.md)
-#### [Retaili pilve kassa turve](dev-itpro/secure-retail-cloud-pos.md)
+### [Jaemüügikontode ja -seadmete haldamine peakontorist](set-up-activation-accounts-validate-devices-hq.md)
+### [Retail POS-i seadme aktiveerimine](dev-itpro/retail-device-activation.md)
+### [Retaili pilve kassa turve](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retaili riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
 ### [Retaili iseteeninduse komponentide hulgijuurutus](dev-itpro/retail-mass-deployment.md)
 ### [Retaili komponentide sündmused diagnostika ja tõrkeotsingu jaoks](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,48 +194,52 @@
 ### [Täienduse ja N-1 toe ülevaade](dev-itpro/overview-upgrade-n-minus1.md)
 ### [N-1 komponentide installimine](dev-itpro/n-1-installation-configuration.md)
 
+## Juurutamise juhised
+### [Seadmehalduse juurutamise juhised](implementation-considerations-devices.md)
+
 ## Keskkonna konfiguratsioon
 ### [Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Bingi kaartide haldamine](dev-itpro/manage-bing-maps.md)
 
-## Laiendatavus
-### Kassa
-#### [Retail POS-i ekraani paigutused](pos-screen-layouts.md)
-##### [Kassa paigutuse kujundaja installimine](install-pos-layout-designer.md)
-#### [MPOS-i konfigureerimine ühenduseta režiimi jaoks](dev-itpro/retail-modern-pos-offline.md)
-#### [MPOS-i ja pilve kassa käivitaja laiendatavus](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [Kohandatud juhtelemendi lisamine kassakuvale](dev-itpro/pos-custom-control.md)
-#### [Kassa makse selgitus](dev-itpro/pos-payment-extension.md)
-#### [Väline kinkekaardi tugi](dev-itpro/gift-card.md)
+## Kassa laiendatavus
+### [Retail POS-i ekraani paigutused](pos-screen-layouts.md)
+### [POS-i paigutuse kujundaja installimine](install-pos-layout-designer.md)
+### [MPOS-i konfigureerimine ühenduseta režiimi jaoks](dev-itpro/retail-modern-pos-offline.md)
+### [MPOS-i ja pilve kassa käivitaja laiendatavus](dev-itpro/modern-pos-trigger-extensibility.md)
+### [Kohandatud juhtelemendi lisamine kassakuvale](dev-itpro/pos-custom-control.md)
+### [Kassa makse selgitus](dev-itpro/pos-payment-extension.md)
+### [Väline kinkekaardi tugi](dev-itpro/gift-card.md)
 ### [Rakenduse Retail Experience loomine](dev-itpro/create-retail-experience-app.md)
 ### [Riistvarajaama ülevaade ja laiendatavus](dev-itpro/hardware-station-extensibility.md)
 
-### Jaemüügiserver
-#### [Retail Server OData kontrolleri laiendamine](dev-itpro/extend-retail-server-odata-controller.md)
-#### [Veebi API ja OData kontrollerid](dev-itpro/odata-controllers-api.md)
-#### [Jaemüügiserveri kliendi ja tarbija API-d](dev-itpro/retail-server-customer-consumer-api.md)
-#### [Metaandmete laiendamine](dev-itpro/extend-metadata.md)
-#### [Kassa võrguta režiimi toetamiseks kaubanduse käitusaja laiendamine](dev-itpro/call-crt-service-offline.md)
-### Kaubanduse käitusaeg
-#### [Commerce’i käitusaja ülevaade](dev-itpro/commerce-runtime-overview.md)
-#### [Kaubanduse käitusaja ja jaemüügiserveri laiendatavus](dev-itpro/commerce-runtime-extensibility.md)
-#### [Kliendi viiteandmete lisamine kanali andmebaasi](dev-itpro/add-customer-preference-channel.md)
-#### [Müügitellimusele atribuutide lisamine](dev-itpro/add-properties-sales-order.md)
-#### [Kaubanduse käitusaja laiendatavus ja käivitajad](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [Käivitaja näide: blokeerimiskanne](dev-itpro/trigger-example-blocking-transaction.md)
-#### [Käivitaja näide: tagastuspoliitika](dev-itpro/trigger-example-return-policy.md)
-### e-Commerce
-#### [E-poe konfigureerimine](dev-itpro/configure-online-store.md)
-#### [Autentimise pakkujate konfigureerimine](dev-itpro/configure-authentication-providers.md)
-#### [e-Commerce’i platvorm](dev-itpro/ecommerce-platform.md)
-#### [e-Commerce’i platvormi SDK](dev-itpro/ecommerce-platform-sdk.md)
-### Makse ülekandmine
-#### [Makseühenduse ja -seadme juurutamine (tehniline ülevaade)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [Makseühenduse juurutamine](dev-itpro/deploy-payment-connector.md)
-#### [Windowsi installeri loomine makseühenduse jaoks](dev-itpro/create-windows-installer-payment-connector.md)
+## Retail Serveri laiendatavus
+### [Retail Server OData kontrolleri laiendamine](dev-itpro/extend-retail-server-odata-controller.md)
+### [Veebi API ja OData kontrollerid](dev-itpro/odata-controllers-api.md)
+### [Jaemüügiserveri kliendi ja tarbija API-d](dev-itpro/retail-server-customer-consumer-api.md)
+### [Metaandmete laiendamine](dev-itpro/extend-metadata.md)
+### [Kaubanduse käitusaja laiendamine POS-i võrguta režiimi toetamiseks](dev-itpro/call-crt-service-offline.md)
 
-## Retail SDK
-### [Retail SDK ülevaade](dev-itpro/retail-sdk/retail-sdk-overview.md)
+## Commerce’i käitusaja laiendatavus
+### [Commerce’i käitusaja ülevaade](dev-itpro/commerce-runtime-overview.md)
+### [Kaubanduse käitusaja ja Retail Serveri laiendatavus](dev-itpro/commerce-runtime-extensibility.md)
+### [Kliendi viiteandmete lisamine kanali andmebaasi](dev-itpro/add-customer-preference-channel.md)
+### [Müügitellimusele atribuutide lisamine](dev-itpro/add-properties-sales-order.md)
+### [Kaubanduse käitusaja laiendatavus ja käivitajad](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [Päästiku näide: blokeerimiskanne](dev-itpro/trigger-example-blocking-transaction.md)
+### [Päästiku näide: tagastuspoliitika](dev-itpro/trigger-example-return-policy.md)
+
+## e-Commerce’i laiendatavus
+### [E-poe konfigureerimine](dev-itpro/configure-online-store.md)
+### [Autentimise pakkujate konfigureerimine](dev-itpro/configure-authentication-providers.md)
+### [e-Commerce’i platvorm](dev-itpro/ecommerce-platform.md)
+### [e-Commerce’i platvormi SDK](dev-itpro/ecommerce-platform-sdk.md)
+
+## Makseühenduse laiendatavus
+### [Makseühenduse ja -seadme juurutamine (tehniline ülevaade)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Makseühenduse juurutamine](dev-itpro/deploy-payment-connector.md)
+### [Windowsi installeri loomine makseühenduse jaoks](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Retail SDK integreerimine pideva järgusüsteemiga](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK laiendatavuse näited](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Rootsi kassaaparaadid](localizations/emea-swe-cash-registers.md)
@@ -248,8 +252,14 @@
 ### [CDX-i laiendatavus](dev-itpro/cdx-extensibility.md)
 ### [Tellimuse atribuudid](dev-itpro/order-attributes.md)
 ### [Kliendi atribuudid](dev-itpro/customer-attributes.md)
-### [Retail Typescript ja C# proxy](dev-itpro/typescript-proxy-retail-pos.md)
+### [Retail Typescript ja C# puhver](dev-itpro/typescript-proxy-retail-pos.md)
+### [Retail POS-i näidete käitamine](dev-itpro/pos-run-samples.md)
+### [POS-i olemasolevate vaadete laiendamine kohandatud veergude ja rakendusriba nuppude lisamiseks](dev-itpro/pos-view-extension.md)
+### [Retail Modern POS-i kande lehtedele kohandatud juhtelementide lisamine](dev-itpro/pos-custom-transaction.md)
+### [Kohandatud veergude lisamine POS-i kanderuudustikule](dev-itpro/pos-custom-transaction-column.md)
+### [POS-i laiendusest kassa API või toimingu kutsumine](dev-itpro/pos-api-extension.md)
+### [POS-i olemasolevate vaadete laiendamine kohandatud veergude ja rakendusriba nuppude lisamiseks](dev-itpro/pos-view-extension.md)
+### [Retail Modern POS-i päästikud ja printimine](dev-itpro/pos-trigger-printing.md)
 
-
-## Kaubanduse käitusaeg
+## Commerce’i käitusaeg
 ### [Püsikliendi laiend](dev-itpro/retail-sdk/loyalty-extension-sample.md)

@@ -2,6 +2,8 @@
 
 # [Alustamine](talent-get-started.md)
 ## [Süsteeminõuded ja värskenduspoliitika](talent-versions-update-policy.md)
+## [Rakenduse Microsoft Dynamics 365 for Talent ettevalmistus](provisioning-talent.md)
+## [Talenti funktsioonide laiendamine](extend-talent-functionality.md)
 
 # [Inimressursside strateegia arendamine](departments-jobs-positions.md)
 ## [Töökomponentide häälestamine](create-job.md)
