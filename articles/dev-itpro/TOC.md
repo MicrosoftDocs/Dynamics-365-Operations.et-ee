@@ -124,6 +124,7 @@
 #### [Tehasemeetodite jaoks alamklassi registreerimine](extensibility/register-subclass-factory-methods.md)
 #### [Vastamine: EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [RunBase’i klassi laiendamine](extensibility/extend-runbase-class.md).
+#### [Delegaatide kasutamine rakendusekäivituse kohandamiseks](extensibility/startup-customizations.md)
 #### [Tabelis oleva välja muutmine](extensibility/modify-existing-field.md)
 #### [Olemasolevasse tabelisse uue välja lisamine](extensibility/add-field-extension.md)
 #### [Olemasolevasse tabelisse indeksi lisamine](extensibility/add-index.md)
@@ -505,10 +506,12 @@
 ### [Kohapealsete keskkondade seadistamine ja juurutamine](deployment/setup-deploy-on-premises-environments.md)
 ### [Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Värskenduste rakendamine kohapealsele juurutamisele](deployment/apply-updates-on-premises.md)
+### [Kohapealse juurutamise uuesti juurutamine](deployment/redeploy-on-prem.md)
+### [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) tõrkeotsing](deployment/troubleshoot-on-prem.md)
 
 ## Kohandatud koodi juurutamine
 ### [Juurutatava paketi loomine](deployment/create-apply-deployable-package.md)
-### [Juurutatava paketi rakendamine](deployment/apply-deployable-package-system.md)
+### [Värskenduste rakendamine pilvekeskkonnale](deployment/apply-deployable-package-system.md)
 ### [Juurutatava paketi installimine](deployment/install-deployable-package.md)
 ### [Paketi rakenduse probleemide tõrkeotsing](deployment/deployable-package-troubleshooting.md)
 
@@ -542,13 +545,15 @@
 
 
 ## Uusimale värskendusele täiendamine
-### [Viimatise värskenduse kasutamisele ülemineku protsess](migration-upgrade/upgrade-latest-update.md)
+### [Viimatise värskenduse kasutuselevõtmise protsess](migration-upgrade/upgrade-latest-update.md)
 ### [Elutsükli poliitika](migration-upgrade/versions-update-policy.md)
-### [Viimasele platvormi värskendusele täiendamine](migration-upgrade/upgrade-latest-platform-update.md)
+### [Uusima platvormivärskenduse rakendamine keskkonnale](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Dynamicsi platvormi täiendamine augusti 2016 väljaandele](migration-upgrade/update-platform-each-release.md)
 ### [Liivakastikeskkonna täiendamine](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Andmete täiendamine arendus- või demokeskkondades](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Arendustööriistade värskendamine](dev-tools/update-development-tools.md)
+### [Värskenduste rakendamine kohapealsele juurutamisele](deployment/apply-updates-on-premises.md)
+### [Kohapealse juurutamise uuesti juurutamine](deployment/redeploy-on-prem.md)
 
 ## Kiirparandused ja hooldamine
 ### [Kiirparanduste allalaadimine teenusest Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Kontsernisisene andmete ühiskasutus](sysadmin/cross-company-data-sharing.md)
 ## [Hooldusrežiim](sysadmin/maintenance-mode.md)
 ## [Eelkonfigureeritud süsteemikontod](sysadmin/pre-configured-system-accounts.md)
+## [B2B kasutajate eksportimine Azure AD-sse](sysadmin/implement-b2b.md)
 ## [Rollipõhine turve](sysadmin/role-based-security.md)
 ### [Turbe ülesehitus](sysadmin/security-architecture.md)
 ### [Turvaaruanded](sysadmin/security-reports.md)

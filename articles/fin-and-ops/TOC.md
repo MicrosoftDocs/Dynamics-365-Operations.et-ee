@@ -10,6 +10,7 @@
 ##### [Pilvjuurutuste süsteeminõuded](get-started/system-requirements.md)
 ##### [Kohapealne juurutus](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [Kohapealsete juurutuste süsteeminõuded](get-started/system-requirements-on-prem.md)
+##### [Kohapealsete juurutuste ladustamine](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### Rakenduse Finance and Operations ostmine
 ##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
@@ -20,8 +21,9 @@
 #### [AX 2012 funktsioonid, mis lükati edasi](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](get-started/features-not-implemented-on-prem.md)
 #### [Elutsükli poliitika](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platvormi update 11 (oktoober 2017)](get-started/whats-new-platform-update-11.md)
-#### [Platvormi update 10 (august 2017)](get-started/whats-new-platform-update-10.md)
+#### [Platvormivärskendus 12 (november 2017)](get-started/whats-new-platform-update-12.md)
+#### [Platvormivärskendus 11 (oktoober 2017)](get-started/whats-new-platform-update-11.md)
+#### [Platvormivärskendus 10 (august 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (juuli 2017)](get-started/whats-new-application-July-2017-update.md)
 #### [Platvormivärskendus 9 (juuli 2017)](get-started/whats-new-platform-update-9.md)
 #### [Platvormivärskendus 8 (juuni 2017)](get-started/whats-new-platform-update-8.md)
@@ -42,6 +44,7 @@
 ##### [Veebruari 2016 tegevuse juhised](get-started/new-task-guides-available-february-2016.md)
 
 ### Kasutajaliidesega tutvumine
+#### [Hõlbustusfunktsioonid](get-started/accessibility-features.md)
 #### [Kliendi kasutajaliidese KKK](get-started/client-faq.md)
 #### [Tegevuse otsing](get-started/action-search.md)
 #### [Täpsema filtreerimise ja päringu süntaks](get-started/advanced-filtering-query-options.md)
@@ -56,7 +59,7 @@
 #### [Kasutaja eelistatud ajavööndi seadistamine](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [Teenuse Lifecycle Services ülevaade](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### Spikker ja tugi
+### Dokumentatsiooni lugemine ja käitamine
 #### [Spikri ülevaade](get-started/help-overview.md)
 #### [Ühendamise spikker](get-started/help-connect.md)
 #### [Väljade kirjelduste vaatamine ja eksportimine](get-started/view-export-field-descriptions.md)
@@ -150,19 +153,23 @@
 ##### [Andmesisestuse hõlbustamiseks kirje malli loomine](../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md)
 ##### [Kirje malli abil uue kirje loomine](../dev-itpro/data-entities/tasks/use-record-template-new-record.md)
 
-#### [Andmete integreerimine teenus Common Data Service abil](../dev-itpro/data-entities/data-integration-cds.md) 
+#### [Andmete integreerimine teenuse Common Data Service abil](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [Rakenduse Finance and Operations toodete sünkroonimine rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [Rakenduse Sales kontode sünkroonimine rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [Rakenduse Sales kontaktide sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [Rakenduse Sales müügipakkumise päiste ja ridade sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [Rakenduse Finance and Operations müügiarve päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine otse rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusest Sales rakendusega Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [Toodete haldamine rakenduses Finance and Operations ja nende vahetu sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [Kontaktide haldamine rakenduses Sales ja nende vahetu sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [Rakenduse Sales müügipakkumise vahetu sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Müügitellimuste vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Müügiarve vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [Klientide haldamine rakenduses Sales ja nende sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [Toodete haldamine rakenduses Finance and Operations ja nende sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [Müügipakkumiste loomine rakenduses Sales ja nende sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [Müügitellimuste loomine rakenduses Finance and Operations ja nende sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [Müügiarvete loomine rakenduses Finance and Operations ja nende sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [Väliste veebiteenuste tarbimine](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [Musta loendi aruanne](../financials/localizations/emea-ita-black-list-report.md)
 ##### [Pädevuskuupäev](../financials/localizations/emea-ita-competence-date.md)
 ##### [Põhivarade kulum](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Saatelehe kuupäeva kinnitamine arvetel](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [Käibemaksuregistrid](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Tükeldatud makse avalikule haldusele väljastatud arvete korral](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [Jooksvate keskmiste kulude jälgimine varude dimensiooni alusel](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## Koondplaneerimine
+## [Koondplaneerimine](../supply-chain/master-planning/master-planning-home-page.md)
+### [Koondplaan](../supply-chain/master-planning/master-plans.md)
+#### [Laovarude sätted](../supply-chain/master-planning/coverage-settings.md)
+#### [Kaubakatte reeglite määramine (tegevuse juhis)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [Piirangutega plaani koostamine (tegevuse juhis)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [Kaastoodete jaoks materjaliplaani loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [Plaanitud tellimuste haldamine](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Viivituste käsitlemine](../supply-chain/master-planning/delays.md)
+#### [Koosnevuse jälgimine](../supply-chain/master-planning/trace-explosion.md)
+#### [Tegevusteated](../supply-chain/master-planning/action-messages.md)
+#### [Koondplaneerimise käitamise jälgimine (tegevuse juhis)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [Tegevuskoha jaoks graafiku loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [Tegevuskoha jaoks plaani loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [Koondplaanid ja mitme laoala režiim](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [Laoala katmise plaanimine, ladu on kohustuslik](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [Laoala katmise plaanimine, ladu pole kohustuslik](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [Laoala ja lao katmise plaanimine, ladu on kohustuslik](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [Laoala ja lao katmise plaanimine, ladu pole kohustuslik](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [Koosluse versiooni määramine](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [Koosluse versiooni koosnevus](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [Kontsernisisese plaani loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [Väljamineva plaanitud kontsernisisese nõudluse kuvamine (tegevuse juhis)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [Sisemise tarneahela klientidega koostöö tegemine (tegevuse juhis)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [Nõudluse prognoos](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [Nõudluse prognoosi seadistamine](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [Nõudluse prognooside olulised ajaloolised andmed](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [Planeerimise koefitsiendid](../supply-chain/master-planning/reduction-keys.md)
 #### [Alusprognoosi loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [Nõudluse prognoosi käsitsi muutmine (tegevuse juhis)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [Koondplaan](../supply-chain/master-planning/master-plans.md)
-#### [Laovarude sätted](../supply-chain/master-planning/coverage-settings.md)
-#### [Plaanitud tellimuste haldamine](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Hilinemised](../supply-chain/master-planning/delays.md)
-#### [Tegevussoovitused](../supply-chain/master-planning/action-messages.md)
-#### [Koosnevuse jälgimine](../supply-chain/master-planning/trace-explosion.md)
-#### [Koondplaanid ja mitme laoala režiim](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [Laoala katmise plaanimine, ladu on kohustuslik](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [Laoala katmise plaanimine, ladu pole kohustuslik](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [Laoala ja lao katmise plaanimine, ladu on kohustuslik](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [Laoala ja lao katmise plaanimine, ladu pole kohustuslik](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [Koosluse versiooni määramine](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [Koosluse versiooni koosnevus](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [Koondplaneerimise käitamise jälgimine (tegevuse juhis)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [Kaubakatte reeglite määramine (tegevuse juhis)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [Tegevuskoha jaoks plaani loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [Tegevuskoha jaoks graafiku loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [Piirangutega plaani koostamine (tegevuse juhis)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [Kontsernisisese plaani loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [Kaastoodete jaoks materjaliplaani loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [Väljamineva plaanitud kontsernisisese nõudluse kuvamine (tegevuse juhis)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [Sisemise tarneahela klientidega koostöö tegemine (tegevuse juhis)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [Mobiilirakendus](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1853,7 +1860,7 @@
 #### [Ostutellimuste jaoks töömalli seadistamine](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
 #### [Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [Arendamine ja haldus](../dev-itpro/toc.md)
+# [Rakenduse Finance and Operations arendamine ja haldus](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 
