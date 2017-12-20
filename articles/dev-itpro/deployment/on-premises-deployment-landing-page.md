@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
-ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
+ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
+ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Asutusesisese juurutuse sihtleht
@@ -30,14 +30,13 @@ ms.lasthandoff: 10/05/2017
 
 Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (kohapealne). Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest. See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.
 
-**Märkus.** Dynamics 365 for Operations (kohapealne) on praegu ümbernimetamisel. Näete viiteid rakendusele Dynamics 365 for Operations (kohapealne) kogu suhtluses ja litsentsimisjuhistes. Tootesisene nimi, mida näete toote juurutamisel, on Dynamics 365 for Finance and Operations, Enterprise edition. Mõlemad nimed viitavad samale tootele.
-
 ## <a name="get-started"></a>Alustamine
 - [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) ülevaade](on-premises-overview.md)
 - [Asutusesiseste juurutuste süsteeminõuded](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Riistvara suuruse muutmine kohapealsetes keskkondades](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Võrguteenuse ja kohapealse tarkvara elutsükli poliitika](../migration-upgrade/versions-update-policy.md)
 - [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) ostmine](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Pilvepõhiste ja asutusesiseste funktsioonide võrdlus](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Turule toomine
 - [Kohapealse projekti loomine teenuses Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -51,9 +50,12 @@ Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Ent
 - [Dokumentide loomise, avaldamise ja printimise võimalused kohapealsetes keskkondades](../analytics/printing-capabilities-on-premises.md)
 - [Tehnilise toe seadistamine](../lifecycle-services/support-experience.md)
 - [Klientseadme Interneti-ühenduse tõrkeotsing](../user-interface/client-disconnected.md)
+- [Värskenduste rakendamine kohapealsele juurutamisele](apply-updates-on-premises.md)
+- [Kohapealne juurutuse uuesti juurutamine](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Muud ressursid
 - [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Aegunud funktsioonid](../migration-upgrade/deprecated-features.md)
+- [Tarkvara elutsükli poliitika ja väljalasete loend](../migration-upgrade/versions-update-policy.md)
  
 

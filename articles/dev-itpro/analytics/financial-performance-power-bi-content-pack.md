@@ -3,7 +3,7 @@ title: "Finantsjõudluse Power BI sisu"
 description: "Selles teemas kirjeldatakse finantstulemuste Power BI sisu. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet sisu loomiseks kasutatud andmemudeli ja üksuste kohta."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f111698315cd42c0c1c0d470b94688b548375bee
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,7 +38,7 @@ Selles teemas kirjeldatakse **finantstulemuste** Microsoft Power BI sisu. See ki
 ### <a name="available-from-lcs"></a>Kättesaadav LCS-ist
 **Finantstulemuste** Power BI sisu, mis on LCS-ist saadaval, toetab järgmisi versioone.
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni versioonid
 - Microsoft Dynamics 365 for Operationsi versioon 1611 
 
 Power BI sisu leiate LCS-i ühiste vahendite teegist. Lisateavet sisupaketi allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).

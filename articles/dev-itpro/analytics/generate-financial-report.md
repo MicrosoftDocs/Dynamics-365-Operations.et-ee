@@ -1,16 +1,16 @@
 ---
 title: Finantsaruande loomine
 description: "See teema sisaldab finantsaruande koostamise üldteavet."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -40,15 +40,31 @@ Aruande loomiseks avage aruande definitsioon ja klõpsake seejärel tööriistar
 
 Järgmises tabelis selgitatakse aruannete loomiseks saadaolevaid suvandeid.
 
-| Suvand                                                                                | Lisateave |
-|---------------------------------------------------------------------------------------|----------------------|
-| Graafiku seadistamine aruande või aruannete grupi automaatseks loomiseks              |                      |
-| Aruandest puuduvate kontode või andmete kontrollimine või aruande ja aruande täpsuse kinnitamine |                      |
+| Suvand                                                                                | 
+|---------------------------------------------------------------------------------------|
+| Graafiku seadistamine aruande või aruannete grupi automaatseks loomiseks              |   
+| Aruandest puuduvate kontode või andmete kontrollimine või aruande ja aruande täpsuse kinnitamine |   
 
 Aruande loomisel kasutatakse valikuid, mille olete määranud valiku Aruande definitsioon vahekaartidel. Vahekaardil Väljund ja jaotus saate määrata aruandeteegi asukoha, mis võimaldab aruande lihtsat jagamist.
 
-## <a name="schedule-report-generation"></a> Aruande graafiku loomine
-Paljudel ettevõtetel on tuumik aruandeid, mida käivitatakse plaanitud ajavahemike järel äriprotsessidega kooskõlastamiseks. Saate plaanida aruande regulaarselt loomise, näiteks iga päev, nädal, kuu või aasta. Tegemist võib olla ühe aruandega või mitut ettevõtet hõlmava aruannete rühmaga. Peate sisestama iga määratletud ettevõtte mandaadid, nagu aruandluspuu definitsiooniski. Kui mandaadid on kehtetud, kuvatakse aruandes ainult teave, millele teil on juurdepääsuõigus, nt ettevõte, kuhu olete sisse logitud. Väljundi teavet loetakse esmalt aruannete grupist ja seejärel üksikutest aruannetest.
+## <a name="generate-a-financial-report"></a>Finantsaruande loomine
+
+Finantsaruande loomiseks rakendusega Microsoft Dynamics 365 for Finance and Operations valige **Pearaamat** > **Päringud ja aruanded** > **Finantsaruanded**. 
+ - Valige loodav aruanne ja klõpsake nuppu **Loo**. 
+ - Täitke väli **Aruande kuupäev** ja klõpsake **OK**.
+ 
+ Kui aruanne on loodud, saab seda vaadata jaotises **Aruanded**.
+ Saate valida, kas soovite aruannet **Vaadata** või **Kustutada**.
+ 
+ 
+Aruande loomiseks **Aruande koostaja** abil avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo. Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne Web Vieweris.
+
+> [!NOTE]
+> Saate luua aruandeid ainult kaustadesse ja asukohtadesse, millele teil on juurdepääsuluba.
+
+
+## <a name="schedule-report-generation"></a>Aruande loomise plaanimine
+Paljudel ettevõtetel on aruannete põhikomplekt, mida kasutatakse plaanitud intervallidega, et äriprotsessidega vastavuses olla. Saate plaanida aruande regulaarselt loomise, näiteks iga päev, nädal, kuu või aasta. Tegemist võib olla ühe aruandega või mitut ettevõtet hõlmava aruannete rühmaga. Peate sisestama iga määratletud ettevõtte mandaadid, nagu aruandluspuu definitsiooniski. Kui mandaadid on kehtetud, kuvatakse aruandes ainult teave, millele teil on juurdepääsuõigus, nt ettevõte, kuhu olete sisse logitud. Väljundi teavet loetakse esmalt aruannete grupist ja seejärel üksikutest aruannetest.
 
 Aruande graafikute loomisel ja salvestamisel kuvatakse need navigeerimispaanil suvandi Aruande graafikud all. Saate aruannete korraldamiseks kaustu luua. Kui üht graafikus olevat aruannet ei käitata, siis kõiki teisi aruandeid käitatakse endiselt.
 
