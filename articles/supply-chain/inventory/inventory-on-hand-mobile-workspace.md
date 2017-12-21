@@ -3,7 +3,7 @@ title: "Vaba kaubavaru mobiilne tööruum"
 description: "See teema annab teavet vaba kaubavaru mobiilse tööruumi kohta. See tööruum aitab saada alati ja kõikjal mobiilseid ülevaateid reserveeritud ning vabadest kaubavarudest."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6de8c45d6c27295a2b90cb72043d556455e65137
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c54f6f12e47ae0a185a7918517c7fd601f457fa4
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,8 +59,8 @@ Konkreetsemalt pakub mobiilne tööruum järgmisi funktsioone.
 ## <a name="prerequisites"></a>Eeltingimused
 Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Eeltingimused Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni (juuli 2017) kasutamisel 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), peab süsteemiadministraator avaldama **vaba kaubavaru** mobiilse tööruumi. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Eeltingimused Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni kasutamisel 
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, peab süsteemiadministraator avaldama **vaba kaubavaru** mobiilse tööruumi. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
 Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 

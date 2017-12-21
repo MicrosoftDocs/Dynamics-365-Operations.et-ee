@@ -3,7 +3,7 @@ title: Kiirklahvid
 description: "Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations, Enterprise edition."
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -33,6 +33,10 @@ ms.lasthandoff: 11/03/2017
 Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations, Enterprise edition. 
 
 **Märkus.** Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
+
+## <a name="finding-a-shorcut"></a>Kiirklahvi leidmine
+Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid kiirklahve otse kasutajaliidesest. Lihtsalt paremklõpsake juhtelemendil ja valige **Kuva kiirklahvid**. See avab dialoogiboksi, milles kuvatakse kiirklahvid, mida saate kasutada olenevalt sellest, kus praegu lehel olete. 
+
 
 ## <a name="action-shortcuts"></a>Tegevuste otseteed
 |                                                   |                                  |
@@ -48,13 +52,14 @@ Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Fin
 | Vormil/dialoogiboksis vaikenupu käivitamine   | Alt + sisestusklahv (Enter)                        |
 | Nupu või paani klõpsamine                            | Sisestusklahv (Enter) või tühik                   |
 | Inventuuripaani teabe värskendamine         | Alt + ülesnool                     |
+| Kuva praegu saadaolevad kiirklahvid                | Alt + Shift + K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Kuupäevavalija kiirklahvid
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Toiming**                        | **Klahv või klahvikombinatsioon**                                 |
 | Kuupäevavalija avamine                  | Alt + allanool                            |
-| Kuupäevavalijas kuupäevade vahel liikumine | Ctrl + nooleklahvid                               |
+| Kuupäevavalijas kuupäevade vahel liikumine | Ctrl + nooleklahvid                           |
 | Järgmisele/eelmisele kuule liikumine       | Page Down / Page Up                       |
 | Järgmisele/eelmisele aastale liikumine        | Ctrl + Shift + Page Down / Ctrl + Shift + Page Up |
 | Tänase juurde liikumine                         | Ctrl + Home                                 |
@@ -65,6 +70,7 @@ Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Fin
 ## <a name="factbox-shortcuts"></a>Kiirinfo kiirklahvid
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Toiming**                                                                  | **Klahv või klahvikombinatsioon**                                 |
 | Kiirinfopaani avamine (või fookuse nihutamine kiirinfopaanile, kui see on juba avatud) | Alt + M, B või Ctrl + F2                        |
 | Kiirinfopaani sulgemine (fookusega kiirinfopaanil)                         | Esc-klahv                                       |
 | Järgmisele/eelmisele kiirinfole liikumine (fookusega kiirinfopaanil)              | Alt + Shift + allanool / Alt + Shift + ülesnool |

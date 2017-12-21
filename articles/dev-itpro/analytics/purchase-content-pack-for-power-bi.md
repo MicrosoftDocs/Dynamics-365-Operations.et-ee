@@ -3,7 +3,7 @@ title: "Ostukulutuste analüüsi Power BI sisu"
 description: "See teema kirjeldab, mida hõlmab ostukulutuste analüüsi Power BI sisu. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutatakse."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6485f36802fc4e327e223f47d65c4bdca11c1609
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f38f82b4275599a6b958c495f32b72778b400024
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ See teema kirjeldab, mida hõlmab **ostukulutuste analüüsi** Microsoft Power B
 Sisu kasutab ostukannete andmeid ning annab koondvaate kogu ettevõtte ostunumbritest ja ostukulude jaotuse hankijate ja toodete kaupa. Aruanded tõstavad esile ostukulude muutusi aja jooksul. Seega saab neid aruandeid kasutada juhtide teavitamiseks eraldi hankijate ja toodete positiivsetest ning negatiivsetest kulutamistrendidest. Lisaks näitavad diagrammid erinevate hankekategooriate ja hankijagruppide kulusid. Seega saavad kategooria- ja piirkonnajuhid kasutada neid diagramme muutuste tuvastamiseks kulutamiskäitumises.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), kuvatakse **ostukulutuste analüüsi** Power BI sisu lehel **Ostu- ja kulutusanalüüs** (**Hanked** > **Päringud ja aruanded** > **Ostujõudluse analüüs** > **Ostu- ja kulutusanalüüs**). 
+Power BI sisu **Ostu kulutusanalüüs** kuvatakse lehel **Ostu- ja kulutusanalüüs** (**Hanked** > **Päringud ja aruanded** > **Ostujõudluse analüüs** > **Ostu- ja kulutusanalüüs**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 **Ostukulutuste analüüsi** Power BI sisu sisaldab mõõdikute kogumist koosnevat aruannet. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmises tabelis antakse ülevaade visualiseeringutest.

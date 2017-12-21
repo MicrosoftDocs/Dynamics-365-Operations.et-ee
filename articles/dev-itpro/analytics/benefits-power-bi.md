@@ -3,7 +3,7 @@ title: Soodustuste Power BI sisu
 description: "Selles teemas kirjeldatakse soodustuste Power BI sisu. See selgitab ka seda, kuidas sisalduvatele aruannetele juurde pääseda, ning annab teavet sisu loomiseks kasutatud andmemudeli ja üksuste kohta."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21f7f77148728a6e7584af76ec053250f52bc73c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 25111ac7ae07e04bc81ac23a348464bcbe1393af
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ Selles teemas kirjeldatakse **soodustuste** Microsoft Power BI sisu. See selgita
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 **Soodustuste** Power BI sisu kuvatakse tööruumis **Soodustuste haldus**, kui kasutate ühte järgmistest toodetest:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded

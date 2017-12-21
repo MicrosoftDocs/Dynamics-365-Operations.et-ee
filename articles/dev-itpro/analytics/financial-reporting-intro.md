@@ -1,15 +1,15 @@
 ---
 title: Finantsaruandlus rakendusele Finance and Operations
 description: "Finance and Operationsi finantsaruandlus võimaldab finants- ja äriprofessionaalidel finantsaruandeid koostada, hallata, juurutada ja kuvada. See ületab tavapärased aruandluse piirangud, aidates teil tõhusalt mitmesuguseid aruandeid koostada."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -33,6 +33,17 @@ ms.lasthandoff: 11/03/2017
 Finance and Operationsi finantsaruandlus võimaldab finants- ja äriprofessionaalidel finantsaruandeid koostada, hallata, juurutada ja kuvada. See ületab tavapärased aruandluse piirangud, aidates teil tõhusalt mitmesuguseid aruandeid koostada.
 
 Aruandlus hõlmab dimensiooni toetust. Seetõttu on kontosegmendid või dimensioonid kohe saadaval. Täiendavaid tööriistu ega konfigureerimistoiminguid pole vaja.
+
+## <a name="financial-reporting-setup"></a>Finantsaruandluse häälestus
+Lehel **Finantsaruandluse häälestus** on kõigi süsteemis olevate finantsdimensioonide loend. **Pearaamat** > **Pearaamatu seadistamine** > **Finantsaruandluse häälestus**. 
+
+Lehel **Finantsaruandluse häälestus** on kaks jaotist, mis määratlevad andmeid, mille kohta esitate finantsaruandluses aruandeid:
+
+•   **Vahekaart Dimensioonid** – kuna erinevad ettevõtted kasutavad erinevaid dimensioone ja kontostruktuure, ei ole võimalik kindlaks määrata, millises järjekorras kasutajad soovivad kõiki finantsdimensioone aruannetes vaadata. Sellel lehel saate määrata, millises järjekorras soovite finantsmõõtmeid kuvada, kui loote ja vaatate finantsaruandluses aruannet.
+
+•   **Vahekaardil Atribuudid** saate valida, kas soovite, et valikuid **Hankijad** ja **Kliendid** saab kasutada atribuutidena filtreerimiseks ja aruande kujundamiseks. Tarnija ja kliendi aruandlus on kasulik ainult siis, kui te ei sisesta kannete sisestamisel ühte kandesse mitut tarnijat või klienti. Tarnija ja/või kliendi valimine pikendab integreerimise aega.
+
+
 
 ## <a name="financial-reporting-components"></a>Finantsaruandluse komponendid
 Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamist ja plaanimist.

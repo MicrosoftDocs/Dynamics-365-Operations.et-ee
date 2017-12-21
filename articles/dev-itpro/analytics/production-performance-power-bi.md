@@ -3,7 +3,7 @@ title: Tootmistulemuste Power BI sisu
 description: "See teema kirjeldab, mida hõlmab tootmistulemuste Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: baa0343713e8f75e1c9637a903b9008db0968fd4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ See Power BI sisu võimaldab analüüsida ka tootmiskulude hälbeid. Tootmiskulu
 **Tootmistellimuse** Power BI sisu hõlmab tootmistellimustest ja partiitellimustest pärinevaid andmeid. Aruanded ei sisalda andmeid, mis on seotud kanban-tootmistega.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), siis kuvatakse **tootmistulemuste** Power BI sisu lehel **Tootmistulemused** (**Tootmise juhtimine** > **Päringud ja aruanded** > **Tootmistulemuste analüüs** > **Tootmistulemused**). 
+Power BI sisu **Tootmise jõudlus** kuvatakse lehel **Tootmise jõudlus** (**Tootmise juhtimine** > **Päringud ja aruanded** > **Tootmise jõudlusanalüüs** > **Tootmise jõudlus**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 

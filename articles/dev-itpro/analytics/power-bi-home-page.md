@@ -3,7 +3,7 @@ title: Power BI sisu
 description: Selles teemas loetletakse saadaolev Power BI sisu ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ffae237693ebf0b0feedf7c60230590d95eed3d4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 11/03/2017
 
 Selles teemas loetletakse saadaolev Microsoft Power BI sisu ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Power BI sisu rakendusele Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017)
-Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), siis on saadaval järgmine Power BI sisu.
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Power BI sisu rakendusele Dynamics 365 for Finance and Operations, Enterprise Edition
+Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, siis on saadaval järgmine Power BI sisu.
 
 - [Power BI sisu Tegelik võrreldes eelarvega](ledger-budgets-power-bi.md)
 - [Soodustuste Power BI sisu](benefits-power-bi.md)

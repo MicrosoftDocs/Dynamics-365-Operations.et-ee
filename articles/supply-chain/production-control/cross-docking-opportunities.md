@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ Praegu saab ristlaadimise konfigureerida ainult kahe töötellimuse tüübi jaok
 ### <a name="cross-docking-policy-name-transfer-order"></a>Ristlaadimise poliitika nimi: üleviimistellimus
 
 -   Järjekorranumber: 10
--   Töötellimuse tüüp: edastuse väljaminek
+ -   Töötellimuse tüüp: edastuse väljaminek
 -   Ristlaadimise nõue nõuab asukohta: väär
 -   Ristlaadimise strateegia: kuupäev ja kellaaeg
 
@@ -102,10 +102,9 @@ Kui toode on tootmisliinil lõpetatuks registreeritud, edastatakse see laadimisu
 6.  Looge üleviimistellimus. Looge üleviimistellimus kaubale numbriga L0101. Kogus = 20.
 7.  Väljastage üleviimistellimuse koorma plaanimise töölaualt. Valige vahekaardilt **Läheta** menüüelement koorma plaanimise töölaua jaoks ja tehke koorma rea menüüs **Väljasta** valik **Väljasta lattu**. Nüüd on üleviimistellimuse puhul olemas avatud voo rida tüübiga **Edastuse väljaminek**.
 8.  Tootmistellimuse loomine. Minge loendilehele **Tootmistellimus** ja looge tootele L0101 tootmistellimus. Kogus = 20. Hinnake ja alustage tootmistellimust. Pange tähele, et välja **Sisesta komplekteerimisleht kohe** olek on endiselt **Ei**.
-9.  Registreerige mobiilselt seadmelt lõpetatuks. Minge mobiilse seadme portaali ja valige menüüelement **Teata lõpetamisest ja pane kõrvale**. Nüüd registreerige L0101 pihuseadmel lõpetatuks. Pange tähele, et asetamise koht on **BAYDOOR**. Selle asukoha leiate töötellimuse tüübi **Asetamine** asukohakorraldusest **Edastuse väljaminek**. Pange tähele ka seda, et töö tüübiga **Edastuse väljaminek** on loodud ja lõpetatud. Minge töö kontrollimiseks üleviimistellimuse töö üksikasjadesse.
-10. Nüüd proovige alustada tootmistellimusel veel 20 ühikut ja siis proovige registreerida 20 ühikut pihuseadmes lõpetatuks. Seekord soovitatakse asetamise kohaks **LP-001**. Selle asukoha leiate **lõpetatud kaupade kõrvalepaneku** asukohakorraldusest. Seda asukohakorraldust kasutatakse sellepärast, et ristlaadimise võimalust enam pole. LP-001 üleviimistellimus täideti täielikult esimese ristlaadimistegevusega.
-
-Loodi ja töödeldi töö tüübiga **Lõpetatud kaupade kõrvalepanek**.
+9.  Registreerige mobiilselt seadmelt lõpetatuks. Minge mobiilse seadme portaali ja valige menüüelement **Teata lõpetamisest ja pane kõrvale**. Nüüd registreerige L0101 pihuseadmel lõpetatuks. Kogus = 10. Pange tähele, et asetamise koht on **BAYDOOR**. Selle asukoha leiate töötellimuse tüübi **Asetamine** asukohakorraldusest **Edastuse väljaminek**. Pange tähele ka seda, et töö tüübiga **Edastuse väljaminek** on loodud ja lõpetatud. Minge töö kontrollimiseks üleviimistellimuse töö üksikasjadesse.
+10. Nüüd saab mobiilsest seadmest aruannetes esitada täiendavad 10 üksust. Pange tähele, et uuesti asetamise koht on **BAYDOOR**. Pange tähele ka seda, et uus töö tüübiga **Edastuse väljaminek** on loodud 10 üksuse jaoks.
+11. Nüüd proovige alustada tootmistellimusel veel 20 ühikut ja siis proovige registreerida 20 ühikut pihuseadmes lõpetatuks. Seekord soovitatakse asetamise kohaks **LP-001**. Selle asukoha leiate **lõpetatud kaupade kõrvalepaneku** asukohakorraldusest. Seda asukohakorraldust kasutatakse sellepärast, et ristlaadimise võimalust enam pole. LP-001 üleviimistellimus täideti täielikult kahe ristlaadimistegevusega etappides 9 ja 10. Pange tähele, et loodi ja töödeldi töö tüübiga **Lõpetatud kaupade kõrvalepanek**.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Stsenaarium 2 – ristlaadimine tootmisest laadimisgraafikuga üleviimistellimustesse
 
@@ -123,7 +122,7 @@ Kui toode on tootmisliinil lõpetatuks registreeritud, viiakse see laadimisukse 
 
 ### <a name="additional-information"></a>Lisateave
 
--   Ristlaadimise stsenaariumi toetatakse partii ja seeriaga juhitavate kaupade puhul, nii ülal määratletud partii- ja seerianumbri dimensioonidega kui ka allpool antud asukohaga reserveerimishierarhias.
+-   Ristlaadimise stsenaariumi toetatakse partii ja seeriaga juhitavate kaupade puhul, nii ülal määratletud partii- ja seerianumbri dimensioonidega kui ka allpool antud asukohaga reserveerimishierarhias. 
 
 
 

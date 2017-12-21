@@ -3,7 +3,7 @@ title: "Kulude halduse mobiilne tööruum"
 description: "See teema annab teavet mobiilse tööruumi Kulude haldamine kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Kasutajad saavad ka kiiresti luua kuluridu, kasutades lisatud kviitungit, ning luua ja hallata oma kuluaruandeid."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4880c74047f53704f5f4d8efb19b6f8c6b04d479
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -46,7 +46,7 @@ Täpsemalt võimaldab mobiilne tööruum **Kulude haldamine** teha kasutajatel j
 - Faili üleslaadimine salvestatud kviitungina. Seejärel saab lisada selle faili hiljem kuluaruandele.
 - Uue kulurea loomine, kasutades lisatud kviitungit. Seejärel saab lisada selle reaüksuse hiljem kuluaruandele ning esitada selle heakskiitmiseks ja korvamiseks.
 
-Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), saate kasutada ka järgmisi funktsioone.
+Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, saate kasutada ka järgmisi funktsioone.
 
 - Uue kuluaruande loomine.
 - Kuluaruandele krediitkaardikannete ja muude varem loodud kulude lisamine.
@@ -60,8 +60,8 @@ Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterp
 ## <a name="prerequisites"></a>Eeltingimused
 Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Eeltingimused Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni (juuli 2017) kasutamisel 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), peab süsteemiadministraator avaldama mobiilse tööruumi **Kulude haldamine**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Eeltingimused Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni kasutamisel 
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, peab süsteemiadministraator avaldama mobiilse tööruumi **Kulude haldamine**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
 Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 

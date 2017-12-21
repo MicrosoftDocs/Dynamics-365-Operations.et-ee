@@ -3,7 +3,7 @@ title: "Arvete kinnitamise mobiilne tööruum"
 description: "See teema annab teavet arvete kinnitamise mobiilse tööruumi kohta. See tööruum annab loendi arvetest, mis on määratud teile hankija arve päise töövooprotsessi kaudu."
 author: abruer
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: af673f076f684500b6ca84d04c01f7f773d65cd6
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 03179fdfd23e26250af92eb70d2ede710bd7007f
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Enne selle mobiilse tööruumi kasutamist peavad olema täidetud järgmised eelt
 </thead>
 <tbody>
 <tr class="odd">
-<td>Teie organisatsioonis peab olema juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017).</td>
+<td>Teie organisatsioonis peab olema juurutatud Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</td>
 <td>Süsteemiadministraator</td>
 <td>Vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>.
 </td>

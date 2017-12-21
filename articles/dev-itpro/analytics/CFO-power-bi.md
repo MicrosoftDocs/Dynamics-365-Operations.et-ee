@@ -3,7 +3,7 @@ title: "CFO ülevaate Power BI sisu"
 description: "Selles teemas kirjeldatakse CFO ülevaate Microsoft Power BI sisu."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ Selles teemas kirjeldatakse **CFO ülevaate** Microsoft Power BI sisu.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 
-Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), kuvatakse **CFO ülevaate** Power BI sisu aruanded tööruumis **CFO ülevaade**.
+Aruanded Power BI sisust **CFO ülevaade** kuvatakse tööruumis **CFO ülevaade**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
 **CFO ülevaate** Power BI sisu koosneb mitmesuguse muu Power BI sisu aruannetest koos mõne tegeliku ja eelarvesaldoga pearaamatust. Seetõttu annab see Power BI sisu finantsjuhile (CFO) organisatsioonist ülevaate.

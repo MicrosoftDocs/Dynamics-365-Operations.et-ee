@@ -3,7 +3,7 @@ title: Aegunud funktsioonid
 description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,8 +490,8 @@ Andmesektsioonid tagavad andmete loogilise eraldamise Microsoft Dynamics AX-i an
 
 |   |   |
 |---|---|
-| **Kasutuselt eemaldamise põhjus**       | Microsoft Dynamics AX 2012 R2-s võeti andmete eraldamise võimaldamiseks kasutusele andmesektsioonid. Tavastsenaariumi puhul on ettevõttel tütarettevõtted ja ühe tütarettevõtte andmed ei tohiks olla teisele tütarettevõttele näha, kuigi mõlemaid tütarettevõtteid haldab sama IT-osakond. Kuid uute sektsioonide loomiseks ja nende täitmiseks andmetega ning sektsiooni andmete varundamiseks oli vaja kogu programmis lisaskripte ja halduse üldkulusid. Pilves, kus meil on juurdepääs platvormi teenusena (PaaS) andmebaasiteenustele (Microsoft Azure SQL-i andmebaas) on palju tõhusam kasutada andmebaasi eralduskonteinerina, kui teha eraldamine programmis. Olenemata sellest, kas andmete eraldamine on vajalik tütarettevõtetele, mitmele rentnikule või lihtsalt skaalale, usume, et neid stsenaariume saab käsitleda paremini mitme andmebaasi või mitme Dynamics AX-i eksemplari kaudu. |
-| **Asendatud teise funktsiooniga?** | Tulevases väljaandes asendatakse andmesektsioonid mitme andmebaasi või Dynamics AX-i eksemplari toe kaudu.    |
+| **Kasutuselt eemaldamise põhjus**       | Microsoft Dynamics AX 2012 R2-s võeti andmete eraldamise võimaldamiseks kasutusele andmesektsioonid. Tavastsenaariumi puhul on ettevõttel tütarettevõtted ja ühe tütarettevõtte andmed ei tohiks olla teisele tütarettevõttele näha, kuigi mõlemaid tütarettevõtteid haldab sama IT-osakond. Kuid uute sektsioonide loomiseks ja nende täitmiseks andmetega ning sektsiooni andmete varundamiseks oli vaja kogu programmis lisaskripte ja halduse üldkulusid. Pilves, kus meil on juurdepääs platvormi teenusena (PaaS) andmebaasiteenustele (Microsoft Azure SQL-i andmebaas) on palju tõhusam kasutada andmebaasi eralduskonteinerina, kui teha eraldamine programmis. Olenemata sellest, kas andmete eraldamine on vajalik tütarettevõtetele, mitmele rentnikule või lihtsalt skaalale, usume, et neid stsenaariume saab käsitleda paremini rakenduse Finance and Operations mitme eksemplari kaudu. |
+| **Asendatud teise funktsiooniga?** | Andmesektsioone kasutavad kliendid peavad kasutama rakenduse Finance and Operations mitut eksemplari, kui andmebaasi taseme eraldamine on kriitiline probleem.    |
 | **Mõjutatud moodulid**             | Kõik  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Andmebaas ja ühine failiketas manuste jaoks

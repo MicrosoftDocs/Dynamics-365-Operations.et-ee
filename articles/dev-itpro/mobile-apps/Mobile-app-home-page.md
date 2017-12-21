@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 88e4737bd8abf7f7dbab54fa6fb18afa525177e9
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -84,7 +84,7 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <tr class="odd">
 <td>1</td>
 <td>Süsteemiadministraator</td>
-<td>Finance and Operationsi juurutamine või Finance and Operations teie organisatsioonis.</td>
+<td>Juurutage oma organisatsioonis rakendust Finance and Operations.</td>
 <td><ul><li>Kui te ei ole veel ühtegi Microsoft Dynamics 365 versiooni juurutanud, vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>.</li><li>Kasutatavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</li></ul></td>
 </tr>
 <tr class="even">

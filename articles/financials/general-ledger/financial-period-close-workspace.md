@@ -3,7 +3,7 @@ title: "Finantsperioodi sulgemise tööruum"
 description: "Selles artiklis antakse ülevaade finantsperioodi sulgemise tööruumist ja sellega seotud konfiguratsioonist."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ Saate määrata mallis oleva ülesande ühele või mitmele ettevõttele, kus ül
 
 Menüüelement **Ülesande link** on seostatud ülesande tööpanusega ja seda saab kasutada tööruumis ülesande lingilt otse seotud lehele liikumiseks. Näiteks saab valuuta ümberarvutamise protsessi käivitava sulgemisülesande ostureskontro puhul siduda seostatud lehega **Välisvaluuta ümberarvutamine** rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Saate siduda ka välise URL-iga. 
 
-> [!Vihje] Kui soovite siduda kindla halduse aruandja aruande finantsperioodi sulgemisülesandega, saate kasutada aruande URL-i. Aruande URL-i juurde pääsemiseks avage aruandekujundaja ja klõpsake seejärel aruande avamiseks veebibrauseris suvandit **Fail** &gt; **Kuva aruanne**. Seejärel saate brauseri aadressiribalt URL-i kopeerida ja kleepida selle väljale **Ülesande link** **URL**. 
+> [!TIP]
+> Kui soovite siduda kindla halduse aruandja aruande finantsperioodi sulgemisülesandega, saate kasutada aruande URL-i. Aruande URL-i juurde pääsemiseks avage aruandekujundaja ja klõpsake seejärel aruande avamiseks veebibrauseris suvandit **Fail** &gt; **Kuva aruanne**. Seejärel saate brauseri aadressiribalt URL-i kopeerida ja kleepida selle väljale **Ülesande link** **URL**. 
 
 Saate määratleda malli ülesande sõltuvusi. Kui ülesanne on seadistatud sõltuma ühest või mitmest ülesandest, ei saa seda ülesannet lõpetatuks märkida, kuni kõik sõltuvused on lõpule viidud. 
 

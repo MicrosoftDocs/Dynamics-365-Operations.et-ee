@@ -3,7 +3,7 @@ title: "Pilvepõhiste ja asutusesiseste funktsioonide võrdlus"
 description: "Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisen
 | | PowerBI.com-iga integreerimine| Jah | Ei |
 | | Analüütikatööruumid | Jah | Ei |
 | | Arukas äriprotsess: soovitused| Jah | Ei |
+| | Power BI aruannete loomine OData abil, kasutades Power BI töölauda või Excel PowerQuery tööriistu | Jah | Ei |
+| | SQL Serveri aruandlusteenused (SSRS) toetavad väljamastaapimist  | Jah | Ei |
+| | Telemeetria kantakse üle pilve | Jah | Ei |
 | Varude haldamine| | Jah | Jah |
 | Elutsükli teenused| | Jah | Jah |
 | | Konfigureeritavad äriprotsessid | Jah | Ei |
@@ -86,7 +89,7 @@ Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisen
 | Transpordihaldus| | Jah | Jah |
 | Hankija koostöö| | Jah | Jah|
 | Laohaldus| | Jah | Jah |
-| | Mobiilne laorakendus| Jah | Ei |
+| | Mobiilne laorakendus| Jah | Jah |
 | | Ladustamise Power BI aruanded| Jah | Ei |
 | Veebiklient | | Jah | Jah |
 | | Tegevuse salvestaja – tegevuse salvestiste salvestamine või laadimine BPM-i teegist| Jah | Ei |
@@ -103,6 +106,7 @@ Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisen
 | Platvorm ühilduvus  || Jah | Jah |
 | Hooldus | | Jah | Jah |
 | | Teeninduskeskkonnad | Jah | Ei |
+| Trace Parser ja PerfTimer | | Jah | Ei |
 | Täiendamine | | Jah | Jah |
 | | Täiendamine | Jah | Ei |
 | | Eelmiste versioonide täiendamine ja tugi | Jah | Ei |
@@ -121,6 +125,8 @@ Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisen
 |---|---|---|---|
 | Kõik Talenti valdkonnad | Kõik Talenti funktsioonid | Jah | Ei |
 
+## <a name="see-also"></a>Vt ka
 
+- [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](features-not-implemented-on-prem.md)
 
 

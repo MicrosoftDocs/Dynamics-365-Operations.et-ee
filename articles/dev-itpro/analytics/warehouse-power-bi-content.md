@@ -3,7 +3,7 @@ title: "Laojõudluse Power BI sisu"
 description: "See teema kirjeldab, mida hõlmab Laojõudluse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Laohaldurid saavad **Laojõudluse** Power BI sisu abil mõõta kolme järgmist v
 -   **Asukoha varude täpsus** – varude täpsus on oluline siselao äriteave (BI). Väga oluline on välja selgitada, kui täpselt te üldiselt arvestate. Siiski on oluline ka välja selgitada, kui täpne te olete kaupade hoidmisel õigetes asukohtades, ja et tõstaksite lahknevusandmed esile,e t saaksite leida kaupade jaoks paremaid asukohti või algatada kindlate kaupade koguinventuuri. (Praegu pakutakse uut kaubapõhist inventuurifunktsiooni kiirparandusena.) Kui kasutate seda Power BI sisu vaba kaubavaru andmete õigsuse kindlaks tegemiseks asukohtade kaupa, saate tuvastada ka vargust oma kauplustes. Samuti saate välja selgitada, kas mõnes asukohas on vaba kaubavaru koguseid, mis erinevad ettevõtte ressursiplaanimise (ERP) andmetest. Need asukohad võivad olla liiga suured või on nende loendamine võimatu. Teise võimalusena võib osa füüsilisest paigutamisest olla halb, nii et üht tüüpi kauba hoidmine sünkroonis vaba kaubavaru andmetega on keeruline.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Juurdepääs Power BI sisupaketile
-Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017), siis kuvatakse **Laojõudluse** Power BI sisu lehel **Laojõudlus** (**Laojõudlus** > **Päringud ja aruanded** > **Laojõudluse analüüs** > **Laojõudlus**). 
+Power BI sisu **Laojõudlus** kuvatakse lehel **Laojõudlus** (**Laohaldus** > **Päringud ja aruanded** > **Tootmise jõudlusanalüüs** > **Laojõudlus**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 **Laojõudluse** Power BI sisu hõlmab aruannet. See aruanne koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **Laojõudluse** Power BI sisu visualiseerimistest.
