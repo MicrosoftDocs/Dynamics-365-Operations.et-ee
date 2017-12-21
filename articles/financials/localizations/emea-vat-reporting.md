@@ -57,8 +57,9 @@ KM-aruande koostamiseks tuleb seadistada järgmine.
 
 ### <a name="sales-tax-authorities-for-vat-reporting"></a>KM-asutused KM-aruandluse jaoks
 
-<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](general-ledger/tasks/set-up-sales-tax-authorities). -->
 Enne käibemaksuaruandluse koodide seadistamist tuleb valida käibemaksuasutuse jaoks õige aruande paigutus. Tehke lehel **Käibemaksuasutused** jaotises **Üldine** valik **Aruande paigutus**. Seda paigutust kasutatakse käibemaksuaruandluse koodide seadistamisel.
+
+<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](../general-ledger/tasks/set-up-sales-tax-authorities.md). -->
 
 ### <a name="sales-tax-reporting-codes"></a>Käibemaksuaruandluse koodid
 
