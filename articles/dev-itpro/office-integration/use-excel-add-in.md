@@ -3,7 +3,7 @@ title: Exceli lisandmooduli kasutamine
 description: "See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis, ja seejärel vaadata, värskendada ja redigeerida andmeid, kasutades Microsoft Dynamics Office’i Excelile mõeldud lisandmoodulit."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 11/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
-ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -104,6 +104,18 @@ Saate kasutada kujundajat, et reguleerida veerge, mis lisatakse automaatselt tö
 
 4. Andmeallikale tehtud muudatuste rakendamiseks valige käsk **Värskenda**. Kujundajast väljumiseks valige nupp **Valmis**.
 5. Kui lisasite välja (veerg), valige käsk **Värskenda**, et tõmmata sisse värskendatud andmekogum.
+
+## <a name="copy-environment-data"></a>Kopeeri keskkonna andmed
+
+Ühest keskkonnast töövihikusse toodud andmeid saab kopeerida muusse keskkonda. Siiski ei saa lihtsalt ühenduse URL-i muuta, kuna töövihiku andmete vahemälu käsitleb ka edaspidi andmeid olemasolevate andmetena. Selle asemel tuleb kasutada funktsiooni Keskkonna andmete kopeerimine, et kopeerida andmed uude keskkonda uute andmetena.
+
+1. Valige nupp **Suvandid** (hammasrattasümbol) ja seejärel valige kiirkaardil **Andmekonnektor** suvand **Keskkonna andmete kopeerimine**. 
+2. Sisestage uue keskkonna serveri URL. 
+3. Tegevuse kinnitamiseks valige **OK** ja seejärel **Jah**. Exceli lisandmoodul taaskäivitub ja loob ühenduse uue keskkonnaga. Töövihiku olemasolevaid andmeid käsitletakse uute andmetena.
+
+    Pärast Exceli lisandmooduli taaskäivitumist ilmub teateaken, mis annab teada, et töövihik on keskkonna kopeerimise režiimis.
+
+4. Valige käsk **Avalda**, et kopeerida andmed uude keskkonda uute andmetena. Keskkonna kopeerimise operatsiooni tühistamiseks ja uues keskkonnas olemasolevate andmete ülevaatamiseks valige käsk **Värskenda**.
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
 On mõned probleemid, mida saab lahendada mõne lihtsa juhise kaudu.
