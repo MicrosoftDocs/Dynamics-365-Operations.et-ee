@@ -3,7 +3,7 @@ title: "Eelarve koostamise ülevaade"
 description: "Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 for Finance and Operationsi Enterprise editionis funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Finance and Operationsi Enterprise editionis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

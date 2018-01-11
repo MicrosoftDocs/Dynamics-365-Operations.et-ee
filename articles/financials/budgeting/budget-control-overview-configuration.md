@@ -3,7 +3,7 @@ title: "Eelarve juhtimise ülevaade"
 description: Selles artiklis tutvustatakse eelarve juhtimist ja antakse teavet Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni eelarve juhtimise konfigureerimise kohta, et saaksite hallata rahalisi vahendeid.
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
