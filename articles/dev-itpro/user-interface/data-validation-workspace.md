@@ -3,7 +3,7 @@ title: "Andmete valideerimise tööruum"
 description: "Andmete valideerimise kontroll-loendi tööruum võimaldab jälgida andmete valideerimisprotsesse ettevõtete, valdkondade ja inimeste lõikes. Kontroll-loendit saab kasutada uue juurutuse käigus, pärast versioonitäiendust või migreerimist."
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: "Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod
 description: "See teema aitab teil otsustada, kuhu peaksite arve töölehtede vaikekontod määrama."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
