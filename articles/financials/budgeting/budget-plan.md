@@ -3,7 +3,7 @@ title: Eelarve plaanimine
 description: "Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni funktsiooni uuendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub täpsemalt järgmistele äriprotsessidele või ülesannetele: - organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine - eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine - eelarve plaanimise protsessi loomine ja aktiveerimine - eelarveplaani dokumendi loomine pearaamatust tegelikke kulusid tõmmates - eraldamiste kasutamine eelarveplaani dokumendi andmete korrigeerimiseks - eelarveplaani dokumendi andmete redigeerimine Excelis"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Kontsernisisesed kulud
 description: "Töötaja, kes töötab ühes organisatsiooni juriidilises isikus, võib teha tööd sama organisatsiooni teise juriidilise isiku heaks. Selles olukorras võite kontsernisisese kulu funktsiooni abil määrata töötaja kulud sellele juriidilisele isikule, kelle heaks töö tehti."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
