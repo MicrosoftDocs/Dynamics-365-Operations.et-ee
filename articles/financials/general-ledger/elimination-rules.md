@@ -3,14 +3,14 @@ title: Eemaldamisreeglid
 description: "See teema annab teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 2a0897bd80a508474be384e8086ca47dd9de7efb
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="44d80-182">Kui olete põhiparameetrid määratlenud, saate määratleda ka tegelikud töötlusreeglid, klõpsates valikut **Read**.</span><span class="sxs-lookup"><span data-stu-id="44d80-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="44d80-183">Eemaldamiseks on kaks võimalust: netomuutuse summa eemaldamine või fikseeritud summa määratlemine.</span><span class="sxs-lookup"><span data-stu-id="44d80-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-<span data-ttu-id="44d80-184">Valige lähtekonto.</span><span class="sxs-lookup"><span data-stu-id="44d80-184">Select your source account.</span></span> <span data-ttu-id="44d80-185">Saate kasutada metamärgina tärni (\*).</span><span class="sxs-lookup"><span data-stu-id="44d80-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="44d80-186">Näiteks väärtuse 1\* korral valitakse eralduse andmeallikana kõik kontod, mis algavad numbriga 1.</span><span class="sxs-lookup"><span data-stu-id="44d80-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
+<span data-ttu-id="44d80-184">Valige lähtekonto.</span><span class="sxs-lookup"><span data-stu-id="44d80-184">Select your source account.</span></span> <span data-ttu-id="44d80-185">Saate kasutada metamärgina tärni (\\*).</span><span class="sxs-lookup"><span data-stu-id="44d80-185">You can use an asterisk (\\*) as a wild card.</span></span> <span data-ttu-id="44d80-186">Näiteks väärtuse 1\\* korral valitakse eralduse andmeallikana kõik kontod, mis algavad numbriga 1.</span><span class="sxs-lookup"><span data-stu-id="44d80-186">For example, 1\\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
 <span data-ttu-id="44d80-187">Kui olete lähtekontod valinud, määrab valik **Konto täpsustus** kasutatava konto sihtettevõttes.</span><span class="sxs-lookup"><span data-stu-id="44d80-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="44d80-188">Valige suvand **Allikas**, kui soovite kasutada sama põhikontot, mis on määratletud jaotises **Lähtekonto**.</span><span class="sxs-lookup"><span data-stu-id="44d80-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="44d80-189">Kui valite suvandi **Kasutaja määratletud**, peate määrama sihtkonto.</span><span class="sxs-lookup"><span data-stu-id="44d80-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
