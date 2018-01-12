@@ -3,7 +3,7 @@ title: Eelarve plaanimise mallid Excelile
 description: See teema kirjeldab, kuidas luua Microsoft Exceli malle, mida saab kasutada eelarveplaanidega.
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 747e57b11c13f71c672d43531255751ff273f57c
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -92,7 +92,7 @@ ms.lasthandoff: 11/03/2017
 > [!NOTE] 
 > <span data-ttu-id="d448a-154">Valemi määratlemiseks looge valem arvutustabelis ja kopeerige see aknasse **Kujundus**.</span><span class="sxs-lookup"><span data-stu-id="d448a-154">To define the formula, create the formula in the spreadsheet, and then copy it to the **Design** window.</span></span> <span data-ttu-id="d448a-155">Finance and Operationsiga seotud tabelile antakse tavaliselt nimi AXTable1.</span><span class="sxs-lookup"><span data-stu-id="d448a-155">A Finance and Operations bound table will typically be named "AXTable1".</span></span> <span data-ttu-id="d448a-156">Näiteks veergude Taotlus Q1 : Taotlus Q4 columns summeerimiseks arvutustabelis saate kasutada valemit AxTable1\[Taotlus Q1\]+AxTable1\[Taotlus Q2\]+AxTable1\[Taotlus Q3\]+AxTable1\[Taotlus Q4\].</span><span class="sxs-lookup"><span data-stu-id="d448a-156">For example, to summarize Request Q1 : Request Q4 columns in the spreadsheet, the formula = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].</span></span>
 
-<span data-ttu-id="d448a-157">Korrake neid etappe veeru **Korrigeerimine** lisamiseks.</span><span class="sxs-lookup"><span data-stu-id="d448a-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="d448a-158">Kasutage selle veeru puhul valemit AxTable1\[Koondtaotlus\]\*$I$1.</span><span class="sxs-lookup"><span data-stu-id="d448a-158">Use formula = AxTable1\[Total request\]\*$I$1 for this column.</span></span> <span data-ttu-id="d448a-159">See võtab väärtuse lahtrist I1 ja korrutab väärtustega veerus **Koondtaotlus**, et arvutada korrigeerimise summad.</span><span class="sxs-lookup"><span data-stu-id="d448a-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
+<span data-ttu-id="d448a-157">Korrake neid etappe veeru **Korrigeerimine** lisamiseks.</span><span class="sxs-lookup"><span data-stu-id="d448a-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="d448a-158">Kasutage selle veeru puhul valemit AxTable1\[Koondtaotlus\]\\*$I$1.</span><span class="sxs-lookup"><span data-stu-id="d448a-158">Use formula = AxTable1\[Total request\]\\*$I$1 for this column.</span></span> <span data-ttu-id="d448a-159">See võtab väärtuse lahtrist I1 ja korrutab väärtustega veerus **Koondtaotlus**, et arvutada korrigeerimise summad.</span><span class="sxs-lookup"><span data-stu-id="d448a-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
 
 <span data-ttu-id="d448a-160">Salvestage ja sulgege Exceli fail.</span><span class="sxs-lookup"><span data-stu-id="d448a-160">Save and close the Excel file.</span></span> <span data-ttu-id="d448a-161">Naaske Finance and Operationsisse ja klõpsake aknas **Paigutused** valikuid **Mall &gt; Üleslaadimine**, et laadida eelarveplaani jaoks kasutatav salvestatud Exceli mall üles.</span><span class="sxs-lookup"><span data-stu-id="d448a-161">Return to Finance and Operations, and in **Layouts**, click **Template &gt; Upload** to upload the saved Excel template to be used for the budget plan.</span></span> 
 
