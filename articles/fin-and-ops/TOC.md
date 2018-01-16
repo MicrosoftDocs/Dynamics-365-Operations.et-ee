@@ -17,25 +17,26 @@
 ##### [Rakenduse Finance and Operations (asutusesisene) ostmine](get-started/purchase-on-premises.md)
 
 ### [Mis on uus või muudetud?](get-started/whats-new-changed.md)
-#### [Aegunud funktsioonid](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [Eemaldatud või aegunud funktsioonid](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [AX 2012 funktsioonid, mis lükati edasi](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](get-started/features-not-implemented-on-prem.md)
-#### [Elutsükli poliitika](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platvormivärskendus 12 (november 2017)](get-started/whats-new-platform-update-12.md)
-#### [Platvormivärskendus 11 (oktoober 2017)](get-started/whats-new-platform-update-11.md)
-#### [Platvormivärskendus 10 (august 2017)](get-started/whats-new-platform-update-10.md)
+#### [Väljaanded ja elutsükli poliitika](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Platformi värskendus 12 (november 2017)](get-started/whats-new-platform-update-12.md)
+#### [Platformi värskendus 11 (oktoober 2017)](get-started/whats-new-platform-update-11.md)
+#### [Platformi värskendus 10 (august 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (juuli 2017)](get-started/whats-new-application-July-2017-update.md)
-#### [Platvormivärskendus 9 (juuli 2017)](get-started/whats-new-platform-update-9.md)
-#### [Platvormivärskendus 8 (juuni 2017)](get-started/whats-new-platform-update-8.md)
-#### [Platvormivärskendus 7 (mai 2017)](get-started/whats-new-platform-update-7.md)
-#### [Platvormivärskendus 6 (aprill 2017)](get-started/whats-new-platform-update-6.md)
-#### [Platvormivärskendus 5 (märts 2017)](get-started/whats-new-platform-update-5.md)
-#### [Platvormivärskendus 4 (veebruar 2017)](get-started/whats-new-platform-update-4.md)
+#### [Platformi värskendus 9 (juuli 2017)](get-started/whats-new-platform-update-9.md)
+#### [Platformi värskendus 8 (juuni 2017)](get-started/whats-new-platform-update-8.md)
+#### [Platformi värskendus 7 (mai 2017)](get-started/whats-new-platform-update-7.md)
+#### [Platformi värskendus 6 (aprill 2017)](get-started/whats-new-platform-update-6.md)
+#### [Platformi värskendus 5 (märts 2017)](get-started/whats-new-platform-update-5.md)
+#### [Platformi värskendus 4 (veebruar 2017)](get-started/whats-new-platform-update-4.md)
 #### [Operationsi versioon 1611 (november 2016)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [Platvormivärskendus 3 (november 2016)](get-started/whats-new-platform-update-3.md)
-#### [Platvormivärskendus 2 (august 2016)](get-started/whats-new-platform-update-2.md) 
+#### [Platformi värskendus 3 (november 2016)](get-started/whats-new-platform-update-3.md)
+#### [Platformi värskendus 2 (august 2016)](get-started/whats-new-platform-update-2.md) 
 #### [Dynamics AX-i rakenduse versioon 7.0.1 (mai 2016)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [Platvormivärskendus 1 (mai 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [Platformi värskendus 1 (mai 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0 (veebruar 2016)](get-started/whats-new-changed-7-0-february-2016.md)
 #### Värskendatud tegevuse juhised
 ##### [Novembri 2016 tegevuse juhised](get-started/new-task-guides-november-2016.md)
@@ -141,7 +142,7 @@
 #### [Andmehalduse paketi API](../dev-itpro/data-entities/data-management-api.md)
 #### [Teenuse lõpp-punktid](../dev-itpro/data-entities/services-home-page.md)
 ##### [Teenuste autentimise tõrkeotsing](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [Kohandatud teenused](../dev-itpro/data-entities/custom-services.md)
 #### [Korduvad integreerimised](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,10 +180,11 @@
 ### [Andmeüksused](../dev-itpro/data-entities/data-entities.md)
 
 #### [Konfigureerimisandmete projektid](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [Konfigureerimisandmete paketid](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Konfigureerimisandmete kopeerimine ettevõtete vahel](../dev-itpro/data-entities/copy-configuration.md)
+##### [Konfiguratsiooniandmete paketid (ainult 2017. a juuli väljaanne)](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Konfigureerimisandmete mallid](../dev-itpro/data-entities/configuration-data-templates.md)
-#### [Üksuse muudatuste jälgimine.](../dev-itpro/data-entities/entity-change-track.md)
+
+#### [Üksuse muudatuste jälgimine](../dev-itpro/data-entities/entity-change-track.md)
 
 ### Standardsed andmeüksused
 #### [Andmeüksuste aruanne](../dev-itpro/data-entities/data-entities-report.md)
@@ -646,6 +648,11 @@
 ##### [Negatiivsete deebetite ja kreeditite seadistamine ](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [Kasutaja toimingulogi Hiina tööreegli järgi](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [KM sisaldavate kliendiarvete KKK](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### India
+##### [Maksumootori ülevaade](../financials/general-ledger/tax-engine.md)
+##### [Maksumootori integratsioon](../financials/general-ledger/tax-engine-integration.md)
+##### [Maksumootori laiendamine](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Jaapan
 ##### [Põhivara soetamine ja valitsuse toetuse taotlemine](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1214,14 +1221,15 @@
 #### [Tööjõu mõõdikud](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
 ### Dokumentide aruandlus ja printimine
-#### [Dokumentide aruandlusteenuste ülevaade](../dev-itpro/analytics/document-reporting-services.md)
+#### [Toote Document Reporting Services ülevaade](../dev-itpro/analytics/document-reporting-services.md)
+#### [Võrguprinteri seadmete installimine asutusesisestesse keskkondadesse](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [SSRS-i konfigureerimine kohapealseks juurutamiseks](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [Printimine](../dev-itpro/analytics/print-documents.md)
 ##### [Dokumendi marsruudivaliku agendi installimine võrguprinterite lubamiseks](../dev-itpro/analytics/install-document-routing-agent.md)
 ##### [Dokumentide loomise, avaldamise ja printimise võimalused kohapealsetes keskkondades](../dev-itpro/analytics/printing-capabilities-on-premises.md)
 ##### [Dokumendi marsruudivaliku agendi käitamine Windowsi teenusena](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md)
 #### [Pikaajaliste aruannete aegumise vältimise spikker](../dev-itpro/analytics/prevent-long-running-reports-timing-out.md)
-#### [SQL Serveri aruandlusteenuste aruannete loend](../dev-itpro/analytics/SSRS-report.md)
+#### [SQL Server Reporting Services’i aruannete loend](../dev-itpro/analytics/SSRS-report.md)
 #### [Aruandluse lahenduste loomine](../dev-itpro/analytics/create-nextgen-reporting-solutions.md)
 #### [Aruande kujundusmallide installimine](../dev-itpro/analytics/install-modern-report-design-templates.md)
 #### [Rakenduste komplekti aruannete kohandamine laiendite abil](../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md)
@@ -1284,31 +1292,29 @@
 ##### [Elektroonilise aruandluse nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md)
 ##### [Elektroonilise aruandluse andmemudeli valimine vormingu loomise ajal](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [Elektroonilise aruandluse vormingu täiendamine selle vormingu uue alusvormi kasutuselevõtu abil](../dev-itpro/analytics/tasks/er-upgrade-format.md)
-##### [Elektroonilise aruandluse konfiguratsiooni üles laadimine teenusesse Lifecycle Services](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Elektroonilise aruandluse konfiguratsiooni üleslaadimine teenusesse Lifecycle Services](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Elektroonilise aruandluse raamistiku API muudatused rakenduse värskenduse 7.3 jaoks](../dev-itpro/analytics/er-apis-app73.md)
 
-### Analüütika tööriistad ja visualiseeringud
+### Manustatud analüütilised lahendused
+#### [Tööruumides manustatud Power BI](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [Power BI Embeddedi integreerimine](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### Isikupärastamise suvandid saidil PowerBI.com
+#### [Power BI integreerimine](../dev-itpro/analytics/power-bi-integration.md)
+#### [Power BI aruannete kinnitamine tööruumidesse](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Lahenduste loomise ja laiendamise tööriistad
 #### [Analüütika, koondmõõtmised ja KPI modelleerimine](../dev-itpro/analytics/analytics.md)
+#### [Analüütiliste aruannete koostamine Power BI Desktopi abil](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [Modelleerimine ja koondandmed](../dev-itpro/analytics/model-aggregate-data.md)
 #### [Finantsdimensioonide lisamine koondmõõtmistele](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [Konteksti puudutava BI lisamine vormidele](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [Koondmõõtmiste aruanne](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [Koondandmeolemite aruanne](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [Juhtimismõõdiku tüübi (KPI.md) aruanne](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [Power BI integreerimine](../dev-itpro/analytics/power-bi-integration.md)
-#### [Power BI sisule juurdepääsemine](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [Power BI aruande ja armatuurlaua loomine](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [Finance and Operationsi andmete abil Power BI aruande loomine](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [Power BI integreerimise konfigureerimine tööruumidele](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [Power BI Embeddedi integreerimine](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [Manustatud Power BI tööruumides](../dev-itpro/analytics/embed-power-bi-workspaces.md)
 #### [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
 #### [Analüütiliste tööruumide ja aruannete turbe abistamine teenuse Power BI Embedded abil](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [Power BI lisamine tööruumidesse](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [Power BI aruannete kinnitamine tööruumidesse](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Lauskasutaja haldustööriistad
 #### [Power BI integreerimine üksuse kauplusega](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [Power BI integreerimise konfigureerimine tööruumidele](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [Oma andmebaasi toomine](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [Analüütiliste aruannete koostamine Power BI töölaua abil](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [Analüüsirakenduste avaldamine Power BI-s](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [Varude haldus](../supply-chain/inventory/inventory-home-page.md)
@@ -1362,6 +1368,7 @@
 #### [Piirangutega plaani koostamine (tegevuse juhis)](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [Kaastoodete jaoks materjaliplaani loomine (tegevuse juhis)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [Plaanitud tellimuste haldamine](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Puhvervaru käsitlemine](../supply-chain/master-planning/safety-stock-replenishment.md)
 #### [Viivituste käsitlemine](../supply-chain/master-planning/delays.md)
 #### [Koosnevuse jälgimine](../supply-chain/master-planning/trace-explosion.md)
 #### [Tegevusteated](../supply-chain/master-planning/action-messages.md)
@@ -1438,6 +1445,8 @@
 #### [Hankija koostöö seadistamine ja haldamine](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
 #### [Hankija koostöö kasutajate haldamine](../supply-chain/procurement/manage-vendor-collaboration-users.md)
 #### [Hankija kontode seadistamine](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Hankija nõude konfiguratsioonid](../supply-chain/procurement/vendor-request-configurations.md)
+#### [Hankija sotsialiseerimine](../supply-chain/procurement/vendor-onboarding.md)
 #### [Hankija koostöö väliste hankijatega](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Hankija koostöö klientidega](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [Väliskataloogi häälestamine e-hanke väljaregistreerimiseks](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1550,7 +1559,9 @@
 #### Tootmistööde toimimine
 ##### [Tootmistellimuste loomine](../supply-chain/production-control/create-production-orders.md)
 ##### [Tootetellimuste vabastamine](../supply-chain/production-control/release-production-orders.md)
-##### [Tootmistellimuse oleku tühistamine](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Materjalierandite nähtavus](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [Koosluse- ja valemiridade lattu väljastamine](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[Tootmistellimuse oleku tühistamine](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [Materjalitarbe registreerimine mobiilse seadmega](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [Toormaterjali tarbimise kontrollimine automaatse tarbimise põhimõtete abil](../supply-chain/production-control/flushing-principles.md) 
 ##### [Ristlaadimine tootmistellimustest lähetusaladesse](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [Tootmise käivitamise registreerimine](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Tootmise tagasiside](../supply-chain/production-control/production-feedback.md)
 ##### [Tööajaarvestuse registreerimine](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Puudumiste registreerimine tööajaarvestuses](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Puudumiste registreerimine tööajaarvestuses](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### Finantside haldamine tootmises
 ##### [Tööde kogumisse kuuluvatele töödele aja eraldamine](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Materjalikulu arvutamine](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [Tooteetaloni loomine (tegevuse juhis)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Eelmääratletud tootevariantide loomine (tegevuse juhis)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [Väljastatud toote loomine ühe ettevõtte jaoks (tegevuse juhis)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Toote töötsükli olek](../supply-chain/pim/product-lifecycle.md)
 #### [Tootele vöötkoodi loomine (tegevuse juhis)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [Toote GTIN-koodi sisestamine (tegevuse juhis)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Toote jaoks partiiatribuutide loomine (tegevuse juhis)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,7 +1812,8 @@
 ### [Kauba transpordipiirangute seadistamine](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [Laohaldus](../supply-chain/warehousing/warehouse-management-overview.md)
-### [Lao konfiguratsioon](../supply-chain/warehousing/warehouse-configuration.md) 
+### [Lao konfiguratsioon](../supply-chain/warehousing/warehouse-configuration.md)
+#### [Lao seadistamine lao konfiguratsioonimalli abil](../supply-chain/inventory/warehouse-template.md)
 #### [Töö juhtimine töömallide ja asukohakorralduste abil](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Mõõtühik ja ladustamispoliitikad](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Lao Power BI sisu](../dev-itpro/analytics/warehouse-power-bi-content.md)

@@ -3,7 +3,7 @@ title: Teave
 description: "Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition saadaoleva äriteabe ja aruandlustööriistade kohta."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,7 +48,6 @@ Kasutajad saavad andmetega suhtlemiseks klõpsata või puudutada lehel olevaid v
  - [Manustatud Power BI tööruumides](embed-power-bi-workspaces.md)
  - [Power BI Embeddedi integreerimine](power-bi-embedded-integration.md)
  - [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](add-analytics-tab-workspaces.md)
- - [Analüüsirakenduste avaldamine Power BI-s](publish-apps-powerbi.md)
  - [Analüütiliste tööruumide ja aruannete turbe abistamine teenuse Power BI Embedded abil](secure-analytical-workspaces.md)
  - [Power BI sisu rakenduse Finance and Operations jaoks](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ Aruandluslahendusi kasutatakse sageli äritehingute üksikasjade jäädvustamise
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
-- [Dokumentide aruandlusteenuste ülevaade](document-reporting-services.md)
+- [Toote Document Reporting Services ülevaade](document-reporting-services.md)
 - [Finance and Operationsi rakendustes printimine](print-documents.md)
 - [Dokumendi marsruudivaliku agendi installimine võrguprinterite lubamiseks](install-document-routing-agent.md)
 
@@ -88,11 +87,8 @@ Lisateabe saamiseks vaadake järgmisi teemasid.
 ## <a name="technical-reference-reports"></a>Tehnilise teabe aruanded
 Järgmised aruanded hõlmavad viiteteavet rakenduse Finance and Operations objektide kohta.
 
-- [Koondandmeolemite aruanne](aggregate-data-entities-report.md)
-- [Koondmõõtmiste aruanne](aggregate-measurements-report.md)
 - [Andmeüksuste aruanne](../data-entities/data-entities-report.md)
-- [Juhtimismõõdikute (KPI-d) aruanne](key-performance-indicators-report.md)
 - [Litsentsikoodide ja konfiguratsioonivõtmete aruanne](../sysadmin/license-codes-configuration-keys-report.md)
-- [SQL Serveri aruandlusteenuste aruanne](SSRS-report.md)
+- [SQL Server Reporting Services’i aruannete aruanne](SSRS-report.md)
 - [Töövoo tüüpide aruanne](../../fin-and-ops/organization-administration/workflow-types-report.md)
 
