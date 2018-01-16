@@ -41,10 +41,11 @@
 ## [Jaemüügikanalite määratlemine](define-maintain-retail-channels.md)
 ## [Võrgupoe ülevaade](online-stores.md)
 ## [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
-## [Jaemüügi aeg ja kohalviibimine](retail-time-attendance.md)
+## [Retaili aeg ja kohalviibimine](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) ja Cloud POS
-## [Kassatoimingud](POS-operations.md)
+## [Valimine Modern POS-i ja Cloud POS-i vahel](MPOS-or-CPOS.md)
+## [POS-toimingud](POS-operations.md)
 ## [Demoandmete ekraanipaigutused MPOS-is/CPOS-is](demo-data.md)
 ## Riistvara välisseadmed
 ### [Jaemüügi välisseadmete ülevaade](retail-peripherals-overview.md)
@@ -70,12 +71,17 @@
 ## [Tellimuse saatmine teisest kauplusest](charge-send.md)
 ## Seadme aktiveerimine
 ### [MPOS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
-### [Pilve kassasse ja MPOS‑i laiendatud sisselogimise seadistamine](extended-logon.md)
+### [Cloud POS ja MPOS‑i laiendatud sisselogimise seadistamine](extended-logon.md)
 ### [Jaemüügikontode ja -seadmete haldamine peakontorist](set-up-activation-accounts-validate-devices-hq.md)
 ## Kviitungid
 ### [Kviitungimallide häälestamine](receipt-templates-printing.md) 
 ### [Meilikviitungite saatmine MPOS-ist](email-receipts.md)
 ## [Tegevuse salvestaja ja kassa spikker](task-recorder-retail-pos.md)
+
+# Tellimuse täitmine
+## [Kaupluse tellimuse täitmise ülevaade](Order-fulfillment-overview.md)
+## [Poe jaoks täitmise seadistamine](Order-fulfillment-POS-setup.md)
+## [Kassa teatiste lubamine](Notifications-POS.md)
 
 # Jälgimine ja analüüs
 ## [Müügi ja marginaali jõudluse jälgimine](monitor-sales-margin-performance.md)
@@ -184,7 +190,7 @@
 ### [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
 ### [Jaemüügikontode ja -seadmete haldamine peakontorist](set-up-activation-accounts-validate-devices-hq.md)
 ### [Retail POS-i seadme aktiveerimine](dev-itpro/retail-device-activation.md)
-### [Retaili pilve kassa turve](dev-itpro/secure-retail-cloud-pos.md)
+### [Retaili Cloud POS turve](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retaili riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
 ### [Retaili iseteeninduse komponentide hulgijuurutus](dev-itpro/retail-mass-deployment.md)
 ### [Retaili komponentide sündmused diagnostika ja tõrkeotsingu jaoks](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -205,7 +211,7 @@
 ### [Retail POS-i ekraani paigutused](pos-screen-layouts.md)
 ### [POS-i paigutuse kujundaja installimine](install-pos-layout-designer.md)
 ### [MPOS-i konfigureerimine ühenduseta režiimi jaoks](dev-itpro/retail-modern-pos-offline.md)
-### [MPOS-i ja pilve kassa käivitaja laiendatavus](dev-itpro/modern-pos-trigger-extensibility.md)
+### [MPOS-i ja Cloud POS käivitaja laiendatavus](dev-itpro/modern-pos-trigger-extensibility.md)
 ### [Kohandatud juhtelemendi lisamine kassakuvale](dev-itpro/pos-custom-control.md)
 ### [Kassa makse selgitus](dev-itpro/pos-payment-extension.md)
 ### [Väline kinkekaardi tugi](dev-itpro/gift-card.md)
@@ -258,8 +264,10 @@
 ### [Retail Modern POS-i kande lehtedele kohandatud juhtelementide lisamine](dev-itpro/pos-custom-transaction.md)
 ### [Kohandatud veergude lisamine POS-i kanderuudustikule](dev-itpro/pos-custom-transaction-column.md)
 ### [POS-i laiendusest kassa API või toimingu kutsumine](dev-itpro/pos-api-extension.md)
-### [POS-i olemasolevate vaadete laiendamine kohandatud veergude ja rakendusriba nuppude lisamiseks](dev-itpro/pos-view-extension.md)
 ### [Retail Modern POS-i päästikud ja printimine](dev-itpro/pos-trigger-printing.md)
+### [Kohandatud juhtelemendi lisamine Retail Modern POS-i ekraanivälisele koostajapõhisele vaatele](dev-itpro/pos-control-non-screen.md)
+### [Retaili puhvri loomine POS-i ja e-Commerce’i jaoks](dev-itpro/pos-generate-retail-proxy.md)
+### [Konfiguratsioonietapid Retaili arendajatele, kes töötavad pilvesse majutatud arendusväljadega](dev-itpro/cloud-dev-box.md)
 
 ## Commerce’i käitusaeg
 ### [Püsikliendi laiend](dev-itpro/retail-sdk/loyalty-extension-sample.md)
