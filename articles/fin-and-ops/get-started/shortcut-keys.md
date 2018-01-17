@@ -3,7 +3,7 @@ title: Kiirklahvid
 description: "Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations, Enterprise edition."
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Fin
 
 **Märkus.** Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
 
-## <a name="finding-a-shorcut"></a>Kiirklahvi leidmine
+## <a name="finding-a-shortcut"></a>Otsetee leidmine
 Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid kiirklahve otse kasutajaliidesest. Lihtsalt paremklõpsake juhtelemendil ja valige **Kuva kiirklahvid**. See avab dialoogiboksi, milles kuvatakse kiirklahvid, mida saate kasutada olenevalt sellest, kus praegu lehel olete. 
 
 
@@ -143,6 +143,9 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Teisalda esimesse kirjesse                                                                                               | Ctrl + Home                       |
 | Liigu viimasele kirjele                                                                                                | Ctrl + End                        |
 | Vaiketegevuse käivitamine ruudustikus<br><br>**Märkus.** See otsetee on lubatud, kui fookus on hüperlinki sisaldaval lahtril ja kõigil selle veeru lahtritel on hüperlingid.                 | Sisestusklahv                           |
+| Lülita fookus ümber valitud rea ja päiserea vahel                                                               | Alt + Shift + H                     |
+| Praeguse veeru suuremaks/väiksemaks tegemine (kui fookus on päisereas)                                                  | Paremnool/vasaknool        |
+| Praeguse veeru ruudustiku filtrimise avamine (kui fookus on päisereas)                                              | Sisestusklahv                           |
 
 ## <a name="input-control-shortcuts"></a>Sisestamise kiirklahvid
 |                                                                              |                               |

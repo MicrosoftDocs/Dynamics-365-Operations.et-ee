@@ -1,9 +1,9 @@
 ---
 title: "Töötajate arengu Power BI sisu"
-description: "Selles teemas kirjeldatakse töötajate arengu Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+description: "Selles teemas kirjeldatakse töötajate arengu Power BI sisu."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse **töötajate arengu** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
-
-## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-
-Sisupaketi **Töövõtjate areng** leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisupaketi allalaadimise ja selle ühendamise kohta teie andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
+Selles teemas kirjeldatakse **töötajate arengu** Microsoft Power BI sisu.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
 **Töötaja arengu** Power BI sisusse kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
@@ -74,5 +70,4 @@ Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada arma
 | Jõudlus              | Hinnang, kirjeldus ja hinnangumudel                                                                      | Praegune töötaja, praegune ametikoht, töötaja trend, töö eelistatud oskus, varasem ametikoha määramine, ametikoha trend, lõpetatud lepinguga töötaja |
 |  Oskus                   | Oskus, oskuse tüüp ja hinnang                                                                              | Töötaja oskuste analüüs, töö eelistatud oskus |                                                                                                                        
 
-Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Seejärel kasutatakse neid arvutatud meetmeid Power BI sisus kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Aruannetesse ja armatuurlauale täiendavate arvutuste lisamiseks võite laadida PBIX-faili LCS-ist alla ja seda muuta. See fail on vaikeandmemudel, mida kasutati Power BI sisu loomiseks. Kui muudatused on tehtud, saate luua organisatsiooni sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
 

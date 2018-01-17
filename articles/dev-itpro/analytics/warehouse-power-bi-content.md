@@ -3,7 +3,7 @@ title: "Laojõudluse Power BI sisu"
 description: "See teema kirjeldab, mida hõlmab Laojõudluse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
 author: Mirzaab
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: e5a900000286b5f076c377f7b1a9a260cc40621a
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +76,6 @@ Power BI sisu **Laojõudlus** kuvatakse lehel **Laojõudlus** (**Laohaldus** > *
 | Lähetusjõudlus        | Lähetatud toote järgi                       | Vara, õigel ajal või hilja lähetatud protsent kauba või kaubagrupi järgi.                                                                                                                                                                                                                                                                                                                                   |
 | Lähetusjõudlus        | Lähetatud kliendi järgi                      | Vara, õigel ajal või hilja lähetatud protsent kliendi või kliendigrupi järgi.                                                                                                                                                                                                                                                                                                                           |
 | Lähetusjõudlus        | Lähetatud tegevuskoha/lao järgi              | Vara, õigel ajal või hilja lähetatud protsent tegevuskoha või lao järgi.                                                                                                                                                                                                                                                                                                                                    |
-## <a name="extending-the-power-bi-content"></a>Power BI sisu laiendamine
-Kasutades teenuses Microsoft Dynamics Lifecycle Services (LCS) olevaid sisupakette, saate pakkuda suurepäraseid analüüsivõimalusi inimestele, kes rakendusse Microsoft Dynamics 365 sisse ei logi. Neid sisupakette saab muuta nii, et need sisaldaksid teisi aruandeid või visuaale, ja avaldada siis sisupaketid analüüsimiseks Power BI.com-i rentnikus. 
-
-Power BI sisu **Laojõudlus** leiate LCS-i ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Laadige kindlasti alla **Laojõudluse** Power BI sisu, mis kehtib teie kasutatava Dynamics 365 versiooni puhul.
-
-> [!NOTE]
-> Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operationsi versiooni 1611, siis on selle Power BI sisu eeltingimus KB 4011327. Pärast LCS-i sisselogimist pääsete teabebaasiartiklile juurde aadressil https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Andmemudeli ja arvutuste põhimõte
 Aruandelehtede täitmiseks **Laojõudluse** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md). 

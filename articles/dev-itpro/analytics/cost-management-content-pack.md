@@ -1,9 +1,9 @@
 ---
 title: Kuluhalduse Power BI sisu
-description: "See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+description: "See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu. 
 
 # <a name="overview"></a>Ülevaade
 
@@ -51,8 +51,6 @@ See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu. See selgitab ka sed
 
 Atribuudi CostAggregatedCostStatementEntryEntity peamine andmeallikas on tabel CostStatementCache. Seda tabelit hallatakse andmekogumi vahemälu raamistikuga. Vaikimisi värskendatakse tabelit iga 24 tunni järel, kuid saate lubada andmete vahemälu konfiguratsioonis käsitsi värskendused. Seejärel saate tabelit käsitsi värskendada tööruumis **Kuluhaldus** või **Kuluanalüüs**. Pärast atribuudi CostStatementCache värskendamist peate värskendama Power Bi.com’is OData ühendust, et näha värskendatud andmeid saidil. Hälbe (ostu, tootmise) meetmed selles Power BI sisus puudutavad ainult kaupu, mida hinnatakse varude standardomahinna meetodiga. Toote hälve arvutatakse erinevusena tegeliku kulu ja realiseeritud kulu vahel. Tootmishälve arvutatakse, kui tootmistellimuse olek on **Lõpetatud**. Lisateavet tootmishälvete tüüpide ja iga tüübi arvutamise kohta vt teemast [Teave lõpule viidud tootmistellimuse hälvete analüüsimise kohta](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-**Kuluhalduse** Power BI sisu on saadaval veebisaidil PowerBI.com. Lisateavet Microsoft Dynamics 365 for Finance and Operationsi andmete ühendamise ja laadimise kohta vt teemast [Juurdepääs Power BI sisule saidilt PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **kuluhalduse** Power BI sisu visualiseerimistest.
@@ -136,13 +134,6 @@ Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamisek
 | Pearaamatud          | Valuuta, nimi, kirjeldus                  |
 | Saidid            | ID, nimi, riik, linn                      |
 
-## <a name="additional-resources"></a>Lisaressursid
-Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
-
--   [Andmeüksused](..\data-entities\data-entities.md)
--   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI paanide lisamine tööruumidele](configure-power-bi-integration.md)
 
 
 

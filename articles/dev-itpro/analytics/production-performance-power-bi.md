@@ -3,7 +3,7 @@ title: Tootmistulemuste Power BI sisu
 description: "See teema kirjeldab, mida hõlmab tootmistulemuste Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ Järgmises tabelis antakse ülevaade sisalduvatest visualiseeringutest.
 | Defektide trend ressursi järgi                  | Defektimäär (ppm) töödeldud koguse järgi | |
 | Tootmiskulude hälbed tööülesandele kulude jagamisel | <ul><li>Tootmiskulude hälve kuupäeva ja kulugrupi tüübi järgi</li><li>Tootmiskulude hälve laoala ja kulugrupi tüübi järgi</li><li>10 peamist soovimatu tootehälbega toodet</li><li>10 peamist soovimatu tootehälbega toodet ressursi järgi</li></ul> | <ul><li>Realiseeritud kulu</li><li>Tootmiskulude hälve</li><li>Tootmiskulude hälbe %</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Power BI sisu laiendamine
-Kasutades teenuses Microsoft Dynamics Lifecycle Services (LCS) olevaid sisupakette, saate pakkuda suurepäraseid analüüsivõimalusi inimestele, kes rakendusse Microsoft Dynamics 365 sisse ei logi. Neid sisupakette saab muuta nii, et need sisaldaksid teisi aruandeid või visuaale, ja avaldada siis sisupaketid analüüsimiseks Power BI.com-i rentnikus.
-
-Power BI sisu **Tootmistulemused** leiate LCS-i ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Laadige kindlasti alla **tootmistulemuste** Power BI sisu, mis kehtib teie kasutatava Dynamics 365 versiooni puhul.
-
-> [!NOTE]
-> Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operationsi versiooni 1611, siis on selle Power BI sisu eeltingimus KB 4011327. Pärast LCS-i sisselogimist pääsete teabebaasiartiklile juurde aadressil https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
@@ -139,12 +130,5 @@ Järgmises tabelis olevaid põhidimensioone kasutatakse filtritena koondmõõtmi
 | Ressursid                 | Ressursi ID, ressursi nimi, ressursitüüp ja ressursigrupp |
 | Tooted                  | Tootenumber, toote nimi, kauba ID ja kaubagrupp         |
 
-## <a name="additional-resources"></a>Lisaressursid
 
-Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
-
-- [Andmeüksused](../data-entities/data-entities.md)
-- [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Power BI paanide lisamine tööruumidele](configure-power-bi-integration.md)
 

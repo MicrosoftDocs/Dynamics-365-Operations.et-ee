@@ -19,10 +19,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +98,10 @@ Salvestamisseansi jätkamiseks pärast pausi klõpsake **Jätka**.
 
 ### <a name="capture-screenshots"></a>Tee kuvatõmmised
 
-Tegevuse salvestaja suudab jäädvustada Retail Modern POS-i kasutajaliidese kuvatõmmiseid äriprotsessi salvestamise ajal. Tegevuse salvestaja kasutab kuvatõmmiseid, kui laadite salvestise Wordi dokumendina alla. Kuvatõmmise jäädvustamise funktsiooni sisselülitamiseks määrake valiku **Jäädvusta kuvatõmmis** väärtuseks **Jah**. 
+Tegevuse salvestaja suudab jäädvustada Retail Modern POS-i kasutajaliidese kuvatõmmiseid äriprotsessi salvestamise ajal. Kuvatõmmise jäädvustamise funktsiooni sisselülitamiseks määrake suvandi **Jäädvusta kuvatõmmis** väärtuseks **Jah** ja seejärel alustage jäädvustamist. Kui lõpetate salvestamise, klõpsake **Peata** ja laadige alla Wordi dokument. Dokumendis on sammud asjakohaste kuvatõmmistega.
 
 #### <a name="note"></a>Paberraha
-> Pilvekassas ei toetata kuvatõmmise jäädvustamise funktsiooni.
+> Modern POS ei toetata kuvatõmmise jäädvustamise funktsiooni.
 
 ### <a name="start-task-and-end-task"></a>Tegevuse alustamine ja lõpetamine
 

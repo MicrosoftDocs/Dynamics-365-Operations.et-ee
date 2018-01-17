@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ Kaupluse halduse sätete põhjal saab tooted liigitada seerianumbriga või seeri
     
 - **Klienditellimuste esitamiseks pole seerianumbrid nõutavad** – klienditellimusi saab esitada ühest poest ja täita teisest. Kassapidaja, kes esitab klienditellimuse, ei pea seerianumbrit sisestama. Seerianumber sisestatakse komplekteerimise või pealevõtmise etapis. Kuid seerianumber tuleb sisestada kõigile reaüksustele, millele on valitud tarne tüüp **Sularahatarne**. Vastasel juhul ei saa kannet lõpule viia.    
 - **Seerianumbriga tooteid ei liideta kande ekraanil** – säte **Liida tooted** lehe **Funktsiooniprofiil** väljal **Terminal** võimaldab liita kande ekraanil samad seerianumbrita tooted. Samade toodete liitmisel on neid kande ruudustikus lihtsam näha. Kuid kuna seerianumbrid on üldiselt kordumatud ja müüjad ei pea sisestama seerianumbreid enne maksmist, ei kohaldu säte **Liida tooted** seerianumbriga toodetele. Seetõttu ei liideta seerianumbriga tooteid kande ekraanil, kui on valitud säte **Liida tooted**.
+- **Võimalus otsida töölehti seerianumbri järgi** – nüüdsest saab töölehtede otsimiseks täiendavalt kasutada seerianumbreid. Selleks avage toiming „Töölehed” ja vajutage rakenduseribal nuppu „Täpsem otsing”. Seerianumbreid saate otsida, kui rakendate filtri, kasutades nuppu „Lisa filter”.
 

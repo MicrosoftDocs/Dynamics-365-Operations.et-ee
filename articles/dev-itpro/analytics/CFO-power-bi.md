@@ -3,7 +3,7 @@ title: "CFO ülevaate Power BI sisu"
 description: "Selles teemas kirjeldatakse CFO ülevaate Microsoft Power BI sisu."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fd3696321598267a2acd3ad61f533641c2cc2e77
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -47,8 +47,5 @@ Järgmises tabelis on Power BI sisu, millest kopeeritakse aruandeid, ja aruanded
 | [Krediidihaldus ja võlanõuded](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Tähtaja ületanud klient</li><li>Krediidilimiiti ületavad kliendid</li><li>Aegunud saldod</li></ul> |
 | [Ostukulutuste analüüs](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Ostud kuu/päeva kaupa</li><li>10 tipptarnijat ostude alusel</li><li>10 tipptoodet ostude alusel</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Power BI sisu laiendamine
-Kasutades teenuses Microsoft Dynamics Lifecycle Services (LCS) olevaid sisupakette, saate pakkuda suurepäraseid analüüsivõimalusi inimestele, kes rakendusse Microsoft Dynamics 365 sisse ei logi. Neid sisupakette saab muuta nii, et need sisaldaksid teisi aruandeid või visuaale, ja avaldada siis sisupaketid analüüsimiseks Power BI.com-i rentnikus.
 
-**CFO ülevaate** Power BI sisu leiate LCS-i ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 

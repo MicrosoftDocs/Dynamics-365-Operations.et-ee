@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 521 | Kliendikaardi punktisaldo | Kuvab määratud kliendikaardi punktisaldo. | Jah | Jah | Ei | Ei | Ei |
 | 914 | Minimeeri kassa aken | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
 | 1000 | Ava sahtel | Tehke ilma müügita toiming ja avage praegu valitud sularahasahtel. | Jah | Jah | Jah | Jah | Ei |
+| 928 | Tellimuse täitmine | See toiming võimaldab kasutajatel tellimusi komplekteerida, pakkida, lähetada või tagasi kutsuda kauplusest kättesaamiseks. | Jah | Jah | Jah | Ei | Ei |
 | 129 | Tühista rea toote maks | Tühistage valitud rea kauba maks ja valige muu määratud maks. | Jah | Jah | Ei | Jah | Ei |
 | 130 | Tühista rea kauba maks loendist | Tühistage valitud rea kauba maks ja kasutage maksu, mille kasutaja loendist valib. | Jah | Jah | Ei | Jah | Ei |
 | 127 | Kande maksu tühistamine | Tühistage kandel olev maks ja kasutage muud määratud maksu. | Jah | Jah | Ei | Jah | Ei |

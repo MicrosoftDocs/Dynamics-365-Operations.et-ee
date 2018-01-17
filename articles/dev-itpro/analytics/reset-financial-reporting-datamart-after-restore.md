@@ -3,7 +3,7 @@ title: "Finantsaruandluse andmevaka lähtestamine"
 description: "Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Selles teemas kirjeldatakse, kuidas lähtestada finantsaruandluse andmevakka jä
 - Rakenduse Microsoft Dynamics 365 for Finance and Operations finantsaruandluse väljaanne 7.0.10000.4 ja uuem
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (kohapealne)
 
-Rakenduse Finance and Operations finantsaruandluse väljaande 7.2.6.0 hankimiseks saate laadida alla teabebaasi artikli nr 4052514 aadressilt <https://support.microsoft.com/en-us/help/4052514>.
+Rakenduse Finance and Operations finantsaruandluse väljaande 7.2.6.0 hankimiseks saate alla laadida artikli KB 4052514 aadressilt <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Rakenduse Finance and Operations finantsaruandluse väljaande 7.2.6.0 ja uuema finantsaruandluse andmevaka lähtestamine
 
@@ -55,7 +55,7 @@ Andmevakka tuleks lähtestada ainult aegadel, mil töötlemise hulk andmebaasis 
 
 Andmevaka lähtestamiseks avage Aruande koostaja ja valige menüüs **Tööriistad** suvand **Lähtesta andmevakk**. Kuvatud dialoogiboksis on kaks jaotist: **Statistika** ja **Lähtestamine**.
 
-[![Dialoogiboks Lähtesta andmevakk](./media/Statistics.png)](./media/Statistics.png)
+[![Dialoogiboks Lähtesta andmevakk](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Integratsioonikatsed
 
@@ -83,8 +83,10 @@ Kui otsustate, et andmevaka lähtestamine on vajalik, valige märkeruut **Lähte
 - **Andmebaasi taastamine** – rakenduse Finance and Operations andmebaas taastati, kuid finantsaruandluse andmevaka andmebaasi ei taastatud.
 - **Muu** – lähtestate andmevakka mõnel muul põhjusel. Kui usute, et ilmnenud on probleem, võtke selle tuvastamiseks ühendust toega.
 
+[![Lähtesta andmevakk](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Enne etappide lõpule viimist veenduge, et kõik olemasolevad ülesanded oleksid integreerimise lõpule viinud. Integreerimise oleku nägemiseks valige **Tööriistad** &gt; **Integreerimisolek**.
+> Kontrollige enne lähtestamist, kas kõik andmevaka lähtestusülesanded on algse laadimise lõpule viinud. Saate seda kinnitada, otsides väärtust veerust Viimase käivitamise aeg, selleks valige **Tööriistad** &gt; **Integratsiooni olek**.
 
 #### <a name="clear-users-and-companies"></a>Eemalda kasutajad ja ettevõtted
 
@@ -94,7 +96,10 @@ Kui olete valmis lähtestamist alustama, valige **OK**. Teil palutakse kinnitada
 
 Kui soovite saada integreerimise olekust ülevaate, valige **Tööriistad** &gt; **Integreerimisolek**, et näha, millal viimati integreerimine käivitati ja mis oli selle olek.
 
-[![Integreerimise oleku vaatamine](./media/Integration.png)](./media/Integration.png)
+[![Integreerimise oleku vaatamine](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> Lähtestus on lõpetatud, kui kõigi vastenduste juures kuvatakse olek RanToCompletion ja akna Integratsiooni olek alumises vasakus nurgas on tekst „Integratsioon on lõpule viidud”.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Rakenduse Finance and Operations finantsaruandluse väljaande 7.0.10000.4 ja uuema finantsaruandluse andmevaka lähtestamine
 
@@ -142,7 +147,9 @@ Järgmistel Microsofti Windowsi teenustel on avatud ühendus Finance and Operati
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Uusima paketi MinorVersionDataUpgrade.zip allalaadimine
 
-Laadige alla uusim pakett MinorVersionDataUpgrade.zip. Juhiste saamiseks selle kohta, kuidas leida üles ja laadida alla andmete täienduspaketi õige versioon, vt teemat [Uusima andmeuuenduse juurutuspaketi allalaadimine](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Paketi MinorVersionDataUpgrade.zip alla laadimiseks ei ole vaja uuendust. Seega peate lihtsalt järgima selle teema jaotises „Uusima andmeuuenduse juurutuspaketi allalaadimine” olevaid etappe. Võite kõik teised teemas olevad etapid vahele jätta.
+Laadige alla uusim pakett MinorVersionDataUpgrade.zip. Juhiste saamiseks selle kohta, kuidas leida üles ja laadida alla andmete täienduspaketi õige versioon, vt teemat [Uusima andmeuuenduse juurutuspaketi allalaadimine](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Paketi MinorVersionDataUpgrade.zip alla laadimiseks ei ole vaja uuendust. Seega peate lihtsalt järgima selle teema jaotises „Uusima andmeuuenduse juurutuspaketi allalaadimine” olevaid etappe. Võite kõik teised teemas olevad etapid vahele jätta.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Skriptide käivitamine Finance and Operationsi andmebaasi suhtes
 

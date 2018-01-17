@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
-ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
+ms.sourcegitcommit: 178f74bba514309748c2dfd060486c49176dff3e
+ms.openlocfilehash: 6afec24c76e3d56b77b1106375830285ad3bedad
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -103,7 +103,7 @@ Kui toode on tootmisliinil lõpetatuks registreeritud, edastatakse see laadimisu
 7.  Väljastage üleviimistellimuse koorma plaanimise töölaualt. Valige vahekaardilt **Läheta** menüüelement koorma plaanimise töölaua jaoks ja tehke koorma rea menüüs **Väljasta** valik **Väljasta lattu**. Nüüd on üleviimistellimuse puhul olemas avatud voo rida tüübiga **Edastuse väljaminek**.
 8.  Tootmistellimuse loomine. Minge loendilehele **Tootmistellimus** ja looge tootele L0101 tootmistellimus. Kogus = 20. Hinnake ja alustage tootmistellimust. Pange tähele, et välja **Sisesta komplekteerimisleht kohe** olek on endiselt **Ei**.
 9.  Registreerige mobiilselt seadmelt lõpetatuks. Minge mobiilse seadme portaali ja valige menüüelement **Teata lõpetamisest ja pane kõrvale**. Nüüd registreerige L0101 pihuseadmel lõpetatuks. Kogus = 10. Pange tähele, et asetamise koht on **BAYDOOR**. Selle asukoha leiate töötellimuse tüübi **Asetamine** asukohakorraldusest **Edastuse väljaminek**. Pange tähele ka seda, et töö tüübiga **Edastuse väljaminek** on loodud ja lõpetatud. Minge töö kontrollimiseks üleviimistellimuse töö üksikasjadesse.
-10. Nüüd saab mobiilsest seadmest aruannetes esitada täiendavad 10 üksust. Pange tähele, et uuesti asetamise koht on **BAYDOOR**. Pange tähele ka seda, et uus töö tüübiga **Edastuse väljaminek** on loodud 10 üksuse jaoks.
+10. Nüüd saab mobiilsest seadmest aruannetes esitada 10 lisaüksust. Pange tähele, et uuesti asetamise koht on **BAYDOOR**. Pange tähele ka seda, et uus töö tüübiga **Edastuse väljaminek** on loodud 10 üksuse jaoks.
 11. Nüüd proovige alustada tootmistellimusel veel 20 ühikut ja siis proovige registreerida 20 ühikut pihuseadmes lõpetatuks. Seekord soovitatakse asetamise kohaks **LP-001**. Selle asukoha leiate **lõpetatud kaupade kõrvalepaneku** asukohakorraldusest. Seda asukohakorraldust kasutatakse sellepärast, et ristlaadimise võimalust enam pole. LP-001 üleviimistellimus täideti täielikult kahe ristlaadimistegevusega etappides 9 ja 10. Pange tähele, et loodi ja töödeldi töö tüübiga **Lõpetatud kaupade kõrvalepanek**.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Stsenaarium 2 – ristlaadimine tootmisest laadimisgraafikuga üleviimistellimustesse

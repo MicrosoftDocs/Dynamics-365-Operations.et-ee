@@ -1,9 +1,9 @@
 ---
 title: Organisatsiooni koolituse Power BI sisu
-description: "See teema kirjeldab Dynamics 365 for Finance and Operationsi mooduli Organisatsiooni koolitus Power BI sisu. See selgitab ka seda, kuidas sisupaketile juurde pääseda, ning kirjeldab andmemudelit ja üksusi, mida sisupaketi loomiseks kasutati."
+description: See teema kirjeldab Dynamics 365 for Finance and Operationsi mooduli Organisatsiooni koolitus Power BI sisu.
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18d7fa3580a9debf617ebeb042670f7f1be8fad6
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-See teema kirjeldab Dynamics 365 for Finance and Operationsi mooduli Organisatsiooni koolitus Power BI sisu. See selgitab ka seda, kuidas sisupaketile juurde pääseda, ning kirjeldab andmemudelit ja üksusi, mida sisupaketi loomiseks kasutati.
-
-<a name="accessing-the-content-pack"></a>Juurdepääs sisupaketile
---------------------------
-
-Organisatsiooni koolituse sisupaketi leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisupaketi allalaadimise ja selle ühendamise kohta Microsoft Dynamics 365 for Finance and Operationsi andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md).
+See teema kirjeldab Dynamics 365 for Finance and Operationsi mooduli Organisatsiooni koolitus Power BI sisu. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad aruanded
 Pärast sisupaketi ühendamist Dynamics 365 for Finance and Operationsi andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet jaotisest [Power BI juhendatud õpe](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
@@ -65,16 +60,6 @@ Organisatsiooni koolituse sisupaketi aruannete täitmiseks kasutatakse Finance a
 | Koolitus\_Amet        | Amet, ametinimetus ja täistööajaga võrdne väärtus (FTE)                  | Koolitus\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
 | Koolitus\_WorkerName      | Eesnimi, perekonnanimi ja täielik nimi                             | Koolitus\_CourseAttendees                                                                                                                                                                          |
 | Koolitus\_WorkerTitle     | Ametinimetus ja staaži kuupäev                                         | Koolitus\_CourseAttendees                                                                                                                                                                          |
-
-Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Seejärel kasutatakse neid arvutatud meetmeid sisupaketis kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Aruannetesse ja armatuurlauale täiendavate arvutuste lisamiseks võite laadida LCS-ist alla ja muuta faili Training.pbix. See fail on vaikeandmemudel, mida kasutati sisupaketi loomiseks. Kui muudatused on tehtud, saate luua organisatsiooni sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
-
-## <a name="additional-resources"></a>Lisaressursid
-Siin on mõned abistavad lingid, mis on seotud üksuste ja Power BI sisu loomisega.
-
--   [Andmeüksused](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Organisatsiooniliste sisupakettide loomine](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   A[Andmete modelleerimine Power BI-d kasutades](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI paanide lisamine tööruumidele](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 

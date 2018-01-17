@@ -1,9 +1,9 @@
 ---
 title: "Finantsjõudluse Power BI sisu"
-description: "Selles teemas kirjeldatakse finantstulemuste Power BI sisu. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet sisu loomiseks kasutatud andmemudeli ja üksuste kohta."
+description: Selles teemas kirjeldatakse finantstulemuste Power BI sisu.
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse **finantstulemuste** Microsoft Power BI sisu. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet sisu loomiseks kasutatud andmemudeli ja üksuste kohta.
-
-## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-
-**Finantstulemuste** Power BI-le pääsete juurde teenusest Microsoft Dynamics Lifecycle Services (LCS) ja lehelt PowerBI.com.
-
-### <a name="available-from-lcs"></a>Kättesaadav LCS-ist
-**Finantstulemuste** Power BI sisu, mis on LCS-ist saadaval, toetab järgmisi versioone.
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni versioonid
-- Microsoft Dynamics 365 for Operationsi versioon 1611 
-
-Power BI sisu leiate LCS-i ühiste vahendite teegist. Lisateavet sisupaketi allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-### <a name="available-from-powerbicom"></a>Kättesaadav lehelt PowerBI.com
-Power.BI.com-ist kättesaadav **finantstulemuste** Power BI sisu toetab rakenduse Microsoft Dynamics AX versioone 7.0 ja 7.0.1. Lisateavet Dynamics AX-i andmete ühendamise ja laadimise kohta vt jaotisest [Juurdepääs Power BI sisule saidilt PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Põhikonto seadistus
 Kuna organisatsioonid soovivad kuvada kohustused ja tulusummad aruannetel positiivsete summadena, on põhikontode seadistus oluline. Selleks, et need põhikontod kuvataks positiivsete summadena, peab põhikonto tüübiks olema määratud **Kohustus** või **Tulu**. Kui kasutatakse neid kontotüüpe, pööratakse aruande koostamisel Power BI kaudu märgid ümber ja näidatakse summasid positiivsena.
@@ -101,5 +86,5 @@ Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinni
 - Pearaamatud
 - ChartofAccounts
 
-Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Arvutatud mõõtusid kasutatakse sisus kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Vaikimisi toob sisu sisse viimase kolme aasta ja ühe tulevase aasta andmed. Aruannetesse ja armatuurlauale lisaarvutuste kaasamiseks saate muuta [Microsoft Exceli töövihikut](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). See töövihik on vaikimisi andmemudel, mida kasutati sisu loomiseks. Kui olete lõpetanud muudatuste tegemise, saate luua organisatsioonilise sisupaketi ja armatuurlaua, mis sisaldab teie lisatud teavet.
+Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Arvutatud mõõtusid kasutatakse sisus kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Vaikimisi toob sisu sisse viimase kolme aasta ja ühe tulevase aasta andmed. Aruannetesse ja armatuurlauale lisaarvutuste kaasamiseks saate muuta [Microsoft Exceli töövihikut](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). See töövihik on vaikimisi andmemudel, mida kasutati sisu loomiseks. 
 
