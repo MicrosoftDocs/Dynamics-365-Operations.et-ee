@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: et-ee
 ms.lasthandoff: 09/29/2017
 
 ---
-# Varude saadavuse kontrollimine
+# <a name="check-the-availability-of-stock"></a>Varude saadavuse kontrollimine
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba kaubavaru kindla kaubakoodi puhul. Samuti näitab see, kuidas hankida kaubaga seotud tarneteavet. Füüsiline vaba kaubavaru on vaba kaubavaru, mis on saadaval – s.t see on ostetud, vastu võetud ja registreeritud. Vaba kaubavaru sisaldab saadaolevat vaba kaubavaru, kuid ka varusid, mis on tellitud ja mida oodatakse, aga mida pole veel vastu võetud või registreeritud. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. USMF-i kasutamisel saate kasutada kuvatavaid näidisväärtusi. Neid ülesandeid täidab üldjuhul laotöötaja.
 
 
-## Kauba vaba kaubavaru kontrollimine
+## <a name="check-on-hand-inventory-for-an-item"></a>Kauba vaba kaubavaru kontrollimine
 1. Avage Laohaldus > Päringud ja aruanded > Vaba kaubavaru.
 2. Valige kaubakoodi rida.
     * Vaba kaubavaru päringute esitamiseks kaubakoodi alusel valige rida, kus tabel on seatud vabale kaubavarule ja väli on seatud kaubakoodile.  
@@ -49,7 +49,7 @@ See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba ka
 11. Sulgege leht.
 12. Sulgege leht.
 
-## Füüsilise vaba kaubavaru kontrollimine
+## <a name="check-physical-on-hand-inventory"></a>Füüsilise vaba kaubavaru kontrollimine
 1. Avage Laohaldus > Päringud ja aruanded > Füüsiline vaba kaubavaru.
 2. Sisestage väärtus väljale Kaubakood.
     * Saate kasutada välju Sait ja Ladu kaupade loendi filtrimiseks.  
@@ -59,7 +59,7 @@ See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba ka
 5. Klõpsake nuppu OK.
 6. Sulgege leht.
 
-## Vaba kaubavaru kontrollimine asukoha järgi
+## <a name="check-on-hand-inventory-by-location"></a>Vaba kaubavaru kontrollimine asukoha järgi
 1. Avage Laohaldus > Päringud ja aruanded > Vaba kaubavaru asukoha järgi.
 2. Sisestage väärtus väljale Ladu.
     * Ettevõtte USMF demoandmete kasutamisel saate kasutada suvandit 51.  
