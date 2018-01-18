@@ -1,7 +1,8 @@
 # [Rakenduse Dynamics 365 for Finance and Operations arendamine ja haldus](index.md)
 # [Pilvjuurutuste süsteeminõuded](../fin-and-ops/get-started/system-requirements.md)
-# [Kohapealsete juurutuste süsteeminõuded](../fin-and-ops/get-started/system-requirements-on-prem.md)
+# [Asutustesiseste juurutuste süsteeminõuded](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Demoandmed](../fin-and-ops/get-started/demo-data.md)
+## [Demoandmete loomine pakettide abil](data-entities/generate-demo-data-packages.md)
 
 
 # [Arendamine ja kohandamine Visual Studioga](dev-tools/developer-home-page.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [Kohandatud teenused](data-entities/custom-services.md)
 ### [Korduvad integreerimised](data-entities/recurring-integrations.md)
+### [Kolmandate osapoolte teenusetestimise utiliitide kasutamine teenustega](data-entities/third-party-service-test.md)
 
 ## Arendus integreerimiseks
 ### [Andmete integreerimine andmeüksuste abil](data-entities/data-management-integration-data-entity.md)
@@ -396,7 +398,8 @@
 ### [Konfigureerimisandmete paketid](data-entities/configuration-data-packages.md)
 ### [Konfigureerimisandmete kopeerimine ettevõtete vahel](data-entities/copy-configuration.md)
 ### [Konfigureerimisandmete mallid](data-entities/configuration-data-templates.md)
-### [Üksuse muudatuste jälgimine.](data-entities/entity-change-track.md)
+### [Mitme töölehega andmemallid](data-entities/excel-template-multiple.md)
+### [Üksuse muudatuste jälgimine](data-entities/entity-change-track.md)
 
 ## Standardsed andmeüksused
 ### [Andmeüksuste aruanne](data-entities/data-entities-report.md)
@@ -501,13 +504,16 @@
 
 ## [Asutusesisene juurutus](deployment/on-premises-deployment-landing-page.md)
 ### [Asutusesisene ülevaade](deployment/on-premises-overview.md)
+### [Asutusesisese juurutuse plaanimine](deployment/plan-onprem-deployment.md)
 ### [Riistvarakalkulaator](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-### [Kohapealse projekti loomine](lifecycle-services/lbd-create-lcs-on-prem-project.md)
-### [Kohapealsete keskkondade seadistamine ja juurutamine](deployment/setup-deploy-on-premises-environments.md)
+### [Asutusesisese projekti loomine](lifecycle-services/lbd-create-lcs-on-prem-project.md)
+### [Asutustesiseste keskkondade seadistamine ja juurutamine](deployment/setup-deploy-on-premises-environments.md)
 ### [Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse](deployment/develop-deploy-custom-models-on-premises.md)
-### [Värskenduste rakendamine kohapealsele juurutamisele](deployment/apply-updates-on-premises.md)
-### [Kohapealse juurutamise uuesti juurutamine](deployment/redeploy-on-prem.md)
-### [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) tõrkeotsing](deployment/troubleshoot-on-prem.md)
+### [Värskenduste rakendamine asutustesiseele juurutamisele](deployment/apply-updates-on-premises.md)
+### [Asutusesisese juurutamise uuesti juurutamine](deployment/redeploy-on-prem.md)
+### [Kohaliku esindaja värskendamine](lifecycle-services/update-local-agent.md)
+### [Keskkonna ümberkonfigureerimine](lifecycle-services/reconfigure-environment.md)
+### [Dynamics 365 for Finance and Operations, Enterprise Editioni (asutusesisene) tõrkeotsing](deployment/troubleshoot-on-prem.md)
 
 ## Kohandatud koodi juurutamine
 ### [Juurutatava paketi loomine](deployment/create-apply-deployable-package.md)

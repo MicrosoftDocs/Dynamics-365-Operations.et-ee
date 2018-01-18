@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ Jaotises Hanked on saadaval järgmised töövootüübid.
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Tüüp**                         | **Kasutage seda tüüpi järgmiseks**                                          |
-| Ostutaotluse ülevaade      | Saate luua ülevaatuse töövoogusid ostutaotluste jaoks.            |
-| Ostutaotluse rea eelvaade | Saate luua ülevaatuse töövoogusid ostutaotluse ridade jaoks.       |
+| Ostutaotluse ülevaade      | Saate luua ostutaotluste jaoks ülevaatuse ja kinnitamise töövood.            |
+| Ostutaotluse rea eelvaade | Saate luua ostutaotluse ridade jaoks ülevaatuse ja kinnitamise töövood.       |
 | Ostutellimuse töövoog          | Saate luua ülevaatuse ja kinnitamise töövoogusid ostutellimuste jaoks.     |
 | Ostutellimuse rea töövoog     | Saate luua ülevaatuse ja kinnitamise töövoogusid ostutellimuse ridade jaoks. |
+| Hankija lisamise rakenduse töövoog  | Saate luua ülevaatuse ja kinnitamise töövood uute hankijate lisamiseks hankija nõuete kaudu. |
 
 ## <a name="creating-a-workflow"></a>Töövoo loomine
 Töövoo loomiseks minge jaotisse Hanked &gt; Seadistus &gt; Hangete töövood ja looge uus töövoog, valides loodava töövoo tüübi.  
@@ -75,6 +76,6 @@ Saate määrata kinnitamisetapi järgmistele osalejate gruppidele.
 
 [Ostutaotluse töövoog](purchase-requisitions-workflow.md)
 
-
+[Hankijate sotsialiseerimine](vendor-onboarding.md)
 
 

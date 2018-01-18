@@ -3,7 +3,7 @@ title: Asutusesisene juurutus
 description: See teema pakub teavet ja linke sisule kohapealsete juurutuste kohta.
 author: kfend
 manager: AnnBe
-ms.date: 06/24/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
-ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
+ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
+ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Asutusesisese juurutuse sihtleht
@@ -32,7 +32,8 @@ Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Ent
 
 ## <a name="get-started"></a>Alustamine
 - [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) ülevaade](on-premises-overview.md)
-- [Asutusesiseste juurutuste süsteeminõuded](../../fin-and-ops/get-started/system-requirements-on-prem.md)
+- [Asutusesisese juurutuse plaanimine](plan-onprem-deployment.md)
+- [Kohapealsete juurutuste süsteeminõuded](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Riistvara suuruse muutmine kohapealsetes keskkondades](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Võrguteenuse ja kohapealse tarkvara elutsükli poliitika](../migration-upgrade/versions-update-policy.md)
 - [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) ostmine](../../fin-and-ops/get-started/purchase-on-premises.md)
@@ -41,6 +42,7 @@ Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Ent
 ## <a name="onboard"></a>Turule toomine
 - [Kohapealse projekti loomine teenuses Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Kohapealsete keskkondade seadistamine ja juurutamine](setup-deploy-on-premises-environments.md)
+- [Võrguprinteri seadmete installimine asutusesisestesse keskkondadesse](../analytics/install-network-printer-onprem.md)
 - [SQL Serveri aruandlusteenuste konfigureerimine kohapealseks juurutamiseks](../analytics/configure-ssrs-on-premises.md)
 - [Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse](develop-deploy-custom-models-on-premises.md)
 
@@ -51,9 +53,10 @@ Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Ent
 - [Tehnilise toe seadistamine](../lifecycle-services/support-experience.md)
 - [Klientseadme Interneti-ühenduse tõrkeotsing](../user-interface/client-disconnected.md)
 - [Värskenduste rakendamine kohapealsele juurutamisele](apply-updates-on-premises.md)
-- [Kohapealne juurutuse uuesti juurutamine](redeploy-on-prem.md)
+- [Kohapealse juurutamise uuesti juurutamine](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Muud ressursid
+- [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) tõrkeotsing](troubleshoot-on-prem.md)
 - [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Aegunud funktsioonid](../migration-upgrade/deprecated-features.md)
 - [Tarkvara elutsükli poliitika ja väljalasete loend](../migration-upgrade/versions-update-policy.md)

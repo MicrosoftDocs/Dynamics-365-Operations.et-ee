@@ -3,11 +3,12 @@ title: Harjutushalduri Power BI sisu
 description: "See teema kirjeldab, mida hõlmab harjutushalduri Power BI sisu. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutatakse."
 author: KimANelson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -39,7 +40,9 @@ See teema kirjeldab, mida hõlmab **harjutushalduri** Microsofti Power BI sisu. 
 Kõik sisus antud summad on näidatud süsteemivaluutas. Süsteemi valuuta saab seadistada lehel **Süsteemi parameetrid**.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
+
 Power BI sisu **Harjutushaldur** kuvatakse tööruumis **Projektihaldus**.
+
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
 
@@ -47,7 +50,7 @@ Järgmises tabelis on üksikasjad **harjutushalduri** Power BI sisu igal aruande
 
 | Aruandeleht       | Mõõdikud |
 |-------------------|---------|
-| Projektide ülevaade | <ul><li>Loodud projektid</li><li>Eeldatavad projektid</li><li>Pooleliolevad projektid</li><li>Projektide arv etappide kaupa</li><li>Projektide arv linnade kaupa</li><li>Tegelik tulu kliendi alusel</li><li>Eelarve kogutulu projektide kaupa</li><li>Teenitud väärtuse haldamise ülevaade</li></ul> |
+| Projektide ülevaade | <ul><li>Loodud projektid</li><li>Eeldatavad projektid</li><li>Pooleliolevad projektid</li><li>Tegelik tulu kliendi alusel</li><li>Eelarve kogutulu projektide kaupa</li><li>Teenitud väärtuse haldamise ülevaade</li></ul> |
 | Kulu              | <ul><li>Tegelik vs eelarvekulu kuude kaupa</li><li>Tegelik vs eelarvekulu aastate kaupa</li><li>Tegelik vs eelarvekulu kategooriate kaupa</li><li>Tegelik kulu kande tüübi alusel</li></ul> |
 | Tulu           | <ul><li>Tegelik tulu kuude kaupa</li><li>Tegelik tulu sihtnumbri alusel</li><li>Tegelik vs eelarvetulu kategooriate kaupa</li><li>Tegelik tulu kliendi valdkonna alusel</li></ul> |
 | EVM               | Kulu ja graafiku jõudlusindeks projektide kaupa |
@@ -55,74 +58,67 @@ Järgmises tabelis on üksikasjad **harjutushalduri** Power BI sisu igal aruande
 
 Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Visualisatsioonis summeeritud alusandmete eksportimiseks saab kasutada funktsiooni Alusandmete eksportimine.
 
-## <a name="extending-the-power-bi-content"></a>Power BI sisu laiendamine
-Kasutades teenuses Microsoft Dynamics Lifecycle Services (LCS) olevaid sisupakette, saate pakkuda suurepäraseid analüüsivõimalusi inimestele, kes rakendusse Microsoft Dynamics 365 sisse ei logi. Neid sisupakette saab muuta nii, et need sisaldaksid teisi aruandeid või visuaale, ja avaldada need siis analüüsimiseks Power BI.com-i rentnikus. 
-
-Power BI sisu **Harjutushaldur** leiate LCS-i ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Laadige kindlasti alla **harjutushalduri** Power BI sisu, mis kehtib teie kasutatava Dynamics 365 versiooni puhul.
-
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
 Aruandelehtede täitmiseks **harjutushalduri** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
 
 Järgmistes jaotistes kirjeldatakse igas üksuses kasutatavaid koondmõõtmisi.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Üksus: ProjectAccountingCube_ActualHourUtilization
+### <a name="entity-projectaccountingcubeactualhourutilization"></a>Üksus: ProjectAccountingCube\_ActualHourUtilization
 **Andmeallikas:** ProjEmplTrans
 
-| Peamine koondmõõtmine      | Väli                              | Kirjeldus | 
+| Peamine koondmõõtmine      | Väli                              | Kirjeldus |
 |--------------------------------|------------------------------------|-------------|
 | Tegelikud arveldatavad kasutatud tunnid | Sum(ActualUtilizationBillableRate) | Tegelike arveldatavate kasutatud tundide arv kokku. |
 | Tegelikud arveldatavad seisakutunnid   | Sum(ActualBurdenBillableRate)      | Tegelik seisakumäär kokku. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Üksus: ProjectAccountingCube_Actuals
+### <a name="entity-projectaccountingcubeactuals"></a>Üksus: ProjectAccountingCube\_Actuals
 **Andmeallikas:** ProjTransPosting
 
-| Peamine koondmõõtmine | Väli              | Kirjeldus | 
+| Peamine koondmõõtmine | Väli              | Kirjeldus |
 |---------------------------|--------------------|-------------|
-| Tegelik müügitulu            | Sum(ActualRevenue) | Kõigi kannete sisestatud tulu kokku. |   
+| Tegelik müügitulu            | Sum(ActualRevenue) | Kõigi kannete sisestatud tulu kokku. |
 | Tegelik kulu               | Sum(ActualCost)    | Sisestatud kulu kõigi kandetüüpide kohta kokku. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Üksus: ProjectAccountingCube_Customer
+### <a name="entity-projectaccountingcubecustomer"></a>Üksus: ProjectAccountingCube\_Customer
 **Andmeallikas:** CustTable
 
-| Peamine koondmõõtmine | Väli                                            | Kirjeldus | 
-|---------------------------|--------------------------------------------------|-------------|
-| Projektide arv        | COUNTA(ProjectAccountingCube_Projects[PROJECTS]) | Olemasolevate projektide arv. |
+| Peamine koondmõõtmine | Väli                                             | Kirjeldus |
+|---------------------------|---------------------------------------------------|-------------|
+| Projektide arv        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Olemasolevate projektide arv. |
 
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Üksus: ProjectAccountingCube_Forecasts
+### <a name="entity-projectaccountingcubeforecasts"></a>Üksus: ProjectAccountingCube\_Forecasts
 **Andmeallikas:** ProjTransBudget
 
-| Peamine koondmõõtmine | Väli                  | Kirjeldus | 
+| Peamine koondmõõtmine | Väli                  | Kirjeldus |
 |---------------------------|------------------------|-------------|
 | Eelarvekulu               | Sum(BudgetCost)        | Prognoositud kulu kõigi kandetüüpide kohta kokku. |
-| Eelarvetulu            | Sum(BudgetRevenue)     | Prognoositud viittulu / arveldatud tulu kokku.  |
+| Eelarvetulu            | Sum(BudgetRevenue)     | Prognoositud viittulu / arveldatud tulu kokku. |
 | Eelarve kogutulu       | Sum(BudgetGrossMargin) | Kogu prognoositud tulusumma ja kogu prognoositud kulusumma vahe. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Üksus: ProjectAccountingCube_ProjectPlanCostsView
+### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Üksus: ProjectAccountingCube\_ProjectPlanCostsView
 **Andmeallikas:** projekt
 
-| Peamine koondmõõtmine | Väli                    | Kirjeldus | 
+| Peamine koondmõõtmine | Väli                    | Kirjeldus |
 |---------------------------|--------------------------|-------------|
 | Plaanitud kulu              | Sum(SumOfTotalCostPrice) | Kogu omahinna prognoos kõigi plaanitud ülesannetega projektikannete tüüpide kohta. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Üksus: ProjectAccountingCube_Projects
+### <a name="entity-projectaccountingcubeprojects"></a>Üksus: ProjectAccountingCube\_Projects
 **Andmeallikas:** projekt
 
-| Peamine koondmõõtmine    | Väli | Kirjeldus | 
+| Peamine koondmõõtmine    | Väli | Kirjeldus |
 |------------------------------|-------|-------------|
-| Kulujõudluse indeks       | ProjectAccountingCube_Projects[Earned value] / ProjectAccountingCube_Projects[Total actual cost of completed tasks] | Kogu teenitud väärtuse ja tegeliku kulu jagatise arvutus. |
-| Jõudluse plaanimise indeks   | ProjectAccountingCube_Projects[Earned value] / ProjectAccountingCube_Projects[Total planned cost of completed tasks] | Kogu teenitud väärtuse ja kogu plaanitud kulu jagatise arvutus. |
-| Valmis töö protsendimäär | Valmis töö protsendimäär = ProjectAccountingCube_Projects[Total actual cost of completed tasks] / (ProjectAccountingCube_Projects[Total actual cost of completed tasks] + ProjectAccountingCube_Projects[Total planned cost of project] - ProjectAccountingCube_Projects[Total planned cost of completed tasks]) | Lõpuleviidud töö koguprotsent, mis põhineb kogu lõpetatud ülesande tegelikul kulul ja projekti plaanitud kulul. |
-| Tegelike arveldatavate tundide suhtarv  | ProjectAccountingCube_Projects[Project total actual billable utilized hours] / (ProjectAccountingCube_Projects[Project total actual billable utilized hours] + ProjectAccountingCube_Projects[Project total actual billable burden hours]) | Tegelikud arveldatavad tunnid kasutatud tundide ja seisakutundide põhjal. |
-| Plaanitud väärtus                 | ProjectAccountingCube_Projects[Total planned cost of project] * ProjectAccountingCube_Projects[Percentage of work completed] | Plaanitud kogukulu ja lõpuleviidud töö protsendi korrutis. |
+| Kulujõudluse indeks       | ProjectAccountingCube\_Projects[Teenitud väärtus] ÷ ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete tegelik kogukulu] | Kogu teenitud väärtuse ja tegeliku kulu jagatise arvutus. |
+| Jõudluse plaanimise indeks   | ProjectAccountingCube\_Projects[Teenitud väärtus] ÷ ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete plaanitud kogukulu] | Kogu teenitud väärtuse ja kogu plaanitud kulu jagatise arvutus. |
+| Valmis töö protsendimäär | Valmis töö protsendimäär = ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete tegelik kogukulu] ÷ (ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete tegelik kogukulu] + ProjectAccountingCube\_Projects[Projekti plaanitud kogukulu] – ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete plaanitud kogukulu]) | Lõpuleviidud töö koguprotsent, mis põhineb kogu lõpetatud ülesande tegelikul kulul ja projekti plaanitud kulul. |
+| Tegelike arveldatavate tundide suhtarv  | ProjectAccountingCube\_Projects[Projekti tegelike arveldatavate kasutatud tundide koguarv] ÷ (ProjectAccountingCube\_Projects[Projekti tegelike arveldatavate kasutatud tundide koguarv] + ProjectAccountingCube\_Projects[Projekti tegelike arveldatavate kasutatud tundide koguarv]) | Tegelikud arveldatavad tunnid kasutatud tundide ja seisakutundide põhjal. |
+| Plaanitud väärtus                 | ProjectAccountingCube\_Projects[Projekti plaanitud kogukulu] × ProjectAccountingCube\_Projects[Lõpuleviidud töö protsent] | Plaanitud kogukulu ja lõpuleviidud töö protsendi korrutis. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Üksus: ProjectAccountingCube_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Üksus: ProjectAccountingCube\_TotalEstimatedCosts 
 **Andmeallikas:** ProjTable
 
-| Peamine koondmõõtmine       | Väli               | Kirjeldus | 
+| Peamine koondmõõtmine       | Väli               | Kirjeldus |
 |---------------------------------|---------------------|-------------|
 | Lõpetatud tegevuse plaanitud kulu | Sum(TotalCostPrice) | Kogu omahinna prognoos kõigi lõpetatud ülesannetega projektikannete tüüpide kohta. |
 

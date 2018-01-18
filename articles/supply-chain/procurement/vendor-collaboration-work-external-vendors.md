@@ -1,6 +1,6 @@
 ---
 title: "Hankija koostöö väliste hankijatega"
-description: "See teema kirjeldab, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta."
+description: "Selles teemas selgitatakse, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta."
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: b56cf58f78e5b3ed9bdd0d88f85d31123ec63451
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -29,194 +29,234 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektrooniliste andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. See laseb hankijatel töötada ostutellimustega (OT-dega), arvetega, veose varude teabega ja pakkumiskutsetega, samuti võimaldab see neile juurdepääsu osale hankija koondandmetest. Selles teemas selgitatakse, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostööliidest OT-de, pakkumiskutsete ja veose varudega töötamiseks. Selles selgitatakse ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad OT-le.
 
-See teema kirjeldab, kuidas ostuagendid saavad teha koostööd väliste hankijatega, et vahetada teavet ostutellimuste ja veose varude kohta.
+Lisateavet selle kohta, mida välised hankijad saavad hankija koostöö liideses teha, leiate teemast [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
-Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 for Finance and Operations. See võimaldab hankijatel töötada ostutellimuse, arve ja veose varude teabega. See teema kirjeldab, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostöö liidest ostutellimuste ja veoste varudega töötamiseks. See kirjeldab ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad ostutellimusele. Lisateavet selle kohta, mida välised hankijad saavad hankija koostöö liideses teha, leiate teemast [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).  
-
-Teemas kirjeldatud teave hankija koostöö kohta kehtib ainult Dynamics 365 for Finance and Operationsi praeguse versiooni puhul. Microsoft Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonis kasutate hankijatega koostöö tegemiseks hankijaportaali moodulit. Hankijaportaali mooduli kohta teabe saamiseks vt [Hankijatega koostöö tegemine hankijaportaali abil](collaborate-vendors-vendor-portal.md).
+> [!NOTE]
+> Selles teemas kirjeldatud teave hankija koostöö kohta kehtib ainult rakenduse Finance and Operations praeguse versiooni puhul. Microsoft Dynamics AX 7.0 (veebruar 2016) ja rakenduse Microsoft Dynamics AX versiooni 7.0.1 (mai 2016) puhul saate hankijatega koostööd teha, kasutades moodulit **Hankija portaal**. Mooduli **Hankija portaal** kohta teabe saamiseks vaadake teemat [„Hankijatega koostöö tegemine Hankija portaali kasutades”](collaborate-vendors-vendor-portal.md).
 
 Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
-Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). 
+## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Hankijatele kuvatava teabe määramine OT-dele vastamisel
 
-Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
+Kui hankijad vastavad teie saadetud OT-le, näevad nad ühte kolmest sõnumiväljast, kus nad peavad kinnitama, et soovivad OT aktseptida, tagasi lükata või muudatustega aktseptida. Kuna teave, mis tuleb sellel hetkel hankijale kuvada, võib olla teie ettevõtte põhine, saate määrata igale kinnitusteatele oma sõnumi. Näiteks võib tekst teavitada hankijat järgmistest protsessi etappidest või tingimustest.
 
-## <a name="define-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Hankijatele näidatud teabe määratlemine, kui nad vastavad ostutellimustele
-Kui hankijad vastavad ostutellimusele, mille neile saadate, näevad nad sõnumiboksi, kus nad peavad kinnitama, et soovivad ostutellimuse muudatustega aktsepteerida või tagasi lükata. Kuna teave, mis tuleb sellel hetkel hankijale kuvada, võib olla teie ettevõtte põhine, saate määrata teksti, mis kuvatakse igal kolmest kinnitusteatest. Näiteks võib tekst teavitada hankijat järgmistest protsessi etappidest või tingimustest.  
+OT vastuses kuvatava teksti määramiseks toimige järgmiselt.
 
-Ostutellimuse vastuses näidatava teksti määratlemiseks:
+1. Valige vastuse tüüp lehel **Teave ostutellimustele vastavate hankijate jaoks** ja seejärel valige **Redigeeri**.
+2. Sisestage väljale **Teabeteade** hankijatele sõnumiväljal kuvatav teave.
 
-1.  Avage leht **Teave ostutellimustele vastavate hankijate jaoks**.
-2.  Valige üks vastuse tüüpidest.
-3.  Klõpsake valikut **Redigeeri**.
-4.  Sisestage teave, mida soovite, et hankijad näeksid boksis **Teabeteade**.
+Kui peate lisama teateid rohkem kui ühes keeles, koostage eraldi teated ja määrake neist igaühele sobiv keelekood. Igale hankijale kuvatav teade on hankija kasutatavas keeles.
 
-Kui peate lisama teateid rohkem kui ühes keeles, koostage eraldi teated ja määrake neist igaühele sobivad keelekoodid. Hankijale kuvatav teade on hankija kasutatavas keeles.
+## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Hankija koostöö valikute seadistamine konkreetsele hankijale
 
-## <a name="set-the-vendor-collaboration-options-for-a-specific-vendor"></a>Hankija koostöö valikute seadistamine konkreetsele hankijale
-Rakenduses Finance and Operations konfigureerib administraator üldised hankija koostöö sätted. Näiteks määrab administraator, millised turberollid on saadaval kõikidele hankijatele, kellega koostööd teete. On ka mõned sätted, mis võivad olla iga hankija konto puhul erinevad, ja need tuleb määrata järgmiselt.
--   Lubage hankija koostöö.
--   Otsustage, kas soovite, et hankija näeks hinna teavet.
+Rakenduses Finance and Operations saab kõigi hankijate jaoks koostöö üldsätted, nagu hankijale saadaolevad turberollid, konfigureerida administraator. Siiski on ka mõni säte, mis võib iga hankija konto puhul erinev olla. Peaksite need sätted konfigureerima.
 
-### <a name="enable-vendor-collaboration"></a>Hankija koostöö lubamine
+- Lubage hankija koostöö.
+- Määrake, kas hankija peaks hinnateavet nägema.
 
-Enne kui välise hankija jaoks saab kasutajakontosid luua, peate konfigureerima hankijakonto, et lubada neil hankija koostööd kasutada. Selleks määrake väli **Koostöö aktiveerimine** aktiivseks vahekaardil **Üldine** lehel **Hankijad**. On kaks valikut, mida saate teha:
+### <a name="enabling-vendor-collaboration"></a>Hankija koostöö lubamine
 
--   **Aktiivne (ostutellimus kinnitatakse automaatselt)**– ostutellimused kinnitatakse automaatselt, kui hankija aktsepteerib need ilma muudatusteta.
--   **Aktiivne (ostutellimust ei kinnitata automaatselt)**– teie organisatsioon peab ostutellimused käsitsi kinnitama pärast seda, kui hankija on neid aktsepteerinud.
+Enne kui välise hankija jaoks saab kasutajakontod luua, peate konfigureerima hankija konto selliselt, et hankija saaks hankija koostööd kasutada. Seadistage väli **Koostöö aktiveerimine** lehe **Hankijad** vahekaardil **Üldine**. Valikud on järgmised:
 
-### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Otsustage, kas soovite, et hankija näeks hinna teavet.
+- **Aktiivne (ostutellimus kinnitatakse automaatselt)** – OT-d kinnitatakse automaatselt, kui hankija aktseptib need ilma muudatusteta.
+- **Aktiivne (ostutellimust ei kinnitata automaatselt)** – teie organisatsioon peab OT-d käsitsi kinnitama pärast seda, kui hankija on need aktseptinud.
 
-Kui soovite jagada hinnateavet, nagu ühikuhind, allahindlused ja tasud, koostööliidese kaudu, peate määrama suvandi **Ostutellimuste hinnad/summa** hankija kontol sättele **Jah**. See suvand on saadaval vahekaardil **Ostutellimuse vaikeandmed**.
+### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Hankijale hinnateabe kuvamise määramine
 
-## <a name="work-with-pos-when-using-vendor-collaboration"></a>Hankija koostööd kasutades ostutellimustega töötamine
-### <a name="sending-a-po-to-the-vendor"></a>Ostutellimuse hankijale saatmine
+Hankija koostööliidesese kaudu OT-de hinnateabe jagamiseks peate hankija konto puhul vahekaardil **Ostutellimuse vaikeandmed** suvandi **Ostutellimuste hinnad/summa** väärtuseks määrama **Jah**. Hinnateave sisaldab ühikuhinda, allahindlusi ja tasusid.
 
-Ostutellimused valmistatakse ette rakenduses Finance and Operations. Kui ostutellimusel on olek **Aktsepteeritud**, saadate selle hankijale, kasutades tegevust **Kinnitamiseks saatmine** lehel **Ostutellimus**. Ostutellimuse olekuks saab **Välisel ülevaatamisel**. Kui ostutellimus on saadetud, näeb hankija seda hankija koostöö liidese lehel **Ülevaatamist ootavad ostutellimused**. Seejärel võib hankija tellimuse vastu võtta, tagasi lükata või sellele muudatusi soovitada. Hankija saab lisada ka kommentaare teabe (nt ostutellimuse muudatuste) edastamiseks. Kui soovite juhtida hankija tähelepanu uuele ostutellimusele, võite ostutellimuse saatmiseks meiliga kasutada prindihalduse süsteemi.
+## <a name="working-with-pos-when-vendor-collaboration-is-used"></a>OT-dega töötamine hankija koostööd kasutades
 
-### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Ostutellimuse kinnitamine ja vastuvõtmine hankijalt
+### <a name="sending-a-po-to-a-vendor"></a>OT saatmine hankijale
 
-Kui hankija on ostutellimuse aktsepteerinud, saab ostutellimuse automaatselt kinnitada või see tuleb vajadusel käsitsi kinnitada. See sõltub sellest, kas väli **Hankija aktiveerimine** on hankija puhul seatud olekusse **Aktiivne (ostutellimus kinnitatakse automaatselt)** või olekusse **Aktiivne (ostutellimust ei kinnitata automaatselt)**.  
+OT-d valmistatakse ette rakenduses Finance and Operations. Kui OT olek on **Kinnitatud**, saate selle hankijale saata, valides lehel **Ostutellimus** tegevuse **Kinnitamiseks saatmine**. Seejärel saab OT olekuks **Välisel ülevaatamisel**. Kui ostutellimus on saadetud, näeb hankija seda hankija koostöö liidese lehel **Ülevaatamist ootavad ostutellimused**. Seejärel võib hankija OT aktseptida, tagasi lükata või sellele muudatusi soovitada. Hankija saab lisada ka kommentaare teabe (nt ostutellimuse muudatuste) edastamiseks. Kui soovite juhtida hankija tähelepanu uuele OT-le, võite prindihalduse süsteemi kasutades OT meiliga saata.
 
-Järgmises tabelis näidatakse tavapärast teabevahetust, mis oleneb sellest, kuidas hankija vastab, kui saadate talle kinnitamiseks ostutellimuse.
+### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>OT kinnitamine ja vastuvõtmine hankijalt
+
+Kui hankija on OT aktseptinud, saab OT kas automaatselt kinnitada või tuleb seda teha käsitsi. Seda olenevalt sellest kas väli **Koostöö aktiveerimine** on hankija puhul seatud olekusse **Aktiivne (ostutellimus kinnitatakse automaatselt)** või olekusse **Aktiivne (ostutellimust ei kinnitata automaatselt)**.
+
+Järgmises tabelis näidatakse tavapärast teabevahetust, mis oleneb sellest, kuidas hankija vastab, kui saadate OT talle kinnitamiseks.
 
 <table>
 <colgroup>
 <col width="50%" />
 <col width="50%" />
 </colgroup>
+<thead>
+<tr>
+<th>Hankija vastus</th>
+<th>Tulemus</th>
+</tr>
+</thead>
 <tbody>
-<tr class="odd">
-<td><strong>Hankija vastus</strong></td>
-<td><strong>Tulemus</strong></td>
-</tr>
 <tr class="even">
-<td>Hankija <strong>aktsepteerib</strong> tellimuse. Finance and Operations on konfigureeritud hankija aktsepteerimise korral automaatselt ostutellimusi kinnitama.</td>
+<td>Hankija <strong>aktseptib</strong> tellimuse ja rakendus Finance and Operations on konfigureeritud automaatselt hankija aktseptitud OT-d kinnitama.</td>
+<td>Tellimuse olekuks määratakse <strong>Kinnitatud</strong>. Kui mingil põhjusel pole võimalik tellimust värskendada, salvestatakse hankija vastuseks ikkagi <strong>Aktsepteeritud</strong>, kuid OT olekuks jääb <strong>Välisel ülevaatamisel</strong>. 
 
-<td>Tellimuse olekuks määratakse <strong>Kinnitatud</strong>. Kui miski takistab tellimuse värskendamist, salvestatakse hankija vastuseks ikkagi <strong>Aktsepteeritud</strong>, kuid ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>. 
-
-Ostutellimust, mis saadeti hankijale ja mille olek on **Välisel ülevaatamisel**, uuendatakse, lisades ridadele kinnitatud tarnekuupäevad. Uuendus algatab uue versiooni, mille olekuks määratakse automaatselt **Kinnitatud**. Kui ostutellimus kinnitatakse, ilmub see hankija koostöö liidesesse.</td>
+OT, mis saadeti hankijale ja mille olek on <strong>Välisel ülevaatamisel</strong>, värskendatakse, lisades ridadele kinnitatud tarnekuupäevad. See värskendus algatab uue versiooni, mille olekuks määratakse automaatselt <strong>Kinnitatud</strong>. Kui OT kinnitatakse, ilmub see hankija koostööliidesesse.</td>
 </tr>
 <tr class="odd">
-<td>Hankija <strong>aktsepteerib</strong> tellimuse. Finance and Operations ei ole konfigureeritud hankija aktsepteerimise korral automaatselt ostutellimusi kinnitama.</td>
+<td>Hankija <strong>aktseptib</strong> tellimuse, kuid rakendus Finance and Operations pole konfigureeritud automaatselt hankija aktseptitud OT-d kinnitama.</td>
 <td>Hankija vastus salvestatakse kui <strong>Aktsepteeritud</strong>, kuid ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>.
 
-Ostutellimust, mis saadeti hankijale ja mille olek on **Välisel ülevaatamisel**, uuendatakse, lisades ridadele kinnitatud tarnekuupäevad. Uuendus algatab uue versiooni, mille olekuks määratakse **Välisel ülevaatamisel**. Seejärel saate ostutellimuse käsitsi kinnitada.</td>
-
+OT, mis saadeti hankijale ja mille olek on <strong>Välisel ülevaatamisel</strong>, värskendatakse, lisades ridadele kinnitatud tarnekuupäevad. See värskendus algatab uue versiooni, mille olekuks määratakse automaatselt <strong>Välisel ülevaatamisel</strong>. Seejärel saate OT käsitsi kinnitada.</td>
 </tr>
 <tr class="even">
 <td>Hankija <strong>lükkab</strong> tellimuse tagasi.</td>
 <td>Hankija vastus salvestatakse kui <strong>Tagasi lükatud</strong> ja ostutellimus jääb olekusse <strong>Välisel ülevaatamisel</strong>. Tagasilükkamine saadakse koos hankija märkusega.</td>
 </tr>
 <tr class="odd">
-<td>Hankija <strong>kinnitab tellimuse muudatustega</strong>. Muudatusi soovitatakse reatasemel. Üksikuid ridu on võimalik aktsepteerida või tagasi lükata. Muud võimalikud muudatused hõlmavad:
+<td>Hankija <strong>aktseptib</strong> tellimuse <strong>muudatustega</strong>. Muudatusi soovitatakse reatasemel. Hankija võib üksikuid ridu aktseptida või tagasi lükata. Järgnevalt on toodud näiteid muudatustest, mida hankija võib soovida teha.
 <ul>
-<li>Kuupäevad või koguste muutmine.</li>
-<li>Ridade tükeldamine erinevate tarnekuupäevade ja -koguste jaoks.</li>
-<li>Kauba asendamine.</li>
+<li>Muutke kuupäevi või koguseid.</li>
+<li>Eri tarnekuupäevade ja -koguste jaoks saate ridu tükeldada.</li>
+<li>Asendage üksus.</li>
 </ul>
-Hankija ei saa hinnateavet ja kulusid muuta. Nendele muudatuste tegemise soovitusi saab teha märkuseid kasutades.</td>
-<td>Hankija vastus salvestatakse kui <strong>Aktsepteeritud koos muudatustega</strong> ja ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>. Olekud näitavad, millist tüüpi muudatusi hankija on soovitanud. Teavet muudatuste automaatse tarbimise kohta leiate järgmisest jaotisest, mis käsitleb seda, kuidas uuendada ostutellimust, kui hankija soovitab muudatusi. </td>
+Hankija ei saa muuta hinnateavet ja kulusid. Siiski saab hankija neid muudatusi märkusi kasutades soovitada.</td>
+<td>Hankija vastus salvestatakse kui <strong>Aktsepteeritud koos muudatustega</strong> ja ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>. Olekud näitavad, millist tüüpi muudatusi hankija on soovitanud. Muudatuste automaatse tarbimise kohta leiate teavet allpool olevast jaotisest „Ostutellimuse uuendamine, kui hankija soovitab muudatusi”. </td>
 </tr>
 </tbody>
 </table>
 
-Saate kasutada tööruumi **Ostutellimuse** **ettevalmistus**, et jälgida, millistele ostutellimustele on hankija vastanud. See tööruum sisaldab kaht loendit, mis sisaldab olekuga **Välisel ülevaatamisel** ostutellimusi.
+Jälgimaks, millistele OT-dele hankija on vastanud, saate kasutada tööruumi **Ostutellimuse ettevalmistus**. See tööruum sisaldab kahte loendit, milles on OT-d olekuga **Välisel ülevaatamisel**.
 
--   Välisel ülevaatamisel nõuab tegevust.
--   Välisel ülevaatusel hankija vastuse ootel.
+- Välisel ülevaatamisel nõuab tegevust
+- Välisel ülevaatusel hankija vastuse ootel
 
 ### <a name="changing-a-po"></a>Ostutellimuse muutmine
 
-Juba vastatud ostutellimuse muutmiseks peate hankijale saatma ostutellimuse uue versiooni. Uuel ostutellimusel on versiooni järelliide näitamaks, et see on varasemalt kommunikeeritud ostutellimuse modifitseeritud versioon. Leht **Ostutellimuse hankija kinnitamise ajalugu** võimaldab teil ja teie hankijatel jälgida iga tellimuse ajalugu. Ostutellimuse varem kinnitatud versioon jääb uue ostutellimuse kinnitamiseni kinnitatud ostutellimuste nimekirja.
+Juba vastatud OT muutmiseks peate hankijale saatma OT uue versiooni. Uuel OT-l on versiooni järelliide näitamaks, et see on varem saadetud OT muudetud versioon. Leht **Ostutellimuse hankija kinnitamise ajalugu** võimaldab teil ja teie hankijatel jälgida iga tellimuse ajalugu. Ostutellimuse varem kinnitatud versioon jääb uue ostutellimuse kinnitamiseni kinnitatud ostutellimuste nimekirja.
 
-### <a name="cancelling-a-po"></a>Ostutellimuse tühistamine
+### <a name="canceling-a-po"></a>Ostutellimuse tühistamine
 
-Ostutellimuse tühistamisel muudetakse olekuks uuesti **Aktsepteeritud**. Peate ostutellimuse hankijale tagasi saatma, et ta saaks tühistamise kinnitada või tagasi lükata. Pärast tühistamise kinnitamist ilmub ostutellimus kinnitatud ostutellimuste hankija loendis kui **Tühistatud**.
+Ostutellimuse tühistamisel muudetakse olekuks uuesti **Aktsepteeritud**. Peate ostutellimuse hankijale tagasi saatma, et ta saaks tühistamise kinnitada või tagasi lükata. Pärast tühistamise kinnitamist kuvatakse ostutellimus hankija kinnitatud ostutellimuste loendis olekuga **Tühistatud**.
 
 ### <a name="adding-attachments-to-a-po"></a>Ostutellimusele manuste lisamine
 
 Ostutellimusele saate lisada manuseid, nagu failid, pildid ja märkused, kasutades dokumendihalduse süsteemi. Manused tüübiga **Väline** on hankijale nähtavad, kui ostutellimuse saadate.
 
-## <a name="update-the-po-when-a-vendor-suggests-changes"></a>Ostutellimuse uuendamine, kui hankija soovitab muudatusi
-Kui hankija on ostutellimusele vastanud ja soovitanud muudatusi, on järgmine etapp vastuse töötlemine.
-**Ostutellimuse ettevalmistamise tööruumi** loendis Välisel ülevaatamisel nõuab tegevust saate märkida ostutellimuse, millele hankija vastas, muudatustega aktsepteeritud tellimuseks. Loendis Välisel ülevaatamisel nõuab tegevust saate liikuda ka hankija vastuse juurde. Vastuse päises saab hankija muuta järgmisi andmeid.
+## <a name="updating-a-po-when-a-vendor-suggests-changes"></a>Ostutellimuse uuendamine, kui hankija soovitab muudatusi
+
+Kui hankija on OT-le vastanud ja soovitanud muudatusi, on järgmine etapp vastuse töötlemine.
+
+OT-sid, mille hankija on muudatustega aktseptinud, näete loendis **Välisel ülevaatamisel nõuab tegevust** tööruumis **Ostutellimuse ettevalmistamine**. Sellest loendist saate liikuda ka hankija vastuse juurde.
+
+Hankija saab vastuse päises muuta järgmisi andmeid.
  
--   Hankija dokumendiviide
--   Tarneviis
--   Tarnetingimus
--   Kinnitatud tarnekuupäev
+- Hankija dokumendiviide
+- Tarneviis
+- Tarnetingimus
+- Kinnitatud tarnekuupäev
 
-Hankija saab lisada ka märkuse või manuse
+Hankija saab lisada ka märkuse või manuse.
 
-Ridadel saab hankija muuta kogust ja tarnekuupäevi, lisada märkusi ja manuseid, lükata rea tagasi, asendada rea mõne teise kaubaga, mis on sisestatud tekstina, ja jagada rea mitmeks tarneks. Olenevalt sellest, milliseid muudatusi hankija soovitab, on rea olekud erinevad.
+Ridadel saab hankija muuta kogust ja tarnekuupäevi, lisada märkusi ja manuseid, lükata rea tagasi, asendada rea mõne teise kaubaga, mis on sisestatud tekstina, ja tükeldada rea mitmeks tarneks. Rea olek oleneb sellest, milliseid muudatusi hankija on soovitanud.
     
--   **Aktsepteeritud koos muudatustega**
--   **Tagasi lükatud**
--   **Asendatud** – sel juhul lisatakse rida, mille olek on **Asendamine**.
--   **Kinnitatud** Tükeldamine graafikusse Sel juhul lisatakse read, mille olek on **Graafiku read**.
+- **Aktsepteeritud koos muudatustega**
+- **Tagasilükatud**
+- **Asendatud** – sel juhul lisatakse rida, mille olek on **Asendamine**.
+- **Kinnitatud**
+- **Tükeldamine graafikusse** – sel juhul lisatakse read, mille olek on **Graafiku read**.
 
 Kui real pole muudatusi, on rea olek **Aktsepteeritud**.
 
-Vastusel näete varem nimetatud reaolekuid, mis näitavad hankija tehtud muudatuste tüüpi. Lisaks kuvatakse kõik muudetud väljad paksus kirjas, et saaksite muudatused tuvastada.
+Vastusel näete reaolekuid, mis näitavad hankija tehtud muudatuste tüüpe. Lisaks kuvatakse kõik muudetud väljad paksus kirjas, et saaksite muudatused tuvastada.
 
-Saate ostutellimust uuendada, klõpsates vastusel või ühel real korraga tegevust **Töötle ostutellimuse uuendust**. Päises ja ridadel olev tähis **Kas ostutellimuse uuendus on töödeldud?** võimaldab näha, kas süsteem on päist või ridu töödelnud, et uuendada ostutellimust mis tahes võimalike vastusest pärinevate muudatustega. Protsessi **Töötle ostutellimuse uuendust** saab käivitada päise või rea kohta ainult ühe korra.
+Saate OT-d värskendada, valides vastusel või ühel real korraga tegevuse **Töötle ostutellimuse värskendust**. Päises ja ridadel olev väli **Kas ostutellimuse värskendus on töödeldud?** võimaldab tuvastada, kas süsteem on päist või ridu töödelnud, et värskendada OT-d mis tahes võimalike vastusest pärinevate muudatustega. Tegevuse **Töötle ostutellimuse värskendust** saab käivitada päise või rea kohta ainult ühe korra.
 
-Kõiki soovituslikke muudatusi ei saa ostutellimusel muuta. Ostutellimusel saab automaatselt teha ainult päise uuendusi ning kuupäevade ja koguste uuendusi ridadel. Teiste muudatuste puhul tuleb ostutellimust käsitsi uuendada. Praegusel juhul näitab tähis **Kas ostutellimuse uuendus on töödeldud?** olekut **Käsitsi uuendamine**. Näide muudatuse kohta, mida tuleb teha käsitsi, on see, kui hankija soovitab tükeldada rea graafikuks.
+Kõiki soovituslikke muudatusi ei saa ostutellimusel muuta. OT-l saab automaatselt teha ainult päise värskendusi ning kuupäevade ja koguste värskendusi ridadel. Teiste muudatuste puhul tuleb ostutellimust käsitsi uuendada. Sel juhul on välja **Kas ostutellimuse värskendus on töödeldud?** väärtus **Käsitsi värskendamine**. Näiteks kui hankija soovib, et rida tükeldataks graafikuks, tuleb see muudatus teha käsitsi.
 
-Real, mille olek on **Aktsepteeritud**, on kinnitatud tarnekuupäev, mis uuendatakse ostutellimusel, kui käivitate käsu **Töötle ostutellimuse uuendust**. Märkusi ja manuseid ei edastata automaatselt praegusse ostutellimusse. Pange tähele, et kui uuendate praegust ostutellimust toiminguga **Töötle ostutellimuse uuendust**, ei hinnata kaubandusleppeid ostutellimuse ridadel ümber.
-
+Iga olekuga **Aktsepteeritud** rea tarnekuupäev on kinnitatud. Kui käitate tegevuse **Töötle ostutellimuse värskendust**, värskendatakse OT-l seda kuupäeva. Märkusi ja manuseid ei edastata automaatselt praegusse OT-sse. Peale selle ei hinnata ümber kaubandusleppeid OT ridadel, kui värskendate praegust OT-d toiminguga **Töötle ostutellimuse värskendust**.
 
 ## <a name="po-statuses-and-versions"></a>Ostutellimuse olekud ja versioonid
-See jaotis kirjeldab erinevaid olekuid, mis ostutellimusel võivad kinnitamiseni olla. Samuti kirjeldab see, mis hetkel uued ostutellimuse versioonid hankijale kättesaadavaks tehakse. Käitumine erineb, olenevalt sellest, kas kasutate ostutellimuste puhul muudatuste haldamist. 
+
+See jaotis kirjeldab erinevaid olekuid, mis OT-l võivad kuni kinnitamiseni olla. Samuti kirjeldab see, millal uued OT versioonid hankijale kättesaadavaks tehakse. Käitumine erineb, olenevalt sellest, kas kasutate ostutellimuste puhul muudatuste haldamist. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versioonid ja olekud, kui te ei kasuta muudatusehaldust
 
 Järgmises tabelis on näide oleku ja versiooni muudatuste kohta, mida ostutellimuses teha saab.
 
-|                                                                          |                                                                                                                                                              |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Tegevus**                                                               | **Olek ja versioon**                                                                                                                                       |
-| Ostutellimuse algne versioon luuakse rakenduses Finance and Operations. | Olek on **Kinnitatud**.                                                                                                                                  |
-| Ostutellimus saadetakse hankijale.                                            | Versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.                                          |
-| Hankija saadab vastuse **Aktsepteeritud koos muudatustega**                  | Olek on ikka **Välisel ülevaatamisel**.                                                                                                                  |
-| Teete mõningaid hankija soovitud muudatusi.                  | Olekuks saab **Kinnitatud**.                                                                                                                        |
-| Saadate ostutellimuse uue versiooni hankijale.                        | Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.                                      |
-| Hankija aktsepteerib ostutellimuse uue versiooni.                            | Olek on endiselt **Välisel ülevaatamisel**, välja arvatud juhul, kui hankija konto konfigureeritakse ostutellimust automaatselt olekusse **Kinnitatud** määrama, kui nad selle aktsepteerivad. |
+| Tegevus | Olek ja versioon |
+|--------|--------------------|
+| Ostutellimuse algne versioon luuakse rakenduses Finance and Operations. | Olek on **Kinnitatud**. |
+| Ostutellimus saadetakse hankijale. | Versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**. |
+| Hankija saadab vastuse **Aktsepteeritud koos muudatustega** | Olek on ikka **Välisel ülevaatamisel**. |
+| Teete mõningaid hankija soovitud muudatusi. | Olekuks saab **Kinnitatud**. |
+| Saadate ostutellimuse uue versiooni hankijale. | Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**. |
+| Hankija aktsepteerib ostutellimuse uue versiooni. | Olek on endiselt **Välisel ülevaatamisel**, välja arvatud juhul, kui hankija konto konfigureeritakse OT-sid automaatselt olekusse **Kinnitatud** määrama, kui hankija need aktseptib. |
 
+Hankijad ei pea OT-d hankija koostööliidese kaudu kinnitama. Nad võivad saata ka meili või teatada ostutellimuse vastuvõtmisest muude kanalite kaudu. Seejärel saate tellimuse käsitsi rakenduses Finance and Operations kinnitada. Sellisel juhul saate hoiatuse, et tellimus on kinnitatud, kuigi hankijalt puudub vastus. Seejärel kuvatakse ostutellimus kinnitusajaloos avatud kinnitatud tellimusena, millel puuduvad vastused. Nüüd pole hankijal enam võimalik ostutellimust kinnitada ega tagasi lükata.
 
-Hankijad ei pea ostutellimust kinnitama, kasutades hankija koostöö liidest. Nad võivad saata ka meilisõnumi või teatama ostutellimuse vastuvõtmisest muude kanalite kaudu. Seejärel saate tellimuse kinnitada käsitsi rakenduses Finance and Operations. Sellisel juhul saate hoiatuse, et tellimus on kinnitatud, kuigi hankijalt puudub vastus. Seejärel kuvatakse ostutellimus kinnitusajaloos avatud kinnitatud tellimusena, millel puuduvad vastused. Hankijal ei ole enam võimalust ostutellimust kinnitada või tagasi lükata.  
-
-
->[!NOTE]
->Ostutellimuse versioon, mis on saadaval teistele protsessidele rakenduses Dynamics 365 for Finance and Operations, on alati värskeim versioon isegi juhul, kui seda versiooni pole veel registreeritud hankija koostöö liideses.
+> [!NOTE]
+> Ostutellimuse versioon, mis on saadaval teistele protsessidele rakenduses Finance and Operations, on alati värskeim versioon isegi juhul, kui seda versiooni pole veel registreeritud hankija koostööliideses.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versioonid ja olekud, kui kasutate muudatusehaldust
 
-Kui muudatusehaldus on ostutellimuste jaoks lubatud, läbib ostutellimus kinnitamise töövoo, et saavutada olek **Kinnitatud**. See protsess ei ole hankijale nähtav.  
+Kui muudatusehaldus on ostutellimuste jaoks lubatud, läbivad ostutellimused kinnitamise töövoo, et saavutada olek **Kinnitatud**. See protsess ei ole hankijale nähtav.
 
-Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimusse teha võidakse, kui muudatuste haldamine on sisse lülitatud. Versioon registreeritakse ostutellimuse kinnitamisel, mitte siis, kui ostutellimus saadetakse hankijale või kinnitatakse.
+Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimusse teha võidakse, kui muudatuste haldamine on sisse lülitatud. Versioon registreeritakse OT kinnitamisel, mitte siis, kui OT saadetakse hankijale või kinnitatakse.
 
-|                                                                          |                                                                                                                                                              |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Tegevus**                                                               | **Olek ja versioon**                                                                                                                                       |
-| Ostutellimuse algne versioon luuakse rakenduses Finance and Operations.      | Olek on **Mustand**.  |
-| Ostutellimus esitatakse kinnitusprotsessile. (Kinnitusprotsess on sisemine protsess, millesse hankija ei ole kaasatud.)                                                           | Olek muudetakse olekust **Mustand** olekusse **Ülevaatamisel** ja omakorda olekusse **Kinnitus**, kui ostutellimust ei lükata kinnitamisprotsessi käigus tagasi. Kinnitatud ostutellimus registreeritakse versioonina.           | 
-| Ostutellimus saadetakse hankijale.                                                            | Versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.      |
-| Teete muudatusi, mida hankija soovib, kas käsitsi või kasutades vastusel olevat tegevust ostutellimuse uuendamiseks.                                                            | Olekuks määratakse uuesti **Mustand**.     |
-|Ostutellimus esitatakse uuesti kinnitusprotsessile.                                                |  Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine**, kui ostutellimust ei lükata kinnitamisprotsessi käigus tagasi. Teise võimalusena saab süsteemi konfigureerida nii, et konkreetse välja muudatused ei nõua uuesti kinnitamist. Sellisel juhul määratakse olekuks kõigepealt **Mustand** ja seejärel automaatselt **Kinnitatud**. Kinnitatud ostutellimus registreeritakse uue versioonina.                                         |
-|Saadate ostutellimuse uue versiooni hankijale.                                                |  Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**.                                         |
-|Hankija kinnitab ostutellimuse uue versiooni.                                                |  Olekuks määratakse **Kinnitatud**, kas automaatselt või siis, kui saate hankijalt vastuse ja kinnitate siis ostutellimuse. |
+| Tegevus | Olek ja versioon |
+|--------|--------------------|
+| Ostutellimuse algne versioon luuakse rakenduses Finance and Operations. | Olek on **Mustand**. |
+| Ostutellimus esitatakse kinnitusprotsessile. (Kinnitusprotsess on sisemine protsess, millesse hankija pole kaasatud.) | Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine**, kui ostutellimust kinnitamisprotsessi ajal tagasi ei lükata. Kinnitatud ostutellimus registreeritakse versioonina. | 
+| Ostutellimus saadetakse hankijale. | Versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**. |
+| Vastuseks teete OT värskendamiseks muudatusi, mida hankija soovis, kas käsitsi või kasutades tegevust **Töötle ostutellimuse värskendust**. | Olekuks määratakse uuesti **Mustand**. |
+| Ostutellimus esitatakse uuesti kinnitusprotsessile. | Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine**, kui ostutellimust kinnitamisprotsessi ajal tagasi ei lükata. Teise võimalusena saab süsteemi konfigureerida nii, et konkreetsete välja muudatuste jaoks ei ole vaja uuesti kinnitamist. Sellisel juhul määratakse olekuks kõigepealt **Mustand** ja seejärel automaatselt **Kinnitatud**. Kinnitatud ostutellimus registreeritakse uue versioonina. |
+| Saadate ostutellimuse uue versiooni hankijale. | Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**. |
+| Hankija kinnitab ostutellimuse uue versiooni. | Olekuks määratakse **Kinnitatud**, kas automaatselt või siis, kui saate hankijalt vastuse ja kinnitate siis ostutellimuse. |
 
-## <a name="share-information-about-consignment-inventory"></a>Teabe jagamine veose varude kohta
-Kui kasutate veose varusid, saavad hankijad kasutada hankija koostöö liidest, et kuvada teavet järgmistel lehtedel:
+## <a name="sharing-information-about-consignment-inventory"></a>Veose varude kohta teabe jagamine
 
--   **Ostutellimused, mis tarbivad veose varusid** – ostutellimused veose varude jaoks luuakse siis, kui varude omandiõigus muutub hankijalt teie ettevõttele. Toote sissetulek sisestatakse samal ajal. Need veose ostutellimused kuvatakse ainult lehel **Ostutellimused, mis tarbivad veose varusid**. Neid ei kaasata lehele **Kõik kinnitatud ostutellimused** moodulis **Hankija koostöö**.
--   **Veose varudest saadud tooted** – see leht loetleb kõik kanded, kus toodete omandiõigus on hankijalt teie ettevõttele üle viidud. Hankijad saavad kasutada seda teavet, et kliendile arvet esitada.
--   **Veose vaba kaubavaru** – see leht näitab hankijale kuuluvat vabu veose varusid, mis on teie lattu vastu võetud.
+Kui kasutate veose varusid, saavad hankijad kasutada hankija koostööliidest, et kuvada teavet järgmistel lehtedel.
 
+- **Ostutellimused, mis tarbivad veose varusid** – OT-d veose varude jaoks luuakse siis, kui varude omandiõigus läheb hankijalt teie ettevõttele. Toote sissetulek sisestatakse samal ajal. Need veose OT-d kuvatakse ainult lehel **Ostutellimused, mis tarbivad veose varusid**. Neid ei kaasata lehele **Kõik kinnitatud ostutellimused** moodulis **Hankija koostöö**.
+- **Veose varudest saadud tooted** – see leht loetleb kõik kanded, kus toodete omandiõigus on hankijalt teie ettevõttele üle viidud. Hankijad saavad kasutada seda teavet, et kliendile arvet esitada.
+- **Veose vaba kaubavaru** – see leht näitab hankijale kuuluvaid vabu veose varusid, mis on teie lattu vastu võetud.
 
+## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Pakkumiskutsetega töötamine hankija koostööd kasutades
 
+See jaotis kirjeldab klientide ja hankijate omavahelist suhtlust pakkumiskutse protsessi käigus. See selgitab ka, kuidas hankijatele teavet edastatakse. Pakkumiskutse protsessi toest põhiülevaate saamiseks vaadake jaotist [„Pakkumiskutsed (RFQ-d)”](request-quotations.md).
 
+### <a name="alternates-attachments-amendments-and-returns"></a>Alternatiivid, manused, parandused ja tagastused
+
+- **Alternatiivid** – kui kataloogiväliste kaubaridade puhul on lubatud alternatiivid, siis näete seda pakkumiskutse päises. Kui alternatiivid on lubatud, saavad hankijad igale taotletud reale alternatiivseid ridu lisada.
+- **Manused** – manuseid saab lisada nii pakkumiskutse päise kui ka rea tasemel. Manuseid saab liigitada kas sisemisteks või välisteks. Sisemisi manuseid saab vaadata ainult kliendi poolel, samas kui hankijad saavad väliseid manuseid vaadata alles pärast saatmist.
+
+    Samuti saavad hankijad oma pakkumise vastusele manuseid lisada. Kliendi poolel saab neid manuseid vaadata pärast seda, kui hankija on pakkumise vastuse esitanud. Hankijate lisatud manused liigitatakse alati välisteks. Hankija pakkumisega esitatud manuste vaatamiseks valige **Pakkumise manused** või **Pakkumise rea manused**.
+    
+    Pakkumiskutsega koos saadetud manuste vaatamiseks kasutage vastuses olevat dokumentide töötlemise kirjaklambri sümbolit.
+
+- **Parandused** – kui parandus on lõpule viidud, eemaldatakse olemasolevad pakkumise vastused, nii et need saaks asendada värskendatud väärtustega. Varasema pakkumise vastuses olevat teavet rea hinna ja koguse kohta saab vaadata pakkumiskutse juhtumi töölehtedelt.
+
+    Paranduse töötlemise jõustamiseks määrake lehe **Hangete parameetrid** kiirkaardi **Pakkumiskutsed** suvandi **Lukusta saadetavad pakkumiskutsed** väärtuseks **Jah**. (Avaliku sektori puhul on see suvand seatud ja nõutav.)
+
+- **Tagastused** – kui hankija on edastanud pakkumise, kuid pakkumiskutse juhtumi puhul on nõutud rohkem või muudetud teavet, saab klient pakkumise hankijale tagasi saata. Varem edastatud pakkumise andmed säilitatakse ja hankija saab nõutud muudatused teha ilma pakkumise protsessi uuesti alustamata.
+
+## <a name="public-sector-extensions"></a>Avaliku sektori laiendused
+
+Avaliku sektori laiendatud funktsioonid võimaldavad pakkumiskutse juhtumi hankijatele saata ja avaldada. Pakkumiskutse avaldamisel saavad kõik, kes teabenõude esitavad, tööd vaadata, mis on kooskõlas enamike avalikku sektorit puudutavate määrustega. Kõik saadaolevad tööd kuvatakse loendilehel **Avaldatud pakkumiskutsete avamine** ja tühistatud, ootel või lõppenud pakkumiskutseid saab vaadata loendilehel **Suletud avaldatud pakkumiskutsed**. Neid dokumente saab vaadata ka väljaspool rakendust Finance and Operations järgmiste andmeüksuste integreerimise kaudu.
+
+- Avaldatud pakkumiskutsed
+- Avaldatud pakkumiskutsete rida
+- Avaldatud pakkumiskutsete päise manused
+
+Need üksused lasevad inimestel, kes pole rakenduse Finance and Operations lepingulised kasutajad, kuid kellel on anonüümne juurdepääs välisele saidile, vaadata saadaolevaid ja suletud töid. Lisaks annab suvandi **Saada ja avalda** laiendatud funktsionaalsus kasutajale, kes seadistab pakkumiskutse protsessi parameetrid, võimaluse määrata meilimall. Kui hankespetsialist loob nüüd pakkumiskutse juhtumi, peab ta pakkumiskutse juhtumi puhul nõutava teabe saatmiseks hankijatele valima meilimalli. 
+
+Kasutaja, kes pakkumiskutse protsessi parameetreid määrab, saab luua mitu meilimalli. Need meilimallid võivad sisaldada nii staatilist teksti kui ka järgmisi asendussõnesid. Meili loomisel asendatakse sõned konteksti puudutavate väärtustega.
+
+- %RFQCase%
+- %RFQCaseName%
+- %bidType%
+- %inviteOnly%
+- %expiryDateTime%
+- %requester%
+- %requestingDepartment%
+- %accountnum%
+- %todaysdate%
+- %createddate%
+
+Kui parandus on vajalik ja saadetakse pärast pakkumiskutse saatmist, saadetakse pakkumiskutse kõigile kutsutud hankijatele uuesti. Samuti uuendatakse avaldatud dokumenti lehel **Avaldatud pakkumiskutsete avamine**.
 

@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: et-ee
 ms.lasthandoff: 09/29/2017
 
 ---
-# Laovaru tasemete korrigeerimine laos (üldine ladustamine)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Laovaru tasemete korrigeerimine laos (üldine ladustamine)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab varude korrigeerimise töölehe loomise ja sisestamise protsessi laos olevate toodete laovarude korrigeerimiseks. Enne selle käivitamist peate seadistama varude korrigeerimiste jaoks varude töölehe nime. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Neid ülesandeid täidab üldjuhul laotöötaja.
 
 
-## Varude korrigeerimise töölehe loomine
+## <a name="create-an-inventory-adjustment-journal"></a>Varude korrigeerimise töölehe loomine
 1. Avage Varude haldus > Töölehe sisestused > Kaubad > Varude korrigeerimine.
 2. Klõpsake valikut Uus.
 3. Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.
@@ -38,7 +38,7 @@ See protseduur selgitab varude korrigeerimise töölehe loomise ja sisestamise p
     * Osad muud väljad täidetakse teie valitud varude korrigeerimise töölehe nime seadistuse põhjal.  
 5. Klõpsake nuppu OK.
 
-## Tööleheridade loomine
+## <a name="create-journal-lines"></a>Tööleheridade loomine
 1. Klõpsake valikut Uus.
 2. Märkige loendis kaubakoodi väli.
 3. Valige kaup väljal Kaubakood. Kui kasutate demoettevõtte USMF andmeid, sisestage „D0001”.
@@ -50,7 +50,7 @@ See protseduur selgitab varude korrigeerimise töölehe loomise ja sisestamise p
 8. Sisestage arv väljale Kogus.
     * Omahinna väli määrab ühiku omahinna lao sissetulekutele. Kui kaubakoodi kohta pole kulu määratud või kui soovite seda käsitsi muuta, tehke seda siin.  
 
-## Varude korrigeerimise töölehe kinnitamine ja sisestamine
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Varude korrigeerimise töölehe kinnitamine ja sisestamine
 1. Klõpsake suvandit Kinnita.
 2. Klõpsake nuppu OK.
 3. Klõpsake valikut Sisesta.

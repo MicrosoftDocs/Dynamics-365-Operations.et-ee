@@ -3,7 +3,7 @@ title: Power BI sisu
 description: Selles teemas loetletakse saadaolev Power BI sisu ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
 author: sericks007
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -39,10 +39,10 @@ Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterp
 - [Kassa ülevaate Power BI sisu](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
 - [CFO ülevaate Power BI sisu](CFO-power-bi.md)
 - [Tasu Power BI sisu](compensation-power-bi.md)
-- [Kuluarvestuse analüüsi Power BI sisu*](cost-accounting-analysis-content-pack.md) 
+- [Kuluarvestuse analüüsi Power BI sisu](cost-accounting-analysis-content-pack.md) 
 - [Krediidi ja võlanõuete halduse Power BI sisu](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Töötajate arengu Power BI sisu](employee-development-PBI.md) 
-- [Finantstulemuste Power BI sisu*](financial-performance-power-bi-content-pack.md)
+- [Finantsjõudluse Power BI sisu](financial-performance-power-bi-content-pack.md)
 - [Põhivarade halduse Power BI sisu](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [Õppimise Power BI sisu](learning-power-bi.md)
 - [Harjutushalduri Power BI sisu](practice-manager-power-bi.md)
@@ -53,16 +53,6 @@ Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterp
 - [Hankija maksete Power BI sisu](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Laojõudluse Power BI sisu](warehouse-power-bi-content.md)
 - [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)  
-
-### <a name="accessing-the-content"></a>Juurdepääs sisule
-
-#### <a name="embedded-content"></a>Manustatud sisu
-Välja arvatud sisu, mis on märgitud tärniga (\*), on kogu eespool loetletud sisu rakendusse manustatud. Lisateavet selle kohta, kus saate Power BI sisu vaadata, leiate ülalolevaid linke klõpsates.
-
-Andmete kuvamiseks Power BI aruannetes värskendage kindlasti üksuse kauplust. Lisateavet vaadake jaotisest *Üksuse kaupluse värskendamine* teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
-
-#### <a name="files-available-in-lifecycle-services"></a>Teenuses Lifecycle Services saadaolevad failid
-See Power BI sisu on saadaval Microsoft Dynamicsi teenuse Lifecycle Services (LCS) ühiste vahendite teegis. Lisateavet sisu allalaadimise ja selle ühendamise kohta teie andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
 ## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Dynamics 365 for Operationsi (versioon 1611) Power BI sisu
 Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operationsi versiooni 1611, siis on saadaval järgmine Power BI sisu.
@@ -81,9 +71,6 @@ Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operationsi versio
 - [Laojõudluse Power BI sisu](warehouse-power-bi-content.md)
 - [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)  
 
-### <a name="accessing-the-content"></a>Juurdepääs sisule
-See Power BI sisu on saadaval Microsoft Dynamicsi teenuse Lifecycle Services (LCS) ühiste vahendite teegis. Lisateavet sisu allalaadimise ja selle ühendamise kohta teie andmetega vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](power-bi-content-microsoft-partners.md). Demo vaatamiseks, mis näitab, kuidas Power BI sisu juurutada, vt [Power BI sisu Microsoftilt ja teie partneritelt teenuses Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI sisu Microsoft Dynamics AX-i jaoks
 Kui kasutate rakendust Microsoft Dynamics AX 7.0 või Microsoft Dynamics AX 7.0.1, siis on saadaval järgmine Power BI sisu.
 
@@ -91,15 +78,5 @@ Kui kasutate rakendust Microsoft Dynamics AX 7.0 või Microsoft Dynamics AX 7.0.
 - [Finantsjõudluse Power BI sisu](financial-performance-power-bi-content-pack.md)
 - [Jaemüügikanali näitajate Power BI sisu](retail-channel-performance-dashboard-power-bi-data.md) 
 
-### <a name="accessing-the-content"></a>Juurdepääs sisule
-See Power BI sisu on saadaval veebisaidil PowerBI.com.
 
-1. Sisselogimine lehele [PowerBI.com](https://www.powerbi.com/).
-2. Klõpsake nuppu **Too andmed**.
-3. Klõpsake väljal **Teenused** käsku **Too**.
-4. Valige soovitud sisupakett ja klõpsake seejärel käsku **Too**.
-5. Sisestage oma Dynamics AX-i keskkonna URL. URL peab olema vormingus **https://&lt;YourAOSTenant&gt;.cloudax.dynamics.com**. Klõpsake nuppu **Edasi**.
-6. Valige autentimisviisiks **oAuth2** ja klõpsake siis nuppu **Logi sisse**.
-7. Kui seda küsitakse, sisestage Microsoft Office 365 konto, millel on õigus teie Microsoft Dynamics AX-i keskkonda pääseda.
-8. Pärast sisselogimist algab importimisprotsess automaatselt. Kui importimine on valmis, kuvatakse sisupaketis sisalduvad aruanded navigeerimispaanil. Valige aruanne oma imporditud andmete vaatamiseks.
 
