@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Selles näites peab FRSI olema USSI juriidilises isikus klient ja USSI peab olem
 
 1.  Seadistage FRSI kliendina USSI juriidilises isikus ja USSI hankijana FRSI juriidilises isikus. Selle ülesande jaoks vajalike toimingute puhul on kolm sisestuspunkti.
     | Etapp | Sisestuspunkt                                                                       | Kirjeldus   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | Klõpsake USSI all valikuid **Müügireskontro** &gt; **Kliendid** &gt; **Kõik kliendid**. | Looge FRSI-le uus kliendikirje ja valige kliendigrupp.                                                                                                                                                                                                                           |
-    | B    | Klõpsake FRSI all valikuid **Ostureskontro** &gt; **Hankijad** &gt; **Kõik hankijad**.        | Looge USSI-le uus hankija kirje ja valige hankijagrupp.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A    | Klõpsake USSI all valikuid **Müügireskontro** &gt; **Kliendid** &gt; **Kõik kliendid**. | Looge FRSI-le uus kliendikirje ja valige kliendigrupp.                                                                                  |
+    | B    | Klõpsake FRSI all valikuid **Ostureskontro** &gt; **Hankijad** &gt; **Kõik hankijad**.        | Looge USSI-le uus hankija kirje ja valige hankijagrupp.                                                                                    |
     | C    | Avage FRSI all äsja loodud hankija kirje.                            | Klõpsake tegumiriba vahekaardil **Üldine** grupis **Seadistus** valikut **Kontsernisisene**. Määrake lehe **Kontsernisisene** vahekaardil **Kaubandussuhe** liuguri **Aktiivne** väärtuseks **Jah**. Valige väljalt **Kliendi ettevõte** kliendi kirje, mille lõite etapis A. |
 
 2.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Seadistus** &gt; **Projektihalduse ja raamatupidamise parameetrid** ja seejärel vahekaarti **Kontsernisisene**. See, kuidas parameetrid seadistate, sõltub sellest, kas olete laenav või laenu väljastav juriidiline isik.
