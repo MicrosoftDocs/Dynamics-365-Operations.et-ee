@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
-ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
+ms.sourcegitcommit: 17a7d9c40d07524378a671397fed566b9bd3af6b
+ms.openlocfilehash: af284d31714df7fe87d49b311c951f9df818fa22
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   <span data-ttu-id="a0186-113">Tasutud arved on need, mis on rakenduses Finance and Operations täielikult tasutud.</span><span class="sxs-lookup"><span data-stu-id="a0186-113">Paid invoices are those that have been fully paid in Finance and Operations.</span></span>
 
 <span data-ttu-id="a0186-114">Paani klõpsamine avab lehest **Arvete loend** filtreeritud vaate.</span><span class="sxs-lookup"><span data-stu-id="a0186-114">Clicking on a tile will open a filtered view of the **Invoices list** page.</span></span>
+
 ### <a name="tabular-lists"></a><span data-ttu-id="a0186-115">Tabelloendid</span><span class="sxs-lookup"><span data-stu-id="a0186-115">Tabular lists</span></span>
 
 <span data-ttu-id="a0186-116">Jaotises **Tabelloendid** on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid.</span><span class="sxs-lookup"><span data-stu-id="a0186-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="a0186-117">Mustandi olekus saab arve edastada töövoosse või kustutada.</span><span class="sxs-lookup"><span data-stu-id="a0186-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="a0186-118">Viimane tabelloend on võimalus arvete leidmiseks.</span><span class="sxs-lookup"><span data-stu-id="a0186-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="a0186-119">Saate otsides filtreerida, et võimaldada kiiremaid otsinguid.</span><span class="sxs-lookup"><span data-stu-id="a0186-119">You can filter as you search, to allow for faster searches.</span></span>
-<span data-ttu-id="a0186-120">Kõikide hankijaarvete loendileht</span><span class="sxs-lookup"><span data-stu-id="a0186-120">All vendor invoices list page</span></span>
+
+<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="a0186-120">Kõikide hankijaarvete loendileht</span><span class="sxs-lookup"><span data-stu-id="a0186-120">All vendor invoices list page</span></span>
 -----------------------------
 
 <span data-ttu-id="a0186-121">Saate vaadata kõiki sisestatud ja sisestamata hankijaarveid loendilehel **Hankija koostöö arved**.</span><span class="sxs-lookup"><span data-stu-id="a0186-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="a0186-122">Arvete makseoleku vaatamiseks saate kasutada seda loendilehte.</span><span class="sxs-lookup"><span data-stu-id="a0186-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="a0186-123">Makseolekud hõlmavad olekuid Sisestamata, Tasumata, Osaliselt makstud ja Täielikult tasutud.</span><span class="sxs-lookup"><span data-stu-id="a0186-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>
