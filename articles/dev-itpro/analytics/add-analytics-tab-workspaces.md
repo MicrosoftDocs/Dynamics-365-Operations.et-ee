@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Seda funktsiooni toetatakse rakenduses Dynamics 365 for Finance and Operations (versioon 7.2 ja uuemad).
 
-# <a name="introduction"></a>Sissejuhatus
+## <a name="introduction"></a>Sissejuhatus
 See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne tööruumi vahekaardile **Analüütika**. Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.
 
-# <a name="prerequisites"></a>Eeltingimused
+## <a name="prerequisites"></a>Eeltingimused
 + Juurdepääs arendaja keskkonnale, mis käitab platvormivärskendust 8 või uuemat.
 + Microsoft Power BI töölaua abil loodud analüütiline aruanne (pbix-fail), millel on üksuse kaupluse andmebaasist hangitud andmemudel.
 
-# <a name="overview"></a>Ülevaade
+## <a name="overview"></a>Ülevaade
 Olenemata sellest, kas laiendate olemasolevat rakenduse tööruumi või võtate kasutusele omaenda uue tööruumi, saate kaasatud analüütiliste vaadete abil kuvada oma äriandmetest selgeid ja interaktiivseid vaateid. Analüütilise tööruumi vahekaardi lisamise protsess koosneb neljast etapist.
 
 1. Dynamicsi 365 ressursina pbix-faili lisamine.
@@ -48,7 +48,7 @@ Olenemata sellest, kas laiendate olemasolevat rakenduse tööruumi või võtate 
 > [!NOTE]
 > Lisateavet analüütiliste aruannete loomise kohta vaadake jaotisest [Power BI töölauaga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). See leht on suurepärane allikas ülevaadete jaoks, mis aitavad teil luua mõjusaid analüütilise aruandluse lahendusi.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Ressursina pbix-faili lisamine
+## <a name="add-a-pbix-file-as-a-resource"></a>Ressursina pbix-faili lisamine
 Enne alustamist peate looma või hankima Power BI aruande, mille soovite tööruumi kaasata. Lisateavet analüütiliste aruannete loomise kohta vaadake jaotisest [Power BI töölauaga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.
@@ -66,7 +66,7 @@ Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.
   
 Nüüd kui olete lisanud pbix-faili Dynamics 365 ressursina, saate kaasata aruanded tööruumidesse ja lisada ka otselingid, kasutades menüü-üksusi.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Vahekaardi juhtelemendi lisamine rakenduse tööruumi
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Vahekaardi juhtelemendi lisamine rakenduse tööruumi
 Selles näites laiendame mudeli Sõidukipargi haldus tööruumi **Reserveerimise haldus**, lisades vahekaardi **Analüütika** vormi **FMClerkWorkspace** määratlusele.
  
 Järgmisel joonisel on näha, milline näeb vorm **FMClerkWorkspace** välja Microsoft Visual Studio kujundajas.
@@ -105,7 +105,7 @@ Nüüd, kui olete tööruumi aruande kaasamiseks kasutatavad vormi juhtelemendid
  
 Nüüd olete rakenduse vormimääratluse laiendamise ülesande täitnud. Lisateavet kohandamiste tegemiseks laienduste kasutamise kohta vaadake jaotisest [Kohandamine: ülekate ja laiendused](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X++ äriloogika lisamine vaaturi juhtelemendi kaasamiseks
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X++ äriloogika lisamine vaaturi juhtelemendi kaasamiseks
 Tööruumi **Reserveerimise haldus** kaasatud aruandevaaturi juhtelementi lähtestava äriloogika lisamiseks toimige järgmiselt.
 
 1. Avage kujunduse määratluse laiendamiseks vormikujundaja **FMClerkWorkspace**.
@@ -151,12 +151,12 @@ Nüüd olete kaasatud aruandevaaturi juhtelementi lähtestava äriloogika lisami
 > [!NOTE]
 > Pääsete juurde olemasolevale toiminguvaatele, kasutades lehe pealkirja all olevaid tööruumi vahekaarte.
 
-# <a name="reference"></a>Viide
+## <a name="reference"></a>Viide
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>Meetod PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>Meetod PBIReportHelper.initializeReportControl
 See jaotis annab teavet abilise klassi kohta, mida kasutatakse Power BI aruande kaasamiseks (pbix-ressurss) vormirühma juhtelementi.
 
-### <a name="syntax"></a>Süntaks
+#### <a name="syntax"></a>Süntaks
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Parameetrid
+#### <a name="parameters"></a>Parameetrid
 
 | Nimi | Kirjeldus |
 |---|---|

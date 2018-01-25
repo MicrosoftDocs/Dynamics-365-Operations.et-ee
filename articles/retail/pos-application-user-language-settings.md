@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Selles teemas kirjeldatakse Retail Modern POS-i (MPOS) ja pilve kassa keelesätete muutmist.
 
-<a name="overview"></a>Ülevaade
-========
-
+## <a name="overview"></a>Ülevaade
 Retail Modern POS (MPOS) ja pilve kassa toetavad keskkondi, kus kaupluse ja kasutaja keelesätted ja tõlked võivad erineda. Näiteks asub kauplus piirkonnas, kus enamik kliente kasutab inglise keelt, kuid mõned töötajad eelistavad prantsuskeelse tõlkega rakendust kasutada.
 
 ## <a name="data-language"></a>Andmete keel

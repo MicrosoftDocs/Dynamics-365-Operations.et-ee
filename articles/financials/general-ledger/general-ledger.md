@@ -43,7 +43,7 @@ Saate eraldada või jaotada rahalisi summasid ühele või mitmele kontole või k
 
 [![Äriprotsess](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>Käibemaks
+## <a name="sales-tax"></a>Käibemaks
 Kõik ettevõtted koguvad ja maksavad makse erinevatele maksuametitele. Reeglid ja määrad erinevad riikide/regioonide, maakondade, valdade ja linnade lõikes.
 Lisaks tuleb reegleid regulaarselt uuendada, kui maksuasutused oma nõudeid muudavad. Käibemaksukoodid sisaldavad baasteavet maksuametile kogutavate ja tasutavate maksude suuruse kohta. Käibemaksukoodide häälestamise saate määratleda summad või protsendid, mis tuleb koguda. Samuti saate määratleda mitmesugused viisid, kuidas summad või protsendid rakendatakse kannete summadele. Selle jaotise teemad annavad teavet selle kohta, kuidas seadistada käibemaksukoode maksuameti nõutavatele makseviisidele ja maksumääradele.
 
@@ -52,13 +52,13 @@ Lisaks tuleb reegleid regulaarselt uuendada, kui maksuasutused oma nõudeid muud
  - [Käibemaksu maksed ja ümardamisreeglid](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Lisaressursid
+## <a name="additional-resources"></a>Lisaressursid
 
-#### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
+### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
 
 Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
 
-#### <a name="blogs"></a>Ajaveebid
+### <a name="blogs"></a>Ajaveebid
 
 Ostureskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
@@ -66,10 +66,10 @@ Palju postitusi pearaamatu kohta leiate ka [Microsoft Dynamics AX-i tootemeeskon
 
 [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.
 
-#### <a name="task-guides"></a>Tegevuse juhised
+### <a name="task-guides"></a>Tegevuse juhised
 Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
 
-#### <a name="videos"></a>Videod
+### <a name="videos"></a>Videod
 
 Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

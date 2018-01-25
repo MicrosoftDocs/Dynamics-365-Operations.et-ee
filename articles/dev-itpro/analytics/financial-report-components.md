@@ -112,7 +112,7 @@ Koosteüksuse avamisel pääsevad teised kasutajad selle koosteüksuse juurde ki
 3.  Valige koosteüksus ja seejärel klõpsake suvandit **Tühista väljaregistreerimine**.
 4.  Koosteüksuse sisseregistreerimiseks klõpsake **Jah**.
 
-# <a name="see-also"></a>Vt ka
+## <a name="see-also"></a>Vt ka
 
 [Finantsaruandlus](financial-reporting-intro.md)
 

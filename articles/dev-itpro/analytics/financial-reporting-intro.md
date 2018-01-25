@@ -98,7 +98,7 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 </tbody>
 </table>
 
-#<a name="see-also"></a>Vt ka
+## <a name="see-also"></a>Vt ka
 [Finantsaruande loomine](generate-financial-report.md)
 
 

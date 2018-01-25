@@ -31,14 +31,14 @@ ms.lasthandoff: 12/18/2017
 
 Selles teemas kirjeldatakse Microsoft Power BI sisu **Tegelik võrreldes eelarvega**. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks. 
 
-# <a name="overview"></a>Ülevaade
+## <a name="overview"></a>Ülevaade
 
 Power BI sisu **Tegelik võrreldes eelarvega** on koostatud inimestele, kes vastutavad oma organisatsioonist tegelike tulemuste jälgimise eest eelarvega võrreldes. Power BI sisu **Tegelik võrreldes eelarvega** toob nähtavale eelarvehälbed. Saate analüüsida jooksva aasta eelarvet kontokategooria, eelarvekoodi, põhikonto, põhikonto kirjelduste või rahandusperioodi järgi, et saada parem ülevaade hälvete põhjusest. 
 
-# <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
+## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 Aruanded Power BI sisust **Tegelik võrreldes eelarvega** kuvatakse tööruumides **Pearaamatu eelarved ja prognoosid** ja **CFO**.
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
 Järgmises tabelis on üksikasjad Power BI sisu **Tegelik võrreldes eelarvega** igal aruandelehel leiduvate mõõdikute kohta.
 
 | Aruanne                      | Mõõdikud |
@@ -50,7 +50,7 @@ Järgmises tabelis on üksikasjad Power BI sisu **Tegelik võrreldes eelarvega**
 | Netotulu                  | <ul><li>Selle aasta netotulu</li><li>Netotulu eesmärk eelarve alusel </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
+## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
 | Üksus                    | Sisu |
 |---------------------------|----------|

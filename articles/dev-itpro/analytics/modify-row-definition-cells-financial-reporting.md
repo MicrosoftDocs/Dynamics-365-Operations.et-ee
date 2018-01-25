@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Rea koodi määramine readefinitsioonis
+## <a name="specify-a-row-code-in-a-row-definition"></a>Rea koodi määramine readefinitsioonis
 
 Readefinitsioonides määratlevad lahtri **Rea kood** numbrid või sildid readefinitsiooni igat rida. Andmetele viitamiseks arvutustes ja kogusummades saate määrata rea koodi.
 
@@ -506,8 +506,7 @@ Dimensiooniväärtuste kogum on dimensiooniväärtuste nimega grupp. Dimensiooni
 4.  Valige kustutatav kogum ja klõpsake seejärel käsku **Kustuta**. Dimensiooniväärtuste kogumi jäädavalt kustutamiseks klõpsake suvandit **Jah**.
 
 
-<a name="see-also"></a>Vt ka
---------
+## <a name="see-also"></a>Vt ka
 
 [Finantsaruandlus](financial-reporting-intro.md)
 

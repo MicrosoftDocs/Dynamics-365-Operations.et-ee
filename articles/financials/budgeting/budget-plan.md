@@ -53,10 +53,9 @@ Julia kasutab eelarve ettevalmistamiseks järgmist Exceli malli.
 
 [![Exceli mall](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>1. harjutus: konfiguratsioon
-=========================
+## <a name="exercise-1-configuration"></a>1. harjutus: konfiguratsioon
 
-## <a name="task-1-create-organizational-hierarchy"></a>**1. ülesanne: organisatsioonihierarhia loomine**
+### <a name="task-1-create-organizational-hierarchy"></a>**1. ülesanne: organisatsioonihierarhia loomine**
 Kuna kogu eelarveprotsess toimub finantsosakonnas, peab Julia seega looma väga lihtsa organisatsiooni hierarhia – mis koosneb ainult finantsosakonnast. 1.1. Navigeerige jaotisse Organisatsioonihierarhiad (Organisatsiooni haldus &gt; Organisatsioonid &gt; Organisatsioonihierarhiad) ja klõpsake nuppu Uus
 
 ![Organisatsioonihierarhia](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Kuna kogu eelarveprotsess toimub finantsosakonnas, peab Julia seega looma väga 
 
 [![Jõustumiskuupäev](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>2. ülesanne: kasutaja turvalisuse konfigureerimine
+### <a name="task-2-configure-user-security"></a>2. ülesanne: kasutaja turvalisuse konfigureerimine
 Eelarve plaanimine kasutab eelarveplaanide andmetele juurdepääsu konfigureerimiseks erilisi turbepoliitikaid. Julial peab olema juurdepääs Finantside eelarveplaanidele. 
 
 2.1. Aktiveerige DEMF-i juriidilise isiku kontekst. 
@@ -109,7 +108,7 @@ Eelarve plaanimine kasutab eelarveplaanide andmetele juurdepääsu konfigureerim
 
 [![Anna juurdepääs](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>3. ülesanne: stsenaariumide loomine
+### <a name="task-3-create-scenarios"></a>3. ülesanne: stsenaariumide loomine
 3.1. Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon. Märkige lehel Stsenaariumid need stsenaariumid, mida hakata kasutama selles ülesandes edaspidi: Eelmine aasta tegelikud summad ja Eelarves plaanitud. 
 
 *Märkus. Soovi korral saate selle harjutuse puhul luua uued stsenaariumid ja kasutada hoopis neid.* 
@@ -118,7 +117,7 @@ Eelarve plaanimine kasutab eelarveplaanide andmetele juurdepääsu konfigureerim
 
 *Märkus. Kuna Julia ei kasuta eelarve ettevalmistamiseks ametlikku heakskiitmisprotsessi, jäetakse selles ülesandes vahele suvandite Töövood, Etapid ja Töövooetapid seadistus ja kasutatakse töövoo Automaatne heakskiitmine olemasolevat seadistust. Vt selle töövoo konfiguratsiooni lisa.*
 
-## <a name="task-4-create-budget-plan-columns"></a>4. ülesanne: eelarveplaani veergude loomine
+### <a name="task-4-create-budget-plan-columns"></a>4. ülesanne: eelarveplaani veergude loomine
 Eelarveplaani veerud on kas valuuta- või kogusepõhised veerud, mida saab kasutada eelarveplaani dokumendipaigutuses. Käesolevas näites tuleb luua veerg eelmise aasta tegelike summade puhul ja 12 veergu, mis tähistavad eelarveaasta iga kuud. Veerge saab luua kas lihtsalt nuppu Lisa klõpsates ja väärtusi täites või andmeüksuse abil. Selles ülesandes kasutatakse väärtuste sisestamiseks suvandit Andmeüksus. 
 
 4.1. Avage jaotises Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon leht Veerud. Klõpsake vormi üleval paremas nurgas Office’i nuppu ja valige suvand Veerud (filtrimata) 
@@ -151,7 +150,7 @@ Eelarveplaani veerud on kas valuuta- või kogusepõhised veerud, mida saab kasut
 
 [![Värskendamine](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>5. ülesanne: eelarveplaani dokumendipaigutuste ja mallide loomine
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>5. ülesanne: eelarveplaani dokumendipaigutuste ja mallide loomine
 Paigutus määratleb, kuidas eelarveplaani dokumendi ridade ruudustik välja näeb, kui kasutaja eelarveplaani dokumendi avab. Eelarveplaani dokumendi paigutust on võimalik vahetada ka samade andmete nägemiseks eri nurkade all. Kohe kui Julia saab meie eelarveplaani dokumendis kasutatavad veerud määratletud, peab ta looma eelarveplaani dokumendipaigutuse, mis sarnaneb Exceli tabelile, mida ta kasutab eelarveandmete loomiseks (vt selle ülesande jaotist Stsenaariumi ülevaade) 
 
 5.1. Avage jaotises Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon leht Paigutused. Looge igakuise eelarvekirje uus paigutus järgmiselt.
@@ -171,7 +170,7 @@ Eelarveplaani paigutuse määratluse põhjal saame luua Exceli malli, mida kasut
 
 5.3. &lt; Valikuline etapp &gt; Muutke Exceli malli, et muuta see kasutajasõbralikumaks \– lisage koguvalemeid, päisevälju, vorminguid jne. Salvestage muudatused ja laadige fail eelarveplaani paigutusse, klõpsates suvandeid Paigutus &gt; Laadi üles [![Üleslaadimine](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>6. ülesanne: eelarve plaanimise protsessi loomine
+### <a name="task-6-create-a-budget-planning-process"></a>6. ülesanne: eelarve plaanimise protsessi loomine
 Julia peab looma ja aktiveerima uue eelarve plaanimise protsessi, mis ühendab kogu ülaltoodud seadistust, et alustada eelarveplaanide sisestamist. Eelarve plaanimise protsess määratleb, milliseid eelarveorganisatsioone, millist töövoogu, paigutusi ja malle eelarveplaanide loomiseks kasutatakse. 
 
 6.1. Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise protsess ja looge uus kirje.
@@ -192,10 +191,9 @@ Julia peab looma ja aktiveerima uue eelarve plaanimise protsessi, mis ühendab k
 
 [![Aktiveeri](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>2. harjutus: protsessi simulatsioon
-==============================
+## <a name="exercise-2-process-simulation"></a>2. harjutus: protsessi simulatsioon
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>7. ülesanne: eelarveplaani algandmete loomine pearaamatust
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>7. ülesanne: eelarveplaani algandmete loomine pearaamatust
 7.1. Navigeerige jaotisse Eelarvestus &gt; Perioodiline &gt; Eelarveplaani loomine pearaamatust. Täitke perioodilise protsessi parameetrid ja klõpsake nuppu Loo. 
 
 [![Loo](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Julia peab looma ja aktiveerima uue eelarve plaanimise protsessi, mis ühendab k
 
 [![Eelarveplaani kuva](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>8. ülesanne: jooksva aasta eelarve loomine eelmise aasta tegelike summade alusel
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>8. ülesanne: jooksva aasta eelarve loomine eelmise aasta tegelike summade alusel
 Eraldusmeetodeid saab eelarveplaanis kasutada eelarveplaanide teabe hõlpsaks kopeerimiseks ühest stsenaariumist teise / nende jaotamiseks perioodides / dimensioonidele eraldamiseks. Kasutame eraldamisi jooksva aasta eelarve loomiseks eelmise aasta tegelikest summadest. 
 
 8.1. Valige eelarveplaani dokumendi ruudustikus kõik read ja klõpsake nuppu Eralda eelarve 
@@ -223,7 +221,7 @@ Eelmise aasta tegelikud summad kopeeritakse praeguse aasta eelarvesse ja eraldat
 
 [![Müügikõver](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>9. ülesanne: eelarveplaani dokumendi korrigeerimine Exceliga ja dokumendi lõpetamine
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>9. ülesanne: eelarveplaani dokumendi korrigeerimine Exceliga ja dokumendi lõpetamine
 9.1. Dokumendi sisu avamiseks Excelis klõpsake nuppu Tööleht
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ Eelmise aasta tegelikud summad kopeeritakse praeguse aasta eelarvesse ja eraldat
 
 Kui töövoog on lõpule jõudnud, muutub eelarveplaani dokumendi etapiks Heaks kiidetud. [![Heaks kiidetud](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>Lisa
-========
+## <a name="appendix"></a>Lisa
 
 ### <a name="auto-approve-workflow-configuration"></a>Automaatse kinnitamise töövoo konfiguratsioon
 
