@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 09266e28c0fec4200e1644049e4a7f2880ebdcc4
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b28d3abb31fe2b54bd207b3dbdd26b26edb31695
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -53,10 +53,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-128">[![Exceli mall](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span><span class="sxs-lookup"><span data-stu-id="90668-128">[![Excel template](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span></span>
 
-<a name="exercise-1-configuration"></a><span data-ttu-id="90668-129">1. harjutus: konfiguratsioon</span><span class="sxs-lookup"><span data-stu-id="90668-129">Exercise 1: Configuration</span></span>
-=========================
+## <a name="exercise-1-configuration"></a><span data-ttu-id="90668-129">1. harjutus: konfiguratsioon</span><span class="sxs-lookup"><span data-stu-id="90668-129">Exercise 1: Configuration</span></span>
 
-## <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="90668-130">**1. ülesanne: organisatsioonihierarhia loomine**</span><span class="sxs-lookup"><span data-stu-id="90668-130">**Task 1: Create organizational hierarchy**</span></span>
+### <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="90668-130">**1. ülesanne: organisatsioonihierarhia loomine**</span><span class="sxs-lookup"><span data-stu-id="90668-130">**Task 1: Create organizational hierarchy**</span></span>
 <span data-ttu-id="90668-131">Kuna kogu eelarveprotsess toimub finantsosakonnas, peab Julia seega looma väga lihtsa organisatsiooni hierarhia – mis koosneb ainult finantsosakonnast.</span><span class="sxs-lookup"><span data-stu-id="90668-131">As all the budgeting process happens in the Finance department, therefore Julia needs to create a very simple organizational hierarchy – consisting of Finance department only.</span></span> <span data-ttu-id="90668-132">1.1.</span><span class="sxs-lookup"><span data-stu-id="90668-132">1.1.</span></span> <span data-ttu-id="90668-133">Navigeerige jaotisse Organisatsioonihierarhiad (Organisatsiooni haldus &gt; Organisatsioonid &gt; Organisatsioonihierarhiad) ja klõpsake nuppu Uus</span><span class="sxs-lookup"><span data-stu-id="90668-133">Navigate to Organization hierarchies (Organization administration &gt; Organizations &gt; Organization hierarchies) and click New button</span></span>
 
 ![Organisatsioonihierarhia](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-155">[![Jõustumiskuupäev](./media/screenshot9.png)](./media/screenshot9.png)</span><span class="sxs-lookup"><span data-stu-id="90668-155">[![Effective date](./media/screenshot9.png)](./media/screenshot9.png)</span></span>
 
-## <a name="task-2-configure-user-security"></a><span data-ttu-id="90668-156">2. ülesanne: kasutaja turvalisuse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="90668-156">Task 2: Configure user security</span></span>
+### <a name="task-2-configure-user-security"></a><span data-ttu-id="90668-156">2. ülesanne: kasutaja turvalisuse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="90668-156">Task 2: Configure user security</span></span>
 <span data-ttu-id="90668-157">Eelarve plaanimine kasutab eelarveplaanide andmetele juurdepääsu konfigureerimiseks erilisi turbepoliitikaid.</span><span class="sxs-lookup"><span data-stu-id="90668-157">Budget planning uses special security policies to configure access to budget plans data.</span></span> <span data-ttu-id="90668-158">Julial peab olema juurdepääs Finantside eelarveplaanidele.</span><span class="sxs-lookup"><span data-stu-id="90668-158">Julia needs to give access to Finance budget plans for herself.</span></span> 
 
 <span data-ttu-id="90668-159">2.1.</span><span class="sxs-lookup"><span data-stu-id="90668-159">2.1.</span></span> <span data-ttu-id="90668-160">Aktiveerige DEMF-i juriidilise isiku kontekst.</span><span class="sxs-lookup"><span data-stu-id="90668-160">Switch to DEMF legal entity context.</span></span> 
@@ -109,7 +108,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-178">[![Anna juurdepääs](./media/screenshot14.png)](./media/screenshot14.png)</span><span class="sxs-lookup"><span data-stu-id="90668-178">[![Grant access](./media/screenshot14.png)](./media/screenshot14.png)</span></span>
 
-## <a name="task-3-create-scenarios"></a><span data-ttu-id="90668-179">3. ülesanne: stsenaariumide loomine</span><span class="sxs-lookup"><span data-stu-id="90668-179">Task 3: Create scenarios</span></span>
+### <a name="task-3-create-scenarios"></a><span data-ttu-id="90668-179">3. ülesanne: stsenaariumide loomine</span><span class="sxs-lookup"><span data-stu-id="90668-179">Task 3: Create scenarios</span></span>
 <span data-ttu-id="90668-180">3.1.</span><span class="sxs-lookup"><span data-stu-id="90668-180">3.1.</span></span> <span data-ttu-id="90668-181">Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon.</span><span class="sxs-lookup"><span data-stu-id="90668-181">Navigate to Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="90668-182">Märkige lehel Stsenaariumid need stsenaariumid, mida hakata kasutama selles ülesandes edaspidi: Eelmine aasta tegelikud summad ja Eelarves plaanitud.</span><span class="sxs-lookup"><span data-stu-id="90668-182">In the Scenarios page note the scenarios we are going to use further in this lab: Previous year actuals and Budgeted.</span></span> 
 
 <span data-ttu-id="90668-183">*Märkus. Soovi korral saate selle harjutuse puhul luua uued stsenaariumid ja kasutada hoopis neid.*</span><span class="sxs-lookup"><span data-stu-id="90668-183">*Note: You can create new scenarios for this exercise if desired and use those instead.*</span></span> 
@@ -118,7 +117,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-185">*Märkus. Kuna Julia ei kasuta eelarve ettevalmistamiseks ametlikku heakskiitmisprotsessi, jäetakse selles ülesandes vahele suvandite Töövood, Etapid ja Töövooetapid seadistus ja kasutatakse töövoo Automaatne heakskiitmine olemasolevat seadistust. Vt selle töövoo konfiguratsiooni lisa.*</span><span class="sxs-lookup"><span data-stu-id="90668-185">*Note: as Julia is not using formal approval process for budget preparation, we will skip Workflows, Stages and Workflow stages setup in this lab and will use existing setup for Auto – approve workflow. See appendix for this workflow configuration.*</span></span>
 
-## <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="90668-186">4. ülesanne: eelarveplaani veergude loomine</span><span class="sxs-lookup"><span data-stu-id="90668-186">Task 4: Create budget plan columns</span></span>
+### <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="90668-186">4. ülesanne: eelarveplaani veergude loomine</span><span class="sxs-lookup"><span data-stu-id="90668-186">Task 4: Create budget plan columns</span></span>
 <span data-ttu-id="90668-187">Eelarveplaani veerud on kas valuuta- või kogusepõhised veerud, mida saab kasutada eelarveplaani dokumendipaigutuses.</span><span class="sxs-lookup"><span data-stu-id="90668-187">Budget plan columns are either Monetary or quantity based columns that can be used in budget plan document layout.</span></span> <span data-ttu-id="90668-188">Käesolevas näites tuleb luua veerg eelmise aasta tegelike summade puhul ja 12 veergu, mis tähistavad eelarveaasta iga kuud.</span><span class="sxs-lookup"><span data-stu-id="90668-188">In our example we need to create a column for Previous year actuals and 12 columns to represent each month in a budgeted year.</span></span> <span data-ttu-id="90668-189">Veerge saab luua kas lihtsalt nuppu Lisa klõpsates ja väärtusi täites või andmeüksuse abil.</span><span class="sxs-lookup"><span data-stu-id="90668-189">Columns can be created either by simply clicking Add button and filling in the values, or with a help of Data entity.</span></span> <span data-ttu-id="90668-190">Selles ülesandes kasutatakse väärtuste sisestamiseks suvandit Andmeüksus.</span><span class="sxs-lookup"><span data-stu-id="90668-190">In this lab we will use Data entity to fill in the values.</span></span> 
 
 <span data-ttu-id="90668-191">4.1.</span><span class="sxs-lookup"><span data-stu-id="90668-191">4.1.</span></span> <span data-ttu-id="90668-192">Avage jaotises Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon leht Veerud.</span><span class="sxs-lookup"><span data-stu-id="90668-192">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Columns page.</span></span> <span data-ttu-id="90668-193">Klõpsake vormi üleval paremas nurgas Office’i nuppu ja valige suvand Veerud (filtrimata)</span><span class="sxs-lookup"><span data-stu-id="90668-193">Click Office button on the top right corner of the form and pick Columns (unfiltered)</span></span> 
@@ -151,7 +150,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-219">[![Värskendamine](./media/screenshot23.png)](./media/screenshot23.png)</span><span class="sxs-lookup"><span data-stu-id="90668-219">[![Refresh](./media/screenshot23.png)](./media/screenshot23.png)</span></span>
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="90668-220">5. ülesanne: eelarveplaani dokumendipaigutuste ja mallide loomine</span><span class="sxs-lookup"><span data-stu-id="90668-220">Task 5: Create budget plan document layouts and templates</span></span>
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="90668-220">5. ülesanne: eelarveplaani dokumendipaigutuste ja mallide loomine</span><span class="sxs-lookup"><span data-stu-id="90668-220">Task 5: Create budget plan document layouts and templates</span></span>
 <span data-ttu-id="90668-221">Paigutus määratleb, kuidas eelarveplaani dokumendi ridade ruudustik välja näeb, kui kasutaja eelarveplaani dokumendi avab.</span><span class="sxs-lookup"><span data-stu-id="90668-221">Layout defines how budget plan document lines grid is going to look like when user opens budget plan document.</span></span> <span data-ttu-id="90668-222">Eelarveplaani dokumendi paigutust on võimalik vahetada ka samade andmete nägemiseks eri nurkade all.</span><span class="sxs-lookup"><span data-stu-id="90668-222">It is also possible to switch the layout for budget plan document to see the same data in different angles.</span></span> <span data-ttu-id="90668-223">Kohe kui Julia saab meie eelarveplaani dokumendis kasutatavad veerud määratletud, peab ta looma eelarveplaani dokumendipaigutuse, mis sarnaneb Exceli tabelile, mida ta kasutab eelarveandmete loomiseks (vt selle ülesande jaotist Stsenaariumi ülevaade)</span><span class="sxs-lookup"><span data-stu-id="90668-223">Now, as she’s got columns defined to be used with our budget plan document, Julia needs to create a budget plan document layout, that would look similar to the Excel table she uses to create budget data (see section Scenario overview in this lab)</span></span> 
 
 <span data-ttu-id="90668-224">5.1.</span><span class="sxs-lookup"><span data-stu-id="90668-224">5.1.</span></span> <span data-ttu-id="90668-225">Avage jaotises Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon leht Paigutused.</span><span class="sxs-lookup"><span data-stu-id="90668-225">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Layouts page.</span></span> <span data-ttu-id="90668-226">Looge igakuise eelarvekirje uus paigutus järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="90668-226">Create a new layout for Monthly budget entry:</span></span>
@@ -172,7 +171,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-240">5.3.</span><span class="sxs-lookup"><span data-stu-id="90668-240">5.3.</span></span> <span data-ttu-id="90668-241">&lt; Valikuline etapp &gt; Muutke Exceli malli, et muuta see kasutajasõbralikumaks \– lisage koguvalemeid, päisevälju, vorminguid jne. Salvestage muudatused ja laadige fail eelarveplaani paigutusse, klõpsates suvandeid Paigutus &gt; Laadi üles [![Üleslaadimine](./media/screenshot26.png)](./media/screenshot26.png)</span><span class="sxs-lookup"><span data-stu-id="90668-241">&lt; Optional step&gt; Modify Excel template to make it look more user friendly – add total formulas, header fields, formatting, etc. Save the changes and upload the file to budget plan layout by clicking Layout &gt; Upload [![Upload](./media/screenshot26.png)](./media/screenshot26.png)</span></span>
 
-## <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="90668-242">6. ülesanne: eelarve plaanimise protsessi loomine</span><span class="sxs-lookup"><span data-stu-id="90668-242">Task 6: Create a budget planning process</span></span>
+### <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="90668-242">6. ülesanne: eelarve plaanimise protsessi loomine</span><span class="sxs-lookup"><span data-stu-id="90668-242">Task 6: Create a budget planning process</span></span>
 <span data-ttu-id="90668-243">Julia peab looma ja aktiveerima uue eelarve plaanimise protsessi, mis ühendab kogu ülaltoodud seadistust, et alustada eelarveplaanide sisestamist.</span><span class="sxs-lookup"><span data-stu-id="90668-243">Julia needs to create and activate a new budget planning process combining all the setup above to start entering budget plans.</span></span> <span data-ttu-id="90668-244">Eelarve plaanimise protsess määratleb, milliseid eelarveorganisatsioone, millist töövoogu, paigutusi ja malle eelarveplaanide loomiseks kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="90668-244">Budget planning process defines what budgeting organizations, workflow, layouts and templates will be used for creating budget plans.</span></span> 
 
 <span data-ttu-id="90668-245">6.1.</span><span class="sxs-lookup"><span data-stu-id="90668-245">6.1.</span></span> <span data-ttu-id="90668-246">Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise protsess ja looge uus kirje.</span><span class="sxs-lookup"><span data-stu-id="90668-246">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning process and create a new record.</span></span>
@@ -193,10 +192,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-258">[![Aktiveeri](./media/screenshot28.png)](./media/screenshot28.png)</span><span class="sxs-lookup"><span data-stu-id="90668-258">[![Activate](./media/screenshot28.png)](./media/screenshot28.png)</span></span>
 
-<a name="exercise-2-process-simulation"></a><span data-ttu-id="90668-259">2. harjutus: protsessi simulatsioon</span><span class="sxs-lookup"><span data-stu-id="90668-259">Exercise 2: Process simulation</span></span>
-==============================
+## <a name="exercise-2-process-simulation"></a><span data-ttu-id="90668-259">2. harjutus: protsessi simulatsioon</span><span class="sxs-lookup"><span data-stu-id="90668-259">Exercise 2: Process simulation</span></span>
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="90668-260">7. ülesanne: eelarveplaani algandmete loomine pearaamatust</span><span class="sxs-lookup"><span data-stu-id="90668-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="90668-260">7. ülesanne: eelarveplaani algandmete loomine pearaamatust</span><span class="sxs-lookup"><span data-stu-id="90668-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
 <span data-ttu-id="90668-261">7.1.</span><span class="sxs-lookup"><span data-stu-id="90668-261">7.1.</span></span> <span data-ttu-id="90668-262">Navigeerige jaotisse Eelarvestus &gt; Perioodiline &gt; Eelarveplaani loomine pearaamatust.</span><span class="sxs-lookup"><span data-stu-id="90668-262">Navigate to Budgeting &gt; Periodic &gt; Generate budget plan from General ledger.</span></span> <span data-ttu-id="90668-263">Täitke perioodilise protsessi parameetrid ja klõpsake nuppu Loo.</span><span class="sxs-lookup"><span data-stu-id="90668-263">Fill in the periodic process parameters and click button Generate.</span></span> 
 
 <span data-ttu-id="90668-264">[![Loo](./media/screenshot29.png)](./media/screenshot29.png)</span><span class="sxs-lookup"><span data-stu-id="90668-264">[![Generate](./media/screenshot29.png)](./media/screenshot29.png)</span></span> 
@@ -209,7 +207,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-271">[![Eelarveplaani kuva](./media/screenshot31.png)](./media/screenshot31.png)</span><span class="sxs-lookup"><span data-stu-id="90668-271">[![Budget plan display](./media/screenshot31.png)](./media/screenshot31.png)</span></span>
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="90668-272">8. ülesanne: jooksva aasta eelarve loomine eelmise aasta tegelike summade alusel</span><span class="sxs-lookup"><span data-stu-id="90668-272">Task 8: Create current year budget based on previous year actuals</span></span>
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="90668-272">8. ülesanne: jooksva aasta eelarve loomine eelmise aasta tegelike summade alusel</span><span class="sxs-lookup"><span data-stu-id="90668-272">Task 8: Create current year budget based on previous year actuals</span></span>
 <span data-ttu-id="90668-273">Eraldusmeetodeid saab eelarveplaanis kasutada eelarveplaanide teabe hõlpsaks kopeerimiseks ühest stsenaariumist teise / nende jaotamiseks perioodides / dimensioonidele eraldamiseks.</span><span class="sxs-lookup"><span data-stu-id="90668-273">Allocation methods can be used in budget plan to easily copy information for budget plans from one scenario to another/ spread them across periods/ allocate to dimensions.</span></span> <span data-ttu-id="90668-274">Kasutame eraldamisi jooksva aasta eelarve loomiseks eelmise aasta tegelikest summadest.</span><span class="sxs-lookup"><span data-stu-id="90668-274">We will use allocations to create current year budget from previous year actuals.</span></span> 
 
 <span data-ttu-id="90668-275">8.1.</span><span class="sxs-lookup"><span data-stu-id="90668-275">8.1.</span></span> <span data-ttu-id="90668-276">Valige eelarveplaani dokumendi ruudustikus kõik read ja klõpsake nuppu Eralda eelarve</span><span class="sxs-lookup"><span data-stu-id="90668-276">Pick all lines in the budget plan document grid and click button allocate budget</span></span> 
@@ -224,7 +222,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-282">[![Müügikõver](./media/screenshot34.png)](./media/screenshot34.png)</span><span class="sxs-lookup"><span data-stu-id="90668-282">[![Sales curve](./media/screenshot34.png)](./media/screenshot34.png)</span></span>
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="90668-283">9. ülesanne: eelarveplaani dokumendi korrigeerimine Exceliga ja dokumendi lõpetamine</span><span class="sxs-lookup"><span data-stu-id="90668-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="90668-283">9. ülesanne: eelarveplaani dokumendi korrigeerimine Exceliga ja dokumendi lõpetamine</span><span class="sxs-lookup"><span data-stu-id="90668-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
 <span data-ttu-id="90668-284">9.1.</span><span class="sxs-lookup"><span data-stu-id="90668-284">9.1.</span></span> <span data-ttu-id="90668-285">Dokumendi sisu avamiseks Excelis klõpsake nuppu Tööleht</span><span class="sxs-lookup"><span data-stu-id="90668-285">Click Button worksheet to open document contents in Excel</span></span>
 
 <span data-ttu-id="90668-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span><span class="sxs-lookup"><span data-stu-id="90668-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span></span>
@@ -239,8 +237,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="90668-294">Kui töövoog on lõpule jõudnud, muutub eelarveplaani dokumendi etapiks Heaks kiidetud.</span><span class="sxs-lookup"><span data-stu-id="90668-294">Once workflow completes, budget plan document stage changes to Approved.</span></span> <span data-ttu-id="90668-295">[![Heaks kiidetud](./media/screenshot38.png)](./media/screenshot38.png)</span><span class="sxs-lookup"><span data-stu-id="90668-295">[![Approved](./media/screenshot38.png)](./media/screenshot38.png)</span></span>
 
-<a name="appendix"></a><span data-ttu-id="90668-296">Lisa</span><span class="sxs-lookup"><span data-stu-id="90668-296">Appendix</span></span>
-========
+## <a name="appendix"></a><span data-ttu-id="90668-296">Lisa</span><span class="sxs-lookup"><span data-stu-id="90668-296">Appendix</span></span>
 
 ### <a name="auto-approve-workflow-configuration"></a><span data-ttu-id="90668-297">Automaatse kinnitamise töövoo konfiguratsioon</span><span class="sxs-lookup"><span data-stu-id="90668-297">Auto-Approve workflow configuration</span></span>
 

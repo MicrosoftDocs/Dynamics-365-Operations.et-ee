@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 7a3ff5a00af72dd7810337d1390b39d4f849dada
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 9447b0d9eedbdd56f1e221a48f687a94a19d31c4
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -30,14 +30,14 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="c6f9c-104">Seda funktsiooni toetatakse rakenduses Dynamics 365 for Finance and Operations (versioon 7.2 ja uuemad).</span><span class="sxs-lookup"><span data-stu-id="c6f9c-104">This feature is supported in Dynamics 365 for Finance and Operations (version 7.2 and later).</span></span>
 
-# <a name="introduction"></a><span data-ttu-id="c6f9c-105">Sissejuhatus</span><span class="sxs-lookup"><span data-stu-id="c6f9c-105">Introduction</span></span>
+## <a name="introduction"></a><span data-ttu-id="c6f9c-105">Sissejuhatus</span><span class="sxs-lookup"><span data-stu-id="c6f9c-105">Introduction</span></span>
 <span data-ttu-id="c6f9c-106">See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne tööruumi vahekaardile **Analüütika**.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-106">This topic shows how to embed a Microsoft Power BI report on the **Analytics** tab of a workspace.</span></span> <span data-ttu-id="c6f9c-107">Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-107">For the example that is given here, we will extend the **Reservation management** workspace in the Fleet Management application to embed an analytical workspace on an **Analytics** tab.</span></span>
 
-# <a name="prerequisites"></a><span data-ttu-id="c6f9c-108">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="c6f9c-108">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="c6f9c-108">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="c6f9c-108">Prerequisites</span></span>
 + <span data-ttu-id="c6f9c-109">Juurdepääs arendaja keskkonnale, mis käitab platvormivärskendust 8 või uuemat.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-109">Access to a developer environment that runs Platform update 8 or later.</span></span>
 + <span data-ttu-id="c6f9c-110">Microsoft Power BI töölaua abil loodud analüütiline aruanne (pbix-fail), millel on üksuse kaupluse andmebaasist hangitud andmemudel.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-110">An analytical report (.pbix file) that was created by using Microsoft Power BI Desktop, and that has a data model that is sourced from the Entity store database.</span></span>
 
-# <a name="overview"></a><span data-ttu-id="c6f9c-111">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="c6f9c-111">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="c6f9c-111">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="c6f9c-111">Overview</span></span>
 <span data-ttu-id="c6f9c-112">Olenemata sellest, kas laiendate olemasolevat rakenduse tööruumi või võtate kasutusele omaenda uue tööruumi, saate kaasatud analüütiliste vaadete abil kuvada oma äriandmetest selgeid ja interaktiivseid vaateid.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-112">Whether you extend an existing application workspace or introduce a new workspace of your own, you can use embedded analytical views to deliver insightful and interactive views of your business data.</span></span> <span data-ttu-id="c6f9c-113">Analüütilise tööruumi vahekaardi lisamise protsess koosneb neljast etapist.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-113">The process for adding an analytical workspace tab has four steps.</span></span>
 
 1. <span data-ttu-id="c6f9c-114">Dynamicsi 365 ressursina pbix-faili lisamine.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-114">Add a .pbix file as a Dynamics 365 resource.</span></span>
@@ -48,7 +48,7 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="c6f9c-118">Lisateavet analüütiliste aruannete loomise kohta vaadake jaotisest [Power BI töölauaga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span><span class="sxs-lookup"><span data-stu-id="c6f9c-118">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span> <span data-ttu-id="c6f9c-119">See leht on suurepärane allikas ülevaadete jaoks, mis aitavad teil luua mõjusaid analüütilise aruandluse lahendusi.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-119">This page is a great source for insights that can help you create compelling analytical reporting solutions.</span></span>
 
-# <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="c6f9c-120">Ressursina pbix-faili lisamine</span><span class="sxs-lookup"><span data-stu-id="c6f9c-120">Add a .pbix file as a resource</span></span>
+## <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="c6f9c-120">Ressursina pbix-faili lisamine</span><span class="sxs-lookup"><span data-stu-id="c6f9c-120">Add a .pbix file as a resource</span></span>
 <span data-ttu-id="c6f9c-121">Enne alustamist peate looma või hankima Power BI aruande, mille soovite tööruumi kaasata.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-121">Before you begin, you must create or obtain the Power BI report that you will embed in the workspace.</span></span> <span data-ttu-id="c6f9c-122">Lisateavet analüütiliste aruannete loomise kohta vaadake jaotisest [Power BI töölauaga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span><span class="sxs-lookup"><span data-stu-id="c6f9c-122">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span>
  
 <span data-ttu-id="c6f9c-123">Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-123">Follow these steps to add a .pbix file as a Visual Studio project artifact.</span></span>
@@ -66,7 +66,7 @@ ms.lasthandoff: 01/19/2018
   
 <span data-ttu-id="c6f9c-131">Nüüd kui olete lisanud pbix-faili Dynamics 365 ressursina, saate kaasata aruanded tööruumidesse ja lisada ka otselingid, kasutades menüü-üksusi.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-131">Now that you've added the .pbix file as a Dynamics 365 resource, you can embed the reports in workspaces and add direct links by using menu items.</span></span>
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="c6f9c-132">Vahekaardi juhtelemendi lisamine rakenduse tööruumi</span><span class="sxs-lookup"><span data-stu-id="c6f9c-132">Add a tab control to an application workspace</span></span>
+## <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="c6f9c-132">Vahekaardi juhtelemendi lisamine rakenduse tööruumi</span><span class="sxs-lookup"><span data-stu-id="c6f9c-132">Add a tab control to an application workspace</span></span>
 <span data-ttu-id="c6f9c-133">Selles näites laiendame mudeli Sõidukipargi haldus tööruumi **Reserveerimise haldus**, lisades vahekaardi **Analüütika** vormi **FMClerkWorkspace** määratlusele.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-133">In this example, we will extend the **Reservation management** workspace in the Fleet Management model by adding the **Analytics** tab to the definition of the **FMClerkWorkspace** form.</span></span>
  
 <span data-ttu-id="c6f9c-134">Järgmisel joonisel on näha, milline näeb vorm **FMClerkWorkspace** välja Microsoft Visual Studio kujundajas.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-134">The following illustration shows what the **FMClerkWorkspace** form looks like in the designer in Microsoft Visual Studio.</span></span>
@@ -105,7 +105,7 @@ ms.lasthandoff: 01/19/2018
  
 <span data-ttu-id="c6f9c-161">Nüüd olete rakenduse vormimääratluse laiendamise ülesande täitnud.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-161">You've now completed the task of extending the application form definition.</span></span> <span data-ttu-id="c6f9c-162">Lisateavet kohandamiste tegemiseks laienduste kasutamise kohta vaadake jaotisest [Kohandamine: ülekate ja laiendused](../extensibility/customization-overlayering-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="c6f9c-162">For more information about how to use extensions to do customizations, see  [Customization: Overlayering and extensions](../extensibility/customization-overlayering-extensions.md).</span></span>
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="c6f9c-163">X++ äriloogika lisamine vaaturi juhtelemendi kaasamiseks</span><span class="sxs-lookup"><span data-stu-id="c6f9c-163">Add X++ business logic to embed a viewer control</span></span>
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="c6f9c-163">X++ äriloogika lisamine vaaturi juhtelemendi kaasamiseks</span><span class="sxs-lookup"><span data-stu-id="c6f9c-163">Add X++ business logic to embed a viewer control</span></span>
 <span data-ttu-id="c6f9c-164">Tööruumi **Reserveerimise haldus** kaasatud aruandevaaturi juhtelementi lähtestava äriloogika lisamiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-164">Follow these steps to add business logic that initializes the report viewer control that is embedded in the **Reservation management** workspace.</span></span>
 
 1. <span data-ttu-id="c6f9c-165">Avage kujunduse määratluse laiendamiseks vormikujundaja **FMClerkWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-165">Open the **FMClerkWorkspace** form designer to extend the design definition.</span></span>
@@ -151,12 +151,12 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="c6f9c-172">Pääsete juurde olemasolevale toiminguvaatele, kasutades lehe pealkirja all olevaid tööruumi vahekaarte.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-172">You can access the existing operational view by using the workspace tabs below the page title.</span></span>
 
-# <a name="reference"></a><span data-ttu-id="c6f9c-173">Viide</span><span class="sxs-lookup"><span data-stu-id="c6f9c-173">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="c6f9c-173">Viide</span><span class="sxs-lookup"><span data-stu-id="c6f9c-173">Reference</span></span>
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="c6f9c-174">Meetod PBIReportHelper.initializeReportControl</span><span class="sxs-lookup"><span data-stu-id="c6f9c-174">PBIReportHelper.initializeReportControl method</span></span>
+### <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="c6f9c-174">Meetod PBIReportHelper.initializeReportControl</span><span class="sxs-lookup"><span data-stu-id="c6f9c-174">PBIReportHelper.initializeReportControl method</span></span>
 <span data-ttu-id="c6f9c-175">See jaotis annab teavet abilise klassi kohta, mida kasutatakse Power BI aruande kaasamiseks (pbix-ressurss) vormirühma juhtelementi.</span><span class="sxs-lookup"><span data-stu-id="c6f9c-175">This section provides information about the helper class that is used to embed a Power BI report (.pbix resource) in a form group control.</span></span>
 
-### <a name="syntax"></a><span data-ttu-id="c6f9c-176">Süntaks</span><span class="sxs-lookup"><span data-stu-id="c6f9c-176">Syntax</span></span>
+#### <a name="syntax"></a><span data-ttu-id="c6f9c-176">Süntaks</span><span class="sxs-lookup"><span data-stu-id="c6f9c-176">Syntax</span></span>
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a><span data-ttu-id="c6f9c-177">Parameetrid</span><span class="sxs-lookup"><span data-stu-id="c6f9c-177">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="c6f9c-177">Parameetrid</span><span class="sxs-lookup"><span data-stu-id="c6f9c-177">Parameters</span></span>
 
 | <span data-ttu-id="c6f9c-178">Nimi</span><span class="sxs-lookup"><span data-stu-id="c6f9c-178">Name</span></span> | <span data-ttu-id="c6f9c-179">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="c6f9c-179">Description</span></span> |
 |---|---|
