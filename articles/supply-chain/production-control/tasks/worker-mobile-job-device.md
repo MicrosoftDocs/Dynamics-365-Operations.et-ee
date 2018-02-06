@@ -69,4 +69,3 @@ See protseduur näitab, kuidas määrata töötaja kasutajakontole õigeid rolle
 6. Väljal Tootmisüksus saate määrata töötajale vaikefiltri. See tagab, et kui töötaja seadmesse sisse logib, kuvatakse ainult valitud tootmisüksuse tootmistööd.
 7. Sulgege leht.
 
-

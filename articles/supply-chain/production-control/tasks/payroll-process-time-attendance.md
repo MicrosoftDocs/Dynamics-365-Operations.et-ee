@@ -1,4 +1,4 @@
---- 
+---
 title: "Tööajaarvestuse palgaarvestuse protsessi lubamine"
 description: "Selles protseduuris näitlikustatakse, kuidas aktiveerida palgaarvestuse protsessi tööajaarvestuse põhjal."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ Selles protseduuris näitlikustatakse, kuidas aktiveerida palgaarvestuse protses
 6. Laiendage jaotist Ajaline registreerimine.
 7. Klõpsake nuppu Redigeeri.
 8. Sisestage või valige väärtus väljal Tasulepe.
-
 

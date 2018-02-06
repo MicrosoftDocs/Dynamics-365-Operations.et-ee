@@ -1,4 +1,4 @@
---- 
+---
 title: Tootmistellimuse alustamine
 description: "See protseduur selgitab, kuidas alustada tootmistellimust tööde juhtimisel."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ See protseduur selgitab, kuidas alustada tootmistellimust tööde juhtimisel. Se
 7. Klõpsake valikut Sisesta.
 8. Klõpsake nuppu OK.
     * Protsessikaardi töölehele kantakse üksikutele toimingutele kulunud aeg. Saate esitada ka õige ja veakoguse.  
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Tootmistellimuse plaanimine
 description: "See protseduur näitab, kuidas tootmistellimust plaanida."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ See protseduur näitab, kuidas tootmistellimust plaanida. Selle protseduuri loom
     * Lehel Täiskoormus kuvatakse töö plaanimise kaudu reserveeritud võimekus, ressursi jaoks praegu reserveeritud tundide koguarv ja ressursi töö plaanimise jaoks järelejäänud tundide arv.  
 6. Sulgege leht.
 7. Sulgege leht.
-
 
