@@ -1,7 +1,7 @@
 ---
 title: "Jaetoodete allahindluste vältimine"
 description: "On erinevaid põhjuseid, miks jaemüüjad soovivad vältida mõne toote allahindlust kampaania ajal või kassas."
-author: jeffbl
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

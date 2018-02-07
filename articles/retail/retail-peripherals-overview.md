@@ -1,6 +1,7 @@
 ---
 title: "Jaemüügi välisseadmete ülevaade"
 description: "Selles teemas selgitatakse mõisteid, mis on seotud jaemüügi välisseadmetega."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

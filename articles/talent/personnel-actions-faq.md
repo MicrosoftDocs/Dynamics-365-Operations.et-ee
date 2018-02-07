@@ -1,7 +1,7 @@
 ---
 title: Personalitoimingud [KKK]
 description: "Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul."
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
