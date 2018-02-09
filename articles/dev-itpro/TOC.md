@@ -114,6 +114,7 @@
 #### [Kohandamine: ülekatmine ja laiendused](extensibility/customization-overlayering-extensions.md)
 ### Mis on uut?
 #### [Laiendatavuse muudatused – juuli 2017](extensibility/changes-july-2017.md)
+#### [Laiendatavuse muudatused lahenduses Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
 ### Põhisätted
 #### [Pealetükkivad kohandused](extensibility/intrusive-customizations.md)
 #### [Klassi laiendid](extensibility/class-extensions.md)
@@ -138,6 +139,11 @@
 #### [Vormi juhtelemendi atribuutide muutmine](extensibility/modify-control-properties.md)
 #### [Sildi muutmine](extensibility/change-label.md)
 #### [Numbriseeria ulatuse laiendamine](extensibility/extend-number-sequence-scope.md)
+#### [Uue varude dimensioonide lisamine](extensibility/inventory-dimensions.md)
+#### [Hinna ja allahindluse laiendatavuse muudatused](extensibility/pricing-app73.md)
+#### [Tabeli kaardi laiend](extensibility/map-extensions.md)
+#### [Liidestena kasutatavate tabeli kaartide laiendamine](extensibility/maps-as-interfaces.md)
+#### [Versioonimiseks kasutatavate tabeli kaartide laiendamine](extensibility/maps-with-versioning.md)
 
 
 
@@ -523,19 +529,19 @@
 
 # [Täiendamine ja migreerimine](migration-upgrade/upgrade-home-page.md)
 ## [Versiooni AX 2012 täiendamine versioonile Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Analüüsimine – täienduse ajastamiseks saab kasutada täienduse analüüsija tööriista](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analüüsimine – kooditäienduse teenust saab kasutada täienduskoodi panuse hindamiseks](migration-upgrade/analyze-code-upgrade.md)
-### [Analüüsimine – liivakastikeskkonna juurutamine](migration-upgrade/analysis-sandbox.md)
-### [Täiendamine – arenduskeskkonna andmete täiendamine](migration-upgrade/data-upgrade-2012.md)
-### [Täiendamine – AX 2012 andmete täienduse toimingud](migration-upgrade/prepare-data-upgrade.md)
-### [Täiendamine – liivakastikeskkonna andmete täiendamine](migration-upgrade/upgrade-data-sandbox.md)
-### [Kinnitamine – ülemineku testimine](migration-upgrade/upgrade-cutover-testing.md)
-### [Kinnitamine – pärast täiendust tehtavad toimingud](migration-upgrade/app-validation-process.md)
-### [Kinnitamine – töökorra testimine](migration-upgrade/upgrade-functional-validation.md)
-### [Kinnitamine – ettevalmistamine süsteemi Go-Live jaoks](migration-upgrade/upgrade-go-live-prep.md)
+### [AX 2012 täiendus – täienduse analüüsija tööriista kasutamine ajastamiseks](migration-upgrade/upgrade-analyzer-tool.md)
+### [AX 2012 täiendus– kooditäienduse teenuse kasutamine panuse hindamiseks](migration-upgrade/analyze-code-upgrade.md)
+### [AX 2012 täiendus – liivakastikeskkonna juurutamine](migration-upgrade/analysis-sandbox.md)
+### [AX 2012 täiendus – arenduskeskkonna andmete täiendamine](migration-upgrade/data-upgrade-2012.md)
+### [AX 2012 täiendus – AX 2012 andmete täienduse toimingud](migration-upgrade/prepare-data-upgrade.md)
+### [AX 2012 täiendus – liivakastikeskkonna andmete täiendamine](migration-upgrade/upgrade-data-sandbox.md)
+### [AX 2012 täiendus – ülemineku testimine](migration-upgrade/upgrade-cutover-testing.md)
+### [AX 2012 täiendus – pärast täiendamist lõpule viidavad ülesanded](migration-upgrade/app-validation-process.md)
+### [AX 2012 täiendus – funktsionaaltesti sooritamine](migration-upgrade/upgrade-functional-validation.md)
+### [AX 2012 täiendus – edastuse alustamise ettevalmistamine](migration-upgrade/upgrade-go-live-prep.md)
 
 
-### AX 2012-lt täienduse tegemist mõjutavad muutused
+### Muudatused, mis mõjutavad täiendamist versioonilt AX 2012
 #### [Üksik kanne ja valuuta ümberarvutamise täiendus ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Projekti ressursi plaanimise andmemudel](migration-upgrade/data-model-changes-resource-management.md)
 #### [Töövoo alamsüsteemi muudatused](migration-upgrade/workflow-subsystem.md)
@@ -591,7 +597,9 @@
 ### [Pakktöötlusserveri ülevaade](sysadmin/batch-server-overview.md)
 ### [Pakett-töö loomine](sysadmin/tasks/create-batch-job.md)
 
-# Lifecycle Services
+## [Optimeerimise nõustaja reeglite loomine](sysadmin/optimization-advisor.md)
+
+# Elutsükli teenused
 ## [Teenuse Lifecycle Services ülevaade](lifecycle-services/lcs.md)
 ### [LCS klientidele](lifecycle-services/lcs-works-lcs.md)
 ### [LCS partneritele](lifecycle-services/getting-started-lcs.md)

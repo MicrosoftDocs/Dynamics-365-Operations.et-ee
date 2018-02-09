@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> See funktsioon on suunatud väljalaske osa ja see on saadaval ainult kasutajatele, kes on registreerinud pideva automaatvärskendamise eeliste programmis (PAEP). See funktsioon lisatakse teise tulevasse üldiselt kättesaadavasse väljalaskesse. Lisateabe saamiseks standardsete ja suunatud väljalasete kohta vt [Standardsed ja suunatud platvormi väljalasked](../get-started/public-preview-releases.md).
