@@ -1,7 +1,7 @@
 ---
 title: "Varupartiide ühendamine"
 description: "Selles artiklis kirjeldatakse kahe või enama varude partii konsolideerimist ühendatud partiisse."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

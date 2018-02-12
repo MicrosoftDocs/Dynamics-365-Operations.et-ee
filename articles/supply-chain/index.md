@@ -3,7 +3,7 @@ title: Tarneahela juhtimise avaleht
 description: See teema annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,7 +52,10 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
 ## <a name="videos"></a>Videod
 
-### <a name="get-started"></a>Alustamine  
+Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (detsember 2017) uute funktsioonidega tutvust teha.
+
+-  [Sularahastsenaariumi jaoks potentsiaalse kliendi integreerimine](https://youtu.be/AVV9x5x-XCg) 
+-  [Optimeerimise nõustaja](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 
 Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017) uute funktsioonidega tutvust teha.
 
@@ -62,8 +65,7 @@ Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and O
 -  [Ostutellimuste kinnitamine mobiilses seadmes](https://youtu.be/gZ-gOlJe7H8)
 -  [Tootmis- ja partiitellimuste visuaalne plaanimine Gantti diagrammiga](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Tehnoloogiakonverentsi salvestised
-Enamik salvestistest räägivad toote funktsionaalsusest rakenduse Finance and Operations eelmises versioonis, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
+Need tehnoloogiakonverentsi salvestised räägivad toote funktsionaalsusest rakenduse Finance and Operations eelmises versioonis, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Tootekonfiguraator rakenduses Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Koondplaneerimine – vihjed ja näpunäited tõrkeotsinguks</a>

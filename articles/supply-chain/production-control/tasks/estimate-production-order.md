@@ -1,4 +1,4 @@
---- 
+---
 title: Tootmistellimuse hindamine
 description: "Saate seda protseduuri käitada demoettevõtte USMF või oma andmeid kasutades."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ Saate seda protseduuri käitada demoettevõtte USMF või oma andmeid kasutades. 
 1. Klõpsake toimingupaanil valikut Kulude haldamine.
 2. Klõpsake suvandit Kuva arvutamise üksikasjad.
     * Sellel lehel kuvatakse kulude jaotus. Näiteks saate vaadata esimese rea valmistoote kogu omahinda ühiku kohta. Järgnevad read sisaldavad vastavalt kooslusel, tootmisprotsessi ja kaudsete kulude kulusid.  
-
 

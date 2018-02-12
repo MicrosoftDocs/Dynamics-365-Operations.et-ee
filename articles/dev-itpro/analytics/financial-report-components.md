@@ -1,7 +1,7 @@
 ---
 title: Finantsaruande komponendid
 description: "Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse. Nende koosteüksuste hulka kuuluvad readefinitsioonid, veerudefinitsioonid ja aruandluspuu definitsioonid. Artikkel selgitab, kuidas koosteüksusi korraldada ja lukustada ning kuidas koosteüksuste gruppidega töötada."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -112,7 +112,7 @@ Koosteüksuse avamisel pääsevad teised kasutajad selle koosteüksuse juurde ki
 3.  Valige koosteüksus ja seejärel klõpsake suvandit **Tühista väljaregistreerimine**.
 4.  Koosteüksuse sisseregistreerimiseks klõpsake **Jah**.
 
-# <a name="see-also"></a>Vt ka
+## <a name="see-also"></a>Vt ka
 
 [Finantsaruandlus](financial-reporting-intro.md)
 

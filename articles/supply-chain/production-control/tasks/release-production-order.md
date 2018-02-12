@@ -1,4 +1,4 @@
---- 
+---
 title: Tootmistellimuse vabastamine
 description: "See protseduur näitab, kuidas tootmistellimust väljastada."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ See protseduur näitab, kuidas tootmistellimust väljastada. Selle protseduuri l
 5. Märkige ruut Prindi protsessi kaart.
 6. Klõpsake nuppu OK.
 7. Sulgege leht.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Tootmistellimuse lõpetamine"
 description: "See protseduur näitab, kuidas tootmistellimust lõpetada."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ See protseduur näitab, kuidas tootmistellimust lõpetada. Selle protseduuri loo
 1. Klõpsake toimingupaanil valikut Kulude haldamine.
 2. Klõpsake käsku Kuva kulu võrdlus.
     * Pärast seda, kui tootmistellimus on lõpetatud, saate võrrelda eeldatavat omahinda realiseeritud omahinnaga, et saada ülevaade tootmishälvetest.  
-
 

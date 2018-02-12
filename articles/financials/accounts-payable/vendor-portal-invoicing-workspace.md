@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ Paanid **Kokkuvõte** annavad valitud hankija arvetest ülevaate. Saate vaadata 
 -   Tasutud arved on need, mis on rakenduses Finance and Operations täielikult tasutud.
 
 Paani klõpsamine avab lehest **Arvete loend** filtreeritud vaate.
+
 ### <a name="tabular-lists"></a>Tabelloendid
 
 Jaotises **Tabelloendid** on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid. Mustandi olekus saab arve edastada töövoosse või kustutada. Viimane tabelloend on võimalus arvete leidmiseks. Saate otsides filtreerida, et võimaldada kiiremaid otsinguid.
-Kõikide hankijaarvete loendileht
+
+<a name="all-vendor-invoices-list-page"></a>Kõikide hankijaarvete loendileht
 -----------------------------
 
 Saate vaadata kõiki sisestatud ja sisestamata hankijaarveid loendilehel **Hankija koostöö arved**. Arvete makseoleku vaatamiseks saate kasutada seda loendilehte. Makseolekud hõlmavad olekuid Sisestamata, Tasumata, Osaliselt makstud ja Täielikult tasutud.

@@ -1,4 +1,4 @@
---- 
+---
 title: "Protsessi kanban-töö ettevalmistamine, kui materjalid on tööraku jaoks saadaval"
 description: "See ülesanne keskendub protsessi kanban-töö ettevalmistamisele, kui kõik materjalid on tööraku puhul saadaval."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ See ülesanne keskendub protsessi kanban-töö ettevalmistamisele, kui kõik mat
     * Mitme töö valimisel kuvab komplekteerimisleht kõikide valitud tööde puhul vajalike kaupade summa.  
 6. Klõpsake suvandit Valmista ette.
     * Ettevalmistamise protsess on nüüd lõpetatud. Kõigi komplekteerimislehe ridade puhul valitud märkeruut näitab, et tarneolek on komplekteeritud.  
-
 

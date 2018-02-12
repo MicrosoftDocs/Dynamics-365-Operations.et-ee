@@ -1,4 +1,4 @@
---- 
+---
 title: "Tootmistellimuse lõpuleviimisest teatamine"
 description: "See protseduur näitab, kuidas tootmistellimust lõpetatuks kinnitada."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ See protseduur näitab, kuidas tootmistellimust lõpetatuks kinnitada. Selle pro
 3. Märkige loendis valitud rida.
 4. Klõpsake loendis valitud real olevat linki.
     * Tööleht Kinnita lõpetamine on sisestatud. Kui soovite töölehte korrigeerida, saate koostada käsitsi uue töölehe, millel saab muudatusi teha.  
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Tootmistellimuse loomine
 description: "Selles protseduuris näitlikustatakse, kuidas luua tootmistellimust."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ Selles protseduuris näitlikustatakse, kuidas luua tootmistellimust. Selle prots
     * Töötlusaja muutmine mõjutab hinnangulist protsessi tarbimist ja tootmistellimuse kulu.  
 6. Klõpsake nuppu Salvesta.
 7. Sulgege leht.
-
 

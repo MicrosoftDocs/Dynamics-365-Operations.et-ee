@@ -137,7 +137,7 @@ Tsüklilise inventuuri erinevus ilmneb järgmistes stsenaariumides, kui valiku *
 
 Saate korrigeerida loendatud väärtuse erinevusi ja kinnitada siis loendatud väärtuse lehel **Ülevaatuse ootel tsükliline inventuur**. Kauba muudetud kogust saab kontrollida lehel **Vaba varu asukoha järgi**. Loendatud väärtus lükatakse tagasi, kui erinevust ei saa kinnitada.
 
-# <a name="see-also"></a>Vt ka
+## <a name="see-also"></a>Vt ka
 [Mobiilsete seadmete konfigureerimine lao töö jaoks](configure-mobile-devices-warehouse.md)
 
 
