@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2ec0af71e199075c885fa2f46de6c68397392704
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 3c284b8c67121b39837bef827dea6f24da2a0f4b
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -44,7 +45,7 @@ Ettemaksuarve funktsioon võimalda teha järgmist.
 Ettemakse saavad Poola ettevõtted peavad looma kliendi jaoks ettemaksude arve. See ettemaksuarve sisestatakse pearaamatusse ja see on käibemaksu maksueesmärgil kohustuslik dokument. Ettemaksuarvel arvutatav maks tuleb teatada maksuhaldurile. Kaupade lõpliku müügi korral tuleb ettemaksuarve määrata müügiarvel. Müügi kogusumma peab sisaldama ettemakse. Müügiarve sisestamisel tühistatakse tasakaalustatud ettemaksuarve. Esialgne ettemaksuarve tasakaalustatakse koos ettemaksuarve tühistamisega.
 
 ## <a name="set-up-accounts-receivable-for-advance-invoices"></a>Müügireskontro seadistamine ettemaksuarvete puhul
-Määrake lehe **Müügireskontro parameetrid** vahekaardil **Värskendamine** järgmised parameetrid.
+Määrake lehe **Müügireskontro parameetrid** vahekaardil **Värskendused** järgmised parameetrid.
 
 |Kiirkaart|Parameeter|Kirjeldus|
 |------|----------|------------|

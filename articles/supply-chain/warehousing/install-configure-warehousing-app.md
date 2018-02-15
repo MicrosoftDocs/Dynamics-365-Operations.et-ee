@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4b3d068ddbf6f0b28c97618f5fa10fa486f3af51
+ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
+ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/15/2018
 
 ---
 
@@ -31,6 +31,9 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+
+> [!NOTE]
+> Selles teemas kirjeldatakse, kuidas pilvejuurutuse korral konfigureerida ladustamist. Asutusesiseste juurutamiste korral ladustamise konfigureerimise kohta lugege teemat [Kohapealsete juurutuste ladustamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
 
 Selles teemas kirjeldatakse, kuidas installida ja konfigureerida Microsoft Dynamics 365 for Finance and Operationsi moodulit Ladustamine.
 
@@ -43,32 +46,29 @@ Rakendus on saadaval Androidi ja Windowsi operatsioonisüsteemides. Selle rakend
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
 | Windows (UWP)               | Windows 10 (kõik versioonid)                                                                                                                                                   |
-| Finance and Operations | Microsoft Finance and Operationsi versioon 1611 <br>- või - <br>Microsoft Dynamics AX-i versioon 7.0/7.0.1 ja Microsoft Dynamics AX-i platvormiuuendus 2 kiirparandusega KB 3210014 |
+| Finance and Operations | Microsoft Dynamics 365 for Operations, versioon 1611 <br>- või - <br>Microsoft Dynamics AX-i versioon 7.0/7.0.1 ja Microsoft Dynamics AX-i platvormiuuendus 2 kiirparandusega KB 3210014 |
 
 ## <a name="get-the-app"></a>Hangi rakendus
--   Windows (UWP): [Finance and Operations – Ladustamine Windowsi poes](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   Android:
+-   Windows (UWP)
+     - [Finance and Operations – Ladustamine Windowsi poes](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+-   Android
     - [Finance and Operations – Ladustamine Google Play Store’is](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
     - [Finance and Operations – Ladustamine Zebra App Gallerys](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
 
-## <a name="create-a-web-service-application-in-active-directory"></a>Veebiteenuse rakenduse loomine Active Directorys
+## <a name="create-a-web-service-application-in-azure-active-directory"></a>Veebiteenuse rakenduse loomine Azure Active Directorys
 Selleks et rakendus saaks konkreetse Finance and Operationsi serveriga suhelda, tuleb registreerida veebiteenuse rakendus Azure Active Directorys Finance and Operationsi rentnikule. Turvalisusega seotud põhjustel on soovitatav luua veebiteenuse rakendus igale kasutatavale seadmele. Veebiteenuse taotluse loomiseks Azure Active Directorys (Azure AD) tehke järgmist.
 
-1.  Minge brauseris lehele <https://manage.windowsazure.com>.
+1.  Minge brauseris lehele <https://portal.azure.com>.
 2.  Sisestage selle kasutaja nimi ja parool, kellel on juurdepääs Azure’i tellimusele.
-3.  Klõpsake Azure’i portaalis vasakpoolsel navigeerimispaanil valikut **Active Directory**.[](./media/wh-01-active-directory-example.png)[![wh-01-active-directory-example](./media/wh-01-active-directory-example.png)](./media/wh-01-active-directory-example.png)
-4.  Valige tabelist Active Directory eksemplar, mida Finance and Operations kasutab.
-5.  Klõpsake ülemisel tööriistaribal valikut **Rakendused**. [![wh-02-active-directory-applications](./media/wh-02-active-directory-applications-1024x197.png)](./media/wh-02-active-directory-applications.png)
-6.  Klõpsake alumisel paanil valikut **Lisa**. Käivitub viisard **Rakenduse lisamine**.
-7.  Sisestage rakendusele nimi ja valige **Veebirakendus ja/või veebi API**. [![wh-03-active-directory-add-application](./media/wh-03-active-directory-add-application.png)](./media/wh-03-active-directory-add-application.png)
-8.  Sisestage sisselogimise URL, mis on teie veebirakenduse URL. See URL on sama, mis teie juurutuse URL, kuid lõppu on lisatud oauth. Sisestage rakenduse ID URI, see väärtus on kohustuslik, kuid pole autentimiseks vajalik. Veenduge, et see rakenduse ID URI oleks URI mudel, nt https://contosooperations/wmapp, kuna teie juurutuse URL-i kasutamine võib põhjustada sisselogimisprobleeme teistes AAD rakendustes (nt Exceli lisandmoodul). [![WH-04-AD-add-properties3](./media/WH-04-AD-add-properties3.png)](./media/WH-04-AD-add-properties3.png)
-9.  Minge vahekaardile **Konfigureeri**. [![wh-05-ad-configure-app](./media/wh-05-ad-configure-app.png)](./media/wh-05-ad-configure-app.png)
-10. Kerige alla, kuni näete jaotist **Teiste rakenduste load**. Klõpsake nuppu **Lisa rakendus**. [![wh-06-ad-app-add-permissions](./media/wh-06-ad-app-add-permissions.png)](./media/wh-06-ad-app-add-permissions.png)
-11. Valige loendist **Microsoft Dynamics ERP**. Klõpsake nuppu **Lõpeta kontrollimine** lehe paremas nurgas. [![wh-07-ad-select-permissions](./media/wh-07-ad-select-permissions.png)](./media/wh-07-ad-select-permissions.png)
-12. Märkige loendis **Õiguste delegeerimine** lõik ruudud. Klõpsake käsku **Salvesta**. [![wh-08-ad-delegate-permissions](./media/wh-08-ad-delegate-permissions.png)](./media/wh-08-ad-delegate-permissions.png)
-13. Märkige üles järgmine teave.
-    -   **Kliendi ID** – Lehel üles kerides kuvatakse teile **Kliendi ID**.
-    -   **Võti** – looge jaotises **Võtmed** võti, valides kestuse, ja kopeerige võti. Sellele võtmele viidatakse hiljem kui **kliendi saladusele**.
+3.  Klõpsake Azure’i portaalis vasakpoolsel navigeerimispaanil valikut **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+4.  Veenduge, et Active Directory eksemplar on see, mida Finance and Operations kasutab.
+5.  Klõpsake loendis suvandit **Rakenduste registreerimine**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+6.  Klõpsake ülemisel paanil suvandit **Uue rakenduse registreerimine**. Käivitub viisard **Rakenduse lisamine**.
+7.  Sisestage rakendusele nimi ja tehke valik **Veebirakendus / veebi API**. Sisestage sisselogimise URL, mis on teie veebirakenduse URL. See URL on sama, mis teie juurutuse URL, kuid lõppu on lisatud oauth. Klõpsake käsku **Loo**. [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+8.  Valige loendist uus rakendus. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+9.  Jätke **rakenduse ID**meelde, te vajate seda hiljem. **Rakenduse ID**-le on hiljem viidatud kui **kliendi ID**.
+10. Klõpsake jaotises **Sätete paan** suvandit **Võtmed**. Looge võti, sisestades jaotises **Paroolid** võtme kirjeldus ja kestus. 
+11. Klõpsake käsku **Salvesta** ja kopeerige võti. Sellele võtmele viidatakse hiljem kui **kliendi saladusele**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Finance and Operationsis kasutajakonto loomine ja konfigureerimine
 Et võimaldada Finance and Operationsil oma Azure AD rakendust kasutada, peate tegema järgmised konfigureerimistoimingud.
@@ -90,8 +90,8 @@ Peate konfigureerima rakenduse seadmel Finance and Operationsi serveriga Azure A
 1.  Avage rakenduses **Ühenduse sätted**.
 2.  Tühjendage väli **Demorežiim**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
 3.  Sisestage järgmine teave: 
-    + **Azure Active Directory kliendi ID** – kliendi ID hangiti sammus 13 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
-    + **Azure Active Directory kliendi saladus** – kliendi saladus hangiti sammus 13 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
+    + **Azure Active Directory kliendi ID** – kliendi ID hangiti sammus 9 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
+    + **Azure Active Directory kliendi saladus** – kliendi saladus hangiti sammus 11 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
     + **Azure Active Directory ressurss** – Azure AD kausta ressurss kujutab endast Finance and Operationsi juur-URL-i. **Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). 
     + **Azure Active Directory rentnik** - Azure AD kausta rentnik, mida Finance and Operationsi serveri puhul kasutatakse: https://login.windows.net/your-AD-tenant-ID. Näide: https://login.windows.net/contosooperations.onmicrosoft.com.
     <br>**Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). 
@@ -102,15 +102,11 @@ Peate konfigureerima rakenduse seadmel Finance and Operationsi serveriga Azure A
 Kaotatud või ohtu sattunud seadme puhul on vaja seadmelt juurdepääs Finance and Operationsile ära võtta. Järgmised toimingud kirjeldavad juurdepääsu äravõtmise soovituslikku protsessi.
 
 1.  Avage rakenduses Finance and Operations **Süsteemihaldus** &gt; **Seadistus** &gt; **Azure Active Directory rakendused**.
-2.  Kustutage rida, mis vastab seadmele, millelt soovite juurdepääsu ära võtta. Märkige üles eemaldatud seadme puhul kasutatud **kliendi ID**.
-3.  Logige sisse Azure’i tavaportaali lehel <https://manage.windowsazure.com>.
-4.  Klõpsake **Active Directory** ikooni vasakus menüüs ja seejärel soovitud kausta.
-5.  Klõpsake ülemises menüüs valikut **Rakendused** ja seejärel rakendust, mida konfigureerida soovite. Avaneb leht **Kiirjuhend**, kus on ühekordse sisselogimise teave ja muu teave konfigureerimise kohta.
-6.  Klõpsake vahekaarti **Konfigureeri**, kerige alla ja veenduge, et rakenduse **kliendi ID** oleks sama, mis selle jaotise 2. toimingus.
-7.  Klõpsake käsuribal nuppu **Kustuta**.
+2.  Kustutage rida, mis vastab seadmele, millelt soovite juurdepääsu ära võtta. Pidage eemaldatud seadme **kliendi ID** meeles, te vajate seda hiljem.
+3.  Logige sisse Azure’i portaali lehel <https://portal.azure.com>.
+4.  Klõpsake vasakpoolses menüüs **Active Directory** ikooni ja veenduge, et olete õiges kataloogis.
+5.  Klõpsake loendis suvandit **Rakenduste registreerimine** ja seejärel rakendust, mida konfigureerida soovite. Kuvatakse leht **Sätted** konfiguratsiooniteabega.
+6.  Veenduge, et rakenduse **kliendi ID** on sama nagu selle jaotise 2. etapis.
+7.  Klõpsake ülemisel paanil nuppu **Kustuta**.
 8.  Klõpsake kinnitusteates nuppu **Jah**.
-
-
-
-
 

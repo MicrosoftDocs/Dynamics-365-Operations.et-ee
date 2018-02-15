@@ -3,11 +3,12 @@ title: Eelarve plaanimise integreerimine muude moodulitega
 description: "Eelarveplaane saab luua mitmest erinevast ressursist. Perioodilise protsessi põhielemendid on kõikide ressursside puhul samad."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -51,7 +52,7 @@ Perioodilise protsessi põhielemendid on kõikide protsesside puhul samad. Vahek
 
 Iga loomisprotsessi puhul on saadaval kolm toimingut.
 
--   **Uue eelarveplaani loomine** loob uue plaani, millel on jaotises **Sihtkoht** valitud atribuudid. Need atribuudid ei pea olema kordumatud. Seega võib kahel plaanil olla sama nimi ja muud väärtused.
+-   **Uue eelarveplaani loomine** loob uue plaani, millel on atribuudid, mis on valitud jaotises **Sihtkoht**. Need atribuudid ei pea olema kordumatud. Seega võib kahel plaanil olla sama nimi ja muud väärtused.
 -   **Olemasoleva eelarveplaani stsenaariumi asendamine** kustutab kõik andmed valitud eelarveplaani stsenaariumi sihteelarveplaanis ja loob uued read, mis kasutavad valitud lähteandmeid.
 -   **Olemasoleva eelarveplaani stsenaariumi värskendamine ja uute andmete lisamine** värskendab olemasolevaid ridu sihtplaanis, mis vastavad allika ridadele, ja lisab uute andmete jaoks ka uusi ridu. Vastavus põhineb pearaamatukontol, kuupäeval, eelarveklassil ja mitmetel muudel väljadel. Näiteks kui loote eelarveplaane prognositavatest ametikohtadest, on amtikoha kood oluline väli. Kõik read, millel on ametikoha kood, mis vastab allika ametikoha koodile, asendatakse uute ridadega allikast.
 
