@@ -1,6 +1,6 @@
 ---
-title: "Tükeldatud perioodid perioodilistes töölehtedes"
-description: "Perioodilisi töölehti nimetatakse mõnikord korduvtöölehtedeks, kuna suurus, tekst ja muu teave kordub iga kord, kui tööleht sisestatakse. Töölehe loomisel saate määrata perioodi kordumise intervalli, näiteks päeva või kuu. Saate määrata ka perioodide arvu, millal tööleht postitatakse."
+title: "Perioodide tükeldamine perioodilistes töölehtedes"
+description: "Selles teemas antakse Tšehhi Vabariigi, Eesti, Ungari, Läti, Leedu, Poola ja Venemaa juriidilistele isikutele teavet perioodide tükeldamise kohta perioodilistes töölehtedes või korduvates töölehtedes."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +18,14 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 73ccfc906e8d7a91e7bae5ae21d9ddad9d58f109
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 4fda7ad6405b00597eca354d5822f388e1ef164e
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
-# <a name="split-periods-in-periodic-journals"></a>Tükeldatud perioodid perioodilistes töölehtedes
+# <a name="split-periods-in-periodic-journals"></a>Perioodide tükeldamine perioodilistes töölehtedes
 
 [!include[banner](../includes/banner.md)]
 

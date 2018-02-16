@@ -3,11 +3,12 @@ title: Kliendi osalises summas maksed
 description: "Mõnikord teevad kliendid makse, mis on arve summast väiksem. See artikkel kirjeldab mitmesuguseid valikuid selle olukorra käsitlemiseks. Teile saadaolevad valikud sõltuvad teie ärivajadustest ja konfiguratsioonist."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c2ba17b97bf7a00ff111e72314e98f5af7aaed80
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -41,7 +42,7 @@ Kliendid võivad teha osalise makse, sest neil ei pruugi olla kogu arve maksmise
 Saate pakkuda klientidele enne tähtaegselt tasutud arve puhul skontot. Näiteks sisestate arve summas 100,00, millel on määratud skonto 2%, kui arve tasutakse 10 päeva jooksul. Tähtaeg on 30 päeva. Kui saate makse 98,00 10 päeva jooksul, sisestate makse 98,00. Kui arve on tasakaalustamiseks märgitud, võetakse skonto automaatselt.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Osalised maksed skontodega
-Osalise makse tegemisel kavatsevad kliendid ilmselt teha täiendava osamakse arve täielikuks tasakaalustamiseks. Osamakse puhul skonto kasutamiseks seadke lehel **Müügireskontro parameetrid** valiku **Arvuta skontod osaliste maksete jaoks** sätteks **Jah**. 
+Osalise makse tegemisel kavatsevad kliendid ilmselt teha täiendava osamakse arve täielikuks tasakaalustamiseks. Osamakse puhul skonto kasutamiseks seadke lehel **Müügireskontro parameetrid** jaotise **Arvuta skontod osaliste maksete jaoks** suvandi väärtuseks **Jah**. 
 
 Näiteks pakute 2% skontot, kui arve tasutakse kümne päeva jooksul pärast selle väljastamist. Arve summas 100,00 on sisestatud. Kui saate makse 49,00 10 päeva jooksul, sisestate krediidi 49,00 maksetöölehele. Kui tasakaalustate osalise makse lehel **Kannete tasakaalustamine**, ilmub **1,00** väljale **Skonto summa võtmiseks**. Allahindluse summa sisestatakse skontokontole. 
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -24,6 +25,8 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="invoice-processing"></a>Arve töötlemine
+
+[!include[banner](../includes/banner.md)]
 
 See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i sisene käibemaks (KM) ja viitmaks. Mõne Euroopa riigi seadusenõuded mõjutavad arveldusprotsessi. Selles teemas on teave ka selle kohta, kuidas nende riikide puhul klientide ja hankijate arveid töödeldakse. 
 <table>

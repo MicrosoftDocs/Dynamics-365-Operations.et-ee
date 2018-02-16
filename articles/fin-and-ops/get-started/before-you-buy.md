@@ -1,7 +1,7 @@
 ---
 title: Enne ostmist
 description: "Üksikasjalikud juhised, kui kaalute rakenduse Dynamics 365 for Finance and Operations, Enterprise edition ostmist."
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ Saate rakendust Dynamics 365 for Finance and Operations proovida 30 päeva jooks
 
 ## <a name="step-two-choose-a-deployment-option"></a>Teine etapp: juurutamisvaliku tegemine
 Nüüd saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis pilve või kohapealselt. Pilvejuurutus pakub ERP-teenust, mida haldab täielikult Microsoft, samas kui kohapealseid juurutusi hallatakse kohapeal kliendi andmekeskuses.
-Lisateavet vaadake jaotisest [Juurutusvalikud](../../dev-itpro/deployment/choose-deployment-type.md) 
+
+Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
+- Regulatiivsed ja nõuetelevastavuse nõuded, mis ei ole saadaval [pilvesertides](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Ühenduseta äriprotsess ajutise Interneti-ühendusega, mida on vaja rakendusse Microsoft Dynamics Lifecycle Services (LCS) ligipääsemiseks rakenduste tööea haldamiseks
+- [Funktsioonid, mida pole praegu kohapealsetes juurutustes rakendatud](features-not-implemented-on-prem.md)
+- [Minimaalsed taristunõuded](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition asutusesiseseid juurutusi ei toetata avaliku pilve infrastruktuurides, sh Azure. 
+
+Lisateavet vaadake jaotisest [Juurutusvalikud](../../dev-itpro/deployment/choose-deployment-type.md)
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Kolmas etapp: tellimuse ostmine ja haldamine
 Tellimisvalikutega tutvumiseks minge [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing) hinnakirjalehele. See leht sisaldab mitut erinevat plaani vastavalt teie organisatsiooni vajadustele.

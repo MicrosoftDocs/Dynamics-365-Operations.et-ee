@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: f3f6690d661ca30b5f3a9dacc75f7b8c6ec36e24
+ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
+ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -116,6 +116,12 @@ Teavet uusimale versioonile täiendamiseks vaadake jaotisest [Viimasele uuenduse
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
+<td>Platvormivärskendus update 13</td>
+<td>7.0.4764</td>
+<td>jaanuar 2018 (See funktsioon on suunatud väljalase ja see on saadaval ainult kasutajatele, kes on registreerinud pideva automaatvärskendamise eeliste programmis (PAEP).)</td>
+<td><a href="whats-new-platform-update-13.md">Mis on uus või muutunud Dynamics 365 for Finance and Operations, Enterprise editioni platvormiuuenduses 13 (jaanuar 2018)?</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Platvormivärskendus update 12</td>

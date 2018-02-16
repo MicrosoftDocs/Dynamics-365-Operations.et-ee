@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ Kui olete viite loonud, saate luua igale kaustale või failile failisihtkoha.
 
 [![Failisihtkoha loomine](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Märkus.** Saate luua ühe faili sihtkoha igale sama vormingu väljundkomponendile (kaustale või failile), mis on valitud väljal **Faili nimi**. Seejärel saate lubada ja keelata failisihtkohti eraldi dialoogiboksis **Sihtkoha sätted**. Nuppu **Sätted** kasutatakse valitud faili sihtkohtade juhtimiseks. Dialoogiboksis **Sihtkoha sätted** saate iga sihtkohta eraldi juhtida, tehes sellele valiku **Lubatud**.
+> [Märkus.] Saate luua ühe faili sihtkoha igale sama vormingu väljundkomponendile (kaustale või failile), mis on valitud väljal **Faili nimi**. Seejärel saate lubada ja keelata failisihtkohti eraldi dialoogiboksis **Sihtkoha sätted**. Nuppu **Sätted** kasutatakse valitud faili sihtkohtade juhtimiseks. Dialoogiboksis **Sihtkoha sätted** saate iga sihtkohta eraldi juhtida, tehes sellele valiku **Lubatud**.
 
 [![Dialoogiboks Sihtkoha sätted](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -131,7 +131,7 @@ ER-i sihtkohtade puhul kasutatakse kahesuguseid õigusi ja kohustusi. Üks neist
 | PaymAccountsPayablePaymentsClerk    | Ostureskontro maksuametnik            | ERFormatDestinationRuntimeConfigure | Elektroonilise aruandluse vormingu sihtkoha konfigureerimine käitusaja jooksul |
 | PaymAccountsReceivablePaymentsClerk | Müügireskontro maksuametnik         | ERFormatDestinationRuntimeConfigure | Elektroonilise aruandluse vormingu sihtkoha konfigureerimine käitusaja jooksul |
 
-**Märkus.** Kahte õigust kasutatakse eelnevates kohustustes. Nendel õigustel on samad nimed, mis vastavatel kohustustel: **ERFormatDestinationConfigure** ja **ERFormatDestinationRuntimeConfigure**.
+> [Märkus.] Kahte õigust kasutatakse eelnevates kohustustes. Nendel õigustel on samad nimed, mis vastavatel kohustustel: **ERFormatDestinationConfigure** ja **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Olen importinud elektroonilised konfiguratsioonid ja näen neid lehel Elektroonilise aruandluse konfiguratsioonid. Miks ma ei näe neid lehel Elektroonilise aruandluse sihtkohad?
@@ -154,7 +154,7 @@ Valem on ER-i konfiguratsiooni põhine. Näiteks kui kasutate ISO 20022 kreedit�
 
 Eeltingimus on, et teie vorming peab olema elektroonilise aruandluse konfiguratsioonides kättesaadav. Kui teil on oma vorming, avage leht **Elektroonilise aruandluse sihtkoht** ja looge sellele konfiguratsioonile uus viide. Seejärel peab teil olema neli faili sihtkohta, üks iga väljundkomponendi jaoks. Looge esimene faili sihtkoht, andke sellele nimi (nt **Kaust**) ja valige failinimi, mis tähistab teie konfiguratsioonis olevat kausta. Siis klõpsake valikut **Sätted** ja veenduge, et kõik sihtkohad oleksid keelatud. Selle faili sihtkoha jaoks ei looda kausta. Vaikimisi (hierarhiliste sõltuvuste tõttu failide ja põhikaustade vahel) käituvad failid samamoodi. Teisisõnu ei saadeta neid kuhugi. Selle vaikekäitumise alistamiseks tuleb luua veel kolm faili sihtkohta, üks iga faili jaoks. Igaühe sihtkoha sätetes tuleb lubada sihtkoht, kuhu fail tuleks saata.
 
-# <a name="see-also"></a>Vt ka
+## <a name="see-also"></a>Vt ka
 
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 

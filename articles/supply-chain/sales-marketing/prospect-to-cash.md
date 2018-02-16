@@ -3,12 +3,12 @@ title: Potentsiaalne klient sularahaks
 description: "See teema annab ülevaate lahendusest Potentsiaalne klient sularahaks rakenduste Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, ja Microsoft Dynamics 365 for Sales vahel."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: crytt
-ms.dyn365.ops.intro: July 2017 update
+ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f169b0ee20a7ca0c8d05c8bdcf2c04d411722f01
-ms.openlocfilehash: ff166f89d13acbc3aefcbdb39f485881c81cb42c
+ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
+ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,17 +31,21 @@ ms.lasthandoff: 12/21/2017
 
 [!include[banner](../includes/banner.md)]
 
-Lahendus Potentsiaalne klient sularahaks võimaldab vahetut sünkroonimist rakenduste Dynamics 365 for Finance and Operations, Enterprise Edition, ja Dynamics 365 for Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Finance, Operations ja Sales vahel. Andmete edastamise ajal rakenduste Finance and Operations ja Sales vahel saate teha Salesis müügi- ja turundustegevusi ning täita Finance and Operationsis varude halduse abil tellimusi.
+Lahendus Potentsiaalne klient sularahaks võimaldab vahetut sünkroonimist rakenduste Dynamics 365 for Finance and Operations, Enterprise Edition, ja Dynamics 365 for Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Finance, Operations ja Sales vahel. Andmete edastamise ajal rakenduste Finance and Operations ja Sales vahel saate teha Salesis müügi- ja turundustegevusi ning täita Finance and Operationsis varude halduse abil tellimusi. 
+
+Lisateabe saamiseks lahenduse Potentsiaalne klient sularahaks kohta vaadake lühikest YouTube’i videot:
+
+> [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
 
 Lahenduse Potentsiaalne klient sularahaks praegune versioon pakub vahetu sünkroonimise järgmisi tüüpe.
 
 - [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusest Sales rakendusega Finance and Operations.](accounts-template-mapping-direct.md)
 - [Toodete haldamine rakenduses Finance and Operations ja nende vahetu sünkroonimine rakendusega Sales](products-template-mapping-direct.md)
 - [Kontaktide haldamine rakenduses Sales ja nende vahetu sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](contacts-template-mapping-direct.md)
-- [Rakenduse Sales müügipakkumise vahetu sünkroonimine rakendusega Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [Rakenduse Sales müügipakkumise vahetu sünkroonimine rakendusega Finance and Operations (malli vabastamise ootel)](sales-quotation-template-mapping-sales-fin.md)
 - [Müügitellimuste vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](sales-order-template-mapping-direct.md)
-- [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel](sales-order-template-mapping-direct-two-ways.md)
-- [Rakenduse Finance and Operations müügiarvete vahetu sünkroonimine rakendusega Sales](sales-invoice-template-mapping-direct.md)
+- [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel (malli vabastamise ootel)](sales-order-template-mapping-direct-two-ways.md)
+- [Müügiarve vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](sales-invoice-template-mapping-direct.md)
 
 Lahenduse Potentsiaalne klient sularahaks varasemad versioonid pakuvad mittevahetu sünkroonimise järgmisi tüüpe.
 
@@ -54,11 +58,15 @@ Lahenduse Potentsiaalne klient sularahaks varasemad versioonid pakuvad mittevahe
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Rakenduse Finance and Operations süsteeminõuded
 
-Lahenduse Potentsiaalne klient sularahaks kasutamiseks tuleb installida järgmised komponendid.
+Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
+
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (detsember 2017)
+
+- Dynamics 365 for Finance and Operations, Enterprise Edition (detsember 2017) – rakenduse järk 7.3.11971.56116 platvormivärskendusega 12 (7.0.4709.41129)
 
 ### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017) platvormivärskendusega 8 (rakenduse järk 7.2.11792.56024 platvormi järguga 7.0.4565.16212)
+- Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017) – platvormivärskendusega 8 (rakenduse järk 7.2.11792.56024 platvormi järguga 7.0.4565.16212).
 - Nõutavad on järgmised kiirparandused.
 
     - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – see kiirparandus võimaldab müügitellimuse sünkroonimist rakendusest Sales rakendusse Finance and Operations andmete integratsiooni funktsiooni kaudu. See pakub ka mitmesuguseid muid täiustusi.
@@ -68,7 +76,7 @@ Lahenduse Potentsiaalne klient sularahaks kasutamiseks tuleb installida järgmis
     > [!NOTE]
     > KB4045570 tuleb installida ainult sellepärast, et installifail sisaldab muudatusi muudest kiirparandustest. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Rakenduse Dynamics 365 for Finance and Operations versioon 1611 (november 2016) 
+### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Rakenduse Dynamics 365 for Finance and Operations versioon 1611 (november 2016)
 
 - Rakenduse Dynamics 365 for Finance and Operations versioon 1611 (november 2016) platvormivärskendusega 8 või uuemaga
 
@@ -106,4 +114,6 @@ Lahenduse Potentsiaalne klient sularahaks kasutamiseks tuleb installida järgmis
     2. Valige **Kuva täpsem**.
     3. Kiirinstallimiseks valige regioon. Kui valite **Ei tea**, otsib süsteem kõiki regioone ja installimine võtab kauem aega.
     4. Sisestage installimise õigustega administraatorist kasutaja kasutajanimi ja parool.
+
+
 

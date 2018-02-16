@@ -3,7 +3,7 @@ title: Valemikoostaja elektroonilises aruandluses
 description: Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat.
 author: NickSelin
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
+ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
+ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/23/2017
 
 ---
 
@@ -30,94 +30,117 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat. ER-is kindla elektroonilise dokumendi vormingu koostamisel saate kasutada valemeid andmete teisendamiseks, et vastata selle dokumendi täitmise ja vormindamise nõuetele. Need valemid sarnanevad Microsoft Exceli valemitega. Valemites toetatakse erinevat tüüpi funktsioone: tekst, kuupäev ja kellaaeg, matemaatiline loogika, teave, andmetüübi teisendamine ja muud (ettevõtte domeenipõhised funktsioonid).
 
-Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat. ER-is kindla elektroonilise dokumendi vormingu koostamisel saate kasutada Microsoft Exceli sarnaseid valemeid andmete teisendamiseks, et vastata selle dokumendi täitmise ja vormindamise nõuetele. Toetatakse erinevat tüüpi funktsioone: tekst, kuupäev ja kellaaeg, matemaatiline loogika, teave, andmetüübi teisendamine ja muud (ettevõtte domeenipõhised funktsioonid).
+## <a name="formula-designer-overview"></a>Valemikoostaja ülevaade
 
-<a name="formula-designer-overview"></a>Valemikoostaja ülevaade
--------------------------
+ER toetab valemikoostajat. Seega saate koostamise ajal konfigureerida avaldisi, misa saab kasutada käitamisel järgmisteks ülesanneteks.
 
-Elektrooniline aruandlus (ER) toetab valemikoostajat. Seega saate koostamise ajal konfigureerida avaldisi, misa saab kasutada käitamisel järgmisteks ülesanneteks:
+- Microsoft Dynamics 365 for Finance and Operationsi Enterprise Editioni andmebaasist saadud andmete teisendamine. Need peavad olema sisestatud ER-i andmemudelisse, mis on mõeldud ER-vormingute andmeallikaks. (Näiteks võivad need teisendused hõlmata filtreerimist, grupeerimist ja andmetüübi konversiooni.)
+- Andmete vormindamine, mis tuleb saata loodavale elektroonilisele dokumendile kindla ER-vormingu paigutuse ja tingimuste järgi. (Näiteks võidakse vormindada kooskõlas nõutava keele, kultuuri või kodeeringuga).
+- Elektrooniliste dokumentide loomise protsessi juhtimine. (Näiteks saavad avaldised olenevalt andmete töötlemisest vormingu teatud elementide arvestamist lubada või keelata. Nad saavad ka katkestada dokumentide loomisprotsessi või saata lõppkasutajatele sõnumeid.)
 
--   teisendada Microsoft Dynamics 365 for Finance and Operationsi andmebaasist saadud andmeid. Need peavad olema asustatud ER-i andmemudelisse, mis on mõeldud ER-vormingute andmeallikaks (filtreerimine, grupeerimine, andmetüübi konversioon jne);
--   vormindada andmeid, mis tuleb saata elektroonilisele dokumendile kindla ER-vormingu paigutuse ja tingimuste järgi (kooskõlas nõutava keele või kultuuriga, kodeeringuga jne);
--   juhtida elektroonilise dokumendi loomise protsessi (vormingu teatud elementide arvestamise lubamine/keelamine olenevalt andmete töötlemisest, dokumentide loomise katkestamisest, lõppkasutajatele sõnumite saatmisest jne).
+**Valemikoostaja** lehe saate avada järgmiste tegevuste käigus.
 
-Valemikoostaja lehe saab avada järgmiste tegevuste käigus.
-
--   Andmeallika kaupade sidumine andmemudeli komponentidega.
--   Andmeallika kaupade sidumine vormingu komponentidega.
--   Arvutatud väljade täielik haldamine andmeallikate osana.
--   Kasutaja sisendparameetrite nähtavustingimuste määratlemine.
--   Vormingu teisenduste kujundamine.
--   Vormingu komponentide lubamistingimuste määratlemine.
--   Vormingu failikomponentide failinimede määratlemine.
--   Protsessi juhtimise kinnituste tingimuste määratlemine.
--   Protsessi juhtimise kinnituste teate tekstide määratlemine.
+- Andmeallika kaupade sidumine andmemudeli komponentidega.
+- Andmeallika kaupade sidumine vormingu komponentidega.
+- Andmeallikate osana esinevate arvutatud väljade täielik haldamine.
+- Kasutaja sisendparameetrite nähtavustingimuste määratlemine.
+- Vormingu teisenduste kujundamine.
+- Vormingu komponentide lubamistingimuste määratlemine.
+- Vormingu failikomponentide failinimede määratlemine.
+- Protsessi juhtimise kinnituste tingimuste määratlemine.
+- Protsessi juhtimise kinnituste teate tekstide määratlemine.
 
 ## <a name="designing-er-formulas"></a>ER-i valemite koostamine
+
 ### <a name="data-binding"></a>Andmete sidumine
 
-ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis teisendab andmeid, mis saadakse andmeallikatest, nii et käitamisel saab andmeid asustada andmete tarbijas:
+ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis teisendab andmeid, mis saadakse andmeallikatest, nii et käitamisel saab andmeid sisestada andmete tarbijas:
 
--   Dynamics 365 for Finance and Operationsi andmeallikatest ja käitamisaja parameetritest ER-i andmemudelisse;
--   ER-i andmemudelist ER-i vormingusse;
--   Dynamics 365 for Finance and Operationsi andmeallikatest ja käitamisaja parameetritest ER-i vormingusse.
+- Dynamics 365 for Finance and Operationsi andmeallikatest ja käitamisaja parameetritest ER-i andmemudelisse;
+- ER-i andmemudelist ER-i vormingusse;
+- Dynamics 365 for Finance and Operationsi andmeallikatest ja käitamisaja parameetritest ER-i vormingusse.
 
-Järgmisel joonisel on seda tüüpi avaldise kujundus. Selles näites annab avaldis Dynamics 365 for Finance and Operationsi tabeli **Intrastat** välja **Intrastat.AmountMST** väärtuse pärast selle väärtuse ümardamist kahe kümnendkohani. [![picture-expression-binding](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg) Järgmisel joonisel on näidatud, kuidas saab seda tüüpi avaldist kasutada. Selles näites on koostatud avaldise tulem lisatud andmemudeli **Maksu aruandluse mudel** komponendile **Transaction.InvoicedAmount**. [![picture-expression-binding2](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg) Käitusajal ümardab koostatud valem (**ROUND (Intrastat.AmountMST, 2)**) välja **AmountMST** väärtuse tabeli **Intrastat** iga kirje puhul kahe kümnendkohani ja sisestab ümardatud väärtuse andmemudeli **Maksu aruandlus** komponenti **Transaction.InvoicedAmount**.
+Järgmisel joonisel on seda tüüpi avaldise kujundus. Selles näites ümardab avaldis Dynamics 365 for Finance and Operationsi tabeli Intrastat välja **Intrastat.AmountMST** väärtuse kahe kümnendkohani ning annab siis ümardatud väärtuse.
+
+[![Andmete sidumine](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+
+Järgmine joonis näitab, kuidas seda tüüpi avaldist saab kasutada. Selles näites on koostatud avaldise tulem sisestatud andmemudeli **Maksu aruandluse mudel** komponendile **Transaction.InvoicedAmount**.
+
+[![Kasutatav andmete sidumine](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+
+Käitusajal ümardab koostatud valem **ROUND (Intrastat.AmountMST, 2)** välja **AmountMST** väärtuse tabeli Intrastat iga kirje puhul kahe kümnendkohani. Seejärel sisestab see ümardatud väärtuse andmemudeli **Maksu aruandlus** komponenti **Transaction.InvoicedAmount**.
 
 ### <a name="data-formatting"></a>Andmete vormindamine
 
-ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis vormindab andmeid, mis saadakse andmeallikatest, nii et andmeid saab saata elektroonilise dokumendi loomise osana. Kui teil on vorming, mida tuleb rakendada tüüpilise reeglina, mida tuleb vormingu puhul taaskasutada, saate kasutada seda vormingut ühe korra vormingu konfiguratsioonis nimega teisendusena, millel on vormindamisavaldis. Selle nimelise teisenduse saab siduda paljude vormingu komponentidega, mille väljund peab olema vormindatud vastavalt loodud avaldisele. Järgmisel joonisel on seda tüüpi teisenduse kujundus. Selles näites võtab teisendus **TrimmedString** andmetüübi **String** sissetulevad andmed ning kärbib stringi väärtuse andmisel algus- ja lõputühikud. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) Järgmine joonis näitab, kuidas seda tüüpi teisendust saab kasutada. Selles näites viitavad mitu vormingu komponenti, mis saadavad teksti käitusajal väljundina elektroonilise dokumendi loomisel, teisendusele **TrimmedString** nime järgi. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Kui vormingu komponendid viitavad teisendusele **TrimmedString**(näiteks komponendi **partyName** puhul eelmises näites), saadab see teksti väljundina loodavasse dokumenti. Tekst ei sisalda algus- ega lõputühikuid. Kui teil on vorming, mida tuleb rakendada eraldi, saab selle kasutusele võtta kindla vormingu komponendi sidumise üksiku avaldisena. Järgmisel joonisel on seda tüüpi avaldis. Selles näites on vormingu komponent **partyType** seotud andmeallikaga avaldise kaudu, mis teisendab sissetulevad andmeallika andmed väljalt **Model.Company.RegistrationType** suurtäheliseks tekstiks ja saadab selle teksti väljundina elektroonilisse dokumenti. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis vormindab andmeid, mis saadakse andmeallikatest, nii et andmeid saab saata elektroonilise dokumendi loomise osana. Teil võib olla vorming, mida tuleb rakendada tüüpilise reeglina, mida tuleb vormingu puhul taaskasutada. Sel juhul saate seda vormingut kasutada ühe korra vormingu konfiguratsioonis nimega teisendusena, millel on vormindamisavaldis. Selle nimelise teisenduse saab siduda paljude vormingu komponentidega, mille väljund peab olema vormindatud vastavalt loodud vormindamisavaldisele.
+
+Järgmisel joonisel on seda tüüpi teisenduse kujundus. Selles näites kärbib teisendus **TrimmedString** andmetüübi **String** sissetulevad andmed, eemaldades algus- ja lõputühikud. Seejärel annab see kärbitud stringi väärtuse.
+
+[![Teisendus](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+
+Järgmine joonis näitab, kuidas seda tüüpi teisendust saab kasutada. Selles näites saadavad mitu vormingu komponenti teksti käitusajal väljundina loodavale elektroonilisele dokumendile. Kõik need vormingukomponendid viitavad teisendusele **TrimmedString** nime järgi.
+
+[![Kasutatav teisendamine](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+
+Kui vormingu komponendid (näiteks komponendi **partyName** puhul eelmises näites) viitavad teisendusele **TrimmedString**, saadab teisendus teksti väljundina loodavasse elektroonilisse dokumenti. See tekst ei sisalda algus- ega lõputühikuid.
+
+Kui teil on vorming, mida tuleb rakendada eraldi, saab selle kasutusele võtta kindla vormingu komponendi sidumise üksiku avaldisena. Järgmisel joonisel on seda tüüpi avaldis. Selles näites on vormingu komponent **partyType** seotud andmeallikaga avaldise kaudu, mis teisendab sissetulevad andmeallika andmed väljalt **Model.Company.RegistrationType** suurtäheliseks tekstiks. Seejärel saadab avaldis selle teksti väljundina elektroonilisse dokumenti.
+
+[![Vorminduse rakendamine üksikule komponendile](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ### <a name="process-flow-control"></a>Protsessi voo juhtimine
 
-ER-i valemikoostajat saab kasutada dokumentide loomise protsessivoo juhtimiseks kasutatavate avaldiste määratlemiseks. Saate:
+ER-i valemikoostajat saab kasutada elektrooniliste dokumentide loomise protsessivoo juhtimiseks kasutatavate avaldiste määratlemiseks. Saate teha järgmisi toiminguid.
 
--   Määratlege tingimused, mis määravad, millal tuleb dokumendi loomise protsess peatada.
--   Määrake avaldised, mis loovad lõppkasutajale sõnumeid peatatud protsesside kohta või heidavad käivitamislogi sõnumeid aruande loomise protsessi jätkamise kohta.
--   Määrake loodavate dokumentide failinimed ja juhtige nende loomise tingimusi.
+- Määratlege tingimused, mis määravad, millal tuleb dokumendi loomise protsess peatada.
+- Määrake avaldised, mis loovad kasutajale sõnumeid peatatud protsesside kohta või heidavad käivitamislogi sõnumeid aruande loomise protsessi jätkamise kohta.
+- Määrake loodavate elektrooniliste dokumentide failinimed ja juhtige nende loomise tingimusi.
 
 Iga protsessi voo juhtimise reegel on koostatud üksiku kinnitusena. Järgmisel joonisel on seda tüüpi kinnitus. Siin on selles näites oleva konfiguratsiooni selgitus.
 
--   Kinnitamine on hinnatud, kui loodavas XML-failis luuakse **INSTAT**-sõlm.
--   Kui kannete loend on tühi, lõpetab kinnitamine käivitamisprotsessi ja tagastab väärtuse **FALSE**.
--   Kinnitamine annab tõrketeate, mis sisaldab SYS70894 teksti kasutaja eelistatud keeles.
+- Kinnitamist hinnatakse, kui XML-faili loomisel luuakse **INSTAT**-sõlm.
+- Kui kannete loend on tühi, lõpetab kinnitamine käivitamisprotsessi ja tagastab väärtuse **FALSE**.
+- Kinnitamine annab tõrketeate, mis sisaldab Finance and Operationsi sildi SYS70894 teksti kasutaja eelistatud keeles.
 
-[![picture-validation](./media/picture-validation.jpg)](./media/picture-validation.jpg) ER-i valemi koostajat saab kasutada ka failinime määramiseks loodavale elektroonilisele dokumendile ja faili loomise protsessi juhtimiseks. Järgmisel joonisel on seda tüüpi protsessi voo juhtimise kujundus. Siin on selles näites oleva konfiguratsiooni selgitus.
+[![Kinnitamine](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
--   Andmeallika **model.Intrastat** kirjete loend on jagatud partiideks, millest iga sisaldab kuni 1000 kirjet.
--   Väljund loob zip-faili, mis sisaldab ühte XML-vormingus faili iga loodud partii kohta.
--   Avaldis tagastab failinime loodavatele elektroonilistele dokumentidele, liites faili nime ja laiendi. Teise partii ja kõikide järgnevate partiide puhul sisaldab faili nimi järelliitena partii ID-d.
--   Avaldis lubab (andes vatuseks väärtuse **TRUE**) faili loomise protsessi partiidele, mis sisaldavad vähemalt ühte kirjet.
+ER-i valemikoostajat saab kasutada ka failinime loomiseks loodavale elektroonilisele dokumendile ja faili loomise protsessi juhtimiseks. Järgmisel joonisel on seda tüüpi protsessi voo juhtimise kujundus. Siin on selles näites oleva konfiguratsiooni selgitus.
 
-[![picture-file-control](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+- Andmeallika **model.Intrastat** kirjete loend on jagatud partiideks. Iga partii sisaldab 1000 kirjet.
+- Väljund loob zip-faili, mis sisaldab ühte XML-vormingus faili iga loodud partii kohta.
+- Avaldis annab vastuseks failinime loodavatele elektroonilistele dokumentidele, liites faili nime ja failinime laiendi. Teise partii ja kõikide järgnevate partiide puhul sisaldab faili nimi järelliitena partii ID-d.
+- Avaldis lubab (andes vatuseks väärtuse **TRUE**) faili loomise protsessi partiidele, mis sisaldavad vähemalt ühte kirjet.
+
+[![Faili juhtimine](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ### <a name="basic-syntax"></a>Põhisüntaks
 
 ER-i avaldised võivad sisaldada mõnd või kõiki järgmistest elementidest.
 
--   Konstandid
--   Operaatorid
--   Viited
--   Teed
--   Funktsioonid
+- Konstandid
+- Tehtemärgid
+- Viited
+- Teed
+- Funktsioonid
 
 #### <a name="constants"></a>Konstandid
 
-Avaldiste koostamisel saate kasutada tekstilisi ja arvulisi konstante (väärtused, mida ei arvutata). Näiteks avaldis **VALUE („100”) + 20**kasutab arvulist konstanti 20 ja stringi konstanti 100 ning tagastab arvulise väärtuse **120**. ER-i valemikoostaja toetab paoseeriaid, mis tähendab, et saate määrata avaldise stringi, mida tuleb teisiti käsitleda. Näiteks avaldis **Lev Tolstoi „„Sõda ja rahu”” 1. osa** tagastab tekstistringi **Lev Tolstoi „Sõda ja rahu” 1. osa**.
+Avaldiste koostamisel saate kasutada tekstilisi ja arvulisi konstante (st väärtused, mida ei arvutata). Näiteks kasutab avaldis **VALUE ("100") + 20** arvulist konstanti **20** ja stringi konstanti **100** ning annab vastuseks arvulise väärtuse **120**. ER-i valemikoostaja toetab paoseeriaid. Seega saate määrata avaldise stringi, mida tuleb teisiti käsitleda. Näiteks avaldis **Lev Tolstoi „„Sõda ja rahu”” 1. osa** tagastab tekstistringi **Lev Tolstoi „Sõda ja rahu” 1. osa**.
 
 #### <a name="operators"></a>Operaatorid
 
-Järgmises tabelis on aritmeetilised tehtemärgid, mida saate kasutada põhiliste matemaatiliste tehete puhul, nagu liitmine, lahutamine, jagamine ja korrutamine.
+Järgmises tabelis on aritmeetilised tehtemärgid, mida saate kasutada põhiliste matemaatiliste tehete puhul, nagu liitmine, lahutamine, korrutamine ja jagamine.
 
-| Operaator | Tähendus              | Näide |
-|----------|----------------------|---------|
-| +        | Lisa             | 1 + 2     |
-| -        | Lahutamise eitus | 5–2 –1  |
-| \*       | Korrutamine       | 7\*8    |
-| /        | Jaotus             | 9 / 3     |
+| Operaator | Tähendus               | Näide |
+|----------|-----------------------|---------|
+| +        | Lisa              | 1 + 2     |
+| -        | Lahutamine, negatiivsus | 5-2, -1 |
+| \*       | Korrutamine        | 7\*8    |
+| /        | Jaotus              | 9 / 3     |
 
-Järgmises tabelis on võrdlemise tehtemärgid, mida toetatakse ning mida saate kasutada kahe väärtuse võrdlemiseks.
+Järgmises tabelis kuvatakse toetatud võrdlemise tehtemärgid. Neid tehtemärke saate kasutada kahe väärtuse võrdlemiseks.
 
 | Operaator | Tähendus                  | Näide    |
 |----------|--------------------------|------------|
@@ -128,86 +151,90 @@ Järgmises tabelis on võrdlemise tehtemärgid, mida toetatakse ning mida saate 
 | &lt;=    | Väiksem kui või võrdne    | X&lt;=Y    |
 | &lt;&gt; | Pole võrdne             | X&lt;&gt;Y |
 
-Lisaks saate kasutada ja-märki (&) teksti liitmise tehtemärgina, et ühendada või liita üks või mitu tekstistringi üheks tekstiks.
+Peale selle saate kasutada ja-märki (&) teksti liitmise tehtemärgina. Nii saate ühe või mitu tekstistringi üheks tekstiks ühendada või liita.
 
-| Operaator | Tähendus     | Näide                                        |
-|----------|-------------|------------------------------------------------|
-| &        | Ühenda | „Midagi pole printida” & „: ” & „kirjeid ei leitud” |
+| Operaator | Tähendus     | Näide                                             |
+|----------|-------------|-----------------------------------------------------|
+| &        | Ühenda | "Midagi pole printida" & "&nbsp;" & "kirjeid ei leitud" |
 
-#### <a name="operator-precedence"></a>Tehete järjestus
+##### <a name="operator-precedence"></a>Tehete järjestus
 
-Liitavaldise osade arvutamise järjekord on oluline. Näiteks avaldise**1 + 4 / 2** tulemid erinevad olenevalt sellest, kas esimesena tehakse liitmis- või jagamistoiming. Saate kasutada sulge, et selgelt määratleda, kuidas avaldise väärtust leida. Näiteks näitamaks, et esimesena tuleb teha liitmistoiming, saate muuta eelnevat avaldis järgmiselt: **(1 + 4) / 2**. Kui avaldise tehted ei ole selgelt määratletud, põhineb järjekord vaikimisi järjestusel, mis on määratud toetatud tehtemärkidele. Järgmistes tabelites on tehted ja igale tehtele määratud järjestus. Kõrgema prioriteediga tehted (nt 7) arvutatakse enne madalama prioriteediga tehteid (nt 1).
+Liitavaldise osade arvutamise järjekord on oluline. Näiteks avaldise **1 + 4 / 2** tulemid erinevad olenevalt sellest, kas esimesena tehakse liitmis- või jagamistoiming. Saate kasutada sulge, et selgelt määratleda, kuidas avaldise väärtust leida. Näiteks näitamaks, et esimesena tuleb teha liitmistoiming, saate muuta eelnevat avaldis järgmiselt: **(1 + 4) / 2**. Kui avaldise tehete järjekord ei ole selgelt määratletud, põhineb see vaikejärjestusel, mis on määratud toetatud tehtemärkidele. Järgmises tabelis on toodud igale tehtemärgile määratud järjestus. Kõrgema prioriteediga tehted (nt 7) arvutatakse enne madalama prioriteediga tehteid (nt 1).
 
-| Tehtejärjestus | Operaatorid      | Süntaks                                                   |
-|------------|----------------|----------------------------------------------------------|
-| 7          | Grupeerimine       | ( … )                                                    |
-| 6          | Liikme juurdepääs  | … . …                                                    |
-| 5          | Funktsioonikutse  | … ( … )                                                  |
-| 4          | Korrutamine | … \* … … / …                                             |
-| 3          | Täiend       | … + … … - …                                              |
-| 2          | Võrdlus     | … &lt; … … &lt;= … … =&gt; … … &gt; … … = … … &lt;&gt; … |
-| 1          | Lahutamine     | … , …                                                    |
+| Tehtejärjestus | Tehtemärgid      | Süntaks                                                                  |
+|------------|----------------|-------------------------------------------------------------------------|
+| 7          | Grupeerimine       | ( … )                                                                   |
+| 6          | Liikme juurdepääs  | … . …                                                                   |
+| 5          | Funktsioonikutse  | … ( … )                                                                 |
+| 4          | Korrutamine | … \* …<br>… / …                                                         |
+| 3          | Täiend       | … + …<br>… - …                                                          |
+| 2          | Võrdlus     | … &lt; …<br>… &lt;= …<br>… =&gt; …<br>… &gt; …<br>… = …<br>… &lt;&gt; … |
+| 1          | Lahutamine     | … , …                                                                   |
 
-Samal real olevatel tehetel on võrdne prioriteet. Kui avaldis sisaldab mitut sellist tehet, arvutatakse avaldist vasakult paremale. Näiteks avaldis **1 + 6 / 2 \* 3 &gt; 5** tagastab väärtuse **tõene**. Soovitame kasutada sulge näitamaks selgelt avaldise arvutamise soovitud järjestust, et avaldisi oleks lihtsam lugeda ja hallata.
+Kui avaldis sisaldab mitut järjestikust sama järjestusega tehet, tehakse neid tehteid vasakult paremale. Näiteks avaldis **1 + 6 / 2 \* 3 &gt; 5** tagastab väärtuse **tõene**. Soovitame avaldise tehete soovitud järjestuse selgeks näitamiseks kasutada sulge, et avaldisi oleks lihtsam lugeda ja hallata.
 
 #### <a name="references"></a>Viited
 
-Kõiki praeguse ER-i komponendi (mudel või vorming) andmeallikaid, mis on avalduse koostamise ajal saadaval, saab kasutada nimega viidetena. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **ReportingDate**, mis tagastab andmetüübi **DATETIME** väärtuse. Loodavas dokumendis väärtuse õigesti vormindamiseks saate viidata avaldises andmeallikale järgmiselt: **DATETIMEFORMAT (ReportingDate, "pp-KK-aaaa")** Kõikidele viidatava andmeallika nimes olevatele tähemärkidele, mis ei kuulu tähestikku, peab eelnema ühekordne jutumärk ('). Kui viidatava andmeallika nimi sisaldab vähemalt ühte sümbolit, mis ei kuulu tähestikku (nt kirjavahemärgid või muu kirjalik sümbol), tuleb nimi panna ühekordsetesse jutumärkidesse. Järgmisena on toodud mõned näited.
+Kõiki praeguse ER-i komponendi andmeallikaid, mis on avalduse koostamise ajal saadaval, saab kasutada nimega viidetena. (Praegune ER-i komponent saab olla kas mudel või vorming.) Näiteks sisaldab praegune ER-i andmemudel andmeallikat **ReportingDate**, mis annab vastuseks andmetüübi **DATETIME** väärtuse. Loodavas dokumendis väärtuse õigesti vormindamiseks saate viidata avaldises andmeallikale järgmiselt: **DATETIMEFORMAT (ReportingDate, "pp-KK-aaaa")**.
 
--   Andmeallikale **Tänane kuupäev ja kellaaeg** tuleb viidata ER-i avaldises järgmiselt: **'Tänane kuupäev ja kellaaeg'**
--   ER-i avaldises tuleb viidata andmeallika **Kliendid** meetodile **nimi()** järgmiselt: **Kliendi.'nimi()'**
+Kõikidele viidatava andmeallika nimes olevatele tähemärkidele, mis ei kuulu tähestikku, peab eelnema ühekordne jutumärk ('). Kui viidatava andmeallika nimi sisaldab vähemalt ühte sümbolit, mis ei kuulu tähestikku, tuleb nimi panna ühekordsetesse jutumärkidesse. (Näiteks võivad need tähestikku mittekuuluvad sümbolid olla kirjavahemärgid või mis tahes muud kirjalikud sümbolid.) Järgmisena on toodud mõned näited.
 
-Pange tähele, et Dynamics 365 for Operationsi andmeallikate meetodite kutsumiseks parameetritega kasutatakse järgmist süntaksit.
+- Andmeallikale **Tänane kuupäev ja kellaaeg** tuleb viidata ER-i avaldises järgmiselt: **'Tänane kuupäev ja kellaaeg'**.
+- ER-i avaldises tuleb viidata andmeallika **Kliendid** meetodile **nimi()** järgmiselt: **Kliendi.'nimi()'**.
 
-- Süsteemi andmeallika meetod isLanguageRTL stringi andmetüübiga EN-US peab olema ER-avaldises järgmisel viisil viidatud: System.’isLanguageRTL’(“EN-US”).
-- Kui meetodi nimi sisaldab ainult tähti ja numbreid, siis ei ole jutumärgid kohustuslikud. Need on kohustuslikud sulgusid sisaldava tabelimeetodi puhul.
+Kui Dynamics 365 for Finance and Operationsi andmeallikate meetoditel on parameetrid, kasutatakse järgmist süntaksit.
 
-Kui süsteemi andmeallikas lisatakse ER-vastendusele, mis viitab Dynamics 365 for Operationsi rakendusklassile Üldine, siis annab avaldis kahendmuutuja väärtuse FALSE. Muudetud avaldis System.’ isLanguageRTL’(“AR”) annab kahendmuutuja väärtuse TRUE.
+- Kui andmeallika **System** meetodi **isLanguageRTL** andmetüübil **String** on parameeter **EN-US**, peab see meetod olema ER-avaldises viidatud järgmisel viisil: **System.'isLanguageRTL'("EN-US")**.
+- Kui meetodi nimi sisaldab ainult tähti ja numbreid, siis ei ole jutumärgid vajalikud. Need on aga vajalikud sulgusid sisaldava tabelimeetodi puhul.
 
-Pange tähele, et edastamisel sellistele meetoditele saab parameetrid määratleda järgmiste piirangutega.
+Kui andmeallikas **System** lisatakse ER-vastendusele, mis viitab rakenduse Finance and Operations rakendusklassile **Üldine**, siis annab avaldis kahendmuutuja väärtuse **FALSE**. Muudetud avaldis **System.' isLanguageRTL'("AR")** annab vastuseks kahendmuutuja väärtuse **TRUE**.
 
-- Sellistele meetoditele saab edastada ainult konstante, mille väärtus määratletakse koostamise ajal.
-- Selliste parameetrite puhul toetatakse ainult primitiivseid (põhilisi) andmetüüpe (täisarv, reaalarv, kahendmuutuja, string jne).
+Saate piirata, kuidas väärtusi selle meetoditüübi parameetritele edastatakse.
 
-#### <a name="path"></a>Tee
+- Seda tüüpi meetoditele saab edastada ainult konstante. Konstantide väärtused määratakse koostamisajal.
+- Seda tüüpi parameetrite puhul toetatakse ainult primitiivseid (põhilisi) andmetüüpe. (Primitiivsed andmetüübid on täisarv, reaalarv, kahendmuutuja, string jne).
 
-Kui avaldis viitab struktureeritud andmeallikale, saate kasutada tee määratlemist, et valida selle andmeallika kindel primitiivne element. Punkti (.) kasutatakse struktureeritud andmeallika üksikute elementide eraldamiseks. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **InvoiceTransactions**, mis tagastab kirjete loendi. Kirje struktuur **InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
+#### <a name="paths"></a>Teed
+
+Kui avaldis viitab struktureeritud andmeallikale, saate kasutada tee määratlemist, et valida selle andmeallika kindel primitiivne element. Punkti (.) kasutatakse struktureeritud andmeallika üksikute elementide eraldamiseks. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **InvoiceTransactions**, mis annab vastuseks kirjete loendi. Kirje struktuur **InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis mõlemad tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**.
 
 #### <a name="functions"></a>Funktsioonid
 
-Järgmises jaotises kirjeldatakse funktsioone, mida saab kasutada ER-i avaldistes. Kõiki avaldise konteksti (praegune ER-i andmemudel või ER-i vorming) andmeallikaid ja ka konstante saab kasutada helistamisfunktsioonide parameetritena vastavalt helistamisfunktsiooni argumentide loendile. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **InvoiceTransactions**, mis tagastab kirjete loendi. Kirje struktuur **InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise, mis kasutab sisseehitatud ER-i ümardamisfunktsiooni: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
+Järgmises jaotises kirjeldatakse funktsioone, mida saab kasutada ER-i avaldistes. Kõiki avaldise konteksti (praegune ER-i andmemudel või ER-i vorming) andmeallikaid saab kasutada helistamisfunktsioonide parameetritena vastavalt funktsioonide käivitamine argumentide loendile. Konstante saab kasutada ka funktsioonide käivitamise parameetritena. Näiteks praegune ER-i andmemudel sisaldab andmeallikat **InvoiceTransactions**, mis annab vastuseks kirjete loendi. Kirje struktuur **InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis mõlemad tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise, mis kasutab sisseehitatud ER-i ümardamisfunktsiooni: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**.
 
 ## <a name="supported-functions"></a>Toetatud funktsioonid
-Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida saate kasutada ER-i andmemudelite ja ER-i aruannete koostamiseks. Funktsioonide loend ei ole fikseeritud ja arendajad saavad seda laiendada. Võimalike funktsioonide loendi nägemiseks minge ER-i valemikoostaja funktsioonide paanile.
+
+Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida saate kasutada ER-i andmemudelite ja ER-i aruannete koostamiseks. Funktsioonide loend ei ole fikseeritud. Arendajad saavad seda laiendada. Võimalike funktsioonide loendi nägemiseks avage ER-i valemikoostaja funktsioonide paan.
 
 ### <a name="date-and-time-functions"></a>Kuupäeva ja kellaaja funktsioonid
 
-| Funktsioon                                   | Kirjeldus                                                                                                                                                                                                                                                                                                                                                      | Näide                                                                                                                                                                                                                                                                                               |
-|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ADDDAYS (kuupäev, kellaaeg, päevad)                   | Lisage määratud kuupäeva ja kellaaja väärtusele määratud päevade arv.                                                                                                                                                                                                                                                                                                | **ADDDAYS (NOW(), 7)** tagastab kuupäeva ja kellaaja seitsme päeva pärast.                                                                                                                                                                                                                            |
-| DATETODATETIME (kuupäev)                      | Teisendage määratud kuupäeva väärtus kuupäeva ja kellaaja väärtuseks.                                                                                                                                                                                                                                                                                                            | **DATETODATETIME (CompInfo. 'getCurrentDate()')** annab vastuseks praeguse Finance and Operationsi seansi kuupäeva 12/24/2015 kujul **12/24/2015 12:00:00 AM**. Selles näites on **CompInfo** tüübi **Finance and Operations / tabel** ER-i andmeallikas, mis viitab tabelile CompanyInfo. |
-| NOW ()                                     | Tagastab Finance and Operationsi rakenduseserveri praeguse kuupäeva ja kellaaja kuupäeva- ja kellaajaväärtusena.                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                       |
-| TODAY ()                                   | Tagastab Finance and Operationsi rakenduseserveri kuupäeva kuupäevaväärtusena.                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                       |
-| NULLDATE ()                                | Tagastab kuupäeva väärtuse **null**.                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                       |
-| NULLDATETIME ()                            | Tagastab kuupäeva ja kellaaja väärtuse **null**.                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                       |
-| DATETIMEFORMAT (kuupäev ja kellaaeg, vorming)          | Teisendage määratud kuupäeva ja kellaaja väärtus määratud vormingus stringiks. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)                                                                        | **DATETIMEFORMAT (NOW(), „pp-KK-aaaa”)** tagastab praeguse Finance and Operationsi rakenduseserveri kuupäeva, 24.12.2015, kujul **„24-12-2015”** vastavalt määratud kohandatud vormingule.                                                                                                          |
-| DATETIMEFORMAT (kuupäev ja kelaaeg, vorming, kultuur) | Teisendage määratud kuupäeva ja kellaaja väärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) stringiks. (Teavet toetatud vormingute kohta vt jaotistest [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** tagastab Finance and Operationsi rakenduseserveri praeguse kuupäeva, 12/24/2015, kujul **„24.12.2015”** vastavalt valitud saksa kultuurile.                                                                                                             |
-| SESSIONTODAY ()                            | Tagastab Dynamics 365 for Finance and Operationsi seansi praeguse kuupäeva kuupäevaväärtusena.                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                       |
-| SESSIONNOW ()                              | Tagastab Dynamics 365 for Finance and Operationsi seansi praeguse kuupäeva ja kellaaja kuupäeva- ja kellaajaväärtusena.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
-| DATEFORMAT (kuupäev, vorming)                  | Annab stringi kujul esitatud kuupäeva, kasutades määratud vormingut.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "pp-KK-aaaa")** tagastab Dynamics 365 for Finance and Operationsi rakenduseserveri praeguse kuupäeva, 12/24/2015, kujul **„24-12-2015”** vastavalt määratud kohandatud vormingule.                                                                                                                      |
-| DATEFORMAT (kuupäev, vorming, kultuur)         | Teisendage määratud kuupäevaväärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) stringiks. (Teavet toetatud vormingute kohta vt jaotistest [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** annab vastuseks Finance and Operationsi seansi kuupäeva 12/24/2015 kujul **„24.12.2015”** vastavalt valitud saksa kultuurile.                                                                                                                       |
-| DAYOFYEAR (kuupäev)              | Annab vastuseks 1. jaanuari ja määratud kuupäeva vahelise päevade arvu täisarvuna.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** annab vastuseks **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** annab vastuseks **1**. 
-                                                                                                                      |
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| ADDDAYS (kuupäev, kellaaeg, päevad) | Lisage määratud kuupäeva ja kellaaja väärtusele määratud päevade arv. | **ADDDAYS (NOW(), 7)** tagastab kuupäeva ja kellaaja seitsme päeva pärast. |
+| DATETODATETIME (kuupäev) | Teisendage määratud kuupäeva väärtus kuupäeva ja kellaaja väärtuseks. | **DATETODATETIME (CompInfo. 'getCurrentDate()')** annab vastuseks praeguse Finance and Operationsi seansi kuupäeva 24. detsember 2015 kujul **12/24/2015 12:00:00 AM**. Selles näites on **CompInfo** tüübi **Finance and Operations / tabel** ER-i andmeallikas ja viitab tabelile CompanyInfo. |
+| NOW () | Annab vastuseks Finance and Operationsi rakenduseserveri praeguse kuupäeva ja kellaaja kuupäeva- ja kellaaja väärtusena. | |
+| TODAY () | Tagastab Finance and Operationsi rakenduseserveri kuupäeva kuupäevaväärtusena. | |
+| NULLDATE () | Tagastab kuupäeva väärtuse **null**. | |
+| NULLDATETIME () | Annab vastuseks kuupäeva ja kellaaja väärtuse **null**. | |
+| DATETIMEFORMAT (kuupäev ja kellaaeg, vorming) | Teisendage määratud kuupäeva ja kellaaja väärtus määratud vormingus stringiks. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), „pp-KK-aaaa”)** annab vastuseks praeguse Finance and Operationsi rakenduseserveri kuupäeva 24. detsember 2015 kujul **"24-12-2015"** määratud kohandatud vormingu kohaselt. |
+| DATETIMEFORMAT (kuupäev ja kelaaeg, vorming, kultuur) | Teisendage määratud kuupäeva ja kellaaja väärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) stringiks. (Teavet toetatud vormingute kohta vt jaotistest [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), "d", "de")** annab vastuseks Finance and Operationsi rakenduseserveri praeguse kuupäeva 24. detsember 2015 kujul **"24.12.2015"** valitud saksa kultuuri kohaselt. |
+| SESSIONTODAY () | Annab vastuseks Finance and Operationsi seansi kuupäeva kuupäevaväärtusena. | |
+| SESSIONNOW () | Annab vastuseks Finance and Operationsi seansi praeguse kuupäeva ja kellaaja kuupäeva- ja kellaaja väärtusena. | |
+| DATEFORMAT (kuupäev, vorming) | Annab vastuseks määratud kuupäeva määratud vormingus stringi kujul. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** annab vastuseks praeguse Finance and Operationsi seansi kuupäeva 24. detsember 2015 kujul **"24-12-2015"** määratud kohandatud vormingu kohaselt. |
+| DATEFORMAT (kuupäev, vorming, kultuur) | Teisendage määratud kuupäevaväärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) stringiks. (Teavet toetatud vormingute kohta vt jaotistest [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** annab vastuseks Finance and Operationsi seansi praeguse kuupäeva 24. detsember 2015 kujul **"24.12.2015"** valitud saksa kultuuri kohaselt. |
+| DAYOFYEAR (kuupäev) | Annab vastuseks 1. jaanuari ja määratud kuupäeva vahelise päevade arvu täisarvuna. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** annab vastuseks **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** annab vastuseks **1**. |
+| DAYS (kuupäev 1, kuupäev 2) | Annab vastuseks esimese määratud kuupäeva ja teise määratud kuupäeva vahele jäävate päevade arvu. Annab vastuseks positiivse väärtuse, kui esimene kuupäev on hilisem kui teine kuupäev; annab vastuseks **0** (nulli), kui esimene kuupäev võrdub teise kuupäevaga; muul juhul annab vastuseks negatiivse väärtuse. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** annab vastuseks **-1**. |
 
-**Andmete teisendamise funktsioonid**
+### <a name="data-conversion-functions"></a>Andmete teisendamise funktsioonid
 
-| Funktsioon                                   | Kirjeldus                                                                                                                                                                                                                                                                                                                                                      | Näide                                                                                                                                                                                                                                                                                               |
-|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DATETODATETIME (kuupäev)                 | Teisendage määratud kuupäeva väärtus kuupäeva ja kellaaja väärtuseks.           | **DATETODATETIME (CompInfo. 'getCurrentDate()')** annab vastuseks praeguse Finance and Operationsi seansi kuupäeva 12/24/2015 kujul **12/24/2015 12:00:00 AM**. Selles näites on **CompInfo** tüübi **Finance and Operations / tabel** ER-i andmeallikas, mis viitab tabelile **CompanyInfo**.                                                                                                                       |
-| DATEVALUE (string, vorming)              | Annab vastuseks kuupäeva kujul esitatud stringi, kasutades määratud vormingut.       | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** annab vastuseks kuupäeva 12/21/2016 määratud kohandatud vormingu ja vaikerakenduse kultuuri **EN-US** kohaselt.                                                                                                                       |
-| DATEVALUE (string, vorming, kultuur)              | Annab kuupäeva kujul esitatud stringi, kasutades määratud vormingut ja kultuuri.       | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", “IT”)** annab vastuseks kuupäeva 01/21/2016, määratud kohandatud vormingu ja kultuuri põhjal. Selle funktsioonikutse **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", “EN-US”)** puhul antakse erand, mis ütleb, et antud stringi ei tuvastata kehtiva kuupäevana.                                                                                                                       |
-| DATETIMEVALUE (string, vorming)              | Annab kuupäeva ja kellaaja kujul esitatud stringi, kasutades määratud vormingut.       | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** annab vastuseks kellaaja 2:55:00 21. detsembril 2016, määratud kohandatud vormingu ja vaikerakenduse kultuuri **EN-US** kohaselt.                                                                                                                       |
-| DATETIMEVALUE (string, vorming, kultuur)              | Annab kuupäeva ja kellaaja kujul esitatud stringi, kasutades määratud vormingut ja kultuuri.       | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", “IT”)** annab vastuseks kellaaja 2:55:00 21. detsembril 2016, määratud kohandatud vormingu ja kultuuri kohaselt. Selle funktsioonikutse **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", “EN-US”)** puhul antakse erand, mis ütleb, et antud stringi ei tuvastata kehtiva kuupäeva/kellaajana.                                                                                                                       |
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| DATETODATETIME (kuupäev) | Teisendage määratud kuupäeva väärtus kuupäeva ja kellaaja väärtuseks. | **DATETODATETIME (CompInfo. 'getCurrentDate()')** annab vastuseks praeguse Finance and Operationsi seansi kuupäeva 24. detsember 2015 kujul **12/24/2015 12:00:00 AM**. Selles näites on **CompInfo** tüübi **Finance and Operations / tabel** ER-i andmeallikas ja viitab tabelile CompanyInfo. |
+| DATEVALUE (string, vorming) | Annab vastuseks määratud stringi määratud vormingus kuupäeva kujul. | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** annab vastuseks kuupäeva 21. detsember 2016 määratud kohandatud vormingu ja rakenduse vaikekultuuri **EN-US** kohaselt. |
+| DATEVALUE (string, vorming, kultuur) | Annab vastuseks määratud stringi määratud vormingus ja kultuuris kuupäeva kujul. | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")** annab vastuseks kuupäeva 21. jaanuar 2016 määratud kohandatud vormingu ja kultuuri kohaselt. Stringiga **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** ilmneb aga erand, mis teavitab kasutajat sellest, et antud stringi ei tuvastata kehtiva kuupäevana. |
+| DATETIMEVALUE (string, vorming) | Annab vastuseks määratud stringi määratud vormingus kuupäeva ja kellaaja kujul. | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** annab vastuseks kellaaja 2:55:00 21. detsembril 2016, määratud kohandatud vormingu ja rakenduse vaikekultuuri **EN-US** kohaselt. |
+| DATETIMEVALUE (string, vorming, kultuur) | Annab vastuseks määratud stringi määratud vormingus ja kultuuris kuupäeva ja kellaaja kujul. | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")** annab vastuseks kellaaja 2:55:00 21. detsembril 2016, määratud kohandatud vormingu ja kultuuri kohaselt. Stringiga **DATETIMEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** ilmneb aga erand, mis teavitab kasutajat sellest, et antud stringi ei tuvastata kehtiva kuupäeva ja kellaajana. |
+
 ### <a name="list-functions"></a>Loendi funktsioonid
 
 <table>
@@ -236,34 +263,32 @@ Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida sa
 <li>Partiid regulaarsete loenditena (komponent <strong>Väärtus</strong>)</li>
 <li>Praegune partiinumber (komponent <strong>BatchNumber</strong>)</li>
 </ul></td>
-<td>Järgmises näites luuakse andmeallikas <strong>Read</strong> kolme kirje kirjeloendina, mis on jaotatud partiideks, millest igaüks sisaldab kuni kahte kirjet. 
-<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
-
-Siin on koostatud vormi paigutus, kus luuakse andmeallika <strong>Read</strong> sidemed, et luua XML-vormingus väljund, mis esitab üksikuid sõlmi igale partiile ja selles olevale kirjele. 
-<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
-
-Siin on kujundatud vormingu käitamise tulem. 
+<td>Järgmisel joonisel luuakse andmeallikas <strong>Read</strong> kolme kirje kirjeloendina. See loend on jaotatud partiideks, millest igaüks sisaldab kuni kahte kirjet.
+<p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
+<p>Järgmisel joonisel on näidatud koostatud vormingu paigutus. Selles vormi paigutuses luuakse andmeallika <strong>Read</strong> sidemed, et luua XML-vormingus väljund. See väljund esitab üksikuid sõlmi igale partiile ja selles olevale kirjele.</p>
+<p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
+<p>Järgmisel joonisel on näidatud koostatud vormingu käitamise tulemus.</p>
 <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
-<td>LIST (kirje 1 [, kirje 2, ...])</td>
+<td>LIST (kirje 1 [, kirje 2, …])</td>
 <td>Tagastab uue loendi, mis luuakse määratud argumentidest.</td>
 <td><strong>LIST (model.MainData, model.OtherData)</strong> tagastab tühja kirje, kus väljade loend sisaldab kõiki kirjeloendite <strong>MainData</strong> ja <strong>OtherData</strong> välju.</td>
 </tr>
 <tr class="even">
-<td>LISTJOIN (loend 1, loend 2, ...)</td>
+<td>LISTJOIN (loend 1, loend 2, …)</td>
 <td>Tagastab ühendatud loendi, mis luuakse määratud argumentide loenditest.</td>
-<td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> tagastab kuue kirje loendi, kus andmetüübi <strong>STRING</strong> üks väli sisaldab üksikuid tähti.</td>
+<td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> annab vastuseks kuue kirje loendi, kus andmetüübi <strong>STRING</strong> üks väli sisaldab üksikuid tähti.</td>
 </tr>
 <tr class="odd">
 <td>ISEMPTY (loend)</td>
-<td>Tagastab väärtuse <strong>TRUE</strong>, kui määratud loend ei sisalda ühtki elementi. Muidu tagastatakse väärtus <strong>FALSE</strong>.</td>
+<td>Annab vastuseks väärtuse <strong>TRUE</strong>, kui määratud loend ei sisalda ühtki elementi. Muidu tagastatakse väärtus <strong>FALSE</strong>.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>EMPTYLIST (loend)</td>
 <td>Tagastab tühja loendi, kasutades määratud loendit loendi struktuuri allikana.</td>
-<td><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> tagastab uue tühja loendi, millel on sama struktuur nagu loendil, mille tagastab funktsioon <strong>SPLIT</strong>.</td>
+<td><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> annab vastuseks uue tühja loendi, millel on sama struktuur nagu loendil, mille annab vastuseks funktsioon <strong>SPLIT</strong>.</td>
 </tr>
 <tr class="odd">
 <td>FIRST (loend)</td>
@@ -282,23 +307,23 @@ Siin on kujundatud vormingu käitamise tulem.
 </tr>
 <tr class="even">
 <td>ALLITEMS (tee)</td>
-<td>Tagastab uue lameloendi, mis kajastab kõiki konkreetsele teele vastavaid üksusi. Tee peab olema määratletud kehtiva andmeallika teena kirjeloendi andmetüübi andmeallika elemendini. Tee stringi, kuupäeva jm andmeelemendini peaks ER-i avaldisekoostajas andma kujundusajal tõrke.</td>
+<td>Tagastab uue lameloendi, mis kajastab kõiki konkreetsele teele vastavaid üksusi. Tee peab olema määratletud kirjeloendi andmetüübi andmeallika elemendi kehtiva andmeallika teena. Andmeelemendid, nagu tee stingi või kuupäevani, peaks ER-i avaldisekoostajas andma koostamise ajal tõrke.</td>
 <td>Kui sisestate andmeallikaks <strong>SPLIT(&quot;abcdef&quot; , 2)</strong>, tagastab <strong>COUNT( ALLITEMS (DS.Value))</strong> väärtuse <strong>3</strong>.</td>
 </tr>
 <tr class="odd">
 <td>ORDERBY (loend [, avaldis 1, avaldis 2, …])</td>
-<td>Tagastab määratud loendi, mis on sorditud vastavalt määratud argumentidele, mida saab määratleda avaldistena.</td>
-<td>Kui <strong>Hankija</strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, tagastab<strong>ORDERBY (Vendors, Vendors.'name()')</strong> hankijate loendi, mis on sorditud nimede järgi kasvavas järjestuses.</td>
+<td>Annab vastuseks määratud loendi pärast seda, kui seda on sorditud määratud argumentide kohaselt. Neid argumente saab määratleda avaldistena.</td>
+<td>Kui <strong>Hankija</strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab<strong>ORDERBY (Vendors, Vendors.'name()')</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kasvavas järjestuses.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (loend)</td>
 <td>Tagastab määratud loendi vastupidises sortimisjärjestuses.</td>
-<td>Kui <strong>Hankija </strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, tagastab <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> hankijate loendi, mis on sorditud nimede järgi kahanevas järjestuses.</td>
+<td>Kui <strong>Hankija </strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kahanevas järjestuses.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (loend, tingimus)</td>
-<td>Tagastab määratud loendi, mida on filtreeritud vastavalt määratud tingimusele. Erinevalt funktsioonist <strong>FILTER</strong> rakendatakse määratud tingimus mälus olevale loendile.</td>
-<td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, tagastab <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> hankijate loendi, mis kuulub hankijate gruppi 40.</td>
+<td>Annab vastuseks määratud loendi pärast seda, kui seda on filtreeritud määratud tingimuse kohaselt. Määratud tingimust rakendatakse mälus olevale loendile. Nii erineb funktsioon <strong>WHERE</strong> funktsioonist <strong>FILTER</strong>.</td>
+<td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab vastuseks <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> hankijate loendi, mis kuulub hankijate gruppi 40.</td>
 </tr>
 <tr class="even">
 <td>ENUMERATE (loend)</td>
@@ -307,13 +332,11 @@ Siin on kujundatud vormingu käitamise tulem.
 <li>Määratud loendikirjed regulaarsete loenditena (komponent <strong>Väärtus</strong>)</li>
 <li>Praegune kirje indeks (komponent <strong>Number</strong>)</li>
 </ul></td>
-<td>Järgmises näites on andmeallikas <strong>Nummerdatud</strong> loodud andmeallika <strong>Hankijad</strong> hankijate kirjete nummerdatud loendina, mis viitab tabelile <strong>VendTable</strong>. 
-<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
-
-Siin on vorming, kus luuakse andmete sidumised, et luua XML-vormingus väljund, mis esitab üksikuid hankijaid nummerdatud sõlmedena. 
-<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
-
-Siin on kujundatud vormingu käitamise tulem. 
+<td>Järgmises näites on andmeallikas <strong>Nummerdatud</strong> loodud andmeallika <strong>Hankijad hankijate</strong> kirjete nummerdatud loendina, mis viitab tabelile VendTable.
+<p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
+<p>Järgmine illustratsioon näitab seda vormingut. Selles vormingus luuakse andmesidemed, et luua XML-vormingus väljund. Selle väljund esitab üksikuid hankijaid nummerdatud sõlmedena.</p>
+<p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
+<p>Järgmisel joonisel on näidatud koostatud vormingu käitamise tulemus.</p>
 <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
@@ -323,155 +346,120 @@ Siin on kujundatud vormingu käitamise tulem.
 </tr>
 <tr class="even">
 <td>LISTOFFIELDS (tee)</td>
-<td>Tagastab üht järgmist tüüpi argumentidest loodud kirjete loendi.
+<td>Annab vastuseks üht järgmist tüüpi argumentidest loodud kirjete loendi.
 <ul>
 <li>Mudeli loetelu</li>
 <li>Vormingu loetelu</li>
 <li>Konteiner</li>
 </ul>
-Loodud loend koosneb järgmiste väljadega kirjetest.
+<p>Loodud loend koosneb järgmiste väljadega kirjetest:</p>
 <ul>
 <li>Nimi</li>
 <li>Silt</li>
 <li>Kirjeldus</li>
 </ul>
-Väljad Silt ja Kirjeldus tagastatakse käitusaja väärtuste juures põhinevalt vormingu keelesätetest.</td>
-<td>Järgmises näites kirjeldatakse andmemudelis kasutusele võetud loetelu. 
-<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
-
-Järgmises näites on toodud:
+Käitusajal annavad väljad <strong>Silt</strong> ja <strong>Kirjeldus</strong> vastuseks väärtused, mis põhinevad vormingu keelesätetest.</td>
+<td>Järgmises näites on andmemudelis kasutusele võetud loetelu.
+<p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
+<p>Järgmises näites on toodud järgmised üksikasjad:</p>
 <ul>
-<li>aruandesse andmeallikana sisestatud mudeli loetelu;</li>
-<li>mudeliloetelu selle funktsiooni parameetrina kasutamiseks kujundatud ER-i avaldist;</li>
-<li>loodud ER-i avaldise abil aruandesse sisestatud kirjeloendi tüübi andmeallikas.</li>
+<li>mudeli loetelu on aruandesse sisestatud andmeallikana;</li>
+<li>ER-i avaldis kasutab mudeli loetelu funktsiooni <strong>LISTOFFIELDS</strong> parameetrina;</li>
+<li>kirjeloendi tüübi andmeallikas on sisestatud aruandesse loodud ER-i avaldise abil.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
-
-Järgmises näites kirjeldatakse elektroonilise aruandluse vormingu elemente, mis on seotud funktsiooniga LISTOFFIELDS loodud kirjeloendi tüübi andmeallikaga.
-<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
-
-See on kujundatud vormingu käitamise tulemus.
-<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
-
-Märkus.</strong> Siltide ja kirjelduste tõlgitud tekst asustatakse elektroonilise aruandluse vormingu väljundis vastavalt vormingu peaelementide FAIL ja KAUST jaoks konfigureeritud keelesätetele.</td>
+<p><a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="Format" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a></p>
+<p>Järgmises näites kirjeldatakse elektroonilise aruandluse vormingu elemente, mis on seotud funktsiooniga <strong>LISTOFFIELDS</strong> loodud kirjeloendi tüübi andmeallikaga.</p>
+<p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
+<p>Järgmisel joonisel on näidatud koostatud vormingu käitamise tulemus.</p>
+<p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
+<blockquote>[!NOTE]<br>
+Siltide ja kirjelduste tõlgitud tekst sisestatakse ER-i vormingu väljundis vormingu peaelementide FAIL ja KAUST jaoks konfigureeritud keelesätete kohaselt.</blockquote></td>
 </tr>
 <tr class="odd">
-<td>STRINGJOIN (loend, välja nimi, eraldaja)</td>
-<td>Tagastab loendist välja liitväärtuste stringi valitud eraldajaga.</td>
-<td>Kui sisestasite andmeallikana DS väärtuse SPLIT("abc" , 1), tagastab avaldis STRINGJOIN (DS, DS.Value, ":") tulemi „a:b:c”</td>
+<td>LISTOFFIELDS (tee, keel)</td>
+<td>Annab vastuseks üht järgmist tüüpi argumentidest loodud kirjete loendi: mudeli loetelu, vormingu loetelu või konteiner. Loodud loend koosneb järgmiste väljadega kirjetest:
+<ul>
+<li>Nimi</li>
+<li>Silt</li>
+<li>Kirjeldus</li>
+<li>IsTranslated</li>
+</ul>
+<p>Käitusajal annavad väljad <strong>Silt</strong> ja <strong>Kirjeldus</strong> vastuseks väärtused, mis põhinevad vormingu keelesätetel ja määratud keelel. Väli <strong>Is translated</strong> näitab, et väli <strong>Silt</strong> on tõlgitud määratud keelde.</td>
+<td>Näiteks saate andmeallika tüüpi <strong>Arvutatud väli</strong> kasutada andmeallikate <strong>enumType_de</strong> ja <strong>enumType_deCH</strong> konfigureerimiseks andmemudeli loetelu <strong>enumType</strong> jaoks:
+<ul>
+<li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
+<li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
+</ul>
+Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtuse sildi saamiseks, kui selle tõlge on olemas. Kui Šveitsi saksa keele tõlget pole saadaval, on silt saksa keeles: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
 </tr>
 <tr class="even">
-<td>SPLITLISTBYLIMIT (loend, piirväärtus, piirallikas)</td>
-<td>Tükeldab loendi uueks alamloenditest koosnevaks loendiks ja tagastab tulemuse kirjeloendi sisus. Piirväärtuse parameeter määrab algse loendi tükeldamise piirväärtuse. Piirallika parameeter määrab etapi, milles kogusumma suureneb. Piirangut ei rakendata antud loendi üksikule üksusele, kui piirallikas ületab määratud piirangut.</td>
-<td>Järgmises näites kirjeldatakse näidisvormingut, kasutades andmeallikaid. 
-<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
-
-See on tarbekaupade lamedat loendit kujutava vormingu käivitamise tulemus.
-<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
-
-Järgmises näites on toodud sama vorming, mida on kohandatud, et esitada tarbekaupade loend partiidena, kus üksik partii peab sisaldama tarbekaupu kogukaaluga, mis ei tohi ületada piirangut 9.
-<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
-
-See on kohandatud vormingu käitamise tulemus. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
-
-<strong>Märkus.</strong> Piirangut ei rakendata algse loendi viimasele üksusele, kuna selle piirangu allika (mass) väärtus (11) ületab määratletud piirangut (9). Kasutage kas funktsiooni <strong>KUS</strong> või vastava vorminguelemendi avaldist <strong>Lubatud</strong>, et alamloendeid aruande loomisel vajaduse korral eirata (jätta vahele).</td>
+<td>STRINGJOIN (loend, välja nimi, eraldaja)</td>
+<td>Annab vastuseks stringi, mis koosneb määratud loendi määratud väärtuse liitväärtustest. Väärtused on eraldatud määratud eraldajaga.</td>
+<td>Kui sisestate andmeallikana (DS) väärtuse <strong>SPLIT(&quot;abc&quot; , 1)</strong>, annab avaldis <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> tulemi <strong>&quot;a:b:c&quot;</strong>.</td>
 </tr>
 <tr class="odd">
+<td>SPLITLISTBYLIMIT (loend, piirväärtus, piirallikas)</td>
+<td>Tükeldab määratud loendi uueks alamloenditest koosnevaks loendiks ja annab vastuseks tulemi kirjeloendi sisus. Piirväärtuse parameeter määratleb algse loendi tükeldamise piirväärtuse. Piirallika parameeter määratleb etapi, milles kogusumma suureneb. Piirangut ei rakendata algse loendi üksikule üksusele, kui piirallikas ületab määratud piirangut.</td>
+<td>Järgmised näited esitavad selleks kasutatavat vormingut ja andmeallikaid. 
+<p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
+<p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
+<p>Järgmisel joonisel on näidatud vormingu käitamise tulemus. Sel juhul on väljund tarbekaupade lame loend.</p>
+<p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
+<p>Järgmistes näidetes on sama vormingut kohandatud nii, et see esitab tarbekaupade loendi partiidena, kus üksik partii peab sisaldama tarbekaupu ning kogukaal ei tohi ületada piirangut 9.</p>
+<p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
+<p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
+<p>Järgmisel joonisel on näidatud kohandatud vormingu käitamise tulemus.</p>
+<p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
+<blockquote>[!NOTE]<br>
+Piirangut ei rakendata algse loendi viimasele üksusele, kuna selle piirangu allika (mass) väärtus (11) ületab määratletud piirangut (9). Kasutage kas funktsiooni <strong>KUS</strong> või vastava vorminguelemendi avaldist <strong>Lubatud</strong>, et alamloendeid aruande loomisel vajaduse korral eirata (jätta vahele).</blockquote></td>
+</tr>
+<tr class="even">
 <td>FILTER (loend, tingimus)</td>
-<td>Tagastab antud loendi, mida on filtreeritud määratud tingimuse jaoks, muutes päringut. Erinevalt funktsioonist <strong>KUS</strong> rakendatakse määratud tingimust andmebaasi tasemel kõigile tabelikirje tüüpi ER-i andmeallikatele.</td>
-<td>FILTER (hankijad, Vendors.VendGroup = &quot;40&quot;) tagastab ainult hankijate gruppi „40” kuuluvate hankijate loendi, kui <strong>Hankija</strong> on konfigureeritud tabelile <strong>VendTable</strong> viitava ER-i andmeallikana.</td>
+<td>Annab vastuseks määratud loendi pärast seda, kui päringut on muudetud filtreerima määratud tingimuse kohaselt. Erinevalt funktsioonist <strong>WHERE</strong> rakendatakse määratud tingimust andmebaasi tasemel kõigile tüübi <strong>Tabeli kirjed</strong> ER-i andmeallikatele. Loendi ja tingimuse saab määrata tabelite ja seoste abil.</td>
+  <td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab vastuseks <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> hankijate loendi, mis kuulub hankijate gruppi 40. Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile <strong>VendTable</strong>, ning <strong>parmVendorBankGroup</strong>, mis on konfigureeritud ER-i andmeallikana, annab vastuseks stringi andmetüübi väärtuse, annab <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> vastuseks ainult nende hankija kontode loendi, mis kuuluvad konkreetsesse pangagruppi.</td>
 </tr>
 </tbody>
 </table>
 
 ### <a name="logical-functions"></a>Loogilised funktsioonid
 
-| Funktsioon                                                                                | Kirjeldus                                                                                                                                                                                                                                                                     | Näide                                                                                                                                                                                                                                                      |
-|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CASE (avaldis, suvand 1, tulem 1 \[, suvand 2, tulem 2\] ... \[, vaiketulem\]) | Arvutab määratud avaldise väärtuse määratud teise suvandi suhtes. Tagastab suvandi tulemi, mis on võrdne avaldise väärtusega. Muidu tagastatakse valikuliselt sisestatud vaiketulem (viimane parameeter, millele ei eelne suvand). | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** tagastab stringi **"WINTER"**, kui praeguse Finance and Operationsi seansi kuupäev jääb vahemikku oktoober kuni detsember. Muidu tagastatakse tühi string. |
-| IF (tingimus, väärtus 1, väärtus 2)                                                        | Tagastab määratud väärtuse 1, kui antud tingimus on täidetud. Muidu tagastatakse väärtus 2. Kui väärtus 1 ja väärtus 2 on kirjed või kirjeloendid, on tulemil ainult väljad, mis on olemas mõlemas loendis.                                                                     | **IF (1=2, "condition is met", "condition is not met")** tagastab stringi **"condition is not met"**.                                                                                                                                                      |
-| NOT (tingimus)                                                                         | Tagastab määratud tingimuse tühistatud loogilise väärtuse.                                                                                                                                                                                                                   | **NOT (TRUE)** tagastab väärtuse **FALSE**.                                                                                                                                                                                                                            |
-| AND (tingimus 1\[, tingimus 2, ...\])                                                 | Tagastab väärtuse **TRUE**, kui *kõik* määratud tingimused on tõesed. Muidu tagastatakse väärtus **FALSE**.                                                                                                                                                                                            | **AND (1=1, "a"="a")** tagastab väärtuse **TRUE**. **AND (1=2, "a"="a")** tagastab väärtuse **FALSE**.                                                                                                                                                                           |
-| OR (tingimus 1\[, tingimus 2, ...\])                                                  | Tagastab väärtuse **FALSE**, kui *kõik* määratud tingimused on väärad. Tagastab väärtuse **TRUE**, kui *mõni* määratud tingimustest on tõene.                                                                                                                                                                 | **OR (1=2, "a"="a")** tagastab väärtuse **TRUE**.                                                                                                                                                                                                                      |
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| CASE (avaldis, suvand 1, tulem 1 \[, suvand 2, tulem 2\] … \[, vaiketulem\]) | Arvutab määratud avaldise väärtuse määratud teise suvandi suhtes. Annab vastuseks suvandi tulemi, mis on võrdne avaldise väärtusega. Muul juhul annab vastuseks valikulise vaiketulemi, kui see on määratud. (Vaiketulem on viimane parameeter, millele ei eelne suvand). | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** tagastab stringi **"WINTER"**, kui praeguse Finance and Operationsi seansi kuupäev jääb vahemikku oktoober kuni detsember. Muidu tagastatakse tühi string. |
+| IF (tingimus, väärtus 1, väärtus 2) | Annab vastuseks esimese määratud väärtuse, kui määratud tingimus on täidetud. Muul juhul annab vastuseks teise määratud väärtuse. Kui väärtus 1 ja väärtus 2 on kirjed või kirjeloendid, on tulemil ainult väljad, mis on olemas mõlemas loendis. | **IF (1=2, "condition is met", "condition is not met")** tagastab stringi **"condition is not met"**. |
+| NOT (tingimus) | Tagastab määratud tingimuse tühistatud loogilise väärtuse. | **NOT (TRUE)** tagastab väärtuse **FALSE**. |
+| AND (tingimus 1\[, tingimus 2, …\]) | Tagastab väärtuse **TRUE**, kui *kõik* määratud tingimused on tõesed. Muidu tagastatakse väärtus **FALSE**. | **AND (1=1, "a"="a")** tagastab väärtuse **TRUE**. **AND (1=2, "a"="a")** tagastab väärtuse **FALSE**. |
+| OR (tingimus 1\[, tingimus 2, …\]) | Tagastab väärtuse **FALSE**, kui *kõik* määratud tingimused on väärad. Tagastab väärtuse **TRUE**, kui *mõni* määratud tingimustest on tõene. | **OR (1=2, "a"="a")** tagastab väärtuse **TRUE**. |
 
 ### <a name="mathematical-functions"></a>Matemaatilised funktsioonid
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Funktsioon</th>
-<th>Kirjeldus</th>
-<th>Näide</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ABS (number)</td>
-<td>Tagastab määratud arvu (arv ilma märgita) absoluutväärtuse.</td>
-<td><strong>ABS (–1)</strong> tagastab väärtuse <strong>1</strong>.</td>
-</tr>
-<tr class="even">
-<td>POWER (number, aste)</td>
-<td>Tagastab määratud astmele määratud positiivse numbri tõstmise tulemi.</td>
-<td><strong>POWER (10, 2)</strong> tagastab väärtuse <strong>100</strong>.</td>
-</tr>
-<tr class="odd">
-<td>NUMBERVALUE (string, kümnendkohaeraldaja, arvu rühmitamise eraldaja)</td>
-<td>Teisendab määratud stringi numbriks. Määratud sümbolit kasutatakse kümnendarvu täisarvu ja murdosa eraldamiseks ja kasutatakse ka määratud tuhandete erldajat.</td>
-<td><strong>NUMBERVALUE(&quot;1 234,56&quot;, &quot;,&quot;, &quot; &quot;)</strong> tagastab väärtuse <strong>1234.56</strong>.</td>
-</tr>
-<tr class="even">
-<td>VALUE (string)</td>
-<td>Teisendab määratud stringi numbriks. Komasid ja punkte (.), loetakse komakohtade eraldajateks ning miinusmärki (–) kasutatakse negatiivse märgina. Ilmneb erand, kui määratud stringis on muid mittenumbrilisi märke.</td>
-<td><strong>VALUE (&quot;1 234,56&quot;)</strong> annab erandi.</td>
-</tr>
-<tr class="odd">
-<td>ROUND (number, kümnendkohad)</td>
-<td>Tagastab määratud numbri, mis on ümardatud määratud komakohtadeni.
-<ul>
-<li>Kui määratud kümnendkohtade väärtus on suurem kui 0 (null), ümardatakse määratud number määratud komakohtadeni.</li>
-<li>Kui määratud kümnendkohtade väärtus on 0 (null), ümardatakse määratud number lähima täisarvuni.</li>
-<li>Kui määratud kümnendkohtade väärtus on väiksem kui 0 (null), ümardatakse määratud number komakohast vasakule.</li>
-</ul></td>
-<td><strong>ROUND (1200.767, 2)</strong> ümardab kahe komakohani ja tagastab väärtuse <strong>1200,77</strong>. <strong>ROUND (1200,767, –3)</strong> ümardab lähima 1000 kordseni ja tagastab väärtuse <strong>1000</strong>.</td>
-</tr>
-<tr class="even">
-<td>ROUNDDOWN (number, kümnendkohad)</td>
-<td>Tagastab määratud numbri, mis on ümardatud allapoole (nulli poole) määratud komakohtadeni. <strong>Märkus.</strong> See funktsioon toimib nagu <strong>ROUND</strong>, kuid see ümardab alati määratud numbrit allapoole.</td>
-<td><strong>ROUNDDOWN (1200.767, 2)</strong> ümardab allapoole kahe komakohani ja tagastab väärtuse <strong>1200,76</strong>. <strong>ROUNDDOWN (1700.767, -3)</strong> ümardab allapoole lähima 1000 kordseni ja tagastab väärtuse <strong>1000</strong>.</td>
-</tr>
-<tr class="odd">
-<td>ROUNDUP (number, kümnendkohad)</td>
-<td>Tagastab määratud numbri, mis on ümardatud ülespoole (nullist eemale) määratud komakohtadeni. <strong>Märkus.</strong> See funktsioon toimib nagu <strong>ROUND</strong>, kuid see ümardab alati määratud numbrit ülespoole.</td>
-<td><strong>ROUNDUP (1200.763, 2)</strong> ümardab ülespoole kahe komakohani ja tagastab väärtuse <strong>1200,77</strong>. <strong>ROUNDUP (1200.767, -3)</strong> ümardab ülespoole lähima 1000 kordseni ja tagastab väärtuse <strong>2000</strong>.</td>
-</tr>
-</tbody>
-</table>
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| ABS (number) | Annab vastuseks määratud arvu absoluutväärtuse. (Teiste sõnadega annab vastuseks ilma märgita arvu). | **ABS (–1)** tagastab väärtuse **1**. |
+| POWER (number, aste) | Tagastab määratud astmele määratud positiivse numbri tõstmise tulemi. | **POWER (10, 2)** tagastab väärtuse **100**. |
+| NUMBERVALUE (string, kümnendkohaeraldaja, arvu rühmitamise eraldaja) | Teisendab määratud stringi numbriks. Määratud kümnendkoha eraldajat kasutatakse kümnendarvu täisarvu ja murdosa eraldamiseks. Määratud numbrikohtade rühmitamise eraldajat kasutatakse tuhandeliste eraldajana. | **NUMBERVALUE("1 234,56", ",", " ")** tagastab väärtuse **1234,56**. |
+| VALUE (string) | Teisendab määratud stringi numbriks. Komasid ja punkte (.), loetakse komakohtade eraldajateks ning miinusmärki (–) kasutatakse negatiivse märgina. Ilmneb erand, kui määratud stringis on muid mittenumbrilisi märke. | **VALUE ("1 234,56")** annab erandi. |
+| ROUND (number, kümnendkohad) | Annab vastuseks määratud numbri pärast selle ümardamist määratud arvu komakohtadeni.<ul><li>Kui kümnendkohtade parameetri väärtus on suurem kui 0 (null), ümardatakse määratud number nii paljude komakohtadeni.</li><li>Kui kümnendkohtade parameetri väärtus on **0** (null), ümardatakse määratud number lähima täisarvuni.</li><li>Kui kümnendkohtade parameetri väärtus on väiksem kui 0 (null), ümardatakse määratud number komakohast vasakule.</li></ul> | **ROUND (1200.767, 2)** ümardab kahe komakohani ja tagastab väärtuse **1200,77**. **ROUND (1200,767, –3)** ümardab lähima 1000 kordseni ja tagastab väärtuse **1000**. |
+| ROUNDDOWN (number, kümnendkohad) | Annab vastuseks määratud numbri pärast selle allapoole ümardamist määratud arvu komakohtadeni.<blockquote>[!NOTE]<br>See funktsioon toimib nagu <strong>ROUND</strong>, kuid see ümardab alati määratud numbrit allapoole (nulli poole).</blockquote> | **ROUNDDOWN (1200.767, 2)** ümardab allapoole kahe komakohani ja tagastab väärtuse **1200,76**. **ROUNDDOWN (1700.767, -3)** ümardab allapoole lähima 1000 kordseni ja tagastab väärtuse **1000**. |
+| ROUNDUP (number, kümnendkohad) | Annab vastuseks määratud numbri pärast selle ülespoole ümardamist määratud arvu komakohtadeni.<blockquote>[!NOTE]<br>See funktsioon toimib nagu <strong>ROUND</strong>, kuid see ümardab alati määratud numbrit ülespoole (nullist kaugemale).</blockquote> | **ROUNDUP (1200.763, 2)** ümardab ülespoole kahe komakohani ja tagastab väärtuse **1200,77**. **ROUNDUP (1200.767, -3)** ümardab ülespoole lähima 1000 kordseni ja tagastab väärtuse **2000**. |
 
-**Andmete teisendamise funktsioonid**
+### <a name="data-conversion-functions"></a>Andmete teisendamise funktsioonid
 
-| Funktsioon             | Kirjeldus                                                                                                                                                                                                                                     | Näide                                                                                                                                             |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| VALUE (string) | Teisendab määratud stringi numbriks. Komasid ja punkte (.), loetakse komakohtade eraldajateks ning miinusmärki (–) kasutatakse negatiivse märgina. Kui määratud stringis on muid mittenumbrilisi märke, ilmneb erand.                                                                                  | **VALUE ("1 234,56")** annab erandi.   |
-| NUMBERVALUE (string, kümnendkohaeraldaja, arvu rühmitamise eraldaja) | Teisendab määratud stringi numbriks. Määratud sümbolit kasutatakse kümnendarvu täisarvu ja murdosa eraldamiseks ja kasutatakse ka määratud tuhandete erldajat.                                                                                  | **NUMBERVALUE("1 234,56", ",", " ")** tagastab väärtuse **1234,56**.    |
-| INTVALUE (string) | Annab stringi täisarvu kujul. Kõik kümnendkohad kärbitakse.                                                                                  | **INTVALUE (“100.77”)** annab vastuseks **100**. |
-| INTVALUE (number) | Annab numbri täisarvu kujul. Kõik kümnendkohad kärbitakse.                                                                                  | **INTVALUE (-100.77)** annab vastuseks **–100**. |
-| INT64VALUE (string) | Annab stringi kujul int64. Kõik kümnendkohad kärbitakse.                                                                                  | **INT64VALUE (“22565422744”)** annab vastuseks **22565422744**. |
-| INT64VALUE (number) | Annab numbri kujul int64. Kõik kümnendkohad kärbitakse.                                                                                  | **INT64VALUE (22565422744.00)** annab vastuseks **22565422744**. |
-
-
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| VALUE (string) | Teisendab määratud stringi numbriks. Komasid ja punkte (.), loetakse komakohtade eraldajateks ning miinusmärki (–) kasutatakse negatiivse märgina. Ilmneb erand, kui määratud stringis on muid mittenumbrilisi märke. | **VALUE ("1 234,56")** annab erandi. |
+| NUMBERVALUE (string, kümnendkohaeraldaja, arvu rühmitamise eraldaja) | Teisendab määratud stringi numbriks. Määratud kümnendkoha eraldajat kasutatakse kümnendarvu täisarvu ja murdosa eraldamiseks. Määratud numbrikohtade rühmitamise eraldajat kasutatakse tuhandeliste eraldajana. | **NUMBERVALUE("1 234,56", ",", " ")** annab vastuseks tulemi **1234.56**. |
+| INTVALUE (string) | Annab vastuseks määratud stringi täisarvu kujul. Kümnendkohad kärbitakse. | **INTVALUE ("100.77")** annab vastuseks **100**. |
+| INTVALUE (number) | Annab vastuseks määratud arvu täisarvu kujul. Kümnendkohad kärbitakse. | **INTVALUE (-100.77)** annab vastuseks **–100**. |
+| INT64VALUE (string) | Annab vastuseks määratud stringi kujul int64. Kümnendkohad kärbitakse. | **INT64VALUE ("22565422744")** annab vastuseks tulemi **22565422744**. |
+| INT64VALUE (number) | Annab vastuseks määratud arvu kujul int64. Kümnendkohad kärbitakse. | **INT64VALUE (22565422744.00)** annab vastuseks **22565422744**. |
 
 ### <a name="record-functions"></a>Kirje funktsioonid
 
-| Funktsioon             | Kirjeldus                                                                                                                                                                                                                                     | Näide                                                                                                                                             |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| NULLCONTAINER (loend) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel. **Märkus.** See funktsioon on aegunud. Kasutage selle asemel funktsiooni **EMPTYRECORD**.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
-| EMPTYRECORD (kirje) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel. **Märkus.** Kirje **null** on kirje, mille kõikidel väljadel on tühi väärtus (**0** \[null\] numbrite puhul, tühi string stringide puhul jne). | **EMPTYRECORD (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**.   |
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| NULLCONTAINER (loend) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel.<blockquote>[!NOTE]<br>See funktsioon on aegunud. Kasutage selle asemel funktsiooni <strong>EMPTYRECORD</strong>.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
+| EMPTYRECORD (kirje) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel.<blockquote>[!NOTE]<br><strong>Nullkirje</strong> on kirje, mille kõikidel väljadel on tühi väärtus. Tühi väärtus on arvude puhul <strong>0</strong> (null), stringide puhul tühi string jne.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
 
 ### <a name="text-functions"></a>Tekstifunktsioonid
 
@@ -491,12 +479,12 @@ See on kohandatud vormingu käitamise tulemus. <a href="./media/ger-splitlistbyl
 <tbody>
 <tr class="odd">
 <td>UPPER (string)</td>
-<td>Tagastab määratud stringi, mis on teisendatud suurtäheliseks.</td>
+<td>Annab vastuseks määratud stringi pärast selle teisendamist suurtäheliseks.</td>
 <td><strong>UPPER(&quot;Sample&quot;)</strong> tagastab väärtuse <strong>&quot;SAMPLE&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td>LOWER (string)</td>
-<td>Tagastab määratud stringi, mis on teisendatud väiketäheliseks.</td>
+<td>Annab vastuseks määratud stringi pärast selle teisendamist väiketäheliseks.</td>
 <td><strong>LOWER (&quot;Sample&quot;)</strong> tagastab väärtuse <strong>&quot;sample&quot;</strong>.</td>
 </tr>
 <tr class="odd">
@@ -522,35 +510,40 @@ See on kohandatud vormingu käitamise tulemus. <a href="./media/ger-splitlistbyl
 <tr class="odd">
 <td>CHAR (number)</td>
 <td>Tagastab tähemärke stringi, millele viitab määratud Unicode'i number.</td>
-<td><strong>CHAR (255)</strong> tagastab väärtuse <strong>&quot;ÿ&quot;</strong>. <strong>Märkus.</strong> Tagastatud string sõltub failivormingu ülemelemendis valitud kodeeringust. Toetatud kodeeringute loendi leiate teemast <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodeeringuklass</a>.</td>
+<td><strong>CHAR (255)</strong> tagastab väärtuse <strong>&quot;ÿ&quot;</strong>.
+<blockquote>[!NOTE]<br>
+Selle funktsiooni tagastatud string sõltub failivormingu ülemelemendis valitud kodeeringust. Toetatud kodeeringute loendi leiate teemast <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodeeringuklass</a>.</blockquote>
+</td>
 </tr>
 <tr class="even">
 <td>CONCATENATE (string 1 [, string 2, …])</td>
-<td>Tagastab kõik määratud tekstistringid, mis on ühendatud üheks stringiks.</td>
-<td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> tagastab väärtuse <strong>&quot;abcdef&quot;</strong>. <strong>Märkus.</strong> Avaldis <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> tagastab samuti väärtuse <strong>&quot;abcdef&quot;</strong>.</td>
+<td>Annab vastuseks kõik määratud tekstistringid pärast nende ühendamist üheks stringiks.</td>
+<td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> tagastab väärtuse <strong>&quot;abcdef&quot;</strong>.
+<blockquote>[!NOTE]<br>
+Avaldis <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> annab vastuseks samuti väärtuse <strong>&quot;abcdef&quot;</strong>.</blockquote>
+</td>
 </tr>
 <tr class="odd">
 <td>TRANSLATE (string, muster, asendus)</td>
-<td>Tagastab määratud stringi, mille puhul kõik määratud mustri stringi märgid asendatakse määratud asendusstringis olevate vastavas kohas olevate tähemärkidega.</td>
+<td>Annab vastuseks määratud stringi pärast kõigi määratud mustri stringi märkide asendamist määratud asendusstringis olevate vastavas kohas olevate tähemärkidega.</td>
 <td><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> asendab mustri <strong>&quot;cd&quot;</strong> stringiga <strong>&quot;GH&quot;</strong> ja tagastab väärtuse <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td>REPLACE (string, muster, asendus, regulaaravaldise lipp)</td>
 <td>Kui määratud regulaaravaldise lipp on <strong>tõene</strong>, tagastatakse määratud string, mida on muudetud, rakendades regulaaravaldist, mis on määratud selle funktsiooni musterargumendina. Seda avaldist kasutatakse asendatavate tähemärkide otsimiseks. Määratud asendusargumendi tähemärke kasutatakse leitud tähemärkide asendamiseks. Kui määratud regulaaravaldise lipp on <strong>väär</strong>, toimib see funktsioon nagu väärtus <strong>TRANSLATE</strong>.</td>
-<td>  <strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> rakendab regulaaravaldist, mis eemaldab kõik mittearvulised sümbolid ja tagastab väärtuse <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> asendab mustri <strong>&quot;cd&quot;</strong> stringiga <strong>&quot;GH&quot;</strong> ja tagastab väärtuse <strong>&quot;abGHef&quot;</strong>.</td>
+<td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> rakendab regulaaravaldist, mis eemaldab kõik mittearvulised sümbolid ja tagastab väärtuse <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> asendab mustri <strong>&quot;cd&quot;</strong> stringiga <strong>&quot;GH&quot;</strong> ja tagastab väärtuse <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr class="odd">
 <td>TEXT (sisend)</td>
 <td>Annab vastuseks määratud sisendi, mis on teisendatud tekstistringiks, mis on vormindatud praeguse Finance and Operationsi eksemplari serverilokaadi sätete kohaselt. <strong>Tõelist</strong> tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga.</td>
-<td>Kui Finance and Operationsi eksemplari serverilokaat on määratletud kui <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong>, siis annab vastuseks praeguse Finance and Operationsi seansi kuupäeva (12/17/2015) tekstistringina <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> tagastab väärtuse <strong>&quot;0.33&quot;</strong>.</td>
+<td>Kui Finance and Operationsi eksemplari serverilokaat on määratletud kui <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong>, siis annab vastuseks praeguse Finance and Operationsi seansi kuupäeva 17. detsember 2015 tekstistringina <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> tagastab väärtuse <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
 <tr class="even">
-<td>FORMAT (string 1, string 2[, string 3, ...])</td>
-<td>Tagastab määratud stringi, mida vormindatakse, asendades kõik argumendi <strong>%N</strong> esinemised argumendiga <em>n</em>. Argumendid on stringid. Kui parameetril ei ole argumenti, tagastatakse parameeter stringis kui <strong>&quot;%N&quot;</strong>. <strong>Tõelist</strong> tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga.</td>
-<td>Selles näites tagastab andmeallikas <strong>PaymentModel</strong> komponendi <strong>Klient</strong> kaudu kliendikirjete loendi ja välja <strong>ProcessingDate</strong> kaudu töötlemise kuupäeva väärtuse. 
-<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
-
-ER-i vormingus, mis on mõeldud looma valitud klientidele elektroonilist faili, valitakse <strong>PaymentModel</strong> andmeallikana ja see juhib protsessi voogu. Lõppkasutajatele tehakse erand, kui valitud klient on peatatud kuupäeval, millal aruannet töödeldakse. Seda tüüpi töötlemise juhtimiseks koostatud valem saab kasutada järgmisi ressursse.
+<td>FORMAT (string 1, string 2[, string 3, …])</td>
+<td>Annab vastuseks määratud stringi, mida on vormindatud, asendades kõik argumendi <strong>%N</strong> esinemised argumendiga <em>n</em>. Argumendid on stringid. Kui parameetril ei ole argumenti, tagastatakse parameeter stringis kui <strong>&quot;%N&quot;</strong>. <strong>Tõelist</strong> tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga.</td>
+<td>Järgmises näites annab vastuseks andmeallikas <strong>PaymentModel</strong> komponendi <strong>Klient</strong> kaudu kliendikirjete loendi ja välja <strong>ProcessingDate</strong> kaudu töötlemise kuupäeva väärtuse.
+<p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
+<p>ER-i vormingus, mis on mõeldud looma valitud klientidele elektroonilist faili, valitakse <strong>PaymentModel</strong> andmeallikana ja see juhib protsessi voogu. Ilmneb erand, mis teavitab kasutajat sellest, kui valitud klient on peatatud kuupäeval, millal aruannet töödeldakse. Seda tüüpi töötlemise juhtimiseks koostatud valem saab kasutada järgmisi ressursse.</p>
 <ul>
 <li>Finance and Operationsi silt SYS70894, millel on järgmine tekst.
 <ul>
@@ -563,97 +556,98 @@ ER-i vormingus, mis on mõeldud looma valitud klientidele elektroonilist faili, 
 <li><strong>Saksa keeles:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
-Siin on valem, mida saab koostada: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Kui töödeldakse <strong>Litware Retaili kliendi</strong> aruannet 17. detsembril 2015 <strong>ameerika</strong> kultuuris ja <strong>inglise</strong> keeles, tagastab see valem järgmise teksti, mida saab esitada erandliku teatena lõppkasutajale: &quot;Nothing to print. Kliendi Litware Retail peatatakse kuupäevaks 12/17/2015.&quot; Kui sama aruannet töödeldakse<strong> Litware Retaili kliendi</strong> jaoks 17. detsembril 2015 <strong>saksa</strong> kultuuris ja <strong>saksa</strong> keeles, siis annab see valem vastuseks jörgmise teksti, mis kasutab erinevat andmevormingut: &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot; <strong>Märkus.</strong> Siltidele mõeldud ER-i valemites rakendatakse järgmist süntaksit.
+<p>Koostada saab järgmise valemi.</p>
+<p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
+<p>Kui töödeldakse kliendi <strong>Litware Retaili</strong> aruannet 17. detsembril 2015 kultuuris <strong>ET-EE</strong> ja keeles <strong>ET-EE</strong>, annab vastuseks see valem järgmise teksti, mida saab esitada erandliku teatena kasutajale:</p>
+<p>&quot;Midagi pole printida. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
+<p>Kui sama aruannet töödeldakse kliendi <strong> Litware Retail</strong> jaoks 17. detsembril 2015 kultuuris <strong>DE</strong> ja keeles <strong>DE</strong>, annab vastuseks see valem järgmise teksti, mis kasutab erinevat andmevormingut:</p>
+<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<blockquote>[!NOTE]<br>
+Siltidele mõeldud ER-i valemites rakendatakse järgmist süntaksit.
 <ul>
 <li><strong>Finance and Operationsi ressursside siltide puhul:</strong> <strong>@&quot;X&quot;</strong>, kus X on sildi ID rakendusobjektide puus (AOT)</li>
 <li><strong>ER-i konfiguratsioonides asuvate siltide puhul:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kus X on sildi ID ER-i konfiguratsioonis</li>
-</ul></td>
+</ul></blockquote></td>
 </tr>
 <tr class="odd">
 <td>NUMBERFORMAT (number, vorming)</td>
-<td>Tagastab määratud vormingus määratud numbri stringiesituse. (Teavet toetatud vormingute kohta vt jaotistest <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standardne</a> ja <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">kohandatud</a>.) Selle funktsiooni käitamise kontekst määrab kultuuri, mida kasutatakse numbrite vormindamiseks.</td>
+<td>Annab vastuseks määratud vormingus määratud numbri stringiesituse. (Teavet toetatud vormingute kohta vt jaotistest <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standardne</a> ja <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">kohandatud</a>.) Selle funktsiooni käitamise kontekst määrab kultuuri, mida kasutatakse numbrite vormindamiseks.</td>
 <td>Ingliskeelses kultuuris tagastab <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> väärtuse <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> tagastab väärtuse <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td>NUMERALSTOTEXT (number, keel, valuuta, prindi valuuta nime lipp, kümnendkohad)</td>
-<td>Tagastab sõnadena kirjutatud (tekstistringiks teisendatud) numbri määratud keeles. Keelekood ei ole kohustuslik: kui see on määratletud tühja stringina, kasutatakse selle asemel käitatava konteksti keelekoodi (määratletud kausta või faili loomiseks). Valuutakood ei ole kohustuslik. Kui see on määratletud tühja stringina, kasutatakse ettevõtte valuutat. Pange tähele, et parameetreid <strong>Prindi valuuta nimi</strong> ja <strong>Kümnendkohad</strong> analüüsitakse ainult järgmiste keelekoodide puhul: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, <strong>RU</strong>. Pange tähele, et parameetrit <strong>Prindi valuuta nimi</strong> analüüsitakse ainult nende Finance and Operationsi ettevõtete puhul, mille riigikontekst toetab valuuta käänamist.</td>
-<td>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2) tagastab stringi „One Thousand Two Hundred Thirty Four and 56” NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0) tagastab stringi „Sto dwadzieścia” NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2) tagastab stringi „Сто двадцать евро 21 евроцент”</td>
+<td>Annab vastuseks määratud numbri pärast selle määratud keeles tekstistringideks kirjutamist (teisendamist). Keelekood ei ole kohustuslik. Kui see on määratletud tühja stringina, kasutatakse selle asemel käitatava konteksti keelekoodi. (Käitatava konteksti keelekood määratletakse loomiskausta või -faili jaoks). Valuutakood on samuti valikuline. Kui see on määratletud tühja stringina, kasutatakse ettevõtte valuutat.
+<blockquote>[!NOTE]<br>
+Valuuta nime printimise lipu ja kümnendkohtade parameetreid analüüsitakse ainult järgmiste keelekoodide puhul: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, <strong>RU</strong>. Peale selle analüüsitakse valuuta nime printimise lipu parameetrit ainult nende Finance and Operationsi ettevõtete puhul, mille riigi või piirkonna kontekst toetab valuuta nimede käänamist.</blockquote></td>
+<td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> annab vastuseks stringi <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, väär, 0)</strong> annab vastuseks stringi <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, tõene, 2)</strong> annab vastuseks stringi <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
 <tr class="odd">
 <td>PADLEFT (string, pikkus, täidismärgid)</td>
-<td>Tagastab määratud pikkusega stringi, milles praeguse stringi algusele on lisatud määratud märkidest koosnevad täidismärgid.</td>
-<td>PADLEFT („1234”, 10, „ ”) tagastab tekstistringi „      1234”</td>
+<td>Annab vastuseks määratud pikkusega stringi, milles määratud stringi algusele on lisatud määratud märkidest koosnevad täidismärgid.</td>
+<td><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> annab vastuseks tekstistringi <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td>TRIM (string)</td>
-<td>Annab antud teksti pärast algus- ja lõputühikute kärpimist ning eemaldab sõnade vahelt mitmekordsed tühikud. </td>
-<td><strong>TRIM ("     Näidis     tekst     ")</strong> annab vastuse <strong>„Näidistekst”.</strong></td>
+<td>Annab vastuseks määratud tekstistringi pärast algus- ja lõputühikute kärpimist ning sõnade vahel olevate mitmekordsete tühikute eemaldamist.</td>
+<td><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Näidis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tekst&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong> annab vastuse <strong>&quot;Näidistekst&quot;</strong>.</td>
 </tr>
 <tr class="odd">
 <td>GETENUMVALUEBYNAME (loetelu andmeallika tee, loetelu väärtuse sildi tekst)</td>
-<td>Annab vastuseks määratud loetelu andmeallika väärtuse selle loetelu sildi määratud tekstiga.</td>
-<td>Järgmises näites kirjeldatakse andmemudelis kasutusele võetud loetelu ReportDirection. Pange tähele, et loetelu väärtuste puhul on määratletud sildid.
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
-<p>Järgmised näited käsitlevad järgmist.</p>
-<ul><li>Mudeli loetelu <strong>ReportDirection</strong>, mis on lisatud aruandesse andmeallikana <strong>$Direction</strong></li>
-<li>ER-i avaldis <strong>$IsArrivals</strong>, mis on mõeldud kasutama mudeli loetelu selle funktsiooni parameetrina. Avaldise väärtus on <strong>TRUE</strong>.
-</li></ul>
+<td>Annab vastuseks määratud loetelu andmeallika väärtuse selle loetelu sildi määratud teksti põhjal.</td>
+<td>Järgmises näites on andmemudelis kasutusele võetud loetelu <strong>ReportDirection</strong>. Pange tähele, et loetelu väärtuste puhul on määratletud sildid.
+<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
+<p>Järgmises näites on toodud järgmised üksikasjad:</p>
+<ul>
+<li>Mudeli loetelu <strong>ReportDirection</strong> on lisatud aruandesse andmeallikana <strong>$Direction</strong>.</li>
+<li>ER-i avaldis <strong>$IsArrivals</strong> on mõeldud kasutama mudeli loetelu selle funktsiooni parameetrina. Avaldise väärtus on <strong>TRUE</strong>.</li>
+</ul>
 <a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>
 
-**Andmete teisendamise funktsioonid**
+### <a name="data-conversion-functions"></a>Andmete teisendamise funktsioonid
 
-| Funktsioon             | Kirjeldus                                                                                                                                                                                                                                     | Näide                                                                                                                                             |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| TEXT (sisend) | Annab vastuseks määratud sisendi, mis on teisendatud tekstistringiks, mis on vormindatud praeguse Finance and Operationsi eksemplari serverilokaadi sätete kohaselt.
-Tõelist tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga.| Kui Finance and Operationsi eksemplari serverilokaat on määratletud kui **EN-US, TEXT (NOW ())**, siis antakse vastuseks praeguse Finance and Operationsi seansi kuupäev (12/17/2015) tekstistringina **„12/17/2015 07:59:23 AM”**.
-**TEXT (1/3) annab vastuseks „0,33”**. |
-| QRCODE (string) | Tagastab antud stringi puhul QR-koodi pildi base64 binaarvormingus. | **QRCODE („Näidistekst”)** annab vastuse **U2FtcGxlIHRleHQ=**.   |
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| TEXT (sisend) | Annab vastuseks määratud sisendi, mis on teisendatud tekstistringiks, mis on vormindatud praeguse Finance and Operationsi eksemplari serverilokaadi sätete kohaselt. **Tõelist** tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga. | Kui Finance and Operationsi eksemplari serverilokaat on määratletud kui **EN-US**, annab **TEXT (NOW ())** vastuseks praeguse Finance and Operationsi seansi kuupäeva 17. detsember 2015 tekstistringina **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** tagastab väärtuse **"0,33"**. |
+| QRCODE (string) | Annab vastuseks määratud stringi puhul QR-koodi pildi base64 binaarvormingus. | **QRCODE ("Näidistekst")** annab vastuse **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Andmete kogumise funktsioonid
 
-| Funktsioon             | Kirjeldus                                                                                                                                                                                                                                     | Näide                                                                                                                                             |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| FORMATELEMENTNAME () | Toob praeguse vormingu elemendi nime. Tagastab tühja stringi, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud.| Lisateavet nende funktsioonide kasutamise kohta vaadake tegevusjuhisest **ER-i loendamise ja liitmise vormingu väljundi kasutusandmed** (äriprotsessi **IT-teenuse/-lahenduse komponentide hankimine/arendamine** osa). |
-| SUMIFS (liitmise võtmestring, kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) |Tagastab XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. |            |
-| SUMIF (liitmise võtmestring, kriteeriumivahemiku string, kriteeriumiväärtuse string) | Tagastab XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimuse (vahemik ja väärtus). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud.|           |
-| COUNTIFS (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Tagastab XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud.|     |
-| COUNTIF (kriteeriumivahemiku string, kriteeriumiväärtuse string) | Tagastab XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimuse (vahemik ja väärtus). Tagastab nullväärtuse, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud.|          |
-| COLLECTEDLIST (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Tagastab XML-i sõlmede väärtuste loendi, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemiku ja väärtuse paarid). Tagastab tühja loendi, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud.|               |   
-
-
-
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| FORMATELEMENTNAME () | Annab vastuseks praeguse vormingu elemendi nime. Annab vastuseks tühja stringi, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | Lisateavet selle funktsiooni kasutamise kohta vaadake tegevuse juhisest **ER-i loendamise ja liitmise vormingu väljundi kasutusandmed**, mis on äriprotsessi **IT-teenuse/-lahenduse komponentide hankimine/arendamine** osa. |
+| SUMIFS (liitmise võtmestring, kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab määratud tingimusi (vahemike ja väärtuste paarid). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| SUMIF (liitmise võtmestring, kriteeriumivahemiku string, kriteeriumiväärtuse string) | Annab vastuseks XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab määratud tingimust (vahemik ja väärtus). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| COUNTIFS (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab määratud tingimusi (vahemike ja väärtuste paarid). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| COUNTIF (kriteeriumivahemiku string, kriteeriumiväärtuse string) | Annab vastuseks XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimust (vahemik ja väärtus). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| COLLECTEDLIST (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks XML-i sõlmede väärtuste loendi, mis on kogutud selle vormi käivitamise ajal ja mis täidab sisestatud tingimusi (vahemik ja väärtus). Annab vastuseks tühja loendi, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Muud (ettevõtte domeenipõhised) funktsioonid
 
-| Funktsioon                                                                         | Kirjeldus                                                                                                                                                                                                                                                        | Näide                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CONVERTCURRENCY (summa, lähtekoha valuuta, sihtkoha valuuta, kuupäev, ettevõte)        | Teisendab määratud rahasumma lähtekoha valuutast sihtkoha valuutaks, kasutades määratud kuupäeval määratud Finance and Operationsi ettevõtte sätteid.                                                                            | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** tagastab ühe euroga võrdse väärtuse USA dollarites praeguse seansi kuupäeval DEMF-i ettevõtte sätete alusel.                                                                                                                                  |
-| ROUNDAMOUNT (number, kümnendkohad, ümardamisreegel)                                       | Ümardab määratus summa vastavalt määratud ümardamisreeglile ja määratud kümnendkohtade arvule. **Märkus.** Ümardamisreegel peab olema määratud Finance and Operationsi loetelu **RoundOffType** väärtusena.                          | Kui parameeter **model.RoundOff** on seatud väärtusele ****Allapoole****, tagastab **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000.78**. Kui parameeter **model.RoundOff** on seatud väärtusele **Normaalne** või **Ülespoole ümardamine**, tagastab **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000,79**. |
-| CURCredRef (arvud)                                                              | Tagastab kreeditori viite määratud arve numbri arvude alusel.                                                                                                                                                                                  | **CURCredRef ("VEND-200002")** tagastab väärtuse **"2200002"**.                                                                                                                                                                                                                                                         |
-| MOD\_97 (arvud)                                                                 | Tagastab kreeditori viite MOD97 avaldisena määratud arve numbri arvude alusel.                                                                                                                                                            | **MOD\_97 ("VEND-200002")** tagastab väärtuse **"20000285"**.                                                                                                                                                                                                                                                           |
-| ISOCredRef (arvud)                                                              | Tagastab ISO kreeditori viite määratud arve numbri arvude ja tähestikus olevate sümbolite alusel. **Märkus.** ISO-ga ühildumatute sümbolite tähestikust eemaldamiseks tuleb sisendparameeter enne sellele funktsioonile edastamist tõlkida. | **ISOCredRef ("VEND-200002")** tagastab väärtuse **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
-| CN\_GBT\_AdditionalDimensionID (string, number)                                  | Hankige täiendav finantsdimensiooni ID. Dimensioonid on esindatud selles stringis komadega eraldatud ID-dena. Numbrid määratlevad taotletud dimensioonide seeriakoodi selles stringis.                                                                            | CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3) tagastab stringi „CC”                                                                                                                                                                                                                                      |
-| GetCurrentCompany ()                                                             | Tagastab juriidilise isiku (ettevõtte) koodi tekstkuju, kuhu kasutaja praegu sisse logis.                                                                                                                                                                                                                    | **GETCURRENTCOMPANY ()** annab vastuse **USMF** kasutaja puhul, kes on logitud sisse Finance and Operationsi ettevõttesse **Contoso Entertainment System USA**.                                                                                                                                                                                                                                                                                                              |
-| CH\_BANK\_MOD\_10 (numbrid)                                                       | Tagastab kreeditori viite MOD10 avaldisena antud arve numbri numbrite alusel.                                                                                                                                                                      | CH\_BANK\_MOD\_10 ("VEND-200002") tagastab väärtuse 3                                                                                                                                                                                                                                                                   |
-| FA\_SUM (põhivara kood, väärtusmudeli kood, alguskuupäev, lõppkuupäev)               | Tagastab ettevalmistatud andmekonteineri põhivarasummadega perioodi kohta.                                                                                                                                                                                         | FA\_SUM ("COMP-000001", „Praegune”, Kuupäev1, Kuupäev2) tagastab põhivara „COMP-000001” ettevalmistatud andmekonteineri koos väärtusmudeliga „Praegune” perioodi Kuupäev1 kuni Kuupäev2 kohta.                                                                                                                        |
-| FA\_BALANCE (põhivara kood, väärtusmudeli kood, aruandlusaasta, aruande kuupäev) | Tagastab ettevalmistatud andmekonteineri põhivarasaldodega. Aruandlusaasta peab olema määratud Finance and Operationsi loetelu **AssetYear** väärtusena.                                                                                           | FA\_SUM ("COMP-000001", “Current”, AxEnumAssetYear.ThisYear, SESSIONTODAY ()) annab vastuseks põhivara „COMP-000001” väärtusmudeliga „Praegune” saldode ettevalmistatud andmekonteineri praegusel 365 for Finance and Operationsi seansi kuupäeval.                                                                |
-| TABLENAME2ID (string)                                                       | Tagastab antud tabelinime tabeli ID jaoks täisarvu esituse.                                                                                                                                                                      | **TABLENAME2ID (“Intrastat”)** annab vastuse **1510**.                                                                                                                                                                                                                                                                   |
-| ISVALIDCHARACTERISO7064 (string)                                                       | Annab vastuseks kahendmuutuja **TRUE**, kui antud string on kehtiv rahvusvaheline pangakonto number (IBAN). Vastasel korral annab vastuseks kahendmuutuja **FALSE**.                                                                                                                                                                      | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** annab vastuse **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** annab vastuse **FALSE**.                                                                                                                                                                                                                                                                   |
+| Funktsioon | Kirjeldus | Näide |
+|----------|-------------|---------|
+| CONVERTCURRENCY (summa, lähtekoha valuuta, sihtkoha valuuta, kuupäev, ettevõte) | Teisendab määratud rahasumma määratud lähtekoha valuutast määratud sihtkoha valuutaks, kasutades määratud kuupäeval määratud Finance and Operationsi ettevõtte sätteid. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** tagastab ühe euroga võrdse väärtuse USA dollarites praeguse seansi kuupäeval DEMF-i ettevõtte sätete alusel. |
+| ROUNDAMOUNT (number, kümnendkohad, ümardamisreegel) | Ümardab määratus summa määratud kümnendkohtade arvule määratud ümardamisreegli kohaselt.<blockquote>[!NOTE]<br>Ümardamisreegel peab olema määratud Finance and Operationsi loetelu <strong>RoundOffType</strong> väärtusena.</blockquote> | Kui parameeter **model.RoundOff** on seatud väärtusele **Allapoole**, annab vastuseks **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000.78**. Kui parameeter **model.RoundOff** on seatud väärtusele **Normaalne** või **Ülespoole ümardamine**, tagastab **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000,79**. |
+| CURCredRef (arvud) | Tagastab kreeditori viite määratud arve numbri arvude alusel. | **CURCredRef ("VEND-200002")** tagastab väärtuse **"2200002"**. |
+| MOD\_97 (arvud) | Tagastab kreeditori viite MOD97 avaldisena määratud arve numbri arvude alusel. | **MOD\_97 ("VEND-200002")** tagastab väärtuse **"20000285"**. |
+| ISOCredRef (arvud) | Annab vastuseks Rahvusvahelise Standardiorganisatsiooni (ISO) kreeditori viite määratud arve numbri arvude ja tähestikus olevate sümbolite alusel.<blockquote>[!NOTE]<br>ISO-ga ühildumatute sümbolite tähestikust eemaldamiseks tuleb sisendparameeter enne sellele funktsioonile edastamist tõlkida.</blockquote> | **ISOCredRef ("VEND-200002")** tagastab väärtuse **"RF23VEND-200002"**. |
+| CN\_GBT\_AdditionalDimensionID (string, number) | Hankige täiendav finantsdimensiooni ID. Dimensioonid on esindatud selles stringis komadega eraldatud ID-dena. Selles stringis määratlevad numbrid taotletud dimensioonide seeriakoodi. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** annab vastuseks stringi **"CC"**. |
+| GetCurrentCompany () | Annab vastuseks selle juriidilise isiku (ettevõtte) koodi tekstkuju, kuhu kasutaja on praegu sisse loginud. | **GETCURRENTCOMPANY ()** annab vastuse **USMF** kasutaja puhul, kes on logitud sisse Finance and Operationsi ettevõttesse **Contoso Entertainment System USA**. |
+| CH\_BANK\_MOD\_10 (numbrid) | Annab vastuseks kreeditori viite MOD10 avaldisena määratud arve numbri arvude alusel. | **CH\_BANK\_MOD\_10 ("VEND-200002")** annab vastuseks väärtuse **3**. |
+| FA\_SUM (põhivara kood, väärtusmudeli kood, alguskuupäev, lõppkuupäev) | Annab vastuseks põhivarasumma ettevalmistatud andmekonteineri määratud perioodi kohta. | **FA\_SUM ("COMP-000001", "Praegune", Kuupäev1, Kuupäev2)** annab vastuseks põhivara **"COMP-000001"** ettevalmistatud andmekonteineri koos väärtusmudeliga **"Praegune"** perioodi **Kuupäev1** kuni **Kuupäev2** kohta. |
+| FA\_BALANCE (põhivara kood, väärtusmudeli kood, aruandlusaasta, aruande kuupäev) | Annab vastuseks põhivarasaldo ettevalmistatud andmekonteineri. Aruandlusaasta peab olema määratud Finance and Operationsi loetelu **AssetYear** väärtusena. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** annab vastuseks põhivara **"COMP-000001"** väärtusmudeliga **"Praegune"** saldode ettevalmistatud andmekonteineri praegusel 365 for Finance and Operationsi seansi kuupäeval. |
+| TABLENAME2ID (string) | Annab vastuseks antud tabelinime tabeli ID täisarvu kujul. | **TABLENAME2ID ("Intrastat")** annab vastuse **1510**. |
+| ISVALIDCHARACTERISO7064 (string) | Annab vastuseks kahendmuutuja **TRUE**, kui määratud string on kehtiv rahvusvaheline pangakonto number (IBAN). Muul juhul annab vastuseks kahendmuutuja väärtuse **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** annab vastuse **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** annab vastuse **FALSE**. |
 
 ### <a name="functions-list-extension"></a>Funktsioonide loendi laiend
 
-ER laseb laiendada nende funktsioonide loendit, mida kasutatakse ER-i avaldistes. Nõutavad on mõned projekteerimise panused. Üksikasjalikuma teabe saamiseks vt jaotist [Elektroonilise aruandluse funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md).
+ER laseb laiendada nende funktsioonide loendit, mida kasutatakse ER-i avaldistes. Nõutav on mõni projekteerimise panus. Üksikasjalikuma teabe saamiseks vt jaotist [Elektroonilise aruandluse funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md).
 
-<a name="see-also"></a>Vt ka
---------
+## <a name="see-also"></a>Vt ka
 
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 
 [Elektroonilise aruandluse (ER) funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md)
-
-
-
 

@@ -3,7 +3,7 @@ title: "Finantsjõudluse Power BI sisu"
 description: Selles teemas kirjeldatakse finantstulemuste Power BI sisu.
 author: kweekley
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,18 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 53d0654608e99aa85a5911d76397fbc7fadbf26e
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Finantsjõudluse Power BI sisu
 
 [!include[banner](../includes/banner.md)]
+
+> [Märkus.] See sisupakett on aegunud, nagu on kirjas dokumendis [Saidil PowerBI.com avaldatud Power BI sisupaketid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 Selles teemas kirjeldatakse **finantstulemuste** Microsoft Power BI sisu. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet sisu loomiseks kasutatud andmemudeli ja üksuste kohta.
 

@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ Kaupluse tasemel on saadaval konfiguratsioonisäte määramaks, kas tellimuserid
 
 Vaikimisi on kauplusele määratud tellimuseridade olekuks märgitud **Aktsepteeritud**. See tähendab, et eeldatakse nende täitmist määratud kaupluses ja edasi neid ei määrata. Teatud juhtudel võivad jaemüüjad soovida tellimusi käsitsi aktsepteerida, enne kui neid saab täita. Näiteks kui kaupluses on vähe töötajaid ja tellimusi ei saa täita, aktsepteerib kaupluse juhataja töötlemiseks ainult nii palju tellimusi, kui arvab, et neid suudetakse sel päeval piisavalt töödelda. Enne kui tellimus on aktsepteeritud, võib varukontor selle teisele kauplusele ümber määrata. Sel viisil annab tellimuse aktsepteerimine viisi näitamaks, et kauplus on tellimuse kinnitanud ja see täidetakse. 
 
-Tellimuseread kaupluses kättesaamiseks on nagu alati olekuga **Ootel** ja neid ei aktsepteerita.
+Tellimuseread kaupluses kättesaamiseks on olekuga **Ootel** ja neid ei aktsepteerita.
 
-Tellimuseridade käsitsi aktsepteerimise sisselülitamiseks minge jaotisse **Jaemüük** > **Kanalid** > **Jaekauplused** > **Kõik jaekauplused**. Valige kauplus ja klõpsake kaupluse ID-d, et vaadata kaupluse üksikasju. Klõpsake valikut **Redigeeri**. Leidke kiirkaardil **Üldine** alapäis **Tellimuse täitmine** ja muutke suvandi **Käsitsi aktsepteerimine** sätteks **Ei** asemel **Jah**. 
+Tellimuse ridade käsitsi aktsepteerimise sisselülitamiseks minge jaotisse **Jaemüük** > **Kanalid** > **Jaekauplused** > **Kõik jaekauplused**. Valige kauplus ja klõpsake kaupluse ID-d, et vaadata kaupluse üksikasju. Klõpsake valikut **Redigeeri**. Leidke kiirkaardil **Üldine** alapäis **Tellimuse täitmine** ja muutke suvandi **Käsitsi aktsepteerimine** sätteks **Ei** asemel **Jah**. 
 
 ### <a name="enable-reject-order-line-capability"></a>Tellimuserea tagasilükkamise lubamise võimalus
 
@@ -114,7 +117,7 @@ Vaikimisi on tellimuste olek **Aktsepteeritud**. Tellimuse olekut saab vaadata t
 
 **Paki** – pakkimissuvand toetab kaht tegevust: **Prindi saateleht** prindib valitud ridade jaoks saatelehe ja **Märgi pakituks** märgib read pakituks ning märgib read varukontoris tarnituks. Korraga saab pakkida ainult samasse tellimusse kuuluvaid ja sama tarneviisiga tellimuseridu. Saatelehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Läheta** – lähetamistegevus märgib valitud ridade olekuks varukontoris **Tarnitud**. Kui rida on täielikult lähetatud, siis seda kaupluse tellimuse täitmise vaates enam ei kuvata.
+**Läheta** – lähetamistegevus märgib valitud ridade olekuks varukontoris **Tarnitud**. Kui rida on täielikult lähetatud, siis seda tellimuse täitmise vaates enam ei kuvata.
 
 **Kättesaamine** – kättesaamistegevus lisab read kättesaamiseks kandevaatele. Kui tellimusel on muid ridu, mis pole praegu kättesaamisel, lisatakse need kandevaatele nullkogusega. Kui rida on täielikult kätte saadud, siis seda tellimuse täitmise vaates enam ei kuvata. 
 

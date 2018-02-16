@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6ffb97b53f522cfe8ccd8e89df854cbc557e4f1f
-ms.openlocfilehash: fadc373b2c1c06987f22d4d9c20a9ab07b0c85d5
+ms.sourcegitcommit: a53c1997f74ebe572b17cc3090d2e236b6fe78f6
+ms.openlocfilehash: 8a84cfe9b73f0c72f3cb0c3843749754c6b3d538
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Rakenduse Microsoft Dynamics 365 for Talent ettevalmistamine
@@ -60,6 +60,9 @@ Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.
 > Kui te pole veel lõplikke nõudeid kinnitanud, saate projektis juurutada Talenti testeksemplari. Seejärel saate oma lahenduse testimiseks kuni kinnitamiseni kasutada seda testeksemplari. Kui kasutate oma uut keskkonda testimiseks, peate tootmiskeskkonna loomiseks seda protseduuri kordama.
 
 ## <a name="create-a-new-powerapps-environment-if-required"></a>Uue PowerAppsi keskkonna loomine (vajaduse korral)
+
+Talenti integratsiooni eesmärk PowerAppsi keskkondadega on võimaldada andmete integratsiooni ja laienduste vooge PowerApps tööriistade kasutamisel koos Talenti andmetega. Seetõttu on Talenti jaoks keskkonna valimisel oluline mõista PowerAppsi keskkondade eesmärki. Lisateavet PowerAppsi keskkondade, sh keskkonna ulatuse, keskkonnale juurdepääsu ning keskkonna loomise ja valimise kohta vaadaketeemat [Tutvustame PowerAppsi keskkondi](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/).  Kuigi iga rentnik on automaatselt ettevalmistatud PowerAppsi vaikekeskkonnas, ei pruugi see olla Talenti juurutamise jaoks parim keskkond. Selle etapi puhul tuleks arvestada andmete integreerimis- ja testimisstrateegiatega, mistõttu soovitame kaaluda juurutamise erinevaid mõjusid, kuna seda ei ole hiljem lihtne muuta.
+
 1. Valige LCS-is **Keskkondade haldamine**. Teid suunatakse [PowerAppsi administreerimiskeskusse](https://preview.admin.powerapps.com/environments), kus saate vaadata olemasolevaid keskkondi ja luua uusi keskkondi.
 2. Valige nupp (**+**) **Uus keskkond**.
 3. Sisestage keskkonna jaoks kordumatu nimi ja valige asukoht, kuhu juurutada.
@@ -74,9 +77,20 @@ Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.
     > [!IMPORTANT]
     > Kui lõite CDS-i andmebaasi juba varem ja sisestasite sellesse oma ettevõtte tootmisandmeid, pidage meeles, et need etapid eemaldavad valitud andmebaasist **kõik** andmed, sealhulgas teie ettevõtte tootmisandmed.
 
-    1. Logi [PowerAppsi](https://preview.web.powerapps.com/home) sisse ja valige keskkond, mille lõite etapis 2.
-    2. Valige **Üksused**. Valige lehe paremal küljel ellipsi (**…**) nupp ja valige siis **Kustuta kõik andmed**.
-    3. Valige **Kustuta andmed**, et kinnitada, et soovite andmed eemaldada. See toiming eemaldab kõik demoandmed, mis lisati CDS-i vaikimisi. See eemaldab ka kõik muud andmed, mis sisestati valitud andmebaasi.
-
+    1. Logige üksusesse [PowerApps](https://preview.web.powerapps.com/home) sisse ja valige paani paremast rippmenüüst 2. etapis loodud keskkond.
+    2. Laiendage navigeerimispaani vasakul pool asuvat jaotist **Common Data Service** ja tehke valik**Üksused**.
+    3. Valige lehe paremal küljel ellipsi (**…**) nupp ja valige siis **Kustuta kõik andmed**.
+    4. Valige **Kustuta andmed**, et kinnitada, et soovite andmed eemaldada. See toiming eemaldab kõik demoandmed, mis lisati CDS-i vaikimisi. See eemaldab ka kõik muud andmed, mis sisestati valitud andmebaasi.
+    
 Nüüd saate oma uut keskkonda kasutada.
+
+## <a name="granting-access-to-the-environment"></a>Keskkonnale juurdepääsu andmine
+Keskkonna loonud üldadministraatoril on juurdepääs vaikimis, kuid rakenduse teistele kasutajatele tuleb juurdepääs eraldi anda. Seda saate teha keskkonnas Core HR [kasutajaid lisades](../dev-itpro/sysadmin/tasks/create-new-users.md) ja [neile sobivaid rolle määrates](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md). Peale selle on vaja need kasutajad lisada PowerAppsi keskkonda, nii et nad pääsevad ligi rakendustele Attract ja Onboard.  Ajaveebipostitus [PowerAppsi halduskeskuse tutvustamine](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/) aitab teil teha järgmisi samme.
+
+> 1.    Talenti keskkonna juurutanud üldadministraator peaks avama [PowerAppsi halduskeskuse](https://preview.admin.powerapps.com/environments).   
+> 2.    Valige kõnealune keskkond / kõnealused keskkonnad.
+> 3.    Lisage vahekaardil Turve vajalikele kasutajatele roll „keskkonna looja”.
+
+Pange tähele, et see PowerApps keskkonda kasutajate lisamise viimane etapp on ajutine. Me kavatseme lisada funktsiooni, mis lubab kasutaja keskkonna Core HR kaudu lisamisel seda automaatselt.
+
 

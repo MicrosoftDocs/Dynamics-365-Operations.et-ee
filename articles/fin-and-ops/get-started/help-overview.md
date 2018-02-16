@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
-ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -51,7 +52,7 @@ Nii spikriteemadele kui ka tegevusjuhistele pääseb juurde mis tahes kasutatava
 See teema kirjeldab spikrisüsteemi ja selgitab, kuidas saate oma organisatsioonile kohandatud dokumente ja koolitusressursse luua.
 
 > [!IMPORTANT]
-> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) nii rakenduse Retail kui ka Talent puhul.
+> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md) nii rakenduse Retail kui ka Talent puhul.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Spikker saidil docs.microsoft.com
 
@@ -74,6 +75,11 @@ Rakendustel Finance and Operations, Retail ja Talent on dokumentide saidil ühin
 
 ### <a name="follow-a-topic"></a>Teema jälgimine
 Teema jälgimiseks klõpsake kommentaarivälja all olevat nuppu +Jälgi. Teema jälgimiseks peate sisse logima. Vaadake üksikasju jaotisest [Jätke meile kommentaar](#leave-us-a-comment).  
+
+### <a name="use-an-rss-feed"></a>RSS-kanali kasutamine
+Unified Operationsi sisu kõigi värskenduste RSS-kanali tellimiseks kasutage brauseril, mis kasutab RSS-kanaleid (nt Internet Explorer) või RSS-kanali haldurit, järgmist linki: 
+
+[RSS-kanal](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Tagasiside andmine 
 Meil on klientide tagasiside üle alati hea meel. Saate GitHubi kaudu lisada meie sisu kohta kommentaare või soovitada muudatusi.
