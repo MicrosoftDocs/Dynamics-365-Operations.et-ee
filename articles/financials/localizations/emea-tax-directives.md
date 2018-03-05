@@ -24,6 +24,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="tax-directives-for-europe"></a>Euroopa maksudirektiivid
+
+[!include[banner](../includes/banner.md)]
+
 EL-i direktiiv kehtestab eeskirjad, mida kõik liikmesriigid peavad järgima, arve reeglite ja arvete koostamisel lisatava teabe kohta. EL-i direktiiv loetleb andmed, mida tarnijatelt klientide suhtes EL-is nõutakse. Näiteks võib arvel olla viide, mis kirjeldab nullkäibemaksu või maksuvabastuse juriidilist alust. Kui arve korrigeerib varem väljastatud arvet (nt kreeditarve), peab sellel olema selge viide algsele arvele.
 
 - Käibemaksukoodide kirjelduse printimiseks müügiarvele, vabas vormis arvele või projektiarve aruandele seadistage käibemaksukoodidele maksudirektiivi viitetekst.

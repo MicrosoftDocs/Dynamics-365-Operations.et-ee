@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX-i eemaldamine
 
+[!include[banner](../includes/banner.md)]
+
 Pidime WebSearchAX-i lehe eemaldama. Soovitame selle asemel kasutada oma lemmikotsingumootori saidiotsingut.  Näide: 
 
 site:technet.microsoft.com dynamics ax 2012 "otsingutermin"

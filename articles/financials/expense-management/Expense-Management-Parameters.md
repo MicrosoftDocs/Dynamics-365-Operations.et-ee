@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Kulutuste haldamise parameetrid
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 Parameetrid juhivad üldist käitumist kuluhalduses.

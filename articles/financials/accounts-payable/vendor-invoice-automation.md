@@ -25,6 +25,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="vendor-invoice-automation"></a>Hankija arve automatiseerimine
 
+[!include[banner](../includes/banner.md)]
+
 Selles teemas selgitatakse funktsioone, mis on saadaval hankija arvete täielikuks automatiseerimiseks, isegi manuseid sisaldavate arvete puhul.
 
 Organisatsioonid, kus soovitakse ostureskontro protsesse sujuvamaks muuta, käsitlevad arvete töötlemist sageli ühe peamise protsessivaldkonnana, mis peaks olema tõhusam. Paljudel juhtudel annavad need organisatsioonid paberarvete töötlemise üle optilise märgituvastusega (OCR) tegelevatele teenusepakkujatele. Siis saavad nad masinloetavad arve metaandmed koos iga arve skannitud kujutisega. Automatiseerimisel abistamiseks koostatakse siis viimase etapi jaoks lahendus, mis võimaldab neid üksusi siis arveldussüsteemis kasutada. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition võimaldab nüüd selle viimase etapi automatiseerimist valmislahenduse abil, kasutades arve automatiseerimislahendust.

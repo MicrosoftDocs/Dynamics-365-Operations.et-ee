@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Riistvara suuruse muutmine kohapealsetes keskkondades
+
+[!include[banner](../includes/banner.md)]
+
 Enne kui alustate kohapealses keskkonnas riistvara ja taristu suuruse muutmise protsessi, tutvuge [süsteeminõuete](system-requirements.md) ning [seadistus- ja juurutusjuhistega](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), et aluseks olev taristu endale hästi selgeks teha. 
 
   **Märkus.** Optimaalse jõudluse saavutamiseks pöörake tähelepanu süsteemi seadistamise parimatele tavadele. 
