@@ -28,6 +28,8 @@ ms.lasthandoff: 10/10/2017
 
 # <a name="ship-an-order-from-a-different-store"></a>Tellimuse lähetamine muust kauplusest
 
+[!include[banner](includes/banner.md)]
+
 Dynamics 365 for Retaili tasu saatmise funktsiooniga saate teha klienditellimuse ühes kaupluses ja lähetada selle teisest kauplusest. Kassas vormistatavad klienditellimused toetavad mitmesuguseid täitmisvalikuid. Täitmisvalikud on muuhulgas järgmised.
 -   Kättesaamine samast kauplusest muul kuupäeval.
 -   Kättesaamine muust kauplusest samal või muul kuupäeval.
