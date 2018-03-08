@@ -18,13 +18,16 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 978870d36f6019845fd62c267ac66ca7c45d34a1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 1994edc5d6c932be3a285f9bb328a05504c90f07
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 # <a name="generate-affordable-care-act-reports"></a><span data-ttu-id="2f74e-103">Taskukohase ravikindlustuse eelnõu aruannete koostamine</span><span class="sxs-lookup"><span data-stu-id="2f74e-103">Generate Affordable Care Act reports</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="2f74e-104">See funktsioon on mõeldud nende tööandjate abistamiseks, kellel on vaja jälgida vormidel 1095-B ja 1095-C esitatud teavet taskukohase ravikindlustuse eelnõu osa **Tööandja kohustus** toetamiseks. Pange tähele, et see funktsioon on lubatud ainult Ameerika Ühendriikide juriidiliste isikute puhul.</span><span class="sxs-lookup"><span data-stu-id="2f74e-104">Functionality is available to assist employers that need to track the information reported on forms 1095-B and 1095-C in support of the **Employer Mandate** portion of the Affordable Care Act. Note this functionality is only enabled for legal entities in the United States.</span></span>
 
 ## <a name="getting-started"></a><span data-ttu-id="2f74e-105">Alustamine</span><span class="sxs-lookup"><span data-stu-id="2f74e-105">Getting started</span></span>

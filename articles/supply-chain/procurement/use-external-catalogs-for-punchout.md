@@ -19,14 +19,17 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: f755c1e46d5111282bfffdf751fe98beaa081a51
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 76d0c911bdddbc5a34644dc96ec13dd8fd53a338
 ms.contentlocale: et-ee
 ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a><span data-ttu-id="c9453-103">Väliskataloogide kasutamine e-hanke väljaregistreerimiseks</span><span class="sxs-lookup"><span data-stu-id="c9453-103">Use external catalogs for PunchOut eProcurement</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="c9453-104">Kasutades väliseid katalooge e-hanke väljaregistreerimiseks pole teil vaja hoida oma koondandmetes teavet oma hankija toodete kohta.</span><span class="sxs-lookup"><span data-stu-id="c9453-104">By using external catalogs for PunchOut e-procurement, you don't have to maintain information about your vendors' products in your own master data.</span></span> <span data-ttu-id="c9453-105">Selle asemel teisendatakse ostukorv hankija veebisaidil ostutaotluse ridadeks, millel on õiged tooteandmed.</span><span class="sxs-lookup"><span data-stu-id="c9453-105">Instead, the shopping cart on a vendor's website is converted to requisition lines that have the correct product information.</span></span> 
 
 <span data-ttu-id="c9453-106">Peaksite vältima oma hankija toodete kirjelduste ja hindade hoidmist oma toote koondandmetes.</span><span class="sxs-lookup"><span data-stu-id="c9453-106">You should avoid maintaining the descriptions and prices of your vendors’ products in your own product master data.</span></span> <span data-ttu-id="c9453-107">Selle asemel kasutage e-hanke väljaregistreerimiseks väliseid katalooge.</span><span class="sxs-lookup"><span data-stu-id="c9453-107">Instead, use external catalogs for PunchOut e-procurement.</span></span> <span data-ttu-id="c9453-108">Siis, kui töötajad koostavad ostutaotlusi, saavad nad registreerida end välja hankija välisele kataloogisaidile (teisisõnu lahkuvad nad teie süsteemist ja lähevad hankija saidile).</span><span class="sxs-lookup"><span data-stu-id="c9453-108">Then, when employees create requisitions, they can “punch out” to a vendor’s external catalog site (in other words, they leave your system and go to the vendor’s site).</span></span> <span data-ttu-id="c9453-109">Siis saab tooted, mis lisatakse hankija veebisaidil ostukorvi, teisendada ostutaotluse ridadeks.</span><span class="sxs-lookup"><span data-stu-id="c9453-109">The products that are added to the shopping cart on the vendor’s website can then be converted to requisition lines.</span></span> <span data-ttu-id="c9453-110">Seetõttu saate õige tooteteabe: toote ID, nimi, hind jne.</span><span class="sxs-lookup"><span data-stu-id="c9453-110">Therefore, you get the correct product information: product ID, name, price, and so on.</span></span>
