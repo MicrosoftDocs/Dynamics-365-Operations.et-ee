@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="questionnaires"></a>Küsimustikud
 
+[!include[banner](includes/banner.md)]
+
 Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida. 
 
 Saate kohandada küsimustikku nii, et see vastaks teie konkreetsetele nõudmistele, kasutades mitmesuguseid Microsoft Dynamics 365 for Finance and Operations, Enterprise Editioni funktsioone. Siin on mõned näited küsimustike kasutamise kohta.

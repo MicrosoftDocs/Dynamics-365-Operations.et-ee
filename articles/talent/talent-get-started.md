@@ -25,6 +25,9 @@ ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Teenusega Microsoft Dynamics 365 for Talent alustamine
+
+[!include[banner](includes/banner.md)]
+
 Rakenduses Microsoft Dynamics 365 for Talent saab kasutajaliidest hõlpsasti kohandada ja määrata suvandeid, mis muudavad tarkvara teie vajaduste jaoks intuitiivsemaks. Teema hõlmab muude teemade linke, kust saate teavet selle kohta, kuidas kohandada kasutajaliidest oma eelistuste kohaselt. Teema sisaldab ka linke teabe juurde, mis aitab teil süsteemis tõhusalt ja täpselt teavet leida. 
 
 > [!NOTE] 

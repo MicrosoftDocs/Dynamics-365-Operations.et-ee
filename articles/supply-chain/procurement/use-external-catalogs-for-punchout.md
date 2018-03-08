@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Väliskataloogide kasutamine e-hanke väljaregistreerimiseks
+
+[!include[banner](../includes/banner.md)]
+
 Kasutades väliseid katalooge e-hanke väljaregistreerimiseks pole teil vaja hoida oma koondandmetes teavet oma hankija toodete kohta. Selle asemel teisendatakse ostukorv hankija veebisaidil ostutaotluse ridadeks, millel on õiged tooteandmed. 
 
 Peaksite vältima oma hankija toodete kirjelduste ja hindade hoidmist oma toote koondandmetes. Selle asemel kasutage e-hanke väljaregistreerimiseks väliseid katalooge. Siis, kui töötajad koostavad ostutaotlusi, saavad nad registreerida end välja hankija välisele kataloogisaidile (teisisõnu lahkuvad nad teie süsteemist ja lähevad hankija saidile). Siis saab tooted, mis lisatakse hankija veebisaidil ostukorvi, teisendada ostutaotluse ridadeks. Seetõttu saate õige tooteteabe: toote ID, nimi, hind jne.

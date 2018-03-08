@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
+[!include[banner](../includes/banner.md)]
+
 Välist kataloogi kasutades saate veenduda, et toote ja hinna teave, mida hiljem Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskenduses töötlete, oleks täpne ja ajakohane. Seejärel saab ostutaotluse kinnitada ja teisendada ostutellimuseks ning hankijale saab tellimuse esitada.
 
 Kui väline kataloog on seadistatud ja töötaja koostab ostutaotlust, on olemas võimalus ümbersuunamiseks välisele saidile, välisesse kataloogi ja naasta välisel saidil loodud ostukorvi. See suhtlus põhineb cXML-protokollil ja see tuleb seadistada ostu- ja müügiorganisatsiooni süsteemide vahel.

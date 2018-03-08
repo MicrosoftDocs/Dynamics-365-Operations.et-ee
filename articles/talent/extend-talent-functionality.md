@@ -25,6 +25,9 @@ ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Teenuse Microsoft Dynamics 365 for Talent võimaluste laiendamine
+
+[!include[banner](includes/banner.md)]
+
 Kui olete loonud Microsoft PowerAppse, saate need rakendused käivitada teenuses Microsoft Dynamics 365 for Talent olevate linkide kaudu. Rakendustele juurdepääsu seadistamiseks peate teenuses Talent konfiguratsiooni lehel seadistama teavet, konfiguratsiooni lehe saate avada tööruumis **Süsteemihaldus**.
 
 ## <a name="configuring-embedded-powerapps-within-talent"></a>Manustatud PowerAppsi konfigureerimine teenuses Talent

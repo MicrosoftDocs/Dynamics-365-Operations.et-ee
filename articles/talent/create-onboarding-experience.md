@@ -26,6 +26,8 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="create-an-engaging-onboarding-experience"></a>Kaasahaarava sisseelamiskogemuse loomine
 
+[!include[banner](includes/banner.md)]
+
 Tulemuslik sisseelamisprogramm aitab uutel töötajatel paremaid tulemusi saavutada ja tunda, et nad kuuluvad oma uude rolli. Sisseelamine võib aidata uutel töötajatel mõista oma uut rolli kiiremini ja täpsemalt kui muidu ja nad saavad hea edumaa, luues suhteid, mis aitavad neil edu saavutada. Samas kehv sisseelamiskogemus võib panna töötajad kahtlema oma otsuses teie organisatsiooniga liituda. 2014. aastal Gartneri tehtud uuringus leiti, et ligi kolmandik 1005 vastajast, kes esimese kuue kuu jooksul ametist lahkusid, tegid seda sellepärast, et juhised, mida nende juhid neile andsid, polnud selged, koolitus ei andnud tulemusi või nad ei suutnud uues töökeskkonnas toimivaid suhteid luua.
 
 ## <a name="have-an-onboarding-program-in-place"></a>Pange paika sisseelamisprogramm

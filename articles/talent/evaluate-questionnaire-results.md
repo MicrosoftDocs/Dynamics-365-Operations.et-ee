@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Saate küsimustiku tulemusi vaadata ja hinnata
 
+[!include[banner](includes/banner.md)]
+
 See teema selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsimustike tulemusi. 
 
 Pärast seda, kui vastajad on küsimustiku täitnud, saate vaadata ja hinnata küsimustiku tulemusi järgmisel viisil.

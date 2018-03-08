@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="design-a-questionnaire"></a>Küsimustiku kujundamine
 
+[!include[banner](includes/banner.md)]
+
 See teema kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
 
 Hoolikalt koostatud küsimustik võib aidata tõsta kogutavate andmete kvaliteeti. Hoolika kavandamise kaudu saate küsimustiku jaoks sobival ajal paremini sobivaid võimalusi valida. Järgmised punktid aitavad tulemuslikku küsimustikku kavandada.

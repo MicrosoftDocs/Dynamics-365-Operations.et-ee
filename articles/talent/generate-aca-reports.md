@@ -25,6 +25,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="generate-affordable-care-act-reports"></a>Taskukohase ravikindlustuse eelnõu aruannete koostamine
+
+[!include[banner](includes/banner.md)]
+
 See funktsioon on mõeldud nende tööandjate abistamiseks, kellel on vaja jälgida vormidel 1095-B ja 1095-C esitatud teavet taskukohase ravikindlustuse eelnõu osa **Tööandja kohustus** toetamiseks. Pange tähele, et see funktsioon on lubatud ainult Ameerika Ühendriikide juriidiliste isikute puhul.
 
 ## <a name="getting-started"></a>Alustamine

@@ -29,6 +29,8 @@ ms.lasthandoff: 02/01/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>Tegevuse salvestaja ja kassa spikker
 
+[!include[banner](includes/banner.md)]
+
 Selles teemas kirjeldatakse tegevuse salvestaja kasutamist Retail Modern POS-is (MPOS) ja pilve kassas.
 
 <a name="overview"></a>Ülevaade

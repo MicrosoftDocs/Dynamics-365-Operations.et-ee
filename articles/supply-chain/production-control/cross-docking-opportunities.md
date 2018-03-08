@@ -28,6 +28,8 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Ristlaadimine tootmistellimustest lähetusaladesse
 
+[!include[banner](../includes/banner.md)]
+
 Selles teemas kirjeldatakse, kuidas hallata lõpetatuks registreeritava materjali ristlaadimise protsessi tootmisliinilt väljaminevasse transpordidokki.
 
 <a name="introduction"></a>Sissejuhatus

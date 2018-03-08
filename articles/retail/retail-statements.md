@@ -28,6 +28,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="retail-statements"></a>Jaemüügi väljavõtted
+
+[!include[banner](includes/banner.md)]
+
 Rakenduses Microsoft Dynamics for Retail 365 kasutatakse väljavõtte sisestamise protsessi pilvekassas ja uudses kassas toimuvate kannete arvestamiseks. Väljavõtte sisestamise protsess kasutab jaotusgraafikut, et tõmmata kassa kannete komplekt peakontori klienti. Lehtedel **Jaemüügi parameetrid** ja **Kauplused** määratletud parameetreid kasutatakse üksikutesse väljavõtetesse tõmmatavate kannete valimiseks.  
 
 Järgmine joonis illustreerib väljavõtte sisestamise protsessi. Selles protsessis edastatakse kassas salvestatud kanded kliendile Kaupluse andmeedastaja abil. Pärast seda, kui klient on kanded kätte saanud, saate luua, arvutada ja sisestada kaupluse kannete väljavõtte. 
