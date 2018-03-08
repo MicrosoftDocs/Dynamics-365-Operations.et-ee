@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Ülevaade toote ja kliendi otsingust kassas
 
+[!include[banner](includes/banner.md)]
+
 Modern Point of Sale (MPOS) ja pilvekassa (CPOS) pakuvad hõlpsasti kasutatavat otsingufunktsiooni, mis võimaldab kaupluse töötajatel kiiresti tooteid ja kliente otsida. MPOS-i ja CPOS-i ülaosas on alati otsinguriba, et töötajad saaksid tooteid ja kliente kiiresti otsida.
 
 Töötajad saavad otsida tooteid praeguse kauplusega seostatud sortimentidest ja kataloogidest ning ettevõtte mõne teise kauplusega seostatud sortimentidest ja kataloogidest. Seega saavad kassapidajad müüa ja tagastada ka kaupluse sortimendist väljaspool olevaid tooteid. Samamoodi saavad töötajad otsida praeguse kaupluse või ettevõtte mõne teise kauplusega seotud kliente. Lisaks saavad töötajad otsida emaorganisatsiooni teise ettevõttega seostatud kliente.

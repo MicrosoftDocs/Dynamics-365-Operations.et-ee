@@ -26,6 +26,8 @@ ms.lasthandoff: 12/14/2017
 ---
 # <a name="visibility-into-material-exceptions"></a>Materjalierandite nähtavus
 
+[!include[banner](../includes/banner.md)]
+
 Tööruumis **Tootmisosakonna haldus** pakuvad kolm paani teile tootmistellimuste ja partiitellimuste toormaterjalide eranditele paremat nähtavust.
 
 - Tähelepanu vajavad väljastamata koosluseread

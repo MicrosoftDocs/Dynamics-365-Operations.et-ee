@@ -27,6 +27,8 @@ ms.lasthandoff: 12/20/2017
 
 # <a name="display-notifications-in-point-of-sale"></a>Teatiste kuvamine kassas
 
+[!include[banner](includes/banner.md)]
+
 Tänapäevases jaemüügikeskkonnas on kaupluse töötajatele määratud mitmesuguseid ülesandeid, näiteks klientide abistamine, kannete sisestamine, laoinventuuri tegemine ja kaupluses tellimuste vastuvõtmine. Kassa klientrakendus toetab töötajaid nende ülesannete täitmisel ja palju muu juures, tehes kõike seda ühes rakenduses. Päeva jooksul mitmete ülesannete täitmisel on töötajaid vaja teavitada, kui miski nõuab nende tähelepanu. Kassa teatiste raamistik lahendab selle probleemi, võimaldades jaemüüjatel konfigureerida rollipõhiseid teatisi. Dynamics 365 for Retail rakendusevärskendusega 5 võimaldab neid teatisi konfigureerida ainult kassatoimingutele.
 
 Praegu võimaldab süsteem kuvada teatisi tellimuse täitmise toimingute puhul, kuid raamistik on kujundatud laiendatavana, seega tulevikus saavad arendajad kirjutada teatise mis tahes toimingu jaoks ja kuvada teatised kassas.  

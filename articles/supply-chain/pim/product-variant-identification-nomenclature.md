@@ -29,6 +29,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Tootevariandi numbrite ja nimede nomenklatuur
 
+[!include[banner](../includes/banner.md)]
+
 See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud vormingu [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] asendamiseks. Uuel nomenklatuuril on sihipärane vorming, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja teie valitud teksti eraldajaid. Nomenklatuuri saab luua ka tootenimede kohta. Lõpuks saab koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute.
 
 Tootevariandi numbrite ja nimede uued nomenklatuurid võimaldavad kaasata identifikaatoritesse tootevariantide segmente. Need segmendid võivad sisaldada tooteetaloni numbrit ja nime, tootedimensiooni ID-sid ja nimesid, numbriseeriaid, tekstikonstante ja atribuute. See funktsionaalsus võimaldab teil müügitellimuse või ostutellimuse loomisel kiiresti leida konkreetse tootevariandi. Nomenklatuure saab luua nii tootevariandi numbrite kui ka nimede kohta, kasutades lehte **Toote nomenklatuur**. Selle lehe avamiseks klõpsake nuppe **Tooteteabe haldus** &gt; **Seadistus**.

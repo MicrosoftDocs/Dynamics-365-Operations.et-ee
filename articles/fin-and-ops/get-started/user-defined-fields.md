@@ -62,7 +62,7 @@ Järgmised sammud kirjeldavad kohandatud välja loomist ja selle välja vormile 
 10.   Märgitud väljade lisamiseks vormi valitud piirkonda klõpsake käsku **Lisa**.. 
 11.   **Valikuline:** uute väljade teisaldamiseks valitud piirkonna soovitud asukohta lubage isikupärastamise tööriistaribal režiim **Teisaldamine**. Lisateavet eri isikupärastamisvõimaluste kasutamise kohta vormi teie isikliku kasutuse järgi kohandamiseks vaadake teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md)  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Kohandatud väljade jagamine teiste kasutajatega
+## <a name="sharing-custom-fields-with-other-users"></a>Kohandatud väljade jagamine teiste kasutajatega
 Pärast kohandatud välja loomist ja selle vormile esitamist võite soovida seda uue väljaga uuendatud lehevaatet jagada ka süsteemi teiste kasutatatega. Seda saab toote isikupärastamisvõimalusi kasutades teha kahel viisil.
 
 -   Soovitatav on seda teha süsteemi administraatori kaudu, kes saab isikupärastamise avaldada kõigile kasutajatele või kasutajate alamkogumile. Lisateavet vaadake teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md). 

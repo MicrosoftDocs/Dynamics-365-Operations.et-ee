@@ -27,6 +27,8 @@ ms.lasthandoff: 01/31/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Puhkuste ja puudumiste ülevaade
 
+[!include[banner](includes/banner.md)]
+
 Moodul **Puhkuste ja puudumiste haldamine** pakub paindlikku raamistikku puudumiste haldusprotsessi määratlemiseks. Siin saab luua puhkuste ja puudumiste plaane, mille abil määratleda, kuidas töötajad koguvad või saavad vaba aega. Kui töötajad on plaani registreeritud, saavad nad esitada ülemustele kinnitamiseks puhkusetaotlusi. Puhkuste jälgimine võimaldab esmataseme juhtidel ja inimressursside (HR) juhtidel vaadata, kes puhkab ja kui palju puhkusepäevi töötajal järgi on.  
 
 Puhkuste ja puudumiste haldusmoodulis on järgmised funktsioonid. 

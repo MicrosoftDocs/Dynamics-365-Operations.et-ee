@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Toodete müümine ja tagastamine väljaspool sortimenti
+
+[!include[banner](includes/banner.md)]
+
 Iga jaemüüja tavapärane stsenaarium on müüa tooteid oma klientidele või võtta vastu tagastusi oma klientidelt, isegi kui neil pole kaupluses neid kindlaid tooteid (teisisõnu tooteid pole kaupluse sortimendis).
 Tüüpilised stsenaariumid on näiteks järgmised.
 

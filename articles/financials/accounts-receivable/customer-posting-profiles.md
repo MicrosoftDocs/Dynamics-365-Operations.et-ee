@@ -54,10 +54,6 @@ Määrake kannete sisestamisel kasutatavad pearaamatukontod, mis kasutavad valit
 Kui soovite, et kõigil kliendi kannetel oleksid samad sisestusreeglid, seadistage ainult üks sisestusreegel, valides väljal Konto kood väärtuse Kõik. Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Väli</th>

@@ -24,6 +24,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="reverse-charge-vat"></a>Pöördkäibemaks
+
+[!include[banner](../includes/banner.md)]
+
 Selles teemas kirjeldatakse üldist lähenemist Euroopa riikide pöördkäibemaksu (KM) seadistamisele.
 
 Pöördmaks on maksuskeem, mis viib käibemaksu arvestamise ja registreerimise kohustuse kaupade ja/või teenuste müüjalt ostjale. Seetõttu registreerivad kaupade ja/või teenuste saajad nii arvestatud käibemaksu (müüja rollis) kui ka sisendkäibemaksu (ostja rollis) oma käibemaksuaruandes.

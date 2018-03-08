@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="process-compensation"></a>Tasu töötlemine
+
+[!include[banner](includes/banner.md)]
+
 Tasu töötlemise abil saate arvutada omakapitali kohanduste, teenetel põhineva palgatõusu sihtväärtuste ja tulemuste põhjal töötajate uusi põhipalga summasid. See teema käsitleb tasude töötlemise põhivoogu põhipalga plaanide puhul ilma töötaja tulemusi arvesse võtmata.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Uute tasusummade ja eelarvete plaanimine

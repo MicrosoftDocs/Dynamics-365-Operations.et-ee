@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Krediidi ja võlanõuete halduse Power BI sisu
 
+[!include[banner](../includes/banner.md)]
+
 See teema kirjeldab, mida hõlmab **krediidi ja võlanõuete halduse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade

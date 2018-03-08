@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Konfiguratsioonivõtmed ja andmeüksused
+
+[!include[banner](../includes/banner.md)]
+
 Enne andmete importimiseks või eksportimiseks andmeüksuste kasutamist soovitame teil määratleda konfiguratsioonivõtmete mõju andmeteüksustele, mida plaanite kasutada. 
 
 Lisateabe saamiseks konfiguratsioonivõtmete kohta rakenduses Finance and Operations lugege teemat [Litsentsikoodide ja konfiguratsioonivõtmete aruanne](../sysadmin/license-codes-configuration-keys-report.md).

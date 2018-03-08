@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materjalitarbe registreerimine mobiilse seadmega
+
+[!include[banner](../includes/banner.md)]
+
 Selles teemas kirjeldatakse töövoogu, mis võimaldab registreerida tootmises toormaterjali pihuseadme abil.
 
 <a name="introduction"></a>Sissejuhatus

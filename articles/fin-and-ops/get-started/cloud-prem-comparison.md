@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
 
+[!include[banner](../includes/banner.md)]
+
 Selles teemas näidatakse, kas iga funktsioon on nendes toodetes saadaval:
 
 + Dynamics 365 for Finance and Operations, Enterprise Edition (pilv)
