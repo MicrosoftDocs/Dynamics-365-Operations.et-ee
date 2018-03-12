@@ -1,7 +1,7 @@
 ---
 title: Protsessid ja operatsioonid
 description: See teema annab teavet protsesside ja operatsioonide kohta.
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Põhivarade kulumiarvestusmeetodid](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [Põhivara teisaldamine varudesse](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Allahinnatud põhivarad](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>India
+
+- [Põhivarad](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Kapitalikaupade ülekanne põhivarasse](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Päevapõhise kalendri manustamine põhivararaamatule](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Parameetrite häälestamine kulumi arvutamiseks](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Varagrupi kulumi häälestamine kulumiraamatute jaoks](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Laomudeligrupi loomine kapitalikaupade jaoks](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Vahetuse India põhivara kulumi arvutamine](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Raamatute vahetuse ja valdkonna määratlemine ja põhivarale lisamine](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Maksumootori ülevaade](../../financials/general-ledger/tax-engine.md)
+    - [Maksumootori integratsioon](../../financials/general-ledger/tax-engine-integration.md)
+    - [Maksulävede KKK](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Maksumootori laiendamine](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Itaalia
 
