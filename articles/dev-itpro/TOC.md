@@ -9,7 +9,7 @@
 ## [Avaldustevirna ja serveri ülesehitus](dev-tools/application-stack-server-architecture.md)
 ## [Tutvumiskoopia saamine](dev-tools/get-evaluation-copy.md)
 ## [Tellimusele registreerimine](dev-tools/sign-up-preview-subscription.md)
-## [Pääsueksemplarid](dev-tools/access-instances.md)
+## [Arenduskeskkonna juurutamine ja juurdepääs](dev-tools/access-instances.md)
 ## [Arendussüsteemi nõuded](dev-tools/development-system-requirements.md)
 ## Sõidukipargi halduse näidisavaldus
 ### [Sõidukipargi halduse näidisavaldus](dev-tools/fleet-management-sample.md)
@@ -355,12 +355,12 @@
 #### [PartDesigni tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md)
 #### [PartMetadata tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md)
 #### [Row’ tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md)
-#### [Value tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md)
+#### [Väärtuse tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md)
 #### [ValueDesigni tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [ValueMetadata tüüp](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # Andmete integratsioon
-## [Integreerimismustrid](data-entities/integration-overview.md)
+## [Andmete integratsioonistrateegia (import/eksport) valimine](data-entities/integration-overview.md)
 
 ## Andmete integratsiooni API-d
 ### [Andmehalduse paketi API](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [Andmete integreerimine teenus Common Data Service abil](data-entities/data-integration-cds.md) 
 #### [Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Rakenduse Finance and Operations toodete sünkroonimine rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Rakenduse Sales kontode sünkroonimine rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Rakenduse Sales kontaktide sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Rakenduse Sales müügipakkumise päiste ja ridade sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [Rakenduse Finance and Operations müügiarve päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Rakenduse Finance and Operations toodete sünkroonimine rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Rakenduse Sales kontode sünkroonimine rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Rakenduse Sales kontaktide sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Rakenduse Sales müügipakkumise päiste ja ridade sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Rakenduse Finance and Operations müügiarve päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [Oma andmebaasi toomine](analytics/export-entities-to-your-own-database.md)
 
+## [Ressursid isikuandmete kaitse üldmääruse taotlusele vastamiseks](gdpr/gdpr-home-page.md)
+
 # [Pideva tarne kodulehekülg](dev-tools/continuous-delivery-home-page.md)
 ## [Arenduse ja pideva tarne KKK](dev-tools/continuous-delivery-faq.md)
 ## [Proovipakendite välja arvamine koosteväljundist](dev-tools/exclude-test-packages.md)
@@ -515,8 +517,9 @@
 ### [Asutusesisese projekti loomine](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Asutustesiseste keskkondade seadistamine ja juurutamine](deployment/setup-deploy-on-premises-environments.md)
 ### [Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse](deployment/develop-deploy-custom-models-on-premises.md)
-### [Värskenduste rakendamine asutustesiseele juurutamisele](deployment/apply-updates-on-premises.md)
-### [Asutusesisese juurutamise uuesti juurutamine](deployment/redeploy-on-prem.md)
+### [Pöördpuhverserveri konfigureerimine oma kohapealse keskkonna jaoks](deployment/onprem-reverseproxy.md)
+### [Värskenduste rakendamine kohapealsesse juurutamisse](deployment/apply-updates-on-premises.md)
+### [Kohapealse juurutamise uuesti juurutamine](deployment/redeploy-on-prem.md)
 ### [Kohaliku esindaja värskendamine](lifecycle-services/update-local-agent.md)
 ### [Keskkonna ümberkonfigureerimine](lifecycle-services/reconfigure-environment.md)
 ### [Dynamics 365 for Finance and Operations, Enterprise Editioni (asutusesisene) tõrkeotsing](deployment/troubleshoot-on-prem.md)
@@ -527,7 +530,7 @@
 ### [Juurutatava paketi installimine](deployment/install-deployable-package.md)
 ### [Paketi rakenduse probleemide tõrkeotsing](deployment/deployable-package-troubleshooting.md)
 
-# [Täiendamine ja migreerimine](migration-upgrade/upgrade-home-page.md)
+# [Täiendused, värskendused ja kiirparandused](migration-upgrade/upgrade-home-page.md)
 ## [Versiooni AX 2012 täiendamine versioonile Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [AX 2012 täiendus – täienduse analüüsija tööriista kasutamine ajastamiseks](migration-upgrade/upgrade-analyzer-tool.md)
 ### [AX 2012 täiendus– kooditäienduse teenuse kasutamine panuse hindamiseks](migration-upgrade/analyze-code-upgrade.md)
@@ -555,8 +558,7 @@
 ### [Tükeldatavad mudelid](dev-tools/model-split.md)
 ### [Delegaatide kasutamine mudelitevaheliste sõltuvuste lahendamiseks](migration-upgrade/delegates-migration.md)
 
-
-## Uusimale värskendusele täiendamine
+## Uusimale värskendusele täiendamine (pilv)
 ### [Viimatise värskenduse kasutuselevõtmise protsess](migration-upgrade/upgrade-latest-update.md)
 ### [Elutsükli poliitika](migration-upgrade/versions-update-policy.md)
 ### [Uusima platvormivärskenduse rakendamine keskkonnale](migration-upgrade/upgrade-latest-platform-update.md)
@@ -564,13 +566,17 @@
 ### [Liivakastikeskkonna täiendamine](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Andmete täiendamine arendus- või demokeskkondades](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Arendustööriistade värskendamine](dev-tools/update-development-tools.md)
-### [Värskenduste rakendamine kohapealsele juurutamisele](deployment/apply-updates-on-premises.md)
+
+## Uusimale värskendusele täiendamine (kohapealne)
+### [Värskenduste rakendamine kohapealsesse juurutamisse](deployment/apply-updates-on-premises.md)
 ### [Kohapealse juurutamise uuesti juurutamine](deployment/redeploy-on-prem.md)
 
-## Kiirparandused ja hooldamine
+## Kiirparandused
 ### [Kiirparanduste allalaadimine teenusest Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [Värskenduste rakendamine pilvekeskkonnale](deployment/apply-deployable-package-system.md)
 ### [Metaandmete kiirparanduse installimine](migration-upgrade/install-metadata-hotfix-package.md)
 ### [Paiga aruandlusteenus valmiskeskkonnas](migration-upgrade/patch-reporting-service-environment.md)
+### [Visual Studio tööriistade värskendamine](dev-tools/update-development-tools.md)
 
 ## Kulum
 ### [Aegunud API-d](migration-upgrade/deprecated-apis.md)
