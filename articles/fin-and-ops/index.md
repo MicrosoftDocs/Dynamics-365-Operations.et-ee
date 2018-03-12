@@ -3,7 +3,7 @@ title: Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise E
 description: Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition dokumentatsioon.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -43,9 +43,13 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 <h3><a href="get-started/before-you-buy.md">Enne ostmist</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Eelvaatetellimuse saajaks registreerumine</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Juurutamissuvandi valimine</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">Rakenduse Finance and Operations (asutusesisene) ostmine</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Rakenduse Finance and Operations (kohapealne) ostmine</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Juurutamise elutsükkel</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">Projekti kasutuselevõtt</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Ettevalmistamine süsteemi Go-Live jaoks</a></p>
+  
 <h3><a href="../financials/index.md">Finantshaldus</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Ostureskontro</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Müügireskontro</a></p>
@@ -98,8 +102,9 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiilne platvorm</a></p>
 <p><a href="get-started/demo-data.md">Demoandmed</a></p>
 
-<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administreerimine</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">Juurutamine</a></p>
+<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Haldus</h3>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Pilvejuurutus</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Kohapealne juurutus</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Täiendamine</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Hooldus</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Andmehaldusraamistik</a></p>

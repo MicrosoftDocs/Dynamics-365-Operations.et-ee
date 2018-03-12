@@ -1,9 +1,9 @@
 ---
 title: Tarneahela juhtimise avaleht
-description: See teema annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+description: See leht annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>, et n�
 Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
 - [Kuluarvestus](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Kuluhaldus](cost-management/costing-sheets.md)  
+- [Kuluhaldus](cost-management/cost-management-home-page.md)  
 - [Varude haldus](inventory/inventory-home-page.md)
 - [Koondplaneerimine](master-planning/master-planning-home-page.md)
 - [Hanked](procurement/procurement-sourcing-overview.md)
@@ -54,8 +54,9 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
 Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (detsember 2017) uute funktsioonidega tutvust teha.
 
--  [Sularahastsenaariumi jaoks potentsiaalse kliendi integreerimine](https://youtu.be/AVV9x5x-XCg) 
+-  [Potentsiaalse kliendi sularahaks integreerimine](https://youtu.be/AVV9x5x-XCg) 
 -  [Optimeerimise nõustaja](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Laomalli kasutamine konfiguratsiooni kopeerimiseks](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017) uute funktsioonidega tutvust teha.
 
@@ -67,17 +68,36 @@ Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and O
 
 Need tehnoloogiakonverentsi salvestised räägivad toote funktsionaalsusest rakenduse Finance and Operations eelmises versioonis, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Tootekonfiguraator rakenduses Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">Koondplaneerimine – vihjed ja näpunäited tõrkeotsinguks</a>
--  <a href="https://youtu.be/RLXybx20B5o">Mida teha? MRP on aeglane.</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Sissetulevate ASN-ide töötlemine laohalduses</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Laohaldussüsteemi kasutamise parimad võimalused</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">R3 täpsem laohaldus – sissetulevate sõnumite töötlus ja minimaalne/maksimaalne täiendus</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">R3 täpsem laohaldus – ülevaade, väljaminevate sõnumite töötlus ja nõudluse tõttu täiendamine</a>
--  <a href="https://youtu.be/5w1MngVchBA">Sildid uues Microsoft Dynamics AX 2012 R3 laohalduses</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: täpsem laohaldus – protsesstootmise ülevaade</a>
--  <a href="https://youtu.be/y1jrd3A_k70">Tootmise allhanketoimingud ja -tegevused</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">Transpordihaldus (TMS) uues Microsoft Dynamics AX-is</a>
+**Kuluhaldus**
+
+-  [Kuluhalduse ülevaade](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**Koondplaneerimine**
+
+-  [Nõudluse prognoosi funktsiooni pikendamine](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Koondplaneerimine – vihjed ja näpunäited tõrkeotsinguks](https://youtu.be/7v8BPmEs9Dg)
+-  [Mida teha? MRP on aeglane.](https://youtu.be/RLXybx20B5o)
+
+**Tooteteabe haldus**
+
+-  [Tootekonfiguraator rakenduses Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**Laohaldus** 
+
+-  [Sissetulevate ASN-ide töötlemine laohalduses](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [Laohaldussüsteemi kasutamise parimad võimalused](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [R3 täpsem laohaldus – sissetulevate sõnumite töötlus ja minimaalne/maksimaalne täiendus](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [R3 täpsem laohaldus – ülevaade, väljaminevate sõnumite töötlus ja nõudluse tõttu täiendamine](https://youtu.be/Og0gLlVp7jA)
+-  [Sildid uues Microsoft Dynamics AX 2012 R3 laohalduses](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: täpsem laohaldus – protsesstootmise ülevaade](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**Tootmise juhtimine**
+
+-  [Tootmise allhanketoimingud ja -tegevused](https://youtu.be/y1jrd3A_k70)
+
+**Transpordihaldus**
+
+-  [Transpordihaldus (TMS) uues Microsoft Dynamics AX-is](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Ajaveebid
 <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist</a> ning <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX-i tarneahela juhtimise uurimis- ja arendustöörühma ajaveebist</a> leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud rakenduse Finance and Operationsi eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 

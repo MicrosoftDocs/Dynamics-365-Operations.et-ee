@@ -182,11 +182,12 @@
 ### [Jaemüügikanali side](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS-i ülesehitus](dev-itpro/retail-modern-pos-architecture.md)
 ### [Jaemüügi võrgupoe avaldamise ülesehitus](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Sisupaketi Retail Channel Performance Power BI content](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Jaemüügikanali jõudluse Power BI sisu](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Makse rakendusandmete turbestandardite (PA-DSS) sertifikaat](dev-itpro/PA-DSS-Certification.md)
 
 ## Juurutamine ja kiirparandused
-### [Retail Store Scale Uniti ülevaade](dev-itpro/retail-store-system-begin.md)
-### [Retail Store Scale Uniti konfigureerimine ja installimine](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Jaekaupluse skaala üksuse ülevaade](dev-itpro/retail-store-system-begin.md)
+### [Jaekaupluse skaala üksuse konfigureerimine ja installimine](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
 ### [Jaemüügikontode ja -seadmete haldamine peakontorist](set-up-activation-accounts-validate-devices-hq.md)
 ### [Retail POS-i seadme aktiveerimine](dev-itpro/retail-device-activation.md)

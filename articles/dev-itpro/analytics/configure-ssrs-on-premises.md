@@ -26,6 +26,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>SQL Serveri aruandlusteenuste konfigureerimine kohapealseks juurutamiseks
 
+[!include[banner](../includes/banner.md)]
+
 Kasutage selles teemas toodud etappe SQL Serveri aruandlusteenuste (SSRS) konfigureerimiseks oma rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (kohapealne) juurutuse puhul.
 
 1. Avage aruandlusteenuste konfiguratsioonihalduri rakendus.
