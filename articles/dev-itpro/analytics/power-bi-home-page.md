@@ -3,7 +3,7 @@ title: Power BI sisu
 description: Selles teemas loetletakse saadaolev Power BI sisu ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
 author: sericks007
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -42,6 +42,7 @@ Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterp
 - [Kuluarvestuse analüüsi Power BI sisu](cost-accounting-analysis-content-pack.md) 
 - [Krediidi ja võlanõuete halduse Power BI sisu](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Töötajate arengu Power BI sisu](employee-development-PBI.md) 
+- [Finantsülevaadete Power BI sisu](financial-insights.md)
 - [Finantsjõudluse Power BI sisu](financial-performance-power-bi-content-pack.md)
 - [Põhivarade halduse Power BI sisu](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [Õppimise Power BI sisu](learning-power-bi.md)
@@ -73,6 +74,9 @@ Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operationsi versio
 
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI sisu Microsoft Dynamics AX-i jaoks
 Kui kasutate rakendust Microsoft Dynamics AX 7.0 või Microsoft Dynamics AX 7.0.1, siis on saadaval järgmine Power BI sisu.
+
+> [!Note]
+> Need sisupaketid on aegunud, nagu on kirjas dokumendis [Saidil PowerBI.com avaldatud Power BI sisupaketid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 - [Kuluhalduse Power BI sisu](cost-management-content-pack.md)    
 - [Finantsjõudluse Power BI sisu](financial-performance-power-bi-content-pack.md)

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) konfiguratsioonipakkuja loomine ja aktiivseks märkimine
@@ -33,11 +33,10 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
 2. Klõpsake suvandit Konfiguratsiooni pakkujad.
 3. Klõpsake valikut Uus.
-    * Pakkuja kirjel on kordumatu nimi ja URL. Vaadake selle lehe sisu üle ja jätke see protseduur vahele, kui kirje Litware, Inc. (http://www.litware.com) on juba olemas.  
+    * Pakkuja kirjel on kordumatu nimi ja URL. Vaadake selle lehe sisu üle ja jätke see protseduur vahele, kui kirje Litware, Inc.-i (`http://www.litware.com`) kohta on juba olemas.  
 4. Sisestage väljale Nimi suvand Litware, Inc.
     * Litware, Inc.  
-5. Sisestage väljale Interneti-aadress suvand http://www.litware.com.
-    * http://www.litware.com  
+5. Sisestage internetiaadressi väljale väärtus `http://www.litware.com`.
 6. Klõpsake nuppu Salvesta.
 7. Sulgege leht.
 

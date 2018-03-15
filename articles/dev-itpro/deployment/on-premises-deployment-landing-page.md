@@ -3,14 +3,14 @@ title: Asutusesisene juurutus
 description: See teema pakub teavet ja linke sisule kohapealsete juurutuste kohta.
 author: kfend
 manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core
+ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Asutusesisese juurutuse sihtleht
@@ -31,6 +31,7 @@ ms.lasthandoff: 12/20/2017
 Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (kohapealne). Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest. See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.
 
 ## <a name="get-started"></a>Alustamine
+- [Mis on uut või mida on muudetud kohapealsetes keskkondades rakenduses Dynamics 365 for Finance and Operations, Enterprise edition 7.2 platvormivärskendusega 12 (märts 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
 - [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) ülevaade](on-premises-overview.md)
 - [Asutusesisese juurutuse plaanimine](plan-onprem-deployment.md)
 - [Kohapealsete juurutuste süsteeminõuded](../../fin-and-ops/get-started/system-requirements-on-prem.md)
@@ -50,6 +51,7 @@ Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Ent
 - [Dokumendihalduse konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Elektroonilise aruandluse konfiguratsioonide importimine](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentide loomise, avaldamise ja printimise võimalused kohapealsetes keskkondades](../analytics/printing-capabilities-on-premises.md)
+- [Pöördpuhverserveri konfigureerimine oma kohapealse keskkonna jaoks](onprem-reverseproxy.md)
 - [Tehnilise toe seadistamine](../lifecycle-services/support-experience.md)
 - [Klientseadme Interneti-ühenduse tõrkeotsing](../user-interface/client-disconnected.md)
 - [Värskenduste rakendamine kohapealsele juurutamisele](apply-updates-on-premises.md)

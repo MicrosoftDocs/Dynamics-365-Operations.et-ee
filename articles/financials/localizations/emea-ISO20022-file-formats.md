@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,16 +17,17 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 599440449f1e8c8dcc3762ce9f6da7a37beb358f
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 1492e4d8220a3d515145d97ef8dad048727d97c8
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
 # <a name="import-iso20022-files"></a>ISO20022 failide importimine
 
-## <a name="overview"></a>Ülevaade
+[!include[banner](../includes/banner.md)]
+
 Saate importida järgmistes vormingutes maksefaile.
 
  - **ISO20022 camt.054 kreeditaviis** – selles vormingus sissetulevate maksete importimine kliendi maksetöölehele.
@@ -40,7 +42,7 @@ Pangateatiste importimiseks vormingus camt.054.001.002 kliendi maksetöölehele 
 4. Seadistage lehel **Pangakontod** juriidilise isiku pangakontod, sisestades järgmise teabe: IBAN või pangakonto number, SWIFT-kood või protsessikood, valuuta ja aadress.
 
     > [!NOTE]
-    > Kui kavatsete kasutada pangakonto täpsemat vastavusseviimist, valige kiirkaardil **Vastavusseviimine** suvandi **Pangakonto täpsem vastavusseviimine** sätteks **Jah**. Kui kavatsete vastavusse viia sisestamata imporditud maksed, valige suvandi **Kasuta elektrooniliste maksete kinnituseks pangaväljavõtteid** sätteks **Jah**.
+        > Kui kavatsete kasutada pangakonto täpsemat vastavusseviimist, valige kiirkaardil **Vastavusseviimine** suvandi **Pangakonto täpsem vastavusseviimine** sätteks **Jah**. Kui kavatsete vastavusse viia sisestamata imporditud maksed, valige suvandi **Kasuta elektrooniliste maksete kinnituseks pangaväljavõtteid** sätteks **Jah**.
 
 5. Valikuline: saate seadistada lehel **Kandekoodide vastendamine** vastenduse failis olevate panga kandekoodide ja panga kandetüüpide vahel.
 6. Kui fail sisaldab kandetasusid, mille soovite sisestada koos sissetuleva maksega, looge maksetasu lehel **Kliendi maksetasu**. Seejärel seostage maksetasu lehel **Makseviisid** maksetasu seadistuses määratud pangakontoga.
@@ -53,9 +55,7 @@ Pangateatiste importimiseks vormingus camt.054.001.002 kliendi maksetöölehele 
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>Camt.054 kreeditaviisi faili importimine kliendi maksetöölehele
 1. Klõpsake lehel **Kliendi maksetöölehe read** suvandeid **Funktsioonid** > **Maksete importimine**.
 2. Valige makseviis, millel on ISO20022 camt.054 vormingu jaoks vajalikud sätted.
-3. Määrake nõutavad parameetrid ja faili tee, seejärel klõpsake **OK**.
-
-Fail imporditakse.
+3. Määrake nõutavad parameetrid ja faili tee, seejärel klõpsake **OK**. Fail imporditakse.
 
 ## <a name="prerequisites-for-importing-files-in-the-pain002-status-return-and-camt054-debit-advice-formats-into-the-ap-payment-transfer-journal"></a>Eeltingimused pain.002 oleku tagastuse ja camt.054 deebetaviisi vormingus failide importimiseks AP maksekande töölehele
 Pangateatiste importimiseks järgmistes ISO20022 vormingutes lehele **Hankija makseülekanne** peate täitma järgmised eeltingimused: pain.002.001.003 oleku tagastuse teated ja camt.054.001.002 deebetaviis.

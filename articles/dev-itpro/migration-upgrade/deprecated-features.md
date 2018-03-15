@@ -3,7 +3,7 @@ title: Aegunud funktsioonid
 description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 > Alates rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition, 2017. aasta juulikuu väljaandest platvormivärskendusega 8 on iga eemaldatud või aegunud funktsiooni puhul märgitud juurutuste tüüp. Kõik selles teemas mainitud varasemad versioonid toetasid ainult pilvejuurutusi.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 platvormivärskendusega 12
+
+### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused 
+Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Eemaldame tootesoovitusteenuse praeguse versiooni kuniks me seda funktsiooni parema algoritmi ja uuemate jaemüügile suunatud võimalustega täiustame.  |
+| **Asendatud teise funktsiooniga?**   | Nr Siiski plaanime selle funktsiooni pärast 2018. aasta kevadet uue soovitusteenuse võimendamiseks taastada.   |
+| **Mõjutatud tootealad**         | Isikupärastatud tootesoovitused kassas.                                                    |
+| **Juurutamissuvand**              | Kõik                                                                                      |
+| **Olek**                         |Eemaldatud alates 15. veebruarist 2018. See mõjutab kliente, kes kasutavad Dynamics 365 for Operations 1611 ja hilisemaid versioone.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektroonilise aruandluse (ER) funktsioonide loendi pikendus
 Võimalust võtta kasutusele ER avaldisekoosturis kasutatavaid funktsioone (lisateavet vt teemast [Elektroonilise aruandluse funktsioonide loendi pikendus](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) enam ei toetata. ER-i API-de muudatuste tõttu muutuvad kutsutava API sisseehitatud funktsioonid ER-i avaldisekoosturist sisemiseks ja neid ei saa enam laiendada.
@@ -133,6 +144,19 @@ Kasutajad saavad selle alla laadida valitsuse portaalist.
 | **Juurutamissuvand**                       | Kõik moodulid                                                                    |
 | **Olek**                                  | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata.  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+
+### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused 
+Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Eemaldame tootesoovitusteenuse praeguse versiooni kuniks me seda funktsiooni parema algoritmi ja uuemate jaemüügile suunatud võimalustega täiustame.  |
+| **Asendatud teise funktsiooniga?**   | Nr Siiski plaanime selle funktsiooni pärast 2018. aasta kevadet uue soovitusteenuse võimendamiseks taastada.   |
+| **Mõjutatud tootealad**         | Isikupärastatud tootesoovitused kassas.                                                    |
+| **Juurutamissuvand**              | Kõik                                                                                      |
+| **Olek**                         |Eemaldatud alates 15. veebruarist 2018. See mõjutab kliente, kes kasutavad Dynamics 365 for Retail 7.2 ja hilisemaid versioone. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, 2017. aasta juulikuu väljaanne platvormivärskendusega 8

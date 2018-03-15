@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> Selles teemas kirjeldatakse, kuidas pilvejuurutuse korral konfigureerida ladustamist. Asutusesiseste juurutamiste korral ladustamise konfigureerimise kohta lugege teemat [Kohapealsete juurutuste ladustamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> Selles teemas kirjeldatakse, kuidas pilvejuurutuse korral konfigureerida ladustamist. Asutusesiseste juurutamiste korral ladustamise konfigureerimise kohta lugege teemat [Kohapealsete juurutuste ladustamine](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 Selles teemas kirjeldatakse, kuidas installida ja konfigureerida Microsoft Dynamics 365 for Finance and Operationsi moodulit Ladustamine.
 
@@ -44,7 +46,7 @@ Rakendus on saadaval Androidi ja Windowsi operatsioonisüsteemides. Selle rakend
 
 | Platvorm                    | Versioon                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (kõik versioonid)                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations, versioon 1611 <br>- või - <br>Microsoft Dynamics AX-i versioon 7.0/7.0.1 ja Microsoft Dynamics AX-i platvormiuuendus 2 kiirparandusega KB 3210014 |
 
@@ -93,7 +95,7 @@ Peate konfigureerima rakenduse seadmel Finance and Operationsi serveriga Azure A
     + **Azure Active Directory kliendi ID** – kliendi ID hangiti sammus 9 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
     + **Azure Active Directory kliendi saladus** – kliendi saladus hangiti sammus 11 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
     + **Azure Active Directory ressurss** – Azure AD kausta ressurss kujutab endast Finance and Operationsi juur-URL-i. **Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). 
-    + **Azure Active Directory rentnik** - Azure AD kausta rentnik, mida Finance and Operationsi serveri puhul kasutatakse: https://login.windows.net/your-AD-tenant-ID. Näide: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **Azure Active Directory rentnik** - Azure AD kausta rentnik, mida Finance and Operationsi serveri puhul kasutatakse: `https://login.windows.net/your-AD-tenant-ID`. Näide: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). 
     + **Ettevõte** – sisestage rakendusse Finance and Operations juriidiline isik, millega soovite rakenduse ühendada. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Valige nupp **Tagasi** rakenduse ülemises vasakus nurgas. Rakendus loob nüüd ühenduse teie Finance and Operationsi serveriga ja kuvatakse laotöötaja sisselogimisekraan. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
@@ -103,7 +105,7 @@ Kaotatud või ohtu sattunud seadme puhul on vaja seadmelt juurdepääs Finance a
 
 1.  Avage rakenduses Finance and Operations **Süsteemihaldus** &gt; **Seadistus** &gt; **Azure Active Directory rakendused**.
 2.  Kustutage rida, mis vastab seadmele, millelt soovite juurdepääsu ära võtta. Pidage eemaldatud seadme **kliendi ID** meeles, te vajate seda hiljem.
-3.  Logige sisse Azure’i portaali lehel <https://portal.azure.com>.
+3.  Logige sisse Azure’i portaali lehel<https://portal.azure.com>.
 4.  Klõpsake vasakpoolses menüüs **Active Directory** ikooni ja veenduge, et olete õiges kataloogis.
 5.  Klõpsake loendis suvandit **Rakenduste registreerimine** ja seejärel rakendust, mida konfigureerida soovite. Kuvatakse leht **Sätted** konfiguratsiooniteabega.
 6.  Veenduge, et rakenduse **kliendi ID** on sama nagu selle jaotise 2. etapis.
