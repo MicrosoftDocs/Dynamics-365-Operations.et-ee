@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 33130a4061f22335aeeffa69c478b693604393a9
-ms.openlocfilehash: a57f306ba02c5758c39c4bd29d9a4fa0d7efbcd3
+ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
+ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -109,10 +109,10 @@ Väljastatud toodete ja tootevariantide valimiseks ja värskendamiseks saate kas
 
 ## <a name="related-topics"></a>Seotud dokumendid
 
--  Uue toote elutsükli oleku loomine
--  Uue toote elutsükli vaikeoleku loomine
--  Toote elutsükli oleku määramine väljastatud tooteetalonile
--  Toote elutsükli oleku määramine väljastatud tootele
--  Aegunud tootevariantide leidmine ja neile toote elutsükli oleku määramine
--  Toote elutsükli oleku loomine toodete välistamiseks koondplaneerimisest
+-  [Uue toote elutsükli oleku loomine (tegevuse juhis)](tasks/new-product-lifecycle-state.md)
+-  [Toote elutsükli oleku vaikeväärtuse loomine (tegevuse juhis)](tasks/default-product-lifecycle-state.md)
+-  [Toote elutsükli oleku määramine väljastatud tooteetalonile (tegevuse juhis)](tasks/product-lifecycle-state-released-product-master.md)
+-  [Toote elutsükli oleku määramine väljastatud tootele (tegevuse juhis)](tasks/product-lifecycle-state-released-product.md)
+-  [Aegunud tootevariantide leidmine ja neile toote elutsükli oleku määramine (tegevuse juhis)](tasks/obsolete-product-variants.md)
+-  [Toote elutsükli oleku loomine toodete välistamiseks koondplaneerimisest (tegevuse juhis)](tasks/exclude-products-master-planning.md)
 

@@ -3,7 +3,7 @@ title: "Finantsülevaated"
 description: "Finantsülevaated kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Praegu ei saa Power BI aruannete andmeid manustada juriidilistele isikutele, mil
 | Ettevõtteüleste finantsülevaadete vaatamine   | •   Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 ei ole seda kohutust rollile määratud. • Järgmises väljaandes määratakse see kohustus finantsdirektori rollile. | •    See kohustus võimaldab juurdepääsu CFO ülevaate tööruumi menüükäsule. •    Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele.             |
 
 
-## <a name="how-financial-statements-work"></a>Finantsaruannete toimimise põhimõtted
+## <a name="financial-reporting-vs-finanical-insights"></a>Finantsaruandlus vs finantsülevaated
 Kuigi **finantsülevaated** hõlmab finantsaruandeid, ei asenda see rakenduse Finance and Operations finantsaruandlust. **Finantsülevaadete** vaike-finantsaruannete ulatus on piiratud ega hõlma igat tüüpi finantsaruanded. Finantsaruandlus on siiski seaduslike finantsaruannete kavandamise ja loomise peamine tööriist.
 
-Peale algse **CFO ülevaae** tööruumi visuaalide on nüüd saadaval uued KPI-d, diagrammid ja finantsaruanded. Saadaval on järgmised finantsaruanded.
+Järgmine võrdlusdiagramm selgitab kahe võimaluse vahelisi erinevusi.
+
+|                                         | **Finantsaruandlus**                            | **Finantsülevaated**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Vaikearuannete muutmine**                | Jah                                                | Ei                                 | | **Uute aruannete loomine**                  | Jah                                                | Ei                                 | | **Aruannete printimine**                       | Jah                                                | Ei                                 | | **Excelisse eksportimine**                     | Jah          | Limiteeritud Toorandmete Excelisse eksportimine, mitte vormindatud aruanne       | | **Aruandluse hierarhia / organisatsiooni hierarhia toetamine**   | Jah                               | Ei                                 | | **Alammoodulite andmete kuvamine**       | Jah Limiteeritud ainult hankijale, kliendile    | Jah Hankija, klient, hankija-/kliendigrupid, hankija/kliendi aadressid jne  | | **Aruandlusvaluuta**      | Jah Arvestusvaluuta ja aruandlusvaluutasse teisendamine       | Ei Ainult arvestusvaluuta      | | **Turve**                | Jah Järgib rakendust Finance and Operations ja aruandluspuu turvet | Limiteeritud vaatega aruanded kõigile ettevõtetele (sõltumata rakenduse Finance and Operations turbest) või ainult aktiivsele ettevõttele | | **Eri kontoplaanide ja rahandusaastate toetamine** | Jah                   | Ei                   | | **Välisandmete aruanne**                              | Ei                   | Ei                                   | | **Konsolideerimiste toetamine**                               | Jah                          | Limiteeritud Võimaldab aruandlust mitmele ettevõttele, aga kasutab ainult arvestusvaluutat 
+
+
+Peale algse **CFO ülevaate** tööruumi kasutajaliidese on nüüd saadaval uued KPI-d, diagrammid ja finantsaruanded. Saadaval on järgmised finantsaruanded.
 
 •   Proovibilanss
 

@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ Siin on toimingud andmete importimiseks või eksportimiseks.
 6. Puhastage koondamistabelid.
 
 Selle teema ülejäänud osades on lisateave iga protsessi etapi kohta.
+
+> [!NOTE]
+> Andmete importimise/eksportimise vormi värskendamiseks ja uusima edenemise kuvamiseks kasutage vormi värskendamise ikooni. Brauseritasemel värskendamine pole soovitatav, kuna see katkestab kõik impordi- või eksporditööd, mida ei käitata partiidena.
 
 ## <a name="create-an-import-or-export-job"></a>Impordi- või eksporditöö loomine
 Andmete impordi- või eksporditöö saab käitada ühe korra või palju kordi.

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ Lahenduse Potentsiaalne klient sularahaks praegune versioon pakub vahetu sünkro
 - [Müügitellimuste vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](sales-order-template-mapping-direct.md)
 - [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel (malli vabastamise ootel)](sales-order-template-mapping-direct-two-ways.md)
 - [Müügiarve vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](sales-invoice-template-mapping-direct.md)
-
-Lahenduse Potentsiaalne klient sularahaks varasemad versioonid pakuvad mittevahetu sünkroonimise järgmisi tüüpe.
-
-- [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusega Finance and Operations.](accounts-template-mapping.md)
-- [Klientide haldamine rakenduses Sales ja nende sünkroonimine rakendusega Finance and Operations](contacts-template-mapping.md)
-- [Toodete haldamine rakenduses Finance and Operations ja nende sünkroonimine rakendusega Sales](products-template-mapping.md)
-- [Müügipakkumiste loomine rakenduses Sales ja nende sünkroonimine rakendusega Finance and Operations](sales-quotation-template-mapping.md)
-- [Müügitellimuste loomine rakenduses Finance and Operations ja nende sünkroonimine rakendusega Sales](sales-order-template-mapping.md)
-- [Müügiarvete loomine rakenduses Finance and Operations ja nende sünkroonimine rakendusega Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Rakenduse Finance and Operations süsteeminõuded
 
@@ -87,7 +78,7 @@ Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** – vajalik on tugi lahenduse Potentsiaalne klient sularahaks integreerimiseks andmeüksuste kaudu.
     
     > [!NOTE]
-    > Pärast kiirparanduste installimist peate vormilt **SalesPopulateProspectToCash** käivitama järgmise pakett-töö. See vorm on peidetud, kuna teil on seda vaja ainult üks kord. Vormile juurdepääsuks logige keskkonda sisse ja lisage oma brauseri aadressiribale järgmine URL: &mi=action:SalesPopulateProspectToCash, näiteks https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Vormi avanemisel klõpsake OK. See täidab tabelites **SalesLine**, **SalesQuotationLine** ja **CustInvoiceTrans** uue välja **LineCreationSequnceNumber** kordumatute väärtustega ja värskendab tooteloendit. See on vajalik lahenduse Potentsiaalne klient sularahaks integratsiooni toimimiseks.
+    > Pärast kiirparanduste installimist peate vormilt **SalesPopulateProspectToCash** käivitama järgmise pakett-töö. See vorm on peidetud, kuna teil on seda vaja ainult üks kord. Vormile juurdepääsu saamiseks logige keskkonda sisse ja lisage oma brauseri URL-ile järgmine: &mi=action:SalesPopulateProspectToCash, näiteks `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Vormi avanemisel klõpsake OK. See täidab tabelites **SalesLine**, **SalesQuotationLine** ja **CustInvoiceTrans** uue välja **LineCreationSequnceNumber** kordumatute väärtustega ja värskendab tooteloendit. See on vajalik lahenduse Potentsiaalne klient sularahaks integratsiooni toimimiseks.
 
 
 ## <a name="system-requirements-for-sales"></a>Rakenduse Sales süsteeminõuded
@@ -96,12 +87,6 @@ Lahenduse Potentsiaalne klient sularahaks kasutamiseks tuleb installida järgmis
 
 - Rakenduse Dynamics 365 for Sales versiooni 1612 (8.2.1.207) (DB 8.2.1.207) veebiversioon
 - Lahendus Potentsiaalne klient sularahaks rakendusele Dynamics 365 for Sales, versioon 1.15.0.0 (v15) 
-
-   > [!NOTE]
-   >
-   > Lahenduses Potentsiaalne klient sularahaks rakendusele Dynamics 365 for Sales, versioon 1.14.1.0, toetatakse malle versiooniga 1.0.0.0 ja 1.0.0.1
-   >
-   > Lahenduses Potentsiaalne klient sularahaks rakendusele Dynamics 365 for Sales, versioon 1.15.0.0, toetatakse malle versiooniga 2.0.0.0 ja 2.1.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Installige lahendus Potentsiaalne klient sularahaks rakendusele Sales
 

@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Koosluse- ja valemiridade lattu väljastamine
+
+[!include[banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse koosluseridade ja valemiridade toormaterjali lattu väljastamise protsessi. Koosluse- või valemirea väljastamisel lattu tuvastab süsteem kõigepealt selle, kas materjal on juba saadaval tootmise sisendasukohas tööde juhtimise moodulis, kus materjali tarbitakse tootmisprotsessi jaoks.
 
@@ -40,6 +42,9 @@ Meetodit, mida kasutatakse koosluse- ja valemiridade väljastamiseks, juhitakse 
 
 - **Koosluse- ja valemiridade väljastamine tootmis- või partiitellimuse väljastamise osana** – selle meetodi puhul väljastatakse koosluse- ja valemiread tootmis- või partiitellimuse puhul osana tellimuse väljastamise protsessist. Tavaliselt väljastatakse tootmistööd tootmis- või partiitellimuse väljastamisel tööde juhtimise mooduli töötajatele ja prinditakse tootmisdokumendid. Selle protsessi käigus muudetakse selle tellimuse olekuks **Väljastatud**.
 - **Koosluse- ja valemiridade väljastamine pakett-töö kaudu või käsitsi interaktsioonina** – selle meetodi puhul saab koosluse- ja valemiridu väljastada ainult pakett-töö **Koosluse- ja valemiridade automaatne väljastamine** kaudu või käsitsi interaktsioonina. Koosluse- ja valemiridade käsitsi väljastamiseks valige toimingupaanil tootmistellimuse loendilehel või tootmistellimuse üksikasjade lehel käsk **Väljasta lattu**.
+
+Kiiret demonistratsiooni, kuidas väljastada koosluse- ja valemiridasid tootmisse, kasutades pakett-tööd, saate vaadata järgmisest lühikesest YouTube'i videost.
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Koosluse- ja valemiridade väljastamine pakett-töö abil
 
@@ -79,6 +84,9 @@ Toimingute juhtimiseks, millele tuleb materjali väljastada, kasutage lehte **La
 Järgmisel joonisel on kujutatud tootmistellimus, millel on kaks toimingut, 10 ja 20. Kui piirate selles näites väljastamise toiminguga 10, väljastatakse ainult materjal M9203.
 
 ![Materjali väljastamise näide toimingu numbri järgi](media/two-operations.PNG)
+
+Kiiret demonistratsiooni, kuidas väljastada materjali proportsionaalselt lõpetatud kaupade hulgaga, saate vaadata järgmisest lühikesest YouTube'i videost.
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materjali väljastamine proportsionaalselt lõpetatud kaupade hulgaga
 

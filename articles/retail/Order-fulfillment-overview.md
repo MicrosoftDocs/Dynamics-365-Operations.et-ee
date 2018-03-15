@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Kaupluse tellimuse täitmine
+
+[!include[banner](includes/banner.md)]
 
 Paljud jaemüüjad soovivad tellimuste täitmist optimeerida, võimaldades kauplustel tellimusi täita. Tellimuse täitmine kaupluse tasemel aitab leevendada laoülejäägi olukordi kindla kaupluse puhul või võib olla vajalik logistika seisukohalt, kui kauplusel on lisavõimsust või see asub kliendile saatmiseks lähemal. Selle vajaduse täitmiseks on kassas saadaval ühtse tellimuse täitmise toiming.
 
@@ -56,7 +58,7 @@ Ridu saate valida funktsiooniga **Valimine** toimingupaanil. Kui suvand **Valimi
 
 ## <a name="line-details"></a>Rea üksikasjad
 
-Rea üksikasju saab kuvada rea üksikasjade hüpikmenüü abil. Selle menüü kasutamisel pakutakse kaht vahekaarti valitud rea kohta lisateabe kuvamiseks. Esimesel vahekaardil **Rea üksikasjad** on toodud nii rea enda kui ka tellitud ja järelejäänud koguse üksikasjad. Kuvatakse ka täiendavad üksikasjad, sh komplekteeritud, pakitud ja arveldatud kogus, samuti tarneviis ja tarneaadress. Vahekaardil **Tellimuse üksikasjad** on toodud tellimuse päiseteave, sh klient, kliendi ID, tellimuse number, tellimuse summa ja saldo.
+Rea üksikasju saab kuvada rea üksikasjade hüpikmenüü abil. Selle menüü kasutamisel pakutakse kolme vahekaarti valitud rea kohta lisateabe kuvamiseks. Esimesel vahekaardil **Rea üksikasjad** on toodud nii rea enda kui ka tellitud ja järelejäänud koguse üksikasjad. Kuvatakse ka täiendavad üksikasjad, sh komplekteeritud, pakitud ja arveldatud kogus, samuti tarneviis ja tarneaadress. Vahekaardil **Tellimuse üksikasjad** on toodud tellimuse päiseteave, sh klient, kliendi ID, tellimuse number, tellimuse summa ja saldo. Vahekaardil **Varud** kuvatakse teavet valitud rea füüsiliselt laos saadaolevate, reserveeritud ja tellitud varude kohta.
 
 Kui valitud on mitu rida, kuvatakse tellimuserea üksikasjade hüpikaknas ainult see, et valitud on mitu rida. Üksiku rea üksikasjade kuvamiseks tühistage ridade valikud, kuni valituks on jäänud ainult üks rida. 
 

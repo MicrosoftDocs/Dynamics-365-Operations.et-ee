@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e4719ace2247eb95ed711b0c82e7d9bc8ec5c60c
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -249,7 +249,7 @@ Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või ala
 <a name="see-also"></a>Vt ka
 --------
 
-[Avaldise piirangu loomine (tegevuse juhis)(tasks/add-expression-constraint-product-configuration-model.md)
+[Avaldise piirangu loomine (tegevuse juhis)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Arvutuse lisamine toote konfiguratsioonimudelile (tegevuse juhis)](tasks/add-calculation-product-configuration-model.md)
 

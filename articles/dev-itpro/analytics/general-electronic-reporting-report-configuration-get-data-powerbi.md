@@ -1,6 +1,6 @@
 ---
 title: "Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse"
-description: "See teema selgitab, kuidas saate kasutada oma elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete üleviimine teie rakenduse Finance and Operations eksemplarist Power BI teenustesse. Näitena kasutab see teema Intrastati kandeid äriandmetena, mis tuleb üle viia. Power BI kaardi visualisatsioon kasutab selle Intrastati kande andmeid, et esitleda Power BI aruandes ettevõtte impordi-/eksporditegevuse analüüsi vaadet."
+description: "See teema selgitab, kuidas saate kasutada oma elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete üleviimine teie rakenduse Finance and Operations eksemplarist Power BI teenustesse."
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 90749012c3eb4f3d1c275f0661f8cff43ec285a2
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -100,22 +100,38 @@ Klõpsake uue sihtkoha kirje jaoks nuppu **Sätted**. Seejärel järgige dialoog
 2.  Väljal **SharePoint** valige varasemalt loodud dokumendi tüüp **Jagatud**.
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>Konfigureeritud elektroonilise aruandluse vormingu käivitamise ajastamine
-Lehel **Konfiguratsioonid** (**Organisatsiooni haldus** &gt; **Elektrooniline haldus** &gt; **Konfiguratsioonid**) konfiguratsioonide puul valige varasemalt loodud konfiguratsioon **Impordi-/eksporditegevused**. Muutke versiooni 1.1 olekut variandilt **Mustand** variandile **Lõpetatud**, et muuta see vorming kasutamiseks kättesaadavaks. [![Konfiguratsioonide leht](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Valige konfiguratsiooni **Impordi-/eksporditegevused** lõpetatud versioon ja klõpsake seejärel valikut **Käivita**. Pange tähele, et konfigureeritud sihtkoht rakendatakse väljundtulemusele, mis luuakse Exceli vormingus. Määrake suvandi **Pakktöötlus** sätteks **Jah**, et käivitada see aruanne järelevalveta režiimis. Klõpsake valikut **Kordumine**, et ajastada selle partii käivitamise vajalik kordumine. Kordumine määratleb, kui sageli uuendatud andmed edastatakse rakendusest Finance and Operations rakendusse Power BI. [![Elektroonilise aruande parameetrite dialoogiboks](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Pärast selle konfigureerimist saate leida elektroonilise aruandluse käivitamistöö lehel **Pakett-tööd** (**Süsteemihaldus &gt; Päringud &gt; Pakett-tööd**). [![Pakett-tööde leht](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Selle töö esmakordsel käivitamisel loob sihtkoht uue Exceli faili, millel on valitud SharePointi kaustas konfigureeritud nimi. Igal järgneval korral, kui töö käivitatakse, loob sihtkoht sellest Exceli failist uue versiooni. [![Exceli faili uus versioon](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
+1. Lehel **Konfiguratsioonid** (**Organisatsiooni haldus** &gt; **Elektrooniline haldus** &gt; **Konfiguratsioonid**) konfiguratsioonide puul valige varasemalt loodud konfiguratsioon **Impordi-/eksporditegevused**. 
+2. Muutke versiooni 1.1 olekut variandilt **Mustand** variandile **Lõpetatud**, et muuta see vorming kasutamiseks kättesaadavaks. [![Konfiguratsioonide leht](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) 
+3. Valige konfiguratsiooni **Impordi-/eksporditegevused** lõpetatud versioon ja klõpsake seejärel valikut **Käivita**. Pange tähele, et konfigureeritud sihtkoht rakendatakse väljundtulemusele, mis luuakse Exceli vormingus. 
+4. Määrake suvandi **Pakktöötlus** sätteks **Jah**, et käivitada see aruanne järelevalveta režiimis. 
+5. Klõpsake valikut **Kordumine**, et ajastada selle partii käivitamise vajalik kordumine. Kordumine määratleb, kui sageli uuendatud andmed edastatakse rakendusest Finance and Operations rakendusse Power BI. [![Elektroonilise aruande parameetrite dialoogiboks](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) 
+6. Pärast selle konfigureerimist saate leida elektroonilise aruandluse käivitamistöö lehel **Pakett-tööd** (**Süsteemihaldus &gt; Päringud &gt; Pakett-tööd**). [![Pakett-tööde leht](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) 
+7. Selle töö esmaskordsel käivitamisel loob sihtkoht uue Exceli faili, millel on valitud SharePointi kaustas konfigureeritud nimi. Igal järgneval korral, kui töö käivitatakse, loob sihtkoht sellest Exceli failist uue versiooni. [![Exceli faili uus versioon](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Power BI andmekomplekti loomine, kasutades elektroonilise aruandluse vormingu väljundtulemust.
-Logige sisse rakendusse Power BI ja avage olemasolev Power BI grupp (tööruum) või looge uus grupp. Klõpsake suvandit **Lisa** menüüs **Failid** jaotises **Andmete importimine või ühendamine** või klõpsake vasakul paanil plussmärki (**+**), mis asub valiku **Andmekogumid** kõrval. [![Andmekogumi loomine](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Valige suvand **SharePoint – meeskonna saidid** ja seejärel sisestage kasutusel olev SharePoint Serveri tee (meie näites **https://ax7partner.litware.com**). Seejärel sirvige kausta **/Shared Documents/GER data/PowerBI** ja valige Exceli fail, mille lõite andmeallikaks uue Power BI andmekogumi jaoks. [![Exceli faili valimine](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Klõpsake valikut **Ühenda** ja klõpsake seejärel valikut **Impordi**. Luuakse uus andmekogum, mis põhineb valitud Exceli failil. Andmekogumi saab automaatselt värskelt loodud armatuurlauale lisada. [![Andmekogum armatuurlaual](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Konfigureerige selle andmekogumi jaoks värskendamisgraafik, et jõustada perioodilist värskendamist. Perioodilised uuendused võimaldavad rakendusest Finance and Operations elektroonilise aruandluse aruande perioodilise käivitamise kaudu tulevate uute äriandmete tarbimist ja seda SharePoint Serveris loodud Exceli faili uute versioonide kaudu.
+1. Logige sisse rakendusse Power BI ja avage olemasolev Power BI grupp (tööruum) või looge uus grupp. Klõpsake suvandit **Lisa** menüüs **Failid** jaotises **Andmete importimine või ühendamine** või klõpsake vasakul paanil plussmärki (**+**), mis asub valiku **Andmekogumid** kõrval. [![Andmekogumi loomine](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) 
+2. Valige suvand **SharePoint – meeskonna saidid** ja seejärel sisestage kasutusel olev SharePoint Serveri tee (meie näites `https://ax7partner.litware.com`) 
+3. Sirvige kausta **/Shared Documents/GER data/PowerBI** ja valige Exceli fail, mille lõite andmeallikaks uue Power BI andmekogumi jaoks. [![Exceli faili valimine](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) 
+4. Klõpsake valikut **Ühenda** ja klõpsake seejärel valikut **Impordi**. Luuakse uus andmekogum, mis põhineb valitud Exceli failil. Andmekogumi saab automaatselt värskelt loodud armatuurlauale lisada. [![Andmekogum armatuurlaual](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) 
+5. Konfigureerige selle andmekogumi jaoks värskendamisgraafik, et jõustada perioodilist värskendamist. Perioodilised uuendused võimaldavad rakendusest Finance and Operations elektroonilise aruandluse aruande perioodilise käivitamise kaudu tulevate uute äriandmete tarbimist ja seda SharePoint Serveris loodud Exceli faili uute versioonide kaudu.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Power BI aruande loomine uut andmekogumit kasutades
-Uue Power BI aruande loomiseks klõpsake loodud Power BI andmekogumit **Impordi ja ekspordi üksikasjad**. Seejärel konfigureerige visualiseerimine. Näiteks valige visualiseerimine **Täidetud kaart** ja konfigureerige see järgmiselt.
+1. Klõpsake loodud Power BI andmekogumit **Impordi ja ekspordi üksikasjad**. 
+2. Konfigureerige visualiseerimine. Näiteks valige visualiseerimine **Täidetud kaart** ja konfigureerige see järgmiselt.
+ -   Määrake andmekogumi väli **CountryOrigin** kaardi visualiseerimise väljale **Asukoht**.
+ -   Määrake andmekogumi väli **Summa** kaardi visualiseerimise väljale **Värvi küllastus**.
+ -   Lisage andmekogumi väljad **Tegevus** ja **Aasta** kaardi visualiseerimise väljade kogumikule **Filtrid**.
 
--   Määrake andmekogumi väli **CountryOrigin** kaardi visualiseerimise väljale **Asukoht**.
--   Määrake andmekogumi väli **Summa** kaardi visualiseerimise väljale **Värvi küllastus**.
--   Lisage andmekogumi väljad **Tegevus** ja **Aasta** kaardi visualiseerimise väljade kogumikule **Filtrid**.
-
-Salvestage Power BI aruanne kui **Impordi ja ekspordi üksikasjade aruanne**. [![Impordi ja ekspordi üksikasjade aruanne](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)Pange tähele, et kaart näitab riike/piirkondi, mis on mainitud Exceli failis (selles näites Austria ja Šveits). Need riigid/regioonid on tehtud värviliseks, et näidata iga ühe arveldatud summade osakaalu. Värskendage Intrastati kannete loendit. Itaalias pärinev ekspordikanne on lisatud. [![Intrastati kannete loend](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) Oodake elektroonilise aruande järgmist ajastatud käivitamist ja Power BI andmekogumi järgmist ajastatud värskendust. Seejärel vaadake Power BI aruanne üle (valige, et näidata ainult impordikandeid). Värskendatud kaart näitab nüüd Itaaliat. [![Värskendatud kaart](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
+3. Salvestage Power BI aruanne kui **Impordi ja ekspordi üksikasjade aruanne**. [![Impordi ja ekspordi üksikasjade aruanne](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)Pange tähele, et kaart näitab riike/piirkondi, mis on mainitud Exceli failis (selles näites Austria ja Šveits). Need riigid/regioonid on tehtud värviliseks, et näidata iga ühe arveldatud summade osakaalu. 
+4. Värskendage Intrastati kannete loendit. Itaalias pärinev ekspordikanne on lisatud. [![Intrastati kannete loend](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 
+5. Oodake elektroonilise aruande järgmist ajastatud käivitamist ja Power BI andmekogumi järgmist ajastatud värskendust. Seejärel vaadake Power BI aruanne üle (valige, et näidata ainult impordikandeid). Värskendatud kaart näitab nüüd Itaaliat. [![Värskendatud kaart](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>Muutke Power BI aruanne rakenduses Finance and Operations juurdepääsetavaks.
-Seadistage rakenduste Finance and Operations ja Power BI vaheline integratsioon. Lisateabe jaoks vaadake [Power BI integreerimise konfigureerimine tööruumidele](configure-power-bi-integration.md). Tööruumi lehel **Elektrooniline aruandlus**, mis toetab Power BI integratsiooni, (**Organisatsiooni haldus** &gt; **Tööruumid** &gt; **Elektroonilise aruandluse tööruum**) klõpsake valikuid **Suvandid** &gt; **Aruande kataloogi avamine**. Valige loodud Power BI aruanne **Impordi ja ekspordi üksikasjad**, et näidata seda aruannet valitud lehel tegevusüksusena. Klõpsake tegevusüksust, et avada Finance and Operationsi leht, mis näitab Power BI-s loodud aruannet. [![Impordi ja ekspordi üksikasjade aruanne](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+Seadistage rakenduste Finance and Operations ja Power BI vaheline integratsioon. Lisateabe jaoks vaadake [Power BI integreerimise konfigureerimine tööruumidele](configure-power-bi-integration.md). 
+
+1. Tööruumi lehel **Elektrooniline aruandlus**, mis toetab Power BI integratsiooni, (**Organisatsiooni haldus** &gt; **Tööruumid** &gt; **Elektroonilise aruandluse tööruum**) klõpsake valikuid **Suvandid** &gt; **Aruande kataloogi avamine**. 
+2. Valige loodud Power BI aruanne **Impordi ja ekspordi üksikasjad**, et näidata seda aruannet valitud lehel tegevusüksusena. 
+3. Klõpsake tegevusüksust, et avada Finance and Operationsi leht, mis näitab Power BI-s loodud aruannet. [![Impordi ja ekspordi üksikasjade aruanne](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 <a name="see-also"></a>Vt ka
 --------

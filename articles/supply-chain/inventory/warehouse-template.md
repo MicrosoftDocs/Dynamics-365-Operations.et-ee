@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 87ade03ec2ba78c4d7f5832bfa6dc1b7eabd8d94
+ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
+ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -93,6 +93,11 @@ Teil on võimalik andmed ZIP-failina alla laadida. See fail sisaldab kõiki vali
 5. Valige **Impordi**. **Täiustatud** vaates saate importimisel tekkida võivatest probleemidest kiiresti ülevaate, kui kasutate suvandit **Filtreeri**.
 
 Käsk **Kuva käivituslogi** annab üksikasjaliku teabe iga imporditud andmeüksuse kohta. Kiirelt sihtandmete juurde jõudmiseks saate kasutada andmete ajastamise vaadet. Sel viisil näete, kuidas imporditud andmed rakenduse seotud lehekülgedel välja näevad. Vaikeandmemallide kasutamisel töötab importimise järjestus iga andmeüksuse puhul eelmääratud viisil, tagamaks, et sõltuvad andmed imporditakse esimesena. Kui projekti kuuluvad kohandatud andmeüksused, peate veenduma, et õige järjekord oleks määratud. Lisateavet vaadake teemast [„Konfigureerimisandmete mallid”](../../dev-itpro/data-entities/configuration-data-templates.md).
+
+Rohkem teavet selle kohta, kuidas kasutada laomalli, et kopeerida lao konfiguratsiooni ühest ettevõttest sama eksemplari uude ettevõttesse, leiate järgmisest 3-minutilisest YouTube'i videost.
+
+> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
+
 
 ## <a name="related-topic"></a>Seotud teema
 

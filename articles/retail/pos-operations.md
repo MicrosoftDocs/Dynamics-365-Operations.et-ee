@@ -1,5 +1,5 @@
 ---
-title: POS-toimingud
+title: "Kassatoimingud, ühendusega ja ühenduseta"
 description: "See teema kirjeldab üksikasjalikult Microsoft Dynamics 365 for Retaili kassaoperatsioone. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
-# <a name="pos-operations"></a>POS-toimingud
+# <a name="pos-operations-online-and-offline"></a>Kassatoimingud, ühendusega ja ühenduseta
+
+[!include[banner](includes/banner.md)]
+
 Enamikku toiminguid, mida kasutaja kassas teeb, loetakse toiminguteks. Operatsioone konfigureeritakse ja hallatakse teenuse Microsoft Dynamics 365 for Retail kontoris. Paljud operatsioonid saab lisada kassa nupupaneeli nuppudele. Kasutajad saavad seejärel nuppude abil operatsioone käivitada ja nende funktsioone kasutada. Muud operatsioonid on osa kassa põhirakendusest ning need käivitatakse ekraanil kuvatavate nuppude abil või muude töövoogude või protsesside raames.
 
 Järgmisest tabelist leiate üksikasjalikku teavet operatsioonide kohta, mis on saadaval Dynamics 365 for Retailile mõeldud Retail Modern POS-is ja Cloud POS-is. Samuti on tabelis märgitud, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka siis, kui kassa on ühenduseta režiimis.
