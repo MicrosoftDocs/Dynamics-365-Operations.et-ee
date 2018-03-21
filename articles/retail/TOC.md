@@ -37,10 +37,11 @@
 ## [Maksesuvandid](work-with-payments.md)
 
 # Kanali seadistus ja haldamine
-## [Algandmete lähtestamine jaemüügikeskkonnas](enable-configure-retail-functionality.md)
+## [Algandmete lähtestamine Retaili keskkonnas](enable-configure-retail-functionality.md)
 ## [Jaemüügikanalite määratlemine](define-maintain-retail-channels.md)
+## [Sortimendi haldus](assortments.md)
 ## [Võrgupoe ülevaade](online-stores.md)
-## [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
+## [Retaili hardware stationi konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
 ## [Retaili aeg ja kohalviibimine](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) ja Cloud POS
@@ -53,9 +54,10 @@
 ### [Jaemüügi välisseadme simulaator](dev-itpro/retail-peripheral-simulator.md)
 ### [Kanaliklientide, registrite ja riistvarajaamade määratlemine ning haldamine](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekraani paigutus
-### [Kassa ekraanipaigutuste konfigureerimine](pos-screen-layouts.md)
+### [POS-i ekraanipaigutuste konfigureerimine](pos-screen-layouts.md)
 ### [Retail POS-i paigutuse kujundaja installimine](install-pos-layout-designer.md)
-### [Kassa rakenduse ja kasutaja keelesätted](pos-application-user-language-settings.md)
+### [Valige teavitamise sätted](Notifications-POS.md)
+### [POS-i rakenduse ja kasutaja keelesätted](pos-application-user-language-settings.md)
 ### [MPOS-i kujutiste häälestamine](set-up-manage-images-retail-mpos.md)
 ## [Teabekoodide ülevaade](info-codes-retail.md) 
 ## Tootesoovitused
@@ -99,7 +101,8 @@
 
 # Tooted ja turustus
 ## [Tooteteabe ülevaade](../supply-chain/pim/product-information.md)
-## [Jaemüügihierarhiad](retail-hierarchies.md)
+## [Jaemüügi hierarhiad](retail-hierarchies.md)
+## [Atribuutide ja atribuudigruppide ülevaade](attribute-attributegroups-lifecycle.md)
 ## [Atribuutide loomine ja haldamine](create-manage-attributes.md)
 ## [Jaetoodete häälestamine](set-up-retail-products.md)
 ## [Tootedimensioonid](../supply-chain/pim/product-dimensions.md)
@@ -131,7 +134,17 @@
 ## [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](../talent/departments-jobs-positions.md)
 ## [Töö komponentide seadistamine](../talent/create-job.md)
 
-# Retaili toimingud
+# Lokaliseerimine ja regulatiivsed funktsioonid
+## India
+### [India kassaaparaatide GST integreerimine](localizations/apac-ind-cash-registers.md)
+### [India kassaaparaatide juurutamise juhised](localizations/apac-ind-loc-deployment-guidelines.md)
+## Norra
+### [Norra kassaaparaadid](localizations/emea-nor-cash-registers.md)
+### [Norra kassaaparaatide juurutamise juhised](localizations/emea-nor-loc-deployment-guidelines.md)
+## Rootsi
+### [Rootsi kassaaparaadid](localizations/emea-swe-cash-registers.md)
+
+# Retaili ülesanded
 ## [Toote loomine](../supply-chain/pim/tasks/create-product.md)
 ## [Lingitud toodete konfigureerimine](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Toote/tooteetaloni väljastamine juriidilistele isikutele](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Retail SDK integreerimine pideva järgusüsteemiga](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK laiendatavuse näited](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Rootsi kassaaparaadid](localizations/emea-swe-cash-registers.md)
-### [Retail POS-i juhtseadmetega integreerimise näide Rootsile](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Norra kassaaparaadid](localizations/emea-nor-cash-registers.md)
-### [Norra kassaaparaatide juurutamise juhised](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Retail SDK pakend](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK näited ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Kanali andmebaasi (DB) laiendid](dev-itpro/channel-db-extensions.md)

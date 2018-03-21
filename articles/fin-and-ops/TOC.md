@@ -21,7 +21,8 @@
 #### [AX 2012 funktsioonid, mis lükati edasi](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](get-started/features-not-implemented-on-prem.md)
 #### [Väljaanded ja elutsükli poliitika](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platvormi värskendus 13 (jaanuar 2018)](get-started/whats-new-platform-update-13.md)
+#### [Kohapealsed juurutused (märts 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Platvormivärskendus Platform update 13 (jaanuar 2018)](get-started/whats-new-platform-update-13.md)
 #### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platvormi värskendus 12 (november 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platvormi värskendus 11 (oktoober 2017)](get-started/whats-new-platform-update-11.md)
@@ -134,7 +135,7 @@
 ### [Kuluhalduse Power BI sisupakett](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Andmete integratsioon
-### [Integreerimismustrid](../dev-itpro/data-entities/integration-overview.md)
+### [Andmete integratsioonistrateegia (import/eksport) valimine](../dev-itpro/data-entities/integration-overview.md)
 
 ### Andmete integratsiooni API-d
 #### [Andmehalduse paketi API](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusest Sales rakendusega Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [Toodete haldamine rakenduses Finance and Operations ja nende vahetu sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [Kontaktide haldamine rakenduses Sales ja nende vahetu sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Rakenduse Sales müügipakkumise vahetu sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Müügitellimuste vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Müügiarve vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Müügipakkumiste haldamine rakenduses Sales ja nende sünkroonimine rakendusest Sales rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Müügitellimuste haldamine rakenduses Finance and Operations ja nende sünkroonimine rakendusest Finance and Operations rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Müügiarvete haldamine rakenduses Finance and Operations ja nende sünkroonimine rakendusest Finance and Operations rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Väliste veebiteenuste tarbimine](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -470,10 +470,16 @@
 #### [Kulude halduse töövoogude häälestamine](../financials/expense-management/expense-workflows.md)
 #### [Kuluhalduse töövoog](../financials/expense-management/expense-workflow.md)
 #### [Krediitkaardikannete importimine ja haldamine](../financials/expense-management/import-credit-card.md)
-#### [Kulude aruande jaotused](../financials/expense-management/expense-report-distributions.md)
+#### [Kuluaruande jaotused](../financials/expense-management/expense-report-distributions.md)
 #### [Kontsernisisesed kulud](../financials/expense-management/intercompany-expense.md)
-#### [Kulude poliitikad](../financials/expense-management/travel-expense-policies.md)
-
+#### [Kulupoliitikad](../financials/expense-management/travel-expense-policies.md)
+#### [Kuluaruande vaatamine](../financials/expense-management/view-expense-report.md)
+#### [Kuluaruande sisestamine](../financials/expense-management/post-expense.md)
+#### [Kuluaruanded ja mitu kinnitajat](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [Käibemaksu sissenõudmine kulude halduses](../financials/expense-management/VAT-expense-report.md)
+#### [Päevaraha reeglid](../financials/expense-management/per-diem.md)
+#### [Reisiplaanid](../financials/expense-management/travel-req.md)
+#### [Isiklikud kulud kuluaruandes](../financials/expense-management/personal-expenses.md)
 
 ### [Eelarvestamine](../financials/budgeting/budgeting-overview.md)
 #### [Eelarve plaanimise ülevaade ](../financials/budgeting/budget-planning-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [Maksumootori integratsioon](../financials/general-ledger/tax-engine-integration.md)
 ##### [Maksulävede KKK](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Maksumootori laiendamine](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [Kassaaparaatide GST integreerimine](../retail/localizations/apac-ind-cash-registers.md)
+##### [Kassaaparaatide juurutamise juhised](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Jaapan
 ##### [Põhivara soetamine ja valitsuse toetuse taotlemine](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Kliendi ja hankija maksevormingud](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Makse ID-l põhinev kliendimakse](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [Netsi impordivorming](../financials/localizations/emea-nor-nets-import-format.md)
-##### [KM aruanne](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [KM aruanne](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Kassaaparaadid](../retail/localizations/emea-nor-cash-registers.md)
+##### [Kassaaparaatide juurutamise juhised](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Poola
 ##### [Ühiku hinnast rea allahindluste arvutamine](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Parandusõiendid](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [Erikanded ja avamislehed](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Rootsi
 ##### [Maksevormingute importimine](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Kassaaparaadid](../retail/localizations/emea-swe-cash-registers.md)
 #### Šveits
 ##### [Kliendimaksete importimine ESR-is](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Ühendkuningriik
@@ -1644,6 +1656,7 @@
 ##### [Operatsiooniressursid](../supply-chain/production-control/operations-resources.md)
 ##### [Ressursivõimalused](../supply-chain/production-control/resource-capabilities.md)
 ##### [Partii atribuudid](../supply-chain/production-control/batch-attributes.md)
+##### [Partii tasakaalustamine](../supply-chain/production-control/batch-balancing.md)
 ##### [Valemi kopeerimine (tegevuse juhis)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Valemi loomine, kopeerides olemasolevast valemist (tegevuse juhis)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Kaastoodete kopeerimine olemasolevast valemiversioonist (tegevuse juhis)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [Mõõtühik ja ladustamispoliitikad](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Lao Power BI sisu](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Süsteemi rühmitamine avatud tööloendis](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [Vöötkoodide skannimine kaameraga Microsoft Dynamics 365 for Finance and Operationsis](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Mobiilse vöötkoodi tugi](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Lao tööpoliitikad](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Seostatud tööga varude teisaldamine laohalduses](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,6 +1832,7 @@
 #### [Kombineeritud litsentsiplaadi vastuvõtmine](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Lao vanemate partiide mobiilses seadmes kuvamise konfigureerimine](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Komplekteeri vanim partii mobiilsel seadmel](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [Vöötkoodide skannimine kaameraga Microsoft Dynamics 365 for Finance and Operationsis](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Osa komplekteerimise kinnitus](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Toote kinnitamine kogumi komplekteerimise jaoks](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Osaliselt reserveeritud üleviimistellimuste hulgiväljastamine](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
