@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
@@ -52,7 +52,7 @@ Nii spikriteemadele kui ka tegevusjuhistele pääseb juurde mis tahes kasutatava
 See teema kirjeldab spikrisüsteemi ja selgitab, kuidas saate oma organisatsioonile kohandatud dokumente ja koolitusressursse luua.
 
 > [!IMPORTANT]
-> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md) nii rakenduse Retail kui ka Talent puhul.
+> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) nii rakenduse Retail kui ka Talent puhul.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Spikker saidil docs.microsoft.com
 
@@ -115,7 +115,7 @@ Lisateabe saamiseks vaadake meie kaasautori juhendit: https://github.com/Microso
 
 > [!NOTE]
 > Praegu aktsepteerime panuseid ainult ingliskeelsetesse hoidlatesse.  
-> Me ei aktsepteeri GitHubi kaudu teatatud probleeme – kasutage sisusoovituste jaoks kindlasti tõmbamistaotlust. Toote ja funktsioonidega seotud tagasisidet on kõige mugavam hallata Dynamics 365 ideeportaali kaudu: https://ideas.dynamics.com/ideas/. 
+> Me ei aktsepteeri GitHubi kaudu teatatud probleeme – kasutage sisusoovituste jaoks kindlasti tõmbamistaotlust. Toote ja funktsioonidega seotud tagasisidet on kõige mugavam hallata Dynamics 365 ideeportaali kaudu: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Tegevuse juhised

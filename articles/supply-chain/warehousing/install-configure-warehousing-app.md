@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
+ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
+ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/06/2018
 
 ---
 
@@ -99,6 +99,8 @@ Peate konfigureerima rakenduse seadmel Finance and Operationsi serveriga Azure A
     <br>**Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). 
     + **Ettevõte** – sisestage rakendusse Finance and Operations juriidiline isik, millega soovite rakenduse ühendada. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Valige nupp **Tagasi** rakenduse ülemises vasakus nurgas. Rakendus loob nüüd ühenduse teie Finance and Operationsi serveriga ja kuvatakse laotöötaja sisselogimisekraan. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+Lisateavet selle kohta, kuidas seadistada rakendust Dynamics 365 for Finance and Operations – Ladustamine vöötkoodide skannimiseks mobiilse seadme kaameraga, vt teemast [Vöötkoodide skannimine kaameraga Microsoft Dynamics 365 for Finance and Operationsi moodulis Ladustamine](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>Seadmelt juurdepääsu äravõtmine
 Kaotatud või ohtu sattunud seadme puhul on vaja seadmelt juurdepääs Finance and Operationsile ära võtta. Järgmised toimingud kirjeldavad juurdepääsu äravõtmise soovituslikku protsessi.

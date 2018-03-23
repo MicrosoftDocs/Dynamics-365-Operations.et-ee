@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
+ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
+ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -42,9 +42,8 @@ Lahenduse Potentsiaalne klient sularahaks praegune versioon pakub vahetu sünkro
 - [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusest Sales rakendusega Finance and Operations.](accounts-template-mapping-direct.md)
 - [Toodete haldamine rakenduses Finance and Operations ja nende vahetu sünkroonimine rakendusega Sales](products-template-mapping-direct.md)
 - [Kontaktide haldamine rakenduses Sales ja nende vahetu sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](contacts-template-mapping-direct.md)
-- [Rakenduse Sales müügipakkumise vahetu sünkroonimine rakendusega Finance and Operations (malli vabastamise ootel)](sales-quotation-template-mapping-sales-fin.md)
-- [Müügitellimuste vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](sales-order-template-mapping-direct.md)
-- [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel (malli vabastamise ootel)](sales-order-template-mapping-direct-two-ways.md)
+- [Rakenduse Sales müügipakkumise vahetu sünkroonimine rakendusega Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel](sales-order-template-mapping-direct-two-ways.md)
 - [Müügiarve vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Rakenduse Finance and Operations süsteeminõuded
@@ -85,7 +84,7 @@ Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
 
 Lahenduse Potentsiaalne klient sularahaks kasutamiseks tuleb installida järgmised komponendid.
 
-- Rakenduse Dynamics 365 for Sales versiooni 1612 (8.2.1.207) (DB 8.2.1.207) veebiversioon
+- Rakenduse Dynamics 365 for Sales versiooni 1612 (8.2.1.207) (DB 8.2.1.207) veebiversioon või hilisem versioon
 - Lahendus Potentsiaalne klient sularahaks rakendusele Dynamics 365 for Sales, versioon 1.15.0.0 (v15) 
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Installige lahendus Potentsiaalne klient sularahaks rakendusele Sales

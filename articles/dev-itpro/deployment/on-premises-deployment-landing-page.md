@@ -3,7 +3,7 @@ title: Asutusesisene juurutus
 description: See teema pakub teavet ja linke sisule kohapealsete juurutuste kohta.
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Asutusesisese juurutuse sihtleht
+# <a name="on-premises-deployment-home-page"></a>Asutusesisese juurutuse avaleht
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,13 +36,13 @@ Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Ent
 - [Asutusesisese juurutuse plaanimine](plan-onprem-deployment.md)
 - [Kohapealsete juurutuste süsteeminõuded](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Riistvara suuruse muutmine kohapealsetes keskkondades](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Võrguteenuse ja kohapealse tarkvara elutsükli poliitika](../migration-upgrade/versions-update-policy.md)
 - [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) ostmine](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Pilvepõhiste ja asutusesiseste funktsioonide võrdlus](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Turule toomine
 - [Kohapealse projekti loomine teenuses Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Kohapealsete keskkondade seadistamine ja juurutamine](setup-deploy-on-premises-environments.md)
+- [Kohapealsete keskkondade seadistamine ja juurutamine (platvormivärskendus 12)](setup-deploy-on-premises-pu12.md)
+- [Kohapealsete keskkondade seadistamine ja juurutamine (platvormivärskendus 8 ja 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Võrguprinteri seadmete installimine asutusesisestesse keskkondadesse](../analytics/install-network-printer-onprem.md)
 - [SQL Serveri aruandlusteenuste konfigureerimine kohapealseks juurutamiseks](../analytics/configure-ssrs-on-premises.md)
 - [Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse](develop-deploy-custom-models-on-premises.md)
