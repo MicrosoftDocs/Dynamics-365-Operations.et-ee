@@ -3,7 +3,7 @@ title: "Mis on uus või muudetud"
 description: "See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet Microsoft 365 for Finance and Operationsi värskeimate versioonide uute funktsioonide kohta."
 author: josaw1
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -34,6 +34,8 @@ See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet Mi
 
 Teavet uusimale versioonile täiendamiseks vaadake jaotisest [Viimasele uuendusele täiendamise protsess](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
+
+[!include[release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Rakenduse väljaanded
 

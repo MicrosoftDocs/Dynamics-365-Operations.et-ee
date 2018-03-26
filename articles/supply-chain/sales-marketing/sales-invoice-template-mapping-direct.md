@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e9d7e756c56932372ed931620016973c794fb3fc
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: 347509a9556f15e7d880508e36516f04bc6964b7
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -103,7 +103,7 @@ Avage jaotis **Sätted** > **Administreerimine** > **Süsteemisätted** > **Sale
     
 #### <a name="salesinvoiceline-task"></a>Toiming SalesInvoiceLine
 
-- Veenduge, et atribuudi **Unit of measure** jaoks oleks olemas nõutav vastendus.
+- Veenduge, et atribuudi **Mõõtühik** jaoks oleks olemas nõutav vastendus.
 - Veenduge, et üksuse **SalesUnitSymbol** nõutav väärtuskaart oleks rakenduses Finance and Operations olemas.
 
     Üksuste **SalesUnitSymbol** ja **Quantity\_UOM** jaoks on määratletud väärtuskaardiga malli väärtus.
@@ -134,11 +134,11 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 
 [Rakenduse Sales kontode vahetu sünkroonimine rakenduse Finance and Operations klientidega](accounts-template-mapping-direct.md)
 
-[Rakenduse Finance and Operations toodete vahetu sünkroonimine rakenduse Sales toodetega](products-template-mapping-direct.md)
+[Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega](products-template-mapping-direct.md)
 
-[Rakenduse Sales kontaktide vahetu sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](contacts-template-mapping-direct.md)
+[Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega](contacts-template-mapping-direct.md)
 
-[Rakenduse Finance and Operations müügitellimuse päiste ja ridade vahetu sünkroonimine rakendusega Sales](sales-order-template-mapping-direct.md)
+[Rakenduse Finance and Operations müügitellimuse päiste ja ridade vahetu sünkroonimine rakendusega Sales](sales-order-template-mapping-direct-two-ways.md)
 
 
 
