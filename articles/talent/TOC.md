@@ -3,6 +3,8 @@
 # [Alustamine](talent-get-started.md)
 ## [Süsteeminõuded ja värskenduspoliitika](talent-versions-update-policy.md)
 ## [Rakenduse Microsoft Dynamics 365 for Talent ettevalmistus](provisioning-talent.md)
+## [Keskkonna Talent eemaldamine](remove-test-environment.md)
+## [Moodulrakenduste Microsoft Dynamics 365 for Talent ettevalmistus](modular-app-tech-faq.md)
 ## [Talenti funktsioonide laiendamine](extend-talent-functionality.md)
 
 # [Inimressursside strateegia arendamine](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [Küsimustiku tulemuste hindamine](evaluate-questionnaire-results.md)
 
 # Töökoha ohutus ja nõuetele vastavus (Ameerika Ühendriigid)
-## [Vorm I-9 töökohale sobivuse kontrollimine](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [Vastavus ADA-le](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [Vorm I-9 töökohale sobivuse kontrollimine](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [Vastavus ADA-le](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)

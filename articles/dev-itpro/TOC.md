@@ -1,7 +1,7 @@
 # [Rakenduse Dynamics 365 for Finance and Operations arendamine ja haldus](index.md)
-# [Pilvjuurutuste süsteeminõuded](../fin-and-ops/get-started/system-requirements.md)
-# [Asutustesiseste juurutuste süsteeminõuded](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [Demoandmed](../fin-and-ops/get-started/demo-data.md)
+# [Pilvjuurutuste süsteeminõuded](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [Kohapealsete juurutuste süsteeminõuded](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [Demoandmed](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [Demoandmete loomine pakettide abil](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [Mudeli eksportimine ja importimine](dev-tools/models-export-import.md)
 ### [Metaandmete otsing Visual Studios](dev-tools/metadata-search-visual-studio.md)
 ### [Mudelid](dev-tools/models.md)
-### [Lahenduse Dynamics 365 for Finance and Operations, Enterprise Edition projektid](dev-tools/projects.md)
+### [Projektid rakenduses Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Tööriistade lisandmoodulid Visual Studio jaoks](dev-tools/developer-tools-add-ins.md)
 ### [Mudeli kohandamise ja aegumise funktsiooni väljalülitamine](dev-tools/lock-models.md)
 ### [Visual Studio tööriistade värskendamine](dev-tools/update-development-tools.md)
@@ -114,7 +114,7 @@
 #### [Kohandamine: ülekatmine ja laiendused](extensibility/customization-overlayering-extensions.md)
 ### Mis on uut?
 #### [Laiendatavuse muudatused – juuli 2017](extensibility/changes-july-2017.md)
-#### [Laiendatavuse muudatused lahenduses Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
+#### [Laiendatavuse muudatused – versioon 7.3](extensibility/extensibility-changes-73.md)
 ### Põhisätted
 #### [Pealetükkivad kohandused](extensibility/intrusive-customizations.md)
 #### [Klassi laiendid](extensibility/class-extensions.md)
@@ -168,8 +168,8 @@
 ### [Navigeerimise koostamine](user-interface/build-navigation.md)
 ### [Tööruumi koostamine](user-interface/build-workspace.md)
 ## Vormid
-### [Navigeerimine lahenduses Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-navigation.md)
-### [Paigutus lahenduses Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-layout.md)
+### [Navigeerimine rakenduses Dynamics 365 for Finance and Operations](user-interface/page-navigation.md)
+### [Paigutus rakenduses Dynamics 365 for Finance and Operations](user-interface/page-layout.md)
 ### [Sümboli font](user-interface/symbol-font.md)
 ### [Kohandatud mustritega vormide testimine](user-interface/testing-forms-custom-patterns.md)
 ### [Süvalinkide loomine ja kasutamine](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## Pilvejuurutus
 ### [Azure’i ressursihalduri kasutuselevõtt](deployment/arm-onboarding.md)
-### [Azure ExpressRoute ja Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute ja Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [Asutusesisene juurutus](deployment/on-premises-deployment-landing-page.md)
 ### [Asutusesisene ülevaade](deployment/on-premises-overview.md)
 ### [Asutusesisese juurutuse plaanimine](deployment/plan-onprem-deployment.md)
-### [Riistvarakalkulaator](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [Riistvarakalkulaator](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Kohapealse projekti loomine](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Kohapealsete keskkondade seadistamine ja juurutamine](deployment/setup-deploy-on-premises-environments.md)
 #### [Kohapealsete keskkondade juurutamine värskendusega Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [Kohaliku esindaja värskendamine](lifecycle-services/update-local-agent.md)
 ### [Keskkonna ümberkonfigureerimine](lifecycle-services/reconfigure-environment.md)
 ### [Kliendi Interneti-ühendus](user-interface/client-disconnected.md)
-### [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) tõrkeotsing](deployment/troubleshoot-on-prem.md)
+### [Rakenduse Dynamics 365 for Finance and Operations kohapealne tõrkeotsing](deployment/troubleshoot-on-prem.md)
 
 ## Kohandatud koodi juurutamine
 ### [Juurutatava paketi loomine](deployment/create-apply-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [AX 2012 täiendus – pärast täiendamist lõpule viidavad ülesanded](migration-upgrade/app-validation-process.md)
 ### [AX 2012 täiendus – funktsionaaltesti sooritamine](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 täiendus – edastuse alustamise ettevalmistamine](migration-upgrade/upgrade-go-live-prep.md)
-
+### [AX 2012 täiendus – reaalajas avaldamine](migration-upgrade/2012-upgrade-cutover.md)
 
 ### Muudatused, mis mõjutavad täiendamist versioonilt AX 2012
 #### [Üksik kanne ja valuuta ümberarvutamise täiendus ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -588,9 +588,11 @@
 ### [Pakktöötlusserveri ülevaade](sysadmin/batch-server-overview.md)
 ### [Pakett-töö loomine](sysadmin/tasks/create-batch-job.md)
 
-## [Optimeerimise nõustaja reeglite loomine](sysadmin/optimization-advisor.md)
+##  [Nõustaja ülevaate optimeerimine](sysadmin/optimization-advisor-overview.md)
+### [Optimeerimise nõustaja reeglite loomine](sysadmin/create-rules-optimization-advisor.md)
 
-# Elutsükli teenused
+
+# Lifecycle Services
 ## [Teenuse Lifecycle Services ülevaade](lifecycle-services/lcs.md)
 ### [LCS klientidele](lifecycle-services/lcs-works-lcs.md)
 ### [LCS partneritele](lifecycle-services/getting-started-lcs.md)
@@ -701,10 +703,10 @@
 ## [Liivakasti andmebaasi värskendamise taotlus](database/database-refresh.md)
 
 # Tugi
-## [Toetuse saamine lahenduste Dynamics 365 for Finance and Operations, Enterprise Edition ja Lifecycle Sevices jaoks](lifecycle-services/lcs-support.md)
+## [Toetuse saamine lahenduste Dynamics 365 for Finance and Operations ja Lifecycle Sevices jaoks](lifecycle-services/lcs-support.md)
 ## [Premier-tugiteenuse piletisse sisselogimine](lifecycle-services/premier-support.md)
 ## [Taotluse esitamine Dynamicsi tehnikaosakonna meeskonnale](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Tehnilise toe seadistamine lahenduse Dynamics 365 for Finance and Operations, Enterprise Edition jaoks](lifecycle-services/support-experience.md) 
-## [Planeeritud hooldustöö aja KKK](lifecycle-services/planned-maintenance-window-faq.md) 
+## [Tehnilise toe seadistamine rakenduse Dynamics 365 for Finance and Operations jaoks](lifecycle-services/support-experience.md) 
+## [Plaanitud hooldustöö aja KKK](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Pilve toimingud ja hooldus](lifecycle-services/cloud-operations-servicing.md)
 ## [Finance and Operationsi tugikogemuste haldamine](lifecycle-services/cloud-powered-support-lcs.md)

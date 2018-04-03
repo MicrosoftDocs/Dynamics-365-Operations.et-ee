@@ -3,8 +3,8 @@
 # Alustamine
 ## [Mis on uut või mida on muudetud?](get-started/whats-new.md)
 ## [Enne rakenduse Dynamics 365 for Retail ostmist](get-started/before-you-buy.md)
-## [Eelvaatetellimuse saajaks registreerumine](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [Demokeskkonna juurutamine](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Eelvaatetellimuse saajaks registreerumine](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [Demokeskkonna juurutamine](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [Juurutamissuvandid](dev-itpro/choose-deployment.md)
 
 
@@ -46,8 +46,9 @@
 
 # Modern Point of Sale (MPOS) ja Cloud POS
 ## [Valimine Modern POS-i ja Cloud POS-i vahel](MPOS-or-CPOS.md)
-## [POS-toimingud](POS-operations.md)
+## [Kassatoimingud, ühendusega ja ühenduseta](pos-operations.md)
 ## [Demoandmete ekraanipaigutused MPOS-is/CPOS-is](demo-data.md)
+## [Ülevaade toote ja kliendi otsingust kassas](POS-search-improvements.md)
 ## Riistvara välisseadmed
 ### [Jaemüügi välisseadmete ülevaade](retail-peripherals-overview.md)
 ### [Microsofti testitud kassa riistvara välisseadmed](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [POS-i rakenduse ja kasutaja keelesätted](pos-application-user-language-settings.md)
 ### [MPOS-i kujutiste häälestamine](set-up-manage-images-retail-mpos.md)
 ## [Teabekoodide ülevaade](info-codes-retail.md) 
+## [Kassa täiustused seerianumbritega toodete jaoks](serialized-inventory.md)
 ## Tootesoovitused
 ### [Isikupärastatud tootesoovituste ülevaade](personalized-product-recommendations.md)
 ### [Soovituste juhtelemendi lisamine kassaseadmes](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [Hinnakorrigeerimised ja allahindlused](price-adjustments-discounts.md)
 ## [Kattuvate allahindluste optimaalse kombinatsiooni määratlemine](optimal-combination-overlapping-discounts.md)
 ## [Kanalipõhiste allahindluste määratlemine](define-channel-specific-discounts.md)
+## [Jaetoodete allahindluste vältimine](prevent-discounts.md)
 ## [Kupongide loomine jaemüügi jaoks](retail-coupons.md)
 
 # Tooted ja turustus
@@ -105,7 +108,8 @@
 ## [Atribuutide ja atribuudigruppide ülevaade](attribute-attributegroups-lifecycle.md)
 ## [Atribuutide loomine ja haldamine](create-manage-attributes.md)
 ## [Jaetoodete häälestamine](set-up-retail-products.md)
-## [Tootedimensioonid](../supply-chain/pim/product-dimensions.md)
+## [Täiustatud toote- ja kategooriahaldus](category-management-product-creation.md)
+## [Toote dimensioonid](../supply-chain/pim/product-dimensions.md)
 ## [Vöötkoodide häälestamine](set-up-bar-codes.md)
 ## [Vöötkoodi maskide häälestamine](set-up-bar-code-masks.md)
 ## [Sortimentide häälestamine](set-up-assortments.md)
@@ -190,17 +194,18 @@
 # [Jaemüügi arendamine ja haldus ](dev-itpro/dev-retail-home-page.md)
 
 ## Arhitektuur
-### [Komponendid lahenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition – jaemüük](retail-components.md)
-### [Jaemüügiserveri ülesehitus](dev-itpro/retail-server-architecture.md)
+### [Komponendid lahenduses Microsoft Dynamics 365 for Finance and Operations – jaemüük](retail-components.md)
+### [Retail Server ülesehitus](dev-itpro/retail-server-architecture.md)
 ### [Jaemüügikanali side](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS-i ülesehitus](dev-itpro/retail-modern-pos-architecture.md)
 ### [Jaemüügi võrgupoe avaldamise ülesehitus](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Jaemüügikanali jõudluse Power BI sisu](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Jaemüügikanali jõudluse Power BI sisu](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [Makse rakendusandmete turbestandardite (PA-DSS) sertifikaat](dev-itpro/PA-DSS-Certification.md)
+### [Kohapeal saadaolevate juurutuste jaemüügi võimalused](retail-onprem.md)
 
 ## Juurutamine ja kiirparandused
-### [Jaekaupluse skaala üksuse ülevaade](dev-itpro/retail-store-system-begin.md)
-### [Jaekaupluse skaala üksuse konfigureerimine ja installimine](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Jaekaupluse skaala ühiku ülevaade](dev-itpro/retail-store-system-begin.md)
+### [Jaekaupluse skaala ühiku konfigureerimine ja installimine](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md)
 ### [Jaemüügikontode ja -seadmete haldamine peakontorist](set-up-activation-accounts-validate-devices-hq.md)
 ### [Retail POS-i seadme aktiveerimine](dev-itpro/retail-device-activation.md)
@@ -208,7 +213,7 @@
 ### [Retaili riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md)
 ### [Retaili iseteeninduse komponentide hulgijuurutus](dev-itpro/retail-mass-deployment.md)
 ### [Retaili komponentide sündmused diagnostika ja tõrkeotsingu jaoks](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [Juurutatava paketi rakendamine](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [Juurutatava paketi rakendamine](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## Täiendus ja N-1 tugi
 ### [Täienduse ja N-1 toe ülevaade](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [Seadmehalduse juurutamise juhised](implementation-considerations-devices.md)
 
 ## Keskkonna konfiguratsioon
-### [Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [Bingi kaartide haldamine](dev-itpro/manage-bing-maps.md)
 
 ## Kassa laiendatavus
