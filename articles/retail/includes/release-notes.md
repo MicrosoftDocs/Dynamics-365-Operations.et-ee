@@ -1,0 +1,6 @@
+> [!IMPORTANT]
+> <span data-ttu-id="b2895-101">**Rakenduse Dynamics 365 väljaande märkuste Kevad 2018 teatavaks tegemine**</span><span class="sxs-lookup"><span data-stu-id="b2895-101">**Announcing the Dynamics 365 Spring '18 release notes**</span></span>
+>
+> <span data-ttu-id="b2895-102">Kas teile pakuvad huvi meie ärirakenduste või platvormi uued ja hiljuti väljaantud võimalused?</span><span class="sxs-lookup"><span data-stu-id="b2895-102">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span> 
+> 
+> <span data-ttu-id="b2895-103">[Laadige alla väljaande märkused Kevad 2018](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).</span><span class="sxs-lookup"><span data-stu-id="b2895-103">[Download the Spring '18 release notes](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).</span></span> <span data-ttu-id="b2895-104">Käsitleme ühes PDF-is kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.</span><span class="sxs-lookup"><span data-stu-id="b2895-104">We've captured all the details, end to end, top to bottom, in a single PDF that you can use for planning.</span></span> 
