@@ -1,6 +1,6 @@
 ---
 title: Tarneahela juhtimise avaleht
-description: See leht annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+description: See leht annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-See teema annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+See teema annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>, et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
@@ -106,7 +106,7 @@ Need tehnoloogiakonverentsi salvestised räägivad toote funktsionaalsusest rake
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Kuluarvestuse praktilised laborid</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: funktsioon „võimeline lubama“ ja kanban-tööde planeerimine</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Koosluse arvutamine kuluarvestustabeli abil</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Liikuvus laos, mida hõlbustab rakendus Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Liikuvus laos, mida hõlbustab rakendus Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>E-õppe kursused
 Lisateabe saamiseks rakenduse Microsoft Dynamics 365 for Finance and Operations koolituste kohta vt <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamicsi õppeportaali</a>. (vajab CustomerSource’i kontot) 

@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/07/2018
 Microsoft Dynamics 365 for Retail on täielik jaemüügilahendus, mis pakub ühtlustatud kaubandust kõigi kanalite lõikes. See hõlmab müüke, mobiilsust, teavet ja tööviljakust, mis aitab jaemüüjatel ja töötajatel pilve ja mobiilsuse esikohale asetamise kaudu rohkem saavutada. Rakendus Retail pakub mitmesuguste äriprotsessidega töötamiseks mitmekülgset tuge, nt kaubanduse, varude ja kanalite haldamisvõimalusi. Samuti pakub see kõigi puutepunktide üleselt kõikehõlmavat kliendikogemust.
 
 > [!NOTE] 
-> Rakendus Dynamics 365 for Retail on tihedalt seotud rakendustega Dynamics 365 for Finance and Operations, Enterprise Edition ja Dynamics 365 for Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud jaekaubandusega, toote nimeks microsoft Dynamics 365 for Retail; teemades, mis on peamiselt seotud põhitootega (Finance and Operations) on toote nimeks Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition; teemades, mis on peamiselt seotud inimressurssidega, on tootenimeks Dynamics 365 for Talent. 
+> Rakendus Dynamics 365 for Retail on tihedalt seotud rakendustega Dynamics 365 for Finance and Operations ja Dynamics 365 for Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud tootega Retail, toote nimeks Microsoft Dynamics 365 for Retail; teemades, mis on peamiselt seotud põhitootega (Finance and Operations) on toote nimeks Microsoft Dynamics 365 for Finance and Operations; teemades, mis on peamiselt seotud inimressurssidega, on toote nimeks Dynamics 365 for Talent. 
 
 Selle kohta lisateabe saamiseks valige vasakul paanil funktsiooniala.
 

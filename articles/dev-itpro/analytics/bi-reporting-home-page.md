@@ -1,6 +1,6 @@
 ---
 title: Teave
-description: "Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition saadaoleva äriteabe ja aruandlustööriistade kohta."
+description: "Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi ja aruandlustööriistade kohta."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -18,18 +18,18 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="intelligence"></a>Teave
+# <a name="intelligence"></a>Analüüs
 
 [!include[banner](../includes/banner.md)]
 
-Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition saadaoleva äriteabe (BI) ja aruandlustööriistade kohta.
+Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi ja aruandlustööriistade kohta.
 
 ## <a name="get-started"></a>Alustamine
 - [Teabe juurdepääs ja aruandlus](information-access-reporting.md)
