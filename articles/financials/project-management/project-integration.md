@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 Projektigraafiku kavandamine ja haldamine võib olla keeruline, seega vajavad projektijuhid seda ülesannet hõlbustavaid vahendeid. Microsoft Projecti kliendiga integreerimine aitab projekti tööjaotuse struktuuri avada ja hallata. Projektijuht saab muudatusi saata tagasi Finance and Operationsi projekti tööjaotuse struktuuri.
 
 > [!NOTE]
-> Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskendust, peate installima KB 4054797 ja 4055884.
+> Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operations 2017. aasta juuli värskendust, peate installima KB 4054797 ja 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Microsoft Projecti kliendi lisandmooduli konfigureerimine
 Microsoft Projecti kliendiga integreerimise lubamiseks tuleb kasutaja Microsoft Projecti klientrakendusse installida Microsoft Dynamics 365 lisandmoodul. Selleks tuleb avada **Projektihalduse tööruum**.

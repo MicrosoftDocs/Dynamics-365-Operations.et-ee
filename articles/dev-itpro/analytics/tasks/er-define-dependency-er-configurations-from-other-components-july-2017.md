@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) teistest komponentidest sõltuvuse määramine
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Toimingute teostamiseks peab esmalt läbima tegevuse juhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid, ja teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
 
-Järgmises juhendis kirjeldatakse elektroonilise aruandluse (ER) konfiguratsiooni kavandamist ja selle teistest tarkvarakomponentidest sõltuvuse määramist, tagamaks et konfiguratsioon on korrektselt alla laetud rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kindlale versioonile. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. 
+Järgmises juhendis kirjeldatakse elektroonilise aruandluse (ER) konfiguratsiooni kavandamist ja selle teistest tarkvarakomponentidest sõltuvuse määramist, tagamaks et konfiguratsioon on korrektselt alla laetud rakenduse Microsoft Dynamics 365 for Finance and Operations kindlale versioonile. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. 
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Neid etappe võib teha igas ettevõttes, kuna ER-i konfiguratsioonid on kõigi ettevõtete vahel ühiskasutuses. 
 

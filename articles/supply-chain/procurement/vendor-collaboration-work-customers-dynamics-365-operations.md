@@ -1,6 +1,6 @@
 ---
 title: "Hankija koostöö klientidega"
-description: "Selles teemas kirjeldatakse, kuidas saate kasutada hankija koostööd rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, et töötada OT-dega ja jälgida veose varusid."
+description: "Selles teemas kirjeldatakse, kuidas saate kasutada hankija koostööd rakenduses Microsoft Dynamics 365 for Finance and Operations, et töötada OT-dega ja jälgida veose varusid."
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 7646b2e01ea1f9cdca58b9971c3dea21b99525e2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada klientidega töötamiseks hankija koostööd rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Hankijad saavad äriprotsesse lõpule viia järgmistes tööruumides.
+See teema kirjeldab, kuidas saate kasutada hankija koostööd, et töötada klientidega rakenduses Microsoft Dynamics 365 for Finance and Operations. Hankijad saavad äriprotsesse lõpule viia järgmistes tööruumides.
 
 - **Ostutellimuse kinnitus** – ostutellimuste (OT-de) jälgimine ja neile vastamine.
 - **Hankija pakkumine** – pakkumiskutsete vaatamine ja neile reageerimine pakkumisi sisestades.

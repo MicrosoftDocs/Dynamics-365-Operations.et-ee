@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6d5674bed7167e002e7467e1e77d333fdf1b4f8d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 77e46e8693c65410ac7c44754edcb3c181f2aa18
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ See artikkel kirjeldab proovibilansi vaikearuandeid. See kirjeldab ka nende arua
 <a name="default-trial-balance-reports"></a>Proovibilansi vaikearuanded
 -----------------------------
 
-Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition on saadaval kolm proovibilansi aruannet.
+Rakenduses Microsoft Dynamics 365 for Finance and Operations on saadaval kolm proovibilansi aruannet.
 
 | Vaikearuanne                                 | Selle funktsioon                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

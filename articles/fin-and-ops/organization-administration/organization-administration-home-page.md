@@ -1,6 +1,6 @@
 ---
 title: "Organisatsioonihalduse kodulehekülg"
-description: Teema viitab ressurssidele, mis aitavad teil rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, oma organisatsioonis kasutada.
+description: Teema viitab ressurssidele, mis aitavad teil Microsoft Dynamics 365 for Finance and Operationsit oma organisatsioonis kasutada.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Teema viitab sisule, mis aitavad lauskasutajatel ja administraatoritel rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, konfigureerida. See sisu aitab neil konfigureerida süsteemi nii, et see töötaks teie organisatsiooni ja äritegevuse puhul sujuvalt ning tulemuslikult.
+Teema viitab sisule, mis aitavad lauskasutajatel ja administraatoritel konfigureerida rakendust Microsoft Dynamics 365 for Finance and Operations. See sisu aitab neil konfigureerida süsteemi nii, et see töötaks teie organisatsiooni ja äritegevuse puhul sujuvalt ning tulemuslikult.
 
 Suur osa siin nimetatud sisust kohaldub mooduli **Organisatsiooni haldus** funktsioonidele. Kuid on mõned toimingud, nt kirje malli loomine ja kasutamine, mida saab rakendada mis tahes moodulis, et teie organisatsioon tõhusamalt toimiks. 
 

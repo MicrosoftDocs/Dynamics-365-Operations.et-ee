@@ -1,6 +1,6 @@
 --- 
 title: "Konfiguratsiooni loomine CSV-vormingus andmete importimiseks välisest failist (elektrooniline aruandlus)"
-description: "Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmed CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmed CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations."
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -16,24 +16,24 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 5c1766992531ee272ea156bc33c4c0ea8dfac27a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Konfiguratsiooni loomine CSV-vormingus andmete importimiseks välisest failist (elektrooniline aruandlus)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmed CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations, Enterprise edition. Protseduuri järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Ülesannete lõpetamiseks peab esmalt täitma protseduuris "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. 
+Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmed CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations. Protseduuri järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Ülesannete lõpetamiseks peab esmalt täitma protseduuris "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. 
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. 
 
 Samuti peate alla laadima ja kohalikult salvestama järgmised failid: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-    * Saate konfigureerida protsessi XML-, TXT- või CSV-vormingus väliste failide tabelitesse importimiseks rakenduses Dynamics 365 for Finance and Operations, Enterprise edition. Esmalt peate looma abstraktse andmemudeli, mis esindab imporditud andmed ettevõtte seisukohalt – selleks on loodud ER-i andmemudeli konfiguratsioon. Järgmisena määratlege imporditud faili struktuur, mis vastab loodud andmemudelile, et portida andmed failist abstraktsesse andmemudelisse – selleks on loodud ER-vorming konfiguratsioon. Seejärel tuleb ER-i andmemudeli konfiguratsiooni laiendada uue mudeli vastendusega, mis kirjeldab, kuidas imporditud failist pärinevaid andmeid ja abstraktse andmemudeli kinnistatud andmeid kasutatakse rakendusetabelite või andmeüksuste värskendamiseks.  
+    * Saate konfigureerida protsessi XML-, TXT- või CSV-vormingus väliste failide tabelitesse importimiseks rakenduses Dynamics 365 for Finance and Operations. Esmalt peate looma abstraktse andmemudeli, mis esindab imporditud andmed ettevõtte seisukohalt – selleks on loodud ER-i andmemudeli konfiguratsioon. Järgmisena määratlege imporditud faili struktuur, mis vastab loodud andmemudelile, et portida andmed failist abstraktsesse andmemudelisse – selleks on loodud ER-vorming konfiguratsioon. Seejärel tuleb ER-i andmemudeli konfiguratsiooni laiendada uue mudeli vastendusega, mis kirjeldab, kuidas imporditud failist pärinevaid andmeid ja abstraktse andmemudeli kinnistatud andmeid kasutatakse rakendusetabelite või andmeüksuste värskendamiseks.  
     * Järgmised toimingud näitavad, kuidas väliselt jälgitavate hankijate kanded imporditakse välisest CSV-failist, et neid hiljem kasutada 1099 vormides hankija tasakaalustuses.   
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” esitatud juhised.  
 2. Klõpsake valikut Aruandluse konfiguratsioonid.

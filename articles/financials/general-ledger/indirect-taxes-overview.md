@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ Iga kande puhul (müügi-/ostudokumendi read, töölehed jne) tuleb sisestada k�
 Iga kande puhul saate vaadata arvutatud käibemaksu, avades lehe **Käibemaksukanne**. Saate vaadata dokumendi rea või kogu dokumendi käibemaksu. Teatud dokumentide (nt hankija arve ja päevaraamatute puhul) saate arvutatud käibemaksu korrigeerida, kui originaaldokumendil on näha erinevad summad.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Käibemaksu tasakaalustamine ja aruandlus
-Käibemaksu kohta tuleb esitada aruanne ja maksta see maksuasutustele regulaarsete ajavahemike järel (kord kuus, kord kvartalis jne). Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis on funktsioon, mis võimaldab maksukontode tasakaalustamist ajavahemiku kohta tasakaalustab need käibemaksu tasakaalustuskontoga, nagu pearaamatu sisestusgruppides määratud. Sellele funktsioonile pääseb juurde lehel **Käibemaksu tasakaalustamine ja sisestamine**. Peate määrama käibemaksu tasakaalustusperioodi, mille eest käibemaks tasakaalustada tuleb. 
+Käibemaksu kohta tuleb esitada aruanne ja maksta see maksuasutustele regulaarsete ajavahemike järel (kord kuus, kord kvartalis jne). Microsoft Dynamics 365 for Finance and Operationsis on funktsioon, mis võimaldab maksukontode tasakaalustamist ajavahemiku kohta tasakaalustab need käibemaksu tasakaalustuskontoga, nagu pearaamatu sisestusgruppides määratud. Sellele funktsioonile pääseb juurde lehel **Käibemaksu tasakaalustamine ja sisestamine**. Peate määrama käibemaksu tasakaalustusperioodi, mille eest käibemaks tasakaalustada tuleb. 
 
 Pärast käibemaksu tasumist tuleb käibemaksu tasakaalustuskonto saldo tasakaalustada pangakontoga. Kui käibemaksu tasakaalustusperioodile määratud käibemaksuasutus on seotud hankija kontoga, sisestatakse käibemaksusaldo avatud hankija arvena ja selle saab lisada tavalisse maksesoovitusse.
 

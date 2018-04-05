@@ -1,6 +1,6 @@
 ---
 title: Eelarve plaanimise andmete eraldamine
-description: Selles artiklis kirjeldatakse erinevaid Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.
+description: Selles artiklis kirjeldatakse erinevaid rakenduses Microsoft Dynamics 365 for Finance and Operations saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c12b46ea68edd3d58c5b9abbc20a6ee6948b44f2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse erinevaid Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.  
+Selles artiklis kirjeldatakse erinevaid rakenduses Microsoft Dynamics 365 for Finance and Operations saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.  
 
 Saate prognoositud summade täpseks kujutamiseks eelarveplaani andmeid jaotada mitmel viisil.
 

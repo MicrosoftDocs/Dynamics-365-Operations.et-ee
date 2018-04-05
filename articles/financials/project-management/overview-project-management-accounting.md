@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Projekt on tegevuste grupp, mis on mõeldud teenuse osutamiseks, toodangu valmis
 ## <a name="projects-across-industries"></a>Projektid valdkondade lõikes
 Projektihalduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas, nagu järgmisel joonisel näha. [![Projektid valdkondade lõikes](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Kõnekeskuses saab kasutada piletit kõne lahendamiseks vajalike tegevuste kogumi kirjeldamiseks. Nõustamisettevõtted (nt juhtimis- või tehnilise nõustamise organisatsioonid või reklaamiagentuurid) viitavad oma tegevustele kui projektidele. Turunduses tähistab kampaania tehtavate tööde kogumit. Projektipõhises tootmises on tootmistellimus seotud mitmesuguste töödega, mis tuleb valmis kaupade tootmiseks teha. Olenemata nimest, mida nende projektide puhul kasutatakse, hõlmavad need ressursse, graafikuid ja kulusid ja projektihalduse ning raamatupidamise funktsioon Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis võib aidata neid projekte plaanida, läbi viia ja analüüsida.
+Kõnekeskuses saab kasutada piletit kõne lahendamiseks vajalike tegevuste kogumi kirjeldamiseks. Nõustamisettevõtted (nt juhtimis- või tehnilise nõustamise organisatsioonid või reklaamiagentuurid) viitavad oma tegevustele kui projektidele. Turunduses tähistab kampaania tehtavate tööde kogumit. Projektipõhises tootmises on tootmistellimus seotud mitmesuguste töödega, mis tuleb valmis kaupade tootmiseks teha. Olenemata nimest, mida nende projektide puhul kasutatakse, hõlmavad need ressursse, graafikuid ja kulusid ja projektihalduse ning raamatupidamise funktsioon Microsoft Dynamics 365 Finance and for Operationsis võib aidata neid projekte plaanida, läbi viia ja analüüsida.
 
 ## <a name="project-phases"></a>Projekti faasid
 Kuigi järgmine protsessivoog on suunatud välistele projektidele või vähemalt ühe kliendi heaks läbiviidavale projektile, kehtib see funktsioon ka ettevõttesiseste ainult kuluga projektide puhul. 

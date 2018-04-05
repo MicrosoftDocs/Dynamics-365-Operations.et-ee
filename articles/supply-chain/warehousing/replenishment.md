@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Nõudluse täiendamist toetatakse müügitellimuste, üleviimistellimuste, tootm
 ## <a name="minmax-replenishment"></a>Min/max täiendamine
 Min/max täiendamise puhul täiendatakse varusid nii, et need oleksid määratud miinimum- ja maksimumpiiri vahel. Tavaliselt toimub see protsess kord päevas, et tagada kõigi komplekteerimiskohtade maksimumtasemel täitmine enne komplekteerimise algust. 
 
-Miinimum- ja maksimumkogused määratakse täiendamismallis. Paljud muud malli sätted sarnanevad voo nõudluse tõttu täiendamises kasutatavate mallide sätetele. Mall peaks sisaldama ühte rida iga kauba ja asukoha kohta. Kui käivitate täiendamise pakett-töö abil, hindab Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, kas on vajalik täiendamine, kasutades ridade korraldamise seeriat. 
+Miinimum- ja maksimumkogused määratakse täiendamismallis. Paljud muud malli sätted sarnanevad voo nõudluse tõttu täiendamises kasutatavate mallide sätetele. Mall peaks sisaldama ühte rida iga kauba ja asukoha kohta. Kui käivitate täiendamise pakett-töö abil, hindab Microsoft Dynamics 365 for Finance and Operations, kas on vajalik täiendamine, kasutades ridade korraldamise seeriat. 
 
 Pange tähele, et min/max täiendamise strateegia ei saa täiendada tühja asukohta, kui asukoht pole määratud kauba puhul fikseeritud asukohaks. Kui asukoht, mida peab täiendama, pole fikseeritud asukoht, ei saa süsteem määratleda, millist kaupa tuleks täiendada. Seetõttu on enne täiendamist vaja vähemalt mingisugust vaba kaubavaru.
 

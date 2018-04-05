@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) val
 
 ER toetab valemikoostajat. Seega saate koostamise ajal konfigureerida avaldisi, misa saab kasutada käitamisel järgmisteks ülesanneteks.
 
-- Microsoft Dynamics 365 for Finance and Operationsi Enterprise Editioni andmebaasist saadud andmete teisendamine. Need peavad olema sisestatud ER-i andmemudelisse, mis on mõeldud ER-vormingute andmeallikaks. (Näiteks võivad need teisendused hõlmata filtreerimist, grupeerimist ja andmetüübi konversiooni.)
+- Microsoft Dynamics 365 for Finance and Operationsi andmebaasist saadud andmete teisendamine. Need peavad olema sisestatud ER-i andmemudelisse, mis on mõeldud ER-vormingute andmeallikaks. (Näiteks võivad need teisendused hõlmata filtreerimist, grupeerimist ja andmetüübi konversiooni.)
 - Andmete vormindamine, mis tuleb saata loodavale elektroonilisele dokumendile kindla ER-vormingu paigutuse ja tingimuste järgi. (Näiteks võidakse vormindada kooskõlas nõutava keele, kultuuri või kodeeringuga).
 - Elektrooniliste dokumentide loomise protsessi juhtimine. (Näiteks saavad avaldised olenevalt andmete töötlemisest vormingu teatud elementide arvestamist lubada või keelata. Nad saavad ka katkestada dokumentide loomisprotsessi või saata lõppkasutajatele sõnumeid.)
 
@@ -540,7 +540,7 @@ Avaldis <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> annab vastuseks s
 </tr>
 <tr class="even">
 <td>FORMAT (string 1, string 2[, string 3, …])</td>
-<td>Annab vastuseks määratud stringi, mida on vormindatud, asendades kõik argumendi <strong>%N</strong> esinemised argumendiga <em>n</em>. Argumendid on stringid. Kui parameetril ei ole argumenti, tagastatakse parameeter stringis kui <strong>&quot;%N&quot;</strong>. <strong>Tõelist</strong> tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga.</td>
+<td>Annab määratud stringi, mille vormindamisel asendati <strong>%N</strong> esinemiskorrad <em>n</em>. argumendiga. Argumendid on stringid. Kui parameetril ei ole argumenti, tagastatakse parameeter stringis kui <strong>&quot;%N&quot;</strong>. <strong>Tõelist</strong> tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga.</td>
 <td>Järgmises näites annab vastuseks andmeallikas <strong>PaymentModel</strong> komponendi <strong>Klient</strong> kaudu kliendikirjete loendi ja välja <strong>ProcessingDate</strong> kaudu töötlemise kuupäeva väärtuse.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>ER-i vormingus, mis on mõeldud looma valitud klientidele elektroonilist faili, valitakse <strong>PaymentModel</strong> andmeallikana ja see juhib protsessi voogu. Ilmneb erand, mis teavitab kasutajat sellest, kui valitud klient on peatatud kuupäeval, millal aruannet töödeldakse. Seda tüüpi töötlemise juhtimiseks koostatud valem saab kasutada järgmisi ressursse.</p>

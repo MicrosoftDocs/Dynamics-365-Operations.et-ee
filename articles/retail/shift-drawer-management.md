@@ -3,7 +3,7 @@ title: Vahetuse ja sularahasahtli haldamine
 description: "Selles artiklis selgitatakse, kuidas seadistada ja kasutada kahte tüüpi jaemüügikassa vahetust – ühist ja eraldiseisvat. Ühiseid vahetusi saab kasutada mitu kasutajat mitmes kohas, samas kui eraldi vahetusi saab kasutada korraga ainult üks töötaja."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e12f3f4c2f8f5a596c8994f2a4571d8a907062
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -99,7 +99,60 @@ Eraldiseisev vahetus määratakse kassasahtli tasandil. See protseduur selgitab,
 9.  Kasutage toimingut **Päevakassa tegemine** kõigis ühise vahetuse sularahasahtlites olnud sularahasumma kinnitamiseks.
 10. Ühise vahetuse sulgemiseks kasutage toimingut **Sule vahetus**.
 
+## <a name="shift-operations"></a>Vahetuse toimingud
+Vahetuse oleku muutmiseks või sahtlis oleva rahasumma suurendamiseks või vähendamiseks on mitu võimalust. Allolevas jaotises kirjeldatakse neid vahetuse toiminguid rakenduse Dynamics 365 for Retail tänapäevases kassas ja pilve kassas.
 
+**Avatud vahetus**
 
+Kassa nõuab, et kasutajal oleks aktiivne ja avatud vahetus, et teha toiminguid, mille tulemuseks on finantskanne, nagu müük, tagastus või klienditellimus.  
 
+Kassasse sisselogimisel kontrollib süsteem esmalt, kas kasutajal on praeguses registris saadaval aktiivne vahetus. Kui ei, saab kasutaja seejärel olenevalt süsteemi konfiguratsioonist ja oma lubadest valida, kas ta soovib avada uue vahetuse, jätkata olemasolevat vahetust või jätkata sisselogimist kassavälises režiimis.
+
+**Deklareeri algsumma**
+
+See toiming on sageli esimene tegevus, mida tehakse äsja avatud vahetuses. Kasutajad määravad vahetuse kassas oleva sularaha algse koguse. See on oluline, sest vahetuse sulgemisel ilmnev üle-/vähemarvutamine moodustab osa selle summa kujunemisel.
+
+**Vahetusraha kirje**
+
+Vahetusraha kirjed on müügiga mitteseotud kanded, mis tehakse aktiivse vahetuse ajal ja mis suurendavad sahtlis oleva sularaha kogust. Vahetusraha kirje tavaliseks näiteks on täiendava vahetusraha lisamine sahtlisse, kui vahetusraha on vähe.
+
+**Väljamakse**
+
+Väljamaksed on müügiga mitteseotud kanded, mis tehakse aktiivse vahetuse ajal, et vähendada sahtlis oleva sularaha kogust. Seda kasutatakse kõige sagedamini koos vahetusraha kirjega muus vahetuses. Näiteks, registris 1 on vähe vahetusraha, seetõttu teeb registri 2 kasutaja väljamakse, et vähendada sahtlis olevat summat. Registri 1 kasutaja sisestab seejärel vahetusraha kirje, et suurendada enda summat.
+
+**Peata vahetus**
+
+Kasutaja saab peatada oma aktiivse vahetuse, et vabastada praegune register muu kasutaja jaoks või et teisaldada oma vahetus teise registrisse (seda nimetatakse sageli ujuvaks kassasahtli sisuks). 
+
+Vahetuse peatamine takistab uute kannete või muudatuste tegemist vahetuses kuni selle jätkamiseni.
+
+**Jätka vahetust**
+
+See toiming võimaldab kasutajal jätkata eelnevalt peatatud vahetust registris, kus ei ole veel aktiivset vahetust.
+
+**Päevakassa**
+
+Päevakassa arvutamine on tegevus, mille kasutaja teeb, et täpsustada praegu kassas olev kogusumma, enamasti enne vahetuse sulgemist. See on väärtus, mida võrreldakse eeldatud vahetusega, et arvutada üleliigne/puuduv summa.
+
+**Seifi viidav raha**
+
+Seifi viidava raha toimingu saab teostada igal ajal aktiivses vahetuses. See toiming eemaldab raha sahtlist, nii et selle saaks üle kanda turvalisemasse asukohta, nagu tagaruumis asuv seif. Seifi viidava raha kogusumma kaasatakse endiselt vahetuse kogusummasse, kuid seda ei tule arvestada päevakassa osana.
+
+**Raha hoiustamine panka**
+
+Sarnaselt seifi viidava raha toimingule tehakse ka raha panka hoiustamise toimingut aktiivse vahetuse ajal. See toiming eemaldab raha vahetusest, et valmistada see ette pangadeposiidi jaoks.
+
+**Pimedalt suletud vahetus**
+
+Pimedalt suletud vahetus on vahetus, mis ei ole enam aktiivne, kuid pole veel täielikult suletud. Pimedalt suletud vahetusi ei saa jätkata, nagu peatatud vahetust, kuid toiminguid, nagu algsummade taotlemine ja päevakassa arvutamine saab teha ka hiljem või muust registrist.
+
+Pimedalt suletud vahetusi kasutatakse sageli registri vabastamiseks uue kasutaja või vahetuse jaoks, ilma et eelnevalt tuleks seda vahetust täielikult loendada, vastavusse viia või sulgeda. 
+
+**Sule vahetus**
+
+See toiming arvutab vahetuse kogusummad ja üleliigse/puuduva summa ning seejärel viib aktiivse või pimedalt suletud vahetuse lõpule. Suletud vahetusi ei saa jätkata või muuta.  
+
+**Vahetuste haldamine**
+
+See toiming võimaldab kasutajatel vaadata kõiki kaupluse aktiivseid, peatatud ja pimedalt suletud vahetusi. Olenevalt oma lubadest saavad kasutajad teostada oma lõplikud sulgemise protseduurid, nagu päevakassa arvutamine ja pimedalt suletud vahetuste sulgemine. See toiming võimaldab ka kasutajatel vaadata ja kustutada kehtetuid vahetusi, kui peaks juhtuma, et vahetus on pärast ühenduseta ja ühendusega režiimide vahel lülitamist jäänud vigasesse olekusse. Need kehtetud vahetused ei sisalda vastavusseviimiseks vajalikku finantsteavet või kandeandmeid. 
 

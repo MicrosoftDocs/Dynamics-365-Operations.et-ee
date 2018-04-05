@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-Välist kataloogi kasutades saate veenduda, et toote ja hinna teave, mida hiljem Dynamics 365 for Finance and Operations, Enterprise editioni 2017. aasta juuli värskenduses töötlete, oleks täpne ja ajakohane. Seejärel saab ostutaotluse kinnitada ja teisendada ostutellimuseks ning hankijale saab tellimuse esitada.
+Välist kataloogi kasutades saate veenduda, et toote ja hinna teave, mida hiljem rakenduse Dynamics 365 for Finance and Operations 2017. aasta juuli värskenduses töötlete, oleks täpne ja ajakohane. Seejärel saab ostutaotluse kinnitada ja teisendada ostutellimuseks ning hankijale saab tellimuse esitada.
 
 Kui väline kataloog on seadistatud ja töötaja koostab ostutaotlust, on olemas võimalus ümbersuunamiseks välisele saidile, välisesse kataloogi ja naasta välisel saidil loodud ostukorvi. See suhtlus põhineb cXML-protokollil ja see tuleb seadistada ostu- ja müügiorganisatsiooni süsteemide vahel.
 
@@ -85,7 +85,7 @@ Allpool leiate mallis sisalduvate siltide kirjelduse.
 
 Väline element on lisateave, nt kasutajanimi, mis põhineb välja registreerival kasutajal. Väline element määratakse väljaregistreerimise toimumisel ja selle saab saata taotluse seadistussõnumis.
 Teie hankijal võib olla nõue välise elemendi vastuvõtmise kohta seadistustaotluses. Sellisel juhul tuleks lisada väline element väliste elementide loendisse jaotises **Sõnumivorming** lehel **Väline kataloog**. Määrake välisele elemendile nimi, mille hankija ära tunneb, ja vastendage see väärtusega. Väärtuste valikud on: kasutaja nimi, kasutaja meil või juhuslik väärtus.
-Lisateavet cXML-protokolli kohta leiate lehelt http://cxml.org/
+Lisateavet cXML-protokolli kohta vt http://cxml.org/.
 
 ## <a name="post-back-message"></a>Tagasisisestamise teade
 Tagasisisestamise teade on teade, mis saadakse hankijalt, kui kasutaja logib väliselt saidilt välja ja naaseb rakendusse Finance and Operations. Tagasisisestamise teateid ei saa konfigureerida. Need teated põhinevad cXML-protokolli definitsioonil. Siin on teave, mis võib kuuluda ostutaotluse real saadud tagasisisestuse teatesse.

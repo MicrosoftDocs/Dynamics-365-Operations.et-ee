@@ -18,25 +18,25 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
-ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="on-premises-deployment-home-page"></a>Asutusesisese juurutuse avaleht
 
 [!include[banner](../includes/banner.md)]
 
-Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (kohapealne). Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest. See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.
+Teil on võimalik juurutada Microsoft Dynamics 365 for Finance and Operations (kohapealne). Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest. See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.
 
 ## <a name="get-started"></a>Alustamine
 - [Mis on uut või mida on muudetud kohapealsetes keskkondades rakenduses Dynamics 365 for Finance and Operations, Enterprise edition 7.2 platvormivärskendusega 12 (märts 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) ülevaade](on-premises-overview.md)
+- [Dynamics 365 for Finance and Operationsi (kohapealne) ülevaade](on-premises-overview.md)
 - [Asutusesisese juurutuse plaanimine](plan-onprem-deployment.md)
 - [Kohapealsete juurutuste süsteeminõuded](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Riistvara suuruse muutmine kohapealsetes keskkondades](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) ostmine](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Dynamics 365 for Finance and Operationsi (kohapealne) ostmine](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Pilvepõhiste ja asutusesiseste funktsioonide võrdlus](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Turule toomine
@@ -58,7 +58,7 @@ Saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Ent
 - [Kohapealse juurutamise uuesti juurutamine](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Muud ressursid
-- [Dynamics 365 for Finance and Operations, Enterprise Editioni (kohapealne) tõrkeotsing](troubleshoot-on-prem.md)
+- [Rakenduse Dynamics 365 for Finance and Operations kohapealne tõrkeotsing](troubleshoot-on-prem.md)
 - [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Aegunud funktsioonid](../migration-upgrade/deprecated-features.md)
 - [Tarkvara elutsükli poliitika ja väljalasete loend](../migration-upgrade/versions-update-policy.md)
