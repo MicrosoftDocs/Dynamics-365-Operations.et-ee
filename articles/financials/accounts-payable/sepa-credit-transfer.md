@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1335d95c8bf02d5c571d37d78eca0ee7eae32bad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ EPC, mis koosneb Euroopa pankadest, arendab SEPA maksevahendite kaubandus- ja te
 SEPA kreeditülekanne on ühe ettevõtte või isiku makse teisele ettevõttele või isikule. Maksed peavad olema eurodes ja sisaldama mõlema osapoole puhul rahvusvahelist pangakonto numbrit (IBAN) ja panga koodi (BIC). (BIC on tuntud ka kui Society for Worldwide Interbank Financial Telecommunication \[SWIFT\] kood.) Täiendavalt tuleb kandekulusid jagada mitme osapoole vahel. Pooltevahelised kreeditülekanded peavad kasutama XML-faile, mis vastavad ISO 20022 maksete töötlemise standarditele ja XML-vormingule, nagu EPC on täpsustanud.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Kuidas kreeditülekannet rakendatakse?
-Euroopa riikide puhul kasutatakse kreeditiülekande maksevormingu rakendamiseks elektroonilist aruandlust (ER) ja rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition maksefunktsioonide meetodeid. Mõned teistes piirkondades kasutatavad kreeditiülekande vormingud kasutavad endiselt pärandmakseraamistikku. Paljude muude vormingute hulgas on saadaval kaksteist ISO 20022 kreeditiülekande failivormingut. Need ekspordivormingud vastavad SEPA ISO 20022 XML-standardile. Neid kasutatakse mitteeuroste makseülekannete loomiseks riikidele/piirkondadele, kus neid kasutatakse, ja euromaksete loomiseks, nagu on määratud EPC väljastatava trükise SEPA Credit Transfer Scheme Rulebook versioonis 8.2. Enne kreeditiülekannete rakendamist peate pöörduma oma panga poole, et saada tarkvara, mida elektrooniliste pangafailide üleslaadimiseks vaja on. Seda tarkvara kasutatakse maksetellimusi sisaldavate XML-failide edastamiseks panka.
+Euroopa riikide puhul kasutatakse kreeditiülekande maksevormingu rakendamiseks elektroonilist aruandlust (ER) ja rakenduse Microsoft Dynamics 365 for Finance and Operations maksefunktsioonide meetodeid. Mõned teistes piirkondades kasutatavad kreeditiülekande vormingud kasutavad endiselt pärandmakseraamistikku. Paljude muude vormingute hulgas on saadaval kaksteist ISO 20022 kreeditiülekande failivormingut. Need ekspordivormingud vastavad SEPA ISO 20022 XML-standardile. Neid kasutatakse mitteeuroste makseülekannete loomiseks riikidele/piirkondadele, kus neid kasutatakse, ja euromaksete loomiseks, nagu on määratud EPC väljastatava trükise SEPA Credit Transfer Scheme Rulebook versioonis 8.2. Enne kreeditiülekannete rakendamist peate pöörduma oma panga poole, et saada tarkvara, mida elektrooniliste pangafailide üleslaadimiseks vaja on. Seda tarkvara kasutatakse maksetellimusi sisaldavate XML-failide edastamiseks panka.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Milliseid kreeditiülekande vorminguid rakendus Finance and Operations praegu toetab?
 Saate alati minna Microsoft Dynamicsi elutsükli teenustes (LCS) olevasse ühiste varade teeki ja vaadata kõige ajakohasemat loendit saadaolevatest failidest, millel on vara tüüp **GER-i konfiguratsioon**. Järgmine jaotis „Mida pean seadistamiseks tegema?” annab lingi teemale, mis selgitab, kuidas luua LCS-hoidlat, et saadaolevaid konfiguratsioone üle vaadata ja valitud konfiguratsioone importida.

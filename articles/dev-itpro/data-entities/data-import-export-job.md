@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Andmeimpordi ja -ekspordi tööde jaoks rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kasutatakse tööruumi **Andmehaldus**. Vaikimisi loob andmeimpordi ja -ekspordi protsess igale sihtandmebaasi üksusele koondamistabeli. Koondamistabelid võimaldavad andmeid enne teisaldamist kontrollida, puhastada või teisendada.
+Andmeimpordi ja -ekspordi tööde jaoks rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatakse tööruumi **Andmehaldus**. Vaikimisi loob andmeimpordi ja -ekspordi protsess igale sihtandmebaasi üksusele koondamistabeli. Koondamistabelid võimaldavad andmeid enne teisaldamist kontrollida, puhastada või teisendada.
 
 > [!NOTE]
 > Siin teemas eeldatakse, et olete [andmeüksustega](data-entities.md) tuttav.
@@ -66,7 +66,7 @@ Saate lisada impordi- või eksporditööle konkreetseid üksusi või valida rake
 ### <a name="set-the-data-format-for-the-job"></a>Töö andmevormingu määramine
 Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormingu. Vorminguid saab määratleda paani **Andmeallikate seadistus** kaudu. Paljud organisatsioonid alustavad vormingutes, mis on vaikimisi demoandmete kogumisse lisatud. Siin on loend mõningatest sellistest vormingutest.
 
-- AX (andmete puhul, mis tuleb importida või eksportida samas vormingus, mida kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition)
+- AX (andmete puhul, mis tuleb importida või eksportida samas vormingus, mida kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operations)
 - Kooloniga eraldatud
 - CSV
 - Excel

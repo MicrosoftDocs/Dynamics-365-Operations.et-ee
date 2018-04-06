@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Artikkel tutvustab projektipakkumiste mõistet, mida saate projektifaasi esimese etapina kasutada kliendile atraktiivse pakkumise tegemiseks. Projektipakkumine võib hõlmata pakutavaid kaupu ja teenuseid, peamist kontaktteavet, erilisi kaubandusleppeid ja allahindlusi ning võimalikke makse ja lisatasusid. 
 
-Võimalus projekti pakkumiste ja tellimuste müügivõimalusi jälgida, läbi vaadata ning juhtida on projektihalduse oluline osa. Nende ülesannete täitmisel saate kasutada mitmesuguseid Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni tööriistu. Müügivõimaluste analüüsimisel on abiks näiteks õiged viiteandmete definitsioonid (pakkumiste tüübid, pakkumise päritolu, pakkumise prognoos ja pakkumise tõenäosus). Nende tööriistade abil saate analüüsida, miks projektipakkumine võitis või kaotas ja määrata pakkumise võimalikku väärtust. 
+Võimalus projekti pakkumiste ja tellimuste müügivõimalusi jälgida, läbi vaadata ning juhtida on projektihalduse oluline osa. Nende ülesannete täitmisel saate kasutada mitmesuguseid rakenduse Microsoft Dynamics 365 for Finance and Operations tööriistu. Müügivõimaluste analüüsimisel on abiks näiteks õiged viiteandmete definitsioonid (pakkumiste tüübid, pakkumise päritolu, pakkumise prognoos ja pakkumise tõenäosus). Nende tööriistade abil saate analüüsida, miks projektipakkumine võitis või kaotas ja määrata pakkumise võimalikku väärtust. 
 
 Projektipakkumises saate sisestada projekti teenused, peamise kontaktteabe, konkreetsed kaubanduslepped ja allahindlused ning hinnangulised maksud ja lisatasud. Saate valida projektile ka tegevused või ülesanded ning luua ülesannete ja alamülesannete hierarhia. Iga tegevuse puhul saate sisestada üksikasjad selle aja ja kestuse kohta ning teabe tegevust läbiviivate töötajate puhul nõutavad oskused ja kogemused. 
 

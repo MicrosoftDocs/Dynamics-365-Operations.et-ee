@@ -17,17 +17,17 @@ ms.author: bis
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 43167cc36398d3f7f8d639187f67fad1bae8082f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="warehouse-management"></a>Laohaldus
 
 [!include[banner](../includes/banner.md)]
 
-Laohalduse moodul rakendusele Dynamics 365 for Finance and Operations, Enterprise edition, võimaldab hallata laoprotsesse tootmis-, hulgi- ja jaemüügiettevõtetes. Sellel moodulil on väga mitmesuguseid funktsioone, mis toetavad ladu alati optimaalsel tasemel. Laohaldus on integreeritud täielikult teiste Finance and Operationsi äriprotsessidega, nt transporti, tootmise, kvaliteedikontrolli, ostmise, üleviimise, müügi ja tagastustega.
+Laohalduse moodul rakendusele Dynamics 365 for Finance and Operations võimaldab hallata laoprotsesse tootmis-, hulgi- ja jaemüügiettevõtetes. Sellel moodulil on väga mitmesuguseid funktsioone, mis toetavad ladu alati optimaalsel tasemel. Laohaldus on integreeritud täielikult teiste Finance and Operationsi äriprotsessidega, nt transporti, tootmise, kvaliteedikontrolli, ostmise, üleviimise, müügi ja tagastustega.
 
 ## <a name="get-started"></a>Alustamine
 Laohaldusega töö alustamiseks tuleb viia lõpule üldiste laoparameetrite seadistamine, et toetada oma ettevõtte äriprotsesse.

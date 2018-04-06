@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 9a36b3e7a8e496632ca7041018abe8176a2e4f25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ See artikkel selgitab, kuidas positiivset makset seadistada ja positiivse makse 
 Positiivse makse seadistamine pangale edastatava elektroonilise tšekkide loendi loomiseks. Tšeki esitamisel pangale võrdleb pank seda tšekkide loendiga. Kui tšekk vastab loendis olevale tšekile, maksab pank selle välja. Kui tšekk ei vasta ühelegi loendis olevale tšekile, võtab pank selle ülevaatamiseks enda kätte.
 
 ## <a name="security-for-positive-pay-files"></a>Positiivse makse failide turve
-Positiivse makse failides võib olla tundliku loomuga teavet maksesaajate ja tšekisummade kohta. Seetõttu kasutage kindlasti vajalikke turvameetmeid alates failide loomise hetkest kuni nende panka saabumiseni. Positiivse makse failid laaditakse alla teie veebibrauseri määratud asukohta. Kuna positiivsed maksefailid saavad sisaldada tundlikku teavet, on oluline, et ainult volitatud kasutajatel on rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition juurdepääs selle teabe loomiseks ja vaatamiseks. Järgmise tabelis abil saate määratleda vajalikke õigusi.
+Positiivse makse failides võib olla tundliku loomuga teavet maksesaajate ja tšekisummade kohta. Seetõttu kasutage kindlasti vajalikke turvameetmeid alates failide loomise hetkest kuni nende panka saabumiseni. Positiivse makse failid laaditakse alla teie veebibrauseri määratud asukohta. Kuna positiivsed maksefailid saavad sisaldada tundlikku teavet, on oluline, et ainult volitatud kasutajatel on rakenduses Microsoft Dynamics 365 for Finance and Operations juurdepääs selle teabe loomiseks ja vaatamiseks. Järgmise tabelis abil saate määratleda vajalikke õigusi.
 
 <table>
 <colgroup>

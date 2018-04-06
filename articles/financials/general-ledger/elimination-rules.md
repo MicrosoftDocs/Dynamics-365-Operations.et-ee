@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ Teie juriidiline isik (A) müüb vidinad teisele teie ettevõtte juriidilisele i
 Kõik need kanded loovad kontsernisisesed kanded, mis sisestatakse algus- ja lõpptähtaja kontodele. Peale selle võivad need kanded hõlmata hinnalisandiga ja hinnavähendusega summasid, kui kontsernisisene müügisumma ja müüdud kaupade maksumus ei ole võrdsed.
 
 ## <a name="set-up-elimination-rules"></a>Eemaldamisreeglite seadistamine
-Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis eemaldamisreeglite seadistamisel soovitame luua spetsiaalselt eemaldamiseks mõeldud finantsdimensiooni. Enamik kliente annab sellele nimeks Kaubanduspartner või muud sarnast. Kui te ei soovi finantsdimensiooni kasutada, siis peavad teil kindlasti olema ainult ettevõtete vahelisteks kanneteks mõeldud põhikontod. 
+Microsoft Dynamics 365 for Finance and Operationsis eemaldamisreeglite seadistamisel soovitame luua spetsiaalselt eemaldamiseks mõeldud finantsdimensiooni. Enamik kliente annab sellele nimeks Kaubanduspartner või muud sarnast. Kui te ei soovi finantsdimensiooni kasutada, siis peavad teil kindlasti olema ainult ettevõtete vahelisteks kanneteks mõeldud põhikontod. 
 
 Eemaldamised saate seadistada mooduli Konsolideerimised alal Seadistus. Kui olete reegli kohta kirjelduse sisestanud, peate valima ettevõtte, millesse eemaldamisreegel sisestab. See peab olema ettevõte, mille puhul on juriidilise isiku seadistuses valitud suvand **Kasuta finantsiliseks eemaldamisprotsessiks**. 
 

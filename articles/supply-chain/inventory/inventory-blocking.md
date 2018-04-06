@@ -1,6 +1,6 @@
 ---
 title: Varude blokeerimine
-description: "See artikkel annab ülevaate varude blokeerimisest, mis kuulub Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks."
+description: "See artikkel annab ülevaate varude blokeerimisest, mis kuulub Microsoft Dynamics 365 for Finance and Operationsi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-See artikkel annab ülevaate varude blokeerimisest, mis kuulub Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
+See artikkel annab ülevaate varude blokeerimisest, mis kuulub Microsoft Dynamics 365 for Finance and Operationsi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
 
 Laokaupade blokeerimiseks on järgmised võimalused.
 -   Käsitsi
@@ -64,7 +64,7 @@ Saate määrata, millised varude olekud on blokeerivad olekud, kasutades lehe **
 <a name="see-also"></a>Vt ka
 --------
 
-[Varude blokeerimise loomine ja haldamine (tegevuse juhis)](tasks/create-maintain-inventory-blocking.md
+[Varude blokeerimise loomine ja haldamine](tasks/create-maintain-inventory-blocking.md)
 
 [Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 

@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Jaotises **Ülesanded ja olek** on kuvatud mitmesugusel moel üldine andmete val
 Viimane vahekaart on ülesannete üksikasjalikuks loendiks. See loend kuvab täieliku ülesannete loendi.
 Saate loendit filtrida mitmel viisil. Klõpsake nuppu **Redigeeri ülesannet** ülesande oleku muutmiseks või ülesande määramiseks. Klõpsake nuppu **Manused** ülesande manuste vaatamiseks.
 
-Ülesande nimi on hüperlink Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni lehele või muule veebilehele, kuhu kasutaja peab töö lõpuleviimiseks minema. Selle hüperlingi saab määrata välja **Menüüelemendi nimi** abil, kui redigeerite ülesannet või loote selle vormil **Andmete valideerimise projekti konfigureerimine**.
+Ülesande nimi on hüperlink Microsoft Dynamics 365 for Finance and Operationsi lehele või muule veebilehele, kuhu kasutaja peab töö lõpuleviimiseks minema. Selle hüperlingi saab määrata välja **Menüüelemendi nimi** abil, kui redigeerite ülesannet või loote selle vormil **Andmete valideerimise projekti konfigureerimine**.
 
 Saate lisada ülesandele faile, märkuseid, pilte ja URL-e, kasutades tegevust **Manused**. Näiteks saate manustada ülesande jaoks prinditud aruandefaili. Ikoon kuvatakse manuse olemasolul ülesande veerus **Manus**.
 

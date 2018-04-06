@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 962b3084c5340813d1697cab680621350510d4b9
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -42,7 +42,7 @@ Mõned töö üksikasjad, nagu ametinimetus, töö tüüp ja funktsioon, on kuup
 ## <a name="job-titles"></a>Ametinimetused
 Enne tööde loomist peate seadistama tööde ametinimetused. Ametikohtade ametinimetused tuletatakse töödest, millega ametikohad seotud on. 
 
-Ametinimetusi saate hallata lehel **Ametinimetused**, millele pääsete juurde otsingufunktsiooni abil. Lehel Ametinimetused saate sisestada ametinimetused, mida kavatsete oma tööde jaoks kasutada.
+Ametinimetusi saate hallata lehel **Ametinimetused**, millele pääsete juurde otsingufunktsiooni abil. Lehel **Ametinimetused** saate sisestada ametinimetused, mida kavatsete oma tööde jaoks kasutada.
 
 ## <a name="job-types"></a>Töötüübid
 Sarnaste tööde kategooriatesse grupeerimiseks saate kasutada töötüüpe. Töötüübid ei ole nõutavad. Kuid kui te kavatsete kasutada töö tüüpe kompensatsioonihalduse sobivuse reeglite seadistamisel, peaksite seadistama töö tüübid enne tööde seadistamist. Töötüübid on näiteks täistööaeg ja osaline tööaeg või kuupalk ja tunnipalk. Töötüüpe saate hallata lehel **Töötüübid**. Sisestage lehel **Töötüübid** töötüübi nimi ja lühikirjeldus. Tehke väljal **Vabastatud olek** üks järgmistest valikutest, et näidata selle töötüübiga tööde õiglaste tööstandardite seaduse (FLSA) alusel vabastatud olekut.
@@ -91,6 +91,6 @@ Tööülesandeid saate hallata lehel **Tööülesanded**. Sisestage lehel **Tö�
 ## <a name="areas-of-responsibility"></a>Vastutusalad
 Vastutusalade abil saate näidata, milliste töörollide, protsesside ja toodete eest selle töö ametikohal tegutsev töötaja vastutab. Näiteks töö „Raamatupidaja” vastutusala võib olla „Toote A finantsaruandlus”. Vastutusalasid saate hallata lehel **Vastutusalad**, millele pääsete juurde otsingufunktsiooni abil. Sisestage lehel **Vastutusalad** vastutusala nimi ja lühikirjeldus. Väljale **Märkus** saate soovi korral sisestada ka lisateavet. Märkusi saab kindla töö puhul värskendada ilma siia sisestatud märkusi muutmata.
 
-
-
+## <a name="steps-for-creating-a-job"></a>Töö loomise juhised
+Uue töö loomise etapiviisilise protseduuri leiate teemast [Uute tööde määratlemine](../fin-and-ops/hr/tasks/define-new-jobs.md). 
 

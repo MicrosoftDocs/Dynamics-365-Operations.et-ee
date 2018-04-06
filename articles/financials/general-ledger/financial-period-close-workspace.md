@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ Finantsilise sulgemise malli abil saate määratleda kõik sulgemisprotsessi kuu
 
 Saate määrata mallis oleva ülesande ühele või mitmele ettevõttele, kus ülesanne kehtib. Kui selle tööpanust on igas ettevõttes lõpetama määratud eri isik, võib osutuda kasulikuks sama tööpanuse puhul mitme ülesande loomine. Looge iga ettevõtte puhul üks ülesanne. 
 
-Menüüelement **Ülesande link** on seostatud ülesande tööpanusega ja seda saab kasutada tööruumis ülesande lingilt otse seotud lehele liikumiseks. Näiteks saab valuuta ümberarvutamise protsessi käivitava sulgemisülesande ostureskontro puhul siduda seostatud lehega **Välisvaluuta ümberarvutamine** rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Saate siduda ka välise URL-iga. 
+Menüüelement **Ülesande link** on seostatud ülesande tööpanusega ja seda saab kasutada tööruumis ülesande lingilt otse seotud lehele liikumiseks. Näiteks saab valuuta ümberarvutamise protsessi käivitava sulgemisülesande ostureskontro puhul siduda seostatud lehega **Välisvaluuta ümberarvutamine** rakenduses Microsoft Dynamics 365 for Finance and Operations. Saate siduda ka välise URL-iga. 
 
 > [!TIP]
 > Kui soovite siduda kindla halduse aruandja aruande finantsperioodi sulgemisülesandega, saate kasutada aruande URL-i. Aruande URL-i juurde pääsemiseks avage aruandekujundaja ja klõpsake seejärel aruande avamiseks veebibrauseris suvandit **Fail** &gt; **Kuva aruanne**. Seejärel saate brauseri aadressiribalt URL-i kopeerida ja kleepida selle väljale **Ülesande link** **URL**. 

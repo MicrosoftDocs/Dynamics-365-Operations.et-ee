@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad76f286d16b149affa110aef75874a52b66798f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -54,7 +54,7 @@ Lehel **Arve väljastamise tähtaja arvutuse seadistamine** saate seadistada arv
 Saate seadistada kuupäeva juhtelemendi parameetrid, mis aitab tagada, et kliendiarved ja kreeditarved kliendi kannete puhul luuakse määratud perioodil pärast tarnet. Leiate need parameetrid alalt **Arve kuupäevade juhtelement** lehel **Müügireskontro parameetrid**.
 
 ## <a name="example"></a>Näide
-Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni seadistamiseks nii, et arve väljastamise tähtaegade arvutamine toimuks ELi-siseste saadetiste puhul tarnele järgneva kuu viieteistkümnendal kuupäeval, looge kuupäevavahemiku kood ja arvutusreegel järgmiste sätetega.
+Rakenduse Microsoft Dynamics 365 for Finance and Operations seadistamiseks nii, et arve väljastamise tähtaegade arvutamine toimuks ELi-siseste saadetiste puhul tarnele järgneva kuu viieteistkümnendal kuupäeval, looge kuupäevavahemiku kood ja arvutusreegel järgmiste sätetega.
 
 ### <a name="date-interval-code"></a>Kuupäevaintervalli kood
 

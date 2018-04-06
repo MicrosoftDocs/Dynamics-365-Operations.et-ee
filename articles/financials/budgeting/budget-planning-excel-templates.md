@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -62,7 +62,7 @@ Exceli mall sisaldab kõiki eelarveplaani dokumendi paigutuse elemente, kui veer
 [![Näide](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Exceliga eelarveplaani andmete vaatamisel ja redigeerimisel võimalike probleemide vältimiseks peab sama kasutaja olema sisse loginud nii Microsoft Dynamics 365 for Finance and Operations, Enterprise editionisse kui ka Microsoft Dynamics Office’i lisandmooduli andmekonnektorisse.
+> Exceliga eelarveplaani andmete vaatamisel ja redigeerimisel võimalike probleemide vältimiseks peab sama kasutaja olema sisse loginud nii Microsoft Dynamics 365 for Finance and Operationsisse kui ka Microsoft Dynamics Office’i lisandmooduli andmekonnektorisse.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Eelarveplaani dokumendimallile päise lisamine
 Päiseteabe lisamiseks valige Exceli failis ülemine rida ja sisestage tühjad read. Exceli failile päiseväljade lisamiseks klõpsake rakenduses **Andmekonnektor** valikut **Kujundus**.

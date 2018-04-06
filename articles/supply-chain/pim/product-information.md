@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ Toodet defineeritakse peamiselt toote numbri, nime ja kirjeldusega. Kuid toote v
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Toote andmete jaotus, eksport ja import
 
-Tootedefinitsiooni saab luua Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis. Selle saab importida ka toote töötsükli halduse (PLM), toote andmehalduse (PDM) või toote teabehalduse (PIM) süsteemidest. Kui kasutatakse mitut Finance and Operationsi eksemplari, siis kasutatakse ühte eksemplari tavaliselt kõigi teiste eksemplaride tooteandmete etalonina. Seda lähenemist toetab suur kogum andmeüksusi, mis võimaldavad tootedefinitsiooni andmete eksportimist ja importimist ühest eksemplarist teise.
+Tootedefinitsiooni saab luua rakenduses Microsoft Dynamics 365 for Finance and Operations. Selle saab importida ka toote töötsükli halduse (PLM), toote andmehalduse (PDM) või toote teabehalduse (PIM) süsteemidest. Kui kasutatakse mitut Finance and Operationsi eksemplari, siis kasutatakse ühte eksemplari tavaliselt kõigi teiste eksemplaride tooteandmete etalonina. Seda lähenemist toetab suur kogum andmeüksusi, mis võimaldavad tootedefinitsiooni andmete eksportimist ja importimist ühest eksemplarist teise.
 
 Tooteandmete jaotuse toetamiseks paljudesse eksemplaridesse võimaldab Finance and Operations kasutada teenust Common Data Service. Tootedefinitsioonid saab eksportida Finance and Operationsi eksemplarist teenusesse Common Data Service. Seejärel saab tootedefinitsioone kasutada teiste ärirakenduste (nt Microsoft Dynamics 365 for Sales) varustamiseks tooteandmetega.
 

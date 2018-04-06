@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 274a5e696bfde4f5e27bc186fadbab69f5fc655d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ Kasutage lehte **Finantsdimensioonid**, et luua finantsdimensioonid, mida saab k
 
 Kui olete finantsdimensioonid loonud, kasutage igale finantsdimensioonile täiendavate atribuutide lisamiseks lehte **Finantsdimensiooni väärtused**. 
 
-Finantsdimensioone saab kasutada juriidiliste isikute kajastamiseks. Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, ei pea juriidilisi isikuid looma. Kuid finantsdimensioonid pole mõeldud juriidiliste isikute tegevus- või ärivajaduste rahuldamiseks. Üksustevaheline raamatupidamisfunktsioon rakenduses Finance and Operations on mõeldud ainult iga kande loodavate raamatupidamiskirjete käsitlemiseks. 
+Finantsdimensioone saab kasutada juriidiliste isikute kajastamiseks. Rakenduses Microsoft Dynamics 365 for Finance and Operations ei pea juriidilisi isikuid looma. Kuid finantsdimensioonid pole mõeldud juriidiliste isikute tegevus- või ärivajaduste rahuldamiseks. Üksustevaheline raamatupidamisfunktsioon rakenduses Finance and Operations on mõeldud ainult iga kande loodavate raamatupidamiskirjete käsitlemiseks. 
 
  Finantsdimensioonide juriidilised isikud häälestamiseks hinnata äriprotsessist järgmistes määratlemiseks, kui teie organisatsioon töö see seadistus:
 

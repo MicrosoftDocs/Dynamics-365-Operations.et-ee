@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2c0a00b6a1956f1f22a50951308c434c3f0eefc4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Siin on mõned näited tüüpiliste statistilise dimensiooni liikmete kohta.
 
 ## <a name="statistical-measure-provider-template"></a>Statistiliste mõõtude pakkuja mall
 
-Statistilised mõõdud võivad pärineda erinevatest allikatest. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition on suurepärane allikas, millest statistilisi mõõte hankida. Võite kasutada statistilise mõõdu pakkuja malli, et konfigureerida hõlpsasti statistilisi mõõte, mida soovite hankida.
+Statistilised mõõdud võivad pärineda erinevatest allikatest. Microsoft Dynamics 365 for Finance and Operations on suurepärane allikas, millest statistilisi mõõte hankida. Võite kasutada statistilise mõõdu pakkuja malli, et konfigureerida hõlpsasti statistilisi mõõte, mida soovite hankida.
 
 Statistilise mõõdu pakkuja malli definitsioon on üldine ja seda saab kasutada uuesti mitmes statistilise dimensiooni liikmes.
 
@@ -132,13 +132,13 @@ Enne kui saate statistilised mõõdud kuluarvestusse, tuleb luua seos statistili
 > [!NOTE]
 > Selles näites loome seose ainult **tegeliku versiooni** jaoks.
 
-Avage **Kuluarvestuse pearaamat** \> **Tegelik versioon** \> **Halda** \> **Statistilised mõõdud** seose loomiseks. Selle stsenaariumi puhul valige andmekonnektor **Dynamics 365 for Finance and Operations, Enterprise edition – statistilised mõõdud**, kuna soovime ekstraktida andmed rakendusest Finance and Operations.
+Avage **Kuluarvestuse pearaamat** \> **Tegelik versioon** \> **Halda** \> **Statistilised mõõdud** seose loomiseks. Selle stsenaariumi puhul valige andmekonnektor **Dynamics 365 for Finance and Operations – statistilised mõõdud**, kuna soovime ekstraktida andmed rakendusest Finance and Operations.
 
 **Andmeallikas**
 
 | Nimi        | Andmekonnektor                                                                     | Statistilise dimensiooni liige |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| TTE-d D365FO | Dynamics 365 for Finance and Operations, Enterprise edition – statistilised mõõdud | TTE-d                         |
+| TTE-d D365FO | Dynamics 365 for Finance and Operations – statistilised mõõdud | TTE-d                         |
 
 **Andmepakkuja konfiguratsioon**
 
@@ -220,13 +220,13 @@ Enne kui saate statistilised mõõdud kuluarvestusse, tuleb luua seos statistili
 > [!NOTE]
 > Selles näites loome seose ainult **tegeliku versiooni** jaoks.
 
-Avage **Kuluarvestuse pearaamat** \> **Tegelik versioon** \> **Halda** \> **Statistilised mõõdud** seose loomiseks. Selle stsenaariumi puhul valige andmekonnektor **Dynamics 365 for Finance and Operations, Enterprise edition – statistilised mõõdud**, kuna soovime ekstraktida andmed rakendusest Finance and Operations.
+Avage **Kuluarvestuse pearaamat** \> **Tegelik versioon** \> **Halda** \> **Statistilised mõõdud** seose loomiseks. Selle stsenaariumi puhul valige andmekonnektor **Dynamics 365 for Finance and Operations – statistilised mõõdud**, kuna soovime ekstraktida andmed rakendusest Finance and Operations.
 
 **Andmeallikas**
 
 | Nimi           | Andmekonnektor                                                                     | Statistilise dimensiooni liige |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakendi CC D365FO | Dynamics 365 for Finance and Operations, Enterprise edition – statistilised mõõdud | Pakendi CC                      |
+| Pakendi CC D365FO | Dynamics 365 for Finance and Operations – statistilised mõõdud | Pakendi CC                      |
 
 Süsteem tuvastab, et ProdRouteTrans on tabel, kus iga kirje kuulub eraldi juriidilise isiku juurde. Seetõttu palutakse teil valida juriidiline isik, kust kanded tuleks importida.
 

@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
-ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 03/05/2018
 
 Selles teemas näidatakse, kas iga funktsioon on nendes toodetes saadaval:
 
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (pilv)
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (asutusesisene)
++ Dynamics 365 for Finance and Operations (pilv)
++ Microsoft Dynamics 365 for Finance and Operations (kohapealne) juurutamine
 
 Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisene tugi on loetletud funktsiooni tervikfunktsiooni kohta. Kui konkreetsed funktsioonid valdkonna üldistest funktsioonidest erinevad, loetletakse need eraldi real veerus Funktsioon.
 

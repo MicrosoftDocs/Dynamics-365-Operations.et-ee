@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Eelarvehaldur loob Microsoft Wordis eelarveplaani malli ja määrab selle praegu
 
 1.  Klõpsake Microsoft Dynamics Office’i lisandmoodulis pärast sisselogimist nuppu **Kujundus**.
 2.  Päiseteabe jaoks kasutage nuppu **Lisa välju**.
-3.  Valige atribuudi BudgetPlanJustification üksuse andmeallikas ja klõpsake nuppu **Edasi**. **Märkus.** See üksus on nõutav kõigi põhjendusdokumentide puhul. Muid üksusi võib kasutada, kuid uuesti üleslaadimine rakendusse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition nurjub, kui see üksus pole kaasatud.
+3.  Valige atribuudi BudgetPlanJustification üksuse andmeallikas ja klõpsake nuppu **Edasi**. **Märkus.** See üksus on nõutav kõigi põhjendusdokumentide puhul. Muid üksusi võib kasutada, kuid uuesti üleslaadimine rakendusse Microsoft Dynamics 365 for Finance and Operations nurjub, kui see üksus pole kaasatud.
 4.  Lisage Wordi dokumenti atribuutide BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ja DocumentNumber sildid ning väärtused. **Märkus.** Vajaduse korral saate standardsiltide asemel kasutada oma kohandatud silte.
 5.  Päisejaotisega lõpetamiseks klõpsake nuppu **Valmis**.
 6.  Eelarveplaani summade reatasemel üksikasjade saamiseks klõpsake valikut **Lisa tabel**.

@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 - **Nupupaneel**: operatsiooni saab määrata kassa nupupaneeli nuppudele, mis on osa kassa ekraanipaigutusest.
 - **Kandeekraan**: operatsiooni saab käivitada kassa kandeekraanil konfigureeritud nupupaneeli nuppudega.
 - **Tervitusekraan**: operatsiooni saab käivitada kassa tervitusekraanil konfigureeritud nupupaneeli nuppudega.
+
+Märkus. Allpool loetletud toimingud kehtivad rakenduse Dynamics 365 for Retail uusimale versioonile. Mõned toimingud võivad olla muutunud või ei pruugi varasemates versioonides saadaval olla.
 
 | ID | Toiming | Kirjeldus | Nupupaneel | Kandeekraan | Tervitusekraan | Ühenduseta saadaval | Lokaadipõhine |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 703 | Lukusta register | Lukustage praegune kassaaparaat, et seda ei saaks kasutada, ent praegune kasutaja jääb sisselogituks. | Ei | Ei | Ei | Jah | Ei |
 | 701 | Logi välja | Logige praegune kasutaja kassaaparaadist välja. | Jah | Jah | Jah | Jah | Ei |
 | 521 | Kliendikaardi punktisaldo | Kuvab määratud kliendikaardi punktisaldo. | Jah | Jah | Ei | Ei | Ei |
+| 918 | Vahetuste haldamine | Saate kuvada aktiivsete, peatatud ja pimedalt suletud vahetused. | Jah | Jah | Jah | Ei | Ei |
 | 914 | Minimeeri kassa aken | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
 | 1000 | Ava sahtel | Tehke ilma müügita toiming ja avage praegu valitud sularahasahtel. | Jah | Jah | Jah | Jah | Ei |
 | 928 | Tellimuse täitmine | See toiming võimaldab kasutajatel tellimusi komplekteerida, pakkida, lähetada või tagasi kutsuda kauplusest kättesaamiseks. | Jah | Jah | Jah | Ei | Ei |
@@ -162,7 +165,6 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 638 | Määra reale müügiesindaja | See operatsioon võimaldab kasutajal valida ühe sobilikest komisjonitasu müügigruppidest (müügiesindajad) praegu valitud rea jaoks. | Jah | Jah | Ei | Jah | Ei |
 | 630 | Läheta kõik tooted | Määrake kõigi rea kaupade täitmisrežiimi olekuks **Lähetamine**. | Jah | Jah | Ei | Jah\* | Ei |
 | 629 | Läheta valitud tooted | Määrake valitud ridade täitmisrežiimi olekuks **Lähetamine**. | Jah | Jah | Ei | Jah\* | Ei |
-| 918 | Kuva pimesi suletud vahetused | Vaadake pimesi suletud vahetuste loendit. | Jah | Jah | Jah | Ei | Ei |
 | 115 | Töölehe kuvamine | Vaadake kaupluse töölehte. Saate vaadata kandeid, kviitungeid ja ostukviitungeid uuesti printida ning tagastamiseks tagasi kutsuda. | Jah | Jah | Jah | Jah\*\* | Ei |
 | 802 | Laoinventuur | See operatsioon võimaldab kasutajal luua või muuta laoinventuuri töölehti füüsilise laoseisu või tsüklilise inventuuri jaoks. | Jah | Jah | Jah | Ei | Ei |
 | 401 | Alammenüü | See operatsioon suunab kasutaja muule lingitud nupupaneelile. | Jah | Jah | Jah | Jah | Ei |

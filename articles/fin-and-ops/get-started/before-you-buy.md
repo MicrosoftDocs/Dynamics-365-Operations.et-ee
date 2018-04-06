@@ -1,6 +1,6 @@
 ---
 title: Enne ostmist
-description: "Üksikasjalikud juhised, kui kaalute rakenduse Dynamics 365 for Finance and Operations, Enterprise edition ostmist."
+description: "Üksikasjalikud juhised, kui kaalute rakenduse Dynamics 365 for Finance and Operations ostmist."
 author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
-ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 160313ac375feb875982bfdbbd850db7f2d8be35
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -28,13 +28,13 @@ ms.lasthandoff: 01/31/2018
 
 [!include[banner](../includes/banner.md)]
 
-Kas olete lahenduses Dynamics 365 for Finance and Operations, Enterprise edition uus? Oleme koostanud üksikasjalikud juhiseid selleks puhuks, kui alles hindate rakendust Finance and Operations või olete juba valmis ostu tegema.
+Kas olete alles uus rakenduse Dynamics 365 for Finance and Operations kasutaja? Oleme koostanud üksikasjalikud juhiseid selleks puhuks, kui alles hindate rakendust Finance and Operations või olete juba valmis ostu tegema.
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>Esimene etapp: proovige rakendust Finance and Operations tasuta 30 päeva
 Saate rakendust Dynamics 365 for Finance and Operations proovida 30 päeva jooksul lihtsa registreerumisega meili teel. Rakenduse Finance and Operations prooviversioon hõlmab alustamise ülesandejuhiseid, mis pakuvad üksikasjalikke juhtnööre kindlate stsenaariumide praktikas nägemiseks. Toode on saadaval uurimiseks ja harjutamiseks, kuid seda ei saa kohandada. Lisatud on demoandmed, et hõlbustada toote kasutamist ja muuta kasutamine sisukamaks. Kolm päeva enne prooviperioodi lõppu saadetakse meeldetuletusmeil. Vaadake üksikasju veebilehelt [www.microsoft.com/en-us/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Teine etapp: juurutamisvaliku tegemine
-Nüüd saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis pilve või kohapealselt. Pilvejuurutus pakub ERP-teenust, mida haldab täielikult Microsoft, samas kui kohapealseid juurutusi hallatakse kohapeal kliendi andmekeskuses.
+Nüüd saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations pilves või kohapeal. Pilvejuurutus pakub ERP-teenust, mida haldab täielikult Microsoft, samas kui kohapealseid juurutusi hallatakse kohapeal kliendi andmekeskuses.
 
 Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
 - Regulatiivsed ja nõuetelevastavuse nõuded, mis ei ole saadaval [pilvesertides](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
@@ -43,7 +43,7 @@ Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
 - [Minimaalsed taristunõuded](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition asutusesiseseid juurutusi ei toetata avaliku pilve infrastruktuurides, sh Azure. 
+> Rakenduse Microsoft Dynamics 365 for Finance and Operations asutusesiseseid juurutusi ei toetata avaliku pilve infrastruktuurides, sh Azure. 
 
 Lisateavet vaadake jaotisest [Juurutusvalikud](../../dev-itpro/deployment/choose-deployment-type.md)
 
@@ -70,7 +70,7 @@ Hulgilitsentsimises on Finance and Operations saadaval järgmiste lepingute kaud
 Microsofti pilvelahenduse pakkuja saab teiega tihedat koostööd teha, et mõista teie ettevõtte või organisatsiooni vajadusi. [Kasutage oma vajadustele sobiva partneri leidmiseks Microsofti partnerikeskuse portaali](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Ostmine Dynamicsi partneri kaudu (kohapealselt)
-Rakenduse Finance and Operations kohapealseks ostmiseks peate tegema partneriga koostööd. Lisateavet vaadake jaotisest [Dynamics 365 for Finance and Operations, Enterprise editioni (kohapealne) ostmine](purchase-on-premises.md)
+Rakenduse Finance and Operations kohapealseks ostmiseks peate tegema partneriga koostööd. Lisateavet vaadake jaotisest [Dynamics 365 for Finance and Operationsi (kohapealne) ostmine](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Valige oma toe võimalus
 Microsoft pakub paindlikku valdkonna juhtivat tuge, teenused ja ressursse, mis võimaldavad kasutajatel tehniliste probleemidega kiiresti tegeleda ning maksimeerida oma Dynamics 365 investeeringutasuvust. Saate valida plaani, mis vastab kõige paremini teie ärivajadustele. 

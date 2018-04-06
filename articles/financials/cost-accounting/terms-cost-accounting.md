@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 957acdbbc6bba83b8b2e2b83fdf266524385141d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ Eraldamisalust kasutatakse tegevuste mõõtmiseks ja kvantifitseerimiseks, nt ka
 
 **Kuluarvestus**
 
-Kuluarvestus võimaldab koguda andmeid erinevatest allikatest, näiteks pearaamatust, alammoodulist, eelarvetest ja statistilisest teabest. Seejärel saate analüüsida, summeerida ja hinnata kuluandmeid, et haldus saaks teha parimad võimalikud otsused hinnavärskenduste, eelarvete, kulude kontrolli jne jaoks. Lähteandmeid, mida kasutatakse kuluanalüüsi jaoks, töödeldakse kuluarvestuses sõltumatult. Seetõttu ei mõjuta värskendused kuluarvestuses lähteandmeid. Kui kogute kuluandmeid erinevatest allikatest ja eriti kui impordite põhikontosid pearaamatust rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kuluelementidena, siis on andmete liiasus, kuna samad andmed eksisteerivad nii pearaamatus kui ka kuluarvestuses. See liiasus on vajalik, kuna kasutate välise aruandluse jaoks finantshaldust ja sisemise aruandluse jaoks kuluarvestust.
+Kuluarvestus võimaldab koguda andmeid erinevatest allikatest, näiteks pearaamatust, alammoodulist, eelarvetest ja statistilisest teabest. Seejärel saate analüüsida, summeerida ja hinnata kuluandmeid, et haldus saaks teha parimad võimalikud otsused hinnavärskenduste, eelarvete, kulude kontrolli jne jaoks. Lähteandmeid, mida kasutatakse kuluanalüüsi jaoks, töödeldakse kuluarvestuses sõltumatult. Seetõttu ei mõjuta värskendused kuluarvestuses lähteandmeid. Kui kogute kuluandmeid erinevatest allikatest ja eriti kui impordite põhikontosid pearaamatust rakenduses Microsoft Dynamics 365 for Finance and Operations kuluelementidena, siis on andmete liiasus, kuna samad andmed eksisteerivad nii pearaamatus kui ka kuluarvestuses. See liiasus on vajalik, kuna kasutate välise aruandluse jaoks finantshaldust ja sisemise aruandluse jaoks kuluarvestust.
 
 **Kuluarvestuse pearaamat**
 
@@ -120,7 +120,7 @@ On kaks dimensioonihierarhiat: kategoriseerimise hierarhia ja klassifikatsiooni 
 Kuluarvestus toetab lähtesüsteemidest pärinevate andmete integreerimist andmekonnektorite kogumi kaudu. Saadaval on järgmised andmekonnektorid.
 
 -  Imporditud kanded (eelnevalt konfigureeritud)
--  Dynamics 365 for Finance and Operations, Enterprise Edition (eelnevalt konfigureeritud)
+-  Dynamics 365 for Finance and Operations (eelnevalt konfigureeritud)
 -  Dynamics AX (vajalik on konfigureerimine)
 
 **Märkus.** Andmekonnektor Imporditud kanded põhineb andmeüksustel.
@@ -129,7 +129,7 @@ Kuluarvestus toetab lähtesüsteemidest pärinevate andmete integreerimist andme
 
 Enamik lähtesüsteeme suudab edastada andmeid, mis vastavad kuluarvestuses vähemalt ühele andmeallikale. Lähtesüsteemidest pärinevate andmete sobitamiseks kuluarvestuse andmeallikaga tuleb konfigureerida andmepakkuja. Järgmises tabelis on loetletud andmepakkujate saadavus andmekonnektori ja andmeallika kaupa.
 
-|  **Andmeallikad** |  **Imporditud kannete andmekonnektor** | **Dynamics 365 for Finance and Operations, Enterprise Editioni andmekonnektor**  | **Dynamics AX-i andmekonnektor**  |
+|  **Andmeallikad** |  **Imporditud kannete andmekonnektor** | **Rakenduse Dynamics 365 for Finance and Operations andmekonnektor**  | **Dynamics AX-i andmekonnektor**  |
 |---|---|---|---|
 | Kuluelemendi dimensiooniliikmed  |  Jah | Jah  | Jah  |
 |  Kuluobjekti dimensiooniliikmed |  Jah | Jah  | Jah  |

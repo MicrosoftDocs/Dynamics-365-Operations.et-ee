@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Hüvitusgrupis valitud tulu kuluelementi kasutatakse grupi prognoositavate ameti
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Olemasolevatele ametikohtadele prognoositavate ametikohtade loomine
 
-Kõige täpsema eelarve planeerimise jaoks saate luua prognoositavaid ametikohti, kasutades üksikasju olemasolevatest ametikohtadest Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis, olenemata sellest, kas ametikoht on praegu täidetud või mitte. 
+Kõige täpsema eelarve planeerimise jaoks saate luua prognoositavaid ametikohti, kasutades üksikasju olemasolevatest ametikohtadest rakenduses Microsoft Dynamics 365 for Finance and Operations, olenemata sellest, kas ametikoht on praegu täidetud või mitte. 
 
 Funktsioon **Lisa olemasolevad ametikohad** kuvab kõik organisatsiooni ametikohad. Seadistades kuupäeva **Seisuga**, saate muuta ametikohtade loendit, nii et see sisaldab ametikohti, mis olid olemas kuupäeval minevikus või enamasti tulevikus (näiteks järgmise eelarvetsükli algus). Valige eelarve plaanimise protsess ja eelarveplaani stsenaarium, valige loendist ametikohad ja klõpsake siis nuppu **OK**, et luua valitud ametikohtadele prognoositavad ametikohad. Arvestage sellega, et saate luua igale eelarve plaanimise protsessi ja eelarveplaani stsenaariumis olemasolevale ametikohale ainult ühe prognoositava ametikoha. Sellegipoolest saate luua lisaversioone, määrates erinevaid eelarveplaani stsenaariume. 
 

@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d904a2fe9411da1fd1a4e5810f7dcea782f1c2f7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Selles artiklis tutvustatakse eelarve plaanimist ja see sisaldab teavet, mis ait
 
 Plaanite eelarvet organisatsiooni juurutatavate eelarvete ettevalmistamisel. Organisatsioon saab eelarve plaanimise konfigureerida ja seejärel seadistada eelarve plaanimise protsessid, et need vastaksid eelarve ettevalmistamise poliitikatele, protseduuridele ja nõuetele. 
 
-Kui mõistate Microsoft Dynamics 365 for Finance and Operations, Enterprise editionis kasutatavaid mõisteid ja terminoloogiat, on teil lihtsam oma organisatsioonis eelarve plaanimist rakendada.
+Kui mõistate Microsoft Dynamics 365 for Finance and Operationsis kasutatavaid mõisteid ja terminoloogiat, on teil lihtsam oma organisatsioonis eelarve plaanimist rakendada.
 
 ### <a name="key-terms"></a>Põhimõisted
 
