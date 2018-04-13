@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Eraldamise alused 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Eraldamisalus on alus, mille põhjal kuluarvestus üldkulusid eraldab. Eraldamisalus võib olla kogus, nt masina kasutatavad töötunnid, tarbitavad kilovatt-tunnid (kWh) või kasutatav pindala. Eraldamisaluseid kasutatakse enamasti üldkulude määramiseks toodetavatele varudele. Näiteks IT-osakond eraldab tunnid arvutite arvu järgi, mida iga osakond kasutab.
 
@@ -424,9 +424,11 @@ Siin on valemi CC003 (IT) täpsem selgitus:
 
 Siin on kulu jaotusreegli näide, kui elektri fikseeritud valemi eraldamisalus on määratud selles eraldamisaluseks.
 
-| Kuluobjekt |  Kirjeldus  | Väärtus | Eraldamistegur                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | Personaliosakond | 1,837.50  | (1837.50 ÷ 18 162.50) × summa  |
-| CC002       | FI | 3,075.00  | (3075.00 ÷ 18 162.50) × summa  |
-| CC003       | LÜ | 13,250.00 | (13 250.00 ÷ 18 162.50) × summa |
+
+| Kuluobjekt | Kirjeldus | Väärtus |        Eraldamistegur         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     Personaliosakond      | 1,837.50  | (1837.50 ÷ 18 162.50) × summa  |
+|    CC002    |     FI      | 3,075.00  | (3075.00 ÷ 18 162.50) × summa  |
+|    CC003    |     LÜ      | 13,250.00 | (13 250.00 ÷ 18 162.50) × summa |
+
 

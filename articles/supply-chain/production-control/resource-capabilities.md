@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resource-capabilities"></a>Ressursi võimalused
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet ressursivõimaluste kohta. Võimsus on operatsiooniressursi võime konkreetset tegevust sooritada. Artiklis selgitatakse, kuidas võimalusi ja seotud mõisteid, näiteks oskustaset ning prioriteeti, kasutatakse tegevuse jaoks sobilike ressursside valimiseks.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Mis on uus või muutunud rakenduse Dynamics AX versioonis 7.0.1 (mai 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Artikkel kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics AX versioonis 7.0.1-s kas uued või muudetud. See versioon ilmus mais 2016 ja selle number on 7.0.1265.23014.
 
@@ -44,12 +43,14 @@ Artikkel kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics AX versiooni
 | Saate konfigureerida ER-i sihtkohti, nii et vormingu väljundtulemus on suunatud konkreetsele sihtkohale: fail, meil või arhiiv (Microsoft SharePointi kaust või Microsoft Azure’i salvestusruum). | Varem, kui käivitasite ER-konfiguratsiooni, kuvati teateväli, mis nõudis kasutaja tegevust faili salvestamiseks või avamiseks. Nüüd saate eelkonfigureerida sihtkoha igale vormingu konfiguratsioonile ja igale väljundi komponendile (kaust või fail) eraldi. Kasutajad, kellel on sobilikud juurdepääsuõigused, võivad sihtkoha sätteid ka käitusajal muuta. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>Kassa – Microsoft Dynamics AX-i jaemüük
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Mida saate teha?**           | **Miks on see oluline?**                                                                                                                                                              |
 | Kasutage Google Chrome’i brauserit. | Jaemüüjad saavad nüüd käivitada pilve kassa Chrome’i brauserist ja kasutada kõiki funktsioone, mis on saadaval pilve kassa Microsoft Edge’i ja Internet Exploreri versioonis. |
 
 ## <a name="financial-reporting"></a>Finantsaruandlus
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Mida saate teha?**                                                | **Miks on see oluline?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ Artikkel kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics AX versiooni
 | Te ei saa enam valida kehtetuid aruandekoosturi valikuid. | Mitu aruandekoosturi valikut, mida kasutati turul olevate Management Reporteri versioonides, ei kehti selle Dynamics AX-i versiooni puhul. Need suvandid olid seotud finantsaruande kujunduse, väljundi ja linkimisega. Need suvandid on kasutajatõrgete vältimiseks finantsaruande kujundajast eemaldatud. |
 
 ## <a name="financial-management"></a>Finantshaldus
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **Mida saate teha?**                                       | **Miks on see oluline?**                                       |
 | Saate luua ostureskontro maksete jaoks positiivseid maksefaile. | Positiivseid maksefaile saab luua tšekipettuste vältimiseks. |
 
 ## <a name="warehouse-and-production"></a>Ladu ja tootmine
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Mida saate teha?**                                                                                                                                                                                                                                                                                                                                                                    | **Miks on see oluline?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ Artikkel kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics AX versiooni
 | Ümmarguse struktuuriga tootmistellimused nende koosluste esimesel tasemel jäetakse materjali ressursiplaanimise koosluse tasandi arvutusest välja.                                                                                                                                                                                                                                     | Pole võimalik määrata õigeid koosluse tasemeid tootevariantidele selliste tootmistellimuste puhul, mis põhjustavad koosluse hierarhias ringviiteid.                                                                                                                                                                                                                                                                                                  |
 | Arvutage materjali ressursi plaanimiseks ja kuluarvestuseks eraldi koosluse tasemed: • materjali ressursi plaanimiseks arvutatakse koosluse tasemed uues tabelis **ReqItemLevel**. Lõpetatud tootmistellimusi ei arvestata arvutuses. • Tootmiskulu arvutamiseks arvutatakse koosluse tasemed tabelis **InventTable**. Lõpetatud tootmistellimusi arvestatakse arvutuses. | • Materjali ressursiplaanimise käivitamisel (nt koondplaanimise plaani koostamisel ja jaotamisel) tuleb arvutada ümber ainult materjali ressursiplaanimiseks kasutatud koosluse tasemed. Teisisõnu: tootmise kuluarvutuse jaoks kasutatud koosluse tasemeid pole vaja arvutada. • Kui kasutatakse kuluarvutuse toiminguid (nt lao sulgemist), tuleb arvutada ümber ainult tootmise kuluarvutuse jaoks kasutatud koosluse tasemed. |
 
- 
+
 
 <a name="see-also"></a>Vt ka
 --------

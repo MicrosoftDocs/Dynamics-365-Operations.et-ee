@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-electronic-signatures"></a>Digitaalallkirjade seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutage seda protseduuri digitaalallkirjade seadistamiseks. Elektronallkiri kinnitab isiku, kes käivitab või kinnitab protsessi. Selle protseduuri loomiseks kasutati demoettevõtte DAT andmeid.
 

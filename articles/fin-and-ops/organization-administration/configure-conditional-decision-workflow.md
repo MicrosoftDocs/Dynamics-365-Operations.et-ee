@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>Töövoos tingimusliku otsuse konfigureerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kasutage järgmist protseduuri, et konfigureerida tingimusliku otsuse atribuudid.
 

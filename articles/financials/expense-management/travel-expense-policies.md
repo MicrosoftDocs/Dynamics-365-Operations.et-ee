@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>Kulude poliitikad
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Saate määratleda põhimõtted, mida teie töötajad peavad järgima, kui nad kuluaruandeid ja reisiplaane sisestavad ning edastavad.         
 Kulupõhimõtete rakendamine võib aidata teil kulusid tõhusamalt hallata.         
@@ -39,14 +39,14 @@ mille töötaja saab.
 Määratleda saab kolme tüüpi poliitikaid.         
         
 - Hoiatus – lubab töötajal kuluaruande või reisiplaani esitada, kuid kulu märgitakse kõigile kinnitajatele ja        
-hilisemaks aruandluseks.        
+  hilisemaks aruandluseks.        
 
 - Tõrge – nõuab töötajalt, et ta enne kuluaruande või reisiplaani esitamist kulu üle vaataks, nii et see vastaks poliitikale.       
  
- - Põhjendus – nõuab, et töötaja või juht sisestaks enne kuluaruande või reisiplaani esitamist põhjenduse poliitika summa ületamise kohta.        
+  - Põhjendus – nõuab, et töötaja või juht sisestaks enne kuluaruande või reisiplaani esitamist põhjenduse poliitika summa ületamise kohta.        
  
- Seadistada saab ka kuupäevavahemiku, mille puhul kulupoliitikad kehtivad. Näiteks võivad lennukipiletite hinnad Taani      
- ja New York City vahel reisihooajal kõrged olla. Saate määratleda lennupiletite kulureegli, mis seab      
- New York City lendude hinnapiiriks 5000 taani krooni, ja võite täpsustada, et see reegel kehtib ajavahemikul 15. märtsist kuni      
- 15. septembrini.
+  Seadistada saab ka kuupäevavahemiku, mille puhul kulupoliitikad kehtivad. Näiteks võivad lennukipiletite hinnad Taani      
+  ja New York City vahel reisihooajal kõrged olla. Saate määratleda lennupiletite kulureegli, mis seab      
+  New York City lendude hinnapiiriks 5000 taani krooni, ja võite täpsustada, et see reegel kehtib ajavahemikul 15. märtsist kuni      
+  15. septembrini.
 

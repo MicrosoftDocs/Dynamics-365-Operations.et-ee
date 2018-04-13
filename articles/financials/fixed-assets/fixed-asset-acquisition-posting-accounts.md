@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Põhivara soetamise sisestuskontod
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas seadistada pearaamatu sisestuskontosid varade omandamiseks.
 

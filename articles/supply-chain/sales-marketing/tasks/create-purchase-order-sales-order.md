@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Ostutellimuse loomine müügitellimuselt
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas koostada müügitellimusel põhinevat ostutellimust. Tootekogused ostutellimusel määratakse siis nii, et need täidaksid algse müügitellimuse nõudluse. Selline müüginõudluse rahuldamine on alternatiiv põhjalikumale ja optimeeritud meetodile nimega jaotusnõuete plaanimine. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega.
 

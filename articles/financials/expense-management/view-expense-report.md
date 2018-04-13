@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Kuluaruande vaatamine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kui teete päringu kannete nägemiseks pearaamatus või hangetes, võib päring tagastada liiga palju teavet. Seetõttu võite soovida otsingut kitsendada. Vajaliku teabe saamiseks saate kandesse süvitsi minna, et näha kuluaruannet, millel kanne kuvati.
 

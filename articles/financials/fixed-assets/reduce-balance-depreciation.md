@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Väheneva jääkväärtuse kuluarvestusmeetod
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse ülevaade väheneva kulumiarvestusmeetodi kohta.
 
@@ -80,7 +79,7 @@ Kasutades väheneva saldo meetodit, arvutatakse 30 protsenti kulumialusest (raam
 | aasta 2 | (7000 – 1000) \* 30% = 1800            | (7000 – 1800) = 5200                |
 | aasta 3 | (5200 – 1000) \* 30% = 1260            | (5200 – 1260) = 3940               |
 
- 
+
 -
 
 

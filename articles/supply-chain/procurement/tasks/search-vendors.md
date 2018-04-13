@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="search-for-vendors"></a>Hankijate otsimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Saate uurida, kuidas otsida hankijaid kindlate kriteeriumite järgi. See näide selgitab, kuidas otsida kindla hankekategooria jaoks kinnitatud hankijaid, kelle esmane aadress on teatud riigis. Saate seda protseduuri käitada demoettevõtte USMF andmetega või oma andmetega. Seda ülesannet täidab tavaliselt hankespetsialist.
 

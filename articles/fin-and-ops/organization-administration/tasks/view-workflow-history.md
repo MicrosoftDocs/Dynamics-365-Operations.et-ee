@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-workflow-history"></a>Kuva töövooajalugu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutage neid etappe, et kuvada töövoosüsteemile töötlemiseks ja kinnitamiseks edastatud dokumendi olek. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

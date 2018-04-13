@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Seotud kontsernisisese kande kuvamine töölehelt
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Päevaraamatust kontsernisisese kande sisestamisel kuvatakse seotud kandeaknas vastaskonto ettevõttest pärinev kanne.
 

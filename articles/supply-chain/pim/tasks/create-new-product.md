@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>Uue toote loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles ülesandes selgitatakse, kuidas luua uut ühiskasutuses toodet. Tavaliselt teeb seda toote koostaja. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.
 

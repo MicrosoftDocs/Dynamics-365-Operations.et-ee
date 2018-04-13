@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid rakenduses Microsoft Dynamics 365 for Finance and Operations automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.  
 

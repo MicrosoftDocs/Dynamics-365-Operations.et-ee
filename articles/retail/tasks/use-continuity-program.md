@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a> Järjepidevusprogrammi kasutamine
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab järjepidevusprogrammi müüki ja seotud müügitellimuste töötlemist. Protseduuri tegemiseks tuleb kasutaja seadistada kõnekeskuse kasutajaks. Protseduur kasutab demoettevõtte USRT andmeid.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Isikupärastatud tootesoovituste ülevaade
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Eemaldame tootesoovitusteenuse praeguse versiooni kuniks me seda funktsiooni parema algoritmi ja uuemate jaemüügile suunatud võimalustega täiustame. Lisateavet vt teemast [Eemaldatud või aegunud funktsioonid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Kui teil on probleeme juba lubatud tootesoovitustega teie keskkonna jaoks, liikuge lehe allossa. 
@@ -86,9 +85,9 @@ Kui lülitate valiku **Luba soovitused** sisse ja käivitate konfigureerimistö�
 -   CRT-le tehakse kättesaadavaks mudeli identimisteave ja ID, et saaks arvestada pilvekassa ja MPOS-i tootesoovituste kutseid veebirežiimis.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Tõrkeotsing, kui tootesoovitused on juba lubatud 
->- Liikuge kohta **Jaemüügi parameetrid** > **Masinõpe** > **Keela tootesoovitused** ja käivitage **Globaalne konfigureerimistöö [1110]**. Kui te ei leia vahekaarti **Masinõpe**, võtke ühendust Dynamicsi toega. 
-
->- Kui olete oma kandekuvale lisanud **soovituste juhtelemendi**, kasutades **ekraanipaigutuse kujundajat**, eemaldage ka see. 
+> - Liikuge kohta **Jaemüügi parameetrid** > **Masinõpe** > **Keela tootesoovitused** ja käivitage **Globaalne konfigureerimistöö [1110]**. Kui te ei leia vahekaarti **Masinõpe**, võtke ühendust Dynamicsi toega. 
+> 
+> - Kui olete oma kandekuvale lisanud **soovituste juhtelemendi**, kasutades **ekraanipaigutuse kujundajat**, eemaldage ka see. 
 
 
 

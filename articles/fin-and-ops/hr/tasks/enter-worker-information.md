@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-worker-information"></a>Töötaja andmete sisestamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks avage Inimressursid > Värbamine > Hulgivärbamisprojektid.
 

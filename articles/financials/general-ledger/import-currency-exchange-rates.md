@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-currency-exchange-rates"></a>Impordi valuutavahetuskursid.
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kui juriidiline isik on saanud arveid välisvaluutas, on vaja välisvaluuta kohalikku valuutasse teisendada. See tähendab, et vaja on erinevate valuutade ajakohaseid vahetuskursse. Selles teemas antakse ülevaade vajalikest sätetest ja töötlemisest vahetuskursside pakkujate (nt Euroopa Keskpank ja Venemaa Keskpank) Internetis avaldatud vahetuskursside importimiseks.
 

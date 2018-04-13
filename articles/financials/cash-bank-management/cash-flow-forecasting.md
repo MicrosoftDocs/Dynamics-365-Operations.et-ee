@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Likviidsuse plaanimine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Rahavoogude prognoosimise tööriistu saab kasutada tulevase rahavoo ja valuuta vajaduste analüüsimiseks, et saaksite hinnata ettevõtte tulevast sularahavajadust. Rahavoo prognoosi saamiseks tuleb teha järgmised toimingud.
 

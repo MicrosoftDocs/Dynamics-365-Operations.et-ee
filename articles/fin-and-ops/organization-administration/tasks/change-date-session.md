@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Seansi kuupäeva muutmine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vaikimisi kasutatakse praegust kuupäeva töölehe sisestuste ja lähtedokumentide sisestamisel. Saate muuta praeguse seansi jaoks kasutatavat kuupäeva. Kasutage seda funktsiooni, et vajaduse korral töölehesisestusi või lähtedokumente varasema kuupäevaga dateerida.
 

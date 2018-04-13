@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Valemi loomine, kopeerides olemasolevast valemist
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas kiiresti uut valemit koostada, kopeerides olemasolevalt valemilt. Selle protseduuri koostamiseks võite kasutada demoettevõtete USMF, USP2 või USPI andmeid.
 

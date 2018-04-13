@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Põhivara soetamiste soovitamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas soetada põhivara, kasutades põhivara töölehe soetussoovitust. See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Hilisema kuupäevaga dateeritud tšekid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet hilisema kuupäevaga tšekkide toe kohta rakenduses Microsoft Dynamics 365 for Finance and Operations. Hilisema kuupäevaga dateeritud tšekid on tšekid, mis väljastatakse tulevasel kuupäeval maksete tegemise ja vastuvõtmise eesmärgil. Seetõttu ei saa tšekki enne määratud kuupäeva sularahaks vahetada.
 
@@ -76,14 +75,14 @@ Kui teie algne tšekk hankijale või kliendilt on kadunud või kahjustatud, siis
 <td>Sisestatud hilisema kuupäevaga tšeki saate tühistada järgmistes olukordades. - Pank tagastab tšeki.
 - Tšekk on rakendatud valele arvele.
 - Tšeki põhjal tehakse sularahamakse.
-</td>
-</tr>
-<tr class="even">
-<td>Hilisema kuupäevaga tšeki makse peatamine</td>
-<td>Saate peatada hankijale väljastatud hilisema kuupäevaga dateeritud tšeki põhjustel, nagu ebapiisavad vahendid, muudatused hankijaga sõlmitud lepingu tingimustes, hankija tarnitud defektsed kaubad või kaupade tagastamine hankijale. Makse saate peatada ainult tasaarvestamata tšekkide puhul.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Hilisema kuupäevaga tšeki makse peatamine</td>
+  <td>Saate peatada hankijale väljastatud hilisema kuupäevaga dateeritud tšeki põhjustel, nagu ebapiisavad vahendid, muudatused hankijaga sõlmitud lepingu tingimustes, hankija tarnitud defektsed kaubad või kaupade tagastamine hankijale. Makse saate peatada ainult tasaarvestamata tšekkide puhul.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

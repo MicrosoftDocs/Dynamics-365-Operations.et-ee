@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>Hõlbustusfunktsioonid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega inimestel kasutada rakendusi Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent. Näiteks on saadaval funktsioonid inimestele, kes kasutavad nägemist abistavaid tehnoloogiaid, nagu Microsoft Windowsi jutustaja.
 

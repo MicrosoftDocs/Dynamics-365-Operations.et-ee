@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Põhivara halduse tööruum
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Põhivara halduse** tööruum kuvab süsteemi sisestatud põhivaraga seotud andmed. See tööruum sisaldab koondvaadet ja analüüsivaadet. Vahekaardil **Minu töö** on kokkuvõttepaanid, põhivara üksikasjad ja seonduv teave põhivara kohta praeguses ettevõttes. Saate lisada ka otse tööruumis Power BI analüüsi jaotisse analüüse. Vahekaardil **Analüüs – kõik ettevõttes** kasutatakse Microsoft Power BI võimalusi kõigi ettevõtete põhivaraga seotud visuaalide näitamiseks.
 

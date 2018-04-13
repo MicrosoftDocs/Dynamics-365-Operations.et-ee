@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="overhead-calculation"></a>Üldkulude arvutus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise protsesse.
 

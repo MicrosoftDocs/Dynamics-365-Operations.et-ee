@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban-töö plaanimine lean manufacturingi jaoks
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet visuaalse kontrolli kohta kanban-tööde ajastamisel ja kanban-tööde ajastamise erinevate viiside kohta.  
 

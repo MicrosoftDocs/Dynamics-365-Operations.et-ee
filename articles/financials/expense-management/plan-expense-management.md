@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>Kuluhalduse konfigureerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui rakenduses Microsoft Dynamics 365 for Finance and Operations kuluhaldust konfigureerite. Kuluhalduses saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jne kohta.
 

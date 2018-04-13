@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-agreements"></a>Ostulepingud
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi. 
 

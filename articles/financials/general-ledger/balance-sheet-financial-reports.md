@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Bilansi finantsaruanded
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse bilansside vaikearuandeid. Samuti kirjeldatakse nende aruannetega seotud koosteüksusi. 
 
@@ -71,7 +70,7 @@ Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmet
     -   **DESC** – kirjeldus readefinitsioonist
     -   **FD** – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani
 
- 
+
 
 <a name="see-also"></a>Vt ka
 --------

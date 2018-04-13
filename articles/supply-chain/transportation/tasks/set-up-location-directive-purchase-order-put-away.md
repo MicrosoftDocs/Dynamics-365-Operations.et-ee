@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas seadistada lihtsat asukohakorraldust. Toodud näites luuakse asukohakorraldus, mille abil määratletakse, kuhu panna ostutellimuse jaoks vastu võetud kaubad. Saate kasutada selles ülesandejuhendis demoettevõtte USMF andmeid. Eeltingimused: peate looma likvideerimiskoodi. Kasutame selles protseduuris likvideerimiskoodi Ümbersildistamine. Kui loote asukohakorralduse oma andmete põhjal, peate seadistama oma lao ja kaupade jaoks täiendava laohalduse.  See protseduur on mõeldud laohaldurile.
 

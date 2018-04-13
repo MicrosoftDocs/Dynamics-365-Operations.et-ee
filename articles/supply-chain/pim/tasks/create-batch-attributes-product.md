@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Toote jaoks partiiatribuutide loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas luua partii atribuuti, määrata vaikeväärtuse vahemikke ja kaasata atribuudi gruppi. Selle protseduuri loomiseks kasutati demoettevõtte USP2 andmeid.
 

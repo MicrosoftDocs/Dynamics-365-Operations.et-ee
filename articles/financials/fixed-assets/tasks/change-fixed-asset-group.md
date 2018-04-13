@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>Põhivaragrupi muutmine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Põhivara tuleb määrata õigele põhivaragrupile. Põhivaragruppi kasutatakse siis, kui:
 

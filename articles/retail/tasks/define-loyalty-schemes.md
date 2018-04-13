@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> Püsikliendiskeemide määratlemine
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab, kuidas määratleda boonusskeemi. Boonusskeemid on püsikliendiprogrammis preemiapunktide teenimise ja lunastamise reeglid. Protseduur kasutab demoettevõtte USRT andmeid.
 

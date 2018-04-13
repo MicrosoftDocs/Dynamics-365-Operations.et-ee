@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Tooteteabe ülevaade
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Teema annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse. 
 

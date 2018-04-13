@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Pearaamat 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pearaamatu abil saate määratleda ja hallata juriidilise isiku finantskirjeid. Pearaamat on deebet- ja kreeditkirjete register. Need kirjed liigitatakse kontoplaanis loetletud kontode abil. 
 

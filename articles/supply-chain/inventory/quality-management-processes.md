@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quality-management-processes"></a>Kvaliteedijuhtimise protsessid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet mittevastavate toodete kvaliteedijuhtimise protsessi kohta. Kirjeldatakse, kuidas saate kasutada kvaliteedikontrolli funktsiooni, kuidas määratleda ja hallata mittevastavusi ning kuidas käsitleda parandusi.
 

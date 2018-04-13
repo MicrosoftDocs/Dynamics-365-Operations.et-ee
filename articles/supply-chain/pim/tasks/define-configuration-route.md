@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-routes"></a>Konfigureerimisprotsesside määratlemine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur keskendub konfiguratsiooniprotsessi määratlemisele, mis määrab konfiguratsioonigruppide esitamise järjestuse. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on kuues protseduur kaheksast, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks.
 

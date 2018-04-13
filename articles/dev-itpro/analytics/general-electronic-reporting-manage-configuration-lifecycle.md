@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Elektroonilise aruandluse konfiguratsiooni elutsükli haldamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas hallata Microsoft Dynamics 365 for Finance and Operationsi lahenduse elektroonilise aruandluse (ER) konfiguratsioonide elutsüklit.
 

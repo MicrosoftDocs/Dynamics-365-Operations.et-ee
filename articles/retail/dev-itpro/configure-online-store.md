@@ -27,13 +27,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>E-poe konfigureerimine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel sisaldab linke teemadele, mis aitavad teil võrgupoodi keskselt konfigureerida ja hallata.
 
 Järgmises tabelis loetletud teemad aitavad teil jaemüügi komponente ja jaemüügi võrgupoodi kliendis konfigureerida.
 
 ## <a name="configure-an-online-store"></a>E-poe konfigureerimine
+
 | Ülesanne                                                | Üksikasjad                                                                                                                                                                                                                                                                                                                                                   | Teema                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jaemüügi komponentide konfigureerimine.                        | Saate seadistada ja hallata jaemüügitoimingute teavet. See teave hõlmab poode, makse, tooteid, kinkekaarte, soodustusi ja allahindlusi.                                                                                                                                                                                                          | [Mooduli Jaemüük seadistamine ja haldamine](https://technet.microsoft.com/en-us/library/hh597201.aspx) (TechNeti sisu Microsoft Dynamics AX 2012 kohta)                                                                                                                                                                                                                                                                                          |
@@ -43,6 +44,7 @@ Järgmises tabelis loetletud teemad aitavad teil jaemüügi komponente ja jaemü
 | Atribuutide vastendamine ja metaandmete lisamine.                   | Saate teha valikud, mis näitavad, kuidas iga kategooria või kanali toote atribuudid peavad Microsoft SharePointi saidi võrgupoes käituma.                                                                                                                                                                                              | [Võrgupoe seadistamine](https://technet.microsoft.com/en-us/library/jj682095.aspx) (TechNeti sisu AX 2012 kohta)                                                                                                                                                                                                                                                                                                     |
 
 ## <a name="configure-online-store-products"></a>Võrgupoe toodete konfigureerimine
+
 | Ülesanne                                 | Üksikasjad                                                                                                                                           | Teema                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Võrgupoele sordimentide lisamine. | Saate lisada sortimendid, mis sisaldavad teie võrgupoes pakutavaid tooteid.                                                                  | [Võrgupoe seadistamine](https://technet.microsoft.com/en-us/library/jj682095.aspx) (TechNeti sisu AX 2012 kohta)                                                                                                                                              |
@@ -53,11 +55,12 @@ Järgmises tabelis loetletud teemad aitavad teil jaemüügi komponente ja jaemü
 | Tarneviiside haldamine.            | Saate hallata võrgupoe pakutavaid tarneviise.                                                                                        | [Tarneviiside seadistamine](https://technet.microsoft.com/en-us/library/jj728719.aspx) (TechNeti sisu AX 2012 kohta)                                                                                                                                            |
 
 ## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Saate seadistada andmevahetuse Microsoft Dynamics 365 for Retaili ja võrgupoe vahel
+
 | Ülesanne                                 | Üksikasjad                                                                                                                               | Teema                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kanali integratsiooniprofiilide seadistamine. | Profiilid võimaldavad mooduli Jaemüük komponentidel üksteisega suhelda. Saate seadistada profiilid enne andmevahetuse sätete konfigureerimist. | [Reaalajas teenuse profiili seadistamine](https://technet.microsoft.com/en-us/library/hh580631.aspx) (TechNeti sisu AX 2012 kohta) [Kanaliprofiili seadistamine](https://technet.microsoft.com/en-us/library/jj677402.aspx) (TechNeti sisu AX 2012 kohta) |
 
- 
+
 
 
 

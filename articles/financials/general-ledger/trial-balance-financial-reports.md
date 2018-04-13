@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>Proovibilansi finantsaruanded
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel kirjeldab proovibilansi vaikearuandeid. See kirjeldab ka nende aruannetega seotud alustalasid ja kuidas saate muuta aruandeid, et sobituda teie ärivajadustega. 
 
@@ -99,7 +98,7 @@ Iga proovibilansi aruanne kasutab erinevat veeru definitsiooni. Need veeru defin
     -   **FD** – finantsandmed, mis sisaldavad ainult möödunud aasta deebeteid
     -   **FD** – finantsandmed, mis sisaldavad ainult möödunud aasta kreediteid
 
- 
+
 
 <a name="see-also"></a>Vt ka
 --------

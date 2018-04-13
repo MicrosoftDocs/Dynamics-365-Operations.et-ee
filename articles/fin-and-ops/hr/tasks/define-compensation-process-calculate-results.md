@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Hüvitusprotsessi määratlemine ja tulemuste arvutamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga ja ergutussüsteemi plaanides registreeritud töötajatele. Tasuprotsessi saab käitada mitu korda, et teha tegurite mõju analüüsi, kontrollimaks, et kõik muudatused ja sätted on õiged. See protseduur loob tasuprotsessi, käitab protsessi ja kuvab tulemused. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

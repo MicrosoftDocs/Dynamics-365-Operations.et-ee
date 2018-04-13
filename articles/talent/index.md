@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Tere tulemast rakendusse Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib mitmeid teie organisatsiooni personalitegevuste protsesse. Need protsessid on töötajate hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks.
 

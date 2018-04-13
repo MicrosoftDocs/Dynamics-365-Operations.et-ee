@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Kuluarvestuse pearaamatu loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kuluarvestuse pearaamat tähistab üldist aruandlusüksust. See on määratletud kuluelemendi dimensiooni, statistilise dimensiooni, rahanduskalendri ja valuuta. See on juriidiliste isikute kontseptsioonist sõltumatu. Juriidilise isiku ja tema andmed saab seostada mitme kuluarvestuse pearaamatuga. See salvestis kasutab USP2 demoandmete ettevõtet.
 

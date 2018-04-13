@@ -27,7 +27,7 @@ ms.lasthandoff: 02/27/2018
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Elektroonilise aruandluse vormingu muutmine Microsoft Exceli malli uuesti rakendades
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Elektroonilise aruandluse (ER) tööriista kasutatakse elektroonilises vormingus äridokumentide loomiseks. Ettevõtte dokumendi loomiseks tuleb luua ER-i vorming ja seejärel kasutada ER-i kujundajat äridokumendi paigutuse määratlemiseks ja sellesse kaasatavate andmete määramiseks. Seejärel saate käivitada ER-i vormingu äridokumendi loomiseks.
 

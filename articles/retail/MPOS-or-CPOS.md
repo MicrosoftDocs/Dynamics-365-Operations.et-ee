@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Valimine tänapäevase kassa ja pilvekassa vahel
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 See teema annab juurutajatele täiendava tausta, näpunäited ja juhiseid tegurite kohta, mida nad peaksid arvesse võtma, kui nad rakendavad lahendust Microsoft Dynamics 365 for Retail. Kui juurutajad vaatavad üle ja järgivad juurutusprotsessi osana neid juhiseid, saavad nad vältida probleeme, mis võivad mõjutada kasutaja rahulolu või jõudlust.
 
@@ -92,8 +92,8 @@ Kui planeerite kassa juurutamist oma jaekauplustes, võtke arvesse järgmist tea
 
     Kui antud seadme ühenduvus pole väga töökindel ja vastupidav või kui teatud hulk seisuaega pole jaemüüjale vastuvõetav, soovitame üht järgmistest valikutest.
 
-    - Kasutage MPOSi Windowsis ja lubage ühenduseta režiim.
-    - Juurutage kohapealne RSSU.
+  - Kasutage MPOSi Windowsis ja lubage ühenduseta režiim.
+  - Juurutage kohapealne RSSU.
 
     Need kaks võimalust ei ole teineteist välistavad. Kõige usaldusväärsema topoloogia saavutamiseks saavad jaemüüjad juurutada kohaliku RSSU, et vähendada sõltuvust Interneti-ühendusest või Azure’i kättesaadavusest, ning kui kohaliku serveri või võrguga esineb probleem, saavad nad juurutada ka kassaregistreid, kui ühenduseta režiim on lubatud.
 

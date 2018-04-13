@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Kassa ekraanipaigutuste konfigureerimine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili jaemüügikassa ekraanipaigutusi.
 

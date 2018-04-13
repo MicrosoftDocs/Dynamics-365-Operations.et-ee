@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-forecasts-and-budgets"></a>Projekti prognoosid ja eelarved
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations võimaldab projekte hallata ja juhtida kahel viisil: projekti prognooside ja projekti eelarvete abil. 
 

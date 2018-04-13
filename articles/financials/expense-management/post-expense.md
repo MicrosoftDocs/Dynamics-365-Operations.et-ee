@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Kuluaruande sisestamine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pärast kuluaruande kinnitamist ja ülekandmist päevaraamatusse saab kuluaruande sisestada pearaamatusse. Kuluaruande sisestamisel tuvastatakse kulud, mis on sobilikud käibemaksu korvamiseks. KM-i maksete kinnitamine ja tagastamine määratakse töövõtjale, kes vastutab kuluaruande kinnitamise eest.
 

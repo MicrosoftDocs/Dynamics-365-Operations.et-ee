@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel käsitleb stsenaariumi, kus mitut skontot pakkuvale hankijale tehakse mitu osalist makset. 
 

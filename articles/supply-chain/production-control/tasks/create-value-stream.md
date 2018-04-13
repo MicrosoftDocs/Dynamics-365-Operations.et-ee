@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Väärtusevoo loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Väärtuse vood on tootmisüksused, mis grupeerivad ühe või mitu tootmisvoogu. Tootmisvoo määratlemiseks peate esmalt määratlema väärtuse voo.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Väljastatud toote loomine ühe ettevõtte jaoks
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur annab ülevaate üksiku väljastatud toote loomise kohta ühe juriidilise üksuse kontekstis. Pärast väljastatud toote loomist on see kohe saadaval ainult selles üksuses. Saate selle protseduuriga tutvuda demoettevõtte USMF andmeid kasutades. Seda ülesannet teeb üldjuhul toote koostaja.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas kasutada müügitellimuse koorma loomiseks koorma planeerimise töölauda. Eeltingimusena loome esmalt müügitellimuse. See protseduur on osa transpordikoordinaatori igapäevatööst. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

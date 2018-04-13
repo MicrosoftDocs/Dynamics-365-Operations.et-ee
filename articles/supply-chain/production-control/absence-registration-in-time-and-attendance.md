@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Puudumiste registreerimine jaotises Tööajaarvestus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse puudumise mõisteid ja selgitatakse, kuidas käsitleda puudumisi jaotises Tööajaarvestus.
 

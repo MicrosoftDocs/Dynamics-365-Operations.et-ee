@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Krediidi ja võlanõuete seadistamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada.
 
@@ -97,9 +96,9 @@ Kui müügiesindaja on määramata, kasutatakse kliendi organisatsiooni peamist 
 Lisateavet vt järgmistest teemadest:
 
  - [Märgukirjaseeria loomine](tasks/create-collection-letter-sequence.md)
- 
+
  - [Märgukirjade töötlemine](tasks/process-collection-letters.md)
- 
+
  - [Sissenõuete teabe ülevaatamine](tasks/review-collections-information.md)
 
 

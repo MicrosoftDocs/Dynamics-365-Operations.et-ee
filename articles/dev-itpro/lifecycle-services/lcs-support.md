@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="find-support-for-microsoft-dynamics-365-for-finance-and-operations-and-dynamics-lifecycle-services"></a>Toe hankimine rakendustele Microsoft Dynamics 365 for Finance and Operations ja Dynamics Lifecycle Sevices
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas leida kasutustuge rakenduse Finance and Operations või Microsoft Dynamics Lifecycle Services (LCS) jaoks. 
 

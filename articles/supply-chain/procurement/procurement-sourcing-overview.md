@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Hangete ülevaade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel annab ülevaate hankemooduli funktsioonidest.
 
@@ -39,7 +38,7 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 Vajadus toodete või teenuste järele võib tekkida *taotlusest*, näiteks kui töötaja taotleb toodet. *Tootekataloogid* saab seadistada juhtima saadaolevate toodete valikut, mille seast valida, või saab taotleda tooteid, mis ei ole veel kataloogis saadaval, võimaldades ostuosakonnal kaaluda, kuidas toodet tarnida.  
 
 Suvandit *Kulutuse piirmäärad* saab kasutada taotluse kulutuste piiramiseks ja *ostutöövoog* lisab enne tellimuse tegemist kinnituse nõude suvandi. Vajaduse korral saab määrata ka eelarvefondi eraldamise.  
-  
+
 Hankeosakond tuvastab nõutavate toodete ja teenuste tarnijad ning see võib hõlmata seda, et mitmele potentsiaalsele tarnijale saaadetakse *pakkumiskutse*. Taotletud toote spetsifikatsioone saab ühiskasutada ja potentsiaalsed hankijad saavad neid vaadata, et näha, kas nad saavad neile vastava toote hankida. Hankijad tagastavad oma pakkumised, mille hankeosakond siis üle vaatab, enne kui valitakse tarnija, kellelt nad soovivad hankida.  
 
 Ostutellimused sisaldavad võimalust saata välja *ostupäring* hankijale alternatiivina põhjalikumale pakkumikutsele. Ostupäringut saab kasutada selliste tingimuste loomiseks nagu hinnad, allahindlused ja tellimuse tarnekuupäev. Kui hankijad on seadistatud kasutama portaali **Hankija**, siis on ostupäringu funktsioon keelatud. Selle asemel ühiskasutatakse tellimust portaalis**Hankija** ja kui saadetakse *kinnituse taotlus*, saab hankija tellimuse otse kinnitada.  

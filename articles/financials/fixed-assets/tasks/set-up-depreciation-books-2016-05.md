@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-depreciation-books"></a>Kulumiraamatute seadistamine  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesande juhend loob uue kulumiraamatu ja seostab selle põhivaragrupiga.  See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
 

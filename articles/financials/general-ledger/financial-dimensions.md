@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions"></a>Finantsdimensioonid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse mitmesuguseid finantsdimensioonide tüüpe ja nende seadistamist.
 

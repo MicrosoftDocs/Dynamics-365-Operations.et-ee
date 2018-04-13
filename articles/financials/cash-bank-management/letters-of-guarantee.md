@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-guarantee"></a>Garantiikirjad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet garantiikirjade kohta. Garantiikirjas nõustub pank maksma isikule kindla rahasumma, kui üks panga klientidest makset või kohustust sellele isikule ei täida. 
 

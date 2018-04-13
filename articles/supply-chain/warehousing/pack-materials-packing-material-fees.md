@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Pakkematerjalid ja tasud
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pakkematerjalitasud makstakse jäätmekäitlusfirmale kindlate perioodide kaupa. Iga materjali eest, millest pakkimisühik koosneb, tuleb maksta summa kaaluühiku kohta. Pakkematerjalitasud arvutatakse ja esitatakse, kuid ühtegi pearaamatukannet ei sisestata, sest need tasud ei ole riigile makstavad maksud.
 
@@ -63,7 +62,7 @@ Kui teie ettevõte maksab pakkematerjali tasusid, siis ärge kliendi litsentsinu
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Pakkematerjali kaalu printimine arvetele
 Saate printida arvele ka pakkematerjali kaalu ja näidata, kes maksab arvel näidatud pakkematerjali tasud. Kaalud summeeritakse pakkimiskoodi järgi.
- 
+
 
 
 

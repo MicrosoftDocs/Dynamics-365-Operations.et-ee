@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Kulumuudatuste simuleerimine planeeritud kulude kuluversiooni kasutades
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas saab kulumuudatuste mõjusid toodetud kauba arvutatud kuludele simuleerida eraldi kuluversiooniga planeeritud kuludele.
 

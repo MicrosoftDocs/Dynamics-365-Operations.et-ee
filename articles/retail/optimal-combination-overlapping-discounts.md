@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Kattuvate allahindluste optimaalse kombinatsiooni määratlemine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Kui allahindlused kattuvad, siis peate määrama kattuvate allahindluste kombinatsiooni, mis annab kõige suurema koondallahindluse kõige väiksema kande koondsumma. Kui allahindluse summa ostetavate toodete hinna alusel erineb, nt tavapärase „ostke 1, saate X protsenti allahindlust” (BOGO) jaeallahindluse korral, saab selles protsessist kombinatoorse optimeerimise küsimus.
 

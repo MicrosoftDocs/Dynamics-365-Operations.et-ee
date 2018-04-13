@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-and-multisite-functionality"></a>Koondplaneerimine ja mitme laoala režiim
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Koondplaneerimine võtab arvesse laoala ja varude dimensioonide sätteid. 
 

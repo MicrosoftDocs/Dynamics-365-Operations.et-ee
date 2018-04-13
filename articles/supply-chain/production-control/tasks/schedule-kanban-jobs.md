@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="schedule-kanban-jobs"></a>Kanban-tööde plaanimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur keskendub protsessi kanban-tööde plaanimisele kindla tööraku puhul. Protseduur Protsessi kanban-töö ettevalmistamine materjalide mittesaadavusel tööraku puhul on selle protseduuri loomise eeltingimus. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud kanbanidega töötavale tööde järelevaatajale ja tootmise planeerijale.
 

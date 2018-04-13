@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-return-order"></a>Ostu tagastustellimuse loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas koostada ostu tagastustellimust, kasutades kreeditarve toimingut hankija arve dokumendilt ridade kopeerimiseks uuele ostutellimusele. Samuti näitab see, kuidas tellimust kinnitada ja töödelda kaupade saatmist tagasi hankijale. Selles protseduuris toodud näidet saab kasutada demoandmete ettevõtte USMF puhul. Seda ülesannet täidab üldjuhul ostuagent.
 

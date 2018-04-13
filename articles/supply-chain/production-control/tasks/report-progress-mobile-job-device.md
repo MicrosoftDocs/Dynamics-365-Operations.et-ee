@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Edenemisteabe esitamine töö mobiilses seadmes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas käivitada tootmistööd ja edastada andmeid selle edenemise kohta tööseadme registreerimisvormil.
 

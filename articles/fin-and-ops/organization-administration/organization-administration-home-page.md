@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Organisatsioonihalduse kodulehekülg
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Teema viitab sisule, mis aitavad lauskasutajatel ja administraatoritel konfigureerida rakendust Microsoft Dynamics 365 for Finance and Operations. See sisu aitab neil konfigureerida süsteemi nii, et see töötaks teie organisatsiooni ja äritegevuse puhul sujuvalt ning tulemuslikult.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="receipt-templates-and-printing"></a>Kviitungimallid ja printimine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 See artikkel kirjeldab, kuidas vormikavandeid luua ja muuta, et kontrollida kviitungite, arvete ja muude dokumentide printimise viisi. Microsoft Dynamics 365 forRetaili moodulis Jaemüük on vormi kavandi kujundaja funktsioon, millega saab hõlpsalt ja graafiliselt luua ja muuta mitmesuguseid vormi kavandeid.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Töövoos käsitsi otsuse konfigureerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema selgitab, kuidas konfigureerida käsitsi otsuse atribuute.
 
@@ -252,73 +251,74 @@ Järgige neid etappe, et valida, kellele käsitsi otsus määratakse.
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Määrake, mis juhtub tähtaja ületanud otsusega
 Kui kasutaja ei tee otsust määratud aja jooksul, on otsuse tähtaeg ületatud. Hilinenud otsuse saab eskaleerida või automaatselt muule kasutajale määrata. Järgige neid etappe otsuse eskaleerimiseks, kui see on hilinenud.
 
-1.  Vasakul paanil klõpsake valikut **Laiendus**.
-2.  Laiendustee loomiseks märkige ruut **Laiendustee kasutamine**. Süsteem määrab otsuse automaatselt laiendamistee nimekirjas olevatele kasutajatele. Näiteks tähistab järgmine tabel laiendusteed.
-    | Seeria | Laiendustee            |
-    |----------|----------------------------|
-    | 1        | Määra isikule: Donna           |
-    | 2        | Määra isikule: Erin            |
-    | 3        | Lõplik tegevus: \[1. valik\] |
+1. Vasakul paanil klõpsake valikut **Laiendus**.
+2. Laiendustee loomiseks märkige ruut **Laiendustee kasutamine**. Süsteem määrab otsuse automaatselt laiendamistee nimekirjas olevatele kasutajatele. Näiteks tähistab järgmine tabel laiendusteed.
 
-    Sellise näite korral määrab süsteem hilinenud otsuse Donnale. Kui Donna ei tee otsust selleks ettenähtud aja jooksul, määrab süsteem otsuse Erinile. Kui Erin ei tee otsust selleks ettenähtud aja jooksul, valib süsteem otsuseks suvandi **\[1. valik\]**.
-3.  Laiendustee kasutajale lisamiseks klõpsake valikut **Laienduse lisamine**. Valige järgmises tabelis üks valikutest ja seejärel järgige selle valiku täiendavaid etappe, enne kui jätkate 4. etapiga.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Suvand</th>
-    <th>Kasutajad, kellele otsus eskaleeritakse</th>
-    <th>Täiendavad etapid</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Hierarhia</td>
-    <td>Kasutaja spetsiifilises organisatsioonilises hierarhias</td>
-    <td><ol>
-    <li>Kui olete valinud suvandi <strong>Hierarhia</strong> vahekaardil <strong>Hierarhia valik</strong> loendis <strong>Hierarhia tüüp</strong>, valige hierarhia tüüp, millele otsus eskaleerida.</li>
-    <li>Süsteem peab hierarhiast tooma kasutajanimede vahemiku. Need nimed tähistavad kasutajaid, kellele saab otsust eskaleerida. Järgige neid etappe, et määrata nende kasutajanimede vahemiku algus- ja lõpp-punkt, mida kasutaja toob. <ol>
-    <li>Alguspunkti määramiseks valige isik loendist <strong>Alguspunkt</strong>.</li>
-    <li>Lõpp-punkti määramiseks klõpsake valikut <strong>Lisa tingimus</strong>. Seejärel sisestage tingimus, mis määrab, kus hierarhias lõpetab süsteem nimede toomise.</li>
-    </ol></li>
-    <li>Vahekaardil <strong>Hierarhiasuvandid</strong> määrake, millistele kasutajatele vahemikus tuleb otsus eskaleerida. <ul>
-    <li><strong>Määra kõikidele toodud kasutajatele</strong> – otsus eskaleeritakse kõikidele kasutajatele vahemikus.</li>
-    <li><strong>Määra ainult viimati toodud kasutajale</strong> – otsus eskaleeritakse ainult viimasele kasutajale vahemikus.</li>
-    <li><strong>Välista kasutajatelt järgmise tingimusega</strong> – otsust ei eskaleerita vahemiku ühelegi kasutajale , kes vastavad teatud tingimusele. Tingimuse määramiseks klõpsake valikut <strong>Lisa tingimus</strong>.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Töövoo kasutaja</td>
-    <td>Kasutajad praeguses töövoos</td>
-    <td><ul>
-    <li>Kui olete valinud suvandi <strong>Töövoo kasutaja</strong> vahekaardil <strong>Töövoo kasutaja</strong> loendis <strong>Töövoo kasutaja</strong> valige kasutaja, kes osaleb töövoos.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Kasutaja</td>
-    <td>Konkreetsed Finance and Operationsi kasutajad</td>
-    <td><ol>
-    <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Finance and Operationsi kasutajaid. Valige kasutajad, kellele otsust eskaleerida, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Seeria | Laiendustee            |
+   |----------|----------------------------|
+   | 1        | Määra isikule: Donna           |
+   | 2        | Määra isikule: Erin            |
+   | 3        | Lõplik tegevus: \[1. valik\] |
 
-4.  Vahekaardi **Ajalimiit** väljal **Kestus** määrake, kui palju aega on kasutajal otsuse tegemiseks. Tehke üks järgmistest valikutest:
-    -   **Tunnid** – sisestage tundide arv, kui kaua on kasutajal aega otsuse tegemiseks. Seejärel valige kalender, mida teie organisatsioon kasutab, ja sisestage organisatsiooni töönädala kohta teave.
-    -   **Päevad** – sisestage päevade arv, kui kaua on kasutajal aega otsuse tegemiseks. Seejärel valige kalender, mida teie organisatsioon kasutab, ja sisestage organisatsiooni töönädala kohta teave.
-    -   **Nädalad** – sisestage nädalate arv, kui kaua on kasutajal aega otsuse tegemiseks.
-    -   **Kuud** – valige päev ja nädal, mil kasutaja peab otsuse tegema. Näiteks soovite võib-olla, et kasutaja teeks otsuse kuu kolmanda nädala reedeks.
-    -   **Aastad** – valige päev, nädal ja kuu, mil kasutaja peab otsuse tegema. Näiteks soovite võib-olla, et kasutaja teeks otsuse detsembri kolmanda nädala reedeks.
+   Sellise näite korral määrab süsteem hilinenud otsuse Donnale. Kui Donna ei tee otsust selleks ettenähtud aja jooksul, määrab süsteem otsuse Erinile. Kui Erin ei tee otsust selleks ettenähtud aja jooksul, valib süsteem otsuseks suvandi **\[1. valik\]**.
+3. Laiendustee kasutajale lisamiseks klõpsake valikut **Laienduse lisamine**. Valige järgmises tabelis üks valikutest ja seejärel järgige selle valiku täiendavaid etappe, enne kui jätkate 4. etapiga.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Suvand</th>
+   <th>Kasutajad, kellele otsus eskaleeritakse</th>
+   <th>Täiendavad etapid</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Hierarhia</td>
+   <td>Kasutaja spetsiifilises organisatsioonilises hierarhias</td>
+   <td><ol>
+   <li>Kui olete valinud suvandi <strong>Hierarhia</strong> vahekaardil <strong>Hierarhia valik</strong> loendis <strong>Hierarhia tüüp</strong>, valige hierarhia tüüp, millele otsus eskaleerida.</li>
+   <li>Süsteem peab hierarhiast tooma kasutajanimede vahemiku. Need nimed tähistavad kasutajaid, kellele saab otsust eskaleerida. Järgige neid etappe, et määrata nende kasutajanimede vahemiku algus- ja lõpp-punkt, mida kasutaja toob. <ol>
+   <li>Alguspunkti määramiseks valige isik loendist <strong>Alguspunkt</strong>.</li>
+   <li>Lõpp-punkti määramiseks klõpsake valikut <strong>Lisa tingimus</strong>. Seejärel sisestage tingimus, mis määrab, kus hierarhias lõpetab süsteem nimede toomise.</li>
+   </ol></li>
+   <li>Vahekaardil <strong>Hierarhiasuvandid</strong> määrake, millistele kasutajatele vahemikus tuleb otsus eskaleerida. <ul>
+   <li><strong>Määra kõikidele toodud kasutajatele</strong> – otsus eskaleeritakse kõikidele kasutajatele vahemikus.</li>
+   <li><strong>Määra ainult viimati toodud kasutajale</strong> – otsus eskaleeritakse ainult viimasele kasutajale vahemikus.</li>
+   <li><strong>Välista kasutajatelt järgmise tingimusega</strong> – otsust ei eskaleerita vahemiku ühelegi kasutajale , kes vastavad teatud tingimusele. Tingimuse määramiseks klõpsake valikut <strong>Lisa tingimus</strong>.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Töövoo kasutaja</td>
+   <td>Kasutajad praeguses töövoos</td>
+   <td><ul>
+   <li>Kui olete valinud suvandi <strong>Töövoo kasutaja</strong> vahekaardil <strong>Töövoo kasutaja</strong> loendis <strong>Töövoo kasutaja</strong> valige kasutaja, kes osaleb töövoos.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Kasutaja</td>
+   <td>Konkreetsed Finance and Operationsi kasutajad</td>
+   <td><ol>
+   <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
+   <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Finance and Operationsi kasutajaid. Valige kasutajad, kellele otsust eskaleerida, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Korrake etappe 3 kuni 4 iga kasutaja puhul, kes tuleb laiendusteele lisada. Saate muuta kasutajate järjekorda.
-6.  Kui kasutajad eskaleerimisteel ei tee otsust määratud aja jooksul, langetab otsuse süsteem. Süsteemi valitava suvandi määramiseks valige rida **Tegevus** ja seejärel valige suvand vahekaardi **Lõpptegevus**.
+4. Vahekaardi **Ajalimiit** väljal **Kestus** määrake, kui palju aega on kasutajal otsuse tegemiseks. Tehke üks järgmistest valikutest:
+   -   **Tunnid** – sisestage tundide arv, kui kaua on kasutajal aega otsuse tegemiseks. Seejärel valige kalender, mida teie organisatsioon kasutab, ja sisestage organisatsiooni töönädala kohta teave.
+   -   **Päevad** – sisestage päevade arv, kui kaua on kasutajal aega otsuse tegemiseks. Seejärel valige kalender, mida teie organisatsioon kasutab, ja sisestage organisatsiooni töönädala kohta teave.
+   -   **Nädalad** – sisestage nädalate arv, kui kaua on kasutajal aega otsuse tegemiseks.
+   -   **Kuud** – valige päev ja nädal, mil kasutaja peab otsuse tegema. Näiteks soovite võib-olla, et kasutaja teeks otsuse kuu kolmanda nädala reedeks.
+   -   **Aastad** – valige päev, nädal ja kuu, mil kasutaja peab otsuse tegema. Näiteks soovite võib-olla, et kasutaja teeks otsuse detsembri kolmanda nädala reedeks.
+
+5. Korrake etappe 3 kuni 4 iga kasutaja puhul, kes tuleb laiendusteele lisada. Saate muuta kasutajate järjekorda.
+6. Kui kasutajad eskaleerimisteel ei tee otsust määratud aja jooksul, langetab otsuse süsteem. Süsteemi valitava suvandi määramiseks valige rida **Tegevus** ja seejärel valige suvand vahekaardi **Lõpptegevus**.
 
 ## <a name="set-a-time-limit"></a>Ajalimiidi seadmine
 Kui otsus tuleb teha teatud ajaks, tehke järgmist. **Märkus.** Selle protseduuri käigus valitud suvandid alistavad lehe jaotistes **Määramine** ja **Eskaleerimine** valitud suvandid.

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Toote GTIN-koodi sisestamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 GTIN-koodid määrab GS1 organisatsioon. Selles näites sisestate demoettevõtte USMF tootenumbri M0001.
 

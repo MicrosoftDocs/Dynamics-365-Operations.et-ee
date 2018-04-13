@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Ostutellimuse ülevaade
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Selles artiklis antakse üldist teavet ostutellimuste (PO-de) kohta ja lingid täiendavate artiklite juurde, mis on seotud mitmesuguste etappidega, mille PO läbib.
 

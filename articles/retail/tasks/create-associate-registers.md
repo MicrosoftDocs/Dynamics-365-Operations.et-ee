@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a> Registrite loomine ja seostamine
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas luua kassaregistrit. Protseduur kasutab demoettevõtte USRT andmeid.
 

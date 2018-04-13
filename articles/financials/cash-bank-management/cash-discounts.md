@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cash-discounts"></a>Skontod
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Skontod seadistatakse ning neid ühiskasutatakse ostu- ja müügireskontroga.  Saadaolevat skontot saab määratleda kliendi- või hankija arve puhul ja see võetakse, kui arve tasutakse skonto kuupäeval. 
 
@@ -65,6 +64,7 @@ Teie juriidilise isiku arvestusvaluuta on euro ja USA dollarile on määratud j�
 -   1. märts = 80
 
 15. veebruaril sisestatakse arve 1000 USD skonto tingimustega 20D2%. Arve summa arvestusvaluutas on 1100 eurot. Makse summas 980 USA dollarit tasakaalustatakse arvega 1. märtsil. Skonto summa on 20 dollarit. Makse summa arvestusvaluutas on 784 eurot. Skonto summa arvestusvaluutas arvutatakse 1. märtsi vahetuskursiga: 20 \* 80 / 100 = 16 eurot.
+
 | **Märkus**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kui lehel Müügireskontro parameetrid või Ostureskontro parameetrid on tehtud valik Arvuta skontod osaliste maksete jaoks, kasutatakse iga osamakse kuupäeval kehtivat vahetuskurssi. |

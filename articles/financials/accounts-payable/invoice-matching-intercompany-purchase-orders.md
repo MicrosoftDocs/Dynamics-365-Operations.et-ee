@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Arvete võrdlemine ja kontsernisisesed ostutellimused
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kontsernisisese kaubanduse kandega seotud juriidilise isiku ostu saab seadistada kasutama ostureskontro arvete võrdlemist. Sel juhul peavad nii kontsernisisese kaubanduse kui ka ostureskontro arvete võrdlemise sisestamisnõuded olema täidetud, enne kui saab sisestada kontsernisisesed hankijate arved.
 

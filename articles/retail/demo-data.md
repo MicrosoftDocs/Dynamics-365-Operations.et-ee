@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Demoandmete ekraanipaigutused MPOS-is/CPOS-is
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 See teema hõlmab teavet ekraanipaigutuste kohta, mis on kaasas Microsoft Dynamics 365 for Retaili kassa demoandmetega.
 

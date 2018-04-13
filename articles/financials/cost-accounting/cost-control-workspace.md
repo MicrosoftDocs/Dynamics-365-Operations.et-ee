@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Kulujuhtimise ülevaade 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Kulujuhtimise** tööruum on keskne punkt, kus juhid, kes vastutavad kuluobjekti või kuluobjektide kogumi kontrollimise eest dimensioonis või dimensioonide lõikes (nt kulukeskused ja tooterühmad), aruannetele juurde pääsevad. Tööruumis olevaid aruandeid haldavad täielikult kuluarvestajad, et aruandluseks kasutatav paigutus ja andmed oleksid terve organisatsiooni lõikes järjepidevad.
 

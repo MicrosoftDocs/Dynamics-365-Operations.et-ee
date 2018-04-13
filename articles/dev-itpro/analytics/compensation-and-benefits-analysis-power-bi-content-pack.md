@@ -27,8 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>Hüvitise ja eeliste Power BI sisu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab Finance and Operationsi mooduli Hüvitis ja eelised Power BI sisu. 
 

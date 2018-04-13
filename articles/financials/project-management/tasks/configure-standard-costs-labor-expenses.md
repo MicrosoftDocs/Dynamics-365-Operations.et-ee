@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Tööjõu ja kulude standardsete kulude konfigureerimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas saate projekti tööjõu ja kulude jaoks standardseid kulusid häälestada. Ülesandes kasutatakse USSI andmekomplekti.
 

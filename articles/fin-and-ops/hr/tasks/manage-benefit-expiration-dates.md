@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-benefit-expiration-dates"></a>Soodustuste aegumiskuupäevade haldamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas saate soodustust aegunuks märkida või pikendada ja hallata soodustuseks registreerunud töötajate registreerimise kuupäevi. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

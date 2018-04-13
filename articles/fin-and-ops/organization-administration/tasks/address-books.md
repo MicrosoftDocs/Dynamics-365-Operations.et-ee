@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Aadressiraamatute konfigureerimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutage seda protseduuri ning teemas Globaalse aadressiraamatu ja täiendavate aadressiraamatute konfigureerimise planeerimine tehtud otsuseid oma organisatsiooni jaoks täiendavate aadressiraamatute seadistamiseks.
 

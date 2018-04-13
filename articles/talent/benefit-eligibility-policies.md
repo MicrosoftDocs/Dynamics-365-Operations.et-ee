@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="benefit-eligibility-policies"></a>Soodustuse saamise õiguse eeskirjad
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles teemas antakse teavet soodustuseks sobivuse poliitikate kohta, mis aitavad määratleda, kellel on õigus erisoodustustele.
 

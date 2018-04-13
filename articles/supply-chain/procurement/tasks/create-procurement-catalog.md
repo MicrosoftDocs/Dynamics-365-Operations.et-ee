@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-procurement-catalog"></a>Hankekataloogi loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles juhendis näidatakse, kuidas hankekataloogi luua. Seda ülesannet täidab tavaliselt hankespetsialist. Samuti saate teada, kuidas töötajad saavad kataloogi ostutellimuse loomisel kasutada. Enne kataloogi loomist peab teie süsteemis olema hankekategooria hierarhia. Uus kataloog pärib hierarhia koos kõigi hierarhias olevate toodetega. Saate kasutada seda juhendit demoandmete ettevõttes USMF, kus on saadaval hankekategooria hierarhia ja näited, mida protseduuri toimingutes kasutatakse.
 

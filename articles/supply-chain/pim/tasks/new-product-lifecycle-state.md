@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Uue toote elutsükli oleku loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas luua uut toote elutsükli olekut. Toote elutsükli olek dokumenteerib väljastatud toote või tootevariandi elutsükli oleku. Toote elutsükli olekud määratleb kasutaja, tavaliselt tootejuht või tooteetaloni andmehaldur. Elutsükli olek võib mõjutada konkreetseid äriprotsesse, näiteks koondplaneerimist.
 

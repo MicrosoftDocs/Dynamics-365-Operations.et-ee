@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Töötajate vigastuste ja haiguste teabe haldamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Soovitatav on esmalt järgida ülesande juhendit „Vigastuse ja haiguse häälestamine”, kuna osa häälestusteavet kasutatakse siin. 
 

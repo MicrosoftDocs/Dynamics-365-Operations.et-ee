@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> Püsikliendiprogrammide määratlemine
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab kahe püsikliendijärguga püsikliendiprogrammi seadistamist. Protseduur kasutab demoettevõtte USRT andmeid.
 

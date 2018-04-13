@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Käibemaksuarvutusmeetodid valimine väljal Päritolu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 See artikkel selgitab käibemaksukoodide lehe välja Päritolu valikuid ja seda, kuidas käibemaks arvutatakse, tuginedes tehtud käibemaksukoodi valikule.
 
@@ -53,11 +52,12 @@ Maksuamet on kehtestanud kaubale eri lõivud. Lõivusummad lisati netosummale en
 -   KÄIBEMAKS = 25%, kasutades arvutusmeetodit Protsent brutosummast
 
 Kui netosumma on 10,00, siis LÕIV 1 = 1,00 (10,00 × 10%) ja LÕIV 2 = 2,00 (10,00 × 20%). Summad on järgmised. Brutosumma: netosumma + LÕIVU 1 summa + LÕIVU 2 summa (10,00 + 1,00 + 2,00) = 13,00, KÄIBEMAKS: 13,00 × 25% = 3,25, LÕIVUD ja KÄIBEMAKS kokku: 1,00 + 2,00 + 3,25 = 6,25, kogusumma: 10,00 + 6,25 = 16,25
+
 | **Märkus.**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kande puhul saab kasutada ainult üht maksukoodi, mille välja Päritolu väärtus on Protsent brutosummast. Kui kande kohta määratakse mitu sellist maksukoodi, kuvatakse tõrge, et käibemaksu ei saa arvutada. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>Protsent käibemaksust
 -----------------------
 
@@ -70,6 +70,7 @@ Võtame arvesse järgmisi käibemaksukoode.
 -   KÄIBEMAKS = 25%, kasutades meetodit Protsent brutosummast
 
 Netosumma: 10,00, LÕIV 1: 10,00 × 10% = 1,00, LÕIV 2: 1,00 × 20% = 0,20, brutosumma: 10,00 + 1,00 + 0,20 = 11,20, KÄIBEMAKS: 11,20 × 25% = 2,80, LÕIVUD ja KÄIBEMAKS kokku: 1,00 + 0,20 + 2,80 = 4,00, kogusumma: 10,00 + 4,00 = 14,00
+
 | **Märkus.**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mitmetasandiline maks pole maksuarvutustes võimalik. Maksu ei saa arvutada maksu põhjal, mis on teise maksu põhjal juba arvutatud. Kandes saab arvutada maksukoodide põhjal mitu ühetasemelist maksu. |
@@ -79,6 +80,7 @@ Kui valite väljal Päritolu suvandi Summa ühiku kohta, arvutatakse käibemaks 
 ### <a name="example"></a>Näide
 
 Käibemaksukoodi seadistatakse järgmiselt: 1,20 USD ühiku kohta = kast. Müügiarve real on kaupa müüdud 25 kasti. Käibemaks arvutatakse järgmiselt: 25 × 1,20 = 30,00
+
 | **Märkus.**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kui kanne sisestatakse muus kui käibemaksukoodi jaoks määratud ühikus, teisendatakse see automaatselt ühikuteisenduste alusel, mis on seadistatud lehel Ühikuteisendused. |

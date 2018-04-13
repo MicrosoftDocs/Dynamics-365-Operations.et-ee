@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-entry-deadlines"></a>Tellimuse sisestamise tähtajad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel käsitleb tellimuse sisestamise tähtaegu. Tellimuse sisestamise tähtaeg on katkestusaeg, mis määratleb, kas kliendi tellimust käsitletakse (ja täidetakse) nii, nagu see oleks saadud jooksval päeval või järgmisel päeval.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Projektikulu juurdekasv ostu sissetulekute korral
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab rakenduses Microsoft Dynamics 365 for Finance and Operations jälgida. 
 

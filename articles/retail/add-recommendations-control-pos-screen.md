@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Soovituste juhtelemendi lisamine kassaaparaadi kannetelehele
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Eemaldame tootesoovitusteenuse praeguse versiooni kuniks me seda funktsiooni parema algoritmi ja uuemate jaemüügile suunatud võimalustega täiustame. Lisateavet vt teemast [Eemaldatud või aegunud funktsioonid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 

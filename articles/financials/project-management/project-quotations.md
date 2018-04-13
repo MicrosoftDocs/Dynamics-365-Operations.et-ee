@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Projektipakkumised
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Artikkel tutvustab projektipakkumiste mõistet, mida saate projektifaasi esimese etapina kasutada kliendile atraktiivse pakkumise tegemiseks. Projektipakkumine võib hõlmata pakutavaid kaupu ja teenuseid, peamist kontaktteavet, erilisi kaubandusleppeid ja allahindlusi ning võimalikke makse ja lisatasusid. 
 

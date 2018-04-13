@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>luua müügitellimusi;
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris näitlikustatakse, kuidas luua müügitellimust. Saate selleks protseduuriks kasutada demoettevõtte USMF-i andmeid. Müügitellimusi loob tavaliselt müügitellimuse töötleja. 
 

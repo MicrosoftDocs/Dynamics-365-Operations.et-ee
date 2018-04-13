@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Kanbani ülekandmise tahvli tugi vöötkoodilugejatele
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kanbani ülekandmise tahvel toetab vöötkoodiskanneri vidina sisendit toiminguteks Vali, Käivita, Lõpeta ja Tühjenda kanban-töö.
 
@@ -38,6 +37,7 @@ Kanbani ülekandmise tahvel toetab vöötkoodiskanneri vidina sisendit toimingut
 ------------------
 
 Kiirkaardil **Skanneri registreerimine** saate valida registreerimisrežiimi, millega juhitakse tegevust, kui skannite kanban-kaardi numbri või sisestate numbri käsitsi väljale Kanban-kaardi number.
+
 | Registreerimisrežiimi määramine | Kirjeldus                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Algus                 | Registreerib kanbani ülekandetöö pooleliolevana.                                                 |

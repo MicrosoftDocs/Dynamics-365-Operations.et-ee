@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Protsessid ja toimingud
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema annab teavet protsesside ja operatsioonide kohta. Protsess määratleb toote või tootevariandi tootmise protsessi. See kirjeldab tootmisprotsessi iga etappi (operatsiooni) ja nende etappide läbimise järjekorda. Iga etapi puhul määratleb protsess ka vajalikud operatsiooniressursid, vajaliku seadistamise aja ja käitusaja ning kulu arvutamise viisi.
 

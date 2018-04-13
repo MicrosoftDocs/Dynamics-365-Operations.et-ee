@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>Tegevustepõhised allhanked
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse üksikasjalikult, kuidas kasutada allhanketegevusi kulusäästlikus tootmisvoos.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Sissejuhatus rakendusse Microsoft Dynamics 365 for Finance and Operations
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Vaadake, kuidas rakendus Microsoft Dynamics 365 for Finance and Operations oma ettevõtte heaks tööle panna, kasutades allolevaid ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
 

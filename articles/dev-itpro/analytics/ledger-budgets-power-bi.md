@@ -26,8 +26,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="actual-vs-budget-power-bi-content"></a>Power BI sisu Tegelik võrreldes eelarvega
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse Microsoft Power BI sisu **Tegelik võrreldes eelarvega**. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks. 
 
@@ -41,24 +40,25 @@ Aruanded Power BI sisust **Tegelik võrreldes eelarvega** kuvatakse tööruumide
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
 Järgmises tabelis on üksikasjad Power BI sisu **Tegelik võrreldes eelarvega** igal aruandelehel leiduvate mõõdikute kohta.
 
-| Aruanne                      | Mõõdikud |
-|-----------------------------|---------|
-| Kulud – tegelik võrreldes eelarvega | <ul><li>Selle aasta kulud kokku</li><li>Selle aasta eelarvekulud kokku</li></ul> |
-| Tulu – tegelik võrreldes eelarvega  | <ul><li>Selle aasta kogutulu</li><li>Selle aasta eelarvetulu kokku</li><ul> |
-| Kulu                     | <ul><li>Selle aasta kulud kokku</li><li>Kulude eesmärk eelarve alusel </li><ul> |
-| Tulu                     | <ul><li>Selle aasta kogutulu</li><li>Tulueesmärk eelarve alusel </li><ul> |
-| Netotulu                  | <ul><li>Selle aasta netotulu</li><li>Netotulu eesmärk eelarve alusel </li><ul> |
 
+|           Aruanne            |                                       Mõõdikud                                        |
+|-----------------------------|--------------------------------------------------------------------------------------|
+| Kulud – tegelik võrreldes eelarvega |  <ul><li>Selle aasta kulud kokku</li><li>Selle aasta eelarvekulud kokku</li></ul>  |
+| Tulu – tegelik võrreldes eelarvega  |   <ul><li>Selle aasta kogutulu</li><li>Selle aasta eelarvetulu kokku</li><ul>    |
+|           Kulu           | <ul><li>Selle aasta kulud kokku</li><li>Kulude eesmärk eelarve alusel </li><ul> |
+|           Tulu           |  <ul><li>Selle aasta kogutulu</li><li>Tulueesmärk eelarve alusel </li><ul>  |
+|         Netotulu          |  <ul><li>Selle aasta netotulu</li><li>Netotulu eesmärk eelarve alusel </li><ul>  |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
-| Üksus                    | Sisu |
-|---------------------------|----------|
-| Pearaamatu tegevused | Pearaamatu kandesummad |
-| Eelarvetegevused         | Eelarveregistri kandesummad |
-| Põhikontod             | Põhikontod, mille alusel aruandeid filtreerida |
-| Rahanduskalendrid          | Rahanduskalendrid, mille alusel aruandeid filtreerida |
-| Pearaamatud                   | Pearaamatud, mida saab kasutada praeguse pearaamatu aruande filtreerimiseks |
-| Eelarvekoodid              | Eelarvekoodid, mille alusel aruandeid filtreerida |
-| Juriidilised isikud            | Juriidilised isikud, mida saab kasutada praeguse juriidilise isiku aruande filtreerimiseks |
+|          Üksus           |                                     Sisu                                     |
+|---------------------------|----------------------------------------------------------------------------------|
+| Pearaamatu tegevused |                    Pearaamatu kandesummad                    |
+|     Eelarvetegevused     |                   Eelarveregistri kandesummad                    |
+|       Põhikontod       |                        Põhikontod, mille alusel aruandeid filtreerida                        |
+|     Rahanduskalendrid      |                      Rahanduskalendrid, mille alusel aruandeid filtreerida                       |
+|          Pearaamatud          |       Pearaamatud, mida saab kasutada praeguse pearaamatu aruande filtreerimiseks        |
+|       Eelarvekoodid        |                        Eelarvekoodid, mille alusel aruandeid filtreerida                         |
+|      Juriidilised isikud       | Juriidilised isikud, mida saab kasutada praeguse juriidilise isiku aruande filtreerimiseks |
+
 

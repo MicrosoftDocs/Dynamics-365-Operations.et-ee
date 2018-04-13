@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="replenishment-with-withdrawal-kanbans"></a>Täiendamine tagastamiskanbanitega
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas väljavõtmise kanbani kasutatakse tootmistegevuste puhul materjali täiendamiseks.
 

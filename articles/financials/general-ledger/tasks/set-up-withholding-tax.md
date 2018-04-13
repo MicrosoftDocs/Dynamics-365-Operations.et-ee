@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Kinnipeetava maksu seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kinnipeetav maks on maks hankijatele, mis ei loo käibemaksukandeid. Hankija maksetelt arvutatav kinnipeetav maks on kohustus. Seetõttu on kinnipeetava maksu sisestamisel kehtivad kontod ainult bilansikontod või kohustuste kontod. See ülesande juhend näitab, kuidas kinnipeetavat maksu seadistada.
 

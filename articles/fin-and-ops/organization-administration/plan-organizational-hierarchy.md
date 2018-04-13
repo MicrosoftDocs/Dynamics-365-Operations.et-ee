@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Organisatsiooni hierarhia kavandamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Organisatsioonide ja organisatsiooni hierarhiate seadistamiseks rakenduses Microsoft Dynamics 365 for Finance and Operations plaanige kindlasti oma ettevõtte mudel. Organisatsioonimudelil on rakenduse Dynamics 365 for Finance and Operations juurutamisele ja äriprotsessidele oluline mõju. 
 
@@ -158,7 +157,7 @@ Kui seadused ja raamatupidamistavad teie organisatsioonide asukohariikides/-piir
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Kui organisatsiooni mudel on tootmisüksus 
 Kui seadused ja raamatupidamistavad teie organisatsioonide asukohariikides/-piirkondades on samad, võite kasutada ühesuguseid rahandusaasta lõpetamise protseduure. See tähendab, et saate kasutada organisatsioonide puhul tootmisüksuste mudelit. Kõik tootmisüksused peavad kasutama sama rahandusaasta sulgemise protseduuri. 
-   
+
 ### <a name="number-sequences"></a>Numbriseeriad
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Kui organisatsiooni mudel on juriidiline isik
 Mõne viite numbriseeriad saab seadistada juriidilise isiku kohta. Mõningaid numbriseeriaid saab kasutada ühiselt. 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Tööde kogumisse kuuluvatele töödele aja eraldamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Töid saate kogumisse siduda valikus Tootmise käivitamine. Seejärel saate alustada lehelt Tööde loend üheaegselt mitut tööd.
 

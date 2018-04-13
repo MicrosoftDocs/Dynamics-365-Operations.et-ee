@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-fixed-compensation-plans"></a>Põhipalgaplaanide loomine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Põhipalk on töötaja regulaarne brutopalk või tasu. See teema kirjeldab komponente, mis peavad olema seadistatud, enne kui saate luua põhipalga plaani ja töötajaid registreerida.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-a-succession-plan"></a>Järgnevusplaani arendamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Organisatsiooni kasvades talentide kasvatamisele mõtlema hakates võite soovida leida kedagi, kellel on mõne teise isikuga sarnased oskused.  Oskuste kaardistamine võimaldab teil analüüsida olemasolevaid töötajaid ja kandidaate, et näha, kas nad vastavad hinnatud töötaja oskustele. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

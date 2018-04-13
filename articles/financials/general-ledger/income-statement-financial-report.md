@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Kasumiaruande finantsaruanne
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse kasumiaruannete vaikearuannet. Samuti kirjeldatakse selle aruandega seotud koosteüksusi. 
 
@@ -60,7 +59,7 @@ Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmet
     -   **FD** – praeguse perioodi finantsandmed
     -   **FD** – finantsandmed aasta algusest praeguse kuupäevani
 
- 
+
 
 <a name="see-also"></a>Vt ka
 --------

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Hulgivärbamisprojekti loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur annab ülevaate hulgivärbamisprojekti seadistamise protsessist. Värbaja saab hulgivärbamisprojekte kasutada hõlpsalt mitme ametikoha loomiseks ja nendele ametikohtadele töötajate värbamiseks. Selle protseduuri alustamiseks avage Inimressursid > Värbamine > Hulgivärbamisprojektid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

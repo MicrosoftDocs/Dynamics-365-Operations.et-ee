@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-wave-processing"></a>Vootöötluse konfigureerimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles juhendis kirjeldatakse, kuidas seadistada kriteeriumid, mis määravad, milline töö luuakse lao jaoks voo töötlemisel ja kas vooge töödeldakse käsitsi või automaatselt. Kriteeriumite määramiseks seadistage voomallid ja päringud, mis vastavad müügitellimuste, tootmistellimuste ja kanban-tellimuste väljastatud ridadega voole. Voo töötlemist kasutatakse ladudes, mis kasutavad funktsioone laohalduse moodulis, ja mitte nendes, mis kasutavad funktsioone varude halduse moodulis. Võite seda protseduuri käitada demoettevõtte USMF-i andmetega.
 

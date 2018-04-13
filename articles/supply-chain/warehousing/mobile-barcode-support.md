@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>Mobiilse vöötkoodi tugi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kuna Android on avatud lähtekoodiga projekt, võib mis tahes lao vöötkoodiskannerite tootja luua seadme, mis käitab Androidi operatsioonisüsteemi. Seade ühildub Androidiga ainult juhul, kui see võimaldab käitada Androidi täitmiskeskkonna jaoks kirjutatud rakendusi.
 Siiski võib riistvarahankija muuta ja luua ülekatteid Android versiooni jaoks, mis töötab nende riistvaras. Microsoft ei saa tagada, et Android-seadmele mõeldud vöötkoodide skannimise rakendus ühildub tootja vöötkoodide skannimise riistvaraga ja selles töötava Androidi versiooniga. 

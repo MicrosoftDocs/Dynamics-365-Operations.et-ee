@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Tasakaalustuse ülevaade tsentraliseeritud maksete puhul
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut. See kõrvaldab vajaduse sisestada sama kannet mitmes juriidilises isikus ja säästab aega, korrastades maksesoovituse protsessi, tasakaalustusprotsessi, avatud kande redigeerimist ja suletud kande redigeerimist tsentraliseeritud maksete jaoks. 
 

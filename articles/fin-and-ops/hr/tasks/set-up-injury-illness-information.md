@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-injury-and-illness-information"></a>Saate häälestada vigastuste ja haiguste teavet.
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Tööandjad peavad teadma, kui nende töötajad saavad töökoha ohtude tõttu viga või haigestuvad. Vigastuste ja haiguste lehel saate häälestada teabe, mis hõlbustab töökohas tekkinud vigastuste või haiguste aruandlust. Saate seadistada vigastuste ja haiguste tüübid, sh ravi, kulude ja tulemuste tüübid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

@@ -28,14 +28,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
 
 Organisatsioonid võivad väljastada hankijatele ettemakseid kaupade või teenuste eest enne nende täitmist. Hankijatele ettemaksete väljastamiseks on kaks võimalust. Riski vähendamiseks saate ettemakseid jälgida, määratledes ettemakse ostutellimusel. Selle meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Seda meetodit nimetatakse ettemaksuarvelduseks. Organisatsioonid, mis ei soovi ettemakseid nii täpselt jälgida või ei saa hankijalt ettemaksearvet, saavad ettemaksuarvelduse meetodi asemel kasutada ettemakse töölehekandeid. Ettemakse töölehekannete loomiseks looge töölehekanded ja märkige need ettemakse töölehekanneteks. Selle meetodi puhul ei saa te jälgida, millised hankija ettemaksed milliste ostutellimustega on seotud. Siiski saate märkida sisestatud makse tasakaalustamiseks ostutellimuse suhtes.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Ettemaksuarvelduse vs ettemaksete kasutamine
+
 | Ettemaksearveldus                                                                | Ettemaksed                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Määratlege ostutellimusel ettemakse väärtus.                                    | Määratlege ostutellimusel ettemakse väärtus.                    |

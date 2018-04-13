@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>Kombineeritud litsentsiplaadi vastuvõtmine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kombineeritud litsentsiplaadi vastuvõtmine võimaldab koostada mitmest kaubast koosneva litsentsiplaadi enne registreerimist ja paigutamistöö loomist. 
 

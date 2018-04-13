@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="employee-development-power-bi-content"></a>Töötajate arengu Power BI sisu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse **töötajate arengu** Microsoft Power BI sisu.
 
@@ -45,6 +45,7 @@ Selles teemas kirjeldatakse **töötajate arengu** Microsoft Power BI sisu.
 Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
+
 | Üksus                   | Sisu                                                                                                   | Seosed teiste üksustega |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Kalendri tasakaalustus          | Kalendri tasakaalustused aruannete tükeldamiseks                                                                          | Varasem ametikoha määramine, ametikoha trend, töötaja trend, lõpetatud lepinguga töötaja 

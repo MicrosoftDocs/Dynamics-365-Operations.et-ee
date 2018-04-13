@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Palga/hüvituse struktuuri ja plaanide arendamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles tegevuse juhises näitlikustatakse, kuidas luua põhitasuplaani ning sobivuse reegleid kasutades lubada töötajate registreerimine plaani. Selles ülesandes on kasutatud näidisettevõtte USMF-i andmeid ning ülesanne on mõeldud hüvitise ja eeliste halduritele.
 

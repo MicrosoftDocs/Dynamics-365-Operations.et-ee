@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>Kõnekeskuse funktsioonid
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles artiklis antakse ülevaade kõnekeskuse müügifunktsioonidest Microsoft Dynamics 365 for Retail.
 

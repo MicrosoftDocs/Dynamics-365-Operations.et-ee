@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Küsimustike levitamine ajastamise abil
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Küsimustiku planeerimine võimaldab plaanida ja jaotada küsimustikke mitmele vastajale. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

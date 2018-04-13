@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Töövoos käsitsi ülesande konfigureerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema selgitab, kuidas konfigureerida käsitsi ülesande atribuute.
 

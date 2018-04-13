@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Veose automaatse vastavusseviimise seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas seadistada andmeid veose automaatseks vastavusseviimiseks. Sellega tegeleb tavaliselt laohaldur. Saate seda protseduuri kasutada demoandmete ettevõttes USMF.
 

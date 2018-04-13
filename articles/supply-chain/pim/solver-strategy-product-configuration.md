@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="solver-strategy-for-product-configuration"></a>Lahendaja strateegia toote konfiguratsiooni jaoks
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas kasutada lahendaja strateegiat toote konfiguratsiooni jõudluse parandamiseks.
 

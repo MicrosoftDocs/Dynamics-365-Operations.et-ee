@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="create-loan-items"></a>Loo laenuartikleid
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Laenuartiklid on kirjed, mis aitavad teil jälgida füüsilisi kaupu, näiteks telefone või arvuteid, mida teie ettevõte töötajatele laenab. Iga füüsiline kaup peab laenuartiklile vastama. Iga laenuartikli kirjel tuleb kirjeldada, mida laenatakse, kes on laenu eest vastutav ja mitmeks päevaks võib artiklit laenata. Saate luua mitu laenuartiklit, nagu võtmed, pääsukaardid või vormirõivad, samal ajal. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

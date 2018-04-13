@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>Finantsaruandlus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Finance and Operations finantsaruandlusele ja kuidas finantsaruandluse võimalusi kasutada. See sisaldab pakutavate vaike-finantsaruannete kirjeldust.
 

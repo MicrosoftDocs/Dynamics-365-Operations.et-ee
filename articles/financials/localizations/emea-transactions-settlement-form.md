@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Ida-Euroopa kannete vaatamine tasakaalustamisel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas käsitletakse lehe Kanded tasakaalustamisel teavet klientide ja hankijate kohta.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>Aruande kujundaja liides
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas aruandekoosturis liikuda ja kuidas kasutada mitmesuguseid valikuid teie vajaduste rahuldamiseks. 
 

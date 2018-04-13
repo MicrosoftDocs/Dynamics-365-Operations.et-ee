@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Lean manufacturingi visuaalne plaanimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas antakse teavet Kanbani plaanimistahvli kohta, mida tootmise plaanija saab kasutada kanban-tööde puhul tootmisplaani juhtimiseks ja optimeerimiseks.
 

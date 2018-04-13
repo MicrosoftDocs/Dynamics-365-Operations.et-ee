@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="align-workforce-skills-with-business-needs"></a>Tööjõu oskuste joondamine ärivajadustele
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Saate jälgida oskusi, mis võivad töötajatel, kandidaatidel või kontaktisikutel olla, et oma rolli tõhusalt täita. Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks.
 
@@ -55,8 +54,8 @@ Saate luua oskuste kaardistamise otsingu, et leida töötaja, kandidaat või kon
 
 Oskuste kaardistamise profiilid võimaldavad leida praegused töötajad või kandidaadid, kellel on kvalifikatsioonid, mis vastavad otseselt ärivajadustele.  Näiteks võiksite oma organisatsioonis oleva avatud ametikoha jaoks luua oskuste kaardistamise profiili. Konkreetse töö jaoks profiili luues ning kopeerides oskused, hariduse ja serdid sellelt töölt profiilile, saate kiiresti otsida töötajaid, kandidaate ja kontaktisikuid, kes vastavad ühele või mitmele profiili sisestatud kriteeriumile, ning kuvada loendi kandidaatidest, kelle oskused ühtivad kõige enam töö jaoks nõutavate oskustega.
 
->**Märkus.** Oskuste kaardistamise tulemuste loendis saab kuvada või oskuste profiilile lisada vaid need töötajad, kandidaadid ja kontaktisikud, kes on lisatud oskuste kaardistamise otsingusse. Töötaja, kandidaadi või kontaktisiku lisamiseks oskuste kaardistamise otsingusse valige suvandi **Kaasa oskuste kaardistamisse** sätteks Jah järgmistel lehtedel.
-
+> **Märkus.** Oskuste kaardistamise tulemuste loendis saab kuvada või oskuste profiilile lisada vaid need töötajad, kandidaadid ja kontaktisikud, kes on lisatud oskuste kaardistamise otsingusse. Töötaja, kandidaadi või kontaktisiku lisamiseks oskuste kaardistamise otsingusse valige suvandi **Kaasa oskuste kaardistamisse** sätteks Jah järgmistel lehtedel.
+> 
 > + Töötaja
 > + Töötaja
 > + Kandidaat

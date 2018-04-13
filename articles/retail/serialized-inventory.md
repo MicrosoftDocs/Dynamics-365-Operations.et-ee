@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>Kassa täiustused seerianumbritega toodete jaoks
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Ülevaade 
 Kaupluse halduse sätete põhjal saab tooted liigitada seerianumbriga või seerianumbrita toodeteks. Kui tooted on seerianumbriga, saab igale kaubale määrata kordumatu numbri, mis aitab jälgida garantiisid, leida kaupu ja kinnitada omandiõigust. Kuigi meie kaasaegse/pilvekassa puhul oli olemas võimalus seerianumbriga toodetele seerianumbreid anda, on lisatud mõningaid täiustusi, et aidata kassapidajatel aega säästa ja produktiivsem olla.  

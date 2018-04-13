@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Hooldusleppegrupid 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hooldusleppe grupid on kasulikud hoolduslepete sortimisel ja filtreerimisel. Kasutage hooldusleppe gruppe hoolduslepete grupeerimiseks nt ettevõtte suuruse, geograafilise asukoha või tööstustüübi järgi. Alternatiivina saate kasutada leppegruppe hoolduslepete grupeerimiseks kliendile pakutava teenuse taseme järgi.
 

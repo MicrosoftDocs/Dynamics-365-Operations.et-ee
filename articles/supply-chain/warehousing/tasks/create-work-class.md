@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-work-class"></a>Tööklassi loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas seadistada tööklassi. Tööklassidega suunatakse ja/või piiratakse töötellimuse ridade tüüpi, mida laotöötaja saab mobiilses seadmes töödelda. Read, mida töötaja saab töödelda, määratakse mobiilse seadme menüü-üksustes, millele laotöötajal on juurdepääs, tööklassidest ja tööridadel määratud tööklassist. Tööklasse saab kasutada ka mahapaneku asukoha kinnitamiseks töötellimuse rea puhul. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. See protseduur on mõeldud laohaldurile.
 

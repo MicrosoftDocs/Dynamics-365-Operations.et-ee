@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-agreements"></a>Müügilepingud
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Teema sisaldab teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega.
 

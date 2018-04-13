@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Reisiplaanid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Reisiplaan* on lähtedokument, mis loetleb reisimise eesmärgil tekkinud kulud. Reisiplaan esitatakse ülevaatamiseks ja seejärel saab seda kasutada kulude kinnitamiseks.
 

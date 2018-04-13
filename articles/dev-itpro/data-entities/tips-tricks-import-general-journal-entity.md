@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Parimad tavad kannete importimiseks üldise töölehe üksust kasutades
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.  
 

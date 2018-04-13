@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>Märgukirjaseeria loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutage seda ülesande juhendit märgukirjaseeria loomiseks. See ülesanne kasutab demoettevõtte USMF andmeid.
 

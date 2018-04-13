@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Eelarve plaanimise andmete eraldamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse erinevaid rakenduses Microsoft Dynamics 365 for Finance and Operations saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.  
 

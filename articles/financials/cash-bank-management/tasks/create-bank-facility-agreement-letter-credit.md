@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Akreditiivi jaoks panga süsteemiteenuse lepingu loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles ülesandes näitlikustatakse, kuidas luua akreditiivi töötlemiseks panga süsteemiteenuse lepet. Enne ülesande juurde asumist on soovitatav seadistada panga süsteemiteenused ja sisestusreeglid.  Selles ülesandes kasutatakse demoettevõtet USMF-i andmeid.  
 

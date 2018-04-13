@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Kuluarvestuse kodulehekülg
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Õppekaart 
 
@@ -37,6 +37,7 @@ Järgmisel õppekaardil on näidatud peamised põhimõtted ja ülesanded, milles
 [![Kuluarvestuse õppekaart](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Kiirlingid
+
 |      |   |
 |------|---|
 |  [Alusüksuste konfigureerimine (eLearning)](https://mbspartner.microsoft.com/Home) (nõuab CustomerSource’i kontot)  |[Loo dimensioone](cost-elements.md)  |

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Töövoo kinnitusprotsessi konfigureerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kinnitusprotsessi atribuutide konfigureerimiseks tehke järgmist.
 
@@ -136,6 +135,7 @@ Teil võib olla vajalik määrata lõplik kinnitaja olukordades, kus kinnitaja o
 
 ## <a name="set-a-time-limit"></a>Ajalimiidi seadmine
 Kui kinnitusprotsess tuleb teatud ajaks lõpule viia, tehke järgmist.
+
 | **Märkus.**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Neis etappides valitavad suvandid tühistavad iga kinnitusetapi aladel **Määramine** ja **Laiendus** valitud suvandid. |

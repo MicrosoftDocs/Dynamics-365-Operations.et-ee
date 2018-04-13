@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Eelarve plaanimise mallid Excelile
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab, kuidas luua Microsoft Exceli malle, mida saab kasutada eelarveplaanidega.
 
@@ -42,11 +41,11 @@ Eelarveplaani dokumente saab vaadata ja redigeerida üht või mitut paigutust ka
 1. Avage **Eelarveplaanide loend** (**Eelarvestus** &gt; **Eelarveplaanid**). 
 2. Klõpsake uue eelarveplaani dokumendi loomiseks valikut **Uus**. 
 
-  [![Eelarveplaanide loend](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Eelarveplaanide loend](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Ridade lisamiseks kasutage valikut **Lisa** rida. Eelarveplaani dokumendi paigutuse konfiguratsiooni kuvamiseks klõpsake valikut **Paigutused**. 
 
-  [![Lisa eelarveplaanid](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Lisa eelarveplaanid](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Saate paigutuse konfiguratsiooni üle vaadata ja seda vajaduse korral korrigeerida. 
 1. Selle paigutuse jaoks Exceli faili loomiseks minge jaotisse **Mall** &gt; **Loo**. 

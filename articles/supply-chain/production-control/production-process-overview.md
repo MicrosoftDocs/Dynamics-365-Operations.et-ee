@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-process-overview"></a>Tootmisprotsessi ülevaade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni. 
 

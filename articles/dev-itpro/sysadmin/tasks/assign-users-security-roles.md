@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Kasutajate määramine turberollidesse
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Rakendusele Microsoft Dynamics 365 for Finance and Operations tuleb määrata kasutajatele turberoll. See protseduur selgitab, kuidas süsteemiadministraatorid saavad määrata kasutajatele automaatselt rolle äriandmete alusel. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

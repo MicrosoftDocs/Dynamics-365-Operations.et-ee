@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Kuluarvestuse terminoloogia
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema määratleb põhimõisted, mida kasutatakse kuluarvestuses.
 
@@ -150,14 +149,14 @@ Valemi jaotamise aluste abil saate määratleda täpsemad valemid õige eraldami
 |  + |  Lisa |
 |  – |  Lahutamine |
 | *  | Korrutamine  |
-    
+
 Tavalisi IF-lauseid ei toetata. Kuid saate luua lauseid ja kinnitada, kas need on tõesed.
 
 |  **Lause kinnitamine** | **Tulemus**  |
 |---|---|
 |  a > b| Tõene  |
 |  a > b |  Väär |
-    
+
 **Üldkulud**
 
 Üldkulud viitavad ärijuhtimise käimasolevatele kuludele. Need on kulud, mida ei saa siduda otseselt spetsiifiliste äritegevustega. Siin on mõned näited üldkuludest.

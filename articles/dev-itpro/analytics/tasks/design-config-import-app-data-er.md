@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Konfiguratsioonide kujundus sissetulevate dokumentide sõelumiseks avalduse andmete värskendamiseks (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone sissetuleva elektroonilise dokumendi sõelumiseks. Selles protseduuris selgitatakse, kuidas importida näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse (ER) konfiguratsioone ja neid kasutada sissetulevate elektrooniliste dokumentide sõelumiseks. Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri „ER Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks“.
 

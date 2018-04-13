@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Asukohtade konfigureerimine WMS-loaga laos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See juhend näitab, kuidas konfigureerida asukohaseadistust uue WMS-loaga lao puhul (ladu, mis kasutab täpsemaid laohaldusprotsesse). Selle protsessiga tegeleb tavaliselt laohaldur. Saate seda juhendit käitada demoettevõtte USMF andmetega või oma andmetega. Eeltingimuseks on vähemalt üks konfigureeritud sait.
 

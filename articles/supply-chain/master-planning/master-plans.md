@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-plans"></a>Koondplaanid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ettevõtte igapäevaste tööoperatsioonide toetamiseks, erinevate jälgimist vajavate planeerimisstrateegiate simuleerimiseks ja ettevõtte eeskirjade juurutamiseks (nt sisetegevuse puhul ja kliendi rahulolu saavutamiseks) saate kasutada erinevaid koondplaane. 
 

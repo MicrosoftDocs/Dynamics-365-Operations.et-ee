@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-maintain-inventory-blocking"></a>Varude blokeerimise loomine ja haldamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimist teiste väljaminevate lähtedokumentidega, kasutades varude blokeerimist. Saate käitada protseduuri demoandmete ettevõttes USMF näidatud näidisväärtusi kasutades. Enne selle protseduuri alustamist peab teil olema füüsilise vaba kaubavaruga kaup saadaval.
 

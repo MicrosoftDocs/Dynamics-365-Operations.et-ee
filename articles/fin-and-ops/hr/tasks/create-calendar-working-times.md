@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>Kalendri loomine ja tööaegade genereerimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kalendrid kirjeldavad operatsiooniressursside võimsust ja tööaegu. Selle protseduuri abil saate määratleda töökalendri tööajamalli põhjal. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.
 

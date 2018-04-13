@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>Pearaamatukonto saldod
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse pearaamatu konto saldode vaatamise kaht viisi: proovibilansi loendileht ja finantsaruanded. Arutletakse ka dimensioonikomplekti saldo värskendamise üle.
 

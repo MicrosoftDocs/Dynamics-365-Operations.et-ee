@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Töötajatele laenatud artiklite haldamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Laenuartiklid on kirjed, mis aitavad juhtidel jälgida füüsilisi kaupu, mida ettevõte töötajatele laenab. 
 
@@ -51,7 +50,7 @@ Juhatajad saavad vaadata oma otseste alluvate laenatud artikleid. Neile saab and
 
 Kui artikkel on kahjustatud või kadunud, sisestage fiktiivne tagastuskirje. Seejärel kustutage artikkel või sälitage see ülevaates ja muutke kirjeldust, mis näitab, et artikkel pole saadaval.
 
- 
+
 <a name="see-also"></a>Vt ka
 --------
 

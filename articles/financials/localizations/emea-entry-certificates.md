@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="eu-entry-certificates"></a>EL-i kandesertifikaadid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Artikkel annab teavet Euroopa Liidu (EL) kirjesertide kohta.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Laohaldus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Laohalduse moodul rakendusele Dynamics 365 for Finance and Operations võimaldab hallata laoprotsesse tootmis-, hulgi- ja jaemüügiettevõtetes. Sellel moodulil on väga mitmesuguseid funktsioone, mis toetavad ladu alati optimaalsel tasemel. Laohaldus on integreeritud täielikult teiste Finance and Operationsi äriprotsessidega, nt transporti, tootmise, kvaliteedikontrolli, ostmise, üleviimise, müügi ja tagastustega.
 

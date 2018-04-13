@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Eelarve plaanimise täiendamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Eelarve plaanimine erineb Microsoft Dynamics AX 2012 ja Microsoft Dynamics 365 for Finance and Operationsi vahel oluliselt. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.  
 
@@ -70,26 +69,27 @@ Järgmine näide aitab teil määrata, kuidas täiendatud süsteemi konfigureeri
 
 ### <a name="define-columns-and-layouts"></a>Veergude ja paigutuste määratlemine
 
-1.  Klõpsake lehel **Eelarve plaanimise konfiguratsioon** vahekaarti **Veerud**. Täienduse osana luuakse uued veerud automaatselt teie eelarveplaani ridade põhjal. Veerud kasutavad nüüd dünaamilisi kuupäevi, kus aeg ja aasta on nihkes rahandusaasta suhtes, mis on määratletud eelarve plaanimise protsessis. **Märkus.** Täiendamisel jõudluse tagamiseks eeldatakse, et kõik eelarvetsüklid tähistavad kalendriaastaid, mitte rahandusaastaid. Rahandusaastate kasutamisel tuleb teil teha muudatusi veergude rahandusaastaga õigesti vastendamiseks. Näiteks olid AX 2012-s järgmised elemendid.
-    -   Eelarveplaani stsenaariumid: Tegelikud näitajad, Algväärtus, Eelarvetaotlus, Kinnitatud eelarve
-    -   Eelarveplaani read kõigile stsenaariumitele 2017. aastal ja tegelikud näitajad nii 2017. kui ka 2016. aastal
+1. Klõpsake lehel **Eelarve plaanimise konfiguratsioon** vahekaarti **Veerud**. Täienduse osana luuakse uued veerud automaatselt teie eelarveplaani ridade põhjal. Veerud kasutavad nüüd dünaamilisi kuupäevi, kus aeg ja aasta on nihkes rahandusaasta suhtes, mis on määratletud eelarve plaanimise protsessis. **Märkus.** Täiendamisel jõudluse tagamiseks eeldatakse, et kõik eelarvetsüklid tähistavad kalendriaastaid, mitte rahandusaastaid. Rahandusaastate kasutamisel tuleb teil teha muudatusi veergude rahandusaastaga õigesti vastendamiseks. Näiteks olid AX 2012-s järgmised elemendid.
+   -   Eelarveplaani stsenaariumid: Tegelikud näitajad, Algväärtus, Eelarvetaotlus, Kinnitatud eelarve
+   -   Eelarveplaani read kõigile stsenaariumitele 2017. aastal ja tegelikud näitajad nii 2017. kui ka 2016. aastal
 
-    Finance and Operationsis luuakse järgmised veerud.
-    | Veeru nimi    | Eelarveplaani stsenaarium | Veeru ajaperiood | Aasta vastaskonto |
-    |----------------|----------------------|--------------------|-------------|
-    | Jaanuaristsenaarium 1 | Tegelikud              | 1                  | 0           |
-    | Jaanuaristsenaarium 2 | Alus             | 1                  | 0           |
-    | Jaanuaristsenaarium 3 | Eelarvenõue       | 1                  | 0           |
-    | Jaanuaristsenaarium 4 | Kinnitatud eelarve      | 1                  | 0           |
-    | Jaanuaristsenaarium 5 | Tegelikud              | 1                  | –1          |
-    | Veebruarinõue 1 | Tegelikud              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   Finance and Operationsis luuakse järgmised veerud.
 
-    Selles näites luuakse veerg nimega **Jaanuaristsenaarium 1** viimaste eelarveplaani kandeandmete kohta, mis leitakse, kui jaanuaris on kandeid. Sarnane veerg luuakse iga andmetega stsenaariumi kohta. Kui selle aasta kõigi perioodide kohta on veerud olemas, luuakse veerud eelmiste aastate kohta.
-2.  Saate veergude nimesid ja kirjeldusi ning muid üksikasju muuta kas käsitsi klientrakenduses või hulgivärskendustega Exceli lisandmooduli kaudu, mis osutab eelarveplaani veergude andmeüksusele. Kõik eelnevalt maatriksiväljadele seatud filtrid seatakse nüüd veergudes.
-3.  Looge uus eelarveplaani paigutus. Paigutus osutab mitmele veerule, et määratleda Excelis ja klientrakenduses kuvatav vaade. Esmalt nõuab paigutus, et määraksite pearaamatu dimensioonikogumi määramaks, milliseid finantsdimensioonide saab sisestada. Pärast dimensioonikogumi määramist klõpsake valikut **Kirjeldused**, et valida paigutusse kaasatavad dimensioonide kirjeldused.
-4.  Klõpsake kiirkaardil **Paigutuse elemendid** nuppu **Lisa**, et lisada igale reale metaandmed, nagu valuuta, kommentaar või eelarveklass, mis määrab tulu- ja kuluridade seose. Seejärel lisage veerud ajaperioodi jaoks ning selle eelarve tsüklile ja etaiple rakenduvad stsenaariumid. Saate neid muudatusi teha käsitsi klientrakenduses või Exceli lisandmooduli kaudu, mis osutab eelarveplaani paigutuse elementide andmeüksusele.
-5.  Valige iga paigutuselemendi puhul, kas veerg peab olema redigeeritav ja kas see tuleb kuvada ka selle paigutuse Exceli töövihikus. **Märkus.** Ajalooliste plaanide puhul soovite võib-olla arvesse võtta paigutust, mis kuvab 12 kuuveergu selle protsessi mis tahes eelarveplaani stsenaariumite puhul.
+   | Veeru nimi    | Eelarveplaani stsenaarium | Veeru ajaperiood | Aasta vastaskonto |
+   |----------------|----------------------|--------------------|-------------|
+   | Jaanuaristsenaarium 1 | Tegelikud              | 1                  | 0           |
+   | Jaanuaristsenaarium 2 | Alus             | 1                  | 0           |
+   | Jaanuaristsenaarium 3 | Eelarvenõue       | 1                  | 0           |
+   | Jaanuaristsenaarium 4 | Kinnitatud eelarve      | 1                  | 0           |
+   | Jaanuaristsenaarium 5 | Tegelikud              | 1                  | –1          |
+   | Veebruarinõue 1 | Tegelikud              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   Selles näites luuakse veerg nimega **Jaanuaristsenaarium 1** viimaste eelarveplaani kandeandmete kohta, mis leitakse, kui jaanuaris on kandeid. Sarnane veerg luuakse iga andmetega stsenaariumi kohta. Kui selle aasta kõigi perioodide kohta on veerud olemas, luuakse veerud eelmiste aastate kohta.
+2. Saate veergude nimesid ja kirjeldusi ning muid üksikasju muuta kas käsitsi klientrakenduses või hulgivärskendustega Exceli lisandmooduli kaudu, mis osutab eelarveplaani veergude andmeüksusele. Kõik eelnevalt maatriksiväljadele seatud filtrid seatakse nüüd veergudes.
+3. Looge uus eelarveplaani paigutus. Paigutus osutab mitmele veerule, et määratleda Excelis ja klientrakenduses kuvatav vaade. Esmalt nõuab paigutus, et määraksite pearaamatu dimensioonikogumi määramaks, milliseid finantsdimensioonide saab sisestada. Pärast dimensioonikogumi määramist klõpsake valikut **Kirjeldused**, et valida paigutusse kaasatavad dimensioonide kirjeldused.
+4. Klõpsake kiirkaardil **Paigutuse elemendid** nuppu **Lisa**, et lisada igale reale metaandmed, nagu valuuta, kommentaar või eelarveklass, mis määrab tulu- ja kuluridade seose. Seejärel lisage veerud ajaperioodi jaoks ning selle eelarve tsüklile ja etaiple rakenduvad stsenaariumid. Saate neid muudatusi teha käsitsi klientrakenduses või Exceli lisandmooduli kaudu, mis osutab eelarveplaani paigutuse elementide andmeüksusele.
+5. Valige iga paigutuselemendi puhul, kas veerg peab olema redigeeritav ja kas see tuleb kuvada ka selle paigutuse Exceli töövihikus. **Märkus.** Ajalooliste plaanide puhul soovite võib-olla arvesse võtta paigutust, mis kuvab 12 kuuveergu selle protsessi mis tahes eelarveplaani stsenaariumite puhul.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Eelarve plaanimise protsesside värskendamine iga eelarveetapi jaoks sobiva paigutuse kasutamiseks
 

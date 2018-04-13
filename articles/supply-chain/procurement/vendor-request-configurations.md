@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Hankija nõude konfiguratsioonid
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hankija taotluse lõpetamiseks peab hankija kontaktisik läbima potentsiaalse hankija registreerimisviisardi.
 
@@ -39,12 +39,12 @@ Vaikimisi on hankija konfiguratsioon saadaval vormil Hankija taotluse konfigurat
 
 Vaikekonfiguratsiooni puhul ei saa riiki/regiooni valida, seega ei saa jaotises **Riigid/regioonid** muudatusi teha.
 
-1.  Klõpsake valikuid **Hanked** > **Seadistamine** > **Hankijad** ja seejärel klõpsake valikut **Hankija taotluse konfiguratsioonid**.
-2.  Loetletud üksustele oleku määramiseks klõpsake vahekaari **Väljad**.
--   Peidetud (pole nähtav)
--   Kuvatud (nähtav, kuid pole kohustuslik)
--   Nõutav (nähtav ja kohustuslik)
-3.  Määramaks, kas teksti kuvatakse viisardis ja kas potentsiaalse hankija kasutaja peab enne viisardis järgmise sammu juurde liikumist selle kinnitama, klõpsake vahekaarti **Sisu**. Kinnitamist küsitakse kõigi nõuete ja tingimuste puhul, millega kasutaja peab enne jätkamist nõustuma.
+1. Klõpsake valikuid **Hanked** > **Seadistamine** > **Hankijad** ja seejärel klõpsake valikut **Hankija taotluse konfiguratsioonid**.
+2. Loetletud üksustele oleku määramiseks klõpsake vahekaari **Väljad**.
+3. Peidetud (pole nähtav)
+4. Kuvatud (nähtav, kuid pole kohustuslik)
+5. Nõutav (nähtav ja kohustuslik)
+6. Määramaks, kas teksti kuvatakse viisardis ja kas potentsiaalse hankija kasutaja peab enne viisardis järgmise sammu juurde liikumist selle kinnitama, klõpsake vahekaarti **Sisu**. Kinnitamist küsitakse kõigi nõuete ja tingimuste puhul, millega kasutaja peab enne jätkamist nõustuma.
 
 Võite sisestada ka kinnitusteate, mis kuvatakse, kui viisard on läbitud, samuti saate lisada ühe või mitu küsimustikku.
 

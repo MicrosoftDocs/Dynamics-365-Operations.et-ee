@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Retail Modern POS-i jaoks piltide seadistamine ja haldamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 See artikkel selgitab toiminguid, mis on seotud mitmesuguste Retail Modern POS-is (MPOS)kuvatavate üksuste piltide seadistamise ja haldamisega.
 
@@ -141,7 +140,7 @@ Tootepilte, mida peab kasutama võrguühenduseta režiimis, saab seadistada, laa
 6.  Kui MPOS on võrgurežiimis, käitage HQ-s funktsiooni Kataloogitöö tagamaks, et andmed saadetakse vähemalt ühe korra võrguühenduseta andmebaasi.
 7.  Pange MPOS võrguühenduseta režiimi. Peaksite nägema pilti, mille HQ-s kindlale tootele üles laadisite. [![offline1](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Kataloogi, kategooria, töötaja ja kliendi piltide seadistamine MPOS-i võrguühenduseta režiimis kuvamiseks
 

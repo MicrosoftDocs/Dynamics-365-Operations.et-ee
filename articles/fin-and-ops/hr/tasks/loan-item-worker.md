@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="loan-items-to-a-worker"></a>Töötajale asjade laenamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas laenata kaupa töötajale ja kirjendada töötaja kauba tagastamist. Töötajad saavad taotleda ka kaupade laenamist lehtede Töötaja iseteenindus kaudu. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

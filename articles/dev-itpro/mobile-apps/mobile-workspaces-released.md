@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>Mobiilsed tööruumid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas on loetletud Dynamics 365 for Unified Operationsi mobiilirakenduse jaoks saadaolevad mobiilsed tööruumid.
 

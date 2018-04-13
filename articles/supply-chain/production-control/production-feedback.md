@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-feedback"></a>Tootmise tagasiside
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel annab teavet tootmise tagasiside kohta, mis annab töötajatele tootmistööde kohta tagasisidet. Artikkel sisaldab teavet mitmesuguste tootmise tagasiside värskendamise viiside kohta.
 

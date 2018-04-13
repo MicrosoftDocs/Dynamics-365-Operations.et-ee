@@ -27,8 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="split-periods-in-periodic-journals"></a>Perioodide tükeldamine perioodilistes töölehtedes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Perioodilisi töölehti nimetatakse mõnikord korduvtöölehtedeks, kuna suurus, tekst ja muu teave kordub iga kord, kui tööleht sisestatakse. Töölehe loomisel saate määrata perioodi kordumise intervalli, näiteks päeva või kuu. Saate määrata ka perioodide arvu, millal tööleht postitatakse.
 

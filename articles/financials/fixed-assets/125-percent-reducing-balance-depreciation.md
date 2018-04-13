@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>125 protsenti väheneva saldoga kulum
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse ülevaade 125% väheneva jääkväärtuse kulumiarvestusmeetodi kohta.
 
@@ -68,6 +67,7 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 -   **Rahandusperiood** sisestab rahandusaasta kohta arvutatud kulumi kogusumma. See summa on jagatud rahandusperioodideks, mis on määratletud lehel **Rahanduskalendrid**.
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>125% väheneva saldoga kulumireegli näide
+
 |                                |        |
 |--------------------------------|--------|
 | Soetusmaksumus               | 11 000 |

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>Vöötkoodi maskide häälestamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja vöötkoodi maske ning kuidas määrata vöötkoodidele vöötkoodi maske.
 

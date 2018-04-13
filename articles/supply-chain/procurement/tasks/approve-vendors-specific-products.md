@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-products"></a>Kindlatele toodetele hankijate kinnitamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris selgitatakse, kuidas kinnitada hankijaid kindlate toodete puhul. See võimaldab teil juhtida, milliseid hankijaid saab kasutada, kui toode ostutellimusse lisatakse. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Seda ülesannet täidab tavaliselt Ostujuht.
 

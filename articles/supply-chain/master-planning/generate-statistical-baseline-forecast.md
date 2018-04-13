@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistilise alusprognoosi koostamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) sihtkohtade konfigureerimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris näidatakse, kuidas seadistada ja kasutada erinevaid sihtkohti elektroonilise aruandluse (ER) väljundi komponentide (nagu kaust või fail) jaoks. Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF. Saksamaa on juriidilise isiku emase aadressi riike\piirkond, kuid saate selles protseduuris kasutada mis tahes juriidilist isikut. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas sisestada konto ja dimensiooni kombinatsioone või pearaamatukontosid. Kande kogemust nimetatakse sageli segmenditud sisestuse juhtelemendiks.
 
@@ -112,7 +111,7 @@ Järgmises tabelis on kirjeldatud klaviatuuri otseteed, mida saab kasutada, kui 
 </tbody>
 </table>
 
- 
+
 
 
 

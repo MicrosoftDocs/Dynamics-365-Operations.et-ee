@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-simulation"></a>Hinnasimulatsioon
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet pakkumiste hinnasimulatsiooni kohta. Hinnasimulatsiooni abil saate hinnata mahaarvamiste mõju tulevasele müügihinale pakkumise protsessi ajal, enne kui määrate kindla hinna.
 

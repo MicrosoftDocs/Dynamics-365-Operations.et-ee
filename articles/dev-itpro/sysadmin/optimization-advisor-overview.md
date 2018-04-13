@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>Nõustaja ülevaate optimeerimine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas kasutada optimeerimise nõustajat, et aidata tagada Microsoft Dynamics 365 Finance and Operationsi optimaalne konfiguratsioon.
 

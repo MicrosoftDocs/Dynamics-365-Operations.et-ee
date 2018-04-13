@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-departments"></a>Uute osakondade määratlemine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Osakonnad on tootmisüksused, mis tähistavad ettevõtte funktsionaalvaldkonna, nagu müük või raamatupidamine. Paljudel ettevõtetel on organisatsioonihierarhiad, mis näitavad ettevõtte erinevaid osakondi. See protseduur selgitab osakondade loomise ja nende osakondade organisatsiooni osakonnahierarhiasse lisamise protsessi. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

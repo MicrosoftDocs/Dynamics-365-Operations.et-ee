@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-accrual-schemes"></a>Viitvõlaskeemide loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesandejuhend kirjeldab viitvõlaskeemi loomise etappe. See ülesanne kasutab demoettevõtte USMF andmeid.
 

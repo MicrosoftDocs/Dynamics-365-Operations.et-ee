@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Hankijaarvete ülevaade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel. 
 
@@ -87,11 +86,11 @@ Lisateavet vt
  - [Hankija arvepoliitikate seadistamine](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Arve põhiandmed ostureskontrosse hankija arve abil](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Arve põhiandmed ostureskontrosse kinnitamise töölehe abil](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Arve põhiandmed ostureskontro süsteemi arvete kausta abil](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Hankija arve kirjendamine arvete töölehele](tasks/record-vendor-invoice-invoice-journal.md)
 
 

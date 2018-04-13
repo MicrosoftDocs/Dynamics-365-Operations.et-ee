@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema selgitab, kuidas saate kasutada oma elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete üleviimine teie rakenduse Finance and Operations eksemplarist Power BI teenustesse. Näitena kasutab see teema Intrastati kandeid äriandmetena, mis tuleb üle viia. Power BI kaardi visualisatsioon kasutab selle Intrastati kande andmeid, et esitleda Power BI aruandes ettevõtte impordi-/eksporditegevuse analüüsi vaadet.
 
@@ -118,9 +117,9 @@ Klõpsake uue sihtkoha kirje jaoks nuppu **Sätted**. Seejärel järgige dialoog
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Power BI aruande loomine uut andmekogumit kasutades
 1. Klõpsake loodud Power BI andmekogumit **Impordi ja ekspordi üksikasjad**. 
 2. Konfigureerige visualiseerimine. Näiteks valige visualiseerimine **Täidetud kaart** ja konfigureerige see järgmiselt.
- -   Määrake andmekogumi väli **CountryOrigin** kaardi visualiseerimise väljale **Asukoht**.
- -   Määrake andmekogumi väli **Summa** kaardi visualiseerimise väljale **Värvi küllastus**.
- -   Lisage andmekogumi väljad **Tegevus** ja **Aasta** kaardi visualiseerimise väljade kogumikule **Filtrid**.
+   -   Määrake andmekogumi väli **CountryOrigin** kaardi visualiseerimise väljale **Asukoht**.
+   -   Määrake andmekogumi väli **Summa** kaardi visualiseerimise väljale **Värvi küllastus**.
+   -   Lisage andmekogumi väljad **Tegevus** ja **Aasta** kaardi visualiseerimise väljade kogumikule **Filtrid**.
 
 3. Salvestage Power BI aruanne kui **Impordi ja ekspordi üksikasjade aruanne**. [![Impordi ja ekspordi üksikasjade aruanne](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)Pange tähele, et kaart näitab riike/piirkondi, mis on mainitud Exceli failis (selles näites Austria ja Šveits). Need riigid/regioonid on tehtud värviliseks, et näidata iga ühe arveldatud summade osakaalu. 
 4. Värskendage Intrastati kannete loendit. Itaalias pärinev ekspordikanne on lisatud. [![Intrastati kannete loend](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

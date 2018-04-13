@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="set-up-order-fulfillment-for-stores"></a>Kaupluse tellimuse täitmise seadistamine
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Ülevaade
 Paljud jaemüüjad soovivad tellimuste täitmist optimeerida, võimaldades kauplustel tellimusi täita. Tellimuse täitmine kaupluse tasemel aitab leevendada laoülejäägi olukordi kindla kaupluse puhul või võib olla vajalik logistika seisukohalt, kui kauplusel on lisavõimsust või see asub kliendile saatmiseks lähemal. Selle vajaduse täitmiseks on kassas saadaval ühtse tellimuse täitmise toiming.

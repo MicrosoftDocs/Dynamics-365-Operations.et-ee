@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Tarbimistaotluse loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab ostutaotluse loomise protsessi. See näitab erinevaid viise toodete otsimiseks hankekataloogist ja toodete lisamiseks, mis ei ole kataloogis. Enne selle protseduuri alustamist peab teil olema seadistatud ostupoliitika, mille ostutaotluse vaiketüübiks on Tarbimine. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Protseduuri saab teha ainult kasutajaprofiiliga, mis on seadistatud töötaja profiilina.  Seda ülesannet teeb tavaliselt töötaja. Töötaja turberoll võimaldab ülesandeid teha; või juhul, kui kasutate USMF-i, saate sisse logida nime Alicia alt.
 

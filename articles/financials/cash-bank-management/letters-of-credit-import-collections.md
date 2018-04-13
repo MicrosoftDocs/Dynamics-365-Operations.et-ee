@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Akreditiivid ja impordi sissenõudmised
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse üldist teavet akreditiivide ja impordi sissenõuete kohta. Mõlemat tüüpi pangadokumente kasutatakse sageli kaupade ostmiseks ja müügiks välisriikides.
 

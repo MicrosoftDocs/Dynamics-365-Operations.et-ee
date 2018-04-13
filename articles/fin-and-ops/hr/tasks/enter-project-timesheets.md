@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="enter-project-timesheets"></a>Projekti ajatabelite sisestamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur laseb teil luua ajatabeli, kasutades tühja ajatabelivormi. Uue ajatabeli alusena saab kasutada eelmise ajatabeli teavet või projekti ja tegevuse määramisi leheküjelt My favorites (Minu lemmikud). Vaikimisi kuvatakse loendilehel All timesheets (Kõik ajatabelid) kõik teie praeguse perioodi ajatabelid. Saate ripploendit kasutada välja näitamiseks lehel My timesheets (Minu ajatabelid), et filtreerida ajatabelite loendit ajaperioodi või projekti alusel või kuvada ajatabeleid, mis on loodud teiste töötajate nimel. Selle protseduuri loomiseks kasutati demoettevõtte USSI andmeid. Selle toimingu alustamiseks avage Projekti haldamine ja raamatupidamine > Ajatabelid > Minu ajatabelid.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Halduse eeltingimuste seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutage seda protseduuri, et lubada mittevastavuse haldamise protsessid. Mittevastavus kirjeldab protseduuri või kaupa, millel on kvaliteediprobleem, kus kirjeldav teave sisaldab probleemi allikat ja tüüpi. Protseduur kasutab demoettevõtte USMF andmeid. Tavaliselt teostab selle protseduuri kvaliteedijuht.
 

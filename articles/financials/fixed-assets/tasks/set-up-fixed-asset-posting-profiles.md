@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Põhivara sisestusreeglite seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesande juhend seadistab Põhivara sisestusreeglid.  See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.  Ülesande juhendis esitatud näited kehtivad üldiste sisestusreeglite kohta, kuigi sisestusreeglid tuleb luua teie kindla kontoplaani ja finantsaruandluse nõuete puhul.
 

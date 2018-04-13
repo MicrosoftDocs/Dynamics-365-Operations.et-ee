@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>Toote konfiguratsioonimudeli koostamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Erinõuetele vastamiseks toodete konfigureerimise vajadus on saamas erandist reegliks nii ettevõtetevahelistes kui ka ettevõtte ja tarbija vahelistes suhetes.
 

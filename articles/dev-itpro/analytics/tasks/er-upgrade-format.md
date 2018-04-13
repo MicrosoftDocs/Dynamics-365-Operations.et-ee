@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) vormingu täiendamine selle vormingu uue alusvormi kasutuselevõtu abil
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni. Selles protseduuris selgitatakse, kuidas saab luua vormingu kohandatud versiooni konfiguratsiooni pakkujalt (CP) saadud vormingu alusel. Selgitatakse ka seda, kuidas võtta kasutusele selle vormingu uus alusversioon.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>Lean manufacturingi ülevaade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
@@ -40,6 +39,7 @@ Lean manufacturing pakub tööriistu, mida saate säästlike operatsioonide mode
 -   Kanban-tööde jälgimine ja haldamine.
 
 Lean manufacturingi arhitektuur rakenduses Finance and Operations koosneb tootmisvoogudest, tegevustest ja kanban-reeglitest. Need struktuurid on Finance and Operationsi protsessidega täielikult integreeritud. Saate kasutada lean manufacturingi kombineeritud tootmiskeskkonnas, mis ühendab mitmesugused tarne-, tootmis- ja hankestrateegiad. Need strateegiad hõlmavad tootmistellimusi, protsessi haru partiitellimusi, ostutellimusi ja üleviimistellimusi.
+
 | **Oluline**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Finance and Operationsi abil saate toetada lean manufacturingi rakendamist kanbanidega. Kuid kulusäästlike põhimõtete edukas rakendamine sõltub siiski sisemistest äriprotsessidest, mida kasutatakse, ning tegelikest tootmistingimustest ja -keskkonnast. |

@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Finantsaruande komponendid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse. Nende koosteüksuste hulka kuuluvad readefinitsioonid, veerudefinitsioonid ja aruandluspuu definitsioonid. Artiklis selgitatakse, kuidas koosteüksusi korraldada ja lukustada. 
 
 Finantsaruannete koosturi ülesehituse filosoofia on suunatud teabe jagamisele vähimateks osadeks ehk koosteüksusteks ja siis nende osade segamine ja sobitamine vajalikul viisil. Seetõttu on teie aruande vormindamine finantsandmetest eraldi ja saate muuta aruande ülesehitust, muutmata finantsandmeid oma Microsoft Dynamics ERP süsteemis. Selle koosteüksuste lähenemisviisi abil saate vajalike aruannete loomiseks kombineerida teksti, summasid ja arvutusi. Lisaks toetab selline paindlikkus loovust, lihtsustades teil oma tegevuse vaatamist mitmesugusel viisil. Aruande definitsiooni üksikud koosteüksused sarnanevad kolmemõõtmelise arvutustabeliga, kuid on võimsamad. Aruande definitsioon määrab aruande puhul kasutatava readefinitsiooni, veeru definitsiooni ja valikulise aruandluspuu definitsiooni. See hõlmab ka teavet selle kohta, kuhu loodud aruanne salvestada ja kuidas seda vormindada. 
 
 ## <a name="building-blocks-of-a-report"></a>Aruande koosteüksused
+
 | Koosteüksus            | Kirjeldus                     | Lisateave                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Rea definitsioon            | Readefinitsioon määratleb kirjeldavad read (näiteks palga või müügi) aruandel. See loetleb ka segmendi väärtused või dimensioonid, mis sisaldavad iga reaüksuse väärtusi, ja hõlmab rea vormindamist ning arvutusi.                                                    | [Readefinitsioonid](row-definitions-financial-reporting.md)                       |

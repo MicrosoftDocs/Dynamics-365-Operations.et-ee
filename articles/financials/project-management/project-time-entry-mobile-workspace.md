@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-time-entry-mobile-workspace"></a>Mobiilse tööruumi projekti ajakirje
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema annab teavet **projekti ajakirje** mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel sisestada ja säästa aega projektiga, kasutades oma mobiilset seadet.
 

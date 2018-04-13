@@ -29,15 +29,14 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Toote töötsükli olek 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Toote elutsükli olek dokumenteerib väljastatud toote või tootevariandi elutsükli oleku. Toote elutsükli olekud määratleb kasutaja, tavaliselt tootejuht või tooteetaloni andmehaldur. Kindel elutsükli olek võib mõjutada konkreetseid äriprotsesse, näiteks koondplaneerimist.   
- 
+
 Väljastatud toote või tootevariandi saab seostada toote elutsükli olekuga, mis dokumenteerib, millises elutsükli olekus konkreetne toode või variant praegu on. Saate määratleda mis tahes arvu toote elutsükleid, määrates oleku nime ja kirjelduse. Saate valida ühe elutsükli oleku uute väljastatud toodete vaikeolekuks. Väljastatud tootevariandid pärivad oma toote elutsükli oleku loomise ajal oma väljastatud tooteetalonilt. Väljastatud tooteetaloni elutsükli oleku muutmisel saate värskendada kõik sama algolekuga variandid.  
 
 ## <a name="create-a-new-product-lifecycle-state"></a>Uue toote elutsükli oleku loomine 
- 
+
 - Uue toote elutsükli oleku loomiseks esitage või lugege tegevusejuhist **Uue toote elutsükli oleku loomine**. 
 
 -  Toote elutsükli vaikeoleku loomiseks esitage või lugege tegevusejuhist **Toote elutsükli vaikeoleku loomine**.   
@@ -73,7 +72,7 @@ Täpsema teabe saamiseks selle kohta, kuidas kasutada toote elutsükli olekut to
 
 > [!NOTE]
 > Jõudluse huvides on väga soovitatav seostada kõik aegunud väljastatud tooted või tootevariandid, eriti kui töötate ühekordselt kasutatavate toote konfiguratsioonivariantidega, toote elutsükli olekuga, mis on koondplaneerimise jaoks inaktiveeritud.  
- 
+
 ## <a name="default-migration-import-and-export"></a>Migratsiooni, impordi ja ekspordi vaikesätted 
 
 Andmeüksused ei toeta toote elutsükli olekuid ja elutsükli olekut ei saa määrata väljastatud toote andmeüksuste kaudu muutuvaks.
@@ -81,18 +80,18 @@ Andmeüksused ei toeta toote elutsükli olekuid ja elutsükli olekut ei saa mä�
 -  Varasematest väljalasetest migreerimisel on kõigi toodete ja tootevariantide elutsükli olek tühi.  
 -  Väljastatud toodete importimisel andmeüksuse kaudu rakendatakse loomisel elutsükli vaikeolek.  
 -  Väljastatud tootevariantide importimisel andmeüksuse kaudu imporditakse väljastatud tooteetaloni toote elutsükli olek.   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a>Aegunud toodete ja tootevariantide leidmine 
- 
+
 Saate käivitada simulatsioonanalüüsi aegunud väljastatud toodete või tootevariantide leidmiseks ning seejärel nende toote elutsükli oleku värskendada. Aegunud toodete leidmiseks esitage ja lugege tegevusejuhist **Aegunud tootevariantide leidmine ja toote elutsükli oleku määramine**. Tegevusejuhis näitab, kuidas leida aegunud väljastatud tooteid või tootevariante ja kuidas seostada toote elutsükli olek aegunud toodetega. See näitab ka, kuidas vaadata simulatsiooni tulemusi ja hinnata, kui palju tooteid ning tootevariante uue toote elutsükli olekuga seostatakse, kui värskendus käivitatakse ilma simulatsioonita.  
- 
+
 Käivitades analüüsi simulatsioonirežiimis, kuvatakse aegununa tuvastatud tooted ja tootevariandid kindlal vormil, kus neid saab hõlpsasti üle vaadata. Analüüs otsib kandeid ja konkreetseid koondandmeid, et tuvastada tooteid, millel puuduvad muutuval perioodil nõudlus ja koondandmed, mis võivad nõudlust põhjustada. Uued väljastatud tooted muutuval perioodil saab analüüsist välja jätta. Kui analüüsi simulatsioon tagastab oodatud tulemuse, saab kasutaja käivitada analüüsi ja määrata uue toote elutsükli oleku kõigile toodetele, mille analüüs tuvastas aegununa.  
- 
+
 > [!NOTE]
 > Pange tähele, et kogu analüüs ja kõik värskendused tuleb teha samas juriidilises isikus.  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a>Väljastatud toodete ja tootevariantide valimise ja värskendamise kriteeriumid 
- 
+
 Väljastatud toodete ja tootevariantide valimiseks ja värskendamiseks saate kasutada järgmisi kriteeriume. 
 
 -    Toote või tootevariandi toote elutsükli olek peab erinema uuest soovitud olekust. 

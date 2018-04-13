@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Kulude haldus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kuluhalduse abil saate luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad. Saate ka määrata kulupoliitikad ja automatiseerida reisikulude hüvitamise. 
 

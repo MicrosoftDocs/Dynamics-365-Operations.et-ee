@@ -23,14 +23,14 @@ ms.contentlocale: et-ee
 ms.lasthandoff: 09/29/2017
 
 ---
-# Minimaalsete laovarude sündmuse abil kanban-reegli loomine
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Minimaalsete laovarude sündmuse abil kanban-reegli loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur keskendub seadistusele, mis on vajalik kanban-reegli loomiseks, kasutades minimaalset laosündmust tagamiseks, et konkreetne toode oleks alati konkreetses asukohas saadaval. Luuakse kanban-reegel materjali üleviimiseks asukohta, kui varude tase langeb alla 200 ühiku. Sidumissündmuse töötlemise käivitamisega luuakse vajalikud kanbanid. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See toiming on mõeldud protsessiinsenerile või väärtuse voo haldurile, kuna nad valmistavad ette uue või muudetud toote tootmist säästlikus keskkonnas.
 
 
-## Looge uus kanban-reegel.
+## <a name="create-a-new-kanban-rule"></a>Looge uus kanban-reegel.
 1. Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.
 2. Klõpsake valikut Uus.
 3. Tehke väljal Tüüp vali Tühistamine.
@@ -46,7 +46,7 @@ See protseduur keskendub seadistusele, mis on vajalik kanban-reegli loomiseks, k
 9. Valige väljalt Varude täiendamise sündmus väärtus Partii.
     * See loob kanbanid materjalivajaduste rahuldamiseks seotud asukohas sidumissündmuse töötlemise ajal.  
 
-## Määrake kauba miinimumkogus
+## <a name="set-the-minimum-quantity-for-the-item"></a>Määrake kauba miinimumkogus
 1. Klõpsake, et järgida linki väljal Toode.
 2. Klõpsake, et järgida linki väljal Kaubakood.
 3. Laiendage toote pildi kiirinfot.
@@ -58,7 +58,7 @@ See protseduur keskendub seadistusele, mis on vajalik kanban-reegli loomiseks, k
     * Valige välja Ladu väärtuseks 12.  
 9. Määra valiku Miinimum väärtuseks 200.
 
-## Käivitage pakettsündmuse loomise töö
+## <a name="run-the-batch-event-creation-job"></a>Käivitage pakettsündmuse loomise töö
 1. Avage Tootmise juhtimine > Perioodilised ülesanded > Kanban-töö pakktöötlus > Sidumissündmuse töötlemine.
 2. Klõpsake nuppu OK.
 3. Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.
