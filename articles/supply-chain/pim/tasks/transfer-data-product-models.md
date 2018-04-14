@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 825f669dc5d4476ac9724e5f43016045032fefe0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10c85eba95701f47555b9603933de1687f8dc90f
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="transfer-data-for-product-models"></a><span data-ttu-id="15c58-103">Tootemudelite andmete ülekandmine</span><span class="sxs-lookup"><span data-stu-id="15c58-103">Transfer data for product models</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="15c58-104">Toote konfiguratsioonimudeli andmete eksportimine nõuab, et saadaval oleks vähemalt üks tootemudel.</span><span class="sxs-lookup"><span data-stu-id="15c58-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="15c58-105">See protseduur kasutab tipptasemel kõlari mudelit demoettevõttes USMF, et näidata teile, kuidas selle mudeli puhul andmeid eksportida.</span><span class="sxs-lookup"><span data-stu-id="15c58-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
 

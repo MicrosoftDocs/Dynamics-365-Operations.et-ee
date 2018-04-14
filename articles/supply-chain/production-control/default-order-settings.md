@@ -20,19 +20,18 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 06760d84cf5152f24e374cf3fb1bbea5564bbb42
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a><span data-ttu-id="781d8-103">Dimensioonide ja tootevariantide tellimuse vaikesätted</span><span class="sxs-lookup"><span data-stu-id="781d8-103">Default order settings for dimensions and product variants</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="781d8-104">Tellimuse vaikesätted Microsoft Dynamics 365 for Finance and Operationsis määratlevad tegevuskoha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ja standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi.</span><span class="sxs-lookup"><span data-stu-id="781d8-104">Default order settings in Microsoft Dynamics 365 for Finance and Operations define the site and warehouse where items will be sourced from or stored, the minimum, maximum, multiple and standard quantities that will be used for trading or inventory management, the lead times, the stop flag, and the order promising method.</span></span> <span data-ttu-id="781d8-105">Tellimuse vaikesätteid kasutatakse ostutellimuste, müügitellimuste, üleviimistellimuste, laotöölehtede loomisel ja plaanitud tellimuste loomiseks koondplaanimisega.</span><span class="sxs-lookup"><span data-stu-id="781d8-105">Default order settings are used when creating purchase orders, sales orders, transfer orders, inventory journals, and by master planning for generating planned orders.</span></span> <span data-ttu-id="781d8-106">Tellimuse vaikesätted võivad olla kaubaspetsiifilised, tegevuskohaspetsiifilised, tootevariandispetsiifilised ja või tootedimensiooni-spetsiifilised.</span><span class="sxs-lookup"><span data-stu-id="781d8-106">Default order settings can be item specific, site specific, product variant specific, or product dimension specific.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="ff3c4-104">Uued tegevusjuhised (veebruar 2016)</span><span class="sxs-lookup"><span data-stu-id="ff3c4-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff3c4-105">Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.</span><span class="sxs-lookup"><span data-stu-id="ff3c4-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="ff3c4-106">Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics AX-i APQC ühendatud teek ja (2016. a. veebruari) Alustamine.</span><span class="sxs-lookup"><span data-stu-id="ff3c4-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-124">Ostureskontro arve vastenduse kinnitamise seadistamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="ff3c4-125">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-125">Global</span></span>             |
 | <span data-ttu-id="ff3c4-126">Saate häälestada hankija arve poliitikaid.</span><span class="sxs-lookup"><span data-stu-id="ff3c4-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="ff3c4-127">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="ff3c4-128">Müügireskontro</span><span class="sxs-lookup"><span data-stu-id="ff3c4-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-153">Sissenõuete teabe ülevaatamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-153">Review collections information</span></span>                              | <span data-ttu-id="ff3c4-154">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-154">Global</span></span>             |
 | <span data-ttu-id="ff3c4-155">Müügireskontro ajalise jaotuse teabe seadistamine ja loomine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="ff3c4-156">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="ff3c4-157">Sularaha- ja pangahaldus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-196">Tasakaalusta kliendi hilisema kuupäevaga tšekk</span><span class="sxs-lookup"><span data-stu-id="ff3c4-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="ff3c4-197">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-197">Global</span></span>             |
 | <span data-ttu-id="ff3c4-198">Hankija maksete ülevaade</span><span class="sxs-lookup"><span data-stu-id="ff3c4-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="ff3c4-199">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="ff3c4-200">Ühilduvus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-201">**BPM-rida**</span><span class="sxs-lookup"><span data-stu-id="ff3c4-201">**BPM Line**</span></span>                               | <span data-ttu-id="ff3c4-202">**Riik/regioon**</span><span class="sxs-lookup"><span data-stu-id="ff3c4-202">**Country/Region**</span></span> |
 | <span data-ttu-id="ff3c4-203">Lähtedokumentide jaoks auditipoliitikate määratlemine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-203">Define audit policies for source documents</span></span> | <span data-ttu-id="ff3c4-204">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="ff3c4-205">Kuluhaldus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-214">Tootmistellimuse WIP praeguse oleku kuvamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="ff3c4-215">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-215">Global</span></span>             |
 | <span data-ttu-id="ff3c4-216">Varude aruande ja KPI kuvamine kuluobjekti järgi</span><span class="sxs-lookup"><span data-stu-id="ff3c4-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="ff3c4-217">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="ff3c4-218">Riigi/regiooni funktsioon</span><span class="sxs-lookup"><span data-stu-id="ff3c4-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-485">GB-00009 Kreeditarve loomine tasakaalustuse allahindlusele</span><span class="sxs-lookup"><span data-stu-id="ff3c4-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="ff3c4-486">Ühendkuningriik</span><span class="sxs-lookup"><span data-stu-id="ff3c4-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="ff3c4-487">GB‑00009 kreeditarve parameetrite seadistamine kiirmakse allahindlusele</span><span class="sxs-lookup"><span data-stu-id="ff3c4-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="ff3c4-488">Ühendkuningriik</span><span class="sxs-lookup"><span data-stu-id="ff3c4-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="ff3c4-489">Visiooni ja strateegia arendamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-498">Küsimuse muutmine eelmise küsimuse vastusest sõltuvaks (tinglikud küsimused)</span><span class="sxs-lookup"><span data-stu-id="ff3c4-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="ff3c4-499">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-499">Global</span></span>             |
 | <span data-ttu-id="ff3c4-500">Küsimustiku tulemuse määramine protsendi alusel</span><span class="sxs-lookup"><span data-stu-id="ff3c4-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="ff3c4-501">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="ff3c4-502">Elektrooniline aruandlus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-511">Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatele</span><span class="sxs-lookup"><span data-stu-id="ff3c4-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="ff3c4-512">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-512">Global</span></span>             |
 | <span data-ttu-id="ff3c4-513">Elektroonilise aruandluse teenusepakkuja valimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-513">ER Select service provider</span></span>                      | <span data-ttu-id="ff3c4-514">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="ff3c4-515">Kulude haldus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-516">**BPM-rida**</span><span class="sxs-lookup"><span data-stu-id="ff3c4-516">**BPM Line**</span></span>                 | <span data-ttu-id="ff3c4-517">**Riik/regioon**</span><span class="sxs-lookup"><span data-stu-id="ff3c4-517">**Country/Region**</span></span> |
 | <span data-ttu-id="ff3c4-518">Kuluhalduse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-518">Configure expense management</span></span> | <span data-ttu-id="ff3c4-519">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="ff3c4-520">Põhivarad</span><span class="sxs-lookup"><span data-stu-id="ff3c4-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-549">Põhivara tükeldamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="ff3c4-550">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-550">Global</span></span>             |
 | <span data-ttu-id="ff3c4-551">Põhivara ülekandmine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="ff3c4-552">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="ff3c4-553">Pearaamat</span><span class="sxs-lookup"><span data-stu-id="ff3c4-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-602">Töölehe kirjete või kannete kuvamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="ff3c4-603">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-603">Global</span></span>             |
 | <span data-ttu-id="ff3c4-604">Seotud kontsernisisese kande kuvamine töölehelt</span><span class="sxs-lookup"><span data-stu-id="ff3c4-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="ff3c4-605">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="ff3c4-606">Inimkapitali juhtimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-677">Soodustuseks sobilikkuse poliitikate häälestamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="ff3c4-678">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-678">Global</span></span>             |
 | <span data-ttu-id="ff3c4-679">Dokumenditüüpide i9 seadistamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="ff3c4-680">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="ff3c4-681">Varude haldus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-712">Kauba või toormaterjali jälgimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="ff3c4-713">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-713">Global</span></span>             |
 | <span data-ttu-id="ff3c4-714">Lao füüsiliste varude ülekandmine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="ff3c4-715">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="ff3c4-716">Tootmine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-803">Kanban-töödega materjali ülekandmine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="ff3c4-804">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-804">Global</span></span>             |
 | <span data-ttu-id="ff3c4-805">Tootmisvoo ja versiooni kinnitamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-805">Validate production flow and version</span></span>                          | <span data-ttu-id="ff3c4-806">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="ff3c4-807">Koondplaneerimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-816">Ülioluliste materjalide ja tarnija võimaluste tuvastamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="ff3c4-817">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-817">Global</span></span>             |
 | <span data-ttu-id="ff3c4-818">Nõudluse prognoosi käsitsi muutmine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="ff3c4-819">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="ff3c4-820">Organisatsiooni administreerimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-831">Digitaalallkirjade seadistamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-831">Set up electronic signatures</span></span>              | <span data-ttu-id="ff3c4-832">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-832">Global</span></span>             |
 | <span data-ttu-id="ff3c4-833">Numbriseeriate seadistamine viisardit kasutades</span><span class="sxs-lookup"><span data-stu-id="ff3c4-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="ff3c4-834">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="ff3c4-835">Planeerimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-836">**BPM-rida**</span><span class="sxs-lookup"><span data-stu-id="ff3c4-836">**BPM Line**</span></span>           | <span data-ttu-id="ff3c4-837">**Riik/regioon**</span><span class="sxs-lookup"><span data-stu-id="ff3c4-837">**Country/Region**</span></span> |
 | <span data-ttu-id="ff3c4-838">Kättesaadavuse kindlaksmääramine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-838">Determine availability</span></span> | <span data-ttu-id="ff3c4-839">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="ff3c4-840">Hanked</span><span class="sxs-lookup"><span data-stu-id="ff3c4-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-853">Hankijate otsimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-853">Search for vendors</span></span>                                               | <span data-ttu-id="ff3c4-854">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-854">Global</span></span>             |
 | <span data-ttu-id="ff3c4-855">Hankekategooria hierarhia seadistamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="ff3c4-856">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="ff3c4-857">Tooteteave ja konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-892">Tooteetaloni ..\financial-dimensions\dimension-based väljastamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="ff3c4-893">Üldine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-893">Global</span></span>             |
 | <span data-ttu-id="ff3c4-894">Tootemudelite andmete ülekandmine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-894">Transfer data for product models</span></span>                      | <span data-ttu-id="ff3c4-895">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="ff3c4-896">Avalik sektor</span><span class="sxs-lookup"><span data-stu-id="ff3c4-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-931">Fondi seadistamine avaliku sektori puhul</span><span class="sxs-lookup"><span data-stu-id="ff3c4-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="ff3c4-932">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-932">Global</span></span>             |
 | <span data-ttu-id="ff3c4-933">Ostulepingu klassifikatsioonide seadistamine avaliku sektori puhul</span><span class="sxs-lookup"><span data-stu-id="ff3c4-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="ff3c4-934">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="ff3c4-935">Jaemüük ja kaubandus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-1002">Jaemüügitoodete hinna korrigeerimised</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="ff3c4-1003">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1003">Global</span></span>             |
 | <span data-ttu-id="ff3c4-1004">Jaemüügi väljavõtete konfiguratsioonide salvestamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="ff3c4-1005">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="ff3c4-1006">Müük</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-1035">Tellimuste lähetamine otsetarnetena</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="ff3c4-1036">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1036">Global</span></span>             |
 | <span data-ttu-id="ff3c4-1037">Müügitellimuste lähetamine ladustamata</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="ff3c4-1038">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="ff3c4-1039">Käibemaks</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-1060">Kinnipeetava maksu häälestamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="ff3c4-1061">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1061">Global</span></span>             |
 | <span data-ttu-id="ff3c4-1062">Sisestatud käibemaksukannete kuvamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="ff3c4-1063">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="ff3c4-1064">Turvalisus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-1069">Konfliktide tuvastamine ja lahendamine kohustuste jagamisel</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="ff3c4-1070">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1070">Global</span></span>             |
 | <span data-ttu-id="ff3c4-1071">Kohustuste jagamise seadistamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="ff3c4-1072">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="ff3c4-1073">Ladu ja transport</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="ff3c4-1106">Kättetoimetamisettevõtte seadistus</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="ff3c4-1107">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1107">Global</span></span>             |
 | <span data-ttu-id="ff3c4-1108">Koorma planeerimise töölaua kasutamine koormate ja saadetiste plaanimiseks</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="ff3c4-1109">Globaalne</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="ff3c4-1110">Tegevusjuhised (2016. a. veebruari) teegis Alustamine</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="ff3c4-1111">**BPM-rida**</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="ff3c4-1112">**Riik/regioon**</span><span class="sxs-lookup"><span data-stu-id="ff3c4-1112">**Country/Region**</span></span> |

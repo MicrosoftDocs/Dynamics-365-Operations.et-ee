@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c5b9ee57b0b855766628caca239059205c103b86
-ms.openlocfilehash: 4a0586324dddc10d64ad6760222f2540f31d6bce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e6bab3de11dbd2aba8b1330284986514a6ac1dfc
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a><span data-ttu-id="7c72c-103">Isikupärastatud tootesoovituste ülevaade</span><span class="sxs-lookup"><span data-stu-id="7c72c-103">Personalized product recommendations overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > <span data-ttu-id="7c72c-104">Eemaldame tootesoovitusteenuse praeguse versiooni kuniks me seda funktsiooni parema algoritmi ja uuemate jaemüügile suunatud võimalustega täiustame.</span><span class="sxs-lookup"><span data-stu-id="7c72c-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="7c72c-105">Lisateavet vt teemast [Eemaldatud või aegunud funktsioonid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span><span class="sxs-lookup"><span data-stu-id="7c72c-105">For more information see [Removed or deprecated features](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span></span> <span data-ttu-id="7c72c-106">Kui teil on probleeme juba lubatud tootesoovitustega teie keskkonna jaoks, liikuge lehe allossa.</span><span class="sxs-lookup"><span data-stu-id="7c72c-106">Navigate to the bottom of the page if you are facing issues with already-enabled product recommendations for your environment.</span></span> 
@@ -86,9 +85,9 @@ ms.lasthandoff: 03/08/2018
 -   <span data-ttu-id="7c72c-145">CRT-le tehakse kättesaadavaks mudeli identimisteave ja ID, et saaks arvestada pilvekassa ja MPOS-i tootesoovituste kutseid veebirežiimis.</span><span class="sxs-lookup"><span data-stu-id="7c72c-145">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="7c72c-146">Tõrkeotsing, kui tootesoovitused on juba lubatud</span><span class="sxs-lookup"><span data-stu-id="7c72c-146">Troubleshoot issues where you have Product recommendations already enabled</span></span> 
->- <span data-ttu-id="7c72c-147">Liikuge kohta **Jaemüügi parameetrid** > **Masinõpe** > **Keela tootesoovitused** ja käivitage **Globaalne konfigureerimistöö [1110]**.</span><span class="sxs-lookup"><span data-stu-id="7c72c-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="7c72c-148">Kui te ei leia vahekaarti **Masinõpe**, võtke ühendust Dynamicsi toega.</span><span class="sxs-lookup"><span data-stu-id="7c72c-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
-
->- <span data-ttu-id="7c72c-149">Kui olete oma kandekuvale lisanud **soovituste juhtelemendi**, kasutades **ekraanipaigutuse kujundajat**, eemaldage ka see.</span><span class="sxs-lookup"><span data-stu-id="7c72c-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
+> - <span data-ttu-id="7c72c-147">Liikuge kohta **Jaemüügi parameetrid** > **Masinõpe** > **Keela tootesoovitused** ja käivitage **Globaalne konfigureerimistöö [1110]**.</span><span class="sxs-lookup"><span data-stu-id="7c72c-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="7c72c-148">Kui te ei leia vahekaarti **Masinõpe**, võtke ühendust Dynamicsi toega.</span><span class="sxs-lookup"><span data-stu-id="7c72c-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
+> 
+> - <span data-ttu-id="7c72c-149">Kui olete oma kandekuvale lisanud **soovituste juhtelemendi**, kasutades **ekraanipaigutuse kujundajat**, eemaldage ka see.</span><span class="sxs-lookup"><span data-stu-id="7c72c-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
 
 
 

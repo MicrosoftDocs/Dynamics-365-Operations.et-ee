@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="eb3e6-102">Atribuudid, atribuudigrupid ja nende seosed erinevate jaemüügiüksustega rakenduses Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="eb3e6-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="eb3e6-103">*Atribuudid* võimaldavad täpsemalt kirjeldada toodet ja selle omadusi kasutaja määratud väljade kaudu (nagu **mälu suurus**, **kõvaketta maht**, **vastavus energiatähisele** jne).</span><span class="sxs-lookup"><span data-stu-id="eb3e6-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="eb3e6-104">Rakenduses Microsoft Dynamics 365 for Finance and Operations saab atribuute seostada erinevate jaemüügiüksustega, nagu tootekategooriad ja jaemüügikanalid, ning neile saab määrata vaikeväärtused.</span><span class="sxs-lookup"><span data-stu-id="eb3e6-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="eb3e6-105">Tooted pärivad seejärel atribuudid ja atribuutide vaikeväärtused, kui need seostatakse tootekategooriate või jaemüügikanalitega.</span><span class="sxs-lookup"><span data-stu-id="eb3e6-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="eb3e6-106">Vaikeväärtusi saab alistada üksiku toote tasemel, jaemüügikanali tasemel või jaemüügikataloogis.</span><span class="sxs-lookup"><span data-stu-id="eb3e6-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="eb3e6-307">Kiirkaardil **Tooted** valige nõutav toode ja seejärel valige tooteruudustiku kohal suvand **Atribuudid**.</span><span class="sxs-lookup"><span data-stu-id="eb3e6-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="eb3e6-308">Järgmistel kiirkaartidel värskendage nõutavate atribuutide väärtusi:</span><span class="sxs-lookup"><span data-stu-id="eb3e6-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="eb3e6-309">Ühiskasutuses tootemeedium</span><span class="sxs-lookup"><span data-stu-id="eb3e6-309">Shared product media</span></span>
-    - <span data-ttu-id="eb3e6-310">Ühised toote atribuudid</span><span class="sxs-lookup"><span data-stu-id="eb3e6-310">Shared product attributes</span></span>
-    - <span data-ttu-id="eb3e6-311">Kanali meedium</span><span class="sxs-lookup"><span data-stu-id="eb3e6-311">Channel media</span></span>
-    - <span data-ttu-id="eb3e6-312">Kanali toote atribuudid</span><span class="sxs-lookup"><span data-stu-id="eb3e6-312">Channel product attributes</span></span>
+   - <span data-ttu-id="eb3e6-309">Ühiskasutuses tootemeedium</span><span class="sxs-lookup"><span data-stu-id="eb3e6-309">Shared product media</span></span>
+   - <span data-ttu-id="eb3e6-310">Ühised toote atribuudid</span><span class="sxs-lookup"><span data-stu-id="eb3e6-310">Shared product attributes</span></span>
+   - <span data-ttu-id="eb3e6-311">Kanali meedium</span><span class="sxs-lookup"><span data-stu-id="eb3e6-311">Channel media</span></span>
+   - <span data-ttu-id="eb3e6-312">Kanali toote atribuudid</span><span class="sxs-lookup"><span data-stu-id="eb3e6-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="eb3e6-313">Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.</span><span class="sxs-lookup"><span data-stu-id="eb3e6-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="eb3e6-313">Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.</span><span class="sxs-lookup"><span data-stu-id="eb3e6-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![Kataloogi toote atribuudigrupid](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="eb3e6-321">Järgmistel kiirkaartidel värskendage nõutavate atribuutide väärtusi:</span><span class="sxs-lookup"><span data-stu-id="eb3e6-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="eb3e6-322">Ühiskasutuses tootemeedium</span><span class="sxs-lookup"><span data-stu-id="eb3e6-322">Shared product media</span></span>
-    - <span data-ttu-id="eb3e6-323">Ühised toote atribuudid</span><span class="sxs-lookup"><span data-stu-id="eb3e6-323">Shared product attributes</span></span>
-    - <span data-ttu-id="eb3e6-324">Kanali meedium</span><span class="sxs-lookup"><span data-stu-id="eb3e6-324">Channel media</span></span>
-    - <span data-ttu-id="eb3e6-325">Kanali toote atribuudid</span><span class="sxs-lookup"><span data-stu-id="eb3e6-325">Channel product attributes</span></span>
+   - <span data-ttu-id="eb3e6-322">Ühiskasutuses tootemeedium</span><span class="sxs-lookup"><span data-stu-id="eb3e6-322">Shared product media</span></span>
+   - <span data-ttu-id="eb3e6-323">Ühised toote atribuudid</span><span class="sxs-lookup"><span data-stu-id="eb3e6-323">Shared product attributes</span></span>
+   - <span data-ttu-id="eb3e6-324">Kanali meedium</span><span class="sxs-lookup"><span data-stu-id="eb3e6-324">Channel media</span></span>
+   - <span data-ttu-id="eb3e6-325">Kanali toote atribuudid</span><span class="sxs-lookup"><span data-stu-id="eb3e6-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="eb3e6-326">Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.</span><span class="sxs-lookup"><span data-stu-id="eb3e6-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="eb3e6-326">Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.</span><span class="sxs-lookup"><span data-stu-id="eb3e6-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="f3a84-104">Elektroonilise aruandluse ülevaade</span><span class="sxs-lookup"><span data-stu-id="f3a84-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f3a84-105">Teema annab ülevaate elektroonilise aruandluse (ER) tööriista kohta.</span><span class="sxs-lookup"><span data-stu-id="f3a84-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="f3a84-106">Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana.</span><span class="sxs-lookup"><span data-stu-id="f3a84-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="f3a84-344">ER võimaldab võtta automaatselt kasutusele aluskomponendi uusima versiooni muudatused praeguses tuletatud komponendi mustandiversioonis.</span><span class="sxs-lookup"><span data-stu-id="f3a84-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="f3a84-345">Seda protsessi nimetatakse *aluse muutmiseks*.</span><span class="sxs-lookup"><span data-stu-id="f3a84-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="f3a84-346">Näiteks uue seadusandluse muudatuse, mis on võetud kasutusele LCS-ist imporditud vormingu uusimas versioonis, saab ühendada automaatselt elektroonilise dokumendi kohandatud versiooniga.</span><span class="sxs-lookup"><span data-stu-id="f3a84-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="f3a84-347">Kõiki muudatusi, mida ei saa automaatselt ühendada, käsitletakse konfliktidena.</span><span class="sxs-lookup"><span data-stu-id="f3a84-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="f3a84-348">Need konfliktid esitatakse sobiva komponendi koosturis käsitsi lahendamiseks.</span><span class="sxs-lookup"><span data-stu-id="f3a84-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="f3a84-349">Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilises aruandluses vormingu versiooni värskendamine, kasutades selle vormingu alusversiooni** (osa äriprotsessist **7.5.5.3 Muudetud IT-teenuse/-lahenduse komponendi hankimine/arendamine (10683)**).</span><span class="sxs-lookup"><span data-stu-id="f3a84-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="f3a84-350">Finance and Operationsi lahenduses pakutavate ER-i konfiguratsioonide loend</span><span class="sxs-lookup"><span data-stu-id="f3a84-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="f3a84-351">Valdkonnapõhise andmemudeli konfiguratsioonid: pealkiri</span><span class="sxs-lookup"><span data-stu-id="f3a84-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="f3a84-352">Domeen</span><span class="sxs-lookup"><span data-stu-id="f3a84-352">Domain</span></span>                | <span data-ttu-id="f3a84-353">Andmemudel – sõltuva vormingu konfiguratsioonid: pealkiri</span><span class="sxs-lookup"><span data-stu-id="f3a84-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="f3a84-354">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="f3a84-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="f3a84-355">Auditifaili mudel</span><span class="sxs-lookup"><span data-stu-id="f3a84-355">Audit file model</span></span>                                 | <span data-ttu-id="f3a84-356">Finantsaudit</span><span class="sxs-lookup"><span data-stu-id="f3a84-356">Financial audit</span></span>       |                                                   |                                                                    |

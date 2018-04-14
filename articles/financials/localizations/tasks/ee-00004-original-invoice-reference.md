@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 023a23410acf4133658b7954ee41aa196d78ede6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f976dfc1f251001bdcb1f70c8fdac512c53b4006
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="original-invoice-reference-eastern-europe"></a><span data-ttu-id="34656-103">Algse arve viide (Ida-Euroopa)</span><span class="sxs-lookup"><span data-stu-id="34656-103">Original invoice reference (Eastern Europe)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="34656-104">See ülesanne näitab teile, kuidas luua parandusridu müügitellimuse kreeditarvele.</span><span class="sxs-lookup"><span data-stu-id="34656-104">This task walks you through creating corrective lines in a credit note for a sales order.</span></span> <span data-ttu-id="34656-105">Ülesande loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Poola, andmeid.</span><span class="sxs-lookup"><span data-stu-id="34656-105">This task was created using the demo data company DEMF with a primary address in Poland.</span></span>
 

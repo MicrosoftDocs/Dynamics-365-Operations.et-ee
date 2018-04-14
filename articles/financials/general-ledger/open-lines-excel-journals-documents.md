@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="3a33f-104">Tööleheridade ja dokumentide avaldamine Excelist</span><span class="sxs-lookup"><span data-stu-id="3a33f-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3a33f-105">See teema selgitab, kuidas sisestada ja avaldada päevaraamatute ridasid Microsoft Excelist.</span><span class="sxs-lookup"><span data-stu-id="3a33f-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="3a33f-106">See sisaldab ka teavet mitmesuguste mallide kohta, mida sisestatava kande tüübist olenevalt kasutada saate.</span><span class="sxs-lookup"><span data-stu-id="3a33f-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="3a33f-107">Kasutajad saavad sisestada ja avaldada finantstöölehtede ridu Microsoft Excelist.</span><span class="sxs-lookup"><span data-stu-id="3a33f-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="3a33f-108">Pärast töölehe loomist kuvab nupp **Ava read Excelis** saadaolevad mallid.</span><span class="sxs-lookup"><span data-stu-id="3a33f-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="3a33f-109">Mallid on mõeldud konkreetsete stsenaariumide toetamiseks, kuid töölehel ei toetata iga kontotüübi kombinatsiooni.</span><span class="sxs-lookup"><span data-stu-id="3a33f-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="3a33f-110">Järgmises tabelis on näidatud saadaolevad mallid ja kontotüübid, mida need toetavad.</span><span class="sxs-lookup"><span data-stu-id="3a33f-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="3a33f-111">**Mall**</span><span class="sxs-lookup"><span data-stu-id="3a33f-111">**Template**</span></span>             | <span data-ttu-id="3a33f-112">**Toetatud kontotüübid**</span><span class="sxs-lookup"><span data-stu-id="3a33f-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="3a33f-113">**Mallile juurdepääsemise viis**</span><span class="sxs-lookup"><span data-stu-id="3a33f-113">**How to access the template**</span></span>                                                          |

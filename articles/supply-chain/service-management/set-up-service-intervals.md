@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: 03ebf4fd4615eac77e6f990a2d4e7f7326c0d257
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b9146fe032e3ee248085713437faf5b9b219f9d
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-service-intervals"></a><span data-ttu-id="0d819-103">Hooldusintervallide seadistamine</span><span class="sxs-lookup"><span data-stu-id="0d819-103">Set up service intervals</span></span>  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0d819-104">Hooldusintervall näitab sagedust, millega hooldustellimuse ridu hooldusleppe ridade jaoks hooldustellimuste automaatsel loomisel luuakse.</span><span class="sxs-lookup"><span data-stu-id="0d819-104">Service interval indicates the frequency with which service order lines are created for service agreement lines when you create service orders.</span></span>
 

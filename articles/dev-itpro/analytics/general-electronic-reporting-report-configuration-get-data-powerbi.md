@@ -18,17 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6587189fe2a366caebd0dbaf34487d578815bb94
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a><span data-ttu-id="bddfd-103">Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse</span><span class="sxs-lookup"><span data-stu-id="bddfd-103">Configure Electronic reporting to pull data into Power BI</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bddfd-104">See teema selgitab, kuidas saate kasutada oma elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete üleviimine teie rakenduse Finance and Operations eksemplarist Power BI teenustesse.</span><span class="sxs-lookup"><span data-stu-id="bddfd-104">This topic explains how you can use your Electronic reporting (ER) configuration to arrange the transfer of data from your instance of Finance and Operations to Power BI services.</span></span> <span data-ttu-id="bddfd-105">Näitena kasutab see teema Intrastati kandeid äriandmetena, mis tuleb üle viia.</span><span class="sxs-lookup"><span data-stu-id="bddfd-105">As an example, this topic uses Intrastat transactions as business data that must be transferred.</span></span> <span data-ttu-id="bddfd-106">Power BI kaardi visualisatsioon kasutab selle Intrastati kande andmeid, et esitleda Power BI aruandes ettevõtte impordi-/eksporditegevuse analüüsi vaadet.</span><span class="sxs-lookup"><span data-stu-id="bddfd-106">The Power BI map visualization uses this Intrastat transaction data to present a view for analysis of company import/export activities on the Power BI report.</span></span>
 
@@ -118,9 +117,9 @@ ms.lasthandoff: 02/23/2018
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a><span data-ttu-id="bddfd-217">Power BI aruande loomine uut andmekogumit kasutades</span><span class="sxs-lookup"><span data-stu-id="bddfd-217">Create a Power BI report by using the new dataset</span></span>
 1. <span data-ttu-id="bddfd-218">Klõpsake loodud Power BI andmekogumit **Impordi ja ekspordi üksikasjad**.</span><span class="sxs-lookup"><span data-stu-id="bddfd-218">Click the **Import and export details** Power BI dataset that you created.</span></span> 
 2. <span data-ttu-id="bddfd-219">Konfigureerige visualiseerimine.</span><span class="sxs-lookup"><span data-stu-id="bddfd-219">Configure the visualization.</span></span> <span data-ttu-id="bddfd-220">Näiteks valige visualiseerimine **Täidetud kaart** ja konfigureerige see järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="bddfd-220">For example, select the **Filled map** visualization, and configure it as follows:</span></span>
- -   <span data-ttu-id="bddfd-221">Määrake andmekogumi väli **CountryOrigin** kaardi visualiseerimise väljale **Asukoht**.</span><span class="sxs-lookup"><span data-stu-id="bddfd-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
- -   <span data-ttu-id="bddfd-222">Määrake andmekogumi väli **Summa** kaardi visualiseerimise väljale **Värvi küllastus**.</span><span class="sxs-lookup"><span data-stu-id="bddfd-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
- -   <span data-ttu-id="bddfd-223">Lisage andmekogumi väljad **Tegevus** ja **Aasta** kaardi visualiseerimise väljade kogumikule **Filtrid**.</span><span class="sxs-lookup"><span data-stu-id="bddfd-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
+   -   <span data-ttu-id="bddfd-221">Määrake andmekogumi väli **CountryOrigin** kaardi visualiseerimise väljale **Asukoht**.</span><span class="sxs-lookup"><span data-stu-id="bddfd-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
+   -   <span data-ttu-id="bddfd-222">Määrake andmekogumi väli **Summa** kaardi visualiseerimise väljale **Värvi küllastus**.</span><span class="sxs-lookup"><span data-stu-id="bddfd-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
+   -   <span data-ttu-id="bddfd-223">Lisage andmekogumi väljad **Tegevus** ja **Aasta** kaardi visualiseerimise väljade kogumikule **Filtrid**.</span><span class="sxs-lookup"><span data-stu-id="bddfd-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
 
 3. <span data-ttu-id="bddfd-224">Salvestage Power BI aruanne kui **Impordi ja ekspordi üksikasjade aruanne**.</span><span class="sxs-lookup"><span data-stu-id="bddfd-224">Save the Power BI report as **Import and export details report**.</span></span> <span data-ttu-id="bddfd-225">[![Impordi ja ekspordi üksikasjade aruanne](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)Pange tähele, et kaart näitab riike/piirkondi, mis on mainitud Exceli failis (selles näites Austria ja Šveits).</span><span class="sxs-lookup"><span data-stu-id="bddfd-225">[![Import and export details report](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Note that the map shows the countries/regions that are mentioned in the Excel file (Austria and Switzerland in this example).</span></span> <span data-ttu-id="bddfd-226">Need riigid/regioonid on tehtud värviliseks, et näidata iga ühe arveldatud summade osakaalu.</span><span class="sxs-lookup"><span data-stu-id="bddfd-226">These countries/regions are colored to show the proportion of invoiced amounts for each.</span></span> 
 4. <span data-ttu-id="bddfd-227">Värskendage Intrastati kannete loendit.</span><span class="sxs-lookup"><span data-stu-id="bddfd-227">Update the list of Intrastat transactions.</span></span> <span data-ttu-id="bddfd-228">Itaalias pärinev ekspordikanne on lisatud.</span><span class="sxs-lookup"><span data-stu-id="bddfd-228">The export transaction that originated from Italy is added.</span></span> <span data-ttu-id="bddfd-229">[![Intrastati kannete loend](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span><span class="sxs-lookup"><span data-stu-id="bddfd-229">[![Intrastat transactions list](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span></span> 

@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="75aaa-103">Töötajate arengu Power BI sisu</span><span class="sxs-lookup"><span data-stu-id="75aaa-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="75aaa-104">Selles teemas kirjeldatakse **töötajate arengu** Microsoft Power BI sisu.</span><span class="sxs-lookup"><span data-stu-id="75aaa-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="75aaa-124">Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale.</span><span class="sxs-lookup"><span data-stu-id="75aaa-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="75aaa-125">Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span><span class="sxs-lookup"><span data-stu-id="75aaa-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="75aaa-126">Andmemudelid ja üksused</span><span class="sxs-lookup"><span data-stu-id="75aaa-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="75aaa-127">Üksus</span><span class="sxs-lookup"><span data-stu-id="75aaa-127">Entity</span></span>                   | <span data-ttu-id="75aaa-128">Sisu</span><span class="sxs-lookup"><span data-stu-id="75aaa-128">Contents</span></span>                                                                                                   | <span data-ttu-id="75aaa-129">Seosed teiste üksustega</span><span class="sxs-lookup"><span data-stu-id="75aaa-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="75aaa-130">Kalendri tasakaalustus</span><span class="sxs-lookup"><span data-stu-id="75aaa-130">Calendar Offset</span></span>          | <span data-ttu-id="75aaa-131">Kalendri tasakaalustused aruannete tükeldamiseks</span><span class="sxs-lookup"><span data-stu-id="75aaa-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="75aaa-132">Varasem ametikoha määramine, ametikoha trend, töötaja trend, lõpetatud lepinguga töötaja</span><span class="sxs-lookup"><span data-stu-id="75aaa-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a86709bc222339531a21997510a65c138024256c
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-training-courses"></a><span data-ttu-id="3850a-103">Koolituskursuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="3850a-103">Set up training courses</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="3850a-104">Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.</span><span class="sxs-lookup"><span data-stu-id="3850a-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
@@ -81,15 +80,15 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="course-tasks"></a><span data-ttu-id="3850a-134">Kursuse ülesanded</span><span class="sxs-lookup"><span data-stu-id="3850a-134">Course tasks</span></span>
 <span data-ttu-id="3850a-135">Iga kursuse puhul saate täita järgmisi ülesandeid.</span><span class="sxs-lookup"><span data-stu-id="3850a-135">For each course, you can complete the following tasks.</span></span>
--   <span data-ttu-id="3850a-136">Osalejate registreerimine</span><span class="sxs-lookup"><span data-stu-id="3850a-136">Register participants</span></span>
--   <span data-ttu-id="3850a-137">Registreerimise lõpptähtaja määramine</span><span class="sxs-lookup"><span data-stu-id="3850a-137">Specify a registration deadline</span></span>
--   <span data-ttu-id="3850a-138">Osalejate vähima ja suurima arvu määratlemine</span><span class="sxs-lookup"><span data-stu-id="3850a-138">Define the minimum and maximum number of participants</span></span>
--   <span data-ttu-id="3850a-139">Kursuse asukoha ja klassiruumi määramine</span><span class="sxs-lookup"><span data-stu-id="3850a-139">Assign a course location and classroom</span></span>
--   <span data-ttu-id="3850a-140">Kursusel osalejatele hotellide soovitamine</span><span class="sxs-lookup"><span data-stu-id="3850a-140">Recommend hotels to course participants</span></span>
--   <span data-ttu-id="3850a-141">Kursuse kirjelduse loomine töötaja iseteeninduses reklaamimiseks.</span><span class="sxs-lookup"><span data-stu-id="3850a-141">Create a course description, which you can then advertise on Employee self service</span></span>
+- <span data-ttu-id="3850a-136">Osalejate registreerimine</span><span class="sxs-lookup"><span data-stu-id="3850a-136">Register participants</span></span>
+- <span data-ttu-id="3850a-137">Registreerimise lõpptähtaja määramine</span><span class="sxs-lookup"><span data-stu-id="3850a-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="3850a-138">Osalejate vähima ja suurima arvu määratlemine</span><span class="sxs-lookup"><span data-stu-id="3850a-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="3850a-139">Kursuse asukoha ja klassiruumi määramine</span><span class="sxs-lookup"><span data-stu-id="3850a-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="3850a-140">Kursusel osalejatele hotellide soovitamine</span><span class="sxs-lookup"><span data-stu-id="3850a-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="3850a-141">Kursuse kirjelduse loomine töötaja iseteeninduses reklaamimiseks.</span><span class="sxs-lookup"><span data-stu-id="3850a-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
   ><span data-ttu-id="3850a-142">**Märkus.** Kursuse saate kustutada ainult siis, kui keegi pole sellele registreerunud.</span><span class="sxs-lookup"><span data-stu-id="3850a-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
-    
+
 ## <a name="course-statuses"></a><span data-ttu-id="3850a-143">Kursuse olekud</span><span class="sxs-lookup"><span data-stu-id="3850a-143">Course statuses</span></span>
 <span data-ttu-id="3850a-144">Järgmises tabelis on antud võimalikud kursuse olekud ja toimingud, mida saate teha, kui kursus on teatud olekuga.</span><span class="sxs-lookup"><span data-stu-id="3850a-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 

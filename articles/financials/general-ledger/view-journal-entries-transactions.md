@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2ada46f8be165282557044468a24291185b4aa5b
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a><span data-ttu-id="ff80b-103">Töölehe kirjete ja kannete kuvamine</span><span class="sxs-lookup"><span data-stu-id="ff80b-103">View journal entries and transactions</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff80b-104">Selles artiklis selgitatakse erinevaid viise, kuidas vaadata töölehe kandeid ja kandeid.</span><span class="sxs-lookup"><span data-stu-id="ff80b-104">This article explains the various ways that you can view journal entries and transactions.</span></span> 
 
@@ -55,7 +54,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="ff80b-128">**Kande päritolu** – selles aruandes kuvatakse konto töölehe ja kande, raamatupidamise ja aruandlusvaluuta järgi.</span><span class="sxs-lookup"><span data-stu-id="ff80b-128">**Transaction origin** – This transaction report shows the account by journal, and by transaction, accounting, and reporting currency.</span></span> <span data-ttu-id="ff80b-129">See kuvab ka tasakaalustamisel kasutatud töölehe iga rea.</span><span class="sxs-lookup"><span data-stu-id="ff80b-129">It also shows each line of the journal that was used as an offset.</span></span>
 
 
-##<a name="see-also"></a><span data-ttu-id="ff80b-130">Vt ka</span><span class="sxs-lookup"><span data-stu-id="ff80b-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ff80b-130">Vt ka</span><span class="sxs-lookup"><span data-stu-id="ff80b-130">See also</span></span>
 - [<span data-ttu-id="ff80b-131">Pearaamatukonto saldod</span><span class="sxs-lookup"><span data-stu-id="ff80b-131">General ledger account balances</span></span>](general-ledger-account-balances.md) 
 - [<span data-ttu-id="ff80b-132">Arveldusallika uurija</span><span class="sxs-lookup"><span data-stu-id="ff80b-132">Accounting source explorer</span></span>](..\accounts-payable\accounting-source-explorer.md)
 - [<span data-ttu-id="ff80b-133">Finantsaruandlus</span><span class="sxs-lookup"><span data-stu-id="ff80b-133">Financial reporting</span></span>](financial-reporting-getting-started.md)

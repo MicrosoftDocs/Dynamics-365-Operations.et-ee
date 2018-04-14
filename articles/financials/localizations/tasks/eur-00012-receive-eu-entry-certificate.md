@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c16815a1b573f749153d7ae5bfccf53a2a76a19f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e1a0ec00d5431f1514fe55a4d9344de0955ce503
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="receive-an-eu-entry-certificate"></a><span data-ttu-id="0ff15-103">EL-i kandesertifikaadi saamine</span><span class="sxs-lookup"><span data-stu-id="0ff15-103">Receive an EU entry certificate</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0ff15-104">See protseduur selgitab muu osapoole väljastatud ja teie kliendilt saadud EL-i kandesertifikaadi registreerimist.</span><span class="sxs-lookup"><span data-stu-id="0ff15-104">This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</span></span>
 

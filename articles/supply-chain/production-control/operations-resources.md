@@ -20,17 +20,16 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7f3a4e8fa4bbcbc837d28aef2ef2b9065ab8d5aa
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="operations-resources"></a><span data-ttu-id="32974-104">Operationsi ressursid</span><span class="sxs-lookup"><span data-stu-id="32974-104">Operations resources</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="32974-105">Operatsiooniressurssid sooritavad projekti või tootmisprotsessi tegevusi.</span><span class="sxs-lookup"><span data-stu-id="32974-105">Operations resources perform the activities of a project or a production process.</span></span> <span data-ttu-id="32974-106">Need võivad olla erinevat tüüpi ja erinevate võimalustega.</span><span class="sxs-lookup"><span data-stu-id="32974-106">They can be of different types, and can have different capabilities.</span></span> 
 

@@ -18,16 +18,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 903eeac732f0c5dc3d94d609ee08988029e33f0c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1285b62130e0c3b0eb30773b3ccaa7a31d844461
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="practice-manager-power-bi-content"></a><span data-ttu-id="5a972-104">Harjutushalduri Power BI sisu</span><span class="sxs-lookup"><span data-stu-id="5a972-104">Practice manager Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5a972-105">See teema kirjeldab, mida hõlmab **harjutushalduri** Microsofti Power BI sisu.</span><span class="sxs-lookup"><span data-stu-id="5a972-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="5a972-106">See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.</span><span class="sxs-lookup"><span data-stu-id="5a972-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -118,7 +118,9 @@ ms.lasthandoff: 01/17/2018
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a><span data-ttu-id="5a972-228">Üksus: ProjectAccountingCube\_TotalEstimatedCosts</span><span class="sxs-lookup"><span data-stu-id="5a972-228">Entity: ProjectAccountingCube\_TotalEstimatedCosts</span></span> 
 <span data-ttu-id="5a972-229">**Andmeallikas:** ProjTable</span><span class="sxs-lookup"><span data-stu-id="5a972-229">**Data source:** ProjTable</span></span>
 
-| <span data-ttu-id="5a972-230">Peamine koondmõõtmine</span><span class="sxs-lookup"><span data-stu-id="5a972-230">Key aggregate measurement</span></span>       | <span data-ttu-id="5a972-231">Väli</span><span class="sxs-lookup"><span data-stu-id="5a972-231">Field</span></span>               | <span data-ttu-id="5a972-232">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5a972-232">Description</span></span> |
-|---------------------------------|---------------------|-------------|
+
+|    <span data-ttu-id="5a972-230">Peamine koondmõõtmine</span><span class="sxs-lookup"><span data-stu-id="5a972-230">Key aggregate measurement</span></span>    |        <span data-ttu-id="5a972-231">Väli</span><span class="sxs-lookup"><span data-stu-id="5a972-231">Field</span></span>        |                                          <span data-ttu-id="5a972-232">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="5a972-232">Description</span></span>                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="5a972-233">Lõpetatud tegevuse plaanitud kulu</span><span class="sxs-lookup"><span data-stu-id="5a972-233">Completed activity planned cost</span></span> | <span data-ttu-id="5a972-234">Sum(TotalCostPrice)</span><span class="sxs-lookup"><span data-stu-id="5a972-234">Sum(TotalCostPrice)</span></span> | <span data-ttu-id="5a972-235">Kogu omahinna prognoos kõigi lõpetatud ülesannetega projektikannete tüüpide kohta.</span><span class="sxs-lookup"><span data-stu-id="5a972-235">The total cost price in estimates for all project transaction types that have completed tasks.</span></span> |
+
 

@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: e50fc2b6b8f4cd91e9a5593297fff2e9a6ef5525
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e326acd4a7f681b02ee4846d36e94559ce6dbdfa
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a><span data-ttu-id="0046d-103">Pearaamatu käibemaksu sisestusgruppide seadistamine</span><span class="sxs-lookup"><span data-stu-id="0046d-103">Set up ledger posting groups for sales tax</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0046d-104">Käibemaks arvutatakse ja sisestatakse põhikontodele, mis on määratud pearaamatu sisestusgruppides.</span><span class="sxs-lookup"><span data-stu-id="0046d-104">Sales tax is calculated and posted to main accounts that are specified in the Ledger posting groups.</span></span> <span data-ttu-id="0046d-105">Pearaamatu sisestusgrupid on seotud iga käibemaksukoodiga.</span><span class="sxs-lookup"><span data-stu-id="0046d-105">Ledger posting groups are attached to each sales tax code.</span></span> <span data-ttu-id="0046d-106">Saate iga käibemaksukoodi jaoks seadistada individuaalseid pearaamatu sisestusgruppe, kasutada ühte pearaamatu sisestusgruppi kõigi käibemaksukoodide jaoks või määrata käibemaksukoodidele mitu pearaamatu sisestusgruppi.</span><span class="sxs-lookup"><span data-stu-id="0046d-106">You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes.</span></span> <span data-ttu-id="0046d-107">Salvestamisel kasutatakse demoettevõtet DEMF.</span><span class="sxs-lookup"><span data-stu-id="0046d-107">This recording uses the DEMF demo company.</span></span> 
 

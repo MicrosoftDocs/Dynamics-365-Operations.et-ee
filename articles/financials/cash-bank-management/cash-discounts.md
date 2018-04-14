@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 52e6003dfddc398c19055405bf936195febe0737
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-discounts"></a><span data-ttu-id="56b3f-104">Skontod</span><span class="sxs-lookup"><span data-stu-id="56b3f-104">Cash discounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="56b3f-105">Skontod seadistatakse ning neid ühiskasutatakse ostu- ja müügireskontroga.</span><span class="sxs-lookup"><span data-stu-id="56b3f-105">Cash discounts are setup and shared for Accounts payable and Accounts receivable.</span></span>  <span data-ttu-id="56b3f-106">Saadaolevat skontot saab määratleda kliendi- või hankija arve puhul ja see võetakse, kui arve tasutakse skonto kuupäeval.</span><span class="sxs-lookup"><span data-stu-id="56b3f-106">The cash discount available can be defined on the customer invoice or vendor invoice, and will be taken if the invoice is paid within the cash discount date.</span></span> 
 
@@ -65,6 +64,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="56b3f-135">1. märts = 80</span><span class="sxs-lookup"><span data-stu-id="56b3f-135">March 1 = 80</span></span>
 
 <span data-ttu-id="56b3f-136">15. veebruaril sisestatakse arve 1000 USD skonto tingimustega 20D2%.</span><span class="sxs-lookup"><span data-stu-id="56b3f-136">An invoice for 1000 USD with cash discount terms of 20D2% is posted on February 15.</span></span> <span data-ttu-id="56b3f-137">Arve summa arvestusvaluutas on 1100 eurot.</span><span class="sxs-lookup"><span data-stu-id="56b3f-137">The accounting currency amount of the invoice is 1100 EUR.</span></span> <span data-ttu-id="56b3f-138">Makse summas 980 USA dollarit tasakaalustatakse arvega 1. märtsil.</span><span class="sxs-lookup"><span data-stu-id="56b3f-138">A payment for 980 USD is settled with the invoice on March 1.</span></span> <span data-ttu-id="56b3f-139">Skonto summa on 20 dollarit.</span><span class="sxs-lookup"><span data-stu-id="56b3f-139">The cash discount amount is 20 USD.</span></span> <span data-ttu-id="56b3f-140">Makse summa arvestusvaluutas on 784 eurot.</span><span class="sxs-lookup"><span data-stu-id="56b3f-140">The accounting currency amount of the payment is 784 EUR.</span></span> <span data-ttu-id="56b3f-141">Skonto summa arvestusvaluutas arvutatakse 1. märtsi vahetuskursiga: 20 \* 80 / 100 = 16 eurot.</span><span class="sxs-lookup"><span data-stu-id="56b3f-141">The accounting currency amount of the cash discount is calculated by using the exchange rate as of March 1: 20 \* 80 / 100 = 16 EUR.</span></span>
+
 | <span data-ttu-id="56b3f-142">**Märkus**</span><span class="sxs-lookup"><span data-stu-id="56b3f-142">**Note**</span></span>                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="56b3f-143">Kui lehel Müügireskontro parameetrid või Ostureskontro parameetrid on tehtud valik Arvuta skontod osaliste maksete jaoks, kasutatakse iga osamakse kuupäeval kehtivat vahetuskurssi.</span><span class="sxs-lookup"><span data-stu-id="56b3f-143">If the Calculate cash discounts for partial payments option is selected in the Accounts receivable parameters or Accounts payable parameters pages, the exchange rate that is in effect on the date of each partial payment is used.</span></span> |

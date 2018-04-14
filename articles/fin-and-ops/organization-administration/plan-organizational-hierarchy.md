@@ -19,17 +19,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a290f6f453d8440d6e68a13915339d3da31d959a
-ms.openlocfilehash: 47c97ee32c345f584c8efa7a00b7ff3ec4b70475
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e04926abca47444d06708f34278eb02bb1640cd6
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="plan-your-organizational-hierarchy"></a><span data-ttu-id="ae4b4-103">Organisatsiooni hierarhia kavandamine</span><span class="sxs-lookup"><span data-stu-id="ae4b4-103">Plan your organizational hierarchy</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ae4b4-104">Organisatsioonide ja organisatsiooni hierarhiate seadistamiseks rakenduses Microsoft Dynamics 365 for Finance and Operations plaanige kindlasti oma ettevõtte mudel.</span><span class="sxs-lookup"><span data-stu-id="ae4b4-104">Before you set up organizations and organization hierarchies in Microsoft Dynamics 365 for Finance and Operations, make sure that you plan how your business will be modeled.</span></span> <span data-ttu-id="ae4b4-105">Organisatsioonimudelil on rakenduse Dynamics 365 for Finance and Operations juurutamisele ja äriprotsessidele oluline mõju.</span><span class="sxs-lookup"><span data-stu-id="ae4b4-105">The organization model has a significant effect on the implementation of Finance and Operations and on business processes.</span></span> 
 
@@ -158,7 +157,7 @@ ms.lasthandoff: 04/03/2018
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a><span data-ttu-id="ae4b4-254">Kui organisatsiooni mudel on tootmisüksus</span><span class="sxs-lookup"><span data-stu-id="ae4b4-254">If the organization is modeled as an operating unit</span></span> 
 <span data-ttu-id="ae4b4-255">Kui seadused ja raamatupidamistavad teie organisatsioonide asukohariikides/-piirkondades on samad, võite kasutada ühesuguseid rahandusaasta lõpetamise protseduure.</span><span class="sxs-lookup"><span data-stu-id="ae4b4-255">If laws and accounting practices are the same among the countries/regions where your organizations are located, you may use a single set of year-end procedures.</span></span> <span data-ttu-id="ae4b4-256">See tähendab, et saate kasutada organisatsioonide puhul tootmisüksuste mudelit.</span><span class="sxs-lookup"><span data-stu-id="ae4b4-256">This means that you can model the organizations as operating units.</span></span> <span data-ttu-id="ae4b4-257">Kõik tootmisüksused peavad kasutama sama rahandusaasta sulgemise protseduuri.</span><span class="sxs-lookup"><span data-stu-id="ae4b4-257">All operating units must use the same year-end closing procedure.</span></span> 
-   
+
 ### <a name="number-sequences"></a><span data-ttu-id="ae4b4-258">Numbriseeriad</span><span class="sxs-lookup"><span data-stu-id="ae4b4-258">Number sequences</span></span>
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a><span data-ttu-id="ae4b4-259">Kui organisatsiooni mudel on juriidiline isik</span><span class="sxs-lookup"><span data-stu-id="ae4b4-259">If the organization is modeled as a legal entity</span></span>
 <span data-ttu-id="ae4b4-260">Mõne viite numbriseeriad saab seadistada juriidilise isiku kohta.</span><span class="sxs-lookup"><span data-stu-id="ae4b4-260">Number sequences for some references can be set up per legal entity.</span></span> <span data-ttu-id="ae4b4-261">Mõningaid numbriseeriaid saab kasutada ühiselt.</span><span class="sxs-lookup"><span data-stu-id="ae4b4-261">Some number sequences can be shared.</span></span> 

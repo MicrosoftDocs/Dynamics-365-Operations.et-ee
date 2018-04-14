@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b06a5385d7c33ddcfe6bfabbfda6a1f7fa99aada
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84e4a714b1233a0fb4ebb04757ba12a5d14d6f44
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-sepa-direct-debit-mandate"></a><span data-ttu-id="08a9f-103">SEPA otsedeebeti loa seadistamine</span><span class="sxs-lookup"><span data-stu-id="08a9f-103">Set up SEPA direct debit mandate</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="08a9f-104">Ühtse euromaksete piirkonna (Single Euro Payment Area, SEPA) otsekorraldus võimaldab kreeditoril võtta vahendeid kliendi pangakontolt eeldusel, et klient on andnud kreeditorile allkirjastatud loa.</span><span class="sxs-lookup"><span data-stu-id="08a9f-104">A Single Euro Payment Area (SEPA) direct debit lets a creditor collect funds from a customer's bank account, provided that the customer has granted a signed mandate to the creditor.</span></span> <span data-ttu-id="08a9f-105">Kliendi allkirjastatud luba volitab kreeditori makset koguma ja annab kliendi pangale juhise see välja maksta.</span><span class="sxs-lookup"><span data-stu-id="08a9f-105">The mandate that the customer signs authorizes the creditor to collect a payment and instructs the customer's bank to pay the collection.</span></span> <span data-ttu-id="08a9f-106">See teema on korraldatud nii, et näidata SEPA otsedeebeti mandaatide seadistamise protsessi.</span><span class="sxs-lookup"><span data-stu-id="08a9f-106">This topic is organized to show the process for setting up SEPA direct debit mandates.</span></span>
 

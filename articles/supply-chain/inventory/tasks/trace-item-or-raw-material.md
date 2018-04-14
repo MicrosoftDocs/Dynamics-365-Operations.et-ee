@@ -17,15 +17,15 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 9054455a2a48e851d085a1b1ff8040261ce17672
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5c8126322f85b317a9737978295ec0ebd2fd7cdc
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="2bac6-103">Kauba või toormaterjali jälgimine</span><span class="sxs-lookup"><span data-stu-id="2bac6-103">Trace an item or raw material</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2bac6-104">See protseduur näitab, kuidas kasutada kauba jälgimist tuvastamiseks, kus kaupu või toormaterjale on kasutatud või kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="2bac6-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="2bac6-105">Selle protseduuri abil saate kauba tuvastada, liikuda tagasi selle allika juurde ja seejärel edasi läbi tootmise ja valmis toote müügi.</span><span class="sxs-lookup"><span data-stu-id="2bac6-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="2bac6-106">Seda protsessi saab kasutada sellest mõjutatud klientide, müügitellimuste ja muu uurimiseks.</span><span class="sxs-lookup"><span data-stu-id="2bac6-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="2bac6-107">Protseduur kasutab demoettevõtte USP2 andmeid.</span><span class="sxs-lookup"><span data-stu-id="2bac6-107">This procedure uses demo data company USP2.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eeaf1675b6653ab2c8c04d05ec1bff3cd0bb18d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 67817a3db1aa7d90fd64509b707f075b22010dcb
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-email-templates"></a><span data-ttu-id="33832-103">Meilimallide haldamine</span><span class="sxs-lookup"><span data-stu-id="33832-103">Manage email templates</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="33832-104">Saate teisaldada teabe teie organisatsiooni andmebaasist uue dokumendi järjehoidjatesse ja kasutada seda mallides, mis aitavad teil tõhusalt kandidaatidega suhelda.</span><span class="sxs-lookup"><span data-stu-id="33832-104">You can transfer information from your organization’s database to the bookmarks in a new document and use it in templates that help you communicate efficiently with applicants and candidates.</span></span> <span data-ttu-id="33832-105">Selleks loote malli, mis sisaldab standardteksti ja mõnda järjehoidjat, kuhu süsteemiandmed tuleks lisada.</span><span class="sxs-lookup"><span data-stu-id="33832-105">To do this, you create a template that contains standard text and some bookmarks where the system data should be inserted.</span></span> <span data-ttu-id="33832-106">Näiteks saate sisestada kandidaadi aadressi ja kontaktteabe Microsoft Wordi dokumenti, mida saate kasutada selle kandidaadiga suhtlemisel.</span><span class="sxs-lookup"><span data-stu-id="33832-106">For example, you can insert address and contact information for an applicant into a Microsoft Word document that you can use when communicating with that applicant.</span></span> <span data-ttu-id="33832-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="33832-107">The demo data company used to create this procedure is USMF.</span></span>
 

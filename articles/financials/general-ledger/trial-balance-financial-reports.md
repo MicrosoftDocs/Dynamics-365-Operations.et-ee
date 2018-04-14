@@ -19,17 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77e46e8693c65410ac7c44754edcb3c181f2aa18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7363ac8d83c5d8f9da550f76ad888a666149cd6e
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="trial-balance-financial-reports"></a><span data-ttu-id="30e3e-104">Proovibilansi finantsaruanded</span><span class="sxs-lookup"><span data-stu-id="30e3e-104">Trial balance financial reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="30e3e-105">See artikkel kirjeldab proovibilansi vaikearuandeid.</span><span class="sxs-lookup"><span data-stu-id="30e3e-105">This article describes the default reports for trial balances.</span></span> <span data-ttu-id="30e3e-106">See kirjeldab ka nende aruannetega seotud alustalasid ja kuidas saate muuta aruandeid, et sobituda teie ärivajadustega.</span><span class="sxs-lookup"><span data-stu-id="30e3e-106">It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</span></span> 
 
@@ -99,7 +98,7 @@ ms.lasthandoff: 03/26/2018
     -   <span data-ttu-id="30e3e-175">**FD** – finantsandmed, mis sisaldavad ainult möödunud aasta deebeteid</span><span class="sxs-lookup"><span data-stu-id="30e3e-175">**FD** – Financial data that contains only debits for the last year</span></span>
     -   <span data-ttu-id="30e3e-176">**FD** – finantsandmed, mis sisaldavad ainult möödunud aasta kreediteid</span><span class="sxs-lookup"><span data-stu-id="30e3e-176">**FD** – Financial data that contains only credits for the last year</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="30e3e-177">Vt ka</span><span class="sxs-lookup"><span data-stu-id="30e3e-177">See also</span></span>
 --------

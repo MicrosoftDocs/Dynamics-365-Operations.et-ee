@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 9e4b0cb73c56e7800bfb90c037687dd4b91887f6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 83b15e89e87d2936cd175e05fc99e7faf4c0467e
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-fraud-alerts"></a><span data-ttu-id="0f59a-104">Pettuseteatiste seadistamine</span><span class="sxs-lookup"><span data-stu-id="0f59a-104">Set up fraud alerts</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="0f59a-105">Selles teemas selgitatakse, kuidas seadistada kriteeriume ja reegleid, et panna potentsiaalselt petturlikud müügitellimused täiendavaks ülevaatamiseks ootele.</span><span class="sxs-lookup"><span data-stu-id="0f59a-105">This topic explains how to set up criteria and rules to place potentially fraudulent sales orders on hold for further review.</span></span> <span data-ttu-id="0f59a-106">Pettuste ülevaatamise funktsioon võimaldab kontrollida müügitellimuse teabe kehtivust.</span><span class="sxs-lookup"><span data-stu-id="0f59a-106">Fraud review functionality is used to determine the validity of information in a sales order.</span></span> <span data-ttu-id="0f59a-107">Kui müügitellimuse teave tundub organisatsiooni petturliku tegevuse kriteeriumite ja reeglite alusel kahtlane, võidakse tellimus ootele panna, et administraator saaks selle üle vaadata.</span><span class="sxs-lookup"><span data-stu-id="0f59a-107">If the information in the sales order appears to be questionable based on an organization’s fraud criteria and rules, the order may be put on hold for further review by an administrator.</span></span>
 

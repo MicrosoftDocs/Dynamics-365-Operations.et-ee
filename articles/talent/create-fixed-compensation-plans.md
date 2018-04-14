@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 0af9dd6c399032597b863f0fa15c58d3e094ba5b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a><span data-ttu-id="3f94d-104">Põhipalgaplaanide loomine</span><span class="sxs-lookup"><span data-stu-id="3f94d-104">Create fixed compensation plans</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="3f94d-105">Põhipalk on töötaja regulaarne brutopalk või tasu.</span><span class="sxs-lookup"><span data-stu-id="3f94d-105">Fixed compensation refers to an employee's regular gross salary or wages.</span></span> <span data-ttu-id="3f94d-106">See teema kirjeldab komponente, mis peavad olema seadistatud, enne kui saate luua põhipalga plaani ja töötajaid registreerida.</span><span class="sxs-lookup"><span data-stu-id="3f94d-106">This topic describes the components that must be set up before you can create a fixed compensation plan and enroll employees.</span></span>
 

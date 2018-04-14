@@ -20,17 +20,16 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2066f6c9dd71144a330e00a71f02dfc21dd930bc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dccb702c072b7fae41f5200783a9c95eb8c54988
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-and-manage-attributes"></a><span data-ttu-id="ae1d8-104">Atribuutide loomine ja haldamine</span><span class="sxs-lookup"><span data-stu-id="ae1d8-104">Create and manage attributes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="ae1d8-105">Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Retaili atribuute.</span><span class="sxs-lookup"><span data-stu-id="ae1d8-105">This article describes attributes in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="ae1d8-106">Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja selle omadusi kirjeldada.</span><span class="sxs-lookup"><span data-stu-id="ae1d8-106">Attributes let you describe a product and its characteristics through user-defined fields.</span></span>
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 01/17/2018
 
 ## <a name="attribute-type"></a><span data-ttu-id="ae1d8-173">Atribuudi tüüp</span><span class="sxs-lookup"><span data-stu-id="ae1d8-173">Attribute type</span></span>
   <span data-ttu-id="ae1d8-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span><span class="sxs-lookup"><span data-stu-id="ae1d8-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span></span> 
-  
+
 <span data-ttu-id="ae1d8-175">Atribuudid põhinevad atribuuditüüpidel.</span><span class="sxs-lookup"><span data-stu-id="ae1d8-175">Attributes are based on attribute types.</span></span> <span data-ttu-id="ae1d8-176">Atribuudi tüübid tuvastavad andmete tüübi, mida saab konkreetse atribuudi jaoks sisestada.</span><span class="sxs-lookup"><span data-stu-id="ae1d8-176">Attribute types identify the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="ae1d8-177">Praegu toetab Microsoft Dynamics 365 for Retail järgmisi atribuuditüüpe.</span><span class="sxs-lookup"><span data-stu-id="ae1d8-177">Currently, Microsoft Dynamics 365 for Retail supports the following attribute types:</span></span>
 
 -   <span data-ttu-id="ae1d8-178">**Currency** – see atribuudi tüüp toetab valuuta väärtusi.</span><span class="sxs-lookup"><span data-stu-id="ae1d8-178">**Currency** – This attribute type supports currency values.</span></span> <span data-ttu-id="ae1d8-179">Seda saab piirata (see tähendab, et see toetab väärtuste vahemikku) või jätta lahtiseks.</span><span class="sxs-lookup"><span data-stu-id="ae1d8-179">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>

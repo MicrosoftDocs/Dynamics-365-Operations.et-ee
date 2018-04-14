@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ff2357d5266c45be2f403e463c72089d73db21b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 829a0bbb1b5ab01728c096872b0ada27cfc570c9
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-vendor-account"></a><span data-ttu-id="5d1f4-103">Hankija konto loomine</span><span class="sxs-lookup"><span data-stu-id="5d1f4-103">Create a vendor account</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5d1f4-104">See protseduur selgitab, kuidas luua hankijakontot ning lisada aadressi ja kontaktteavet.</span><span class="sxs-lookup"><span data-stu-id="5d1f4-104">This procedure shows how to create a vendor account, and add an address and contact information.</span></span> <span data-ttu-id="5d1f4-105">Protseduur ei näita, kuidas täita kõiki välju ostmiseks ja lõplikuks eesmärgiks.</span><span class="sxs-lookup"><span data-stu-id="5d1f4-105">The procedure does not show how to populate all fields for purchasing and financial purposes.</span></span> <span data-ttu-id="5d1f4-106">Lisateavet nende väljade kohta leiate väljade kirjeldusest.</span><span class="sxs-lookup"><span data-stu-id="5d1f4-106">To learn more about those fields, please read the field descriptions.</span></span> <span data-ttu-id="5d1f4-107">Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="5d1f4-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="5d1f4-108">Hankijakontod loob tavaliselt hankespetsialist või müügireskontro personal.</span><span class="sxs-lookup"><span data-stu-id="5d1f4-108">Vendor accounts are typically created by a procurement professional or accounts receivable personnel.</span></span>
 

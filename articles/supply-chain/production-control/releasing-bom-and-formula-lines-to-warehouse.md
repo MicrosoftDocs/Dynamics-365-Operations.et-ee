@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 162b6d660fb5ec8df79dc44b89dea87d877c6470
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a><span data-ttu-id="9e700-103">Koosluse- ja valemiridade lattu väljastamine</span><span class="sxs-lookup"><span data-stu-id="9e700-103">Release BOM and formula lines to the warehouse</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9e700-104">Selles teemas kirjeldatakse koosluseridade ja valemiridade toormaterjali lattu väljastamise protsessi.</span><span class="sxs-lookup"><span data-stu-id="9e700-104">This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse.</span></span> <span data-ttu-id="9e700-105">Koosluse- või valemirea väljastamisel lattu tuvastab süsteem kõigepealt selle, kas materjal on juba saadaval tootmise sisendasukohas tööde juhtimise moodulis, kus materjali tarbitakse tootmisprotsessi jaoks.</span><span class="sxs-lookup"><span data-stu-id="9e700-105">When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.</span></span>
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/07/2018
 - <span data-ttu-id="9e700-119">**Koosluse- ja valemiridade väljastamine pakett-töö kaudu või käsitsi interaktsioonina** – selle meetodi puhul saab koosluse- ja valemiridu väljastada ainult pakett-töö **Koosluse- ja valemiridade automaatne väljastamine** kaudu või käsitsi interaktsioonina.</span><span class="sxs-lookup"><span data-stu-id="9e700-119">**Release BOM and formula lines via a batch job or as a manual interaction** – In this method, BOM and formula lines can be released only through the **Automatic release of BOM and formula lines** batch job or as a manual interaction.</span></span> <span data-ttu-id="9e700-120">Koosluse- ja valemiridade käsitsi väljastamiseks valige toimingupaanil tootmistellimuse loendilehel või tootmistellimuse üksikasjade lehel käsk **Väljasta lattu**.</span><span class="sxs-lookup"><span data-stu-id="9e700-120">To manually release BOM and formula lines, on the production order list page or the production order details page, on the Action Pane, select **Release to warehouse**.</span></span>
 
 <span data-ttu-id="9e700-121">Kiiret demonistratsiooni, kuidas väljastada koosluse- ja valemiridasid tootmisse, kasutades pakett-tööd, saate vaadata järgmisest lühikesest YouTube'i videost.</span><span class="sxs-lookup"><span data-stu-id="9e700-121">For a quick demonstration of how to release BOM and formula lines to production by using a batch job, watch this short YouTube video:</span></span>
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a><span data-ttu-id="9e700-122">Koosluse- ja valemiridade väljastamine pakett-töö abil</span><span class="sxs-lookup"><span data-stu-id="9e700-122">Releasing the BOM and formula lines by using a batch job</span></span>
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/07/2018
 ![Materjali väljastamise näide toimingu numbri järgi](media/two-operations.PNG)
 
 <span data-ttu-id="9e700-177">Kiiret demonistratsiooni, kuidas väljastada materjali proportsionaalselt lõpetatud kaupade hulgaga, saate vaadata järgmisest lühikesest YouTube'i videost.</span><span class="sxs-lookup"><span data-stu-id="9e700-177">For a quick demonstration of how to release material in proportion to the amount of finished goods, watch this short YouTube video:</span></span>
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a><span data-ttu-id="9e700-178">Materjali väljastamine proportsionaalselt lõpetatud kaupade hulgaga</span><span class="sxs-lookup"><span data-stu-id="9e700-178">Release material in proportion to the amount of finished goods</span></span>
 

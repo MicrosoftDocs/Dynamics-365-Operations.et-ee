@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="1ead4-103">Kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1ead4-104">Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1ead4-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="1ead4-111">Tegevuste otseteed</span><span class="sxs-lookup"><span data-stu-id="1ead4-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="1ead4-112">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-112">**To do this**</span></span>                                    | <span data-ttu-id="1ead4-113">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-134">Kuva praegu saadaolevad kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-134">View currently available shortcuts</span></span>                | <span data-ttu-id="1ead4-135">Alt + Shift + K</span><span class="sxs-lookup"><span data-stu-id="1ead4-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="1ead4-136">Kuupäevavalija kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="1ead4-137">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-137">**To do this**</span></span>                        | <span data-ttu-id="1ead4-138">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-153">Valik Mitte kunagi (või maksimaalne kuupäev)</span><span class="sxs-lookup"><span data-stu-id="1ead4-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="1ead4-154">E</span><span class="sxs-lookup"><span data-stu-id="1ead4-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="1ead4-155">Kiirinfo kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="1ead4-156">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-156">**To do this**</span></span>                                                                  | <span data-ttu-id="1ead4-157">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-168">Praeguse kiirinfo ahendamine</span><span class="sxs-lookup"><span data-stu-id="1ead4-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="1ead4-169">Alt + 0</span><span class="sxs-lookup"><span data-stu-id="1ead4-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="1ead4-170">Filtreerimise kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="1ead4-171">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-171">**To do this**</span></span>                     | <span data-ttu-id="1ead4-172">**Vajutage**</span><span class="sxs-lookup"><span data-stu-id="1ead4-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-181">Täpsema filtreerimise/sortimise avamine</span><span class="sxs-lookup"><span data-stu-id="1ead4-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="1ead4-182">Ctrl + Shift + F3</span><span class="sxs-lookup"><span data-stu-id="1ead4-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="1ead4-183">Vormi kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="1ead4-184">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-184">**To do this**</span></span>                                      | <span data-ttu-id="1ead4-185">**Vajutage**</span><span class="sxs-lookup"><span data-stu-id="1ead4-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-216">Vormi sulgemine muudatusi salvestamata</span><span class="sxs-lookup"><span data-stu-id="1ead4-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="1ead4-217">Alt + Shift + Q</span><span class="sxs-lookup"><span data-stu-id="1ead4-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="1ead4-218">Vormil navigeerimise kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="1ead4-219">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-219">**To do this**</span></span>                                      | <span data-ttu-id="1ead4-220">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-245">Lülitu reavaatele</span><span class="sxs-lookup"><span data-stu-id="1ead4-245">Switch to lines view</span></span>                                | <span data-ttu-id="1ead4-246">Ctrl + Shift + L</span><span class="sxs-lookup"><span data-stu-id="1ead4-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="1ead4-247">Ruudustiku kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="1ead4-248">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="1ead4-249">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-283">Praeguse veeru ruudustiku filtrimise avamine (kui fookus on päisereas)</span><span class="sxs-lookup"><span data-stu-id="1ead4-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="1ead4-284">Sisestusklahv</span><span class="sxs-lookup"><span data-stu-id="1ead4-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="1ead4-285">Sisestamise kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="1ead4-286">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-286">**To do this**</span></span>                                                               | <span data-ttu-id="1ead4-287">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-306">Fookuse vahetamine tekstiala ja tööriistariba vahel HTML-i redaktori juhtelemendis</span><span class="sxs-lookup"><span data-stu-id="1ead4-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="1ead4-307">F6</span><span class="sxs-lookup"><span data-stu-id="1ead4-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="1ead4-308">Sõnumite kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="1ead4-309">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-309">**To do this**</span></span>           | <span data-ttu-id="1ead4-310">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-313">Sõnumiriba avamine</span><span class="sxs-lookup"><span data-stu-id="1ead4-313">Go to the Message Bar</span></span>    | <span data-ttu-id="1ead4-314">Ctrl + F7</span><span class="sxs-lookup"><span data-stu-id="1ead4-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="1ead4-315">Navigeerimise kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="1ead4-316">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-316">**To do this**</span></span>                                                                | <span data-ttu-id="1ead4-317">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-348">Liikumine paanile Kiirinfo (mis võib hõlmata selle avamist)</span><span class="sxs-lookup"><span data-stu-id="1ead4-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="1ead4-349">Alt + M, B või Ctrl + F2</span><span class="sxs-lookup"><span data-stu-id="1ead4-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="1ead4-350">Isikupärastamise otseteed</span><span class="sxs-lookup"><span data-stu-id="1ead4-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="1ead4-351">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="1ead4-352">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1ead4-397">Isikupärastamise režiimist väljumine (režiimis Isikupärastamine)</span><span class="sxs-lookup"><span data-stu-id="1ead4-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="1ead4-398">Esc-klahv</span><span class="sxs-lookup"><span data-stu-id="1ead4-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="1ead4-399">Segmenditud kirje kiirklahvid</span><span class="sxs-lookup"><span data-stu-id="1ead4-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="1ead4-400">**Toiming**</span><span class="sxs-lookup"><span data-stu-id="1ead4-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="1ead4-401">**Klahv või klahvikombinatsioon**</span><span class="sxs-lookup"><span data-stu-id="1ead4-401">**Press**</span></span>                        |

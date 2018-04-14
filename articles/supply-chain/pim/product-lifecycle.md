@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="024f0-103">Toote töötsükli olek</span><span class="sxs-lookup"><span data-stu-id="024f0-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="024f0-104">Toote elutsükli olek dokumenteerib väljastatud toote või tootevariandi elutsükli oleku.</span><span class="sxs-lookup"><span data-stu-id="024f0-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="024f0-105">Toote elutsükli olekud määratleb kasutaja, tavaliselt tootejuht või tooteetaloni andmehaldur.</span><span class="sxs-lookup"><span data-stu-id="024f0-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="024f0-106">Kindel elutsükli olek võib mõjutada konkreetseid äriprotsesse, näiteks koondplaneerimist.</span><span class="sxs-lookup"><span data-stu-id="024f0-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="024f0-107">Väljastatud toote või tootevariandi saab seostada toote elutsükli olekuga, mis dokumenteerib, millises elutsükli olekus konkreetne toode või variant praegu on.</span><span class="sxs-lookup"><span data-stu-id="024f0-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="024f0-108">Saate määratleda mis tahes arvu toote elutsükleid, määrates oleku nime ja kirjelduse.</span><span class="sxs-lookup"><span data-stu-id="024f0-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="024f0-109">Saate valida ühe elutsükli oleku uute väljastatud toodete vaikeolekuks.</span><span class="sxs-lookup"><span data-stu-id="024f0-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="024f0-110">Väljastatud tootevariandid pärivad oma toote elutsükli oleku loomise ajal oma väljastatud tooteetalonilt.</span><span class="sxs-lookup"><span data-stu-id="024f0-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="024f0-111">Väljastatud tooteetaloni elutsükli oleku muutmisel saate värskendada kõik sama algolekuga variandid.</span><span class="sxs-lookup"><span data-stu-id="024f0-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="024f0-112">Uue toote elutsükli oleku loomine</span><span class="sxs-lookup"><span data-stu-id="024f0-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="024f0-113">Uue toote elutsükli oleku loomiseks esitage või lugege tegevusejuhist **Uue toote elutsükli oleku loomine**.</span><span class="sxs-lookup"><span data-stu-id="024f0-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="024f0-114">Toote elutsükli vaikeoleku loomiseks esitage või lugege tegevusejuhist **Toote elutsükli vaikeoleku loomine**.</span><span class="sxs-lookup"><span data-stu-id="024f0-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="024f0-134">Jõudluse huvides on väga soovitatav seostada kõik aegunud väljastatud tooted või tootevariandid, eriti kui töötate ühekordselt kasutatavate toote konfiguratsioonivariantidega, toote elutsükli olekuga, mis on koondplaneerimise jaoks inaktiveeritud.</span><span class="sxs-lookup"><span data-stu-id="024f0-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="024f0-135">Migratsiooni, impordi ja ekspordi vaikesätted</span><span class="sxs-lookup"><span data-stu-id="024f0-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="024f0-136">Andmeüksused ei toeta toote elutsükli olekuid ja elutsükli olekut ei saa määrata väljastatud toote andmeüksuste kaudu muutuvaks.</span><span class="sxs-lookup"><span data-stu-id="024f0-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="024f0-137">Varasematest väljalasetest migreerimisel on kõigi toodete ja tootevariantide elutsükli olek tühi.</span><span class="sxs-lookup"><span data-stu-id="024f0-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="024f0-138">Väljastatud toodete importimisel andmeüksuse kaudu rakendatakse loomisel elutsükli vaikeolek.</span><span class="sxs-lookup"><span data-stu-id="024f0-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="024f0-139">Väljastatud tootevariantide importimisel andmeüksuse kaudu imporditakse väljastatud tooteetaloni toote elutsükli olek.</span><span class="sxs-lookup"><span data-stu-id="024f0-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="024f0-140">Aegunud toodete ja tootevariantide leidmine</span><span class="sxs-lookup"><span data-stu-id="024f0-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="024f0-141">Saate käivitada simulatsioonanalüüsi aegunud väljastatud toodete või tootevariantide leidmiseks ning seejärel nende toote elutsükli oleku värskendada.</span><span class="sxs-lookup"><span data-stu-id="024f0-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="024f0-142">Aegunud toodete leidmiseks esitage ja lugege tegevusejuhist **Aegunud tootevariantide leidmine ja toote elutsükli oleku määramine**.</span><span class="sxs-lookup"><span data-stu-id="024f0-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="024f0-143">Tegevusejuhis näitab, kuidas leida aegunud väljastatud tooteid või tootevariante ja kuidas seostada toote elutsükli olek aegunud toodetega.</span><span class="sxs-lookup"><span data-stu-id="024f0-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="024f0-144">See näitab ka, kuidas vaadata simulatsiooni tulemusi ja hinnata, kui palju tooteid ning tootevariante uue toote elutsükli olekuga seostatakse, kui värskendus käivitatakse ilma simulatsioonita.</span><span class="sxs-lookup"><span data-stu-id="024f0-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="024f0-145">Käivitades analüüsi simulatsioonirežiimis, kuvatakse aegununa tuvastatud tooted ja tootevariandid kindlal vormil, kus neid saab hõlpsasti üle vaadata.</span><span class="sxs-lookup"><span data-stu-id="024f0-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="024f0-146">Analüüs otsib kandeid ja konkreetseid koondandmeid, et tuvastada tooteid, millel puuduvad muutuval perioodil nõudlus ja koondandmed, mis võivad nõudlust põhjustada.</span><span class="sxs-lookup"><span data-stu-id="024f0-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="024f0-147">Uued väljastatud tooted muutuval perioodil saab analüüsist välja jätta.</span><span class="sxs-lookup"><span data-stu-id="024f0-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="024f0-148">Kui analüüsi simulatsioon tagastab oodatud tulemuse, saab kasutaja käivitada analüüsi ja määrata uue toote elutsükli oleku kõigile toodetele, mille analüüs tuvastas aegununa.</span><span class="sxs-lookup"><span data-stu-id="024f0-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="024f0-149">Pange tähele, et kogu analüüs ja kõik värskendused tuleb teha samas juriidilises isikus.</span><span class="sxs-lookup"><span data-stu-id="024f0-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="024f0-150">Väljastatud toodete ja tootevariantide valimise ja värskendamise kriteeriumid</span><span class="sxs-lookup"><span data-stu-id="024f0-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="024f0-151">Väljastatud toodete ja tootevariantide valimiseks ja värskendamiseks saate kasutada järgmisi kriteeriume.</span><span class="sxs-lookup"><span data-stu-id="024f0-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="024f0-152">Toote või tootevariandi toote elutsükli olek peab erinema uuest soovitud olekust.</span><span class="sxs-lookup"><span data-stu-id="024f0-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

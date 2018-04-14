@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="eccdb-103">Osa komplekteerimise kinnitus</span><span class="sxs-lookup"><span data-stu-id="eccdb-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="eccdb-104">Osade komplekteerimine võimaldab kinnitada iga varude osa mobiilsel seadmel komplekteerimis- või inventuuritöö kaudu.</span><span class="sxs-lookup"><span data-stu-id="eccdb-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="eccdb-105">Komplekteerimiste puhul saate kinnitada töödeldava töö koguse kuni komplekteeritaval tööl määratud koguseni.</span><span class="sxs-lookup"><span data-stu-id="eccdb-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="eccdb-106">Inventuuritöö puhul võite skannida loendatavad varud ja jälgida kogusummat.</span><span class="sxs-lookup"><span data-stu-id="eccdb-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="eccdb-122">Kui töö tüüp on komplekteerimine või inventuur, saab teha järgmisi valikuid.</span><span class="sxs-lookup"><span data-stu-id="eccdb-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="eccdb-123">Suvand</span><span class="sxs-lookup"><span data-stu-id="eccdb-123">Option</span></span>        | <span data-ttu-id="eccdb-124">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="eccdb-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="eccdb-125">Osa komplekteerimise kinnitus</span><span class="sxs-lookup"><span data-stu-id="eccdb-125">Piece picking confirmation</span></span>   | <span data-ttu-id="eccdb-126">Saadaval komplekteerimise ja inventuuri töötüüpide jaoks.</span><span class="sxs-lookup"><span data-stu-id="eccdb-126">Available for pick and counting work types.</span></span> <span data-ttu-id="eccdb-127">Toote kinnitamine valitakse automaatselt.</span><span class="sxs-lookup"><span data-stu-id="eccdb-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="eccdb-128">Võimaldab iga varude üksust mobiilsel seadmel skannides kinnitada.</span><span class="sxs-lookup"><span data-stu-id="eccdb-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="eccdb-129">Osade maksimaalne arv</span><span class="sxs-lookup"><span data-stu-id="eccdb-129">Maximum number of pieces</span></span>     | <span data-ttu-id="eccdb-130">Komplekteerimistöö jaoks saadaval, kui osa komplekteerimise kinnitamine on lubatud.</span><span class="sxs-lookup"><span data-stu-id="eccdb-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="eccdb-131">Määrab piirmäära ühikute arvule, mille peate kinnitama.</span><span class="sxs-lookup"><span data-stu-id="eccdb-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="eccdb-123">Suvand</span><span class="sxs-lookup"><span data-stu-id="eccdb-123">Option</span></span>           |                                                                            <span data-ttu-id="eccdb-124">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="eccdb-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="eccdb-125">Osa komplekteerimise kinnitus</span><span class="sxs-lookup"><span data-stu-id="eccdb-125">Piece picking confirmation</span></span> | <span data-ttu-id="eccdb-126">Saadaval komplekteerimise ja inventuuri töötüüpide jaoks.</span><span class="sxs-lookup"><span data-stu-id="eccdb-126">Available for pick and counting work types.</span></span> <span data-ttu-id="eccdb-127">Toote kinnitamine valitakse automaatselt.</span><span class="sxs-lookup"><span data-stu-id="eccdb-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="eccdb-128">Võimaldab iga varude üksust mobiilsel seadmel skannides kinnitada.</span><span class="sxs-lookup"><span data-stu-id="eccdb-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="eccdb-129">Osade maksimaalne arv</span><span class="sxs-lookup"><span data-stu-id="eccdb-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="eccdb-130">Komplekteerimistöö jaoks saadaval, kui osa komplekteerimise kinnitamine on lubatud.</span><span class="sxs-lookup"><span data-stu-id="eccdb-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="eccdb-131">Määrab piirmäära ühikute arvule, mille peate kinnitama.</span><span class="sxs-lookup"><span data-stu-id="eccdb-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 

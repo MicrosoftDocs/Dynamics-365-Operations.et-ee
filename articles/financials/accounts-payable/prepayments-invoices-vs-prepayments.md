@@ -19,23 +19,23 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9d2ce5dd0e9072c0f8430ee5390c8cafed9a6f60
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="prepayment-invoices-vs-prepayments"></a><span data-ttu-id="a210c-105">Ettemaksuarved vs. ettemaksed</span><span class="sxs-lookup"><span data-stu-id="a210c-105">Prepayment invoices vs. prepayments</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a210c-106">See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada.</span><span class="sxs-lookup"><span data-stu-id="a210c-106">This topic describes and contrasts the two methods that organizations can use for advance payments (prepayments).</span></span> <span data-ttu-id="a210c-107">Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve.</span><span class="sxs-lookup"><span data-stu-id="a210c-107">In one method, you create a prepayment invoice that is associated with a purchase order.</span></span> <span data-ttu-id="a210c-108">Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.</span><span class="sxs-lookup"><span data-stu-id="a210c-108">In the other method, you create prepayment journal vouchers by creating journal entries and marking them as prepayment journal vouchers.</span></span>
 
 <span data-ttu-id="a210c-109">Organisatsioonid võivad väljastada hankijatele ettemakseid kaupade või teenuste eest enne nende täitmist.</span><span class="sxs-lookup"><span data-stu-id="a210c-109">Organizations might issue prepayments (advance payments) to vendors for goods or services before those goods or services are fulfilled.</span></span> <span data-ttu-id="a210c-110">Hankijatele ettemaksete väljastamiseks on kaks võimalust.</span><span class="sxs-lookup"><span data-stu-id="a210c-110">Two methods can be used to issue prepayments to vendors.</span></span> <span data-ttu-id="a210c-111">Riski vähendamiseks saate ettemakseid jälgida, määratledes ettemakse ostutellimusel.</span><span class="sxs-lookup"><span data-stu-id="a210c-111">To minimize risk, you can track prepayments by defining the prepayment on a purchase order.</span></span> <span data-ttu-id="a210c-112">Selle meetodi puhul peate looma ostutellimusega seotud ettemaksuarve.</span><span class="sxs-lookup"><span data-stu-id="a210c-112">For this method, you must create a prepayment invoice that is associated with a purchase order.</span></span> <span data-ttu-id="a210c-113">Seda meetodit nimetatakse ettemaksuarvelduseks.</span><span class="sxs-lookup"><span data-stu-id="a210c-113">This method is referred to as prepayment invoicing.</span></span> <span data-ttu-id="a210c-114">Organisatsioonid, mis ei soovi ettemakseid nii täpselt jälgida või ei saa hankijalt ettemaksearvet, saavad ettemaksuarvelduse meetodi asemel kasutada ettemakse töölehekandeid.</span><span class="sxs-lookup"><span data-stu-id="a210c-114">Organizations that don't want to track prepayments as closely or don't receive a prepayment invoice from their vendor can use prepayment journal vouchers instead of the prepayment invoicing method.</span></span> <span data-ttu-id="a210c-115">Ettemakse töölehekannete loomiseks looge töölehekanded ja märkige need ettemakse töölehekanneteks.</span><span class="sxs-lookup"><span data-stu-id="a210c-115">You can create prepayment journal vouchers by creating journal entries and marking them as prepayment journal vouchers.</span></span> <span data-ttu-id="a210c-116">Selle meetodi puhul ei saa te jälgida, millised hankija ettemaksed milliste ostutellimustega on seotud.</span><span class="sxs-lookup"><span data-stu-id="a210c-116">For this method, you can't track which prepayments to a vendor are made against which purchase orders.</span></span> <span data-ttu-id="a210c-117">Siiski saate märkida sisestatud makse tasakaalustamiseks ostutellimuse suhtes.</span><span class="sxs-lookup"><span data-stu-id="a210c-117">However, you can mark a posted prepayment for settlement against a purchase order.</span></span>
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a><span data-ttu-id="a210c-118">Ettemaksuarvelduse vs ettemaksete kasutamine</span><span class="sxs-lookup"><span data-stu-id="a210c-118">When to use prepayment invoicing vs. prepayments</span></span>
+
 | <span data-ttu-id="a210c-119">Ettemaksearveldus</span><span class="sxs-lookup"><span data-stu-id="a210c-119">Prepayment invoicing</span></span>                                                                | <span data-ttu-id="a210c-120">Ettemaksed</span><span class="sxs-lookup"><span data-stu-id="a210c-120">Prepayments</span></span>                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | <span data-ttu-id="a210c-121">Määratlege ostutellimusel ettemakse väärtus.</span><span class="sxs-lookup"><span data-stu-id="a210c-121">Define a prepayment value on the purchase order.</span></span>                                    | <span data-ttu-id="a210c-122">Määratlege ostutellimusel ettemakse väärtus.</span><span class="sxs-lookup"><span data-stu-id="a210c-122">No prepayment value is defined on the purchase order.</span></span>                    |

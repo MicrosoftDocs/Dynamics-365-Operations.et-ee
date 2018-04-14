@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ce38e94ae4c7b28b4e182018add7c046f685e46
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: df1abf5029917c40392922f0d018d13bb54045ac
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="authorize-an-adjusted-forecast"></a><span data-ttu-id="295d0-105">Korrigeeritud prognoosi autoriseerimine</span><span class="sxs-lookup"><span data-stu-id="295d0-105">Authorize an adjusted forecast</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="295d0-106">Kõiki prognoosi andmeid ei pea kohe autoriseerima.</span><span class="sxs-lookup"><span data-stu-id="295d0-106">Not all forecast data must be authorized immediately.</span></span> <span data-ttu-id="295d0-107">Selles artiklis selgitatakse, kuidas määrata perioodi, milleks prognoos on autoriseeritud.</span><span class="sxs-lookup"><span data-stu-id="295d0-107">This article explains how you can specify the period that a forecast is authorized for.</span></span> <span data-ttu-id="295d0-108">Samuti selgitatakse, kuidas autoriseerida prognoosiks kindlaid ettevõtteid ja prognoosimudeleid.</span><span class="sxs-lookup"><span data-stu-id="295d0-108">It also explains how you can authorize the forecast for specific companies and forecast models.</span></span>
 

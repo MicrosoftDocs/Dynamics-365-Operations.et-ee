@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a83a3325c80eb6fc1a19371a6115413ca9b82185
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="time-and-attendance-registration"></a><span data-ttu-id="82e73-104">Tööajaarvestuse registreerimine</span><span class="sxs-lookup"><span data-stu-id="82e73-104">Time and attendance registration</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="82e73-105">Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine.</span><span class="sxs-lookup"><span data-stu-id="82e73-105">Time registration workers can enter different types of time registrations, for example, clock in, clock out, register indirect activities, and absence registration.</span></span> <span data-ttu-id="82e73-106">See teema kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks.</span><span class="sxs-lookup"><span data-stu-id="82e73-106">This topic describes registrations, their calculation, approval, and the use of workflow to add structure and automated approval to the process of approving timesheets.</span></span> 
 
@@ -95,7 +94,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="82e73-168">Tööajaarvestuse päevade koguarv</span><span class="sxs-lookup"><span data-stu-id="82e73-168">Time and attendance days total</span></span>            | <span data-ttu-id="82e73-169">Töövoog kontrollib registreerimise näiteks päeva eeldatava töötundide arvu suhtes.</span><span class="sxs-lookup"><span data-stu-id="82e73-169">The workflow validates registrations against, for example, the expected number of work hours for the day.</span></span> |                                                                                                                                                                                                                                                       |
 | <span data-ttu-id="82e73-170">Tööajaarvestuse töölehe registreerimine.</span><span class="sxs-lookup"><span data-stu-id="82e73-170">Time and attendance journal registration.</span></span> | <span data-ttu-id="82e73-171">Töövoog kontrollib iga registreerimistüübi puhul registreerimise kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="82e73-171">The workflow validates each registration type for the date of the registration.</span></span>                           | <span data-ttu-id="82e73-172">Tööajaarvestus • sisseregistreerimine • väljaregistreerimine • puudumine • puhkepaus • lülituse kood • projekt • projektitegevus • kaudse tegevuse tootmistööd • järjekord enne • seadistus • protsess • kattumine • transport • järjekord pärast • alustusabi • lõpetusabi</span><span class="sxs-lookup"><span data-stu-id="82e73-172">Time and attendance • Clock-in • Clock-out • Absence • Break • Switch code • Project • Project activity • Indirect activity Production jobs • Queue before • Setup • Process • Overlap • Transport • Queue after • Start assistance • Stop assistance</span></span> |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a><span data-ttu-id="82e73-173">Kinnitatud registreerimiste ülekandmine</span><span class="sxs-lookup"><span data-stu-id="82e73-173">Transferring approved registrations</span></span>
 <span data-ttu-id="82e73-174">Pärast registreerimiste kinnitamist saate need üle kanda perioodilisse palgatöösse.</span><span class="sxs-lookup"><span data-stu-id="82e73-174">After approval of the registrations you can transfer them to a periodic payroll job.</span></span> <span data-ttu-id="82e73-175">Ülekantud registreerimine sisestatakse mis tahes sellega seotud tegevusse või töösse, näiteks tootmistellimusse või projekti.</span><span class="sxs-lookup"><span data-stu-id="82e73-175">A transferred registration is posted to an activity or job that it relates to, for example, a production order or a project.</span></span> <span data-ttu-id="82e73-176">Palgakanded luuakse iga töötaja kohta registreerimiste põhjal.</span><span class="sxs-lookup"><span data-stu-id="82e73-176">Payroll transactions are generated for each worker based on the registrations.</span></span>  

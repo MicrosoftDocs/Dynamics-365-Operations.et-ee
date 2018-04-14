@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="b6046-103">Finantsaruande loomine</span><span class="sxs-lookup"><span data-stu-id="b6046-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b6046-104">See teema sisaldab finantsaruande koostamise üldteavet.</span><span class="sxs-lookup"><span data-stu-id="b6046-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="b6046-115">Finantsaruande loomine</span><span class="sxs-lookup"><span data-stu-id="b6046-115">Generate a financial report</span></span>
 
 <span data-ttu-id="b6046-116">Finantsaruande loomiseks rakendusega Microsoft Dynamics 365 for Finance and Operations valige **Pearaamat** > **Päringud ja aruanded** > **Finantsaruanded**.</span><span class="sxs-lookup"><span data-stu-id="b6046-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="b6046-117">Valige loodav aruanne ja klõpsake nuppu **Loo**.</span><span class="sxs-lookup"><span data-stu-id="b6046-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="b6046-118">Täitke väli **Aruande kuupäev** ja klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="b6046-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="b6046-119">Kui aruanne on loodud, saab seda vaadata jaotises **Aruanded**.</span><span class="sxs-lookup"><span data-stu-id="b6046-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="b6046-120">Saate valida, kas soovite aruannet **Vaadata** või **Kustutada**.</span><span class="sxs-lookup"><span data-stu-id="b6046-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="b6046-117">Valige loodav aruanne ja klõpsake nuppu **Loo**.</span><span class="sxs-lookup"><span data-stu-id="b6046-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="b6046-118">Täitke väli **Aruande kuupäev** ja klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="b6046-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="b6046-119">Kui aruanne on loodud, saab seda vaadata jaotises **Aruanded**.</span><span class="sxs-lookup"><span data-stu-id="b6046-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="b6046-120">Saate valida, kas soovite aruannet **Vaadata** või **Kustutada**.</span><span class="sxs-lookup"><span data-stu-id="b6046-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="b6046-121">Aruande loomiseks **Aruande koostaja** abil avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo.</span><span class="sxs-lookup"><span data-stu-id="b6046-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="b6046-122">Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras.</span><span class="sxs-lookup"><span data-stu-id="b6046-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="b6046-123">Vaikimisi avaneb loodud aruanne Web Vieweris.</span><span class="sxs-lookup"><span data-stu-id="b6046-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="b6046-237">Valitud aruande definitsiooni avamine</span><span class="sxs-lookup"><span data-stu-id="b6046-237">Open the selected report definition</span></span>  | <span data-ttu-id="b6046-238">Ctrl+R</span><span class="sxs-lookup"><span data-stu-id="b6046-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="b6046-239">Valitud readefinitsiooni avamine</span><span class="sxs-lookup"><span data-stu-id="b6046-239">Open the selected row definition</span></span>     | <span data-ttu-id="b6046-240">Ctrl+O</span><span class="sxs-lookup"><span data-stu-id="b6046-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="b6046-241">Vt ka</span><span class="sxs-lookup"><span data-stu-id="b6046-241">See also</span></span>
 --------
 

@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506ca3aac7ad271ca7472f3b74627e94d97a74ee
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ca65d3c12abd64bef23954b45f73af1bf62f9f3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reduction-keys"></a><span data-ttu-id="66d32-105">Planeerimise koefitsiendid</span><span class="sxs-lookup"><span data-stu-id="66d32-105">Reduction keys</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="66d32-106">See artikkel sisaldab näiteid planeerimise koefitsiendi seadistamise kohta.</span><span class="sxs-lookup"><span data-stu-id="66d32-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="66d32-107">Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta.</span><span class="sxs-lookup"><span data-stu-id="66d32-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="66d32-108">Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.</span><span class="sxs-lookup"><span data-stu-id="66d32-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="66d32-110">See näide selgitab, kuidas vähendab planeerimise koefitsient nõudluse prognoosi nõudeid planeerimise koefitsiendiga määratletud protsentide ja perioodide alusel.</span><span class="sxs-lookup"><span data-stu-id="66d32-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  <span data-ttu-id="66d32-111">Seadistage lehel **Planeerimise koefitsiendid** järgmised read.</span><span class="sxs-lookup"><span data-stu-id="66d32-111">On the **Reduction keys** page, set up the following lines.</span></span>
-    | <span data-ttu-id="66d32-112">Muuda</span><span class="sxs-lookup"><span data-stu-id="66d32-112">Change</span></span> | <span data-ttu-id="66d32-113">Ühik</span><span class="sxs-lookup"><span data-stu-id="66d32-113">Unit</span></span>  | <span data-ttu-id="66d32-114">Protsent</span><span class="sxs-lookup"><span data-stu-id="66d32-114">Percent</span></span> |
-    |--------|-------|---------|
-    | <span data-ttu-id="66d32-115">1</span><span class="sxs-lookup"><span data-stu-id="66d32-115">1</span></span>      | <span data-ttu-id="66d32-116">Kuu</span><span class="sxs-lookup"><span data-stu-id="66d32-116">Month</span></span> | <span data-ttu-id="66d32-117">100</span><span class="sxs-lookup"><span data-stu-id="66d32-117">100</span></span>     |
-    | <span data-ttu-id="66d32-118">2</span><span class="sxs-lookup"><span data-stu-id="66d32-118">2</span></span>      | <span data-ttu-id="66d32-119">Kuu</span><span class="sxs-lookup"><span data-stu-id="66d32-119">Month</span></span> | <span data-ttu-id="66d32-120">75</span><span class="sxs-lookup"><span data-stu-id="66d32-120">75</span></span>      |
-    | <span data-ttu-id="66d32-121">3</span><span class="sxs-lookup"><span data-stu-id="66d32-121">3</span></span>      | <span data-ttu-id="66d32-122">Kuu</span><span class="sxs-lookup"><span data-stu-id="66d32-122">Month</span></span> | <span data-ttu-id="66d32-123">50</span><span class="sxs-lookup"><span data-stu-id="66d32-123">50</span></span>      |
-    | <span data-ttu-id="66d32-124">4</span><span class="sxs-lookup"><span data-stu-id="66d32-124">4</span></span>      | <span data-ttu-id="66d32-125">Kuu</span><span class="sxs-lookup"><span data-stu-id="66d32-125">Month</span></span> | <span data-ttu-id="66d32-126">25</span><span class="sxs-lookup"><span data-stu-id="66d32-126">25</span></span>      |
+1. <span data-ttu-id="66d32-111">Seadistage lehel **Planeerimise koefitsiendid** järgmised read.</span><span class="sxs-lookup"><span data-stu-id="66d32-111">On the **Reduction keys** page, set up the following lines.</span></span>
 
-2.  <span data-ttu-id="66d32-127">Linkige planeerimise koefitsient kauba laovarude grupiga.</span><span class="sxs-lookup"><span data-stu-id="66d32-127">Link the reduction key to the item's coverage group.</span></span>
-3.  <span data-ttu-id="66d32-128">Valige lehel **Koondplaanid** väljal **Vähenduspõhimõte** suvand **Protsent – planeerimise koefitsient**.</span><span class="sxs-lookup"><span data-stu-id="66d32-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
-4.  <span data-ttu-id="66d32-129">Looge nõudluse prognoos 1000 tk kuus.</span><span class="sxs-lookup"><span data-stu-id="66d32-129">Create a demand forecast of 1,000 pieces per month.</span></span>
+   | <span data-ttu-id="66d32-112">Muuda</span><span class="sxs-lookup"><span data-stu-id="66d32-112">Change</span></span> | <span data-ttu-id="66d32-113">Ühik</span><span class="sxs-lookup"><span data-stu-id="66d32-113">Unit</span></span>  | <span data-ttu-id="66d32-114">Protsent</span><span class="sxs-lookup"><span data-stu-id="66d32-114">Percent</span></span> |
+   |--------|-------|---------|
+   |   <span data-ttu-id="66d32-115">1</span><span class="sxs-lookup"><span data-stu-id="66d32-115">1</span></span>    | <span data-ttu-id="66d32-116">Kuu</span><span class="sxs-lookup"><span data-stu-id="66d32-116">Month</span></span> |   <span data-ttu-id="66d32-117">100</span><span class="sxs-lookup"><span data-stu-id="66d32-117">100</span></span>   |
+   |   <span data-ttu-id="66d32-118">2</span><span class="sxs-lookup"><span data-stu-id="66d32-118">2</span></span>    | <span data-ttu-id="66d32-119">Kuu</span><span class="sxs-lookup"><span data-stu-id="66d32-119">Month</span></span> |   <span data-ttu-id="66d32-120">75</span><span class="sxs-lookup"><span data-stu-id="66d32-120">75</span></span>    |
+   |   <span data-ttu-id="66d32-121">3</span><span class="sxs-lookup"><span data-stu-id="66d32-121">3</span></span>    | <span data-ttu-id="66d32-122">Kuu</span><span class="sxs-lookup"><span data-stu-id="66d32-122">Month</span></span> |   <span data-ttu-id="66d32-123">50</span><span class="sxs-lookup"><span data-stu-id="66d32-123">50</span></span>    |
+   |   <span data-ttu-id="66d32-124">4</span><span class="sxs-lookup"><span data-stu-id="66d32-124">4</span></span>    | <span data-ttu-id="66d32-125">Kuu</span><span class="sxs-lookup"><span data-stu-id="66d32-125">Month</span></span> |   <span data-ttu-id="66d32-126">25</span><span class="sxs-lookup"><span data-stu-id="66d32-126">25</span></span>    |
+
+
+2. <span data-ttu-id="66d32-127">Linkige planeerimise koefitsient kauba laovarude grupiga.</span><span class="sxs-lookup"><span data-stu-id="66d32-127">Link the reduction key to the item's coverage group.</span></span>
+3. <span data-ttu-id="66d32-128">Valige lehel **Koondplaanid** väljal **Vähenduspõhimõte** suvand **Protsent – planeerimise koefitsient**.</span><span class="sxs-lookup"><span data-stu-id="66d32-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4. <span data-ttu-id="66d32-129">Looge nõudluse prognoos 1000 tk kuus.</span><span class="sxs-lookup"><span data-stu-id="66d32-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
 <span data-ttu-id="66d32-130">Kui käivitate eelplaneerimise 1. jaanuaril, tabitakse nõudluse prognoosi nõudeid lehel **Planeerimise koefitsiendid** seadistatud protsentide järgi.</span><span class="sxs-lookup"><span data-stu-id="66d32-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="66d32-131">Koondplaani kantakse üle järgmised vajaduse kogused.</span><span class="sxs-lookup"><span data-stu-id="66d32-131">The following requirement quantities are transferred to the master plan.</span></span>
 
@@ -88,20 +89,21 @@ ms.lasthandoff: 11/03/2017
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="66d32-171">3. näide. Prognoosi vähendamise põhimõte Kanded – dünaamiline periood</span><span class="sxs-lookup"><span data-stu-id="66d32-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
 <span data-ttu-id="66d32-172">Enamasti on süsteemid seadistatud nii, et kanded vähendavad nõudluse prognoosi teatud prognoosiperioodide (nädalad, kuud jne) jooksul.</span><span class="sxs-lookup"><span data-stu-id="66d32-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="66d32-173">Need perioodid on määratletud planeerimise koefitsiendis.</span><span class="sxs-lookup"><span data-stu-id="66d32-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="66d32-174">Siiski võib ka kahe nõudluse perioodi rea vaheline aeg *tähendada* perioodi.</span><span class="sxs-lookup"><span data-stu-id="66d32-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  <span data-ttu-id="66d32-175">Looge nõudluse prognoos järgmiste kuupäevade ja koguste kohta.</span><span class="sxs-lookup"><span data-stu-id="66d32-175">Create a demand forecast for the following dates and quantities.</span></span>
-    | <span data-ttu-id="66d32-176">Kuupäev</span><span class="sxs-lookup"><span data-stu-id="66d32-176">Date</span></span>       | <span data-ttu-id="66d32-177">Nõudluse prognoos</span><span class="sxs-lookup"><span data-stu-id="66d32-177">Demand forecast</span></span> |
-    |------------|-----------------|
-    | <span data-ttu-id="66d32-178">1. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-178">January 1</span></span>  | <span data-ttu-id="66d32-179">1000</span><span class="sxs-lookup"><span data-stu-id="66d32-179">1,000</span></span>           |
-    | <span data-ttu-id="66d32-180">5. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-180">January 5</span></span>  | <span data-ttu-id="66d32-181">500</span><span class="sxs-lookup"><span data-stu-id="66d32-181">500</span></span>             |
-    | <span data-ttu-id="66d32-182">12. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-182">January 12</span></span> | <span data-ttu-id="66d32-183">1000</span><span class="sxs-lookup"><span data-stu-id="66d32-183">1,000</span></span>           |
+1. <span data-ttu-id="66d32-175">Looge nõudluse prognoos järgmiste kuupäevade ja koguste kohta.</span><span class="sxs-lookup"><span data-stu-id="66d32-175">Create a demand forecast for the following dates and quantities.</span></span>
 
-    <span data-ttu-id="66d32-184">Selles prognoosis ei ole prognoosi kuupäevade vahel selget perioodi: esimese ja teise kuupäeva vahel on neljapäevane vahe ning teise ja kolmanda kuupäeva vahel on seitsmepäevane vahe.</span><span class="sxs-lookup"><span data-stu-id="66d32-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="66d32-185">Need erinevad vahed on dünaamilised perioodid.</span><span class="sxs-lookup"><span data-stu-id="66d32-185">These various spans are the dynamic periods.</span></span>
-2.  <span data-ttu-id="66d32-186">Looge müügitellimuse read järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="66d32-186">Create sales order lines as follows.</span></span>
-    | <span data-ttu-id="66d32-187">Kuupäev</span><span class="sxs-lookup"><span data-stu-id="66d32-187">Date</span></span>                             | <span data-ttu-id="66d32-188">Müügitellimuse kogus</span><span class="sxs-lookup"><span data-stu-id="66d32-188">Sales order quantity</span></span> |
-    |----------------------------------|----------------------|
-    | <span data-ttu-id="66d32-189">Eelmise aasta 15. detsember</span><span class="sxs-lookup"><span data-stu-id="66d32-189">December 15 in the previous year</span></span> | <span data-ttu-id="66d32-190">500</span><span class="sxs-lookup"><span data-stu-id="66d32-190">500</span></span>                  |
-    | <span data-ttu-id="66d32-191">3. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-191">January 3</span></span>                        | <span data-ttu-id="66d32-192">100</span><span class="sxs-lookup"><span data-stu-id="66d32-192">100</span></span>                  |
-    | <span data-ttu-id="66d32-193">10. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-193">January 10</span></span>                       | <span data-ttu-id="66d32-194">200</span><span class="sxs-lookup"><span data-stu-id="66d32-194">200</span></span>                  |
+   | <span data-ttu-id="66d32-176">Kuupäev</span><span class="sxs-lookup"><span data-stu-id="66d32-176">Date</span></span>       | <span data-ttu-id="66d32-177">Nõudluse prognoos</span><span class="sxs-lookup"><span data-stu-id="66d32-177">Demand forecast</span></span> |
+   |------------|-----------------|
+   | <span data-ttu-id="66d32-178">1. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-178">January 1</span></span>  | <span data-ttu-id="66d32-179">1000</span><span class="sxs-lookup"><span data-stu-id="66d32-179">1,000</span></span>           |
+   | <span data-ttu-id="66d32-180">5. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-180">January 5</span></span>  | <span data-ttu-id="66d32-181">500</span><span class="sxs-lookup"><span data-stu-id="66d32-181">500</span></span>             |
+   | <span data-ttu-id="66d32-182">12. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-182">January 12</span></span> | <span data-ttu-id="66d32-183">1000</span><span class="sxs-lookup"><span data-stu-id="66d32-183">1,000</span></span>           |
+
+   <span data-ttu-id="66d32-184">Selles prognoosis ei ole prognoosi kuupäevade vahel selget perioodi: esimese ja teise kuupäeva vahel on neljapäevane vahe ning teise ja kolmanda kuupäeva vahel on seitsmepäevane vahe.</span><span class="sxs-lookup"><span data-stu-id="66d32-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="66d32-185">Need erinevad vahed on dünaamilised perioodid.</span><span class="sxs-lookup"><span data-stu-id="66d32-185">These various spans are the dynamic periods.</span></span>
+2. <span data-ttu-id="66d32-186">Looge müügitellimuse read järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="66d32-186">Create sales order lines as follows.</span></span>
+   | <span data-ttu-id="66d32-187">Kuupäev</span><span class="sxs-lookup"><span data-stu-id="66d32-187">Date</span></span>                             | <span data-ttu-id="66d32-188">Müügitellimuse kogus</span><span class="sxs-lookup"><span data-stu-id="66d32-188">Sales order quantity</span></span> |
+   |----------------------------------|----------------------|
+   | <span data-ttu-id="66d32-189">Eelmise aasta 15. detsember</span><span class="sxs-lookup"><span data-stu-id="66d32-189">December 15 in the previous year</span></span> | <span data-ttu-id="66d32-190">500</span><span class="sxs-lookup"><span data-stu-id="66d32-190">500</span></span>                  |
+   | <span data-ttu-id="66d32-191">3. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-191">January 3</span></span>                        | <span data-ttu-id="66d32-192">100</span><span class="sxs-lookup"><span data-stu-id="66d32-192">100</span></span>                  |
+   | <span data-ttu-id="66d32-193">10. jaanuar</span><span class="sxs-lookup"><span data-stu-id="66d32-193">January 10</span></span>                       | <span data-ttu-id="66d32-194">200</span><span class="sxs-lookup"><span data-stu-id="66d32-194">200</span></span>                  |
 
 <span data-ttu-id="66d32-195">Prognoosi vähendatakse järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="66d32-195">The forecast will be reduced as follows:</span></span>
 

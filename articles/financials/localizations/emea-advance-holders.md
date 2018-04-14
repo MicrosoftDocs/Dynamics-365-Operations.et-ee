@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 84471351555d90c5a297d613abf334a26e896e40
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 647bbbc8555e0aa00b2779d87e63cb4dd31edf96
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advance-holders"></a><span data-ttu-id="76df2-103">Avansisaajad</span><span class="sxs-lookup"><span data-stu-id="76df2-103">Advance holders</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="76df2-104">Lugege avansisaaja funktsiooni kohta Microsoft Dynamics 365 for Finance and Operationsis.</span><span class="sxs-lookup"><span data-stu-id="76df2-104">Learn about advance holder functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -48,11 +47,13 @@ ms.lasthandoff: 03/26/2018
 ### <a name="employee-posting-profile"></a><span data-ttu-id="76df2-121">Töötaja sisestusreeglid</span><span class="sxs-lookup"><span data-stu-id="76df2-121">Employee posting profile</span></span>
 
 <span data-ttu-id="76df2-122">Avansisaaja kannete jaoks saate reeglid luua lehel **Töövõtja sisestusreeglid**.</span><span class="sxs-lookup"><span data-stu-id="76df2-122">Use the **Employee posting profiles** page to create a profile for advance holder transactions.</span></span> <span data-ttu-id="76df2-123">Saate töövõtja sisestusreeglite puhul määrata järgmise teabe.</span><span class="sxs-lookup"><span data-stu-id="76df2-123">You can specify the following information for the employee posting profile.</span></span>
-|<span data-ttu-id="76df2-124">Väli</span><span class="sxs-lookup"><span data-stu-id="76df2-124">Field</span></span> |<span data-ttu-id="76df2-125">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="76df2-125">Description</span></span>|
-|------|-----------|
-|<span data-ttu-id="76df2-126">Sisestusreeglid</span><span class="sxs-lookup"><span data-stu-id="76df2-126">Posting profile</span></span>|<span data-ttu-id="76df2-127">Sisestage avansisaaja sisestusreeglite ID-kood.</span><span class="sxs-lookup"><span data-stu-id="76df2-127">Enter the posting profile identification code for the advance holder.</span></span>|
-|<span data-ttu-id="76df2-128">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="76df2-128">Description</span></span>|<span data-ttu-id="76df2-129">Sisestage sisestusreeglite lühikirjeldus.</span><span class="sxs-lookup"><span data-stu-id="76df2-129">Enter a brief description of the posting profile.</span></span>|
-|<span data-ttu-id="76df2-130">Kehtib</span><span class="sxs-lookup"><span data-stu-id="76df2-130">Valid for</span></span>|<span data-ttu-id="76df2-131">Valige sisestusreeglite seadistamiseks grupeerimistaseme jaoks järgmised suvandid.</span><span class="sxs-lookup"><span data-stu-id="76df2-131">Select one of the following options for the level of grouping for setting up the posting profile:</span></span> 
+
+|      <span data-ttu-id="76df2-124">Väli</span><span class="sxs-lookup"><span data-stu-id="76df2-124">Field</span></span>      |                                            <span data-ttu-id="76df2-125">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="76df2-125">Description</span></span>                                            |
+|-----------------|---------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="76df2-126">Sisestusreeglid</span><span class="sxs-lookup"><span data-stu-id="76df2-126">Posting profile</span></span> |               <span data-ttu-id="76df2-127">Sisestage avansisaaja sisestusreeglite ID-kood.</span><span class="sxs-lookup"><span data-stu-id="76df2-127">Enter the posting profile identification code for the advance holder.</span></span>               |
+|   <span data-ttu-id="76df2-128">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="76df2-128">Description</span></span>   |                         <span data-ttu-id="76df2-129">Sisestage sisestusreeglite lühikirjeldus.</span><span class="sxs-lookup"><span data-stu-id="76df2-129">Enter a brief description of the posting profile.</span></span>                         |
+|    <span data-ttu-id="76df2-130">Kehtib</span><span class="sxs-lookup"><span data-stu-id="76df2-130">Valid for</span></span>    | <span data-ttu-id="76df2-131">Valige sisestusreeglite seadistamiseks grupeerimistaseme jaoks järgmised suvandid.</span><span class="sxs-lookup"><span data-stu-id="76df2-131">Select one of the following options for the level of grouping for setting up the posting profile:</span></span> |
+
 <span data-ttu-id="76df2-132">**Tabel** – seda valikut kasutatakse sisestusreeglite loomiseks ühele avansisaajale.</span><span class="sxs-lookup"><span data-stu-id="76df2-132">**Table** – This option is used to set up the posting profile for one advance holder.</span></span> <span data-ttu-id="76df2-133">Väljale Viide peate sisestama avansisaaja koodi.</span><span class="sxs-lookup"><span data-stu-id="76df2-133">You must indicate the advance holder code in the Reference field.</span></span>
 <span data-ttu-id="76df2-134">**Grupp** – seda valikut kasutatakse sisestusreeglite loomiseks avansisaajate grupile.</span><span class="sxs-lookup"><span data-stu-id="76df2-134">**Group** – This option is used to set up the posting profile for a group of advance holders.</span></span> <span data-ttu-id="76df2-135">Väljale Viide peate sisestama grupi koodi.</span><span class="sxs-lookup"><span data-stu-id="76df2-135">You must indicate the group code in the Reference field.</span></span>
 <span data-ttu-id="76df2-136">**Kõik** – seda valikut kasutatakse sisestusreeglite seadistamiseks kõigile avansisaajatele.| |Viide|Valige avansisaaja kood, kui väljal Kehtib on tehtud valik Tabel, või valige avansisaajate grupp, kui väljal Kehtib on tehtud valik Grupp.| |Koondkonto|Saate valida kannete sisestamiseks koondkonto.|</span><span class="sxs-lookup"><span data-stu-id="76df2-136">**All** – This option is used to set up the posting profile for all advance holders.| |Reference|Select the advance holder code if Table is selected in the Valid for field, or select the advance holder group if Group is selected in the Valid for field.| |Summary account|Select the summary account for posting the transactions.|</span></span>
@@ -62,6 +63,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="account-payable-parameters"></a><span data-ttu-id="76df2-137">Ostureskontro parameetrid</span><span class="sxs-lookup"><span data-stu-id="76df2-137">Account payable parameters</span></span>
 
 <span data-ttu-id="76df2-138">Avansisaaja kannete kajastamiseks peate lehel **Ostureskontro parameetrid** jaotises **Avansisaajad** seadistama järgmised parameetrid.</span><span class="sxs-lookup"><span data-stu-id="76df2-138">To reflect advance holder’s transactions you must set up the following on the **Account payable parameters** page in the **Advance holders** section.</span></span>
+
 |                                                |                   |
 |------------------------------------------------|-------------------|
 |  <span data-ttu-id="76df2-139">**Väli**</span><span class="sxs-lookup"><span data-stu-id="76df2-139">**Field**</span></span>                                     | <span data-ttu-id="76df2-140">**Kirjeldus**</span><span class="sxs-lookup"><span data-stu-id="76df2-140">**Description**</span></span>                                                                                                                                                                  |
@@ -80,6 +82,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="create-an-advance-holder-creation"></a><span data-ttu-id="76df2-160">Avansisaaja loomine</span><span class="sxs-lookup"><span data-stu-id="76df2-160">Create an advance holder creation</span></span>
 
 <span data-ttu-id="76df2-161">Enne avansisaaja loomist peavad töötajad olema juba seadistatud.</span><span class="sxs-lookup"><span data-stu-id="76df2-161">Before you can create an advance holder, you must have already set up workers.</span></span> <span data-ttu-id="76df2-162">Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis).](../../fin-and-ops/hr/tasks/enter-worker-information.md)</span><span class="sxs-lookup"><span data-stu-id="76df2-162">For more information, see [Enter worker information (Task guide).](../../fin-and-ops/hr/tasks/enter-worker-information.md)</span></span> <span data-ttu-id="76df2-163">Töötaja saate avansisaajana seadistada lehel **Avansisaajad**.</span><span class="sxs-lookup"><span data-stu-id="76df2-163">Use the **Advance holders** page to set up a worker as an advance holder.</span></span> <span data-ttu-id="76df2-164">Valige töötaja, keda kasutada avansisaajana, klõpsake valikut **Redigeeri** ja seejärel määrake valiku **Avansisaaja** sätteks **Tõene**.</span><span class="sxs-lookup"><span data-stu-id="76df2-164">Select the worker to use as an advance holder, click **Edit**, and then set the **Advance holder** option to **True**.</span></span> <span data-ttu-id="76df2-165">Samuti peate täitma järgmised väljad.</span><span class="sxs-lookup"><span data-stu-id="76df2-165">You must also complete the following fields.</span></span>
+
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | <span data-ttu-id="76df2-166">**Väli**</span><span class="sxs-lookup"><span data-stu-id="76df2-166">**Field**</span></span>      | <span data-ttu-id="76df2-167">**Kirjeldus**</span><span class="sxs-lookup"><span data-stu-id="76df2-167">**Description**</span></span>                                                                             |

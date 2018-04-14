@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 27698b02795b709a167235537d8b1ca871bdd371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 11739c8b2979cf7ac9aad04e5be9903d6bc1837a
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personal-expenses-on-an-expense-report"></a><span data-ttu-id="9cf2c-103">Isiklikud kulud kuluaruandes</span><span class="sxs-lookup"><span data-stu-id="9cf2c-103">Personal expenses on an expense report</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9cf2c-104">Ärireiside jooksul võib mõnikord juhtuda, et töötaja maksab isiklike kulude eest ettevõtte krediitkaartidega.</span><span class="sxs-lookup"><span data-stu-id="9cf2c-104">During business travel, workers might sometimes charge personal expenses to their corporate credit cards.</span></span> <span data-ttu-id="9cf2c-105">Kui te ei määratle protsessi isiklike kulude käsitlemiseks, võib kuluaruannete kinnitamine katkeda, kui töötajad esitavad detailsed kuluaruanded.</span><span class="sxs-lookup"><span data-stu-id="9cf2c-105">If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.</span></span> 
 

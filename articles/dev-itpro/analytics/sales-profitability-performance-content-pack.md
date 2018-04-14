@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="6237a-104">Müügi ja tulususe tulemuste Power BI sisu</span><span class="sxs-lookup"><span data-stu-id="6237a-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6237a-105">See teema kirjeldab, mida hõlmab **müügi ja tulususe jõudluse** Microsoft Power BI sisu.</span><span class="sxs-lookup"><span data-stu-id="6237a-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="6237a-106">See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.</span><span class="sxs-lookup"><span data-stu-id="6237a-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="6237a-140">Tulu toote alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-140">Revenue by product</span></span>     | <span data-ttu-id="6237a-141">Tulu ja brutokasum müügikategooria alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="6237a-142">Toodete \# kokku</span><span class="sxs-lookup"><span data-stu-id="6237a-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="6237a-143">10 parimat toodet tulu alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="6237a-144">Aktiivsete toodete arv ja osakaal koguarvust</span><span class="sxs-lookup"><span data-stu-id="6237a-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="6237a-145">Kogutulu müügikategooria alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-145">Total revenue by sales category</span></span>            | <span data-ttu-id="6237a-146">Toodete arv, mis annavad 80% tulust</span><span class="sxs-lookup"><span data-stu-id="6237a-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="6237a-147">Tulu perioodi alusel\\*</span><span class="sxs-lookup"><span data-stu-id="6237a-147">Revenue by period\\*</span></span>    | <span data-ttu-id="6237a-148">Tulu kuu alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-148">Revenue by month</span></span>                           | <span data-ttu-id="6237a-149">YOY tulu kasv</span><span class="sxs-lookup"><span data-stu-id="6237a-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="6237a-147">Tulu perioodi alusel\*</span><span class="sxs-lookup"><span data-stu-id="6237a-147">Revenue by period\*</span></span>    | <span data-ttu-id="6237a-148">Tulu kuu alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-148">Revenue by month</span></span>                           | <span data-ttu-id="6237a-149">YOY tulu kasv</span><span class="sxs-lookup"><span data-stu-id="6237a-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="6237a-150">Varasema tulu hälve, YOY</span><span class="sxs-lookup"><span data-stu-id="6237a-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="6237a-151">YOY tulu kasvu %</span><span class="sxs-lookup"><span data-stu-id="6237a-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="6237a-152">Müügihälve kokku kliendipiirkonna alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="6237a-153">Tulu asukoha järgi</span><span class="sxs-lookup"><span data-stu-id="6237a-153">Revenue by location</span></span>    | <span data-ttu-id="6237a-154">Müügitulu linna alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="6237a-162">15 parimat klienti kogutulu alusel</span><span class="sxs-lookup"><span data-stu-id="6237a-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="6237a-163">Kogutulu kuu alusel, YOY</span><span class="sxs-lookup"><span data-stu-id="6237a-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="6237a-164">\\* Selle ja eelmise aasta tulu ja kasv müügikategooriate alusel.</span><span class="sxs-lookup"><span data-stu-id="6237a-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="6237a-164">\* Selle ja eelmise aasta tulu ja kasv müügikategooriate alusel.</span><span class="sxs-lookup"><span data-stu-id="6237a-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="6237a-165">Andmemudelid ja üksused</span><span class="sxs-lookup"><span data-stu-id="6237a-165">Understanding the data model and entities</span></span>

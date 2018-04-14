@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a75af89efa56e7fbd27021b3516b9a3fec20294c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d57ff9a780d33d8f4314e658fc27503431a83a90
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-pos-visual-profile"></a><span data-ttu-id="248d6-103"> Kassa visuaalse profiili loomine </span><span class="sxs-lookup"><span data-stu-id="248d6-103">Create a POS visual profile</span></span> 
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="248d6-104">See protseduur selgitab uue kassa visuaalse profiili loomist.</span><span class="sxs-lookup"><span data-stu-id="248d6-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="248d6-105">Visuaalne profiil sisaldab põhiteavet, mis määratleb kassaregistrite välimuse.</span><span class="sxs-lookup"><span data-stu-id="248d6-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="248d6-106">Saate luua mitu visuaalset profiili ja määrata kindlates registrites käitatavad konkreetsed profiilid.</span><span class="sxs-lookup"><span data-stu-id="248d6-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="248d6-107">Protseduur kasutab demoettevõtte USRT andmeid.</span><span class="sxs-lookup"><span data-stu-id="248d6-107">This procedure uses the USRT demo data company.</span></span>
 

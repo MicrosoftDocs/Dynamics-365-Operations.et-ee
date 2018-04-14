@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9d1c21fb9a59c37f2298846f384e9cd20dc26b6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d6caf99415191e35fd2e880afa041919ef4b7cf9
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vat-statement-details-for-estonia"></a><span data-ttu-id="f0235-103">KM-aruande üksikasjad Eesti puhul</span><span class="sxs-lookup"><span data-stu-id="f0235-103">VAT statement details for Estonia</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f0235-104">See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.</span><span class="sxs-lookup"><span data-stu-id="f0235-104">This topic explains how to set up a VAT statement for legal entities in Estonia.</span></span>
 

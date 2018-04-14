@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="d775d-103">Kuluarvestuse terminoloogia</span><span class="sxs-lookup"><span data-stu-id="d775d-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d775d-104">See teema määratleb põhimõisted, mida kasutatakse kuluarvestuses.</span><span class="sxs-lookup"><span data-stu-id="d775d-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="d775d-241">Lisa</span><span class="sxs-lookup"><span data-stu-id="d775d-241">Addition</span></span> |
 |  <span data-ttu-id="d775d-242">–</span><span class="sxs-lookup"><span data-stu-id="d775d-242">–</span></span> |  <span data-ttu-id="d775d-243">Lahutamine</span><span class="sxs-lookup"><span data-stu-id="d775d-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="d775d-244">Korrutamine</span><span class="sxs-lookup"><span data-stu-id="d775d-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="d775d-245">Tavalisi IF-lauseid ei toetata.</span><span class="sxs-lookup"><span data-stu-id="d775d-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="d775d-246">Kuid saate luua lauseid ja kinnitada, kas need on tõesed.</span><span class="sxs-lookup"><span data-stu-id="d775d-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="d775d-247">**Lause kinnitamine**</span><span class="sxs-lookup"><span data-stu-id="d775d-247">**Statement  Validation**</span></span> | <span data-ttu-id="d775d-248">**Tulemus**</span><span class="sxs-lookup"><span data-stu-id="d775d-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="d775d-249">a > b</span><span class="sxs-lookup"><span data-stu-id="d775d-249">a > b</span></span>| <span data-ttu-id="d775d-250">Tõene</span><span class="sxs-lookup"><span data-stu-id="d775d-250">True</span></span>  |
 |  <span data-ttu-id="d775d-251">a > b</span><span class="sxs-lookup"><span data-stu-id="d775d-251">a > b</span></span> |  <span data-ttu-id="d775d-252">Väär</span><span class="sxs-lookup"><span data-stu-id="d775d-252">False</span></span> |
-    
+
 <span data-ttu-id="d775d-253">**Üldkulud**</span><span class="sxs-lookup"><span data-stu-id="d775d-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="d775d-254">Üldkulud viitavad ärijuhtimise käimasolevatele kuludele.</span><span class="sxs-lookup"><span data-stu-id="d775d-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="d775d-255">Need on kulud, mida ei saa siduda otseselt spetsiifiliste äritegevustega.</span><span class="sxs-lookup"><span data-stu-id="d775d-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="d775d-256">Siin on mõned näited üldkuludest.</span><span class="sxs-lookup"><span data-stu-id="d775d-256">Here are some examples of overhead costs:</span></span>

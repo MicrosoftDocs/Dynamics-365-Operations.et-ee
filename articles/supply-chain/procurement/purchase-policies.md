@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: fffa107f35e7e0567a29ed581b4e3e42f5a971e8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 32951ffe0f0ee49c668394eb006bbfba8d4d431d
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchasing-policies"></a><span data-ttu-id="b63f1-105">Ostupoliitikad</span><span class="sxs-lookup"><span data-stu-id="b63f1-105">Purchasing policies</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b63f1-106">Selles artiklis antakse teavet ostupoliitikate kohta.</span><span class="sxs-lookup"><span data-stu-id="b63f1-106">This article provides information about purchasing policies.</span></span> <span data-ttu-id="b63f1-107">Ostupoliitika on reeglite kogum, mis juhib taotluse protsessi.</span><span class="sxs-lookup"><span data-stu-id="b63f1-107">A purchasing policy is a collection of rules that control the requisition process.</span></span> <span data-ttu-id="b63f1-108">Ostupoliitikad aitavad hankeadministraatoritel hankestrateegiat juurutada, luues poliitikastruktuuri, mis on vastavuses organisatsiooni strateegiliste ostunõuetega.</span><span class="sxs-lookup"><span data-stu-id="b63f1-108">Purchasing policies help procurement administrators implement their procurement strategy by creating a policy structure that is aligned with the organization’s strategic purchasing requirements.</span></span>
 

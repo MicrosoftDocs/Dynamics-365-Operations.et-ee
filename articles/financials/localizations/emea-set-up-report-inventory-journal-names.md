@@ -18,21 +18,21 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ca43a81ab3e1dfcfec6a69369121265c54dae9a8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c293934675ac491792b55ddd81e38ae2cfe79266
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journal-reports"></a><span data-ttu-id="b43a7-103">Varude töölehe aruanded</span><span class="sxs-lookup"><span data-stu-id="b43a7-103">Inventory journal reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b43a7-104">Kui kasutate elektroonilisel aruandlusel põhinevaid konfigureeritavaid varude aruandeid, siis peate seadistama seose konkreetse aruande ja töölehe tüübi vahel.</span><span class="sxs-lookup"><span data-stu-id="b43a7-104">When you use configurable inventory reports based on electronic reporting, you need to set up a relationship between a specific report and a journal type.</span></span>
 
 <span data-ttu-id="b43a7-105">Konkreetse aruande ja töölehe tüübi vahelise seose seadistamiseks sisestage lehel **Varude töölehe nimed** (**Varude haldus** &gt; **Seadistus** &gt; **Töölehtede nimed** &gt; **Varud**) aruandele nimi.</span><span class="sxs-lookup"><span data-stu-id="b43a7-105">To set up a relationship between a specific report and a journal type, on the **Inventory journal names** page (**Inventory management** &gt; **Setup** &gt; **Journal names** &gt; **Inventory**), enter a name for the report.</span></span> <span data-ttu-id="b43a7-106">**Märkus:** toetatud konfiguratsioonide seadistamiseks laadige alla vajalikud elektroonilise aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="b43a7-106">**Note:** To set up supported configurations, download the required electronic reporting configurations.</span></span> <span data-ttu-id="b43a7-107">Lisateavet leiate jaotisest [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span><span class="sxs-lookup"><span data-stu-id="b43a7-107">For more information, see [Download Electronic reporting configurations from Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span></span> <span data-ttu-id="b43a7-108">Näited Euroopas toetatud konfiguratsioonidega laoaruannete kohta on loetletud järgmises tabelis.</span><span class="sxs-lookup"><span data-stu-id="b43a7-108">Examples of inventory reports with supported configurations in Europe are listed in the following table.</span></span>
+
 |                    |                                     |                  |                                         |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
 | <span data-ttu-id="b43a7-109">**Riik**</span><span class="sxs-lookup"><span data-stu-id="b43a7-109">**Country**</span></span>        | <span data-ttu-id="b43a7-110">**Aruande kirjeldus**</span><span class="sxs-lookup"><span data-stu-id="b43a7-110">**Report description**</span></span>              | <span data-ttu-id="b43a7-111">**Töölehe tüüp**</span><span class="sxs-lookup"><span data-stu-id="b43a7-111">**Journal type**</span></span> | <span data-ttu-id="b43a7-112">**Vormingu vastenduse nimi**</span><span class="sxs-lookup"><span data-stu-id="b43a7-112">**Format mapping name**</span></span>                 |

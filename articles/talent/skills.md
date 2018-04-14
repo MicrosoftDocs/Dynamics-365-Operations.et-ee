@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: edcb01c177a3e43cea7f0b7936a4129d27314016
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="19bd8-104">Tööjõu oskuste joondamine ärivajadustele</span><span class="sxs-lookup"><span data-stu-id="19bd8-104">Align workforce skills with business needs</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="19bd8-105">Saate jälgida oskusi, mis võivad töötajatel, kandidaatidel või kontaktisikutel olla, et oma rolli tõhusalt täita.</span><span class="sxs-lookup"><span data-stu-id="19bd8-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="19bd8-106">Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks.</span><span class="sxs-lookup"><span data-stu-id="19bd8-106">You can also specify the skills that are required for a specific job.</span></span>
 
@@ -55,8 +54,8 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="19bd8-133">Oskuste kaardistamise profiilid võimaldavad leida praegused töötajad või kandidaadid, kellel on kvalifikatsioonid, mis vastavad otseselt ärivajadustele.</span><span class="sxs-lookup"><span data-stu-id="19bd8-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="19bd8-134">Näiteks võiksite oma organisatsioonis oleva avatud ametikoha jaoks luua oskuste kaardistamise profiili.</span><span class="sxs-lookup"><span data-stu-id="19bd8-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="19bd8-135">Konkreetse töö jaoks profiili luues ning kopeerides oskused, hariduse ja serdid sellelt töölt profiilile, saate kiiresti otsida töötajaid, kandidaate ja kontaktisikuid, kes vastavad ühele või mitmele profiili sisestatud kriteeriumile, ning kuvada loendi kandidaatidest, kelle oskused ühtivad kõige enam töö jaoks nõutavate oskustega.</span><span class="sxs-lookup"><span data-stu-id="19bd8-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
 
-><span data-ttu-id="19bd8-136">**Märkus.** Oskuste kaardistamise tulemuste loendis saab kuvada või oskuste profiilile lisada vaid need töötajad, kandidaadid ja kontaktisikud, kes on lisatud oskuste kaardistamise otsingusse.</span><span class="sxs-lookup"><span data-stu-id="19bd8-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="19bd8-137">Töötaja, kandidaadi või kontaktisiku lisamiseks oskuste kaardistamise otsingusse valige suvandi **Kaasa oskuste kaardistamisse** sätteks Jah järgmistel lehtedel.</span><span class="sxs-lookup"><span data-stu-id="19bd8-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-
+> <span data-ttu-id="19bd8-136">**Märkus.** Oskuste kaardistamise tulemuste loendis saab kuvada või oskuste profiilile lisada vaid need töötajad, kandidaadid ja kontaktisikud, kes on lisatud oskuste kaardistamise otsingusse.</span><span class="sxs-lookup"><span data-stu-id="19bd8-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="19bd8-137">Töötaja, kandidaadi või kontaktisiku lisamiseks oskuste kaardistamise otsingusse valige suvandi **Kaasa oskuste kaardistamisse** sätteks Jah järgmistel lehtedel.</span><span class="sxs-lookup"><span data-stu-id="19bd8-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
+> 
 > + <span data-ttu-id="19bd8-138">Töötaja</span><span class="sxs-lookup"><span data-stu-id="19bd8-138">Worker</span></span>
 > + <span data-ttu-id="19bd8-139">Töötaja</span><span class="sxs-lookup"><span data-stu-id="19bd8-139">Employee</span></span>
 > + <span data-ttu-id="19bd8-140">Kandidaat</span><span class="sxs-lookup"><span data-stu-id="19bd8-140">Applicant</span></span>

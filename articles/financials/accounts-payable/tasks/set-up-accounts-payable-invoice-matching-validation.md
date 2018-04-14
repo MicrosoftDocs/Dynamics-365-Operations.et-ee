@@ -16,16 +16,16 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e9bf83269c34133509734691fd018ee703c40626
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6cc5c5b8dc60e3807a535b0d40e68200fb4da165
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a><span data-ttu-id="81388-103">Ostureskontro arvete võrdlemise seadistamine</span><span class="sxs-lookup"><span data-stu-id="81388-103">Set up accounts payable invoice matching validation</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="81388-104">Salvestamisel kasutatakse demoettevõtte USMF-i.</span><span class="sxs-lookup"><span data-stu-id="81388-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="81388-105">Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli.</span><span class="sxs-lookup"><span data-stu-id="81388-105">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="81388-106">Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine.</span><span class="sxs-lookup"><span data-stu-id="81388-106">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> <span data-ttu-id="81388-107">Kui teie juriidiline isik jälgib tasude abil kulusid (nt veokulu), siis veenduge, et on valitud konfiguratsioonivõti Tasud.</span><span class="sxs-lookup"><span data-stu-id="81388-107">If your legal entity tracks expenses, such as freight, by using charges, make sure that the Charges configuration key is selected.</span></span>  <span data-ttu-id="81388-108">Ostureskontro arvete võrdlemine on hankija arve, ostutellimuse ja toote sissetuleku teabe vastavusse viimise protsess.</span><span class="sxs-lookup"><span data-stu-id="81388-108">Accounts payable invoice matching is the process of matching vendor invoice, purchase order, and product receipt information.</span></span> <span data-ttu-id="81388-109">Nende dokumentide vahelisi erinevusi nimetatakse vastendamise lahknevusteks.</span><span class="sxs-lookup"><span data-stu-id="81388-109">Differences among these documents are called matching discrepancies.</span></span> <span data-ttu-id="81388-110">Vastavusseviimise lahknevusi võrreldakse määratud hälvetega.</span><span class="sxs-lookup"><span data-stu-id="81388-110">Matching discrepancies are compared with the tolerances that are specified.</span></span> <span data-ttu-id="81388-111">Kui vastendamise lahknevus ületab lubatud kõikumisprotsendi või summa, kuvatakse vastendamise hälbe ikoonid vormil Hankija arve ja vormil Arvete võrdlemise üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="81388-111">If a matching discrepancy exceeds the tolerance percentage or amount, match variance icons are displayed in the Vendor invoice form and in the Invoice matching details form.</span></span>
 

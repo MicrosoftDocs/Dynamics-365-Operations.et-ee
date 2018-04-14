@@ -16,15 +16,15 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4b05f744120e940bfea3e92b8aac3e41fc8151d9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1bd87a5c65fb01e0a277d7bd790e2b86686fbf55
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="c87ea-103">Lähtedokumentide jaoks auditipoliitikate määratlemine</span><span class="sxs-lookup"><span data-stu-id="c87ea-103">Define audit policies for source documents</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c87ea-104">Selles protseduuris näitlikustatakse, kuidas seadistada ja käitada auditi poliitikareegleid.</span><span class="sxs-lookup"><span data-stu-id="c87ea-104">This procedure shows how to set up and run audit policy rules.</span></span> <span data-ttu-id="c87ea-105">Näites kasutatakse hotelli kulu tüübiga kuluaruandeid.</span><span class="sxs-lookup"><span data-stu-id="c87ea-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="c87ea-106">See protsess kasutab demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="c87ea-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="c87ea-107">Audiitori roll sisaldab nende ülesannete teostamiseks vajalikke õigusi.</span><span class="sxs-lookup"><span data-stu-id="c87ea-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 

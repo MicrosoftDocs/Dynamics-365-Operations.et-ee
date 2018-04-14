@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="6db6b-104">Personalitoimingud [KKK]</span><span class="sxs-lookup"><span data-stu-id="6db6b-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="6db6b-105">Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele.</span><span class="sxs-lookup"><span data-stu-id="6db6b-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="6db6b-106">Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul.</span><span class="sxs-lookup"><span data-stu-id="6db6b-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="6db6b-107">Personalitoimingute kasutamine võib olla vajalik näiteks uute ametikohtade loomisel, olemasolevate ametikohtade väärtuste muutmisel, uute töötajate palkamisel, töötajate üleviimisel, töötajate hüvituse muutmisel, ametikoha määramiste muutmisel või töötajate vallandamisel.</span><span class="sxs-lookup"><span data-stu-id="6db6b-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/07/2018
 <span data-ttu-id="6db6b-140">Kui personalitoimingu taotlus nurjub, siis tehke tõrke lahendamiseks ja taotluse uuesti saatmiseks järgmist.</span><span class="sxs-lookup"><span data-stu-id="6db6b-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="6db6b-141">Klõpsake jaotises **Toimingupaan** nuppu **Tõrke tekst**, et vaadata probleemi kirjeldava teate teksti.</span><span class="sxs-lookup"><span data-stu-id="6db6b-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="6db6b-142">Klõpsake jaotises **Toimingupaan** käsku **Aktiveeri uuesti**, et laadida uusim teave ja määrata personalitoimingu olekuks taas **Mustand**.</span><span class="sxs-lookup"><span data-stu-id="6db6b-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="6db6b-143">Lahendage tõrge ja seejärel klõpsake valikut **Valmis** või **Esita**.</span><span class="sxs-lookup"><span data-stu-id="6db6b-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="6db6b-144">Mis juhtub töövoogu kasutava personalitoiminguga pärast lõplikku kinnitamist?</span><span class="sxs-lookup"><span data-stu-id="6db6b-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

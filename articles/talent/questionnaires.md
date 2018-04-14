@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 200636577ec8b9be9822ef0fa26daa0121e61211
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="questionnaires"></a><span data-ttu-id="ec9c5-105">Küsimustikud</span><span class="sxs-lookup"><span data-stu-id="ec9c5-105">Questionnaires</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="ec9c5-106">Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde.</span><span class="sxs-lookup"><span data-stu-id="ec9c5-106">This topic provides general information about questionnaires, and links to more detailed information.</span></span> <span data-ttu-id="ec9c5-107">Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel.</span><span class="sxs-lookup"><span data-stu-id="ec9c5-107">A questionnaire is a set of questions that is used to collect information for various purposes.</span></span> <span data-ttu-id="ec9c5-108">Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida.</span><span class="sxs-lookup"><span data-stu-id="ec9c5-108">You can design, create, distribute, and complete questionnaires, and then analyze the results.</span></span> 
 

@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0161ac3d67b57484f05a64ab785bbbcc90816ba2
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bom-calculations-groups"></a><span data-ttu-id="70a2e-105">Koosluse arvutusgrupid</span><span class="sxs-lookup"><span data-stu-id="70a2e-105">BOM calculations groups</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="70a2e-106">Selles artiklis antakse teavet koosluste arvutusgruppide ja nende seadistamise kohta.</span><span class="sxs-lookup"><span data-stu-id="70a2e-106">This article provides information about calculation groups for bills of materials (BOMs) and how to set them up.</span></span> <span data-ttu-id="70a2e-107">Koosluse arvutuse käivitamiseks tuleb seadistada arvutusgrupid ja määrata need eraldi üksustele või määrata vaike-arvutusgrupp.</span><span class="sxs-lookup"><span data-stu-id="70a2e-107">To run a BOM calculation, you must either set up calculation groups and assign them to individual items, or set a default calculation group.</span></span> <span data-ttu-id="70a2e-108">Arvutusgrupi arvutussätteid kasutatakse siis koosluse arvutamise ajal lehel Koosluse arvutamine vaikeväärtustena.</span><span class="sxs-lookup"><span data-stu-id="70a2e-108">The calculation settings from the calculation group are then used as default values on the BOM calculation page at the time of BOM calculation.</span></span> 
 

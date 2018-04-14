@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="8624c-103">Teenusega Microsoft Dynamics 365 for Talent alustamine</span><span class="sxs-lookup"><span data-stu-id="8624c-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="8624c-104">Rakenduses Microsoft Dynamics 365 for Talent saab kasutajaliidest hõlpsasti kohandada ja määrata suvandeid, mis muudavad tarkvara teie vajaduste jaoks intuitiivsemaks.</span><span class="sxs-lookup"><span data-stu-id="8624c-104">In Microsoft Dynamics 365 for Talent it's easy to modify the user interface and set options that make the software more intuitive for your needs.</span></span> <span data-ttu-id="8624c-105">Teema hõlmab muude teemade linke, kust saate teavet selle kohta, kuidas kohandada kasutajaliidest oma eelistuste kohaselt.</span><span class="sxs-lookup"><span data-stu-id="8624c-105">This topic includes links to topics that provide information on how to adapt the user interface to your preferences.</span></span> <span data-ttu-id="8624c-106">Teema sisaldab ka linke teabe juurde, mis aitab teil süsteemis tõhusalt ja täpselt teavet leida.</span><span class="sxs-lookup"><span data-stu-id="8624c-106">The topic also includes links to information that can help you find information in the system efficiently and accurately.</span></span> 
 
