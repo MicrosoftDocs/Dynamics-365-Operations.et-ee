@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
+ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
+ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/20/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="8624c-103">Teenusega Microsoft Dynamics 365 for Talent alustamine</span><span class="sxs-lookup"><span data-stu-id="8624c-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE] 
 > <span data-ttu-id="8624c-107">Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="8624c-107">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="8624c-108">Kõigis 3 tootes võivad ilmneda samad funktsioonid.</span><span class="sxs-lookup"><span data-stu-id="8624c-108">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="8624c-109">Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8624c-109">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="8624c-110">Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.</span><span class="sxs-lookup"><span data-stu-id="8624c-110">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-### <a name="personalizing-talent"></a><span data-ttu-id="8624c-111">Talenti isikupärastamine</span><span class="sxs-lookup"><span data-stu-id="8624c-111">Personalizing Talent</span></span> 
+## <a name="personalizing-talent"></a><span data-ttu-id="8624c-111">Talenti isikupärastamine</span><span class="sxs-lookup"><span data-stu-id="8624c-111">Personalizing Talent</span></span> 
 <span data-ttu-id="8624c-112">Järgmistes teemades selgitatakse, kuidas häälestada Dynamics 365 for Talenti mitmesuguseid funktsioone, mis aitavad teil töö õigeks ajaks tehtud saada.</span><span class="sxs-lookup"><span data-stu-id="8624c-112">The following topics show how to set up many features in Dynamics 365 for Talent that make it easier for you to get your work done in a timely manner.</span></span> 
 
 -   <span data-ttu-id="8624c-113">[Kasutuskogemuse isikupärastamine](../fin-and-ops/get-started/personalize-user-experience.md): selles teemas selgitatakse eri mooduseid Talenti isikupärastamiseks ja toote osade kohandamiseks, et see sobiks paremini teie eelistustega.</span><span class="sxs-lookup"><span data-stu-id="8624c-113">[Personalize the user experience](../fin-and-ops/get-started/personalize-user-experience.md) - This topic explains the different ways in which you can personalize Talent and adapt parts of the product to more closely suite your preferences.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 -   <span data-ttu-id="8624c-117">[Klaviatuuri otseteed](../fin-and-ops/get-started/shortcut-keys.md): selles teemas on loetletud otseteed USA klahvipaigutusega klaviatuuride jaoks.</span><span class="sxs-lookup"><span data-stu-id="8624c-117">[Keyboard shortcuts](../fin-and-ops/get-started/shortcut-keys.md) - This topic lists keyboard shortcuts for the United States keyboard layout.</span></span> 
 
-### <a name="accessing-information"></a><span data-ttu-id="8624c-118">Juurdepääs teabele</span><span class="sxs-lookup"><span data-stu-id="8624c-118">Accessing information</span></span>
+## <a name="accessing-information"></a><span data-ttu-id="8624c-118">Juurdepääs teabele</span><span class="sxs-lookup"><span data-stu-id="8624c-118">Accessing information</span></span>
 <span data-ttu-id="8624c-119">Järgmistes teemades selgitatakse, kuidas otsingute ja filtreerimisfunktsioonidega kiiresti teavet leida.</span><span class="sxs-lookup"><span data-stu-id="8624c-119">The following topics explain how to use lookups, and the search and filtering features, to find information quickly.</span></span> 
 
 -   <span data-ttu-id="8624c-120">[Teabe leidmiseks otsingute kasutamine](../fin-and-ops/get-started/use-lookups-to-find-information.md): teemas selgitatakse, kuidas otsingud aitavad kiiresti õiget või soovitud väärtust leida.</span><span class="sxs-lookup"><span data-stu-id="8624c-120">[Use lookups to find information](../fin-and-ops/get-started/use-lookups-to-find-information.md) - This topic shows how lookups can help you quickly find the correct or desired value.</span></span> <span data-ttu-id="8624c-121">Teemas kirjeldatakse otsingute tööpõhimõtet ja nõuandeid nende kasutamise optimeerimiseks.</span><span class="sxs-lookup"><span data-stu-id="8624c-121">The topic describes how lookups work and includes tips to help you optimize your use of them.</span></span>
