@@ -115,6 +115,7 @@
 ### Mis on uut?
 #### [Laiendatavuse muudatused – juuli 2017](extensibility/changes-july-2017.md)
 #### [Laiendatavuse muudatused – versioon 7.3](extensibility/extensibility-changes-73.md)
+#### [Laiendatavuse muudatused – versioon 8.0](extensibility/changes-80.md)
 ### Põhisätted
 #### [Pealetükkivad kohandused](extensibility/intrusive-customizations.md)
 #### [Klassi laiendid](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [Andmete integreerimine teenus Common Data Service abil](data-entities/data-integration-cds.md) 
 #### [Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Rakenduse Finance and Operations toodete sünkroonimine rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [Rakenduse Sales kontode sünkroonimine rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [Rakenduse Sales kontaktide sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Rakenduse Sales müügipakkumise päiste ja ridade sünkroonimine rakendusega Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [Rakenduse Finance and Operations müügiarve päiste ja ridade sünkroonimine rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine otse rakendusega Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [Integratsiooni konfigureerimine Field Service’iga](../supply-chain/sales-marketing/field-service.md)
+##### [Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega](../supply-chain/sales-marketing/field-service-product.md)
+##### [Rakenduse Field Service töötellimuste sünkroonimine rakenduse Finance and Operations müügitellimustega](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [Väliste veebiteenuste tarbimine](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [Konfigureerimisandmete mallid](data-entities/configuration-data-templates.md)
 ### [Mitme töölehega andmemallid](data-entities/excel-template-multiple.md)
 ### [Üksuse muudatuste jälgimine.](data-entities/entity-change-track.md)
+
 ### [Teabe otsimine standardsete andmeüksuste kohta](data-entities/data-entities-report.md)
+
 
 ## [Andmete importimis- ja eksportimistööd](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [Oma andmebaasi toomine](analytics/export-entities-to-your-own-database.md)
 
-## [Ressursid GDPR-i andmetaotlusele vastamiseks](gdpr/gdpr-home-page.md)
+
+## [Andmete ülesannete automatiseerimine](data-entities/data-task-automation.md)
+
+## [Ressursid isikuandmete kaitse üldmääruse taotlusele vastamiseks](gdpr/gdpr-home-page.md)
 ### [Rakenduse Microsoft Dynamics 365 for Finance and Operations GDPR-i juhis](gdpr/gdpr-auditing-sensitive-data.md)
+### [Avara klassifikatsioon](gdpr/gdpr-asset-classification-values.md)
 ### [Isiku otsingu aruande kasutamine](gdpr/gdpr-person-search-report.md)
 ### [Isiku otsingu aruande laiendamine](gdpr/gdpr-extend-person-search-report.md)
 ### [Tundlike andmete juurdepääsu haldamine](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Isikuandmete taotlusele vastamine Talenti abil](gdpr/respond-dsr-request-talent.md)
 ### [Isikuandmete taotlusele vastamine Microsoft Dynamics AX 2012 abil](gdpr/gdpr-ax2012.md)
+
 
 # [Pideva tarne kodulehekülg](dev-tools/continuous-delivery-home-page.md)
 ## [Arenduse ja pideva tarne KKK](dev-tools/continuous-delivery-faq.md)
@@ -527,10 +536,11 @@
 ### [AX 2012 täiendus – pärast täiendamist lõpule viidavad ülesanded](migration-upgrade/app-validation-process.md)
 ### [AX 2012 täiendus – funktsionaaltesti sooritamine](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 täiendus – edastuse alustamise ettevalmistamine](migration-upgrade/upgrade-go-live-prep.md)
-### [AX 2012 täiendus – reaalajas avaldamine](migration-upgrade/2012-upgrade-cutover.md)
+### [AX 2012 täiendus – Mine reaalajas](migration-upgrade/2012-upgrade-cutover.md)
 
-### Muudatused, mis mõjutavad täiendamist versioonilt AX 2012
-#### [Üksik kanne ja valuuta ümberarvutamise täiendus ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+### AX 2012-lt täienduse tegemist mõjutavad muutused
+#### [Kontoplaani eraldaja peab olema kordumatu](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [Üksik kanne ja valuuta ümberarvutamise täiendus](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Projekti ressursi plaanimise andmemudel](migration-upgrade/data-model-changes-resource-management.md)
 #### [Töövoo alamsüsteemi muudatused](migration-upgrade/workflow-subsystem.md)
 #### [Miks me liikusime kuupidelt liitmudelitele](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -569,6 +579,7 @@
 
 # [Süsteemihaldus](sysadmin/system-administration-home-page.md)
 ## [Platvormi igakuiste värskenduste KKK](sysadmin/faq-platform-monthly-updates.md)
+## [Administraatori juurdepääsu mittelubavate virtuaalarvutite KKK](sysadmin/VMs-no-admin-access.md)
 ## [Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada](sysadmin/legal-terms-privacy-statement.md)
 ## [Litsentsikoodide ja konfiguratsioonivõtmete aruanne](sysadmin/license-codes-configuration-keys-report.md)
 ## [Kontsernisisene andmete ühiskasutus](sysadmin/cross-company-data-sharing.md)
@@ -612,6 +623,7 @@
 ## [BPM-i teegis ülesannete lõpuleviimine](lifecycle-services/complete-tasks-bpm.md)
 ## [Aktiivsuse diagrammide kasutamine](lifecycle-services/using-activity-diagrams.md)
 ## [BPM-i teegi sünkroonimine teenusega Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [Vastuvõtu testimise komplekti loomine, kasutades ülesande juhiseid ja BPM-i](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [Äriprotsesside modelleerija vooskeemid](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Kohandatud äriprotsesside üleslaadimine](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Jälgimine ja diagnostika ](lifecycle-services/monitoring-diagnostics.md)
@@ -620,6 +632,8 @@
 ## [Varateek](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 – tõlketeenuse ülevaade](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 – tõlketeenuse kasutusjuhend  ](lifecycle-services/use-translation-service.md)
+### [Microsoft Dynamics 365 tõlketeenus – dokumendifaili tõlge](lifecycle-services/use-translation-service-ua.md)
+### [Microsoft Dynamics 365 tõlketeenus – tõlkemälu](lifecycle-services/use-translation-service-tm.md)
 
 ## Teenuse Dynamics AX 2012 Lifecycle Services funktsioonid
 ### Juurutamine

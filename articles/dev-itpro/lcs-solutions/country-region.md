@@ -3,7 +3,7 @@ title: Lokaliseerimine ja regulatiivsed funktsioonid
 description: "See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide kohta rohkem teada saada."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokaliseerimine ja regulatiivsed funktsioonid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations sisaldab funktsioone [rahvusvahelises toote saadavuse juhendis](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf) dokumenteeritud riikide/regioonide kohta. Need funktsioonid on lubatud aktiivse juriidilise isiku esmase aadressi põhjal. 
 
@@ -53,8 +52,8 @@ Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioo
 -   [Regulatiivse vaatluse ja regulatiivsete värskenduste teabevahetus](regulatory-watch-communication.md)
 -   [Microsofti teavitamine riigi/regiooni regulatiivsetest teatistest ja regulatiivsete funktsioonide oleku jälgimine](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Dynamics 365 sisukaart
-[Dynamics 365 sisukaart](https://roadmap.dynamics.com/) annab hetkeülevaate sellest, millega parajasti töötame. Saate selle sisukaardi abil välja uurida, mis on tehtud üldiselt kättesaadavaks ja mida arendatakse. Kõik arendustega seotud kuupäevad ja funktsioonid on esialgsed, põhinevad praegustel ootustel ja võivad ette teatamata muutuda.
+### <a name="dynamics-365-release-notes"></a>Dynamics 365 väljalaskemärkmed
+[Dynamics 365 väljalaskemärkmed (PDF-faili allalaadimine)](https://aka.ms/businessappsreleasenotes) sisaldavad kirjeldust täiustatud ja uute võimaluste kohta Dynamics 365 ärirakendustes ja rakenduse platvormides. 
 
 ## <a name="electronic-reporting"></a>Elektrooniline aruandlus
 Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektrooniliste dokumentide vorminguid erinevate riikide/regioonide õigusnõuete järgi. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Lisateavet vt järgmistest teemadest.
@@ -77,27 +76,11 @@ Lisateabe saamiseks vt teemat [tegevuse juhised](../../fin-and-ops/get-started/h
 
 
 ## <a name="countryregion-specific-help-topics"></a>Riigi/regioonikohased spikriteemad
-Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
+Järgmistes jaotistes on toodud ressursiloendid riikide/piirkondade järgi.
 
-### <a name="australia"></a>Austraalia
-
--   [Panga failivormingud](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [Äritegevuse aruanne ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Väikese väärtusega vahendite kulum](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Austria
-
-- [Poolaasta kulum](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Pakkematerjali maksud](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Ostulõivud](../../financials/localizations/emea-aut-purchase-duties.md)
-- [KM aruanne](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>Belgia
-
--   [CODA pangaväljavõte](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Intervati maksudeklaratsioon](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [PRODCOM-i aruande häälestamine](../../financials/localizations/emea-bel-prodcom-report.md)
--   [Vastavusseviimise aruanded](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Austraalia](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Austria](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Belgia](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Brasiilia
 
@@ -134,22 +117,9 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Varude põhikontode sisestamine saidi järgi](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [Pearaamatukonto deebet- ja kreeditsummade kuvamine](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>Tšehhi Vabariik
-
--   [Kreeditarve skonto](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Kulumi ümardamine](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Tšehhi Vabariigi põhivarade likvideerimise poolaasta kulum](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Kulumi peatamine (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Tšehhi Vabariigi põhivarade kulumiarvestusmeetodid](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [Põhivara eelsoetuse sisestamine](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [Tšehhi Vabariigi KM aruanne](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [Käibemaksuaruandlus ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Perioodide tükeldamine perioodilistes töölehtedes](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Allkirjastajate häälestamine prindivormide jaoks](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Aruannetes ja dokumentides summade kuvamise viisi värskendamine](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Tšehhi Vabariik](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Eesti
-
 -   [KM aruande üksikasjad Eestis](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Põhivarade likvideerimine](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ Järgnevates alateemades on loetletud ressursid riigi/regiooni alusel.
 -   [Korrigeerimise inflatsiooni deklaratsiooni aruanne](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [ISR-deklaratsiooni aruanne](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Elektroonilised arved (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Malaisia
 
 -   [Kaupade ja teenuste maks (GST)](../../financials/localizations/apac-mys-gst.md)
