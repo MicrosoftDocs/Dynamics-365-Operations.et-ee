@@ -17,17 +17,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: df924487c02ee9c7246ab9f12719382459634e98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 51449f2f8448a493ebf7e4496cebdb90d902869a
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-signers-for-print-forms"></a>Prinditud vormide allkirjastajate seadistamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.
 
@@ -60,19 +59,19 @@ Ettevõtte prinditavate dokumentide allkirjastajate seadistamiseks kasutage leht
 <li>Ettemaksuaruanne</li>
 <li>Kassaraamatu leht</li>
 <li>Loendusväljavõte</li>
-<li>Viitvõlad*</li>
+<li>Viitvõlad<em></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Müügitellimused</td>
 <td>Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi klientidega seotud väljaminevaid põhidokumente.
 <ul>
-<li>Maksearve*</li>
+<li>Maksearve</em></li>
 <li>Arve</li>
-<li>Faktuurarve*</li>
+<li>Faktuurarve<em></li>
 <li>Arve – kreeditarve</li>
-<li>Faktuurarve – kreeditarve*</li>
-<li>Maksukande faktuurarve (klient)*</li>
+<li>Faktuurarve – kreeditarve</em></li>
+<li>Maksukande faktuurarve (klient)<em></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -80,18 +79,18 @@ Ettevõtte prinditavate dokumentide allkirjastajate seadistamiseks kasutage leht
 <td>Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi hankijatega seotud sissetulevaid põhidokumente.
 <ul>
 <li>Arve</li>
-<li>Faktuurarve*</li>
+<li>Faktuurarve</em></li>
 <li>Arve – kreeditarve</li>
-<li>Faktuurarve – kreeditarve*</li>
-<li>Maksearve*</li>
-<li>Maksukande faktuurarve (hankija)*</li>
+<li>Faktuurarve – kreeditarve<em></li>
+<li>Maksearve</em></li>
+<li>Maksukande faktuurarve (hankija)<em></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Laokaupade haldus</td>
 <td>Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi laodokumente, kui kliendile väljastatakse või hankijalt saadakse materiaalseid varasid.
 <ul>
-<li>Väljasta müügitellimuse (M-15) saateleht*</li>
+<li>Väljasta müügitellimuse (M-15) saateleht</em></li>
 <li>Korv. order / Sisset. order</li>
 <li>Väljasta üleviimistellimuse (M-15) saateleht*</li>
 </ul></td>

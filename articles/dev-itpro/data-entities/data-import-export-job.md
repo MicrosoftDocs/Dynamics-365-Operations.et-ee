@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>Andmete importimis- ja eksportimistööd
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Andmeimpordi ja -ekspordi tööde jaoks rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatakse tööruumi **Andmehaldus**. Vaikimisi loob andmeimpordi ja -ekspordi protsess igale sihtandmebaasi üksusele koondamistabeli. Koondamistabelid võimaldavad andmeid enne teisaldamist kontrollida, puhastada või teisendada.
 
@@ -64,13 +64,15 @@ Soovitame võtta aega, et valida impordi- või eksporditööle sobiv projektikat
 Saate lisada impordi- või eksporditööle konkreetseid üksusi või valida rakendamiseks malli. Mallid täidavad töö üksuste loendiga. Valik **Rakenda mall** on saadaval, kui olete tööle nime andnud ja selle salvestanud.
 
 ### <a name="set-the-data-format-for-the-job"></a>Töö andmevormingu määramine
-Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormingu. Vorminguid saab määratleda paani **Andmeallikate seadistus** kaudu. Paljud organisatsioonid alustavad vormingutes, mis on vaikimisi demoandmete kogumisse lisatud. Siin on loend mõningatest sellistest vormingutest.
+Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormingu. Vorminguid saab määratleda paani **Andmeallikate seadistus** kaudu. Lähteandmete vorming on **tüübi**, **failivormingu**, **reaeraldaja** ja **veerueraldaja** kombinatsioon. On ka muid atribuute, kuid need on kõige olulisemad. Järgmises tabelis on toodud kehtivad kombinatsioonid.
 
-- AX (andmete puhul, mis tuleb importida või eksportida samas vormingus, mida kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operations)
-- Kooloniga eraldatud
-- CSV
-- Excel
-- Pakett
+| **Failivorming**        | **Rea-/veerueraldaja**                   | **XML-i laad**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-Pole-                     |
+| XML                    | \-Pole-                                      | XML-element XML-atribuut |
+| Eraldatud, fikseeritud laius | Koma, semikoolon, vahekaart, vertikaalriba, koolon | \-Pole-                     |
+
+
 
 ### <a name="sequence-the-entities"></a>Üksuste järjestamine
 Üksusi saab järjestada andmemallis või impordi- ja eksporditöödes. Kui käivitate mitut andmeüksust sisaldava töö, peate veenduma, et andmeüksused oleksid õiges järjestuses. Üksused järjestatakse peamiselt nii, et saaksite käsitleda funktsionaalseid sõltuvusi üksuste vahel. Kui üksustel pole ühtegi funktsionaalset sõltuvust, saab need plaanida paralleelseks impordiks või ekspordiks.

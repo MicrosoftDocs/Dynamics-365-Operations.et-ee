@@ -18,17 +18,16 @@ ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 3c284b8c67121b39837bef827dea6f24da2a0f4b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 97be3eee9ebb99af33e3153fe7726ed5b086b03c
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advance-invoices-for-eastern-europe"></a>Ettemaksuarved Ida-Euroopa puhul
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ettemaksuarve on dokument, mille saate luua kliendile või hankijale. Sellel märgitakse summa, mis tuleb müügitellimuse puhul ette maksta. See teema annab teavet ettemaksuarvete kohta Ida-Euroopa puhul.
 
@@ -47,19 +46,20 @@ Ettemakse saavad Poola ettevõtted peavad looma kliendi jaoks ettemaksude arve. 
 ## <a name="set-up-accounts-receivable-for-advance-invoices"></a>Müügireskontro seadistamine ettemaksuarvete puhul
 Määrake lehe **Müügireskontro parameetrid** vahekaardil **Värskendused** järgmised parameetrid.
 
-|Kiirkaart|Parameeter|Kirjeldus|
-|------|----------|------------|
-|Ettemaksuarve  |Sisestusreeglid|Saate valida sisestusreeglid, mida kasutada ettemaksuarvelduse puhul (ainult Poola). **Oluline.** Tšehhi Vabariigi ja Ungari puhul ei käsitleta ettemaksuarveid raamatupidamis- või maksudokumentidena ja neid ei sisestata pearaamatusse. Seetõttu peaksite selle välja nende riikide puhul tühjaks jätma, et vältida ettemaksuarvete sisestamist pearaamatusse.
-|
-|Ettemaksuarve  |Vastas-|konto        |Saate valida vaikevastaskonto täiustatud arveldamisega kasutamiseks.|
-|Ettemaksuarve  |Käibemaksugrupp        |Saate valida käibemaksugrupi ettemaksuarvelduseks käibemaksu arvutamisel.|
-|Ettemaksuarve  |Vastupidiseks muutmine parandusena |Märkige see ruut, kui ettemaksuarve tühistamist tuleb käsitleda parandusena.|
-|Ettemaksuarve  |Tühista arvekuupäeval|Märkige see ruut, et tühistada ettemaks arve sisestamise kuupäeval.|
-|Makse          |Mitu ettemaksukuupäeva|Tehke üks järgmistest valikutest: **Aktsepteeri**, **Hoiatus** või **Tõrge**.|
-|Makse          |Kuupäeva sobimatus          |Tehke üks järgmistest valikutest: **Aktsepteeri**, **Hoiatus** või **Tõrge**.|
-|Makse          |Summa sobimatus        |Tehke üks järgmistest valikutest: **Aktsepteeri**, **Hoiatus** või **Tõrge**.|
-|Makse          |Sisestatud ettemaksuarvega seostamine|Tehke üks järgmistest valikutest: **Aktsepteeri**, **Hoiatus** või **Tõrge**.|
-|Makse          |(CZE), (POL) Ettemaksu käsitlemine|Valige **Täpsem**.|
+
+|     Kiirkaart     |             Parameeter             |                                                                                                                                                                                           Kirjeldus                                                                                                                                                                                           |
+|-----------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ettemaksuarve |          Sisestusreeglid          | Saate valida sisestusreeglid, mida kasutada ettemaksuarvelduse puhul (ainult Poola). <strong>Oluline.</strong> Tšehhi Vabariigi ja Ungari puhul ei käsitleta ettemaksuarveid raamatupidamis- või maksudokumentidena ja neid ei sisestata pearaamatusse. Seetõttu peaksite selle välja nende riikide puhul tühjaks jätma, et vältida ettemaksuarvete sisestamist pearaamatusse. |
+|                 |                                   |                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Ettemaksuarve |                Väljas                |                                                                                                                                                                                           konto                                                                                                                                                                                           |
+| Ettemaksuarve |          Käibemaksugrupp          |                                                                                                                                                      Saate valida käibemaksugrupi ettemaksuarvelduseks käibemaksu arvutamisel.                                                                                                                                                      |
+| Ettemaksuarve |      Vastupidiseks muutmine parandusena       |                                                                                                                                                 Märkige see ruut, kui ettemaksuarve tühistamist tuleb käsitleda parandusena.                                                                                                                                                  |
+| Ettemaksuarve |      Tühista arvekuupäeval      |                                                                                                                                                     Märkige see ruut, et tühistada ettemaks arve sisestamise kuupäeval.                                                                                                                                                     |
+|     Makse     |     Mitu ettemaksukuupäeva     |                                                                                                                                        Tehke üks järgmistest valikutest: <strong>Aktsepteeri</strong>, <strong>Hoiatus</strong> või <strong>Tõrge</strong>.                                                                                                                                         |
+|     Makse     |           Kuupäeva sobimatus           |                                                                                                                                        Tehke üks järgmistest valikutest: <strong>Aktsepteeri</strong>, <strong>Hoiatus</strong> või <strong>Tõrge</strong>.                                                                                                                                         |
+|     Makse     |          Summa sobimatus          |                                                                                                                                        Tehke üks järgmistest valikutest: <strong>Aktsepteeri</strong>, <strong>Hoiatus</strong> või <strong>Tõrge</strong>.                                                                                                                                         |
+|     Makse     | Sisestatud ettemaksuarvega seostamine |                                                                                                                                        Tehke üks järgmistest valikutest: <strong>Aktsepteeri</strong>, <strong>Hoiatus</strong> või <strong>Tõrge</strong>.                                                                                                                                         |
+|     Makse     | (CZE), (POL) Ettemaksu käsitlemine  |                                                                                                                                                                                Valige <strong>Täpsem</strong>.                                                                                                                                                                                |
 
 Seadistage numbriseeriad vahekaardil **Numbriseeriad** järgmiste viidete jaoks.
 

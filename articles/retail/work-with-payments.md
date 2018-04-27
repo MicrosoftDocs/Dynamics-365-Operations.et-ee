@@ -1,9 +1,9 @@
 ---
 title: "Makseviisid kõnekeskuses"
-description: "Selles teemas käsitletakse erinevaid makseviise, mida saate Dynamics 365 for Retaili kõnekeskuses kasutada."
+description: "Selles teemas kirjeldatakse erinevaid makseviise, mida saate Microsoft Dynamics 365 for Retaili kõnekeskuses kasutada."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,36 +20,38 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 321d03d154c224b55ffedbe55a2d5952c2b29d9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="payment-methods-in-a-call-center"></a>Makseviisid kõnekeskuses
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Rakenduses Microsoft Dynamics 365 for Retail sisaldab kõnekeskuse kanali konfiguratsioon sätet nimega **Tellimuse lõpetamise lubamine**. See säte aitab tagada, et kõik tellimused, mille kanali kasutajad loovad, väljastatakse tellimuse töötlemisse ainult juhul, kui neil on ettemakstud või eelautoriseerida makse, mis on kinnitatud piirides. Kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, saavad kõnekeskuse kasutajad sisestada klientide müügitellimuste makseid, kasutades kõnekeskuse makse töötlemise funktsioone. Kui säte on välja lülitatud, ei saa kõnekeskuse kasutajad kõnekeskuse makse töötlemise funktsioone kasutada, kuid nad saavad siiski müügitellimustele ettemakseid rakendada, kasutades standardset müügireskontro funktsiooni.
 
-Selles teemas käsitletakse erinevaid makseviise, mida saate Dynamics 365 for Retaili kõnekeskuses kasutada.
+Kanali konfiguratsiooni osana saab ettevõte määratleda makseviisid, mis on kõnekeskuse kanalil lubatud. Kõnekeskuse kanal kasutab samu makseviise, mis on määratletud jaemüügikanalite jaoks.
 
-Muudes kanalites kasutatavaid makseviise (nt sularaha, tšekke, krediitkaarte ja kinkekaarte) saab kasutada ka kõnekeskustes. Pärast seda, kui olete seadistanud kõnekeskuse makseviisi, kuvatakse see ühe valikuna jaotises **Maksed** lehel **Müügitellimus** kõigi kõnekeskuse kasutajate puhul. Lisaks saate seadistada kupongid, millega pakkuda allahindlusi klientidele, kes esitavad teie organisatsiooni kõnekeskuse kaudu tellimuse. Kupongid võivad pakkuda fikseeritud summaga allahindlust või allahindlusprotsenti kauba hinnast või kogutellimusest. Näiteks summapõhine kupong võib pakkuda klientidele 75.00-eurost allahindlust, kui nad kulutavad vähemalt 750.00 eurot. On võimalik luua erinevat tüüpi kuponge, seadistada põhi-/alamkuponge ja kopeerida või tühistada kupongi. Kasutage kupongide loomiseks järgmises tabelis olevaid valikuid.
+Kõnekeskuse kanali maksemeetodite konfigureerimiseks avage **Jaemüük** \> **Kanalid** \> **Kõnekeskused** \> **Kõik kõnekeskused** ja seejärel valige menüüs **Seadista** suvand **Makseviisid**.
 
-|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Atribuut**             | Sisestage väljale **Lunastamismäär** kupongi eeldatav lunastamismäär protsendina ja seejärel valige, kas kupong on ühekordselt kasutatav, automaatselt uuesti väljastatav või kliendikohane.                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Kehtiv**                 | Sisestage väljadele **Alguskuupäev** ja **Lõpukuupäev** kupongi kehtivuse esimene ja viimane kuupäev.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Kaasa/välista reeglid** | Valige väljadel **Kataloogid** ja **Kaubad**, kas kupongist välistatakse mõni kataloog või kaup. Kui valite **Kaasa** või **Välista**, klõpsake valikut **Seadistus**, valige **Kaasa/välista kataloogid** või **Kaasa/välista tooted** ja sisestage teave kataloogi või kauba kohta. Kui teete neil väljadel valiku **Puudub**, kaasatakse kupongile kõik kataloogid või kaubad.                                                                                                                                                                                                                          |
-| **Muud**         | Kui seda kupongi ei saa koos muude allahindlustega kasutada, märkige ruut **Välistav**. Seejärel valige väljalt **Päritolu**, kus kupongi saab kasutada. Kui see kupong on tootja kupong, märkige ruut **Tootja kupong**.                                                                                                                                                                                                                                                                                                                                                                |
-| **Tulevane kupong**         | Kui kupong seotakse põhiüksusena teiste kupongidega, märkige ruut **Põhikupong**. Kui see kupong tuleks seostada olemasoleva kupongiga alamkupongina, valige väljalt **Põhikupongi ID** põhikupong. Näiteks võite luua kupongi tulevase kevadkataloogi jaoks. Kõik teised kevadkataloogi jaoks loodavad kupongid on edaspidi kevadkataloogi kupongi alamkupongid. Alamkupongid võivad sisaldada 20-protsendilist allahindlust uute klientide tellimustele, 10-protsendilist allahindlust uutele kaupadele või 95.00-eurost allahindlust üle 1000.00-eurostele tellimustele. |
+Makseviisi loomisel saate määrata viis makseviisi funktsiooni.
 
-Kui edastate krediitkaardimakse lehelt **Müügitellimus** ja saate sõnumi, mis mainib, et kaart ei ole autoriseeritud, saate autoriseerida käsitsi. Võite krediitkaarditehingu autoriseerida, tagasi lükata või uuesti esitada, kasutades lehte **Autoriseerimise haldamine**. Kõnekeskuse parameetrite lehel saate konfigureerida täiendavaid makse töötlemise valikuid.
+| Funktsioon            | Kirjeldus |
+|---------------------|-------------|
+| Tavaline              | Kasutage oma makseviisis funktsiooni **Tavaline**, kui määratlete makseviise, nagu sularaha või kanded. Kõnekeskuses seda tüüpi makseviiside rakendamisel müügitellimusele sisestatakse need kohe ettemaksetena kliendikontole. Ettemaksekanne sisestatakse kliendikannete ajalukku, kus see tasakaalustatakse arvete loomisel süstemaatiliselt müügitellimuse arvega. |
+| Kontrolli               | Kasutage funktsiooni **Kontrolli**, kui määratlete makseviisina pangatšeki. Kui müügitellimusele rakendatakse see maksetüüp, peab kasutaja maksuavalduse töötlemise osana sisestama kliendi tšekinumbri. Tšekimakseid käsitletakse nende rakendamisel alati ettemaksetena. Nagu maksefunktsiooni **Tavaline** korral, tasakaalustatakse need ettemaksekanded süstemaatiliselt tellimuse jaoks loodud arvetega. |
+| Kaardid               | Kaardimakse tüübid esindavad mis tahes maksetüüpi, mille jaoks tuleb sisestada kaardi number, mis on määratletud kliendi maksekaardil. Näiteks on krediitkaardid ja kinkekaardid. Seda tüüpi maksete konfigureerimisel peate kasutama menüüd **Kaardi häälestus**, et määratleda selle makseviisiga seostatud kaardi ID-d. Tellimuse sisestamise ajal saavad kasutajad määrata, kas kaardimakse on ettemakse, kasutades suvandit **Ettemaks**, mis kuvatakse maksekande lehel. Kui ettevõtte ei nõua ettemakseid, on krediitkaardimakse tavapärane voog kaheastmelise protsess, kus tellimuse sisestamise ajal saadakse luba ning seejärel tasakaalustatakse arveldamisel makse ja võetakse see kliendi kaardilt. Kinkekaardimaksete korral on ettemakse soovitatav, sest kinkekaardi saldot tuleks vähendada kohe, et klient ei saaks sama väärtust rakendada mujal. |
+| Klient            | Makseviisi funktsioon **Klient** tähendab, et makse rakendatakse kliendi krediidilimiidile või pannakse ettemaksele. Rakenduses Retail saab klient määrata krediidilimiidi, mille saab kinnitada tellimuse sisestamise ajal. Maksed, mis tehakse makseviisiga, mis on seotud funktsiooniga **Klient**, loovad kliendikonto suhtes kohustuse. Seejärel kuvatakse müügitellimuse arveldamisel deebetsaldo. Sellistel juhtudel saadavad kliendid tavaliselt makse esitatud tingimuste kohaselt. Teise võimalusena saab tähtajani jõudnud saldo tasakaalustamiseks rakendada eelmise avatud kreeditkande kliendi kontol. Pange tähele, et isegi juhul, kui määrate selle makseviisi, ei kuvata seda kõnekeskuse tellimuse kirjes maksevalikute all, kui te pole kliendi, kellega töötate, kirjel märkinud lippu **Ettemaksu lubamine**. Selle lipu leiate kliendikirje vahekaardil **Makse vaikeandmed**. |
+| Väljamakse-/vahetusraha | Funktsiooni **Väljamakse-/vahetusraha** kõnekeskus ei kasuta. See on rakendatav ainult siis, kui määratlete makseviisid, mida kassarakendus kasutab kaupluse kanalil. |
 
--   Tšeki ootelolekud võimaldavad finantsosakonna töötajatel töödelda ootele pandud tellimusi, kuna makseviisina kasutati tšekki ja tšeki ooteloleku lävesumma ületati. Ooteloleku saab käsitsi vabastada või see aegub automaatselt konfigureeritud perioodi lõpus.
--   Saate seadistada läved, mille ületamisel tuleb tšekkide ja krediitkaartide kaudu väljastatud tagasimakseid käsitsi kinnitada. Kõik lävisummat ületavad tagasimaksed lisatakse kinnitusjärjekorda. Pärast tagasimakse kinnitamist saab müügi tagastustellimust arveldada.
+Makseviiside määratlemisel tuleb need siduda pearaamatu või pangakontoga. Kui jätate selle etapi vahele, kuvatakse kasutajatel makseviisi salvestamisel tõrked.
 
+## <a name="refund-payment-methods"></a>Tagasimakse viisid
 
+Tagasimakse töötlemise stsenaariumides kasutab kõnekeskus osasid makseviise, mis on määratletud valikus Müügireskontro. Nende makseviiside konfigureerimiseks avage **Jaemüük** \> **Kanali häälestus** \> **Kõnekeskuse seadistamine** \> **Kõnekeskuse tagasimakseviisid**. Kliendi tagasimakse kontrollide töötlemiseks peate selle konfiguratsiooni lõpule viima. Näiteks, kui klient tasus algselt tellimuse eest sularahas või tšekiga, võib kasutaja soovida saata kliendile tagasimakse tšeki valiku Müügireskontro kaudu. Sel juhul tuleb sularaha ja tšekiga makseviisid kõnekeskuses vastendada õige makseviisiga valikus Müügireskontro, et tagada, et tagasimakse töödeldakse õigesti.
 
-
+Lisaks, kui kasutaja töötleb tagastustellimust kõnekeskuse kasutajana Retailis, kuid ta ei saa tagastust siduda algse müügiga, tuleb kõnekeskuse parameetrites määratleda makseviis **Tagastus**. Avage **Jaemüük** \> **Kanali häälestus** \> **Kõnekeskuse seadistamine** \> **Kõnekeskuse parameetrid** ja seejärel vahekaardil **RMA/Tagastus** väljal **Makseviis** veenduge, et makseviis oleks määratletud. See makseviisi on makseviis, mida kasutatakse tagastuste tegemiseks. Tavaliselt on see määratletud tšeki meetodi või kliendikonto meetodina.
 

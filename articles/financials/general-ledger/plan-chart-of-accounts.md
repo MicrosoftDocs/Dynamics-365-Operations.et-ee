@@ -1,9 +1,9 @@
 ---
-title: Kontoplaani kavandamine
-description: Selles artiklis antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
+title: Kontoplaanide plaanimine
+description: Selles teemas antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/04/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,46 +19,46 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
-ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3f8d97fc42cde9053b0552fc1dfe8e6de0f5e03b
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Kontoplaani kavandamine
+# <a name="plan-your-chart-of-accounts"></a>Kontoplaanide plaanimine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+Selles teemas antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
 
-Selles artiklis antakse teavet, mis aitab teil planeerida organisatsiooni kontoplaane.
+Organisatsiooni finantsteabe jälgimiseks ja säilitamiseks saate seadistada kontoplaani. Kontoplaan on finantsraamistikku määratlevate kontode kogum. Nende kontode kannete edasiseks jälgimiseks saate lisada segmente. Neid segmente nimetatakse finantsdimensioonideks. Näiteks võib kulukonto sisaldada finantsdimensioone nimedega Osakond, Kulukeskus ja Eesmärk. Kasutaja määratud reeglid määravad, kuidas finantsdimensioonid on seotud põhikontode ja muude finantsdimensioonidega ning kuidas kandeid sisestatakse. Neid kasutaja määratud reegleid nimetatakse konto struktuurideks ja täpsemateks reegliteks.
 
-Organisatsiooni finantsteabe jälgimiseks ja säilitamiseks saate seadistada kontoplaani. Kontoplaan on finantsraamistikku määratlevate kontode kogum. Nende kontode kannete edasiseks jälgimiseks saate lisada segmente, mida nimetatakse finantsdimensioonideks. Näiteks võib kulukonto sisaldada finantsdimensioone nimedega Osakond, Kulukeskus ja Eesmärk. Kasutaja määratud reeglid, mida nimetatakse konto struktuurideks ja täpsemateks reegliteks, määravad, kuidas finantsdimensioonid on seotud põhikontode ja muude finantsdimensioonidega ning kuidas kandeid sisestatakse. 
+Kontoplaan on juriidilise isiku pearaamatukontode struktureeritud loend. Seda loendit kasutatakse ametivõimudele ja omanikele finantsaruannete ettevalmistamiseks. Kontod grupeeritakse kõigepealt kontotüüpide järgi ja seejärel koondatakse suurematesse kategooriatesse. Kõige üldisemal tasandil on kontod grupeeritud tulude ja kuludena (kasutusel olevad kontod) ning varade ja kohustustena (bilansikontod).
 
-Kontoplaan on juriidilise isiku pearaamatukontode struktureeritud loend. Seda loendit kasutatakse ametivõimudele ja omanikele finantsaruannete ettevalmistamiseks. Kontod on grupeeritud kontotüüpide järgi ja seejärel koondatud suurematesse kategooriatesse. Kõige üldisemal tasandil on kontod grupeeritud tulude ja kuludena (kasutusel olevad kontod) ning varade ja kohustustena (bilansikontod). 
-
-Kontoplaani saavad jagada ja kasutada kõik organisatsiooni juriidilised isikud. Kontoplaan, mida juriidiline isik kasutab, on määratletud lehel **Pearaamat**. 
+Kontoplaani saavad jagada ja kasutada kõik organisatsiooni juriidilised isikud. Kontoplaan, mida juriidiline isik kasutab, on määratletud lehel **Pearaamat**.
 
 Järgmiselt on toodud mõni tegur, millega peate oma organisatsiooni kontoplaani struktuuri plaanimisel arvestama.
 
--   Organisatsiooni riigi/regiooni aruandluse nõuded
--   Teie juriidilise isiku aruandluse nõuded
--   Nõutav üksikasjalik täpsustustase nii muude organisatsioonide kui ka teie organisatsiooni jaoks
+- Organisatsiooni riigi või regiooni aruandluse nõuded
+- Teie juriidilise isiku aruandluse nõuded
+- Nõutav üksikasjalik täpsustustase nii muude organisatsioonide kui ka teie organisatsiooni jaoks
 
-Looge kontoplaan lehel **Kontoplaan**. Põhikontosid saab luua lehel **Kontoplaan** või lehel **Põhikontod**. Põhikontodel ei tohiks kasutada erimärke, mida kasutatakse kontoplaani eraldajatena. Erimärgi olemasolul, mis vastab teie kontoplaani eraldajale, võib konto ja dimensiooni kombinatsioonide sisestamisel ilmneda ebastabiilsus või olla alati vaja otsinguid või hüpikut kasutada. Lisateabe jaoks vt [Põhikonto loomine](tasks/create-main-account.md).
+Saate luua kontoplaani lehel **Kontoplaan**. Saate luua põhikontosid lehel **Kontoplaan** või lehel **Põhikontod**. Põhikontodel ei tohiks kasutada erimärke, mida kasutatakse kontoplaani eraldajatena. Vastasel juhul võib konto ja dimensiooni kombinatsioonide sisestamisel ilmneda ebastabiilsus või vajalik olla alati otsingute või dialoogiboksi kasutamine. Lisateabe jaoks vt [Põhikonto loomine](tasks/create-main-account.md).
 
+> [!NOTE]
+> Rakenduse Microsoft Dynamics for Finance and Operations versioonis 8.0 (aprill 2018) saate muuta kontoplaani eraldajat lehel **Üldised pearaamatu parameetrid**.
 
-Soovitatav on siduda põhikontod põhikonto kategooriatega, nii et saate kasutada vaikimisi finantsaruandeid ega pea muudatusi tegema. Seetõttu saate aruandeid kiiremini ja hõlpsamini kujundada ja säilitada. 
+Soovitatav on siduda põhikontod põhikonto kategooriatega, nii et saate kasutada vaikimisi finantsaruandeid ega pea muudatusi tegema. Seetõttu saate aruandeid kiiremini ja hõlpsamini kujundada ja säilitada.
 
-Kasutage konto struktuuride loomiseks lehte **Konto struktuuride konfigureerimine**. Konto struktuurid määratlevad kehtivaid kombinatsioone. Need kombinatsioonid koos põhikontodega moodustavad kontoplaani.  Lisateabe jaoks vt [Konto struktuuride loomine](tasks/create-account-structures.md).
+Saate luua konto struktuure lehel **Konto struktuuride konfigureerimine**. Konto struktuurid määratlevad kehtivaid kombinatsioone. Need kombinatsioonid koos põhikontodega moodustavad kontoplaani. Lisateabe jaoks vt [Konto struktuuride loomine](tasks/create-account-structures.md).
 
-**Juriidilise isiku alistamised** 
+**Juriidilise isiku alistamised**
 
-Kõik põhikontod ei kehti kõikide juriidiliste isikute puhul ja mõned võivad olla asjakohased ainult konkreetse ajaperioodi puhul. Sellisel juhul saab jaotist Juriidilise isiku alistamised kasutada tuvastamaks, milliste ettevõtete põhikonto tuleks peatada, kes on omanik ja mis ajaperioodil on dimensioon aktiivne. Ühiskasutuse tasandil alistamised ei saa olla piiravamad kui alistamised juriidilise isiku tasandil.
+Kõik põhikontod ei kehti kõikide juriidiliste isikute puhul ja mõni põhikonto võib olla asjakohased ainult konkreetse perioodi puhul. Sel juhul saab kasutada jaotist **Juriidilise isiku tühistamised** tuvastamiseks, milliste ettevõtete põhikonto tuleks peatada, kes on omanik ja mis ajaperioodil on dimensioon aktiivne. Ühiskasutuse tasandil alistamised ei saa olla piiravamad kui alistamised juriidilise isiku tasandil.
 
-Lisateavet saate lugeda järgmistest teemadest. [Finantsdimensioonid](financial-dimensions.md)
-[Täpsemate reegli struktuuride loomine ja määramine](tasks/create-assign-advanced-rule-structures.md)
+Lisateavet vt järgmistest teemadest:
 
-
-
+- [Finantsdimensioonid](financial-dimensions.md)
+- [Täpsemate reeglistruktuuride loomine ja määramine](tasks/create-assign-advanced-rule-structures.md)
 

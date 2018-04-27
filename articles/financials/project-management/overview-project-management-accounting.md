@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Projektihaldus ja -arvestus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Projektihaduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas teenuse pakkumiseks, toote tootmiseks või tulemuse saavutamiseks.  
 
@@ -83,6 +82,7 @@ Võite kasutada projekti prognoosi, kui teie organisatsioonil on tegevustele suu
 Saate luua Microsoft Dynamics 365 for Finance and Operationsis kuut tüüpi projekte. Iga projekti tüüp seadistatakse kulude ja tulude arvestuse seisukohast erinevalt. Projektitüübi valik sõltub projekti otstarbest. Järgmises tabelis kirjeldatakse iga projektitüübi tavapärast kasutust.
 
                                                                                                                                                                          |
+
 | Projekti tüüp      | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Aeg ja materjal | Aja ja materjalikulu projektides esitatakse kliendile arve kõigi projektiga seotud kulude kohta. Need kulud hõlmavad tundide, kulutuste, kaupade ja tasude kulusid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Projektiga seotud tootmistellimuse saab siduda müügitellimuse või kaubavajadu
 
 Kasutage nende tegurite kombinatsioonide põhjal ühte järgmistest meetoditest.
 
--   **Valmis kaup / link tellimuse juurde** – projekt seotakse müügitellimuse või kaubavajadusega. Selle meetodi kasutamisel sisestatakse tegelikud projekti kulud müügitellimuse eest arve esitamisel või kaubavajaduse saatelehe muutmisel. Kulu sisestatakse lõpetatud kaubana.
--   **Lõpetatud kaup / pole linki tellimuse juurde** – tegelikke kulusid ei saa sisestada enne, kui kauba tootmistsükli olek on **Lõpetatud**. Valmis kauba kulu sisestatakse üksiku kandena.
--   **Tarbitud kaup / link tellimuse juurde** – projekt seotakse kaubavajadusega. Selle meetodi abil saate vaadata projekti tegelikke kulusid, kui tootmise olek on **Alustatud** või lõpetatuks märgitud. Toormaterjalide ja tootmiseks tarbitud tundide kulud sisestatakse mitme projekti kaubakannetena. Kui saateleht värskendatakse kaubavajaduseks, siis projekti kulusid ei sisestata. Saate ka määrata koosluse hierarhia taseme, millel projekte tootmises jälgitakse.
--   ****Tarbitud kaup / linki tellimuse juurde pole**** – projekt seotakse kaubavajadusega. Selle meetodi abil saate vaadata projekti tegelikke kulusid, kui tootmise olek on **Alustatud** või lõpetatuks märgitud. Toormaterjalide ja tootmiseks tarbitud tundide kulud sisestatakse mitme projekti kaubakannetena. Saate ka määrata koosluse hierarhia taseme, millel projekte tootmises jälgitakse.
+- **Valmis kaup / link tellimuse juurde** – projekt seotakse müügitellimuse või kaubavajadusega. Selle meetodi kasutamisel sisestatakse tegelikud projekti kulud müügitellimuse eest arve esitamisel või kaubavajaduse saatelehe muutmisel. Kulu sisestatakse lõpetatud kaubana.
+- **Lõpetatud kaup / pole linki tellimuse juurde** – tegelikke kulusid ei saa sisestada enne, kui kauba tootmistsükli olek on **Lõpetatud**. Valmis kauba kulu sisestatakse üksiku kandena.
+- **Tarbitud kaup / link tellimuse juurde** – projekt seotakse kaubavajadusega. Selle meetodi abil saate vaadata projekti tegelikke kulusid, kui tootmise olek on **Alustatud** või lõpetatuks märgitud. Toormaterjalide ja tootmiseks tarbitud tundide kulud sisestatakse mitme projekti kaubakannetena. Kui saateleht värskendatakse kaubavajaduseks, siis projekti kulusid ei sisestata. Saate ka määrata koosluse hierarhia taseme, millel projekte tootmises jälgitakse.
+- *<strong><em>Tarbitud kaup / linki tellimuse juurde pole</em></strong>* – projekt seotakse kaubavajadusega. Selle meetodi abil saate vaadata projekti tegelikke kulusid, kui tootmise olek on <strong>Alustatud</strong> või lõpetatuks märgitud. Toormaterjalide ja tootmiseks tarbitud tundide kulud sisestatakse mitme projekti kaubakannetena. Saate ka määrata koosluse hierarhia taseme, millel projekte tootmises jälgitakse.
 
 ### <a name="procure-products-and-services"></a>Toodete ja teenuste hankimine
 
@@ -239,9 +239,8 @@ Järgmises tabelis kirjeldatakse projekti täitmiskulu arvutamise meetodeid.
 <li>Võrrelge prognoosi kandeid tegelike kannetega.</li>
 <li>Hallake, vähendage või suurendage järgmise perioodi prognoose.</li>
 </ol>
-Finance and Operations ei vähenda automaatselt prognoositud väärtusi. Seetõttu on soovitatav fikseeritud hinnaga projekti puhul algne prognoosimudel alles hoida, et projekti lõppedes oleks võrdlemiseks alus olemas. 
-> [!NOTE] Selle meetodi valimisel kasutage vähemalt kahte prognoosimudelit. Üks mudel peaks sisaldama algset prognoosi. Teise mudeli jaoks tuleks kopeerida teisest mudelist prognoosi kanded. See meetod kehtib ainult fikseeritud hinnaga projektide ja investeeringuprojektide puhul.</td>
-> </tr>
+Finance and Operations ei vähenda automaatselt prognoositud väärtusi. Seetõttu on soovitatav fikseeritud hinnaga projekti puhul algne prognoosimudel alles hoida, et projekti lõppedes oleks võrdlemiseks alus olemas. &gt; [!NOTE] &gt; Selle meetodi valimisel kasutage vähemalt kahte prognoosimudelit. Üks mudel peaks sisaldama algset prognoosi. Teise mudeli jaoks tuleks kopeerida teisest mudelist prognoosi kanded. See meetod kehtib ainult fikseeritud hinnaga projektide ja investeeringuprojektide puhul.</td>
+</tr>
 <tr class="odd">
 <td>Eelarvejääk</td>
 <td>See meetod kasutab projekti täitmiskulu arvutamiseks järelejäänud eelarve mudelit. Selle meetodi kasutamisel liidetakse tegelikud kulud ja järelejäänud eelarvemudeli prognoositud summad. Tulemuseks on kogukulu. Enne selle meetodi kasutamist tuleb seadistada järelejäänud eelarvemudel kannete mahaarvamiseks tegelike süsteemis kajastatud kannete põhjal. Kontrollige lehelt <strong>Prognoosimudelid</strong>, et grupis <strong>Automaatne prognoosi vähendamine</strong> oleksid väljad märgitud. Tavaliselt kopeeritakse järelejäänud eelarve algsest eelarvest. Kannete sisestamisel vähendatakse järelejäänud eelarve kandeid. Projekti edenedes, kui määrate, et järelejäänud eelarvet tuleb kohandada, võtate prognoositavad kanded järelejäänud eelarvest. <strong>Märkus.</strong> Seda meetodit saab rakendada ainult siis, kui prognoosile on lisatud prognoosimudel.</td>

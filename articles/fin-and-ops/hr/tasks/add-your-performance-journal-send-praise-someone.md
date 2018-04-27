@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil. Töölehe kaudu saab ka kolleegi tegevusi kiita. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 
@@ -42,7 +42,7 @@ Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke
 9. Tippige väärtus väljale Märksõnad.
 10. Klõpsake valikut Lisa väline link.
 11. Tippige väljale Kirjeldus väärtus Envision.
-12. Tippige väljale Interneti-aadress https://www.microsoft.com/en/envision/default.
+12. Sisestage internetiaadressi väljale väärtus <https://www.microsoft.com/en/envision/default>.
 13. Klõpsake nupu Salvesta all olevat selgitust „Jõudluse tööleht” ruudustikku naasmiseks.
     * Valitud töölehe või töölehed saab lisada eesmärgile, nii et see kuvatakse, kui eesmärgi avad. Kiirkaardile Lingid lisatakse link. Kui lisate eesmärgile töölehe ja seejärel lisate eesmärgi hindamisse, kuvatakse tööleht automaatselt hindamises.  
     * Valitud töölehe või töölehed saab lisada hindamisele, nii et see kuvatakse, kui hindamise avad.    Kiirkaardile Lingid lisatakse link.  

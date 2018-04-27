@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 468227e40165fa37e9ce80d5f52ded8e9094e5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Tootmise parameetrid moodulis Tootmise käivitamine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema käsitleb tootmise parameetrite seadistamist moodulis Tootmise käivitamine.
 
@@ -69,17 +69,17 @@ Igas etapis võimaldab väli **Automaatne koosluse tarbimine** valida ühe kolme
 
 - **Automaatse tarbimise põhimõte** – seda valikut kasutatakse koos valikuga, mis on määratud kooslusele moodulis **Tootmine**. Klõpsake valikuid **Tootmise juhtimine** &gt; **Üldine** &gt; **Tootmistellimused** &gt; **Kõik tootmistellimused**. Valige lehel **Kõik tootmistellimused** loendist tootmistellimus ja klõpsake siis toimingupaanil valikut **Kooslus**. Lehel **Kooslus** vahekaardil **Seadistus** väljal **Automaatse tarbimise põhimõte** valige üks kolmest võimalusest.
 
-    - **Alustamine**
-    - **Lõpetamine**
-    - **Käsitsi**
-    - Tühi (pole märgitud ühtki valikut.)
-    - **Asukohas saadaval**
+  - **Alustamine**
+  - **Lõpetamine**
+  - **Käsitsi**
+  - Tühi (pole märgitud ühtki valikut.)
+  - **Asukohas saadaval**
 
     Kui moodulis Tootmise käivitamine on valitud **Automaatse tarbimise põhimõte** väljal **Automaatne koosluse tarbimine** vahekaardil **Käivita**, siis arvestatakse kõik materjalid, mille olekuks koosluses on määratud **Käivita**, toimingu alustamisel varudest maha. Valikut **Asukohas saadaval** kasutatakse toodete puhul, millele on lubatud täpsemad laoprotsessid. Kui valite selle automaatse tarbimise põhimõtte, siis eemaldatakse materjal, kui toormaterjali komplekteerimise laotöö on lõpetatud. Materjal eemaldatakse ka siis, kui seda automaatse tarbimise põhimõtet kasutav koosluse rida lattu väljastatakse ja materjal on toodangu sisestuskohas saadaval.
-    
+
     > [!NOTE]
     > Kui väli **Automaatse tarbimise põhimõte** on mooduli Tootmise käivitamine vahekaardil **Käivita** määratud, tuleb valida sama põhimõte vahekaardil **Toimingud** või vahekaardil **Kinnita lõpetamine**. See nõue aitab tagada, et materjalid arvestatakse varudest maha koosluste puhul, mis kasutavad tootmistellimuse eemaldamise põhimõttena valikut **Lõpetamine**. Kui vahekaardil **Toimingud** või vahekaardil **Kinnita lõpetamine** pole valitud sama automaatse tarbimise põhimõtet, võidakse materjalid varudest kaks korda maha arvestada.
- 
+
 - **Alati** – kui teete etapi puhul selle valiku, arvestatakse materjalid varudest alati selles etapis maha. Näiteks arvestatakse tootmiseks vajalikud materjalid maha tootmistellimuse alustamisel. See säte nõuab, et vahekaartidel **Toimingud** ja **Kinnita lõpetamine** oleks valitud **Mitte kunagi**. See nõue aitab vältida kaupade kaks korda laost mahaarvamist.
 - **Mitte kunagi** – kui teete etapi puhul selle valiku, ei toimu selles etapis koosluse tarbimist. Näiteks kui valite kõigil kolmel vahekaardil (**Käivita**, **Toimingud** ja **Kinnita lõpetamine**) **Mitte kunagi**, tuleb materjalid varudest käsitsi maha arvata.
 
@@ -146,11 +146,13 @@ Selles jaotises eespool kirjeldatud valikute põhjal sisestatakse komplekteerimi
 
 Kui materjal tuleks varudest käsitsi maha arvestada, võite kasutada järgmisi sätteid. Sellisel juhul komplekteerimislehe töölehti ei sisestata.
 
-| Vahekaart                | Väli                          | Sätted    |
-|--------------------|--------------------------------|------------|
-| Käivita              | Uuenda algust võrgus           | **Olek** |
-| Käivita              | Automaatne koosluse tarbimine      | **Mitte kunagi**  |
-| Operations         | Automaatne koosluse tarbimine      | **Mitte kunagi**  |
-| Teata lõpetamisest | Automaatne koosluse tarbimine      | **Mitte kunagi**  |
-| Teata lõpetamisest | Uuenda lõpetatud aruannet võrgus | **Olek** |
+
+|        Vahekaart         |             Väli              |         Sätted         |
+|--------------------|--------------------------------|-------------------------|
+|       Käivita        |      Uuenda algust võrgus      | <strong>Olek</strong> |
+|       Käivita        |   Automaatne koosluse tarbimine    | <strong>Mitte kunagi</strong>  |
+|     Operations     |   Automaatne koosluse tarbimine    | <strong>Mitte kunagi</strong>  |
+| Teata lõpetamisest |   Automaatne koosluse tarbimine    | <strong>Mitte kunagi</strong>  |
+| Teata lõpetamisest | Uuenda lõpetatud aruannet võrgus | <strong>Olek</strong> |
+
 

@@ -1,5 +1,5 @@
 --- 
-title: "Elektroonilise aruandluse (ER) vormingu muutmine ja käitamine dokumendihalduse failide kasutamiseks vormingu väljundites"
+title: "Vormingu muutmine ja käivitamine dokumendihalduse failide vormingu väljundites kasutamiseks"
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu dokumendihalduse failide (manuste) kasutamiseks elektroonilise aruandluse väljundis."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: e145c4c7a1f3fd88481ad32d0af05511437e21dc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b38f69fc169367aa56468b2c8f06b65fd1291c79
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) vormingu muutmine ja käitamine dokumendihalduse failide kasutamiseks vormingu väljundites
+# <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs"></a>Vormingu muutmine ja käivitamine dokumendihalduse failide vormingu väljundites kasutamiseks
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu dokumendihalduse failide (manuste) kasutamiseks elektroonilise aruandluse väljundis. Neid toiminguid saab teha DEMF ettevõttes.
 

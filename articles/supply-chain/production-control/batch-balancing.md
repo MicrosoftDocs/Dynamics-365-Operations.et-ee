@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>Partii tasakaalustamine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+Selles teemas kirjeldatakse, kuidas partii tasakaalustamise protsessi toetatakse. 
 
-Selles teemas kirjeldatakse, kuidas partii tasakaalustamise protsessi toetatakse.
+Vaadake ka [videot partii tasakaalustamisest Microsoft Dynamics 365 for Finance and Operationsis](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 Partii tasakaalustamise protsessis arvutatakse tootmispartiis kasutatavate koostisosade arv valitud tootepartiides olevate toimeainete kontsentratsiooni põhjal.
 
@@ -179,7 +180,7 @@ Kui koostisosa kogused on arvutatud, saate valemi kinnitada ja väljstada. Välj
 
 -   Kui toode on laohaldusprotsesside jaoks lubatud, väljastatakse valemirida lattu laohaldusprotsesside põhimõtete alusel. Valemirida väljastatakse kogustes, mis vastavad tasakaalustatud kogustele ja see väljastatakse kindlatele partiidele, mis on valitud toimeaine jaoks.
 
->   [!NOTE]
+> [!NOTE]
 >   Valemiread võib lattu väljastada ainult partii tasakaalustamise protsessi osana. Kuigi tootmise jaoks mõeldud materjalide väljastamiseks lattu on ka teisi valikuid, ei saa neid valikuid valemiridade korral kasutada.
 
 -   Kui toode ei ole laohaldusprotsesside jaoks lubatud, luuakse valemi kinnitamisel ja väljastamisel toote jaoks tootmise komplekteerimisleht.

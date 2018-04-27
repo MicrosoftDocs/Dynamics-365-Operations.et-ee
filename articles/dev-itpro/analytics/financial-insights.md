@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Finantsülevaated
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Finantsülevaated** kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks. Power BI on manustatud rakendusse Microsoft Dynamics 365 for Finance and Operations.
 **Finantsülevaated** keskenduvad analüütilisele aruandlusele. Organisatsiooni isikud saavad seda vaadata, uurida, mõista ja tegutseda. 
@@ -107,8 +107,20 @@ Kuigi **finantsülevaated** hõlmab finantsaruandeid, ei asenda see rakenduse Fi
 
 Järgmine võrdlusdiagramm selgitab kahe võimaluse vahelisi erinevusi.
 
-|                                         | **Finantsaruandlus**                            | **Finantsülevaated**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Vaikearuannete muutmine**                | Jah                                                | Ei                                 | | **Uute aruannete loomine**                  | Jah                                                | Ei                                 | | **Aruannete printimine**                       | Jah                                                | Ei                                 | | **Excelisse eksportimine**                     | Jah          | Limiteeritud Toorandmete Excelisse eksportimine, mitte vormindatud aruanne       | | **Aruandluse hierarhia / organisatsiooni hierarhia toetamine**   | Jah                               | Ei                                 | | **Alammoodulite andmete kuvamine**       | Jah Limiteeritud ainult hankijale, kliendile    | Jah Hankija, klient, hankija-/kliendigrupid, hankija/kliendi aadressid jne  | | **Aruandlusvaluuta**      | Jah Arvestusvaluuta ja aruandlusvaluutasse teisendamine       | Ei Ainult arvestusvaluuta      | | **Turve**                | Jah Järgib rakendust Finance and Operations ja aruandluspuu turvet | Limiteeritud vaatega aruanded kõigile ettevõtetele (sõltumata rakenduse Finance and Operations turbest) või ainult aktiivsele ettevõttele | | **Eri kontoplaanide ja rahandusaastate toetamine** | Jah                   | Ei                   | | **Välisandmete aruanne**                              | Ei                   | Ei                                   | | **Konsolideerimiste toetamine**                               | Jah                          | Limiteeritud Võimaldab aruandlust mitmele ettevõttele, aga kasutab ainult arvestusvaluutat 
 
+|                                                                       |               <strong>Finantsaruandlus</strong>                |                                      <strong>Finantsülevaated</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Vaikearuannete redigeerimine</strong>                 |                                Jah                                |                                                      Ei                                                       |
+|                  <strong>Uute aruannete loomine</strong>                  |                                Jah                                |                                                      Ei                                                       |
+|                    <strong>Aruannete printimine</strong>                     |                                Jah                                |                                                      Ei                                                       |
+|                   <strong>Excelisse eksportimine</strong>                    |                                Jah                                |                           Limiteeritud Toorandmete Excelisse eksportimine, mitte vormindatud aruanne                           |
+|  <strong>Aruandluse hierarhia / organisatsiooni hierarhia toetamine</strong>  |                                Jah                                |                                                      Ei                                                       |
+|               <strong>Alammoodulite andmete kuvamine</strong>               |               Jah Limiteeritud ainult hankijale, kliendile                |                 Jah Hankija, klient, hankija-/kliendigrupid, hankija/kliendi aadressid jne                 |
+|                  <strong>Aruandlusvaluuta</strong>                  |    Jah Arvestusvaluuta ja aruandlusvaluutasse teisendamine    |                                          Ei Ainult arvestusvaluuta                                          |
+|                       <strong>Turvalisus</strong>                       | Jah Järgib rakendust Finance and Operations ja aruandluspuu turvet | Limiteeritud vaatega aruanded kõigile ettevõtetele (sõltumata rakenduse Finance and Operations turbest) või ainult aktiivsele ettevõttele |
+| <strong>Eri kontoplaanide ja rahandusaastate toetamine</strong> |                                Jah                                |                                                      Ei                                                       |
+|               <strong>välisandmete aruanne</strong>                |                                Ei                                 |                                                      Ei                                                       |
+|                <strong>Konsolideerimiste toetamine</strong>                |                                Jah                                |                   Limiteeritud Võimaldab aruandlust mitmele ettevõttele, aga kasutab ainult arvestusvaluutat                   |
 
 Peale algse **CFO ülevaate** tööruumi kasutajaliidese on nüüd saadaval uued KPI-d, diagrammid ja finantsaruanded. Saadaval on järgmised finantsaruanded.
 

@@ -1,5 +1,5 @@
 --- 
-title: Elektroonilise aruandluse (ER) mudeli muutmine ja vastendamine avalduse andmete uuendamisega dokumentide genereerimiseks
+title: Mudeli ja vastendamise muutmine dokumentide loomiseks rakendusandmetega
 description: "Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (2. osa – dokumentide genereerimine)“."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a29e273e5ef377826c0002a9a0a956defef6aa77
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c112b2895175bd23db313888ec1e964bdf5ed295
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="modify-model-and-mapping-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) mudeli muutmine ja vastendamine avalduse andmete uuendamisega dokumentide genereerimiseks
+# <a name="modify-model-and-mapping-to-generate-documents-with-application-data"></a>Mudeli ja vastendamise muutmine dokumentide loomiseks rakendusandmetega
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (2. osa: dokumentide genereerimine)“. 
 

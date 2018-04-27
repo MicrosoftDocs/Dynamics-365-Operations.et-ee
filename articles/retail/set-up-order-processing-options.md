@@ -1,9 +1,9 @@
 ---
-title: "Tellimuse töötlemise suvandite seadistamine"
-description: "See teema annab teavet, kuidas töödelda tellimusi kõnekeskustesse, kasutades rakendust Microsoft Dynamics 365 for Retail."
+title: "Kõnekeskuse kanali seadistamine"
+description: "See teema annab teavet, kuidas töödelda kõnekeskuste tellimusi, kasutades rakendust Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,33 +20,64 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 144bee2102b8d1901d1b4964f6c92501c1cd573d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0d64a27aa8aed10c210ca3c2956dce67f8d634b8
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Tellimuse töötlemise suvandite seadistamine
+# <a name="set-up-a-call-center-channel"></a>Kõnekeskuse kanali seadistamine
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Ettevõte saab rakenduses Microsoft Dynamics 365 for Retail määratleda mitu kõnekeskuse kanalit. Kõnekeskuse kanaleid konfigureeritakse valikus **Jaemüük** \> **Kanalid** \> **Kõnekeskused** \> **Kõik kõnekeskused** ja need on omased kindlale juriidilisele isikule.
 
-See teema annab teavet, kuidas töödelda tellimusi kõnekeskustesse, kasutades rakendust Microsoft Dynamics 365 for Retail. 
+Uue kõnekeskuse kanali loomisel määratakse sellele süstemaatiliselt tootmisüksuse number. Kuna kõnekeskused luuakse tootmisüksustena, saavad kasutajad linkida kõnekeskuse kanali erinevate Retaili funktsioonidega, nagu sortimentid, kataloogid ja kindlad tarneviisid.
 
-Retail toetab mitmeid jaemüügikanaleid, nagu võrgupoed, traditsioonilised kauplused ja kõnekeskused. Kõnekeskustes võtavad töötajad klientide tellimused vastu telefoni teel ja loovad müügitellimused. Selles teemas kirjeldatakse kõnekeskuse loomist ja kõnekeskuse suvandite konfigureerimist. Igal kõnekeskusel võivad olla oma kasutajad, makseviisid, hinnagrupid, finantsdimensioonid ja tarneviisid. Saate neid suvandeid konfigureerida kõnekeskuse loomisel. **Oluline.** Enne kui müügitellimuste loomisel saab kasutada kõnekeskuse töövooge, peab kasutaja olema registreeritud kõnekeskusesse kõnkeskuse kasutajana. Saate kasutada lehte **Kõnekeskus**, et lubada või keelata funktsioonide grupid, mis on kõneskuste puhul kordumatud. Lubada saab järgmisi funktsioonigruppe.
+Kõnekeskuse kanalil saab konfigureerida vaikelao. Seejärel, kui sellel kanalil luuakse müügitellimusi, sisestatakse vaikeladu automaatselt müügitellimuse päisesse, välja arvatud juhul, kui müügitellimuse jaoks valitud kliendis on määratletud muu ladu. Sellisel juhul sisestatakse vaikimisi kliendi ladu.
 
--   **Tellimuse lõpuleviimine** – see grupp hõlmab funktsioone, mis on seotud maksete ja tellimuse lõpulevimisega lehel **Müügitellimus**.
--   **Suunatud müük** – see grupp hõlmab funktsioone, mis on seotud lähtekoodide, skriptide ja kataloogitaotlustega.
+Kõnekeskuse funktsioonide kasutamiseks peavad kasutajad olema lingitud kõnekeskuse kanaliga. Kõik müügitellimused, mille kasutaja Retailis loob, lingitakse automaatselt selle kasutaja kõnekeskuse kanaliga. Praegu ei saa ühte kasutajat mitme kõnekeskuse kanaliga korraga linkida.
 
-Kõnekeskuse sätetes nende funktsioonide lubamisel on need kõnekeskusega seostatud kasutajatele saadaval lehel **Müügitellimus**. Enamik neist funktsioonidest nõuab enne kasutamist lisaseadistamist. Pildid ja skriptid on lubatud kindla kõnekeskuse suunatud müügi sätte osana. Kui need funktsioonid on lubatud, kuvatakse skriptid ja tootepildid lehe **Müügitellimus** paanil Kiirinfo. Kuvatakse tootele määratud vaikepilt. Skripte saab konfigureerida kaubale, kataloogile, kliendile või kaubale kataloogi kontekstis. Kõnekeskuse tellimused võivad kuvada täiendavaid üksikasju kindla tellimuse rea hinna tuletamise kohta. Näiteks näitavad tellimused, milliseid allahindlusi rakendati. Lubate selle funktsiooni valikus **Müügireskontro** &gt; **Seadistus** &gt; **Müügireskontro parameetrid** &gt; **Hinnad** &gt; **Hinna üksikasjad**. Pääsete lehele **Hinna üksikasjad** ripploendist **Müügitellimuse rida**. Tellimuse sündmuste jälgimist saab kasutada auditeerimise eesmärgil, et vaadata üle toimingud, mida tellimusega seoses tellimuse elutsükli vältel tehakse või jälgida kindla kasutaja tegevusi. Näiteks saate salvestada tegevuse iga kord, kui kasutaja loob müügitellimuse, paneb tellimuse ootele, alistab tasu või uuendab tellimuserida. Saate seadistada tellimuse sündmused kindlate kasutajate, kasutajagruppide või kõigi kasutajate tegevuste jälgimiseks kindla ajavahemiku jooksul. Saate vaadata dokumendiga tehtud tegevusi, avades selle dokumendi lehe tegevuspaanil lehe **Tellimussündmused**. Saate konfigureerida tellimuse sündmusi valikus **Müük ja turundus** &gt; **Seadistus** &gt; **Sündmused** &gt; **Tellimussündmused**. Kui kliendi tellimust ei saa õigel ajal lähetada, saab ettevõte saata kliendile automaatselt meiliteatise, et selgitada tellimuse olekut ja anda kliendile võimaluse tellimus tühistada. Kui viivitus ületab teatud läve, saab tellimuse automaatselt tühistada. Määratud ajaintervalliga saab saata kuni kolm meilisõnumit.
+Kõnekeskuse kanalil saab konfigureerida ka meiliteatise profiili. Profiil määratleb meilimallid, mida kasutatakse meili saatmisel klientidele, kes esitavad tellimusi kõnekeskuse kanali kaudu. Süsteemisündmuste juurde saab konfigureerida meilipäästikuid, näiteks tellimuse esitamise või tellimuse saadetise jaoks.
 
-1.  **Esimene tühistusteade** – klient saab tellimuse tühistada.
-2.  **Teine tühistusteade** – klient saab tellimuse tühistada.
-3.  **Viimane tühistusteade** – süsteem tühistab tellimuse ja klienti teavitatakse tühistamisest.
+Enne kui müüki saab õigesti kõnekeskuse kanali kaudu töödelda, tuleb kanali jaoks määratleda õiged [makseviisid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-payments) ja tarneviisid.
 
-Saate üksikud kliendid ja tooted automaatsest teavitus- ja tühistusprotsessist vabastada. Marginaaliteatis käivitatakse tellimusse kauba lisamisel. Teatis sisaldab olulist teavet kauba kohta, nagu hinnamarginaali ja kauba tulusust. Seda teavet saate kasutada otsustamiseks, kas hinna alistamine on kauba müügitellimusele lisamisel sobiv. Näiteks saate seadistada kaubandusmarginaalide läved määramiseks, et kauba puhul on vastuvõetav lävi vähemalt 40% üle kulu, kuid lävi 20–39% üle kulu on kahtlane. Sel juhuk käivitab hoiatuse iga kaup, mille lävi on vahemikus 20 ja 39 protsenti. Kaupu, mille lävi on väiksem kui 20 protsenti üle kulu, ei saa müüa, ja kauba hinda ei saa korrigeerida. Saate konfigureerida marginaali teatised, valides suvandid **Müügireskontro** &gt; **Seadistus** &gt; **Müügireskontro parameetrid** &gt; **Marginaali teatised**. Käibemaksu määramise seadistamisel vaikereeglite põhjal saate määratleda aadressielementide vastavusseviimise prioriteedi. Näiteks saate määrata, et vastav käibemaksugrupp sihtnumbri järgi on kõrgema prioriteetsusega kui vastav käibemaksugrupp riigi järgi. Kui sisestate uue kliendi aadressi andmed, määratakse käibemaksugrupp automaatselt selle põhjal, kuidas kliendi aadress vastab teie määratletud vaikereeglitele ja prioriteedile. Saate selle funktsiooni konfigureerida lehel **Pearaamatu parameetrid**.
+Kõnekeskuse kanali tasemel saate määratleda muud vaikeväärtused, mis on seotud finantsdimensioonidega, mis lingitakse sellel kanalil loodavate tellimustega.
 
+## <a name="options-for-order-processing-behavior"></a>Tellimuse töötlemise käitumise suvandid
 
+Kõnekeskuses loodud müügitellimuste jaoks saadaolevatele funktsioonidele avaldavad suurt mõju kolm sätet selle kõnekeskuse konfiguratsioonis: **Tellimuse lõpetamise lubamine**, **Otsemüügi lubamine** ja **Tellimuse hinnakontrolli lubamine**.
 
+### <a name="enable-order-completion"></a>Tellimuse lõpetamise lubamine
+
+Kõnekeskuse kanali säte **Tellimuse lõpetamise lubamine** mõjutab selle kanali jaoks sisestatud müügitellimuste töötlemise voogu. Kui säte on sisse lülitatud, peavad kõik müügitellimused enne kinnitamist läbima kinnitusreeglite hulga. Saate neid reegleid käivitada, kui valite nupu **Vii lõpule**, mis on lisatud müügitellimuse lehe tegumiribale. Kõik müügitellimused, mis luuakse siis, kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, peavad läbima tellimuse lõpetamise protsessi. See protsessi jõustab makse ja makse kinnitamise loogika hõivamist. Lisaks makse jõustamisele saab tellimuse edastamise protsess käivitada [pettuse kontrollid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts), mille teie saate süsteemis konfigureerida. Tellimused, mille makse või pettuse kontrolli kinnitamised nurjuvad, pannakse ootele ja neid ei saa täiendavaks töötlemiseks (nagu komplekteerimine või tarnimine) väljastada, kuni ootele paneku põhjustanud probleem on lahendatud.
+
+Kui säte **Tellimuse lõpetamise lubamine** on kõnekeskuse kanali jaoks sisse lülitatud ning müügitellimuses sisestatakse reakaubad ja kanali kasutaja üritab müügitellimuse vormi sulgeda või selle juurest mujale navigeerida ilma esmalt suvandit **Vii lõpule** valimata, jõustab süsteem tellimuse lõpetamise protsessi, avades müügitellimuse kokkuvõtte lehe ja paludes kasutajal tellimuse õigesti esitada. Kui tellimust ei saa koos maksega õigesti esitada, saab kasutaja kasutada [tellimuse ootelepaneku](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) funktsiooni, et panna tellimus ootele. Kui kasutaja üritab tellimust tühistada, peab ta selle õigesti tühistama, kasutades kas funktsiooni Tühista või funktsiooni Kustuta, olenevalt funktsioonist, mida kasutaja turberoll lubab.
+
+Kui säte **Tellimuse lõpetamise lubamine** on kõnekeskuse kanali jaoks sisse lülitatud, jälgitakse tellimusel välja **Makse olek**. Süsteem arvutab **Makse oleku**, kui müügitellimus on esitatud. Ainult tellimustel, millel on kinnitatud makseolek, lubatakse liikuda läbi süsteemi täiendavate tellimuse töötlemise etappide juurde, nagu komplekteerimine ja saatmine. Kui makse on tagasi lükatud, lubatakse tellimuse üksikasjaliku oleku juures lipp **Ära töötle**, mis paneb tellimuse ootele, kuni maksega seotud probleem on lahendatud.
+
+Lisaks, kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud ning kasutajad loovad müügitellimusi ja nad on reakauba sisestamise režiimis, kuvatakse peamise müügitellimuse päises väli **Allikas**. Välja **Allikas** kasutatakse [kataloogi lähtekoodi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/call-center-catalogs) hõivamiseks otseturustamise müügistsenaariumis. Seda koodi saab seejärel kasutada erihindade ja kampaaniate jaoks.
+
+Isegi kui säte **Tellimuse lõpetamise lubamine** on välja lülitatud, saavad kasutajad siiski müügitellimusele lähtekoodi rakendada. Kuid nad peavad väljale **Allikas** juurdepääsu saamiseks esmalt avama müügitellimuse päise üksikasjad. Teisisõnu on vaja teha paar lisaklõpsu. Sama käitumine rakendub funktsioonidele, nagu Saatmine lõpetatud ja Kiirendatud tellimused. Need funktsioonid on saadaval kõigi kõnekeskuses loodud tellimuste jaoks. Kuid kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, näevad kasutajad nende funktsioonide konfiguratsiooni müügipäises, kui nad on rea sisestamise vaates. Nad ei pea sobivate sätete ja väljade leidmiseks müügitellimuse päise üksikasjadesse süvitsi minema.
+
+### <a name="enable-direct-selling"></a>Otsemüügi lubamine
+
+Kui säte **Otsemüügi lubamine** on kõnekeskuse kanali jaoks sisse lülitatud, saavad kasutajad kasutada Retaili ülesmüügi või ristmüügi funktsioone. Sel juhul kuvatakse tellimuse sisestamise ajal hüpikaken, kus soovitatakse teisi tooteid, mida kõnekeskuse kasutaja saab kliendile pakkuda. Soovitatud tooted põhinevad tootel, mida müügitellimuse real just telliti. Praegu konfigureeritakse ülesmüügi ja ristmüügi soovitusi toodete või kataloogide kauba tasemel. Kui säte **Otsemüügi lubamine** on kõnekeskuse kanalil välja lülitatud, ei kuvata tellimuse sisestamisel hüpikaknaid, isegi juhul kui tellitava kauba jaoks määratleti kehtiv ülesmüük või ristmüük.
+
+Kui säte **Otsemüügi lubamine** on sisse lülitatud, on ka müügitellimuse sisestamise lehe skriptide ja piltide funktsioonid sisse lülitatud. Sel juhul on tellimuse sisestamise ajal lehe paremal küljel saadaval teabepaan. Sellel paneelil kuvatakse skriptid, mis on seotud üldise tellimuse sisestamise protsessiga, rakendatud kataloogi lähtekood või tellitavate kaupadega seotud skriptid. Lisaks saab piltide paneel kuvada tellitavate kaupade tootepildi, kui toote seadistuses on kauba jaoks määratletud pilt.
+
+### <a name="enable-order-price-control"></a>Tellimuse hinnakontrolli lubamine
+
+Kui säte **Tellimuse hinnakontrolli lubamine** on sisse lülitatud, saavad ainult volitatud kasutajad tellimuse sisestamise ajal kauba müügihinda muuta. Muudatused peavad jääma määratletud vahemikesse. Kasutajad, kellel pole õiget volitust, peavad hinna muutmiseks esitama taotluse. Seejärel töödeldakse taotlust läbi süsteemi töövoogude ning suunatakse ülevaatamisse ja kinnitamisse.
+
+## <a name="channel-users"></a>Kanali kasutajad
+
+Kõnekeskuse kanali määratlemisel peate linkima kanali kasutajad kõnekeskusega. Vastasel korral ei saa kõnekeskust süsteemis kasutada. Kui kasutajad logivad Retaili sisse ja sisestavad tellimuse sisestamisega seotud lehel müügitellimusi või tagastustellimusi, kontrollitakse nende kasutaja ID-d kõnekeskuse kanali konfiguratsiooni suhtes. Kui kasutaja on lingitud kindla kõnekeskuse kanaliga, pärivad kasutaja loodavad tellimused selle kanali omadused ja vaikeväärtused.
+
+Vaikimisi on lipp **Jaemüük** müügitellimuse päises kõigi kõnekeskuse kasutajate loodavate tellimuste jaoks sisse lülitatud. Tellimused saavad seejärel kasutada ära süsteemi jaemüügikohast hinda ja kampaaniafunktsioone.
+
+Kasutajad, kes ei ole kõnekeskuse kanaliga lingitud, kasutavad rakenduse Microsoft Dynamics 365 for Finance and Operations standardseid tellimuse sisestamise funktsioone. Tellimusi, mille need kasutajad sisestavad müügitellimuse sisestamise vormi kaudu, ei tuvastata süsteemaatiliselt Retaili tellimustena. Lisaks ei kehti sellistele nende kasutajate loodud tellimustele tellimuse lõpetamise töötlemisreeglid, jaemüügi hinnakujunduse loogika või muud kinnitused, mille saab määratleda kõnekeskuse kanali konfiguratsioonis või kõnekeskuse süsteemiparameetrites.
+
+Kui olete lõpetanud kõnekeskuse kanali konfigureerimise ja kanali kasutajate määratlemise, veenduge soovitud süsteemikäitumise tagamiseks, et kõik vajalikud kõnekeskuse parameetrid oleksid valikus **Jaemüük** \> **Kanali seadistus** \> **Kõnekeskuse seadistamine** \> **Kõnekeskuse parameetrid** määratletud. Veenduge, et ka seotud numbriseeriad oleksid määratletud.
 

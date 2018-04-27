@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 for Finance and Operations. See laseb hankijatel töötada ostutellimustega (OT-dega), arvetega, veose varude teabega ja pakkumiskutsetega, samuti võimaldab see neile juurdepääsu osale hankija koondandmetest. Selles teemas selgitatakse, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostööliidest OT-de, pakkumiskutsete ja veose varudega töötamiseks. Selles selgitatakse ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad OT-le.
 
@@ -116,7 +116,7 @@ OT, mis saadeti hankijale ja mille olek on <strong>Välisel ülevaatamisel</stro
 <li>Asendage üksus.</li>
 </ul>
 Hankija ei saa muuta hinnateavet ja kulusid. Siiski saab hankija neid muudatusi märkusi kasutades soovitada.</td>
-<td>Hankija vastus salvestatakse kui <strong>Aktsepteeritud koos muudatustega</strong> ja ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>. Olekud näitavad, millist tüüpi muudatusi hankija on soovitanud. Muudatuste automaatse tarbimise kohta leiate teavet allpool olevast jaotisest „Ostutellimuse uuendamine, kui hankija soovitab muudatusi”. </td>
+<td>Hankija vastus salvestatakse kui <strong>Aktsepteeritud koos muudatustega</strong> ja ostutellimuse olekuks jääb <strong>Välisel ülevaatamisel</strong>. Olekud näitavad, millist tüüpi muudatusi hankija on soovitanud. Muudatuste automaatse tarbimise kohta leiate teavet allpool olevast jaotisest &quot;Ostutellimuse uuendamine, kui hankija soovitab muudatusi&quot;. </td>
 </tr>
 </tbody>
 </table>

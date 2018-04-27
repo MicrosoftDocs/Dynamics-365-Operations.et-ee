@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09a182b50917bff449f76598d61c38ae18160dd1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8652766766a557d8399e6a94088a6f9bc82ff018
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Täpsemad vormingusuvandid finantsaruandluses
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Finantsaruandluses aruannet luues on saadaval täiendavad vormindusfunktsioonid, sealhulgas dimensioonide filtrid, veergude ja aruandlusüksuste piirangud, mitteprinditavad read ja IF-/THEN-/ELSE-laused arvutustes. 
 
@@ -66,12 +65,13 @@ Järgmistes näidetes näidatakse, kuidas vormindada readefinitsiooni ja veeru d
 
 Järgmises tabelis on toodud põhisundimist kasutava readefinitsiooni näide.
 
-| Reakood | Kirjeldus                      | Vormingukood | Seotud valemid/read/üksused | Reamuundur | Link finantsdimensioonidele |
-|----------|----------------------------------|-------------|-----------------------------|----------------|----|
-| 100      | Kassa perioodi alguses (NP) |             |                             | Konto muutuja = \[/BB\] | +Segment2 = \[1100\]         |
-| 130      | Raha perioodi algul      | CAL         | C=C.100,F=D.100             |               |     |   |
-| 160      |                                  |             |                             |              |     |   |
-| 190      |                                  |             |                             |                 |     |   |
+
+| Reakood |           Kirjeldus            | Vormingukood | Seotud valemid/read/üksused |        Reamuundur        | Link finantsdimensioonidele |
+|----------|----------------------------------|-------------|-----------------------------|----------------------------|------------------------------|
+|   100    | Kassa perioodi alguses (NP) |             |                             | Konto muutuja = \[/BB\] |     +Segment2 = \[1100\]     |
+|   130    |   Raha perioodi algul    |     CAL     |       C=C.100,F=D.100       |                            |                              |
+|   160    |                                  |             |                             |                            |                              |
+|   190    |                                  |             |                             |                            |                              |
 
 > [!NOTE] 
 > Esitluse huvides eemaldati eelmisest tabelist tühjad veerud: veerge Vormingu alistamine, Tavasaldo, Printimise juhtelement ja Veerupiirang ei kuvata.
@@ -180,11 +180,11 @@ Readefinitsiooni lahtril **Veeru piirangud** on mitu eesmärki. Olenevalt rea t�
 -   Lahter võib määrata sortimiseks summade veeru.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Arvutusvalemi kasutamine readefinitsioonis
-Readefinitsiooni arvutusvalem võib sisaldada tehtemärke **+**, **-**, **\***, ja **/** ning ka lauseid **IF/THEN/ELSE**. Lisaks võib arvutus sisaldada üksikuid lahtreid ja absoluutsummasid (tegelikud valemisse kaasatud arvud). Valem võib sisaldada kuni 1024 märki. Arvutusi ei saa rakendada ridadele, mis sisaldavad lahtreid tüübiga **Link finantsdimensioonidele** (FD). Siiski saate arvutusi järjestikustele ridadele kaasata, peita nende ridade printimise ja arvutada seejärel arvutusridade kogusumma.
+Readefinitsiooni arvutusvalem võib sisaldada tehtemärke <strong>+</strong>, <strong>-</strong>, <strong>\\</strong>, ja **/** ning ka lauseid <strong>IF/THEN/ELSE</strong>. Lisaks võib arvutus sisaldada üksikuid lahtreid ja absoluutsummasid (tegelikud valemisse kaasatud arvud). Valem võib sisaldada kuni 1024 märki. Arvutusi ei saa rakendada ridadele, mis sisaldavad lahtreid tüübiga <strong>Link finantsdimensioonidele</strong> (FD). Siiski saate arvutusi järjestikustele ridadele kaasata, peita nende ridade printimise ja arvutada seejärel arvutusridade kogusumma.
 
 ### <a name="operators-in-a-calculation-formula"></a>Arvutusvalemi tehtemärgid
 
-Arvutusvalem kasutab keerukamaid tehtemärke kui rea kogusumma valem. Siiski saate kasutada tehtemärke **\*** ja **/** koos täiendavate tehtemärkidega summade korrutamiseks (\*) ja jagamiseks (/). Vahemiku või summa kasutamiseks arvutusvalemis peate kasutama mis tahes rea koodi ees kommertsmärki (@), v.a juhul, kui kasutate readefinitsioonis veergu. Näiteks rea 100 summa liitmiseks rea 330 summale saate kasutada rea kogusumma valemit **100+330** või arvutusvalemit **@100+@330**. **Märkus.** Peate kasutama kommertsmärki (@) enne igat arvutusvalemis kasutatavat rea koodi. Vastasel korral loetakse numbrit absoluutsummaks. Näiteks valem **@100+330** lisab real 100 olevale summale 330 USA dollarit. Kui viitate arvutusvalemis veerule, ei ole @-märki vaja.
+Arvutusvalem kasutab keerukamaid tehtemärke kui rea kogusumma valem. Siiski saate kasutada tehtemärke <strong>\\</strong>* ja <strong>/</strong> koos täiendavate tehtemärkidega summade korrutamiseks (\*) ja jagamiseks (/). Vahemiku või summa kasutamiseks arvutusvalemis peate kasutama mis tahes rea koodi ees kommertsmärki (@), v.a juhul, kui kasutate readefinitsioonis veergu. Näiteks rea 100 summa liitmiseks rea 330 summale saate kasutada rea kogusumma valemit <strong>100+330</strong> või arvutusvalemit <strong>@100+@330</strong>. <strong>Märkus.</strong> Peate kasutama kommertsmärki (@) enne igat arvutusvalemis kasutatavat rea koodi. Vastasel korral loetakse numbrit absoluutsummaks. Näiteks valem <strong>@100+330</strong> lisab real 100 olevale summale 330 USA dollarit. Kui viitate arvutusvalemis veerule, ei ole @-märki vaja.
 
 ### <a name="create-a-calculation-formula"></a>Arvutusvalemi loomine
 
@@ -202,7 +202,7 @@ Näiteks tähendab arvutusvalem **@100+@330**, et rea 100 summa lisatakse rea 33
 | 370      | Kassa aasta alguses   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Kassa perioodi alguses | TOT         | 340+370                    |               |              |                              |
 
-Kui readefinitsiooni rea vormingu kood on **CAL** ja sisestate matemaatilise arvutuse lahtrisse **Seotud valemid/read/üksused**, peate sisestama ka aruande seotud veeru ja rea tähe. Näiteks veeru A rea 120 kujutamiseks sisestage **A.120**. Samuti on võimalik kõigi veergude tähistamiseks kasutada märki @. Näiteks rea 120 kõigi veergude kujutamiseks sisestage **@120**. Mis tahes arvutust, millel veeru tähte või märki @ pole, peetakse reaalarvuks. **Märkus.** Kasutades reale viitamiseks sildi reakoodi, peate kasutama veeru tähe ja sildi vahelise eraldajana punkti (.) (nt **A.GROSS\_MARGIN/A.SALES**). Märgi @ kasutamisel pole eraldaja nõutav (nt **@GROSS\_MARGIN/@SALES**).
+Kui readefinitsiooni rea vormingu kood on <strong>CAL</strong> ja sisestate matemaatilise arvutuse lahtrisse <strong>Seotud valemid/read/üksused</strong>, peate sisestama ka aruande seotud veeru ja rea tähe. Näiteks veeru A rea 120 kujutamiseks sisestage <strong>A.120</strong>. Samuti on võimalik kõigi veergude tähistamiseks kasutada märki @. Näiteks rea 120 kõigi veergude kujutamiseks sisestage <strong>@120</strong>. Mis tahes arvutust, millel veeru tähte või märki @ pole, peetakse reaalarvuks. <strong>Märkus.</strong> Kasutades reale viitamiseks sildi reakoodi, peate kasutama veeru tähe ja sildi vahelise eraldajana punkti (.) (nt <strong>A.GROSS\_MARGIN/A.SALES</strong>). Märgi @ kasutamisel pole eraldaja nõutav (nt <strong>@GROSS\_MARGIN/@SALES</strong>).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Kindla veeru arvutusvalemi näide
 
@@ -255,17 +255,17 @@ Valemiks **THEN** ja **ELSE** võib olla mis tahes kehtiv arvutus alates väga l
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Arvutuse piiramine readefinitsiooni aruandlusüksusega
 
-Arvutuse piiramiseks aruandluspuu ühe aruandlusüksusega nii, et saadavat summat ei koondataks kõrgema taseme üksusse, saate kasutada koodi **@Unit** readefinitsiooni lahtris **Seotud valemid/read/üksused**. Kood **@Unit** on loetletud aruandluspuu veerus B **Üksuse nimi**. Koodi **@Unit** kasutamisel väärtusi ei koondata, kuid arvutust hinnatakse aruandluspuu igal tasandil. **Märkus.** Selle funktsiooni kasutamiseks peab aruandluspuu olema readefinitsiooniga seostatud. Arvutusrida võib viidata arvutusreale või finantsandmete reale. Arvutus registreeritakse readefinitsiooni lahtrisse **Seotud valemid/read/üksused** ja finantsandmete tüübi piirangusse. Arvutus peab kasutama tingimuslikku arvutust, mis algab konstruktsiooniga **IF @Unit**. Näide: IF @Unit(SALES) THEN @100 ELSE 0 See arvutus kaasab rea 100 summa igasse aruande veergu, kuid ainult üksuse SALES (Müük) puhul. Kui SALES (Müük) on mitme üksuse nimeks, kuvatakse summa kõigis neis üksustes. Lisaks võib rida 100 olla finantsandmete rida ja määratletud mitteprinditavana. Sellisel juhul takistatakse summa kuvamist puu kõigis üksustes. Samuti saate piirata summa aruande ühe veeruga, näiteks veeruga H, kasutades ainult selle aruande veeru väärtuse printimiseks veeru piirangut. Saate kaasata **OR** kombinatsioone lauses **IF**. Näide: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Saate määrata üksuse arvutuse tüüpi piirangus ühel järgmisel moel.
+Arvutuse piiramiseks aruandluspuu ühe aruandlusüksusega nii, et saadavat summat ei koondataks kõrgema taseme üksusse, saate kasutada koodi <strong>@Unit</strong> readefinitsiooni lahtris <strong>Seotud valemid/read/üksused</strong>. Kood <strong>@Unit</strong> on loetletud aruandluspuu veerus B <strong>Üksuse nimi</strong>. Koodi <strong>@Unit</strong> kasutamisel väärtusi ei koondata, kuid arvutust hinnatakse aruandluspuu igal tasandil. <strong>Märkus.</strong> Selle funktsiooni kasutamiseks peab aruandluspuu olema readefinitsiooniga seostatud. Arvutusrida võib viidata arvutusreale või finantsandmete reale. Arvutus registreeritakse readefinitsiooni lahtrisse <strong>Seotud valemid/read/üksused</strong> ja finantsandmete tüübi piirangusse. Arvutus peab kasutama tingimuslikku arvutust, mis algab konstruktsiooniga <strong>IF @Unit</strong>. Näide: IF @Unit(SALES) THEN @100 ELSE 0 See arvutus kaasab rea 100 summa igasse aruande veergu, kuid ainult üksuse SALES (Müük) puhul. Kui SALES (Müük) on mitme üksuse nimeks, kuvatakse summa kõigis neis üksustes. Lisaks võib rida 100 olla finantsandmete rida ja määratletud mitteprinditavana. Sellisel juhul takistatakse summa kuvamist puu kõigis üksustes. Samuti saate piirata summa aruande ühe veeruga, näiteks veeruga H, kasutades ainult selle aruande veeru väärtuse printimiseks veeru piirangut. Saate kaasata <strong>OR</strong> kombinatsioone lauses <strong>IF</strong>. Näide: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Saate määrata üksuse arvutuse tüüpi piirangus ühel järgmisel moel.
 
--   Sobivate üksuste kaasamiseks sisestage üksuse nimi. Näiteks **IF @Unit(SALES)** võimaldab arvutuse mis tahes üksuse puhul, mille nimi on SALES (Müük), seda isegi juhul, kui aruandluspuus on mitu müügiüksust.
--   Sisestage ettevõtte ja üksuse nimi arvutuse piiramiseks kindla ettevõtte kindlate üksustega. Näiteks sisestage **IF @Unit(ACME:SALES)** arvutuse piiramiseks müügiüksustega ettevõttes ACME.
--   Sisestage aruandluspuust täielik hierarhia kood arvutuse piiramiseks kindla üksusega. Näiteks sisestage **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Märkus.** Täieliku hierarhia koodi leidmiseks paremklõpsake aruandluspuu definitsioonis ja seejärel valige **Kopeeri aruandlusüksuse identifikaator (H-kood)**.
+- Sobivate üksuste kaasamiseks sisestage üksuse nimi. Näiteks <strong>IF @Unit(SALES)</strong> võimaldab arvutuse mis tahes üksuse puhul, mille nimi on SALES (Müük), seda isegi juhul, kui aruandluspuus on mitu müügiüksust.
+- Sisestage ettevõtte ja üksuse nimi arvutuse piiramiseks kindla ettevõtte kindlate üksustega. Näiteks sisestage <strong>IF @Unit(ACME:SALES)</strong> arvutuse piiramiseks müügiüksustega ettevõttes ACME.
+- Sisestage aruandluspuust täielik hierarhia kood arvutuse piiramiseks kindla üksusega. Näiteks sisestage <strong>IF @Unit(SUMMARY^ACME^WEST COAST^SALES)</strong>. <strong>Märkus.</strong> Täieliku hierarhia koodi leidmiseks paremklõpsake aruandluspuu definitsioonis ja seejärel valige <strong>Kopeeri aruandlusüksuse identifikaator (H-kood)</strong>.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Arvutuse piiramine aruandlusüksusega
 
-1.  Klõpsake aruandekoosturis suvandit **Readefinitsioonid** ja avage seejärel muudetav readefinitsioon.
-2.  Topeltklõpsake lahtrit **Vormingu kood** ja seejärel valige **CAL**.
-3.  Klõpsake lahtrit **Seotud valemid/read/üksused** ja seejärel sisestage tingimuslik arvutus, mis algab konstruktsiooniga **IF @Unit**.
+1. Klõpsake aruandekoosturis suvandit **Readefinitsioonid** ja avage seejärel muudetav readefinitsioon.
+2. Topeltklõpsake lahtrit **Vormingu kood** ja seejärel valige **CAL**.
+3. Klõpsake lahtrit <strong>Seotud valemid/read/üksused</strong> ja seejärel sisestage tingimuslik arvutus, mis algab konstruktsiooniga <strong>IF @Unit</strong>.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Veeru definitsiooni laused IF/THEN/ELSE
 

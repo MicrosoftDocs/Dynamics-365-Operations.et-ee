@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Ergutussüsteemi plaanide loomine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Ergutussüsteem moodustab töötaja ebaregulaarse tasu, nagu lisatasud või aktsiapreemiad. Selles artiklis kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate kasutada ergutussüsteemi ja registreerida töötaja ergustussüsteemi plaani.
 
@@ -78,12 +77,12 @@ Kui olete valmis töötajaid ergutussüsteemi plaanides registreerima, on esimen
 
 **Märkus.** Sobivuse reegleid kasutatakse nii põhipalga kui ka ergutussüsteemi plaanide kohaldamisel. Sobivusreeglid arvestavad järgmiste töö, ametikoha ja töötaja kirjete väljade väärtust määratlemisel, kas töötajale kohaldub tasuplaan.
 
--   Lehel **Töö**:
-    -   Väli **Töö**
-    -   Väljad **Funktsioon** ja **Töö tüüp** vahekaardil **Töö klassifikatsioon**
-    -   Väli **Tase** vahekaardil **Tasu**
--   Lehel **Ametikohad**: väljad **Osakond** ja **Hüvituspiirkond**.
--   Lehel **Töötajad**: töötajaga seotud ametiühingute teave jaotises **Isikuandmed** &gt; **Ametiühingud** vahekaardil ****Töötaja****
+- Lehel **Töö**:
+  -   Väli **Töö**
+  -   Väljad **Funktsioon** ja **Töö tüüp** vahekaardil **Töö klassifikatsioon**
+  -   Väli **Tase** vahekaardil **Tasu**
+- Lehel **Ametikohad**: väljad **Osakond** ja **Hüvituspiirkond**.
+- Lehel <strong>Töötajad</strong>: töötajaga seotud ametiühingute teave jaotises <strong>Isikuandmed</strong> &gt; <strong>Ametiühingud</strong> vahekaardil *<strong><em>Töötaja</em></strong>*
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Ergutussüsteemi plaanis registreerimise lubamine
 

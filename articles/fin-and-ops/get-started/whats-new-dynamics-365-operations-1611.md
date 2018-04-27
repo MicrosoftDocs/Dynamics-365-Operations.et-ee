@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09addfd9e4a5c601970b5c8c24a3d39b041e07e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Mis on uut või muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Operationsi versioonis 1611 uued või muudetud.
 
@@ -113,6 +112,7 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 </table>
 
 ## <a name="expense-management"></a>Kulude haldus
+
 | Mida saate teha                                                            | Miks on see oluline                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Määrake ümber lõpetatud töötaja krediitkaardi kanded.                     | Mõnikord, kui töötaja lõpetatakse, keelatakse tema Active Directory' kataloogiteenuste (AD DS) konto selliste aktiivste krediitkaardi kannete importimisel, mis tuleb kuludesse kanda. Varasemalt ei saanud te määrata delegaati kulukirje jaoks või manustada krediitkaardi kandeid kuluaruandele. Nüüd saate kasutada lehte **Krediitkaardikanded**, et määrata töötaja ümber mis tahes krediitkaardi kandele, kus seostatud töötaja on lõpetatud. Pärast krediitkaardi kande ümbermääramist saab kande kuluaruande jaoks valida ja tasuda regulaarse kuluaruande korvamise protsessi kaudu. |
@@ -225,6 +225,7 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 </table>
 
 ## <a name="human-capital-management"></a>Inimkapitali juhtimine
+
 | Mida saate teha                                                                                | Miks on see oluline                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Looge jõudluse tööleht.                                                                  | Enne ülevaate lõpuleviimist kogute sageli teavet tegevuste ja sündmuste kohta, mis aitasid ülevaatusperioodi jooksul kaasa teie edule töötajana. Saate lisada oma jõudluse töölehele kirje nende tegevuste ja sündmuste dokumenteerimiseks. Samuti saate ühendada need tegevused ja sündmused eesmärgi või jõudluse ülevaatega, et pakkuda ülevaatajale rohkem teavet.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -579,6 +580,7 @@ Järgmised riigid nõuavad ka jaemüügi lokaliseerimist. Jaemüügi lokaliseeri
 </table>
 
 ## <a name="planning-and-scheduling"></a>Plaanimine
+
 | Mida saate teha                                                                                                                                                                                                      | Miks on see oluline                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Määrake müügile ja ostudele tellimuse vaikesätted mis tahes tooteetalonis oleva aktiivse tootedimensiooni põhjal. Seetõttu saate määratleda tellimuse vaikesätted varude arvestusühiku (SKU) või osalise SKU jaoks. | Saate määrata tellimuse vaikesätted, mis rakenduvad tootedimensioonile või tootedimensioonide kombinatsioonile. **Näide** Müüte toote, mille nimi on Polo t-särk. See toode on saadaval kahes värvitoonis: roheline ja sinine. Samuti on see saadaval kahes suuruses: väike ja keskmine. Värv ja suurus on Polo t-särgi aktiivsed tootedimensioonid. Saate blokeerida kõikide roheliste Polo t-särkide ostud olenemata nende suurusest. |
@@ -624,6 +626,7 @@ Järgmised riigid nõuavad ka jaemüügi lokaliseerimist. Jaemüügi lokaliseeri
 </table>
 
 ## <a name="project-management-and-accounting"></a>Projektihaldus ja -arvestus
+
 | Mida saate teha                                                                                                           | Miks on see oluline                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kasutage hilist valikut, kui sisestate arvesoovitused partiis.                                                            | Projekti raamatupidajad saavad seadistada pakett-töö automaatselt valima sisestamiseks arvesoovitusi, kui need soovitused vastavad kriteeriumidele, mis on määratud pakett-töös. See funktsioon täiustab arve sisestamise automatiseerimist, sest pakett-tööd saab käitada pidevalt ja valib soovitused sisestamiseks automaatselt. |

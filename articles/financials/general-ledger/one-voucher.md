@@ -3,7 +3,7 @@ title: "Üks kanne"
 description: "Ühe kandega finantstöölehtede jaoks (üldine tööleht, põhivara tööleht, hankija maksete tööleht jne) saate sisestada mitu alampearaamatu kannet ühes kandes."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Üks kanne
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  See funktsioon on saadaval rakenduse Dynamics 365 for Finance and Operations versioonis 8.0, mis on saadaval 2018. aasta kevade väljaandes.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 Olemasoleva funktsiooniga finantstöölehtede jaoks (üldine tööleht, põhivara tööleht, hankija maksete tööleht jne) saate sisestada mitu alampearaamatu kannet ühes kandes. Nimetame seda funktsiooni üheks kandeks. Saate ühe kande loomisel kasutada üht järgmistest viisidest.
 
--   Seadistage töölehe nimi (**Pearaamat** \> **Töölehe seadistus** \>**Töölehe nimed**), nii et välja **Uus kanne** väärtus oleks **Ainult üks kande number**. Iga töölehele lisatud rida lisatakse nüüd samale kandele. Kuna iga rida lisatakse samale kandele, saab kande sisestada mitmerealise kandena, konto/vastaskonto samal real või kombinatsioonina.
+-   Seadistage töölehe nimi (**Pearaamat** \> **Töölehe seadistus** \>**Töölehe nimed**), nii et välja **Uus kanne** väärtus oleks **Ainult üks kande number**. * Iga töölehele lisatud rida lisatakse nüüd samale kandele. Kuna iga rida lisatakse samale kandele, saab kande sisestada mitmerealise kandena, konto/vastaskonto samal real või kombinatsioonina.
 
 [![Üks rida](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Pange tähele, et sätte „Üks kanne” definitsioon EI sisalda töölehe nimesid, mis on seadistatud ainult valikule **Üks kande number** ja kasutaja sisestab seejärel kande, mis sisaldab ainult tüüpe pearaamatukonto tüüpe.  Selles dokumendis tähendab „Üks kanne”, et olemas on üks kanne, mis sisaldab rohkem kui üht hankijat, klienti, panka, põhivara või projekti. 
 
 -   Sisestage mitmerealine kanne, kus vastaskonto puudub.
 
@@ -68,13 +71,16 @@ Seejärel loote aruande **Kulud hankija järgi** tööruumi **Finantsülevaated*
 
 Ülaltoodud probleemide tõttu aegub ühe kande funktsioon. Kuid kuna on olemas sellest funktsioonist olenevad funktsionaalsed vahemikud, ei aegu funktsioon korraga. Selle asemel kasutame järgmist graafikut. 
 
--   **2018. aasta kevade väljaanne** – funktsioon lülitatakse pearaamatu parameetriga vaikimisi välja. Saate funktsiooni siiski sisse lülitada, kui teie organisatsioonil on stsenaarium, mis langeb selles teemas allpool loetletud ettevõttestsenaariumi vahemikku.
+- **2018. aasta kevade väljaanne** – funktsioon lülitatakse pearaamatu parameetriga vaikimisi välja. Saate funktsiooni siiski sisse lülitada, kui teie organisatsioonil on stsenaarium, mis langeb selles teemas allpool loetletud ettevõttestsenaariumi vahemikku.
 
-    -   Kui kliendil on ettevõttestsenaarium, milleks pole üht kannet vaja, ärge funktsiooni sisse lülitage. Me ei paranda vigu aladel, millest räägitakse selles teemas allpool, kui seda funktsiooni kasutatakse, kuigi olemas on muu lahendus.
+  -   Kui kliendil on ettevõttestsenaarium, milleks pole üht kannet vaja, ärge funktsiooni sisse lülitage. Me ei paranda vigu aladel, millest räägitakse selles teemas allpool, kui seda funktsiooni kasutatakse, kuigi olemas on muu lahendus.
 
-    -   Lõpetage ühe kande kasutamine rakenduse Microsoft Dynamics 365 Finance and Operations integratsioonidele, v.a juhul, kui see funktsioon on vajalik mõne funktsionaalse vahemiku jaoks.
+  -   Lõpetage ühe kande kasutamine rakenduse Microsoft Dynamics 365 Finance and Operations integratsioonidele, v.a juhul, kui see funktsioon on vajalik mõne funktsionaalse vahemiku jaoks.
 
--   **2018. aasta sügise ja hilisemad väljaanded** – täidetakse funktsionaalsed vahemikud. Kui funktsionaalsed vahemikud on täidetud, lülitatakse ühe kande funktsioon püsivalt välja.
+- **2018. aasta sügise ja hilisemad väljaanded** – täidetakse funktsionaalsed vahemikud. Kui funktsionaalsed vahemikud on täidetud, lülitatakse ühe kande funktsioon püsivalt välja.
+
+- > [!IMPORTANT]
+  > Pange tähele, et suvandit **Ainult üks kande number** EI ole töölehe nime seadistusest eemaldatud.  Seda suvandit toetatakse endiselt, kui kanne sisaldab ainult pearaamatukonto tüüpe.  Kliendid peavad selle sätte kasutamisel olema ettevaatlikud, sest kannet ei sisestata, kui nad kasutavad suvandit **Ainult üks kande number**, kuid sisestavad rohkem kui ühe kliendi, hankija, panga, põhivara või kliendi.  Samuti saavad kliendid endiselt sisestada erinevate alampearaamatu tüüpide kombinatsiooni, nagu makse ühes kandes, mis sisaldab kontotüüpe Hankija/Pank.  
 
 <a name="why-use-one-voucher"></a>Miks kasutada üht kannet?
 ====================
@@ -102,13 +108,13 @@ Järgmiseid stsenaariume on võimalik täita ainult ühe kande funktsiooni kasut
 
 >   Kui organisatsioon peab vaatama ärisündmuse raamatupidamiskirjeid koos, tuleb kasutada ühe kande funktsiooni. 
 
--   **Riigikohased funktsioonid**
+- **Riigikohased funktsioonid**
 
- -   Ühtse haldusdokumendi (SAD) funktsioon Poola jaoks nõuab praegu üksiku kande kasutamist. Kui selle funktsiooni jaoks on saadaval rühmitamisvalik, peate edasi kasutama ühe kande funktsiooni. Võib olla vee riigikohaseid funktsioone, mis nõuavad ühe kande funktsiooni.
+  -   Ühtse haldusdokumendi (SAD) funktsioon Poola jaoks nõuab praegu üksiku kande kasutamist. Kui selle funktsiooni jaoks on saadaval rühmitamisvalik, peate edasi kasutama ühe kande funktsiooni. Võib olla vee riigikohaseid funktsioone, mis nõuavad ühe kande funktsiooni.
 
--   **Kliendi ettemakse tööleht, millel on maksud mitmel real**
+- **Kliendi ettemakse tööleht, millel on maksud mitmel real**
 
- -   Klient teeb tellimusele ettemakse ja tellimuse ridades on eri maksud, mis tuleb ettemakse jaoks salvestada. Ettemakse kliendi makse on üks kanne, mis simuleerib tellimuse ridu, nii et iga rea summale saab salvestada sobiva maksu.
+  -   Klient teeb tellimusele ettemakse ja tellimuse ridades on eri maksud, mis tuleb ettemakse jaoks salvestada. Ettemakse kliendi makse on üks kanne, mis simuleerib tellimuse ridu, nii et iga rea summale saab salvestada sobiva maksu.
 
 Selles stsenaariumis on ühe kande kliendid üks ja sama klient, sest kanne simuleerib kliendi tellimuse ridu. Ettemakse tuleb sisestada ühte kandesse, kuna maksuarvestus tuleb teha kliendi tehtud üksiku makse ridades.
 

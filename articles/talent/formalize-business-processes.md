@@ -19,10 +19,10 @@ ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: 48f80eac5009e1a241d501b0c4a3a70b78f5d709
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1b50a97f5e2fc94255ff71702faf91ab36e68eb4
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="formalize-business-processes"></a>Äriprotsesside formaliseerimine
@@ -33,10 +33,10 @@ Pärast malli loomist saab protsessi käivitada ja seda jälgida äriprotsessi t
 ## <a name="business-process-template"></a>Äriprotsessi mall
 Äriprotsessi mallis on loendatud ülesannete grupp, mis moodustab äriprotsessi. Personalijuhid ja assistendid saavad vaikimisi äriprotsesse luua.  Seda saab turbekonfiguratsioonis kohustust Halda üldisi äriprotsesse redigeerides muuta.
 
-Igale protsessile saab määrata protsessi omaniku.  Protsessi omanik näeb kõiki protsessi ülesandeid, saab ülesandeid uuesti määrata või tähtaegu muuta.  Näiteks saab personalidirektor luua äriprotsessi malli eeliste ülevaatamiseks.  Hüvitise ja eeliste halduri saab määrata protsessi omanikuks, nii et tal on ülevaade ülesannetest, mis ülevaatuse käigus täita tuleb.  Protsessi omanik ei saa luua või kustutada aktiivseid äriprotsesse või äriprotsessi malle.
+Igale protsessile saab määrata protsessi omaniku. Protsessi omanik näeb kõiki protsessi ülesandeid, saab ülesandeid uuesti määrata või tähtaegu muuta.  Näiteks saab personalidirektor luua äriprotsessi malli eeliste ülevaatamiseks.  Hüvitise ja eeliste halduri saab määrata protsessi omanikuks, nii et tal on ülevaade ülesannetest, mis ülevaatuse käigus täita tuleb.  Protsessi omanik ei saa luua või kustutada aktiivseid äriprotsesse või äriprotsessi malle.
 
 ## <a name="task"></a>Ülesanne
-Äriprotsess hõlmab sageli mitut ülesannet. Mõnd ülesannet, näiteks ettevõttesiseste kursuste pakkumiste ülevaatamist, saab täita rakenduses Dynamics 365 for Talent[?]. Sel juhul valitakse väljal Ülesande link menüükäsk. Muud ülesanded võivad hõlmata veebisaidi vormide ülevaatamist ja täitmist. URL-i valimine väljal Ülesande link võimaldab veebiaadressi sisestada. Sellel väljal saate sisestada nii välis- kui ka sisesaitide URL-e. Samuti saate luua ülesandeid tegevustele, mida teete käsitsi, näiteks struktuuride juurdepääsetavuse ülevaatamine. Sel juhul pole ülesande link vajalik. Sedasi on võimalik jälgida mitmesuguseid ülesandeid ulatusliku protsessi abil.
+Äriprotsess hõlmab sageli mitut ülesannet. Mõnd ülesannet, näiteks ettevõttesiseste kursuste pakkumiste ülevaatamist, saab täita rakenduses Dynamics 365 for Talent. Sel juhul valitakse menüükäsk väljal Ülesande link. Muud ülesanded võivad hõlmata veebisaidi vormide ülevaatamist ja täitmist. URL-i valimine väljal Ülesande link võimaldab veebiaadressi sisestada. Sellel väljal saate sisestada nii välis- kui ka sisesaitide URL-e. Samuti saate luua ülesandeid tegevustele, mida teete käsitsi, näiteks struktuuride juurdepääsetavuse ülevaatamine. Sel juhul pole ülesande link vajalik. Sedasi on võimalik jälgida mitmesuguseid ülesandeid ulatusliku protsessi abil.
 
 Ülesandeid on võimalik määrata kindlale töötajale või ametikohale. Näiteks on hüvitise ja eeliste haldur alati see inimene, kes vaatab üle kindlustusmaksed.   Valige selle ülesande loomisel määramise tüübiks ametikoht ja seejärel valige ametikohtade loendist hüvitise ja eeliste haldur. Protsessi käivitamisel määratakse ülesanne töötajale, kelle ametikohaks on hüvitise ja eeliste haldur. Samuti saate ülesande konkreetsele töötajale määrata, kui valite väljal Määramise tüüp suvandi Töötaja ja seejärel valite sobiva inimese.
 
@@ -44,7 +44,8 @@ Igale protsessile saab määrata protsessi omaniku.  Protsessi omanik näeb kõi
 
 Keerukate ülesannete puhul võib vaja olla mitut etappi või lisateavet ülesannet täitvalt töötajalt. Ülesandele on võimalik lisada juhiseid ja neid rikastekstina vormindada. Juhistes saab ülesande täitjale ülesande täitmise kohta täiendavat teavet anda.
 
-Protsessi käivitamine Protsessi saab käivitada äriprotsessi mallis, valides Protsessi käivitamine.  Protsessi käivitamisel luuakse valitud töötajate ja/või ülesannetes määratletud ametikohtadele ülesanded, mis kaasatakse äriprotsessi malli. Igale ülesandele määratakse ka tähtaeg liites või lahutades nihkunud päevade arvu sihtkuupäevast (vaadake nihkunud päevi puudutavat teavet ülesande jaotisest). Aktiivseid äriprotsesse saab vaadata äriprotsesside tööruumis. 
+## <a name="starting-a-process"></a>Protsessi käivitamine
+Protsessi saab käivitada äriprotsessi mallis, valides Protsessi käivitamine.  Protsessi käivitamisel luuakse valitud töötajate ja/või ülesannetes määratletud ametikohtadele ülesanded, mis kaasatakse äriprotsessi malli. Igale ülesandele määratakse ka tähtaeg liites või lahutades nihkunud päevade arvu sihtkuupäevast (vaadake nihkunud päevi puudutavat teavet ülesande jaotisest). Aktiivseid äriprotsesse saab vaadata äriprotsesside tööruumis. 
 
 ## <a name="employee-self-service"></a>Töötaja iseteenindus
 Kui töötajale määratakse ülesanne, saab neile määratud ülesandeid vaadata lehel Töötaja iseteenindus. Töötajad, kellele on määratud äriprotsessi ülesanne, saavad lehel Töötaja iseteenindus vaadata ülesannet, selle kirjeldust, juhiseid ja kontaktisiku nime ning avada seotud Dynamics365 lehe või veebilehe. Ülesandeid saab tähistada kui pooleliolevad, tühistatud või lõpetatud.
@@ -56,9 +57,9 @@ Personalispetsialistid saavad aktiivseid äriprotsesse vaadata äriprotsessi tö
 Protsessi omanikud saavad endale määratud aktiivseid äriprotsesse vaadata Minu äriprotsessi tööruumis. Tööruumis on loetletud kõik kasutaja aktiivsed protsessid ja nendega seotud ülesanded.  Ulatuslikku ülesandeloendit on võimalik tähtaja põhjal filtrida. Lehel loetletakse konkreetselt protsessi omanikule määratud ülesanded. Protsessi omanik saab ka kõigi ülesannete olekut värskendada ja ülesandeid uuesti määrata.
 
 ## <a name="navigating-business-processes"></a>Äriprotsesside navigeerimine
-1.   Äriprotsessi malli lisamiseks avage Äriprotsessid- lingid – Äriprotsesside haldamine.
- - a.   Suvandiga Uus luuakse uus mall.
- - b.   Suvandiga Mallist kopeerimine kopeeritakse valitud mall uude.
- - c.   Suvandiga Protsessi käivitamine käivitatakse valitud äriprotsess, määratakse ülesanded ja arvutatakse tähtajad.  
-2.  Aktiivsete protsesside ja seotud ülesannete vaatamiseks minge äriprotsesside tööruumi.
+1. Äriprotsessi malli lisamiseks avage Äriprotsessid- lingid – Äriprotsesside haldamine.
+   - a.   Suvandiga Uus luuakse uus mall.
+   - b.   Suvandiga Mallist kopeerimine kopeeritakse valitud mall uude.
+   - c.   Suvandiga Protsessi käivitamine käivitatakse valitud äriprotsess, määratakse ülesanded ja arvutatakse tähtajad.  
+2. Aktiivsete protsesside ja seotud ülesannete vaatamiseks minge äriprotsesside tööruumi.
 

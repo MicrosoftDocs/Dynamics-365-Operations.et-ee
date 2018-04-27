@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Rakenduse Microsoft Dynamics 365 for Talent ettevalmistamine
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 See teema selgitab uue tootmiskeskkonna ettevalmistuse protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks. See teema eeldab, et olete ostnud rakenduse Talent pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuur (AE) kaudu. Kui teil on lahenduse Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Talent teenuseplaani ja te ei saa selles teemas olevaid etappe läbida, võtke ühendust toega.
 
@@ -79,12 +79,12 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse PowerAppsi keskkonda Tale
  
     **CDS 2.0 keskkonnad** CDS 2.0 on avalikult saadaval alates 21. märtsist 2018; kuid Talent ei toeta veel versiooni CDS 2.0. Saate PowerAppsi halduskeskuses vaadata ja luua CDS 2.0 andmebaase, kuid neid ei saa Talentis kasutada. Võimalus kasutada CDS 2.0 keskkondi Talenti juurutustes on saadaval edaspidi.
    
- > [!Note]
- > Administreerimisportaalis CDS 1.0 ja 2.0 keskkondade eristamiseks valige keskkond ja vaadake selle **üksikasju**. Kõik CDS 2.0 keskkonnad viitavad asjaolule, et „Saate neid sätteid hallata rakenduse Dynamics 365 halduskeskuses”, osutavad eksemplari versioonile ning neil puudub vahekaart Andmebaas. 
+   > [!Note]
+   > Administreerimisportaalis CDS 1.0 ja 2.0 keskkondade eristamiseks valige keskkond ja vaadake selle **üksikasju**. Kõik CDS 2.0 keskkonnad viitavad asjaolule, et „Saate neid sätteid hallata rakenduse Dynamics 365 halduskeskuses”, osutavad eksemplari versioonile ning neil puudub vahekaart Andmebaas. 
  
    **PowerAppsi vaikekeskkonnad** Kuigi iga rentniku jaoks on automaatselt ette valmistatud PowerAppsi vaikekeskkond, ei soovita me neid keskkondi Talentis kasutada, sest kõigil rentniku kasutajatel on juurdepääs PowerAppsi keskkonnale ja nad võivad tahtmatult tootmisandmeid rikkuda, kui nad katsetavad ja tutvuvad PowerAppsi või Flow integratsioonidega.
    
-   **Proovikeskkonnad** Keskkonnad nimega, nagu „TestDrive – alias@domain” luuakse 60-päevase aegumisperioodiga, pärast mida need aeguvad ja teie keskkond eemaldatakse automaatselt.
+   <strong>Proovikeskkonnad</strong> Keskkonnad nimega, nagu „TestDrive – alias@domain” luuakse 60-päevase aegumisperioodiga, pärast mida need aeguvad ja teie keskkond eemaldatakse automaatselt.
    
    **Toetamata piirkonnad** Praegu toetatakse Talentit ainult järgmistes piirkondades: Ameerika Ühendriigid, Euroopa või Austraalia.
   
@@ -115,7 +115,7 @@ Skripti käivitamiseks tehke järgmist.
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   **EnvironmentName** tuleb asendada teie keskkonna nimega. See nimi kuvatakse LCS-is ja see on nähtav, kui kasutajad valivad, millist Talenti keskkonda kasutada. 
+   **MyNewEnvironment** tuleb asendada teie keskkonna nimega. See nimi kuvatakse LCS-is ja see on nähtav, kui kasutajad valivad, millist Talenti keskkonda kasutada. 
 
    **YourLocation** tuleb asendada ühega Talenti toetavatest piirkondadest: Ameerika Ühendriigid, Euroopa, Austraalia. 
 

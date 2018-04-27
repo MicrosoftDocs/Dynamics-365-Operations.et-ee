@@ -18,17 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 954f6237739defe14aaa13b19641f9f9d27b5fac
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>Rakenduse Microsoft Dynamics 365 for Talent süsteeminõuded ja värskenduspoliitika
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles teemas loetletakse rakenduse Microsoft Dynamics 365 for Talent nõuded. Samuti on välja toodud värskenduspoliitika.
 
@@ -47,21 +46,21 @@ Iga veebibrauseri uusima versiooni leidmiseks minge tarkvaratootja veebisaidile.
 > * Tegevuse salvestajas loodud piltide jäädvustamiseks ja nende Microsoft Wordi dokumentidesse lisamiseks peab teil olema installitud Chrome’i laiendus. 
 > * Töövooredaktor käivitatakse ClickOnce’i rakendusena. Ainult Microsoft Edge ja Internet Explorer (Microsoft Windowsi toetatud versioonis) toetavad ClickOnce’i rakendusi. Töövooredaktori ClickOnce rakendus nõuab ühilduvat 64-bitist operatsioonisüsteemi.
 > * PDF-failide eelvaateks soovitame kasutada tänapäevasi brausereid, nagu Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s või Chrome (viimane avalikult saadaolev versioon) Windows 10-s, Windows 8.1-s, Windows 8-s, Windows 7-s või tahvelarvutis Google Nexus 10.
-Võrgunõuded
-> * Dynamics 365 for Talent on mõeldud võrkudele, mille latentsus on kuni 250–300 millisekundit (ms). See on latentsus brauserikliendist Microsoft Azure’i andmekeskusesse, mis majutab rakendust Dynamics 365 for Talent. Soovitame teilt testida võrgulatentsust veebiaadressil [www.azurespeed.com] (http://www.azurespeed.com "Azure'i latentsustest").
+>   Võrgunõuded
+> * Dynamics 365 for Talent on mõeldud võrkudele, mille latentsus on kuni 250–300 millisekundit (ms). See on latentsus brauserikliendist Microsoft Azure’i andmekeskusesse, mis majutab rakendust Dynamics 365 for Talent. Soovitame teilt testida võrgulatentsust veebiaadressil [www.azurespeed.com](http://www.azurespeed.com "Azure’i latentsustest").
 > * Rakenduse Dynamics 365 for Talent ribalaiuse nõuded sõltuvad stsenaariumist. Kõige tüüpilisemad stsenaariumid nõuavad ribalaiust rohkem kui 50 kilobaiti sekundis (KB/s).
-
+> 
 > [!WARNING]
 > Ärge arvutage ribalaiuse nõudeid kliendi asukohast, korrutades kasutajate arvu minimaalsete ribalaiuse nõuetega. Antud asukoha samaaegset kasutust on väga keeruline arvutada. Ribalaiuse nõuete pärast muret tundvate klientide puhul kasutage rakenduse Dynamics 365 for Talent eelvaateversiooni.
 
 ## <a name="supported-microsoft-office-applications"></a>Toetatud Microsoft Office’i rakendused
 
-*   Microsoft Exceli ja Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Office’i integratsiooni tõrkeotsing").
-*   Funktsiooniga Ekspordi Excelisse või Ekspordi Wordi loodud dokumentide vaatamiseks peab teil olema installitud Microsoft Office 2007 või uuem versioon.
+* Microsoft Exceli ja Wordi lisandmooduli käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office’i integratsiooni tõrkeotsing").
+* Funktsiooniga Ekspordi Excelisse või Ekspordi Wordi loodud dokumentide vaatamiseks peab teil olema installitud Microsoft Office 2007 või uuem versioon.
 
 ## <a name="update-policy"></a>Värskenduspoliitika
 
 Teenust Microsoft Dynamics 365 for Talent pakutakse pilveteenusena. Rakendust Dynamics 365 for Talent värskendatakse Microsofti poolt pidevalt ja automaatselt.
 
-Värskendusi antakse välja regulaarselt ja need tehakse kättesaadavaks kõikides keskkondades.  Rakenduse Dynamics 365 for Talent tugi põhineb [Microsofti toe elutsükli poliitikal] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsofi toe elutükkel"), kust leiate terviklikud ja ennustatavad juhised tootetoe saadavuse kohta.
+Värskendusi antakse välja regulaarselt ja need tehakse kättesaadavaks kõikides keskkondades.  Rakenduse Dynamics 365 for Talent tugi põhineb [Microsofti toe elutsükli poliitikal](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsofi toe elutükkel"), kust leiate terviklikud ja ennustatavad juhised tootetoe saadavuse kohta.
 

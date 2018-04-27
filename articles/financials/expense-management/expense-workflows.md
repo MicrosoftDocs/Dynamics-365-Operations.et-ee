@@ -19,16 +19,18 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 19d725f15f00afce1a2ae4b336226f1dafa94b41
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-workflows-for-expense"></a>Kulude töövoogude häälestamine
 
-[!include[banner](../includes/banner.md)] Saate seadistada töövooprotsessi, mida kasutatakse reisi- ja kuludokumentide kinnitamiseks. Dokumendid, millele saab määratleda töövoogusid, on kuluaruanded, reisiplaanid ja avansimaksete taotlused.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Saate seadistada töövooprotsessi, mida kasutatakse reisi- ja kuludokumentide kinnitamiseks. Dokumendid, millele saab määratleda töövoogusid, on kuluaruanded, reisiplaanid ja avansimaksete taotlused.
 
 Töövoog esindab äriprotsessi. Töövoog määrab, kuidas dokument voogab läbi süsteemi, näidates, kes peab seda töötlema ja kinnitama. Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
 
@@ -42,13 +44,15 @@ Töövoog esindab äriprotsessi. Töövoog määrab, kuidas dokument voogab läb
 
 Järgmises tabelis on esitatud töövoo tüübid, mida saate luua jaotises **Kulu**.
 
-| **Tüüp**                           | **Kasutage seda tüüpi järgmiseks**                                                 |     
-|------------------------------------|----------------------------------------------------------------------|
-| **Kuluaruanne**                 | Kuluaruannetele kinnitamise töövoogude loomine.                       |      
-| **Kuluaruande automaatne sisestamine**    | Kuluaruannetele automaatse sisestamise töövoogude loomine.              |     
-| **Kulurea kaup**              | Kuluaruannete reaüksustele kinnitamise töövoogude loomine.         |     
-| **Kulurea kauba automaatne sisestamine** | Kuluaruannete reaüksustele automaatse sisestamise töövoogude loomine.|
-| **Reisitellimus**             | Reisiplaanidele kinnitamise töövoogude loomine.                   |    
-| **Avansimakse taotlus**           | Sularaha ettemakse taotluste kinnitustöövoogude loomine.                 |     
-| **Käibemaksu korvamine**               | Käibemaksu (KM) korvamise kinnitustöövoogude loomine. |       
+
+|              <strong>Tüüp</strong>              |                   <strong>Kasutage seda tüüpi järgmiseks</strong>                   |
+|-------------------------------------------------|-----------------------------------------------------------------------|
+|         <strong>Kuluaruanne</strong>         |            Kuluaruannetele kinnitamise töövoogude loomine.             |
+|  <strong>Kuluaruande automaatne sisestamine</strong>   |        Kuluaruannetele automaatse sisestamise töövoogude loomine.        |
+|       <strong>Kulurea kaup</strong>        |     Kuluaruannete reaüksustele kinnitamise töövoogude loomine.      |
+| <strong>Kulurea kauba automaatne sisestamine</strong> | Kuluaruannete reaüksustele automaatse sisestamise töövoogude loomine. |
+|       <strong>Reisitellimus</strong>       |          Reisiplaanidele kinnitamise töövoogude loomine.           |
+|      <strong>Avansimakse taotlus</strong>      |         Sularaha ettemakse taotluste kinnitustöövoogude loomine.          |
+|        <strong>Käibemaksu korvamine</strong>        | Käibemaksu (KM) korvamise kinnitustöövoogude loomine.  |
+
 

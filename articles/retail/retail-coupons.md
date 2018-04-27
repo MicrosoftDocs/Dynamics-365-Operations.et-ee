@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Kupongide loomine jaemüügi jaoks
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Kupongide ülevaade
 
@@ -46,9 +45,12 @@ Kupongi loomiseks tuleb luua allahindlus ja kupong eraldi. Seejärel tuleb need 
 
 ### <a name="limited-use-coupons"></a>Piiratud kasutusega kupongid
 
-Kupongid saab konfigureerida piiratud kasutusega kupongidena. Kasutuspiiri saab määratleda kliendi või kanali kaupa või üldise piirina. Seda piiri rakendatakse koodi või vöötkoodi sisestamisel või skannimisel kassas või müügitellimuse sisestamisel. Kupong registreeritakse kasutatuks, kui tellimus, millega kupong seotud on, on täidetud.
+Kupongid saab konfigureerida piiratud kasutusega kupongidena. Kasutuspiiri saab määratleda kliendi või kanali kaupa või üldise piirina. Seda piiri rakendatakse koodi või vöötkoodi sisestamisel või skannimisel kassas või müügitellimuse sisestamisel.
 
 Kupongi piirmäär rakendatakse kupongi koodi kohta. Näiteks ühekordselt kasutatavat kupongi, millel on kaks kupongi koodi, saab kasutada kaks korda: üks kord kummagi kupongi koodi kohta. Kummagi kupongi koodi saab eraldi aktiivseks määrata.
+
+> [!NOTE]
+> Kui kupongikood jõuab kasutuspiirini, *ei* muuda süsteem automaatselt kupongikoodi olekuks „Kasutatud”. Kuid süsteem ei luba kupongikoodi enam kasutada, kui see on jõudnud kasutuspiirini. Kui kupongikoodi olekuks seatakse käsitsi midagi muud peale valiku „Aktiivne”, ei saa seda kupongikoodi enam ühelgi kanalil kasutada.
 
 ## <a name="managing-coupons"></a>Kupongide haldamine
 
@@ -68,8 +70,8 @@ Enne kupongi seadistamist tuleb seadistada kupongi vöötkood ja kaks kupongi nu
     > [!NOTE]
     > Mõlema numbriseeria puhul tuleb määrata väljale **Ulatus** valik **Ettevõte**. Enamasti tuleks luua automaatselt mõlemad seerianumbrid.
 
-5.  Valige lehel **Jaemüügi ühisparameetrid** vahekaardil **Vöötkoodid** varem loodud vöötkood.
-6.  Valige lehel **Jaemüügi parameetrid** vahekaardil **Numbriseeriad** kupongi numbrile ja kupongi koodi ID-le loodud numbriseeriad.
+5.  Valige lehel **Jaemüügi parameetrid** vahekaardil **Vöötkoodid** varem loodud vöötkood.
+6.  Valige lehel **Jaemüügi ühisparameetrid** vahekaardil **Numbriseeriad** kupongi numbrile ja kupongi koodi ID-le loodud numbriseeriad.
 7.  Nüüd võite lehe **Kupongid** avada ja uusi kuponge luua.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Kupongide osalise uuendamise mõju

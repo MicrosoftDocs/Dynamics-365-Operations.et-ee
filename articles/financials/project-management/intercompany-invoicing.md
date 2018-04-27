@@ -19,21 +19,20 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Kontsernisisene arveldamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis on teave ja näited projektide kontsernisisese arveldamise kohta Microsoft Dynamics 365 for Finance and Operationsis.
 
-Teie organisatsioonil võib olla mitu allüksust, tütarettevõtet ja muud juriidilist isikut, mis edastavad üksteisele projektide tarbeks tooteid ja teenuseid. Juriidilist isikut, kes teenust või toodet pakub*, nimetatakse laenu väljastavaks juriidiliseks isikuks* ja teenust või toodet vastuvõtvat juriidilist isikut *laenavaks juriidiliseks isikuks*. 
+Teie organisatsioonil võib olla mitu allüksust, tütarettevõtet ja muud juriidilist isikut, mis edastavad üksteisele projektide tarbeks tooteid ja teenuseid. Juriidilist isikut, kes teenust või toodet pakub *, nimetatakse laenu väljastavaks juriidiliseks isikuks* ja teenust või toodet vastuvõtvat juriidilist isikut *laenavaks juriidiliseks isikuks*. 
 
 Järgmisel joonisel on kujutatud tüüpilist stsenaariumi, kus kaks juriidilist isikut SI FR (laenav juriidiline isik) ja SI USA (laenu väljastav juriidiline isik) jagavad ressursse projekti läbiviimiseks kliendile A. Selle stsenaariumi puhul on peatöövõtja SI FR, kes peab töö kliendile A üle andma. 
 
@@ -58,20 +57,22 @@ Selles näites on USSI laenu väljastav juriidiline isik ja tema ressursid regis
 
 Selles näites peab FRSI olema USSI juriidilises isikus klient ja USSI peab olema FRSI juriidilises isikus hankija. Seejärel saate seadistada kahe juriidilise isiku vahelise kontsernisisese seose. Järgmine protseduur näitab, kuidas seadistada parameetreid, nii et mõlemad juriidilised isikud saaksid kontsernisiseses arvelduses osaleda.
 
-1.  Seadistage FRSI kliendina USSI juriidilises isikus ja USSI hankijana FRSI juriidilises isikus. Selle ülesande jaoks vajalike toimingute puhul on kolm sisestuspunkti.
-    | Etapp | Sisestuspunkt                                                                       | Kirjeldus   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A    | Klõpsake USSI all valikuid **Müügireskontro** &gt; **Kliendid** &gt; **Kõik kliendid**. | Looge FRSI-le uus kliendikirje ja valige kliendigrupp.                                                                                  |
-    | B    | Klõpsake FRSI all valikuid **Ostureskontro** &gt; **Hankijad** &gt; **Kõik hankijad**.        | Looge USSI-le uus hankija kirje ja valige hankijagrupp.                                                                                    |
-    | C    | Avage FRSI all äsja loodud hankija kirje.                            | Klõpsake tegumiriba vahekaardil **Üldine** grupis **Seadistus** valikut **Kontsernisisene**. Määrake lehe **Kontsernisisene** vahekaardil **Kaubandussuhe** liuguri **Aktiivne** väärtuseks **Jah**. Valige väljalt **Kliendi ettevõte** kliendi kirje, mille lõite etapis A. |
+1. Seadistage FRSI kliendina USSI juriidilises isikus ja USSI hankijana FRSI juriidilises isikus. Selle ülesande jaoks vajalike toimingute puhul on kolm sisestuspunkti.
 
-2.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Seadistus** &gt; **Projektihalduse ja raamatupidamise parameetrid** ja seejärel vahekaarti **Kontsernisisene**. See, kuidas parameetrid seadistate, sõltub sellest, kas olete laenav või laenu väljastav juriidiline isik.
-    -   Kui olete laenav juriidiline isik, siis valige hankekategooria, mida tuleks kasutada automaatselt loodavate hankija arvete vastendamisel.
-    -   Kui olete laenu väljastav juriidiline isik, siis valige iga laenava üksuse puhul igale kandele projekti vaikekategooria. Projektikategooriaid kasutatakse maksude konfigureerimiseks, kui kontsernisiseste kannete arveldatud kategooria on olemas ainult laenavas juriidilises isikus. Saate valida kontsernisiseste kannete puhul kulude juurdekasvu. See juurdekasv tekib kannete sisestamisel ja see tühistatakse kontsernisisese arve sisestamisel.
+   | Etapp |                                                       Sisestuspunkt                                                        |                                                                                                                                                                                               Kirjeldus                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A   | Klõpsake USSI all valikuid <strong>Müügireskontro</strong> &gt; <strong>Kliendid</strong> &gt; <strong>Kõik kliendid</strong>. |                                                                                                                                                                  Looge FRSI-le uus kliendikirje ja valige kliendigrupp.                                                                                                                                                                  |
+   |  B   |    Klõpsake FRSI all valikuid <strong>Ostureskontro</strong> &gt; <strong>Hankijad</strong> &gt; <strong>Kõik hankijad</strong>.     |                                                                                                                                                                    Looge USSI-le uus hankija kirje ja valige hankijagrupp.                                                                                                                                                                    |
+   |  C   |                                  Avage FRSI all äsja loodud hankija kirje.                                  | Klõpsake tegumiriba vahekaardil <strong>Üldine</strong> grupis <strong>Seadistus</strong> valikut <strong>Kontsernisisene</strong>. Määrake lehe <strong>Kontsernisisene</strong> vahekaardil <strong>Kaubandussuhe</strong> liuguri <strong>Aktiivne</strong> väärtuseks <strong>Jah</strong>. Valige väljalt <strong>Kliendi ettevõte</strong> kliendi kirje, mille lõite etapis A. |
 
-3.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Seadistus** &gt; **Hinnad** &gt; **Ülekande hind**.
-4.  Valige valuuta, kande tüüp ja ülekande hinnamudel. Arvel kasutatav valuuta on valuuta, mis on konfigureeritud laenu väljastava juriidilise isiku all laenava juriidilise isiku kliendikirjes. Valuutat kasutatakse üleviimise hinnatabeli kirjete vastendamiseks.
-5.  Klõpsake valikuid **Pearaamat** &gt; **Sisestamise seadistus** &gt; **Kontsernisisene raamatupidamine** ja seadistage USSI ja FRSI seos.
+
+2. Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Seadistus** &gt; **Projektihalduse ja raamatupidamise parameetrid** ja seejärel vahekaarti **Kontsernisisene**. See, kuidas parameetrid seadistate, sõltub sellest, kas olete laenav või laenu väljastav juriidiline isik.
+   -   Kui olete laenav juriidiline isik, siis valige hankekategooria, mida tuleks kasutada automaatselt loodavate hankija arvete vastendamisel.
+   -   Kui olete laenu väljastav juriidiline isik, siis valige iga laenava üksuse puhul igale kandele projekti vaikekategooria. Projektikategooriaid kasutatakse maksude konfigureerimiseks, kui kontsernisiseste kannete arveldatud kategooria on olemas ainult laenavas juriidilises isikus. Saate valida kontsernisiseste kannete puhul kulude juurdekasvu. See juurdekasv tekib kannete sisestamisel ja see tühistatakse kontsernisisese arve sisestamisel.
+
+3. Klõpsake valikuid **Projektihaldus ja raamatupidamine** &gt; **Seadistus** &gt; **Hinnad** &gt; **Ülekande hind**.
+4. Valige valuuta, kande tüüp ja ülekande hinnamudel. Arvel kasutatav valuuta on valuuta, mis on konfigureeritud laenu väljastava juriidilise isiku all laenava juriidilise isiku kliendikirjes. Valuutat kasutatakse üleviimise hinnatabeli kirjete vastendamiseks.
+5. Klõpsake valikuid **Pearaamat** &gt; **Sisestamise seadistus** &gt; **Kontsernisisene raamatupidamine** ja seadistage USSI ja FRSI seos.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>2. näide: kontsernisisese ajatabeli loomine ja sisestamine
 USSI, laenu väljastav juriidiline isik, peab looma ja sisestama ajatabeli FRSI (laenava juriidilise isiku) projektile. Selle ülesande jaoks vajalike toimingute puhul on kaks sisestuspunkti.

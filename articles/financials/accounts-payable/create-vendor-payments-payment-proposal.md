@@ -3,7 +3,7 @@ title: Hankija maksete loomine maksesoovituse abil
 description: "See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad. Maksesoovitusi kasutatakse sageli hankija maksete loomiseks, kuna maksesoovituse päringu abil saab hankija arveid kiiresti kriteeriumide (nt tähtaeg ja skonto) alusel maksmiseks valida."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 07/17/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 454a370e73e6e0d33f0aeb1ca2b3f9d6d9f8cb98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Hankija maksete loomine maksesoovituse abil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad. Maksesoovitusi kasutatakse sageli hankija maksete loomiseks, kuna maksesoovituse päringu abil saab hankija arveid kiiresti kriteeriumide (nt tähtaeg ja skonto) alusel maksmiseks valida. 
 
@@ -39,26 +38,27 @@ Maksesoovituse päring sisaldab mitmeid vahekaarte, millest igaühel on erinevad
 
 ## <a name="parameters"></a>Parameetrid
 -   **Arvete valimise alus** – väljadega **Alguskuupäev** ja **Lõppkuupäev** määratud kuupäevavahemikku jäävaid arveid saab valida tähtaja, skonto kuupäeva või mõlema alusel. Kui kasutate skonto kuupäeva, otsib süsteem esmalt arveid, mille skonto kuupäev jääb algus- ja lõppkuupäeva vahele. Seejärel määratleb süsteem seansi kuupäeva kasutades, kas arve on skonto saamiseks sobilik ning ega skonto kuupäev juba möödunud ole.
--   **Alguskuupäevast****lõppkuupäevani** – maksmiseks valitakse arved, mille tähtaeg või skonto kuupäev jääb sellesse kuupäevavahemikku.
--   **Maksekuupäev** – seda kasutatakse ainult siis, kui välja **Periood** väärtus makseviisis on **Kokku**. Kuupäev on määratletud, luuakse kõik maksed sellel kuupäeval. Välja **Varaseim maksekuupäev** ignoreeritakse.
+-   **Alguskuupäevast** **lõppkuupäevani** – maksmiseks valitakse arved, mille tähtaeg või skonto kuupäev jääb sellesse kuupäevavahemikku.
 -   **Varaseim maksekuupäev** – sisestage varaseim maksekuupäev. Näiteks määravad väljad **Alguskuupäev** ja **Lõppkuupäev** ajavahemiku 1. septembrist 10. septembrini ning minimaalne maksekuupäev on 5. september. Sellisel juhul on kõigil maksetel tähtajaga 1.–5. september maksekuupäevaks 5. september. Arvetel tähtajaga 5.–10. september on aga maksekuupäevaks iga arve tähtaja kuupäev.
 -   **Summa limiit** – sisestage kõikide maksete suurim kogusumma.
 -   **Maksete loomine ilma arve eelvaateta** – kui selle suvandi sätteks on valitud **Jah**, luuakse maksed kohe lehel **Hankija maksed**. Leht **Maksesoovitus** jäetakse vahele. Seetõttu luuakse maksed kiiremini. Makseid saab endiselt muuta lehel **Hankija maksed**. Teise võimalusena saate nuppu **Valitud makse arvete redigeerimine** kasutades naasta lehele **Maksesoovitus**.
 
 ## <a name="advanced-options"></a>Täpsemad suvandid
--   **Hankija saldo kontrollimine** – kui määrate suvandi **Jah**, kontrollib süsteem enne mistahes arve maksmist hankija deebetsaldo olemasolu. Kui hankijal on deebetsaldo, siis makset ei looda. Näiteks võib hankijal olla kreeditarveid või makseid, mis on küll sisestatud, kuid pole veel tasakaalustatud. Neil juhtudel ei tuleks hankijale maksta. Selle asemel tuleks kreeditarved ja maksed tasakaalustada tasumata arvetega.
--   **Kustuta negatiivsed maksed** – valik toimib erinevalt üksikute arvete ja maksekriteeriumile vastavate arvete summa maksmise puhul. Käitumine on määratletud makseviisiga.
--   **Makse iga arve jaoks** – kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Jah** ning hankijal on olemas tasakaalustamata arve ja makse, valitakse maksmiseks ainult arve. Olemasolevat makset ei tasakaalustata arvega. Kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Ei** ning arve ja makse pole tasakaalustatud, valitakse maksmiseks nii arve kui makse. Maksele luuakse makse ja tagasimakse (negatiivne makse).
--   **Makse arvete summa jaoks** – kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Jah** ning hankijal on tasakaalustamata arve ja makse, valitakse maksmiseks nii tasakaalustamata arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma. Erand tehakse ainult siis, kui summa tulemuseks on tagasimakse. Sellisel juhul ei valita ei arvet ega makset. Kui suvandi **Kustuta negatiivsed maksed** sätteks on määratud **Ei** ning arvet ja makset ei tasakaalustata, valitakse maksmiseks nii arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma.
--   **Prindi ainult aruanne** – kui soovite maksesoovituse tulemuste aruannet vaadata ilma makseid loomata, seadke selle suvandi väärtuseks **Jah**.
--   **Lisa hankija arve teistelt juriidilistelt isikutelt** – kui teie organisatsioonil on tsentraliseeritud makseprotsess ja maksesoovitus peaks sisaldama arveid teistelt otsingukriteeriumisse kaasatud juriidilistelt isikutelt, määrake suvandi väärtuseks **Jah**.
--   **Soovita iga juriidilise isiku jaoks eraldi hankija makset** – kui suvandi väärtuseks on määratud **Jah**, luuakse eraldi makse igale juriidilisele isikule hankija kohta. Maksel olev hankija on iga juriidilise isiku arvel olev hankija. Kui suvandi väärtuseks on määratud **Ei** ja samal hankijal on arveid mitmete juriidiliste isikute juures, luuakse üks makse valitud arvete kogusummas. Maksel olev hankija on antud juriidilise isiku hankija. Kui antud juriidilisel isikul hankija konto puudub, kasutatakse esimese tasutava arve hankija kontot.
--   **Makse valuuta** – see väli määrab valuuta, milles kõik maksed luuakse. Kui valuuta pole määratletud, tasutakse iga arve selle valuutas.
--   **Makse nädalapäev** – saate sisestada makse tegemise nädalapäeva. Seda välja kasutatakse ainult siis, kui makseviisiks on seatud arvete kogusumma makse jaoks kindlal nädalapäeval.
--   **Vastaskonto tüüp** ja **Vastaskonto** – nende väljadega saate määratleda kindla kontotüübi (nt **Pearaamat** või **Pank**) ja vastaskonto (nt kindel pangakonto). See arve makseviis määratleb vastaskonto vaiketüübi ja vastaskonto, kuid saate nende väljade abil ka alistada vaikeväärtused.
--   **Lisafiltrid** – kiirkaardil **Kaasatavad kirjed** saate määratleda täiendavad kriteeriumivahemikud. Näiteks kui soovite maksta ainult teatud hankijatele, saate määratleda nende hankijate jaoks filtri. Seda funktsiooni kasutatakse sageli kindla maksemeetodi jaoks arvete valimiseks. Näiteks kui määratlete filtri, kus **Makseviis** = **Tšekk**, valitakse makseks ainult selle makseviisiga arved, eeldusel, et need vastavad ka teistele päringus määratud kriteeriumidele.
+- **Hankija saldo kontrollimine** – kui määrate suvandi **Jah**, kontrollib süsteem enne mistahes arve maksmist hankija deebetsaldo olemasolu. Kui hankijal on deebetsaldo, siis makset ei looda. Näiteks võib hankijal olla kreeditarveid või makseid, mis on küll sisestatud, kuid pole veel tasakaalustatud. Neil juhtudel ei tuleks hankijale maksta. Selle asemel tuleks kreeditarved ja maksed tasakaalustada tasumata arvetega.
+- **Kustuta negatiivsed maksed** – valik toimib erinevalt üksikute arvete ja maksekriteeriumile vastavate arvete summa maksmise puhul. Käitumine on määratletud makseviisiga.
+- **Makse iga arve jaoks** – kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Jah** ning hankijal on olemas tasakaalustamata arve ja makse, valitakse maksmiseks ainult arve. Olemasolevat makset ei tasakaalustata arvega. Kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Ei** ning arve ja makse pole tasakaalustatud, valitakse maksmiseks nii arve kui makse. Maksele luuakse makse ja tagasimakse (negatiivne makse).
+- <strong>Makse arvete summa jaoks</strong> – kui valiku <strong>Kustuta negatiivsed maksed</strong> suvandi väärtuseks on määratud <strong>Jah</strong> ning hankijal on tasakaalustamata arve ja makse, valitakse maksmiseks nii tasakaalustamata arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma. Erand tehakse ainult siis, kui summa tulemuseks on tagasimakse. Sellisel juhul ei valita ei arvet ega makset. Kui suvandi <strong>Kustuta negatiivsed maksed</strong> väärtuseks on määratud **Ei** ning arvet ja makset ei tasakaalustata, valitakse maksmiseks nii arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma.
+- **Prindi ainult aruanne** – kui soovite maksesoovituse tulemuste aruannet vaadata ilma makseid loomata, seadke selle suvandi väärtuseks **Jah**.
+- **Lisa hankija arve teistelt juriidilistelt isikutelt** – kui teie organisatsioonil on tsentraliseeritud makseprotsess ja maksesoovitus peaks sisaldama arveid teistelt otsingukriteeriumisse kaasatud juriidilistelt isikutelt, määrake suvandi väärtuseks **Jah**.
+- **Soovita iga juriidilise isiku jaoks eraldi hankija makset** – kui suvandi väärtuseks on määratud **Jah**, luuakse eraldi makse igale juriidilisele isikule hankija kohta. Maksel olev hankija on iga juriidilise isiku arvel olev hankija. Kui suvandi väärtuseks on määratud **Ei** ja samal hankijal on arveid mitmete juriidiliste isikute juures, luuakse üks makse valitud arvete kogusummas. Maksel olev hankija on antud juriidilise isiku hankija. Kui antud juriidilisel isikul hankija konto puudub, kasutatakse esimese tasutava arve hankija kontot.
+- **Makse valuuta** – see väli määrab valuuta, milles kõik maksed luuakse. Kui valuuta pole määratletud, tasutakse iga arve selle valuutas.
+- **Makse nädalapäev** – saate sisestada makse tegemise nädalapäeva. Seda välja kasutatakse ainult siis, kui makseviisiks on seatud arvete kogusumma makse jaoks kindlal nädalapäeval.
+- **Vastaskonto tüüp** ja **Vastaskonto** – nende väljadega saate määratleda kindla kontotüübi (nt **Pearaamat** või **Pank**) ja vastaskonto (nt kindel pangakonto). See arve makseviis määratleb vastaskonto vaiketüübi ja vastaskonto, kuid saate nende väljade abil ka alistada vaikeväärtused.
+- **Maksekuupäeva kokkuvõte** – seda kasutatakse ainult siis, kui välja **Periood** väärtus makseviisis on **Kokku**. Kuupäev on määratletud, luuakse kõik maksed sellel kuupäeval. Välja **Varaseim maksekuupäev** ignoreeritakse.
+- **Lisafiltrid** – kiirkaardil **Kaasatavad kirjed** saate määratleda täiendavad kriteeriumivahemikud. Näiteks kui soovite maksta ainult teatud hankijatele, saate määratleda nende hankijate jaoks filtri. Seda funktsiooni kasutatakse sageli kindla maksemeetodi jaoks arvete valimiseks. Näiteks kui määratlete filtri, kus **Makseviis** = **Tšekk**, valitakse makseks ainult selle makseviisiga arved, eeldusel, et need vastavad ka teistele päringus määratud kriteeriumidele.
 
 ## <a name="scenarios"></a>Stsenaariumid
+
 | Hankija | Arve | Arve kuupäev | Arve summa | Tähtaeg | Skonto kuupäev | Skonto summa |
 |--------|---------|--------------|----------------|----------|--------------------|----------------------|
 | 3050   | 1001    | 15. juuni      | 500,00         | 15. juuli  | 29. juuni            | 10,00                |

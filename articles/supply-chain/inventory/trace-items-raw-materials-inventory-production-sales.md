@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama.
 
@@ -129,7 +128,7 @@ Kui olete jälgimise käivitanud, saate kasutada nupu **Jälgi sõlmest** valiku
 Kui soovite kasutada valikut **Uus tagasiulatuvalt** või **Uus edasiulatuvalt**, tuleb kasutada funktsiooni **Ava uues aknas**, et uus jälgimine kuvataks uues aknas.
 
 ## <a name="can-i-save-the-trace-details"></a>Kas saan jälgimise üksikasjad salvestada?
-Saate salvestada vahekaardil **Üksikasjad** oleva teabe XML-failina, klõpsates tegumiribal tegevuse ****Jälgimine**** all olevat käsku **Ekspordi**. Lisaks jälgimise üksikasjadele sisaldab XML-fail ka jälgimise kriteeriume, emasõlme ja laos olevat kogust. Jälgimise üksikasjade salvestamise võimalus on kasulik näiteks juhul, kui soovite manustada teavet kvaliteettellimusele või muule vastavusdokumentatsioonile. Saate määrata faili salvestamiskoha. Faili kohe vaatamiseks märkige ruut **Kuva dokument**. **Märkus:** fail salvestatakse alati, isegi siis, kui soovite seda ainult vaadata. Vaikimisi avaneb XML-fail brauseriaknas. Kuid võite faili paremklõpsata, valida **Ava programmiga** ja valida seejärel sisu kuvamiseks kasutatav programm.
+Saate salvestada vahekaardil <strong>Üksikasjad</strong> oleva teabe XML-failina, klõpsates käsku <strong>Ekspordi</strong>tegumiriba toimingu *<strong><em>Jälgimine</em></strong>* all. Lisaks jälgimise üksikasjadele sisaldab XML-fail ka jälgimise kriteeriume, emasõlme ja laos olevat kogust. Jälgimise üksikasjade salvestamise võimalus on kasulik näiteks juhul, kui soovite manustada teavet kvaliteettellimusele või muule vastavusdokumentatsioonile. Saate määrata faili salvestamiskoha. Faili kohe vaatamiseks märkige ruut <strong>Kuva dokument</strong>. <strong>Märkus:</strong> fail salvestatakse alati, isegi siis, kui soovite seda ainult vaadata. Vaikimisi avaneb XML-fail brauseriaknas. Kuid võite faili paremklõpsata, valida <strong>Ava programmiga</strong> ja valida seejärel sisu kuvamiseks kasutatav programm.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Kas saan arvutada konkreetse kauba või koostisosa saldo?
 Saate eksportida teabe kokkuvõttelehtedelt Microsoft Excelisse. Avage vastav leht, klõpsake ikooni **Ava Microsoft Office’is** ja valige siis **Ekspordi Microsoft Excelisse**. See funktsioon on eriti kasulik, kui soovite arvutada kauba või koostisosa hulgisaldo lehelt **Kannete kokkuvõte**. Lehel **Kannete kokkuvõte** saate soovi korral filtreerida kaupu või koostisosi ja partiid ning seejärel eksportida teabe Excelisse. Excelis saate näiteks laos oleva koguse müüdud kogusest ja tootmises kasutatud kogusest eraldada.
