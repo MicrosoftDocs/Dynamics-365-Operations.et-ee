@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Esialgse eelarve loomine avaliku sektori jaoks
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Saate luua esialgsed eelarve registreerimiskanded kindla eelarvemudeli jaoks ja dimensiooniväärtused. Pärast tegeliku eelarve kinnitamist saate luua eelarve algsed registrikirjed. See protseduur loodi PSUS-ettevõtte demoandmetega avaliku sektori sektsioonis.
 

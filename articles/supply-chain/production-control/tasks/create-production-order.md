@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="create-a-production-order"></a>Tootmistellimuse loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris näitlikustatakse, kuidas luua tootmistellimust. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on esimene protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.
 

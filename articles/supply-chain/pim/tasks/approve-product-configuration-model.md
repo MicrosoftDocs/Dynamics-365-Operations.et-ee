@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>Toote konfiguratsioonimudeli kinnitamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selle protseduuri käitamine nõuab vähemalt ühe toote konfiguratsioonimudeli kättesaadavust. See protseduur kasutab tipptasemel kõlari mudelit demoettevõttes USMF. Pange tähele, et see mudel on juba kinnitatud, kuid protseduur juhatab teid läbi kogu protsessi.
 

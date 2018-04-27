@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="acquire-assets-through-procurement"></a>Varade soetamine hankega
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab, kuidas seadistada integratsiooni põhivarade ja ostureskontro vahel, et luua ostutellimustest või hankija arvetest automaatselt põhivarad, või sisestada automaatselt põhivarade soetamise- ja soetamiskorrigeeringu kanded.
 

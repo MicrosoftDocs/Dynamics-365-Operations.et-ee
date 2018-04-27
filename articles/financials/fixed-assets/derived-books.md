@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="derived-books"></a>Tuletatud raamatud
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse ülevaade tuletatud raamatu funktsioonist.
 

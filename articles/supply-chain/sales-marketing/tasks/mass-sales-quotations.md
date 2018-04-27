@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="mass-create-sales-quotations"></a>Loo müügipakkumised hulgi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas tõhusalt pakkumisi koostada, pakkudes mitmele kliendile toodete või teenuste komplekte. Selle hulgipakkumise koostamine põhineb pakkumise mallidel. Saate seda protseduuri käitada oma andmete või demoettevõtte USMF andmetega.
 

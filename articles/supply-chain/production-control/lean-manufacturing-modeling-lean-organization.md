@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="modeling-a-lean-organization"></a>Efektiivse organisatsiooni modelleerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Artiklis antakse teavet efektiivse organisatsiooni mudeldamise põhimõistete kohta. 
 

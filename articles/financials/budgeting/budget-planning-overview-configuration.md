@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis tutvustatakse eelarve plaanimist ja see sisaldab teavet, mis aitab teil eelarve plaanimise konfigureerida ning selle protsesse seadistada.
 
@@ -116,18 +115,18 @@ Eelarve plaanimisel saate eraldada eelarveplaani ridade summad või kogused ühe
 
 Eraldamisgraafikud eraldavad automaatselt töövoo töötlemise ajal eelarveplaani read. Saate eraldada, kasutades loendi **Eraldamismeetod** mis tahes järgmist meetodit.
 
--   **Eralda perioodide lõikes** – saate kasutada perioodi eraldamisvõtit eelarveplaani ridade eraldamiseks algsest eelarveplaani stsenaariumist sihtstsenaariumi perioodide lõikes. **Märkus.** Enne perioodide lõikes eraldamist peate seadistama perioodi eraldusvõtmed lehel ****Perioodi eraldamise kategooriad****.
--   **Eralda dimensioonidele** – eelarveplaani read eraldatakse algsest eelarveplaani stsenaariumist sihtstsenaariumi finantsdimensioonide lõikes. **Märkus.** Enne dimensioonidele eraldamist peate seadistama eelarve eraldustingimused lehel ****Eelarve eraldustingimused****.
--   **Koonda** – eelarveplaani read koondatakse seostatud eelarveplaanide algsest eelarveplaani stsenaariumist eelarve emaplaani sihtstsenaariumisse.
--   **Jaota** – eelarveplaani read jaotatakse eelarve emaplaani algse eelarveplaani stsenaariumist seostatud eelarveplaanide sihtstsenaariumisse.
--   **Kasuta pearaamatu eraldamisreegleid** – eelarveplaani read jaotatakse algse eelarveplaani stsenaariumist sihtstsenaariumisse valitud pearaamatu eraldamisreegli põhjal.
--   **Kopeeri eelarveplaanist** – saate valida eraldamise allikana kasutamiseks teise eelarveplaani.
+- <strong>Eralda perioodide lõikes</strong> – saate kasutada perioodi eraldamisvõtit eelarveplaani ridade eraldamiseks algsest eelarveplaani stsenaariumist sihtstsenaariumi perioodide lõikes. <strong>Märkus.</strong> Enne perioodide lõikes eraldamist peate seadistama perioodi eraldusvõtmed lehel *<strong><em>Perioodi eraldamise kategooriad</em></strong>*.
+- <strong>Eralda dimensioonidele</strong> – eelarveplaani read eraldatakse algsest eelarveplaani stsenaariumist sihtstsenaariumi finantsdimensioonide lõikes. <strong>Märkus.</strong> Enne dimensioonidele eraldamist peate seadistama eelarve eraldustingimused lehel *<strong><em>Eelarve eraldustingimused</em></strong>*.
+- **Koonda** – eelarveplaani read koondatakse seostatud eelarveplaanide algsest eelarveplaani stsenaariumist eelarve emaplaani sihtstsenaariumisse.
+- **Jaota** – eelarveplaani read jaotatakse eelarve emaplaani algse eelarveplaani stsenaariumist seostatud eelarveplaanide sihtstsenaariumisse.
+- **Kasuta pearaamatu eraldamisreegleid** – eelarveplaani read jaotatakse algse eelarveplaani stsenaariumist sihtstsenaariumisse valitud pearaamatu eraldamisreegli põhjal.
+- **Kopeeri eelarveplaanist** – saate valida eraldamise allikana kasutamiseks teise eelarveplaani.
 
 ### <a name="stage-allocations"></a>Etapi eraldamised
 
 Etapi eraldamisi kasutatakse töövoo töötlemise ajal eelarveplaani ridade automaatseks eraldamiseks. Etapi eraldamiste kasutamisel saab sihtstsenaariumi eelarveplaani ridu luua ja muuta ilma eelarveplaani ettevalmistaja või ülevaataja sekkumiseta.
 
-Etapi eraldamise seadistamisel seostage eelarve planeerimise töövoog ja etapp eraldamisgraafikuga. Eelarve plaanimise töövoog tuleb seostada eelarvestuse töövooga, mis kasutab automatiseeritud töövoo ülesannet ****Eelarve plaanimise etapi eraldamine****. Kui töövoog jõuab määratud etappi, toimub eraldamine automaatselt. Seda automatiseeritud ülesannet saab kasutada uues stsenaariumis eelarveplaani ridade loomiseks. 
+Etapi eraldamise seadistamisel seostage eelarve planeerimise töövoog ja etapp eraldamisgraafikuga. Eelarve plaanimise töövoog tuleb seostada eelarvestuse töövooga, mis kasutab automatiseeritud töövoo ülesannet *<strong><em>Eelarve plaanimise etapi eraldamine</em></strong>*. Kui töövoog jõuab määratud etappi, toimub eraldamine automaatselt. Seda automatiseeritud ülesannet saab kasutada uues stsenaariumis eelarveplaani ridade loomiseks. 
 
 Selles artiklis varem kuvatud näidisskeemis tehakse eraldamine eelarveplaani summade ja peakorterite alusetapi stsenaariumide üleviimiseks teise eelarveplaani ja stsenaariumidesse müügiosakonna hinnangu etapis. Järgmisel joonisel kuvatakse näidisskeemi asjakohane jaotis.
 

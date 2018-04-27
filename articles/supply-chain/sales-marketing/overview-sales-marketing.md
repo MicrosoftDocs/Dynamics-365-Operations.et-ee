@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-and-marketing"></a>Müük ja turundus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Müügi ja turunduse abil saate müügivoos hankida, talletada ja kasutada mitmesuguseid andmeid. Andmed hõlmavad algset müügialgatust, tulevasi järeltegevusi ja lisamüüki.
 

@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Täpsem filtreerimis- ja päringusüntaks
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate dialoogiboksis Täpsem filter / sortimine tehtemärki „vastab”.
 
@@ -68,7 +67,7 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td><em>algväärtus</em>..<em>lõppväärtus</em> (topeltpunkt)</td>
 <td>Kahe teineteisest topeltpunktiga eraldatud sisestatud väärtuse vahel</td>
 <td>Tippige algväärtus, seejärel kaks punkti ja siis lõppväärtus.</td>
-<td><strong>1..10</strong> leiab kõik väärtused vahemikus 1 kuni 10. Kuid näiteks stringiväljal leiab <strong>A..C</strong> kõik tähtedega &quot;A&quot; ja &quot;B&quot; algavad väärtused ning väärtused, mis võrduvad täpselt tähega &quot;C&quot;. Näiteks ei leia see päring stringi &quot;Ca&quot;. Selleks et leida kõiki väärtusi vahemikus &quot;A*&quot; kuni &quot;C*&quot;, tippige <strong>A..D</strong>.</td>
+<td><strong>1..10</strong> leiab kõik väärtused vahemikus 1 kuni 10. Kuid näiteks stringiväljal leiab <strong>A..C</strong> kõik tähtedega &quot;A&quot; ja &quot;B&quot; algavad väärtused ning väärtused, mis võrduvad täpselt tähega &quot;C&quot;. Näiteks ei leia see päring stringi &quot;Ca&quot;. Selleks et leida kõiki väärtusi vahemikus &quot;A<em>&quot; kuni &quot;C</em>&quot;, tippige <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>väärtus</em> (topeltpunkt)</td>
@@ -97,20 +96,20 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <tr class="even">
 <td><em>väärtus</em>* (tärn)</td>
 <td>Sisestatud väärtusega algav</td>
-<td>Tippige lähteväärtus ja selle järele tärn (<strong>*</strong>).</td>
-<td><strong>S*</strong> leiab iga S-tähega algava stringi, näiteks &quot;S&quot;, nagu &quot;Stockholm&quot;, &quot;Sindi&quot; ja &quot;San Francisco&quot;.</td>
+<td>Tippige lähteväärtus ja selle järele tärn (<strong><em></strong>).</td>
+<td><strong>S</em></strong> leiab iga &quot;S&quot;-tähega algava stringi, näiteks &quot;Stockholm&quot;, &quot;Sydney&quot; ja &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>väärtus</em> (tärn)</td>
+<td><em><em>väärtus</em> (tärn)</td>
 <td>Sisestatud väärtusega lõppev</td>
 <td>Tippige tärn ja selle järele lõppväärtus.</td>
-<td><strong>*vere</strong> leiab iga &quot;vere&quot;-lõpulise stringi, näiteks &quot;Adavere&quot; ja &quot;Pandivere&quot;.</td>
+<td><strong></em>east</strong> leiab iga &quot;east&quot;-lõpulise stringi, näiteks &quot;Northeast&quot; ja &quot;Southeast&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>väärtus</em>* (tärn)</td>
+<td><em><em>väärtus</em></em> (tärn)</td>
 <td>Sisaldab sisestatud väärtust</td>
 <td>Tippige tärn, otsitav väärtus ja selle järele veel üks tärn.</td>
-<td><strong>*rn*</strong> leiab iga stringi, milles sisaldub täheühend &quot;rn&quot;, näiteks &quot;Pärnu&quot; ja &quot;Kernu&quot;.</td>
+<td><strong><em>rn</em></strong> leiab iga stringi, milles sisaldub täheühend &quot;rn&quot;, näiteks &quot;Pärnu&quot; ja &quot;Kernu&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (küsimärk)</td>
@@ -131,7 +130,7 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>N</td>
+<td>T</td>
 <td>Tänane kuupäev</td>
 <td>Tippige <strong>T</strong>.</td>
 <td><strong>T</strong> vastab tänasele kuupäevale.</td>

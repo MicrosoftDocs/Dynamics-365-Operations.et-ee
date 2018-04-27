@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Tasu registreerimiste põhjal
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse üksikasjalikult, kuidas arvutatakse tasu töötaja registreerimiste põhjal. See sisaldab näiteid, mis näitavad, kuidas mõjutavad tulemust arvutamiseks saadaolevad seadistussuvandite eri kombinatsioonid. Allpool on teemad, millest selles jaotises räägitakse.
 
@@ -446,7 +446,7 @@ Saate töötajate luua plaanitud puudumisi lehel **Plaanitud puudumise loomine**
 Töö põhineb päringul. Seega saate luua plaanitud puudumise mitmele töötajale, näiteks töötajatele, kes kuuluvad samasse kalkulatsioonigruppi. Kui plaanitud puudumine kehtib ühele töötajale, saab registreerimise sisestada lehel **Kohalolek** või **Kellaaja registreerimisega töötajad**.
 
 - Puudumise registreerimise sisestamiseks lehel **Kohalolek** valige **Tööajaarvestus** &gt; **Päringud ja aruanded** &gt; **Kohalolek** &gt; **Kohalolek** ja seejärel valige **Puudumise registreerimine**.
-- Puudumise registreerimise sisestamiseks lehelt ****Ajalise registreerimise töötajad**** valige **Tööajaarvestus** &gt; **Seadistus** &gt; **Kellaaja registreerimisega töötajad** ja seejärel valige vahekaardil **Kellaaeg** jaotises **Kellaaja määramine** suvand **Puudumise registreerimised**.
+- Puudumise registreerimise sisestamiseks lehelt *<strong><em>Ajalise registreerimise töötajad</em></strong>* valige <strong>Tööajaarvestus</strong> &gt; <strong>Seadistus</strong> &gt; <strong>Kellaaja registreerimisega töötajad</strong> ja seejärel valige vahekaardil <strong>Kellaaeg</strong> jaotises <strong>Kellaaja määramine</strong> suvand <strong>Puudumise registreerimised</strong>.
 
 Aruannet **Plaanitud puudumised** saate kasutada töötajate plaanitud puudumiste ülevaate nägemiseks. Aruande avamiseks valige **Tööajaarvestus** &gt; **Päringud ja aruanded** &gt; **Puudumise aruanded** &gt; **Plaanitud puudumised**.
 

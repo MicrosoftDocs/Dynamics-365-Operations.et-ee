@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Hankijate vastuvõtmine
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 Uusi hankijaid saate rakenduses Microsoft Dynamics 365 for Finance and Operations vastu võtta ja neid hankijateks registreerida hankija esindajalt saadud teabe põhjal.
@@ -164,13 +165,15 @@ Potentsiaalse hankija registreerimistaotluse eri olekud annavad ülevaate taotlu
 
 Loodud kirjete ahela saate korrastada ja eemaldada ning kasutajakonto inaktiveerida, kasutades potentsiaalse hankija registreerimistaotluse juures tegevust **Kustuta**. Tegevuse **Kustuta** tulemus oleneb potentsiaalse hankija registreerimistaotluse olekust, nagu on näidatud alljärgnevas tabelis.
 
-| Olek                   | Oleku kirjeldus | Kustutamistegevuse tulemus |
-|--------------------------|--------------------|-----------------------------------|
-| Uus                      | Taotlusega pole tehtud ühtki tegevust. | Potentsiaalse hankija registreerimistaotlus kustutatakse. |
-| Nõutud kasutaja           | Kui valite **Kutsu kasutajat**, saab selle olekuks **Nõutud kasutaja** ja luuakse potentsiaalse kasutaja taotlus, mis saadetakse töövoogu. | Selle olekuga potentsiaalse hankija registreerimistaotlust ei saa kustutada, sest kasutajataotluse töövoog pole veel lõppenud. |
-| Kutsutud kasutaja             | Kasutajataotluse töövoog kinnitatakse ja luuakse kasutaja. | Luuakse kasutaja inaktiveerimistaotlus ja potentsiaalse hankija registreerimistaotlus kustutakse. |
-| Registreerimine on pooleli | Uus kasutaja on sisse loginud ja käivitanud hankija registreerimisviisardi. | Luuakse kasutaja inaktiveerimistaotlus ning kustutatakse potentsiaalse hankija registreerimistaotlus ja hankija registreerimisviisardis sisestatud andmed. |
-| Hankija nõue on loodud   | Hankija registreerimisviisard on läbitud. | Luuakse kasutaja inaktiveerimistaotlus ning kustutatakse potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus.<blockquote>[!NOTE]<br>Tegevust **Kustuta** ei saa kasutada, kui hankija taotlus on töövoos ülevaatamisel.</blockquote> |
-| Kinnitatud                 | Hankija taotlus on kinnitatud. | Potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus kustutatakse. |
-| Tagasi lükatud                 | Hankija taotlus on tagasi lükatud. | Potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus kustutatakse. |
+
+|          Olek          |                                                                                     Oleku kirjeldus                                                                                      |                                                                                                                                                            Kustutamistegevuse tulemus                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Uus            |                                                                         Taotlusega pole tehtud ühtki tegevust.                                                                          |                                                                                                                                              Potentsiaalse hankija registreerimistaotlus kustutatakse.                                                                                                                                               |
+|      Nõutud kasutaja      | Kui valite <strong>Kutsu kasutajat</strong>, saab selle olekuks <strong>Nõutud kasutaja</strong> ja luuakse potentsiaalse kasutaja taotlus, mis saadetakse töövoogu. |                                                                                                          Selle olekuga potentsiaalse hankija registreerimistaotlust ei saa kustutada, sest kasutajataotluse töövoog pole veel lõppenud.                                                                                                          |
+|       Kutsutud kasutaja       |                                                               Kasutajataotluse töövoog kinnitatakse ja luuakse kasutaja.                                                               |                                                                                                                      Luuakse kasutaja inaktiveerimistaotlus ja potentsiaalse hankija registreerimistaotlus kustutakse.                                                                                                                      |
+| Registreerimine on pooleli |                                                         Uus kasutaja on sisse loginud ja käivitanud hankija registreerimisviisardi.                                                          |                                                                                     Luuakse kasutaja inaktiveerimistaotlus ning kustutatakse potentsiaalse hankija registreerimistaotlus ja hankija registreerimisviisardis sisestatud andmed.                                                                                      |
+|  Hankija nõue on loodud  |                                                                     Hankija registreerimisviisard on läbitud.                                                                      | Luuakse kasutaja inaktiveerimistaotlus ning kustutatakse potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus.<blockquote>[!NOTE]<br>Tegevust <strong>Kustuta</strong> ei saa kasutada, kui hankija taotlus on töövoos ülevaatamisel.</blockquote> |
+|         Kinnitatud         |                                                                               Hankija taotlus on kinnitatud.                                                                               |                                                                                                   Potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus kustutatakse.                                                                                                    |
+|         Tagasi lükatud         |                                                                               Hankija taotlus on tagasi lükatud.                                                                               |                                                                                                   Potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus kustutatakse.                                                                                                    |
+
 

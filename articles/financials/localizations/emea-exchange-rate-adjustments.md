@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="exchange-rate-adjustments"></a>Vahetuskursi korrigeerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.
 
@@ -53,18 +52,21 @@ Selle näite puhul on Kanada dollari (CAD) ja USA dollari (USD) vahetuskursid j�
 -   3. jaanuar 2013: 420,0000
 
 ### <a name="invoice"></a>Arve
+
 | Kuupäev                             | Deebet/kreedit | Summad               | Pearaamatukonto    | Kande tüüp             | Sisestamistüüp       | Krediit | Parandus |
 |----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
 | 1-dets-12                         | Debiteeri        | 10 000 CAD / 40 000 USD | MR                             | Arve                      | Kliendi saldo   |        |            |
 | 1-dets-12                         | Krediit       | 10 000 CAD / 40 000 USD | Vastas                         | Arve                      | Pearaamatu tööleht     | X      |
 
 ### <a name="payment"></a>Makse
+
 | Kuupäev                             | Deebet/kreedit | Summad               | Pearaamatukonto    | Kande tüüp             | Sisestamistüüp       | Krediit | Parandus |
 |----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
 | 3-jaan-13                         | Debiteeri        | 10 000 CAD / 42 000 USD | Vastas                         | Makse                      | Pearaamatu tööleht     |        |            |
 | 3-jaan-13                         | Krediit       | 10 000 CAD / 42 000 USD | MR                             | Makse                      | Kliendi saldo   | X      |            |
 
 ### <a name="settlement"></a>Tasakaalustus
+
 | Kuupäev                             | Deebet/kreedit | Summad               | Pearaamatukonto    | Kande tüüp             | Sisestamistüüp       | Krediit | Parandus |
 |----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
 |3. jaanuar 2013 (= maksekuupäev) | Debiteeri        | 0 CAD / 2000 USD       | MR                             | Klient                     | Vahetuskursi tulu |        |            |
@@ -80,7 +82,7 @@ Selle ümberarvutamisnäite puhul pange tähele, et kirje 3. jaanuarist 2013 on 
 | 31-dets-12           | Krediit       | 0 CAD / 5000 USD       | Valuuta realiseerimata korrigeeritud kasum | Välisvaluuta ümberarvutamine | Vahetuskursi tulu | X      |            |
 | 3-jaan-13            | Debiteeri        | 0 CAD / 5000 USD       | MR                             | Välisvaluuta ümberarvutamine | Vahetuskursi tulu |        | X          |
  3-jaan-13            | Krediit       | 0 CAD / 5000 USD       | Valuuta realiseerimata korrigeeritud kasum | Välisvaluuta ümberarvutamine | Vahetuskursi tulu | X      | X          |
- 
+
 
 ### <a name="revaluation-invoice-date-method-date--january-1-2013"></a>Ümberarvutamine (arve kuupäeva meetod; kuupäev = 1. jaanuar 2013)
 Selle ümberarvutamisnäite puhul pange tähele, et kirje 1. jaanuarist 2013 on 3. jaanuarist 2013 pärineva kirje otsene tühistamine. Isegi pearaamatukontod ja sisestustüübid on samad. Samuti pange tähele, et seatud on lipp **Parandus**.

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Asutusesisese juurutuse avaleht
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Teil on võimalik juurutada Microsoft Dynamics 365 for Finance and Operations (kohapealne). Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest. See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.
 

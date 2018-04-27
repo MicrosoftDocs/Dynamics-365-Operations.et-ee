@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Kandidaadi palkamine värbamise kaudu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur võimaldab värbajal palgata kandidaadi, kes esitas avalduse konkreetse värbamisprojekti kaudu. Kui palkate kandidaadi värbamisprojekti kaudu, luuakse uus töötaja kirje ja kandidaadi kirje olekuks on Tööle võetud. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Selle protseduuri lõpetamiseks navigeerige jaotisse Personaliarvestus > Värbamine > Avaldused > Avaldused 
 

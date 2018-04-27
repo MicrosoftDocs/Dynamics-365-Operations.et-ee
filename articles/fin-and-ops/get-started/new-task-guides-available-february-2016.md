@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Uued tegevusjuhised (veebruar 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.  Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics AX-i APQC ühendatud teek ja (2016. a. veebruari) Alustamine.
 
@@ -50,8 +49,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Ostureskontro arve vastenduse kinnitamise seadistamine       | Globaalne             |
 | Saate häälestada hankija arve poliitikaid.                            | Globaalne             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Müügireskontro
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Sissenõuete teabe ülevaatamine                              | Globaalne             |
 | Müügireskontro ajalise jaotuse teabe seadistamine ja loomine   | Globaalne             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Sularaha- ja pangahaldus
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Tasakaalusta kliendi hilisema kuupäevaga tšekk                             | Globaalne             |
 | Hankija maksete ülevaade                                              | Globaalne             |
 
- 
 
+ 
 ### <a name="compliance"></a>Ühilduvus
 
 |                                            |                    |
@@ -108,8 +107,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | **BPM-rida**                               | **Riik/regioon** |
 | Lähtedokumentide jaoks auditipoliitikate määratlemine | Globaalne             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Kuluhaldus
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Tootmistellimuse WIP praeguse oleku kuvamine                       | Globaalne             |
 | Varude aruande ja KPI kuvamine kuluobjekti järgi                     | Globaalne             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Riigi/regiooni funktsioon
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | GB-00009 Kreeditarve loomine tasakaalustuse allahindlusele                                               | Ühendkuningriik                  |
 | GB‑00009 kreeditarve parameetrite seadistamine kiirmakse allahindlusele                                   | Ühendkuningriik                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Visiooni ja strateegia arendamine
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Küsimuse muutmine eelmise küsimuse vastusest sõltuvaks (tinglikud küsimused) | Globaalne             |
 | Küsimustiku tulemuse määramine protsendi alusel                                                   | Globaalne             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Elektrooniline aruandlus
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatele      | Globaalne             |
 | Elektroonilise aruandluse teenusepakkuja valimine                      | Globaalne             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Kulude haldus
 
 |                              |                    |
@@ -298,8 +297,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | **BPM-rida**                 | **Riik/regioon** |
 | Kuluhalduse konfigureerimine | Globaalne             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Põhivarad
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Põhivara tükeldamine                                       | Globaalne             |
 | Põhivara ülekandmine                                    | Globaalne             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Pearaamat
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Töölehe kirjete või kannete kuvamine                              | Globaalne             |
 | Seotud kontsernisisese kande kuvamine töölehelt                    | Globaalne             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Inimkapitali juhtimine
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Soodustuseks sobilikkuse poliitikate häälestamine                             | Globaalne             |
 | Dokumenditüüpide i9 seadistamine                                     | Globaalne             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Varude haldus
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Kauba või toormaterjali jälgimine                                                     | Globaalne             |
 | Lao füüsiliste varude ülekandmine                                  | Globaalne             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Tootmine
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Kanban-töödega materjali ülekandmine                            | Globaalne             |
 | Tootmisvoo ja versiooni kinnitamine                          | Globaalne             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Koondplaneerimine
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Ülioluliste materjalide ja tarnija võimaluste tuvastamine | Globaalne             |
 | Nõudluse prognoosi käsitsi muutmine                 | Globaalne             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Organisatsiooni administreerimine
 
 |                                           |                    |
@@ -501,8 +500,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Digitaalallkirjade seadistamine              | Globaalne             |
 | Numbriseeriate seadistamine viisardit kasutades | Globaalne             |
 
- 
 
+ 
 ### <a name="planning"></a>Planeerimine
 
 |                        |                    |
@@ -510,8 +509,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | **BPM-rida**           | **Riik/regioon** |
 | Kättesaadavuse kindlaksmääramine | Globaalne             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Hanked
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Hankijate otsimine                                               | Globaalne             |
 | Hankekategooria hierarhia seadistamine                          | Globaalne             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Tooteteave ja konfigureerimine
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Tooteetaloni ..\financial-dimensions\dimension-based väljastamine              | Üldine             |
 | Tootemudelite andmete ülekandmine                      | Globaalne             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Avalik sektor
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Fondi seadistamine avaliku sektori puhul                                                         | Globaalne             |
 | Ostulepingu klassifikatsioonide seadistamine avaliku sektori puhul                             | Globaalne             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Jaemüük ja kaubandus
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Jaemüügitoodete hinna korrigeerimised                                                                  | Globaalne             |
 | Jaemüügi väljavõtete konfiguratsioonide salvestamine                                                | Globaalne             |
 
- 
 
+ 
 ### <a name="sales"></a>Müük
 
 |                                            |                    |
@@ -642,8 +641,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Tellimuste lähetamine otsetarnetena           | Globaalne             |
 | Müügitellimuste lähetamine ladustamata      | Globaalne             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>Käibemaks
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Kinnipeetava maksu häälestamine                             | Globaalne             |
 | Sisestatud käibemaksukannete kuvamine                 | Globaalne             |
 
- 
 
+ 
 ### <a name="security"></a>Turvalisus
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Konfliktide tuvastamine ja lahendamine kohustuste jagamisel | Globaalne             |
 | Kohustuste jagamise seadistamine                            | Globaalne             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Ladu ja transport
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Kättetoimetamisettevõtte seadistus                                                          | Globaalne             |
 | Koorma planeerimise töölaua kasutamine koormate ja saadetiste plaanimiseks                       | Globaalne             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Tegevusjuhised (2016. a. veebruari) teegis Alustamine
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **BPM-rida**                                       | **Riik/regioon** |

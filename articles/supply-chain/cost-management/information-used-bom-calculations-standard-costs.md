@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Standardkuludega koosluse kalkulatsioonides kasutatud teave
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Koosluse kalkulatsioonid kasutavad toodetud kauba standardkulu kalkuleerimiseks erinevate allikate andmeid. Allikad hõlmavad teavet kaupade, protsesside, kaudsete kulukalkulatsioonide valemite ja kuluversiooni kohta.
 

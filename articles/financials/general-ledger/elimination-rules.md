@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="elimination-rules"></a>Eemaldamisreeglid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema annab teavet eemaldamisreeglite ja eemaldamistest teatamise erinevate võimaluste kohta.
 

@@ -3,7 +3,7 @@ title: "Teenuse Microsoft Dynamics 365 for Talent võimaluste laiendamine"
 description: "Kui olete loonud Microsoft PowerAppse, saate need rakendused käivitada teenuses Microsoft Dynamics 365 for Talent olevate linkide kaudu."
 author: rschloma
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Teenuse Microsoft Dynamics 365 for Talent võimaluste laiendamine
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Kui olete loonud Microsoft PowerAppse, saate need rakendused käivitada teenuses Microsoft Dynamics 365 for Talent olevate linkide kaudu. Rakendustele juurdepääsu seadistamiseks peate teenuses Talent konfiguratsiooni lehel seadistama teavet, konfiguratsiooni lehe saate avada tööruumis **Süsteemihaldus**.
 
@@ -35,15 +35,16 @@ Kasutage lehte **Manustatud Microsoft PowerAppsi seadistamine**, et konfigureeri
 
 Sellel lehel saab sisestada või seadistada järgmist teavet. 
 
-> - Iga PowerAppsi rakenduse kirjeldav nimi või identifikaator.
-> - Kordumatu ID (GUID) iga rakenduse jaoks, mille lisate teenuse Talent lehel. Rakenduse ID on saadaval PowerAppsi saidil [powerapps.com](http://powerapps.com/). 
-> - Leht, millelt kasutajad saavad avada rakendust või aruannet. Mõned teenuse Talent lehed ei toeta manustatud PowerAppsi ja Power BI aruandeid. 
+ -  Iga PowerAppsi rakenduse kirjeldav nimi või identifikaator.
+ -  Kordumatu ID (GUID) iga rakenduse jaoks, mille lisate teenuse Talent lehel. Rakenduse ID on saadaval PowerAppsi saidil [powerapps.com](http://powerapps.com/). 
+ -  Leht, millelt kasutajad saavad avada rakendust või aruannet. Mõned teenuse Talent lehed ei toeta manustatud PowerAppsi ja Power BI aruandeid. 
 
  > [!NOTE]
  >  Sisestage lehe sisemine nimi, mitte lehe ülaosas olev kuvatav nimi. Sisemise nime leidmiseks avage leht, mille sisemist nime te vajate ja paremklõpsake lehel mis tahes kohas. Menüü avanemisel liikuge üksuse **Vormi teave** kohale. Sisemise vormi nimi kuvatakse menüüs üksuse **Vormi teave** kõrval.
  
-> - Määrake vormi juhtelement, millelt rakendus saab hankida konteksti andmeid. Näiteks võib rakendus kasutada andmeid töötaja kohta. Kui sisestate väljal **Kontekst** lehe **Töötaja**, avaneb leht **Töötaja** rakenduse käivitamisel. Kirje valikus **Kontekstiväli** on valikuline. 
-> - Määrake dialoogiboksi suurus, milles PowerAppsi rakendus edaspidi töötab. Dialoogiboksid on määratud kui „väikesed” või „suured”, et optimeerida kasutajaliidest, kui teie rakendus töötab vastavalt telefonis või suuremas seadmes. 
+-   Määrake vormi juhtelement, millelt rakendus saab hankida konteksti andmeid. Näiteks võib rakendus kasutada andmeid töötaja kohta. Kui sisestate väljal **Kontekst** lehe **Töötaja**, avaneb leht **Töötaja** rakenduse käivitamisel. Kirje valikus **Kontekstiväli** on valikuline. 
+-   Määrake dialoogiboksi suurus, milles PowerAppsi rakendus edaspidi töötab. Dialoogiboksid on määratud kui „väikesed” või „suured”, et optimeerida kasutajaliidest, kui teie rakendus töötab vastavalt telefonis või suuremas seadmes. 
+
 
 Samuti saate määrata, milliste juriidiliste isikute jaoks on rakendus saadaval, või saate selle kõigile oma juriidilistele isikutele kättesaadavaks teha. Vaikimisi on teie PowerAppsi rakendused saadaval kõigile juriidilistele isikutele.
 

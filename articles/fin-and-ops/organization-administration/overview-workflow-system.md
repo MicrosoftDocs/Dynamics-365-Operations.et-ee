@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-overview"></a>Töövoo ülevaade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Teema kirjeldab Microsoft Dynamics 365 for Finance and Operationsi töövoosüsteemi.
 

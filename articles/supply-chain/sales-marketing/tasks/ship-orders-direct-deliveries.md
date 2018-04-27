@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Tellimuste lähetamine otsetarnetena
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris näitlikustatakse, kuidas müügitellimuse jaoks otsetarnet luua. Otsetarnet kasutatakse siis, kui soovite saata kaubad kliendile otse oma hankijalt, ilma et tarniksite need esmalt oma lattu. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. Teise alamülesande „Loo töölaualt otsetarneid” edukaks lõpuleviimiseks veenduge, et kaubal, mille müügitellimuselt valite, on väljastatud tooteetaloni kiirkaardil Ost määratud vaikehankija.
 

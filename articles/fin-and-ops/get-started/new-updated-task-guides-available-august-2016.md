@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Uued või värskendatud tegevusjuhised (august 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (august 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
 

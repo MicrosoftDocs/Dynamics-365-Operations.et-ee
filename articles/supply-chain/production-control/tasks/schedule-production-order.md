@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="schedule-a-production-order"></a>Tootmistellimuse plaanimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas tootmistellimust plaanida. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on kolmas protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.
 

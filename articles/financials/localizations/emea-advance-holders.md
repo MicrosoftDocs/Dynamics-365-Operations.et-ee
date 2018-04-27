@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advance-holders"></a>Avansisaajad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lugege avansisaaja funktsiooni kohta Microsoft Dynamics 365 for Finance and Operationsis.
 
@@ -48,11 +47,13 @@ Avansisaajate grupi saate luua lehel **Avansisaajate grupid**. Saate määrata a
 ### <a name="employee-posting-profile"></a>Töötaja sisestusreeglid
 
 Avansisaaja kannete jaoks saate reeglid luua lehel **Töövõtja sisestusreeglid**. Saate töövõtja sisestusreeglite puhul määrata järgmise teabe.
-|Väli |Kirjeldus|
-|------|-----------|
-|Sisestusreeglid|Sisestage avansisaaja sisestusreeglite ID-kood.|
-|Kirjeldus|Sisestage sisestusreeglite lühikirjeldus.|
-|Kehtib|Valige sisestusreeglite seadistamiseks grupeerimistaseme jaoks järgmised suvandid. 
+
+|      Väli      |                                            Kirjeldus                                            |
+|-----------------|---------------------------------------------------------------------------------------------------|
+| Sisestusreeglid |               Sisestage avansisaaja sisestusreeglite ID-kood.               |
+|   Kirjeldus   |                         Sisestage sisestusreeglite lühikirjeldus.                         |
+|    Kehtib    | Valige sisestusreeglite seadistamiseks grupeerimistaseme jaoks järgmised suvandid. |
+
 **Tabel** – seda valikut kasutatakse sisestusreeglite loomiseks ühele avansisaajale. Väljale Viide peate sisestama avansisaaja koodi.
 **Grupp** – seda valikut kasutatakse sisestusreeglite loomiseks avansisaajate grupile. Väljale Viide peate sisestama grupi koodi.
 **Kõik** – seda valikut kasutatakse sisestusreeglite seadistamiseks kõigile avansisaajatele.| |Viide|Valige avansisaaja kood, kui väljal Kehtib on tehtud valik Tabel, või valige avansisaajate grupp, kui väljal Kehtib on tehtud valik Grupp.| |Koondkonto|Saate valida kannete sisestamiseks koondkonto.|
@@ -62,6 +63,7 @@ Avansisaaja kannete jaoks saate reeglid luua lehel **Töövõtja sisestusreeglid
 ### <a name="account-payable-parameters"></a>Ostureskontro parameetrid
 
 Avansisaaja kannete kajastamiseks peate lehel **Ostureskontro parameetrid** jaotises **Avansisaajad** seadistama järgmised parameetrid.
+
 |                                                |                   |
 |------------------------------------------------|-------------------|
 |  **Väli**                                     | **Kirjeldus**                                                                                                                                                                  |
@@ -80,6 +82,7 @@ Ostutellimuse õigesti registreerimiseks ja sisestamiseks avansisaaja kaudu peat
 ### <a name="create-an-advance-holder-creation"></a>Avansisaaja loomine
 
 Enne avansisaaja loomist peavad töötajad olema juba seadistatud. Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis).](../../fin-and-ops/hr/tasks/enter-worker-information.md) Töötaja saate avansisaajana seadistada lehel **Avansisaajad**. Valige töötaja, keda kasutada avansisaajana, klõpsake valikut **Redigeeri** ja seejärel määrake valiku **Avansisaaja** sätteks **Tõene**. Samuti peate täitma järgmised väljad.
+
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | **Väli**      | **Kirjeldus**                                                                             |

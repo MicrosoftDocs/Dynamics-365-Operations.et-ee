@@ -26,14 +26,14 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Teenusega Microsoft Dynamics 365 for Talent alustamine
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Rakenduses Microsoft Dynamics 365 for Talent saab kasutajaliidest hõlpsasti kohandada ja määrata suvandeid, mis muudavad tarkvara teie vajaduste jaoks intuitiivsemaks. Teema hõlmab muude teemade linke, kust saate teavet selle kohta, kuidas kohandada kasutajaliidest oma eelistuste kohaselt. Teema sisaldab ka linke teabe juurde, mis aitab teil süsteemis tõhusalt ja täpselt teavet leida. 
 
 > [!NOTE] 
 > Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
 
-### <a name="personalizing-talent"></a>Talenti isikupärastamine 
+## <a name="personalizing-talent"></a>Talenti isikupärastamine 
 Järgmistes teemades selgitatakse, kuidas häälestada Dynamics 365 for Talenti mitmesuguseid funktsioone, mis aitavad teil töö õigeks ajaks tehtud saada. 
 
 -   [Kasutuskogemuse isikupärastamine](../fin-and-ops/get-started/personalize-user-experience.md): selles teemas selgitatakse eri mooduseid Talenti isikupärastamiseks ja toote osade kohandamiseks, et see sobiks paremini teie eelistustega.
@@ -44,7 +44,7 @@ Järgmistes teemades selgitatakse, kuidas häälestada Dynamics 365 for Talenti 
 
 -   [Klaviatuuri otseteed](../fin-and-ops/get-started/shortcut-keys.md): selles teemas on loetletud otseteed USA klahvipaigutusega klaviatuuride jaoks. 
 
-### <a name="accessing-information"></a>Juurdepääs teabele
+## <a name="accessing-information"></a>Juurdepääs teabele
 Järgmistes teemades selgitatakse, kuidas otsingute ja filtreerimisfunktsioonidega kiiresti teavet leida. 
 
 -   [Teabe leidmiseks otsingute kasutamine](../fin-and-ops/get-started/use-lookups-to-find-information.md): teemas selgitatakse, kuidas otsingud aitavad kiiresti õiget või soovitud väärtust leida. Teemas kirjeldatakse otsingute tööpõhimõtet ja nõuandeid nende kasutamise optimeerimiseks.

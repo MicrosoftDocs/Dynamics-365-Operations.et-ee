@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>Täpsemate reeglite loomine töölehtede jaoks
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur hõlmab töölehtedele täpsemate reeglite loomise etappe. Muu hulgas hõlmab see töölehe juhtimise ja kasutaja sisestamispiirangute seadistamist. Protseduur kasutab demoettevõtte USMF andmeid.
 

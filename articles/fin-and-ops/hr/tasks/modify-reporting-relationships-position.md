@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 002fffc7e8c3186eedf9060d36d2b4a77749da98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4d8c82998e6b19adbd67b6b5ea3d68d2fbd08d8b
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Ametikoha aruandlusseoste muutmine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Protseduur näitab, kuidas muuta töötaja aruandluse seost. Aruandluse seost saab kasutada töövoos dokumentide marsruudi valikul. Protseduur näitab ka seda, kuidas määrata töötaja täiendavatesse hierarhiatesse. Näiteks võib töötaja kuuluda projekti töörühma, mis hõlmab mitteametlikku aruandluse seost projektijuhiga. Ametikoha jaoks saab määratleda täiendavad aruandluse seosed, et võimaldada mitmesuguseid projekti- või maatriksistsenaariume. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

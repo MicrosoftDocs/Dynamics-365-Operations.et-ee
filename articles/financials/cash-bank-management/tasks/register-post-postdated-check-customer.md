@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Kliendi hilisema kuupäevaga tšeki registreerimine ja sisestamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Saate registreerida kliendilt saadud hilisema kuupäevaga tšeki üksikasjad. Saate ka sisestada hilisema kuupäevaga dateeritud tšeki ja luua finantskanded.   Lõpetage enne kliendilt saadud hilisema kuupäevaga tšeki registreerimist ja sisestamist järgmised ülesanded.   • Seadistage lehel Sularaha ja panga haldus hilisema kuupäevaga tšekid • Määrake hilisema kuupäevaga tšekkide jaoks maksemeetod   Seda toimingut tehakse rollis Laekur. See protsess kasutab demoettevõtte USMF-i andmeid.
 

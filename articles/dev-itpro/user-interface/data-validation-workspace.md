@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Andmete valideerimise tööruum
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas antakse ülevaade **andmete valideerimise kontroll-loendi tööruumist** ja seotud konfiguratsioonist.
 

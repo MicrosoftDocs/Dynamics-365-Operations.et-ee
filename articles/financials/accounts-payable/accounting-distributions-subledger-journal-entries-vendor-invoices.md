@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Arvestuse jaotused ja alammooduli töölehe kirjed hankijaarvete puhul
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Arvestuse jaotuste abil saate määratleda, kuidas summat arvestatakse, näiteks kulude, maksude või tasude arvestamisel hankija arvel. Igal summal, mida tuleb hankija arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust. 
 
@@ -231,7 +230,7 @@ Hankija arve sisestamisel jaotatakse iga summa järgmiselt.
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>Maksude jaotamine
 ------------------
 

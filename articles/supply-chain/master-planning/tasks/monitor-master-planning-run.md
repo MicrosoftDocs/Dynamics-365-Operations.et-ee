@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Koondplaneerimise käitamise jälgimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Tootmise plaanija soovib näha, kui koondplaneerimise käitamine on pooleli. Kasutage protseduuri lõpuleviimiseks demoandmete ettevõtet USMF.
 

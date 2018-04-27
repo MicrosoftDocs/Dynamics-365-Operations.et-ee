@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-the-global-address-book"></a>Globaalse aadressiraamatu konfigureerimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutage seda protseduuri globaalse aadressiraamatu vaikeväärtuste ja turbepoliitikate määramiseks. 
 

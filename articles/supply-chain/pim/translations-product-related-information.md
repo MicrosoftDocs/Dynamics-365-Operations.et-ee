@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Tootega seotud tõlgete KKK
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse tõlkeid toote atribuutide tooted ja dimensiooniväärtuste haldamiseks. 
 
@@ -95,8 +94,7 @@ Klient soovib osta mõned väikesed, punane t-särgid ja t-särgi nimi peab arve
 <tbody>
 <tr class="odd">
 <td>Kliendi eelistatud keel toimige järgmiselt.
-<ol>  
-<li>Klõpsake valikuid <strong>Müük ja turundus</strong> &gt; <strong>Üldine</strong> &gt; <strong>Kliendid</strong> &gt; <strong>Kõik</strong> <strong>kliendid</strong>.</li>
+<ol><br/><li>Klõpsake valikuid <strong>Müük ja turundus</strong> &gt; <strong>Üldine</strong> &gt; <strong>Kliendid</strong> &gt; <strong>Kõik</strong> <strong>kliendid</strong>.</li>
 <li>Topeltklõpsake klienti, et avada leht <strong>Kliendid</strong> . Vahekaardil <strong>Üldine</strong> väljal <strong>Keel</strong> valige soovitud <strong>keel</strong>.</li>
 </ol></td>
 </tr>

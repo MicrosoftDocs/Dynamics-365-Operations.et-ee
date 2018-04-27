@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Kaalutud keskmine füüsilise väärtuse ja märgistusega
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Kaalutud keskmine on laomudel, mis põhineb kaalutud keskmise põhimõttel, kus lao väljaminekuid hinnatakse kauba keskmise väärtuse järgi, mis võetakse lattu vastu lao sulgemise perioodil, samuti iga vaba kaubavaru järgi eelmisest perioodist.
 
@@ -74,16 +74,16 @@ Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasut
 ![Kaalutud keskmise otsene tasakaalustus valikuta Kaasa füüsiline väärtus](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
--   Laokandeid tähistavad vertikaalsed nooled.
--   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
--   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
--   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
--   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
--   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
--   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
--   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
+- Laokandeid tähistavad vertikaalsed nooled.
+- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
+- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
+- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
+- Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
+- Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
+- Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
+- Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+- Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
+- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Kaalutud keskmise summeeritud tasakaalustamine valikuta Kaasa füüsiline väärtus
 Kaalutud keskmine kasutab tasakaalustamise põhimõtet, et kõik sulgemisperioodi jäävad sissetulekud koondatakse kandesse, mida nimetatakse kaalutud keskmise lao sulgemisse. Kõik perioodi sissetulekud tasakaalustatakse äsja loodud laoülekande kande väljaminekuga. Kõik perioodi kaubad tasakaalustatakse äsja loodud laoülekande kande sissetulekuga. Kui vaba kaubavaru on pärast lao sulgemist plussis, summeeritakse vaba kaubavaru ja laoväärtus uuel laoülekande kandel (sissetulek). Kui vaba kaubavaru on pärast lao sulgemist miinuses, siis on vaba kaubavaru ja laoväärtus üksikute, veel lõplikult tasakaalustamata kaupade summa. Allnäidatud stsenaariumis on mitmed finantsiliselt värskendatud sissetulekud ja üks väljaminek sisestatud. 
@@ -108,18 +108,18 @@ Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasut
 ![Kaalutud keskmise summeeritud tasakaalustus valikuta Kaasa füüsiline väärtus](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
--   Laokandeid tähistavad vertikaalsed nooled.
--   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
--   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
--   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
--   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
--   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
--   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
--   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
--   Punased nooled illustreerivad sissetulekukandeid, mis tasakaalustatakse süsteemi loodud väljaminekukannete suhtes.
--   Roheline nool tähistab süsteemi loodud sissetulekukande vastaskannet mille suhtes algselt sisestatud väljaminekukanne on tasakaalustatud
+- Laokandeid tähistavad vertikaalsed nooled.
+- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
+- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
+- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
+- Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
+- Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
+- Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
+- Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+- Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
+- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
+- Punased nooled illustreerivad sissetulekukandeid, mis tasakaalustatakse süsteemi loodud väljaminekukannete suhtes.
+- Roheline nool tähistab süsteemi loodud sissetulekukande vastaskannet mille suhtes algselt sisestatud väljaminekukanne on tasakaalustatud
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Kaalutud keskmise otsene tasakaalustamine valikuga Kaasa füüsiline väärtus
 Parameeter Kaasa füüsiline väärtus töötab parameeter kaalutud keskmise laomudeliga toote eelmistest versioonidest erinevalt. Saate märkida kauba puhul ruudu Kaasa füüsiline väärtus vormil Kauba mudeligrupp. Seejärel kasutab süsteem eeldatava kulu hinna või keskmise arvutamisel füüsiliselt värskendatud sissetulekuid. Väljaminekud sisestatakse perioodi vältel hinnangulise omahinna alusel. Lao sulgemise ajal võetakse kaalutud keskmise arvutamisel arvesse ainult finantsiliselt värskendatud sissetulekud. Kui kasutate kaalutud keskmise lao mudelit, soovitame igakuist lao sulgemist. Selles kaalutud keskmise otsese tasakaalustamise näites on kauba mudeligrupp märgitud füüsilist väärtust kaasama. 
@@ -137,16 +137,16 @@ Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasut
 ![Kaalutud keskmise otsene tasakaalustus valikuga Kaasa füüsiline väärtus](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
--   Laokandeid tähistavad vertikaalsed nooled.
--   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
--   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
--   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
--   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
--   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
--   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
--   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
+- Laokandeid tähistavad vertikaalsed nooled.
+- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
+- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
+- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
+- Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
+- Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
+- Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
+- Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+- Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
+- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Kaalutud keskmise summeeritud tasakaalustamine valikuga Kaasa füüsiline väärtus
 Parameeter Kaasa füüsiline väärtus töötab varasemates versioonides kaalutud keskmisega teistmoodi. Saate märkida kauba puhul ruudu Kaasa füüsiline väärtus lehel Kauba mudeligrupp. Seejärel kasutab süsteem eeldatava kulu hinna või keskmise arvutamisel füüsiliselt värskendatud sissetulekuid. Väljaminekud sisestatakse sellel perioodi jooksul eeldataval omahinnal põhinedes. Lao sulgemise jooksul arvestatakse kaalutud keskmise arvutamisel ainult finantsiliselt värskendatud sissetulekuid. Kui kasutate kaalutud keskmise lao mudelit, soovitame igakuist lao sulgemist. Selles kaalutud keskmise summeeritud tasakaalustamise näites on laomudel märgitud füüsilist väärtust kaasama. 
@@ -170,18 +170,18 @@ Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasut
 ![Kaalutud keskmise summeeritud tasakaalustus valikuga Kaasa füüsiline väärtus](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
--   Laokandeid tähistavad vertikaalsed nooled.
--   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
--   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
--   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
--   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
--   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt 1a. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
--   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
--   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
--   Punased nooled illustreerivad sissetulekukandeid, mis tasakaalustatakse süsteemi loodud väljaminekukannete suhtes.
--   Roheline nool tähistab süsteemi loodud sissetulekukande vastaskannet mille suhtes algselt sisestatud väljaminekukanne on tasakaalustatud
+- Laokandeid tähistavad vertikaalsed nooled.
+- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
+- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
+- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
+- Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
+- Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
+- Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
+- Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt 1a. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+- Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
+- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
+- Punased nooled illustreerivad sissetulekukandeid, mis tasakaalustatakse süsteemi loodud väljaminekukannete suhtes.
+- Roheline nool tähistab süsteemi loodud sissetulekukande vastaskannet mille suhtes algselt sisestatud väljaminekukanne on tasakaalustatud
 
 ## <a name="weighted-average-with-marking"></a>Kaalutud keskmine märkega
 Märkimine on protsess, mis võimaldab teil väljaminekukande siduda või märkida sissetulekukandega. Märkimine võib toimuda nii enne kui pärast kande sisestamist. Saate kasutada märkimist, kui soovite teada laoseisu täpset hinda kande sisestamise või lao sulgemise ajal. 
@@ -218,16 +218,16 @@ Järgnev diagramm illustreerib seda kannete seeriat Kaalutud keskmise laomudeli 
 ![Kaalutud keskmine märkusega](./media/weightedaveragewithmarking.gif) 
 
 **Diagrammi võti**
--   Laokandeid tähistavad vertikaalsed nooled.
--   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
--   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unitprice.
--   Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
--   Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
--   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
--   Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
--   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
+- Laokandeid tähistavad vertikaalsed nooled.
+- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
+- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
+- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@"Unitprice".
+- Sulgudega ümbritsetud laokande väärtus näitab, et laokanne on füüsiliselt laovarudesse sisestatud.
+- Ilma sulgudeta laokande väärtus näitab, et laokanne on rahaliselt laovarudesse sisestatud.
+- Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
+- Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
+- Lao sulgemisi tähistab punane vertikaaljoon ja silt Lao sulgemine.
+- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste katkendjoontega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
 
 
 

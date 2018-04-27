@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Kasutaja eelistatud ajavööndi seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Järgmine protseduur selgitab, kuidas süsteemiadministraatori rollis kasutaja saab määrata kasutaja ajavööndit.
 

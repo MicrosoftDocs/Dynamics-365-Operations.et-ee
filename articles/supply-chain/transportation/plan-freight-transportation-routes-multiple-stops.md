@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Mitme peatusega veose transpordimarsruutide plaanimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel rakenduses Microsoft Dynamics 365 for Finance and Operations.
 

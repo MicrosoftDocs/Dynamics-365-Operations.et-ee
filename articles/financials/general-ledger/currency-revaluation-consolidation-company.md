@@ -28,10 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Valuuta ümberarvutamine konsolideeritavas ettevõttes
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kui konsolodeerite andmeid ühelt arveldusvaluutalt teisele, peate siiski käivitama valuuta ümberarvestamise, kui vahetuskurssides on muutusi, et teie konto saldo arvestataks õigesti ümber. Kasutage algsel andmete konsolideerimisel vahekaarti **Valuuta teisendamine**, et valida algsed vahetuskursid ümberarvestamiseks konsolideerimisprotsessi käigus. Pärast uue vahetuskursi sisestamist (näiteks järgmisel kuul) peate konto saldo ümber arvutama. Realiseerimata kasumeid või kahjumeid värskendatakse vastavalt uue vahetuskursi ja kuupäeva alusel. Järgnev näide illustreerib raamatupidamiskandeid, mis luuakse protsessi ajal.
 
@@ -52,6 +49,7 @@ Kui konsolodeerite andmeid ühelt arveldusvaluutalt teisele, peate siiski käivi
 | 11.10.2015 | 130100 – müügireskontro | USA dollar      | –500   |
 
 ## <a name="exchange-rates"></a>Vahetuskursid
+
 | Valuutast | Valuutaks | Alguskuupäev | Vahetuskurss |
 |---------------|-------------|------------|---------------|
 |  eurot           | USA dollar         | 1.10.2015  | 200           |

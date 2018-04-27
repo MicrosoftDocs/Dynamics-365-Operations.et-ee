@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="project-invoicing"></a>Projekti eest arve esitamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse ülevaade aja- ja materjalikulu ning fikseeritud hinnaga projektide arveldamise kohta. See sisaldab teavet arvesoovituste (esialgsed arved), arvekontrolli, ettemaksuarvelduse, hankija arvete ja kreeditarvete kohta.
 

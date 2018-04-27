@@ -28,8 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Moodulite Müügireskontro ja Krediit ja võlanõuded konfigureerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Konfigureerige Müügireskontro ning Krediit ja võlanõuded, et jälgida klientide arveid ja laekumisi.
 
@@ -107,7 +106,7 @@ Järgmises tabelis on loetletud lehed, mis toetavad moodulite Müügireskontro j
 |                                                      | NSF-teave.                     | Saate seadistada pangakontole NSF-teabe, mida kasutatakse siis, kui makse on märgitud sissenõuete lehel NSF-kandena.                                                                                                                                              |
 |                                                      | Müügiesindaja teave              | Saate seadistada müügiesindajate meiliaadressi. Aadressid kuvatakse sissenõuete lehel ja saate neid kasutada sellelt lehelt müügiesindajale meili saatmiseks.                                                                                                                |
 
- 
+
 Lisateavet vt teemast [Krediit ja võlanõuded moodulis Müügireskontro](collections-credit-accounts-receivable.md).
 
 

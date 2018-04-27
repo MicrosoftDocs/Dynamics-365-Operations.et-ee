@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a> Valmisaruannete genereerimine ja käivitamine
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Kasutage seda ülesandejuhendit valmisaruannete käitamiseks halduses erinevatest tööruumidest ning asukohas Päringud ja Müügiaruanded (jaotises Jaemüük ja Kaubandus).
 

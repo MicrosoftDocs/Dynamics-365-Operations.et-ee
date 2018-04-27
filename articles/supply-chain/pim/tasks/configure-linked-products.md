@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>Lingitud toodete konfigureerimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab lingitud toodete konfigureerimist. Protseduur kasutab USRT demoandmed ning eeldab, et mõlemad tooted on juba loodud ja väljastatud.
 

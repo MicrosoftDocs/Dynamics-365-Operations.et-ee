@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>Hooldustoimingud  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kasutage hooldustoiminguid hooldustellimuse käigus täidetava ülesande kirjeldamiseks.
 Seda teavet näevad nii tehnikud kui ka kliendid.

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Kulukomplekti poliitika ja üldkulude arvutus 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kuluarvestuse abil saate ülevaate, kuidas kuluvoog on seotud organisatsioonis edastatavate toodete ja teenustega. Kulude läbipaistvuse tagamiseks on oluline saavutada sobival eraldamisalusel põhinev kulude jagamine kuluobjektide vahel. Vaikimisi saavutatakse kulude eraldamine esmase kuluelemendi jaoks, mis on mõnes olukorras vajalik, kuid sellel on mõningaid nüansse, mida peaks arvestama.
 

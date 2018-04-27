@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>Müügitulemuste hindamine toote alusel
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Saate uurida Microsoft Dynamics 365 for Retaili abil 10 parima toote kasumlikkust. 
 

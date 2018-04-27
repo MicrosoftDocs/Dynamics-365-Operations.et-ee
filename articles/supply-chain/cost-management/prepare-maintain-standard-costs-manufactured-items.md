@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Toodetud kaupade standardkulude säilitamise ettevalmistus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse toodetud kaupade kulude haldamiseks ette valmistamise etappe. Toodetud kaupade etapid erinevad veidi ostetud kaupade etappidest.
 

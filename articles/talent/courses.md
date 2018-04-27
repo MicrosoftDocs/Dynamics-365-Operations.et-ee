@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Koolituskursuste seadistamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.
 
@@ -81,15 +80,15 @@ Järgmises tabelis on antud kolm kursuste seadistuse tüüpi. Seadistuse tüübi
 
 ## <a name="course-tasks"></a>Kursuse ülesanded
 Iga kursuse puhul saate täita järgmisi ülesandeid.
--   Osalejate registreerimine
--   Registreerimise lõpptähtaja määramine
--   Osalejate vähima ja suurima arvu määratlemine
--   Kursuse asukoha ja klassiruumi määramine
--   Kursusel osalejatele hotellide soovitamine
--   Kursuse kirjelduse loomine töötaja iseteeninduses reklaamimiseks.
+- Osalejate registreerimine
+- Registreerimise lõpptähtaja määramine
+- Osalejate vähima ja suurima arvu määratlemine
+- Kursuse asukoha ja klassiruumi määramine
+- Kursusel osalejatele hotellide soovitamine
+- Kursuse kirjelduse loomine töötaja iseteeninduses reklaamimiseks.
 
   >**Märkus.** Kursuse saate kustutada ainult siis, kui keegi pole sellele registreerunud. 
-    
+
 ## <a name="course-statuses"></a>Kursuse olekud
 Järgmises tabelis on antud võimalikud kursuse olekud ja toimingud, mida saate teha, kui kursus on teatud olekuga.
 

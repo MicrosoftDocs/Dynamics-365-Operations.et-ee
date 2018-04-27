@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 36cf78bb9d97b1551ebfac6bf5f3f17ebbc78c6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ccd1714d5ac594e04eea65d997fe198bdae32a86
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-new-departments"></a>Uute osakondade määratlemine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Osakonnad on tootmisüksused, mis tähistavad ettevõtte funktsionaalvaldkonna, nagu müük või raamatupidamine. Paljudel ettevõtetel on organisatsioonihierarhiad, mis näitavad ettevõtte erinevaid osakondi. See protseduur selgitab osakondade loomise ja nende osakondade organisatsiooni osakonnahierarhiasse lisamise protsessi. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

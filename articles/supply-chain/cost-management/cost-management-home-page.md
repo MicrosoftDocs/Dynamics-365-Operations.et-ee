@@ -3,12 +3,12 @@ title: Kuluhalduse koduleht
 description: "Kuluhaldus võimaldab teil tegeleda toormaterjalide, poolvalmiskaupade, valmiskaupade ja lõpetamata toodangu hindamise ja raamatupidamisega."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Kuluhalduse koduleht
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [Kuluhaldus (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) võimaldab teil tegeleda toormaterjalide, poolvalmiskaupade, valmiskaupade ja lõpetamata toodangu hindamise ja raamatupidamisega. Selle puhul on tegu [laoarvestuse](cost-object.md) ja [tootmise raamatupidamise](bom-calculations.md) määramise, haldamise ja aruandlusega.
 

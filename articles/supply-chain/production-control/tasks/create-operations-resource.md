@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-an-operations-resource"></a>Toiminguressursi loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Operatsiooniressurss sooritab projekti või tootmisprotsessi tegevusi. Selles protseduuris näitlikustatakse, kuidas määratleda operatsiooniressurssi. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.
 

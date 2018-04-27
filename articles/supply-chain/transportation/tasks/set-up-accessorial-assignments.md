@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>Lisade määrangute seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas seadistada lisade määranguid. Seda teeb üldjuhul transpordikoordinaator. Enne selle juhendi kasutamist peate käivitama juhendi Keskuse lisatasude ja lisade koondandmete seadistamine.
 

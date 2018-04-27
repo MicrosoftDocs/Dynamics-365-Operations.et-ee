@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-iso20022-files"></a>ISO20022 failide importimine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Saate importida järgmistes vormingutes maksefaile.
 
@@ -41,8 +41,8 @@ Pangateatiste importimiseks vormingus camt.054.001.002 kliendi maksetöölehele 
 3. Seadistage lehel **Kliendi pangakonto** kliendi pangakonto kirje, sisestades järgmise teabe: IBAN või pangakonto number ja SWIFT-kood või protsessikood.
 4. Seadistage lehel **Pangakontod** juriidilise isiku pangakontod, sisestades järgmise teabe: IBAN või pangakonto number, SWIFT-kood või protsessikood, valuuta ja aadress.
 
-    > [!NOTE]
-        > Kui kavatsete kasutada pangakonto täpsemat vastavusseviimist, valige kiirkaardil **Vastavusseviimine** suvandi **Pangakonto täpsem vastavusseviimine** sätteks **Jah**. Kui kavatsete vastavusse viia sisestamata imporditud maksed, valige suvandi **Kasuta elektrooniliste maksete kinnituseks pangaväljavõtteid** sätteks **Jah**.
+   > [!NOTE]
+   > Kui kavatsete kasutada pangakonto täpsemat vastavusseviimist, valige kiirkaardil **Vastavusseviimine** suvandi **Pangakonto täpsem vastavusseviimine** sätteks **Jah**. Kui kavatsete vastavusse viia sisestamata imporditud maksed, valige suvandi **Kasuta elektrooniliste maksete kinnituseks pangaväljavõtteid** sätteks **Jah**.
 
 5. Valikuline: saate seadistada lehel **Kandekoodide vastendamine** vastenduse failis olevate panga kandekoodide ja panga kandetüüpide vahel.
 6. Kui fail sisaldab kandetasusid, mille soovite sisestada koos sissetuleva maksega, looge maksetasu lehel **Kliendi maksetasu**. Seejärel seostage maksetasu lehel **Makseviisid** maksetasu seadistuses määratud pangakontoga.

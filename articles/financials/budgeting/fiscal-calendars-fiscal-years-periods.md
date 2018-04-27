@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Rahanduskalendrid, rahandusaastad ja -perioodid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis käsitletakse rahanduskalendreid, rahandusaastaid ja -perioode ning seda, kuidas neid kasutada juriidiliste isikute, põhivara ja eelarvestamise puhul.
 

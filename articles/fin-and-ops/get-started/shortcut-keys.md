@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations. 
 
@@ -39,6 +38,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 
 ## <a name="action-shortcuts"></a>Tegevuste otseteed
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Toiming**                                    | **Klahv või klahvikombinatsioon**                        |
@@ -55,6 +55,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Kuva praegu saadaolevad kiirklahvid                | Alt + Shift + K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Kuupäevavalija kiirklahvid
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Toiming**                        | **Klahv või klahvikombinatsioon**                                 |
@@ -68,6 +69,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Valik Mitte kunagi (või maksimaalne kuupäev)          | E                                         |
 
 ## <a name="factbox-shortcuts"></a>Kiirinfo kiirklahvid
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Toiming**                                                                  | **Klahv või klahvikombinatsioon**                                 |
@@ -79,6 +81,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Praeguse kiirinfo ahendamine                                                    | Alt + 0                                     |
 
 ## <a name="filtering-shortcuts"></a>Filtreerimise kiirklahvid
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Toiming**                     | **Vajutage**                |
@@ -89,6 +92,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Täpsema filtreerimise/sortimise avamine                                      | Ctrl + Shift + F3            | 
 
 ## <a name="form-shortcuts"></a>Vormi kiirklahvid
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Toiming**                                      | **Vajutage**         |
@@ -110,6 +114,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Vormi sulgemine muudatusi salvestamata       | Alt + Shift + Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Vormil navigeerimise kiirklahvid
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Toiming**                                      | **Klahv või klahvikombinatsioon**                                    |
@@ -128,6 +133,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Lülitu reavaatele                                | Ctrl + Shift + L                                 |
 
 ## <a name="grid-shortcuts"></a>Ruudustiku kiirklahvid
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Toiming**                                                                                                         | **Klahv või klahvikombinatsioon**                       |
@@ -148,6 +154,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Praeguse veeru ruudustiku filtrimise avamine (kui fookus on päisereas)                                              | Sisestusklahv                           |
 
 ## <a name="input-control-shortcuts"></a>Sisestamise kiirklahvid
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Toiming**                                                               | **Klahv või klahvikombinatsioon**                     |
@@ -163,6 +170,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Fookuse vahetamine tekstiala ja tööriistariba vahel HTML-i redaktori juhtelemendis | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Sõnumite kiirklahvid
+
 |                          |               |
 |--------------------------|---------------|
 | **Toiming**           | **Klahv või klahvikombinatsioon**     |
@@ -170,6 +178,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Sõnumiriba avamine    | Ctrl + F7       |
 
 ## <a name="navigation-shortcuts"></a>Navigeerimise kiirklahvid
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Toiming**                                                                | **Klahv või klahvikombinatsioon**                  |
@@ -191,6 +200,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Liikumine paanile Kiirinfo (mis võib hõlmata selle avamist)                       | Alt + M, B või Ctrl + F2         |
 
 ## <a name="personalization-shortcuts"></a>Isikupärastamise otseteed
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Toiming**                                                                                                         | **Klahv või klahvikombinatsioon**                           |
@@ -219,6 +229,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Isikupärastamise režiimist väljumine (režiimis Isikupärastamine)                                                               | Esc-klahv                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Segmenditud kirje kiirklahvid
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Toiming**                                                                                                          | **Klahv või klahvikombinatsioon**                        |

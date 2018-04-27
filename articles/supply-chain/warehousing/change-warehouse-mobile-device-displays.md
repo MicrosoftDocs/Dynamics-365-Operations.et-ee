@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Lao mobiilse seadme kuvasätted
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas seadistada mobiilse seadme kuva välimust ja vastendada kiirklahve juhtelementidega, näiteks nuppudega. 
 

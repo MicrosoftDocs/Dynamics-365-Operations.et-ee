@@ -19,15 +19,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7a81697a8e90fb6b0695a02db0868f5708fdbddf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Põhivarade edasiarvestuse aruanne
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Põhivarade edasiarvestuse** aruandes esitatakse hõlpsasti loetavas Microsoft Exceli vormingus põhivara üksikasjalikud andmed, mida vajate perioodi sulgemise, finantsaruannete ja maksuaruandluse tegemiseks. Aruanne sisaldab põhivarade alg- ja lõppsaldosid koos sel perioodil tehtud hinna määramistega ning iga sel perioodil tehtud põhivara soetamise ja likvideerimisega. Andmed esitatakse põhivarade kohta eraldi ning väärtusi summeeritakse ka põhivaragruppide ja juriidilise isiku jaoks.
 
@@ -41,28 +41,30 @@ Aruanne on saadaval rakenduses Microsoft Dynamics 365 for Finance and Operations
 
 Järgmises tabelis on kirjeldatud aruandes olevaid välju.
 
-| Väli                                       | Kirjeldus |
-|---------------------------------------------|-------------|
-| Saldod: algsaldo                           | Põhivara raamatupidamislik jääkväärtus aruandel määratletud alguskuupäeva seisuga. |
-| Saldod: lõppsaldo                           | Põhivara raamatupidamislik jääkväärtus aruandel määratletud lõppkuupäeva seisuga. |
-| Soetamised: algväärtus                 | Tehingutüüpide **Soetus** ja **Soetuse korrigeerimine** summa kuni aruandel määratletud alguskuupäevani. |
-| Soetamised: perioodi soetamised           | Aruande kuupäevavahemiku jooksul sisestatud tehingutüüpide **Soetus** ja **Soetuse korrigeerimine** summa. |
-| Soetamised: perioodi likvideerimised              | Aruande kuupäevavahemiku jooksul sisestatud likvideerimiskandega kõigi soetamiste likvideerimiste summa. |
-| Soetamised: lõppväärtus                 | Tehingutüüpide **Soetus** ja **Soetuse korrigeerimine** summa kuni aruandel määratletud lõppkuupäevani. |
-| Kulum: algväärtus                | Tehingutüüpide **Kulum**, **Kulumi korrigeerimine**, **Kulumi erihüvitis** ja **Plaaniväline kulum** summa kuni aruandel määratletud alguskuupäevani. |
-| Kulum: perioodi kulum         | Aruande kuupäevavahemiku jooksul sisestatud tehingutüüpide **Kulum**, **Kulumi korrigeerimine** ja **Plaaniväline kulum** summa. |
-| Kulum: perioodi erikulum | Aruande kuupäevavahemiku jooksul sisestatud tehingutüübi **Kulumi erihüvitis** korrigeerimine summa. |
-| Kulum: perioodi likvideerimised             | Aruande kuupäevavahemiku jooksul sisestatud likvideerimiskandega kõigi kulumite tühistamiste summa. |
-| Kulum: lõppväärtus                | Tehingutüüpide **Kulum**, **Kulumi korrigeerimine**, **Kulumi erihüvitis** ja **Plaaniväline kulum** summa kuni aruandel määratletud lõppkuupäevani. |
-| Üleshindlused/allahindamised: algväärtus        | Tehingutüüpide **Üleshindlus**, **Allahindlus** ja **Ümberhindlus** summa kuni aruandel määratletud alguskuupäevani. |
-| Üleshindlused/allahindamised: perioodi üleshindlused     | Aruande kuupäevavahemiku jooksul sisestatud tehingutüübi **Üleshindlus** korrigeerimine summa. |
-| Üleshindlused/allahindamised: perioodi allahindlused   | Aruande kuupäevavahemiku jooksul sisestatud tehingutüübi **Allahindlus** korrigeerimine summa. |
-| Üleshindlused/allahindamised: perioodi ümberhindlused  | Aruande kuupäevavahemiku jooksul sisestatud tehingutüübi **Ümberhindlus** korrigeerimine summa. |
-| Üleshindlused/allahindamised: perioodi likvideerimised     | Aruande kuupäevavahemiku jooksul sisestatud likvideerimiskandega kõigi üleshindluste, allahindluste ja ümberhindluste tühistamiste summa. |
-| Üleshindlused/allahindamised: lõppväärtus        | Tehingutüüpide **Üleshindlus**, **Allahindlus** ja **Ümberhindlus** summa kuni aruandel määratletud lõppkuupäevani. |
-| Likvideerimised: likvideerimise kuupäev                    | Põhivararaamatu likvideerimise kuupäev. |
-| Likvideerimised: raamatupidamislik jääkväärtus likvideerimisel       | Põhivararaamatu raamatupidamislik jääkväärtus likvideerimise ajal. |
-| Likvideerimised: müügiväärtus                       | Põhivararaamatu müügiväärtus likvideerimise müügitehingu korral. |
-| Likvideerimised: mahakandmise väärtus                      | Põhivararaamatu mahakandmise väärtus likvideerimise mahakandmistehingu korral. |
-| Likvideerimised: kasum/kahjum                      | Kasumi või kahjumi väärtus, mis arvutatakse põhivararaamatu likvideerimiskande osana. |
+
+|                    Väli                    |                                                                                                                                Kirjeldus                                                                                                                                |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              Saldod: algsaldo              |                                                                                           Põhivara raamatupidamislik jääkväärtus aruandel määratletud alguskuupäeva seisuga.                                                                                           |
+|              Saldod: lõppsaldo              |                                                                                            Põhivara raamatupidamislik jääkväärtus aruandel määratletud lõppkuupäeva seisuga.                                                                                            |
+|         Soetamised: algväärtus         |                                                 Tehingutüüpide <strong>Soetus</strong> ja <strong>Soetuse korrigeerimine</strong> summa kuni aruandel määratletud alguskuupäevani.                                                  |
+|      Soetamised: perioodi soetamised      |                                                 Aruande kuupäevavahemiku jooksul sisestatud tehingutüüpide <strong>Soetus</strong> ja <strong>Soetuse korrigeerimine</strong> summa.                                                  |
+|       Soetamised: perioodi likvideerimised        |                                                                        Aruande kuupäevavahemiku jooksul sisestatud likvideerimiskandega kõigi soetamiste likvideerimiste summa.                                                                        |
+|         Soetamised: lõppväärtus         |                                                  Tehingutüüpide <strong>Soetus</strong> ja <strong>Soetuse korrigeerimine</strong> summa kuni aruandel määratletud lõppkuupäevani.                                                   |
+|        Kulum: algväärtus         | Tehingutüüpide <strong>Kulum</strong>, <strong>Kulumi korrigeerimine</strong>, <strong>Kulumi erihüvitis</strong> ja <strong>Plaaniväline kulum</strong> summa kuni aruandel määratletud alguskuupäevani. |
+|     Kulum: perioodi kulum     |                         Aruande kuupäevavahemiku jooksul sisestatud tehingutüüpide <strong>Kulum</strong>, <strong>Kulumi korrigeerimine</strong> ja <strong>Plaaniväline kulum</strong> summa.                          |
+| Kulum: perioodi erikulum |                                                              Aruande kuupäevavahemiku jooksul sisestatud tehingutüübi <strong>Kulumi erihüvitis</strong> korrigeerimine summa.                                                               |
+|       Kulum: perioodi likvideerimised       |                                                                       Aruande kuupäevavahemiku jooksul sisestatud likvideerimiskandega kõigi kulumite tühistamiste summa.                                                                        |
+|        Kulum: lõppväärtus         |  Tehingutüüpide <strong>Kulum</strong>, <strong>Kulumi korrigeerimine</strong>, <strong>Kulumi erihüvitis</strong> ja <strong>Plaaniväline kulum</strong> summa kuni aruandel määratletud lõppkuupäevani.  |
+|    Üleshindlused/allahindamised: algväärtus     |                              Tehingutüüpide <strong>Üleshindlus</strong>, <strong>Allahindlus</strong> ja <strong>Ümberhindlus</strong> summa kuni aruandel määratletud alguskuupäevani.                               |
+|   Üleshindlused/allahindamised: perioodi üleshindlused   |                                                                    Aruande kuupäevavahemiku jooksul sisestatud tehingutüübi <strong>Üleshindlus</strong> korrigeerimine summa.                                                                    |
+|  Üleshindlused/allahindamised: perioodi allahindlused  |                                                                   Aruande kuupäevavahemiku jooksul sisestatud tehingutüübi <strong>Allahindlus</strong> korrigeerimine summa.                                                                   |
+| Üleshindlused/allahindamised: perioodi ümberhindlused  |                                                                        Aruande kuupäevavahemiku jooksul sisestatud tehingutüübi <strong>Ümberhindlus</strong> korrigeerimine summa.                                                                        |
+|   Üleshindlused/allahindamised: perioodi likvideerimised   |                                                           Aruande kuupäevavahemiku jooksul sisestatud likvideerimiskandega kõigi üleshindluste, allahindluste ja ümberhindluste tühistamiste summa.                                                           |
+|    Üleshindlused/allahindamised: lõppväärtus     |                               Tehingutüüpide <strong>Üleshindlus</strong>, <strong>Allahindlus</strong> ja <strong>Ümberhindlus</strong> summa kuni aruandel määratletud lõppkuupäevani.                                |
+|          Likvideerimised: likvideerimise kuupäev           |                                                                                                                Põhivararaamatu likvideerimise kuupäev.                                                                                                                |
+|    Likvideerimised: raamatupidamislik jääkväärtus likvideerimisel    |                                                                                                    Põhivararaamatu raamatupidamislik jääkväärtus likvideerimise ajal.                                                                                                    |
+|            Likvideerimised: müügiväärtus            |                                                                                               Põhivararaamatu müügiväärtus likvideerimise müügitehingu korral.                                                                                                |
+|           Likvideerimised: mahakandmise väärtus            |                                                                                               Põhivararaamatu mahakandmise väärtus likvideerimise mahakandmistehingu korral.                                                                                               |
+|           Likvideerimised: kasum/kahjum            |                                                                                 Kasumi või kahjumi väärtus, mis arvutatakse põhivararaamatu likvideerimiskande osana.                                                                                 |
+
 

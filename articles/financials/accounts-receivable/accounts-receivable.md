@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Müügireskontro kodulehekülg
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kasutage müügireskontrot kliendiarvete ja sissetulevate maksete jälgimiseks. 
 

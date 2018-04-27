@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Ristlaadimine tootmistellimustest lähetusaladesse
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas hallata lõpetatuks registreeritava materjali ristlaadimise protsessi tootmisliinilt väljaminevasse transpordidokki.
 
@@ -76,10 +76,10 @@ Praegu saab ristlaadimise konfigureerida ainult kahe töötellimuse tüübi jaok
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Ristlaadimise poliitika nimi: üleviimistellimus
 
--   Järjekorranumber: 10
- -   Töötellimuse tüüp: edastuse väljaminek
--   Ristlaadimise nõue nõuab asukohta: väär
--   Ristlaadimise strateegia: kuupäev ja kellaaeg
+- Järjekorranumber: 10
+  -   Töötellimuse tüüp: edastuse väljaminek
+- Ristlaadimise nõue nõuab asukohta: väär
+- Ristlaadimise strateegia: kuupäev ja kellaaeg
 
 ### <a name="sequence-number"></a>Järjekorranumber
 

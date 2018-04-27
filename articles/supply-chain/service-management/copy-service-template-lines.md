@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Hooldusmalli ridade kopeerimine 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Malli teavet saab kopeerida kas hooldusleppesse või hooldustellimusse.
 

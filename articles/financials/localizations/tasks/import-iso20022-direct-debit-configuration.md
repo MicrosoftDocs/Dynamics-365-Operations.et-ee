@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>ISO20022 otsekorralduse konfiguratsiooni importimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas importida kliendi makse elektroonilise aruandluse konfiguratsiooni. Protseduur kasutab näitena ISO-20022 otsekorralduse vormingut. 
 

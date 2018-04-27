@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Pearaamatukonto pseudonüümi seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selle protseduuriga kirjeldatakse kontopseudonüümi loomist, mis pakub otseteed kontonumbri sisestamiseks. Protseduur kasutab demoettevõtte USMF andmeid.
 

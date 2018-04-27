@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Mobiilsed võimalused Microsoft Dynamics 365 for Finance and Operationsis lasevad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud.
 
@@ -127,7 +126,7 @@ Arvete kinnitamise mobiiliversioon on erinev, olenevalt nende küsimuste vastust
 ### <a name="create-the-workspace"></a>Tööruumi loomine
 
 1.  Avage brauseris Finance and Operations ja logige sisse.
-2.  Kui olete sisse loginud, lisage URL-ile **&mode=mobile**, nagu on näidatud järgmises näites, ja värskendage lehte: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  Kui olete sisse loginud, lisage URL-ile **&mode=mobile**, nagu on näidatud järgmises näites, ja värskendage lehte: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Klõpsake nuppu **Sätted** (hammasratas) lehe ülemises paremas osas ja seejärel valikut **Mobiilirakendus**. Mobiilirakenduse kujundaja peaks ilmuma samamoodi, nagu ilmub tegevuse salvestaja.
 4.  Klõpsake uue tööruumi loomiseks nuppu **Lisa**. Selle näite puhul andke tööruumile nimi **Minu kinnitused**.
 5.  Sisestage kirjeldus.
@@ -173,23 +172,23 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
 
 Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMobileInvoiceHeaderDetails** Finance and Operationsis. Pange tähele, et olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel vanim arve (esimesena koostatud arve). Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja mõningaid arveandmeid, et saaksime mobiilset lehte kujundada. [![Töövoo leht](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Asendage Finance and Operationsi URL-is menüüelemendi nimi stringiga **VendMobileInvoiceHeaderDetails** vormi avamiseks
-2.  Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
-3.  Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
-4.  Valige eelnevalt loodud leht **Minu hankija arved** ja klõpsake siis nuppu **Redigeeri**.
-5.  Klõpsake vahekaardil **Väljad** veerupäist **Ruudustik**.
-6.  Klõpsake valikuid **Atribuudid** &gt; **Lisa leht**. **Märkus.** Kui klõpsate pealkirja **Ruudustik** ja lisate lehe, luuakse automaatselt seos üksikasjade lehega.
-7.  Sisestage lehe pealkiri, nt **Arve üksikasjad** ja kirjeldus, nt **Kuva arve päis ja rea üksikasjad**.
-8.  Klõpsake nuppu **Vali väljad**. Pange tähele, et väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida. 
-9.  Lisage selle stsenaariumi nõuete põhjal päisest järgmised väljad.
-    - Hankija nimi
-    - Arve summa
-    - Maksja
-    - Arve number
-    - Arve kuupäev
-    - Arve kirjeldus
-    - Tähtaeg
-    - Arve valuuta
+1. Asendage Finance and Operationsi URL-is menüüelemendi nimi stringiga **VendMobileInvoiceHeaderDetails** vormi avamiseks
+2. Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
+3. Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
+4. Valige eelnevalt loodud leht <strong>Minu hankija arved **ja klõpsake siis nuppu **Redigeeri</strong>.
+5. Klõpsake vahekaardil **Väljad** veerupäist **Ruudustik**.
+6. Klõpsake valikuid **Atribuudid** &gt; **Lisa leht**. **Märkus.** Kui klõpsate pealkirja **Ruudustik** ja lisate lehe, luuakse automaatselt seos üksikasjade lehega.
+7. Sisestage lehe pealkiri, nt **Arve üksikasjad** ja kirjeldus, nt **Kuva arve päis ja rea üksikasjad**.
+8. Klõpsake nuppu **Vali väljad**. Pange tähele, et väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida. 
+9. Lisage selle stsenaariumi nõuete põhjal päisest järgmised väljad.
+   - Hankija nimi
+   - Arve summa
+   - Maksja
+   - Arve number
+   - Arve kuupäev
+   - Arve kirjeldus
+   - Tähtaeg
+   - Arve valuuta
 
 10. Lisage lehel olevast ridade ruudustikust järgmised väljad.
     - Hankekategooria
@@ -199,7 +198,7 @@ Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMob
     - 1099-summa
 
 11. Kui kõik väljad eelmisest kahest toimingust on lisatud, klõpsake nuppu **Valmis**. Leht peab sarnanema järgmisele illustratsioonile.
-[![Leht pärast väljade lisamist](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 13. Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
 14. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
@@ -296,14 +295,14 @@ Töövootoimingute lisamiseks kasutage lehte **VendMobileInvoiceHeaderDetails** 
 
 ### <a name="vendor-invoice-attachments"></a>Hankija arve manused
 
-1.  Klõpsake nuppu **Sätted** (hammasratas) lehe ülemises paremas osas ja seejärel valikut **Mobiilirakendus**
-2.  Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
-3.  Valige eelnevalt loodud leht **Arve üksikasjad** ja klõpsake siis nuppu **Redigeeri**.
-4.  Määrake valiku **Dokumendihaldus** sätteks **Jah**, nagu allpool näidatud. **Märkus.** Kui puuduvad nõuded mobiilsel seadmel manuste näitamiseks, võite jätta selle valiku sätteks **Ei**, mis on vaikesäte.
-![Dokumendihaldus](./media/docmanagement-216x300.png)
-6.  Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
-7.  Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
-8.  Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
+1. Klõpsake nuppu **Sätted** (hammasratas) lehe ülemises paremas osas ja seejärel valikut **Mobiilirakendus**
+2. Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
+3. Valige eelnevalt loodud leht <strong>Arve üksikasjad **ja klõpsake siis nuppu **Redigeeri</strong>.
+4. Määrake valiku **Dokumendihaldus** sätteks **Jah**, nagu allpool näidatud. **Märkus.** Kui puuduvad nõuded mobiilsel seadmel manuste näitamiseks, võite jätta selle valiku sätteks **Ei**, mis on vaikesäte.
+   ![Dokumendihaldus](./media/docmanagement-216x300.png)
+5. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
+6. Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
+7. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
 
 ### <a name="vendor-invoice-line-distributions"></a>Hankija arve rea jaotused
 

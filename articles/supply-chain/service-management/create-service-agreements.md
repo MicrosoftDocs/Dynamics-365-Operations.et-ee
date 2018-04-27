@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreements"></a>Hoolduslepete loomine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning Projektihaldus ja raamatupidamine hoolduslepete loomiseks.
 

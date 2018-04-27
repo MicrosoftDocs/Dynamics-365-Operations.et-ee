@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-a-cost-element-dimension"></a>Kuluelemendi dimensiooni vastendamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kulu kontrollija saab selle protseduuri abil vastendada kuluelemendi dimensiooni MXMF-i juriidilise isiku kuluelemendi dimensiooniga. See salvestis kasutab USP2 demoandmete ettevõtet.
 

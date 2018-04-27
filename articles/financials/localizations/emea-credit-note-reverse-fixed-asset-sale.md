@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Põhivarade likvideerimine Eesti ja Leedu puhul
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema pakub teavet Eestis ja Leedus asuvate juriidiliste isikute kasutajate puhul vabas vormis arvete sisestatud põhivarade likvideerimise kreeditarvete kohta.
 

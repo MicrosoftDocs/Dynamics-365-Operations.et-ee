@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Kulujuhtimisüksuste määratlemine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See toiming näitab, kuidas määratleda kuluarvestuse pearaamatus kulu juhtseadmeid. Saate valida kuluobjekti dimensiooni, mille kulusid soovite pearaamatus juhtida. Kuluobjekti dimensiooni liikmed teisendatakse kulujuhtimisseadmete kujuobjektideks. Selle protseduuri loomiseks kasutati demoettevõtte USP2 andmeid.
 

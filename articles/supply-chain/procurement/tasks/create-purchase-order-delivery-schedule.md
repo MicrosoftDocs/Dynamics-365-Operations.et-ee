@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Tarnegraafikuga ostutellimuse loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas ostutellimuse jaoks tarnegraafikut luua. Tarnegraafikut kasutatakse siis, kui tellimuse või töölehe koguse puhul on nõutav mitme saadetisega tarne. Selles juhendis toodud näidet saab kasutada demoandmete ettevõtte USMF puhul. Selle protseduuri viib tavaliselt läbi ostuagent.
 

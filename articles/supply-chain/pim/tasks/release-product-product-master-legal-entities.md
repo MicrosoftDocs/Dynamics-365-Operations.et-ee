@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Toote/tooteetaloni väljastamine juriidilistele isikutele
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur juhendab, toodet või tooteetaloni ühele või mitmele juriidilisele isikule väljastada. Selles ülesandes kasutatud demoandmetega ettevõtte on USRT ning ülesanne on mõeldud kaubahalduri ja tootedisaineri jaoks.
 

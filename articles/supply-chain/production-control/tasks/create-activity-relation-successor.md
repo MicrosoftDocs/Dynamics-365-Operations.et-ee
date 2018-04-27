@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-activity-relation-successor"></a>Tegevuse seose loomine: järgnev tegevus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Lean manufacturingi tootmisvoo tegevuste voog talletatakse tegevusseoste kaudu. See salvestus näitab, kuidas luua tegevusseoste kogumit.
 

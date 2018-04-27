@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>RFM-analüüsi seadistamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas seadistada klientidele hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi.
 
@@ -60,25 +59,25 @@ Kui teie organisatsioon kasutab skoori puhul koondnumbrit, pannake üksikud hind
     - Kui RFM-i skoori iga osa peab sisaldama võrdset arvu kliente, märkige ruut **Ühtlane jaotus**. 
     - Kolme tulemuse liitmiseks märkige ruut **Punktisummade lisamine**. Näiteks annab see kliendile RFM-i skoori 535 asemel skooriks 13. 
     - Märkige ruut **Ajaloo salvestamine**, kui soovite, et süsteem salvestaks klientide statistilised andmed, et neid saaks RFM-i skoori arvutamiseks kasutada.
-  
+
 5.  Tehke kiirkaardil **Hiljutisus** järgmist. 
     - Sisestage väljale **Jaotused** jaotuste või gruppide arv, mida klientide hiljutisuse skoori arvutamisel kasutada. Näiteks kui teil on 100 klienti, tähendab jaotus 5, et iga skoori kohta on 20 klienti. 20 kliendi puhul, kes on kõige viimasena ostnud, on hiljutisuse skoor 5. Järgmise 20 kliendi hiljutisuse skoor on 4 jne. Kui teil on 50 klienti, on 10 kliendi hiljutisuse skoor 5, 10 kliendi hiljutisuse skoor 4 jne. 
     - Valige väljal **Prioriteet**, kui suur kaal on kliendi RFM-i skoori arvutamisel hiljutisuse parameetril võrreldes teiste parameetritega. Näiteks võite hiljutisuse skoori väärtuse rahalise skoori omast suuremaks määrata. 
     - Sisestage väljale **Kordaja** väärtus, millega hiljutisuse skoori korrutada. Kui te väärtust ei sisesta, siis skoori ei korrutata. 
     - Valige väljal **Periood** ajavahemik, mille alusel hiljutisuse skoori arvutada. Nt nädala või kuu kaupa.
-   
+
 6.  Tehke kiirkaardil **Sagedus** järgmist. 
     - Sisestage väljale **Jaotused** jaotuste või gruppide arv, mida klientide sageduse skoori arvutamisel kasutada. 
     - Valige väljal **Prioriteet**, kui suur kaal on kliendi RFM-i skoori arvutamisel sageduse parameetril võrreldes teiste parameetritega. 
     - Sisestage väljale **Kordaja** väärtus, millega sageduse skoori korrutada. Kui te väärtust ei sisesta, siis skoori ei korrutata.
-   
+
 7.  Tehke kiirkaardil **Valuuta** järgmist. 
     - Sisestage väljale **Jaotused** jaotuste või gruppide arv, mida klientide rahalise skoori arvutamisel kasutada. 
     - Valige väljal **Prioriteet**, kui suur kaal on kliendi RFM-i skoori arvutamisel rahalisel parameetril võrreldes teiste parameetritega. 
     - Sisestage väljale **Kordaja** väärtus, millega rahalist skoori korrutada. Kui te väärtust ei sisesta, siis skoori ei korrutata. 
     - Valige väljal **Bruto/neto**, kas kliendi rahalist skoori tuleks arvutada arvete bruto- või netosumma alusel. 
     - Kui kliendi tagastuste summad tuleks kliendi arvete kogusummadest lahutada, märkige ruut **Tagastuste lahutamine**. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Kliendi RFM-i skoori vaatamine
 Kasutage seda protseduuri kliendi RFM-i skoori vaatamiseks. 
 

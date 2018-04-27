@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Käibemaksukannete loomine dokumentidel
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Dokumentide käibemaks arvutatakse, luues dokumendi ridadel käibemaksugrupi ja kauba käibemaksugrupi. Need tulenevad vaikimisi koondandmetest, kuid neid saab vajaduse korral käsitsi muuta. Arvutatud käibemaksu saab kontrollida rea ja dokumendi tasemel. See ülesanne kasutab demoettevõtte USMF andmeid.
 

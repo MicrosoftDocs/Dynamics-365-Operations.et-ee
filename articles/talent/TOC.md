@@ -3,7 +3,7 @@
 # [Alustamine](talent-get-started.md)
 ## [Süsteeminõuded ja värskenduspoliitika](talent-versions-update-policy.md)
 ## [Rakenduse Microsoft Dynamics 365 for Talent ettevalmistus](provisioning-talent.md)
-## [Keskkonna Talent eemaldamine](remove-test-environment.md)
+## [Keskkonna Talent eemaldamine](remove-talent-environment.md)
 ## [Moodulrakenduste Microsoft Dynamics 365 for Talent ettevalmistus](modular-app-tech-faq.md)
 ## [Talenti funktsioonide laiendamine](extend-talent-functionality.md)
 
@@ -13,6 +13,7 @@
 ## [Juriidilistele isikutele inimressursside parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md)
 ## [Ettevõttekohaste inimressursside parameetrite seadistamine](set-up-company-specific-hr-parameters.md)
 ## [Personalitegevuste KKK](personnel-actions-faq.md)
+## [Äriprotsesside formaliseerimine](formalize-business-processes.md)
 ## [Töövoo kasutamine töövõtja teabe haldamiseks](workflow-manage-employee-information.md)
 ## [Puhkuste ja puudumiste ülevaade](leave-absence-overview.md)
 

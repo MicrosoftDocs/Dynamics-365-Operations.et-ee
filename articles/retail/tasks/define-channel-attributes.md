@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> Kanali atribuutide määratlemine
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Rikastage kanali, lisades kanali ja toote atribuudid. Enne atribuutide määratlemist peate lisama kanali organisatsiooni vaikehierarhiasse.
 

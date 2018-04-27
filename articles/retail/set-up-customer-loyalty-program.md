@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>Püsikliendiprogrammi seadistamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas seadistada püsikliendiprogrammi. Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie jaekauplustest toodete ostmise eest. Rakenduses Microsoft Dynamics 365 for Retailis saate seadistada lihtsad või keerulised püsikliendiprogrammid, mis rakenduvad teie juriidilistele üksustele mis tahes jaemüügikanalis.
 

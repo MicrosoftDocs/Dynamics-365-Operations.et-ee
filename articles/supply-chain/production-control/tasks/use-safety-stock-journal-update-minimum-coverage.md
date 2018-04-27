@@ -23,21 +23,21 @@ ms.contentlocale: et-ee
 ms.lasthandoff: 09/29/2017
 
 ---
-# Puhvervaru abil minimaalse laovaru uuendamine
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Puhvervaru abil minimaalse laovaru uuendamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas arvutada varasemate kannete põhjal minimaalse laovaru soovitusi ja uuendada siis soovituste abil kauba laovaru. Seda tehakse puhvervaru töölehe abil. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud tootmise plaanijale minimaalsete laovarude säilitamiseks.
 
 
-## Uue puhvervaru töölehe nime loomine
+## <a name="create-a-new-safety-stock-journal-name"></a>Uue puhvervaru töölehe nime loomine
 1. Avage Puhvervaru töölehe nimed.
 2. Klõpsake valikut Uus.
 3. Tippige väljale Nimi väärtus Materjal.
 4. Tippige väljale Kirjeldus väärtus Materjal.
 5. Sulgege leht.
 
-## Puhvervaru töölehe loomine
+## <a name="create-a-safety-stock-journal"></a>Puhvervaru töölehe loomine
 1. Avage Puhvervaru arvutamine.
 2. Klõpsake valikut Uus.
 3. Sisestage või valige väärtus väljal Nimi.
@@ -50,7 +50,7 @@ See protseduur näitab, kuidas arvutada varasemate kannete põhjal minimaalse la
 7. Klõpsake nuppu OK.
     * See loob read dimensioonidele, millel on laokanded.  
 
-## Arvuta soovitus
+## <a name="calculate-proposal"></a>Arvuta soovitus
 1. Klõpsake valikut Arvuta soovitus.
 2. Tehke valik Kasuta täitmisaja jooksul keskmist väljaminekut.
 3. Määrake valiku Korrutustegur väärtuseks 10.
@@ -58,7 +58,7 @@ See protseduur näitab, kuidas arvutada varasemate kannete põhjal minimaalse la
 4. Klõpsake nuppu OK.
     * Kerige alla M0002 ja M0003 leidmiseks. Vaadake veergu Arvutatud miinimumkogus.   
 
-## Miinimumkoguse uuendamine
+## <a name="update-minimum-quantity"></a>Miinimumkoguse uuendamine
 1. Sisestage number väljale Uus miinimumkogus.
     * Uuendage väärtust Uus miinimumkogus nii, et see vastaks väärtusele jaotises Arvutatud miinimumkogus. Kui Arvutatud miinimum on null, võite sisestada soovitud tulevase väärtuse. Näiteks võite sisestada sellele väljale väärtuse Arvutatud miinimumkogus M0002 kohta, millel on ladu 12.  
 2. Otsige loendist ja valige soovitud kirje.
@@ -66,7 +66,7 @@ See protseduur näitab, kuidas arvutada varasemate kannete põhjal minimaalse la
 3. Sisestage number väljale Uus miinimumkogus.
     * Uuendage väärtust Uus miinimumkogus nii, et see vastaks väärtusele jaotises Arvutatud miinimumkogus. Kui Arvutatud miinimum on null, võite sisestada soovitud tulevase väärtuse.  
 
-## Uue miinimumkoguse sisestamine ja tulemuse kinnitamine
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Uue miinimumkoguse sisestamine ja tulemuse kinnitamine
 1. Klõpsake valikut Sisesta.
 2. Klõpsake nuppu OK.
 3. Klõpsake, et järgida linki väljal Kaubakood.

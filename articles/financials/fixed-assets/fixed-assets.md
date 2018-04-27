@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Põhivarade kodulehekülg
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Põhivarad on väärtuskaubad, nt ehitised, sõiduvahendid, maa ja seadmed, mis kuuluvad üksikisikule või organisatsioonile. 
 

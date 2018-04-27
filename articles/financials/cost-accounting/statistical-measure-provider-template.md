@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistilise dimensiooni liikmed ja statistiliste mõõtude pakkuja mallid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Statistilist dimensiooni ja selle liikmeid kasutatakse mitterahaliste kirjete registreerimiseks ja juhtimiseks kuluarvestuses. Statistilise dimensiooni liikmeid saab kasutada kahel eesmärgil:
 

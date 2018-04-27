@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO füüsilise väärtuse ja märkimisega
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Viimasena sisse, esimesena välja (LIFO) on kaubavarude meetod, milles viimased (uusimad) sissetulekud väljastatakse esimesena. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. 
 
@@ -62,16 +61,16 @@ Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskm
 
 **Diagrammi võti**
 
--   Laokandeid tähistavad vertikaalsed nooled.
--   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
--   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unit hind.
--   Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
--   Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
--   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
--   Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
--   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
+- Laokandeid tähistavad vertikaalsed nooled.
+- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
+- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
+- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unit hind.
+- Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
+- Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
+- Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
+- Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
+- Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
+- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>LIFO koos valikuga Füüsilise väärtuse kaasamine
 Kui märkeruut **Kaasa füüsiline väärtus** on kauba puhul lehel **Kauba mudeligrupid** valitud, kasutab süsteem jooksva keskmise omahinna arvutamiseks nii füüsilisi kui ka finantsilisi sissetuleku kandeid. Kohaldatavusel korrigeerib süsteem ka füüsiliselt värskendatud väljastuskandeid. Märkeruudu **Kaasa füüsiline väärtus** tühjendamisel teeb lao sulgemine koos LIFO laomudeliga tasakaalustusi ainult finantsiliselt värskendatud kannetega. 
@@ -96,16 +95,16 @@ Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale, 
 
 **Diagrammi võti**
 
--   Laokandeid tähistavad vertikaalsed nooled.
--   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
--   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unit hind.
--   Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
--   Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
--   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
--   Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
--   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
+- Laokandeid tähistavad vertikaalsed nooled.
+- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
+- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
+- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unit hind.
+- Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
+- Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
+- Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
+- Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
+- Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
+- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
 ## <a name="lifo-with-marking"></a>LIFO märkimisega
 Märkimine on protsess, mis võimaldab teil väljaminekukande siduda või märkida sissetulekukandega. Märkimine võib toimuda nii enne kui pärast kande sisestamist. Saate kasutada märkimist, kui soovite teada laoseisu täpset hinda kande sisestamise või lao sulgemise ajal. Näiteks võttis teie klienditeenindusosakond oluliselt kliendilt vastu kiirtellimuse. Kuna tegemist on kiirtellimusega, peate kliendi nõude täitmiseks maksma kauba eest rohkem. 
@@ -138,16 +137,16 @@ Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale v
 
 **Diagrammi võti**
 
--   Laokandeid tähistavad vertikaalsed nooled.
--   Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
--   Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
--   Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unit hind.
--   Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
--   Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
--   Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
--   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
--   Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
--   Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
+- Laokandeid tähistavad vertikaalsed nooled.
+- Sissetulekuid laovarudesse tähistavad vertikaalsed nooled ajajoone kohal.
+- Väljaminekuid laovarudest tähistavad vertikaalsed nooled ajajoone all.
+- Iga vertikaalse noole kohal (või all) on laokande väärtus määratletud vormingus Quantity@Unit hind.
+- Sulgudes laokande väärtus näitab, et laokanne on füüsiliselt varudesse sisestatud.
+- Sulgudes mitteolev laokande väärtus näitab, et laokanne on finantsiliselt varudesse sisestatud.
+- Iga uus sissetuleku või väljamineku kanne on tähistatud uue sildiga.
+- Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
+- Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
+- Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Hankija koostöö arve tööruum
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema selgitab, kuidas saate vaadata hankijaarveid ja edastada arveid hankija koostöö arveldamise tööruumist.
 
@@ -53,16 +52,12 @@ Paani klõpsamine avab lehest **Arvete loend** filtreeritud vaate.
 
 Jaotises **Tabelloendid** on arveldamise olek jaotatud sarnaselt kokkuvõttepaanidele. Mustand ja Edastatud, kinnitamata loendid. Mustandi olekus saab arve edastada töövoosse või kustutada. Viimane tabelloend on võimalus arvete leidmiseks. Saate otsides filtreerida, et võimaldada kiiremaid otsinguid.
 
-<a name="all-vendor-invoices-list-page"></a>Kõikide hankijaarvete loendileht
------------------------------
+### <a name="all-vendor-invoices-list-page"></a>Kõikide hankijaarvete loendileht
 
 Saate vaadata kõiki sisestatud ja sisestamata hankijaarveid loendilehel **Hankija koostöö arved**. Arvete makseoleku vaatamiseks saate kasutada seda loendilehte. Makseolekud hõlmavad olekuid Sisestamata, Tasumata, Osaliselt makstud ja Täielikult tasutud.
 Uue arve loomine ostutellimusest
---------------------------------------------
 
 Saate luua uue hankijaarve, valides tegevuse **Uus** tööruumis **Hankija koostöö arve tööruum**. Ostutellimuse numbri ja arve numbri peab andma hankija. Vaikimisi kuvatakse kõik read hankija ostutellimuselt uuel arvel. Kogust ja kuluteavet saab redigeerida enne hankijaarve töövoole edastamist. Saate manustada arvele enne selle edastamist faile, märkuseid, pilte ja URL-sid.
-
-
 
 Lisateabe saamiseks vaadake teemat [Hankija koostöö väliste hankijatega](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 

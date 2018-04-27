@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>Harjutushalduri Power BI sisu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab, mida hõlmab **harjutushalduri** Microsofti Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
@@ -118,7 +118,9 @@ Järgmistes jaotistes kirjeldatakse igas üksuses kasutatavaid koondmõõtmisi.
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Üksus: ProjectAccountingCube\_TotalEstimatedCosts 
 **Andmeallikas:** ProjTable
 
-| Peamine koondmõõtmine       | Väli               | Kirjeldus |
-|---------------------------------|---------------------|-------------|
+
+|    Peamine koondmõõtmine    |        Väli        |                                          Kirjeldus                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | Lõpetatud tegevuse plaanitud kulu | Sum(TotalCostPrice) | Kogu omahinna prognoos kõigi lõpetatud ülesannetega projektikannete tüüpide kohta. |
+
 

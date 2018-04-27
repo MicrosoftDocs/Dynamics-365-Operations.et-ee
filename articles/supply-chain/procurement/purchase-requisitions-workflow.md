@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-requisition-workflow"></a>ostutaotluse töövoog
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Töövooprotsess viib ostutaotlused läbi ülevaatusprotsessi algsest olekust Mustand kuni lõplikku olekusse Kinnitatud. Kui ostutaotlus esitatakse ülevaatamiseks, käivitatakse töövoo protsess. Kui ostutaotlus on kinnitatud, saate luua ostutellimuse ostutaotluse ridade jaoks ja selle hankijale tellimuse täitmiseks esitada.
 

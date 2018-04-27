@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Toote kinnitamine kogumi komplekteerimise jaoks
 Kogumi komplekteerimisel saate komplekteerida kaupu korraga mitme tellimuse jaoks. Kogumi komplekteerimise rakendamiseks on kinnitamine väga oluline, et kontrollida kogumitesse lisatud kaupu. Kogumi komplekteerimisprotsessi ajal saab kaupu kogumi komplekteerimisel kontrollida.
@@ -37,7 +37,8 @@ Kauba kontrollimine kogumi komplekteerimiseks toimib samamoodi, nagu kaupade kon
 1.  Avage mobiilse seadme menüüelemendis seadistusvorm töö kinnitamiseks: **Laohaldus** > **Laohaldus** > **Seadistus** > **Mobiilne seade** > **Mobiilse seadme menüüelemendid**.
 2.  Avage mobiilse seadme menüüelemendist jaotis **Töö kinnituse häälestus**.
 
-| Suvand        | Kirjeldus   | 
-| ------------- | ------------- |
-|Toote kinnitus | Võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida.|
+|        Suvand        |                                    Kirjeldus                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Toote kinnitus | Võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida. |
+
 

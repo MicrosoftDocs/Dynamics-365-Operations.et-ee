@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-tag-counting"></a>Varude märgistusega inventuur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Selles artiklis antakse teavet märgistusega inventuuri kohta, mille abil saate võrrelda lao tegelikku sisu vabade kaubavarudega.
 

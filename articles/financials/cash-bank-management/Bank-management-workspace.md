@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 ---
 # <a name="bank-management-workspace"></a>Pangahalduse tööruum
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tööruum **Pangahaldus** näitab ettevõtte pangakontodega seotud andmeid. See tööruum sisaldab vaadet **Kokkuvõte** ja lehte **Analüüs**. Vaade **Kokkuvõte** näitab kokkuvõttepaane, pangakonto andmeid, saldodiagrammi ja seotud andmeid. Leht **Analüüs** kasutab Microsoft Power BI võimalusi pangakonto saldodega seotud visuaalide kuvamiseks.
 

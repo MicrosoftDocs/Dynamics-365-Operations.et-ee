@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-time-windows"></a>Kellaaja akende loomine   
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hooldustellimuse ridade planeerimise optimeerimiseks saate kasutada kellaaja aknaid.
 

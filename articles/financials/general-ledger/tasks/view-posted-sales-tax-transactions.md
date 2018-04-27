@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Sisestatud käibemaksukannete kuvamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Saate sisestatud käibemaksukandeid vaadata eri lehtedelt, olenevalt sellest, mida teil on vaja vaadata. See ülesanne kasutab demoettevõtte USMF andmeid.
 

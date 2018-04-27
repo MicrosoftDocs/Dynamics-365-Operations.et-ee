@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Olemasoleva töötaja palkamine värbamise kaudu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Mõnikord võivad avatud ametikohad täita kandidaadid, kes on juba teie ettevõtte töötajad. See protseduur annab ülevaate olemasoleva töötaja värbamise kohta värbamisprotsessi kaudu. Selles protseduuris on värbamisprojekt juba loodud ja olemasolev töötaja on juba värbamisprojekti avalduse esitanud. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema näitab, kuidas makstakse mitut arvet, kui igale arvele kehtib skonto. Selle artikli stsenaariumid toovad välja, kuidas võetavad skontod erinevad, olenevalt sellest, millal makse tehakse.
 

@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="custom-fields"></a>Kohandatud väljad
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Kuigi Microsoft Dynamics 365 for Finance and Operations hõlmab mitmete äriprotsesside haldamiseks laia valikut valmisvälju, on ettevõttel mõnikord vaja süsteemis jälgida lisateavet. Selle vajaduse rahuldamiseks võimaldab Finance and Operations teil luua kohandatud välju, et rakendus sobiks nende ettevõttega, kui teil selle funktsiooni kasutamise load. 
 

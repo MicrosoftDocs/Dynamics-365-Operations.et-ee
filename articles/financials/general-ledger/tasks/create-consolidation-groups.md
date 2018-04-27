@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris kirjeldatakse konsolideerimiskontode grupi loomist ja seejärel grupile kontode lisamist. Protseduur kasutab demoettevõtte USMF andmeid.
 

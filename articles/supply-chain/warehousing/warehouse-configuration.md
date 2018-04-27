@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="warehouse-configuration"></a>Lao konfiguratsioon
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet selle kohta, kuidas lubada lao paigutust ja laoprotsesse.
 

@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Lao tööpoliitikad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Laotöö poliitikad rakenduses Microsoft Dynamics 365 for Finance and Operations juhivad seda, kas laotöö luuakse tootmises laoprotsessidega töötellimuse tüübi, varude asukoha ja toote põhjal.
 
@@ -68,14 +67,15 @@ Kui plaanite selle stsenaariumi jaoks konfigureerida lao tööpoliitika, peaksit
 
 Siin on näide tööpoliitikast, mida saate nende kaalutluste põhjal seadistada.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Tööpoliitika nimi**<br>                 |**Töökäsu tüübid**<br>                               |
-| Kõrvalepanekuta 01     `                    |- Lõpetatud kaupade kõrvalepanek<br>                           |
-|                                         |**Asukohad**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Tooted** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Tööpoliitika nimi</strong><br> | <strong>Töökäsu tüübid</strong><br> |
+|         Kõrvalepanekuta 01     `          |     - Lõpetatud kaupade kõrvalepanek<br>      |
+|                                       |    <strong>Asukohad</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Tooted</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Järgmised protseduurid annavad etapiviisilise juhise, kuidas seadistada selle stsenaarium jaoks laotöö poliitikat. Samuti on kirjeldatud näidisseadistust, mis näitab, kuidas teatada tootmistellimus lõpetatuks asukohale, mis pole litsentsiplaadiga kontrollitav.
 

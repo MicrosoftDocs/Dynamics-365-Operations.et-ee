@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Koosluse- ja valemiridade lattu väljastamine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse koosluseridade ja valemiridade toormaterjali lattu väljastamise protsessi. Koosluse- või valemirea väljastamisel lattu tuvastab süsteem kõigepealt selle, kas materjal on juba saadaval tootmise sisendasukohas tööde juhtimise moodulis, kus materjali tarbitakse tootmisprotsessi jaoks.
 
@@ -44,7 +44,7 @@ Meetodit, mida kasutatakse koosluse- ja valemiridade väljastamiseks, juhitakse 
 - **Koosluse- ja valemiridade väljastamine pakett-töö kaudu või käsitsi interaktsioonina** – selle meetodi puhul saab koosluse- ja valemiridu väljastada ainult pakett-töö **Koosluse- ja valemiridade automaatne väljastamine** kaudu või käsitsi interaktsioonina. Koosluse- ja valemiridade käsitsi väljastamiseks valige toimingupaanil tootmistellimuse loendilehel või tootmistellimuse üksikasjade lehel käsk **Väljasta lattu**.
 
 Kiiret demonistratsiooni, kuidas väljastada koosluse- ja valemiridasid tootmisse, kasutades pakett-tööd, saate vaadata järgmisest lühikesest YouTube'i videost.
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Koosluse- ja valemiridade väljastamine pakett-töö abil
 
@@ -86,7 +86,7 @@ Järgmisel joonisel on kujutatud tootmistellimus, millel on kaks toimingut, 10 j
 ![Materjali väljastamise näide toimingu numbri järgi](media/two-operations.PNG)
 
 Kiiret demonistratsiooni, kuidas väljastada materjali proportsionaalselt lõpetatud kaupade hulgaga, saate vaadata järgmisest lühikesest YouTube'i videost.
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materjali väljastamine proportsionaalselt lõpetatud kaupade hulgaga
 

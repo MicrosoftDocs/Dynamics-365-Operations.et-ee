@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>Töötaotluse arendamine ja avamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Värbamisprojektid aitavad värbamisprotsessi hallata. Igale värbamisprojektile saate lisada teabe värvatava ametikoha, värbaja nime, projekti oleku ja osakonna kohta. Värbamisprojekti loomise järel saate kirjutada projekti töökuulutuse, avaldada reklaami lehtedel Töötaja iseteenindus, seostada kandideerimisavaldusi projektiga ja jälgida projekti tegevusi. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Protseduuri alustamiseks avage Inimressursid > Värbamine > Värbamisprojektid > Värbamisprojektid
 

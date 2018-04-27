@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-tracing-for-explosion"></a>Plahvatuse jaoks jälgimise kasutamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas kasutada jälgimist tellimuse koosnevusarvutuse tulemuse põhjuste uurimiseks.
 

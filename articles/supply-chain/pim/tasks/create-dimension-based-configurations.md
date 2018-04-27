@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-dimension-based-configurations"></a>Dimensioonipõhiste konfiguratsioonide loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab, kuidas määratleda dimensioonipõhise toote konfiguratsiooni. See on viimane protseduur seerias, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks. Selle protseduuri käivitamine sõltub andmetest, mis on loodud seitsmes eelnevas salvestises. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

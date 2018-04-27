@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-catalogs"></a>Hankekataloogid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel kirjeldab kõrgel tasemel, kuidas ostuspetsialistid saavad hankekatalooge seadistada ja hallata. Hankekataloogid määratlevad kaubad ja teenused, mida ettevõtte töötajad saavad ettevõttesiseseks kasutamiseks tellida.
 

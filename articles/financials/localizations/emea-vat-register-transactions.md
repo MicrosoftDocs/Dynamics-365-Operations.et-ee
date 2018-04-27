@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="vat-register-transactions-for-eastern-europe"></a>Ida-Euroopa käibemaksuregistri kanded
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas antakse teavet käibemaksuregistri kannete kohta Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis ja Poolas. 
 

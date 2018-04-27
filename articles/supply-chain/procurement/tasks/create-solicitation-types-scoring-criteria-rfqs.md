@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>Pakkumiskutsete jaoks kutsetüüpide ja hindamiskriteeriumide loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See juhend näitab, kuidas kutse tüüpi luua ja seda hindamismeetodiga seostada. Samuti näitav see, kuidas kasutada kutse tüüpi pakkumiskutsel, mis siis vaike-hindamismeetodi määrab. Neid ülesandeid täidab üldjuhul ostujuht. Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades. Enne alustamist peab teil olema hindamismeetod kättesaadav.
 

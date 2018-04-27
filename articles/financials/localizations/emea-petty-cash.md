@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9ecc38597123b74c8368ed41d843826d826f90f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4467987c4bb25ec7c44550c9e941298e459bbf22
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="petty-cash-for-eastern-europe"></a>Väikesed summad Ida-Euroopa puhul
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid.
 
@@ -469,6 +468,7 @@ Tasakaalustatud summa kajastub lehe <strong>Sularahakanne</strong> väljal <stro
 </table>
 
 ## <a name="inquiries-and-reports"></a>Päringud ja aruanded
+
 | Päringud või aruandlus                             | Kirjeldus                                                                                                                                                                                                                     |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sularahakannete kuvamine                        | Saatelehe töölehe rea puhul kasutage pearaamatu kannete, sularahasaldo ja muu teabe kuvamiseks toimingupaani nuppu **Päringud**.                                                                                  |

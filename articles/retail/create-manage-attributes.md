@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>Atribuutide loomine ja haldamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Retaili atribuute. Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja selle omadusi kirjeldada.
 
@@ -58,7 +57,7 @@ Atribuudid võimaldavad teil kasutaja määratletud väljade kaudu toodet ja sel
 
 ## <a name="attribute-type"></a>Atribuudi tüüp
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 Atribuudid põhinevad atribuuditüüpidel. Atribuudi tüübid tuvastavad andmete tüübi, mida saab konkreetse atribuudi jaoks sisestada. Praegu toetab Microsoft Dynamics 365 for Retail järgmisi atribuuditüüpe.
 
 -   **Currency** – see atribuudi tüüp toetab valuuta väärtusi. Seda saab piirata (see tähendab, et see toetab väärtuste vahemikku) või jätta lahtiseks.

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>Tööde planeerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet tööde plaanimise kohta, mis on operatsioonide plaanimisest üksikasjalikum plaanimise vorm. Saate kasutada töö planeerimist selleks, et planeerida üksikuid töid või töökoja tellimusi, ja et juhtida tootmiskeskkonda.
 

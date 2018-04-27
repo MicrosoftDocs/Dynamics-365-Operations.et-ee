@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Päevaraha reeglid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Päevaraha* on hüvitis, mis makstakse töötajale, kes reisib tööasjus. Valikus Kulude haldus saate luua päevaraha reeglid erinevate reisiolukordade jaoks. Päevaraha määrade aluseks võib olla aastaaeg, reisisiht või mõlemad. Päevaraha reegli loomisel saate valida päevaraha määrast mingi protsendi kinnipidamise, kui töötaja saab tasuta eineid või teenuseid. Saate ka määrata minimaalse või maksimaalse tundide arvu, mil päevaraha määr kehtib töötaja reisi puhul.
 

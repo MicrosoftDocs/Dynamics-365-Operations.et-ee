@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Seda funktsiooni toetatakse rakenduses Dynamics 365 for Finance and Operations (versioon 7.2 ja uuemad).
@@ -50,7 +50,7 @@ Olenemata sellest, kas laiendate olemasolevat rakenduse tööruumi või võtate 
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Ressursina pbix-faili lisamine
 Enne alustamist peate looma või hankima Power BI aruande, mille soovite tööruumi kaasata. Lisateavet analüütiliste aruannete loomise kohta vaadake jaotisest [Power BI töölauaga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.
 
 1. Looge asjakohases mudelis uus projekt.
@@ -63,12 +63,12 @@ Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.
 5. Leidke pbix-fail, mis sisaldab analüütilise aruande määratlust, seejärel klõpsake käsku **Ava**.
 
     ![Dialoogiboks Ressursifaili valimine](media/analytical-workspace-select-resource.png)
-  
+
 Nüüd kui olete lisanud pbix-faili Dynamics 365 ressursina, saate kaasata aruanded tööruumidesse ja lisada ka otselingid, kasutades menüü-üksusi.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Vahekaardi juhtelemendi lisamine rakenduse tööruumi
 Selles näites laiendame mudeli Sõidukipargi haldus tööruumi **Reserveerimise haldus**, lisades vahekaardi **Analüütika** vormi **FMClerkWorkspace** määratlusele.
- 
+
 Järgmisel joonisel on näha, milline näeb vorm **FMClerkWorkspace** välja Microsoft Visual Studio kujundajas.
 
 ![Vorm FMClerkWorkspace enne muudatusi](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Vormi määratluse laiendamiseks tööruumi **Reserveerimise haldus** puhul toim
 16. Paremklõpsake ja valige suvand **Eemalda muster**.
 17. Paremklõpsake uuesti ja valige suvandid **Lisa muster** > **Vahekaartidega tööruum**.
 18. Koostage järk muudatuste kinnitamiseks.
- 
+
 Järgmisel joonisel on näha, milline näeb kujundus välja pärast nende muudatuste rakendamist.
 
 ![FMClerkWorkspace pärast muudatusi](media/analytical-workspace-definition-after.png)
 
 Nüüd, kui olete tööruumi aruande kaasamiseks kasutatavad vormi juhtelemendid lisanud, peate määratlema ülemjuhtelemendi suuruse, nii et see mahuks paigutusse. Vaikimisi jäävad aruandes nähtavaks nii leht **Filtripaan** kui ka leht **Vahekaart**. Saate nende juhtelementide nähtavust siiski aruande sihttarbija vajaduste järgi muuta.
- 
+
 > [!NOTE]
 > Kaasatud tööruumide puhul soovitame kasutada ühtluse nimel laiendusi nii lehe **Filtripaan** kui ka **Vahekaart** peitmiseks.
- 
+
 Nüüd olete rakenduse vormimääratluse laiendamise ülesande täitnud. Lisateavet kohandamiste tegemiseks laienduste kasutamise kohta vaadake jaotisest [Kohandamine: ülekate ja laiendused](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X++ äriloogika lisamine vaaturi juhtelemendi kaasamiseks
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parameetrid
 
-| Nimi | Kirjeldus |
-|---|---|
-| resourceName | Pbix-ressursi nimi |
-| formGroupControl | Vormirühma juhtelement, millele Power BI aruande juhtelement rakendada. |
-| defaultPageName | Vaikelehe nimi. |
-| showFilterPane | Kahendmuutuja väärtus, mis näitab, kas filtripaan tuleb kuvada (**tõene**) või peita (**väär**). |
-| showNavPane | Kahendmuutuja väärtus, mis näitab, kas navigeerimispaan tuleb kuvada (**tõene**) või peita (**väär**). |
-| defaultFilters | Power BI aruande vaikefiltrid. |
+|       Nimi       |                                                              Kirjeldus                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    Pbix-ressursi nimi                                                     |
+| formGroupControl |                                    Vormirühma juhtelement, millele Power BI aruande juhtelement rakendada.                                     |
+| defaultPageName  |                                                         Vaikelehe nimi.                                                         |
+|  showFilterPane  |   Kahendmuutuja väärtus, mis näitab, kas filtripaan tuleb kuvada (<strong>tõene</strong>) või peita (<strong>väär</strong>).   |
+|   showNavPane    | Kahendmuutuja väärtus, mis näitab, kas navigeerimispaan tuleb kuvada (<strong>tõene</strong>) või peita (<strong>väär</strong>). |
+|  defaultFilters  |                                              Power BI aruande vaikefiltrid.                                              |
+
 

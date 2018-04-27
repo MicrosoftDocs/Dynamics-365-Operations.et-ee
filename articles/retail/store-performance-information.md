@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-store-performance"></a>Kaupluse jõudluse analüüsimine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas kasutada mälusisest ja reaalajas analüüsi, et Microsoft Dynamics 365 for Retaili andmete põhjal kaupluse jõudlusele juurdepääs saada, seda uurida ja selle kohta ülevaadet saada. 
 

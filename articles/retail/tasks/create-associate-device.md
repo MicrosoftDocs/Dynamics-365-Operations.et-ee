@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> Seadme loomine ja seostamine
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab uue seadme loomist ja registriga seostamist. Eeldatakse, et register on juba loodud.  Ülesanne kasutab demoettevõtte USRT andmeid. See ülesanne on mõeldud administraatoritele, IT-spetsialisti või jaemüügi IT ja kaupluse juhataja rollidele.
 

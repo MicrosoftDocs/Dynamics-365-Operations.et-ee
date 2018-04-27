@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>Standardkulu teisendamise ülevaade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel annab protsessiülevaate, mis aitab teil standardkulu teisendust seadistada ja käitada. Nimetatud toimingud on mõeldud tegemiseks pärast standardkulu teisenduse eeltingimuste täitmist. 
 

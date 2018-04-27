@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Kooslused ja valemid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa. Kooslused ja valemid määravad kindla toote jaoks nõutavad materjalid või koostisosad. Valemid määravad ka kindla tootmise kontekstis vastuvõetavad kaastooted ja kõrvalsaadused. 
 

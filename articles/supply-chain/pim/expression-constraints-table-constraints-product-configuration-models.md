@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Avaldisepiirangud ja tabelipiirangud toote konfiguratsioonimudelites
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse avaldise piirangute ja tabeli piirangute kasutamist. Piirangute abil kontrollitakse atribuutide väärtusi, mida saab valida toodete konfigureerimisel müügitellimuse, müügipakkumise, ostutellimuse või tootmistellimuse jaoks. Saate avaldise piiranguid või tabeli piiranguid kasutada sõltuvalt sellest, kuidas soovite piiranguid luua. 
 
@@ -204,23 +203,24 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 
 Järgmise tabeli näited selgitavad, kuidas kirjutada infix-märke.
 
-| Infix-märk    | Kirjeldus                                                                                   |
+
+|  Infix-märk   |                                          Kirjeldus                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Lisa                                                                                      |
-| x \* y \* z       | Korrutamine                                                                                |
-| x - y             | Binaarne lahutamine teisendatakse samamoodi nagu negatiivse teise liikmega binaarne liitmine. |
-| x ^ y ^ z         | Parempoolse seosega astendamine                                                   |
-| !x                | Kahendmuutuja pole                                                                                   |
-| x -: y            | Kahendmuutuja mõju                                                                           |
-| x | y | z         | Kahendmuutuja või                                                                                    |
-| x & y & z         | Kahendmuutuja ja                                                                                   |
-| x == y == z       | Võrdne                                                                                      |
-| x != y != z       | Distinktne                                                                                      |
-| x &lt; y &lt; z   | Väiksem kui                                                                                     |
-| x &gt; y &gt; z   | Suurem kui                                                                                  |
-| x &lt;= y &lt;= z | Väiksem kui või võrdne                                                                         |
-| x &gt;= y &gt;= z | Suurem kui või võrdne                                                                      |
-| (x)               | Sulud alistavad vaikejärjestuse.                                                      |
+|     x + y + z     |                                           Lisa                                            |
+|    x \* y \* z    |                                        Korrutamine                                         |
+|       x - y       | Binaarne lahutamine teisendatakse samamoodi nagu negatiivse teise liikmega binaarne liitmine. |
+|     x ^ y ^ z     |                          Parempoolse seosega astendamine                          |
+|        !x         |                                          Kahendmuutuja pole                                          |
+|      x -: y       |                                      Kahendmuutuja mõju                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          Kahendmuutuja ja                                          |
+|    x == y == z    |                                           Võrdne                                            |
+|    x != y != z    |                                           Distinktne                                            |
+|  x &lt; y &lt; z  |                                           Väiksem kui                                           |
+|  x &gt; y &gt; z  |                                         Suurem kui                                          |
+| x &lt;= y &lt;= z |                                     Väiksem kui või võrdne                                     |
+| x &gt;= y &gt;= z |                                   Suurem kui või võrdne                                    |
+|        (x)        |                           Sulud alistavad vaikejärjestuse.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Miks minu avaldisepiiranguid õigesti ei kinnitata?
 Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või alamkomponentide nimena lahendaja nimena reserveeritud märksõnu. Siin on loend, mis sisaldab reserveeritud märksõnu, mida ei saa kasutada.

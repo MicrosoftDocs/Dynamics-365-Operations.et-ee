@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Kulumireeglite seadistamine ja loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kulumireeglid määratlevad vara kulumi tüübi ja sageduse.   Salvestamine kasutab demoettevõtet USMF ja raamatupidaja rolli.
 

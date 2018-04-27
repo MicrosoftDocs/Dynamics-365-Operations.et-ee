@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Müügitellimuste vahetu sünkroonimine rakenduste Sales ja Finance and Operations vahel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse müügitellimuste sünkroonimiseks rakenduste Microsoft Dynamics 365 for Sales ja Microsoft Dynamics 365 for Finance and Operations vahel.
 

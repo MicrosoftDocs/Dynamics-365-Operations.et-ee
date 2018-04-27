@@ -1,9 +1,9 @@
 ---
 title: "Laotöölehed"
-description: "Selles artiklis kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks."
-author: MarkusFogelberg
+description: "Selles teemas kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks."
+author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,21 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 968bf9a243d0c0cc9f0dfec474cb207ca32f9eeb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journals"></a>Laotöölehed
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
-
-Selles artiklis kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks.
+Selles teemas kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks.
 
 Laotöölehti kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operationsis mitmesuguste füüsiliste laokannete sisestamiseks, nt väljaminekute ja sissetulekuste, varude liikumiste, koosluste loomise ja füüsiliste varude vastavusseviimise sisestamiseks. Kõiki neid laotöölehti kasutatakse sarnasel viisil, kuid need on jagatud erinevateks tüüpideks.
 
@@ -51,7 +50,7 @@ Saadaval on järgmist tüüpi laotöölehti.
 
 ### <a name="movement"></a>Liikumine
 
-Varude liikumise töölehe kasutamisel saate lisada kaubale varude lisamisel maksumuse, kuid peate eraldama lisakulu käsitsi konkreetsele pearaamatukontole, määrates töölehe loomisel pearaamatu vastaskonto. Varude töölehe tüüp on abiks, kui soovite kanda kauba teise osakonna kuludesse või kui soovite eemaldada kaupu varudest kuludesse kandmiseks.
+Varude liikumise töölehe kasutamisel saate lisada kaubale varude lisamisel maksumuse, kuid peate eraldama lisakulu käsitsi konkreetsele pearaamatukontole, määrates töölehe loomisel pearaamatu vastaskonto. See varude töölehe tüüp on abiks, kui soovite vaikimisi sisestuskontod üle kirjutada.
 
 ### <a name="inventory-adjustment"></a>Lao korrigeerimine
 
@@ -61,8 +60,8 @@ Varude korrigeerimistöölehe kasutamisel saate lisada kaubale kulu varude lisam
 
 Üleviimistöölehti saab kasutada kaupade üleviimiseks ladustamiskohtade, partiide või tootevariantide vahel ilma kulusid seostamata. Näiteks võite viia kaupu ühest laost teise sama ettevõtte raames. Üleviimistöölehe kasutamisel tuleb määrata varude dimensioonid „kust” ja „kuhu” (nt väärtuste Laoala ja Ladu puhul). Määratletud varude dimensioonide vaba kaubavaru muudetakse vastavalt. Varude üleviimised kajastavad materjali viivitamatut liikumist. Transiidis olevaid varusid ei jälgita. Kui transiidis olevaid varusid tuleb jälgida, tuleb selle asemel kasutada üleviimistellimust. Üleviimistöölehe sisestamisel luuakse iga töölehe rea jaoks kaks varude kannet.
 
--   Lao väljaminek asukohast „kust”
--   Lao sissetulek asukohas „kuhu”
+-   Lao väljaminek asukohast „kust”.
+-   Lao sissetulek asukohas „kuhu”.
 
 ### <a name="bom"></a>Kooslus
 
@@ -95,4 +94,30 @@ Töölehele pääseb korraga juurde ainult üks kasutaja. Kui mitu kasutajat pea
 
 ## <a name="posting-journal-lines"></a>Töölehe ridade sisestamine
 Saate enda loodud tööleheread igal ajal sisestada, kuni olete lukustanud kauba täiendavate kannete eest. Töölehele sisestatud andmed jäävad sellele töölehele isegi juhul, kui sulgete töölehe ilma ridu sisestamata.
+
+## <a name="data-entity-support-for-inventory-journals"></a>Andmeüksuse tugi laotöölehtedele
+
+Andmeüksused toetavad järgmist tüüpi integratsioonistsenaariume:
+-    sünkroonne teenus (OData);
+-  asünkroonne integreerimine.
+
+Lisateavet vt jaotisest [Andmeüksused](../../dev-itpro/data-entities/data-entities.md).
+
+> [!NOTE]
+> Kõigis laotöölehtedes pole OData lubatud, seetõttu ei saa te andmete avaldamiseks, värskendamiseks ja rakendusse Dynamics 365 for Finance and Operations tagasi importimiseks kasutada Exceli andmekonnektorit. 
+
+Veel üks töölehe andmeüksuste erinevus on võimalus kasutada liitüksuseid, mis sisaldavad nii päist kui ka rea andmeid. Praegu saate liitüksuseid kasutada järgneva jaoks.
+-   Varude korrigeerimistööleht
+-   Varude liikumise tööleht
+
+Need kaks laotöölehte toetavad andmehalduse importimisprojekti osana ainult stsenaariumit *Laovaru lähtestamine*.
+-  Kui töölehe päise number pole määratud, kuid töölehe tüübile on määratud numbriseeria, loob importimistöö töölehe päised 1000 rea kohta automaatselt. Näiteks 2020 rea importimise tulemuseks on järgmised kolm töölehe päist.
+    -  Päis 1: sisaldab 1000 rida
+    -  Päis 2: sisaldab 1000 rida
+    -  Päis 3: sisaldab 20 rida
+-  Eeldatakse, et iga varude dimensiooni kohta on olemas kordmatu reateave, mis võib olla toote-, laoala- või jälgimisdimensioon. Seetõttu ei saa importida töölehe ridu, kus sama importimisprojekti raames on ridade erinevuseks ainult kuupäevaväli.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Andmeüksused](../../dev-itpro/data-entities/data-entities.md)
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>Valemi kopeerimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur keskendub valemi loomisele, mis sisaldab samu koostisosi kui olemasolev valem, kuid väikese erinevusega. Valemi ridade loomiseks saate kasutada funktsiooni Kopeeri, et kopeerida olemasolev valem, millel on enamik koostisainetest, mida vajate. Seejärel saate uue versiooni üksikutele ridadele mis tahes vajalikke muudatusi teha. Funktsiooni Kopeeri kasutades ei pea te mitut peaaegu ühesugust valemit looma. Selle ülesande loomiseks kasutati demoettevõtte USP2 andmeid.
 

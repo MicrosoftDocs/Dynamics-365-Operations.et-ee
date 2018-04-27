@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="create-service-objects"></a>Hooldusobjektide loomine  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
    
 Hooldusobjektid on kliendi varad ja tooted, millega seoses saab hooldust osutada. 
 

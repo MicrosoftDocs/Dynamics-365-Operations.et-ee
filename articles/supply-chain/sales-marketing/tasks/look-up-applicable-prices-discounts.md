@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Kohaldatavate hindade ja allahindluste otsimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas leida kindlale kliendile kehtivat toote hinda ja/või allahindlust ilma müügitellimust loomata. Protseduur selgitab konkreetse näite kaudu, kuidas valida vajalikud väärtused, kasutades demoettevõtte USMF andmeid.
 

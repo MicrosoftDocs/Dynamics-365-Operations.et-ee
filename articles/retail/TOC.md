@@ -31,7 +31,7 @@
 ## [Kõnekeskuse kataloogid](call-center-catalogs.md)
 ## [Kõnekeskuse kataloogi loomine](create-call-center-catalogs.md)
 ## [Pettuseteatiste seadistamine](set-up-fraud-alerts.md)
-## [Tellimuse töötlemise suvandite seadistamine](set-up-order-processing-options.md)
+## [Kõnekeskuse seadistamine](set-up-order-processing-options.md)
 ## [Kõnekeskuse järjepidevusprogrammi seadistamine](set-up-continuity-program.md)
 ## [Ootelolevad tellimused](work-with-order-holds.md)
 ## [Maksesuvandid](work-with-payments.md)
@@ -49,6 +49,7 @@
 ## [Kassatoimingud, ühendusega ja ühenduseta](pos-operations.md)
 ## [Demoandmete ekraanipaigutused MPOS-is/CPOS-is](demo-data.md)
 ## [Ülevaade toote ja kliendi otsingust kassas](POS-search-improvements.md)
+## [Otsing varudest kassas](product-variants-POS.md)
 ## Riistvara välisseadmed
 ### [Jaemüügi välisseadmete ülevaade](retail-peripherals-overview.md)
 ### [Microsofti testitud kassa riistvara välisseadmed](microsoft-tested-pos-hardware-peripherals.md)
@@ -96,6 +97,7 @@
 ## [RFM-analüüsi seadistamine](set-up-rfm-analysis.md)
 
 # Allahindlused ja hindade korrigeerimised
+## [Jaemüügi hinna haldamine](price-management.md)
 ## [Hinnakorrigeerimised ja allahindlused](price-adjustments-discounts.md)
 ## [Kattuvate allahindluste optimaalse kombinatsiooni määratlemine](optimal-combination-overlapping-discounts.md)
 ## [Kanalipõhiste allahindluste määratlemine](define-channel-specific-discounts.md)
@@ -139,16 +141,20 @@
 ## [Töö komponentide seadistamine](../talent/create-job.md)
 
 # Lokaliseerimine ja regulatiivsed funktsioonid
+## Prantsusmaa
+### [Prantsusmaa kassaaparaadid](localizations/emea-fra-cash-registers.md)
+### [Prantsusmaa kassaaparaatide juurutamise juhised](localizations/emea-fra-deployment.md)
 ## India
-### [India kassaaparaatide GST integreerimine](localizations/apac-ind-cash-registers.md)
+### [Kassaaparaatide GST integreerimine](localizations/apac-ind-cash-registers.md)
 ### [India kassaaparaatide juurutamise juhised](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Norra
 ### [Norra kassaaparaadid](localizations/emea-nor-cash-registers.md)
 ### [Norra kassaaparaatide juurutamise juhised](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Rootsi
 ### [Rootsi kassaaparaadid](localizations/emea-swe-cash-registers.md)
+### [Retail POS-i juhtseadmetega integreerimise näide](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
-# Retaili ülesanded
+# Retaili toimingud
 ## [Toote loomine](../supply-chain/pim/tasks/create-product.md)
 ## [Lingitud toodete konfigureerimine](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Toote/tooteetaloni väljastamine juriidilistele isikutele](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -260,6 +266,7 @@
 ### [e-Commerce’i platvormi SDK](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Makseühenduse laiendatavus
+### [Makse integreerimine makseterminaliga](dev-itpro/end-to-end-payment-extension.md)
 ### [Makseühenduse ja -seadme juurutamine (tehniline ülevaade)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Makseühenduse juurutamine](dev-itpro/deploy-payment-connector.md)
 ### [Windowsi installeri loomine makseühenduse jaoks](dev-itpro/create-windows-installer-payment-connector.md)
@@ -269,6 +276,7 @@
 ### [Retail SDK laiendatavuse näited](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Retail SDK pakend](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK näited ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [Saatelehtede laienduspunktid](dev-itpro/extensions-shipping-carrier-integration.md)
 ### [Kanali andmebaasi (DB) laiendid](dev-itpro/channel-db-extensions.md)
 ### [CDX-i laiendatavus](dev-itpro/cdx-extensibility.md)
 ### [Tellimuse atribuudid](dev-itpro/order-attributes.md)

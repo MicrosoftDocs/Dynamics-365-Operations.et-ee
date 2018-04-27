@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd85f89917659ac9c94590bace765b2123d6e556
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="coverage-settings"></a>Laovarude sätted
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Koondplaneerimine kasutab laovarude sätteid, et arvutada kaubavajadusi. 
 
@@ -46,7 +45,7 @@ saate määratleda laovarude sätteid mitmel viisil:
 
 <!-- -->
 
--   Määrake dimensioonigrupi kaubavarude sätted. Klõpsake valikuid **Tooteteabe haldus &gt; Üldine &gt; Väljastatud tooted**. Klõpsake lehe **Väljastatud toote üksikasjad** vahekaardil **Üldine** grupis **Administreerimine** linki **Laoala dimensioonigrupp**. Valige lehel **Laoala dimensioonigrupp** väli **Laovarude planeerimine dimensiooni järgi**, et luua laovarude sätted laoala dimensioonigrupi dimensiooni jaoks. Kõigi tootedimensioonide, nagu konfiguratsioon, värv, suurus, stiil, puhul peab olema väli **Laovarude planeerimine dimensiooni järgi** valitud.
+- Määrake dimensioonigrupi kaubavarude sätted. Klõpsake valikuid <strong>Tooteteabe haldus &gt; Üldine &gt; Väljastatud tooted</strong>. Klõpsake lehe <strong>Väljastatud toote üksikasjad</strong> vahekaardi **Üldine** grupis <strong>Haldus</strong> linki <strong>Laoala dimensioonigrupp</strong>. Valige lehel <strong>Laoala dimensioonigrupp</strong> väli <strong>Laovarude planeerimine dimensiooni järgi</strong>, et luua laovarude sätted laoala dimensioonigrupi dimensiooni jaoks. Kõigi tootedimensioonide, nagu konfiguratsioon, värv, suurus, stiil, puhul peab olema väli <strong>Laovarude planeerimine dimensiooni järgi</strong> valitud.
 
 
 

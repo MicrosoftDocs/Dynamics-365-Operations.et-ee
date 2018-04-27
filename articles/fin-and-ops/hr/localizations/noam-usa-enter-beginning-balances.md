@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Palga algsaldode sisestamine
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 Selles teemas kirjeldatakse tulukoodide, mahaarvamiste, soodustuste ja maksude algsaldode sisestamist. See teave väärtuslik partneritele, kes viivad uue palgajuurutuse jaoks teisest süsteemist andmeid üle. Palgasaldode sisestamiseks valmistumisel kontrollime järgmisi andmeid.
 
 > * Töötajakirjed on sisestatud ja süsteemis saadaval
 > * Järgmised andmed on seadistatud ja töötajatele määratud.
-
+> 
 > > * Palgatsüklid ja makseperioodid
 > > * Tulukoodid
 > > * Maksud
 > > * Soodustused ja mahaarvamised
-
+> 
 > * Ettevõte oleks pidanud valima kuupäeva, millele saab määrata palga algsaldosid.
-
+> 
 > * Andmeid koguti kõigi tulude, soodustuste/mahaarvamiste, soodustuse panuste, töötaja maksude ja tööandja maksude ning nende summad pärandsüsteemist jooksva aasta kohta.
 
 Kui plaanite algsaldode sisestamist, siis mõelge, kui üksikasjalikud andmed olema peavad. Enamik ettevõtteid sisestab jooksva aasta kohta ühe konsolideeritud summa. Kuid kui on vaja täpsemaid andmeid, saab saldod sisestada kvartalivahemikena. Vajaliku üksikasjataseme põhjal määratakse, mitu käsitsi palgaväljavõtet tuleb igale töötajale luua. Ühe jooksva aasta summa puhul on iga töötaja jaoks vaja ainult ühte käsitsi väljavõtet. Selleks kasutage jooksva aasta summasid eelmise süsteemi lõplikust palgaväljavõttest uude palgasüsteemi sisestatava summana.
@@ -128,22 +128,22 @@ Pärast algsaldodega palgaväljavõtete koostamist tuleb kontrollida, et palgav�
 
 4. Avage vahekaart **Soodustuse mahaarvamised** ja sisestage järgmine.
 
-| Väli                           | Väärtus            |
-|---------------------------------|------------------|
-| Soodustus                         | Mahaarvatav summa |
-| 401K | Osalus              | 3000.00          |
-| Hambaravikindlustus | SubSp                  | 495.00           |
-| Osak. kulutused ravikindlustusele | Osalus | 2500.00          |
-| Visioon | SupSp                  | 500,00           |
+|       Väli       |      Väärtus       |
+|-------------------|------------------|
+|      Soodustus      | Mahaarvatav summa |
+|       401K        |   Osalus    |
+|      Hambaravikindlustus       |      SubSp       |
+| Osak. kulutused ravikindlustusele |   Osalus    |
+|      Visioon       |      SupSp       |
 
 5. Sisestage vahekaardile **Soodustuse panused** järgmine.
 
-| Väli              | Väärtus               |
-|--------------------|---------------------|
-| Soodustus            | Panuse summa |
-| 401K | Osalus | 3000,00             |
-| Hambaravikindlustus | SubSp     | 495.00              |
-| Visioon | SubSp     | 500,00              |
+|  Väli  |        Väärtus        |
+|---------|---------------------|
+| Soodustus | Panuse summa |
+|  401K   |     Osalus     |
+| Hambaravikindlustus  |        SubSp        |
+| Visioon  |        SubSp        |
 
 6. Sisestage vahekaardile **Maksude mahaarvamised** järgmine.
 
@@ -156,8 +156,8 @@ Pärast algsaldodega palgaväljavõtete koostamist tuleb kontrollida, et palgav�
 7. Sisestage vahekaardile **Maksude panused** järgmine.
 
 8. Klõpsake valikut **Arvuta**.
-> [!IMPORTANT] 
-> Kontrollige töötaja makseväljavõtete kogusummade vastavust pärandsüsteemi jooksva aasta summadele. Järgmises etapis võib olla vaja lõpetamisega oodata, et oleks võimalik kõiki palgaväljavõtteid üldiselt kontrollida. Kui palgaväljavõtted on kontrollitud, vaadake need läbi ja lõpetage need.
+   > [!IMPORTANT] 
+   > Kontrollige töötaja makseväljavõtete kogusummade vastavust pärandsüsteemi jooksva aasta summadele. Järgmises etapis võib olla vaja lõpetamisega oodata, et oleks võimalik kõiki palgaväljavõtteid üldiselt kontrollida. Kui palgaväljavõtted on kontrollitud, vaadake need läbi ja lõpetage need.
 
 Sama protsessi saab teha vajaduse korral kvartalite kaupa iga aasta kõigi eelmiste kvartalite kohta. See on vajalik ainult juhul, kui kliendil on vaja andmeid kvartalite kaupa näha, pärandsüsteemi naasmata.
 

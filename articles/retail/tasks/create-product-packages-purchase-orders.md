@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Tootepakendite loomine ostutellimuste jaoks
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab tootepaketi loomist ja ostutellimusel kasutamist. Ostutellimust kasutatakse tellimuse loomiseks eelmääratletud tootekogumi kohta. Protseduur kasutab demoettevõtte USRT andmeid.
 

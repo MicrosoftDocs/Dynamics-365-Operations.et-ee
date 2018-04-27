@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-standard-cost-updates"></a>Standardomahinna värskenduste haldus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Standardomahinna andmete värskendusi saab hallata kahte erinevat lähenemist kasutades: üheversiooniline lähenemine ja kaheversiooniline lähenemine. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a>Kõnekeskuse järjepidevusprogrammi seadistamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas seadistada kõnekeskuse järjepidevusprogrammi.
 

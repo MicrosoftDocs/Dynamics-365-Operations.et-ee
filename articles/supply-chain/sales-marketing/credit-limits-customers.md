@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="credit-limits-for-customers"></a>Klientide krediidilimiidid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Krediidilimiitide määramine võimaldab määrata klientidele antava krediidi maksimumsumma. Kui krediidilimiit on määratud, kontrollitakse seda automaatselt, kui kasutaja püüab dokumenti värskendada. Krediidilimiidi ületamisel kuvatakse kasutajale teade. See artikkel annab ülevaate sellest, kuidas krediidilimiidid toimivad, ja vastab järgmistele küsimustele.
 

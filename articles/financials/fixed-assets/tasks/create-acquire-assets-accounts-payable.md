@@ -24,7 +24,7 @@ ms.lasthandoff: 10/05/2017
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Varade loomine ja soetamine ostureskontrost
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesande juhend annab ülevaate põhivara loomise ja soetamise kohta ostuprotsessiga. See kasutab raamatupidamis- ja ostureskontroametnikke ja demoettevõtet USMF.
 

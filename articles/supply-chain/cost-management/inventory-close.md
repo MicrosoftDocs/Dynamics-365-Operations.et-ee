@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-close"></a>Lao sulgemine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Väljaminekukannete sissetulekukannetega tasakaalustamise protsessi osana saate valida, et pearaamatu värskendamine kajastaks tehtud korrigeerimisi.
 

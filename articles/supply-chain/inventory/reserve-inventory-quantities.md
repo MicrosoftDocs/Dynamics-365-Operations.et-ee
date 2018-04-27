@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Laokoguste reserveerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse erinevaid varude reserveerimiseks saadaolevaid suvandeid.
 
@@ -50,6 +49,7 @@ Varude reserveerimise poliitikad määratakse lehel **Kauba mudeligrupid**, lehe
 ### <a name="policies-on-the-item-model-groups-page"></a>Poliitikad kaubamudeli gruppide lehel
 
 Jaotis **Varude poliitikad** sisaldab järgmiseid reserveerimispoliitikaid.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Reserveerimispoliitika**  | **Kirjeldus**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ Jaotis **Varude poliitikad** sisaldab järgmiseid reserveerimispoliitikaid.
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>Näide suvanditele FIFO kuupäevakontrolliga ja Lähetuskuupäevast tagasi
 
 Selles näites eksisteerivad vabad kaubavarud kaubakoodi A puhul kolme erineva partii numbri jaoks.
+
 | Kaubakood | Partii number | Kogus | Kuupäev             |
 |-------------|--------------|----------|------------------|
 | A           | 1000         | 5        | 2. veebruar 2016 |

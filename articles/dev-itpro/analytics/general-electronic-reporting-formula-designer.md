@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Valemikoostaja elektroonilises aruandluses
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat. ER-is kindla elektroonilise dokumendi vormingu koostamisel saate kasutada valemeid andmete teisendamiseks, et vastata selle dokumendi täitmise ja vormindamise nõuetele. Need valemid sarnanevad Microsoft Exceli valemitega. Valemites toetatakse erinevat tüüpi funktsioone: tekst, kuupäev ja kellaaeg, matemaatiline loogika, teave, andmetüübi teisendamine ja muud (ettevõtte domeenipõhised funktsioonid).
 
@@ -313,12 +313,12 @@ Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida sa
 <tr class="odd">
 <td>ORDERBY (loend [, avaldis 1, avaldis 2, …])</td>
 <td>Annab vastuseks määratud loendi pärast seda, kui seda on sorditud määratud argumentide kohaselt. Neid argumente saab määratleda avaldistena.</td>
-<td>Kui <strong>Hankija</strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab<strong>ORDERBY (Vendors, Vendors.'name()')</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kasvavas järjestuses.</td>
+<td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab <strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kasvavas järjestuses.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (loend)</td>
 <td>Tagastab määratud loendi vastupidises sortimisjärjestuses.</td>
-<td>Kui <strong>Hankija </strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kahanevas järjestuses.</td>
+<td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kahanevas järjestuses.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (loend, tingimus)</td>
@@ -395,7 +395,9 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 <tr class="even">
 <td>STRINGJOIN (loend, välja nimi, eraldaja)</td>
 <td>Annab vastuseks stringi, mis koosneb määratud loendi määratud väärtuse liitväärtustest. Väärtused on eraldatud määratud eraldajaga.</td>
-<td>Kui sisestate andmeallikana (DS) väärtuse <strong>SPLIT(&quot;abc&quot; , 1)</strong>, annab avaldis <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> tulemi <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>Kui sisestate andmeallikana (DS) väärtuse <strong>SPLIT(&quot;abc&quot; , 1)</strong> annab avaldis <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> tulemi <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (loend, piirväärtus, piirallikas)</td>
@@ -416,7 +418,7 @@ Piirangut ei rakendata algse loendi viimasele üksusele, kuna selle piirangu all
 <tr class="even">
 <td>FILTER (loend, tingimus)</td>
 <td>Annab vastuseks määratud loendi pärast seda, kui päringut on muudetud filtreerima määratud tingimuse kohaselt. Erinevalt funktsioonist <strong>WHERE</strong> rakendatakse määratud tingimust andmebaasi tasemel kõigile tüübi <strong>Tabeli kirjed</strong> ER-i andmeallikatele. Loendi ja tingimuse saab määrata tabelite ja seoste abil.</td>
-  <td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab vastuseks <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> hankijate loendi, mis kuulub hankijate gruppi 40. Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile <strong>VendTable</strong>, ning <strong>parmVendorBankGroup</strong>, mis on konfigureeritud ER-i andmeallikana, annab vastuseks stringi andmetüübi väärtuse, annab <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> vastuseks ainult nende hankija kontode loendi, mis kuuluvad konkreetsesse pangagruppi.</td>
+  <td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab vastuseks <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> hankijate loendi, mis kuulub hankijate gruppi 40. Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile <strong>VendTable</strong>, ning <strong>parmVendorBankGroup</strong>, mis on konfigureeritud ER-i andmeallikana, annab vastuseks stringi andmetüübi väärtuse, annab <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> vastuseks ainult nende hankija kontode loendi, mis kuuluvad konkreetsesse pangagruppi.</td>
 </tr>
 </tbody>
 </table>
@@ -553,7 +555,7 @@ Avaldis <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> annab vastuseks s
 <li>Finance and Operationsi silt SYS18389, millel on järgmine tekst.
 <ul>
 <li><strong>Inglise keeles:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Saksa keeles:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Saksa keeles:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Koostada saab järgmise valemi.</p>
@@ -561,7 +563,7 @@ Avaldis <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> annab vastuseks s
 <p>Kui töödeldakse kliendi <strong>Litware Retaili</strong> aruannet 17. detsembril 2015 kultuuris <strong>ET-EE</strong> ja keeles <strong>ET-EE</strong>, annab vastuseks see valem järgmise teksti, mida saab esitada erandliku teatena kasutajale:</p>
 <p>&quot;Midagi pole printida. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Kui sama aruannet töödeldakse kliendi <strong> Litware Retail</strong> jaoks 17. detsembril 2015 kultuuris <strong>DE</strong> ja keeles <strong>DE</strong>, annab vastuseks see valem järgmise teksti, mis kasutab erinevat andmevormingut:</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 Siltidele mõeldud ER-i valemites rakendatakse järgmist süntaksit.
 <ul>

@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Sortimendi haldus
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Ülevaade
 Microsoft Dynamics 365 for Retail pakub *sortimente*, mis võimaldavad teil hallata toote saadavust kanalite lõikes. Sortimendid määratlevad, millised tooted on konkreetsetes kauplustes ja millise perioodi jooksul saadaval.

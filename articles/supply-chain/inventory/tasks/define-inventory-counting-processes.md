@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Inventuuriprotsesside määratlemine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur annab ülevaate peamiste varude inventuuriprotsesside konfiguratsioonist, luues inventuurigrupi ja inventuuri töölehe. Samuti näitab see, kuidas lubada inventuuripoliitikad lao ja kauba tasemel. Neid ülesandeid täidab üldjuhul laoinspektor. Eeltingimuseks on mõne olemasoleva väljastatud toote ja ladude olemasolu. Demoandmete ettevõtte kasutamisel saate selle protseduuri USMF-ettevõttes käivitada iga ladustatud kaubaga.
 

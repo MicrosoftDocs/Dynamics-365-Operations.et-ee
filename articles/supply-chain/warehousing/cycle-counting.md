@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Tsükliline inventuur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel kirjeldab, kuidas kasutada tsüklilist inventuuri laohalduse moodulis oleva ladustamislahendusega. See artikkel ei kehti moodulis Varude haldus oleva ladustamislahenduse puhul.
 

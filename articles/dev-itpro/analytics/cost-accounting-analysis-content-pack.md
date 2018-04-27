@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab, mida hõlmab **kuluarvestuse analüüsi** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
@@ -111,18 +111,20 @@ Järgmine tabel näitab, kuidas kasutatakse peamisi koondmõõtmisi mitme arvuta
 
 Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate andmiseks.
 
-| Üksus                             | Atribuutide näited                                                                                               |
+
+|               Üksus               |                                                Atribuutide näited                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Kuluarvestuse pearaamatud            | Kuluarvestuse pearaamat                                                                                               |
-| Kulujuhtseadmed                 | Kulujuhtseadme nimi                                                                                               |
-| Kuluelemendi dimensioonid            | Kuluelementide dimensiooni nimi, kuluelemendi dimensiooniliikme nimi, kuluelemendi dimensiooniliikme kirjeldus          |
-| Kuluobjekti dimensioonid             | Kuluobjektide dimensiooni nimi, kuluobjekti dimensiooniliikme nimi, kuluobjekti dimensiooniliikme kirjeldus              |
-| Statistilised dimensioonid             | Statistilise dimensiooni nimi, statistilise dimensiooniliikme nimi, statistilise dimensiooniliikme kirjeldus              |
-| Kuluobjektide dimensioonihierarhiad  | Kuluobjektide dimensioonihierarhia nimi, kuluobjekti dimensioonihierarhia tase, kuluobjekti dimensioonihierarhia puu    |
+|      Kuluarvestuse pearaamatud       |                                                Kuluarvestuse pearaamat                                                |
+|         Kulujuhtseadmed         |                                                Kulujuhtseadme nimi                                                |
+|      Kuluelemendi dimensioonid       |     Kuluelementide dimensiooni nimi, kuluelemendi dimensiooniliikme nimi, kuluelemendi dimensiooniliikme kirjeldus      |
+|       Kuluobjekti dimensioonid       |       Kuluobjektide dimensiooni nimi, kuluobjekti dimensiooniliikme nimi, kuluobjekti dimensiooniliikme kirjeldus        |
+|       Statistilised dimensioonid       |       Statistilise dimensiooni nimi, statistilise dimensiooniliikme nimi, statistilise dimensiooniliikme kirjeldus        |
+| Kuluobjektide dimensioonihierarhiad  |  Kuluobjektide dimensioonihierarhia nimi, kuluobjekti dimensioonihierarhia tase, kuluobjekti dimensioonihierarhia puu   |
 | Kuluelementide dimensioonihierarhiad | Kuluelementide dimensioonihierarhia nimi, kuluelemendi dimensioonihierarhia tase, kuluelemendi dimensioonihierarhia puu |
-| Statistilised dimensioonihierarhiad  | Statistilise dimensioonihierarhia nimi, statistilise dimensioonihierarhia tase, statistilise dimensioonihierarhia puu    |
-| Kande versioonid               | Versiooni nimi                                                                                                         |
-| Rahandussaasta kalendrid                   | Kalender, kalendri kirjeldus                                                                                       |
-| Finantsaastad                       | Kalendriaasta                                                                                                        |
-| Rahandusperioodid                     | Kalendriaasta periood                                                                                                 |
+| Statistilised dimensioonihierarhiad  |  Statistilise dimensioonihierarhia nimi, statistilise dimensioonihierarhia tase, statistilise dimensioonihierarhia puu   |
+|        Kande versioonid        |                                                     Versiooni nimi                                                     |
+|          Rahandussaasta kalendrid          |                                            Kalender, kalendri kirjeldus                                            |
+|            Finantsaastad            |                                                    Kalendriaasta                                                     |
+|           Rahandusperioodid           |                                                 Kalendriaasta periood                                                 |
+
 

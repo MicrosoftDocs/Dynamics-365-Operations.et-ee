@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-bonus-depreciation"></a>Lisakulumi seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur kirjeldab kulumi erihüvitise loomist ja selle seostamist põhivararaamatuga. See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
 

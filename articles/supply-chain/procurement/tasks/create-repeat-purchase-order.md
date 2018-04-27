@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>Korduva ostutellimuse loomine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas koostada korduvat ostutellimust, kopeerides read varasemast ostutellimuse dokumendist uuele või olemasolevale ostutellimusele. Korduvate tellimuste koostamiseks on kaks meetodit. Saate kasutada dokumendi tasandil saadaolevaid toiminguid tegumiribalt või kasutada rea üksikasjade toiminguid. Dokumendi tasandi toimingud on peamiselt mõeldud uue ostutellimuse loomiseks, lisades ridu ja päise andmeid teisest tellimusest, samas kui rea üksikasjade toiming on peamiselt mõeldud olemasolevale tellimusele ridade lisamiseks. Selles juhendis toodud näidet saab kasutada demoandmete ettevõtte USMF puhul. Seda ülesannet täidab üldjuhul ostuagent.
 

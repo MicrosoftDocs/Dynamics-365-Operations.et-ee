@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>Otsetarned
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Artikkel sisaldab teavet otsetarnete kohta. Otsetarned on tarned, mis saadetakse hankijalt otse teie kliendile.
 

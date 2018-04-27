@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="finance-and-operations-client-faq"></a>Finance and Operationsi kliendi KKK
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel annab vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 for Finance and Operationsi klientrakenduse kohta.
 

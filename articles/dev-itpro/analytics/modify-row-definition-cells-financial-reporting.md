@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Readefinitsiooni lahtrite muutmine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada. 
 
@@ -104,26 +103,26 @@ Lahter **Vormingu kood** pakub selle rea sisu puhul eelvormindatud valikuid. Kui
 2.  Topeltklõpsake lahtrit **Vormingu kood**.
 3.  Valige vormingu kood loendist. Järgmises tabelis kirjeldatakse vormingu koode ja nende toiminguid.
 
-| **Vormingu kood**               | **Vormingukoodi tõlgendus** | **Tegevus**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (Pole)                        |                                       | Tühjendab lahtri **Vormingu kood**.                                                                                                                                                                               |
-| TOT                           | Kokku                                 |  Tuvastab matemaatilisi tehtemärke kasutava rea veerus **Seotud valemid/read/üksused**. Kogusummad sisaldavad lihtsaid tehtemärke, nagu **+** või **-**.                                                     |
-| CAL                           | Kalkulatsioon                           | Tuvastab matemaatilisi tehtemärke kasutava rea veerus **Seotud valemid/read/üksused**. Arvutused sisaldavad keerukaid tehtemärke, nagu **+**, **-**, **\***, **/**, ja lauseid **IF/THEN/ELSE** |
-| DES                           | Kirjeldus                           | Tuvastab aruande pealkirja rea või tühja rea.                                                                                                                                                        |
-| LFT RGT CEN                   | Vasakul, keskel, paremal                     |  Joondab aruande lehel rea kirjelduse teksti olenemata teksti paigutusest veeru definitsioonis.                                                                                              |
-| CBR                           | Baasrea muutmine                       | Määrab veeru arvutuste puhul baasrea määrava rea.                                                                                                                                               |
-| COLUMN                        | Veerupiir                          | Alustab aruandes uut veergu.                                                                                                                                                                             |
-| PAGE                          | Lehepiir                            | Alustab aruandes uut lehte.                                                                                                                                                                               |
-| \---                          | Üks allakriipsutus                      | Paneb aruande kõigi summa veergude alla ühe joone.                                                                                                                                                     |
-|  ===                          | Kahekordne allakriipsutus                      | Paneb aruande kõigi summa veergude alla topeltjoone.                                                                                                                                                     |
-| LINE1                         | Peen joon                             | Joonistab üle lehe ühe peene joone.                                                                                                                                                                      |
-| RIDA2                         | Paks joon                            | Tõmbab üle lehe ühe paksu joone.                                                                                                                                                                     |
-| RIDA3                         | Punktiirjoon                           | Joonistab üle lehe ühe punktiiri.                                                                                                                                                                    |
-| LINE4                         | Jäme ja peen joon              | Joonistab üle lehe topeltjoone. Ülemine joon on jäme ja alumine peen.                                                                                                                       |
-| LINE5                         | Peen ja jäme joon              | Joonistab üle lehe topeltjoone. Ülemine joon on peen ja alumine jäme.                                                                                                                       |
-| BXB BXC                       | Kastis rida                             | Joonistab kasti ümber aruande ridade, mis algavad reaga **BXB** ja lõppevad reaga **BXC**.                                                                                                               |
-| REM                           | Märkus                                | Määratleb rea, mis on kommentaaririda ja mida ei tuleks aruandele printida. Näiteks võib märkuserida selgitada teie vormistamismeetodeid.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Sortimine                                  | Sordib tulud või kulud, tegeliku või eelarve hälbe aruande suurima hälbe järgi või sordib rea kirjeldused tähestikuliselt.                                                                   |
+| <strong>Vormingu kood</strong>  | <strong>Vormingukoodi tõlgendus</strong> |                                                                                                                             <strong>Tegevus</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (Pole)             |                                                    |                                                                                                                  Tühjendab lahtri <strong>Vormingukood</strong>.                                                                                                                   |
+|              TOT              |                       Kokku                        |                                         Tuvastab matemaatilisi tehtemärke kasutava rea veerus <strong>Seotud valemid/read/üksused</strong>. Kogusummad sisaldavad lihtsaid tehtemärke, nagu <strong>+</strong> või <strong>-</strong>.                                         |
+|              CAL              |                    Kalkulatsioon                     | Tuvastab matemaatilisi tehtemärke kasutava rea veerus <strong>Seotud valemid/read/üksused</strong>. Arvutused sisaldavad keerukaid tehtemärke, nagu <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em> ja lauseid **IF/THEN/ELSE</em>*. |
+|              DES              |                    Kirjeldus                     |                                                                                                             Tuvastab aruande pealkirja rea või tühja rea.                                                                                                              |
+|          LFT RGT CEN          |                 Vasakul, keskel, paremal                  |                                                                                 Joondab aruande lehel rea kirjelduse teksti olenemata teksti paigutusest veeru definitsioonis.                                                                                 |
+|              CBR              |                  Baasrea muutmine                   |                                                                                                         Määrab veeru arvutuste puhul baasrea määrava rea.                                                                                                         |
+|            COLUMN             |                    Veerupiir                    |                                                                                                                        Alustab aruandes uut veergu.                                                                                                                        |
+|             PAGE              |                     Lehepiir                     |                                                                                                                         Alustab aruandes uut lehte.                                                                                                                         |
+|             \---              |                  Üks allakriipsutus                  |                                                                                                            Paneb aruande kõigi summa veergude alla ühe joone.                                                                                                            |
+|              ===              |                  Kahekordne allakriipsutus                  |                                                                                                            Paneb aruande kõigi summa veergude alla topeltjoone.                                                                                                            |
+|             LINE1             |                     Peen joon                      |                                                                                                                    Joonistab üle lehe ühe peene joone.                                                                                                                     |
+|             RIDA2             |                     Paks joon                     |                                                                                                                    Tõmbab üle lehe ühe paksu joone.                                                                                                                    |
+|             RIDA3             |                    Punktiirjoon                     |                                                                                                                   Joonistab üle lehe ühe punktiiri.                                                                                                                    |
+|             LINE4             |              Jäme ja peen joon              |                                                                                             Joonistab üle lehe topeltjoone. Ülemine joon on jäme ja alumine peen.                                                                                             |
+|             LINE5             |              Peen ja jäme joon              |                                                                                             Joonistab üle lehe topeltjoone. Ülemine joon on peen ja alumine jäme.                                                                                             |
+|            BXB BXC            |                     Kastis rida                      |                                                                            Tõmbab ruudu aruanderidade ümber, mis algavad reaga <strong>BXB</strong> ja lõpevad reaga <strong>BXC</strong>.                                                                            |
+|              REM              |                       Märkus                       |                                                               Määratleb rea, mis on kommentaaririda ja mida ei tuleks aruandele printida. Näiteks võib märkuserida selgitada teie vormistamismeetodeid.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Sortimine                        |                                                                   Sordib tulud või kulud, tegeliku või eelarve hälbe aruande suurima hälbe järgi või sordib rea kirjeldused tähestikuliselt.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Seotud valemite/ridade/üksuste määramine
 Lahtril **Seotud valemid/read/üksused** on mitu eesmärki. Olenevalt rea tüübist saab lahter **Seotud valemid/read/üksused** täita üht järgmistest funktsioonidest.
@@ -211,12 +210,12 @@ Sortimiskoodid sordivad kontod või väärtused, tegeliku või eelarve hälbe ar
 
 ### <a name="select-a-sorting-code"></a>Sortimiskoodi valimine
 
-1.  Klõpsake aruande kujundajas suvandit **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
-2.  Topeltklõpsake lahtrit **Vormingu kood** ja seejärel valige sortimiskood.
-3.  Määrake lahtris **Seotud valemid/read/üksused** sorditavate reakoodide vahemik. Vahemiku määramiseks sisestage esimene rea kood, koolon (:) ja seejärel viimane rea kood. Näiteks sisestage **160:490** määramaks, et vahemik on rida 160 kuni rida 490.
-4.  Sisestage lahtrisse **Veeru piirang** sortimisel kasutatava aruande veeru täht. 
-> [!Note] 
-> Kaasake sortimise arvutusse ainult summa read.
+1. Klõpsake aruande kujundajas suvandit **Readefinitsioonid** ja seejärel avage muutmiseks readefinitsioon.
+2. Topeltklõpsake lahtrit **Vormingu kood** ja seejärel valige sortimiskood.
+3. Määrake lahtris **Seotud valemid/read/üksused** sorditavate reakoodide vahemik. Vahemiku määramiseks sisestage esimene rea kood, koolon (:) ja seejärel viimane rea kood. Näiteks sisestage **160:490** määramaks, et vahemik on rida 160 kuni rida 490.
+4. Sisestage lahtrisse **Veeru piirang** sortimisel kasutatava aruande veeru täht. 
+   > [!Note] 
+   > Kaasake sortimise arvutusse ainult summa read.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Tõusvate ja laskuvate veeru väärtuste näited
 
@@ -258,41 +257,41 @@ Lahter **Vormingu alistamine** määrab aruande printimisel rea puhul kasutatava
 
 Valuuta vorming rakendub eelarve summale ja sisaldab valuuta tähist. Valikud on järgmised:
 
--   **Valuuta sümbol** aruandes kasutatav valuuta sümbol. See väärtus alistab ettevõtte teabe sätte **Piirkonnavalikud**.
--   **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
--   **Kümnendkohad** – pärast kümnendkohta näidatavate numbrikohtade arv.
--   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
-> [!Note] 
-> Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
+- **Valuuta sümbol** aruandes kasutatav valuuta sümbol. See väärtus alistab ettevõtte teabe sätte **Piirkonnavalikud**.
+- **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
+- **Kümnendkohad** – pärast kümnendkohta näidatavate numbrikohtade arv.
+- **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
+  > [!Note] 
+  > Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
 
 ### <a name="numeric-formatting"></a>Arvuvorming
 
 Arvuvorming rakendub mis tahes summale, mis ei sisalda valuuta tähist. Valikud on järgmised:
 
--   **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
--   **Kümnendkohad** – pärast kümnendkohta näidatavate numbrikohtade arv.
--   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
-> [!Note] 
-> Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
+- **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
+- **Kümnendkohad** – pärast kümnendkohta näidatavate numbrikohtade arv.
+- **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
+  > [!Note] 
+  > Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
 
 ### <a name="percentage-formatting"></a>Protsendivorming
 
 Protsendivorming sisaldab protsendimärki (%). Valikud on järgmised:
 
--   **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
--   **Kümnendkohad** – pärast kümnendkohta kuvatavate numbrikohtade arv.
--   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
-> [!Note] 
-> Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
+- **Negatiivsed arvud** – negatiivsetel arvudel võib olla miinusmärk (–), need võivad olla sulgudes või kolmnurgaga (∆).
+- **Kümnendkohad** – pärast kümnendkohta kuvatavate numbrikohtade arv.
+- **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
+  > [!Note] 
+  > Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
 
 ### <a name="custom-formatting"></a>Kohandatud vorming
 
 Kasutage kohandatud vormingu alistamise loomiseks kohandatud vormingu kategooriat. Valikud on järgmised:
 
--   **Tüüp**: kohandatud vorming.
--   **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
-> [!Note] 
-> Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
+- **Tüüp**: kohandatud vorming.
+- **Nullväärtuse alistamise tekst** – aruandesse kaasatav tekst, kui summa on 0 (null). See tekst kuvatakse ala **Näidis** viimase reana. 
+  > [!Note] 
+  > Kui printimine on nullväärtuste või perioodi aktiivsuse puudumise puhul tõkestatud, on see tekst peidetud.
 
 Tüüp peaks tähistama positiivset väärtust ja seejärel negatiivset väärtust. Üldjuhul sisestate sarnase vormingu, mis eristab positiivset ja negatiivset väärtust. Näiteks määramaks, et nii positiivsetel kui ka negatiivsetel väärtustel on kaks kümnendkohta, kuid negatiivsed väärtused kuvatakse sulgudes, sisestage **0.00;(0.00)**. Järgmises tabelis näidatakse kohandatud vorminguid, mida saate kasutada oma väärtuste vormingu juhtimiseks. Kõik näited algavad väärtusest 1234.56.
 
@@ -387,7 +386,7 @@ Vaikimisi ei prindi aruandekoostur ridu, mille finantsandmetes pole asjakohast s
 3.  Muudatuste salvestamiseks klõpsake menüü **Fail** käsku **Salvesta**.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Metamärkide ja vahemike kasutamine readefinitsioonis
-Füüsilise segmendi väärtuse sisestamisel dialoogiboksi **Dimensioonid** saate panna metamärgi (? või \*) segmendi mis tahes kohta. Aruandekoostur ekstraktib kõik määratud asukohtade väärtused metamärke arvestamata. Näiteks sisaldab readefinitsioon ainult füüsilise segmendi väärtusi ja füüsilistel segmentidel on neli tähemärki. Sisestades reale **6???**, juhendate aruandekoosturit kaasama kõiki kontosid, mille füüsilise segmendi väärtus algab 6-ga. Kui sisestate **6\***, saadakse samad tulemused, kuid tulemused sisaldavad ka muutuva laiusega väärtusi, nagu **60** ja **600000**. Aruandekoostur asendab iga metamärgi (?) võimalikud väärtuste vahemikuga, mis hõlmavad tähti ja erimärke. Näiteks vahemikus **12?0** kuni **12?4** asendatakse **12?0** metamärk märgistiku madalaima väärtusega ja **12?4** metamärk asendatakse märgistiku kõrgeima väärtusega. 
+Füüsilise segmendi väärtuse sisestamisel dialoogiboksi <strong>Dimensioonid</strong> saate panna metamärgi (? või \*) segmendi mis tahes kohta. Aruandekoostur ekstraktib kõik määratud asukohtade väärtused metamärke arvestamata. Näiteks sisaldab readefinitsioon ainult füüsilise segmendi väärtusi ja füüsilistel segmentidel on neli tähemärki. Sisestades reale <strong>6???</strong>, juhendate aruandekoosturit kaasama kõiki kontosid, mille füüsilise segmendi väärtus algab 6-ga. Kui sisestate <strong>6\</strong><em>, saadakse samad tulemused, kuid tulemused sisaldavad ka muutuva laiusega väärtusi, nagu **60</em>* and <strong>600000</strong>. Aruandekoostur asendab iga metamärgi (?) võimalikud väärtuste vahemikuga, mis hõlmavad tähti ja erimärke. Näiteks vahemikus <strong>12?0</strong> kuni <strong>12?4</strong> asendatakse <strong>12?0</strong> metamärk märgistiku madalaima väärtusega ja <strong>12?4</strong> metamärk asendatakse märgistiku kõrgeima väärtusega. 
 > [!Note] 
 > Peaksite vältima metamärkide kasutamist vahemike algus- ja lõppkontode puhul. Algus- või lõppkontol metamärkide kasutamisel võite saada ootamatuid tulemusi.
 
@@ -466,15 +465,15 @@ Dimensiooniväärtuste kogum on dimensiooniväärtuste nimega grupp. Dimensiooni
 
 ### <a name="update-a-set-of-dimension-values"></a>Dimensiooniväärtuste kogumi värskendamine
 
-1.  Avage aruandekoosturis muudetav rea-, veeru- või aruandluspuu definitsioon.
-2.  Klõpsake menüüs **Redigeeri** suvandit **Dimensiooniväärtuste kogumite haldamine**.
-3.  Valige dimensiooni tüüp dialoogiboksi **Dimensiooniväärtuste kogumite haldamine** väljalt **Dimensioon**.
-4.  Valige loendist värskendatav dimensiooniväärtuste kogum ja seejärel klõpsake käsku **Muuda**.
-5.  Muutke dialoogiboksis **Muutmine** kogumisse kaasatava valemi väärtusi. 
-> [!Note] 
-> Uute kontode või dimensioonide lisamisel veenduge, et muudaksite muudatuste kaasamiseks olemasolevaid dimensiooniväärtuse kogumeid.
-6.  Topeltklõpsake lahtrit ja valige sobiv tehtemärk, konto **Alates** ja konto **Kuni**.
-7.  Klõpsake nuppu **OK** dialoogiboksi **Muutmine** sulgemiseks ja muudatuste salvestamiseks.
+1. Avage aruandekoosturis muudetav rea-, veeru- või aruandluspuu definitsioon.
+2. Klõpsake menüüs **Redigeeri** suvandit **Dimensiooniväärtuste kogumite haldamine**.
+3. Valige dimensiooni tüüp dialoogiboksi **Dimensiooniväärtuste kogumite haldamine** väljalt **Dimensioon**.
+4. Valige loendist värskendatav dimensiooniväärtuste kogum ja seejärel klõpsake käsku **Muuda**.
+5. Muutke dialoogiboksis **Muutmine** kogumisse kaasatava valemi väärtusi. 
+   > [!Note] 
+   > Uute kontode või dimensioonide lisamisel veenduge, et muudaksite muudatuste kaasamiseks olemasolevaid dimensiooniväärtuse kogumeid.
+6. Topeltklõpsake lahtrit ja valige sobiv tehtemärk, konto **Alates** ja konto **Kuni**.
+7. Klõpsake nuppu **OK** dialoogiboksi **Muutmine** sulgemiseks ja muudatuste salvestamiseks.
 
 ### <a name="copy-a-dimension-set"></a>Dimensioonikogumi kopeerimine
 

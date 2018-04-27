@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Kulumimääramise tava muutmine mitme põhivara puhul
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesanne värskendab konkreetse põhivara grupi kulumiarvestusreegli. See ülesande juhend kasutab demoettevõtet USMF.
 

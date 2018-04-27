@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Ribareklaami või logo muutmine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Järgmine protseduur loetleb toimingud, mida süsteemiadministraatorid saavad kasutada juriidilise isiku puhul kuvatava ribareklaami või logo pildi värskendamiseks. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

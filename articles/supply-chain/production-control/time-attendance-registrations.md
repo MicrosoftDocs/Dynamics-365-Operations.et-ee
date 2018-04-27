@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Tööajaarvestuse registreerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See teema kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks. 
 
@@ -95,7 +94,7 @@ Saate seadistada töövoo kinnitamise protsessi, mis kinnitab töövooreeglitele
 | Tööajaarvestuse päevade koguarv            | Töövoog kontrollib registreerimise näiteks päeva eeldatava töötundide arvu suhtes. |                                                                                                                                                                                                                                                       |
 | Tööajaarvestuse töölehe registreerimine. | Töövoog kontrollib iga registreerimistüübi puhul registreerimise kuupäeva.                           | Tööajaarvestus • sisseregistreerimine • väljaregistreerimine • puudumine • puhkepaus • lülituse kood • projekt • projektitegevus • kaudse tegevuse tootmistööd • järjekord enne • seadistus • protsess • kattumine • transport • järjekord pärast • alustusabi • lõpetusabi |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Kinnitatud registreerimiste ülekandmine
 Pärast registreerimiste kinnitamist saate need üle kanda perioodilisse palgatöösse. Ülekantud registreerimine sisestatakse mis tahes sellega seotud tegevusse või töösse, näiteks tootmistellimusse või projekti. Palgakanded luuakse iga töötaja kohta registreerimiste põhjal.  

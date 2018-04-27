@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-quality-orders"></a>Kvaliteettellimuste seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui sissetulevaid varusid tuleb kontrollida kohe pärast saabumise registreerimist. Protseduuri täidab üldjuhul kvaliteedijuht. Protsess hõlmab kvaliteedigrupi loomist näidise võtmiseks kasutatavate kaupade määratlemiseks ja katsegrupi loomist kvaliteedigrupi kaupade puhul tehtavate katsete grupeerimiseks. Saate seda juhendit käitada demoettevõtte USMF andmetega.
 

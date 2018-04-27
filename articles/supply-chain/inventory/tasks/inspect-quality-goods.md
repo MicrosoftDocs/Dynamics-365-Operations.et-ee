@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="inspect-the-quality-of-goods"></a>Kaupade kvaliteedi kontrollimine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas kvaliteettellimust töödelda. Saate selle juhendi käitada demoettevõtte USMF andmetega. Enne selle näidisprotseduuri käivitamist peate ostutellimuse 000016 kinnitama ja toote sissetuleku sisestama. See loob kvaliteettellimuse automaatselt. Kvaliteedikontrolle teeb üldjuhul kvaliteediametnik.
 

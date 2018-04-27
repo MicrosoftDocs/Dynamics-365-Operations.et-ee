@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Nõudluse prognoosi käsitsi muutmine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas kauba prognoosi muuta. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Registreerimine on mõeldud tootmise planeerijale. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Kulumimeetodid ja kulumiarvestusreeglid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel annab ülevaate Microsoft Dynamics 365 for Finance and Operationsis toetatud kulumiarvestusreeglitest ja -meetoditest.
 
@@ -62,7 +61,7 @@ Saate valida järgmiste kulumimeetodite hulgast.
 -   150% vähenev saldo
 -   125% vähenev saldo
 
- 
+
 
 
 

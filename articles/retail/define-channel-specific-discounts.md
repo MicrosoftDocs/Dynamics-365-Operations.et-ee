@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>Kanalipõhiste allahindluste määratlemine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Jaemüüjad määravad tihti erinevates kanalites erinevad allahindlused. Selles teemas antakse ülevaade mõistetest, mida peate teadma kindlale kanalile allahindluse loomiseks. 
 
@@ -61,7 +60,7 @@ Järgmine näide illustreerib kanali allahindluse seadistamiseks vajalikke toimi
 4.  Pärast uue allahindluse **Tagasi-kooli** loomist tuleb klõpsata valikut **Hinnagrupid** lehe **Allahindlus** ülemises osas. Avaneb leht **Allahindluse hinnagrupid**. Seejärel klõpsake nuppu **Uus** ja valige hinnagrupp **Houston-PG**.
 5.  Nüüd saate allahindluse lubada ja kanalisse suunata.
 
- 
+
 
 <a name="see-also"></a>Vt ka
 --------

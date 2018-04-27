@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Tootmisprotsessis kasutatud kulukategooriad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel annab teavet protsesse kasutavate tootmiskeskkondade puhul kehtivate kulukategooriate kohta.
 

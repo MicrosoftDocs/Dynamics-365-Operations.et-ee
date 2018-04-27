@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Seerianumbrite registreerimine müügiprotsessis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 See teema selgitab, kui registreerida müügiprotsessi ajal seerianumbreid saatelehtedel või arvetel. See funktsioon on abiks, kui ettevõte soovib hõivata seerianumbreid teenindus‑ ja garantiieesmärkidel, kuid ei pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma.
 

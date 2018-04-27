@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Transpordihalduse mootorid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Transpordihalduse mootorid määratlevad loogika, mida kasutatakse transpordihindade loomiseks ja töötlemiseks moodulis Transpordihaldus. 
 
@@ -47,7 +46,7 @@ Järgmises tabelis on toodud Microsoft Dynamics 365 for Finance and Operationsis
 | **Tsooni mootor**                  | Arvutab tsooni praeguse aadressi põhjal ja tsoonide arvu, mis tuleb aadressilt A aadressile B liikumiseks läbida.                                                                                                                                                                    |
 | **Veoarve tüüp**            | Standardiseerib veose arve ja veoarve read ning kasutatakse automaatseks veoarve võrdlemiseks.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Millised mootorid tuleb saadetise hindamiseks konfigureerida?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Et transpordihalduse mootor teatud viisil toimiks, on vaja seadistada lähtestam
 -   Lihtsad konfiguratsiooniandmed.
 
 Enamasti võite lähtestamise andmete konfigureerimiseks klõpsata nuppu **Parameetrid** transpordihalduse mootori seadistusvormidel. **Läbisõidumootorile viitava määramootori konfigureerimise näide.** Järgmises näites on toodud seadistus, mis on .NET-mootori tüübil Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine põhineva määramootori puhul nõutav ja mis viitab läbisõidumootorile.
-| Parameeter             | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | .NET-tüüp, mis tõlgendab hinna aluse määrangu andmeid konkreetse skeemi puhul. Parameetri väärtuse süntaks koosneb kahest segmendist, mis on piiritletud vertikaalribaga (|). Esimene segment sisaldab assembleri nime, mis määratleb määraja tüübi. Teine segment määratleb määraja tüübi täisnime. See hõlmab tüübi nimeruumi. |
-| *MileageEngineCode*   | Läbisõidumootori kood, mis tähistab läbisõidumootori kirjet Microsoft Dynamics 365 for Finance and Operationsi andmebaasis.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Üldise mootori kood, mis tähistab jaotamise mootorit Microsoft Dynamics 365 for Finance and Operationsi andmebaasis.                                                                                                                                                                                                                                                              |
 
- 
+|          Parameeter           |                                                                                  Kirjeldus                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | .NET-tüüp, mis tõlgendab hinna aluse määrangu andmeid konkreetse skeemi puhul. Parameetri väärtuse süntaks koosneb kahest segmendist, mis on piiritletud vertikaalribaga ( |
+|  <em>MileageEngineCode</em>  |                       Läbisõidumootori kood, mis tähistab läbisõidumootori kirjet Microsoft Dynamics 365 for Finance and Operationsi andmebaasis.                        |
+| <em>ApportionmentEngine</em> |                        Üldise mootori kood, mis tähistab jaotamise mootorit Microsoft Dynamics 365 for Finance and Operationsi andmebaasis.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kuidas kasutatakse transpordihalduse mootorites metaandmeid?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ Andmeid, mida Microsoft Dynamics 365 for Finance and Operationsis hindade arvuta
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Kas kõik mootorikonfiguratsioonid nõuavad metaandmeid?
 Ei, hinnaarvutuseks välistest süsteemidest andmete toomiseks kasutatavad transpordihalduse mootorid ei vaja metaandmeid. Nende mootorite jaoks saab hinnaandmed tuua välistest vedaja süsteemidest, tavaliselt veebiteenuse kaudu. Näiteks saate kasutada läbisõidumootorit, mis toob andmed otse Bingi kaartidest, seega pole selle mootori jaoks metaandmeid vaja.
+
 | **Märkus.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Transpordihalduse mootorid, mis on Finance and Operationsiga kaasas, tuginevad rakendusest toodud andmetele. Väliste süsteemidega ühenduvaid mootoreid pole Operationsiga kaasas. Mootoripõhise laiendatavusega mudel võimaldab siiski luua laiendusi, kasutades Microsoft Dynamics 365 for Finance and Operationsi Visual Studio tööriistu. |

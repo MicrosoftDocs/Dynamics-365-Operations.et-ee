@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Atribuudid, atribuudigrupid ja nende seosed erinevate jaemüügiüksustega rakenduses Finance and Operations
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 *Atribuudid* võimaldavad täpsemalt kirjeldada toodet ja selle omadusi kasutaja määratud väljade kaudu (nagu **mälu suurus**, **kõvaketta maht**, **vastavus energiatähisele** jne). Rakenduses Microsoft Dynamics 365 for Finance and Operations saab atribuute seostada erinevate jaemüügiüksustega, nagu tootekategooriad ja jaemüügikanalid, ning neile saab määrata vaikeväärtused. Tooted pärivad seejärel atribuudid ja atribuutide vaikeväärtused, kui need seostatakse tootekategooriate või jaemüügikanalitega. Vaikeväärtusi saab alistada üksiku toote tasemel, jaemüügikanali tasemel või jaemüügikataloogis.
  
@@ -227,13 +227,13 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
 5. Kiirkaardil **Tooted** valige nõutav toode ja seejärel valige tooteruudustiku kohal suvand **Atribuudid**.
 6. Järgmistel kiirkaartidel värskendage nõutavate atribuutide väärtusi:
 
-    - Ühiskasutuses tootemeedium
-    - Ühised toote atribuudid
-    - Kanali meedium
-    - Kanali toote atribuudid
+   - Ühiskasutuses tootemeedium
+   - Ühised toote atribuudid
+   - Kanali meedium
+   - Kanali toote atribuudid
 
-    > [!NOTE]
-    > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
+     > [!NOTE]
+     > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
 
 ![Kataloogi toote atribuudigrupid](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
 
 5. Järgmistel kiirkaartidel värskendage nõutavate atribuutide väärtusi:
 
-    - Ühiskasutuses tootemeedium
-    - Ühised toote atribuudid
-    - Kanali meedium
-    - Kanali toote atribuudid
+   - Ühiskasutuses tootemeedium
+   - Ühised toote atribuudid
+   - Kanali meedium
+   - Kanali toote atribuudid
 
-    > [!NOTE]
-    > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
+     > [!NOTE]
+     > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
 

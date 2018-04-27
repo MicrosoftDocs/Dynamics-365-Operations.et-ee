@@ -3,7 +3,7 @@ title: Aegunud funktsioonid
 description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
 author: sericks007
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema kirjeldab funktsioone, mis on rakendusest Microsoft Dynamics 365 for Finance and Operations eemaldatud või aegunud.
 
@@ -37,7 +37,10 @@ See teema kirjeldab funktsioone, mis on rakendusest Microsoft Dynamics 365 for F
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 > [!Note]
-> Alates rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition, 2017. aasta juulikuu väljaandest platvormivärskendusega 8 on iga eemaldatud või aegunud funktsiooni puhul märgitud juurutuste tüüp. Kõik selles teemas mainitud varasemad versioonid toetasid ainult pilvejuurutusi.
+> Alates rakenduse Dynamics 365 for Finance and Operations 2017. aasta juulikuu väljaandest platvormivärskendusega 8 on iga eemaldatud või aegunud funktsiooni puhul märgitud juurutuste tüüp. Kõik selles teemas mainitud varasemad versioonid toetasid ainult pilvejuurutusi.
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Microsoft Dynamics 365 for Finance and Operations 8.0 platvormivärskendusega 15
+Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Platvormivärskendus 15 on kumulatiivne ja sisaldab uusi või muudetud funktsioone platvormivärskendusest 13, platvormivärskendusest 14 ja platvormivärskendusest 15.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 platvormivärskendusega 12
 
@@ -97,7 +100,7 @@ Standardne kasutajaliides andmehalduses on pärandkasutajaliides, mis kuvatakse 
 | **Asendatud teise funktsiooniga?**   | Vana kasutajaliidese asendab uus kasutajaliides nimega *Täiustatud vaated*.            |
 | **Mõjutatud tootealad**         | Andmehalduse tööruum                                                     |
 | **Juurutamissuvand**              | Kõik                                                                           |
-| **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2018. aasta 1. kvartal. |
+| **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2018. aasta 2. kvartal. |
 
 ### <a name="excise-sales-tax-service-tax-for-india"></a>Aktsiis, käibemaks, teenindusmaks Indias
 
@@ -1034,10 +1037,11 @@ Windows 8 tahvelarvuti rakendus pakkus kulude sisestamise ja kinnitamise funktsi
 
 ### <a name="x-financial-statements"></a>X++ finantsaruanded
 
-|   |  |
-|------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | See funktsioon on asendatud teise funktsiooniga.                                    |
-| **Asendatud teise funktsiooniga?**   | Management Reporter (selles Dynamics AX-i versioonis nimega **Finantsaruandlus**) |
-| **Mõjutatud tootealad**         | Pearaamat                                                                              |
-| **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 2012.                                                              |
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <strong>Aegumise/eemaldamise põhjus</strong> |                         See funktsioon on asendatud teise funktsiooniga.                         |
+|  <strong>Asendatud teise funktsiooniga?</strong>  | Management Reporter (selles Dynamics AX-i versioonis nimega <strong>Finantsaruandlus</strong>) |
+|     <strong>Mõjutatud tootealad</strong>     |                                              Pearaamat                                              |
+|             <strong>Olek</strong>             |                                      Eemaldatud alates rakendusest Dynamics AX 2012.                                      |
+
 

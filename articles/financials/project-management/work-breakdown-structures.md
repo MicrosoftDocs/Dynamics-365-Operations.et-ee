@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>Tööjaotuse struktuurid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tööjaotuse struktuur (WBS) on projekti puhul tehtava töö kirjeldus. See on ülesannete hierarhia, mis kajastab projekti töörühma arusaama töö koosseisust ja iga osa või ülesande ulatusest, maksumusest ja kestusest. WBS-il on kolm suurt eesmärki.
 
@@ -115,7 +115,7 @@ Graafiku prognoosimine on tavaliselt WBS-i loomise teine etapp. Graafikut on kõ
 
 Ilma eelkäijateta lehe sõlmülesande alguskuupäevaks määratakse automaatselt projekti plaanimise alguskuupäev. Lehe sõlmülesande kestus arvutatakse alati algus- ja lõppkuupäevade vaheliste tööpäevade arvuna. 
 
-****Plaanimisreeglid**** Kui automaatne plaanimisabi on sisse lülitatud, kehtivad lehe sõlmülesannete plaanimisel järgmised reeglid.
+*<strong><em>Plaanimisreeglid</em></strong>* Kui automaatne plaanimisabi on sisse lülitatud, kehtivad lehe sõlmülesannete plaanimisel järgmised reeglid.
 
 -   Ülesande algus- ja lõppkuupäevad peavad olema projekti planeerimise kalendrile vastavad tööpäevad.
 -   Eelkäijatega ülesande alguskuupäevaks määratakse automaatselt selle eelkäijate hiliseim lõppkuupäev.

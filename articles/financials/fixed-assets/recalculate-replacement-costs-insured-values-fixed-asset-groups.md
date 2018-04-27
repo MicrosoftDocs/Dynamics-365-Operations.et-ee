@@ -27,8 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Põhivaragruppide asendusväärtuste ja kindlustusväärtuste ümberarvutus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel selgitab põhivara asendusväärtuste ja kindlustusväärtuste värskendamist.
 

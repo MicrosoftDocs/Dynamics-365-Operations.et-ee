@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Osa komplekteerimise kinnitus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Osade komplekteerimine võimaldab kinnitada iga varude osa mobiilsel seadmel komplekteerimis- või inventuuritöö kaudu. Komplekteerimiste puhul saate kinnitada töödeldava töö koguse kuni komplekteeritaval tööl määratud koguseni. Inventuuritöö puhul võite skannida loendatavad varud ja jälgida kogusummat.
 
@@ -46,8 +46,10 @@ Osa komplekteerimine toimib kogu inventuuritöö ja mis tahes tüüpi töö algs
 
 Kui töö tüüp on komplekteerimine või inventuur, saab teha järgmisi valikuid.
 
-| Suvand        | Kirjeldus   | 
-| ------------- | ------------- |
-| Osa komplekteerimise kinnitus   | Saadaval komplekteerimise ja inventuuri töötüüpide jaoks. Toote kinnitamine valitakse automaatselt. Võimaldab iga varude üksust mobiilsel seadmel skannides kinnitada. | 
-| Osade maksimaalne arv     | Komplekteerimistöö jaoks saadaval, kui osa komplekteerimise kinnitamine on lubatud. Määrab piirmäära ühikute arvule, mille peate kinnitama. |  
+
+|           Suvand           |                                                                            Kirjeldus                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Osa komplekteerimise kinnitus | Saadaval komplekteerimise ja inventuuri töötüüpide jaoks. Toote kinnitamine valitakse automaatselt. Võimaldab iga varude üksust mobiilsel seadmel skannides kinnitada. |
+|  Osade maksimaalne arv  |                   Komplekteerimistöö jaoks saadaval, kui osa komplekteerimise kinnitamine on lubatud. Määrab piirmäära ühikute arvule, mille peate kinnitama.                   |
+
 

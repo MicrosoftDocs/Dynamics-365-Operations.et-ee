@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Finantsaruande loomine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema sisaldab finantsaruande koostamise üldteavet. 
 
@@ -50,13 +49,13 @@ Aruande loomisel kasutatakse valikuid, mille olete määranud valiku Aruande def
 ## <a name="generate-a-financial-report"></a>Finantsaruande loomine
 
 Finantsaruande loomiseks rakendusega Microsoft Dynamics 365 for Finance and Operations valige **Pearaamat** > **Päringud ja aruanded** > **Finantsaruanded**. 
- - Valige loodav aruanne ja klõpsake nuppu **Loo**. 
- - Täitke väli **Aruande kuupäev** ja klõpsake **OK**.
- 
- Kui aruanne on loodud, saab seda vaadata jaotises **Aruanded**.
- Saate valida, kas soovite aruannet **Vaadata** või **Kustutada**.
- 
- 
+- Valige loodav aruanne ja klõpsake nuppu **Loo**. 
+- Täitke väli **Aruande kuupäev** ja klõpsake **OK**.
+
+  Kui aruanne on loodud, saab seda vaadata jaotises **Aruanded**.
+  Saate valida, kas soovite aruannet **Vaadata** või **Kustutada**.
+
+
 Aruande loomiseks **Aruande koostaja** abil avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo. Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne Web Vieweris.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Puuduva konto analüüsi käivitamisel on saadaval järgmised kiirklahvid.
 | Valitud aruande definitsiooni avamine  | Ctrl+R                     |
 | Valitud readefinitsiooni avamine     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Vt ka
 --------
 

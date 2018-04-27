@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Käsitsi kulumiarvestus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse ülevaade käsitsi rakendatavast kulumiarvestusmeetodist.
 
@@ -67,7 +66,7 @@ Kui teete valiku **Igakuine** väljal**Perioodi sagedus**, seadistate 12 käsits
 | Jaanuar  | (11 000 – 1000) × 10% = 1000 |
 | Veebruar | (11 000 – 1000) × 50% = 5000 |
 
-Kui valite **Kord poolaastas** väljalt ****Perioodi sagedus** **, seadistate kaks käsitsi graafikuintervalli. Järgmine tabel näitab nende kahe intervalli kulumisummasid.
+Kui valite <strong>Kord poolaastas</strong> *<strong>väljalt<em>Perioodi sagedus</em>*</strong>, seadistate kaks käsitsi graafikuintervalli. Järgmine tabel näitab nende kahe intervalli kulumisummasid.
 
 | Intervall    | Kulumisumma            |
 |-------------|--------------------------------|

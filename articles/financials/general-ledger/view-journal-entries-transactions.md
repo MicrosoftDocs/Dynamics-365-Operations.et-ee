@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Töölehe kirjete ja kannete kuvamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse erinevaid viise, kuidas vaadata töölehe kandeid ja kandeid. 
 
@@ -55,7 +54,7 @@ Lisaks finantsaruannetele saate pearaamatu kannete vaatamiseks kasutada järgmis
 -   **Kande päritolu** – selles aruandes kuvatakse konto töölehe ja kande, raamatupidamise ja aruandlusvaluuta järgi. See kuvab ka tasakaalustamisel kasutatud töölehe iga rea.
 
 
-##<a name="see-also"></a>Vt ka
+## <a name="see-also"></a>Vt ka
 - [Pearaamatukonto saldod](general-ledger-account-balances.md) 
 - [Arveldusallika uurija](..\accounts-payable\accounting-source-explorer.md)
 - [Finantsaruandlus](financial-reporting-getting-started.md)

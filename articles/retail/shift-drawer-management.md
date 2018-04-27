@@ -29,8 +29,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="shift-and-cash-drawer-management"></a>Vahetuse ja sularahasahtli haldamine
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas seadistada ja kasutada kahte tüüpi jaemüügikassa vahetust – ühist ja eraldiseisvat. Ühiseid vahetusi saab kasutada mitu kasutajat mitmes kohas, samas kui eraldi vahetusi saab kasutada korraga ainult üks töötaja.
 

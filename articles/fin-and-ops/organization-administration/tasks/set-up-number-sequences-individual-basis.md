@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Eraldi numbriseeriate seadistamine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Numbriseeriaid kasutatakse loetavate ainuidentifikaatorite loomiseks koondandmetele ja kandekirjetele, mis neid nõuavad. Koondandmeid või kandekirjet, mis nõuavad identifikaatorit, nimetatakse viiteks. Enne kui saate viite jaoks uusi kirjeid luua, peate seadistama numbriseeria ja selle viitega siduma. Saate seadistada kõik vajalikud numbriseeriad korraga, kasutades viisardit Seadista numbriseeriad, või saate luua või muuta üksikuid numbriseeriad lehe Numbriseeriad abil.
 

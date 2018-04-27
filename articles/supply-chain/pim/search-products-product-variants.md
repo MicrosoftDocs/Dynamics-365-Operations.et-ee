@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 08715b4c31c42dfa23d72b1035a1e7cc737c13a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Toodete ja tootevariantide otsimine tellimuse sisestamise käigus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Kasutage välja <strong>Kaubakood </strong>, et otsida tooteid ja tootevariante, kui loote käsitsi müügi- või ostutellimuse rea.  See võimaldab teil kiiresti leida tootevariante, kui teil on ainult konfiguratsiooni string või üks saadaolevatest tootedimensioonidest.
 
@@ -72,7 +72,7 @@ Näited toote ja tootevariandi identifikaatoritest ja dimensioonidest, millega s
 
 Valige **Müük ja turundus &gt; Seadistus &gt; Otsing &gt; Otsingukriteeriumid**. Leht **Otsingukriteeriumid** võimaldab teil määratleda kliendi, potentsiaalse kliendi ja tooteotsingu kriteeriumid. Veenduge, et filtreerite lehte, kasutades toote otsingukriteeriume. Selleks lülituge lehe menüüs valikule **Toode**.  
 
-Kuvatava tootenumbri otsingukriteeriumidele lisamiseks klõpsake lehe menüüs nuppu **Uus**. See lisab ruudustikku **Otsingukriteeriumid** uue kirje. Avage veeru otsing **Välja nimi** ja valige **DisplayProductNumber**. Toote konfiguratsiooni otsingukriteeriumidele lisamiseks looge uus kirje ruudustikus **Otsingukriteeriumid** ja valige väärtus **configId** veerus **Välja nimi**. Samal viisil looge värvi dimensiooni jaoks kirje väärtusega **Välja nimi** **InventColorId**, suuruse dimensiooni jaoks kirje väärtusega **InventSizeId** ja laadi dimensiooni jaoks kirje väärtusega **InventStyleId**.
+Kuvatava tootenumbri otsingukriteeriumidele lisamiseks klõpsake lehe menüüs nuppu <strong>Uus</strong>. See lisab ruudustikku <strong>Otsingukriteeriumid</strong> uue kirje. Avage veeru otsing <strong>Välja nimi</strong> ja valige <strong>DisplayProductNumber</strong>. Toote konfiguratsiooni otsingukriteeriumitesse lisamiseks looge uus kirje ruudustikus<strong> Otsingukriteeriumid** ja valige **configId</strong> veerus <strong>Välja nimi</strong>. Samal viisil looge värvi dimensiooni jaoks kirje väärtusega <strong>Välja nimi</strong> <strong>InventColorId</strong>, suuruse dimensiooni jaoks kirje väärtusega <strong>InventSizeId</strong> ja laadi dimensiooni jaoks kirje väärtusega <strong>InventStyleId</strong>.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2. etapp. Asustage andmebaasi tabel, mida kasutatakse tooteotsinguks
 

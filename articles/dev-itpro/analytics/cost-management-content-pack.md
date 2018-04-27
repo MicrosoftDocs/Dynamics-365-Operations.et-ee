@@ -3,11 +3,12 @@ title: Kuluhalduse Power BI sisu
 description: "See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/02/2018
+ms.date: 03/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -19,124 +20,195 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: 6739d769c3f7876f67d80554743458b0abd5aae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-management-power-bi-content"></a>Kuluhalduse Power BI sisu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
+## <a name="overview"></a>Ülevaade
+
+**Kuluhalduse** Microsoft Power BI sisu on mõeldud laoraamatupidajatele või organisatsioonis varude eest vastutavatele või varude olekust või lõpetamata toodangust (WIP) huvitatud üksikisikutele või neile, kes vastutavad või on huvitatud standardkulu erinevuste analüüsimisest.
 
 > [!Note]
-> See sisupakett on aegunud, nagu on kirjas dokumendis [Saidil PowerBI.com avaldatud Power BI sisupaketid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> Selles teemas kirjeldatud **Kuluhalduse** Power BI sisu kehtib rakenduse Dynamics 365 for Finance and Operations 8.0 puhul.
+> 
+> Saidil PowerBI.com avaldatud **Kuluhalduse** Power BI sisupakett on aegunud. Lisateavet aegumise kohta vt teemast [Saidil PowerBI.com avaldatud Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
 
 
-See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu. 
+See Power BI sisu pakub liigitatud vormingut, mis aitab teil jälgida varude jõudlust ja visualiseerida kulude voogu läbi nende. Pääsete juhtimisülevaadetele, nagu ringluskiirus; päevade arv, kui kaua varud on laos olnud; täpsus ja ABC-liigitus, ligi eelistatud koondtasemel (ettevõte, kaup, kaubagrupp või koht). Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
 
-**Kuluhalduse** Microsoft Power BI sisu on mõeldud laoraamatupidajatele või organisatsioonis varude eest vastutavatele üksikisikutele. **Kuluhalduse** Power BI sisu pakub juhtimisülevaadet varudest ja pooleliolevatest (WIP) varudest ning neist aja jooksul kategooriate kaupa läbivoolavast kulust. Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
+Power BI sisu on rajatud on koondmõõtmisele **CostObjectStatementCacheMonthly**, millele on põhiandmete allikatabelina liidetud **CostObjectStatementCache**. Seda tabelit hallatakse andmekogumi vahemälu raamistikuga. Vaikimisi värskendatakse tabelit iga 24 tunni järel, kuid saate värskendamissagedust muuta või lubada andmekogumi vahemälu konfiguratsioonis käsitsi värskendused. Käsitsi värskendusi saab käivitada kas tööruumis **Kuluhaldus** või **Kuluanalüüs**.
 
-## <a name="key-measures"></a>Põhimeetmed
+Pärast iga tabeli **CostObjectStatementCache** värskendust tuleb enne, kui andmed Power BI visualisatsioonidel värskendatakse, värskendada koondmõõtmist **CostObjectStatementCacheMonthly**.
 
-+ Algsaldo
-+ Lõppsaldo
-+ Netomuutus
-+ Netomuutus, %
-+ Ajaline jaotus
+## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 
-## <a name="key-performance-indicators"></a>Juhtimismõõdikud
-+ Laokäive
-+ Varude täpsus
+**Kuluhalduse** Power BI sisu kuvatakse tööruumis **Kuluhaldus** ja **Kuluanalüüs**.
 
-Atribuudi CostAggregatedCostStatementEntryEntity peamine andmeallikas on tabel CostStatementCache. Seda tabelit hallatakse andmekogumi vahemälu raamistikuga. Vaikimisi värskendatakse tabelit iga 24 tunni järel, kuid saate lubada andmete vahemälu konfiguratsioonis käsitsi värskendused. Seejärel saate tabelit käsitsi värskendada tööruumis **Kuluhaldus** või **Kuluanalüüs**. Pärast atribuudi CostStatementCache värskendamist peate värskendama Power Bi.com’is OData ühendust, et näha värskendatud andmeid saidil. Hälbe (ostu, tootmise) meetmed selles Power BI sisus puudutavad ainult kaupu, mida hinnatakse varude standardomahinna meetodiga. Toote hälve arvutatakse erinevusena tegeliku kulu ja realiseeritud kulu vahel. Tootmishälve arvutatakse, kui tootmistellimuse olek on **Lõpetatud**. Lisateavet tootmishälvete tüüpide ja iga tüübi arvutamise kohta vt teemast [Teave lõpule viidud tootmistellimuse hälvete analüüsimise kohta](https://technet.microsoft.com/en-us/library/gg242850.aspx).
+Tööruum **Kuluhaldus** sisaldab järgmisi vahekaarte.
 
+- **Ülevaade** – sellel vahekaardil kuvatakse rakenduse andmed.
+- **Laoarvestuse olek** – sellel vahekaardil kuvatakse Power BI sisu.
+- **Tootmise raamatupidamise olek** – sellel vahekaardil kuvatakse Power BI sisu.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
-Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **kuluhalduse** Power BI sisu visualiseerimistest.
+Tööruum **Kuluanalüüs** sisaldab järgmisi vahekaarte.
 
-| Aruandeleht | Diagrammid | Tiitlid |
-|---|---|---|
-|Varud kokku (vaikimisi praeguse perioodi järgi) |Täpsus |Varude meetmed<br>Varude lõppsaldo<br>Varude netomuutus<br>Varude netomuutuse %<br>|
-| |Laokäive | |
-| |Varude lõppsaldo ressursigrupi alusel | |
-| |Varude netomuutus kategooria 1. ja 2. nimetaseme alusel| |
-| |Ostuhälbed ressursigrupi ja kategooria 3. nimetaseme alusel | |
-|Varud saidi alusel (vaikimisi praeguse perioodi järgi) |Varude lõppsaldo saidi nime ja ressursigrupi alusel | |
-| |Laokäive saidi nime ja ressursigrupi alusel | |
-| |Varude lõppsaldo linna ja ressursigrupi alusel | |
-|Varud ressursigrupi alusel (vaikimisi praeguse perioodi järgi) |Varude meetmed | |
-| |Varude täpsus summa alusel ressursigrupi järgi | |
-| |Laokäive summa alusel ressursigrupi järgi | |
-|Varude YOY (vaikimisi praegune aasta vs eelmine aasta) |Varude meetmed | |
-| |Varude KPI-d<br>Laokäive<br>Varude täpsus | |
-| |Varude lõppsaldo aasta ja ressursigrupi alusel | |
-| |Ostuhälbed aasta ja kategooria 3. nimetaseme alusel | |
-|Varude ajaline jaotus (vaikimisi praeguse aasta järgi) |Varude ajaline jaotus kvartali ja ressursigrupi alusel | |
-| |Varude ajaline jaotus kvartali ja saidi nime alusel | |
-|WIP kokku (vaikimisi praeguse perioodi järgi) |WIP netomuutus kategooria 1. ja 2. nimetaseme alusel |Poolelioleva töö (WIP) meetmed<br>WIP lõppsaldo<br>WIP netomuutus<br>WIP netomuutuse %<br> |
-| |Tootmishälbed ressursigrupi ja kategooria 3. nimetaseme alusel | |
-| |WIP netomuutus ressursigrupi alusel | |
-|WIP saidi alusel (vaikimisi praeguse perioodi järgi) |Poolelioleva töö (WIP) meetmed | |
-| |WIP netomuutus saidi nime ja kategooria 2. nimetaseme alusel | |
-| |Tootmishälbed saidi nime ja kategooria 3. nimetaseme alusel | |
+- **Ülevaade** – sellel vahekaardil kuvatakse rakenduse andmed.
+- **Laoarvestuse analüüs** – sellel vahekaardil kuvatakse Power BI sisu.
+- **Tootmise raamatupidamise analüüs** – sellel vahekaardil kuvatakse Power BI sisu.
+- **Standardse omahinna hälbe analüüs** – sellel vahekaardil kuvatakse Power BI sisu.
 
-## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Aruandelehtede täitmiseks **kuluhalduse** Power BI sisus kasutatakse Finance and Operationsi andmeid. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL-i andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md). Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruande lehed
 
-| Üksus            | Peamine koondmõõtmine | Finance and Operationsi andmeallikas | Väli             | Kirjeldus                       |
-|-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
-| Väljavõtte kirjed | Netomuutus                | CostAggregatedCostStatementEntryEntity      | sum(\[Summa\])   | Summa arvestusvaluutas |
-| Väljavõtte kirjed | Netomuutuse kogus       | CostAggregatedCostStatementEntryEntity      | sum(\[Kogus\]) |                                   |
+**Kuluhalduse** Power BI sisu sisaldab aruandelehtede komplekti, mis koosneb mõõdikute kogumist. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. 
 
-Järgmine tabel näitab, kuidas kasutatakse peamisi koondmõõtmisi mitme arvutatud meetme loomiseks sisu andmekogumis.
+Järgmised tabelid annavad ülevaate **Kuluhalduse** Power BI sisu visualiseeringutest.
 
-| Mõõt                                 | Meetme arvutamise viis                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Algsaldo                       | \[Lõppsaldo\]-\[Netomuutus\]                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Algsaldo kogus              | \[Lõppsaldo kogus\]-\[Netomuutuse kogus\]                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Lõppsaldo                          | CALCULATE(SUM(\[Summa\]), FILTER(ALLEXCEPT('Rahandusaasta kalendrid', 'Rahandusaasta kalendrid'\[LedgerRecId\], 'üksused'\[ID\], 'üksused'\[Nimi\], 'Pearaamatud'\[Valuuta\], 'Pearaamatud'\[Kirjeldus\], 'Pearaamatud'\[Nimi\]), 'Rahandusaasta kalendrid'\[Kuupäev\] &lt;= MAX('Rahandusaasta kalendrid'\[Kuupäev\])))                                                                                                                                                                                           |
-| Lõppsaldo kogus                 | CALCULATE(SUM(\[Kogus\]), FILTER(ALLEXCEPT('Rahandusaasta kalendrid', 'Rahandusaasta kalendrid'\[LedgerRecId\], 'olemid'\[ID\], 'olemid'\[Nimi\], 'Pearaamatud'\[Valuuta\], 'Pearaamatud'\[Kirjeldus\], 'Pearaamatud'\[Nimi\]), 'Rahandusaasta kalendrid'\[Kuupäev\] &lt;= MAX('Rahandusaasta kalendrid'\[Kuupäev\])))                                                                                                                                                                                         |
-| Varude algsaldo             | CALCULATE(\[Algsaldo\], 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "Varud")                                                                                                                                                                                                                                                                                                                                                                                      |
-| Varude lõppsaldo                | CALCULATE(\[Lõppsaldo\], 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "Varud")                                                                                                                                                                                                                                                                                                                                                                                         |
-| Varude netomuutus                    | CALCULATE(\[Netomuutus\], 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "Varud")                                                                                                                                                                                                                                                                                                                                                                                             |
-| Varude netomuutuse kogus           | CALCULATE(\[Netomuutus\], 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "Varud")                                                                                                                                                                                                                                                                                                                                                                                    |
-| Varude netomuutuse %                  | IF(\[Varude lõppsaldo\] = 0, 0, \[Varude netomuutus\] / \[Varude lõppsaldo\])                                                                                                                                                                                                                                                                                                                                                                           |
-| Laokäive summa alusel                | if(OR(\[Varude keskmine saldo\] &lt;= 0, \[Müüdud või tarbitud varude väljaminekud\] &gt;= 0), 0, ABS(\[Müüdud või tarbitud varude väljaminekud\])/\[Varude keskmine saldo\])                                                                                                                                                                                                                                                                                                  |
-| Varude keskmine saldo               | (\[Varude lõppsaldo\] + \[Varude algsaldo\]) / 2                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Müüdud või tarbitud varude väljaminekud       | \[Müüdud varud\] + \[Tarbitud varude materjalikulu\]                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Tarbitud varude materjalikulu        | CALCULATE(\[Varude netomuutus\], 'Väljavõtte kirjed'\[Kategooria nimi – 2. tase\_\] = "ConsumedMaterialsCost")                                                                                                                                                                                                                                                                                                                                                            |
-| Müüdud varud                          | CALCULATE(\[Varude netomuutus\], 'Väljavõtte kirjed'\[Kategooria nimi – 2. tase\_\] = "Müüdud")                                                                                                                                                                                                                                                                                                                                                                             |
-| Varude täpsus summa alusel            | IF(\[Varude lõppsaldo\] &lt;= 0, IF(OR(\[Varude loetud summa\] &lt;&gt; 0, \[Varude lõppsaldo\] &lt; 0), 0, 1), MAX(0, (\[Varude lõppsaldo\] - ABS(\[Varude loetud summa\]))/\[Varude lõppsaldo\]))                                                                                                                                                                                                                              |
-| Varude loetud summa                | CALCULATE(\[Varude netomuutus\], 'Väljavõtte kirjed'\[Kategooria nimi – 3. tase\_\] = "Loendus")                                                                                                                                                                                                                                                                                                                                                                         |
-| Varude ajaline jaotus                         | if(ISBLANK(max('Rahandusaasta kalendrid'\[Kuupäev\])), blank(), MAX(0, MIN(\[Varude ajalise jaotusega sissetulekute kogus\], \[Varude ajalise jaotusega lõppsaldo kogus\] - \[Varude ajalise jaotusega sissetulekute kogus tulevikus\]))) \* \[Varude keskmine ühikukulu\]                                                                                                                                                                                                                                |
-| Varude ajalise jaotusega sissetulekute kogus       | IF(\[minDate\] = \[minDateAllSelected\], CALCULATE(\[Varude netomuutuse kogus\], 'Väljavõtte kirjed'\[Kogus\] &gt; 0, FILTER(ALLEXCEPT('Rahandusaasta kalendrid', 'Rahandusaasta kalendrid'\[LedgerRecId\], 'olemid'\[ID\], 'olemid'\[Nimi\], 'Pearaamatud'\[Valuuta\], 'Pearaamatud'\[Kirjeldus\], 'Pearaamatud'\[Nimi\]), 'Rahandusaasta kalendrid'\[Kuupäev\] &lt;= MAX('Rahandusaasta kalendrid'\[Kuupäev\]))), CALCULATE(\[Varude netomuutuse kogus\], 'Väljavõtte kirjed'\[Kogus\] &gt; 0)) |
-| Varude ajalise jaotusega lõppsaldo kogus | \[Varude lõppsaldo kogus\] + CALCULATE(\[Varude netomuutuse kogus\], FILTER(ALLEXCEPT('Rahandusaasta kalendrid', 'Rahandusaasta kalendrid'\[LedgerRecId\], 'olemid'\[ID\], 'olemid'\[Name\], 'Pearaamatud'\[Valuuta\], 'Pearaamatud'\[Kirjeldus\], 'Pearaamatud'\[Nimi\]), 'Rahandusaasta kalendrid'\[Kuupäev\] &gt; max('Rahandusaasta kalendrid'\[Kuupäev\]) ))                                                                                                                                 |
-| Varude ajalise jaotusega sissetulekud tulevikus  | CALCULATE(\[Varude netomuutus\], 'Väljavõtte kirjed'\[Summa\] &gt; 0, FILTER(ALLEXCEPT('Rahandusaasta kalendrid', 'Rahandusaasta kalendrid'\[LedgerRecId\], 'üksused'\[ID\], 'üksused'\[Nimi\], 'Pearaamatud'\[Valuuta\], 'Pearaamatud'\[Kirjeldus\], 'Pearaamatud'\[Nimi\]), 'Rahandusaasta kalendrid'\[Kuupäev\] &gt; MAX('Rahandusaasta kalendrid'\[Kuupäev\])))                                                                                                                                             |
-| Varude keskmine ühikukulu                 | CALCULATE(\[Varude lõppsaldo\] / \[Varude lõppsaldo kogus\],ALLEXCEPT('Rahandusaasta kalendrid', 'Rahandusaasta kalendrid'\[LedgerRecId\], 'üksused'\[ID\], 'üksused'\[Nimi\], 'Pearaamatud'\[Valuuta\], 'Pearaamatud'\[Kirjeldus\], 'Pearaamatud'\[Nimi\]))                                                                                                                                                                                                                 |
-| Ostuhälbed                      | CALCULATE(SUM(\[Summa\]), 'Väljavõtte kirjed'\[Kategooria nimi – 2. tase\_\] = "Hangitud", 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "Hälve")                                                                                                                                                                                                                                                                                                                              |
-| WIP algsaldo                   | CALCULATE(\[Algsaldo\], 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                            |
-| WIP lõppsaldo                      | CALCULATE(\[Lõppsaldo\], 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                               |
-| WIP netomuutus                          | CALCULATE(\[Netomuutus\], 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                                   |
-| WIP netomuutuse %                        | IF(\[WIP lõppsaldo\] = 0, 0, \[WIP netomuutus\] / \[WIP lõppsaldo\])                                                                                                                                                                                                                                                                                                                                                                                             |
-| Tootmishälbed                    | CALCULATE(SUM(\[Summa\]), 'Väljavõtte kirjed'\[Kategooria nimi – 2. tase\_\] = "ManufacturedCost", 'Väljavõtte kirjed'\[Väljavõtte tüüp\] = "Hälve")                                                                                                                                                                                                                                                                                                                      |
-| Kategooria nimi – 1. tase                 | switch(\[Kategooria nimi – 1. tase\_\], "Pole", "Pole", "NetSourcing", "Netohange", "NetUsage", "Netokasutus", "NetConversionCost", "Teisenduse netokulu", "NetCostOfGoodsManufactured", "Toodetud kaupade netokulu", "BeginningBalance", "Algsaldo")                                                                                                                                                                                                         |
-| Kategooria nimi – 2. tase                 | switch(\[Kategooria nimi – 2. tase\_\], "Pole", "Pole", "Hangitud", "Hangitud", "Likvideeritud", "Likvideeritud", "Ülekantud", "Üle kantud", "Müüdud", "Müüdud", "ConsumedMaterialsCost", "Tarbitud materjalikulu", "ConsumedManufacturingCost", "Tarbitud tootmiskulu", "ConsumedOutsourcingCost", "Tarbitud hankekulu", "ConsumedIndirectCost", "Tarbitud kaudne kulu", "ManufacturedCost", "Tootmiskulu", "Hälbed", "Hälbed")                            |
-| Kategooria nimi – 3. tase                 | switch(\[Kategooria nimi – 3. tase\_\], "Pole", "Pole", "Loendus", "Pole", "ProductionPriceVariance", "Tootmishind", "QuantityVariance", "Kogus", "SubstitutionVariance", "Asendus", "ScrapVariance", "Praak", "LotSizeVariance", "Partii suurus", "RevaluationVariance", "Ümberhindlus", "PurchasePriceVariance", "Ostuhind", "CostChangeVariance", "Kulu muutus", "RoundingVariance", "Ümardamishälve")                                                   |
+### <a name="inventory-accounting-status"></a>Laoarvestuse olek
+
+| Aruandeleht                               | Visualiseering                                   |
+|-------------------------------------------|-------------------------------------------------|
+| Varude ülevaade                        | Algsaldo                               |
+|                                           | Netomuutus                                      |
+|                                           | Netomuutuse %                                    |
+|                                           | Lõppsaldo                                  |
+|                                           | Varude täpsus                              |
+|                                           | Lao ringluskiirus                        |
+|                                           | Vaba kaubavaru hoidmise päevad                          |
+|                                           | Aktiivne toode perioodis                        |
+|                                           | Aktiivsed kuluobjektid perioodis                   |
+|                                           | Saldo kaubagruppide kaupa                           |
+|                                           | Saldo laoala järgi                                 |
+|                                           | Väljavõte kategooria alusel                           |
+|                                           | Netomuutus kvartalite kaupa                           |
+| Varude ülevaade laoala ja kaubagruppide kaupa | Varude täpsus laoala järgi                      |
+|                                           | Lao ringluskiirus laoala järgi                |
+|                                           | Varude lõppsaldo laoala järgi                |
+|                                           | Varude täpsus kaubagruppide kaupa                |
+|                                           | Lao ringluskiirus kaubagruppide kaupa          |
+|                                           | Varude lõppsaldo laoala ja kaubagruppide kaupa |
+| Inventuuriväljavõte                       | Inventuuriväljavõte                             |
+| Inventuuriväljavõte laoala järgi               | Inventuuriväljavõte laoala järgi                     |
+| Inventuuriväljavõte tootehierarhia alusel  | Inventuuriväljavõte                             |
+| Inventuuriväljavõte tootehierarhia alusel  | Inventuuriväljavõte laoala järgi                     |
+
+### <a name="manufacturing-accounting-status"></a>Tootmise raamatupidamise olek
+
+| Aruandeleht                | Visualiseering                       |
+|----------------------------|-------------------------------------|
+| Lõpetamata toodangu ülevaade YTD-ni           | Algsaldo                   |
+|                            | Netomuutus                          |
+|                            | Netomuutuse %                        |
+|                            | Lõppsaldo                      |
+|                            | WIP-i ringluskiirus                  |
+|                            | WIP-i hoidmise päevad                    |
+|                            | Aktiivne kuluobjekt perioodis        |
+|                            | Netomuutus ressursigrupi alusel        |
+|                            | Saldo laoala järgi                     |
+|                            | Väljavõte kategooria alusel               |
+|                            | Netomuutus kvartalite kaupa               |
+| lõpetamata toodangu aruanne              | Algsaldo                   |
+|                            | Lõppsaldo                      |
+|                            | WIP-aruanne kategooria alusel           |
+| WIP-aruanne laoala järgi      | Algsaldo                   |
+|                            | Lõppsaldo                      |
+|                            | WIP-aruanne kategooria ja laoala alusel  |
+| WIP-aruanne hierarhia alusel | Algsaldo                   |
+|                            | Lõppsaldo                      |
+|                            | WIP-aruanne kategooriahierarhia alusel |
+
+### <a name="inventory-accounting-analysis"></a>Laoarvestuse analüüs
+
+| Aruandeleht        | Visualiseering                                                                |
+|--------------------|------------------------------------------------------------------------------|
+| Kaubavaru üksikasjad  | 10 peamist ressurssi lõppsaldo alusel                                           |
+|                    | 10 peamist ressurssi netomuutuse tõusu alusel                                      |
+|                    | 10 peamist ressurssi netomuutuse vähenemise alusel                                      |
+|                    | 10 peamist ressurssi lao ringluskiiruse alusel                                 |
+|                    | Ressursid madala lao ringluskiiruse ja läve ületava lõppsaldo alusel |
+|                    | 10 peamist ressurssi vähese täpsuse alusel                                             |
+| ABC-liigitamine | Varude lõppsaldo                                                     |
+|                    | Tarbitud materjal                                                            |
+|                    | Müüdud (COGS)                                                                  |
+| Varude trendid   | Varude lõppsaldo                                                     |
+|                    | Varude netomuutus                                                         |
+|                    | Lao ringluskiirus                                                     |
+|                    | Varude täpsus                                                           |
+
+### <a name="manufacturing-accounting-analysis"></a>Tootmise raamatupidamise analüüs
+
+| Aruandeleht | Visualiseering      |
+|-------------|--------------------|
+| WIP trendid  | WIP lõppsaldo |
+|             | WIP netomuutus     |
+|             | WIP-i ringluskiirus |
+
+### <a name="std-cost-variance-analysis"></a>Standardse omahinna hälbe analüüs
+
+| Aruandeleht                             | Visualiseering                                        |
+|-----------------------------------------|------------------------------------------------------|
+| Ostuhinna hälve (standardhind) YTD-ni | Hangitud saldo                                     |
+|                                         | Ostuhinna hälve                              |
+|                                         | Ostuhinna hälbe määr                        |
+|                                         | Hälve kaubagruppide kaupa                               |
+|                                         | Hälve laoala järgi                                     |
+|                                         | Ostuhind kvartalite kaupa                            |
+|                                         | Ostuhind kvartalite ja kaubagruppide kaupa             |
+|                                         | 10 peamist ressurssi ebasoodsa ostuhinna hälbe määra järgi |
+|                                         | 10 peamist ressurssi soodsa ostuhinna hälbe määra järgi   |
+| Tootmiskulude hälve (standardhind) YTD-ni     | Toodangu omahind                                    |
+|                                         | Tootmiskulude hälve                                  |
+|                                         | Tootmiskulude hälbe määr                            |
+|                                         | Hälve kaubagruppide kaupa                               |
+|                                         | Hälve laoala järgi                                     |
+|                                         | Tootmishälve kvartalite kaupa                       |
+|                                         | Tootmishälve kvartalite ja hälbe tüübi järgi     |
+|                                         | 10 peamist ressurssi ebasoodsa tootmishälbe järgi  |
+|                                         | 10 peamist ressurssi soodsa tootmishälbe järgi    |
+
+### <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
+
+Rakenduse Microsoft Dynamics 365 for Finance and Operations andmeid kasutatakse **Kuluhalduse** Power BI sisu aruande lehtede täitmiseks. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusesse, mis on analüüsimiseks optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Power BI integratsioon üksuse kauplusega](power-bi-integration-entity-store.md).
+
+Järgmiste objektide peamisi koondmõõdikuid kasutatakse Power BI sisu alusena.
+
+| Objekt                          | Peamised koondmõõtmised | Finance and Operationsi andmeallikas | Väli               |
+|---------------------------------|----------------------------|----------------------------------------|---------------------|
+| CostObjectStatementCacheMonthly | Summa                     | CostObjectStatementCache               | Summa              |
+| CostObjectStatementCacheMonthly | Kogus                   | CostObjectStatementCache               | Kogus                 |
+| CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
+| CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
+
+Järgmises tabelis on toodud peamised arvutatud mõõtmised Power BI sisus.
+
+| Mõõt                            | Kalkulatsioon |
+|------------------------------------|-------------|
+| Algsaldo                  | Algsaldo = [Lõppsaldo] - [Netomuutus] |
+| Koguse algsaldo             | Koguse algsaldo = [Lõppsaldo kogus] - [Netomuutuse kogus] |
+| Lõppsaldo                     | Lõppsaldo = (CALCULATE(SUM([Summa]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
+| Koguse lõppsaldo                | Koguse lõppsaldo = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
+| Netomuutus                         | Netomuutus = SUM([AMOUNT]) |
+| Koguse netomuutuse                    | Koguse netomuutuse = SUM([QTY]) |
+| Lao ringluskiirus summa järgi | Lao ringluskiirus summa järgi = if(OR([Varude keskmine saldo] \<= 0, [Müüdud või tarbitud varude väljaminekud] \>= 0), 0, ABS([Müüdud või tarbitud varude väljaminekud])/[Varude keskmine saldo]) |
+| Varude keskmine saldo          | Varude keskmine saldo = (([Lõppsaldo] + [Algsaldo]) / 2) |
+| Vaba kaubavaru hoidmise päevad             | Vaba kaubavaru hoidmise päevad = 365 / CostObjectStatementEntries[Lao ringluskiirus summa järgi] |
+| Varude täpsus                 | Varude täpsus summa alusel = IF([Lõppsaldo] \<= 0, IF(OR([Varude loetud summa] \<\> 0, [Lõppsaldo] \< 0), 0, 1), MAX(0, ([Lõppsaldo] - ABS([Varude loetud summa]))/[Lõppsaldo])) |
 
 Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate andmiseks.
 
-| Üksus           | Atribuutide näited                       |
-|------------------|----------------------------------------------|
-| Üksused         | ID, nimi                                     |
-| Rahandussaasta kalendrid | Kalender, kuu, periood, kvartal, aasta       |
-| KPI eesmärgid        | Varude täpsuse eesmärk, laokäibe eesmärk |
-| Pearaamatud          | Valuuta, nimi, kirjeldus                  |
-| Saidid            | ID, nimi, riik, linn                      |
 
-
-
-
+|                         Üksus                          |             Atribuutide näited              |
+|---------------------------------------------------------|-------------------------------------------------|
+|                        Tooted                         | Tootenumber, toote nimi, ühik, kaubagrupid |
+| Kategooriahierarhiad (määratud rolli Kuluhaldus) |       Kategooriahierarhia, kategooria tase        |
+|                     Juriidilised isikud                      |               Juriidilise isiku nimed                |
+|                    Rahandussaasta kalendrid                     |  Rahanduskalender, aasta, kvartal, periood, kuu  |
+|                          Sait                           |        ID, nimi, aadress, maakond, riik        |
 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Pearaamatutöölehe tüübid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage lehte **Töölehe nimed** rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatavate töölehtede seadistamiseks.
 

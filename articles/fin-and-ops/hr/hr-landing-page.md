@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="welcome-to-human-resources"></a>Tere tulemast inimressursside lehele
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Inimressursside moodul hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib teie organisatsiooni personalitegevuste protsesse. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks. Need valdkonnad on töötajate töölevõtmine ja hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine.
 

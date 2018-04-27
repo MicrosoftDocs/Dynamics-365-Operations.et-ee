@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Planeerimise koefitsiendid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See artikkel sisaldab näiteid planeerimise koefitsiendi seadistamise kohta. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
 
@@ -39,17 +38,19 @@ See artikkel sisaldab näiteid planeerimise koefitsiendi seadistamise kohta. Sel
 
 See näide selgitab, kuidas vähendab planeerimise koefitsient nõudluse prognoosi nõudeid planeerimise koefitsiendiga määratletud protsentide ja perioodide alusel.
 
-1.  Seadistage lehel **Planeerimise koefitsiendid** järgmised read.
-    | Muuda | Ühik  | Protsent |
-    |--------|-------|---------|
-    | 1      | Kuu | 100     |
-    | 2      | Kuu | 75      |
-    | 3      | Kuu | 50      |
-    | 4      | Kuu | 25      |
+1. Seadistage lehel **Planeerimise koefitsiendid** järgmised read.
 
-2.  Linkige planeerimise koefitsient kauba laovarude grupiga.
-3.  Valige lehel **Koondplaanid** väljal **Vähenduspõhimõte** suvand **Protsent – planeerimise koefitsient**.
-4.  Looge nõudluse prognoos 1000 tk kuus.
+   | Muuda | Ühik  | Protsent |
+   |--------|-------|---------|
+   |   1    | Kuu |   100   |
+   |   2    | Kuu |   75    |
+   |   3    | Kuu |   50    |
+   |   4    | Kuu |   25    |
+
+
+2. Linkige planeerimise koefitsient kauba laovarude grupiga.
+3. Valige lehel **Koondplaanid** väljal **Vähenduspõhimõte** suvand **Protsent – planeerimise koefitsient**.
+4. Looge nõudluse prognoos 1000 tk kuus.
 
 Kui käivitate eelplaneerimise 1. jaanuaril, tabitakse nõudluse prognoosi nõudeid lehel **Planeerimise koefitsiendid** seadistatud protsentide järgi. Koondplaani kantakse üle järgmised vajaduse kogused.
 
@@ -88,20 +89,21 @@ Kui kasutate sama nõudluse prognoosi (1000 tk kuus), kantakse koondplaani üle 
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3. näide. Prognoosi vähendamise põhimõte Kanded – dünaamiline periood
 Enamasti on süsteemid seadistatud nii, et kanded vähendavad nõudluse prognoosi teatud prognoosiperioodide (nädalad, kuud jne) jooksul. Need perioodid on määratletud planeerimise koefitsiendis. Siiski võib ka kahe nõudluse perioodi rea vaheline aeg *tähendada* perioodi.
 
-1.  Looge nõudluse prognoos järgmiste kuupäevade ja koguste kohta.
-    | Kuupäev       | Nõudluse prognoos |
-    |------------|-----------------|
-    | 1. jaanuar  | 1000           |
-    | 5. jaanuar  | 500             |
-    | 12. jaanuar | 1000           |
+1. Looge nõudluse prognoos järgmiste kuupäevade ja koguste kohta.
 
-    Selles prognoosis ei ole prognoosi kuupäevade vahel selget perioodi: esimese ja teise kuupäeva vahel on neljapäevane vahe ning teise ja kolmanda kuupäeva vahel on seitsmepäevane vahe. Need erinevad vahed on dünaamilised perioodid.
-2.  Looge müügitellimuse read järgmiselt.
-    | Kuupäev                             | Müügitellimuse kogus |
-    |----------------------------------|----------------------|
-    | Eelmise aasta 15. detsember | 500                  |
-    | 3. jaanuar                        | 100                  |
-    | 10. jaanuar                       | 200                  |
+   | Kuupäev       | Nõudluse prognoos |
+   |------------|-----------------|
+   | 1. jaanuar  | 1000           |
+   | 5. jaanuar  | 500             |
+   | 12. jaanuar | 1000           |
+
+   Selles prognoosis ei ole prognoosi kuupäevade vahel selget perioodi: esimese ja teise kuupäeva vahel on neljapäevane vahe ning teise ja kolmanda kuupäeva vahel on seitsmepäevane vahe. Need erinevad vahed on dünaamilised perioodid.
+2. Looge müügitellimuse read järgmiselt.
+   | Kuupäev                             | Müügitellimuse kogus |
+   |----------------------------------|----------------------|
+   | Eelmise aasta 15. detsember | 500                  |
+   | 3. jaanuar                        | 100                  |
+   | 10. jaanuar                       | 200                  |
 
 Prognoosi vähendatakse järgmiselt.
 

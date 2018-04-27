@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Töövoo kinnitusetapi konfigureerimine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema selgitab, kuidas konfigureerida kinnitusetapi atribuute.
 
@@ -145,9 +144,9 @@ Järgige neid etappe, et määrata, kellele kinnitusetapp tuleb määrata.
     Kui kasutaja ei reageeri dokumendile määratud aja jooksul, siis on dokument hilinenud.. Hilinenud dokumenti laiendatakse nende valikute põhjal, mille valite lehe alal **Laiendus**.
 4.  Kui määrate kinnitusetapi mitmele kasutajale või kasutajate grupile, valige vahekaardil **Lõpetamispoliitika** üks järgmistest suvanditest.
     -   **Üksikkinnitaja** – dokumendile rakenduva toimingu määrab esimene isik, kes vastab. Näiteks Sam on edastanud kuluaruande summale 15 000 USA dollarit. Kuluaruanne on praegu määratud Suele, Jole ja Billile. Kui Sue reageerib dokumendile esimesena, rakendatakse tema võetud meetmeid dokumendil. Kui Sue lükkab dokumendi tagasi, lükatakse dokument tagasi ja saadetakse uuesti Samile. Kui Sue kinnitab dokumendi, saadetakse see Annile kinnitamiseks. 
-    
+
     ![Töövoog, millel on kinnitamisprotsess](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Enamik kinnitajaid** – tegevus, mis rakendatakse dokumendile, määratakse siis, kui enamik kinnitajaid vastab. Näiteks Sam on edastanud kuluaruande summale 15 000 USA dollarit. Kuluaruanne on praegu määratud Suele, Jole ja Billile. Kui Sue ja Jo kinnitavad dokumendi esimesena, siis rakendatakse nende võetud meetmeid dokumendil.
         -   Kui Sue kinnitab dokumendi, kuid Jo lükkab selle tagasi, lükatakse dokument tagasi ja saadetakse tagasi Samile.
         -   Kui Sue ja Jo mõlemad kinnitavad dokumendi, saadetakse see Annile kinnitamiseks.

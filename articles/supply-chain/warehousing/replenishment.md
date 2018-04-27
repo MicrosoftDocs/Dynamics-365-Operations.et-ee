@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Täiendamine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse. Selle teema teave ei kehti moodulis Varude haldus oleva ladustamislahenduse puhul.
 
@@ -67,13 +67,15 @@ Koorma nõudluse tõttu täiendamine summeerib nõudluse mitme koorma järele ja
 Selle asemel, et võtta nõudlus eraldamisprotsessi lõppemisel kokku ja täiendada summeeritud koguse põhjal, saate rakendada viivitamatu täiendamise strateegiat. Selle strateegia kasutamisel saab varusid täiendada kohe pärast asukohakorralduse rea nurjumist. Seetõttu saate seadistada täiendamise nii, et see on piiratud konkreetsete üksustega ja kasutab konkreetsetele asukohtadele määratud koguseid.
 
 ## <a name="replenishment-prerequisites"></a>Täiendamise eeltingimused
-| Eeltingimus            | Kirjeldus |
-|-------------------------|-------------|
-| Kaup                    | Kauba puhul peavad olema lubatud laohaldusprotsessid. |
-| Ladu               | Laos peavad olema lubatud laohaldusprotsessid. Laohaldusprotsesside lubamiseks laos valige ladu lehelt **Laod** ja märkige seejärel valik **Kasuta laohaldusprotsesse**. |
-| Täiendamise mallid | Min/max täiendamise, voo nõudluse tõttu täiendamise või koormuse nõudluse tõttu täiendamise jaoks tuleb seadistada vähemalt üks täiendamismall. |
-| Asukohad               | Tuleb luua asukohad ja ühendada need asukohaprofiiliga. |
-| Asukoha profiilid       | Asukohtade loomiseks on vajalikud asukohaprofiilid. |
-| Asukoha korraldus     | Asukohakorraldusi on vaja selleks, et juhtida töö asukohtadesse, kus täiendamine on vajalik, ja asukohtadesse, kust varusid hangitakse. |
-| Töömallid          | Töömallid tüübiga **Täiendamine** on vajalikud täiendamistöö loomiseks, et varud saaks soovitud asukohtadesse viia. |
+
+|      Eeltingimus       |                                                                                                                                Kirjeldus                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Kaup           |                                                                                                        Kauba puhul peavad olema lubatud laohaldusprotsessid.                                                                                                        |
+|        Ladu        | Laos peavad olema lubatud laohaldusprotsessid. Laohaldusprotsesside lubamiseks laos valige ladu lehelt <strong>Laod</strong> ja märkige seejärel valik <strong>Kasuta laohaldusprotsesse</strong>. |
+| Täiendamise mallid |                                                                   Min/max täiendamise, voo nõudluse tõttu täiendamise või koormuse nõudluse tõttu täiendamise jaoks tuleb seadistada vähemalt üks täiendamismall.                                                                   |
+|        Asukohad        |                                                                                                       Tuleb luua asukohad ja ühendada need asukohaprofiiliga.                                                                                                       |
+|    Asukoha profiilid    |                                                                                                        Asukohtade loomiseks on vajalikud asukohaprofiilid.                                                                                                        |
+|   Asukoha korraldus   |                                                       Asukohakorraldusi on vaja selleks, et juhtida töö asukohtadesse, kus täiendamine on vajalik, ja asukohtadesse, kust varusid hangitakse.                                                        |
+|     Töömallid      |                                                   Töömallid tüübiga <strong>Täiendamine</strong> on vajalikud täiendamistöö loomiseks, et varud saaks soovitud asukohtadesse viia.                                                    |
+
 

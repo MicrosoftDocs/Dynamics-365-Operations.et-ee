@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Hulgivärbamisprojektid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hulgivärbamisprojektid võimaldavad inimressursside spetsialistidel luua mitu ametikohta ja palgata tõhusalt neile ametikohtadele töötajaid.
 
@@ -94,7 +93,7 @@ Hulgivärbamisprojekti oleku muutmiseks avage lehekülg **Hulgivärbamisprojekt*
 </tbody>
 </table>
 
- 
+
 
 
 

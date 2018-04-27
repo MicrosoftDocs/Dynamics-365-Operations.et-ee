@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchasing-policies"></a>Ostupoliitikad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet ostupoliitikate kohta. Ostupoliitika on reeglite kogum, mis juhib taotluse protsessi. Ostupoliitikad aitavad hankeadministraatoritel hankestrateegiat juurutada, luues poliitikastruktuuri, mis on vastavuses organisatsiooni strateegiliste ostunõuetega.
 

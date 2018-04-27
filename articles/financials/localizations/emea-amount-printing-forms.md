@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a9e63af61b42ef3f5ef1d05a659cbec572e04a4f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: daa9443c5676189a771dc3af745e7d26aa0b32f3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas antakse teavet aruannetel ja muudel dokumentidel summade kuvamisviisi värskendamiseks Eesti, Leedu, Poola, Tšehhi Vabariigi, Ungaris ja Venemaa puhul.
 
@@ -37,23 +36,25 @@ Juriidiliste isikute puhul Eestis, Lätis, Leedus, Poolas, Tšehhi Vabariigis, U
 ## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Valuutaühikute ja allühikute täielike ning lühinimede seadistamine
 Valuutaühikute ja allühikute täielike ning lühinimede seadistamiseks valitud keele puhul tehke järgmist.
 
-1.  Avage leht **Valuutad**.
-2.  Valige valuuta.
-3.  Klõpsake toimingupaanil valikut **Käänamine**.
-4.  Keele jaoks täieliku ja lühinime lisamiseks klõpsake valikut **Uus** ja täitke järgmised väljad.
-    |                                                           |                                                                                                                                                                                                                    |
-    |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | **Väli**                                                 | **Kirjeldus**                                                                                                                                                                                                    |
-    | **Keel**                                              | Valige praeguse teksti keel.                                                                                                                                                                          |
-    | **Ainsuse nimetav (ühikunimede väljagrupp)**       | Sisestage valuuta ainsusevorm. Näiteks on sõna Litas ainsuse nimetav vorm Litas.                                                                                                                         |
-    | **Mitmuse nimetav (ühikunimede väljagrupp)**         | Sisestage valuuta mitmusevorm. Näiteks sisestage Litai. **Märkus**. Väljad **Ainsuse omastav** ja **Mitmuse omastav** on saadaval olenevalt väljal **Keel** valitud keelest. |
-    | **Ainsuse nimetav (allühiku nimede väljagruppi)** | Sisestage valuuta allühiku ainsusevorm.                                                                                                                                                            |
-    | **Mitmuse nimetav (allühiku nimede väljagrupp)**         | Sisestage valuuta allühiku mitmusevorm.                                                                                                                                                              |
-    | **Ühikute lühinimi (Lühinime väljagrupp)**       | Sisestage valuutat tuvastav ISO-kood. Näiteks littide tuvastamiseks sisestage LTL.                                                                                                                             |
-    | **Ühikute lühinimi (Lühinime väljagrupp)**      | Sisestage valuuta allühiku üldnimetus. Näiteks sisestage Centas.                                                                                                                                         |
-    | **Sidesõna „ja” ühikute ja allühikute vahel**             | Märkige ruut , et printida ühikute ja allühikute vahel sidesõna „ja”. Näiteks kuvatakse summa LTL 100,20 arvetel või aruannetes kui „100 Litas and 20 Centas”.                      |
+1. Avage leht **Valuutad**.
+2. Valige valuuta.
+3. Klõpsake toimingupaanil valikut **Käänamine**.
+4. Keele jaoks täieliku ja lühinime lisamiseks klõpsake valikut **Uus** ja täitke järgmised väljad.
 
-5.  Klõpsake käsku **Salvesta**.
+   |                                                                        |                                                                                                                                                                                                                                                                        |
+   |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |                         <strong>Väli</strong>                         |                                                                                                                      <strong>Kirjeldus</strong>                                                                                                                      |
+   |                       <strong>Keel</strong>                        |                                                                                                               Valige praeguse teksti keel.                                                                                                                |
+   |    <strong>Ainsuse nimetav (ühikunimede väljagrupp)</strong>    |                                                                                       Sisestage valuuta ainsusevorm. Näiteks on sõna Litas ainsuse nimetav vorm Litas.                                                                                       |
+   |     <strong>Mitmuse nimetav (ühikunimede väljagrupp)</strong>     | Sisestage valuuta mitmusevorm. Näiteks sisestage Litai. <strong>Märkus</strong>. Väljad <strong>Ainsuse omastav</strong> ja <strong>Mitmuse omastav</strong> on saadaval olenevalt väljal <strong>Keel</strong> valitud keelest. |
+   | <strong>Ainsuse nimetav (allühiku nimede väljagruppi)</strong> |                                                                                                        Sisestage valuuta allühiku ainsusevorm.                                                                                                         |
+   |     <strong>Mitmuse nimetav (allühiku nimede väljagrupp)</strong>     |                                                                                                         Sisestage valuuta allühiku mitmusevorm.                                                                                                          |
+   |    <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                         Sisestage valuutat tuvastav ISO-kood. Näiteks littide tuvastamiseks sisestage LTL.                                                                                         |
+   |   <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                               Sisestage valuuta allühiku üldnimetus. Näiteks sisestage Centas.                                                                                               |
+   |       <strong>Sidesõna „ja” ühikute ja allühikute vahel</strong>       |                                     Märkige ruut , et printida ühikute ja allühikute vahel sidesõna „ja”. Näiteks kuvatakse summa LTL 100,20 arvetel või aruannetes kui „100 Litas and 20 Centas”.                                      |
+
+
+5. Klõpsake käsku **Salvesta**.
 
 
 

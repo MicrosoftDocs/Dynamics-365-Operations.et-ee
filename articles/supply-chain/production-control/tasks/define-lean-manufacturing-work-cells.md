@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Töörakkude määratlemine: lean manufacturing
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Töörakk on konkreetne ressursigruppide vorm, mida saab lean manufacturingi protsessi tegevustes kasutada. Töörakkudel on sisestus- ja väljastuskohad ning võimsuse määratlus, mis põhineb tootmisvoo mudelil. Lisateavet lean manufacturingi töörakkude ja läbilaskvuse arvutuste kohta leiate lean manufacturingi tehnilistest ülevaadetest. Selle protseduuri loomiseks kasutati demoettevõtte USMF andmeid
 

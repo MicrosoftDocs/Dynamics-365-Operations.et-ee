@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="invoice-processing"></a>Arve töötlemine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i sisene käibemaks (KM) ja viitmaks. Mõne Euroopa riigi seadusenõuded mõjutavad arveldusprotsessi. Selles teemas on teave ka selle kohta, kuidas nende riikide puhul klientide ja hankijate arveid töödeldakse. 
 <table>

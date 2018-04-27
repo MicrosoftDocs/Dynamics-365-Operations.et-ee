@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations-groups"></a>Koosluse arvutusgrupid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet koosluste arvutusgruppide ja nende seadistamise kohta. Koosluse arvutuse käivitamiseks tuleb seadistada arvutusgrupid ja määrata need eraldi üksustele või määrata vaike-arvutusgrupp. Arvutusgrupi arvutussätteid kasutatakse siis koosluse arvutamise ajal lehel Koosluse arvutamine vaikeväärtustena. 
 

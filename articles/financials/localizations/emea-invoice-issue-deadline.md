@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-issue-deadline"></a>Arve väljastamise tähtaeg
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas seadistada parameetreid kliendiarvete ja hankijaarvete väljastamistähtaegade arvutamiseks Euroopa Liidus (ELis).
 

@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Intressikoodile intressimäära seadistamine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Intressikoodid sisaldavad sätteid, mis määratlevad, millal intressi võetakse ja kuidas seda arvutatakse tähtaja ületanud arvete puhul.
 
@@ -47,17 +46,17 @@ Kui intressi arvutamiseks kasutatakse intressikoodi, luuakse iga intressimäära
 ## <a name="interest-rates-based-on-a-percentage"></a>Protsendil põhinevad intressimäärad
 Saate seadistada intressimäärad, mis arvutavad kindlaksmääratud protsendi.
 
--   Intressimäär kehtib kõigile valuutadele.
--   Sisestada saab valikulisi intressisumma limiite.
--   **Protsent** valitakse** **väljal **Intressi arvutusalus** lehel **Intressikoodide seadistamine**.
+- Intressimäär kehtib kõigile valuutadele.
+- Sisestada saab valikulisi intressisumma limiite.
+- <strong>Protsent</strong> valitakse väljal** <strong>**Intressi arvutusalus:</strong> lehel <strong>Intressikoodide</strong> seadistamine.
 
 Näiteks intressikoodi seadistamiseks, mis määrab 5 protsenti intressi iga kahe kuu eest, mille võrra arve makse ületab kande tähtaega, tuleks sisestada 2 väljale **Arvuta intress iga** ja valida **Kuu**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Summal põhinevad intressimäärad
 Saate seadistada intressimäärad, mis arvutavad määratud summa valuuta kaupa.
--   Intressi summa määratakse iga intressikoodi valuuta jaoks.
--   Sisestada saab valikulisi intressisumma limiite.
--   Väärtus **Summa **valitakse väljal **Intressi arvutusalus** lehel **Viivisekoodide seadistamine**.
+- Intressi summa määratakse iga intressikoodi valuuta jaoks.
+- Sisestada saab valikulisi intressisumma limiite.
+- <strong>Summa **valitakse väljal **Intressi arvutusalus:</strong> lehel <strong>Intressikoodide seadistamine</strong>.
 
 Näiteks intressikoodi seadistamiseks, mis määrab 25,00 protsenti intressi iga 20 päeva eest, mille võrra arve makse ületab kande tähtaega, tuleks sisestada 20 väljale **Arvuta intress iga** ja valida **Päev**.
 
@@ -84,7 +83,7 @@ Saate seadistada vahemiku andmed järgmiselt.
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>Näide 2: Intress vahemiku järgi = päevad
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Saate seadistada vahemiku andmed järgmiselt.
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>Näide 3: Intress vahemiku järgi = kuud
 ----------------------------------------------------
 

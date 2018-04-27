@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Teenuse kordustellimused
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kordustellimused põhinevad aja- ja materjalikulu projektil. Projektist saate kordustellimusi luua lehelt **Teenuse kordustellimused** või kasutades teenuse kordustellimuse gruppi.
 

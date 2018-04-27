@@ -1,5 +1,5 @@
 --- 
-title: Elektroonilise aruandluse (ER) loendamis- ja liitmisvormingu loomine
+title: Loendamis- ja liitmisvormingu loomine
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu loendamiseks ja liitmiseks juba loodud tekstiväljundi andmete põhjal."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: 3c4ae958a03d4681a85f5b83d81fe64b9ac99cf5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7613b78d4a9ab63f5be9773a8699fe3ed94636eb
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="create-format-for-counting-and-summing-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) loendamis- ja liitmisvormingu loomine
+# <a name="create-format-for-counting-and-summing"></a>Loendamis- ja liitmisvormingu loomine 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu loendamiseks ja liitmiseks juba loodud tekstiväljundi andmete põhjal. Neid toiminguid saab teha igas ettevõttes.
 

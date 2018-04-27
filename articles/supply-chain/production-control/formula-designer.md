@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Valemikoostaja
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas kasutada valemikoostajad valemite analüüsimiseks ja haldamiseks puuvaates.
 
@@ -88,7 +88,7 @@ Valemile ja protsessile rakendatud filter kuvatakse valemikoostaja päises. Saat
 </tr>
 <tr class="odd">
 <td>Alates kogusest</td>
-<td>Filtreerige versiooni, valides konkreetse lähtekoguse. Kui määrate väärtuse, võidakse valida erinevad valemi ja protsessi versioonid.</td>
+<td>Filtreerige versiooni, valides konkreetse &quot;lähtekoguse&quot;. Kui määrate väärtuse, võidakse valida erinevad valemi ja protsessi versioonid.</td>
 </tr>
 <tr class="even">
 <td>Näita ainult kehtivaid</td>
@@ -116,8 +116,10 @@ Valemiridade ja valemi muutmiseks kasutage funktsiooni **Koosluseread** või **V
 ## <a name="configuring-the-tree-view"></a>Puuvaate konfigureerimine
 Klõpsake suvandit **Seadistus**, et kohandada teavet, mida näidatakse valemikoostaja puuvaates.
 
-| Väljagrupp | Kirjeldus |
-|-------------|-------------|
-| Kooslus         | Kasutage märkeruute, et valida puustruktuuris näidatud kriteerium. Valemikoostaja kuvab valitud kriteeriumi mõlema vahekaardi allosas. |
-| Protsess       | Kasutage märkeruute, et valida protsesside puhul näidatav kriteerium. |
+
+| Väljagrupp |                                                                          Kirjeldus                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     Kooslus     | Kasutage märkeruute, et valida puustruktuuris näidatud kriteerium. Valemikoostaja kuvab valitud kriteeriumi mõlema vahekaardi allosas. |
+|    Protsess    |                                           Kasutage märkeruute, et valida protsesside puhul näidatav kriteerium.                                           |
+
 
