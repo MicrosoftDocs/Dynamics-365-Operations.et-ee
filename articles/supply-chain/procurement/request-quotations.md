@@ -57,8 +57,8 @@ Pakkumiste vastuvõtmisel meili teel saate neid pakkumisi käsitleda lehel **Pak
 
 Kui nõutav on hankija vastuse teine iteratsioon, valige lehel **Pakkumiskutse** käsk **Tagasta**. Tagastustegevus loob uue töölehe ja aruande, mis prinditakse, arhiivitakse ja saadetakse teie prindisätete järgi.
 
-[!NOTE]
-Lehe **Pakkumiskutse** nimi on muutunud. Rakenduse Dynamics 365 for Finance and Operations varasemates versioonides on selle lehe nimi **Pakkumiskutsete vastus**.
+> [!NOTE]
+> Lehe **Pakkumiskutse** nimi on muutunud. Rakenduse Dynamics 365 for Finance and Operations varasemates versioonides on selle lehe nimi **Pakkumiskutsete vastus**.
 
 Kui olete lisanud pakkumiskutse juhtumile hindamiskriteeriumid, on pakkumiskutsel hindamispaneel, kuhu saate punktisummad sisestada. Punktide kogusumma kuvatakse pakkumiskutsel, kui võrdlete vastuseid lehel **Vastuste võrdlemine**. Lehel **Võrdle vastuseid** saate ka võrrelda vastuse andmeid, nagu rea hind, tarnekuupäev ja koguhind.
 
@@ -126,8 +126,8 @@ Kui soovite kasutada pakkumises põhjusekoode, et näidata pakkumise tagasilükk
 
 Mooduli Hanked lehel **Vormiseadistus** saate konfigureerida prinditud või salvestatud pakkumiskutse dokumentide välimust.
 
-[!NOTE]
-Avaliku sektori konfiguratsiooni puhul peate juba saadetud pakkumiskutse muutmiseks kasutama täiendamisprotsessi. Kui pakkumiskutse on saadetud, on väljad lukustatud.
+> [!NOTE]
+> Avaliku sektori konfiguratsiooni puhul peate juba saadetud pakkumiskutse muutmiseks kasutama täiendamisprotsessi. Kui pakkumiskutse on saadetud, on väljad lukustatud.
 Seetõttu peate pakkumiskutse muutmiseks valima käsu **Loo**, et alustada täiendamisprotsessi, nagu on ülalpool kirjeldatud. Lukustuskäitumist juhitakse suvandiga **Lukusta saadetud pakkumiskutsed** lehel **Hankeparameetrid**. Vaikimisi on selle parameetri säte **Jah** ja avaliku sektori konfiguratsiooni puhul ei saa vaikesätet muuta. Kuigi täiendamisprotsessi saab mitteavaliku sektori konfiguratsioonis käsitsi käsitleda, tuleb seda kasutada avaliku sektori konfiguratsiooni puhul.
 
 Kui loote ostutellimuse tüüpi pakkumiskutse juhtumi ja lisate pakkumiskutsele laokauba, luuakse ka laokanne, mille sissetuleku olek on **Saadud pakkumine**. Koondplaani abil varude arvutamisel arvestatakse vaid selle olekuga pakkumiskutse juhtumi ridu. Kui soovite, et koondplaan sisaldaks pakkumiskutse juhtumi ridu eeldatava sissetulekuna, peate konfigureerima selle käitumise koondplaneerimise seadistamisel.
