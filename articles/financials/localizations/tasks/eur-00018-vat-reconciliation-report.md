@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="vat-reconciliation-report"></a>KM-i vastavusseviimise aruanne
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas koostada maksu vastavusseviimise aruannet, mis on saadaval Islandi ja Norra juriidilistele isikutele. Ülesande loomisel kasutati demoettevõtte DEMF, mille juriidilise isiku esmase aadressi riigiks/regiooniks on määratud Norra, andmeid.
 

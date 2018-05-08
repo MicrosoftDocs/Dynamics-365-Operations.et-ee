@@ -27,7 +27,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="workflow-elements"></a>Töövoo elemendid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse mitmesuguseid elemente, millest töövoog koosneb.
 

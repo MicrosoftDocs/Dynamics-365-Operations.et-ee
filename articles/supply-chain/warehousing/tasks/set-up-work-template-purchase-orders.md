@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Ostutellimuste jaoks töömalli seadistamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur keskendub lihtsa töömalli seadistamisele, mida saab kasutada saadud kaupade paigutamiseks. Töömallid määravad juhiste kogumi, mis esitatakse laotöötajale mobiilsel seadmel, kui kaupu vastuvõtualalt ära viiakse. Saate kasutada seda protseduuri demoettevõttes USMF nimetatud andmetega. Enne selle juhendi käivitamist looge töökausta ID. Selles näites kasutatakse töökausta ID-d nimega Sissetulev. See protseduur on mõeldud laohaldurile.
 

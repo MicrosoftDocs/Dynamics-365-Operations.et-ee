@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>Jaetoodete häälestamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas seadistada jaetooteid rakenduses Microsoft Dynamics 365 for Retail.
 

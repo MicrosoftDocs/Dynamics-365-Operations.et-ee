@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Eraldamise alused 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Eraldamisalus on alus, mille põhjal kuluarvestus üldkulusid eraldab. Eraldamisalus võib olla kogus, nt masina kasutatavad töötunnid, tarbitavad kilovatt-tunnid (kWh) või kasutatav pindala. Eraldamisaluseid kasutatakse enamasti üldkulude määramiseks toodetavatele varudele. Näiteks IT-osakond eraldab tunnid arvutite arvu järgi, mida iga osakond kasutab.
 

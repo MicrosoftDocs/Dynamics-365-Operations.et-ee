@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="include-physical-value"></a>Kaasa füüsiline väärtus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Märkeruutu Kaasa füüsiline väärtus kiirkaardil Laomudel või lehel Kauba mudeligrupid kasutatakse määramiseks, kas füüsiliselt värskendatud kandeid arvestatakse kauba jooksva keskmise omahinna arvutuses.
 

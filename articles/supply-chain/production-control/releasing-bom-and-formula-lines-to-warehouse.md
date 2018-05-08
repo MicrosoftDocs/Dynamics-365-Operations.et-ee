@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Koosluse- ja valemiridade lattu väljastamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse koosluseridade ja valemiridade toormaterjali lattu väljastamise protsessi. Koosluse- või valemirea väljastamisel lattu tuvastab süsteem kõigepealt selle, kas materjal on juba saadaval tootmise sisendasukohas tööde juhtimise moodulis, kus materjali tarbitakse tootmisprotsessi jaoks.
 

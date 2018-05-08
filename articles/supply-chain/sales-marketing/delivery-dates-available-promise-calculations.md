@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-promising"></a>Tellimuse lubamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel käsitleb tellimuse lubamist. Tellimuse lubamine aitab teil usaldusväärselt tarnekuupäevi klientidele lubada ja annab teile paindlikkuse, et saaksite neid kuupäevi täita.
 

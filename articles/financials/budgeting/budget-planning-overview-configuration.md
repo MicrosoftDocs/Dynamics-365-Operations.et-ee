@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis tutvustatakse eelarve plaanimist ja see sisaldab teavet, mis aitab teil eelarve plaanimise konfigureerida ning selle protsesse seadistada.
 

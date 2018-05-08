@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>Sisemise tarneahela klientidega koostöö tegemine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas vaadata kõiki plaanitud tellimusi, mida kontsernisisene hankija täidab. Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF.
 

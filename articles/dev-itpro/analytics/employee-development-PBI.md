@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="employee-development-power-bi-content"></a>Töötajate arengu Power BI sisu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse **töötajate arengu** Microsoft Power BI sisu.
 

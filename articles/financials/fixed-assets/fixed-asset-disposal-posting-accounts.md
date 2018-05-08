@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Põhivara likvideerimise sisestuskontod
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas seadistada pearaamatu sisestuskontosid varade likvideerimiseks.
 

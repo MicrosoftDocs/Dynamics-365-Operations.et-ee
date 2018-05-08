@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>RFM-analüüsi seadistamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas seadistada klientidele hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi.
 

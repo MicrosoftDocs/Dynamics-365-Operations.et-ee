@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="configure-workflow-properties"></a>Töövoo atribuutide konfigureerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema selgitab, kuidas konfigureerida töövoo mitmesuguseid atribuute.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Töötaja konfigureerimine töö mobiilse seadme abil
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas määrata töötaja kasutajakontole õigeid rolle ja lubada siis töötajal teha tööde juhtimise moodulis registreerimisi.
 

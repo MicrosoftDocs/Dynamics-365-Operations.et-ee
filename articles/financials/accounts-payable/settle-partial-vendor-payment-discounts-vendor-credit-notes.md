@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis läbitakse stsenaarium, kus kreeditarve tasakaalustatakse arvega.
 

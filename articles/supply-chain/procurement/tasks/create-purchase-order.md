@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Ostutellimuse loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris selgitatakse, kuidas luua ostutellimus käsitsi. Koondplaneerimise, otsetarne ja muude protsesside tulemusena luuakse ostutellimused tavaliselt automaatselt. Ostutellimused loob tavaliselt ostuagent. Siin esitatud näidet saab kasutada demoandmete ettevõttes USMF, kasutades väärtusi, mida on soovitatud erinevate etappide märkustes.
 

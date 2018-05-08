@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Kontsernisisese projekti arveldamise konfigureerimine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur käitab, kuidas häälestada projekti arveldamist organisatsiooni kahe ettevõtte vahel. Ülesandes kasutatakse USSI andmekomplekti.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>Kassa tellimuse teatiste kuvamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Modernses jaemüügikeskkonnas on kaupluse töötajatele määratud mitmesuguseid ülesandeid, näiteks klientide abistamine, kannete sisestamine, laoinventuuri tegemine ja kaupluses tellimuste vastuvõtmine. Kassa klient pakub üht rakendust, kus töötajad saavad täita kõiki neid ülesandeid ja palju muud. Kuna päeva jooksul tuleb täita erinevaid ülesandeid, võib juhtuda, et töötajaid tuleb teavitada, kui miski nõuab nende tähelepanu. Kassa teatiste raamistik võimaldab jaemüüjatel konfigureerida rollipõhiseid teatisi. Microsoft Dynamics 365 for Retail rakendusevärskendusega 5 võimaldab neid teatisi konfigureerida ainult kassatoimingutele.
 

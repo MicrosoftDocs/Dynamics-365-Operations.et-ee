@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Projekti etapi ümbernimetamine või muutmine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Projekti etapid võivad funktsioneerida projekti töötsükli juhisena. Saate määratleda projektidesse kaasatavad etapid lehe Projektihalduse ja -arvestuse parameetrid alal Projekti etapp. Dynamics 365 for Finance and Operations hõlmab viit eelmääratletud projektietappi ja kolme kasutaja määratud etappi. Saate uuendada kasutatava projekti etapi nime, et jälgida projektide edenemist. Võite määrata ka kasutaja määratletud olekute nimed. Ülesanne näitab, kuidas projekti etappi ümber nimetada või muuta, ning see põhine USSI andmekomplektil.
 

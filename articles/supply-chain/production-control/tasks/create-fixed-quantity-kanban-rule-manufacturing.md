@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>Fikseeritud kogusega kanban-reegli loomine tootmise jaoks
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur keskendub teisendustegevuste käivitamise eesmärgil fikseeritud tootmise kanban-reegli loomiseks vajalikele etappidele kulusäästliku keskkonna töörakus. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Protseduur on mõeldud protsessiinsenerile või väärtuse voo haldurile, kuna nad valmistavad ette uue või muudetud toote tootmist.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-performance-power-bi-content"></a>Laojõudluse Power BI sisu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema kirjeldab, mida hõlmab **Laojõudluse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>Teenusmallid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Saate hooldusleppe määrata malliks ja hiljem malli read teise hoolduleppesse või hooldustellimusse kopeerida.
 

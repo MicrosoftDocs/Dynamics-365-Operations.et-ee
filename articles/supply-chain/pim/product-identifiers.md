@@ -29,7 +29,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="product-identifiers"></a>Toote identifikaatorid 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse erinevaid toote identifikaatoreid ja kirjeldatakse, kuidas lisada toote identifikaatoreid toote andmetesse.
 

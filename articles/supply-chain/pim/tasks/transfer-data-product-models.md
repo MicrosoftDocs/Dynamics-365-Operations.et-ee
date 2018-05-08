@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>Tootemudelite andmete ülekandmine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Toote konfiguratsioonimudeli andmete eksportimine nõuab, et saadaval oleks vähemalt üks tootemudel. See protseduur kasutab tipptasemel kõlari mudelit demoettevõttes USMF, et näidata teile, kuidas selle mudeli puhul andmeid eksportida.
 

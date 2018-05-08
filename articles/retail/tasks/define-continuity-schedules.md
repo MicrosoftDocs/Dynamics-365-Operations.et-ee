@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-continuity-schedules"></a> Järjepidevuse graafikute määratlemine
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See teema selgitab järjepidevusprogrammi (teisisõnu korduvate tellimuste) seadistamist. Selles teemas kasutatakse demoettevõtte USRT andmeid.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto.
 

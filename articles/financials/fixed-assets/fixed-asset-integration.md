@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-integration"></a>Põhivarade integreerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Põhivarasid saab integreerida moodulitega Pearaamat, Varude haldus, Müügi- ja Ostureskontro. Samuti on teil võimalik seadistada moodulit Põhivarad, et see oleks integreeritud ostutellimustega.
 

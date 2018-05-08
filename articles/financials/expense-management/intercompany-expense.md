@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>Kontsernisisesed kulud
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Töötaja, kes töötab ühes organisatsiooni juriidilises isikus, võib teha tööd sama organisatsiooni teise juriidilise isiku heaks. Selles olukorras võite kontsernisisese kulu funktsiooni abil määrata töötaja kulud sellele juriidilisele isikule, kelle heaks töö tehti. Juriidilist isikut, mis töötajale tööd annab, nimetatakse välja laenavaks juriidiliseks isikuks. Juriidilist isikut, millele töötaja kulusid tekitab, nimetakse laenavaks juriidiliseks isikuks. 
 

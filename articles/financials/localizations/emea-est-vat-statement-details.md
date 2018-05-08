@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="vat-statement-details-for-estonia"></a>KM-aruande üksikasjad Eesti puhul
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.
 

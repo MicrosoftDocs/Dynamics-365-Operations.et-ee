@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>Analüüs
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi ja aruandlustööriistade kohta.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Kütuseindeksi seostamine vedajaga lisatasuna
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See juhend näitab, kuidas luua lisade määramist, vedaja lisatasu, lisade koondandmeid kütuse lisatasu puhul ja kuidas seostada vedaja kütuseindeksit vedajaga. Enne selle juhendi käivitamist peab teil olema vedaja kütuseindeks seadistatud. Saate selleks kasutada juhendit Vedaja kütuseindeksi seadistamine. Neid seadistustoiminguid teeb üldjuhul logistika haldur. Selle protseduuri loomiseks kasutati demoandmeid USMF.
 

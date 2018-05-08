@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Valimine tänapäevase kassa ja pilvekassa vahel
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 See teema annab juurutajatele täiendava tausta, näpunäited ja juhiseid tegurite kohta, mida nad peaksid arvesse võtma, kui nad rakendavad lahendust Microsoft Dynamics 365 for Retail. Kui juurutajad vaatavad üle ja järgivad juurutusprotsessi osana neid juhiseid, saavad nad vältida probleeme, mis võivad mõjutada kasutaja rahulolu või jõudlust.
 

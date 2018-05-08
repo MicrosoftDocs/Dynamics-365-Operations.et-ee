@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-an-open-ended-question"></a>Avatud küsimuse loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Avatud küsimused võimaldavad vastajatel oma vastuse anda. Saate määrata, kas vastuseks on number, kümnendarv, kuupäev, märkus ja nii edasi. See protseduur annab ülevaate kindlat tüüpi küsimuse – avatud küsimuse – loomise kohta. Protseduuri alustamiseks avage Küsimustik > Kujundus > Küsimused. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-the-bank-journal-composite-entity"></a>Pangatöölehe liitüksuse värskendamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Järgmised etapid on vajalikud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Positiivse makse failide seadistamine ja loomine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel selgitab, kuidas positiivset makset seadistada ja positiivse makse faile luua. 
 

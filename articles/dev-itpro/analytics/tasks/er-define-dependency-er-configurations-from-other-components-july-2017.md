@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>Konfiguratsioonide teistest komponentidest sõltuvuse määramine 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Toimingute teostamiseks peab esmalt läbima tegevuse juhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid, ja teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
 

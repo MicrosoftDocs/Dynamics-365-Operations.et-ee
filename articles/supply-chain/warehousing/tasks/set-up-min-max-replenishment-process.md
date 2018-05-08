@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min-max täiendamisprotsessi seadistamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, mis kasutab minimaalse/maksimaalse täiendamise strateegiat. Kui varud jäävad allapoole minimaalset taset, luuakse töö asukoha täiendamiseks. Protseduur näitab ka seda, kuidas kasutada fikseeritud komplekteerimise asukohti, et lubada uuesti täiendamist isegi siis, kui varud jäävad allapoole minimaalset taset, ja, kuidas lubada täiendamisprotsessi regulaarset käitamist, kasutades pakett-tööd. Neid ülesandeid täidab üldjuhul laohaldur. Saate seda protseduuri käitada demoandmete ettevõttes USMF, kasutades märkustes olevaid näiteväärtusi, või käitada seda oma andmetega. Kui kasutate oma andmeid, veenduge, et teil on ladu, mis on laohaldusprotsessideks lubatud.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="set-up-fixed-assets"></a>Põhivarade seadistamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas antakse ülevaade mooduli **Põhivarad** seadistamisest.
 

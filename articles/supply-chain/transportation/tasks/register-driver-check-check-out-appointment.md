@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Juhi sisse- ja väljaregistreerimine kohtumisele
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas juhti sisse ja välja registreerida. Seda teeb üldjuhul transpordikoordinaator. Saate seda protseduuri kasutada demoandmete ettevõttes USMF. Enne alustamist peab koormale olema seadistatud laadimine. Laadimise loomiseks võite käivitada eeltingimusena protseduuri Koorma laadimise plaanimine.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Tööajaarvestuse registreerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kellaaja registreerimisega töötajad saavad sisestada erinevat tüüpi kellaaja registreerimisi, näiteks sisse ja välja registreerimine, kaudsete tegevuste ja puudumiste registreerimine. See teema kirjeldab registreerimisi, nende arvutamist, kinnitamist ja töövoo kasutamist ajatabelite kinnitamise protsessile struktuuri ja automaatse kinnitamise lisamiseks. 
 

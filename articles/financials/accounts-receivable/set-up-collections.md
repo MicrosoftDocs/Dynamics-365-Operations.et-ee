@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Krediidi ja võlanõuete seadistamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada.
 

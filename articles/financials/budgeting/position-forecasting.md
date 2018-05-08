@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Ametikoha prognoosimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Töötajatega seotud kulud moodustavad tihti suure osa organisatsiooni kuludest. Ametikoha prognoosimine võimaldab teil neid kulusid planeerida ja kaasata need eelaarvete planeerimisse.
 

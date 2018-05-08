@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Kaalutud keskmine füüsilise väärtuse ja märgistusega
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Kaalutud keskmine on laomudel, mis põhineb kaalutud keskmise põhimõttel, kus lao väljaminekuid hinnatakse kauba keskmise väärtuse järgi, mis võetakse lattu vastu lao sulgemise perioodil, samuti iga vaba kaubavaru järgi eelmisest perioodist.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-search"></a>Tegevuse otsing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel kirjeldab tegevuste otsingu funktsioone rakenduses Microsoft Dynamics 365 for Finance and Operations. Tegevuste otsing aitab teil leida ka käitada lehel tegevusi.
 

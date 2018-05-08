@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manual-depreciation"></a>Käsitsi kulumiarvestus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis antakse ülevaade käsitsi rakendatavast kulumiarvestusmeetodist.
 

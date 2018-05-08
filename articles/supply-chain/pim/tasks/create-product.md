@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Toote loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur juhendab uue toote loomisel jaemüügitoodete hierarhias. Selles ülesandes kasutatud demoandmetega ettevõtte on USRT ning see ülesanne on mõeldud kaubahalduri ja tootedisaineri jaoks.
 

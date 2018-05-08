@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-charges-for-a-manufactured-item"></a>Toodetud kauba kulude kuvamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Toodetud kauba püsikulud kajastavad toimingu seadistusaegu ja konstantse koguse või konstantse praagi summaga komponente.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema kirjeldab funktsioone, mis on rakendusest Microsoft Dynamics 365 for Finance and Operations eemaldatud või aegunud.
 

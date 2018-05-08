@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Finantsaruannete vaatamine ja kujundamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Finance and Operationsis finantsaruannete vaatamist ja loomist. Finantsaruandlus hõlmab vaatamist Dynamics 365 for Finance and Operationsis ja korra klõpsatavat aruandekujundajat, mis võimaldab teil finantsaruandeid luua ja redigeerida.  
 

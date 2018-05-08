@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>Valmistoote loomine (ainult veebruar 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesanne keskendub lõpetatud toote loomisele. Koosluse arvutamise seerias on see esimene ülesanne. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.
 

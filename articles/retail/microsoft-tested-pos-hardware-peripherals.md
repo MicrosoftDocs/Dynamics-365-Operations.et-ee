@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>Kassa riistvara välisseadmed
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Tänapäevane jaemüügikassa (POS) ja pilve kassa saavad kasutada laial hulgal kassa riistvara lisaseadmeid, millel on mitu liidest juurutamissuvandit, et saavutada jaemüüja erinevad äristsenaariumid. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>CFO ülevaate Power BI sisu
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 Selles teemas kirjeldatakse **CFO ülevaate** Microsoft Power BI sisu. Power BI sisu kehtib neile, kes kasutavad rakenduse Microsoft Dynamics 365 for Finance and Operations versiooni 7.2. Kui kasutate versiooni 7.3 või sellest uuemat versiooni, vaadake artiklit [Finantsülevaated](financial-insights.md).
 

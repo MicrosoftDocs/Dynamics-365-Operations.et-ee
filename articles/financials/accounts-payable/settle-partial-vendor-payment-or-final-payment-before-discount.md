@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva.
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis käsitletakse stsenaariumi, kus osalised maksed tehakse hankija arvele ja võetakse skonto.
 

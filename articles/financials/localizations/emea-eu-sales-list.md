@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet Euroopa Liidu (EL-i) käibearuande aruandluse kohta.
 

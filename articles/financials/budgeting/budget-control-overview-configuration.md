@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>Eelarve juhtimise ülevaade 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis tutvustatakse eelarve juhtimist ja antakse teavet rakenduses Microsoft Dynamics 365 for Finance and Operations eelarve juhtimise konfigureerimise kohta, et saaksite hallata rahalisi vahendeid.
 

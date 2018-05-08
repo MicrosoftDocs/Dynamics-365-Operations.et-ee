@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-boms-as-finished"></a>Koosluse lõpetatuks kinnitamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel käsitleb koosluste lõpetatuks märkimist.
 

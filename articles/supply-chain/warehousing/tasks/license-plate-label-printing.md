@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enable-license-plate-label-printing"></a>Registreerimismärgi sildi printimise lubamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kui müügi komplekteerimise tööprotsessis on viimane kaup varudest valitud, lubab see protseduur konteineri seeriaviisi lähetamise koodi (SSCC) sildi automaatse printimise. Võite seda protseduuri käitada demoettevõtte USMF-i andmetega. Kui käitate seda omaenda andmeid kasutades, peaksite määrama litsentsiplaatide numbriseeria. Enne ülesande juurde asumist peaksite määrama sildiprinteri. Avage Organisatsiooni haldus > Seadistus > Võrguprinterid. Klõpsake toimingupaanil Suvandid, seejärel klõpsake nuppu Laadi dokumendi marsruudivaliku agendi installer alla. Käitage installer ja veenduge enne protseduuriga jätkamist, et töötav võrguprinter on seatud olekusse Aktiivne.
 

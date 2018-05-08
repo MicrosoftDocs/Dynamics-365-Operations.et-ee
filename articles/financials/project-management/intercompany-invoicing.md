@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Kontsernisisene arveldamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis on teave ja näited projektide kontsernisisese arveldamise kohta Microsoft Dynamics 365 for Finance and Operationsis.
 

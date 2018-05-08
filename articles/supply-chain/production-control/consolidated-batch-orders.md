@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidated-batch-orders"></a>Konsolideeritud partiitellimused
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse konsolideeritud partiitellimuste mõistet.
 

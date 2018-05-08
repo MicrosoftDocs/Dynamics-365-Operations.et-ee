@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> Sortimentide haldamine  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas uut tootesortimenti luua ja avaldada ning kasutab demoettevõtte USRT andmeid. See protseduur nõuab Dynamics AX-i rakendust 7.0.1 või uuemat ja Dynamics AX-i platvormi 7.1.  
 

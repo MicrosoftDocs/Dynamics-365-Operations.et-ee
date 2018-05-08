@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Toote kinnitamine kogumi komplekteerimise jaoks
 Kogumi komplekteerimisel saate komplekteerida kaupu korraga mitme tellimuse jaoks. Kogumi komplekteerimise rakendamiseks on kinnitamine väga oluline, et kontrollida kogumitesse lisatud kaupu. Kogumi komplekteerimisprotsessi ajal saab kaupu kogumi komplekteerimisel kontrollida.

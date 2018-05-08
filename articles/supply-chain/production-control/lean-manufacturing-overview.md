@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>Lean manufacturingi ülevaade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Microsoft Dynamics 365 for Finance and Operations.
 

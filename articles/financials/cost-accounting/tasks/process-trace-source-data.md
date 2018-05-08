@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-and-trace-source-data"></a>Lähteandmete töötlemine ja jälgimine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kogu andmete töötlust käitavad tööd. Iga töö ja andmepakkuja jaoks luuakse tööleht, et dokumenteerida protsessi käitust ja sisestuste töötlemist praeguses töös. Selle toimingu abil saate seadistada andmeallika ning seejärel jälgida kindla kulusisestuse päritolu. See salvestis kasutab USP2 demoandmete ettevõtet USP2. Enne selle ülesande täitmist veenduge, et tutvute ülesandejuhenditega Kuluarvestuse pearaamatu loomine ja Kulu juhtseadmete määratlemine.
 

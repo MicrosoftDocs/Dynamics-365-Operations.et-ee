@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> Müügiesindaja funktsiooniprofiili konfigureerimine
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas konfigureerida müügiesindajatele kehtivaid kaupluse funktsiooniprofiili sätteid. See protseduur kasutab demoettevõtte USRT andmeid.
 

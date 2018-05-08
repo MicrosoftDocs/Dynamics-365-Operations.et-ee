@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>Projektihaldus ja -arvestus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Projektihaduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas teenuse pakkumiseks, toote tootmiseks või tulemuse saavutamiseks.  
 

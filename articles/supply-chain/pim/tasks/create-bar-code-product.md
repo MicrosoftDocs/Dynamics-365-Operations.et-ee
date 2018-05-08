@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Tootele vöötkoodi loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab, kuidas luua käsitsi vöötkoodi, kasutades näitena kaubakoodi M0001. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

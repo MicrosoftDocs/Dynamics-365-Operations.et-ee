@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>Täpsem filtreerimis- ja päringusüntaks
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate dialoogiboksis Täpsem filter / sortimine tehtemärki „vastab”.
 

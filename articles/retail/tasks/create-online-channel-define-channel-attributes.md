@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a> Võrgukanalite loomine ja kanaliatribuutide määratlemine
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur juhendab uue võrgukanali loomisel ja selle lisamisel organisatsiooni hierarhiasse. Organisatsiooni hierarhia tuleb luua enne uue võrgukanali loomist. Protseduur kasutab demoettevõtte USRT andmeid.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Lähtedokumentide jaoks auditipoliitikate määratlemine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris näitlikustatakse, kuidas seadistada ja käitada auditi poliitikareegleid. Näites kasutatakse hotelli kulu tüübiga kuluaruandeid. See protsess kasutab demoettevõtte USMF-i andmeid. Audiitori roll sisaldab nende ülesannete teostamiseks vajalikke õigusi.
 

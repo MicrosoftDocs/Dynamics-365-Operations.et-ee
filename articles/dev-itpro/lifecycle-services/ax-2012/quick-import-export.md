@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Käivitage Dynamics AX-i (AX 2012) katseandmete edastamise tööriist (beetaversioon)
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Kiirimpordi/-ekspordi eesmärk on lasta teil importida ja eksportida väiksema toimingute arvuga.
 

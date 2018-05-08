@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-positions"></a>Saate häälestada ametikohti
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoht on töökoha üksik eksemplar. Näiteks on ametikoht „müügijuht (Ida)” vaid üks tööga „müügijuht” seostatud ametikohti. Osakonnas on töökoht ja sellega võib olla seostatud ainult üks töötaja. Selles ülesandes tutvustatakse ametikoha loomiseks nõutavaid etappe. See protseduur on mõeldud inimressursside spetsialistidele.
 

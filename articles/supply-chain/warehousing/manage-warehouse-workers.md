@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Laotöötajate haldamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas saate kasutada Microsoft Dynamics 365 for Finance and Operationsit nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="performance-management-overview"></a>Jõudlushalduse ülevaade
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid.  
 

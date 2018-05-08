@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-output-location"></a>Tootmise väljundasukoht
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse hierarhiat, mida kasutatakse tootmise väljundasukoha tuvastamiseks.
 

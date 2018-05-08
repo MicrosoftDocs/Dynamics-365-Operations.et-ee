@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilne tööruum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab teavet **hankija koostöö** mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
 

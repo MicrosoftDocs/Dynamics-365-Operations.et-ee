@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-an-eu-entry-certificate"></a>EL-i kandesertifikaadi saamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab muu osapoole väljastatud ja teie kliendilt saadud EL-i kandesertifikaadi registreerimist.
 

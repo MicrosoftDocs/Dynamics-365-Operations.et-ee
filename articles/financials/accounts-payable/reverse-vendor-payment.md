@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-a-vendor-payment"></a>Hankija makse storneerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel kirjeldab makse tagasipööramise, kustutamise, tühistamise ja tagasilükkamise erinevusi. Lisaks selgitab see kahte hankija tšeki tagasipööramise meetodit. 
 

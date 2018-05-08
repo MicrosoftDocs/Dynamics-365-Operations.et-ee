@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-accounts-receivable"></a>Müügireskontro sulgemine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Järgmises tabelis loetletakse lehed, mis toetavad müügireskontro sulgemise äriprotsessi.
 

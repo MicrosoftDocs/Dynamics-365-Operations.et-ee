@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advance-invoices-for-eastern-europe"></a>Ettemaksuarved Ida-Euroopa puhul
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ettemaksuarve on dokument, mille saate luua kliendile või hankijale. Sellel märgitakse summa, mis tuleb müügitellimuse puhul ette maksta. See teema annab teavet ettemaksuarvete kohta Ida-Euroopa puhul.
 

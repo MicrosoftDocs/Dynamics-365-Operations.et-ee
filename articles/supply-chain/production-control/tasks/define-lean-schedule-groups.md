@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-schedule-groups"></a>Säästliku graafiku gruppide määratlemine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Säästliku graafiku grupid määratletakse toodete grupeerimiseks ja eristamiseks kanban-plaanimisel. Grupeerimine võib toimuda üldise seosena ettevõtte kohta või tööraku põhiselt. Igale grupile määratakse kanban-plaanimise loendilehel visuaalseks tähistamiseks värvikood. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-hardware-station"></a> Riistvarajaama loomine ja seostamine
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab uue riistvarajaama loomist. Luuakse uus riistvaraprofiil ja kasutatakse seda uute riistvarajaamade lisamiseks eelmääratletud kauplusse (kanalisse). Protseduur kasutab demoettevõtte USRT andmeid.
 

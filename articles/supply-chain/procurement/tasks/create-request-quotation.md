@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Pakkumiskutse loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris kirjeldatakse, kuidas luua pakkumiskutset. Seda teeb tavaliselt ostuagent. Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades. Enne alustamist peavad olema seadistatud kutsetüübid. Kui olete selle ülesande lõpule viinud ning loonud ja saatnud pakkumiskutse, saate sisestada vastused hankija kohta, neid võrrelda ning määrata lepingu.
 

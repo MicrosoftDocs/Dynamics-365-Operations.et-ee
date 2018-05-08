@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="personnel-actions-faq"></a>Personalitoimingud [KKK]
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul. Personalitoimingute kasutamine võib olla vajalik näiteks uute ametikohtade loomisel, olemasolevate ametikohtade väärtuste muutmisel, uute töötajate palkamisel, töötajate üleviimisel, töötajate hüvituse muutmisel, ametikoha määramiste muutmisel või töötajate vallandamisel.
 

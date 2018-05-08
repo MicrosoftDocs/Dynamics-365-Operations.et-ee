@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Kulumiraamatu täiendamise ülevaade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Varasemates väljalasetes on põhivarade jaoks kaks hindamiskontseptsiooni: väärtusmudelid ja kulumiraamatud. Rakenduses Microsoft Dynamics 365 for Operations (1611) on väärtusmudeli ja kulumiraamatu funktsioonid ühendatud üheks kontseptsiooniks, mis on tuntud kui raamat. Selles teemas antakse mõned asjad, mida täiendamisel arvestada. 
 
@@ -62,17 +62,17 @@ Suvand 1:  **Süsteemi määratletud numbriseeria** – see on vaikesuvand täie
 Parameetrid asuvad klassi ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans alguses. 
 
 *// Määrake kannete eraldamise eelistatav lähenemisviis* 
-*// tõene, kui soovite kasutada olemasoleva numbriseeria koodi* 
-*// väär, kui soovite kasutada süsteemi määratletud numbriseeriat (vaikimisi)* const boolean NumberSequenceUseExistingCode = väär;  
+ *// tõene, kui soovite kasutada olemasoleva numbriseeria koodi* 
+ *// väär, kui soovite kasutada süsteemi määratletud numbriseeriat (vaikimisi)* const boolean NumberSequenceUseExistingCode = väär;  
 
 *// Süsteemi määratletud numbriseeria lähenemisviisi kasutamisel määrake numbriseeria parameetrid.*
-*// Nende parameetritega luuakse uus numbriseeria.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Nende parameetritega luuakse uus numbriseeria.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Olemasoleva numbriseeria lähenemisviisi kasutamisel määrake olemasoleva numbriseeria kood.* 
-*// Kande eraldamine läheb olemasoleva numbriseeria puhul rea haaval.* const str NumberSequenceExistingCode = ''; *// Määrake olemasoleva numbriseeria koodi ulatus* 
-*// tõene, kui määratud numbriseeria on ühiskasutuses* 
-*// väär, kui määratud numbriseeria on ettevõtte kohta* 
-*// Vaikimisi süsteemi määratletud numbriseeriat kasutatakse, kui määratud ulatusega numbriseeria koodi ei leita.* const boolean NumberSequenceExistingIsShared = true; 
+ *// Kande eraldamine läheb olemasoleva numbriseeria puhul rea haaval.* const str NumberSequenceExistingCode = ''; *// Määrake olemasoleva numbriseeria koodi ulatus* 
+ *// tõene, kui määratud numbriseeria on ühiskasutuses* 
+ *// väär, kui määratud numbriseeria on ettevõtte kohta* 
+ *// Vaikimisi süsteemi määratletud numbriseeriat kasutatakse, kui määratud ulatusega numbriseeria koodi ei leita.* const boolean NumberSequenceExistingIsShared = true; 
 
 Ehitage uuesti projekt, mis sialdab klassi, kui konstandid on modifitseeritud. 
 

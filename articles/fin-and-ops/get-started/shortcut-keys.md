@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations. 
 

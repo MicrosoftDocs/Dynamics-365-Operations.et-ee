@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Üksik mitme kliendi- või hankijakirjega kanne
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Finance and Operations tulevastes versioonides, mille tulemusena me ei soovita me kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Tootmise käivitamise registreerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse põhimõisteid ja tingimusi, mida on vaja tootmise käivitamise konfigureerimiseks ja kasutamiseks mõista. 
 

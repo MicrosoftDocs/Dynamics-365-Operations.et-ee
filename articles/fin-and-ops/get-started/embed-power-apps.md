@@ -25,9 +25,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="embed-powerapps"></a>PowerAppsi manustamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 Microsoft Dynamics 365 for Finance and Operationsi platvormivärskendus 14 toetab integratsiooni Microsoft PowerAppsiga, mis on mõeldud arendajatele ja mittetehnilistele kasutajatele kohandatud ärirakenduste ehitamiseks mobiilsideseadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Teie, teie organisatsiooni või laiema ettevõtete „ökosüsteemi” arendatud PowerAppsi saab lisada rakenduse Finance and Operations klienti, et võimendada toote funktsionaalsust. Näiteks võib luua PowerAppi, mis täiendab Finance and Operationsi teisest süsteemist toodud teabega. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Kauba transpordipiirangute seadistamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selle protseduuri saab seadistada transpordipiirangu, et vältida valitud kauba transportimist valitud keskuse kaudu. Seda ülesannet täidab tavaliselt transpordi koordinaator. Saate seda protseduuri kasutada demoettevõttes USMF või oma andmeid kasutades.
 

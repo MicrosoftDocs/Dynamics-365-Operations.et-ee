@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-sheets"></a>Kuluarvutustabelid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kuluarvutustabeli seadistus täidab kahte eesmärki. Esimese sihina määrate müüdud kaupade maksumuse teabe kuvamise vormingu toodetud kauba või tootmistellimuse kohta. Vormindatud kuva nimetatakse kuluarvutustabeliks. Teise sihina määrate kaudse kulu arvutamise alused. Kuluarvutustabeli seadistus põhineb kulugrupi teabekuvamise funktsioonil ja kaudse kulu arvutamise valemitel. Selles artiklis on kirjeldatud kuluarvutustabeli seadistuse kahte eesmärki. 
 

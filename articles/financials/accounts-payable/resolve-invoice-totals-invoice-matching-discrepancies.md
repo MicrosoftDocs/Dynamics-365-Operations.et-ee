@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Lahknevuste lahendamine arve kogusummade võrdlemisel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Arvete võrdlemise kinnitamise üks tüüp on arvete kogusummade võrdlemine. Selleks, et määrata, et süsteem peaks arvete kogusummasid võrdlema, määrake lehe **Ostureskontro parameetrid** vahekaardil **Arve kinnitamine** suvandi **Arvesummade võrdlemine** väärtuseks **Jah**. 
 

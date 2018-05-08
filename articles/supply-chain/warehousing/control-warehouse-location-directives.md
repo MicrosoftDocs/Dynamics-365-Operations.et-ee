@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Laotöö juhtimine töömallide ja asukohadirektiividega
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas kasutada töömalle ja asukoha korraldust määramaks, kuidas ja kus laos tööd tehakse.
 

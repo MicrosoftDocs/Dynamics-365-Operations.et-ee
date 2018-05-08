@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Arvestus- või aruandlusvaluutade teisendamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ettevõttel, mis peab muutma oma arvestusvaluutat või aruandlusvaluutat, on kaks võimalust. Esimene võimalus on luua uus ettevõte ja alustada otsast peale. Teine võimalus on käivitada arvestus-- ja aruandlusvaluuta teisenduse protsess. See on väga pikaajalisne protsess, mis muudab süsteemis iga kannet. Enne protsessi käitamist on nõutav ka mõningane seadistus.
 

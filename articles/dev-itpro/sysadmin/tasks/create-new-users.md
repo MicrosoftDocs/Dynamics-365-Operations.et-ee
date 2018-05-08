@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-new-users"></a>Uute kasutajate loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutajad on teie organisatsioonisisesed töötajad või välised kliendid ja hankijad, kes vajavad oma töö tegemiseks juurdepääsu süsteemile. Süsteemiadministraatorid saavad selle protseduuri abil lisada süsteemi kasutajaid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-store-inventory"></a>Kaupluse varude haldamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 See artikkel kirjeldab dokumendi tüüpe, mida saate kasutada varude haldamiseks.
 

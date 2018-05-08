@@ -24,7 +24,7 @@ ms.lasthandoff: 02/14/2018
 ---
 # <a name="benefit-eligibility-process"></a>Soodustuskõlblikkuse töötlemine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab. Kui protsess on lõpule viidud, saab tulemusi vaadata. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

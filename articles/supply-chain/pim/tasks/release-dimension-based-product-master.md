@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>Dimensioonipõhise tooteetaloni väljastamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab, kuidas väljastada tooteetaloni, mida hakatakse kasutama dimensioonipõhistes konfiguratsioonides. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on eeltingimus, et saaksite luua tooteetaloni dimensioonipõhise konfiguratsioonitehnoloogiaga. See on teine protseduur kaheksast, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks.
 

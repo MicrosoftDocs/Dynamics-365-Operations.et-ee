@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a>Pooltoote loomine (ainult veebruar 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesanne keskendub pooleldi lõpetatud toote loomisele. See on teine ülesanne koosluse arvutamise seeriates. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.
 

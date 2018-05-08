@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>Kogukulude eraldamise meetod
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema sisaldab juhiseid kogukulu eraldamise (TCA) kohta. TCA on meetod kulude arvutamiseks partiitellimuse peamise valemi üksuse ja valemile määratletud kaastoodete vahel.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Kanban-koguse soovituste arvutamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur keskendub kanban-suuruse ja koguste optimeerimisele konkreetse kanban-reegli puhul, kasutades kanban-koguse arvutamist. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on mõeldud väärtuse voo haldurile. See on eeltingimus, et olete lõpetanud protseduuri Kanban-koguse arvutuspoliitika lisamine kanban-reeglile.
 

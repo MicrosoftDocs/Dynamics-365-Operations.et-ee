@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Kindlatele hankekategooriatele hankijate kinnitamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ostutaotluse loomisel võib olla nõue valida heakskiidetud või eelistatud hankija, olenevalt sellest, kuidas ostupoliitikad on seadistatud. See protseduur näitab teile, kuidas määrata konkreetse hankekategooria puhul, et hankija on kinnitatud või eelistatud. Seda ülesannet täidab tavaliselt hankespetsialist. Saate seda protseduuri kasutada demoandmete ettevõttes USMF.
 

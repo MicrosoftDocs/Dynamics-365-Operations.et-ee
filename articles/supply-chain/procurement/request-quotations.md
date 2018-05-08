@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Pakkumiskutsed
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas antakse ülevaade pakkumiskutsete kohta. Organisatsioonid väljastavad pakkumiskutse, kui saavad mitmelt hankijalt konkureerivaid pakkumisi kaupade või teenuste kohta, mida soovivad osta. Pakkumiskutses saate hankijatelt küsida teie määratud kaubakoguse hindu ja tarneaegu.
 Samuti saate hankijatelt küsida, kas on lisatasusid, nagu saatekulud, või allahindlusi suurte tellimuste või hankija arve ennetähtaegse maksmise korral.

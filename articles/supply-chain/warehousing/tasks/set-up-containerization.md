@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-containerization"></a>Konteinerisse määramise seadistamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Protseduur kirjeldab koormakonteinerite koostamise automatiseerimist laohalduses. Automaatne konteinerite koostamine loob saadetiste jaoks konteinerid ja komplekteerimistööd pärast voo töötlemist ja töö read saab jagada kogustesse, mis vastavad konteineritele. See aitab laotöötajatel komplekteerida kaupu otse valitud konteinerisse. Võrreldes käsitsi pakkimise protsessiga, on sellised toimingud nagu konteinerite loomine, kaupade määramine ja konteinerite sulgemine süsteemi automatiseeritud. See protseduur kasutab demoettevõtet USMF ja selle viib läbi lao juhataja.
 

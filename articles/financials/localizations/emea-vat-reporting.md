@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas antakse üldine ülevaade käibemaksu (KM) aruande seadistamise ja koostamise kohta mõningates Euroopa riikides.
 

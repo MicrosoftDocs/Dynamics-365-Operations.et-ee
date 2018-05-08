@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>Finantsdimensioonid ja sisestamine 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad komponendid dokumendi või tööraamatu sisestamisel koos toimivad. Need komponendid on konto struktuurid, täpsemad reeglid ning tasakaalustavad ja fikseeritud dimensioonid. Selles teemas selgitatakse, mis komponendid on ja kuidas need koos töötavad.
 

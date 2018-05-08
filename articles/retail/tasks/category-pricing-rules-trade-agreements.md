@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategooria hinnakujunduse reeglid, et luua kaubanduslepped
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Protseduur näitab, kuidas luua müügihinna kaubandusleppeid kategooria hinnakujunduse reegli abiga. Selle tegevuse loomisel kasutati demoettevõtte USRT-i andmeid. See ülesanne on mõeldud jaemüügi tootejuhi rolli jaoks.
 

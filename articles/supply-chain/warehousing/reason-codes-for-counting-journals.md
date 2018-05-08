@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="reason-codes-for-inventory-counting"></a>Varude inventuuri põhjusekoodid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Põhjusekoodide abil saate analüüsida inventuuriprotsessi tulemusi ja protsessi käigus tekkivaid võimalikke lahknevusi. Saate määrata inventuuri tegemise põhjuse, nagu katkine kaubaalus või varude korrigeerimine, mis põhineb varude näidistel.
 

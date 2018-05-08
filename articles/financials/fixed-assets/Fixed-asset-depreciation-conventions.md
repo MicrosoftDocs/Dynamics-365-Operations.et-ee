@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Põhivara kulumiarvestusreeglid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kulumiarvestusreegleid kasutatakse määramaks, millal ja kuidas kulumit arvestatakse nii aastal, mil põhivara soetatakse, kui ka aastal, mil see likvideeritakse.
 

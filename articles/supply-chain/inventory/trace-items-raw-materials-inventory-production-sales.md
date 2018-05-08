@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama.
 

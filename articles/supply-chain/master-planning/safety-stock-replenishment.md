@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Kaupade puhvervaru täitmine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Puhvervaru näitab kauba laost otsa saamise riski vähendamiseks laos hoitavat kauba lisakogust. Puhvervaru kasutatakse, et tagada turvaline puhver juhuks, kui müügitellimusi tuleb, kuid tarnija ei suuda kliendi soovitud lähetuskuupäevaks lisakaupu tarnida. Kui puhvervaru kasutatakse müügitellimuse täitmiseks, siis seda vähendatakse. Koondplaneerimisega saate varudele automaatselt piisava puhvri tagasi arvestada.    
 

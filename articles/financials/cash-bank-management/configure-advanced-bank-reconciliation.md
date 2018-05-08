@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advanced-bank-reconciliation-setup-process"></a>Pangakonto täpsema vastavusseviimise seadistusprotsess
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pangakonto täpsema vastavusseviimise abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Finance and Operationsis automaatselt pangakannetega vastavusse viia.  See artikkel selgitab vastavusseviimise seadistusprotsesse.  
 

@@ -26,11 +26,11 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>Mida on rakenduses Microsoft Dynamics for Retail uut või mis on muutunud?
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See lehekülg suunab teid ressurssidesse, mis võivad aidata teil saada lisateavet rakenduse Microsoft 365 for Retail värskeimate väljaannete uute funktsioonide ja muudatuste kohta.
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-for-retail"></a>Rakenduse Dynamics 365 for Retail väljaanded
 

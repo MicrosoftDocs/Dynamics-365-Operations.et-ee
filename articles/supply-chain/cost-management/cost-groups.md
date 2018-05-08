@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-groups"></a>Kulugrupid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kulugrupid annavad aluse toodetud kauba omahinna püsikulude, nt materjali, töö ja üldise püsikulude segmentimiseks ja analüüsimiseks. Kulugrupi segmentimisel on tootmiskeskkonnas mitu sünonüümi, nagu kulude jaotamine, kulu eraldamine või kulu klassifikatsioon. 
 

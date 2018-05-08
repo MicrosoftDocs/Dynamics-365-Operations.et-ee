@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Pakkumiskutse pakkumiste sisestamine ja võrdlemine ning lepingute määramine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas sisestada pakkumiskutsele vastuseid, pakkumisi hinnata ja võrrelda ning seejärel määrata pakkumine ühele hankijatest. Saate seda protseduuri kasutada demoandmete ettevõttes USMF. Enne alustamist peab teil olema pakkumiskutse kahe reaga, mis on saadetud vähemalt kahele hankijale. Selle loomiseks saate käitada eeltingimusena protseduuri Pakkumiskutse loomine. Teil on vaja seadistada hindamiskriteeriumid, enne kui saate seda protseduuri käitada.
 

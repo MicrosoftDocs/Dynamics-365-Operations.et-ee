@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-main-account-categories"></a>Põhikonto kategooriate seadistamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Põhikonto kategooriaid kasutatakse vaikearuanneteks finantsaruandlusel ja Power BI-s. Vaikimisi loodud põhikonto kategooriaid saab ümber nimetada, kuid mitte kustutada. Luua saab täiendavaid kontokategooriaid ning kasutada neid aruandluseks ja analüüsiks. See ülesanne kasutab demoettevõtte USMF andmeid.
 

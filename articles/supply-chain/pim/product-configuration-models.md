@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="product-configuration-models-overview"></a>Toote konfiguratsioonimudelite ülevaade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel määratleb toote konfiguratsioonimudeleid puudutavad tingimused ja mõisted. Toote konfiguratsioonimudelid võimaldavad luua üldise tootestruktuuri, mida saab kasutada üksiku toote paljude variantide konfigureerimiseks.
 

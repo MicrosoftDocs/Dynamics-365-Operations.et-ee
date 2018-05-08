@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Optimeerimisnõustaja reeglite loomine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas **optimeerimisnõustaja** jaoks uusi reegleid luua. Näiteks saate luua uue reegli selle tuvastamiseks, millistel pakkumiskutse juhtumitel on tühi pealkiri. Juhtumite jaoks pealkirjade kasutamine muudab need kergesti tuvastatavaks ja otsitavaks. See lihtne näide selgitab, mida saab optimeerimisreeglitega saavutada. 
 

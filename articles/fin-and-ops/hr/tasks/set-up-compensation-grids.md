@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-compensation-grids"></a>Hüvitisruudustike häälestamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Tasuruudustikke kasutatakse põhipalgaplaanide palgastruktuuri määratlemiseks ja säilitamiseks. Tasuruudustikke saab mitme plaani vahel jagada või uue tasuplaani loomisel kopeerida.  Enne tasuruudustiku koostamist tuleb seadistada tasemed ja viitepunktid. Selles näites loome uue tasuruudustiku tüübi Tase, kasutades tasemete ja viitepunktide demoandmeid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

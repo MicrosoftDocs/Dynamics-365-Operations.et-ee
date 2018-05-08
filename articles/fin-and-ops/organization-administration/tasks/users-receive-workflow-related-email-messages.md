@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Luba kasutajatel töövooga seotud e-kirju vastu võtta
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Saate konfigureerida süsteemi saatma kasutajatele meilisõnumeid töövooga seotud sündmuste esinemisel. Näiteks e-kirju saab saata kasutajatele kui dokumendid on neile määratud kinnitamiseks. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

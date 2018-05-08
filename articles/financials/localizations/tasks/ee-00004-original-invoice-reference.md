@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="original-invoice-reference-eastern-europe"></a>Algse arve viide (Ida-Euroopa)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesanne näitab teile, kuidas luua parandusridu müügitellimuse kreeditarvele. Ülesande loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Poola, andmeid.
 

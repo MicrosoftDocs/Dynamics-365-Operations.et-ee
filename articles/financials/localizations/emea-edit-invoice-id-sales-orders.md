@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Arvete ID-de redigeerimine müügitellimustel Ida-Euroopa puhul
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab teavet müügireskontro parameetrite kohta, mis mõjutab arvenumbreid saatelehtedel ja arvetel. Teave kehtib Tšehhi Vabariigi, Eesti, Ungari, Leedu, Läti ja Poola puhul.
 

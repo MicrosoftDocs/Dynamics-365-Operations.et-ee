@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Pakkumiskutsetele hindamismeetodi loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris näidatakse, kuidas hindamismeetodit luua. Hindamismeetod on kriteeriumide kogum, mida saab kasutada pakkumiskutsele vastuseks saadetud pakkumiste võrdlemiseks. Näiteks võib olla vaja hinnata hankijat varasema soorituse põhjal või hinnata, kas ettevõte on keskkonnasõbralik või hea koostööpartner, või võrrelda pakkumisi hinna alusel. Hindamismeetodi saab seostada kutse tüübiga seda tüüpi pakkumiskutsete vaike-hindamismeetodina. Neid ülesandeid täidab üldjuhul ostujuht. Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.
 

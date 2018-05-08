@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> Iseteenindus riistvarajaama allalaadimiseks
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab, kuidas alla laadida eelmääratletud riistvarajaama. Selle protseduuri puhul kasutati demoettevõtte USRT andmeid. Enne selle ülesande käivitamist peate olema loonud uue riistvarajaama profiili ja riistvarajaama.
 

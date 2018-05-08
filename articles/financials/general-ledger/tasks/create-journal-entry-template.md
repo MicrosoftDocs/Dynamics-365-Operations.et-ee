@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>Töölehe sisestuse loomine malli abil
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Sisestatud töölehe kandeid saab salvestada Kande mallidena ja rakendada uue töölehe kandes. See protsess kasutab demoettevõtte USMF-i andmeid.
 

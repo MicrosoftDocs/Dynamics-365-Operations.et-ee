@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advance-holder-transactions"></a>Avansisaaja kanded
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Lugege, kuidas töötada avansisaajate kannetega Microsoft Dynamics 365 for Finance and Operationsis.
 

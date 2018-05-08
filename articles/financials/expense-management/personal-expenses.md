@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Isiklikud kulud kuluaruandes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ärireiside jooksul võib mõnikord juhtuda, et töötaja maksab isiklike kulude eest ettevõtte krediitkaartidega. Kui te ei määratle protsessi isiklike kulude käsitlemiseks, võib kuluaruannete kinnitamine katkeda, kui töötajad esitavad detailsed kuluaruanded. 
 

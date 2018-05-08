@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Otsing varudest kassas 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Otsing varudest kassas aitab jaemüüjatel reaalajas saavutada kõrget töökvaliteeti ning saada ülevaateid kaupluste, kassa ja varukontori ühendamise teel. See funktsiooni annab täpse reaalajas vaate toote varudest kauplustes ja turustuskeskustes. Samuti aitab see jaemüüjatel suurendada tõhusust ja säästlikkust, tõhustades varude planeerimist reaalajas.
 

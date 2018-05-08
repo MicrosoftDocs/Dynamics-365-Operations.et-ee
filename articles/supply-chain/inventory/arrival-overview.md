@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Saabumise ülevaade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse funktsiooni saabumisülevaade. Saabumisülevaate leht on selle funktsiooni osa ja annab ülevaate kõikidest kaupadest, mille saabumist sissetuleva kaubana eeldatakse.
 

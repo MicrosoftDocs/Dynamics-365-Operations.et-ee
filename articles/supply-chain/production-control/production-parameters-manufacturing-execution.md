@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Tootmise parameetrid moodulis Tootmise käivitamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema käsitleb tootmise parameetrite seadistamist moodulis Tootmise käivitamine.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>E-poe konfigureerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel sisaldab linke teemadele, mis aitavad teil võrgupoodi keskselt konfigureerida ja hallata.
 

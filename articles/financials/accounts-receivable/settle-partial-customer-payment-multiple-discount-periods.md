@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel näitab, kuidas mitme allahindlusperioodi korral osalisi kliendi makseid tasakaalustatakse.
 

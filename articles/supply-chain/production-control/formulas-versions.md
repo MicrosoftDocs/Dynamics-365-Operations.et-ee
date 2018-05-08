@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>Valemid ja valemite versioonid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Valem määratleb materjalid, koostisosad ja konkreetse protsessi väljundid protsessi tootmises. Koos vastava protsessiga määratleb valem protsessi tootmises kogu protsessi. Valemeid kasutatakse protsessi tootmises toodete plaanimiseks ja tootmiseks.
 

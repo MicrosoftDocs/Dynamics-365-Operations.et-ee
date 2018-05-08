@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-depreciation-proposal"></a>Kulumisoovituse koostamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur kirjeldab, kuidas töötavad kulumi partiisoovitused, ja selles selgitatakse, kuidas põhivarade kulumit soovitada. See ülesanne kasutab demoettevõtet USMF ja raamatupidaja rolli.
 

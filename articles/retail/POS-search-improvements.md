@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Ülevaade toote ja kliendi otsingust kassas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Modern Point of Sale (MPOS) ja pilvekassa (CPOS) pakuvad hõlpsasti kasutatavat otsingufunktsiooni toodete ja klientide otsimiseks. Kuna MPOS-i ja CPOS-i akende ülaosas on otsinguriba alati nähtav, saavad töötajad tooteid ja kliente kiiresti otsida.
 

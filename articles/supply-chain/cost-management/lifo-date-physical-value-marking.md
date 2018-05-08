@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO kuupäev füüsilise väärtuse ja märgistusega
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Laomudel Viimasena sisse, esimesena välja (LIFO) põhineb LIFO põhimõttel. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. Kui LIFO-kuupäeva kasutamisel enne väljaminekut sissetulekut pole, tasakaalustatakse väljaminek mis tahes sissetulekuga, mis toimub pärast väljamineku kuupäeva. Mitmed väljaminekud samal päeval tasakaalustatakse viimase väljamineku, viimase sissetuleku järjekorras. 
 

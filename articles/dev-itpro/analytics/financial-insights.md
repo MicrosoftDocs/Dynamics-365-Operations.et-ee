@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>Finantsülevaated
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Finantsülevaated** kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks. Power BI on manustatud rakendusse Microsoft Dynamics 365 for Finance and Operations.
 **Finantsülevaated** keskenduvad analüütilisele aruandlusele. Organisatsiooni isikud saavad seda vaadata, uurida, mõista ja tegutseda. 

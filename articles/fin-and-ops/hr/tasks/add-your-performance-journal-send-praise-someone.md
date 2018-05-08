@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil. Töölehe kaudu saab ka kolleegi tegevusi kiita. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>Finantsperioodi sulgemise tööruum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis antakse ülevaade finantsperioodi sulgemise tööruumist ja sellega seotud konfiguratsioonist.
 

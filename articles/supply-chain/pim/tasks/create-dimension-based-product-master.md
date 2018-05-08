@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>Dimensioonipõhise tooteetaloni loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas luua uut tooteetaloni tehnoloogiaga Dimensioonipõhine konfiguratsioon. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on esimene protseduur kaheksast, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks.
 

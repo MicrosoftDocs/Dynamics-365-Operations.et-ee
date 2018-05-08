@@ -29,7 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Koondplaneerimise kodulehekülg
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Koondplaneerimise võimaldab peamiselt ettevõtetel kindlaks määrata ja tasakaalustada edaspidise vajaduse toormaterjalide järele ning vajalikud võimsused ettevõtte eesmärkide täitmiseks. Koondplaneerimise hindab järgmist: 
 

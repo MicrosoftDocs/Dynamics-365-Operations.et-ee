@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>Meilimallide haldamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Saate teisaldada teabe teie organisatsiooni andmebaasist uue dokumendi järjehoidjatesse ja kasutada seda mallides, mis aitavad teil tõhusalt kandidaatidega suhelda. Selleks loote malli, mis sisaldab standardteksti ja mõnda järjehoidjat, kuhu süsteemiandmed tuleks lisada. Näiteks saate sisestada kandidaadi aadressi ja kontaktteabe Microsoft Wordi dokumenti, mida saate kasutada selle kandidaadiga suhtlemisel. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

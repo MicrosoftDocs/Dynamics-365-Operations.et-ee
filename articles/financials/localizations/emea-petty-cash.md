@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="petty-cash-for-eastern-europe"></a>Väikesed summad Ida-Euroopa puhul
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid.
 

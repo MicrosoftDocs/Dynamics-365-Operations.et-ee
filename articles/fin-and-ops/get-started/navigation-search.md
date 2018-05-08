@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>Navigeerimisotsing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas kasutada otsingufunktsiooni Microsoft Dynamics 365 for Finance and Operationsi lehtedel navigeerimiseks.
 

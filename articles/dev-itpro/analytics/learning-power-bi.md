@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="learning-power-bi-content"></a>Õppimise Power BI sisu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse **õppimise** Microsoft Power BI sisu.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Viivitamatu täiendamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Viivitamatu täiendamine võimaldab teil varusid täiendada kohe, kui asukohakorralduse real varude eraldamine nurjub. Täiendamine põhineb asukohakorralduse seadistuse ühel real. Kui varude laoseis pole rea jaoks määratud mõõtühikus, toimub selle mõõtühiku täiendamine kohe.
 

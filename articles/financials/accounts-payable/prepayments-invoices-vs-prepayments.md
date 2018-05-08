@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
 

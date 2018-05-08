@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="common-sources-of-production-variances"></a>Tootmishälvete üldpõhjused
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse erinevaid igat tüüpi tootmishälvete tavalisemaid põhjuseid. 
 

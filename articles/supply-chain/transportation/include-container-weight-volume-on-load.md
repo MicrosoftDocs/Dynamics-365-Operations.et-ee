@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="include-container-weight-and-volume-on-load"></a>Konteineri kaalu ja mahu lisamine laadimisel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Koormatele konteineri kaalu ja mahu lisamise funktsioon kajastab täpselt koormatesse minevate konteinerite ja kaupade kogukaalu ning -mahtu.
 

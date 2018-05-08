@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>BOM arvutused
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kulu ümardamist ja müügihinna kalkulatsioone nimetatakse koosluse kalkulatsiooniks (BOM) ja neid saate käivitada lehelt Arvestused. Teema sisaldab teavet koosluse kalkulatsioonide kohta.
 

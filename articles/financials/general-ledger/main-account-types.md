@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="main-account-types"></a>Põhikonto tüübid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Põhikonto tüübid määratlevad selle, kuidas põhikontot kontoplaanis kasutatakse.
 

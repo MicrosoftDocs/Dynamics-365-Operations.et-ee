@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-workflows-for-expense"></a>Kulude töövoogude häälestamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Saate seadistada töövooprotsessi, mida kasutatakse reisi- ja kuludokumentide kinnitamiseks. Dokumendid, millele saab määratleda töövoogusid, on kuluaruanded, reisiplaanid ja avansimaksete taotlused.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="journalize-posted-journal-entries"></a>Sisestatud töölehekirjete töölehele paigutamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas sisestatud töölehe kandeid töölehele paigutada. Protseduur kasutab demoettevõtte USMF andmeid.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Seda funktsiooni toetatakse rakenduses Dynamics 365 for Finance and Operations (versioon 7.2 ja uuemad).

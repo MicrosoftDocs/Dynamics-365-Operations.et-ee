@@ -27,7 +27,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-payments-workspace"></a>Hankija maksete tööruum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Hankija maksete** tööruumis on näidatud teave, mis on seotud hankija maksete töötlemisega. See tööruum sisaldab vaadet **Minu töö** ja lehte **Analüüs**. Vaade **Minu töö** kuvab kokkuvõttepaanid, hankija kannete tabelid ja hankija seonduvad andmed. Leht **Analüüs** kasutab Microsoft Power BI võimalusi hankija maksetega seotud visuaalide kuvamiseks.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="dimension-hierarchy"></a>Dimensioonihierarhia
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Teema sisaldab teavet dimensioonihierarhiate kohta. Dimensioonihierarhiat saab kasutada aruandlusstruktuuri, kulupoliitikate ja turbeseadistuse määratlemiseks kuluarvestuses.  
 

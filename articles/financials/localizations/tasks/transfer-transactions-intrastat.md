@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a>Kannete ülekandmine Intrastati
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris selgitatakse, kuidas seadistada Intrastati parameetreid ja edastada kandeid Intrastati. Protseduuri loomisel kasutati demoettevõtte DEMF andmeid.
 

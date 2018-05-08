@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Väheneva jääkväärtuse kuluarvestusmeetod
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis antakse ülevaade väheneva kulumiarvestusmeetodi kohta.
 
