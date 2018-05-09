@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c7f35f57223798e91fc2a81c0821a2dc81512624
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0ab51a56c33a84dea9cf945e808fa7bc42d3727c
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="assign-users-to-security-roles"></a><span data-ttu-id="b2516-103">Kasutajate määramine turberollidesse</span><span class="sxs-lookup"><span data-stu-id="b2516-103">Assign users to security roles</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b2516-104">Rakendusele Microsoft Dynamics 365 for Finance and Operations tuleb määrata kasutajatele turberoll.</span><span class="sxs-lookup"><span data-stu-id="b2516-104">To access Microsoft Dynamics 365 for Finance and Operations, users must be assigned to security roles.</span></span> <span data-ttu-id="b2516-105">See protseduur selgitab, kuidas süsteemiadministraatorid saavad määrata kasutajatele automaatselt rolle äriandmete alusel.</span><span class="sxs-lookup"><span data-stu-id="b2516-105">This procedure explains how system administrators can assign users to roles automatically, based on business data.</span></span> <span data-ttu-id="b2516-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="b2516-106">The demo data company used to create this procedure is USMF.</span></span>
 

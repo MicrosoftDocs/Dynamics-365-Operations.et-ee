@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 483bb63f9fe9d88c8d5f3a6c46b372f344f90cdd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e426a90375f97d175acb10968ea278eacb211f04
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a><span data-ttu-id="1c356-104">Kassa tellimuse teatiste kuvamine</span><span class="sxs-lookup"><span data-stu-id="1c356-104">Show order notifications in the point of sale</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="1c356-105">Modernses jaemüügikeskkonnas on kaupluse töötajatele määratud mitmesuguseid ülesandeid, näiteks klientide abistamine, kannete sisestamine, laoinventuuri tegemine ja kaupluses tellimuste vastuvõtmine.</span><span class="sxs-lookup"><span data-stu-id="1c356-105">In the modern retail environment, store associates are assigned various tasks, such as helping customers, entering transactions, doing stock counts, and receiving orders in the store.</span></span> <span data-ttu-id="1c356-106">Kassa klient pakub üht rakendust, kus töötajad saavad täita kõiki neid ülesandeid ja palju muud.</span><span class="sxs-lookup"><span data-stu-id="1c356-106">The point of sale (POS) client provides a single application where associates can perform all these tasks and many others.</span></span> <span data-ttu-id="1c356-107">Kuna päeva jooksul tuleb täita erinevaid ülesandeid, võib juhtuda, et töötajaid tuleb teavitada, kui miski nõuab nende tähelepanu.</span><span class="sxs-lookup"><span data-stu-id="1c356-107">Because various tasks must be performed during the day, associates might have to be notified when something requires their attention.</span></span> <span data-ttu-id="1c356-108">Kassa teatiste raamistik võimaldab jaemüüjatel konfigureerida rollipõhiseid teatisi.</span><span class="sxs-lookup"><span data-stu-id="1c356-108">The notification framework in the POS helps by letting retailers configure role-based notifications.</span></span> <span data-ttu-id="1c356-109">Microsoft Dynamics 365 for Retail rakendusevärskendusega 5 võimaldab neid teatisi konfigureerida ainult kassatoimingutele.</span><span class="sxs-lookup"><span data-stu-id="1c356-109">In Microsoft Dynamics 365 for Retail with application update 5, these notifications can be configured only for POS operations.</span></span>
 

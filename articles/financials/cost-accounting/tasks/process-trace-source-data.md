@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57884660fb9459c8cd918e5d1ba4df14efcf6db3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d7470c53c3fe48e4adb584847dbb3b7dc931e578
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="process-and-trace-source-data"></a><span data-ttu-id="a88f4-103">Lähteandmete töötlemine ja jälgimine</span><span class="sxs-lookup"><span data-stu-id="a88f4-103">Process and trace source data</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a88f4-104">Kogu andmete töötlust käitavad tööd.</span><span class="sxs-lookup"><span data-stu-id="a88f4-104">All data processing is run by jobs.</span></span> <span data-ttu-id="a88f4-105">Iga töö ja andmepakkuja jaoks luuakse tööleht, et dokumenteerida protsessi käitust ja sisestuste töötlemist praeguses töös.</span><span class="sxs-lookup"><span data-stu-id="a88f4-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="a88f4-106">Selle toimingu abil saate seadistada andmeallika ning seejärel jälgida kindla kulusisestuse päritolu.</span><span class="sxs-lookup"><span data-stu-id="a88f4-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="a88f4-107">See salvestis kasutab USP2 demoandmete ettevõtet USP2.</span><span class="sxs-lookup"><span data-stu-id="a88f4-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="a88f4-108">Enne selle ülesande täitmist veenduge, et tutvute ülesandejuhenditega Kuluarvestuse pearaamatu loomine ja Kulu juhtseadmete määratlemine.</span><span class="sxs-lookup"><span data-stu-id="a88f4-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 

@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1311e27b4080832c6e1aa2b879308f518d2ab001
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0fc8dfe976f3a9aee29c53ceb8d77cbe7242e053
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a><span data-ttu-id="2bbad-103">Pooltoote loomine (ainult veebruar 2016)</span><span class="sxs-lookup"><span data-stu-id="2bbad-103">Create a semi-finished product (February 2016 only)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2bbad-104">See ülesanne keskendub pooleldi lõpetatud toote loomisele.</span><span class="sxs-lookup"><span data-stu-id="2bbad-104">This task focuses on creating a semi-finished product.</span></span> <span data-ttu-id="2bbad-105">See on teine ülesanne koosluse arvutamise seeriates.</span><span class="sxs-lookup"><span data-stu-id="2bbad-105">It is the second task in the BOM calculation series.</span></span> <span data-ttu-id="2bbad-106">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="2bbad-106">The demo data company used to create this task is USMF.</span></span>
 

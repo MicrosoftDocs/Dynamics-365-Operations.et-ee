@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6e76afac726e9b9fbfda39ec23f8be35aded60a9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bc563eac09fffc191a34041da7c91e7a3ffbd2e1
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="validate-a-production-flow-and-version"></a><span data-ttu-id="044a1-103">Tootmisvoo ja versiooni kinnitamine</span><span class="sxs-lookup"><span data-stu-id="044a1-103">Validate a production flow and version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="044a1-104">See protseduur kirjeldab, kuidas luua uus tootmisvoog ja esimene versioon lean manufacturingi jaoks.</span><span class="sxs-lookup"><span data-stu-id="044a1-104">This procedure shows how to create a new production flow and a first version for lean manufacturing.</span></span> <span data-ttu-id="044a1-105">Eeltingimused: Tuleb määratleda lean manufacturingi tootmisparameetrid ja klassiaja mõõtühikud.</span><span class="sxs-lookup"><span data-stu-id="044a1-105">Prerequisites: The production parameters for Lean manufacturing and the units of measure for class time must be defined.</span></span> <span data-ttu-id="044a1-106">Peate määratlema ka Väärtuse voo ja Tootmisgrupi.</span><span class="sxs-lookup"><span data-stu-id="044a1-106">You need to define a Value stream and a Production group.</span></span> <span data-ttu-id="044a1-107">Tootmisvoogude ja tegevuste kontseptsioonidega tutvumiseks vaadake lean manufacturingi ülevaateid.</span><span class="sxs-lookup"><span data-stu-id="044a1-107">Refer to the white papers on Lean manufacturing to familiarize yourself with the concepts of production flows and activities.</span></span> <span data-ttu-id="044a1-108">See protseduur viitab demoandmetes juriidilisele isikule USMF.</span><span class="sxs-lookup"><span data-stu-id="044a1-108">This procedure refers to the legal entity USMF in demo data.</span></span> <span data-ttu-id="044a1-109">Eeldusel, et juriidiline isik on seadistatud lean manufacturingi jaoks, võib samas kasutada teisi juriidilisi isikuid.</span><span class="sxs-lookup"><span data-stu-id="044a1-109">However, assuming that the legal entity is configured for Lean manufacturing, other legal entities can be used.</span></span>
 

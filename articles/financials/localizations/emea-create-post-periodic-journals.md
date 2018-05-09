@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1bdc4ce08b5a7b48d1029b075517c14c7aa45069
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7a2acd8565c33d0e6dccf92fc66a1413b3c7263
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="split-periods-in-periodic-journals"></a><span data-ttu-id="6b02a-103">Perioodide tükeldamine perioodilistes töölehtedes</span><span class="sxs-lookup"><span data-stu-id="6b02a-103">Split periods in periodic journals</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6b02a-104">Perioodilisi töölehti nimetatakse mõnikord korduvtöölehtedeks, kuna suurus, tekst ja muu teave kordub iga kord, kui tööleht sisestatakse.</span><span class="sxs-lookup"><span data-stu-id="6b02a-104">Periodic journals are sometimes called recurring journals because the amount, text, and other information are repeated each time that the journal is posted.</span></span> <span data-ttu-id="6b02a-105">Töölehe loomisel saate määrata perioodi kordumise intervalli, näiteks päeva või kuu.</span><span class="sxs-lookup"><span data-stu-id="6b02a-105">When you create the journal, you specify the period interval for the recurrence, such as days or months.</span></span> <span data-ttu-id="6b02a-106">Saate määrata ka perioodide arvu, millal tööleht postitatakse.</span><span class="sxs-lookup"><span data-stu-id="6b02a-106">You also specify the number of periods for which the journal will be posted.</span></span>
 

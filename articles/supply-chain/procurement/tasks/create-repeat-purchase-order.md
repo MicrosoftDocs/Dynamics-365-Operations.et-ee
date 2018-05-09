@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b7f93d991730872c0d50a23d27236be5a057f75b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 860bd6f33cd4488400583794a4fe1667fee716d1
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-repeat-purchase-order"></a><span data-ttu-id="6c1e8-103">Korduva ostutellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="6c1e8-103">Create a repeat purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6c1e8-104">See protseduur näitab, kuidas koostada korduvat ostutellimust, kopeerides read varasemast ostutellimuse dokumendist uuele või olemasolevale ostutellimusele.</span><span class="sxs-lookup"><span data-stu-id="6c1e8-104">This procedure shows you how to create a repeat purchase order (PO) by copying lines from an earlier purchase order document to a new PO or to an existing PO.</span></span> <span data-ttu-id="6c1e8-105">Korduvate tellimuste koostamiseks on kaks meetodit.</span><span class="sxs-lookup"><span data-stu-id="6c1e8-105">There are two methods for creating repeat orders.</span></span> <span data-ttu-id="6c1e8-106">Saate kasutada dokumendi tasandil saadaolevaid toiminguid tegumiribalt või kasutada rea üksikasjade toiminguid.</span><span class="sxs-lookup"><span data-stu-id="6c1e8-106">You can use the actions available at the document level from the Action Pane, or you can use the line detail actions.</span></span> <span data-ttu-id="6c1e8-107">Dokumendi tasandi toimingud on peamiselt mõeldud uue ostutellimuse loomiseks, lisades ridu ja päise andmeid teisest tellimusest, samas kui rea üksikasjade toiming on peamiselt mõeldud olemasolevale tellimusele ridade lisamiseks.</span><span class="sxs-lookup"><span data-stu-id="6c1e8-107">The document level actions are mainly intended for creating a new purchase order by adding lines and header information from another order, while the line details action is mainly for adding lines to an existing order.</span></span> <span data-ttu-id="6c1e8-108">Selles juhendis toodud näidet saab kasutada demoandmete ettevõtte USMF puhul.</span><span class="sxs-lookup"><span data-stu-id="6c1e8-108">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="6c1e8-109">Seda ülesannet täidab üldjuhul ostuagent.</span><span class="sxs-lookup"><span data-stu-id="6c1e8-109">This task would typically be carried out by a purchasing agent.</span></span>
 

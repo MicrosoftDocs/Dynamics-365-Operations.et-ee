@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8250b612ca62048a8ab9e0c5f082a6e652e1b5c1
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-insights"></a><span data-ttu-id="f80ac-103">Finantsülevaated</span><span class="sxs-lookup"><span data-stu-id="f80ac-103">Financial Insights</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f80ac-104">**Finantsülevaated** kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks.</span><span class="sxs-lookup"><span data-stu-id="f80ac-104">**Financial Insights** uses Microsoft Power BI to bring together financial key performance indicators (KPIs), charts, and financial statements.</span></span> <span data-ttu-id="f80ac-105">Power BI on manustatud rakendusse Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="f80ac-105">Power BI is embedded in Microsoft Dynamics 365 Finance and Operations.</span></span>
 <span data-ttu-id="f80ac-106">**Finantsülevaated** keskenduvad analüütilisele aruandlusele.</span><span class="sxs-lookup"><span data-stu-id="f80ac-106">The focus of **Financial Insights** is analytical reporting.</span></span> <span data-ttu-id="f80ac-107">Organisatsiooni isikud saavad seda vaadata, uurida, mõista ja tegutseda.</span><span class="sxs-lookup"><span data-stu-id="f80ac-107">Personas across an organization can view, research, understand, and act.</span></span> 

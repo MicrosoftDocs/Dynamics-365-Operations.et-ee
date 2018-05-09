@@ -18,16 +18,16 @@ ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 97be3eee9ebb99af33e3153fe7726ed5b086b03c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 03129177bca7d1a104d297cff70978c43f0bb9c7
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="advance-invoices-for-eastern-europe"></a><span data-ttu-id="1b314-105">Ettemaksuarved Ida-Euroopa puhul</span><span class="sxs-lookup"><span data-stu-id="1b314-105">Advance invoices for Eastern Europe</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1b314-106">Ettemaksuarve on dokument, mille saate luua kliendile või hankijale.</span><span class="sxs-lookup"><span data-stu-id="1b314-106">An advance invoice is a document that you can create for a customer or vendor.</span></span> <span data-ttu-id="1b314-107">Sellel märgitakse summa, mis tuleb müügitellimuse puhul ette maksta.</span><span class="sxs-lookup"><span data-stu-id="1b314-107">It states the amount that must be prepaid on a sales order.</span></span> <span data-ttu-id="1b314-108">See teema annab teavet ettemaksuarvete kohta Ida-Euroopa puhul.</span><span class="sxs-lookup"><span data-stu-id="1b314-108">This topic provides information about advance invoices for Eastern Europe.</span></span>
 

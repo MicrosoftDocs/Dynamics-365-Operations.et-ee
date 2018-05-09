@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b36777be0abcbd17e96b42b81553155aeb909943
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2f6bf58344a1128fa4bf635e2fa27f2049e513e
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="fulfill-sales-agreements"></a><span data-ttu-id="0144b-103">Müügilepingute täitmine</span><span class="sxs-lookup"><span data-stu-id="0144b-103">Fulfill sales agreements</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0144b-104">See protseduur näitab, kuidas müügilepingut täita, seostades sellega müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="0144b-104">This procedure shows you how to fulfill a sales agreement by associating sales orders with it.</span></span> <span data-ttu-id="0144b-105">Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega.</span><span class="sxs-lookup"><span data-stu-id="0144b-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="0144b-106">Enne selle juhendiga alustamist veenduge, et teil on olemas kehtiv müügileping, mille tüüp on Toote väärtuse kohustus.</span><span class="sxs-lookup"><span data-stu-id="0144b-106">Before starting this guide, make sure you have an effective sales agreement of type "Product value commitment".</span></span> <span data-ttu-id="0144b-107">Teine võimalus on käivitada ülesanne nimega Müügilepingute koostamine.</span><span class="sxs-lookup"><span data-stu-id="0144b-107">Alternatively, you can run the task guide called "Create sales agreements".</span></span>  
 

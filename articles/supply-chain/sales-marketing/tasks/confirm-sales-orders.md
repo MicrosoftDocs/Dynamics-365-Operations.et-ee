@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b60dbe15eca10511f4aaaf472b512eb003fbf6bc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 636b23c8f87d79b0e62e5e92e79aacc33171cdfc
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="confirm-sales-orders"></a><span data-ttu-id="f5b9f-103">Müügitellimuste kinnitamine</span><span class="sxs-lookup"><span data-stu-id="f5b9f-103">Confirm sales orders</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f5b9f-104">See protseduur näitab, kuidas kinnitada müügitellimusi.</span><span class="sxs-lookup"><span data-stu-id="f5b9f-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="f5b9f-105">Teile selgitatakse üksiku tellimuse kinnitamist ja mitme tellimuse korraga kinnitamist.</span><span class="sxs-lookup"><span data-stu-id="f5b9f-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="f5b9f-106">Neid ülesandeid täidab üldjuhul müügitellimuse töötleja.</span><span class="sxs-lookup"><span data-stu-id="f5b9f-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="f5b9f-107">Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="f5b9f-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="f5b9f-108">Enne alustamist veenduge, et sama kliendi jaoks oleks mitu avatud müügitellimust.</span><span class="sxs-lookup"><span data-stu-id="f5b9f-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="f5b9f-109">Kui kasutate USMF-i, saate kasutada klienti US-027.</span><span class="sxs-lookup"><span data-stu-id="f5b9f-109">If you’re using USMF, you can use customer US-027.</span></span>
 

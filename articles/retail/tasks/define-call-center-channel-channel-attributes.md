@@ -16,15 +16,15 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bfccbaab5b4d0b4d84d1bf344521b22b7a5e6efc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2b88a5bb22fa9fc862f4fd4c50367264b58340b8
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a><span data-ttu-id="c8838-103"> Kõnekeskuse kanali ja kanaliatribuutide määratlemine</span><span class="sxs-lookup"><span data-stu-id="c8838-103">Define call center channel and channel attributes</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c8838-104">See protseduur selgitab uue jaemüügimüügikanali loomist ja kanali atribuutide konfigureerimist.</span><span class="sxs-lookup"><span data-stu-id="c8838-104">This procedure walks through creating a new retail channel and defining channel attributes.</span></span> <span data-ttu-id="c8838-105">Selle tegevuse loomisel kasutati demoettevõtte USRT-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="c8838-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="c8838-106">See protseduur on ette nähtud jaemüügi IT-rollile.</span><span class="sxs-lookup"><span data-stu-id="c8838-106">This procedure is intended for the Retail IT role.</span></span>
 

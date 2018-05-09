@@ -17,15 +17,15 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 07168d71f62e8bbe97c189077bf53513d784ff26
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7c00940d3c839702ef66a45a8ab9c878e8d2c542
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-the-relationships-between-organizational-units"></a><span data-ttu-id="82889-103"> Organisatsiooniüksuste vaheliste seoste kujundamine</span><span class="sxs-lookup"><span data-stu-id="82889-103">Design the relationships between organizational units</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="82889-104">Selles protseduuris näitlikustatakse, kuidas kujundada organisatsiooniüksuste vahelist seost.</span><span class="sxs-lookup"><span data-stu-id="82889-104">This procedure walks through how to design the relationship between organizational units.</span></span> <span data-ttu-id="82889-105">Enne seose määratlemist peate looma uue organisatsiooni eesmärgi või võite kasutada ka olemasolevat organisatsiooni eesmärki.</span><span class="sxs-lookup"><span data-stu-id="82889-105">You must create a new organization purpose before defining the relationship, or you can use the existing organization purpose.</span></span> <span data-ttu-id="82889-106">Selle protseduuri puhul on kasutatud demoettevõtte USRT andmeid.</span><span class="sxs-lookup"><span data-stu-id="82889-106">The demo data company used to complete this procedure is USRT.</span></span> <span data-ttu-id="82889-107">See ülesanne on mõeldud administraatori rollile.</span><span class="sxs-lookup"><span data-stu-id="82889-107">This task is intended for the administrator role.</span></span>
 

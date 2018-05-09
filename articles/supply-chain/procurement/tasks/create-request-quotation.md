@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d6e7c8884c0fa29b5c6efc053f2ad8171581b946
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9e7deb10cc0e5669d209ad7340108911a37bbc89
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-request-for-quotation"></a><span data-ttu-id="517d5-103">Pakkumiskutse loomine</span><span class="sxs-lookup"><span data-stu-id="517d5-103">Create a request for quotation</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="517d5-104">Selles protseduuris kirjeldatakse, kuidas luua pakkumiskutset.</span><span class="sxs-lookup"><span data-stu-id="517d5-104">This procedure shows you how to create a request for quotation.</span></span> <span data-ttu-id="517d5-105">Seda teeb tavaliselt ostuagent.</span><span class="sxs-lookup"><span data-stu-id="517d5-105">This would typically be done by a purchasing agent.</span></span> <span data-ttu-id="517d5-106">Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="517d5-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="517d5-107">Enne alustamist peavad olema seadistatud kutsetüübid.</span><span class="sxs-lookup"><span data-stu-id="517d5-107">You need to have set up solicitation types before you start.</span></span> <span data-ttu-id="517d5-108">Kui olete selle ülesande lõpule viinud ning loonud ja saatnud pakkumiskutse, saate sisestada vastused hankija kohta, neid võrrelda ning määrata lepingu.</span><span class="sxs-lookup"><span data-stu-id="517d5-108">Once you’ve completed this task and you’ve created and sent an RFQ you can then enter the replies per vendor, compare them, and award the contract.</span></span>
 

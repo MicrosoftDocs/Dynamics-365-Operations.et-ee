@@ -16,15 +16,15 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 110dde293fea31f82fb4b2b1c54bf96d5baa04b3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 28d907d10aa7b20a0a23efe0a224750390ed9e4c
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-positions"></a><span data-ttu-id="56f81-103">Saate häälestada ametikohti</span><span class="sxs-lookup"><span data-stu-id="56f81-103">Set up positions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="56f81-104">Ametikohad on organisatsioonihierarhia madalama taseme oluline element.</span><span class="sxs-lookup"><span data-stu-id="56f81-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="56f81-105">Ametikoht on töökoha üksik eksemplar.</span><span class="sxs-lookup"><span data-stu-id="56f81-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="56f81-106">Näiteks on ametikoht „müügijuht (Ida)” vaid üks tööga „müügijuht” seostatud ametikohti.</span><span class="sxs-lookup"><span data-stu-id="56f81-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="56f81-107">Osakonnas on töökoht ja sellega võib olla seostatud ainult üks töötaja.</span><span class="sxs-lookup"><span data-stu-id="56f81-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="56f81-108">Selles ülesandes tutvustatakse ametikoha loomiseks nõutavaid etappe.</span><span class="sxs-lookup"><span data-stu-id="56f81-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="56f81-109">See protseduur on mõeldud inimressursside spetsialistidele.</span><span class="sxs-lookup"><span data-stu-id="56f81-109">This procedure is intended for Human Resources Specialists.</span></span>
 

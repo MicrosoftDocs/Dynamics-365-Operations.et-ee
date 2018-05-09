@@ -16,16 +16,16 @@ ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e03386ad242ec5e4eff7a323f5e1fd492e260db9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 65f171b768f7f9cbc1032a6d1469d2b6518416c5
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="personal-information-requests-for-estonia"></a><span data-ttu-id="4ee78-103">Isikuandmete taotlused Eesti puhul</span><span class="sxs-lookup"><span data-stu-id="4ee78-103">Personal information requests for Estonia</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4ee78-104">Eesti seadusandlus võimaldab inimestel küsida ettevõtetelt aruandeid, milles on tuvastatud ettevõtete jälgitavad isikuandmed. Aruannetes on näidatud ka, kes seda teavet on vaadanud, selle loonud, seda uuendanud ja selle kustutanud.</span><span class="sxs-lookup"><span data-stu-id="4ee78-104">Estonia legally allows people to ask companies for reports that identify the personal information that the companies track. The reports also indicate who has viewed, created, updated, and deleted this information.</span></span>
 

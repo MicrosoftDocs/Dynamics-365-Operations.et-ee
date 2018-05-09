@@ -17,15 +17,15 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a298ff9689b460bec0a4dcf53b3ca7de8e05fb10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1bdd6835c89ab1095cafd4b235744d4a333d5fb5
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="generate-and-run-out-of-box-reports"></a><span data-ttu-id="a0b9a-103"> Valmisaruannete genereerimine ja käivitamine</span><span class="sxs-lookup"><span data-stu-id="a0b9a-103">Generate and run out-of-box reports</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a0b9a-104">Kasutage seda ülesandejuhendit valmisaruannete käitamiseks halduses erinevatest tööruumidest ning asukohas Päringud ja Müügiaruanded (jaotises Jaemüük ja Kaubandus).</span><span class="sxs-lookup"><span data-stu-id="a0b9a-104">Use this task guide to run out of box reports in headquarters from different workspaces and Inquiries & Sales reports located under Retail & Commerce.</span></span>
 

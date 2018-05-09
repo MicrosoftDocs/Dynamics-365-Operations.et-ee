@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 98005c91c98c5e924a36a71a88621cbcecb531bc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9155a770af72a6cf5d391171f4267eb140b244e0
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-operating-unit"></a><span data-ttu-id="2eb1d-103">Tootmisüksuse loomine</span><span class="sxs-lookup"><span data-stu-id="2eb1d-103">Create an operating unit</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2eb1d-104">Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks.</span><span class="sxs-lookup"><span data-stu-id="2eb1d-104">An operating unit is an organization that is used to divide the control of economic resources and operational processes in a business.</span></span> <span data-ttu-id="2eb1d-105">Inimestel tootmisüksuses on kohustus maksimeerida nappide ressursside kasutamist, täiustada protsesse ja vastutada nende toimivuse eest.</span><span class="sxs-lookup"><span data-stu-id="2eb1d-105">People in an operating unit have a duty to maximize the use of scarce resources, improve processes, and account for their performance.</span></span> <span data-ttu-id="2eb1d-106">Tootmisüksuste tüübid on kulukeskused, äriüksused, osakonnad ja väärtusevood.</span><span class="sxs-lookup"><span data-stu-id="2eb1d-106">The types of operating units include cost centers, business units, departments, and value streams.</span></span> <span data-ttu-id="2eb1d-107">Kasutage tootmisüksuse loomiseks järgmist protseduuri.</span><span class="sxs-lookup"><span data-stu-id="2eb1d-107">Use the following procedure to create an operating unit.</span></span> <span data-ttu-id="2eb1d-108">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="2eb1d-108">The demo data company used to create this procedure is USMF.</span></span>
 

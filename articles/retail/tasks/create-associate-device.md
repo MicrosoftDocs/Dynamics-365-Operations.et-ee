@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c12980fed5e6b26cc23aed93ce1f5ed71ea05b2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a6cbf5473419e9a390cd223706d12ba1e3c887bb
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-associate-a-device"></a><span data-ttu-id="50a4a-103"> Seadme loomine ja seostamine</span><span class="sxs-lookup"><span data-stu-id="50a4a-103">Create and associate a device</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="50a4a-104">See protseduur selgitab uue seadme loomist ja registriga seostamist.</span><span class="sxs-lookup"><span data-stu-id="50a4a-104">This procedure walks through how to create a new device and associate it to a register.</span></span> <span data-ttu-id="50a4a-105">Eeldatakse, et register on juba loodud.</span><span class="sxs-lookup"><span data-stu-id="50a4a-105">It is assumed that the register is already created.</span></span>  <span data-ttu-id="50a4a-106">Ülesanne kasutab demoettevõtte USRT andmeid.</span><span class="sxs-lookup"><span data-stu-id="50a4a-106">This task uses the USRT company in demo data.</span></span> <span data-ttu-id="50a4a-107">See ülesanne on mõeldud administraatoritele, IT-spetsialisti või jaemüügi IT ja kaupluse juhataja rollidele.</span><span class="sxs-lookup"><span data-stu-id="50a4a-107">This task is intended for Administrators, IT Professional or Retail IT, and the Store Manager roles.</span></span>
 

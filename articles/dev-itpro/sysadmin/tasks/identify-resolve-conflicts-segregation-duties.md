@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 90deb42e8443d6d1ee7edbdfcedf4513c28a3bf1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1aca5e44c1d4f5eb7777cda1ef7683e9a5b1644
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a><span data-ttu-id="7de33-103">Konfliktide tuvastamine ja lahendamine kohustuste jagamisel</span><span class="sxs-lookup"><span data-stu-id="7de33-103">Identify and resolve conflicts in segregation of duties</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7de33-104">Saate seadistada reeglid nende ülesannete eraldamiseks, mille peavad täitma erinevad kasutajad.</span><span class="sxs-lookup"><span data-stu-id="7de33-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="7de33-105">Seda põhimõtet nimetatakse kohustuste jagamiseks.</span><span class="sxs-lookup"><span data-stu-id="7de33-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="7de33-106">Kui turberolli määratlus või kasutaja rollimäärangud rikuvad reegleid, logitakse konflikt.</span><span class="sxs-lookup"><span data-stu-id="7de33-106">When the definition of a security role or the role assignments of a user violate the rules, the conflict is logged.</span></span> <span data-ttu-id="7de33-107">Administraator peab kõik konfliktid lahendama.</span><span class="sxs-lookup"><span data-stu-id="7de33-107">All conflicts must be resolved by the administrator.</span></span> <span data-ttu-id="7de33-108">Konfliktide tuvastamiseks ja lahendamiseks kasutage järgmist protseduuri.</span><span class="sxs-lookup"><span data-stu-id="7de33-108">Complete the following procedure to identify and resolve conflicts.</span></span> <span data-ttu-id="7de33-109">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="7de33-109">The demo data company used to create this procedure is USMF.</span></span>
 

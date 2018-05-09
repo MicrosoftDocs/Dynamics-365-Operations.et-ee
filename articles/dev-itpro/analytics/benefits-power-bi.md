@@ -17,16 +17,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c6ea6769b28158f8686a139903073337646c88bd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5b52f8091584eca8ff7fac909374be0e9c9045de
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="benefits-power-bi-content"></a><span data-ttu-id="bd065-104">Soodustuste Power BI sisu</span><span class="sxs-lookup"><span data-stu-id="bd065-104">Benefits Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bd065-105">Selles teemas kirjeldatakse **soodustuste** Microsoft Power BI sisu.</span><span class="sxs-lookup"><span data-stu-id="bd065-105">This topic describes the **Benefits** Microsoft Power BI content.</span></span> <span data-ttu-id="bd065-106">See selgitab ka seda, kuidas sisalduvatele aruannetele juurde pääseda, ning annab teavet sisu loomiseks kasutatud andmemudeli ja üksuste kohta.</span><span class="sxs-lookup"><span data-stu-id="bd065-106">It explains how to access the reports that are included, and provides information about the data model and entities that were used to build the content.</span></span>
 

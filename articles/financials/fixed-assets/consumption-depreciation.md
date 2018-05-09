@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 653c7de18d8227d639d0138201a9ec395b484d2f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2f7391703e6ed26459a0247e1d4f8d3e9e4430c8
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="consumption-depreciation"></a><span data-ttu-id="fcfd5-103">Tarbimise kulum</span><span class="sxs-lookup"><span data-stu-id="fcfd5-103">Consumption depreciation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="fcfd5-104">Selles artiklis antakse ülevaade kulumi tarbimismeetodist.</span><span class="sxs-lookup"><span data-stu-id="fcfd5-104">This article gives an overview of the Consumption method of depreciation.</span></span>
 

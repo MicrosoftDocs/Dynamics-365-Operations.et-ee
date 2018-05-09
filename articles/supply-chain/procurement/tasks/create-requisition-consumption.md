@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bad86a4726ce69015f318d9af98992b36d34b29a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ad2a356c4f6bc2c72898e8b841963e6bee6daac0
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-requisition-for-consumption"></a><span data-ttu-id="4a2d0-103">Tarbimistaotluse loomine</span><span class="sxs-lookup"><span data-stu-id="4a2d0-103">Create a requisition for consumption</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4a2d0-104">See protseduur selgitab ostutaotluse loomise protsessi.</span><span class="sxs-lookup"><span data-stu-id="4a2d0-104">This procedure walks you through the process of creating a requisition.</span></span> <span data-ttu-id="4a2d0-105">See näitab erinevaid viise toodete otsimiseks hankekataloogist ja toodete lisamiseks, mis ei ole kataloogis.</span><span class="sxs-lookup"><span data-stu-id="4a2d0-105">It shows you different ways to search for products in your procurement catalog and how to add a product that isn’t in your catalog.</span></span> <span data-ttu-id="4a2d0-106">Enne selle protseduuri alustamist peab teil olema seadistatud ostupoliitika, mille ostutaotluse vaiketüübiks on Tarbimine.</span><span class="sxs-lookup"><span data-stu-id="4a2d0-106">Before you start this procedure, you must have a purchasing policy set up with Consumption as the default type of requisition.</span></span> <span data-ttu-id="4a2d0-107">Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="4a2d0-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="4a2d0-108">Protseduuri saab teha ainult kasutajaprofiiliga, mis on seadistatud töötaja profiilina.</span><span class="sxs-lookup"><span data-stu-id="4a2d0-108">The procedure can only be carried out by a user profile that is set up as worker.</span></span>  <span data-ttu-id="4a2d0-109">Seda ülesannet teeb tavaliselt töötaja.</span><span class="sxs-lookup"><span data-stu-id="4a2d0-109">This task would normally be carried out by an employee.</span></span> <span data-ttu-id="4a2d0-110">Töötaja turberoll võimaldab ülesandeid teha; või juhul, kui kasutate USMF-i, saate sisse logida nime Alicia alt.</span><span class="sxs-lookup"><span data-stu-id="4a2d0-110">The Employee employ security role will allow you to carry out the tasks, or if you’re using USMF, you can log in as Alicia.</span></span>
 

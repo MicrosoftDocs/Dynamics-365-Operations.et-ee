@@ -16,15 +16,15 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ee2c57d9e42d50823c9f77ebd0f13deec2f4342e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0feeba19510d3c2790b1a77bca3c8ec6e7078726
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="b1571-103">Laadimisaadressi määramine ühendusesisesele kandele</span><span class="sxs-lookup"><span data-stu-id="b1571-103">Specify a lading address for an intra-community transaction</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b1571-104">See protseduur näitab, kuidas määrata ühendusesisese kaubanduskande puhul laadimisaadressi.</span><span class="sxs-lookup"><span data-stu-id="b1571-104">This procedure shows how to specify a lading address for an intra-community trade transaction.</span></span> <span data-ttu-id="b1571-105">Näiteks Saksamaa ettevõte tellib kaupu Saksamaa aadressiga hankijalt.</span><span class="sxs-lookup"><span data-stu-id="b1571-105">For example, a Germany company orders items from a vendor with a German business address.</span></span> <span data-ttu-id="b1571-106">Sellel hankijal on ladu Itaalias ja ta lähetab kaubad sealt.</span><span class="sxs-lookup"><span data-stu-id="b1571-106">This vendor has a warehouse in Italy and ships the items from there.</span></span> <span data-ttu-id="b1571-107">Tarne peab kajastuma intrastati aruandes.</span><span class="sxs-lookup"><span data-stu-id="b1571-107">This delivery must be reported in the Intrastat.</span></span> <span data-ttu-id="b1571-108">Sama kehtib klienditagastuste puhul.</span><span class="sxs-lookup"><span data-stu-id="b1571-108">The same behavior is valid for customer returns.</span></span>
 <span data-ttu-id="b1571-109">See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele.</span><span class="sxs-lookup"><span data-stu-id="b1571-109">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="b1571-110">Ülesande loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Saksamaa, andmeid.</span><span class="sxs-lookup"><span data-stu-id="b1571-110">The task was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="b1571-111">Enne selle protseduuri läbimist tuleb konfigureerida intrastati aruandlus.</span><span class="sxs-lookup"><span data-stu-id="b1571-111">Before you can complete this procedure, you must configure Intrastat reporting.</span></span> <span data-ttu-id="b1571-112">See protseduur on mõeldud raamatupidajatele.</span><span class="sxs-lookup"><span data-stu-id="b1571-112">This procedure is intended for accountants.</span></span> <span data-ttu-id="b1571-113">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="b1571-113">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>

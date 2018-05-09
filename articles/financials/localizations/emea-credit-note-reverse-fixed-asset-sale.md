@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b7688f6121cc6e518281aa56f310d1cfb08edfc0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 505b612b30c1b6f4b3f55f07880a127dd506a991
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a><span data-ttu-id="e4c2f-103">Põhivarade likvideerimine Eesti ja Leedu puhul</span><span class="sxs-lookup"><span data-stu-id="e4c2f-103">Fixed assets disposal for Estonia and Lithuania</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e4c2f-104">See teema pakub teavet Eestis ja Leedus asuvate juriidiliste isikute kasutajate puhul vabas vormis arvete sisestatud põhivarade likvideerimise kreeditarvete kohta.</span><span class="sxs-lookup"><span data-stu-id="e4c2f-104">This topic provides information about credit notes for fixed assets disposal posted by a free text invoice for users in legal entities in Estonia and Lithuania.</span></span>
 

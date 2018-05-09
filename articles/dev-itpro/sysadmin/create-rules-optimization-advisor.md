@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e78427dacb0d2adfd0334115581d5a5a9cfd2921
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a><span data-ttu-id="3c070-103">Optimeerimisnõustaja reeglite loomine</span><span class="sxs-lookup"><span data-stu-id="3c070-103">Create rules for Optimization advisor</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3c070-104">Selles teemas selgitatakse, kuidas **optimeerimisnõustaja** jaoks uusi reegleid luua.</span><span class="sxs-lookup"><span data-stu-id="3c070-104">This topic explains how to create new rules for **Optimization advisor**.</span></span> <span data-ttu-id="3c070-105">Näiteks saate luua uue reegli selle tuvastamiseks, millistel pakkumiskutse juhtumitel on tühi pealkiri.</span><span class="sxs-lookup"><span data-stu-id="3c070-105">For example, you can create a new rule that identifies which Request for Quotations (RFQ) cases have an empty title.</span></span> <span data-ttu-id="3c070-106">Juhtumite jaoks pealkirjade kasutamine muudab need kergesti tuvastatavaks ja otsitavaks.</span><span class="sxs-lookup"><span data-stu-id="3c070-106">Using titles on cases makes them easily identifiable and searchable.</span></span> <span data-ttu-id="3c070-107">See lihtne näide selgitab, mida saab optimeerimisreeglitega saavutada.</span><span class="sxs-lookup"><span data-stu-id="3c070-107">While quite simple, this example shows what can be achieved with optimization rules.</span></span> 
 

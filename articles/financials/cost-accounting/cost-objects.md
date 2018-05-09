@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a6c93252f95e3c07e1929d70467f6aa8d43af593
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: aec5393c956007a88671f111f90c16f9545633e4
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-object-dimensions"></a><span data-ttu-id="277e2-105">Kuluobjekti dimensioonid</span><span class="sxs-lookup"><span data-stu-id="277e2-105">Cost object dimensions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="277e2-106">Kulude analüüsimisel saate kasutada kuluelemendi dimensioone, et määrata, kuhu kulud voolavad.</span><span class="sxs-lookup"><span data-stu-id="277e2-106">When you analyze costs, you use cost element dimensions to determine where costs flow to.</span></span> <span data-ttu-id="277e2-107">Saate kasutada kuluobjekti dimensioone, et määrata, kuhu peaksite kulud määrama.</span><span class="sxs-lookup"><span data-stu-id="277e2-107">You use cost object dimensions to determine where you should assign costs.</span></span> <span data-ttu-id="277e2-108">Teema sisaldab teavet kuluobjekti dimensioonide kohta.</span><span class="sxs-lookup"><span data-stu-id="277e2-108">This topic provides information about cost object dimensions.</span></span>
 
