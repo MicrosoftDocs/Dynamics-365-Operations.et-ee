@@ -18,29 +18,29 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a0f89579cd921b1036ea102ccc89f3863fb40ac3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 19ba20ce16c9916e09b862b0ebedbf68259c7769
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="financial-management-home-page"></a><span data-ttu-id="a26d3-103">Finantshalduse avaleht</span><span class="sxs-lookup"><span data-stu-id="a26d3-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a><span data-ttu-id="ed868-103">Finantshalduse avaleht</span><span class="sxs-lookup"><span data-stu-id="ed868-103">Financial management home page</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a26d3-104">See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a26d3-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
+<span data-ttu-id="ed868-104">See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ed868-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-<span data-ttu-id="a26d3-105">Valige funktsiooniala, et selle kohta rohkem teavet saada.</span><span class="sxs-lookup"><span data-stu-id="a26d3-105">Select a feature area to learn more about it.</span></span>
-- [<span data-ttu-id="a26d3-106">Ostureskontro</span><span class="sxs-lookup"><span data-stu-id="a26d3-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
-- [<span data-ttu-id="a26d3-107">Müügireskontro</span><span class="sxs-lookup"><span data-stu-id="a26d3-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
-- [<span data-ttu-id="a26d3-108">Sularaha- ja pangahaldus</span><span class="sxs-lookup"><span data-stu-id="a26d3-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
-- [<span data-ttu-id="a26d3-109">Kuluarvestus</span><span class="sxs-lookup"><span data-stu-id="a26d3-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
-- [<span data-ttu-id="a26d3-110">Põhivarad</span><span class="sxs-lookup"><span data-stu-id="a26d3-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
-- [<span data-ttu-id="a26d3-111">Pearaamat</span><span class="sxs-lookup"><span data-stu-id="a26d3-111">General ledger</span></span>](general-ledger\general-ledger.md) 
-- [<span data-ttu-id="a26d3-112">Projektihaldus</span><span class="sxs-lookup"><span data-stu-id="a26d3-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
-- [<span data-ttu-id="a26d3-113">Avalik sektor</span><span class="sxs-lookup"><span data-stu-id="a26d3-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
-- [<span data-ttu-id="a26d3-114">Eelarvestamine</span><span class="sxs-lookup"><span data-stu-id="a26d3-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
+<span data-ttu-id="ed868-105">Valige funktsiooniala, et selle kohta rohkem teavet saada.</span><span class="sxs-lookup"><span data-stu-id="ed868-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="ed868-106">Ostureskontro</span><span class="sxs-lookup"><span data-stu-id="ed868-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
+- [<span data-ttu-id="ed868-107">Müügireskontro</span><span class="sxs-lookup"><span data-stu-id="ed868-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md) 
+- [<span data-ttu-id="ed868-108">Sularaha- ja pangahaldus</span><span class="sxs-lookup"><span data-stu-id="ed868-108">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
+- [<span data-ttu-id="ed868-109">Kuluarvestus</span><span class="sxs-lookup"><span data-stu-id="ed868-109">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
+- [<span data-ttu-id="ed868-110">Põhivarad</span><span class="sxs-lookup"><span data-stu-id="ed868-110">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
+- [<span data-ttu-id="ed868-111">Pearaamat</span><span class="sxs-lookup"><span data-stu-id="ed868-111">General ledger</span></span>](general-ledger/general-ledger.md) 
+- [<span data-ttu-id="ed868-112">Projektihaldus</span><span class="sxs-lookup"><span data-stu-id="ed868-112">Project management</span></span>](project-management/overview-project-management-accounting.md)
+- [<span data-ttu-id="ed868-113">Avalik sektor</span><span class="sxs-lookup"><span data-stu-id="ed868-113">Public sector</span></span>](public-sector/public-sector-functionality.md) 
+- [<span data-ttu-id="ed868-114">Eelarvestamine</span><span class="sxs-lookup"><span data-stu-id="ed868-114">Budgeting</span></span>](budgeting/budgeting-overview.md) 
 
 
 

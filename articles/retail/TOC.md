@@ -24,6 +24,7 @@
 # Käibemaks
 ## [Käibemaksu ülevaade](../financials/general-ledger/indirect-taxes-overview.md)
 ## [Käibemaksuarvutusmeetodid väljal Päritolu](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [Käibemaksu määramine ja tühistamised](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [Kogusumma ja intervalli arvutamise valikud käibemaksukoodide jaoks](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Kõnekeskus
@@ -165,10 +166,11 @@
 ## [ Masinõppele tuginevate tootesoovituste konfigureerimine](tasks/configure-machine-learning-product-recommendations.md)
 ## [ Seadme loomine ja seostamine](tasks/create-associate-device.md)
 ## [ Riistvarajaama loomine ja seostamine](tasks/create-associate-hardware-station.md)
-## [ Registrite loomine ja seostamine](tasks/create-associate-registers.md)
-## [ Jaekaupluse jaoks väljavõtte loomine, arvutamine ja sisestamine](tasks/create-calculate-post-statement-retail-store.md)
-## [ Kõnekeskuse tellimuste loomine](tasks/create-call-center-orders.md)
-## [ Kassaregistrite jaoks finantsdimensioonide loomine ja registrites dimensiooniväärtuste konfigureerimine](tasks/create-financial-dimensions-pos.md)
+## [Registrite loomine ja seostamine](tasks/create-associate-registers.md)
+## [Jaekaupluse jaoks väljavõtte loomine, arvutamine ja sisestamine](tasks/create-calculate-post-statement-retail-store.md)
+## [Väljavõtte sisestamise täiustused](statement-posting-EOD.md)
+## [Kõnekeskuse tellimuste loomine](tasks/create-call-center-orders.md)
+## [Kassaregistrite jaoks finantsdimensioonide loomine ja registrites dimensiooniväärtuste konfigureerimine](tasks/create-financial-dimensions-pos.md)
 ## [ Jaemüügikanalite jaoks finantsdimensioonide loomine ja kauplustes dimensiooniväärtuste konfigureerimine](tasks/create-financial-dimensions-retail-channels.md)
 ## [ Võrgukanalite loomine ja kanaliatribuutide määratlemine](tasks/create-online-channel-define-channel-attributes.md)
 ## [ Kassa loagruppide loomine](tasks/create-pos-permission-groups.md)
@@ -289,8 +291,7 @@
 ### [POS-i laiendusest kassa API või toimingu kutsumine](dev-itpro/pos-api-extension.md)
 ### [Retail Modern POS-i päästikud ja printimine](dev-itpro/pos-trigger-printing.md)
 ### [Kohandatud juhtelemendi lisamine Retail Modern POS-i ekraanivälisele koostajapõhisele vaatele](dev-itpro/pos-control-non-screen.md)
-### [Retaili puhvri loomine POS-i ja e-Commerce’i jaoks](dev-itpro/pos-generate-retail-proxy.md)
-### [Konfiguratsioonietapid Retaili arendajatele, kes töötavad pilvesse majutatud arendusväljadega](dev-itpro/cloud-dev-box.md)
+### [Konfiguratsioonietapid Retaili arendajatele, kes töötavad pilves majutatud arendusväljadega](dev-itpro/cloud-dev-box.md)
 
 ## Commerce’i käitusaeg
 ### [Püsikliendi laiend](dev-itpro/retail-sdk/loyalty-extension-sample.md)
