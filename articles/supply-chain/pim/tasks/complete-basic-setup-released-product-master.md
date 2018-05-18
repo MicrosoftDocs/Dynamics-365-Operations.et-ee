@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Vabastatud tooteetaloni täielik põhiseadistus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab, kuidas teha miinimumseadistust, mis on vajalik enne tooteetaloni kasutamist koosluse versioonides.
 

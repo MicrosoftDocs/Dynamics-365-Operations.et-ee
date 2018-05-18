@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="import-configurations-to-generate-documents-with-application-data"></a>Konfiguratsioonide importimine dokumentide loomiseks rakendusandmetega
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri "Elektrooniline aruandlus.
 

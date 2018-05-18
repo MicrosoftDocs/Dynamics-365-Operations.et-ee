@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 
 # <a name="power-bi-content"></a>Power BI sisu
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas loetletakse saadaolev Microsoft Power BI sisu ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
 

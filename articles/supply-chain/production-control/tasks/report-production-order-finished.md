@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="report-a-production-order-as-finished"></a>Tootmistellimuse lõpuleviimisest teatamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas tootmistellimust lõpetatuks kinnitada. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on kuues protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.
 

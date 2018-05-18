@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Projektiarvete jaoks kreeditarve loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Avage Projektihaldus ja -arvestus > Projektid > Kõik projektid. 
 2. Otsige loendist ja valige soovitud kirje. 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-a-free-text-invoice"></a>Vabas vormis arve loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles tegevuse juhises näitlikustatakse, kuidas vabas vormis arvet luua. See ülesanne kasutab demoettevõtte USMF andmeid.
 

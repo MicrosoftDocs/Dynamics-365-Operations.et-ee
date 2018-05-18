@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="payment-methods-in-a-call-center"></a>Makseviisid kõnekeskuses
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Rakenduses Microsoft Dynamics 365 for Retail sisaldab kõnekeskuse kanali konfiguratsioon sätet nimega **Tellimuse lõpetamise lubamine**. See säte aitab tagada, et kõik tellimused, mille kanali kasutajad loovad, väljastatakse tellimuse töötlemisse ainult juhul, kui neil on ettemakstud või eelautoriseerida makse, mis on kinnitatud piirides. Kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, saavad kõnekeskuse kasutajad sisestada klientide müügitellimuste makseid, kasutades kõnekeskuse makse töötlemise funktsioone. Kui säte on välja lülitatud, ei saa kõnekeskuse kasutajad kõnekeskuse makse töötlemise funktsioone kasutada, kuid nad saavad siiski müügitellimustele ettemakseid rakendada, kasutades standardset müügireskontro funktsiooni.
 

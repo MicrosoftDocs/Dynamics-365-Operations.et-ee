@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Toormaterjali tarbimise kontrollimine automaatse tarbimise põhimõtete abil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Automaatse tarbimise põhimõtted kajastavad erinevaid tarbimisstrateegiaid tootmisprotsessides kasutatavate toormaterjalide puhul. Tarbimine on protsess, mis lahutab materjali vabast kaubavarust ning seab tootmistellimuste ja partiitellimuste puhul tarbitud materjalide väärtuseks **Pooleliolev töö** (WIP). Toormaterjale tarbitakse tavaliselt asukohast, mis on konfigureeritud materjali tarbivale protsessile. Seda asukohta nimetatakse tootmise sisendasukohaks.
 

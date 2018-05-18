@@ -24,7 +24,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="release-a-production-order"></a>Tootmistellimuse vabastamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas tootmistellimust väljastada. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on neljas protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.
 

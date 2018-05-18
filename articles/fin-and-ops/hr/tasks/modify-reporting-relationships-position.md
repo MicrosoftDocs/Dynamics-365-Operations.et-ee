@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Ametikoha aruandlusseoste muutmine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Protseduur näitab, kuidas muuta töötaja aruandluse seost. Aruandluse seost saab kasutada töövoos dokumentide marsruudi valikul. Protseduur näitab ka seda, kuidas määrata töötaja täiendavatesse hierarhiatesse. Näiteks võib töötaja kuuluda projekti töörühma, mis hõlmab mitteametlikku aruandluse seost projektijuhiga. Ametikoha jaoks saab määratleda täiendavad aruandluse seosed, et võimaldada mitmesuguseid projekti- või maatriksistsenaariume. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

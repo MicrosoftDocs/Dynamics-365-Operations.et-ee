@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Sularaha- ja pangahalduse avaleht
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Saate kasutada sularaha- ja pangahalduse moodulit juriidilise isiku pangakontode ja finantsvahendite haldamiseks, mis on pangakontodega seotud. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Põhivara massuuendamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kui kasutate raamatuid, saate muuta kulumiarvestusreegleid varade grupi osas, mis on sama raamatu osad.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a> Kassa visuaalse profiili loomine  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab uue kassa visuaalse profiili loomist. Visuaalne profiil sisaldab põhiteavet, mis määratleb kassaregistrite välimuse. Saate luua mitu visuaalset profiili ja määrata kindlates registrites käitatavad konkreetsed profiilid. Protseduur kasutab demoettevõtte USRT andmeid.
 

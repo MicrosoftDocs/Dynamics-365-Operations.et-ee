@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Kulukäitumispoliitika loomine ja määramine kulujuhtimisüksusele
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kulukäitumine on kulude liigitamine fikseerituks või muutuvaks. Poliitika ja vastavad reeglid tuleb poliitika jõustamiseks määrata kulu juhtseadmele. Selle protseduuri abil saate luua poliitika ja seejärel määrata selle kulu juhtseadmele.
 

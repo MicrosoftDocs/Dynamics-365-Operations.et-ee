@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> Organisatsiooniüksuste vaheliste seoste kujundamine
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Selles protseduuris näitlikustatakse, kuidas kujundada organisatsiooniüksuste vahelist seost. Enne seose määratlemist peate looma uue organisatsiooni eesmärgi või võite kasutada ka olemasolevat organisatsiooni eesmärki. Selle protseduuri puhul on kasutatud demoettevõtte USRT andmeid. See ülesanne on mõeldud administraatori rollile.
 

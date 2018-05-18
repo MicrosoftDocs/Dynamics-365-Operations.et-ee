@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Projekti eelarve või eelarve muutmise eraldamine perioodidele
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Kui olete sisestanud projektieelarve või projekti eelarve revisjoni, siis enne selle kinnitamiseks edastamist saate summad perioodide vahel eraldada. Kui eelarve või eelarve revisjon on tagasi lükatud, saate eraldada summad enne selle uuesti edastamist. 
 

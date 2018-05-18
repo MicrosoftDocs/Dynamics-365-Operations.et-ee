@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Krediitkaardikannete importimine ja haldamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kuludega seotud krediitkaardikandeid saab seadistada nii, et neid imporditakse automaatselt korduva graafiku alusel. Teise võimalusena saab kandeid vajaduse järgi käsitsi importida. Krediitkaardikanded imporditakse krediitkaardikannete andmeüksuse kaudu.
 

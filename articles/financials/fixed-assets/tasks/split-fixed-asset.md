@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>Põhivara tükeldamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesande juhend tükeldab ühe vara raamatu protsendi uude vara raamatusse.  See kasutab raamatupidaja rolli ja USMF-i demoandmeid.
 

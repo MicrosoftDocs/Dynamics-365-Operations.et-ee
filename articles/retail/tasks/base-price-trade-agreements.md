@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a> Alushind ja kaubanduslepped
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur juhendab kanalispetsiifiliste müügihinna kaubanduslepete loomisel. Protseduur kasutab demoettevõtte USRT andmeid.
 

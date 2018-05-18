@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a>Laadimisaadressi määramine ühendusesisesele kandele
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas määrata ühendusesisese kaubanduskande puhul laadimisaadressi. Näiteks Saksamaa ettevõte tellib kaupu Saksamaa aadressiga hankijalt. Sellel hankijal on ladu Itaalias ja ta lähetab kaubad sealt. Tarne peab kajastuma intrastati aruandes. Sama kehtib klienditagastuste puhul.
 See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele. Ülesande loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Saksamaa, andmeid. Enne selle protseduuri läbimist tuleb konfigureerida intrastati aruandlus. See protseduur on mõeldud raamatupidajatele. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.

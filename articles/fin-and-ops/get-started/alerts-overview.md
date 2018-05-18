@@ -26,9 +26,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="alerts-overview"></a>Teatiste ülevaade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Teatiste kohta
 Teatised moodustavad kriitiliste sündmuste teadete süsteemi rakenduses Microsoft Dynamics 365 for Finance and Operations. Teatisi saate kasutada, et olla kursis sündmustega, mida soovite tööpäeva jooksul jälgida. Saate hõlpsalt luua omi teatisereegleid tähtaja ületanud tarnete, kustutatud tellimuste, muutuvate hindade või muude reageerimist nõudvate sündmuste kohta.

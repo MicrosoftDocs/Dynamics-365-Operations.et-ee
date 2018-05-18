@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Protsessi kanban-töö ettevalmistamine, kui materjalid on tööraku jaoks saadaval
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesanne keskendub protsessi kanban-töö ettevalmistamisele, kui kõik materjalid on tööraku puhul saadaval. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud masinaoperaatorile.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Mitme töölehega Exceli mallid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Andmehaldus rakenduses Microsoft Dynamics 365 for Finance and Operations toetab andmeüksuste puhul Microsofti Exceli-põhiseid malle. Need mallid võivad sisaldada üht või mitut töölehte. Mitme töölehega malle kasutatakse sageli siis, kui andmeid on mugav hallata ühes failis ja importida neid mitmesse andmeüksusse. Selleks näiteks oleks laoalad ja laod.
 

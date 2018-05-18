@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-adjustments-and-discounts"></a>Hinnakorrigeerimised ja allahindlused
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles artiklis käsitletakse hinna korrigeerimisi ja allahindlusi Microsoft Dynamics 365 for Retailis.
 

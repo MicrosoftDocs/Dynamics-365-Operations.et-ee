@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Võrgupoe ülevaade
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 See artikkel käsitleb võrgu jaepoode ja seda, kuidas neid Microsoft Dynamics 365 for Retailis seadistada.
 

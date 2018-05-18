@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Tootemudeli komponentide loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Piirangupõhised tootekonfiguratsiooni mudelid kasutavad komponente ehitusklotsidena tootemudeli struktuuri koostamiseks. Enne tootemudeli koostamist tuleb luua komponendid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

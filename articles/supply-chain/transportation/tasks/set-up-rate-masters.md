@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>Määrade koondandmete seadistamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas seadistada koondmäära. Koondmäärad seadistab üldjuhul logistikahaldur vedajatega allkirjastatud lepingutest olenevalt. Sel juhul saate seadistada koondmäära lennukompanii puhul. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

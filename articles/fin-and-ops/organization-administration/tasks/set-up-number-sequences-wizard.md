@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>Numbriseeriate seadistamine viisardit kasutades
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Numbriseeriaid kasutatakse loetavate ainuidentifikaatorite loomiseks koondandmetele ja kandekirjetele, mis neid nõuavad. Koondandmeid või kandekirjet, mis nõuavad identifikaatorit, nimetatakse viiteks. Enne kui saate viite jaoks uusi kirjeid luua, peate seadistama numbriseeria ja selle viitega siduma. See protseduur selgitab, kuidas seadistada nõutavaid numbriseeriaid viisardi abil korraga. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

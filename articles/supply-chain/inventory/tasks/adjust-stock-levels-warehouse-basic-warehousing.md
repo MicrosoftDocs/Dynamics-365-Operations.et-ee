@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Laovaru tasemete korrigeerimine laos (üldine ladustamine)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur selgitab varude korrigeerimise töölehe loomise ja sisestamise protsessi laos olevate toodete laovarude korrigeerimiseks. Enne selle käivitamist peate seadistama varude korrigeerimiste jaoks varude töölehe nime. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Neid ülesandeid täidab üldjuhul laotöötaja.
 

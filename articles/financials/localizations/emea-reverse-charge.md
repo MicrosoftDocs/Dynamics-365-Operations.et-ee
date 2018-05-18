@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 # <a name="reverse-charge-vat"></a>Pöördkäibemaks
 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 
 Selles teemas kirjeldatakse üldist lähenemist Euroopa riikide ja Saudi Araabia pöördkäibemaksu (KM) seadistamisele.

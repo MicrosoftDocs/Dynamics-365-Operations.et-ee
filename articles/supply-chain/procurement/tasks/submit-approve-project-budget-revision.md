@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>Projekti eelarverevisjonide esitamine ja kinnitamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur annab teavet projekti eelarve korrigeerimise kohta. Saate korrigeerida projekti eelarvet vastavalt vajadusele, kuid te ei saa näha individuaalse revisjoni summat, kui eelarvet on korrigeeritud rohkem kui üks kord. 
 

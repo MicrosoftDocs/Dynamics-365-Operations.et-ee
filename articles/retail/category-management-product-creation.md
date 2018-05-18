@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>Retaili tootekategooriate ja toodete haldamine
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 Selles teemas kirjeldatakse täiustatud viisi Retaili tootekategooriate ja toodete haldamiseks rakenduses Microsoft Dynamics 365 for Retail. Täiustused võimaldavad tootejuhtidel vaadata tooteatribuutide üldist struktuuri Retaili tootehierarhia ja väljastatud toote üksikasjade vahel.
 

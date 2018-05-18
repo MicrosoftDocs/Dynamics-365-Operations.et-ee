@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Intressimäärade nõudest loobumine, selle ennistamine või tühistamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas loobuda, ennistada ja tagasi pöörata intressi ja tasude kulusid.
 

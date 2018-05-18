@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensioonide loomine ja dimensiooniliikmete importimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kuluarvestus on sõltumatu moodul, mis nõuab andmeid teistest moodulitest. Need andmed on jaotatud järgmistesse kategooriatesse:
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Toote klassifitseerimine kategooriahierarhiate abil
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kategooriahierarhiaid kasutatakse toodete liigitamiseks ekspordi, hangete, müügi või muu jaoks. Seda toimingut teeb üldjuhul tootejuht. Selles näites kasutatakse demoettevõtte USMF tootenumbri M0009.
 

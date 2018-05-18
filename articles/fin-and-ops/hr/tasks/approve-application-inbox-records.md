@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Avalduste sisendkausta kirjete kinnitamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas vaadata üle lehtede Töötaja iseteenindus kaudu saadud avaldusi. Lisaks avalduste läbivaatamisele saate kinnitada valitud sisendkasti kirjete avaldusi. Avalduse sisendkausta kirjed tähistavad ettevõttele läbivaatamiseks edastatud kandideerimisavaldusi. Pärast kirje kinnitamist luuakse kandidaadi kirje isiku puhul, kes avalduse esitas. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

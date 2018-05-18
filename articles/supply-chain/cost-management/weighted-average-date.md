@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>Kaalutud keskmine kuupäev
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel. Kaalutud keskmise põhimõtte järgi hinnatakse varude väljaminekuid lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes. 
 

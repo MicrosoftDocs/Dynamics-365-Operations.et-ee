@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="mobile-app-home-page"></a>Mobiilirakenduse koduleht
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse Microsoft Dynamics 365 for Unified Operationsi mobiilirakendust ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
 

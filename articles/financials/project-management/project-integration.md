@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="microsoft-project-client-integration"></a>Microsoft Projecti kliendi integreerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Projektigraafiku kavandamine ja haldamine võib olla keeruline, seega vajavad projektijuhid seda ülesannet hõlbustavaid vahendeid. Microsoft Projecti kliendiga integreerimine aitab projekti tööjaotuse struktuuri avada ja hallata. Projektijuht saab muudatusi saata tagasi Finance and Operationsi projekti tööjaotuse struktuuri.
 

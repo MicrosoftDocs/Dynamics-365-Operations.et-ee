@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>Tootmisvoo versiooni aktiveerimine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Enne kanban-tööde loomist ja tootmisvoo versiooni tegevuste töötlemist tuleb versioon aktiveerida. Parim praktika on aktiveerida versioon enne selle jõustumiskuupäeva ja -kellaaja möödumist. Selleks peab teil olema tootmisvoo versioon, mille olek on Mustand, et versioon aktiveerida. 
 

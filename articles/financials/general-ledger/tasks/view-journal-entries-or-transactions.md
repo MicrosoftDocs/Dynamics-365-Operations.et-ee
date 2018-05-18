@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="view-journal-entries-or-transactions"></a>Töölehe sisestuste või kannete kuvamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See näitab, kuidas kasutada pearaamatu kannete päringut töölehe kirjete või kannete otsimiseks.
 

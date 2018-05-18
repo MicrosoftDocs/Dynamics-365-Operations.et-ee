@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>Hooldusleppegruppide loomine 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Hooldusleppe grupid on kasulikud hoolduslepete sortimisel ja filtreerimisel.
 

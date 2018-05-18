@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>Koosluse koostaja funktsioon
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks. Klõpsake nuppu Seadistus erinevate konfiguratsioonide valimiseks ja määramaks, milline teave puu ridadel ilmub.
 

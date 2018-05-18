@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="initialize-seed-data-in-a-new-retail-environment"></a>Algandmete lähtestamine uues jaemüügikeskkonnas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 See artikkel kirjeldab andmeid, mis luuakse Microsoft Dynamics 365 for Retaili jaemüügimooduli lähtestamisprotsessi käigus.
 

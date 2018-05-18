@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Kirje malli abil uue kirje loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas kasutada uue kirje loomiseks varasemalt määratletud kirje malli. Selle protseduuri lõpuleviimiseks peate esmalt läbima protseduuri „Andmesisestuse hõlbustamiseks kirjemalli loomine”.
 

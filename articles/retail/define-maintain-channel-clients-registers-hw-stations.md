@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Kanaliklientide, registrite ja riistvarajaamade määratlemine ning haldamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 See teema käsitleb välisseadmete ühendamist Retail POS-iga.
 

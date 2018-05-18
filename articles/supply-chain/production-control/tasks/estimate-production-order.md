@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>Tootmistellimuse hindamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Saate seda protseduuri käitada demoettevõtte USMF või oma andmeid kasutades. Mõlemal juhul peab teil olema avatud tootmistellimus, mis on olekus Loodud. See on teine protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.
 

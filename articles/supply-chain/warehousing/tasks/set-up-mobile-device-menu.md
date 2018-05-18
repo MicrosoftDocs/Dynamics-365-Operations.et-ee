@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Mobiilse seadme menüükäsu seadistamine ostutellimuse töö lõpetamiseks
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris näidatakse, kuidas seadistada mobiilse seadme menüü-üksust. Selles näites kasutatakse seda menüü-üksust ostutellimuse tüüpi töö tegemiseks. Menüü-üksusega seotud töö klass määrab, milline töö on kehtiv. Saate seda juhendit kasutada demoettevõtte USMF andmetega. Tavaliselt viib selle protseduuri läbi laojuhataja.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>Projektilepingud
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel kirjeldab projektilepinguid ja toob näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näitab, kuidas hallata rakenduses Microsoft Dynamics 365 for Finance and Operations lepinguid ja arveprojekti kliente.
 

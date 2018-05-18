@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-journal-reports"></a>Varude töölehe aruanded
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kui kasutate elektroonilisel aruandlusel põhinevaid konfigureeritavaid varude aruandeid, siis peate seadistama seose konkreetse aruande ja töölehe tüübi vahel.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Juriidilise isiku loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Juriidiline isik on organisatsioon, mis on tuvastatav õigusliku asutusega registreerimise kaudu. Juriidilised isikud võivad sõlmida lepinguid ja on kohustatud koostama oma tegevuse kohta aruandeid. Järgmine protseduur selgitab, kuidas luua juriidilist isikut. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

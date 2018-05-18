@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>Omahinna tagasiarvestus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas tutvustatakse omahinna tagasiarvestuse mõistet, mida kasutatakse lean manufacturingi jaoks. 
 

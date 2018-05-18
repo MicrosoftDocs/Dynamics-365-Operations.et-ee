@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Eelarvekohase ostutellimuse loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutage seda protseduuri, et luua ostutellimus, mida kontrollitakse saadaoleva eelarve osas. See salvestis kasutab USMF demoandmete ettevõtet.
 

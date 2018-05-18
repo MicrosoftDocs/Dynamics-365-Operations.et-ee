@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>Töötaja pädevuste ja arengu Power BI sisu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Teema kirjeldab Finance and Operationsi – töötaja pädevusi ja arengut puudutavat Power BI sisu. 
 

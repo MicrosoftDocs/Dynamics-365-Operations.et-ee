@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Lehtede kuvamine kõrvuti, kasutades ikooni Ava uues aknas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operationsis lehti kõrvuti kuvada.
 

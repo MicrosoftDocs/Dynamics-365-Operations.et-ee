@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Tasu registreerimiste põhjal
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse üksikasjalikult, kuidas arvutatakse tasu töötaja registreerimiste põhjal. See sisaldab näiteid, mis näitavad, kuidas mõjutavad tulemust arvutamiseks saadaolevad seadistussuvandite eri kombinatsioonid. Allpool on teemad, millest selles jaotises räägitakse.
 

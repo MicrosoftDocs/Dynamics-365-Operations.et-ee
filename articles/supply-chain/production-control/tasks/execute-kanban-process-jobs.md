@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>Kanbani protsessitööde käivitamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur keskendub kanbani protsessitööde käivitamisele. Esimene töö on lõpule viidud eeldatava kogusega ja tõrkeid ei ole. Teine töö on lõpule viidud tõrgetega. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on mõeldud masinaoperaatorile.
 

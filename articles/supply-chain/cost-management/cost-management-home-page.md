@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Kuluhalduse koduleht
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 [Kuluhaldus (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) võimaldab teil tegeleda toormaterjalide, poolvalmiskaupade, valmiskaupade ja lõpetamata toodangu hindamise ja raamatupidamisega. Selle puhul on tegu [laoarvestuse](cost-object.md) ja [tootmise raamatupidamise](bom-calculations.md) määramise, haldamise ja aruandlusega.
 

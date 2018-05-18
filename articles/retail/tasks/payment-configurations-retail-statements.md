@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Jaemüügi väljavõtete maksekonfiguratsioonid
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab jaekaupluse makseviiside konfiguratsioone, mis mõjutavad jaemüügi väljavõtete loomise ja sisestamise viisi.
 

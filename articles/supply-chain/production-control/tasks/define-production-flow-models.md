@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Tootmisvoo mudelite määratlemine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Tootmisvoo mudelid kirjeldavad, kuidas lean manufacturingi töörakkude võimsust arvutatakse ja hoitakse. Seetõttu on tootmisvoo mudeli määratlus töörakkude määratluse eeltingimus. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

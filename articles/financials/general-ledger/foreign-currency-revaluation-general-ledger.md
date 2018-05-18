@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Pearaamatu välisvaluuta ümberarvutamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi järgmistest toimingutest: seadistamine, protsessi käitamine, protsessi jaoks arvutamine ja vajaduse korral ümberarvutuskannete tühistamine. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Kuluhalduse mobiilne tööruum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab teavet mobiilse tööruumi **Kulude haldamine** kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Kasutajad saavad ka kiiresti luua kuluridu, kasutades lisatud kviitungit, ning luua ja hallata oma kuluaruandeid. Samuti saavad kinnitajad kasutada mobiilset tööruumi **Kulude haldamine** endale määratud kuluaruannete vaatamiseks ning nende kuluaruannete kinnitamiseks või tagasilükkamiseks.
 

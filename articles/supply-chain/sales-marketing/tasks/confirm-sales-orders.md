@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="confirm-sales-orders"></a>Müügitellimuste kinnitamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas kinnitada müügitellimusi. Teile selgitatakse üksiku tellimuse kinnitamist ja mitme tellimuse korraga kinnitamist. Neid ülesandeid täidab üldjuhul müügitellimuse töötleja. Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades. Enne alustamist veenduge, et sama kliendi jaoks oleks mitu avatud müügitellimust. Kui kasutate USMF-i, saate kasutada klienti US-027.
 

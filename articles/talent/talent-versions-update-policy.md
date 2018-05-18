@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>Rakenduse Microsoft Dynamics 365 for Talent süsteeminõuded ja värskenduspoliitika
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles teemas loetletakse rakenduse Microsoft Dynamics 365 for Talent nõuded. Samuti on välja toodud värskenduspoliitika.
 

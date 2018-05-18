@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deactivate-a-production-flow-version"></a>Tootmisvoo versiooni desaktiveerimine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kui aktiivset tootmisvoo versiooni pole enam vaja, võib selle inaktiveerida. Peaksite kasutama seda valikut ainult juhul, kui kõik kanban-reeglid ja tegevused on lõppenud ning neid ei aktiveerita enam. Arvestage, et kõigi selle tootmisvoo versiooniga seotud kanban-reeglite aegumiskuupäevaks määratakse praegune kuupäev ja kellaaeg. 
 

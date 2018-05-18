@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Täpsemate reeglistruktuuride loomine ja määramine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See ülesandejuhend hõlmab konto struktuurile täpsema reegli struktuuri loomist ja määramist. Juhendis kasutatakse demoettevõtte USMF andmeid.
 

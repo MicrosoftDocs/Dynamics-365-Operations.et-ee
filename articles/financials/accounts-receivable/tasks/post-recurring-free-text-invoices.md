@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Korduvate vabas vormis arvete genereerimine ja sisestamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Korduvaid arveid kasutatakse klientidele regulaarselt sama summa arveldamiseks. Salvestamisel kasutatakse demoettevõtte USMF-i. Registreerimine on mõeldud müügireskontro arvete haldamise ja töötlemise eest vastutavale isikule.
 

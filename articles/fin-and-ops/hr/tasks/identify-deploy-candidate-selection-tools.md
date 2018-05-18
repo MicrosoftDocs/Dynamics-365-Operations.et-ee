@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidaatide valikutööriistade tuvastamine ja juurutamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine võib olla keeruline, eriti kui ametikoht nõuab unikaalseid oskusi.  Siiski võivad vajatavate oskustega kandidaadid aga juba teie organisatsioonis töötada. Saate otsida olemasolevate töötajate või uute kandidaatide seast kindlate oskustega spetsialiste. See võimaldab värbajal kiiresti koguda ja üle vaadata kandidaadid, kes on praegu või varem vabale ametikohale kandideerinud, või leida potentsiaalne kandidaat olemasolevate töötajate seast. Saate seda ülesande salvestist kasutades õppida, kuidas oskuste kaardistamise funktsioon aitab teil vabale ametikohale õiget inimest leida. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Kulude aruande jaotused
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Kuluaruandesse kulude sisestamisel saate jaotada oma organisatsioonis kulu mitme projekti, finantsdimensiooni või konto lõikes.
 

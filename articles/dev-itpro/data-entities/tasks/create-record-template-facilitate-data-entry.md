@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Andmesisestuse hõlbustamiseks kirje malli loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas luua kirje malli nii, et sageli kasutatavaid välja väärtuseid ei pea iga uue kirje jaoks selgesõnaliselt sisestama. Selles protseduuris loote uue kirje uutele sülearvutitele, mis tuleks põhivaradele lisada. See protseduur kasutab USMF-i näidisettevõtet.
 

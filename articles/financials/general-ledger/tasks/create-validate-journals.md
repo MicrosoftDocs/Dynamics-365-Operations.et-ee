@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>Töölehtede loomine ja kinnitamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles ülesandejuhendis luuakse ja kinnitatakse töölehed ning tööleheread. Ülesandes kasutatakse demoettevõtte USMF andmeid.  
 

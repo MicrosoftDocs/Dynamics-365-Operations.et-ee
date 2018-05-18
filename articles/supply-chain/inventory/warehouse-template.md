@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Lao seadistamine lao konfiguratsioonimalli abil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas seadistada ladu lao konfiguratsioonimalli abil. Saate kasutada mitut eelmääratud konfiguratsioonimalli. Teavet nende mallide kasutamise kohta leiate teemast [„Konfigureerimisandmete mallid”](../../dev-itpro/data-entities/configuration-data-templates.md).
 

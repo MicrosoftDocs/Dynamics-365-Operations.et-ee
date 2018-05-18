@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-location-profile"></a>Asukohaprofiili loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha atribuute, näiteks seda, kas asukoht lubab segakaupu. Selles protseduuris loome profiili asukohale, mis ei nõua litsentsiplaadi kontrollimist. Lubame segakaubad, varude segaoleku ja tsüklilise inventuuri. Saate seda protseduuri kasutada demoandmete ettevõttes USMF.
 

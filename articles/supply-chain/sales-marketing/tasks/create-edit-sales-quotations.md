@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>Müügipakkumiste loomine ja redigeerimine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas koostada ja muuta müügipakkumist. Saate seda protseduuri käitada oma andmete või demoettevõtte USMF andmetega.
 

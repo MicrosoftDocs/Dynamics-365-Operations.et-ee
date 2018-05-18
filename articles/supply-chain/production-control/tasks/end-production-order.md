@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="end-a-production-order"></a>Tootmistellimuse lõpetamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas tootmistellimust lõpetada. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See on viimane protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>Projektikannete kohandamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles tegevuse juhises näidatakse teile, kuidas korrigeerida projekti kannet. Saate projekti kandeid aga ka samaaegselt korrigeerida või valida loendist kõik projekti kanded. Selle ülesande viib tavaliselt lõpule projektijuht. Tegevuse juhises kasutatakse USSI andmekomplekti.
 

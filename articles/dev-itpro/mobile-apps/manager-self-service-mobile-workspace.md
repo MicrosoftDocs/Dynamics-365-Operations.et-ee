@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Mobiilne tööruum Minu töörühm
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Teema annab teavet **minu töörühma** mobiilse tööruumi kohta. See tööruum võimaldab juhtidel vaadata oma otseseid alluvaid ja laiendatud personali. Nad saavad ka oma aruandlusahela inimestele tänu saata.
 

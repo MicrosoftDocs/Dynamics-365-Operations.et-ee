@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="store-configurations-for-retail-statements"></a> Jaemüügi väljavõtete kauplusekonfiguratsioonid
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur selgitab jaekaupluse konfiguratsioone, mis mõjutavad jaemüügi väljavõtete loomise ja sisestamise viisi. Jaekaupluste finantsdimensioone käsitletakse teises protseduuris. See protsess kasutab demoettevõtte USRT-i andmeid.
 

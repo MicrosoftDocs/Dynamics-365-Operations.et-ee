@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="pos-operations-online-and-offline"></a>Kassatoimingud, ühendusega ja ühenduseta
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Enamikku toiminguid, mida kasutaja kassas teeb, loetakse toiminguteks. Operatsioone konfigureeritakse ja hallatakse teenuse Microsoft Dynamics 365 for Retail kontoris. Paljud operatsioonid saab lisada kassa nupupaneeli nuppudele. Kasutajad saavad seejärel nuppude abil operatsioone käivitada ja nende funktsioone kasutada. Muud operatsioonid on osa kassa põhirakendusest ning need käivitatakse ekraanil kuvatavate nuppude abil või muude töövoogude või protsesside raames.
 

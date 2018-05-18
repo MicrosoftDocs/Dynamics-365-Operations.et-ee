@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Müügi ja marginaali jõudluse jälgimine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Saate Dynamics Microsoft Dynamics 365 for Retaili abil reaalajas müügi ja marginaali toimimist jälgida.
 

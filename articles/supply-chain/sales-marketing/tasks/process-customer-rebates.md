@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Kliendi tagasimaksete genereerimine ja töötlemine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest kuni nende edastamiseni viitvõlgadena müügireskontrole. Teile selgitatakse konkreetse näite abil, kuidas mõjutavad erinevad tingimused tagasimakseridadel kliendile krediteeritavaid lõppsummasid. Peate kasutama demoettevõtte USMF andmeid ja täitma enne juhendi käivitamist järgmised ülesanded. 1) Minge lehele Müügireskontro parameetrid ning laiendage vahekaarti Hinnad ja siis vahekaarti Hinna üksikasjad, seejärel kontrollige, kas suvandi Hinna üksikasjade lubamine sätteks on valitud Jah. 2) Minge lehele Tagasimakselepped ja valige kliendi tagasimakselepe USMF-000001. Kui välja Töövoo kinnitamise olek sätteks pole valitud Kinnitatud, peate selle kinnitamiseks klõpsama tegevuspaanil suvandit Kinnitamine.
 

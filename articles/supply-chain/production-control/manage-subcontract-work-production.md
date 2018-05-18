@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>Allhanketöö haldamine tootmises
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 

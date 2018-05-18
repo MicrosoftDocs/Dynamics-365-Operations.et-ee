@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-goal"></a>Eesmärgi loomine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Saate eesmärke luua, eesmärkidele tegevusi lisada, mõõdikuid jälgida ja siduda eesmärke hindamisega. Protseduuri loomisel kasutati demoettevõtte USMF andmeid. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 

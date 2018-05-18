@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>Ootelolevad tellimused
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse tellimuste ootele panemist, kasutades Dynamics 365 for Retaili.
 

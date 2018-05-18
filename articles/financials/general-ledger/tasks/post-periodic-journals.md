@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-periodic-journals"></a>Perioodiliste töölehtede sisestamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Perioodilisi töölehti nimetatakse mõnikord korduvtöölehtedeks, kuna suurus, tekst ja muu teave kordub iga kord, kui tööleht sisestatakse. Perioodilise töölehe loomisel saate määrata perioodi kordumise intervalli, näiteks päeva või kuu. Selles tegevuse juhises luuakse igakuise kordumismustriga perioodiline tööleht.
 

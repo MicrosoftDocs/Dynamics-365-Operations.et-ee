@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Välist kataloogi kasutades saate veenduda, et toote ja hinna teave, mida hiljem rakenduse Dynamics 365 for Finance and Operations 2017. aasta juuli värskenduses töötlete, oleks täpne ja ajakohane. Seejärel saab ostutaotluse kinnitada ja teisendada ostutellimuseks ning hankijale saab tellimuse esitada.
 

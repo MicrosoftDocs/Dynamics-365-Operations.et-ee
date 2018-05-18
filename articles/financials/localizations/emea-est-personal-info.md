@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Eesti seadusandlus võimaldab inimestel küsida ettevõtetelt aruandeid, milles on tuvastatud ettevõtete jälgitavad isikuandmed. Aruannetes on näidatud ka, kes seda teavet on vaadanud, selle loonud, seda uuendanud ja selle kustutanud.
 

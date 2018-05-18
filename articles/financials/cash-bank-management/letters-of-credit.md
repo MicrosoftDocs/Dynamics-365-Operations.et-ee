@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Akreditiivid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Akreditiivid on pangadokumendid, mida kasutatakse tavaliselt kaupade ostmiseks ja müügiks välisriikides. 
 

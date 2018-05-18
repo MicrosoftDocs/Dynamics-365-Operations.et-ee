@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Üks kanne
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  See funktsioon on saadaval rakenduse Dynamics 365 for Finance and Operations versioonis 8.0, mis on saadaval 2018. aasta kevade väljaandes.   

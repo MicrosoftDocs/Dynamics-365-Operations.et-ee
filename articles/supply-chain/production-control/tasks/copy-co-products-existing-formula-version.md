@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Kaastoodete kopeerimine olemasolevast valemiversioonist
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas kopeerida kaastooteid olemasolevalt valemiversioonilt teistsugusele väljastatud toote valemiversioonile. Eeldus on, et kaastoodete on seotud vähemalt üks valemiversioon. Selle protseduuri loomiseks kasutati demoettevõtte USP2 andmeid.
 

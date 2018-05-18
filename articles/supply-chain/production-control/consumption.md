@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="calculate-material-consumption"></a>Materjalikulu arvutamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel annab teavet mitmesuguste valikute kohta, mis on seotud materjalikulu arvutamisega. 
 

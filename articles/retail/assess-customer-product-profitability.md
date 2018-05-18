@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Kliendi ja toote tulususe hindamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ja toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmetest. 
 

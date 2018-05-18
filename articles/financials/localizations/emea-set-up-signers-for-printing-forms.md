@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-signers-for-print-forms"></a>Prinditud vormide allkirjastajate seadistamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.
 

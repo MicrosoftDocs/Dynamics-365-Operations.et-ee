@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Põhivarale lisandi sisestamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 See protseduur kirjeldab lisandi lisamist olemasoleva põhivara hulka. Põhivara lisandite eesmärk on jälgida vara kauba lisandeid, hooldust või remonti ja see on üksnes teavituslik. Põhivara väärtus või kasutusea kõik muudatused tuleb teha eraldi.   
 

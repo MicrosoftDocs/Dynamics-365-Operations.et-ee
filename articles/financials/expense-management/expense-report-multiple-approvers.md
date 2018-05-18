@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>Kuluaruanded ja mitu kinnitajat
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Olenevalt teie organisatsiooni kulude kinnitamise poliitikast võib olla vajalik, et töövõtja esitatud kuluaruande peab kinnitama rohkem kui üks isik. Kuluaruande kinnitamise töövooprotsessi seadistamisel saate lisada töövoo elemente, mis sisaldavad ülesandeid või etappe kuluaruande ühe või mitme kinnitaja jaoks. Näiteks võite nõuda, et kõik kuluaruanded peab esmalt kinnitama kuluaruande esitanud töövõtja haldur ja seejärel ostureskontro koordinaator.
 

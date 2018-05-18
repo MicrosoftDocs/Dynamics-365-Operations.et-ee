@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>Kõnekeskuse kanali seadistamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Ettevõte saab rakenduses Microsoft Dynamics 365 for Retail määratleda mitu kõnekeskuse kanalit. Kõnekeskuse kanaleid konfigureeritakse valikus **Jaemüük** \> **Kanalid** \> **Kõnekeskused** \> **Kõik kõnekeskused** ja need on omased kindlale juriidilisele isikule.
 

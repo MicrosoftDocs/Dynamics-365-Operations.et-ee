@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Konfiguratsiooni loomine CSV-vormingus andmete importimiseks välisest failist (elektrooniline aruandlus)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmed CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations. Protseduuri järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Ülesannete lõpetamiseks peab esmalt täitma protseduuris "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. 
 

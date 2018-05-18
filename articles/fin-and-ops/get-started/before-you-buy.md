@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="before-you-buy"></a>Enne ostmist 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kas olete alles uus rakenduse Dynamics 365 for Finance and Operations kasutaja? Oleme koostanud üksikasjalikud juhiseid selleks puhuks, kui alles hindate rakendust Finance and Operations või olete juba valmis ostu tegema.
 

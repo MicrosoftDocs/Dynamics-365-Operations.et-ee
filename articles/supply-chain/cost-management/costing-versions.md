@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Kuluversioonid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet kuluversioonide, nende haldamise ja nendesse kaastavate andmetüüpide kohta. Kuluversiooni peaeesmärk hõlmab kaupade, kulukategooriate kulukirjeid ja kaudsete kuluarvutuste arvutusvalemeid.
 

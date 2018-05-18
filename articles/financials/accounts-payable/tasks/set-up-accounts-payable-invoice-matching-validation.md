@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Ostureskontro arvete võrdlemise seadistamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Salvestamisel kasutatakse demoettevõtte USMF-i. Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli. Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine. Kui teie juriidiline isik jälgib tasude abil kulusid (nt veokulu), siis veenduge, et on valitud konfiguratsioonivõti Tasud.  Ostureskontro arvete võrdlemine on hankija arve, ostutellimuse ja toote sissetuleku teabe vastavusse viimise protsess. Nende dokumentide vahelisi erinevusi nimetatakse vastendamise lahknevusteks. Vastavusseviimise lahknevusi võrreldakse määratud hälvetega. Kui vastendamise lahknevus ületab lubatud kõikumisprotsendi või summa, kuvatakse vastendamise hälbe ikoonid vormil Hankija arve ja vormil Arvete võrdlemise üksikasjad.
 

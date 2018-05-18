@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="attract-overview"></a>Attracti ülevaade
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Attract pakub võimalusi uute talentide töölevõtmisprotsessi haldamiseks. Kandidaate saab lisada avatud töödele ja viia etapiviisiliselt edasi, kuni pakkumist pikendatakse või avaldus tagasi lükatakse. Igas etapis liiguvad kandidaadid läbi tegevuste, nagu skriiningukõned, hindamised või töövestluste plaanimine. Pärast kandideerimist saavad kandidaadid meili, mis kutsub neid Attracti sisse logima. Seal saavad nad jälgida oma töö olekut, oma avaldust ja reageerida ülesannetele, mis on neile määratud.
 

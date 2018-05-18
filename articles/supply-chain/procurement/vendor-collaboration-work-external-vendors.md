@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Moodul **Hankija koostöö** on suunatud hankijatele, kellel puudub elektroonilise andmete vahetuse (EDI) integratsioon rakendusega Microsoft Dynamics 365 for Finance and Operations. See laseb hankijatel töötada ostutellimustega (OT-dega), arvetega, veose varude teabega ja pakkumiskutsetega, samuti võimaldab see neile juurdepääsu osale hankija koondandmetest. Selles teemas selgitatakse, kuidas saate teha koostööd väliste hankijatega, kes kasutavad hankija koostööliidest OT-de, pakkumiskutsete ja veose varudega töötamiseks. Selles selgitatakse ka, kuidas lubada konkreetset hankijat hankija koostöö kasutamiseks ja kuidas määratleda teavet, mida kõik hankijad näevad, kui nad vastavad OT-le.
 

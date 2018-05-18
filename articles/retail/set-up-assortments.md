@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>Sortimentide häälestamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles artiklis kirjeldatakse, mis asi on sortiment ja selgitab, kuidas sortimente rakenduses Microsoft Dynamics 365 for Retail seadistada.
 

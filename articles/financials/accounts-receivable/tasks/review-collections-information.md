@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>Sissenõuete teabe ülevaatamine
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Selles protseduuris selgitatakse sissenõuete teabe ülevaatamist ning ka mitmesuguseid häälestussuvandeid ja sissenõudekandeid. See protsess kasutab demoettevõtte USMF-i andmeid.
 
