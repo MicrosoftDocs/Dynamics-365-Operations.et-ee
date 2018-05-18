@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> See funktsioon on saadaval ainult rakenduse Dynamics 365 for Finance and Operations versioonis 8.0 ja see on suunatud kasutajatele, kes on registreerinud platvormivärskenduste programmis Continuous Auto-update Advantage Program (PAEP). Lisateabe saamiseks standardsete ja suunatud väljalasete kohta vt [Standardsed ja suunatud platvormi väljalasked](../../fin-and-ops/get-started/public-preview-releases.md).
+> See funktsioon on saadaval värskenduses Platform update 15 (7.0.4841) või uuemas versioonis. See värskendus on praegu saadaval suunatud klientidele ja see on kõigile kasutajatele saadaval alates 2018. aasta juunist.

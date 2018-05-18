@@ -10,7 +10,12 @@
 ## [Tutvumiskoopia saamine](dev-tools/get-evaluation-copy.md)
 ## [Tellimusele registreerimine](dev-tools/sign-up-preview-subscription.md)
 ## [Arenduskeskkonna juurutamine ja juurdepääs](dev-tools/access-instances.md)
-## [Arendussüsteemi nõuded](dev-tools/development-system-requirements.md)
+### [Arendaja VM konfigureerimine](dev-tools/configure-developer-vm.md)
+### [Uue kasutaja loomine arendusmasinal](dev-tools/enable-development-machine.md)
+### [Administraatori juurdepääsu keelavate VM-ide arendamise ja koostamise KKK](sysadmin/VMs-no-admin-access.md)
+### [Kohaliku keskkonna ümbernimetamine juurdepääsu lubamiseks lahendusele Visual Studio Team Services](migration-upgrade/vso-machine-renaming.md)
+### [Arendussüsteemi nõuded](dev-tools/development-system-requirements.md)
+## [Versioonijuhtimine, metaandmete otsing ja navigeerimine](dev-tools/version-control-metadata-navigation.md)
 ## Sõidukipargi halduse näidisavaldus
 ### [Sõidukipargi halduse näidisavaldus](dev-tools/fleet-management-sample.md)
 ### [Sõidukipargi halduse näidisavalduse ülevaade](dev-tools/introduction-fleet-management-sample.md)
@@ -22,7 +27,8 @@
 ### [Järgu toimingud](dev-tools/build-operations.md)
 ### [Koodiredaktor](dev-tools/code-editor.md)
 ### [Mudeli ja andmemudeli elementide loomine](dev-tools/create-data-model-elements.md)
-### [Uue kasutaja loomine arendusmasinal](dev-tools/enable-development-machine.md)
+#### [Nimejuhised](extensibility/NamingGuidelines.md)
+#### [Mudeli kohandamise ja aegumise funktsiooni väljalülitamine](dev-tools/lock-models.md)
 ### [Kliendi kohanduste analüüsi aruanne](dev-tools/customization-analysis-report.md)
 ### [Elementide koostajad](dev-tools/element-designers.md)
 ### [Elemendi kasutus](dev-tools/element-usage.md)
@@ -31,7 +37,6 @@
 ### [Mudelid](dev-tools/models.md)
 ### [Projektid rakenduses Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Tööriistade lisandmoodulid Visual Studio jaoks](dev-tools/developer-tools-add-ins.md)
-### [Mudeli kohandamise ja aegumise funktsiooni väljalülitamine](dev-tools/lock-models.md)
 ### [Visual Studio tööriistade värskendamine](dev-tools/update-development-tools.md)
 ## X++ programmeerimiskeel
 ### [X++ ja siluri funktsioonid ](dev-tools/new-x-debugger-features.md)
@@ -104,7 +109,7 @@
 #### [W klassid](dev-ref/w-classes.md)
 #### [X klassid](dev-ref/x-classes.md)
 
-## [Laiendatavus - avaleht](extensibility/extensibility-home-page.md)
+## [Laiendatavus](extensibility/extensibility-home-page.md)
 ### Sissejuhatus ja alustamine
 #### [Rakenduse laiendatavuse plaanid](extensibility/extensibility-roadmap.md)
 #### [Laiendatavuse taotlused](extensibility/extensibility-requests.md) 
@@ -261,9 +266,9 @@
 ### [Dokumentide või koolituse loomine tegevuse salvestaja abil](user-interface/task-recorder-training-docs.md)
 
 # [Mobiilne platvorm](mobile-apps/platform/mobile-platform-home-page.md)
-## Alustamine
-### [Alustamine](mobile-apps/platform/mobile-platform-getting-started.md)
+## [Alustamine](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [Arhitektuur](mobile-apps/platform/mobile-platform-architecture.md)
+### [Äriloogika sündmuste ülevaade](mobile-apps/platform/business-logic-events-overview.md)
 ### [Lehekujunduse suunised](mobile-apps/platform/page-design-guidelines.md)
 ### [Tegevuse kujunduse suunised](mobile-apps/platform/action-design-guidelines.md)
 ### [Vormi kujunduse nõuded](mobile-apps/platform/form-design-requirements.md)
@@ -407,9 +412,9 @@
 ### [Konfigureerimisandmete paketid](data-entities/configuration-data-packages.md)
 ### [Konfigureerimisandmete kopeerimine ettevõtete vahel](data-entities/copy-configuration.md)
 ### [Konfigureerimisandmete mallid](data-entities/configuration-data-templates.md)
-### [Mitme töölehega andmemallid](data-entities/excel-template-multiple.md)
-### [Üksuse muudatuste jälgimine.](data-entities/entity-change-track.md)
-
+### [Mitme töölehe malle andmed](data-entities/excel-template-multiple.md)
+### [Üksuse muudatuste jälgimine](data-entities/entity-change-track.md)
+### [Konfiguratsioonivõtmed ja andmeüksused](data-entities/config-key-entities.md)
 ### [Teabe otsimine standardsete andmeüksuste kohta](data-entities/data-entities-report.md)
 
 
@@ -418,6 +423,7 @@
 ### [Üldise töölehe üksuse abil kannete importimise head tavad](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## Andmeüksuste arendamine
+### [Andmeüksuste kujundamise põhimõtted ja parimad tavad](dev-tools/design-best-practices.md)
 ### [Uute andmeüksuste loomine](data-entities/build-consuming-data-entities.md)
 ### [Andmeüksuse atribuudid](data-entities/behavioral-properties-data-entities.md)
 ### [Arvutusveergute ja virtuaalsete väljade loomine](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,14 +434,17 @@
 ### [Metaandmete atribuudid](data-entities/behavioral-properties-data-entities.md)
 ### [Kinnitamised, vaikeväärtused ja vastendamata väljad](data-entities/validations-defaults-unmapped-fields.md)
 ### [Turve ja andmeüksused](data-entities/security-data-entities.md)
+### [Finantsdimensioone esitava kirjutuskaitstud olemi koostamine](financial/read-only-entity-financial.md)
+ 
+
 
 ## [Oma andmebaasi toomine](analytics/export-entities-to-your-own-database.md)
 
 
-## [Andmete ülesannete automatiseerimine](data-entities/data-task-automation.md)
+## [Andmeülesannete automatiseerimine](data-entities/data-task-automation.md)
 
-## [Ressursid isikuandmete kaitse üldmääruse taotlusele vastamiseks](gdpr/gdpr-home-page.md)
-### [Rakenduse Microsoft Dynamics 365 for Finance and Operations GDPR-i juhis](gdpr/gdpr-auditing-sensitive-data.md)
+## [Ressursid GDPR-i andmetaotlusele vastamiseks](gdpr/gdpr-home-page.md)
+### [Rakenduse Microsoft Dynamics 365 for Finance and Operations GDPR-i juhis](gdpr/gdpr-guide.md)
 ### [Avara klassifikatsioon](gdpr/gdpr-asset-classification-values.md)
 ### [Isiku otsingu aruande kasutamine](gdpr/gdpr-person-search-report.md)
 ### [Isiku otsingu aruande laiendamine](gdpr/gdpr-extend-person-search-report.md)
@@ -443,8 +452,9 @@
 ### [Isikuandmete taotlusele vastamine Talenti abil](gdpr/respond-dsr-request-talent.md)
 ### [Isikuandmete taotlusele vastamine Microsoft Dynamics AX 2012 abil](gdpr/gdpr-ax2012.md)
 
+## [Andmete valideerimise tööruum](user-interface/data-validation-workspace.md)
 
-# [Pideva tarne kodulehekülg](dev-tools/continuous-delivery-home-page.md)
+# [Pidev tarne](dev-tools/continuous-delivery-home-page.md)
 ## [Arenduse ja pideva tarne KKK](dev-tools/continuous-delivery-faq.md)
 ## [Proovipakendite välja arvamine koosteväljundist](dev-tools/exclude-test-packages.md)
 ## [Kolmanda osapoole mudelite ja käitusaja pakendite haldus allikakontrolli abil](dev-tools/manage-runtime-packages.md)
@@ -487,6 +497,7 @@
 ## [Segmenditud kirje juhtelemendi parm-meetodid](financial/segmented-entry-control-parm-method-specification.md)
 ## [Microsoft Exceli mallides finantsdimensioonide jaoks väärtuste otsimise võimaluse lisamine](financial/add-dimensions-excel-templates.md)
 ## [Vahetuskursi pakkujate loomine](financial/create-exchange-rate-providers.md)
+## [Vahetuskursi pakkujate loomine teenuse Microsoft Dynamics Finance and Operations versioonis 8.0](financial/create-exchange-rate-8.md)
 
 # Hankeahela arendamine
 ## [Gantti arengu juhis](user-interface/gantt-development-guide.md)
@@ -579,7 +590,6 @@
 
 # [Süsteemihaldus](sysadmin/system-administration-home-page.md)
 ## [Platvormi igakuiste värskenduste KKK](sysadmin/faq-platform-monthly-updates.md)
-## [Administraatori juurdepääsu mittelubavate virtuaalarvutite KKK](sysadmin/VMs-no-admin-access.md)
 ## [Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada](sysadmin/legal-terms-privacy-statement.md)
 ## [Litsentsikoodide ja konfiguratsioonivõtmete aruanne](sysadmin/license-codes-configuration-keys-report.md)
 ## [Kontsernisisene andmete ühiskasutus](sysadmin/cross-company-data-sharing.md)

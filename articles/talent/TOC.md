@@ -5,7 +5,8 @@
 ## [Rakenduse Microsoft Dynamics 365 for Talent ettevalmistus](provisioning-talent.md)
 ## [Keskkonna Talent eemaldamine](remove-talent-environment.md)
 ## [Moodulrakenduste Microsoft Dynamics 365 for Talent ettevalmistus](modular-app-tech-faq.md)
-## [Talenti funktsioonide laiendamine](extend-talent-functionality.md)
+## [Laienda annete funktsioonid](extend-talent-functionality.md)
+## [Juurdepääs eelvaatefunktsioonidele rakenduses Dynamics 365 for Talent: Attract](access-preview-feature.md)
 
 # [Inimressursside strateegia arendamine](departments-jobs-positions.md)
 ## [Töökomponentide häälestamine](create-job.md)
