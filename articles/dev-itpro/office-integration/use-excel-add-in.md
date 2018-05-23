@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0b839a4b16095cf5d357b8405baf1a695b1bb955
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: d68ec828f031fcb031dfbaa5aed2020a779d1207
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -37,9 +37,6 @@ ms.lasthandoff: 05/08/2018
 > <span data-ttu-id="d2eae-108">Kui teie Microsoft Azure Active Directory (Azure AD) rentnik konfigureeritakse kasutama teenust Active Directory Federation Services (AD FS), peate veenduma, et Office’i 2016. aasta mai värskendus on rakendatud nii, et Exceli lisandmoodul saab teid korrektselt sisse logida.</span><span class="sxs-lookup"><span data-stu-id="d2eae-108">If your Microsoft Azure Active Directory (Azure AD) tenant is configured to use Active Directory Federation Services (AD FS), you must make sure that the May 2016 update for Office has been applied, so that the Excel add-in can correctly sign you in.</span></span>
 
 <span data-ttu-id="d2eae-109">Exceli lisandmooduli kasutamise kohta lisateabe saamiseks vaadake lühivideot [Exceli malli loomine päise ja reamustrite jaoks rakenduses Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).</span><span class="sxs-lookup"><span data-stu-id="d2eae-109">To learn more about using the Excel add-in, watch the short [Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) video.</span></span>
-
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a><span data-ttu-id="d2eae-110">Avage üksuse andmed Excelis rakenduse Finance and Operations käivitamisel</span><span class="sxs-lookup"><span data-stu-id="d2eae-110">Open entity data in Excel when you start from Finance and Operations</span></span>
 1. <span data-ttu-id="d2eae-111">Valige rakenduse Finance and Operations käsk **Ava Microsoft Office’is**.</span><span class="sxs-lookup"><span data-stu-id="d2eae-111">On a page in Finance and Operations, select **Open in Microsoft Office**.</span></span>
