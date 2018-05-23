@@ -38,9 +38,6 @@ Kui avate üksuse andmed Excelis, saate neid kiiresti ja hõlpsasti vaadata ja r
 
 Exceli lisandmooduli kasutamise kohta lisateabe saamiseks vaadake lühivideot [Exceli malli loomine päise ja reamustrite jaoks rakenduses Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Avage üksuse andmed Excelis rakenduse Finance and Operations käivitamisel
 1. Valige rakenduse Finance and Operations käsk **Ava Microsoft Office’is**.
 
