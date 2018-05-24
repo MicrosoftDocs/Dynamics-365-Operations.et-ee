@@ -33,8 +33,6 @@ Microsoft Dynamics 365 for Finance and Operationsi platvormivärskendus 14 toeta
 
 Lisateavet PowerAppsi manustamise kohta vaadake lühikesest videost [Kuidas manustada PowerAppsi Dynamics 365 for Finance and Operationsisse?](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Manustatud PowerAppi lisamine lehele
 ### <a name="overview"></a>Ülevaade
 Enne PowerAppi Finance and Operationsi klienti manustamist peate esmalt leidma või looma soovitud visuaalide ja/või funktsionaalsusega PowerAppi. Siin ei kirjeldata PowerAppi üksikasjalikku loomisprotsessi. Kui olete alles uus PowerAppsi kasutaja, siis teema [PowerAppsi sissejuhatus](https://docs.microsoft.com/en-us/powerapps/getting-started) on heaks algukspunktiks.

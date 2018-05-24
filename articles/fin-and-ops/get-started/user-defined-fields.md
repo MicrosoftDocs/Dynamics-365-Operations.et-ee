@@ -3,7 +3,7 @@ title: "Kohandatud väljad"
 description: "Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operations võimaldab mõnel kasutajal luua kohandatud välju, et rakendus sobiks nende ettevõttega."
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="custom-fields"></a>Kohandatud väljad
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 Kuigi Microsoft Dynamics 365 for Finance and Operations hõlmab mitmete äriprotsesside haldamiseks laia valikut valmisvälju, on ettevõttel mõnikord vaja süsteemis jälgida lisateavet. Selle vajaduse rahuldamiseks võimaldab Finance and Operations teil luua kohandatud välju, et rakendus sobiks nende ettevõttega, kui teil selle funktsiooni kasutamise load. 
 
@@ -139,7 +139,7 @@ Jõudluse tõttu ja tehnilistel põhjustel võimaldavad praegu kohandatud välja
      -   Parameeter
      -   Viide
      -   Kande päis
-- Tabel ei saa teist tabelit mitte laiendada.
+- Tabel ei saa teist tabelit laiendada.
 - Tabel ei saa olla märgistatud süsteemitabelina.
 - Tabel ei saa olla ajutine tabel.
 

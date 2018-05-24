@@ -1,6 +1,6 @@
 ---
 title: "Toodete ja tootevariantide otsimine tellimuse sisestamise käigus"
-description: "Kasutage välja <strong>Kaubakood </strong>, et otsida tooteid ja tootevariante, kui loote käsitsi müügi- või ostutellimuse rea.  See võimaldab teil kiiresti leida tootevariante, kui teil on ainult konfiguratsiooni string või üks saadaolevatest tootedimensioonidest."
+description: "Kasutage välja **Kaubakood**, et otsida tooteid ja tootevariante, kui loote käsitsi müügi- või ostutellimuse rea. See võimaldab teil kiiresti leida tootevariante, kui teil on ainult konfiguratsiooni string või üks saadaolevatest tootedimensioonidest."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,20 +20,20 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6a45d89ba20994c06a77c646fa5099fa34b3b2e
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Toodete ja tootevariantide otsimine tellimuse sisestamise käigus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
-Kasutage välja <strong>Kaubakood </strong>, et otsida tooteid ja tootevariante, kui loote käsitsi müügi- või ostutellimuse rea.  See võimaldab teil kiiresti leida tootevariante, kui teil on ainult konfiguratsiooni string või üks saadaolevatest tootedimensioonidest.
+Kasutage välja **Kaubakood**, et otsida tooteid ja tootevariante, kui loote käsitsi müügi- või ostutellimuse rea.  See võimaldab teil kiiresti leida tootevariante, kui teil on ainult konfiguratsiooni string või üks saadaolevatest tootedimensioonidest.
 
 Mõnikord, kui millestki on üleküllus, pole see parim olukord, kus olla, ja see on eriti tõsi siis, kui müüte sarnaseid tooteid ja proovite meeles pidada kaubanumbreid või toote otsingunimesid, et müügitellimusele sisestamiseks õiget toodet leida. Saate kasutada müügi- või ostutellimuse real olevat välja **Kaubakood** otsinguväljana. Saate sisestada mis tahes osa tootenimest, numbri või dimensiooni ja saate otsingu, mis kuvab kõik otsingusõnale vastavad kaubad.
 
@@ -47,7 +47,7 @@ Toodete ja tootevariantide otsimisel on oluline mõista, kuidas otsingufunktsioo
 
 ### <a name="examples"></a>Näited
 
-Järgmised näited kasutavad tooteid ja tootevariante, et kirjeldada, kuidas otsingut käsitletakse erinevates stsenaariumides. **Eeltingimus:** jaotises **Müük ja turundus &gt; Seadistus &gt; Otsing &gt; Otsinguparameetrid** &gt; **Otsingu tüüp** valige suvand **Täieliku vastavus**.
+Järgmised näited kasutavad tooteid ja tootevariante, et kirjeldada, kuidas otsingut käsitletakse erinevates stsenaariumides. **Eeltingimus:**  Valikus **Müük ja turundus &gt; Seadistus &gt; Otsing &gt; Otsinguparameetrid &gt; Otsingu tüüp**, valige suvand **Täielik vastavus**.
 
 | Toote tüüp     | Toote nimi    | Tootenumbri kuvamine | Kaubakood | Konfiguratsioon |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -72,7 +72,7 @@ Näited toote ja tootevariandi identifikaatoritest ja dimensioonidest, millega s
 
 Valige **Müük ja turundus &gt; Seadistus &gt; Otsing &gt; Otsingukriteeriumid**. Leht **Otsingukriteeriumid** võimaldab teil määratleda kliendi, potentsiaalse kliendi ja tooteotsingu kriteeriumid. Veenduge, et filtreerite lehte, kasutades toote otsingukriteeriume. Selleks lülituge lehe menüüs valikule **Toode**.  
 
-Kuvatava tootenumbri otsingukriteeriumidele lisamiseks klõpsake lehe menüüs nuppu <strong>Uus</strong>. See lisab ruudustikku <strong>Otsingukriteeriumid</strong> uue kirje. Avage veeru otsing <strong>Välja nimi</strong> ja valige <strong>DisplayProductNumber</strong>. Toote konfiguratsiooni otsingukriteeriumitesse lisamiseks looge uus kirje ruudustikus<strong> Otsingukriteeriumid** ja valige **configId</strong> veerus <strong>Välja nimi</strong>. Samal viisil looge värvi dimensiooni jaoks kirje väärtusega <strong>Välja nimi</strong> <strong>InventColorId</strong>, suuruse dimensiooni jaoks kirje väärtusega <strong>InventSizeId</strong> ja laadi dimensiooni jaoks kirje väärtusega <strong>InventStyleId</strong>.
+Kuvatava tootenumbri otsingukriteeriumidele lisamiseks klõpsake lehe menüüs nuppu **Uus**. See lisab ruudustikku **Otsingukriteeriumid** uue kirje. Avage veeru otsing **Välja nimi** ja valige **DisplayProductNumber**. Toote konfiguratsiooni otsingukriteeriumitesse lisamiseks looge uus kirje ruudustikus **Otsingukriteeriumid** ja valige **configId** veerus **Välja nimi**. Samal viisil looge värvi dimensiooni jaoks kirje väärtusega **Välja nimi** **InventColorId**, suuruse dimensiooni jaoks kirje väärtusega **InventSizeId** ja laadi dimensiooni jaoks kirje väärtusega **InventStyleId**.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2. etapp. Asustage andmebaasi tabel, mida kasutatakse tooteotsinguks
 

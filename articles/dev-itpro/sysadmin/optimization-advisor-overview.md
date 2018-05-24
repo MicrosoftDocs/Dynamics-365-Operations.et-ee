@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>Nõustaja ülevaate optimeerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas kasutada optimeerimise nõustajat, et aidata tagada Microsoft Dynamics 365 Finance and Operationsi optimaalne konfiguratsioon.
 
@@ -50,8 +50,6 @@ Standardsed turbereeglid kehtivad optimeerimisvõimalustele. Näiteks optimeerim
 Kui tegelete optimeerimisvõimalusega, arvutab süsteem võimaluse mõju äriprotsesside käitusaja vähendusena. Kahjuks ei ole see funktsioon saadaval kõikide optimeerimisvõimaluste jaoks.
 
 Lisateavet optimeerimise nõustaja kohta vaadake lühikesest videost [Optimeerimise nõustaja rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>Optimeerimisreeglid
 
@@ -93,7 +91,7 @@ Kui võimalus ei vasta teie rollile, võite valida suvandi **Peida minu loendist
 
 Konkreetsete reeglite hindamise inaktiveerimiseks valige võimalus, mis reegliga lood, ja seejärel valige suvand **Inaktiveeri analüüs**.
 
-## <a name="see-also"></a>Vt ka
+## <a name="additional-resources"></a>Lisaressursid
 
 [Uute reeglite loomine](./create-rules-optimization-advisor.md)
 

@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Kvaliteedijuhtimise protsessid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet mittevastavate toodete kvaliteedijuhtimise protsessi kohta. Kirjeldatakse, kuidas saate kasutada kvaliteedikontrolli funktsiooni, kuidas määratleda ja hallata mittevastavusi ning kuidas käsitleda parandusi.
 
@@ -88,7 +88,7 @@ Lehel **Parandused** saate luua loendi mittevastavustest, mis tuleb parandada. I
 
 On mõistlik määrata parandustele kordumatu dokumenditüüp, kasutades lehte **Dokumenditüüp**. Seejärel saate määratleda lehel **Aruande seadistus**, kas printida selle dokumenditüübi puhul kommentaarid paranduste aruandele. Prinditud paranduste aruandel on teave mittevastavuse kohta ja mittevastavusega seotud märkused. Aruanne sisaldab ka paranduse teavet nagu diagnostika tüüp ja seotud paranduse märkused.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Kvaliteedijuhtimise lubamine](enable-quality-management.md)

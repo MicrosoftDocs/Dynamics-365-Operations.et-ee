@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Kulukomplekti poliitika ja üldkulude arvutus 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kuluarvestuse abil saate ülevaate, kuidas kuluvoog on seotud organisatsioonis edastatavate toodete ja teenustega. Kulude läbipaistvuse tagamiseks on oluline saavutada sobival eraldamisalusel põhinev kulude jagamine kuluobjektide vahel. Vaikimisi saavutatakse kulude eraldamine esmase kuluelemendi jaoks, mis on mõnes olukorras vajalik, kuid sellel on mõningaid nüansse, mida peaks arvestama.
 
@@ -297,7 +297,7 @@ Selge eraldatud valikute **Kulude eraldamine** ja **Kulude ümberarvestuspoliiti
 
 
 
-## <a name="see-also"></a>Vt ka
+## <a name="additional-resources"></a>Lisaressursid
 -  [Kuluobjekti dimensioonid](cost-objects.md)
 -  [Kuluelemendi dimensioonid](cost-elements.md)
 -  [Dimensioonihierarhiad](dimension-hierarchy.md)

@@ -3,7 +3,7 @@ title: Potentsiaalne klient sularahaks
 description: "See teema annab ülevaate lahendusest Potentsiaalne klient sularahaks rakenduste Microsoft Dynamics 365 for Finance and Operations ja Microsoft Dynamics 365 for Sales vahel."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/03/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,22 +20,24 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc0fa8fe3e20ae4be3e572932f99ccc54e3b746b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prospect-to-cash"></a>Potentsiaalne klient sularahaks
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Lahendus Potentsiaalne klient sularahaks võimaldab vahetut sünkroonimist rakenduste Dynamics 365 for Finance and Operations ja Dynamics 365 for Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Finance, Operations ja Sales vahel. Andmete edastamise ajal rakenduste Finance and Operations ja Sales vahel saate teha Salesis müügi- ja turundustegevusi ning täita Finance and Operationsis varude halduse abil tellimusi. 
 
 Lisateabe saamiseks lahenduse Potentsiaalne klient sularahaks kohta vaadake lühikest YouTube’i videot:
 
 > [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
+
+[Potentsiaalse kliendi sularahaks integreerimine (YouTube’i video)](https://youtu.be/AVV9x5x-XCg) 
 
 Lahenduse Potentsiaalne klient sularahaks praegune versioon pakub vahetu sünkroonimise järgmisi tüüpe.
 
@@ -76,7 +78,7 @@ Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** – vajalik on tugi lahenduse Potentsiaalne klient sularahaks integreerimiseks andmeüksuste kaudu.
     
     > [!NOTE]
-    > Pärast kiirparanduste installimist peate vormilt **SalesPopulateProspectToCash** käivitama järgmise pakett-töö. See vorm on peidetud, kuna teil on seda vaja ainult üks kord. Vormile juurdepääsu saamiseks logige keskkonda sisse ja lisage oma brauseri URL-ile järgmine: &mi=action:SalesPopulateProspectToCash, näiteks `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Vormi avanemisel klõpsake OK. See täidab tabelites **SalesLine**, **SalesQuotationLine** ja **CustInvoiceTrans** uue välja **LineCreationSequnceNumber** kordumatute väärtustega ja värskendab tooteloendit. See on vajalik lahenduse Potentsiaalne klient sularahaks integratsiooni toimimiseks.
+    > Pärast kiirparanduste installimist peate vormilt **SalesPopulateProspectToCash** käivitama järgmise pakett-töö. See vorm on peidetud, kuna teil on seda vaja ainult üks kord. Vormile juurdepääsu saamiseks logige keskkonda sisse ja lisage oma brauseri aadressile järgmine URL: *&mi=action:SalesPopulateProspectToCash*, näiteks `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Vormi avanemisel klõpsake OK. See täidab tabelites **SalesLine**, **SalesQuotationLine** ja **CustInvoiceTrans** uue välja **LineCreationSequnceNumber** kordumatute väärtustega ja värskendab tooteloendit. See on vajalik lahenduse Potentsiaalne klient sularahaks integratsiooni toimimiseks.
 
 
 ## <a name="system-requirements-for-sales"></a>Rakenduse Sales süsteeminõuded

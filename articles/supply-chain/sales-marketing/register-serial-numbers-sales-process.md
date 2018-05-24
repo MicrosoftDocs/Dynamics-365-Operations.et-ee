@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Seerianumbrite registreerimine müügiprotsessis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 See teema selgitab, kui registreerida müügiprotsessi ajal seerianumbreid saatelehtedel või arvetel. See funktsioon on abiks, kui ettevõte soovib hõivata seerianumbreid teenindus‑ ja garantiieesmärkidel, kuid ei pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma.
 
 Paljud ettevõtted soovivad seerianumbreid hõivata teenindus‑ ja garantiieesmärkidel ega pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma. Selliste stsenaariumide puhul laseb Microsoft Dynamics 365 for Finance and Operations seerianumbrid toodete müümisel saatelehtedele või arvetele registreerida. Kui tooted hiljem tagastatakse, saate iga toote arvega siduda, et näha, kas toode on müüdud, ja kas teenindus- või garantiikohustused on kehtivad.
-Kas selleks on eeltingimusi?
-----------------------------
 
 Müügiprotsessi seerianumbrite lubamiseks valige leheküljel **Jälgimisdimensiooni grupid** suvand **Aktiivne müügiprotsessis**. Seejärel toimuvad Microsoft Dynamics 365 for Finance and Operationsis järgmised sündmused.
 -   Kiirkaardil **Seerianumbrid** valitakse suvand **Seerianumbri juhtimine**. Kui see suvand on valitud, tuleb saatelehel või arvel iga kauba kohta üks seerianumber registreerida.
@@ -71,8 +69,8 @@ Ei, te ei saa laos olevaid järjestatud kaupu vaadata, kuna seerianumbrid regist
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Kas saan registreerida tegeliku kaaluga kaupade seerianumbrid?
 Ei, müügiprotsessi ajal ei saa te tegeliku kaaluga kaupade seerianumbreid registreerida. Peale selle ei saa määrata toodet, mis on seadistatud tegeliku kaaluga kaubana, ainult müügiprotsessi ajal seerianumbreid kasutavasse jälgimisdimensiooni gruppi.
-Kas saan seerianumbreid jaemüügikohas registreerida?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Kas saan seerianumbreid jaemüügikohas registreerida?
 
 Jah, jaemüügimüügikohas (POS) palutakse kasutajal seerianumber sisestada, kui kasutaja müüb kauba, mis on määratud ainult müügiprotsessi ajal seerianumbreid kasutavasse jälgimisdimensiooni gruppi.
 

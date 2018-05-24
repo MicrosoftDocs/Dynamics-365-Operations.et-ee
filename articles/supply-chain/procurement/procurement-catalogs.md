@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f51fb41e19a47a9db02166de91b9e027154d6a7d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-catalogs"></a>Hankekataloogid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel kirjeldab kõrgel tasemel, kuidas ostuspetsialistid saavad hankekatalooge seadistada ja hallata. Hankekataloogid määratlevad kaubad ja teenused, mida ettevõtte töötajad saavad ettevõttesiseseks kasutamiseks tellida.
 
@@ -70,7 +70,7 @@ Värskendusi saab avaldada kas automaatselt või käsitsi olenevalt sellest, mil
 -   **Mõlemad** – kui kataloog sisaldab tootekategooriat, mille värskenduse vaiketüüp on **Staatiline**, tuleb seda kataloogide värskendamisel käsitsi värskendada. Kui kataloog sisaldab tootekategooriaid, mille värskenduse vaiketüüp on **Dünaamiline**, toimub värskendamine automaatselt iga kord, kui seda muudetakse.
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Hankekategooria hierarhia seadistamine (tegevuse juhis)](tasks/set-up-procurement-category-hierarchy.md)

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Töölehe kirjete ja kannete kuvamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse erinevaid viise, kuidas vaadata töölehe kandeid ja kandeid. 
 
@@ -54,9 +54,9 @@ Lisaks finantsaruannetele saate pearaamatu kannete vaatamiseks kasutada järgmis
 -   **Kande päritolu** – selles aruandes kuvatakse konto töölehe ja kande, raamatupidamise ja aruandlusvaluuta järgi. See kuvab ka tasakaalustamisel kasutatud töölehe iga rea.
 
 
-## <a name="see-also"></a>Vt ka
+## <a name="additional-resources"></a>Lisaressursid
 - [Pearaamatukonto saldod](general-ledger-account-balances.md) 
-- [Arveldusallika uurija](..\accounts-payable\accounting-source-explorer.md)
+- [Arveldusallika uurija](../accounts-payable/accounting-source-explorer.md)
 - [Finantsaruandlus](financial-reporting-getting-started.md)
 - [Töölehe sisestuste vaatamine](tasks/view-journal-entries-or-transactions.md)
 

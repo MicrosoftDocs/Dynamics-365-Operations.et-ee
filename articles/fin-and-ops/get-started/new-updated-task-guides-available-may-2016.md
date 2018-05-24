@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Uued või värskendatud tegevusjuhised (mai 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (mai 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Tegevusjuhised (mai 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegist
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (mai 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegist
 ------------------------------------------------------------------------------------------------
 
 (2016. a. mai) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft AX-i 2016. a. mai värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljaande spikrina. Tegevusjuhiste lokaliseeritud versioonid, mis väljastati (2016. a. veebruari) APQC ühendatud teegis, on selles teegis saadaval. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md). <strong>Märkus.</strong> Tärn (<strong>\</strong>*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. a. mai värskenduse jaoks ja seda ei toetata Microsoft Dynamics AX-i varasemates versioonides.
@@ -186,7 +186,7 @@ Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljast
 |                  Kauba transpordipiirangute seadistamine                   |     Üldine     |
 |                <strong>\</strong>*Lao tööpoliitikate seadistamine                 |     Üldine     |
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)

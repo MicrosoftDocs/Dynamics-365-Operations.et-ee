@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Ergutussüsteemi plaanide loomine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Ergutussüsteem moodustab töötaja ebaregulaarse tasu, nagu lisatasud või aktsiapreemiad. Selles artiklis kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate kasutada ergutussüsteemi ja registreerida töötaja ergustussüsteemi plaani.
 
@@ -100,7 +100,7 @@ Saate kasutada vahekaarti **Alistamised** töötaja puhul konkreetsete väärtus
 
 Valikut **Organisatoorsed erandid** kasutatakse töötaja preemia arvestamiseks vähemalt ühe osakonna tulemuste põhjal. Osakondade lõikes eraldatav protsent peaks olema kokku 100. Töötaja isiklikku tulemust arvestatakse samuti. Neid sätteid kasutatakse ainult juhul, kui tasuprotsessi käivitamisel on tehtud valik **Tulemuspalk**.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Hüvitusplaanid](compensation-plans.md)

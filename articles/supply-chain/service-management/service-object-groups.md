@@ -3,7 +3,7 @@ title: Hooldusobjektigrupid
 description: "Objektigrupid on kasulikud objektide kohta käivate andmete sortimiseks ja filtreerimiseks aruannetes ja statistikas kasutamiseks."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/21/2018
+ms.date: 05/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: fa503ac82286099a0eafc7034d169e165b538e2c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2ab3ed8a8f36f980473b17b5dfed8cb3d0054253
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-object-groups"></a>Hooldusobjekti grupid 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Objektigrupid on kasulikud objektide kohta käivate andmete sortimiseks ja filtreerimiseks aruannetes ja statistikas kasutamiseks. Näiteks saate grupeerida objekte geograafilise asukoha või tüübi järgi.
 
@@ -48,6 +48,23 @@ Saate kasutada seda grupeerimismeetodit, et näidata, millist tüüpi objektidel
 
 Klient helistab ja soovib sõlmida hooldusleppe õhukonditsioneeri, HIJ, kohta. Teil ei ole selle masina kohta veel kirjet. Küll aga olete seadistanud objektigrupi nimega Õhukonditsioneerid ja olete lisanud selle grupi kõigile õhukonditsioneer-objektidele. Seega saate kiiresti otsida ja tuvastada kõik muud õhukonditsioneer-masinad ja kasutada nende objektide malliteavet, et HIJ-ile hooldusleppe ridasid luua. Kasutades objektigruppe sel viisil saate kiiresti uusi objekte seadistada ja määrata, milliseid hooldustöid nende puhul teostada. 
 
+## <a name="create-service-object-groups"></a>Hooldusobjektide gruppide loomine
+
+Looge gruppe, millele saate määrata teenuseobjekte. Teenuseobjektid on laokaup ja muud tooted, mille jaoks teenuseid tehakse. Teenuseobjekte rühmitades saate luua aruandeid sarnaste ja seotud teenuseobjektide jaoks. Näiteks võib teenuseobjekti grupp koosneda kahest teenuseobjektist: üks teenuseobjekt on komplekt ja teine on teenus komplekti installimiseks.
+
+Teenuseobjekti gruppide loomiseks tehke järgmist.
+
+1. Klõpsake valikuid **Hooldushaldus > Häälestus > Hooldusobjektid > Teenuseobjekti grupid**.
+
+2. Uue teenuseobjekti grupi loomiseks klõpsake käsku **Uus**.
+
+3. Sisestage teenusobjekti grupi kordumatu nimi ja soovi korral kirjeldus.
+
+Saate määrata teenusegruppi objekte, kasutades vormi **Teenuseobjektid**. 
+
+## <a name="see-also"></a>Vt ka
+
+[Teenuseobjektide loomine](create-service-objects.md)
 
 
 

@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>Lao konfiguratsioon
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet selle kohta, kuidas lubada lao paigutust ja laoprotsesse.
 
@@ -112,7 +112,7 @@ Nagu nimigi viitab, kasutatakse asukohakorraldusi töökannete suunamiseks sobiv
 
 Iga asukohakorralduse reaga seotud toimingute hõlpsamaks ja kiriemaks määratlemiseks võib kasutada ühte eelnevalt määratud strateegiat. Näiteks võite kasutada strateegiat **Tühi asukoht sissetuleva tööta** vabade kohtade otsimiseks laost või strateegiat **FEFO partii reserveerimine** väljamineva müügi komplekteerimiseks.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Asukohtade konfigureerimine WMS-loaga laos (tegevuse juhis)](tasks/configure-locations-wms-enabled-warehouse.md)

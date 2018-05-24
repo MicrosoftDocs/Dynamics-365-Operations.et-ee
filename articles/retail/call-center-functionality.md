@@ -3,7 +3,7 @@ title: "Kõnekeskuse funktsioonid"
 description: "Selles teemas antakse ülevaade kõnekeskuse müügifunktsioonidest Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,35 +20,43 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="call-center-functionality"></a>Kõnekeskuse funktsioonid
+# <a name="call-center"></a>Kõnekeskus 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Selles artiklis antakse ülevaade kõnekeskuse müügifunktsioonidest Microsoft Dynamics 365 for Retail.
+Rakenduse Dynamics 365 for Retail kõnekeskus on sellist tüüpi jaemüügikanal, mille saab määrata rakenduses. Kõnekeskuse üksustele kindla kanali määramine võimaldab süsteemil kindlate andmete ja tellimuse töötlemise vaikesätted kõnekeskuse kanali kasutaja loodud müügitellimustega siduda.
 
-Dynamics 365 for Retail toetab jaemüügikanali tüübina ka kõnekeskusi. Kõnekeskuses võtavad töötajad telefonitsi klientide tellimusi vastu ja loovad müügitellimusi. Kõnekeskuse funktsioonid hõlbustavad telefonitsi tellimuste vastuvõtmist ja kliendi teenuse käsitlemist tellimuse täitmise protsessi jooksul. Näiteks saavad kõnekeskuse töötajad sisestada makseteavet otse müügitellimusse ning vaadata tasude ja maksete üksikasjalikku kokkuvõtet enne tellimuse esitamist. Töötajatel on ka hinnakujundamise juhtimise võimalused ning nad pääsevad lehelt **Müügitellimus** klientide, toodete ja hindadega seotud mitmesuguste andmete juurde. Kõnekeskustel on lisaks täiustatud funktsioonid klientide ajaloo ja tellimuse oleku jälgimiseks. Igal kõnekeskusel võivad olla oma kasutajad, makseviisid, hinnagrupid, finantsdimensioonid ja tarneviisid. Saate neid suvandeid konfigureerida kõnekeskuse loomisel. Lisaks saate kasutada lehte **Kõnekeskus**, et lubada või keelata järgmised funktsioonide grupid, mis on kõneskuste puhul kordumatud.
+Kõnekeskus sisaldab selliseid funktsioone nagu täpsem jaemüügihind ja kampaaniad, kataloogid, kinkekaardid, püsikliendi programmid ja kupongid. Kõnekeskuse tellimusi kasutatakse ka kassarakenduses, et toetada kanalite vahelisi tellimuse täitmise stsenaariume.
 
--   **Tellimuse lõpuleviimine** – see grupp hõlmab funktsioone, mis on seotud maksete ja tellimuse lõpulevimisega lehel **Müügitellimus**.
--   **Suunatud müük** – see grupp hõlmab funktsioone, mis on seotud lähtekoodide, skriptide ja kataloogitaotlustega.
+Siinkohal on oluline märkida, et kuigi kõnekeskuse moodulit saab kasutada teistes valdkondades väljaspool Retaili, pole Dynamics 365 for Retaili praeguse versiooni kõnekeskuse rakendus optimeeritud kasutamiseks ettevõtete vaheliste (B2B) tellimuste töötlemise stsenaariumide jaoks ega selliste stsenaariumide jaoks, kus tellimustel on palju müügiridu. Kasutajatel, kes soovivad kasutada kõnekeskuse tellimuste töötlemise funktsioone väljapool tavapärast vahetult tarbijaga seotud kannete töötlemist, on soovitatav võtta piisavalt aega, et testida ja veenduda, et kõnekeskuse funktsionaalsuse lubamine vastaks funktsionaalsuse ja jõudluse vajadustele.
 
-Pärast kõnekeskuse sätetes nende funktsioonide lubamist on need kõnekeskusega seostatud kasutajatele saadaval lehel **Müügitellimus**. Enamik neist funktsioonidest nõuab enne kasutamist lisaseadistamist. Enne kui kasutajad saavad luua kõnekeskuse tellimusi, peate lisama need kasutajad kõnekeskusse kõnekeskuse kasutajatena. See etapp võimaldab kõnekeskuse kanalipõhist konfiguratsiooni ja funktsionaalsust. Siin on mõned näited funktsioonidest, mis muutuvad kättesaadavaks.
+Lisaks tellimuste loomise toele pakub kõnekeskuse moodul kasutajasõbralikku klienditeenindusrakendust, mis hõlbustab kasutajatel kliendikontode leidmist ja kõigi seonduvate klienditellimuste andmete ja atribuutide ülevaatamist. Klienditeeninduse ekraan on mõeldud pakkuma kasutajale kiiret juurdepääsu tellimusega seotud andmetele, mis võimaldab klientide kõige levinumatele tellimusega seotud küsimustele kiiresti vastata.
 
--   Juhendatud müük pakub konfiguratsioonisuvandeid telemüügi skriptidele ja toote piltidele, et aidata ja juhendada müüjaid tellimuste vastuvõtmisel.
--   Tellimusi ei saa lõpule viia, kui müüjad ei ole hõivanud vähemalt ühte makseviisi.
--   Lisa- ja kaasmüügi reeglites saab konfigureerida viibad müüjatele, et nad reklaamiksid kliendile kindlaid tooteid.
--   Müüjad saavd hõivata allikakoodi kataloogilt, millest klient tellib.
--   Müüjad saavad lisada tellimusele jaemüüja kupongid.
--   Müüjad saavad müüa järjepidevusprogramme.
--   Tellimusi saab käsitsi või automaatselt ootele panna näitamaks, et enne tellimuse töötlemist on nõutav täeindav uurimine.
+Sellelt leheküljelt leiate lingid asjakohasele Dynamics 365 for Retaili kõnekeskuse seadistuse, konfiguratsiooni ja kasutamise dokumentatsioonile.
 
+## <a name="configure-the-call-center"></a>Kõnekeskuse konfigureerimine
+[Tellimuse töötlemise suvandite seadistamine](set-up-order-processing-options.md)
 
+## <a name="configure-order-processing"></a>Tellimuse töötlemise konfigureerimine
+[Pettuseteatiste seadistamine](set-up-fraud-alerts.md)
+[Ooteloleva tellimuse haldamine käsitsi](work-with-order-holds.md)
 
+## <a name="configure-payment-processing"></a>Makse töötlemise konfigureerimine
+[Makseviisid kõnekeskuses](work-with-payments.md)
+
+## <a name="configure-direct-marketing"></a>Otseturustamise konfigureerimine
+[Kõnekeskuse kataloogid](call-center-catalogs.md)
+
+[RFM-analüüsi seadistamine](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a>Järjepidevusprogrammide konfigureerimine
+[Kõnekeskuse järjepidevusprogrammi seadistamine](set-up-continuity-program.md)
 
 

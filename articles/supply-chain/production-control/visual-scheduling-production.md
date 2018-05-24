@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Gantti diagramm tööde plaanimiseks
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gantti diagrammi eesmärk on anda tootmise plaanijatele võimalus tootmisplaani juhtimiseks ja optimeerimiseks. Gantti diagramm muudab toiminguvoo läbipaistvaks ja teeb tootmisgraafiku kohandamise lihtsaks, arvestades samas materjali või ressursside puudujääke. see aitab plaanijatel olemasolevaid ressursse kõige paremini kasutada, minimeerida pooleliolevat tööd ja optimeerida tootmistellimuste läbilaskeaegu.
 
@@ -156,7 +156,7 @@ Gantti diagrammi saab avada järgmistelt lehtedelt.
 |           <strong>Tehtav töö</strong> (Loend tööruumis <strong>Tootmisosakonna haldus</strong>)            |                                                                                               Jaotises <strong>Tehtavad tööd tööruumis Tootmisosakonna haldus</strong> on näha töid tootmis- ja partiitellimustest, mis on tööruumi valitud ressurssidel pooleli. Menüüelemendist <strong>Gantti diagramm</strong> saate avada Gantti diagrammi, kus kõik loendist valitud tööd laaditakse diagrammile.                                                                                               |
 | <strong>Väljastatavad tootmistellimused</strong> (avatakse tööruumist <strong>Tootmisosakonna haldus</strong>) |                                                                                                                                         Väljastatavate tootmistellimuste leht avaneb tööruumist <strong>Tootmisosakonna haldus</strong>. Sellel lehel kuvatakse väljastamise ootel plaanitud tootmis- ja partiitellimused. Sellelt lehelt saab avada Gantti diagrammi valitud tootmistellimuste kohta.                                                                                                                                          |
 
-## <a name="see-also"></a>Vt ka  
+## <a name="additional-resources"></a>Lisaressursid  
 [Tootmis- ja partiitellimuste visuaalne plaanimine Gantti diagrammiga (video)](https://youtu.be/BtbuShkGj4I)
 
 [Tootmistellimuste visuaalne plaanimine (demoskript)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3891688542ac6d4f9afce026808c65992a592d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2642ced283d815ad671512cc5a17e531e9169f91
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-tracing-for-explosion"></a>Plahvatuse jaoks jälgimise kasutamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas kasutada jälgimist tellimuse koosnevusarvutuse tulemuse põhjuste uurimiseks.
 
@@ -42,7 +42,7 @@ Jälgimise lubamisega saate vaadata teavet tegurite kohta, mis konkreetse tellim
 
 Saate vaadata tulevaste üksuste üksikasju ja valitud tellimuse toiminguid. Lehel **Koosnevus** on jälgimisteave saadaval ülemisel paanil asuval vahekaardil **Selgitus**. Jälgimine toimub tellimuse koosnevuse kuvamisel. Tellimuse jälgimise alustamiseks klõpsake käsku **Uuenda** ja märkige siis ruut **Luba jälgimine**. Logist konkreetse teabe otsimiseks saab kasutada välja **Teksti otsimine**. Otsingutulemused tõstetakse puul esile.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Koondplaanid](master-plans.md)

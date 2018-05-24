@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e4f306d2ee20323229b478c93c1c7eeaba50be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 29a46eb2ec36fdc7e52b148efdadd4401bc8bca2
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Mis on uus või muutunud rakenduse Dynamics AX versioonis 7.0.1 (mai 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Artikkel kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics AX versioonis 7.0.1-s kas uued või muudetud. See versioon ilmus mais 2016 ja selle number on 7.0.1265.23014.
 
@@ -77,10 +77,10 @@ Artikkel kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics AX versiooni
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
-[Mis on uus või muudetud](whats-new-changed.md)
+[Mis on uus või muudetud?](whats-new-changed.md)
 
 [Uued või värskendatud ülesande juhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 

@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-returns"></a>Müügitagastused
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele.
 
@@ -88,7 +88,7 @@ Pärast tagastuspäise lõpuleviimist saate luua tagastusread, kasutades üht j�
 -   Sisestage iga tagastusrea jaoks kauba üksikasjad, kogus ja muu teave.
 -   Looge tagastusrida, kasutades funktsiooni **Otsi müügitellimust**. Soovitame teil kasutada seda funktsiooni tagastustellimuse loomisel. Funktsioon **Otsi müügitellimust** tuvastab tagastusrealt viite arveldatud müügitellimuse reale ja toob rea üksikasjad, nagu kauba number, kogus, hind, allahindlus ja kuluväärtused müügirealt. Viide aitab tagada, et kui toode tagastatakse ettevõttele, hinnatakse seda sama ühikukuluga, millega see müüdi. Viide kinnitab ka, et tagastustellimusi ei looda kogusele, mis ületab arvel müüdud kogust.
 
-**Märkus.** Tagastusridu, millel on viide müügitellimusele, käsitletakse müügi paranduste või tühistamistena. Lisateabe saamiseks vaadake teemas allpool toodud jaotist „Pearaamatusse sisestamine”.
+>[Märkus.] Tagastusridu, millel on viide müügitellimusele, käsitletakse müügi paranduste või tühistamistena. Lisateabe saamiseks vaadake teemas allpool toodud jaotist „Pearaamatusse sisestamine”.
 
 ### <a name="charges"></a>Tasud
 
@@ -193,15 +193,26 @@ Saabumisprotsessi käigus integreeritakse tagastused lao saabumiste üldise prot
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Saabumise ülevaateloendis toodete tuvastamine
 
-Leht **Saabumise ülevaade** annab loendi plaanitud sissetulevatest saabumistest. **Märkus.** Tagastustellimustelt tulenevaid saabumisi tuleb muud tüüpi saabumiskannetest eraldi töödelda. Pärast lehel **Saabumise ülevaade** sissetuleva paketi tuvastamist (nt kaasasoleva tagastusdokumendi abil) klõpsake tegumiribal nuppu **Alusta saabumistöölehte**, et luua ja käivitada saabumisega ühtiv saabumise tööleht.
+Leht **Saabumise ülevaade** annab loendi plaanitud sissetulevatest saabumistest. 
+>[Märkus.] Tagastustellimustelt tulenevaid saabumisi tuleb muud tüüpi saabumiskannetest eraldi töödelda. Pärast lehel **Saabumise ülevaade** sissetuleva paketi tuvastamist (nt kaasasoleva tagastusdokumendi abil) klõpsake tegumiribal nuppu **Alusta saabumistöölehte**, et luua ja käivitada saabumisega ühtiv saabumise tööleht.
 
 ### <a name="edit-the-arrival-journal"></a>Saabumise töölehe redigeerimine
 
-Määrates suvandi **Vahelao haldus** olekusse **Jah**, saate tagastusreale vahelaoorderi luua. Kui rida on saadetud kontrollimiseks vahelattu, ei saa te likvideerimiskoodi määrata. **Märkus** Kui määrate suvandi **Vahelao haldus** kauba varude mudeligrupis olekusse **Jah**, märgistatakse suvand **Vahelao haldus** lehel **Tööleheread** saabumise töölehe rea jaoks ja seda ei saa muuta. Kui rida saadetakse vahelattu, peate määrama sobiva vahelao. Kui saabumisrida ei saadeta kontrollimiseks, peab lao saabumise ametnik määrama likvideerimiskoodi otse saabumise töölehereale ja saabumise töölehe seejärel sisestama. Kui sama likvideerimiskoodi ei tohiks määrata tagastusrea tervele kogusele või kui rea täiskogust pole vastu võetud, peate rea tükeldama. Saabumise töölehe rea tükeldamisel tükeldate ka tagastusrea (**SalesLine**) ja loote uue partii ID. Saate rea tükeldada, vähendades saabumise töölehe rea kogust. Töölehe sisestamisel luuakse uus tagastusrida, mille olek on järelejäänud koguse puhul  **Eeldatud**. Saate rea ka tükeldada, klõpsates valikuid **Funktsioonid** &gt; **Tükelda**.
+Määrates suvandi **Vahelao haldus** olekusse **Jah**, saate tagastusreale vahelaoorderi luua. Kui rida on saadetud kontrollimiseks vahelattu, ei saa te likvideerimiskoodi määrata. 
+ 
+Kui määrate suvandi **Vahelao haldus** kauba varude mudeligrupis olekusse **Jah**, märgistatakse suvand **Vahelao haldus** lehel **Tööleheread** saabumise töölehe rea jaoks ja seda ei saa muuta. Kui rida saadetakse vahelattu, peate määrama sobiva vahelao. 
+
+Kui saabumisrida ei saadeta kontrollimiseks, peab lao saabumise ametnik määrama likvideerimiskoodi otse saabumise töölehereale ja saabumise töölehe seejärel sisestama. Kui sama likvideerimiskoodi ei tohiks määrata tagastusrea tervele kogusele või kui rea täiskogust pole vastu võetud, peate rea tükeldama. Saabumise töölehe rea tükeldamisel tükeldate ka tagastusrea (**SalesLine**) ja loote uue partii ID. Saate rea tükeldada, vähendades saabumise töölehe rea kogust. Töölehe sisestamisel luuakse uus tagastusrida, mille olek on järelejäänud koguse puhul  **Eeldatud**. Saate rea ka tükeldada, klõpsates valikuid **Funktsioonid** &gt; **Tükelda**.
 
 ### <a name="process-the-quarantine-order"></a>Vahelaoorderi töötlemine
 
-Kui tagastud tooted saadetakse kontrollimiseks vahelattu, viiakse mis tahes täiendav töötlemine lõpule vahelaoorderis. Iga vahelattu saadetava saabumise rea jaoks luuakse üks vahelaoorder. Likvideerimiskood näitab kontrolliprotsessi tulemust. Saate vahelaoorderi tükeldada sarnaselt saabumise töölehe tükeldamisele. Vahelaoorderi tükeldamisel põhjustate tagastusrea vastavat tükeldamist. Pärast likvideerimiskoodi sisestamist viige vahelaoorder lõpule, kasutades funktsiooni **Lõpp** või funktsiooni **Kinnita lõpetamine**. Kui valite **Teata lõpetamisest**, luuakse määratud laos uus saabumine. Seejärel saate seda saabumist töödelda, kasutades lehte **Saabumise ülevaade**. Kui saabumine pärineb vahelaoorderist, ei saa te muuta kontrollimise käigus määratud likvideerimiskoodi. Kui lõpetate vahelaoorderi funktsiooni **Lõpp** abil, registreeritakse partii automaatselt. Mõnikord saadetakse kaup vahelaost tagasi lähetamise ja vastuvõtmise osakonda. Näiteks ei pruugi vahelao kontrollija teada, kus kaupa varudes talletada. Sellisel juhul tuleb vastavat saatelehte värskendada, et vahelao tõttu määratud likvideerimiskoodi õigesti registreerida ja selle alusel õigesti toimida. Sissetuleku kinnitamise saab saata kliendile tagastusrea registreerimisel. Aruanne **Tagasta kinnitus** sarnaneb tagastustellimuse dokumendile. Aruanne **Tagasta kinnitus** pole süsteemis töölehele paigutatud või muul viisil registreeritud ja see pole tagastustellimuse protsessis vajalik etapp.
+Kui tagastud tooted saadetakse kontrollimiseks vahelattu, viiakse mis tahes täiendav töötlemine lõpule vahelaoorderis. Iga vahelattu saadetava saabumise rea jaoks luuakse üks vahelaoorder. Likvideerimiskood näitab kontrolliprotsessi tulemust. 
+
+Saate vahelaoorderi tükeldada sarnaselt saabumise töölehe tükeldamisele. Vahelaoorderi tükeldamisel põhjustate tagastusrea vastavat tükeldamist. Pärast likvideerimiskoodi sisestamist viige vahelaoorder lõpule, kasutades funktsiooni **Lõpp** või funktsiooni **Kinnita lõpetamine**. Kui valite **Teata lõpetamisest**, luuakse määratud laos uus saabumine. Seejärel saate seda saabumist töödelda, kasutades lehte **Saabumise ülevaade**. 
+
+Kui saabumine pärineb vahelaoorderist, ei saa te muuta kontrollimise käigus määratud likvideerimiskoodi. Kui lõpetate vahelaoorderi funktsiooni **Lõpp** abil, registreeritakse partii automaatselt. Mõnikord saadetakse kaup vahelaost tagasi lähetamise ja vastuvõtmise osakonda. Näiteks ei pruugi vahelao kontrollija teada, kus kaupa varudes talletada. Sellisel juhul tuleb vastavat saatelehte värskendada, et vahelao tõttu määratud likvideerimiskoodi õigesti registreerida ja selle alusel õigesti toimida. 
+
+Sissetuleku kinnitamise saab saata kliendile tagastusrea registreerimisel. Aruanne **Tagasta kinnitus** sarnaneb tagastustellimuse dokumendile. Aruanne **Tagasta kinnitus** pole süsteemis töölehele paigutatud või muul viisil registreeritud ja see pole tagastustellimuse protsessis vajalik etapp.
 
 ## <a name="replace-a-product"></a>Toote asendamine
 Tooteasenduse haldamiseks on kaks meetodit.
@@ -223,7 +234,9 @@ Kui tarnite kliendile asenduskauba ja kasutate tagastustellimusel olevat likvide
 
 ![Asendusprotsess likvideerimisprotsessi kasutamisel](./media/SalesReturn05.png)
 
-Asenduskaup tarnitakse, kasutades sõltumatut müügitellimust ehk asendusmüügitellimust. See müügitellimus luuakse tagastustellimuse jaoks saatelehe loomisel. Tellimusepäis kasutab kliendilt teavet, millele viidatakse tagastustellimuse päises. Reateavet kogutakse teabest, mis sisestatakse lehel **Asenduskaup**. Leht **Asenduskaup** peab olema täidetud ridadele, millel on sõnaga „asendama” algavad likvideerimistegevused. Siiski pole asenduskauba kogus ega identiteet kinnitatud ega piiratud. See käitumine võimaldab juhtumeid, kus klient soovib sama kaupa, kuid erineva konfiguratsiooni või suurusega, aga ka juhtumeid, kus kliendid soovivad täiesti erinevat kaupa. Vaikimisi sisestatakse lehele **Asenduskaup** identne kaup. Siiski saate valida teise kauba, tingimusel, et funktsioon on seadistatud. **Märkus.** Saate redigeerida ja kustutada asendusmüügitellimuse pärast selle loomist.
+Asenduskaup tarnitakse, kasutades sõltumatut müügitellimust ehk asendusmüügitellimust. See müügitellimus luuakse tagastustellimuse jaoks saatelehe loomisel. Tellimusepäis kasutab kliendilt teavet, millele viidatakse tagastustellimuse päises. Reateavet kogutakse teabest, mis sisestatakse lehel **Asenduskaup**. Leht **Asenduskaup** peab olema täidetud ridadele, millel on sõnaga „asendama” algavad likvideerimistegevused. Siiski pole asenduskauba kogus ega identiteet kinnitatud ega piiratud. See käitumine võimaldab juhtumeid, kus klient soovib sama kaupa, kuid erineva konfiguratsiooni või suurusega, aga ka juhtumeid, kus kliendid soovivad täiesti erinevat kaupa. Vaikimisi sisestatakse lehele **Asenduskaup** identne kaup. Siiski saate valida teise kauba, tingimusel, et funktsioon on seadistatud. 
+
+>[Märkus.] Saate redigeerida ja kustutada asendusmüügitellimuse pärast selle loomist.
 
 ## <a name="generate-a-packing-slip"></a>Saatelehe loomine
 Enne kui tagastatud kaupu saab varudesse vastu võtta, peate värskendama saatelehte tellimusele, millel kaubad kuuluvad. Nii nagu arve värskendamise protsess on finantskande värskendamine, on saatelehe värskendamisprotsess laokirje värskendamine. Teisiti öeldes kinnitab see protsess muudatused varudesse. Tagastuste korral rakendatakse likvideerimistegevuseks määratud etapid saatelehe värskendamise käigus. Saatelehe loomisel toimuvad järgmised sündmused.
@@ -233,14 +246,19 @@ Enne kui tagastatud kaupu saab varudesse vastu võtta, peate värskendama saatel
 -   Kaubad, mis on tähistatud likvideerimistegevusega **Tagasta kliendile**, võetakse vastu ja tarnitakse kliendile. Nendel kaupadel pole varudele mingit netoväärtuse mõju.
 -   Luuakse asendusmüügitellimus. See müügitellimus põhineb lehel **Asenduskaup** esitatud teabel.
 
-Saate luua saatelehe ainult ridadele, mille tagastusolek on **Registreeritud** ja ainult tagastusreal oleva täiskoguse jaoks. Kui mitmel tagastustellimuse real on olek **Registreeritud**, saate ridade alamkogumi jaoks luua saatelehe, kustutades lehelt **Saatelehe sisestamine** teised read. Osalised tagastused määratletakse tagastustellimuse ridade, mitte tagastustellimuse saadetiste tingimustel. See tähendab, et kui saate täiskoguse, mis on näidatud ühel tagastustellimuse real, kuid te ei saa midagi tagastustellimuse teistelt ridadelt, siis pole tarne osaline tarne. Kui tagastustellimuse rida nõuab 10 kauba ühiku tagastamist, kuid saate ainult neli ühikut, on tarne osaline tarne. Kui kõik oodatud tagastuskaubad pole saabunud, saate seada saadetise kõrvale ja oodata ülejäänud tagastatud koguse saabumist. Teise võimalusena saate registreerida ja sisestada osalise koguse. Osana saatelehtede sisestamise protsessist saate siduda kliendi saatmisdokumentidest pärineva saatelehe viitenumbri tellimuseridadega. See seos on valikuline ja ainult viitamiseks. See ei loo ühtki kandevärskendust. Üldiselt saate saatelehe protsessi vahele jätta ja minna otse arveldamisse. Sellisel juhul viiakse arveldamise käigus lõpule etapid, mida oleksite teinud saatelehe loomise käigus.
+Saate luua saatelehe ainult ridadele, mille tagastusolek on **Registreeritud** ja ainult tagastusreal oleva täiskoguse jaoks. Kui mitmel tagastustellimuse real on olek **Registreeritud**, saate ridade alamkogumi jaoks luua saatelehe, kustutades lehelt **Saatelehe sisestamine** teised read. 
+
+Osalised tagastused määratletakse tagastustellimuse ridade, mitte tagastustellimuse saadetiste tingimustel. See tähendab, et kui saate täiskoguse, mis on näidatud ühel tagastustellimuse real, kuid te ei saa midagi tagastustellimuse teistelt ridadelt, siis pole tarne osaline tarne. Kui tagastustellimuse rida nõuab 10 kauba ühiku tagastamist, kuid saate ainult neli ühikut, on tarne osaline tarne. Kui kõik oodatud tagastuskaubad pole saabunud, saate seada saadetise kõrvale ja oodata ülejäänud tagastatud koguse saabumist. Teise võimalusena saate registreerida ja sisestada osalise koguse. Osana saatelehtede sisestamise protsessist saate siduda kliendi saatmisdokumentidest pärineva saatelehe viitenumbri tellimuseridadega. See seos on valikuline ja ainult viitamiseks. See ei loo ühtki kandevärskendust. 
+
+Üldiselt saate saatelehe protsessi vahele jätta ja minna otse arveldamisse. Sellisel juhul viiakse arveldamise käigus lõpule etapid, mida oleksite teinud saatelehe loomise käigus.
 
 ## <a name="generate-an-invoice"></a>Loo arve
 Kuigi leht **Tagastustellimus** sisaldab teavet ja tegevusi, mis on vajalikud tagastustellimuste spetsiaalsete logistiliste aspektide käsitlemiseks, peate arveldusprotsessi lõpuleviimiseks kasutama lehte **Müügitellimus**. Teie organisatsioon saab seejärel arveldada samaaegselt tagastustellimused ja müügitellimused ning sama isik saab arveldusprotsessi vastavalt vajadusele lõpule viia. Lehel **Müügitellimus** tagastustellimuse vaatamiseks klõpsake seotud müügitellimuse avamiseks müügitellimuse numbri linki. Tagastustellimuse leiate ka lehelt **Kõik müügitellimused**. Tagastustellimused on müügitellimused, millel on tellimuse tüüp **Tagastatud tellimus**.
 
 ### <a name="credit-correction"></a>Kreediti parandus
 
-Osana arvaldamisprotsessist kontrollige, kas mis tahes muud tasud on õiged. Pearaamatu sisestuste parandusteks (storno) muutumiseks kaaluge arve/kreeditarve sisestamisel lehel **Arve sisestamine** oleva vahekaardi **Muu** suvandi **Kreediti parandus** kasutamist arve/kreeditarve sisestamisel. **Märkus.** Vaikimisi aktiveeritakse suvand **Kreediti parandus** siis, kui **Kreeditarve kui parandus** lehel **Müügireskontro parameetrid** on lubatud. Soovitame teil tagastusi stornoga mitte postitada.
+Osana arvaldamisprotsessist kontrollige, kas mis tahes muud tasud on õiged. Pearaamatu sisestuste parandusteks (storno) muutumiseks kaaluge arve/kreeditarve sisestamisel lehel **Arve sisestamine** oleva vahekaardi **Muu** suvandi **Kreediti parandus** kasutamist arve/kreeditarve sisestamisel. 
+>[Märkus.] Vaikimisi aktiveeritakse suvand **Kreediti parandus** siis, kui **Kreeditarve kui parandus** lehel **Müügireskontro parameetrid** on lubatud. Soovitame teil tagastusi stornoga mitte postitada.
 
 ## <a name="create-intercompany-return-orders"></a>Kontsernisiseste tagastustellimuste loomine
 Tagastustellimused saab teie organisatsioonisiseselt kahe ettevõtte vahel lõpule viia. Toetatud on järgmised stsenaariumid.
@@ -294,7 +312,7 @@ Tagastustellimus ei viita kliendiarvele. Tagastatud kaup krediteeritakse. Parame
 
 ![Tagastustellimus ei viita kliendiarvele](./media/SalesReturn09.png)  
 
-**Märkus.** Kauba põhihinda kasutatakse parameetri **Tagastamise omahind** vaikeväärtusena. Vaikehind erineb lao väljamineku ajal omahinnast. Seetõttu on mõju see, et 3 kadu on kuludesse kantud. Täiendavalt ei hõlma tagastustellimus allahindlust, mis anti kliendile müügitellimusel. Seetõttu esineb üleliigset krediiti.
+>[Märkus.] Kauba põhihinda kasutatakse parameetri **Tagastamise omahind** vaikeväärtusena. Vaikehind erineb lao väljamineku ajal omahinnast. Seetõttu on mõju see, et 3 kadu on kuludesse kantud. Täiendavalt ei hõlma tagastustellimus allahindlust, mis anti kliendile müügitellimusel. Seetõttu esineb üleliigset krediiti.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Näide 2. Tagastustellimuse jaoks valitakse kreediti parandus.
 
@@ -302,7 +320,7 @@ Näide 2 on sama mis näide 1, kuid parameeter **Kreediti parandus** valitakse t
 
 ![Tagastustellimus krediiditäpsustuse valimisel ](./media/SalesReturn10.png)  
 
-**Märkus.** Pearaamatu sisestused sisestatakse negatiivsete parandustena.
+>[Märkus.] Pearaamatu sisestused sisestatakse negatiivsete parandustena.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Näide 3. Tagastustellimuse rea loomiseks kasutatakse funktsiooni Otsi müügitellimust.
 
@@ -310,7 +328,7 @@ Selles näites kasutatakse tagastustellimuse rea loomiseks funktsiooni **Otsi m�
 
 ![Tagastustellimuse rida, mis luuakse funktsiooni Otsi müügitellimust kasutades ](./media/SalesReturn11.png)  
 
-**Märkus.** **Allahindlus** ja **Tagastamise omahind** on korrektselt seatud. Seetõttu toimub kliendiarve täpne tühistamine.
+>[Märkus.] **Allahindlus** ja **Tagastamise omahind** on korrektselt seatud. Seetõttu toimub kliendiarve täpne tühistamine.
 
 
 

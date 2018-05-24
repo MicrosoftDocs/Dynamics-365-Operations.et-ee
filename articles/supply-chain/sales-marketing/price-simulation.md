@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Hinnasimulatsioon
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet pakkumiste hinnasimulatsiooni kohta. Hinnasimulatsiooni abil saate hinnata mahaarvamiste mõju tulevasele müügihinale pakkumise protsessi ajal, enne kui määrate kindla hinna.
 
@@ -36,7 +36,7 @@ Pakkumise hinnasimulatsioon näitab uut koondsummat, mis põhineb uuel soovitusl
 
 Hinnasimulatsioon ei muuda pakkumise hinda. Hinnasimulatsiooni rakendamisel kogu pakkumisele käsitletakse seda pakkumise päises spetsiaalse allahindlusena. Hinnasimulatsiooni rakendamisel konkreetsetele kaupadele käsitletakse seda pakkumise ridadel spetsiaalse allahindlusena. Hinnasimulatsiooni rakendamisel ühiku müügihind loodud pakkumise real ei muutu. Selle asemel rakendatakse allahindluse protsenti, mis vastab hinna pakkumise rea hinna vähendamisele. Kui rakendatakse hinnasimulatsiooni, kantakse ühiku müügihind ja allahindluse protsent pakkumise reale või pakkumise päisesse.  
 
-**Märkus.** Hinnasimulatsiooni käigus kasutatakse simulatsiooni loomiseks ainult praegust müügivaluutat. Kui vaatate pakkumiste kokkuvõtteid, näete siiski ettevõtte valuuta ja müügivaluuta kombinatsiooni.  
+>[Märkus.] Hinnasimulatsiooni käigus kasutatakse simulatsiooni loomiseks ainult praegust müügivaluutat. Kui vaatate pakkumiste kokkuvõtteid, näete siiski ettevõtte valuuta ja müügivaluuta kombinatsiooni.  
 
 Pakkumise ridadele lisatavad lisakaubad võivad põhjustada rea allahindlusi või multiallahindlusi. Need võivad käivitada ka koondallahindlusi, mis muudavad pakkumise ridade brutokasumit ja kasumiprotsente ning kogu allahindlust.  
 

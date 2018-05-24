@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Ostulepingud
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi. 
 
@@ -91,7 +91,7 @@ Kui loote kontsernisisese ostutellimuse, mis kasutab kontsernisisest ostulepingu
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Ostulepingute finantsdimensioonid
 Saate kopeerida finantsdimensioonid dokumentide päistesse või ostutellimuse üksikutele ridadele. Kui muudate dimensioone lepingu päises või lepingu real, ei mõjuta muudatus ühtegi väljastatud tellimust, kuid kajastub kõigil uutel tellimustel.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Ostulepingu loomine (tegevuse juhis)](tasks/create-purchase-agreement.md)

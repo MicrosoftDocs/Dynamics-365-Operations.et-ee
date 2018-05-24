@@ -3,7 +3,7 @@ title: "Jaemüügi hinna haldamine"
 description: "Selles teemas kirjeldatakse müügihindade loomise ja haldamise põhimõtteid lahenduses Microsoft Dynamics 365 for Retail."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Jaemüügi hinna haldamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles teemas antakse teavet müügihindade loomise ja haldamise protsessi kohta lahenduses Microsoft Dynamics 365 for Retail. See keskendub protsessi põhimõtetele ja müügihindade mitmesuguste konfiguratsioonivalikute mõjudele.
 
@@ -198,32 +198,6 @@ Microsoft SQL Server Expressi kasutatakse kanali andmebaasides sageli hinna tõt
 Kui määrate Microsoft Dynamics 365-s müügihinnad, siis te ei määra, kas määratav hinnaväärtus sisaldab maksu või mitte. Väärtus väljal lihtsalt hind. Kuid jaemüügikanalite säte **Hind sisaldab käibemaksu** laseb konfigureerida jaemüügikanaleid nii, et need kas lisavad hinnale maksu või mitte. See säte on määratud kanalis ja seda saab muuta isegi ühes ettevõttes.
 
 Kui töötate nii hõlmavate kui ka välistavate maksutüüpidega, on väga oluline määrata hinnad õigesti, kuna kogusumma, mille klient maksab, muutub, kui kanali sätet **Hind sisaldab käibemaksu** muudetakse.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>Sätte Hind sisaldab käibemaksu mõju finantsilistele sisestustele
-Kõiki tulu ja allahindluse kontode kohta pearaamatusse sisestatavad summasid mõjutab säte **Hind sisaldab käibemaksu**. Järgmises näites on näha, kuidas mõjutab see säte finantsilisi sisestusi.
-
-Näites räägitakse vaid müügi postitustest, kuna säte **Hind sisaldab käibemaksu** ei mõjuta kaubavaru kulu sisestusi.
-
-#### <a name="example"></a>Näide
-Selles näiteks konfigureeritakse allahindluse summad nii, et need sisestatakse tulust eraldi.
-
-Müüte 100-dollarilist toodet, mille maksumäär on 10 protsenti, ja rakendate allahindlust 5 protsenti. Kasutati järgmisi USRT demoandmete kontosid.
-
-- **Tulu:** 401100
-- **Allahindlus:** 403200
-- **Maks:** 202100
-
-**1. juhtum: ei sisalda maksu (ehk käibemaks)**
-
-- **Tulu:** 100 dollarit
-- **Allahindlus:** 5 dollarit
-- **Maks:** 9,5 dollarit (= 10 protsenti 95 dollarist)
-
-**2. juhtum: sisaldab maksu (käibemaks \[KM\])**
-
-- **Tulu:** 90 dollarit
-- **Allahindlus:** 4,5 dollarit (= 5 protsenti 90 dollarist)
-- **Maks:** 10 dollarit
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Erinevused jaemüügi hinnakujunduse ja jaemüügiga mitteseotud hinnakujunduse vahel
 Jaemüügihindade arvutamiseks kõikides kanalites (kõnekeskus, kauplus ja e-poed) kasutatakse üht hinnakujunduse mootorit. See aitab lubada ühtlustatud kaubanduse stsenaariume. 

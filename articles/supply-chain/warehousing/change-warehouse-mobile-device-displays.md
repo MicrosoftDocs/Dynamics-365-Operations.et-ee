@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Lao mobiilse seadme kuvasätted
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas seadistada mobiilse seadme kuva välimust ja vastendada kiirklahve juhtelementidega, näiteks nuppudega. 
 
@@ -89,15 +89,15 @@ Värvi valimiseks klõpsake lehel **Värvi valimine** paletti või tippige kuust
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Mobiilsete seadmetega kasutatava kuupäevavormingu määramine
 Saate laiendada iga installimise jaoks vastuvõetavate kuupäevavormingute loendit. See võimalus võib olla kasulik näiteks siis, kui soovite kasutada vormingut, mis lihtsustab töötajal mobiilsesse seadmesse kuupäevade sisestamist. Vaikevormingu määrab kasutaja vaikekeel, mis on määratud lehe **Kasutaja suvandid** väljal **Keel**. (Sama lehte kasutatakse töötaja seostamiseks kindla laotöö kasutajaga.) **Märkus.** Lao mobiilsete seadmete portaal ei kasuta lehe **Keele ja regiooni eelistused** välja **Kuupäeva, kellaaja ja numbri vorming** sätet. Kuupäevavormingu muutmiseks peate tundma Microsoft .NET Frameworki regulaaravaldisi. Lisateabe saamiseks vt jaotist [.NET Frameworki regulaaravaldised](http://go.microsoft.com/fwlink/?LinkId=391260). Kuupäevavormingute määratlemiseks redigeerige faili Dates.ini, mis asub lao mobiilsete seadmete portaali serveris asukohas Content\\Settings\\Dates.ini. Fail kasutab kuupäevavormingu määramiseks .NET-i regulaaravaldisi. Regulaaravaldis peab sisaldama allavaldisi, mis loovad nimetatud gruppe päeva, kuu ja aasta (PPKKAA) jaoks, nagu on näidatud järgmises näites.
 
-^(?&lt;day&gt;\\d{2})(?&lt;month&gt;\\d{2})(?&lt;year&gt;\\d{2})$
+^(?&lt;päev&gt;\\d{2})(?&lt;kuu&gt;\\d{2})(?&lt;aasta&gt;\\d{2})$
 
 Iga allavaldis nõuab ühte kuni kahte kohta päeva ja kuu jaoks ning ühte kuni nelja kohta aasta jaoks. Näiteks järgmine allavaldis määrab nimetatud grupi aasta kohta ja nõuab vähemalt kahte või maksimaalselt nelja numbrit.
 
-(?&lt;year&gt;\\d{2,4})
+(?&lt;aasta&gt;\\d{2,4})
 
 Saate ühes failis määrata mitu avaldist. Iga avaldis peab olema eraldi real. Esimest vastendatud avaldist kasutatakse kuupäeva sõelumiseks.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Mobiilsete seadmete konfigureerimine laotöö jaoks](configure-mobile-devices-warehouse.md)

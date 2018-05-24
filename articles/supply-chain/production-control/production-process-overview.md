@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Tootmisprotsessi ülevaade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni. 
 
@@ -78,7 +78,7 @@ Tootmistsükli järgmised etapid võivad esineda kõigi tellimusetüüpide või 
 12. **Perioodi sulgemine** – mõni kuluarvestuse põhimõte, näiteks perioodiline keskmine, omahinna tagasiarvestus, FIFO või LIFO, nõuavad varude või rahandusperioodi sulgemiseks perioodilisi tegevusi. Tavaliselt püüab süsteem esitada enne perioodide sulgemist aruande kogu materjali- ja ressursitarbimise ning ka varude ja praagi korrigeerimiste kohta. Seda aruandlust tehakse tavaliselt varude liikumise töölehtede või korrigeerimistöölehtede abil. Eesmärk on hinnata tootmisüksuste majanduslikku toimivust perioodi kohta. Mõnel juhul, kui kasutatakse pikaajalisi, üle finantsiliste aruandeperioodide ulatuvaid tootmistellimusi, kasutatakse tootmise edenemisest ja perioodi lõpu seisuga ressursitarbimisest teatamiseks tootmistöölehti.
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Tootmise tagasiside](production-feedback.md)
