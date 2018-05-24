@@ -20,33 +20,33 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f30227d90be5f957c4e23a08069c6dba9b07bb35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 60f39b19a627e9c3288f30872d237b8c0ccd8ac4
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="inventory-object-values"></a><span data-ttu-id="c7aad-103">Varuobjekti väärtused</span><span class="sxs-lookup"><span data-stu-id="c7aad-103">Inventory object values</span></span>
+# <a name="inventory-object-values"></a><span data-ttu-id="16147-103">Varuobjekti väärtused</span><span class="sxs-lookup"><span data-stu-id="16147-103">Inventory object values</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c7aad-104">Selles artiklis antakse teavet lao objekti väärtuste arvutamise kohta.</span><span class="sxs-lookup"><span data-stu-id="c7aad-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
+<span data-ttu-id="16147-104">Selles artiklis antakse teavet lao objekti väärtuste arvutamise kohta.</span><span class="sxs-lookup"><span data-stu-id="16147-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
 
-<span data-ttu-id="c7aad-105">Uus funktsioon nimega **füüsiline kogus** võimaldab näha konkreetse varuobjekti väärtusi.</span><span class="sxs-lookup"><span data-stu-id="c7aad-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
+<span data-ttu-id="16147-105">Uus funktsioon nimega **füüsiline kogus** võimaldab näha konkreetse varuobjekti väärtusi.</span><span class="sxs-lookup"><span data-stu-id="16147-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
 
-<span data-ttu-id="c7aad-106">Kuluobjekt tähistab üksuse taset, kus laoarvestus toimub.</span><span class="sxs-lookup"><span data-stu-id="c7aad-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="c7aad-107">Lisateavet kuluobjektide kohta leiate jaotisest [Kuluobjektid](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="c7aad-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
+<span data-ttu-id="16147-106">Kuluobjekt tähistab üksuse taset, kus laoarvestus toimub.</span><span class="sxs-lookup"><span data-stu-id="16147-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="16147-107">Lisateavet kuluobjektide kohta leiate jaotisest [Kuluobjektid](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="16147-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
 
-<span data-ttu-id="c7aad-108">Konkreetse varuobjekti väärtuste vaatamiseks klõpsake lehel **Kuluobjekt** valikut **Füüsiline kogus**.</span><span class="sxs-lookup"><span data-stu-id="c7aad-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="c7aad-109">Varude objekti väärtus arvutatakse järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="c7aad-109">Here is how the value of an inventory object is calculated:</span></span> 
+<span data-ttu-id="16147-108">Konkreetse varuobjekti väärtuste vaatamiseks klõpsake lehel **Kuluobjekt** valikut **Füüsiline kogus**.</span><span class="sxs-lookup"><span data-stu-id="16147-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="16147-109">Varude objekti väärtus arvutatakse järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="16147-109">Here is how the value of an inventory object is calculated:</span></span> 
 
-<span data-ttu-id="c7aad-110">Varude objekt.Väärtus = Kuluobjekt.Keskmine ühikukulu × Varude objekt.Kogus</span><span class="sxs-lookup"><span data-stu-id="c7aad-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
+<span data-ttu-id="16147-110">Varude objekt.Väärtus = Kuluobjekt.Keskmine ühikukulu × Varude objekt.Kogus</span><span class="sxs-lookup"><span data-stu-id="16147-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
 
-<span data-ttu-id="c7aad-111">Järgmises näites kirjeldatakse varude objekti ja kuluobjekti väärtuste arvutamist.</span><span class="sxs-lookup"><span data-stu-id="c7aad-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="c7aad-112">Kaubale A registreeritakse kaks toote sissetuleku sündmust:</span><span class="sxs-lookup"><span data-stu-id="c7aad-112">Two product receipt events are registered on item A:</span></span>
+<span data-ttu-id="16147-111">Järgmises näites kirjeldatakse varude objekti ja kuluobjekti väärtuste arvutamist.</span><span class="sxs-lookup"><span data-stu-id="16147-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="16147-112">Kaubale A registreeritakse kaks toote sissetuleku sündmust:</span><span class="sxs-lookup"><span data-stu-id="16147-112">Two product receipt events are registered on item A:</span></span>
 
--   <span data-ttu-id="c7aad-113">Toote sissetulek 1: kogus = 100 tk, summa = 1000.00 $, koht = 1, ladu = 11, partii nr</span><span class="sxs-lookup"><span data-stu-id="c7aad-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="c7aad-114">= B1</span><span class="sxs-lookup"><span data-stu-id="c7aad-114">= B1</span></span>
--   <span data-ttu-id="c7aad-115">Toote sissetulek 2: kogus = 50 tk, summa = 800.00 $, koht = 1, ladu = 11, partii nr</span><span class="sxs-lookup"><span data-stu-id="c7aad-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="c7aad-116">= B2</span><span class="sxs-lookup"><span data-stu-id="c7aad-116">= B2</span></span>
+-   <span data-ttu-id="16147-113">Toote sissetulek 1: kogus = 100 tk, summa = 1000.00 $, koht = 1, ladu = 11, partii nr</span><span class="sxs-lookup"><span data-stu-id="16147-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="16147-114">= B1</span><span class="sxs-lookup"><span data-stu-id="16147-114">= B1</span></span>
+-   <span data-ttu-id="16147-115">Toote sissetulek 2: kogus = 50 tk, summa = 800.00 $, koht = 1, ladu = 11, partii nr</span><span class="sxs-lookup"><span data-stu-id="16147-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="16147-116">= B2</span><span class="sxs-lookup"><span data-stu-id="16147-116">= B2</span></span>
 
-<span data-ttu-id="c7aad-117">Järgmises tabelis on kuluobjekti arvutuse tulemus.</span><span class="sxs-lookup"><span data-stu-id="c7aad-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="c7aad-118">Tulemust saab vaadata lehel **Kuluobjekt**.</span><span class="sxs-lookup"><span data-stu-id="c7aad-118">You can view the result on the **Cost object** page.</span></span>
+<span data-ttu-id="16147-117">Järgmises tabelis on kuluobjekti arvutuse tulemus.</span><span class="sxs-lookup"><span data-stu-id="16147-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="16147-118">Tulemust saab vaadata lehel **Kuluobjekt**.</span><span class="sxs-lookup"><span data-stu-id="16147-118">You can view the result on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -60,29 +60,29 @@ ms.lasthandoff: 04/13/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c7aad-119">Objekti tüüp</span><span class="sxs-lookup"><span data-stu-id="c7aad-119">Object type</span></span></th>
-<th><span data-ttu-id="c7aad-120">Kaubakood</span><span class="sxs-lookup"><span data-stu-id="c7aad-120">Item number</span></span></th>
-<th><span data-ttu-id="c7aad-121">Laoala</span><span class="sxs-lookup"><span data-stu-id="c7aad-121">Site</span></span></th>
-<th><span data-ttu-id="c7aad-122">Kogus</span><span class="sxs-lookup"><span data-stu-id="c7aad-122">Quantity</span></span></th>
-<th><span data-ttu-id="c7aad-123">Laoühik</span><span class="sxs-lookup"><span data-stu-id="c7aad-123">Inventory unit</span></span></th>
-<th><span data-ttu-id="c7aad-124">Väärtus</span><span class="sxs-lookup"><span data-stu-id="c7aad-124">Value</span></span></th>
-<th><span data-ttu-id="c7aad-125">Keskmine ühikukulu</span><span class="sxs-lookup"><span data-stu-id="c7aad-125">Average unit cost</span></span></th>
+<th><span data-ttu-id="16147-119">Objekti tüüp</span><span class="sxs-lookup"><span data-stu-id="16147-119">Object type</span></span></th>
+<th><span data-ttu-id="16147-120">Kaubakood</span><span class="sxs-lookup"><span data-stu-id="16147-120">Item number</span></span></th>
+<th><span data-ttu-id="16147-121">Laoala</span><span class="sxs-lookup"><span data-stu-id="16147-121">Site</span></span></th>
+<th><span data-ttu-id="16147-122">Kogus</span><span class="sxs-lookup"><span data-stu-id="16147-122">Quantity</span></span></th>
+<th><span data-ttu-id="16147-123">Laoühik</span><span class="sxs-lookup"><span data-stu-id="16147-123">Inventory unit</span></span></th>
+<th><span data-ttu-id="16147-124">Väärtus</span><span class="sxs-lookup"><span data-stu-id="16147-124">Value</span></span></th>
+<th><span data-ttu-id="16147-125">Keskmine ühikukulu</span><span class="sxs-lookup"><span data-stu-id="16147-125">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="c7aad-126">Kuluobjekt</span><span class="sxs-lookup"><span data-stu-id="c7aad-126">Cost object</span></span></td>
-<td><span data-ttu-id="c7aad-127">A</span><span class="sxs-lookup"><span data-stu-id="c7aad-127">A</span></span></td>
-<td><span data-ttu-id="c7aad-128">1</span><span class="sxs-lookup"><span data-stu-id="c7aad-128">1</span></span></td>
-<td><span data-ttu-id="c7aad-129">150</span><span class="sxs-lookup"><span data-stu-id="c7aad-129">150</span></span></td>
-<td><span data-ttu-id="c7aad-130">Kogus</span><span class="sxs-lookup"><span data-stu-id="c7aad-130">Pcs.</span></span></td>
-<td><p><span data-ttu-id="c7aad-131">$1800.00</span><span class="sxs-lookup"><span data-stu-id="c7aad-131">$1800.00</span></span></p></td>
-<td><p><span data-ttu-id="c7aad-132">$12.00</span><span class="sxs-lookup"><span data-stu-id="c7aad-132">$12.00</span></span></p></td>
+<td><span data-ttu-id="16147-126">Kuluobjekt</span><span class="sxs-lookup"><span data-stu-id="16147-126">Cost object</span></span></td>
+<td><span data-ttu-id="16147-127">A</span><span class="sxs-lookup"><span data-stu-id="16147-127">A</span></span></td>
+<td><span data-ttu-id="16147-128">1</span><span class="sxs-lookup"><span data-stu-id="16147-128">1</span></span></td>
+<td><span data-ttu-id="16147-129">150</span><span class="sxs-lookup"><span data-stu-id="16147-129">150</span></span></td>
+<td><span data-ttu-id="16147-130">Kogus</span><span class="sxs-lookup"><span data-stu-id="16147-130">Pcs.</span></span></td>
+<td><p><span data-ttu-id="16147-131">$1800.00</span><span class="sxs-lookup"><span data-stu-id="16147-131">$1800.00</span></span></p></td>
+<td><p><span data-ttu-id="16147-132">$12.00</span><span class="sxs-lookup"><span data-stu-id="16147-132">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="c7aad-133">Järgmises tabelis on varuobjekti arvutuse tulemus.</span><span class="sxs-lookup"><span data-stu-id="c7aad-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="c7aad-134">Tulemust saab vaadata, klõpsates nuppu **Füüsiline kogus** lehel **Kuluobjekt**.</span><span class="sxs-lookup"><span data-stu-id="c7aad-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
+<span data-ttu-id="16147-133">Järgmises tabelis on varuobjekti arvutuse tulemus.</span><span class="sxs-lookup"><span data-stu-id="16147-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="16147-134">Tulemust saab vaadata, klõpsates nuppu **Füüsiline kogus** lehel **Kuluobjekt**.</span><span class="sxs-lookup"><span data-stu-id="16147-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -98,53 +98,53 @@ ms.lasthandoff: 04/13/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c7aad-135">Objekti tüüp</span><span class="sxs-lookup"><span data-stu-id="c7aad-135">Object type</span></span></th>
-<th><span data-ttu-id="c7aad-136">Kaubakood</span><span class="sxs-lookup"><span data-stu-id="c7aad-136">Item number</span></span></th>
-<th><span data-ttu-id="c7aad-137">Laoala</span><span class="sxs-lookup"><span data-stu-id="c7aad-137">Site</span></span></th>
-<th><span data-ttu-id="c7aad-138">Ladu</span><span class="sxs-lookup"><span data-stu-id="c7aad-138">Warehouse</span></span></th>
-<th><span data-ttu-id="c7aad-139">Partii nr</span><span class="sxs-lookup"><span data-stu-id="c7aad-139">Batch No.</span></span></th>
-<th><span data-ttu-id="c7aad-140">Kogus</span><span class="sxs-lookup"><span data-stu-id="c7aad-140">Quantity</span></span></th>
-<th><span data-ttu-id="c7aad-141">Laoühik</span><span class="sxs-lookup"><span data-stu-id="c7aad-141">Inventory unit</span></span></th>
-<th><span data-ttu-id="c7aad-142">Väärtus</span><span class="sxs-lookup"><span data-stu-id="c7aad-142">Value</span></span></th>
-<th><span data-ttu-id="c7aad-143">Keskmine ühikukulu</span><span class="sxs-lookup"><span data-stu-id="c7aad-143">Average unit cost</span></span></th>
+<th><span data-ttu-id="16147-135">Objekti tüüp</span><span class="sxs-lookup"><span data-stu-id="16147-135">Object type</span></span></th>
+<th><span data-ttu-id="16147-136">Kaubakood</span><span class="sxs-lookup"><span data-stu-id="16147-136">Item number</span></span></th>
+<th><span data-ttu-id="16147-137">Laoala</span><span class="sxs-lookup"><span data-stu-id="16147-137">Site</span></span></th>
+<th><span data-ttu-id="16147-138">Ladu</span><span class="sxs-lookup"><span data-stu-id="16147-138">Warehouse</span></span></th>
+<th><span data-ttu-id="16147-139">Partii nr</span><span class="sxs-lookup"><span data-stu-id="16147-139">Batch No.</span></span></th>
+<th><span data-ttu-id="16147-140">Kogus</span><span class="sxs-lookup"><span data-stu-id="16147-140">Quantity</span></span></th>
+<th><span data-ttu-id="16147-141">Laoühik</span><span class="sxs-lookup"><span data-stu-id="16147-141">Inventory unit</span></span></th>
+<th><span data-ttu-id="16147-142">Väärtus</span><span class="sxs-lookup"><span data-stu-id="16147-142">Value</span></span></th>
+<th><span data-ttu-id="16147-143">Keskmine ühikukulu</span><span class="sxs-lookup"><span data-stu-id="16147-143">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="c7aad-144">Varuobjekt</span><span class="sxs-lookup"><span data-stu-id="c7aad-144">Inventory object</span></span></td>
-<td><span data-ttu-id="c7aad-145">A</span><span class="sxs-lookup"><span data-stu-id="c7aad-145">A</span></span></td>
-<td><span data-ttu-id="c7aad-146">1</span><span class="sxs-lookup"><span data-stu-id="c7aad-146">1</span></span></td>
-<td><span data-ttu-id="c7aad-147">11</span><span class="sxs-lookup"><span data-stu-id="c7aad-147">11</span></span></td>
-<td><span data-ttu-id="c7aad-148">B1</span><span class="sxs-lookup"><span data-stu-id="c7aad-148">B1</span></span></td>
-<td><span data-ttu-id="c7aad-149">100</span><span class="sxs-lookup"><span data-stu-id="c7aad-149">100</span></span></td>
-<td><span data-ttu-id="c7aad-150">Kogus</span><span class="sxs-lookup"><span data-stu-id="c7aad-150">Pcs.</span></span></td>
-<td><p><span data-ttu-id="c7aad-151">$1200.00</span><span class="sxs-lookup"><span data-stu-id="c7aad-151">$1200.00</span></span></p></td>
-<td><p><span data-ttu-id="c7aad-152">$12.00</span><span class="sxs-lookup"><span data-stu-id="c7aad-152">$12.00</span></span></p></td>
+<td><span data-ttu-id="16147-144">Varuobjekt</span><span class="sxs-lookup"><span data-stu-id="16147-144">Inventory object</span></span></td>
+<td><span data-ttu-id="16147-145">A</span><span class="sxs-lookup"><span data-stu-id="16147-145">A</span></span></td>
+<td><span data-ttu-id="16147-146">1</span><span class="sxs-lookup"><span data-stu-id="16147-146">1</span></span></td>
+<td><span data-ttu-id="16147-147">11</span><span class="sxs-lookup"><span data-stu-id="16147-147">11</span></span></td>
+<td><span data-ttu-id="16147-148">B1</span><span class="sxs-lookup"><span data-stu-id="16147-148">B1</span></span></td>
+<td><span data-ttu-id="16147-149">100</span><span class="sxs-lookup"><span data-stu-id="16147-149">100</span></span></td>
+<td><span data-ttu-id="16147-150">Kogus</span><span class="sxs-lookup"><span data-stu-id="16147-150">Pcs.</span></span></td>
+<td><p><span data-ttu-id="16147-151">$1200.00</span><span class="sxs-lookup"><span data-stu-id="16147-151">$1200.00</span></span></p></td>
+<td><p><span data-ttu-id="16147-152">$12.00</span><span class="sxs-lookup"><span data-stu-id="16147-152">$12.00</span></span></p></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="c7aad-153">Varuobjekt</span><span class="sxs-lookup"><span data-stu-id="c7aad-153">Inventory object</span></span></td>
-<td><span data-ttu-id="c7aad-154">A</span><span class="sxs-lookup"><span data-stu-id="c7aad-154">A</span></span></td>
-<td><span data-ttu-id="c7aad-155">1</span><span class="sxs-lookup"><span data-stu-id="c7aad-155">1</span></span></td>
-<td><span data-ttu-id="c7aad-156">11</span><span class="sxs-lookup"><span data-stu-id="c7aad-156">11</span></span></td>
-<td><span data-ttu-id="c7aad-157">B2</span><span class="sxs-lookup"><span data-stu-id="c7aad-157">B2</span></span></td>
-<td><span data-ttu-id="c7aad-158">50</span><span class="sxs-lookup"><span data-stu-id="c7aad-158">50</span></span></td>
-<td><span data-ttu-id="c7aad-159">Kogus</span><span class="sxs-lookup"><span data-stu-id="c7aad-159">Pcs.</span></span></td>
-<td><p><span data-ttu-id="c7aad-160">$600.00</span><span class="sxs-lookup"><span data-stu-id="c7aad-160">$600.00</span></span></p></td>
-<td><p><span data-ttu-id="c7aad-161">$12.00</span><span class="sxs-lookup"><span data-stu-id="c7aad-161">$12.00</span></span></p></td>
+<td><span data-ttu-id="16147-153">Varuobjekt</span><span class="sxs-lookup"><span data-stu-id="16147-153">Inventory object</span></span></td>
+<td><span data-ttu-id="16147-154">A</span><span class="sxs-lookup"><span data-stu-id="16147-154">A</span></span></td>
+<td><span data-ttu-id="16147-155">1</span><span class="sxs-lookup"><span data-stu-id="16147-155">1</span></span></td>
+<td><span data-ttu-id="16147-156">11</span><span class="sxs-lookup"><span data-stu-id="16147-156">11</span></span></td>
+<td><span data-ttu-id="16147-157">B2</span><span class="sxs-lookup"><span data-stu-id="16147-157">B2</span></span></td>
+<td><span data-ttu-id="16147-158">50</span><span class="sxs-lookup"><span data-stu-id="16147-158">50</span></span></td>
+<td><span data-ttu-id="16147-159">Kogus</span><span class="sxs-lookup"><span data-stu-id="16147-159">Pcs.</span></span></td>
+<td><p><span data-ttu-id="16147-160">$600.00</span><span class="sxs-lookup"><span data-stu-id="16147-160">$600.00</span></span></p></td>
+<td><p><span data-ttu-id="16147-161">$12.00</span><span class="sxs-lookup"><span data-stu-id="16147-161">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a><span data-ttu-id="c7aad-162">Vt ka</span><span class="sxs-lookup"><span data-stu-id="c7aad-162">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="16147-162">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="16147-162">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="c7aad-163">Kuluobjektid</span><span class="sxs-lookup"><span data-stu-id="c7aad-163">Cost objects</span></span>](cost-object.md)
+[<span data-ttu-id="16147-163">Kuluobjektid</span><span class="sxs-lookup"><span data-stu-id="16147-163">Cost objects</span></span>](cost-object.md)
 
-[<span data-ttu-id="c7aad-164">Kulukirjed</span><span class="sxs-lookup"><span data-stu-id="c7aad-164">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="16147-164">Kulukirjed</span><span class="sxs-lookup"><span data-stu-id="16147-164">Cost entries</span></span>](cost-entries.md)
 
-[<span data-ttu-id="c7aad-165">Mis on uus ja muudetud</span><span class="sxs-lookup"><span data-stu-id="c7aad-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="16147-165">Mis on uus ja muudetud</span><span class="sxs-lookup"><span data-stu-id="16147-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
 
 
 
