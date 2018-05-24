@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 703070ae85f504cf204244b2197732dc6849abd6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Tootmistellimuse kulu analüüs
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis käsitletakse kuluanalüüsi, mida saab teha lõpetatud ja jooksvate tootmistellimuste puhul. Saate analüüsida eeldatavaid kulusid ja tegelikke kulusid, kasutades lehte Hinnakalkulatsioon või aruannet Kuluhinnangud ja omahind. Saate vaadata hinnanguliste ja tegelike kulude (ja koguste) teavet iga komponendi rea, protsessitoimingu ja kaudse kulu kohta.
 
@@ -59,10 +59,10 @@ Eraldiolevad aruanded kajastavad iga kandetüübi teavet. Kasutage neid aruandei
 -   **Pooleliolevad lõpetatud kaubad**− see aruanne loetleb määratud kuupäevaga praegused tootmistellimused lõpetatuna kinnitatud kanded.
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
-[Tootmishälvete üldpõhjused](common-sources-of-production-variances.md)
+[Tootmishälvete tavalised allikad](common-sources-of-production-variances.md)
 
 
 

@@ -3,27 +3,28 @@ title: Sortimendi haldus
 description: "Selles teemas selgitatakse sortimendi halduse põhikontseptsioone rakenduses Microsoft Dynamics 365 for Retail ja esitatakse juurutamise kaalutlusi teie projekti jaoks."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Sortimendi haldus
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Ülevaade
 Microsoft Dynamics 365 for Retail pakub *sortimente*, mis võimaldavad teil hallata toote saadavust kanalite lõikes. Sortimendid määratlevad, millised tooted on konkreetsetes kauplustes ja millise perioodi jooksul saadaval.
@@ -35,25 +36,25 @@ Kanali üldine tootevalik määratletakse kanalile määratud avaldatud sortimen
 ### <a name="basic-assortment-setup"></a>Sortimendi põhiseadistus
 Järgmises näites on iga kaupluse jaoks konfigureeritud kordumatu sortiment. Sel juhul on kaupluses 1 saadaval ainult toode 1 ja kaupluses 2 on saadaval ainult toode 2.
 
-![Iga toode on saadaval ühes kaupluses](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Iga toode on saadaval ühes kaupluses")
+![Iga toode on ühes kaupluses saadaval](./media/Managing-assortments-figure1.png)
 
 Et toode 2 oleks saadaval kaupluses 1, saate toote lisada sortimenti 1.
 
-![Toode 2 lisatud sortimenti 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "Toode 2 lisatud sortimenti 1")
+![Toode 2 lisati sortimenti 1](./media/Managing-assortments-figure2.png)
 
 Teise võimalusena saate lisada kaupluse 1 sortimenti 2.
 
-![Kauplus 1 lisatud sortimenti 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "Kauplus 1 lisatud sortimenti 2")
+![Kauplus 1 lisati sortimenti 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organisatsiooni hierarhiad
 Olukordades, kus mitu kanalit jagavad samu tootesortimente, saate sortimentide konfigureerimiseks kasutada Retaili sortimendi organisatsiooni hierarhiat. Kui hierarhia sõlmed on lisatud, kaasatakse kõik vastavas sõlmes ja selle alamsõlmedes olevad kanalid.
 
-![Organisatsiooni hierarhia](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Organisatsiooni hierarhia")
+![Organisatsiooni hierarhia](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Tootekategooriad
 Samuti saate toote poolel lisada tootegruppe, kasutades tootekategooria hierarhiaid. Saate konfigureerida sortimente, lisades ühe või mitu kategooria hierarhia sõlme. Sel juhul sisaldab sortiment kõiki tooteid, mis on selles kategooriasõlmes ja selle alamsõlmedes.
 
-![Tootekategooriad](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Tootekategooriad")
+![Tootekategooriad](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Välja jäetud tooted või kategooriad
 Lisaks toodete ja kategooriate kaasamisele sortimentidesse saate kasutada suvandit Välista, et määratleda konkreetseid kaupu või kategooriad, mis tuleks sortimentidest välistada. Järgmises näites soovite kaasata kõik konkreetses kategoorias olevad tooted, välja arvatud toote 2. Sel juhul ei pea te määratlema sortimendi tooteid toodete kaupa või looma täiendavaid kategooriasõlmi. Selle asemel saate lihtsalt lisada kategooria ja toote välja jätta.
@@ -61,7 +62,7 @@ Lisaks toodete ja kategooriate kaasamisele sortimentidesse saate kasutada suvand
 > [!NOTE]
 > Kui toode on määratluse järgi ühte või mitmesse sortimenti korraga nii kaasatud kui ka sortimendist välja jäetud, loetakse toode alati välja jäetuks.
 
-![Välja jäetud toode](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Välja jäetud toode")
+![Välistatud tooted](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Üldised ja väljastatud tooted
 Sortimente määratletakse üldisel tasemel ja need võivad sisaldada mitme juriidilise isiku kanaleid. Ka sortimentidesse kaasatud tooteid ja kategooriaid jagatakse juriidiliste isikute vahel. Siiski tuleb toode enne väljastada, kui seda saab kanalil reaalselt müüa, tellida, loendada või vastu võtta (näiteks kassas \[POS\]). Seetõttu, kuigi kaks kauplust erinevates juriidilistes isikutes saavad samu tooteid sisaldavat sortimenti jagada, on tooted saadaval alles siis, kui need on nendesse juriidilistesse isikutesse vabastatud.

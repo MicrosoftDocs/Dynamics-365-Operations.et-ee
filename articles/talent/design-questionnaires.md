@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 506c4db7cd37fd85b3e132e7900eafdc4385fa5a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cc25f4fde93df03145baedafb9c6b093659594d0
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="design-a-questionnaire"></a>Küsimustiku kujundamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 See teema kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
 
@@ -230,7 +230,7 @@ Juriidiline isik pakub oma klientidele nii kaupu kui ka teenuseid. Nagu selliste
 
 Teine võimalus on seadistada küsimustik nii, et kui vastaja valib küsimusele 1 vastuse A, on küsimus 2 küsimuste järjekorras järgmine. Kuid kui vastaja valib küsimuse 1 puhul vastuse B, on järgmine küsimus 5.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Küsimustike kasutamine](questionnaires.md)

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a>Finantsaruande loomine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema sisaldab finantsaruande koostamise üldteavet. 
 
@@ -155,16 +155,16 @@ Puuduva konto analüüsi käivitamisel on saadaval järgmised kiirklahvid.
 | Valitud koosteüksuse välistamine  | Alt+X                      |
 | Valitud reamääratluse välistamine  | Ctrl+B                     |
 | Valitud dimensiooniväärtuse välistamine | Ctrl+D                     |
-| Valitud aruande definitsiooni avamine  | Ctrl+R                     |
-| Valitud readefinitsiooni avamine     | Ctrl+O                     |
+| Valitud aruandemääratluse avamine  | Ctrl+R                     |
+| Valitud reamääratluse avamine     | Ctrl+O                     |
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Finantsaruandlus](financial-reporting-intro.md)
 
-[Aruande kujundaja liides](report-designer-interface.md)
+[Aruandekoosturi liides](report-designer-interface.md)
 
 
 

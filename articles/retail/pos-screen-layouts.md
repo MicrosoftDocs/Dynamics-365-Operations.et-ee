@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>Kassa ekraanipaigutuste konfigureerimine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili jaemüügikassa ekraanipaigutusi.
 
@@ -89,12 +89,12 @@ Iga paigutuse suurust ekraanipaigutuses tuleb konfigureerida ekraanipaigutuse ku
 
 **Pilt** – pildi juhtelementi saab kasutada kaupluse logo või muu tootjakohanduse teabe kuvamiseks kandekuval. Pildi juhtelement on saadaval ainult täispaigutuste puhul. 
 
-**Soovitatud tooted** – kui soovitatud toodete juhtelement on keskkonna jaoks konfigureeritud, näitab see masinõppel põhinevaid tootesoovitusi. Dynamics 365 for Retaili versioonis 1611 on soovitatud toodete juhtelement saadaval ainult täispaigutuste puhul. **Kohandatud juhtelement **– kohandatud juhtelement toimib ekraanipaigutuses kohatäitena, mis võimaldab kasutajatel kohandatud sisu jaoks ruumi reserveerida. Kohandatud juhtelement on saadaval ainult täispaigutuste puhul.
+**Soovitatud tooted** – kui soovitatud toodete juhtelement on keskkonna jaoks konfigureeritud, näitab see masinõppel põhinevaid tootesoovitusi. Dynamics 365 for Retaili versioonis 1611 on soovitatud toodete juhtelement saadaval ainult täispaigutuste puhul. **Kohandatud juhtelement**– kohandatud juhtelement toimib ekraanipaigutuses kohatäitena, mis võimaldab kasutajatel kohandatud sisu jaoks ruumi reserveerida. Kohandatud juhtelement on saadaval ainult täispaigutuste puhul.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
-[Jaemüügikassa paigutuse kujundaja installimine](install-pos-layout-designer.md)
+[Retail POS-i paigutuse kujundaja installimine](install-pos-layout-designer.md)
 
 
 

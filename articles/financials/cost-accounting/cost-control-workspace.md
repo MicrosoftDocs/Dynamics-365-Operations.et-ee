@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>Kulujuhtimise ülevaade 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Kulujuhtimise** tööruum on keskne punkt, kus juhid, kes vastutavad kuluobjekti või kuluobjektide kogumi kontrollimise eest dimensioonis või dimensioonide lõikes (nt kulukeskused ja tooterühmad), aruannetele juurde pääsevad. Tööruumis olevaid aruandeid haldavad täielikult kuluarvestajad, et aruandluseks kasutatav paigutus ja andmed oleksid terve organisatsiooni lõikes järjepidevad.
 
@@ -154,7 +154,7 @@ Järgmises näites on eraldamisaluse tüüp **Valemi eraldamisalus** ja on kuvat
 
 ![Arvutused kuluobjekti kohta](./media/cost-entries-allocation-base.png)
 
-Vt ka 
+Lisaressursid 
 
 [Kuluobjekti kontrollijate pääsuõiguste määratlemine](access-rights-cost-object-controller.md)
 

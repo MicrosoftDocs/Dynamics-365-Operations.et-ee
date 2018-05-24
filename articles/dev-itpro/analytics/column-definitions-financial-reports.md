@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.
 
@@ -583,7 +583,7 @@ Saate luua veeru, mis kuvaks määratud veerus kõik väärtused baasarvu protse
 
 Saate veeru summa jagada määratud perioodide arvuga. Näiteks valem **B/Periods** jagab veeru B väärtuse veerus B olevate perioodide arvuga. Kui arvutus hõlmab mitut veergu, määrake arvutamisel kasutatavate perioodide arv. Näiteks valem **(B+C)/Periods** liidab veeru B ja veeru C summad ja jagab seejärel tulemuse perioodi väärtusega.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Readefinitsioonid finantsaruandluses](row-definitions-financial-reporting.md)

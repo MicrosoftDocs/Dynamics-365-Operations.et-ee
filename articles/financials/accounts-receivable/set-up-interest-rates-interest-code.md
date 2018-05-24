@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Intressikoodile intressimäära seadistamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Intressikoodid sisaldavad sätteid, mis määratlevad, millal intressi võetakse ja kuidas seda arvutatakse tähtaja ületanud arvete puhul.
 
@@ -56,7 +56,7 @@ Näiteks intressikoodi seadistamiseks, mis määrab 5 protsenti intressi iga kah
 Saate seadistada intressimäärad, mis arvutavad määratud summa valuuta kaupa.
 - Intressi summa määratakse iga intressikoodi valuuta jaoks.
 - Sisestada saab valikulisi intressisumma limiite.
-- <strong>Summa **valitakse väljal **Intressi arvutusalus:</strong> lehel <strong>Intressikoodide seadistamine</strong>.
+- **Summa** valitakse väljal **Intressi arvutusalus** lehel **Intressikoodide seadistamine**.
 
 Näiteks intressikoodi seadistamiseks, mis määrab 25,00 protsenti intressi iga 20 päeva eest, mille võrra arve makse ületab kande tähtaega, tuleks sisestada 20 väljale **Arvuta intress iga** ja valida **Päev**.
 

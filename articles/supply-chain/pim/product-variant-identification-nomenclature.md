@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Tootevariandi numbrite ja nimede nomenklatuur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud vormingu [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] asendamiseks. Uuel nomenklatuuril on sihipärane vorming, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja teie valitud teksti eraldajaid. Nomenklatuuri saab luua ka tootenimede kohta. Lõpuks saab koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute.
 
@@ -192,10 +192,10 @@ Olenevalt nomenklatuurist võib süsteem püüda määrata konfiguratsioonile mi
 
 Ühe konfiguratsiooniprotsessi etapi ajal soovitab süsteem nomenklatuurile vastavat konfiguratsiooniväärtust. Selles etapis saate konfiguratsiooniväärtust käsitsi muuta. Konfiguratsiooni salvestamisel kontrollib süsteem, kas konfiguratsiooniväärtus on kordumatu. Kui sisestatud väärtus ei ole kordumatu, saate tõrketeate. Konfiguratsiooni salvestamiseks peate sisestama kordumatu konfiguratsiooniväärtuse.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
-[Tootenumbri nomenklatuuri loomine eelmääratletud tootevariantidele](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
+[Tootenumbri nomenklatuuri loomine eelmääratletud tootevariantide jaoks](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Kaubakoodi nomenklatuuri loomine konfigureeritud tootevariantidele](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 

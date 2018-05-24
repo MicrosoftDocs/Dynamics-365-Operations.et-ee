@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 1863814d6dd645da8602495858d024fbad2e7149
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -95,4 +95,16 @@ Lisaks arve päises kuvamisele, saab **välise arve numbri** teavet kasutada, ai
 Veenduge, et välja **Põhikonto kuvatav väärtus** vaikeväärtus rakenduses Finance and Operations värskendatakse soovitud väärtusega sobivaks.
 
 Malli vaikeväärtus on **401100**.
+
+## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
+
+Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Lepingu arved (Field Service’ist Fin and Opsi): arve päised
+
+[![Malli vastendamine andmete integratsioonis](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Lepingu arved (Field Service’ist Fin and Opsi): arve read
+
+[![Malli vastendamine andmete integratsioonis](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 

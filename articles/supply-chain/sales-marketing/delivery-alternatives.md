@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Tarne alternatiivid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Müügitellimuse vastuvõtjad saavad alternatiivsete tellimuse täitmise valikute uurimiseks kasutada lehte Tarnealternatiivid.
+Müügitellimuse vastuvõtjad saavad alternatiivsete tellimuse täitmise valikute uurimiseks kasutada lehte **Tarne alternatiivid**.
 
-Microsoft Dynamicsi 365 for Operations versioonis 1611 (november 2016) saavad müügitellimuse vastuvõtjad alternatiivsete tellimuse täitmise valikute uurimiseks kasutada lehte **Tarnealternatiivid**. Ümberkujundatud lehepaigutus annab alternatiivsetest valikutest parema ülevaate. See võimaldab tellimuse vastuvõtjatel vaadata täitmise võimalusi ka praegusest ettevõttest väljaspool. Nüüd saavad nad vaadata nii kontsernisiseseid kui ka väliste hankijate pakutavaid võimalusi. Valikute sortimiseks tarnekuupäeva järgi saavad müügitellimuste vastuvõtjad vaadata tarnealternatiivide arukat loendit. Peale selle aitavad parameetrid neil soovitatud tarneid paremini hallata. Kuna transpordiaeg võib mõjutada tarnekuupäevi, saavad müügitellimuse vastuvõtjad uurida vedajate pakutavaid erinevaid transpordivalikuid. Kuna iga soovituse kohta kuvatakse üksikasjalikku teavet, saavad tellimuste vastuvõtjad teha teadlikke otsuseid otse lehel **Tarnealternatiivid**.
+Lehepaigutus **Tarne alternatiivid** annab ülevaate alternatiivsetest valikutest. See võimaldab tellimuse vastuvõtjatel vaadata täitmise võimalusi ka praegusest ettevõttest väljaspool. Nüüd saavad nad vaadata nii kontsernisiseseid kui ka väliste hankijate pakutavaid võimalusi. Valikute sortimiseks tarnekuupäeva järgi saavad müügitellimuste vastuvõtjad vaadata tarnealternatiivide arukat loendit. Peale selle aitavad parameetrid neil soovitatud tarneid paremini hallata. Kuna transpordiaeg võib mõjutada tarnekuupäevi, saavad müügitellimuse vastuvõtjad uurida vedajate pakutavaid erinevaid transpordivalikuid. Kuna iga soovituse kohta kuvatakse üksikasjalikku teavet, saavad tellimuste vastuvõtjad teha teadlikke otsuseid otse lehel **Tarnealternatiivid**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Lehe Tarnealternatiivid avamine
-Saate avada lehe **Tarne** **alternatiivid** müügitellimuse realt.
+Lehe **Tarne alternatiivid** saate avada müügitellimuse realt.
 
 1.  Klõpsake valikuid **Tooted ja tarne** &gt; **Tarnealternatiivid**.
 2.  Klõpsake valikuid **Rea üksikasjad** &gt; **Tarne** &gt; **Tarnealternatiivid**.
@@ -146,7 +146,7 @@ Selle vahekaardi teave on seotud valitud tarnealternatiivi reaga. Olenevalt mü�
 
 Sellel vahekaardil on toodud esile valitud tarnealternatiivi mõju. Kui klõpsate **OK**, värskendatakse müügirida VALITUD veergudel esiletõstetud väärtustega. Pange tähele, et kui valitud tarnealternatiivi kogus on väiksem kui müügirea kogus, luuakse tarnegraafik ja tellimuserida tükeldatakse kaheks reaks: üks rida valitud koguse jaoks ja teine rida ülejäänud koguse jaoks. Saate värskendada ka äriandmete rida, et see vastaks graafiku ridadele ja mõjutaks hinda.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Tellimuse lubamine](delivery-dates-available-promise-calculations.md)

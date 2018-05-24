@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Eelarve plaanimise integreerimine muude moodulitega
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Eelarveplaane saab luua mitmest erinevast ressursist. Perioodilise protsessi põhielemendid on kõikide ressursside puhul samad. 
 
@@ -68,7 +68,7 @@ Suvand **Ajalooline** vahekaardil **Sihtkoht** võimaldab teil kasutada lähtean
 
 Lehe ülaosas olev väli **Kogusumma liitmine** määrab samuti kasutatud kuupäeva. See väli võtab summad kokku ja määrab valikuliselt rahandusaasta või rahandusperioodi esimesele päevale jõustusmikuupäeva. 
 
-Paljud väljad vahekaardil <strong>Sihtkoht</strong> muutuvad redigeeritavaks või kirjutuskaitstuks olenevalt valitud tegevusest. Kui lähete uue eelarveplaani loomiselt üle olemasoleva plaani värskendamisele, muutub väli <strong>Eelarveplaani nimi</strong> kättesaamatuks ja olemasoleva plaani valimisega seotud väljad muutuvad kättesaadavaks. Vahekaardil <strong>Sihtkoht</strong> ja <strong>Allikas</strong> on väli **Pearaamat** alati kättesaamatu, sest väärtuse määrab valitud eelarve plaanimise protsess. 
+Paljud väljad vahekaardil <strong>Sihtkoht</strong> muutuvad redigeeritavaks või kirjutuskaitstuks olenevalt valitud tegevusest. Kui lähete uue eelarveplaani loomiselt üle olemasoleva plaani värskendamisele, muutub väli **Eelarveplaani nimi** kättesaamatuks ja olemasoleva plaani valimisega seotud väljad muutuvad kättesaadavaks. Vahekaartidel **Sihtkoht** ja **Allikas** on väli **Pearaamat** alati kättesaamatu, sest väärtuse määrab valitud eelarve plaanimise protsess. 
 
 Väli **Eelarveklass** võimaldab teil määrata eelarveplaani ridu kas kulu- või tulukannetena. Tavaliselt on tulukanded krediidid pearaamatukontole ja seetõttu on need talletatud negatiivsete summadena. Tavaliselt ilmuvad need kanded ka eelarveplaani negatiivsete summadena. Kuid lisades eelarveklassi plaani paigutuse väljana saate lubada tulu kuvamise positiivsete summadena.
 

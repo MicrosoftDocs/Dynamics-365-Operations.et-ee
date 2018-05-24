@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab12a55e41cd32c2479eb46796de57926652942f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ba9025aa5394b29bdba80e589c77fa4bd2bd47f
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uus või muutunud rakenduses Dynamics AX 7.0 (veebruar 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Artikkel kirjeldab funktsioone, mis on Microsoft Dynamics AX 7.0-s kas uued või muudetud. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016.
 
@@ -536,7 +536,7 @@ Uusi funktsioone ei ole lisatud.
 </tr>
 <tr class="odd">
 <td>(EL) Saate registreerida Intrastatis koguse täiendavates ühikutes, kasutades ühiku teisendamise seadistust.</td>
-<td>Intrastati kaubakoodil on tekstiväli täiendavate ühikute tähistamiseks ja kaardil **Toode** on väli täiendavate ühikute koguse näitamiseks kilogrammides.</td>
+<td>Intrastati kaubakoodil on tekstiväli täiendavate ühikute tähistamiseks ja kaardil<strong> Toode</strong> on väli täiendavate ühikute koguse näitamiseks kilogrammides.</td>
 <td>Intrastati kaubakoodi täiendavad ühikud valitakse ühikute loendist. Täiendavate ühikute kogus arvutatakse ühiku teisendussätete kaudu.</td>
 <td>See ühtlustab kandeühikutest täiendavateks ühikuteks ümberarvutamise lähenemise.</td>
 </tr>
@@ -569,7 +569,7 @@ Uusi funktsioone ei ole lisatud.
 |                                                                                                                            |                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Mida saate teha?**                                                                                                       | **Dynamics AX 2012**                                                                                                                                                                                                                                                                          | **Dynamics AX 7.0**                                                                                                                                                                                                                                                                                                                                               | **Miks on see oluline?**                                                                                                                              |
-| Hoiatage kasutajat, kui müügitellimus või tootmistellimus pole plaanitud kuupäevaks tarnimiseks valmis.                         | Koondplaneerimise loodud hoiatusi nimetatakse *tulevaste teadeteks*. *Tulevased* on kahe poole vaheline leping vara ostmiseks või müümiseks hinna eest, mis on täna kokku lepitud (*tulevane hind*), kuigi tarne ja maksmine toimuvad tulevikus (*tarnekuupäeval*). | *Tähtajateated* ja *tähtajakuupäevad* on vastavalt ümber nimetatud *arvutatud hilinemisteks* ja *hilinenud kuupäevadeks*                                                                                                                                                                                                                                                   | AX 2012-s kasutatud terminoloogia oli ebatäpne ja põhjustas valesid tõlkeid.                                                               |
+| Hoiatage kasutajat, kui müügitellimus või tootmistellimus pole plaanitud kuupäevaks tarnimiseks valmis.                         | Koondplaneerimise loodud hoiatusi nimetatakse *tulevaste teadeteks*. *Tulevased* on kahe poole vaheline leping vara ostmiseks või müümiseks hinna eest, mis on täna kokku lepitud (*tulevane hind*), kuigi tarne ja maksmine toimuvad tulevikus (*tarnekuupäeval*). | *Tulevaste teated* ja *tulevaste kuupäevad* on nimetatud ümber *arvutatud hilinemisteks* ja *hilinemise kuupäevadeks*.                                                                                                                                                                                                                                                   | AX 2012-s kasutatud terminoloogia oli ebatäpne ja põhjustas valesid tõlkeid.                                                               |
 | Saate kiirülevaateid koondplaneerimise tsükli olekust, pakilistest plaanitud tellimustest ja hilinemisi põhjustavatest plaanitud tellimustest. | Teave on saadaval, kuid see on hajutatud mitme vormi vahel.                                                                                                                                                                                                                       | Tööruum **Koondplaneerimine** annab kiiresti teavet selle kohta, millal viimane koondplaneerimise tsükkel lõppes, kas ilmnes tõrkeid, millised on pakilised plaanitud tellimused ja millised plaanitud tellimused põhjustavad hilinemisi.                                                                                                                                   | Saate kasutada tööruumi antavat ülevaadet. Sobivad andmed on kokku pandud, juhendades koondplaneerimist ja aidates produktiivsust parandada. |
 | Kasutage Excelit nõudluse prognooside värskendamiseks.                                                                                      | Pole saadaval                                                                                                                                                                                                                                                                                 | Saate kasutada sujuvat integratsiooni Exceliga, kui sisestate nõudluse prognoose, teete uuendusi ja kustutate nõudluse prognoose.                                                                                                                                                                                                                             | See aitab tõhusust ja produktiivsust suurendada.                                                                                                          |
 | Saate tulevast nõudlust hinnata ja luua varasemate kandeandmete põhjal nõudluse prognoose.                                  | Rakenduses Microsoft Dynamics AX 2012 R3 kasutatakse nõudluse prognooside koostamiseks Microsoft SQL Serveri analüüsiteenuse prognoosimudeleid.                                                                                                                                                | Saate prognoosida tulevast nõudlust, kasutades Microsoft Azure’i masinõppe pilveteenuse jõudu ja laiendatavust. Masinõppe prognoosimudeleid on kliendi vajaduste rahuldamiseks lihtne kasutada ja laiendada. Teenus valib parima sobiva mudeli ja pakub tulemuslikkuse võtmenäitajaid (KPI-sid), mida saab kasutada prognoosi täpsuse arvutamiseks. | Saate koostada masinõppe tehnikate abil täpsemaid prognoose.                                                                              |
@@ -1081,7 +1081,7 @@ Uusi funktsioone ei ole lisatud.
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Mida on uut või muudetud?](whats-new-changed.md)

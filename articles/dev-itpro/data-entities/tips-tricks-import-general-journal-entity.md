@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 688fa17072cb340d6d02be31528339fb98601825
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eea226fae902c19d66aff83b7ee2786d1586ef39
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Parimad tavad kannete importimiseks üldise töölehe üksust kasutades
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.  
 
@@ -57,7 +57,7 @@ Järgmistes jaotistes kirjeldatakse nende sätete mõju ja selgitatakse, kuidas 
 
 ### <a name="voucher-number"></a>Kande number
 
--   Kui kasutate päevaraamatu üksuse seadistust **Kogumipõhine töötlemine**, tuleb imporditud failis esitada kande number. Igale päevaraamatu kandele määratakse imporditud failis antud kande number, isegi kui kanne pole tasakaalustatud. Kui soovite kasutada komplektipõhist töötlemist, kuid soovite kasutada ka numbriseeriat, mis on kandenumbritele määratletud, on 2016. aasta veebruari väljalaske jaoks tehtud kiirparandus. Kiirparanduse number on 3170316 ja selle saab laadida alla teenusest Lifecycle Services (LCS). Lisateavet leiate jaotisest [Kiirparanduste allalaadimine teenusest Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+-   Kui kasutate päevaraamatu üksuse seadistust **Kogumipõhine töötlemine**, tuleb imporditud failis esitada kande number. Igale päevaraamatu kandele määratakse imporditud failis antud kande number, isegi kui kanne pole tasakaalustatud. Kui soovite kasutada komplektipõhist töötlemist, kuid soovite kasutada ka numbriseeriat, mis on kandenumbritele määratletud, on 2016. aasta veebruari väljalaske jaoks tehtud kiirparandus. Kiirparanduse number on 3170316 ja selle saab laadida alla teenusest Lifecycle Services (LCS). Lisateavet leiate jaotisest [Kiirparanduste allalaadimine teenusest Lifecycle Services](../migration-upgrade/download-hotfix-lcs.md).
     -   Selle funktsiooni lubamiseks määrake töölehe nimel, mida importimisteks kasutatakse, valiku **Numbrite eraldamine sisestamisel** väärtuseks **Jah**.
     -   Imporditud failis tuleb sellegipoolest kandenumber määratleda. Kuid see number on ajutine ja kandenumber kirjutab selle töölehe sisestamisel üle. Peate veenduma, et töölehe read oleksid ajutise kandenumbriga õigesti grupeeritud. Näiteks sisestamise käigus leitakse kolm rida, millel on ajutine kandenumber 1. Kõigi kolme rea ajutine kandenumber kirjutatakse numbriseerias üle järgmise numbriseerias oleva numbriga. Kui need kolm rida ei ole tasakaalustatud kirje, siis kannet ei sisestata. Järgmiseks, kui leitakse ridu, mille ajutine kandenumber on 2, kirjutab selle numbri üle numbriseeria järgmine kandenumber jne.
 

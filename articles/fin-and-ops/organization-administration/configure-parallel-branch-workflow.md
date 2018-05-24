@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 41bd03757a347a1b5f189bd50dae2545baaddf20
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d0e45f4a6b1f6bcf94103dbcf4a8ca01457dc85d
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Töövoos paralleelharu konfigureerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Paralleelharu konfigureerimiseks viige töövooredaktoris lõpule järgmised protseduurid.
 
@@ -47,7 +47,7 @@ Järgige neid juhiseid, et kujundada ja konfigureerida paralleelharu elemendid.
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Töövoo loomine](create-workflow.md)

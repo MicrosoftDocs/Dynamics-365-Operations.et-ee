@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a>Hankija koostöö klientidega
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema kirjeldab, kuidas saate kasutada hankija koostööd, et töötada klientidega rakenduses Microsoft Dynamics 365 for Finance and Operations. Hankijad saavad äriprotsesse lõpule viia järgmistes tööruumides.
 
@@ -141,7 +141,7 @@ Hankijana on teil juurdepääs osale teabest, mida klient säilitab hankija koon
 
 Juurdepääsetav teave on järgmine: hankija nimi; aadress; kontaktandmed; kontaktisikud ja nende kontaktteave; ID-numbrid; maksu registreerimisnumbrid; hankekategooriad, mille klient on hankija puhul kinnitanud, ja sertide teave.
 
-## <a name="see-also"></a>Vt ka
+## <a name="additional-resources"></a>Lisaressursid
 
 [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md)
 

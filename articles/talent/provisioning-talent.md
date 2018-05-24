@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Rakenduse Microsoft Dynamics 365 for Talent ettevalmistamine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 See teema selgitab uue tootmiskeskkonna ettevalmistuse protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks. See teema eeldab, et olete ostnud rakenduse Talent pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuur (AE) kaudu. Kui teil on lahenduse Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Talent teenuseplaani ja te ei saa selles teemas olevaid etappe läbida, võtke ühendust toega.
 
@@ -54,17 +54,18 @@ Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.
     > Olemasolevate keskkondade vaatamiseks või uute keskkondade loomiseks peab Talenti ettevalmistavale rentnikuadministraatorile olema määratud PowerApps P2 litsents. Kui teie organisatsioonil ei ole PowerApps P2 litsentsi, saate selle oma CSP-lt või [PowerAppsi hinnakujunduse lehelt](https://powerapps.microsoft.com/en-us/pricing/).
 
 4. Valige **Lisa** ja seejärel valige keskkond, milles Talenti ette valmistada.
-5. Valige **Jah**, et nõustuda tingimustega ja alustada juurutamist.
+5. Kui soovite, et keskkonnas kasutataks samu demoandmete kogumit, mida kasutati Talenti proovikeskkonnas, siis valige suvand Kaasa demoandmed.  See on kasulik pikaajalistes demo- või koolituskeskkondades, kuid seda ei tohiks kunagi tootmiskeskkondade jaoks kasutada.  Pange tähele, et see suvand tuleb valida algsel juurutusel ja hiljem ei saa olemasolevat juurutust värskendada.
+6. Valige **Jah**, et nõustuda tingimustega ja alustada juurutamist.
 
     Teie uus keskkond kuvatakse vasakul oleval navigeerimispaanil asuvas keskkondade loendis. Kuid te ei saa keskkonda kasutada enne, kui juurutuse olekuks on värskendatud **Juurutatud**. See protsess võtab tavaliselt paar minutit aega. Kui ettevalmistuse protsess ei õnnestu, peate võtma ühendust toega.
 
-6. Valige oma uue keskkonna kasutamiseks suvand **Logi Talentisse sisse**.
+7. Valige oma uue keskkonna kasutamiseks suvand **Logi Talentisse sisse**.
 
 > [!NOTE]
 > Kui te pole veel lõplikke nõudeid kinnitanud, saate projektis juurutada Talenti testeksemplari. Seejärel saate oma lahenduse testimiseks kuni kinnitamiseni kasutada seda testeksemplari. Kui kasutate oma uut keskkonda testimiseks, peate tootmiskeskkonna loomiseks seda protseduuri kordama.
 
 > [!NOTE]
-> Talenti keskkonnad, mille ettevalmistus toimub läbi LCS-i, ei sisalda demoandmed, mis on konfigureeritud inimressursside tegevustele või mis on Talentile omased. Kui vajate demoandmed sisaldavat keskkonda, on soovitatav registreerida tasuta 60-päevasele [Talenti proovikeskkonna](https://dynamics.microsoft.com/en-us/talent/overview/) kasutamisele. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi Core HR-i süsteemiadministratsiooni kogemuse. Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Need pole mõeldud kasutamiseks tootmiskeskkonnana. Pange tähele, et proovikeskkonna aegumisel 60 päeva möödudes kustutatakse kõik selles sisalduvad andmed ning neid ei saa taastada. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
+> Kuna Talendi kordustellimuse puhul on lubatud ainult kaks LCS-i keskkonda, võite kaaluda ka tasuta 60-päevase [Talenti proovikeskkonna](https://dynamics.microsoft.com/en-us/talent/overview/) kasutamist. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi Core HR-i süsteemiadministratsiooni kogemuse. Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Need pole mõeldud kasutamiseks tootmiskeskkonnana. Pange tähele, et proovikeskkonna aegumisel 60 päeva möödudes kustutatakse kõik selles sisalduvad andmed ning neid ei saa taastada. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
 
 ## <a name="select-a-powerapps-environment"></a>PowerAppsi keskkonna valimine
 
@@ -104,13 +105,15 @@ Skripti käivitamiseks tehke järgmist.
 
 1. Laadige järgmisest asukohast alla fail ProvisionCDSEnvironment.zip: [ProvisionCDSEnvironmenti skriptid](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. Pakkige kogu faili ProvisionCDSEnviroinment.zip sisu lahti kausta.
+2. Paremklõpsake allalaadimise kaustas äsja allalaaditud faili ProvisionCDSEnvironment.zip ja valige **Atribuudid**.  Kui dialoogi allosas on turvamärge „See fail on pärit teisest arvutist ja võib olla arvuti kaitsmiseks blokeeritud”, märkige ruut **Tühista blokeerimine**, seejärel klõpsake valikut **Rakenda** ja siis **OK**.
 
-3. Käivitage administraatorina programm Windows PowerShell või Windows PowerShell ISE.
+3. Pakkige kogu faili ProvisionCDSEnviroinment.zip sisu lahti mõnda muusse kausta kui juurkaust.
 
-   Vaadake teemat [Käivitamispoliitika häälestamine](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6), et saada lisateavet skriptide käitamist võimaldava käivitamispoliitika häälestamise kohta.
+4. Käivitage administraatorina programm Windows PowerShell või Windows PowerShell ISE.
+
+   Vaadake teemat [Käivitamispoliitika häälestamine](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6), et saada lisateavet skriptide käitamist võimaldava käivitamispoliitika häälestamise kohta. Soovitame kasutada järgmist „Komplekt – ExecutionPolicy – ExecutionPolicy piiramatu – protsessi ulatus”, kuid veenduge, et järgiksite oma ettevõtte turbepoliitikaid ja sulgeksite lõpetamisel PowerShelli akna. 
   
-4. PowerShellis liikuge kausta, kuhu pakkisite faili lahti, ja käivitage järgmine käsk, asendades väärtused, nagu on näidatud allpool.
+5. PowerShellis liikuge kausta, kuhu pakkisite faili lahti, ja käivitage järgmine käsk, asendades väärtused, nagu on näidatud allpool.
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
@@ -121,18 +124,10 @@ Skripti käivitamiseks tehke järgmist.
 
    **-Verbose** on valikuline ja edastab üksikasjaliku teabe, mis saata probleemide ilmnemisel tugimeeskonnale.
 
-5. Jätkake ettevalmistamise protsessi.
+6. Jätkake ettevalmistamise protsessi.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Keskkonnale juurdepääsu andmine
-Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril. Rakenduse teistele kasutajatele tuleb juurdepääs anda eraldi. Juurdepääsu andmiseks tuleb Core HR-i keskkonnas [lisada kasutajaid](../dev-itpro/sysadmin/tasks/create-new-users.md) ja [määrata neile sobivad rollid](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md). Lisaks on vaja need kasutajad lisada PowerAppsi keskkonda, nii et nad pääsevad ligi rakendustele Attract ja Onboard. Protseduuri on kirjeldatud siin. Kui vajate etappide lõpetamisel abi, vaadake ajaveebipostitust [PowerAppsi halduskeskuse tutvustamine](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
+Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril. Rakenduse teistele kasutajatele tuleb juurdepääs anda eraldi. Juurdepääsu andmiseks tuleb Core HR-i keskkonnas [lisada kasutajaid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ja [määrata neile sobivad rollid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). Lähtestamise lõpetamiseks ja teistele rentiku kasutajatele juurdepääsu lubamiseks peaks Talenti keskkonna juurutanud üldadministraator käivitama ka mõlemad rakendused Attract ja Onboard.  Kuni seda pole tehtud, pole teistel kasutajatel juurdepääsu rakendustele Attract ja Onboard ning nad saavad juurdepääsuõiguste rikkumise tõrkeid.
 
-Protseduuri lõpetab Talenti keskkonna juurutanud üldadministraator.
-
-1. Avage [PowerAppsi administreerimiskeskus](https://preview.admin.powerapps.com/environments).
-2. Valige sobivad keskkonnad.
-3. Lisage vahekaardil **Turve** vajalikele kasutajatele roll  **Keskkonna looja**.
-
-    Pange tähele, et see PowerAppsi keskkonda kasutajate käsitsi lisamise viimane etapp on ajutine. Lõpuks, kui kasutajad on Core HR-i lisatud, täidetakse see automaatselt.
 

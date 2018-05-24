@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 
@@ -407,7 +407,7 @@ Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinn
 
 **Märkus.** Saate nõuda toote kinnitamist üksnes komplekteerimis- ja paigutustüüpi tööde korral.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Lao mobiilse seadme kuvasätted](change-warehouse-mobile-device-displays.md)

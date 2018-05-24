@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>Protsessid ja toimingud
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab teavet protsesside ja operatsioonide kohta. Protsess määratleb toote või tootevariandi tootmise protsessi. See kirjeldab tootmisprotsessi iga etappi (operatsiooni) ja nende etappide läbimise järjekorda. Iga etapi puhul määratleb protsess ka vajalikud operatsiooniressursid, vajaliku seadistamise aja ja käitusaja ning kulu arvutamise viisi.
 
@@ -230,7 +230,7 @@ Kui te operatsiooni ressursivajaduste hulgas operatsiooniressurssi või ressursi
 -   **Ressursi partii** – see valik on põhimõtteliselt sama, mis valik **Partii**. Kuid arvutus sisaldab operatsiooniressursi välja **Partii maht**. Seega on aeg ressursist sõltuv.
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Kooslused ja valemid](bill-of-material-bom.md)

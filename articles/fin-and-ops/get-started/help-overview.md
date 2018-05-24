@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Spikrisüsteemi ülevaade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile. 
 
@@ -60,7 +60,7 @@ Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../
 
 -   **Juurdepääs kõige ajakohasemale sisule** – sait annab meile kiirema ja paindliku võimaluse tootedokumente luua, edastada ja uuendada. Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.
 -   **Asjatundjate kirjutatud sisu** – sait pakub rikkalikumat tootedokumentatsiooni kogumit, mida saavad täiustada kogukonna liikmed nii Microsoftis kui ka väljaspool.
--   **Juurdepääs erinevat tüüpi sisule** – sait võimaldab pääseda kiiresti juurde Finance and Operationsi erinevat tüüpi sisule, nagu Microsoft Office’i segaesitlused, tegevusjuhised ja teemad.
+-   **Juurdepääs erinevat tüüpi sisule** – sait võimaldab pääseda kiiresti juurde Finance and Operationsi erinevat tüüpi sisule, nagu tegevusjuhised, videod ja teemad.
 -   **Teie äriprotsesse toetav sisu** – sait sisaldab äriprotsessidele suunatud sisu, milles kasutatakse äriprotsessi modelleerijat (BPM) teenuses Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Otsimine saidil docs.microsoft.com
@@ -204,7 +204,7 @@ Järgmises tabelis esitatakse meie veebilehed. Meie sisuveebisaidid on korraldat
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 [Finance and Operationsi spikrisüsteem (allalaaditav teabeleht)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

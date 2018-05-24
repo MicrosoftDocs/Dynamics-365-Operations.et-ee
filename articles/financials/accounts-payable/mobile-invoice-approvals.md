@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Mobiilsed võimalused Microsoft Dynamics 365 for Finance and Operationsis lasevad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud.
 
@@ -175,9 +175,9 @@ Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMob
 1. Asendage Finance and Operationsi URL-is menüüelemendi nimi stringiga **VendMobileInvoiceHeaderDetails** vormi avamiseks
 2. Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
 3. Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
-4. Valige eelnevalt loodud leht <strong>Minu hankija arved **ja klõpsake siis nuppu **Redigeeri</strong>.
+4. Valige eelnevalt loodud leht **Minu hankija arved** ja klõpsake siis nuppu **Redigeeri**.
 5. Klõpsake vahekaardil **Väljad** veerupäist **Ruudustik**.
-6. Klõpsake valikuid **Atribuudid** &gt; **Lisa leht**. **Märkus.** Kui klõpsate pealkirja **Ruudustik** ja lisate lehe, luuakse automaatselt seos üksikasjade lehega.
+6. Klõpsake valikuid **Atribuudid &gt; Lisa leht**. **Märkus.** Kui klõpsate pealkirja **Ruudustik** ja lisate lehe, luuakse automaatselt seos üksikasjade lehega.
 7. Sisestage lehe pealkiri, nt **Arve üksikasjad** ja kirjeldus, nt **Kuva arve päis ja rea üksikasjad**.
 8. Klõpsake nuppu **Vali väljad**. Pange tähele, et väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida. 
 9. Lisage selle stsenaariumi nõuete põhjal päisest järgmised väljad.

@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3db07708df55c24108c66797885318486b2b1003
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7708c8e091ef561c1a4205a1424a51d51d05002f
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-november-2016"></a>Uued või värskendatud tegevusjuhised (november 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (november 2016 – kõike keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
 
@@ -587,7 +587,7 @@ Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastat
 |                       Veose automaatse vastavusseviimise seadistamine                       |     Üldine     |
 |              <strong>\</strong>*Kiirelt komplekteeritava kauba ümberjaotamise seadistamine              |     Üldine     |
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Saadava on uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)

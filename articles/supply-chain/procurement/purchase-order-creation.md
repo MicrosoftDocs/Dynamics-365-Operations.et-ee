@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 22264f0d82844e63bc7fc42705184c6ecc27e28d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>Ostutellimuste loomine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Selles artiklis kirjeldatakse protsessi ja valikuid ostutellimuse käsitsi koostamisel.
 
@@ -86,7 +86,7 @@ Ostutellimused saab konfigureerida nõudma, et eelarvevahendid eraldataks tellim
 
 Ostutellimuse täitmist võib olla vaja edasi lükata. Näiteks võib olla toodete või teenuste kohta vaja lisateavet või peate kulutuse tegemiseks loa saama. Tellimusega viivitamiseks on mitu võimalust. Näiteks võite oodata tellimuse kinnitamisega. Teine võimalus (kui kasutatakse muudatuse haldamise töövoogu) on tellimuse kinnitamiseks esitamata jätmine. Kui peate blokeerima kõik konkreetse hankija tellimused, võite hankija koondandmete töötlemiseks märkida hankija olekuks **Ootel**. On ka olukordi, mis võivad tellimuse töötlemist takistada. Näiteks võib töötlemine olla takistatud, kui krediidilimiite on ületatud või vajalikud eelarvevahendid pole saadaval.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Ostutellimuse ülevaade](purchase-order-overview.md)

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Finantsaruande komponendid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas aruande definitsiooni komponente (koosteüksusi) finantsaruandluses kasutatakse. Nende koosteüksuste hulka kuuluvad readefinitsioonid, veerudefinitsioonid ja aruandluspuu definitsioonid. Artiklis selgitatakse, kuidas koosteüksusi korraldada ja lukustada. 
 
@@ -109,10 +109,10 @@ Saate koosteüksuste rühma importida olemasolevasse koosteüksuste rühma. Kõi
 Koosteüksuse avamisel pääsevad teised kasutajad selle koosteüksuse juurde kirjutuskaitstud režiimis. Mõnikord unustavad kasutajad koosteüksuse sulgeda või sulevad süsteemi ilma koosteüksust sulgemata. Sel juhul jääb koosteüksus välja registreerituks ja ükski teine kasutaja ei saa seda avada. Sellistel juhtudel saab finantsaruandluse administraator kasutada dialoogiboksi **Väljaregistreeritud üksused** koosteüksuste sisseregistreerimiseks, mille kasutajad on jätnud väljaregistreeritud olekusse. **Märkus.** Koosteüksuste sisseregistreerimiseks dialoogiboksist **Väljaregistreeritud üksused** peab teil olema administraatori roll.
 1.  Valige aruande kujundaja menüüst **Tööriistad** suvand **Väljaregistreeritud üksused**.
 2.  Valige dialoogiboksis **Välja registreeritud üksused** suvand **Kuva kõikide kasutajate üksused**. Loendit värskendatakse ning see kuvab kõik välja registreeritud koosteüksused ja kasutajad, kes need välja on registreerinud.
-3.  Valige koosteüksus ja seejärel klõpsake suvandit **Tühista väljaregistreerimine**.
-4.  Koosteüksuse sisseregistreerimiseks klõpsake **Jah**.
+3.  Valige koosteüksus ja klõpsake seejärel suvandit **Tühista väljaregistreerimine**.
+4.  Klõpsake koosteüksuse registreerimiseks suvandit **Jah**.
 
-## <a name="see-also"></a>Vt ka
+## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
 

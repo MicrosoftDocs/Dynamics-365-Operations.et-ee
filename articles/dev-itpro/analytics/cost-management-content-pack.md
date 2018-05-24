@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -38,8 +38,7 @@ ms.lasthandoff: 04/13/2018
 > [!Note]
 > Selles teemas kirjeldatud **Kuluhalduse** Power BI sisu kehtib rakenduse Dynamics 365 for Finance and Operations 8.0 puhul.
 > 
-> Saidil PowerBI.com avaldatud **Kuluhalduse** Power BI sisupakett on aegunud. Lisateavet aegumise kohta vt teemast [Saidil PowerBI.com avaldatud Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
-
+> Saidil AppSource saadaval olev **Kuluhalduse** Power BI sisupakett on aegunud. Lisateavet aegumise kohta vt teemast [AppSource’is saadaval olevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 See Power BI sisu pakub liigitatud vormingut, mis aitab teil jälgida varude jõudlust ja visualiseerida kulude voogu läbi nende. Pääsete juhtimisülevaadetele, nagu ringluskiirus; päevade arv, kui kaua varud on laos olnud; täpsus ja ABC-liigitus, ligi eelistatud koondtasemel (ettevõte, kaup, kaubagrupp või koht). Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
 

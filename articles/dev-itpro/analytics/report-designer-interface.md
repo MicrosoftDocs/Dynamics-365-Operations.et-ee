@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>Aruande kujundaja liides
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis selgitatakse, kuidas aruandekoosturis liikuda ja kuidas kasutada mitmesuguseid valikuid teie vajaduste rahuldamiseks. 
 
@@ -220,11 +220,11 @@ Aruandekoosturi tööriistariba võimaldab kiiret juurdepääsu käskudele aruan
 | [![Nupp Veeru definitsioon](./media/columnc130389.png)](./media/columnc130389.png)                 | Aktiivsele aruande definitsioonile määratud veeru definitsiooni kuvamine.                                                                                                 |
 | [![Nupp Aruandluspuu definitsioon](./media/treec130389.png)](./media/treec130389.png)             | Aktiivsele aruande definitsioonile määratud aruandluspuu definitsiooni kuvamine.                                                                                         |
 | [![Nupp Aruandevaatur](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Aruandevaaturi käivitamine ja loodud aruande kõige uuema versiooni kuvamine. See nupp on saadaval aruande definitsioonis, kui olete loonud vähemalt ühe aruande. |
-| [![Nupp Koosta aruanne](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Aruande loomine aktiivse aruande definitsioonist. See nupp on saadaval aruande definitsioonis.                                                                      |
+| [![Nupp Koosta aruanne](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Looge aktiivsest aruandedefinitsioonist aruanne. See nupp on saadaval aruandedefinitsioonis.                                                                      |
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Finantsaruandlus](financial-reporting-intro.md)

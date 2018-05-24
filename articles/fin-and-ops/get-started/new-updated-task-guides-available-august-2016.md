@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Uued või värskendatud tegevusjuhised (august 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (august 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Tegevusjuhised (august 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegist
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (august 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegist
 ---------------------------------------------------------------------------------------------------
 
 (August 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft AX-i platvormi värskenduse 2 (august 2016), Dynamics AX-i mai 2016 rakenduse värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljalaske spikrina. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
@@ -97,7 +97,7 @@ Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastat
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)

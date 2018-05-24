@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistilise alusprognoosi koostamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Selles artiklis on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta. 
 
@@ -64,7 +64,7 @@ Prognoosi loomise ajal saab rakendada mitmesuguseid filtreid, nagu kontsernisise
 
 Kui prognoosi ei looda korraga suure hulga kaupade jaoks, vaid näiteks ühele kaubale või ühele kauba eraldamisvõtmele, siis parema jõudluse saavutamiseks saate valida ruudu **Kasuta taotluse vastuse režiimi** vahekaardil **Koondplaneerimine – Seadistus – Nõudluse prognoosimine** - **Nõudluse prognoosimise parameetrid – Azure’i masinõpe**.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Nõudluse prognoosi seadistus](demand-forecasting-setup.md)

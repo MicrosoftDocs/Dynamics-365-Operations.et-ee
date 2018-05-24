@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="questionnaires"></a>Küsimustikud
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida. 
 
@@ -50,7 +50,7 @@ Järgmises tabelis on lingid küsimustike põhitoimingute teabe juurde. Lisateab
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Küsimustike kavandamine](design-questionnaires.md)

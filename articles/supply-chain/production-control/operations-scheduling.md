@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>Operatsioonide planeerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab teavet operatsioonide plaanimise kohta. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul.
 
@@ -75,7 +75,7 @@ Kui käivitate operatsioonide plaanimise, saate tühistada protsessi teatud osi.
 ## <a name="finite-materials"></a>Piiratud materjalid
 Kui töötate limiteeritud materjalidega, sõltub plaanimine ka tootmiseks vajalike materjalide saadavusest. Kui tootmiseks pole piisavalt komponente saadaval, saab tootmise edasi lükata. Saate materjalikasutust eelplaanida, määrates materjalid, mis peavad olema tootmise jaoks saadaval. Kui optimeerite nii ressursi võimsust kui ka materjalide saadavust, arvutatakse tootmine nende piirangute alusel. Tootmistellimust ei saa plaanida algama enne, kui võimsus ja materjalid on saadaval samal ajal ja nõutud kogustes.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Operatsioonide plaanimise valikud](operation-scheduling-options.md)

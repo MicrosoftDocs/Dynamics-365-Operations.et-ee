@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b7c788f4b054c7d20df69459c31bb16994d8a9ec
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-blocking"></a>Varude blokeerimine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See artikkel annab ülevaate varude blokeerimisest, mis kuulub Microsoft Dynamics 365 for Finance and Operationsi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
 
@@ -60,7 +60,7 @@ Saate määrata, millised varude olekud on blokeerivad olekud, kasutades lehe **
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Varude blokeerimise loomine ja haldamine](tasks/create-maintain-inventory-blocking.md)

@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c7209c91f3821a77e9b127d767c78df403ff6cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuse heakskiitmine ja kinnitamine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Selles artiklis kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele.
 
@@ -75,7 +75,7 @@ Kui osa ostutellimuse rea tellitud kogusest on tarnitud, ei saa tellitud kogust 
 
 Pärast seda, kui tellimus on kinnitatud, ei saa seda enam kustutada. Kuid tühistada saab kogu tellimuse koguse või järelejäänud koguse, eeldusel, et see kogus pole kätte saadud või arveldatud.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Ostutellimuse ülevaade](purchase-order-overview.md)

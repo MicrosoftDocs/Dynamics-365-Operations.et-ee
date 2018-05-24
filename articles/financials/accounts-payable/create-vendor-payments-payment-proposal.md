@@ -1,6 +1,6 @@
 ---
 title: Hankija maksete loomine maksesoovituse abil
-description: "See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad. Maksesoovitusi kasutatakse sageli hankija maksete loomiseks, kuna maksesoovituse päringu abil saab hankija arveid kiiresti kriteeriumide (nt tähtaeg ja skonto) alusel maksmiseks valida."
+description: "See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Hankija maksete loomine maksesoovituse abil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad. Maksesoovitusi kasutatakse sageli hankija maksete loomiseks, kuna maksesoovituse päringu abil saab hankija arveid kiiresti kriteeriumide (nt tähtaeg ja skonto) alusel maksmiseks valida. 
 
@@ -47,7 +47,7 @@ Maksesoovituse päring sisaldab mitmeid vahekaarte, millest igaühel on erinevad
 - **Hankija saldo kontrollimine** – kui määrate suvandi **Jah**, kontrollib süsteem enne mistahes arve maksmist hankija deebetsaldo olemasolu. Kui hankijal on deebetsaldo, siis makset ei looda. Näiteks võib hankijal olla kreeditarveid või makseid, mis on küll sisestatud, kuid pole veel tasakaalustatud. Neil juhtudel ei tuleks hankijale maksta. Selle asemel tuleks kreeditarved ja maksed tasakaalustada tasumata arvetega.
 - **Kustuta negatiivsed maksed** – valik toimib erinevalt üksikute arvete ja maksekriteeriumile vastavate arvete summa maksmise puhul. Käitumine on määratletud makseviisiga.
 - **Makse iga arve jaoks** – kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Jah** ning hankijal on olemas tasakaalustamata arve ja makse, valitakse maksmiseks ainult arve. Olemasolevat makset ei tasakaalustata arvega. Kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Ei** ning arve ja makse pole tasakaalustatud, valitakse maksmiseks nii arve kui makse. Maksele luuakse makse ja tagasimakse (negatiivne makse).
-- <strong>Makse arvete summa jaoks</strong> – kui valiku <strong>Kustuta negatiivsed maksed</strong> suvandi väärtuseks on määratud <strong>Jah</strong> ning hankijal on tasakaalustamata arve ja makse, valitakse maksmiseks nii tasakaalustamata arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma. Erand tehakse ainult siis, kui summa tulemuseks on tagasimakse. Sellisel juhul ei valita ei arvet ega makset. Kui suvandi <strong>Kustuta negatiivsed maksed</strong> väärtuseks on määratud **Ei** ning arvet ja makset ei tasakaalustata, valitakse maksmiseks nii arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma.
+- **Makse arvete summa jaoks** – kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Jah** ning hankijal on tasakaalustamata arve ja makse, valitakse maksmiseks nii tasakaalustamata arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma. Erand tehakse ainult siis, kui summa tulemuseks on tagasimakse. Sellisel juhul ei valita ei arvet ega makset. Kui valiku **Kustuta negatiivsed maksed** suvandi väärtuseks on määratud **Ei** ning arvet ja makset ei tasakaalustata, valitakse maksmiseks nii arve kui ka makse ning nende summade liitmisel saadakse makse kogusumma.
 - **Prindi ainult aruanne** – kui soovite maksesoovituse tulemuste aruannet vaadata ilma makseid loomata, seadke selle suvandi väärtuseks **Jah**.
 - **Lisa hankija arve teistelt juriidilistelt isikutelt** – kui teie organisatsioonil on tsentraliseeritud makseprotsess ja maksesoovitus peaks sisaldama arveid teistelt otsingukriteeriumisse kaasatud juriidilistelt isikutelt, määrake suvandi väärtuseks **Jah**.
 - **Soovita iga juriidilise isiku jaoks eraldi hankija makset** – kui suvandi väärtuseks on määratud **Jah**, luuakse eraldi makse igale juriidilisele isikule hankija kohta. Maksel olev hankija on iga juriidilise isiku arvel olev hankija. Kui suvandi väärtuseks on määratud **Ei** ja samal hankijal on arveid mitmete juriidiliste isikute juures, luuakse üks makse valitud arvete kogusummas. Maksel olev hankija on antud juriidilise isiku hankija. Kui antud juriidilisel isikul hankija konto puudub, kasutatakse esimese tasutava arve hankija kontot.
@@ -115,7 +115,8 @@ Dimensioonide juhtimine võimaldab teil juhtida loodud ridade rühmitamist makse
 -   Väli **Dimensiooni juhtimine** aktiveeritakse ilma dimensioone täpsemalt määratlemata. Maksesoovitus luuakse ilma dimensioone arvesse võtmata. Loodud kanne ei päri rakendatud kirjest ühtki dimensiooni.
 -   Väli **Dimensiooni juhtimine** aktiveeritakse ja dimensioonide täpsem määratlemine lubatakse. Nüüd saate määratleda, kuidas dimensioonid töölehele kopeeritakse. Näide. • Märkige ruut **Äriüksus**, et luua makseviisi puhul maksepakkumine äriüksuse kohta • Märkige ruut **Kulukeskus**, et luua makseviisi puhul maksepakkumine kulukeskuse kohta
 
-**Märkus.** Kui valite kolmandas võimaluses rohkem kui ühe dimensiooni, luuakse maksesoovitus dimensiooni kombinatsioonile.
+> [[!NOTE]
+> Kui valite kolmandas võimaluses rohkem kui ühe dimensiooni, luuakse maksesoovitus dimensiooni kombinatsioonile.
 
 #### <a name="bank-account-selection"></a>Pangakonto valimine
 

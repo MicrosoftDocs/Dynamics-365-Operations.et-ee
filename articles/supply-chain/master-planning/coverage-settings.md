@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>Laovarude sätted
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Koondplaneerimine kasutab laovarude sätteid, et arvutada kaubavajadusi. 
 
@@ -45,11 +45,11 @@ saate määratleda laovarude sätteid mitmel viisil:
 
 <!-- -->
 
-- Määrake dimensioonigrupi kaubavarude sätted. Klõpsake valikuid <strong>Tooteteabe haldus &gt; Üldine &gt; Väljastatud tooted</strong>. Klõpsake lehe <strong>Väljastatud toote üksikasjad</strong> vahekaardi **Üldine** grupis <strong>Haldus</strong> linki <strong>Laoala dimensioonigrupp</strong>. Valige lehel <strong>Laoala dimensioonigrupp</strong> väli <strong>Laovarude planeerimine dimensiooni järgi</strong>, et luua laovarude sätted laoala dimensioonigrupi dimensiooni jaoks. Kõigi tootedimensioonide, nagu konfiguratsioon, värv, suurus, stiil, puhul peab olema väli <strong>Laovarude planeerimine dimensiooni järgi</strong> valitud.
+- Määrake dimensioonigrupi kaubavarude sätted. Klõpsake valikuid **Tooteteabe haldus &gt; Üldine &gt; Väljastatud tooted**. Klõpsake lehe **Väljastatud toote üksikasjad** vahekaardil **Üldine** grupis **Administreerimine** linki **Laoala dimensioonigrupp**. Valige lehel **Laoala dimensioonigrupp** väli **Laovarude planeerimine dimensiooni järgi**, et luua laovarude sätted laoala dimensioonigrupi dimensiooni jaoks. Kõigi tootedimensioonide, nagu konfiguratsioon, värv, suurus, stiil, puhul peab olema väli **Laovarude planeerimine dimensiooni järgi** valitud.
 
 
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Koondplaanid](master-plans.md)

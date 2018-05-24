@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d6828860d9e56dc8db80a11b4b611b9c0fdc2b62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a5dcc294b3dde7dc7e0f789d9e7678b75bc699b0
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a>ostutaotluse töövoog
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Töövooprotsess viib ostutaotlused läbi ülevaatusprotsessi algsest olekust Mustand kuni lõplikku olekusse Kinnitatud. Kui ostutaotlus esitatakse ülevaatamiseks, käivitatakse töövoo protsess. Kui ostutaotlus on kinnitatud, saate luua ostutellimuse ostutaotluse ridade jaoks ja selle hankijale tellimuse täitmiseks esitada.
 
@@ -106,7 +106,7 @@ Saate seadistada kulude ülevaatajad lehel **Ostutaotluse kulude ülevaatajad**.
 
 Töövoos seadistatud kulu ülevaataja kasutamiseks peate asjakohase töövooelemendi välja **Määramine** atribuutides valima suvandi **Osaleja tüüp** sätteks **Kulu osalejad**.
 
-<a name="see-also"></a>Vt ka
+<a name="additional-resources"></a>Lisaressursid
 --------
 
 [Tarbimistaotluse loomine (tegevuse juhis)](tasks/create-requisition-consumption.md)

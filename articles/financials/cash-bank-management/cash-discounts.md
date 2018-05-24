@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Skontod
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Skontod seadistatakse ning neid ühiskasutatakse ostu- ja müügireskontroga.  Saadaolevat skontot saab määratleda kliendi- või hankija arve puhul ja see võetakse, kui arve tasutakse skonto kuupäeval. 
 
-<a name="cash-discounts"></a>Skontod
---------------
+## <a name="cash-discounts"></a>Skontod
 
 Lehel Skontod saab luua skontosid nii klientidele kui ka hankijatele. Saate määratleda välja Järgmine allahindluse kood abil ka eelnevate skontokuupäevade möödumisel üksteisele järgnevate skontode seeria. Lisateavet leiate selle teema osast „Näide: skontoseeriad”. Kui arve, kreeditkanne (kas makse või kreeditarve) või mõlemad sisestatakse muus valuutas kui juriidilise isiku arvestusvaluuta, arvutatakse skonto kreeditarve maksekuupäeval kehtiva vahetuskursi alusel. Kui arve ja kreeditarve sisestatakse erinevatele juriidilistele isikutele ja juriidiliste isikute arvestusvaluutad erinevad, võetakse vahetuskurss arve juriidiliselt isikult kreeditarve kuupäeva seisuga. Lisateavet leiate selle teema osast „Näide: skontode vahetuskursid”.
-Skonto põhikonto vaiketegevuste järjestus
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Skonto põhikonto vaiketegevuste järjestus
 
 Kui arve on allahindluse saamiseks õigel ajal tasutud, sisestatakse allahindlus automaatselt skonto jaoks määratud põhikontole järgmiste vaikeprioriteetide alusel.
 1.  Põhikonto, mis on määratud kliendi lehe Avatud kannete tasakaalustamine või hankija lehe Avatud kannete tasakaalustamine väljal Alternatiivne skonto.
@@ -65,15 +64,7 @@ Teie juriidilise isiku arvestusvaluuta on euro ja USA dollarile on määratud j�
 
 15. veebruaril sisestatakse arve 1000 USD skonto tingimustega 20D2%. Arve summa arvestusvaluutas on 1100 eurot. Makse summas 980 USA dollarit tasakaalustatakse arvega 1. märtsil. Skonto summa on 20 dollarit. Makse summa arvestusvaluutas on 784 eurot. Skonto summa arvestusvaluutas arvutatakse 1. märtsi vahetuskursiga: 20 \* 80 / 100 = 16 eurot.
 
-| **Märkus**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kui lehel Müügireskontro parameetrid või Ostureskontro parameetrid on tehtud valik Arvuta skontod osaliste maksete jaoks, kasutatakse iga osamakse kuupäeval kehtivat vahetuskurssi. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Kui lehel Müügireskontro parameetrid või Ostureskontro parameetrid on tehtud valik Arvuta skontod osaliste maksete jaoks, kasutatakse iga osamakse kuupäeval kehtivat vahetuskurssi. 
 
 
