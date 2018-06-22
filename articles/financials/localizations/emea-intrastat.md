@@ -1,6 +1,6 @@
 ---
 title: Intrastat
-description: "Selles artiklis antakse teavet Euroopa Liidu (EL-i) riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse Intrastati aruandluse kohta. Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi."
+description: "Selles teemas antakse teavet Euroopa Liidu riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse intrastati aruandluse kohta. Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi."
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ee60f3d1155b89d342b94832fbdbe898a5063c6
+ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
+ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis antakse teavet Euroopa Liidu (EL-i) riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse Intrastati aruandluse kohta. Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi.
+Selles teemas antakse teavet Euroopa Liidu riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse intrastati aruandluse kohta. Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi.
 
 Intrastat on Euroopa Liidu (EL-i) riikide/regioonide vahelise kaubavahetuse teabe kogumise ja statistika koostamise süsteem. Intrastat-aruandlus on nõutav, kui toote ületab teise ELi riigi/regiooni piiri. Mitmes riigis/regioonis kehtib Intrastat-aruandlus ka teenustele. Intrastat-aruandluses võidakse koguda kohustuslikke ja valikulisi elemente. Järgmised elemendid on kohustuslikud: teabe esitamise eest vastutava osapoole käibemaksukohustuslase number, viiteperiood, voog (saabumine või lähetamine), kaheksakohaline kaubakood, partneri liikmesriik (saatmise liikmesriik saabumise puhul ja lähetuste puhul sihtliikmesriik), kauba väärtus, kaubakogus (netomass ja täiendav ühik) ning kande iseloom. Riigid/regioonid võivad koguda mitmesugustel tingimustel ka valikulisi elemente. Mõned valikulised elemendid on päritoluriik/-regioon, tarnetingimused, transpordiliik, üksikasjalikum kaubakood kui CN8, lähetuste puhul lähtepiirkond ja saabumiste puhul sihtpiirkond, statistiline protseduur, statistiline väärtus, kauba kirjeldus ja laadimise/mahalaadimise sadam/lennujaam.
 
@@ -223,6 +223,7 @@ Kasutage lehte **Väliskaubanduse parameetrid** parameetrite seadistamiseks jär
 </ul></li>
 <li><strong>Elektrooniline aruandlus</strong> – määrake elektroonilise aruandluse konfiguratsioonide viited, et saaksite luua elektroonilise faili ja aruande.</li>
 <li><strong>Kaubakoodide hierarhia</strong> – määrake kategooriahierarhia <strong>Kaubakoodi</strong> tüübile, mis kajastab Intrastati kaubakoodi CN8.</li>
+  <li> <strong>Vahetuskursi tüüp</strong> – soovi korral saate määrata aruande intrastati müügi- ja ostukannetes kasutatava vahetuskursi välisvaluutades, Seda kasutatakse juhul, kui kurss erineb kande sisestamisel rakendatud kursist.</li>  
 </ul></td>
 </tr>
 <tr class="even">
@@ -239,9 +240,5 @@ Kasutage lehte **Väliskaubanduse parameetrid** parameetrite seadistamiseks jär
 </tr>
 </tbody>
 </table>
-
-
-
-
 
 

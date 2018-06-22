@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -96,6 +96,9 @@ Menüü **Ümberjärjestamine** on saadaval, kui valitud on mitu üksust. Ümber
 
 #### <a name="sorting"></a>Sortimine
 Valikut **Sortimisalus:** saab kasutada üksuste loendi vaatamiseks järjekorras.
+
+### <a name="truncating"></a>Kärpimine
+Saate projektide importimisel enne importimist üksuste kirjeid kärpida. See on kasulik, kui kirjeid on vaja importida tühjadesse tabelitesse. Vaikimisi on see säte välja lülitatud.
 
 ## <a name="validate-that-the-source-data-and-target-data-are-mapped-correctly"></a>Kontrollimine, kas lähte- ja sihtandmed on õigesti vastendatud
 Vastendamine on funktsioon, mida rakendatakse nii impordi- kui ka eksporditööde puhul.

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ Väärtuste **Eeldatav** vs **Kasutatud** sünkroonimist hallatakse kahe toote- 
     - **Tooterida:** Eeldatav kogus = 5ühikut, Kasutatud kogus = 6ühikut, Rea olek = Kasutatud, Eraldatud = Jah
     - **Teenusrida:** Eeldatav kogus = 2h, Kasutatud kogus = 1,5h, Rea olek = Kasutatud
 
-    Selle näite puhul sünkroonitakse rakendusse Finance and Operations toote välja **Kasutatud kogus** väärtus **1,5h** ja teenuse välja **Eeldatav kogus** väärtus **2h**.
+    Selle näite puhul sünkroonitakse rakendusse Finance and Operations toote välja **Kasutatud kogus** väärtus **6** ja teenuse välja **Kasutatud kogus** väärtus **1,5 h**.
 
 ## <a name="sales-order-origin-and-status"></a>Müügitellimuse päritolu ja olek
 

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 03a932652cdd93b2a5917d0fca72809d1648b678
-ms.openlocfilehash: b1acf0b64914a3199fcf44f8377e32b26f0af99e
+ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
+ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -44,11 +44,9 @@ Rakenduste Field Service ja Finance and Operations integratsiooni esimeses faasi
 - [Rakenduse Field Service töötellimused rakenduse Finance and Operations müügitellimustega](field-service-work-order.md)
 - [Rakenduse Field Service arved vabas vormis arveteks rakenduses Finance and Operations](field-service-invoice.md)
 
-Töökäsu sünkroonimise kohta rakenduse Field Service ja rakenduse Finance and Operations vahel vaadake lühikest YouTube’i näitevideot:
+Näite saamiseks, kuidas sünkroonida töökäsk Field Service’i ja Finance and Operationsi vahel, vaadake YouTube’i lühivideot [Töökäsu sünkroonimine rakenduste Dynamics 365 for Field Service ja Finance and Operations vahel](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-> [!Video https://www.youtube.com/embed/hAB4TDVMjxU]
-
-[Töökäsu sünkroonimine rakenduse Field Service ja rakenduse Finance and Operations vahel (YouTube’i video)](https://youtu.be/hAB4TDVMjxU)
+[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Rakenduse Finance and Operations süsteeminõuded
 Rakenduse Field Service integratsioon toetab järgmisi versioone.

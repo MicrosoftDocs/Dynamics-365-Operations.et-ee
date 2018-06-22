@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
+ms.sourcegitcommit: d709a7f0e087178c0961c268a78a9206ea656bbc
+ms.openlocfilehash: ca32e74b8b9f35dd9a1a48f942766bce98c5ea4b
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -41,8 +41,8 @@ Makseviisi loomisel saate määrata viis makseviisi funktsiooni.
 
 | Funktsioon            | Kirjeldus |
 |---------------------|-------------|
-| Tavaline              | Kasutage oma makseviisis funktsiooni **Tavaline**, kui määratlete makseviise, nagu sularaha või kanded. Kõnekeskuses seda tüüpi makseviiside rakendamisel müügitellimusele sisestatakse need kohe ettemaksetena kliendikontole. Ettemaksekanne sisestatakse kliendikannete ajalukku, kus see tasakaalustatakse arvete loomisel süstemaatiliselt müügitellimuse arvega. |
-| Kontrolli               | Kasutage funktsiooni **Kontrolli**, kui määratlete makseviisina pangatšeki. Kui müügitellimusele rakendatakse see maksetüüp, peab kasutaja maksuavalduse töötlemise osana sisestama kliendi tšekinumbri. Tšekimakseid käsitletakse nende rakendamisel alati ettemaksetena. Nagu maksefunktsiooni **Tavaline** korral, tasakaalustatakse need ettemaksekanded süstemaatiliselt tellimuse jaoks loodud arvetega. |
+| Tavaline              | Kasutage oma makseviisis funktsiooni **Tavaline**, kui määratlete makseviise, nagu sularaha või kanded. Kõnekeskuses seda tüüpi makseviiside rakendamisel müügitellimusele määratakse lipu **Ettemaks** vaikeolekuks **Jah**.  See postitab tellimuse esitamisel kohe ettemaksekande kliendikontole. Kasutajad võivad soovi korral lipu **Ettemaks** olekuks määrata **Ei**, et maksekannet ei loodaks enne arve sisestamist.  Ettemaksekanne sisestatakse kliendikannete ajalukku, kus see tasakaalustatakse süstemaatiliselt müügitellimuse arvega. |
+| Kontrolli               | Kasutage funktsiooni **Kontrolli**, kui määratlete makseviisina pangatšeki. Kui müügitellimusele rakendatakse see maksetüüp, peab kasutaja maksuavalduse töötlemise osana sisestama kliendi tšekinumbri. Tšekimakseid käsitletakse nende rakendamisel alati ettemaksetena ja maksekanded luuakse kohe tellimuse esitamisel. Need ettemaksekanded tasakaalustatakse süstemaatiliselt tellimuse jaoks loodud arvetega. |
 | Kaardid               | Kaardimakse tüübid esindavad mis tahes maksetüüpi, mille jaoks tuleb sisestada kaardi number, mis on määratletud kliendi maksekaardil. Näiteks on krediitkaardid ja kinkekaardid. Seda tüüpi maksete konfigureerimisel peate kasutama menüüd **Kaardi häälestus**, et määratleda selle makseviisiga seostatud kaardi ID-d. Tellimuse sisestamise ajal saavad kasutajad määrata, kas kaardimakse on ettemakse, kasutades suvandit **Ettemaks**, mis kuvatakse maksekande lehel. Kui ettevõtte ei nõua ettemakseid, on krediitkaardimakse tavapärane voog kaheastmelise protsess, kus tellimuse sisestamise ajal saadakse luba ning seejärel tasakaalustatakse arveldamisel makse ja võetakse see kliendi kaardilt. Kinkekaardimaksete korral on ettemakse soovitatav, sest kinkekaardi saldot tuleks vähendada kohe, et klient ei saaks sama väärtust rakendada mujal. |
 | Klient            | Makseviisi funktsioon **Klient** tähendab, et makse rakendatakse kliendi krediidilimiidile või pannakse ettemaksele. Rakenduses Retail saab klient määrata krediidilimiidi, mille saab kinnitada tellimuse sisestamise ajal. Maksed, mis tehakse makseviisiga, mis on seotud funktsiooniga **Klient**, loovad kliendikonto suhtes kohustuse. Seejärel kuvatakse müügitellimuse arveldamisel deebetsaldo. Sellistel juhtudel saadavad kliendid tavaliselt makse esitatud tingimuste kohaselt. Teise võimalusena saab tähtajani jõudnud saldo tasakaalustamiseks rakendada eelmise avatud kreeditkande kliendi kontol. Pange tähele, et isegi juhul, kui määrate selle makseviisi, ei kuvata seda kõnekeskuse tellimuse kirjes maksevalikute all, kui te pole kliendi, kellega töötate, kirjel märkinud lippu **Ettemaksu lubamine**. Selle lipu leiate kliendikirje vahekaardil **Makse vaikeandmed**. |
 | Väljamakse-/vahetusraha | Funktsiooni **Väljamakse-/vahetusraha** kõnekeskus ei kasuta. See on rakendatav ainult siis, kui määratlete makseviisid, mida kassarakendus kasutab kaupluse kanalil. |

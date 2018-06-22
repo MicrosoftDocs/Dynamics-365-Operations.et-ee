@@ -1,16 +1,16 @@
 ---
 title: Tasakaalustuse konfigureerimine
-description: "Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles artiklis kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks."
+description: "Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles teemas kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ed520ce3a67fab81da24b36b042152f530d75dd
+ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
+ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles artiklis kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks. 
+Kuidas ja millal kanded tasakaalustatakse, võib olla keeruline teema, nii et on oluline, et mõistate ja määratlete õigesti oma ärinõuetele vastavad parameetrid. Selles teemas kirjeldatakse parameetreid, mida kasutatakse nii ostu- kui ka müügireskontro tasakaalustamiseks. 
 
 Järgmised parameetrid mõjutavad, kuidas tasakaalustusi Microsoft Dynamics 365 for Finance and Operationsis töödeldakse. Tasakaalustus on arve makse või kreeditarvega tasakaalustamise protsess. Need parameetrid asuvad ala **Tasakaalustus** lehtedel **Müügireskontro parameetrid** ja **Ostureskontro parameetrid**.
 
@@ -58,7 +58,14 @@ Järgmised parameetrid mõjutavad, kuidas tasakaalustusi Microsoft Dynamics 365 
 - **Tasakaalustuse prioritiseerimine (ainult ostureskontro)** – määrake see suvand valikule **Jah** nupu **Märgi prioriteedi alusel** lubamiseks lehtedel **Kliendimaksete sisestamine** ja **Kannete tasakaalustamine**. See nupp võimaldab kasutajatel määrata eelnevalt määratud tasakaalustuse tellimuse kannetele.  Pärast tasakaalustuse tellimuse rakendamist kandele saab tellimust ja makse eraldamist enne sisestamist muuta.
 - **Kasuta automaatseteks tasakaalustusteks prioriteeti** – määrake see suvand valikule **Jah** määratletud tähtsusjärjestuse kasutamiseks kannete automaatsel tasakaalustamisel. See väli on saadaval ainult juhul, kui suvandid **Tasakaalustuse prioritiseerimine** ja **Automaatne tasakaalustus** on seatud valikule **Jah**.
 
+## <a name="fixed-dimensions-on-accounts-receivableaccounts-payable-main-accounts"></a>Müügireskontro/ostureskontro põhikontode fikseeritud dimensioonid
 
+Kui müügireskontro/ostureskontro põhikontol kasutatakse fikseeritud dimensioone, sisestab tasakaalustusprotsess täiendavad konto kirjed ja kaks täiendavat hankijakannet. Tasakaalustus võrdleb arvel ja maksel olevat müügireskontro/ostureskontro pearaamatukontot.  Kui makse ja tasakaalustus lõpetatakse samal ajal, nagu tavapäraselt juhtub, siis ei sisestata makse raamatupidamiskirjet pearaamatusse enne, kui tasakaalustamisprotsess on samuti lõpetanud. Töötlemissündmuste järjekorra tõttu ei saa tasakaalustus tuvastada müügireskontro/ostureskontro pearaamatukontot makse raamatupidamiskirjest. Tasakaalustus rekonstrueerib, mis pearaamatukonto makse jaoks olema peaks. See on probleem, kui müügireskontro/ostureskontro põhikonto jaoks kasutatakse fikseeritud dimensiooni.
 
+Pearaamatukonto rekonstrueerimiseks võetakse müügireskontro/ostureskontro põhikonto sisestusprofiililt ja finantsdimensioonid võetakse makse hankija kande kirjest, nagu määratletud makse töölehel. Fikseeritud dimensioonid ei sisestata vaikimisi makse töölehtedele, vaid kantakse põhikontole sisestamisprotsessi viimases etapis. Seetõttu ei ole fikseeritud dimensiooni väärtust tõenäoliselt hankija kandel, kui see pole just vaikimisi sisestatud teisest allikast, näiteks hankijalt. Rekonstrueeritud konto ei sisalda fikseeritud dimensiooni. Tasakaalustustöötlus tuvastab, et vaja on luua korrigeeriv sisestus, kuna seda ei teinud fikseeritud dimensiooni väärtusega ja rekonstrueeritud makse kontoga sisestatud arve.  Tasakaalustus jätkab korrigeeriva sisestuse sisestamisega ning viimaseks etapiks on fikseeritud dimensiooni rakendamine. Fikseeritud dimensioon lisatakse korrigeerivale sisestusele ning sisestatakse sama pearaamatukonto deebeti ja kreeditiga. Tasakaalustus ei saa eelmist raamatupidamiskirjet taastada.
 
+Selleks, et vältida täiendavate raamatupidamiskirjete ning deebeti ja kreediti samale pearaamatukontole lisamist, kaaluge oma ettevõtte vajaduste kohaselt järgmisi lahendusi. 
+
+-   Organisatsioonid kasutavad sageli fikseeritud dimensioone, et täita mittevajalikke finantsdimensioone nullidega. Nii on tavapäraselt bilansikontode puhul, näiteks müügireskontrod/ostureskontrod. Konto struktuure saab kasutada tavaliselt nullidega täidetud finantsdimensioonide jälgimise välistamiseks.  Saate finantsdimensiooni bilansikontode jaoks eemaldada, kõrvaldades sellega vajaduse fikseeritud dimensioonide kasutamise järele.
+-   Kui teie organisatsioon nõuab müügireskontro/ostureskontro põhikonto jaoks fikseeritud dimensioone, siis proovige leida viis, kuidas fikseeritud dimensioon vaikimisi maksele sisestada, nii et fikseeritud dimensiooni väärtus on salvestatud makse hankija kandel. See võimaldab süsteemil rekonstrueerida müügireskontro/ostureskontro põhikonto nii, et fikseeritud dimensiooni väärtused oleks hõlmatud. Fikseeritud dimensiooni väärtust saab määratleda vaikeväärtuseks hankijate jaoks või makse töölehe nimel.
 
