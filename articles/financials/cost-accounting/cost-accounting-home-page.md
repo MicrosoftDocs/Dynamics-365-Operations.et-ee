@@ -19,38 +19,38 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ad2648c402db8827d40c906b2f255862f6ed0e50
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 8f4a371664ceb7df9ac28cececc456bc73d655cb
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
-# <a name="cost-accounting-home-page"></a><span data-ttu-id="dbd44-103">Kuluarvestuse kodulehekülg</span><span class="sxs-lookup"><span data-stu-id="dbd44-103">Cost accounting home page</span></span>
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="d8c89-103">Kuluarvestuse kodulehekülg</span><span class="sxs-lookup"><span data-stu-id="d8c89-103">Cost accounting home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="learning-map"></a><span data-ttu-id="dbd44-104">Õppekaart</span><span class="sxs-lookup"><span data-stu-id="dbd44-104">Learning map</span></span> 
+## <a name="learning-map"></a><span data-ttu-id="d8c89-104">Õppekaart</span><span class="sxs-lookup"><span data-stu-id="d8c89-104">Learning map</span></span> 
 
-<span data-ttu-id="dbd44-105">Järgmisel õppekaardil on näidatud peamised põhimõtted ja ülesanded, millest kuluarvestuse mooduli raamistik koosneb.</span><span class="sxs-lookup"><span data-stu-id="dbd44-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="dbd44-106">Klõpsake linke jaotises [Kiirlingid](#quick-links), et õppida moodulit kasutama.</span><span class="sxs-lookup"><span data-stu-id="dbd44-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
+<span data-ttu-id="d8c89-105">Järgmisel õppekaardil on näidatud peamised põhimõtted ja ülesanded, millest kuluarvestuse mooduli raamistik koosneb.</span><span class="sxs-lookup"><span data-stu-id="d8c89-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="d8c89-106">Klõpsake linke jaotises [Kiirlingid](#quick-links), et õppida moodulit kasutama.</span><span class="sxs-lookup"><span data-stu-id="d8c89-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
 
-<span data-ttu-id="dbd44-107">[![Kuluarvestuse õppekaart](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="dbd44-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
+<span data-ttu-id="d8c89-107">[![Kuluarvestuse õppekaart](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="d8c89-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
 
-## <a name="quick-links"></a><span data-ttu-id="dbd44-108">Kiirlingid</span><span class="sxs-lookup"><span data-stu-id="dbd44-108">Quick links</span></span>
+## <a name="quick-links"></a><span data-ttu-id="d8c89-108">Kiirlingid</span><span class="sxs-lookup"><span data-stu-id="d8c89-108">Quick links</span></span>
 
 |      |   |
 |------|---|
-|  <span data-ttu-id="dbd44-109">[Alusüksuste konfigureerimine (eLearning)](https://mbspartner.microsoft.com/Home) (nõuab CustomerSource’i kontot)</span><span class="sxs-lookup"><span data-stu-id="dbd44-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="dbd44-110">Loo dimensioone</span><span class="sxs-lookup"><span data-stu-id="dbd44-110">Create dimensions</span></span>](cost-elements.md)  |
-|  [<span data-ttu-id="dbd44-111">Dimensioonihierarhia loomine</span><span class="sxs-lookup"><span data-stu-id="dbd44-111">Create dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="dbd44-112">Põhihäälestuse loomine</span><span class="sxs-lookup"><span data-stu-id="dbd44-112">Create basic setup</span></span>](./tasks/define-cost-control-units.md)| 
-| [<span data-ttu-id="dbd44-113">Eraldamisaluse määratlemine</span><span class="sxs-lookup"><span data-stu-id="dbd44-113">Define allocation base</span></span>](allocation-bases.md)|[<span data-ttu-id="dbd44-114">Poliitikate määratlemine</span><span class="sxs-lookup"><span data-stu-id="dbd44-114">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [<span data-ttu-id="dbd44-115">Andmeallikas ja andmepakkuja</span><span class="sxs-lookup"><span data-stu-id="dbd44-115">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="dbd44-116">Andmeallikas ja andmepakkuja</span><span class="sxs-lookup"><span data-stu-id="dbd44-116">Data source and data provider</span></span>](./tasks/process-trace-source-data.md)     | 
-|[<span data-ttu-id="dbd44-117">Üldkulude arvutus</span><span class="sxs-lookup"><span data-stu-id="dbd44-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="dbd44-118">Analüüs ja aruandlus</span><span class="sxs-lookup"><span data-stu-id="dbd44-118">Analysis and reporting</span></span>](cost-control-workspace.md)   |
+|  <span data-ttu-id="d8c89-109">[Alusüksuste konfigureerimine (eLearning)](https://mbspartner.microsoft.com/Home) (nõuab CustomerSource’i kontot)</span><span class="sxs-lookup"><span data-stu-id="d8c89-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="d8c89-110">Loo dimensioone</span><span class="sxs-lookup"><span data-stu-id="d8c89-110">Create dimensions</span></span>](cost-elements.md)  |
+|  [<span data-ttu-id="d8c89-111">Dimensioonihierarhia loomine</span><span class="sxs-lookup"><span data-stu-id="d8c89-111">Create dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="d8c89-112">Põhihäälestuse loomine</span><span class="sxs-lookup"><span data-stu-id="d8c89-112">Create basic setup</span></span>](./tasks/define-cost-control-units.md)| 
+| [<span data-ttu-id="d8c89-113">Eraldamisaluse määratlemine</span><span class="sxs-lookup"><span data-stu-id="d8c89-113">Define allocation base</span></span>](allocation-bases.md)|[<span data-ttu-id="d8c89-114">Poliitikate määratlemine</span><span class="sxs-lookup"><span data-stu-id="d8c89-114">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [<span data-ttu-id="d8c89-115">Andmeallikas ja andmepakkuja</span><span class="sxs-lookup"><span data-stu-id="d8c89-115">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="d8c89-116">Andmeallikas ja andmepakkuja</span><span class="sxs-lookup"><span data-stu-id="d8c89-116">Data source and data provider</span></span>](./tasks/process-trace-source-data.md)     | 
+|[<span data-ttu-id="d8c89-117">Üldkulude arvutus</span><span class="sxs-lookup"><span data-stu-id="d8c89-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="d8c89-118">Analüüs ja aruandlus</span><span class="sxs-lookup"><span data-stu-id="d8c89-118">Analysis and reporting</span></span>](cost-control-workspace.md)   |
 
-## <a name="get-started-videosbr"></a><span data-ttu-id="dbd44-119">Alustamisvideod</span><span class="sxs-lookup"><span data-stu-id="dbd44-119">Get started videos</span></span><br/>
+## <a name="get-started-videosbr"></a><span data-ttu-id="d8c89-119">Alustamisvideod</span><span class="sxs-lookup"><span data-stu-id="d8c89-119">Get started videos</span></span><br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
-| <iframe width="100%"  src="https://www.youtube.com/embed/1pUDtJQZ8FU" frameborder="0" allowfullscreen></iframe>  | <iframe width="100%"  src="https://www.youtube.com/embed/imsuTg8rUVk" frameborder="0" allowfullscreen></iframe>  |   <iframe width="100%" src="https://www.youtube.com/embed/-HKHYdClvx8" frameborder="0" allowfullscreen></iframe>  |
+| [<span data-ttu-id="d8c89-120">Kuluarvestuse kasutamise alustamine</span><span class="sxs-lookup"><span data-stu-id="d8c89-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="d8c89-121">Kuluarvestuse mobiilne tööruum</span><span class="sxs-lookup"><span data-stu-id="d8c89-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="d8c89-122">Exceli kasutamine kuluarvestuse analüüsi jaoks</span><span class="sxs-lookup"><span data-stu-id="d8c89-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 |  |  |                             |
 
 

@@ -1,0 +1,103 @@
+---
+title: Konto struktuuride konfigureerimine
+description: Teema sisaldab teavet konto struktuuride ja finantsdimensioonide kohta.
+author: aprilolson
+manager: AnnBe
+ms.date: 05/21/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: LedgerEliminationRule
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 13131
+ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
+ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
+ms.contentlocale: et-ee
+ms.lasthandoff: 05/21/2018
+
+---
+
+# <a name="configure-account-structures"></a><span data-ttu-id="f3c46-103">Konto struktuuride konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="f3c46-103">Configure account structures</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+<span data-ttu-id="f3c46-104">Konto struktuurid kasutavad põhikontot ja finantsdimensioone, et luua reeglite kogumit, mis määravad konto numbri sisestamisel korra ja väärtused.</span><span class="sxs-lookup"><span data-stu-id="f3c46-104">Account structures use the main account and financial dimensions to create a set of rules that determine the order and values used when entering the account number.</span></span> <span data-ttu-id="f3c46-105">Saate oma ettevõtte jaoks seadistada nii palju konto struktuure, kui vaja.</span><span class="sxs-lookup"><span data-stu-id="f3c46-105">You can set up as many account structures as you need for your business.</span></span> <span data-ttu-id="f3c46-106">Konto struktuurid määratakse ettevõtte pearaamatu seadistusele, nii et neid saab jagada.</span><span class="sxs-lookup"><span data-stu-id="f3c46-106">The account structures are assigned to a company’s ledger setup, so they can be shared.</span></span>
+
+<span data-ttu-id="f3c46-107">Konto struktuuri loomisel on maksimaalne segmentide arv 11.</span><span class="sxs-lookup"><span data-stu-id="f3c46-107">When creating an account structure, the maximum number of segments is 11.</span></span> <span data-ttu-id="f3c46-108">Kui vajate rohkem segmente, siis vaadake põhjalikult üle oma seadistus ja nõuded, sest see mõjutab kasutuskogemust.</span><span class="sxs-lookup"><span data-stu-id="f3c46-108">If you need more segments than this, thoroughly evaluate your setup and requirements, as it will impact the user experience.</span></span> <span data-ttu-id="f3c46-109">Kaaluge, kas segmenti annaks hierarhiat kasutades tuletada aruandlusstsenaariumis, mitte andmesisestuse ajal, või tuletada kasutades kasutaja määratletud välja.</span><span class="sxs-lookup"><span data-stu-id="f3c46-109">Consider if a segment could be derived in a reporting scenario using a hierarchy instead of during data entry, or by using a user-defined field.</span></span> <span data-ttu-id="f3c46-110">Näiteks kui soovite asukohta määratleda, kuid saate seda välja nuputada osakonna või kulukeskuse alusel, siis pole teil asukohta finantsdimensioonina vaja.</span><span class="sxs-lookup"><span data-stu-id="f3c46-110">For example, if you want to report on location, but you can figure location by department or cost center, you would not need location as a financial dimension.</span></span> <span data-ttu-id="f3c46-111">Kui te leiate pärast ülevaatust, et vaja on rohkem kui 11 segmenti, siis saate lisasegmente lisada täpsemate reeglite abil.</span><span class="sxs-lookup"><span data-stu-id="f3c46-111">If after evaluation you do determine more than 11 segments are needed, you can add additional segments using advanced rules.</span></span>
+
+<span data-ttu-id="f3c46-112">Konto struktuurid vajavad põhikontot.</span><span class="sxs-lookup"><span data-stu-id="f3c46-112">Account structures require the main account.</span></span> <span data-ttu-id="f3c46-113">Põhikonto ei pea olema struktuuris esimene segment, kui see näitab konto numbri sisestamisel, millist konto struktuuri kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="f3c46-113">The main account does not need to be the first segment in the structure, but it does identify what account structure is being used during the account number entry.</span></span> <span data-ttu-id="f3c46-114">Seetõttu saab põhikonto väärtus olla vaid ühes pearaamatule määratud struktuuris, et vältida kattumist.</span><span class="sxs-lookup"><span data-stu-id="f3c46-114">Because of this, a main account value can only exist in one structure assigned to the ledger so that they do not overlap.</span></span> <span data-ttu-id="f3c46-115">Pärast konto struktuuri määratlemist filtreeritakse lubatud väärtuste loend, et võimaldada kasutajal valida vaid sobivaid dimensiooniväärtusi, vähendades sellega vale töölehe sisestuse võimalust.</span><span class="sxs-lookup"><span data-stu-id="f3c46-115">After the account structure is identified, the allowed values list is filtered to guide the user through picking only valid dimension values, decreasing the possibility of an incorrect journal entry.</span></span>
+
+> [!NOTE] 
+> <span data-ttu-id="f3c46-116">Kui plaanite finantsdimensiooni suhtes eelarvet koostada, peab see olema konto struktuuri osa.</span><span class="sxs-lookup"><span data-stu-id="f3c46-116">If you plan to budget against a financial dimension, it will need to be part of an account structure.</span></span> <span data-ttu-id="f3c46-117">Eelarvestamisel ei kasutata praegu täpsemaid reegleid.</span><span class="sxs-lookup"><span data-stu-id="f3c46-117">Budgeting does not currently utilize advanced rules.</span></span>
+
+## <a name="example"></a><span data-ttu-id="f3c46-118">Näide</span><span class="sxs-lookup"><span data-stu-id="f3c46-118">Example</span></span>
+<span data-ttu-id="f3c46-119">Oletame konto struktuuri ülesseadmise hea tava illustreerimiseks, et ettevõte soovib jälgida bilansikontosid (100000–399999) konto ja äriüksuse finantsdimensiooni tasemel.</span><span class="sxs-lookup"><span data-stu-id="f3c46-119">To illustrate a best practice for setting up an account structure, let's assume that a company wants to track their balance sheet accounts (100000..399999) at the account and business unit financial dimension level.</span></span> <span data-ttu-id="f3c46-120">Tulude ja kulude kontode (400000–999999) puhul jälgivad nad finantsdimensioone Äriüksus, Osakond ja Kulukeskus.</span><span class="sxs-lookup"><span data-stu-id="f3c46-120">For revenue and expense accounts (400000..999999), they track financial dimensions Business Unit, Department, and Cost center.</span></span> <span data-ttu-id="f3c46-121">Müügi tegemisel soovivad nad jälgida ka finantsdimensiooni Klient.</span><span class="sxs-lookup"><span data-stu-id="f3c46-121">If they make a sale, they also like to track Customer.</span></span> <span data-ttu-id="f3c46-122">Selle stsenaariumi puhul oleks soovitatav kasutada kahte ettevõtte pearaamatule määratud konto struktuuri – üks Bilansikontode ning teine Tulu ja kulu kontode jaoks.</span><span class="sxs-lookup"><span data-stu-id="f3c46-122">Using this scenario, it would be recommended to have two account structures assigned to the company’s ledger - one for Balance sheet accounts, and one for Profit and Loss accounts.</span></span> <span data-ttu-id="f3c46-123">Kasutuskogemuse ja kinnitamise optimeerimiseks peaks dimensioon Klient olema täpsem reegel, mida kasutatakse vaid siis, kui kasutatakse müügikontot.</span><span class="sxs-lookup"><span data-stu-id="f3c46-123">To optimize the user experience and validation, Customer should be an advanced rule that is only used when a sales account is used.</span></span>
+
+<span data-ttu-id="f3c46-124">**Bilansikonto struktuur**</span><span class="sxs-lookup"><span data-stu-id="f3c46-124">**Balance sheet account structure**</span></span>
+
+|<span data-ttu-id="f3c46-125">Põhikonto</span><span class="sxs-lookup"><span data-stu-id="f3c46-125">Main account</span></span>          | <span data-ttu-id="f3c46-126">Äriüksus</span><span class="sxs-lookup"><span data-stu-id="f3c46-126">Business unit</span></span>    |
+|----------------------|-----------|
+|<span data-ttu-id="f3c46-127">100000–399999</span><span class="sxs-lookup"><span data-stu-id="f3c46-127">100000..399999</span></span> | <span data-ttu-id="f3c46-128">\*; „ “</span><span class="sxs-lookup"><span data-stu-id="f3c46-128">\*;” “</span></span>|
+
+<span data-ttu-id="f3c46-129">**Tulu ja kulu konto struktuur**</span><span class="sxs-lookup"><span data-stu-id="f3c46-129">**Profit and loss account structure**</span></span>
+
+|<span data-ttu-id="f3c46-130">Põhikonto</span><span class="sxs-lookup"><span data-stu-id="f3c46-130">Main account</span></span>          | <span data-ttu-id="f3c46-131">Äriüksus</span><span class="sxs-lookup"><span data-stu-id="f3c46-131">Business unit</span></span>    |<span data-ttu-id="f3c46-132">Osakond</span><span class="sxs-lookup"><span data-stu-id="f3c46-132">Department</span></span>          | <span data-ttu-id="f3c46-133">Kulukeskus</span><span class="sxs-lookup"><span data-stu-id="f3c46-133">Cost center</span></span>    |
+|----------------------|-----------|----------------------|-----------|
+|<span data-ttu-id="f3c46-134">400000–999999</span><span class="sxs-lookup"><span data-stu-id="f3c46-134">400000..999999</span></span> | <span data-ttu-id="f3c46-135">\*; „ “</span><span class="sxs-lookup"><span data-stu-id="f3c46-135">\*;” “</span></span>|<span data-ttu-id="f3c46-136">\*; „ “</span><span class="sxs-lookup"><span data-stu-id="f3c46-136">\*;” “</span></span>|<span data-ttu-id="f3c46-137">\*; „ “</span><span class="sxs-lookup"><span data-stu-id="f3c46-137">\*;” “</span></span>|<span data-ttu-id="f3c46-138">\*; „ “</span><span class="sxs-lookup"><span data-stu-id="f3c46-138">\*;” “</span></span>|
+
+<span data-ttu-id="f3c46-139">**Täpsem reegel kliendi lisamiseks**</span><span class="sxs-lookup"><span data-stu-id="f3c46-139">**Advanced rule for adding a Customer**</span></span>
+
+<span data-ttu-id="f3c46-140">Kriteerium: kui põhikonto on vahemikus 400000–499999, lisa klient.</span><span class="sxs-lookup"><span data-stu-id="f3c46-140">Criteria: Where Main account is between 400000 and 499999, then add customer.</span></span> <span data-ttu-id="f3c46-141">Välja ei tohi tühjaks jätta.</span><span class="sxs-lookup"><span data-stu-id="f3c46-141">It cannot be left blank.</span></span>
+
+|<span data-ttu-id="f3c46-142">Klient</span><span class="sxs-lookup"><span data-stu-id="f3c46-142">Customer</span></span>         |
+|-----------------|
+|* |
+
+<span data-ttu-id="f3c46-143">Selles lihtsustatud näites on lubatud kõik väärtused ja tühjad väärtused, mida tähistatakse sümbolitega \* ja „ “.</span><span class="sxs-lookup"><span data-stu-id="f3c46-143">In this simplified example, all values and blank are allowed so \* and “ “ are used.</span></span>
+
+## <a name="segments-and-allowed-values"></a><span data-ttu-id="f3c46-144">Segmendid ja lubatud väärtused</span><span class="sxs-lookup"><span data-stu-id="f3c46-144">Segments and allowed values</span></span>
+<span data-ttu-id="f3c46-145">Jaotistes **Segmendid** ja **Lubatud väärtuse üksikasjad** saab tabelisse sisestada reegleid, mida järgitakse sisestamise ajal toimuval valideerimisel.</span><span class="sxs-lookup"><span data-stu-id="f3c46-145">The **Segments** and **Allowed values details** section provides a grid like experience for entering the rules that will be followed on validation during posting.</span></span> <span data-ttu-id="f3c46-146">Saate kirjutada otse tabeli lahtritesse, importida Excelist, või kasutada jaotist **Lubatud väärtuse üksikasjad**, mis teid juhendab.</span><span class="sxs-lookup"><span data-stu-id="f3c46-146">You can type directly in the cells in the grid, import it from Excel, or use the **Allowed value details** section to guide you through it.</span></span>
+
+<span data-ttu-id="f3c46-147">Jaotis **Lubatud väärtuse üksikasjad** juhendab teid kriteeriumite loomisel, mis kasutavad **Tehtemärke** nagu algab väärtusega, vahel, hõlmab ja mitmeid teisi.</span><span class="sxs-lookup"><span data-stu-id="f3c46-147">The **Allowed value details** section guides you through creating criteria using **Operators** such as begins with, is between, includes, and many others.</span></span>
+
+<span data-ttu-id="f3c46-148">[![Lubatud väärtused](./media/account.png)](./media/account.png)</span><span class="sxs-lookup"><span data-stu-id="f3c46-148">[![Allow values](./media/account.png)](./media/account.png)</span></span> 
+
+## <a name="more-than-7-criteria-needed"></a><span data-ttu-id="f3c46-149">Rohkem kui 7 kriteeriumit</span><span class="sxs-lookup"><span data-stu-id="f3c46-149">More than 7 criteria needed</span></span>
+
+<span data-ttu-id="f3c46-150">Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgmisel real.</span><span class="sxs-lookup"><span data-stu-id="f3c46-150">If you have more than 7 criteria that are needed, you can continue adding them on the next line.</span></span> <span data-ttu-id="f3c46-151">Jaotises **Lubatud väärtuse üksikasjad** töötades märkate, et kriteerium **+ Lisa uus** pole enam pärast seitsmenda kriteeriumi sisestamist aktiivne.</span><span class="sxs-lookup"><span data-stu-id="f3c46-151">You will notice when working in the **Allowed value details** section that the **+Add new** criteria is nt longer active after the seventh criteria is entered.</span></span> <span data-ttu-id="f3c46-152">Seda mõjutavad järgmised tegurid.</span><span class="sxs-lookup"><span data-stu-id="f3c46-152">This is due to many factors such as:</span></span> 
+ - <span data-ttu-id="f3c46-153">Veeru laius</span><span class="sxs-lookup"><span data-stu-id="f3c46-153">Column width</span></span> 
+ - <span data-ttu-id="f3c46-154">Kuidas andmeid talletatakse</span><span class="sxs-lookup"><span data-stu-id="f3c46-154">How the data is stored</span></span> 
+ - <span data-ttu-id="f3c46-155">Juhtelemendi **Lubatud väärtuse üksikasjad** jõudlus</span><span class="sxs-lookup"><span data-stu-id="f3c46-155">Performance of the **Allowed value details** control</span></span>
+ - <span data-ttu-id="f3c46-156">Kasutatavus</span><span class="sxs-lookup"><span data-stu-id="f3c46-156">Usability</span></span>  
+ 
+<span data-ttu-id="f3c46-157">Täiendavate kriteeriumide lisamiseks klõpsake **Dubleeri segmendis** ja **Lubatud väärtuste jaotis**.</span><span class="sxs-lookup"><span data-stu-id="f3c46-157">To continue to add additional criteria, click **Duplicate in the Segment** and **Allowed values section**.</span></span> <span data-ttu-id="f3c46-158">Sellega kopeeritakse kriteeriumid uuele reale.</span><span class="sxs-lookup"><span data-stu-id="f3c46-158">This will copy the criteria to a new line.</span></span> <span data-ttu-id="f3c46-159">Seejärel saate jaotisesse **Lubatud väärtuse üksikasjad** kirjutada või seda muuta.</span><span class="sxs-lookup"><span data-stu-id="f3c46-159">You can then type over or modify the **Allowed value details** section.</span></span>
+
+<span data-ttu-id="f3c46-160">(LINK LOODAVALE VIDEOLE)</span><span class="sxs-lookup"><span data-stu-id="f3c46-160">(LINK TO VIDEO THAT WILL BE CREATED)</span></span>
+
+## <a name="best-practices"></a><span data-ttu-id="f3c46-161">Head tavad</span><span class="sxs-lookup"><span data-stu-id="f3c46-161">Best practices</span></span>
+<span data-ttu-id="f3c46-162">Konto struktuuride ülesseadmisel on välja kujunenud mõned head tavad, mida järgida saate.</span><span class="sxs-lookup"><span data-stu-id="f3c46-162">When setting up your account structures there are some best practices you can follow.</span></span> <span data-ttu-id="f3c46-163">See on siiski vaid juhis, nii et terviklik arutelu teie ettevõtte, kasvuplaani ja halduse kohta peaks olema selle arutelu osa.</span><span class="sxs-lookup"><span data-stu-id="f3c46-163">However, this is only guidance so a holistic discussion about your business, growth plan, and maintenance plan should be considered as part of that discussion.</span></span>
+
+- <span data-ttu-id="f3c46-164">Looge põhikonto struktuuri esimeseks osaks või sellele võimalikult lähedale, et kasutajad saaksid konto sisestamise ajal parima juhendatud kogemuse.</span><span class="sxs-lookup"><span data-stu-id="f3c46-164">Make main account first or as close to the front of the account structure as possible, so users get the best guided experience they can during account entry.</span></span>
+
+- <span data-ttu-id="f3c46-165">Taaskasutage konto struktuure võimalikult palju, et vähendada juriidiliste isikute haldamise vaeva.</span><span class="sxs-lookup"><span data-stu-id="f3c46-165">Reuse account structures as much as possible to reduce maintenance across your legal entities.</span></span>
+
+- <span data-ttu-id="f3c46-166">Kaaluge juriidiliste isikute erinevuste jaoks täpsemate reeglite kasutamist, nii et konto struktuure saaks taaskasutada.</span><span class="sxs-lookup"><span data-stu-id="f3c46-166">For variations across legal entities, consider using advanced rules so that account structures can be reused.</span></span>
+
+- <span data-ttu-id="f3c46-167">Kasutage lubatud väärtuste määratlemisel nii palju vahemikke ja metamärke kui võimalik.</span><span class="sxs-lookup"><span data-stu-id="f3c46-167">When defining allowed values, use ranges and wildcards as much as possible.</span></span> <span data-ttu-id="f3c46-168">Peale selle, et see võimaldab teil haldamise vaevadeta kasvada ja muutuda, toimib süsteem sellise konfiguratsiooniga kõige paremini.</span><span class="sxs-lookup"><span data-stu-id="f3c46-168">This not only allows you to grow and change without maintenance, but the system also performs more ideally with this configuration.</span></span>
+
+- <span data-ttu-id="f3c46-169">Ärge sisestage igasse konto struktuuri segmenti tärni, et toetuda vaid täpsematele reeglitele.</span><span class="sxs-lookup"><span data-stu-id="f3c46-169">Do not just put an asterisk for every segment in the account structure and then solely rely on the advanced rules.</span></span> <span data-ttu-id="f3c46-170">Seda võib olla raske hallata ja tihtipeale põhjustab see haldamise ajal kasutaja vigasid, mistõttu ei suuda süsteem sisestada.</span><span class="sxs-lookup"><span data-stu-id="f3c46-170">This can be difficult to manage and often leads to user error during maintenance that can make the system unable to post.</span></span>
+
+## <a name="account-structure-activation"></a><span data-ttu-id="f3c46-171">Konto struktuuri aktiveerimine</span><span class="sxs-lookup"><span data-stu-id="f3c46-171">Account structure activation</span></span>
+<span data-ttu-id="f3c46-172">Kui olete konto struktuuri häälestuse või muudatusega rahul, tuleb see aktiveerida.</span><span class="sxs-lookup"><span data-stu-id="f3c46-172">When you are satifisfied with your new setup or a change to an account structure, you must activate it.</span></span> <span data-ttu-id="f3c46-173">Kui konto struktuur on määratud pearaamatule, siis võib aktiveerimine võtta kaua aega, kuna kõik süsteemi sisestamata kanded tuleb sünkroonida uue struktuuriga.</span><span class="sxs-lookup"><span data-stu-id="f3c46-173">If an account structure is assigned to a ledger, this activation can be a long running process, as all unposted transactions in the system must be synced to the new structure.</span></span> <span data-ttu-id="f3c46-174">Konto struktuuri muudatused ei mõjuta sisestatud kandeid.</span><span class="sxs-lookup"><span data-stu-id="f3c46-174">Posted transactions are not impacted with account structure changes.</span></span>
+
+<span data-ttu-id="f3c46-175">Lisateabe saamiseks vaadake jaotisi [Kontoplaanide plaanimine](plan-chart-of-accounts.md), [Finantsdimensioonid](financial-dimensions.md) ja [Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)](enter-account-dimension-combinations-segmented-entry-control.md).</span><span class="sxs-lookup"><span data-stu-id="f3c46-175">For more information, see [Plan your chart of accounts](plan-chart-of-accounts.md), [Financial dimensions](financial-dimensions.md) and [Enter account and dimension combinations (segmented entry control)](enter-account-dimension-combinations-segmented-entry-control.md).</span></span>
+
