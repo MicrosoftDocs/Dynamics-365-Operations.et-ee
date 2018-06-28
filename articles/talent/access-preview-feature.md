@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ Eelvaatefunktsioonide lubamiseks või keelamiseks saate rakenduse Microsoft Dyna
     > Sisestatud tööd on nähtavad ainult klientidele, kes on tellinud ühe või rohkem LinkedIni tööloendite toodet. Muul juhul näevad kliendid tööd vaid siis, kui nad seda konkreetselt otsivad. Tööde sisestamine LinkedIni toimub viivitusega. Pärast rakendusest Attract töö postitamist võib aega minna paar tundi, enne kui see nähtavaks muutub.
 
 - **Kandidaatide taotlused** – nii sisemised kui välised kandidaatid saavad nüüd esitada taotlusi tööde lehelt ja karjäärisaidilt.
-- **Hindamine** – kohandatava värbamisprotsessi osana, kas siis konkreetse töö jaoks või kui kasutatakse töömalli, on kasutajatel nüüd juurdepääs uuele tegevustüübile **Hindamine**. Nad saavad Talentis rakendusega Project: Gauge koostada põhihinnanguid, mida saab kandidaatidele saata. Rakendus Project: Gauge on saadaval ka avalikus eelvaates. Tulevikus lisatakse täiendavaid pakkujaid.
-- **Project: Gauge** – Project: Gauge on rakendus Talentis, mis võimaldab kasutajatel luua lihtsaid hinnanguid või uuringuid.
 - **Pakkumiste haldus** – kasutajad saavad nüüd luua pakkumiskirju mallidest, mis hõlmavad kohatäiteid. Kui kandidaadid jõuavad etappi Pakkumine, saavad värbajad ja personalijuhid kasutada tööriista Pakkumine, et valmistada ette kandidaadi ametlikku pakkumist mallide abil, saata pakkumist sisemiseks kinnitamiseks ja lõpuks saate pakkumine kandidaadile allkirjastamiseks. Aja jooksul lisatakse tööriistale Pakkumine mitmeid uusi võimalusi ja eelvaatefunktsiooni värskendatakse nende võimalustega, kui oleme valmis neid eelvaateks väljastama.
 
 ### <a name="core-hr"></a>Core HR
@@ -90,7 +88,7 @@ Soovime saada teilt tagasisidet eelvaatefunktsioonide kasutamise kohta olenemata
     - [Attract Ideas](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-Ärge kasutage tagasisides ega tootearvustustes isikuandmeid (igasugused andmed, mis võimaldavad isikut tuvastada). Kogutud teavet võidakse põhjalikumalt analüüsida ja seda ei kasutata kohalduvate isikuandmete kaitse seaduste järgi taotluste täitmiseks. Isikuandmetele, mida kogutakse eraldi nende programmidega, kehtib [Microsofti privaatsusavaldus](https://privacy.microsoft.com/en-us/privacystatement).
+Ärge kasutage tagasisides ega tootearvustustes isikuandmeid (igasugused andmed, mis võimaldavad isikut tuvastada). Kogutud teavet võidakse põhjalikumalt analüüsida ja seda ei kasutata kohalduvate isikuandmete kaitse seaduste järgi taotluste täitmiseks. Isikuandmetele, mida kogutakse eraldi nende programmidega, kehtib [Microsofti privaatsusavaldus](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Lisage see teema järjehoidjatesse ja kontrollige seda tihti, et olla kursis uusimate eelvaatefunktsioonidega, kui neid väljastame.

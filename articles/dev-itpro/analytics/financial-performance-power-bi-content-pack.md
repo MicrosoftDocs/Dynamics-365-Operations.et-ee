@@ -1,6 +1,6 @@
 ---
-title: "Finantsjõudluse Power BI sisu"
-description: Selles teemas kirjeldatakse finantstulemuste Power BI sisu.
+title: "Finantstulemuste PowerBI.com’i lahendus"
+description: "Selles teemas kirjeldatakse finantstulemuste PowerBI.com’i lahendust."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Finantsjõudluse Power BI sisu
+# <a name="financial-performance-powerbicom-solution"></a>Finantstulemuste PowerBI.com’i lahendus
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> See sisupakett on aegunud, nagu on kirjas dokumendis [AppSource’is saadaval olevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> See PowerBI.com’i lahendus on aegunud, nagu on kirjas dokumendis [AppSource’is saadaval olevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Selles teemas kirjeldatakse **finantstulemuste** Microsoft Power BI sisu. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet sisu loomiseks kasutatud andmemudeli ja üksuste kohta.
+Selles teemas kirjeldatakse **finantstulemuste** PowerBI.com’i lahendust. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet lahenduse loomiseks kasutatud andmemudeli ja üksuste kohta.
 
 ## <a name="main-account-setup"></a>Põhikonto seadistus
 Kuna organisatsioonid soovivad kuvada kohustused ja tulusummad aruannetel positiivsete summadena, on põhikontode seadistus oluline. Selleks, et need põhikontod kuvataks positiivsete summadena, peab põhikonto tüübiks olema määratud **Kohustus** või **Tulu**. Kui kasutatakse neid kontotüüpe, pööratakse aruande koostamisel Power BI kaudu märgid ümber ja näidatakse summasid positiivsena.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad armatuurlaud ja aruanded
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>PowerBI.com’i lahendusse kuuluvad armatuurlaud ja aruanded
 Armatuurlaud sisaldab aluseks olevatel aruannetel põhinevate andmete kokkuvõtlikke paane. Iga paan sisaldab kõigi organisatsiooni ettevõtete jooksva aasta kohta kokkuvõtlikku teavet. Siin on mõned neist paanidest.
 
 - Sularaha
@@ -74,7 +74,7 @@ Iga paan on varustatud toetava aruandega. Need aruanded sisaldavad nii teavet an
 Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinnitada armatuurlauale. Power BI-s filtreerimise ja kinnitamise kohta lisateabe saamiseks vaadake teemat [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-**Finantstulemuste** Power BI sisu alusena kasutati järgmisi üksuseid:
+**Finantstulemuste** PowerBI.com’i lahenduse alusena kasutati järgmisi üksusi.
 
 **Koondandmete üksused**
 

@@ -3,7 +3,7 @@ title: "Teatiste partii käivitamine"
 description: "See teema annab teavet teatiste pakktöötluse kohta rakenduses Microsoft Dynamics 365 for Finance and Operations."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -25,8 +25,6 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="batch-processing-for-alerts"></a>Teatiste pakktöötlus
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Teatisi töödeldakse rakenduse Microsoft Dynamics 365 for Finance and Operations pakktöötluse funktsioonidega. Enne teatiste edastamist tuleb pakktöötlus seadistada.
 

@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -43,8 +43,7 @@ Meetodit, mida kasutatakse koosluse- ja valemiridade väljastamiseks, juhitakse 
 - **Koosluse- ja valemiridade väljastamine tootmis- või partiitellimuse väljastamise osana** – selle meetodi puhul väljastatakse koosluse- ja valemiread tootmis- või partiitellimuse puhul osana tellimuse väljastamise protsessist. Tavaliselt väljastatakse tootmistööd tootmis- või partiitellimuse väljastamisel tööde juhtimise mooduli töötajatele ja prinditakse tootmisdokumendid. Selle protsessi käigus muudetakse selle tellimuse olekuks **Väljastatud**.
 - **Koosluse- ja valemiridade väljastamine pakett-töö kaudu või käsitsi interaktsioonina** – selle meetodi puhul saab koosluse- ja valemiridu väljastada ainult pakett-töö **Koosluse- ja valemiridade automaatne väljastamine** kaudu või käsitsi interaktsioonina. Koosluse- ja valemiridade käsitsi väljastamiseks valige toimingupaanil tootmistellimuse loendilehel või tootmistellimuse üksikasjade lehel käsk **Väljasta lattu**.
 
-Kiiret demonistratsiooni, kuidas väljastada koosluse- ja valemiridasid tootmisse, kasutades pakett-tööd, saate vaadata järgmisest lühikesest YouTube'i videost.
-[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
+Kiiret demonstratsiooni selle kohta, kuidas väljastada koosluse- ja valemiridasid tootmisse, kasutades pakett-tööd, saate vaadata järgmisest lühikesest YouTube’i videost: [Tootmise komplekteerimise väljastamine partiis olevasse lattu](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Koosluse- ja valemiridade väljastamine pakett-töö abil
 
@@ -85,8 +84,7 @@ Järgmisel joonisel on kujutatud tootmistellimus, millel on kaks toimingut, 10 j
 
 ![Materjali väljastamise näide toimingu numbri järgi](media/two-operations.PNG)
 
-Kiiret demonistratsiooni, kuidas väljastada materjali proportsionaalselt lõpetatud kaupade hulgaga, saate vaadata järgmisest lühikesest YouTube'i videost.
-[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
+Kiiret demonstratsiooni selle kohta, kuidas väljastada materjali proportsionaalselt lõpetatud kaupade hulgaga, saate vaadata järgmisest lühikesest YouTube’i videost: [Tootmistellimuse väljastusprotsessi täiustused rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materjali väljastamine proportsionaalselt lõpetatud kaupade hulgaga
 

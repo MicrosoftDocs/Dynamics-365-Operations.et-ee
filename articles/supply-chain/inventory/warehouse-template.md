@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
-ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -94,10 +94,7 @@ Teil on võimalik andmed ZIP-failina alla laadida. See fail sisaldab kõiki vali
 
 Käsk **Kuva käivituslogi** annab üksikasjaliku teabe iga imporditud andmeüksuse kohta. Kiirelt sihtandmete juurde jõudmiseks saate kasutada andmete ajastamise vaadet. Sel viisil näete, kuidas imporditud andmed rakenduse seotud lehekülgedel välja näevad. Vaikeandmemallide kasutamisel töötab importimise järjestus iga andmeüksuse puhul eelmääratud viisil, tagamaks, et sõltuvad andmed imporditakse esimesena. Kui projekti kuuluvad kohandatud andmeüksused, peate veenduma, et õige järjekord oleks määratud. Lisateavet vaadake teemast [„Konfigureerimisandmete mallid”](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Rohkem teavet selle kohta, kuidas kasutada laomalli, et kopeerida lao konfiguratsiooni ühest ettevõttest sama eksemplari uude ettevõttesse, leiate järgmisest 3-minutilisest YouTube'i videost.
-
-> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
-
+Rohkem teavet selle kohta, kuidas kasutada laomalli, et kopeerida lao konfiguratsiooni ühest ettevõttest sama eksemplari uude ettevõttesse, leiate järgmisest 3-minutilisest YouTube’i videost: [Laomalli kasutamine konfiguratsiooni kopeerimiseks rakenduses Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Seotud teema
 

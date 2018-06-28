@@ -1,9 +1,9 @@
 ---
-title: Power BI sisu
-description: Selles teemas loetletakse saadaolev Power BI sisu ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
+title: "PowerBI.com’i lahendused"
+description: "Selles teemas loetletakse saadaolevad PowerBI.com’i lahendused ja osutatakse ressurssidele, kust lahenduste kohta lisateavet saab."
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a>Power BI sisu
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a>PowerBI.com’i lahendused
+Rakenduse Dynamics 365 for Finance and Operations keskkondade jaoks on saadaval järgmised PowerBI.com’i lahendused. 
 
-Selles teemas loetletakse saadaolev Microsoft Power BI sisu ja osutatakse ressurssidele, kust selle kohta lisateavet saab.
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Teenuse Lifecycle Services (LCS) kaudu saadaolevad PowerBI.com’i lahendused
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>Power BI sisu rakenduse Dynamics 365 for Finance and Operations jaoks
-Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, siis on saadaval järgmine Power BI sisu.
-
-- [Power BI sisu Tegelik võrreldes eelarvega](ledger-budgets-power-bi.md)
-- [Soodustuste Power BI sisu](benefits-power-bi.md)
-- [Kassa ülevaate Power BI sisu](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [CFO ülevaate Power BI sisu](CFO-power-bi.md)
-- [Tasu Power BI sisu](compensation-power-bi.md)
-- [Kuluarvestuse analüüsi Power BI sisu](cost-accounting-analysis-content-pack.md) 
-- [Kuluhalduse Power BI sisu](cost-management-content-pack.md)    
-- [Krediidi ja võlanõuete halduse Power BI sisu](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Töötajate arengu Power BI sisu](employee-development-PBI.md) 
-- [Finantsülevaadete Power BI sisu](financial-insights.md)
-- [Finantsjõudluse Power BI sisu](financial-performance-power-bi-content-pack.md)
-- [Põhivarade halduse Power BI sisu](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [Õppimise Power BI sisu](learning-power-bi.md)
-- [Harjutushalduri Power BI sisu](practice-manager-power-bi.md)
-- [Tootmistulemuste Power BI sisu](production-performance-power-bi.md)
-- [Ostukulutuste analüüsi Power BI sisu](purchase-content-pack-for-power-bi.md) 
-- [Värbamise Power BI sisu](recruiting-analysis-power-bi-content-pack.md) 
-- [Müügi ja tulususe tulemuste Power BI sisu](sales-profitability-performance-content-pack.md)
-- [Hankija maksete Power BI sisu](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [Laojõudluse Power BI sisu](warehouse-power-bi-content.md)
-- [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Dynamics 365 for Operationsi (versioon 1611) Power BI sisu
-Kui kasutate rakenduse Microsoft Dynamics 365 for Finance and Operationsi versiooni 1611, siis on saadaval järgmine Power BI sisu.
-
-- [Hüvituse ja soodustuste Power BI sisu](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [Kuluarvestuse analüüsi Power BI sisu](cost-accounting-analysis-content-pack.md) 
-- [Krediidi ja võlanõuete halduse Power BI sisu](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Töötaja pädevuste ja arengu Power BI sisu](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [Finantsjõudluse Power BI sisu](financial-performance-power-bi-content-pack.md)
-- [Organisatsiooni koolituse Power BI sisu](organizational-training-analysis-power-bi-content-pack.md) 
-- [Harjutushalduri Power BI sisu](practice-manager-power-bi.md)
-- [Tootmistulemuste Power BI sisu](production-performance-power-bi.md)
-- [Ostukulutuste analüüsi Power BI sisu](purchase-content-pack-for-power-bi.md) 
-- [Värbamise Power BI sisu](recruiting-analysis-power-bi-content-pack.md) 
-- [Müügi ja tulususe tulemuste Power BI sisu](sales-profitability-performance-content-pack.md)
-- [Laojõudluse Power BI sisu](warehouse-power-bi-content.md)
-- [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI sisu Microsoft Dynamics AX-i jaoks
-Kui kasutate rakendust Microsoft Dynamics AX 7.0 või Microsoft Dynamics AX 7.0.1, siis on saadaval järgmine Power BI sisu.
+LCS-i ühiste vahendite teegis on saadaval järgmised PowerBI.com’i lahendused. Vaadake versiooniteavet ühiste vahendite teegist, et laadida oma keskkonna jaoks alla õige versioon. 
 
 > [!Note]
-> Need sisupaketid on aegunud, nagu on kirjas dokumendis [Saidil PowerBI.com avaldatud Power BI sisupaketid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> Enamik PowerBI.com’i lahendustest järgmises loendis on manustatud rakenduse Dynamics 365 for Finance and Operations viimaste versioonide analüütilistesse tööruumidesse. Analüütiliste tööruumide kasutamine kõrvaldab vajaduse nende lahenduste allalaadimiseks ühiste vahendite teegist LCS-is. Selles loendis toodud teemad näitavad, kuhu need PowerBI.com’i lahendused on Finance and Operationsis manustatud (kohaldatavusel). 
 
-- [Kuluhalduse Power BI sisu](cost-management-content-pack.md)    
-- [Finantsjõudluse Power BI sisu](financial-performance-power-bi-content-pack.md)
-- [Jaemüügikanali näitajate Power BI sisu](retail-channel-performance-dashboard-power-bi-data.md) 
+- [Tegelik võrreldes eelarvega](ledger-budgets-power-bi.md)
+- [Kassa ülevaade](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [Hüvitused ja soodustused](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Kuluarvestuse analüüs](cost-accounting-analysis-content-pack.md) 
+- [Krediidi ja võlanõuete haldus](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [Töövõtja pädevused ja areng](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Finantstulemused](financial-performance-power-bi-content-pack.md)
+- [Põhivara haldamine](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [Organisatsiooni koolitus](organizational-training-analysis-power-bi-content-pack.md) 
+- [Harjutushaldur](practice-manager-power-bi.md)
+- [Tootmise jõudlus](production-performance-power-bi.md)
+- [Ostu kulutusanalüüs](purchase-content-pack-for-power-bi.md) 
+- [Värbamine](recruiting-analysis-power-bi-content-pack.md)
+- [Müügi ja tulususe jõudlus](sales-profitability-performance-content-pack.md)
+- [Hankija maksed](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [Laojõudlus](warehouse-power-bi-content.md)
+- [Tööjõu mõõdikud](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a>AppSource’is saadaolevad PowerBI.com’i lahendused
 
+[Microsoft AppSource’is](https://appsource.microsoft.com) on saadaval järgmised PowerBI.com’i lahendused.
+
+> [!Note]
+> Need lahendused on aegunud, nagu on kirjas dokumendis [AppSource’is saadaval olevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+
+- Kuluhaldus    
+- [Finantstulemused](financial-performance-power-bi-content-pack.md)
+- [Jaemüügikanali jõudlus ](retail-channel-performance-dashboard-power-bi-data.md) 
 

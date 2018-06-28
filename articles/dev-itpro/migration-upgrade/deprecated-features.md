@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
+ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
+ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 
@@ -162,6 +162,18 @@ Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isi
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, 2017. aasta juulikuu väljaanne platvormivärskendusega 8
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valuutateisendus arvestus- ja aruandlusvaluutade jaoks
+
+Valuutateisenduse funktsioon arvestus- ja aruandlusvaluutade jaoks võeti kasutusele koos euro kasutuselevõtuga.
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Piiratud kasutus ja juriidilise isiku Koopia funktsiooni lisamine asendamise jaoks.      |
+| **Asendatud teise funktsiooniga?**   | Ei, aga funktsioonid juriidilise isiku Koopia ja Konfiguratsioonid lisati, et lihtsustada üleminekut ettevõttele, mille tuumnõudmised on muutuvad. |
+| **Mõjutatud tootealad**         | Finantshaldus     |
+| **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata.   |
+
 
 ### <a name="warehouse-mobile-devices-portal"></a>Lao mobiilsete seadmete portaal
 
