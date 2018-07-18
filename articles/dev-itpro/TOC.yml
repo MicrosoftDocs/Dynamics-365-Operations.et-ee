@@ -1014,6 +1014,8 @@
           href: deployment/apply-deployable-package-system.md
         - name: Juurutatava paketi installimine
           href: deployment/install-deployable-package.md
+        - name: Paketi desinstallimine
+          href: deployment/uninstall-deployable-package.md
         - name: Paketi rakenduse probleemide tõrkeotsing
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Täiendused, värskendused ja kiirparandused'

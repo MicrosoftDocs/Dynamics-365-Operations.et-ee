@@ -403,158 +403,13 @@
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
         - name: Oma andmebaasi toomine
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
-        - name: Andmete ülesannete automatiseerimine
+        - name: Andmeülesannete automatiseerimine
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: Andmete valideerimise tööruum
           href: ../dev-itpro/user-interface/data-validation-workspace.md
     - name: Finantshaldus
       href: ../financials/index.md
       items:
-        - name: Pearaamat
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: Kontod
-              items:
-                - name: Viitvõlgade ülevaade
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Eemaldamisreeglid
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Konto ja dimensiooni kombinatsioonid
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Tasakaalustatud töölehed sisekäibe jaoks
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Sisestamisdefinitsioonid
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Sisestamisdefinitsiooni näited '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Pearaamatukonto saldod
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Finantsdimensioonide määratlemine
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Finantsdimensiooni vaikemallide haldamine
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Kontostruktuuride loomine
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Viitvõlaskeemide loomine
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Põhikonto tüübid
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Põhikonto loomine
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Kontoplaanide plaanimine
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Pearaamatukontode kannete tasakaalustamine
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Pearaamatukonto pseudonüümi seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Põhikonto kategooriate seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Arveldusallika uurija
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Arvestuse jaotused
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Eraldiste töötlemine
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Finantsdimensioonid
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Arvestus- või aruandlusvaluutade teisendamine
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Konsolideerimiskontogrupid ja -kontod
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Konsolideerimise ja eemaldamise ülevaade
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Konto struktuuride konfigureerimine
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Töölehed ja pearaamatud
-              items:
-                - name: Üldtöölehe töötlemine
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Perioodiliste töölehtede sisestamine
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Pearaamatu eraldamistöölehe töötlemine
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Kontsernisisese raamatupidamise seadistamine
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Pearaamatu eraldamisreeglid
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Täpsemate reeglite loomine töölehtede jaoks
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Täpsemate reeglistruktuuride loomine ja määramine
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Pearaamatu töölehe tüübid
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Töölehtede loomine ja kinnitamine
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Töölehe sisestuste või kannete kuvamine
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Seotud kontsernisisese kande kuvamine töölehelt
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Töölehe sisestuse loomine malli abil
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Pearaamatu tekkepõhiste kannete loomine
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Exceli töölehe ridade ja dokumentide avaldamine
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Töölehe sisestuste ja kannete kuvamine
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Sisestatud töölehekirjete töölehele paigutamine
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Valuuta ümberarvutamine konsolideeritavas ettevõttes
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Pearaamatu välisvaluuta ümberarvutamine
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Valuutavahetuskursside importimine
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: Perioodi lõpu sulgemine
-              items:
-                - name: Pearaamatu sulgemine perioodi lõpus
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Finantsperioodi sulgemise tööruum
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Aastalõpu sulgemine
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Finantsaasta sulgemine
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Finantsperioodi hulgisulgemine
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Käibemaks
-              items:
-                - name: Käibemaksu ülevaade
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Käibemaksu määrad marginaali aluse põhjal ja arvutamismeetodid
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: Käibemaksu maksed ja ümardamisreeglid
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Käibemaksuarvutusmeetodid väljal Päritolu
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Käibemaksumakse loomine
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Käibemaksukannete loomine dokumentidel
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Pearaamatu käibemaksu sisestusgruppide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Käibemaksuhaldurite seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Käibemaksukoodide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Käibemaksugruppide ja kauba käibemaksugruppide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Käibemaksuaruandluse koodide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Käibemaksu tasakaalustusperioodide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Kinnipeetava maksu seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Sisestatud käibemaksukannete kuvamine
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Ostureskontro
           href: ../financials/accounts-payable/accounts-payable.md
           items:
@@ -662,6 +517,10 @@
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Krediitkaardi seadistamine, autoriseerimine ja hõivamine'
               href: ../financials/accounts-receivable/credit-card-authorizations.md
+            - name: Vabas vormis arve loomine
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: Vabas vormis arve malli loomine
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: Vabas vormis arve parandamine
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
             - name: Intressikoodile intressimäära seadistamine
@@ -682,12 +541,6 @@
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
                 - name: Märgukirjaseeria loomine
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Kliendi jaoks otsekorralduse loa loomine
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: Vabas vormis arve loomine
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: Vabas vormis arve malli loomine
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
                 - name: Vahemikuga intressikoodi loomine
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
                 - name: Müügitellimuse arvete loomine
@@ -732,6 +585,31 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Kliendi osalises summas maksed
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: Eelarvestamine
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: 'Eelarve plaanimise ülevaade '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: 'Eelarve juhtimise ülevaade '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: 'Eelarve koostamise ülevaade  '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Ametikoha prognoosimine
+              href: ../financials/budgeting/position-forecasting.md
+            - name: Eelarve planeerimise põhjendusdokumendid
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: Eelarve loomine kandekontodest ja summakontodest
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Eelarve planeerimise mallid Exceli jaoks
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: Ametikoha eelarvestamise tõrkeotsing
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: Eelarve plaanimine
+              href: ../financials/budgeting/budget-plan.md
+            - name: Eelarve plaanimise andmete eraldamine
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: Eelarve plaanimise integreerimine muude moodulitega
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Sularaha- ja pangahaldus
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Pangatöölehe liitüksuse värskendamine
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: Kuluarvestus
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: Kuluarvestuse terminoloogia
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: Finantsdimensioonid
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: Konto struktuurid
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: Kontostruktuuride loomine
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: Eelarve koostamise ülevaade
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Dimensioonide loomine ja dimensiooniliikmete importimine
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: Kuluelemendi dimensioonid
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: Kuluelementide loomine
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: Kuluobjekti dimensioonid
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: Kuluobjektide loomine
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: Kuluelemendi dimensiooniliikmete vastendamine dimensiooniliikmete ühtse mudeliga
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: Kuluelemendi dimensiooni vastendamine
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: Dimensioonihierarhia
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: Organisatsiooni aruandehierarhia loomine
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: Kuluobjekti kontrolleri pääsuõigused
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: Kuluobjekti kontrolleri pääsuõiguste konfigureerimine
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: Kulujuhtimisüksuste määratlemine
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: Kuluarvestuse pearaamatu loomine
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: Statistilise dimensiooni liikmed ja statistiliste mõõtude pakkuja mallid
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: Eraldamise alused
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: Kulueraldamispoliitika loomine ja määramine kulujuhtimisüksusele
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: Kulukäitumispoliitika loomine ja määramine kulujuhtimisüksusele
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: Kulujaotuspoliitika loomine ja määramine kulujuhtimisüksusele
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: Kulukomplekti poliitika loomine
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: Kuluarvestuse pearaamatu andmeallika haldamine
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: Lähteandmete töötlemine ja jälgimine
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: Üldkulude arvutus
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: Kulukomplekti poliitika ja üldkulude arvutus
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: Kulujuhtimise tööruumi konfigureerimine
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: Kulujuhtimise tööruumi parameetrite konfigureerimine
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: Juurdepääsuloendi turbe ja RLS-i mõistmine Microsoft Power BI-s
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Sisupaketi kasutamine Microsoft Power BI aruandluse jaoks
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Kulujuhtimise tööruumi kasutamine Finance and Operationsi mobiilirakenduses
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: Kulude haldus
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: Kuluhalduse plaanimine
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: Kulutuste haldamise parameetrid
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: Kuluhalduse mobiilne tööruum
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: Kulude halduse töövoogude häälestamine
+              href: ../financials/expense-management/expense-workflows.md
+            - name: Kuluhalduse töövoog
+              href: ../financials/expense-management/expense-workflow.md
+            - name: Krediitkaardikannete importimine ja haldamine
+              href: ../financials/expense-management/import-credit-card.md
+            - name: Kuluaruande jaotused
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: Kontsernisisesed kulud
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: Kulupoliitikad
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: Kuluaruande vaatamine
+              href: ../financials/expense-management/view-expense-report.md
+            - name: Kuluaruande sisestamine
+              href: ../financials/expense-management/post-expense.md
+            - name: Kuluaruanded ja mitu kinnitajat
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: Käibemaksu sissenõudmine kulude halduses
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: Päevaraha reeglid
+              href: ../financials/expense-management/per-diem.md
+            - name: Reisiplaanid
+              href: ../financials/expense-management/travel-req.md
+            - name: Isiklikud kulud kuluaruandes
+              href: ../financials/expense-management/personal-expenses.md
         - name: Põhivarad
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,152 +900,151 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: Põhivara ülekandmine
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: Kuluhaldus
-          href: ../financials/expense-management/expense-management.md
+        - name: Pearaamat
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Kuluhalduse plaanimine
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: Kulutuste haldamise parameetrid
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: Kuluhalduse mobiilne tööruum
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: Kulude halduse töövoogude häälestamine
-              href: ../financials/expense-management/expense-workflows.md
-            - name: Kuluhalduse töövoog
-              href: ../financials/expense-management/expense-workflow.md
-            - name: Krediitkaardikannete importimine ja haldamine
-              href: ../financials/expense-management/import-credit-card.md
-            - name: Kuluaruande jaotused
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: Kontsernisisesed kulud
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: Kulupoliitikad
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: Kuluaruande vaatamine
-              href: ../financials/expense-management/view-expense-report.md
-            - name: Kuluaruande sisestamine
-              href: ../financials/expense-management/post-expense.md
-            - name: Kuluaruanded ja mitu kinnitajat
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: Käibemaksu sissenõudmine kulude halduses
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: Päevaraha reeglid
-              href: ../financials/expense-management/per-diem.md
-            - name: Reisiplaanid
-              href: ../financials/expense-management/travel-req.md
-            - name: Isiklikud kulud kuluaruandes
-              href: ../financials/expense-management/personal-expenses.md
-        - name: Eelarvestamine
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: 'Eelarve plaanimise ülevaade '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Eelarve juhtimise ülevaade '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Eelarve koostamise ülevaade  '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Ametikoha prognoosimine
-              href: ../financials/budgeting/position-forecasting.md
-            - name: Eelarve planeerimise põhjendusdokumendid
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: Eelarve loomine kandekontodest ja summakontodest
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: Eelarve planeerimise mallid Exceli jaoks
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: Ametikoha eelarvestamise tõrkeotsing
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: Eelarve plaanimine
-              href: ../financials/budgeting/budget-plan.md
-            - name: Eelarve plaanimise andmete eraldamine
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: Eelarve plaanimise integreerimine muude moodulitega
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: Aruandlus
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: Bilansi finantsaruanded
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Finantsaruande loomine
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: Kasumiaruande finantsaruanne
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: Proovibilansi finantsaruanded
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: Finantsaruannete vaatamine
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: Aruande koostaja
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Kuluarvestus
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: Kuluarvestuse terminoloogia
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Finantsdimensioonid
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: Konto struktuurid
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: Kontostruktuuride loomine
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: Eelarve koostamise ülevaade
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Dimensioonide loomine ja dimensiooniliikmete importimine
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: Kuluelemendi dimensioonid
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: Kuluelementide loomine
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: Kuluobjekti dimensioonid
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: Kuluobjektide loomine
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: Kuluelemendi dimensiooniliikmete vastendamine dimensiooniliikmete ühtse mudeliga
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: Kuluelemendi dimensiooni vastendamine
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: Dimensioonihierarhia
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: Organisatsiooni aruandehierarhia loomine
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: Kuluobjekti kontrolleri pääsuõigused
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: Kuluobjekti kontrolleri pääsuõiguste konfigureerimine
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: Kulujuhtimisüksuste määratlemine
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: Kuluarvestuse pearaamatu loomine
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: Statistilise dimensiooni liikmed ja statistiliste mõõtude pakkuja mallid
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: Eraldamise alused
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: Kulueraldamispoliitika loomine ja määramine kulujuhtimisüksusele
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: Kulukäitumispoliitika loomine ja määramine kulujuhtimisüksusele
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: Kulujaotuspoliitika loomine ja määramine kulujuhtimisüksusele
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: Kulukomplekti poliitika loomine
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Kuluarvestuse pearaamatu andmeallika haldamine
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: Lähteandmete töötlemine ja jälgimine
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: Üldkulude arvutus
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: Kulukomplekti poliitika ja üldkulude arvutus
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: Kulujuhtimise tööruumi konfigureerimine
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: Kulujuhtimise tööruumi parameetrite konfigureerimine
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: Juurdepääsuloendi turbe ja RLS-i mõistmine Microsoft Power BI-s
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Sisupaketi kasutamine Microsoft Power BI aruandluse jaoks
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Kulujuhtimise tööruumi kasutamine Finance and Operationsi mobiilirakenduses
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+            - name: Kontod
+              items:
+                - name: Viitvõlgade ülevaade
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Eemaldamisreeglid
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Konto ja dimensiooni kombinatsioonid
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Tasakaalustatud töölehed sisekäibe jaoks
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Sisestamisdefinitsioonid
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: 'Sisestamisdefinitsiooni näited '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Pearaamatukonto saldod
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Finantsdimensioonide määratlemine
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Finantsdimensiooni vaikemallide haldamine
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Kontostruktuuride loomine
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Viitvõlaskeemide loomine
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Põhikonto tüübid
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Põhikonto loomine
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Kontoplaanide plaanimine
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Pearaamatukontode kannete tasakaalustamine
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Pearaamatukonto pseudonüümi seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Põhikonto kategooriate seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Arveldusallika uurija
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Arvestuse jaotused
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Eraldiste töötlemine
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Finantsdimensioonid
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Arvestus- või aruandlusvaluutade teisendamine
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Konsolideerimiskontogrupid ja -kontod
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Konsolideerimise ja eemaldamise ülevaade
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Konto struktuuride konfigureerimine
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: Töölehed ja pearaamatud
+              items:
+                - name: Üldtöölehe töötlemine
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Perioodiliste töölehtede sisestamine
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Pearaamatu eraldamistöölehe töötlemine
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Kontsernisisese raamatupidamise seadistamine
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Pearaamatu eraldamisreeglid
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Täpsemate reeglite loomine töölehtede jaoks
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Täpsemate reeglistruktuuride loomine ja määramine
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Pearaamatu töölehe tüübid
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Töölehtede loomine ja kinnitamine
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Töölehe sisestuste või kannete kuvamine
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Seotud kontsernisisese kande kuvamine töölehelt
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Töölehe sisestuse loomine malli abil
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Pearaamatu tekkepõhiste kannete loomine
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Exceli töölehe ridade ja dokumentide avaldamine
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Töölehe sisestuste ja kannete kuvamine
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Sisestatud töölehekirjete töölehele paigutamine
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Valuuta ümberarvutamine konsolideeritavas ettevõttes
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Pearaamatu välisvaluuta ümberarvutamine
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Valuutavahetuskursside importimine
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: Perioodi lõpu sulgemine
+              items:
+                - name: Pearaamatu sulgemine perioodi lõpus
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Finantsperioodi sulgemise tööruum
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Aastalõpu sulgemine
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Finantsaasta sulgemine
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Finantsperioodi hulgisulgemine
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Käibemaks
+              items:
+                - name: Käibemaksu ülevaade
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Käibemaksu määrad marginaali aluse põhjal ja arvutamismeetodid
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: Käibemaksu maksed ja ümardamisreeglid
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Käibemaksuarvutusmeetodid väljal Päritolu
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Käibemaksumakse loomine
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Käibemaksukannete loomine dokumentidel
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Pearaamatu käibemaksu sisestusgruppide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Käibemaksuhaldurite seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Käibemaksukoodide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Käibemaksugruppide ja kauba käibemaksugruppide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Käibemaksuaruandluse koodide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Käibemaksu tasakaalustusperioodide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Kinnipeetava maksu seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Sisestatud käibemaksukannete kuvamine
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Avalik sektor
           href: ../financials/public-sector/public-sector-functionality.md
           items:
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: Ostulepingu klassifikatsioonide seadistamine avalikus sektoris
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: Finantsaruandlus
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: Finantsaruande loomine
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: Finantsaruande komponendid
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: Aruande koostaja
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Kasutaja eelistused
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Täpsemad vormingusuvandid
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Finantsaruande komponentide korraldamine
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Aruande definitsioonid
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: Rea definitsioonid
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Veeru definitsioonid
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: Rea definitsioonide lahtrite muutmine
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Finantsaruandluse andmevaka lähtestamine pärast andmebaasi taastamist
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Finantsaruandlus
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: Finantsaruandluse ülevaade
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: Finantsaruande komponendid
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: Bilansi finantsaruanded
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: Finantsaruande loomine
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: Kasumiaruande finantsaruanne
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: Proovibilansi finantsaruanded
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: Finantsaruannete vaatamine
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: Aruande koostaja
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: Kasutaja eelistused
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Täpsemad vormingusuvandid
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Finantsaruande komponentide korraldamine
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Aruande definitsioonid
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: Rea definitsioonid
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Veeru definitsioonid
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: Rea definitsioonide lahtrite muutmine
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Finantsaruandluse andmevaka lähtestamine pärast andmebaasi taastamist
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Lokaliseerimine ja regulatiivsed funktsioonid
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -3994,5 +3987,3 @@
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-- name: Dynamics 365 for Talent
-  href: ../talent/toc.yml
