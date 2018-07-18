@@ -1,84 +1,87 @@
-- name: Tere tulemast rakendusse Microsoft Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
-- name: Alustamine
-  href: talent-get-started.md
   items:
-    - name: Süsteeminõuded ja värskenduspoliitika
-      href: talent-versions-update-policy.md
-    - name: Rakenduse Microsoft Dynamics 365 for Talent ettevalmistus
-      href: provisioning-talent.md
-    - name: Keskkonna Talent eemaldamine
-      href: remove-talent-environment.md
-    - name: Moodulrakenduste Microsoft Dynamics 365 for Talent ettevalmistus
-      href: modular-app-tech-faq.md
-    - name: Talenti funktsioonide laiendamine
-      href: extend-talent-functionality.md
-    - name: Juurdepääs eelvaatefunktsioonidele rakenduses Dynamics 365 for Talent
-      href: access-preview-feature.md
-- name: Inimressursside strateegia arendamine
-  href: departments-jobs-positions.md
-  items:
-    - name: Töökomponentide häälestamine
-      href: create-job.md
-    - name: Osakonna loomine ja selle seostamine osakonnahierarhiaga
-      href: create-department-add-department-hierarchy.md
-    - name: Juriidilistele isikutele inimressursside parameetrite seadistamine
-      href: set-up-hr-parameters-across-legal-entities.md
-    - name: Ettevõttekohaste inimressursside parameetrite seadistamine
-      href: set-up-company-specific-hr-parameters.md
-    - name: Personalitegevuste KKK
-      href: personnel-actions-faq.md
-    - name: Äriprotsesside formaliseerimine
-      href: formalize-business-processes.md
-    - name: Töövoo kasutamine töövõtja teabe haldamiseks
-      href: workflow-manage-employee-information.md
-    - name: Puhkuste ja puudumiste ülevaade
-      href: leave-absence-overview.md
-- name: Organisatsiooni personal
-  items:
-    - name: Attracti ülevaade
-      href: attract-overview.md
-    - name: Onboardi ülevaade
-      href: create-onboarding-experience.md
-- name: Töötajate motiveerimine
-  items:
-    - name: Hüvitusplaanid
-      href: compensation-plans.md
-    - name: Põhipalga plaanide loomine
-      href: create-fixed-compensation-plans.md
-    - name: Ergutussüsteemi plaanide loomine
-      href: create-variable-compensation-plans.md
-    - name: Hüvitusprotsess
-      href: process-compensation.md
-- name: Töötajate arendamine ja koolitamine
-  items:
-    - name: Jõudlushalduse ülevaade
-      href: performance-management-overview.md
-    - name: Töötajate oskuste joondamine ärivajadustega
-      href: skills.md
-    - name: Koolituskursuste seadistamine
-      href: courses.md
-- name: Soodustuste loomine ja haldamine
-  href: manage-benefit-program.md
-- name: Soodustuse saamise õiguse eeskirjad
-  href: benefit-eligibility-policies.md
-  items:
-    - name: Töötajatele laenatud artiklite haldamine
-      href: loan-items.md
-- name: Teabe kogumine küsimustike abil
-  href: questionnaires.md
-  items:
-    - name: Küsimustiku kujundamine
-      href: design-questionnaires.md
-    - name: Küsimustiku laialisaatmine ja täitmine
-      href: distribute-questionnaires.md
-    - name: Küsimustiku tulemuste hindamine
-      href: evaluate-questionnaire-results.md
-- name: Töökoha ohutus ja nõuetele vastavus (Ameerika Ühendriigid)
-  items:
-    - name: Isikuandmete taotlusele vastamine Talenti abil
-      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
-    - name: Vorm I-9 töökohale sobivuse kontrollimine
-      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
-    - name: Vastavus ADA-le
-      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+    - name: Alustamine
+      href: talent-get-started.md
+      items:
+        - name: Süsteeminõuded ja värskenduspoliitika
+          href: talent-versions-update-policy.md
+        - name: Rakenduse Microsoft Dynamics 365 for Talent ettevalmistus
+          href: provisioning-talent.md
+        - name: Keskkonna Talent eemaldamine
+          href: remove-talent-environment.md
+        - name: Moodulrakenduste Microsoft Dynamics 365 for Talent ettevalmistus
+          href: modular-app-tech-faq.md
+        - name: Talenti funktsioonide laiendamine
+          href: extend-talent-functionality.md
+        - name: Juurdepääs eelvaatefunktsioonidele rakenduses Dynamics 365 for Talent
+          href: access-preview-feature.md
+        - name: Talenti konfigureerimine palgaarvestuse integratsiooni toetamiseks
+          href: configure-payroll-integration.md
+    - name: Inimressursside strateegia arendamine
+      href: departments-jobs-positions.md
+      items:
+        - name: Töökomponentide häälestamine
+          href: create-job.md
+        - name: Osakonna loomine ja selle seostamine osakonnahierarhiaga
+          href: create-department-add-department-hierarchy.md
+        - name: Juriidilistele isikutele inimressursside parameetrite seadistamine
+          href: set-up-hr-parameters-across-legal-entities.md
+        - name: Ettevõttekohaste inimressursside parameetrite seadistamine
+          href: set-up-company-specific-hr-parameters.md
+        - name: Personalitegevuste KKK
+          href: personnel-actions-faq.md
+        - name: Äriprotsesside formaliseerimine
+          href: formalize-business-processes.md
+        - name: Töövoo kasutamine töövõtja teabe haldamiseks
+          href: workflow-manage-employee-information.md
+        - name: Puhkuste ja puudumiste ülevaade
+          href: leave-absence-overview.md
+    - name: Organisatsiooni personali palkamine
+      items:
+        - name: Attracti ülevaade
+          href: attract-overview.md
+        - name: Onboardi ülevaade
+          href: create-onboarding-experience.md
+    - name: Töötajate motiveerimine
+      items:
+        - name: Hüvitusplaanid
+          href: compensation-plans.md
+        - name: Põhipalga plaanide loomine
+          href: create-fixed-compensation-plans.md
+        - name: Ergutussüsteemi plaanide loomine
+          href: create-variable-compensation-plans.md
+        - name: Hüvitusprotsess
+          href: process-compensation.md
+    - name: Töötajate arendamine ja koolitamine
+      items:
+        - name: Jõudlushalduse ülevaade
+          href: performance-management-overview.md
+        - name: Töötajate oskuste joondamine ärivajadustega
+          href: skills.md
+        - name: Koolituskursuste seadistamine
+          href: courses.md
+    - name: Soodustuste loomine ja haldamine
+      href: manage-benefit-program.md
+    - name: Soodustuse saamise õiguse eeskirjad
+      href: benefit-eligibility-policies.md
+      items:
+        - name: Töötajatele laenatud artiklite haldamine
+          href: loan-items.md
+    - name: Teabe kogumine küsimustike abil
+      href: questionnaires.md
+      items:
+        - name: Küsimustiku kujundamine
+          href: design-questionnaires.md
+        - name: Küsimustiku laialisaatmine ja täitmine
+          href: distribute-questionnaires.md
+        - name: Küsimustiku tulemuste hindamine
+          href: evaluate-questionnaire-results.md
+    - name: Töökoha ohutus ja nõuetele vastavus (Ameerika Ühendriigid)
+      items:
+        - name: Isikuandmete taotlusele vastamine Talenti abil
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+        - name: Vorm I-9 töökohale sobivuse kontrollimine
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+        - name: Vastavus ADA-le
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json

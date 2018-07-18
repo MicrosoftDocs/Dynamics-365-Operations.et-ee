@@ -1,46 +1,78 @@
 ---
 title: Finantshalduse avaleht
 description: See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 19ba20ce16c9916e09b862b0ebedbf68259c7769
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
-# <a name="financial-management-home-page"></a><span data-ttu-id="ed868-103">Finantshalduse avaleht</span><span class="sxs-lookup"><span data-stu-id="ed868-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a><span data-ttu-id="7326f-103">Finantshalduse avaleht</span><span class="sxs-lookup"><span data-stu-id="7326f-103">Financial management home page</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ed868-104">See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ed868-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
+<span data-ttu-id="7326f-104">See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="7326f-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-<span data-ttu-id="ed868-105">Valige funktsiooniala, et selle kohta rohkem teavet saada.</span><span class="sxs-lookup"><span data-stu-id="ed868-105">Select a feature area to learn more about it.</span></span>
-- [<span data-ttu-id="ed868-106">Ostureskontro</span><span class="sxs-lookup"><span data-stu-id="ed868-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
-- [<span data-ttu-id="ed868-107">Müügireskontro</span><span class="sxs-lookup"><span data-stu-id="ed868-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md) 
-- [<span data-ttu-id="ed868-108">Sularaha- ja pangahaldus</span><span class="sxs-lookup"><span data-stu-id="ed868-108">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
-- [<span data-ttu-id="ed868-109">Kuluarvestus</span><span class="sxs-lookup"><span data-stu-id="ed868-109">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
-- [<span data-ttu-id="ed868-110">Põhivarad</span><span class="sxs-lookup"><span data-stu-id="ed868-110">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
-- [<span data-ttu-id="ed868-111">Pearaamat</span><span class="sxs-lookup"><span data-stu-id="ed868-111">General ledger</span></span>](general-ledger/general-ledger.md) 
-- [<span data-ttu-id="ed868-112">Projektihaldus</span><span class="sxs-lookup"><span data-stu-id="ed868-112">Project management</span></span>](project-management/overview-project-management-accounting.md)
-- [<span data-ttu-id="ed868-113">Avalik sektor</span><span class="sxs-lookup"><span data-stu-id="ed868-113">Public sector</span></span>](public-sector/public-sector-functionality.md) 
-- [<span data-ttu-id="ed868-114">Eelarvestamine</span><span class="sxs-lookup"><span data-stu-id="ed868-114">Budgeting</span></span>](budgeting/budgeting-overview.md) 
+<span data-ttu-id="7326f-105">Valige funktsiooniala, et selle kohta rohkem teavet saada.</span><span class="sxs-lookup"><span data-stu-id="7326f-105">Select a feature area to learn more about it.</span></span>
 
+<span data-ttu-id="7326f-106">:::row::: :::column::: - [Ostureskontro](accounts-payable/accounts-payable.md) 
+        - [Müügireskontro](accounts-receivable/accounts-receivable.md)
+        - [Eelarvestamine](budgeting/budgeting-overview.md) 
+        - [Sularaha- ja pangahaldus](cash-bank-management/cash-bank-management.md)
+        - [Kuluarvestus](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Kulude haldus](expense-management/expense-management.md)
+        - [Finantsaruandlus](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Põhivarad](fixed-assets/fixed-assets.md)
+        - [Pearaamat](general-ledger/general-ledger.md) 
+        - [Projektihaldus](project-management/overview-project-management-accounting.md)
+        - [Avalik sektor](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::</span><span class="sxs-lookup"><span data-stu-id="7326f-106">:::row::: :::column::: - [Accounts payable](accounts-payable/accounts-payable.md) 
+        - [Accounts receivable](accounts-receivable/accounts-receivable.md)
+        - [Budgeting](budgeting/budgeting-overview.md) 
+        - [Cash and bank management](cash-bank-management/cash-bank-management.md)
+        - [Cost accounting](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Expense management](expense-management/expense-management.md)
+        - [Financial reporting](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Fixed assets](fixed-assets/fixed-assets.md)
+        - [General ledger](general-ledger/general-ledger.md) 
+        - [Project management](project-management/overview-project-management-accounting.md)
+        - [Public sector](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::</span></span>
+
+
+## <a name="additional-resources"></a><span data-ttu-id="7326f-107">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="7326f-107">Additional resources</span></span>
+
+### <a name="blogs"></a><span data-ttu-id="7326f-108">Ajaveebid</span><span class="sxs-lookup"><span data-stu-id="7326f-108">Blogs</span></span>
+
+<span data-ttu-id="7326f-109">Ostureskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span><span class="sxs-lookup"><span data-stu-id="7326f-109">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
+
+<span data-ttu-id="7326f-110">Palju postitusi finantshalduse kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/).</span><span class="sxs-lookup"><span data-stu-id="7326f-110">There are many posts about financial management on the [Microsoft Dynamics AX product team blog](https://blogs.msdn.microsoft.com/dax/).</span></span> <span data-ttu-id="7326f-111">Kuigi mõni neist sisestustest on kirjutatud toote vanema versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.</span><span class="sxs-lookup"><span data-stu-id="7326f-111">Although some of these posts were written for an older version of the product, the same concepts still apply, and the procedures are also similar in the current version.</span></span>
+
+<span data-ttu-id="7326f-112">[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.</span><span class="sxs-lookup"><span data-stu-id="7326f-112">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+
+### <a name="task-guides"></a><span data-ttu-id="7326f-113">Tegevuse juhised</span><span class="sxs-lookup"><span data-stu-id="7326f-113">Task guides</span></span>
+<span data-ttu-id="7326f-114">Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="7326f-114">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="7326f-115">Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.</span><span class="sxs-lookup"><span data-stu-id="7326f-115">To access task guides, click the Help button on any page.</span></span>
+
+### <a name="videos"></a><span data-ttu-id="7326f-116">Videod</span><span class="sxs-lookup"><span data-stu-id="7326f-116">Videos</span></span>
+
+<span data-ttu-id="7326f-117">Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="7326f-117">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+
+### <a name="countryregion-functionality"></a><span data-ttu-id="7326f-118">Riigi/regiooni funktsionaalsus</span><span class="sxs-lookup"><span data-stu-id="7326f-118">Country/region functionality</span></span>
+
+<span data-ttu-id="7326f-119">Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid valdkondi.</span><span class="sxs-lookup"><span data-stu-id="7326f-119">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="7326f-120">Vt spikri jaotist [Lokaliseerimine ja regulatiivsed funktsioonid](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json), et saada lisateavet riigi-/regioonipõhise funktsionaalsuse kohta.</span><span class="sxs-lookup"><span data-stu-id="7326f-120">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
 
 
