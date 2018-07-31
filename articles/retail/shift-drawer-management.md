@@ -1,9 +1,9 @@
 ---
 title: Vahetuse ja sularahasahtli haldamine
-description: "Selles artiklis selgitatakse, kuidas seadistada ja kasutada kahte tüüpi jaemüügikassa vahetust – ühist ja eraldiseisvat. Ühiseid vahetusi saab kasutada mitu kasutajat mitmes kohas, samas kui eraldi vahetusi saab kasutada korraga ainult üks töötaja."
-author: rubencdelgado
+description: "Selles teemas selgitatakse, kuidas häälestada ja kasutada vahetusi jaemüügikassas (POS)."
+author: jblucher
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: da5519eb0746347905e3b3d3d81161850c429f57
+ms.openlocfilehash: f0856a3a36ff97773c0fadbe94fe680762c5206b
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
@@ -31,127 +31,109 @@ ms.lasthandoff: 03/22/2018
 
 [!include [banner](includes/banner.md)]
 
-Selles artiklis selgitatakse, kuidas seadistada ja kasutada kahte tüüpi jaemüügikassa vahetust – ühist ja eraldiseisvat. Ühiseid vahetusi saab kasutada mitu kasutajat mitmes kohas, samas kui eraldi vahetusi saab kasutada korraga ainult üks töötaja.
+Selles teemas selgitatakse, kuidas häälestada ja kasutada vahetusi jaemüügikassas (POS). 
 
-Jaemüügikassa (POS) vahetusi on kahte tüüpi: eraldi ja ühine. Eraldi vahetusi saab kasutada korraga ainult üks töötaja. Ühiseid vahetusi saab kasutada mitu kasutajat mitmes kohas. Seetõttu loovad need tõhusalt ühe vahetuse mitme kaupluse töötaja jaoks.
+Rakenduses Microsoft Dynamics 365 for Retail kirjeldab termin *vahetus* kogumit kassa kandeandmetest ja tegevustest kahe ajahetke vahel. Iga vahetuse korral võrreldakse eeldatud rahasummat loendatud ja deklareeritud summaga.
 
-## <a name="standalone-shifts"></a>Eraldiseisvad vahetused
-Eraldiseisvaid vahetusi kasutatakse tavapärastes, fikseeritud kassa stsenaariumides, kus kassat tasakaalustatakse iga kassaregistri kohta eraldi. Näiteks toidukaupluse seadistuses on tavaliselt mitu fikseeritud kassaregistrit ja igale registrile on määratud kassiir. Sel juhul kasutab iga register tõenäoliselt eraldiseisvat vahetust ja kassiir vastutab kassasahtli sisu või selles registris oleva füüsilise sularaha eest. Eraldi vahetus hõlmab kõiki selle registri tegevusi kassiiri töövahetuse ajal. Tegevused võivad sisaldada kassasahtlis olevat avasummat, kõiki sularaha väljavõtmisi ja lisamisi toimingute kaudu nagu raha hoiustamine panka ja sularaha sissemakse ning päevakassa vahetuse lõpus.
+Tavaliselt avatakse vahetused tööpäeva alguses. Sel hetkel deklareerib kasutaja algsumma, mis on sularahasahtlis. Seejärel tehakse kogu päeva jooksul müügikandeid. Päeva lõpus loetakse sahtel üle ja deklareeritakse sulgemissummad. Vahetus suletakse ja luuakse Z-aruanne. Z-aruanne näitab, kas esineb ülejääki või puudujääki.
 
-### <a name="set-up-a-stand-alone-shift"></a>Eraldiseisva vahetuse seadistamine
+## <a name="typical-shift-scenarios"></a>Tavalised vahetuse stsenaariumid
+Retail pakub erinevaid konfigureerimisvalikuid ja kassatoiminguid, et toetada kassas erinevaid päeva lõpetamise äriprotsesse. Selles jaotises kirjeldatakse mõningaid tavalisi vahetuse stsenaariume.
 
-Eraldiseisev vahetus määratakse kassasahtli tasandil. See protseduur selgitab, kuidas seadistada kassaregistris eraldiseisvat vahetust.
+### <a name="fixed-till"></a>Fikseeritud kassasahtli sisu
+Seda stsenaariumi on kasutatud kõige rohkem. Seda kasutatakse siiamaani väga palju. Vahetuses „Fikseeritud kassasahtli sisu” on vahetus ja kassasahtli sisu seostatud kindla kassaaparaadiga. Neid ei teisaldata ühest kassaaparaadist teise. Vahetust „Fikseeritud kassasahtli sisu” saab kasutada üksikkasutaja või seda saab jagada mitme kasutaja vahel. Vahetused „Fikseeritud kassasahtli sisu” ei nõua erilist konfiguratsiooni.
 
-1.  Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**.
-2.  Valige riistvaraprofiil, mida eraldiseisva vahetuse puhul kasutada.
-3.  Kinnitage kiirkaardil **Sahtel**, et valiku **Ühise vahetuse sahtel** väärtuseks oleks määratud **Ei**.
-4.  Klõpsake käsku **Salvesta**.
-5.  Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**.
-6.  Valige register, mis nõuab eraldi vahetust, ja klõpsake siis käsku **Redigeeri**.
-7.  Valige väljalt **Riistvaraprofiil** 2. etapis valitud riistvaraprofiil.
-8.  Klõpsake käsku **Salvesta**.
-9.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
-10. Valige jaotusgraafik **1090** ja klõpsake siis käsku **Käivita kohe** kassa muudatuste sünkroonimiseks.
+### <a name="floating-till"></a>Ujuv kassasahtli sisu
+Vahetuses „Ujuv kassasahtli sisu” saab vahetust ja sularahasahtlit teisaldada ühest kassaaparaadist teise. Kuigi kassaaparaadil saab olla ainult üks aktiivne vahetus sularahasahtli kohta, saab vahetusi peatada ja seejärel hiljem või teises kassaaparaadis jätkata.
 
-### <a name="use-a-stand-alone-shift"></a>Eraldiseisva vahetuse kasutamine
+Näiteks on kauplusel kaks kassaaparaati. Iga kassaaparaat avatakse päeva alguses, kui kassapidaja avab uue vahetuse ja esitab algsumma. Kui üks kassapidaja on valmis pausi tegema, peatab ta oma vahetuse ja eemaldab kassasahtli sisu sularahasahtlist. Seejärel on kassaaparaat saadaval teiste kassapidajate jaoks. Teine kassapidaja saab kassaaparaadis sisse logida ja oma vahetuse avada. Kui esimese kassapidaja paus on lõppenud, saab see kassapidaja oma vahetust jätkata, kui üks teistest kassaaparaatidest vabaneb. Vahetused „Ujuv kassasahtli sisu” ei nõua erilist konfiguratsiooni või luba.
 
-1.  Logige kassasse sisse.
-2.  Kui pole ühtegi avatud vahetust, siis valige **Ava uus vahetus**.
-3.  Minge toimingu **Deklareeri algsumma** juurde ja määrake sularahasumma, mis kassasahtlisse tööpäeva alustamiseks pannakse.
-4.  Tehke mõned kanded.
-5.  Päeva lõpus valige **Päevakassa tegemine** sularahasahtlisse jääva sularaha hulga kinnitamiseks.
-6.  Sisestage sularahasumma ja klõpsake siis käsku **Salvesta** päevakassa salvestamiseks.
-7.  Vahetuse sulgemiseks valige **Sule vahetus**.
+### <a name="single-user"></a>Üks kasutaja
+Paljud jaemüüjad eelistavad lubada ainult üht kasutajat vahetuse kohta, et tagada kõrgeimal tasemel vastutavus sularahasahtlis oleva sularaha eest. Kui ainult ühel kasutajal on lubatud vahetusega seostatud kassasahtli sisu kasutada, on see kasutaja ainuisikuliselt vastutav võimalike lahknevuste eest. Kui vahetust kasutab mitu kasutajat, on raske kindlaks määrata, kes vea tegi või kes võib üritada kassasahtli sisu varastada.
 
-**Märkus.** Vahetuse ajal on saadaval muud toimingud, olenevalt kehtivatest äriprotsessidest. Raha eemaldamiseks kassasahtlist päeva kestel või enne vahetuse sulgemist võib kasutada toiminguid **Seifi viidav raha**, **Raha hoiustamine panka** ja **Väljamakse**. Kui kassasahtlis jääb sularaha väheks, võib sinna sularaha lisamiseks kasutada toimingut **Sularaha sissemakse**.
+### <a name="multiple-users"></a>Mitu kasutajat
+Mõned jaemüüjad on valmis ohverdama ühe kasutaja vahetustega kaasneva vastutavuse ja lubavad rohkem kui ühe kasutaja vahetuse kohta. See lähenemisviis on tavaline, kui kasutajaid on rohkem kui saadaolevaid kassaaparaate ning vajadus paindlikkuse ja kiiruse järele kaalub potentsiaalse kahjumi üle. See on tavaline ka siis, kui kaupluste juhatajatel pole enda vahetusi, kuid nad saavad vajaduse korral kasutada oma kassapidajate vahetusi. Sisselogimiseks ja teise kasutaja avatud vahetuse kasutamiseks peab kasutajal olema kassaluba **Luba mitme vahetuse sisselogimine**.
 
-## <a name="shared-shifts"></a>Ühised vahetused
-Ühist vahetust kasutatakse keskkonnas, kus mitmel kassiiril on tööpäeva jooksul ühine sularahasahtel või sularahasahtlite kogum. Tavaliselt kasutatakse ühist vahetust mobiilse kassa keskkondades. Mobiilses keskkonnas ei määrata igale kassiirile ühte sularahasahtlit ning ta ei vastuta selle eest. Selle asemel peavad kõik kassiirid saama registreerida müüki ja lisada sularaha, endale lähimat kassasahtlit kasutades. Selle stsenaariumi puhul kuuluvad kassiiride ühised sularahasahtlid ühisesse vahetusse. Kõik ühise vahetuse sularahasahtlid kuuluvad selle vahetuse sularahahalduse tegevustega seoses samasse vahetusse. Seetõttu peaks vahetuse algsumma sisaldama kõigi ühisesse vahetusse kuuluvate sularahasahtlite sularahasummat. Samamoodi on päevakassa kõigi ühisesse vahetusse kuuluvate sularahasahtlite sularahasumma. **Märkus.** Korraga saab igas kaupluses olla avatud ainult üks ühine vahetus. Samas kaupluses saab kasutada ühiseid vahetusi ja eraldi vahetusi.
+### <a name="shared-shift"></a>Ühine vahetus
+Konfiguratsioon „Ühine vahetus” võimaldab jaemüüjatel kasutada üht vahetust mitmes kassaaparaadis, sularahasahtlis ja kasutajate vahel. Ühisel vahetusel on üks algsumma ja üks sulgemissumma, mis summeeritakse kõigist sularahasahtlitest. Ühised vahetused on kõige tavapärasemad mobiilsete seadmete kasutamisel. Selles stsenaariumis ei reserveerita iga kassaaparaadi jaoks eraldi sularahasahtlit. Selle asemel jagavad kõik kassaaparaadid üht sularahasahtlit.
 
-### <a name="set-up-a-shared-shift"></a>Ühise vahetuse seadistamine
+Et kaupluses saaks kasutada ühiseid vahetusi, peab sularahasahtel olema konfigureeritud kui „Ühise vahetuse sahtel” valikus **Jaemüük \> Kanali häälestus \> Kassa häälestus \> Kassa profiilid \> Riistvara profiilid \> Sahtel**. Lisaks peab kasutajatel olema üks või mõlemad ühise vahetuse load (Luba ühise vahetuse haldamine ja Luba ühise vahetuse kasutamine).
 
-1.  Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**.
-2.  Valige riistvaraprofiil, mida ühise vahetuse puhul kasutada.
-3.  Määrake kiirkaardil **Sahtel** valiku **Ühise vahetuse sahtel** väärtuseks **Jah**.
-4.  Klõpsake käsku **Salvesta**.
-5.  Klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**.
-6.  Valige register, mis nõuab ühist vahetust, ja klõpsake siis käsku **Redigeeri**.
-7.  Valige väljalt **Riistvaraprofiil** 2. etapis valitud riistvaraprofiil.
-8.  Klõpsake käsku **Salvesta**.
-9.  Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
-10. Valige jaotusgraafik **1090** ja klõpsake siis käsku **Käivita kohe** kassa muudatuste sünkroonimiseks.
+> [!NOTE]
+> Korraga saab igas kaupluses olla avatud ainult üks ühine vahetus. Samas kaupluses saab kasutada ühiseid vahetusi ja eraldi vahetusi.
 
-### <a name="use-a-shared-shift"></a>Ühise vahetuse kasutamine
+## <a name="shift-and-drawer-operations"></a>Vahetuse ja sahtli toimingud
+Vahetuse oleku muutmiseks või sularahasahtlis oleva rahasumma suurendamiseks või vähendamiseks saab teha erinevaid toiminguid. Selles jaotises kirjeldatakse neid vahetuse toiminguid rakenduse Microsoft Dynamics 365 for Retail Modern POS-is ja Cloud POS-is.
 
-1.  Logige kassasse sisse.
-2.  Kui kassa pole veel riistvarajaamaga ühendatud, siis valige **Kassaväline toiming** ja seejärel **Riistvarajaama valimine**, et muuta riistvarajaam ühise vahetuse puhul aktiivseks. See samm on vajalik üksnes esimesel korral, kui register ühise vahetuse keskkonda lisatakse.
-3.  Logige kassast välja ja siis uuesti sisse.
-4.  Valige käsk **Loo uus vahetus**.
-5.  Valige käsk **Deklareeri algsumma**.
-6.  Sisestage kõigi kassasahtlite arv kaupluses, mis ühisesse vahetusse kuuluvad, ja klõpsake siis käsku **Salvesta**.
-    -   Algsumma osa lisamiseks igasse järgmisse kassasahtlisse kasutage toimingut **Riistvarajaama valimine** riistvarajaama aktiveerimiseks.
-    -   Kassasahtli sisu lisamiseks konkreetsesse kassasahtlisse kasutage toimingut **Ava sahtel**.
-    -   Jätkake, kuni kõigis ühise vahetuse kassasahtlites on osa algsummast.
+### <a name="open-shift"></a>Avatud vahetus
+Kassa nõuab, et kasutajatel oleks aktiivne ja avatud vahetus, et teha toiminguid, mille tulemuseks on finantskanne, nagu müük, tagastus või klienditellimus.
 
-7.  Päeva lõpus avage iga kassasahtel ja võtke sularaha välja.
-8.  Kui olete viimasest sularahasahtlist raha välja võtnud, lugege üle kõigi kassasahtlite raha.
-9.  Kasutage toimingut **Päevakassa tegemine** kõigis ühise vahetuse sularahasahtlites olnud sularahasumma kinnitamiseks.
-10. Ühise vahetuse sulgemiseks kasutage toimingut **Sule vahetus**.
+Kui kasutaja logib kassasse sisse, kontrollib süsteem esmalt, kas aktiivne vahetus on praeguses kassaaparaadis selle kasutaja jaoks saadaval. Kui aktiivset vahetust pole saadaval, saab kasutaja seejärel olenevalt süsteemi konfiguratsioonist ja kasutaja lubadest avada uue vahetuse, jätkata olemasolevat vahetust või logida sisse kassavälises režiimis.
 
-## <a name="shift-operations"></a>Vahetuse toimingud
-Vahetuse oleku muutmiseks või sahtlis oleva rahasumma suurendamiseks või vähendamiseks on mitu võimalust. Allolevas jaotises kirjeldatakse neid vahetuse toiminguid rakenduse Dynamics 365 for Retail tänapäevases kassas ja pilve kassas.
+### <a name="declare-start-amount"></a>Deklareeri algsumma
+See toiming on sageli esimene toiming, mida tehakse äsja avatud vahetuses. Selle toimingu jaoks määravad kasutajad vahetuse sularahakassas oleva sularaha algse koguse. See toiming on oluline, sest ülejäägi/puudujäägi arvutamisel, mis tehakse vahetuse sulgemisel, arvestatakse algsummat.
 
-**Avatud vahetus**
+### <a name="float-entry"></a>Sularaha sissemakse
+*Vahetusraha kirjed* on müügiga mitteseotud kanded, mis tehakse aktiivse vahetuse ajal, et suurendada sularahasahtlis oleva sularaha kogust. Vahetusraha kirje tavaliseks näiteks on kanne täiendava vahetusraha lisamiseks sahtlisse, kui vahetusraha on vähe.
 
-Kassa nõuab, et kasutajal oleks aktiivne ja avatud vahetus, et teha toiminguid, mille tulemuseks on finantskanne, nagu müük, tagastus või klienditellimus.  
+### <a name="tender-removal"></a>Väljamakse
+*Väljamaksed* on müügiga mitteseotud kanded, mis tehakse aktiivse vahetuse ajal, et vähendada sularahasahtlis oleva sularaha kogust. Seda toimingut kasutatakse kõige sagedamini koos vahetusraha kirje toiminguga muus vahetuses. Näiteks, kuna kassaaparaadis 1 on vähe vahetusraha, seetõttu teeb kassaaparaadi 2 kasutaja väljamakse, et vähendada tema sularahasahtlis olevat summat. Kassaaparaadi 1 kasutaja teeb seejärel vahetusraha kirje, et suurendada oma sularahasahtlis olevat summat.
 
-Kassasse sisselogimisel kontrollib süsteem esmalt, kas kasutajal on praeguses registris saadaval aktiivne vahetus. Kui ei, saab kasutaja seejärel olenevalt süsteemi konfiguratsioonist ja oma lubadest valida, kas ta soovib avada uue vahetuse, jätkata olemasolevat vahetust või jätkata sisselogimist kassavälises režiimis.
-
-**Deklareeri algsumma**
-
-See toiming on sageli esimene tegevus, mida tehakse äsja avatud vahetuses. Kasutajad määravad vahetuse kassas oleva sularaha algse koguse. See on oluline, sest vahetuse sulgemisel ilmnev üle-/vähemarvutamine moodustab osa selle summa kujunemisel.
-
-**Vahetusraha kirje**
-
-Vahetusraha kirjed on müügiga mitteseotud kanded, mis tehakse aktiivse vahetuse ajal ja mis suurendavad sahtlis oleva sularaha kogust. Vahetusraha kirje tavaliseks näiteks on täiendava vahetusraha lisamine sahtlisse, kui vahetusraha on vähe.
-
-**Väljamakse**
-
-Väljamaksed on müügiga mitteseotud kanded, mis tehakse aktiivse vahetuse ajal, et vähendada sahtlis oleva sularaha kogust. Seda kasutatakse kõige sagedamini koos vahetusraha kirjega muus vahetuses. Näiteks, registris 1 on vähe vahetusraha, seetõttu teeb registri 2 kasutaja väljamakse, et vähendada sahtlis olevat summat. Registri 1 kasutaja sisestab seejärel vahetusraha kirje, et suurendada enda summat.
-
-**Peata vahetus**
-
-Kasutaja saab peatada oma aktiivse vahetuse, et vabastada praegune register muu kasutaja jaoks või et teisaldada oma vahetus teise registrisse (seda nimetatakse sageli ujuvaks kassasahtli sisuks). 
+### <a name="suspend-shift"></a>Peata vahetus
+Kasutaja saab peatada oma aktiivse vahetuse, et vabastada praegune kassaaparaat muu kasutaja jaoks või et teisaldada oma vahetus teise registrisse (sel juhul nimetatakse seda sageli ujuvaks kassasahtli sisuks).
 
 Vahetuse peatamine takistab uute kannete või muudatuste tegemist vahetuses kuni selle jätkamiseni.
 
-**Jätka vahetust**
+### <a name="resume-shift"></a>Jätka vahetust
+See toiming võimaldab kasutajatel jätkata eelnevalt peatatud vahetust kassaaparaadis, kus ei ole veel aktiivset vahetust.
 
-See toiming võimaldab kasutajal jätkata eelnevalt peatatud vahetust registris, kus ei ole veel aktiivset vahetust.
+### <a name="tender-declaration"></a>Päevakassa
+See toiming võimaldab määrata praegu sularahasahtlis oleva kogusumma. Kasutajad teevad seda toimingut enamasti enne nende vahetuse sulgemist. Määratud summat võrreldakse eeldatud vahetuse summaga, et arvutada ülejäägi/puudujäägi summa.
 
-**Päevakassa**
+### <a name="safe-drop"></a>Seifi viidav raha
+Seifi viidava raha toimingu saab teostada aktiivses vahetuses igal ajal. See toiming eemaldab raha sularahasahtlist, et selle saaks üle kanda turvalisemasse asukohta, nagu tagaruumis asuv seif. Seifi viidava raha kogusumma kaasatakse vahetuse kogusummasse, kuid seda ei tule arvestada päevakassa osana.
 
-Päevakassa arvutamine on tegevus, mille kasutaja teeb, et täpsustada praegu kassas olev kogusumma, enamasti enne vahetuse sulgemist. See on väärtus, mida võrreldakse eeldatud vahetusega, et arvutada üleliigne/puuduv summa.
-
-**Seifi viidav raha**
-
-Seifi viidava raha toimingu saab teostada igal ajal aktiivses vahetuses. See toiming eemaldab raha sahtlist, nii et selle saaks üle kanda turvalisemasse asukohta, nagu tagaruumis asuv seif. Seifi viidava raha kogusumma kaasatakse endiselt vahetuse kogusummasse, kuid seda ei tule arvestada päevakassa osana.
-
-**Raha hoiustamine panka**
-
+### <a name="bank-drop"></a>Raha hoiustamine panka
 Sarnaselt seifi viidava raha toimingule tehakse ka raha panka hoiustamise toimingut aktiivse vahetuse ajal. See toiming eemaldab raha vahetusest, et valmistada see ette pangadeposiidi jaoks.
 
-**Pimedalt suletud vahetus**
+### <a name="blind-close-shift"></a>Pimedalt suletud vahetus
+*Pimesi suletud vahetused* ei ole enam aktiivsed, kuid need ei ole täielikult suletud. Erinevalt peatatud vahetustest ei saa pimesi suletud vahetusi jätkata. Kuid nendega saab hiljem või teises kassaaparaadis teha toiminguid, nagu Deklareeri algsumma ja Päevakassa.
 
-Pimedalt suletud vahetus on vahetus, mis ei ole enam aktiivne, kuid pole veel täielikult suletud. Pimedalt suletud vahetusi ei saa jätkata, nagu peatatud vahetust, kuid toiminguid, nagu algsummade taotlemine ja päevakassa arvutamine saab teha ka hiljem või muust registrist.
+Pimedalt suletud vahetusi kasutatakse sageli registri vabastamiseks uue kasutaja või vahetuse jaoks, ilma et eelnevalt tuleks seda vahetust täielikult loendada, vastavusse viia või sulgeda.
 
-Pimedalt suletud vahetusi kasutatakse sageli registri vabastamiseks uue kasutaja või vahetuse jaoks, ilma et eelnevalt tuleks seda vahetust täielikult loendada, vastavusse viia või sulgeda. 
+### <a name="close-shift"></a>Sule vahetus
+See toiming arvutab vahetuse kogusummad ja ülejäägi/puudujäägi summa ning seejärel viib aktiivse või pimedalt suletud vahetuse lõpule. Olenevalt kasutaja õigustest prinditakse vahetuse jaoks ka Z-aruanne. Suletud vahetusi ei saa jätkata või muuta.
 
-**Sule vahetus**
+### <a name="print-x"></a>Prindi X
+See toiming loob ja prindib praeguse aktiivse vahetuse jaoks X-aruande.
 
-See toiming arvutab vahetuse kogusummad ja üleliigse/puuduva summa ning seejärel viib aktiivse või pimedalt suletud vahetuse lõpule. Suletud vahetusi ei saa jätkata või muuta.  
+### <a name="reprint-z"></a>Kordustrüki Z
+See toiming prindib uuesti viimase Z-aruande, mille süsteem lõi vahetuse sulgemisel.
 
-**Vahetuste haldamine**
+### <a name="manage-shifts"></a>Vahetuste haldamine
+See toiming võimaldab kasutajatel vaadata kõiki kaupluse aktiivseid, peatatud ja pimedalt suletud vahetusi. Olenevalt oma lubadest saavad kasutajad teostada oma lõplikud sulgemise toimingud, nagu Päevakassa arvutamine ja Sule vahetus pimedalt suletud vahetuste jaoks. See toiming võimaldab ka kasutajatel vaadata ja kustutada kehtetuid vahetusi, kui peaks juhtuma, et vahetused on pärast ühenduseta ja ühendusega režiimide vahel lülitamist jäänud vigasesse olekusse. Need kehtetud vahetused ei sisalda vastavusseviimiseks vajalikku finantsteavet või kandeandmeid.
 
-See toiming võimaldab kasutajatel vaadata kõiki kaupluse aktiivseid, peatatud ja pimedalt suletud vahetusi. Olenevalt oma lubadest saavad kasutajad teostada oma lõplikud sulgemise protseduurid, nagu päevakassa arvutamine ja pimedalt suletud vahetuste sulgemine. See toiming võimaldab ka kasutajatel vaadata ja kustutada kehtetuid vahetusi, kui peaks juhtuma, et vahetus on pärast ühenduseta ja ühendusega režiimide vahel lülitamist jäänud vigasesse olekusse. Need kehtetud vahetused ei sisalda vastavusseviimiseks vajalikku finantsteavet või kandeandmeid. 
+## <a name="shift-and-drawer-permissions"></a>Vahetuse ja sahtli load
+Järgmised kassaload mõjutavad, mida kasutajad saavad ja ei saa erinevates stsenaariumides teha:
+
+- **Luba pimedalt sulgemine**
+- **Luba x-aruande printimine**
+- **Luba z-aruande printimine**
+- **Luba päevakassa**
+- **Luba vahetusraha akt**
+- **Ava sahtel ilma müügita**
+- **Luba mitme vahetuse sisselogimine** – see õigus lubab kasutajal logida sisse ja kasutada teise kasutaja avatud vahetust. Kasutajad, kes ei ole seda õigust, saavad sisse logida ja kasutada ainult vahetusi, mille nad on ise avanud.
+- **Luba ühise vahetuse haldamine** – kasutajatel peab olema see õigus ühise vahetuse avamiseks või sulgemiseks.
+- **Luba ühise vahetuse kasutamine** – kasutajatel peab olema see õigus ühisesse vahetusse sisselogimiseks ja selle kasutamiseks.
+
+## <a name="back-office-end-of-day-considerations"></a>Kontori päeva lõpetamise kaalutlused
+Vahetuste ja sularahasahtli vastavusseviimise kasutamise viis kassas erineb viisist, kuidas kandeandmeid summeeritakse väljavõtete arvutamisel. On tähtis, et mõistaksite erinevust. Olenevalt teie konfiguratsioonist ja äriprotsessidest võivad vahetuse andmed kassas (Z-aruanne) ja arvutatud väljavõte kontoris anda erinevaid tulemusi. See erinevus ei tähenda tingimata, et vahetuse andmed või arvutatud väljavõte on valed või et andmetega on probleem. See tähendab lihtsalt seda, et esitatud parameetrid võivad sisaldada täiendavat kannet või vähem kandeid või et kanded on summeeritud erinevalt.
+
+Kuigi igal jaemüüjal on erinevad ärinõuded, soovitame häälestada süsteemi järgmisel viisil, et vältida olukordi, kus esinevad seda tüüpi erinevused:
+
+Avage **Jaemüük \> Kanalid \> Jaekauplused \> Kõik jaekauplused \> Väljavõte/sulgemine** ja määrake iga kaupluse jaoks väli **Väljavõtte viis** ja **Sulgemisviis** olekule **Vahetus**.
+
+See häälestus aitab tagada, et kontori väljevõtted sisaldavad samu kandeid, mis vahetused kassas ja et selle vahetuse andmed summeeritakse.
+
+Lisateavet väljavõtte ja sulgemisviiside kohta vt [Jaemüügi väljavõtete kauplusekonfiguratsioonid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 

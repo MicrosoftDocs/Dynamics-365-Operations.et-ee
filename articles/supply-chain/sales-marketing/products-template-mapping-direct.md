@@ -3,7 +3,7 @@ title: "Rakenduse Finance and Operations toodete vahetu sünkroonimine rakenduse
 description: "See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse toodete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ Väli **On väliselt hallatav** aitab tagada, et ainult väliselt hallatavate to
 Väliselt hallatavad tooted lisatakse automaatselt esimesse kehtivasse hinnakirja, millel on sama valuuta. Hinnakirjad on korraldatud tähestikulises järjekorras nime alusel. Toote müügihinda rakendusest Finance and Operations kasutatakse hinnakirja hinnana. Seega peab rakenduses Sales olema hinnakiri iga toote müügivaluuta kohta rakenduses Finance and Operations. Vabastatud müüdavate toodete valuutaks on määratud selle juriidilise isiku arvestusvaluuta, millest toode eksporditakse.
 
 > [!NOTE]
-> Toote sünkroonimine ei õnnestu, kui vastava valuutaga hinnakiri puudub.
+> - Toote sünkroonimine ei õnnestu, kui vastava valuutaga hinnakiri puudub.
+> - Saate kontrollida integratsioonis kasutatud hinnakirja, vastendades andmeintegratsiooni projektis atribuudi pricelevelid.name [Vaikehinnakiri (nimi)]. Sisend peab olema väiketähtedes. Näiteks oleks müügis nimega „Standard” hinnakirja vaikeväärtus: sihtväli: pricelevelid.name [Vaikehinnakiri (nimi)] ja vastenduse tüüp: [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 

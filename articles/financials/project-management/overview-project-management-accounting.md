@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: 46c8ecf8a6988c32d0202c631bef6901f467bb89
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -80,17 +80,37 @@ Võite kasutada projekti prognoosi, kui teie organisatsioonil on tegevustele suu
 ### <a name="create-projects"></a>Projektide loomine
 
 Saate luua Microsoft Dynamics 365 for Finance and Operationsis kuut tüüpi projekte. Iga projekti tüüp seadistatakse kulude ja tulude arvestuse seisukohast erinevalt. Projektitüübi valik sõltub projekti otstarbest. Järgmises tabelis kirjeldatakse iga projektitüübi tavapärast kasutust.
-
-                                                                                                                                                                         |
-
-| Projekti tüüp      | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aeg ja materjal | Aja ja materjalikulu projektides esitatakse kliendile arve kõigi projektiga seotud kulude kohta. Need kulud hõlmavad tundide, kulutuste, kaupade ja tasude kulusid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Fikseeritud hind       | Fikseeritud hinnaga projektide puhul koosnevad arved ettemaksukannetest. Fikseeritud hinnaga projekti eest esitatakse arve projektilepingul põhineva arveldusgraafiku alusel. Fikseeritud hinnaga projekti tulu saab arvutada ja sisestada kogu projekti, kasutades lõpetatud protsendi meetodit. Teise võimalusena saab tulu arvutada ja sisestada projekti lõpetamisel, kasutades lõpetatud lepingu meetodit. Ettevõtete jaoks on sageli soodne kasutada projekti või projektigrupi valmiduse arvutamiseks lõpetamata toodangu (WIP) väärtust.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Investeering        | Investeerimisprojektid on projektid, mis ei anna vahetut tulu. Neid kasutatakse tavaliselt pikaajaliste sisemiste projektide puhul, kus kulud tuleb kapitaliseerida. Investeerimisprojekti jaoks saab kirjendada ainult kaupade, tundide ja kulutuste kulusid. Investeerimisprojekti kulusid jälgitakse ja juhitakse prognoosimise funktsiooniga. Investeerimisprojekte saab seadistada valikulise maksimaalse kapitaliseerimisega. Investeerimisprojekti edenedes kirjendate selle kulud WIP-kontodel, kus kulusid hoitakse, kuni projekt on lõpule viidud. Projekti kõrvaldamisel tuleb lõpetamata toodangu väärtus kanda üle põhivarasse, pearaamatukontole või uude projekti. Märkus. Investeerimisprojektide kandeid ei näidata lehel **Kulude sisestamine**, **Tekkepõhine tulu** ega **Arvesoovituste loomine**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Kuluprojekt      | Nagu investeerimisprojekte, kasutatakse ka kuluprojekte tavaliselt sisemiste projektide jälgimiseks ning nende puhul saab kirjendada ainult tunde, kulutusi ja kaupu. Kuid kuluprojektid on tavaliselt lühemad kui investeerimisprojektid. Lisaks, erinevalt investeerimisprojektidest ei saa kuluprojekte bilansikontodele kapitaliseerida. Selle asemel sisestatakse nende projektikanded ainult kasumi- ja kahjumikontodele. **MÄRKUS.** Kuluprojektide kandeid ei kajastata lehel **Kulude sisestamine**, **Tekkepõhine tulu** ega **Arvesoovituste loomine**. Kuna kuluprojekte kasutatakse tavaliselt sisemiste projektide jälgimiseks, ei tule neid tavaliselt kliendikontoga seostada. Kui aga seadistus nõuab, et ostutellimuste jaoks tuleb luua kaubavajadused, peate kuluprojekti kliendiga seostama. See seostamine on vajalik seetõttu, et kaubanõudeid hallatakse müügitellimuse ridadena ja süsteem nõuab kliendi määramist. Siiski ei looda selle seadistuse tulemusel kaubanõudeid ostutellimusest automaatselt. Kuluprojektide puhul eiratakse sätet **Kaubavajaduse loomine**. Kui vajate kuluprojektis kaubavajadust, saate luua selle käsitsi, eeldusel, et klient on projektiga seotud. |
-| Sisemine          | Sisemisi projekte kasutatakse teie organisatsiooni siseses projektis kulude jälgimiseks. Sisemised projektid võivad anda plaanimistööriista ressursikasutuse haldamiseks. **Märkus:** Sisemiste projektide kanded ei kajastu lehel **Tekkepõhine tulu** või **Arvesoovituste loomine**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Kellaaeg              | Ajaprojekte kasutatakse mittearveldatavate ja mittetootlike tegevustega seotud aja jälgimiseks, näiteks projekt töötajate haigeolekuaja jälgimiseks. Ajaprojektide kandeid pearaamatusse ei sisestata. Selle asemel kaasatakse need töötaja tulususmäära aruannetesse. Ajaprojektides saab kirjendada ainult tunnikandeid. Saate nende tundide kirjendamiseks projekti kasutada tunnitöölehte või ajatabelit. Kui tunnid on registreeritud, kuvatakse need projekti kannetena, kuid ilma vastava kande kandeta. **Märkus.** Ajaprojektide kandeid ei kajastata lehel **Kulude sisestamine**, **Tekkepõhine tulu** ega **Arvesoovituste loomine**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+                                                                                                            
+<table>
+  <tr>
+    <td>Projekti tüüp</th>
+    <td>Kirjeldus</th>
+  </tr>
+  <tr>
+    <td>Aeg ja materjal</td>
+    <td>Aja ja materjalikulu projektides esitatakse kliendile arve kõigi projektiga seotud kulude kohta. Need kulud hõlmavad tundide, kulutuste, kaupade ja tasude kulusid.</td>
+  </tr>
+  <tr>
+    <td>Fikseeritud hind</td>
+    <td>Fikseeritud hinnaga projektide puhul koosnevad arved ettemaksukannetest. Fikseeritud hinnaga projekti eest esitatakse arve projektilepingul põhineva arveldusgraafiku alusel. Fikseeritud hinnaga projekti tulu saab arvutada ja sisestada kogu projekti, kasutades lõpetatud protsendi meetodit. Teise võimalusena saab tulu arvutada ja sisestada projekti lõpetamisel, kasutades lõpetatud lepingu meetodit. Ettevõtete jaoks on sageli soodne kasutada projekti või projektigrupi valmiduse arvutamiseks lõpetamata toodangu (WIP) väärtust.</td>
+  </tr>
+  <tr>
+    <td>Investeering</td>
+    <td>Investeerimisprojektid on projektid, mis ei anna vahetut tulu. Neid kasutatakse tavaliselt pikaajaliste sisemiste projektide puhul, kus kulud tuleb kapitaliseerida. Investeerimisprojekti jaoks saab kirjendada ainult kaupade, tundide ja kulutuste kulusid. Investeerimisprojekti kulusid jälgitakse ja juhitakse prognoosimise funktsiooniga. Investeerimisprojekte saab seadistada valikulise maksimaalse kapitaliseerimisega. Investeerimisprojekti edenedes kirjendate selle kulud WIP-kontodel, kus kulusid hoitakse, kuni projekt on lõpule viidud. Projekti kõrvaldamisel tuleb lõpetamata toodangu väärtus kanda üle põhivarasse, pearaamatukontole või uude projekti. <br></br> <strong>MÄRKUS.</strong> Investeerimisprojektide kandeid ei näidata lehel <strong>Kulude sisestamine<strong>, <strong>Tekkepõhine tulu</strong> või <strong>Arvesoovituste loomine</strong>.</td>
+  </tr>
+  <tr>
+    <td>Kuluprojekt</td>
+    <td>Nagu investeerimisprojekte, kasutatakse ka kuluprojekte tavaliselt sisemiste projektide jälgimiseks ning nende puhul saab kirjendada ainult tunde, kulutusi ja kaupu. Kuid kuluprojektid on tavaliselt lühemad kui investeerimisprojektid. Lisaks, erinevalt investeerimisprojektidest ei saa kuluprojekte bilansikontodele kapitaliseerida. Selle asemel sisestatakse nende projektikanded ainult kasumi- ja kahjumikontodele. <br></br> <strong>MÄRKUS.</strong> Kuluprojektide kandeid ei kajastata lehel <strong>Kulude sisestamine</strong>, <strong>Tekkepõhine tulu</strong> ega <strong>Arvesoovituste loomine</strong>. Kuna kuluprojekte kasutatakse tavaliselt sisemiste projektide jälgimiseks, ei tule neid tavaliselt kliendikontoga seostada. Kui aga seadistus nõuab, et ostutellimuste jaoks tuleb luua kaubavajadused, peate kuluprojekti kliendiga seostama. See seostamine on vajalik seetõttu, et kaubanõudeid hallatakse müügitellimuse ridadena ja süsteem nõuab kliendi määramist. Siiski ei looda selle seadistuse tulemusel kaubanõudeid ostutellimusest automaatselt. Kuluprojektide puhul eiratakse sätet <strong>Kaubavajaduse loomine</strong>. Kui vajate kuluprojektis kaubavajadust, saate luua selle käsitsi, eeldusel, et klient on projektiga seotud.</td>
+  </tr>
+  <tr>
+    <td>Sisemine</td>
+    <td>Sisemisi projekte kasutatakse teie organisatsiooni siseses projektis kulude jälgimiseks. Sisemised projektid võivad anda plaanimistööriista ressursikasutuse haldamiseks. <br></br><strong>MÄRKUS:<strong> Sisemiste projektide kanded ei kajastu lehel <strong>Tekkepõhine tulu</strong> või <strong>Arvesoovituste loomine</strong>.</td>
+  </tr>
+  <tr>
+    <td>Kellaaeg</td>
+    <td>Ajaprojekte kasutatakse mittearveldatavate ja mittetootlike tegevustega seotud aja jälgimiseks, näiteks projekt töötajate haigeolekuaja jälgimiseks. Ajaprojektide kandeid pearaamatusse ei sisestata. Selle asemel kaasatakse need töötaja tulususmäära aruannetesse. Ajaprojektides saab kirjendada ainult tunnikandeid. Saate nende tundide kirjendamiseks projekti kasutada tunnitöölehte või ajatabelit. Kui tunnid on registreeritud, kuvatakse need projekti kannetena, kuid ilma vastava kande kandeta. <br></br><strong>MÄRKUS.</strong> Ajaprojektide kandeid ei kajastata lehel <strong>Kulude sisestamine</strong>, <strong>Tekkepõhine tulu</strong> või <strong>Arvesoovituste loomine</strong>.</td>
+  </tr>
+</table>
 
 
 ### <a name="assign-workers-categories-and-resources"></a>Töötajate, kategooriate ja ressursside määramine
@@ -239,11 +259,12 @@ Järgmises tabelis kirjeldatakse projekti täitmiskulu arvutamise meetodeid.
 <li>Võrrelge prognoosi kandeid tegelike kannetega.</li>
 <li>Hallake, vähendage või suurendage järgmise perioodi prognoose.</li>
 </ol>
-Finance and Operations ei vähenda automaatselt prognoositud väärtusi. Seetõttu on soovitatav fikseeritud hinnaga projekti puhul algne prognoosimudel alles hoida, et projekti lõppedes oleks võrdlemiseks alus olemas. &gt; [!NOTE] &gt; Selle meetodi valimisel kasutage vähemalt kahte prognoosimudelit. Üks mudel peaks sisaldama algset prognoosi. Teise mudeli jaoks tuleks kopeerida teisest mudelist prognoosi kanded. See meetod kehtib ainult fikseeritud hinnaga projektide ja investeeringuprojektide puhul.</td>
+Finance and Operations ei vähenda automaatselt prognoositud väärtusi. Seetõttu on soovitatav fikseeritud hinnaga projekti puhul algne prognoosimudel alles hoida, et projekti lõppedes oleks võrdlemiseks alus olemas. 
+<br></br> <strong>MÄRKUS.</strong> Selle meetodi valimisel kasutage vähemalt kahte prognoosimudelit. Üks mudel peaks sisaldama algset prognoosi. Teise mudeli jaoks tuleks kopeerida teisest mudelist prognoosi kanded. See meetod kehtib ainult fikseeritud hinnaga projektide ja investeeringuprojektide puhul.</td>
 </tr>
 <tr class="odd">
 <td>Eelarvejääk</td>
-<td>See meetod kasutab projekti täitmiskulu arvutamiseks järelejäänud eelarve mudelit. Selle meetodi kasutamisel liidetakse tegelikud kulud ja järelejäänud eelarvemudeli prognoositud summad. Tulemuseks on kogukulu. Enne selle meetodi kasutamist tuleb seadistada järelejäänud eelarvemudel kannete mahaarvamiseks tegelike süsteemis kajastatud kannete põhjal. Kontrollige lehelt <strong>Prognoosimudelid</strong>, et grupis <strong>Automaatne prognoosi vähendamine</strong> oleksid väljad märgitud. Tavaliselt kopeeritakse järelejäänud eelarve algsest eelarvest. Kannete sisestamisel vähendatakse järelejäänud eelarve kandeid. Projekti edenedes, kui määrate, et järelejäänud eelarvet tuleb kohandada, võtate prognoositavad kanded järelejäänud eelarvest. <strong>Märkus.</strong> Seda meetodit saab rakendada ainult siis, kui prognoosile on lisatud prognoosimudel.</td>
+<td>See meetod kasutab projekti täitmiskulu arvutamiseks järelejäänud eelarve mudelit. Selle meetodi kasutamisel liidetakse tegelikud kulud ja järelejäänud eelarvemudeli prognoositud summad. Tulemuseks on kogukulu. Enne selle meetodi kasutamist tuleb seadistada järelejäänud eelarvemudel kannete mahaarvamiseks tegelike süsteemis kajastatud kannete põhjal. Kontrollige lehelt <strong>Prognoosimudelid</strong>, et grupis <strong>Automaatne prognoosi vähendamine</strong> oleksid väljad märgitud. Tavaliselt kopeeritakse järelejäänud eelarve algsest eelarvest. Kannete sisestamisel vähendatakse järelejäänud eelarve kandeid. Projekti edenedes, kui määrate, et järelejäänud eelarvet tuleb kohandada, võtate prognoositavad kanded järelejäänud eelarvest. <br></br> <strong>MÄRKUS.</strong> Seda meetodit saab rakendada ainult siis, kui eelarvele on lisatud eelarvemudel.</td>
 </tr>
 <tr class="even">
 <td>Eelmise hinnanguna</td>
@@ -318,11 +339,19 @@ Kulu maksekuupäeva ei arvutata puhverpäevadel. Pärast projekti lõpuleviimist
 
 Kui kõik müügi- ja hankija arved on lõpetatud, saate vaadata väljadevahelist seost lehel **Rahavoog** ja lehe **Projektiaruanded** väljadel.
 
-| Rahavoo leht | Projektiaruannete leht |
-|----------------|-------------------------|
-| Sissetulekuorderid   | Tulu                 |
-| Väljaminekuorderid  | Kogumaksumus              |
-| Puhaskassakäibed | Kogutulu            |
+:::row::: :::column:::
+        #### Cash flow page
+        - Cash inflows 
+        - Cash outflows
+        - Net cash flows
+    :::column-end:::
+    :::column:::
+        #### Project statements page
+        - Revenue
+        - Total cost
+        - Gross margin
+    :::column-end:::
+:::row-end:::
 
 ### <a name="review-costs"></a>Kulude ülevaatamine
 
@@ -409,8 +438,4 @@ Pärast seda, kui aruanne on arvutatud, saate vaadata järgmisi andmeid lehe **P
 -   **Tarbimine** – teave tundide, kaupade, kulude ja palgakannete tarbimise kohta.
 -   **Arve** – arvete ja ettemaksuarvete teave.
 -   **Tunnimäär** – tulu- ja kulukontole sisestatud tundide tunnimäärad.
-
-
-
-
 

@@ -1,16 +1,16 @@
 ---
 title: Eelarve plaanimine
-description: "Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Finance and Operationsi funktsiooni värskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub täpsemalt järgmistele äriprotsessidele või ülesannetele: - organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine - eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine - eelarve plaanimise protsessi loomine ja aktiveerimine - eelarveplaani dokumendi loomine pearaamatust tegelikke kulusid tõmmates - eraldamiste kasutamine eelarveplaani dokumendi andmete korrigeerimiseks - eelarveplaani dokumendi andmete redigeerimine Excelis"
-author: twheeloc
+description: "Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Finance and Operationsi funktsiooni värskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida."
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,7 +30,13 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Finance and Operationsi funktsiooni värskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub täpsemalt järgmistele äriprotsessidele või ülesannetele: - organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine - eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine - eelarve plaanimise protsessi loomine ja aktiveerimine - eelarveplaani dokumendi loomine pearaamatust tegelikke kulusid tõmmates - eraldamiste kasutamine eelarveplaani dokumendi andmete korrigeerimiseks - eelarveplaani dokumendi andmete redigeerimine Excelis 
+Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 for Finance and Operationsi funktsiooni värskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.  See ülesanne keskendub konkreetselt järgmistele äriprotsessidele või ülesannetele.
+- Organisatsiooni hierarhia loomine eelarve plaanimise jaoks ja kasutaja turvalisuse konfigureerimine
+- Eelarveplaani stsenaariumide, eelarveplaani veergude, paigutuste ja Exceli mallide määratlemine
+- Eelarve plaanimise protsessi loomine ja aktiveerimine
+- Eelarveplaani dokumendi loomine pearaamatust tegelikke kulusid tõmmates
+- Eraldamiste kasutamine eelarveplaani dokumendi andmete korrigeerimiseks
+- Eelarveplaani dokumendi andmete redigeerimine Excelis 
 
 <a name="prerequisites"></a>Eeltingimused 
 ------------------
@@ -105,8 +111,6 @@ Eelarve plaanimine kasutab eelarveplaanide andmetele juurdepääsu konfigureerim
 
 ***Tähtis!*** *Veenduge, et oleksite selle ülesande tegemisel DEMF-i juriidilise isiku kontekstis, kuna organisatsiooni turvet rakendatakse juriidilise isiku kohta* 
 
-[![Anna juurdepääs](./media/screenshot14.png)](./media/screenshot14.png)
-
 ### <a name="task-3-create-scenarios"></a>3. ülesanne: stsenaariumide loomine
 3.1. Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon. Märkige lehel Stsenaariumid need stsenaariumid, mida hakata kasutama selles ülesandes edaspidi: Eelmine aasta tegelikud summad ja Eelarves plaanitud. 
 
@@ -167,7 +171,7 @@ Eelarveplaani paigutuse määratluse põhjal saame luua Exceli malli, mida kasut
 *Märkus. Veenduge, et valiksite käsu Salvesta nimega ja valiksite koha, kuhu mall tuleks redigeerimiseks salvestada. Kui kasutaja valib dialoogis käsu Ava ilma salvestamata, ei säilitata faili sulgemisel sellele tehtud muudatusi.* 
 [![Template view](./media/screenshot25.png)](./media/screenshot25.png) 
 
-5.3. &lt; Valikuline etapp &gt; Muutke Exceli malli, et muuta see kasutajasõbralikumaks \– lisage koguvalemeid, päisevälju, vorminguid jne. Salvestage muudatused ja laadige fail eelarveplaani paigutusse, klõpsates suvandeid Paigutus &gt; Laadi üles [![Üleslaadimine](./media/screenshot26.png)](./media/screenshot26.png)
+5.3. &lt; Valikuline etapp &gt; Muutke Exceli malli, et muuta see kasutajasõbralikumaks – lisage koguvalemeid, päisevälju, vorminguid jne. Salvestage muudatused ja laadige fail eelarveplaani paigutusse, klõpsates suvandeid Paigutus &gt; Laadi üles [![Üleslaadimine](./media/screenshot26.png)](./media/screenshot26.png)
 
 ### <a name="task-6-create-a-budget-planning-process"></a>6. ülesanne: eelarve plaanimise protsessi loomine
 Julia peab looma ja aktiveerima uue eelarve plaanimise protsessi, mis ühendab kogu ülaltoodud seadistust, et alustada eelarveplaanide sisestamist. Eelarve plaanimise protsess määratleb, milliseid eelarveorganisatsioone, millist töövoogu, paigutusi ja malle eelarveplaanide loomiseks kasutatakse. 
