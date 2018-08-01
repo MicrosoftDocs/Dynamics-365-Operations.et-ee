@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Väljavõtte sisestamise funktsiooni täiustuste osana on lehe **Jaemüügi para
 - **Inventuuri keelamine on nõutav** – kui see suvand on seatud valikule **Jah**, jätkub väljavõtte sisestamise protsess, isegi kui väljavõttel oleva loendatud summa ja kandesumma vaheline erinevus jääb väljapoole läve, mis on määratud jaekaupluste kiirkaardil **Statement**.
 
 Peale selle on kiirkaardile **Pakktöötlus** lisatud suvand **Paralleelselt sisestatavate väljavõtete maksimumarv**. See väli määrab pakett-töö ülesannete arvu, mida tuleks korraga käivitada. Praegu tuleb selle välja väärtus käsitsi määrata.
+
+Koos uue sisestamisprotsessiga tuleb määratleda **Kingekaardi toode** kiirkaardil **Kinkekaart** vahekaardil **Sisestamine** lehel **Jaemüügi parameetrid**. See kehtib isegi siis, kui organisatsioon ei kasuta kinkekaarte. 
 
 Pange tähele, et kõik väljavõtte sisestamisega seotud ning jaekaupluste lehel ja lehel **Jaemüügi parameetrid** määratud sätted ja parameetrid kehtivad väljavõtte sisestamise täiustatud funktsioonile.
 

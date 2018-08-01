@@ -3,7 +3,7 @@ title: "Mis on uus või muudetud"
 description: "See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet Microsoft 365 for Finance and Operationsi värskeimate versioonide uute funktsioonide kohta."
 author: josaw1
 manager: AnnBe
-ms.date: 05/14/2018
+ms.date: 06/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
-ms.openlocfilehash: 8a6ea271270fd854110a8548ab92cc4ef975ad0a
+ms.sourcegitcommit: 02d66063f721357b354f7959a46ec94d617f55a2
+ms.openlocfilehash: 2a608355718509c90e766825113f386b163ee4fd
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/08/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
@@ -64,7 +64,7 @@ Teavet uusimale versioonile täiendamiseks vaadake jaotisest [Viimasele uuenduse
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.0</td>
-<td>8.0.30</td>
+<td>8.0.30, 8.0.35</td>
 <td>2018. aprill</td>
   <td><a href="whats-new-changed-8-0-April-2018.md">Mis on uut või muutunud rakenduse Dynamics 365 for Finance and Operations versioonis 8.0 (aprill 2018)</a></td>
 </tr>

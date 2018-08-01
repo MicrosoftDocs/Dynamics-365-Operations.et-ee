@@ -3,7 +3,7 @@ title: "Teatiste ülevaade"
 description: "See teema annab üldteavet teatiste kohta rakenduses Microsoft Dynamics 365 for Finance and Operations. Teatisi saate kasutada, et olla kursis sündmustega, mida soovite tööpäeva jooksul jälgida."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="alerts-overview"></a>Teatiste ülevaade
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Teatiste kohta
 Teatised moodustavad kriitiliste sündmuste teadete süsteemi rakenduses Microsoft Dynamics 365 for Finance and Operations. Teatisi saate kasutada, et olla kursis sündmustega, mida soovite tööpäeva jooksul jälgida. Saate hõlpsalt luua omi teatisereegleid tähtaja ületanud tarnete, kustutatud tellimuste, muutuvate hindade või muude reageerimist nõudvate sündmuste kohta.

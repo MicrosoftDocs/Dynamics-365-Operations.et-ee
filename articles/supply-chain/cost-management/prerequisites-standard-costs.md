@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ Enne kauba sisestusreeglite määratlemist lubage lehel **Kandekombinatsioonid**
 
 **4. Määrake standardkuludele vastavad laoparameetrid.** 
 
--  Kasutage lehel **Varude parameetrid** olevat vahekaarti **Kooslused**, et määrata kulujuhtimise parameetrid standardkuludele vastavate kahe parameetri määramiseks. 
+-  Kasutage lehel **Laoarvestuse poliitikate häälestus > Parameetrid** olevat vahekaarti **Laoarvestus**, et määrata kulujuhtimise parameetrid standardkuludele vastavate kahe parameetri määramiseks.
 
     -  Valige väljalt **Kulujaotus** suvand **Puudub** või **Alammoodul**. Kui teete valiku **Alammoodul**, on kulude jaotamine*aktiivne*. Aktiivse kulu jaotamine on standardkulu kaubad mitmetasemelises tootmisstruktuuris kulugruppide segmentimise arvutamiseks, säilitamiseks ja vaatamiseks kriitiline toiming. Kui kulude jaotamine on aktiivne, saate kaubavaru, pooleliolevat tööd ja kulugrupi kohta müüdud kaupade kulu kinnitada ja analüüsida üksikul tasemel, mitmetasemeliselt või kogu vormingus. Aktiivne kulude jaotamine tähendab seda, et toodetud kauba kulu aktiveerimine põhjustab kulugrupi segmentimise talletamise kauba kulukirjes. 
 
