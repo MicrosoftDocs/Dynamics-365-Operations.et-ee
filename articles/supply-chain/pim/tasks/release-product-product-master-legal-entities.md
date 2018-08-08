@@ -1,7 +1,7 @@
 --- 
 title: "Toote/tooteetaloni väljastamine juriidilistele isikutele"
 description: "See protseduur juhendab, toodet või tooteetaloni ühele või mitmele juriidilisele isikule väljastada."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -12,14 +12,14 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 30779807f7bb198ac57a6c963c0181b5488654ad
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 3dc730f53a051471fb0fe145c50c6c265eb6ac0a
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a><span data-ttu-id="7d485-103">Toote/tooteetaloni väljastamine juriidilistele isikutele</span><span class="sxs-lookup"><span data-stu-id="7d485-103">Release a product/product master to legal entities</span></span>
