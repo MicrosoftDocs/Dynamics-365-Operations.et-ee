@@ -1,7 +1,7 @@
 ---
 title: "Pangakonto täpsema vastavusseviimise seadistusprotsess"
 description: "Pangakonto täpsema vastavusseviimise abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Finance and Operationsis automaatselt pangakannetega vastavusse viia.  See artikkel selgitab vastavusseviimise seadistusprotsesse."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521

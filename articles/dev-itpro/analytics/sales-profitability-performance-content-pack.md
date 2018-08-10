@@ -1,7 +1,7 @@
 ---
 title: "Müügi ja tulususe tulemuste Power BI sisu"
 description: "See teema kirjeldab, mida hõlmab müügi ja tulususe jõudluse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
