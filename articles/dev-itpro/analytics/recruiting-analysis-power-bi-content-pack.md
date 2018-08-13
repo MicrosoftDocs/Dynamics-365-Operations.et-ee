@@ -33,7 +33,7 @@ ms.lasthandoff: 12/19/2017
 Selles teemas kirjeldatakse **värbamise** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Power BI sisu **Värbamine** kuvatakse tööruumis **Värbamise haldus**. 
+Power BI sisu **Värbamine** kuvatakse tööruumis **Värbamise haldus**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Aruanded ja visuaalid värbamise halduse tööruumis
 Tööruum **Värbamise haldus** sisaldab vahekaarti **Analüütika**. Sellel vahekaardil on manustatud Power BI sisu värbamise jaoks. Sisu koosneb ülevaate vahekaardist ja täiendavatest andmeid sisaldavatest vahekaartidest. Järgmises tabelis on kirjeldatud iga vahekaardi aruandeid.
@@ -66,6 +66,4 @@ Järgmises tabelis on näidatud üksused, millel **värbamise** Power BI sisu p�
 | Jõudlus          | Hinnang, kirjeldus ja hinnangumudel                            | Kandidaat, palgatud kandidaat, lõpetatud kandidaat |
 | Värbamisprojekt  | Projekti kirjeldus, projekti olek ja vabad ametikohad                | Kandidaat, palgatud kandidaat, lõpetatud kandidaat |
 | Lõpetatud kandidaat | Lõpetatud kandidaadid, põhjus, tulemused ja lõpetamise kuupäev | Ettevõte, kalendri tasakaalustus, kuupäev, geograafiline asukoht, tulemused, demograafilised andmed, töösuhe, meedia, värbamisprojekt, kandidaadi nimi |
-
-
 

@@ -29,7 +29,6 @@ ms.lasthandoff: 02/23/2018
 
 Selles teemas kirjeldatakse **CFO ülevaate** Microsoft Power BI sisu. Power BI sisu kehtib neile, kes kasutavad rakenduse Microsoft Dynamics 365 for Finance and Operations versiooni 7.2. Kui kasutate versiooni 7.3 või sellest uuemat versiooni, vaadake artiklit [Finantsülevaated](financial-insights.md).
 
-
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 
 Aruanded Power BI sisust **CFO ülevaade** kuvatakse tööruumis **CFO ülevaade**.
@@ -39,13 +38,11 @@ Aruanded Power BI sisust **CFO ülevaade** kuvatakse tööruumis **CFO ülevaade
 
 Järgmises tabelis on Power BI sisu, millest kopeeritakse aruandeid, ja aruanded, mis kuvatakse tööruumis **CFO ülevaade**. Antud on lingid mitmesuguste Power BI sisu dokumentide juurde.
 
-| Power BI sisu, mis on lisatud     | Aruanded |
-|---------------------------------------|---------|
+| Power BI sisu, mis on lisatud | Aruanded |
+|-----------------------------------|---------|
 | [Finantstulemused](financial-performance-power-bi-content-pack.md) | <ul><li>Tulu</li><li>Kulud</li><li>Netotulu</li><li>Kogutulu</li><li>Lühiajalise kohustuse kattekordaja</li><li>Ostureskontro kogusumma</li><li>Müügireskontro kogusumma</li><li>Kulud kontokategooriate kaupa</li><li>Kulud – tegelik võrreldes eelarvega</li><li>Tulu – tegelik võrreldes eelarvega</li></ul> |
 | [Kassa ülevaade](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li>Likviidsuse planeerimine</li><li>Pangakonto bilanss</li><li>Saldo valuuta järgi</li></ul> |
 | [Müük ja tulusus](sales-profitability-performance-content-pack.md) | <ul><li>Tulu piirkonna alusel</li><li>10 parimat klienti tulu alusel</li><li>10 parimat toodet tulu alusel</li></ul> |
 | [Krediidihaldus ja võlanõuded](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Tähtaja ületanud klient</li><li>Krediidilimiiti ületavad kliendid</li><li>Aegunud saldod</li></ul> |
 | [Ostukulutuste analüüs](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Ostud kuu/päeva kaupa</li><li>10 tipptarnijat ostude alusel</li><li>10 tipptoodet ostude alusel</li></ul> |
-
-
 
