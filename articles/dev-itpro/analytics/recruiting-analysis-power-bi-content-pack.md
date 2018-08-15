@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="90e8b-105">Selles teemas kirjeldatakse **värbamise** Microsoft Power BI sisu.</span><span class="sxs-lookup"><span data-stu-id="90e8b-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="90e8b-106">See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.</span><span class="sxs-lookup"><span data-stu-id="90e8b-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="90e8b-107">Juurdepääs Power BI sisule</span><span class="sxs-lookup"><span data-stu-id="90e8b-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="90e8b-108">Power BI sisu **Värbamine** kuvatakse tööruumis **Värbamise haldus**.</span><span class="sxs-lookup"><span data-stu-id="90e8b-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="90e8b-108">Power BI sisu **Värbamine** kuvatakse tööruumis **Värbamise haldus**.</span><span class="sxs-lookup"><span data-stu-id="90e8b-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="90e8b-109">Aruanded ja visuaalid värbamise halduse tööruumis</span><span class="sxs-lookup"><span data-stu-id="90e8b-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="90e8b-110">Tööruum **Värbamise haldus** sisaldab vahekaarti **Analüütika**. Sellel vahekaardil on manustatud Power BI sisu värbamise jaoks.</span><span class="sxs-lookup"><span data-stu-id="90e8b-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="90e8b-111">Sisu koosneb ülevaate vahekaardist ja täiendavatest andmeid sisaldavatest vahekaartidest.</span><span class="sxs-lookup"><span data-stu-id="90e8b-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="90e8b-112">Järgmises tabelis on kirjeldatud iga vahekaardi aruandeid.</span><span class="sxs-lookup"><span data-stu-id="90e8b-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="90e8b-163">Jõudlus</span><span class="sxs-lookup"><span data-stu-id="90e8b-163">Performance</span></span>          | <span data-ttu-id="90e8b-164">Hinnang, kirjeldus ja hinnangumudel</span><span class="sxs-lookup"><span data-stu-id="90e8b-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="90e8b-165">Kandidaat, palgatud kandidaat, lõpetatud kandidaat</span><span class="sxs-lookup"><span data-stu-id="90e8b-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="90e8b-166">Värbamisprojekt</span><span class="sxs-lookup"><span data-stu-id="90e8b-166">Recruitment Project</span></span>  | <span data-ttu-id="90e8b-167">Projekti kirjeldus, projekti olek ja vabad ametikohad</span><span class="sxs-lookup"><span data-stu-id="90e8b-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="90e8b-168">Kandidaat, palgatud kandidaat, lõpetatud kandidaat</span><span class="sxs-lookup"><span data-stu-id="90e8b-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="90e8b-169">Lõpetatud kandidaat</span><span class="sxs-lookup"><span data-stu-id="90e8b-169">Terminated Applicant</span></span> | <span data-ttu-id="90e8b-170">Lõpetatud kandidaadid, põhjus, tulemused ja lõpetamise kuupäev</span><span class="sxs-lookup"><span data-stu-id="90e8b-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="90e8b-171">Ettevõte, kalendri tasakaalustus, kuupäev, geograafiline asukoht, tulemused, demograafilised andmed, töösuhe, meedia, värbamisprojekt, kandidaadi nimi</span><span class="sxs-lookup"><span data-stu-id="90e8b-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 

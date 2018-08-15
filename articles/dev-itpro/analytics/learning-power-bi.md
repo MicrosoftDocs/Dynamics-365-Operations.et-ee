@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6a0c1459da8770a8cc880a48483102494feb38bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -64,6 +64,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="2c47f-162">Ametikoht</span><span class="sxs-lookup"><span data-stu-id="2c47f-162">Position</span></span>         | <span data-ttu-id="2c47f-163">Amet, ametinimetus ja täistööajaga võrdne väärtus (FTE)</span><span class="sxs-lookup"><span data-stu-id="2c47f-163">Position, title, and full-time equivalent (FTE)</span></span>                  | <span data-ttu-id="2c47f-164">Kursuse päevakord, kursusel osalejad</span><span class="sxs-lookup"><span data-stu-id="2c47f-164">Course Agenda, Course Attendees</span></span> |
 | <span data-ttu-id="2c47f-165">Töövõtja nimi</span><span class="sxs-lookup"><span data-stu-id="2c47f-165">Employee Name</span></span>    | <span data-ttu-id="2c47f-166">Eesnimi, perekonnanimi ja täielik nimi</span><span class="sxs-lookup"><span data-stu-id="2c47f-166">First name, last name, and full name</span></span>                             | <span data-ttu-id="2c47f-167">Kursusel osalejad</span><span class="sxs-lookup"><span data-stu-id="2c47f-167">Course Attendees</span></span> |
 | <span data-ttu-id="2c47f-168">Töötaja ametinimetus</span><span class="sxs-lookup"><span data-stu-id="2c47f-168">Employee Title</span></span>   | <span data-ttu-id="2c47f-169">Ametinimetus ja staaži kuupäev</span><span class="sxs-lookup"><span data-stu-id="2c47f-169">Title and seniority date</span></span>                                         | <span data-ttu-id="2c47f-170">Kursusel osalejad</span><span class="sxs-lookup"><span data-stu-id="2c47f-170">Course Attendees</span></span> |
-
-
 
