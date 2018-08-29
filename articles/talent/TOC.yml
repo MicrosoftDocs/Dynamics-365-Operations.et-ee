@@ -1,29 +1,33 @@
-- name: Dynamics 365 for Talent
+- name: Tere tulemast rakendusse Microsoft Dynamics 365 for Talent
   href: index.md
   items:
     - name: Alustamine
       href: talent-get-started.md
       items:
+        - name: Mis on uus või muudetud
+          items:
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (juuli 2018)
+              href: whats-new-talent-july2018.md
         - name: Süsteeminõuded ja värskenduspoliitika
           href: talent-versions-update-policy.md
-        - name: Rakenduse Microsoft Dynamics 365 for Talent ettevalmistus
+        - name: Talenti ettevalmistamine
           href: provisioning-talent.md
-        - name: Keskkonna Talent eemaldamine
+        - name: Talenti keskkondade eemaldamine
           href: remove-talent-environment.md
-        - name: Moodulrakenduste Microsoft Dynamics 365 for Talent ettevalmistus
+        - name: Talenti moodulrakenduste jaoks ette valmistumine
           href: modular-app-tech-faq.md
         - name: Talenti funktsioonide laiendamine
           href: extend-talent-functionality.md
-        - name: Juurdepääs eelvaatefunktsioonidele rakenduses Dynamics 365 for Talent
+        - name: Juurdepääs eelvaatefunktsioonidele
           href: access-preview-feature.md
-        - name: Talenti konfigureerimine palgaarvestuse integratsiooni toetamiseks
+        - name: Pangaarvestuse integratsiooni konfigureerimine Talenti ja Dayforce’i vahel
           href: configure-payroll-integration.md
-    - name: Inimressursside strateegia arendamine
+    - name: 'Tööjõu korraldamine osakondade, tööde ja ametikohtade abil'
       href: departments-jobs-positions.md
       items:
-        - name: Töökomponentide häälestamine
+        - name: Töö komponentide seadistamine
           href: create-job.md
-        - name: Osakonna loomine ja selle seostamine osakonnahierarhiaga
+        - name: Osakondade loomine ja nende kaasamine osakonnahierarhiasse
           href: create-department-add-department-hierarchy.md
         - name: Juriidilistele isikutele inimressursside parameetrite seadistamine
           href: set-up-hr-parameters-across-legal-entities.md
@@ -33,15 +37,15 @@
           href: personnel-actions-faq.md
         - name: Äriprotsesside formaliseerimine
           href: formalize-business-processes.md
-        - name: Töövoo kasutamine töövõtja teabe haldamiseks
+        - name: Töövoogude kasutamine töövõtja teabe haldamiseks
           href: workflow-manage-employee-information.md
-        - name: Puhkuste ja puudumiste ülevaade
+        - name: Puhkuste ja puudumiste haldus
           href: leave-absence-overview.md
     - name: Organisatsiooni personali palkamine
       items:
-        - name: Attracti ülevaade
+        - name: Attracti funktsioonid ja võimalused
           href: attract-overview.md
-        - name: Onboardi ülevaade
+        - name: Kaasahaarava sisseelamiskogemuse loomine
           href: create-onboarding-experience.md
     - name: Töötajate motiveerimine
       items:
@@ -55,13 +59,13 @@
           href: process-compensation.md
     - name: Töötajate arendamine ja koolitamine
       items:
-        - name: Jõudlushalduse ülevaade
+        - name: Jõudlushaldus
           href: performance-management-overview.md
         - name: Töötajate oskuste joondamine ärivajadustega
           href: skills.md
         - name: Koolituskursuste seadistamine
           href: courses.md
-    - name: Soodustuste loomine ja haldamine
+    - name: Soodustusprogrammi määratlemine ja haldamine
       href: manage-benefit-program.md
     - name: Soodustuse saamise õiguse eeskirjad
       href: benefit-eligibility-policies.md
@@ -71,17 +75,134 @@
     - name: Teabe kogumine küsimustike abil
       href: questionnaires.md
       items:
-        - name: Küsimustiku kujundamine
+        - name: Küsimustike kujundamine
           href: design-questionnaires.md
-        - name: Küsimustiku laialisaatmine ja täitmine
+        - name: Küsimustike jaotamine ja kavandamine
           href: distribute-questionnaires.md
-        - name: Küsimustiku tulemuste hindamine
+        - name: Küsimustike tulemuste vaatamine ja hindamine
           href: evaluate-questionnaire-results.md
     - name: Töökoha ohutus ja nõuetele vastavus (Ameerika Ühendriigid)
       items:
         - name: Isikuandmete taotlusele vastamine Talenti abil
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Vorm I-9 töökohale sobivuse kontrollimine
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Vastavus ADA-le
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Teave
+      items:
+        - name: Manustatud Power BI tööruumides
+          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Mobiilirakendus
+      items:
+        - name: Mobiilsed tööruumid
+          items:
+            - name: Ettevõtte kataloog
+              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Minu töörühm
+              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Mobiilse tööruumi avaldamine
+          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Office’i integreerimine
+      items:
+        - name: Office’i integreerimise õppetükk
+          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Exceli lisandmooduli kasutamine
+          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Excelis avamise kogemuste loomine
+          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Office’i integreerimise tõrkeotsing
+          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Organisatsiooni haldus
+      items:
+        - name: Numbriseeriad
+          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Individuaalsete numbriseeriate häälestamine
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Numbriseeriate häälestamine viisardi abil
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Organisatsioonid ja organisatsiooni hierarhiad
+          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Organisatsiooni hierarhia kavandamine
+              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Organisatsioonihierarhia loomine
+              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Juriidilise isiku loomine
+              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Tootmisüksuse loomine
+              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Globaalne aadressiraamat
+          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Globaalse aadressiraamatu konfigureerimisviisi kavandamine
+              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Globaalse aadressiraamatu konfigureerimine
+              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Aadressiraamatute KKK
+              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Töövoog
+          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Töövoo elemendid
+              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Töövoo tegevused
+              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Töövoo loomine
+              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+              items:
+                - name: Töövoo atribuutide konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Käsitsi ülesande konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Automatiseeritud ülesande konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Kinnitusprotsessi konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Kinnitussammu konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Käsitsi otsuse konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Tingimusliku otsuse konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Paralleeltegevuse konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Paralleelharu konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Rea kauba töövoo konfigureerimine
+                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Sõnumi töötlemise pakett-töö konfigureerimine
+              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Tööüksuste delegeerimine töövoos
+              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Kuva töövooajalugu
+              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Töövooga seotud meilisõnumite vastuvõtmise lubamine kasutajatele
+              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Teatised
+          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Teatiste loomine
+              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Partii töötlemine teatiste jaoks
+              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Juhtumihaldus
+          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: 'Juhtumi turbe, protsesside ja kategooriate konfigureerimine'
+              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Dokumendihalduse konfigureerimine
+          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Meilisõnumi konfigureerimine ja saatmine
+          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Kuupäeva/kellaaja andmed ja ajavööndid
+          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Inimressursside ülesanded
+      items:
+        - name: Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
+          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Eesmärgi loomine
+          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Jõudluse ülevaate loomine
+          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
