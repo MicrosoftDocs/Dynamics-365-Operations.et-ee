@@ -1,16 +1,16 @@
 ---
 title: "Tasakaalustuse ülevaade tsentraliseeritud maksete puhul"
-description: "Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut. See kõrvaldab vajaduse sisestada sama kannet mitmes juriidilises isikus ja säästab aega, korrastades maksesoovituse protsessi, tasakaalustusprotsessi, avatud kande redigeerimist ja suletud kande redigeerimist tsentraliseeritud maksete jaoks."
+description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Finance and Operations tasakaalustust tsentraliseeritud maksete puhul.
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -35,8 +35,8 @@ Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallat
 Kui ühes juriidilises isikus sisestatakse kliendi- või hankijamakse ja tasakaalustatakse teises juriidilises isikus sisestatud arvega, genereeritakse kummagi juriidilise isiku kohta automaatselt sobiv tasakaalustus ning algus- ja lõputähtaegade kanded. Igale arve- ja maksekombinatsioonile kandes luuakse tasakaalustuskanne. Igale tasakaalustuskirjele määratakse uus kandenumber, mis põhineb makse kande numbriseerial, mis on määratud klientide puhul lehel **Müügireskontro parameetrid** ja hankijate puhul lehel **Ostureskontro parameetrid**. 
 
 Kui lisatasakaalustuskirjed luuakse skontodele, välisvaluuta ümberarvutamistele, sendierinevustele, üle- või alamaksetele, määratakse neile makse või arvekande hilisem kuupäev. Kui tasakaalustus toimub pärast makse sisestamist, kasutavad tasakaalustuskirjed tasakaalustuse sisestuskuupäevi, mis on määratud lehel **Tasakaalusta avatud kanded**.
-Sisestustüübid, kandetüübid ja vaikekirjeldused
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Sisestustüübid, kandetüübid ja vaikekirjeldused
 
 Kontsernisisesed tasakaalustuskanded kasutavad kontsernisisese tasakaalustuse sisestustüüpi, kontsernisisese kliendi tasakaalustuse ja kontsernisisene hankija tasakaalustuse kandetüüpe. Kandetüübi teavet saate seadistada lehel **Vaikekirjeldused**. 
 
@@ -50,8 +50,7 @@ Järgnevad kandetüübid on saadaval nii ühe ettevõtte kui ka kontsernisisesek
 
 Saate ka määrata vaikekirjeldused kontsernisisestele tasakaalustuskannetele.
 
-<a name="currency-exchange-gains-or-losses"></a>Valuutavahetuse kasumid ja kahjumid
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Valuutavahetuse kasumid ja kahjumid
 
 Valuutakurssi, mida kasutatakse kliendi- või hankijakanneteks, talletatakse koos kandega. Valuutavahetusega seotud realiseeritud kasumid või kahjumid sisestatakse kas arve juriidilisse isikusse või makse juriidilisse isikusse, olenevalt makse juriidilise isiku lehel **Kontsernisisene raamatupidamine** väljal **Sisesta valuutavahetusega seotud kasum või kahjum** tehtud valikust. Järgnevad näited kasutavad neid valuutasid:
 -   Makse arvestusvaluuta: EUR
@@ -59,7 +58,7 @@ Valuutakurssi, mida kasutatakse kliendi- või hankijakanneteks, talletatakse koo
 -   Makse kandevaluuta: DKK
 -   Arve kandevaluuta: CAD
 
-#### <a name="currency-calculations"></a>Valuutaarvutused
+### <a name="currency-calculations"></a>Valuutaarvutused
 
 Ühes juriidilises isikus sisestatud arve tasakaalustamisel teises juriidilises isikus sisestatud arvega teisendatakse makse kandevaluutat (DKK) kolmes etapis:
 1.  Teisendatakse makse arvestusvaluutaks (EUR), kasutades makse juriidilise isiku vahetuskurssi alates makse kuupäevast.
@@ -75,17 +74,15 @@ Kui leht **Avatud kannete tasakaalustamine** avatakse maksetöölehelt, kuhu mak
 
 Tulemuseks olev maksesumma kantakse üle maksetöölehe reale, kui sulete lehe **Avatud kannete tasakaalustamine**.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Erinevate arvestusvaluutade tõttu tekkinud kasumi või kahjumi sisestamine
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Erinevate arvestusvaluutade tõttu tekkinud kasumi või kahjumi sisestamine
 
 Valuutavahetusega seotud kasumi või kahjumi korral sisestatakse kasum või kahjum juriidilisse isikusse, kes on määratud makse juriidilise isiku lehel **Kontsernisisene raamatupidamine** väljal **Sisesta valuutavahetusega seotud kasum või kahjum**. Kasumi või kahjumi summa teisendatakse juriidilise isiku, kus kasum või kahjum sisestati, arvestusvaluutaks, kasutades selle juriidilise isiku puhul määratletud vahetuskurssi.
 
-<a name="cash-discounts"></a>Skontod
---------------
+## <a name="cash-discounts"></a>Skontod
 
 Kontsernisisese tasakaalustusprotsessi käigus loodud skontod sisestatakse kas arve juriidilisse isikusse või makse juriidilisse isikusse, olenevalt makse juriidilise isiku lehel **Kontsernisisene raamatupidamine** väljal **Sularaha allahindluse sisestamine** tehtud valikust. Vastav seadistuskanne luuakse arve juriidilises isikus.
 
-<a name="overpayments-and-underpayments"></a>Ülemaksed ja alamaksed
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Ülemaksed ja alamaksed
 
 Ülemaksete, alamaksete ja sendierinevuse kõikumised määratakse ülemaksete makse juriidilise isiku põhjal ja alamaksete arve juriidilise isiku põhjal. Kasutatav sisestuskonto määratakse klientide puhul väljaga **Skonto haldamine** lehel **Müügireskontro parameetrid** ja hankijate puhul väljaga **Skonto haldamine** lehel **Ostureskontro parameetrid**.
 
@@ -112,9 +109,4 @@ Hankijamaksete puhul kasutavad makse juriidilise isiku algus- ja lõputähtaja k
 
 ## <a name="withholding-tax"></a>Maksu kinnipidamine
 Arvega seostatud hankijakontot kasutatakse määramiseks, kas kinnipeetav maks tuleb arvutada. Kinnipeetava maksu rakendumisel arvutatakse see juriidilises isikus, mis on arvega seostatud. Kui juriidilised isikud kasutavad erinevaid valuutasid, kasutatakse arvega seostatud juriidilise isiku vahetuskurssi.
-
-
-
-
-
 

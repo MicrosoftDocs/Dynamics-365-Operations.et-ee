@@ -1,5 +1,5 @@
 ---
-title: "Taskukohase ravikindlustuse eelnõu aruannete koostamine"
+title: "Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine"
 description: "See funktsioon on mõeldud nende tööandjate abistamiseks, kellel on vaja jälgida vormidel 1095-B ja 1095-C esitatud teavet taskukohase ravikindlustuse eelnõu tööandja kohustuse osa toetamiseks. Pange tähele, et see funktsioon on lubatud ainult Ameerika Ühendriikide juriidiliste isikute puhul."
 author: kherr75
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 1994edc5d6c932be3a285f9bb328a05504c90f07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-affordable-care-act-reports"></a>Taskukohase ravikindlustuse eelnõu aruannete koostamine
+# <a name="generate-affordable-care-act-aca-reports"></a>Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine
 
 [!include [banner](includes/banner.md)]
 

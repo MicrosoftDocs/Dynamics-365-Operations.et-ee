@@ -1,5 +1,5 @@
 ---
-title: Retail Modern POS-i jaoks piltide seadistamine ja haldamine
+title: Retail Modern POS-i (MPOS) jaoks piltide seadistamine ja haldamine
 description: "See artikkel selgitab toiminguid, mis on seotud mitmesuguste Retail Modern POS-is (MPOS)kuvatavate üksuste piltide seadistamise ja haldamisega."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Retail Modern POS-i jaoks piltide seadistamine ja haldamine
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Retail Modern POS-i (MPOS) jaoks piltide seadistamine ja haldamine
 
 [!include [banner](includes/banner.md)]
 
@@ -52,7 +52,7 @@ Retail Modern POS-is (MPOS) kuvatavad pildid peavad olema majutatud väliselt, r
 4.  Piltide puhul on failinime vorming kataloogi nimele püsiprogrammeeritud ja seda ei saa muuta. Seega muutke piltide nime nii, et neild oleks sobivad katalooginimed. See aitab tagada, et MPOS käsitleb neid õigesti.
 5.  Valige väljal **Faililaiend** eeldatav faili nimelaiend olenevalt olemasolevatest pilditüüpidest. Näiteks demoandmete puhul on kataloogipildid laiendiga .jpg. (Ka pildifailid nimetatakse ümbe nii, et neil oleks kataloogi nimed.)
 6.  Klõpsake **OK**.
-7.  Kinnitamaks, et piltide meediamall on õigesti salvestatud, klõpsake lehel **Kataloogi pildid** uuesti suvandit **Meediamalli määratlemine**. Malli kinnitamiseks ilma dialoogikasti **Meediamalli määratlemine** sulgemata kasutage kiirkaarti **Pildi URL-ide loomine Exceli jaoks**. Kontrollige pildi-URL-i välimust ja kinnitage, et URL on kooskõlas varem mainitud malli standardiga. Dialoogikast **Meediamalli määratlemine** on nüüd määranud pilditee vaikimisi kõikidele kataloogi piltidele, mis kasutavad seda ühist URL-i teed. See URL-i tee khtib kõikidele kataloogi piltidele, kui need ei ole üle kirjutatud. Pilditee esimene osa on võetud meedia baas-URL-ist, mille määratlesite kanali profiilis. Ülejäänud osa teest on võetud teest, mille määratlesite meediamallis. Kaks osa on koondatud, et pakkuda pildi asukoha täielikku URL-i. Näiteks demoandmetes oleva kataloogi nimi on Fabrikam Base Catalog. Seega peab pildi nimi olema Fabrikam Base Catalog.jpg, et see kasutab kataloogi nime ja failinime laiendit .jpg, mis on mallis konfigureeritud. Antud juhul on URL pärast koondamist https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
+7.  Kinnitamaks, et piltide meediamall on õigesti salvestatud, klõpsake lehel **Kataloogi pildid** uuesti suvandit **Meediamalli määratlemine**. Malli kinnitamiseks ilma dialoogikasti **Meediamalli määratlemine** sulgemata kasutage kiirkaarti **Pildi URL-ide loomine Exceli jaoks**. Kontrollige pildi-URL-i välimust ja kinnitage, et URL on kooskõlas varem mainitud malli standardiga. Dialoogikast **Meediamalli määratlemine** on nüüd määranud pilditee vaikimisi kõikidele kataloogi piltidele, mis kasutavad seda ühist URL-i teed. See URL-i tee khtib kõikidele kataloogi piltidele, kui need ei ole üle kirjutatud. Pilditee esimene osa on võetud meedia baas-URL-ist, mille määratlesite kanali profiilis. Ülejäänud osa teest on võetud teest, mille määratlesite meediamallis. Kaks osa on koondatud, et pakkuda pildi asukoha täielikku URL-i. Näiteks demoandmetes oleva kataloogi nimi on Fabrikam Base Catalog. Seega peab pildi nimi olema Fabrikam Base Catalog.jpg, et see kasutab kataloogi nime ja failinime laiendit .jpg, mis on mallis konfigureeritud. Sel juhul on URL pärast liitmist https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
 8.  Käitage sünkroonimistöid, et lükata uus mall kanali andmebaasi, nii et MPOS saab kasutada malli piltidele juurdepääsuks.
 9.  Kanali poolel kataloogipiltide jaoks meediamalli värskendamiseks veenduge, et käivitate funktsiooni **Kataloogi töö 1150** valikust **Jaemüügi IT** &gt; **Jaotusgraafik**.[![catalog1](./media/catalog1.png)](./media/catalog1.png)
 

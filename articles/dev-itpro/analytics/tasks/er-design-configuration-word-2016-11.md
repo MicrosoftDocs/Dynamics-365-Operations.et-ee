@@ -1,5 +1,5 @@
 --- 
-title: Elektroonilise aruandluse (ER) Microsoft Wordi vormingus aruannete genereerimiseks konfiguratsiooni koostamine
+title: Elektroonilise aruandluse konfiguratsioonide kujundamine Wordi vormingus aruannete loomiseks
 description: "Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab konfigureerida elektroonilise aruandluse (ER) vorminguid, et luua aruandeid Microsoft Word failidena."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) Microsoft Wordi vormingus aruannete genereerimiseks konfiguratsiooni koostamine
+# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine Wordi vormingus aruannete loomiseks
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -63,7 +63,7 @@ See protseduur on funktsiooni jaoks, mis lisati rakenduse Microsoft Dynamics 365
     * Lisaks konfiguratsiooni muudatuste salvestamisele värskendab toiming Salvesta ka manustatud Wordi malli. Kujundatud vormingu struktuur porditakse manustatud Wordi dokumenti uue kohandatud XML-i osana, mille nimi on „Aruanne”. Pange tähele, et manustatud Wordi mall sisaldab mitte ainult sellise dokumendi paigutust, mida soovime luua elektroonilise aruandluse väljundina, vaid see sisaldab ka andmete struktuuri, mille elektrooniline aruandlus sisestab käitusajal sellesse malli.  
 2. Klõpsake suvandit Manused.
     * Nüüd peate siduma kohandatud XML-i osa „Aruanne” elemendid Wordi dokumendi osadega.  
-    * Kui olete tuttav Wordi dokumentidega, mida saab kujundada vormidena, mis sisaldavad kohandatud XML-i osade elementidega seotud sisu juhtelemente – läbige sellise dokumendi loomiseks kõik järgmises alamülesandes olevad etapid. Lisateabe saamiseks klõpsake linki https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Vastasel juhul jätke vahele järgmise alamülesande etapid.  
+    * Kui olete tuttav Wordi dokumentidega, mida saab kujundada vormidena, mis sisaldavad kohandatud XML-i osade elementidega seotud sisu juhtelemente – läbige sellise dokumendi loomiseks kõik järgmises alamülesandes olevad etapid. Lisateabe saamiseks vaadake järgmist linki https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Vastasel juhul jätke vahele järgmise alamülesande etapid.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Andmete sidumiste tegemiseks kohandatud XML-i osaga Wordi hankimine
     * Avage see dokument Wordis ja tehke järgmist. Avage Wordi vahekaart Arendaja (kohandage linti, kui see pole veel lubatud).  - Valige XML-i vastendamise paan.  - Valige otsingust kohandatud XML-i osa „Aruanne”.  - Tehke valitud kohandatud XML-i osa elementide ja Wordi dokumendi sisu juhtelementide vastendamine.  - Salvestage värskendatud Wordi dokument kohalikule kettale.  

@@ -1,5 +1,5 @@
 --- 
-title: "Vormingu käivitamine, mis kasutab horisontaalselt laiendatavaid vahemikke veergude dünaamiliseks lisamiseks Exceli aruannetes"
+title: "Vormingute käitamine, et Exceli aruannetele dünaamiliselt veergusid lisada horisontaalselt laiendatavate vahemikena"
 description: "Järgmistes etappides selgitatakse, kuidas kasutaja, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll, saab konfigureerida elektroonilise aruandluse vormingut, et luua aruandeid OPENXML-i töölehtede (Exceli) failidena, milles saab luua dünaamiliselt vajalikke veerge horisontaalselt laiendatavate vahemikena."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2d705d0d2803b5254adc27e6715c1eac311898a7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: c7d563da9a02c91cce17cfa1d4a6915dd768ac3d
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="run-a-format-that-uses-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Vormingu käivitamine, mis kasutab horisontaalselt laiendatavaid vahemikke veergude dünaamiliseks lisamiseks Exceli aruannetes
+# <a name="run-formats-to-dynamically-add-columns-to-excel-reports-as-horizontally-expandable-ranges"></a>Vormingute käitamine, et Exceli aruannetele dünaamiliselt veergusid lisada horisontaalselt laiendatavate vahemikena
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

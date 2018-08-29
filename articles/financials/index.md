@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: et-ee
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -33,16 +33,23 @@ See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest r
 
 Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
-:::row::: :::column::: - [Ostureskontro](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Ostureskontro](accounts-payable/accounts-payable.md) 
         - [Müügireskontro](accounts-receivable/accounts-receivable.md)
         - [Eelarvestamine](budgeting/budgeting-overview.md) 
         - [Sularaha- ja pangahaldus](cash-bank-management/cash-bank-management.md)
-        - [Kuluarvestus](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Kulude haldus](expense-management/expense-management.md)
+        - [Kuluarvestus](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Kulude haldus](expense-management/expense-management.md)
         - [Finantsaruandlus](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Põhivarad](fixed-assets/fixed-assets.md)
         - [Pearaamat](general-ledger/general-ledger.md) 
         - [Projektihaldus](project-management/overview-project-management-accounting.md)
-        - [Avalik sektor](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Avalik sektor](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Lisaressursid

@@ -1,5 +1,5 @@
 ---
-title: Teave
+title: "Ärianalüüsi (BI) ja aruandlus avaleht"
 description: "Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi ja aruandlustööriistade kohta."
 author: sericks007
 manager: AnnBe
@@ -18,18 +18,18 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="intelligence"></a>Analüüs
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Ärianalüüsi (BI) ja aruandlus avaleht
 
 [!include [banner](../includes/banner.md)]
 
-Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi ja aruandlustööriistade kohta.
+Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi (BI) ja aruandlustööriistade kohta.
 
 ## <a name="get-started"></a>Alustamine
 - [Teabe juurdepääs ja aruandlus](information-access-reporting.md)
@@ -43,13 +43,13 @@ Kasutajad saavad andmetega suhtlemiseks klõpsata või puudutada lehel olevaid v
 
 ![Tööruumis oleva Power BI näide](./media/Power-BI-in-D365-Workspace.png)
 
- Lisateabe saamiseks vaadake järgmisi teemasid.
+Lisateabe saamiseks vaadake järgmisi teemasid.
 
- - [Manustatud Power BI tööruumides](embed-power-bi-workspaces.md)
- - [Power BI Embeddedi integreerimine](power-bi-embedded-integration.md)
- - [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](add-analytics-tab-workspaces.md)
- - [Analüütiliste tööruumide ja aruannete turbe abistamine teenuse Power BI Embedded abil](secure-analytical-workspaces.md)
- - [Power BI sisu rakenduse Finance and Operations jaoks](power-bi-home-page.md)
+- [Manustatud Power BI tööruumides](embed-power-bi-workspaces.md)
+- [Power BI Embeddedi integreerimine](power-bi-embedded-integration.md)
+- [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](add-analytics-tab-workspaces.md)
+- [Analüütiliste tööruumide ja aruannete turbe abistamine teenuse Power BI Embedded abil](secure-analytical-workspaces.md)
+- [Power BI sisu rakenduse Finance and Operations jaoks](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Äridokumendid ja printimine
 Aruandluslahendusi kasutatakse sageli äritehingute üksikasjade jäädvustamiseks ja edastamiseks. Seetõttu peab aruandluslahendus suutma luua äriandmetest füüsilisi koopiaid olemasolevate seadmetega, näiteks võrguprinteritega. Äridokumendid on näiteks müügiarved, kliendi koondväljavõtted ja tšekid.
@@ -58,7 +58,7 @@ Aruandluslahendusi kasutatakse sageli äritehingute üksikasjade jäädvustamise
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
-- [Toote Document Reporting Services ülevaade](document-reporting-services.md)
+- [Dokumentide aruandlusteenuste ülevaade](document-reporting-services.md)
 - [Finance and Operationsi rakendustes printimine](print-documents.md)
 - [Dokumendi marsruudivaliku agendi installimine võrguprinterite lubamiseks](install-document-routing-agent.md)
 

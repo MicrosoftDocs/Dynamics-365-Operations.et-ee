@@ -1,5 +1,5 @@
 --- 
-title: Elektroonilise aruandluse (ER) elektrooniliste dokumentide genereerimine maksete jaoks vormingu konfiguratsiooni abil
+title: Elektrooniliste dokumentide loomine maksete jaoks, kasutades vormingu konfiguratsioone
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad kasutada uue elektroonilise aruandluse (ER) vormingu konfiguratsiooni elektrooniliste dokumentide loomiseks maksete töötlemise puhul."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a5d958d3b55bfa76f3cfbb3c1a289e4e89c49146
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 805e6f377d452e9c50240c8c9fc2ea6f5cb487e6
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-electronic-documents-for-payments-using-a-format-configuration-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) elektrooniliste dokumentide genereerimine maksete jaoks vormingu konfiguratsiooni abil
+# <a name="generate-electronic-documents-for-payments-by-using-format-configurations"></a>Elektrooniliste dokumentide loomine maksete jaoks, kasutades vormingu konfiguratsioone
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

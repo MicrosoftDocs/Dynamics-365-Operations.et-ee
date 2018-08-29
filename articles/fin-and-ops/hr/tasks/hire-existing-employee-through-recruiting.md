@@ -1,6 +1,6 @@
 --- 
-title: "Olemasoleva töötaja palkamine värbamise kaudu"
-description: "Mõnikord võivad avatud ametikohad täita kandidaadid, kes on juba teie ettevõtte töötajad."
+title: "Olemasolevate töötajate palkamine värbamise kaudu"
+description: "Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie ettevõtte töötajad."
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
@@ -16,17 +16,17 @@ ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5dfe5c25b299284267bed91d58e0acefb7250570
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="hire-an-existing-employee-through-recruiting"></a>Olemasoleva töötaja palkamine värbamise kaudu
+# <a name="hire-existing-employees-through-recruitment"></a>Olemasolevate töötajate palkamine värbamise kaudu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Mõnikord võivad avatud ametikohad täita kandidaadid, kes on juba teie ettevõtte töötajad. See protseduur annab ülevaate olemasoleva töötaja värbamise kohta värbamisprotsessi kaudu. Selles protseduuris on värbamisprojekt juba loodud ja olemasolev töötaja on juba värbamisprojekti avalduse esitanud. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie ettevõtte töötajad. See protseduur annab ülevaate olemasoleva töötaja värbamise kohta värbamisprotsessi kaudu. Selles protseduuris on värbamisprojekt juba loodud ja olemasolev töötaja on juba värbamisprojekti avalduse esitanud. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
 1. Avage Personaliarvestus > Värbamine > Avaldused > Avaldused.
 2. Leidke loendist selle töötaja avaldus, keda soovite palgata. Näide: 00002 John Emory

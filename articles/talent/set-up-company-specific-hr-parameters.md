@@ -1,5 +1,5 @@
 ---
-title: "Ettevõttekohaste inimressursside parameetrite seadistamine"
+title: "Ettevõttekohaste inimressursside (HR) parameetrite seadistamine"
 description: "Mõne inimressursside (HR) parameetri sätteid jagatakse ettevõtete vahel, samas kui teiste parameetrite sätted on täiesti ettevõttepõhised. See artikkel selgitab, ettevõttepõhiste inimressursside parameetrite seadistamist."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e195f9976465a933ceaaeb0bd2cbec4f814bc5f8
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-company-specific-hr-parameters"></a>Ettevõttekohaste inimressursside parameetrite seadistamine
+# <a name="set-up-company-specific-human-resources-hr-parameters"></a>Ettevõttekohaste inimressursside (HR) parameetrite seadistamine
 
 [!include [banner](includes/banner.md)]
 

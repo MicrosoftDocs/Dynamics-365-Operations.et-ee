@@ -1,5 +1,5 @@
 ---
-title: "Kohandatud väljad"
+title: "Kohandatud väljade loomine ja nendega töötamine"
 description: "Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operations võimaldab mõnel kasutajal luua kohandatud välju, et rakendus sobiks nende ettevõttega."
 author: jasongre
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 1ce709a4b5cce145d841b844a21a5218ba250c87
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="custom-fields"></a>Kohandatud väljad
+# <a name="create-and-work-with-custom-fields"></a>Kohandatud väljade loomine ja nendega töötamine
 
 [!include [banner](../includes/banner.md)]
 

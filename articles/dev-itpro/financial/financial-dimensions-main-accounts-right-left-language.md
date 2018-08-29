@@ -1,5 +1,5 @@
 ---
-title: "Finantsdimensioonid ja põhikontod paremalt vasakule keeles"
+title: "Finantsdimensioonid ja põhikontod paremalt vasakule loetavates keeltes"
 description: "See teema kirjeldab mõningaid juurutamisotsuseid, mida tuleb arvestada, kui kasutate paremalt vasakule keelt, ja peate seadistama finantsdimensioonid ja põhikontod."
 author: aprilolson
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
@@ -18,14 +18,14 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9859023853b235aa2695ee5c595627571a4d746c
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>Finantsdimensioonid ja põhikontod paremalt vasakule keeles
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Finantsdimensioonid ja põhikontod paremalt vasakule loetavates keeltes
 
 [!include [banner](../includes/banner.md)]
 

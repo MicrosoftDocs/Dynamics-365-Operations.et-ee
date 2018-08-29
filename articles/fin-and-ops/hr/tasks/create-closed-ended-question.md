@@ -1,5 +1,5 @@
 --- 
-title: "Suletud küsimuse loomine"
+title: "Kinniste küsimuste loomine"
 description: "Kinnised küsimused võimaldavad teil pakkuda valikuid, mille hulgast vastaja saab valida."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fdfac92b80774adb8376d5c2e945d063173188c8
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e6e2535cb606b85ddb55a396a86ec408f1304bbf
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-a-closed-ended-question"></a>Suletud küsimuse loomine
+# <a name="create-closed-ended-questions"></a>Kinniste küsimuste loomine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

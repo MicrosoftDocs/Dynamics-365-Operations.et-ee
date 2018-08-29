@@ -1,5 +1,5 @@
 --- 
-title: Mudeli ja vastendamise muutmine dokumentide loomiseks rakendusandmetega
+title: Mudelite ja vastenduste muutmine rakendusandmetega dokumentide loomiseks
 description: "Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (2. osa – dokumentide genereerimine)“."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c112b2895175bd23db313888ec1e964bdf5ed295
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 580f00faf6694dc2da476ffa75f995d9a24e0f8b
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="modify-model-and-mapping-to-generate-documents-with-application-data"></a>Mudeli ja vastendamise muutmine dokumentide loomiseks rakendusandmetega
+# <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Mudelite ja vastenduste muutmine rakendusandmetega dokumentide loomiseks
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: Elektroonilise aruandluse (ER) jaoks OpenXML-i vormingus aruannete genereerimiseks konfiguratsiooni koostamine
+title: Elektroonilise aruandluse konfiguratsioonide kujundamine OpenXML-vormingus aruannete loomiseks
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua uue elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab malli elektrooniliste dokumentide loomiseks vormingus OPENXML."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) jaoks OpenXML-i vormingus aruannete genereerimiseks konfiguratsiooni koostamine
+# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine OpenXML-vormingus aruannete loomiseks
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
