@@ -1,5 +1,5 @@
 --- 
-title: "Finantsdimensioone kasutava aruande käivitamine andmeallikana"
+title: "Finantsdimensioone andmeallikatena kasutatavate aruannete käitamine"
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) mudeli finantsdimensioonide kasutamiseks elektrooniliste aruannete andmeallikana."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 47ba48461a1c502a93df416d1acac1e85a841079
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6569f9b97d5d15bf74b8b3882bf4bab50970dd0f
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source"></a>Finantsdimensioone kasutava aruande käivitamine andmeallikana
+# <a name="run-reports-that-use-financial-dimensions-as-data-sources"></a>Finantsdimensioone andmeallikatena kasutatavate aruannete käitamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

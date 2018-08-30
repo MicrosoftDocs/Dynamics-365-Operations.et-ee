@@ -10,9 +10,9 @@
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: Demokeskkonna juurutamine
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
-            - name: Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
+            - name: Pilvepõhiste ja kohapealsete funktsioonide võrdlus
               href: get-started/cloud-prem-comparison.md
-            - name: Juurutamissuvandi valimine
+            - name: Juurutamissuvandid
               href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Pilvejuurutus
@@ -23,7 +23,7 @@
                   href: ../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/fin-and-ops/toc.json
                 - name: Kohapealsete juurutuste süsteeminõuded
                   href: get-started/system-requirements-on-prem.md
-                - name: Kohapealsete juurutuste ladustamine
+                - name: Kohapealsete juurutuste ladustamise konfigureerimine
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
             - name: Standardsed ja suunatud platvormi väljalasked
               href: get-started/public-preview-releases.md
@@ -36,7 +36,7 @@
           items:
             - name: Tarkvara elutsükli poliitika ja pilveväljalasked
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-            - name: Tarkvara elutsükli poliitika ja asutusesisesed väljalasked
+            - name: Tarkvara elutsükli poliitika ja kohapealsed väljalasked
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Eemaldatud või aegunud funktsioonid
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
@@ -44,11 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Funktsioonid, mida pole kohapealsetes keskkondades rakendatud'
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations 8.0 (aprill 2018)
+            - name: Finance and Operationsi versioon 8.0 (aprill 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (märts 2018)
               href: get-started/whats-new-platform-update-15.md
-            - name: Versiooni 7.2 kohapealsed juurutused platvormi värskendusega platform update 12 (märts 2018)
+            - name: 'Rakenduse Finance and Operations, Enterprise Edition versiooni 7.2 kohapealsed juurutused platvormi värskendusega platform update 12 (märts 2018)'
               href: get-started/whats-new-LBD-PU12-App72.md
             - name: 'Finance and Operations, Enterprise Edition 7.3'
               href: get-started/whats-new-application-7.3-update.md
@@ -82,11 +82,11 @@
               href: get-started/whats-new-changed-application-version-7-0-1-may-2016.md
             - name: Platform update 1 (mai 2016)
               href: get-started/whats-new-changed-platform-version-7-1-may-2016.md
-            - name: Dynamics AX 7.0 (veebruar 2016)
+            - name: AX 7.0 (veebruar 2016)
               href: get-started/whats-new-changed-7-0-february-2016.md
-            - name: Värskendatud ülesandejuhised
+            - name: Värskendatud tegevuse juhised
               items:
-                - name: 2017. a detsembri ülesandejuhised
+                - name: 2017. a detsembri tegevuse juhised
                   href: get-started/new-task-guides-dec-2017.md
                 - name: Novembri 2016 tegevuse juhised
                   href: get-started/new-task-guides-november-2016.md
@@ -100,7 +100,7 @@
           items:
             - name: Hõlbustusfunktsioonid
               href: get-started/accessibility-features.md
-            - name: Kliendi kasutajaliidese KKK
+            - name: Kliendi KKK
               href: get-started/client-faq.md
             - name: Tegevuse otsing
               href: get-started/action-search.md
@@ -108,21 +108,21 @@
               href: get-started/advanced-filtering-query-options.md
             - name: Tööruumide konfigureerimine ja filtreerimine
               href: get-started/configure-filter-workspaces.md
-            - name: 'Lehtede kuvamine kõrvuti, kasutades ikooni Ava uues aknas'
+            - name: 'Lehtede kuvamine kõrvuti, kasutades ikooni Ava uue akna funktsioonis'
               href: get-started/display-pages-side-by-side.md
             - name: Kiirklahvid
               href: get-started/shortcut-keys.md
-            - name: Ribareklaami või logo muutmine
+            - name: Juriidiliste isikute ribareklaamide või logode piltide muutmine
               href: get-started/tasks/change-banner-or-logo.md
             - name: Navigeerimisotsing
               href: get-started/navigation-search.md
             - name: Kasutuskogemuse isikupärastamine
               href: get-started/personalize-user-experience.md
-            - name: Kohandatud väljad
+            - name: Kohandatud väljade loomine ja nendega töötamine
               href: get-started/user-defined-fields.md
-            - name: PowerAppsi manustamine
+            - name: PowerAppsi rakenduste manustamine
               href: get-started/embed-power-apps.md
-            - name: Teabe leidmiseks otsingute kasutamine
+            - name: Teabe leidmiseks otsingute abil
               href: get-started/use-lookups-to-find-information.md
             - name: Seansi kuupäeva muutmine
               href: organization-administration/tasks/change-date-session.md
@@ -132,9 +132,9 @@
               href: ../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json
         - name: Dokumentatsiooni lugemine ja käitamine
           items:
-            - name: Spikri ülevaade
+            - name: Spikrisüsteem
               href: get-started/help-overview.md
-            - name: Ühendamise spikker
+            - name: Spikrisüsteemi ühendamine
               href: get-started/help-connect.md
             - name: Väljade kirjelduste vaatamine ja eksportimine
               href: get-started/view-export-field-descriptions.md
@@ -146,16 +146,16 @@
                   href: ../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/fin-and-ops/toc.json
             - name: Sõnastik
               href: get-started/glossary.md
-        - name: Lahenduse Dynamics 365 for Finance and Operations videod
+        - name: Rakenduse Finance and Operations videod
           href: get-started/videos.md
-    - name: Juurutamise elutsükli mõistmine
+    - name: Elutsükli halduse juurutamine
       href: imp-lifecycle/implementation-lifecycle.md
       items:
         - name: Finance and Operationsi arhitektuur
           href: imp-lifecycle/architecture-overview.md
-        - name: Microsoft FastTrack for Dynamics 365
+        - name: Microsoft FastTrack for Finance and Operations
           href: get-started/fasttrack-dynamics-365-overview.md
-        - name: Kasutuselevõtt
+        - name: Juurutusprojekti kasutuselevõtt
           href: imp-lifecycle/onboard.md
         - name: Ettevalmistamine süsteemi Go-Live jaoks
           href: imp-lifecycle/prepare-go-live.md
@@ -163,17 +163,17 @@
           href: imp-lifecycle/go-live-faq.md
         - name: Teenusetaotluse esitamine
           href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
-        - name: 'Tellimuste, LCS-i projektide ja Azure Active Directory rentnike KKK'
+        - name: 'Tellimuste, LCS-i projektide ja Azure AD rentnike KKK'
           href: get-started/subscription-overview.md
         - name: Keskkondade teisaldamine andmekeskuste vahel
           href: get-started/move-environments-data-center.md
         - name: Litsentside teisaldamine lepingutüüpide vahel
           href: get-started/move-licenses-between-agreement-types.md
-        - name: LCS-i juurutusprojekti teisaldamine teise Azure Active Directory rentnikku
+        - name: LCS-i juurutusprojektide teisaldamine teistesse Azure AD rentnikesse
           href: get-started/move-lcs-implementation-project-tenant.md
-        - name: Mitme LCS-i projekti ja tootmiskeskkonna juurutamine samasse Azure Active Directory rentnikusse
+        - name: Mitu LCS-i projekti ja tootmiskeskkonda ühes Azure AD rentnikus
           href: get-started/implement-multiple-projects-aad-tenant.md
-    - name: Ühilduvus
+    - name: Vastavus
       items:
         - name: Auditipoliitika reeglid
           href: ../financials/general-ledger/audit-policy-rules.md
@@ -347,8 +347,23 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Väliste veebiteenuste tarbimine
-              href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+                - name: Project Service Automationi integreerimise konfigureerimine
+                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                  items:
+                    - name: Project Service Automationi integreerimisparameetrid
+                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Projektilepingute ja projektide sünkroonimine
+                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Projektiülesannete sünkroonimine
+                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                    - name: Projekti kulukategooriate sünkroonimine
+                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Projektihinnangute sünkroonimine projekti eelarvetega
+                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
+                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                - name: Väliste veebiteenuste tarbimine
+                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Andmehaldus
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -357,7 +372,7 @@
           items:
             - name: Konfigureerimisandmete projektid
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
-            - name: Konfigureerimisandmete kopeerimine ettevõtete vahel
+            - name: Konfiguratsiooniandmete kopeerimine ettevõtete või juriidiliste isikute vahel
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Konfiguratsiooniandmete paketid (ainult 2017. a juuli väljaanne)
@@ -435,7 +450,7 @@
               items:
                 - name: Ostureskontro arvete võrdlemise seadistamine
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: Arvestuse jaotused ja alammooduli töölehe kirjed hankija arvete puhul
+            - name: Arvestuse jaotused ja alammooduli töölehe sisestused hankija arvete puhul
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Arve võrdlemine ja kontsernisisesed ostutellimused
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -468,6 +483,8 @@
                   href: ../financials/cash-bank-management/configure-settlement.md
                 - name: Hankija maksete tööruum
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
+                - name: Riskikursi määramine
+                  href: ../financials/accounts-payable/specify-cross-rate.md
                 - name: Hankija maksetasude määratlemine
                   href: ../financials/accounts-payable/tasks/define-vendor-payment-fees.md
                 - name: Hankija maksetingimuste määratlemine
@@ -507,7 +524,7 @@
               href: ../financials/accounts-receivable/set-up-collections.md
             - name: Korduvate arvete seadistamine ja töötlemine
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Arvestuse jaotused ja alammooduli töölehe kirjed vabas vormis arvete puhul
+            - name: Arvestuse jaotused ja alammooduli töölehe sisestused vabas vormis arvete puhul
               href: ../financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Kliendi sisestusreeglid
               href: ../financials/accounts-receivable/customer-posting-profiles.md
@@ -588,11 +605,11 @@
         - name: Eelarvestamine
           href: ../financials/budgeting/budgeting-overview.md
           items:
-            - name: 'Eelarve plaanimise ülevaade '
+            - name: Eelarve plaanimise ülevaade
               href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Eelarve juhtimise ülevaade '
+            - name: Eelarve juhtimise ülevaade
               href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Eelarve koostamise ülevaade  '
+            - name: 'Eelarve koostamise ülevaade '
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Ametikoha prognoosimine
               href: ../financials/budgeting/position-forecasting.md
@@ -622,7 +639,7 @@
             - name: Skontod ülemakseteks
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
             - name: Tasakaalustuse ülevaade
-              href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
+              href: ../financials/cash-bank-management/settlement-overview.md
             - name: Tasakaalustuse ülevaade tsentraliseeritud maksete puhul
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: Akreditiivid
@@ -700,6 +717,8 @@
               href: ../financials/general-ledger/financial-dimensions.md
             - name: Konto struktuurid
               href: ../financials/general-ledger/Default-dimensions.md
+            - name: Pearaamatupidaja tööruumile finantsdimensioonide lisamine
+              href: ../financials/general-ledger/CFO-workspace.md
             - name: Kontostruktuuride loomine
               href: ../financials/general-ledger/tasks/create-account-structures.md
             - name: Eelarve koostamise ülevaade
@@ -830,6 +849,8 @@
                   href: ../financials/fixed-assets/fixed-asset-integration.md
             - name: Kulumiarvestusmeetodid
               items:
+                - name: Kulumiarvestusreeglid
+                  href: ../financials/fixed-assets/Fixed-asset-depreciation-conventions.md
                 - name: 125 protsenti väheneva saldoga kulum
                   href: ../financials/fixed-assets/125-percent-reducing-balance-depreciation.md
                 - name: 150 protsenti väheneva saldoga kulum
@@ -886,7 +907,7 @@
                   href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
                 - name: Lisakulumi seadistamine
                   href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'Kulumiraamatute seadistamine  '
+                - name: 'Kulumiraamatute seadistamine '
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
                 - name: Kulumireeglite seadistamine ja loomine
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
@@ -915,7 +936,7 @@
                   href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
                 - name: Sisestamisdefinitsioonid
                   href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Sisestamisdefinitsiooni näited '
+                - name: Sisestamisdefinitsiooni näited
                   href: ../financials/general-ledger/example-posting-definitions.md
                 - name: Pearaamatukonto saldod
                   href: ../financials/general-ledger/general-ledger-account-balances.md
@@ -999,6 +1020,8 @@
                   href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Valuutavahetuskursside importimine
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Üks kanne
+                  href: ../financials/general-ledger/one-voucher.md
             - name: Perioodi lõpu sulgemine
               items:
                 - name: Pearaamatu sulgemine perioodi lõpus
@@ -1141,7 +1164,7 @@
               href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
             - name: Bilansi finantsaruanded
               href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Finantsaruande loomine
+            - name: Finantsaruannete loomine
               href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
             - name: Kasumiaruande finantsaruanne
               href: ../financials/general-ledger/income-statement-financial-report.md
@@ -1149,13 +1172,13 @@
               href: ../financials/general-ledger/trial-balance-financial-reports.md
             - name: Finantsaruannete vaatamine
               href: ../financials/general-ledger/view-financial-reports.md
-            - name: Aruande koostaja
+            - name: Aruandekoosturi liides
               href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-            - name: Kasutaja eelistused
+            - name: Kasutaja eelistused finantsaruannete koosturis
               href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Täpsemad vormingusuvandid
               href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Finantsaruande komponentide korraldamine
+            - name: Aruande komponentide korraldamine aruandekoosturis
               href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Aruande definitsioonid
               href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
@@ -1165,7 +1188,7 @@
               href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
             - name: Rea definitsioonide lahtrite muutmine
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Finantsaruandluse andmevaka lähtestamine pärast andmebaasi taastamist
+            - name: Finantsaruandluse andmevaka lähtestamine
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Lokaliseerimine ja regulatiivsed funktsioonid
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
@@ -1223,6 +1246,7 @@
                 - name: KM-i sisaldavate kliendiarvete KKK
                   href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
             - name: India
+              href: ../financials/localizations/india.md
               items:
                 - name: Põhivarad
                   href: ../financials/localizations/apac-ind-fixed-assets.md
@@ -1268,6 +1292,7 @@
                 - name: Maksulävede KKK
                   href: ../financials/localizations/apac-ind-tax-thresholds.md
             - name: Jaapan
+              href: ../financials/localizations/japan.md
               items:
                 - name: Põhivara soetamine ja valitsuse toetuse taotlemine
                   href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
@@ -1426,6 +1451,7 @@
                 - name: Põhivarade osadeks jaotamise loendi kasutamine
                   href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
             - name: Malaisia
+              href: ../financials/localizations/malaysia.md
               items:
                 - name: Kliendi kreediti genereerimine projektimüügi jaoks
                   href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
@@ -1448,10 +1474,12 @@
                 - name: GST maksuvabastusklauslite seadistamine
                   href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
             - name: Singapur
+              href: ../financials/localizations/singapore.md
               items:
                 - name: GST-05 aruande loomine
                   href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
             - name: Tai
+              href: ../financials/localizations/thailand.md
               items:
                 - name: Laokaardi aruanded
                   href: ../financials/localizations/apac-tha-stock-card-reports.md
@@ -1459,7 +1487,7 @@
                   href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Realiseerimata ostu käibemaks
                   href: ../financials/localizations/apac-tha-unrealized-vat.md
-                - name: Maksu kinnipidamine
+                - name: Kinnipeetav maks
                   href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: Euroopa
           items:
@@ -1619,7 +1647,7 @@
                   href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
                 - name: Vastavusseviimise aruanded
                   href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: 'Maksesaldode aruandluse häälestamine  '
+                - name: 'Maksesaldode aruandluse häälestamine '
                   href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM-i häälestus ja haldamine
                   href: ../financials/localizations/emea-bel-prodcom-report.md
@@ -1717,7 +1745,7 @@
                   href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
                 - name: NAF-koodid ja siret-numbrid
                   href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
-                - name: NAF-koodide ja Siret-numbrite seadistamine
+                - name: NAF-koodide ja siret-numbrite seadistamine
                   href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
                 - name: Tähtaja ületanud kliendimaksete karistused
                   href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
@@ -1744,7 +1772,7 @@
               items:
                 - name: Täiendavate soetamiste kulum
                   href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: 'Auditifail '
+                - name: Auditifail
                   href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                   items:
                     - name: Auditifaili konfiguratsiooni kohandamine
@@ -1759,7 +1787,7 @@
                   href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Tööleheloendi aruanne
                   href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: Elektroonilise maksudeklaratsiooni seadistamine
+                - name: Elektroonilise maksudeklaratsioonide seadistamine
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Ungari
               href: ../financials/localizations/hungary.md
@@ -1808,7 +1836,7 @@
                   href: ../financials/localizations/emea-ita-fiscal-books.md
                 - name: Tükeldatud makse avalikule haldusele väljastatud arvete korral
                   href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
-                - name: Maksu kinnipidamine
+                - name: Kinnipeetav maks
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Läti
               href: ../financials/localizations/latvia.md
@@ -1925,7 +1953,7 @@
             - name: Ühendkuningriik
               href: ../financials/localizations/united-kingdom.md
               items:
-                - name: 'Ehitustööstuse skeem '
+                - name: Ehitustööstuse skeem
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
                 - name: Kreediti loomine tasakaalustuse allahindlusele
                   href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
@@ -1942,7 +1970,10 @@
         - name: Ladina-Ameerika
           items:
             - name: Brasiilia
+              href: ../financials/localizations/brazil.md
               items:
+                - name: Lokaliseerimise ulatus
+                  href: ../financials/localizations/latam-bra-scope.md
                 - name: Finantsraamatud
                   href: ../financials/localizations/latam-bra-fiscal-books.md
                   items:
@@ -2032,7 +2063,7 @@
                       href: ../financials/localizations/latam-bra-tax-payments.md
                     - name: Maks müügipakkumistel
                       href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: 'Kinnipeetavad maksud  '
+                    - name: 'Kinnipeetavad maksud '
                       href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
                     - name: Kliendimaksetelt kinnipeetavad maksud
                       href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
@@ -2105,6 +2136,7 @@
                     - name: PIS ja COFINS - põhivarad
                       href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
             - name: Mehhiko
+              href: ../financials/localizations/mexico.md
               items:
                 - name: Lokaliseerimise ulatus
                   href: ../financials/localizations/latam-mex-scope.md
@@ -2120,7 +2152,7 @@
                   href: ../financials/localizations/latam-mex-diot-declaration-statement.md
                 - name: 'E-arved: CFDI'
                   href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: 'Elektroonilised arved '
+                - name: Elektroonilised arved
                   href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
                 - name: Pearaamatu elektroonilised arvestusväljavõtted
                   href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
@@ -2144,13 +2176,15 @@
                   href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Hankijate registreerimisnumbrid
                   href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
-        - name: Lähis-Ida
+        - name: Saudi Araabia
+          href: ../financials/localizations/saudi-arabia.md
           items:
             - name: Käibemaks
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Saudi Araabia Zakat-aruandlus
               href: ../financials/localizations/emea-sau-zakat-reporting.md
-        - name: Põhja-Ameerika
+        - name: USA
+          href: ../financials/localizations/united-states.md
           items:
             - name: Aastalõpu aruanne 1099 Ameerika Ühendriikides
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
@@ -2177,7 +2211,7 @@
               href: ../talent/workflow-manage-employee-information.md
         - name: Värbamine
           items:
-            - name: Värbamisprotsessi haldus
+            - name: Värbamisprotsesside haldus
               href: hr/manage-recruiting-process.md
             - name: Hulgivärbamisprojektid
               href: hr/mass-hire-projects.md
@@ -2219,63 +2253,69 @@
               href: ../talent/evaluate-questionnaire-results.md
         - name: Töökoha ohutus ja nõuetele vastavus (Ameerika Ühendriigid)
           items:
-            - name: Vorm I-9 töökohale sobivuse kontrollimine
+            - name: Vormi I-9 kinnitamine
               href: hr/localizations/noam-usa-form-i-9-verification.md
-            - name: Töökohale sobivuse kontrollimine vormi I-9 abil
+            - name: Töökohale sobivuse kontrollimine vormil I-9
               href: hr/localizations/tasks/employment-verification-i9-verification.md
-            - name: I-9 dokumenditüüpide seadistamine
+            - name: Vormi I-9 dokumenditüüpide seadistamine
               href: hr/localizations/tasks/set-up-i9-document-types.md
-            - name: Vastavus ADA-le
+            - name: Ameerika võimetusakti järgimine
               href: hr/localizations/noam-usa-comply-ada.md
             - name: Töötajate majutuse haldamine
               href: hr/localizations/tasks/manage-worker-accommodations.md
-        - name: Ameerika Ühendriikide palgaarvestus
+        - name: USA palk
           href: hr/localizations/noam-usa-payroll.md
           items:
-            - name: Palgaarvestuse seadistamine
+            - name: Palgaarvestuse häälestus
               items:
                 - name: Töötajate palga seadistamine
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
                 - name: Töötsüklite ja tööperioodide seadistamine
                   href: hr/localizations/noam-usa-work-cycle-work-period-tasks.md
-                - name: 'Soodustuse kogumisplaanide häälestamine  '
+                - name: Soodustuse kogumisplaanide häälestamine
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Soodustuste häälestamine
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
             - name: Sagedused ja tsüklid
-            - name: Palgatsükli ja makseperioodi ülesanded
+            - name: Palgatsüklite ja makseperioodide seadistamine
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
-            - name: Palgaarvestuse ja sageduse ülesanded
+            - name: Palgaarvestuse sageduste seadistamine
               href: hr/localizations/noam-usa-payroll-calculation-frequencies-tasks.md
-            - name: Töögraafiku ja puhkuse ülesanded
+            - name: Töögraafikute ja puhkuste seadistamine
               href: hr/localizations/noam-usa-work-schedule-leave-tasks.md
             - name: Koodid ja maksud
               items:
-                - name: Tulukoodi ja tulukoodi grupi ülesanded
+                - name: Tulukoodide ja tulukoodi gruppide seadistamine
                   href: hr/localizations/noam-usa-earning-code-group-tasks.md
-                - name: Maksuteabe ülesanded
+                - name: 'Maksude, maksuregioonide, maksukoodide ja maksugruppide seadistamine'
                   href: hr/localizations/noam-usa-tax-information-tasks.md
+                - name: 'Maksukoodide, maksugruppide ja sisestamisdefinitsioonide KKK'
+                  href: hr/localizations/noam-usa-tax-codes-tax-groups-definitions.md
+                - name: Palga algsaldode sisestamine
+                  href: hr/localizations/noam-usa-enter-beginning-balances.md
             - name: 'Sissenõudmised, lõivud ja preemia'
               items:
                 - name: Sissenõudmiste ja lõivude seadistamine
                   href: hr/localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md
-                - name: Töötajate registreerimine sissenõudmises ja lõivudes
+                - name: Töötajate registreerimine sissenõudmistes või lõivudes
                   href: hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
-                - name: 'Preemiatulude seadistamine '
+                - name: Preemiatulude seadistamine
                   href: hr/localizations/noam-usa-premium-earning-setup-tasks.md
                 - name: 'Sissenõudmiste, lõivude ja haldustasude KKK'
                   href: hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md
-            - name: FMLA vaba aja jälgimine
+            - name: Perekondlikel ja meditsiinilistel põhjustel puudumise (FMLA) vaba aja jälgimine
               href: hr/localizations/noam-usa-track-time-for-fmla.md
             - name: Palgaarvestuse töötlemise ülesanded
               items:
-                - name: Tulude koostamine
+                - name: Tulude ja tulude loomise KKK
                   href: hr/localizations/noam-usa-earnings-generation-process.md
+                - name: Töötajate tulude loomine
+                  href: hr/localizations/noam-usa-generate-earnings.md
                 - name: Töötaja maksete väljastamine
                   href: hr/localizations/noam-usa-issue-worker-payments.md
-                - name: Palgaarvestuse sisestamine ja hankija arvete loomine
+                - name: Palgaarvestuse jaotuste sisestamine ja hankija arvete loomine
                   href: hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
-                - name: Palgaväljavõtete ja maksete loomise KKK
+                - name: Palgaväljavõtete ja makse loomise KKK
                   href: hr/localizations/noam-usa-pay-statements-payment-generation-process.md
             - name: Makseprotsessi lõpuleviimine
               items:
@@ -2283,17 +2323,17 @@
                   href: hr/localizations/noam-usa-existing-payroll-payments.md
                 - name: Olemasolevate tulude töötlemine
                   href: hr/localizations/noam-usa-existing-earnings.md
-                - name: Palgaväljavõtete töötlemine
+                - name: Pangaväljavõtete loomine ja nendega töötamine
                   href: hr/localizations/noam-usa-pay-statements.md
             - name: Haldus ja aruandlus
               items:
                 - name: Palgaandmete värskenduste KKK
                   href: hr/localizations/noam-usa-payroll-data-updates.md
-                - name: Palgaaruannete loomine
+                - name: Standardsed palgaaruanded
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
-        - name: Inimressursside tegevused
+        - name: Inimressursside ülesanded
           items:
-            - name: Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
+            - name: Jõudluse töölehele teabe lisamine ja tänu saatmine
               href: hr/tasks/add-your-performance-journal-send-praise-someone.md
             - name: Küsimustiku tulemuste analüüsimine
               href: hr/tasks/analyze-questionnaire-results.md
@@ -2301,25 +2341,25 @@
               href: hr/tasks/approve-application-inbox-records.md
             - name: Soodustuskõlblikkuse töötlemine
               href: hr/tasks/benefit-eligibility-process.md
-            - name: Kalendri loomine ja tööaegade genereerimine
+            - name: Kalendrite loomine ja tööaegade genereerimine
               href: hr/tasks/create-calendar-working-times.md
-            - name: Suletud küsimuse loomine
+            - name: Suletud küsimuste loomine
               href: hr/tasks/create-closed-ended-question.md
-            - name: Eesmärgi loomine
+            - name: Eesmärkide loomine
               href: hr/tasks/create-goal.md
             - name: Laenuartiklite loomine
               href: hr/tasks/create-loan-items.md
-            - name: Hulgivärbamisprojekti loomine
+            - name: Hulgivärbamisprojektide loomine
               href: hr/tasks/create-mass-hire-project.md
-            - name: Uue soodustuse loomine
+            - name: Uute soodustuste loomine
               href: hr/tasks/create-new-benefit.md
-            - name: Avatud küsimuse loomine
+            - name: Avatud küsimuste loomine
               href: hr/tasks/create-open-ended-question.md
-            - name: Jõudluse ülevaate loomine
+            - name: Jõudluse ülevaadete loomine
               href: hr/tasks/create-performance-review.md
             - name: Soodustuskõlblikkuse reeglite ja poliitikate määratlemine
               href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: Hüvitusprotsessi määratlemine ja tulemuste arvutamine
+            - name: Hüvitusprotsesside määratlemine ja tulemuste arvutamine
               href: hr/tasks/define-compensation-process-calculate-results.md
             - name: Uute osakondade määratlemine
               href: hr/tasks/define-new-departments.md
@@ -2327,19 +2367,19 @@
               href: hr/tasks/define-new-jobs.md
             - name: Töötaja soodustuste programmi pakkumine
               href: hr/tasks/deliver-employee-benefits-program.md
-            - name: Töötaotluse arendamine ja avamine
+            - name: Töötaotluste arendamine ja avamine
               href: hr/tasks/develop-open-job-requisition.md
-            - name: Palga/hüvituse struktuuri ja plaanide arendamine
+            - name: Palga/hüvituse struktuuride ja plaanide arendamine
               href: hr/tasks/develop-salary-compensation-structure-plan.md
             - name: Järgnevusplaani arendamine
               href: hr/tasks/develop-succession-plan.md
             - name: Küsimustike levitamine ajastamise abil
               href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: Töötaja liitmine põhipalga plaaniga
+            - name: Töötajate registreerimine põhipalga plaanis
               href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: Töötaja liitmine tulemustasu plaaniga
+            - name: Töötajate registreerimine tulemustasu plaanis
               href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: Töötajate soodustuste registreerimine ja eemaldamine
+            - name: Töötajate soodustuste registreerimine ja töötajatelt soodustuste eemaldamine
               href: hr/tasks/enroll-remove-benefits-workers.md
             - name: Kandidaadi ja avalduse andmete käsitsi sisestamine
               href: hr/tasks/enter-applicant-application-data-manually.md
@@ -2347,25 +2387,25 @@
               href: hr/tasks/enter-project-timesheets.md
             - name: Töötaja andmete sisestamine
               href: hr/tasks/enter-worker-information.md
-            - name: Kandidaadi palkamine värbamise kaudu
+            - name: Kandidaatide palkamine värbamise kaudu
               href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: Olemasoleva töötaja palkamine värbamise kaudu
+            - name: Olemasolevate töötajate palkamine värbamise kaudu
               href: hr/tasks/hire-existing-employee-through-recruiting.md
             - name: Kandidaatide valikutööriistade tuvastamine ja juurutamine
               href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Töötajale asjade laenamine
+            - name: Töötajatele asjade laenamine
               href: hr/tasks/loan-item-worker.md
             - name: Töötajate vigastuste ja haiguste teabe haldamine
               href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: Eelmise küsimuse vastusest sõltuva küsimuse koostamine
+            - name: Eelmise küsimuse vastustest sõltuva küsimuse koostamine
               href: hr/tasks/make-question-dependent-answer-previous-question.md
             - name: Soodustuste aegumiskuupäevade haldamine
               href: hr/tasks/manage-benefit-expiration-dates.md
             - name: Meilimallide haldamine
               href: hr/tasks/manage-email-templates.md
-            - name: Puhkuse haldamine
+            - name: Puhkuste haldamine
               href: hr/tasks/manage-leave-absence.md
-            - name: Ametikoha aruandlusseoste muutmine
+            - name: Ametikohtade aruandlusseoste muutmine
               href: hr/tasks/modify-reporting-relationships-position.md
             - name: Hüvitusruudustike seadistamine
               href: hr/tasks/set-up-compensation-grids.md
@@ -2396,7 +2436,7 @@
             - name: Kuluarvestuse analüüs
               href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Kuluarvestuse analüüsi turve
+                - name: Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Kuluhaldus
               href: ../dev-itpro/analytics/cost-management-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2424,7 +2464,7 @@
               href: ../dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Värbamine
               href: ../dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 'Jaemüügikanali jõudlus  '
+            - name: 'Jaemüügikanali jõudlus '
               href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/fin-and-ops/toc.json
             - name: Müügi ja tulususe jõudlus
               href: ../dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2438,24 +2478,24 @@
           items:
             - name: Dokumentide aruandlusteenuste ülevaade
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
-            - name: SSRS-i konfigureerimine kohapealseks juurutamiseks
+            - name: SSRS-i konfigureerimine kohapealseteks juurutamisteks
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Printimine
               href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Dokumendi marsruudivaliku agendi installimine võrguprinterite lubamiseks
+                - name: Dokumendi marsruudivaliku agendi installimine võrguprintimise lubamiseks
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: Dokumendi marsruudivaliku agendi täiendamine
                   href: ../dev-itpro/analytics/upgrade-document-routing-agent.md
-                - name: Võrguprinteri seadmete installimine asutusesisestesse keskkondadesse
+                - name: Võrguprinteri seadmete installimine kohapealsetesse keskkondadesse
                   href: ../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json
-                - name: 'Dokumentide loomise, avaldamise ja printimise võimalused kohapealsetes keskkondades'
+                - name: 'Dokumentide loomine, avaldamine ja printimine kohapealsetes keskkondades'
                   href: ../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json
                 - name: Dokumendi marsruudivaliku agendi käitamine Windowsi teenusena
                   href: ../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json
             - name: Pikaajaliste aruannete aegumise vältimise spikker
               href: ../dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/fin-and-ops/toc.json
-            - name: SQL Serveri aruandlusteenuste aruannete loend
+            - name: Saadaolevad SQL Serveri aruandlusteenuste aruanded
               href: ../dev-itpro/analytics/SSRS-report.md?toc=/fin-and-ops/toc.json
             - name: Aruandluse lahenduste loomine
               href: ../dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/fin-and-ops/toc.json
@@ -2465,139 +2505,141 @@
               href: ../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/fin-and-ops/toc.json
             - name: Rakenduste komplekti aruande andmekomplektide laiendamine
               href: ../dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/fin-and-ops/toc.json
-            - name: Aruande menüüelementide laiendamine
+            - name: Aruande menüüelementide laiendamine kasutajate navigeerimiste ümbersuunamiseks
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
-            - name: Kohandatud kujundusega äridokumendid
+            - name: Äridokumentide kohandatud kujunduste loomine
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
         - name: Elektrooniline aruandlus
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
           items:
             - name: Elektroonilise aruandluse raamistiku konfigureerimine
               href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-            - name: Konfiguratsiooni loomine
+            - name: Konfiguratsioonide loomine
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Elektroonilise aruandluse konfiguratsioonipakkuja loomine ja aktiivseks märkimine
+                - name: Konfiguratsiooni pakkujate loomine ja nende märkimine aktiivseks
                   href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse domeenikohase andmemudeli koostamine
+                - name: Domeenispetsiifiliste andmemudelite
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse mudeli vastenduse määratlemine ja andmeallikate valimine
+                - name: Mudeli vastenduste määratlemine ja andmeallikate valimine
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatega
+                - name: Andmemudelite vastendamine valitud andmeallikatele
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse vormingukonfiguratsiooni loomine
+                - name: Vormingukonfiguratsioonide loomine
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse loodud vormingute komponentide vastendamine andmemudeli elementidega
+                - name: Vormingukomponentide vastendamine andmemudeli elementidega
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse elektrooniliste dokumentide genereerimine maksete jaoks vormingu konfiguratsiooni abil
+                - name: 'Elektrooniliste dokumentide loomine maksete jaoks, kasutades vormingu konfiguratsioone'
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse vormingu täiendamine selle vormingu uue alusvormi kasutuselevõtu abil
+                - name: Vormingute täiendamine uute alusversioonide kasutuselevõtuga
                   href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
             - name: Valemikoostaja elektroonilises aruandluses
               href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse häälestamine Power BI-ga
+            - name: Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse
               href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
             - name: Sihtkohad
               href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Elektroonilise aruandluse sihtkohtade konfigureerimine
+                - name: Sihtkohade konfigureerimine
                   href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse Microsoft Wordi vormingus aruannete genereerimiseks konfiguratsiooni koostamine
+            - name: Konfiguratsioonide loomine Wordi vormingus aruannete loomiseks
               href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse konfiguratsiooni loomine OpenXML-i vormingus aruannete genereerimiseks
+            - name: Konfiguratsioonide loomine OpenXML-i vormingus aruannete loomiseks
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse vormingu muutmine Microsoft Exceli malli uuesti rakendades
+            - name: Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse andmemudeli valimine vormingu loomise ajal
+            - name: Andmemudeli määratluse valimine vormingute loomisel
               href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse teistest komponentidest sõltuvuse määramine
+            - name: Konfiguratsioonide sõltuvuse määramine teistest komponentidest
               href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Andmemudeli loomine finantsdimensioonide kasutamiseks andmeallikana
+                - name: Andmemudelite loomine finantsdimensioonide kasutamiseks andmeallikatena
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: Mudelite vastendamine finantsdimensioonide kasutamiseks andmeallikana
+                - name: Mudelite vastendamine finantsdimensioonide kasutamiseks andmeallikatena
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: Aruande loomine finantsdimensioonide kasutamiseks andmeallikana
+                - name: Aruannete loomine finantsdimensioonide kasutamiseks andmeallikatena
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: Finantsdimensioone andmeallikana kasutatava aruande käitamine
+                - name: Finantsdimensioone andmeallikatena kasutavate aruannete käivitamine
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: Vormi loomine loendamiseks ja liitmiseks
+                - name: Vormingute loomine loendamiseks ja liitmiseks
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
                 - name: Arvutuste konfigureerimine loendamiseks ja liitmiseks
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
                 - name: Arvutuste kasutamine loendamise ja liitmise väljundi loomiseks
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: Vormingu käitamine loendamiseks ja liitmiseks
+                - name: Vormingute käivitamine loendamiseks ja liitmiseks
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: 'Vormingu loomine, et kasutada horisontaalselt laiendatavaid vahemikke Exceli aruannete veergude dünaamiliseks lisamiseks'
+                - name: 'Vormingute loomine, et dünaamiliselt lisada veerge horisontaalselt laiendatavate vahemikena'
                   href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Vormingu käitamine, mis kasutab horisontaalselt laiendatavaid vahemikke Exceli aruannete veergude dünaamiliseks lisamiseks'
+                - name: 'Vormingute käivitamine, et dünaamiliselt lisada veerge horisontaalselt laiendatavate vahemikena'
                   href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: Andmemudeli ettevalmistamine dokumendihalduse failide kasutamiseks vormingu väljundites (tegevusjuhis)
+                - name: Andmemudelite ettevalmistamine dokumendihalduse failide kasutamiseks väljundis
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: Andmemudeli laiendamine dokumendihalduse failide kasutamiseks vormingu väljundites (tegevusjuhis)
+                - name: Andmemudelite laiendamine dokumendihalduse failide kasutamiseks väljundis
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: Vormingu loomine dokumendihalduse failide kasutamiseks vormingu väljundites
+                - name: Vormingute loomine dokumendihalduse failide kasutamiseks väljundis
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: Vormingu käitamine dokumendihalduse failide kasutamiseks vormingu väljundites
+                - name: Vormingute käivitamine dokumendihalduse failide kasutamiseks väljundis
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: Vormingu muutmine ja käitamine dokumendihalduse failide kasutamiseks vormingu väljundites
+                - name: Vormingute muutmine ja käivitamine dokumendihalduse failide kasutamiseks väljundis
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: Konfiguratsioonide loomine aruannete loomiseks Microsoft Office’i vormingutes koos manustatud piltidega
+                - name: Konfiguratsioonide loomine aruannete loomiseks Office’i vormingutes koos manustatud piltidega
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Konfiguratsioonide ülevaatamine aruannete loomiseks Microsoft Office’i vormingutes koos manustatud piltidega
+                - name: Konfiguratsioonide läbivaatus aruannete loomiseks Office’i vormingutes koos manustatud piltidega
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Aruannete loomine Microsoft Office’i vormingus koos manustatud piltidega
+                - name: Aruannete loomine Office’i vormingus koos manustatud piltidega
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse tööriista abil elektrooniliste dokumentide loomine ja avalduse andmete värskendamine
+            - name: Elektrooniliste dokumentide loomine ja rakendusandmete värskendamine
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Konfiguratsioonide importimine dokumentide loomiseks rakendusandmetega
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
                 - name: Konfiguratsioonide loomine dokumentide loomiseks rakendusandmetega
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: Mudeli ja vastenduse muutmine dokumentide loomiseks rakendusandmetega
+                - name: Mudelite ja vastenduste muutmine dokumentide loomiseks rakendusandmetega
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: Vormingu muutmine dokumentide loomiseks avalduse andmetega
+                - name: Vormingute muutmine dokumentide loomiseks avalduse andmetega
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
                 - name: Dokumentide loomine avalduse andmetega
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: Prinditavate FTI-vormide loomine
+              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
             - name: Aruannete loomine toore XML-i sisu lisamisega
               href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-            - name: 'Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega '
+            - name: Loodud aruandetulemite jälgimine ja võrdlemine alusväärtustega
               href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
             - name: Ettevõtteülesed andmeallikad elektroonilises aruandluses
               href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse tööriista abil loodud äridokumentide piltide ja kujundite manustamine
+            - name: Piltide ja vormide manustamine loodavates dokumentides
               href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
             - name: Konfiguratsiooni elutsükli haldamine
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Elektroonilise aruandluse konfiguratsiooni üles laadimine teenusesse Lifecycle Services
+                - name: Konfiguratsioonide üleslaadimine teenusesse Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse konfiguratsioonide importimine teenusest Lifecycle Services
+                - name: Konfiguratsioonide importimine teenusest Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Konfiguratsioonide allalaadimine teenusest Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Elektroonilise aruandluse konfiguratsioonide importimine
+                - name: Konfiguratsioonide importimine
                   href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse mudelivastenduse konfiguratsioonide haldamine
+            - name: Mudelivastenduse konfiguratsioonide haldamine
               href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Elektroonilise aruandluse nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
+                - name: Konfiguratsioonide loomine andmete importimiseks välisfailidest
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
                 - name: Andmete SharePointist importimise konfigureerimine
                   href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Sissetulevate dokumentide sõelumine Microsoft Excelis
+            - name: Sissetulevate dokumentide sõelumine Exceli vormingus
               href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
             - name: Sissetulevate dokumentide sõelumine avalduse andmete värskendamiseks
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Sissetulevate dokumentide sõelumine CSV-vormingus
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: Loodud failide tükeldamine failimahu ja sisukoguse alusel
+            - name: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Elektroonilise aruandluse funktsioonide laiendamine
+                - name: Elektroonilise aruandluse funktsioonide loendi laiendamine
                   href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
                 - name: Elektroonilise aruandluse raamistiku API muudatused Application update 7.3 jaoks
                   href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
@@ -2609,7 +2651,7 @@
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
         - name: Isikupärastamise suvandid saidil PowerBI.com
           items:
-            - name: Power BI integreerimine
+            - name: 'Funktsioonid ja teenused, mis on saadaval Power BI integratsiooni kaudu'
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: Power BI aruannete kinnitamine tööruumidesse
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
@@ -2617,9 +2659,9 @@
           items:
             - name: 'Analüütika, koondmõõtmised ja KPI modelleerimine'
               href: ../dev-itpro/analytics/analytics.md?toc=/fin-and-ops/toc.json
-            - name: Analüütiliste aruannete koostamine Power BI Desktopi abil
+            - name: Analüütiliste aruannete loomine Power BI Desktopi abil
               href: ../dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/fin-and-ops/toc.json
-            - name: Modelleerimine ja koondandmed
+            - name: Mudeli koondandmed
               href: ../dev-itpro/analytics/model-aggregate-data.md?toc=/fin-and-ops/toc.json
             - name: Finantsdimensioonide lisamine koondmõõtmistele
               href: ../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/fin-and-ops/toc.json
@@ -2631,7 +2673,7 @@
           items:
             - name: Power BI integreerimine üksuse kauplusega
               href: ../dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/fin-and-ops/toc.json
-            - name: Üksuse poe hooldus
+            - name: Probleemide lahendamine pärast üksuse poe hooldust
               href: ../dev-itpro/analytics/entity-store-maintenance.md
             - name: Power BI integreerimise konfigureerimine tööruumidele
               href: ../dev-itpro/analytics/configure-power-bi-integration.md?toc=/fin-and-ops/toc.json
@@ -2803,10 +2845,10 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Nõudluse prognoosi käsitsi muutmine
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobiilirakendus
+    - name: Dynamics 365 for Unified Operationsi mobiilirakendus
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Mobiilsed tööruumid
+        - name: Saadaval mobiilsed tööruumid
           href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
           items:
             - name: Ettevõtte kataloog
@@ -2829,14 +2871,14 @@
               href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md
             - name: Hankija koostöö
               href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md
-        - name: Mobiilse tööruumi avaldamine
+        - name: Mobiilsete tööruumide avaldamine
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Office’i integreerimine
       href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
         - name: Office’i integreerimise õppetükk
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
-        - name: Exceli lisandmooduli kasutamine
+        - name: Üksuse andmete avamine Excelis ja nende värskendamine Exceli lisandmooduliga
           href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/fin-and-ops/toc.json
         - name: Excelis avamise kogemuste loomine
           href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/fin-and-ops/toc.json
@@ -2996,20 +3038,22 @@
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Organisatsioonihierarhia loomine
               href: organization-administration/tasks/create-organization-hierarchy.md
-            - name: Juriidilise isiku loomine
+            - name: Juriidiliste isikute loomine
               href: organization-administration/tasks/create-legal-entity.md
-            - name: Tootmisüksuse loomine
+            - name: Tootmisüksuste loomine
               href: organization-administration/tasks/create-operating-unit.md
         - name: Globaalne aadressiraamat
           href: organization-administration/overview-global-address-book.md
           items:
-            - name: Globaalse aadressiraamatu konfigureerimisviisi kavandamine
+            - name: Plaan globaalse aadressiraamatu ja muude aadressiraamatute jaoks
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Globaalse aadressiraamatu konfigureerimine
               href: organization-administration/tasks/configure-global-address-book.md
             - name: Aadressiraamatute KKK
               href: organization-administration/qa-address-books.md
-        - name: Töövoog
+            - name: Aadressiraamatute konfigureerimine
+              href: organization-administration/tasks/address-books.md
+        - name: Töövoo süsteem
           href: organization-administration/overview-workflow-system.md
           items:
             - name: Töövoo süsteemi arhitektuur
@@ -3018,45 +3062,45 @@
               href: organization-administration/workflow-elements.md
             - name: Töövoo tegevused
               href: organization-administration/workflow-actions.md
-            - name: Töövoo loomine
+            - name: Töövoogude loomine
               href: organization-administration/create-workflow.md
               items:
                 - name: Töövoo atribuutide konfigureerimine
                   href: organization-administration/configure-workflow-properties.md
-                - name: Käsitsi ülesande konfigureerimine
+                - name: Käsitsi ülesannete konfigureerimine
                   href: organization-administration/configure-manual-task-workflow.md
-                - name: Automatiseeritud ülesande konfigureerimine
+                - name: Automatiseeritud ülesannete konfigureerimine
                   href: organization-administration/configure-automated-task-workflow.md
-                - name: Kinnitusprotsessi konfigureerimine
+                - name: Kinnitusprotsesside konfigureerimine
                   href: organization-administration/configure-approval-process-workflow.md
-                - name: Kinnitussammu konfigureerimine
+                - name: Kinnitussammude konfigureerimine
                   href: organization-administration/configure-approval-step-workflow.md
-                - name: Käsitsi otsuse konfigureerimine
+                - name: Käsitsi otsuste konfigureerimine
                   href: organization-administration/configure-manual-decision-workflow.md
-                - name: Tingimusliku otsuse konfigureerimine
+                - name: Tingimuslike otsuste konfigureerimine
                   href: organization-administration/configure-conditional-decision-workflow.md
-                - name: Paralleeltegevuse konfigureerimine
+                - name: Paralleeltegevuste konfigureerimine
                   href: organization-administration/configure-parallel-activity-workflow.md
-                - name: Paralleelharu konfigureerimine
+                - name: Paralleelharude konfigureerimine
                   href: organization-administration/configure-parallel-branch-workflow.md
-                - name: Rea kauba töövoo konfigureerimine
+                - name: Rea kauba töövoogude konfigureerimine
                   href: organization-administration/configure-line-item-workflow.md
-            - name: Sõnumi töötlemise pakett-töö konfigureerimine
+            - name: Töövoo sõnumi töötlemise pakett-töö konfigureerimine kriitilisena
               href: organization-administration/workflow-batch-job-critical.md
             - name: Tööüksuste delegeerimine töövoos
               href: organization-administration/tasks/delegate-work-items-workflow.md
             - name: Kuva töövooajalugu
               href: organization-administration/tasks/view-workflow-history.md
-            - name: Töövooga seotud meilisõnumite vastuvõtmise lubamine kasutajatele
+            - name: Süsteemi konfigureerimine saatma kasutajatele töövooga seotud meilisõnumeid
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
             - name: Töövoo tüüpide aruanne
               href: organization-administration/workflow-types-report.md
         - name: Teatised
           href: get-started/alerts-overview.md
           items:
-            - name: Teatiste loomine
+            - name: Teatisereeglite loomine
               href: get-started/create-alerts.md
-            - name: Partii töötlemine teatiste jaoks
+            - name: Teatiste pakktöötlus
               href: get-started/alerts-managing.md
         - name: Digitaalallkirjad
           href: organization-administration/electronic-signature-overview.md
@@ -3066,7 +3110,7 @@
         - name: Juhtumihaldus
           href: organization-administration/cases.md
           items:
-            - name: 'Juhtumi turbe, protsesside ja kategooriate konfigureerimine'
+            - name: 'Juhtumi turbe, protsesside ja kategooriate plaanimine'
               href: organization-administration/plan-case-management.md
         - name: Kirjemallid
           href: organization-administration/record-templates.md
@@ -3792,7 +3836,7 @@
                       href: ../supply-chain/service-management/reverse-changes-in-a-dispatch-board.md
                     - name: Lähetamata hooldustellimuste vaatamine
                       href: ../supply-chain/service-management/view-undispatched-service-orders.md
-                    - name: 'Teenusekoosluse muutmine  '
+                    - name: 'Teenusekoosluse muutmine '
                       href: ../supply-chain/service-management/modify-service-bom.md
                 - name: Tarneteenus
                   items:
@@ -3893,7 +3937,7 @@
         - name: Lao tööpoliitikad
           href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
-            - name: 'Lao tööpoliitikate seadistamine  '
+            - name: 'Lao tööpoliitikate seadistamine '
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Seostatud tööga varude teisaldamine laohalduses
               href: ../supply-chain/warehousing/move-inventory-associated-work.md
@@ -3935,11 +3979,11 @@
               href: ../supply-chain/inventory/inventory-blocking.md
             - name: Tsükliline inventuur
               href: ../supply-chain/warehousing/cycle-counting.md
-            - name: 'Tsüklilise inventuuri määratlemine  '
+            - name: 'Tsüklilise inventuuri määratlemine '
               href: ../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
             - name: Osaline asukoha tsükliline inventuur
               href: ../supply-chain/warehousing/partial-location-cycle-counting.md
-            - name: 'Osalise asukoha tsüklilise inventuuriprotsessi määratlemine  '
+            - name: 'Osalise asukoha tsüklilise inventuuriprotsessi määratlemine '
               href: ../supply-chain/warehousing/tasks/define-partial-location-cycle-counting-process-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017-update.md
             - name: Lao tööleht
               href: ../supply-chain/inventory/inventory-journals.md
@@ -3958,7 +4002,7 @@
               href: ../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md
             - name: Min-max täiendamisprotsessi seadistamine
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
-        - name: 'Lao rakenduse installimine ja konfigureerimine '
+        - name: Lao rakenduse installimine ja konfigureerimine
           href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
             - name: Välja nimede konfigureerimine lao rakenduses

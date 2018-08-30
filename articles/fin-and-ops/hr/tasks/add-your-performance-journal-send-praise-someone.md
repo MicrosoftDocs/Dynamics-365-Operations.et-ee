@@ -1,5 +1,5 @@
 --- 
-title: "Jõudluse töölehele kirje lisamine ja teistele tänu saatmine"
+title: "Jõudluse töölehele teabe lisamine ja tänu saatmine"
 description: "Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil."
 author: ShielaSogge
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
+# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Jõudluse töölehele teabe lisamine ja tänu saatmine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

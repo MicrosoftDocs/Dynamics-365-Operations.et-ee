@@ -1,6 +1,6 @@
 ---
-title: "Kõnekeskuse funktsioonid"
-description: "Selles teemas antakse ülevaade kõnekeskuse müügifunktsioonidest Microsoft Dynamics 365 for Retail."
+title: "Kõnekeskuse müügifunktsioonid"
+description: "Selles teemas antakse ülevaade kõnekeskuse müügifunktsioonidest rakenduses Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e4f89d86b64e0c8c76c15d3c2c1c00af353e9ca
-ms.openlocfilehash: e76b29cf6312959ee84c251d582310ce4822945f
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 2b536ad4f29a3bb76294ef2fba30c529c24f1375
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="call-center"></a>Kõnekeskus 
+# <a name="call-center-sales-functionality"></a>Kõnekeskuse müügifunktsioonid
 
 [!include [banner](includes/banner.md)]
 

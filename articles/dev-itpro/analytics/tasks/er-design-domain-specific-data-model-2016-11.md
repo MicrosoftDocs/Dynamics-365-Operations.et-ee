@@ -1,5 +1,5 @@
 --- 
-title: Elektroonilise aruandluse (ER) domeenikohase andmemudeli koostamine
+title: Domeenispetsiifiliste andmemudelite kujundamine
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua uue elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab andmemudelit elektrooniliste maksedokumentide jaoks."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fadc5bc54654faf9e91e0831bdd0ff087cea3164
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: c59bdea789c4eafd2443a5d1cf802768259858c6
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a>Elektroonilise aruandluse (ER) domeenikohase andmemudeli koostamine
+# <a name="design-domain-specific-data-models"></a>Domeenispetsiifiliste andmemudelite kujundamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

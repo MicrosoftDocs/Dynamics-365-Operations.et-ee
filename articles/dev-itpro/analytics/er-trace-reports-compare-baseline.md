@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2018
 Saate jälgida väljaminevaid elektroonilisi dokumente loovate elektroonilise aruandluse vormingute tulemusi. Kui jälje loomine on sisse lülitatud (elektrooniline aruandlus kasutab parameetrit **Käita silumisrežiimis**), luuakse elektroonilise aruandluse vormingu täitmislogis uus jälituskirje iga kord, kui elektroonilise aruandluse aruannet käitatakse. Igasse loodud jälge salvestatakse järgmised üksikasjad.
 
 - Kõik valideerimisreeglitega loodud hoiatused
-- Kõik valideerimisreeglitega loodud tõrked 
+- Kõik valideerimisreeglitega loodud tõrked
 - Kõik jälituskirje manustena salvestatud loodud failid
 
 Saate salvestada mis tahes elektroonilise aruandluse vormingu puhul eraldi rakenduse alusfailid. Faile loetakse alusfailideks, kui need kirjeldavad käitatud aruannete oodatud tulemusi. Kui alusfail on saadaval elektroonilise aruandluse vormingu puhul, mis käitati, kui jälje loomine oli sisse lülitatud, salvestab jälg peale eespool nimetatud üksikasjade ka loodud elektroonilise dokumendi ja alusfaili võrdluse tulemuse. Saate ühe klõpsuga tuua loodud elektroonilise dokumendi ja selle alusfaili ühe zip-failina. Seejärel saate teha üksikasjaliku võrdluse, kasutades välist tööriista, nt Windiff.

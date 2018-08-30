@@ -1,6 +1,6 @@
 ---
-title: "Uued või värskendatud tegevusejuhised (detsember 2017)"
-description: "Selles teemas on loetletud uued või värskendatud tegevusejuhised, mis väljastati Microsofti (detsember 2016 – kõik keeled) APQC ühendatud teeki rakendusele Microsoft Dynamics 365 for Operations. Ühtegi uut teeki Alustamine ei antud välja."
+title: "Uued või värskendatud tegevusjuhised (detsember 2017)"
+description: "Selles teemas on loetletud uued või värskendatud tegevusjuhised, mis väljastati Microsofti (detsember 2016 – kõik keeled) APQC ühendatud teeki rakendusele Microsoft Dynamics 365 for Operations. Ühtegi uut teeki Alustamine ei antud välja."
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,19 +16,19 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a6bec9c0e9b591f99a0c00e554c18a5ebe440859
-ms.openlocfilehash: 25ee17c98d1071129e212512d75883dccd32791f
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: fbf99e6c01101209bf9e2a213c8008f50e67ad68
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="new-or-updated-task-guides-december-2017"></a>Uued või värskendatud tegevusejuhised (detsember 2017)
+# <a name="new-or-updated-task-guides-december-2017"></a>Uued või värskendatud tegevusjuhised (detsember 2017)
 
-Selles teemas on loetletud uued või värskendatud tegevusejuhised, mis väljastati Microsofti (detsember 2016 – kõik keeled) APQC ühendatud teeki rakendusele Microsoft Dynamics 365 for Operations.
+Selles teemas on loetletud uued või värskendatud tegevusjuhised, mis väljastati Microsofti (detsember 2016 – kõik keeled) APQC ühendatud teeki rakendusele Microsoft Dynamics 365 for Operations.
 
 
-<a name="new-task-guides"></a>Uued tegevusejuhised
+<a name="new-task-guides"></a>Uued tegevusjuhised
 ---------------
 
 <table>
@@ -105,7 +105,7 @@ Selles teemas on loetletud uued või värskendatud tegevusejuhised, mis väljast
 </tbody>
 </table>
 
-<a name="task-guides-updated"></a>Värskendatud tegevusejuhised
+<a name="task-guides-updated"></a>Värskendatud tegevusjuhised
 -------------------
 
 <table>
@@ -1034,7 +1034,7 @@ Selles teemas on loetletud uued või värskendatud tegevusejuhised, mis väljast
 <a name="bpm-lines-deleted"></a>BPM-i ridade kustutamine
 -----------------
 
-BPM-i rea kustutamisel kustutatakse ka kõik BPM-i reaga seostatud tegevusejuhised.
+BPM-i rea kustutamisel kustutatakse ka kõik BPM-i reaga seostatud tegevusjuhised.
 
 <table>
 <thead>

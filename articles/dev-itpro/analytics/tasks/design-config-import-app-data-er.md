@@ -1,5 +1,5 @@
 --- 
-title: "Konfiguratsioonide kujundus sissetulevate dokumentide sõelumiseks avalduse andmete värskendamiseks (ER)"
+title: "Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks"
 description: "Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone sissetuleva elektroonilise dokumendi sõelumiseks."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Konfiguratsioonide kujundus sissetulevate dokumentide sõelumiseks avalduse andmete värskendamiseks (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsi
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. 
 
-Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alustamist laadige alla ja salvestage teemas „Sissetulevate dokumentide sõelumine avalduse andmete värskendamiseks“ (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents) loetletud failid. Failid on järgmised: EFSTA model.xml EFSTA format.xml Response1.xml Response2.xml Response3.xml, Response4.xml.
+Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alustamist laadige alla ja salvestage teemas „Sissetulevate dokumentide sõelumine avalduse andmete värskendamiseks” loetletud failid (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)). Failid on järgmised: EFSTA model.xml EFSTA format.xml Response1.xml Response2.xml Response3.xml, Response4.xml.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.  

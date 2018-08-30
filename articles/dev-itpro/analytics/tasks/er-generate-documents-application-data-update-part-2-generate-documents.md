@@ -1,5 +1,5 @@
 --- 
-title: Konfiguratsioonide kujundus dokumentide loomiseks rakendusandmetega
+title: Konfiguratsioonide loomine rakendusandmetega dokumentide loomiseks
 description: "Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (1. osa – konfiguratsioonide import)“."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad5508ea5807f505b29f2e60a1459c9c22552694
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8376107a33dd83e04f82fcab6847e7f073f08dbc
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-configurations-to-generate-documents-with-application-data"></a>Konfiguratsioonide kujundus dokumentide loomiseks rakendusandmetega
+# <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Konfiguratsioonide loomine rakendusandmetega dokumentide loomiseks
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

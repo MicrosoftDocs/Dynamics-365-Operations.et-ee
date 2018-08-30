@@ -65,5 +65,3 @@ Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada arma
 | Töövõtja nimi    | Eesnimi, perekonnanimi ja täielik nimi                             | Kursusel osalejad |
 | Töötaja ametinimetus   | Ametinimetus ja staaži kuupäev                                         | Kursusel osalejad |
 
-
-

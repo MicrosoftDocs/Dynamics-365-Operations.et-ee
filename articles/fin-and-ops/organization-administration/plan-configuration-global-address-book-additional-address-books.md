@@ -1,5 +1,5 @@
 ---
-title: "Globaalse aadressiraamatu ja täiendavate aadressiraamatute konfigureerimise plaan"
+title: Globaalse aadressiraamatu ja muude aadressiraamatute plaanimine
 description: "Selles teemas kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Finance and Operationsis globaalse aadressiraamatu ning mis tahes täiendava aadressiraamatu seadistate ja konfigureerite. Mõned otsused nõuavad toote mõnes muus valdkonnas (nt organisatsiooni hierarhia) tehtud otsuste kinnitamist."
 author: ShivamPandey-msft
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b872603f987b72faacc0a987aa44c31e773636f8
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 69f1136e113fae5859d34a9a467da9c9cf4bf7dc
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>Globaalse aadressiraamatu ja täiendavate aadressiraamatute konfigureerimise plaan
+# <a name="plan-for-the-global-address-book-and-other-address-books"></a>Globaalse aadressiraamatu ja muude aadressiraamatute plaanimine
 
 [!include [banner](../includes/banner.md)]
 

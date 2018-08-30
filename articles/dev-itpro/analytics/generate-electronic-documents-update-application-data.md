@@ -1,5 +1,5 @@
 ---
-title: "Elektrooniliste dokumentide loomine ja rakenduse andmete uuendamine elektroonilise aruandluse tööriista abil"
+title: "Elektroonilise aruandluse kaudu elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine"
 description: "Saate kujundada elektroonilise aruandluse (ER) vorminguid, mida saab rakenduses Finance and Operations väljaminevate elektrooniliste dokumentide loomiseks kasutada. Saate kujundada ka ER-vorminguid, mis sõeluvad sissetulevaid elektroonilisi dokumente ja kasutavad nende dokumentide sisu rakenduse andmete uuendamiseks."
 author: NickSelin
 manager: AnnBe
@@ -19,18 +19,18 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: e2447274016f517db3ec0eb8f55c6b3163822f50
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Elektrooniliste dokumentide loomine ja rakenduse andmete uuendamine elektroonilise aruandluse tööriista abil
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Elektroonilise aruandluse kaudu elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
 
 [!include [banner](../includes/banner.md)]
 
-Saate kujundada elektroonilise aruandluse (ER) vorminguid, mida saab rakenduses Finance and Operations väljaminevate elektrooniliste dokumentide loomiseks kasutada. Saate kujundada ka ER-vorminguid, mis sõeluvad sissetulevaid elektroonilisi dokumente ja kasutavad nende dokumentide sisu rakenduse andmete uuendamiseks. 
+Saate kujundada elektroonilise aruandluse (ER) vorminguid, mida saab rakenduses Finance and Operations väljaminevate elektrooniliste dokumentide loomiseks kasutada. Saate kujundada ka ER-vorminguid, mis sõeluvad sissetulevaid elektroonilisi dokumente ja kasutavad nende dokumentide sisu rakenduse andmete uuendamiseks.
 
 Selle funktsiooniga saab ühte ER-i vormingut kasutada väljaminevate elektrooniliste dokumentide loomiseks ja seejärel rakenduse andmete uuendamiseks. Seda funktsiooni saab kasutada järgmistes stsenaariumides.
 

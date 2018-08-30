@@ -1,6 +1,6 @@
 ---
-title: "Reakauba töövoo konfigureerimine"
-description: "Selles teemas selgitatakse, kuidas konfigureerida reakaupa töövoo elementi."
+title: "Rea kauba töövoogude konfigureerimine"
+description: "Selles teemas selgitatakse, kuidas konfigureerida rea kauba töövoo elementi."
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
@@ -18,33 +18,33 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30d6aeda6be7bc81763c0b3f20c568d3fc81526
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-a-line-item-workflow"></a>Reakauba töövoo konfigureerimine
+# <a name="configure-line-item-workflows"></a>Rea kauba töövoogude konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida reakaupa töövoo elementi.
+Selles teemas selgitatakse, kuidas konfigureerida rea kauba töövoo elementi.
 
-Töövooredaktoris reakauba töövoo elemendi konfigureerimiseks paremklõpsake elementi ja seejärel klõpsake valikut **Atribuudid**, et avada leht **Atribuudid**. Seejärel kasutage reakauba töövoo elemendi atribuutide konfigureerimiseks järgmisi protseduure.
+Töövooredaktoris rea kauba töövoo elemendi konfigureerimiseks paremklõpsake elementi ja seejärel klõpsake valikut **Atribuudid**, et avada leht **Atribuudid**. Seejärel kasutage rea kauba töövoo elemendi atribuutide konfigureerimiseks järgmisi protseduure.
 
-## <a name="name-the-line-item-workflow-element"></a>Reakauba töövoo elemendile nime andmine
-Tehke reakauba töövoo elemendile nime sisestamiseks järgmist.
-
-1.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
-2.  Sisestage väljale **Nimi** reakauba töövoo elemendi jaoks kordumatu nimi.
-
-## <a name="specify-whether-the-same-workflow-is-used-to-process-all-line-items"></a>Määrake, kas sama töövoogu kasutatakse kõigi reakaupade töötlemiseks.
-Järgige neid etappe, et määrata, kas sama töövoogu kasutatakse dokumendi kõigi reakaupade töötlemiseks.
+## <a name="name-the-line-item-workflow-element"></a>Rea kauba töövoo elemendile nime andmine
+Tehke rea kauba töövoo elemendile nime sisestamiseks järgmist.
 
 1.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
-2.  Kui sama töövoog peab töötlema dokumendi kõiki reakaupu, klõpsake valikut **Kutsu üksik töövoog kõigile reakaupadele**. Seejärel valige töövoog, millega reakaupu töödelda.
-3.  Kui teatud töövoog peaks töötlema reakaupu, mis vastavad määratud tingimustele, klõpsake valikut **Kutsu töövoog igale reakaubale**. Järgige neid etappe tingimustekogumi määratlemiseks.
+2.  Sisestage väljale **Nimi** rea kauba töövoo elemendi jaoks kordumatu nimi.
+
+## <a name="specify-whether-the-same-workflow-is-used-to-process-all-line-items"></a>Määrake, kas sama töövoogu kasutatakse kõigi rea kaupade töötlemiseks.
+Järgige neid etappe, et määrata, kas sama töövoogu kasutatakse dokumendi kõigi rea kaupade töötlemiseks.
+
+1.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
+2.  Kui sama töövoog peab töötlema dokumendi kõiki rea kaupu, klõpsake valikut **Kutsu üksik töövoog kõigile rea kaupadele**. Seejärel valige töövoog, millega rea kaupu töödelda.
+3.  Kui teatud töövoog peaks töötlema rea kaupu, mis vastavad määratud tingimustele, klõpsake valikut **Kutsu töövoog igale rea kaubale**. Järgige neid etappe tingimustekogumi määratlemiseks.
     1.  Klõpsake vahekaarti **Lisa**.
     2.  Valige tabelist tingimus.
     3.  Sisestage vahekaardil **Tingimuse nimi** määratletava tingimustekogumi nimi.
@@ -52,7 +52,7 @@ Järgige neid etappe, et määrata, kas sama töövoogu kasutatakse dokumendi k�
     5.  Sisestage täiendavad vajalikud tingimused.
     6.  Kontrollimaks, kas sisestatud tingimustekogum on õigesti konfigureeritud, klõpsake käsku **Katseta**. Lehel **Töövoo tingimuse katsetamine** alas **Kontrolli tingimust** valige kirje ja seejärel klõpsake käsku **Katseta**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele. Klõpsake **OK** või valikut **Tühista**, et naasta lehele **Atribuudid**.
 
-    Vahekaardil **Töövoog** valige töövoog, mida kasutada teie määratletud tingimustekogumile vastavate reakaupade töötlemiseks.
+    Vahekaardil **Töövoog** valige töövoog, mida kasutada teie määratletud tingimustekogumile vastavate rea kaupade töötlemiseks.
 
 
 

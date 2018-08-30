@@ -1,7 +1,7 @@
 ---
 title: Toote identifikaatorid
 description: Selles teemas kirjeldatakse erinevaid toote identifikaatoreid ja kirjeldatakse, kuidas lisada toote identifikaatoreid toote andmetesse.
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article

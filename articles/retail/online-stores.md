@@ -1,5 +1,5 @@
 ---
-title: "võrgupoe ülevaade"
+title: "Võrgupoodide häälestamine"
 description: "See artikkel käsitleb võrgu jaepoode ja seda, kuidas neid Microsoft Dynamics 365 for Retailis seadistada."
 author: kfend
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3814e5a4a88f439c89981f191e8896afb2ced68b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 640f134dff19b60c2b14259f8a6c838e44c8926e
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="online-store-overview"></a>Võrgupoe ülevaade
+# <a name="set-up-online-stores"></a>Võrgupoodide häälestamine
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ See artikkel käsitleb võrgu jaepoode ja seda, kuidas neid Microsoft Dynamics 3
 
 Dynamics 365 for Retail toetab mitut jaemüügikanalit. Jaemüügikanalid hõlmavad võrgupoode, kõnekeskusi ja jaekauplusi (neid nimetatakse ka füüsilisteks kauplusteks). Võrgupoed annavad jaemüüjale kohaloleku võrgus, nii et tema kliendid saavad lisaks jaekauplusest osta tooteid ka võrgupoest. Kui kliendid ostavad tooteid võrgupoest, saab need tooted neile tarnida või võivad nad tooted kätte saada kohalikust jaekauplusest. Võrgupoe saate luua Dynamics 365 for Retaili klientrakenduses. Seejärel avaldatakse võrgupood muu osapoole võrgupoele, mis on integreeritud Dynamics 365 for Retailiga. Muu osapoole võrgupood toimib võrgupoe fassaadina (kasutajaliidesena) ning võimaldab teil valida kliendihaldussüsteemi (CMS) ja kasutajaliidese võimalusi. Dynamics 365 for Retaili jaoks on saadaval mitu seda tüüpi integratsiooni. Atribuudid, mida saate võrgupoe jaoks määratleda, juhivad võrgupoe toimimist. Näiteks määratlete Dynamics 365 for Retailis navigeerimiskategooria hierarhia ja määrate selle võrgupoele. Võrgupoe avaldamisel muu osapoole võrgupoele kuvatakse navigeerimiskategooria hierarhia kaupluse võrguversioonis. Ostjad kasutavad navigeerimiskategooria hierarhiat võrgupoe sisu sirvimiseks ja toodete otsimiseks. Võrgupoe loomiseks peate seadistama komponendid, mis võimaldavad kaupluse jaoks kannete töötlemist. Näiteks tuleb lisada sortimentid, rakendada atribuudid ning seadistada makseviisid ja tarneviisid. Samuti saate määrata hindu, kampaaniaid, allahindlusi, kaubandusleppeid ja võrgupoes kehtivaid tarnetingimusi. Pärast võrgupoe avaldamist muu osapoole võrgupoele saate võrgupoe jaoks luua jaemüügi tootekatalooge. Kataloogi toodetest saavad võrgupoe tooteloendid. Kui klient ostab võrgupoest tooteid, värskendatakse ja sünkroonitakse saadaolevad varud klientrakenduses. Samuti luuakse ostude kohta müügitellimused ning saadetakse tellimuse täitmiseks ja töötlemiseks klientrakendusse.
 
-## <a name="set-up-an-online-store"></a>Veebipoe häälestamine
+## <a name="set-up-an-online-store"></a>Võrgupoe seadistamine
 Võrgupoe seadistamiseks täitke järgmised ülesanded.
 
 1.  Looge võrgupood.

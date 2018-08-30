@@ -1,5 +1,5 @@
 --- 
-title: "Vormingu muutmine ja käivitamine dokumendihalduse failide vormingu väljundites kasutamiseks"
+title: "Vormingute muutmine ja käitamine dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis"
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu dokumendihalduse failide (manuste) kasutamiseks elektroonilise aruandluse väljundis."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b38f69fc169367aa56468b2c8f06b65fd1291c79
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5effbecf98e633d07f9e5eb22d3df1a12967c1e4
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs"></a>Vormingu muutmine ja käivitamine dokumendihalduse failide vormingu väljundites kasutamiseks
+# <a name="modify-and-run-formats-to-use-document-management-files-in-er-output"></a>Vormingute muutmine ja käitamine dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

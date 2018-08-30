@@ -46,8 +46,6 @@ Rakenduste Field Service ja Finance and Operations integratsiooni esimeses faasi
 
 Näite saamiseks, kuidas sünkroonida töökäsk Field Service’i ja Finance and Operationsi vahel, vaadake YouTube’i lühivideot [Töökäsu sünkroonimine rakenduste Dynamics 365 for Field Service ja Finance and Operations vahel](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
-
 ## <a name="system-requirements-for-finance-and-operations"></a>Rakenduse Finance and Operations süsteeminõuded
 Rakenduse Field Service integratsioon toetab järgmisi versioone.
 

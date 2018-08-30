@@ -1,5 +1,5 @@
 --- 
-title: " Jaekaupluse jaoks väljavõtte loomine, arvutamine ja sisestamine"
+title: "Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine"
 description: "See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sisestamise etappe."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 1c31c849c4c72762f0fdeb3f1d256cd3529394b2
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Jaekaupluse jaoks väljavõtte loomine, arvutamine ja sisestamine
+# <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

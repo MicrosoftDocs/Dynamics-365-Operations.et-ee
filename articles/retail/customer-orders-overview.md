@@ -1,6 +1,6 @@
 ---
-title: "Klienditellimuste ülevaade"
-description: "See teema annab teavet klienditellimuste kohta uudses jaemüügikassas (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta."
+title: "Klienditellimused uudses jaemüügikassas Retail Modern POS (MPOS)"
+description: "See teema annab teavet klienditellimuste kohta uudses jaemüügikassas Retail Modern POS (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta."
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,18 +20,18 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 8025df4f8498efa867f71892b253f71631b731c7
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="customer-orders-overview"></a>Klienditellimuste ülevaade
+# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Klienditellimused uudses jaemüügikassas Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
-See teema annab teavet klienditellimuste kohta uudses jaemüügikassas (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
+See teema annab teavet klienditellimuste kohta uudses jaemüügikassas Retail Modern POS (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
 
 Mitmekanalilises jaemüügimaailmas pakuvad paljud jaemüüjad mitmesuguste toote- ja täitmisnõuete täitmiseks klienditellimuste ehk eritellimuste võimalust. Tüüpilised stsenaariumid on näiteks järgmised.
 

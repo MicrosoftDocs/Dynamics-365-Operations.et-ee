@@ -1,5 +1,5 @@
 ---
-title: "Tööajaarvestus jaemüügis"
+title: Aja ja kohaloleku haldus rakenduses Retail
 description: "Selles teemas kirjeldatakse jaemüügi aja ja kohaloleku haldamise puhul toetatud stsenaariume rakenduses Microsoft Dynamics 365 for Retail."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Jaemüügi aeg ja kohalviibimine
+# <a name="time-and-attendance-management-in-retail"></a>Aja ja kohaloleku haldus rakenduses Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -43,9 +43,9 @@ Selles teemas kirjeldatakse jaemüügi aja ja kohaloleku haldamise puhul toetatu
 
 ### <a name="plan-worker-schedules"></a>Töötaja graafikute planeerimine
 
--   Rakendage tööplaanija abil reeglid. Lisateabe saamiseks vt <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+-   Rakendage tööplaanija abil reeglid. Lisateavet vt <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
 
-Lisateavet konfiguratsioonitoimingute kohta vt <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Lisateavet konfigureerimistoimingute kohta vt lingilt <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
 
 ### <a name="retail-specific-configuration"></a>Jaemüügispetsiifiline konfiguratsioon
 
@@ -135,7 +135,7 @@ Dynamics 365 for Retaili kasutaja jälgib töövoogu ajaregistreerimiste arvutam
 -   Hulgiväljaregistreerimine
 -   Puudumise registreerimine
 
-Tööajaarvestuse kohta vt lisateavet <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Lisateavet aja ja kohalviibimise registreerimiste töötlemise kohta vt <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
 
 
 

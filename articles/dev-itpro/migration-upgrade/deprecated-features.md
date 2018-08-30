@@ -1,9 +1,9 @@
 ---
-title: Aegunud funktsioonid
+title: "Eemaldatud või aegunud funktsioonid"
 description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
 author: sericks007
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 08/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
-ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
+ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
+ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/30/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -38,6 +38,9 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > [!Note]
 > Alates rakenduse Dynamics 365 for Finance and Operations 2017. aasta juulikuu väljaandest platvormivärskendusega 8 on iga eemaldatud või aegunud funktsiooni puhul märgitud juurutuste tüüp. Kõik selles teemas mainitud varasemad versioonid toetasid ainult pilvejuurutusi.
+
+> [!Note]
+> Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Microsoft Dynamics 365 for Finance and Operations 8.0 platvormivärskendusega 15
 Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Platvormivärskendus 15 on kumulatiivne ja sisaldab uusi või muudetud funktsioone platvormivärskendusest 13, platvormivärskendusest 14 ja platvormivärskendusest 15.

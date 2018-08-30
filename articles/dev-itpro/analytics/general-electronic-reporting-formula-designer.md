@@ -1,5 +1,5 @@
 ---
-title: Valemikoostaja elektroonilises aruandluses
+title: Valemikoostaja elektroonilises aruandluses (ER)
 description: Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat.
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Valemikoostaja elektroonilises aruandluses
+# <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ Käitusajal annavad väljad <strong>Silt</strong> ja <strong>Kirjeldus</strong> 
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Järgmisel joonisel on näidatud koostatud vormingu käitamise tulemus.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Siltide ja kirjelduste tõlgitud tekst sisestatakse ER-i vormingu väljundis vormingu peaelementide FAIL ja KAUST jaoks konfigureeritud keelesätete kohaselt.</blockquote>
+<blockquote>[!NOTE] Siltide ja kirjelduste tõlgitud tekst sisestatakse ER-i vormingu väljundis vormingu peaelementide FAIL ja KAUST jaoks konfigureeritud keelesätete kohaselt.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Järgmisel joonisel on näidatud kohandatud vormingu käitamise tulemus.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>Piirangut ei rakendata algse loendi viimasele üksusele, kuna selle piirangu allika (mass) väärtus (11) ületab määratletud piirangut (9). Kasutage kas funktsiooni <strong>KUS</strong> või vastava vorminguelemendi avaldist <strong>Lubatud</strong>, et alamloendeid aruande loomisel vajaduse korral eirata (jätta vahele).</blockquote>
+<blockquote>[!NOTE] Piirangut ei rakendata algse loendi viimasele üksusele, kuna selle piirangu allika (mass) väärtus (11) ületab määratletud piirangut (9). Kasutage kas funktsiooni <strong>KUS</strong> või vastava vorminguelemendi avaldist <strong>Lubatud</strong>, et alamloendeid aruande loomisel vajaduse korral eirata (jätta vahele).</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 | NUMBERVALUE (string, kümnendkohaeraldaja, arvu rühmitamise eraldaja) | Teisendab määratud stringi numbriks. Määratud kümnendkoha eraldajat kasutatakse kümnendarvu täisarvu ja murdosa eraldamiseks. Määratud numbrikohtade rühmitamise eraldajat kasutatakse tuhandeliste eraldajana. | **NUMBERVALUE("1 234,56", ",", " ")** tagastab väärtuse **1234,56**. |
 | VALUE (string) | Teisendab määratud stringi numbriks. Komasid ja punkte (.), loetakse komakohtade eraldajateks ning miinusmärki (–) kasutatakse negatiivse märgina. Ilmneb erand, kui määratud stringis on muid mittenumbrilisi märke. | **VALUE ("1 234,56")** annab erandi. |
 | ROUND (number, kümnendkohad) | Annab vastuseks määratud numbri pärast selle ümardamist määratud arvu komakohtadeni.<ul><li>Kui **kümnendkohtade** parameetri väärtus on suurem kui 0 (null), ümardatakse määratud number nii paljude komakohtadeni.</li><li>Kui **kümnendkohtade** parameetri väärtus on **0** (null), ümardatakse määratud number lähima täisarvuni.</li><li>Kui **kümnendkohtade** parameetri väärtus on väiksem kui 0 (null), ümardatakse määratud number komakohast vasakule.</li></ul> | **ROUND (1200.767, 2)** ümardab kahe komakohani ja tagastab väärtuse **1200,77**. **ROUND (1200,767, –3)** ümardab lähima 1000 kordseni ja tagastab väärtuse **1000**. |
-| ROUNDDOWN (number, kümnendkohad) | Annab vastuseks määratud numbri pärast selle allapoole ümardamist määratud arvu komakohtadeni.<blockquote>[!NOTE]<br>See funktsioon toimib nagu **ROUND**, kuid see ümardab alati määratud numbrit allapoole (nulli poole).</blockquote> | **ROUNDDOWN (1200.767, 2)** ümardab allapoole kahe komakohani ja tagastab väärtuse **1200,76**. **ROUNDDOWN (1700.767, -3)** ümardab allapoole lähima 1000 kordseni ja tagastab väärtuse **1000**. |
-| ROUNDUP (number, kümnendkohad) | Annab vastuseks määratud numbri pärast selle ülespoole ümardamist määratud arvu komakohtadeni.<blockquote>[!NOTE]<br>See funktsioon toimib nagu **ROUND**, kuid see ümardab alati määratud numbrit ülespoole (nullist kaugemale).</blockquote> | **ROUNDUP (1200.763, 2)** ümardab ülespoole kahe komakohani ja tagastab väärtuse **1200,77**. **ROUNDUP (1200.767, -3)** ümardab ülespoole lähima 1000 kordseni ja tagastab väärtuse **2000**. |
+| ROUNDDOWN (number, kümnendkohad) | Annab vastuseks määratud numbri pärast selle allapoole ümardamist määratud arvu komakohtadeni.<blockquote>[!NOTE] See funktsioon toimib nagu **ROUND**, kuid see ümardab alati määratud numbrit allapoole (nulli poole).</blockquote> | **ROUNDDOWN (1200.767, 2)** ümardab allapoole kahe komakohani ja tagastab väärtuse **1200,76**. **ROUNDDOWN (1700.767, -3)** ümardab allapoole lähima 1000 kordseni ja tagastab väärtuse **1000**. |
+| ROUNDUP (number, kümnendkohad) | Annab vastuseks määratud numbri pärast selle ülespoole ümardamist määratud arvu komakohtadeni.<blockquote>[!NOTE] See funktsioon toimib nagu **ROUND**, kuid see ümardab alati määratud numbrit ülespoole (nullist kaugemale).</blockquote> | **ROUNDUP (1200.763, 2)** ümardab ülespoole kahe komakohani ja tagastab väärtuse **1200,77**. **ROUNDUP (1200.767, -3)** ümardab ülespoole lähima 1000 kordseni ja tagastab väärtuse **2000**. |
 
 ### <a name="data-conversion-functions"></a>Andmete teisendamise funktsioonid
 
@@ -474,8 +474,8 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 
 | Funktsioon | Kirjeldus | Näide |
 |----------|-------------|---------|
-| NULLCONTAINER (loend) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel.<blockquote>[!NOTE]<br>See funktsioon on aegunud. Kasutage selle asemel funktsiooni **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
-| EMPTYRECORD (kirje) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel.<blockquote>[!NOTE]<br>**Nullkirje** on kirje, mille kõikidel väljadel on tühi väärtus. Tühi väärtus on arvude puhul **0** (null), stringide puhul tühi string jne.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
+| NULLCONTAINER (loend) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel.<blockquote>[!NOTE] See funktsioon on aegunud. Kasutage selle asemel funktsiooni **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
+| EMPTYRECORD (kirje) | Tagastab kirje **null**, millel on sama struktuur kui määratud kirjeloendil või kirjel.<blockquote>[!NOTE] **Nullkirje** on kirje, mille kõikidel väljadel on tühi väärtus. Tühi väärtus on arvude puhul **0** (null), stringide puhul tühi string jne.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** tagastab uue tühja kirje, millel on sama struktuur nagu loendil, mille tagastab funktsioon **SPLIT**. |
 
 ### <a name="text-functions"></a>Tekstifunktsioonid
 
@@ -522,14 +522,14 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 <td>CHAR (number)</td>
 <td>Tagastab tähemärke stringi, millele viitab määratud Unicode'i number.</td>
 <td><strong>CHAR (255)</strong> tagastab väärtuse <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>Selle funktsiooni tagastatud string sõltub failivormingu ülemelemendis valitud kodeeringust. Toetatud kodeeringute loendi leiate teemast <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodeeringuklass</a>.</blockquote>
+<blockquote>[!NOTE] Selle funktsiooni tagastatud string sõltub failivormingu ülemelemendis valitud kodeeringust. Toetatud kodeeringute loendi leiate teemast <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodeeringuklass</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (string 1 [, string 2, …])</td>
 <td>Annab vastuseks kõik määratud tekstistringid pärast nende ühendamist üheks stringiks.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> tagastab väärtuse <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>Avaldis <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> annab vastuseks samuti väärtuse <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] Avaldis <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> annab vastuseks samuti väärtuse <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 <p>&quot;Midagi pole printida. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Kui sama aruannet töödeldakse kliendi <strong> Litware Retail</strong> jaoks 17. detsembril 2015 kultuuris <strong>DE</strong> ja keeles <strong>DE</strong>, tagastab valem järgmise teksti, mis kasutab erinevat andmevormingut:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>Siltidele mõeldud ER-i valemites rakendatakse järgmist süntaksit.
+<blockquote>[!NOTE] Siltidele mõeldud ER-i valemites rakendatakse järgmist süntaksit.
 <ul>
 <li><strong>Finance and Operationsi ressursside siltide puhul:</strong> <strong>@&quot;X&quot;</strong>, kus X on sildi ID rakendusobjektide puus (AOT)</li>
 <li><strong>ER-i konfiguratsioonides asuvate siltide puhul:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kus X on sildi ID ER-i konfiguratsioonis</li>
@@ -587,7 +587,7 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 <tr>
 <td>NUMERALSTOTEXT (number, keel, valuuta, prindi valuuta nime lipp, kümnendkohad)</td>
 <td>Tagastab määratud numbri pärast selle määratud keeles tekstistringideks kirjutamist (teisendamist). Keelekood ei ole kohustuslik. Kui see on määratletud tühja stringina, kasutatakse käitatava konteksti keelekoodi. (Käitatava konteksti keelekood määratletakse kausta või faili loomiseks). Valuutakood on samuti valikuline. Kui see on määratletud tühja stringina, kasutatakse ettevõtte valuutat.
-<blockquote>[!NOTE]<br><strong>Valuuta nime printimise lipu</strong> ja <strong>kümnendkohtade</strong> parameetreid analüüsitakse ainult järgmiste keelekoodide puhul: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ja <strong>RU</strong>. Peale selle analüüsitakse <strong>valuuta nime printimise lipu</strong> parameetrit ainult nende Finance and Operationsi ettevõtete puhul, mille riigi või piirkonna kontekst toetab valuuta nimede käänamist.</blockquote>
+<blockquote>[!NOTE] <strong>Valuuta nime printimise lipu</strong> ja <strong>kümnendkohtade</strong> parameetreid analüüsitakse ainult järgmiste keelekoodide puhul: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ja <strong>RU</strong>. Peale selle analüüsitakse <strong>valuuta nime printimise lipu</strong> parameetrit ainult nende Finance and Operationsi ettevõtete puhul, mille riigi või piirkonna kontekst toetab valuuta nimede käänamist.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> annab vastuseks stringi <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, väär, 0)</strong> annab vastuseks stringi <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, tõene, 2)</strong> annab vastuseks stringi <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -656,10 +656,10 @@ Kui need andmeallikad on määratletud, saate kasutada avaldist, nt <strong>FILT
 | Funktsioon | Kirjeldus | Näide |
 |----------|-------------|---------|
 | CONVERTCURRENCY (summa, lähtekoha valuuta, sihtkoha valuuta, kuupäev, ettevõte) | Teisendab määratud rahasumma määratud lähtekoha valuutast määratud sihtkoha valuutaks, kasutades määratud kuupäeval määratud Finance and Operationsi ettevõtte sätteid. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** tagastab ühe euroga võrdse väärtuse USA dollarites praeguse seansi kuupäeval DEMF-i ettevõtte sätete alusel. |
-| ROUNDAMOUNT (number, kümnendkohad, ümardamisreegel) | Ümardab määratus summa määratud kümnendkohtade arvule määratud ümardamisreegli kohaselt.<blockquote>[!NOTE]<br>Ümardamisreegel peab olema määratud Finance and Operationsi loetelu **RoundOffType** väärtusena.</blockquote> | Kui parameeter **model.RoundOff** on seatud väärtusele **Allapoole**, annab vastuseks **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000.78**. Kui parameeter **model.RoundOff** on seatud väärtusele **Normaalne** või **Ülespoole ümardamine**, tagastab **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000,79**. |
+| ROUNDAMOUNT (number, kümnendkohad, ümardamisreegel) | Ümardab määratus summa määratud kümnendkohtade arvule määratud ümardamisreegli kohaselt.<blockquote>[!NOTE] Ümardamisreegel peab olema määratud Finance and Operationsi loetelu **RoundOffType** väärtusena.</blockquote> | Kui parameeter **model.RoundOff** on seatud väärtusele **Allapoole**, annab vastuseks **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000.78**. Kui parameeter **model.RoundOff** on seatud väärtusele **Normaalne** või **Ülespoole ümardamine**, tagastab **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** väärtuse **1000,79**. |
 | CURCredRef (arvud) | Tagastab kreeditori viite määratud arve numbri arvude alusel. | **CURCredRef ("VEND-200002")** tagastab väärtuse **"2200002"**. |
 | MOD\_97 (arvud) | Tagastab kreeditori viite MOD97 avaldisena määratud arve numbri arvude alusel. | **MOD\_97 ("VEND-200002")** tagastab väärtuse **"20000285"**. |
-| ISOCredRef (arvud) | Annab vastuseks Rahvusvahelise Standardiorganisatsiooni (ISO) kreeditori viite määratud arve numbri arvude ja tähestikus olevate sümbolite alusel.<blockquote>[!NOTE]<br>ISO-ga ühildumatute sümbolite tähestikust eemaldamiseks tuleb sisendparameeter enne sellele funktsioonile edastamist tõlkida.</blockquote> | **ISOCredRef ("VEND-200002")** tagastab väärtuse **"RF23VEND-200002"**. |
+| ISOCredRef (arvud) | Annab vastuseks Rahvusvahelise Standardiorganisatsiooni (ISO) kreeditori viite määratud arve numbri arvude ja tähestikus olevate sümbolite alusel.<blockquote>[!NOTE] ISO-ga ühildumatute sümbolite tähestikust eemaldamiseks tuleb sisendparameeter enne sellele funktsioonile edastamist tõlkida.</blockquote> | **ISOCredRef ("VEND-200002")** tagastab väärtuse **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (string, number) | Saate hankida määratud täiendav finantsdimensiooni ID. Parameetris **string** on dimensioonid esitatud komadega eraldatud ID-dena. Parameeter **number** määratleb taotletud dimensiooni seeriakoodi stringis. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** annab vastuseks stringi **"CC"**. |
 | GetCurrentCompany () | Annab vastuseks selle juriidilise isiku (ettevõtte) koodi tekstkuju, kuhu kasutaja on praegu sisse loginud. | **GETCURRENTCOMPANY ()** annab vastuse **USMF** kasutaja puhul, kes on logitud sisse Finance and Operationsi ettevõttesse **Contoso Entertainment System USA**. |
 | CH\_BANK\_MOD\_10 (numbrid) | Annab vastuseks kreeditori viite MOD10 avaldisena määratud arve numbri arvude alusel. | **CH\_BANK\_MOD\_10 ("VEND-200002")** annab vastuseks väärtuse **3**. |

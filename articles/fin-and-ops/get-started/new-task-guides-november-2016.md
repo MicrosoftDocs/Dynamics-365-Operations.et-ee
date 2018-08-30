@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7708c8e091ef561c1a4205a1424a51d51d05002f
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 9d438083cc83a4620f9164afde9add24c267f694
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/08/2018
 
 Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (november 2016 – kõike keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
 
-(November 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics 365 for Operationsi, Microsoft Dynamics 365 for Operationsi platvormi värskenduse 3, Microsoft Dynamics AX-i platvormi värskenduse 2, Dynamics AX-i 2016. a. mai värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljalaske spikrina. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md). <strong>Märkus.</strong> Tärn (<strong>\</strong>*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. a. novembri värskenduse jaoks ja seda ei toetata Microsoft Dynamics 365 for Operationsi varasemates versioonides.
+(November 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics 365 for Operationsi, Microsoft Dynamics 365 for Operationsi platvormi värskenduse 3, Microsoft Dynamics AX-i platvormi värskenduse 2, Dynamics AX-i 2016. a. mai värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljalaske spikrina. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusjuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md). <strong>Märkus.</strong> Tärn (<strong>\</strong>*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. a. novembri värskenduse jaoks ja seda ei toetata Microsoft Dynamics 365 for Operationsi varasemates versioonides.
 
 ### <a name="accounts-payable"></a>Ostureskontro
 

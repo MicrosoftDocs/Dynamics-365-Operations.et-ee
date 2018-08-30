@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 for Retail
+title: Tere tulemast rakendusse Dynamics 365 for Retail
 description: Rakenduse Dynamics 365 for Retail avaleht
 author: josaw1
 manager: AnnBe
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -48,7 +48,7 @@ Klientide vajadused muutuvad pidevalt. Selleks, et saaksite nii uusi kliente lig
 Lisaks tuleb arvestada sellega, et klientidel on palju valikuvõimalusi, saamaks soovitut neile sobival ajal ja hinnaga. Klientide lojaalsuse säilitamiseks saate kasutada ostlemist hõlbustavaid isikupärastatud teatiseid ja pakkumisi.
 
 ## <a name="hardware-and-peripherals"></a>Riistvara ja välisseadmed
-Retail Modern POS (MPOS) ja Cloud POS võivad kasutada mitmesuguseid riistvara välisseadmeid. Nii MPOS kui ka pilve kassa pakuvad teile erinevate äristsenaariumitega tegelemiseks mitmesuguseid liideste ja juurutamissuvandeid.
+Retail Modern point of sale (MPOS) ja Cloud POS võivad kasutada mitmesuguseid riistvara välisseadmeid. Nii MPOS kui ka Cloud POS pakuvad teile erinevate äristsenaariumitega tegelemiseks mitmesuguseid liideste ja juurutamissuvandeid.
 
 Rakenduse Retail välisseadme simulaator sisaldab virtuaalset välisseadme simulaatorit ja POS-simulaatorit. Virtuaalne välisseadme simulaator toetab peamiselt selliste stsenaariumite testimist, mis vajavad tavaliselt füüsilisi kassa välisseadmeid. POS-simulaator võimaldab teil proovida füüsiliste välisseadmete ühilduvust rakendusega Retail ilma, et peaksite POS-klienti juurutama.
 
@@ -64,7 +64,7 @@ Enne kui saate oma jaemüügikanalitel hakata tooteid müügiks pakkuma, peate t
 Saate korrigeerida toodete hindu ja seadistada allahindlusi, mida rakendatakse kassas, kõnekeskuse müügitellimuses või võrgutellimuses rea kaubale või kandele.
 
 ## <a name="store-operations-and-pos"></a>Kaupluse toimingud ja kassa
-MPOS on arvutitele, tahvelarvutitele ja telefonidele mõeldud kassarakendus. Müügipersonal saab töödelda müügikandeid ja klienditellimusi, luua kliendisuhtlusi ning teha igapäevaseid toiminguid ja hallata varusid mobiilsetes seadmetes kõikjal kaupluses, kaasa arvatud arvutipõhistes registrites. Pilve kassa on brauseripõhine kassa, mille saab käivitada igas standardses brauseris.
+MPOS on arvutitele, tahvelarvutitele ja telefonidele mõeldud kassarakendus. Müügipersonal saab töödelda müügikandeid ja klienditellimusi, luua kliendisuhtlusi ning teha igapäevaseid toiminguid ja hallata varusid mobiilsetes seadmetes kõikjal kaupluses, kaasa arvatud arvutipõhistes registrites. Cloud POS on brauseripõhine kassa, mille saab käivitada igas standardses brauseris.
 
 Selleks, et määratleda seoseid kaupluse, kaupluses olevate kassaregistrite ja jaemüügi välisseadmete vahel, mida need registrid kasutavad kannete töötlemiseks, seadistate mitu komponenti. Samuti määratlete kassa konkreetse eksemplari omadused. Need omadused hõlmavad riistvaraprofiili või seadistust jaemüügi välisseadmete jaoks, mida kasutatakse registris, kaupluses, millega register on vastendatud, sellesse registrisse sisse logiva kasutaja visuaalses kogemuses ja registris lubatud funktsioonides. Samuti saate määratleda, kas register saab töötada katkestatud või võrguühenduseta olekus.
 

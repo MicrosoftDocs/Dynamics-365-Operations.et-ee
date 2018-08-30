@@ -1,9 +1,9 @@
 ---
-title: "Spikri ülevaade"
+title: "Finance and Operationsi spikrisüsteem"
 description: "Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile."
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="help-system-overview"></a>Spikrisüsteemi ülevaade
+# <a name="finance-and-operations-help-system"></a>Finance and Operationsi spikrisüsteem
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Unified Operationsi sisu kõigi värskenduste RSS-kanali tellimiseks kasutage br
 [RSS-kanal](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Tagasiside andmine 
-Meil on klientide tagasiside üle alati hea meel. Saate GitHubi kaudu lisada meie sisu kohta kommentaare või soovitada muudatusi.
+Meil on klientide tagasiside üle alati hea meel. Saate GitHubi kaudu lisada meie sisu kohta kommentaare või soovitada muudatusi. Lisateavet meie tagasisidesüsteemi kohta leiate [sellest ajaveebipostitusest](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-a-comment"></a>Jätke meile kommentaar 
+##### <a name="leave-us-feedback"></a>Tagasiside andmine 
 Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.  
 
-1 Klõpsake valikut **Kommentaarid** kommentaaride nägemiseks lehe alumises osas.
+1. Klõpsake nuppu **Tagasiside**, et liikuda lehe lõpus olevate kommentaaride juurde, ja seejärel klõpsake kas nuppu **Toote tagasiside** või **Sisselogimine dokumentatsiooni tagasiside andmiseks**.
 
-![Kommentaarid](./media/comments.png)
+![Tagasiside](./media/comments.png)
 
-2 Alustage kommentaaride sisestamist ja klõpsake siis valikut **Sisesta kommentaar**.
+2. Alustage kommentaaride sisestamist ja klõpsake siis valikut **Tagasiside edastamine**.
 
-![Sisesta kommentaar](./media/before-signin.png)
+![Sisesta kommentaar](./media/feedback.png)
 
-3 Valige konto tüüp, millega soovite sisse logida.  
-Klõpsake ühte vasakul asuvat ikooni selle saidi seostamiseks olemasoleva kontoga, nt Twitteri, Facebooki või Microsofti kontoga. 
-
-Või 
-
-Sisestage paremale meiliaadress ja uus parool saidi jaoks uue konto loomiseks. 
-
-![Sisselogimisvalikud](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Soovitage muudatusi või lisage sisu GitHubi kaudu
@@ -115,7 +107,6 @@ Lisateabe saamiseks vaadake meie kaasautori juhendit: https://github.com/Microso
 
 > [!NOTE]
 > Praegu aktsepteerime panuseid ainult ingliskeelsetesse hoidlatesse.  
-> Me ei aktsepteeri GitHubi kaudu teatatud probleeme – kasutage sisusoovituste jaoks kindlasti tõmbamistaotlust. Toote ja funktsioonidega seotud tagasisidet on kõige mugavam hallata Dynamics 365 ideeportaali kaudu: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Tegevuse juhised

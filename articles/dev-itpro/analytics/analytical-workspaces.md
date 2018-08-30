@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [CFO ülevaate Power BI sisu](CFO-power-bi.md)
 - [Tasu Power BI sisu](compensation-power-bi.md)
 - [Kuluarvestuse analüüsi Power BI sisu](cost-accounting-analysis-content-pack.md) 
-- [Kuluhalduse Power BI sisu](cost-management-content-pack.md)    
+- [Kuluhalduse Power BI sisu](cost-management-content-pack.md)
 - [Krediidi ja võlanõuete halduse Power BI sisu](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Töötajate arengu Power BI sisu](employee-development-PBI.md) 
 - [Finantsülevaadete Power BI sisu](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [Müügi ja tulususe tulemuste Power BI sisu](sales-profitability-performance-content-pack.md)
 - [Hankija maksete Power BI sisu](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Laojõudluse Power BI sisu](warehouse-power-bi-content.md)
-- [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)  
+- [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)
 

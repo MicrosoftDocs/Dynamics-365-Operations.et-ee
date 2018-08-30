@@ -1,5 +1,5 @@
 ---
-title: Teabe leidmiseks otsingute kasutamine
+title: Teabe leidmine otsingute abil
 description: "Rakenduses Microsoft Dynamics 365 for Finance and Operations on paljudel väljadel otsingud, mis saavad aidata teil hõlpsalt õiget või soovitud väärtust leida. Otsingutele on lisatud mitmed täiustused, mis muudavad need juhtelemendid kasutatavamaks ja kasutajad produktiivsemaks. Selles teemas saate teada nende uute otsingufunktsioonide kohta ja saate mõned näpunäited, et süsteemis otsinguid optimaalselt kasutada."
 author: jasongre
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 013901724864092571099835b2c71b297710ff03
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>Teabe leidmiseks otsingute kasutamine
+# <a name="find-information-by-using-lookups"></a>Teabe leidmine otsingute abil
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics AX 4.0 sisu kustutamine
-description: Dynamics AX 4.0 sisu TechNetis ja MSDN-is on kustutatud.
+title: "AX 4.0 sisu, mis on kasutuselt kõrvaldatud"
+description: "Dynamics AX 4.0 sisu TechNetis ja MSDN-is on kasutuselt kõrvaldatud."
 author: margoc
 manager: AnnBe
 ms.date: 04/10/2018
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 495e4af2a372b3af23fdca6d22341039ee5351af
-ms.openlocfilehash: 127021cc61624894cfdb4c8fb49917c582e94181
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: eb240a75c758037de9eb1fde55b0bfde00a16dd7
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/10/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="microsoft-dynamics-ax-40-content-retired"></a>Microsoft Dynamics AX 4.0 sisu kustutamine
+# <a name="ax-40-content-that-has-been-retired"></a>AX 4.0 sisu, mis on kasutuselt kõrvaldatud
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics AX 4.0 sisu TechNetis ja MSDN-is on kustutatud. Lisateabe saamiseks vt: 
+Microsoft Dynamics AX 4.0 sisu TechNetis ja MSDN-is on kasutuselt kõrvaldatud. Lisateabe saamiseks vt: 
 
 - [Microsofti elutsüklipoliitika](https://support.microsoft.com/en-us/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0) 
 - [Dynamics AX 2012 toetatud täiendusteed](https://technet.microsoft.com/en-us/library/dd362093.aspx) 
