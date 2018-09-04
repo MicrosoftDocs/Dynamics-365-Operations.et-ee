@@ -55,11 +55,13 @@ Kliendil võib olla mitu malli, millel on erinevad sagedused.
 
 ## <a name="generate-the-recurring-invoices"></a>Korduvate arvete loomine
 Lehel **Korduvad arved**on ülesanne, mis töötleb korduvate arvete malle. Saate määrata arve kuupäeva ja malli, millest arveid luua. Luuakse arved ja neile määratakse üks kordumise ID-kood iga töödeldava arvegrupi kohta.
-Vabas vormis korduvate arvete sisestamine
+
+<a name="post-recurring-free-text-invoices"></a>Vabas vormis korduvate arvete sisestamine
 ---------------------------------
 
 Pärast korduvate arvete loomist kuvatakse lehel **Korduvad arved**ülesande sisestamisel arve kordumise ID-koodid. Linki klõpsates saate vaadata kõigi arvete kordumise ID-d. Arvete kordumise ID ülevaatamisel saate eraldi arveid kustutada. Kliendi kordumise sätted lähtestatakse selle malli puhul, et seda saaks hiljem uuesti luua. Kordumise ID-koodile saab sisestada ühe arve, mitu arvet või kõik arved. Kui töövood on lubatud, peate klõpsama enne arvete sisestamist nuppu **Edasta**.
-Vabas vormis korduvate arvete printimine
+
+<a name="print-recurring-free-text-invoices"></a>Vabas vormis korduvate arvete printimine
 ----------------------------------
 
 Kui korduvad arved on sisestatud, saate printida arved vabas vormis arvete loendilehelt. Printida saab valitud arved või valida printimiseks arvete vahemiku.
