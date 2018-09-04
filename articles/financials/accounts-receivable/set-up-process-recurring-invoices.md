@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="e4c04-125">Korduvate arvete loomine</span><span class="sxs-lookup"><span data-stu-id="e4c04-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="e4c04-126">Lehel **Korduvad arved**on ülesanne, mis töötleb korduvate arvete malle.</span><span class="sxs-lookup"><span data-stu-id="e4c04-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="e4c04-127">Saate määrata arve kuupäeva ja malli, millest arveid luua.</span><span class="sxs-lookup"><span data-stu-id="e4c04-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="e4c04-128">Luuakse arved ja neile määratakse üks kordumise ID-kood iga töödeldava arvegrupi kohta.</span><span class="sxs-lookup"><span data-stu-id="e4c04-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="e4c04-129">Vabas vormis korduvate arvete sisestamine</span><span class="sxs-lookup"><span data-stu-id="e4c04-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="e4c04-129">Vabas vormis korduvate arvete sisestamine</span><span class="sxs-lookup"><span data-stu-id="e4c04-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="e4c04-130">Pärast korduvate arvete loomist kuvatakse lehel **Korduvad arved**ülesande sisestamisel arve kordumise ID-koodid.</span><span class="sxs-lookup"><span data-stu-id="e4c04-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="e4c04-131">Linki klõpsates saate vaadata kõigi arvete kordumise ID-d.</span><span class="sxs-lookup"><span data-stu-id="e4c04-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="e4c04-132">Arvete kordumise ID ülevaatamisel saate eraldi arveid kustutada.</span><span class="sxs-lookup"><span data-stu-id="e4c04-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="e4c04-133">Kliendi kordumise sätted lähtestatakse selle malli puhul, et seda saaks hiljem uuesti luua.</span><span class="sxs-lookup"><span data-stu-id="e4c04-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="e4c04-134">Kordumise ID-koodile saab sisestada ühe arve, mitu arvet või kõik arved.</span><span class="sxs-lookup"><span data-stu-id="e4c04-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="e4c04-135">Kui töövood on lubatud, peate klõpsama enne arvete sisestamist nuppu **Edasta**.</span><span class="sxs-lookup"><span data-stu-id="e4c04-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="e4c04-136">Vabas vormis korduvate arvete printimine</span><span class="sxs-lookup"><span data-stu-id="e4c04-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="e4c04-136">Vabas vormis korduvate arvete printimine</span><span class="sxs-lookup"><span data-stu-id="e4c04-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="e4c04-137">Kui korduvad arved on sisestatud, saate printida arved vabas vormis arvete loendilehelt.</span><span class="sxs-lookup"><span data-stu-id="e4c04-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="e4c04-138">Printida saab valitud arved või valida printimiseks arvete vahemiku.</span><span class="sxs-lookup"><span data-stu-id="e4c04-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
