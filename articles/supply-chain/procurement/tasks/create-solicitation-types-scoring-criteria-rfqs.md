@@ -3,23 +3,24 @@ title: "Pakkumiskutsete jaoks kutsetüüpide ja hindamiskriteeriumide loomine"
 description: "See juhend näitab, kuidas kutse tüüpi luua ja seda hindamismeetodiga seostada."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 94bede40e8830f8d51dde5e34a03a9ad0c0144eb
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5d2b0d1e998149a5045c655d74591c56bff81246
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="6876a-103">Pakkumiskutsete jaoks kutsetüüpide ja hindamiskriteeriumide loomine</span><span class="sxs-lookup"><span data-stu-id="6876a-103">Create solicitation types and scoring criteria for RFQs</span></span>
@@ -42,6 +43,7 @@ ms.lasthandoff: 08/07/2018
 1. <span data-ttu-id="6876a-118">Avage Hanked > Pakkumiskutsed > Kõik pakkumiskutsed.</span><span class="sxs-lookup"><span data-stu-id="6876a-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
 2. <span data-ttu-id="6876a-119">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="6876a-119">Click New.</span></span>
 3. <span data-ttu-id="6876a-120">Valige väljalt Kutse tüüp äsja loodud kutse tüüp.</span><span class="sxs-lookup"><span data-stu-id="6876a-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
+    *   
 4. <span data-ttu-id="6876a-121">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="6876a-121">Click OK.</span></span>
 5. <span data-ttu-id="6876a-122">Klõpsake valikut Hindamiskriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="6876a-122">Click Scoring criteria.</span></span>
     * <span data-ttu-id="6876a-123">Kuvatud hindamiskriteeriumid on kutse tüübiga seotud hindamismeetodi omad.</span><span class="sxs-lookup"><span data-stu-id="6876a-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="6876a-124">Saate sellele lehele kriteeriume lisada või kustutada.</span><span class="sxs-lookup"><span data-stu-id="6876a-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="6876a-125">Võimalik on ka uute kriteeriumide lisamine, kopeerides need muudest hindamismeetoditest.</span><span class="sxs-lookup"><span data-stu-id="6876a-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  

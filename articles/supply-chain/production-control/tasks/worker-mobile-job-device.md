@@ -3,24 +3,25 @@ title: "Töötaja konfigureerimine töö mobiilse seadme abil"
 description: "See protseduur näitab, kuidas määrata töötaja kasutajakontole õigeid rolle ja lubada siis töötajal teha tööde juhtimise moodulis registreerimisi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 3582561dbcf44a7260c0fc1aa4f11b3e5caffc1d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: e3f839ba377a0c28aada2c2f56c8f45480d21f80
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="ddfd9-103">Töötaja konfigureerimine töö mobiilse seadme abil</span><span class="sxs-lookup"><span data-stu-id="ddfd9-103">Configure a worker using the mobile job device</span></span>
@@ -68,4 +69,5 @@ ms.lasthandoff: 08/07/2018
 5. <span data-ttu-id="ddfd9-140">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="ddfd9-140">Click Edit.</span></span>
 6. <span data-ttu-id="ddfd9-141">Väljal Tootmisüksus saate määrata töötajale vaikefiltri.</span><span class="sxs-lookup"><span data-stu-id="ddfd9-141">In the Production unit field, you can set the default filter for the worker.</span></span> <span data-ttu-id="ddfd9-142">See tagab, et kui töötaja seadmesse sisse logib, kuvatakse ainult valitud tootmisüksuse tootmistööd.</span><span class="sxs-lookup"><span data-stu-id="ddfd9-142">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span>
 7. <span data-ttu-id="ddfd9-143">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="ddfd9-143">Close the page.</span></span>
+
 

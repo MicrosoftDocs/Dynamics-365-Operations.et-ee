@@ -1,26 +1,27 @@
----
+--- 
 title: Uue laopaigutuse loomine
 description: "Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 11ad27e68e8eb499b2cf8e477d3dbf51d930b736
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 7db15eb5d80291641f0d0398d236b5e883cafcaf
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-new-warehouse-layout"></a><span data-ttu-id="cf9a6-103">Uue laopaigutuse loomine</span><span class="sxs-lookup"><span data-stu-id="cf9a6-103">Create a new warehouse layout</span></span>
@@ -49,7 +50,7 @@ ms.lasthandoff: 08/07/2018
 7. <span data-ttu-id="cf9a6-122">Lülitage ümber jaotis Asukoha nimed.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-122">Toggle the expansion of the Location names section.</span></span>
     * <span data-ttu-id="cf9a6-123">Selle jaotise suvandites saate määratleda asukohanimede vaikevormingu.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-123">The options in this section define the default format for location names.</span></span> <span data-ttu-id="cf9a6-124">Selles näites on kasutatud riiulirea, sektsiooni ja riiuli numbrit.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-124">In our example, we'll include the aisle number, rack number and shelf number.</span></span>  
 8. <span data-ttu-id="cf9a6-125">Seadistage suvand Kaasa riiulirida väärtusele Jah.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-125">Set the Include aisle option to Yes.</span></span>
-9. <span data-ttu-id="cf9a6-126">Seadistage suvand Kaasa sektsioon väärtusele Jah.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-126">Set the Include rack option to Yes.</span></span>
+9. <span data-ttu-id="cf9a6-126">Seadistage suvand Kaasa sektsioon väärtusele Jah.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-126">Set the Include rack option to Yes.</span></span> 
 10. <span data-ttu-id="cf9a6-127">Sisestage sektsiooni jaoks väärtus väljale Vorming.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-127">In the Format field, for the rack, type a value.</span></span>
     * <span data-ttu-id="cf9a6-128">Näide: ‑##</span><span class="sxs-lookup"><span data-stu-id="cf9a6-128">For example: -##</span></span>  
 11. <span data-ttu-id="cf9a6-129">Seadistage suvand Kaasa riiul väärtusele Jah.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-129">Set the Include shelf option to Yes.</span></span>
@@ -74,4 +75,5 @@ ms.lasthandoff: 08/07/2018
 14. <span data-ttu-id="cf9a6-147">Klõpsake Lõpeta.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-147">Click Finish.</span></span>
 15. <span data-ttu-id="cf9a6-148">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-148">Close the page.</span></span>
 16. <span data-ttu-id="cf9a6-149">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="cf9a6-149">Refresh the page.</span></span>
+
 
