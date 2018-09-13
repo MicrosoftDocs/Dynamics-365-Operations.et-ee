@@ -3,7 +3,7 @@ title: Globaalse aadressiraamatu konfigureerimine
 description: "Kasutage seda protseduuri globaalse aadressiraamatu vaikeväärtuste ja turbepoliitikate määramiseks."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

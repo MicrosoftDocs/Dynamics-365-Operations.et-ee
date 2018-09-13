@@ -3,7 +3,7 @@ title: "Kuva töövooajalugu"
 description: "Kasutage neid etappe, et kuvada töövoosüsteemile töötlemiseks ja kinnitamiseks edastatud dokumendi olek."
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

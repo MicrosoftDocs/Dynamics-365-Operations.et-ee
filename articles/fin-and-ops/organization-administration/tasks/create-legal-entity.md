@@ -3,7 +3,7 @@ title: Juriidilise isiku loomine
 description: "Juriidiline isik on organisatsioon, mis on tuvastatav õigusliku asutusega registreerimise kaudu."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
