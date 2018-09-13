@@ -44,11 +44,13 @@ Krediitkaartide kasutamiseks tuleb makseteenus lehel Makseteenused seadistada ja
 
 ## <a name="adding-a-new-credit-card"></a>Uue krediitkaardi lisamine
 Uusi krediitkaardi kirjeid saate luua lehel Kliendid, kasutades välju Klient, Hääletamine, Krediitkaart. Krediitkaardi kirjeid saate luua ka müügitellimusi lehel Müügitellimus sisestades, kasutades välju Haldamine, Klient, Krediitkaart, Registreerimine.
-Müügitellimusele krediitkaardi lisamine
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Müügitellimusele krediitkaardi lisamine
 -------------------------------------
 
 Krediitkaardi lisamiseks müügitellimusele valige krediitkaart krediitkaardi otsingust lehe Müügitellimus vahekaardil Hinnad ja allahindlused. Autoriseerimisprotsessi käivitamiseks avage tegevuspaani vahekaart Haldamine, kus valige Krediitkaart ja Autoriseerimine.
-Krediitkaardi autoriseerimine
+
+<a name="authorizing-a-credit-card"></a>Krediitkaardi autoriseerimine
 -------------------------
 
 Kui krediitkaardi autoriseerimisel kontrollitakse kaardi numbrit ja kaardiomaniku nime ning olemasolev kreeditsaldo kinnitatakse. Alternatiivina võib kontrollida kaardi kontrollnumbrit ja kaardiomaniku aadressi. Seejärel vähendatakse kliendi olemasolevat kreeditsaldot arve summa võrra. Makseteenus annab teada, kas krediitkaart on kinnitatud või tagasi lükatud. Kui müügitellimus on arveldatud, võetakse krediitkaardilt tasu (hõivatakse) arve summa väärtuses.
