@@ -6,6 +6,8 @@
       items:
         - name: Mis on uus või muudetud
           items:
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (august 2018)
+              href: whats-new-talent-august2018.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (juuli 2018)
               href: whats-new-talent-july2018.md
         - name: Süsteeminõuded ja värskenduspoliitika
@@ -16,11 +18,11 @@
           href: remove-talent-environment.md
         - name: Talenti moodulrakenduste jaoks ette valmistumine
           href: modular-app-tech-faq.md
-        - name: Talenti funktsioonide laiendamine
-          href: extend-talent-functionality.md
+        - name: PowerAppsi rakenduste manustamine
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Juurdepääs eelvaatefunktsioonidele
           href: access-preview-feature.md
-        - name: Pangaarvestuse integratsiooni konfigureerimine Talenti ja Dayforce’i vahel
+        - name: Palgaarvestuse integratsiooni konfigureerimine Talenti ja Dayforce’i vahel
           href: configure-payroll-integration.md
     - name: 'Tööjõu korraldamine osakondade, tööde ja ametikohtade abil'
       href: departments-jobs-positions.md
@@ -89,7 +91,7 @@
           href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Vastavus ADA-le
           href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Teave
+    - name: Analüüs
       items:
         - name: Manustatud Power BI tööruumides
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
