@@ -3,7 +3,7 @@ title: "Ostutellimuste jaoks töömalli seadistamine"
 description: "See protseduur keskendub lihtsa töömalli seadistamisele, mida saab kasutada saadud kaupade paigutamiseks."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: " Kategooria hinnakujunduse reeglid, et luua kaubanduslepped"
 description: "Protseduur näitab, kuidas luua müügihinna kaubandusleppeid kategooria hinnakujunduse reegli abiga."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

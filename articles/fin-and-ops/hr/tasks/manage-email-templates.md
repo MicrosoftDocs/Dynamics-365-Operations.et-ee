@@ -3,7 +3,7 @@ title: Meilimallide haldamine
 description: "Saate teisaldada teabe teie organisatsiooni andmebaasist uue dokumendi järjehoidjatesse ja kasutada seda mallides, mis aitavad teil tõhusalt kandidaatidega suhelda."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

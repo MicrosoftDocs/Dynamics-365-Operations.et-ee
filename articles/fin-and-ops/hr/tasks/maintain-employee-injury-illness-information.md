@@ -3,7 +3,7 @@ title: "Töötajate vigastuste ja haiguste teabe haldamine"
 description: "Soovitatav on esmalt järgida ülesande juhendit „Vigastuse ja haiguse häälestamine”, kuna osa häälestusteavet kasutatakse siin."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Uue toote loomine
 description: "Selles ülesandes selgitatakse, kuidas luua uut ühiskasutuses toodet."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

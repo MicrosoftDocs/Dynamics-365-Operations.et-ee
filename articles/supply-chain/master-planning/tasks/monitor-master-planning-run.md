@@ -3,7 +3,7 @@ title: "Koondplaneerimise käitamise jälgimine"
 description: "Tootmise plaanija soovib näha, kui koondplaneerimise käitamine on pooleli."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

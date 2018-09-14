@@ -3,7 +3,7 @@ title: Maksuhaldurite seadistamine
 description: "Käibemaksuhaldurid on üksused, kellele tuleb kogutud käibemaks esitada ja maksta."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

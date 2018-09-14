@@ -3,7 +3,7 @@ title: Tootmisvoo versiooni aktiveerimine
 description: "Enne kanban-tööde loomist ja tootmisvoo versiooni tegevuste töötlemist tuleb versioon aktiveerida."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

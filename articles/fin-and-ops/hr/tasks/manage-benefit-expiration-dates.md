@@ -3,7 +3,7 @@ title: "Soodustuste aegumiskuupäevade haldamine"
 description: "See protseduur näitab, kuidas saate soodustust aegunuks märkida või pikendada ja hallata soodustuseks registreerunud töötajate registreerimise kuupäevi."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

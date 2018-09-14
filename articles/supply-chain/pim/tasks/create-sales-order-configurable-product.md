@@ -3,7 +3,7 @@ title: "Müügitellimuse loomine konfigureeritava toote jaoks"
 description: "See protseduur näitab, kuidas rakendada müügitellimusel tootele konfiguratsioonimalli."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

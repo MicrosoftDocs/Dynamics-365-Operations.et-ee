@@ -3,7 +3,7 @@ title: " Püsikliendi preemiapunktide määratlemine"
 description: "See protseduur juhendab püsikliendi preemiapunktide määratlemisel."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

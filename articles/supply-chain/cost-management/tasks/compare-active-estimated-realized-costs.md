@@ -3,7 +3,7 @@ title: "Tootmistellimuse aktiivsete, hinnanguliste ja realiseeritud kulude võrd
 description: "Selles protseduuris näitlikustatakse, kuidas vaadata tootmistellimuse suure tootmishälbe põhjuseid."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Sissenõuete teabe ülevaatamine"
 description: "Selles protseduuris selgitatakse sissenõuete teabe ülevaatamist ning ka mitmesuguseid häälestussuvandeid ja sissenõudekandeid."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

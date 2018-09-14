@@ -3,7 +3,7 @@ title: "Varude sisemise üleviimise ülekandedokumendi koostamine"
 description: "See protseduur näitab, kuidas koostada üleviimisdokumente kaupade liikumisel ettevõtte sees."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

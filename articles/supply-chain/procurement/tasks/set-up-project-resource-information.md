@@ -3,7 +3,7 @@ title: Projekti ressursiteabe seadistamine
 description: "See protseduur näitab, kuidas häälestada projekti ressurssi."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

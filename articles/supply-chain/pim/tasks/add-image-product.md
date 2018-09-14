@@ -3,7 +3,7 @@ title: Tootele pildi lisamine
 description: "See protseduur näitab, kuidas tootele pilti lisada. Selle toimingu loomiseks on kasutatud demoettevõtet USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

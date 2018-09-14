@@ -3,7 +3,7 @@ title: "Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine"
 description: "Selles protseduuris kirjeldatakse konsolideerimiskontode grupi loomist ja seejärel grupile kontode lisamist."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Varude aruande ja KPI kuvamine kuluobjekti järgi"
 description: "Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

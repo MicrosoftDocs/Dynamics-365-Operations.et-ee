@@ -3,7 +3,7 @@ title: Ostu tagastustellimuse loomine
 description: "See protseduur näitab, kuidas koostada ostu tagastustellimust, kasutades kreeditarve toimingut hankija arve dokumendilt ridade kopeerimiseks uuele ostutellimusele."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

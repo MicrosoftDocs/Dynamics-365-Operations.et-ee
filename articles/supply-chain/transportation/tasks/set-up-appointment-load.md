@@ -3,7 +3,7 @@ title: Koorma laadimise seadistamine
 description: "See protseduur näitab, kuidas seadistada ja plaanida koormale laadimissilla määramist."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

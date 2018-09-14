@@ -3,7 +3,7 @@ title: "Tööaegade plaanimisatribuutide loomine"
 description: "Tööaja planeerimisatribuute kasutatakse tööaja intervallide kategoriseerimiseks ja sätete, mida operaatorid peavad arvestama, määratlemiseks."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

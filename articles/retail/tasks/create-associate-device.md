@@ -3,7 +3,7 @@ title: " Seadme loomine ja seostamine"
 description: See protseduur selgitab uue seadme loomist ja registriga seostamist.
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Ribareklaami või logo muutmine"
 description: "Järgmine protseduur loetleb toimingud, mida süsteemiadministraatorid saavad kasutada juriidilise isiku puhul kuvatava ribareklaami või logo pildi värskendamiseks."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

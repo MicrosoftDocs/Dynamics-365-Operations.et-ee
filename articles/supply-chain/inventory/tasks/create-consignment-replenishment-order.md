@@ -3,7 +3,7 @@ title: "Veose täiendustellimuse loomine"
 description: "See protseduur näitab, kuidas koostada veose täiendustellimust, kus saate jälgida hankija eeldatavat tarnet oma veose varudesse."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

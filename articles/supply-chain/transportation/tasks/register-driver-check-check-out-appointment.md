@@ -3,7 +3,7 @@ title: "Juhi sisse- ja väljaregistreerimine kohtumisele"
 description: "See protseduur näitab, kuidas juhti sisse ja välja registreerida."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

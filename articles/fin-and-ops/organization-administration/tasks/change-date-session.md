@@ -3,7 +3,7 @@ title: "Seansi kuupäeva muutmine"
 description: "Vaikimisi kasutatakse praegust kuupäeva töölehe sisestuste ja lähtedokumentide sisestamisel."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

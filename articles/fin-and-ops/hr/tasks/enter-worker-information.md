@@ -3,7 +3,7 @@ title: "Töötaja andmete sisestamine"
 description: "Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

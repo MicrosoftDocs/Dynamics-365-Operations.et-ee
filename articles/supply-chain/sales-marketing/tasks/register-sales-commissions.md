@@ -3,7 +3,7 @@ title: "Müügi komisjonitasude registreerimine"
 description: "See protseduur selgitab müügi komisjonitasude arvutamist ja registreerimist."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

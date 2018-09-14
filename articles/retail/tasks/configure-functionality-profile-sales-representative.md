@@ -3,7 +3,7 @@ title: " Müügiesindaja funktsiooniprofiili konfigureerimine"
 description: "See protseduur näitab, kuidas konfigureerida müügiesindajatele kehtivaid kaupluse funktsiooniprofiili sätteid."
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

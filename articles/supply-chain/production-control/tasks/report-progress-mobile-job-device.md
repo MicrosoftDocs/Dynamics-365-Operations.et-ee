@@ -3,7 +3,7 @@ title: "Edenemisteabe esitamine töö mobiilses seadmes"
 description: "See protseduur näitab, kuidas käivitada tootmistööd ja edastada andmeid selle edenemise kohta tööseadme registreerimisvormil."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

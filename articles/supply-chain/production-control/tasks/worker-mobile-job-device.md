@@ -3,7 +3,7 @@ title: "Töötaja konfigureerimine töö mobiilse seadme abil"
 description: "See protseduur näitab, kuidas määrata töötaja kasutajakontole õigeid rolle ja lubada siis töötajal teha tööde juhtimise moodulis registreerimisi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

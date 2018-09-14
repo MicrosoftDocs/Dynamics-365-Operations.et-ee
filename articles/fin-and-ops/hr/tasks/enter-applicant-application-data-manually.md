@@ -3,7 +3,7 @@ title: "Kandidaadi ja avalduse andmete käsitsi sisestamine"
 description: "See protseduur näitab, kuidas kandidaatide ja nende avalduse teavet käsitsi säilitada."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

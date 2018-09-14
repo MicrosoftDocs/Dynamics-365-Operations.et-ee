@@ -3,7 +3,7 @@ title: "Dimensioonipõhise tooteetaloni väljastamine"
 description: "See protseduur selgitab, kuidas väljastada tooteetaloni, mida hakatakse kasutama dimensioonipõhistes konfiguratsioonides."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

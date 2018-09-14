@@ -3,7 +3,7 @@ title: "Hüvitusprotsessi määratlemine ja tulemuste arvutamine"
 description: "Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga ja ergutussüsteemi plaanides registreeritud töötajatele."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

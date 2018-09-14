@@ -3,7 +3,7 @@ title: "Töölehe sisestuste või kannete kuvamine"
 description: "See näitab, kuidas kasutada pearaamatu kannete päringut töölehe kirjete või kannete otsimiseks."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

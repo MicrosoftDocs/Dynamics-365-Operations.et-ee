@@ -3,7 +3,7 @@ title: 'Kuluobjektide loomine  '
 description: "See protseduur näitab, kuidas luua kuluobjekte rakenduse Dynamics 365 for Finance and Operations, Enterprise edition kulukeskuse finantsdimensiooni andmekonnektori kaudu kuluarvestusse importimise teel."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

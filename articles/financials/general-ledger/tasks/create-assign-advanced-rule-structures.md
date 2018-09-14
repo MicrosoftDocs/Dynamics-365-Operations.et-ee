@@ -3,7 +3,7 @@ title: "Täpsemate reeglistruktuuride loomine ja määramine"
 description: "See ülesandejuhend hõlmab konto struktuurile täpsema reegli struktuuri loomist ja määramist."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

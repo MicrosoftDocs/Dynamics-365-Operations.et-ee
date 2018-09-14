@@ -3,7 +3,7 @@ title: " Töötaja konfigureerimine"
 description: "See protseduur näitab, kuidas konfigureerida jaemüügi töötajat müügiesindajana, kellel on õigus komisjonitasule kassa müügilt."
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

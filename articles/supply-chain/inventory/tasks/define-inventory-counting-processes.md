@@ -3,7 +3,7 @@ title: "Inventuuriprotsesside määratlemine"
 description: "See protseduur annab ülevaate peamiste varude inventuuriprotsesside konfiguratsioonist, luues inventuurigrupi ja inventuuri töölehe."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

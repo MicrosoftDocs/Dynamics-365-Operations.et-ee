@@ -3,7 +3,7 @@ title: "Partii tellimuse elutsükkel loomisest käivitamiseni"
 description: "See protseduur juhib teid läbi partiitellimuse elutsükli esimese osa."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

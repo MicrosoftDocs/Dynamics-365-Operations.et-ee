@@ -3,7 +3,7 @@ title: Tootemudeli komponentide loomine
 description: "Piirangupõhised tootekonfiguratsiooni mudelid kasutavad komponente ehitusklotsidena tootemudeli struktuuri koostamiseks."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

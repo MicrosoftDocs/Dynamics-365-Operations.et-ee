@@ -3,7 +3,7 @@ title: Kaastoodete kopeerimine olemasolevast valemiversioonist
 description: "See protseduur näitab, kuidas kopeerida kaastooteid olemasolevalt valemiversioonilt teistsugusele väljastatud toote valemiversioonile."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

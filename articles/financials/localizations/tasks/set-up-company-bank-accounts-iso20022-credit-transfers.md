@@ -3,7 +3,7 @@ title: "Ettevõtte pangakontode seadistamine ISO20022 kreeditkorralduste jaoks"
 description: "See protseduur näitab, kuidas seadistada ettevõttekohase pangakonto teavet, mis on nõutav maksefaili loomiseks."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

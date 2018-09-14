@@ -3,7 +3,7 @@ title: "Kaubakatte reeglite määratlemine"
 description: "Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

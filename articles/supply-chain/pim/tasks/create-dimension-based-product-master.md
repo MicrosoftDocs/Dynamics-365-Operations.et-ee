@@ -3,7 +3,7 @@ title: "Dimensioonipõhise tooteetaloni loomine"
 description: "See protseduur näitab, kuidas luua uut tooteetaloni tehnoloogiaga Dimensioonipõhine konfiguratsioon."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

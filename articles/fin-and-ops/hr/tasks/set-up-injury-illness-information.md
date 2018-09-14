@@ -3,7 +3,7 @@ title: "Saate häälestada vigastuste ja haiguste teavet."
 description: "Tööandjad peavad teadma, kui nende töötajad saavad töökoha ohtude tõttu viga või haigestuvad."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

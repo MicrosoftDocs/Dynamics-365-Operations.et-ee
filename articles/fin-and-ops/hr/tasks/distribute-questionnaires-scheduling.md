@@ -3,7 +3,7 @@ title: "Küsimustike levitamine ajastamise abil"
 description: "Küsimustiku planeerimine võimaldab plaanida ja jaotada küsimustikke mitmele vastajale."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

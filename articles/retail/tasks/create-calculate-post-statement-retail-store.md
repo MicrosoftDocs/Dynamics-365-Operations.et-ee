@@ -3,7 +3,7 @@ title: " Jaekaupluse jaoks väljavõtte loomine, arvutamine ja sisestamine"
 description: "See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sisestamise etappe."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

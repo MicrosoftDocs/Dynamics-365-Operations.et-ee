@@ -3,7 +3,7 @@ title: "Saate häälestada käibemaksuaruandluse koode."
 description: "Käibemaksu aruandluskoodid viitavad käibemaksuaruande väljanumbrile."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

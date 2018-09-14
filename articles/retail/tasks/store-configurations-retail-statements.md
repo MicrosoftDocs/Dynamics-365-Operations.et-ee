@@ -3,7 +3,7 @@ title: " Jaemüügi väljavõtete kauplusekonfiguratsioonid"
 description: "See protseduur selgitab jaekaupluse konfiguratsioone, mis mõjutavad jaemüügi väljavõtete loomise ja sisestamise viisi."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

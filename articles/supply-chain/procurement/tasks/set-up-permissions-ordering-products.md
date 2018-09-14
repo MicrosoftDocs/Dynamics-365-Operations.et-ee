@@ -3,7 +3,7 @@ title: "Teise isiku nimel toodete tellimise õiguste seadistamine"
 description: "See protseduur näitab, kuidas anda töötajatele õigus teiste töötajate nimel ostutaotlusi koostada."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

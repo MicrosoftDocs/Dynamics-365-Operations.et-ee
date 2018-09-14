@@ -3,7 +3,7 @@ title: Kulumireeglite seadistamine ja loomine
 description: "Kulumireeglid määratlevad vara kulumi tüübi ja sageduse."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

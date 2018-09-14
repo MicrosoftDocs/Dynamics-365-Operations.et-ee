@@ -3,7 +3,7 @@ title: Kinnipeetava maksu seadistamine
 description: "Kinnipeetav maks on maks hankijatele, mis ei loo käibemaksukandeid."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

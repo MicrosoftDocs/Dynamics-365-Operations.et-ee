@@ -3,7 +3,7 @@ title: "Ostutellimusel olevate kaupade kaubavajadusest vastuvõtmine"
 description: "See protseduur näitab, kuidas ostutellimusel olevaid kaupu kaubavajadusest vastu võtta."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

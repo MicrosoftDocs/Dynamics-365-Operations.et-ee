@@ -3,7 +3,7 @@ title: "Tootmistellimuse plaanimine koos toimingute ja tööde plaanimisega"
 description: "See protseduur keskendub tootmistellimuse planeerimisele koos toimingute ja töö planeerimisega."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

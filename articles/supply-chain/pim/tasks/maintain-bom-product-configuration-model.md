@@ -3,7 +3,7 @@ title: Toote konfiguratsioonimudeli koosluse haldamine
 description: "Selle protseduuri käitamine nõuab olemasolevat toote konfiguratsioonimudelit."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

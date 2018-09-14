@@ -3,7 +3,7 @@ title: "Töölehtede loomine ja kinnitamine"
 description: "Selles ülesandejuhendis luuakse ja kinnitatakse töölehed ning tööleheread."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

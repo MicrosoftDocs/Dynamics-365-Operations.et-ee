@@ -3,7 +3,7 @@ title: Kvaliteettellimuste seadistamine
 description: "See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui sissetulevaid varusid tuleb kontrollida kohe pärast saabumise registreerimist."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

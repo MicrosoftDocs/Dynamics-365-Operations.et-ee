@@ -3,7 +3,7 @@ title: Toote GTIN-koodi sisestamine
 description: "GTIN-koodid määrab GS1 organisatsioon."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

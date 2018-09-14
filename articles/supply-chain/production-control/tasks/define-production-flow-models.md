@@ -3,7 +3,7 @@ title: "Tootmisvoo mudelite määratlemine"
 description: "Tootmisvoo mudelid kirjeldavad, kuidas lean manufacturingi töörakkude võimsust arvutatakse ja hoitakse."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: " Masinõppele tuginevate tootesoovituste konfigureerimine"
 description: "See protseduur värskendab andmeid üksuse kaupluses, mida tootesoovituste aluseks olev masinõppesüsteem kasutab, ja aktiveerib siis tootesoovitused kassa klientidel."
 author: ashishmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

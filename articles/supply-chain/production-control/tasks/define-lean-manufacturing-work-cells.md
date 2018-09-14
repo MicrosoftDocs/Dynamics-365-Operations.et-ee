@@ -3,7 +3,7 @@ title: "Töörakkude määratlemine: lean manufacturing"
 description: "Töörakk on konkreetne ressursigruppide vorm, mida saab lean manufacturingi protsessi tegevustes kasutada."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

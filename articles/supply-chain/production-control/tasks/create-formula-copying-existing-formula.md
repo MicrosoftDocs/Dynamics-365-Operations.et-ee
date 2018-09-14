@@ -3,7 +3,7 @@ title: Valemi loomine, kopeerides olemasolevast valemist
 description: "See protseduur näitab, kuidas kiiresti uut valemit koostada, kopeerides olemasolevalt valemilt."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

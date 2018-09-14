@@ -3,7 +3,7 @@ title: "Ülekandmistegevuste loomine: lean manufacturing"
 description: "Ülekandetegevuse loomine lean manufacturingi jaoks."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

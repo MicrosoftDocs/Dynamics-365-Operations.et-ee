@@ -3,7 +3,7 @@ title: Kliendi jaoks otsekorralduse loa loomine
 description: "See ülesande juhend näitab, kuidas luua otsekorralduse luba ja seda arvel kasutada."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

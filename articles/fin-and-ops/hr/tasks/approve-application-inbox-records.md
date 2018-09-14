@@ -3,7 +3,7 @@ title: Avalduste sisendkausta kirjete kinnitamine
 description: "See protseduur näitab, kuidas vaadata üle lehtede Töötaja iseteenindus kaudu saadud avaldusi."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

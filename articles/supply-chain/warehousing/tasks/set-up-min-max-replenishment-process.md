@@ -3,7 +3,7 @@ title: "Min-max täiendamisprotsessi seadistamine"
 description: "Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, mis kasutab minimaalse/maksimaalse täiendamise strateegiat."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

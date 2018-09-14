@@ -3,7 +3,7 @@ title: "Andmesisestuse hõlbustamiseks kirje malli loomine"
 description: "See protseduur näitab, kuidas luua kirje malli nii, et sageli kasutatavaid välja väärtuseid ei pea iga uue kirje jaoks selgesõnaliselt sisestama."
 author: margoc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

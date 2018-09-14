@@ -3,7 +3,7 @@ title: "Tootele vöötkoodi loomine"
 description: "See protseduur selgitab, kuidas luua käsitsi vöötkoodi, kasutades näitena kaubakoodi M0001."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

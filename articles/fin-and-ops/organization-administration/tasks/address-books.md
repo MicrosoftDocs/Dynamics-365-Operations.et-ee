@@ -3,7 +3,7 @@ title: Aadressiraamatute konfigureerimine
 description: "Kasutage seda protseduuri ning teemas Globaalse aadressiraamatu ja täiendavate aadressiraamatute konfigureerimise planeerimine tehtud otsuseid oma organisatsiooni jaoks täiendavate aadressiraamatute seadistamiseks."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

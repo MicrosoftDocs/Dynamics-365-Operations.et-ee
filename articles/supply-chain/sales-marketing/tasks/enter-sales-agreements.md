@@ -3,7 +3,7 @@ title: "Müügilepingute sisestamine"
 description: "See protseduur näitab teile, kuidas koostada müügilepingut, mis kohustab ühe teie klientidest ostma teatud aja jooksul toodet kokkulepitud summas, saades vastutasuks erisoodustusi."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
