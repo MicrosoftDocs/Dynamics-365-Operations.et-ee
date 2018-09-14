@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Kõnekeskuse kataloogid
       href: call-center-catalogs.md
-    - name: Kõnekeskuse kataloogi loomine
-      href: create-call-center-catalogs.md
     - name: Tarneviiside ja -tasude konfigureerimine
       href: configure-call-center-delivery.md
     - name: Pettuseteatiste seadistamine ja nendega töötamine
@@ -129,10 +127,12 @@
       href: retail-time-attendance.md
 - name: Modern Point of Sale (MPOS) ja Cloud POS
   items:
-    - name: Valimine MPOS-i ja Cloud POS-i vahel
+    - name: Valimine MPOS-i ja pilve kassa vahel
       href: MPOS-or-CPOS.md
     - name: Ühendusega ja ühenduseta kassatoimingud
       href: pos-operations.md
+    - name: Kohandatud Retail Modern POS-i seadme aktiveerimine
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: Demoandmete ekraanipaigutused MPOS-is ja Cloud POS-is
       href: demo-data.md
     - name: Toote ja kliendi otsing kassas

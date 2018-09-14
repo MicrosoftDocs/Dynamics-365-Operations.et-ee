@@ -157,6 +157,8 @@
           href: get-started/fasttrack-dynamics-365-overview.md
         - name: Juurutusprojekti kasutuselevõtt
           href: imp-lifecycle/onboard.md
+        - name: Keskkonna planeerimine
+          href: imp-lifecycle/environment-planning.md
         - name: Ettevalmistamine süsteemi Go-Live jaoks
           href: imp-lifecycle/prepare-go-live.md
         - name: Süsteemi Go-live KKK
@@ -460,6 +462,8 @@
               href: ../financials/accounts-payable/set-up-generate-positive-pay-files.md
             - name: Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod
               href: ../financials/accounts-payable/default-offset-accounts-vendor-invoice-journals.md
+            - name: Hankija töövoog
+              href: ../financials/accounts-payable/vendor-workflow.md
             - name: Lahknevuste lahendamine arve kogusummade võrdlemisel
               href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
@@ -475,12 +479,18 @@
               href: ../financials/accounts-payable/vendor-portal-invoicing-workspace.md
             - name: Hankija arve automatiseerimine
               href: ../financials/accounts-payable/vendor-invoice-automation.md
+            - name: Peatöövõtja lepinguhaldus
+              href: ../financials/accounts-payable/broker-contract.md
+            - name: Honorarilepingu haldus
+              href: ../financials/accounts-payable/royalty-contract.md
             - name: Maksed ja tasakaalustamised
               items:
                 - name: Ostureskontro tsentraliseeritud maksed
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Tasakaalustuse konfigureerimine
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Hankija maksete ülevaade
+                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Hankija maksete tööruum
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
                 - name: Riskikursi määramine
@@ -513,6 +523,8 @@
                   href: ../financials/accounts-payable/take-discount-more-calculated-discount-vendor-payment.md
                 - name: Hankija osalises summas maksed
                   href: ../financials/accounts-payable/vendor-payments-partial-amount.md
+                - name: Hankija kannete loendi leht
+                  href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Müügireskontro
           href: ../financials/accounts-receivable/accounts-receivable.md
           items:
@@ -522,6 +534,8 @@
               href: ../financials/accounts-receivable/accounts-receivables-set-up-overview.md
             - name: Krediidihalduse ja võlanõuete seadistamine
               href: ../financials/accounts-receivable/set-up-collections.md
+            - name: Sissenõuete teabe ülevaatamine
+              href: ../financials/accounts-receivable/tasks/review-collections-information.md
             - name: Korduvate arvete seadistamine ja töötlemine
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
             - name: Arvestuse jaotused ja alammooduli töölehe sisestused vabas vormis arvete puhul
@@ -540,52 +554,54 @@
               href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: Vabas vormis arve parandamine
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
+            - name: Vabas vormis arve malli määramine kliendile
+              href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: Korduvate vabas vormis arvete genereerimine ja sisestamine
+              href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
+            - name: Müügitellimuse arvete loomine
+              href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
             - name: Intressikoodile intressimäära seadistamine
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
             - name: 'Intressimäärade nõudest loobumine, selle ennistamine või tühistamine'
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
+            - name: Intressi töötlemine
+              href: ../financials/accounts-receivable/tasks/process-interest.md
+            - name: Hankija arvepoliitikate seadistamine
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Hankija arve kirjendamine ja sissetulnud kogusega vastendamine
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Kliendiarve loomine
               href: ../financials/accounts-receivable/configure-customer-invoices.md
+            - name: Kliendimaksete deponeerimine
+              href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
             - name: Kliendi maksetingimuste määramine
               href: ../financials/general-ledger/tasks/establish-customer-payment-terms.md
+            - name: Kliendi makseviisi määramine
+              href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: Kliendi maksetasude määramine
+              href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: Käskvekslite seadistamine
               href: ../financials/accounts-receivable/set-up-bills-exchange.md
             - name: Müügireskontro sulgemine
               href: ../financials/accounts-receivable/close-accounts-receivable.md
-            - name: Müügireskontro tegevused
-              items:
-                - name: Vabas vormis arve malli määramine kliendile
-                  href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
-                - name: Märgukirjaseeria loomine
-                  href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Vahemikuga intressikoodi loomine
-                  href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
-                - name: Müügitellimuse arvete loomine
-                  href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
-                - name: Kliendi jaoks mahakandmise töölehe loomine
-                  href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
-                - name: Kliendimaksete deponeerimine
-                  href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
-                - name: Kliendi makseviisi määramine
-                  href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
-                - name: Kliendi maksetasude määramine
-                  href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
-                - name: Korduvate vabas vormis arvete genereerimine ja sisestamine
-                  href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
-                - name: Märgukirjade töötlemine
-                  href: ../financials/accounts-receivable/tasks/process-collection-letters.md
-                - name: Intressi töötlemine
-                  href: ../financials/accounts-receivable/tasks/process-interest.md
-                - name: Hankija arve kirjendamine ja sissetulnud kogusega vastendamine
-                  href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
-                - name: Sissenõuete teabe ülevaatamine
-                  href: ../financials/accounts-receivable/tasks/review-collections-information.md
-                - name: Müügireskontro ajalise jaotuse teabe seadistamine ja genereerimine
-                  href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-                - name: Hankija arvepoliitikate seadistamine
-                  href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Märgukirjaseeria loomine
+              href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: Märgukirjade töötlemine
+              href: ../financials/accounts-receivable/tasks/process-collection-letters.md
+            - name: Kliendi jaoks otsekorralduse loa loomine
+              href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+            - name: Vahemikuga intressikoodi loomine
+              href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
+            - name: Kliendi jaoks mahakandmise töölehe loomine
+              href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: Müügireskontro ajalise jaotuse teabe seadistamine ja genereerimine
+              href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Kliendi töövoog
+              href: ../financials/accounts-receivable/customer-workflow.md
             - name: Maksed ja tasakaalustamised
               items:
+                - name: Kliendimaksete ülevaade
+                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
                 - name: 'Ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi'
                   href: ../financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Müügireskontro tsentraliseeritud maksed
@@ -602,6 +618,8 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Kliendi osalises summas maksed
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+                - name: Kliendi kannete loendi leht
+                  href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Eelarvestamine
           href: ../financials/budgeting/budgeting-overview.md
           items:
@@ -638,18 +656,44 @@
               href: ../financials/cash-bank-management/cash-discounts.md
             - name: Skontod ülemakseteks
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
+            - name: IBAN-i konto kinnitamise haldamine
+              href: ../financials/cash-bank-management/iban-validation.md
             - name: Tasakaalustuse ülevaade
               href: ../financials/cash-bank-management/settlement-overview.md
             - name: Tasakaalustuse ülevaade tsentraliseeritud maksete puhul
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: Akreditiivid
               href: ../financials/cash-bank-management/letters-of-credit.md
+            - name: Akreditiivi jaoks panga süsteemiteenuse lepingu loomine
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
+            - name: Pangateenuste ja akreditiivide sisestusreeglite seadistamine
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
             - name: Akreditiivid ja impordikogumikud
               href: ../financials/cash-bank-management/letters-of-credit-import-collections.md
+            - name: Akreditiivi eksportimine
+              href: ../financials/cash-bank-management/tasks/export-letter-credit.md
+            - name: Akreditiivi importimine
+              href: ../financials/cash-bank-management/tasks/import-letter-credit.md
             - name: Garantiikirjad
               href: ../financials/cash-bank-management/letters-of-guarantee.md
+            - name: Garantiikirja kanne
+              href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
+            - name: Garantiikirja jaoks panga süsteemiteenuse lepingu loomine
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
+            - name: Pangateenuste ja garantiikirjade sisestusreeglite seadistamine
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
             - name: Hilisema kuupäevaga dateeritud tšekid
               href: ../financials/cash-bank-management/postdated-checks.md
+            - name: Hilisema kuupäevaga tšekkide seadistamine
+              href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
+            - name: Kliendi hilisema kuupäevaga tšeki registreerimine ja sisestamine
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
+            - name: Hankija hilisema kuupäevaga tšeki registreerimine ja sisestamine
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
+            - name: Kliendi hilisema kuupäevaga tšeki tasakaalustamine
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
+            - name: Hankija hilisema kuupäevaga tšeki tasakaalustamine
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
             - name: Ettemaksuarved vs. ettemaksed
               href: ../financials/accounts-payable/prepayments-invoices-vs-prepayments.md
             - name: Skontode käsitlemine ülemaksete korral
@@ -658,36 +702,6 @@
               href: ../financials/cash-bank-management/set-up-centralized-payments.md
             - name: Automaatne tasakaalustus ja prioritiseerimine
               href: ../financials/accounts-receivable/automatic-settlement-prioritization.md
-            - name: Sularaha- ja pangahalduse tegevused
-              items:
-                - name: Akreditiivi jaoks panga süsteemiteenuse lepingu loomine
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
-                - name: Garantiikirja jaoks panga süsteemiteenuse lepingu loomine
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
-                - name: Kliendimaksete ülevaade
-                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
-                - name: Akreditiivi eksportimine
-                  href: ../financials/cash-bank-management/tasks/export-letter-credit.md
-                - name: Akreditiivi importimine
-                  href: ../financials/cash-bank-management/tasks/import-letter-credit.md
-                - name: Garantiikirja kanne
-                  href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
-                - name: Kliendi hilisema kuupäevaga tšeki registreerimine ja sisestamine
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
-                - name: Hankija hilisema kuupäevaga tšeki registreerimine ja sisestamine
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
-                - name: Kliendi hilisema kuupäevaga tšeki tasakaalustamine
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
-                - name: Hankija hilisema kuupäevaga tšeki tasakaalustamine
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
-                - name: Pangateenuste ja garantiikirjade sisestusreeglite seadistamine
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
-                - name: Pangateenuste ja akreditiivide sisestusreeglite seadistamine
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
-                - name: Hilisema kuupäevaga tšekkide seadistamine
-                  href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
-                - name: Hankija maksete ülevaade
-                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
             - name: Pangakonto täpsem vastavusseviimine
               items:
                 - name: Pangakonto täpsema vastavusseviimise seadistustoimingud
@@ -817,6 +831,14 @@
         - name: Põhivarad
           href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Uue põhivara loomine
+              href: ../financials/fixed-assets/tasks/create-fixed-asset.md
+            - name: Põhivarale lisandi sisestamine
+              href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
+            - name: Põhivara soetamiste soovitamine
+              href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
+            - name: Põhivarade ümberklassifitseerimine
+              href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
             - name: Põhivara tööruum
               href: ../financials/fixed-assets/fixed-asset-management-workspace.md
             - name: Põhivarade edasiarvestuse aruanne
@@ -833,10 +855,20 @@
               href: ../financials/fixed-assets/post-fixed-asset-transactions-posting-layers.md
             - name: Põhivara kande valikud
               href: ../financials/fixed-assets/enter-fixed-asset-transactions.md
+            - name: Põhivara ülekandmine
+              href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
+            - name: Põhivara tükeldamine
+              href: ../financials/fixed-assets/tasks/split-fixed-asset.md
+            - name: Põhivaragruppide häälestamine
+              href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
+            - name: Põhivaragrupi muutmine
+              href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
             - name: Põhivaragruppide asendusväärtuste ja kindlustusväärtuste ümberarvutus
               href: ../financials/fixed-assets/recalculate-replacement-costs-insured-values-fixed-asset-groups.md
             - name: Põhivara likvideerimise sisestuskontod
               href: ../financials/fixed-assets/fixed-asset-disposal-posting-accounts.md
+            - name: Põhivara käibelt kõrvaldamine vabas vormis arve abil
+              href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
             - name: Põhivara massvärskendamine
               href: ../financials/fixed-assets/fixed-asset-mass-update.md
             - name: Varade soetamine hankega
@@ -845,8 +877,18 @@
               items:
                 - name: Põhivarade seadistamine
                   href: ../financials/fixed-assets/set-up-fixed-assets.md
+                - name: Põhivara sisestusreeglite seadistamine
+                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
                 - name: Põhivarade integreerimine
                   href: ../financials/fixed-assets/fixed-asset-integration.md
+                - name: Varade loomine ja soetamine ostureskontrost
+                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
+                - name: 'Kulumiraamatute seadistamine '
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
+                - name: Kulumireeglite seadistamine ja loomine
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
+                - name: Väärtusmudelite seadistamine
+                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
             - name: Kulumiarvestusmeetodid
               items:
                 - name: Kulumiarvestusreeglid
@@ -861,18 +903,26 @@
                   href: ../financials/fixed-assets/200-percent-reducing-balance-depreciation.md
                 - name: Lisakulum
                   href: ../financials/fixed-assets/bonus-depreciation.md
+                - name: Lisakulumi seadistamine
+                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
                 - name: Tarbimise kulum
                   href: ../financials/fixed-assets/consumption-depreciation.md
                 - name: Tühistustega kulumiefektid
                   href: ../financials/fixed-assets/depreciation-effects-reversals.md
                 - name: Kulumimeetodid ja kulumiarvestusreeglid
                   href: ../financials/fixed-assets/depreciation-methods-conventions.md
+                - name: Kulumisoovituse koostamine
+                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
                 - name: Kulumiarvestus kordaja alusel
                   href: ../financials/fixed-assets/factor-depreciation.md
                 - name: Põhivara soetamise sisestuskontod
                   href: ../financials/fixed-assets/fixed-asset-acquisition-posting-accounts.md
                 - name: Põhivara kulum
                   href: ../financials/fixed-assets/fixed-asset-depreciation.md
+                - name: Põhivara kulumi arvutamine juriidiliste isikute lõikes
+                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
+                - name: Kulumimääramise tava muutmine mitme põhivara puhul
+                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
                 - name: Käsitsi kulumiarvestus
                   href: ../financials/fixed-assets/manual-depreciation.md
                 - name: Väheneva jääkväärtuse kuluarvestusmeetod
@@ -883,44 +933,6 @@
                   href: ../financials/fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Kasuliku eluea lineaarne kulum
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
-            - name: Põhivarade tegevused
-              items:
-                - name: Põhivara kulumi arvutamine juriidiliste isikute lõikes
-                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
-                - name: Kulumimääramise tava muutmine mitme põhivara puhul
-                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
-                - name: Põhivaragrupi muutmine
-                  href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
-                - name: Varade loomine ja soetamine ostureskontrost
-                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
-                - name: Kulumisoovituse koostamine
-                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
-                - name: Uue põhivara loomine
-                  href: ../financials/fixed-assets/tasks/create-fixed-asset.md
-                - name: Põhivara käibelt kõrvaldamine vabas vormis arve abil
-                  href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
-                - name: Põhivarale lisandi sisestamine
-                  href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
-                - name: Põhivara soetamiste soovitamine
-                  href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
-                - name: Põhivarade ümberklassifitseerimine
-                  href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
-                - name: Lisakulumi seadistamine
-                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'Kulumiraamatute seadistamine '
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
-                - name: Kulumireeglite seadistamine ja loomine
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
-                - name: Põhivaragruppide seadistamine
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
-                - name: Põhivara sisestusreeglite seadistamine
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
-                - name: Väärtusmudelite seadistamine
-                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
-                - name: Põhivara tükeldamine
-                  href: ../financials/fixed-assets/tasks/split-fixed-asset.md
-                - name: Põhivara ülekandmine
-                  href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
         - name: Pearaamat
           href: ../financials/general-ledger/general-ledger.md
           items:
@@ -948,7 +960,14 @@
                   href: ../financials/general-ledger/tasks/create-account-structures.md
                 - name: Viitvõlaskeemide loomine
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine
+                - name: Finantskonsolideerimised ja valuuta teisendamine
+                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                  items:
+                    - name: Konsolideeri võrgus
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Konsolideeritud finantsaruannete loomine
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Konsolideerimisgruppide ja täiendava konsolideerimiskonto loomine
                   href: ../financials/general-ledger/tasks/create-consolidation-groups.md
                 - name: Põhikonto tüübid
                   href: ../financials/general-ledger/main-account-types.md
@@ -1073,22 +1092,40 @@
           items:
             - name: Avaliku sektori funktsioonide plaanimine
               href: ../financials/public-sector/plan-public-sector-functionality.md
+            - name: Avaliku sektori maksearuande jaoks tiitel- ja allkirjalehtede loomine
+              href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Ostureskontro avalikus sektoris
               href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
                 - name: Ostutellimuste koodid avalikus sektoris
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
+                - name: Äripartnerikoodi loomine ja määramine avalikus sektoris
+                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: Sisestamisdefinitsioonid avalikus sektoris
                   href: ../financials/public-sector/posting-definitions-public-sector.md
-                - name: Ühekordsete hankijate planeerimine avalikus sektoris
-                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
                 - name: Ühekordsed hankijad avalikus sektoris
                   href: ../financials/public-sector/one-time-vendors-public-sector.md
+                - name: Ühekordse hankija ja arve loomine avalikus sektoris
+                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
+                - name: Hankija sertifikaaditüübi loomine avalikus sektoris
+                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
+                - name: Mitme ühekordse hankija ja arve importimine ja loomine avalikus sektoris
+                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Ühekordsete hankijate planeerimine avalikus sektoris
+                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
+                - name: Ostulepingutele juurdepääsu reguleerimine avalikus sektoris
+                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
+                - name: Ostulepingu klassifikatsioonide seadistamine avalikus sektoris
+                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Müügireskontro avalikus sektoris
               href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
                 - name: Arveldusklassifikatsioonid ja arvelduskoodid avalikus sektoris
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
+                - name: Arveldusklassifikatsiooni loomine avalikus sektoris
+                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
+                - name: Arvelduskoodi loomine avaliku sektori jaoks
+                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
                 - name: Tasakaalustamise prioriteet avalikus sektoris
                   href: ../financials/public-sector/settlement-priority-public-sector.md
                 - name: Vabas vormis arved avalikus sektoris
@@ -1098,10 +1135,16 @@
             - name: Eelarvestamine avalikus sektoris
               href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Algse eelarve loomine ja esialgse eelarve kirjete tagasivõtmine avalikus sektoris
+                  href: ../financials/public-sector/tasks/create-original-budget.md
+                - name: Esialgse eelarve loomine avaliku sektori jaoks
+                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
                 - name: Eelarveanalüüs avalikus sektoris
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Esialgsed eelarved ja jaotamised avalikus sektoris
                   href: ../financials/public-sector/preliminary-budgets-apportionments-public-sector.md
+                - name: Avaliku sektori eelarvefondi reserveerimiseks kohustuse loomine
+                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
             - name: Põhivarad avalikus sektoris
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Pearaamat avalikus sektoris
@@ -1109,52 +1152,26 @@
               items:
                 - name: Täpsemad pearaamatu kirjed avalikus sektoris
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
+                - name: Laiendatud pearaamatu kirje loomine avalikus sektoris
+                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
                 - name: Aastalõpu töötlemine avalikus sektoris
                   href: ../financials/public-sector/year-end-processing-public-sector.md
                 - name: Tuletatud finantshierarhiad avalikus sektoris
                   href: ../financials/public-sector/derived-financial-hierarchies-public-sector.md
+                - name: Tuletatud finantshierarhia seadistamine avalikus sektoris
+                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
             - name: Hanked avalikus sektoris
               href: ../financials/public-sector/procurement-sourcing-public-sector.md
             - name: Turberollid avalikus sektoris
               href: ../financials/public-sector/security-roles-public-sector.md
             - name: Vahendid avalikus sektoris
               href: ../financials/public-sector/funds-public-sector.md
-            - name: Avalik sektori tegevused
-              items:
-                - name: Sertifikaadi tüübi lisamine avaliku sektori hankijale
-                  href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
-                - name: Ostulepingutele juurdepääsu reguleerimine avalikus sektoris
-                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
-                - name: Laiendatud pearaamatu kirje loomine avalikus sektoris
-                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Äripartnerikoodi loomine ja määramine avalikus sektoris
-                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
-                - name: Arveldusklassifikatsiooni loomine avalikus sektoris
-                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
-                - name: Arvelduskoodi loomine avaliku sektori jaoks
-                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
-                - name: Avaliku sektori eelarvefondi reserveerimiseks kohustuse loomine
-                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
-                - name: Avaliku sektori maksearuande jaoks tiitel- ja allkirjalehtede loomine
-                  href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
-                - name: Fondi tüübi loomine avalikus sektoris
-                  href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
-                - name: Ühekordse hankija ja arve loomine avalikus sektoris
-                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
-                - name: Algse eelarve loomine ja esialgse eelarve kirjete tagasivõtmine avalikus sektoris
-                  href: ../financials/public-sector/tasks/create-original-budget.md
-                - name: Esialgse eelarve loomine avaliku sektori jaoks
-                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
-                - name: Hankija sertifikaaditüübi loomine avalikus sektoris
-                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: Mitme ühekordse hankija ja arve importimine ja loomine avalikus sektoris
-                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
-                - name: Tuletatud finantshierarhia seadistamine avalikus sektoris
-                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
-                - name: Fondi seadistamine avalikus sektoris
-                  href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
-                - name: Ostulepingu klassifikatsioonide seadistamine avalikus sektoris
-                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
+            - name: Fondi seadistamine avalikus sektoris
+              href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
+            - name: Fondi tüübi loomine avalikus sektoris
+              href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
+            - name: Sertifikaadi tüübi lisamine avaliku sektori hankijale
+              href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Finantsaruandlus
           href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
@@ -1193,311 +1210,315 @@
     - name: Lokaliseerimine ja regulatiivsed funktsioonid
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Aasia ja Vaikse ookeani piirkond
+        - name: Austraalia
+          href: ../financials/localizations/australia.md
           items:
-            - name: Austraalia
-              href: ../financials/localizations/australia.md
+            - name: Äritegevuse aruanne (BAS)
+              href: ../financials/localizations/apac-aus-business-activity-statement.md
+            - name: Aruandeväljade lisamine ja BAS-i loomine
+              href: ../financials/localizations/tasks/add-bas-report-boxes.md
+            - name: Väikese väärtusega vahendite kulum
+              href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
+            - name: BAS-aruande põhjusekoodide seadistamine
+              href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
+        - name: Austria
+          href: ../financials/localizations/austria.md
+          items:
+            - name: Täiendavate soetamiste poolaasta kulum
+              href: ../financials/localizations/emea-aut-half-year-depreciation.md
+            - name: Pakkematerjali maksud
+              href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
+            - name: KM-aruanne
+              href: ../financials/localizations/emea-aut-vat-statement-details.md
+        - name: Belgia
+          href: ../financials/localizations/belgium.md
+          items:
+            - name: CODA pangaväljavõte
+              href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
+            - name: Kannete loomine ja edastamine BLWI-sse
+              href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
+            - name: INTERVAT-i maksudeklaratsioon
+              href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
+            - name: Vastavusseviimise aruanded
+              href: ../financials/localizations/emea-bel-reconciliation-reports.md
+            - name: 'Maksesaldode aruandluse häälestamine '
+              href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
+            - name: PRODCOM-i häälestus ja haldamine
+              href: ../financials/localizations/emea-bel-prodcom-report.md
+        - name: Brasiilia
+          href: ../financials/localizations/brazil.md
+          items:
+            - name: Lokaliseerimise ulatus
+              href: ../financials/localizations/latam-bra-scope.md
+            - name: Finantsraamatud
+              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
-                - name: Äritegevuse aruanne (BAS)
-                  href: ../financials/localizations/apac-aus-business-activity-statement.md
-                - name: Aruandeväljade lisamine ja BAS-i loomine
-                  href: ../financials/localizations/tasks/add-bas-report-boxes.md
-                - name: Väikese väärtusega vahendite kulum
-                  href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
-                - name: BAS-aruande põhjusekoodide seadistamine
-                  href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
-            - name: Hiina
-              href: ../financials/localizations/china.md
+                - name: Finantsraamatute konfigureerimine
+                  href: ../financials/localizations/latam-bra-configure-fiscal-books.md
+                - name: ICMS-maksustamise finantsdokumendid
+                  href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
+                - name: Finantsdokumentide importimine
+                  href: ../financials/localizations/latam-bra-import-fiscal-documents.md
+                - name: Juriidilise isiku üksuste eksportimine ja importimine pearaamatu konsolideerimisest
+                  href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
+                - name: NF-e XML-dokumentide ja DANFE-failide importimine ning kinnitamine
+                  href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
+                - name: Elektroonilise fiskaaldokumendi teenindamine tekstifailide abil
+                  href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
+                - name: Elektroonilise makse rahaülekannete töötlemine
+                  href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
+                - name: Elektrooniline maksehaldus hankijamaksete puhul
+                  href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
+                - name: Fiskaaldokumendid
+                  href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
+                - name: Fiskaaldokumendi teksti kohatäited
+                  href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
+                - name: Fiskaaldokumendi lähteteksti seadistamine
+                  href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
+                - name: Fiskaaldokumendi teksti haldamine hankedokumentides
+                  href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
+                - name: Hankijate fiskaaldokumentide väljastamine
+                  href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
+                - name: Klientide fiskaaldokumentide väljastamine
+                  href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
+                - name: Ostu täiendavad fiskaaldokumendid
+                  href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
+                - name: Ostu täiendava fiskaaldokumendi loomine ja sisestamine
+                  href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
+                - name: Ostu täiendava fiskaaldokumendi tühistamine
+                  href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
+                - name: Viidatud finantsdokumendid
+                  href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
+                - name: Hankija fiskaaldokumentide vastuvõtmine (tooted)
+                  href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
+                - name: Hankija fiskaaldokumentide vastuvõtmine (põhivarad – PIS ja COFINS pikaajaline taastatav)
+                  href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
+                - name: Hankija fiskaaldokumentide vastuvõtmine (põhivarad – ICMS pikaajaline taastatav)
+                  href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
+                - name: Klientide fiskaaldokumentide väljastamine (teenused)
+                  href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
+                - name: Klientide fiskaaldokumentide väljastamine (põhivarad)
+                  href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
+                - name: Klientide fiskaaldokumentide väljastamine (projekt)
+                  href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
+                - name: Klientide fiskaaldokumentide väljastamine (lõppkasutajatele)
+                  href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
+                - name: Klientide fiskaaldokumentide väljastamine (SUFRAMA klientidele)
+                  href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
+                - name: Kliendi fiskaaldokumendi tühistamine (projekt)
+                  href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
+                - name: Müüki täiendavad finantsdokumendid
+                  href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
+                - name: Müüki täiendava fiskaaldokumendi loomine ja sisestamine
+                  href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
+                - name: Müüki täiendava fiskaaldokumendi tühistamine
+                  href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
+                - name: Teenuse elektrooniline finantsdokument
+                  href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
+                - name: Elektroonilise makse tagastusprotsessi ajal loodud töölehed
+                  href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
+                - name: Projekti deebetaviisid
+                  href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
+            - name: NF-e protsess
+              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
-                - name: Koosluse võrdlus
-                  href: ../financials/localizations/apac-chn-bom-comparison.md
-                - name: Hiina kontoplaani hierarhia
-                  href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
-                - name: Hiina kannete järjepidevuse kontrollimine
-                  href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
-                - name: Hiina kanded
-                  href: ../financials/localizations/apac-chn-vouchers.md
-                - name: Maksu integreerimise konfigureerimine
-                  href: ../financials/localizations/apac-chn-tax-integration.md
-                - name: Hiina kuldse maksusüsteemi integreerimise ekspordi seadistamine
-                  href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+                - name: NF-e fiskaaldokumentide automaatne ülekandmine
+                  href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
+                - name: Meilisõnumite koostamine kinnitatud NF-e jaoks ja DANFE PDF-failide ja NF-e XML-failide manustamine meilisõnumitele
+                  href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
+                - name: NF-e serdid
+                  href: ../financials/localizations/latam-bra-nfe-certs.md
+                - name: 'NF-e XML-dokumentide ja DANFE häälestamine, importimine ning kinnitamine'
+                  href: ../financials/localizations/latam-bra-set-up-import-nfe.md
+                - name: NF-e üldparameetrite seadistamine
+                  href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
+                - name: Maksuameti jaoks NF-e parameetrite seadistamine
+                  href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+            - name: Parameetrid juriidiliste isikute jaoks
+              href: ../financials/localizations/latam-bra-legal-entity-parameters.md
+            - name: Juriidilise isiku parameetrite seadistamine
+              href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
+            - name: CIAP põhivara soetamine
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: CIAP põhivara likvideerimine
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: CIAP kande sisestamine
+              href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
+            - name: CIAP kreeditsumma arvutamine
+              href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
+            - name: CIAP kreediti kaasamine eelmisest perioodist
+              href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
+            - name: Saatelehed
+              href: ../financials/localizations/tasks/br-00041-delivery-slip.md
+            - name: Mitterahalised toimingud
+              href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
+            - name: Muud tasud vabas vormis arvetel
+              href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
+            - name: Hankijamaksete intresside ja trahvide seadistamine
+              href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
+            - name: Hankijamaksete intresside ja trahvide arvutamine
+              href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
+            - name: Kliendimaksete intresside ja trahvide seadistamine
+              href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
+            - name: Kliendimaksete intresside ja trahvide arvutamine
+              href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+            - name: Maksud
+              href: ../financials/localizations/latam-bra-calculate-taxes.md
+              items:
+                - name: Maksu arvutamine ostupakkumistel
+                  href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
+                - name: Maksuarvestuse loomine - ICMS
+                  href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
+                - name: Maksuarvestuse loomine - IPI maks
+                  href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
+                - name: Maksuarvestuse loomine - PIS-i ja COFINS-i maks
+                  href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
+                - name: Maksu korrigeerimiskannete sisestamine
+                  href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
+                - name: PIS-i ja COFINS-i maksu korrigeerimiskannete sisestamine
+                  href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
+                - name: Maksuameti maksuatribuudid
+                  href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
+                - name: ICMS-i maksu krediteerimise fiskaaldokumentide väljastamine
+                  href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
+                - name: ICMS-i maksu kreeditkorralduse fiskaaldokumentide väljastamine
+                  href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
+                - name: ICMS-i maksu jaoks korrigeerimiskoodide seadistamine
+                  href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
+                - name: ICMS-i maksude korrigeerimiskoodide seadistamine fiskaaldokumentides
+                  href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
+                - name: IPI-i maksude jaoks korrigeerimiskoodide seadistamine
+                  href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
+                - name: PIS-i ja COFINS-i põhivarad
+                  href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
+                - name: PIS-i ja COFINS-i maksude jaoks korrigeerimiskoodide seadistamine
+                  href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
+                - name: PIS-i ja COFINS-i tabelite seadistamine
+                  href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
+                - name: Maksuarvestus ISS-i maksu puhul
+                  href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
+                - name: Maksuatribuudid
+                  href: ../financials/localizations/latam-bra-tax-attributes.md
+                - name: Maksu maksmised
+                  href: ../financials/localizations/latam-bra-tax-payments.md
+                - name: Maks müügipakkumistel
+                  href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
+                - name: 'Kinnipeetavad maksud '
+                  href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
+                - name: Kliendimaksetelt kinnipeetavad maksud
+                  href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
+                - name: Hankijamaksetelt kinni peetavad maksud
+                  href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
+        - name: Hiina
+          href: ../financials/localizations/china.md
+          items:
+            - name: Koosluse võrdlus
+              href: ../financials/localizations/apac-chn-bom-comparison.md
+            - name: Hiina kontoplaani hierarhia
+              href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
+            - name: Hiina kannete järjepidevuse kontrollimine
+              href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
+            - name: Hiina kanded
+              href: ../financials/localizations/apac-chn-vouchers.md
+            - name: Maksu integreerimise konfigureerimine
+              href: ../financials/localizations/apac-chn-tax-integration.md
+            - name: Hiina kuldse maksusüsteemi integreerimise ekspordi seadistamine
+              href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+            - name: Põhivarade kulumiarvestusmeetodid
+              href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
+            - name: Hiina kuldse maksu andmeüksuse importimine
+              href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
+            - name: Igakuise keskmise kulumudel
+              href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
+            - name: Varude põhikontode sisestamine saidi järgi
+              href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
+            - name: Teistest moodulitest kannete sisestamine
+              href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
+            - name: Päevaraamatu kannete sisestamine
+              href: ../financials/localizations/tasks/post-vouchers-general-journal.md
+            - name: Hiina üldise maksuintegratsiooni reeglite seadistamine
+              href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
+            - name: Hiina kannete seadistamine
+              href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
+            - name: Põhivara kulumieraldiste seadistamine
+              href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
+            - name: Deebet- ja kreeditsummade kuvamine pearaamatu kontodel
+              href: ../financials/localizations/apac-chn-negative-debits-credits.md
+            - name: Kasutaja toimingulogi Hiina tööreegli järgi
+              href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
+            - name: KM-i sisaldavate kliendiarvete KKK
+              href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
+        - name: Tšehhi Vabariik
+          href: ../financials/localizations/czech-republic.md
+          items:
+            - name: Skonto kreeditarve
+              href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
+            - name: Põhivarad
+              items:
+                - name: Kulumi ümardamine
+                  href: ../financials/localizations/emea-cze-depreciation-rounding.md
+                - name: Põhivara poolaasta kulum
+                  href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
+                - name: Kulumi peatamine (pühad)
+                  href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
                 - name: Põhivarade kulumiarvestusmeetodid
-                  href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Hiina kuldse maksu andmeüksuse importimine
-                  href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
-                - name: Igakuise keskmise kulumudel
-                  href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
-                - name: Varude põhikontode sisestamine saidi järgi
-                  href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
-                - name: Teistest moodulitest kannete sisestamine
-                  href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
-                - name: Päevaraamatu kannete sisestamine
-                  href: ../financials/localizations/tasks/post-vouchers-general-journal.md
-                - name: Hiina üldise maksuintegratsiooni reeglite seadistamine
-                  href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
-                - name: Hiina kannete seadistamine
-                  href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
-                - name: Põhivara kulumieraldiste seadistamine
-                  href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
-                - name: Deebet- ja kreeditsummade kuvamine pearaamatu kontodel
-                  href: ../financials/localizations/apac-chn-negative-debits-credits.md
-                - name: Kasutaja toimingulogi Hiina tööreegli järgi
-                  href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
-                - name: KM-i sisaldavate kliendiarvete KKK
-                  href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
-            - name: India
-              href: ../financials/localizations/india.md
-              items:
-                - name: Põhivarad
-                  href: ../financials/localizations/apac-ind-fixed-assets.md
-                  items:
-                    - name: Päevapõhise kalendri manustamine põhivararaamatule
-                      href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: Vahetuskulumi arvestus
-                      href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: Laomudeligrupi loomine kapitalikaupade jaoks
-                      href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: Kulumi koostamine ja sisestamine
-                      href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
-                    - name: Raamatute vahetuse ja valdkonna määratlemine ja põhivarale lisamine
-                      href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Põhivarakannete storno
-                      href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: Vahetuskulumi arvestus
-                      href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: Päevapõhise rahanduskalendri häälestamine
-                      href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: Parameetrite häälestamine kulumi arvutamiseks
-                      href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: Varagrupi kulumi häälestamine kulumiraamatute jaoks
-                      href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Kapitalikaupade ülekanne põhivarasse
-                      href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: India GST
-                  href: ../financials/localizations/apac-ind-gst.md
-                  items:
-                    - name: India GST viitegrupid
-                      href: ../financials/localizations/apac-ind-gst-reference-groups.md
-                    - name: Kassaaparaatide GST integreerimine
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Kassaaparaatide juurutamise juhised
-                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-                - name: Maksumootori ülevaade
-                  href: ../financials/general-ledger/tax-engine.md
-                  items:
-                    - name: Maksumootori integratsioon
-                      href: ../financials/general-ledger/tax-engine-integration.md
-                    - name: Maksumootori laiendamine
-                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
-                - name: Maksulävede KKK
-                  href: ../financials/localizations/apac-ind-tax-thresholds.md
-            - name: Jaapan
-              href: ../financials/localizations/japan.md
-              items:
-                - name: Põhivara soetamine ja valitsuse toetuse taotlemine
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
-                - name: Põhivara soetamine vara käibelt kõrvaldamise kohustustega
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
-                - name: Vara käibelt kõrvaldamise kohustuse hinnangu korrigeerimine
-                  href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
-                - name: Ühiste vahendite ja maineväärtuse bilansilise väärtuse eraldamine sularaha genereerivatele üksustele
-                  href: ../financials/localizations/tasks/allocate-carrying-amount.md
-                - name: Eraldusreeglid
-                  href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
-                - name: Hankijate kaetavad pangamaksete tasud
-                  href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
-                - name: Raamatu kulumiarvestusmeetodi muutmine vara elutsükli jooksul
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
-                - name: Ühe vara kulumiarvestusmeetodi muutmine vara elutsükli jooksul
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
-                - name: Kiirendatud kulumi parameetrite ja sisestusreeglite konfigureerimine
-                  href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
-                - name: Koondarve parameetrite ja ostureskontro seadistuse konfigureerimine
-                  href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
-                - name: Täiendava kulumi reeglite ja sisestusreeglite konfigureerimine
-                  href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
-                - name: Vara käibelt kõrvaldamise kohustuse sisestamise ja turu allahindlusmäärade jaoks põhikontode konfigureerimine
-                  href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
-                - name: Koondarved
-                  href: ../financials/localizations/apac-jpn-consolidate-invoices.md
-                - name: Lisakulumiga põhivara loomine
-                  href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
-                - name: Põhivara loomine spetsiaalse kulumireegliga
-                  href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
-                - name: Kiirendatud kulumidokumendi loomine ja kasutusandmete sisestamine
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
-                - name: Kiirendatud kulumireegli loomine ja selle määramine raamatule
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
-                - name: Vähendamise sisestuse dokumendi loomine ja määramine valitsuse toetuse jaoks
-                  href: ../financials/localizations/tasks/create-assign-reduction-document.md
-                - name: Seadmegrupi loomine ja määramine
-                  href: ../financials/localizations/tasks/create-assign-equipment-group.md
-                - name: Kliendi koondarve loomine ja kinnitamine
-                  href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
-                - name: Tuvastamistesti loomine ja kinnitamine
-                  href: ../financials/localizations/tasks/create-confirm-recognition-test.md
-                - name: Hankija koondarve loomine ja kinnitamine
-                  href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
-                - name: Raha genereerivate üksuste rühma ja raha genereerivate üksuste loomine
-                  href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
-                - name: Tervikväljamakse kulumi varade loomine võrdselt jagatud meetodi abil
-                  href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
-                - name: Vara jõudeperioodi määratlemine ja kulumiarvestuse protsessi kontrollimine
-                  href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
-                - name: Varalt käibelt kõrvaldamise kohustuste jaoks intressikulu kulumiarvestus ja kumuleerimine
-                  href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
-                - name: Põhivarade kulumiarvestus sisestatud vähendamiskandega
-                  href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
-                - name: Kulumi KKK
-                  href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
-                - name: Põhivara käibelt kõrvaldamine vähendamiskirjega
-                  href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
-                - name: JBA maksefaili vormingu lubamine
-                  href: ../financials/localizations/tasks/jba-payment-file-format.md
-                - name: Kulumimäära graafiku sisestamine ja seostamine kulumireeglitega
-                  href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
-                - name: Võrdselt jagatud kulumiarvestuse meetod
-                  href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
-                - name: Amortiseeritava maksu deklaratsiooni vorm 26
-                  href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
-                - name: JBA-vorminguga EFT maksefaili genereerimine
-                  href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
-                - name: Maksetasu genereerimine ja sisestamine
-                  href: ../financials/localizations/tasks/post-payment-fee.md
-                - name: Tarbimismaksu aruande genereerimine
-                  href: ../financials/localizations/tasks/japan-consumption-tax-report.md
-                - name: Kahjustuse arvestus raha genereerivas üksuses
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
-                - name: Kahjustuse arvestus
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
-                - name: Kliendimakse importimine JBA-failivormingus
-                  href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
-                - name: Sihtnumbrite importimine
-                  href: ../financials/localizations/apac-jpn-import-postal-codes.md
-                - name: Töölehe sisestamine T-konto vormi
-                  href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
-                - name: Vara käibelt kõrvaldamise kohustuse kannete kohta päringu esitamine
-                  href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
-                - name: Mahaarvatavade kulude kohta päringu esitamine
-                  href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
-                - name: Töölehe maksetasude kohta päringu esitamine
-                  href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
-                - name: Põhivara koondandmete failide haldamine mahaarvatavate kulude jaoks
-                  href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
-                - name: Kahjustuse indikaatorite haldamine üksikute varade puhul
-                  href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
-                - name: Hankijale tasumine käskveksli toetusega
-                  href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
-                - name: Hankija kande tasumine käskveksli toetusega
-                  href: ../financials/localizations/tasks/pay-vendor-transaction.md
-                - name: Üle- ja alakulumi perioodiline tasakaalustamine
-                  href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
-                - name: Kinnipeetava maksu progressiivne arvutamine
-                  href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
-                - name: Lisakulumi soovitamine
-                  href: ../financials/localizations/tasks/propose-additional-depreciation.md
-                - name: Kiirendatud kulumi soovitamine ja sisestamine
-                  href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
-                - name: Kahjustuse summa soovitamine ja sisestamine partii kaupa
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
-                - name: Kahjustuse summa soovitamine ja sisestamine põhivara töölehe abil
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
-                - name: Kahjustuse summa soovitamine ja sisestamine raha genereerivale üksusele
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
-                - name: Erikulumi soovitamine
-                  href: ../financials/localizations/tasks/propose-special-depreciation.md
-                - name: Kliendi koondarve uuesti avamine ja redigeerimine
-                  href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
-                - name: Hankija koondarve uuesti avamine ja redigeerimine
-                  href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
-                - name: Kinnitatud käskveksli tühistamine
-                  href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
-                - name: Tuvastamistesti käivitamine ja kahjustuse summa arvutamine üksikute varade puhul
-                  href: ../financials/localizations/tasks/run-recognition-test-calculate.md
-                - name: Kliendi ja müügitellimuse seadistamine koondarvel sihina
-                  href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
-                - name: ARO seadistamine
-                  href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
-                - name: Vara käibelt kõrvaldamise kohustuse dokumentide seadistamine ja ARO summa sisestamine põhivara kohta
-                  href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
-                - name: Koondarvete seadistamine
-                  href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
-                - name: Kahjustuse raamatupidamise üldiste parameetrite ja sisestusreeglite seadistamine
-                  href: ../financials/localizations/tasks/impairment-accounting.md
-                - name: Jaapani tarbimise maksuaruande seadistamine
-                  href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
-                - name: Jaapani makse seadistamine kliendi käskveksli kinnitamise teel
-                  href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
-                - name: Koondandmete seadistamine mahaarvatavate kulude kaasamiseks mitme sisestamiskihi puhul
-                  href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
-                - name: Jaapani jaoks maksetasu seadistamine
-                  href: ../financials/localizations/tasks/setup-payment-fee-japan.md
-                - name: Vähenduskannete häälestamine
-                  href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
-                - name: Hankija koondandmete ja ostutellimuse seadistamine koondarve sihina
-                  href: ../financials/localizations/tasks/vendor-master-po.md
-                - name: Kinnitatud käskveksli tasakaalustamine
-                  href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
-                - name: Kliendi koondarvete tasakaalustamine maksetöölehe abil
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
-                - name: Kliendi koondarvete tasakaalustamine kannete tasakaalustamise abil
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
-                - name: Hankija koondarvete tasakaalustamine maksetöölehe abil
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
-                - name: Hankija koondarvete tasakaalustamine kannete tasakaalustamise abil
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
-                - name: Põhivarade komplekteerimisloendi kasutamine
-                  href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
-                - name: Põhivarade osadeks jaotamise loendi kasutamine
-                  href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
-            - name: Malaisia
-              href: ../financials/localizations/malaysia.md
-              items:
-                - name: Kliendi kreediti genereerimine projektimüügi jaoks
-                  href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
-                - name: Kliendi deebeti genereerimine projektimüügi jaoks
-                  href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
-                - name: Kaupade ja teenuste maks (GST)
-                  href: ../financials/localizations/apac-mys-gst.md
-                - name: GST – GAF-failide genereerimine nõutavas vormingus
-                  href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
-                - name: Kliendi deebeti ja kreediti haldus GST jaoks
-                  href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
-                - name: Hankija deebeti ja kreediti haldus GST jaoks
-                  href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
-                - name: GST kliendiarvete printimine maksuvabastusklausliga
-                  href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
-                - name: GST maksuarvete printimine
-                  href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
-                - name: Isearveldatud arved
-                  href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
-                - name: GST maksuvabastusklauslite seadistamine
-                  href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
-            - name: Singapur
-              href: ../financials/localizations/singapore.md
-              items:
-                - name: GST-05 aruande loomine
-                  href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
-            - name: Tai
-              href: ../financials/localizations/thailand.md
-              items:
-                - name: Laokaardi aruanded
-                  href: ../financials/localizations/apac-tha-stock-card-reports.md
-                - name: Maksuarve asendamine/korrigeerimine
-                  href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
-                - name: Realiseerimata ostu käibemaks
-                  href: ../financials/localizations/apac-tha-unrealized-vat.md
-                - name: Kinnipeetav maks
-                  href: ../financials/localizations/apac-tha-withholding-tax.md
+                  href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
+                - name: Eelsoetuse sisestamine
+                  href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
+            - name: Perioodiliste töölehtede sisestamine
+              href: ../financials/general-ledger/tasks/post-periodic-journals.md
+            - name: Allkirjastajate häälestamine prindivormide jaoks
+              href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
+            - name: Perioodide tükeldamine perioodilistes töölehtedes
+              href: ../financials/localizations/emea-create-post-periodic-journals.md
+            - name: Aruannetes ja dokumentides summade kuvamise viisi värskendamine
+              href: ../financials/localizations/emea-amount-printing-forms.md
+            - name: KM-aruanne
+              href: ../financials/localizations/emea-cze-vat-statement-details.md
+            - name: Aastalõpu sulgemine
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: Taani
+          href: ../financials/localizations/denmark.md
+          items:
+            - name: Maksekviitungi vormingu määramine kliendikontole
+              href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
+            - name: Kliendiarve loomine ja sisestamine avaliku sektori kliendi jaoks
+              href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
+            - name: Vabas vormis arve loomine ja sisestamine avaliku sektori kliendi jaoks
+              href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
+            - name: Projektiarve loomine ja sisestamine avaliku sektori kliendi jaoks
+              href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
+            - name: OIOUBL-i elektroonilise arveldamise konfiguratsioonide importimine
+              href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+            - name: Vabas vormis arve sisestamine koos maksekviitungiga
+              href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
+            - name: Projektiarve sisestamine koos maksekviitungiga
+              href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
+            - name: Müügiarve sisestamine koos maksekviitungiga
+              href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
+            - name: Kliendikontode seadistamine OIOUBL-i elektrooniliseks arveldamiseks
+              href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
+            - name: OIOUBL-i elektroonilise arveldamise seadistamine
+              href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
+            - name: Maksekviitungi vormingu seadistamine
+              href: ../financials/localizations/tasks/set-up-payment-slip-format.md
+        - name: Eesti
+          href: ../financials/localizations/estonia.md
+          items:
+            - name: Isiklike andmete taotlused
+              href: ../financials/localizations/emea-est-personal-info.md
+            - name: KM-aruanne
+              href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Euroopa
+          href: ../financials/localizations/europe.md
           items:
             - name: Avansisaajad
               href: ../financials/localizations/emea-advance-holders.md
               items:
                 - name: Avansisaajate kanded
                   href: ../financials/localizations/emea-advance-holders-transactions.md
-            - name: Avansimakse töötajale (Ida-Euroopa)
-              href: ../financials/localizations/tasks/advance-payment-employee.md
+                - name: Avansimakse töövõtjale (Ida-Euroopa)
+                  href: ../financials/localizations/tasks/advance-payment-employee.md
             - name: Täpsem arveldamine
               href: ../financials/localizations/emea-advance-invoice.md
             - name: Pangakonto vastavusseviimine
@@ -1526,13 +1547,11 @@
               href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Varude sisemise üleviimise ülekandedokumendi koostamine
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
-            - name: EL-i Intrastati deklaratsiooni koostamine
-              href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: EL-i käibearuande koostamine
               href: ../financials/localizations/tasks/eur-00011-eu-sales-list-report.md
             - name: ISO20022-failid
               items:
-                - name: ISO20022 failide importimine
+                - name: ISO20022-failide importimine
                   href: ../financials/localizations/emea-ISO20022-file-formats.md
                 - name: ISO20022 otsekorralduse konfiguratsiooni importimine
                   href: ../financials/localizations/tasks/import-iso20022-direct-debit-configuration.md
@@ -1557,6 +1576,10 @@
               items:
                 - name: Kannete ülekandmine Intrastati
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
+                - name: Laadimisaadressi määramine ühendusesisesele kandele
+                  href: ../financials/localizations/tasks/eur-00002-specify-lading-address-intra-community.md
+                - name: EL-i Intrastati deklaratsiooni koostamine
+                  href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: Varude töölehe aruanded
               href: ../financials/localizations/emea-set-up-report-inventory-journal-names.md
             - name: Arve väljastamise tähtajad
@@ -1627,555 +1650,470 @@
                   href: ../financials/localizations/tasks/create-submit-vat-report.md
             - name: Kannete kuvamine tasakaalustamisel
               href: ../financials/localizations/emea-transactions-settlement-form.md
-            - name: Austria
-              href: ../financials/localizations/austria.md
-              items:
-                - name: Täiendavate soetamiste poolaasta kulum
-                  href: ../financials/localizations/emea-aut-half-year-depreciation.md
-                - name: Pakkematerjali maksud
-                  href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
-                - name: KM-aruanne
-                  href: ../financials/localizations/emea-aut-vat-statement-details.md
-            - name: Belgia
-              href: ../financials/localizations/belgium.md
-              items:
-                - name: CODA pangaväljavõte
-                  href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
-                - name: Kannete loomine ja edastamine BLWI-sse
-                  href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
-                - name: INTERVAT-i maksudeklaratsioon
-                  href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
-                - name: Vastavusseviimise aruanded
-                  href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: 'Maksesaldode aruandluse häälestamine '
-                  href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
-                - name: PRODCOM-i häälestus ja haldamine
-                  href: ../financials/localizations/emea-bel-prodcom-report.md
-            - name: Tšehhi Vabariik
-              href: ../financials/localizations/czech-republic.md
-              items:
-                - name: Skonto kreeditarve
-                  href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
-                - name: Põhivarad
-                  items:
-                    - name: Kulumi ümardamine
-                      href: ../financials/localizations/emea-cze-depreciation-rounding.md
-                    - name: Põhivara poolaasta kulum
-                      href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
-                    - name: Kulumi peatamine (pühad)
-                      href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
-                    - name: Põhivarade kulumiarvestusmeetodid
-                      href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
-                    - name: Eelsoetuse sisestamine
-                      href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
-                - name: Perioodiliste töölehtede sisestamine
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Allkirjastajate häälestamine prindivormide jaoks
-                  href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
-                - name: Perioodide tükeldamine perioodilistes töölehtedes
-                  href: ../financials/localizations/emea-create-post-periodic-journals.md
-                - name: Aruannetes ja dokumentides summade kuvamise viisi värskendamine
-                  href: ../financials/localizations/emea-amount-printing-forms.md
-                - name: KM-aruanne
-                  href: ../financials/localizations/emea-cze-vat-statement-details.md
-                - name: Aastalõpu sulgemine
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: Taani
-              href: ../financials/localizations/denmark.md
-              items:
-                - name: Maksekviitungi vormingu määramine kliendikontole
-                  href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
-                - name: Kliendiarve loomine ja sisestamine avaliku sektori kliendi jaoks
-                  href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
-                - name: Vabas vormis arve loomine ja sisestamine avaliku sektori kliendi jaoks
-                  href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
-                - name: Projektiarve loomine ja sisestamine avaliku sektori kliendi jaoks
-                  href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
-                - name: OIOUBL-i elektroonilise arveldamise konfiguratsioonide importimine
-                  href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
-                - name: Vabas vormis arve sisestamine koos maksekviitungiga
-                  href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
-                - name: Projektiarve sisestamine koos maksekviitungiga
-                  href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
-                - name: Müügiarve sisestamine koos maksekviitungiga
-                  href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
-                - name: Kliendikontode seadistamine OIOUBL-i elektrooniliseks arveldamiseks
-                  href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
-                - name: OIOUBL-i elektroonilise arveldamise seadistamine
-                  href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
-                - name: Maksekviitungi vormingu seadistamine
-                  href: ../financials/localizations/tasks/set-up-payment-slip-format.md
-            - name: Eesti
-              href: ../financials/localizations/estonia.md
-              items:
-                - name: Isiklike andmete taotlused
-                  href: ../financials/localizations/emea-est-personal-info.md
-                - name: KM-aruanne
-                  href: ../financials/localizations/emea-est-vat-statement-details.md
-            - name: Prantsusmaa
-              href: ../financials/localizations/france.md
-              items:
-                - name: Avalik sektor
-                  items:
-                    - name: Avaliku sektori raamatupidamine
-                      href: ../financials/localizations/emea-fra-public-sector-accounting.md
-                    - name: Kohustused
-                      href: ../financials/localizations/emea-fra-commitments-public-sector.md
-                    - name: Mandats de paiement
-                      href: ../financials/localizations/emea-fra-mandats-de-paiement.md
-                    - name: Hange
-                      href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
-                    - name: Titres de recette
-                      href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
-                    - name: Hankija arve maksete ootelolekud
-                      href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
-                - name: Koostatud käskveksli kinnitamine ja sisestamine
-                  href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
-                - name: Kronoloogilises järjekorras arvete kanded
-                  href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Prantsusmaa standardse auditifaili loomine (FEC)
-                  href: ../financials/localizations/emea-fra-fec-audit-file.md
-                - name: Kliendi ja hankija kontoväljavõtted
-                  href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
-                - name: Igapäevane intressiarvutus hilinenud makse ja tervikväljamakse jaoks arvel ning märgukirjal
-                  href: ../financials/localizations/tasks/fr-00018-daily-interest.md
-                - name: Erandlik kulum
-                  href: ../financials/localizations/emea-fra-derogatory-depreciation.md
-                - name: Prantsusmaa käskvekslid ja võlatähed
-                  href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
-                - name: NAF-koodid ja siret-numbrid
-                  href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
-                - name: NAF-koodide ja siret-numbrite seadistamine
-                  href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
-                - name: Tähtaja ületanud kliendimaksete karistused
-                  href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
-                - name: Vaidlustatud väljaantud käskveksli töölehe sisestamine
-                  href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
-                - name: Uuesti väljaantud käskvekslite töölehe sisestamine
-                  href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
-                - name: Tervikväljamakse teksti printimine kliendiarvele
-                  href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
-                - name: RB-/SL-kulum
-                  href: ../financials/localizations/emea-fra-rbsl-depreciation.md
-                - name: Seadista makseviis
-                  href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
-                - name: Kliendi makseviisi uuendamine
-                  href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: Jaemüük
-                  items:
-                    - name: Kassaaparaadid
-                      href: ../retail/localizations/emea-fra-cash-registers.md
-                    - name: Kassaaparaatide juurutamise juhised
-                      href: ../retail/localizations/emea-fra-deployment.md
-            - name: Saksamaa
-              href: ../financials/localizations/germany.md
-              items:
-                - name: Täiendavate soetamiste kulum
-                  href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: Auditifail
-                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
-                  items:
-                    - name: Auditifaili konfiguratsiooni kohandamine
-                      href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Auditifaili genereerimine
-                      href: ../financials/localizations/tasks/german-audit-file.md
-                    - name: Auditifaili konfiguratsiooni importimine
-                      href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
-                - name: Täiendavate soetamiste kulumi korrigeerimised teisel aastal
-                  href: ../financials/localizations/tasks/de-00002-depreciation.md
-                - name: Käibemaksudeklaratsiooni (ELSTER) elektrooniline edastamine
-                  href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
-                - name: Tööleheloendi aruanne
-                  href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: Elektroonilise maksudeklaratsioonide seadistamine
-                  href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
-            - name: Ungari
-              href: ../financials/localizations/hungary.md
-              items:
-                - name: Vahetuskursi arvutamine
-                  href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
-                - name: Põhivarade kulumiarvestuse meetodid
-                  href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
-                - name: Allahinnatud põhivarad
-                  href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
-                - name: Põhivara teisaldamine varudesse
-                  href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
-                - name: Maksu korvamisdokumendid
-                  href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
-                - name: Aastalõpu sulgemine
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: Island
-              href: ../financials/localizations/iceland.md
-              items:
-                - name: Hankija konto loomine ja arve deklaratsiooni kategooria manustamine
-                  href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
-                - name: Hankijate arvedeklaratsiooni seadistamine
-                  href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
-                - name: Kohustuslike makseviidete seadistamine
-                  href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
-                - name: Hankija arvedeklaratsioonide uuendamine ja aruande genereerimine
-                  href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
-            - name: Itaalia
-              href: ../financials/localizations/italy.md
-              items:
-                - name: KM-aruannete üksikasjad
-                  href: ../financials/localizations/emea-ita-vat-statements-details.md
-                - name: Musta loendi aruanne
-                  href: ../financials/localizations/emea-ita-black-list-report.md
-                - name: Pädevuskuupäev
-                  href: ../financials/localizations/emea-ita-competence-date.md
-                - name: Põhivarade kulum
-                  href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
-                - name: Modello 770
-                  href: ../financials/localizations/emea-ita-modello770.md
-                - name: Saatelehe kuupäeva kinnitamine arvetel
-                  href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
-                - name: Transpordi tarne üksikasjadega saatelehe sisestamine ja printimine
-                  href: ../financials/localizations/emea-ita-packing-slip.md
-                - name: Käibemaksuregistrid
-                  href: ../financials/localizations/emea-ita-fiscal-books.md
-                - name: Tükeldatud makse avalikule haldusele väljastatud arvete korral
-                  href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
-                - name: Kinnipeetav maks
-                  href: ../financials/localizations/emea-ita-withholding-tax.md
-            - name: Läti
-              href: ../financials/localizations/latvia.md
-              items:
-                - name: Põhivarade raamatupidamine
-                  href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
-                - name: Põhivarade asukoha muudatuse jälgimine
-                  href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
-                - name: Arve ja saatelehe nummerdamine
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: Loodusvarade maksu aruanne
-                  href: ../financials/localizations/emea-lva-tax-natural-resources.md
-                - name: KM-aruande üksikasjad
-                  href: ../financials/localizations/emea-lva-vat-statement-details.md
-            - name: Leedu
-              href: ../financials/localizations/lithuania.md
-              items:
-                - name: Põhivara paranduse väljavõte
-                  href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
-                - name: Põhivara ladude vahelise üleviimise dokumendi genereerimine
-                  href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: Arve ja saatelehe nummerdamine
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: KM-aruande üksikasjad
-                  href: ../financials/localizations/emea-ltu-vat-statement-details.md
-            - name: Holland
-              href: ../financials/localizations/netherlands.md
-              items:
-                - name: Elektroonilised maksudeklaratsioonid (EVAT)
-                  href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
-                - name: Semansys XBRL-i integreerimine
-                  href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
-            - name: Norra
-              href: ../financials/localizations/norway.md
-              items:
-                - name: Kliendi ja hankija maksevormingud
-                  href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
-                - name: Makse ID-l põhinev kliendimakse
-                  href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
-                - name: Netsi impordivorming
-                  href: ../financials/localizations/emea-nor-nets-import-format.md
-                - name: KM-aruanne
-                  href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
-                - name: Kassaaparaadid
-                  href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Kassaaparaatide juurutamise juhised
-                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Poola
-              href: ../financials/localizations/poland.md
-              items:
-                - name: Ühiku hinnast rea allahindluste arvutamine
-                  href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
-                - name: Parandusõiendid
-                  href: ../financials/localizations/emea-pol-correction-notes.md
-                - name: Müügiarve duplikaadi nummerdamine
-                  href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
-                - name: Põhivara kulum
-                  href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
-                - name: Põhivara likvideerimise funktsiooni laiendus
-                  href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
-                - name: Tagastatav pakend
-                  href: ../financials/localizations/emea-pol-returnable-packages.md
-                - name: Käibemaksuaruanded
-                  href: ../financials/localizations/emea-pol-sales-tax-reports.md
-                - name: Standardne auditifail
-                  href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
-                - name: Maksuintress ja vaba viivis
-                  href: ../financials/localizations/emea-pol-interest-calculation.md
-                - name: Käibe saldoväljavõte
-                  href: ../financials/localizations/emea-pol-turnover-balances-statement.md
-            - name: Hispaania
-              href: ../financials/localizations/spain.md
-              items:
-                - name: Arvele skontode rakendamine
-                  href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
-                - name: Käskveksli valikud
-                  href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
-                - name: Tingimuslik käibemaks
-                  href: ../financials/localizations/emea-esp-conditional-sales-tax.md
-                - name: Krediitarveldus
-                  href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
-                - name: Arvekonto finantsandmed
-                  href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
-                - name: Põhivaragrupi ümberhindamine
-                  href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
-                - name: ELi sisene KM
-                  href: ../financials/localizations/emea-esp-intra-community-vat.md
-                - name: Ühekordsed kliendid
-                  href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
-                - name: Tšekkide printimine Hispaania paigutusega
-                  href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
-                - name: Võlatähe valikud
-                  href: ../financials/localizations/emea-esp-promissory-note-options.md
-                - name: Aruanne 340
-                  href: ../financials/localizations/emea-esp-report-340.md
-                - name: Müügi- ja ostutsüklid
-                  href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
-                - name: Erikanded ja avamislehed
-                  href: ../financials/localizations/emea-esp-opening-sheets-spain.md
-            - name: Rootsi
-              href: ../financials/localizations/sweden.md
-              items:
-                - name: Rahandusteabe eksportimine audiitoritele Rootsis
-                  href: ../financials/localizations/emea-swe-sie-standard-report.md
-                - name: Maksevormingute importimine
-                  href: ../financials/localizations/emea-swe-payment-formats-import.md
-                - name: Kassaaparaadid
-                  href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
-            - name: Šveits
-              href: ../financials/localizations/switzerland.md
-              items:
-                - name: Kliendimaksete importimine ESR-is
-                  href: ../financials/localizations/emea-che-esr-customer-payments-import.md
-            - name: Ühendkuningriik
-              href: ../financials/localizations/united-kingdom.md
-              items:
-                - name: Ehitustööstuse skeem
-                  href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: Kreediti loomine tasakaalustuse allahindlusele
-                  href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: Pöördkäibemaksuga maksustatavaid kaupu sisaldava ostutellimuse loomine
-                  href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: Pöördkäibemaksuga maksustatavaid kaupu sisaldava müügitellimuse loomine
-                  href: ../financials/localizations/tasks/gb-00002-sales-order.md
-                - name: Kauba käibemaksugruppide seadistamine pöördkäibemaksu jaoks
-                  href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: 'Pöördkäibemaksu kaubagruppide, reeglite ja parameetrite seadistamine'
-                  href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: Käibemaksugruppide seadistamine pöördkäibemaksu jaoks
-                  href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-        - name: Ladina-Ameerika
+        - name: Prantsusmaa
+          href: ../financials/localizations/france.md
           items:
-            - name: Brasiilia
-              href: ../financials/localizations/brazil.md
+            - name: Avalik sektor
               items:
-                - name: Lokaliseerimise ulatus
-                  href: ../financials/localizations/latam-bra-scope.md
-                - name: Finantsraamatud
-                  href: ../financials/localizations/latam-bra-fiscal-books.md
-                  items:
-                    - name: Finantsraamatute konfigureerimine
-                      href: ../financials/localizations/latam-bra-configure-fiscal-books.md
-                    - name: ICMS-maksustamise finantsdokumendid
-                      href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
-                    - name: Finantsdokumentide importimine
-                      href: ../financials/localizations/latam-bra-import-fiscal-documents.md
-                    - name: Juriidilise isiku üksuste eksportimine ja importimine pearaamatu konsolideerimisest
-                      href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
-                    - name: NF-e XML-dokumentide ja DANFE-failide importimine ning kinnitamine
-                      href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
-                    - name: Elektroonilise makse rahaülekannete töötlemine
-                      href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
-                    - name: Finantsdokumendid
-                      href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
-                    - name: Finantsdokumendi teksti kohatäited
-                      href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
-                    - name: Ostu täiendavad finantsdokumendid
-                      href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
-                    - name: Viidatud finantsdokumendid
-                      href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
-                    - name: Müüki täiendavad finantsdokumendid
-                      href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
-                    - name: Teenuse elektrooniline finantsdokument
-                      href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
-                    - name: Elektroonilise makse tagastusprotsessi ajal loodud töölehed
-                      href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
-                - name: NF-e protsess
-                  href: ../financials/localizations/latam-bra-nf-e-process.md
-                  items:
-                    - name: NF-e fiskaaldokumentide automaatne ülekandmine
-                      href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
-                    - name: Meilisõnumite koostamine kinnitatud NF-e jaoks ja DANFE PDF-failide ja NF-e XML-failide manustamine meilisõnumitele
-                      href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
-                    - name: NF-e serdid
-                      href: ../financials/localizations/latam-bra-nfe-certs.md
-                    - name: 'NF-e XML-dokumentide ja DANFE häälestamine, importimine ning kinnitamine'
-                      href: ../financials/localizations/latam-bra-set-up-import-nfe.md
-                    - name: NF-e üldparameetrite seadistamine
-                      href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
-                    - name: Maksuameti jaoks NF-e parameetrite seadistamine
-                      href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                - name: Parameetrid juriidiliste isikute jaoks
-                  href: ../financials/localizations/latam-bra-legal-entity-parameters.md
-                - name: CIAP põhivara soetamine
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: CIAP põhivara likvideerimine
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: Maksud
-                  href: ../financials/localizations/latam-bra-calculate-taxes.md
-                  items:
-                    - name: Maksu arvutamine ostupakkumistel
-                      href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
-                    - name: Maksuarvestuse loomine - ICMS
-                      href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
-                    - name: Maksuarvestuse loomine - IPI maks
-                      href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
-                    - name: Maksuarvestuse loomine - PIS-i ja COFINS-i maks
-                      href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
-                    - name: Maksu korrigeerimiskannete sisestamine
-                      href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
-                    - name: PIS-i ja COFINS-i maksu korrigeerimiskannete sisestamine
-                      href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
-                    - name: Maksuameti maksuatribuudid
-                      href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
-                    - name: ICMS-i maksu krediteerimise fiskaaldokumentide väljastamine
-                      href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
-                    - name: ICMS-i maksu kreeditkorralduse fiskaaldokumentide väljastamine
-                      href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
-                    - name: ICMS-i maksu jaoks korrigeerimiskoodide seadistamine
-                      href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
-                    - name: ICMS-i maksude korrigeerimiskoodide seadistamine fiskaaldokumentides
-                      href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
-                    - name: IPI-i maksude jaoks korrigeerimiskoodide seadistamine
-                      href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
-                    - name: PIS-i ja COFINS-i maksude jaoks korrigeerimiskoodide seadistamine
-                      href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
-                    - name: PIS-i ja COFINS-i tabelite seadistamine
-                      href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
-                    - name: Maksuarvestus ISS-i maksu puhul
-                      href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
-                    - name: Maksuatribuudid
-                      href: ../financials/localizations/latam-bra-tax-attributes.md
-                    - name: Maksu maksmised
-                      href: ../financials/localizations/latam-bra-tax-payments.md
-                    - name: Maks müügipakkumistel
-                      href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: 'Kinnipeetavad maksud '
-                      href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
-                    - name: Kliendimaksetelt kinnipeetavad maksud
-                      href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
-                    - name: Hankijamaksetelt kinni peetavad maksud
-                      href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
-                - name: 'Brasiilia: tegevused'
-                  items:
-                    - name: Juriidilise isiku parameetrite seadistamine
-                      href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
-                    - name: Fiskaaldokumendi lähteteksti seadistamine
-                      href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
-                    - name: Hankija fiskaaldokumentide vastuvõtmine (põhivarad – PIS ja COFINS pikaajaline taastatav)
-                      href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
-                    - name: Hankija fiskaaldokumentide vastuvõtmine (tooted)
-                      href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
-                    - name: Ostu täiendava fiskaaldokumendi loomine ja sisestamine
-                      href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
-                    - name: Ostu täiendava fiskaaldokumendi tühistamine
-                      href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
-                    - name: Hankijate fiskaaldokumentide väljastamine
-                      href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
-                    - name: Klientide fiskaaldokumentide väljastamine
-                      href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
-                    - name: Saatelehed
-                      href: ../financials/localizations/tasks/br-00041-delivery-slip.md
-                    - name: Muud tasud vabas vormis arvetel
-                      href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
-                    - name: Müüki täiendava fiskaaldokumendi loomine ja sisestamine
-                      href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
-                    - name: Müüki täiendava fiskaaldokumendi tühistamine
-                      href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
-                    - name: Elektroonilise fiskaaldokumendi teenindamine tekstifailide abil
-                      href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
-                    - name: Hankijamaksete intresside ja trahvide seadistamine
-                      href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
-                    - name: Hankijamaksete intresside ja trahvide arvutamine
-                      href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
-                    - name: Kliendimaksete intresside ja trahvide seadistamine
-                      href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
-                    - name: Kliendimaksete intresside ja trahvide arvutamine
-                      href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-                    - name: Elektrooniline maksehaldus hankijamaksete puhul
-                      href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
-                    - name: Projekti deebetaviisid
-                      href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
-                    - name: Fiskaaldokumendi teksti haldamine hankedokumentides
-                      href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
-                    - name: Hankija fiskaaldokumentide vastuvõtmine (põhivarad – ICMS pikaajaline taastatav)
-                      href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
-                    - name: Klientide fiskaaldokumentide väljastamine (teenused)
-                      href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
-                    - name: Klientide fiskaaldokumentide väljastamine (põhivarad)
-                      href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
-                    - name: Klientide fiskaaldokumentide väljastamine (projekt)
-                      href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
-                    - name: Klientide fiskaaldokumentide väljastamine (lõppkasutajatele)
-                      href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
-                    - name: Klientide fiskaaldokumentide väljastamine (SUFRAMA klientidele)
-                      href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
-                    - name: Kliendi fiskaaldokumendi tühistamine (projekt)
-                      href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
-                    - name: Mitterahalised toimingud
-                      href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
-                    - name: CIAP kande sisestamine
-                      href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
-                    - name: CIAP kreeditsumma arvutamine
-                      href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
-                    - name: CIAP kreediti kaasamine eelmisest perioodist
-                      href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
-                    - name: PIS ja COFINS - põhivarad
-                      href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
-            - name: Mehhiko
-              href: ../financials/localizations/mexico.md
+                - name: Avaliku sektori raamatupidamine
+                  href: ../financials/localizations/emea-fra-public-sector-accounting.md
+                - name: Kohustused
+                  href: ../financials/localizations/emea-fra-commitments-public-sector.md
+                - name: Mandats de paiement
+                  href: ../financials/localizations/emea-fra-mandats-de-paiement.md
+                - name: Hange
+                  href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
+                - name: Titres de recette
+                  href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
+                - name: Hankija arve maksete ootelolekud
+                  href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
+            - name: Koostatud käskveksli kinnitamine ja sisestamine
+              href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
+            - name: Kronoloogilises järjekorras arvete kanded
+              href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
+            - name: Prantsusmaa standardse auditifaili loomine (FEC)
+              href: ../financials/localizations/emea-fra-fec-audit-file.md
+            - name: Kliendi ja hankija kontoväljavõtted
+              href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
+            - name: Igapäevane intressiarvutus hilinenud makse ja tervikväljamakse jaoks arvel ning märgukirjal
+              href: ../financials/localizations/tasks/fr-00018-daily-interest.md
+            - name: Erandlik kulum
+              href: ../financials/localizations/emea-fra-derogatory-depreciation.md
+            - name: Prantsusmaa käskvekslid ja võlatähed
+              href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+            - name: NAF-koodid ja siret-numbrid
+              href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
+            - name: NAF-koodide ja siret-numbrite seadistamine
+              href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
+            - name: Tähtaja ületanud kliendimaksete karistused
+              href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
+            - name: Vaidlustatud väljaantud käskveksli töölehe sisestamine
+              href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
+            - name: Uuesti väljaantud käskvekslite töölehe sisestamine
+              href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
+            - name: Tervikväljamakse teksti printimine kliendiarvele
+              href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
+            - name: RB-/SL-kulum
+              href: ../financials/localizations/emea-fra-rbsl-depreciation.md
+            - name: Seadista makseviis
+              href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
+            - name: Kliendi makseviisi uuendamine
+              href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
+            - name: Jaemüük
               items:
-                - name: Lokaliseerimise ulatus
-                  href: ../financials/localizations/latam-mex-scope.md
-                - name: Korrigeerimise inflatsiooni deklaratsiooni aruanne
-                  href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
-                - name: Elektroonilise arve tühistamine
-                  href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
-                - name: CFDI versioon 3.3
-                  href: ../financials/localizations/latam-mex-cfdi-3-3.md
-                - name: Kliendi registreerimisnumbrid ja muu teave
-                  href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
-                - name: DIOT-deklaratsiooni väljavõte
-                  href: ../financials/localizations/latam-mex-diot-declaration-statement.md
-                - name: 'E-arved: CFDI'
-                  href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: Elektroonilised arved
-                  href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: Pearaamatu elektroonilised arvestusväljavõtted
-                  href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
-                - name: Mehhiko juriidiliste isikute maksukohustuslase registreerimisnumbrite sisestamine
-                  href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
-                - name: Elektroonilise arve kohta päringu esitamine ja printimine
-                  href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
-                - name: ISR deklaratsiooni aruanne
-                  href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
-                - name: Vabas vormis arve sisestamine
-                  href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-                - name: Mehhiko elektroonilise pearaamatu arvestuse aruande versiooni 1.1 koostamine
-                  href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
-                - name: Elektroonilise arve parameetrite määramine
-                  href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
-                - name: Mehhiko käibemaksukoodide seadistamine
-                  href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
-                - name: Mehhiko juriidilise isiku kontoplaani seadistamine
-                  href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: RFC registreerimisnumbri määramine Mehhiko pangakontodele
-                  href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
-                - name: Hankijate registreerimisnumbrid
-                  href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+                - name: Kassaaparaadid
+                  href: ../retail/localizations/emea-fra-cash-registers.md
+                - name: Kassaaparaatide juurutamise juhised
+                  href: ../retail/localizations/emea-fra-deployment.md
+        - name: Saksamaa
+          href: ../financials/localizations/germany.md
+          items:
+            - name: Täiendavate soetamiste kulum
+              href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
+            - name: Auditifail
+              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
+              items:
+                - name: Auditifaili konfiguratsiooni kohandamine
+                  href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
+                - name: Auditifaili genereerimine
+                  href: ../financials/localizations/tasks/german-audit-file.md
+                - name: Auditifaili konfiguratsiooni importimine
+                  href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
+            - name: Täiendavate soetamiste kulumi korrigeerimised teisel aastal
+              href: ../financials/localizations/tasks/de-00002-depreciation.md
+            - name: Käibemaksudeklaratsiooni (ELSTER) elektrooniline edastamine
+              href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
+            - name: Tööleheloendi aruanne
+              href: ../financials/localizations/emea-deu-journal-list-report.md
+            - name: Elektroonilise maksudeklaratsioonide seadistamine
+              href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
+        - name: Ungari
+          href: ../financials/localizations/hungary.md
+          items:
+            - name: Vahetuskursi arvutamine
+              href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
+            - name: Põhivarade kulumiarvestuse meetodid
+              href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
+            - name: Allahinnatud põhivarad
+              href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
+            - name: Põhivara teisaldamine varudesse
+              href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
+            - name: Maksu korvamisdokumendid
+              href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
+            - name: Aastalõpu sulgemine
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: Island
+          href: ../financials/localizations/iceland.md
+          items:
+            - name: Hankija konto loomine ja arve deklaratsiooni kategooria manustamine
+              href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
+            - name: Hankijate arvedeklaratsiooni seadistamine
+              href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
+            - name: Kohustuslike makseviidete seadistamine
+              href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
+            - name: Hankija arvedeklaratsioonide uuendamine ja aruande genereerimine
+              href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
+        - name: India
+          href: ../financials/localizations/india.md
+          items:
+            - name: Põhivarad
+              href: ../financials/localizations/apac-ind-fixed-assets.md
+              items:
+                - name: Päevapõhise kalendri manustamine põhivararaamatule
+                  href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
+                - name: Vahetuskulumi arvestus
+                  href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
+                - name: Laomudeligrupi loomine kapitalikaupade jaoks
+                  href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
+                - name: Kulumi koostamine ja sisestamine
+                  href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
+                - name: Raamatute vahetuse ja valdkonna määratlemine ja põhivarale lisamine
+                  href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
+                - name: Põhivarakannete storno
+                  href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
+                - name: Vahetuskulumi arvestus
+                  href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
+                - name: Päevapõhise rahanduskalendri häälestamine
+                  href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
+                - name: Parameetrite häälestamine kulumi arvutamiseks
+                  href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
+                - name: Varagrupi kulumi häälestamine kulumiraamatute jaoks
+                  href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                - name: Kapitalikaupade ülekanne põhivarasse
+                  href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
+            - name: India GST
+              href: ../financials/localizations/apac-ind-gst.md
+              items:
+                - name: India GST viitegrupid
+                  href: ../financials/localizations/apac-ind-gst-reference-groups.md
+                - name: Kassaaparaatide GST integreerimine
+                  href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: Kassaaparaatide juurutamise juhised
+              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+            - name: Maksumootori ülevaade
+              href: ../financials/general-ledger/tax-engine.md
+              items:
+                - name: Maksumootori integratsioon
+                  href: ../financials/general-ledger/tax-engine-integration.md
+                - name: Maksumootori laiendamine
+                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+            - name: Maksulävede KKK
+              href: ../financials/localizations/apac-ind-tax-thresholds.md
+        - name: Itaalia
+          href: ../financials/localizations/italy.md
+          items:
+            - name: KM-aruannete üksikasjad
+              href: ../financials/localizations/emea-ita-vat-statements-details.md
+            - name: Musta loendi aruanne
+              href: ../financials/localizations/emea-ita-black-list-report.md
+            - name: Pädevuskuupäev
+              href: ../financials/localizations/emea-ita-competence-date.md
+            - name: Põhivarade kulum
+              href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
+            - name: Modello 770
+              href: ../financials/localizations/emea-ita-modello770.md
+            - name: Saatelehe kuupäeva kinnitamine arvetel
+              href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
+            - name: Transpordi tarne üksikasjadega saatelehe sisestamine ja printimine
+              href: ../financials/localizations/emea-ita-packing-slip.md
+            - name: Käibemaksuregistrid
+              href: ../financials/localizations/emea-ita-fiscal-books.md
+            - name: Tükeldatud makse avalikule haldusele väljastatud arvete korral
+              href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
+            - name: Maksu kinnipidamine
+              href: ../financials/localizations/emea-ita-withholding-tax.md
+        - name: Jaapan
+          href: ../financials/localizations/japan.md
+          items:
+            - name: Põhivara soetamine ja valitsuse toetuse taotlemine
+              href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
+            - name: Põhivara soetamine vara käibelt kõrvaldamise kohustustega
+              href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
+            - name: Vara käibelt kõrvaldamise kohustuse hinnangu korrigeerimine
+              href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
+            - name: Ühiste vahendite ja maineväärtuse bilansilise väärtuse eraldamine sularaha genereerivatele üksustele
+              href: ../financials/localizations/tasks/allocate-carrying-amount.md
+            - name: Eraldusreeglid
+              href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
+            - name: Hankijate kaetavad pangamaksete tasud
+              href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
+            - name: Raamatu kulumiarvestusmeetodi muutmine vara elutsükli jooksul
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
+            - name: Ühe vara kulumiarvestusmeetodi muutmine vara elutsükli jooksul
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
+            - name: Kiirendatud kulumi parameetrite ja sisestusreeglite konfigureerimine
+              href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
+            - name: Koondarve parameetrite ja ostureskontro seadistuse konfigureerimine
+              href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
+            - name: Täiendava kulumi reeglite ja sisestusreeglite konfigureerimine
+              href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
+            - name: Vara käibelt kõrvaldamise kohustuse sisestamise ja turu allahindlusmäärade jaoks põhikontode konfigureerimine
+              href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
+            - name: Koondarved
+              href: ../financials/localizations/apac-jpn-consolidate-invoices.md
+            - name: Lisakulumiga põhivara loomine
+              href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
+            - name: Põhivara loomine spetsiaalse kulumireegliga
+              href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
+            - name: Kiirendatud kulumidokumendi loomine ja kasutusandmete sisestamine
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
+            - name: Kiirendatud kulumireegli loomine ja selle määramine raamatule
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
+            - name: Vähendamise sisestuse dokumendi loomine ja määramine valitsuse toetuse jaoks
+              href: ../financials/localizations/tasks/create-assign-reduction-document.md
+            - name: Seadmegrupi loomine ja määramine
+              href: ../financials/localizations/tasks/create-assign-equipment-group.md
+            - name: Kliendi koondarve loomine ja kinnitamine
+              href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
+            - name: Tuvastamistesti loomine ja kinnitamine
+              href: ../financials/localizations/tasks/create-confirm-recognition-test.md
+            - name: Hankija koondarve loomine ja kinnitamine
+              href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
+            - name: Raha genereerivate üksuste rühma ja raha genereerivate üksuste loomine
+              href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
+            - name: Tervikväljamakse kulumi varade loomine võrdselt jagatud meetodi abil
+              href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
+            - name: Vara jõudeperioodi määratlemine ja kulumiarvestuse protsessi kontrollimine
+              href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
+            - name: Varalt käibelt kõrvaldamise kohustuste jaoks intressikulu kulumiarvestus ja kumuleerimine
+              href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
+            - name: Põhivarade kulumiarvestus sisestatud vähendamiskandega
+              href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
+            - name: Kulumi KKK
+              href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
+            - name: Põhivara käibelt kõrvaldamine vähendamiskirjega
+              href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
+            - name: JBA maksefaili vormingu lubamine
+              href: ../financials/localizations/tasks/jba-payment-file-format.md
+            - name: Kulumimäära graafiku sisestamine ja seostamine kulumireeglitega
+              href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
+            - name: Võrdselt jagatud kulumiarvestuse meetod
+              href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
+            - name: Amortiseeritava maksu deklaratsiooni vorm 26
+              href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
+            - name: JBA-vorminguga EFT maksefaili genereerimine
+              href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
+            - name: Maksetasu genereerimine ja sisestamine
+              href: ../financials/localizations/tasks/post-payment-fee.md
+            - name: Tarbimismaksu aruande genereerimine
+              href: ../financials/localizations/tasks/japan-consumption-tax-report.md
+            - name: Kahjustuse arvestus raha genereerivas üksuses
+              href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
+            - name: Kahjustuse arvestus
+              href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
+            - name: Kliendimakse importimine JBA-failivormingus
+              href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
+            - name: Sihtnumbrite importimine
+              href: ../financials/localizations/apac-jpn-import-postal-codes.md
+            - name: Töölehe sisestamine T-konto vormi
+              href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
+            - name: Vara käibelt kõrvaldamise kohustuse kannete kohta päringu esitamine
+              href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
+            - name: Mahaarvatavade kulude kohta päringu esitamine
+              href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
+            - name: Töölehe maksetasude kohta päringu esitamine
+              href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
+            - name: Põhivara koondandmete failide haldamine mahaarvatavate kulude jaoks
+              href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
+            - name: Kahjustuse indikaatorite haldamine üksikute varade puhul
+              href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
+            - name: Hankijale tasumine käskveksli toetusega
+              href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
+            - name: Hankija kande tasumine käskveksli toetusega
+              href: ../financials/localizations/tasks/pay-vendor-transaction.md
+            - name: Üle- ja alakulumi perioodiline tasakaalustamine
+              href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
+            - name: Kinnipeetava maksu progressiivne arvutamine
+              href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
+            - name: Lisakulumi soovitamine
+              href: ../financials/localizations/tasks/propose-additional-depreciation.md
+            - name: Kiirendatud kulumi soovitamine ja sisestamine
+              href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
+            - name: Kahjustuse summa soovitamine ja sisestamine partii kaupa
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
+            - name: Kahjustuse summa soovitamine ja sisestamine põhivara töölehe abil
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
+            - name: Kahjustuse summa soovitamine ja sisestamine raha genereerivale üksusele
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
+            - name: Erikulumi soovitamine
+              href: ../financials/localizations/tasks/propose-special-depreciation.md
+            - name: Kliendi koondarve uuesti avamine ja redigeerimine
+              href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
+            - name: Hankija koondarve uuesti avamine ja redigeerimine
+              href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
+            - name: Kinnitatud käskveksli tühistamine
+              href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
+            - name: Tuvastamistesti käivitamine ja kahjustuse summa arvutamine üksikute varade puhul
+              href: ../financials/localizations/tasks/run-recognition-test-calculate.md
+            - name: Kliendi ja müügitellimuse seadistamine koondarvel sihina
+              href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
+            - name: ARO seadistamine
+              href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
+            - name: Vara käibelt kõrvaldamise kohustuse dokumentide seadistamine ja ARO summa sisestamine põhivara kohta
+              href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
+            - name: Koondarvete seadistamine
+              href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
+            - name: Kahjustuse raamatupidamise üldiste parameetrite ja sisestusreeglite seadistamine
+              href: ../financials/localizations/tasks/impairment-accounting.md
+            - name: Jaapani tarbimise maksuaruande seadistamine
+              href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
+            - name: Jaapani makse seadistamine kliendi käskveksli kinnitamise teel
+              href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
+            - name: Koondandmete seadistamine mahaarvatavate kulude kaasamiseks mitme sisestamiskihi puhul
+              href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
+            - name: Jaapani jaoks maksetasu seadistamine
+              href: ../financials/localizations/tasks/setup-payment-fee-japan.md
+            - name: Vähenduskannete häälestamine
+              href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
+            - name: Hankija koondandmete ja ostutellimuse seadistamine koondarve sihina
+              href: ../financials/localizations/tasks/vendor-master-po.md
+            - name: Kinnitatud käskveksli tasakaalustamine
+              href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
+            - name: Kliendi koondarvete tasakaalustamine maksetöölehe abil
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
+            - name: Kliendi koondarvete tasakaalustamine kannete tasakaalustamise abil
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
+            - name: Hankija koondarvete tasakaalustamine maksetöölehe abil
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
+            - name: Hankija koondarvete tasakaalustamine kannete tasakaalustamise abil
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
+            - name: Põhivarade komplekteerimisloendi kasutamine
+              href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
+            - name: Põhivarade osadeks jaotamise loendi kasutamine
+              href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
+        - name: Läti
+          href: ../financials/localizations/latvia.md
+          items:
+            - name: Põhivarade raamatupidamine
+              href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
+            - name: Põhivarade asukoha muudatuse jälgimine
+              href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
+            - name: Arve ja saatelehe nummerdamine
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: Loodusvarade maksu aruanne
+              href: ../financials/localizations/emea-lva-tax-natural-resources.md
+            - name: KM-aruande üksikasjad
+              href: ../financials/localizations/emea-lva-vat-statement-details.md
+        - name: Leedu
+          href: ../financials/localizations/lithuania.md
+          items:
+            - name: Põhivara paranduse väljavõte
+              href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
+            - name: Põhivara ladude vahelise üleviimise dokumendi genereerimine
+              href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
+            - name: Arve ja saatelehe nummerdamine
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: KM-aruande üksikasjad
+              href: ../financials/localizations/emea-ltu-vat-statement-details.md
+        - name: Malaisia
+          href: ../financials/localizations/malaysia.md
+          items:
+            - name: Kliendi kreediti genereerimine projektimüügi jaoks
+              href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
+            - name: Kliendi deebeti genereerimine projektimüügi jaoks
+              href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
+            - name: Kaupade ja teenuste maks (GST)
+              href: ../financials/localizations/apac-mys-gst.md
+            - name: GST – GAF-failide genereerimine nõutavas vormingus
+              href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
+            - name: Kliendi deebeti ja kreediti haldus GST jaoks
+              href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
+            - name: Hankija deebeti ja kreediti haldus GST jaoks
+              href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
+            - name: GST kliendiarvete printimine maksuvabastusklausliga
+              href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
+            - name: GST maksuarvete printimine
+              href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
+            - name: Isearveldatud arved
+              href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
+            - name: GST maksuvabastusklauslite seadistamine
+              href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
+        - name: Mehhiko
+          href: ../financials/localizations/mexico.md
+          items:
+            - name: Lokaliseerimise ulatus
+              href: ../financials/localizations/latam-mex-scope.md
+            - name: Korrigeerimise inflatsiooni deklaratsiooni aruanne
+              href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
+            - name: Elektroonilise arve tühistamine
+              href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
+            - name: CFDI versioon 3.3
+              href: ../financials/localizations/latam-mex-cfdi-3-3.md
+            - name: Kliendi registreerimisnumbrid ja muu teave
+              href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
+            - name: DIOT-deklaratsiooni väljavõte
+              href: ../financials/localizations/latam-mex-diot-declaration-statement.md
+            - name: 'E-arved: CFDI'
+              href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
+            - name: Elektroonilised arved
+              href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
+            - name: Pearaamatu elektroonilised arvestusväljavõtted
+              href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
+            - name: Mehhiko juriidiliste isikute maksukohustuslase registreerimisnumbrite sisestamine
+              href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
+            - name: Elektroonilise arve kohta päringu esitamine ja printimine
+              href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
+            - name: ISR deklaratsiooni aruanne
+              href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
+            - name: Vabas vormis arve sisestamine
+              href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
+            - name: Mehhiko elektroonilise pearaamatu arvestuse aruande versiooni 1.1 koostamine
+              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
+            - name: Elektroonilise arve parameetrite määramine
+              href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
+            - name: Mehhiko käibemaksukoodide seadistamine
+              href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
+            - name: Mehhiko juriidilise isiku kontoplaani seadistamine
+              href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
+            - name: RFC registreerimisnumbri määramine Mehhiko pangakontodele
+              href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
+            - name: Hankijate registreerimisnumbrid
+              href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+        - name: Holland
+          href: ../financials/localizations/netherlands.md
+          items:
+            - name: Elektroonilised maksudeklaratsioonid (EVAT)
+              href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
+            - name: Semansys XBRL-i integreerimine
+              href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
+        - name: Norra
+          href: ../financials/localizations/norway.md
+          items:
+            - name: Kliendi ja hankija maksevormingud
+              href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
+            - name: Makse ID-l põhinev kliendimakse
+              href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
+            - name: Netsi impordivorming
+              href: ../financials/localizations/emea-nor-nets-import-format.md
+            - name: KM-aruanne
+              href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
+            - name: Kassaaparaadid
+              href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: Kassaaparaatide juurutamise juhised
+              href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+        - name: Poola
+          href: ../financials/localizations/poland.md
+          items:
+            - name: Ühiku hinnast rea allahindluste arvutamine
+              href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
+            - name: Parandusõiendid
+              href: ../financials/localizations/emea-pol-correction-notes.md
+            - name: Müügiarve duplikaadi nummerdamine
+              href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
+            - name: Põhivara kulum
+              href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
+            - name: Põhivara likvideerimise funktsiooni laiendus
+              href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Tagastatav pakend
+              href: ../financials/localizations/emea-pol-returnable-packages.md
+            - name: Käibemaksuaruanded
+              href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Standardne auditifail
+              href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
+            - name: Maksuintress ja vaba viivis
+              href: ../financials/localizations/emea-pol-interest-calculation.md
+            - name: Käibe saldoväljavõte
+              href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Saudi Araabia
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2183,6 +2121,82 @@
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Saudi Araabia Zakat-aruandlus
               href: ../financials/localizations/emea-sau-zakat-reporting.md
+        - name: Singapur
+          href: ../financials/localizations/singapore.md
+          items:
+            - name: GST-05 aruande loomine
+              href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
+        - name: Hispaania
+          href: ../financials/localizations/spain.md
+          items:
+            - name: Arvele skontode rakendamine
+              href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
+            - name: Käskveksli valikud
+              href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Tingimuslik käibemaks
+              href: ../financials/localizations/emea-esp-conditional-sales-tax.md
+            - name: Krediitarveldus
+              href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
+            - name: Arvekonto finantsandmed
+              href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
+            - name: Põhivaragrupi ümberhindamine
+              href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
+            - name: ELi sisene KM
+              href: ../financials/localizations/emea-esp-intra-community-vat.md
+            - name: Ühekordsed kliendid
+              href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
+            - name: Tšekkide printimine Hispaania paigutusega
+              href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
+            - name: Võlatähe valikud
+              href: ../financials/localizations/emea-esp-promissory-note-options.md
+            - name: Aruanne 340
+              href: ../financials/localizations/emea-esp-report-340.md
+            - name: Müügi- ja ostutsüklid
+              href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
+            - name: Erikanded ja avamislehed
+              href: ../financials/localizations/emea-esp-opening-sheets-spain.md
+        - name: Rootsi
+          href: ../financials/localizations/sweden.md
+          items:
+            - name: Rahandusteabe eksportimine audiitoritele Rootsis
+              href: ../financials/localizations/emea-swe-sie-standard-report.md
+            - name: Maksevormingute importimine
+              href: ../financials/localizations/emea-swe-payment-formats-import.md
+            - name: Kassaaparaadid
+              href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: Šveits
+          href: ../financials/localizations/switzerland.md
+          items:
+            - name: Kliendimaksete importimine ESR-is
+              href: ../financials/localizations/emea-che-esr-customer-payments-import.md
+        - name: Tai
+          href: ../financials/localizations/thailand.md
+          items:
+            - name: Laokaardi aruanded
+              href: ../financials/localizations/apac-tha-stock-card-reports.md
+            - name: Maksuarve asendamine/korrigeerimine
+              href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
+            - name: Realiseerimata ostu käibemaks
+              href: ../financials/localizations/apac-tha-unrealized-vat.md
+            - name: Maksu kinnipidamine
+              href: ../financials/localizations/apac-tha-withholding-tax.md
+        - name: Ühendkuningriik
+          href: ../financials/localizations/united-kingdom.md
+          items:
+            - name: Ehitustööstuse skeem
+              href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
+            - name: Kreediti loomine tasakaalustuse allahindlusele
+              href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
+            - name: Pöördkäibemaksuga maksustatavaid kaupu sisaldava ostutellimuse loomine
+              href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
+            - name: Pöördkäibemaksuga maksustatavaid kaupu sisaldava müügitellimuse loomine
+              href: ../financials/localizations/tasks/gb-00002-sales-order.md
+            - name: Kauba käibemaksugruppide seadistamine pöördkäibemaksu jaoks
+              href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+            - name: 'Pöördkäibemaksu kaubagruppide, reeglite ja parameetrite seadistamine'
+              href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+            - name: Käibemaksugruppide seadistamine pöördkäibemaksu jaoks
+              href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
         - name: USA
           href: ../financials/localizations/united-states.md
           items:
@@ -2195,12 +2209,20 @@
       items:
         - name: Inimressursside strateegia arendamine
           items:
+            - name: Eesmärkide loomine
+              href: hr/tasks/create-goal.md
             - name: 'Tööjõu korraldamine osakondade, tööde ja ametikohtade abil'
               href: ../talent/departments-jobs-positions.md
             - name: Töökomponentide häälestamine
               href: ../talent/create-job.md
+            - name: Uute osakondade määratlemine
+              href: hr/tasks/define-new-departments.md
+            - name: Uute tööde määratlemine
+              href: hr/tasks/define-new-jobs.md
             - name: Osakonna loomine ja selle seostamine osakonnahierarhiaga
               href: ../talent/create-department-add-department-hierarchy.md
+            - name: Kalendrite loomine ja tööaegade genereerimine
+              href: hr/tasks/create-calendar-working-times.md
             - name: Juriidilistele isikutele inimressursside parameetrite seadistamine
               href: ../talent/set-up-hr-parameters-across-legal-entities.md
             - name: Ettevõttekohaste inimressursside parameetrite seadistamine
@@ -2209,12 +2231,46 @@
               href: ../talent/personnel-actions-faq.md
             - name: Töövoo kasutamine töövõtja teabe haldamiseks
               href: ../talent/workflow-manage-employee-information.md
+            - name: Ametikohtade aruandlusseoste muutmine
+              href: hr/tasks/modify-reporting-relationships-position.md
+            - name: Avalduste sisendkausta kirjete kinnitamine
+              href: hr/tasks/approve-application-inbox-records.md
+            - name: Töötaja andmete sisestamine
+              href: hr/tasks/enter-worker-information.md
+            - name: Töötajatele asjade laenamine
+              href: hr/tasks/loan-item-worker.md
+            - name: Laenuartiklite loomine
+              href: hr/tasks/create-loan-items.md
+            - name: Töötajatele laenatud artiklite haldamine
+              href: ../talent/loan-items.md
+            - name: Järgnevusplaani arendamine
+              href: hr/tasks/develop-succession-plan.md
+            - name: Projekti ajatabelite sisestamine
+              href: hr/tasks/enter-project-timesheets.md
+            - name: Meilimallide haldamine
+              href: hr/tasks/manage-email-templates.md
+            - name: Puhkuste haldamine
+              href: hr/tasks/manage-leave-absence.md
         - name: Värbamine
           items:
             - name: Värbamisprotsesside haldus
               href: hr/manage-recruiting-process.md
             - name: Hulgivärbamisprojektid
               href: hr/mass-hire-projects.md
+            - name: Hulgivärbamisprojektide loomine
+              href: hr/tasks/create-mass-hire-project.md
+            - name: Kandidaadi ja avalduse andmete käsitsi sisestamine
+              href: hr/tasks/enter-applicant-application-data-manually.md
+            - name: Töötaotluste arendamine ja avamine
+              href: hr/tasks/develop-open-job-requisition.md
+            - name: Ametikohtade seadistamine
+              href: hr/tasks/set-up-positions.md
+            - name: Kandidaatide palkamine värbamise kaudu
+              href: hr/tasks/hire-candidate-through-recruiting.md
+            - name: Olemasolevate töötajate palkamine värbamise kaudu
+              href: hr/tasks/hire-existing-employee-through-recruiting.md
+            - name: Kandidaatide valikutööriistade tuvastamine ja juurutamine
+              href: hr/tasks/identify-deploy-candidate-selection-tools.md
         - name: Töötajate motiveerimine
           items:
             - name: Hüvitusplaanid
@@ -2223,8 +2279,22 @@
               href: ../talent/create-fixed-compensation-plans.md
             - name: Ergutussüsteemi plaanide loomine
               href: ../talent/create-variable-compensation-plans.md
+            - name: Hüvitusprotsesside määratlemine ja tulemuste arvutamine
+              href: hr/tasks/define-compensation-process-calculate-results.md
             - name: Hüvitusprotsess
               href: ../talent/process-compensation.md
+            - name: Hüvitusruudustike seadistamine
+              href: hr/tasks/set-up-compensation-grids.md
+            - name: Palga/hüvituse struktuuride ja plaanide arendamine
+              href: hr/tasks/develop-salary-compensation-structure-plan.md
+            - name: Jõudluse töölehele teabe lisamine ja tänu saatmine
+              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
+            - name: Töötajate registreerimine põhipalga plaanis
+              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
+            - name: Töötajate registreerimine tulemustasu plaanis
+              href: hr/tasks/enroll-employee-variable-compensation-plan.md
+            - name: Jõudluse ülevaadete loomine
+              href: hr/tasks/create-performance-review.md
         - name: Töötajate arendamine ja koolitamine
           items:
             - name: Jõudlushalduse ülevaade
@@ -2239,8 +2309,18 @@
               href: ../talent/manage-benefit-program.md
             - name: Soodustuse saamise õiguse eeskirjad
               href: ../talent/benefit-eligibility-policies.md
-            - name: Töötajatele laenatud artiklite haldamine
-              href: ../talent/loan-items.md
+            - name: Soodustuskõlblikkuse töötlemine
+              href: hr/tasks/benefit-eligibility-process.md
+            - name: Soodustuskõlblikkuse reeglite ja poliitikate määratlemine
+              href: hr/tasks/define-benefit-eligibility-rules-policies.md
+            - name: Töötaja soodustuste programmi pakkumine
+              href: hr/tasks/deliver-employee-benefits-program.md
+            - name: Uute soodustuste loomine
+              href: hr/tasks/create-new-benefit.md
+            - name: Töötajate soodustuste registreerimine ja töötajatelt soodustuste eemaldamine
+              href: hr/tasks/enroll-remove-benefits-workers.md
+            - name: Soodustuste aegumiskuupäevade haldamine
+              href: hr/tasks/manage-benefit-expiration-dates.md
         - name: Teabe kogumine küsimustike abil
           items:
             - name: Küsimustikud
@@ -2249,8 +2329,18 @@
               href: ../talent/design-questionnaires.md
             - name: Küsimustiku laialisaatmine ja täitmine
               href: ../talent/distribute-questionnaires.md
+            - name: Küsimustike levitamine ajastamise abil
+              href: hr/tasks/distribute-questionnaires-scheduling.md
             - name: Küsimustiku tulemuste hindamine
               href: ../talent/evaluate-questionnaire-results.md
+            - name: Küsimustiku tulemuste analüüsimine
+              href: hr/tasks/analyze-questionnaire-results.md
+            - name: Avatud küsimuste loomine
+              href: hr/tasks/create-open-ended-question.md
+            - name: Suletud küsimuste loomine
+              href: hr/tasks/create-closed-ended-question.md
+            - name: Eelmise küsimuse vastustest sõltuva küsimuse koostamine
+              href: hr/tasks/make-question-dependent-answer-previous-question.md
         - name: Töökoha ohutus ja nõuetele vastavus (Ameerika Ühendriigid)
           items:
             - name: Vormi I-9 kinnitamine
@@ -2263,6 +2353,10 @@
               href: hr/localizations/noam-usa-comply-ada.md
             - name: Töötajate majutuse haldamine
               href: hr/localizations/tasks/manage-worker-accommodations.md
+            - name: Saate häälestada vigastuste ja haiguste teavet.
+              href: hr/tasks/set-up-injury-illness-information.md
+            - name: Töötajate vigastuste ja haiguste teabe haldamine
+              href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: USA palk
           href: hr/localizations/noam-usa-payroll.md
           items:
@@ -2331,89 +2425,7 @@
                   href: hr/localizations/noam-usa-payroll-data-updates.md
                 - name: Standardsed palgaaruanded
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
-        - name: Inimressursside ülesanded
-          items:
-            - name: Jõudluse töölehele teabe lisamine ja tänu saatmine
-              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
-            - name: Küsimustiku tulemuste analüüsimine
-              href: hr/tasks/analyze-questionnaire-results.md
-            - name: Avalduste sisendkausta kirjete kinnitamine
-              href: hr/tasks/approve-application-inbox-records.md
-            - name: Soodustuskõlblikkuse töötlemine
-              href: hr/tasks/benefit-eligibility-process.md
-            - name: Kalendrite loomine ja tööaegade genereerimine
-              href: hr/tasks/create-calendar-working-times.md
-            - name: Suletud küsimuste loomine
-              href: hr/tasks/create-closed-ended-question.md
-            - name: Eesmärkide loomine
-              href: hr/tasks/create-goal.md
-            - name: Laenuartiklite loomine
-              href: hr/tasks/create-loan-items.md
-            - name: Hulgivärbamisprojektide loomine
-              href: hr/tasks/create-mass-hire-project.md
-            - name: Uute soodustuste loomine
-              href: hr/tasks/create-new-benefit.md
-            - name: Avatud küsimuste loomine
-              href: hr/tasks/create-open-ended-question.md
-            - name: Jõudluse ülevaadete loomine
-              href: hr/tasks/create-performance-review.md
-            - name: Soodustuskõlblikkuse reeglite ja poliitikate määratlemine
-              href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: Hüvitusprotsesside määratlemine ja tulemuste arvutamine
-              href: hr/tasks/define-compensation-process-calculate-results.md
-            - name: Uute osakondade määratlemine
-              href: hr/tasks/define-new-departments.md
-            - name: Uute tööde määratlemine
-              href: hr/tasks/define-new-jobs.md
-            - name: Töötaja soodustuste programmi pakkumine
-              href: hr/tasks/deliver-employee-benefits-program.md
-            - name: Töötaotluste arendamine ja avamine
-              href: hr/tasks/develop-open-job-requisition.md
-            - name: Palga/hüvituse struktuuride ja plaanide arendamine
-              href: hr/tasks/develop-salary-compensation-structure-plan.md
-            - name: Järgnevusplaani arendamine
-              href: hr/tasks/develop-succession-plan.md
-            - name: Küsimustike levitamine ajastamise abil
-              href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: Töötajate registreerimine põhipalga plaanis
-              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: Töötajate registreerimine tulemustasu plaanis
-              href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: Töötajate soodustuste registreerimine ja töötajatelt soodustuste eemaldamine
-              href: hr/tasks/enroll-remove-benefits-workers.md
-            - name: Kandidaadi ja avalduse andmete käsitsi sisestamine
-              href: hr/tasks/enter-applicant-application-data-manually.md
-            - name: Projekti ajatabelite sisestamine
-              href: hr/tasks/enter-project-timesheets.md
-            - name: Töötaja andmete sisestamine
-              href: hr/tasks/enter-worker-information.md
-            - name: Kandidaatide palkamine värbamise kaudu
-              href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: Olemasolevate töötajate palkamine värbamise kaudu
-              href: hr/tasks/hire-existing-employee-through-recruiting.md
-            - name: Kandidaatide valikutööriistade tuvastamine ja juurutamine
-              href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Töötajatele asjade laenamine
-              href: hr/tasks/loan-item-worker.md
-            - name: Töötajate vigastuste ja haiguste teabe haldamine
-              href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: Eelmise küsimuse vastustest sõltuva küsimuse koostamine
-              href: hr/tasks/make-question-dependent-answer-previous-question.md
-            - name: Soodustuste aegumiskuupäevade haldamine
-              href: hr/tasks/manage-benefit-expiration-dates.md
-            - name: Meilimallide haldamine
-              href: hr/tasks/manage-email-templates.md
-            - name: Puhkuste haldamine
-              href: hr/tasks/manage-leave-absence.md
-            - name: Ametikohtade aruandlusseoste muutmine
-              href: hr/tasks/modify-reporting-relationships-position.md
-            - name: Hüvitusruudustike seadistamine
-              href: hr/tasks/set-up-compensation-grids.md
-            - name: Saate häälestada vigastuste ja haiguste teavet.
-              href: hr/tasks/set-up-injury-illness-information.md
-            - name: Ametikohtade seadistamine
-              href: hr/tasks/set-up-positions.md
-    - name: Teave
+    - name: Analüüs
       href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Teabe juurdepääs ja aruandlus
@@ -3635,6 +3647,8 @@
               href: ../supply-chain/sales-marketing/tasks/register-sales-commissions.md
             - name: Müügi komisjonitasu reeglite seadistamine
               href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
+        - name: Kaubandushüvitis
+          href: ../supply-chain/sales-marketing/trade-allowance.md
     - name: Teenuste haldus
       href: ../supply-chain/service-management/service-management-home-page.md
       items:

@@ -263,7 +263,7 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Laiendite ülekatmise refaktooringu jaoks mudelipiirangute lõdvendamine
               href: extensibility/refactoring-over-layering.md
-        - name: Kuidas seda teha?
+        - name: Laiendite loomine
           items:
             - name: Väärtuste lisamine üksustele enums
               href: extensibility/add-enum-value.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: Versioonimiseks kasutatavate tabeli kaartide laiendamine
               href: extensibility/maps-with-versioning.md
+        - name: Laiendatavate lahenduste loomine
+          items:
+            - name: Laiendatava koodi kirjutamine
+              href: extensibility/writing-extensible-code.md
+            - name: Klassid
+              href: extensibility/extensible-classes.md
+            - name: Meetodid
+              href: extensibility/extensible-methods.md
+            - name: Vormid
+              href: extensibility/extensible-forms.md
+            - name: Laiendatud andmetüübid
+              href: extensibility/extensible-edts.md
+            - name: Laiendatavad loetelud
+              href: extensibility/extensible-enums.md
+            - name: Delegaadid
+              href: extensibility/extensible-code-delegates.md
+            - name: Tabelid
+              href: extensibility/extensible-tables.md
+            - name: Meetodite laiendatavuse atribuudid
+              href: extensibility/extensibility-attributes.md
+            - name: Murrangulised muudatused
+              href: extensibility/breaking-changes.md
     - name: Jõudlus
       items:
-        - name: Jälitamised Trace Parseri abil
+        - name: Jälitamised Trace parseri abil
           href: perf-test/trace-trace-tutorial.md
         - name: Jõudluse SDK ja mitme kasutajaga testimine Visual Studio Online’i kaudu
           href: perf-test/perfsdk-tutorial.md
         - name: Jõudluse SDK ja mitme kasutajaga testimine kohapealsetes keskkondades
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: Probleemide diagnoosimine ja jõudluse analüüsimine Trace Parseri abil
+        - name: Probleemide diagnoosimine ja jõudluse analüüsimine Trace parseri abil
           href: perf-test/trace-parser.md
         - name: Jõudluse ajasti
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: Optimeerimise nõustaja reeglite loomine
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Tootmiskatkestusest teatamine
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Teenuse Lifecycle Services ressursid
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Keskkonnateenuste taaskäivitamine
       href: lifecycle-services/restart-environment-services.md
+    - name: Tootmiskatkestusest teatamine
+      href: lifecycle-services/report-production-outage.md
     - name: Kasutaja sisselogimiste jälgimine
       href: lifecycle-services/user-logins.md
     - name: Varateek
