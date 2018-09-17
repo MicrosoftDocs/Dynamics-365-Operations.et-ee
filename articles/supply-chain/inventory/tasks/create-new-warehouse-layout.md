@@ -1,21 +1,22 @@
----
+--- 
 title: Uue laopaigutuse loomine
 description: "Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet. 
 7. Lülitage ümber jaotis Asukoha nimed.
     * Selle jaotise suvandites saate määratleda asukohanimede vaikevormingu. Selles näites on kasutatud riiulirea, sektsiooni ja riiuli numbrit.  
 8. Seadistage suvand Kaasa riiulirida väärtusele Jah.
-9. Seadistage suvand Kaasa sektsioon väärtusele Jah.
+9. Seadistage suvand Kaasa sektsioon väärtusele Jah. 
 10. Sisestage sektsiooni jaoks väärtus väljale Vorming.
     * Näide: ‑##  
 11. Seadistage suvand Kaasa riiul väärtusele Jah.
@@ -74,4 +75,5 @@ Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet. 
 14. Klõpsake Lõpeta.
 15. Sulgege leht.
 16. Värskendage lehte.
+
 

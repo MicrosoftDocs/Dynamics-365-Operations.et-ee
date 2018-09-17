@@ -3,24 +3,25 @@ title: "Konteinerisse määramise seadistamine"
 description: Protseduur kirjeldab koormakonteinerite koostamise automatiseerimist laohalduses.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-containerization"></a>Konteinerisse määramise seadistamine
@@ -83,7 +84,7 @@ Protseduur kirjeldab koormakonteinerite koostamise automatiseerimist laohalduses
 ## <a name="set-up-a-container-group"></a>Konteinerigrupi häälestamine
 1. Avage Laohaldus > Seadistus > Konteinerid > Konteinerigrupid.
 2. Klõpsake valikut Uus.
-    * Saate häälestada konteineritüüpide loogilised grupid. Iga grupi puhul saate määrata järjekorra, milles soovite konteinereid pakkuda, ja täidetavate konteinerite protsendi. Kauba suuruse mõõtude alusel tehakse kindlaks, kas see mahub konteinerisse. Kasutatakse konteinerit, mille mõõdud on kaubaga kõige sarnasemad. Kui grupis on mitu konteineritüüpi, soovitame korraldada järjestuse suuruse alusel, nii et suurim konteiner on esimene, järjekorras nr 1, ja väikseim konteiner viimane.    
+    * Saate häälestada konteineritüüpide loogilised grupid. Saate iga grupi jaoks määrata järjestuse, mille alusel konteinereid koostada, ja konteinerite täitmisprotsendi. Kauba mõõtude alusel määratakse, kas see mahub konteinerisse. Kasutatakse konteinerit, mille mõõdud on kaubaga kõige sarnasemad. Kui grupis on mitu konteineritüüpi, soovitame korraldada järjestuse suuruse alusel, nii et suurim konteiner on esimene, järjekorras nr 1, ja väikseim konteiner viimane.    
 3. Tippige väärtus väljale Konteinerigrupi ID.
 4. Sisestage väljale Kirjeldus soovitud väärtus.
 5. Klõpsake Uus.

@@ -3,18 +3,19 @@ title: "Pakkumiskutsete jaoks kutsetüüpide ja hindamiskriteeriumide loomine"
 description: "See juhend näitab, kuidas kutse tüüpi luua ja seda hindamismeetodiga seostada."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
@@ -42,6 +43,7 @@ See juhend näitab, kuidas kutse tüüpi luua ja seda hindamismeetodiga seostada
 1. Avage Hanked > Pakkumiskutsed > Kõik pakkumiskutsed.
 2. Klõpsake valikut Uus.
 3. Valige väljalt Kutse tüüp äsja loodud kutse tüüp. 
+    *   
 4. Klõpsake nuppu OK.
 5. Klõpsake valikut Hindamiskriteeriumid.
     * Kuvatud hindamiskriteeriumid on kutse tüübiga seotud hindamismeetodi omad. Saate sellele lehele kriteeriume lisada või kustutada. Võimalik on ka uute kriteeriumide lisamine, kopeerides need muudest hindamismeetoditest.  

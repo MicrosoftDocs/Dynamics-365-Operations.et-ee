@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> **Rakenduse Dynamics 365 väljaande märkuste Kevad 2018 teatavaks tegemine**
+> **Rakenduse Dynamics 365 väljalaskemärkmete teatavaks tegemine**
 >
 > Kas teile pakuvad huvi meie ärirakenduste või platvormi uued ja hiljuti väljaantud võimalused? 
 > 
-> [Laadige alla väljaande märkused Kevad 2018](https://go.microsoft.com/fwlink/?linkid=870424). Käsitleme ühes PDF-is kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda. 
+> Vt jaotist [Ärirakendused ja platvormi väljalaskemärkmed](https://go.microsoft.com/fwlink/?linkid=2010158). Käsitleme ühes kohas kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda. Olenevalt väljalaskemärkmete versiooni leiate teavet uute teenuste ja võimaluste kohta ning ka uute funktsioonide kohta, mis saabuvad tulevikus.

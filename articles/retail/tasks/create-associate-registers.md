@@ -1,31 +1,32 @@
 --- 
-title: Kassa loomine (kassaregistrid)
+title: " Registrite loomine ja seostamine"
 description: "See protseduur näitab, kuidas luua kassaregistrit."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 10/05/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: b477b201df62c9fbbbb18978a4a15fa3b4a964ae
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 1de4e71fd554ba0486a5d2f65803f0806df37fe4
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-point-of-sale-registers"></a>Kassa loomine (kassaregistrid)
+# <a name="create-and-associate-registers"></a> Registrite loomine ja seostamine
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 See protseduur näitab, kuidas luua kassaregistrit. Protseduur kasutab demoettevõtte USRT andmeid.
 

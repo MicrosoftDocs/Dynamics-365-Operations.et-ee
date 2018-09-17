@@ -3,24 +3,25 @@ title: "Töörakkude määratlemine: lean manufacturing"
 description: "Töörakk on konkreetne ressursigruppide vorm, mida saab lean manufacturingi protsessi tegevustes kasutada."
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f060f084baab055a51e390f488ca2553bd997b92
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Töörakkude määratlemine: lean manufacturing
@@ -75,7 +76,7 @@ Töörakk on konkreetne ressursigruppide vorm, mida saab lean manufacturingi pro
 30. Klõpsake vahekaarti Lisa.
 31. Klõpsake väljal Tootmisvoo mudel otsingu avamiseks ripploendi nuppu.
 32. Otsige loendist ja valige soovitud kirje.
-    * See protseduur nõuab tootmisvoo mudeli tüüpi Läbilaskevõime, et näidata läbilaskevõime määratlust.  
+    * Need protseduurid nõuavad tootmisvoo mudeli tüüpi Läbilaskevõime, et näidata läbilaskevõime määratlust.  
 33. Klõpsake loendis valitud real olevat linki.
 34. Valige suvand väljalt Võimsuse periood.
     * Suvandid on järgmised. Standardne tööpäev – võimsust väljendatakse tööraku tööaja kalendri standardse tööpäeva pikkusega. Iga päeva puhul määratakse tegelik tööaeg kalendri järgi ja kehtiv saadaolev võimsus arvutatakse selle põhjal.   Nädal – võimaldab iganädalast võimsust. Tegeliku tööajaga korrigeerimist ei toimu.   Kuu – lubab igakuist võimsust. Tegeliku võimsusega korrigeerimist ei toimu.   Tavaliselt kasutatakse standardset tööpäeva igapäevaste perioodide ja iganädalast võimsust iganädalaste võimsuseperioodide puhul.  

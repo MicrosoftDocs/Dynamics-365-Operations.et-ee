@@ -3,7 +3,7 @@ title: Rakenduse Microsoft Dynamics 365 for Finance and Operations dokumentatsio
 description: Rakenduse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon.
 author: margoc
 manager: AnnBe
-ms.date: 03/02/2018
+ms.date: 08/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -26,6 +26,7 @@ ms.lasthandoff: 08/08/2018
 ---
 
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Rakenduse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
+
 [!include [banner](includes/banner.md)]
 
 Vaadake, kuidas rakendus Microsoft Dynamics 365 for Finance and Operations oma ettevõtte heaks tööle panna, kasutades allolevaid ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
