@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Asukoharollide ja osapoole seosetüüpide lisamine 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Asukoharollide lisamine
 
 Aadressile ja kontaktteabele uute asukoharollide lisamiseks on kaks võimalust.

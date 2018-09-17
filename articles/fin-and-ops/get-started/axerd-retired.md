@@ -27,6 +27,8 @@ ms.lasthandoff: 08/08/2018
 
 # <a name="axerd-page-has-been-retired"></a>AXErd-i leht on eemaldatud
 
+[!include [banner](../includes/banner.md)]
+
 Kahjuks pidime eemaldama AxErdi veebilehe, kus esitati mitme Microsoft Dynamics AX 2012 tabeli kohta olemite seoste skeeme. Oleme GitHubi hoidlasse sisestanud nii projekti lähtekoodi, kui ka veebilehe HTML-failid: https://github.com/Microsoft/ax-2012-doc-tools
 
 HTML-lehed asuvad hoidlas, veebiaadressil: [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)

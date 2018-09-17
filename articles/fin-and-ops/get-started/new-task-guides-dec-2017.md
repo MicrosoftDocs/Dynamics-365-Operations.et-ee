@@ -25,6 +25,8 @@ ms.lasthandoff: 08/08/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>Uued või värskendatud tegevusjuhised (detsember 2017)
 
+[!include [banner](../includes/banner.md)]
+
 Selles teemas on loetletud uued või värskendatud tegevusjuhised, mis väljastati Microsofti (detsember 2016 – kõik keeled) APQC ühendatud teeki rakendusele Microsoft Dynamics 365 for Operations.
 
 

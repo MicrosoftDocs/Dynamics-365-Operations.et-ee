@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>Käibemaksu korvamine kulude halduses
 
+[!include [banner](../includes/banner.md)]
+
 Tagasimaksete saamiseks sobilike käibemaksukannete korral peab ettevõte või organisatsioon tuvastada, koguma, kinnitama ja esitama täpset teavet. Protsess hõlmab erinevaid ülesandeid ja olenevalt teie ettevõtte suurusest võib kaasata erinevaid töötajaid või rolle.
 
 Käibemaksu korvamiseks kulude halduse abil peavad olema täidetud järgmised eeltingimused.
