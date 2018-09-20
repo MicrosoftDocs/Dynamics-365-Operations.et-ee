@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,32 +36,27 @@ See teema kirjeldab, mida hõlmab **ostukulutuste analüüsi** Microsoft Power B
 
 **Ostukulutuste analüüsi** Power BI sisu on mõeldud eelarvete eest vastutavate ostujuhtide ja juhtide abistamiseks ostukulutuste jälgimisel. Juhid saavad analüüsida ostukulutusi järgmiselt.
 
--   Aasta seniste ostude summa (hankijarühmade ja eraldi hankijate, tootekategooriate ja eraldi toodete ning hankija asukoha järgi)
--   Ostmise muutumine aastate lõikes (hankijarühmade ja hankekategooriate järgi)
+- Aasta seniste ostude summa (hankijarühmade ja eraldi hankijate, tootekategooriate ja eraldi toodete ning hankija asukoha järgi)
+- Ostmise muutumine aastate lõikes (hankijarühmade ja hankekategooriate järgi)
 
 Sisu kasutab ostukannete andmeid ning annab koondvaate kogu ettevõtte ostunumbritest ja ostukulude jaotuse hankijate ja toodete kaupa. Aruanded tõstavad esile ostukulude muutusi aja jooksul. Seega saab neid aruandeid kasutada juhtide teavitamiseks eraldi hankijate ja toodete positiivsetest ning negatiivsetest kulutamistrendidest. Lisaks näitavad diagrammid erinevate hankekategooriate ja hankijagruppide kulusid. Seega saavad kategooria- ja piirkonnajuhid kasutada neid diagramme muutuste tuvastamiseks kulutamiskäitumises.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Power BI sisu **Ostu kulutusanalüüs** kuvatakse lehel **Ostu- ja kulutusanalüüs** (**Hanked** > **Päringud ja aruanded** > **Ostujõudluse analüüs** > **Ostu- ja kulutusanalüüs**). 
+Power BI sisu **Ostu kulutusanalüüs** kuvatakse lehel **Ostu- ja kulutusanalüüs** (**Hanked** \> **Päringud ja aruanded** \> **Ostujõudluse analüüs** \> **Ostu- ja kulutusanalüüs**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 **Ostukulutuste analüüsi** Power BI sisu sisaldab mõõdikute kogumist koosnevat aruannet. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmises tabelis antakse ülevaade visualiseeringutest.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Aruandeleht</th>
 <th>Diagrammid</th>
 <th>Paanid</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Ostud hankija alusel</td>
 <td><ul>
 <li>10 tipphankijat ostu alusel (virntulpdiagramm)</li>
@@ -76,7 +71,7 @@ Power BI sisu **Ostu kulutusanalüüs** kuvatakse lehel **Ostu- ja kulutusanalü
 <li>Aktiivsete hankijate arv kokku</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Ostud toodete alusel</td>
 <td><ul>
 <li>Ostud hankekategooria / toote nime alusel (tulpdiagramm)</li>
@@ -89,7 +84,7 @@ Power BI sisu **Ostu kulutusanalüüs** kuvatakse lehel **Ostu- ja kulutusanalü
 <li>Toodete arv, mis annavad 80% ostudest</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Ostud perioodi alusel*</td>
 <td><ul>
 <li>Ostud kuu/päeva alusel (tulpdiagramm)</li>
@@ -102,7 +97,7 @@ Power BI sisu **Ostu kulutusanalüüs** kuvatakse lehel **Ostu- ja kulutusanalü
 <li>YOY ostude kasvu %</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Ostud hankija asukoha alusel</td>
 <td><ul>
 <li>Ostud linna alusel</li>
@@ -111,7 +106,7 @@ Power BI sisu **Ostu kulutusanalüüs** kuvatakse lehel **Ostu- ja kulutusanalü
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Ostukulutuste analüüs aja alusel</td>
 <td><ul>
 <li>Jooksva aasta ostud kuu/päeva alusel (joondiagramm)</li>
@@ -119,7 +114,7 @@ Power BI sisu **Ostu kulutusanalüüs** kuvatakse lehel **Ostu- ja kulutusanalü
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Ostukulutuste analüüs hankija alusel</td>
 <td><ul>
 <li>10 juhtiva hankija ostude % ostudest (lehter)</li>

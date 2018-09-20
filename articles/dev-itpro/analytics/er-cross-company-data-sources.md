@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 201d0f1e3fddd662748008c7304d67ef6003ef02
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3ff94c49eed378d92e995782e73d76d669b44292
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/08/2018
 
 Saate kujundada elektroonilise aruandluse vormingud looma väljaminevaid dokumente erinevates vormingutes. Dokumendi loomisel pöördub elektroonilise aruandluse vorming andmeallikate poole, mis on vastavas elektroonilise aruandluse mudelivastenduses konfigureeritud. Kirje toomiseks rakendusetabelitele juurdepääsu konfigureerimiseks saate kasutada elektroonilisi andmeallikaid tüübiga **Tabelikirjed**. Kui soovitud tabel on ühiskasutatav tabel (st tabel, kuhu andmeid salvestatakse ilma ettevõtte identifikaatorita), tagastab see andmeallikas kõik kirjed. Kui soovitud tabel on ettevõttest sõltuv tabel (st tabel, kuhu andmeid salvestatakse ettevõtte kaupa), tagastab see andmeallikas ainult praeguse ettevõtte (st ettevõtte, mille all elektroonilise aruandluse vormingut käitatakse) kohta salvestatud kirjed.
 
-Iga andmeallika, mille tüüp on mudelivastenduses **Tabelikirjed**, saab nüüd märkida ettevõtteüleseks andmeallikaks. Seega saate kasutada rakendusetabelites ettevõtteülestele andmetele juurdepääsuks andmeallikaid tüübiga **Tabelikirjed**. 
+Iga andmeallika, mille tüüp on mudelivastenduses **Tabelikirjed**, saab nüüd märkida ettevõtteüleseks andmeallikaks. Seega saate kasutada rakendusetabelites ettevõtteülestele andmetele juurdepääsuks andmeallikaid tüübiga **Tabelikirjed**.
 
 Kui te ei märgi andmeallikat ettevõtteüleseks, juhtub järgmine.
 
@@ -44,30 +44,32 @@ Kui süsteemipäringu dialoogiboksis on suvand **Päringu küsimine** sisse lül
 > [!IMPORTANT]
 > Nagu teiste filtrite puhul, säilitatakse ettevõttefilter päringute puhul viimati kasutatud väärtusena, kui käitate elektroonilise aruandluse vormingut. Filtrit ei muudeta automaatselt, kui muudate andmeallika ettevõtteülest väärtust. Teise andmeallika puhul teistsuguse ettevõtteülese väärtuse kasutamiseks kustutage vastav kasutajakohane valik.
 
-Iga ettevõtteüleseks märgitud andmeallika puhul saate soovitud kirjed valida, kasutades elektroonilise aruandluse avaldistes funktsioone **FILTER** ja **WHERE**. Välja **dataAreaID** saab kasutada ka ettevõtte identifikaatorina. Praegu on väli **dataAreaID** piiratud funktsiooni **FILTER** kasutamisel järgmist tüüpi tingimustega. 
+Iga ettevõtteüleseks märgitud andmeallika puhul saate soovitud kirjed valida, kasutades elektroonilise aruandluse avaldistes funktsioone **FILTER** ja **WHERE**. Välja **dataAreaID** saab kasutada ka ettevõtte identifikaatorina. Praegu on väli **dataAreaID** piiratud funktsiooni **FILTER** kasutamisel järgmist tüüpi tingimustega.
 
 - Toetatakse ainult tingimusi, millel on üks välja **dataAreaID** võrdlus.
 - Lubatud on ainult võrdlused, mille avaldised ei sõltu kirjeloendi üksustest.
 
 Seetõttu on kehtiv järgmine avaldis.
 
-    FILTER (MyTable, MyTable.dataAreaID = $StringUserInputParameter)
-    While shown below expressions will not pass the validation:
-    FILTER (MyTable, MyTable.dataAreaID = MyTable2RecordsList.MyField)
-    FILTER (MyTable, 
-        OR(
-            MyTable.dataAreaID = $StringUserInputParameter1,
-            MyTable.dataAreaID = $StringUserInputParameter2
-        )
+```
+FILTER (MyTable, MyTable.dataAreaID = $StringUserInputParameter)
+While shown below expressions will not pass the validation:
+FILTER (MyTable, MyTable.dataAreaID = MyTable2RecordsList.MyField)
+FILTER (MyTable, 
+    OR(
+        MyTable.dataAreaID = $StringUserInputParameter1,
+        MyTable.dataAreaID = $StringUserInputParameter2
     )
+)
+```
 
-Vaikimisi hõlmab ulatus kõiki praeguse rakenduse ettevõtteid. Seda saab siiski piirata. Ettevõtteülestele andmetele juurdepääsu ulatuse piiramiseks ühe elektroonilise aruandluse vormingu puhul määrake vormingule kindel organisatsioonihierarhia. Kui elektroonilise aruandluse vormingu jaoks on hierarhia määratletud, tagastatakse ainult määratud hierarhias olevate juriidiliste isikute kirjed, isegi kui vorming pöördub ettevõtteüleste andmeallikate poole. Kui elektroonilise aruandluse vormingu aoks on määratletud viide hierarhiale, mida pole enam olemas, rakendatakse vaikeulatust ja vorming pöördub ettevõtteüleste andmeallikate poole. Sellisel juhul tagastatakse rakenduse kõigi ettevõtete kirjed. 
+Vaikimisi hõlmab ulatus kõiki praeguse rakenduse ettevõtteid. Seda saab siiski piirata. Ettevõtteülestele andmetele juurdepääsu ulatuse piiramiseks ühe elektroonilise aruandluse vormingu puhul määrake vormingule kindel organisatsioonihierarhia. Kui elektroonilise aruandluse vormingu jaoks on hierarhia määratletud, tagastatakse ainult määratud hierarhias olevate juriidiliste isikute kirjed, isegi kui vorming pöördub ettevõtteüleste andmeallikate poole. Kui elektroonilise aruandluse vormingu aoks on määratletud viide hierarhiale, mida pole enam olemas, rakendatakse vaikeulatust ja vorming pöördub ettevõtteüleste andmeallikate poole. Sellisel juhul tagastatakse rakenduse kõigi ettevõtete kirjed.
 
 Pange tähele, et kui ühele elektroonilise aruandluse vormingule määratud organisatsioonihierarhia puhul on suvand **Kasuta mustandit** sisse lülitatud, kasutatakse ettevõtteüleste andmeallikate ulatuse tuvastamiseks selle hierarhia mustandversioonist pärit juriidilisi isikuid. Kui mustandversiooni pole olemas, kasutatakse selleks selle organisatsioonihierarhia viimati avaldatud versioonist pärit juriidilisi isikuid.
 
 Pange tähele, et kui ühele elektroonilise aruandluse vormingule määratud organisatsioonihierarhia puhul on suvand **Kasuta mustandit** välja lülitatud, kasutatakse ettevõtteüleste andmeallikate ulatuse tuvastamiseks selle organisatsioonihierarhia viimati avaldatud versioonist pärit juriidilisi isikuid. Organisatsioonihierarhiate kuupäevalist jõustumist praegu veel elektroonilise aruandluse raamistikus ei toetata.
 
-Hierarhia saab määrata vormingule konkreetsel lehel, millele pääseb juurde elektroonilise aruandluse tööruumist või kasutades menüüvalikuid **Organisatsiooni haldus -> Elektrooniline aruandlus -> Juriidilise isiku filter vormingute jaoks**. Lehele pääsemiseks peab kasutajale olema antud õigus **Juriidilise isiku filtrite haldamine vormingute jaoks** (ERMaintainFormatMappingLegalEntityFilters). Hierarhial põhinevate juriidiliste isikute ulatuse piirang vormingu puhul rakendatakse lisaks piirangule, mida kasutaja saab süsteemipäringu dialoogiboksis käsitsi määrata. Nende piirangute ühisosa kasutatakse vormingu käitamisel.
+Hierarhia saab määrata vormingule konkreetsel lehel, millele pääseb juurde elektroonilise aruandluse tööruumist või kasutades menüüvalikuid **Organisatsiooni haldus \> Elektrooniline aruandlus \> Juriidilise isiku filter vormingute jaoks**. Lehele pääsemiseks peab kasutajale olema antud õigus **Juriidilise isiku filtrite haldamine vormingute jaoks** (ERMaintainFormatMappingLegalEntityFilters). Hierarhial põhinevate juriidiliste isikute ulatuse piirang vormingu puhul rakendatakse lisaks piirangule, mida kasutaja saab süsteemipäringu dialoogiboksis käsitsi määrata. Nende piirangute ühisosa kasutatakse vormingu käitamisel.
 
 Lisateabe saamiseks selle funktsioon kohta vaadake tegevusejuhist **Elektrooniline aruandlus: ettevõttest sõltuvate tabelite kirjetele juurdepääs ettevõtteüleses režiimis**, mis on osa äriprotsessist 7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677) ja mille saab alla laadida [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?linkid=874684). Ülesandejuhis viib teid läbi elektroonilise aruandluse mudelivastenduse ja elektroonilise aruandluse vormingu konfigureerimise protsessi ettevõtteüleses režiimis rakenduse tabelitele juurdepääsuks.
 

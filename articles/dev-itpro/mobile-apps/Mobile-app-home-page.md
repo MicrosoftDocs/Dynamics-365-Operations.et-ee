@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b9cdb2b2c2b5aaf7743cd2cd0dbfee6c602a5a46
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -138,9 +138,10 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <td>8</td>
 <td>Kasutaja</td>
 <td>Laadige alla ja installige mobiilirakendus.</td>
-<td><ul>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">Androidi telefonidele</a></li>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">iPhone’idele</a></li></ul>
+<td>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Rakendus Unified Operations Androidile</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Rakendus Unified Operations iOS-ile</a><BR/>
+(Windows Phone’i ei toetata)
 </td>
 </tr>
 <tr class="odd">

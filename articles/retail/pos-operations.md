@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ Märkus. Allpool loetletud toimingud kehtivad rakenduse Dynamics 365 for Retail 
 | 707 | Seadme aktiveerimine | Aktiveerige praegune seade, lubades autenditud kasutajal sisestada ühenduse teabe ning määrata seadme ja kassaaparaadi ID. | Ei | Ei | Ei | Ei | Ei |
 | 134 | Lisa alluvus | Eelvalitud alluvuse lisamine kandele. Valige alluvus lehel **Nupu atribuudid**. | Jah | Jah | Ei | Jah | Ei |
 | 135 | Lisa alluvus loendist | Lisage kandele alluvus, valides selle loendist. | Jah | Jah | Jah | Jah | Ei |
+| 137 | Kliendile alluvuse lisamine | Lisage kliendile alluvus lehel **Kliendi üksikasjad**. | Ei | Ei | Ei | Jah | Ei |
+| 138 | Alluvuse eemaldamine kliendilt | Eemaldage alluvus lehelt **Kliendi üksikasjad**. | Ei | Ei | Ei | Jah | Ei |
 | 643 | Lisa kupongikood | Lisage kupong, sisestades kassasse selle koodi. | Jah | Jah | Ei | Jah | Ei |
 | 117 | Kliendikaardi lisamine | Paluge kasutajal sisestada kliendikaardi number, mis lisatakse praegusesse kandesse. | Jah | Jah | Ei | Jah | Ei |
 | 136 | Seerianumbri lisamine | See operatsioon võimaldab kasutajal määrata praegu valitud toote seerianumbri. | Jah | Jah | Ei | Jah | Ei |

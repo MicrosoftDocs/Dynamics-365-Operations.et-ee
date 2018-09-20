@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: a271887c4d2cfe4d0ee6518482dc4ebe407ebe56
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -63,8 +63,8 @@ Andmemudeli äriüksus on esindatud konteinerina (kirje). Äriüksuse atribuudid
 
 Üksik andmemudeli komponent võib sisaldada mitut domeenipõhiste äriüksuste hierarhiat. See võib sisaldada ka mudelivastendusi, mis toetavad käitusajal aruandepõhist andmevoogu. Hierarhiaid eristatakse ühe kirjega, mis on valitud mudelivastenduse juurena. Näiteks võib maksedomeeni ala andmemudel toetada järgmisi vastendusi:
 
-- ettevõte > hankija > AP-domeeni maksekanded
-- klient > ettevõte > AR-domeeni maksekanded
+- Ettevõte \> Hankija \> AP-domeeni maksekanded
+- Klient \> Ettevõte \> AR-domeeni maksekanded
 
 Arvestage, et äriüksused (nt ettevõte ja maksekanded) kavandatakse ühe korra. Seejärel kasutavad neid erinevad vastendused.
 
@@ -74,7 +74,7 @@ Väljaminevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised
 - See toetab kasutaja sisendparameetreid, mida saab määratleda andmemudeli andmeallikatena, kui mõningad andmed on vaja määratleda käitusajal.
 - See toetab Finance and Operationsi andmete teisendamist vajalikesse gruppidesse. Samuti võimaldab see filtreerida, sortida ja summeerida andmeid ning lisada loogilisi arvutatud välju, mis on kavandatud Microsoft Exceli valemitele sarnanevate valemite kaudu, nagu on näidatud järgmisel illustratsioonil. Lisateavet leiate jaotisest [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)).
 
-[![Valemikoostaja](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
+[![Valemikoostaja](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Sissetulevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised võimalused.
 
@@ -175,7 +175,7 @@ Vajalikke hoidlaid **LCS-i projekt** saab registreerida eraldi iga praeguse Fina
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 ### <a name="building-a-data-model"></a>Andmemudeli loomine
 
-ER pakub mudelikoosturit, mida saab kasutada konkreetsele äridomeenile andmemudeli koostamiseks. Kõiki domeenipõhiseid äriüksusi ja nendevahelisi suhteid saab esitleda andmemudelis hierarhilise struktuurina. Järgmisel joonisel on näide seda tüüpi andmemudeli (maksedomeeni andmemudeli) kohta. 
+ER pakub mudelikoosturit, mida saab kasutada konkreetsele äridomeenile andmemudeli koostamiseks. Kõiki domeenipõhiseid äriüksusi ja nendevahelisi suhteid saab esitleda andmemudelis hierarhilise struktuurina. Järgmisel joonisel on näide seda tüüpi andmemudeli (maksedomeeni andmemudeli) kohta.
 
 [![Maksedomeeni andmemudel](./media/ER-overview-04.png)](./media/ER-overview-04.png)
 
@@ -185,19 +185,18 @@ Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroo
 
 Andmemudeli sisu (sildid ja kirjeldused) saab tõlkida teistesse keeltesse, mida Finance and Operations toetab. Andmemudeli sisu võib olla vaja tõlkida järgmistel põhjustel:
 
--   selleks, et muuta see koostamisel arusaadavamaks teisi keeli rääkivatele vormingu koostajatele, kes kasutavad vormingukomponentide andmevastenduseks andmemudelit;
--   et muuta sisu käitusajal kasutajasõbralikumaks, esitades viibad ja käitamisparameetrite spikri ning konfigureeritud kinnitusteated (tõrked ja hoiatused) sisselogitud kasutaja eelistatud keeles.
+- selleks, et muuta see koostamisel arusaadavamaks teisi keeli rääkivatele vormingu koostajatele, kes kasutavad vormingukomponentide andmevastenduseks andmemudelit;
+- et muuta sisu käitusajal kasutajasõbralikumaks, esitades viibad ja käitamisparameetrite spikri ning konfigureeritud kinnitusteated (tõrked ja hoiatused) sisselogitud kasutaja eelistatud keeles.
 
-Järgmisel joonisel on näide, milles andmemudeli sisu on tõlgitud inglise keelest jaapani keelde. 
+Järgmisel joonisel on näide, milles andmemudeli sisu on tõlgitud inglise keelest jaapani keelde.
 
 [![Andmemudeli sisu inglise keeles](./media/ER-overview-05.png)](./media/ER-overview-05.png)
 
 [![Jaapani keelde tõlgitud andmemudeli sisu](./media/ER-overview-06.png)](./media/ER-overview-06.png)
 
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Andmemudeli vastenduste konfigureerimine väljaminevate dokumentide puhul
 
-ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete Finance and Operationsi andmeallikatega. Vastenduse põhjal imporditakse andmed käitusajal valitud andmeallikatest andmemudelisse. Seejärel kasutatakse andmemudelit väljaminevaid elektroonilisi dokumente loovate ER-vormingute abstraktse andmeallikana. Järgmisel illustratsioonil on sellise andmemudeli vastendamise näidis (**SEPA kreeditiülekande** mudeli vastendus maksedomeeni andmemudeliga). 
+ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete Finance and Operationsi andmeallikatega. Vastenduse põhjal imporditakse andmed käitusajal valitud andmeallikatest andmemudelisse. Seejärel kasutatakse andmemudelit väljaminevaid elektroonilisi dokumente loovate ER-vormingute abstraktse andmeallikana. Järgmisel illustratsioonil on sellise andmemudeli vastendamise näidis (**SEPA kreeditiülekande** mudeli vastendus maksedomeeni andmemudeliga).
 
 [![Andmemudeli vastenduse näide](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 
@@ -210,13 +209,13 @@ ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koost
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Koostatud mudelikomponendi salvestamine mudelikonfiguratsioonina
 
-ER suudab talletada koostatud andmemudeli koos seotud andmevastendustega praeguse Finance and Operationsi eksemplari mudelikonfiguratsioonina. Järgmisel joonisel on näide seda tüüpi andmemudeli konfiguratsiooni (maksedomeeni andmemudeli konfiguratsiooni) kohta. 
+ER suudab talletada koostatud andmemudeli koos seotud andmevastendustega praeguse Finance and Operationsi eksemplari mudelikonfiguratsioonina. Järgmisel joonisel on näide seda tüüpi andmemudeli konfiguratsiooni (maksedomeeni andmemudeli konfiguratsiooni) kohta.
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatega** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Andmemudelit alusena kasutava vormingu koostamine
 
-ER toetab vormingukoosturit, mida võite kasutada valitud äridomeenile elektroonilise dokumendi vormingu koostamiseks, valides aluseks mudelikomponendi. Sama ER-i vormingukoostur võimaldab teil vastendada vormingu, mille loote, valitud domeeni andmemudeli vastendusega andmeallikana. Järgmisel illustratsioonil on seda tüüpi vormingu näide (vormingukonfiguratsioon, mis toetab Ühendkuningriigi maksevormingut **BACS**). 
+ER toetab vormingukoosturit, mida võite kasutada valitud äridomeenile elektroonilise dokumendi vormingu koostamiseks, valides aluseks mudelikomponendi. Sama ER-i vormingukoostur võimaldab teil vastendada vormingu, mille loote, valitud domeeni andmemudeli vastendusega andmeallikana. Järgmisel illustratsioonil on seda tüüpi vormingu näide (vormingukonfiguratsioon, mis toetab Ühendkuningriigi maksevormingut **BACS**).
 
 [![Vormingu näide, mille alus on andmemudel](./media/ER-overview-09.png)](./media/ER-overview-09.png)
 
@@ -240,7 +239,7 @@ Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis Elektrooni
 - [Maksearuande mall (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Maksearuande piiratud mall (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
-### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Konfiguratsiooni koostamine andmete importimiseks sissetulevatest elektroonilistest dokumentidest  
+### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Konfiguratsiooni koostamine andmete importimiseks sissetulevatest elektroonilistest dokumentidest
 ER-i vormingukoosturi abil saab kirjeldada elektroonilist dokumenti, mis on mõeldud andmete importimiseks XML- või tekstivormingus. Kavandatud vormingut kasutatakse sissetuleva dokumendi sõelumiseks. ER-i vormingu vastendamise koosturi abil saab määratleda kavandatud vormingu elementide sideme andmemudeliga. Järgmistel joonistel on näide seda tüüpi vormingu ja vorminguvastenduse kohta. Selles näites imporditakse NETS-i pangaväljavõtted, mis sisaldavad hankija makseandmeid teksti kujul.
 
 [![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
@@ -260,7 +259,7 @@ ER suudab talletada koostatud vormingu koos konfigureeritud andmete vastendamist
 
 ### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Finance and Operationsi konfigureerimine loodud vormingu ettevõttesiseseks kasutamiseks
 
-Finance and Operationsit saab konfigureerida kasutama loodud vormingut elektrooniliste aruanne loomiseks. Viide loodud vormingu konfiguratsioonile tuleb määratleda konkreetse domeeni sätetes. Näiteks selleks, et hakata kasutama ER-i vormingukonfiguratsiooni elektrooniliste hankija maksete jaoks vormingus BACS, tuleb vormingukonfiguratsioonile viidata konkreetsetes makseviisides, nagu on näidatud järgmistel illustratsioonidel. 
+Finance and Operationsit saab konfigureerida kasutama loodud vormingut elektrooniliste aruanne loomiseks. Viide loodud vormingu konfiguratsioonile tuleb määratleda konkreetse domeeni sätetes. Näiteks selleks, et hakata kasutama ER-i vormingukonfiguratsiooni elektrooniliste hankija maksete jaoks vormingus BACS, tuleb vormingukonfiguratsioonile viidata konkreetsetes makseviisides, nagu on näidatud järgmistel illustratsioonidel.
 
 [![BACS (UK) vormingukonfiguratsioon](./media/ER-overview-14.png)](./media/ER-overview-14.png)
 
@@ -367,15 +366,9 @@ ER võimaldab võtta automaatselt kasutusele aluskomponendi uusima versiooni muu
 |                                                  |                       | Hankija arve deklaratsioon (IS)                   | Hankija arve deklaratsiooni vorm Islandi puhul                      |
 |                                                  |                       | Hankija arve deklaratsiooni aruanne (IS)            | Hankija arve deklaratsiooni aruanne Islandi puhul                      |
 
-
-
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Lokaliseerimisnõuded – Elektroonilise aruandluse konfiguratsiooni loomine](electronic-reporting-configuration.md)
 
 [Elektroonilise aruandluse konfiguratsiooni elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-
 

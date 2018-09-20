@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -66,13 +66,11 @@ Saate lisada impordi- või eksporditööle konkreetseid üksusi või valida rake
 ### <a name="set-the-data-format-for-the-job"></a>Töö andmevormingu määramine
 Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormingu. Vorminguid saab määratleda paani **Andmeallikate seadistus** kaudu. Lähteandmete vorming on **tüübi**, **failivormingu**, **reaeraldaja** ja **veerueraldaja** kombinatsioon. On ka muid atribuute, kuid need on kõige olulisemad. Järgmises tabelis on toodud kehtivad kombinatsioonid.
 
-| **Failivorming**        | **Rea-/veerueraldaja**                   | **XML-i laad**             |
+| Failivorming            | Rea-/veerueraldaja                       | XML-i laad                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-Pole-                     |
 | XML                    | \-Pole-                                      | XML-element XML-atribuut |
 | Eraldatud, fikseeritud laius | Koma, semikoolon, vahekaart, vertikaalriba, koolon | \-Pole-                     |
-
-
 
 ### <a name="sequence-the-entities"></a>Üksuste järjestamine
 Üksusi saab järjestada andmemallis või impordi- ja eksporditöödes. Kui käivitate mitut andmeüksust sisaldava töö, peate veenduma, et andmeüksused oleksid õiges järjestuses. Üksused järjestatakse peamiselt nii, et saaksite käsitleda funktsionaalseid sõltuvusi üksuste vahel. Kui üksustel pole ühtegi funktsionaalset sõltuvust, saab need plaanida paralleelseks impordiks või ekspordiks.

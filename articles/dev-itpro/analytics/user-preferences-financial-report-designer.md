@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toimingute kohandamiseks finantsaruande koosturis ja juhtida algset sisselogimiskogemust. Saate juhtida ka eraldi aruannete, aruannete teegi ja failide vaikeasukohtade kuvamisviisi. 
+Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toimingute kohandamiseks finantsaruande koosturis ja juhtida algset sisselogimiskogemust. Saate juhtida ka eraldi aruannete, aruannete teegi ja failide vaikeasukohtade kuvamisviisi.
 
-<a name="set-user-preferences"></a>Kasutaja eelistuste seadistamine
---------------------
+## <a name="set-user-preferences"></a>Kasutaja eelistuste seadistamine
 
-1.  Klõpsake aruandekoosturi menüüs **Tööriistad** valikut **Suvandid**.
-2.  Valige dialoogiboksist **Suvandid** oma eelistused.
-3.  Klõpsake nupul **OK**.
+1. Klõpsake aruandekoosturi menüüs **Tööriistad** valikut **Suvandid**.
+2. Valige dialoogiboksist **Suvandid** oma eelistused.
+3. Klõpsake nupul **OK**.
 
 ## <a name="options-dialog-box-options"></a>Suvandite dialoogiboksi valikud
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Kasutaja suvand</th>
 <th>Kirjeldus</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Käivitamisel</td>
 <td>Saate valida, mida aruandekujundaja käivitumisel näete. Tehke üks järgmistest valikutest:
 <ul>
@@ -57,28 +56,22 @@ Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toim
 <li><strong>Kuva tühi keskkond</strong> – avab tühja koosturiakna.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Kuva kinnitus enne aruandekujundajast väljumist</td>
 <td>Saate valida, kas saada rakendusest väljumisel hoiatusteade. See teade aitab tagada, et te ei väljuks programmist tahtmatult.</td>
 </tr>
-<tr class="odd">
-<td>Rakenda veerupäistes automaatselt lahtrite allajoonimist</td>
+<tr>
+<td>Rakenda lahtri allakriipsutus veerupäistes automaatselt</td>
 <td>Valige, kas lisada uue veeru päise lahtrisse allakriipsutus.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Halduse aruandja failide asukoht</td>
 <td>Määrab failide vaikeasukoha. Rakendus kasutab koosteüksuste rühmade eksportimisel vaikeasukohta.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
-
-
-
 

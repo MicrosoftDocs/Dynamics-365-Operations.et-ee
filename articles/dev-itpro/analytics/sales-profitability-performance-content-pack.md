@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,21 +36,21 @@ See teema kirjeldab, mida hõlmab **müügi ja tulususe jõudluse** Microsoft Po
 
 **Müügi ja tulususe jõudluse** Power BI sisu loodi selleks, et müügijuhid saaksid jälgida peamisi müügimõõdikuid: tulu, brutokasumit ja kasumimarginaale. Selles kasutatakse müügikannete andmeid ning antakse koondvaade kogu ettevõtte müüginumbritest ja müügitulemuste jaotusest klientide ning toodete kohta.
 
-Aruanded toovad esile tulu muutused ja kasumi kasvu aja jooksul. Seega saab neid aruandeid kasutada juhtide teavitamiseks eraldi klientide ja toodete positiivsetest ning negatiivsetest trendidest. Lisaks võrreldakse diagrammidel erinevate tootekategooriate tulu ja kasumlikkust ning kliendigruppe omavahel. Tänu sellele saavad kategooria- ja piirkonnajuhid tuvastada mahajääjaid ja liidreid. Lõpuks loob põhjalik aruanne graafiku eraldi kliendi tulu ja kasumimarginaali võrdlusega. Seega on kliendihalduritel andmetepõhine alus, mille abil oma müügi- ja turundustegevusi iga kliendi profiiliga kohandada. 
+Aruanded toovad esile tulu muutused ja kasumi kasvu aja jooksul. Seega saab neid aruandeid kasutada juhtide teavitamiseks eraldi klientide ja toodete positiivsetest ning negatiivsetest trendidest. Lisaks võrreldakse diagrammidel erinevate tootekategooriate tulu ja kasumlikkust ning kliendigruppe omavahel. Tänu sellele saavad kategooria- ja piirkonnajuhid tuvastada mahajääjaid ja liidreid. Lõpuks loob põhjalik aruanne graafiku eraldi kliendi tulu ja kasumimarginaali võrdlusega. Seega on kliendihalduritel andmetepõhine alus, mille abil oma müügi- ja turundustegevusi iga kliendi profiiliga kohandada.
 
 **Müügi ja tulususe tulemuste sisu** võimaldab müügijuhtidel analüüsida müügitulemusi järgmisel viisil.
 
--   Aasta senine tulu (kliendigruppide ja eraldi klientide, müügikategooriate ja eraldi toodete ning geograafiliste asukohtade järgi)
--   Tulu muutus aastate lõikes (kliendipiirkondade ja müügikategooriate alusel)
+- Aasta senine tulu (kliendigruppide ja eraldi klientide, müügikategooriate ja eraldi toodete ning geograafiliste asukohtade järgi)
+- Tulu muutus aastate lõikes (kliendipiirkondade ja müügikategooriate alusel)
 
 Kasumlikkuse analüüsimiseks on järgmised võimalused.
 
--   Brutokasum ja kasumimarginaal (kliendigruppide ja toote müügikategooriate alusel)
--   Brutokasumi muutus aastate lõikes
--   Kliendi kasumlikkus (tulu järgi võrreldes kogutuluga)
+- Brutokasum ja kasumimarginaal (kliendigruppide ja toote müügikategooriate alusel)
+- Brutokasumi muutus aastate lõikes
+- Kliendi kasumlikkus (tulu järgi võrreldes kogutuluga)
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Power BI sisu **Müügi ja tulususe jõudlus** kuvatakse lehel **Müügi ja tulususe jõudlus** (**Müük ja turundus** > **Päringud ja aruanded** > **Müügijõudluse analüüs** > **Müügi ja tulususe jõudlus**). 
+Power BI sisu **Müügi ja tulususe jõudlus** kuvatakse lehel **Müügi ja tulususe jõudlus** (**Müük ja turundus** \> **Päringud ja aruanded** \> **Müügijõudluse analüüs** \> **Müügi ja tulususe jõudlus**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 **Müügi ja tulususe jõudluse** Power BI sisu sisaldab mõõdikute kogumist koosnevat aruannet. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate sisu visualiseerimistest.
@@ -77,19 +77,18 @@ Power BI sisu **Müügi ja tulususe jõudlus** kuvatakse lehel **Müügi ja tulu
 
 \* Selle ja eelmise aasta tulu ja kasv müügikategooriate alusel.
 
-
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Aruandelehtede täitmiseks **müügi ja tulususe jõudluse** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md). 
+Aruandelehtede täitmiseks **müügi ja tulususe jõudluse** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
 
-Selle sisu koondmõõtmised on rakenduste Microsoft Dynamics AX 2012 ja Microsoft Dynamics AX 2012 R3 müügikuubis olnud koondmõõtmiste alamkogum. Kuubi koondmõõtmiste korraldamiseks üksuse kaupluses tuleb muuta need juurutatavaks. Lisateavet leiate üksuse kaupluses koondmõõtmiste korraldamise protseduurist ajaveebipostituses [Power BI integratsioon üksuse kauplusega Dynamicsis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
+Selle sisu koondmõõtmised on rakenduste Microsoft Dynamics AX 2012 ja Microsoft Dynamics AX 2012 R3 müügikuubis olnud koondmõõtmiste alamkogum. Kuubi koondmõõtmiste korraldamiseks üksuse kaupluses tuleb muuta need juurutatavaks. Lisateavet leiate üksuse kaupluses koondmõõtmiste korraldamise protseduurist ajaveebipostituses [Power BI integratsioon üksuse kauplusega Dynamicsis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 Järgmisi arve ridade üksuse peamisi koondmõõtmisi kasutatakse sisu alusena.
 
-| Üksus        | Peamised koondmõõtmised                   | Dynamics 365 andmeallikas                    | Väli                                        | Kirjeldus                                   |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
-| Arve read | Tulu                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Summa arvestusvaluutas.            |
-|               | Müüdud kaupade omahind                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Kulusumma ja korrigeerimine    |
-|               | Komisjoni rea summa – arvestusvaluuta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisjonitasu summa arvestusvaluutas. |
+| Üksus        | Peamised koondmõõtmised                   | Dynamics 365 andmeallikas | Väli                                        | Kirjeldus                                       |
+|---------------|----------------------------------------------|------------------------------|----------------------------------------------|---------------------------------------------------|
+| Arve read | Tulu                                      | CustInvoiceTrans             | SUM(LineAmountMST)                           | Summa arvestusvaluutas.            |
+|               | Müüdud kaupade omahind                           | InventTrans                  | SUM(CostAmountPosted + CostAmountAdjustment) | Kulusumma ja korrigeerimine    |
+|               | Komisjoni rea summa – arvestusvaluuta | CustInvoiceTrans             | SUM(CommissAmountMST)                        | Komisjonitasu summa arvestusvaluutas. |
 
 Järgmine tabel näitab arve ridade üksuse peamisi koondmõõtmisi, mida kasutatakse mitme arvutatud meetme loomiseks sisu andmekogumis.
 

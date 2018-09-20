@@ -17,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
 ms.contentlocale: et-ee
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -43,7 +43,7 @@ See Power BI sisu võimaldab analüüsida ka tootmiskulude hälbeid. Tootmiskulu
 **Tootmistellimuse** Power BI sisu hõlmab tootmistellimustest ja partiitellimustest pärinevaid andmeid. Aruanded ei sisalda andmeid, mis on seotud kanban-tootmistega.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Power BI sisu **Tootmise jõudlus** kuvatakse lehel **Tootmise jõudlus** (**Tootmise juhtimine** > **Päringud ja aruanded** > **Tootmise jõudlusanalüüs** > **Tootmise jõudlus**). 
+Power BI sisu **Tootmise jõudlus** kuvatakse lehel **Tootmise jõudlus** (**Tootmise juhtimine** \> **Päringud ja aruanded** \> **Tootmise jõudlusanalüüs** \> **Tootmise jõudlus**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 
@@ -51,8 +51,8 @@ Power BI sisu **Tootmise jõudlus** kuvatakse lehel **Tootmise jõudlus** (**Too
 
 Järgmises tabelis antakse ülevaade sisalduvatest visualiseeringutest.
 
-| Aruandeleht                                | Diagrammid                                               | Paanid |
-|--------------------------------------------|------------------------------------------------------|-------|
+| Aruandeleht                                | Diagrammid | Paanid |
+|--------------------------------------------|--------|-------|
 | Tootmise jõudlus                     | <ul><li>Tootmiste arv kuupäeva järgi</li><li>Tootmiste arv toote ja kaubagrupi järgi</li><li>Plaanitud tootmiste arv kuupäeva järgi</li><li>10 viimast toodet õigeaegsuse ja täielikkuse alusel</li></ul> | <ul><li>Tellimusi kokku</li><li>Õigeaegsuse ja täielikkuse %</li><li>Mittetäielike %</li><li>Ennetähtaegsete %</li><li>Hilinenute %</li></ul> |
 | Defektid toodete kaupa                         | <ul><li>Defektsete määr (ppm) kuupäeva järgi</li><li>Defektsete määr (ppm) toote ja kaubagrupi järgi</li><li>Toodetud kogus kuupäeva järgi</li><li>10 parimat toodet efektiivsusmäära järgi</li></ul> | <ul><li>Defektsete määr (ppm)</li><li>Vigane kogus</li><li>Lõplik kogus</li></ul> |
 | Defektide trend toodete kaupa                   | Defektimäär (ppm) toodetud koguse järgi | Defektimäär (ppm) |
@@ -88,35 +88,35 @@ Järgmine tabel näitab, kuidas kasutatakse peamisi koondmõõtmisi mitme arvuta
 
 | Mõõt                  | Meetme arvutamise viis |
 |--------------------------|-------------------------------|
-| Tootmiskulude hälve, %   | SUM('Production variance'[Production variance]) / SUM('Production variance'[Estimated cost]) |
+| Tootmiskulude hälve, %   | SUM('Production variance'\[Production variance\]) / SUM('Production variance'\[Estimated cost\]) |
 | Kõik plaanitud tellimused       | COUNTROWS('Planned production order') |
-| Varajane                    | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] \< 'Planned production order'[Requirement date])) |
-| Hilja                     | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] \> 'Planned production order'[Requirement date])) |
-| Õigeaegne                  | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] = 'Planned production order'[Requirement date])) |
-| Õigeaegsete %                | IF ( 'Planned production order'[On-time] \<\> 0, 'Planned production order'[On-time], IF ('Planned production order'[All planned orders] \<\> 0, 0, BLANK()) ) / 'Planned production order'[All planned orders] |
-| Valmis                | COUNTROWS(FILTER('Production order', 'Production order'[Is RAF'ed] = TRUE)) |
-| Defektsete määr (ppm)     | IF( 'Production order'[Total quantity] = 0, BLANK(), (SUM('Production order'[Defective quantity]) / 'Production order'[Total quantity]) \* 1000000) |
-| Viivitusega tootmise määr  | 'Production order'[Late \#] / 'Production order'[Completed] |
-| Ennetähtaegne ja täielik          | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is early] = TRUE)) |
-| Ennetähtaegsed \#                 | COUNTROWS(FILTER('Production order', 'Production order'[Is early] = TRUE)) |
-| Ennetähtaegsete %                  | IFERROR( IF('Production order'[Early \#] \<\> 0, 'Production order'[Early \#], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| Mittetäielik               | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = FALSE && 'Production order'[Is RAF'ed] = TRUE)) |
-| Mittetäielike %             | IFERROR( IF('Production order'[Incomplete] \<\> 0, 'Production order'[Incomplete], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| On hilinenud               | 'Production order'[Is RAF'ed] = TRUE && 'Production order'[Delayed value] = 1 |
-| On ennetähtaegne                 | 'Production order'[Is RAF'ed] = TRUE && 'Production order'[Days delayed] \< 0 |
-| On täielik               | 'Production order'[Good quantity] \>= 'Production order'[Scheduled quantity] |
-| On RAF'ed                | 'Production order'[Production status value] = 5 \|\| 'Production order'[Production status value] = 7 |
-| Hilinenud ja täielik           | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is delayed] = TRUE)) |
-| Hilinenud \#                  | COUNTROWS(FILTER('Production order', 'Production order'[Is delayed] = TRUE)) |
-| Hilinenute %                   | IFERROR( IF('Production order'[Late \#] \<\> 0, 'Production order'[Late \#], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| Õigeaegsed ja täielikud        | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is delayed] = FALSE && 'Production order'[Is early] = FALSE)) |
-| Õigeaegsuse ja täielikkuse %      | IFERROR( IF('Production order'[On-time & in full] \<\> 0, 'Production order'[On-time & in full], IF('Production order'[Completed] = 0, BLANK(), 0)) / 'Production order'[Completed], BLANK()) |
+| Varajane                    | COUNTROWS(FILTER('Planned production order', 'Planned production order'\[Scheduled end date\] \< 'Planned production order'\[Requirement date\])) |
+| Hilja                     | COUNTROWS(FILTER('Planned production order', 'Planned production order'\[Scheduled end date\] \> 'Planned production order'\[Requirement date\])) |
+| Õigeaegne                  | COUNTROWS(FILTER('Planned production order', 'Planned production order'\[Scheduled end date\] = 'Planned production order'\[Requirement date\])) |
+| Õigeaegsete %                | IF ( 'Planned production order'\[On-time\] \<\> 0, 'Planned production order'\[On-time\], IF ('Planned production order'\[All planned orders\] \<\> 0, 0, BLANK()) ) / 'Planned production order'\[All planned orders\] |
+| Valmis                | COUNTROWS(FILTER('Production order', 'Production order'\[Is RAF'ed\] = TRUE)) |
+| Defektsete määr (ppm)     | IF( 'Production order'\[Total quantity\] = 0, BLANK(), (SUM('Production order'\[Defective quantity\]) / 'Production order'\[Total quantity\]) \* 1000000) |
+| Viivitusega tootmise määr  | 'Production order'\[Late \#\] / 'Production order'\[Completed\] |
+| Ennetähtaegne ja täielik          | COUNTROWS(FILTER('Production order', 'Production order'\[Is in full\] = TRUE && 'Production order'\[Is early\] = TRUE)) |
+| Ennetähtaegsed \#                 | COUNTROWS(FILTER('Production order', 'Production order'\[Is early\] = TRUE)) |
+| Ennetähtaegsete %                  | IFERROR( IF('Production order'\[Early \#\] \<\> 0, 'Production order'\[Early \#\], IF('Production order'\[Total orders\] = 0, BLANK(), 0)) / 'Production order'\[Total orders\], BLANK()) |
+| Lõpetamata               | COUNTROWS(FILTER('Production order', 'Production order'\[Is in full\] = FALSE && 'Production order'\[Is RAF'ed\] = TRUE)) |
+| Mittetäielike %             | IFERROR( IF('Production order'\[Incomplete\] \<\> 0, 'Production order'\[Incomplete\], IF('Production order'\[Total orders\] = 0, BLANK(), 0)) / 'Production order'\[Total orders\], BLANK()) |
+| On hilinenud               | 'Production order'\[Is RAF'ed\] = TRUE && 'Production order'\[Delayed value\] = 1 |
+| On ennetähtaegne                 | 'Production order'\[Is RAF'ed\] = TRUE && 'Production order'\[Days delayed\] \< 0 |
+| On täielik               | 'Production order'\[Good quantity\] \>= 'Production order'\[Scheduled quantity\] |
+| On RAF'ed                | 'Production order'\[Production status value\] = 5 \|\| 'Production order'\[Production status value\] = 7 |
+| Hilinenud ja täielik           | COUNTROWS(FILTER('Production order', 'Production order'\[Is in full\] = TRUE && 'Production order'\[Is delayed\] = TRUE)) |
+| Hilinenud \#                  | COUNTROWS(FILTER('Production order', 'Production order'\[Is delayed\] = TRUE)) |
+| Hilinenute %                   | IFERROR( IF('Production order'\[Late \#\] \<\> 0, 'Production order'\[Late \#\], IF('Production order'\[Total orders\] = 0, BLANK(), 0)) / 'Production order'\[Total orders\], BLANK()) |
+| Õigeaegsed ja täielikud        | COUNTROWS(FILTER('Production order', 'Production order'\[Is in full\] = TRUE && 'Production order'\[Is delayed\] = FALSE && 'Production order'\[Is early\] = FALSE)) |
+| Õigeaegsuse ja täielikkuse %      | IFERROR( IF('Production order'\[On-time & in full\] \<\> 0, 'Production order'\[On-time & in full\], IF('Production order'\[Completed\] = 0, BLANK(), 0)) / 'Production order'\[Completed\], BLANK()) |
 | Tellimusi kokku             | COUNTROWS('Production order') |
-| Lõplik kogus           | SUM('Production order'[Good quantity]) + SUM('Production order'[Defective quantity]) |
-| Defektimäär (ppm)        | IF( 'Route transactions'[Processed quantity] = 0, BLANK(), (SUM('Route transactions'[Defective quantity]) / 'Route transactions'[Processed quantity]) \* 1000000) |
-| Kombineeritud defektimäär (ppm) | IF( 'Route transactions'[Total mixed quantity] = 0, BLANK(), (SUM('Route transactions'[Defective quantity]) / 'Route transactions'[Total mixed quantity]) \* 1000000) |
-| Töödeldud kogus       | SUM('Route transactions'[Good quantity]) + SUM('Route transactions'[Defective quantity]) |
-| Kombineeritud kogus kokku     | SUM('Production order'[Good quantity]) + SUM('Route transactions'[Defective quantity]) |
+| Lõplik kogus           | SUM('Production order'\[Good quantity\]) + SUM('Production order'\[Defective quantity\]) |
+| Defektimäär (ppm)        | IF( 'Route transactions'\[Processed quantity\] = 0, BLANK(), (SUM('Route transactions'\[Defective quantity\]) / 'Route transactions'\[Processed quantity\]) \* 1000000) |
+| Kombineeritud defektimäär (ppm) | IF( 'Route transactions'\[Total mixed quantity\] = 0, BLANK(), (SUM('Route transactions'\[Defective quantity\]) / 'Route transactions'\[Total mixed quantity\]) \* 1000000) |
+| Töödeldud kogus       | SUM('Route transactions'\[Good quantity\]) + SUM('Route transactions'\[Defective quantity\]) |
+| Kombineeritud kogus kokku     | SUM('Production order'\[Good quantity\]) + SUM('Route transactions'\[Defective quantity\]) |
 
 Järgmises tabelis olevaid põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate andmiseks.
 
@@ -130,6 +130,4 @@ Järgmises tabelis olevaid põhidimensioone kasutatakse filtritena koondmõõtmi
 | Üksused                  | ID ja nimi                                                   |
 | Ressursid                 | Ressursi ID, ressursi nimi, ressursitüüp ja ressursigrupp |
 | Tooted                  | Tootenumber, toote nimi, kauba ID ja kaubagrupp         |
-
-
 

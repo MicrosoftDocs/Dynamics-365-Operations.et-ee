@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,34 @@ Selles teemas kirjeldatakse **tööjõu mõõdikute** Microsoft Power BI sisu. S
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 **Tööjõu mõõdikute** Power BI sisu kuvatakse tööruumis **Personalijuhtimine**, kui kasutate ühte järgmistest toodetest:
 
-- Microsoft Dynamics 365 for Finance and Operations 
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
 Järgmine tabel loetleb igas aruandes kuvatavad mõõdikud.
 
-| Aruanne                                           | Mõõdikud                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Inimeste mõõdikud                                   | Teiste aruannete kokkuvõte                                                                                                                           |
-| Headcount Analysis Company, osakond, asukoht | Töötajate arv ettevõtte, osakonna ja asukoha järgi ning töötajate koguarv.                                                                                                                           |
-| Töötajate koguarvu analüüsitöö, etapp, juhataja            | Töötajate arv töökoha, etapi ja halduri järgi ning töötajate koguarv                                                                                                                                      |
-| Töötajate koguarvu suundumuste analüüs                         | Töötajate koguarv sellel aastal vs eelmisel aastal ettevõtte järgi ja töötajate koondarv viimase 12 kuu kohta                                                                                                                        |
+| Aruanne                                           | Mõõdikud |
+|--------------------------------------------------|---------|
+| Inimeste mõõdikud                                   | Teiste aruannete kokkuvõte |
+| Headcount Analysis Company, osakond, asukoht | Töötajate arv ettevõtte, osakonna ja asukoha järgi ning töötajate koguarv. |
+| Töötajate koguarvu analüüsitöö, etapp, juhataja            | Töötajate arv töökoha, etapi ja halduri järgi ning töötajate koguarv |
+| Töötajate koguarvu suundumuste analüüs                         | Töötajate koguarv sellel aastal vs eelmisel aastal ettevõtte järgi ja töötajate koondarv viimase 12 kuu kohta |
 | TTE analüüs                                     | Täistööaja ekvivalent kokku (TTE), määratud TTE kokku, TTE osakondade kaupa, TTE viimase 12 kuu kohta ja TTE töö kohta |
 | Tööjõu demograafilised andmed                           | Töötajate arv vanuse ja soo, etnilise päritolu, veteranistaatuse ja perekonnaseisu järgi, täiskohaga õpilaste arv, keskmine ametiaeg, keskmine vanus, naissoost ja meessoost töötajate suhtarv ning keeled, mida töötajad räägivad |
-| Ametikohaanalüüs                                | Avatud ametikohad osakonna järgi, täitmiseks avatud ametikohad, aktiivsed kuni mitteaktiivsed ametikohad ja ametikohad osakonna järgi                                                                                                   |
-| Kinnipidamise analüüs                               | Kinnipidamine sellel aastal vs eelmisel aastal, kinnipidamine, lahkuvad töötajad vanuse ja soo järgi, lahkuvate töötajate keskmine ametiaeg, sel kuul lahkuvad töötajad ja lahkuvad töötajad põhjuse järgi                                                                   |
-| Inimesed osakonniti                             | Personalinumbriga töötajad osakonna, ametikoha ja määramise algus- ja lõppkuupäevade alusel                                                                                                                       |
-| Staažianalüüs                               | Keskmine ametiaeg, keskmine tööaastate arv ettevõtte järgi ja staažiloend                                                                                                                                                              |
-| Töötaja tähtpäevad                           | Tähtpäevi sellel kuul, tähtpäevi järgmisel kuul, töötajad tööaastate järgi ja tähtpäevad, tööaastad osakonna järgi                                                                                                                                                                    |
-| Töötajate sünnipäevad                               | Sünnipäevad sellel kuul, sünnipäevad järgmisel kuul, töötajate sünnipäevad ja sünnipäevad kuu ning osakonna järgi                                                                                                                                                                    |
-| Hulgivärbamisprojektid                               | Hulgivärbamisprojekte kokku, hulgivärbamisprojektid oleku järgi, hulgivärbamisprojektid osakonna ja omaniku järgi, hulgivärbamisprojektid töö järgi ja hulgivärbamisprojektid                                                                                                                                                                    |
+| Ametikohaanalüüs                                | Avatud ametikohad osakonna järgi, täitmiseks avatud ametikohad, aktiivsed kuni mitteaktiivsed ametikohad ja ametikohad osakonna järgi |
+| Kinnipidamise analüüs                               | Kinnipidamine sellel aastal vs eelmisel aastal, kinnipidamine, lahkuvad töötajad vanuse ja soo järgi, lahkuvate töötajate keskmine ametiaeg, sel kuul lahkuvad töötajad ja lahkuvad töötajad põhjuse järgi |
+| Inimesed osakonniti                             | Personalinumbriga töötajad osakonna, ametikoha ja määramise algus- ja lõppkuupäevade alusel |
+| Staažianalüüs                               | Keskmine ametiaeg, keskmine tööaastate arv ettevõtte järgi ja staažiloend |
+| Töötaja tähtpäevad                           | Tähtpäevi sellel kuul, tähtpäevi järgmisel kuul, töötajad tööaastate järgi ja tähtpäevad, tööaastad osakonna järgi |
+| Töötajate sünnipäevad                               | Sünnipäevad sellel kuul, sünnipäevad järgmisel kuul, töötajate sünnipäevad ja sünnipäevad kuu ning osakonna järgi |
+| Hulgivärbamisprojektid                               | Hulgivärbamisprojekte kokku, hulgivärbamisprojektid oleku järgi, hulgivärbamisprojektid osakonna ja omaniku järgi, hulgivärbamisprojektid töö järgi ja hulgivärbamisprojektid |
 
 Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Laadige kindlasti alla **tööjõu mõõdikute** Power BI sisu, mis kehtib teie kasutatava Microsoft Dynamics 365 versiooni puhul.
 
->[!NOTE]
->Teenuses Lifecycle Services olevad PBIX-failid kehtivad ainult Finance and Operationsi puhul.
+> [!NOTE]
+> Teenuses Lifecycle Services olevad PBIX-failid kehtivad ainult Finance and Operationsi puhul.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 Järgmises tabelis on toodud sisu aluseks olevad üksused.
@@ -88,6 +88,4 @@ Järgmises tabelis on toodud sisu aluseks olevad üksused.
 | Töötaja trend           | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                 | Ettevõte, geograafiline asukoht, töötaja nimi, otsene juht, kalendri tasakaalustus, kuupäev, töötaja ametinimetus, demograafilised andmed, töösuhe, töö |
 | Hulgivärbamisprojekt        | Hulgivärbamisprojektide arv, projekti omanik ja projekti olek                     | Ettevõte, hulgivärbamise rida |
 | Hulgivärbamise rida           | Osakond, töösuhte tüüp ja amet                                           | Kuupäev, töö, hulgivärbamisprojekt |
-
-
 

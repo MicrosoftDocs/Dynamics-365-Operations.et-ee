@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 **Kuluhalduse** Microsoft Power BI sisu on mõeldud laoraamatupidajatele või organisatsioonis varude eest vastutavatele või varude olekust või lõpetamata toodangust (WIP) huvitatud üksikisikutele või neile, kes vastutavad või on huvitatud standardkulu erinevuste analüüsimisest.
 
-> [!Note]
+> [!NOTE]
 > Selles teemas kirjeldatud **Kuluhalduse** Power BI sisu kehtib rakenduse Dynamics 365 for Finance and Operations 8.0 puhul.
 > 
 > Saidil AppSource saadaval olev **Kuluhalduse** Power BI sisupakett on aegunud. Lisateavet aegumise kohta vt teemast [AppSource’is saadaval olevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ Järgmised tabelid annavad ülevaate **Kuluhalduse** Power BI sisu visualiseerin
 |                                         | 10 peamist ressurssi ebasoodsa tootmishälbe järgi  |
 |                                         | 10 peamist ressurssi soodsa tootmishälbe järgi    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
+## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
 Rakenduse Microsoft Dynamics 365 for Finance and Operations andmeid kasutatakse **Kuluhalduse** Power BI sisu aruande lehtede täitmiseks. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusesse, mis on analüüsimiseks optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Power BI integratsioon üksuse kauplusega](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ Järgmises tabelis on toodud peamised arvutatud mõõtmised Power BI sisus.
 
 | Mõõt                            | Kalkulatsioon |
 |------------------------------------|-------------|
-| Algsaldo                  | Algsaldo = [Lõppsaldo] - [Netomuutus] |
-| Koguse algsaldo             | Koguse algsaldo = [Lõppsaldo kogus] - [Netomuutuse kogus] |
-| Lõppsaldo                     | Lõppsaldo = (CALCULATE(SUM([Summa]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Koguse lõppsaldo                | Koguse lõppsaldo = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Netomuutus                         | Netomuutus = SUM([AMOUNT]) |
-| Koguse netomuutuse                    | Koguse netomuutuse = SUM([QTY]) |
-| Lao ringluskiirus summa järgi | Lao ringluskiirus summa järgi = if(OR([Varude keskmine saldo] \<= 0, [Müüdud või tarbitud varude väljaminekud] \>= 0), 0, ABS([Müüdud või tarbitud varude väljaminekud])/[Varude keskmine saldo]) |
-| Varude keskmine saldo          | Varude keskmine saldo = (([Lõppsaldo] + [Algsaldo]) / 2) |
-| Vaba kaubavaru hoidmise päevad             | Vaba kaubavaru hoidmise päevad = 365 / CostObjectStatementEntries[Lao ringluskiirus summa järgi] |
-| Varude täpsus                 | Varude täpsus summa alusel = IF([Lõppsaldo] \<= 0, IF(OR([Varude loetud summa] \<\> 0, [Lõppsaldo] \< 0), 0, 1), MAX(0, ([Lõppsaldo] - ABS([Varude loetud summa]))/[Lõppsaldo])) |
+| Algsaldo                  | Algsaldo = \[Lõppsaldo\]-\[Netomuutus\] |
+| Koguse algsaldo             | Koguse algsaldo = \[Lõppsaldo kogus\]-\[Netomuutuse kogus\] |
+| Lõppsaldo                     | Lõppsaldo = (CALCULATE(SUM(\[Summa\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Koguse lõppsaldo                | Koguse lõppsaldo = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Netomuutus                         | Netomuutus = SUM(\[AMOUNT\]) |
+| Koguse netomuutuse                    | Netomuutuse kogus = SUM(\[QTY\]) |
+| Lao ringluskiirus summa järgi | Lao ringluskiirus summa järgi = if(OR(\[Varude keskmine saldo\] \<= 0, \[Müüdud või tarbitud varude väljaminekud\] \>= 0), 0, ABS(\[Müüdud või tarbitud varude väljaminekud\])/\[Varude keskmine saldo\]) |
+| Varude keskmine saldo          | Varude keskmine saldo = ((\[Lõppsaldo\] + \[Algsaldo\]) / 2) |
+| Vaba kaubavaru hoidmise päevad             | Vaba kaubavaru hoidmise päevad = 365 / CostObjectStatementEntries\[Lao ringluskiirus summa järgi\] |
+| Varude täpsus                 | Varude täpsus summa alusel = IF(\[Lõppsaldo\] \<= 0, IF(OR(\[Varude loetud summa\] \<\> 0, \[Lõppsaldo\] \< 0), 0, 1), MAX(0, (\[Lõppsaldo\] - ABS(\[Varude loetud summa\]))/\[Lõppsaldo\])) |
 
 Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate andmiseks.
 
 
-|                         Üksus                          |             Atribuutide näited              |
+| Üksus                                                  | Atribuutide näited                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Tooted                         | Tootenumber, toote nimi, ühik, kaubagrupid |
-| Kategooriahierarhiad (määratud rolli Kuluhaldus) |       Kategooriahierarhia, kategooria tase        |
-|                     Juriidilised isikud                      |               Juriidilise isiku nimed                |
-|                    Rahandussaasta kalendrid                     |  Rahanduskalender, aasta, kvartal, periood, kuu  |
-|                          Sait                           |        ID, nimi, aadress, maakond, riik        |
-
+| Tooted                                                | Tootenumber, toote nimi, ühik, kaubagrupid |
+| Kategooriahierarhiad (määratud rolli Kuluhaldus) | Kategooriahierarhia, kategooria tase              |
+| Juriidilised isikud                                          | Juriidilise isiku nimed                              |
+| Rahandussaasta kalendrid                                        | Rahanduskalender, aasta, kvartal, periood, kuu   |
+| Sait                                                    | ID, nimi, aadress, maakond, riik               |
 

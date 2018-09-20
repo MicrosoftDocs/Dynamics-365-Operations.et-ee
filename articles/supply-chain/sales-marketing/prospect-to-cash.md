@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
-ms.openlocfilehash: 9d20a0ba92010be17029b1b0fc826eee1cded279
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,8 +33,7 @@ ms.lasthandoff: 05/31/2018
 
 Lahendus Potentsiaalne klient sularahaks võimaldab vahetut sünkroonimist rakenduste Dynamics 365 for Finance and Operations ja Dynamics 365 for Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Finance, Operations ja Sales vahel. Andmete edastamise ajal rakenduste Finance and Operations ja Sales vahel saate teha Salesis müügi- ja turundustegevusi ning täita Finance and Operationsis varude halduse abil tellimusi. 
 
-Lisateabe saamiseks lahenduse Potentsiaalne klient sularahaks kohta vaadake YouTube’i lühivideot: [![](https://img.youtube.com/vi/AVV9x5x-XCg/0.jpg)](https://www.youtube.com/watch?v=AVV9x5x-XCg)
-
+Lisateabe saamiseks lahenduse Potentsiaalne klient sularahaks kohta vaadake YouTube’i lühivideot: [Potentsiaalse kliendi sularahaks integreerimine](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 Lahenduse Potentsiaalne klient sularahaks praegune versioon pakub vahetu sünkroonimise järgmisi tüüpe.
 
