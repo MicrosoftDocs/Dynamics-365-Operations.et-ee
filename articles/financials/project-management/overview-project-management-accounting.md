@@ -35,7 +35,9 @@ Projektihaduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas te
 Projekt on tegevuste grupp, mis on mõeldud teenuse osutamiseks, toodangu valmistamiseks või tulemuse saavutamiseks. Projektid tarbivad ressursse ja tekitavad finantstulemusi tulude või varade kujul.
 
 ## <a name="projects-across-industries"></a>Projektid valdkondade lõikes
-Projektihalduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas, nagu järgmisel joonisel näha. [![Projektid valdkondade lõikes](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+Projektihalduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas, nagu järgmisel joonisel näha.
+
+[![Projektid valdkondade lõikes](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Kõnekeskuses saab kasutada piletit kõne lahendamiseks vajalike tegevuste kogumi kirjeldamiseks. Nõustamisettevõtted (nt juhtimis- või tehnilise nõustamise organisatsioonid või reklaamiagentuurid) viitavad oma tegevustele kui projektidele. Turunduses tähistab kampaania tehtavate tööde kogumit. Projektipõhises tootmises on tootmistellimus seotud mitmesuguste töödega, mis tuleb valmis kaupade tootmiseks teha. Olenemata nimest, mida nende projektide puhul kasutatakse, hõlmavad need ressursse, graafikuid ja kulusid ja projektihalduse ning raamatupidamise funktsioon Microsoft Dynamics 365 Finance and for Operationsis võib aidata neid projekte plaanida, läbi viia ja analüüsida.
 
