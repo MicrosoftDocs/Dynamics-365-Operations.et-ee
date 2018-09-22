@@ -19,66 +19,59 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
-# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="e86e1-104">Kasutaja eelistused finantsaruannete koosturis</span><span class="sxs-lookup"><span data-stu-id="e86e1-104">User preferences in financial report designer</span></span>
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="c9180-104">Kasutaja eelistused finantsaruannete koosturis</span><span class="sxs-lookup"><span data-stu-id="c9180-104">User preferences in financial report designer</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e86e1-105">Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toimingute kohandamiseks finantsaruande koosturis ja juhtida algset sisselogimiskogemust.</span><span class="sxs-lookup"><span data-stu-id="e86e1-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="e86e1-106">Saate juhtida ka eraldi aruannete, aruannete teegi ja failide vaikeasukohtade kuvamisviisi.</span><span class="sxs-lookup"><span data-stu-id="e86e1-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
+<span data-ttu-id="c9180-105">Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toimingute kohandamiseks finantsaruande koosturis ja juhtida algset sisselogimiskogemust.</span><span class="sxs-lookup"><span data-stu-id="c9180-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="c9180-106">Saate juhtida ka eraldi aruannete, aruannete teegi ja failide vaikeasukohtade kuvamisviisi.</span><span class="sxs-lookup"><span data-stu-id="c9180-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span>
 
-<a name="set-user-preferences"></a><span data-ttu-id="e86e1-107">Kasutaja eelistuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="e86e1-107">Set user preferences</span></span>
---------------------
+## <a name="set-user-preferences"></a><span data-ttu-id="c9180-107">Kasutaja eelistuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="c9180-107">Set user preferences</span></span>
 
-1.  <span data-ttu-id="e86e1-108">Klõpsake aruandekoosturi menüüs **Tööriistad** valikut **Suvandid**.</span><span class="sxs-lookup"><span data-stu-id="e86e1-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
-2.  <span data-ttu-id="e86e1-109">Valige dialoogiboksist **Suvandid** oma eelistused.</span><span class="sxs-lookup"><span data-stu-id="e86e1-109">In the **Options** dialog box, select your preferences.</span></span>
-3.  <span data-ttu-id="e86e1-110">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="e86e1-110">Click **OK**.</span></span>
+1. <span data-ttu-id="c9180-108">Klõpsake aruandekoosturi menüüs **Tööriistad** valikut **Suvandid**.</span><span class="sxs-lookup"><span data-stu-id="c9180-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2. <span data-ttu-id="c9180-109">Valige dialoogiboksist **Suvandid** oma eelistused.</span><span class="sxs-lookup"><span data-stu-id="c9180-109">In the **Options** dialog box, select your preferences.</span></span>
+3. <span data-ttu-id="c9180-110">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c9180-110">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a><span data-ttu-id="e86e1-111">Suvandite dialoogiboksi valikud</span><span class="sxs-lookup"><span data-stu-id="e86e1-111">Options dialog box options</span></span>
+## <a name="options-dialog-box-options"></a><span data-ttu-id="c9180-111">Suvandite dialoogiboksi valikud</span><span class="sxs-lookup"><span data-stu-id="c9180-111">Options dialog box options</span></span>
 <table>
 <thead>
-<tr class="header">
-<th><span data-ttu-id="e86e1-112">Kasutaja suvand</span><span class="sxs-lookup"><span data-stu-id="e86e1-112">User option</span></span></th>
-<th><span data-ttu-id="e86e1-113">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="e86e1-113">Description</span></span></th>
+<tr>
+<th><span data-ttu-id="c9180-112">Kasutaja suvand</span><span class="sxs-lookup"><span data-stu-id="c9180-112">User option</span></span></th>
+<th><span data-ttu-id="c9180-113">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="c9180-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><span data-ttu-id="e86e1-114">Käivitamisel</span><span class="sxs-lookup"><span data-stu-id="e86e1-114">At startup</span></span></td>
-<td><span data-ttu-id="e86e1-115">Saate valida, mida aruandekujundaja käivitumisel näete.</span><span class="sxs-lookup"><span data-stu-id="e86e1-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="e86e1-116">Tehke üks järgmistest valikutest:</span><span class="sxs-lookup"><span data-stu-id="e86e1-116">Select one of the following options:</span></span>
+<tr>
+<td><span data-ttu-id="c9180-114">Käivitamisel</span><span class="sxs-lookup"><span data-stu-id="c9180-114">At startup</span></span></td>
+<td><span data-ttu-id="c9180-115">Saate valida, mida aruandekujundaja käivitumisel näete.</span><span class="sxs-lookup"><span data-stu-id="c9180-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="c9180-116">Tehke üks järgmistest valikutest:</span><span class="sxs-lookup"><span data-stu-id="c9180-116">Select one of the following options:</span></span>
 <ul>
-<li><span data-ttu-id="e86e1-117"><strong>Laadi viimati laaditud aruanne</strong> – avab viimati vaadatud aruande.</span><span class="sxs-lookup"><span data-stu-id="e86e1-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
-<li><span data-ttu-id="e86e1-118"><strong>Kuva aken Avatud</strong> – avab akna <strong>Avatud</strong>.</span><span class="sxs-lookup"><span data-stu-id="e86e1-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="e86e1-119">Aken <strong>Avatud</strong> pakub otsinguakent, mida saate kasutada koosteüksuste kiireks leidmiseks.</span><span class="sxs-lookup"><span data-stu-id="e86e1-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
-<li><span data-ttu-id="e86e1-120"><strong>Kuva tühi keskkond</strong> – avab tühja koosturiakna.</span><span class="sxs-lookup"><span data-stu-id="e86e1-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
+<li><span data-ttu-id="c9180-117"><strong>Laadi viimati laaditud aruanne</strong> – avab viimati vaadatud aruande.</span><span class="sxs-lookup"><span data-stu-id="c9180-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="c9180-118"><strong>Kuva aken Avatud</strong> – avab akna <strong>Avatud</strong>.</span><span class="sxs-lookup"><span data-stu-id="c9180-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="c9180-119">Aken <strong>Avatud</strong> pakub otsinguakent, mida saate kasutada koosteüksuste kiireks leidmiseks.</span><span class="sxs-lookup"><span data-stu-id="c9180-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="c9180-120"><strong>Kuva tühi keskkond</strong> – avab tühja koosturiakna.</span><span class="sxs-lookup"><span data-stu-id="c9180-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="e86e1-121">Kuva kinnitus enne aruandekujundajast väljumist</span><span class="sxs-lookup"><span data-stu-id="e86e1-121">Display confirmation before exiting Report Designer</span></span></td>
-<td><span data-ttu-id="e86e1-122">Saate valida, kas saada rakendusest väljumisel hoiatusteade.</span><span class="sxs-lookup"><span data-stu-id="e86e1-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="e86e1-123">See teade aitab tagada, et te ei väljuks programmist tahtmatult.</span><span class="sxs-lookup"><span data-stu-id="e86e1-123">This message helps guarantee that you don&#39;t exit the program unintentionally.</span></span></td>
+<tr>
+<td><span data-ttu-id="c9180-121">Kuva kinnitus enne aruandekujundajast väljumist</span><span class="sxs-lookup"><span data-stu-id="c9180-121">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="c9180-122">Saate valida, kas saada rakendusest väljumisel hoiatusteade.</span><span class="sxs-lookup"><span data-stu-id="c9180-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="c9180-123">See teade aitab tagada, et te ei väljuks programmist tahtmatult.</span><span class="sxs-lookup"><span data-stu-id="c9180-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
 </tr>
-<tr class="odd">
-<td><span data-ttu-id="e86e1-124">Rakenda veerupäistes automaatselt lahtrite allajoonimist</span><span class="sxs-lookup"><span data-stu-id="e86e1-124">Automatically apply cell underline in column headers</span></span></td>
-<td><span data-ttu-id="e86e1-125">Valige, kas lisada uue veeru päise lahtrisse allakriipsutus.</span><span class="sxs-lookup"><span data-stu-id="e86e1-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
+<tr>
+<td><span data-ttu-id="c9180-124">Rakenda lahtri allakriipsutus veerupäistes automaatselt</span><span class="sxs-lookup"><span data-stu-id="c9180-124">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="c9180-125">Valige, kas lisada uue veeru päise lahtrisse allakriipsutus.</span><span class="sxs-lookup"><span data-stu-id="c9180-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="e86e1-126">Halduse aruandja failide asukoht</span><span class="sxs-lookup"><span data-stu-id="e86e1-126">Management Reporter files location</span></span></td>
-<td><span data-ttu-id="e86e1-127">Määrab failide vaikeasukoha.</span><span class="sxs-lookup"><span data-stu-id="e86e1-127">Specify the default location for files.</span></span> <span data-ttu-id="e86e1-128">Rakendus kasutab koosteüksuste rühmade eksportimisel vaikeasukohta.</span><span class="sxs-lookup"><span data-stu-id="e86e1-128">The application uses the default location when you export building block groups.</span></span></td>
+<tr>
+<td><span data-ttu-id="c9180-126">Halduse aruandja failide asukoht</span><span class="sxs-lookup"><span data-stu-id="c9180-126">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="c9180-127">Määrab failide vaikeasukoha.</span><span class="sxs-lookup"><span data-stu-id="c9180-127">Specify the default location for files.</span></span> <span data-ttu-id="c9180-128">Rakendus kasutab koosteüksuste rühmade eksportimisel vaikeasukohta.</span><span class="sxs-lookup"><span data-stu-id="c9180-128">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
+## <a name="additional-resources"></a><span data-ttu-id="c9180-129">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="c9180-129">Additional resources</span></span>
 
-
-<a name="additional-resources"></a><span data-ttu-id="e86e1-129">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="e86e1-129">Additional resources</span></span>
---------
-
-[<span data-ttu-id="e86e1-130">Finantsaruandlus</span><span class="sxs-lookup"><span data-stu-id="e86e1-130">Financial reporting</span></span>](financial-reporting-intro.md)
-
-
-
+[<span data-ttu-id="c9180-130">Finantsaruandlus</span><span class="sxs-lookup"><span data-stu-id="c9180-130">Financial reporting</span></span>](financial-reporting-intro.md)
 
