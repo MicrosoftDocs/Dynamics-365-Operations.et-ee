@@ -26,6 +26,8 @@ ms.lasthandoff: 08/08/2018
 ---
 # <a name="remove-talent-environments"></a>Talenti keskkondade eemaldamine
 
+[!include [banner](includes/banner.md)]
+
 See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks.
 
 ## <a name="removing-a-test-drive-environment"></a>Proovikeskkonna eemaldamine

@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Enne alustamist peate looma või hankima Power BI aruande, mille soovite tööru
 Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.
 
 1. Looge asjakohases mudelis uus projekt.
-2. Valige Solution Exploreris projekt, paremklõpsake ja siis valige suvandid **Lisa** > **Uus üksus**.
+2. Valige Solution Exploreris projekt, paremklõpsake seda ja seejärel valige suvandid **Lisa** \> **Uus üksus**.
 3. Valige dialoogiboksi **Uue üksuse lisamine** jaotises **Toimingute artefaktid** mall **Ressurss**.
 4. Sisestage nimi, mida kasutatakse aruande viitamiseks X++ metaandmetes, ja klõpsake nuppu **Lisa**.
 
@@ -77,7 +77,7 @@ Vormi määratluse laiendamiseks tööruumi **Reserveerimise haldus** puhul toim
 
 1. Avage kujunduse määratluse laiendamiseks vormikujundaja.
 2. Valige kujunduse määratluses ülemine element sildiga **Kujundus | Muster: tegevuses tööruum**.
-3. Paremklõpsake ja valige suvandid **Uus** > **Vahekaart**, et lisada uus juhtelement nimega **FormTabControl1**.
+3. Paremklõpsake ja valige suvandid **Uus** \> **Vahekaart**, et lisada uus juhtelement nimega **FormTabControl1**.
 4. Valige vormikujundajas suvand **FormTabControl1**.
 5. Paremklõpsake ja valige uue vahekaardilehe lisamiseks suvand **Uus vahekaardileht**.
 6. Andke vahekaardilehele tähenduslik nimi, näiteks **Tööruum**.
@@ -86,12 +86,12 @@ Vormi määratluse laiendamiseks tööruumi **Reserveerimise haldus** puhul toim
 9. Andke vahekaardilehele tähenduslik nimi, näiteks **Analüütika**.
 10. Valige vormikujundajas suvand **Analüütika (vahekaardileht)**.
 11. Seadke atribuudi **Pealdis** sätteks **Analüütika**.
-12. Paremklõpsake juhtelementi ja valige suvandid **Uus** > **Rühm**, et lisada uus vormirühma juhtelement.
+12. Paremklõpsake juhtelementi ja valige suvandid **Uus** \> **Rühm**, et lisada uus vormirühma juhtelement.
 13. Andke vormirühmale tähenduslik nimi, näiteks **powerBIReportGroup**.
 14. Valige vormikujundajas suvand **PanoramaBody (vahekaart)** ja seejärel lohistage juhtelement vahekaardile **Tööruum**.
 15. Valige kujunduse määratluses ülemine element sildiga **Kujundus | Muster: tegevuses tööruum**.
 16. Paremklõpsake ja valige suvand **Eemalda muster**.
-17. Paremklõpsake uuesti ja valige suvandid **Lisa muster** > **Vahekaartidega tööruum**.
+17. Paremklõpsake uuesti ja valige suvandid **Lisa muster** \> **Vahekaartidega tööruum**.
 18. Koostage järk muudatuste kinnitamiseks.
 
 Järgmisel joonisel on näha, milline näeb kujundus välja pärast nende muudatuste rakendamist.
@@ -116,7 +116,7 @@ Tööruumi **Reserveerimise haldus** kaasatud aruandevaaturi juhtelementi lähte
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Tööruumi **Reserveerimise haldus** kaasatud aruandevaaturi juhtelementi lähte
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ See jaotis annab teavet abilise klassi kohta, mida kasutatakse Power BI aruande 
 #### <a name="syntax"></a>Süntaks
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Parameetrid
 
-|       Nimi       |                                                              Kirjeldus                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    Pbix-ressursi nimi                                                     |
-| formGroupControl |                                    Vormirühma juhtelement, millele Power BI aruande juhtelement rakendada.                                     |
-| defaultPageName  |                                                         Vaikelehe nimi.                                                         |
-|  showFilterPane  |   Kahendmuutuja väärtus, mis näitab, kas filtripaan tuleb kuvada (<strong>tõene</strong>) või peita (<strong>väär</strong>).   |
-|   showNavPane    | Kahendmuutuja väärtus, mis näitab, kas navigeerimispaan tuleb kuvada (<strong>tõene</strong>) või peita (<strong>väär</strong>). |
-|  defaultFilters  |                                              Power BI aruande vaikefiltrid.                                              |
-
+| Nimi             | Kirjeldus                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | Pbix-ressursi nimi                                                                              |
+| formGroupControl | Vormirühma juhtelement, millele Power BI aruande juhtelement rakendada.                                              |
+| defaultPageName  | Vaikelehe nimi.                                                                                       |
+| showFilterPane   | Kahendmuutuja väärtus, mis näitab, kas filtripaan tuleb kuvada (**tõene**) või peita (**väär**).     |
+| showNavPane      | Kahendmuutuja väärtus, mis näitab, kas navigeerimispaan tuleb kuvada (**tõene**) või peita (**väär**). |
+| defaultFilters   | Power BI aruande vaikefiltrid.                                                                 |
 

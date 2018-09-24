@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Kõik sisus antud summad on näidatud süsteemivaluutas. Süsteemi valuuta saab 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 
 Power BI sisu **Harjutushaldur** kuvatakse tööruumis **Projektihaldus**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
 
@@ -85,8 +84,7 @@ Järgmistes jaotistes kirjeldatakse igas üksuses kasutatavaid koondmõõtmisi.
 
 | Peamine koondmõõtmine | Väli                                             | Kirjeldus |
 |---------------------------|---------------------------------------------------|-------------|
-| Projektide arv        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Olemasolevate projektide arv. |
-
+| Projektide arv        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Olemasolevate projektide arv. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Üksus: ProjectAccountingCube\_Forecasts
 **Andmeallikas:** ProjTransBudget
@@ -109,18 +107,16 @@ Järgmistes jaotistes kirjeldatakse igas üksuses kasutatavaid koondmõõtmisi.
 
 | Peamine koondmõõtmine    | Väli | Kirjeldus |
 |------------------------------|-------|-------------|
-| Kulujõudluse indeks       | ProjectAccountingCube\_Projects[Teenitud väärtus] ÷ ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete tegelik kogukulu] | Kogu teenitud väärtuse ja tegeliku kulu jagatise arvutus. |
-| Jõudluse plaanimise indeks   | ProjectAccountingCube\_Projects[Teenitud väärtus] ÷ ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete plaanitud kogukulu] | Kogu teenitud väärtuse ja kogu plaanitud kulu jagatise arvutus. |
-| Valmis töö protsendimäär | Valmis töö protsendimäär = ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete tegelik kogukulu] ÷ (ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete tegelik kogukulu] + ProjectAccountingCube\_Projects[Projekti plaanitud kogukulu] – ProjectAccountingCube\_Projects[Lõpuleviidud ülesannete plaanitud kogukulu]) | Lõpuleviidud töö koguprotsent, mis põhineb kogu lõpetatud ülesande tegelikul kulul ja projekti plaanitud kulul. |
-| Tegelike arveldatavate tundide suhtarv  | ProjectAccountingCube\_Projects[Projekti tegelike arveldatavate kasutatud tundide koguarv] ÷ (ProjectAccountingCube\_Projects[Projekti tegelike arveldatavate kasutatud tundide koguarv] + ProjectAccountingCube\_Projects[Projekti tegelike arveldatavate kasutatud tundide koguarv]) | Tegelikud arveldatavad tunnid kasutatud tundide ja seisakutundide põhjal. |
-| Plaanitud väärtus                 | ProjectAccountingCube\_Projects[Projekti plaanitud kogukulu] × ProjectAccountingCube\_Projects[Lõpuleviidud töö protsent] | Plaanitud kogukulu ja lõpuleviidud töö protsendi korrutis. |
+| Kulujõudluse indeks       | ProjectAccountingCube\_Projects\[Teenitud väärtus\] ÷ ProjectAccountingCube\_Projects\[Lõpuleviidud ülesannete tegelik kogukulu\] | Kogu teenitud väärtuse ja tegeliku kulu jagatise arvutus. |
+| Jõudluse plaanimise indeks   | ProjectAccountingCube\_Projects\[Teenitud väärtus\] ÷ ProjectAccountingCube\_Projects\[Lõpuleviidud ülesannete plaanitud kogukulu\] | Kogu teenitud väärtuse ja kogu plaanitud kulu jagatise arvutus. |
+| Valmis töö protsendimäär | Valmis töö protsendimäär = ProjectAccountingCube\_Projects\[Lõpuleviidud ülesannete tegelik kogukulu\] ÷ (ProjectAccountingCube\_Projects\[Lõpuleviidud ülesannete tegelik kogukulu\] + ProjectAccountingCube\_Projects\[Projekti plaanitud kogukulu\] – ProjectAccountingCube\_Projects\[Lõpuleviidud ülesannete plaanitud kogukulu\]) | Lõpuleviidud töö koguprotsent, mis põhineb kogu lõpetatud ülesande tegelikul kulul ja projekti plaanitud kulul. |
+| Tegelike arveldatavate tundide suhtarv  | ProjectAccountingCube\_Projects\[Projekti tegelike arveldatavate kasutatud tundide koguarv\] ÷ (ProjectAccountingCube\_Projects\[Projekti tegelike arveldatavate kasutatud tundide koguarv\] + ProjectAccountingCube\_Projects\[Projekti tegelike arveldatavate kasutatud tundide koguarv\]) | Tegelikud arveldatavad tunnid kasutatud tundide ja seisakutundide põhjal. |
+| Plaanitud väärtus                 | ProjectAccountingCube\_Projects\[Projekti plaanitud kogukulu\] × ProjectAccountingCube\_Projects\[Lõpuleviidud töö protsent\] | Plaanitud kogukulu ja lõpuleviidud töö protsendi korrutis. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Üksus: ProjectAccountingCube\_TotalEstimatedCosts 
 **Andmeallikas:** ProjTable
 
-
-|    Peamine koondmõõtmine    |        Väli        |                                          Kirjeldus                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Peamine koondmõõtmine       | Väli               | Kirjeldus |
+|---------------------------------|---------------------|-------------|
 | Lõpetatud tegevuse plaanitud kulu | Sum(TotalCostPrice) | Kogu omahinna prognoos kõigi lõpetatud ülesannetega projektikannete tüüpide kohta. |
-
 

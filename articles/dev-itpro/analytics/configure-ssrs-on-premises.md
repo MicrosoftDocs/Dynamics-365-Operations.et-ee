@@ -18,10 +18,10 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b18050aa3c01db5667f0a529e3eb0c5eba971dc8
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>SQL Serveri aruandlusteenuste konfigureerimine kohapealseteks juurutamisteks
@@ -31,56 +31,67 @@ ms.lasthandoff: 08/08/2018
 Kasutage selles teemas toodud etappe SQL Serveri aruandlusteenuste (SSRS) konfigureerimiseks oma rakenduse Microsoft Dynamics 365 for Finance and Operations (kohapealne) juurutuse puhul.
 
 1. Avage aruandlusteenuste konfiguratsioonihalduri rakendus.
-2. Jätke alles välja **Serveri nimi**, mis peaks olema praeguse seadme nimi, ning väljade **Report Server Instance**, **MSSQLSERVER** vaikeväärtus. 
+2. Jätke alles välja **Serveri nimi**, mis peaks olema praeguse seadme nimi, ning väljade **Report Server Instance**, **MSSQLSERVER** vaikeväärtus.
 3. Klõpsake käsku **Ühenda**.
-   
-   [![Aruandlusteenuste konfiguratsiooni ühendus](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)
-   
+
+    [![Aruandlusteenuste konfiguratsiooni ühendus](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)
+
 4. Klõpsake vahekaarti **Teenusekonto** ja kontrollige, kas sätted vastavad järgmisele joonisele.
 
     [![Vahekaart Teenusekonto](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)
-    
-5. Klõpsake vahekaarti **Veebiteenuse URL** ja kontrollige, kas sätted vastavad järgmisele joonisele. 
 
-    [![Vahekaart Veebiteenuse URL](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png) 
-    
-6. Klõpsake vahekaarti **Andmebaas** ning kontrollige, kas **Andmebaasi nimi** ja **Identimisteabe sätted** vastavad järgmisele joonisele. **Märkus.** Peate looma uue andmebaasi. Selleks klõpsake nuppu **Muuda andmebaasi** ja kontrollige, kas uue andmebaasi nimi on **DynamicsAxReportServer**.
+5. Klõpsake vahekaarti **Veebiteenuse URL** ja kontrollige, kas sätted vastavad järgmisele joonisele.
+
+    [![Vahekaart Veebiteenuse URL](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)
+
+6. Klõpsake vahekaarti **Andmebaas** ning kontrollige, kas **Andmebaasi nimi** ja **Identimisteabe sätted** vastavad järgmisele joonisele.
+
+    > [!NOTE]
+    > Peate looma uue andmebaasi. Selleks klõpsake nuppu **Muuda andmebaasi** ja kontrollige, kas uue andmebaasi nimi on **DynamicsAxReportServer**.
 
     [![vahekaart andmebaas](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)
-    
-7. Klõpsake vahekaarti **Veebiportaali URL** ja kontrollige, kas sätted vastavad järgmisele joonisele. **Märkus.** Portaali loomiseks ja õigesti konfigureerimiseks peate klõpsama käsku **Rakenda**.
+
+7. Klõpsake vahekaarti **Veebiportaali URL** ja kontrollige, kas sätted vastavad järgmisele joonisele.
+
+    > [!NOTE]
+    > Portaali loomiseks ja õigesti konfigureerimiseks peate klõpsama käsku **Rakenda**.
 
     [![vahekaart veebiportaali url](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
-    
-   Kui portaal on konfigureeritud, vastab vahekaart **Veebiportaal** järgmisele joonisele.
+
+    Kui portaal on konfigureeritud, vastab vahekaart **Veebiportaal** järgmisele joonisele.
+
     [![vahekaart veebiportaal](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
-    
-8. Klõpsake aruannete URL-i, et kuvada SQL Serveri aruandlusteenuste veebiportaal. 
+
+8. Klõpsake aruannete URL-i, et kuvada SQL Serveri aruandlusteenuste veebiportaal.
 9. Kui olete portaalis, looge uus kaust nimega **Dynamics**.
 
-   [![kaust dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
-    
+    [![kaust dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+
 10. Klõpsake lehel **Aruandlusteenuste konfiguratsioonihaldur** vahekaarti **Meilisätted** ja kontrollige, kas sätted vastavad järgmisele joonisele.
 
     [![vahekaart meilisätted](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)
-    
+
 11. Klõpsake vahekaarti **Täitmiskonto** ja kontrollige, kas sätted vastavad järgmisele joonisele.
 
     [![vahekaart täitmiskonto](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
-    
-    Ärge muutke vahekaardi **Krüptimisvõtmed** vaikesätteid. [![krüptimisvõtmete vahekaart](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
-    
+
+    Ärge muutke vahekaardi **Krüptimisvõtmed** vaikesätteid.
+
+    [![vahekaart krüptimissätted](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+
 12. Klõpsake vahekaarti **Tellimuse sätted** ja kontrollige, kas sätted vastavad järgmisele joonisele.
 
     [![vahekaart tellimuse sätted](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
-    
-    Ärge muutke vahekaardi **Eskaleeritud juurutus** vaikesätteid. [![eskaleeritud juurutuse vahekaart](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
-    
-    Ärge muutke vahekaardi **Power BI integratsioon** vaikesätteid. [![power bi integratsiooni vahekaart](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
-    
+
+    Ärge muutke vahekaardi **Eskaleeritud juurutus** vaikesätteid.
+
+    [![vahekaart eskaleeritud juurutus](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+
+    Ärge muutke vahekaardi **Power BI integratsioon** vaikesätteid.
+
+    [![vahekaart power bi integratsioon](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
+
 13. Klõpsake akna **Aruandlusteenuste konfiguratsioonihaldur** sulgemiseks nuppu **Välju**.
 
     [![aruandlusteenuste konfiguratsioonihalduri sulgemine](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-    
-
 

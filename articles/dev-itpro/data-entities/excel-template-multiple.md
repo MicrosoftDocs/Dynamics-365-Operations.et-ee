@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,7 +36,7 @@ Oletame näiteks, et meil on üks Exceli fail koos töölehtedega **Laoalad** ja
 
 Teise üksuse, **Laod**, lisamisel vormilt **Faili lisamine** lahkumata võimaldab töölehe otsing valida töölehe **Laod** jälle ilma faili üles laadimata. Ainus põhjus uue faili üleslaadimiseks oleks see, kui töölehe **Laod** andmed oleksid eraldi failis.
 
-![Mitu töölehte](./media/AddFileMultipleWorkSheets.png) 
+![Mitu töölehte](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Töölehe ja üksuse vastenduse fikseerimine
 
@@ -51,5 +51,4 @@ Juhul kui andmeprojekti olemasolevate üksuste puhul tuleb üles laadida sama fa
 ## <a name="upload-a-file-using-run-project"></a>Faili üleslaadimine suvandiga Projekti käivitamine
 
 Impordiprojekti käivitamiseks saate Exceli faili üles laadida suvandiga **Projekti käivitamine**. Jälgige hoolikalt, et laadiksite üles ainult failid, millel on samad töölehed kui andmeprojekti andmeüksuste olemasolevatel vastendustel. Kui äsja üleslaaditud failist töölehte ei leita, kuvab süsteem tõrke ja peatab importimise. Kui mõne üksuse puhul tuleb töölehega vastendust muuta, tuleb vastendusi andmeprojektis kõigepealt andmeprojekti sees värskendada, enne kui kasutate faili funktsioonis **Projekti käivitamine**.
-
 

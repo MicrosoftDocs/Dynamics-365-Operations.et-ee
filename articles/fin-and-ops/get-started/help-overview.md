@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ Leiate meie sisu ka igasuguse otsingumootoriga. Soovitame kasutada parimate tule
 Rakendustel Finance and Operations, Retail ja Talent on dokumentide saidil ühine sisukord, mis võimaldab klientidel näha selle teema konteksti, millesse nad kuuluvad. Samuti võimaldab see kasutada sisukorra kohal olevat filtri juhtelementi otsitavate teemade leidmiseks.
 
 ### <a name="follow-a-topic"></a>Teema jälgimine
-Teema jälgimiseks klõpsake kommentaarivälja all olevat nuppu +Jälgi. Teema jälgimiseks peate sisse logima. Vaadake üksikasju jaotisest [Jätke meile kommentaar](#leave-us-a-comment).  
+Teema jälgimiseks klõpsake kommentaarivälja all olevat nuppu +Jälgi. Teema jälgimiseks peate sisse logima. Vaadake üksikasju jaotisest [Jätke meile tagasisidet](#leave-us-feedback).  
 
 ### <a name="use-an-rss-feed"></a>RSS-kanali kasutamine
 Unified Operationsi sisu kõigi värskenduste RSS-kanali tellimiseks kasutage brauseril, mis kasutab RSS-kanaleid (nt Internet Explorer) või RSS-kanali haldurit, järgmist linki: 

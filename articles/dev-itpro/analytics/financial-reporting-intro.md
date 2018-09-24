@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,31 @@ Finance and Operationsi finantsaruandlus võimaldab finants- ja äriprofessionaa
 Aruandlus hõlmab dimensiooni toetust. Seetõttu on kontosegmendid või dimensioonid kohe saadaval. Täiendavaid tööriistu ega konfigureerimistoiminguid pole vaja.
 
 ## <a name="financial-reporting-setup"></a>Finantsaruandluse häälestus
-Lehel **Finantsaruandluse häälestus** on kõigi süsteemis olevate finantsdimensioonide loend. **Pearaamat** > **Pearaamatu seadistamine** > **Finantsaruandluse häälestus**. 
+Lehel **Finantsaruandluse häälestus** on kõigi süsteemis olevate finantsdimensioonide loend. **Pearaamat** \> **Pearaamatu seadistamine** \> **Finantsaruandluse häälestus**.
 
 Lehel **Finantsaruandluse häälestus** on kaks jaotist, mis määratlevad andmeid, mille kohta esitate finantsaruandluses aruandeid:
 
-•   **Vahekaart Dimensioonid** – kuna erinevad ettevõtted kasutavad erinevaid dimensioone ja kontostruktuure, ei ole võimalik kindlaks määrata, millises järjekorras kasutajad soovivad kõiki finantsdimensioone aruannetes vaadata. Sellel lehel saate määrata, millises järjekorras soovite finantsmõõtmeid kuvada, kui loote ja vaatate finantsaruandluses aruannet.
-
-•   **Vahekaardil Atribuudid** saate valida, kas soovite, et valikuid **Hankijad** ja **Kliendid** saab kasutada atribuutidena filtreerimiseks ja aruande kujundamiseks. Tarnija ja kliendi aruandlus on kasulik ainult siis, kui te ei sisesta kannete sisestamisel ühte kandesse mitut tarnijat või klienti. Tarnija ja/või kliendi valimine pikendab integreerimise aega.
-
-
+- **Vahekaart Dimensioonid** – kuna eri ettevõtted kasutavad erinevaid dimensioone ja konto struktuure, ei ole võimalik kindlaks määrata, millises järjekorras kasutajad soovivad kõiki finantsdimensioone aruannetes vaadata. Sellel lehel saate määrata, millises järjekorras soovite finantsmõõtmeid kuvada, kui loote ja vaatate finantsaruandluses aruannet.
+- **Vahekaardil Atribuudid** saate valida, kas soovite, et valikuid **Hankijad** ja **Kliendid** saab kasutada atribuutidena filtreerimiseks ja aruande kujundamiseks. Tarnija ja kliendi aruandlus on kasulik ainult siis, kui te ei sisesta kannete sisestamisel ühte kandesse mitut tarnijat või klienti. Tarnija ja/või kliendi valimine pikendab integreerimise aega.
 
 ## <a name="financial-reporting-components"></a>Finantsaruandluse komponendid
 Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamist ja plaanimist.
 
-| Komponent        | Funktsioonid                                                                                                                                                                                                                                                                           | Lisateave                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Aruande kujundaja  | Saate luua aruande määratlemiseks ja koostamiseks ühendatavaid aruande koosteüksusi. Aruande viisard juhendab vähem kogenud kasutajaid kujunduse protsessis. Edasijõudnud kasutajad saavad luua uued aruande koosteüksused või muuta olemasolevaid koosteüksusi oma vajaduste järgi. |                                                                                                 |
-| Aruandegraafikud | Saate plaanida regulaarseks koostamiseks üksiku aruande või aruanderühma.                                                                                                                                                                                          | [Finantsaruande loomine](generate-financial-report.md) |
+| Komponent        | Funktsioonid | Lisateave |
+|------------------|-----------|------------------------|
+| Aruande kujundaja  | Saate luua aruande määratlemiseks ja koostamiseks ühendatavaid aruande koosteüksusi. Aruande viisard juhendab vähem kogenud kasutajaid kujunduse protsessis. Edasijõudnud kasutajad saavad luua uued aruande koosteüksused või muuta olemasolevaid koosteüksusi oma vajaduste järgi. | |
+| Aruandegraafikud | Saate plaanida regulaarseks koostamiseks üksiku aruande või aruanderühma. | [Finantsaruande loomine](generate-financial-report.md) |
 
 ## <a name="features"></a>Funktsioonid
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Funktsioon</th>
 <th>Kirjeldus</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Aruande kujunduse paindlikkus</td>
 <td>Aruandekoostur pakub aruande koostamisel järgmisi aruandlussuvandeid.
 <ul>
@@ -70,9 +67,10 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 <li>Dimensiooni kirjelduste vormindamise ja kuvamise juhtimine.</li>
 <li>Aruande koosteüksustest välja jäetud kontode või dimensioonide tuvastamine.</li>
 <li>Jooksvate prognooside päiste vormindamine.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Finantsaruande koostöö</td>
 <td>Järgmised funktsioonid aitavad teil hallata aruannete loomist ja jaotamist.
 <ul>
@@ -80,9 +78,10 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 <li>Eksportimine kirjutuskaitstud XPS-vormingusse, mis tagab parema dokumendi turvalisuse digitaalallkirjadele.</li>
 <li>Eksportimine Microsoft Exceli töölehele.</li>
 <li>Aruannete jagamiseks saate luua meilisõnumeid, mis sisaldavad linke aruannete juurde.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Interaktiivne aruande vaatamine</td>
 <td>Interaktiivsed funktsioonid võimaldavad teha järgmisi toiminguid.
 <ul>
@@ -99,8 +98,4 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 
 ## <a name="additional-resources"></a>Lisaressursid
 [Finantsaruande loomine](generate-financial-report.md)
-
-
-
-
 

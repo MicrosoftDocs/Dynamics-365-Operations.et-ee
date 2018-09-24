@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 
 #### <a name="data-integration"></a>Andmete integratsioon
 - [Potentsiaalse kliendi sularahaks integreerimine](https://youtu.be/AVV9x5x-XCg) 
-- [Töötellimuse sünkroonimine rakenduse Dynamics 365 for Field Service ja rakenduse Finance and Operations vahel](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [Töötellimuse sünkroonimine rakenduse Dynamics 365 for Field Service ja rakenduse Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Andmehaldus
 - [Andmeüksuste ja andmepakettide kasutamine rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -61,6 +61,7 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 
 #### <a name="intelligence"></a>Analüüs
 - [Oma andmebaasi toomine (BYOD) rakendusse Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Kulude haldamise Power BI sisu kasutamine rakenduses Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 - [Varateek teenuses Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -93,6 +94,9 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 - [Partii tasakaalustamine](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [Tootmistellimuse väljastusprotsessi täiustused](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [Tootmis- ja partiitellimuste visuaalne plaanimine Gantti diagrammiga](https://youtu.be/BtbuShkGj4I)
+
+#### <a name="tax-engine"></a>Maksumootor
+- [Maksumootori ülevaade](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>Laohaldus
 - [Tootmise komplekteerimise väljastamine partiis olevasse lattu](https://youtu.be/8urAJn50dQ8)
