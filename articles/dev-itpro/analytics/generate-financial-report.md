@@ -3,7 +3,7 @@ title: Finantsaruannete loomine
 description: "See teema sisaldab finantsaruande koostamise üldteavet."
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -32,17 +32,14 @@ ms.lasthandoff: 08/13/2018
 
 See teema sisaldab finantsaruande koostamise üldteavet.
 
-Aruande loomiseks avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo. Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne Web Vieweris.
-
-> [!NOTE]
-> Saate luua aruandeid ainult kaustadesse ja asukohtadesse, millele teil on juurdepääsuluba.
+Aruande loomiseks avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo. Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne veebivaaturis.
 
 Aruannete loomiseks on saadaval järgmised suvandid.
 
 - Graafiku seadistamine aruande või aruannete grupi automaatseks loomiseks
 - Aruandest puuduvate kontode või andmete kontrollimine või aruande ja aruande täpsuse kinnitamine
 
-Aruande loomisel kasutatakse valikuid, mille olete määranud valiku Aruande definitsioon vahekaartidel. Vahekaardil Väljund ja jaotus saate määrata aruandeteegi asukoha, mis võimaldab aruande lihtsat jagamist.
+Aruande loomisel kasutatakse valikuid, mille olete määranud valiku Aruande definitsioon vahekaartidel.
 
 ## <a name="generate-a-financial-report"></a>Finantsaruande loomine
 
@@ -55,10 +52,7 @@ Kui aruanne on loodud, saab seda vaadata jaotises **Aruanded**.
 
 Saate valida, kas soovite aruannet **Vaadata** või **Kustutada**.
 
-Aruande loomiseks **Aruande koostaja** abil avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo. Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne Web Vieweris.
-
-> [!NOTE]
-> Saate luua aruandeid ainult kaustadesse ja asukohtadesse, millele teil on juurdepääsuluba.
+Aruande loomiseks **Aruande koostaja** abil avage aruande definitsioon ja klõpsake seejärel tööriistaribal nuppu Loo. Avatakse aken Aruannete järjekorra olek ja näidatakse teie aruande asukohta järjekorras. Vaikimisi avaneb loodud aruanne veebivaaturis.
 
 ## <a name="schedule-report-generation"></a>Aruande loomise plaanimine
 Paljudel ettevõtetel on aruannete põhikomplekt, mida kasutatakse plaanitud intervallidega, et äriprotsessidega vastavuses olla. Saate plaanida aruande regulaarselt loomise, näiteks iga päev, nädal, kuu või aasta. Tegemist võib olla ühe aruandega või mitut ettevõtet hõlmava aruannete rühmaga. Peate sisestama iga määratletud ettevõtte mandaadid, nagu aruandluspuu definitsiooniski. Kui mandaadid on kehtetud, kuvatakse aruandes ainult teave, millele teil on juurdepääsuõigus, nt ettevõte, kuhu olete sisse logitud. Väljundi teavet loetakse esmalt aruannete grupist ja seejärel üksikutest aruannetest.

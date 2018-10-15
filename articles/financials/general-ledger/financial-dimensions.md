@@ -3,7 +3,7 @@ title: Finantsdimensioonid
 description: "Selles teemas kirjeldatakse mitmesuguseid finantsdimensioonide tüüpe ja nende seadistamist."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 08/24/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.search.scope: Core, Operations
 ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/26/2018
 
 Selles teemas selgitatakse mitmesuguseid finantsdimensioonide tüüpe ja nende seadistamist.
 
-Kasutage lehte **Finantsdimensioonid**, et luua finantsdimensioonid, mida saab kasutada kontosegmentidena kontoplaanide puhul. Finantsdimensioone on kaht tüüpi: kohandatud dimensioonid ja üksuse tagatud dimensioonid. Kohandatud dimensioone kasutavad juriidilised isikud ühiselt ning väärtusi sisestavad ja haldavad kasutajad. Üksuse tagatud dimensioonide puhul määratletakse väärtused mujal süsteemis, nt üksustes Kliendid või Kauplused. Mõnda üksuse tagatud dimensiooni kasutavad juriidilised isikud ühiselt, samas kui mõni on ettevõttekohane. 
+Kasutage lehte **Finantsdimensioonid**, et luua finantsdimensioonid, mida saab kasutada kontosegmentidena kontoplaanide puhul. Finantsdimensioone on kaht tüüpi: kohandatud dimensioonid ja üksuse tagatud dimensioonid. Kohandatud dimensioone kasutavad juriidilised isikud ühiselt ning väärtusi sisestavad ja haldavad kasutajad. Üksuse tagatud dimensioonide puhul määratletakse väärtused mujal süsteemis, nt üksustes Kliendid või Kauplused. Mõnda üksuse tagatud dimensiooni kasutavad juriidilised isikud ühiselt, samas kui mõni on ettevõttekohane.
 
-Kui olete finantsdimensioonid loonud, kasutage igale finantsdimensioonile täiendavate atribuutide lisamiseks lehte **Finantsdimensiooni väärtused**. 
+Kui olete finantsdimensioonid loonud, kasutage igale finantsdimensioonile täiendavate atribuutide lisamiseks lehte **Finantsdimensiooni väärtused**.
 
-Finantsdimensioone saab kasutada juriidiliste isikute kajastamiseks. Rakenduses Microsoft Dynamics 365 for Finance and Operations ei pea juriidilisi isikuid looma. Kuid finantsdimensioonid pole mõeldud juriidiliste isikute tegevus- või ärivajaduste rahuldamiseks. Üksustevaheline raamatupidamisfunktsioon rakenduses Finance and Operations on mõeldud ainult iga kande loodavate raamatupidamiskirjete käsitlemiseks. 
+Finantsdimensioone saab kasutada juriidiliste isikute kajastamiseks. Rakenduses Microsoft Dynamics 365 for Finance and Operations ei pea juriidilisi isikuid looma. Finantsdimensioonid pole aga mõeldud juriidiliste isikute tegevus- või ärivajaduste rahuldamiseks. Üksustevaheline raamatupidamisfunktsioon rakenduses Finance and Operations on mõeldud ainult iga kande loodavate raamatupidamiskirjete käsitlemiseks.
 
  Finantsdimensioonide juriidilised isikud häälestamiseks hinnata äriprotsessist järgmistes määratlemiseks, kui teie organisatsioon töö see seadistus:
 
@@ -51,7 +51,9 @@ Siin on mõned neist piirangutest.
 
 ## <a name="custom-dimensions"></a>Kohandatud dimensioonid
 
-Kasutaja määratletud finantsdimensiooni loomiseks tehke väljal **Kasuta väärtusi allikast** valik **&lt; Kohandatud dimensioon &gt;**. Samuti saate määrata kontomaski, et piirata dimensiooniväärtuste puhul sisestatava teabe hulka ja tüüpi. Saate sisestada märke, mis jäävad samaks igale dimensiooniväärtusele, näiteks tähti või sidekriipsu (-). Saate sisestada ka trelle (\#) ning ja-märke (&) kohatäidetena tähtede ja numbrite jaoks, mis muutuvad iga kord, kui luuakse dimensiooniväärtus. Kasutage numbrimärki (\#) kohatäitena numbrile ning ja-märki (&) kohatäitena tähele. Vormingumaski väli on saadaval ainult siis, kui valite väljal **Kasuta välja väärtusi** suvandi **&lt; Kohandatud dimensioon &gt;**.
+Kasutaja määratletud finantsdimensiooni loomiseks valige väljal **Kasuta väärtusi allikast** suvand **&lt;&nbsp;Kohandatud dimensioon&nbsp;&gt;**.
+
+Samuti saate määrata kontomaski, et piirata dimensiooniväärtuste puhul sisestatava teabe hulka ja tüüpi. Saate sisestada märke, mis jäävad samaks igale dimensiooniväärtusele, näiteks tähti või sidekriipsu (-). Saate sisestada ka trelle (\#) ning ja-märke (&) kohatäidetena tähemärkide jaoks, mis muutuvad iga kord, kui luuakse dimensiooniväärtus. Kasutage numbrimärki (\#) kohatäitena numbrile ning ja-märki (&) kohatäitena tähele. Vormingumaski väli on saadaval ainult siis, kui valite väljal **Kasuta välja väärtusi** suvandi **&lt;&nbsp;Kohandatud dimensioon&nbsp;&gt;**.
 
 **Näide**
 
@@ -63,7 +65,7 @@ Dimensiooniväärtuse piiramiseks tähtede CC ja kolme arvuga saate vormingumask
 
 ## <a name="activating-dimensions"></a>Dimensioonide aktiveerimine
 
-Finantsdimensiooni aktiveerimisel uuendatakse tabelit, nii et see sisaldab finantsdimensiooni nime. Kustutatud dimensioonid eemaldatakse. Võite sisestada dimensiooniväärtused enne finantsdimensiooni aktiveerimist. Kuid finantsdimensiooni ei saa enne aktiveerimist tarbida. Näiteks ei saa te lisada finantsdimensiooni kontostruktuurile, enne kui finantsdimensioon on aktiveeritud. Kui klõpsate nuppu **Aktiveeri**, siis uuendatakse kõiki dimensioone ja kuvatakse nende oleku muutused. 
+Finantsdimensiooni aktiveerimisel uuendatakse tabelit, nii et see sisaldab finantsdimensiooni nime. Kustutatud dimensioonid eemaldatakse. Võite sisestada dimensiooniväärtused enne finantsdimensiooni aktiveerimist. Kuid finantsdimensiooni ei saa enne aktiveerimist tarbida. Näiteks ei saa te lisada finantsdimensiooni kontostruktuurile, enne kui finantsdimensioon on aktiveeritud. Kui valite käsu **Aktiveeri**, siis värskendatakse kõiki dimensioone ja kuvatakse nende oleku muutused.
 
 ## <a name="translations"></a>Tõlked
 
@@ -77,15 +79,48 @@ Kõik dimensioonid ei sobi kõigile juriidilistele isikutele. Lisaks võivad mõ
 
 Andmete viiteterviklikkuse säilitamiseks saab finantsdimensioone harva kustutada. Kui püüate finantsdimensiooni kustutada, hinnatakse järgmisi kriteeriume.
 
-- Kas finantsdimensiooni on mõnes sisestatud või sisestamata kandes või mõnes dimensiooniväärtuste kombinatsiooni tüübis kasutatud?
+- Kas finantsdimensiooni on kasutatud mõnes sisestatud või sisestamata kandes või mõnes dimensiooniväärtuste kombinatsiooni tüübis?
 - Kas finantsdimensiooni on kasutatud mõnes aktiivses kontostruktuuris, täpsema reegli struktuuris või finantsdimensioonide kogumis?
 - Kas finantsdimensioon kuulub mõnesse finantsdimensiooni integreerimise vaikevormingusse?
 - Kas finantsdimensioon on seadistatud vaikedimensiooniks?
 
 Kui mõni neist kriteeriumidest on täidetud, ei saa finantsdimensiooni kustutada.
 
+## <a name="default-dimension-values"></a>Vaikedimensiooni väärtused
+
+Uutes dimensioonides saate kasutada vaikeväärtustena väärtusi põhikirjetest, nt klient ja hankija. Uute dimensioonide loomisel sisestatakse põhikirje ID nende põhikirjete dimensiooniväärtustesse. Näiteks uue kliendi sisestamisel sisestatakse kliendi dimensiooni kliendi ID. Müügitellimuste, arvete või muude dokumentide, mis nõuavad kliendi ID-d, loomisel kasutatakse olemasolevaid vaikeväärtuste reegleid ja dokumendile lisatakse kliendi ID.
+
+Seda funktsiooni juhib dimensioonis olev säte. Selle sätte nimi on **Kopeeri väärtused sellesse dimensiooni igal uuel loodaval üksusel DimensionName**, kus **DimensionName** on dimensiooni nimi. Vaikimisi on see funktsioon välja lülitatud. Saate selle siiski igal ajal sisse lülitada.
+
+Kui dimensiooni kohta on kirje juba olemas, värskendatakse selle funktsiooni sisselülitamisel põhikirjeid. Olemasolevaid dokumente ja kandeid siiski ei värskendata.
+
+## <a name="derived-dimensions"></a>Tuletatud dimensioonid
+
+Saate konfigureerida dimensiooni nii, et teiste dimensioonide teave sisestatakse automaatselt, kui sisestate dokumenti selle dimensiooni. Näiteks kui sisestate kulukeskuse 10, saab osakonna dimensiooni sisestada automaatselt väärtuse **20**.
+
+Tuletatud väärtused saate seadistada dimensioonide lehel.
+
+1. Valige dimensioon ja seejärel suvand **Tuletatud dimensioonid**.
+
+    Lehel **Tuletatud dimensioonid** on ruudustik. Valitud dimensiooni segment on ruudustiku esimene veerg.
+
+2. Lisage segmendid, mis tuleb tuletada. Iga segment kuvatakse veeruna.
+
+Sisestage dimensioonide kombinatsioonid, mis tuleb esimeses veerus olevast dimensioonist tuletada. Näiteks kui soovite kasutada kulukeskust dimensioonina, millest tuletatakse osakond ja asukoht, sisestage kulukeskus 10, osakond 20 ja asukoht 30. Seejärel, kui sisestate põhikirjesse või kandelehele kulukeskuse 10, sisestatakse vaikimisi osakond 20 ja asukoht 30.
+
+Tuletatud dimensiooni protsess ei tühista tuletatud dimensioonide olemasolevaid väärtusi. Näiteks kui sisestate kulukeskuse 10 ja ühtki muud dimensiooni pole sisestatud, sisestatakse vaikimisi osakond 20 ja asukoht 30. Kulukeskuse muutmisel aga juba määratud väärtusi ei muudeta. Seetõttu saate luua põhikirjetele vaikedimensioonid, midia tuletatud dimensioonid ei muuda.
+
+### <a name="derived-dimensions-and-entities"></a>Tuletatud dimensioonid ja üksused
+
+Üksuste abil saate seadistada tuletatud dimensioonide segmendid ja väärtused.
+
+- Tuletatud dimensioonide üksus seadistab juhtdimensioonid ja nende dimensioonide puhul kasutatavad segmendid.
+- Üksus DerivedDimensionValue võimaldab teil importida väärtused, mis tuleb iga juhtdimensiooni puhul tuletada.
+
+Kui kasutate andmete importimiseks mõnd üksust ja see üksus impordib dimensioonid, rakendatakse importimisel tuletatud dimensioonireegleid, kui üksus neid dimensioone spetsiaalselt ei tühista.
 
 Lisateavet vt järgmistest teemadest:
+
 - [Finantsdimensioonide määratlemine](tasks/define-financial-dimensions.md)
 - [Finantsdimensiooni vaikemallide haldamine](tasks/maintain-financial-dimension-default-templates.md)
 

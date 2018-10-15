@@ -1,9 +1,9 @@
 ---
 title: "Mobiilsete seadmete seadistamine laotöö jaoks"
-description: "Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes."
+description: "Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas konfigureerida menüüelemente, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
+Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 
-**Märkus.** See artikkel kehtib mooduli Laohaldus funktsioonide puhul. See ei kehti funktsioonidele moodulis Varude haldus. Lao mobiilse seadme menüüdes kuvatavaid menüüelemente konfigureeritakse lehel **Mobiilse seadme menüüelemendid**. Kuna menüüelemente saab panna erinevatesse menüüdesse, on menüüstruktuure lihtne konfigureerida, nii et kindlatele kasutajatele kuvatakse ainult teatud tüüpi töid. Saate menüüelemente konfigureerida järgmiste ülesannete täitmiseks.
+**Märkus.** See teema kehtib mooduli Laohaldus funktsioonide puhul. See ei kehti funktsioonidele moodulis Varude haldus. Lao mobiilse seadme menüüdes kuvatavaid menüüelemente konfigureeritakse lehel **Mobiilse seadme menüüelemendid**. Kuna menüüelemente saab panna erinevatesse menüüdesse, on menüüstruktuure lihtne konfigureerida, nii et kindlatele kasutajatele kuvatakse ainult teatud tüüpi töid. Saate menüüelemente konfigureerida järgmiste ülesannete täitmiseks.
 
 -   Päringu töötlemine või tegevuse teostamine, nagu sildi printimine, identifitseerimisnumbrite loomine, tootmistellimuse käivitamine või kiiresti teabe vaatamine mõnes asukohas olevate kaupade kohta.
 -   Looge töö, mis tehakse läbi teise protsessi. Näiteks võib ostutellimuse jaoks kaupa vastuvõtmine luua teisele töötajale paigutamistöö.
@@ -193,7 +193,7 @@ Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast sed
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Menüüelementide konfigureerimine olemasoleva töö töötlemiseks
-Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada menüüelemente juba loodud töö töötlemiseks. Määrake välja **Režiim** sätteks **Töö** ja valige suvand **Kasuta olemasolevat tööd**. Seejärel muutuvad vahekaardil **Üldine** kättesaadavaks lisavalikud. Saate juhtida juurdepääsu menüüelementidele, määrates kiirkaardil **Tööklass** ühe või enam tööklasse. Tööklassid määratlevad töö, mida menüüelement saab töödelda. Tööklassi saab kasutada ka kindlatele kasutajarollidele juurdepääsu andmiseks või erinevat tüüpi operatsioonide eraldi töötlemiseks. Järgmises tabelis on kirjeldatud saadaolevaid suvandeid.
+Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada menüüelemente juba loodud töö töötlemiseks. Määrake välja **Režiim** sätteks **Töö** ja valige suvand **Kasuta olemasolevat tööd**. Seejärel muutuvad vahekaardil **Üldine** kättesaadavaks lisavalikud. Saate juhtida juurdepääsu menüüelementidele, määrates kiirkaardil **Tööklass** ühe või enam tööklasse. Tööklassid määratlevad töö, mida menüüelement saab töödelda. Tööklassi saab kasutada ka kindlatele kasutajarollidele juurdepääsu andmiseks või erinevat tüüpi operatsioonide eraldi töötlemiseks. Järgmises tabelis on kirjeldatud saadaolevaid suvandeid. Selle suvandi saab valida lehel **Mobiilse seadme menüü-üksused** väljal **Juhtija**. 
 
 <table>
 
@@ -247,6 +247,10 @@ See suvand on kasulik näiteks siis, kui koorma jaoks kasutatakse mitut kaubaalu
 <tr class="even">
 <td>Tsüklilise inventuuri rühmitamine</td>
 <td>Töötaja valib tsooni, töökausta või asukoha ja Microsoft Dynamics 365 for Finance and Operations määrab töö valiku järgi. Kui valite selle valiku, võite klõpsata ka toimingupaanil suvandit <strong>Tsükliline inventuur</strong>, et määrata kuvatav lisateave ja samuti see, mitu korda peab töötaja erinevuse leidmisel inventuuri kordama.</td>
+</tr>
+ <tr class="odd">
+<td>Transpordi laadimine</td>
+<td>See funktsioon võimaldab mitmel laotöötajal laadida varusid samast või erinevatest koormatest samale veokile ja kasutada täielikult või osaliselt tarnitavaid koormaid.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ Valikute selgitused leiate järgmisest tabelist.
 <td>Selle suvandi valimisel saavad töötajad ühendada müügitellimuse või koorma töö ühte tööüksusesse. Töötaja saab teha tööd ainult müügitellimuse või koorma jaoks. See suvand on kasulik näiteks siis, kui peate pärast müügitellimuse jaoks koorma, saadetise ja töö loomist suurendama müügitellimuse kogust. See valik on saadaval, kui menüüelement kasutab olemasolevat tööd ja töö suunab kasutaja või süsteem.</td>
 </tr>
 <tr class="even">
-<td>Puudub</td>
+<td>Komplekteeri vanim partii</td>
 <td>Näidake, kas töötaja peab kõigepealt komplekteerima asukoha vanima partii. Valikud on järgmised:
 <ul>
 <li><strong>Puudub</strong> – töötaja saab komplekteerida asukohas mis tahes töö. Töötaja ei saa mingit sõnumit.</li>

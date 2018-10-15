@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -37,12 +37,9 @@ Failide korraldamiseks saate aruandekoosturis kaustu, aruandeid, koosteüksusi j
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aruande kujundaja kausta või koosteüksuse ümbernimetamine
 Saate aruandekoosturis kaustade, aruande-, rea-, veeru- ja aruandluspuu definitsioonide nime muuta.
 
-> [!NOTE]
-> Koosteüksuse ümbernimetamisel peate värskendama aruandluse definitsioone, mis seda koosteüksust kasutavad. Vastasel korral ei saa aruannet koostada.
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Kausta või koosteüksuse ümbernimetamine aruandekoosturis
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aruande kujundaja kausta või koosteüksuse ümbernimetamine
-
-1. Kasutage aruande kujundajas ümbernimetatava kausta või objekti leidmiseks navigeerimispaani.
+1. Kasutage aruandekoosturis ümbernimetatava kausta või objekti leidmiseks navigeerimispaani.
 2. Paremklõpsake kausta või objekti ja seejärel klõpsake suvandit **Nimeta ümber**. Navigeerimispaani väli **Nimi** muutub aktiivseks.
 3. Sisestage uus nimi ja seejärel vajutage suvandit Sisesta.
 4. Kui koosteüksus on readefinitsioon, veeru definitsioon või aruandluspuu definitsioon, peate värskendama teisi sellega seotud koosteüksusi. Paremklõpsake 3. etapis ümbernimetatud koosteüksust, valige **Seosed** ja seejärel valige element loendist selle värskendamiseks.

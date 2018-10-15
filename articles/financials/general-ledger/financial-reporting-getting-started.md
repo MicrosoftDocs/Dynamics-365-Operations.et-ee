@@ -3,7 +3,7 @@ title: Finantsaruandlus
 description: "Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Finance and Operations finantsaruandlusele ja kuidas finantsaruandluse võimalusi kasutada. See sisaldab pakutavate vaike-finantsaruannete kirjeldust."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -115,11 +115,13 @@ Finantsaruandlus pakub 22 vaike-finantsaruannet. Iga aruanne kasutab rakenduses 
 Kui klõpsate menüüd **Finantsaruandlus**, kuvatakse ettevõtte vaike-finantsaruannete loend. Seejärel saate aruande avada või seda muuta. Mõne vaikearuande avamiseks valige aruande nimi. Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta. Näiteks kui avate aruande esmakordselt augustis 2016, koostatakse aruanne 31. juuli 2016 kohta. Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finantsaruannete koostamine ja muutmine
-Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, klõpsates tegumiribal nuppu **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Finance and Operationsis kasutate. Lisateavet finantsaruannete koostamise ja muutmise kohta rakenduses Finance and Operationsleiate neist [ajaveebipostitustest](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) Dynamicsi finantsaruandluse ajaveebis. **Märkus:** arvutisse, kuhu aruandekoosturi alla laadite, peab olema installitud Microsoft .NET Frameworki versioon 4.6.2. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [siit](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Finantsaruannete loendis kuvatavat aruannet saab ka muuta. Kui on valitud aruande nime ümber olev ala, klõpsake tegumiribal nuppu **Redigeeri**. Käivitub aruande koostamise programm.
+Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, klõpsates tegumiribal nuppu **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Finance and Operationsis kasutate. 
+
+> [!NOTE] 
+> Arvutisse, kuhu aruandekoosturi alla laadite, peab olema installitud Microsoft .NET Frameworki versioon 4.6.2. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Finantsaruannete loendis kuvatavat aruannet saab ka muuta. Kui on valitud aruande nime ümber olev ala, klõpsake tegumiribal nuppu **Redigeeri**. Käivitub aruande koostamise programm.
 
 ## <a name="additional-resources"></a>Lisaressursid
 - [Finantsaruannete vaatamine](view-financial-reports.md)
-- [Dynamicsi finantsaruandluse ajaveeb](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

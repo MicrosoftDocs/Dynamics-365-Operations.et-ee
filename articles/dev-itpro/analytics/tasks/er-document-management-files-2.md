@@ -1,28 +1,29 @@
 --- 
-title: "Andmemudelite laiendamine dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis"
+title: "Elektrooniline aruandlus. Dokumendihalduse failide kasutamine vormingu väljundites (2. osa – andmemudeli laiendamine)"
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu dokumendihalduse failide (manuste) kasutamiseks elektroonilise aruandluse väljundis."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 8363dd2af728577175a620d7b645d90cea84803a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="extend-data-models-to-use-document-management-files-in-er-output"></a>Andmemudelite laiendamine dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis
+# <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>Elektrooniline aruandlus Dokumendihalduse failide kasutamine vormingu väljundites (2. osa: andmemudeli laiendamine)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -57,7 +58,7 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 17. Valige väljalt Kaubakood suvand String.
 18. Klõpsake vahekaarti Lisa.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>Uute andmemudeli elementide vastendamine rakenduse Dynamics 365 for Finance and Operations andmeallikatega
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Uute andmemudeli elementide vastendamine rakenduse Dynamics 365 for Finance and Operations, Enterprise edition andmeallikatega
 1. Klõpsake suvandit Mudeli vastendamine andmeallikaga.
 2. Kasutage kiirfiltrit, et filtreerida väljal Definitsioon väärtusega InvoiceCustomer.
     * InvoiceCustomer  

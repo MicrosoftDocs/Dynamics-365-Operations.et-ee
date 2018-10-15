@@ -3,7 +3,7 @@ title: Avansisaajad
 description: Lugege avansisaaja funktsiooni kohta Microsoft Dynamics 365 for Finance and Operationsis.
 author: LizaGolub
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: e6e295390ee42da4de2ae740ba7f04f3caee6234
-ms.openlocfilehash: 289e29d33ba9e3b96e03713d52565967ed2afcc1
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: 1fc13461ab166d8f20ea2f56f641c86c3172f33b
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -34,12 +34,16 @@ Lugege avansisaaja funktsiooni kohta Microsoft Dynamics 365 for Finance and Oper
 *Avansisaaja* on ettevõtte töövõtja, kes vastutab organisatsiooni pakutud kulusumma eest. Avansisaaja saab olla ainult ettevõtte töötaja. Hanke toimumisel teavitab avansisaaja ettevõtet tehtud kuludest. Ettevõte hüvitab töövõtjale kulusumma. Ettevõte haldab iga avansisaaja saldot. Kasutajad Eestis, Lätis, Leedus, Poolas, Tšehhi Vabariigis, Ungaris ja Venemaal asuvates juriidilistes isikutes saavad kajastada kindlate kannetega kaasnevaid toiminguid ettevõtte töövõtjatega, kes vastutavad organisatsiooni pakutud kulusumma eest.
 
 ## <a name="set-up-an-advance-holder"></a>Avansisaaja seadistamine
-Avansisaaja seadistamiseks tuleb täita järjest järgmised ülesanded.
-1.  Avansisaajate gruppide loomine.
-2.  Töövõtja sisestusreeglite seadistamine.
-3.  Ostureskontro parameetrite seadistamine.
-4.  Avansisaajale kindlate maksetingimuste loomine.
-5.  Avansisaaja loomine.
+Selles jaotises selgitatakse avansisaaja seadistamist. Tehke selles jaotises kirjeldatud ülesanded kindlasti järgmises järjekorras.
+
+> [!div class="checklist"]
+> * 1. Avansisaajate gruppide loomine
+> * 2. Töövõtja sisestusreeglite seadistamine
+> * 3. Ostureskontro parameetrite seadistamine
+> * 4. Avansisaajale kindlate maksetingimuste loomine
+> * 5. Avansisaajale kindlate maksetingimuste loomine
+> * 6. Avansisaaja loomine
+
 
 ### <a name="advance-holder-groups"></a>Avansisaajate grupid
 
@@ -79,20 +83,32 @@ Avansisaaja kannete kajastamiseks peate lehel **Ostureskontro parameetrid** jaot
 ### <a name="terms-of-payment-for-advance-holder"></a>Avansisaaja maksetingimused
 
 Ostutellimuse õigesti registreerimiseks ja sisestamiseks avansisaaja kaudu peate kasutama maksetingimusi, mille seadistuses kasutati valiku **Avansisaajalt** puhul sätet **Tõene**.
-### <a name="create-an-advance-holder-creation"></a>Avansisaaja loomine
 
-Enne avansisaaja loomist peavad töötajad olema juba seadistatud. Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis).](../../fin-and-ops/hr/tasks/enter-worker-information.md) Töötaja saate avansisaajana seadistada lehel **Avansisaajad**. Valige töötaja, keda kasutada avansisaajana, klõpsake valikut **Redigeeri** ja seejärel määrake valiku **Avansisaaja** sätteks **Tõene**. Samuti peate täitma järgmised väljad.
+### <a name="create-an-advance-holder"></a>Avansisaaja loomine
 
-|                |                                                                                             |
-|----------------|---------------------------------------------------------------------------------------------|
-| **Väli**      | **Kirjeldus**                                                                             |
-| **Grupp**      | Valige avansisaajate grupp.                                                             |
-| **Seeria**     | Sisestage avansisaaja isiku kontrollimiseks kasutatava dokumendi seeria. |
-| **Number**     | Sisestage avansisaaja isiku kontrollimiseks kasutatava dokumendi number. |
-| **Väljaandmise kuupäev** | Valige või sisestage dokumendi väljaandmise kuupäev.                                                    |
-| **Väljastaja**  | Sisestage dokumendi väljastanud asutuse või isiku üksikasjad.                       |
+Enne avansisaaja loomist peavad töötajad olema juba seadistatud. Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis).](../../fin-and-ops/hr/tasks/enter-worker-information.md) 
+
+1. Valige suvandid **Ostureskontro** \> **Avansisaajad** \> **Avansisaajad**.
+
+    > [!NOTE]
+    > Töövõtjaid ei saa lehel **Avansisaajad** lisada ega kustutada. Esmalt tuleb töövõtjad moodulis **Inimressurssid** palgata. Lehel **Töövõtja sisestusreeglid** saate seadistada töövõtja sisestusreeglid, mida kasutatakse avansisaajate saldode sisestamiseks.
+
+2. Valige töövõtja ja seejärel suvand **Redigeeri**.
+3. Seadke kiirkaardil **Üldine** suvandi **Avansisaaja** sätteks **Jah** näitamaks, et töövõtja on avansisaaja.
+4. Valige väljal **Grupp** avansisaajate grupp, kuhu töövõtja kuulub.
+5. Jaotises **Isikutunnistus** sisestage isikut tõendava dokumendi üksikasjad.
+    - **Seeria** – sisestage avansisaaja isiku kontrollimiseks kasutatava dokumendi seeria.
+    - **Number** – sisestage avansisaaja isiku kontrollimiseks kasutatava dokumendi number.
+    - **Väljaandmise kuupäev** – valige või sisestage dokumendi väljaandmise kuupäev.
+    - **Väljastaja** – sisestage dokumendi väljastanud asutuse või isiku üksikasjad.
+6. Valige käsk **Salvesta** või sulgege leht.
+
+> [!NOTE]
+> Kui lehel **Ostureskontro parameetrid** on suvandi **Avansisaajate sortimine** sätteks valitud **Jah**, kuvatakse avansisaajad lehel **Avansisaajad** ruudustiku ülaosas.
+
 
 ## <a name="advance-holder-inquiries-and-reports"></a>Avansisaaja päringud ja aruanded
+
 ### <a name="advance-holder-transactions-inquiry"></a>Avansisaaja kannete päring
 
 Avansisaaja kannete loendi kuvamiseks klõpsake lehel **Avansisaajad** nuppu **Kanded**. Kõigi avansisaajate kannete kuvamiseks või kindla päringu loomiseks avansisaajate kannete põhjal klõpsake valikuid **Ostureskontro** &gt; **Päringud ja aruanded** &gt; **Avansisaajate päringud ja aruanded** &gt; Kanded. Klõpsake lehe **Pearaamatu kanded** avamiseks valikut **Kanne**.
@@ -143,6 +159,7 @@ Kui summa väljal **Ülekantav summa** on negatiivne. luuakse pärast saatelehe 
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Avansimakse töötajale (Ida-Euroopa)](tasks/advance-payment-employee.md)
+- [Avansisaajad Venemaa puhul](rus-advance-holders.md)
 
 
 

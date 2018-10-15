@@ -3,23 +3,24 @@ title: Kaastoodete jaoks materjaliplaani loomine
 description: "Tootmise planeerija plaanib materjalinõudeid valemi kaastoodete kaupade puhul."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c8805ca02525ae001fbd5e10ad9405fe60c7473e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Kaastoodete jaoks materjaliplaani loomine
@@ -44,27 +45,70 @@ Tootmise planeerija plaanib materjalinõudeid valemi kaastoodete kaupade puhul. 
 9. Klõpsake nuppu Salvesta.
 
 ## <a name="create-a-material-plan-for-co-products"></a>Kaastoodete jaoks materjaliplaani loomine
-1. Klõpsake valikul Koondplaneerimine.
-2. Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.
-3. Klõpsake loendis valitud real olevat linki.
+1. Sulgege leht.
+2. Sulgege leht.
+3. Klõpsake valikul Koondplaneerimine.
+4. Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.
+5. Klõpsake loendis valitud real olevat linki.
     * Näide: MasterPlan  
-4. Klõpsake nuppu Käivita.
-5. Laiendage või ahendage jaotist Kaasatavad kirjed.
-6. Klõpsake käsku Filtreeri.
-7. Valige loendist rida, mille väli = kaubakood.
-8. Sisestage väärtus väljale Kriteeriumid.
+6. Klõpsake nuppu Käivita.
+7. Laiendage või ahendage jaotist Kaasatavad kirjed.
+8. Klõpsake käsku Filtreeri.
+9. Valige loendist rida, mille väli = kaubakood.
+10. Sisestage väärtus väljale Kriteeriumid.
     * Näide: P6003.  
-9. Klõpsake nuppu OK.
-10. Klõpsake nuppu OK.
-11. Klõpsake valikut Planeeritud tellimused.
-12. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks saate filtrida välja Kaubakood väärtuse P6000 järgi.
+11. Klõpsake nuppu OK.
+12. Klõpsake nuppu OK.
+13. Klõpsake valikut Planeeritud tellimused.
+14. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks saate filtrida välja Kaubakood väärtuse P6000 järgi.
     * Filtrige valemi üksuse järgi, millel on selle kauba kaastoode, mille puhul lõite müügitellimuse.  
-13. Märkige loendis valitud rida.
+15. Märkige loendis valitud rida.
     * Valige mis tahes filtri tagastatud read.  
-14. Klõpsake loendis valitud real olevat linki.
-15. Laiendage või ahendage jaotist Sidumine.
 16. Klõpsake loendis valitud real olevat linki.
+17. Laiendage või ahendage jaotist Sidumine.
+18. Klõpsake loendis valitud real olevat linki.
     * Plaanitud tellimus on seotud kaastoote müügitellimusega.  
-17. Sulgege leht.
+19. Sulgege leht.
+
+## <a name="create-requirement-for-a-co-product"></a>Kaastoote nõude loomine
+1. Avage Vaikearmatuurlaud.
+2. Klõpsake valikut Müügitellimuse töötlemine ja päring.
+3. Klõpsake Uus.
+4. Klõpsake valikut Müügitellimus.
+5. Sisestage väärtus väljale Kliendi konto.
+    * Näide: US-001.  
+6. Klõpsake nuppu OK.
+7. Sisestage väärtus väljale Kaubakood.
+    * Näide: P6003.  
+8. Sisestage arv väljale Kogus.
+    * Näide: 50000  
+9. Klõpsake nuppu Salvesta.
+
+## <a name="create-a-material-plan-for-co-products"></a>Kaastoodete jaoks materjaliplaani loomine
+1. Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.
+2. Klõpsake loendis valitud real olevat linki.
+    * Näide: MasterPlan  
+3. Klõpsake nuppu Käivita.
+4. Laiendage või ahendage jaotist Kaasatavad kirjed.
+5. Klõpsake käsku Filtreeri.
+6. Valige loendist rida, mille väli = kaubakood.
+7. Sisestage väärtus väljale Kriteeriumid.
+    * Näide: P6003.  
+8. Klõpsake nuppu OK.
+9. Klõpsake nuppu OK.
+10. Klõpsake valikut Planeeritud tellimused.
+11. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks saate filtrida välja Kaubakood väärtuse P6000 järgi.
+    * Filtrige valemi üksuse järgi, millel on selle kauba kaastoode, mille puhul lõite müügitellimuse.  
+12. Märkige loendis valitud rida.
+    * Valige mis tahes filtri tagastatud read.  
+13. Klõpsake loendis valitud real olevat linki.
+14. Laiendage või ahendage jaotist Sidumine.
+15. Klõpsake loendis valitud real olevat linki.
+    * Plaanitud tellimus on seotud kaastoote müügitellimusega.  
+16. Sulgege leht.
+17. Klõpsake valikul Koondplaneerimine.
+18. Avage Koondplaneerimine > Seadistus > Koondplaneerimise parameetrid.
+19. Valige väljal Keela kõik planeerimisprotsessid suvand Ei.
+20. Sulgege leht.
 
 

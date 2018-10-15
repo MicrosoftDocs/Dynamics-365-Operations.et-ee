@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4675a78b47ae922a570e4975c2cce68ac0d76d5a
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
 ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="create-a-performance-review"></a>Jõudluse ülevaate loomine
@@ -30,12 +30,12 @@ ms.lasthandoff: 04/13/2018
 See protseduur näitab, kuidas koostada jõudluse hindamist, ja kirjeldab iga hindamise jaotise eesmärki. Protseduuri loomisel kasutati demoettevõtte USMF andmeid. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 
 1. Klõpsake valikut Töötaja iseteenindus.
-2. Klõpsake nuppu Uus hindamine, et luua uus hindamine.
-3. Sisestage või valige väärtus väljal Hindamise tüüp.
+2. Klõpsake nuppu Uus ülevaade, et luua uus ülevaade.
+3. Sisestage või valige väärtus väljal Ülevaatuse tüüp.
 4. Valige või sisestage väärtus väljal Jõudlusperiood.
 5. Sisestage kuupäev väljale Lõppkuupäev.
 6. Klõpsake nuppu OK.
-    * Hindamise saab luua ka malli põhjal. See on hindamise loomiseks parim viis, kuna igas jaotises on teave, mida hindamise alustamiseks vajate.  
+    * Ülevaate saab luua ka malli põhjal. See on ülevaate loomiseks parim viis, kuna igas jaotises on teave, mida ülevaate alustamiseks vajate.  
 7. Klõpsake valikut Kuva jaotised rippdialoogi avamiseks.
 8. Tehke väljal Kuva manused valik Ei.
 9. Klõpsake nuppu Salvesta.
@@ -43,7 +43,7 @@ See protseduur näitab, kuidas koostada jõudluse hindamist, ja kirjeldab iga hi
 10. Klõpsake valikut Kuva jaotised rippdialoogi avamiseks.
 11. Tehke väljal Kuva manused valik Jah.
 12. Klõpsake nuppu Salvesta.
-13. Klõpsake valikut Lisa eesmärk hindamisse.
+13. Klõpsake valikut Lisa eesmärk ülevaatusesse.
 14. Klõpsake valikut Tühista.
 15. Klõpsake valikut Lisa kompetents rippdialoogi avamiseks.
 16. Sisestage väärtus väljale Pealkiri.
@@ -70,14 +70,14 @@ See protseduur näitab, kuidas koostada jõudluse hindamist, ja kirjeldab iga hi
 37. Klõpsake vahekaarti Hinnangud.
     * Kiirkaart Hinnangu üksikasjad võimaldab töötajatel ennast ja juhil töötajat hinnata. Kaalude kasutamisel arvutatakse tulemuste kaalumisväärtus automaatselt.    Selle jaotise nägemiseks lubage parameetri sätted töötaja hinnangute kuvamiseks.  
 38. Klõpsake vahekaarti Nõusolekud.
-    * Kui hindamine kasutab töövoogu, kuvatakse nõusolekud alles pärast töövoo lõpetamist. Kui töövoogu ei kasutata, on siin kirjas nii töötaja kui ka juht. Nõutav ruut on märgitud hindamise tüübi sätete põhjal.  
+    * Kui ülevaatus kasutab töövoogu, kuvatakse nõusolekud alles pärast töövoo lõpetamist. Kui töövoogu ei kasutata, on siin kirjas nii töötaja kui ka juht. Nõutav ruut on märgitud ülevaatuse tüübi sätete põhjal.  
 39. Klõpsake vahekaarti Üldine.
     * Jõudlusperiood loob alguse ja lõpu vaikekuupäevad. Neid kuupäevi saab muuta.  
-    * Olekud juhivad juurdepääsu hindamisele. Olek Alustamata lubab igaühel hindamist muuta. Olek Pooleli võimaldab hindamist vaadata ja muuta ainult töötajal. Olek Hindamiseks valmis võimaldab hindamist vaadata ja muuta ainult juhil. Olek Lõplik hindamine võimaldab nii töötajal kui ka juhil hindamist vaadata ja seda ka muuta, kui nii on hindamise tüübi juures seadistatud. Olekud Lõpetatud, Tagasi lükatud ja Tühistatud muudavad hindamise kirjutuskaitstuks.  
+    * Olekud juhivad juurdepääsu ülevaatusele. Olek Alustamata lubab igaühel ülevaatust muuta. Olek Pooleli võimaldab ainult töötajal ülevaatust vaadata ja muuta. Olek Ülevaatuseks valmis võimaldab ainult juhil ülevaatust vaadata ja muuta. Olek Lõplik ülevaatus võimaldab nii töötajal kui ka juhil ülevaatust vaadata ja seda ka muuta, kui nii on ülevaatuse tüübi juures seadistatud. Olekud Lõpetatud, Tagasi lükatud ja Tühistatud muudavad ülevaatuse kirjutuskaitstuks.  
 40. Tippige väärtus väljale Ülevaade.
-41. Klõpsake vahekaarti Hindamine.
-    * Hindamise liikumisel läbi olekute saavad töötaja ja juht iga eesmärgi või kompetentsi kohta kommentaare lisada.  
+41. Klõpsake vahekaarti Ülevaatus.
+    * Ülevaatuse liikumisel läbi olekute saavad töötaja ja juht iga eesmärgi või kompetentsi kohta kommentaare lisada.  
 42. Klõpsake vahekaarti Nõusolekud.
-    * Töötaja ja juht saavad anda hindamisele nõusoleku. Kui kõik vajalikud nõusolekud on olemas, määratakse olekuks Lõpetatud ja rohkem muudatusi ei saa teha.  
+    * Töötaja ja juht saavad anda ülevaatusele nõusoleku. Kui kõik vajalikud nõusolekud on olemas, määratakse olekuks Lõpetatud ja rohkem muudatusi ei saa teha.  
 
 

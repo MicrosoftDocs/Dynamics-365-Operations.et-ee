@@ -1,28 +1,29 @@
 --- 
-title: "Finantsdimensioone andmeallikatena kasutatavate aruannete käitamine"
+title: "Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (4. osa – aruande käivitamine)"
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) mudeli finantsdimensioonide kasutamiseks elektrooniliste aruannete andmeallikana."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6569f9b97d5d15bf74b8b3882bf4bab50970dd0f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 917eae141bbb8792f02d3323054e2a4096dae551
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="run-reports-that-use-financial-dimensions-as-data-sources"></a>Finantsdimensioone andmeallikatena kasutatavate aruannete käitamine
+# <a name="er-use-financial-dimensions-as-a-data-source-part-4-run-the-report"></a>Elektrooniline aruandlus Finantsdimensioonide kasutamine andmeallikana (4. osa: aruande käivitamine)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -44,6 +45,6 @@ Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektroo
 9. Tippige väärtus 00057 väljale Kriteeriumid.
 10. Klõpsake nuppu OK.
 11. Klõpsake nuppu OK.
-    * Vaadake loodud väljundit. Pange tähele, et iga valitud partii kande puhul esitatakse vastava finantsdimensioonikogumi finantsdimensioonid. Käivitage see aruanne ja valige teistsugused dimensioonid nägemaks, et aruanne ei sõltu valitud dimensioonide arvust ega rakenduse Dynamics 365 for Finance and Operations selle eksemplari jaoks konfigureeritud dimensioonide arvust.  
+    * Vaadake loodud väljundit. Pange tähele, et iga valitud partii kande puhul esitatakse vastava finantsdimensioonikogumi finantsdimensioonid. Käivitage see aruanne ja valige teistsugused dimensioonid nägemaks, et aruanne ei sõltu valitud dimensioonide arvust ega rakenduse Dynamics 365 for Finance and Operations, Enterprise edition selle eksemplari jaoks konfigureeritud dimensioonide arvust.  
 
 

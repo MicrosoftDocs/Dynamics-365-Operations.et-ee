@@ -1,28 +1,29 @@
 --- 
-title: "Vormingute värskendamine uute alusversioonide kasutuselevõtuga"
+title: "Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga"
 description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni."
 author: NickSelin
 manager: AnnBe
-ms.date: 02/06/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7a14299c3bdcc33a4441d1cc096b198af4d4ae4c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="upgrade-formats-by-adopting-new-base-versions"></a>Vormingute värskendamine uute alusversioonide kasutuselevõtuga
+# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -35,7 +36,7 @@ Nende etappide lõpuleviimiseks peate kõigepealt lõpetama etapid protseduuride
 
 ## <a name="select-format-configuration-for-customization"></a>Vormingu konfiguratsiooni valimine kohandamiseks
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-    * Selles näites on näidisettevõte Litware, Inc. (`http://www.litware.com`) konfiguratsiooni pakkuja, mis toetab kindla riigi elektrooniliste maksete vormingu konfiguratsioone.  Näidisettevõte Proseware, Inc. (`http://www.proseware.com`) on selle vormingukonfiguratsiooni tarbija, mida pakub Litware, Inc. Proseware, Inc. kasutab vorminguid selle riigi teatud piirkondades.  
+    * Selles näites on näidisettevõte Litware, Inc. (http://www.litware.com) konfiguratsiooni pakkuja, mis toetab kindla riigi elektrooniliste maksete vormingu konfiguratsioone.    Näidisettevõte Proseware, Inc. (http://www.proseware.com) on selle vormingukonfiguratsiooni tarbija, mida pakub Litware, Inc. Proseware, Inc. kasutab vorminguid selle riigi teatud piirkondades.  
 2. Klõpsake valikut Aruandluse konfiguratsioonid.
 3. Klõpsake suvandit Näita filtreid.
 4. Rakendage järgmised filtrid: sisestage filtri väärtus „BACS (UK fiktiivne)” väljale „Nimi”, kasutades filtri tehtemärki „algab üksusega”,
@@ -46,7 +47,7 @@ Nende etappide lõpuleviimiseks peate kõigepealt lõpetama etapid protseduuride
     * Proseware, Inc. kasutab isikupärastamiseks vormingu versiooni olekuga Lõpule viidud.  
 
 ## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Elektroonilise dokumendi kohandatud vormingule uue konfiguratsiooni loomine
-Proseware, Inc. sai ettevõttelt Litware, Inc vastavalt nende teenusekirjeldusele BACS-i (UK fiktiivne) konfiguratsiooniversiooni 1.1, mis sisaldab algset vormingut elektrooniliste maksedokumentide loomiseks. Proseware, Inc. soovib hakata seda kasutama oma riigi standardina, kuid nõutavad on mõned kohandamised, et toetada teatud piirkondlikke nõudeid. Proseware, Inc. soovib säilitada ka võime täiendada kohandatud vormingut niipea kui selle uus versioon (koos muudatustega uute riigipõhiste nõuete toetamiseks) ettevõttelt Litware, Inc. välja antakse ja soovib täienduse läbi viia võimalikult väikeste kuludega.  Selleks peab Proseware, Inc. looma konfiguratsiooni, kasutades alusena Litware, Inc. konfiguratsiooni BACS (UK fiktiivne).  
+    * Proseware, Inc. sai ettevõttelt Litware, Inc vastavalt nende teenusekirjeldusele BACS-i (UK fiktiivne) konfiguratsiooniversiooni 1.1, mis sisaldab algset vormingut elektrooniliste maksedokumentide loomiseks. Proseware, Inc. soovib hakata seda kasutama oma riigi standardina, kuid nõutavad on mõned kohandamised, et toetada teatud piirkondlikke nõudeid. Proseware, Inc. soovib säilitada ka võime täiendada kohandatud vormingut niipea kui selle uus versioon (koos muudatustega uute riigipõhiste nõuete toetamiseks) ettevõttelt Litware, Inc. välja antakse ja soovib täienduse läbi viia võimalikult väikeste kuludega.  Selleks peab Proseware, Inc. looma konfiguratsiooni, kasutades alusena Litware, Inc. konfiguratsiooni BACS (UK fiktiivne).  
 1. Sulgege leht.
 2. Valige Proseware, Inc, et muuta see aktiivseks pakkujaks.
 3. Klõpsake valikut Määra aktiivseks.
@@ -107,13 +108,11 @@ Proseware, Inc. sai ettevõttelt Litware, Inc vastavalt nende teenusekirjeldusel
     * Pange tähele, et loodud konfiguratsioon salvestatakse kui lõpetatud versioon 1.1.1. See tähendab, et see on kohandatud BACS-i (UK fiktiivne kohandatud) vormingu 1. versioon, mis põhineb BACS-i (UK fiktiivne) vormingu 1. versioonil, mis põhineb andmemudeli Maksed (lihtsustatud mudel) 1. versioonil.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Kohandatud vormingu testimine maksefailide loomiseks
-Viige rakenduse Dynamics 365 for Finance and Operations paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige BACS-i (UK fiktiivne kohandatud) vorming elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.  
+    * Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige BACS-i (UK fiktiivne kohandatud) vorming elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Olemasoleva riigipõhise konfiguratsiooni värskendamine
-Litware, Inc. peab värskendama BACS-i (UK fiktiivne) konfiguratsiooni ja kasutusele võtma uued riigipõhised nõuded, et hallata elektroonilise dokumendi vormingut. Hiljem lisatakse see selle konfiguratsiooni uude versiooni, mida pakutakse teenuse tellijatele, sh ettevõttele Proseware, Inc.  
-
-Tegelikes teenuse osutamisega seotud protsessides saab Proseware, Inc. importida iga uue BACS-i (UK fiktiivne) väljaande ettevõtte Litware, Inc. konfiguratsioonide LCS-hoidlast. Selles protseduuris simuleerime seda, värskendades BACS-i (UK fiktiivne) teenusepakkuja nimel.
-
+    * Litware, Inc. peab värskendama BACS-i (UK fiktiivne) konfiguratsiooni ja kasutusele võtma uued riigipõhised nõuded, et hallata elektroonilise dokumendi vormingut. Hiljem lisatakse see selle konfiguratsiooni uude versiooni, mida pakutakse teenuse tellijatele, sh ettevõttele Proseware, Inc.  
+    * Tegelikes teenuse osutamisega seotud protsessides saab Proseware, Inc. importida iga uue BACS-i (UK fiktiivne) väljaande ettevõtte Litware, Inc. konfiguratsioonide LCS-hoidlast. Selles protseduuris simuleerime seda, värskendades BACS-i (UK fiktiivne) teenusepakkuja nimel.  
 1. Sulgege leht.
 2. Valige pakkuja Litware, Inc.
 3. Klõpsake valikut Määra aktiivseks.
@@ -123,12 +122,9 @@ Tegelikes teenuse osutamisega seotud protsessides saab Proseware, Inc. importida
     * Ettevõtte Litware, Inc omandis mustandversioon pakkuja BACS (UK fiktiivne) on valitud toomaks kaasa muudatusi, et toetada uusi riigipõhiseid nõudeid.  
 
 ## <a name="localize-the-base-format-of-the-electronic-document"></a>Elektroonilise dokumendi alusvormingu lokaliseerimine
-Oletagem, et Litware peab toetama järgmiseid uusi riigipõhiseid nõudeid.  
-- Kreeditori panga SWIFT-koodi väärtus igas maksekandes.  
-- 100 tähemärgi piirang hankija nime tekstipikkusele loomisfailis.  
- 
-Valige soovitud konfiguratsiooni mustandiversioon, et nõutavad muudatused kasutusele võtta.  
-
+    * Oletame, et on olemas uued riigipõhised nõuded, mida Litware, Inc. peab täitma: iga makse puhul kreeditori panga SWIFT-koodi väärtus.  - 100 tähemärgi piirang hankija nime tekstipikkusele loomisfailis.  
+    * Uued riigipõhised nõuded  
+    * Valige soovitud konfiguratsiooni mustandiversioon, et nõutavad muudatused kasutusele võtta.  
 1. Klõpsake valikut Kujundaja.
 2. Klõpsake nuppu Laienda/ahenda.
 3. Klõpsake nuppu Laienda/ahenda.
@@ -159,7 +155,7 @@ Valige soovitud konfiguratsiooni mustandiversioon, et nõutavad muudatused kasut
 2. Sulgege leht.
 
 ## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Alusvormingu konfiguratsiooni praeguse versiooni oleku muutmine
-Muutke värskendatud alusvormingu konfiguratsiooni olek suvandist Mustand suvandiks Lõpetatud, et teha see kättesaadavaks maksedokumentide loomiseks ja sellest tuletatud vormingu konfiguratsioonide värskendusteks.  
+    * Muutke värskendatud alusvormingu konfiguratsiooni olek suvandist Mustand suvandiks Lõpetatud, et teha see kättesaadavaks maksedokumentide loomiseks ja sellest tuletatud vormingu konfiguratsioonide värskendusteks.  
 1. Klõpsake valikut Muuda olekut.
     * Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.  
 2. Klõpsake valikut Valmis.
@@ -168,8 +164,7 @@ Muutke värskendatud alusvormingu konfiguratsiooni olek suvandist Mustand suvand
 5. Otsige loendist ja valige soovitud kirje.
 
 ## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Kohandatud vormingu konfiguratsiooni alusversiooni muutmine
-Proseware, Inc. saab teada, et saadaval on BACS-i (UK fiktiivne) konfiguratsiooni uus versioon 1.2, et luua elektroonilisi maksedokumente vastavalt hiljuti teatatud riigipõhistele nõuetele. Proseware, Inc. soovib hakata kasutama seda riigi standardina.  Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fiktiivne kohandatud) aluskonfiguratsiooni versiooni. BACS-i (UK fiktiivne) versiooni 1.1 asemel kasutage uut versiooni 1.2.  
-
+    * Proseware, Inc. saab teada, et saadaval on BACS-i (UK fiktiivne) konfiguratsiooni uus versioon 1.2, et luua elektroonilisi maksedokumente vastavalt hiljuti teatatud riigipõhistele nõuetele. Proseware, Inc. soovib hakata kasutama seda riigi standardina.  Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fiktiivne kohandatud) aluskonfiguratsiooni versiooni. BACS-i (UK fiktiivne) versiooni 1.1 asemel kasutage uut versiooni 1.2.  
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
 2. Valige pakkuja Proseware, Inc, et muuta see aktiivseks.
 3. Klõpsake valikut Määra aktiivseks.
@@ -203,6 +198,6 @@ Proseware, Inc. saab teada, et saadaval on BACS-i (UK fiktiivne) konfiguratsioon
     * Pange tähele, et loodud konfiguratsioon salvestatakse lõpetatud versioonina 1.2.2: alus-BACS-i (UK fiktiivne kohandatud) vormingu versioon 2, mis põhineb alust-BACS-i (UK fiktiivne) vormingu versioonil 2, mis põhineb andmemudeli Maksed (lihtsustatud mudel) versioonil 1.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Kohandatud vormingu testimine maksefailide loomiseks
-Viige rakenduse Dynamics 365 for Finance and Operations paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige loodud vorming ‘BACS (UK fiktiivne kohandatud)’ elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele. Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.  
+    * Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige loodud vorming ‘BACS (UK fiktiivne kohandatud)’ elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele. Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.  
 
 

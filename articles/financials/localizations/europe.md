@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada rakendust Dynamics 365 for Finance and Operations juriidilistel isikutel, kelle esmane aadress on Brasiilias. 
+See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada rakendust Dynamics 365 for Finance and Operations juriidilistel isikutel, kelle esmane aadress on Euroopas. 
 
 - [Avansisaajad](emea-advance-holders.md)
  - [Avansisaajate kanded](emea-advance-holders-transactions.md)
@@ -42,14 +42,12 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ra
 - [EL-i käibearuandlus](emea-eu-sales-list.md)
 - [Vahetuskursi korrektsioonid](emea-exchange-rate-adjustments.md)
 - [Makseviiside failivormingud](emea-select-file-formats-for-the-method-of-payments.md)
-- [Teenuse eelarve (ESR) integreerimine](emea-fiscal-service-integration.md)
+- [Finantsteenuse (ESR) integratsioon](emea-fiscal-service-integration.md)
 - [Eesti ja Leedu põhivarade likvideerimine](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Välisvaluuta ümberarvutamine](emea-foreign-currency-revaluation.md)
 - [Varude sisemise üleviimise ülekandedokumendi koostamine](tasks/transfer-document-internal-inventory-transfer.md)
-- [EL-i Intrastati deklaratsiooni koostamine](tasks/eur-00002-eu-intrastat-declaration.md)
 - [EL-i käibearuande koostamine](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022-failid
-  - [ISO20022 failide importimine](emea-ISO20022-file-formats.md)
+  - [ISO20022-failide importimine](emea-ISO20022-file-formats.md)
   - [ISO20022 otsekorralduse konfiguratsiooni importimine](tasks/import-iso20022-direct-debit-configuration.md)
   - [ISO20022 kreeditiülekande konfiguratsiooni importimine](tasks/import-iso20022-credit-transfer-configuration.md)
   - [Ettevõtte pangakontode seadistamine ISO20022 kreeditkorralduste jaoks](tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
@@ -61,6 +59,8 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ra
   - [Hankijamaksete loomine ja eksportimine ISO20022 maksevormingu abil](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastat](emea-intrastat.md)
   - [Kannete ülekandmine Intrastati](tasks/transfer-transactions-intrastat.md)
+  - [Laadimisaadressi määramine ühendusesisesele kandele](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [EL-i Intrastati deklaratsiooni koostamine](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Varude töölehe aruanded](emea-set-up-report-inventory-journal-names.md)
 - [Arve väljastamise tähtajad](emea-invoice-issue-deadline.md)
 - [Arve töötlemine](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ra
 - [EL-i käibearuandluse seadistamine](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Maksekviitungi vormingu seadistamine projektiarvete jaoks](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Allkirjastajate häälestamine prindivormide jaoks](emea-set-up-signers-for-printing-forms.md)
-- [Ettevõttesisese kaupade liikumise ülekandedokumentide seadistamine](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Laadimisaadressi määramine ühendusesisesele kandele](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Stornoarvestus](emea-storno.md)
 - [Maksudirektiivid](emea-tax-directives.md)
 - [Aruannetes ja dokumentides summade kuvamise viisi värskendamine](emea-amount-printing-forms.md)

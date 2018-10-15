@@ -9,12 +9,12 @@
   items:
     - name: Demoandmete loomine andmepakettide abil
       href: data-entities/generate-demo-data-packages.md
-- name: Arendamine ja kohandamine Visual Studioga
+- name: Arendamine ja kohandamine
   href: dev-tools/developer-home-page.md
   items:
     - name: Avaldustevirna ja serveri ülesehitus
       href: dev-tools/application-stack-server-architecture.md
-    - name: Tutvumiseksemplaride saamine
+    - name: Tutvumiseksemplaride hankimine
       href: dev-tools/get-evaluation-copy.md
     - name: Eelvaatetellimuste saajaks registreerumine
       href: dev-tools/sign-up-preview-subscription.md
@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: Administraatori juurdepääsu keelavate VM-ide arendamise ja koostamise KKK
           href: sysadmin/VMs-no-admin-access.md
-        - name: Kohalike keskkondade ümbernimetamine juurdepääsu saamiseks lahendusele Visual Studio Team Services
+        - name: Kohalike keskkondade ümbernimetamine Azure DevOps’ile juurdepääsuks
           href: migration-upgrade/vso-machine-renaming.md
         - name: Arendussüsteemi nõuded
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'X++ lausete, tsüklite ja erandite töötlemine'
               href: dev-ref/xpp-statements-loops.md
+            - name: SQL-i ühenduse tõrke X++ erand
+              href: dev-ref/sql-connection-error.md
             - name: X++ tehtemärgid
               href: dev-ref/xpp-operators.md
             - name: X++ tehtemärkide eelistamine
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: Laiendatavuse muudatused – versioon 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: Laiendatavuse muudatused – versioon 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Laiendatavuse muudatused – versioon 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: Põhisätted
           items:
             - name: Pealetükkivad kohandused
@@ -916,6 +922,8 @@
           href: gdpr/gdpr-lcs.md
     - name: Andmete valideerimise kontroll-loendi tööruum
       href: user-interface/data-validation-workspace.md
+    - name: Andmehalduse tõrgete kirjeldused
+      href: data-entities/dm-error-descriptions.md
 - name: Pidev tarne
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Eelarve plaanimise täiendamine
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: Andmete migreerimine AX 2009-st rakendusse Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: AX 2009 migratsioon – andmemigratsiooni tööriista installimine
+          href: migration-upgrade/install-dmt.md
+        - name: AX 2009 migratsioon – kaartide koostamine
+          href: migration-upgrade/generate-maps.md
+        - name: AX 2009 migratsioon – mallide loomine
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: AX 2009 migratsioon – migratsioonigruppide loomine
+          href: migration-upgrade/create-definition.md
+        - name: AX 2009 migratsioon – pakettide eksportimine
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: AX 2009 migratsioon – pakettide importimine
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Koodi migreerimine ja täiendamine
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Koodi migreerimise ettevalmistamine
           href: migration-upgrade/prepare-migration.md
-        - name: Teenuse Visual Studio Team Services vastendamise konfigureerimine
+        - name: Azure DevOps’i vastenduse konfigureerimine
           href: migration-upgrade/configure-vso-solution.md
         - name: Mudeli tükeldamine
           href: dev-tools/model-split.md
@@ -1122,8 +1145,10 @@
           href: migration-upgrade/delegates-migration.md
     - name: Uusimale värskendusele täiendamine (pilv)
       items:
-        - name: Viimatise värskenduse kasutuselevõtmise protsess
+        - name: Uusima värskenduse kasutuselevõtmise protsess
           href: migration-upgrade/upgrade-latest-update.md
+        - name: Keskkondade värskendamine versioonilt 8.0 versioonile 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: Tarkvara elutsükli poliitika ja pilveväljalasked
           href: migration-upgrade/versions-update-policy.md
         - name: Uusima platvormivärskenduse rakendamine keskkondadele
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Aktiivsuse diagrammidega töötamine BPM-i teekides
       href: lifecycle-services/using-activity-diagrams.md
-    - name: BPM-i teekide sünkroonimine teenusega Visual Studio Team Services
+    - name: BPM-i teekide sünkroonimine Azure DevOps’iga
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: 'Kasutaja vastuvõtu testimise teekide loomine, kasutades tegevuse juhiseid ja BPM-i'
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: Varateek
       href: lifecycle-services/asset-library.md
+    - name: LCS-i tööriistade abil jõudluse tõrkeotsingu tegemine
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Päringu kokaraamat
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
