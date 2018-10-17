@@ -36,17 +36,23 @@
           items:
             - name: Tarkvara elutsükli poliitika ja pilveväljalasked
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-            - name: Tarkvara elutsükli poliitika ja kohapealsed väljalasked
+            - name: Tarkvara elutsükli poliitika ja asutusesisesed väljalasked
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: Eemaldatud või aegunud funktsioonid
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
-            - name: 'AX 2012 funktsioonid, mis on edasi lükatud'
+            - name: AX 2012 edasilükatud funktsioonid
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: 'Funktsioonid, mida pole kohapealsetes keskkondades rakendatud'
+            - name: Asutusesisestes juurutustes rakendamata funktsioonid
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operationsi versioon 8.1 (oktoober 2018)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (september 2018)
+              href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operationsi versioon 8.0 (aprill 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
-            - name: Platform update 15 (märts 2018)
+            - name: Platvormivärskendus 15 (märts 2018)
               href: get-started/whats-new-platform-update-15.md
             - name: 'Rakenduse Finance and Operations, Enterprise Edition versiooni 7.2 kohapealsed juurutused platvormi värskendusega platform update 12 (märts 2018)'
               href: get-started/whats-new-LBD-PU12-App72.md
@@ -452,10 +458,14 @@
               items:
                 - name: Ostureskontro arvete võrdlemise seadistamine
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: Arvestuse jaotused ja alammooduli töölehe sisestused hankija arvete puhul
+            - name: Arvestuse jaotused ja alammooduli töölehe kirjed hankija arvete puhul
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
-            - name: Arve võrdlemine ja kontsernisisesed ostutellimused
+            - name: Arvete võrdlemine ja kontsernisisesed ostutellimused
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Hankija arve poliitikate seadistamine
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Hankija arve kirjendamine ja sissetulnud kogusega vastendamine
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Positiivse makse ülevaade
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Positiivse makse failide seadistamine ja loomine
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Intressi töötlemine
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Hankija arvepoliitikate seadistamine
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Hankija arve kirjendamine ja sissetulnud kogusega vastendamine
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Kliendiarve loomine
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: Kliendimaksete deponeerimine
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Müügireskontro ajalise jaotuse teabe seadistamine ja genereerimine
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Klientide kopeerimine ühiskasutatavate numbriseeriate abil
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: Kliendi töövoog
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Maksed ja tasakaalustamised
@@ -1539,12 +1547,10 @@
               href: ../financials/localizations/emea-exchange-rate-adjustments.md
             - name: Makseviiside failivormingud
               href: ../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md
-            - name: Teenuse eelarve (ESR) integreerimine
+            - name: Finantsteenuse (ESR) integratsioon
               href: ../financials/localizations/emea-fiscal-service-integration.md
-            - name: Eesti ja Leedu põhivarade likvideerimine
+            - name: Põhivarade likvideerimine Eesti ja Leedu puhul
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Välisvaluuta ümberarvutamine
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Varude sisemise üleviimise ülekandedokumendi koostamine
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: EL-i käibearuande koostamine
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: Põhivara likvideerimise funktsiooni laiendus
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Välisvaluuta ümberarvutamine
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Tagastatav pakend
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Käibemaksuaruanded
@@ -2114,6 +2122,42 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: Käibe saldoväljavõte
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Venemaa
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Avansisaajad
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Avansisaaja loomine
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Avansisaajate igapäevased toimingud
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Põhivarad
+              items:
+                - name: Põhivarade soetamine ja kasutuselevõtmine
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Põhivara soetuste eelarvetöölehtede loomine ja sisestamine
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: Põhivarade loendamine
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Põhivarade valuuta ümberhindamine
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Põhivara osaline osadeks jaotamine (likvideerimine)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Maksekorralduste seadistamine ja töötlemine
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Valuutakannete vahetuskursside seadistamine
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Pearaamatukannete eelvaade
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Ametiisikute seadistamine
+              href: ../financials/localizations/rus-officials.md
+            - name: Pangakontode seadistamine
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Maksuesindajate käibemaks (KM)
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Tasakaalustus dimensioonide juhtimise seadistamine
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Saudi Araabia
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Käskveksli valikud
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Tähtaegade arvutamine ja aruanne keskmise makseperioodi kohta
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: Tingimuslik käibemaks
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: Krediitarveldus
@@ -2197,7 +2243,7 @@
               href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
             - name: Käibemaksugruppide seadistamine pöördkäibemaksu jaoks
               href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-        - name: USA
+        - name: Ameerika Ühendriigid
           href: ../financials/localizations/united-states.md
           items:
             - name: Aastalõpu aruanne 1099 Ameerika Ühendriikides
@@ -2295,7 +2341,7 @@
               href: hr/tasks/enroll-employee-variable-compensation-plan.md
             - name: Jõudluse ülevaadete loomine
               href: hr/tasks/create-performance-review.md
-        - name: Töötajate arendamine ja koolitamine
+        - name: Töövõtjate arendamine ja koolitamine
           items:
             - name: Jõudlushalduse ülevaade
               href: ../talent/performance-management-overview.md
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Nõudluse prognoosi käsitsi muutmine
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Dynamics 365 for Unified Operationsi mobiilirakendus
+    - name: Rakendus Dynamics 365 for Unified Operations Mobile
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Saadaval mobiilsed tööruumid
