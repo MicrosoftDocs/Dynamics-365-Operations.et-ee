@@ -3,13 +3,13 @@ title: Talenti ettevalmistamine
 description: See teema selgitab uue keskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks.
 author: rschloma
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 09/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: josaw
 ms.search.scope: Talent
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 2fc4119f3b33aa583274f4d823e296752cdde41d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 # <a name="provision-talent"></a>Talenti ettevalmistamine
@@ -30,7 +30,7 @@ ms.lasthandoff: 08/08/2018
 
 See teema selgitab uue tootmiskeskkonna ettevalmistuse protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks. See teema eeldab, et olete ostnud rakenduse Talent pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuur (AE) kaudu. Kui teil on lahenduse Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Talent teenuseplaani ja te ei saa selles teemas olevaid etappe läbida, võtke ühendust toega.
 
-Alustuseks peab üldadministraator [Microsoft Dynamicsi teenusesse Lifecycle Services](http://lcs.dynamics.com) (LCS) sisse logima ja looma uue Talenti projekti. Välja arvatud juhul, kui litsentsimisega seotud probleem takistab teil Talenti kasutuselevõtmist, pole klienditoe või Dynamicsi tehnikaosakonna meeskonna esindajate abi vaja.
+Alustuseks peab üldadministraator [Microsoft Dynamicsi teenusesse Lifecycle Services](https://lcs.dynamics.com) (LCS) sisse logima ja looma uue Talenti projekti. Välja arvatud juhul, kui litsentsimisega seotud probleem takistab teil Talenti kasutuselevõtmist, pole klienditoe või Dynamicsi tehnikaosakonna meeskonna esindajate abi vaja.
 
 ## <a name="create-an-lcs-project"></a>LCS-i projekti loomine
 Selleks, et kasutada oma Talenti keskkondade haldamiseks LCS-i, peate esmalt looma LCS-i projekti.
@@ -48,7 +48,6 @@ Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.
 
 1. Valige oma LCS-i projektis paan **Talenti rakendusehaldus**.
 2. Talent on alati ette valmistatud Microsoft PowerAppsi keskkonnana, et lubada PowerAppsi integreerimine ja laiendatavus. Enne jätkamist lugege selle teema jaotist „PowerAppsi keskkonna valimine”. 
-3. Kui teil pole veel PowerAppsi keskkonda, järgige enne jätkamist selle teema jaotises „Uue PowerAppsi keskkonna loomine (vajaduse korral)” olevaid etappe.
 
     > [!NOTE]
     > Olemasolevate keskkondade vaatamiseks või uute keskkondade loomiseks peab Talenti ettevalmistavale rentnikuadministraatorile olema määratud PowerApps P2 litsents. Kui teie organisatsioonil ei ole PowerApps P2 litsentsi, saate selle oma CSP-lt või [PowerAppsi hinnakujunduse lehelt](https://powerapps.microsoft.com/en-us/pricing/).
@@ -78,11 +77,6 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse PowerAppsi keskkonda Tale
 4. Arvestada tuleks andmete integreerimis- ja testimisstrateegiatega, näiteks: liivakast, UAT, tootmine. Seetõttu soovitame kaaluda juurutamise erinevaid mõjusid, kuna hiljem ei ole lihtne muuta, milline Talenti keskkond PowerAppsi keskkonnaga vastendatakse.
 5. Järgmisi PowerAppsi keskkondasid ei saa Talenti jaoks kasutada ja need filtreeritakse LCS-is valikuloendist välja.
  
-    **CDS 2.0 keskkonnad** CDS 2.0 on avalikult saadaval alates 21. märtsist 2018; kuid Talent ei toeta veel versiooni CDS 2.0. Saate PowerAppsi halduskeskuses vaadata ja luua CDS 2.0 andmebaase, kuid neid ei saa Talentis kasutada. Võimalus kasutada CDS 2.0 keskkondi Talenti juurutustes on saadaval edaspidi.
-   
-   > [!Note]
-   > Administreerimisportaalis CDS 1.0 ja 2.0 keskkondade eristamiseks valige keskkond ja vaadake selle **üksikasju**. Kõik CDS 2.0 keskkonnad viitavad asjaolule, et „Saate neid sätteid hallata rakenduse Dynamics 365 halduskeskuses”, osutavad eksemplari versioonile ning neil puudub vahekaart Andmebaas. 
- 
    **PowerAppsi vaikekeskkonnad** Kuigi iga rentniku jaoks on automaatselt ette valmistatud PowerAppsi vaikekeskkond, ei soovita me neid keskkondi Talentis kasutada, sest kõigil rentniku kasutajatel on juurdepääs PowerAppsi keskkonnale ja nad võivad tahtmatult tootmisandmeid rikkuda, kui nad katsetavad ja tutvuvad PowerAppsi või Flow integratsioonidega.
    
    <strong>Proovikeskkonnad</strong> Keskkonnad nimega, nagu „TestDrive – alias@domain” luuakse 60-päevase aegumisperioodiga, pärast mida need aeguvad ja teie keskkond eemaldatakse automaatselt.
@@ -91,42 +85,6 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse PowerAppsi keskkonda Tale
   
 6. Kui olete määratlenud kasutatava keskkonna, ei saa ühtegi konkreetset tegevust enam teha. Jätkake ettevalmistamise protsessi. 
  
-## <a name="create-a-new-powerapps-environment-if-required"></a>Uue PowerAppsi keskkonna loomine (vajaduse korral)
-
-Käivitage PowerShelli skript, et luua Talenti jaoks uus PowerAppsi keskkond, eeldusel, et rentniku administraatoril on PowerAppsi plaani 2 litsents. Skript automatiseerib järgmised sammud:
-
-
- + PowerAppsi keskkonna loomine;
- + CDS 1.0 andmebaasi loomine;
- + CDS 1.0 andmebaasi näidisandmete kustutamine.
-
-
-Skripti käivitamiseks tehke järgmist.
-
-1. Laadige järgmisest asukohast alla fail ProvisionCDSEnvironment.zip: [ProvisionCDSEnvironmenti skriptid](https://go.microsoft.com/fwlink/?linkid=870436)  
-
-2. Paremklõpsake allalaadimise kaustas äsja allalaaditud faili ProvisionCDSEnvironment.zip ja valige **Atribuudid**.  Kui dialoogi allosas on turvamärge „See fail on pärit teisest arvutist ja võib olla arvuti kaitsmiseks blokeeritud”, märkige ruut **Tühista blokeerimine**, seejärel klõpsake valikut **Rakenda** ja siis **OK**.
-
-3. Pakkige kogu faili ProvisionCDSEnviroinment.zip sisu lahti mõnda muusse kausta kui juurkaust.
-
-4. Käivitage administraatorina programm Windows PowerShell või Windows PowerShell ISE.
-
-   Vaadake teemat [Käivitamispoliitika häälestamine](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6), et saada lisateavet skriptide käitamist võimaldava käivitamispoliitika häälestamise kohta. Soovitame kasutada järgmist „Komplekt – ExecutionPolicy – ExecutionPolicy piiramatu – protsessi ulatus”, kuid veenduge, et järgiksite oma ettevõtte turbepoliitikaid ja sulgeksite lõpetamisel PowerShelli akna. 
-  
-5. PowerShellis liikuge kausta, kuhu pakkisite faili lahti, ja käivitage järgmine käsk, asendades väärtused, nagu on näidatud allpool.
- 
-   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
-
-    
-   **MyNewEnvironment** tuleb asendada teie keskkonna nimega. See nimi kuvatakse LCS-is ja see on nähtav, kui kasutajad valivad, millist Talenti keskkonda kasutada. 
-
-   **YourLocation** tuleb asendada ühega Talenti toetavatest piirkondadest: Ameerika Ühendriigid, Euroopa, Austraalia. 
-
-   **-Verbose** on valikuline ja edastab üksikasjaliku teabe, mis saata probleemide ilmnemisel tugimeeskonnale.
-
-6. Jätkake ettevalmistamise protsessi.
- 
-
 ## <a name="grant-access-to-the-environment"></a>Keskkonnale juurdepääsu andmine
 Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril. Rakenduse teistele kasutajatele tuleb juurdepääs anda eraldi. Juurdepääsu andmiseks tuleb Core HR-i keskkonnas [lisada kasutajaid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ja [määrata neile sobivad rollid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). Lähtestamise lõpetamiseks ja teistele rentiku kasutajatele juurdepääsu lubamiseks peaks Talenti keskkonna juurutanud üldadministraator käivitama ka mõlemad rakendused Attract ja Onboard.  Kuni seda pole tehtud, pole teistel kasutajatel juurdepääsu rakendustele Attract ja Onboard ning nad saavad juurdepääsuõiguste rikkumise tõrkeid.
 

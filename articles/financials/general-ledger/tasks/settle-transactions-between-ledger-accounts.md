@@ -3,7 +3,7 @@ title: Pearaamatukontode kannete tasakaalustamine
 description: "See protseduur selgitab, kuidas tasakaalustada kandeid pearaamatu kontode vahel ja tühistada pearaamatu tasakaalustust."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/03/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97a28069f8d560c98099a667852c932ba7658996
+ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
+ms.openlocfilehash: 4aff64fa1c017f295752e913de7fb320f0662ef8
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/03/2018
 
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Pearaamatukontode kannete tasakaalustamine
@@ -33,19 +33,20 @@ See protseduur selgitab, kuidas tasakaalustada kandeid pearaamatu kontode vahel 
 ## <a name="settle-transaction-between-ledger-accounts"></a>Kande tasakaalustamine pearaamatukontode vahel
 1. Minge jaotisesse Pearaamat > Perioodilised ülesanded > Pearaamatu tasakaalustused.
 2. Leidke loendist kanne, mille soovite tasakaalustada.
-    * Summa saldo peab olema null.  
+   > [!NOTE]
+   > Summa saldo peab olema null.  
 3. Klõpsake suvandit Kaasa.
 4. Klõpsake suvandit Nõustu.
 
 ## <a name="cancel-a-ledger-settlement"></a>Pearaamatu tasakaalustamise tühistamine
-1. Sulgege leht.
-2. Minge jaotisse Pearaamat > Päringud ja aruanded > Proovibilanss.
-3. Klõpsake suvandit Parameetrid rippdialoogi avamiseks.
-4. Klõpsake käsku Uuenda.
-5. Leidke loendist konto, millel on tasakaalustatud kanne.
-6. Klõpsake suvandit Kõik kanded.
-7. Loendist hõlpsasti kande leidmiseks kasutage filtrit.
-8. Klõpsake suvandit Pearaamatu tasakaalustused.
-9. Märkige loendis valitud rida.
+
+1. Minge jaotisse Pearaamat > Päringud ja aruanded > Proovibilanss.
+2. Klõpsake suvandit Parameetrid rippdialoogi avamiseks.
+3. Klõpsake käsku Uuenda.
+4. Leidke loendist konto, millel on tasakaalustatud kanne.
+5. Klõpsake suvandit Kõik kanded.
+6. Loendist hõlpsasti kande leidmiseks kasutage filtrit.
+7. Klõpsake suvandit Pearaamatu tasakaalustused.
+8. Märkige loendis valitud rida.
 
 

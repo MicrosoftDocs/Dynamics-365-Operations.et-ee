@@ -1,29 +1,30 @@
----
+--- 
 title: Varude blokeerimise loomine ja haldamine
 description: "See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimist teiste väljaminevate lähtedokumentidega, kasutades varude blokeerimist."
 author: perlynne
 manager: AnnBe
-ms.date: 12/02/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-and-maintain-inventory-blocking"></a>Varude blokeerimise loomine ja haldamine
+# <a name="create-and-maintain-an-inventory-blocking"></a>Varude blokeerimise loomine ja haldamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimis
 1. Avage Varude haldus > Perioodilised ülesanded > Varude blokeerimine.
 2. Klõpsake valikut Uus.
 3. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-4. Valige loendist kaup, mille soovite valida.
+4. Valige loendist kaup, mille soovite valida. 
     * Valige kauba number koos füüsilise vaba kaubavaruga, mida soovite blokeerida. USMF-i kasutamisel saate valida kauba M9201.  
 5. Sisestage arv väljale Kogus.
     * Kauba M9201 kasutamisel peate valima alla 200.  
@@ -55,4 +56,5 @@ See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimis
 1. Klõpsake  Kustuta.
 2. Klõpsake nuppu Jah.
 3. Sulgege leht.
+
 

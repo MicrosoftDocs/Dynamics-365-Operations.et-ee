@@ -10,41 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
+ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
+ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/24/2018
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Põhivara käibelt kõrvaldamine vabas vormis arve abil
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas soetada põhivara, kasutades põhivara töölehe soetussoovitust. See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
+See protseduur kirjeldab põhivara likvideerimist vabas vormis arve abil.
 
-1. Avage Põhivarad > Töölehe sisestused > Põhivarade tööleht.
+1. Avage Müügireskontro > Arved > Kõik vabas vormis arved.
 2. Klõpsake valikut Uus.
-3. Sisestage või valige väärtus väljal Nimi.
-4. Klõpsake valikut Read.
-5. Klõpsake suvandit Soovitused.
-6. Klõpsake suvandit Soetussoovitus.
-7. Klõpsake käsku Filtreeri.
-8. Eelmiste väärtuste eemaldamiseks klõpsake nuppu Lähtesta.
-9. Valige rida Põhivara kood.
-10. Sisestage või valige väärtus väljal Kriteeriumid.
-    * Seadistage ülejäänud kriteeriumid põhivarade puhul, mida soovite selle soovitusega soetada.  
-11. Klõpsake nuppu OK.
-12. Klõpsake nuppu OK.
-    * Kontrollige loodud kande ridu.  
-    * Soetussoovitusse kaasatakse ainult põhivarad, mille soetamiskuupäev ja soetusmaksumus on raamatus seadistatud.  
-13. Klõpsake vahekaarti Raamatud.
-14. Klõpsake valikut Sisesta.
+3. Valige või sisestage väärtus väljal Kliendi konto.
+4. Kinnitage arve vaikekuupäev ja vajaduse korral redigeerige seda.
+5. Kinnitage ülejäänud vaike-päiseväljad, nagu Valuuta, ja vajaduse korral redigeerige neid.
+6. Sisestage arve reale kirjeldus.
+7. Sisestage või valige arve real põhikonto.
+8. Kinnitage vaike-käibemaksugrupp ja kauba käibemaksugrupp.
+9. Sisestage põhivara ühiku hind või müügisumma.
+10. Klõpsake valikut Rea üksikasjad.  
+11. Valige müüdava põhivara number.
+12. Klõpsake valikut Sisesta.
 
 

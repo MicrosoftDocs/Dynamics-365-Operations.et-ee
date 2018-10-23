@@ -18,10 +18,10 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 7061ee2e8b22d29381131815898902a482b7b730
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 09/21/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/29/2018
 
 Selles artiklis selgitatakse, kuidas leida kasutustuge rakenduse Finance and Operations või Microsoft Dynamics Lifecycle Services (LCS) jaoks. 
 
-<a name="contact-support"></a>Võtke ühendust toega
----------------
+## <a name="contact-support"></a>Võtke ühendust toega
 
 Selle artikli teabe abil saate võtta ühendust Microsoftiga, kui teil on küsimusi rakenduse Finance and Operations kohta või kui vajate abi teenusele Microsoft Dynamics Lifecycle Services (LCS) juurde pääsemiseks.
 
@@ -89,8 +88,10 @@ Kui teil on probleeme sisse logimisega ja teenuste (nt CustomerSource, e-õpe, o
 </tbody>
 </table>
 
-Lisateavet Microsoft Dynamics tugipakkumiste kohta vt [Microsoft Dynamics veebitugi](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
-
+## <a name="additional-resources"></a>Lisaressursid
+- [Toe hankimine rakendusele Dynamics 365 for Retail](../../retail/retail-support.md)
+- [Toe hankimine rakendusele Dynamics 365 for Talent](../../talent/talent-support.md)
+- Lisateavet Microsoft Dynamics tugipakkumiste kohta vt [Microsoft Dynamics veebitugi](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
 

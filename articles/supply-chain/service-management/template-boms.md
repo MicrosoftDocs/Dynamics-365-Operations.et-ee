@@ -3,7 +3,7 @@ title: Mallkooslused
 description: Mallkoosluses (BOM) on pidevalt kasutatavate teenuseobjekti komponentide standardnimekiri.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/01/2018
+ms.date: 09/19/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6e3a16b9938f6d4222e0a95078356f457e71a1bb
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/21/2018
 
 ---
 
@@ -105,7 +105,7 @@ Mallkoosluste kasutamiseks peate seadistama kaks numbriseeriat. Seadistage üks 
 
 
 > [!NOTE]
-> <P>Numbriseeriaid kasutatakse rakenduse Microsoft Dynamics AX kaudu identifikaatorite eraldamiseks kirjetele, mis neid nõuavad. Enne kui saate mallkooslusele või koosluse ajaloo rea numbrile numbriseeria määrata, peate seadistama numbriseeria koodid.</P>
+> <P>Numbriseeriaid kasutatakse identifikaatorite eraldamiseks kirjetele, mis neid nõuavad. Enne kui saate mallkooslusele või koosluse ajaloo rea numbrile numbriseeria määrata, peate seadistama numbriseeria koodid.</P>
 
 
 ## <a name="set-up-number-sequences"></a>Seadista numbriseeriad

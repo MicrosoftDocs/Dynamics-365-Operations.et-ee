@@ -1,25 +1,26 @@
 --- 
 title: Elektroonilise aruandluse konfiguratsioonide kujundamine Wordi vormingus aruannete loomiseks
-description: "Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab konfigureerida elektroonilise aruandluse (ER) vorminguid, et luua aruandeid Microsoft Word failidena."
+description: "Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab konfigureerida elektroonilise aruandluse vorminguid, et luua aruandeid Microsoft Wordi failidena."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine Wordi vormingus aruannete loomiseks
@@ -30,9 +31,9 @@ Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise ar
 
 Nende etappide lõpuleviimiseks peate esmalt läbima tegevusejuhises „ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML” esitatud etapid. Eelnevalt peate näidisaruande jaoks alla laadima ja kohalikult salvestama ka järgmised mallid:
 
-[Maksearuande mall](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Maksearuande mall](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Maksearuande piiratud mall](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Maksearuande piiratud mall](https://go.microsoft.com/fwlink/?linkid=862266)
 
 See protseduur on funktsiooni jaoks, mis lisati rakenduse Microsoft Dynamics 365 for Operations versioonis 1611.
 
@@ -49,7 +50,7 @@ See protseduur on funktsiooni jaoks, mis lisati rakenduse Microsoft Dynamics 365
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Exceli malli asendamine Wordi malliga
     * Praegu kasutatakse Exceli dokumenti mallina väljundi loomiseks OPENXML-vormingus. Impordime aruande malli Wordi vormingus.  
 1. Klõpsake suvandit Manused.
-    * Asendage olemasolev Exceli mall varem allalaaditud Wordi malliga (Maksearuande mall). Pange tähele, et see mall sisaldab ainult sellise dokumendi paigutust, mida soovime luua elektroonilise aruandluse väljundina.  
+    * Asendage olemasolev Exceli mall varem allalaaditud Wordi malliga (SampleVendPaymDocReport.docx). Pange tähele, et see mall sisaldab ainult sellise dokumendi paigutust, mida soovime luua elektroonilise aruandluse väljundina.  
 2. Klõpsake  Kustuta.
 3. Klõpsake nuppu Jah.
 4. Klõpsake valikut Uus.

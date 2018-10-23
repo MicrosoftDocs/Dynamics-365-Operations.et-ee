@@ -3,7 +3,7 @@ title: "Kasutuskogemuse isikupärastamine"
 description: "Selles artiklid selgitatakse, kuidas rakendust Microsoft Dynamics 365 for Finance and Operations isikupärastada."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 05/24/2018
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
+ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
+ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -64,7 +64,7 @@ Erinevad inimesed ja ettevõtted näevad erineval moel andmeid, mis on nende jao
 ### <a name="shortcut-menu-options"></a>Otseteemenüü suvandid
 Otseteemenüüd pakuvad mitut võimalust lehe selgeks muutmiseks, et see sobiks paremini teie enda või teie ettevõtte nõuetega. (Otseteemenüüd nimetatakse ka *paremklõpsuga avatavaks menüüks* või *kontekstimenüüks*.)
 
-Mõned tüüpilisimad ja olulisimad muudatused, mille lehele saab teha, on saadaval otse, kasutades otseteemenüü suvandeid. Näiteks ruudustikku veergude lisamiseks või nende peitmiseks lihtsalt paremklõpsake ruudustiku veerupäisel ja siis valige käsk **Lisa veerge** või **Peida see veerg**.
+Mõned tüüpilisimad ja olulisimad muudatused, mille lehele saab teha, on saadaval otse, kasutades otseteemenüü suvandeid. Näiteks kui soovite alates platvormivärskendusest 17 lisada ruudustikku veerge või neid peita, lihtsalt paremklõpsake ruudustiku veerupäisel ja siis valige käsk **Lisa veerge** või **Peida see veerg**.
 
 Peale selle on enamik selge isikupärastamise tüüpe saadaval, kui paremklõpsate elemendil ja valite käsu **Isikupärastamine**. (Arvestage sellega, et kõiki lehel olevaid elemente ei saa isikupärastada.) Kui valite selle isikupärastamise viisi, ilmub elemendi atribuudiaken.
 
@@ -81,27 +81,38 @@ Atribuudiakna kaudu on elemendi isikupärastamiseks järgmised võimalused.
 Atribuudiaken võib sisaldada ka muid isikupärastamisvõimalusi olenevalt elemendist. Näiteks paani atribuudiaken võib lubada teil ülendada selle paani armatuurlauaks ja armatuurlaua atribuudiaken võib lubada teil luua sellel armatuurlaual uue tööruumi.
 
 ### <a name="the-personalization-toolbar"></a>Isikupärastamise tööriistariba
-Kui soovite elemente teisaldada või peita või teha lehele mitu muudatust, saate kasutada tööriistariba **Isikupärastamine**. Tööriistariba **Isikupärastamine** avamiseks valige elemendi atribuudiaknas suvand **Selle vormi isikupärastamine**. Saate valida suvandi **Selle vormi isikupärastamine** iga lehe toimingupaani vahekaardil **Suvandid** olevast rühmast **Isikupärastamine**.
+Kui soovite teha lehele mitu muudatust või teete muudatusi, mis pole muude mehhanismide (nt elementide ümberjärjestamine) kaudu saadaval, saate kasutada tööriistariba **Isikupärastamine**. Tööriistariba **Isikupärastamine** avamiseks valige elemendi atribuudiaknas suvand **Selle vormi isikupärastamine**. Saate valida suvandi **Selle vormi isikupärastamine** iga lehe toimingupaani vahekaardil **Suvandid** olevast rühmast **Isikupärastamine**.
 
 [![Isikupärastamise tööriistariba](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Kui tööriistariba **Isikupärastamine** on avatud, pole leht interaktiivne. Seetõttu ei saa te andmeid sisestada ega jaotisi laiendada või ahendada. Saate lihtsalt muuta lehte moodustavaid elemente.
+#### <a name="navigating-the-page"></a>Lehel liikumine 
+Võimalus liikuda lehel, kui **Isikupärastamise tööriistariba** on avatud, sõltub kasutatavast platvormi versioonist. 
 
+- Enne platvormivärskendust 19, on leht, kui tööriistariba **Isikupärastamine** on avatud, kirjutuskaitstud (midagi ei saa sisestada) ja mitteinteraktiivne (muuta saab ainult lehe nähtavaid elemente). Kui soovite muuta ahendatud jaotises või teisel vahekaardil olevaid elemente, peate tööriistariba **Isikupärastamine** sulgema, jaotise laiendama või soovitud vahekaardile lülituma ja seejärel vahekaardi **Isikupärastamine** uuesti avama.  
+
+- Alates platvormivärskendusest 19 on leht, kui tööriistariba **Isikupärastamine** avatud, endiselt kirjutuskaitstud, kuid interaktiivsem. Täpsemalt saate kiirinfopaani laiendada või ahendada, vahekaartidel liikuda ja jaotisi laiendada või ahendada, kui tööriistariba **Isikupärastamine** on avatud, samamoodi, nagu seda tavaliselt lehel teete. Isikupärastamismuudatuse rakendamiseks ahendatavale jaotisele või vahekaardile (nt kiirkaardi peitmine), käivitate ahendatava jaotise või vahekaardi kõrval kuvatava nupu, kui sellele klaviatuuri või hiire abil liigute.  
+
+#### <a name="personalization-tools"></a>Isikupärastamise tööriistad
 Tööriistaribal **Isikupärastamine** on saadaval järgmised tööriistad.
 
 - Tööriistaga **Vali** saate valida ja muuta elemendi atribuute. Valige tööriist **Vali** ja seejärel element, mille atribuute soovite muuta. Elemendi valimisel avaneb elemendi atribuudiaken ja te saate muuta selle elemendi mis tahes atribuute. Saate protsessi selle lehe muude isikupärastatavate elementide puhul korrata. Olenevalt aga mõne elemendi kasutusviisist ei lase Finance and Operations teil kõiki selle atribuute muuta. Seetõttu võite elemendi valimisel näha, et mõnd selle atribuuti ei saa muuta. Näiteks ei saa te vajalikku välja peita.
-- Tööriistaga **Teisalda** saate nihutada elemendi praeguses elemendirühmas teise asukohta. (Elementi ei saa teisaldada emagrupist väljapoole). Valige tööriist **Teisalda** ja siis valige teisaldatav element. Elemendi valimisel kontrollib Finance and Operations lehte, et teha kindlaks, kuhu elemendi saab teisaldada. Seejärel loob see pukseerimistsoonide loetelu. Elemendi lohistamisel praeguses rühmas kuvatakse iga pukseerimistsoon värvilisena ja paksu joonega selle ala kõrval, kuhu elemendi saab pukseerida.
-- Tööriistaga **Peida** saate elemendi lehel peita. Valige tööriist **Peida** ja siis valige peidetav element. Tööriista **Peida** valimisel muudetakse kõik parasjagu peidetud elemendid nähtavaks ja kuvatakse varjutatud konteineris. Seejärel saate need nähtavale tuua. Valides tööriista **Vali**, saate vaadata, milline näeb leht välja, kui valitud elemendid on peidetud.
-- Tööriistaga **Kokkuvõte** saate kuvada elemendi kiirkaardi kokkuvõttejaotises. Tööriist Kokkuvõte rakendub ainult väljadele, mis sisalduvad kiirkaardi jaotises. Tööriista **Kokkuvõte** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja neid sealt eemaldada, valides soovitud väljad.
-- Tööriistaga **Jäta vahele** saate eemaldada elemendi lehe klaviatuuri vahekaardijärjestusest. Tööriista **Jäta vahele** valimisel kuvatakse kõik parasjagu vahelejäetud elemendid varjutatud konteineris. Seejärel saate need muuta uuesti vahekaardijärjestuse osaks.
-- Tööriistaga **Redigeeri** saate märkida elemendi redigeeritavaks või mitteredigeeritavaks. Tööriista **Redigeeri** valimisel kuvatakse kõik parasjagu mitteredigeeritavad elemendid varjutatud konteineris. Seejärel saate need uuesti redigeeritavaks muuta. Arvestage sellega, et mõned väljad on nõutavad ja neid ei saa mitteredigeeritavaks muuta. Nende väljade kõrval kuvatakse tabalukuikoon.
-- Nupuga **Sisesta** saate kuvada loendi elementidest, mida saab lehele lisada.
 
+- Tööriistaga **Teisalda** saate nihutada elemendi praeguses elemendirühmas teise asukohta. (Elementi ei saa teisaldada emagrupist väljapoole). Valige tööriist **Teisalda** ja siis valige teisaldatav element. Elemendi valimisel kontrollib Finance and Operations lehte, et teha kindlaks, kuhu elemendi saab teisaldada. Seejärel loob see pukseerimistsoonide loetelu. Elemendi lohistamisel praeguses rühmas kuvatakse iga pukseerimistsoon värvilisena ja paksu joonega selle ala kõrval, kuhu elemendi saab pukseerida.
+
+- Tööriistaga **Peida** saate elemendi lehel peita. Valige tööriist **Peida** ja siis valige peidetav element. Tööriista **Peida** valimisel muudetakse kõik parasjagu peidetud elemendid nähtavaks ja kuvatakse varjutatud konteineris. Seejärel saate need nähtavale tuua. Valides tööriista **Vali**, saate vaadata, milline näeb leht välja, kui valitud elemendid on peidetud.
+    - Alates platvormivärskendusest 18 saate vajalikud väljad ja vajalikke välju sisaldavad jaotised peita. See võimaldab hõlbustada kasutusviisi, kus äriloogikaga vaikimisi täidetud välju ei kuvata. Peidetud väljad saab ka ajutiselt nähtavaks teha, kui need on salvestamisel tühjad. 
+
+- Tööriistaga **Kokkuvõte** saate kuvada elemendi kiirkaardi kokkuvõttejaotises. Tööriist Kokkuvõte rakendub ainult väljadele, mis sisalduvad kiirkaardi jaotises. Tööriista **Kokkuvõte** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja neid sealt eemaldada, valides soovitud väljad.
+
+- Tööriistaga **Jäta vahele** saate eemaldada elemendi lehe klaviatuuri vahekaardijärjestusest. Tööriista **Jäta vahele** valimisel kuvatakse kõik parasjagu vahelejäetud elemendid varjutatud konteineris. Seejärel saate need muuta uuesti vahekaardijärjestuse osaks.
+
+- Tööriistaga **Redigeeri** saate märkida elemendi redigeeritavaks või mitteredigeeritavaks. Tööriista **Redigeeri** valimisel kuvatakse kõik parasjagu mitteredigeeritavad elemendid varjutatud konteineris. Seejärel saate need uuesti redigeeritavaks muuta. Arvestage sellega, et mõned väljad on nõutavad ja neid ei saa mitteredigeeritavaks muuta. Nende väljade kõrval kuvatakse tabalukuikoon.
+
+- Nupuga **Sisesta** saate kuvada loendi elementidest, mida saab lehele lisada.
     - Lehele välja lisamiseks valige nupu **Sisesta** alt tööriist **Väli**. Tööriista **Väli** kasutamisel saate lisada ainult välju, mis on osa lehe määratlusest, kuid mida praegu lehel ei kuvata. Teavet selle kohta, kuidas luua uusi välju, mis ei ole osa praeguse lehe määratlusest, vt jaotisest [Kohandatud väljad](user-defined-fields.md). Tööriista **Väli** valimisel peate esmalt valima rühma või ala, kuhu soovite välja lisada. Dialoogiboksis kuvatakse valitud rühma või alaga seotud väljade loend. Valige dialoogiboksis lisamiseks üks või mitu välja ja seejärel valige käsk **Sisesta**. Varem lisatud välja eemaldamiseks korrake protsessi, kuid tühjendage dialoogiboksis välja valik.
     - Microsoft PowerAppsiga loodud rakenduse manustamiseks lehele valige nupu **Sisesta** alt tööriist **PowerApp**. Üksikasjalikku teavet lehele PowerAppsi rakenduse manustamise kohta vt jaotisest [PowerAppsi manustamine](embed-power-apps.md).
 
 - Valige nupp **Halda**, et kuvada praeguse lehe kõigi isikupärastamistega seotud haldamissuvandite loend.
-
     - Valige suvand **Eemalda** lehe lähtestamiseks vaikesätetele, installitud olekusse. Kõik praeguse lehe isikupärastamised eemaldatakse. Tagasivõtmine ei ole võimalik. Seetõttu kasutage seda suvandit ainult siis, kui soovite lehe lähtestada.
     - Suvandiga **Impordi** saadida laadida isikupärastamise failist, mille teie või keegi teine on lehe jaoks varem loonud. Kõik teie praegused lehe isikupärastamised asendatakse isikupärastamistega valitud failist.
     - Suvandiga **Ekspordi** saate oma lehe isikupärastamised failina salvestada. Saate oma isikupärastamisi teiste kasutajatega jagada. Need kasutajad peavad lihtsalt importima teie lehe isikupärastamisi sisaldava faili.
@@ -149,5 +160,5 @@ Lehel varude dimensioonide häälestuse isikupärastamisel võtke arvesse suvand
 
 **Dimensiooni kuva** sätted rakenduvad kõigile lehtede ja alistavad eraldi lehtedel varude dimensiooniväljade isikupärastatud sätted.
 
-Seetõttu kui te eeltoodud näites ei soovi partiinumbri varude dimensiooni veergu kuvada, peate selle dimensiooni tabeli suvandi **Kuva dimensioonid** osana eemaldama. See muudatus rakendub mitte ainult ühele kindlale lehele, vaid kõigile lehtedele.
+Seega kui te eeltoodud näites ei soovi partiinumbri varude dimensiooni veergu kuvada, peate selle dimensiooni tabeli suvandi **Kuva dimensioonid** osana eemaldama. See muudatus rakendub mitte ainult ühele kindlale lehele, vaid kõigile lehtedele.
 

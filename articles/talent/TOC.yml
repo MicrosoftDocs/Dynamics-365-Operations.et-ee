@@ -6,6 +6,14 @@
       items:
         - name: Mis on uus või muudetud
           items:
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (1. oktoober 2018)
+              href: whats-new-talent-october-01.md
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (24. september 2018)
+              href: whats-new-talent-september-24.md
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (17. september 2018)
+              href: whats-new-talent-september-17-2018.md
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (10. september 2018)
+              href: whats-new-talent-september-10.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (august 2018)
               href: whats-new-talent-august2018.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (juuli 2018)
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: PowerAppsi rakenduste manustamine
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR ja Common Data Service for Apps
+          href: CoreHREntities.md
         - name: Juurdepääs eelvaatefunktsioonidele
           href: access-preview-feature.md
         - name: Palgaarvestuse integratsiooni konfigureerimine Talenti ja Dayforce’i vahel
           href: configure-payroll-integration.md
+        - name: Talenti toe hankimine
+          href: talent-support.md
     - name: 'Tööjõu korraldamine osakondade, tööde ja ametikohtade abil'
       href: departments-jobs-positions.md
       items:
@@ -41,8 +53,13 @@
           href: formalize-business-processes.md
         - name: Töövoogude kasutamine töövõtja teabe haldamiseks
           href: workflow-manage-employee-information.md
-        - name: Puhkuste ja puudumiste haldus
-          href: leave-absence-overview.md
+    - name: Lahkumiste ja puudumiste haldamine
+      href: leave-absence-overview.md
+      items:
+        - name: Töötatud tundidel põhinev kumulatiivne vaba aja arvestus
+          href: leave-accrue-hours-worked.md
+        - name: Töögraafikud
+          href: working-time-calendars.md
     - name: Organisatsiooni personali palkamine
       items:
         - name: Attracti funktsioonid ja võimalused
@@ -59,7 +76,9 @@
           href: create-variable-compensation-plans.md
         - name: Hüvitusprotsess
           href: process-compensation.md
-    - name: Töötajate arendamine ja koolitamine
+        - name: Töö komponentide seadistamine
+          href: create-job.md
+    - name: Töövõtjate arendamine ja koolitamine
       items:
         - name: Jõudlushaldus
           href: performance-management-overview.md

@@ -1,28 +1,29 @@
 --- 
-title: "Vormingute kujundamine, et Exceli aruannetele dünaamiliselt veergusid lisada horisontaalselt laiendatavate vahemikena"
+title: "Elektrooniline aruandlus. Horisontaalselt laiendatavate vahemike kasutamine veergude dünaamiliseks lisamiseks Exceli aruannetes (1. osa – vormingu koostamine)"
 description: "Järgmistes etappides selgitatakse, kuidas kasutaja, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll, saab konfigureerida elektroonilise aruandluse vormingut, et luua aruandeid OPENXML-i töölehtede (Exceli) failidena, milles saab luua dünaamiliselt vajalikke veerge horisontaalselt laiendatavate vahemikena."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 80cd2603ba5ee47f861077d75a955037ffbde96e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 7f0481a09e2ff4ae06fc53011067050c3373d6bc
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-formats-to-dynamically-add-columns-to-excel-reports-as-horizontally-expandable-ranges"></a>Vormingute kujundamine, et Exceli aruannetele dünaamiliselt veergusid lisada horisontaalselt laiendatavate vahemikena
+# <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format"></a>Elektrooniline aruandlus Horisontaalselt laiendatavate vahemike kasutamine veergude dünaamiliseks lisamiseks Exceli aruannetes (1. osa: vormingu koostamine)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -36,8 +37,7 @@ Toimingute teostamiseks tuleb esmalt läbida järgmised kolm tööjuhist.
 
 „ER Finantsdimensioonide kasutamine andmeallikana (2. osa: mudeli vastendamine)“
 
-Samuti peate alla laadima ja salvestama malli kohaliku koopia näidisaruandega, mis on saadaval siin: [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
-
+Samuti peate alla laadima ja salvestama malli kohaliku koopia näidisaruandega, mis on saadaval siin: [Finantsdimensioonide veebiteenuse näidisaruanne](https://go.microsoft.com/fwlink/?linkid=862266).
 
 See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 

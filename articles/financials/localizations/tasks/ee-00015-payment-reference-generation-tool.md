@@ -1,28 +1,29 @@
 --- 
-title: "Makseviite genereerimise tööriist (Ida-Euroopa)"
+title: "EE-00015 Makseviite loomise tööriist"
 description: "See protseduur juhatab teid läbi makseviidete koostamise protseduuri."
 author: v-oloski
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MainAccount, LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Estonia
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 187f11c79d8e1b25fa1f93178fcfb41569d47026
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 52940dedc05765d376ecc9e2eb52fa9d9c83e4fa
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="payment-reference-generation-tool-eastern-europe"></a>Makseviite genereerimise tööriist (Ida-Euroopa)
+# <a name="ee-00015-payment-reference-generation-tool"></a>EE-00015 Makseviite loomise tööriist
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

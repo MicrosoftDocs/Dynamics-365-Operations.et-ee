@@ -3,7 +3,7 @@ title: "Eemaldatud või aegunud funktsioonid"
 description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -41,6 +41,52 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > [!Note]
 > Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partii ülekannete reeglid alammooduli töölehe konto kirje puhul
+Pearaamatu parameetrites muutub sünkroonne ülekanderežiim aegunuks.  Režiim asendatakse ainult asünkroonse ja planeeritud partiiga, mis on juba ülekandmissuvandina olemas. 
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Eemaldame sünkroonse suvandi jõudlusmõju tõttu süsteemile. |
+| **Asendatud teise funktsiooniga?**   | Asünkroonne ja planeeritud partii on suvandid, mida saab sünkroonse režiimi asemel kasutada.   |
+| **Mõjutatud tootealad**         | Pearaamat, ostureskontro, müügireskontro, hange, kulu    |
+| **Juurutamissuvand**              | Kõik  |
+| **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on versioon 10.0.|
+
+### <a name="electronic-reporting-for-russia"></a>Elektrooniline aruandlus Venemaa puhul
+Funktsioon deklaratsioonide TXT- ja XML-failivormingute konfigureerimiseks. 
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Asendatud elektroonilise aruandlusega. |
+| **Asendatud teise funktsiooniga?**   | Jah. |
+| **Mõjutatud tootealad**         | Pearaamat |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
+
+### <a name="financial-reports-generator-for-russia"></a>Finantsaruannete generaator Venemaa jaoks
+Tööriist andmete kogumise seadistamiseks raamatupidamise ja maksuaruannete jaoks ning andmete eksportimiseks XLS- ja DOC-aruandemallidesse. Funktsionaalsed osad: andmete eksportimine XLS- ja DOC-aruandemallidesse, päringud, fikseeritud rekvisiidid on eemaldatud. 
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Eemaldatud osad on asendatud elektroonilise aruandlusega. |
+| **Asendatud teise funktsiooniga?**   | Jah. GL-i kontode või maksuregistritega andmekogumisreeglite seadistamiseks tuleb kasutada finantsaruannete seadistuse kasutajaliidest. Andmete eksportimine erinevatesse failitüüpidesse, fikseeritud rekvisiidid ja päringulaadsete andmete kogumisreeglid tuleb konfigureerida elektroonilises aruandluses. |
+| **Mõjutatud tootealad**         | Pearaamat. |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integratsioon väliste pakkujatega elektroonilise aruandluse saatmiseks kommunikatsioonikanalite kaudu Venemaa puhul
+Funktsioon loodud deklaratsioonide elektrooniliste failide saatmiseks kausta edasisaatmiseks elektroonilise aruandluse ametlikele pakkujatele ning oleku tagasi importimiseks.
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Asendatud elektrooniliste teadete konfigureerimise funktsiooniga. |
+| **Asendatud teise funktsiooniga?**   | Jah.  |
+| **Mõjutatud tootealad**         | Pearaamat, maks |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Microsoft Dynamics 365 for Finance and Operations 8.0 platvormivärskendusega 15
 Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Platvormivärskendus 15 on kumulatiivne ja sisaldab uusi või muudetud funktsioone platvormivärskendusest 13, platvormivärskendusest 14 ja platvormivärskendusest 15.

@@ -3,7 +3,7 @@ title: "Üldkulude arvutus"
 description: "Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise protsesse."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/05/2018
 
 ---
 
@@ -191,8 +191,7 @@ Mõnikord on osa kulust fikseeritud tasu ja järelejäänud kulu põhineb tarbim
 </tbody>
 </table>
 
-Üksikasjalikku teavet kulukäitumise kohta vt jaotisest Kulukäitumise poliitika. (Pange tähele, et see teema pole veel valmis, kuid see tuleb peagi.)
-
+Lisateavet vt teemast [Kulukäitumise poliitika loomine ja määramine kulujuhtimisüksusele (tegevuse juhis)](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>2. etapp: kulujaotuse arvutuse töötlemine
 
 Kulujaotust kasutatakse kulu ümberjaotamiseks ühelt kuluobjektilt ühele või mitmele teisele kuluobjektile, rakendades asjakohast eraldusalust. Kulujaotus ja kulueraldus erinevad selle poolest, et kulujaotus toimub alati algse kulu esmase kuluelemendi tasemel.
@@ -430,7 +429,7 @@ Fikseeritud kulu tuleb jaotada ühtlaselt üksikutele kuluobjektidele, mis on ta
 </tbody>
 </table>
 
-Üksikasjalikku teavet kulude jaotamise ja eraldamise aluse kohta vt jaotistest Kulujaotuse poliitika ja Eraldamisalused. (Pange tähele, et see teema pole veel valmis, kuid see tuleb peagi.)
+Lisateavet vt teemast [Kulujaotise poliitika loomine ja määramine kulujuhtimisüksusele (tegevuse juhis)](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>3. etapp: üldkulude määra arvutuse töötlemine
 
@@ -612,13 +611,13 @@ Järgmises tabelis on näidatud tulemus, kui inimressursside projektid on rakend
 <td>10001</td>
 <td>Elektrienergia</td>
 <td>Muutuv kulu</td>
-<td>10,00</td>
+<td>10.00</td>
 <td>31. jaanuar 2017</td>
 </tr>
 </tbody>
 </table>
 
-Üksikasjalikku teavet üldkulu määra poliitika kohta vt jaotistest Üldkulu määra poliitika ja Eraldamisalused. (Pange tähele, et see teema pole veel valmis, kuid see tuleb peagi.)
+Lisateavet vt teemast [Üldkulude arvutamine](cost-rollup.md#perform-overhead-calculation).
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4. etapp: kulueralduse arvutuse töötlemine
 
@@ -725,7 +724,8 @@ Kuluobjekt CC004 pakendamine panustab mitmele kuluobjektile. Luuakse statistilis
 </tbody>
 </table>
 
-**Märkus.** Finance and Operationsis saab statistilised mõõdud, nagu toote tarbitud tootmistunnid, tuletada lähteandmetest. Üksikasjalikku teavet statistiliste mõõtude pakkujate kohta vt jaotisest Statistilise mõõdu pakkuja mall. (Pange tähele, et see teema pole veel valmis, kuid see tuleb peagi.) Järgmises tabelis on näidatud tulemus, kui Inimressursside teenused on rakendatud kogukulu puhul eraldamisalusena (fikseeritud kulu ja muutuvkulu).
+> [!NOTE]
+> Finance and Operationsis saab statistilised mõõdud, nagu toote tarbitud tootmistunnid, tuletada lähteandmetest. Lisateavet vt teemast [Statistiliste mõõtude pakkuja mall](statistical-measure-provider-template.md#statistical-measure-provider-template). Järgmises tabelis on näidatud tulemus, kui HR-teenused on rakendatud kogukulu puhul eraldamisalusena (fikseeritud ja muutuvkulu).
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ Finantsaruandluses sisestatakse elektrikulu 10 000,00 fiktiivse kulukeskuse ID-l
 </table>
 
 > [!NOTE]
-> Selles teemas selgitatakse, kuidas esmane kuluelement, 10001 Eleter, liigub läbi kuluobjektide. Seega eraldatakse see üldkulu organisatsiooni madalaimale tasemele. Teisisõnu kannavad kulu madalaimal tasemel olevad kuluobjektid. Kui soovite saada kuluobjektide vahelisest kuluvoost visuaalset ülevaadet, saate kuluvoo visualiseerimiseks kasutada kulude kokkuvõtte poliitika reegleid. Täpsemat teavet vaadake jaotisest Kulude kokkuvõtte poliitika. (Pange tähele, et see teema pole veel valmis, kuid see tuleb peagi.)
+> Selles teemas selgitatakse, kuidas esmane kuluelement, 10001 Eleter, liigub läbi kuluobjektide. Seega eraldatakse see üldkulu organisatsiooni madalaimale tasemele. Teisisõnu kannavad kulu madalaimal tasemel olevad kuluobjektid. Kui soovite saada kuluobjektide vahelisest kuluvoost visuaalset ülevaadet, saate kuluvoo visualiseerimiseks kasutada kulude kokkuvõtte poliitika reegleid. Täpsemat teavet vt teemast [Kulude kokkuvõte](cost-rollup.md).
 
 
 
