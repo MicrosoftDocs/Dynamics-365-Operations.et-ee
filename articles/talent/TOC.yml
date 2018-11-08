@@ -1,11 +1,20 @@
-- name: Tere tulemast rakendusse Microsoft Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: Alustamine
       href: talent-get-started.md
       items:
         - name: Mis on uus või muudetud
+          href: whats-new.md
           items:
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (31. oktoober 2018)
+              href: whats-new-talent-october-31.md
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (19. oktoober 2018)
+              href: whats-new-talent-october-19.md
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (15. oktoober 2018)
+              href: whats-new-talent-october-11.md
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (8. oktoober 2018)
+              href: whats-new-talent-october-8.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (1. oktoober 2018)
               href: whats-new-talent-october-01.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (24. september 2018)
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR ja Common Data Service for Apps
           href: CoreHREntities.md
+        - name: Integratsioonid
+          href: talent-financeandoperations-integration.md
         - name: Juurdepääs eelvaatefunktsioonidele
           href: access-preview-feature.md
         - name: Palgaarvestuse integratsiooni konfigureerimine Talenti ja Dayforce’i vahel
@@ -64,6 +75,34 @@
       items:
         - name: Attracti funktsioonid ja võimalused
           href: attract-overview.md
+        - name: Protsessimalli loomine Attractis
+          href: Process-templates-Attract.md
+        - name: 'Tööde loomine, kinnitamine ja sisestamine Attractis'
+          href: Creating-jobs-Attract.md
+        - name: Hankimine talendikaustadega
+          href: attract-talent-pools.md
+        - name: Hankimine tööriistaga LinkedIn Recruiter
+          href: attract-linked-in-recruiter.md
+        - name: Värbamisprotsessi tegevused Attractis
+          href: activities-attract.md
+        - name: Laiendatavus
+          href: extensibility-attract.md
+        - name: Karjäärisait ja kandidaadi kogemused
+          href: career-site.md
+        - name: Pakkumiste halduse seadistamine
+          href: offer-setup.md
+        - name: 'Pakkumiste loomine, kinnitamine ja allkirjastamine'
+          href: creating-offers.md
+        - name: Meilimallide loomine ja haldamine
+          href: email-templates.md
+        - name: Aruandlus ja analüüs
+          href: Reporting-Analytics-Attract.md
+        - name: Turvalisus ja rollihaldus Attractis
+          href: security-attract.md
+        - name: Administraatori sätted Attractis
+          href: Admin-Settings-Attract.md
+        - name: Intelligentsed soovitused
+          href: Intelligent-Recommendations.md
         - name: Kaasahaarava sisseelamiskogemuse loomine
           href: create-onboarding-experience.md
     - name: Töötajate motiveerimine
