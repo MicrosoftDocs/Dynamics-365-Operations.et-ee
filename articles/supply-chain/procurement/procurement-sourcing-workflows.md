@@ -50,11 +50,12 @@ Jaotises Hanked on saadaval järgmised töövootüübid.
 | Hankija lisamise rakenduse töövoog  | Saate luua ülevaatuse ja kinnitamise töövood uute hankijate lisamiseks hankija nõuete kaudu. |
 
 ## <a name="creating-a-workflow"></a>Töövoo loomine
+
 Töövoo loomiseks minge jaotisse Hanked &gt; Seadistus &gt; Hangete töövood ja looge uus töövoog, valides loodava töövoo tüübi.  
 
 Töövoo lõuendil saate lohistada töövoo elemendid kujundajasse ja linkida need voogu. Töövoo elemendid peavad olema konfigureeritud. Kinnitus- ja ülesandetöövoo elementide puhul saate konfigureerida, milline osaleja peaks tegutsema.
-Osalejate tüübid
-----------------------
+
+## <a name="types-of-participants"></a>Osalejate tüübid
 
 Saate määrata kinnitamisetapi järgmistele osalejate gruppidele.
 
@@ -68,13 +69,12 @@ Saate määrata kinnitamisetapi järgmistele osalejate gruppidele.
 
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
-[Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Ostutaotluse töövoog](purchase-requisitions-workflow.md)
+- [Ostutaotluse töövoog](purchase-requisitions-workflow.md)
 
-[Hankijate sotsialiseerimine](vendor-onboarding.md)
+- [Hankijate sotsialiseerimine](vendor-onboarding.md)
 
 
