@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 53740f6ed0d463de5ba962f1ba15b208634a0739
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Kuva tasakaalustused
 
-Nupp **Kuva tasakaalustused** toimingupaanil annab kiire juurdepääsu tasakaalustuste ajaloole ja lisateavet kogu tasakaalustuskande kohta. Saate ka kuvada lisakandeid, mis on seotud valitud kandega kas seetõttu, et need olid osa samast tasakaalustusest või kuna need on maksed, mis loodi samas makse töölehes.
+Nupp **Kuva tasakaalustused** toimingupaanil annab kiire juurdepääsu tasakaalustuste ajaloole ja üksikasjalikku lisateavet kogu tasakaalustuskande kohta. Saate ka kuvada lisakandeid, mis on seotud valitud kandega kas seetõttu, et need olid osa samast tasakaalustusest või kuna need on maksed, mis loodi samas makse töölehes.
 
 1. Valige suvandid **Ostureskontro \> Kõik hankijad**.
 2. Valige hankija, kellel on kanded, ja seejärel valige toimingupaani vahekaardil **Hankija** suvand **Kanded**.
@@ -49,7 +49,7 @@ Nupp **Kuva tasakaalustused** toimingupaanil annab kiire juurdepääsu tasakaalu
 
 ## <a name="global-transactions"></a>Globaalsed kanded
 
-Hankija lehele on lisatud nupp **Globaalsed kanded**. See nupp võimaldab kuvada kõik hankija kanded kõigis juriidilistes isikutes. Loendilehel **Hankija kanded** kuvatakse kanded ainult nende juriidiliste isikute puhul, millele kasutajal on tema turbesätete alusel juurdepääs.
+See **Globaalsete kannete** nupp kuvatakse ka **Hankija kannete** loendilehel. See nupp võimaldab kuvada kõik hankija kanded kõigis juriidilistes isikutes. Loendilehel **Hankija kanded** kuvatakse kanded ainult nende juriidiliste isikute puhul, millele kasutajal on tema turbesätete alusel juurdepääs.
 
 Loendilehel kuvatakse kõik nende hankijate kanded, kellel on sama osapoole ID mis hankijal, kellega alustasite. Näiteks kui hankijal US-001 ühes juriidilises isikus on sama osapoole ID mis hankijal DE-001 teises juriidilises isikus, kuvatakse kõik kanded mõlema hankija ID kohta.
 
@@ -67,13 +67,13 @@ Avatud kandeid kuvav filter on asendatud uue filtriga, mis võimaldab kuvada roh
 - **Kõik** – kuvatakse kõik valitud hankijate kanded (avatud ja suletud).
 - **Suletud** – kuvatakse ainult täielikult tasakaalustatud ja suletud kanded.
 - **Avatud** – kuvatakse ainult kanded, mis pole täielikult tasakaalustatud.
-- **Avatud kuupäeval** – kuvatakse ainult kanded, mis pole teie määratud kuupäeva seisuga täielikult tasakaalustatud. Selle suvandi valimisel saate muuta filtri kõrval kuvatavat kuupäeva. Kanded, mille puhul on suvandi **Viimase tasakaalustuse kuupäev** väärtus pärast teie määratud kuupäeva, kuvatakse loendis isegi siis, kui need kanded on tänase kuupäeva seisuga täielikult tasakaalustatud. Saldo näitab siiski saldot tänase, mitte valitud kuupäeva seisuga.
+- **Avatud, sealhulgas sulgemise kuupäev või pärast kuupäeva** – kuvatakse ainult kanded, mis pole täielikult tasakaalustatud teie määratud kuupäeval või pärast seda. Selle suvandi valimisel saate muuta filtri kõrval kuvatavat kuupäeva. Kanded, mille puhul on suvandi **Viimase tasakaalustuse kuupäev** väärtus teie määratud kuupäeval või pärast seda, kuvatakse loendis isegi siis, kui need kanded on tänase kuupäeva seisuga täielikult tasakaalustatud. Saldo näitab siiski saldot tänase, mitte valitud kuupäeva seisuga.
 
-Samuti on lisatud filter, mis võimaldab peita valuutateisenduse kanded. Märkige lihtsalt ruut **Peida valuuta ümberhindamised**.
+Valuutateisenduse kannete varjamiseks valige märkeruut **Peida valuuta ümberhindamised**.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Kuupäevade ja allahindluskuupäevade lihtsam muutmine
+## <a name="modify-due-dates-and-discount-dates"></a>Kuupäevade ja allahindluskuupäevade muutmine
 
-Saate värskendada avatud kliendikannete kuupäevi ja allahindluskuupäevi. Versioonis 8.1 on kasutusvõimalust parandatud. Nüüd saate lisada loendilehele **Hankija kanded** tähtajad. Klõpsates loendilehel **Hankija kanded** tähtaega, saate muuta dialoogiboksis **Tähtaja ja skonto kuupäevade värskendamine** ka tähtaegu, allahindluskuupäevi, maksetingimusi ja skonto tingimusi.
+Saate värskendada avatud kliendikannete kuupäevi ja allahindluskuupäevi. Väljaandes 8.1 saate lisada loendilehele **Hankija kanded** tähtajad. Klõpsates loendilehel **Hankija kanded** tähtaega, saate muuta dialoogiboksis **Tähtaja ja skonto kuupäevade värskendamine** ka tähtaegu, allahindluskuupäevi, maksetingimusi ja skonto tingimusi.
 
 ### <a name="activate-the-feature"></a>Funktsiooni aktiveerimine
 
@@ -83,7 +83,7 @@ Loendilehele **Hankija kanded** tähtaegade lisamiseks ja kande maksesätete muu
 2. Seadke vahekaardil **Tasakaalustused** suvandi **Kuva tähtaeg ja luba redigeerimine** sätteks **Jah**.
 3. Selle funktsiooni lubamiseks on hankijakannetele lisatud uued väljad. Need väljad täidetakse uue kande lõpuleviimisel. Need täidetakse ka siis, kui avate dialoogiboksi **Tähtaja ja skonto kuupäevade värskendamine**. Kui seate suvandi **Kuva tähtaeg ja luba redigeerimine** sätteks **Ei**, kuvatakse dialoogiboks **Makseteabe värskendamine**.  Olemasolevate kannete kohe uuendamiseks valige suvand **Värskenda kõiki olemasolevaid kandeid**. Teise võimalusena väljade täitmiseks ainult uute kannete puhul valige suvand **Jätka värskendamiseta**.
 
-Nüüd lisatakse tähtaeg loendilehele **Hankija kanded** ning teil on kannete tähtaega ja skonto kuupäevi lihtsam muuta.
+Nüüd lisatakse tähtaeg loendilehele **Hankija kanded**, nii et teil on kannete tähtaega ja skonto kuupäevi lihtsam muuta.
 
 ### <a name="modify-the-payment-settings"></a>Maksesätete muutmine
 
@@ -91,11 +91,11 @@ Loendilehel **Hankija kanded** kuvatakse kõik hankija kanded. Kande tähtaja va
 
 Igal väljal on kandele selle redigeerimisel erinev mõju.
 
-- **Aluskuupäeva redigeerimine:** tähtaega ja allahindluskuupäevi muudetakse nii, et aluskuupäev on dokumendi kuupäev.
-- **Tähtaja redigeerimine:** muudetakse ainult tähtaega.
-- **Allahindluskuupäevade redigeerimine:** muudetakse ainult allahindluskuupäevi.
-- **Maksetingimuste redigeerimine:** tähtaega muudetakse aluskuupäeva ja maksetingimuste alusel.
-- **Skonto tingimuste redigeerimine:** skontosid muudetakse aluskuupäeva ja skonto tingimuste alusel.
+- **Aluskuupäeva redigeerimine** – tähtaega ja allahindluskuupäevi muudetakse nii, et aluskuupäev on dokumendi kuupäev.
+- **Tähtaja redigeerimine** – muudetakse ainult tähtaega.
+- **Allahindluskuupäevade redigeerimine** – muudetakse ainult allahindluskuupäevi.
+- **Maksetingimuste redigeerimine** – tähtaega muudetakse aluskuupäeva ja maksetingimuste alusel.
+- **Skonto tingimuste redigeerimine** – skontosid muudetakse aluskuupäeva ja skonto tingimuste alusel.
 
 Kui olete maksesätete redigeerimise lõpetanud, valige muudatuste salvestamiseks käsk **Sule**.
 

@@ -1,9 +1,9 @@
 ---
 title: "Pearaamatu töölehe tüübid"
-description: "Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage lehte **Töölehe nimed** rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatavate töölehtede seadistamiseks."
+description: "Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
-# <a name="ledger-journal-types"></a>Pearaamatutöölehe tüübid
+# <a name="ledger-journal-types"></a>Pearaamatu töölehe tüübid
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage lehte **Töölehe nimed** rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatavate töölehtede seadistamiseks.
+Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage lehte **Töölehe nimed** rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatavate töölehtede seadistamiseks.
 
 | Töölehe tüüp                      | Eesmärk                       | Sisestage kanded sellel lehel                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ Selles artiklis kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede
 | Palga väljamaksed              | Väljastage maksed, mis põhinevad palga maksmise väljavõtetel. Sellel töölehel ei saa kandeid käsitsi sisestada. Peate looma palga väljavõtted ja esitama need seejärel maksmiseks.                                                                                                                                                              |                                                                |
 | Perioodiline                          | Looge perioodilise töölehe jaoks perioodilised kanded.                                                                                                                                                                                                                                                                                                      | Perioodilised töölehed                                              |
 | Sisesta põhivara                 | Sisestage põhivarakanded.                                                                                                                                                                                                                                                                                                                              | Põhivarad                                                   |
-| Projekt - Kulud                | Looge projekti kulukanded.                                                                                                                                                                                                                                                                                                                        | Kulu                                                        |
+| Projekt - Kulud                | Looge projekti kulukanded.                                                                                                                                                                                                                                                                                                                        | Expense                                                        |
+| Aruandlusvaluuta korrigeerimine     | Pearaamatukonto saldode aruandlusvaluuta korrigeerimine.               | Aruandlusvaluuta korrigeerimise töölehed                         |
 | Statistikakanded            | Looge statistilised kanded.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Hankija pangaülekanne            | Looge võlatähe ülekandefail, mida saab saata teie organisatsiooni panka.                                                                                                                                                                                                                                                                      | Rahaülekande tööleht                                             |
 | Maksed hankijale               | Looge hankija väljaminekukanne.                                                                                                                                                                                                                                                                                                                    | Maksetööleht                                                |

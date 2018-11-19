@@ -3,7 +3,7 @@ title: "Finance and Operationsi spikrisüsteem"
 description: "Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile."
 author: margoc
 manager: AnnBe
-ms.date: 07/12/2018
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
+ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
+ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
@@ -45,14 +45,14 @@ Finance and Operations sisaldab spikrisüsteemi, mis põhineb kahel peamisel kom
 -   Dokumentide sait
 -   Tegevuse juhised
 
-Nii spikriteemadele kui ka tegevusjuhistele pääseb juurde mis tahes kasutatava toote spikripaanilt. Järgmisel kuvatõmmisel on näha Dynamics 365 for Finance and Operations
+Pääsete spikrile ligi mis tahes toote Spikripaanilt. Järgmistel kuvatõmmistel näidatakse rakendust Finance and Operations.
 
 ![Spikripaan](./media/help-pane-ops-task-guides.png)
 
 See teema kirjeldab spikrisüsteemi ja selgitab, kuidas saate oma organisatsioonile kohandatud dokumente ja koolitusressursse luua.
 
 > [!IMPORTANT]
-> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) nii rakenduse Retail kui ka Talent puhul.
+> **Tegevuse juhised** pole praegu saadaval Retaili ega Talenti Spikripaanis (mõned tegevuse juhised on saadaval Talenti alustamise paanis). Protseduurispikker on saadaval ka lehel docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) nii rakenduse Retail kui ka Talent jaoks.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Spikker saidil docs.microsoft.com
 
@@ -64,17 +64,16 @@ Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../
 -   **Teie äriprotsesse toetav sisu** – sait sisaldab äriprotsessidele suunatud sisu, milles kasutatakse äriprotsessi modelleerijat (BPM) teenuses Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Otsimine saidil docs.microsoft.com
-Saame palju küsimusi selle kohta, kuidas meie sisu otsida. Kui alustate meie saidil Finance and Operationsi lehelt, määrame teie otsingu ulatuseks ainult Finance and Operationsi sisu. Selle piirangu saab eemaldada, klõpsates otsinguväljal märki X valiku Operations juures. 
+Saame palju küsimusi selle kohta, kuidas meie sisu otsida. Kui alustate meie saidil Finance and Operationsi lehelt, määrame teie otsingu ulatuseks ainult Finance and Operationsi sisu. Selle piirangu saab eemaldada, klõpsates otsinguväljal märki X valiku Unified Operations juures. 
 
-![Tellimuste otsing](./media/search-scope-2.png)
+![Otsige](./media/search-scope-2.png)
 
 Leiate meie sisu ka igasuguse otsingumootoriga. Soovitame kasutada parimate tulemuste saamiseks saidiotsingut, nt sait: docs.microsoft.com dynamics 365 "otsingusõna".  
 
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>Sisukord lehel docs.microsoft.com
-Rakendustel Finance and Operations, Retail ja Talent on dokumentide saidil ühine sisukord, mis võimaldab klientidel näha selle teema konteksti, millesse nad kuuluvad. Samuti võimaldab see kasutada sisukorra kohal olevat filtri juhtelementi otsitavate teemade leidmiseks.
+Rakendustel Finance and Operations ja Retail on dokumentide saidil ühine sisukord, mis võimaldab klientidel näha selle teema konteksti, millesse nad kuuluvad. Samuti võimaldab see kasutada sisukorra kohal olevat filtri juhtelementi otsitavate teemade leidmiseks. 
 
-### <a name="follow-a-topic"></a>Teema jälgimine
-Teema jälgimiseks klõpsake kommentaarivälja all olevat nuppu +Jälgi. Teema jälgimiseks peate sisse logima. Vaadake üksikasju jaotisest [Jätke meile tagasisidet](#leave-us-feedback).  
+Muude Dynamics 365 toodete kohta saab abi neid otsides või klõpsates saidi lingireal Dynamics 365-le, et jõuda meie jaoturi lehele. 
 
 ### <a name="use-an-rss-feed"></a>RSS-kanali kasutamine
 Unified Operationsi sisu kõigi värskenduste RSS-kanali tellimiseks kasutage brauseril, mis kasutab RSS-kanaleid (nt Internet Explorer) või RSS-kanali haldurit, järgmist linki: 
@@ -106,27 +105,32 @@ Lisateabe saamiseks vaadake meie kaasautori juhendit: https://github.com/Microso
 
 
 > [!NOTE]
-> Praegu aktsepteerime panuseid ainult ingliskeelsetesse hoidlatesse.  
+> Praegu aktsepteerime panuseid ainult ingliskeelsetesse sisukomplektidesse.  
 
 
 ## <a name="task-guides"></a>Tegevuse juhised
 Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute. Tegevuse juhise saab avada (esitada) paanilt Spikker. Tegevuse juhise esmakordsel klõpsamisel kuvatakse paanil Spikker tegevuse etapiviisilised juhised. Lokaliseeritud tegevuse juhised on nüüd saadaval. 
 
-Pakume mitmesuguseid tööjuhendeid iga toote jaoks (nt Dynamics 365 for Retail, Dynamics 365 for Finance and Operations või Dynamics 365 for Talent). Jaotis Spikri paanilt tegevusjuhistele juurdepääsemine kirjeldab, kuidas leida oma toote jaoks õigeid tegevusjuhiseid. 
+Microsoft avaldas Finance and Operations tegevuse juhise teegid 2017. aasta detsembris. Jaotis [Ligipääs tegevuse juhistele Spikripaanilt](help-overview.md#accessing-task-guides-from-the-help-pane) kirjeldab, kuidas leida oma toote jaoks sobivaid tegevuse juhiseid. 
 
 ![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
 
 Juhitud interaktiivse kogemusega alustamiseks klõpsake valikut **Käivita tegevusjuhis** paani Spikker alumises osas. Avaneb must kursor, mis näitab tegevust, mida tegema peate. Järgige kasutajaliideses kuvatavaid juhiseid ja sisestage andmed näidatud viisil. 
+
 ![Tegevusjuhise etapijuhend](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT] 
-> Tegevusjuhise esitamisel sisestatavad andmed on tõelised. Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.
+> Tegevuse juhise käitamisel sisestatavad andmed on tõelised. Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Kõik algab tegevuse salvestajast
 
 Tegevuse juhised luuakse tegevuse salvestaja abil. Ülesande salvestaja kasutamisel salvestatakse kõik Finance and Operationsi kasutajaliideses tehtavad tegevused (nt menüüde klõpsamine, sätete muutmine ja andmete sisestamine). Salvestatud toiminguid nimetatakse ühiselt tegevuse salvestiseks. Nagu on kirjeldatud eelmises osas, saab tegevuse salvestised kuvada paanil Spikker ja esitada tegevuse juhistena. Kuid tegevuse salvestisi saab kasutada ka muul viisil.
 
--   **Tegevuse salvestiste salvestamine BPM-i** – saate salvestada tegevuse salvestise BPM-i teegi hierarhiareale LCS-is. Tegevuse salvestise salvestamisel BPM-i luuakse voodiagramm ja see kuvatakse koos salvestise toimingutega. **Märkus.** Tegevuse salvestise kuvamiseks Finance and Operationsi paanil Spikker ja selle esitamiseks tegevusjuhisena tuleb salvestis BPM-i teeki salvestada.
+-   **Tegevuse salvestiste salvestamine BPM-i** – saate salvestada tegevuse salvestise BPM-i teegi hierarhiareale LCS-is. Tegevuse salvestise salvestamisel BPM-i luuakse voodiagramm ja see kuvatakse koos salvestise toimingutega. 
+
+    > [!Note]
+    > Tegevuse salvestise kuvamiseks Finance and Operationsi Spikripaanil ja selle esitamiseks tegevusjuhisena, tuleb salvestis BPM-i teeki salvestada.
+    
 -   **Tegevuse salvestiste salvestamine Wordi dokumentidena** – tegevuse salvestise salvestamisel Microsoft Wordi dokumendina saate oma organisatsioonile hõlpsasti prinditavaid koolitusjuhendeid valmistada.
 
 Lisateavet tegevuse salvestaja kohta leiate teemast [Tegevuse salvestaja Finance and Operationsis](../../dev-itpro/user-interface/task-recorder.md).
@@ -142,7 +146,7 @@ Spikri sisule Finance and Operationsis juurdepääsuks klõpsake ikooni **Spikke
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Spikri paanilt spikriteemadele juurdepääsemine
 
-Paanilt Spikker pääsete juurde Finance and Operationsi kliendile kohalduvatele artiklitele. Kui avate esimest korda paani Spikker ja klõpsake vahekaarti **Viki**, näete artikleid, mis kohalduvad lehele, millel parajasti Finance and Operationsis olete. Kui ühtegi artiklit ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Kui klõpsate artiklit paanil Spikker, avaneb teie brauseris uus vahekaart ja kuvatakse artikkel. 
+Paanilt Spikker pääsete juurde Finance and Operationsi kliendile kohalduvatele artiklitele. Kui avate esimest korda Spikripaani ja klõpsate vahekaarti **Spikker**, näete artikleid, mis kohalduvad lehele, millel parajasti Finance and Operationsis olete. Kui ühtegi artiklit ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Kui klõpsate artiklit paanil Spikker, avaneb teie brauseris uus vahekaart ja kuvatakse artikkel. 
 
 > [!IMPORTANT]
 > See jaotis ei puuduta rakendust Dynamics 365 for Talent. Talenti spikrisüsteem on ühendatud automaatselt toote tegevusjuhistega. Samuti ei saa Talenti puhul kohandatud tegevusjuhiseid luua. 
@@ -160,7 +164,9 @@ Enne, kui pääsete paanilt Spikker tegevuse juhistele juurde, peab süsteemiadm
 Tehke lehel **Süsteemi parameetrid** järgmist.
 
 1.  **Oluline:** vahekaardi Spikker esmakordsel avamisel peate looma ühenduse teenusega Lifecycle Services. Klõpsake kindlasti vormi keskel olevat linki, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel klõpsake parameetrite vormi avamiseks **OK**.
+
 ![Ühenda LCS-iga](./media/connect-to-lcs-crop-1024x365.png)
+
 2.  Valige elutsükli teenuste projekt, millega ühendus luua.
 3.  Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.
     - Finance and Operationsi puhul valige Microsofti sisu jaoks 2017. aasta veebruari Microsoft Dynamics 365 for Finance and Operationsi QPC ühendatud teek. 
@@ -173,38 +179,29 @@ Kui süsteemiadministraator on need toimingud lõpetanud, võite avada paani Spi
 
 ![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
 
-### <a name="where-are-the-translated-task-guides"></a>Kus on tõlgitud tegevuse juhised?
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Kus on Microsofti teekide tõlgitud tegevuse juhised?
 
 Tõlgitud tegevuse juhised on väljastatud teekidesse, mille pealkirjas on „Kõik keeled”. Finance and Operationsis lokaliseeritud tegevusjuhise vaatamiseks veenduge, et teil oleks ühendus sobiva teegiga. Keelt, milles tegevuse juhis kuvatakse, juhitakse iga kasutaja puhul keelesätetega jaotises **Suvandid** &gt; **Eelistused**. 
 -   Kui tegevuse juhis on tõlgitud, siis kuvatakse tegevuse juhise avamisel kogu selle tekst teie valitud keeles.
 -   Kui tegevuse juhist pole veel tõlgitud, siis kuvatakse tegevuse juhise avamisel teie valitud keeles ainult osa tekstist (juhtelementide tekst).
 
 ## <a name="additional-resources"></a>Lisaressursid
-Järgmises tabelis esitatakse meie veebilehed. Meie sisuveebisaidid on korraldatud nii, et need toetaksid kliendi elutsüklit. Iga faasi toetab erinev saidikogum. Saitidel, millel on nime kõrval tärn (\*), nõuavad, et logiksite sisse, kasutades teenusepaketiga seotud kontot.
+
+- [Finance and Operationsi spikrisüsteem (allalaaditav teabeleht)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+- [Tegevuse salvestaja](../../dev-itpro/user-interface/task-recorder.md)
+- [Dokumentide või koolituse loomine tegevuse salvestiste abil](../../dev-itpro/user-interface/task-recorder.md)
+
+Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval tärn (\*), nõuavad, et logiksite sisse, kasutades teenusepaketiga seotud kontot.
 
 | Sait                                                                     | Kirjeldus                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Docs.microsoft.com](/dynamics365/) | Majutab või lingib kõiki Dynamics 365 projektidokumente.                                                                                                                                                               |
-| [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | Pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada Dynamics 365 for Finance and Operationsi projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ja operatsioonideni. See sait on abiks kõigis juurutamise faasides. |
-| [CustomerSource](http://www.customersource.com/)\*                       | Majutab laiahaardelisi koolitusmaterjale ja on Dynamics 365 for Finance and Operationsi peamine tugisait. Saidil kindlate ressursside juurde jõudmiseks võib vaja olla sisselogimist.                                                                      |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | Microsofti vaba eLearning sait.                                                                                                                                                               |
+| [Elutsükli teenused](https://lcs.dynamics.com/en/)\*                      | Pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada Dynamics 365 for Finance and Operationsi projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ja operatsioonideni. See sait on abiks kõigis juurutamise faasides. |
 | [Toe ajaveeb](http://aka.ms/AXSupportBlog)                              | Annab vihjeid ja näpunäiteid, mida sisestab Dynamics 365 for Finance and Operationsi tugiteenuse töörühm.                                                                                                                                                  |
-| [MSDN](http://aka.ms/AXMSDN)                                             | Majutab varasemate väljaannete sisu, mis on kirjutatud arendajatele.                                                                                                                                                                       |
-| [TechNet](http://aka.ms/TechNet)                                         | Majutab varasemate väljaannete sisu, mis on kirjutatud IT-asjatundjatele ja rakenduse kasutajatele.                                                                                                                                           |
-| [Dynamicsi kogukond](http://community.dynamics.com/)                  | Majutab ajaveebe, foorumeid ja videoid.                                                                                                                                                                                                           |
+| [Docs.microsoft.com/previous versioonid](https://docs.microsoft.com/en-us/previous-versions/dynamics/)                                             | Hoiustab varasemate väljaannete sisu.                                                                                                                                                                       |
+| [Dynamicsi kogukond](https://community.dynamics.com/)                  | Majutab ajaveebe, foorumeid ja videoid.                                                                                                                                                                                                           |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/en-us/dynamics365/home)                 | Pakub hinnanguid ja müügiteavet.                                                                                                                                                                                                 |
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\*                      | Hoiustab mõningaid Finance and Operationsi koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait. Mõndadele saidil olevatele ressurssidele ligipääsemiseks võib olla nõutav hooldusplaan.     |
 
-
-
-<a name="additional-resources"></a>Lisaressursid
---------
-[Finance and Operationsi spikrisüsteem (allalaaditav teabeleht)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
-
-[Tegevuse salvestaja](../../dev-itpro/user-interface/task-recorder.md)
-
-[Dokumentide või koolituse loomine tegevuse salvestiste abil](../../dev-itpro/user-interface/task-recorder.md)
-
-[Uued või värskendatud tegevuse juhised (november 2016)](new-task-guides-november-2016.md)
-[Uued või värskendatud tegevuse juhised (august 2016)](new-updated-task-guides-available-august-2016.md)
-[Uued või värskendatud tegevuse juhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
-[Uued või värskendatud tegevuse juhised (veebruar 2016)](new-task-guides-available-february-2016.md)
 

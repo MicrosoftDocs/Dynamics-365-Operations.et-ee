@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ Eelvaatefunktsioonide lubamiseks või keelamiseks saate rakenduse Microsoft Dyna
 1. Logige sisse rakendusse Microsoft Dynamics 365 for Talent: Attract.
 2. Valige ülemises parempoolses nurgas olevast menüüst **Seadistus** (hammasratta sümbol) suvand **Administraatori sätted**.
 3. Valige vahekaardi **Funktsioonide haldus** suvandi **Eelvaatefunktsioonid** kõrval olev suvand nii, et see muutuks siniseks.
-4. Uute funktsioonide nägemiseks värskendage oma brauserit. (Sisselogitud kasutajad näevad uusi funktsioone, kui nad logivad uuesti sisse, või nad võivad uute funktsioonide kohe nägemiseks oma brauserit värskendada.)
+4. Soovi korral saate sellel lehel olevaid spetsiifilisi funktsioone lubades/keelates juhtida üksikuid funktsioone.
+5. Uute funktsioonide nägemiseks värskendage oma brauserit. (Sisselogitud kasutajad näevad uusi funktsioone, kui nad logivad uuesti sisse, või nad võivad uute funktsioonide kohe nägemiseks oma brauserit värskendada.)
 
 #### <a name="core-hr"></a>Core HR
 
@@ -61,12 +62,11 @@ Eelvaatefunktsioonide lubamiseks või keelamiseks saate rakenduse Microsoft Dyna
 
 ## <a name="features-that-are-currently-in-preview"></a>Praegused eelvaatefunktsioonid
 
-### <a name="attract"></a>Attract
+### <a name="attract"></a>Tähelepanu köitmine
 
-- **Töömallid** – saate nüüd luua värbamisprotsessi malle. Kasutajad saavad juba konkreetse töö värbamisprotsessi kohandada. Kuid nüüd saavad naad protsessi jaoks malle luua ja seejärel konkreetse töö loomisel sobiva malli valida. Seega aitab see funktsioon töö seadistamise protsessi sujuvamaks muuta.
-- **Karjäärisait** – praegune karjäärisaidi versioon piirdub vabade tööde loetlemisega. Kuid tulevikus lisatakse sellele saidile rohkem funktsioone. Töösid saab märgistada kas sisemisteks või välisteks. Saidile sisselogivad sisemised kasutajad näevad nii sise- kui välistöösid. Muud kasutajad ja kasutajad, kes pole sisse loginud, näevad vaid väliseid töid.
-- **Töö sisestamine** – nüüd saate sisestada töösid karjäärisaidile.
-- **Töö sisestamine LinkedIni** – nüüd saate sisestada töösid teenusesse LinkedIn.
+- **Tööks sobivad kandidaadid** – värbajad ja personalijuhid näevad hõlpsalt, millised kandidaadid kõikidest kandidaatidest võivad olla tööks kõige sobivamad. Viie parima kandidaadi kuvamise aluseks on nende CV/profiili sobivus töö kirjeldusega.
+- **Sobivad tööd** – kandidaadid näevad nüüd neile nende CV/profiili ja töö kirjelduse põhjal sobivate muude tööde loendit.  Praegu kuvatakse see kandidaatidele pärast seda, kui nad on esitanud taotluse olla soovitatud muudeks võimalusteks.
+- **EEO/OFCCP tugi** – uued tegevustüübid võimaldavad kasutada võrdsete tööhõivevõimaluste (Equal Employment Opportunity – EEO) ja USA föderaalse lepingute vastavusprogrammi (Office of Federal Contract Compliance Program – OFCCP) andmete kogumiseks kandidaadilt valmis vormi.  See on valmis vorm ja seda ei saa muuta.
 
     > [!NOTE]
     > Sisestatud tööd on nähtavad ainult klientidele, kes on tellinud ühe või rohkem LinkedIni tööloendite toodet. Muul juhul näevad kliendid tööd vaid siis, kui nad seda konkreetselt otsivad. Tööde sisestamine LinkedIni toimub viivitusega. Pärast rakendusest Attract töö postitamist võib aega minna paar tundi, enne kui see nähtavaks muutub.

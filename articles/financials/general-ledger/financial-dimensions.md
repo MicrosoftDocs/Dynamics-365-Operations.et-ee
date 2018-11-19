@@ -3,7 +3,7 @@ title: Finantsdimensioonid
 description: "Selles teemas kirjeldatakse mitmesuguseid finantsdimensioonide tüüpe ja nende seadistamist."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Siin on mõned neist piirangutest.
 
 ## <a name="custom-dimensions"></a>Kohandatud dimensioonid
 
-Kasutaja määratletud finantsdimensiooni loomiseks valige väljal **Kasuta väärtusi allikast** suvand **&lt;&nbsp;Kohandatud dimensioon&nbsp;&gt;**.
+Kasutaja määratletud finantsdimensiooni loomiseks valige väljal **Kasuta väärtusi allikast** suvand **Kohandatud dimensioon**.
 
-Samuti saate määrata kontomaski, et piirata dimensiooniväärtuste puhul sisestatava teabe hulka ja tüüpi. Saate sisestada märke, mis jäävad samaks igale dimensiooniväärtusele, näiteks tähti või sidekriipsu (-). Saate sisestada ka trelle (\#) ning ja-märke (&) kohatäidetena tähemärkide jaoks, mis muutuvad iga kord, kui luuakse dimensiooniväärtus. Kasutage numbrimärki (\#) kohatäitena numbrile ning ja-märki (&) kohatäitena tähele. Vormingumaski väli on saadaval ainult siis, kui valite väljal **Kasuta välja väärtusi** suvandi **&lt;&nbsp;Kohandatud dimensioon&nbsp;&gt;**.
+Samuti saate määrata kontomaski, et piirata dimensiooniväärtuste puhul sisestatava teabe hulka ja tüüpi. Saate sisestada märke, mis jäävad samaks igale dimensiooniväärtusele, näiteks tähti või sidekriipsu (-). Saate sisestada ka trelle (\#) ning ja-märke (&) kohatäidetena tähemärkide jaoks, mis muutuvad iga kord, kui luuakse dimensiooniväärtus. Kasutage numbrimärki (\#) kohatäitena numbrile ning ja-märki (&) kohatäitena tähele. Vormingumaski väli on saadaval ainult siis kui valite väljal **Kasuta välja väärtusi** suvandi **Kohandatud dimensioon**.
 
 **Näide**
 
@@ -108,14 +108,30 @@ Tuletatud väärtused saate seadistada dimensioonide lehel.
 
 Sisestage dimensioonide kombinatsioonid, mis tuleb esimeses veerus olevast dimensioonist tuletada. Näiteks kui soovite kasutada kulukeskust dimensioonina, millest tuletatakse osakond ja asukoht, sisestage kulukeskus 10, osakond 20 ja asukoht 30. Seejärel, kui sisestate põhikirjesse või kandelehele kulukeskuse 10, sisestatakse vaikimisi osakond 20 ja asukoht 30.
 
-Tuletatud dimensiooni protsess ei tühista tuletatud dimensioonide olemasolevaid väärtusi. Näiteks kui sisestate kulukeskuse 10 ja ühtki muud dimensiooni pole sisestatud, sisestatakse vaikimisi osakond 20 ja asukoht 30. Kulukeskuse muutmisel aga juba määratud väärtusi ei muudeta. Seetõttu saate luua põhikirjetele vaikedimensioonid, midia tuletatud dimensioonid ei muuda.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Olmeasolevate väärtuste asendamine tuletatud dimensioonidega
+ 
+Tuletatud dimensiooni protsess ei tühista vaikimisi tuletatud dimensioonide olemasolevaid väärtusi. Näiteks kui sisestate kulukeskuse 10 ja ühtki muud dimensiooni pole sisestatud, sisestatakse vaikimisi osakond 20 ja asukoht 30. Kulukeskuse muutmisel aga juba määratud väärtusi ei muudeta. Seetõttu saate luua põhikirjetele vaikedimensioonid, midia tuletatud dimensioonid ei muuda.
+
+Saate määrata tuletatud dimensioonid olemasolevaid väärtusi asendama, märkides **Asendada olemasolevad dimensiooniväärtused tuletatud väärtustega** märkeruudu **Tuletatud dimensioonide** lehel. Kui see väi on valitud, saate sisestada tuletatud dimensiooni väärtustega dimensiooni ja tuletatud dimensiooni väärtused asendavad mis tahes juba olemasolevad väärtused. Eelmist näidet kasutades, kui sisestate kulukeskuse 10 ja ühtki muud dimensiooni pole sisestatud, sisestatakse vaikimisi osakond 20 ja asukoht 30. Kui aga väärtused olid juba osakond 50 ja asukoht 60, muudetakse nüüd väärtused osakond 20 ja asukoht 30.
+ 
+Selle sätte tuletatud dimensioonid ei asenda automaatselt olemasolevaid dimensioonide vaikeväärtuseid, kui dimensiooni väärtused on vaikeväärtused. Dimensiooni väärtused asendatakse vaid siis, kui sisestate lehele dimensiooniväärtused ja lehel on juba olemas selle dimensiooni tuletatud väärtused.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Tuletatud dimensioonide muutmise vältimine
+ 
+Kui kasutate tuletatud dimensiooni lisamiseks **Tuletatud dimensioonide lehel** olevat valikut **Lisa segment**, pakutakse **Lisa segment** lehe allosas suvandit, mis võimaldab teil vältida selle dimensiooni muutmist, kui see on lehele tuletatud. Vaikeseade on välja lülitatud, et see ei takistaks tuletatud dimensiooniväärtuste muutmist. Muutke seadistus olekule **Jah**, kui soovite vältida dimensiooni muutmist pärast selle tuletamist. Näiteks kui osakonna dimensiooni väärtus tuletatakse kulukeskuse dimensiooni väärtusest, ei saa osakonna väärtust muuta, kui seade **Muutmise vältimine** väärtus on **Jah**. 
+ 
+Säte ei takista muudatusi, kui dimensiooniväärtus on õige, kuid seda ei ole tuletatud dimensioonide loendis. Kui näiteks osakond 20 tuletatakse kulukeskusest 10 ja te sisestate kulukeskus 10, ei saa tee muuda osakonda 20. Kui aga sisestate kulukeskus 20 ja see ei ole kulukeskuse tuletatud dimensioonide loendis, saate osakonna väärtust muuta. 
+ 
+Igal juhul kontrollitakse konto väärtus ja kõikide dimensioonide väärtused konto struktuuri suhtes pärast seda, kui tuletatud dimensiooni väärtused on rakendatud. Kui kasutate tuletatud dimensioone ja nende valideerimine lehel kasutamisel nurjub, tuleb tuletatud dimensioonide väärtused tuletatud dimensioonide lehel ära muuta, et saaksite neid kannetes kasutada. 
+ 
+Kui muudate dimensioone **Finantsdimensioonide** kiirkaardil, ei saa muuta dimensiooni, millele on määratud muutuste takistamine. Kui sisestate konto ja dimensioonid segmenditud kirje juhtelementi, on dimensioonid muudetavad. Kui aga nihutate esiletõstu segmenditud kirje juhtelemendilt teisele väljale või teete mõne tegevuse, kontrollitakse konto ja dimensioonid tuletatud dimensioonide loendi ja konto struktuuride suhtes, kinnitamaks, et olete sisestanud sobivad väärtused. 
 
 ### <a name="derived-dimensions-and-entities"></a>Tuletatud dimensioonid ja üksused
 
 Üksuste abil saate seadistada tuletatud dimensioonide segmendid ja väärtused.
 
 - Tuletatud dimensioonide üksus seadistab juhtdimensioonid ja nende dimensioonide puhul kasutatavad segmendid.
-- Üksus DerivedDimensionValue võimaldab teil importida väärtused, mis tuleb iga juhtdimensiooni puhul tuletada.
+- Tuletatud dimensioonide väärtuste üksus võimaldab teil importida väärtused, mis tuleb iga juhtdimensiooni puhul tuletada.
 
 Kui kasutate andmete importimiseks mõnd üksust ja see üksus impordib dimensioonid, rakendatakse importimisel tuletatud dimensioonireegleid, kui üksus neid dimensioone spetsiaalselt ei tühista.
 

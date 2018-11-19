@@ -3,14 +3,14 @@ title: Valemikoostaja elektroonilises aruandluses (ER)
 description: Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -192,7 +192,7 @@ Kui andmeallikas **System** lisatakse ER-vastendusele, mis viitab rakenduse Fina
 Saate piirata, kuidas väärtusi selle meetoditüübi parameetritele edastatakse.
 
 - Seda tüüpi meetoditele saab edastada ainult konstante. Konstantide väärtused määratakse koostamisajal.
-- Seda tüüpi parameetrite puhul toetatakse ainult primitiivseid (põhilisi) andmetüüpe. (Primitiivsed andmetüübid on täisarv, reaalarv, kahendmuutuja, string jne).
+- Seda tüüpi parameetrite puhul toetatakse ainult primitiivseid (põhilisi) andmetüüpe. (Primitiivsed andmetüübid on täisarv, reaalarv, kahendmuutuja, string jne.)
 
 #### <a name="paths"></a>Teed
 
@@ -250,6 +250,12 @@ Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida sa
 <td>SPLIT (sisend, pikkus)</td>
 <td>Jaotage määratud sisendstring alamstringideks, millest igaühel on määratud pikkus. Tagastab tulemi uue loendina.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> tagastab uue loendi, mis koosneb kahest kirjest, millel on väli <strong>STRING</strong>. Esimese kirje väli sisaldab teksti <strong>&quot;abc&quot;</strong> ja teise kirje väli sisaldab teksti <strong>&quot;d&quot;</strong>.</td>
+</tr>
+<tr>
+<td>SPLIT (sisend, eraldaja)</td>
+<td>Jaotage määratud sisendstring määratletud eraldaja põhjal alamstringideks.</td>
+<td><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> tagastab uue loendi, mis koosneb kolmest kirjest, millel on väli <strong>STRING</strong>. Esimese kirje väli sisaldab teskti <strong>&quot;X&quot;</strong>, teise kirje väli sisaldab teksti &quot;&nbsp;&quot; ja kolmanda kirje väli sisaldab teksti <strong>&quot;y&quot;</strong>. Kui eraldaja on tühi, tagastatakse uus loend, mis koosneb ühest kirjest, millel on väli <strong>STRING</strong>, mis koosneb sisendi tekstist. Kui sisend on tühi, tagastatakse uus tühi loend.
+Kui sisend või eraldaja on määratlemata (null), ilmneb rakenduse erand.</td>
 </tr>
 <tr>
 <td>SPLITLIST (loend, number)</td>
@@ -323,12 +329,12 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <tr>
 <td>ORDERBY (loend [, avaldis 1, avaldis 2, …])</td>
 <td>Annab vastuseks määratud loendi pärast seda, kui seda on sorditud määratud argumentide kohaselt. Neid argumente saab määratleda avaldistena.</td>
-<td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab <strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kasvavas järjestuses.</td>
+<td>Kui <strong>Hankija</strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab<strong>ORDERBY (Vendors, Vendors.'name()')</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kasvavas järjestuses.</td>
 </tr>
 <tr>
 <td>REVERSE (loend)</td>
 <td>Tagastab määratud loendi vastupidises sortimisjärjestuses.</td>
-<td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kahanevas järjestuses.</td>
+<td>Kui <strong>Hankija </strong>on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> vastuseks hankijate loendi, mis on sorditud nimede järgi kahanevas järjestuses.</td>
 </tr>
 <tr>
 <td>WHERE (loend, tingimus)</td>
@@ -399,12 +405,13 @@ Käitusajal annavad väljad <strong>Silt</strong> ja <strong>Kirjeldus</strong> 
 </ul>
 Käitusajal annavad väljad <strong>Silt</strong> ja <strong>Kirjeldus</strong> vastuseks väärtused, mis põhinevad vormingu keelesätetel ja määratud keelel. Väli <strong>Is translated</strong> näitab, et väli <strong>Silt</strong> on tõlgitud määratud keelde.
 </td>
-<td>Näiteks saate andmeallika tüüpi <strong>Arvutatud väli</strong> kasutada andmeallikate <strong>enumType_de</strong> ja <strong>enumType_deCH</strong> konfigureerimiseks andmemudeli loetelu <strong>enumType</strong> jaoks:
+<td>Näiteks kasutate andmeallika tüüpi <strong>Arvutatud väli</strong> andmeallikate <strong>enumType_de</strong> ja <strong>enumType_deCH</strong> konfigureerimiseks andmemudeli loetelu <strong>enumType</strong> jaoks.
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtuse sildi saamiseks, kui selle tõlge on olemas. Kui Šveitsi saksa keele tõlget pole saadaval, on silt saksa keeles: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+<p>Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtuse sildi saamiseks, kui selle tõlge on olemas. Kui šveitsi-saksa tõlge ei ole saadaval, on silt saksa keeles.</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -432,7 +439,7 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 <tr>
 <td>FILTER (loend, tingimus)</td>
 <td>Annab vastuseks määratud loendi pärast seda, kui päringut on muudetud filtreerima määratud tingimuse kohaselt. Erinevalt funktsioonist <strong>WHERE</strong> rakendatakse määratud tingimust andmebaasi tasemel kõigile tüübi <strong>Tabeli kirjed</strong> ER-i andmeallikatele. Loendi ja tingimuse saab määrata tabelite ja seoste abil.</td>
-<td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab vastuseks <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> hankijate loendi, mis kuulub hankijate gruppi 40. Kui <strong>Hankija</strong> on konfigureeritud elektroonilise aruandluse andmeallikana, mis viitab tabelile <strong>VendTable</strong>, ja kui <strong>parmVendorBankGroup</strong> on konfigureeritud elektroonilise aruandluse andmeallikana, mis tagastab väärtuse andmetüübiga <strong>String</strong>, tagastab avaldis <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> loendi ainult nende hankijakontodega, mis kuuluvad kindlasse pangarühma.</td>
+<td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab vastuseks <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> hankijate loendi, mis kuulub hankijate gruppi 40. Kui <strong>Hankija</strong> on konfigureeritud ER andmeallikana, mis viitab tabelile VendTable ja kui <strong>parmVendorBankGroup</strong> on konfigureeritud ER andmeallikana, mis tagastab väärtuse andmetüübiga <strong>String</strong>, tagastab avaldis <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> loendi ainult nende hankijakontodega, mis kuuluvad kindlasse pangarühma.</td>
 </tr>
 </tbody>
 </table>
@@ -446,12 +453,69 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 | NOT (tingimus) | Tagastab määratud tingimuse tühistatud loogilise väärtuse. | **NOT (TRUE)** tagastab väärtuse **FALSE**. |
 | AND (tingimus 1\[, tingimus 2, …\]) | Tagastab väärtuse **TRUE**, kui *kõik* määratud tingimused on tõesed. Muidu tagastatakse väärtus **FALSE**. | **AND (1=1, "a"="a")** tagastab väärtuse **TRUE**. **AND (1=2, "a"="a")** tagastab väärtuse **FALSE**. |
 | OR (tingimus 1\[, tingimus 2, …\]) | Tagastab väärtuse **FALSE**, kui *kõik* määratud tingimused on väärad. Tagastab väärtuse **TRUE**, kui *mõni* määratud tingimustest on tõene. | **OR (1=2, "a"="a")** tagastab väärtuse **TRUE**. |
+| VALUEIN (sisestus, loend, loendi kauba avaldis) | Saate määratleda, kas määratud sisend vastab määratud loendi mis tahes väärtusele. Tagastage väärtus **TRUE**, kui määratud sisend vastab vähemalt ühe kirje jaoks määratud avaldise käivitamise tulemile. Muidu tagastatakse väärtus **FALSE**. **Sisendi** parameeter tähistab andmeallika elemendi teed. Selle elemendi väärtus viiakse vastavusse. **Loendi** parameeter tähistab kirje loendi tüübi andmeallika elemendi teed avaldist sisaldava kirjete loendina. Selle elemendi väärtust võrreldakse määratletud sisendiga. **Loendi kauba avaldise** argument tähistab avaldist, mis osutab või sisaldab määratletud loendi üksikut välja, mida tuleks kasutada vastavusse viimiseks. | Näidete jaoks vt [näited: VALUEIN (sisestus, loend, loendi kauba avaldise)](#examples-valuein-input-list-list-item-expression) osa, mis järgneb. |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>Näited: VALUEIN (sisestus, loend, loendi kauba avaldis)
+Üldiselt on **VALUEIN** funktsiooni tõlgitud kui kogumit **OR** tingimusi.
+
+(sisend = list.item1.value) OR (sisend = list.item2.value) OR...
+
+##### <a name="example-1"></a>Näide 1
+Saate määratleda järgmise andmeallika oma mudeli vastendamisel: **Loend** (**arvutatud välja** tüüp). See andmeallikas sisaldab avaldist **SPLIT ("a, b, c", ",")**.
+
+Kui kutsutakse andmeallikat, mis on konfigureeritud kui **VALUEIN ("B", loend, loend.väärtus)** avaldis, tagastab see väärtuse **TRUE**. Sellisel juhul on **VALUEIN** funktsiooni tõlgitud kui järgnevat tingimuste kogumit.
+
+**(("B" = "a") või ("B" = "b") või ("B" = "c"))**, kus **("B" = "b")** võrdub väärtusega **TRUE**
+
+Kui kutsutakse andmeallikat, mis on konfigureeritud kui **VALUEIN ("B", loend, LEFT(loend.väärtus, 0))** avaldis, tagastab see väärtuse **FALSE**. Sellisel juhul on **VALUEIN** funktsiooni tõlgitud kui järgnevat tingimust.
+
+**("B" = "")**, mis ei ole võrdne väärtusega **TRUE**
+
+Pange tähele, et sellise tingimuse teksti märkide arvu ülempiir on 32 768 tähemärki. Seetõttu ei tohiks te luua andmeallikaid, mis võivad käitusajal seda piirangut ületada. Kui piirang ületatakse, lõpetab rakendus töötamise ja ilmneb erand. Selline olukord võib tekkida näiteks siis kui andmeallikas konfigureeritakse kui **WHERE (Loend1, VALUEIN (Loend1.ID, Loend2, Loend2.ID)** ja **Loend1** ning **Loend2** loendid sisaldavad suurt hulka kirjeid.
+
+Mõnel juhul tõlgitakse funktsioon **VALUEIN** andmebaasi aruandele, kasutades **EXISTS JOIN** operaatorit. See juhtub, kui kasutatakse funktsiooni **FILTER** ja järgmised tingimused on täidetud.
+
+- **PÄRINGU KÜSIMISE** suvand on andmeallika **VALUEIN** funktsiooni jaoks välja lülitatud, mis viitab kirjete loendile. (Sellele andmeallikale ei rakendada käitusajal lisatingimusi.)
+- Pesastatud avaldisi ei ole andmeallika **VALUEIN** funktsiooni jaoks konfigureeritud, mis viitab kirjete loendile.
+- **VALUEIN** funktsiooni loendi üksus viitab määratletud andmeallika väljale (mitte avaldisele või meetodile).
+
+Kaaluge selle suvandi kasutamist funktsiooni **WHERE** asemel, nagu selles näites kirjeldatud.
+
+##### <a name="example-2"></a>Näide 2
+
+Määratlege oma mudelivastenduses järgmised andmeallikad.
+
+- **In** (Tüüp **Tabelikirjed**), mis viitab tabelile Intrastat
+- **Port** (Tüüp **Tabelikirjed**), mis viitab tabelile IntrastatPort
+
+Kui kutsutakse andmeallikas, mis on konfigureeritud kui **FILTER (In, VALUEIN (In.Port, Port, Port.PortId)** avaldis, luuakse Intrastat tabeli filtreeritud kirjete tagastamiseks järgmine SQL aruanne.
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+**dataAreaId** väljade jaoks luuakse lõplik SQL aruanne, kasutades **IN** operaatorit.
+
+##### <a name="example-3"></a>Näide 3
+
+Määratlege oma mudelivastenduses järgmised andmeallikad.
+
+- **Le** (Tüüp **Arvutatud väli**), mis sisaldab avaldist **SPLIT ("DEMF GBSI, USMF" ",")**
+- **In** (Tüüp **Tabeli kirjed**), mis viitab Intrastati tabelile ja mille jaoks lülitatakse sisse suvand **Kontsernisisene**
+
+Kui kutsutakse andmeallikas, mida konfigureeritakse kui **FILTER (In, VALUEIN (In.dataAreaId Le, Le.Value)** avaldis, sisaldab lõplik SQL aruanne järgmist tingimust.
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>Matemaatilised funktsioonid
 
 | Funktsioon | Kirjeldus | Näide |
 |----------|-------------|---------|
-| ABS (number) | Annab vastuseks määratud arvu absoluutväärtuse. (Teiste sõnadega annab vastuseks ilma märgita arvu). | **ABS (–1)** tagastab väärtuse **1**. |
+| ABS (number) | Annab vastuseks määratud arvu absoluutväärtuse. (Teiste sõnadega annab vastuseks ilma märgita arvu.) | **ABS (–1)** tagastab väärtuse **1**. |
 | POWER (number, aste) | Tagastab määratud astmele määratud positiivse numbri tõstmise tulemi. | **POWER (10, 2)** tagastab väärtuse **100**. |
 | NUMBERVALUE (string, kümnendkohaeraldaja, arvu rühmitamise eraldaja) | Teisendab määratud stringi numbriks. Määratud kümnendkoha eraldajat kasutatakse kümnendarvu täisarvu ja murdosa eraldamiseks. Määratud numbrikohtade rühmitamise eraldajat kasutatakse tuhandeliste eraldajana. | **NUMBERVALUE("1 234,56", ",", " ")** tagastab väärtuse **1234,56**. |
 | VALUE (string) | Teisendab määratud stringi numbriks. Komasid ja punkte (.), loetakse komakohtade eraldajateks ning miinusmärki (–) kasutatakse negatiivse märgina. Ilmneb erand, kui määratud stringis on muid mittenumbrilisi märke. | **VALUE ("1 234,56")** annab erandi. |
@@ -539,7 +603,7 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 </tr>
 <tr>
 <td>REPLACE (string, muster, asendus, regulaaravaldise lipp)</td>
-<td>Kui määratud regulaaravaldise lipp on <strong>tõene</strong>, tagastatakse määratud string, mida on muudetud, rakendades regulaaravaldist, mis on määratud selle funktsiooni musterargumendina. Seda avaldist kasutatakse asendatavate tähemärkide otsimiseks. Määratud asendusargumendi tähemärke kasutatakse leitud tähemärkide asendamiseks. Kui määratud regulaaravaldise lipp on <strong>väär</strong>, toimib see funktsioon nagu väärtus <strong>TRANSLATE</strong>.</td>
+<td>Kui määratletud <strong>regulaaravaldise lipu</strong> parameetri väärtus on <strong>tõene</strong>, tagastatakse määratletud string pärast seda, kui seda on muudetud regulaaravaldise rakendamisega, mis on määratletud selle funktsiooni <strong>muster</strong>-argumendina. Seda avaldist kasutatakse asendatavate tähemärkide otsimiseks. Määratud <strong>asendus</strong>argumendi tähemärke kasutatakse leitud tähemärkide asendamiseks. Kui määratud <strong>regulaaravaldise lipu</strong> parameetri väärtus on <strong>väär</strong>, toimib see funktsioon nagu väärtus <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> rakendab regulaaravaldist, mis eemaldab kõik mittearvulised sümbolid ja tagastab väärtuse <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> asendab mustri <strong>&quot;cd&quot;</strong> stringiga <strong>&quot;GH&quot;</strong> ja tagastab väärtuse <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr>
@@ -562,19 +626,19 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 <li>Finance and Operationsi silt SYS18389, millel on järgmine tekst.
 <ul>
 <li><strong>Inglise keeles:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Saksa keeles:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
+<li><strong>Saksa keeles:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Koostada saab järgmise valemi.</p>
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
-<p>Kui töödeldakse kliendi <strong>Litware Retaili</strong> aruannet 17. detsembril 2015 kultuuris <strong>ET-EE</strong> ja keeles <strong>ET-EE</strong>, annab vastuseks see valem järgmise teksti, mida saab esitada erandliku teatena kasutajale:</p>
+<p>Kui töödeldakse kliendi <strong>Litware Retaili</strong> aruannet 17. detsembril 2015 kultuuris <strong>ET-EE</strong> ja keeles <strong>ET-EE</strong>, annab see valem vastuseks järgmise teksti, mida saab kasutajale erandliku teatena esitada.</p>
 <p>&quot;Midagi pole printida. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Kui sama aruannet töödeldakse kliendi <strong> Litware Retail</strong> jaoks 17. detsembril 2015 kultuuris <strong>DE</strong> ja keeles <strong>DE</strong>, tagastab valem järgmise teksti, mis kasutab erinevat andmevormingut:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE] Siltidele mõeldud ER-i valemites rakendatakse järgmist süntaksit.
 <ul>
-<li><strong>Finance and Operationsi ressursside siltide puhul:</strong> <strong>@&quot;X&quot;</strong>, kus X on sildi ID rakendusobjektide puus (AOT)</li>
-<li><strong>ER-i konfiguratsioonides asuvate siltide puhul:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kus X on sildi ID ER-i konfiguratsioonis</li>
+<li><strong>Finance and Operations ressursside siltide puhul:</strong> <strong>@&quot;X&quot;</strong>, kus <strong>X</strong> on sildi ID rakendusobjektide puus (AOT)</li>
+<li><strong>ER-i konfiguratsioonides asuvate siltide puhul:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kus <strong>X</strong> on sildi ID ER-i konfiguratsioonis</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ Sel juhul saate järgmist avaldist kasutada Šveitsi saksa keele loeteluväärtu
 </tr>
 <tr>
 <td>GUIDVALUE (sisend)</td>
-<td>Saate määratud sisendi andmetüübiga <strong>String</strong> teisendada andmeüksuseks andmetüübiga <strong>GUID</strong>.</td>
+<td>Saate määratud sisendi andmetüübiga <strong>String</strong> teisendada andmeüksuseks andmetüübiga <strong>GUID</strong>.<blockquote>[!NOTE] Selleks, et teisendada vastupidises suunas (see tähendab andmetüübi <strong>GUID</strong> määratletud sisendi teisendamiseks andmetüübi <strong>String</strong> andmeüksuseks), saate kasutada <strong>TEXT()</strong> funktsiooni.</blockquote></td>
 <td>Määratlege oma mudelivastenduses järgmised andmeallikad.
 <ul>
 <li><strong>myID</strong> (tüüp <strong>Arvutatud väli</strong>), mis sisaldab avaldist <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
@@ -637,7 +701,7 @@ Kui need andmeallikad on määratletud, saate kasutada avaldist, nt <strong>FILT
 
 | Funktsioon | Kirjeldus | Näide |
 |----------|-------------|---------|
-| TEXT (sisend) | Annab vastuseks määratud sisendi, mis on teisendatud tekstistringiks, mis on vormindatud praeguse Finance and Operationsi eksemplari serverilokaadi sätete kohaselt. **Tõelist** tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga. | Kui Finance and Operationsi eksemplari serverilokaat on määratletud kui **EN-US**, annab **TEXT (NOW ())** vastuseks praeguse Finance and Operationsi seansi kuupäeva 17. detsember 2015 tekstistringina **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** tagastab väärtuse **"0,33"**. |
+| TEXT (sisend) | Annab vastuseks määratud sisendi, mis on teisendatud tekstistringiks, mis on vormindatud praeguse Finance and Operationsi eksemplari serverilokaadi sätete kohaselt. **Tõelist** tüüpi väärtuste puhul on stringi teisendamine piiratud kahe kümnendkohaga. | Kui Finance and Operationsi eksemplari serverilokaat on määratletud kui **EN-US**, **TEXT (NOW ())**, siis annab vastuseks praeguse Finance and Operationsi seansi kuupäeva 17. detsember 2015 tekstistringina **12/17/2015 07:59:23 AM**. **TEXT (1/3)** tagastab väärtuse **"0,33"**. |
 | QRCODE (string) | Tagastab määratud stringi puhul ruutkoodi (QR-koodi) pildi base64-binaarvormingus. | **QRCODE ("Näidistekst")** annab vastuse **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Andmete kogumise funktsioonid
@@ -645,11 +709,11 @@ Kui need andmeallikad on määratletud, saate kasutada avaldist, nt <strong>FILT
 | Funktsioon | Kirjeldus | Näide |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Annab vastuseks praeguse vormingu elemendi nime. Annab vastuseks tühja stringi, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | Lisateavet selle funktsiooni kasutamise kohta vaadake tegevuse juhisest **ER-i loendamise ja liitmise vormingu väljundi kasutusandmed**, mis on äriprotsessi **IT-teenuse/-lahenduse komponentide hankimine/arendamine** osa. |
-| SUMIFS (liitmise võtmestring, kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab määratud tingimusi (vahemike ja väärtuste paarid). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
-| SUMIF (liitmise võtmestring, kriteeriumivahemiku string, kriteeriumiväärtuse string) | Annab vastuseks XML-i sõlmede väärtuste summa (koos võtmena määratletud nimega), mis on kogutud selle vormi käivitamise ajal ja mis täidab määratud tingimust (vahemik ja väärtus). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
-| COUNTIFS (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab määratud tingimusi (vahemike ja väärtuste paarid). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
-| COUNTIF (kriteeriumivahemiku string, kriteeriumiväärtuse string) | Annab vastuseks XML-i sõlmede arvu, mis on kogutud selle vormi käivitamise ajal ja mis täidab määratud tingimust (vahemik ning väärtus). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
-| COLLECTEDLIST (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks XML-i sõlmede väärtuste loendi, mis on kogutud selle vormi käivitamise ajal ja mis täidab määratud tingimusi (vahemik ning väärtus). Annab vastuseks tühja loendi, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| SUMIFS (liitmise võtmestring, kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks formaadi käitamise ajal XML-i sõlmede väärtuste jaoks kogutud summa (koos võtmena määratletud nimega) ja mis täidab määratud tingimusi (vahemike ja väärtuste paarid). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| SUMIF (liitmise võtmestring, kriteeriumivahemiku string, kriteeriumiväärtuse string) | Annab vastuseks formaadi käitamise ajal XML-i sõlmede väärtuste jaoks kogutud summa (koos võtmena määratletud nimega) ja mis täidab määratud tingimuse (vahemiku ja väärtuse). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| COUNTIFS (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks XML-i sõlmede arvu, mis koguti selle vormi käivitamise ajal ja mis täidab määratud tingimusi (vahemike ja väärtuste paarid). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| COUNTIF (kriteeriumivahemiku string, kriteeriumiväärtuse string) | Annab vastuseks XML-i sõlmede arvu, mis koguti selle vormi käivitamise ajal ja mis täidab määratud tingimuse (vahemiku ja väärtuse). Annab vastuseks väärtuse **0** (null), kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
+| COLLECTEDLIST (kriteeriumivahemiku 1 string, kriteeriumiväärtuse 1 string \[, kriteeriumivahemiku2 string, kriteeriumiväärtuse2 string, …\]) | Annab vastuseks XML-i sõlmede jaoks vormi käivitamise ajal kogutud väärtuste loendi ja mis täidab määratud tingimusi (vahemiku ja väärtuse). Annab vastuseks tühja loendi, kui praeguste failide lipp **Kogu väljundi üksikasjad** on välja lülitatud. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Muud (ettevõtte domeenipõhised) funktsioonid
 
@@ -667,6 +731,9 @@ Kui need andmeallikad on määratletud, saate kasutada avaldist, nt <strong>FILT
 | FA\_BALANCE (põhivara kood, väärtusmudeli kood, aruandlusaasta, aruande kuupäev) | Annab vastuseks põhivarasaldo ettevalmistatud andmekonteineri. Aruandlusaasta peab olema määratud Finance and Operationsi loetelu **AssetYear** väärtusena. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** annab vastuseks põhivara **"COMP-000001"** väärtusmudeliga **"Praegune"** saldode ettevalmistatud andmekonteineri praegusel 365 for Finance and Operationsi seansi kuupäeval. |
 | TABLENAME2ID (string) | Annab vastuseks antud tabelinime tabeli ID täisarvu kujul. | **TABLENAME2ID ("Intrastat")** annab vastuse **1510**. |
 | ISVALIDCHARACTERISO7064 (string) | Annab vastuseks kahendmuutuja **TRUE**, kui määratud string on kehtiv rahvusvaheline pangakonto number (IBAN). Muul juhul annab vastuseks kahendmuutuja väärtuse **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** annab vastuse **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** annab vastuse **FALSE**. |
+| NUMSEQVALUE (numbriseeria kood, ulatus, ulatuse-id) | Annab vastuseks numbriseeria uue loodud väärtuse, põhinedes määratletud numbriseeria koodil, ulatusel ja ulatuse ID-l. Väärtus peab olema määratletud kui **ERExpressionNumberSequenceScopeType** loetelu väärtus (**jagatud**, **juriidiline isik**, või **ettevõtte**). Määratlege **Jagatud** ulatuse jaoks tühi strin ulatuse ID-ks. Määratlege **Ettevõtte** ja **Juriidilise isiku** ulatustele ettevõtte kood ulatuse ID-ks. Kui määratlete **Ettevõtte** ja **Juriidilise isiku** ulatustele ulatuse ID-ks tühja stringi, kasutatakse praegust ettevõtte koodi. | Määratlege oma mudelivastenduses järgmised andmeallikad.<ul><li>**enumScope** (**Dynamics 365 for Operations loetelu** tüüp), mis viitab **ERExpressionNumberSequenceScopeType** loetelule</li><li>**NumSeq** (**Arvutatud välja** tüüp), mis sisaldab avaldist **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria **Gene\_1** uus loodud väärtus, mis on konfigureeritud selle ettevõtte jaoks, mis varustab ER-vormingu käitamise konteksti. |
+| NUMSEQVALUE (numbriseeria kood) | Tagastab numbriseeria uue loodud väärtuse, põhinedes määratletud numbriseerial, **Ettevõtte** ulatusel ja (nagu ulatuse ID puhul) ettevõtte koodil, mis varustab ER-vormingu käitamise konteksti. | Saate määratleda järgmise andmeallika oma mudeli vastendamisel: **NumSeq** (**arvutatud välja** tüüp). See andmeallikas sisaldab avaldist **NUMSEQVALUE ("Gene\_1")**. Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria **Gene\_1** uus loodud väärtus, mis on konfigureeritud selle ettevõtte jaoks, mis varustab ER-vormingu käitamise konteksti. |
+| NUMSEQVALUE (numbriseeria kirje ID) | Annab vastuseks numbriseeria uue loodud väärtuse, põhinedes määratletud numbriseeria kirje ID-l. | Määratlege oma mudelivastenduses järgmised andmeallikad.<ul><li>**LedgerParms** (tüüp **Tabel**), mis viitab tabelile LedgerParameters</li><li>**NumSeq** (**Arvutatud välja** tüüp), mis sisaldab avaldist **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria uus loodud väärtus, mis on konfigureeritud pearaamatu parameetrites selle ettevõtte jaoks, mis varustab ER-vormingu käitamise konteksti. See numbriseeria tuvastab kordumatult töölehed ja toimingud partiinumbrina, mis seob kanded omavahel. |
 
 ### <a name="functions-list-extension"></a>Funktsioonide loendi laiend
 
@@ -674,7 +741,6 @@ ER laseb laiendada nende funktsioonide loendit, mida kasutatakse ER-i avaldistes
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
-
-[Elektroonilise aruandluse (ER) funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md)
+- [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+- [Elektroonilise aruandluse (ER) funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md)
 
