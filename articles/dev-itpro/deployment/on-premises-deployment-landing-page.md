@@ -3,7 +3,7 @@ title: Asutusesiseste juurutuste avaleht
 description: See teema pakub teavet ja linke sisule kohapealsete juurutuste kohta.
 author: kfend
 manager: AnnBe
-ms.date: 09/11/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,50 +18,57 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
-ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
+ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
+ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/17/2018
+ms.lasthandoff: 11/02/2018
 
 ---
-# <a name="on-premises-deployments-home-page"></a><span data-ttu-id="0689f-103">Asutusesiseste juurutuste avaleht</span><span class="sxs-lookup"><span data-stu-id="0689f-103">On-premises deployments home page</span></span>
+# <a name="on-premises-deployments-home-page"></a><span data-ttu-id="fb80f-103">Asutusesiseste juurutuste avaleht</span><span class="sxs-lookup"><span data-stu-id="fb80f-103">On-premises deployments home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0689f-104">Teil on võimalik juurutada Microsoft Dynamics 365 for Finance and Operations (kohapealne).</span><span class="sxs-lookup"><span data-stu-id="0689f-104">You can deploy Microsoft Dynamics 365 for Finance and Operations (on-premises).</span></span> <span data-ttu-id="0689f-105">Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest.</span><span class="sxs-lookup"><span data-stu-id="0689f-105">When you choose an on-premises deployment type, the system requirements, hardware sizing, and functionality differ from a cloud deployment.</span></span> <span data-ttu-id="0689f-106">See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.</span><span class="sxs-lookup"><span data-stu-id="0689f-106">This topic provides links to content that contains information specific to on-premises deployments.</span></span>
+<span data-ttu-id="fb80f-104">Teil on võimalik juurutada Microsoft Dynamics 365 for Finance and Operations (kohapealne).</span><span class="sxs-lookup"><span data-stu-id="fb80f-104">You can deploy Microsoft Dynamics 365 for Finance and Operations (on-premises).</span></span> <span data-ttu-id="fb80f-105">Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest.</span><span class="sxs-lookup"><span data-stu-id="fb80f-105">When you choose an on-premises deployment type, the system requirements, hardware sizing, and functionality differ from a cloud deployment.</span></span> <span data-ttu-id="fb80f-106">See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.</span><span class="sxs-lookup"><span data-stu-id="fb80f-106">This topic provides links to content that contains information specific to on-premises deployments.</span></span>
 
-## <a name="get-started"></a><span data-ttu-id="0689f-107">Alustamine</span><span class="sxs-lookup"><span data-stu-id="0689f-107">Get started</span></span>
-- [<span data-ttu-id="0689f-108">Mis on uut või mida on muudetud kohapealsetes keskkondades rakenduses Dynamics 365 for Finance and Operations, Enterprise edition 7.2 platvormivärskendusega 12 (märts 2018)</span><span class="sxs-lookup"><span data-stu-id="0689f-108">What's new or changed in on-premises deployments of Dynamics 365 for Finance and Operations, Enterprise edition 7.2 with platform update 12 (March 2018)</span></span>](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [<span data-ttu-id="0689f-109">Dynamics 365 for Finance and Operationsi (kohapealne) ülevaade</span><span class="sxs-lookup"><span data-stu-id="0689f-109">Dynamics 365 for Finance and Operations (on-premises) overview</span></span>](on-premises-overview.md)
-- [<span data-ttu-id="0689f-110">Asutusesisese juurutuse plaanimine</span><span class="sxs-lookup"><span data-stu-id="0689f-110">Planning for your on-premises deployment</span></span>](plan-onprem-deployment.md)
-- [<span data-ttu-id="0689f-111">Kohapealsete juurutuste süsteeminõuded</span><span class="sxs-lookup"><span data-stu-id="0689f-111">System requirements for on-premises deployments</span></span>](../../fin-and-ops/get-started/system-requirements-on-prem.md)
-- [<span data-ttu-id="0689f-112">Riistvara suuruse muutmine kohapealsetes keskkondades</span><span class="sxs-lookup"><span data-stu-id="0689f-112">Hardware sizing for on-premises environments</span></span>](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [<span data-ttu-id="0689f-113">Dynamics 365 for Finance and Operationsi (kohapealne) ostmine</span><span class="sxs-lookup"><span data-stu-id="0689f-113">Purchase Dynamics 365 for Finance and Operations(on-premises)</span></span>](../../fin-and-ops/get-started/purchase-on-premises.md)
-- [<span data-ttu-id="0689f-114">Pilvepõhiste ja asutusesiseste funktsioonide võrdlus</span><span class="sxs-lookup"><span data-stu-id="0689f-114">Cloud and on-premises feature comparison</span></span>](../../fin-and-ops/get-started/cloud-prem-comparison.md)
+## <a name="get-started"></a><span data-ttu-id="fb80f-107">Alustamine</span><span class="sxs-lookup"><span data-stu-id="fb80f-107">Get started</span></span>
+- [<span data-ttu-id="fb80f-108">Kohapealse juurutuse suvand</span><span class="sxs-lookup"><span data-stu-id="fb80f-108">On-premises deployment option</span></span>](on-premises-overview.md)
+- [<span data-ttu-id="fb80f-109">Kohapealseteks juurutusteks plaanimine ja ettevalmistamine</span><span class="sxs-lookup"><span data-stu-id="fb80f-109">Plan and prepare for on-premises deployments</span></span>](plan-onprem-deployment.md)
+- [<span data-ttu-id="fb80f-110">Kohapealsete juurutuste süsteeminõuded</span><span class="sxs-lookup"><span data-stu-id="fb80f-110">System requirements for on-premises deployments</span></span>](../../fin-and-ops/get-started/system-requirements-on-prem.md)
+- [<span data-ttu-id="fb80f-111">Riistvara suuruse muutmine kohapealsetes keskkondades</span><span class="sxs-lookup"><span data-stu-id="fb80f-111">Hardware sizing for on-premises environments</span></span>](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+- [<span data-ttu-id="fb80f-112">Rakenduse Finance and Operations (kohapealne) ostmine</span><span class="sxs-lookup"><span data-stu-id="fb80f-112">Buy Finance and Operations (on-premises)</span></span>](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [<span data-ttu-id="fb80f-113">Pilvepõhiste ja kohapealsete funktsioonide võrdlus</span><span class="sxs-lookup"><span data-stu-id="fb80f-113">Comparison of cloud and on-premises features</span></span>](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
-## <a name="onboard"></a><span data-ttu-id="0689f-115">Turule toomine</span><span class="sxs-lookup"><span data-stu-id="0689f-115">Onboard</span></span>
-- [<span data-ttu-id="0689f-116">Kohapealse projekti loomine teenuses Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="0689f-116">Create an on-premises project in Lifecycle Services</span></span>](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [<span data-ttu-id="0689f-117">Kohapealsete keskkondade seadistamine ja juurutamine (platvormivärskendus 12)</span><span class="sxs-lookup"><span data-stu-id="0689f-117">Set up and deploy on-premises environments (Platform update 12)</span></span>](setup-deploy-on-premises-pu12.md)
-- [<span data-ttu-id="0689f-118">Kohapealsete keskkondade seadistamine ja juurutamine (platvormivärskendus 8 ja 11)</span><span class="sxs-lookup"><span data-stu-id="0689f-118">Set up and deploy on-premises environments (Platform update 8 and 11)</span></span>](setup-deploy-on-premises-pu8-pu11.md)
-- [<span data-ttu-id="0689f-119">Võrguprinteri seadmete installimine asutusesisestesse keskkondadesse</span><span class="sxs-lookup"><span data-stu-id="0689f-119">Install network printer devices in on-premises environments</span></span>](../analytics/install-network-printer-onprem.md)
-- [<span data-ttu-id="0689f-120">SQL Serveri aruandlusteenuste konfigureerimine kohapealseks juurutamiseks</span><span class="sxs-lookup"><span data-stu-id="0689f-120">Configure SQL Server Reporting Services for an on-premises deployment</span></span>](../analytics/configure-ssrs-on-premises.md)
-- [<span data-ttu-id="0689f-121">Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse</span><span class="sxs-lookup"><span data-stu-id="0689f-121">Develop and deploy custom models to on-premises environments</span></span>](develop-deploy-custom-models-on-premises.md)
+## <a name="onboard"></a><span data-ttu-id="fb80f-114">Sisseelamine</span><span class="sxs-lookup"><span data-stu-id="fb80f-114">Onboard</span></span>
+- [<span data-ttu-id="fb80f-115">Kohapealsete projektide seadistamine teenuses Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="fb80f-115">Set up on-premises projects in Lifecycle Services (LCS)</span></span>](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
+- [<span data-ttu-id="fb80f-116">Kohapealsete keskkondade seadistamine ja juurutamine (Platformi värskendus 12 ja uuemad)</span><span class="sxs-lookup"><span data-stu-id="fb80f-116">Set up and deploy on-premises environments (Platform update 12 and later)</span></span>](setup-deploy-on-premises-pu12.md)
+- [<span data-ttu-id="fb80f-117">Kohapealsete keskkondade seadistamine ja juurutamine (platvormivärskendus 8 ja 11)</span><span class="sxs-lookup"><span data-stu-id="fb80f-117">Set up and deploy on-premises environments (Platform update 8 and 11)</span></span>](setup-deploy-on-premises-pu8-pu11.md)
+- [<span data-ttu-id="fb80f-118">Võrguprinteri seadmete installimine asutusesisestesse keskkondadesse</span><span class="sxs-lookup"><span data-stu-id="fb80f-118">Install network printer devices in on-premises environments</span></span>](../analytics/install-network-printer-onprem.md)
+- [<span data-ttu-id="fb80f-119">SQL Serveri aruandlusteenuste konfigureerimine kohapealseteks juurutamisteks</span><span class="sxs-lookup"><span data-stu-id="fb80f-119">Configure SQL Server Reporting Services for on-premises deployments</span></span>](../analytics/configure-ssrs-on-premises.md)
+- [<span data-ttu-id="fb80f-120">Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse</span><span class="sxs-lookup"><span data-stu-id="fb80f-120">Develop and deploy custom models to on-premises environments</span></span>](develop-deploy-custom-models-on-premises.md)
 
-## <a name="work-in-your-on-premises-deployment"></a><span data-ttu-id="0689f-122">Oma kohapealses juurutuses töötamine</span><span class="sxs-lookup"><span data-stu-id="0689f-122">Work in your on-premises deployment</span></span>
-- [<span data-ttu-id="0689f-123">Dokumendihalduse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="0689f-123">Configure document management</span></span>](../../fin-and-ops/organization-administration/configure-document-management.md)
-- [<span data-ttu-id="0689f-124">Elektroonilise aruandluse konfiguratsioonide importimine</span><span class="sxs-lookup"><span data-stu-id="0689f-124">Import Electronic reporting configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
-- [<span data-ttu-id="0689f-125">Dokumentide loomise, avaldamise ja printimise võimalused kohapealsetes keskkondades</span><span class="sxs-lookup"><span data-stu-id="0689f-125">Document generation, publishing, and printing capabilities in on-premises deployments</span></span>](../analytics/printing-capabilities-on-premises.md)
-- [<span data-ttu-id="0689f-126">Pöördpuhverserveri konfigureerimine oma kohapealse keskkonna jaoks</span><span class="sxs-lookup"><span data-stu-id="0689f-126">Configure reverse proxy for your on-premises environment</span></span>](onprem-reverseproxy.md)
-- [<span data-ttu-id="0689f-127">Tehnilise toe seadistamine</span><span class="sxs-lookup"><span data-stu-id="0689f-127">Set up technical support</span></span>](../lifecycle-services/support-experience.md)
-- [<span data-ttu-id="0689f-128">Klientseadme Interneti-ühenduse tõrkeotsing</span><span class="sxs-lookup"><span data-stu-id="0689f-128">Client Internet connection troubleshooting</span></span>](../user-interface/client-disconnected.md)
-- [<span data-ttu-id="0689f-129">Värskenduste rakendamine kohapealsele juurutamisele</span><span class="sxs-lookup"><span data-stu-id="0689f-129">Apply updates to an on-premises deployment</span></span>](apply-updates-on-premises.md)
-- [<span data-ttu-id="0689f-130">Kohapealse juurutamise uuesti juurutamine</span><span class="sxs-lookup"><span data-stu-id="0689f-130">Redeploy an on-premises deployment</span></span>](redeploy-on-prem.md)
+## <a name="work-in-your-on-premises-deployment"></a><span data-ttu-id="fb80f-121">Oma kohapealses juurutuses töötamine</span><span class="sxs-lookup"><span data-stu-id="fb80f-121">Work in your on-premises deployment</span></span>
+- [<span data-ttu-id="fb80f-122">Dokumendihalduse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="fb80f-122">Configure document management</span></span>](../../fin-and-ops/organization-administration/configure-document-management.md)
+- [<span data-ttu-id="fb80f-123">Elektroonilise aruandluse (ER) konfiguratsioonide importimine</span><span class="sxs-lookup"><span data-stu-id="fb80f-123">Import Electronic reporting (ER) configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
+- [<span data-ttu-id="fb80f-124">Dokumentide loomine, avaldamine ja printimine kohapealsetes keskkondades</span><span class="sxs-lookup"><span data-stu-id="fb80f-124">Document generation, publishing, and printing in on-premises deployments</span></span>](../analytics/printing-capabilities-on-premises.md)
+- [<span data-ttu-id="fb80f-125">Pöördpuhverserverite konfigureerimine kohapealsete keskkondade jaoks</span><span class="sxs-lookup"><span data-stu-id="fb80f-125">Configure reverse proxies for on-premises environments</span></span>](onprem-reverseproxy.md)
+- [<span data-ttu-id="fb80f-126">Tehnilise toe seadistamine rakenduse Finance and Operations jaoks</span><span class="sxs-lookup"><span data-stu-id="fb80f-126">Set up technical support for Finance and Operations</span></span>](../lifecycle-services/support-experience.md)
+- [<span data-ttu-id="fb80f-127">Kliendi Interneti-ühendus</span><span class="sxs-lookup"><span data-stu-id="fb80f-127">Client internet connectivity</span></span>](../user-interface/client-disconnected.md)
+- [<span data-ttu-id="fb80f-128">Värskenduste rakendamine kohapealsetesse juurutamistesse</span><span class="sxs-lookup"><span data-stu-id="fb80f-128">Apply updates to on-premises deployments</span></span>](apply-updates-on-premises.md)
+- [<span data-ttu-id="fb80f-129">Kohapealsete keskkondade taasjuurutamine</span><span class="sxs-lookup"><span data-stu-id="fb80f-129">Redeploy on-premises environments</span></span>](redeploy-on-prem.md)
 
-## <a name="other-resources"></a><span data-ttu-id="0689f-131">Muud ressursid</span><span class="sxs-lookup"><span data-stu-id="0689f-131">Other resources</span></span>
-- [<span data-ttu-id="0689f-132">Rakenduse Dynamics 365 for Finance and Operations kohapealne tõrkeotsing</span><span class="sxs-lookup"><span data-stu-id="0689f-132">Troubleshoot Dynamics 365 for Finance and Operations on-premises</span></span>](troubleshoot-on-prem.md)
-- [<span data-ttu-id="0689f-133">Kohapealsed diagnostikad</span><span class="sxs-lookup"><span data-stu-id="0689f-133">On-premises diagnostics</span></span>](on-premises-diagnostics.md)
-- [<span data-ttu-id="0689f-134">Funktsioonid, mida pole kohapealsetes keskkondades rakendatud</span><span class="sxs-lookup"><span data-stu-id="0689f-134">Features not implemented in on-premises deployments</span></span>](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
-- [<span data-ttu-id="0689f-135">Aegunud funktsioonid</span><span class="sxs-lookup"><span data-stu-id="0689f-135">Deprecated features</span></span>](../migration-upgrade/deprecated-features.md)
-- [<span data-ttu-id="0689f-136">Tarkvara elutsükli poliitika ja asutusesisesed väljalasked</span><span class="sxs-lookup"><span data-stu-id="0689f-136">Software lifecycle policy and on-premises releases</span></span>](../migration-upgrade/on-prem-version-update-policy.md)
+## <a name="retail"></a><span data-ttu-id="fb80f-130">Retail</span><span class="sxs-lookup"><span data-stu-id="fb80f-130">Retail</span></span>
+- [<span data-ttu-id="fb80f-131">Kohapeal saadaolevate juurutuste jaemüügi võimalused</span><span class="sxs-lookup"><span data-stu-id="fb80f-131">Retail capabilities that are available in on-premises deployments</span></span>](../../retail/retail-onprem.md)
+- [<span data-ttu-id="fb80f-132">Etapid jaemüügikanali komponentide installimiseks kohapealses keskkonnas</span><span class="sxs-lookup"><span data-stu-id="fb80f-132">Installation steps for Retail channel components in an on-premises envionrment</span></span>](deploy-retail-onprem.md)
+- [<span data-ttu-id="fb80f-133">Retail Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine</span><span class="sxs-lookup"><span data-stu-id="fb80f-133">Configure, install, and activate Retail Modern POS (MPOS)</span></span>](../../retail/retail-modern-pos-device-activation.md)
+- [<span data-ttu-id="fb80f-134">Retail Store Scale Uniti konfigureerimine ja installimine</span><span class="sxs-lookup"><span data-stu-id="fb80f-134">Configure and install Retail Store Scale Unit</span></span>](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+
+
+
+## <a name="other-resources"></a><span data-ttu-id="fb80f-135">Muud ressursid</span><span class="sxs-lookup"><span data-stu-id="fb80f-135">Other resources</span></span>
+- [<span data-ttu-id="fb80f-136">Kohapealsete juurutamiste tõrkeotsing</span><span class="sxs-lookup"><span data-stu-id="fb80f-136">Troubleshoot on-premises deployments</span></span>](troubleshoot-on-prem.md)
+- [<span data-ttu-id="fb80f-137">Kohapealsed diagnostikad</span><span class="sxs-lookup"><span data-stu-id="fb80f-137">On-premises diagnostics</span></span>](on-premises-diagnostics.md)
+- [<span data-ttu-id="fb80f-138">Funktsioonid, mida pole kohapealsetes juurutustes rakendatud</span><span class="sxs-lookup"><span data-stu-id="fb80f-138">Features that aren't implemented in on-premises deployments</span></span>](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
+- [<span data-ttu-id="fb80f-139">Eemaldatud või aegunud funktsioonid</span><span class="sxs-lookup"><span data-stu-id="fb80f-139">Removed or deprecated features</span></span>](../migration-upgrade/deprecated-features.md)
+- [<span data-ttu-id="fb80f-140">Tarkvara elutsükli poliitika ja asutusesisesed väljalasked</span><span class="sxs-lookup"><span data-stu-id="fb80f-140">Software lifecycle policy and on-premises releases</span></span>](../migration-upgrade/on-prem-version-update-policy.md)
  
 
