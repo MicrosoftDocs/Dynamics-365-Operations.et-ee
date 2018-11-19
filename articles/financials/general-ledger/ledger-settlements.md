@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Pearaamatu tasakaalustused
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Pearaamatu tasakaalustustega saate sobitada deebet- ja krediitkandeid pearaamatus ning märkida need tasakaalustatuks. Sel viisil saate veenduda, et seotud kanded on tühjendatud. Saate ka tühistada ekslikult tehtud tasakaalustusi.
 
