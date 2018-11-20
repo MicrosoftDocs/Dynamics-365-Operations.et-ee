@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: Laiendatavuse muudatused – versioon 8.1
               href: extensibility/extensibility-changes-81.md
+            - name: Laiendatavuse muudatused – versioon 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Laiendatavuse muudatused – versioon 8.1.2
+              href: extensibility/extensibility-changes-812.md
         - name: Põhisätted
           items:
             - name: Pealetükkivad kohandused
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: Vormi juhtelemendi atribuutide muutmine
               href: extensibility/modify-control-properties.md
-            - name: Siltide muutmine sildi laiendifailide abil
-              href: extensibility/change-label.md
             - name: Numbriseeriate ulatuse laiendamine
               href: extensibility/extend-number-sequence-scope.md
             - name: Uute varude dimensioonide lisamine
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: Versioonimiseks kasutatavate tabeli kaartide laiendamine
               href: extensibility/maps-with-versioning.md
+            - name: Valitud andmetüüpide kümnendkoha täpsuse laiendamine
+              href: extensibility/decimal-point-precision.md
         - name: Laiendatavate lahenduste loomine
           items:
             - name: Laiendatava koodi kirjutamine
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Juhtelemendi laiendatavus
       items:
-        - name: Laiendatud juhtelementide loomine
+        - name: Laiendatavate juhtelementide loomine
           href: user-interface/build-extensible-control.md
         - name: Kiirklahvid laiendatud juhtelementide jaoks
           href: user-interface/keyboard-shortcuts-controls.md
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: ValueMetadata tüüp
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Andmete integratsioon
+- name: Isikuandmete kaitse üldmäärus (GDPR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: Andmete integratsioonistrateegia (import/eksport) valimine
-      href: data-entities/integration-overview.md
-    - name: Andmete integratsiooni API-d
-      items:
-        - name: Andmehalduse paketi REST API
-          href: data-entities/data-management-api.md
-        - name: Teenuse lõpp-punktid
-          href: data-entities/services-home-page.md
-          items:
-            - name: Teenuse autentimise tõrkeotsing
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: Kohandatud teenuse arendamine
-          href: data-entities/custom-services.md
-        - name: Korduvad integreerimised
-          href: data-entities/recurring-integrations.md
-        - name: Teenuste testimine kolmandate osapoolte utiliitide abil
-          href: data-entities/third-party-service-test.md
-    - name: Arendus integreerimiseks
-      items:
-        - name: Andmete haldus ja integreerimine andmeüksuste abil
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: Üksuste arendamine andmemigratsiooni jaoks
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: Liit-andmeüksuste arendamine
-              href: data-entities/develop-composite-data-entities.md
-            - name: Kontsernisisese finantsandmete ühiskasutuse konfigureerimine
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: Andmesisestuse hõlbustamiseks kirje mallide loomine
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Kirjete loomine kirjemallide abil
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: Andmete integreerimine teenuse Common Data Service abil
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: Integratsiooni konfigureerimine Field Service’iga
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Finance and Operations müügitellimustega
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Project Service Automationi integreerimise konfigureerimine
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: Project Service Automationi integreerimisparameetrid
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: Projektilepingute ja projektide sünkroonimine
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: Projektiülesannete sünkroonimine
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: Projekti kulukategooriate sünkroonimine
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: Projektihinnangute sünkroonimine projekti eelarvetega
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: Väliste veebiteenuste tarbimine
-          href: data-entities/consume-external-web-service.md
-- name: Andmehaldus
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: Andmeüksused
-      href: data-entities/data-entities.md
-      items:
-        - name: Konfigureerimisandmete projektid
-          href: data-entities/configuration-data-projects.md
-        - name: Konfigureerimisandmete paketid
-          href: data-entities/configuration-data-packages.md
-        - name: Konfigureerimisandmete kopeerimine ettevõtete vahel
-          href: data-entities/copy-configuration.md
-        - name: Konfigureerimisandmete mallid
-          href: data-entities/configuration-data-templates.md
-        - name: Mitme töölehe andmemallid
-          href: data-entities/excel-template-multiple.md
-        - name: Üksuste muudatuste jälgimise lubamine
-          href: data-entities/entity-change-track.md
-        - name: Konfiguratsioonivõtmed ja andmeüksused
-          href: data-entities/config-key-entities.md
-        - name: Teabe otsimine standardsete andmeüksuste kohta
-          href: data-entities/data-entities-report.md
-    - name: Andmete importimis- ja eksportimistööd
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: Üldise töölehe üksuse abil kannete importimise head tavad
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: Andmeüksuste arendamine
-      items:
-        - name: Andmeüksuste kujundamise põhimõtted ja parimad tavad
-          href: dev-tools/design-best-practices.md
-        - name: Uute andmeüksuste loomine
-          href: data-entities/build-consuming-data-entities.md
-        - name: Käitumise andmeüksuse atribuudid
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: Arvutusveergute ja virtuaalsete väljade loomine
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: Kontsernisisene käitumine
-          href: data-entities/cross-company-behavior.md
-        - name: Riikide/regioonide koodid ja konfiguratsioonivõtmed
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Päriluse mustrid
-          href: data-entities/support-super-type-sub-type.md
-        - name: Andmeüksuse viisardi reeglid
-          href: data-entities/data-entity-wizard-rules.md
-        - name: Metaandmete atribuudid
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Kinnitamised, vaikeväärtused ja vastendamata väljad'
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: Turve ja andmeüksused
-          href: data-entities/security-data-entities.md
-        - name: Finantsdimensioone esitavate kirjutuskaitstud olemite loomine
-          href: financial/read-only-entity-financial.md
-    - name: Oma andmebaasi toomine
-      href: analytics/export-entities-to-your-own-database.md
-    - name: Andmeülesannete automatiseerimine
-      href: data-entities/data-task-automation.md
     - name: Ressursid GDPR-i andmetaotlustele vastamiseks
       href: gdpr/gdpr-home-page.md
       items:
-        - name: Rakenduse Finance and Operations GDPR-i juhis
-          href: gdpr/gdpr-guide.md
         - name: Varade klassifikatsioonid
           href: gdpr/gdpr-asset-classification-values.md
         - name: Isiku otsingu aruanne
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: GDPR-i andmetaotlused LCS-i jaoks
           href: gdpr/gdpr-lcs.md
-    - name: Andmete valideerimise kontroll-loendi tööruum
-      href: user-interface/data-validation-workspace.md
-    - name: Andmehalduse tõrgete kirjeldused
-      href: data-entities/dm-error-descriptions.md
 - name: Pidev tarne
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: Kohapealsete keskkondade seadistamine ja juurutamine
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: Kohapealsete keskkondade juurutamine värskenduses Platform update 12
+            - name: Kohapealsete keskkondade juurutamine (Platform update 12 ja uuemad)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: Kohapealsete keskkondade juurutamine värskendustes Platform update 8 ja 11
+            - name: Kohapealsete keskkondade juurutamine (Platform update 8 ja 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Etapid jaemüügikanali komponentide installimiseks kohapealses keskkonnas
+              href: deployment/deploy-retail-onprem.md
         - name: Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: Pöördpuhverserverite konfigureerimine kohapealsete keskkondade jaoks
@@ -1161,6 +1027,8 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Arendustööriistade värskendamine
           href: dev-tools/update-development-tools.md
+        - name: Plaanimine ja ettevalmistamine koodi kompileerimiseks uusima värskenduse järgi
+          href: migration-upgrade/compile-considerations.md
     - name: Uusimale värskendusele täiendamine (kohapealne)
       items:
         - name: Värskenduste rakendamine kohapealsetesse juurutamistesse
@@ -1226,6 +1094,12 @@
           href: sysadmin/batch-server-overview.md
         - name: Pakett-tööde loomine
           href: sysadmin/tasks/create-batch-job.md
+        - name: Kopeeri pakett-töö
+          href: sysadmin/copy-batch-job.md
+        - name: Aktiivsed partiiperioodid
+          href: sysadmin/activeperiod.md
+        - name: Partii halduri turberoll
+          href: sysadmin/runby.md
     - name: Optimeerimise nõustaja
       href: sysadmin/optimization-advisor-overview.md
       items:

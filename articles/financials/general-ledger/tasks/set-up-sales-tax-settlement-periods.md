@@ -3,7 +3,7 @@ title: "Saate häälestada käibemaksu tasakaalustusperioode."
 description: "Käibemaksu tasakaalustusperioodid sisaldavad teavet perioodivahemike kohta, mille puhul tuleb esitada ja maksta käibemaksu."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/15/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Saate häälestada käibemaksu tasakaalustusperioode.
@@ -50,13 +50,15 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 12. Sisestage perioodivahemiku ühikute arv perioodi kohta. Näiteks kvartalis on 3 kuud.
 13. Märkige või tühjendage ruut Kasuta käibemaksu tasakaalustamiseks pakktöötlust.
     * Tasakaalustusperioodi tasakaalustusprotsessi saab töödelda taustal pakett-tööna. See on soovitatav suure hulga maksukannete puhul kuupäevavahemiku jooksul.  
-14. Laiendage vahekaarti Perioodivahemikud.
-15. Klõpsake vahekaarti Lisa.
-16. Märkige loendis valitud rida.
-17. Sisestage kuupäev väljale Alguskuupäev.
-18. Sisestage kuupäev väljale Lõpukuupäev.
-19. Klõpsake suvandit Uus perioodivahemik.
+14. Märkige või tühjendage Vastasmaksukannete loomise vältimise märkeruut.
+    * Süsteem loob tasakaalustusprotsessi ajal vaikimisi vastasmaksukandeid, mis põhjustavad jõudlusprobleeme, kui perioodivahemikul on suur hulk maksukandeid. Märkige see märkeruut, et vältida vastasmaksukannete loomist.
+15. Laiendage vahekaarti Perioodivahemikud.
+16. Klõpsake vahekaarti Lisa.
+17. Märkige loendis valitud rida.
+18. Sisestage kuupäev väljale Alguskuupäev.
+19. Sisestage kuupäev väljale Lõpukuupäev.
+20. Klõpsake suvandit Uus perioodivahemik.
     * Kui esimene perioodivahemik on sisestatud, saab uusi perioode luua automaatselt. Vajaduse korral saate naasta ja uusi perioodivahemikke lisada.  
-20. Sulgege leht.
+21. Sulgege leht.
 
 

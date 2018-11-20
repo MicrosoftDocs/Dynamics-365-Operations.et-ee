@@ -16,26 +16,26 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
-ms.openlocfilehash: e091aab70a98e0f4b96c41c1ee48926947539105
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/31/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
-# <a name="manage-international-bank-account-number-iban-account-validation"></a>Rahvusvahelise pangakonto numbri (IBAN) konto valideerimise haldamine
+# <a name="manage-international-bank-account-number-iban-validation"></a>Rahvusvahelise pangakonto numbri (IBAN) valideerimise haldamine
 
 [!include [banner](../includes/banner.md)]
 
-Rahvusvahelise pangakonto numbri (IBAN) konto valideerimine suurendab valideerimise hulka, mis tehakse IBAN-i lisamisel pangakontole.
+Rahvusvahelise pangakonto numbri (IBAN) valideerimine suurendab valideerimise hulka, mis tehakse IBAN-i lisamisel pangakontole.
 
-IBAN-i struktuur salvestatakse rakendusse Microsoft Dynamics 365 for Finance and Operation ja see laaditakse automaatselt, kui IBAN-it esimest korda pangakontodel kasutate. Pangakonto number on osa IBAN-i numbri jaoks määratud struktuurist. Selle struktuuri põhjal saate hoiatusteateid, kui kontonumbri asukoht ja pikkus IBAN-is ei ühti struktuuris iga riigi või piirkonna jaoks määratud asukohaga.
+Teavet IBAN-i struktuuri kohta talletatakse rakenduses Microsoft Dynamics 365 for Finance and Operation. See teave laaditakse automaatselt, kui kasutate pangakontodel esmakordselt IBAN-i. See sisaldab IBAN-i pikkust, pangakonto numbri ja protsessinumbri alguspositsioone ning pangakonto numbri ja protsessinumbri pikkuseid.
 
 ## <a name="set-up-iban-structures"></a>IBAN-i struktuuride seadistamine
 
 1. Minge jaotisse **Sularaha- ja pangahaldus \> Seadistus \> IBAN-i struktuurid**.
 2. Pange tähele, et iga riigi või piirkonna IBAN-i struktuurid on automaatselt seadistatud.
-3. Kui teil on vaja struktuure konkreetse riigi või piirkonna jaoks kohandada, saate neid redigeerida.
+3. Kui tahate struktuure konkreetse riigi või piirkonna jaoks kohandada, saate neid redigeerida.
 4. Struktuuri definitsioonid on osa igast uuest väljaandest. Pärast iga uuendust uusimate definitsioonide laadimiseks võite kasutada menüüd **Lähtesta struktuurid**.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>IBAN-i struktuuri valideerimine pangakontol
@@ -44,7 +44,9 @@ IBAN-i struktuur salvestatakse rakendusse Microsoft Dynamics 365 for Finance and
 2. Looge pangakonto.
 3. Sisestage IBAN kiirkaardile **Lisateave**.
 
-    Teile kuvatakse teade, kui kontonumbri asukoht ja pikkus IBAN-is ei ühti struktuuris iga riigi või piirkonna jaoks määratud asukohaga. Te ei saa jätkata, kui IBAN-i pikkus ei ühti pikkusega IBAN-i struktuuris.
+    Kui IBAN-i pikkus ei kattu iga riigi või regiooni jaoks määratletud pikkusega, kuvatakse hoiatusteade. Te ei saa jätkata, kui IBAN-i pikkus ei ühti IBAN-i struktuuris määratletud pikkusega.
 
     Valideerimine kontrollib ka seda, kas pangakonto number ühtib IBAN-i osaga, mis kujutab pangakonto numbrit. Kui pangakonto number ei ühti, kuvatakse hoiatusteade. See teade on ainult hoiatus. Saate jätkata, isegi kui pangakonto number ei ühti.
+
+    Valideerimine kontrollib ka seda, kas protsessikood ühtib IBAN-i osaga, mis kujutab panga protsessikoodi. Protsessikood sisaldab panga numbrit ja sageli ka täiendavat panga filiaali. Kui panga protsessikood ei ühti, kuvatakse hoiatusteade. See teade on ainult hoiatus. Saate jätkata, isegi kui panga protsessikood ei ühti.
 

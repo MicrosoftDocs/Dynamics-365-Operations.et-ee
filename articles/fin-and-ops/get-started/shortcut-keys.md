@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Vormi lisamine lemmikutesse / eemaldamine lemmikutest (fookusega navigeerimispaanil oleval vormil)   | Shift+F                    |
 | Standardsele tegumiribale liikumine                                              | Alt + M, A või Ctrl + F6         |
 | Liikumine paanile Filter (mis võib hõlmata selle avamist)                        | Alt + M, F või Ctrl + F3         |
-| Fookuse viimine lehe sisule (fookusega navigeerimisloendil)            | Alt + M, M või Ctrl + F3         |
+| Fookuse viimine lehe sisule (fookusega filtripanil)                | Alt + M, M või Ctrl + F3         |
 | Liikumine navigeerimisloendile vormil Üksikasjad (mis võib hõlmata selle avamist)    | Alt + M, S või Ctrl + F8         |
 | Fookuse viimine lehe sisule (fookusega navigeerimisloendil)            | Alt + M, M või Ctrl + F8         |
 | Vormil Üksikasjad navigeerimisloendi sulgemine (fookusega navigeerimisloendil) | Esc-klahv                        |

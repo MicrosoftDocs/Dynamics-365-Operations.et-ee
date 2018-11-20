@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 # <a name="provision-talent"></a>Talenti ettevalmistamine
@@ -47,7 +47,7 @@ Lisateavet selle kohta, kuidas Talenti kasutamist alustada, leiate **Talent**i m
 Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.
 
 1. Valige oma LCS-i projektis paan **Talenti rakendusehaldus**.
-2. Talent on alati ette valmistatud Microsoft PowerAppsi keskkonnana, et lubada PowerAppsi integreerimine ja laiendatavus. Enne jätkamist lugege selle teema jaotist „PowerAppsi keskkonna valimine”. 
+2. Talent on alati ette valmistatud Microsoft PowerAppsi keskkonnana, et lubada PowerAppsi integreerimine ja laiendatavus. Enne jätkamist lugege selle teema jaotist „PowerAppsi keskkonna valimine”. Kui teil ei ole veel PowerAppsi keskkonda, valige LCS-is Keskkondade haldamine või navigeerige PowerAppsi Halduskeskusesse. Seejärel järgige juhseid jaotises [PowerAppsi keskkonna loomine](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Olemasolevate keskkondade vaatamiseks või uute keskkondade loomiseks peab Talenti ettevalmistavale rentnikuadministraatorile olema määratud PowerApps P2 litsents. Kui teie organisatsioonil ei ole PowerApps P2 litsentsi, saate selle oma CSP-lt või [PowerAppsi hinnakujunduse lehelt](https://powerapps.microsoft.com/en-us/pricing/).
@@ -73,7 +73,7 @@ Talenti ja PowerAppsi keskkondade integratsioon võimaldab teil Talenti andmeid 
 Kasutage järgmisi juhiseid, kui otsustate, millisesse PowerAppsi keskkonda Talenti juurutada. 
 1. LCS-is valige suvand Keskkondade haldamine või minge otse PowerAppsi administreerimiskeskusse, kus saate vaadata olemasolevaid keskkondi ja luua uusi keskkondi.
 2. Üks Talenti keskkond on vastendatud ühe PowerAppsi keskkonnaga.
-3. PowerAppsi keskkond sisaldab Talenti rakendust koos vastavate PowerAppsi, Flow ja CDS-i rakendustega. Kui PowerAppsi keskkond kustutatakse, kustutatakse ka selles olevad rakendused.
+3. PowerAppsi keskkond sisaldab Talenti rakendust koos vastavate PowerAppsi, Flow ja CDS-i rakendustega. Kui PowerAppsi keskkond kustutatakse, kustutatakse ka selles olevad rakendused. Talenti keskkonna ettevalmistamisel saab ette valmistada kas "Prooviversiooni" või "Tootmise". Valige keskkonna tüüp keskkonna kasutamisel põhjal. 
 4. Arvestada tuleks andmete integreerimis- ja testimisstrateegiatega, näiteks: liivakast, UAT, tootmine. Seetõttu soovitame kaaluda juurutamise erinevaid mõjusid, kuna hiljem ei ole lihtne muuta, milline Talenti keskkond PowerAppsi keskkonnaga vastendatakse.
 5. Järgmisi PowerAppsi keskkondasid ei saa Talenti jaoks kasutada ja need filtreeritakse LCS-is valikuloendist välja.
  

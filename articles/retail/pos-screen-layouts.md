@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
-ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
+ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
+ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/03/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -71,7 +71,7 @@ Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu 
 
 ### <a name="assignment"></a>Määramine
 
-Ekraanipaigutusi saab määrata kaupluse või kasutaja tasandil. Kasutaja määramine tühistab registri ja kaupluse määramised ning registri määramine tühistab kaupluse määramise. Lihtsas stsenaariumis, kus kõik kasutajad kasutavad sama paigutust, olenemata registrist või rollist, saab ekraanipaigutuse määrata ainult kaupluse tasemel. Kui teatud registrid või kasutajad nõuavad spetsiaalseid paigutusi, saab neid paigutusi määrata.
+Ekraanipaigutusi saab määrata kaupluse, registri või kasutaja tasandil. Kasutaja määramine tühistab registri ja kaupluse määramised ning registri määramine tühistab kaupluse määramise. Lihtsas stsenaariumis, kus kõik kasutajad kasutavad sama paigutust, olenemata registrist või rollist, saab ekraanipaigutuse määrata ainult kaupluse tasemel. Kui teatud registrid või kasutajad nõuavad spetsiaalseid paigutusi, saab neid paigutusi määrata.
 
 ### <a name="layout-sizes"></a>Paigutuse suurused
 

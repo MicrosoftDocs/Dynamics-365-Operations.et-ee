@@ -1,6 +1,6 @@
 ---
-title: "Rakenduse Attract funktsioonid ja võimalused"
-description: "Attract pakub võimalusi uute talentide töölevõtmisprotsessi haldamiseks. Kandidaate saab lisada avatud töödele ja viia etapiviisiliselt edasi, kuni pakkumist pikendatakse või avaldus tagasi lükatakse."
+title: "Attracti funktsioonid ja võimalused"
+description: "Selles teemas kirjeldatakse funktsioone, mida Attract pakub uute talentide töölevõtmisprotsessi haldamiseks."
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
@@ -18,32 +18,32 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 37dd0396787375fccd4082f392e079ed5dab04e9
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
-# <a name="attract-features-and-capabilities"></a>Rakenduse Attract funktsioonid ja võimalused
+# <a name="attract-features-and-capabilities"></a>Attracti funktsioonid ja võimalused
 
 [!include [banner](includes/banner.md)]
 
-Attract pakub võimalusi uute talentide töölevõtmisprotsessi haldamiseks. Kandidaate saab lisada avatud töödele ja viia etapiviisiliselt edasi, kuni pakkumist pikendatakse või avaldus tagasi lükatakse. Igas etapis liiguvad kandidaadid läbi tegevuste, nagu skriiningukõned, hindamised või töövestluste plaanimine. Pärast kandideerimist saavad kandidaadid meili, mis kutsub neid Attracti sisse logima. Seal saavad nad jälgida oma töö olekut, oma avaldust ja reageerida ülesannetele, mis on neile määratud.
+Attract pakub võimalusi uute talentide töölevõtmisprotsessi haldamiseks. Kandidaate saab lisada avatud töödele ja viia etapiviisiliselt edasi, kuni pakkumist pikendatakse või avaldus tagasi lükatakse. Igas etapis liiguvad kandidaadid läbi tegevuste, nagu skriiningukõned, hindamised ja töövestlused. Pärast kandideerimist saavad kandidaadid meili, mis kutsub neid Attracti sisse logima. Seal saavad nad jälgida oma töö olekut ja oma kandideerimist. Need saavad ka vastata neile määratud tööülesannetele.
 
-Attracti funktsioonid on järgmised.
+Selles teemas kirjeldatakse Attracti pakutavaid funktsioone.
 
 ## <a name="attract-dashboard"></a>Attracti armatuurlaud
-Seal saavad töölevõtmise töörühma liikmed vaadata nende tööde üksikasju, milles nad osalevad. Seal saab ka personalijuht või värbaja Attracti uue töö lisada, luues selle eraldi või importides mitu tööd korraga Exceli arvutustabelist.
+Juhtpaneelil saavad värbamistöörühma liikmed vaadata nende tööde üksikasju, milles nad osalevad. Armatuurlaual saab personalijuht või värbaja ka Attracti uusi töid lisada, luues need eraldi või importides mitu tööd korraga Exceli arvutustabelist.
 
 ## <a name="jobs"></a>Tööd
-Lehel **Töö** saab vaadata ja redigeerida üksikasju, nagu töö kirjeldus ja töö asukoht. Lehel **Töö** pannakse kokku töölevõtmise töörühm ning seal saate lisada või muuta töörühma värbajaid ja töövestluste läbiviijaid. Uusi kandidaate saab lisada ka lehelt **Töö**.
+Lehel **Töö** saab vaadata ja redigeerida üksikasju, nagu töö kirjeldus ja töö asukoht. Lehel **Töö** pannakse kokku ka töölevõtmise töörühm ning seal saate lisada või muuta töörühma värbajaid ja töövestluste läbiviijaid. Uusi kandidaate saab lisada ka lehelt **Töö**.
 
 ## <a name="candidates"></a>Kandidaadid
-Kandidaatide saab lisada tööle ükshaaval või laadida suurte hulkadena Exceli arvutustabelist. Kõik kandidaadid lisatakse iga töö töölevõtmise protsessis automaatselt esimesse etappi, kandideerimise etappi. Siin saab vaadata ja hallata kogu kandidaadi avalduse andmeid. Võimalik on laadida üles ja vaadata lisadokumente koos kontaktandmetega, nagu meiliaadressid, telefoninumbrid ja lingid nende sotsiaalmeedia kontode juurde. Kui kandidaat esitas lingi oma LinkedIni profiili juurde ja LinkedIni integratsioon (mis nõuab LinkedIni värbaja litsentsi) on seadistatud, kuvatakse kandidaadi profiil.
+Kandidaatide saab lisada tööle ükshaaval või laadida suurte hulkadena Exceli arvutustabelist. Kõik kandidaadid lisatakse iga töö töölevõtmise protsessis automaatselt esimesse etappi, milleks on kandideerimise etapp. Selles etapis saab vaadata ja hallata kõigi kandidaatide avalduste andmeid. Võimalik on laadida üles ja vaadata lisadokumente koos kontaktandmetega, nagu meiliaadressid, telefoninumbrid ja lingid nende sotsiaalmeedia kontode juurde. Kui kandidaat andis oma LinkedIni profiili lingi ning LinkedIni integratsioon on sisse seatud, näidatakse kandidaadi profiili. (LinkedIni integratsiooni nõuab LinkedIni värbaja litsentsi).
 
 ## <a name="stages"></a>Etapid
-Attract pakub eelmääratletud töölevõtmise protsessi, milles on neli põhietappi: kandideerimine, skriining, töövestlus ja pakkumine. Uued kandidaadid alustavad kandideerimise etapist, kus vaadatakse üle nende elulookirjeldus, kaaskiri, portfoolio ja muud kandideerimisdokumendid. Sealt viiakse kandidaat edasi skriininguetappi, kus ta kutsutakse osalema skriiningukõnes või Skype’i videovestluses. Töölevõtmise juht ja värbaja võivad anda kandidaadi kohta tagasisidet ja viia ta üle järgmisse etappi. Siis lepitakse kokku silmast silma vestlused töölevõtmise töörühma liikmetega ja neid saab kohandada erineva pikkusega üks-ühele või paneelvestlusteks. Pärast vestlusi registreeritakse ja vaadatakse üle vestluse töörühma tagasiside. Valitud kandidaadid viiakse üle viimasesse etappi, kus koostatakse pakkumine ning valmistatakse see ette neile ülevaatamiseks ja kinnitamiseks. 
+Attract pakub eelmääratletud töölevõtmise protsessi, milles on neli põhietappi: kandideerimine, skriining, töövestlus ja pakkumine. Uued kandidaadid alustavad kandideerimise etapist, kus vaadatakse üle nende elulookirjeldus, kaaskiri, portfoolio ja muud kandideerimisdokumendid. Sealt viiakse kandidaadid edasi skriininguetappi, kus ta kutsutakse osalema skriiningukõnes või Skype’i videovestluses. Töölevõtmise juht ja värbaja võivad anda kandidaatide kohta tagasisidet ja viia nad üle järgmisse etappi, milleks on vestluse etapp. Siis lepitakse kokku silmast silma vestlused saadaval olevate värbamistöörühma liikmetega. Neid vestlusi saab kohandada erineva pikkusega üks-ühele või paneelvestlusteks. Pärast vestlusi registreeritakse ja vaadatakse üle vestluse töörühma tagasiside. Seejärel viiakse valitud kandidaadid edasi viimasesse etappi, pakkumise etappi. Selles etapis tehakse pakkumine ja valmistatakse ette kandidaadile ülevaatamiseks ja kinnitamiseks.
 
 ## <a name="candidate-app"></a>Rakendus Candidate
-Kohe, kui kandidaadid on tööle lisatud, saavad nad meili rakenduse hankimise lingiga. See veebirakendus edastab kandidaatidele töö üksikasjad ja on vahend, mille kaudu saab töölevõtmise töörühmaga suhelda. Kandidaadid saavad esitada ka sobivad vestluste ajad.
+Kohe, kui kandidaadid on tööle lisatud, saavad nad meili rakenduse hankimise lingiga. See rakendus edastab kandidaatidele töö üksikasjad ja on vahendiks värbamistöörühmaga suhtlemisel. Kandidaadid saavad seda kasutada ka oma vestlusteks kättesaadavuse sisestamiseks.
 

@@ -3,7 +3,7 @@ title: "Pilvepõhiste ja asutusesiseste funktsioonide võrdlus"
 description: "Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse."
 author: robinarh
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 4354b9d55cc84f7c74020d95617c406dc5fb225c
+ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
+ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 
@@ -116,11 +116,8 @@ Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisen
 | Visual Studio arendamine |  | Jah | Jah |
 
 
-## <a name="dynamics-365-for-retail"></a>Dynamics 365 for Retail 
-
-| Piirkond | Funktsioon | Pilv | Asutusesisene|
-|---|---|---|---|
-| Kõik Retaili valdkonnad | Kõik Retaili funktsioonid | Jah | Ei |
+### <a name="retail"></a>Retail 
+KKohapeal saadaolevate juurutuste jaemüügi võimaluste loendi nägemiseks vt [Kohapeal saadaolevate juurutuste jaemüügi võimalused](../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 

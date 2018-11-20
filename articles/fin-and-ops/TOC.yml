@@ -29,11 +29,13 @@
               href: get-started/public-preview-releases.md
             - name: Rakenduse Finance and Operations ostmine
               items:
-                - name: Rakenduse Finance and Operations (kohapealne) ostmine
+                - name: Rakenduse Finance and Operations (on-premises) ostmine
                   href: get-started/purchase-on-premises.md
         - name: Mis on uus või muudetud
           href: get-started/whats-new-changed.md
           items:
+            - name: Ühe versiooni teenuse värskenduste KKK
+              href: get-started/one-version.md
             - name: Tarkvara elutsükli poliitika ja pilveväljalasked
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Tarkvara elutsükli poliitika ja asutusesisesed väljalasked
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Asutusesisestes juurutustes rakendamata funktsioonid
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22 (november 2018)
+              href: get-started/whats-new-platform-update-22.md
+            - name: Finance and Operationsi versioon 8.1.2 (november 2018)
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: Finance and Operationsi versioon 8.1.1 (oktoober 2018)
+              href: get-started/whats-new-changed-8-1-1.md
             - name: Finance and Operationsi versioon 8.1 (oktoober 2018)
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 21 (oktoober 2018)
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20 (september 2018)
               href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operationsi versioon 8.0 (aprill 2018)
@@ -300,7 +310,7 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: Andmete integratsiooni API-d
           items:
-            - name: Andmehalduse paketi API
+            - name: Andmehalduse paketi REST API
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Teenuse lõpp-punktid
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Kohandatud teenused
+            - name: Kohandatud teenuse arendamine
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: Korduvad integreerimised
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: Teenuste testimine kolmandate osapoolte utiliitide abil
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: Arendus integreerimiseks
           items:
             - name: Andmete integreerimine andmeüksuste abil
@@ -324,9 +336,9 @@
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: Kontsernisisese finantsandmete ühiskasutuse konfigureerimine
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: Andmesisestuse hõlbustamiseks kirje malli loomine
+                - name: Andmesisestuse hõlbustamiseks kirje mallide loomine
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: Kirje malli abil uue kirje loomine
+                - name: Kirjete loomine kirjemallide abil
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Andmete integreerimine teenus Common Data Service abil
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,6 +395,8 @@
             - name: Konfiguratsiooniandmete kopeerimine ettevõtete või juriidiliste isikute vahel
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Konfigureerimisandmete paketid
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Konfiguratsiooniandmete paketid (ainult 2017. a juuli väljaanne)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Konfigureerimisandmete mallid
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Teabe otsimine standardsete andmeüksuste kohta
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: Mitme töölehe andmemallid
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: Üksuste muudatuste jälgimise lubamine
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: Konfiguratsioonivõtmed ja andmeüksused
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: Konfigureerimisandmete paketid
@@ -402,6 +420,8 @@
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Andmeüksuste arendamine
           items:
+            - name: Andmeüksuste kujundamise põhimõtted ja parimad tavad
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: Uute andmeüksuste loomine
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Andmeüksuse atribuudid
@@ -424,12 +444,16 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Kolmandate osapoolte teenusetestimise utiliitide kasutamine
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: Finantsdimensioone esitavate kirjutuskaitstud olemite loomine
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: Oma andmebaasi toomine
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
-        - name: Andmeülesannete automatiseerimine
+        - name: Andmete ülesannete automatiseerimine
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: Andmete valideerimise tööruum
+        - name: Andmete valideerimise kontroll-loendi tööruum
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: Andmehalduse tõrgete kirjeldused
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Finantshaldus
       href: ../financials/index.md
       items:
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: Konto struktuuride konfigureerimine
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: Topeltvaluuta
+                  href: ../financials/general-ledger/dual-currency.md
             - name: Töölehed ja pearaamatud
               items:
                 - name: Üldtöölehe töötlemine
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: Üks kanne
                   href: ../financials/general-ledger/one-voucher.md
+                - name: Pearaamatu tasakaalustused
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: Perioodi lõpu sulgemine
               items:
                 - name: Pearaamatu sulgemine perioodi lõpus
@@ -1799,6 +1827,10 @@
             - name: Maksumootori ülevaade
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: Impordi konfiguratsioon
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: Maksumootori kohaldatavus
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: Maksumootori integratsioon
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: Maksumootori laiendamine
@@ -2100,6 +2132,8 @@
         - name: Poola
           href: ../financials/localizations/poland.md
           items:
+            - name: Aktiveeri stornoarvestus
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: Ühiku hinnast rea allahindluste arvutamine
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: Parandusõiendid
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Käibemaksuaruanded
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Numbriseeriate häälestamine lao järgi
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: Standardne auditifail
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Maksuintress ja vaba viivis
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Avansisaajate igapäevased toimingud
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: Avansiaruanded eelarve juhtimisega
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: Välisvaluuta ümberarvutamine avansisaajate jaoks
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: Avansisaajate aruanded
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: Pank
+              items:
+                - name: Pangakontode seadistamine
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: Maksekorralduste seadistamine ja töötlemine
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: Põhivarad
               items:
                 - name: Põhivarade soetamine ja kasutuselevõtmine
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Põhivarade soetuste registreerimine
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: Põhivara soetuste eelarvetöölehtede loomine ja sisestamine
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: Põhivarade loendamine
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: Põhivarade valuuta ümberhindamine
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Põhivara kulu ja kulumi ümberhindamine
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: Põhivara osaline osadeks jaotamine (likvideerimine)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: Maksekorralduste seadistamine ja töötlemine
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: 'Varade müük, kõrvaldamine ja mahakandmine'
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: Põhivarade asukohtade ja nummerdamise häälestamine
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: Kulumi häälestamine
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: Kulumiarvestusmeetodid
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: Kulumilisad
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: Kulumiarvestus
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: Ettevõtte jaotused
+              href: ../financials/localizations/rus-company-divisions.md
             - name: Valuutakannete vahetuskursside seadistamine
               href: ../financials/localizations/rus-exchange-difference.md
             - name: Pearaamatukannete eelvaade
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: Ametiisikute seadistamine
               href: ../financials/localizations/rus-officials.md
-            - name: Pangakontode seadistamine
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: Maksuesindajate käibemaks (KM)
               href: ../financials/localizations/rus-tax-agent.md
             - name: Tasakaalustus dimensioonide juhtimise seadistamine
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: Arved maksmiseks
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: Saudi Araabia
           href: ../financials/localizations/saudi-arabia.md
           items:

@@ -3,7 +3,7 @@ title: Asutusesiseste juurutuste avaleht
 description: See teema pakub teavet ja linke sisule kohapealsete juurutuste kohta.
 author: kfend
 manager: AnnBe
-ms.date: 09/11/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
-ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
+ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
+ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/17/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 # <a name="on-premises-deployments-home-page"></a>Asutusesiseste juurutuste avaleht
@@ -31,37 +31,44 @@ ms.lasthandoff: 09/17/2018
 Teil on võimalik juurutada Microsoft Dynamics 365 for Finance and Operations (kohapealne). Asutusesisese juurutustüübi valimisel erinevad süsteeminõuded, riistvara suurus ja funktsionaalsus pilvejuurutusest. See teema pakub linke sisule, mis sisaldab kohapealsete juurutuste kohast teavet.
 
 ## <a name="get-started"></a>Alustamine
-- [Mis on uut või mida on muudetud kohapealsetes keskkondades rakenduses Dynamics 365 for Finance and Operations, Enterprise edition 7.2 platvormivärskendusega 12 (märts 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [Dynamics 365 for Finance and Operationsi (kohapealne) ülevaade](on-premises-overview.md)
-- [Asutusesisese juurutuse plaanimine](plan-onprem-deployment.md)
+- [Kohapealse juurutuse suvand](on-premises-overview.md)
+- [Kohapealseteks juurutusteks plaanimine ja ettevalmistamine](plan-onprem-deployment.md)
 - [Kohapealsete juurutuste süsteeminõuded](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Riistvara suuruse muutmine kohapealsetes keskkondades](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Dynamics 365 for Finance and Operationsi (kohapealne) ostmine](../../fin-and-ops/get-started/purchase-on-premises.md)
-- [Pilvepõhiste ja asutusesiseste funktsioonide võrdlus](../../fin-and-ops/get-started/cloud-prem-comparison.md)
+- [Rakenduse Finance and Operations (kohapealne) ostmine](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Pilvepõhiste ja kohapealsete funktsioonide võrdlus](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
-## <a name="onboard"></a>Turule toomine
-- [Kohapealse projekti loomine teenuses Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Kohapealsete keskkondade seadistamine ja juurutamine (platvormivärskendus 12)](setup-deploy-on-premises-pu12.md)
+## <a name="onboard"></a>Sisseelamine
+- [Kohapealsete projektide seadistamine teenuses Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
+- [Kohapealsete keskkondade seadistamine ja juurutamine (Platformi värskendus 12 ja uuemad)](setup-deploy-on-premises-pu12.md)
 - [Kohapealsete keskkondade seadistamine ja juurutamine (platvormivärskendus 8 ja 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Võrguprinteri seadmete installimine asutusesisestesse keskkondadesse](../analytics/install-network-printer-onprem.md)
-- [SQL Serveri aruandlusteenuste konfigureerimine kohapealseks juurutamiseks](../analytics/configure-ssrs-on-premises.md)
+- [SQL Serveri aruandlusteenuste konfigureerimine kohapealseteks juurutamisteks](../analytics/configure-ssrs-on-premises.md)
 - [Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Oma kohapealses juurutuses töötamine
 - [Dokumendihalduse konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md)
-- [Elektroonilise aruandluse konfiguratsioonide importimine](../analytics/electronic-reporting-import-ger-configurations.md)
-- [Dokumentide loomise, avaldamise ja printimise võimalused kohapealsetes keskkondades](../analytics/printing-capabilities-on-premises.md)
-- [Pöördpuhverserveri konfigureerimine oma kohapealse keskkonna jaoks](onprem-reverseproxy.md)
-- [Tehnilise toe seadistamine](../lifecycle-services/support-experience.md)
-- [Klientseadme Interneti-ühenduse tõrkeotsing](../user-interface/client-disconnected.md)
-- [Värskenduste rakendamine kohapealsele juurutamisele](apply-updates-on-premises.md)
-- [Kohapealse juurutamise uuesti juurutamine](redeploy-on-prem.md)
+- [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Dokumentide loomine, avaldamine ja printimine kohapealsetes keskkondades](../analytics/printing-capabilities-on-premises.md)
+- [Pöördpuhverserverite konfigureerimine kohapealsete keskkondade jaoks](onprem-reverseproxy.md)
+- [Tehnilise toe seadistamine rakenduse Finance and Operations jaoks](../lifecycle-services/support-experience.md)
+- [Kliendi Interneti-ühendus](../user-interface/client-disconnected.md)
+- [Värskenduste rakendamine kohapealsetesse juurutamistesse](apply-updates-on-premises.md)
+- [Kohapealsete keskkondade taasjuurutamine](redeploy-on-prem.md)
+
+## <a name="retail"></a>Retail
+- [Kohapeal saadaolevate juurutuste jaemüügi võimalused](../../retail/retail-onprem.md)
+- [Etapid jaemüügikanali komponentide installimiseks kohapealses keskkonnas](deploy-retail-onprem.md)
+- [Retail Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](../../retail/retail-modern-pos-device-activation.md)
+- [Retail Store Scale Uniti konfigureerimine ja installimine](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+
+
 
 ## <a name="other-resources"></a>Muud ressursid
-- [Rakenduse Dynamics 365 for Finance and Operations kohapealne tõrkeotsing](troubleshoot-on-prem.md)
+- [Kohapealsete juurutamiste tõrkeotsing](troubleshoot-on-prem.md)
 - [Kohapealsed diagnostikad](on-premises-diagnostics.md)
-- [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
-- [Aegunud funktsioonid](../migration-upgrade/deprecated-features.md)
+- [Funktsioonid, mida pole kohapealsetes juurutustes rakendatud](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
+- [Eemaldatud või aegunud funktsioonid](../migration-upgrade/deprecated-features.md)
 - [Tarkvara elutsükli poliitika ja asutusesisesed väljalasked](../migration-upgrade/on-prem-version-update-policy.md)
  
 

@@ -3,7 +3,7 @@ title: "Projektilepingute ja projektide sünkroonimine otse Project Service Auto
 description: "See teema kirjeldab malle ja aluseks olevaid ülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks rakendusest Microsoft Dynamics 365 for Project Service Automation otse rakendusse Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 65a274323a2d95c9c76727c9e40aa7e649e6350a
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -95,8 +95,8 @@ Kui Project Service Automation Finance and Operationsi integratsiooni lahendus o
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
 - Enne projektilepingute ja projektide sünkroonimist peate sünkroonima kontod.
-- Lisage oma ühendusekogumis atribuudi **msdyn\_organizationalunits** väljale **msdyn\_name \[Nimi\]** integratsioonivõtme väljavastendus. Esmalt peate lisama ühendusekogumile projekti. Lisateabe saamiseks integratsioonivõtmete kohta vt teemat [Dynamics 365 andmeintegratsioon](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration).
-- Lisage oma ühendusekogumis atribuudi **msdyn\_projects** väljale **msdynce\_projectnumber \[Projekti number\]** integratsioonivõtme väljavastendus. Esmalt peate lisama ühendusekogumile projekti. Lisateabe saamiseks integratsioonivõtmete kohta vt teemat [Dynamics 365 andmeintegratsioon](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration).
+- Lisage oma ühendusekogumis atribuudi **msdyn\_organizationalunits** väljale **msdyn\_name \[Nimi\]** integratsioonivõtme väljavastendus. Esmalt peate ühendusekogumile projekti lisama. Lisateabe saamiseks vt [Andmete integreerimine teenusesse Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Lisage oma ühendusekogumis atribuudi **msdyn\_projects** väljale **msdynce\_projectnumber \[Projekti number\]** integratsioonivõtme väljavastendus. Esmalt peate ühendusekogumile projekti lisama. Lisateabe saamiseks vt [Andmete integreerimine teenusesse Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - Projektilepingute ja projektide atribuudi **SourceDataID** saab värskendada muule väärtusele või vastendusest eemaldada. Malli vaikeväärtus on **Project Service Automation**.
 - Atribuudi **PaymentTerms** vastendust tuleb värskendada, nii et see kajastaks kehtivaid maksetingimusi Finance and Operationsis. Samuti saate vastenduse projektiülesandest eemaldada. Vaikeväärtuste kaardil on demoandmete jaoks vaikeväärtused. Järgmises tabelis on näidatud väärtused Project Service Automationis.
 
