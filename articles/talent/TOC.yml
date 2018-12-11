@@ -7,6 +7,10 @@
         - name: Mis on uus või muudetud
           href: whats-new.md
           items:
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (27. november 2018)
+              href: whats-new-talent-november-27.md
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (15. november 2018)
+              href: whats-new-talent-november-15.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (31. oktoober 2018)
               href: whats-new-talent-october-31.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (19. oktoober 2018)
@@ -95,8 +99,6 @@
           href: creating-offers.md
         - name: Meilimallide loomine ja haldamine
           href: email-templates.md
-        - name: Aruandlus ja analüüs
-          href: Reporting-Analytics-Attract.md
         - name: Turvalisus ja rollihaldus Attractis
           href: security-attract.md
         - name: Administraatori sätted Attractis
@@ -266,3 +268,27 @@
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Jõudluse ülevaate loomine
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Talenti tõrkeotsing
+      items:
+        - name: Analüütilisi aruandeid ei värskendata
+          href: analytic-reports-not-updated.md
+        - name: Ei saa luua keskkonda PowerAppsi halduskeskuses
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Talenti kliendi ühendus katkeb
+          href: client-disconnects.md
+        - name: Andmebaasi varundamistega tegelemine
+          href: database-backups.md
+        - name: Teksti kärpimise vältimine positsioonihierarhias ja eksportimine Visiosse
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Kompensatsiooni protsessi käitamine
+          href: run-compensation-process.md
+        - name: Tegevuse juhiste salvestamine LCS-i ja nende taasesitamine
+          href: save-play-task-guides-LCS.md
+        - name: Juurdepääs privaatsetele aadressidele turberolli järgi
+          href: security-roles-addresses.md
+        - name: Talentit ei kuvata Microsoft Dynamics 365 rakenduste hulgas (CDS1.0)
+          href: talent-not-in-home-CDS.md
+        - name: 'Kasutaja pääseb ligi Core HR-ile, aga mitte rakendusele Onboard või Attract'
+          href: user-access-core-hr.md
+        - name: Talenti aruandlusvõimalused
+          href: talent-reporting-options.md
