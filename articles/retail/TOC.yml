@@ -47,14 +47,18 @@
       href: dev-itpro/updating-environments.md
     - name: Testimine ja jõudlusprobleemid
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Hajutatud tellimuste haldamine (DOM)
+  href: dom.md
 - name: Maksed
   items:
     - name: Makseviisid
       href: payment-methods.md
     - name: 'Krediitkaardi seadistamine, autoriseerimine ja hõivamine'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Sularaha nimiväärtuste konfigureerimine POS-i jaoks
+    - name: Sularaha nimiväärtuste konfigureerimine kassa jaoks
       href: cash-denominations.md
+    - name: Arve tasumise stsenaariumide seadistamine
+      href: payinvoice.md
     - name: Maksete KKK
       href: dev-itpro/payments-retail.md
 - name: Ostutellimused
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: Tellimuse teatiste kuvamine kassas
       href: Notifications-POS.md
+- name: Vahetuse konfigureerimine ja töötlemine tagastustellimusel
+  href: orderexchanges.md
 - name: Jälgimine ja analüüs
   items:
     - name: Müügi ja marginaali jõudluse jälgimine
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: Hinnakorrigeerimised ja allahindlused
       href: price-adjustments-discounts.md
+    - name: Mitme jaemüügi allahindluse kohaldamine tootele
+      href: Apply-multiple-retail-discounts.md
     - name: Kattuvate allahindluste optimaalse kombinatsiooni määratlemine
       href: optimal-combination-overlapping-discounts.md
     - name: Kanalipõhiste allahindluste määratlemine
@@ -488,6 +496,8 @@
       items:
         - name: Retail POS-i ekraani paigutused
           href: pos-screen-layouts.md
+        - name: URL-i avamine kassas
+          href: Open-URL-in-POS.md
         - name: Kassa paigutuse kujundaja installimine
           href: install-pos-layout-designer.md
         - name: Retail Modern POS ühenduseta režiimis
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: Tootjakohanduse loomine ja rakendamine rakendusele Retail Experience
           href: dev-itpro/create-retail-experience-app.md
+        - name: Rakenduse POS Hybrid seadistamine Androidis ja iOS-is
+          href: dev-itpro/hybridApp.md
+        - name: Kassa taotluseohjuril alistamine
+          href: dev-itpro/pos-handler.md
     - name: Riistvarajaam ja laiendatavus
       href: dev-itpro/hardware-station-extensibility.md
     - name: Retail Serveri laiendatavus
@@ -558,13 +572,17 @@
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
         - name: Maksekonnektorite juurutamine
           href: dev-itpro/deploy-payment-connector.md
-        - name: Kohandatud lokaliseeritud tõrketeadet loomine makseterminali laienduste jaoks
+        - name: Kohandatud lokaliseeritud tõrketeadete loomine makseterminali laienduste jaoks
           href: dev-itpro/payment-custom-error-messages.md
         - name: Windowsi installerite loomine maksekonnektorite jaoks
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Makse andmete kasutamine
+          href: payment-connector-data-fields.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Retail SDK tulevased muudatused
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: Järgusüsteemide ühendamine Retaili ja Finance and Operationsi jaoks
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Retail SDK laiendatavuse näited
