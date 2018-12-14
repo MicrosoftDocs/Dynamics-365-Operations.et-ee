@@ -3,7 +3,7 @@ title: "Koondplaneerimise kodulehekülg"
 description: "Koondplaneerimise võimaldab ettevõtetel kindlaks määrata ja tasakaalustada edaspidise vajaduse toormaterjalide järele ning vajalikud võimsused ettevõtte eesmärkide täitmiseks."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: et-ee
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ Järgmisel õppekaardil on näidatud peamised põhimõtted ja ülesanded, milles
 
 ## <a name="quick-links"></a>Kiirlingid
 
-|      |   |
-|------|---|
-|        [Koondplaanid](master-plans.md)       |     [Piirangutega plaani koostamine](./tasks/constrained-plan.md)  |
-| [Kaastoodete jaoks materjaliplaani loomine](./tasks/create-material-plan-co-products.md)   |  [Koondplaneerimine ja mitme laoala režiim](master-plan-multisite-functionality.md)  |
-| [Kontsernisisese plaani loomine](./tasks/create-intercompany-plan.md) | [Nõudluse prognoosimise ülevaade](introduction-demand-forecasting.md)  | 
-|[Planeerimise koefitsiendid](reduction-keys.md)| [Koondplaneerimise põhialused](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (e-õpe) (vajab CustomerSource’i kontot)     |
-|  [Koondplaneerimine protsessi tootmise jaoks](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (e-õpe) (vajab CustomerSource’i kontot) | [Kontsernisisene koondplaneerimine](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (e-õpe) (vajab CustomerSource’i kontot)|
+- [Koondplaanid](master-plans.md)  
+- [Piirangutega plaani koostamine](./tasks/constrained-plan.md)
+- [Kaastoodete jaoks materjaliplaani loomine](./tasks/create-material-plan-co-products.md)
+- [Koondplaneerimine ja mitme laoala režiim](master-plan-multisite-functionality.md)
+- [Kontsernisisese plaani loomine](./tasks/create-intercompany-plan.md)
+- [Nõudluse prognoosimise ülevaade](introduction-demand-forecasting.md)
+- [Planeerimise koefitsiendid](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Lisaressursid
 
