@@ -1,6 +1,6 @@
 ---
 title: Kordustellimuste grupid
-description: 
+description: "Selles teemas tuuakse välja kordustellimuste grupis määratu."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
@@ -19,39 +19,39 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 19cb6ac171461a5014df73cfe5d2a9de129f2424
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 75fd373908fad29f7f604ff6642753ba731775c8
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="subscription-groups"></a><span data-ttu-id="b9370-102">Kordustellimuste grupid</span><span class="sxs-lookup"><span data-stu-id="b9370-102">Subscription groups</span></span>    
+# <a name="subscription-groups"></a><span data-ttu-id="3c399-103">Kordustellimuste grupid</span><span class="sxs-lookup"><span data-stu-id="3c399-103">Subscription groups</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="b9370-103">Kordustellimused annavad ühiskasutusse järgmise kordustellimuste grupis määratletud teabe.</span><span class="sxs-lookup"><span data-stu-id="b9370-103">Subscriptions share the following information, which is defined for the subscription group:</span></span>
+<span data-ttu-id="3c399-104">Kordustellimused annavad ühiskasutusse järgmise kordustellimuste grupis määratletud teabe.</span><span class="sxs-lookup"><span data-stu-id="3c399-104">Subscriptions share the following information, which is defined for the subscription group:</span></span>
 
-  - <span data-ttu-id="b9370-104">Nummerdage olemasolul kordustellimuste järjestuskoodid.</span><span class="sxs-lookup"><span data-stu-id="b9370-104">Number sequence code for the subscription, if any.</span></span>
+  - <span data-ttu-id="3c399-105">Nummerdage olemasolul kordustellimuste järjestuskoodid.</span><span class="sxs-lookup"><span data-stu-id="3c399-105">Number sequence code for the subscription, if any.</span></span>
 
-  - <span data-ttu-id="b9370-105">Arveldusperiood, millele luuakse kordustellimuste kanded.</span><span class="sxs-lookup"><span data-stu-id="b9370-105">The invoicing period for which subscription transactions are created.</span></span> <span data-ttu-id="b9370-106">Kui näiteks perioodikood **Arve koostamine** vormis **Kordustellimuse grupid** on seatud valikule **Kord kvartalis**, luuakse kõik kordustellimuste grupile lisatud kordustellimused kord kvartalis.</span><span class="sxs-lookup"><span data-stu-id="b9370-106">For example, if the **Invoicing** period code in the **Subscription groups** form is set to **Quarterly**, transactions for all subscriptions that are attached to the subscription group are created on a quarterly basis.</span></span>
+  - <span data-ttu-id="3c399-106">Arveldusperiood, millele luuakse kordustellimuste kanded.</span><span class="sxs-lookup"><span data-stu-id="3c399-106">The invoicing period for which subscription transactions are created.</span></span> <span data-ttu-id="3c399-107">Kui näiteks perioodikood **Arve koostamine** vormis **Kordustellimuse grupid** on seatud valikule **Kord kvartalis**, luuakse kõik kordustellimuste grupile lisatud kordustellimused kord kvartalis.</span><span class="sxs-lookup"><span data-stu-id="3c399-107">For example, if the **Invoicing** period code in the **Subscription groups** form is set to **Quarterly**, transactions for all subscriptions that are attached to the subscription group are created on a quarterly basis.</span></span>
 
-  - <span data-ttu-id="b9370-107">Kui sageli (kui üldse) peab kordustellimus laekuma.</span><span class="sxs-lookup"><span data-stu-id="b9370-107">How frequently the subscription is to be accrued, if at all.</span></span>
+  - <span data-ttu-id="3c399-108">Kui sageli (kui üldse) peab kordustellimus laekuma.</span><span class="sxs-lookup"><span data-stu-id="3c399-108">How frequently the subscription is to be accrued, if at all.</span></span>
 
-<span data-ttu-id="b9370-108">Saate ka teha järgmisi toiminguid kordustellimuste grupile lisatud kordustellimuste puhul:</span><span class="sxs-lookup"><span data-stu-id="b9370-108">You can also complete the following tasks for all subscriptions that are attached to the subscription group:</span></span>
+<span data-ttu-id="3c399-109">Saate ka teha järgmisi toiminguid kordustellimuste grupile lisatud kordustellimuste puhul:</span><span class="sxs-lookup"><span data-stu-id="3c399-109">You can also complete the following tasks for all subscriptions that are attached to the subscription group:</span></span>
 
-  - <span data-ttu-id="b9370-109">luua kordustellimuste kandeid;</span><span class="sxs-lookup"><span data-stu-id="b9370-109">Create subscription transactions.</span></span>
+  - <span data-ttu-id="3c399-110">luua kordustellimuste kandeid;</span><span class="sxs-lookup"><span data-stu-id="3c399-110">Create subscription transactions.</span></span>
 
-  - <span data-ttu-id="b9370-110">ajakohastada kordustellimuste jaoks baashinda või indeksit;</span><span class="sxs-lookup"><span data-stu-id="b9370-110">Update the base price or the index for the subscriptions.</span></span>
+  - <span data-ttu-id="3c399-111">ajakohastada kordustellimuste jaoks baashinda või indeksit;</span><span class="sxs-lookup"><span data-stu-id="3c399-111">Update the base price or the index for the subscriptions.</span></span>
 
-  - <span data-ttu-id="b9370-111">sisestada kordustellimuse kannetele viittulu.</span><span class="sxs-lookup"><span data-stu-id="b9370-111">Post accrued revenue for subscription transactions.</span></span>
+  - <span data-ttu-id="3c399-112">sisestada kordustellimuse kannetele viittulu.</span><span class="sxs-lookup"><span data-stu-id="3c399-112">Post accrued revenue for subscription transactions.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b9370-112">Vt ka</span><span class="sxs-lookup"><span data-stu-id="b9370-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3c399-113">Vt ka</span><span class="sxs-lookup"><span data-stu-id="3c399-113">See also</span></span>
 
-<span data-ttu-id="b9370-113">[Kordustellimuste grupid (vorm)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="b9370-113">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
+<span data-ttu-id="3c399-114">[Kordustellimuste grupid (vorm)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="3c399-114">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="b9370-114">Saate häälestada kordustellimuste gruppe.</span><span class="sxs-lookup"><span data-stu-id="b9370-114">Set up subscription groups</span></span>](set-up-subscription-groups.md)
+[<span data-ttu-id="3c399-115">Saate häälestada kordustellimuste gruppe.</span><span class="sxs-lookup"><span data-stu-id="3c399-115">Set up subscription groups</span></span>](set-up-subscription-groups.md)
 
   
 
