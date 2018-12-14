@@ -3,7 +3,7 @@ title: "Eemaldatud või aegunud funktsioonid"
 description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Funktsioon loodud deklaratsioonide elektrooniliste failide saatmiseks kausta eda
 | **Mõjutatud tootealad**         | Pearaamat, maks |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
+
+
+### <a name="profit-tax-register-wizard"></a>Kasumimaksu registreerimise viisard
+Funktsioon uute kasumimaksuregistrite jaoks mallide loomiseks. See funktsioon loob X++ objektid uute registrite jaoks, mis luuakse seejärel mallidena, millele on lisatud vastav arvutusloogika.
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Funktsioon ei ühildu rakenduse Dynamics 365 for Finance and Operations laiendatavuse mudeliga. |
+| **Asendatud teise funktsiooniga?**   | Ei |
+| **Mõjutatud tootealad**         | Maks |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Microsoft Dynamics 365 for Finance and Operations 8.0 platvormivärskendusega 15
 Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Platvormivärskendus 15 on kumulatiivne ja sisaldab uusi või muudetud funktsioone platvormivärskendusest 13, platvormivärskendusest 14 ja platvormivärskendusest 15.
@@ -993,6 +1006,17 @@ Tootekonstruktorit kasutati müügitellimuse, ostutellimuse, tootmistellimuse, m
 | **Asendatud teise funktsiooniga?**   | Jah. Rakenduses Dynamics AX 2012, kus tootekonstruktori tulevaste versioonide aegumine oli juba välja kuulutatud, võeti kasutusele piirangupõhine konfiguratsioon. Konfiguratsiooni lubamiseks valitakse tooteetalonides piirangupõhise konfiguratsiooni tehnoloogia. Lisateabe saamiseks vt teemat [Toote konfiguratsioonimudeli koostamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Mõjutatud tootealad**         | Tooteteabe haldus, Müük ja turundus  |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.      |
+
+### <a name="production-floor-app"></a>Tootmisosakonna rakendus
+See rakendus on mõeldud tahvelarvutitele, milles töötab Windows 8.1 RT ja Windows 8.1 Pro.
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Tänu üleminekule veebipõhisele kliendile saab Dynamics AX 7.0 omakliendi kaudu pakkuda sarnast funktsionaalsust. Töökaardi vahend annab tootmisosakonna kasutajaliidese, mis on optimeeritud puute ja tahvelarvuti vormitegurite jaoks. |
+| **Asendatud teise funktsiooniga?**   | Jah. Töökaardi vahend, mis on Dynamics AX 7.0 omaosa.                                                                           |
+| **Mõjutatud tootealad**         | Tootmise juhtimine                                                |
+| **Olek**                         | Aegunud: selle funktsiooni jaoks pole veel määratud Microsoft Store’ist eemaldamise kuupäeva.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Nimetage tootedimensioon ümber.
 

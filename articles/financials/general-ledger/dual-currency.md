@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Topeltvaluuta
+
+[!include [banner](../includes/banner.md)]
 
 Rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 8.1 (oktoober 2018) kasutusele võetud funktsionaalsus võimaldab aruandlusvaluuta ümberkorraldamist ja teise arvestusvaluutana kasutamist. Sellele funktsioonile viidatakse ka kui *topeltvaluutale*. Topeltvaluuta muudatusi ei saa konfiguratsioonivõtme või parameetri kaudu välja lülitada. Kuna aruandlusvaluutat kasutatakse teise arvestusvaluutana, on aruandlusvaluuta arvestamise meetodi sisestusloogika muutunud.
 
@@ -67,8 +69,8 @@ Järgmised moodulid kasutavad aruandlusvaluutat teise arvestusvaluutana.
 
 - [Pearaamat](#general-ledger)
 - [Finantsaruandlus](#financial-reporting)
-- [Ostureskontro](#accounts-payable/accounts-receivable)
-- [Müügireskontro](#accounts-payable/accounts-receivable)
+- [Ostureskontro](#accounts-payable-and-accounts-receivable)
+- [Müügireskontro](#accounts-payable-and-accounts-receivable)
 - [Sularaha- ja pangahaldus](#cash-and-bank-management)
 - [Põhivarad](#fixed-assets)
 
@@ -90,7 +92,7 @@ Moodul **Finantsaruandlus** võimaldab teil lisada aruandlusvaluuta summad finan
 
 See muudatus on saadaval veerudefinitsiooni sätte **Valuutakuva** all. Kui valite **Aruandlusvaluuta pearaamatust**, veeru summasid ei teisandata. Selle asemel võetakse need otse pearaamatust. Kui soovite, et veerg näitaks teisendatud summasid, valige suvand **Teisenda valuutasse XXXX**, kus *XXXX* on aruandlusvaluuta, mida veerg peaks näitama. Sel juhul teisendatakse arvestusvaluuta summad valitud valuutasse kasutades olemasolevat teisendamise funktsionaalsust.
 
-### <a name="accounts-payableaccounts-receivable"></a>Ostureskontro/Müügireskontro
+### <a name="accounts-payable-and-accounts-receivable"></a>Ostureskontro ja müügireskontro
 
 Moodulid **Ostureskontro** ja **Müügireskontro** jälgisid juba aruandlusvaluuta summasid. Siiski ei näidatud ega kasutatud summasid erinevates protsessides. Tehti järgmised muudatused.
 

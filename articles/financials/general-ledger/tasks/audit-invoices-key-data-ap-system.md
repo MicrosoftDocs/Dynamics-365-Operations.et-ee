@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Arvete ja võtmeandmete audit ostureskontro süsteemis
@@ -35,34 +35,31 @@ See protsess kasutab demoettevõtte USMF-i andmeid. Järgmiste sammude tegemisek
 
 
 ## <a name="create-a-purchase-order"></a>Ostutellimuse loomine
-1. Avage valik Kõik ostutellimused.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Hankija konto otsingu avamiseks ripploendi nuppu.
-4. Sisestage väärtus väljale Hankija konto.
-5. Klõpsake nuppu OK.
-6. Klõpsake käsku Lisa rida.
-7. Sisestage väärtus väljale Kaubakood.
-8. Klõpsake toimingupaanil valikut Ost.
-9. Klõpsake käsku Kinnita.
+1. Avage valik **Kõik ostutellimused**.
+2. Klõpsake **Uus**.
+3. Sisestage väärtus väljale **Hankija konto**.
+4. Klõpsake nupul **OK**.
+5. Klõpsake käsku **Lisa rida**.
+6. Sisestage väärtus väljale **Kaubakood**.
+7. Klõpsake toimingupaanil valikut **Ost**.
+8. Klõpsake käsku **Kinnita**.
 
 ## <a name="post-a-product-receipt"></a>Toote sissetuleku sisestamine
-1. Klõpsake toimingupaanil valikut Vastuvõtt.
-2. Klõpsake valikut Toote sissetulek.
-3. Märkige loendis valitud rida.
-4. Sisestage väärtus väljale Toote sissetulek.
-5. Klõpsake nuppu OK.
+1. Klõpsake toimingupaanil valikut **Vastuvõtt**.
+2. Klõpsake valikut **Toote sissetulek**.
+3. Sisestage väärtus väljale **Toote sissetulek**.
+4. Klõpsake nupul **OK**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Hankija arve salvestamine ja vastendamine toote sissetulekuga
-1. Klõpsake toimingupaanil valikut Arve.
-2. Klõpsake valikut Arve.
-3. Sisestage väärtus väljale Arv.
-4. Rippdialoogi avamiseks klõpsake valikut Vaikimis asukohast: tellitud kogus.
-5. Valige suvand väljal Ridade vaikekogus.
-6. Klõpsake nuppu OK.
-7. Klõpsake nuppu Jah.
-8. Klõpsake valikut Toote sissetulekute vastendamine.
-9. Klõpsake nuppu OK.
-10. Klõpsake toimingupaanil valikut Vaata üle.
-11. Klõpsake valikut Vastanduvad üksikasjad.
+1. Klõpsake toimingupaanil valikut **Arve > Arve**.
+2. Sisestage väärtus väljale **Arv**.
+3. Rippdialoogi avamiseks klõpsake valikut **Vaikimisi asukohast: tellitud kogus**.
+4. Valige suvand väljal **Ridade vaikekogus**.
+5. Klõpsake nupul **OK**.
+6. Klõpsake nuppu **Jah**.
+7. Klõpsake valikut **Toote sissetulekute vastendamine**.
+8. Klõpsake nupul **OK**.
+9. Klõpsake toimingupaanil valikut **Vaata üle**.
+10. Klõpsake valikut **Vastanduvad üksikasjad**.
 
 

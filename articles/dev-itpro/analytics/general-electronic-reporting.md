@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -164,13 +164,23 @@ Uue ER-i pakkuja registreerimise kohta saate juhised, kui esitate tegevusjuhise 
 
 #### <a name="repository"></a>Hoidla
 
-ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse kahte elektroonilise aruandluse hoidlate tüüpi: **Operatsiooniressursid** ja **LCS-i projekt**.
+ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse nelja tüüpi ER-hoidlaid: **Ooperatsiooniressursid**, **LCS-i projekt (LCS)**, **Failisüsteem** ja **Regulatiivsed konfiguratsiooniteenused (RCS)**.
 
 Hoidla **Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loendile, mille on väljastanud Microsoft kui ER-i konfiguratsioonipakkuja Finance and Operationsi lahenduse osana. Need konfiguratsioonid saab praegusesse Finance and Operationsi eksemplari importida ja elektroonilise aruandluse jaoks kasutada. Neid saab kasutada ka täiendavaks lokaliseerimiseks ja kohandamiseks.
 
 Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimise etapis. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist Finance and Operationsi eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka **LCS-i projekti** hoidlast praegusesse Finance and Operationsi eksemplari.
 
-Vajalikke hoidlaid **LCS-i projekt** saab registreerida eraldi iga praeguse Finance and Operationsi eksemplari konfiguratsioonipakkuja kohta. Iga hoidla saab eraldada konkreetsele konfiguratsioonipakkujale.
+Hoidla **Failisüsteem** võimaldab juurdepääsu konfiguratsioonidele, mis asuvad XML-failidena AOS-i teenuse hostitud masina kohaliku failisüsteemi kindlas kaustas. Vajalik kaust valitakse hoidla registreerimise etapis. Saate importida konfiguratsioone hoidlast **Failisüsteem** praegusesse rakenduse Finance and Operations eksemplari. Pange tähele, et sellele hoidla tüübile saab juurde pääseda järgmistes rakenduse Dynamics 365 for Finance and Operations keskkondades:
+- arenduseks juurutatud pilves majutatavad keskkonnad (sisaldavad lisatud komplektide katsemudeleid);
+- kohalikult juurutatud keskkonnad (asutusesisene või kohalike äriandmete juurutamine (LBD)).
+
+Lisateavet selle kohta leiate lehelt [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](/electronic-reporting-import-ger-configurations.md).
+
+Hoidla **RCS-i eksemplar** võimaldab juurdepääsu konkreetsele RCS-i eksemplarile, mis valiti hoidla registreerimise etapis. ER võimaldab importida lõpule viidud või jagatud konfiguratsioone valitud RCS-i eksemplarist praeguse rakenduse Finance and Operations eksemplarini ja kasutada elektrooniliseks aruandluseks.
+
+Lisateavet selle kohta leiate lehelt [Elektroonilise aruandluse (ER) konfiguratsioonide importimine regulatiivsetest konfiguratsiooniteenustest (RCS)](/rcs-download-configurations.md).
+
+Vajalikke hoidlaid **LCS-i projekt**, **Failisüsteem** ja **Regulatiivsed konfiguratsiooniteenused (RCS)** saab registreerida eraldi iga praeguse rakenduse Finance and Operations eksemplari konfiguratsioonipakkuja kohta. Iga hoidla saab eraldada konkreetsele konfiguratsioonipakkujale.
 
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 ### <a name="building-a-data-model"></a>Andmemudeli loomine

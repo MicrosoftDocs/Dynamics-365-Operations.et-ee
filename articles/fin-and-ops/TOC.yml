@@ -48,6 +48,10 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Asutusesisestes juurutustes rakendamata funktsioonid
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operationsi versioon 8.1.3 (detsember 2018)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23 (detsember 2018)
+              href: get-started/whats-new-platform-update-23.md
             - name: Platform update 22 (november 2018)
               href: get-started/whats-new-platform-update-22.md
             - name: Finance and Operationsi versioon 8.1.2 (november 2018)
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: Spikrisüsteemi ühendamine
               href: get-started/help-connect.md
+            - name: Kohandatud spikrisaidi ühendamine
+              href: get-started/help-custom.md
             - name: Väljade kirjelduste vaatamine ja eksportimine
               href: get-started/view-export-field-descriptions.md
             - name: Tegevuse juhised ja tegevuse salvestaja
@@ -1243,6 +1249,8 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Finantsaruandluse andmevaka lähtestamine
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Elektronsõnumid
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Lokaliseerimine ja regulatiivsed funktsioonid
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2218,10 +2226,14 @@
               href: ../financials/localizations/rus-officials.md
             - name: Maksuesindajate käibemaks (KM)
               href: ../financials/localizations/rus-tax-agent.md
-            - name: Tasakaalustus dimensioonide juhtimise seadistamine
+            - name: Tasakaalustuste dimensioonide juhtimise seadistamine
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: Arved maksmiseks
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: Finantsaruandlus
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Uue osturaamatu loomine
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Saudi Araabia
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Konfiguratsioonide importimine teenusest Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Elektroonilise aruandluse (ER) konfiguratsioonide importimine regulatiivsetest konfiguratsiooniteenustest (RCS)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: Konfiguratsioonide allalaadimine teenusest Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: Konfiguratsioonide importimine
@@ -4147,8 +4161,10 @@
               href: ../supply-chain/warehousing/mixed-license-plate-receiving.md
             - name: Lao vanemate partiide mobiilses seadmes kuvamise konfigureerimine
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
-            - name: Komplekteeri vanim partii mobiilsel seadmel
+            - name: Vanima partii komplekteerimine mobiilsel seadmel
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Protsessijuhendi raamistik
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: Täiendamine ja migreerimine
           items:
             - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versioonile Finance and Operations

@@ -1,9 +1,9 @@
 ---
 title: Toote sissetulek ostutellimuste suhtes
-description: Selles artiklis kirjeldatakse mitmesuguseid toodete sisstuleku registreerimise valikuid.
+description: Selles teemas kirjeldatakse mitmesuguseid toodete sisstuleku registreerimise valikuid.
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [retail name](../includes/retail-name.md)]
 
-Selles artiklis kirjeldatakse mitmesuguseid toodete sisstuleku registreerimise valikuid.
+Selles teemas kirjeldatakse mitmesuguseid toodete sisstuleku registreerimise valikuid.
 
 Toote sissetulek on protsess, millega näidatakse, et tellitud tooted on kätte saadud, et ostutellimuse ridu saaks siis arveldamiseks töödelda. Mõnikord läbivad tooted eelregistreerimise, mille käigus enne toodete vastuvõtmist registreeritakse tarnijalt saadud lisateave. Kui saabuvad, märgitakse need kõigepealt olekuga **Registreeritud**. Tooted võivad seejärel läbida lisaprotsesse (nt kvaliteedijuhtimine), enne kui nende olekuks märgitakse lõpuks **Saadud**.
 
@@ -46,8 +46,6 @@ Tooted, mis laos vastu võetakse, võivad läbida enne varudesse paigutamist kva
 
 ## <a name="product-receipt"></a>Toote sissetulek
 Kõige sagedamini kasutatakse toimingut **Toote sissetulek** lehel **Ostutellimused** selleks, et märkida ostutellimusel toodete olekuks **Saadud**. Lehel **Toote sissetuleku sisestamine** on mitmesuguseid valikuid vastuvõetuks märgitud koguste kohta. Näiteks saate määrata välja **Kogus** olekuks **Tellitud kogus** või **Kohe tarnitav kogus**. Teise võimalusena, kui on kasutatud lattu saabumise protsessi, määratakse sellel väljal sageli väärtus **Registreeritud kogus**. Saate muuta koguseid igal tellimuse real, mille olekuks määratakse **Saadud**, et kajastada igasuguseid lahknevusi, nt ala- või ületarnet. Toote sissetuleku ajal tuleb määrata toote sissetuleku identifikaator, mis on tavaliselt hankija saatelehe viide. See ID on raamatupidamise jaoks vajalik, kuna see võimaldab võrrelda hankija saatelehti ja saadud kaupu ning kontrollida arvestatud varusid või kulusid.  
-
-Kui töötaja tellis kaupu ostutaotluse abil, võidakse sellel töötajal paluda kinnitada ise toote sissetulek. Seda protseduuri saate töövoo abil konfigureerida. Saate konfigureerida töövoo tingimusi nii, et need vastaksid teie äriprotsessile.  
 
 Ostutellimusi saab koostada toodetele, mis pole mõeldud varudeks, vaid mida käsitletakse kuluna. See kategooria hõlmab tellimuse ridu, millel tooted on märgitud laomudeligrupi järgi olekuga **Ladustamata**, ja samuti ridu, mis kasutavad hankekategooriaid. Sel juhul ei pruugi kaubad läbida laos saabumise registreerimist ja vastuvõtmist. Selle asemel kasutatakse toimingut **Toote sissetulek** sissetuleku kajastamiseks otse ostutellimusel ja sissetulek põhineb tellitud, mitte registreeritud kogusel.  
 

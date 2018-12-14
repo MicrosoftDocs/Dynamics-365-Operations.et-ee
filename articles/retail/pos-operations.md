@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ Märkus. Allpool loetletud toimingud kehtivad rakenduse Dynamics 365 for Retail 
 | 644 | Kupongikoodi eemaldamine | Paluge kasutajal eemaldada kupongid, valides need kupongide loendist, mis on praegu kandega seotud. | Jah | Jah | Ei | Jah | Ei |
 | 1057 | Kordustrüki Z | Printige eelmise või valitud vahetuse Z-aruanne uuesti. | Jah | Jah | Jah | Ei | Ei |
 | 1216 | Sisestage uus parool | Operatsioon võimaldab parooli lähtestamise õigusega kasutajal lähtestada muu töötaja parooli, kasutades ajutist parooli. | Jah | Jah | Jah | Ei | Ei |
+| 1219 | URL-i avamine kassas | See operatsioon võimaldab kasutajal avada kassas administraatori konfigureeritud URL-i. | Jah | Jah | Jah | Jah | Ei | 
 | 109 | Toote tagastamine | Üksikute toodete tagastamine. Järgmine skannitud toode kuvatakse tagastatud tootena, millel on negatiivne kogus ja hind. | Jah | Jah | Ei | Jah | Ei |
 | 114 | Tagastuskanne | Kutsuge varasem kanne kviitungi numbri alusel tagasi, et tagastada osad või kõik tooted. | Jah | Jah | Jah | Jah§ | Ei |
 | 1211 | Seifi viidav raha | Raha viimine kassaaparaadist seifi. | Jah | Jah | Jah | Jah | Ei |

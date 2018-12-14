@@ -1,9 +1,9 @@
 ---
 title: "Finance and Operationsi spikrisüsteem"
-description: "Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile."
+description: "Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest."
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. Selgitatakse ka seda, kuidas saate edastada kohandatud dokumente ja koolitust organisatsioonile. 
+Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest. 
 
 > [!NOTE] 
 > Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
@@ -48,8 +48,6 @@ Finance and Operations sisaldab spikrisüsteemi, mis põhineb kahel peamisel kom
 Pääsete spikrile ligi mis tahes toote Spikripaanilt. Järgmistel kuvatõmmistel näidatakse rakendust Finance and Operations.
 
 ![Spikripaan](./media/help-pane-ops-task-guides.png)
-
-See teema kirjeldab spikrisüsteemi ja selgitab, kuidas saate oma organisatsioonile kohandatud dokumente ja koolitusressursse luua.
 
 > [!IMPORTANT]
 > **Tegevuse juhised** pole praegu saadaval Retaili ega Talenti Spikripaanis (mõned tegevuse juhised on saadaval Talenti alustamise paanis). Protseduurispikker on saadaval ka lehel docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) nii rakenduse Retail kui ka Talent jaoks.
@@ -83,7 +81,7 @@ Unified Operationsi sisu kõigi värskenduste RSS-kanali tellimiseks kasutage br
 ### <a name="give-feedback"></a>Tagasiside andmine 
 Meil on klientide tagasiside üle alati hea meel. Saate GitHubi kaudu lisada meie sisu kohta kommentaare või soovitada muudatusi. Lisateavet meie tagasisidesüsteemi kohta leiate [sellest ajaveebipostitusest](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-feedback"></a>Tagasiside andmine 
+#### <a name="leave-us-feedback"></a>Tagasiside andmine 
 Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.  
 
 1. Klõpsake nuppu **Tagasiside**, et liikuda lehe lõpus olevate kommentaaride juurde, ja seejärel klõpsake kas nuppu **Toote tagasiside** või **Sisselogimine dokumentatsiooni tagasiside andmiseks**.
@@ -93,8 +91,6 @@ Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.
 2. Alustage kommentaaride sisestamist ja klõpsake siis valikut **Tagasiside edastamine**.
 
 ![Sisesta kommentaar](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Soovitage muudatusi või lisage sisu GitHubi kaudu
 Muudatuse soovitamiseks peab teil olema GitHubi konto ja teil tuleb allkirjastada kaasautori litsentsileping.  Pärast tõmbamistaotluse esitamist vaatame teie soovitatud muudatused üle. Vajaduse korral arutleme neid ja seejärel võtame teiega ühendust.  
@@ -122,22 +118,7 @@ Juhitud interaktiivse kogemusega alustamiseks klõpsake valikut **Käivita tegev
 > [!IMPORTANT] 
 > Tegevuse juhise käitamisel sisestatavad andmed on tõelised. Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.
 
-### <a name="it-all-begins-with-task-recorder"></a>Kõik algab tegevuse salvestajast
-
-Tegevuse juhised luuakse tegevuse salvestaja abil. Ülesande salvestaja kasutamisel salvestatakse kõik Finance and Operationsi kasutajaliideses tehtavad tegevused (nt menüüde klõpsamine, sätete muutmine ja andmete sisestamine). Salvestatud toiminguid nimetatakse ühiselt tegevuse salvestiseks. Nagu on kirjeldatud eelmises osas, saab tegevuse salvestised kuvada paanil Spikker ja esitada tegevuse juhistena. Kuid tegevuse salvestisi saab kasutada ka muul viisil.
-
--   **Tegevuse salvestiste salvestamine BPM-i** – saate salvestada tegevuse salvestise BPM-i teegi hierarhiareale LCS-is. Tegevuse salvestise salvestamisel BPM-i luuakse voodiagramm ja see kuvatakse koos salvestise toimingutega. 
-
-    > [!Note]
-    > Tegevuse salvestise kuvamiseks Finance and Operationsi Spikripaanil ja selle esitamiseks tegevusjuhisena, tuleb salvestis BPM-i teeki salvestada.
-    
--   **Tegevuse salvestiste salvestamine Wordi dokumentidena** – tegevuse salvestise salvestamisel Microsoft Wordi dokumendina saate oma organisatsioonile hõlpsasti prinditavaid koolitusjuhendeid valmistada.
-
-Lisateavet tegevuse salvestaja kohta leiate teemast [Tegevuse salvestaja Finance and Operationsis](../../dev-itpro/user-interface/task-recorder.md).
-
-### <a name="creating-customized-task-recordings"></a>Kohandatud tegevuse salvestiste loomine
-
-Saate luua oma tegevuse salvestisi või laadida alla ja kohandada tegevuse salvestisi, mida Microsoft pakub. Seega saate luua oma organisatsioonile kohandatud spikri, mis kajastab teie konkreetset Finance and Operationsi eksemplari. Tegevuse salvestise kuvamiseks Finance and Operationsi paanil Spikker ja selle esitamiseks tegevusjuhisena tuleb salvestis LCS-is BPM-i teeki salvestada. Kui olete partner ja viite teegi üle ettevõtte teegiks ning lisate selle lahendusse, on see teie klientidele kättesaadav. Täielikud juhised leiate jaotisest [Tegevuse salvestiste kasutamine dokumentide või koolituse loomiseks](../../dev-itpro/user-interface/task-recorder.md).
+Tegevuse salvestajat saate kasutada kohandatud tegevuse juhiste loomiseks. Lisateavet vt jaotisest [Dokumentide või koolituse loomine tegevuse salvestiste abil](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Toote sisespikker
 Spikri sisule Finance and Operationsis juurdepääsuks klõpsake ikooni **Spikker** (**?**) ja valige Spikker või vajutage klahve Ctrl + Shift + ?. Mõlemal juhul avaneb paan Spikker. Paanilt Spikker pääsete juurde artiklitele või tegevuse juhistele. 
@@ -184,6 +165,11 @@ Kui süsteemiadministraator on need toimingud lõpetanud, võite avada paani Spi
 Tõlgitud tegevuse juhised on väljastatud teekidesse, mille pealkirjas on „Kõik keeled”. Finance and Operationsis lokaliseeritud tegevusjuhise vaatamiseks veenduge, et teil oleks ühendus sobiva teegiga. Keelt, milles tegevuse juhis kuvatakse, juhitakse iga kasutaja puhul keelesätetega jaotises **Suvandid** &gt; **Eelistused**. 
 -   Kui tegevuse juhis on tõlgitud, siis kuvatakse tegevuse juhise avamisel kogu selle tekst teie valitud keeles.
 -   Kui tegevuse juhist pole veel tõlgitud, siis kuvatakse tegevuse juhise avamisel teie valitud keeles ainult osa tekstist (juhtelementide tekst).
+
+## <a name="creating-custom-help"></a>Kohandatud spikri loomine
+Kasutajatele saab spikreid luua kohandatud tegevusjuhiseid luues või enda veebisaiti spikripaaniga ühendades. Lisateavet vt jaotisest 
+- [Kuidas luua tegevuse salvestist dokumentide või koolitusena kasutamiseks](../../dev-itpro/user-interface/task-recorder.md).
+- [Kohandatud spikri loomine rakendusele Finance and Operations(tehniline ülevaade)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
