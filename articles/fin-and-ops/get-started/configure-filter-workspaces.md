@@ -19,10 +19,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: abf98195cfd31b7eb48c9d3c5359d6453c3ed4ce
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 77d30759d2a8ed85a28f8a29663057f20496f16d
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -32,40 +32,37 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="b77b9-104">Selles artiklis antakse ülevaade tööruumide konfigureerimisest ja filtreerimisest.</span><span class="sxs-lookup"><span data-stu-id="b77b9-104">This article provides an overview about how to configure and filter workspaces.</span></span>
 
-<a name="configuring-a-workspace"></a><span data-ttu-id="b77b9-105">Tööruumi konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b77b9-105">Configuring a workspace</span></span>
------------------------
+## <a name="configuring-a-workspace"></a><span data-ttu-id="b77b9-105">Tööruumi konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b77b9-105">Configuring a workspace</span></span>
 
-<span data-ttu-id="b77b9-106">Saate mõne tööruumi välimust ja toimimist muuta, värskendades kogu tööruumile rakenduvaid sätteid.</span><span class="sxs-lookup"><span data-stu-id="b77b9-106">You can change the appearance and behavior of some workspaces by updating settings that apply to the whole workspace.</span></span> <span data-ttu-id="b77b9-107">Kui tööruumi saab konfigureerida, sisaldab toimingupaan nuppu, mis juhendab teid konfiguratsiooni muutmiseks seda klõpsama.</span><span class="sxs-lookup"><span data-stu-id="b77b9-107">When a workspace can be configured, the Action Pane includes a button that instructs you to click it to make configuration changes.</span></span> <span data-ttu-id="b77b9-108">Näiteks järgmisel joonisel on nupu nimi **Konfigureeri minu tööruumi**.</span><span class="sxs-lookup"><span data-stu-id="b77b9-108">For example, in the following illustration, the button is named **Configure my workspace**.</span></span> 
+<span data-ttu-id="b77b9-106">Saate mõne tööruumi välimust ja toimimist muuta, värskendades kogu tööruumile rakenduvaid sätteid.</span><span class="sxs-lookup"><span data-stu-id="b77b9-106">You can change the appearance and behavior of some workspaces by updating settings that apply to the whole workspace.</span></span> <span data-ttu-id="b77b9-107">Kui tööruumi saab konfigureerida, sisaldab toimingupaan nuppu, mis juhendab teid konfiguratsiooni muutmiseks seda klõpsama.</span><span class="sxs-lookup"><span data-stu-id="b77b9-107">When a workspace can be configured, the Action Pane includes a button that instructs you to click it to make configuration changes.</span></span> <span data-ttu-id="b77b9-108">Näiteks järgmisel joonisel on nupu nimi **Konfigureeri minu tööruumi**.</span><span class="sxs-lookup"><span data-stu-id="b77b9-108">For example, in the following illustration, the button is named **Configure my workspace**.</span></span>
 
-<span data-ttu-id="b77b9-109">[![tööruumide-konfigureerimine-ja-filtreerimine](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-109">[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span></span>   
+<span data-ttu-id="b77b9-109">[![tööruumide-konfigureerimine-ja-filtreerimine](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-109">[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span></span>
 
-<span data-ttu-id="b77b9-110">Nupu klõpsamisel ilmub dialoog, kus saate muuta tööruumi eelnevalt määratletud sätteid.</span><span class="sxs-lookup"><span data-stu-id="b77b9-110">When you click the button, a dialog appears, where you can modify the predefined settings for the workspace.</span></span> <span data-ttu-id="b77b9-111">Konkreetsed sätted, mida selles dialoogis näete, on iga tööruumi puhul erinevad ja olenevad konkreetsetest juhtelementidest ja äriandmetest, mida tööruumis kasutada saab.</span><span class="sxs-lookup"><span data-stu-id="b77b9-111">The specific settings that you see in this dialog vary by workspace, and depend on the specific controls and business data that are available in the workspace.</span></span> 
+<span data-ttu-id="b77b9-110">Nupu klõpsamisel ilmub dialoog, kus saate muuta tööruumi eelnevalt määratletud sätteid.</span><span class="sxs-lookup"><span data-stu-id="b77b9-110">When you click the button, a dialog appears, where you can modify the predefined settings for the workspace.</span></span> <span data-ttu-id="b77b9-111">Konkreetsed sätted, mida selles dialoogis näete, on iga tööruumi puhul erinevad ja olenevad konkreetsetest juhtelementidest ja äriandmetest, mida tööruumis kasutada saab.</span><span class="sxs-lookup"><span data-stu-id="b77b9-111">The specific settings that you see in this dialog vary by workspace, and depend on the specific controls and business data that are available in the workspace.</span></span>
 
 <span data-ttu-id="b77b9-112">[![minu-tööruumi-konfigureerimine](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-112">[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)</span></span>
 
 ## <a name="filtering-a-workspace"></a><span data-ttu-id="b77b9-113">Tööruumi filtreerimine</span><span class="sxs-lookup"><span data-stu-id="b77b9-113">Filtering a workspace</span></span>
+
 <span data-ttu-id="b77b9-114">Paljud töökohad võimaldavad neis kuvatavat sisu filtreerida.</span><span class="sxs-lookup"><span data-stu-id="b77b9-114">Many workspaces let you filter the content that appears in them.</span></span> <span data-ttu-id="b77b9-115">Saadaolevad juhtelemendid võivad lubada kogu tööruumi sisu filtreerimist või ainult tööruumi teatud osa sisu.</span><span class="sxs-lookup"><span data-stu-id="b77b9-115">The controls that are available might let you filter all the content in the workspace or only the content in a specific section of the workspace.</span></span> <span data-ttu-id="b77b9-116">Tööruumide filtrid võivad olla otsingud, liitboksid, vabas vormis tekstiväljad või muud tüüpi juhtelemendid.</span><span class="sxs-lookup"><span data-stu-id="b77b9-116">The filters on workspaces can be lookups, combo boxes, free-form text fields, or other types of controls.</span></span> <span data-ttu-id="b77b9-117">Kuid igat tüüpi filtril on sama mõju, nagu on kirjeldatud järgmistes jaotistes.</span><span class="sxs-lookup"><span data-stu-id="b77b9-117">However, every type of filter has the same effects, as described in the following sections.</span></span>
 
 ### <a name="workspace-wide-filters"></a><span data-ttu-id="b77b9-118">Tööruumiülesed filtrid</span><span class="sxs-lookup"><span data-stu-id="b77b9-118">Workspace-wide filters</span></span>
 
-<span data-ttu-id="b77b9-119">Tööruumiülese filtriga saate filtreerida kogu tööruumi.</span><span class="sxs-lookup"><span data-stu-id="b77b9-119">You can filter the whole workspace by using a workspace-wide filter.</span></span> <span data-ttu-id="b77b9-120">Tööruumiülene filter on tööruumi ülemises vasakpoolses nurgas.</span><span class="sxs-lookup"><span data-stu-id="b77b9-120">A workspace-wide filter appears in the upper-left corner of the workspace.</span></span> <span data-ttu-id="b77b9-121">Rippmenüüst konkreetse väärtuse valimisel filtreeritakse tööruumi sisu selle valiku põhjal.</span><span class="sxs-lookup"><span data-stu-id="b77b9-121">When you select a specific value in the drop-down list, the contents of the workspace are filtered based on that selection.</span></span> 
+<span data-ttu-id="b77b9-119">Tööruumiülese filtriga saate filtreerida kogu tööruumi.</span><span class="sxs-lookup"><span data-stu-id="b77b9-119">You can filter the whole workspace by using a workspace-wide filter.</span></span> <span data-ttu-id="b77b9-120">Tööruumiülene filter on tööruumi ülemises vasakpoolses nurgas.</span><span class="sxs-lookup"><span data-stu-id="b77b9-120">A workspace-wide filter appears in the upper-left corner of the workspace.</span></span> <span data-ttu-id="b77b9-121">Rippmenüüst konkreetse väärtuse valimisel filtreeritakse tööruumi sisu selle valiku põhjal.</span><span class="sxs-lookup"><span data-stu-id="b77b9-121">When you select a specific value in the drop-down list, the contents of the workspace are filtered based on that selection.</span></span>
 
-<span data-ttu-id="b77b9-122">[![tööruumi-filter](./media/workspace-filter.png)](./media/workspace-filter.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-122">[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)</span></span> 
+<span data-ttu-id="b77b9-122">[![tööruumi-filter](./media/workspace-filter.png)](./media/workspace-filter.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-122">[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)</span></span>
 
-<span data-ttu-id="b77b9-123">Kui filtri avamiseks klõpsate, antakse teile mitu valikut.</span><span class="sxs-lookup"><span data-stu-id="b77b9-123">When you click to open the filter, you're presented with several options.</span></span> 
+<span data-ttu-id="b77b9-123">Kui filtri avamiseks klõpsate, antakse teile mitu valikut.</span><span class="sxs-lookup"><span data-stu-id="b77b9-123">When you click to open the filter, you're presented with several options.</span></span>
 
-<span data-ttu-id="b77b9-124">[![tööruumi-laiendatud-filter](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-124">[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span></span> 
+<span data-ttu-id="b77b9-124">[![tööruumi-laiendatud-filter](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-124">[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span></span>
 
 <span data-ttu-id="b77b9-125">Tehke valik tööruumi filtreerimiseks selle valiku põhjal.</span><span class="sxs-lookup"><span data-stu-id="b77b9-125">Select an option to filter the workspace based on that option.</span></span>
 
 ### <a name="workspace-section-filters"></a><span data-ttu-id="b77b9-126">Tööruumi osa filtrid</span><span class="sxs-lookup"><span data-stu-id="b77b9-126">Workspace section filters</span></span>
 
-<span data-ttu-id="b77b9-127">Kui tööruumis üksikutel osadel on filtrid, saate filtreerida igat osa eraldi.</span><span class="sxs-lookup"><span data-stu-id="b77b9-127">If individual sections of the workspace have filters, you can filter each section separately.</span></span> <span data-ttu-id="b77b9-128">Järgmisel joonisel on filter (väli, millel on tekst Filter) vabas vormis tekstivälja filtri näidis.</span><span class="sxs-lookup"><span data-stu-id="b77b9-128">In the following illustration, the filter (the field that contains the text "Filter") is an example of a free-form text field filter.</span></span> 
+<span data-ttu-id="b77b9-127">Kui tööruumis üksikutel osadel on filtrid, saate filtreerida igat osa eraldi.</span><span class="sxs-lookup"><span data-stu-id="b77b9-127">If individual sections of the workspace have filters, you can filter each section separately.</span></span> <span data-ttu-id="b77b9-128">Järgmisel joonisel on filter (väli, millel on tekst Filter) vabas vormis tekstivälja filtri näidis.</span><span class="sxs-lookup"><span data-stu-id="b77b9-128">In the following illustration, the filter (the field that contains the text "Filter") is an example of a free-form text field filter.</span></span>
 
-<span data-ttu-id="b77b9-129">[![tööruumi-osa-filtrid](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-129">[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span></span> 
+<span data-ttu-id="b77b9-129">[![tööruumi-osa-filtrid](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span><span class="sxs-lookup"><span data-stu-id="b77b9-129">[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span></span>
 
 <span data-ttu-id="b77b9-130">Nagu tööruumiülese filtri puhul, saate valida või sisestada väljale väärtuse, et selle osa sisu filtreerida.</span><span class="sxs-lookup"><span data-stu-id="b77b9-130">As with a workspace-wide filter, select or enter a value in the field to filter the contents of the section.</span></span>
-
-
-
 
