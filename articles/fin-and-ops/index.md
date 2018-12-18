@@ -51,7 +51,7 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekti kasutuselevõtt</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Ettevalmistamine süsteemi Go-Live jaoks</a></p>
-  
+
 <h3><a href="../financials/index.md">Finantshaldus</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Ostureskontro</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Müügireskontro</a></p>
@@ -65,7 +65,7 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 <p><a href="../financials/public-sector/public-sector-functionality.md">Avalik sektor</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regionaalsed regulatiivsed funktsioonid</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Inimressursid</a></h3>
+<h3><a href="hr/hr-landing-page.md">Inimressursid</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Soodustused</a></p>
 <p><a href="../talent/performance-management-overview.md">Töövõtja areng ja koolitused</a></p>
 <p><a href="../talent/questionnaires.md">Küsimustik</a></p>

@@ -34,11 +34,13 @@ Teatised moodustavad kriitiliste sündmuste teadete süsteemi rakenduses Microso
 Ettevõtte ressursiplaanimises (ERP) on toodud mitmesuguseid tavapäraseid stsenaariumeid, mille puhul teatiste funktsiooni rakenduses Finance and Operations kasutada saab. Järgmisena on toodud mõned näited.
 
 ### <a name="scenario-1-create-an-alert-rule-for-new-sales-orders"></a>Stsenaarium 1: teatisereegli loomine uute müügitellimuste jaoks
+
 1. Avage leht **Kõik müügitellimused**.
 2. Valige toimingupaani vahekaardil **Suvandid** rühmas **Anna ühiskasutusse** valik **Loo kohandatud teatis**.
 3. Valige dialoogiboksi **Loo teatisereegel** kiirkaardi **Teavita mind, kui** väljalt **Sündmus** suvand **On loodud uus kirje**.
 
 ### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a>Stsenaarium 2: teatise loomine tarnekuupäeva edasilükkumise kohta
+
 1. Avage leht **Kõik ostutellimused**.
 2. Ostutellimus üksikasjade vaatamiseks valige ostutellimuse ID.
 3. Laiendage kiirkaarti **Ostutellimuse päis**.
@@ -49,6 +51,7 @@ Ettevõtte ressursiplaanimises (ERP) on toodud mitmesuguseid tavapäraseid stsen
 Pärast dialoogiboksi **Loo teatisereegel** sulgemist kuvatakse teie reegel lehel **Halda teatisereegleid**. Lehte **Halda teatisereegleid** saab kasutada olemasolevate teatisereeglite värskendamiseks. Näiteks saab muuta sündmuse käivitajaid, värskendada sündmuse teatiseid ja aegumiskuupäevi. Lehe **Halda teatisereegleid** avamiseks kasutage toimingupaani vahekaardi **Suvandid** nuppu **Teavita mind**.
 
 ## <a name="what-occurs-when-an-alert-rule-is-created"></a>Mis toimub teatisereegli loomisel?
+
 Teatisereeglite loomisel saate eelmääratletud sündmuse konkreetse väljaga seostada. Näiteks, kui väljal määratud kuupäev saabub või välja sisu muutub. Teise võimalusena saate sündmuse seostada kindlal leheküljel olevate kirjetega. Näiteks kirje loomisel või kustutamisel.
 
 Kui valitud sündmus toimub välja puhul või lehel oleva kirje puhul, saadetakse teile teatis. Näiteks loote reegli, mille konkreetse ostutellimuse rea välja **Tarnekuupäev** seostate sündmusega **tähtajast on möödas**. Määrate ajavahemikuks viis päeva. Sel juhul saadetakse teatis viis päeva pärast ostutellimuse rea tarnekuupäeva.
@@ -56,9 +59,11 @@ Kui valitud sündmus toimub välja puhul või lehel oleva kirje puhul, saadetaks
 Lisaks saate teatisereegleid tingimuste seadistamisega täpsustada. Näiteks võite saada teatiseid konkreetse hankija kontode jaoks loodud uute ostutellimuste kohta.
 
 ## <a name="preparing-for-an-alert"></a>Teatise ettevalmistamine
+
 Enne teatisreegli loomist otsustage, millal või milliste olukordades te teatisi saada soovite. Teades, millise sündmuse kohta te teatist soovite, saate otsida rakenduses Finance and Operations lehe, millel kuvatakse teatist käivitava sündmuse andmed. Sündmuseks võib olla saabuv kuupäev või teatud toimuv muudatus. Seega peate leidma lehe, kus kuvatakse kas määratud kuupäev, muudetud väli või uus loodud kirje. Alles seda teades saate luua teatisereegli.
 
 ## <a name="components-of-an-alert-rule"></a>Teatisereegli osad
+
 Teatisereegel koosneb viiest osast.
 
 - **Sündmus** – teatisereeglit käivitav sündmus saab olla kas saabuv kuupäev või teatud toimuv muudatus. Sündmused saate määrata dialoogiboksi **Loo teatise reegel** kiirkaardil **Töö oleku muudatuste kohta meiliteatiste saatmine**.
@@ -71,5 +76,6 @@ Teatisereegel koosneb viiest osast.
     > See valik on piiratud organisatsiooni administraatoritele.
 
 ## <a name="email-notifications-from-alerts"></a>Teadete meiliteatised
+
 Teadete meiliteatised pole veel lubatud. See lubatakse tulevases värskenduses.
 

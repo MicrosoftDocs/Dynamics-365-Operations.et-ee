@@ -31,28 +31,29 @@ ms.lasthandoff: 08/08/2018
 
 Teema kirjeldab Microsoft Dynamics 365 for Finance and Operationsi töövoo süsteemi.
 
-<a name="what-is-workflow"></a>Mis on töövoog?
------------------
+## <a name="what-is-workflow"></a>Mis on töövoog?
 
 Mõiste *töövoo* saab määratleda kahel viisil: süsteemi ja äriprotsessi.
+
 ### <a name="workflow-is-a-system"></a>Töövoog on süsteem
 
 Töövoog on koos Dynamics 365 for Finance and Operationsiga installitud süsteem, mis töötab rakendusobjekti serveril (AOS-il). Töövoo süsteemil on funktsioone, millega saate luua eraldi töövooge või äriprotsesse.
 
 ### <a name="workflow-is-a-business-process"></a>Töövoog on äriprotsess
 
-Töövoog esindab äriprotsessi. See määratleb, kuidas dokument voogab või liigub läbi süsteemi, näidates, kes peab täitma ülesannet, otsuse või dokumendi kinnitamiseks. Alltoodud joonisel kujutatakse kuluaruannete töövoogu. 
+Töövoog esindab äriprotsessi. See määratleb, kuidas dokument voogab või liigub läbi süsteemi, näidates, kes peab täitma ülesannet, otsuse või dokumendi kinnitamiseks. Alltoodud joonisel kujutatakse kuluaruannete töövoogu.
 
-![Kasutajatele määratud elementidega töövoog](./media/workflow_user.gif) 
+![Kasutajatele määratud elementidega töövoog](./media/workflow_user.gif)
 
 Selle töövoo paremaks mõistmiseks oletame, et Sam esitab kuluaruande summale 7000 USA dollarit. Selle stsenaariumi kohaselt on Ivani ülesanne Sami lähetatud sissetulekud üle vaadata. Seejärel peavad Frank ja Sue kuluaruande kinnitama. Oletame nüüd, et Sam esitab kuluaruande summas 11 000 USA dollarit. Selles stsenaariumis peab Ivan tšekid üle vaatama ning Frank, Sue ja Ann peavad kuluaruande kinnitama.
 
 ## <a name="benefits-of-using-the-workflow-system"></a> Töövoo süsteemi kasutamise eelised
 
 Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
--   **Järjepidevad protsessid** – töövoo süsteem lubab teil määratleda, kuidas kindlaid dokumente, näiteks ostutaotlused ja kuluaruanded, töödeldakse. Töövoo süsteemi abil tagate, et dokumente töödeldakse ja kinnitatakse ühtemoodi ja efektiivselt.
--   **Protsessi nähtavus** – töövoo süsteem lubab teil jälgida kindlate töövoo eksemplaride olekut ja ajalugu. See aitab teil määratleda, kas töövoos tuleks muudatusi tõhususe parandamiseks.
--   **Koondatud tööde loend** – kasutajad saavad vaadata koondatud tööde loendit, et näha neile määratud töövoo ülesandeid ja kinnitusi.
+
+- **Järjepidevad protsessid** – töövoo süsteem lubab teil määratleda, kuidas kindlaid dokumente, näiteks ostutaotlused ja kuluaruanded, töödeldakse. Töövoo süsteemi abil tagate, et dokumente töödeldakse ja kinnitatakse ühtemoodi ja efektiivselt.
+- **Protsessi nähtavus** – töövoo süsteem lubab teil jälgida kindlate töövoo eksemplaride olekut ja ajalugu. See aitab teil määratleda, kas töövoos tuleks muudatusi tõhususe parandamiseks.
+- **Koondatud tööde loend** – kasutajad saavad vaadata koondatud tööde loendit, et näha neile määratud töövoo ülesandeid ja kinnitusi.
 
 
 ## <a name="workflow-content"></a>Töövoo sisu
