@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 84d0eda16b4f3d8570d3594a06e6ddb7eb4717c9
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
 ms.contentlocale: et-ee
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -35,15 +35,13 @@ ms.lasthandoff: 09/11/2018
 
 <span data-ttu-id="7b007-105">Kasutajad saavad Microsoft Dynamics 365 for Retaili osana uurida müügitrende ja -mustreid reaalajas organisatsiooni hierarhia erinevatel tasanditel aastate perioodil, kasutades valmisaruannet **Kanali müük aastate alusel**.</span><span class="sxs-lookup"><span data-stu-id="7b007-105">As part of Dynamics 365 for Retail, users can study sales trends and patterns in real time across different levels of the organization hierarchy over a period of years by using the out-of-box **Channel sales by year** report.</span></span> <span data-ttu-id="7b007-106">Selle aruande saab avada järgmistest asukohtadest.</span><span class="sxs-lookup"><span data-stu-id="7b007-106">You can open this report from any of the following locations:</span></span>
 
--   <span data-ttu-id="7b007-107">Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
--   <span data-ttu-id="7b007-108">Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
--   <span data-ttu-id="7b007-109">Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne aastate alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="7b007-107">Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="7b007-108">Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="7b007-109">Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne aastate alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
 
 <span data-ttu-id="7b007-110">Kasutajad saavad uurida ka müügitrende ja -mustreid tundide kaupa organisatsiooni hierarhia erinevatel tasanditel valitud perioodil, kasutades valmisaruannet **Kanali müük tundide alusel**.</span><span class="sxs-lookup"><span data-stu-id="7b007-110">Users can also study sales trends and patterns by hour across different levels of the organization hierarchy over a selected period by using the out-of-box **Channel sales by hour** report.</span></span> <span data-ttu-id="7b007-111">Selle aruande saab avada järgmistest asukohtadest.</span><span class="sxs-lookup"><span data-stu-id="7b007-111">You can open this report from any of the following locations:</span></span>
 
--   <span data-ttu-id="7b007-112">Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
--   <span data-ttu-id="7b007-113">Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
--   <span data-ttu-id="7b007-114">Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne tundide alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>
-
-
+- <span data-ttu-id="7b007-112">Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+- <span data-ttu-id="7b007-113">Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+- <span data-ttu-id="7b007-114">Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne tundide alusel**</span><span class="sxs-lookup"><span data-stu-id="7b007-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>
 

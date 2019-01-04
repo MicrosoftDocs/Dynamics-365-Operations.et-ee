@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![Kassa ekraanipaigutuse olemid](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="367fd-108">Visuaalne profiil</span><span class="sxs-lookup"><span data-stu-id="367fd-108">Visual profile</span></span>
+
 <span data-ttu-id="367fd-109">Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vahel jagatavad registripõhised visuaalsed elemendid.</span><span class="sxs-lookup"><span data-stu-id="367fd-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="367fd-110">Iga kasutaja, kes registrisse sisse logib, näeb sama kujundust, värve ja pilte.</span><span class="sxs-lookup"><span data-stu-id="367fd-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![Kassa tervituskuva heleda kujundusega](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="367fd-123">**Rakenduse taust** – saate määrata taustpildi, mida kasutatakse kogu rakenduses ühevärvilise kujunduse asemel.</span><span class="sxs-lookup"><span data-stu-id="367fd-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="367fd-124">Sisselogimise taustade failid peaksid olema võimalikult väikesed.</span><span class="sxs-lookup"><span data-stu-id="367fd-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="367fd-125">Ekraani paigutused</span><span class="sxs-lookup"><span data-stu-id="367fd-125">Screen layouts</span></span>
+
 <span data-ttu-id="367fd-126">Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu ja paigutuse kassa tervitusekraanil ning ekraanil **Kanne**.</span><span class="sxs-lookup"><span data-stu-id="367fd-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![Kassa ekraanipaigutus](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![Kassa paigutuse suurused](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="367fd-163">Nupupaneelid</span><span class="sxs-lookup"><span data-stu-id="367fd-163">Button grids</span></span>
+
 <span data-ttu-id="367fd-164">Iga paigutuse suuruse korral ekraani paigutuses saate kassa tervituskuva ja ekraani **Kanne** jaoks konfigureerida ja määrata nupupaneele.</span><span class="sxs-lookup"><span data-stu-id="367fd-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="367fd-165">Tervituskuva nupupaneelid paigutatakse automaatselt vasakult paremale, väikseimast numbrist (tervituskuva 1) suurima numbrini.</span><span class="sxs-lookup"><span data-stu-id="367fd-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="367fd-166">Kassa täispaigutustes on nupupaneelide paigutus määratletud ekraani paigutuse kujundajas.</span><span class="sxs-lookup"><span data-stu-id="367fd-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![Kompaktse paigutuse nupupaneelid](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="367fd-170">Pildid</span><span class="sxs-lookup"><span data-stu-id="367fd-170">Images</span></span>
+
 <span data-ttu-id="367fd-171">Saate iga paigutuse suuruse jaoks ekraani paigutuses määrata pildid, mis kaasata kassa kasutajaliideses.</span><span class="sxs-lookup"><span data-stu-id="367fd-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="367fd-172">Kassa täispaigutuste korral saab tervituskuva jaoks määrata ühe pildi.</span><span class="sxs-lookup"><span data-stu-id="367fd-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="367fd-173">See pilt kuvatakse kasutajaliidese esimese elemendina vasakul.</span><span class="sxs-lookup"><span data-stu-id="367fd-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="367fd-174">Ekraanil **Kanne** saab pilte kasutada vahekaardi piltide või logona.</span><span class="sxs-lookup"><span data-stu-id="367fd-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="367fd-175">Kompaktsetes kassa paigutustes ei kasutata neid pilte.</span><span class="sxs-lookup"><span data-stu-id="367fd-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="367fd-176">Ekraani paigutuse kujundaja</span><span class="sxs-lookup"><span data-stu-id="367fd-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="367fd-222">**Kohandatud juhtelement**– kohandatud juhtelement toimib ekraanipaigutuses kohatäitena ja võimaldab teil kohandatud sisu jaoks ruumi reserveerida.</span><span class="sxs-lookup"><span data-stu-id="367fd-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="367fd-223">Kohandatud juhtelement on saadaval ainult täispaigutuste puhul.</span><span class="sxs-lookup"><span data-stu-id="367fd-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="367fd-224">Kompaktse paigutuse kujundaja</span><span class="sxs-lookup"><span data-stu-id="367fd-224">Compact layout designer</span></span>
+
 <span data-ttu-id="367fd-225">Kompaktse paigutuse kujundaja võimaldab teil sarnaselt täispaigutuse kujundajale konfigureerida kassaekraani paigutust telefonide ja väikeste tahvelarvutite jaoks.</span><span class="sxs-lookup"><span data-stu-id="367fd-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="367fd-226">Kuid sellisel juhul on paigutus fikseeritud.</span><span class="sxs-lookup"><span data-stu-id="367fd-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="367fd-227">Saate paigutuse juhtelemente konfigureerida paremklõpsates ja kasutades kiirmenüüd.</span><span class="sxs-lookup"><span data-stu-id="367fd-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="367fd-228">Kuid te ei saa täiendavat sisu hiirega pukseerida.</span><span class="sxs-lookup"><span data-stu-id="367fd-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![Kompaktse paigutuse kujundaja](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="367fd-230">Nupupaneeli kujundaja</span><span class="sxs-lookup"><span data-stu-id="367fd-230">Button grid designer</span></span>
+
 <span data-ttu-id="367fd-231">Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatakse nii täis- kui ka kompaktses paigutuses kassa tervituskuval ja ekraanil **Kanne**.</span><span class="sxs-lookup"><span data-stu-id="367fd-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="367fd-232">Sama nupupaneeli saab kasutada kõigis paigutustes ja paigutuse tüüpides.</span><span class="sxs-lookup"><span data-stu-id="367fd-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="367fd-233">Nupupaneeli kujundaja kasutab sarnaselt ekraanipaigutuse kujundajale juurutuse tehnoloogiat ClickOnce rakenduse uusima versiooni allalaadimiseks, installimiseks ja käivitamiseks iga kord, kui kasutaja sellele juurde pääseb.</span><span class="sxs-lookup"><span data-stu-id="367fd-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="367fd-234">Kontrollige brauseri nõudeid ClickOnce'i jaoks.</span><span class="sxs-lookup"><span data-stu-id="367fd-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="367fd-235">Mõned brauserid, nagu Google Chrome, vajavad laiendusi.</span><span class="sxs-lookup"><span data-stu-id="367fd-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![Nupupaneeli kujundaja](../retail/media/Button-Grid-Designer.png)

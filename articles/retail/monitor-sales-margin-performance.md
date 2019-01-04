@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 13e99ba3a706d49affa4fd8d0f63b7c2f51b24bc
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
 ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -35,21 +35,19 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="1b6a7-105">Microsoft Dynamics 365 for Retaili osana saavad kasutajad jälgida müügi ja marginaali toimimist reaalajas organisatsiooni hierarhia erinevate tasandite lõikes järgmiste dimensioonide puhul.</span><span class="sxs-lookup"><span data-stu-id="1b6a7-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
--   <span data-ttu-id="1b6a7-106">Tooted</span><span class="sxs-lookup"><span data-stu-id="1b6a7-106">Products</span></span>
--   <span data-ttu-id="1b6a7-107">Kategooriad</span><span class="sxs-lookup"><span data-stu-id="1b6a7-107">Categories</span></span>
--   <span data-ttu-id="1b6a7-108">Allahindlused</span><span class="sxs-lookup"><span data-stu-id="1b6a7-108">Discounts</span></span>
--   <span data-ttu-id="1b6a7-109">Aastad ajavahemikuna</span><span class="sxs-lookup"><span data-stu-id="1b6a7-109">Years as time period</span></span>
--   <span data-ttu-id="1b6a7-110">Registrid/terminalid</span><span class="sxs-lookup"><span data-stu-id="1b6a7-110">Registers/terminals</span></span>
--   <span data-ttu-id="1b6a7-111">Personal/töötajad</span><span class="sxs-lookup"><span data-stu-id="1b6a7-111">Staff/employees</span></span>
--   <span data-ttu-id="1b6a7-112">Kliendid</span><span class="sxs-lookup"><span data-stu-id="1b6a7-112">Customers</span></span>
--   <span data-ttu-id="1b6a7-113">Tootmisüksused</span><span class="sxs-lookup"><span data-stu-id="1b6a7-113">Operating units</span></span>
+- <span data-ttu-id="1b6a7-106">Tooted</span><span class="sxs-lookup"><span data-stu-id="1b6a7-106">Products</span></span>
+- <span data-ttu-id="1b6a7-107">Kategooriad</span><span class="sxs-lookup"><span data-stu-id="1b6a7-107">Categories</span></span>
+- <span data-ttu-id="1b6a7-108">Allahindlused</span><span class="sxs-lookup"><span data-stu-id="1b6a7-108">Discounts</span></span>
+- <span data-ttu-id="1b6a7-109">Aastad ajavahemikuna</span><span class="sxs-lookup"><span data-stu-id="1b6a7-109">Years as time period</span></span>
+- <span data-ttu-id="1b6a7-110">Registrid/terminalid</span><span class="sxs-lookup"><span data-stu-id="1b6a7-110">Registers/terminals</span></span>
+- <span data-ttu-id="1b6a7-111">Personal/töötajad</span><span class="sxs-lookup"><span data-stu-id="1b6a7-111">Staff/employees</span></span>
+- <span data-ttu-id="1b6a7-112">Kliendid</span><span class="sxs-lookup"><span data-stu-id="1b6a7-112">Customers</span></span>
+- <span data-ttu-id="1b6a7-113">Tootmisüksused</span><span class="sxs-lookup"><span data-stu-id="1b6a7-113">Operating units</span></span>
 
 <span data-ttu-id="1b6a7-114">Lisaks võimaldavad kaks ainulaadset aruannet, milles kasutatakse hierarhilist ruudustikustruktuuri, kasutajatel jälgida müügi ja marginaali toimimist, minnes ülemisest kategooriasõlmest süvitsi eraldi kategooria lehe sõlmede juurde jaetoote vaike-kategooriahierarhias.</span><span class="sxs-lookup"><span data-stu-id="1b6a7-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="1b6a7-115">Kasutajad saavad minna ka ülemisest tootmisüksusest süvitsi organisatsioonihierarhia eraldi kanalisse, mis on määratletud organisatsiooni vaikehierarhiaks jaemüügi aruandlushierarhia tähenduses.</span><span class="sxs-lookup"><span data-stu-id="1b6a7-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="1b6a7-116">Aruanded saab avada järgmistest asukohtadest.</span><span class="sxs-lookup"><span data-stu-id="1b6a7-116">You can open the reports from any of the following locations:</span></span>
 
--   <span data-ttu-id="1b6a7-117">Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded**</span><span class="sxs-lookup"><span data-stu-id="1b6a7-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="1b6a7-118">Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded**</span><span class="sxs-lookup"><span data-stu-id="1b6a7-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="1b6a7-119">Tööruum **Hinnakujunduse ja allahindluste haldamine** &gt; **Jaemüük** &gt; **Hinnad ja allahindlused** &gt; **Jaekaupluse haldus** &gt; **Aruanded**</span><span class="sxs-lookup"><span data-stu-id="1b6a7-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="1b6a7-120">Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded**</span><span class="sxs-lookup"><span data-stu-id="1b6a7-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
-
-
+- <span data-ttu-id="1b6a7-117">Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded**</span><span class="sxs-lookup"><span data-stu-id="1b6a7-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="1b6a7-118">Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded**</span><span class="sxs-lookup"><span data-stu-id="1b6a7-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="1b6a7-119">Tööruum **Hinnakujunduse ja allahindluste haldamine** &gt; **Jaemüük** &gt; **Hinnad ja allahindlused** &gt; **Jaekaupluse haldus** &gt; **Aruanded**</span><span class="sxs-lookup"><span data-stu-id="1b6a7-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="1b6a7-120">Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded**</span><span class="sxs-lookup"><span data-stu-id="1b6a7-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
 

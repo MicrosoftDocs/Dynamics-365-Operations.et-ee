@@ -19,10 +19,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 08/08/2018
 - <span data-ttu-id="e6aac-145">Nüüd saavad jaemüüjad konfigureerida tooteotsingu nii, et kui kasutajad tootenimesid tipivad, siis kuvatakse otsingusoovitused.</span><span class="sxs-lookup"><span data-stu-id="e6aac-145">Retailers can now configure product search to show search suggestions as users type product names.</span></span> <span data-ttu-id="e6aac-146">Selle funktsiooni uus säte on saadaval kassa funktsiooniprofiilis grupis, mille nimi on **Tooteotsing**.</span><span class="sxs-lookup"><span data-stu-id="e6aac-146">A new setting for this functionality is available in the POS functionality profile, in a group that is named **Product search**.</span></span> <span data-ttu-id="e6aac-147">Sätte nimi on **Näita tippimise ajal otsingusoovitusi**.</span><span class="sxs-lookup"><span data-stu-id="e6aac-147">The setting is named **Show search suggestions while typing**.</span></span> <span data-ttu-id="e6aac-148">See funktsioon aitab töötajatel otsitavat toodet kiiresti leida, kuna nad ei pea kogu nime käsitsi tippima.</span><span class="sxs-lookup"><span data-stu-id="e6aac-148">This functionality can help employees quickly find the product that they are searching for, because they don't have to type the whole name manually.</span></span>
 - <span data-ttu-id="e6aac-149">Tooteotsingu algoritm otsib nüüd otsitud sõnu toote atribuudist **Otsingunimi**.</span><span class="sxs-lookup"><span data-stu-id="e6aac-149">The product search algorithm now also searches for the searched terms in the **Search name** property of the product.</span></span>
 
-<span data-ttu-id="e6aac-150">![Tootesoovitused](./media/Productsuggestions.png "Tootesoovitused")</span><span class="sxs-lookup"><span data-stu-id="e6aac-150">![Product suggestions](./media/Productsuggestions.png "Product suggestions")</span></span>
+    <span data-ttu-id="e6aac-150">![Tootesoovitused](./media/Productsuggestions.png "Tootesoovitused")</span><span class="sxs-lookup"><span data-stu-id="e6aac-150">![Product suggestions](./media/Productsuggestions.png "Product suggestions")</span></span>
 
 ## <a name="customer-search"></a><span data-ttu-id="e6aac-151">Kliendi otsing</span><span class="sxs-lookup"><span data-stu-id="e6aac-151">Customer search</span></span>
 
