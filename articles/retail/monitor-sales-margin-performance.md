@@ -35,21 +35,19 @@ Saate Dynamics Microsoft Dynamics 365 for Retaili abil reaalajas müügi ja marg
 
 Microsoft Dynamics 365 for Retaili osana saavad kasutajad jälgida müügi ja marginaali toimimist reaalajas organisatsiooni hierarhia erinevate tasandite lõikes järgmiste dimensioonide puhul.
 
--   Tooted
--   Kategooriad
--   Allahindlused
--   Aastad ajavahemikuna
--   Registrid/terminalid
--   Personal/töötajad
--   Kliendid
--   Tootmisüksused
+- Tooted
+- Kategooriad
+- Allahindlused
+- Aastad ajavahemikuna
+- Registrid/terminalid
+- Personal/töötajad
+- Kliendid
+- Tootmisüksused
 
 Lisaks võimaldavad kaks ainulaadset aruannet, milles kasutatakse hierarhilist ruudustikustruktuuri, kasutajatel jälgida müügi ja marginaali toimimist, minnes ülemisest kategooriasõlmest süvitsi eraldi kategooria lehe sõlmede juurde jaetoote vaike-kategooriahierarhias. Kasutajad saavad minna ka ülemisest tootmisüksusest süvitsi organisatsioonihierarhia eraldi kanalisse, mis on määratletud organisatsiooni vaikehierarhiaks jaemüügi aruandlushierarhia tähenduses. Aruanded saab avada järgmistest asukohtadest.
 
--   Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
--   Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
--   Tööruum **Hinnakujunduse ja allahindluste haldamine** &gt; **Jaemüük** &gt; **Hinnad ja allahindlused** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
--   Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded**
-
-
+- Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
+- Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
+- Tööruum **Hinnakujunduse ja allahindluste haldamine** &gt; **Jaemüük** &gt; **Hinnad ja allahindlused** &gt; **Jaekaupluse haldus** &gt; **Aruanded**
+- Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded**
 

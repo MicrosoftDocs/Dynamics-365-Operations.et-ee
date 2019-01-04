@@ -42,25 +42,30 @@ Lisaks tellimuste loomise toele pakub kõnekeskuse moodul kasutajasõbralikku kl
 Sellelt leheküljelt leiate lingid asjakohasele Dynamics 365 for Retaili kõnekeskuse seadistuse, konfiguratsiooni ja kasutamise dokumentatsioonile.
 
 ## <a name="configure-the-call-center"></a>Kõnekeskuse konfigureerimine
+
 [Tellimuse töötlemise suvandite seadistamine](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Tellimuse töötlemise konfigureerimine
+
 [Pettuseteatiste seadistamine](set-up-fraud-alerts.md)
 
 [Tellimuste ooteloleku haldamine](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Makse töötlemise konfigureerimine
+
 [Makseviisid kõnekeskuses](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Tarneviiside konfigureerimine
+
 [Kõnekeskuse tarneviiside ja -tasude konfigureerimine](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Otseturustamise konfigureerimine
+
 [Kõnekeskuse kataloogid](call-center-catalogs.md)
 
 [RFM-analüüsi seadistamine](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Järjepidevusprogrammide konfigureerimine
-[Kõnekeskuse järjepidevusprogrammi seadistamine](set-up-continuity-program.md)
 
+[Kõnekeskuse järjepidevusprogrammi seadistamine](set-up-continuity-program.md)
 

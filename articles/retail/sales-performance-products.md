@@ -31,20 +31,18 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Saate uurida Microsoft Dynamics 365 for Retaili abil 10 parima toote kasumlikkust. 
+Saate uurida Microsoft Dynamics 365 for Retaili abil 10 parima toote kasumlikkust.
 
 Microsoft Dynamics 365 for Retaili osana saavad kasutajad analüüsida ka parimate toodete (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe järgmise kriteeriumi põhjal.
 
--   Müügisumma
--   Kogus
--   Kogutulu marginaal
--   Marginaali protsent
+- Müügisumma
+- Kogus
+- Kogutulu marginaal
+- Marginaali protsent
 
 Selle hinnangu jaoks saate kasutada **peamiste toodete** valmisaruandeid, mille saate avada ühest järgmistest asukohtadest:
 
--   Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
--   Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
--   Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Peamiste toodete aruanne**
-
-
+- Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
+- Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
+- Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Peamiste toodete aruanne**
 

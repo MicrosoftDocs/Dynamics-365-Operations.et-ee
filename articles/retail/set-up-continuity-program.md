@@ -35,23 +35,20 @@ Selles artiklis kirjeldatakse, kuidas seadistada kõnekeskuse järjepidevusprogr
 
 Järjepidevusprogrammis, mida nimetatakse ka korduva tellimuse programmiks, saavad kliendid korrapäraselt tootesaadetisi eelmääratletud graafiku alusel. Iga saadetis võib sisaldada erinevaid tooteid, nagu raamatuklubi kuu parima raamatu saatmisel, või saadetakse sama toodet korduvalt. Järjepidevusprogrammi seadistamiseks täitke järgmised ülesanded.
 
-1.  Seadistage järjepidevuse parameetrid lehel **Kõnekeskuse parameetrid**.
-2.  Looge järjepidevusprogramm, mis määrab sellised andmed, nagu maksegraafik, saadetiste ajastus ja käsirahaga arveldus. Samuti peate lisama järjepidevusprogrammi kaasatud toodete loendi. Iga toode saab sündmuse ID-koodi, mis määratakse järjestikuselt, alustades arvuga 1. Sündmuse ID-d määravad järjestuse, milles tooteid saadetakse.
-    -   Kui kliendid saavad iga saadetisega erineva toote, saadetakse tooted järjest nende sündmuse ID alusel, alustades praegusest sündmusest.
-    -   Kui kliendid saavad iga saadetisega sama toote, sisaldab loend ainult üht toodet ühe sündmuse ID-ga. Sama sündmus ilmneb korduvalt. Saate määrata, mitu korda iga sündmust korratakse.
+1. Seadistage järjepidevuse parameetrid lehel **Kõnekeskuse parameetrid**.
+2. Looge järjepidevusprogramm, mis määrab sellised andmed, nagu maksegraafik, saadetiste ajastus ja käsirahaga arveldus. Samuti peate lisama järjepidevusprogrammi kaasatud toodete loendi. Iga toode saab sündmuse ID-koodi, mis määratakse järjestikuselt, alustades arvuga 1. Sündmuse ID-d määravad järjestuse, milles tooteid saadetakse.
 
-3.  Looge ematoode, mis tähistab ülesandes 2 loodud järjepidevusprogrammi. Kui lisate selle toote müügitellimusele, avaneb leht **Järjepidevus**. Seejärel saate kasutada seda lehte tegeliku järjepideva tellimuse loomiseks. Ematoode ei määra üksikuid tooteid, mida klient iga saadetisega saab.
+    - Kui kliendid saavad iga saadetisega erineva toote, saadetakse tooted järjest nende sündmuse ID alusel, alustades praegusest sündmusest.
+    - Kui kliendid saavad iga saadetisega sama toote, sisaldab loend ainult üht toodet ühe sündmuse ID-ga. Sama sündmus ilmneb korduvalt. Saate määrata, mitu korda iga sündmust korratakse.
+
+3. Looge ematoode, mis tähistab ülesandes 2 loodud järjepidevusprogrammi. Kui lisate selle toote müügitellimusele, avaneb leht **Järjepidevus**. Seejärel saate kasutada seda lehte tegeliku järjepideva tellimuse loomiseks. Ematoode ei määra üksikuid tooteid, mida klient iga saadetisega saab.
 
 Kui olete järjepidevusprogrammi seadistanud, nagu eespool kirjeldatud, saate kliendile luua järjepideva tellimuse. Teil võib olla vaja teha ka järgmisi lisahaldustoiminguid.
 
--   **Järjepidevuse praeguse sündmuse perioodi värskendus** – seadistage pakett-töö, mis ütleb süsteemile, milline on praegune sündmuse periood.
--   **Järjepidevuse tütartellimuste loomine** – looge järjepidevuse ematellimusest tütartellimused.
--   **Järjepidevuse maksete töötlemine** – töödelge arveldust ja teatisi järjepidevuse müügitellimustega seostatud maksete kohta.
--   **Järjepidevuse ridade pikendamine** (vajaduse korral) – pikendage nii mitu korda, kui järjepidevat sündmust saab korrata. Saadetiste kordamine võib siis ületada kõnekeskuse parameetrite väljal **Järjepidevuse kordumise lävi** seadistatud limiidi.
--   **Järjepidevuse värskendamine** (vajaduse korral) – sünkroonige muudatusi järjepidevusprogrammi ja järjepidevuse emamüügitellimuste vahel.
--   **Järjepidevuse põhiridade ja tellimuste sulgemine** – sulgege järjepidevad tellimused.
-
-
-
-
+- **Järjepidevuse praeguse sündmuse perioodi värskendus** – seadistage pakett-töö, mis ütleb süsteemile, milline on praegune sündmuse periood.
+- **Järjepidevuse tütartellimuste loomine** – looge järjepidevuse ematellimusest tütartellimused.
+- **Järjepidevuse maksete töötlemine** – töödelge arveldust ja teatisi järjepidevuse müügitellimustega seostatud maksete kohta.
+- **Järjepidevuse ridade pikendamine** (vajaduse korral) – pikendage nii mitu korda, kui järjepidevat sündmust saab korrata. Saadetiste kordamine võib siis ületada kõnekeskuse parameetrite väljal **Järjepidevuse kordumise lävi** seadistatud limiidi.
+- **Järjepidevuse värskendamine** (vajaduse korral) – sünkroonige muudatusi järjepidevusprogrammi ja järjepidevuse emamüügitellimuste vahel.
+- **Järjepidevuse põhiridade ja tellimuste sulgemine** – sulgege järjepidevad tellimused.
 

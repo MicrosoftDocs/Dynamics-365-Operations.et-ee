@@ -36,6 +36,7 @@ Müügitellimuse loomisel saate valida tarneviisi müügitellimuse päisest ja m
 Rakendusel Microsoft Dynamics 365 for Retail on funktsioonid, mis võimaldavad kasutajatel piirata kanali kasutatavaid tarneviise, toote jaoks kasutatavaid tarneviise ja tarneviise, mis on sobivad vaid teatud tarne sihtkohtade jaoks. Tasusid saab määrata ka nii, et lisatasud lisatakse kliendi tellimusele olenevalt müügitellimuse jaoks valitud tarneviisidest ja tellimuse koguväärtusest.
 
 ## <a name="define-delivery-modes"></a>Tarneviiside määratlemine
+
 Enne kui saate määratleda, milliseid tarneviise saab kõnekeskuse tellimuste jaoks kasutada, ja sätestada seotud reegleid ning tasusid, peate määratlema tarneviisid. Valige **Müük ja turundus \> Seadistamine \> Jaotus \> Tarneviisid**. Klõpsake valikut **Uus**, et luua uus tarneviis. Teine võimalus on valida loendist olemasolev tarneviis ja seejärel klõpsata käsku **Redigeeri**, et teha muutusi.
 
 Väljale **Tarneviis** saate sisestada mis tahes tähe-või numbrimärkide kombinatsiooni teie ettevõtte nõuete kohaselt. Seejärel saate kasutada välja **Kirjeldus**, et sisestada täiendavat teavet. Väljad **Tasugrupp** ja **Kiirsaadetis** on valikulised ning neid kirjeldatakse hiljem selles teemas üksikasjalikult.
@@ -47,11 +48,13 @@ Kiirkaardil **Tooted** saate määrata, milliste toodete ja/või tootekategooria
 Kiirkaardil **Aadressid** saate määrata, milliste riikide, piirkondade või haldusüksuste jaoks saab või ei saa tarneviisi kasutada. Näiteks ei saa Hawaiile või Alaskale tarnitavate tellimuste puhul kasutada maatransporti. Seetõttu tuleb need osariigid välistada tarneviiside jaoks, milles kasutatakse maatransporti, kuid tuleb hõlmata tarneviiside jaoks, mis kasutavad õhutransporti.
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Tarneviiside kinnitamine kõnekeskuse tellimuse jaoks
+
 Pärast tarneviiside määratlemist peate käivitama pakett-töö **Tarneviiside töötlus**. See töö muudab tarneviisid saadavaks, nii et neid saab kasutada jaemüügikanalite müügitellimuste vormistamisel. Töö **Tarneviiside töötlus** käivitamiseks valige **Jaemüük \> Jaemüügi IT \> Tarneviiside töötlus**. See töö tuleb käivitada iga kord, kui jaemüügikanalile lisatakse uus tarneviis või muudetakse olemasolevaid tarneviiside/-kanalite seoseid.
 
 Pärast pakett-töö **Tarneviiside töötlus** on lõpetanud, valige **Jaemüük \> Kanalid \> Kõnekeskused \> Kõik kõnekeskused**. Valige lehe **Kõik kõnekeskused** tegumiriba vahekaardil **Häälestamine** suvand **Tarneviisid**. Lehel **Tarneviisid** loetletakse kõik kehtivad tarneviisid valitud kõnekeskuse kanali jaoks. Olemasolevate tarneviiside redigeerimiseks või uute tarneviiside lisamiseks valige **Tarneviiside haldamine**. Pidage meeles, et töö **Tarneviiside töötlus** tuleb käivitada iga kord, kui on tehtud muudatusi.
 
 ## <a name="define-charges-for-delivery-services"></a>Tarneteenuste tasude määratlemine
+
 Ettevõte võib soovida, et klientide müügitellimustele lisatakse vormistamisel tasud, mida arvutatakse tellimuse jaoks valitud tarneviisi põhjal automaatselt. Neid tasusid saab konfigureerida nii, et need oleksid ühesugused kõikide klientide ja tarneviiside jaoks. Või vastupidi – tasud võivad erineda olenevalt kliendist ja/või müügitellimuse jaoks valitud tarneviisidest.
 
 Tasude määramiseks valige **Jaemüük \> Kanali häälestus \> Tasud \> Automaatsed tasud**. Uute tasude lisamiseks valige käsk **Uus**. Või valige olemasolev kirje ja seejärel käsk **Redigeeri**.
@@ -73,6 +76,7 @@ Oma ettevõtte vajaduste kohaselt saate kasutada eri tasukategooriaid. Näiteks 
 ![Näide eri mitmetasandilistest tasudest](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Tarneviiside rakendamine kõnekeskuses tellimuse sisestamise ajal
+
 Uue müügitellimuse loomisel tuleb müügitellimuse päise kiirkaardi **Tarne** väljal **Tarneviis** määrata väärtus. See väli võib olla juba automaatselt täidetud kasutajakirje vaikeväärtuste põhjal.
 
 Tellimuse päises määratletud tarneviis kopeeritakse müügitellimuse loomisel automaatselt selle ridadele. Siiski saate müügitellimuse lehe jaotise **Rea üksikasjad** vahekaardil **Tarne** muuta tarneviisi häälestust konkreetse rea kauba jaoks.
@@ -80,11 +84,13 @@ Tellimuse päises määratletud tarneviis kopeeritakse müügitellimuse loomisel
 Kui valitud tarneviis ei sobi toote või tarneaadressi jaoks, mis on tellimusele või tellimuse reale sisestatud, kuvatakse veateade. Seejärel peate valima tarneviisi, mis on määratletud selle toote või aadressiga kokkusobivaks.
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Tarnetasude arvutamine tellimuse sisestamisel
+
 Kui teie kõnekeskuse kanali jaoks on säte **Tellimuse lõpetamise lubamine** sisse lülitatud, siis arvutatakse müügitellimuse tarnetasud automaatselt siis, kui kasutajad valivad käsu **Lõpeta**. Lehe **Müügitellimuse kokkuvõte** ülaosas kuvatakse järgmine teade „Mitmetasandilised tasud on arvutatud“. Arvutatud tasud lisatakse välja **Müügi kogusumma** väärtusele. Kiirkaardi **Summa** väli **Tasud** näitab tellimuse ja ridade jaoks arvutatud tasude kogusummat. Tasudest üksikasjalikuma ülevaate saamiseks valige lehelt **Müügitellimuse kokkuvõte** valik **Tellimus** ja seejärel suvand **Tasud**, et tasusid vaadata, lisada või redigeerida. Pange tähele, et tellimuse päises toimuv tarnetasude arvutamine põhineb päisega seotud tarneviisil. Rea tasemel arvutatud tarnetasud põhinevad tarneviisil, mis on konfigureeritud müügirea jaoks. Kui eri ridadel kasutatakse eri tarneviise, siis võidakse rakendada eri tasusid ja neid kokku liita. Kogusummat näidatakse seejärel lehe **Müügitellimuse kokkuvõte** väljal **Tasud**.
 
 Kui säte **Tellimuse lõpetamise lubamine** on välja lülitatud, peavad kasutajad tasude arvutuse käsitsi käivitama. Valige lehe **Müügitellimus** tegumiriba vahekaardi **Müük** grupist **Arvuta** valik **Mitmetasandilised tasud**. Kuvatakse teade „Mitmetasandilised tasud on arvutatud“. Seejärel saate vahekaardilt **Müük** valida suvandi **Tasud**, et arvutatud tasusid vaadata, redigeerida või kustutada.
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Kiirtarneviiside kasutamine kõnekeskuse tellimustel
+
 Saate iga tarneviisiga, mida konfigureerite, valikuliselt siduda kiirsaadetise koodi. Seda koodi kasutatakse prioriteetse sortimise ja aruandluse tööriistana. Praegu ei rakendata sellega tellimusele lisatasusid. Kiirsaadetiste koodide seadistamiseks valige **Müük ja turundus \> Seadistus \> Jaotus \> Kiirsaadetise koodid**.
 
 Näiteks tellimuste puhul, mis tarnitakse järgmisel päeval õhutranspordiga, peab komplekteerimine toimuma laos iga päev kell 13. Sellisel juhul saab luua kiirsaadetise koodi, mille saab siduda ükskõik millise järgmise päeva tarneviisiga, mis on süsteemis konfigureeritud. Kui laos koostatakse komplekteerimisvoog, siis saab väljal **Kiirsaadetis** olevat koodi kasutada filtrina, nii et komplekteeritakse vaid tellimusi, millel on selle koodiga seotud tarneviisid.

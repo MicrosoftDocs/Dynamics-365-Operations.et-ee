@@ -31,21 +31,19 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Selles artiklis selgitatakse, kuidas kasutada mälusisest ja reaalajas analüüsi, et Microsoft Dynamics 365 for Retaili andmete põhjal kaupluse jõudlusele juurdepääs saada, seda uurida ja selle kohta ülevaadet saada. 
+Selles artiklis selgitatakse, kuidas kasutada mälusisest ja reaalajas analüüsi, et Microsoft Dynamics 365 for Retaili andmete põhjal kaupluse jõudlusele juurdepääs saada, seda uurida ja selle kohta ülevaadet saada.
 
 Kasutajad saavad Dynamics 365 for Retaili osana uurida kaupluse jõudlust valitud perioodil reaalajas organisatsiooni hierarhia erinevatel tasanditel, avades valmisaruande **Kanali kokkuvõte** ühest järgmistest asukohtadest.
 
--   Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali koondaruanne**
--   Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali koondaruanne**
--   Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali koondaruanne**
+- Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali koondaruanne**
+- Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali koondaruanne**
+- Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali koondaruanne**
 
 See aruanne pakub kaupluse jõudluse osana järgmiste kokkuvõtete hetketõmmiseid:
 
--   Müügi brutokokkuvõte
--   Maksevahendi tüübi kokkuvõte
--   Maksu kokkuvõte
--   hinna tühistamiste kokkuvõte,
--   allahindluste kokkuvõte.
-
-
+- Müügi brutokokkuvõte
+- Maksevahendi tüübi kokkuvõte
+- Maksu kokkuvõte
+- hinna tühistamiste kokkuvõte,
+- allahindluste kokkuvõte.
 
