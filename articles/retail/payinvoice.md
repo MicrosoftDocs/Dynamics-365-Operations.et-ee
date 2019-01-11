@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
-ms.openlocfilehash: 53c4b9a9c9dac1add7021d909b2c8900d11e5c0c
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Arve tasumise stsenaariumide seadistamine
@@ -30,21 +30,18 @@ ms.lasthandoff: 12/04/2018
 [!include [banner](includes/banner.md)]
 
 Arve maksmise funktsiooni rakenduses Dynamics 365 for Retail on laiendatud, et see toetaks järgmist.
+
 - Mitme müügitellimuse arve tasumine ühe kassakandega.
 - Mitme kliendiarve tüübi makse, sh vabas vormis arved, projektipõhised arved ja kreeditarved.
 
-Nende stsenaariumide lubamiseks tuleb kaupluste funktsiooniprofiili konfigureerida allpool kirjeldatud viisil.  
+Nende stsenaariumide lubamiseks tuleb kaupluste funktsiooniprofiili konfigureerida allpool kirjeldatud viisil.
 
-1. Valige suvandid **Jaemüük > Kanali seadistus > Kassa seadistus > Kassa profiilid > Funktsiooniprofiilid** ja valige profiil, mis on seotud kauplustega, mida soovite muuta.
-
-1. Konfigureerige vahekaardil **Funktsioonid** vajaduse järgi järgmisi parameetreid.
+1. Valige suvandid **Jaemüük \> Kanali seadistus \> Kassa seadistus \> Kassa profiilid \> Funktsiooniprofiilid** ja valige profiil, mis on seotud kauplustega, mida soovite muuta.
+2. Konfigureerige vahekaardil **Funktsioonid** vajaduse järgi järgmisi parameetreid.
 
     - **Müügitellimuse arve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu müügitellimisel põhinevat arvet ühes kassakandes.
-
     - **Vabas vormis arve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu vabas vormis arvet ühes kassakandes.
-
     - **Projektiarve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu projektiarvet ühes kassakandes.
-
     - **Müügitellimuse kreeditarve** – valige väärtus **Jah**, et lasta kasutajatel tasakaalustada mitu müügitellimusel põhinevat kreeditarvet avatud arvete suhtes või töödelda tagasimakset kliendile avatud kreeditarve jaoks.
 
 > [!NOTE]

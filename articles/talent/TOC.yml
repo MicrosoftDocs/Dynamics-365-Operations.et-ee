@@ -7,6 +7,10 @@
         - name: Mis on uus või muudetud
           href: whats-new.md
           items:
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (14. detsember 2018)
+              href: whats-new-talent-december-14.md
+            - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (6. detsember 2018)
+              href: whats-new-talent-december-6.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (27. november 2018)
               href: whats-new-talent-november-27.md
             - name: Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (15. november 2018)
@@ -68,9 +72,11 @@
           href: formalize-business-processes.md
         - name: Töövoogude kasutamine töövõtja teabe haldamiseks
           href: workflow-manage-employee-information.md
-    - name: Lahkumiste ja puudumiste haldamine
+    - name: Puhkuste ja puudumiste haldamine
       href: leave-absence-overview.md
       items:
+        - name: Puhkuste ja puudumiste mõisted
+          href: leave-absence-concepts.md
         - name: Töötatud tundidel põhinev kumulatiivne vaba aja arvestus
           href: leave-accrue-hours-worked.md
         - name: Töögraafikud
@@ -128,10 +134,13 @@
         - name: Koolituskursuste seadistamine
           href: courses.md
     - name: Soodustusprogrammi määratlemine ja haldamine
-      href: manage-benefit-program.md
-    - name: Soodustuse saamise õiguse eeskirjad
-      href: benefit-eligibility-policies.md
       items:
+        - name: Soodustusprogrammi haldamine
+          href: manage-benefit-program.md
+        - name: Soodustuse saamise õiguse eeskirjad
+          href: benefit-eligibility-policies.md
+        - name: Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine
+          href: generate-aca-reports.md
         - name: Töötajatele laenatud artiklite haldamine
           href: loan-items.md
     - name: Teabe kogumine küsimustike abil
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: Talenti kliendi ühendus katkeb
           href: client-disconnects.md
-        - name: Andmebaasi varundamistega tegelemine
-          href: database-backups.md
         - name: Teksti kärpimise vältimine positsioonihierarhias ja eksportimine Visiosse
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: Kompensatsiooni protsessi käitamine

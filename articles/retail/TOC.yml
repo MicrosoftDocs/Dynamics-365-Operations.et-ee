@@ -147,11 +147,13 @@
       href: POS-search-improvements.md
     - name: Otsing varudest kassas
       href: product-variants-POS.md
+    - name: Kannete katkestamine ja jätkamine kassas
+      href: pos-suspend-recall-transactions.md
     - name: Riistvara välisseadmed
       items:
-        - name: Jaemüügi välisseadmed
+        - name: Retaili välisseadmed
           href: retail-peripherals-overview.md
-        - name: Jaemüügi välisseadme simulaator
+        - name: Retaili välisseadme simulaator
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Välisseadmete ühendamine kassaga
           href: define-maintain-channel-clients-registers-hw-stations.md
@@ -480,6 +482,8 @@
           href: dev-itpro/overview-upgrade-n-minus1.md
         - name: 'Etapiviisilise levitamise (N-1) installimine, konfigureerimine ja üleminek'
           href: dev-itpro/n-1-installation-configuration.md
+        - name: Täiendage kanali Retail laiend uusimale Retail SDK-le
+          href: dev-itpro/retailSDK-update.md
     - name: Juurutamise juhised
       items:
         - name: Seadmehalduse juurutamise juhised

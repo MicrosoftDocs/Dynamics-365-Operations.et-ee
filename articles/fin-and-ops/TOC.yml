@@ -25,7 +25,7 @@
                   href: get-started/system-requirements-on-prem.md
                 - name: Kohapealsete juurutuste ladustamise konfigureerimine
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Standardsed ja suunatud platvormi väljalasked
+            - name: Standardsete ja esmaväljaannete teenusevärskendused
               href: get-started/public-preview-releases.md
             - name: Rakenduse Finance and Operations ostmine
               items:
@@ -48,13 +48,13 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Asutusesisestes juurutustes rakendamata funktsioonid
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operationsi versioon 8.1.3 (detsember 2018)
+            - name: Finance and Operationsi versioon 8.1.3 (jaanuar 2019)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: Platform update 23 (detsember 2018)
+            - name: Platform update 23 (jaanuar 2019)
               href: get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (november 2018)
+            - name: Platform update 22 (detsember 2018)
               href: get-started/whats-new-platform-update-22.md
-            - name: Finance and Operationsi versioon 8.1.2 (november 2018)
+            - name: Finance and Operationsi versioon 8.1.2 (detsember 2018)
               href: get-started/whats-new-changed-8-1-2.md
             - name: Finance and Operationsi versioon 8.1.1 (oktoober 2018)
               href: get-started/whats-new-changed-8-1-1.md
@@ -373,6 +373,18 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
+                    - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                    - name: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                    - name: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                    - name: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                    - name: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                    - name: Töötellimuste sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
                 - name: Project Service Automationi integreerimise konfigureerimine
                   href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                   items:
@@ -388,8 +400,8 @@
                       href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
                     - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
                       href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
-                - name: Väliste veebiteenuste tarbimine
-                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Väliste veebiteenuste tarbimine
+          href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Andmehaldus
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -405,6 +417,8 @@
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Konfiguratsiooniandmete paketid (ainult 2017. a juuli väljaanne)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
+                - name: Muuda üksusesalv Data Lake’i üksusena saadavaks
+                  href: ../dev-itpro/data-entities/entity-store-data-lake.md?toc=/fin-and-ops/toc.json
             - name: Konfigureerimisandmete mallid
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
             - name: Üksuse muudatuste jälgimine
@@ -529,6 +543,8 @@
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Tasakaalustuse konfigureerimine
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Jäägi tasakaalustus
+                  href: ../financials/cash-bank-management/settle-remainder.md
                 - name: Hankija maksete ülevaade
                   href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Hankija maksete tööruum
@@ -2103,8 +2119,6 @@
               href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
             - name: Vabas vormis arve sisestamine
               href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-            - name: Mehhiko elektroonilise pearaamatu arvestuse aruande versiooni 1.1 koostamine
-              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
             - name: Elektroonilise arve parameetrite määramine
               href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
             - name: Mehhiko käibemaksukoodide seadistamine
