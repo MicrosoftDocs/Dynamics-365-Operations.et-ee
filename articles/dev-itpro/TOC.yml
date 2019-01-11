@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: Laiendatavuse muudatused – versioon 8.1.2
               href: extensibility/extensibility-changes-812.md
+            - name: Laiendatavuse muudatused – versioon 8.1.3
+              href: extensibility/extensibility-changes-813.md
         - name: Põhisätted
           items:
             - name: Pealetükkivad kohandused
@@ -883,12 +885,33 @@
       href: deployment/deploy-demo-environment.md
     - name: Pilvejuurutus
       items:
+        - name: Iseteeninduse juurutamine
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Uue keskkonna juurutamine
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Juurutuse KKK
+              href: deployment/deploymentFAQ.md
+            - name: Iseteeninduse juurutamise teadaolevad probleemid
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Juurutuste hooldustoimingud
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Keskkonna värskendamine
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: Iseteeninduse juurutamise kaudu juurutatud keskkondade tõrkeotsing
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Azure Resource Manageri kasutuselevõtu lõpule viimine
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute ja Finance and Operations
           href: deployment/expressroute.md
         - name: Finance and Operationsi arhitektuur
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: Värskenduste rakendamine pilvekeskkondadele
+          href: deployment/apply-deployable-package-system.md
+        - name: Värskenduste ja laiendite rakendamine pilve majutatud kanali Retail komponentidele
+          href: deployment/Update-retail-channel.md
+        - name: Pilve majutatud kanali Retail komponentide lähtestamine
+          href: deployment/Initialize-Retail-Channels.md
     - name: Kohapealne juurutus
       href: deployment/on-premises-deployment-landing-page.md
       items:
@@ -931,8 +954,6 @@
       items:
         - name: Juurutatavate mudelipakettide loomine
           href: deployment/create-apply-deployable-package.md
-        - name: Värskenduste rakendamine pilvekeskkondadele
-          href: deployment/apply-deployable-package-system.md
         - name: Juurutatavate pakettide installimine käsurealt
           href: deployment/install-deployable-package.md
         - name: Paketi desinstallimine
@@ -1021,8 +1042,6 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: Dynamics AX-i platvormi täiendamine augusti 2016 väljaandele
           href: migration-upgrade/update-platform-each-release.md
-        - name: Liivakastikeskkondade täiendamine
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: 'Andmete täiendamine arendus-, demo- või liivakastikeskkondades'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Arendustööriistade värskendamine
