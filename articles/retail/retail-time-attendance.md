@@ -20,123 +20,124 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
-# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="76b1a-103">Aja ja kohaloleku haldus rakenduses Retail</span><span class="sxs-lookup"><span data-stu-id="76b1a-103">Time and attendance management in Retail</span></span>
+# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="33e69-103">Aja ja kohaloleku haldus rakenduses Retail</span><span class="sxs-lookup"><span data-stu-id="33e69-103">Time and attendance management in Retail</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="76b1a-104">Selles teemas kirjeldatakse jaemüügi aja ja kohaloleku haldamise puhul toetatud stsenaariume rakenduses Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="76b1a-104">This topic describes the scenarios that are supported for time and attendance management in Microsoft Dynamics 365 for Retail.</span></span> 
+<span data-ttu-id="33e69-104">Selles teemas kirjeldatakse jaemüügi aja ja kohaloleku haldamise puhul toetatud stsenaariume rakenduses Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="33e69-104">This topic describes the scenarios that are supported for time and attendance management in Microsoft Dynamics 365 for Retail.</span></span>
 
-<a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="76b1a-105">Töötaja seadistus ja tööaeg</span><span class="sxs-lookup"><span data-stu-id="76b1a-105">Manage worker setup and scheduling</span></span>
-----------------------------------
+## <a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="33e69-105">Töötaja seadistus ja tööaeg</span><span class="sxs-lookup"><span data-stu-id="33e69-105">Manage worker setup and scheduling</span></span>
 
-### <a name="initial-configuration"></a><span data-ttu-id="76b1a-106"> Algne konfiguratsioon</span><span class="sxs-lookup"><span data-stu-id="76b1a-106">Initial configuration</span></span>
+### <a name="initial-configuration"></a><span data-ttu-id="33e69-106"> Algne konfiguratsioon</span><span class="sxs-lookup"><span data-stu-id="33e69-106">Initial configuration</span></span>
 
--   <span data-ttu-id="76b1a-107">Käitage konfiguratsiooniviisardit.</span><span class="sxs-lookup"><span data-stu-id="76b1a-107">Run the configuration wizard.</span></span>
--   <span data-ttu-id="76b1a-108">Registreerige töötajad aja registreerimisega töötajatena.</span><span class="sxs-lookup"><span data-stu-id="76b1a-108">Register workers as time registration workers.</span></span>
+- <span data-ttu-id="33e69-107">Käitage konfiguratsiooniviisardit.</span><span class="sxs-lookup"><span data-stu-id="33e69-107">Run the configuration wizard.</span></span>
+- <span data-ttu-id="33e69-108">Registreerige töötajad aja registreerimisega töötajatena.</span><span class="sxs-lookup"><span data-stu-id="33e69-108">Register workers as time registration workers.</span></span>
 
-### <a name="plan-worker-schedules"></a><span data-ttu-id="76b1a-109">Töötaja graafikute planeerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-109">Plan worker schedules</span></span>
+### <a name="plan-worker-schedules"></a><span data-ttu-id="33e69-109">Töötaja graafikute planeerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-109">Plan worker schedules</span></span>
 
--   <span data-ttu-id="76b1a-110">Rakendage tööplaanija abil reeglid.</span><span class="sxs-lookup"><span data-stu-id="76b1a-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="76b1a-111">Lisateavet vt <https://technet.microsoft.com/en-us/library/aa551234.aspx>.</span><span class="sxs-lookup"><span data-stu-id="76b1a-111">For more information, see <https://technet.microsoft.com/en-us/library/aa551234.aspx>.</span></span>
+- <span data-ttu-id="33e69-110">Rakendage tööplaanija abil reeglid.</span><span class="sxs-lookup"><span data-stu-id="33e69-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="33e69-111">Lisateavet tööde loendite kasutamise kohta vt teemast [Tööplaneerija profiilide rakendamine](https://technet.microsoft.com/library/aa551234.aspx).</span><span class="sxs-lookup"><span data-stu-id="33e69-111">For more information, see [Apply profiles using work planner](https://technet.microsoft.com/library/aa551234.aspx).</span></span>
 
-<span data-ttu-id="76b1a-112">Lisateavet konfigureerimistoimingute kohta vt lingilt <https://technet.microsoft.com/en-us/library/aa496971.aspx>.</span><span class="sxs-lookup"><span data-stu-id="76b1a-112">For information about the configuration steps, see <https://technet.microsoft.com/en-us/library/aa496971.aspx>.</span></span>
+<span data-ttu-id="33e69-112">Konfiguratsiooni sammude kohta leiate teemast [Aja ja kohaloleku seadistamine](https://technet.microsoft.com/library/aa496971.aspx).</span><span class="sxs-lookup"><span data-stu-id="33e69-112">For information about the configuration steps, see [Setting up time and attendance](https://technet.microsoft.com/library/aa496971.aspx).</span></span>
 
-### <a name="retail-specific-configuration"></a><span data-ttu-id="76b1a-113">Jaemüügispetsiifiline konfiguratsioon</span><span class="sxs-lookup"><span data-stu-id="76b1a-113">Retail-specific configuration</span></span>
+### <a name="retail-specific-configuration"></a><span data-ttu-id="33e69-113">Jaemüügispetsiifiline konfiguratsioon</span><span class="sxs-lookup"><span data-stu-id="33e69-113">Retail-specific configuration</span></span>
 
--   <span data-ttu-id="76b1a-114">Lubage funktsiooniprofiili Kell töötajate, kellele soovite aja registreerimist lubada.</span><span class="sxs-lookup"><span data-stu-id="76b1a-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="76b1a-115">Klõpsake valikuid **Kassa funktsiooniprofiilid** &gt; **Funktsioonid** &gt; **Kassa ajaregistreerimised** &gt; **Luba aja registreerimine**.</span><span class="sxs-lookup"><span data-stu-id="76b1a-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
--   <span data-ttu-id="76b1a-116">Konfigureerige kassa (POS) õiguste gruppe, et kuvada Kellaaja kirjete vaatamisõigused.</span><span class="sxs-lookup"><span data-stu-id="76b1a-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="76b1a-117">See luba võimaldab kasutajal vaadata kaupluse teiste töötajate (ja mistahes teise kaupluse töötajate, millega kasutaja aadressiraamatus seostatud on) aja registreerimisi.</span><span class="sxs-lookup"><span data-stu-id="76b1a-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="76b1a-118">Võite ehk tahta anda seda luba juhataja rollile, kuid mitte kassapidaja rollile.</span><span class="sxs-lookup"><span data-stu-id="76b1a-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="76b1a-119">Klõpsake valikut **Kassa loagrupid** &gt; **Kellaaja kirjete vaatamine**.</span><span class="sxs-lookup"><span data-stu-id="76b1a-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
+- <span data-ttu-id="33e69-114">Lubage funktsiooniprofiili Kell töötajate, kellele soovite aja registreerimist lubada.</span><span class="sxs-lookup"><span data-stu-id="33e69-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="33e69-115">Klõpsake valikuid **Kassa funktsiooniprofiilid** &gt; **Funktsioonid** &gt; **Kassa ajaregistreerimised** &gt; **Luba aja registreerimine**.</span><span class="sxs-lookup"><span data-stu-id="33e69-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
+- <span data-ttu-id="33e69-116">Konfigureerige kassa (POS) õiguste gruppe, et kuvada Kellaaja kirjete vaatamisõigused.</span><span class="sxs-lookup"><span data-stu-id="33e69-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="33e69-117">See luba võimaldab kasutajal vaadata kaupluse teiste töötajate (ja mistahes teise kaupluse töötajate, millega kasutaja aadressiraamatus seostatud on) aja registreerimisi.</span><span class="sxs-lookup"><span data-stu-id="33e69-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="33e69-118">Võite ehk tahta anda seda luba juhataja rollile, kuid mitte kassapidaja rollile.</span><span class="sxs-lookup"><span data-stu-id="33e69-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="33e69-119">Klõpsake valikut **Kassa loagrupid** &gt; **Kellaaja kirjete vaatamine**.</span><span class="sxs-lookup"><span data-stu-id="33e69-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
 
-## <a name="register-time"></a><span data-ttu-id="76b1a-120">Registreerimise aeg</span><span class="sxs-lookup"><span data-stu-id="76b1a-120">Register time</span></span>
-### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="76b1a-121">Kassa ja kassavälise aja registreerimised</span><span class="sxs-lookup"><span data-stu-id="76b1a-121">Cashier and non-cashier time registrations</span></span>
+## <a name="register-time"></a><span data-ttu-id="33e69-120">Registreerimise aeg</span><span class="sxs-lookup"><span data-stu-id="33e69-120">Register time</span></span>
 
--   <span data-ttu-id="76b1a-122">Kassas</span><span class="sxs-lookup"><span data-stu-id="76b1a-122">On POS:</span></span>
-    -   <span data-ttu-id="76b1a-123">Sisseregistreerimise toimingud:</span><span class="sxs-lookup"><span data-stu-id="76b1a-123">Clock-in operations:</span></span>
-        -   <span data-ttu-id="76b1a-124">logige sisse kassavälise toiminguga või uue vahetusega;</span><span class="sxs-lookup"><span data-stu-id="76b1a-124">Log on with a non-drawer operation or New shift.</span></span>
-        -   <span data-ttu-id="76b1a-125">valige kellaaja toiming;</span><span class="sxs-lookup"><span data-stu-id="76b1a-125">Select a Time Clock operation.</span></span>
-        -   <span data-ttu-id="76b1a-126">valige soovitud toiming:</span><span class="sxs-lookup"><span data-stu-id="76b1a-126">Select a desired operation:</span></span>
-            -   <span data-ttu-id="76b1a-127">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-127">Clock-in</span></span>
-            -   <span data-ttu-id="76b1a-128">tööpaus,</span><span class="sxs-lookup"><span data-stu-id="76b1a-128">Break for Work</span></span>
-            -   <span data-ttu-id="76b1a-129">Lõunapaus</span><span class="sxs-lookup"><span data-stu-id="76b1a-129">Break for Lunch</span></span>
-            -   <span data-ttu-id="76b1a-130">Väljaregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-130">Clock-out</span></span>
+### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="33e69-121">Kassa ja kassavälise aja registreerimised</span><span class="sxs-lookup"><span data-stu-id="33e69-121">Cashier and non-cashier time registrations</span></span>
 
-    <table>
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><span data-ttu-id="76b1a-131">Praegune olek</span><span class="sxs-lookup"><span data-stu-id="76b1a-131">Current state</span></span></th>
-    <th><span data-ttu-id="76b1a-132">Saadavalolevad toimingud</span><span class="sxs-lookup"><span data-stu-id="76b1a-132">Available operations</span></span></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><span data-ttu-id="76b1a-133">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-133">Clock-in</span></span></td>
-    <td><ul>
-    <li><span data-ttu-id="76b1a-134">tööpaus,</span><span class="sxs-lookup"><span data-stu-id="76b1a-134">Break for Work</span></span></li>
-    <li><span data-ttu-id="76b1a-135">Lõunapaus</span><span class="sxs-lookup"><span data-stu-id="76b1a-135">Break for Lunch</span></span></li>
-    <li><span data-ttu-id="76b1a-136">Väljaregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-136">Clock-out</span></span></li>
-    </ul></td>
-    </tr>
-    <tr class="even">
-    <td><span data-ttu-id="76b1a-137">tööpaus,</span><span class="sxs-lookup"><span data-stu-id="76b1a-137">Break for Work</span></span></td>
-    <td><span data-ttu-id="76b1a-138">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-138">Clock-in</span></span></td>
-    </tr>
-    <tr class="odd">
-    <td><span data-ttu-id="76b1a-139">Lõunapaus</span><span class="sxs-lookup"><span data-stu-id="76b1a-139">Break for Lunch</span></span></td>
-    <td><span data-ttu-id="76b1a-140">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-140">Clock-in</span></span></td>
-    </tr>
-    <tr class="even">
-    <td><span data-ttu-id="76b1a-141">Väljaregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-141">Clock-out</span></span></td>
-    <td><span data-ttu-id="76b1a-142">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-142">Clock-in</span></span></td>
-    </tr>
-    </tbody>
-    </table>
+- <span data-ttu-id="33e69-122">Kassas</span><span class="sxs-lookup"><span data-stu-id="33e69-122">On POS:</span></span>
 
-    <span data-ttu-id="76b1a-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="76b1a-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
--   <span data-ttu-id="76b1a-144">Vaadake kinnitusteadet ja kontrollige, kas praeguse toimingu kellaaeg on õige.</span><span class="sxs-lookup"><span data-stu-id="76b1a-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
--   <span data-ttu-id="76b1a-145">Logiraamat</span><span class="sxs-lookup"><span data-stu-id="76b1a-145">Logbook:</span></span>
-    -   <span data-ttu-id="76b1a-146">Klõpsake kellaaja tegevuste vaatamiseks valikut **Logiraamat**.</span><span class="sxs-lookup"><span data-stu-id="76b1a-146">Click **Logbook** to view time clock activity.</span></span>
-    -   <span data-ttu-id="76b1a-147">Muude kellaaja akende valimiseks kasutage ajafiltreid.</span><span class="sxs-lookup"><span data-stu-id="76b1a-147">Use time filters to select different time windows.</span></span>
-    -   <span data-ttu-id="76b1a-148">Kui töötate mitmes kaupluses, näete kõiki oma aja registreerimisi kõigis kauplustes, kus olete aja registreerinud.</span><span class="sxs-lookup"><span data-stu-id="76b1a-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="76b1a-149">Valitud kaupluse ajaregistreerimiste vaatamiseks kasutage kaupluse filtrit.</span><span class="sxs-lookup"><span data-stu-id="76b1a-149">You can use the store filter to view time registrations from a selected store.</span></span>
+    - <span data-ttu-id="33e69-123">Sisseregistreerimise toimingud:</span><span class="sxs-lookup"><span data-stu-id="33e69-123">Clock-in operations:</span></span>
 
-<!-- -->
+        - <span data-ttu-id="33e69-124">logige sisse kassavälise toiminguga või uue vahetusega;</span><span class="sxs-lookup"><span data-stu-id="33e69-124">Log on with a non-drawer operation or New shift.</span></span>
+        - <span data-ttu-id="33e69-125">valige kellaaja toiming;</span><span class="sxs-lookup"><span data-stu-id="33e69-125">Select a Time Clock operation.</span></span>
+        - <span data-ttu-id="33e69-126">valige soovitud toiming:</span><span class="sxs-lookup"><span data-stu-id="33e69-126">Select a desired operation:</span></span>
 
--   <span data-ttu-id="76b1a-150">Erinevad ajavööndid</span><span class="sxs-lookup"><span data-stu-id="76b1a-150">Different time zones:</span></span>
-    -   <span data-ttu-id="76b1a-151">Kui vaatate aega mõnest teisest kohast (kassapidaja puhul logiraamatust või juhi stsenaariumi puhul valikut **Kellaaja kirjete vaatamine** kasutades) ja see koht on teises ajavööndis, on vaadeldavad kellaaja kirjed teisendatud teie kohalikku ajavööndisse.</span><span class="sxs-lookup"><span data-stu-id="76b1a-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="76b1a-152">Näiteks olete kahe kaupluse juhataja, üks neist asub Arizonas ja teine Nevadas.</span><span class="sxs-lookup"><span data-stu-id="76b1a-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="76b1a-153">Kassapidaja Arizonas registreerib sisse kell 9.00</span><span class="sxs-lookup"><span data-stu-id="76b1a-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="76b1a-154">.</span><span class="sxs-lookup"><span data-stu-id="76b1a-154">in Arizona.</span></span> <span data-ttu-id="76b1a-155">Sel ajal on kell Nevadas 8.00.</span><span class="sxs-lookup"><span data-stu-id="76b1a-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="76b1a-156">Seega, kui olete Nevada kaupluses ja vaatate registreerimiskirjeid, on registreerimise ajaks märgitud kell 8.</span><span class="sxs-lookup"><span data-stu-id="76b1a-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
+            - <span data-ttu-id="33e69-127">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-127">Clock-in</span></span>
+            - <span data-ttu-id="33e69-128">tööpaus,</span><span class="sxs-lookup"><span data-stu-id="33e69-128">Break for Work</span></span>
+            - <span data-ttu-id="33e69-129">Lõunapaus</span><span class="sxs-lookup"><span data-stu-id="33e69-129">Break for Lunch</span></span>
+            - <span data-ttu-id="33e69-130">Väljaregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-130">Clock-out</span></span>
 
-## <a name="view-worker-time-registrations"></a><span data-ttu-id="76b1a-157">Töötaja aja registreerimise kuvamine</span><span class="sxs-lookup"><span data-stu-id="76b1a-157">View worker time registrations</span></span>
-### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="76b1a-158">Töötaja ajaregistreerimiste vaatamine ning kaupluse või tegevuse tüübi filtreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-158">View worker time registrations, and filter by store or activity type</span></span>
+        <table>
+        <thead>
+        <tr>
+        <th><span data-ttu-id="33e69-131">Praegune olek</span><span class="sxs-lookup"><span data-stu-id="33e69-131">Current state</span></span></th>
+        <th><span data-ttu-id="33e69-132">Saadavalolevad toimingud</span><span class="sxs-lookup"><span data-stu-id="33e69-132">Available operations</span></span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td><span data-ttu-id="33e69-133">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-133">Clock-in</span></span></td>
+        <td>
+        <ul>
+        <li><span data-ttu-id="33e69-134">tööpaus,</span><span class="sxs-lookup"><span data-stu-id="33e69-134">Break for Work</span></span></li>
+        <li><span data-ttu-id="33e69-135">Lõunapaus</span><span class="sxs-lookup"><span data-stu-id="33e69-135">Break for Lunch</span></span></li>
+        <li><span data-ttu-id="33e69-136">Väljaregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-136">Clock-out</span></span></li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td><span data-ttu-id="33e69-137">tööpaus,</span><span class="sxs-lookup"><span data-stu-id="33e69-137">Break for Work</span></span></td>
+        <td><span data-ttu-id="33e69-138">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-138">Clock-in</span></span></td>
+        </tr>
+        <tr>
+        <td><span data-ttu-id="33e69-139">Lõunapaus</span><span class="sxs-lookup"><span data-stu-id="33e69-139">Break for Lunch</span></span></td>
+        <td><span data-ttu-id="33e69-140">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-140">Clock-in</span></span></td>
+        </tr>
+        <tr>
+        <td><span data-ttu-id="33e69-141">Väljaregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-141">Clock-out</span></span></td>
+        <td><span data-ttu-id="33e69-142">Sisseregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-142">Clock-in</span></span></td>
+        </tr>
+        </tbody>
+        </table>
 
-<span data-ttu-id="76b1a-159">Kassas:</span><span class="sxs-lookup"><span data-stu-id="76b1a-159">On POS:</span></span>
+        <span data-ttu-id="33e69-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="33e69-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
 
--   <span data-ttu-id="76b1a-160">valige **Kellaaja kirjete vaatamine**;</span><span class="sxs-lookup"><span data-stu-id="76b1a-160">Select **View timeclock entries**.</span></span>
--   <span data-ttu-id="76b1a-161">kuvatakse kõikide teiega samasse kauplusesse määratud töötajate ajaregistreerimise tegevused;</span><span class="sxs-lookup"><span data-stu-id="76b1a-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
--   <span data-ttu-id="76b1a-162">ajaregistreerimiste filtreerimiseks saate kasutada tegevuse tüübi ja kaupluse filtreid.</span><span class="sxs-lookup"><span data-stu-id="76b1a-162">You can use the activity type and store filters to filter on time registrations.</span></span>
+- <span data-ttu-id="33e69-144">Vaadake kinnitusteadet ja kontrollige, kas praeguse toimingu kellaaeg on õige.</span><span class="sxs-lookup"><span data-stu-id="33e69-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
+- <span data-ttu-id="33e69-145">Logiraamat</span><span class="sxs-lookup"><span data-stu-id="33e69-145">Logbook:</span></span>
 
-## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="76b1a-163">Aja registreerimiste töötlemine ja haldamine</span><span class="sxs-lookup"><span data-stu-id="76b1a-163">Process and manage time registrations</span></span>
-<span data-ttu-id="76b1a-164">Dynamics 365 for Retaili kasutaja jälgib töövoogu ajaregistreerimiste arvutamiseks, kinnitamiseks ja palgaarvestusse ülekandmiseks.</span><span class="sxs-lookup"><span data-stu-id="76b1a-164">A Dynamics 365 for Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
+    - <span data-ttu-id="33e69-146">Klõpsake kellaaja tegevuste vaatamiseks valikut **Logiraamat**.</span><span class="sxs-lookup"><span data-stu-id="33e69-146">Click **Logbook** to view time clock activity.</span></span>
+    - <span data-ttu-id="33e69-147">Muude kellaaja akende valimiseks kasutage ajafiltreid.</span><span class="sxs-lookup"><span data-stu-id="33e69-147">Use time filters to select different time windows.</span></span>
+    - <span data-ttu-id="33e69-148">Kui töötate mitmes kaupluses, näete kõiki oma aja registreerimisi kõigis kauplustes, kus olete aja registreerinud.</span><span class="sxs-lookup"><span data-stu-id="33e69-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="33e69-149">Valitud kaupluse ajaregistreerimiste vaatamiseks kasutage kaupluse filtrit.</span><span class="sxs-lookup"><span data-stu-id="33e69-149">You can use the store filter to view time registrations from a selected store.</span></span>
 
-### <a name="primary-operations"></a><span data-ttu-id="76b1a-165">Esmased toimingud</span><span class="sxs-lookup"><span data-stu-id="76b1a-165">Primary operations</span></span>
+- <span data-ttu-id="33e69-150">Erinevad ajavööndid</span><span class="sxs-lookup"><span data-stu-id="33e69-150">Different time zones:</span></span>
 
--   <span data-ttu-id="76b1a-166">Arvuta</span><span class="sxs-lookup"><span data-stu-id="76b1a-166">Calculate</span></span>
--   <span data-ttu-id="76b1a-167">Kinnita</span><span class="sxs-lookup"><span data-stu-id="76b1a-167">Approve</span></span>
--   <span data-ttu-id="76b1a-168">Esita palgaarvestuseks</span><span class="sxs-lookup"><span data-stu-id="76b1a-168">Submit to payroll</span></span>
+    - <span data-ttu-id="33e69-151">Kui vaatate aega mõnest teisest kohast (kassapidaja puhul logiraamatust või juhi stsenaariumi puhul valikut **Kellaaja kirjete vaatamine** kasutades) ja see koht on teises ajavööndis, on vaadeldavad kellaaja kirjed teisendatud teie kohalikku ajavööndisse.</span><span class="sxs-lookup"><span data-stu-id="33e69-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="33e69-152">Näiteks olete kahe kaupluse juhataja, üks neist asub Arizonas ja teine Nevadas.</span><span class="sxs-lookup"><span data-stu-id="33e69-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="33e69-153">Kassapidaja Arizonas registreerib sisse kell 9.00</span><span class="sxs-lookup"><span data-stu-id="33e69-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="33e69-154">.</span><span class="sxs-lookup"><span data-stu-id="33e69-154">in Arizona.</span></span> <span data-ttu-id="33e69-155">Sel ajal on kell Nevadas 8.00.</span><span class="sxs-lookup"><span data-stu-id="33e69-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="33e69-156">Seega, kui olete Nevada kaupluses ja vaatate registreerimiskirjeid, on registreerimise ajaks märgitud kell 8.</span><span class="sxs-lookup"><span data-stu-id="33e69-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
 
-### <a name="other-common-operations"></a><span data-ttu-id="76b1a-169">Muud tavapärased toimingud</span><span class="sxs-lookup"><span data-stu-id="76b1a-169">Other common operations</span></span>
+## <a name="view-worker-time-registrations"></a><span data-ttu-id="33e69-157">Töötaja aja registreerimise kuvamine</span><span class="sxs-lookup"><span data-stu-id="33e69-157">View worker time registrations</span></span>
 
--   <span data-ttu-id="76b1a-170">Hulgiväljaregistreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-170">Bulk Clock-out</span></span>
--   <span data-ttu-id="76b1a-171">Puudumise registreerimine</span><span class="sxs-lookup"><span data-stu-id="76b1a-171">Register Absence</span></span>
+### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="33e69-158">Töötaja ajaregistreerimiste vaatamine ning kaupluse või tegevuse tüübi filtreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-158">View worker time registrations, and filter by store or activity type</span></span>
 
-<span data-ttu-id="76b1a-172">Lisateavet aja ja kohalviibimise registreerimiste töötlemise kohta vt <https://technet.microsoft.com/en-us/library/aa573180.aspx>.</span><span class="sxs-lookup"><span data-stu-id="76b1a-172">For more information about how to process time and attendance registrations, see <https://technet.microsoft.com/en-us/library/aa573180.aspx>.</span></span>
+<span data-ttu-id="33e69-159">Kassas:</span><span class="sxs-lookup"><span data-stu-id="33e69-159">On POS:</span></span>
 
+- <span data-ttu-id="33e69-160">valige **Kellaaja kirjete vaatamine**;</span><span class="sxs-lookup"><span data-stu-id="33e69-160">Select **View timeclock entries**.</span></span>
+- <span data-ttu-id="33e69-161">kuvatakse kõikide teiega samasse kauplusesse määratud töötajate ajaregistreerimise tegevused;</span><span class="sxs-lookup"><span data-stu-id="33e69-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
+- <span data-ttu-id="33e69-162">ajaregistreerimiste filtreerimiseks saate kasutada tegevuse tüübi ja kaupluse filtreid.</span><span class="sxs-lookup"><span data-stu-id="33e69-162">You can use the activity type and store filters to filter on time registrations.</span></span>
 
+## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="33e69-163">Aja registreerimiste töötlemine ja haldamine</span><span class="sxs-lookup"><span data-stu-id="33e69-163">Process and manage time registrations</span></span>
 
+<span data-ttu-id="33e69-164">Dynamics 365 for Retaili kasutaja jälgib töövoogu ajaregistreerimiste arvutamiseks, kinnitamiseks ja palgaarvestusse ülekandmiseks.</span><span class="sxs-lookup"><span data-stu-id="33e69-164">A Dynamics 365 for Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
+
+### <a name="primary-operations"></a><span data-ttu-id="33e69-165">Esmased toimingud</span><span class="sxs-lookup"><span data-stu-id="33e69-165">Primary operations</span></span>
+
+- <span data-ttu-id="33e69-166">Arvuta</span><span class="sxs-lookup"><span data-stu-id="33e69-166">Calculate</span></span>
+- <span data-ttu-id="33e69-167">Kinnita</span><span class="sxs-lookup"><span data-stu-id="33e69-167">Approve</span></span>
+- <span data-ttu-id="33e69-168">Esita palgaarvestuseks</span><span class="sxs-lookup"><span data-stu-id="33e69-168">Submit to payroll</span></span>
+
+### <a name="other-common-operations"></a><span data-ttu-id="33e69-169">Muud tavapärased toimingud</span><span class="sxs-lookup"><span data-stu-id="33e69-169">Other common operations</span></span>
+
+- <span data-ttu-id="33e69-170">Hulgiväljaregistreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-170">Bulk Clock-out</span></span>
+- <span data-ttu-id="33e69-171">Puudumise registreerimine</span><span class="sxs-lookup"><span data-stu-id="33e69-171">Register Absence</span></span>
+
+<span data-ttu-id="33e69-172">Protsessi aja ja kohaloleku registreerimised kohta lisateabe saamiseks vt [Protsessiaja ja kohaloleku registreerimine](https://technet.microsoft.com/library/aa573180.aspx).</span><span class="sxs-lookup"><span data-stu-id="33e69-172">For more information about how to process time and attendance registrations, see [Process time and attendance registrations](https://technet.microsoft.com/library/aa573180.aspx).</span></span>
 
