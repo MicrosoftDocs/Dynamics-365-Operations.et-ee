@@ -3,7 +3,7 @@ title: Pakkumiste loomine, kinnitamine ja allkirjastamine
 description: Selles teemas kirjeldatakse kuidas luua, kinnitada ja allkirjastada kandidaadile tehtavat pakkumist kasutades rakendust Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ Enne pakkumise kandidaadile saatmist saate teha mitmeid tegevusi.
 -  Saate määrata pakkumise aegumiskuupäeva. Kandidaatide oodatakse pakkumise kinnitamist või tagasi lükkamist enne aegumiskuupäeva.  Kandidaadile saadetakse meeldetuletus 48 tundi enne pakkumise aegumist.
 
 -  Võib olla soovite pakkumise kinnitamise protsessi lisada lisadokumente. Teil on võimalik lisada nõutava dokumendi tüüp.
+
+- Elektroonilise allkirja valik: kui Adobe Sign on valitud eelistatud elektroonilise allkirjastamise meetodina, peavad pakkumiste loojad ühendama oma Adobe Sign litsentsi. On kaks võimalust. Valige kasutaja **Sätted** jaotises **Pakkumine**, jaotise all **Ühendused** looge ühendus jaotisega **Adobe Sign**. Teise võimalusena palutakse teil luua ühendus ekraaniga Saada pakkumine kandidaadile, kui ei ole juba ühendust kasutaja sätete põhjal loodud. 
+
+> [!NOTE]
+> Kasutajatel tuleb Adobe Sign'iga ühenduda vaid ühe korra. Sama kasutajalitsentsi kasutatakse tulevaste pakkumispakettide puhul, mis on välja saadetud sama kasutaja poolt. 
 
 -  Vajadusel saate meilimalli vaadata ja redigeerida.
 

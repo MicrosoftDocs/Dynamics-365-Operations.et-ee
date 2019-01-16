@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 85581968d9d242460117693174acbf906463997f
+ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
+ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,6 +30,9 @@ ms.lasthandoff: 10/22/2018
 [!include[banner](../includes/banner.md)]
 
 Meilimallide teeki kasutades saavad administraatorid luua ühtse teema ja kaubamärgi kõigile läbi rakenduse Microsoft Dynamics 365 for Talent: Attract saadetavatele meilidele. Administraatorid saavad ka teiste kasutajate kasutatavat meilisisu mallide kogu kureerida. Värbamistöörühm saab neid malle oma töövoos kasutada meilide tõhusamaks saatmiseks. Mõned meilid on Attractis konfigureeritud automaatseks saatmiseks ja administraator saab kasutada meilimallide teeki nende meilide sisu kohandamiseks.
+
+> [!NOTE]
+> E-kirja mallide kasutamiseks peab teie organisatsioonil olema Tervikliku palkamise lisandmooduli.
 
 ## <a name="global-template-configurations"></a>Üldise malli konfigureerimine
 

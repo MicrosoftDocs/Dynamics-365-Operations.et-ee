@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Hoidla **Failisüsteem** võimaldab juurdepääsu konfiguratsioonidele, mis asuv
 - arenduseks juurutatud pilves majutatavad keskkonnad (sisaldavad lisatud komplektide katsemudeleid);
 - kohalikult juurutatud keskkonnad (asutusesisene või kohalike äriandmete juurutamine (LBD)).
 
-Lisateavet selle kohta leiate lehelt [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](/electronic-reporting-import-ger-configurations.md).
+Lisateavet selle kohta leiate lehelt [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](./electronic-reporting-import-ger-configurations.md).
 
 Hoidla **RCS-i eksemplar** võimaldab juurdepääsu konkreetsele RCS-i eksemplarile, mis valiti hoidla registreerimise etapis. ER võimaldab importida lõpule viidud või jagatud konfiguratsioone valitud RCS-i eksemplarist praeguse rakenduse Finance and Operations eksemplarini ja kasutada elektrooniliseks aruandluseks.
 
-Lisateavet selle kohta leiate lehelt [Elektroonilise aruandluse (ER) konfiguratsioonide importimine regulatiivsetest konfiguratsiooniteenustest (RCS)](/rcs-download-configurations.md).
+Lisateavet selle kohta leiate lehelt [Elektroonilise aruandluse (ER) konfiguratsioonide importimine regulatiivsetest konfiguratsiooniteenustest (RCS)](./rcs-download-configurations.md).
 
 Vajalikke hoidlaid **LCS-i projekt**, **Failisüsteem** ja **Regulatiivsed konfiguratsiooniteenused (RCS)** saab registreerida eraldi iga praeguse rakenduse Finance and Operations eksemplari konfiguratsioonipakkuja kohta. Iga hoidla saab eraldada konkreetsele konfiguratsioonipakkujale.
 

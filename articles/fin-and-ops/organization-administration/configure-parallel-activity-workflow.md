@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 64cd387f8a6ab693d159cd659fca51fa6568ee39
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 01c1fa876dd66ba6f0e1cdcecff56f424e117bd9
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,26 +34,25 @@ Paralleeltegevuse konfigureerimiseks tehke töövooredaktoris järgmist.
 Paralleeltegevus koosneb töövoo harudes, mis töötavad samal ajal.
 
 ## <a name="name-a-parallel-activity"></a>Paralleeltegevusele nime andmine
+
 Paralleeltegevusele nime andmiseks tehke järgmist.
-1.  Paremklõpsake paralleeltegevust ja klõpsake valikut **Atribuudid** , et avada vorm **Atribuudid**.
-2.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
-3.  Väljale **Nimi** sisestage paralleeltegevuse kordumatu nimi.
-4.  Klõpsake valikut **Sule**.
+
+1. Paremklõpsake paralleeltegevust ja klõpsake valikut **Atribuudid** , et avada vorm **Atribuudid**.
+2. Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
+3. Väljale **Nimi** sisestage paralleeltegevuse kordumatu nimi.
+4. Klõpsake valikut **Sule**.
 
 ## <a name="configure-the-branches-of-a-parallel-activity"></a>Paralleeltegevuse harude konfigureerimine
+
 Selle paralleeltegevuse harude lisamiseks ja konfigureerimiseks tehke järgmist.
+
 1. Topeltklõpsake paralleeltegevust, et kuvada paralleeltegevuse harud.
-2. Haru lisamiseks lohistage element **Haru** alalt **Töövoo elemendid** lõuendil olevasse sisestuspunkti. Järgmisel joonisel on kujutatud sisestuspunkt.![Sisestuspunkt](./media/workflow_insertionpoint.gif)
+2. Haru lisamiseks lohistage element **Haru** alalt **Töövoo elemendid** lõuendil olevasse sisestuspunkti. Järgmisel joonisel on kujutatud sisestuspunkt.
 
-   |                                              <strong>Märkus.</strong>                                               |
-   |------------------------------------------------------------------------------------------------------------------|
-   | Harude järjestus pole oluline, kuna kõik paralleeltegevuse harud töötavad samal ajal. |
+    ![Sisestuspunkt](./media/workflow_insertionpoint.gif)
 
+    > [!NOTE]
+    > Harude järjestus pole oluline, kuna kõik paralleeltegevuse harud töötavad samal ajal.
 
 3. Iga haru konfigureerimiseks vt jaotist [Paralleelharu konfigureerimine](configure-parallel-branch-workflow.md).
-
-
-
-
-
 

@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Väljavõtte sisestamise funktsiooni täiustuste osana on lehe **Jaemüügi para
 
 Peale selle on kiirkaardile **Pakktöötlus** lisatud suvand **Paralleelselt sisestatavate väljavõtete maksimumarv**. See väli määrab pakett-töö ülesannete arvu, mida tuleks korraga käivitada. Praegu tuleb selle välja väärtus käsitsi määrata.
 
-Koos uue sisestamisprotsessiga tuleb määratleda **Kingekaardi toode** kiirkaardil **Kinkekaart** vahekaardil **Sisestamine** lehel **Jaemüügi parameetrid**. See kehtib isegi siis, kui organisatsioon ei kasuta kinkekaarte. 
+Koos uue sisestamisprotsessiga tuleb määratleda **Kingekaardi toode** kiirkaardil **Kinkekaart** vahekaardil **Sisestamine** lehel **Jaemüügi parameetrid**. See kehtib isegi siis, kui organisatsioon ei kasuta kinkekaarte.
 
 Pange tähele, et kõik väljavõtte sisestamisega seotud ning jaekaupluste lehel ja lehel **Jaemüügi parameetrid** määratud sätted ja parameetrid kehtivad väljavõtte sisestamise täiustatud funktsioonile.
 
 ## <a name="processing"></a>Teostamine
+
 Väljavõtteid saab arvutada ja sisestada partiina, kasutades menüükäske **Väljavõtete arvutamine partiina** ja **Väljavõtete sisestamine partiina**. Väljavõtteid on võimalik ka arvutada ja sisestada, kasutades menüükäsku **Jaemüügi väljavõtted**, mida väljavõtte sisestamise täiustatud funktsioon pakub.
 
 Väljavõtte partiina arvutamise ja sisestamise protsess ja etapid on samad kui väljavõtte sisestamise pärandfunktsioonis. Kuid olulisi täiustusi on tehtud väljavõtete tuuma tagavaratöötlemises. Need täiustused muudavad protsessi paindlikumaks ning annavad parema ülevaate olekute ja tõrgete teabest. Seetõttu võivad kasutajad tegeleda tõrgete juurpõhjusega ja seejärel jätkata sisestamise protsessi, ilma et andmeid rikutaks ja vaja oleks andmete parandamist.
@@ -71,6 +72,7 @@ Väljavõtte partiina arvutamise ja sisestamise protsess ja etapid on samad kui 
 Järgmistes jaotistes kirjeldatakse väljavõtte sisestamise funktsiooni olulisemaid täiustusi jaemüügi väljavõtete ja sisestatud väljavõtete kasutajaliideses.
 
 ### <a name="status-details"></a>Oleku üksikasjad
+
 Väljavõtte sisestusprotsessi arvutamise ja sisestamise protsessis on lisatud uus olekumudel.
 
 Järgmises tabelis kirjeldatakse arvutamise protsessi eri olekuid ja nende järjekorda.
@@ -109,9 +111,11 @@ Iga eelolevas tabelis olev etapp on oma olemuselt sõltumatu ja etappide vahele 
 Peale selle kuvab teise ja kolmanda jaotise päis asjakohaste protsesside üldist olekut.
 
 ### <a name="event-logs"></a>Sündmustelogid
+
 Väljavõte läbib mitu toimingut (nt loomine, arvutamine, tühjendamine ja sisestamine) ning väljavõtte elutsükli jooksul võidakse sama toimingut käivitada mitu korda. Näiteks pärast väljavõtte loomist ja arvutamist saab kasutaja väljavõtte tühjendada ja selle uuesti arvutada. Nupp **Sündmustelogid** väljavõtte grupis **Käivitamise üksikasjad** annab täieliku kontrolljälje väljavõttega tehtud eri toimingutest koos teabega selle kohta, millal need toimingud käivitati.
 
 ### <a name="aggregated-transactions"></a>Koondatud kanded
+
 Sisestamise protsessi ajal koondatakse müügikanded konfiguratsiooni järgi. Koondatud kanded salvestatakse süsteemi ja neid kasutatakse müügitellimuste loomiseks. Iga koondatud kanne loob süsteemis ühe vastava müügitellimuse. Koondatud kandeid saate vaadata, kasutades nuppu **Koondatud kanded** väljavõtte grupis **Käivitamise üksikasjad**.
 
 Koondatud kande vahekaardil **Müügitellimuse üksikasjad** kuvatakse järgmine teave.
@@ -136,11 +140,13 @@ Koondatud kande vaatel on järgmised eelised.
 - Koondatud XML-fail muudab lihtsamaks probleemide tuvastamise müügitellimuse loomise ja arve koostamise ajal.
 
 ### <a name="journal-vouchers"></a>Töölehe kanded
+
 Nupp **Töölehe kanded** väljavõtte grupis **Käivitamise üksikasjad** kuvab kõik erinevad kanded, mis on loodud väljavõtte kohta ja mis on seotud allhindluste, tulu-/kulukontode, kinkekaartide jms.
 
 Praegu kuvab programm neid andmeid ainult sisestatud väljavõtete kohta.
 
 ### <a name="payment-journals"></a>Maksete töölehed
+
 Nupp **Maksete töölehed** väljavõtte grupis **Käivitamise üksikasjad** kuvab kõik väljavõtte kohta loodud erinevad maksete töölehed.
 
 Praegu kuvab programm neid andmeid ainult sisestatud väljavõtete kohta.

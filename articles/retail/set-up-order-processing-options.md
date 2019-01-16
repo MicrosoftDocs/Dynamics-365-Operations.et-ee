@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d849279a642363d9cb591cd7a3b20c2883bb4a3b
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ Kõnekeskuse funktsioonide kasutamiseks peavad kasutajad olema lingitud kõnekes
 
 Kõnekeskuse kanalil saab konfigureerida ka meiliteatise profiili. Profiil määratleb meilimallid, mida kasutatakse meili saatmisel klientidele, kes esitavad tellimusi kõnekeskuse kanali kaudu. Süsteemisündmuste juurde saab konfigureerida meilipäästikuid, näiteks tellimuse esitamise või tellimuse saadetise jaoks.
 
-Enne kui müüki saab õigesti kõnekeskuse kanali kaudu töödelda, tuleb kanali jaoks määratleda õiged [makseviisid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-payments) ja tarneviisid.
+Enne kui müüki saab õigesti kõnekeskuse kanali kaudu töödelda, tuleb kanali jaoks määratleda õiged [makseviisid](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-payments) ja tarneviisid.
 
 Kõnekeskuse kanali tasemel saate määratleda muud vaikeväärtused, mis on seotud finantsdimensioonidega, mis lingitakse sellel kanalil loodavate tellimustega.
 
@@ -51,13 +51,13 @@ Kõnekeskuses loodud müügitellimuste jaoks saadaolevatele funktsioonidele aval
 
 ### <a name="enable-order-completion"></a>Tellimuse lõpetamise lubamine
 
-Kõnekeskuse kanali säte **Tellimuse lõpetamise lubamine** mõjutab selle kanali jaoks sisestatud müügitellimuste töötlemise voogu. Kui säte on sisse lülitatud, peavad kõik müügitellimused enne kinnitamist läbima kinnitusreeglite hulga. Saate neid reegleid käivitada, kui valite nupu **Vii lõpule**, mis on lisatud müügitellimuse lehe tegumiribale. Kõik müügitellimused, mis luuakse siis, kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, peavad läbima tellimuse lõpetamise protsessi. See protsessi jõustab makse ja makse kinnitamise loogika hõivamist. Lisaks makse jõustamisele saab tellimuse edastamise protsess käivitada [pettuse kontrollid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts), mille teie saate süsteemis konfigureerida. Tellimused, mille makse või pettuse kontrolli kinnitamised nurjuvad, pannakse ootele ja neid ei saa täiendavaks töötlemiseks (nagu komplekteerimine või tarnimine) väljastada, kuni ootele paneku põhjustanud probleem on lahendatud.
+Kõnekeskuse kanali säte **Tellimuse lõpetamise lubamine** mõjutab selle kanali jaoks sisestatud müügitellimuste töötlemise voogu. Kui säte on sisse lülitatud, peavad kõik müügitellimused enne kinnitamist läbima kinnitusreeglite hulga. Saate neid reegleid käivitada, kui valite nupu **Vii lõpule**, mis on lisatud müügitellimuse lehe tegumiribale. Kõik müügitellimused, mis luuakse siis, kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, peavad läbima tellimuse lõpetamise protsessi. See protsessi jõustab makse ja makse kinnitamise loogika hõivamist. Lisaks makse jõustamisele saab tellimuse edastamise protsess käivitada [pettuse kontrollid](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts), mille teie saate süsteemis konfigureerida. Tellimused, mille makse või pettuse kontrolli kinnitamised nurjuvad, pannakse ootele ja neid ei saa täiendavaks töötlemiseks (nagu komplekteerimine või tarnimine) väljastada, kuni ootele paneku põhjustanud probleem on lahendatud.
 
-Kui säte **Tellimuse lõpetamise lubamine** on kõnekeskuse kanali jaoks sisse lülitatud ning müügitellimuses sisestatakse reakaubad ja kanali kasutaja üritab müügitellimuse vormi sulgeda või selle juurest mujale navigeerida ilma esmalt suvandit **Vii lõpule** valimata, jõustab süsteem tellimuse lõpetamise protsessi, avades müügitellimuse kokkuvõtte lehe ja paludes kasutajal tellimuse õigesti esitada. Kui tellimust ei saa koos maksega õigesti esitada, saab kasutaja kasutada [tellimuse ootelepaneku](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) funktsiooni, et panna tellimus ootele. Kui kasutaja üritab tellimust tühistada, peab ta selle õigesti tühistama, kasutades kas funktsiooni Tühista või funktsiooni Kustuta, olenevalt funktsioonist, mida kasutaja turberoll lubab.
+Kui säte **Tellimuse lõpetamise lubamine** on kõnekeskuse kanali jaoks sisse lülitatud ning müügitellimuses sisestatakse reakaubad ja kanali kasutaja üritab müügitellimuse vormi sulgeda või selle juurest mujale navigeerida ilma esmalt suvandit **Vii lõpule** valimata, jõustab süsteem tellimuse lõpetamise protsessi, avades müügitellimuse kokkuvõtte lehe ja paludes kasutajal tellimuse õigesti esitada. Kui tellimust ei saa koos maksega õigesti esitada, saab kasutaja kasutada [tellimuse ootelepaneku](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) funktsiooni, et panna tellimus ootele. Kui kasutaja üritab tellimust tühistada, peab ta selle õigesti tühistama, kasutades kas funktsiooni Tühista või funktsiooni Kustuta, olenevalt funktsioonist, mida kasutaja turberoll lubab.
 
 Kui säte **Tellimuse lõpetamise lubamine** on kõnekeskuse kanali jaoks sisse lülitatud, jälgitakse tellimusel välja **Makse olek**. Süsteem arvutab **Makse oleku**, kui müügitellimus on esitatud. Ainult tellimustel, millel on kinnitatud makseolek, lubatakse liikuda läbi süsteemi täiendavate tellimuse töötlemise etappide juurde, nagu komplekteerimine ja saatmine. Kui makse on tagasi lükatud, lubatakse tellimuse üksikasjaliku oleku juures lipp **Ära töötle**, mis paneb tellimuse ootele, kuni maksega seotud probleem on lahendatud.
 
-Lisaks, kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud ning kasutajad loovad müügitellimusi ja nad on reakauba sisestamise režiimis, kuvatakse peamise müügitellimuse päises väli **Allikas**. Välja **Allikas** kasutatakse [kataloogi lähtekoodi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/call-center-catalogs) hõivamiseks otseturustamise müügistsenaariumis. Seda koodi saab seejärel kasutada erihindade ja kampaaniate jaoks.
+Lisaks, kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud ning kasutajad loovad müügitellimusi ja nad on reakauba sisestamise režiimis, kuvatakse peamise müügitellimuse päises väli **Allikas**. Välja **Allikas** kasutatakse [kataloogi lähtekoodi](https://docs.microsoft.com/dynamics365/unified-operations/retail/call-center-catalogs) hõivamiseks otseturustamise müügistsenaariumis. Seda koodi saab seejärel kasutada erihindade ja kampaaniate jaoks.
 
 Isegi kui säte **Tellimuse lõpetamise lubamine** on välja lülitatud, saavad kasutajad siiski müügitellimusele lähtekoodi rakendada. Kuid nad peavad väljale **Allikas** juurdepääsu saamiseks esmalt avama müügitellimuse päise üksikasjad. Teisisõnu on vaja teha paar lisaklõpsu. Sama käitumine rakendub funktsioonidele, nagu Saatmine lõpetatud ja Kiirendatud tellimused. Need funktsioonid on saadaval kõigi kõnekeskuses loodud tellimuste jaoks. Kuid kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, näevad kasutajad nende funktsioonide konfiguratsiooni müügipäises, kui nad on rea sisestamise vaates. Nad ei pea sobivate sätete ja väljade leidmiseks müügitellimuse päise üksikasjadesse süvitsi minema.
 

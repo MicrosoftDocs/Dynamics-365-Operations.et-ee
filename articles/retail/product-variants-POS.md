@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Iga asukoha kohta kuvatakse ka **reserveeritud** ja **tellitud** kogused.
 
 Asukohtade loend sisaldab kahte järgmist tüüpi üksuseid.
 
-- **Jaekauplused** – selles loendis kuvatakse kauplused, mille konfigureerimiseks on kasutatud kaupluselokaatori gruppi praeguse kaupluse jaoks jaotises Kaupluse haldus. 
-- **Jaotuskeskused** – rakenduses Microsoft Dynamics 365 for Retail saab konfigureerida erinevaid jaotuskeskuseid (nt ladusid). Kuid loendis kuvatakse varude saadavuse teave ainult jaotuskeskuste kohta, mille vaiketüüp on **Standardne**. 
+- **Jaekauplused** – selles loendis kuvatakse kauplused, mille konfigureerimiseks on kasutatud kaupluselokaatori gruppi praeguse kaupluse jaoks jaotises Kaupluse haldus.
+- **Jaotuskeskused** – rakenduses Microsoft Dynamics 365 for Retail saab konfigureerida erinevaid jaotuskeskuseid (nt ladusid). Kuid loendis kuvatakse varude saadavuse teave ainult jaotuskeskuste kohta, mille vaiketüüp on **Standardne**.
 
     > [!NOTE]
     > Varude saadavuse teavet ei kuvata ladude kohta, mille kassatüüp on **Transiit**, **Vaheladu** ja **Kaubad töötemisel**.
@@ -86,7 +86,7 @@ Vaates **Dimensioonipõhine maatriks** sisaldavad tootevariantide lahtrid paremp
 | **0** (null)                             | Variant on väljastatud valitud asukoha jaoks, kuid kaup pole valitud asukohas saadaval. Saate siiski teha lahtris täiendavaid toiminguid. (Neid toiminguid kirjeldatakse üksikasjalikumalt selles teemas allpool.) |
 | **p/s** või passiivne lahter              | Varianti pole valitud asukoha jaoks väljastatud ja te ei saa lahtris täiendavaid toiminguid teha. |
 
-Saate muuta ka dimensioonide liigendust, valides kasutamiseks uue dimensiooni. 
+Saate muuta ka dimensioonide liigendust, valides kasutamiseks uue dimensiooni.
 
 ![Liigenduse muutmine](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Peale selle saab vaates **Dimensioonipõhine maatriks** teha rohkem toiminguid, 
 
 Järgnevast tabelist leiate lisateavet võimalike lisatoimingute kohta.
 
-
-|        Tegevus        |                                                                                                                    Kirjeldus                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Müü kohe       |                               Lisage valitud kaubavariant kandele ja suunake kasutaja kandekuvale. (See toiming pole saadaval, kui valitud asukoht on jaotuskeskus.)                               |
-|   Kauplusesse järeletulemine   |      Looge klienditellimus tootevariandi jaoks, millele tullakse valitud asukohta järele, ja suunakse kasutaja kandekuvale. (See toiming pole saadaval, kui valitud asukoht on jaotuskeskus.)       |
-|     Toote lähetus     |                                                 Looge klienditellimus tootevariandi jaoks, mis saadetakse valitud asukohast, ja suunakse kasutaja kandekuvale.                                                 |
-|     Kättesaadavus     |                                                                             Näidake ATP teavet valitud variandi kombinatsiooni kohta valitud asukoha jaoks.                                                                              |
-|  Kõigi asukohtade kuvamine  | Valige standardne varudest otsimise vaade ja tõstke esile varude saadavuse teave kaubavariandi kohta kõigis kauplustes kaupluselokaatori grupis ja ka jaotuskeskustes, mille tüüp on <strong>Standardne/Vaikimisi</strong>. |
-| Kuva toote üksikasjad |                                                                         Suunake kasutaja seostatud tooteetaloni lehele <strong>Toote üksikasjad</strong>.                                                                          |
-
+| Tegevus               | Kirjeldus |
+|----------------------|-------------|
+| Müü kohe             | Lisage valitud kaubavariant kandele ja suunake kasutaja kandekuvale. (See toiming pole saadaval, kui valitud asukoht on jaotuskeskus.) |
+| Kauplusesse järeletulemine     | Looge klienditellimus tootevariandi jaoks, millele tullakse valitud asukohta järele, ja suunakse kasutaja kandekuvale. (See toiming pole saadaval, kui valitud asukoht on jaotuskeskus.) |
+| Toote lähetus         | Looge klienditellimus tootevariandi jaoks, mis saadetakse valitud asukohast, ja suunakse kasutaja kandekuvale. |
+| Kättesaadavus         | Näidake ATP teavet valitud variandi kombinatsiooni kohta valitud asukoha jaoks. |
+| Kõigi asukohtade kuvamine   | Valige standardne varudest otsimise vaade ja tõstke esile varude saadavuse teave kaubavariandi kohta kõigis kauplustes kaupluselokaatori grupis ja ka jaotuskeskustes, mille tüüp on **Standardne/Vaikimisi**. |
+| Kuva toote üksikasjad | Suunake kasutaja seostatud tooteetaloni lehele **Toote üksikasjad**. |
 

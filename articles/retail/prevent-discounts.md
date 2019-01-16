@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: eaee79e2a20ab443cf3779e8499bf29d63ad3dfc
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 01/15/2019
 
 ---
 
@@ -35,11 +35,11 @@ On erinevaid põhjuseid, miks jaemüüjad soovivad vältida mõne toote allahind
 
 Menüüs **Jaemüük** leitavaid suvandeid saab kasutada toote konfigureerimiseks, et vältida kõiki või käsitsi lisatud allahindluseid. Sätteid saab määrata ka kategooria kaupa jaemüügi kategooriahierarhiast.
 
-**Kõikide allahindluste vältida**: valige see suvand, et vältida tootele ükskõik, mis tüüpi allahindluse rakendamist. Siia kuuluvad erinevad pakkumised (nt toodete kombineerimine, koguse- ja läveallahindlused) ja käsitsi lisatud toote- või tehinguallahindlused, mis lisatakse kassas müügihetkel.
+- **Kõikide allahindluste vältimine**: valige see suvand, et vältida tootele ükskõik mis tüüpi allahindluse rakendamist. Siia kuuluvad erinevad pakkumised (nt toodete kombineerimine, koguse- ja läveallahindlused) ja käsitsi lisatud toote- või tehinguallahindlused, mis lisatakse kassas müügihetkel.
+- **Käsitsi lisatud allahindluste vältimine**: valige see suvand, et vältida käsitsi tootele või kogu tehingule rakendatavaid allahindlusi kassas müügihetkel. Selle suvandiga märgitud toodetele võib rakendada kampaaniaid (nt toodete kombineerimine, koguse- ja läveallahindlused).
 
-**Käsitsi lisatud allahindluste vältimine**: valige see suvand, et vältida käsitsi tootele või kogu tehingule rakendatavaid allahindlusi kassas müügihetkel. Selle suvandiga märgitud toodetele võib rakendada kampaaniaid (nt toodete kombineerimine, koguse- ja läveallahindlused).
+> [!NOTE]
+> Need sätted ei piira hinna alistamise toimingut, sest see on baashinda määrav toiming, mida ei käsitleta allahindlusena.
 
-**Märkus**: need sätted ei piira hinna alistamise toimingut, sest see on baashinda määrav toiming, mida ei käsitleta allahindlusena.  
-
-[![väli väldi allahindluseid](./media/prevent discounts.png)](./media/prevent discounts.png)
+[![väli väldi allahindluseid](./media/prevent-discounts.png)](./media/prevent-discounts.png)
 

@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,10 +31,12 @@ ms.lasthandoff: 08/08/2018
 
 Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (mai 2016 – kõike keeled) Microsoft Dynamics AX-i APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (mai 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegist
-------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (mai 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegist
 
-(2016. a. mai) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft AX-i 2016. a. mai värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljaande spikrina. Tegevusjuhiste lokaliseeritud versioonid, mis väljastati (2016. a. veebruari) APQC ühendatud teegis, on selles teegis saadaval. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md). <strong>Märkus.</strong> Tärn (<strong>\</strong>*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. a. mai värskenduse jaoks ja seda ei toetata Microsoft Dynamics AX-i varasemates versioonides.
+(2016. a. mai) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft AX-i 2016. a. mai värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljaande spikrina. Tegevusjuhiste lokaliseeritud versioonid, mis väljastati (2016. a. veebruari) APQC ühendatud teegis, on selles teegis saadaval. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
+
+> [!NOTE]
+> Tärn (\*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. a. mai värskenduse jaoks ja seda ei toetata Microsoft Dynamics AX-i varasemates versioonides.
 
 ### <a name="countryregion-functionality"></a>Riigi/regiooni funktsionaalsus
 
@@ -62,15 +64,15 @@ Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljast
 
 ### <a name="electronic-reporting"></a>Elektrooniline aruandlus
 
-|                                  BPM-rida                                  | Riik/regioon |
+| BPM-rida                                                                   | Riik/regioon |
 |----------------------------------------------------------------------------|----------------|
-|                         ER Sihtkohade konfigureerimine                          |     Globaalne     |
-|     Elektrooniline aruandlus OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine     |     Globaalne     |
-| Elektrooniline aruandlus Elektrooniliste dokumentide loomine vormingu konfiguratsiooni kasutavate maksete jaoks |     Üldine     |
-|             Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services              |     Üldine     |
-|               <strong>\</strong>*Elektroonilise aruandluse teenusepakkuja valimine                |     Üldine     |
-|   Elektrooniline aruandlus täiendamine vormingu uue alusversiooni kasutuselevõtuga    |     Globaalne     |
-|             Elektroonilise aruande konfiguratsiooni üleslaadimine teenusesse Lifecycle Services              |     Globaalne     |
+| ER Sihtkohade konfigureerimine                                                  | Globaalne         |
+| Elektrooniline aruandlus OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine         | Globaalne         |
+| Elektrooniline aruandlus Elektrooniliste dokumentide loomine vormingu konfiguratsiooni kasutavate maksete jaoks | Üldine         |
+| Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services                          | Üldine         |
+| \*Elektroonilise aruandluse teenusepakkuja valimine                                               | Üldine         |
+| Elektrooniline aruandlus täiendamine vormingu uue alusversiooni kasutuselevõtuga      | Globaalne         |
+| Elektroonilise aruande konfiguratsiooni üleslaadimine teenusesse Lifecycle Services                          | Globaalne         |
 
 ### <a name="human-capital-management"></a>Inimkapitali juhtimine
 
@@ -176,25 +178,21 @@ Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljast
 
 ### <a name="warehouse-and-transportation"></a>Ladu ja transport
 
-|                                     BPM-rida                                     | Riik/regioon |
-|----------------------------------------------------------------------------------|----------------|
-|                            Vootöötluse konfigureerimine                             |     Üldine     |
-| <strong>\</strong>*Lõpetatuna kinnitamine mitte-litsentsiplaadiga juhitavasse asukohta |     Globaalne     |
-|                      Min-max täiendamisprotsessi seadistamine                      |     Globaalne     |
-|                             Konteineritesse määramise häälestamine                              |     Globaalne     |
-|                              Käsitsi pakkimise seadistamine                               |     Üldine     |
-|                  Kauba transpordipiirangute seadistamine                   |     Üldine     |
-|                <strong>\</strong>*Lao tööpoliitikate seadistamine                 |     Üldine     |
+|                                     BPM-rida                    | Riik/regioon |
+|-----------------------------------------------------------------|----------------|
+| Voo töötlemise konfigureerimine                                       | Üldine         |
+| \*Lõpetatuna kinnitamine mitte-litsentsiplaadiga juhitavasse asukohta | Globaalne         |
+| Min-max täiendamisprotsessi seadistamine                          | Globaalne         |
+| Konteineritesse määramise häälestamine                                         | Globaalne         |
+| Käsitsi pakkimise seadistamine                                           | Üldine         |
+| Kauba transpordipiirangute seadistamine                   | Globaalne         |
+| \*Lao tööpoliitikate seadistamine                                 | Globaalne         |
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
 
 [Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)
-
-
-
 

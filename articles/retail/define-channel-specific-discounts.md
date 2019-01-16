@@ -20,10 +20,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0300ed4a10f6979fb673447323f7fdf61041529f
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,10 +31,9 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-Jaemüüjad määravad tihti erinevates kanalites erinevad allahindlused. Selles teemas antakse ülevaade mõistetest, mida peate teadma kindlale kanalile allahindluse loomiseks. 
+Jaemüüjad määravad tihti erinevates kanalites erinevad allahindlused. Selles teemas antakse ülevaade mõistetest, mida peate teadma kindlale kanalile allahindluse loomiseks.
 
-<a name="channel-specific-discounts"></a>Kanalipõhised allahindlused
---------------------------
+## <a name="channel-specific-discounts"></a>Kanalipõhised allahindlused
 
 Jaemüüjad pakuvad sageli erinevates kanalites erinevaid allahindlusi. Seda saab teha kohalike turutingimuste arvestamiseks või konkureerivate jaemüüjatega toime tulemiseks.
 
@@ -46,27 +45,22 @@ Microsoft Dynamics 365 for Retail kasutab kanalipõhiste allahindluste määratl
 
 Ülalolev joonis illustreerib seost kande võimalike üksuste vahel (kanal, kataloog, alluvus, klient, püsikliendikaart) ja mitmesuguseid allahindluse tüüpe, mida saab konfigureerida. Kõik kanded tehakse kanalis, seega on kanal kindlasti kandel olemas. Ülejäänud üksused on valikulised. Igal koondandmete lehel on link seotud hinnagruppide lehele, kus saate vaadata ja lisada vajalikke hinnagruppe. Hinnagruppi kasutatakse nelja tüüpi üksuste seostamiseks allahindluste, hinna korrigeerimiste ja kaubanduslepetega. Soovitame plaanida strateegia, kuidas hinnagruppe nimetada, et neid korras hoida. Üks võimalus on kasutada ees või järel tähte või numbrit, et erinevaid tüüpe eristada. Näiteks 1-xxxxx kanali hinnagruppide puhul ja 2-xxxxx kataloogi hinnagruppide puhul. Neli päringulehte keskenduvad igale jaemüügiüksusele, millega on seotud allahindlused.
 
--   **Jaemüügikanali hinnagrupid**– sellel lehel on loend kanalitest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
--   **Kataloogi hinnagrupid**– sellel lehel on loend kataloogidest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
--   **Püsikliendi hinnagrupid**– sellel lehel on loend püsikliendiprogrammidest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
--   **Sidusettevõtete hinnagrupid**– sellel lehel on loend sidusettevõtetest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
+- **Jaemüügikanali hinnagrupid** – sellel lehel on loend kanalitest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
+- **Kataloogi hinnagrupid** – sellel lehel on loend kataloogidest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
+- **Püsikliendi hinnagrupid** – sellel lehel on loend püsikliendiprogrammidest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
+- **Sidusettevõtete hinnagrupid** – sellel lehel on loend sidusettevõtetest ja allahindlustest, mis on iga hinnagrupi puhul seostatud.
 
 ## <a name="example-channel-discount-set-up"></a>Kanali allahindluse seadistuse näide
+
 Järgmine näide illustreerib kanali allahindluse seadistamiseks vajalikke toiminguid.
 
-1.  Selles näites on kanal nimega **Houston** ja loote uue allahindluse nimega **Tagasi-kooli.**
-2.  Kuna hinnakujunduse ja allahindluste strateegia hõlmab kanali allahindluste võimalust, luuakse kanali loomisel alati kanalipõhine hinnagrupp.
-3.  Teil on hinnagrupp **Houston-PG** ja see on määratud kanalile **Houston**.
-4.  Pärast uue allahindluse **Tagasi-kooli** loomist tuleb klõpsata valikut **Hinnagrupid** lehe **Allahindlus** ülemises osas. Avaneb leht **Allahindluse hinnagrupid**. Seejärel klõpsake nuppu **Uus** ja valige hinnagrupp **Houston-PG**.
-5.  Nüüd saate allahindluse lubada ja kanalisse suunata.
+1. Selles näites on kanal nimega **Houston** ja loote uue allahindluse nimega **Tagasi-kooli.**
+2. Kuna hinnakujunduse ja allahindluste strateegia hõlmab kanali allahindluste võimalust, luuakse kanali loomisel alati kanalipõhine hinnagrupp.
+3. Teil on hinnagrupp **Houston-PG** ja see on määratud kanalile **Houston**.
+4. Pärast uue allahindluse **Tagasi-kooli** loomist tuleb klõpsata valikut **Hinnagrupid** lehe **Allahindlus** ülemises osas. Avaneb leht **Allahindluse hinnagrupid**. Seejärel klõpsake nuppu **Uus** ja valige hinnagrupp **Houston-PG**.
+5. Nüüd saate allahindluse lubada ja kanalisse suunata.
 
-
-
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Hinnakorrigeerimised ja allahindlused](price-adjustments-discounts.md)
-
-
-
 

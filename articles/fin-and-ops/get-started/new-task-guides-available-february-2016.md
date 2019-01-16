@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,104 +29,87 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.  Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics AX-i APQC ühendatud teek ja (2016. a. veebruari) Alustamine.
+Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga. Avaldatud teekide hulka kuuluvad (2016. a. veebruari) Microsoft Dynamics AX-i APQC ühendatud teek ja (2016. a. veebruari) Alustamine.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (veebruar 2016) Microsoft Dynamics AX-i APQC ühendatud teegist
----------------------------------------------------------------------------------
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (veebruar 2016) Microsoft Dynamics AX-i APQC ühendatud teegist
 
 (2016. aasta veebruari) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks väljaandega Dynamics AX 7.0.0. Kui vajate neist tegevusjuhistest lokaliseeritud versioone, siis need on saadaval Microsoft Dynamics AX-i (2016. aasta mai) APQC ühendatud teegist. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
 
 ### <a name="accounts-payable"></a>Ostureskontro
 
-|                                                           |                    |
-|-----------------------------------------------------------|--------------------|
-| **BPM-rida**                                              | **Riik/regioon** |
-| Arve põhiandmed AP-süsteemis, kasutades hankija arvet        | Globaalne             |
-| Arve põhiandmed AP-süsteemi, kasutades arve töölehte     | Globaalne             |
-| Arve põhiandmed AP-süsteemi, kasutades arvekausta        | Globaalne             |
-| Arve põhiandmed AP-süsteemi, kasutades hankijaregistrit    | Globaalne             |
-| Hankija arve salvestamine ja sissetulnud kogusega sobitamine | Globaalne             |
-| Ostureskontro arve vastenduse kinnitamise seadistamine       | Globaalne             |
-| Saate häälestada hankija arve poliitikaid.                            | Globaalne             |
+| BPM-rida                                                  | Riik/regioon |
+|-----------------------------------------------------------|----------------|
+| Arve põhiandmed AP-süsteemis, kasutades hankija arvet        | Globaalne         |
+| Arve põhiandmed AP-süsteemi, kasutades arve töölehte     | Globaalne         |
+| Arve põhiandmed AP-süsteemi, kasutades arvekausta        | Globaalne         |
+| Arve põhiandmed AP-süsteemi, kasutades hankijaregistrit    | Globaalne         |
+| Hankija arve salvestamine ja sissetulnud kogusega sobitamine | Globaalne         |
+| Ostureskontro arve vastenduse kinnitamise seadistamine       | Globaalne         |
+| Saate häälestada hankija arve poliitikaid.                            | Globaalne         |
 
-
- 
 ### <a name="accounts-receivable"></a>Müügireskontro
 
-|                                                             |                    |
-|-------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                | **Riik/regioon** |
-| Korduva vabas vormis arve malli määramine kliendile | Globaalne             |
-| Märgukirjaseeria loomine                         | Globaalne             |
-| Kliendi jaoks uue otsedeebeti loa loomine                | Globaalne             |
-| Vabas vormis arve malli loomine                         | Globaalne             |
-| Mahakandmise töölehe loomine kliendi jaoks                   | Globaalne             |
-| Vahemikuga viivisekoodi loomine                        | Globaalne             |
-| Vabas vormis arvete loomine ja töötlemine                       | Globaalne             |
-| Müügitellimuse arvete loomine                                 | Globaalne             |
-| Korduvate vabas vormis arvete loomine ja sisestamine              | Globaalne             |
-| Märgukirjade töötlemine                                  | Globaalne             |
-| Intressi töötlemine                                            | Globaalne             |
-| Sissenõuete teabe ülevaatamine                              | Globaalne             |
-| Müügireskontro ajalise jaotuse teabe seadistamine ja loomine   | Globaalne             |
+| BPM-rida                                                    | Riik/regioon |
+|-------------------------------------------------------------|----------------|
+| Korduva vabas vormis arve malli määramine kliendile | Globaalne         |
+| Märgukirjaseeria loomine                         | Globaalne         |
+| Kliendi jaoks uue otsedeebeti loa loomine                | Globaalne         |
+| Vabas vormis arve malli loomine                         | Globaalne         |
+| Mahakandmise töölehe loomine kliendi jaoks                   | Globaalne         |
+| Vahemikuga viivisekoodi loomine                        | Globaalne         |
+| Vabas vormis arvete loomine ja töötlemine                       | Globaalne         |
+| Müügitellimuse arvete loomine                                 | Globaalne         |
+| Korduvate vabas vormis arvete loomine ja sisestamine              | Globaalne         |
+| Märgukirjade töötlemine                                  | Globaalne         |
+| Intressi töötlemine                                            | Globaalne         |
+| Sissenõuete teabe ülevaatamine                              | Globaalne         |
+| Müügireskontro ajalise jaotuse teabe seadistamine ja genereerimine   | Globaalne         |
 
-
- 
 ### <a name="cash-and-bank-management"></a>Sularaha- ja pangahaldus
 
-|                                                                      |                    |
-|----------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                         | **Riik/regioon** |
-| Akreditiivi jaoks panga süsteemiteenuse leppe loomine                | Globaalne             |
-| Garantiikirja jaoks panga süsteemiteenuse leppe loomine             | Globaalne             |
-| Kliendimaksete ülevaade                                           | Globaalne             |
-| Hankija maksetasude määratlemine                                           | Globaalne             |
-| Hankija maksetingimuste määratlemine                                          | Globaalne             |
-| Kliendimaksete hoiustamine                                            | Globaalne             |
-| Kliendi makseviisi loomine                                 | Globaalne             |
-| Kliendimakse tasude loomine                                      | Globaalne             |
-| Kliendimakse tingimuste loomine                                     | Globaalne             |
-| Akreditiivi eksport                                              | Globaalne             |
-| Akreditiivi importimine                                              | Globaalne             |
-| Garantiikirja kanne                                      | Globaalne             |
-| Kliendi hilisema kuupäevaga tšeki registreerimine ja postitamine                   | Globaalne             |
-| Registreeri ja postita hankija hilisema kuupäevaga tšekk                     | Globaalne             |
-| Pangateenuste ja akreditiivi sisestusreeglite seadistamine     | Globaalne             |
-| Pangateenuste ja garantiikirjade sisestusreeglite seadistamine | Globaalne             |
-| Hilisema kuupäevaga tšekkide seadistamine                                              | Globaalne             |
-| Tasakaalustage hankija hilisema kuupäevaga tšekk                                | Globaalne             |
-| Tasakaalusta kliendi hilisema kuupäevaga tšekk                             | Globaalne             |
-| Hankija maksete ülevaade                                              | Globaalne             |
+| BPM-rida                                                             | Riik/regioon |
+|----------------------------------------------------------------------|----------------|
+| Akreditiivi jaoks panga süsteemiteenuse leppe loomine                | Globaalne         |
+| Garantiikirja jaoks panga süsteemiteenuse leppe loomine             | Globaalne         |
+| Kliendimaksete ülevaade                                           | Globaalne         |
+| Hankija maksetasude määratlemine                                           | Globaalne         |
+| Hankija maksetingimuste määratlemine                                          | Globaalne         |
+| Kliendimaksete hoiustamine                                            | Globaalne         |
+| Kliendi makseviisi loomine                                 | Globaalne         |
+| Kliendimakse tasude loomine                                      | Globaalne         |
+| Kliendimakse tingimuste loomine                                     | Globaalne         |
+| Akreditiivi eksport                                              | Globaalne         |
+| Akreditiivi importimine                                              | Globaalne         |
+| Garantiikirja kanne                                      | Globaalne         |
+| Kliendi hilisema kuupäevaga tšeki registreerimine ja postitamine                   | Globaalne         |
+| Registreeri ja postita hankija hilisema kuupäevaga tšekk                     | Globaalne         |
+| Pangateenuste ja akreditiivi sisestusreeglite seadistamine     | Globaalne         |
+| Pangateenuste ja garantiikirjade sisestusreeglite seadistamine | Globaalne         |
+| Hilisema kuupäevaga tšekkide seadistamine                                              | Globaalne         |
+| Tasakaalustage hankija hilisema kuupäevaga tšekk                                | Globaalne         |
+| Kliendi hilisema kuupäevaga tšeki tasakaalustamine                             | Globaalne         |
+| Hankija maksete ülevaade                                              | Globaalne         |
 
-
- 
 ### <a name="compliance"></a>Ühilduvus
 
-|                                            |                    |
-|--------------------------------------------|--------------------|
-| **BPM-rida**                               | **Riik/regioon** |
-| Lähtedokumentide jaoks auditipoliitikate määratlemine | Globaalne             |
+| BPM-rida                                   | Riik/regioon |
+|--------------------------------------------|----------------|
+| Lähtedokumentide jaoks auditipoliitikate määratlemine | Globaalne         |
 
-
- 
 ### <a name="cost-management"></a>Kuluhaldus
 
-|                                                                     |                    |
-|---------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                        | **Riik/regioon** |
-| Tootmistellimuse aktiivse, hinnangulise ja realiseeritud kulude võrdlemine | Globaalne             |
-| Kulukirjete kuvamine kulu objekti puhul                                 | Globaalne             |
-| Kuluobjekti saldo kuvamine                                            | Globaalne             |
-| Tootmistellimuse WIP praeguse oleku kuvamine                       | Globaalne             |
-| Varude aruande ja KPI kuvamine kuluobjekti järgi                     | Globaalne             |
+| BPM-rida                                                            | Riik/regioon |
+|---------------------------------------------------------------------|----------------|
+| Tootmistellimuse aktiivsete, hinnanguliste ja realiseeritud kulude võrdlemine | Globaalne         |
+| Kulukirjete kuvamine kulu objekti puhul                                 | Globaalne         |
+| Kuluobjekti saldo kuvamine                                            | Globaalne         |
+| Tootmistellimuse WIP praeguse oleku kuvamine                       | Globaalne         |
+| Varude aruande ja KPI kuvamine kuluobjekti järgi                     | Globaalne         |
 
+### <a name="countryregion-functionality"></a>Riigi/regiooni funktsionaalsus
 
- 
-### <a name="countryregion-functionality"></a>Riigi/regiooni funktsioon
-
-|                                                                                                        |                                 |
+| BPM-rida                                                                                               | Riik/regioon                  |
 |--------------------------------------------------------------------------------------------------------|---------------------------------|
-| **BPM-rida**                                                                                           | **Riik/regioon**              |
 | BAS-aruande väljade lisamine ja Austraalia äritegevuse aruande (BAS) loomine                        | Austraalia ja Uus-Meremaa       |
 | Põhjuse koodide seadistamine Austraalia BAS-i puhul                                                                  | Austraalia ja Uus-Meremaa       |
 | Maksekviitungi vormingu määramine kliendikontole                                                     | Taani                         |
@@ -262,472 +245,406 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | GB-00009 Kreeditarve loomine tasakaalustuse allahindlusele                                               | Ühendkuningriik                  |
 | GB‑00009 kreeditarve parameetrite seadistamine kiirmakse allahindlusele                                   | Ühendkuningriik                  |
 
-
- 
 ### <a name="develop-vision-and-strategy"></a>Visiooni ja strateegia arendamine
 
-|                                                                                          |                    |
-|------------------------------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                                             | **Riik/regioon** |
-| Küsimustiku tulemuste analüüsimine                                                            | Globaalne             |
-| Suletud lõpetatud küsimuse loomine                                                           | Globaalne             |
-| Avatud lõpetatud küsimuse loomine                                                            | Globaalne             |
-| Küsimuse muutmine eelmise küsimuse vastusest sõltuvaks (tinglikud küsimused) | Globaalne             |
-| Küsimustiku tulemuse määramine protsendi alusel                                                   | Globaalne             |
+| BPM-rida                                                                                 | Riik/regioon |
+|------------------------------------------------------------------------------------------|----------------|
+| Küsimustiku tulemuste analüüsimine                                                            | Globaalne         |
+| Suletud küsimuse loomine                                                           | Globaalne         |
+| Avatud lõpetatud küsimuse loomine                                                            | Globaalne         |
+| Küsimuse muutmine eelmise küsimuse vastusest sõltuvaks (tinglikud küsimused) | Globaalne         |
+| Küsimustiku tulemuse määramine protsendi alusel                                                   | Globaalne         |
 
-
- 
 ### <a name="electronic-reporting"></a>Elektrooniline aruandlus
 
-|                                                 |                    |
-|-------------------------------------------------|--------------------|
-| **BPM-rida**                                    | **Riik/regioon** |
-| Elektroonilise aruandluse mudeli vastenduse määratlemine ja andmeallikate valimine | Globaalne             |
-| Elektroonilise aruandluse domeenispetsiifilise andmemudeli kujundamine            | Globaalne             |
-| Elektroonilise aruandluse domeenispetsiifilise vormingu kujundamine                | Globaalne             |
-| Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatele      | Globaalne             |
-| Elektroonilise aruandluse teenusepakkuja valimine                      | Globaalne             |
+| BPM-rida                                        | Riik/regioon |
+|-------------------------------------------------|----------------|
+| Elektroonilise aruandluse mudeli vastenduse määratlemine ja andmeallikate valimine | Globaalne         |
+| Elektroonilise aruandluse domeenispetsiifilise andmemudeli kujundamine            | Globaalne         |
+| Elektroonilise aruandluse domeenispetsiifilise vormingu kujundamine                | Globaalne         |
+| Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatele      | Globaalne         |
+| Elektroonilise aruandluse teenusepakkuja valimine                      | Globaalne         |
 
-
- 
 ### <a name="expense-management"></a>Kulude haldus
 
-|                              |                    |
-|------------------------------|--------------------|
-| **BPM-rida**                 | **Riik/regioon** |
-| Kuluhalduse konfigureerimine | Globaalne             |
+| BPM-rida                     | Riik/regioon |
+|------------------------------|----------------|
+| Kuluhalduse konfigureerimine | Globaalne         |
 
-
- 
 ### <a name="fixed-assets"></a>Põhivarad
 
-|                                                           |                    |
-|-----------------------------------------------------------|--------------------|
-| **BPM-rida**                                              | **Riik/regioon** |
-| Kulumimääramise tava muutmine mitme põhivara puhul | Globaalne             |
-| Põhivarade loomine                                      | Globaalne             |
-| Varade loomine ja soetamine ostureskontrost           | Globaalne             |
-| Kulumisoovituse koostamine                              | Globaalne             |
-| Põhivara käibelt kõrvaldamine vabas vormis arvet kasutades        | Globaalne             |
-| Põhivarale lisandi sisestamine                        | Globaalne             |
-| Põhivara soetussoovitused                          | Globaalne             |
-| Kulumireeglite seadistamine ja loomine                   | Globaalne             |
-| Lisakulumi seadistamine                                 | Globaalne             |
-| Kulumiraamatute seadistamine                                 | Globaalne             |
-| Saate häälestada põhivaragruppe.                                 | Globaalne             |
-| Põhivara sisestusreeglite seadistamine                       | Globaalne             |
-| Väärtusmudelite seadistamine                                       | Globaalne             |
-| Põhivara tükeldamine                                       | Globaalne             |
-| Põhivara ülekandmine                                    | Globaalne             |
+| BPM-rida                                                  | Riik/regioon |
+|-----------------------------------------------------------|----------------|
+| Kulumimääramise tava muutmine mitme põhivara puhul | Globaalne         |
+| Põhivarade loomine                                      | Globaalne         |
+| Varade loomine ja soetamine ostureskontrost           | Globaalne         |
+| Kulumisoovituse koostamine                              | Globaalne         |
+| Põhivara käibelt kõrvaldamine vabas vormis arvet kasutades        | Globaalne         |
+| Põhivarale lisandi sisestamine                        | Globaalne         |
+| Põhivara soetussoovitused                          | Globaalne         |
+| Kulumireeglite seadistamine ja loomine                   | Globaalne         |
+| Lisakulumi seadistamine                                 | Globaalne         |
+| Kulumiraamatute seadistamine                                 | Globaalne         |
+| Saate häälestada põhivaragruppe.                                 | Globaalne         |
+| Põhivara sisestusreeglite seadistamine                       | Globaalne         |
+| Väärtusmudelite seadistamine                                       | Globaalne         |
+| Põhivara tükeldamine                                       | Globaalne         |
+| Põhivara ülekandmine                                    | Globaalne         |
 
-
- 
 ### <a name="general-ledger"></a>Pearaamat
 
-|                                                                   |                    |
-|-------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                      | **Riik/regioon** |
-| Finantsaasta sulgemine                                             | Globaalne             |
-| Töölehe sisestuse loomine malli abil                           | Globaalne             |
-| Põhikonto loomine                                             | Globaalne             |
-| Kontostruktuuride loomine                                         | Globaalne             |
-| Viitvõlaskeemide loomine                                            | Globaalne             |
-| Täpsemate reeglite loomine töölehtede jaoks                                | Globaalne             |
-| Täpsema reegli struktuuride loomine ja määramine                        | Globaalne             |
-| Töölehtede loomine ja kinnitamine                                      | Globaalne             |
-| Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine | Globaalne             |
-| Pearaamatu tekkepõhiste kannete loomine                                | Globaalne             |
-| Finantsdimensioonide määratlemine                                       | Globaalne             |
-| Sisestatud töölehe kirjete töölehele paigutamine                                 | Globaalne             |
-| Finantsdimensiooni vaikemallide haldamine                    | Globaalne             |
-| Hulgi finantsperioodi sulgemine                                       | Globaalne             |
-| Võrgukonsolideerimise sooritamine                                   | Globaalne             |
-| Perioodiliste töölehtede sisestamine                                            | Globaalne             |
-| Konsolideerimisprotsessis kasutatava juriidilise isiku ettevalmistamine       | Globaalne             |
-| Eemaldamiskannete töötlemine                                  | Globaalne             |
-| Pearaamatu eraldamistöölehe töötlemine                                 | Globaalne             |
-| Pearaamatukonto pseudonüümi seadistamine                                     | Globaalne             |
-| Eemaldamisreeglite seadistamine                                          | Globaalne             |
-| Põhikonto kategooriate seadistamine                                    | Globaalne             |
-| Pearaamatukontode kannete tasakaalustamine                       | Globaalne             |
-| Töölehe kirjete või kannete kuvamine                              | Globaalne             |
-| Seotud kontsernisisese kande kuvamine töölehelt                    | Globaalne             |
+| BPM-rida                                                          | Riik/regioon |
+|-------------------------------------------------------------------|----------------|
+| Finantsaasta sulgemine                                             | Globaalne         |
+| Töölehe sisestuse loomine malli abil                           | Globaalne         |
+| Põhikonto loomine                                             | Globaalne         |
+| Kontostruktuuride loomine                                         | Globaalne         |
+| Viitvõlaskeemide loomine                                            | Globaalne         |
+| Täpsemate reeglite loomine töölehtede jaoks                                | Globaalne         |
+| Täpsema reegli struktuuride loomine ja määramine                        | Globaalne         |
+| Töölehtede loomine ja kinnitamine                                      | Globaalne         |
+| Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine | Globaalne         |
+| Pearaamatu tekkepõhiste kannete loomine                                | Globaalne         |
+| Finantsdimensioonide määratlemine                                       | Globaalne         |
+| Sisestatud töölehe kirjete töölehele paigutamine                                 | Globaalne         |
+| Finantsdimensiooni vaikemallide haldamine                    | Globaalne         |
+| Hulgi finantsperioodi sulgemine                                       | Globaalne         |
+| Võrgukonsolideerimise sooritamine                                   | Globaalne         |
+| Perioodiliste töölehtede sisestamine                                            | Globaalne         |
+| Konsolideerimisprotsessis kasutatava juriidilise isiku ettevalmistamine       | Globaalne         |
+| Eemaldamiskannete töötlemine                                  | Globaalne         |
+| Pearaamatu eraldamistöölehe töötlemine                                 | Globaalne         |
+| Pearaamatukonto pseudonüümi seadistamine                                     | Globaalne         |
+| Eemaldamisreeglite seadistamine                                          | Globaalne         |
+| Põhikonto kategooriate seadistamine                                    | Globaalne         |
+| Pearaamatukontode kannete tasakaalustamine                       | Globaalne         |
+| Töölehe kirjete või kannete kuvamine                              | Globaalne         |
+| Seotud kontsernisisese kande kuvamine töölehelt                    | Globaalne         |
 
-
- 
 ### <a name="human-capital-management"></a>Inimkapitali juhtimine
 
-|                                                                  |                    |
-|------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                     | **Riik/regioon** |
-| Küsimustiku tulemuste analüüsimine                                    | Globaalne             |
-| Avalduste sisendkasti kirjete kinnitamine                                | Globaalne             |
-| Soodustuse kõlblikkuse protsess                                      | Globaalne             |
-| Hulgivärbamisprojekti loomine                                       | Globaalne             |
-| Loo laenuartikleid                                                | Globaalne             |
-| Soodustuse kõlblikkuse reeglite ja poliitikate määratlemine                    | Globaalne             |
-| Tasuprotsessi määratlemine ja tulemuste arvutamine                | Globaalne             |
-| Uute osakondade määratlemine                                           | Globaalne             |
-| Uute tööde määratlemine                                                  | Globaalne             |
-| Töötaja soodustuste programmi pakkumine                                | Globaalne             |
-| Töötaotluse arendamine ja avamine                                 | Globaalne             |
-| Järgnevusplaani arendamine                                          | Globaalne             |
-| Tööhõive kinnitamise i9 kinnitamine                          | Globaalne             |
-| Töötajate hüvitiste registreerimine ja eemaldamine                          | Globaalne             |
-| Töötajate liitmine põhipalga plaaniga                    | Globaalne             |
-| Töötajate liitmine ergutussüsteemi plaaniga                 | Globaalne             |
-| Kandidaadi ja avalduse andmete käsitsi sisestamine                    | Globaalne             |
-| Töötaja andmete sisestamine                                         | Globaalne             |
-| Olemasoleva kandidaadi palkamine värbamise kaudu                    | Globaalne             |
-| Kandidaadi palkamine värbamise kaudu                                | Globaalne             |
-| Mitme töötaja palkamine                                          | Globaalne             |
-| Kandidaadi valikutööriistade tuvastamine ja juurutamine                    | Globaalne             |
-| Kauba laenamine töötajale                                            | Globaalne             |
-| Töötaja vigastuste ja haiguste teabe haldamine                 | Globaalne             |
-| Sellise küsimuse tegemine, mis sõltub eelmise küsimuse vastusest | Globaalne             |
-| Soodustuse aegumiskuupäevade haldamine                                  | Globaalne             |
-| Meilimallide haldamine                                           | Globaalne             |
-| Töötaja üleminekute ja ülekannete haldamine                        | Globaalne             |
-| Puhkuse haldamine                                          | Globaalne             |
-| Töötaja erivajaduste haldamine                                     | Globaalne             |
-| Ametikoha aruandlusseoste muutmine                    | Globaalne             |
-| Tasuruudustike seadistamine                                        | Globaalne             |
-| Saate häälestada vigastuste ja haiguste teavet.                            | Globaalne             |
-| Saate häälestada vigastuste ja haiguste teavet.                            | Globaalne             |
-| Soodustuseks sobilikkuse poliitikate häälestamine                             | Globaalne             |
-| Dokumenditüüpide i9 seadistamine                                     | Globaalne             |
+| BPM-rida                                                         | Riik/regioon |
+|------------------------------------------------------------------|----------------|
+| Küsimustiku tulemuste analüüsimine                                    | Globaalne         |
+| Avalduste sisendkausta kirjete kinnitamine                                | Globaalne         |
+| Soodustuse kõlblikkuse protsess                                      | Globaalne         |
+| Hulgivärbamisprojekti loomine                                       | Globaalne         |
+| Loo laenuartikleid                                                | Globaalne         |
+| Soodustuse kõlblikkuse reeglite ja poliitikate määratlemine                    | Globaalne         |
+| Tasuprotsessi määratlemine ja tulemuste arvutamine                | Globaalne         |
+| Uute osakondade määratlemine                                           | Globaalne         |
+| Uute tööde määratlemine                                                  | Globaalne         |
+| Töötaja soodustuste programmi pakkumine                                | Globaalne         |
+| Töötaotluse arendamine ja avamine                                 | Globaalne         |
+| Järgnevusplaani arendamine                                          | Globaalne         |
+| Tööhõive kinnitamise i9 kinnitamine                          | Globaalne         |
+| Töötajate hüvitiste registreerimine ja eemaldamine                          | Globaalne         |
+| Töötajate liitmine põhipalga plaaniga                    | Globaalne         |
+| Töötajate liitmine ergutussüsteemi plaaniga                 | Globaalne         |
+| Kandidaadi ja avalduse andmete käsitsi sisestamine                    | Globaalne         |
+| Töötaja andmete sisestamine                                         | Globaalne         |
+| Olemasoleva kandidaadi palkamine värbamise kaudu                    | Globaalne         |
+| Kandidaadi palkamine värbamise kaudu                                | Globaalne         |
+| Mitme töötaja palkamine                                          | Globaalne         |
+| Kandidaadi valikutööriistade tuvastamine ja juurutamine                    | Globaalne         |
+| Kauba laenamine töötajale                                            | Globaalne         |
+| Töötaja vigastuste ja haiguste teabe haldamine                 | Globaalne         |
+| Sellise küsimuse tegemine, mis sõltub eelmise küsimuse vastusest | Globaalne         |
+| Soodustuse aegumiskuupäevade haldamine                                  | Globaalne         |
+| Meilimallide haldamine                                           | Globaalne         |
+| Töötaja üleminekute ja ülekannete haldamine                        | Globaalne         |
+| Puhkuse haldamine                                          | Globaalne         |
+| Töötaja erivajaduste haldamine                                     | Globaalne         |
+| Ametikoha aruandlusseoste muutmine                    | Globaalne         |
+| Tasuruudustike seadistamine                                        | Globaalne         |
+| Saate häälestada vigastuste ja haiguste teavet.                            | Globaalne         |
+| Saate häälestada vigastuste ja haiguste teavet.                            | Globaalne         |
+| Soodustuseks sobilikkuse poliitikate häälestamine                             | Globaalne         |
+| Dokumenditüüpide i9 seadistamine                                     | Globaalne         |
 
+### <a name="inventory-management"></a>Varud
 
- 
-### <a name="inventory-management"></a>Varude haldus
+| BPM-rida                                                                          | Riik/regioon |
+|-----------------------------------------------------------------------------------|----------------|
+| Laovaru tasemete korrigeerimine laos                                              | Globaalne         |
+| Varude saadavuse kontrollimine                                                   | Globaalne         |
+| Varude jälgimisteabe korrigeerimine                                            | Globaalne         |
+| Varude loendamine laos                                                    | Globaalne         |
+| Uue laopaigutuse loomine                                                     | Globaalne         |
+| Varude blokeerimise loomine ja haldamine                                         | Globaalne         |
+| Mittevastavuse loomine ja töötlemine                                              | Globaalne         |
+| Laoinventuuri protsesside määratlemine                                               | Globaalne         |
+| Laovaru tasemete lähtestamine laos                                          | Globaalne         |
+| Kaupade kvaliteedi kontrollimine                                                      | Globaalne         |
+| Vöötkoodi tüüpide haldamine                                                            | Globaalne         |
+| Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil | Globaalne         |
+| Saabumisülevaate profiilide seadistamine                                                  | Globaalne         |
+| Kvaliteettellimuste seadistamine                                                             | Globaalne         |
+| Kauba või toormaterjali jälgimine                                                     | Globaalne         |
+| Füüsiliste laovarude ülekandmine laos                                  | Globaalne         |
 
-|                                                                                   |                    |
-|-----------------------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                                      | **Riik/regioon** |
-| Laovaru tasemete korrigeerimine laos                                              | Globaalne             |
-| Lao saadavuse kontrollimine                                                   | Globaalne             |
-| Varude jälgimisteabe korrigeerimine                                            | Globaalne             |
-| Varude loendamine laos                                                    | Globaalne             |
-| Uue laopaigutuse loomine                                                     | Globaalne             |
-| Varude blokeerimise loomine ja haldamine                                         | Globaalne             |
-| Mittevastavuse loomine ja töötlemine                                              | Globaalne             |
-| Laoinventuuri protsesside määratlemine                                               | Globaalne             |
-| Laovaru tasemete lähtestamine laos                                          | Globaalne             |
-| Kaupade kvaliteedi kontrollimine                                                      | Globaalne             |
-| Vöötkoodi tüüpide haldamine                                                            | Globaalne             |
-| Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil | Globaalne             |
-| Saabumisülevaate profiilide seadistamine                                                  | Globaalne             |
-| Kvaliteettellimuste seadistamine                                                             | Globaalne             |
-| Kauba või toormaterjali jälgimine                                                     | Globaalne             |
-| Lao füüsiliste varude ülekandmine                                  | Globaalne             |
-
-
- 
 ### <a name="manufacturing"></a>Tootmine
 
-|                                                               |                    |
-|---------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                  | **Riik/regioon** |
-| Kanban-koguse arvutuspoliitika lisamine kanban-reeglile     | Globaalne             |
-| Partii tellimuse elutsükkel loomisest käivitamiseni                    | Globaalne             |
-| Kanban-koguse soovituste arvutamine                         | Globaalne             |
-| Kanban-reeglite muutmine protsessitöö jaoks                         | Globaalne             |
-| Töötaja konfigureerimine mobiili tööseadet kasutades                | Globaalne             |
-| Valemi kopeerimine                                                | Globaalne             |
-| Valemi loomine, kopeerides olemasolevast valemist          | Globaalne             |
-| Tootmisvoo versiooni loomine                              | Globaalne             |
-| Tootmistellimuse loomine                                     | Globaalne             |
-| Müügisündmuse Kanban-reegli loomine                              | Globaalne             |
-| Väärtusvoo loomine                                         | Globaalne             |
-| Tegevuste seose loomine: järgnev tegevus                           | Globaalne             |
-| Operatsiooniressursi loomine                                 | Globaalne             |
-| Fikseeritud kogusega kanban-reeglite loomine                            | Globaalne             |
-| Uute Kanban-reeglite loomine, dubleerides olemasolevaid Kanban-reegleid  | Globaalne             |
-| Lean manufacturingi jaoks töötlemistegevuste loomine              | Globaalne             |
-| Ressursi võimaluste loomine                                  | Globaalne             |
-| Lean manufacturingi jaoks üleviimistegevuste loomine             | Globaalne             |
-| Tööaja plaanimisatribuutide loomine                     | Globaalne             |
-| Tööaja mallide loomine                                 | Globaalne             |
-| Kalendrite ja töökaupade määratlemine                            | Globaalne             |
-| Diskreetse toomise ressursigrupi määratlemine                  | Globaalne             |
-| Lean manufacturingi töörakkude määratlemine                          | Globaalne             |
-| Säästliku graafiku gruppide määratlemine                                   | Globaalne             |
-| Tootmisvoo mudelite määratlemine                                 | Globaalne             |
-| Ressursivõimaluste määratlemine                                  | Globaalne             |
-| Tööajaarvestuse ja palgaarvestuse protsessi aktiveerimine                | Globaalne             |
-| Tootmistellimuse lõpetamine                                        | Globaalne             |
-| Tootmistellimuse hindamine                                   | Globaalne             |
-| Kulusäästlik sidumine müügitellimustelt                                | Globaalne             |
-| Mõõtühiku haldamine                                        | Globaalne             |
-| Ajastatud Kanban-tööde teisaldamine                                    | Globaalne             |
-| Protsessi kanban-töö ettevalmistamine materjalide saadavusel     | Globaalne             |
-| Protsessi kanban-töö ettevalmistamine materjalide mittesaadavusel | Globaalne             |
-| Tootmistellimuse väljastamine                                    | Globaalne             |
-| Kanban-töö eemaldamine graafikust                         | Globaalne             |
-| Tootmistellimuse esitamine lõpetatuna                         | Globaalne             |
-| Edenemise kohta aruande esitamine töö mobiilses seadmes                        | Globaalne             |
-| Kanban-töö oleku taastamine                                      | Globaalne             |
-| Tootmistellimuse plaanimine                                   | Globaalne             |
-| Kanban-tööde plaanimine                                          | Globaalne             |
-| Tootmistellimuse alustamine                                      | Globaalne             |
-| Kanban-töödega materjali ülekandmine                            | Globaalne             |
-| Tootmisvoo ja versiooni kinnitamine                          | Globaalne             |
+| BPM-rida                                                      | Riik/regioon |
+|---------------------------------------------------------------|----------------|
+| Kanban-koguse arvutuspoliitika lisamine kanban-reeglile     | Globaalne         |
+| Partii tellimuse elutsükkel loomisest käivitamiseni                    | Globaalne         |
+| Kanban-koguse soovituste arvutamine                         | Globaalne         |
+| Kanban-reeglite muutmine protsessitöö jaoks                         | Globaalne         |
+| Töötaja konfigureerimine mobiili tööseadet kasutades                | Globaalne         |
+| Valemi kopeerimine                                                | Globaalne         |
+| Valemi loomine, kopeerides olemasolevast valemist          | Globaalne         |
+| Tootmisvoo versiooni loomine                              | Globaalne         |
+| Tootmistellimuse loomine                                     | Globaalne         |
+| Müügisündmuse Kanban-reegli loomine                              | Globaalne         |
+| Väärtusvoo loomine                                         | Globaalne         |
+| Tegevuste seose loomine: järgnev tegevus                           | Globaalne         |
+| Operatsiooniressursi loomine                                 | Globaalne         |
+| Fikseeritud kogusega kanban-reeglite loomine                            | Globaalne         |
+| Uute Kanban-reeglite loomine, dubleerides olemasolevaid Kanban-reegleid  | Globaalne         |
+| Lean manufacturingi jaoks töötlemistegevuste loomine              | Globaalne         |
+| Ressursi võimaluste loomine                                  | Globaalne         |
+| Lean manufacturingi jaoks üleviimistegevuste loomine             | Globaalne         |
+| Tööaja plaanimisatribuutide loomine                     | Globaalne         |
+| Tööaja mallide loomine                                 | Globaalne         |
+| Kalendrite ja töökaupade määratlemine                            | Globaalne         |
+| Diskreetse toomise ressursigrupi määratlemine                  | Globaalne         |
+| Lean manufacturingi töörakkude määratlemine                          | Globaalne         |
+| Säästliku graafiku gruppide määratlemine                                   | Globaalne         |
+| Tootmisvoo mudelite määratlemine                                 | Globaalne         |
+| Ressursivõimaluste määratlemine                                  | Globaalne         |
+| Tööajaarvestuse ja palgaarvestuse protsessi aktiveerimine                | Globaalne         |
+| Tootmistellimuse lõpetamine                                        | Globaalne         |
+| Tootmistellimuse hindamine                                   | Globaalne         |
+| Kulusäästlik sidumine müügitellimustelt                                | Globaalne         |
+| Mõõtühiku haldamine                                        | Globaalne         |
+| Ajastatud Kanban-tööde teisaldamine                                    | Globaalne         |
+| Protsessi kanban-töö ettevalmistamine materjalide saadavusel     | Globaalne         |
+| Protsessi kanban-töö ettevalmistamine materjalide mittesaadavusel | Globaalne         |
+| Tootmistellimuse väljastamine                                    | Globaalne         |
+| Kanban-töö eemaldamine graafikust                         | Globaalne         |
+| Tootmistellimuse esitamine lõpetatuna                         | Globaalne         |
+| Edenemise kohta aruande esitamine töö mobiilses seadmes                        | Globaalne         |
+| Kanban-töö oleku taastamine                                      | Globaalne         |
+| Tootmistellimuse plaanimine                                   | Globaalne         |
+| Kanban-tööde plaanimine                                          | Globaalne         |
+| Tootmistellimuse alustamine                                      | Globaalne         |
+| Kanban-töödega materjali ülekandmine                            | Globaalne         |
+| Tootmisvoo ja versiooni kinnitamine                          | Globaalne         |
 
-
- 
 ### <a name="master-planning"></a>Koondplaneerimine
 
-|                                                   |                    |
-|---------------------------------------------------|--------------------|
-| **BPM-rida**                                      | **Riik/regioon** |
-| Laovaru reeglite määratlemine kaupadele                   | Globaalne             |
-| Alusprognoosi arendamine                         | Globaalne             |
-| Piirangutega plaani loomine                       | Globaalne             |
-| Ülioluliste materjalide ja tarnija võimaluste tuvastamine | Globaalne             |
-| Nõudluse prognoosi käsitsi muutmine                 | Globaalne             |
+| BPM-rida                                          | Riik/regioon |
+|---------------------------------------------------|----------------|
+| Kaubakatte reeglite määratlemine                   | Globaalne         |
+| Alusprognoosi arendamine                         | Globaalne         |
+| Piirangutega plaani loomine                       | Globaalne         |
+| Ülioluliste materjalide ja tarnija võimaluste tuvastamine | Globaalne         |
+| Nõudluse prognoosi käsitsi muutmine                 | Globaalne         |
 
+### <a name="organization-administration"></a>Organisatsiooni haldus
 
- 
-### <a name="organization-administration"></a>Organisatsiooni administreerimine
+| BPM-rida                                  | Riik/regioon |
+|-------------------------------------------|----------------|
+| Ribareklaami või logo muutmine                 | Globaalne         |
+| Aadressiraamatute konfigureerimine                   | Globaalne         |
+| Globaalse aadressiraamatu konfigureerimine         | Globaalne         |
+| Tootmisüksuse loomine                  | Globaalne         |
+| Digitaalallkirjade seadistamine              | Globaalne         |
+| Numbriseeriate häälestamine viisardi abil | Globaalne         |
 
-|                                           |                    |
-|-------------------------------------------|--------------------|
-| **BPM-rida**                              | **Riik/regioon** |
-| Ribareklaami või logo muutmine                 | Globaalne             |
-| Aadressiraamatute konfigureerimine                   | Globaalne             |
-| Globaalse aadressiraamatu konfigureerimine         | Globaalne             |
-| Tootmisüksuse loomine                  | Globaalne             |
-| Digitaalallkirjade seadistamine              | Globaalne             |
-| Numbriseeriate seadistamine viisardit kasutades | Globaalne             |
-
-
- 
 ### <a name="planning"></a>Planeerimine
 
-|                        |                    |
-|------------------------|--------------------|
-| **BPM-rida**           | **Riik/regioon** |
-| Kättesaadavuse kindlaksmääramine | Globaalne             |
+| BPM-rida               | Riik/regioon |
+|------------------------|----------------|
+| Kättesaadavuse kindlaksmääramine | Globaalne         |
 
-
- 
 ### <a name="procurement-and-sourcing"></a>Hanked
 
-|                                                                  |                    |
-|------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                     | **Riik/regioon** |
-| Ostulepingu loomine                                      | Globaalne             |
-| Ostu väljalaskeorderi loomine ostulepingust        | Globaalne             |
-| Ostu väljalaskeorderi loomine ostutellimuse loomisel | Globaalne             |
-| Tarbimistaotluse loomine                             | Globaalne             |
-| Hankija konto loomine                                          | Globaalne             |
-| Hankijate otsimine                                               | Globaalne             |
-| Hankekategooria hierarhia seadistamine                          | Globaalne             |
+| BPM-rida                                                         | Riik/regioon |
+|------------------------------------------------------------------|----------------|
+| Ostulepingu loomine                                      | Globaalne         |
+| Ostu väljalaskeorderi loomine ostulepingu põhjal        | Globaalne         |
+| Ostu väljalaskeorderi loomine ostutellimuse loomisel | Globaalne         |
+| Tarbimistaotluse loomine                             | Globaalne         |
+| Hankija konto loomine                                          | Globaalne         |
+| Hankijate otsimine                                               | Globaalne         |
+| Hankekategooria hierarhia seadistamine                          | Globaalne         |
 
-
- 
 ### <a name="product-information-and-configuration"></a>Tooteteave ja konfigureerimine
 
-|                                                       |                    |
-|-------------------------------------------------------|--------------------|
-| **BPM-rida**                                          | **Riik/regioon** |
-| Arvutuse lisamine toote konfiguratsioonimudelile    | Globaalne             |
-| Toote konfiguratsioonimudeli kinnitamine                 | Globaalne             |
-| Väljastatud tooteetaloni põhiseadistuse lõpuleviimine | Üldine             |
-| Tooteetaloni ..\financial-dimensions\dimension-based loomine               | Üldine             |
-| Tooteklassifikatsiooni hierarhia loomine          | Globaalne             |
-| Toote konfiguratsioonimudeli loomine                  | Globaalne             |
-| Tooteetaloni loomine                               | Globaalne             |
-| Avaldise piirangu loomine                       | Globaalne             |
-| Toote jaoks partii atribuutide loomine                 | Globaalne             |
-| Konfiguratsioonireeglite                            | Globaalne             |
-| Tootemudeli komponentide loomine                       | Globaalne             |
-| Konfiguratsioonigruppide määratlemine                           | Globaalne             |
-| Konfigureerimisprotsessi määratlemine                            | Globaalne             |
-| Toote konfiguratsioonimudeli BOM-i haldamine        | Globaalne             |
-| Tootemudeli protsessi haldamine                    | Üldine             |
-| Väljastatud toodete haldamine                              | Üldine             |
-| Tooteetaloni ..\financial-dimensions\dimension-based väljastamine              | Üldine             |
-| Tootemudelite andmete ülekandmine                      | Globaalne             |
+| BPM-rida                                                           | Riik/regioon |
+|--------------------------------------------------------------------|----------------|
+| Arvutuse lisamine toote konfiguratsioonimudelile                 | Globaalne         |
+| Toote konfiguratsioonimudeli kinnitamine                              | Globaalne         |
+| Väljastatud tooteetaloni põhiseadistuse lõpuleviimine              | Globaalne         |
+| Tooteetaloni ..\\financial-dimensions\\dimension-based loomine  | Globaalne         |
+| Tooteklassifikatsiooni hierarhia loomine                       | Globaalne         |
+| Toote konfiguratsioonimudeli loomine                               | Globaalne         |
+| Tooteetaloni loomine                                            | Globaalne         |
+| Avaldise piirangu loomine                                    | Globaalne         |
+| Toote jaoks partii atribuutide loomine                              | Globaalne         |
+| Konfiguratsioonireeglite                                         | Globaalne         |
+| Tootemudeli komponentide loomine                                    | Globaalne         |
+| Konfiguratsioonigruppide määratlemine                                        | Globaalne         |
+| Konfigureerimisprotsessi määratlemine                                         | Globaalne         |
+| Toote konfiguratsioonimudeli BOM-i haldamine                     | Globaalne         |
+| Tootemudeli protsessi haldamine                                 | Globaalne         |
+| Väljastatud toodete haldamine                                           | Globaalne         |
+| Tooteetaloni ..\\financial-dimensions\\dimension-based väljastamine | Globaalne         |
+| Tootemudelite andmete ülekandmine                                   | Globaalne         |
 
-
- 
 ### <a name="public-sector"></a>Avalik sektor
 
-|                                                                                         |                    |
-|-----------------------------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                                            | **Riik/regioon** |
-| Sertifikaadi tüübi lisamine hankijale avaliku sektori puhul                                  | Globaalne             |
-| Ostulepingutele juurdepääsu juhtimine avaliku sektori puhul                                 | Globaalne             |
-| Arveldusklassifikatsiooni loomine avaliku sektori puhul                                       | Globaalne             |
-| Arvelduskoodi loomine avaliku sektori puhul                                                 | Globaalne             |
-| Eelarvefondi reserveerimiseks kohustuse loomine avaliku sektori puhul                           | Globaalne             |
-| Arvelduskoodi jaoks kohandatud välja loomine avaliku sektori puhul                              | Globaalne             |
-| Fondi tüübi loomine avaliku sektori puhul                                                    | Globaalne             |
-| Ühekordse hankija ja arve loomine avaliku sektori puhul                                  | Globaalne             |
-| Esialgse eelarve loomine avaliku sektori puhul                                           | Globaalne             |
-| Hankija sertifikaadi tüübi loomine avaliku sektori puhul                                    | Globaalne             |
-| Laiendatud pearaamatu kirje loomine avaliku sektori puhul                                       | Globaalne             |
-| Algse eelarve loomine ja seejärel esialgse eelarve kirjete tagasivõtmine avaliku sektori puhul | Globaalne             |
-| Kaubanduse partnerikoodi loomine ja määramine avaliku sektori puhul                              | Globaalne             |
-| Maksearuannete jaoks tiitel- ja allkirjalehtede loomine avaliku sektori puhul                 | Globaalne             |
-| Mitme ühekordse hankija ja arve importimine ja loomine avaliku sektori jaoks              | Globaalne             |
-| Avaliku sektori tuletatud finantshierarhia seadistamine                                  | Globaalne             |
-| Fondi seadistamine avaliku sektori puhul                                                         | Globaalne             |
-| Ostulepingu klassifikatsioonide seadistamine avaliku sektori puhul                             | Globaalne             |
+| BPM-rida                                                                                | Riik/regioon |
+|-----------------------------------------------------------------------------------------|----------------|
+| Sertifikaadi tüübi lisamine hankijale avaliku sektori puhul                                  | Globaalne         |
+| Ostulepingutele juurdepääsu juhtimine avaliku sektori puhul                                 | Globaalne         |
+| Arveldusklassifikatsiooni loomine avaliku sektori puhul                                       | Globaalne         |
+| Arvelduskoodi loomine avaliku sektori puhul                                                 | Globaalne         |
+| Eelarvefondi reserveerimiseks kohustuse loomine avaliku sektori puhul                           | Globaalne         |
+| Arvelduskoodi jaoks kohandatud välja loomine avaliku sektori puhul                              | Globaalne         |
+| Fondi tüübi loomine avaliku sektori puhul                                                    | Globaalne         |
+| Ühekordse hankija ja arve loomine avaliku sektori puhul                                  | Globaalne         |
+| Esialgse eelarve loomine avaliku sektori puhul                                           | Globaalne         |
+| Hankija sertifikaadi tüübi loomine avaliku sektori puhul                                    | Globaalne         |
+| Laiendatud pearaamatu kirje loomine avaliku sektori puhul                                       | Globaalne         |
+| Algse eelarve loomine ja seejärel esialgse eelarve kirjete tagasivõtmine avaliku sektori puhul | Globaalne         |
+| Kaubanduse partnerikoodi loomine ja määramine avaliku sektori puhul                              | Globaalne         |
+| Maksearuannete jaoks tiitel- ja allkirjalehtede loomine avaliku sektori puhul                 | Globaalne         |
+| Mitme ühekordse hankija ja arve importimine ja loomine avaliku sektori jaoks              | Globaalne         |
+| Avaliku sektori tuletatud finantshierarhia seadistamine                                  | Globaalne         |
+| Fondi seadistamine avaliku sektori puhul                                                         | Globaalne         |
+| Ostulepingu klassifikatsioonide seadistamine avaliku sektori puhul                             | Globaalne         |
 
-
- 
 ### <a name="retail-and-commerce"></a>Jaemüük ja kaubandus
 
-|                                                                                           |                    |
-|-------------------------------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                                              | **Riik/regioon** |
-| Varianditoote lisamine ostutellimusele, kasutades variandi kaalu                              | Globaalne             |
-| Alushind ja kaubanduslepped                                                           | Globaalne             |
-| Kategooria hinnakujunduse reeglid, et luua kaubanduslepped                                         | Globaalne             |
-| Väljavõtete arvutamiseks töö konfigureerimine ja käivitamine                                             | Globaalne             |
-| Väljavõtete sisestamiseks töö konfigureerimine ja käivitamine                                                  | Globaalne             |
-| Krediitkaardi töötlemise konfigureerimine                                                          | Globaalne             |
-| Lingitud toodete konfigureerimine                                                                 | Globaalne             |
-| Kassa visuaalse profiili loomine                                                               | Globaalne             |
-| Toote loomine                                                                          | Globaalne             |
-| Tooteetaloni loomine                                                                   | Globaalne             |
-| Seadme loomine ja seostamine                                                             | Globaalne             |
-| Riistvarajaama loomine ja seostamine                                                   | Globaalne             |
-| Kassaregistrite jaoks finantsdimensioonide loomine ja registrites dimensiooniväärtuste konfigureerimine | Globaalne             |
-| Jaemüügikanalite jaoks finantsdimensioonide loomine ja kauplustes dimensiooniväärtuste konfigureerimine  | Globaalne             |
-| Võrgukanali loomine ja kanaliatribuutide määratlemine                                       | Globaalne             |
-| Kassa loagruppide loomine                                                              | Globaalne             |
-| Tootepakendite loomine ja kasutamine ostutellimuses                                         | Globaalne             |
-| Kõnekeskuse kanali ja kanali atribuutide määratlemine                                         | Globaalne             |
-| Kanali atribuutide määratlemine                                                                 | Globaalne             |
-| Püsikliendiprogrammide määratlemine                                                                   | Globaalne             |
-| Püsikliendi preemiapunktide määratlemine                                                              | Globaalne             |
-| Boonusskeemide määratlemine                                                                    | Globaalne             |
-| Organisatsiooniüksuste vaheliste seoste kujundamine                                     | Globaalne             |
-| Kastiaruannete loomine ja nende lõppemine                                                       | Globaalne             |
-| Kaubanduslike allahindluste haldamine klientide puhul                                                      | Globaalne             |
-| Jaemüügi väljavõtete parameetri konfiguratsioonid                                            | Globaalne             |
-| Jaemüügi väljavõtete makse konfiguratsioonid                                              | Globaalne             |
-| Iseteenindus riistvarajaama allalaadimiseks                                         | Globaalne             |
-| Veebimüügi ja -maksete sisestamine                                                      | Globaalne             |
-| Püsikliendi preemiapunkti korrigeerimiste töötlemine                                                  | Globaalne             |
-| Toodete jaotamine jaotuskeskusest kauplusse kesklaost jaotust kasutades                        | Globaalne             |
-| Toote/tooteetaloni väljastamine juriidilistele isikutele                                        | Globaalne             |
-| Jaemüügitoodete hinna korrigeerimised                                                                  | Globaalne             |
-| Jaemüügi väljavõtete konfiguratsioonide salvestamine                                                | Globaalne             |
+| BPM-rida                                                                                  | Riik/regioon |
+|-------------------------------------------------------------------------------------------|----------------|
+| Varianditoote lisamine ostutellimusele, kasutades variandi kaalu                              | Globaalne         |
+| Alushind ja kaubanduslepped                                                           | Globaalne         |
+| Kategooria hinnakujunduse reeglid, et luua kaubanduslepped                                         | Globaalne         |
+| Väljavõtete arvutamiseks töö konfigureerimine ja käivitamine                                             | Globaalne         |
+| Väljavõtete sisestamiseks töö konfigureerimine ja käivitamine                                                  | Globaalne         |
+| Krediitkaardi töötlemise konfigureerimine                                                          | Globaalne         |
+| Lingitud toodete konfigureerimine                                                                 | Globaalne         |
+| Kassa visuaalse profiili loomine                                                               | Globaalne         |
+| Toote loomine                                                                          | Globaalne         |
+| Tooteetaloni loomine                                                                   | Globaalne         |
+| Seadme loomine ja seostamine                                                             | Globaalne         |
+| Riistvarajaama loomine ja seostamine                                                   | Globaalne         |
+| Kassaregistrite jaoks finantsdimensioonide loomine ja registrites dimensiooniväärtuste konfigureerimine | Globaalne         |
+| Jaemüügikanalite jaoks finantsdimensioonide loomine ja kauplustes dimensiooniväärtuste konfigureerimine  | Globaalne         |
+| Võrgukanali loomine ja kanaliatribuutide määratlemine                                       | Globaalne         |
+| Kassa loagruppide loomine                                                              | Globaalne         |
+| Tootepakendite loomine ja kasutamine ostutellimuses                                         | Globaalne         |
+| Kõnekeskuse kanali ja kanali atribuutide määratlemine                                         | Globaalne         |
+| Kanali atribuutide määratlemine                                                                 | Globaalne         |
+| Püsikliendiprogrammide määratlemine                                                                   | Globaalne         |
+| Püsikliendi preemiapunktide määratlemine                                                              | Globaalne         |
+| Boonusskeemide määratlemine                                                                    | Globaalne         |
+| Organisatsiooniüksuste vaheliste seoste kujundamine                                     | Globaalne         |
+| Kastiaruannete loomine ja nende lõppemine                                                       | Globaalne         |
+| Kaubanduslike allahindluste haldamine klientide puhul                                                      | Globaalne         |
+| Jaemüügi väljavõtete parameetri konfiguratsioonid                                            | Globaalne         |
+| Jaemüügi väljavõtete makse konfiguratsioonid                                              | Globaalne         |
+| Iseteenindus riistvarajaama allalaadimiseks                                         | Globaalne         |
+| Veebimüügi ja -maksete sisestamine                                                      | Globaalne         |
+| Püsikliendi preemiapunkti korrigeerimiste töötlemine                                                  | Globaalne         |
+| Toodete jaotamine jaotuskeskusest kauplusse kesklaost jaotust kasutades                        | Globaalne         |
+| Toote/tooteetaloni väljastamine juriidilistele isikutele                                        | Globaalne         |
+| Jaemüügitoodete hinna korrigeerimised                                                                  | Globaalne         |
+| Jaemüügi väljavõtete kauplusekonfiguratsioonid                                                | Globaalne         |
 
-
- 
 ### <a name="sales"></a>Müük
 
-|                                            |                    |
-|--------------------------------------------|--------------------|
-| **BPM-rida**                               | **Riik/regioon** |
-| Müügitellimuste kinnitamine                       | Globaalne             |
-| Uue kaubandusleppe loomine               | Globaalne             |
-| Ostutellimuse loomine müügitellimuselt | Globaalne             |
-| Müügipakkumiste loomine ja redigeerimine           | Globaalne             |
-| Tarnegraafiku loomine                   | Globaalne             |
-| Müügilepingute sisestamine                     | Globaalne             |
-| Müügilepingute täitmine                   | Globaalne             |
-| Kliendi tagasimaksete loomine ja töötlemine      | Globaalne             |
-| Kohaldatavate hindade ja allahindluste otsimine    | Globaalne             |
-| Loo müügipakkumised hulgi               | Globaalne             |
-| Makse tagasimaksete töötlemine                | Globaalne             |
-| Müügi komisjonitasude registreerimine                 | Globaalne             |
-| Müügi komisjonitasu reeglite seadistamine              | Globaalne             |
-| Tellimuste lähetamine otsetarnetena           | Globaalne             |
-| Müügitellimuste lähetamine ladustamata      | Globaalne             |
+| BPM-rida                                   | Riik/regioon |
+|--------------------------------------------|----------------|
+| Müügitellimuste kinnitamine                       | Üldine         |
+| Uue kaubandusleppe loomine               | Globaalne         |
+| Ostutellimuse loomine müügitellimuselt | Globaalne         |
+| Müügipakkumiste loomine ja redigeerimine           | Globaalne         |
+| Tarnegraafiku loomine                   | Globaalne         |
+| Müügilepingute sisestamine                     | Globaalne         |
+| Müügilepingute täitmine                   | Globaalne         |
+| Kliendi tagasimaksete loomine ja töötlemine      | Globaalne         |
+| Kohaldatavate hindade ja allahindluste otsimine    | Globaalne         |
+| Loo müügipakkumised hulgi               | Globaalne         |
+| Makse tagasimaksete töötlemine                | Globaalne         |
+| Müügi komisjonitasude registreerimine                 | Globaalne         |
+| Müügi komisjonitasu reeglite seadistamine              | Globaalne         |
+| Tellimuste lähetamine otsetarnetena           | Globaalne         |
+| Müügitellimuste lähetamine ladustamata      | Üldine         |
 
-
- 
 ### <a name="sales-tax"></a>Käibemaks
 
-|                                                    |                    |
-|----------------------------------------------------|--------------------|
-| **BPM-rida**                                       | **Riik/regioon** |
-| Käibemaksu arvutamine ja korrigeerimine hankija arvel | Globaalne             |
-| Käibemaksu makse loomine                         | Globaalne             |
-| Käibemaksukannete loomine dokumentidel         | Globaalne             |
-| Pearaamatu käibemaksu sisestusgruppide seadistamine         | Globaalne             |
-| Maksuhaldurite seadistamine                       | Globaalne             |
-| Saate häälestada käibemaksukoode.                             | Globaalne             |
-| Käibemaksugruppide ja kauba käibemaksugruppide häälestamine  | Globaalne             |
-| Saate häälestada käibemaksuaruandluse koode.                   | Globaalne             |
-| Saate häälestada käibemaksu tasakaalustusperioode.                | Globaalne             |
-| Kinnipeetava maksu häälestamine                             | Globaalne             |
-| Sisestatud käibemaksukannete kuvamine                 | Globaalne             |
+| BPM-rida                                           | Riik/regioon |
+|----------------------------------------------------|----------------|
+| Käibemaksu arvutamine ja korrigeerimine hankija arvel | Globaalne         |
+| Käibemaksu makse loomine                         | Globaalne         |
+| Käibemaksukannete loomine dokumentidel         | Globaalne         |
+| Pearaamatu käibemaksu sisestusgruppide seadistamine         | Globaalne         |
+| Maksuhaldurite seadistamine                       | Globaalne         |
+| Saate häälestada käibemaksukoode.                             | Globaalne         |
+| Käibemaksugruppide ja kauba käibemaksugruppide häälestamine  | Globaalne         |
+| Saate häälestada käibemaksuaruandluse koode.                   | Globaalne         |
+| Saate häälestada käibemaksu tasakaalustusperioode.                | Globaalne         |
+| Kinnipeetava maksu häälestamine                             | Globaalne         |
+| Sisestatud käibemaksukannete kuvamine                 | Globaalne         |
 
-
- 
 ### <a name="security"></a>Turvalisus
 
-|                                                         |                    |
-|---------------------------------------------------------|--------------------|
-| **BPM-rida**                                            | **Riik/regioon** |
-| Uute kasutajate loomine                                        | Globaalne             |
-| Konfliktide tuvastamine ja lahendamine kohustuste jagamisel | Globaalne             |
-| Kohustuste jagamise seadistamine                            | Globaalne             |
+| BPM-rida                                                | Riik/regioon |
+|---------------------------------------------------------|----------------|
+| Uute kasutajate loomine                                        | Globaalne         |
+| Konfliktide tuvastamine ja lahendamine kohustuste jagamisel | Globaalne         |
+| Kohustuste jagamise seadistamine                            | Globaalne         |
 
-
- 
 ### <a name="warehouse-and-transportation"></a>Ladu ja transport
 
-|                                                                                   |                    |
-|-----------------------------------------------------------------------------------|--------------------|
-| **BPM-rida**                                                                      | **Riik/regioon** |
-| Kütuseindeksi seostamine vedajaga lisatasuna                    | Globaalne             |
-| Asukohtade konfigureerimine WMS-loaga laos                                    | Globaalne             |
-| Tööklassi loomine                                                               | Globaalne             |
-| Tsüklilise inventuuri määratlemine                                                             | Globaalne             |
-| Litsentsiplaadi sildi printimise lubamine                                               | Globaalne             |
-| Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil | Globaalne             |
-| Vedaja kütuseindeksi seadistamine                                                       | Globaalne             |
-| Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku puhul                           | Globaalne             |
-| Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks       | Globaalne             |
-| Mobiilse seadme menüüelemendi seadistamine saabunud kaupade registreerimiseks                       | Globaalne             |
-| Ostutellimuste töömalli seadistamine                                        | Globaalne             |
-| Lisade määrangute seadistamine                                                    | Globaalne             |
-| Likvideerimiskoodide seadistamine                                                         | Globaalne             |
-| Keskuse lisatasude ja lisade koondandmete seadistamine                            | Globaalne             |
-| Koondmäärade häälestamine                                                               | Globaalne             |
-| Kättetoimetamisettevõtte seadistus                                                          | Globaalne             |
-| Koorma planeerimise töölaua kasutamine koormate ja saadetiste plaanimiseks                       | Globaalne             |
+| BPM-rida                                                                          | Riik/regioon |
+|-----------------------------------------------------------------------------------|----------------|
+| Kütuseindeksi seostamine vedajaga lisatasuna                    | Globaalne         |
+| Asukohtade konfigureerimine WMS-loaga laos                                    | Globaalne         |
+| Tööklassi loomine                                                               | Globaalne         |
+| Tsüklilise inventuuri määratlemine                                                             | Globaalne         |
+| Litsentsiplaadi sildi printimise lubamine                                               | Globaalne         |
+| Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil | Globaalne         |
+| Vedaja kütuseindeksi seadistamine                                                       | Globaalne         |
+| Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku puhul                           | Globaalne         |
+| Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks       | Globaalne         |
+| Mobiilse seadme menüüelemendi seadistamine saabunud kaupade registreerimiseks                       | Globaalne         |
+| Ostutellimuste töömalli seadistamine                                        | Globaalne         |
+| Lisade määrangute seadistamine                                                    | Globaalne         |
+| Likvideerimiskoodide seadistamine                                                         | Globaalne         |
+| Keskuse lisatasude ja lisade koondandmete seadistamine                            | Globaalne         |
+| Koondmäärade häälestamine                                                               | Globaalne         |
+| Kättetoimetamisettevõtte seadistus                                                          | Globaalne         |
+| Koorma planeerimise töölaua kasutamine koormate ja saadetiste plaanimiseks                       | Globaalne         |
 
-
- 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Tegevusjuhised (2016. a. veebruari) teegis Alustamine
 
-|                                                    |                    |
-|----------------------------------------------------|--------------------|
-| **BPM-rida**                                       | **Riik/regioon** |
-| Pearaamatusaldode analüüsimine                            | Globaalne             |
-| Väljastatud toote loomine ühe ettevõtte puhul     | Globaalne             |
-| Tootmistellimuse loomine ja planeerimine             | Globaalne             |
-| Tõhus turustus                            | Globaalne             |
-| Elektrooniline aruandlus                               | Globaalne             |
-| Töötaja iseteenindus                              | Globaalne             |
-| Kuidas vähendada oma laekumata müügi päevi?          | Globaalne             |
-| Sissejuhatus AX-i lokaliseerimisfunktsioonidesse      | Globaalne             |
-| Sissejuhatus Jaapani riigikohastesse funktsioonidesse | Jaapan              |
-| Hindade ja kampaaniate haldamine                      | Globaalne             |
-| Juhi iseteenindus                               | Globaalne             |
-| Projektide ülevaade                                  | Üldine             |
-| Kanalite häälestamine ja konfigureerimine                      | Üldine             |
+| BPM-rida                                           | Riik/regioon |
+|----------------------------------------------------|----------------|
+| Pearaamatusaldode analüüsimine                            | Globaalne         |
+| Väljastatud toote loomine ühe ettevõtte jaoks     | Globaalne         |
+| Tootmistellimuse loomine ja planeerimine             | Globaalne         |
+| Tõhus turustus                            | Globaalne         |
+| Elektrooniline aruandlus                               | Globaalne         |
+| Töötaja iseteenindus                              | Globaalne         |
+| Kuidas vähendada oma laekumata müügi päevi?          | Globaalne         |
+| Sissejuhatus AX-i lokaliseerimisfunktsioonidesse      | Globaalne         |
+| Sissejuhatus Jaapani riigikohastesse funktsioonidesse | Jaapan          |
+| Hindade ja kampaaniate haldamine                      | Globaalne         |
+| Juhi iseteenindus                               | Globaalne         |
+| Projektide ülevaade                                  | Üldine         |
+| Kanalite häälestamine ja konfigureerimine                      | Üldine         |
 
- 
-
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)
-
-
-
 
