@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
 ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,58 +31,62 @@ ms.lasthandoff: 03/07/2018
 
 [!include [banner](includes/banner.md)]
 
-Rakenduses Microsoft Dynamics for Retail 365 kasutatakse väljavõtte sisestamise protsessi pilvekassas ja uudses kassas toimuvate kannete arvestamiseks. Väljavõtte sisestamise protsess kasutab jaotusgraafikut, et tõmmata kassa kannete komplekt peakontori klienti. Lehtedel **Jaemüügi parameetrid** ja **Kauplused** määratletud parameetreid kasutatakse üksikutesse väljavõtetesse tõmmatavate kannete valimiseks.  
+Rakenduses Microsoft Dynamics for Retail 365 kasutatakse väljavõtte sisestamise protsessi pilvekassas ja uudses kassas toimuvate kannete arvestamiseks. Väljavõtte sisestamise protsess kasutab jaotusgraafikut, et tõmmata kassa kannete komplekt peakontori klienti. Lehtedel **Jaemüügi parameetrid** ja **Kauplused** määratletud parameetreid kasutatakse üksikutesse väljavõtetesse tõmmatavate kannete valimiseks.
 
-Järgmine joonis illustreerib väljavõtte sisestamise protsessi. Selles protsessis edastatakse kassas salvestatud kanded kliendile Kaupluse andmeedastaja abil. Pärast seda, kui klient on kanded kätte saanud, saate luua, arvutada ja sisestada kaupluse kannete väljavõtte. 
+Järgmine joonis illustreerib väljavõtte sisestamise protsessi. Selles protsessis edastatakse kassas salvestatud kanded kliendile Kaupluse andmeedastaja abil. Pärast seda, kui klient on kanded kätte saanud, saate luua, arvutada ja sisestada kaupluse kannete väljavõtte.
 
 [![Väljavõtte sisestamise protsess](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Väljavõtete loomine ja sisestamine
+
 Saate luua väljavõtte käsitsi või päeva jooksul perioodiliselt käivituma seadistatud pakktöötlust kasutades. Mõlemal juhul kasutatakse väljavõtete loomiseks ja sisestamiseks järgmisi toiminguid.
 
-###  <a name="create-the-statement"></a>Väljavõtte loomine
-Selles etapis identifitseeritakse kauplus, millele väljavõte käsitsi luuakse. Pakktöötluse konfigureerimisel saate luua automaatselt väljavõtteid kõigi kaupluste kohta enda määratud ajakava alusel. 
+### <a name="create-the-statement"></a>Väljavõtte loomine
+
+Selles etapis identifitseeritakse kauplus, millele väljavõte käsitsi luuakse. Pakktöötluse konfigureerimisel saate luua automaatselt väljavõtteid kõigi kaupluste kohta enda määratud ajakava alusel.
 
 ### <a name="calculate-the-statement"></a>Väljavõtte arvutamine
-Selles etapis valitakse kanderead lehtedel **Jaemüügi parameetrid** ja **Kauplused** igale kauplusele määratletud kriteeriumide alusel. Neil lehtedel saate määratleda kriteeriumid ja määrata, kuidas kandeid arvutatakse. Väljavõttesse kaasatud kannete loendi vaatamiseks enne väljavõtte arvutamist kasutage lehte **Kanded**. 
 
-Väljavõtte arvutamisel kasutatakse loendatud summana registrite päevakassasid. Loetud summa saab sisestada ka käsitsi. Väljavõttel kuvatakse kõikide maksemeetodite kannete müügisumma ja tegeliku loendatud summa vahe. Väljavõte sisestatakse ainult juhul, kui erinevus on väiksem kui kaupluse puhul määratletud maksimaalne sisestuse erinevus. 
+Selles etapis valitakse kanderead lehtedel **Jaemüügi parameetrid** ja **Kauplused** igale kauplusele määratletud kriteeriumide alusel. Neil lehtedel saate määratleda kriteeriumid ja määrata, kuidas kandeid arvutatakse. Väljavõttesse kaasatud kannete loendi vaatamiseks enne väljavõtte arvutamist kasutage lehte **Kanded**.
+
+Väljavõtte arvutamisel kasutatakse loendatud summana registrite päevakassasid. Loetud summa saab sisestada ka käsitsi. Väljavõttel kuvatakse kõikide maksemeetodite kannete müügisumma ja tegeliku loendatud summa vahe. Väljavõte sisestatakse ainult juhul, kui erinevus on väiksem kui kaupluse puhul määratletud maksimaalne sisestuse erinevus.
 
 > [!NOTE]
 > Väljavõtte arvutamise protsess kasutab globaalset numbriseeriat.
 
 Väljavõtte arvutamisel hõlmab arvutus järgmisi ülesandeid.
 
-- Märkige valitud kuupäevavahemiku kohta kanded, mida eelmise väljavõtte arvutusse ei kaasatud. 
+- Märkige valitud kuupäevavahemiku kohta kanded, mida eelmise väljavõtte arvutusse ei kaasatud.
 - Arvutage valitud kannete puhul makstud kogusummad. Tulemused kuvatakse väljavõtte ridadel, olenevalt väljavõtte meetodist.
 
-  - Kui väljavõtte meetod on **Kokku**, luuakse valitud kannetes iga makseviisi jaoks üks rida. 
-  - Kui väljavõtte meetod on **Personal**, luuakse iga makseviisi jaoks üks rida kannetes, mille sooritas valitud personali liige. 
-  - Kui väljavõtte meetod on **Kassaterminal**, luuakse iga makseviisi jaoks üks rida kannetes, mis sooritati valitud registris. 
-  - Kui väljavõtte meetod on **Vahetus**, luuakse iga makseviisi jaoks üks rida kannetes, mis sooritati vahetuse jooksul.
+    - Kui väljavõtte meetod on **Kokku**, luuakse valitud kannetes iga makseviisi jaoks üks rida.
+    - Kui väljavõtte meetod on **Personal**, luuakse iga makseviisi jaoks üks rida kannetes, mille sooritas valitud personali liige.
+    - Kui väljavõtte meetod on **Kassaterminal**, luuakse iga makseviisi jaoks üks rida kannetes, mis sooritati valitud registris.
+    - Kui väljavõtte meetod on **Vahetus**, luuakse iga makseviisi jaoks üks rida kannetes, mis sooritati vahetuse jooksul.
 
 Kui lehel **Kauplused** on märgitud ruut **Tükelda väljavõtte meetodi alusel**, luuakse eraldi väljavõte, võttes aluseks väljal **Väljavõtte meetod** valitud väärtuse.
 
-Kui teie kaupluse töötunnid ületavad kesköö, saate konfigureerida väljavõtte sisestamist nii, et see põhineb kalendripäeva lõpu asemel tööpäeva lõpu seisul. 
+Kui teie kaupluse töötunnid ületavad kesköö, saate konfigureerida väljavõtte sisestamist nii, et see põhineb kalendripäeva lõpu asemel tööpäeva lõpu seisul.
 
-Sisestage lehe **Kauplused** kiirkaardi **Väljavõte/sulgemine** väljal **Tööpäeva lõpp** aeg, millal viimane kanne tuleb salvestada, et see kaasataks tööpäeva väljavõttesse. Märkige ruut **Sisesta tööpäevana** kannete sisestamiseks sama tööpäeva jooksul. Väljavõtte sisestamisel saab sama tööpäeva jooksul salvestatud kanded kaasata samasse müügitellimusse, isegi kui mõni kanne toimub enne keskööd ja mõni pärast keskööd. 
+Sisestage lehe **Kauplused** kiirkaardi **Väljavõte/sulgemine** väljal **Tööpäeva lõpp** aeg, millal viimane kanne tuleb salvestada, et see kaasataks tööpäeva väljavõttesse. Märkige ruut **Sisesta tööpäevana** kannete sisestamiseks sama tööpäeva jooksul. Väljavõtte sisestamisel saab sama tööpäeva jooksul salvestatud kanded kaasata samasse müügitellimusse, isegi kui mõni kanne toimub enne keskööd ja mõni pärast keskööd.
 
-#### <a name="example-post-a-statement-for-a-business-day-that-extends-over-two-calendar-days"></a>Näide: väljavõtte sisestamine tööpäeva kohta, mis hõlmab kahte kalendripäeva 
+#### <a name="example-post-a-statement-for-a-business-day-that-extends-over-two-calendar-days"></a>Näide: väljavõtte sisestamine tööpäeva kohta, mis hõlmab kahte kalendripäeva
 
-Kauplus on avatud 8.00 kuni 03.00 ja kaupluse konfiguratsioonis on ruut **Sisesta tööpäevana** märgitud. 31. mail salvestab kauplus kandeid ajavahemikus 8.00 kuni kesköö. Kauplus salvestab ka kandeid 1. juunil ajavahemikus 00.01 kuni 03.00. 
+Kauplus on avatud 8.00 kuni 03.00 ja kaupluse konfiguratsioonis on ruut **Sisesta tööpäevana** märgitud. 31. mail salvestab kauplus kandeid ajavahemikus 8.00 kuni kesköö. Kauplus salvestab ka kandeid 1. juunil ajavahemikus 00.01 kuni 03.00.
 
-Kui kauplus sisestab väljavõtte tööpäeva sulgemise seisuga, hõlmab loodav müügitellimus kõiki kandeid, mis salvestati töötundidel 08.00 kuni 03.00, kuigi kanded toimusid kahel päeval, 31. mail ja 1. juunil. 
+Kui kauplus sisestab väljavõtte tööpäeva sulgemise seisuga, hõlmab loodav müügitellimus kõiki kandeid, mis salvestati töötundidel 08.00 kuni 03.00, kuigi kanded toimusid kahel päeval, 31. mail ja 1. juunil.
 
 Kui sama kaupluse puhul on märkeruut **Sisesta tööpäevana** tühi, luuakse eraldi müügitellimused, kui kauplus sisestab oma tööpäeva lõpu väljavõtte. Üks müügitellimus sisaldab kandeid, mis registreeriti 31. mail töötundidel 8.00 kuni kesköö ja teine müügitellimus sisaldab kandeid, mis registreeriti 1. juunil ajavahemikus 00.01. kuni 03.00.
- 
+
 > [!NOTE]
-> Enne väljavõtete loomist tuleb sulgeda väljavõtte perioodi vahetused. 
+> Enne väljavõtete loomist tuleb sulgeda väljavõtte perioodi vahetused.
 
 ### <a name="post-the-statement"></a>Väljavõtte sisestamine
+
 Väljavõtte sisestamisel luuakse väljavõtte jaemüügi müügitellimused ja arved.
 
-- Sularahamüük koondatakse ühele müügitellimusele ja selle eest esitatakse arve kauplusele määratud vaikekliendile. 
-- Jaemüük, mille puhul klient lisati kandele rakenduses Microsoft Dynamics 365 for Retail POS, luuakse eraldi müügitellimused ja arved, üks iga kordumatu kliendi jaoks. 
+- Sularahamüük koondatakse ühele müügitellimusele ja selle eest esitatakse arve kauplusele määratud vaikekliendile.
+- Jaemüük, mille puhul klient lisati kandele rakenduses Microsoft Dynamics 365 for Retail POS, luuakse eraldi müügitellimused ja arved, üks iga kordumatu kliendi jaoks.
 
 Makse töölehed luuakse väljavõtte maksetele automaatselt ja kassa kaupluse varud uuendatakse.
 

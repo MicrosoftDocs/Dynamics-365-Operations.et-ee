@@ -3,7 +3,7 @@ title: "Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine"
 description: "See funktsioon on mõeldud nende tööandjate abistamiseks, kellel on vaja jälgida vormidel 1095-B ja 1095-C esitatud teavet taskukohase ravikindlustuse eelnõu tööandja kohustuse osa toetamiseks. Pange tähele, et see funktsioon on lubatud ainult Ameerika Ühendriikide juriidiliste isikute puhul."
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 12/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
+ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
+ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/17/2018
 
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine
@@ -54,7 +54,7 @@ Lehel **Ülalpeetava kindlustuse kuupäevahaldur** saate märkida kuupäevad, mi
 ## <a name="generate-1095b-and-1095c-forms"></a>Vormide 1095B ja 1095C loomine
 Tootest saab luua ka vormid 109-B ja 1095-C ning jaotada need igale töötajale. Süsteemis saab luua elektrooniliselt ka edastusfaili 1095-C ja vastava faili 1094-C, mida saab kasutada IRS-ile saatmiseks.  
 
-Vormi 1095-C loomisel sisestage sobiv kalender või maksuaasta ja see, kas soovite printida kahest või kolmest lehest koosneva vormi. Kolmest lehest koosnev vorm on vajalik ainult juhul, kui tööandja pakkus enda kindlustust ja töötajal on tema endaga koos üle kuue kaitstud ülalpeetava. Kui töötajal on üle 6 kaitstud ülalpeetava, tuvastab süsteem kahest lehest koosneva vormi loomisel selle automaatselt ega lisa vormi loomisel seda töötajat. Peale selle lisab süsteem kolmest lehest koosneva vormi loomisel ainult need töötajad, kellel on üle kuue kaitstud ülalpeetava.
+1095-C vormi loomisel sisestage asjakohane maksuaasta ja näidake, kas isikukood peaks olema varjatud. Rohkem kui 500 töötaja 1095-C vormi printimisel saate rohkem kui ühe PDF-faili. On soovitatav, et suurendate väärtust **Faili maksimummaht** aknas **Dokumendihalduse parameetrid** väärtuseni 150 MB.
 
 ## <a name="viewing-information"></a>Teabe vaatamine
 Lehelt **Töötaja taskukohane ravikindlustus** saate vaadata, millised töötajad on igasse kindlustusgruppi määratud, milliseid töötajaid pole vaja aruandesse lisada ja millised töötajad on määramata.

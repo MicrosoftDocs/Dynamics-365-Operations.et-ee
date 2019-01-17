@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -32,29 +32,36 @@ ms.lasthandoff: 08/08/2018
 
 Selles artiklis kirjeldatakse, kuidas vaadata väljade kirjeldusi ja kuidas kasutada väljade kirjelduste lehte kirjelduste eksportimiseks.
 
-Microsoft Dynamics 365 for Finance and Operationsis on antud mõne keerukama välja kirjeldused. Need kirjeldused kuvatakse, kui liigute välja kohale. Väljade kirjeldusi saab vaadata ja eksportida ka lehel **Väljade kirjeldused**. 
+Microsoft Dynamics 365 for Finance and Operationsis on antud mõne keerukama välja kirjeldused. Need kirjeldused kuvatakse, kui liigute välja kohale. Väljade kirjeldusi saab vaadata ja eksportida ka lehel **Väljade kirjeldused**.
 
-Kõigil lehekülgedel ei ole väljade kirjeldusi. Soovime pakkuda kirjeldusi ainult keerukamate väljade jaoks, mitte nende väljade jaoks, mille kasutamine on ilmselge. Seetõttu pole mõnel lehel väljade kirjeldusi, mõnel lehel on mõned kirjeldused ja mõnel keerukamal lehel (nt paljudel parameetrilehtedel) on palju kirjeldusi. 
+Kõigil lehekülgedel ei ole väljade kirjeldusi. Soovime pakkuda kirjeldusi ainult keerukamate väljade jaoks, mitte nende väljade jaoks, mille kasutamine on ilmselge. Seetõttu pole mõnel lehel väljade kirjeldusi, mõnel lehel on mõned kirjeldused ja mõnel keerukamal lehel (nt paljudel parameetrilehtedel) on palju kirjeldusi.
 
 Kui teil on juurdepääs Finance and Operationsi arenduskeskkonnale, saate lisada uusi väljade kirjeldusi ja kohandada olemasolevaid kirjeldusi. Näiteks saate lisada välja kirjeldusele ettevõttepõhist teavet. Lisateavet leiate jaotisest [Välja spikri kohandamine](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Väljakirjelduste vaatamine kasutajaliideses
-Välja kirjelduse vaatamiseks liikuge välja kohale. Kui kirjeldus puudub, näete välja kohale liikudes välja nime. (Märkus. Dynamics AX-i versioonis 7.0 (veebruar 2016) saab välja kirjeldusi vaadata ainult lehel **Välja kirjeldused**.) Järgmine joonis näitab välja kirjeldust, mis ilmub, kui liigutate kursori välja **Lukusta kaubad inventuuri ajaks** kohale. 
+
+Välja kirjelduse vaatamiseks liikuge välja kohale. Kui kirjeldus puudub, näete välja kohale liikudes välja nime.
+
+> [!NOTE]
+> Dynamics AX-i versioonis 7.0 (veebruar 2016) saab väljakirjeldusi vaadata ainult lehel **Väljade kirjeldused**.
+
+Järgmisel joonisel on näha väljakirjeldus, mis kuvatakse, kui liigute välja **Lukusta kaubad inventuuri ajaks** kohale.
 
 [![Väljakirjelduse näide](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Kasutage lehte Väljade kirjeldused väljaspikri vaatamiseks ja eksportimiseks
+
 Leht **Väljade kirjeldused** võimaldab väljade kirjeldusi vaadata ja eksportida. Saate korraga vaadata ühe lehe jaoks saadaolevaid kirjeldusi.
 
 ### <a name="view-the-descriptions-for-a-page"></a>Vaadake lehe kirjeldusi
 
 Lehe kirjelduste vaatamiseks tehke järgmist.
 
--   Sisestage väljale **Lehe valimine** lehe nimi. Teise võimalusena klõpsake noolt kõigi lehtede loendi avamiseks ja seejärel sirvige või filtreerige loendit.
+- Sisestage väljale **Lehe valimine** lehe nimi. Teise võimalusena klõpsake noolt kõigi lehtede loendi avamiseks ja seejärel sirvige või filtreerige loendit.
 
-Saate kasutada kasutajaliideses kuvatavat lehe nime (nt **Kliendid**) või lehe koodnime (AOT-nime), mis on kättesaadav lehele paremklõpsates (nt **CustTable**). 
+Saate kasutada kasutajaliideses kuvatavat lehe nime (nt **Kliendid**) või lehe koodnime (AOT-nime), mis on kättesaadav lehele paremklõpsates (nt **CustTable**).
 
-Teavet mitmesuguste võimaluste kohta lehtede loendi filtreerimiseks leiate selle artikli edasisest osast „Lehe otsimine”. 
+Teavet mitmesuguste võimaluste kohta lehtede loendi filtreerimiseks leiate selle artikli edasisest osast „Lehe otsimine”.
 
 Kui määrate valiku **Kaasa ilma kirjelduseta väljad** väärtuseks **Jah**, kuvatakse kõik lehe väljad, olenemata sellest, kas neil on kirjeldus.
 
@@ -62,23 +69,25 @@ Kui määrate valiku **Kaasa ilma kirjelduseta väljad** väärtuseks **Jah**, k
 
 Kirjelduste eksportimiseks tehke järgmist.
 
-1.  Valige leht väljalt **Lehe valimine**.
-2.  Klõpsake nuppu **Ava Microsoft Office’is** ülemises parempoolses nurgas ja klõpsake siis valikut **FieldDescriptionTmp**.
+1. Valige leht väljalt **Lehe valimine**.
+2. Klõpsake nuppu **Ava Microsoft Office’is** ülemises parempoolses nurgas ja klõpsake siis valikut **FieldDescriptionTmp**.
 
 ### <a name="searching-for-a-page"></a>Lehe otsimine
 
 Lehe otsimiseks väljal **Lehe valimine** on mitu võimalust. Paljudel juhtudel tuleb klõpsata noolt väljal **Lehe valimine**, et avada ripploend ja valida siis filtreeritud lehtede loendist.
 
--   Sisestage nime osa ning avage siis ripploend, et filtreeritud lehtede loendist valida.
--   Avage ripploend ja klõpsake siis pealkirja **Lehe nimi** loendi ülaosas või pealkirja **Lehe AOT-nimi**. Avaneb dialoogiboks, kus saate kasutada täpsema filtreerimise valikuid, nt **Lehe nimi algab tähega**.
--   Sisestage lehe täisnimi Selle valiku kasutamisel tasub avada ripploend ja vaadata, mida see veel sisaldab, ka siis, kui väljade kirjeldused on nähtavad.
-    -   Kui nimele on üks täpne vaste, näidatakse selle lehe väljade kirjeldusi.
-    -   Kui on mitu täpset vastet, ei kuvata ühtegi kirjeldust. Peate ripploendi avama ja valima soovitud lehe.
-    -   Kui sisestatud lehe nimi on osa teise lehe nimest, näete oma lehe kirjeldusi. Kuid kui avate ripploendi, siis näete veel lehti, mis seda nime sisaldavad.
+- Sisestage nime osa ning avage siis ripploend, et filtreeritud lehtede loendist valida.
+- Avage ripploend ja klõpsake siis pealkirja **Lehe nimi** loendi ülaosas või pealkirja **Lehe AOT-nimi**. Avaneb dialoogiboks, kus saate kasutada täpsema filtreerimise valikuid, nt **Lehe nimi algab tähega**.
+- Sisestage lehe täisnimi Selle valiku kasutamisel tasub avada ripploend ja vaadata, mida see veel sisaldab, ka siis, kui väljade kirjeldused on nähtavad.
 
-Näiteks ei kuvata ühtegi kirjeldust, kui sisestate sõna <strong>Inventuur</strong> väljale *<strong><em>Lehe valimine</em></strong>*. Avate ripploendi ja näete, et on olemas kaks lehte nimega <strong>Inventuur</strong> ja mitu lehte, mille nimes on sõna „inventuur”. Kui valite lehe, mille AOT-nimi on <strong>InventJournalCount</strong>, kuvatakse selle lehe väljade kirjeldused. Kui aga ripploendi uuesti avate, näete, et loend sisaldab nüüd kõiki lehti, mille AOT-nime osa on „InventJournalCount”.
+    - Kui nimele on üks täpne vaste, näidatakse selle lehe väljade kirjeldusi.
+    - Kui on mitu täpset vastet, ei kuvata ühtegi kirjeldust. Peate ripploendi avama ja valima soovitud lehe.
+    - Kui sisestatud lehe nimi on osa teise lehe nimest, näete oma lehe kirjeldusi. Kuid kui avate ripploendi, siis näete veel lehti, mis seda nime sisaldavad.
+
+Näiteks ei kuvata ühtegi kirjeldust, kui sisestate sõna **Inventuur** väljale **Lehe valimine**. Avate ripploendi ja näete, et on olemas kaks lehte nimega **Inventuur** ja mitu lehte, mille nimes on sõna „inventuur”. Kui valite lehe, mille AOT-nimi on **InventJournalCount**, kuvatakse selle lehe väljade kirjeldused. Kui aga ripploendi uuesti avate, näete, et loend sisaldab nüüd kõiki lehti, mille AOT-nime osa on „InventJournalCount”.
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
+
 Selles jaotises on teave, mis on abiks veaotsingul probleemide osas, millega võite väljade kirjelduste kasutamisel kokku puutuda.
 
 ### <a name="i-cant-find-a-field-description"></a>Ma ei leia välja kirjeldust
@@ -97,12 +106,7 @@ Kõigi väljade kuvamiseks lehel määrake valiku **Kaasa ilma kirjelduseta väl
 
 Teavet mitmesuguste võimaluste kohta lehtede otsimiseks leiate selle artikli varasemast osast „Lehtede otsimine”. Kui sisestasite lehe täpse nime, ei pruugi väljade kirjeldusi näha olla, kui sama nimi on mitmel lehel. Klõpsake noolt väljal **Lehe valimine**, et avada saadaolevate lehtede filtreeritud loend.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Väljaspikri kohandamine](../../dev-itpro/user-interface/customize-field-help.md)
-
-
-
-
 

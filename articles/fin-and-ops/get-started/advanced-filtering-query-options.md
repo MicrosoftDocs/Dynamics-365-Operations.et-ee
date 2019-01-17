@@ -1,6 +1,6 @@
 ---
 title: "Täpsem filtreerimis- ja päringusüntaks"
-description: "See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate filtripaanil või ruudustiku veerupäisefiltrites dialoogi Täpsem filter / sortimine või tehtemärki **vastab**."
+description: "See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate filtripaanil või ruudustiku veerupäisefiltrites dialoogi Täpsem filter / sortimine või tehtemärki vastab."
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: edff2fba7e231ae52abf7828d55c1fe4841ccd7f
-ms.openlocfilehash: 3e7127a9412dcf9324872c06fbf6cc3cf61bf063
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 01a508e97721099f92b9167dfdfa1b9669b9341c
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -30,20 +30,13 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate filtripaanil või ruudustiku veerupäisefiltrites dialoogi Täpsem filter / sortimine või tehtemärki **vastab**. 
+See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate filtripaanil või ruudustiku veerupäisefiltrites dialoogi Täpsem filter / sortimine või tehtemärki **vastab**.
 
-<a name="advanced-query-syntax"></a>Täpsem päringusüntaks
----------------------
+## <a name="advanced-query-syntax"></a>Täpsem päringusüntaks
 
 <table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Süntaks</th>
 <th>Märgi kirjeldus</th>
 <th>Kirjeldus</th>
@@ -51,95 +44,96 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><em>väärtus</em></td>
 <td>Võrdub sisestatud väärtusega</td>
 <td>Tippige väärtus, mille soovite leida.</td>
 <td><strong>Sepp</strong> leiab väärtuse &quot;Sepp&quot;.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>!<em>väärtus</em> (hüüumärk)</td>
 <td>Ei võrdu sisestatud väärtusega</td>
 <td>Tippige hüüumärk ja seejärel väärtus, mille soovite välistada.</td>
 <td><strong>!Sepp</strong> leiab kõik väärtused, välja arvatud &quot;Sepp&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><em>algväärtus</em>..<em>lõppväärtus</em> (topeltpunkt)</td>
 <td>Kahe teineteisest topeltpunktiga eraldatud sisestatud väärtuse vahel</td>
 <td>Tippige algväärtus, seejärel kaks punkti ja siis lõppväärtus.</td>
 <td><strong>1..10</strong> leiab kõik väärtused vahemikus 1 kuni 10. Kuid näiteks stringiväljal leiab <strong>A..C</strong> kõik tähtedega &quot;A&quot; ja &quot;B&quot; algavad väärtused ning väärtused, mis võrduvad täpselt tähega &quot;C&quot;. Näiteks ei leia see päring stringi &quot;Ca&quot;. Selleks et leida kõiki väärtusi vahemikus &quot;A<em>&quot; kuni &quot;C</em>&quot;, tippige <strong>A..D</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>..<em>väärtus</em> (topeltpunkt)</td>
 <td>Sisestatud väärtusest väiksem või sellega võrdne</td>
 <td>Tippige kaks punkti ja seejärel väärtus.</td>
 <td><strong>..1000</strong> leiab iga tuhandest väiksema või sellega võrdse arvu, näiteks &quot;100&quot;, &quot;999,95&quot; ja &quot;1000&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><em>väärtus</em>.. (topeltpunkt)</td>
 <td>Sisestatud väärtusest suurem või sellega võrdne</td>
 <td>Tippige väärtus ja seejärel kaks punkti.</td>
 <td><strong>1000..</strong> leiab iga tuhandest suurema või sellega võrdse arvu, näiteks &quot;1000&quot;, &quot;1000,01&quot; ja &quot;1 000 000&quot;.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>&gt;<em>väärtus</em> (märk „suurem kui”)</td>
 <td>Sisestatud väärtusest suurem</td>
 <td>Tippige märk „suurem kui” (<strong>&gt;</strong>) ja seejärel väärtus.</td>
 <td><strong>&gt;1000</strong> leiab iga tuhandest suurema arvu, näiteks &quot;1000,01&quot;, &quot;20 000&quot; ja &quot;1 000 000&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>&lt;<em>väärtus</em> (märk „väiksem kui”)</td>
 <td>Sisestatud väärtusest väiksem</td>
 <td>Tippige märk „väiksem kui” (<strong>&lt;</strong>) ja seejärel väärtus.</td>
 <td><strong>&lt;1000</strong> leiab iga tuhandest väiksema arvu, näiteks &quot;999,99&quot;, &quot;1&quot; ja &quot;–200&quot;.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><em>väärtus</em>* (tärn)</td>
 <td>Sisestatud väärtusega algav</td>
-<td>Tippige lähteväärtus ja selle järele tärn (<strong><em></strong>).</td>
-<td><strong>S</em></strong> leiab iga &quot;S&quot;-tähega algava stringi, näiteks &quot;Stockholm&quot;, &quot;Sydney&quot; ja &quot;San Francisco&quot;.</td>
+<td>Tippige lähteväärtus ja selle järele tärn (<strong>*</strong>).</td>
+<td><strong>S*</strong> leiab iga S-tähega algava stringi, näiteks &quot;S&quot;, nagu &quot;Stockholm&quot;, &quot;Sindi&quot; ja &quot;San Francisco&quot;.</td>
 </tr>
-<tr class="odd">
-<td><em><em>väärtus</em> (tärn)</td>
+<tr>
+<td>*<em>väärtus</em> (tärn)</td>
 <td>Sisestatud väärtusega lõppev</td>
 <td>Tippige tärn ja selle järele lõppväärtus.</td>
-<td><strong></em>east</strong> leiab iga &quot;east&quot;-lõpulise stringi, näiteks &quot;Northeast&quot; ja &quot;Southeast&quot;.</td>
+<td><strong>*vere</strong> leiab iga &quot;vere&quot;-lõpulise stringi, näiteks &quot;Adavere&quot; ja &quot;Pandivere&quot;.</td>
 </tr>
-<tr class="even">
-<td><em><em>väärtus</em></em> (tärn)</td>
+<tr>
+<td>*<em>väärtus</em>* (tärn)</td>
 <td>Sisaldab sisestatud väärtust</td>
 <td>Tippige tärn, otsitav väärtus ja selle järele veel üks tärn.</td>
-<td><strong><em>rn</em></strong> leiab iga stringi, milles sisaldub täheühend &quot;rn&quot;, näiteks &quot;Pärnu&quot; ja &quot;Kernu&quot;.</td>
+<td><strong>*rn*</strong> leiab iga stringi, milles sisaldub täheühend &quot;rn&quot;, näiteks &quot;Pärnu&quot; ja &quot;Kernu&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>? (küsimärk)</td>
 <td>Ühte või mitut tundmatut märki sisaldav</td>
 <td>Tippige väärtuses tundmatu märgi asemele küsimärk.</td>
 <td><strong>Ma?i</strong> leiab nii &quot;Mari&quot; kui ka &quot;Mati&quot;.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><em>väärtus</em>,<em>väärtus</em> (koma)</td>
 <td>Vastendab sobivad väärtused komadega eraldatult</td>
 <td>Tippige kõik kriteeriumid, eraldades need komadega.</td>
 <td><strong>A, D, F, G</strong> leiab täpselt &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ja &quot;G&quot;. <strong>10, 20, 30, 100</strong> leiab täpselt &quot;10, 20, 30, 100&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>(<span class="code">SQL-lause</span>) (sulgudes SQL-lause)</td>
 <td>Kirjeldatud päringule vastav</td>
 <td>Tippige sulgudesse päring SQL-lausena.</td>
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
-<tr class="even">
-<td>T</td>
+<tr>
+<td>N</td>
 <td>Tänane kuupäev</td>
 <td>Tippige <strong>T</strong>.</td>
 <td><strong>T</strong> vastab tänasele kuupäevale.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>(methodName(parameters)) (<strong>SysQueryRangeUtil</strong>-meetod sulgudes</td>
 <td>Vastendab <strong>SysQueryRangeUtil</strong>-meetodi parameetritega määratud väärtuse või väärtusevahemiku</td>
 <td>Tippige <strong>SysQueryRangeUtil</strong>-meetod, mille parameetrid määravad väärtuse või väärtusevahemiku.</td>
-<td><ol>
+<td>
+<ol>
 <li>Klõpsake valikuid <strong>Müügireskontro</strong> &gt; <strong>Arved</strong> &gt; <strong>Ava kliendiarved</strong>.</li>
 <li>Vajutage klahvikombinatsiooni Ctrl + Shift + F3, et avada leht <strong>Päring</strong>.</li>
 <li>Klõpsake vahekaardil <strong>Vahemik</strong> nuppu <strong>Lisa</strong>.</li>
@@ -154,86 +148,93 @@ Lisateavet <strong>SysQueryRangeUtil</strong>-kuupäevameetodite kohta ja mõne 
 </table>
 
 ## <a name="advanced-date-queries-that-use-sysqueryrangeutil-methods"></a>Täpsemad kuupäevapäringud, mis kasutavad SysQueryRangeUtil-meetodeid
+
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Meetod</th>
 <th>Kirjeldus</th>
 <th>Näide</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Day (_relativeDays=0)</td>
 <td>Leidke seansi kuupäevaga seotud kuupäev. Positiivsed väärtused näitavad tulevikukuupäevi ja negatiivsed väärtused näitavad minevikukuupäev.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Homme</strong> – sisestage <strong>(Day(1))</strong>.</li>
 <li><strong>Täna</strong> – sisestage <strong>(Day(0))</strong>.</li>
 <li><strong>Eile</strong> – sisestage <strong>(Day(-1))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</td>
 <td>Leidke seansi kuupäevaga seotud kuupäevavahemik. Positiivsed väärtused näitavad tulevikukuupäevi ja negatiivsed väärtused näitavad minevikukuupäev.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Viimased 30 päeva</strong> – sisestage <strong>(DayRange(-30,0))</strong>.</li>
 <li><strong>Eelmised 30 päeva ja järgmised 30 päeva</strong> – sisestage <strong>(DayRange(-30,30))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</td>
 <td>Leidke kõik kuupäevad pärast määratud suhtelist kuupäeva.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Rohkem kui 30 päeva alates praegusest</strong> – sisestage <strong>(GreaterThanDate(30))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>GreaterThanUtcNow ()</td>
 <td>Leidke kõik kuupäeva-/kellaajakirjed pärast praegust aega.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Kõik tuleviku kuupäevad/kellaajad</strong> – sisestage <strong>(GreaterThanUtcNow())</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</td>
 <td>Leidke kõik kuupäevad enne määratud suhtelist kuupäeva.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Vähem kui seitse päeva alates praegusest</strong> – sisestage <strong>(LessThanDate(7))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LessThanUtcNow ()</td>
 <td>Leidke kõik kuupäeva-/kellaajakirjed enne praegust aega.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Kõik varasemad kuupäevad/kellaajad</strong> – sisestage <strong>(LessThanUtcNow())</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MonthRange (_relativeFrom=0, _relativeTo=0)</td>
 <td>Leidke kuupäevavahemik praeguse kuuga seotud kuude põhjal.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Eelmised kaks kuud</strong> – sisestage <strong>(MonthRange(-2,0))</strong>.</li>
 <li><strong>Järgmised kolm kuud</strong> – sisestage <strong>(MonthRange(0,3))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>YearRange (_relativeFrom=0, _relativeTo=0)</td>
 <td>Leidke kuupäevavahemik praeguse aastaga seotud aastate põhjal.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Järgmine aasta</strong> – sisestage <strong>(YearRange(0, 1))</strong>.</li>
 <li><strong>Eelmine aasta</strong> – sisestage <strong>(YearRange(-1,0))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
-
-
-
-
-
 

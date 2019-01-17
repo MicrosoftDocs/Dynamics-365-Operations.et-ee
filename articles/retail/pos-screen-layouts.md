@@ -40,6 +40,7 @@ Järgmine joonis näitab seoseid erinevate olemite vahel, millest kassa UI konfi
 ![Kassa ekraanipaigutuse olemid](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Visuaalne profiil
+
 Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vahel jagatavad registripõhised visuaalsed elemendid. Iga kasutaja, kes registrisse sisse logib, näeb sama kujundust, värve ja pilte.
 
 ![Kassa tervituskuva heleda kujundusega](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vah
 - **Rakenduse taust** – saate määrata taustpildi, mida kasutatakse kogu rakenduses ühevärvilise kujunduse asemel. Sisselogimise taustade failid peaksid olema võimalikult väikesed.
 
 ## <a name="screen-layouts"></a>Ekraani paigutused
+
 Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu ja paigutuse kassa tervitusekraanil ning ekraanil **Kanne**.
 
 ![Kassa ekraanipaigutus](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ Käivitamisel valib kassarakendus automaatselt lähima paigutuse suuruse, mis on
 ![Kassa paigutuse suurused](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Nupupaneelid
+
 Iga paigutuse suuruse korral ekraani paigutuses saate kassa tervituskuva ja ekraani **Kanne** jaoks konfigureerida ja määrata nupupaneele. Tervituskuva nupupaneelid paigutatakse automaatselt vasakult paremale, väikseimast numbrist (tervituskuva 1) suurima numbrini.
 
 Kassa täispaigutustes on nupupaneelide paigutus määratletud ekraani paigutuse kujundajas.
@@ -104,6 +107,7 @@ Kassa kompaktsetes paigutustes paigutatakse nupupaneelid automaatselt ülevalt a
 ![Kompaktse paigutuse nupupaneelid](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Pildid
+
 Saate iga paigutuse suuruse jaoks ekraani paigutuses määrata pildid, mis kaasata kassa kasutajaliideses. Kassa täispaigutuste korral saab tervituskuva jaoks määrata ühe pildi. See pilt kuvatakse kasutajaliidese esimese elemendina vasakul. Ekraanil **Kanne** saab pilte kasutada vahekaardi piltide või logona. Kompaktsetes kassa paigutustes ei kasutata neid pilte.
 
 ### <a name="screen-layout-designer"></a>Ekraani paigutuse kujundaja
@@ -141,11 +145,13 @@ Täispaigutuse kujundaja võimaldab kasutajatel lohistada kasutajaliidese juhtel
     - **Kohandatud juhtelement**– kohandatud juhtelement toimib ekraanipaigutuses kohatäitena ja võimaldab teil kohandatud sisu jaoks ruumi reserveerida. Kohandatud juhtelement on saadaval ainult täispaigutuste puhul.
 
 ### <a name="compact-layout-designer"></a>Kompaktse paigutuse kujundaja
+
 Kompaktse paigutuse kujundaja võimaldab teil sarnaselt täispaigutuse kujundajale konfigureerida kassaekraani paigutust telefonide ja väikeste tahvelarvutite jaoks. Kuid sellisel juhul on paigutus fikseeritud. Saate paigutuse juhtelemente konfigureerida paremklõpsates ja kasutades kiirmenüüd. Kuid te ei saa täiendavat sisu hiirega pukseerida.
 
 ![Kompaktse paigutuse kujundaja](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Nupupaneeli kujundaja
+
 Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatakse nii täis- kui ka kompaktses paigutuses kassa tervituskuval ja ekraanil **Kanne**. Sama nupupaneeli saab kasutada kõigis paigutustes ja paigutuse tüüpides. Nupupaneeli kujundaja kasutab sarnaselt ekraanipaigutuse kujundajale juurutuse tehnoloogiat ClickOnce rakenduse uusima versiooni allalaadimiseks, installimiseks ja käivitamiseks iga kord, kui kasutaja sellele juurde pääseb. Kontrollige brauseri nõudeid ClickOnce'i jaoks. Mõned brauserid, nagu Google Chrome, vajavad laiendusi.
 
 ![Nupupaneeli kujundaja](../retail/media/Button-Grid-Designer.png)

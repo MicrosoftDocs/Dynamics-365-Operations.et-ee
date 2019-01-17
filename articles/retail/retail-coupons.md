@@ -19,10 +19,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: c718a71ca270c67118a90456bac0cf182032d3db
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,13 +32,13 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="overview-of-coupons"></a>Kupongide ülevaade
 
-Kupongid on koodid ja vöötkoodid, mida kasutatakse jaeallahindluste lisamiseks kannetele. Igal kupongil võib olla mitu koodi ja igal koodil võivad olla oma kehtivuskuupäevad. 
+Kupongid on koodid ja vöötkoodid, mida kasutatakse jaeallahindluste lisamiseks kannetele. Igal kupongil võib olla mitu koodi ja igal koodil võivad olla oma kehtivuskuupäevad.
 
-Iga kupong on seotud ühe jaeallahindlusega. Allahindlusega seotud hinnagrupid määratlevad kliendid, kes saavad kupongi kasutada, või kanalid, kus kupong kehtib. 
+Iga kupong on seotud ühe jaeallahindlusega. Allahindlusega seotud hinnagrupid määratlevad kliendid, kes saavad kupongi kasutada, või kanalid, kus kupong kehtib.
 
 Põhimõtteliselt on kupongid jaeallahindlustele lisanduv kinnitus. Kupongil on vajalikud kupongi koodid ja vöötkoodid, millel on nende koodide kuupäevavahemikud. Kupongil on ka valikulised kasutuspiirid ja kliendile vajalikud atribuudid. Allahindlus annab toodete kogumi, millele kupong kehtib. Allahindluse hinnagrupid annavad klientide kogumi, kanalid või kataloogid, millele kupong kehtib.
 
-Kupongi loomiseks tuleb luua allahindlus ja kupong eraldi. Seejärel tuleb need siduda, valides allahindluse Microsoft Dynamics 365 for Retailis kupongi lehel. 
+Kupongi loomiseks tuleb luua allahindlus ja kupong eraldi. Seejärel tuleb need siduda, valides allahindluse Microsoft Dynamics 365 for Retailis kupongi lehel.
 
 > [!NOTE]
 > Kui kupong on allahindlusega seotud, muutub mitu välja Microsoft Dynamics 365 for Retaili allahindluse lehel kirjutuskaitsuks, kuna neid hallatakse kupongi sätetega. Nende väljade hulka kuuluvad oleku ja standardsete kuupäevavahemike väljad.
@@ -54,25 +54,25 @@ Kupongi piirmäär rakendatakse kupongi koodi kohta. Näiteks ühekordselt kasut
 
 ## <a name="managing-coupons"></a>Kupongide haldamine
 
-Allahindlus ja kupong tuleb luua eraldi. Seejärel tuleb need siduda, valides kupongi lehel allahindluse. Kui kupong on allahindlusega seotud, muutub mitu allahindluse välja kirjutuskaitstuks, kuna neid hallatakse kupongi sätetega. Nende väljade hulka kuuluvad oleku ja standardsete kuupäevavahemike väljad.  
+Allahindlus ja kupong tuleb luua eraldi. Seejärel tuleb need siduda, valides kupongi lehel allahindluse. Kui kupong on allahindlusega seotud, muutub mitu allahindluse välja kirjutuskaitstuks, kuna neid hallatakse kupongi sätetega. Nende väljade hulka kuuluvad oleku ja standardsete kuupäevavahemike väljad.
 
 Põhimõtteliselt on kupongid nüüd jaeallahindlustele lisanduv kinnitus. Kupongil on kupongi koodid ja vöötkoodid, millel on nende koodide kuupäevavahemikud, kasutuspiirid ja kliendile vajalik atribuut. Allahindlus annab toodete kogumi, millele kupong kehtib. Allahindluse hinnagrupid annavad klientide kogumi, kanalid või kataloogid, millele kupong kehtib.
 
-## <a name="system-setup-for-coupons"></a>Süsteemi seadistus kupongide puhul 
+## <a name="system-setup-for-coupons"></a>Süsteemi seadistus kupongide puhul
 
-Enne kupongi seadistamist tuleb seadistada kupongi vöötkood ja kaks kupongi numbriseeriat. 
+Enne kupongi seadistamist tuleb seadistada kupongi vöötkood ja kaks kupongi numbriseeriat.
 
-1.  Looge lehel **Maski märgid** kupongi koodile uus maski märk. Valida saab mis tahes kasutamata märki.
-2.  Looge lehel **Vöötkoodi maski häälestus** uus vöötkoodi mask. Määrake välja **Tüüp** väärtuseks **Kupong**.
-3.  Looge lehel **Vöötkoodi seadistus** uus vöötkood, mis kasutab äsja loodud vöötkoodi maski.
-4.  Looge lehel **Numbriseeriad** kaks uut numbriseeriat. Üks seeria on kupongi koodi ID jaoks ja teine seeria kupongi numbri jaoks. Kupongi koodi ID on kupongi iga koodi ainuidentifikaator. Kupongi number on kupongi ainuidentifikaator. Igal kupongil võib olla mitu koodi ja vöötkoodi, mis kupongi käivitavad.
+1. Looge lehel **Maski märgid** kupongi koodile uus maski märk. Valida saab mis tahes kasutamata märki.
+2. Looge lehel **Vöötkoodi maski häälestus** uus vöötkoodi mask. Määrake välja **Tüüp** väärtuseks **Kupong**.
+3. Looge lehel **Vöötkoodi seadistus** uus vöötkood, mis kasutab äsja loodud vöötkoodi maski.
+4. Looge lehel **Numbriseeriad** kaks uut numbriseeriat. Üks seeria on kupongi koodi ID jaoks ja teine seeria kupongi numbri jaoks. Kupongi koodi ID on kupongi iga koodi ainuidentifikaator. Kupongi number on kupongi ainuidentifikaator. Igal kupongil võib olla mitu koodi ja vöötkoodi, mis kupongi käivitavad.
 
     > [!NOTE]
     > Mõlema numbriseeria puhul tuleb määrata väljale **Ulatus** valik **Ettevõte**. Enamasti tuleks luua automaatselt mõlemad seerianumbrid.
 
-5.  Valige lehel **Jaemüügi parameetrid** vahekaardil **Vöötkoodid** varem loodud vöötkood.
-6.  Valige lehel **Jaemüügi ühisparameetrid** vahekaardil **Numbriseeriad** kupongi numbrile ja kupongi koodi ID-le loodud numbriseeriad.
-7.  Nüüd võite lehe **Kupongid** avada ja uusi kuponge luua.
+5. Valige lehel **Jaemüügi parameetrid** vahekaardil **Vöötkoodid** varem loodud vöötkood.
+6. Valige lehel **Jaemüügi ühisparameetrid** vahekaardil **Numbriseeriad** kupongi numbrile ja kupongi koodi ID-le loodud numbriseeriad.
+7. Nüüd võite lehe **Kupongid** avada ja uusi kuponge luua.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Kupongide osalise uuendamise mõju
 

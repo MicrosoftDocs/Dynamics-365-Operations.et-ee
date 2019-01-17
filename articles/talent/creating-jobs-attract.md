@@ -3,7 +3,7 @@ title: "Tööde loomine, kinnitamine ja sisestamine Attractis"
 description: "Selles teemas kirjeldatakse Attarcti töö elemente. Lisaks selgitatakse, kuidas tööd luua."
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Lisainfot tegevuste kohta, mida värbamisprotsessile lisada saab, leiate artikli
 
 ## <a name="postings"></a>Sisestamised
 
-Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administraatorid saavad töid sisestada. Töö saab sisestada kas rakendusse Talent Careers (Microsoft Dynamics 365 for Talent karjäärisait) või LinkedIni. Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. Seetõttu laieneb see loend aja jooksul.
+Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administraatorid saavad töid sisestada. Töö saab sisestada kas rakendusse Talent Careers (Microsoft Dynamics 365 for Talent karjäärisait) või LinkedIni. 
+
+> [!NOTE]
+> On kolm tähtsat asja, mida tähele panna LinkedIni töö sisestusprotsessi kohta.
+> 1. LinkedIni sisestatud tööd on sisestatud "Piiratud loendite" töödena. Piiratud loendite töid ei saa propageerida kogu LinkedIni saidil. Kui soovite propageerida Attractist LinkedIni sisestatud piiratud loendite töid, peaksite tegema koostööd LinkedIniga võimaluse "Töö pakkimine" lubamiseks. Lisateavet saate allolevatelt linkidelt ja LinkedIni tugiteenustelt.
+>
+>    [Piiratud loendid vs preemiatöö pesad töö pakkimiseks](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [Töö pakkimine KKK](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Tööde LinkedIni sisestamisel edastab Attract Microsoft 365 organisatsiooni nime töö vastu. LinkedIn lingib töö ettevõttega LinkedIni poolt organisatsiooni nime põhjal, kui see on edukalt edastatud. Kui teie töö on loetletud vale ettevõtte LinkedIn, veenduge, et Microsoft 365 organisatsiooni nimi vastab LinkedIn ettevõtte nimi.  
+>
+>    [Muuda aadressi kontakti ja rohkem](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Kui teil esineb pärast seda etappi probleeme, võtke ühendust LinkedIni toega. 
+> 
+> 1. Võib kuluda kuni 24 tundi LinkedIni sisestatud tööde LinkedInis olevatele kandidaatidele nähtavaks muutumiseks praeguse LinkedIni partiitöö sisestamise protsessi tõttu.
+
+Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. See loend laieneb aja jooksul.
 
 Töösisestuste kohta lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Attractis](./career-site.md).
 

@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations. 
+Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations.
 
-**Märkus.** Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
+> [!NOTE]
+> Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
 
 ## <a name="finding-a-shortcut"></a>Otsetee leidmine
-Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid kiirklahve otse kasutajaliidesest. Lihtsalt paremklõpsake juhtelemendil ja valige **Kuva kiirklahvid**. See avab dialoogiboksi, milles kuvatakse kiirklahvid, mida saate kasutada olenevalt sellest, kus praegu lehel olete. 
 
+Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid kiirklahve otse kasutajaliidesest. Lihtsalt paremklõpsake juhtelemendil ja valige **Kuva kiirklahvid**. See avab dialoogiboksi, milles kuvatakse kiirklahvid, mida saate kasutada olenevalt sellest, kus praegu lehel olete.
 
 ## <a name="action-shortcuts"></a>Tegevuste otseteed
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Toiming**                                    | **Klahv või klahvikombinatsioon**                        |
-| Tegevuse otsingu avamine                                | CTRL + ' või Alt + Q                  |
-| Standardsele tegumiribale liikumine                  | Alt + M, A või Ctrl + F6               |
-| Tegumiriba vahekaardi või menüü avamine           | Sisestusklahv (Enter) või tühik või Alt + allanool |
-| Menüüs järgmisele/eelmisele suvandile liikumine            | Allanool/ülesnool            |
-| Tegumiriba vahekaardi või menüü sulgemine          | Esc-klahv                              |
-| Paremklõpsu simuleerimine                            | Shift + F10                        |
-| Avage Finance and Operationsi kontekstimenüü      | Ctrl + F10                         |
-| Vormil/dialoogiboksis vaikenupu käivitamine   | Alt + sisestusklahv (Enter)                        |
-| Nupu või paani klõpsamine                            | Sisestusklahv (Enter) või tühik                   |
-| Inventuuripaani teabe värskendamine         | Alt + ülesnool                     |
-| Kuva praegu saadaolevad kiirklahvid                | Alt + Shift + K                      |                              
+| Toiming                                      | Klahv või klahvikombinatsioon                            |
+|-------------------------------------------------|----------------------------------|
+| Tegevuse otsingu avamine                              | CTRL + ' või Alt + Q                  |
+| Standardsele tegumiribale liikumine                | Alt + M, A või Ctrl + F6               |
+| Tegumiriba vahekaardi või menüü avamine         | Sisestusklahv (Enter) või tühik või Alt + allanool |
+| Menüüs järgmisele/eelmisele suvandile liikumine          | Allanool/ülesnool            |
+| Tegumiriba vahekaardi või menüü sulgemine        | Esc-klahv                              |
+| Paremklõpsu simuleerimine                          | Shift + F10                        |
+| Avage Finance and Operationsi kontekstimenüü    | Ctrl + F10                         |
+| Vormil/dialoogiboksis vaikenupu käivitamine | Alt + sisestusklahv (Enter)                        |
+| Nupu või paani klõpsamine                          | Sisestusklahv (Enter) või tühik                   |
+| Inventuuripaani teabe värskendamine       | Alt + ülesnool                     |
+| Kuva praegu saadaolevad kiirklahvid              | Alt + Shift + K                      |
 
 ## <a name="date-picker-shortcuts"></a>Kuupäevavalija kiirklahvid
 
-|                                       |                                           |
+| Toiming                            | Klahv või klahvikombinatsioon                                     |
 |---------------------------------------|-------------------------------------------|
-| **Toiming**                        | **Klahv või klahvikombinatsioon**                                 |
 | Kuupäevavalija avamine                  | Alt + allanool                            |
 | Kuupäevavalijas kuupäevade vahel liikumine | Ctrl + nooleklahvid                           |
 | Järgmisele/eelmisele kuule liikumine       | Page Down / Page Up                       |
@@ -70,9 +69,8 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 ## <a name="factbox-shortcuts"></a>Kiirinfo kiirklahvid
 
-|                                                                                 |                                           |
+| Toiming                                                                      | Klahv või klahvikombinatsioon                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Toiming**                                                                  | **Klahv või klahvikombinatsioon**                                 |
 | Kiirinfopaani avamine (või fookuse nihutamine kiirinfopaanile, kui see on juba avatud) | Alt + M, B või Ctrl + F2                        |
 | Kiirinfopaani sulgemine (fookusega kiirinfopaanil)                         | Esc-klahv                                       |
 | Järgmisele/eelmisele kiirinfole liikumine (fookusega kiirinfopaanil)              | Alt + Shift + allanool / Alt + Shift + ülesnool |
@@ -82,42 +80,39 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 ## <a name="filtering-shortcuts"></a>Filtreerimise kiirklahvid
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Toiming**                     | **Vajutage**                |
-| Praeguse veeru filtreerimisruudustiku avamine                        | Ctrl + G                   |
-| Praeguse veeru filtreerimisruudustiku sulgemine                       | Esc-klahv                      |
+| Toiming                                                                                                          | Klahv või klahvikombinatsioon                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Praeguse veeru filtreerimisruudustiku avamine                                                                          | Ctrl + G                   |
+| Praeguse veeru filtreerimisruudustiku sulgemine                                                                         | Esc-klahv                      |
 | Filtripaani avamine (või fookuse nihutamine filtripaani ja põhivormi vahel, kui filtripaan on juba avatud) | Alt + M, F või Ctrl + F3       |
-| Filtripaani sulgemine (fookusega filtripaanil)             | Esc-klahv                      |
-| Täpsema filtreerimise/sortimise avamine                                      | Ctrl + Shift + F3            | 
+| Filtripaani sulgemine (fookusega filtripaanil)                                                               | Esc-klahv                      |
+| Täpsema filtreerimise/sortimise avamine                                                                                        | Ctrl + Shift + F3            |
 
 ## <a name="form-shortcuts"></a>Vormi kiirklahvid
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Toiming**                                      | **Vajutage**         |
-| Uue kirje loomine                                 | Alt + N             |
-| Kirje kustutamine                                     | Alt + Del või Alt + F9. |
-| Kirje salvestamine                                         | ALT + S või Ctrl + S   |
-| Ennistamine (taastamine)                                    | Ctrl + Shift + F5     |
-| Andmete värskendamine                                        | Shift + F5          |
-| Vormil esimesele nähtavale väljale liikumine         | Alt + Shift + F       |
-| Redigeerimisrežiimi sisse-/väljalülitamine                                    | F2                |
-| Dokumendi manustamine                                   | Ctrl + Shift + A      |
-| Excelisse eksportimine                                     | Ctrl + Shift + E      |
-| Eelmisele kirjele liikumine (väljaspool ruudustikku)        | Ctrl + ülesnool     |
-| Järgmisele kirjele liikumine (väljaspool ruudustikku)            | Ctrl + allanool   |
-| Esimesele kirjele liikumine (väljaspool ruudustikku)           | Ctrl + Home         |
-| Viimasele kirjele liikumine (väljaspool ruudustikku)            | Ctrl + End          |
-| Vormi sulgemine (nupu Tagasi klõpsamine)                         | Esc-klahv               |
-| Vormi sulgemine koos salvestamisega                   | Shift + Esc         |
-| Vormi sulgemine muudatusi salvestamata       | Alt + Shift + Q       |
+| Toiming                                    | Klahv või klahvikombinatsioon             |
+|-----------------------------------------------|-------------------|
+| Uue kirje loomine                           | Alt + N             |
+| Kirje kustutamine                               | Alt + Del või Alt + F9. |
+| Kirje salvestamine                                   | ALT + S või Ctrl + S   |
+| Ennistamine (taastamine)                              | Ctrl + Shift + F5     |
+| Andmete värskendamine                                  | Shift + F5          |
+| Vormil esimesele nähtavale väljale liikumine   | Alt + Shift + F       |
+| Redigeerimisrežiimi sisse-/väljalülitamine                              | F2                |
+| Dokumendi manustamine                             | Ctrl + Shift + A      |
+| Excelisse eksportimine                               | Ctrl + Shift + E      |
+| Eelmisele kirjele liikumine (väljaspool ruudustikku)  | Ctrl + ülesnool     |
+| Järgmisele kirjele liikumine (väljaspool ruudustikku)      | Ctrl + allanool   |
+| Esimesele kirjele liikumine (väljaspool ruudustikku)     | Ctrl + Home         |
+| Viimasele kirjele liikumine (väljaspool ruudustikku)      | Ctrl + End          |
+| Vormi sulgemine (nupu Tagasi klõpsamine)                   | Esc-klahv               |
+| Vormi sulgemine koos salvestamisega             | Shift + Esc         |
+| Vormi sulgemine muudatusi salvestamata | Alt + Shift + Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Vormil navigeerimise kiirklahvid
 
-|                                                     |                                              |
+| Toiming                                          | Klahv või klahvikombinatsioon                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Toiming**                                      | **Klahv või klahvikombinatsioon**                                    |
 | Järgmisele/eelmisele väljale liikumine                     | tabeldusklahv / Shift + tabeldusklahv                              |
 | Järgmisele/eelmisele vahekaardile liikumine                       | Alt + Shift + paremnool / Alt + Shift + vasaknool |
 | Liigutamine &lt;n&gt;. vahekaardile                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
@@ -134,30 +129,28 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 ## <a name="grid-shortcuts"></a>Ruudustiku kiirklahvid
 
-|                                                                                                                        |                                 |
+| Toiming                                                                                                             | Klahv või klahvikombinatsioon                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Toiming**                                                                                                         | **Klahv või klahvikombinatsioon**                       |
 | Järgmisele/eelmisele veerule liikumine                                                                                       | tabeldusklahv / Shift + tabeldusklahv                 |
 | Järgmisele/eelmisele reale liikumine                                                                                          | Allanool/ülesnool           |
-| Järgmisele/eelmisele reale liikumine ilma seda valimata<br><br>**Märkus.** See otsetee kehtib ainult mitme valikuga stsenaariumide puhul. | Ctrl + ülesnool / Ctrl + allanool |
-| Praeguse rea valimine/tühjendamine<br><br>**Märkus.** See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.                    | Ctrl + tühik / Ctrl + klõps         |
-| Valitud kogumile järgmise/eelmise rea lisamine<br><br>**Märkus.** See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.   | Shift+tühik                     |
-| Valitud kogumile ridade vahemiku lisamine<br><br>**Märkus.** See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.         | Shift + klõps                     |
+| Järgmisele/eelmisele reale liikumine ilma seda valimata<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote> | Ctrl + ülesnool / Ctrl + allanool |
+| Praeguse rea valimine/tühjendamine<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote>                    | Ctrl + tühik / Ctrl + klõps         |
+| Valitud kogumile järgmise/eelmise rea lisamine<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote>   | Shift+tühik                     |
+| Valitud kogumile ridade vahemiku lisamine<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote>         | Shift + klõps                     |
 | Eelmisele/järgmisele andmelehele liikumine                                                                                   | Page Up / Page Down             |
 | Loo ruudustiku allservas uus rida                                                                             | Allanool (alates viimasest reast)  |
 | Märgi või tühjenda kõik read                                                                                               | Ctrl + Shift + M                    |
 | Teisalda esimesse kirjesse                                                                                               | Ctrl + Home                       |
 | Liigu viimasele kirjele                                                                                                | Ctrl + End                        |
-| Vaiketegevuse käivitamine ruudustikus<br><br>**Märkus.** See otsetee on lubatud, kui fookus on hüperlinki sisaldaval lahtril ja kõigil selle veeru lahtritel on hüperlingid.                 | Sisestusklahv                           |
+| Vaiketegevuse käivitamine ruudustikus<blockquote>[!NOTE] See otsetee on lubatud, kui fookus on hüperlinki sisaldaval lahtril ja kõigil selle veeru lahtritel on hüperlingid.</blockquote> | Sisestusklahv                           |
 | Lülita fookus ümber valitud rea ja päiserea vahel                                                               | Alt + Shift + H                     |
 | Praeguse veeru suuremaks/väiksemaks tegemine (kui fookus on päisereas)                                                  | Paremnool/vasaknool        |
 | Praeguse veeru ruudustiku filtrimise avamine (kui fookus on päisereas)                                              | Sisestusklahv                           |
 
 ## <a name="input-control-shortcuts"></a>Sisestamise kiirklahvid
 
-|                                                                              |                               |
+| Toiming                                                                   | Klahv või klahvikombinatsioon                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Toiming**                                                               | **Klahv või klahvikombinatsioon**                     |
 | Hüperlingi avamine                                                           | Ctrl + Enter                    |
 | Kuupäevaväljale seansi kuupäeva sisestamine                                       | D + tabeldusklahv                         |
 | Kuupäevaväljale praeguse kuupäeva sisestamine                                       | T + tabeldusklahv                         |
@@ -171,17 +164,15 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 ## <a name="messaging-shortcuts"></a>Sõnumite kiirklahvid
 
-|                          |               |
+| Toiming               | Klahv või klahvikombinatsioon         |
 |--------------------------|---------------|
-| **Toiming**           | **Klahv või klahvikombinatsioon**     |
 | Sõnumikeskuse avamine | Ctrl + Shift + F7 |
 | Sõnumiriba avamine    | Ctrl + F7       |
 
 ## <a name="navigation-shortcuts"></a>Navigeerimise kiirklahvid
 
-|                                                                               |                            |
+| Toiming                                                                    | Klahv või klahvikombinatsioon                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Toiming**                                                                | **Klahv või klahvikombinatsioon**                  |
 | Mine armatuurlauale                                                           | Alt + Shift + Home             |
 | Navigeerimisribale minek                                                    | Alt + M, N ja Alt + Shift + F1    |
 | Ettevõtte valija juurde minek                                                    | Ctrl + Shift + O               |
@@ -201,9 +192,8 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 ## <a name="personalization-shortcuts"></a>Isikupärastamise otseteed
 
-|                                                                                                                        |                                     |
+| Toiming                                                                                                             | Klahv või klahvikombinatsioon                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Toiming**                                                                                                         | **Klahv või klahvikombinatsioon**                           |
 | Lehe viimine isikupärastamise režiimi                                                                          | Ctrl + Shift + P                        |
 | Tööriista Vali kasutamine (isikupärastamise režiimis)                                                                     | S                                   |
 | Valitud juhtelemendi kiire isikupärastamise dialoogiboksi avamine (tööriista Vali kasutades)                              | Tühik või sisestusklahv (Enter)                      |
@@ -230,19 +220,17 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 ## <a name="segmented-entry-shortcuts"></a>Segmenditud kirje kiirklahvid
 
-|                                                                                                                         |                                  |
+| Toiming                                                                                                              | Klahv või klahvikombinatsioon                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Toiming**                                                                                                          | **Klahv või klahvikombinatsioon**                        |
 | Rippmenüü loendi avamine (kui ripploend on suletud)                                                             | Alt + allanool                   |
 | Fookuse nihutamine ripploendis praeguse segmendi sisestusväljale (kui ripploend on juba avatud) | Alt + allanool                   |
 | Ripploendi sulgemine                                                                                                | Alt + ülesnool                     |
 | Ripploendi parempoolse osa sulgemine/avamine                                                                      | Alt + vasaknool / Alt + paremnool |
-| Režiimide Kuva kehtivad ja Kuva kõik vahetamine                                                                        | Alt + W                            |
+| Režiimide „Kuva kehtivaid“ ja „Kuva kõik“ vahetamine                                                                        | Alt + W                            |
 | Väärtuse valimine ripploendist ja järgmisele segmendile liikumine                                                       | Sisestamine                            |
 | Lehel järgmisele/eelmisele juhtelemendile liikumine (kui fookus on sisestuse juhtelemendil)                                          | tabeldusklahv / Shift + tabeldusklahv                  |
 | Hüpikus järgmisele/eelmisele sisestusväljale liikumine (kui fookus on ripploendil)                               | tabeldusklahv / Shift + tabeldusklahv                  |
 | Otsingus rea võrra üles/alla liikumine                                                                                        | Ülesnool/allanool            |
 | Otsingus lehe võrra üles/alla liikumine                                                                                       | Page Up / Page Down              |
 | Otsingu algusse/lõppu liikumine                                                                                    | Home / End                       |
-
 

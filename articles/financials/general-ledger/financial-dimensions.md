@@ -3,7 +3,7 @@ title: Finantsdimensioonid
 description: "Selles teemas kirjeldatakse mitmesuguseid finantsdimensioonide tüüpe ja nende seadistamist."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: et-ee
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Uutes dimensioonides saate kasutada vaikeväärtustena väärtusi põhikirjetest
 Seda funktsiooni juhib dimensioonis olev säte. Selle sätte nimi on **Kopeeri väärtused sellesse dimensiooni igal uuel loodaval üksusel DimensionName**, kus **DimensionName** on dimensiooni nimi. Vaikimisi on see funktsioon välja lülitatud. Saate selle siiski igal ajal sisse lülitada.
 
 Kui dimensiooni kohta on kirje juba olemas, värskendatakse selle funktsiooni sisselülitamisel põhikirjeid. Olemasolevaid dokumente ja kandeid siiski ei värskendata.
+
+Malli kasutamisel koondkirje loomiseks veenduge, et koonddimensiooni vaikeväärtus oleks tühi. Näiteks kui loote kliente malli põhjal, veenduge, et kliendi dimensioon mallis on tühi. Kliendi dimensiooni väärtus tuuakse vaikimisi uue kliendi koodist uue kliendi loomisel.  
 
 ## <a name="derived-dimensions"></a>Tuletatud dimensioonid
 

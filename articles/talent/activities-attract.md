@@ -3,7 +3,7 @@ title: Protsesside tegevused
 description: "Selles teemas kirjeldatakse eri tüüpi tegevusi, mida saab kasutada värbamisprotsessis."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ Tegevus Töövestlus ei ole kohustuslik. Sellel tegevusel on kolm komponenti: Ka
 - Kandidaatidele nende kättesaadavuse kohta küsimiseks meilisõnumi saatmiseks määrake suvandi **Küsi kandidaadi kättesaadavust** olekuks **Sees**. Kui määrate selle suvandi olekuks **Väljas**, seda etappi tööle värbamise protsessis ei kuvata.
 - Videoülekande või konverentskõne tegemiseks rakendusega Skype for Business määrake välja **Võrgukoosolek** olekuks **Skype for Business**. Õige link **Liitu Skype’i koosolekuga** lisatakse seejärel saadetavale vestluskutsele.
 - Kandidaatidele graafiku lõplikuks kinnitamiseks meilisõnumi saatmiseks määrake suvandi **Saada kandidaadile meilisõnum** olekuks **Sees**. Kui määrate selle suvandi olekuks **Väljas**, saavad kandidaadid töövestluste graafiku ainult siis, kui logivad sisse kandidaadi portaali.
+
+>[!NOTE]
+> - Kõik üks-ühele intervjuude meeldetuletused saadetakse küsitlejatele iga 24 tunni tagant, kui intervjueerija ei vastanud (nõustunud või keeldunud) vestluse taotlusele.
+> - Kõikide paneeli intervjuude jaoks pole intervjuu taotluse automatiseeritud meeldetuletusi. Meeldetuletuse käivitamiseks käsitsi redigeerige intervjuu ja kasutage **värskendada ja saata** valikut, et saata taotlus tagasi küsitlejatele.
 
 Tagasiside komponent võimaldab inimestel sisestada kandidaadile soovitusi. Samuti saavad nad sisestada oma tagasisidekommentaarid. Kui lülitate sisse suvandi **Tuleta tagasisides osalejad värbamistöörühmast**, sisestatakse värbaja, personalijuht ja intervjueerijad automaatselt komponenti Tagasiside. Organisatsioonid võivad lubada intervjueerijatel enne tagasiside andmist vaadata teiste inimeste tagasisidet. Organisatsioonid võivad ka lubada pärast tagasiside andmist intervjueerijatel seda muuta.
 

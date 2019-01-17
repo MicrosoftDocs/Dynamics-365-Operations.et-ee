@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,15 +30,16 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-Iga jaemüüja tavapärane stsenaarium on müüa tooteid oma klientidele või võtta vastu tagastusi oma klientidelt, isegi kui neil pole kaupluses neid kindlaid tooteid (teisisõnu tooteid pole kaupluse sortimendis).
+Iga jaemüüja tavapärane stsenaarium on müüa tooteid oma klientidele või võtta vastu tagastusi oma klientidelt, isegi, kui neil pole kaupluses neid kindlaid tooteid (teisisõnu tooted pole kaupluse sortimendis).
+
 Tüüpilised stsenaariumid on näiteks järgmised.
 
 + Jaemüüja ei hoia kõiki oma tooteid kindlas kaupluses. Ülejäänud tooteid hoitakse laos. Kaupluse töötaja võib aidata klienti, otsides või sirvides laos tooteid, lisada neid ostukorvi ja maksta, valides tarneviisi, näiteks tarnimise laost teatud aadressile või lastes kliendil võtta toote peale sellest laost või teisest laost.
 + Jaemüüjal ei ole kindlaid tooteid kaupluses või tal pole neid varudes kaupluses, mida klient külastas, kuid tooted on saadaval teistes kauplustes. Kaupluse töötaja saab aidata klienti, otsides või sirvides teises kaupluses olevaid tooteid, lisada neid ostukorvi ja teha maksmise, valides tarneviisi.
 + Jaemüüjal on konkreetses linnas või sihtnumbril ja nende ümbruses palju kauplusi ning ta ei soovi sundida kliente tagastama tooteid samasse kauplusse, kust need osteti. Selle asemel võivad kliendid tagastada tooteid ükskõik millisesse kauplusse.
 
-
 Need üldised stsenaariumid on saadaval jaemüüjate puhul, kes kasutavad rakendust Dynamics 365 for Retail. Retailiga saab teha järgmist.
+
 + Otsida või sirvida tooteid teistes kauplustes.
 + Otsida või sirvida kõiki väljastatud tooteid.
 + Koostada sularahatehinguid või kliendi tellimusi.

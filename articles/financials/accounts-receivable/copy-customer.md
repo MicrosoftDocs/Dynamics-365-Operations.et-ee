@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Kliendi kopeerimisel püüab süsteem salvestada uue kliendi teabe. Kinnitamisi 
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Kliendi kopeerimine maksuvabastuse numbri otsingu funktsiooni abil
 
-Hankijaid saab kopeerida ka maksuvabastuse numbri otsingu funktsiooni abil lehe **Kõik kliendid** toimingupaani vahekaardi **Klient** grupis **Registreerimine**. Avanevas dialoogiboksis **Maksuvabastuse numbri otsing** kuvatakse maksuvabastuse numbrid, kliendi ID, kliendi nimi ja juriidiline isik, kus maksuvabastuse ID-d kasutatakse. Kliendi saate kopeerida ainult siis, kui see on juriidilises isikus, mis pole praegune juriidiline isik. Kui olete sellele kriteeriumile vastava kliendi valinud, tehke järgmist.
+Kliente saab kopeerida ka maksuvabastuse numbri otsingu funktsiooni abil lehe **Kõik kliendid** toimingupaani vahekaardi **Klient** grupis **Registreerimine**. Avanevas dialoogiboksis **Maksuvabastuse numbri otsing** kuvatakse maksuvabastuse numbrid, kliendi ID, kliendi nimi ja juriidiline isik, kus maksuvabastuse ID-d kasutatakse. Kliendi saate kopeerida ainult siis, kui see on juriidilises isikus, mis pole praegune juriidiline isik. Kui olete sellele kriteeriumile vastava kliendi valinud, tehke järgmist.
 
 1. Kuvatakse suvand **Kliendi kopeerimine**. Vaikimisi on selle suvandi säte **Ei**. Kliendi kopeerimiseks praegusse juriidilisse isikusse määrake suvandi sätteks **Jah**. 
 2. Valige käsk **Vali**. Luuakse uus klient.

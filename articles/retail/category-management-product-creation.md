@@ -59,4 +59,3 @@ Saate uut tooteatribuutide täiustatud struktuuri kasutada selleks, et valida, m
 
 ![Dialoogiboks Värskenda tooteid](media/NewUpdateProductsEnhancedView.PNG)
 
-

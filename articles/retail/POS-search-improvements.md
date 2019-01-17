@@ -66,7 +66,7 @@ Kohalike tooteotsingute kogemus on nüüd kasutajasõbralikum. Tehtud on ka jär
 - Nüüd saavad jaemüüjad konfigureerida tooteotsingu nii, et kui kasutajad tootenimesid tipivad, siis kuvatakse otsingusoovitused. Selle funktsiooni uus säte on saadaval kassa funktsiooniprofiilis grupis, mille nimi on **Tooteotsing**. Sätte nimi on **Näita tippimise ajal otsingusoovitusi**. See funktsioon aitab töötajatel otsitavat toodet kiiresti leida, kuna nad ei pea kogu nime käsitsi tippima.
 - Tooteotsingu algoritm otsib nüüd otsitud sõnu toote atribuudist **Otsingunimi**.
 
-![Tootesoovitused](./media/Productsuggestions.png "Tootesoovitused")
+    ![Tootesoovitused](./media/Productsuggestions.png "Tootesoovitused")
 
 ## <a name="customer-search"></a>Kliendi otsing
 

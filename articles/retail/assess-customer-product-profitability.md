@@ -31,33 +31,30 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ja toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmetest. 
+See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ja toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmetest.
 
 Microsoft Dynamics 365 for Retaili osana saavad kasutajad analüüsida parimate klientide (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe alljärgneva kriteeriumi põhjal:
 
--   Müügisumma
--   Kogus
--   Kogutulu marginaal
--   Marginaali protsent
+- Müügisumma
+- Kogus
+- Kogutulu marginaal
+- Marginaali protsent
 
 Selle hinnangu jaoks saate kasutada **parimate klientide** valmisaruandeid, mille saate avada ühtest järgmistest asukohtadest:
 
--   Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Parimate klientide aruanne**
--   Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Parimate klientide aruanne**
+- Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Parimate klientide aruanne**
+- Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Parimate klientide aruanne**
 
 Samuti saavad kasutajad analüüsida peamiste toodete (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe alljärgneva kriteeriumi põhjal:
 
--   Müügisumma
--   Kogus
--   Kogutulu marginaal
--   Marginaali protsent
+- Müügisumma
+- Kogus
+- Kogutulu marginaal
+- Marginaali protsent
 
 Selle hinnangu jaoks saate kasutada **peamiste toodete** valmisaruandeid, mille saate avada ühest järgmistest asukohtadest:
 
--   Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
--   Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
--   Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Peamiste toodete aruanne**
-
-
-
+- Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
+- Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
+- Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Peamiste toodete aruanne**
 

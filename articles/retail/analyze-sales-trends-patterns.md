@@ -35,15 +35,13 @@ Saate Microsoft Dynamics 365 for Retailis uurida müügitrende ja -mustreid reaa
 
 Kasutajad saavad Microsoft Dynamics 365 for Retaili osana uurida müügitrende ja -mustreid reaalajas organisatsiooni hierarhia erinevatel tasanditel aastate perioodil, kasutades valmisaruannet **Kanali müük aastate alusel**. Selle aruande saab avada järgmistest asukohtadest.
 
--   Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**
--   Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**
--   Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne aastate alusel**
+- Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**
+- Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**
+- Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne aastate alusel**
 
 Kasutajad saavad uurida ka müügitrende ja -mustreid tundide kaupa organisatsiooni hierarhia erinevatel tasanditel valitud perioodil, kasutades valmisaruannet **Kanali müük tundide alusel**. Selle aruande saab avada järgmistest asukohtadest.
 
--   Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**
--   Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**
--   Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne tundide alusel**
-
-
+- Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**
+- Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**
+- Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne tundide alusel**
 

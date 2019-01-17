@@ -3,7 +3,7 @@ title: "Hankimine tööriistaga LinkedIn Recruiter"
 description: "Selles teemas kirjeldatakse masinõppe kasutamist töökohtade ja töökoha kandidaatide soovituste saamiseks."
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: 106103e2c3d8f3d89aac5140174e5794da22536f
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -83,7 +83,12 @@ Kui LinkedIn Recruiteri võimalused on Attracti administraatori poolt sisse lül
 
 Saate Attractis vaadata kandidaadi LinkedIni profiili. LinkedIni vidin näitab kandidaadi profiili, kui ATS-i andmed kattuvad kasutajate LinkedIni andmetega.
 
-Profiili vaatamiseks minge kas töö või talendikausta kaudu kandidaadi profiili juurde. Profiilividina laadimiseks valige kandidaadi profiilis vahekaart **LinkedIn**. Näidake profiilividinat kasutades, kas see sobib. Kui ei, leidke õige isik. Sellelt lehelt saate kandidaadi ka oma LinkedIn Recruiteri projektidesse salvestada.
+Profiili vaatamiseks minge kas töö või talendikausta kaudu kandidaadi profiili juurde. Profiilividina laadimiseks valige kandidaadi profiilis vahekaart **LinkedIn**. Sellelt lehelt saate kandidaadi ka oma LinkedIn Recruiteri projektidesse salvestada.
+1. E-posti ja LinkedIni liikme ID (täpne vaste) vaste leidmisel LinkedInis kuvatakse kandidaadi profiili. Kasutajal on endiselt võimalus profiili suvand linkida/linkimine tühistada.
+
+2. Kui LinkedIn ei leia kandidaati e-posti või liikme ID põhjal, kuvatakse võimalike kandidaatide vastete loend vastavalt kandidaadi nime järgi ja kasutaja saab valida neist ühe ning linkida profiili.  
+
+3. Kui LinkedIn ei leia kandidaadi nime, tuleb teade, et ei leitud ühtki vastet.
 
 ### <a name="1-click-export"></a>Ühe klõpsuga eksportimine 
 
@@ -117,11 +122,14 @@ LinkedIn värbaja abil saate saate jälgida, kas kandidaat on kandideerinud teie
 
 6.  Selle kandidaadi kohta Attracti jäädvustatud märkuste vaatamiseks valige vahekaart **Märkused**.
 
+> [!NOTE]
+> Kandidaadi ja avalduse andmeid ei sünkroonita LinkedIni värbajaga, kui kandidaat ei ole potentsiaalne klient.
+
 ### <a name="inmail-history"></a>InMail ajalugu
 
 LinkedIn InMail ajalugu on LinkedIn Recruiteriga saadaval lepingu tasandil juurdepääsuga. Kui see on lubatud, saate vaadata oma kogu kandidaadiga seotud InMail ajalugu. Samuti saate vaadata kes teie organisatsioonist on kandidaadiga veel inMaile vahetanud, kuid te ei saa vaadata nendevahelisi sõnumeid.
 
-InMail ajaloo vaatamiseks minge kandidaadi profiilile, minge vahekaardile **LinkedIn** ja kerige ajaloo vaatamiseks lehe allserva. InMail ajalugu saate vaadata ainult juhul, kui kandidaat on teie taotlusele vastanud ja oma profiili teiega LinkedInis jaganud. InMaili sõnumid sünkroonitakse Attractiga iga paari tunni järel.
+InMail ajaloo vaatamiseks minge kandidaadi profiilile, minge vahekaardile **LinkedIn** ja kerige ajaloo vaatamiseks lehe allserva. Kui teil on olnud kandidaadiga arutelu, saate vaadata InMaili ajalugu. InMaili sõnumid sünkroonitakse Attractiga iga paari tunni järel.
 
 ### <a name="notes-history"></a>Märkuste ajalugu 
 
@@ -131,7 +139,7 @@ Märkuste ajaloo vaatamiseks minge kandidaadi profiilile, minge vahekaardile **L
 
 ### <a name="inmail-stub-profile"></a>InMail lühiprofiil
 
-InMail lühiprofiil on saadaval LinkedIn Recruiteri lepingu tasandil juurdepääsuga. Kui kandidaadid nõustuvad oma LinkedIn profiile jagama mistahes teie organisatsiooni kasutajaga, saate kandidaate Attractis jälgida ning igale kandidaadile luuakse uus kandidaadi kirje.
+InMail lühiprofiil on saadaval LinkedIn Recruiteri lepingu tasandil juurdepääsuga. Kui kandidaadid nõustuvad oma LinkedIn profiile jagama mistahes teie organisatsiooni kasutajaga, saate kandidaate Attractis jälgida ning igale kandidaadile luuakse uus kandidaadi kirje. Kui kandidaat on juba olemas süsteemis e-posti aadressiga või on jaganud oma aadressi värbajaga, saate vaadata kandidaadi e-posti aadressi.
 
 Kandidaatide loendi vaatamiseks avage **Talendikaustad**, et näha süsteemi loodud LinkdedIni talentide kausta. See talentide kaust sisaldab kandidaatide loendit ja nende LinkedInist saadud lühiprofiile, mis näitavad kandidaatide eesnime ja perekonnanime. Kandidaadi e-posti aadressi kuvatakse siis, kui kandidaat soovib oma e-posti aadressi jagada.
 

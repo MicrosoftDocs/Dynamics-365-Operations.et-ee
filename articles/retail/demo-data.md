@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ Retaili demoandmetega kaasas olevad ekraanipaigutuste näidised hõlmavad sisu, 
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Ekraanipaigutuse ID anatoomia
 
-Retailis ekraanipaigutuste leidmiseks avage jaotis **Retail** > **Kanali seadistus** > **Kassa seadistus** > **Kassa** > **Ekraanipaigutused**.
+Jaemüügi ekraanipaigutuste leidmiseks avage jaotis **Jaemüük** \> **Kanali seadistus** \> **Kassa seadistus** \> **Kassa** \> **Ekraanipaigutused**.
 
 ![Retaili ekraanipaigutuste leht](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ Järgmine tabel näitab paigutuste suurusi, mis on saadaval ekraani tüüpiliste
 
 \*Need täiendavad suurused on saadaval ainult Adventure Worksi ja Fabrikami paigutustes.
 
-
->[!TIP]
-> POS valib paigutuste suurused automaatselt olenevalt sellest, milline suurus on lähim rakenduse praeguse akna eraldusvõimele. Praegu kasutatava ekraanipaigutuse ID ja paigutuse eraldusvõime leidmiseks avage rakenduses Retail Modern POS (MPOS) või Retail Cloud POS (CPOS) avage leht **Sätted** ja vaadake jaotist **Seansi teave**. Samuti näete praeguse rakenduse või brauseripaneeli akna tegelikku eraldusvõimet. Pärast selle teabe hankimist võite Retailis paigutuse sisu allika leidmiseks avada jaotise **Kanali seadistus** > **Kassa seadistus** > **Kassa** > **Ekraanipaigutused**.
-
+> [!TIP]
+> POS valib paigutuste suurused automaatselt olenevalt sellest, milline suurus on lähim rakenduse praeguse akna eraldusvõimele. Praegu kasutatava ekraanipaigutuse ID ja paigutuse eraldusvõime leidmiseks avage rakenduses Retail Modern POS (MPOS) või Retail Cloud POS (CPOS) avage leht **Sätted** ja vaadake jaotist **Seansi teave**. Samuti näete praeguse rakenduse või brauseripaneeli akna tegelikku eraldusvõimet. Pärast selle teabe hankimist võite jaotises Jaemüük paigutuse sisu allika leidmiseks avada jaotise **Kanali seadistus** \> **Kassa seadistus** \> **Kassa** \> **Ekraanipaigutused**.
 
 ![Ekraanipaigutused ja paigutuste eraldusvõimed/suurused Retailis ja kassas](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Iga fiktiivne ettevõte sihib eri jaemüügisegmenti ja hõlmab tootekatalooge, 
 | Fabrikam        | Houston  | Mood        | Roheline  | Hele |
 | Contoso         | Boston   | Elektroonika    | Punane    | Tume  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works ja Fabrikam on kaks juhtivat kaubamärki. Contoso on saadaval, ent see ei hõlma kõiki paigutusi.
-
 
 Järgmised joonised hõlmavad kolme fiktiivse ettevõtte tervituslehe ja kandelehe näiteid.
 
@@ -153,28 +149,26 @@ Järgmised joonised hõlmavad kolme fiktiivse ettevõtte tervituslehe ja kandele
 
 Ekraanipaigutuste jaoks on lisatud kasutajad. Järgmise tabeli abil peaksite saama juurdepääsu kõikidele ekraanidele. Kasutage lihtsalt sisselogimiseks sobivat operaatori ID-d.
 
-| Ettevõte         | Ekraani paigutuse ID | Isik          | Operaatori ID-d           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | Kaupluse juhataja    | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Kassapidaja          | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Kaupade väljapanija      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Kaupluse juhataja    | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Kassapidaja          | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Kaupade väljapanija      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | Kaupluse juhataja    | 000100, 000111         |
-| Contoso         | C3CSH            | Kassapidaja          | 000110, 000120         |
-| Contoso         | Pole kohaldatav   | Kaupade väljapanija      | Pole kohaldatav         |
+| Ettevõte         | Ekraani paigutuse ID | Isik       | Operaatori ID-d           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | Kaupluse juhataja | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Kassapidaja       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Kaupade väljapanija   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | Kaupluse juhataja | 000160, 000168, 000163 |
+| Fabrikam        | F3CSH            | Kassapidaja       | 000161, 000113, 000114 |
+| Fabrikam        | F3STK            | Kaupade väljapanija   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | Kaupluse juhataja | 000100, 000111         |
+| Contoso         | C3CSH            | Kassapidaja       | 000110, 000120         |
+| Contoso         | Pole kohaldatav   | Kaupade väljapanija   | Pole kohaldatav         |
 
-
->[!TIP]
+> [!TIP]
 > Parimate tulemuste saavutamiseks aktiveerige kaupluse asukohas kassaaparaat ja seejärel valige sisselogimiseks kasutatava isiku ettevõte. See aitab tagada, et visuaalne profiil ja kaubamärgi pildid oleksid keskkonnas järjepidevad. Näiteks kui soovite näha Fabrikami kassapidaja paigutust, tuleb teil aktiveerida kassaaparaat Houstoni kaupluses.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

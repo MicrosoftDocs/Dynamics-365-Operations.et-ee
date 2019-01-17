@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 5250a75655b23f1bc92b332a48dfec094af049cf
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 71c61764ca2dd79df110d257b61bd656804519ef
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,13 +29,11 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Kahjuks pidime eemaldama AxErdi veebilehe, kus esitati mitme Microsoft Dynamics AX 2012 tabeli kohta olemite seoste skeeme. Oleme GitHubi hoidlasse sisestanud nii projekti lähtekoodi, kui ka veebilehe HTML-failid: https://github.com/Microsoft/ax-2012-doc-tools
+Kahjuks pidime eemaldama AxErdi veebilehe, kus esitati mitme Microsoft Dynamics AX 2012 tabeli kohta olemite seoste skeeme (ERD). Oleme GitHubi hoidlasse sisestanud nii projekti lähtekoodi, kui ka veebilehe HTML-failid: https://github.com/Microsoft/ax-2012-doc-tools
 
 HTML-lehed asuvad hoidlas, veebiaadressil: [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)
 
 Enda ERD loomiseks leiate kirjelduse aadressilt: [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)
 
-Lahendus asub kausta AxErd juurkataloogis [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd). 
-
-
+Lahendus asub kausta AxErd juurkataloogis [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).
 

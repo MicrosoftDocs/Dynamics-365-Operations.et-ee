@@ -3,7 +3,7 @@ title: Pakkumiste halduse seadistamine
 description: Selles teemas kirjeldatakse, kuidas rakenduses Talent pakkumisi seadistada.
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: et-ee
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Pakkumiste halduse seadistamine 
@@ -105,7 +105,7 @@ Pakkumisandmete reeglite faili üleslaadimiseks tehke järgmist.
 
 1.  Saate olemasoleva üleslaetud reeglistiku kustutada, kui määratletud kohatäidet ei kasutata teistes dokumendimallides.
 
->[!MÄRKMED]
+>[!NOTE]
 > - Igal kohatäitel saab olla vaid üks kordumatu veergude komplekt, millest see sõltub. Näiteks kui **Aastapalk** sõltub **Töö asukohast** ja **Tasemest**, ei saa üles laadida teist reeglistikku, kus **Aastapalk** sõltub teistsugustest veergudest.
 
 > - Saate **Näidiste** vahekaardilt **Pakkumisandmete reeglite** lehel alla laadida pakkumisandmete reeglistiku näidised.
@@ -136,7 +136,7 @@ Pakkumise dokumendimalli loomiseks tehke järgmist.
 
     - Lisades pakkumisandmete kohatäite otse selle kohale. Sisestades **\#** ja hakates seejärel sisestama pakkumisandmete kohatäite nime. Valikud ilmuvad rippmenüü loendis. Pakkumisandmete kohatäite sisestamiseks klõpsake või vajutage **Sisestamine**.
 
-    >[!MÄRKMED]
+    >[!NOTE]
     > - Kohatäite seostamiseks pakkumise dokumendimalliga, selle väärtust kandidaadile avaldamata, liikuge hiirega üle pakkumisandmete kohatäite ja klõpsake ikooni **Kinnita**. See lükkab kohatäite pakkumise dokumendimalli **Kinnitatud pakkumisandmete** jaotisesse. Eemaldamiseks järgige samu juhiseid, kuid klõpsake pakkumisandmete kohatäidete loendis **Eemalda**.
 
     > - Aktiivsete pakkumisandmete kohatäidete kuvamiseks minge paempoolse paani vahekaardile **Aktiivne**.
@@ -175,7 +175,7 @@ Pakkumise paketid pakkumise artefaktid, mida kandidaatidega jagatakse ning need 
 
 1.  Klõpsake **Lisa mall**.
 
-    >[!MÄRKMED]
+    >[!NOTE]
     > - Võite luua uue malli või valida olemasolevate seast.
 
     > - Kui soovite lisada olemasoleva malli, peate veenduma, et pakkumise dokumendimall salvestati, lõpetati ja selle olek märgiti aktiivseks.
@@ -198,8 +198,10 @@ Rakenduse Attract administraator saab konfigureerida mitut pakkumise loomise pro
 
 - **Kandidaadi pakkumise kogemus** – administraatorina saate valida, kas määrata kõigile pakkumistele aegumiskuupäev ja kui, siis milline peaks olema aegumiskuupäeva vaikevastasus. Saate konfigureerida ka selle, kas kandidaat saab pakkumisest keelduda.
 
-- **Digiallkirjad** – praegu on ainus saadaolev digiallkirja võimalus, et kandidaadid sisestavad oma nime seda vastu võttes pakkumise paketti. Tutvustame tulevikus partnerintegratsioone teiste digitaalallkirja võimaluste pakkujatega.
+- **Elektronallkirjad** -administraatorina saate määrata ka meetodi, mille abil kandidaatid saavad pakkumistele allkirju anda.
+    - Adobe Sign - kõik pakkumispaketid saadetakse ja allkirjastatakse rakenduse Adobe Sign abil. Iga avaldatud pakkumise looja peab ühendama oma Adobe Sign'i litsentsi rakendusega Attract. 
 
+    - ESign – see on valmiskujul esitatud vaikesäte, kus kasutaja saab oma nime ja initsiaalide sisestamisega pakkumise allkirjastada.
 
 Pakkumise loomise protsessi kohta lisateabe saamiseks vt [Loomine, kinnitamine ja pakkumiste allkirjastamine](./creating-offers.md).
 

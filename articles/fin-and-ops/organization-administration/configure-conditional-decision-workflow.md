@@ -34,24 +34,24 @@ Kasutage järgmist protseduuri, et konfigureerida tingimusliku otsuse atribuudid
 Tingimuslik otsus on punkt, milles töövoog jaguneb kaheks haruks. Töövoo redaktoris tingimusliku otsuse loomiseks paremklõpsake tingimuslikku otsust ja seejärel klõpsake valikut **Atribuudid**, et avada vorm **Atribuudid**.
 
 ## <a name="name-a-decision"></a>Otsusele nime andmine
+
 Tingimuslikule otsusele nime sisestamiseks tehke järgmist.
-1.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
-2.  Väljal **Nimi** sisestage tingimuslikule otsusele kordumatu nimi.
+
+1. Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
+2. Väljal **Nimi** sisestage tingimuslikule otsusele kordumatu nimi.
 
 ## <a name="set-conditions"></a> Tingimuste määramine
+
 Süsteem määrab, haru kasutada, hinnates edastatud dokumenti ja otsustades, kas see vastab kindlatele tingimustele.
-1.  Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
-2.  Klõpsake valikut **Lisa tingimus**.
-3.  Sisestage tingimus.
-4.  Sisestage lisatingimused, kui need on nõutavad.
-5.  Kontrollimaks, kas teie sisestatud tingimused on õigesti konfigureeritud, tehke järgmist.
-    1.  Klõpsake valikut **Katseta**, et avada leht **Katseta töövoo tingimust**.
-    2.  Valige vormi alal kirje **Kontrolli tingimust**.
-    3.  Klõpsake nuppu **Test**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.
-    4.  Klõpsake valikut **OK** või **Tühista**, et naasta vormile **Atribuudid**.
 
+1. Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.
+2. Klõpsake valikut **Lisa tingimus**.
+3. Sisestage tingimus.
+4. Sisestage lisatingimused, kui need on nõutavad.
+5. Kontrollimaks, kas teie sisestatud tingimused on õigesti konfigureeritud, tehke järgmist.
 
-
-
-
+    1. Klõpsake valikut **Katseta**, et avada leht **Katseta töövoo tingimust**.
+    2. Valige vormi alal kirje **Kontrolli tingimust**.
+    3. Klõpsake nuppu **Test**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.
+    4. Klõpsake valikut **OK** või **Tühista**, et naasta vormile **Atribuudid**.
 

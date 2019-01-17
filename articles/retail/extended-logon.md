@@ -69,6 +69,3 @@ Sisselogimisteenust saab laiendada täiendavate laiendatud sisselogimine seadmet
 
 Kui laiendatud sisselogimine on konfigureeritud ja töötajale on määratud vöötkood või magnetriba, peab töötaja kassa sisselogimislehe kuvamisel tegema ainult kaarditõmbe või ‑skanni. Kui sisselogimise jätkamiseks on kohustuslik ka parool, palutakse töötajal oma parool sisestada.
 
-
-
-

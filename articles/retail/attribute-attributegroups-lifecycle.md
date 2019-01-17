@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/08/2018
 [!include [banner](includes/banner.md)]
 
 *Atribuudid* võimaldavad täpsemalt kirjeldada toodet ja selle omadusi kasutaja määratud väljade kaudu (nagu **mälu suurus**, **kõvaketta maht**, **vastavus energiatähisele** jne). Rakenduses Microsoft Dynamics 365 for Finance and Operations saab atribuute seostada erinevate jaemüügiüksustega, nagu tootekategooriad ja jaemüügikanalid, ning neile saab määrata vaikeväärtused. Tooted pärivad seejärel atribuudid ja atribuutide vaikeväärtused, kui need seostatakse tootekategooriate või jaemüügikanalitega. Vaikeväärtusi saab alistada üksiku toote tasemel, jaemüügikanali tasemel või jaemüügikataloogis.
- 
+
 Näiteks võivad tavapärasel teleril olla järgmised atribuudid.
 
 | Kategooria   | Atribuut                | Lubatud väärtused          | Vaikeväärtus |
@@ -50,7 +50,7 @@ Näiteks võivad tavapärasel teleril olla järgmised atribuudid.
 | Plasma     | Töötemperatuur alates      | 32–110 kraadi              | 32            |
 |            | Töötemperatuur kuni        | 32–110 kraadi              | 100           |
 | Projektsioon | Projektsioonitoru garantii | 6, 12 või 18 kuud         | 12            |
-|            | # projektsioonitoru    | 1–5                         | 3             |
+|            | Projektsioonitorude \#   | 1–5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Atribuudid ja atribuuditüübid
 
@@ -104,7 +104,7 @@ Siin on ülejäänud atribuudi metaandmete suvandid lehel **Atribuudid**:
 
 Need suvandid olid algselt ette nähtud veebipoe fassaadi otsingufunktsiooni täiustamiseks. Kuigi rakendus Finance and Operations ei sisalda valmiskujul veebipoe fassaadi, sisaldab see lahendust eCommerce Publishing Software Development Kit (SDK). Kliendid saavad seda SDK-d kasutada toodete panemiseks enda valitud otsinguindeksisse. Kuigi tooteandmed imporditakse, peaksid kliendid siiski saama eristada otsitavaid andmeid, andmeid, mille kohta saab esitada päringuid jne. Sel viisil saavad nad luua optimaalse indeksi veendumaks, et nad indekseerivad ainult atribuute, mida *nende hinnangul* tuleb indekseerida.
 
-Täpsemat teavet ülejäänud suvandite eesmärgi kohta vt teemast [SharePoint Server 2013 otsinguskeemi ülevaade](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Täpsemat teavet ülejäänud suvandite eesmärgi kohta vt teemast [SharePoint Server 2013 otsinguskeemi ülevaade](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atribuutide filtrisätted
 
@@ -121,7 +121,7 @@ Leht **Filtri kuvamise eelistused** sisaldab järgmisi välju.
 - **Kuva juhtelement** – saadaval on järgmised suvandid.
 
     - **Loend** – see suvand on saadaval kõigi atribuuditüüpide jaoks.
-    - **Vahemik** – see suvand on saadaval järgmiste atribuuditüüpide jaoks: **valuuta**, **kümnendkoht** ja **täisarv**. 
+    - **Vahemik** – see suvand on saadaval järgmiste atribuuditüüpide jaoks: **valuuta**, **kümnendkoht** ja **täisarv**.
     - **Liugur** – see suvand on saadaval järgmiste atribuuditüüpide jaoks: **valuuta**, **kümnendkoht** ja **täisarv**.
     - **Ribadega liugur** – see suvand on saadaval järgmiste atribuuditüüpide jaoks: **valuuta**, **kümnendkoht** ja **täisarv**.
 
@@ -228,13 +228,13 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
 5. Kiirkaardil **Tooted** valige nõutav toode ja seejärel valige tooteruudustiku kohal suvand **Atribuudid**.
 6. Järgmistel kiirkaartidel värskendage nõutavate atribuutide väärtusi:
 
-   - Ühiskasutuses tootemeedium
-   - Ühised toote atribuudid
-   - Kanali meedium
-   - Kanali toote atribuudid
+    - Ühiskasutuses tootemeedium
+    - Ühised toote atribuudid
+    - Kanali meedium
+    - Kanali toote atribuudid
 
-     > [!NOTE]
-     > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
+    > [!NOTE]
+    > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
 
 ![Kataloogi toote atribuudigrupid](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
 
 5. Järgmistel kiirkaartidel värskendage nõutavate atribuutide väärtusi:
 
-   - Ühiskasutuses tootemeedium
-   - Ühised toote atribuudid
-   - Kanali meedium
-   - Kanali toote atribuudid
+    - Ühiskasutuses tootemeedium
+    - Ühised toote atribuudid
+    - Kanali meedium
+    - Kanali toote atribuudid
 
-     > [!NOTE]
-     > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
+    > [!NOTE]
+    > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
 
