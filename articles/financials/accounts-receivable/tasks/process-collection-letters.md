@@ -26,7 +26,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="process-collection-letters"></a>Märgukirjade töötlemine
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 See protseduur kirjeldab märgukirjade loomist, printimist ja sisestamist. See ülesanne kasutab demoettevõtte USMF andmeid.
 
