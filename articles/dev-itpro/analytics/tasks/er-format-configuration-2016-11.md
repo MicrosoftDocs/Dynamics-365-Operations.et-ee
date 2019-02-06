@@ -35,8 +35,10 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 2. Klõpsake valikut **Aruandluse konfiguratsioonid**.
 3. Valige puul suvand **Maksed (lihtsustatud mudel)**.
 4. Klõpsake valikut **Loo konfiguratsioon**, et avada rippdialoog.
+
  > [!NOTE]
  > Kui te ei näe valikut **Loo konfiguratsioon**, peate lubama kujundusrežiimi lehel **Elektroonilise aruandluse parameetrid**. 
+ 
 5. Sisestage väljale **Uus suvand** **Andmemudelil PaymentModel põhinev vorming**.
 6. Sisestage väljale **Nimi** suvand **BACS (UK fiktiivne)**.
 7. Sisestage väljale **Kirjeldus** suvand **BACS-i hankija maksevorming (UK fiktiivne)**.
@@ -44,6 +46,7 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
     * Määratleda saab elektroonilise dokumendi kindla vormingu. Jätke see väli tühjaks, kui soovite valida vormingu käitusajal.  
 8. Sisestage või valige väärtus väljal **Andmemudeli definitsioon**.
 9. Klõpsake **Loo konfiguratsioon**. Uus konfiguratsioon on loodud. Mustandversiooni saab kasutada vormingu kujunduse salvestamiseks elektrooniliste dokumentide haldamise puhul.  
+
  > [!NOTE]
  > Kui te ei näe valikut **Loo konfiguratsioon**, peate lubama kujundusrežiimi lehel **Elektroonilise aruandluse parameetrid**.
 
