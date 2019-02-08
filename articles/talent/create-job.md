@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="ebb2d-104">See teema kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/08/2018
 ## <a name="job-titles"></a><span data-ttu-id="ebb2d-115">Ametinimetused</span><span class="sxs-lookup"><span data-stu-id="ebb2d-115">Job titles</span></span>
 <span data-ttu-id="ebb2d-116">Enne tööde loomist peate seadistama tööde ametinimetused.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="ebb2d-117">Ametikohtade ametinimetused tuletatakse töödest, millega ametikohad seotud on.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="ebb2d-118">Ametinimetusi saate hallata lehel **Ametinimetused**, millele pääsete juurde otsingufunktsiooni abil.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="ebb2d-119">Lehel **Ametinimetused** saate sisestada ametinimetused, mida kavatsete oma tööde jaoks kasutada.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="ebb2d-118">Ametinimetusi saate hallata lehel **Ametinimetused**, millele pääsete juurde otsingufunktsiooni abil.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="ebb2d-119">Lehel **Ametinimetused** saate sisestada ametinimetused, mida kavatsete oma tööde jaoks kasutada.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="ebb2d-120">Töötüübid</span><span class="sxs-lookup"><span data-stu-id="ebb2d-120">Job types</span></span>
 <span data-ttu-id="ebb2d-121">Sarnaste tööde kategooriatesse grupeerimiseks saate kasutada töötüüpe.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="ebb2d-122">Töötüübid ei ole nõutavad.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-122">Job types aren't required.</span></span> <span data-ttu-id="ebb2d-123">Kuid kui te kavatsete kasutada töö tüüpe kompensatsioonihalduse sobivuse reeglite seadistamisel, peaksite seadistama töö tüübid enne tööde seadistamist.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="ebb2d-124">Töötüübid on näiteks täistööaeg ja osaline tööaeg või kuupalk ja tunnipalk.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="ebb2d-125">Töötüüpe saate hallata lehel **Töötüübid**.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="ebb2d-126">Sisestage lehel **Töötüübid** töötüübi nimi ja lühikirjeldus.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="ebb2d-127">Tehke väljal **Vabastatud olek** üks järgmistest valikutest, et näidata selle töötüübiga tööde õiglaste tööstandardite seaduse (FLSA) alusel vabastatud olekut.</span><span class="sxs-lookup"><span data-stu-id="ebb2d-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
