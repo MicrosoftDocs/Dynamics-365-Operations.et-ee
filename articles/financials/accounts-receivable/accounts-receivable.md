@@ -1,13 +1,13 @@
 ---
-title: "Müügireskontro kodulehekülg"
-description: "Kasutage müügireskontrot kliendiarvete ja sissetulevate maksete jälgimiseks."
+title: Müügireskontro kodulehekülg
+description: Kasutage müügireskontrot kliendiarvete ja sissetulevate maksete jälgimiseks.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302185"
 ---
-
 # <a name="accounts-receivable-home-page"></a>Müügireskontro kodulehekülg
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Kasutage müügireskontrot, et jälgida kõiki kliendiarveid ja klientidelt vast
 
 :::row:::
     :::column:::
-        - [Arvestuse jaotused ja alammooduli töölehe sisestused vabas vormis arvete puhul](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [Arvestuse jaotused ja alammooduli töölehe kirjed vabas vormis arvete puhul](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [Kliendi sisestusreeglid](customer-posting-profiles.md)
         - [Krediitkaardi seadistamine, autoriseerimine ja hõivamine](credit-card-authorizations.md)
         - [Kliendiarve loomine](configure-customer-invoices.md)
@@ -105,7 +104,7 @@ Müügireskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe le
 
 Palju postitusi müügireskontro kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/). Kuigi mõned neist postitustest kirjutati müügireskontro eelmisele versioonile, on põhimõtted endiselt samad. Ka protseduurid on praeguses versioonis sarnased.
 
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamics partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
 
 #### <a name="task-guides"></a>Tegevuse juhised
 Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
@@ -113,7 +112,6 @@ Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operatio
 #### <a name="videos"></a>Videod
 
 Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 
 

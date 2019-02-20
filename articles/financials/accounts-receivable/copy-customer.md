@@ -1,13 +1,13 @@
 ---
-title: "Klientide kopeerimine ühiskasutatavate numbriseeriate abil"
-description: "Selles teemas selgitatakse, kuidas kasutada ühiskasutatavaid numbriseeriaid kliendi kopeerimiseks teise juriidilisse isikusse, säilitades sama kliendi ID."
+title: Klientide kopeerimine ühiskasutatavate numbriseeriate abil
+description: Selles teemas selgitatakse, kuidas kasutada ühiskasutatavaid numbriseeriaid kliendi kopeerimiseks teise juriidilisse isikusse, säilitades sama kliendi ID.
 author: mikefalkner
 manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302147"
 ---
-
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Klientide kopeerimine ühiskasutatavate numbriseeriate abil
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Käsitsi kliendi ID-de kasutamisel saate kliente juriidiliste isikute vahel ka k
 
 ## <a name="copy-a-customer"></a>Kliendi kopeerimine
 
-Kliendi kopeerimiseks valige loendilehelt **Kõik kliendid** suvand **Uus**, et avada dialoogiboks **Kliendi loomine**. Pange tähele, et uut kliendi ID-d ei määrata kohe. See käitumine erineb käitumisest rakenduse Microsoft Dynamics 365 for Finance and Operations varasemates versioonides. Kuna kliendigrupp pole veel valitud, ei saa süsteem määrata kasutamiseks õiget numbriseeriat. Samuti ei saa see kindlaks teha, kas püüate luua uue kliendi või kliendi kopeerida. Seetõttu ei määrata kliendi ID-d enne, kui valite dialoogiboksi alaservast käsu **Salvesta**.
+Kliendi kopeerimiseks valige loendilehelt **Kõik kliendid** suvand **Uus**, et avada dialoogiboks **Kliendi loomine**. Pange tähele, et uut kliendi ID-d ei määrata kohe. See käitumine erineb teenuse Microsoft Dynamics 365 for Finance and Operations eelmiste versioonide käitumisest. Kuna kliendigrupp pole veel valitud, ei saa süsteem määrata kasutamiseks õiget numbriseeriat. Samuti ei saa see kindlaks teha, kas püüate luua uue kliendi või kliendi kopeerida. Seetõttu ei määrata kliendi ID-d enne, kui valite dialoogiboksi alaservast käsu **Salvesta**.
 
 Uue kliendi loomisel saate jätkata kõigi väljade täitmist, nagu seda tavaliselt teete. Kui olete lõpetanud ja valite käsu **Salvesta**, siis näete, et kliendi ID on automaatselt määratud. Käsitsi numbriseeriate puhul näete, et kasutatakse teie käsitsi määratud kliendi ID-d.
 
@@ -66,4 +65,3 @@ Kliente saab kopeerida ka maksuvabastuse numbri otsingu funktsiooni abil lehe **
 
 1. Kuvatakse suvand **Kliendi kopeerimine**. Vaikimisi on selle suvandi säte **Ei**. Kliendi kopeerimiseks praegusse juriidilisse isikusse määrake suvandi sätteks **Jah**. 
 2. Valige käsk **Vali**. Luuakse uus klient.
-

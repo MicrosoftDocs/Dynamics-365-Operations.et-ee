@@ -1,13 +1,13 @@
 ---
-title: "Hankijate kopeerimine ühiskasutatavate numbriseeriate abil"
-description: "Selles teemas selgitatakse, kuidas kasutada ühiskasutatavaid numbriseeriaid hankija kopeerimiseks teise juriidilisse isikusse, säilitades sama hankija ID."
+title: Hankijate kopeerimine ühiskasutatavate numbriseeriate abil
+description: Selles teemas selgitatakse, kuidas kasutada ühiskasutatavaid numbriseeriaid hankija kopeerimiseks teise juriidilisse isikusse, säilitades sama hankija ID.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302191"
 ---
-
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Hankijate kopeerimine ühiskasutatavate numbriseeriate abil
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Käsitsi hankija ID-de kasutamisel saate hankijaid juriidiliste isikute vahel ka
 
 ## <a name="copy-a-vendor"></a>Hankija kopeerimine
 
-Hankija kopeerimiseks valige loendilehel **Kõik hankijad** suvand **Uus**, et avada leht **Kõik hankijad, uus kirje**. Pange tähele, et uut hankija ID-d ei määrata kohe. See käitumine erineb käitumisest rakenduse Microsoft Dynamics 365 for Finance and Operations varasemates versioonides. Kuna hankijagrupp pole veel valitud, ei saa süsteem määrata kasutamiseks õiget numbriseeriat. Samuti ei saa see kindlaks teha, kas püüate luua uue hankija või hankija kopeerida. Seetõttu ei määrata hankija ID-d enne, kui valite lehe alaservast käsu **Salvesta**.
+Hankija kopeerimiseks valige loendilehel **Kõik hankijad** suvand **Uus**, et avada leht **Kõik hankijad, uus kirje**. Pange tähele, et uut hankija ID-d ei määrata kohe. See käitumine erineb teenuse Microsoft Dynamics 365 for Finance and Operations eelmiste versioonide käitumisest. Kuna hankijagrupp pole veel valitud, ei saa süsteem määrata kasutamiseks õiget numbriseeriat. Samuti ei saa see kindlaks teha, kas püüate luua uue hankija või hankija kopeerida. Seetõttu ei määrata hankija ID-d enne, kui valite lehe alaservast käsu **Salvesta**.
 
 Uue hankija loomisel saate jätkata kõigi väljade täitmist, nagu seda tavaliselt teete. Kui olete lõpetanud ja valite käsu **Salvesta**, siis näete, et hankija ID on automaatselt määratud. Käsitsi numbriseeriate puhul näete, et kasutatakse teie käsitsi määratud hankija ID-d.
 
@@ -66,4 +65,3 @@ Hankijaid saab kopeerida ka maksuvabastuse numbri otsingu funktsiooni abil lehe 
 
 1. Kuvatakse suvand **Hankija kopeerimine**. Vaikimisi on selle suvandi säte **Ei**. Hankija kopeerimiseks praegusse juriidilisse isikusse määrake suvandi sätteks **Jah**.
 2. Valige käsk **Vali**. Luuakse uus hankija.
-

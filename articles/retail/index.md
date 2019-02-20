@@ -1,39 +1,34 @@
 ---
-title: Tere tulemast rakendusse Dynamics 365 for Retail
-description: Rakenduse Dynamics 365 for Retail avaleht
+# required metadata
+title: Tere tulemast teenusesse Dynamics 365 for Retail
+description: Teenuse Dynamics 365 for Retail avaleht
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.search.scope: 'Core, Operations, Retail'
+ms.custom: null
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
 ---
 
-# <a name="welcome-to-dynamics-365-for-retail"></a>Tere tulemast rakendusse Dynamics 365 for Retail
+# <a name="welcome-to-dynamics-365-for-retail"></a>Tere tulemast teenusesse Dynamics 365 for Retail
 
 [!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Retail on täielik jaemüügilahendus, mis pakub ühtlustatud kaubandust kõigi kanalite lõikes. See hõlmab müüke, mobiilsust, teavet ja tööviljakust, mis aitab jaemüüjatel ja töötajatel pilve ja mobiilsuse esikohale asetamise kaudu rohkem saavutada. Rakendus Retail pakub mitmesuguste äriprotsessidega töötamiseks mitmekülgset tuge, nt kaubanduse, varude ja kanalite haldamisvõimalusi. Samuti pakub see kõigi puutepunktide üleselt kõikehõlmavat kliendikogemust.
 
 > [!NOTE]
-> Rakendus Dynamics 365 for Retail on tihedalt seotud rakendustega Dynamics 365 for Finance and Operations ja Dynamics 365 for Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud tootega Retail, toote nimeks Microsoft Dynamics 365 for Retail; teemades, mis on peamiselt seotud põhitootega (Finance and Operations) on toote nimeks Microsoft Dynamics 365 for Finance and Operations; teemades, mis on peamiselt seotud inimressurssidega, on toote nimeks Dynamics 365 for Talent.
+> Dynamics 365 for Retail on tihedalt seotud teenustega Dynamics 365 for Finance and Operations ja Dynamics 365 for Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on peamiselt jaemüügiga seotud teemades toote nimi Microsoft Dynamics 365 for Retail; põhitootega (Finance and Operations) seotud teemades on toote nimi Microsoft Dynamics 365 for Finance and Operations; peamiselt inimressurssidega seotud teemades on toote nimi Dynamics 365 for Talent.
 
 Selle kohta lisateabe saamiseks valige vasakul paanil funktsiooniala.
 
@@ -79,12 +74,12 @@ Selleks, et määratleda seoseid kaupluse, kaupluses olevate kassaregistrite ja 
 
 Kui teil on palutud oma keskkonda kohandada või kui teie ülesandeks on oma süsteemi juurutamine ja haldamine, vaadake kindlasti rakendusele Retail omast arendaja ja süsteemiadministraatori sisu ning ka üldisemat sisu.
 
-- [Dynamics 365 for Retail IT-professionaalidele ja arendajatele](dev-itpro/dev-retail-home-page.md)
-- [Rakenduse Dynamics 365 for Finance and Operations arendamine ja haldus](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 for Retail IT-spetsialistidele ja arendajatele](dev-itpro/dev-retail-home-page.md)
+- [Teenuse Dynamics 365 for Finance and Operations arendamine ja haldus](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
+### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
 Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel.
 
@@ -94,5 +89,4 @@ Retaili ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Mic
 
 Palju postitusi Retaili kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/). Kuigi mõned neist postitustest kirjutati rakenduse Retail eelmisele versioonile on põhimõtted endiselt samad. Ka protseduurid on praeguses versioonis sarnased.
 
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.
-
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamics partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.

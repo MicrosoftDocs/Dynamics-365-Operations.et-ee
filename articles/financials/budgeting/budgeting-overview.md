@@ -1,13 +1,13 @@
 ---
-title: "Eelarvestamise kodulehekülg"
-description: "Teema annab ülevaate eelarvestamise funktsionaalsuse komponentidest, eelarvestamise tööriistadest ja aruandluse võimalustest rakenduses Microsoft Dynamics 365 for Finance and Operations."
+title: Eelarvestamise avaleht
+description: Teema annab ülevaate eelarvestamise funktsionaalsuse komponentidest, eelarvestamise tööriistadest ja aruandluse võimalustest teenuses Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302181"
 ---
-
 # <a name="budgeting-home-page"></a>Eelarvestamise avaleht
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Lõpetuseks võivad väga küpsed organisatsioonid kehtestada organisatsiooni ku
 -   [Eelarve planeerimine: ülevaade ja konfigureerimine](budget-planning-overview-configuration.md)
 -   [Ametikoha prognoosimine](position-forecasting.md)
 -   [Eelarve planeerimise põhjendusdokumendid](budget-planning-justification-docs.md)
--   [Microsoft Exceli mallid eelarve plaanimise jaoks](budget-planning-excel-templates.md)
+-   [Microsoft Exceli eelarve planeerimise mallid](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools-in-finance-and-operations"></a>Eelarvestamise tööriistad rakenduses Finance and Operations
 [![Eelarvestamise tööriistad](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
@@ -66,7 +65,6 @@ Teavet selle kohta, kuidas tuua plaanimisandmeid muudest moodulitest eelarveplaa
 Rakenduses Finance and Operations saavad kasutajad koostada eelarveplaane kas otse rakenduse Finance and Operations kliendis (kasutades konfigureeritavat eelarveplaani dokumendi lehte) või Exceli kaudu. Excel pakub mitut lisavõimalust. Näiteks saab eelarveplaani allikana kasutada väliseid andmeid, teha kohandatud arvutusi ning kasutada Microsofti liigendtabeleid ja diagramme. Enamikku eelarve plaanimise protsessi muutujatest saab konfigureerida. 
 
 Näiteks saate määratleda, kes eelarve koostab, mille kohta eelarve koostatakse ja milline on protsess. Kuigi saate kasutada eelarve plaanimiseks Excelit, jääb rakendus Finance and Operations ainsaks tõe allikaks, mis aitab eelarve juhtimise probleeme vältida. Algsete eelarvestamise andmete toomiseks eelarveplaani saab kasutada perioodilisi protsesse. Aruandluse jaoks pakub rakendus Finance and Operations standardsete päringulehtede kogumit, mis võimaldab eelarvestamise andmeid vaadata ja analüüsida. Eelarveplaani andmetele pääseb juurde Management Reporteri kaudu ja eraldi eelarveplaani stsenaariume saab kuvada Management Reporteri aruandes veergudena.
-
 
 
 
