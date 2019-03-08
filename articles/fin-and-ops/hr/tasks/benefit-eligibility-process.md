@@ -1,13 +1,13 @@
---- 
-title: "Soodustuskõlblikkuse töötlemine"
-description: "See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab."
+---
+title: Soodustuskõlblikkuse töötlemine
+description: See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit
 audience: Application User
 ms.reviewer: rschloma
@@ -16,44 +16,43 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 859bf2ef369173ce4b6bc380820ea157ae86e13a
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325545"
 ---
-# <a name="benefit-eligibility-process"></a><span data-ttu-id="866ee-103">Soodustuskõlblikkuse töötlemine</span><span class="sxs-lookup"><span data-stu-id="866ee-103">Benefit eligibility process</span></span>
+# <a name="benefit-eligibility-process"></a><span data-ttu-id="a89ef-103">Soodustuskõlblikkuse töötlemine</span><span class="sxs-lookup"><span data-stu-id="a89ef-103">Benefit eligibility process</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="866ee-104">See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab.</span><span class="sxs-lookup"><span data-stu-id="866ee-104">This procedure shows how the benefit eligibility process works.</span></span> <span data-ttu-id="866ee-105">Kui protsess on lõpule viidud, saab tulemusi vaadata.</span><span class="sxs-lookup"><span data-stu-id="866ee-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="866ee-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="866ee-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="a89ef-104">See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab.</span><span class="sxs-lookup"><span data-stu-id="a89ef-104">This procedure shows how the benefit eligibility process works.</span></span> <span data-ttu-id="a89ef-105">Kui protsess on lõpule viidud, saab tulemusi vaadata.</span><span class="sxs-lookup"><span data-stu-id="a89ef-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="a89ef-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="a89ef-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="866ee-107">Avage Personaliarvestus > Soodustused > Soodustused.</span><span class="sxs-lookup"><span data-stu-id="866ee-107">Go to Human resources > Benefits > Benefits.</span></span>
-2. <span data-ttu-id="866ee-108">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="866ee-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="866ee-109">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="866ee-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="866ee-110">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="866ee-110">Click Edit.</span></span>
-5. <span data-ttu-id="866ee-111">Valige väljal Sobivus väärtus Reegli põhjal.</span><span class="sxs-lookup"><span data-stu-id="866ee-111">In the Eligibility field, select 'Rule based'.</span></span>
-6. <span data-ttu-id="866ee-112">Valige väljal Reegli tüüp soodustuse poliitika reegel, mida soovite soodustusele rakendada.</span><span class="sxs-lookup"><span data-stu-id="866ee-112">In the Rule type field, select the benefit policy rule you would like applied to the benefit.</span></span>
-7. <span data-ttu-id="866ee-113">Klõpsake toimingupaanil suvandit Soodustus.</span><span class="sxs-lookup"><span data-stu-id="866ee-113">On the Action Pane, click Benefit.</span></span>
-8. <span data-ttu-id="866ee-114">Klõpsake valikut Kõlblikkuse sündmuse loomine, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="866ee-114">Click Create eligibility event to open the drop dialog.</span></span>
-9. <span data-ttu-id="866ee-115">Tippige väärtus väljale Sündmus.</span><span class="sxs-lookup"><span data-stu-id="866ee-115">In the Event field, type a value.</span></span>
-10. <span data-ttu-id="866ee-116">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="866ee-116">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="866ee-117">Tehke väljal Sündmuse tüüp valik Registreerimise avamine.</span><span class="sxs-lookup"><span data-stu-id="866ee-117">In the Event type field, select 'Open enrollment'.</span></span>
-12. <span data-ttu-id="866ee-118">Sisestage kuupäev ja kellaaeg väljale Kehtivuse alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="866ee-118">In the Coverage start date field, enter a date and time.</span></span>
-13. <span data-ttu-id="866ee-119">Sisestage kuupäev ja kellaaeg väljale Registreerimisperiood.</span><span class="sxs-lookup"><span data-stu-id="866ee-119">In the Enrollment period start date field, enter a date and time.</span></span>
-14. <span data-ttu-id="866ee-120">Sisestage number väljale Registreerimispäevad.</span><span class="sxs-lookup"><span data-stu-id="866ee-120">In the Days to enroll field, enter a number.</span></span>
-15. <span data-ttu-id="866ee-121">Klõpsake valikut Loo sündmus.</span><span class="sxs-lookup"><span data-stu-id="866ee-121">Click Create event.</span></span>
-16. <span data-ttu-id="866ee-122">Klõpsake käsku Lisa töötajate kiirkaardile.</span><span class="sxs-lookup"><span data-stu-id="866ee-122">Click Add in the Workers FastTab.</span></span>
-17. <span data-ttu-id="866ee-123">Tehke väljal Tüübi alusel kuvamine valik Töötajad.</span><span class="sxs-lookup"><span data-stu-id="866ee-123">In the Show by type field, select 'Employees'.</span></span>
-18. <span data-ttu-id="866ee-124">Tehke väljal Juriidilise isiku alusel kuvamine valik Praegune juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="866ee-124">In the Show by legal entity field, select 'Current legal entity'.</span></span>
-19. <span data-ttu-id="866ee-125">Märkige või tühjendage loendis kõik read.</span><span class="sxs-lookup"><span data-stu-id="866ee-125">In the list, mark or unmark all rows.</span></span>
-20. <span data-ttu-id="866ee-126">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="866ee-126">Click OK.</span></span>
-21. <span data-ttu-id="866ee-127">Klõpsake suvandit Töötle.</span><span class="sxs-lookup"><span data-stu-id="866ee-127">Click Process.</span></span>
-22. <span data-ttu-id="866ee-128">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="866ee-128">Click OK.</span></span>
-23. <span data-ttu-id="866ee-129">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="866ee-129">Refresh the page.</span></span>
-24. <span data-ttu-id="866ee-130">Klõpsake käsku Kuva tulemused.</span><span class="sxs-lookup"><span data-stu-id="866ee-130">Click Show results.</span></span>
-25. <span data-ttu-id="866ee-131">Avage oleku veeru filter.</span><span class="sxs-lookup"><span data-stu-id="866ee-131">Open Status column filter.</span></span>
-26. <span data-ttu-id="866ee-132">Sordi A-st Z-ni</span><span class="sxs-lookup"><span data-stu-id="866ee-132">Sort A to Z</span></span>
-
+1. <span data-ttu-id="a89ef-107">Avage Personaliarvestus > Soodustused > Soodustused.</span><span class="sxs-lookup"><span data-stu-id="a89ef-107">Go to Human resources > Benefits > Benefits.</span></span>
+2. <span data-ttu-id="a89ef-108">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="a89ef-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="a89ef-109">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="a89ef-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="a89ef-110">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="a89ef-110">Click Edit.</span></span>
+5. <span data-ttu-id="a89ef-111">Valige väljal Sobivus väärtus Reegli põhjal.</span><span class="sxs-lookup"><span data-stu-id="a89ef-111">In the Eligibility field, select 'Rule based'.</span></span>
+6. <span data-ttu-id="a89ef-112">Valige väljal Reegli tüüp soodustuse poliitika reegel, mida soovite soodustusele rakendada.</span><span class="sxs-lookup"><span data-stu-id="a89ef-112">In the Rule type field, select the benefit policy rule you would like applied to the benefit.</span></span>
+7. <span data-ttu-id="a89ef-113">Klõpsake toimingupaanil suvandit Soodustus.</span><span class="sxs-lookup"><span data-stu-id="a89ef-113">On the Action Pane, click Benefit.</span></span>
+8. <span data-ttu-id="a89ef-114">Klõpsake valikut Kõlblikkuse sündmuse loomine, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="a89ef-114">Click Create eligibility event to open the drop dialog.</span></span>
+9. <span data-ttu-id="a89ef-115">Tippige väärtus väljale Sündmus.</span><span class="sxs-lookup"><span data-stu-id="a89ef-115">In the Event field, type a value.</span></span>
+10. <span data-ttu-id="a89ef-116">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="a89ef-116">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="a89ef-117">Tehke väljal Sündmuse tüüp valik Registreerimise avamine.</span><span class="sxs-lookup"><span data-stu-id="a89ef-117">In the Event type field, select 'Open enrollment'.</span></span>
+12. <span data-ttu-id="a89ef-118">Sisestage kuupäev ja kellaaeg väljale Kehtivuse alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="a89ef-118">In the Coverage start date field, enter a date and time.</span></span>
+13. <span data-ttu-id="a89ef-119">Sisestage kuupäev ja kellaaeg väljale Registreerimisperiood.</span><span class="sxs-lookup"><span data-stu-id="a89ef-119">In the Enrollment period start date field, enter a date and time.</span></span>
+14. <span data-ttu-id="a89ef-120">Sisestage number väljale Registreerimispäevad.</span><span class="sxs-lookup"><span data-stu-id="a89ef-120">In the Days to enroll field, enter a number.</span></span>
+15. <span data-ttu-id="a89ef-121">Klõpsake valikut Loo sündmus.</span><span class="sxs-lookup"><span data-stu-id="a89ef-121">Click Create event.</span></span>
+16. <span data-ttu-id="a89ef-122">Klõpsake käsku Lisa töötajate kiirkaardile.</span><span class="sxs-lookup"><span data-stu-id="a89ef-122">Click Add in the Workers FastTab.</span></span>
+17. <span data-ttu-id="a89ef-123">Tehke väljal Tüübi alusel kuvamine valik Töötajad.</span><span class="sxs-lookup"><span data-stu-id="a89ef-123">In the Show by type field, select 'Employees'.</span></span>
+18. <span data-ttu-id="a89ef-124">Tehke väljal Juriidilise isiku alusel kuvamine valik Praegune juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="a89ef-124">In the Show by legal entity field, select 'Current legal entity'.</span></span>
+19. <span data-ttu-id="a89ef-125">Märkige või tühjendage loendis kõik read.</span><span class="sxs-lookup"><span data-stu-id="a89ef-125">In the list, mark or unmark all rows.</span></span>
+20. <span data-ttu-id="a89ef-126">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a89ef-126">Click OK.</span></span>
+21. <span data-ttu-id="a89ef-127">Klõpsake suvandit Töötle.</span><span class="sxs-lookup"><span data-stu-id="a89ef-127">Click Process.</span></span>
+22. <span data-ttu-id="a89ef-128">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a89ef-128">Click OK.</span></span>
+23. <span data-ttu-id="a89ef-129">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="a89ef-129">Refresh the page.</span></span>
+24. <span data-ttu-id="a89ef-130">Klõpsake käsku Kuva tulemused.</span><span class="sxs-lookup"><span data-stu-id="a89ef-130">Click Show results.</span></span>
+25. <span data-ttu-id="a89ef-131">Avage oleku veeru filter.</span><span class="sxs-lookup"><span data-stu-id="a89ef-131">Open Status column filter.</span></span>
+26. <span data-ttu-id="a89ef-132">Sordi A-st Z-ni</span><span class="sxs-lookup"><span data-stu-id="a89ef-132">Sort A to Z</span></span>
 

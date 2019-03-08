@@ -1,13 +1,13 @@
 ---
-title: "Sularaha nimiväärtuste konfigureerimine kassa jaoks"
-description: "Poe kassas müüjate, müügiassistentide ja juhatajate poolt kasutatavate rahatähtede ja müntide nimiväärtused saab määratleda kontoris."
+title: Sularaha nimiväärtuste konfigureerimine kassa jaoks
+description: Poe kassas müüjate, müügiassistentide ja juhatajate poolt kasutatavate rahatähtede ja müntide nimiväärtused saab määratleda kontoris.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,38 +19,36 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343508"
 ---
-
-# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a><span data-ttu-id="20edf-103">Sularaha nimiväärtuste konfigureerimine kassa jaoks</span><span class="sxs-lookup"><span data-stu-id="20edf-103">Configure cash denominations for the point of sale (POS)</span></span>
+# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a><span data-ttu-id="51b9e-103">Sularaha nimiväärtuste konfigureerimine kassa jaoks</span><span class="sxs-lookup"><span data-stu-id="51b9e-103">Configure cash denominations for the point of sale (POS)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="20edf-104">Poe kassas müüjate, müügiassistentide ja juhatajate poolt kasutatavate rahatähtede ja müntide nimiväärtused saab määratleda kontoris.</span><span class="sxs-lookup"><span data-stu-id="20edf-104">Cash denominations for notes and coins can be defined in the back office to be used by cashiers, sales associates, and managers at the store from within the POS.</span></span> <span data-ttu-id="20edf-105">Nimiväärtustest võib olla abi päeva lõpus müügiaruande koostamiseks sularaha lugemisel või maksete kiirel töötlemisel.</span><span class="sxs-lookup"><span data-stu-id="20edf-105">These denominations can be used to aid in counting cash for end of day tender declarations or for quickly tendering a sale.</span></span>
+<span data-ttu-id="51b9e-104">Poe kassas müüjate, müügiassistentide ja juhatajate poolt kasutatavate rahatähtede ja müntide nimiväärtused saab määratleda kontoris.</span><span class="sxs-lookup"><span data-stu-id="51b9e-104">Cash denominations for notes and coins can be defined in the back office to be used by cashiers, sales associates, and managers at the store from within the POS.</span></span> <span data-ttu-id="51b9e-105">Nimiväärtustest võib olla abi päeva lõpus müügiaruande koostamiseks sularaha lugemisel või maksete kiirel töötlemisel.</span><span class="sxs-lookup"><span data-stu-id="51b9e-105">These denominations can be used to aid in counting cash for end of day tender declarations or for quickly tendering a sale.</span></span>
 
-## <a name="define-denominations"></a><span data-ttu-id="20edf-106">Määratlege nimiväärtused</span><span class="sxs-lookup"><span data-stu-id="20edf-106">Define denominations</span></span>
+## <a name="define-denominations"></a><span data-ttu-id="51b9e-106">Määratlege nimiväärtused</span><span class="sxs-lookup"><span data-stu-id="51b9e-106">Define denominations</span></span>
 
-<span data-ttu-id="20edf-107">Nimiväärtuste seadistamine iga poe kohta toimub lehel **Seadistamine** \> **Sularaha deklaratsiooni suvand**.</span><span class="sxs-lookup"><span data-stu-id="20edf-107">The denominations are set up per store on the **Set up** \> **Cash declaration option from the store property** page.</span></span>
+<span data-ttu-id="51b9e-107">Nimiväärtuste seadistamine iga poe kohta toimub lehel **Seadistamine** \> **Sularaha deklaratsiooni suvand**.</span><span class="sxs-lookup"><span data-stu-id="51b9e-107">The denominations are set up per store on the **Set up** \> **Cash declaration option from the store property** page.</span></span>
 
 ![Sularaha nimiväärtused](./media/image1-denomination.png)
 
-<span data-ttu-id="20edf-109">Nimiväärtuse määratlemiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="20edf-109">To define a denomination:</span></span>
+<span data-ttu-id="51b9e-109">Nimiväärtuse määratlemiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="51b9e-109">To define a denomination:</span></span>
 
-1. <span data-ttu-id="20edf-110">Klõpsake **Uus**.</span><span class="sxs-lookup"><span data-stu-id="20edf-110">Click **New**.</span></span>
-1. <span data-ttu-id="20edf-111">Määrake tüüp (münt või rahatäht).</span><span class="sxs-lookup"><span data-stu-id="20edf-111">Specify the type (coin or note).</span></span>
-1. <span data-ttu-id="20edf-112">Määrake summa (väärtus).</span><span class="sxs-lookup"><span data-stu-id="20edf-112">Specify the amount (value).</span></span>
+1. <span data-ttu-id="51b9e-110">Klõpsake **Uus**.</span><span class="sxs-lookup"><span data-stu-id="51b9e-110">Click **New**.</span></span>
+1. <span data-ttu-id="51b9e-111">Määrake tüüp (münt või rahatäht).</span><span class="sxs-lookup"><span data-stu-id="51b9e-111">Specify the type (coin or note).</span></span>
+1. <span data-ttu-id="51b9e-112">Määrake summa (väärtus).</span><span class="sxs-lookup"><span data-stu-id="51b9e-112">Specify the amount (value).</span></span>
 
 ![sularaha nimiväärtused](./media/image2-denomination.png)
 
-## <a name="configure-the-functionality-profile"></a><span data-ttu-id="20edf-114">Seadistage funktsiooniprofiil.</span><span class="sxs-lookup"><span data-stu-id="20edf-114">Configure the functionality profile</span></span>
+## <a name="configure-the-functionality-profile"></a><span data-ttu-id="51b9e-114">Seadistage funktsiooniprofiil.</span><span class="sxs-lookup"><span data-stu-id="51b9e-114">Configure the functionality profile</span></span>
 
-<span data-ttu-id="20edf-115">Sularahamakse korral saab kassa kasutaja kliendi makstud summa kiireks sisestamiseks kasutada rahatähtede nimiväärtuseid.</span><span class="sxs-lookup"><span data-stu-id="20edf-115">When paying by cash in POS, the user can use the note denominations to quickly enter the amount paid by the customer.</span></span> <span data-ttu-id="20edf-116">Funktsiooniprofiilis saate saate seadistada kassas nimiväärtuse kuvamise kaks suvandit.</span><span class="sxs-lookup"><span data-stu-id="20edf-116">In the functionality profile, you can configure the two options for showing the denomination in POS.</span></span>
+<span data-ttu-id="51b9e-115">Sularahamakse korral saab kassa kasutaja kliendi makstud summa kiireks sisestamiseks kasutada rahatähtede nimiväärtuseid.</span><span class="sxs-lookup"><span data-stu-id="51b9e-115">When paying by cash in POS, the user can use the note denominations to quickly enter the amount paid by the customer.</span></span> <span data-ttu-id="51b9e-116">Funktsiooniprofiilis saate saate seadistada kassas nimiväärtuse kuvamise kaks suvandit.</span><span class="sxs-lookup"><span data-stu-id="51b9e-116">In the functionality profile, you can configure the two options for showing the denomination in POS.</span></span>
 
-- <span data-ttu-id="20edf-117">**Suurem või võrdne summa**: vaikimisi kuvatakse kassas ainult makstavast summast suuremaid nimiväärtuseid, mis võimaldab makseid töödelda ühe puutega.</span><span class="sxs-lookup"><span data-stu-id="20edf-117">**Greater or equal to amount due** – By default, POS will only show the note denominations that are greater than the amount due, which allows for one-touch tendering.</span></span> <span data-ttu-id="20edf-118">Näiteks kui tasumisele kuuluv summa on 7,50 $,näitab kassa järgmiseid nimiväärtuseid: 10 $, 20 $, 50 $ ja 100 $.</span><span class="sxs-lookup"><span data-stu-id="20edf-118">For example, if the amount due is $7.50, POS would show the following denominations: $10, $20, $50, and $100.</span></span> <span data-ttu-id="20edf-119">Kui puudutada ühte nendest summadest, töödeldakse makse vastavast summast lähtudes.</span><span class="sxs-lookup"><span data-stu-id="20edf-119">Touching any of these amounts will automatically tender the sale for that amount.</span></span> <span data-ttu-id="20edf-120">Nimiväärtuseid 1 $ ja 5 $ ei kuvata, sest nende väärtus on maksmisele kuuluvast summast väiksem.</span><span class="sxs-lookup"><span data-stu-id="20edf-120">The $1 and $5 notes are not shown since these amounts are less than the amount due.</span></span>
-- <span data-ttu-id="20edf-121">**Kõik nimiväärtused**: maksmisele kuuluvast summast olenemata kassas alati kõikide nimiväärtuste kuvamiseks valige see suvand.</span><span class="sxs-lookup"><span data-stu-id="20edf-121">**All denominations** – Select this option to always show all note denominations in POS, regardless of the amount due.</span></span> <span data-ttu-id="20edf-122">See tähendab, et kasutaja saab maksmisele kuuluva summa tasumiseks kasutada rahatähtede kombinatsioone.</span><span class="sxs-lookup"><span data-stu-id="20edf-122">This means that the user can use a combination of notes to reach the amount due.</span></span> <span data-ttu-id="20edf-123">Näiteks, kui tasumisele kuuluv summa on 25,00 $, saab kasutaja valida müügi lõpetamiseks valikud 20 $ ja 5 $.</span><span class="sxs-lookup"><span data-stu-id="20edf-123">For example, if the amount due is $25.00, the user can choose $20 and $5 to complete the sale.</span></span>
-
+- <span data-ttu-id="51b9e-117">**Suurem või võrdne summa**: vaikimisi kuvatakse kassas ainult makstavast summast suuremaid nimiväärtuseid, mis võimaldab makseid töödelda ühe puutega.</span><span class="sxs-lookup"><span data-stu-id="51b9e-117">**Greater or equal to amount due** – By default, POS will only show the note denominations that are greater than the amount due, which allows for one-touch tendering.</span></span> <span data-ttu-id="51b9e-118">Näiteks kui tasumisele kuuluv summa on 7,50 $,näitab kassa järgmiseid nimiväärtuseid: 10 $, 20 $, 50 $ ja 100 $.</span><span class="sxs-lookup"><span data-stu-id="51b9e-118">For example, if the amount due is $7.50, POS would show the following denominations: $10, $20, $50, and $100.</span></span> <span data-ttu-id="51b9e-119">Kui puudutada ühte nendest summadest, töödeldakse makse vastavast summast lähtudes.</span><span class="sxs-lookup"><span data-stu-id="51b9e-119">Touching any of these amounts will automatically tender the sale for that amount.</span></span> <span data-ttu-id="51b9e-120">Nimiväärtuseid 1 $ ja 5 $ ei kuvata, sest nende väärtus on maksmisele kuuluvast summast väiksem.</span><span class="sxs-lookup"><span data-stu-id="51b9e-120">The $1 and $5 notes are not shown since these amounts are less than the amount due.</span></span>
+- <span data-ttu-id="51b9e-121">**Kõik nimiväärtused**: maksmisele kuuluvast summast olenemata kassas alati kõikide nimiväärtuste kuvamiseks valige see suvand.</span><span class="sxs-lookup"><span data-stu-id="51b9e-121">**All denominations** – Select this option to always show all note denominations in POS, regardless of the amount due.</span></span> <span data-ttu-id="51b9e-122">See tähendab, et kasutaja saab maksmisele kuuluva summa tasumiseks kasutada rahatähtede kombinatsioone.</span><span class="sxs-lookup"><span data-stu-id="51b9e-122">This means that the user can use a combination of notes to reach the amount due.</span></span> <span data-ttu-id="51b9e-123">Näiteks, kui tasumisele kuuluv summa on 25,00 $, saab kasutaja valida müügi lõpetamiseks valikud 20 $ ja 5 $.</span><span class="sxs-lookup"><span data-stu-id="51b9e-123">For example, if the amount due is $25.00, the user can choose $20 and $5 to complete the sale.</span></span>

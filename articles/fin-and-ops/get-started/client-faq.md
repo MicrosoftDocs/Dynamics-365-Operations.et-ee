@@ -1,13 +1,13 @@
 ---
 title: Finance and Operationsi kliendi KKK
-description: "See artikkel annab vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 for Finance and Operationsi klientrakenduse kohta."
+description: Selles artiklis antakse vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 for Finance and Operationsi kliendi kohta.
 author: jasongre
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,43 +17,41 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316713"
 ---
-
-# <a name="finance-and-operations-client-faq"></a><span data-ttu-id="5ad94-103">Finance and Operationsi kliendi KKK</span><span class="sxs-lookup"><span data-stu-id="5ad94-103">Finance and Operations client FAQ</span></span>
+# <a name="finance-and-operations-client-faq"></a><span data-ttu-id="b67e2-103">Finance and Operationsi kliendi KKK</span><span class="sxs-lookup"><span data-stu-id="b67e2-103">Finance and Operations client FAQ</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="5ad94-104">See artikkel annab vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 for Finance and Operationsi klientrakenduse kohta.</span><span class="sxs-lookup"><span data-stu-id="5ad94-104">This article provides answers to frequently asked questions about the Microsoft Dynamics 365 for Finance and Operations client.</span></span>
+<span data-ttu-id="b67e2-104">Selles artiklis antakse vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 for Finance and Operationsi kliendi kohta.</span><span class="sxs-lookup"><span data-stu-id="b67e2-104">This article provides answers to frequently asked questions about the Microsoft Dynamics 365 for Finance and Operations client.</span></span>
 
-## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a><span data-ttu-id="5ad94-105">Miks ei laadita Finance and Operationsi kasutamisel sümboleid?</span><span class="sxs-lookup"><span data-stu-id="5ad94-105">Why aren't symbols loaded when I use Finance and Operations?</span></span>
+## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a><span data-ttu-id="b67e2-105">Miks ei laadita Finance and Operationsi kasutamisel sümboleid?</span><span class="sxs-lookup"><span data-stu-id="b67e2-105">Why aren't symbols loaded when I use Finance and Operations?</span></span>
 
-<span data-ttu-id="5ad94-106">Teie brauseri turbesätted võivad takistada sümbolite õiget laadimist.</span><span class="sxs-lookup"><span data-stu-id="5ad94-106">The security settings on your browser might prevent the symbols from being loaded correctly.</span></span> <span data-ttu-id="5ad94-107">Proovige teha probleemi lahendamiseks järgmist.</span><span class="sxs-lookup"><span data-stu-id="5ad94-107">To resolve this issue, try the following steps:</span></span>
+<span data-ttu-id="b67e2-106">Teie brauseri turbesätted võivad takistada sümbolite õiget laadimist.</span><span class="sxs-lookup"><span data-stu-id="b67e2-106">The security settings on your browser might prevent the symbols from being loaded correctly.</span></span> <span data-ttu-id="b67e2-107">Proovige teha probleemi lahendamiseks järgmist.</span><span class="sxs-lookup"><span data-stu-id="b67e2-107">To resolve this issue, try the following steps:</span></span>
 
-- <span data-ttu-id="5ad94-108">Kui teil esineb see probleem Internet Exploreris, klõpsake menüüs **Tööriistad** valikut **Interneti-suvandid**.</span><span class="sxs-lookup"><span data-stu-id="5ad94-108">If you're experiencing this issue in Internet Explorer, click **Tools**, and then click **Internet Options**.</span></span> <span data-ttu-id="5ad94-109">Dialoogiboksis Interneti-suvandid klõpsake vahekaardil **Privaatsus** valikut **Kohandatud tase** ja veenduge, et suvand **Fondi allalaadimine** oleks märgitud.</span><span class="sxs-lookup"><span data-stu-id="5ad94-109">In the Internet Options dialog box, on the **Privacy** tab, click **Custom level**, and make sure the **Font download** option is selected.</span></span>
-- <span data-ttu-id="5ad94-110">Vastasel korral peate lisama Finance and Operationsi saidi usaldusväärsete saitide loendisse.</span><span class="sxs-lookup"><span data-stu-id="5ad94-110">Otherwise, you might have to add the Finance and Operations site to the list of trusted sites.</span></span>
+- <span data-ttu-id="b67e2-108">Kui teil esineb see probleem Internet Exploreris, klõpsake menüüs **Tööriistad** valikut **Interneti-suvandid**.</span><span class="sxs-lookup"><span data-stu-id="b67e2-108">If you're experiencing this issue in Internet Explorer, click **Tools**, and then click **Internet Options**.</span></span> <span data-ttu-id="b67e2-109">Dialoogiboksis Interneti-suvandid klõpsake vahekaardil **Privaatsus** valikut **Kohandatud tase** ja veenduge, et suvand **Fondi allalaadimine** oleks märgitud.</span><span class="sxs-lookup"><span data-stu-id="b67e2-109">In the Internet Options dialog box, on the **Privacy** tab, click **Custom level**, and make sure the **Font download** option is selected.</span></span>
+- <span data-ttu-id="b67e2-110">Vastasel korral peate lisama Finance and Operationsi saidi usaldusväärsete saitide loendisse.</span><span class="sxs-lookup"><span data-stu-id="b67e2-110">Otherwise, you might have to add the Finance and Operations site to the list of trusted sites.</span></span>
 
-## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a><span data-ttu-id="5ad94-111">Mul pole rakenduses Dynamics AX 2012 linti.</span><span class="sxs-lookup"><span data-stu-id="5ad94-111">I miss the ribbon from Dynamics AX 2012.</span></span> <span data-ttu-id="5ad94-112">Kas saan toimingupaani vahekaardid alati lahti hoida?</span><span class="sxs-lookup"><span data-stu-id="5ad94-112">Can I keep Action Pane tabs open all the time?</span></span>
+## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a><span data-ttu-id="b67e2-111">Mul pole rakenduses Dynamics AX 2012 linti.</span><span class="sxs-lookup"><span data-stu-id="b67e2-111">I miss the ribbon from Dynamics AX 2012.</span></span> <span data-ttu-id="b67e2-112">Kas saan toimingupaani vahekaardid alati lahti hoida?</span><span class="sxs-lookup"><span data-stu-id="b67e2-112">Can I keep Action Pane tabs open all the time?</span></span>
 
-<span data-ttu-id="5ad94-113">Kavatseme selle funktsiooni peagi juurutada.</span><span class="sxs-lookup"><span data-stu-id="5ad94-113">We are planning to implement this feature soon.</span></span> <span data-ttu-id="5ad94-114">Seejärel saavad kasutajad toimingupaani vahekaardid alati lahti hoida.</span><span class="sxs-lookup"><span data-stu-id="5ad94-114">Users will then be able to choose to keep the tabs on Action Panes open all the time.</span></span> <span data-ttu-id="5ad94-115">Vastasel korral vahekaardid ahendatakse, kui neid ei kasutata, et lehele rohkem ruumi saada.</span><span class="sxs-lookup"><span data-stu-id="5ad94-115">Otherwise, the tabs will be collapsed when they aren't being used, to gain more screen space for the page.</span></span>
+<span data-ttu-id="b67e2-113">Kavatseme selle funktsiooni peagi juurutada.</span><span class="sxs-lookup"><span data-stu-id="b67e2-113">We are planning to implement this feature soon.</span></span> <span data-ttu-id="b67e2-114">Seejärel saavad kasutajad toimingupaani vahekaardid alati lahti hoida.</span><span class="sxs-lookup"><span data-stu-id="b67e2-114">Users will then be able to choose to keep the tabs on Action Panes open all the time.</span></span> <span data-ttu-id="b67e2-115">Vastasel korral vahekaardid ahendatakse, kui neid ei kasutata, et lehele rohkem ruumi saada.</span><span class="sxs-lookup"><span data-stu-id="b67e2-115">Otherwise, the tabs will be collapsed when they aren't being used, to gain more screen space for the page.</span></span>
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a><span data-ttu-id="5ad94-116">Miks ma näen mõnikord paremklõpsamisel erinevaid kiirmenüüsid?</span><span class="sxs-lookup"><span data-stu-id="5ad94-116">Why do I sometimes see different shortcut menus when I right click?</span></span>
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a><span data-ttu-id="b67e2-116">Miks ma näen mõnikord paremklõpsamisel erinevaid kiirmenüüsid?</span><span class="sxs-lookup"><span data-stu-id="b67e2-116">Why do I sometimes see different shortcut menus when I right click?</span></span>
 
-<span data-ttu-id="5ad94-117">Kui paremklõpsate redigeeritavat välja (või valite teksti), kuvatakse brauseri kiirmenüü.</span><span class="sxs-lookup"><span data-stu-id="5ad94-117">If you right-click in an editable field (or if text is selected), the browser's shortcut menu is displayed.</span></span> <span data-ttu-id="5ad94-118">See menüü annab teile juurdepääsu käskudele **Lõika**, **Kopeeri** ja **Kleebi**.</span><span class="sxs-lookup"><span data-stu-id="5ad94-118">This menu gives you access to the **Cut**, **Copy**, and **Paste** commands.</span></span> <span data-ttu-id="5ad94-119">Me ei saa manustada neid käske Finance and Operationsi kiirmenüüdesse, kuna turvakaalutlustel ei võimalda brauserid meil süsteemi lõikelauale programmiliselt juurde pääseda.</span><span class="sxs-lookup"><span data-stu-id="5ad94-119">We can't embed these commands into the Finance and Operations shortcut menus because, for security reasons, browsers don't allow us to programmatically access the system clipboard.</span></span>
+<span data-ttu-id="b67e2-117">Kui paremklõpsate redigeeritavat välja (või valite teksti), kuvatakse brauseri kiirmenüü.</span><span class="sxs-lookup"><span data-stu-id="b67e2-117">If you right-click in an editable field (or if text is selected), the browser's shortcut menu is displayed.</span></span> <span data-ttu-id="b67e2-118">See menüü annab teile juurdepääsu käskudele **Lõika**, **Kopeeri** ja **Kleebi**.</span><span class="sxs-lookup"><span data-stu-id="b67e2-118">This menu gives you access to the **Cut**, **Copy**, and **Paste** commands.</span></span> <span data-ttu-id="b67e2-119">Me ei saa manustada neid käske Finance and Operationsi kiirmenüüdesse, kuna turvakaalutlustel ei võimalda brauserid meil süsteemi lõikelauale programmiliselt juurde pääseda.</span><span class="sxs-lookup"><span data-stu-id="b67e2-119">We can't embed these commands into the Finance and Operations shortcut menus because, for security reasons, browsers don't allow us to programmatically access the system clipboard.</span></span>
 
-<span data-ttu-id="5ad94-120">Kui paremklõpsate välja silti või kirjutuskaitstud juhtelemendi väärtust, kuvatakse Finance and Operationsi kiirmenüü.</span><span class="sxs-lookup"><span data-stu-id="5ad94-120">If you right-click a field label or the value of a read-only control, you'll see the Finance and Operations shortcut menu.</span></span>
+<span data-ttu-id="b67e2-120">Kui paremklõpsate välja silti või kirjutuskaitstud juhtelemendi väärtust, kuvatakse Finance and Operationsi kiirmenüü.</span><span class="sxs-lookup"><span data-stu-id="b67e2-120">If you right-click a field label or the value of a read-only control, you'll see the Finance and Operations shortcut menu.</span></span>
 
-<span data-ttu-id="5ad94-121">Klaviatuurile juurdepääsu hõlbustamiseks plaanime võtta tulevikus kasutusele klaviatuuri otsetee, mis avab Finance and Operationsi kiirmenüü.</span><span class="sxs-lookup"><span data-stu-id="5ad94-121">To make keyboard access easier, we plan to implement a keyboard shortcut in the future that will open the Finance and Operations shortcut menu.</span></span>
+<span data-ttu-id="b67e2-121">Klaviatuurile juurdepääsu hõlbustamiseks plaanime võtta tulevikus kasutusele klaviatuuri otsetee, mis avab Finance and Operationsi kiirmenüü.</span><span class="sxs-lookup"><span data-stu-id="b67e2-121">To make keyboard access easier, we plan to implement a keyboard shortcut in the future that will open the Finance and Operations shortcut menu.</span></span>
 
-## <a name="where-is-the-view-details-functionality-in-finance-and-operations"></a><span data-ttu-id="5ad94-122">Kus on Finance and Operationsis funktsioon Kuva üksikasjad?</span><span class="sxs-lookup"><span data-stu-id="5ad94-122">Where is the View details functionality in Finance and Operations?</span></span>
+## <a name="where-is-the-view-details-functionality-in-finance-and-operations"></a><span data-ttu-id="b67e2-122">Kus on Finance and Operationsis funktsioon Kuva üksikasjad?</span><span class="sxs-lookup"><span data-stu-id="b67e2-122">Where is the View details functionality in Finance and Operations?</span></span>
 
-<span data-ttu-id="5ad94-123">Valik **Kuva üksikasjad** on kättesaadav mitmel viisil.</span><span class="sxs-lookup"><span data-stu-id="5ad94-123">The **View details** option is available in a couple of ways:</span></span>
+<span data-ttu-id="b67e2-123">Valik **Kuva üksikasjad** on kättesaadav mitmel viisil.</span><span class="sxs-lookup"><span data-stu-id="b67e2-123">The **View details** option is available in a couple of ways:</span></span>
 
-- <span data-ttu-id="5ad94-124">Kui juhtelemendil on **üksikasjade kuvamise** võimalused ja kui juhtelemendil on väärtus, kuvatakse väärtus hüperlingina.</span><span class="sxs-lookup"><span data-stu-id="5ad94-124">If a control has **View details** capabilities, and if the control has a value, that value is displayed as a hyperlink.</span></span> <span data-ttu-id="5ad94-125">Võite klõpsata hüperlinki täiendavaid üksikasju sisaldava lehe avamiseks.</span><span class="sxs-lookup"><span data-stu-id="5ad94-125">You can click the hyperlink to open a page that contains additional details.</span></span>
-- <span data-ttu-id="5ad94-126">**Kuva üksikasjad** on ka Finance and Operationsi kiirmenüüde valik.</span><span class="sxs-lookup"><span data-stu-id="5ad94-126">**View details** is also an option on Finance and Operations shortcut menus.</span></span> <span data-ttu-id="5ad94-127">Lisateavet selle kohta, millal Finance and Operationsi kiirmenüüd paremklõpsamisel kuvatakse, leiate eelmisest teemast.</span><span class="sxs-lookup"><span data-stu-id="5ad94-127">For more information about when Finance and Operations shortcut menus are displayed when you right-click, see the previous section.</span></span>
-
+- <span data-ttu-id="b67e2-124">Kui juhtelemendil on **üksikasjade kuvamise** võimalused ja kui juhtelemendil on väärtus, kuvatakse väärtus hüperlingina.</span><span class="sxs-lookup"><span data-stu-id="b67e2-124">If a control has **View details** capabilities, and if the control has a value, that value is displayed as a hyperlink.</span></span> <span data-ttu-id="b67e2-125">Võite klõpsata hüperlinki täiendavaid üksikasju sisaldava lehe avamiseks.</span><span class="sxs-lookup"><span data-stu-id="b67e2-125">You can click the hyperlink to open a page that contains additional details.</span></span>
+- <span data-ttu-id="b67e2-126">**Kuva üksikasjad** on ka Finance and Operationsi kiirmenüüde valik.</span><span class="sxs-lookup"><span data-stu-id="b67e2-126">**View details** is also an option on Finance and Operations shortcut menus.</span></span> <span data-ttu-id="b67e2-127">Lisateavet selle kohta, millal Finance and Operationsi kiirmenüüd paremklõpsamisel kuvatakse, leiate eelmisest teemast.</span><span class="sxs-lookup"><span data-stu-id="b67e2-127">For more information about when Finance and Operations shortcut menus are displayed when you right-click, see the previous section.</span></span>

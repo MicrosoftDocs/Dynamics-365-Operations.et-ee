@@ -1,13 +1,13 @@
---- 
-title: "Põhivarade ümberklassifitseerimine"
-description: "Põhivara ümberklassifitseerimiseks peate edastama selle uuele põhivaragrupile või määrama sellele samas grupis uue põhivara numbri."
+---
+title: Põhivarade ümberklassifitseerimine
+description: Põhivara ümberklassifitseerimiseks peate edastama selle uuele põhivaragrupile või määrama sellele samas grupis uue põhivara numbri.
 author: saraschi2
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,34 +15,33 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: d8e289e2c18fd28829fb4b749933ae1d84e0b631
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323291"
 ---
-# <a name="reclassify-fixed-assets"></a><span data-ttu-id="74241-103">Põhivarade ümberklassifitseerimine</span><span class="sxs-lookup"><span data-stu-id="74241-103">Reclassify fixed assets</span></span>
+# <a name="reclassify-fixed-assets"></a><span data-ttu-id="9cdb7-103">Põhivarade ümberklassifitseerimine</span><span class="sxs-lookup"><span data-stu-id="9cdb7-103">Reclassify fixed assets</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="74241-104">Põhivara ümberklassifitseerimiseks peate edastama selle uuele põhivaragrupile või määrama sellele samas grupis uue põhivara numbri.</span><span class="sxs-lookup"><span data-stu-id="74241-104">To reclassify a fixed asset, you must transfer it to a new fixed asset group or assign a new fixed asset number to it in the same group.</span></span> 
+<span data-ttu-id="9cdb7-104">Põhivara ümberklassifitseerimiseks peate edastama selle uuele põhivaragrupile või määrama sellele samas grupis uue põhivara numbri.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-104">To reclassify a fixed asset, you must transfer it to a new fixed asset group or assign a new fixed asset number to it in the same group.</span></span> 
 
-<span data-ttu-id="74241-105">Kui põhivara ümber klassifitseerida:</span><span class="sxs-lookup"><span data-stu-id="74241-105">When a fixed asset is reclassified:</span></span>
+<span data-ttu-id="9cdb7-105">Kui põhivara ümber klassifitseerida:</span><span class="sxs-lookup"><span data-stu-id="9cdb7-105">When a fixed asset is reclassified:</span></span>
 
-<span data-ttu-id="74241-106">• Uue põhivara jaoks on loodud kõik olemasoleva põhivara väärtusmudelid.</span><span class="sxs-lookup"><span data-stu-id="74241-106">• All value models for the existing fixed asset are created for the new fixed asset.</span></span> <span data-ttu-id="74241-107">Kogu algse põhivara jaoks häälestatud teave on kopeeritud uude põhivarasse.</span><span class="sxs-lookup"><span data-stu-id="74241-107">Any information that was set up for the original fixed asset is copied to the new fixed asset.</span></span> <span data-ttu-id="74241-108">Algse põhivara väärtusmudelite olekuks on Suletud.</span><span class="sxs-lookup"><span data-stu-id="74241-108">The status of the value models for the original fixed asset is Closed.</span></span> 
+<span data-ttu-id="9cdb7-106">• Uue põhivara jaoks on loodud kõik olemasoleva põhivara väärtusmudelid.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-106">• All value models for the existing fixed asset are created for the new fixed asset.</span></span> <span data-ttu-id="9cdb7-107">Kogu algse põhivara jaoks häälestatud teave on kopeeritud uude põhivarasse.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-107">Any information that was set up for the original fixed asset is copied to the new fixed asset.</span></span> <span data-ttu-id="9cdb7-108">Algse põhivara väärtusmudelite olekuks on Suletud.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-108">The status of the value models for the original fixed asset is Closed.</span></span> 
 
-<span data-ttu-id="74241-109">• Uue põhivara uued väärtusmudelid sisaldavad ümberklassifitseerimise kuupäeva väljal Soetamiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="74241-109">• The new value models of the new fixed asset contain the date of the reclassification in the Acquisition date field.</span></span> <span data-ttu-id="74241-110">Kuupäev väljal Amortiseerimise algus on kopeeritud algsest vara puudutavast teabest.</span><span class="sxs-lookup"><span data-stu-id="74241-110">The date in the Depreciation run date field is copied from the original asset information.</span></span> <span data-ttu-id="74241-111">Kui kulumiarvestus on juba alanud, kuvab väli Viimase kulumiarvestuse kuupäev ümberklassifitseerimise kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="74241-111">If the depreciation has already started, the Date when depreciation was last run field displays the date of the reclassification.</span></span> 
+<span data-ttu-id="9cdb7-109">• Uue põhivara uued väärtusmudelid sisaldavad ümberklassifitseerimise kuupäeva väljal Soetamiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-109">• The new value models of the new fixed asset contain the date of the reclassification in the Acquisition date field.</span></span> <span data-ttu-id="9cdb7-110">Kuupäev väljal Amortiseerimise algus on kopeeritud algsest vara puudutavast teabest.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-110">The date in the Depreciation run date field is copied from the original asset information.</span></span> <span data-ttu-id="9cdb7-111">Kui kulumiarvestus on juba alanud, kuvab väli Viimase kulumiarvestuse kuupäev ümberklassifitseerimise kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-111">If the depreciation has already started, the Date when depreciation was last run field displays the date of the reclassification.</span></span> 
 
-<span data-ttu-id="74241-112">• Algse põhivara olemasolevad põhivarakanded on tühistatud ja uue põhivara jaoks uuesti loodud.</span><span class="sxs-lookup"><span data-stu-id="74241-112">• The existing fixed asset transactions for the original fixed asset are canceled and regenerated for the new fixed asset.</span></span>
+<span data-ttu-id="9cdb7-112">• Algse põhivara olemasolevad põhivarakanded on tühistatud ja uue põhivara jaoks uuesti loodud.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-112">• The existing fixed asset transactions for the original fixed asset are canceled and regenerated for the new fixed asset.</span></span>
 
-1. <span data-ttu-id="74241-113">Avage Põhivarad > Perioodilised ülesanded > Ümberklassifitseerimine.</span><span class="sxs-lookup"><span data-stu-id="74241-113">Go to Fixed assets > Periodic tasks > Reclassification.</span></span>
-2. <span data-ttu-id="74241-114">Väljal Põhivaragrupp valige ümberklassifitseerimiseks grupp.</span><span class="sxs-lookup"><span data-stu-id="74241-114">In the Fixed asset group field, select the group to reclassify.</span></span>
-3. <span data-ttu-id="74241-115">Väljal Põhivara kood valige ümberklassifitseerimiseks põhivara.</span><span class="sxs-lookup"><span data-stu-id="74241-115">In the Fixed asset number field, select the fixed asset to reclassify.</span></span>
-4. <span data-ttu-id="74241-116">Valige väljal Uus põhivaragrupp see grupp, millele soovite põhivara üle kanda.</span><span class="sxs-lookup"><span data-stu-id="74241-116">In the New fixed asset group field, select a group to transfer the fixed asset to.</span></span>
-    * <span data-ttu-id="74241-117">Kui uus põhivaragrupp on seotud numbriseeriaga, värskendatakse välja Uue põhivara kood numbriga uuest põhivaragrupi numbriseeriast.</span><span class="sxs-lookup"><span data-stu-id="74241-117">If the new fixed asset group is attached to a number sequence, the New fixed asset number field is updated with the number from the new fixed asset group number sequence.</span></span> <span data-ttu-id="74241-118">Vastasel juhul värskendatakse välja Uue põhivara kood numbriga numbriseeriast, mis häälestatakse põhivara parameetrite leheküljel.</span><span class="sxs-lookup"><span data-stu-id="74241-118">Otherwise, the New fixed asset number field is updated with the number from the number sequence that is set up in the Fixed asset parameters page.</span></span> <span data-ttu-id="74241-119">Kui numbriseeriat ei häälestata põhivara parameetrite leheküljel, sisestage number väljale Uue põhivara kood.</span><span class="sxs-lookup"><span data-stu-id="74241-119">If a number sequence is not set up in the Fixed asset parameters page, enter a number in the New fixed asset number field.</span></span>  
-5. <span data-ttu-id="74241-120">Sisestage kuupäev väljale Ümberklassifitseerimise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="74241-120">In the Reclassification date field, enter a date.</span></span>
-6. <span data-ttu-id="74241-121">Sisestage või valige väärtus väljal Kande seeria.</span><span class="sxs-lookup"><span data-stu-id="74241-121">In the Voucher series field, enter or select a value.</span></span>
-7. <span data-ttu-id="74241-122">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="74241-122">Click OK.</span></span>
-
+1. <span data-ttu-id="9cdb7-113">Avage Põhivarad > Perioodilised ülesanded > Ümberklassifitseerimine.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-113">Go to Fixed assets > Periodic tasks > Reclassification.</span></span>
+2. <span data-ttu-id="9cdb7-114">Väljal Põhivaragrupp valige ümberklassifitseerimiseks grupp.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-114">In the Fixed asset group field, select the group to reclassify.</span></span>
+3. <span data-ttu-id="9cdb7-115">Väljal Põhivara kood valige ümberklassifitseerimiseks põhivara.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-115">In the Fixed asset number field, select the fixed asset to reclassify.</span></span>
+4. <span data-ttu-id="9cdb7-116">Valige väljal Uus põhivaragrupp see grupp, millele soovite põhivara üle kanda.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-116">In the New fixed asset group field, select a group to transfer the fixed asset to.</span></span>
+    * <span data-ttu-id="9cdb7-117">Kui uus põhivaragrupp on seotud numbriseeriaga, värskendatakse välja Uue põhivara kood numbriga uuest põhivaragrupi numbriseeriast.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-117">If the new fixed asset group is attached to a number sequence, the New fixed asset number field is updated with the number from the new fixed asset group number sequence.</span></span> <span data-ttu-id="9cdb7-118">Vastasel juhul värskendatakse välja Uue põhivara kood numbriga numbriseeriast, mis häälestatakse põhivara parameetrite leheküljel.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-118">Otherwise, the New fixed asset number field is updated with the number from the number sequence that is set up in the Fixed asset parameters page.</span></span> <span data-ttu-id="9cdb7-119">Kui numbriseeriat ei häälestata põhivara parameetrite leheküljel, sisestage number väljale Uue põhivara kood.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-119">If a number sequence is not set up in the Fixed asset parameters page, enter a number in the New fixed asset number field.</span></span>  
+5. <span data-ttu-id="9cdb7-120">Sisestage kuupäev väljale Ümberklassifitseerimise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-120">In the Reclassification date field, enter a date.</span></span>
+6. <span data-ttu-id="9cdb7-121">Sisestage või valige väärtus väljal Kande seeria.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-121">In the Voucher series field, enter or select a value.</span></span>
+7. <span data-ttu-id="9cdb7-122">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9cdb7-122">Click OK.</span></span>
 

@@ -1,13 +1,13 @@
---- 
-title: "Tootmistellimuse aktiivsete, hinnanguliste ja realiseeritud kulude võrdlemine"
-description: "Selles protseduuris näitlikustatakse, kuidas vaadata tootmistellimuse suure tootmishälbe põhjuseid."
+---
+title: Tootmistellimuse aktiivsete, hinnanguliste ja realiseeritud kulude võrdlemine
+description: Selles protseduuris näitlikustatakse, kuidas vaadata tootmistellimuse suure tootmishälbe põhjuseid.
 author: AndersGirke
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, CostSelectPeriodDialogForm, CostCalculationPeriodTopVariancesListFormPart, ProdTable, CostCalculationCompareDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,27 +17,26 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: ed9fac210ba19795cd1d7608b582965564decc2e
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347004"
 ---
-# <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="95a1b-103">Tootmistellimuse aktiivsete, hinnanguliste ja realiseeritud kulude võrdlemine</span><span class="sxs-lookup"><span data-stu-id="95a1b-103">Compare active, estimated, and realized costs on a production order</span></span>
+# <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="dcfbe-103">Tootmistellimuse aktiivsete, hinnanguliste ja realiseeritud kulude võrdlemine</span><span class="sxs-lookup"><span data-stu-id="dcfbe-103">Compare active, estimated, and realized costs on a production order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="95a1b-104">Selles protseduuris näitlikustatakse, kuidas vaadata tootmistellimuse suure tootmishälbe põhjuseid.</span><span class="sxs-lookup"><span data-stu-id="95a1b-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="95a1b-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="95a1b-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="95a1b-106">See protseduur on mõeldud kulukontrollerile.</span><span class="sxs-lookup"><span data-stu-id="95a1b-106">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="dcfbe-104">Selles protseduuris näitlikustatakse, kuidas vaadata tootmistellimuse suure tootmishälbe põhjuseid.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="dcfbe-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="dcfbe-106">See protseduur on mõeldud kulukontrollerile.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-106">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="95a1b-107">Klõpsake valikut Kuluhaldus.</span><span class="sxs-lookup"><span data-stu-id="95a1b-107">Click Cost administration.</span></span>
-2. <span data-ttu-id="95a1b-108">Sisestage või valige väärtus väljal Kuupäev.</span><span class="sxs-lookup"><span data-stu-id="95a1b-108">In the Date field, enter or select a value.</span></span>
-    * <span data-ttu-id="95a1b-109">See protseduur kasutab finantsaastat 2012.</span><span class="sxs-lookup"><span data-stu-id="95a1b-109">This procedure uses the fiscal year 2012.</span></span> <span data-ttu-id="95a1b-110">Saate seadistada alguskuupäevaks 1. jaanuari 2012 ja lõpukuupäevaks 31. detsembri 2012.</span><span class="sxs-lookup"><span data-stu-id="95a1b-110">You can set From date to January 1, 2012 and To date to December 31, 2012.</span></span>  
-3. <span data-ttu-id="95a1b-111">Klõpsake vahekaarti Suured tootmishälbed.</span><span class="sxs-lookup"><span data-stu-id="95a1b-111">Click the High production variances tab.</span></span>
-4. <span data-ttu-id="95a1b-112">Klõpsake, et järgida linki väljal Tootmine.</span><span class="sxs-lookup"><span data-stu-id="95a1b-112">Click to follow the link in the Production field.</span></span>
-    * <span data-ttu-id="95a1b-113">Klõpsake P000116, et järgida linki väljal Tootmine.</span><span class="sxs-lookup"><span data-stu-id="95a1b-113">Click P000116 to follow the link in the Production field.</span></span>  
-5. <span data-ttu-id="95a1b-114">Klõpsake toimingupaanil valikut Kulude haldamine.</span><span class="sxs-lookup"><span data-stu-id="95a1b-114">On the Action Pane, click Manage costs.</span></span>
-6. <span data-ttu-id="95a1b-115">Klõpsake käsku Kuva kulu võrdlus.</span><span class="sxs-lookup"><span data-stu-id="95a1b-115">Click View cost comparison.</span></span>
-7. <span data-ttu-id="95a1b-116">Klõpsake valikut Sule.</span><span class="sxs-lookup"><span data-stu-id="95a1b-116">Click Close.</span></span>
-
+1. <span data-ttu-id="dcfbe-107">Klõpsake valikut Kuluhaldus.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-107">Click Cost administration.</span></span>
+2. <span data-ttu-id="dcfbe-108">Sisestage või valige väärtus väljal Kuupäev.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-108">In the Date field, enter or select a value.</span></span>
+    * <span data-ttu-id="dcfbe-109">See protseduur kasutab finantsaastat 2012.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-109">This procedure uses the fiscal year 2012.</span></span> <span data-ttu-id="dcfbe-110">Saate seadistada alguskuupäevaks 1. jaanuari 2012 ja lõpukuupäevaks 31. detsembri 2012.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-110">You can set From date to January 1, 2012 and To date to December 31, 2012.</span></span>  
+3. <span data-ttu-id="dcfbe-111">Klõpsake vahekaarti Suured tootmishälbed.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-111">Click the High production variances tab.</span></span>
+4. <span data-ttu-id="dcfbe-112">Klõpsake, et järgida linki väljal Tootmine.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-112">Click to follow the link in the Production field.</span></span>
+    * <span data-ttu-id="dcfbe-113">Klõpsake P000116, et järgida linki väljal Tootmine.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-113">Click P000116 to follow the link in the Production field.</span></span>  
+5. <span data-ttu-id="dcfbe-114">Klõpsake toimingupaanil valikut Kulude haldamine.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-114">On the Action Pane, click Manage costs.</span></span>
+6. <span data-ttu-id="dcfbe-115">Klõpsake käsku Kuva kulu võrdlus.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-115">Click View cost comparison.</span></span>
+7. <span data-ttu-id="dcfbe-116">Klõpsake valikut Sule.</span><span class="sxs-lookup"><span data-stu-id="dcfbe-116">Click Close.</span></span>
 
