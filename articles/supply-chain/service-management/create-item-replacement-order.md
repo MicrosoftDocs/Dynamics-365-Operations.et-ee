@@ -1,71 +1,69 @@
 ---
 title: Kauba asendamise tellimuse loomine
-description: "Kauba asendustellimused luuakse tavaliselt pärast toote tagastamist ja kontrollimist."
+description: Kauba asendustellimused luuakse tavaliselt pärast toote tagastamist ja kontrollimist.
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355008"
 ---
-
-# <a name="create-an-item-replacement-order"></a><span data-ttu-id="8ced0-103">Kauba asendamise tellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="8ced0-103">Create an item replacement order</span></span> 
+# <a name="create-an-item-replacement-order"></a><span data-ttu-id="b5f58-103">Kauba asendamise tellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="b5f58-103">Create an item replacement order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="8ced0-104">Kauba asendustellimused luuakse tavaliselt pärast toote tagastamist ja kontrollimist.</span><span class="sxs-lookup"><span data-stu-id="8ced0-104">Item replacement orders are usually created after a product is returned and inspected.</span></span> <span data-ttu-id="8ced0-105">Kui kaup tuleb siiski asendada enne tagastamist või kui originaalkaupa ei tagastata, saate luua kauba asendustellimuse kohe pärast tagastustellimuse loomist.</span><span class="sxs-lookup"><span data-stu-id="8ced0-105">However, when an item must be replaced before it has been returned, or when the original item will not be returned, you can create an item replacement order immediately after you create a return order.</span></span>
+<span data-ttu-id="b5f58-104">Kauba asendustellimused luuakse tavaliselt pärast toote tagastamist ja kontrollimist.</span><span class="sxs-lookup"><span data-stu-id="b5f58-104">Item replacement orders are usually created after a product is returned and inspected.</span></span> <span data-ttu-id="b5f58-105">Kui kaup tuleb siiski asendada enne tagastamist või kui originaalkaupa ei tagastata, saate luua kauba asendustellimuse kohe pärast tagastustellimuse loomist.</span><span class="sxs-lookup"><span data-stu-id="b5f58-105">However, when an item must be replaced before it has been returned, or when the original item will not be returned, you can create an item replacement order immediately after you create a return order.</span></span>
 
-## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a><span data-ttu-id="8ced0-106">Looge asendustellimus pärast tagastatava kauba kättesaamist.</span><span class="sxs-lookup"><span data-stu-id="8ced0-106">Create a replacement order after you receive an item that is returned</span></span>
+## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a><span data-ttu-id="b5f58-106">Looge asendustellimus pärast tagastatava kauba kättesaamist.</span><span class="sxs-lookup"><span data-stu-id="b5f58-106">Create a replacement order after you receive an item that is returned</span></span>
 
-1.  <span data-ttu-id="8ced0-107">Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-107">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
+1.  <span data-ttu-id="b5f58-107">Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-107">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
 
-2.  <span data-ttu-id="8ced0-108">Looge uus tagastustellimus või valige tagastustellimus loendist, et avada vorm **Tagastustellimus – RMA-kood: %1, %2**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-108">Create a new return order, or select a returned order from the list to open the **Return order - RMA number: %1, %2** form.</span></span>
+2.  <span data-ttu-id="b5f58-108">Looge uus tagastustellimus või valige tagastustellimus loendist, et avada vorm **Tagastustellimus – RMA-kood: %1, %2**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-108">Create a new return order, or select a returned order from the list to open the **Return order - RMA number: %1, %2** form.</span></span>
 
-3.  <span data-ttu-id="8ced0-109">Klõpsake valikut **Tagastusrida** ja valige seejärel **Asenduskaup**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-109">Click **Return line**, and then select **Replacement item**.</span></span>
+3.  <span data-ttu-id="b5f58-109">Klõpsake valikut **Tagastusrida** ja valige seejärel **Asenduskaup**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-109">Click **Return line**, and then select **Replacement item**.</span></span>
 
-4.  <span data-ttu-id="8ced0-110">Valige kirje, millega tagastatud kaup asendada.</span><span class="sxs-lookup"><span data-stu-id="8ced0-110">Select the item to replace the returned item with.</span></span> <span data-ttu-id="8ced0-111">Sisestage kauba täpsustused ja klõpsake seejärel **Rakenda**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-111">Enter the item specifications, and then click **Apply**.</span></span>
+4.  <span data-ttu-id="b5f58-110">Valige kirje, millega tagastatud kaup asendada.</span><span class="sxs-lookup"><span data-stu-id="b5f58-110">Select the item to replace the returned item with.</span></span> <span data-ttu-id="b5f58-111">Sisestage kauba täpsustused ja klõpsake seejärel **Rakenda**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-111">Enter the item specifications, and then click **Apply**.</span></span>
 
-5.  <span data-ttu-id="8ced0-112">Tagastustellimusele saatelehe loomiseks klõpsake valikut **Saateleht**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-112">Click **Packing slip** to generate the packing slip for the return order.</span></span> <span data-ttu-id="8ced0-113">Müügitellimus luuakse valitud asenduskaubale.</span><span class="sxs-lookup"><span data-stu-id="8ced0-113">A sales order is generated for the replacement item that you selected.</span></span>
+5.  <span data-ttu-id="b5f58-112">Tagastustellimusele saatelehe loomiseks klõpsake valikut **Saateleht**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-112">Click **Packing slip** to generate the packing slip for the return order.</span></span> <span data-ttu-id="b5f58-113">Müügitellimus luuakse valitud asenduskaubale.</span><span class="sxs-lookup"><span data-stu-id="b5f58-113">A sales order is generated for the replacement item that you selected.</span></span>
     
-    <span data-ttu-id="8ced0-114">Pärast müügitellimuse loomist asenduskaubale otsitakse müügilepinguid automaatselt ja kui on kehtiv müügileping, rakendatakse see müügitellimusele.</span><span class="sxs-lookup"><span data-stu-id="8ced0-114">After the sales order is created for the replacement item, sales agreements are automatically searched and if there is an applicable sales agreement, it is applied to the sales order.</span></span>
+    <span data-ttu-id="b5f58-114">Pärast müügitellimuse loomist asenduskaubale otsitakse müügilepinguid automaatselt ja kui on kehtiv müügileping, rakendatakse see müügitellimusele.</span><span class="sxs-lookup"><span data-stu-id="b5f58-114">After the sales order is created for the replacement item, sales agreements are automatically searched and if there is an applicable sales agreement, it is applied to the sales order.</span></span>
 
-## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a><span data-ttu-id="8ced0-115">Asendustellimuse loomine enne tagastatava kauba kättesaamist</span><span class="sxs-lookup"><span data-stu-id="8ced0-115">Create a replacement order before you receive an item that will be returned</span></span>
+## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a><span data-ttu-id="b5f58-115">Asendustellimuse loomine enne tagastatava kauba kättesaamist</span><span class="sxs-lookup"><span data-stu-id="b5f58-115">Create a replacement order before you receive an item that will be returned</span></span>
 
-1.  <span data-ttu-id="8ced0-116">Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-116">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
+1.  <span data-ttu-id="b5f58-116">Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Tagastustellimused** \> **Kõik tagastustellimused**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-116">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
 
-2.  <span data-ttu-id="8ced0-117">Looge uus tagastustellimus või valige tagastustellimus loendist, et avada vorm **Tagastustellimus – RMA-kood: %1, %2**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-117">Create a new return order, or select a return order from the list to open the **Return order - RMA number: %1, %2** form.</span></span>
+2.  <span data-ttu-id="b5f58-117">Looge uus tagastustellimus või valige tagastustellimus loendist, et avada vorm **Tagastustellimus – RMA-kood: %1, %2**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-117">Create a new return order, or select a return order from the list to open the **Return order - RMA number: %1, %2** form.</span></span>
 
-3.  <span data-ttu-id="8ced0-118">Klõpsake valikut **Otsi müügitellimust**, kui soovite tuvastada tagastatud kauba müügitellimuse.</span><span class="sxs-lookup"><span data-stu-id="8ced0-118">Click **Find sales order** if you want to identify the sales order for the returned item.</span></span> <span data-ttu-id="8ced0-119">Täitke vorm **Otsi müügitellimust** ja klõpsake seejärel valikut **OK**, et vorm sulgeda ja naasta vormile **Tagastustellimus – RMA-kood: %1, %2**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-119">Complete the **Find sales order** form and then click **OK** to close the form and return to the **Return order - RMA number: %1, %2** form.</span></span> <span data-ttu-id="8ced0-120">Tagastatud kauba müügitellimuse rida kopeeritakse tagastustellimusse.</span><span class="sxs-lookup"><span data-stu-id="8ced0-120">The sales order line for the returned item is copied to the return order.</span></span>
+3.  <span data-ttu-id="b5f58-118">Klõpsake valikut **Otsi müügitellimust**, kui soovite tuvastada tagastatud kauba müügitellimuse.</span><span class="sxs-lookup"><span data-stu-id="b5f58-118">Click **Find sales order** if you want to identify the sales order for the returned item.</span></span> <span data-ttu-id="b5f58-119">Täitke vorm **Otsi müügitellimust** ja klõpsake seejärel **OK**, et vorm sulgeda ja naasta vormile **Tagastustellimus – RMA-kood: %1, %2**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-119">Complete the **Find sales order** form and then click **OK** to close the form and return to the **Return order - RMA number: %1, %2** form.</span></span> <span data-ttu-id="b5f58-120">Tagastatud kauba müügitellimuse rida kopeeritakse tagastustellimusse.</span><span class="sxs-lookup"><span data-stu-id="b5f58-120">The sales order line for the returned item is copied to the return order.</span></span>
 
-4.  <span data-ttu-id="8ced0-121">klõpsake vormi **Loo müügitellimus** avamiseks valikut **Asendustellimus**.</span><span class="sxs-lookup"><span data-stu-id="8ced0-121">Click **Replacement order** to open the **Create sales order** form.</span></span>
+4.  <span data-ttu-id="b5f58-121">klõpsake vormi **Loo müügitellimus** avamiseks valikut **Asendustellimus**.</span><span class="sxs-lookup"><span data-stu-id="b5f58-121">Click **Replacement order** to open the **Create sales order** form.</span></span>
 
-5.  <span data-ttu-id="8ced0-122">Märkige ruut **Kopeeri tagastustellimuse read**, et kanda üle üksikasjad tagastustellimuselt, mille te selle müügitellimuse juurde vormil **Tagastustellimus – RMA number: %1, %2** valisite.</span><span class="sxs-lookup"><span data-stu-id="8ced0-122">Select the **Copy return order lines** check box to transfer details from the return order you selected on the **Return order - RMA number: %1, %2** form to this sales order.</span></span>
+5.  <span data-ttu-id="b5f58-122">Märkige ruut **Kopeeri tagastustellimuse read**, et kanda üle üksikasjad tagastustellimuselt, mille te selle müügitellimuse juurde vormil **Tagastustellimus – RMA number: %1, %2** valisite.</span><span class="sxs-lookup"><span data-stu-id="b5f58-122">Select the **Copy return order lines** check box to transfer details from the return order you selected on the **Return order - RMA number: %1, %2** form to this sales order.</span></span>
 
-6.  <span data-ttu-id="8ced0-123">Sisestage või muutke üksikasju vastavalt vajadusele.</span><span class="sxs-lookup"><span data-stu-id="8ced0-123">Enter or modify details, as required.</span></span>
+6.  <span data-ttu-id="b5f58-123">Sisestage või muutke üksikasju vastavalt vajadusele.</span><span class="sxs-lookup"><span data-stu-id="b5f58-123">Enter or modify details, as required.</span></span>
     
-    <span data-ttu-id="8ced0-124">Kui tuvastasite müügitellimuse 3. etapis ja kui tagastatud kauba müügitellimuse rida on lingitud müügilepinguga, kuvatakse väljal **Müügilepingu ID** automaatselt kauba asendustellimuse kehtiva müügilepingu identifikaator.</span><span class="sxs-lookup"><span data-stu-id="8ced0-124">If you identified the sales order in step 3, and if the sales order line for the returned item is linked to a sales agreement, the identifier of the applicable sales agreement for the item replacement order will be automatically displayed in the **Sales agreement ID** field.</span></span>
+    <span data-ttu-id="b5f58-124">Kui tuvastasite müügitellimuse 3. etapis ja kui tagastatud kauba müügitellimuse rida on lingitud müügilepinguga, kuvatakse väljal **Müügilepingu ID** automaatselt kauba asendustellimuse kehtiva müügilepingu identifikaator.</span><span class="sxs-lookup"><span data-stu-id="b5f58-124">If you identified the sales order in step 3, and if the sales order line for the returned item is linked to a sales agreement, the identifier of the applicable sales agreement for the item replacement order will be automatically displayed in the **Sales agreement ID** field.</span></span>
 
-7.  <span data-ttu-id="8ced0-125">Klõpsake **OK**, et sulgeda vorm **Müügitellimuse loomine**, ja avage vorm **Müügitellimus**, kus saate jätkata uue müügitellimuse teabe sisestamist.</span><span class="sxs-lookup"><span data-stu-id="8ced0-125">Click **OK** to close the **Create sales order** form and open the **Sales order** form, where you can continue to enter information for the new sales order.</span></span> <span data-ttu-id="8ced0-126">Mis tahes kehtiva tagastustellimuse read kopeeritakse uude müügitellimusse.</span><span class="sxs-lookup"><span data-stu-id="8ced0-126">Any applicable return order lines will be copied to the new sales order.</span></span> 
+7.  <span data-ttu-id="b5f58-125">Klõpsake **OK**, et sulgeda vorm **Müügitellimuse loomine**, ja avage vorm **Müügitellimus**, kus saate jätkata uue müügitellimuse teabe sisestamist.</span><span class="sxs-lookup"><span data-stu-id="b5f58-125">Click **OK** to close the **Create sales order** form and open the **Sales order** form, where you can continue to enter information for the new sales order.</span></span> <span data-ttu-id="b5f58-126">Mis tahes kehtiva tagastustellimuse read kopeeritakse uude müügitellimusse.</span><span class="sxs-lookup"><span data-stu-id="b5f58-126">Any applicable return order lines will be copied to the new sales order.</span></span> 
     
-    <span data-ttu-id="8ced0-127">Kui müügilepingu identifikaator kuvatakse automaatselt väljal **Müügilepingu ID**, siis on müügileping kauba asendustellimuse puhul müügitellimuse päisega lingitud.</span><span class="sxs-lookup"><span data-stu-id="8ced0-127">If the identifier of the sales agreement is automatically displayed in the **Sales agreement ID** field, then the sales agreement has been linked to the sales order header for the item replacement order.</span></span> <span data-ttu-id="8ced0-128">Kui müügilepingus on kehtiv kohustus, mis pole veel täidetud, ja müügitellimus luuakse enne müügilepingu aegumist, luuakse müügilepingu ja müügitellimuse ridade vahel link.</span><span class="sxs-lookup"><span data-stu-id="8ced0-128">If there is an applicable commitment in the sales agreement that has not been fulfilled yet, and the sales order is created before the sales agreement expires, a link is established between the sales agreement line and the sales order line.</span></span> <span data-ttu-id="8ced0-129">Seetõttu kopeeritakse müügilepingu teave, nagu kaubahind, uuele müügitellimuse reale.</span><span class="sxs-lookup"><span data-stu-id="8ced0-129">Therefore, information from the sales agreement, such as item price, is copied to the new sales order line.</span></span> 
+    <span data-ttu-id="b5f58-127">Kui müügilepingu identifikaator kuvatakse automaatselt väljal **Müügilepingu ID**, siis on müügileping kauba asendustellimuse puhul müügitellimuse päisega lingitud.</span><span class="sxs-lookup"><span data-stu-id="b5f58-127">If the identifier of the sales agreement is automatically displayed in the **Sales agreement ID** field, then the sales agreement has been linked to the sales order header for the item replacement order.</span></span> <span data-ttu-id="b5f58-128">Kui müügilepingus on kehtiv kohustus, mis pole veel täidetud, ja müügitellimus luuakse enne müügilepingu aegumist, luuakse müügilepingu ja müügitellimuse ridade vahel link.</span><span class="sxs-lookup"><span data-stu-id="b5f58-128">If there is an applicable commitment in the sales agreement that has not been fulfilled yet, and the sales order is created before the sales agreement expires, a link is established between the sales agreement line and the sales order line.</span></span> <span data-ttu-id="b5f58-129">Seetõttu kopeeritakse müügilepingu teave, nagu kaubahind, uuele müügitellimuse reale.</span><span class="sxs-lookup"><span data-stu-id="b5f58-129">Therefore, information from the sales agreement, such as item price, is copied to the new sales order line.</span></span> 
   
-
 
 
